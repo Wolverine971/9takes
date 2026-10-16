@@ -7,7 +7,7 @@ import type { Database } from '../../../database.types';
  * Resolve any cookie refresh while the response is still writable, then detach
  * background work from the request's auth storage. The captured token preserves
  * the caller's database permissions without refreshing cookies after return.
- * Identity must still come from safeGetSession/getUser, not this session payload.
+ * Identity must still come from safeGetSession, not this session payload.
  */
 export async function createBackgroundSupabaseClient(supabase: App.Locals['supabase']) {
 	const { data, error } = await supabase.auth.getSession();

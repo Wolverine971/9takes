@@ -1,0 +1,27 @@
+I've finished the repair stage for Grace Reiter. All seven items the verifier flagged are fixed, and the three output files pass the runner's checks. It's still uncertain whether she clears the 8.5 bar, since that depends on how the re-verify scores the writing.
+
+**The seven fixes:**
+- **Parody length:** it now says 42 minutes everywhere (body, FAQ, Type 9 paragraph). I checked YouTube directly: 2,533 seconds (42:13), posted 2025-11-19. The local Wisconsin paper also says 42 minutes; the Times rounded up to 45.
+- **Who praised her on Soresi's podcast:** the transcript has no speaker names and his co-host was there. So the article now says "one of the two hosts", "the hosts" and "a host" instead of crediting Soresi. Her own lines are unchanged.
+- **Soresi references:** every one now says which conversation it came from. That was the incomplete reviewer fix (unfamiliar-04).
+- **Hometown FAQ:** the Madison birth is now credited to the Leader-Telegram's reporting and her own 2022 "born in Verona, just south of Madison", not to her father.
+- **Jennifer Lawrence line:** "strangers… shouted" became "people on the street said".
+- **Closing:** it now says the "faking it" bit was about her appeal, not her work. The test of what she does with praise for her work is a separate question.
+
+**Changes aimed at the 8.3 score:**
+- I cut two one-guest clips: Philipps's "big in our house" and the Kyle MacLachlan line. Philipps is now introduced where she next appears, and the Tim Robinson link moved into the bio.
+- In the Type 6 vs Type 3 argument, I swapped the Philipps line for her old castmates' account that she takes a question back if they don't answer at once. That line could be read as ordinary modesty; the castmates' account comes from people who know her, so it's a stronger point.
+- I tightened the stage-fright section: her journal moved into the Six-vs-Three argument, and her "dread before, fine after" line now sits next to the showcase preparation.
+- "What the type doesn't explain" now runs as connected paragraphs instead of a list of one-liners.
+- I replaced "In about a year" with exact dates. The description now says "who joined SNL in 2026" instead of "the SNL comedian", so it stays true if she leaves the show.
+
+**Still open:**
+- **Length:** the article is 3,842 words against a ~3,500 target, about the same as before. What's left is mostly context the six reviewers required, so I stopped cutting. The verifier may still mark down the writing for it.
+- **Not checked against audio:** the turn-by-turn speaker order in the Afualo episode, and whether Soresi was actually in the Ginger Twinsies cast. Both are logged in the evidence file for the next refresh.
+
+All 123 quotes still match the saved transcripts word for word. Nothing was published, and I didn't touch the live draft or any file outside the run directory.
+
+Files are in `docs/content-analysis/pipeline-logs/2026-10-16_06-00-03-204_grace-reiter/`:
+- `repair.md`
+- `evidence-repair.json`
+- `resolution-repair.json`

@@ -1,0 +1,86 @@
+{
+  "schema_version": 3,
+  "role": "future",
+  "content_sha256": "9d2e4c1d4406678a0da96bdb18a656baf8d50292529c968214f1a988931138af",
+  "evidence_sha256": "c7ae736ca5236b795795c3c5bc88b016faa016fbbbf413a85dfe6557e5049911",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "future-01",
+      "severity": "major",
+      "passage": "The two readings make different predictions from here. If Reiter is a Three, a season of applause will teach her to believe it. If she is a Six, the applause will keep feeling like something to hand to someone else.",
+      "problem": "The closing test counts growing comfort with praise as Type 3 evidence, but the record already shows the aversion easing, and both witnesses describe it as habituation. In the April 2026 Zavidow episode (S42 0:08:35-0:08:47) he says \"like you got to get used to it\" (the draft cuts this line). She answers \"I feel like I'm good at it now\", he says \"you're getting better\", and later in the episode she says she no longer thinks about turning to God (C41). Afualo's own closing line predicts that repetition alone will stop the grimace. Someone of any type, aged 25 to 30 and applauded on network TV for a season, would plausibly get used to compliments. On the article's own terms, ordinary maturation would flip the type at the next refresh. The present-tense type answer (\"she pushes praise away, wishes for someone or something to hold her success\") would then read as false, even though the 2025-2026 behavior it rests on stays true. C110's review trigger inherits the same confound.",
+      "acceptance_test": "(1) The closing no longer names learning to believe the applause as the Three outcome. Any forward-looking signal is one habituation would not produce by itself, e.g. whether new success becomes the next metric or goal versus being attributed outward to people, preparation or structure, or what she says she is protecting when she turns work down. (2) The type argument mentions the documented April 2026 easing once and says a fading discomfort with compliments would not by itself settle the type. (3) The type answer or the paragraph directly after it dates the pattern (e.g. \"in 2025 and 2026\"), so the central description stays true if the habit fades. (4) C110's review_trigger is rewritten to match the new signal."
+    },
+    {
+      "id": "future-02",
+      "severity": "minor",
+      "passage": "When she can describe a hard week there at length, will she credit the response (Three), or the castmates, preparation and someone in charge who got her through it (Six)?",
+      "problem": "This is billed as \"the clearest test\", but crediting castmates, writers and the show's leadership is the standard script for any SNL cast member speaking to the press. A refresh would read routine professional humility as Six confirmation, which is the incentive comparison the standard asks for. The test is also tied to SNL (\"there\"), and featured players can leave after a single season, so by 2028-2031 the question may refer to a job she no longer has. C101's trigger repeats both problems.",
+      "acceptance_test": "The settle question (a) names a setting where the press script is weak, such as an unscripted long-form podcast or her own channel rather than network promotion. (b) It says what a Three answer and a Six answer would each sound like beyond crediting colleagues, e.g. whether she describes a low point as a threat to her standing or as fear of being found out or losing support, and what she turned to. (c) It is worded to work whether or not she is still on SNL at the next refresh, e.g. \"her first hard stretch in network television\". C101's review_trigger is updated to match."
+    },
+    {
+      "id": "future-03",
+      "severity": "major",
+      "passage": "premieres on October 26, 2026. The New York Times reports that Reiter",
+      "problem": "This FAQ answer (structured-data metadata) uses the future tense for a release ten days after the accuracy check. The draft is unpublished and must still pass edit and verify, so it will probably go live on or after October 26, 2026, and be wrong from day one. The same answer relies on pre-release credits (\"The New York Times reports that Reiter stars in it and is also a writer and director\"), which are tracked by C14 but not yet confirmed against released credits.",
+      "acceptance_test": "No body, FAQ, title or description text uses the future tense for a dated event. The Minimum Wage FAQ is written so it stays true after the date (\"was scheduled to premiere on October 26, 2026\" with the order date, or \"premiered on October 26, 2026\" only if the edit/verify stage confirms the premiere). If the edit stage runs after the premiere, writer/director credits are checked against the released credits; otherwise they stay attributed to the Times."
+    },
+    {
+      "id": "future-04",
+      "severity": "minor",
+      "passage": "The girl who could not sing in front of a pianist now performs live on network television.",
+      "problem": "\"now performs\" is a current-status claim that expires when she leaves SNL (C60 tracks it, but the prose can simply be dated). The SNL FAQ has the same problem: \"At 25 she is the show's first cast member born in the 21st century\" uses the present tense for both age and membership. The body's dated version (\"At 25, The New York Times noted, she was...\") already shows the durable form.",
+      "acceptance_test": "Both lines use dated or past-tense wording, e.g. \"by the fall of 2026 was performing live on network television\" and \"At 25, she became the show's first cast member born in the 21st century\". A search of the body and FAQs finds no other present-tense SNL membership or age claim (\"now\", \"currently\", \"is a cast member\", \"at 25 she is\")."
+    },
+    {
+      "id": "future-05",
+      "severity": "minor",
+      "passage": "Her father said in September 2026 that SNL was not letting her give interviews, and none had appeared by mid-October.",
+      "problem": "\"mid-October\" has no year, and the status will probably be outdated soon after publication. A reader in 2031 can't tell when the \"clearest test is still ahead\" framing was written.",
+      "acceptance_test": "The sentence reads \"mid-October 2026\" (or another absolute date) and is clearly a dated status. If the edit or verify stage finds a post-casting long-form interview, either that interview is used or the sentence is updated to say what it shows."
+    },
+    {
+      "id": "future-06",
+      "severity": "minor",
+      "passage": "This analysis follows what she does when the goal starts arriving, across about four years of her interviews and podcast episodes and the testimony of people who live and work with her.",
+      "problem": "\"about four years\" is counted from an unstated date and overstates how spread out the evidence is. The discriminating evidence (praise aversion, the checking loop, the downfall line) falls almost entirely between January 2025 and September 2026, the window in which her career moved from TikTok to HBO and SNL. A future reader needs that window to judge how much of the portrait is a reaction to a sudden rise. \"people who live and work with her\" is present tense for relationships that are already changing: the podcast producer's show ended in May 2026, and the roommate arrangement is as of April 2026.",
+      "acceptance_test": "The sentence gives an absolute span that shows where the weight sits (e.g. \"from 2022 to 2026, most of it from 2025 and 2026\") and puts relationships in dated or past form (e.g. \"people who lived and worked with her\")."
+    },
+    {
+      "id": "future-07",
+      "severity": "minor",
+      "passage": "she told the local [_Passion Pod_](https://downloads.pod.co/dd47e031-3896-47f1-8ac5-ce83f089122f/b5816dc0-61ed-41ac-8eca-e06d4e86e438.mp3)",
+      "problem": "The 2022 interview link is a raw hosting-CDN mp3, which breaks when a show changes hosts and downloads a file instead of opening a page. An episode landing page exists: an iTunes lookup on 2026-10-16 returned \"Episode 89 Grace Reiter (TikTok Comedian)\", released 2022-06-13, at https://podcasts.apple.com/us/podcast/episode-89-grace-reiter-tiktok-comedian/id1484505634?i=1000566209332. That matches the Apple link the draft already uses for the December 2024 episode. The frontmatter citations also list a raw RSS feed (https://feeds.megaphone.fm/tep), which has the same five-year fragility.",
+      "acceptance_test": "The body link points to an episode landing page (the Apple Podcasts URL above or an equivalent), and S18 records that URL, or records it alongside the mp3. Reader-facing citations use landing pages (show page, YouTube channel or Apple/Spotify show) rather than raw mp3 or RSS feed URLs."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Her usual confessions were bodily and gross, and this time, she said, she would \"steer away from gross ones cuz I've been doing gross all the time.\"",
+      "reason": "The hook is a dated, sourced May 2025 moment, not the SNL news. If the casting, Netflix or Twilight were removed, the opening and the insight it sets up would still work. That is the five-year shape the standard asks for."
+    },
+    {
+      "passage": "She has told the choir story at least three times, in January 2025, [July 2025](https://www.youtube.com/watch?v=YatrI4ziPjA) and April 2026.",
+      "reason": "It dates a repeated self-narrative across contexts instead of resting on one telling. A future refresh can check whether the story keeps being told, and a reader can see it is a pattern, not a single anecdote."
+    },
+    {
+      "passage": "The case has limits. The follower ladder fits both types, because a Six can keep climbing when no number ever feels safe (\"It never feels real,\" she told Piso). Much of the record is comedy, where self-deprecation is the joke.",
+      "reason": "The stated limits will stay true whichever way later evidence points. That keeps the page honest if a future refresh moves toward Type 3."
+    },
+    {
+      "passage": "\"Because the people wanted me to do it. And I said, 'Fuck the people.'\"",
+      "reason": "Dated counterevidence (around 2020, restated five years later) that the type doesn't absorb. The \"What the type doesn't explain\" section ages well because it does not depend on the thesis being right."
+    },
+    {
+      "passage": "\"You're you're you're wincing when you say it, but you will believe it.\"",
+      "reason": "A memorable, third-party, dated closing image. Keep the moment even if the prediction that follows it is reframed under future-01."
+    }
+  ],
+  "assessment": "Five-year test: mostly passes. With the latest events removed (SNL casting, Netflix premiere, Twilight), the thesis still stands. The hook is May 2025, and the argument rests on dated 2025-2026 self-reports plus three independent witnesses (roommate, Soresi, Afualo). SNL appears as context and as a future test, not as proof. Most changing facts are dated and carry actionable triggers (C08, C12-C15, C52, C56, C57, C60), and the podcast, parody and Twilight FAQs give absolute dates. The weak point is the forward tests. Both settle signals are confounded in ways a 2027-2031 refresh would misread: future-01 (ordinary habituation, already visible in April 2026, is counted as Three evidence) and future-02 (SNL press humility is counted as Six evidence). Fix those, and the page can be reopened without flipping on noise. Smaller items are expiring tense: the Minimum Wage FAQ is in the future tense (future-03), \"now performs\" and \"At 25 she is\" (future-04), and a yearless \"mid-October\" (future-05). The evidence window is stated relatively (future-06) and there are fragile links (future-07). The meta_title's \"Why Praise Makes Her Uneasy\" is present tense on the same behavior as future-01; if the edit dates the pattern in the body, the title can stand as the thesis. Similarity advisory: tripped at 0.053 against Shyam Sankar on the shared phrase \"core emotion\". That is ordinary triad vocabulary, not reuse. The Inde Navarrette pair (0.049) shares only the general \"the evidence is what she does with X\" move. Compared directly, the arguments differ: Navarrette walks toward fear after being cast, while Reiter pushes approval away when it arrives. No finding. The recent run of young-performer Sixes (Navarrette, Zada, Reiter) is worth watching at the corpus level, but this argument is specific to her. Verification was limited to what this role needs: I reopened the saved S42 transcript at 0:08:27-0:08:56 to confirm the easing exchange and ran an iTunes lookup for the Passion Pod episode page. I did not reopen the other sources."
+}

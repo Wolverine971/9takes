@@ -1,0 +1,20 @@
+The Grace Reiter verification stage is done and the verdict is **revise**, which means the pipeline will hold the draft. The output is in `verification-repair.json` in the run folder, and no other run files were changed.
+
+**Why it's held: one factual error.** The article says comedian Gianmarco Soresi "worked with her on *Ginger Twinsies*." He didn't. Playbill's cast list doesn't include him, and on her own podcast he talks about the show as an outsider. Her castmate was his podcast co-host, Russell Daniels, who played Annie opposite her. The research stage had flagged this credit as a guess to check against a cast list, but the draft printed it as fact. Because of it, two earlier editor fixes (unfamiliar-03 and unfamiliar-04) don't pass. The fix is one phrase: describe Soresi as the podcast host who interviewed her twice.
+
+**Three smaller issues, none blocking:**
+- The line "she never did plays or musicals in school" leaves out that in October 2025 she described playing Elizabeth Proctor in a high-school production of *The Crucible*.
+- The "If I don't get a million" quote sits right after a December 2025 Page Six line, so readers will think it's from Page Six. It's actually from an August 2026 podcast.
+- The main argument for Type 6 over Type 3 leads with her "Is that okay?" line. That line could just as easily be read as her managing her image, which the article attributes to a Three, and it doesn't address that reading.
+
+**What held up:**
+- All 120+ quotes match the transcripts word for word, and the key passages say what the article claims in context.
+- I re-transcribed three passages from the December 2024 *Passion Pod* episode from its audio myself, and they came out identical.
+- Every newspaper and trade fact I re-fetched live checked out.
+- Of the 53 decisions the editor made on reviewer feedback, 51 hold up.
+
+**Scores:** evidence 8, Enneagram 8, originality 8.5, writing 8, durability 8.5, hook 9, findability 8. That's 8.2 overall. Even with the Soresi phrase fixed, it stays under the 8.5 release floor, so it will need another revision pass rather than just a one-line correction.
+
+**What I couldn't check:** YouTube blocked fresh caption and audio downloads (rate limits and IP blocks). So the YouTube quotes were checked against the captions the research stage saved earlier today, plus live video titles and dates. That limit and the remaining audio checks are listed as research tasks in the file.
+
+I also added the co-host mix-up to my notes on podcast attribution, so future checks look for a co-host before crediting the named host.

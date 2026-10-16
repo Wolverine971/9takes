@@ -8,10 +8,11 @@ declare namespace App {
 	// interface Platform {}
 }
 
-import type { SupabaseClient, User } from '@supabase/supabase-js';
+import type { SupabaseClient } from '@supabase/supabase-js';
 import type { Database } from '../database.types';
+import type { VerifiedAuth, VerifiedSession, VerifiedUser } from '$lib/types/auth';
 
-interface TakesUser extends User {
+interface TakesUser extends VerifiedUser {
 	first_name?: string;
 	last_name?: string;
 	email?: string;
@@ -26,9 +27,6 @@ interface TakesUser extends User {
 	admin?: boolean;
 	website?: string;
 	enneagram?: string;
-}
-interface VerifiedSession {
-	user: User;
 }
 interface SbSession {
 	user?: TakesUser;
@@ -95,9 +93,9 @@ declare global {
 		// interface Error {}
 		interface Locals {
 			supabase: SupabaseClient<Database>;
-			safeGetSession: () => Promise<{ session: VerifiedSession | null; user: User | null }>;
+			safeGetSession: () => Promise<VerifiedAuth>;
 			session: VerifiedSession | null;
-			user: User | null;
+			user: VerifiedUser | null;
 		}
 		interface PageData {
 			session: SbSession | null;

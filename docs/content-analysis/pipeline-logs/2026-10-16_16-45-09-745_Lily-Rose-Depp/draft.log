@@ -1,0 +1,26 @@
+Error: Reached max turns (60)
+[runner] Turn limit reached; resuming session 6f3e3219-13d7-403b-a418-0dca0e5788fe to write outputs
+I finished the draft stage for Lily-Rose Depp and wrote both requested files. Nothing else in the repo was changed and nothing was published.
+
+**The read:** the type answer commits to Type 6. She expected to lose her two biggest roles (*The Idol* and *Nosferatu*), then went further in them than anyone asked. When doubt hits, she leans on the people who chose her ("if they've chosen me, then hopefully I've been chosen for a reason"), and she likes walking into what scares her. The confidence (medium) is stated right after the answer. Type 4, her strongest rival, gets its own "Why not Type 4?" section using her darkest lines, and it notes that 9takes reads her father, Johnny Depp, as a Four. Types 3 and 9 are covered briefly.
+
+**The story:** it opens on her *Nosferatu* audition over Zoom, where she threw paper towels and books around a room and Robert Eggers ended up in tears. It closes on *Werwulf* (due in US theaters December 25, 2026) and names what to listen for in its press: whether she credits the people around her (Six) or a feeling she found in herself (Four). Her standing by Sam Levinson after Rolling Stone's March 2023 report is the main test of the loyalty reading. Her silence during her father's 2022 trial is shown honestly as a complication.
+
+**Checks:**
+- The pipeline's draft check finds no problems: 3,625 words, 10 sections, and a 56-word type answer.
+- The evidence validator passes: 97 claims across the same 33 sources, each tied to an exact passage in the page or its frontmatter.
+- All 84 quotes match the saved source texts word for word. Every quote in a claim's passage also appears in that claim's own sources. Quotes printed in two halves were checked by hand to make sure they really sit together in the source.
+- The readability audit flags nothing.
+- The check against other Type 6 pages first flagged one shared phrase about the core emotion, also used on the Grace Reiter page. I reworded it, and the check now passes.
+- The page is unpublished and marked as a draft. There were no earlier blockers to carry over.
+
+**Things the later stages should know:**
+- **Length:** at about 3,600 words, the editor should cut before adding. Past edit stages have added roughly 800 words, which would push it near the 4,500 limit.
+- **Left out on purpose:** her eating-disorder disclosure, anything from when she was under 18 (including her 2016 post defending her father), labels for her sexuality, and her relationship with 070 Shake. I dropped seven research claims the page doesn't use and kept all their sources.
+- **Sensitive material:** the 2022 trial appears only as the moment she stayed silent, with no allegations or outcomes. The Rolling Stone report is attributed only through the magazine's own later summary and HBO's denial; the original report was never opened. Reviewers may want a neutral news source confirming the trial took place.
+- **Not used:** Eggers's "feral" quote, because no one has found where he originally said it.
+- **Still open:** retest the Six vs. Four call against the *Werwulf* press after it opens. Her age (in the FAQs), the *Alpha Gang* release and the *Werwulf* release dates are tagged as time-sensitive, each with a note on when to recheck.
+
+Files are in `docs/content-analysis/pipeline-logs/2026-10-16_16-45-09-745_Lily-Rose-Depp/`:
+- `draft.md`
+- `evidence-draft.json`

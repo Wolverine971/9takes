@@ -1,0 +1,209 @@
+{
+  "target": {
+    "person": "grace-reiter",
+    "type": "6",
+    "units": 9,
+    "file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-16_06-00-03-204_grace-reiter/draft.md"
+  },
+  "comparison_set": [
+    {
+      "person": "shyam-sankar",
+      "date": "2026-10-13",
+      "units": 14
+    },
+    {
+      "person": "maleah-joi-moon",
+      "date": "2026-10-12",
+      "units": 10
+    },
+    {
+      "person": "joseph-zada",
+      "date": "2026-09-12",
+      "units": 13
+    },
+    {
+      "person": "Arthur-Mensch",
+      "date": "2026-09-10",
+      "units": 42
+    },
+    {
+      "person": "inde-navarrette",
+      "date": "2026-09-10",
+      "units": 11
+    },
+    {
+      "person": "zach-bryan",
+      "date": "2026-09-10",
+      "units": 39
+    },
+    {
+      "person": "Nathan-Fielder",
+      "date": "2026-09-09",
+      "units": 27
+    },
+    {
+      "person": "Patrick-Mahomes",
+      "date": "2026-09-08",
+      "units": 43
+    }
+  ],
+  "n_requested": 8,
+  "noise_floor": {
+    "pairs_compared": 1791,
+    "median": 0,
+    "p90": 0,
+    "p99": 0.007,
+    "max": 0.053
+  },
+  "trip_threshold": 0.04,
+  "tripped": true,
+  "trip_pairs": [
+    {
+      "score": 0.053,
+      "other_person": "shyam-sankar",
+      "shared_phrases": [
+        "core emotion"
+      ],
+      "target": "[diagnosis] whose core emotion is fear.",
+      "other": "[diagnosis] The Enneagram groups its nine types by core emotion"
+    }
+  ],
+  "per_draft_max": [
+    {
+      "person": "shyam-sankar",
+      "date": "2026-10-13",
+      "units": 14,
+      "maxScore": 0.053
+    },
+    {
+      "person": "inde-navarrette",
+      "date": "2026-09-10",
+      "units": 11,
+      "maxScore": 0.049
+    },
+    {
+      "person": "Patrick-Mahomes",
+      "date": "2026-09-08",
+      "units": 43,
+      "maxScore": 0.02
+    },
+    {
+      "person": "Nathan-Fielder",
+      "date": "2026-09-09",
+      "units": 27,
+      "maxScore": 0.014
+    },
+    {
+      "person": "maleah-joi-moon",
+      "date": "2026-10-12",
+      "units": 10,
+      "maxScore": 0.011
+    },
+    {
+      "person": "joseph-zada",
+      "date": "2026-09-12",
+      "units": 13,
+      "maxScore": 0.011
+    },
+    {
+      "person": "zach-bryan",
+      "date": "2026-09-10",
+      "units": 39,
+      "maxScore": 0.008
+    },
+    {
+      "person": "Arthur-Mensch",
+      "date": "2026-09-10",
+      "units": 42,
+      "maxScore": 0.007
+    }
+  ],
+  "top_pairs": [
+    {
+      "score": 0.053,
+      "other_person": "shyam-sankar",
+      "shared_phrases": [
+        "core emotion"
+      ],
+      "target": "[diagnosis] whose core emotion is fear.",
+      "other": "[diagnosis] The Enneagram groups its nine types by core emotion"
+    },
+    {
+      "score": 0.049,
+      "other_person": "inde-navarrette",
+      "shared_phrases": [],
+      "target": "[diagnosis] The deciding question is what she does when approval actually arrives.",
+      "other": "[diagnosis] The stronger evidence is what she did with the fear once cast."
+    },
+    {
+      "score": 0.02,
+      "other_person": "Patrick-Mahomes",
+      "shared_phrases": [],
+      "target": "[diagnosis] Her ambition is real and long-running",
+      "other": "[diagnosis] Its signature is that the most anxious person in the room becomes the steadiest one when the crisis is real"
+    },
+    {
+      "score": 0.017,
+      "other_person": "inde-navarrette",
+      "shared_phrases": [],
+      "target": "[diagnosis] and that case gets its own section below.",
+      "other": "[diagnosis] \" and that \"something that [ Obsession ] has done for me is heal that\" (Variety's Up Next"
+    },
+    {
+      "score": 0.014,
+      "other_person": "Nathan-Fielder",
+      "shared_phrases": [],
+      "target": "[diagnosis] Reiter's fear shows up when things go well",
+      "other": "[diagnosis] Fielder's keeps arriving with an audience attached."
+    },
+    {
+      "score": 0.013,
+      "other_person": "Patrick-Mahomes",
+      "shared_phrases": [],
+      "target": "[diagnosis] whose core emotion is fear.",
+      "other": "[diagnosis] and whose answer is to have already lived it."
+    },
+    {
+      "score": 0.011,
+      "other_person": "maleah-joi-moon",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Type 6 is built to anticipate trouble and to look for support that will hold.",
+      "other": "[diagnosis] and keeps testing whether they will hold."
+    },
+    {
+      "score": 0.011,
+      "other_person": "joseph-zada",
+      "shared_phrases": [],
+      "target": "[diagnosis] Reiter's fear shows up when things go well",
+      "other": "[diagnosis] Zada's record favors the Six mainly through what settles him."
+    },
+    {
+      "score": 0.011,
+      "other_person": "shyam-sankar",
+      "shared_phrases": [],
+      "target": "[diagnosis] the ego she is \"terrified of.\" The read is medium-confidence.",
+      "other": "[diagnosis] Two things cut against the read from the start."
+    },
+    {
+      "score": 0.011,
+      "other_person": "Patrick-Mahomes",
+      "shared_phrases": [],
+      "target": "[diagnosis] whose core emotion is fear.",
+      "other": "[diagnosis] a man whose first instinct is to imagine the moment going wrong"
+    },
+    {
+      "score": 0.009,
+      "other_person": "Patrick-Mahomes",
+      "shared_phrases": [],
+      "target": "[diagnosis] Reiter's fear shows up when things go well",
+      "other": "[diagnosis] be the Grim Reaper and go get it"
+    },
+    {
+      "score": 0.009,
+      "other_person": "maleah-joi-moon",
+      "shared_phrases": [],
+      "target": "[diagnosis] The deciding question is what she does when approval actually arrives.",
+      "other": "[diagnosis] A Type 3 measures herself by what she achieves and fears failing in public."
+    }
+  ]
+}

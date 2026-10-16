@@ -1,0 +1,201 @@
+{
+  "target": {
+    "person": "lily-rose-depp",
+    "type": "6",
+    "units": 10,
+    "file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-16_16-45-09-745_Lily-Rose-Depp/draft.md"
+  },
+  "comparison_set": [
+    {
+      "person": "grace-reiter",
+      "date": "2026-10-16",
+      "units": 8
+    },
+    {
+      "person": "shyam-sankar",
+      "date": "2026-10-13",
+      "units": 14
+    },
+    {
+      "person": "maleah-joi-moon",
+      "date": "2026-10-12",
+      "units": 10
+    },
+    {
+      "person": "joseph-zada",
+      "date": "2026-09-12",
+      "units": 13
+    },
+    {
+      "person": "Arthur-Mensch",
+      "date": "2026-09-10",
+      "units": 42
+    },
+    {
+      "person": "inde-navarrette",
+      "date": "2026-09-10",
+      "units": 11
+    },
+    {
+      "person": "zach-bryan",
+      "date": "2026-09-10",
+      "units": 39
+    },
+    {
+      "person": "Nathan-Fielder",
+      "date": "2026-09-09",
+      "units": 27
+    }
+  ],
+  "n_requested": 8,
+  "noise_floor": {
+    "pairs_compared": 1640,
+    "median": 0,
+    "p90": 0,
+    "p99": 0.016,
+    "max": 0.174
+  },
+  "trip_threshold": 0.064,
+  "tripped": false,
+  "trip_pairs": [],
+  "per_draft_max": [
+    {
+      "person": "Arthur-Mensch",
+      "date": "2026-09-10",
+      "units": 42,
+      "maxScore": 0.174
+    },
+    {
+      "person": "shyam-sankar",
+      "date": "2026-10-13",
+      "units": 14,
+      "maxScore": 0.068
+    },
+    {
+      "person": "Nathan-Fielder",
+      "date": "2026-09-09",
+      "units": 27,
+      "maxScore": 0.034
+    },
+    {
+      "person": "inde-navarrette",
+      "date": "2026-09-10",
+      "units": 11,
+      "maxScore": 0.028
+    },
+    {
+      "person": "grace-reiter",
+      "date": "2026-10-16",
+      "units": 8,
+      "maxScore": 0.025
+    },
+    {
+      "person": "maleah-joi-moon",
+      "date": "2026-10-12",
+      "units": 10,
+      "maxScore": 0.021
+    },
+    {
+      "person": "zach-bryan",
+      "date": "2026-09-10",
+      "units": 39,
+      "maxScore": 0.009
+    },
+    {
+      "person": "joseph-zada",
+      "date": "2026-09-12",
+      "units": 13,
+      "maxScore": 0.006
+    }
+  ],
+  "top_pairs": [
+    {
+      "score": 0.174,
+      "other_person": "Arthur-Mensch",
+      "shared_phrases": [],
+      "target": "[diagnosis] This is a read of her public record",
+      "other": "[diagnosis] That is a reading of public evidence rather than a diagnosis"
+    },
+    {
+      "score": 0.068,
+      "other_person": "shyam-sankar",
+      "shared_phrases": [],
+      "target": "[diagnosis] Sixes scan ahead for what could go wrong",
+      "other": "[diagnosis] They manage it by committing to what they trust and watching for what could break it."
+    },
+    {
+      "score": 0.034,
+      "other_person": "Nathan-Fielder",
+      "shared_phrases": [
+        "public record"
+      ],
+      "target": "[diagnosis] This is a read of her public record",
+      "other": "[diagnosis] the public record here is performed and edited."
+    },
+    {
+      "score": 0.029,
+      "other_person": "Arthur-Mensch",
+      "shared_phrases": [],
+      "target": "[diagnosis] and circumstance explains part of every pattern below.",
+      "other": "[diagnosis] Sixes interrogate every promise to find out which part of it is load-bearing."
+    },
+    {
+      "score": 0.028,
+      "other_person": "inde-navarrette",
+      "shared_phrases": [],
+      "target": "[diagnosis] expects to lose the parts she wants",
+      "other": "[diagnosis] The part came after she lost her series-regular role"
+    },
+    {
+      "score": 0.025,
+      "other_person": "grace-reiter",
+      "shared_phrases": [],
+      "target": "[diagnosis] This is a read of her public record",
+      "other": "[diagnosis] the ego she is \"terrified of.\" Her ambition points to Type 3"
+    },
+    {
+      "score": 0.022,
+      "other_person": "Arthur-Mensch",
+      "shared_phrases": [],
+      "target": "[diagnosis] This is a read of her public record",
+      "other": "[diagnosis] \"you can basically run it on your own terms.\" As procurement advice this is unremarkable."
+    },
+    {
+      "score": 0.022,
+      "other_person": "grace-reiter",
+      "shared_phrases": [],
+      "target": "[diagnosis] look for someone or something solid to lean on",
+      "other": "[diagnosis] than because of how often she asks permission and what she leans on when she is scared."
+    },
+    {
+      "score": 0.021,
+      "other_person": "maleah-joi-moon",
+      "shared_phrases": [],
+      "target": "[diagnosis] and steadies herself by trusting the people who chose her.",
+      "other": "[diagnosis] A Type 3 measures herself by what she achieves and fears failing in public."
+    },
+    {
+      "score": 0.021,
+      "other_person": "shyam-sankar",
+      "shared_phrases": [
+        "walk straight"
+      ],
+      "target": "[diagnosis] Then she walks straight into the roles that scare her.",
+      "other": "[diagnosis] Others walk straight at what worries them and come across as the boldest person in the room."
+    },
+    {
+      "score": 0.02,
+      "other_person": "grace-reiter",
+      "shared_phrases": [],
+      "target": "[diagnosis] because of her pull toward darkness and the misunderstood.",
+      "other": "[diagnosis] The Six leads less because of how she takes a compliment"
+    },
+    {
+      "score": 0.02,
+      "other_person": "inde-navarrette",
+      "shared_phrases": [],
+      "target": "[diagnosis] Nearly all of that record is interviews given while she was promoting something",
+      "other": "[diagnosis] given largely in interviews between May and September 2026 while she promoted a film about a woman who loses control of herself."
+    }
+  ]
+}

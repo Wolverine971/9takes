@@ -1,0 +1,16 @@
+I wrote the critic review for the Grace Reiter draft to `review-critic.json` in the run directory. It passes the pipeline's review schema, the hashes are copied from the request, and every quoted passage matches the draft exactly. No other files were touched.
+
+**Verdict:** the draft's research is strong and often honest, but the main argument for Type 6 over Type 3 is weaker than the article presents it. I rechecked the key quotes against the saved transcripts. Four of the main pieces of evidence don't hold up in context:
+
+- **The closing "wincing" scene (major):** the "line of praise" was a self-mocking boast inside a bit, and her next line accepts the host's challenge ("we're doing it"). The closing prediction ("a Three will learn to believe the applause") doesn't separate the two types either. Her 2026 interviews already show her getting comfortable with praise.
+- **"Three people noticed it independently" (major):** only her roommate actually describes her disliking compliments. Gianmarco Soresi said she underplayed the parody before he saw it, and seconds after her "I'm sorry" she accepted his compliment ("I'll take it"). The article leaves that out.
+- **"After her biggest hit predicts her own downfall" (major):** the body admits this was half a joke about an embarrassing story, but the Type 3 section and its FAQ use it as firm evidence anyway.
+- **"Not a fear of failure" (major):** the article quotes only her denial. In the full answer she concedes twice: "I guess maybe it kind of is." The article's own stage-fright and "embarrassed under a million views" material is fear of failing in public.
+
+Other findings:
+- **"Expects it to be taken from her" (major):** this appears in the type answer and FAQ, but no source supports it. Her actual words are about fearing her own ego and her "own hand."
+- **Type 1 is dismissed too fast (major):** much of the core material is about guilt, fairness and self-judgment. The article uses her "half-ass everything" line to rule out Type 1, then calls the same lazy label unreliable when ruling out Type 9.
+- **The strongest Type 3 evidence is missing (major):** her July 2025 overshare, "I feel like I don't exist unless I mean funny," isn't in the article. The research notes say Type 3 explains it better.
+- **One credit-sharing quote lacks context (minor).**
+
+The similarity check flagged a match, but it's standard type wording ("core emotion"), not reused argument. I protected five passages, including the opening hook, the "method and manners" caveat, and the "Fuck the people" story. Both risk flags stay on: contested typing and sensitive material. The draft's handling of sensitive topics (orientation, private third parties, health) is good and needs to survive the edit.

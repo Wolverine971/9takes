@@ -1,0 +1,15 @@
+I wrote the subject-role (fairness) review for the Grace Reiter draft to `docs/content-analysis/pipeline-logs/2026-10-16_06-00-03-204_grace-reiter/review-subject.json`. It passes the review schema in `scripts/lib/blogEditorial.js`. The draft and evidence files are unchanged, and nothing was published.
+
+The draft is careful on the big privacy calls. It leaves out sexuality, health, her grandmother, claims about private people, and her sister's own disclosures, and it doesn't name her parents. The quotes generally match the transcripts. The problems are in what got picked and how it's framed. None of them need new research; the missing context is already in the transcripts.
+
+**Four major findings:**
+- **The type answer and FAQs overstate.** They say she "expects [success] to be taken from her," but her only line on this was a sign-off joke: "it is my own hand that brings down myself." They also say she still wants someone to hold her success. In April 2026 she said she'd let that go: "this stuff is going to happen... whatever, move on." The draft cuts her answer off just before that part.
+- **Moments where she accepted praise are cut out.** Seconds after "I'm sorry" for Soresi's compliment, she said "I'll take it." That line is missing, and Soresi is then counted as a witness to her dislike of praise. The closing scene with Afualo also drops her reply that she'd "start faking it until I make it."
+- **The "checking loop" leans on lines with stripped context.** Two of its four examples come from times she said she was high. A third was about expecting to be called fat as Katniss, and the research notes say body-image remarks must not be used as evidence. This section is the second deciding test for Type 6 over Type 3.
+- **The parent material implies a family cause she rejected.** She said she "instilled in me" her stage fright; the draft instead frames her father's "the shakes" nickname as the cause. "I wish they punished me more" was her reassuring Busy Philipps, who had just asked if she was a bad mom. In that same exchange she said "I can't pinpoint trauma really anywhere," and the draft leaves that out.
+
+**Four minor findings:** "nobody knows me" was really about nobody being able to tell she was in a bad mood. Soresi's "it's like you're a completely non-functional human being" lost its "it's like." "She prayed" drops her "I'm not really religious at all." Her sister's vacation joke is used as proof of bossiness, but it was teasing about her as a sulky kid.
+
+I marked five passages to keep, including the "method and manners" caveat and the closing question about SNL. Both risk flags stay on: sensitive material (family, therapy, substances, religion) and close typing. The similarity check only flagged "core emotion," which is standard type wording, so it isn't a finding.
+
+I checked quotes against the saved auto-captions and Whisper text, which have no speaker labels; I didn't listen to the audio.

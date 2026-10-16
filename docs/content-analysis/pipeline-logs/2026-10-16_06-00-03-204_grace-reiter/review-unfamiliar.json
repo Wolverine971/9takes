@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "unfamiliar",
+  "content_sha256": "9d2e4c1d4406678a0da96bdb18a656baf8d50292529c968214f1a988931138af",
+  "evidence_sha256": "c7ae736ca5236b795795c3c5bc88b016faa016fbbbf413a85dfe6557e5049911",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "unfamiliar-01",
+      "severity": "major",
+      "passage": "A month later she posted _The Hunger Games (but better)_, a nearly 45-minute parody she directed and starred in.",
+      "problem": "The whole argument turns on how she handles a big success, but the body never says how big that success was. The parody's reach (nearly 14 million views by September 2026, per the NYT copy) and her Katniss role appear only in the FAQ. Minimum Wage, her Netflix series, is never introduced in the body, yet later sentences rely on both: \"because The Hunger Games was so successful\", \"after her biggest hit\" and \"In about a year her career moved from TikTok to HBO, Netflix and SNL\". A reader who doesn't know her can't feel the size of the success whose reception is the article's test, and meets \"Netflix\" with nothing for it to refer to.",
+      "acceptance_test": "The bio paragraph, or the first mention of the parody, gives its reach as a dated, sourced figure and says she played Katniss. Minimum Wage on Netflix (ordered April 2026, premiering October 26, 2026) is introduced before the \"TikTok to HBO, Netflix and SNL\" sentence. No sentence in the body relies on a credit or a level of success that the body hasn't already established."
+    },
+    {
+      "id": "unfamiliar-02",
+      "severity": "major",
+      "passage": "She apologizes for a compliment, wants God to hold the praise, borrows Madonna's idea that she only manages her talent, and after her biggest hit predicts her own downfall.",
+      "problem": "This summary of the discriminator states two pieces of evidence more strongly than the body already did. The body says the downfall line was \"half a joke, about an embarrassing story rather than a career\". In the S38 transcript at 0:50:40-0:51:22 it follows a bruised-shin overshare and ends with \"What? Yeah, I don't know either.\" The body also shows that by April 2026 she had dropped the God idea (\"I think I just like don't think about it\"), but this sentence puts it in the present tense. The type FAQ repeats \"after her biggest hit predicted her own downfall\" without the qualifier. Someone who reads only the Type 3 section or the FAQ gets a stronger claim than the article earned. Someone who reads everything sees the shift and trusts the deciding argument less.",
+      "acceptance_test": "Wherever it appears, the Type 3 paragraph and the type FAQ describe the downfall line with the same qualifier as the body (half-joking, about an overshare). The God item is in the past tense (for example, \"once wanted God to hold the praise\"). No summary sentence or FAQ answer states a piece of evidence more strongly than the section that presents it."
+    },
+    {
+      "id": "unfamiliar-03",
+      "severity": "minor",
+      "passage": "Her roommate and Soresi, who see her up close, describe the aversion independently, and in September 2026 a third host noticed it too.",
+      "problem": "\"A third host\" points ahead to Drew Afualo, who doesn't appear until the final section, and it makes the roommate sound like a host. Readers can't work out who is meant. The article never says how Soresi knows her: he is a podcast host who interviewed her twice and appeared once on her show. That leaves \"who see her up close\" unexplained, and the independence of these observers is exactly what this sentence relies on.",
+      "acceptance_test": "The sentence either names the third observer and the setting (Drew Afualo, in a conversation released September 23, 2026) or drops the reference to someone not yet introduced. Soresi is identified at his first mention in a way that makes \"up close\" accurate, or the phrase is changed to describe the relationship he actually has with her."
+    },
+    {
+      "id": "unfamiliar-04",
+      "severity": "minor",
+      "passage": "Her longtime collaborators, the brothers Ryan and Aidan Micho, see the same reflex.",
+      "problem": "In about 3,600 words a newcomer meets around 20 named people and a dozen shows. Among them are Slowikowska, Zavidow, Soresi (in three separate conversations), Philipps, MacLachlan, Yvette, Piso, Stewart, the Micho brothers, Wu, Sedeño, Afualo and Molly, plus Passion Pod, Couch Surfing, The Downside, Volley for Serve, I Never Liked You and Literally Life Changing. Most appear once, and few get even a word on how they know her. The Michos are called \"longtime collaborators\" with no hint of what they made together. \"She told Soresi in 2025\" doesn't say which of the three conversations it means. Readers can't tell close witnesses (roommate, sister, producer, collaborators) from one-off interviewers, and that difference is what makes \"the people around her describe the same thing\" persuasive.",
+      "acceptance_test": "Each recurring or testimony-bearing witness (Zavidow, Soresi, Stewart, the Michos, Afualo) gets a short phrase saying how they know her at first mention. For example, the Michos are her collaborators from American High, and Slowikowska could optionally be identified as a current SNL cast member (per RUSSH, September 2026). One-off interviewers whose identity adds nothing are attributed by show and date, with the link kept. Every Soresi reference makes clear which conversation it comes from."
+    },
+    {
+      "id": "unfamiliar-05",
+      "severity": "minor",
+      "passage": "Much of the record is comedy, where self-deprecation is the joke.",
+      "problem": "Someone who has never seen her work doesn't learn what a Grace Reiter bit looks like. The article mentions gross-out confessions, a Harry Styles fan-fiction parody and the Hunger Games parody, but never describes her comic persona or what made the parody land, and the only embed is podcast talk. The article's main caveats are that self-deprecation is the joke and that her risks happen \"inside a bit, where a character takes the hit\". Readers can't weigh them, or judge which quotes are bits, without some picture of the comedy.",
+      "acceptance_test": "One or two concrete, sourced sentences near the bio paragraph or the parody's introduction describe what her comedy does. Examples: RUSSH's \"self-deprecating, sometimes absurd\" description, a representative sketch premise, or how the parody plays off the source film. Optionally, a link or clip points to her own work. A first-time reader can then tell her on-screen persona from her podcast voice."
+    },
+    {
+      "id": "unfamiliar-06",
+      "severity": "minor",
+      "passage": "For a Six, safety comes from preparation, from obligations someone else sets and from trusted guides. That is where Reiter finds her footing.",
+      "problem": "\"The shakes\" opens on a vivid origin story (her father's nickname, the lost choir solo) and builds well to the SNL showcase. Then it turns to a separate thread: the journal wish for a mentor, wishing her parents had punished her more, the therapy list of mistakes. It closes on a definition of Type 6 that could sit in any profile, so the reader loses the stage-fright thread and is told the point instead of shown it. Similar type-definition closers end earlier sections too (\"For a Six, success can raise the stakes\" and \"This is the Six's checking loop\"), so section endings start to feel like a template.",
+      "acceptance_test": "The section either stays on stage fright and structure, or marks the turn to outside guidance openly. The guidance material could instead go where it supports the \"someone else holds it\" thread next to the God and Madonna material. The section's last sentence is specific to Reiter, a detail only she has, not a general statement about Sixes. At most one section ends by restating what a Six is."
+    },
+    {
+      "id": "unfamiliar-07",
+      "severity": "minor",
+      "passage": "Grace Reiter's 'real' overshare was guilt about her success.",
+      "problem": "The quoted word 'real' in the description comes from a line the body never prints: \"I think to me what really is an overshare is this\" (S23 0:09:04). The only place the body says \"real overshare\" is near the end, where she says \"the real overshare stuff would be like sad and like not funny\", meaning material she keeps back. A searcher who clicks through sees the phrase used for two opposite things.",
+      "acceptance_test": "Either the hook prints her framing line (\"I think to me what really is an overshare is this\") just before the guilt quote, which also sharpens the hook, or the description drops the quotation marks. The description and the body use \"real overshare\" the same way."
+    },
+    {
+      "id": "unfamiliar-08",
+      "severity": "minor",
+      "passage": "Reiter repeated a line of praise about herself. The host, Drew Afualo, was watching her face:",
+      "problem": "The final scene is the payoff, but readers aren't told what praise she was repeating, so the wince stays abstract. According to the S47 captions, Afualo called her \"unbelievably hilarious,\" and the exchange that followed included \"I'm a light\", but speaker labels are missing. Afualo also arrives at the climax with nothing to say who she is. \"Was watching her face\" adds a staging detail the record supports only by implication.",
+      "acceptance_test": "The ending names the compliment and quotes the line she repeated, with the speaker checked against the audio because the captions are unlabeled. It leaves out the follow-up joke about men, per the research sensitivity note. Afualo is identified in a short phrase. The staging is limited to what the recording shows: she noticed the wince."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "I feel so guilty with the success I have. I'm thinking about becoming a Christian.",
+      "reason": "A hook that needs no prior knowledge. It's surprising, specific and in her own words, and it sets up the article's question (why would success feel like something to give away?) without leaning on the SNL news."
+    },
+    {
+      "passage": "He tied it, unprompted, to the overshare from months before: \"It's the same thing of like why you wanted to find God.\"",
+      "reason": "A witness who lives with her links a household observation back to the hook. This is the moment a newcomer stops treating the opening as a one-off bit, and it pays off the article's structure."
+    },
+    {
+      "passage": "The girl who could not sing in front of a pianist now performs live on network television. What steadies her is structure.",
+      "reason": "A clean pivot that turns two childhood stories into the present stakes and names the next idea in five words. It's the best momentum sentence in the piece."
+    },
+    {
+      "passage": "Because the people wanted me to do it. And I said, 'Fuck the people.'",
+      "reason": "Real counterevidence that makes her a person rather than a type. It keeps the \"what the type doesn't explain\" section honest and memorable."
+    },
+    {
+      "passage": "The two readings make different predictions from here. If Reiter is a Three, a season of applause will teach her to believe it. If she is a Six, the applause will keep feeling like something to hand to someone else.",
+      "reason": "An ending that turns the typing into a test the reader can watch play out. It stays useful whichever way the evidence breaks and doesn't depend on her current SNL status."
+    }
+  ],
+  "assessment": "Read cold, the piece works. The hook is surprising and needs no context. \"This analysis follows what she does when the goal starts arriving\" gives a clear question. Sections move from deflecting praise, to bracing for a fall, to checking with others, to stage fright, so each adds a new facet rather than repeating the thesis. The counterweights (Midwestern manners, \"comedy 101\", how common fear of judgment is) and the \"what the type doesn't explain\" section give a newcomer a person, not a template. The paper-towel confrontation and \"Do you want me to only if you want me to?\" are the kind of details that stick. The ending is a testable prediction. The gaps are about orientation. The body never says how big the parody became and never introduces the Netflix series, though later sentences rely on both. About 20 named speakers arrive with almost no indication of how they know her, which blurs the close-witness testimony the argument needs. Her actual comedy is never shown, so the \"it's a bit\" caveat can't be weighed. The one trust issue is that the Type 3 summary and the type FAQ state the downfall line and the God wish more strongly than the body did. At 3,604 words the body runs slightly over the 3,500 target. The density of attributions (\"she told X on Y in Month Year\") slows the middle sections, and trimming one-off interviewers would help with both. Similarity: the tripped pair with shyam-sankar shares only \"core emotion\", which is ordinary type vocabulary and the house-standard triad lead. The near-trip with inde-navarrette is a shared sentence shape for a pivot (\"the deciding question is what she does when...\"), but the arguments differ: reception of approval here, handling fear after casting there. No meaningful reuse was found. The insight and details are specific to Reiter. Risk flags: contested typing (Six vs Three is close and the record is largely comic) and sensitive material (family, therapy) carry over from research and stay true. This review found no new sensitive allegation and no change to the thesis. Limits: I spot-checked transcript context only for S23 (0:08:48-0:09:12), S38 (0:50:40-0:51:22) and S47 (1:27:48-1:28:14), and I read the RUSSH copy (S51). I did not do a full evidence audit."
+}

@@ -24,6 +24,7 @@ import { recordSharedContentAccessEvent } from '$lib/server/contentAccessStore';
 import { runBestEffortTelemetry } from '$lib/server/bestEffortTelemetry';
 import { moveInjectedStylesAfterStylesheets } from '$lib/server/injectedStyleOrder';
 import { getSrcsetCandidatePath } from '$lib/server/srcsetPathRedirect';
+import { getVerifiedSession, requiresFreshUser } from '$lib/server/verifiedSession';
 
 import type { Handle } from '@sveltejs/kit';
 
@@ -51,6 +52,7 @@ export const handle: Handle = async ({ event, resolve }) => {
 		return srcsetCandidateResponse;
 	}
 
+	const authResponseHeaders = new Headers();
 	event.locals.supabase = createServerClient<Database>(
 		PUBLIC_SUPABASE_URL,
 		PUBLIC_SUPABASE_PUBLISHABLE_KEY,
@@ -60,9 +62,12 @@ export const handle: Handle = async ({ event, resolve }) => {
 			},
 			cookies: {
 				getAll: () => event.cookies.getAll(),
-				setAll: (cookiesToSet) => {
+				setAll: (cookiesToSet, headers) => {
 					for (const { name, value, options } of cookiesToSet) {
 						event.cookies.set(name, value, { ...options, path: '/' });
+					}
+					for (const [name, value] of Object.entries(headers)) {
+						authResponseHeaders.set(name, value);
 					}
 				}
 			}
@@ -121,29 +126,23 @@ export const handle: Handle = async ({ event, resolve }) => {
 	}
 
 	/**
-	 * Avoid `supabase.auth.getSession()` on the server. It reads the session
-	 * from cookies without authenticating the user object. Only call `getUser()`
-	 * when an auth cookie is present so Supabase validates the JWT first.
+	 * Verify ordinary reads locally with getClaims; retain a fresh Auth lookup for
+	 * writes and sensitive routes. Re-read cookies on every invocation so login
+	 * and password-recovery code exchanges can establish a session in this request.
 	 */
 	event.locals.safeGetSession = async () => {
 		if (!hasSupabaseAuthCookie(event.cookies)) {
 			return { session: null, user: null };
 		}
 
-		const {
-			data: { user },
-			error
-		} = await event.locals.supabase.auth.getUser();
-		if (error || !user) {
-			// JWT validation has failed
-			return { session: null, user: null };
-		}
-
-		return { session: { user }, user };
+		return getVerifiedSession(
+			event.locals.supabase.auth,
+			requiresFreshUser(event.request.method, event.route.id ?? event.url.pathname)
+		);
 	};
 
 	// Hot path: header typeahead fires on every keystroke and never reads the
-	// session, so skip the remote JWT validation (auth.getUser network call).
+	// session, so skip token verification entirely.
 	if (event.url.pathname === '/api/search/typeahead') {
 		event.locals.session = null;
 		event.locals.user = null;
@@ -255,6 +254,11 @@ export const handle: Handle = async ({ event, resolve }) => {
 			path: publicEditorialCachePath
 		});
 		response.headers.set('Cache-Control', CONTENT_GUARD_CACHE_CONTROL);
+	}
+	// A token refresh can write cookies even when no valid user is returned.
+	// Apply Supabase's private cache headers last, after editorial cache policy.
+	for (const [name, value] of authResponseHeaders) {
+		response.headers.set(name, value);
 	}
 	applySecurityHeaders(response.headers);
 

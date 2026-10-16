@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "fan",
+  "content_sha256": "9d2e4c1d4406678a0da96bdb18a656baf8d50292529c968214f1a988931138af",
+  "evidence_sha256": "c7ae736ca5236b795795c3c5bc88b016faa016fbbbf413a85dfe6557e5049911",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "fan-01",
+      "severity": "major",
+      "passage": "The girl who could not sing in front of a pianist now performs live on network television.",
+      "problem": "The stage-fright arc jumps from an eighth-grade choir rehearsal straight to SNL and skips the live record a fan knows. Stapleview was a live TikTok sketch show (LA Times, March 2022, S02). From July to October 2025 she performed Off-Broadway in Ginger Twinsies (NYT via Boston.com, S09; Wikipedia, S06), and afterward she said \"performing live every night was awesome\" (S46 0:34:38-0:34:42). Her father says she never did school plays or musicals (S05), so the Off-Broadway run, not SNL, is the real turning point. The draft uses the \"awesome\" line only in the novelty section and leaves the run out of the intro timeline, so the reader never sees the strongest evidence against a persistent stage fright. It also never asks whether she credits preparation and structure for getting through the run (which would support the Six reading) or simply enjoyed it. Possible lead: S39 0:43:49-0:44:02 has a Ginger Twinsies dread-then-fine story (\"I had like a sinus infection and it was like oh my god, I'm going to die. Nobody noticed.\"), but a \">>\" marker comes just before it, so check the speaker first.",
+      "acceptance_test": "The \"shakes\" section names Stapleview's live format and the July-October 2025 Off-Broadway run of Ginger Twinsies, sourced and dated. It either ties the \"performing live every night was awesome\" line to the stage-fright story or says how the Six reading accounts for it. The intro career timeline mentions the Off-Broadway run. No new claim about how she felt during the run appears without a quoted, speaker-checked source."
+    },
+    {
+      "id": "fan-02",
+      "severity": "major",
+      "passage": "Reiter's fear shows up when things go well: she pushes praise away, wishes for someone or something to hold her success, and expects it to be taken from her.",
+      "problem": "\"Taken from her\" makes the threat external, but the only quoted downfall prediction puts it inside her: \"it is my own hand that brings down myself\" (S38, February 2026). The other fears she names are her own ego growing (S23) and the danger of actually trying (S22). No source in the evidence record has her saying success will be taken away. A listener who knows the Episode 41 line will see the summary rewrite it. The same wording sits in the type FAQ (\"expects them to be taken from her\"), the field most likely to be quoted by search results and AI answers. Later the body gets it right (\"she looks for the fall\", \"predicts her own downfall\"), so the thesis statement and its evidence disagree.",
+      "acceptance_test": "The 60-word answer and the type FAQ describe the expected fall the way the sources do (for example, she braces for a fall or expects to undo it herself), or they cite a source in which she says success will be taken from her. The body answer, the FAQ and the type_hypothesis wording agree."
+    },
+    {
+      "id": "fan-03",
+      "severity": "minor",
+      "passage": "Of a live show she said, \"I'm always trying to like make people break cuz I'm like I want I need to know.\"",
+      "problem": "Wrong context. In S46 (0:34:43-0:35:07) she contrasts live theater, where \"you immediately know if something's working,\" with \"the Netflix thing,\" where people hold back laughter \"because we can't mess up sound.\" The make-people-break line is about trying to crack up a film crew that has to stay silent on the Minimum Wage set, not about a live audience. The point that she uses laughter as a gauge still stands, and is arguably stronger: she goes looking for the signal even where silence is the rule.",
+      "acceptance_test": "The quote is placed in its real setting (the Minimum Wage set, where the crew held back laughter for sound) or cut. The matching claim's inference and limits text no longer says \"about a live show.\""
+    },
+    {
+      "id": "fan-04",
+      "severity": "minor",
+      "passage": "that she was \"big in our house,\" where Philipps's daughters are fans, Reiter objected:",
+      "problem": "Philipps is introduced as a celebrity guest, but she co-produced Ginger Twinsies, the Off-Broadway show Reiter was in. In the same episode Philipps says that when she \"was asked to come on board as like a co-producer\" and saw Reiter was in it, she agreed (S30 0:04:46-0:05:14). So the praise Reiter refuses (\"that's not for me ... Like I'm for you guys\") came from someone who had backed her work, which makes the refusal more telling. Early in the same episode, after Philipps praises her, someone downplays the parody (\"we truly just like made it in like a weekend\", about 0:05:24-0:05:30). It may be Reiter, but the speaker is unlabeled.",
+      "acceptance_test": "Where Philipps is introduced, the article states her link to Reiter's work (co-producer of Ginger Twinsies), sourced to S30 or to reporting. Any added deflection quote from that episode is checked against the audio for speaker before it is printed."
+    },
+    {
+      "id": "fan-05",
+      "severity": "minor",
+      "passage": "In 2022 she was an original cast member of _Stapleview_, a live TikTok sketch show",
+      "problem": "Missing formative context. Stapleview's original seven-person cast included Jane Wickline (LA Times, S02). Wickline joined SNL as a featured player in 2024, the same year Reiter's showcase did not lead to a hire, and is now her castmate. That bears directly on Reiter's December 2024 remarks (\"obviously SNL is like the dream\", \"I don't know if I could handle that work\", preferring \"a one and done thing\"). The draft gives those remarks without naming the obvious ordinary reading, that she was softening a disappointment after not being hired, so the reader can't weigh it against the type reading.",
+      "acceptance_test": "Either the article notes, with a source for Wickline's 2024 hire, that a Stapleview castmate reached SNL first and now works beside her, stated as fact without guessing Reiter's feelings; or the editor records why it was left out. Either way, the December 2024 doubt is presented with its plain alternative (managing a disappointment after the showcase) beside the type reading."
+    },
+    {
+      "id": "fan-06",
+      "severity": "minor",
+      "passage": "In October 2025 she appeared on HBO's _The Chair Company_.",
+      "problem": "\"Appeared on\" undersells her best-known prestige credit: a recurring role as Tara, the \"controlling, abrasive fiancee\" of the main character's daughter, across six episodes (NYT via Boston.com, S09; Wikipedia, S06). The NYT piece on her SNL hire opens with that role. A reader can't judge the later MacLachlan and Yvette anecdotes without knowing how big the part was. The timeline also skips her 2021 virtual stand-up set on The Drew Barrymore Show (S09), her first national TV spot.",
+      "acceptance_test": "The timeline names the role (Tara, recurring), with a source. The 2021 Drew Barrymore appearance is optional. No sentence links the character's traits to Reiter's personality."
+    },
+    {
+      "id": "fan-07",
+      "severity": "minor",
+      "passage": "The host, Drew Afualo, was watching her face:",
+      "problem": "The source is an auto-caption transcript, and nothing in it shows where Afualo was looking. \"Was watching her face\" is staging inferred from \"you're wincing\", and the standard bars invented scene detail. The exchange is also mid-bit: just before it comes a laughing escalation (\"I'm a light. And I guess I can, you know, just get any man I want\", S47 1:28:00-1:28:05, speaker unlabeled), which anyone who watched the episode would know and which the closing doesn't signal. Separately, the Type 3 section dates Afualo's observation \"in September 2026\", but the draft itself says the conversation was recorded before the September 16 casting news. Only the release came in September.",
+      "acceptance_test": "\"Was watching her face\" is removed or sourced. The closing signals that the exchange was playful, without quoting the romance line (per the research sensitivity task). The \"third host\" sentence dates the release, or says the conversation was recorded before the casting news, instead of implying the observation happened in September."
+    },
+    {
+      "id": "fan-08",
+      "severity": "minor",
+      "passage": "She can be bossy, and she knows it.",
+      "problem": "The episode the closing relies on (S47) has two revealing details that a viewer would expect and the draft leaves out. First, after shooting Twilight (but better) in June 2026 she said: \"I like cried afterwards cuz I was like, I'm so sorry I made you guys do that. It was so long. It was so hard\" (0:04:57-0:05:11). That is the clearest recent example of her guilt toward the group, and it completes the bossiness portrait. Second, on directing a Minimum Wage episode, she called \"micromanaging everything\" \"really fun\", then said \"I am a princess. Like I want to be treated like a princess\" and \"I feel really bad, but like this is nice\" (0:43:54-0:44:26). The second detail cuts both ways: she enjoys star treatment (Type 3 evidence) and feels bad about it. Leaving it out makes the praise-aversion picture cleaner than the record is. The umbrella story that follows in that episode appears to be Afualo's.",
+      "acceptance_test": "At least one of the two passages is used, verbatim, in context and with the speaker checked, in the bossiness and complications material or the Type 3 section. Otherwise the editor records why they were left out. Nothing from the Gillette and umbrella exchange is attributed to Reiter unless the audio confirms she said it."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "\"I feel so guilty with the success I have. I'm thinking about becoming a Christian.\"",
+      "reason": "A distinctive, verified hook: the comic known for gross-out overshares chooses guilt about success as her real one. Read in context it is hers, not the guest's, and it sets up the whole argument."
+    },
+    {
+      "passage": "\"Well, what's funny is that you hate compliments more than anyone I know.\"",
+      "reason": "Testimony from someone who lives with her, paired with her own protest and his \"you're getting better\". It is the most persuasive single piece of evidence for the discriminator, and it keeps the change over time visible."
+    },
+    {
+      "passage": "She told her father, \"and then he called me the shakes.\" From then on, she said, she believed she had stage fright.",
+      "reason": "A specific, memorable formative detail told in her words and handled fairly (her warmth toward her father is kept). Exactly the kind of detail a fan would want preserved."
+    },
+    {
+      "passage": "\"Because the people wanted me to do it. And I said, 'Fuck the people.'\"",
+      "reason": "The best counterweight to the people-pleaser picture: a costly refusal of audience demand at her breakout. An editor tidying profanity should not cut it."
+    },
+    {
+      "passage": "The two readings make different predictions from here. If Reiter is a Three, a season of applause will teach her to believe it. If she is a Six, the applause will keep feeling like something to hand to someone else.",
+      "reason": "An ending that turns the discriminator into a testable prediction. It doesn't depend on the latest event and gives the next refresh something concrete to check."
+    }
+  ],
+  "assessment": "As an informed-reader proxy: the draft is unusually faithful to the source material and doesn't flatter her. It shows the hater, the bossy older sister, the credit-taking and the follower ladder. Spot checks against the research stage's saved caption and print texts matched: the MacLachlan acting line, the Ginger Twinsies \"work mode\" passage, the Philipps exchange, the Afualo closing and the NYT syndicated profile. The gaps a fan would notice are context, not invention. Her live-performance record (Stapleview, the 2025 Off-Broadway run) is missing from the stage-fright arc. Collaborators are introduced without their ties to her work (Philipps as Ginger Twinsies co-producer, Wickline as a Stapleview castmate who reached SNL first). The type answer turns her self-sabotage line into an external threat. Two-sided details from the closing source are left out. Similarity advisory: the trip pair is the house phrasing \"whose core emotion is fear\" (ordinary type vocabulary, and the site's standard triad lead). The Inde Navarrette match is a generic \"the deciding question is what she does when...\" move with a different argument behind it. No meaningful reuse. Limits: I read the saved auto-caption and Whisper texts, not the audio. Wickline's 2024 SNL hire comes from general knowledge, not an opened source, and the editor needs to source it before use. Speaker labels in S30 and S47 are inferred from turn order."
+}

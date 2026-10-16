@@ -1,0 +1,20 @@
+I wrote the Enneagram review for the Grace Reiter draft to `review-enneagram.json` in the run folder. It passes the review schema, its two content hashes match the request, and every quoted passage appears word-for-word in the draft. I changed nothing else and published nothing; the git state is the same as when I started.
+
+**Verdict:** Type 6 at medium confidence holds up, but the main argument for 6 over 3 is weaker than the draft claims. I left the risk flags as they were: contested typing and sensitive allegations stay on.
+
+**Main problems (5 major, 3 minor):**
+- **The 6-vs-3 test doesn't actually separate them.** The draft says a Three takes praise in and she pushes it away. But the draft itself raises the modest, image-managing kind of Three, and that kind also pushes praise away. In the same interview the draft quotes, her way of coping is "moving on, I got to do the next thing," which is the Three move the draft describes.
+- **A key quote drops her own hedge.** "I don't know if it's necessarily a fear of failure" continues in the transcript with "I guess maybe it kind of is."
+- **The type answer and FAQ overstate one point.** "Expects it to be taken from her" rests only on a half-joke about embarrassing herself, not on anyone taking her success.
+- **The Madonna line is used for 6, but its context points at least as much to 3.** It came up in a conversation about who owns ideas, not in reply to praise. Her stated reason was not wanting her self-worth tied to "the views and the likes."
+- **The One dismissal contradicts the Nine dismissal.** It treats her "lazy" self-label as real behavior, while the Nine paragraph argues the label is false. It also skips the guilt in the opening hook.
+- **Minor:**
+  - The "someone else has to tell me to do it" line is about motivation, not about seeking safety, and it fits a Nine.
+  - The closing prediction would be met under either type, and her comfort with praise is already improving.
+  - "I don't want to feel needy" is typical of a Two, so it can't be the reason she isn't one.
+
+**Worth keeping:** five passages are marked as protected, including "Reiter aims much of it at her own rise," the honest "the case has limits" paragraph, and the question about what she credits for getting through a hard SNL week.
+
+I checked the quotes the argument depends on against the cached transcripts. The wording is accurate; the problems are a missing hedge and missing context. The similarity flag is only the standard "core emotion" phrasing every profile uses, so I didn't count it as reuse.
+
+One note for the editor: the evidence record cites two lines the article never prints. "Truly just a shell" comes from a conversation about sexuality, which the sensitivity rule keeps out of the article. "I don't exist unless I mean funny" is softened in context.

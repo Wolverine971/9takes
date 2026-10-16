@@ -1,0 +1,20 @@
+{
+  "schema_version": 3,
+  "subject": "grace-reiter",
+  "mode": "create",
+  "role": "future",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_review_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-16_06-00-03-204_grace-reiter/draft.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-16_06-00-03-204_grace-reiter/evidence-draft.json",
+    "similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-16_06-00-03-204_grace-reiter/similarity.json"
+  },
+  "outputs": {
+    "review-future.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-16_06-00-03-204_grace-reiter/review-future.json"
+  },
+  "content_sha256": "9d2e4c1d4406678a0da96bdb18a656baf8d50292529c968214f1a988931138af",
+  "evidence_sha256": "c7ae736ca5236b795795c3c5bc88b016faa016fbbbf413a85dfe6557e5049911"
+}

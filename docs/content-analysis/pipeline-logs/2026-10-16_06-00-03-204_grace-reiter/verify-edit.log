@@ -1,0 +1,19 @@
+I finished the verify stage for Grace Reiter. The result is **revise**: the profile isn't release-eligible yet. The only file I wrote is `verification-edit.json` in the run directory. It passes the schema, and both hashes match the candidate and evidence.
+
+**What held up:**
+- **Quotes:** I checked all 114 quoted strings against the saved transcripts and articles. Every one is verbatim, apart from one where a caption's "[laughter]" tag was dropped.
+- **Context:** I reread about 45 key passages in context and they were faithful. That includes the risky attributions in the unlabeled captions: the hook's "ego" line and the "never be funny again" line are hers.
+- **Sources:** all 42 cited sources were opened and match. I also confirmed a few facts live: the upload date, that Twilight isn't out yet, and that she hasn't given a long interview since the casting.
+- **Editor's fixes:** 46 of the 47 jury fixes do what their reviewers asked. All 23 protected passages survive.
+
+**What blocks release (the gate shows three blockers):**
+1. **One fix is incomplete (unfamiliar-04).** The reviewer asked that every mention of the comedian Gianmarco Soresi say which conversation it came from. The therapy-list line ("she told Soresi, brought her therapist…") still doesn't.
+2. **Status is revise.** There are six minor fixes, all small edits:
+   - The parody runs 42:13, not "nearly 45 minutes." The article repeats the Times' rounding in the body, an FAQ and the Type 9 paragraph.
+   - Soresi's podcast had a co-host, Russell, in the room, and the captions don't say who's talking. So "you were really underplaying it," the directing praise and the *Psycho* comparison may not be Soresi's. Either check the audio or credit "the hosts."
+   - The hometown FAQ says her father told the paper she was born in Madison. That was the paper's own reporting, not a quote from him.
+   - "Shouted" Jennifer Lawrence's name: she only said people "go" it.
+   - The closing "faking it until I make it" was part of a joke about her appeal, not about praise for her work. The article's next paragraph turns to "applause," which blurs that.
+3. **Overall score is 8.3, below the 8.5 bar.** Scores: Evidence 8.5, Enneagram 8, Originality 8.5, Writing 8, Durability 8.5, Hook 9, Discoverability 8. The Type 6 vs Type 3 case is honest but narrow by its own admission. The writing loses points for a long run of one-off podcast guests and for running about 3,850 words against a 3,500 target.
+
+The six fixes are quick, but even with them done I'd expect the score to stay below 8.5. So unless a re-verify judges the writing or the Type 6 case more favourably, this one will likely end up held rather than released. Nothing was published or changed outside the run directory.

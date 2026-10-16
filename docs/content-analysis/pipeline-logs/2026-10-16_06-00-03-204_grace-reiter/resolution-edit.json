@@ -1,0 +1,358 @@
+{
+  "schema_version": 3,
+  "decisions": [
+    {
+      "finding_id": "subject-01",
+      "action": "fixed",
+      "reason": "Type answer, type FAQ and persona_title rewritten. 'Expects it to be taken from her' removed everywhere (no source says it). 'Wishes for someone or something to hold her success' removed; the April 2026 passage now runs through 'So, like this stuff is going to happen' and 'either enjoy it or just ignore it' (C41, rechecked S42 0:45:47-0:46:22). The pattern is dated 'From 2024 to 2026'. The downfall line is labeled a closing joke in the body and no longer appears in the Type 3 FAQ or the discriminator. Persona title is now \"The Oversharer Who Asked, 'Is That Okay?'\" (S38)."
+    },
+    {
+      "finding_id": "subject-02",
+      "action": "fixed",
+      "reason": "Soresi passage now prints her acceptance moments later: 'Okay. Okay. Okay. I'll take I'll take that. I'll take it.' (C120, S39 0:41:38). Soresi is described only as saying she underplayed the parody and is no longer counted as a witness to an aversion. The closing includes 'start faking it until I make it' (C132) with no romance or dating detail."
+    },
+    {
+      "finding_id": "subject-03",
+      "action": "fixed",
+      "reason": "Removed the three context-stripped lines ('hope my friends are actually my friends', 'Do you guys think of me differently now?', 'they're going to be mean to me') and claims C70-C72. The checking section now rests on sober items: 'Is that okay?', 'Do you want me to only if you want me to?', the Michos' 'walk it down' and her reply, Subway Takes, 'afraid of like offending people', 'I think I'm a people pleaser'. The trust paragraph now contrasts trust with her permission checks (C107), not with a standing worry about friends."
+    },
+    {
+      "finding_id": "subject-04",
+      "action": "fixed",
+      "reason": "Stage-fright passage includes her framing 'at one point I instilled in me I have stage fright and then I could never shake it' (C90, S20). The 'I don't think he understood' line is no longer blockquoted, and the H2 is now 'Not even nervous at all'. The punishment line and the homework setup are cut. Added 'I can't pinpoint trauma really anywhere' and 'I think my family was just funny' (C122, S30 0:26:47-0:27:20) under 'She does not tell it as a wound.' The unsourced 'speaks of her father warmly' is removed. Parents remain unnamed."
+    },
+    {
+      "finding_id": "subject-05",
+      "action": "fixed",
+      "reason": "The 'nobody knows me' line is cut. The selective-oversharing paragraph now rests on the Soresi and Stewart lines (C33)."
+    },
+    {
+      "finding_id": "subject-06",
+      "action": "fixed",
+      "reason": "Soresi's 'non-functional human being' joke is no longer printed. Therapy now appears once, in her own framing ('a list of like all like the mistakes I made today'), as Type 1 evidence (C28)."
+    },
+    {
+      "finding_id": "subject-07",
+      "action": "fixed",
+      "reason": "The prayer passage now includes 'I'm not really religious at all' (C34, S19 00:50:54). No title, description or FAQ implies a religious identity."
+    },
+    {
+      "finding_id": "subject-08",
+      "action": "fixed",
+      "reason": "Molly's vacation line and claim C02 are cut. Bossiness rests on Reiter's own words: 'I would shut that down immediately', 'And that's not fair', 'I'm very like older sister in that way' (C106, S37 0:08:21-0:08:28), plus her Twilight apology (C131)."
+    },
+    {
+      "finding_id": "fan-01",
+      "action": "fixed",
+      "reason": "The intro timeline names the 2025 Off-Broadway run. The stage-fright section now gives Stapleview's live TikTok format (2022) and the July-October 2025 Ginger Twinsies run, sourced (C123: S05, S02, S06, S09). It ties 'performing live every night was awesome' (C39) to the stage-fright arc. It adds the Leader-Telegram's report that she did no school plays or musicals. No unsourced claim about her feelings during the run was added; the S39 sinus-infection line was not used because its speaker is unconfirmed."
+    },
+    {
+      "finding_id": "fan-02",
+      "action": "fixed",
+      "reason": "Same fix as subject-01. 'Taken from her' is gone from the body answer, the type FAQ and type_hypothesis. The body now frames the downfall line as self-directed and a joke (C83)."
+    },
+    {
+      "finding_id": "fan-03",
+      "action": "fixed",
+      "reason": "The make-people-break line now sits on the Minimum Wage set, where the crew had to stay quiet for sound (C100, S46 0:34:43-0:35:07, rechecked). Claim text updated."
+    },
+    {
+      "finding_id": "fan-04",
+      "action": "fixed",
+      "reason": "Philipps is introduced as 'a co-producer of Ginger Twinsies' (C18, S30 0:04:46-0:04:57, rechecked). The unlabeled 'made it in like a weekend' line was not added."
+    },
+    {
+      "finding_id": "fan-05",
+      "action": "fixed",
+      "reason": "Added, from her own December 2024 account, that her Stapleview castmate Jane Wickline had just joined SNL and that she found it 'encouraging' (C124: S19 00:05:56-00:06:12; S02; S06). Her December 2024 doubt now sits beside its plain alternative: 'That could be a Six's self-doubt or simply someone softening a disappointment.'"
+    },
+    {
+      "finding_id": "fan-06",
+      "action": "fixed",
+      "reason": "The timeline now names the role: 'played Tara, a recurring role, on HBO's The Chair Company' (C55: S09, S06). The optional Drew Barrymore spot was left out for length. No sentence links the character to Reiter."
+    },
+    {
+      "finding_id": "fan-07",
+      "action": "fixed",
+      "reason": "'Was watching her face' is removed; 'Afualo noticed the wince' rests on her own line. The closing signals the playful mock self-praise without quoting the romance line. The 'third host' sentence and its September dating are removed; the closing says the conversation was recorded before the casting news."
+    },
+    {
+      "finding_id": "fan-08",
+      "action": "fixed",
+      "reason": "Both passages are used verbatim and in context. The Twilight apology is in the bossiness material (C131, S47 0:04:57). The princess line, with 'I feel really bad, but like this is nice', is in the Type 3 section as two-sided evidence (C125, S47 0:44:15). Attribution of the princess line rests on turn order and content in unlabeled captions and is recorded in the claim and research log for an audio check. Nothing from the umbrella or Gillette exchange is attributed to her."
+    },
+    {
+      "finding_id": "critic-1",
+      "action": "fixed",
+      "reason": "The closing now describes a mock self-praise bit, notes that she leaned in ('actually, you know what? Yes. No, we're doing it' and 'start faking it until I make it', C132), and drops 'was watching her face'. The final prediction no longer treats getting used to applause as Three evidence. It says habituation would not settle the type and that Zavidow saw her 'getting better' by April 2026, then names a real separating signal (C110). Persona title is no longer present tense."
+    },
+    {
+      "finding_id": "critic-2",
+      "action": "fixed",
+      "reason": "The discriminator no longer counts Soresi or Afualo as independent witnesses; 'independently' and the 'third host' are gone. Soresi's remark is described as her underplaying the parody in rehearsals, and her acceptance is printed (C120). The opening line of the section now credits only 'the person who lives with her'."
+    },
+    {
+      "finding_id": "critic-3",
+      "action": "fixed",
+      "reason": "The downfall line is out of the discriminator and the Type 3 FAQ. In the body it carries 'half a joke' and 'It closed the episode on a laugh.' The 'it describes a habit' sentence is softened to 'it echoes things she has said without a punchline', backed by the non-joke statements C84, C85 and C121."
+    },
+    {
+      "finding_id": "critic-4",
+      "action": "fixed",
+      "reason": "Same fix as subject-01 and fan-02. Every clause of the 60-word answer and the type FAQ traces to a body passage mapped in C75 and C112."
+    },
+    {
+      "finding_id": "critic-5",
+      "action": "fixed",
+      "reason": "Both uses of the Piso answer now print her concession, 'I guess maybe it kind of is' (C84). The 'second clue' paragraph is removed. The article now says the fear-of-failure answer fits both readings (C99), adds her May 2025 'I'll never be funny again' worry (C121), and concludes her words don't settle whether she fears failing or succeeding (C86)."
+    },
+    {
+      "finding_id": "critic-6",
+      "action": "fixed",
+      "reason": "The One paragraph is rewritten. The half-effort self-label is no longer used against One; 'Her harsh self-labels, \"lazy\" among them, are what an inner critic produces' treats it as self-judgment, consistent with the Nine paragraph. The incorrect 'checks it against other people rather than an inner standard' claim is removed. The paragraph engages the guilt, ego, mistakes-list and seriousness material and gives a sourced discriminator: her stated reasons for restraint are consequences and permission (C102). One is named as the second live alternative in the body (C129) and in the type FAQ."
+    },
+    {
+      "finding_id": "critic-7",
+      "action": "fixed",
+      "reason": "The July 2025 overshare is quoted with its self-revision, dated and linked (C32, S25 0:03:04-0:03:35, rechecked). It is conceded as the strongest line for a Three. The S40 'shell' line stays unused."
+    },
+    {
+      "finding_id": "critic-8",
+      "action": "fixed",
+      "reason": "The idea-credit sentence is removed. The 2024 prayer carries the point."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "action": "fixed",
+      "reason": "The intro now says she starred in the parody as Katniss and that it had nearly 14 million views by September 2026 (C09, S09). It introduces the Netflix order of Minimum Wage in April 2026 (C118) before any sentence relies on it."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "action": "fixed",
+      "reason": "The Type 3 paragraph and the type FAQ no longer use the downfall line or the God wish as present-tense discriminators. The God idea appears in the past tense with her April 2026 retraction. No summary states evidence more strongly than its section."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "action": "fixed",
+      "reason": "The 'third host' sentence is removed. Soresi is identified at first mention as a comedian who worked with her on Ginger Twinsies and interviewed her twice on The Downside (C64, S39). The Ginger Twinsies link is inferred from conversation in S39, and the research log asks for a cast-list check."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "action": "fixed",
+      "reason": "Close witnesses are identified at first mention: Zavidow (roommate, comedian and director), Soresi (Ginger Twinsies colleague, two Downside interviews), the Michos (old American High castmates who host Volley for Serve), Stewart (producer), Philipps (Ginger Twinsies co-producer) and Afualo (podcaster, host of The Comment Section). Every Soresi reference names its conversation. Literally Life Changing, the Yvette fear line and other one-off attributions were cut."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "action": "fixed",
+      "reason": "The bio now carries the NYT's description of her comedy: 'physical comedy, theatrical overacting and 'take the bit too far' energy' (C117, S09)."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "action": "fixed",
+      "reason": "The guidance material is a short, clearly marked paragraph ('She also looks for guidance outside herself'). The section's closing type definition ('For a Six, safety comes from...') is removed, along with C94. The 'success can raise the stakes' Six definition in the fear section is also removed. Only the checking-loop section ends by naming the Six pattern, and it closes on the circumstantial alternative."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "action": "fixed",
+      "reason": "The hook now prints her framing line, 'I think to me what really is an overshare is this' (C133, S23 0:09:04), just before the guilt quote, so the description's 'real' overshare matches the body."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "action": "fixed",
+      "reason": "The ending names the compliment ('unbelievably hilarious'), identifies Afualo as a podcaster at first mention, and limits the staging to her own line ('noticed the wince'). The quote-the-line request is partly declined: captions carry no speaker labels for the 'light' exchange and it runs straight into romantic wording barred by the sensitivity rule, so it is described as mock self-praise instead. This is recorded in C109."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "action": "fixed",
+      "reason": "The Type 3 section now names the modest, self-preservation Three and says plainly that it predicts the praise-deflection (C127, C99). It addresses her 'moving on, next thing' coping and the projects line with its stated purpose (C36, C128). The discriminator is now two sourced observations that form of Three does not predict as well: permission-seeking over image management (C98) and steadiness from preparation and people (C34). Both are labeled narrow."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "action": "fixed",
+      "reason": "The hedge is printed (C84). The 'second clue' is downgraded: the article says her fear answer fits both readings (C99) and adds the May 2025 fear-of-failing line (C121)."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "action": "fixed",
+      "reason": "Same fix as subject-01, fan-02 and critic-4. 'Taken from her' is gone, and each clause of the 60-word answer traces to a body passage (C75)."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "action": "fixed",
+      "reason": "The Madonna item is removed from the discriminator and from the body (former C69). Its separate-thread context and its self-worth rationale would have required a paragraph conceding it to both types, and the article was over length."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "action": "fixed",
+      "reason": "Same fix as critic-6. The half-effort evidence is treated as self-judgment in both the One and Nine paragraphs. The One paragraph addresses the guilt in the hook and gives the consequences-and-permission discriminator. One is named as a secondary live alternative."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "action": "fixed",
+      "reason": "'Obligations someone else sets' is dropped as Six evidence. The Nine paragraph now quotes 'I think I struggle with that like motivation stuff' and 'somebody else is like, hey, you have to do this' and says it fits a Nine at least as well (C103). The adjacent health-adjacent self-description stays out."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "action": "fixed",
+      "reason": "The ending says getting used to applause would not settle the type and replaces the old prediction with a discriminating one: applause folded into the next goal (Three) versus pointed outward at preparation, people and structure (Six) (C110)."
+    },
+    {
+      "finding_id": "enneagram-08",
+      "action": "fixed",
+      "reason": "The Two paragraph now treats the wish not to seem 'needy' as possibly Two-like. It rests the dismissal on behavior: she doesn't initiate contact and shows no habit of making herself indispensable (C29)."
+    },
+    {
+      "finding_id": "future-01",
+      "action": "fixed",
+      "reason": "(1) The closing no longer names learning to believe the applause as the Three outcome; the forward signal is whether success becomes the next goal or is credited outward. (2) The April 2026 easing is mentioned once in the argument, in the closing, with the statement that habituation would not settle the type. (3) The type answer and type FAQ date the pattern 'From 2024 to 2026'. (4) C110's review_trigger is rewritten. The meta_title stays as the dated thesis, per the reviewer's note."
+    },
+    {
+      "finding_id": "future-02",
+      "action": "fixed",
+      "reason": "The settle question now names a setting where the press script is weak (a loose, long-form podcast rather than a press stop). It says what a Three and a Six answer would each sound like beyond crediting colleagues, and refers to 'a hard stretch in network television' so it works whether or not she stays on SNL. C101's review_trigger is updated to match."
+    },
+    {
+      "finding_id": "future-03",
+      "action": "fixed",
+      "reason": "The Minimum Wage FAQ now reads 'it was scheduled to premiere on October 26, 2026' and 'Before the premiere, The New York Times reported...'. No body, FAQ or metadata text uses the future tense for a dated event. Credits remain attributed to the Times; C14 keeps the post-premiere check."
+    },
+    {
+      "finding_id": "future-04",
+      "action": "fixed",
+      "reason": "Changed to 'was, by the fall of 2026, performing live on network television' (C60, now stable). The SNL FAQ reads 'At 25, she became the show's first cast member born in the 21st century.' No present-tense SNL membership or age claim remains."
+    },
+    {
+      "finding_id": "future-05",
+      "action": "fixed",
+      "reason": "The sentence now reads 'none had appeared by mid-October 2026' (C13). No post-casting interview was found at research; none was searched for at edit."
+    },
+    {
+      "finding_id": "future-06",
+      "action": "fixed",
+      "reason": "The sentence now gives the absolute span and where the weight sits ('from 2022 to 2026, mostly from 2025 and 2026') and uses past tense ('people who lived and worked with her') (C74)."
+    },
+    {
+      "finding_id": "future-07",
+      "action": "fixed",
+      "reason": "The 2022 Passion Pod link now points to the Apple Podcasts episode page, found by iTunes lookup this session. S18 records that URL and keeps the transcribed mp3 enclosure in its context. In frontmatter citations, the raw megaphone RSS feed is replaced by the Apple show page and the Episode 89 page is added."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Some of this is method and some is manners. She has called self-mockery \"comedy 101,\" and she grew up in the Upper Midwest, where waving off a compliment is ordinary politeness.",
+      "action": "kept",
+      "reason": "Unchanged, beside the praise-deflection evidence it qualifies."
+    },
+    {
+      "passage": "It was half a joke, about an embarrassing story rather than a career.",
+      "action": "kept",
+      "reason": "Unchanged sentence. Its caveat now carries into the summaries: the downfall line is out of the Type 3 FAQ and the discriminator (subject-01, critic-3)."
+    },
+    {
+      "passage": "In her own accounts the test usually comes back fine. Fear of judgment is also close to universal for a young performer with millions of followers and a comment section, and she tells most of these stories as jokes on herself.",
+      "action": "kept",
+      "reason": "Unchanged. The checking section around it now rests on sober-context items only (subject-03)."
+    },
+    {
+      "passage": "Stewart says Reiter has only ever asked her to cut one story from the show: \"You cut it for the other person.\"",
+      "action": "kept",
+      "reason": "Unchanged."
+    },
+    {
+      "passage": "When she can describe a hard week there at length, will she credit the response (Three), or the castmates, preparation and someone in charge who got her through it (Six)?",
+      "action": "changed",
+      "reason": "Revised per future-02 to keep the passage's contribution: an open, observable settle question that doesn't speak for her about SNL. The new version names a long-form, non-press setting, says what a Three and a Six answer would sound like beyond crediting colleagues, and works whether or not she stays on SNL."
+    },
+    {
+      "passage": "\"I feel so guilty with the success I have. I'm thinking about becoming a Christian.\"",
+      "action": "kept",
+      "reason": "Unchanged hook quote. It is now preceded by her own framing line, 'I think to me what really is an overshare is this' (unfamiliar-07)."
+    },
+    {
+      "passage": "\"Well, what's funny is that you hate compliments more than anyone I know.\"",
+      "action": "kept",
+      "reason": "Unchanged. Her protest and his 'you're getting better' remain, and his 'like you got to get used to it' is added (C119), keeping the change over time visible."
+    },
+    {
+      "passage": "She told her father, \"and then he called me the shakes.\" From then on, she said, she believed she had stage fright.",
+      "action": "kept",
+      "reason": "Sentence unchanged. Per subject-04 it is no longer followed by a blockquote, it now sits beside her 'I instilled in me' framing and her 'I can't pinpoint trauma' answer, and the H2 is no longer 'The shakes'. The memorable detail stays without implying a parental cause."
+    },
+    {
+      "passage": "\"Because the people wanted me to do it. And I said, 'Fuck the people.'\"",
+      "action": "kept",
+      "reason": "Unchanged, profanity included."
+    },
+    {
+      "passage": "The two readings make different predictions from here. If Reiter is a Three, a season of applause will teach her to believe it. If she is a Six, the applause will keep feeling like something to hand to someone else.",
+      "action": "changed",
+      "reason": "The ending still turns the typing into a test the reader can watch, and still opens 'The two readings make different predictions from here'. The old prediction (Three learns to believe the applause) did not discriminate, because habituation is type-neutral and was already visible by April 2026 (critic-1, enneagram-07, future-01). It now separates the types on whether applause becomes the next goal or is credited outward."
+    },
+    {
+      "passage": "She said nothing, then raised it \"at like the worst time ever,\" at breakfast in front of everyone, with a guest star in the house.",
+      "action": "kept",
+      "reason": "Unchanged."
+    },
+    {
+      "passage": "The case has limits. The follower ladder fits both types, because a Six can keep climbing when no number ever feels safe (\"It never feels real,\" she told Piso).",
+      "action": "kept",
+      "reason": "Unchanged, contiguous with 'Much of the record is comedy, where self-deprecation is the joke.' The make-people-break sentence that follows was moved to its true setting, the Minimum Wage set (fan-03)."
+    },
+    {
+      "passage": "I feel so guilty with the success I have. I'm thinking about becoming a Christian.",
+      "action": "kept",
+      "reason": "Unchanged hook quote. It is now preceded by her own framing line, 'I think to me what really is an overshare is this' (unfamiliar-07)."
+    },
+    {
+      "passage": "He tied it, unprompted, to the overshare from months before: \"It's the same thing of like why you wanted to find God.\"",
+      "action": "kept",
+      "reason": "Unchanged."
+    },
+    {
+      "passage": "The girl who could not sing in front of a pianist now performs live on network television. What steadies her is structure.",
+      "action": "changed",
+      "reason": "Dated per future-04: 'was, by the fall of 2026, performing live on network television.' The pivot and its five-word follow-up, 'What steadies her is structure.', are kept. It now follows the Stapleview and Ginger Twinsies live record (fan-01)."
+    },
+    {
+      "passage": "Because the people wanted me to do it. And I said, 'Fuck the people.'",
+      "action": "kept",
+      "reason": "Unchanged, profanity included."
+    },
+    {
+      "passage": "Most Sixes aim that vigilance at outside threats. Reiter aims much of it at her own rise: the praise, the views, the ego she is \"terrified of.\"",
+      "action": "kept",
+      "reason": "Unchanged."
+    },
+    {
+      "passage": "A Six can push straight at what scares her, but the simpler reading may be that her risks happen inside a bit, where a character takes the hit.",
+      "action": "kept",
+      "reason": "Unchanged."
+    },
+    {
+      "passage": "And she is trusting in a way the suspicious-Six stereotype doesn't predict.",
+      "action": "kept",
+      "reason": "Sentence unchanged. The contrast that follows now uses her permission checks rather than a line she said while high (subject-03)."
+    },
+    {
+      "passage": "Her usual confessions were bodily and gross, and this time, she said, she would \"steer away from gross ones cuz I've been doing gross all the time.\"",
+      "action": "kept",
+      "reason": "Unchanged. The hook stays a dated May 2025 moment."
+    },
+    {
+      "passage": "She has told the choir story at least three times, in January 2025, [July 2025](https://www.youtube.com/watch?v=YatrI4ziPjA) and April 2026.",
+      "action": "kept",
+      "reason": "Unchanged."
+    },
+    {
+      "passage": "The case has limits. The follower ladder fits both types, because a Six can keep climbing when no number ever feels safe (\"It never feels real,\" she told Piso). Much of the record is comedy, where self-deprecation is the joke.",
+      "action": "kept",
+      "reason": "Unchanged, contiguous with 'Much of the record is comedy, where self-deprecation is the joke.' The make-people-break sentence that follows was moved to its true setting, the Minimum Wage set (fan-03)."
+    },
+    {
+      "passage": "\"You're you're you're wincing when you say it, but you will believe it.\"",
+      "action": "kept",
+      "reason": "Unchanged quote, kept as the closing image. Its framing is corrected (critic-1)."
+    }
+  ],
+  "prior_blockers": []
+}

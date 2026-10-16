@@ -1,0 +1,50 @@
+Six readers are working through the podcast transcripts in parallel, and local Whisper is transcribing three more long recordings. I'll pick this up when they report back.
+
+The making-of transcript is done. Her own narration is useful: she says she made the parody because "I want to be the lead in a movie for my birthday," and she describes herself as a spreadsheet nerd who planned it shot by shot. Still waiting on the transcript readers and the two Passion Pod transcriptions.
+
+Batch D2 is in, with about 105 items. The strongest material: guilt about her success ("I'm thinking about becoming a Christian" so she "could give all of it to God"), her roommate saying she hates compliments, and worry that friends are secretly mocking her, which she then catches and corrects herself. Waiting on the other five batches.
+
+Batch C is in (140 items). New patterns: moving goalposts ("I could do more, be bigger, go harder"), a self-described bossy older sister who directs friends but froze in front of Tim Robinson, fear of confrontation alongside self-described bluntness, and repeatedly discounting her success as luck. Four batches still running.
+
+The two Passion Pod interviews (2022 and 2024) are transcribed and with a seventh reader. They predate the rest of the record, so they'll show whether her goals and fears held steady before the SNL moment. Waiting on batches A, B, D1, E and F.
+
+Batch D1 is in, and it leans toward a fear-and-permission pattern. She asks "Is that okay?" about her own overshares, predicted after the parody hit that "it is my own hand that brings down myself," and said she refused a kiss "cuz I was scared... I have to stop living in fear." Still waiting on A, B, E and F before I form a hypothesis.
+
+Batch A is in. Two things stand out: a sincere-sounding admission that "my whole life I've kind of half halfass everything" because of a "fear of actually trying," and her calling being a narcissist her "biggest fear." The guilt-about-success story also appears in two separate episodes. Waiting on B, E and F, then I'll build and challenge the type hypothesis.
+
+I've finished the research stage and written `evidence.json` to the run folder. It passes the pipeline's own validator and nothing else in the repo was changed.
+
+**Result: ready for drafting, as a standard profile.** The leading read is **Type 6** at medium confidence, with **Type 3** as the close alternative. Types 1, 9, 2, 7 and 4 were tested and set aside. Two risk flags are set: contested typing and sensitive material. Together they send the draft to the full six-reviewer panel instead of the usual two.
+
+**Why Type 6 beats Type 3:** the deciding question is what she does when approval actually arrives. A Type 3 takes it in and chases the next goal. She backs away from it:
+- On her own podcast, her "real" overshare was "I feel so guilty with the success I have. I'm thinking about becoming a Christian," so she "could give all of it to God."
+- Her roommate says "you hate compliments more than anyone I know," and a podcast host noticed her wincing at praise.
+- After the Hunger Games parody hit, she predicted "it is my own hand that brings down myself."
+
+Around that sit constant permission-checking ("Is that okay?"), stage fright traced to her dad nicknaming her "the shakes," and a journal line: "I want a teacher. I want a mentor. I want a father."
+
+**Why it's only medium:** the Type 3 evidence is real. She talks about follower goalposts that keep moving, "work mode all the time," and an early dream of being an "Internet persona." Much of the record is comedy, so several key lines are half-jokes.
+
+**Why it isn't an open case:** her record runs four years and about 30 hours of her own podcast and interviews, plus her father, sister, roommate and producer. That's a hard call, not a thin record.
+
+**Corrections the draft should use:**
+- She was born in the Madison area and raised in Chippewa Falls from 2007, which settles the hometown conflict. Milwaukee Magazine has this wrong.
+- Her podcast ran March 2025 to May 2026; Wikipedia says late 2024.
+- She did an SNL showcase in 2024 and wasn't hired; 2026 was her second attempt.
+- She has stated no diagnosis. The ADHD talk in her episodes is from guests.
+- The TIME100 Creators claim is unverified.
+
+**Dated things to revisit:**
+- Minimum Wage premieres on Netflix on October 26.
+- Twilight (but better) was shot in June and isn't released yet.
+- SNL hasn't let her give interviews since the casting.
+
+The file also includes sensitivity rules (sexuality, therapy, substances, private people) and a list of which voices in the transcripts aren't hers. The follow-up list covers episodes I couldn't transcribe: YouTube blocked transcript downloads after about 35 videos.
+
+I also added a note to the existing memory file on that YouTube limit, with workarounds that worked: pulling podcast audio from public feeds and transcribing it locally.
+
+This stage was already finished before this check fired, so I didn't rebuild anything. All seven transcript batches and the three local transcriptions are in, and `evidence.json` is in the run folder.
+
+I re-ran the pipeline's validator on it just now and it passes. The status is ready for drafting as a standard profile. The leading read is Type 6 at medium confidence, with Type 3 as the strongest alternative. It cites 49 sources and 40 claims.
+
+I've cancelled the remaining scheduled check-ins. Next is the draft stage.

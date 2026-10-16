@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "subject",
+  "content_sha256": "9d2e4c1d4406678a0da96bdb18a656baf8d50292529c968214f1a988931138af",
+  "evidence_sha256": "c7ae736ca5236b795795c3c5bc88b016faa016fbbbf413a85dfe6557e5049911",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "subject-01",
+      "severity": "major",
+      "passage": "Reiter's fear shows up when things go well: she pushes praise away, wishes for someone or something to hold her success, and expects it to be taken from her.",
+      "problem": "The type answer, the type FAQ (C112) and persona_title ('Wants to Give Her Success Away') describe traits as current fact that the record does not support. (a) 'Expects it to be taken from her': her only line is 'it is my own hand that brings down myself', said as an end-of-episode sign-off about an embarrassing podcast story and followed at once by 'What? Yeah, I don't know either' (S38 0:51:15). She never said anyone would take her success, and the body itself calls it 'half a joke'. (b) 'Wishes for someone or something to hold her success' is present tense. In April 2026 she said she no longer felt that pull: 'this stuff is going to happen... And so, I'm like, whatever, move on' (S42 0:45:52-0:46:12). The body cuts her answer off before that acceptance. (c) The Type 3 FAQ and the discriminator paragraph ('after her biggest hit predicts her own downfall') drop the joke caveat the body gives.",
+      "acceptance_test": "The 60-word answer, both type FAQs and persona_title describe only what the record shows, in the tense it supports. Example: she has deflected praise, once joked about handing her success to God and later said she had let that go, and jokes about bringing herself down. No 'taken from her' wording appears unless a source says it. Every summary of the downfall line labels it a joke. The April 2026 quote runs through 'this stuff is going to happen' or an accurate paraphrase of her acceptance."
+    },
+    {
+      "id": "subject-02",
+      "severity": "major",
+      "passage": "But thank you for the compliment. Thank you for the compliment. I'm sorry.",
+      "problem": "The deflection is quoted and the acceptance in the same exchange is left out. Seconds later, after Soresi's Psycho-remake comparison, she says 'Okay. Okay. Okay. I'll take I'll take that. I'll take it.' (S39 ~0:41:25-0:41:35). Soresi then becomes an independent witness to 'the aversion' (Why not Type 3), though what he actually described was her 'underplaying' the project. The closing Afualo scene likewise ends on the host's prediction and omits Reiter's own reply that she would 'start faking it until I make it' (S47 ~1:28:15). This is evidence against the thesis, and it is missing at the thesis-bearing passages.",
+      "acceptance_test": "The Soresi passage says she ended by accepting the compliment ('I'll take it'). The Why-not-3 paragraph no longer lists Soresi as describing an aversion unless a quoted line shows one. The closing scene includes her stated intent to fake it until she makes it, with no added romance or dating detail."
+    },
+    {
+      "id": "subject-03",
+      "severity": "major",
+      "passage": "On friendship: \"I just like hope my friends are actually my friends.\"",
+      "problem": "Three of the four 'checking loop' bullets lose context that the subject herself gave. 'Hope my friends are actually my friends' is what came up for her while high, during a conversation about cannabis episodes, and Zavidow answered that it was 'a normal maybe fear' (S42 ~0:16:14-0:17:00). The 'Do you guys think of me differently now?' night is one she said 'probably the weed compounded' (S33 ~1:25:50-1:26:10). 'They're going to be mean to me' was about expecting to be fat-shamed as Katniss (S46 0:16:49), a body-image remark the research record says must not be used as evidence. 'What the type doesn't explain' then turns the first line into a standing trait ('her worry that her friends may not really be her friends'). The checking loop is the second discriminator, so substance-colored and body-image lines are carrying type evidence without the explanation she gave.",
+      "acceptance_test": "No vigilance or type claim rests on a line she attributed to being high or on the body-image remark. The article does not add substance or body details to justify them. The checking-loop point is carried by sober-context items already in the record (for example 'Is that okay?', 'Do you want me to only if you want me to?', the Subway Takes answer, 'I think I'm a people pleaser'). The trust paragraph no longer describes a standing worry about her friends' sincerity."
+    },
+    {
+      "id": "subject-04",
+      "severity": "major",
+      "passage": "She told her father, \"and then he called me the shakes.\" From then on, she said, she believed she had stage fright.",
+      "problem": "The parent material builds an implied parental cause that her own words do not support. (1) She introduced the story as self-made: 'I think at one point I instilled in me I have stage fright and then I could never shake it' (S20 ~0:22:30). The draft leaves this out and blockquotes 'I don't think he understood how personally...' under the H2 'The shakes', which makes a private parent's offhand nickname the cause. (2) 'If anything I wish they punished me more' was a reassurance to Philipps, who had just asked whether she was a bad mom, about parents' 'empty threats' over computer time. It was not a wish for authority. The setup ('whether she should be doing her own kids' homework') also implies who did Reiter's homework, which touches the mother, who per the record wants privacy. (3) In that same exchange Reiter said 'I can't pinpoint trauma really anywhere' and 'I think my family was just funny' (S30 ~0:27:40-0:27:55). That is a direct response to a family-wound reading, and it is missing. (4) 'She speaks of her father warmly' has no source at the passage, though S20 has one ('that is her art, we can't interfere').",
+      "acceptance_test": "The stage-fright passage includes her 'I instilled in me' framing. The nickname is not blockquoted or presented as the cause. The punishment line is cut, or it carries its reassurance and empty-threats context with no hint about who did her homework. The article includes her statement that she cannot pinpoint trauma, or otherwise makes clear she rejects a family-wound account. 'Speaks of her father warmly' is sourced or removed. Parents remain unnamed."
+    },
+    {
+      "id": "subject-05",
+      "severity": "minor",
+      "passage": "she said \"nobody knows me and nobody knows actually really what I'm feeling.\"",
+      "problem": "Out of context, this reads as deep concealment or loneliness. She actually said it right after announcing 'I'm in a bad mood', to make the point that nobody could tell her mood unless she said so ('would you have known I was in a bad mood if I didn't say it?', S29 0:37:43).",
+      "acceptance_test": "The line either carries its bad-mood context (for example 'explaining that nobody could tell she was in a bad mood unless she said so') or is cut. The selective-oversharing paragraph then rests on the Soresi and Stewart lines."
+    },
+    {
+      "id": "subject-06",
+      "severity": "minor",
+      "passage": "he said \"you're a completely non-functional human being,\" then pointed out that she produces anyway: \"you don't miss things.\"",
+      "problem": "The quote is trimmed from a simile. Soresi said 'it's like you're a completely non-functional human being' about how her inner monologue sounds, right after calling her 'like all anxiety', and she answered 'that's what it feels like' (S39 ~0:12:40-0:12:50). Placed directly after the therapy line, the cut version reads as a flat verdict on her functioning. That is a mental-health-adjacent label the research sensitivity notes say to keep light.",
+      "acceptance_test": "The quote restores 'it's like' (or is paraphrased as a comic exaggeration about her inner monologue) and includes her reply or the joke frame. The therapy mention stays brief and in her own framing."
+    },
+    {
+      "id": "subject-07",
+      "severity": "minor",
+      "passage": "Driving to the airport in 2024 after finishing a film shoot in Baton Rouge, she said, she prayed:",
+      "problem": "The article opens on 'I'm thinking about becoming a Christian'. Here it says she 'prayed' but omits the clause she put first: 'I'm not really religious at all, but I was just feeling really grateful' (S19 00:50:50). A reader could infer a religious identity she has disclaimed in December 2024 and again in April 2026. Religious identity is personal, so her own words should frame it.",
+      "acceptance_test": "The passage includes 'I'm not really religious at all' or rephrases so that no religious identity is implied. Nowhere does the article, title, description or FAQ suggest she is or became religious."
+    },
+    {
+      "id": "subject-08",
+      "severity": "minor",
+      "passage": "Her younger sister, Molly, says that for a while \"it was really hard to go on vacations with you.\"",
+      "problem": "The line is placed as corroboration of 'She can be bossy'. In context, Molly was teasing about Grace as a sulky kid: angry at a water park and staying in the hotel watching Legend of Korra (S32 ~0:27:20-0:27:45). That is not bossiness. A family member's teasing is being used for a trait she did not describe. Reiter's own line from the Wu episode ('I'm very like older sister in that way', S37 0:08:21) supports the bossiness point directly.",
+      "acceptance_test": "Molly's line is cut, moved, or described as teasing about a moody childhood. The bossiness claim rests on Reiter's own words. Molly's own disclosures stay out of the article."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Some of this is method and some is manners. She has called self-mockery \"comedy 101,\" and she grew up in the Upper Midwest, where waving off a compliment is ordinary politeness.",
+      "reason": "This is a fair circumstantial alternative placed right where the thesis evidence sits, not saved for a footnote. It shows the reader that deflection may be craft and culture, not motive."
+    },
+    {
+      "passage": "It was half a joke, about an embarrassing story rather than a career.",
+      "reason": "This is an honest inference limit on a thesis-bearing quote. The fix for subject-01 should carry this caveat into the summaries, not delete it."
+    },
+    {
+      "passage": "In her own accounts the test usually comes back fine. Fear of judgment is also close to universal for a young performer with millions of followers and a comment section, and she tells most of these stories as jokes on herself.",
+      "reason": "This separates the author's type reading from her lived outcomes and states the ordinary explanation in plain terms. It is the model the rest of the vigilance section should follow."
+    },
+    {
+      "passage": "Stewart says Reiter has only ever asked her to cut one story from the show: \"You cut it for the other person.\"",
+      "reason": "This is a distinctive, sourced detail that shows her protecting someone else's privacy. It is fair to her character and complicates the 'oversharer' image without inventing a motive."
+    },
+    {
+      "passage": "When she can describe a hard week there at length, will she credit the response (Three), or the castmates, preparation and someone in charge who got her through it (Six)?",
+      "reason": "This leaves the open question open, ties it to an observable future signal, and does not speak for her about SNL while she is not giving interviews."
+    }
+  ],
+  "assessment": "Fairness proxy, not a voice for Reiter. The draft is careful where it matters most. It keeps sexuality, romance, the refused kiss, health, her grandmother, private third-party allegations and Molly's own disclosures out of the article. It names neither parent. It says out loud that much of the record is comedy. I reopened the thesis-bearing passages in the saved transcripts (S20, S23, S29, S30, S32, S33, S37, S38, S39, S42, S46, S47, S18, S19, S05, S01). Quotation wording generally matches. The fairness problems are selection and framing. (1) The 60-word answer, the FAQs and persona_title state as present fact a wish she later disavowed and an expectation ('taken from her') she never voiced. (2) Lines where she accepted praise, or answered the host's prediction, are cut at exactly the thesis passages. (3) The vigilance list leans on lines she attributed to being high and on a body-image fear. (4) The parent material is arranged into an implied family cause that she explicitly rejected ('I can't pinpoint trauma really anywhere'). None of these needs new research. All can be fixed with context already in the record, and the medium-confidence Type 6 read may survive them. Risk flags stand: sensitive_allegations (family, therapy, substance and religion context) and contested_typing. The similarity diagnostic tripped only on 'core emotion' against the shyam-sankar draft. That is ordinary type vocabulary in the mandated triad sentence, not reused argument, so it is not a finding. Limitation: transcripts are auto-captions or Whisper text without speaker labels, and I did not check audio."
+}

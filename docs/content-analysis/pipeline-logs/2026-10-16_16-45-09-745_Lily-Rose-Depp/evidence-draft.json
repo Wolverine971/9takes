@@ -1,0 +1,1817 @@
+{
+  "schema_version": 3,
+  "subject": "Lily-Rose-Depp",
+  "status": "ready",
+  "research_tasks": [
+    "Before quoting Eggers's \"disciplined, courageous, and, like, feral\" line, find its original interview (Complex does not cite one); otherwise attribute it as reported by Complex or use Vanity Fair's account of the audition tears instead. [Draft 2026-10-16: not used. The draft relies on Vanity Fair's account of the tears (C29) and quotes no Complex wording.]",
+    "If the draft mentions the 2016 or 2022 Depp v. Heard proceedings beyond her own statements, open and cite reliable reporting on each proceeding and its outcome, attribute every allegation, and do not adjudicate it. [Draft 2026-10-16: the draft names only the 2022 trial, as the occasion of her silence (C99, Jezebel and Elle), with no allegations or outcomes; the 2016 Instagram post (minor-era) is omitted. Reviewers may want a neutral wire source for the trial's existence.]",
+    "If the draft quotes Rolling Stone's March 1, 2023 Idol report directly, open the original report; otherwise attribute its claims through Rolling Stone's May 23, 2023 follow-up and ET. [Draft 2026-10-16: not quoted directly. Its claims are attributed through Rolling Stone's May 23, 2023 follow-up (C33) and HBO's denial via ET (C78).]",
+    "After Werwulf opens (US Dec 25, 2026; UK Jan 1, 2027), collect its press interviews and test the discriminator: when she describes playing a grounded mother, does she again credit trusted structure and people (6) or her own distinct feeling (4)?",
+    "Draft log (2026-10-16, draft stage). Thesis: she expects to lose her biggest roles, then goes further in them than anyone asks; when doubt hits she borrows certainty from the people and frames that chose her, and stays loyal to them under attack. Type 6 at medium confidence, counterphobic, with Type 4 argued in its own \"Why not Type 4?\" section and Type 3 and Type 9 addressed in passing. Quote fidelity: every double-quoted string in draft.md (84) was machine-matched against the saved source texts in /tmp/lily-rose-depp-research/txt after normalising curly quotes (0 misses); split quotations were hand-checked for adjacency against the full answers (\"I love people who love their people\" and the following line are now separated, as in the source; the Portman \"What happened?\" prompt is stated). Nested quotations are rendered with single quotes. The Paris Match/Madame Figaro castings line is paraphrased in English without quotation marks. Source excerpts and locators for S01, S02, S03, S05, S07, S09, S10, S11, S12, S22, S25, S26 and S32 were extended with lines from the same opened, saved texts that the draft now uses; no new sources were added. Claims removed from the inventory because the draft does not use them: C09 (070 Shake relationship; time-sensitive and not load-bearing), C21 (anxiety about strangers and photographs; cut for length), C30 (\"Those fears are—not fears\"), C34 (minor-era smile refusal), C35 (anorexia disclosure, omitted as recommended), C36 (Self-Evident Truths and labels), C37 (steering clear of Tesfaye). Their sources are retained. Research claims were split so each quoted passage has its own claim (new IDs C42-C105); C17 no longer includes the 2016 post, C25 is split into C25/C89/C90, C29 drops the unlocated \"feral\" line and the Levinson/Hoult/Eggers-Werwulf testimony moves to C48/C49. type_hypothesis.for_claim_ids was repointed (C21 and C30 dropped) and the C34 reference in \"against\" rewritten. Internal links go to published pages only: johnny-depp, keira-knightley, natalie-portman and the Type 4, 6 and 9 pages. Word count by checkDraft: about 3,600, so the edit stage should cut before adding. No inherited production_pretext blockers (empty baseline)."
+  ],
+  "accuracy_checked_at": "2026-10-16",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.interviewmagazine.com/film/im-a-sucker-for-a-crazy-love-story-lily-rose-depp-by-natalie-portman",
+      "title": "\"I'm a Sucker for a Crazy Love Story\": Lily-Rose Depp, by Natalie Portman (Interview Magazine, Winter 2024 cover)",
+      "speaker": "Lily-Rose Depp in conversation with Natalie Portman",
+      "date": "2024-12-03",
+      "locator": "Full Q&A transcript (call dated Friday Oct. 25, 2024). Answers on prep and movement coach; accent audition; daredevil/fear exchange; corn-syrup blood scene; thin skin/thick skin answer; anchors answer; dualities answer; TV/Jocelyn answer; draft additions: \"What happened?\" follow-up, corset rehearsal, stage-blood setup, backpack line, met at 16.",
+      "excerpt": "Prep is so interesting because you never know if you’re doing it right. [...] I was grateful not to have to shape it on my own. [...] And then when I got this audition in my inbox, and I saw that it was an English accent, I was like, “I’m about to super embarrass myself in front of Robert Eggers.” But I wanted it so badly, so I was like, “Okay, I’m going to have to try to get my English accent up to speed.” [...] I used to be way more daredevil-ish when I was a kid, and now I’m scared of everything. [...] I think the world started to scare me a lot. I’m super scared of things that I used to not be scared of. [...] I wonder if I’m more aware of the dangers of the world or something? [...] I was just thinking to myself, “Everything is mental. I’m good. I’m chilling.” [...] I’ve grown up being taught that your private life and your inner life is so precious, and that it really needs to be protected. [...] But I also think it’s important for me to, when I’m not shooting or promoting something, have a very normal life. You and I have always connected about that. I love going to the butcher and the grocery store and having dinner at my friends’ houses. Or, having a lazy morning with my boyfriend. Those things are always going to be the center of my life. Even if I’m working really hard, those things will never lose their value. That’s when things get dangerous, when you don’t see those things as valuable anymore. [...] you have to have people around you that you’ve known forever that are going to anchor you. [...] I feel like I’ve always been full of dualities, and my double culture adds to that. [...] I’m a Valley girl. I went to high school in the Valley. [...] And my family’s French, so when I’m with them, I feel like I’m 100 percent French, and when I’m with my dad’s side of the family, I’m like, yeah, we’re all Kentuckians. [...] I saw your recent one with your partner [070 Shake], which is so great. [...] because that particular character is kind of who I wanted to be when I was six. [...] I’m a sucker for a crazy love story. [...] Then I got there and it was very much choreographed. [...] We also rehearsed the movement with the corset on. [...] PORTMAN: What happened? DEPP: I don’t know! I think the world started to scare me a lot. [...] But I would never jump out of a plane. I would never go bungee jumping. I don’t even think I’d want to go zip lining, honestly. [...] there’s a lot of blood on my bare body. And because the camera’s so precise, I had to sit in that position for so long. [...] And to me, when you go on set is the only time you let that out. You have all your super-private feelings in your backpack, and you go to work and the scene starts and you let it out. [...] Even you, I’m so grateful that I met you when I was 16, and to have one of my very favorite actresses to be able to call when I’m struggling with a scene.",
+      "context": "Long-form, lightly edited phone conversation with a friend she met at 16 (Portman cast opposite her in Planetarium). Recorded during the Nosferatu press cycle, age 25. Friendly register lowers performance pressure but the piece is still promotional. Retrieved via r.jina.ai (interviewmagazine.com blocks direct fetch); full transcript read.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S02",
+      "url": "https://i-d.co/article/lily-rose-depp-interview-the-idol/",
+      "title": "Lily-Rose Depp on The Idol and growing up famous (i-D, The Timeless Issue no. 371)",
+      "speaker": "Lily-Rose Depp, interviewed by Alex Frank",
+      "date": "2023-02-20",
+      "locator": "Cover story body: Tusk paragraph; mother/Vogue paragraph; imposter-syndrome paragraph; fame/paranoia paragraph; nepo-baby paragraph; Abel paragraph; 1940s-stars paragraph; Idol paragraph; journalist description paragraph; 1940s-stars paragraph lead-in; imposter-syndrome framing sentence (writer); Vogue paragraph.",
+      "excerpt": "She had always harboured dreams of being an actress and then, at fourteen, found her first role almost by accident. Her childhood best friend was Harley Quinn Smith, the daughter of Clerks director Kevin Smith; Kevin was filming a horror movie , Tusk , which featured Johnny Depp. Lily-Rose was on set and pretty casually told to jump into a scene, which was enough to pique her curiosity for acting. [...] I had so much fun that day, even though I had no clue what I was doing,” she says. “I still sometimes feel like I have no clue what I’m doing. [...] At fifteen, she fully leapt into the public eye by embarking on a global ambassadorship role at Chanel , who her mum had worked with since the 90s. [...] I met Karl (Lagerfeld) for the first time when I was eight [...] It also seems like a role designed to completely reorient her image, which up until now, has largely been quiet and tasteful. [...] You just have to jump in and have some kind of faith that, if they’ve chosen me, then hopefully I’ve been chosen for a reason. That’s all that you can do,” she says. “By that same token, I think that there’s nothing more exciting than being like, ‘Wow, I’m so nervous. I feel so challenged by this. How on earth am I going to pull this off?’ You could ask for no better fuel to make you want to work really, really hard. ‘Okay, I really don’t want to fuck this up, so let me work as hard as I possibly can to make sure that I have left no rock unturned.’ If you’re not scared, then what’s the point? I like the fear a little bit. [...] I can’t smoke weed unless I’m in my room,” she says. “It fucks with my head. I overthink, like, ‘If I leave my house and I look like shit and someone takes a photo, is it going to be, ‘She looks like hell, she must be depressed?’ People are so quick to want to be like, ‘You’re doing badly. [...] I bring myself back down to earth and go, ‘Girl, you don’t matter that much. [...] If I have to deal with a little bit of anxiety to keep doing what I love, then I’m ready. [...] I’m so careful about these conversations now. I feel like my parents did the best job that they possibly could at giving me the most ‘normal childhood’ that they could. And obviously, that still was not a normal childhood. I’m super aware of the fact that my childhood did not look like everybody’s, [...] Talk about trust and comfort. I had to go to a lot of really vulnerable places in the show. Abel was the best partner that I could have ever asked for. He has my back and I have his,” she says. “I just felt so free and liberated, so empowered. [...] They did not walk into a room and descend to anybody else’s level to try and make them feel comfortable. They almost had this confidence in the discomfort that they could provoke in people. A thing of, ‘This is who I am, and I’m not going to change. [...] This has been the most meaningful and important project that I’ve ever done, and the thing that I’m the proudest of. [...] Whenever I see old photos of her, I’m like, ‘Ugh. That’s what I look like in my dreams.’ She’ll send me photos of her when she was younger, and say things like, ‘We’re twins.’ And I’m like, ‘You’re so much prettier than me. [...] Depp is a charming and sweet, if endearingly jittery, presence in conversation; a contrast to the brashness of The Idol role and the cool, sultry image she maintains in her Chanel campaigns. She’s a fast talker who restlessly puffs on a vape and sometimes gets lost in her answers to questions. When I admit at one point that, as a journalist, I always get nervous before interviewing someone for a story like this, she confesses that she gets just as nervous being the subject of those interviews. “We can be nervous together!” she says with glee. [...] I thought about movie stars of the 40s, like Lauren Bacall and Gene Tierney,” she says. [...] Like many sensitive souls, Lily-Rose is plagued by imposter syndrome: the idea that she doesn’t deserve the opportunities she’s been given. [...] She holds up an old issue of Vogue with her mum on the cover, admitting lovingly that she almost can’t believe just how cool her mother is",
+      "context": "Zoom cover interview at 23, months before The Idol aired and three months after the Elle nepo-baby backlash. Journalist frames her as a \"sensitive soul\" with imposter syndrome; that framing is the writer's, the quoted lines are hers. Promotional context for The Idol.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S03",
+      "url": "https://www.interviewmagazine.com/film/whats-it-like-being-lily-rose-depp-keira-knightley-finds-out",
+      "title": "What's It Like Being Lily-Rose Depp? Keira Knightley Finds Out (Interview Magazine, September 2021 issue)",
+      "speaker": "Lily-Rose Depp in conversation with Keira Knightley",
+      "date": "2021-08-30",
+      "locator": "Full Q&A transcript: role-choice answer; Voyagers/drama-school answer; anxiety/stage-fright answer; leaving school at 16 answer; judged-because-of-parents answer; anxiety answer in full; leaving-school exchange.",
+      "excerpt": "Weird and wonderful is definitely the direction I’m trying to go. [...] I was so impressed and intimidated because almost all of the actors came from insanely prestigious, incredible theater schools. And I was like, “I have done none of this, and you guys are all so good. [...] Do you ever suffer from anxiety on set or stage fright? [...] Definitely. The peak of that is right before I start something. It’s possible for me to get in my head and be like, “Am I going to be able to do this? What have I signed up for? Are they sure that I’m the one?” Random things like that. But I always try to remind myself that if anything, it’s a sign that I’m invested and excited and wanting to do the best job possible. I would also be worried if I didn’t have that feeling. That’s just a normal human reaction. And trust is so huge. There’s so much to be said about feeling comfortable and connected with your partners, with your director, and with your crew members. [...] But I’ve started seeing a coach in New York [...] Something that Natalie Portman says in her MasterClass [...] It’s hard to say because I identify with both cultures equally. [...] How old were you when you left school? DEPP: I was 16. [...] I’m unable to not immerse myself in something completely when I’m doing it, and I had already started working. I was so passionate about cinema and acting so I really wanted to pursue that, wholeheartedly. I have really strong gut instincts, and I felt like, “You know what? This is my moment to transition into the next phase of my life. [...] Of course. Those fears are—not fears, but those thoughts are totally normal. In those moments, I’ve had to remind myself that we’re all different people. I’m not the same kind of actor as my dad or my mom, and I’m very much my own person. [...] But I always try to remind myself that if anything, it’s a sign that I’m invested and excited and wanting to do the best job possible. [...] KNIGHTLEY: How old were you when you left school? [...] KNIGHTLEY: And is that because you wanted to act? DEPP: Yeah.",
+      "context": "Conversation with her Silent Night co-star, age 22, Paris. Earliest adult long-form source; establishes the pre-role doubt pattern before The Idol and Nosferatu. Retrieved via r.jina.ai; full transcript read. Source text spells \"fnd\" (ligature loss) in one line, not used here.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S04",
+      "url": "https://www.interviewmagazine.com/film/lily-rose-depp-harley-quinn-smith-yoga-hosers",
+      "title": "Sundance's Second Generation: Lily-Rose Depp and Harley Quinn Smith (Interview Magazine)",
+      "speaker": "Lily-Rose Depp and Harley Quinn Smith, interviewed by Emma Brown",
+      "date": "2016-01-27",
+      "locator": "Intro paragraph (shy quote); first Q&A answer on Tusk; answer on parents trusting Kevin Smith.",
+      "excerpt": "Lily-Rose Depp and Harley Quinn Smith have been friends since they were five-years-old. [...] I was pretty shy, but she was one of the first people I talked to at school [...] First, I didn’t think my parents were going to let me because they’ve always kept me out of the spotlight, which I am so grateful for, but I’m so glad that they did. [...] My parents would have been more nervous if I had done my first movie with a random person, but I think knowing that it was Kevin and Harley and their whole family and team, they felt really comfortable. They knew they would never put me in any uncomfortable positions and that I was going to be in good hands.",
+      "context": "Sundance press for Yoga Hosers; she was 16 (a minor). Use only for dated career facts (how Tusk happened), never as type evidence on its own. Retrieved via r.jina.ai.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S05",
+      "url": "https://www.elle.com/culture/celebrities/a41894075/0125-0141-an-idol-rising-december-2022/",
+      "title": "Lily-Rose Depp Is An Idol Rising (ELLE US, December 2022/January 2023 cover)",
+      "speaker": "Lily-Rose Depp, interviewed by Veronique Hyland",
+      "date": "2022-11-16",
+      "locator": "Cover story body: opening (self-effacing/punctuality); \"how alone you can feel\"; father's headlines paragraph; \"real life Lily-Rose\" paragraph; \"eaten alive\"; strangers/anxiety paragraph; comments paragraph; nepo-baby paragraphs; audition paragraph; Levinson/Tesfaye paragraph; \"puritanical\" closing paragraph; co-creator credit paragraph; \"I'm familiar\" line; Ashley Levinson credit; lead-in to the \"secret garden\" answer.",
+      "excerpt": "Jocelyn also couldn’t be further from the self-effacing woman I’m speaking to, who (a) apologizes for being a few minutes late to our interview because she’s dealing with a gastrointestinally challenged cat, and (b) goes on to note how important punctuality is to her. [...] It was more about understanding how alone you can feel, even when everybody’s watching you, [...] When it’s something that’s so private and so personal that all of a sudden becomes not so personal…I feel really entitled to my secret garden of thoughts. I also think that I’m not here to answer for anybody, and I feel like for a lot of my career, people have really wanted to define me by the men in my life, whether that’s my family members or my boyfriends, whatever. And I’m really ready to be defined for the things that I put out there. [...] As a little kid, Depp idolized her mom to the point that she’d ask her what she was going to wear that day, then pull a similar look out of her own closet so that she could be her mom’s mini-me. [...] But I’ve just been raised in a manner that has taught me that privacy is something that’s important to protect. [...] she’s been an ambassador for the brand since she was 16 [...] I’m not here to give myself to the world to be eaten alive. [...] When strangers approach her in public, she fears not for her safety, but “that they’re going to think I’m really weird or rude because I just get really shy and kind of anxious,” Depp says. And unfortunately, the anxiety has not dissipated with age and experience. “The older I get, the weirder I become around that whole conversation,” she says. “That’s why I like to do my work and put as much of my heart into it as I can and then retreat back into my real life and just be a normal person. [...] At the end of the day, what really matters to me is what my family and friends and loved ones think of me. [...] I can definitely say that nothing is going to get you the part except for being right for the part,” she says. “The internet cares a lot more about who your family is than the people who are casting you in things. Maybe you get your foot in the door, but you still just have your foot in the door. There’s a lot of work that comes after that. [...] Ever careful, she’s quick to add that she is by no means comparing her own work to that of someone in the medical field. [...] I just hear it a lot more about women, and I don’t think that it’s a coincidence. [...] I did not think at all that this was going to go my way,” she says. “I know that everybody and their mother goes in for these things.” She calls her casting “the best surprise ever. I’ll never forget getting that call. I still have all these pinch-me moments all the time. I can’t believe they wanted me to do it. [...] two people who make me feel incredibly safe and protected,” she says. “I think it’s difficult to do this kind of work that can be so vulnerable in so many different ways if you don’t have a lot of trust between you and your collaborators. [...] I’m not interested in making anything puritanical. I’m not interested in making anything that doesn’t challenge me, or challenge other people, honestly,” she says. “I think this show is fearless, [...] The titular idol of the series—co-created and executive produced by Sam Levinson ( Euphoria ), Abel Tesfaye, aka The Weeknd, and Reza Fahim [...] Speaking of internet opinions, has she heard about the whole “nepo baby” conversation? She laughs dryly: “I’m familiar.” [...] Levinson, however, credits the eagle eye of his wife, Ashley Levinson (who’s also an executive producer of The Idol ), for finding the series’ star. [...] Similarly, she’s chosen to avoid commenting on the recent headlines about her famous father:",
+      "context": "In-person interview at her mother's LA home, age 23, five months after the June 2022 Depp v. Heard verdict. Source of the nepo-baby remarks that drew wide backlash. Promotional for The Idol. Full text fetched with a browser user agent.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S06",
+      "url": "https://www.elle.com/culture/celebrities/a41894075/0125-0141-an-idol-rising-december-2022/",
+      "title": "Lily-Rose Depp Is An Idol Rising (ELLE US): Sam Levinson testimony",
+      "speaker": "Sam Levinson (The Idol co-creator and director), quoted by Veronique Hyland",
+      "date": "2022-11-16",
+      "locator": "Paragraph beginning \"Levinson, however, credits the eagle eye of his wife\".",
+      "excerpt": "The moment Ash saw Lily-Rose’s audition, she said she was Jocelyn,” he says. “It was true—she was sensational. HBO always has a lengthy audition process, but they knew it, too. She’s also just one of the best collaborators you could wish for. She can act, she can sing, and her and Abel’s chemistry is off the charts.",
+      "context": "Named testimony from her director and employer, given for her cover story before the show aired. Interested party: he was promoting the series. Same publication as S05, not independent of it.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S07",
+      "url": "https://www.vanityfair.com/hollywood/story/lily-rose-depp-nosferatu-awards-insider",
+      "title": "Lily-Rose Depp's Road to Nosferatu: \"People Have Been Ready to See Me Fail\" (Vanity Fair, Awards Insider)",
+      "speaker": "Lily-Rose Depp, interviewed by David Canfield",
+      "date": "2024-11-21",
+      "locator": "Intro paragraphs (Eggers tears; audition quote; \"thought for sure\"); Q&A on Zoom audition; butoh/movement answer; method answer; \"bigger, emotional\" answer; Idol answers; insecurity answer; \"ready to see me fail\" answer; Governors Awards answer; Zoom-audition location answer; butoh/movement answer; corset answer; Idol \"I love it\" answer; second-season answer.",
+      "excerpt": "Robert Eggers was left in tears by Lily-Rose Depp ’s Nosferatu audition—over Zoom, no less. [...] I was really nervous,” Depp tells me of the audition, while sipping an oat-milk cappuccino on a Beverly Hills café patio. “One of the sides was a big freak-out scene, and I made sure that I had a bunch of stuff to throw. I had a roll of paper towels, and some books, and I just threw shit all over the room. I started moving around like crazy. I wanted to show that I wasn’t scared to go there. [...] I thought for sure it wasn’t going to go my way. [...] I really like emotional scenes because they’re challenging. I feel stimulated by that. I like that type of work. It’s an emotional outlet for me—I feel like it helps me, I don’t know, heal things with myself, perhaps. I feel like a lot of us do this for that reason. [...] I didn’t realize how choreographed it was going to be, but that helped infuse every moment with an intention. [...] Nobody wants to be the one that messes it up for everybody, which brings this real team feeling. I felt a lot of support from everyone, especially in those scenes that were more demanding. [...] I don’t intend on being method because I wouldn’t know how to—I’m too attached to my life, I feel like. [ Laughs ] But I commend that style of acting. That’s a beautiful commitment. But I need to be able to call my friends at the end of the day and be myself. [...] I also just feel like I’m better at crying than laughing, which—I don’t know what that says about me as a person. [ Laughs ] I laugh a lot in my own life. I’m a happy person, so I like to explore the underbelly of that at work. [...] But we always knew some people were not going to like it and that it was going to be too much for some people. But I stand by it. We made a choice and we went for it. [...] I’m very close with Sam and Ashley [Levinson]. They’re like family to me. [...] She is the woman that I wanted to be when I was five. I was the little girl who was wearing my mom’s heels—she is the femme fatale fantasy of who I wanted to be when I was a kid. [...] She is a person who really carries a lot of darkness within her, and has since she was a child, and that has isolated her a lot. [...] I can only identify it now as an utter, complete togetherness with the character. [...] Getting over the imposter syndrome of, like, ‘Why am I here and why do these people think that I can do this?’” Getting to a place where I felt confident enough within myself to be like, “I can do this and I am here for a reason,” I definitely have struggled with that. Humility is incredibly important, especially in this business. In a way, I always want to feel like I’m just starting out and like I still have so much to learn—which is how I do feel. [...] I feel like people have been ready to see me fail, in a way, since I was a kid. That has made me only want to work harder and prove people wrong. Not in a vindictive way at all, but just in a sense of, like, fuel to my fire. I do want to prove that I’m a hard worker and I’m not here for anything else but to work hard. [...] I definitely was walking in being like, “Oh my God, I am so out of my depth.” But you just have to be like, “You know what? I may feel this way, but I have to go to work tomorrow. [...] If people still want to talk shit or see me in a certain way, then that’s not my problem. I’ve had to grow into that feeling as well. [...] I like to do things that maybe not everybody’s down to do. [...] I kept saying to Rob and Nick, “I’ve never done this, you guys!” I felt like I was their little sister walking around. I was like, “I don’t know anybody here! [...] Actually I was in the countryside in France; my family has a place over there. [...] Butoh is this Japanese dance discipline, it’s fascinating. [...] Then we worked with an amazing movement coach, Marie-Gabrielle Rotie. [...] Going into it I had thought that it was going to be maybe more improvisational [...] And a lot of scenes that are one take, one shot. [...] We rehearsed a lot in the corset because it changes everything about how you feel, how you move, how you breathe. [...] I love it. Honestly, I love it. [...] I know that we’ll do something again together one day, and I’m excited for that day. Everything happens for a reason. [...] Somebody asked me the other day what was the hardest part of the role, and I said, “Getting over the imposter syndrome",
+      "context": "In-person awards-campaign interview in Beverly Hills, age 25, edited and condensed Q&A. Strongest single first-person source on doubt, fear and support. Awards-season incentive to project humility. THR (Nov 21, 2024) and The Tab syndicated these quotes; they are not independent corroboration. Full text fetched with a browser user agent.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S08",
+      "url": "https://www.vanityfair.com/hollywood/story/lily-rose-depp-nosferatu-awards-insider",
+      "title": "Lily-Rose Depp's Road to Nosferatu (Vanity Fair): Nicholas Hoult remark as reported",
+      "speaker": "Nicholas Hoult (Nosferatu co-star), as reported by David Canfield",
+      "date": "2024-11-21",
+      "locator": "Second intro paragraph (\"as Nicholas Hoult ... said over the weekend\").",
+      "excerpt": "as Nicholas Hoult, who plays Depp’s naive husband in the film, said over the weekend, “Every detail of her performance is just astounding.",
+      "context": "Co-star praise at a public screening weekend, relayed by the journalist. Promotional context; corroborated in substance by Hoult's separate remarks to Harper's Bazaar UK (S10).",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S09",
+      "url": "https://www.harpersbazaar.com/uk/culture/a63212831/lily-rose-depp-interview-nosferatu/",
+      "title": "Rare Bloom: Lily-Rose Depp combines star power with commitment to her craft (Harper's Bazaar UK, February 2025 issue)",
+      "speaker": "Lily-Rose Depp, interviewed by Sasha Slater",
+      "date": "2025-01-03",
+      "locator": "Cover story body: film-school paragraph; \"very different actors\"; Edward Scissorhands paragraphs; gothic-instincts paragraph; \"so many sides\" paragraph; shy/selfie paragraph; loyalty paragraph; 070 Shake paragraphs; Trump/\"I'm scared\" paragraph; \"hold tight\" paragraph; Tim Burton question; Edward Scissorhands lead-in; election paragraph lead-in.",
+      "excerpt": "It’s the most technical set I’ve ever been on,” says Depp. “It was almost like going to film school. It was intimidating and daunting, but an incredible privilege. I’m very proud, very excited. [...] We’re very different actors, but of course you’re the product of your environment, and it’s a world I’ve always been very interested in. [...] I was traumatised by it,” she recalls. “Not because I thought he was scary, but because everyone was being so mean to him and I got really upset. [...] It’s a difficult childhood memory. Edward’s the good guy and Nosferatu’s kind of the bad guy, but there’s a part of me that feels a little bit of empathy for Nosferatu. I mean, am I sick for feeling that way? [...] I’m interested in the darker underbelly of things,” she says. “As an actor, you hope that your role will be as meaty as can be, so you have as much to dive into as possible.” She revels in the hidden and mysterious, “because nothing is straightforwardly dark, it’s the most complicated stuff [...] The most exciting thing is getting to explore parts of myself. You get to hide behind all these beautiful artifices, the costumes, the story, but the place I’m drawing from is deeply personal. [...] There are so many sides to me,” she says. “I really feel that paradox in myself. [...] Born in France, Depp spent her childhood in both the US and France, with school in Los Angeles and summers on the Côte d’Azur [...] I am very close to the French half of my family, but I only made French girlfriends five years ago. I have had my LA best friends since forever. [...] Karl Lagerfeld brought her into the fold aged 15 [...] I don’t think I’m a shy person necessarily,” she says. “But I’m shy when people come up to me. [...] I love people who love their people,” she says. “The fashion industry, the film industry... these are crazy businesses. When you find people who feel real and you connect with them, you have to hold onto that. [...] She’s just the most amazing person I’ve ever met. Honestly, the most kind-hearted person. I’m super in love and I’m super happy. I’ve always been really private about my personal life, but it’s hard not to talk about her because I’m so happy. [...] love is love. You fall in love with who you fall in love with. It’s never seemed more complicated than that. [...] I feel we’re going backwards, which is endlessly disheartening and heartbreaking,” she says. “It’s a horrific time, and I’m scared, and I’m sad. I don’t really know where we go from here. [...] When things feel out of control and you feel powerless, you have to hold tight to the people you love and look after those people. [...] Her father had a long partnership with the director Tim Burton, exploring the supernatural and gory in Sleepy Hollow , Sweeney Todd and The Corpse Bride . Does a fascination for the genre run in the family? “Sure, I guess you could say so,” says Depp. [...] Aged three, she remembers, she was allowed to watch Edward Scissorhands , a 1990 fable in which her father plays a mutant but benign boy with blades instead of fingers. [...] But she is deeply upset by the election of Donald Trump . [...] Her solution is to prioritise loyalty and friendship:",
+      "context": "In-person interview at Hotel Cafe Royal, London, November 2024, age 25, published online Jan 3, 2025. The most detailed source on loyalty and on her darker aesthetic. Variety (Jan 3, 2025) and Complex syndicated the Edward Scissorhands lines; not independent.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S10",
+      "url": "https://www.harpersbazaar.com/uk/culture/a63212831/lily-rose-depp-interview-nosferatu/",
+      "title": "Rare Bloom (Harper's Bazaar UK): Nicholas Hoult and her security guard on Depp",
+      "speaker": "Nicholas Hoult; unnamed long-term security guard (both quoted by Sasha Slater)",
+      "date": "2025-01-03",
+      "locator": "Paragraph beginning \"Nicholas Hoult, who plays Depp's husband\"; closing paragraph on the security guard.",
+      "excerpt": "Nicholas Hoult, who plays Depp’s husband in Nosferatu , says of his co-star: “I can’t describe quite how brilliant she is,” and remarks that her acting was “some of the most impressive” he has ever seen. The shoot itself was tough: the team spent 12-hour days on location in Prague over four months, and the film required long, sustained shots that meant the actors relied on each other to stay ‘in sync’. “There was never a moment of ‘I’ve done my bit, now it’s on you’,” Hoult says of his castmate’s exemplary attitude. “I’d work with her again in a heartbeat. [...] with her long-term security guard, who says she is “like a daughter” to him. [...] And with that, Depp is off to the Mayfair Chippy for fish and chips with her long-term security guard, who says she is “like a daughter” to him.",
+      "context": "Hoult is a named co-star with a promotional interest; the guard is unnamed and paraphrased in part. Thin as testimony but independent of her own self-description on work ethic.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S11",
+      "url": "https://www.etonline.com/node/200095",
+      "title": "'The Idol': The Weeknd, Lily-Rose Depp, HBO Defend Series After Report Says It's 'Disgustingly Off the Rails' (Entertainment Tonight)",
+      "speaker": "Lily-Rose Depp (statement to ET); HBO statement; reporter Zach Seemayer",
+      "date": "2023-03-02",
+      "locator": "Paragraph beginning \"Depp also spoke out in defense of the series and Levinson\"; HBO statement paragraph; Rolling Stone summary paragraph.",
+      "excerpt": "Rolling Stone released a lengthy article claiming that the series -- helmed by Euphoria 's Sam Levinson -- has \"gone wildly, disgustingly off the rails\" with regard to chaotic scheduling, going over budget and last-minute script changes and overhauls on graphically violent and sexual scenes. [...] Throughout the process, the creative team has been committed to creating a safe, collaborative, and mutually respectful working environment, [...] Sam is, for so many reasons, the best director I have ever worked with. Never have I felt more supported or respected in a creative space, my input and opinions more valued. Working with Sam is a true collaboration in every way - it matters to him, more than anything, not only what his actors think about the work, but how we feel performing it. He hires people whose work he esteems and has always created an environment in which I felt seen, heard, and appreciated. [...] HBO has also denied the claims made in the article in a statement to ET. [...] Depp also spoke out in defense of the series and Levinson, telling ET,",
+      "context": "Written statement responding to Rolling Stone's March 1, 2023 report on The Idol's production; ET published it on March 2, Rolling Stone says its report included statements from Depp, and People later attributed the same text to a statement to People. Not an interview. HBO is an interested party.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S12",
+      "url": "https://www.rollingstone.com/tv-movies/tv-movie-news/the-idol-team-respond-rolling-stone-report-cannes-premiere-1234740292/",
+      "title": "'The Idol' Team Responds to Rolling Stone Expose: 'They Can Write Whatever They Want' (Rolling Stone)",
+      "speaker": "Jon Blistein (Rolling Stone), quoting Lily-Rose Depp and Sam Levinson at the Cannes press conference",
+      "date": "2023-05-23",
+      "locator": "Paragraphs 2-4 (summary of the March report and 13 sources; Depp's Cannes quote); \"In fact, Rolling Stone did include statements\" paragraph.",
+      "excerpt": "Interviews with 13 members of the show’s cast and crew revealed claims that the show’s on-set working conditions were often chaotic and that the series had taken a dark turn. One source described some potential scenes as “sexual torture porn,” while another said the show went from “a dark satire of fame and the fame model” to “the thing it was satirizing. [...] At Cannes, Depp, who’s previously pushed back against the report, said, “I just wanna say that it’s always sad and disheartening to hear mean, false things about someone you care about, and it wasn’t my experience shooting the show. [...] In fact, Rolling Stone did include statements from Depp, HBO, and a source close to the production, all of whom defended the series and on-set environment. [...] Back in March, Rolling Stone published an extensive report about the HBO limited series",
+      "context": "Rolling Stone is a party to the dispute (its own reporting was being rebutted). The March 1, 2023 report itself was not opened; its claims are known here only through this summary and ET (S11). Allegations are attributed to anonymous production sources and were denied by HBO.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S13",
+      "url": "https://www.eyeforfilm.co.uk/feature/2023-05-23-lily-rose-uncovers-the-dark-side-of-celebrity-as-her-new-tv-series-shows-in-cannes-feature-story-by-richard-mowe",
+      "title": "Lily-Rose uncovers the dark side of celebrity (Eye For Film)",
+      "speaker": "Lily-Rose Depp at the Cannes press conference, reported by Richard Mowe",
+      "date": "2023-05-23",
+      "locator": "Paragraphs 2 and 4 (her press-conference answers on surrounding yourself with good people and on watched pop stars).",
+      "excerpt": "I think it is just about the people you surround yourself with. That’s something that we see my character actively doing in the show, struggling with the people she is keeping around her and wondering if they are telling her the truth. It’s all about surrounding yourself with good people. [...] Pop stars are just celebrities who are watched. We imagine we know way more about them than we do. But what is going on inside her head, someone who is watched. What happens when she unravels either privately or publicly. The series dives into the idea of what is underneath the surface of what we grow so attached to. There is so much that is lying underneath everyone.",
+      "context": "Press-conference transcription by an attending critic; minor transcription errors elsewhere in the piece (\"I have not lived or anything it\"), so quote only the clean lines here.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S14",
+      "url": "https://www.cbsnews.com/news/lily-rose-depp-comes-to-dad-johnny-depps-defense-after-domestic-violence-allegations/",
+      "title": "Lily-Rose Depp comes to dad Johnny Depp's defense after domestic violence allegations (CBS News/AP)",
+      "speaker": "CBS/AP, reproducing Lily-Rose Depp's Instagram caption",
+      "date": "2016-05-30",
+      "locator": "Article body: paragraphs 1-3 and embedded post caption; Heard court-appearance paragraph; LAPD screenshot paragraph.",
+      "excerpt": "In an Instagram post Sunday, Lily-Rose Depp calls her father \"the sweetest most loving person I know.\" She didn't specifically reference the allegations but says Depp has \"been nothing but a wonderful father to my little brother and I, and everyone who knows him would say the same. [...] On Friday, she said in a Los Angeles court that Depp had been physically and emotionally abusive throughout \"the entirety of our relationship.\" She appeared with a bruise on her right cheek. [...] Lily-Rose came to her father's defense yet again when she posted a screenshot from People's website on Instagram on Sunday, which quoted an LAPD officer as saying there was no evidence of domestic violence when they responded to a call on May 21.",
+      "context": "She was 17. The post (May 29, 2016) has since been reported as deleted. The underlying abuse allegations by Amber Heard were litigated in the UK (2020) and Virginia (2022) and remain contested; this source establishes only what she posted and when, not anything about the allegations. Minor-era: context only, not type evidence by itself.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S15",
+      "url": "https://www.theaureview.com/watch/interview-lily-rose-depp-nicholas-hoult-nosferatu/",
+      "title": "Interview: Lily-Rose Depp and Nicholas Hoult on exploring fear and humanity in Nosferatu (The AU Review)",
+      "speaker": "Lily-Rose Depp and Nicholas Hoult, interviewed by Peter Gray",
+      "date": "2024-12-18",
+      "locator": "Answers 1, 4 (Ellen \"battle within\") and 5 (\"I can only act when drawing upon real emotion\").",
+      "excerpt": "I think that when your director has such a vision and such a clear, inspiring direction that he wants to go in, it’s tremendously helpful. [...] I think that for Ellen, this is just as much about the battle within as it is the battle going on outside of her. I think it’s a lot about her coming to terms with the darkness within herself that she’s always had, and learning to accept that within herself amongst a world that doesn’t want to see that or have room for it. [...] So, for me, I can only act when drawing upon real emotion, and that’s the wonderful thing about being an actor. I can go to these incredibly personal places, and yet you get to hide behind all of these beautiful things and amazing characters and amazing worlds, while exploring emotions that are very personal to you. [...] following its release in the United States on Christmas Day, December 25th, 2024.",
+      "context": "Global press-junket transcript (short slot, paired with a co-star). Craft talk; heavily promotional.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S16",
+      "url": "https://www.lofficiel.co.uk/fashion/who-is-the-gorgeous-lily-rose-depp-really",
+      "title": "Who is the gorgeous Lily-Rose Depp really? (L'Officiel UK)",
+      "speaker": "Lily-Rose Depp, interviewed by Augustin Trapenard (translated)",
+      "date": "2019-11-06",
+      "locator": "Opening paragraph (mirror line); \"LOVED IN LOVE\" section (privacy, \"let myself go\"); writer's observation on her questions.",
+      "excerpt": "In this profession you spend so much time looking at yourself that you end up blocking on details that you would never notice in someone else, [...] In this way she asks more questions than she gives answers: a handy trait - consciously or unconsciously - to protect herself against what could be said or written about her. Her tactics are to expose as little as possible than words cannot be taken out of context. [...] A number of things just have to remain secret, she explains: \"Not everything is public. [...] Then she talks about her profession: \"Why do I love acting so much? Maybe because that is the only place where I can really let myself go.",
+      "context": "Age 19-20, Jean-Baptiste Mondino shoot. The English page is a rough translation (page byline 06.11.2019; reader-proxy metadata shows a 2021 re-post), so wording is not her verbatim English. Use for gist and the journalist's observation only; do not present as an exact quote without the French original.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S17",
+      "url": "https://nylon.com/articles/lily-rose-depp-harley-quinn-smith-interview",
+      "title": "Lily-Rose Depp & Harley Quinn Smith Shed Light On That Whole \"Queer\" Thing (Nylon)",
+      "speaker": "Lily-Rose Depp and Harley Quinn Smith, interviewed by Leila Brillson",
+      "date": "2016-02-03",
+      "locator": "Writer's intro (temperament description); answer on her father's advice; answer on the Self-Evident Truths post.",
+      "excerpt": "She teases quieter, slightly more posed Lily-Rose out of her thoughtful shell [...] I’m a really independent person, so he lets me be independent. [...] That was really misconstrued, that whole thing. A lot of people took it as me coming out, but that’s not what I was trying to do. I was literally doing it just to say that you don’t have to label your sexuality; [...] No, I’m saying it doesn’t matter! It’s not anybody’s business, because I am going to date whoever I’m going to date.",
+      "context": "Sundance interview at 16 (a minor), about her August 2015 Self-Evident Truths portrait. Sexuality and a minor's words: sensitive. Use only to show her own clarification if the topic appears at all; do not use for typing.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S18",
+      "url": "https://www.lalibre.be/lifestyle/people/2016/10/28/lily-rose-depp-lavoue-elle-a-ete-anorexique-QD3EPBTBTBG5DBZNVNUUAKOH4Y/",
+      "title": "Lily-Rose Depp l'avoue : elle a été anorexique (La Libre Belgique, summarizing ELLE France)",
+      "speaker": "La Libre (lifestyle desk), quoting Lily-Rose Depp's ELLE France interview",
+      "date": "2016-10-28",
+      "locator": "Paragraph 2 (photo-shoot retort) and paragraph 4 (Instagram comments and recovery quote).",
+      "excerpt": "Lors du shooting photo, alors qu'on lui demande de sourire un peu plus, elle lance un cinglant : \"Si c'était cette image que j'avais voulu donner de moi au monde, je ne vous aurais pas attendus. [...] Je vois toujours ces commentaires sur Instagram : \"Elle ne mange pas\", \"Elle est anorexique\", etc. Ça m'attriste parce que je l'ai été plus jeune et ça a été dur d'en sortir. Tous ceux qui ont été confrontés à cette maladie savent à quel point c'est difficile d'en revenir. Ça fait longtemps que j'essaie de grossir, j'ai été suivie et je suis très fière de mes progrès. Aussi, ça me rend triste que l'on puisse penser que j'envoie ce message aux jeunes filles. Aujourd'hui, je suis bien avec mon corps et, comme je le disais en début d'interview, les gens ne me connaissent pas",
+      "context": "French-language secondary report of an ELLE France cover (photographed by Karl Lagerfeld) when she was 17. The ELLE France original was not opened. Health disclosure by a minor: highly sensitive; no causal or typing use.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S19",
+      "url": "https://www.wmagazine.com/culture/lily-rose-depp-cannes-film-festival-2016",
+      "title": "Live from Cannes: Lily Rose Depp on \"The Dancer\" and Chanel (W Magazine)",
+      "speaker": "Lily-Rose Depp, interviewed by Gillian Sagansky",
+      "date": "2016-05-17",
+      "locator": "Paragraph 1 (audition) and paragraph 2 (Isadora \"a little manipulative\").",
+      "excerpt": "As part of her audition, director Stephanie Di Giusto left Depp with a choreographer for an hour to learn a dance routine. By the time Di Giusto came back, Depp had nailed the routine and landed the part. [...] What I loved about Isadora was that she is a little manipulative. Everyone has that side that’s more devilish, so it was fun to project that and make that side the entire character.",
+      "context": "Cannes interview at 16 (a minor). The audition anecdote comes via the writer, not Di Giusto directly. Context only.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S20",
+      "url": "https://news.yahoo.com/lily-rose-depp-admits-she-210157260.html",
+      "title": "Lily-Rose Depp Admits She Sometimes Had to 'Steer Clear' of The Weeknd While Filming 'The Idol' (People via Yahoo)",
+      "speaker": "Lily-Rose Depp, quoted from Entertainment Weekly by Alexis Jones (People)",
+      "date": "2023-06-03",
+      "locator": "Paragraphs quoting EW: \"steer clear\" answer; \"vibe on set\" answer; \"people that have your back\" answer.",
+      "excerpt": "I don't think anybody went full method — nobody lost their minds,\" Depp told the outlet . \"Well, sometimes when Abel would get — I don't want to reveal too much about where Abel's character goes, but when he would be in full Tedros mode sometimes, I would steer clear of him. I'd be like, 'He's in his zone right now. [...] For something that does, of course, explore darker themes and has some pretty heavy emotional moments to it and everything, the vibe on set was quite lighthearted, [...] Because whenever you knew that there was a bigger, emotional scene coming up, you felt like you were surrounded by people that you feel comfortable with, people that have your back, and you feel that in the show.",
+      "context": "Secondhand (People quoting an EW interview the day before the HBO premiere). EW original not opened.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S21",
+      "url": "https://www.complex.com/pop-culture/a/treyalston/lily-rose-depp-edward-scissorhands",
+      "title": "Lily-Rose Depp Says 'Edward Scissorhands' 'Traumatized' Her as a Kid (Complex)",
+      "speaker": "Robert Eggers, as quoted by Trey Alston (Complex)",
+      "date": "2025-01-05",
+      "locator": "Final paragraph (\"Director Robert Eggers recently spoke about how much he loved Lily-Rose's audition\").",
+      "excerpt": "I’m not exaggerating — I was in tears because her audition was so insane,” said Eggers. “She’s just such a disciplined, courageous, and, like, feral actor. She’s amazing.",
+      "context": "Complex does not say where Eggers said this. Vanity Fair (S07) independently reports that her Zoom audition left him in tears, which corroborates the substance. Treat the exact wording as unlocated until the original interview is found.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S22",
+      "url": "https://www.empireonline.com/movies/features/werwulf-trailer-explained-by-robert-eggers-interview-exclusive/",
+      "title": "Werwulf Trailer Explained: 'If You're Not Smelling The Shit, You're Not Experiencing It Properly' (Empire)",
+      "speaker": "Robert Eggers, interviewed by Alex Godfrey",
+      "date": "2026-06-29",
+      "locator": "Intro (teaser line) and the Q&A answer to \"Clearly this is a very different role for Lily after Nosferatu\".",
+      "excerpt": "As his wife (Lily-Rose Depp) pleads in the teaser: “Keep my husband safe from his cursedness. [...] There were things about [ Nosferatu ’s] Ellen that were particularly challenging in a way that this character wasn’t, but also this character is so far from Lily, physically and in her general way of holding herself. So to be this mediaeval farmer’s wife, this mother who is super grounded, was a challenge which she embraced and was super into. It’s a really remarkable performance, and she’s the heart of the movie, she really is. [...] In Werwulf , set at the start of the 14th century, Aaron Taylor-Johnson stars as a nameless farmer who, well… let’s just say that things might get a little hairy.",
+      "context": "Director testimony during the Werwulf teaser launch, six months before release. Promotional interest; describes the role and her commitment, not her motives.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S23",
+      "url": "https://www.parismatch.be/actualites/people/2023/04/07/les-gens-se-trompent-vanessa-paradis-sort-du-silence-et-defend-sa-fille-lily-rose-depp-accusee-de-favoritisme-SVOWB757NBHQZGWDRGBIVIXB2I/",
+      "title": "\"Les gens se trompent\" : Vanessa Paradis sort du silence et défend sa fille Lily-Rose Depp (Paris Match Belgique)",
+      "speaker": "Vanessa Paradis, quoted from Madame Figaro by Paris Match Belgique",
+      "date": "2023-04-07",
+      "locator": "Paragraph quoting Paradis (\"Ma fille, je la vois travailler depuis huit ans...\").",
+      "excerpt": "Ma fille, je la vois travailler depuis huit ans. C'est une bosseuse comme on en voit peu. Elle travaille énormément ses rôles et ses auditions. Elle a fait beaucoup de castings où elle n'était pas choisie, et elle en était malheureuse, comme les autres. Je pense vraiment que ceux qui réussissent sont ceux qui travaillent dur et qui ont du talent, quel que soit leur nom. Ma fille en fait partie",
+      "context": "Her mother defending her against the nepo-baby charge; maximally interested witness. Madame Figaro original not opened. French; translate carefully if used. The draft paraphrases the castings sentence in English (no quotation marks) rather than quoting the French.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S24",
+      "url": "https://www.hollywoodreporter.com/movies/movie-reviews/nosferatu-review-bill-skarsgard-lily-rose-depp-nicholas-hoult-robert-eggers-1236074321/",
+      "title": "'Nosferatu' Review: Bill Skarsgard and Lily-Rose Depp Are Riveting, but Director Robert Eggers Rules This Haute-Horror Feast (The Hollywood Reporter)",
+      "speaker": "David Rooney (THR chief film critic)",
+      "date": "2024-12-02",
+      "locator": "Review body: \"In a transfixing performance\" paragraph; \"the movie belongs to Depp\" paragraph.",
+      "excerpt": "As much as Skarsgard’s fearsome Orlok, the movie belongs to Depp, whose performance is a revelation. Their scenes together are electric, bristling with a conflicting rush of revulsion and desire, trance and lucidity, resistance and fated surrender. Depp gives Ellen’s delirium a tragic gravity, deepening once she acknowledges the mystical forces within her that sparked the vampire’s obsession. She can switch in an instant from weak and vulnerable to demonic, and the stylized physicality of her seizures is breathtaking.",
+      "context": "Independent critical assessment of the performance; establishes reception, not personality.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S25",
+      "url": "https://en.wikipedia.org/wiki/Lily-Rose_Depp",
+      "title": "Lily-Rose Depp (Wikipedia)",
+      "speaker": "Wikipedia contributors",
+      "date": "2026-10-16",
+      "locator": "Lead; Early life; Career 2014-2018 and 2019-present; Personal life; Filmography (retrieved 2026-10-16).",
+      "excerpt": "Lily-Rose Melody Depp (born May 27, 1999) is a French-American actress and model. [...] Lily-Rose Melody Depp was born in the American Hospital of Paris located in Neuilly-sur-Seine , a wealthy suburb of Paris [ 1 ] on May 27, 1999. [...] Depp dropped out of high school in 2016 [...] In 2015, at age 16, Depp began her modeling career as a brand ambassador for the French fashion house Chanel [...] In 1991, her mother was also an ambassador [...] She also appeared in the film Planetarium alongside Natalie Portman [...] Depp appeared as Catherine of Valois [...] In 2023, Depp made her television debut starring in the HBO drama series The Idol [...] The series premiered at the 2023 Cannes Film Festival , where it was met with highly unfavorable reception [...] For her performance in the film, Depp was nominated for Most Promising Actress at the 42nd César Awards [...] She received her second nomination for Most Promising Actress at the 44th César Awards [...] The series aired on HBO and Max and was cancelled after one season. [...] The single that Depp recorded for the series along the Weeknd and Jennie , \" One of the Girls \", peaked at number 51 on the Billboard Hot 100 chart [...] She has struggled with and recovered from anorexia [...] In August 2015, she posed for iO Tillett Wright 's Self-Evident Truths Project [...] Since January 2023, she has been in a relationship with rapper and singer Danielle Balbuena, also known as 070 Shake [...] Depp confirmed the relationship in an Instagram post on May 11, 2023. [...] Depp made her acting debut in 2014, with a minor role in the horror comedy film Tusk . [...] Depp dropped out of high school in 2016 to focus on her acting career.",
+      "context": "Tertiary reference used only for dated biographical facts and filmography, each checked against its cited sources where possible (Harper's Bazaar July 15, 2015 Chanel announcement; César nominations; Deadline cancellation report). Not evidence of motive.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S26",
+      "url": "https://en.wikipedia.org/wiki/Werwulf",
+      "title": "Werwulf (Wikipedia)",
+      "speaker": "Wikipedia contributors",
+      "date": "2026-10-16",
+      "locator": "Lead; Cast; Release (retrieved 2026-10-16).",
+      "excerpt": "Werwulf is an upcoming period gothic folk horror film directed by Robert Eggers , who co-wrote the script with Sjón . The film stars Aaron Taylor-Johnson , Willem Dafoe , and Lily-Rose Depp . Set in 14th-century England , the film follows a town haunted by a beast that threatens the safety of a man and his family. [...] Lily-Rose Depp as Woman [...] Werwulf is scheduled to be released in the United States by Focus Features on December 25, 2026, and by Universal Pictures in the United Kingdom on January 1, 2027. [...] In 14th-century England, a town is haunted by a ravenous beast that threatens the safety of a man and his family. [...] Aaron Taylor-Johnson as Man",
+      "context": "Release date and cast list for an unreleased film; time-sensitive.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S27",
+      "url": "https://en.wikipedia.org/wiki/Alpha_Gang",
+      "title": "Alpha Gang (Wikipedia)",
+      "speaker": "Wikipedia contributors",
+      "date": "2026-10-16",
+      "locator": "Lead; Cast; Release; Reception (retrieved 2026-10-16).",
+      "excerpt": "Alpha Gang is a 2026 science fiction comedy film directed by Nathan and David Zellner [...] Lily-Rose Depp as Alpha Four [...] Alpha Gang premiered at the 53rd Telluride Film Festival on September 5, 2026. [ 10 ] It was also screened at the Toronto International Film Festival on September 13. [...] On review aggregator website Rotten Tomatoes , the film holds an approval rating of 84% based on 19 reviews, with an average rating of 5.5/10. [ 12 ] Metacritic , which uses a weighted average , assigned the film a score of 59 out of 100, based on 8 critics, indicating \"mixed or average reviews\".",
+      "context": "Festival dates and early reception for a film without a US release date as of the check. Wikipedia gives TIFF Sept 13; IBTimes (S29) says the TIFF screening was Sept 11 with a later Sept 13 event. Use \"September 2026\" for TIFF.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S28",
+      "url": "https://www.wmagazine.com/fashion/lily-rose-depp-alpha-gang-tiff-chanel-2026",
+      "title": "Lily-Rose Depp Does Sci-Fi Dressing, Chanel Style (W Magazine)",
+      "speaker": "Natalie Michie (W Magazine)",
+      "date": "2026-09-14",
+      "locator": "Paragraphs 1-2 (role description; Sunday-night TIFF premiere at 27).",
+      "excerpt": "Lily-Rose Depp’s latest film finds her playing an alien who has to deal with the sudden onset of human emotions. [...] On Sunday night, the 27-year-old actor attended the premiere of her upcoming sci-fi movie, Alpha Gang , at TIFF in a dramatic drop-waist number from Chanel’s fall 2026 collection.",
+      "context": "Fashion coverage confirming her Alpha Gang role and TIFF appearance; no interview content.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S29",
+      "url": "https://www.ibtimes.co.uk/lily-rose-depp-believes-aliens-alpha-gang-1819896",
+      "title": "Lily-Rose Depp Says She 'Definitely' Believes in Aliens While Promoting Alpha Gang at TIFF (IBTimes UK)",
+      "speaker": "Robert Gorgonio (IBTimes UK), quoting Lily-Rose Depp",
+      "date": "2026-09-15",
+      "locator": "Paragraphs 2-5 (age 27, quote, Telluride/TIFF dates, PEOPLE/EW studio on Sept 12).",
+      "excerpt": "The 27-year-old actress plays an extraterrestrial experiencing Earth and human emotions for the first time in the film. [...] 'So I definitely believe in aliens,' she said. [...] The film had previously debuted at the Telluride Film Festival on 5 September before screening in Toronto on 11 September as part of the festival's Special Presentations programme. [...] premiered without a US distributor",
+      "context": "Most recent first-person remark found (September 2026); light junket content with no bearing on motive. Confirms she is actively promoting new work as of the accuracy check.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S30",
+      "url": "https://www.purepeople.com/article/un-souvenir-inoubliable-lily-rose-depp-partage-plusieurs-photos-avec-sa-compagne-070-shake-pour-un-jour-tres-special_a551289/1",
+      "title": "Un souvenir inoubliable ! Lily-Rose Depp partage plusieurs photos avec sa compagne 070 Shake pour un jour très spécial (Purepeople)",
+      "speaker": "Purepeople (French celebrity outlet)",
+      "date": "2026-06-15",
+      "locator": "Paragraph 1 (Instagram story of Saturday 13 June 2026).",
+      "excerpt": "En story Instagram, ce samedi 13 juin 2026, elle a publié deux adorables photos d'elle et de sa chérie pour célébrer une occasion spéciale.",
+      "context": "Gossip outlet describing her own Instagram story; used only to date the relationship as ongoing in June 2026. The same article repeats an anonymous Daily Mail source about her father: do not use that.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S31",
+      "url": "https://www.musictimes.com/articles/107196/20241230/lily-rose-depp-talks-privacy-fame-hollywoods-allure-actor-needs-anonymity.htm",
+      "title": "Lily-Rose Depp Talks Privacy, Fame, and Hollywood's Allure: 'An Actor Needs Anonymity' (Music Times)",
+      "speaker": "Kaye Lai (Music Times), quoting Lily-Rose Depp's Daily Telegraph (Australia) interview",
+      "date": "2024-12-30",
+      "locator": "Paragraphs 3-4 (Daily Telegraph AU quotes on anonymity).",
+      "excerpt": "People are interested in things that they shouldn't necessarily be interested in,\" Depp said in an interview with the Daily Telegraph AU . \"And the job of an actor is to go into a character, melt into it and make the audience believe you are this character.\" She went on, \"In order to do that, it's important to protect a sense of anonymity - they're not supposed to get to know 'you' that well, because you want them to believe you as other characters.",
+      "context": "Secondhand report of a Daily Telegraph AU interview (not opened). Gives her craft rationale for privacy, a competing explanation to a temperament reading.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S32",
+      "url": "https://jezebel.com/lily-rose-depp-doesnt-want-to-be-defined-by-her-dad-1849790873",
+      "title": "Lily-Rose Depp Doesn't Want to Be 'Defined' By Her Dad (Jezebel)",
+      "speaker": "Kylie Cheung (Jezebel)",
+      "date": "2022-11-16",
+      "locator": "Paragraphs 1-2 (her silence during the 2022 trial; the 2016 post).",
+      "excerpt": "But the one star who especially frustrated Depp fans was his daughter , Lily-Rose Depp, who didn’t appear to acknowledge the trial at all. [...] In a new interview with Elle this week, Lily-Rose broke her silence on the matter—or, rather, explained her choice to be silent. [...] otherwise vocally feminist stars were notably quiet during Johnny Depp and Amber Heard’s stomach-churning defamation trial earlier this year.",
+      "context": "Opinionated outlet with a stated position on the Depp v. Heard trial; it misstates her age in 2016 (says 15; she was 17). Used only for the observation that she made no public comment during the 2022 trial. Do not use its characterisation of the trial evidence. The draft uses only the observation that she made no public comment and that this frustrated some of his fans; it names the 2022 trial without characterising it.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S33",
+      "url": "https://www.papermag.com/lily-rose-depp-nepotism-comments",
+      "title": "Lily-Rose Depp Is More 'Careful' Now About the 'Nepo Baby' Debate (PAPER)",
+      "speaker": "PAPER Magazine staff",
+      "date": "2023-02-23",
+      "locator": "Paragraphs 2-3 and 6 (backlash to the Elle remarks; New York Magazine cover context; spillover to other celebrities).",
+      "excerpt": "came under fire this past November after she appeared to dismiss the critics who accused her of benefiting from the privilege, opportunities and nepotism that comes with having famous parents. \"I’m familiar. The internet seems to care a lot about that kind of stuff,\" Depp told Elle in response to the viral discourse, which was initially launched by a New York Magazine cover story that used her as an example of a \"nepo baby\" alongside the children of other celebrities, such as Zoë Kravitz , Maude Apatow and Dakota Johnson . [...] Despite the backlash, her interview ended up spurring a number of other alleged \"nepo babies\" and their parents to push back against the label, with everyone from Lottie Moss to Tom Hanks weighing in on the discussion.",
+      "context": "Independent secondary report establishing that the November 2022 remarks drew public criticism and spilled into a wider debate. Its account of what launched the discourse (a New York Magazine cover) is unverified here and its chronology looks loose; do not repeat that ordering. Lightly sourced aggregation.",
+      "kind": "secondary",
+      "access": "opened"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C46",
+      "claim": "She auditioned for Nosferatu over Zoom from her family's place in the French countryside; one audition side was \"a big freak-out scene,\" so she gathered things to throw.",
+      "passage": "Lily-Rose Depp auditioned for Robert Eggers's _Nosferatu_ over Zoom. She was at her family's place in the French countryside, and one of her audition scenes was \"a big freak-out scene.\" So she gathered things to throw.",
+      "class": "self_report",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "Sets the opening scene from her own account (Vanity Fair, Nov 21, 2024). \"So she gathered things to throw\" paraphrases \"I made sure that I had a bunch of stuff to throw.\"",
+      "alternative": "Her account only; no second witness to the audition setup.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C13",
+      "claim": "Of her Nosferatu audition (2024): \"I had a roll of paper towels, and some books, and I just threw shit all over the room. I started moving around like crazy. I wanted to show that I wasn't scared to go there.\"",
+      "passage": "\"I had a roll of paper towels, and some books, and I just threw shit all over the room. I started moving around like crazy. I wanted to show that I wasn't scared to go there.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "Fear is named and then disproved by action: the counterphobic move that the draft pairs with C47 (\"I like the fear a little bit\") and C28.",
+      "alternative": "Many actors describe auditions as proving they can \"go there\"; the line is also awards-campaign storytelling. An appetite for intensity fits Types 7 and 8 too, but she frames it through not being scared.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C29",
+      "claim": "Robert Eggers was left in tears by her Zoom audition for Nosferatu, as Vanity Fair reported in November 2024.",
+      "passage": "The audition left Eggers in tears, [Vanity Fair](https://www.vanityfair.com/hollywood/story/lily-rose-depp-nosferatu-awards-insider) reported in November 2024.",
+      "class": "third_party",
+      "source_ids": [
+        "S07",
+        "S21"
+      ],
+      "inference": "The journalist reports Eggers's reaction; Complex separately quotes Eggers saying he was \"in tears because her audition was so insane.\" The draft does not use Complex's unlocated \"feral\" line.",
+      "alternative": "Reported in an awards-campaign piece; Eggers's own words on the tears are known only via Complex, which does not give the original interview.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C12",
+      "claim": "She was nervous before the Nosferatu audition and expected to lose the part: \"I was really nervous\"; \"I thought for sure it wasn't going to go my way\" (Vanity Fair, 2024).",
+      "passage": "Depp remembers the nerves. \"I was really nervous,\" she told the magazine, and she had expected to lose the part: \"I thought for sure it wasn't going to go my way.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "One of two dated forecasts of losing a major role (with C56 for The Idol, 2022): a habit of predicting the bad outcome in advance.",
+      "alternative": "Modesty is the expected register in an awards-season interview, so this could be convention or image management (a Type 3 reading). The two statements are not adjacent in the source; the draft does not present them as one quote.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C07",
+      "claim": "In Robert Eggers's Nosferatu (US release December 25, 2024) she played Ellen Hutter. The Hollywood Reporter's David Rooney wrote that \"the movie belongs to Depp, whose performance is a revelation.\"",
+      "passage": "Ahead of the film's December release, David Rooney wrote in [The Hollywood Reporter](https://www.hollywoodreporter.com/movies/movie-reviews/nosferatu-review-bill-skarsgard-lily-rose-depp-nicholas-hoult-robert-eggers-1236074321/) that \"the movie belongs to Depp, whose performance is a revelation.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S24",
+        "S15",
+        "S25"
+      ],
+      "inference": "Review dated Dec 2, 2024, ahead of the Dec 25, 2024 US release (AU Review, Wikipedia). Reception, not personality evidence.",
+      "alternative": "Reception is not personality evidence. One critic's line; other reviews were also strong, but only this one was opened.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C50",
+      "claim": "Interpretation: across her two biggest roles she forecast losing the part and then took the role to an extreme.",
+      "passage": "That pairing runs through her adult career. She expects to lose the role, and then she goes further in it than almost anyone would ask.",
+      "class": "interpretation",
+      "source_ids": [
+        "S07",
+        "S05",
+        "S24"
+      ],
+      "inference": "Built from C12 and C56 (forecasts of loss for Nosferatu and The Idol) and from the physical extremity of both roles (C13, C67, C28).",
+      "alternative": "Two roles are a short series; \"adult career\" generalises from them plus the 2021 pre-role anxiety (C10) and her mother's account of many lost castings (C60).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C01",
+      "claim": "Lily-Rose Depp was born on May 27, 1999, in Neuilly-sur-Seine, outside Paris, to actor Johnny Depp and singer-actress Vanessa Paradis.",
+      "passage": "Depp was born on May 27, 1999, in Neuilly-sur-Seine, outside Paris, the daughter of Johnny Depp and the French singer and actor Vanessa Paradis.",
+      "class": "third_party",
+      "source_ids": [
+        "S25",
+        "S05"
+      ],
+      "inference": "Birth date and place from Wikipedia (American Hospital of Paris, Neuilly-sur-Seine, \"a wealthy suburb of Paris\"); parents also named by Elle (2022).",
+      "alternative": "No conflicting date found. Do not add a birth time or other unsupported precision.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C02",
+      "claim": "She grew up between Los Angeles and France, became a Chanel ambassador at 16 in 2015, and left school in 2016 to act.",
+      "passage": "She grew up between Los Angeles and France, became a Chanel ambassador at 16, in 2015, and left school in 2016 to act.",
+      "class": "self_report",
+      "source_ids": [
+        "S03",
+        "S01",
+        "S09",
+        "S25",
+        "S05"
+      ],
+      "inference": "Split upbringing self-reported in 2021, 2024 and 2025; left school at 16 (Interview, 2021) and in 2016 (Wikipedia). Chanel: Wikipedia cites a July 15, 2015 Harper's Bazaar announcement, and Elle says \"since she was 16.\"",
+      "alternative": "Sources disagree on 15 versus 16. Write \"in 2015\" or \"at 16, in 2015\" (consistent with the dated announcement and her May birthday); do not write 15.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C03",
+      "claim": "Her screen debut was a minor role in Kevin Smith's Tusk (2014).",
+      "passage": "She made her screen debut in Kevin Smith's _Tusk_ (2014).",
+      "class": "third_party",
+      "source_ids": [
+        "S25",
+        "S02"
+      ],
+      "inference": "Wikipedia dates the debut to 2014; i-D (2023) says she was \"pretty casually told to jump into a scene\" by Smith, the father of her childhood best friend Harley Quinn Smith.",
+      "alternative": "Sources differ on her age at the time (i-D: fourteen; Vanity Fair 2024: \"I was 15 when I started working\"), so the draft gives no age. Critics of \"nepo babies\" read the anecdote as access through a famous family's network.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C05",
+      "claim": "Before The Idol and Nosferatu she worked mostly in French and independent film, earning two César nominations for Most Promising Actress (The Dancer, 2016; A Faithful Man, 2018).",
+      "passage": "Years of French and independent film followed, with two César nominations for Most Promising Actress, before HBO's _The Idol_ (2023) and _Nosferatu_ (2024) brought her to a far bigger audience.",
+      "class": "third_party",
+      "source_ids": [
+        "S25"
+      ],
+      "inference": "Filmography and nominations from Wikipedia and its cited trade sources; W (2016) and Interview (2021) corroborate The Dancer, Voyagers and Wolf from her side.",
+      "alternative": "\"A far bigger audience\" is a modest comparative claim (an HBO series lead and a wide Focus Features release versus festival and French releases); no audience figures are cited.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C51",
+      "claim": "Interpretation: her answer to doubt (lean on the people and structures that chose her) has been stable since 2021.",
+      "passage": "What makes her interesting is where she goes for steadiness when the doubt arrives. Her answer has barely changed since 2021.",
+      "class": "interpretation",
+      "source_ids": [
+        "S03",
+        "S02",
+        "S07",
+        "S09"
+      ],
+      "inference": "Dated first-person statements in 2021 (C10, C45), 2023 (C11), 2024 (C57, C16) and 2025 (C69) share the same direction of resolution.",
+      "alternative": "All are promotional interviews; consistency of message can reflect a practised press answer.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C40",
+      "claim": "Interpretation: across 2021 to 2025 her recurring response to doubt or exposure is to borrow certainty from people and structures she trusts (the director who chose her, a choreographed framework, collaborators who \"have your back,\" long-time friends), and to defend those people when they are attacked. That pattern is the case for a Type 6 reading, with a counterphobic streak in how she walks toward roles that scare her.",
+      "passage": "Depp names her fear often, expects to lose the parts she wants, and steadies herself by trusting the people who chose her. Then she walks straight into the roles that scare her.",
+      "class": "interpretation",
+      "source_ids": [
+        "S03",
+        "S02",
+        "S07",
+        "S01",
+        "S05",
+        "S09",
+        "S11",
+        "S12",
+        "S20"
+      ],
+      "inference": "The motive inferred is security through trusted allegiance, the Six's core concern. It explains costly choices (vouching publicly for Levinson in 2023, standing by the cancelled show, taking frightening roles as tests) better than an image motive and at least as well as an identity motive.",
+      "alternative": "Every load-bearing statement is self-report in a promotional interview, and circumstance (nepotism scrutiny, intimacy-heavy roles, a protective famous family) explains much of the fear and the trust talk. The article must say this is a reading of public evidence, held at medium confidence.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C52",
+      "claim": "Interpretation and limit: the Type 6 read is held at medium confidence because nearly all first-person evidence comes from promotional interviews and circumstance explains part of every pattern.",
+      "passage": "This is a read of her public record, held at medium confidence. Nearly all of that record is interviews given while she was promoting something, and circumstance explains part of every pattern below.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S05",
+        "S07",
+        "S09"
+      ],
+      "inference": "Matches type_hypothesis.confidence (medium) and the research record: the long-form sources are cover stories, awards-campaign and junket interviews.",
+      "alternative": "Two conversations with friends (Knightley 2021, Portman 2024) are lower-pressure than cover stories but still promotional.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C41",
+      "claim": "Interpretation: the strongest alternative is Type 4. Her pull toward darkness and the outcast, her self-description as a person of dualities, and acting as a deeply personal emotional outlet all fit the Four. What weakens it is where she looks for steadiness: she checks whether a dark feeling is acceptable rather than claiming it, is relieved by imposed structure, calls herself \"a happy person\" who explores the underbelly at work, and grounds her worth in others' choice of her rather than in her own distinctness.",
+      "passage": "The strongest rival is [Type 4](/enneagram-corner/enneagram-type-4), the Individualist, because of her pull toward darkness and the misunderstood.",
+      "class": "interpretation",
+      "source_ids": [
+        "S09",
+        "S01",
+        "S07",
+        "S15",
+        "S03",
+        "S02"
+      ],
+      "inference": "A fair test of the leading reading against its best rival, to be placed near the main type argument.",
+      "alternative": "A reader who weights her aesthetic and emotional self-description over her coping pattern could reasonably prefer Type 4. Nothing here discriminates with certainty; this is the reason confidence is medium.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C53",
+      "claim": "Keira Knightley, her Silent Night co-star, interviewed her for Interview magazine in 2021 and asked whether she ever suffered from anxiety on set or stage fright.",
+      "passage": "In 2021 her _Silent Night_ co-star [Keira Knightley](/personality-analysis/keira-knightley) interviewed her for [Interview](https://www.interviewmagazine.com/film/whats-it-like-being-lily-rose-depp-keira-knightley-finds-out) and asked whether she ever suffered from anxiety on set or stage fright.",
+      "class": "observed",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "Context for C54 and C10: the question was Knightley's, so the topic was prompted.",
+      "alternative": "A leading question; her answer's weight comes from recurrence across later interviews.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C54",
+      "claim": "Asked about anxiety in 2021, she said: \"Definitely. The peak of that is right before I start something.\"",
+      "passage": "\"Definitely,\" Depp said. \"The peak of that is right before I start something.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "Pre-role anxiety stated plainly, before The Idol and Nosferatu.",
+      "alternative": "Pre-production nerves are common among actors.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C10",
+      "claim": "In 2021 she said she can \"get in my head\" before a job with thoughts such as \"Am I going to be able to do this? What have I signed up for? Are they sure that I'm the one?\"",
+      "passage": "\"It's possible for me to get in my head and be like, 'Am I going to be able to do this? What have I signed up for? Are they sure that I'm the one?'\"",
+      "class": "self_report",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "Earliest adult statement of a sequence that recurs in 2023 and 2024: doubt about her own adequacy, voiced as a question about whether the people who picked her got it right, answered by trust in the group. This sequence is the centre of the Type 6 reading.",
+      "alternative": "Knightley asked a leading question, and pre-role nerves are ordinary; the weight comes from recurrence (C11, C56, C57). Nested quotation marks are rendered as single quotes.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C45",
+      "claim": "In the same 2021 answer she reframed the nerves as investment and named trust in partners, director and crew as what steadies her: \"And trust is so huge...\"",
+      "passage": "She told herself the nerves meant she cared. Then she named what steadies her: \"And trust is so huge. There's so much to be said about feeling comfortable and connected with your partners, with your director, and with your crew members.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "\"She told herself the nerves meant she cared\" paraphrases \"it's a sign that I'm invested and excited and wanting to do the best job possible.\" Doubt answered by trust in the group is the core Six sequence.",
+      "alternative": "On-set trust talk is standard; the resolution is still self-report.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C56",
+      "claim": "Of The Idol (Elle, November 2022): \"I did not think at all that this was going to go my way\"; she called her casting \"the best surprise ever\" and said, \"I can't believe they wanted me to do it.\"",
+      "passage": "Of _The Idol_, she told [Elle](https://www.elle.com/culture/celebrities/a41894075/0125-0141-an-idol-rising-december-2022/) in November 2022, \"I did not think at all that this was going to go my way.\" She called her casting \"the best surprise ever\" and said, \"I can't believe they wanted me to do it.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "A second dated forecast of losing a major role (with C12), and disbelief directed at the people who chose her.",
+      "alternative": "Expected modesty in a cover story. The two quoted lines are separated in the source by other sentences and are presented as separate statements.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C11",
+      "claim": "In 2023 she grounded her confidence in the judgment of the people who chose her: \"if they've chosen me, then hopefully I've been chosen for a reason.\"",
+      "passage": "\"You just have to jump in and have some kind of faith that, if they've chosen me, then hopefully I've been chosen for a reason.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "Across two years, two roles and two interviewers, the reassurance she reaches for is external: the choosers had a reason. That is a security move (borrowing certainty from a trusted authority) rather than an identity move (asserting what is distinct in her). This claim and C10 carry the main discriminator against Type 4.",
+      "alternative": "Imposter feelings are close to universal for an actor publicly labelled a \"nepo baby\", so circumstance explains much of the feeling itself. The type-relevant evidence is the direction of the resolution, which is still self-report in promotional settings. A Type 4 can also feel she does not belong; the difference would be resolving it through her own felt authenticity, which she does not do here.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C57",
+      "claim": "Of Nosferatu (2024), she said she had told someone the hardest part of the role was \"Getting over the imposter syndrome of, like, 'Why am I here and why do these people think that I can do this?'\"",
+      "passage": "She told Vanity Fair that when someone asked her about the hardest part of the role, she answered, \"Getting over the imposter syndrome of, like, 'Why am I here and why do these people think that I can do this?'\"",
+      "class": "self_report",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "Same outward-pointing doubt as C10 and C11, three years later and for a different role.",
+      "alternative": "In the same answer she says she reached \"I can do this and I am here for a reason,\" an inward statement of confidence; the draft's \"rarely\" (C58) allows for it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C58",
+      "claim": "Interpretation: she settles doubt by leaning on the choosers' judgment rather than by naming what is special about her; this outward move is the center of the Six reading.",
+      "passage": "Look at where the reassurance comes from. Each time, she settles the doubt by leaning on the judgment of the people who did the choosing. They must have had a reason. She rarely answers it by naming what is special about her. That outward move is the center of the Six reading.",
+      "class": "interpretation",
+      "source_ids": [
+        "S03",
+        "S02",
+        "S07"
+      ],
+      "inference": "Direction of resolution across C10, C11, C45 and C57, which is the discriminator against Type 4 stated in type_hypothesis.",
+      "alternative": "She does sometimes assert her own distinctness (\"I'm very much my own person,\" 2021; \"I can do this and I am here for a reason,\" 2024). \"Rarely\" is a judgment about frequency, not an absence.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C59",
+      "claim": "Limit: imposter feelings are near-universal among actors, especially those whose place is publicly questioned; the type-relevant evidence is how she resolves the feeling.",
+      "passage": "Imposter feelings are close to universal among actors, especially ones whose place is argued over in public. What points toward a type is how she resolves the feeling, and that comes from her own account in interviews tied to a release.",
+      "class": "interpretation",
+      "source_ids": [
+        "S33",
+        "S05",
+        "S02"
+      ],
+      "inference": "States the circumstantial alternative next to the main argument, as the standard requires.",
+      "alternative": "None; this is the alternative.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C60",
+      "claim": "Her mother said in 2023 (to Madame Figaro, quoted by Paris Match Belgique) that her daughter had done many castings where she was not chosen and had been unhappy about it, like others.",
+      "passage": "Defending her in 2023, her mother told Madame Figaro, as quoted by [Paris Match Belgique](https://www.parismatch.be/actualites/people/2023/04/07/les-gens-se-trompent-vanessa-paradis-sort-du-silence-et-defend-sa-fille-lily-rose-depp-accusee-de-favoritisme-SVOWB757NBHQZGWDRGBIVIXB2I/), that her daughter had gone to many castings where she wasn't chosen, and had been unhappy about it, like everyone else.",
+      "class": "third_party",
+      "source_ids": [
+        "S23"
+      ],
+      "inference": "An outside account that rejection was real and frequent, so the forecasts of loss (C12, C56) are not pure performance. English paraphrase of: \"Elle a fait beaucoup de castings où elle n'était pas choisie, et elle en était malheureuse, comme les autres.\"",
+      "alternative": "Paradis is a maximally interested witness defending her daughter against the nepotism charge; the Madame Figaro original was not opened.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C32",
+      "claim": "Interviewers describe a nervous, self-effacing presence: Elle (2022) found a \"self-effacing woman\" who apologised for being late because of a sick cat; i-D (2023) found her \"endearingly jittery,\" and when the writer admitted to pre-interview nerves she said, \"We can be nervous together!\"",
+      "passage": "Elle's writer found a \"self-effacing woman\" who apologized for being a few minutes late because of a sick cat. i-D's writer found her \"endearingly jittery.\" When the writer admitted to getting nervous before interviews, she said she gets just as nervous being interviewed. \"We can be nervous together!\"",
+      "class": "observed",
+      "source_ids": [
+        "S05",
+        "S02"
+      ],
+      "inference": "Two journalists, months apart, describe the same anxious, conscientious manner. \"Sick cat\" paraphrases \"a gastrointestinally challenged cat.\"",
+      "alternative": "Short, staged encounters and the journalists' framing.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C55",
+      "claim": "Asked by Elle in 2022 about the \"nepo baby\" debate, she said, \"I'm familiar.\"",
+      "passage": "In the same 2022 Elle interview she was asked about the \"nepo baby\" debate. \"I'm familiar,\" she said.",
+      "class": "self_report",
+      "source_ids": [
+        "S05",
+        "S33"
+      ],
+      "inference": "Opens the dated nepotism episode.",
+      "alternative": "PAPER quotes the same line.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C24",
+      "claim": "Her November 2022 Elle remarks on the \"nepo baby\" label: \"nothing is going to get you the part except for being right for the part\"; \"Maybe you get your foot in the door, but you still just have your foot in the door\"; and \"I just hear it a lot more about women, and I don't think that it's a coincidence.\"",
+      "passage": "\"I can definitely say that nothing is going to get you the part except for being right for the part,\" she went on. \"The internet cares a lot more about who your family is than the people who are casting you in things. Maybe you get your foot in the door, but you still just have your foot in the door.\" She also said, \"I just hear it a lot more about women, and I don't think that it's a coincidence.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "Her own argument at the time, quoted in its source order; the \"foot in the door\" line follows the \"internet cares\" sentence directly.",
+      "alternative": "Elle's doctor analogy and her caveat (\"Ever careful\") are omitted for length; the omission does not change the meaning of the quoted lines.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C61",
+      "claim": "The November 2022 remarks drew public criticism and spurred other famous parents and children to weigh in.",
+      "passage": "The remarks drew public criticism, [PAPER](https://www.papermag.com/lily-rose-depp-nepotism-comments) reported, and pulled other famous families into the argument.",
+      "class": "third_party",
+      "source_ids": [
+        "S33"
+      ],
+      "inference": "PAPER (Feb 23, 2023): she \"came under fire\" and the interview spurred \"other alleged 'nepo babies' and their parents\" to push back against the label.",
+      "alternative": "Lightly sourced aggregation; its account of what launched the debate is not repeated.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C62",
+      "claim": "In February 2023 she told i-D, \"I'm so careful about these conversations now,\" and said her parents did their best to give her a normal childhood, adding, \"And obviously, that still was not a normal childhood.\"",
+      "passage": "\"I'm so careful about these conversations now,\" she told i-D. Her parents, she said, had done their best to give her a normal childhood. \"And obviously, that still was not a normal childhood.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "After group disapproval she adjusted, acknowledging privilege and becoming more guarded.",
+      "alternative": "Standard PR correction after a backlash.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C63",
+      "claim": "Interpretation: the adjustment fits a Six's sensitivity to the group's verdict, though any publicist would have advised it.",
+      "passage": "That adjustment fits a Six's sensitivity to how the group is reading her. Any publicist would also have advised it.",
+      "class": "interpretation",
+      "source_ids": [
+        "S02",
+        "S05",
+        "S33"
+      ],
+      "inference": "After group disapproval she adjusted, acknowledging privilege and becoming more guarded. Sensitivity to the group's verdict and a move toward caution fits Type 6; Elle's writer had already called her \"Ever careful.\"",
+      "alternative": "Standard PR correction after a backlash; any public figure might do the same. The original remarks also included a pointed argument (the label is applied mostly to women) that she did not retract.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C23",
+      "claim": "She says the expectation that she will fail drives her effort (Vanity Fair, 2024).",
+      "passage": "\"I feel like people have been ready to see me fail, in a way, since I was a kid. That has made me only want to work harder and prove people wrong. Not in a vindictive way at all, but just in a sense of, like, fuel to my fire.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "Effort as an answer to doubt about whether she deserves her place.",
+      "alternative": "This is the main Type 3 evidence: hard work as proof, a modelling career built on image, and a wish to \"prove people wrong.\" What strains Type 3: she volunteers doubt and expected failure instead of projecting success, and frames the goal as being seen as \"a hard worker,\" not as a winner. Interested witnesses (mother, co-star).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C04",
+      "claim": "She has been a Chanel brand ambassador since 2015.",
+      "passage": "Proving people wrong through effort could point to Type 3, the Achiever, and she has been a face of Chanel since 2015.",
+      "class": "third_party",
+      "source_ids": [
+        "S25",
+        "S05",
+        "S28"
+      ],
+      "inference": "Wikipedia cites the July 15, 2015 announcement; Elle (2022) says ambassador \"since she was 16\"; W (Sept 2026) shows her still wearing Chanel at TIFF in its fall 2026 collection. The sentence also states the Type 3 alternative.",
+      "alternative": "Sources disagree on 15 versus 16. Write \"in 2015\" or \"at 16, in 2015\" (consistent with the dated announcement and her May birthday); do not write 15.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C65",
+      "claim": "She frames her goal as being seen as a hard worker: \"I do want to prove that I'm a hard worker and I'm not here for anything else but to work hard.\"",
+      "passage": "The goal she names is to be seen as reliable: \"I do want to prove that I'm a hard worker and I'm not here for anything else but to work hard.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S07",
+        "S23",
+        "S10"
+      ],
+      "inference": "Reliability rather than winning, which strains a Type 3 reading. Her mother (\"une bosseuse comme on en voit peu\") and Hoult (C48) give outside views of the work ethic.",
+      "alternative": "Interested witnesses; \"reliable\" is the draft's gloss on \"a hard worker.\"",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C66",
+      "claim": "In the same 2023 i-D answer she said there is \"nothing more exciting\" than feeling nervous and challenged, and called that the best fuel to work hard.",
+      "passage": "\"I think that there's nothing more exciting than being like, 'Wow, I'm so nervous. I feel so challenged by this. How on earth am I going to pull this off?' You could ask for no better fuel to make you want to work really, really hard.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "Nervousness reframed as fuel, immediately after the \"chosen for a reason\" line.",
+      "alternative": "Many actors describe fear as fuel. Nested quotation marks rendered as single quotes.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C47",
+      "claim": "In 2023 she said, \"If you're not scared, then what's the point? I like the fear a little bit.\"",
+      "passage": "\"If you're not scared, then what's the point? I like the fear a little bit.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "Fear is named first and then used as fuel and as something to disprove. This counterphobic movement is a recognised Type 6 pattern and explains why an anxious interviewee keeps choosing extreme roles. Eggers's description of her as \"courageous\" (C29) is the outside view of the same behaviour.",
+      "alternative": "One sentence (\"Okay, I really don't want to fuck this up...\") sits between C66 and this line in the source; the draft says \"a few lines later.\" An appetite for intensity also fits Type 7 or Type 8, and many actors talk about fear as fuel. What distinguishes this from an 8 or 7 is that she frames the choice through fear and proving she is not afraid, not through appetite or control.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C28",
+      "claim": "She seeks strange and provocative work: \"Weird and wonderful is definitely the direction I'm trying to go\" (2021); \"I'm not interested in making anything puritanical. I'm not interested in making anything that doesn't challenge me, or challenge other people, honestly\" (2022).",
+      "passage": "In 2021 she told Knightley, \"Weird and wonderful is definitely the direction I'm trying to go.\" Of _The Idol_, she told Elle, \"I'm not interested in making anything puritanical. I'm not interested in making anything that doesn't challenge me, or challenge other people, honestly.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S03",
+        "S05"
+      ],
+      "inference": "A deliberate taste for the unusual. Under Type 6 it reads as counterphobic testing; under Type 4 as a search for the distinctive.",
+      "alternative": "Career strategy is a strong alternative: i-D noted The Idol \"seems like a role designed to completely reorient her image\" away from Chanel polish and nepotism framing. Novelty-seeking also fits Type 7.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C67",
+      "claim": "For Nosferatu she trained in butoh, rehearsed in a corset, and held still for long stretches covered in stage blood.",
+      "passage": "For _Nosferatu_ she trained in butoh, rehearsed the possession scenes in a corset, and held still for long stretches covered in stage blood.",
+      "class": "self_report",
+      "source_ids": [
+        "S07",
+        "S01"
+      ],
+      "inference": "Vanity Fair: butoh training and corset rehearsal; Portman conversation: rehearsing movement in the corset and sitting in position \"for so long\" with \"a lot of blood on my bare body.\"",
+      "alternative": "Role demands set by the director; shows commitment, not motive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C22",
+      "claim": "Covered in stage blood during a long Nosferatu set-up, she told herself, \"Everything is mental. I'm good. I'm chilling\" (Interview, December 2024).",
+      "passage": "During one of them, she told [Natalie Portman](/personality-analysis/natalie-portman) in an [Interview](https://www.interviewmagazine.com/film/im-a-sucker-for-a-crazy-love-story-lily-rose-depp-by-natalie-portman) conversation published in December 2024, \"I was just thinking to myself, 'Everything is mental. I'm good. I'm chilling.'\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Calming self-talk that names and shrinks the stress, then keeps going.",
+      "alternative": "Self-minimising (\"you don't matter that much\") and calming self-talk are also the Type 9 alternative's best evidence. The difference is that she names fear explicitly and repeatedly instead of numbing it, but this is a judgment call.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C14",
+      "claim": "Off set she describes growing fearfulness: \"I used to be way more daredevil-ish when I was a kid, and now I'm scared of everything\"; asked what happened, \"I don't know! I think the world started to scare me a lot\" (October 2024 conversation, published December 2024).",
+      "passage": "When Portman asked about the most daredevil thing she had done, Depp said, \"I used to be way more daredevil-ish when I was a kid, and now I'm scared of everything.\" Asked what happened, she said, \"I don't know! I think the world started to scare me a lot.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Fear as a standing lens off set, increasing with age by her account.",
+      "alternative": "Light banter about skydiving and zip lines with a friend; give it modest weight and do not present it as clinical anxiety. Portman asked \"What happened?\" between the two lines; the draft says so.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C70",
+      "claim": "Interpretation: fear as a standing condition plus a habit of walking toward what scares her is the counterphobic Six pattern; she frames risk through fear, not appetite or control.",
+      "passage": "Put those together and you get the counterphobic Six. Fear is the standing condition. The answer is to walk toward the specific thing that scares her, so the fear can't win. An Eight or a Seven would talk about appetite or control. She talks about being scared and about proving she isn't.",
+      "class": "interpretation",
+      "source_ids": [
+        "S02",
+        "S07",
+        "S01",
+        "S05"
+      ],
+      "inference": "Combines C13, C47, C66, C28 (risk) with C14 (fear off set).",
+      "alternative": "An appetite for intensity also fits Type 7 or Type 8, and many actors talk about fear as fuel. What distinguishes this from an 8 or 7 is that she frames the choice through fear and proving she is not afraid, not through appetite or control.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C71",
+      "claim": "Limit: fear-as-fuel is a common actor answer; the weight comes from repetition across 2022-2024 and three outlets.",
+      "passage": "Plenty of actors call fear fuel. The weight here comes from how often she frames her riskiest choices that way, across three years and three outlets.",
+      "class": "interpretation",
+      "source_ids": [
+        "S05",
+        "S02",
+        "S07"
+      ],
+      "inference": "Elle 2022 (C28), i-D 2023 (C47, C66), Vanity Fair 2024 (C13).",
+      "alternative": "Repetition can also be a practised press line.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C15",
+      "claim": "In 2022 she called Sam Levinson and Abel Tesfaye, two of The Idol's co-creators, \"two people who make me feel incredibly safe and protected.\"",
+      "passage": "In 2022 she told Elle that Sam Levinson and Abel Tesfaye (The Weeknd), two of the co-creators of _The Idol_, were \"two people who make me feel incredibly safe and protected.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "Her stated condition for vulnerable work is a protective, trusted circle. Elle lists Levinson, Tesfaye and Reza Fahim as co-creators.",
+      "alternative": "On sexually explicit productions, talk of trust and safety is standard and often coached, and The Idol needed defending (C33). A Type 2 would stress being needed or helping; a Type 9 would stress harmony and ease; her emphasis on protection and backing fits Type 6 better but is not unique to it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C72",
+      "claim": "Of The Weeknd (i-D, 2023): \"Talk about trust and comfort... He has my back and I have his.\"",
+      "passage": "\"Talk about trust and comfort. I had to go to a lot of really vulnerable places in the show. Abel was the best partner that I could have ever asked for. He has my back and I have his.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "Safety and \"having her back\" vocabulary, consistent with C15 and C73.",
+      "alternative": "Pre-release promotion for The Idol; trust talk is standard on intimacy-heavy productions.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C73",
+      "claim": "At the Cannes press conference in May 2023 she said, \"It's all about surrounding yourself with good people.\"",
+      "passage": "That was to i-D in 2023. At the Cannes press conference that May, [Eye For Film](https://www.eyeforfilm.co.uk/feature/2023-05-23-lily-rose-uncovers-the-dark-side-of-celebrity-as-her-new-tv-series-shows-in-cannes-feature-story-by-richard-mowe) reported, she summed it up: \"It's all about surrounding yourself with good people.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S13"
+      ],
+      "inference": "Said while describing her character's struggle with the people around her; she generalises it.",
+      "alternative": "Eye For Film transcription; the line answers a question about the show, so it is partly about Jocelyn.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C74",
+      "claim": "On Nosferatu she expected to improvise the possession scenes and found them choreographed with movement coach Marie-Gabrielle Rotie.",
+      "passage": "On _Nosferatu_ she expected to improvise the possession scenes and found them choreographed with the movement coach Marie-Gabrielle Rotie.",
+      "class": "self_report",
+      "source_ids": [
+        "S07",
+        "S01"
+      ],
+      "inference": "Vanity Fair: \"Going into it I had thought that it was going to be maybe more improvisational\"; Portman: \"I thought I was just going to go and freak out and we'll improvise. And then I got there and it was very much choreographed.\"",
+      "alternative": "None material.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C16",
+      "claim": "She welcomed the fixed choreography: \"I was grateful not to have to shape it on my own\" (Interview, 2024); \"I didn't realize how choreographed it was going to be, but that helped infuse every moment with an intention\" (Vanity Fair, 2024).",
+      "passage": "\"I was grateful not to have to shape it on my own,\" she told Portman. \"I didn't realize how choreographed it was going to be, but that helped infuse every moment with an intention,\" she told Vanity Fair.",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S07"
+      ],
+      "inference": "She expected improvisation and found relief, not constraint, in a fixed framework; her worry is about letting the team down. Both fit a security motive. In the AU Review she also calls a director's clear vision \"tremendously helpful.\"",
+      "alternative": "Eggers's precise, storyboarded method requires this of every actor, so circumstance explains much of it. A Four might resent imposed form; she does not, which is mild evidence against Type 4 rather than strong evidence for Type 6.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C75",
+      "claim": "Of Nosferatu's one-take scenes: \"Nobody wants to be the one that messes it up for everybody, which brings this real team feeling. I felt a lot of support from everyone.\"",
+      "passage": "Many scenes were shot in a single take, and she described what that did to the set: \"Nobody wants to be the one that messes it up for everybody, which brings this real team feeling. I felt a lot of support from everyone.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "Her worry is about letting the team down; support from the group steadies her.",
+      "alternative": "The one-take method is the director's; the team feeling is a description of the set, not only of her.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C48",
+      "claim": "Nicholas Hoult, her Nosferatu co-star, said: \"There was never a moment of 'I've done my bit, now it's on you'... I'd work with her again in a heartbeat.\"",
+      "passage": "Nicholas Hoult, her co-star, saw the other side of that. \"There was never a moment of 'I've done my bit, now it's on you',\" he told [Harper's Bazaar UK](https://www.harpersbazaar.com/uk/culture/a63212831/lily-rose-depp-interview-nosferatu/). \"I'd work with her again in a heartbeat.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S10"
+      ],
+      "inference": "Outside view of reliability and commitment to the ensemble.",
+      "alternative": "Promotional co-star praise; does not discriminate 6 from 4 by itself.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C76",
+      "claim": "Limit: trust-and-safety language is standard on a sexually explicit series, and Eggers's storyboarded method imposes form on every actor; her relief at that form counts more against Type 4 than for Type 6.",
+      "passage": "Some of this is the job. On a sexually explicit series, trust-and-safety language is standard, and Eggers's storyboarded method imposes form on every actor in the scene. Still, she didn't chafe at the fixed form. She was relieved by it, which counts more against the Four than it proves the Six.",
+      "class": "interpretation",
+      "source_ids": [
+        "S07",
+        "S05"
+      ],
+      "inference": "Vanity Fair: \"Rob and Jarin's storyboards are so clear... You are working yourself into a framework that is very much already there.\"",
+      "alternative": "Circumstance explains much of C15 and C16.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C77",
+      "claim": "Rolling Stone published a report on The Idol's production on March 1, 2023, about three months before the series aired (June 2023).",
+      "passage": "On March 1, 2023, three months before _The Idol_ aired, Rolling Stone published a report on its production.",
+      "class": "third_party",
+      "source_ids": [
+        "S11",
+        "S12",
+        "S20"
+      ],
+      "inference": "ET (Mar 2, 2023) says the report came out \"On Wednesday\" (March 1, 2023); People/EW (June 3, 2023) dates the HBO premiere to the next day (June 4).",
+      "alternative": "The March 1 report itself was not opened.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C33",
+      "claim": "Rolling Stone, summarising its March 2023 report, said 13 cast and crew members described often chaotic working conditions and a show that had taken a dark turn.",
+      "passage": "As the magazine later [summarized it](https://www.rollingstone.com/tv-movies/tv-movie-news/the-idol-team-respond-rolling-stone-report-cannes-premiere-1234740292/), interviews with 13 members of the cast and crew described often chaotic working conditions and a show that had taken a dark turn.",
+      "class": "disputed",
+      "source_ids": [
+        "S12"
+      ],
+      "inference": "Attributed allegations only, via Rolling Stone's own May 23, 2023 follow-up. Context for C17.",
+      "alternative": "The original report was not opened and is not quoted. HBO denied the claims (C78); Depp said it was not her experience (C80). Do not characterise Levinson or the set in the author's voice.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C78",
+      "claim": "HBO denied the claims and said the creative team had been \"committed to creating a safe, collaborative, and mutually respectful working environment.\"",
+      "passage": "HBO denied the claims to [Entertainment Tonight](https://www.etonline.com/node/200095) and said the creative team had been \"committed to creating a safe, collaborative, and mutually respectful working environment.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S11"
+      ],
+      "inference": "HBO's statement to ET, Mar 2, 2023.",
+      "alternative": "HBO is an interested party.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C79",
+      "claim": "Depp responded with a statement about Levinson that ET published on March 2, 2023.",
+      "passage": "Depp answered with a statement about Levinson himself, which ET published the next day.",
+      "class": "observed",
+      "source_ids": [
+        "S11",
+        "S12",
+        "S20"
+      ],
+      "inference": "ET says Depp spoke \"telling ET\"; Rolling Stone says its report included statements from Depp; People later attributed the same text to a statement to People.",
+      "alternative": "Exact venue of first release is unclear; the draft says only that ET published it the next day.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C17",
+      "claim": "Her March 2023 statement: \"Sam is, for so many reasons, the best director I have ever worked with. Never have I felt more supported or respected in a creative space, my input and opinions more valued.\"",
+      "passage": "\"Sam is, for so many reasons, the best director I have ever worked with. Never have I felt more supported or respected in a creative space, my input and opinions more valued.\"",
+      "class": "observed",
+      "source_ids": [
+        "S11",
+        "S12",
+        "S07"
+      ],
+      "inference": "Public loyalty to a collaborator under outside attack, at visible reputational cost, sustained through 2024 (C81, C82, C83). This is the costly choice the Six reading rests on.",
+      "alternative": "The statement also served her own show and HBO's interest, so promotion and professional obligation are real alternative explanations (C85). The research record's 2016 post defending her father, made when she was 17, is omitted from the draft as minor-era material.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C80",
+      "claim": "At Cannes in May 2023: \"it's always sad and disheartening to hear mean, false things about someone you care about, and it wasn't my experience shooting the show.\"",
+      "passage": "At the Cannes press conference in May, as Rolling Stone reported, she said it again: \"it's always sad and disheartening to hear mean, false things about someone you care about, and it wasn't my experience shooting the show.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S12"
+      ],
+      "inference": "Repeats the defence two months later, framed as caring for \"someone you care about.\"",
+      "alternative": "Said at the show's own premiere press conference.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C06",
+      "claim": "The Idol premiered at Cannes in May 2023 to harsh reviews, aired on HBO from June 2023, and was cancelled after one season.",
+      "passage": "The series premiered at Cannes to harsh reviews, aired on HBO that June, and was cancelled after one season.",
+      "class": "third_party",
+      "source_ids": [
+        "S25",
+        "S12",
+        "S20"
+      ],
+      "inference": "Wikipedia: \"met with highly unfavorable reception\"; cancelled after one season (citing Deadline).",
+      "alternative": "Reception is a matter of record; avoid describing the show's quality in the author's voice beyond attributed reviews.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C81",
+      "claim": "In November 2024, after the cancellation, she told Vanity Fair: \"I love it. Honestly, I love it\" and \"But I stand by it. We made a choice and we went for it.\"",
+      "passage": "\"I love it. Honestly, I love it,\" she told Vanity Fair. Some people, she said, were always going to find it too much. \"But I stand by it. We made a choice and we went for it.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "Loyalty to the project after it could no longer be promoted.",
+      "alternative": "She was promoting Nosferatu; no actor gains by disowning past work in an awards interview.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C82",
+      "claim": "Of Sam and Ashley Levinson (2024): \"They're like family to me.\"",
+      "passage": "Of Levinson and his wife, the producer Ashley Levinson, she said, \"They're like family to me.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S07",
+        "S05"
+      ],
+      "inference": "Elle (2022) identifies Ashley Levinson as Sam Levinson's wife and an executive producer of The Idol.",
+      "alternative": "Warm language about collaborators is routine in press.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C83",
+      "claim": "Asked about the lack of a second season (2024): \"I know that we'll do something again together one day, and I'm excited for that day. Everything happens for a reason.\"",
+      "passage": "Asked whether she was disappointed there was no second season, she said, \"I know that we'll do something again together one day, and I'm excited for that day. Everything happens for a reason.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "Keeps faith in the relationship and frames the loss as having a reason, echoing \"chosen for a reason\" (C11).",
+      "alternative": "A common phrase; the echo is the draft's observation, not her stated link.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C84",
+      "claim": "Interpretation: \"chosen for a reason\" (2023) and \"everything happens for a reason\" (2024) frame her trust; loyalty held hardest under attack is the Six's signature.",
+      "passage": "Chosen for a reason in 2023. Everything happens for a reason in 2024. Loyalty to the people who backed you, held hardest when they are under attack, is the Six's signature.",
+      "class": "interpretation",
+      "source_ids": [
+        "S02",
+        "S07",
+        "S11",
+        "S12"
+      ],
+      "inference": "Links C11, C17, C80, C81 and C83.",
+      "alternative": "Promotion explains the 2023 defence; see C85.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C85",
+      "claim": "Limit: professional reasons explain the 2023 defence; they explain less of 2024, when she promoted a different film for a different studio, though disowning a former director would gain her nothing.",
+      "passage": "She had professional reasons to defend her own show in 2023, and HBO had more. Those reasons explain less of 2024, when she was promoting a different film for a different studio, though no actor gains by criticizing a former director in the press.",
+      "class": "interpretation",
+      "source_ids": [
+        "S07",
+        "S11",
+        "S25"
+      ],
+      "inference": "Nosferatu was a Focus Features release; The Idol was HBO's.",
+      "alternative": "Career incentives to stay loyal in public never disappear entirely.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C19",
+      "claim": "She names loyalty as a value: \"I love people who love their people\" (Harper's Bazaar UK interview, November 2024, published January 2025).",
+      "passage": "Loyalty is a value she names outright. \"I love people who love their people,\" she told Harper's Bazaar UK in a November 2024 interview published in January 2025.",
+      "class": "self_report",
+      "source_ids": [
+        "S09"
+      ],
+      "inference": "The writer: \"Loyalty... ranks highly for Depp.\"",
+      "alternative": "Values talk in a fashion magazine is cheap; Types 2 and 9 also prize their people. The \"look after those people\" phrasing has a caretaking note that a Type 2 reading would emphasise.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C86",
+      "claim": "She continued: \"The fashion industry, the film industry... these are crazy businesses. When you find people who feel real and you connect with them, you have to hold onto that.\"",
+      "passage": "\"The fashion industry, the film industry... these are crazy businesses. When you find people who feel real and you connect with them, you have to hold onto that.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S09"
+      ],
+      "inference": "Holding onto trusted people as the answer to an unreliable industry.",
+      "alternative": "The source has \"she says\" between \"I love people who love their people\" and this line; the draft keeps the break.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C87",
+      "claim": "Her people are long-held: \"I have had my LA best friends since forever\" (2025); she told Portman, whom she met at 16, \"you have to have people around you that you've known forever that are going to anchor you\" (2024).",
+      "passage": "The people she means are mostly long-held. \"I have had my LA best friends since forever,\" she told the magazine, and she told Portman, whom she met at 16, that \"you have to have people around you that you've known forever that are going to anchor you.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S09",
+        "S01"
+      ],
+      "inference": "Stated value matched by long-running friendships, including Portman since 16.",
+      "alternative": "Values talk is cheap; Types 2 and 9 also prize their people.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C88",
+      "claim": "Harper's Bazaar UK ends with her leaving for fish and chips with her long-term security guard, who says she is \"like a daughter\" to him.",
+      "passage": "The Harper's piece ends with her heading off for fish and chips with her long-term security guard, who says she is \"like a daughter\" to him.",
+      "class": "third_party",
+      "source_ids": [
+        "S10"
+      ],
+      "inference": "An outside, if thin, sign of a long-held relationship.",
+      "alternative": "Unnamed witness, quoted in a single phrase.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C69",
+      "claim": "On the November 2024 US election she said, \"It's a horrific time, and I'm scared, and I'm sad,\" and her answer was: \"When things feel out of control and you feel powerless, you have to hold tight to the people you love and look after those people.\"",
+      "passage": "Talking about the November 2024 US election in that interview, she said, \"It's a horrific time, and I'm scared, and I'm sad.\" Then she gave her answer to it: \"When things feel out of control and you feel powerless, you have to hold tight to the people you love and look after those people.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S09"
+      ],
+      "inference": "Her response to powerlessness is to tighten the circle. \"Then she gave her answer to it\" follows the writer's framing (\"Her solution is to prioritise loyalty and friendship\").",
+      "alternative": "A political reaction shared by many people at that moment; the \"look after\" phrasing has a caretaking note a Type 2 reading would emphasise.",
+      "durability": "time_sensitive",
+      "review_trigger": "Keep the election dated to November 2024; on refresh, do not update it to later political events."
+    },
+    {
+      "id": "C25",
+      "claim": "She says, \"I'm interested in the darker underbelly of things\" (Harper's Bazaar UK, 2025).",
+      "passage": "\"I'm interested in the darker underbelly of things,\" she told Harper's Bazaar UK.",
+      "class": "self_report",
+      "source_ids": [
+        "S09"
+      ],
+      "inference": "This is the strongest Type 4 evidence: identification with the misunderstood monster and an attraction to the dark and complicated. It must be put beside the main argument, not buried.",
+      "alternative": "Genre interest is also a family environment and a career incentive after Nosferatu.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C89",
+      "claim": "At three, Edward Scissorhands (in which her father plays the title outsider) upset her \"because everyone was being so mean to him.\"",
+      "passage": "At three she watched _Edward Scissorhands_, in which her father plays the gentle outsider, and was upset by it, \"Not because I thought he was scary, but because everyone was being so mean to him and I got really upset.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S09"
+      ],
+      "inference": "Identification with a mistreated outsider: Type 4 evidence, though the memory is about a crowd's cruelty to an innocent (C94).",
+      "alternative": "A memory from age three told at 25; HB UK describes the character as \"a mutant but benign boy.\"",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C90",
+      "claim": "Of Nosferatu: \"there's a part of me that feels a little bit of empathy for Nosferatu. I mean, am I sick for feeling that way?\"",
+      "passage": "\"Edward's the good guy and Nosferatu's kind of the bad guy, but there's a part of me that feels a little bit of empathy for Nosferatu. I mean, am I sick for feeling that way?\"",
+      "class": "self_report",
+      "source_ids": [
+        "S09"
+      ],
+      "inference": "Empathy for the monster supports Type 4; the self-check (\"am I sick\") supports the Six reading (C94).",
+      "alternative": "Read closely, two features fit a Type 6 reading: the childhood memory is about a crowd being cruel to an innocent, and her sympathy for the monster comes with a check on whether the feeling is acceptable (\"am I sick for feeling that way?\"). Genre interest is also a family environment (\"you're the product of your environment\") and a career incentive after Nosferatu. Do not infer a type from her father, whom the site types as a 4.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C26",
+      "claim": "She describes herself in terms of dualities: \"I feel like I've always been full of dualities, and my double culture adds to that\" (2024); \"There are so many sides to me... I really feel that paradox in myself\" (2025).",
+      "passage": "\"I feel like I've always been full of dualities, and my double culture adds to that,\" she told Portman. \"There are so many sides to me,\" she told Harper's. \"I really feel that paradox in myself.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S09"
+      ],
+      "inference": "A self-story of complexity and distinctness, which is Type 4 territory.",
+      "alternative": "She ties the dualities directly to a literal bicultural upbringing (French with her mother's family, \"Kentuckians\" with her father's), a sufficient non-type explanation. \"My own person\" answers a nepotism question, where any second-generation actor would say it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C27",
+      "claim": "She calls acting \"an emotional outlet for me—I feel like it helps me, I don't know, heal things with myself, perhaps\" (2024).",
+      "passage": "She calls acting \"an emotional outlet for me—I feel like it helps me, I don't know, heal things with myself, perhaps.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "Emotional authenticity as the core of her work supports Type 4. The repeated phrase about hiding behind costumes and story also links it to C20: the feeling is released inside a protected frame, then she goes home.",
+      "alternative": "Emotional truth is standard acting language. The em dash is in the original quotation.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C91",
+      "claim": "When her mother sends old photos saying \"We're twins,\" she replies, \"You're so much prettier than me\" (i-D, 2023).",
+      "passage": "When Paradis sends her old photos and says, \"We're twins,\" Depp told i-D, her answer is, \"You're so much prettier than me.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "Comparison with her mother, which a Type 4 reading treats as envy or a sense of lack.",
+      "alternative": "Half-joking, loving context (\"She's so beautiful\"); not a statement of shame.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C38",
+      "claim": "Of Lauren Bacall and Gene Tierney, whom she studied for The Idol: \"They almost had this confidence in the discomfort that they could provoke in people.\"",
+      "passage": "Of Lauren Bacall and Gene Tierney, whom she studied for _The Idol_, she told i-D, \"They almost had this confidence in the discomfort that they could provoke in people.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "Admiration for unapologetic stars: a Four's idealised self, or a self-possession she says she lacks off screen.",
+      "alternative": "About a role she was preparing; not a self-description.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C92",
+      "claim": "Her father, whom 9takes types as a 4, made gothic films with Tim Burton; asked whether the taste runs in the family, she said, \"We're very different actors, but of course you're the product of your environment.\"",
+      "passage": "Her father, [Johnny Depp](/personality-analysis/johnny-depp), whom 9takes reads as a Type 4, spent years making gothic films with Tim Burton. Asked by Harper's whether the taste runs in the family, she said, \"We're very different actors, but of course you're the product of your environment.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S09"
+      ],
+      "inference": "Family environment explains part of her genre taste; the site's typing of her father is a temptation to resist, not evidence.",
+      "alternative": "She first answered \"Sure, I guess you could say so,\" then distinguished herself (\"We're very different actors\"); the draft quotes the second sentence in full.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C93",
+      "claim": "Interpretation (first reason): a Four steadies herself through her own feeling; Depp points outward to the people who chose her.",
+      "passage": "First, where she goes when doubt hits. A Four steadies herself through her own feeling, through what is true and distinct in her. Depp points outward, to the people who chose her and the reason they must have had.",
+      "class": "interpretation",
+      "source_ids": [
+        "S02",
+        "S07",
+        "S03"
+      ],
+      "inference": "The type_hypothesis discriminator, applied to C10, C11 and C57.",
+      "alternative": "A Four can also take comfort in being chosen; the discriminator is a tendency, not a rule.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C94",
+      "claim": "Interpretation (second reason): her childhood memory concerns a crowd's cruelty to an innocent, and her sympathy for the monster arrives with a check on whether it is acceptable.",
+      "passage": "Her childhood memory is about a crowd being cruel to an innocent, and her sympathy for the monster arrives with a check on whether it is acceptable: \"am I sick for feeling that way?\"",
+      "class": "interpretation",
+      "source_ids": [
+        "S09"
+      ],
+      "inference": "Read closely, two features fit a Type 6 reading: the childhood memory is about a crowd being cruel to an innocent, and her sympathy for the monster comes with a check on whether the feeling is acceptable (\"am I sick for feeling that way?\"). Genre interest is also a family environment (\"you're the product of your environment\") and a career incentive after Nosferatu. Do not infer a type from her father, whom the site types as a 4.",
+      "alternative": "The \"am I sick\" line can be read as playful rather than anxious.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C31",
+      "claim": "She places the darkness in her work and stays anchored to ordinary life: \"I'm a happy person, so I like to explore the underbelly of that at work\"; she doesn't go method partly because \"I'm too attached to my life, I feel like,\" and needs \"to be able to call my friends at the end of the day and be myself\" (Vanity Fair, 2024).",
+      "passage": "She also places the darkness in the job: \"I'm a happy person, so I like to explore the underbelly of that at work.\" She doesn't go method, she told Vanity Fair, partly because \"I'm too attached to my life, I feel like.\" She needs \"to be able to call my friends at the end of the day and be myself.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "Security in the known and the routine works against a Type 4 reading of identity through intensity, and fits Type 6 (or Type 9). She also describes herself as \"a happy person\" who explores the underbelly \"at work\" (C25 source), placing the darkness in the job rather than at her core.",
+      "alternative": "In the source: \"I don't intend on being method because I wouldn't know how to—I'm too attached to my life\"; the draft's \"partly because\" reflects the two reasons. She says she was taught to value normalcy, so this may be learned family practice. Type 9 also fits the comfort of routine.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C95",
+      "claim": "She told Portman (2024): \"I love going to the butcher and the grocery store and having dinner at my friends' houses. Or, having a lazy morning with my boyfriend. Those things are always going to be the center of my life.\"",
+      "passage": "\"I love going to the butcher and the grocery store and having dinner at my friends' houses. Or, having a lazy morning with my boyfriend. Those things are always going to be the center of my life.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Security in the known and routine, which works against identity-through-intensity.",
+      "alternative": "She says she was taught to value normalcy; Type 9 also fits. \"Boyfriend\" is her word in the source; the draft does not interpret it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C96",
+      "claim": "Interpretation (third reason): a Four is more likely to chafe at imposed form; she was \"grateful not to have to shape it on my own.\"",
+      "passage": "Third, the frame. A Four is more likely to chafe at imposed form. She was \"grateful not to have to shape it on my own.\"",
+      "class": "interpretation",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "She expected improvisation and found relief, not constraint, in a fixed framework; her worry is about letting the team down. Both fit a security motive. In the AU Review she also calls a director's clear vision \"tremendously helpful.\"",
+      "alternative": "Eggers's precise, storyboarded method requires this of every actor, so circumstance explains much of it. A Four might resent imposed form; she does not, which is mild evidence against Type 4 rather than strong evidence for Type 6.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C97",
+      "claim": "She ties her dualities to two families and countries: \"when I'm with my dad's side of the family, I'm like, yeah, we're all Kentuckians.\"",
+      "passage": "Even the dualities have a literal source. She ties them to two families and two countries: \"when I'm with my dad's side of the family, I'm like, yeah, we're all Kentuckians.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "A sufficient non-type explanation for the \"dualities\" self-story (C26).",
+      "alternative": "Bicultural framing and a Four's sense of complexity can coexist.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C98",
+      "claim": "Limit: a reader who weighs her aesthetic and emotional life first could fairly call her a Four; nothing settles it, hence medium confidence.",
+      "passage": "A reader who puts her aesthetic and emotional life first could fairly call her a Four. Nothing in the public record settles it, which is why the read is held at medium confidence.",
+      "class": "interpretation",
+      "source_ids": [
+        "S09",
+        "S01",
+        "S07"
+      ],
+      "inference": "A reader who weights her aesthetic and emotional self-description over her coping pattern could reasonably prefer Type 4. Nothing here discriminates with certainty; this is the reason confidence is medium.",
+      "alternative": "None; this is the stated limit.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C68",
+      "claim": "Type 9 alternative: she shrinks her worries (\"Girl, you don't matter that much,\" i-D 2023) and prizes ordinary routines, but she names fear repeatedly rather than numbing it.",
+      "passage": "A [Type 9](/enneagram-corner/enneagram-type-9) case leans on how she shrinks her worries (\"Girl, you don't matter that much,\" she told i-D) and prizes ordinary routines. But a Nine tends to numb fear, and Depp names hers again and again.",
+      "class": "interpretation",
+      "source_ids": [
+        "S02",
+        "S01"
+      ],
+      "inference": "Self-minimising (\"you don't matter that much\") and calming self-talk are also the Type 9 alternative's best evidence. The difference is that she names fear explicitly and repeatedly instead of numbing it, but this is a judgment call.",
+      "alternative": "Judgment call; self-minimising humour is also a common coping line.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C39",
+      "claim": "She left school at 16 on instinct: \"I have really strong gut instincts, and I felt like, 'You know what? This is my moment to transition into the next phase of my life.'\"",
+      "passage": "She left school, she told Knightley, because \"I have really strong gut instincts, and I felt like, 'You know what? This is my moment to transition into the next phase of my life.'\"",
+      "class": "self_report",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "Counterevidence to an indecisive Six: a confident, early, irreversible choice. Partly reconcilable as counterphobic commitment, but it should be shown as a real complication.",
+      "alternative": "Knightley asked \"And is that because you wanted to act?\" and she said \"Yeah\" before this answer, so \"because\" is fair. Told at 22 about a decision at 16; retrospective self-report. Immersion and gut-trust also fit Type 4 or 7.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C20",
+      "claim": "She gives a craft reason for privacy: audiences are \"not supposed to get to know 'you' that well, because you want them to believe you as other characters\" (Daily Telegraph AU, via Music Times, December 2024).",
+      "passage": "Audiences, she told Australia's Daily Telegraph, as quoted by [Music Times](https://www.musictimes.com/articles/107196/20241230/lily-rose-depp-talks-privacy-fame-hollywoods-allure-actor-needs-anonymity.htm) in December 2024, are \"not supposed to get to know 'you' that well, because you want them to believe you as other characters.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S31"
+      ],
+      "inference": "A sufficient non-type explanation for her guardedness.",
+      "alternative": "Known only through Music Times' report of the Daily Telegraph AU interview (not opened).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C99",
+      "claim": "She made no public comment during the 2022 Depp v. Heard defamation trial, which frustrated some of her father's fans.",
+      "passage": "During the 2022 defamation trial between Johnny Depp and Amber Heard she made no public comment, which frustrated some of his fans, [Jezebel](https://jezebel.com/lily-rose-depp-doesnt-want-to-be-defined-by-her-dad-1849790873) noted.",
+      "class": "observed",
+      "source_ids": [
+        "S32",
+        "S05"
+      ],
+      "inference": "Jezebel: she \"didn't appear to acknowledge the trial at all\"; Elle: \"she's chosen to avoid commenting on the recent headlines about her famous father.\"",
+      "alternative": "Jezebel has a stated position on the trial; only the observation of her silence is used. The draft does not characterise the allegations or outcomes.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C18",
+      "claim": "Explaining that silence (Elle, November 2022): \"I feel really entitled to my secret garden of thoughts. I also think that I'm not here to answer for anybody...\"",
+      "passage": "\"I feel really entitled to my secret garden of thoughts. I also think that I'm not here to answer for anybody, and I feel like for a lot of my career, people have really wanted to define me by the men in my life, whether that's my family members or my boyfriends, whatever. And I'm really ready to be defined for the things that I put out there.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "As an adult she chose privacy over taking a public side in her family's most public conflict, and framed the choice as a wish to be defined by her own work. Read with C17, her loyalty shows up as vouching for collaborators she works with now, while family matters stay private.",
+      "alternative": "Legal and PR prudence, or simply not wanting to relive it, could explain silence equally well; her stated reason is all the record shows. Sensitive: the article must not characterise the abuse allegations or the trial outcomes beyond attributed, separately sourced facts. Jezebel (S32) has a stated position on the trial and misstates her 2016 age.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C100",
+      "claim": "Interpretation: she vouched loudly for a director in 2023 and kept silent about her father in 2022; her stated reason is privacy and being judged on her work, and other explanations fit equally well.",
+      "passage": "She vouched loudly for a director in 2023 and kept silent about her own father in 2022. Her stated reason is privacy and a wish to be judged on her work. Legal caution, or simply not wanting to relive it, would explain the silence as well. The record shows only what she said.",
+      "class": "interpretation",
+      "source_ids": [
+        "S11",
+        "S12",
+        "S05",
+        "S32"
+      ],
+      "inference": "An unresolved contradiction the type does not explain.",
+      "alternative": "Legal and PR prudence, or not wanting to relive it, explain the silence as well as any motive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C101",
+      "claim": "The record lacks long-form testimony from intimates, and no account shows her let down by someone she trusted, the best test of the loyalty reading.",
+      "passage": "There is no long-form testimony from the people closest to her, only her mother's defense and a director's or co-star's praise in a release week. Nobody has described Depp let down by someone she trusted.",
+      "class": "interpretation",
+      "source_ids": [
+        "S23",
+        "S10",
+        "S22",
+        "S06"
+      ],
+      "inference": "Matches type_hypothesis.unexplained.",
+      "alternative": "Absence of evidence in the opened record; a future interview could supply it.",
+      "durability": "unresolved",
+      "review_trigger": "On refresh, look for long-form testimony from friends, family or collaborators, and any account of a broken professional or personal trust."
+    },
+    {
+      "id": "C08",
+      "claim": "In Werwulf, Robert Eggers's 14th-century werewolf film, she plays the farmer's wife opposite Aaron Taylor-Johnson; it is due in US theaters on December 25, 2026 and in the UK on January 1, 2027.",
+      "passage": "In _Werwulf_, set in 14th-century England, she plays the wife of a farmer, played by Aaron Taylor-Johnson, in a town haunted by a beast. It is due in US theaters on December 25, 2026, and in the UK on January 1, 2027.",
+      "class": "third_party",
+      "source_ids": [
+        "S26",
+        "S22"
+      ],
+      "inference": "Release dates and premise from Wikipedia (retrieved 2026-10-16); role from Empire (June 29, 2026: \"As his wife (Lily-Rose Depp)\"; Wikipedia credits her as \"Woman\").",
+      "alternative": "Unreleased; dates may move.",
+      "durability": "time_sensitive",
+      "review_trigger": "After Werwulf opens (US Dec 25, 2026; UK Jan 1, 2027): update release status and reception, collect press interviews, and re-test the 6-vs-4 discriminator."
+    },
+    {
+      "id": "C44",
+      "claim": "Alpha Gang, a Zellner brothers science-fiction comedy in which she plays one of a gang of aliens who find themselves with human emotions, premiered at Telluride on September 5, 2026 and screened at TIFF that month.",
+      "passage": "In September 2026 she premiered _Alpha Gang_, a Zellner brothers science-fiction comedy, at Telluride on September 5 and then at TIFF, playing one of a gang of aliens who find themselves with human emotions.",
+      "class": "third_party",
+      "source_ids": [
+        "S27",
+        "S28",
+        "S29"
+      ],
+      "inference": "Wikipedia (Telluride Sept 5, 2026; humanoid aliens \"compromised with human emotions\"); W and IBTimes (TIFF, September 2026; \"an alien who has to deal with the sudden onset of human emotions\").",
+      "alternative": "TIFF dates conflict (Sept 11 vs 13), so the draft gives no TIFF date; no US distributor per IBTimes.",
+      "durability": "time_sensitive",
+      "review_trigger": "When Alpha Gang gets a US release date or distributor, update; collect any interviews about the role."
+    },
+    {
+      "id": "C49",
+      "claim": "Eggers (Empire, June 2026) said the Werwulf character \"is so far from Lily, physically and in her general way of holding herself,\" and that playing \"this mother who is super grounded, was a challenge which she embraced and was super into.\"",
+      "passage": "The character \"is so far from Lily, physically and in her general way of holding herself,\" he said. \"So to be this mediaeval farmer's wife, this mother who is super grounded, was a challenge which she embraced and was super into.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S22"
+      ],
+      "inference": "A rare outside comment on her ordinary manner, and a dated setup for testing the type argument against the Werwulf press cycle.",
+      "alternative": "Promotional director testimony six months before release.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C102",
+      "claim": "Settle signal: in Werwulf press, whether she credits the people and frame around her (Six) or a feeling found in herself (Four).",
+      "passage": "When she talks about that role, listen for where she says the steadiness came from: the people and the frame around her, or a feeling she found in herself. The first keeps the Six reading. The second would strengthen the Four.",
+      "class": "interpretation",
+      "source_ids": [
+        "S22",
+        "S26"
+      ],
+      "inference": "Applies the type_hypothesis discriminator to the next dated catalyst.",
+      "alternative": "One press cycle may not discriminate; promotional answers may credit collaborators by convention.",
+      "durability": "time_sensitive",
+      "review_trigger": "After the Werwulf press cycle (Dec 2026-Jan 2027), record what she credits and revise confidence if warranted."
+    },
+    {
+      "id": "C103",
+      "claim": "She told Portman (2024) that the inner life stays protected until work: \"You have all your super-private feelings in your backpack, and you go to work and the scene starts and you let it out.\"",
+      "passage": "She gave Portman the clearest picture of how the system works. The inner life stays protected until the work begins.\n\n> \"You have all your super-private feelings in your backpack, and you go to work and the scene starts and you let it out.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "The preceding sentence of her answer: \"when you go on set is the only time you let that out.\" Feeling released inside a protected frame, consistent with C27 and C31.",
+      "alternative": "A Four would also guard an inner life; the image supports both readings and closes the piece rather than settling it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C42",
+      "claim": "FAQ: born May 27, 1999, in Neuilly-sur-Seine, outside Paris; 27 as of October 2026; daughter of Johnny Depp and Vanessa Paradis.",
+      "passage": "Lily-Rose Depp was born on May 27, 1999, in Neuilly-sur-Seine, outside Paris, which makes her 27 as of October 2026.",
+      "class": "third_party",
+      "source_ids": [
+        "S25",
+        "S28",
+        "S29"
+      ],
+      "inference": "Wikipedia birth date; W and IBTimes (Sept 2026) both give her age as 27.",
+      "alternative": "None material.",
+      "durability": "time_sensitive",
+      "review_trigger": "Update the stated age on any refresh after May 27, 2027."
+    },
+    {
+      "id": "C43",
+      "claim": "Metadata birth_date 1999-05-27 and birth_place Neuilly-sur-Seine, France.",
+      "passage": "1999-05-27",
+      "class": "third_party",
+      "source_ids": [
+        "S25"
+      ],
+      "inference": "Wikipedia infobox: {{Birth date and age|1999|5|27}}, Neuilly-sur-Seine, Hauts-de-Seine, France.",
+      "alternative": "None material.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C104",
+      "claim": "FAQ: after Rolling Stone's March 2023 report she called Levinson the best director she had worked with (statement published by ET) and at Cannes said the report did not match her experience; in November 2024 she said she stood by the show.",
+      "passage": "After Rolling Stone's March 2023 report on the show's production, she called Levinson the best director she had ever worked with in a statement published by Entertainment Tonight, and at Cannes that May she said the report did not match her experience.",
+      "class": "observed",
+      "source_ids": [
+        "S11",
+        "S12",
+        "S07"
+      ],
+      "inference": "Paraphrase of C17, C80 and C81.",
+      "alternative": "Same limits as C17.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C105",
+      "claim": "FAQ: in November 2022 she told Elle nothing gets you a part except being right for it and that she hears the label far more about women.",
+      "passage": "In a November 2022 Elle interview she said nothing gets you a part except being right for it, and that she hears the label far more about women.",
+      "class": "self_report",
+      "source_ids": [
+        "S05",
+        "S33",
+        "S02"
+      ],
+      "inference": "Paraphrase of C24, C61 and C62.",
+      "alternative": "Same limits as C24.",
+      "durability": "stable",
+      "review_trigger": ""
+    }
+  ],
+  "type_hypothesis": {
+    "type": 6,
+    "confidence": "medium",
+    "for_claim_ids": [
+      "C10",
+      "C45",
+      "C11",
+      "C57",
+      "C58",
+      "C12",
+      "C56",
+      "C60",
+      "C13",
+      "C47",
+      "C66",
+      "C14",
+      "C70",
+      "C15",
+      "C72",
+      "C16",
+      "C75",
+      "C17",
+      "C80",
+      "C81",
+      "C82",
+      "C84",
+      "C19",
+      "C86",
+      "C87",
+      "C69",
+      "C22",
+      "C24",
+      "C62",
+      "C31",
+      "C95",
+      "C32",
+      "C40"
+    ],
+    "against": "(1) Type 4 is a serious rival: she is drawn to \"the darker underbelly of things,\" identifies with the monster and the mistreated outcast (C25, C89, C90), describes herself as \"full of dualities\" with \"so many sides\" (C26), treats acting as a deeply personal emotional outlet that may \"heal things with myself\" (C27), seeks \"weird and wonderful\" work (C28), compares herself unfavourably with her mother (\"You're so much prettier than me\"), and has long cultivated mystique and privacy (C20). Her father is typed as a 4 on this site, which is a temptation to resist, not evidence. (2) Type 3: a Chanel face since 2015, she wants to \"prove people wrong\" and be seen as \"a hard worker\" (C23, C65), and her modesty could be image management. (3) Type 9: she minimises herself (\"Girl, you don't matter that much\"), soothes herself (\"I'm good. I'm chilling\") (C22, C68), prizes ordinary routines (C31) and has avoided public controversy about her family (C18). (4) Circumstance and incentives explain much of the Six evidence: near-universal imposter feelings for an actor labelled a \"nepo baby,\" industry-standard trust and safety talk on sexually explicit productions, a promotional duty to defend The Idol, privacy taught by two famous parents, and a literal bicultural upbringing behind the \"dualities.\" Nearly all first-person evidence comes from cover stories and awards-campaign interviews. (5) Counterevidence to an anxious, compliant Six: at 16 she left school on \"really strong gut instincts\" (C39), at 17 she reportedly refused to smile on cue for a 2016 ELLE France shoot (minor-era, secondary French summary of S18; left out of the draft), and she chooses provocative, physically extreme roles. Counterphobia accounts for some of this, but not neatly.",
+    "alternative_type": 4,
+    "alternative_case": "Type 4 explains her aesthetic and emotional life well: empathy for monsters and a childhood distress at cruelty toward an outsider (C25, C89, C90), a self-image built on paradox and duality (C26), acting as the one place she can let go and draw on deeply personal feeling (C27), a long taste for the strange (C28), a protected inner \"secret garden\" (C18, C20), and admiration for stars who did not \"descend to anybody else's level\" (C38). On this reading her doubt is the Four's sense of something missing, the comparisons with her mother are envy, and loyalty is attachment to the few who see her. What strains Type 4: when she doubts herself she does not anchor in her own felt distinctness but in the judgment of those who chose her (\"if they've chosen me, then hopefully I've been chosen for a reason\"; C11), she is relieved rather than constrained by imposed structure (C16), she checks whether a dark feeling is acceptable (\"am I sick for feeling that way?\") instead of owning it, she calls herself \"a happy person\" who explores the underbelly \"at work\" and keeps a firm line back to ordinary life (C31), and her public loyalty to embattled collaborators (C17, C80-C83) is about allegiance more than being understood.",
+    "discriminator": "Where she goes for steadiness when doubt or exposure hits. A Four resolves doubt inward, through the authenticity and distinctness of her own feeling; a Six resolves it outward, by borrowing certainty from trusted people, authorities and structures, and then holds loyally to them. Her record shows the outward move repeatedly and across contexts: \"Are they sure that I'm the one?\" answered with \"trust is so huge\" (2021, C10, C45); \"if they've chosen me... chosen for a reason\" (2023) and \"why do these people think that I can do this?\" (2024, C57); \"grateful not to have to shape it on my own\" (2024, C16); \"two people who make me feel incredibly safe and protected\" (2022, C15); \"hold tight to the people you love\" when things feel out of control (2025, C19). The costly choice that tests it is public: in March 2023, as a 13-source exposé ran, she vouched for Levinson by name and has stood by the show and called the Levinsons \"like family\" since (C17, C80-C83). Her dark interests are framed as work she does inside a protected container and returns from, not as the core of who she is (C25, C27, C31). Counterphobic movement toward fear (\"I like the fear a little bit\"; \"I wanted to show that I wasn't scared to go there\"; C13) explains why an anxious person keeps choosing the most frightening roles.",
+    "unexplained": "Her early, decisive self-possession (leaving school at 16 on gut instinct; the 17-year-old's refusal to smile on cue) and her sustained cultivation of mystique sit uneasily with the Six's doubt. The record contains no long-form testimony from intimates (only her mother's brief defence and promotional praise), so it cannot show how she behaves when a trusted relationship fails, which would be the best test of the loyalty motive. Her silence about her father during the 2022 trial, contrasted with her 2016 defence and her 2023 defence of Levinson, has no stated explanation beyond privacy. The anorexia she described at 17 and the 2015-16 label episode are left out of the type argument by design. Wing and instinct are not established; a 6w7 or counterphobic sexual-instinct reading would be speculation."
+  },
+  "profile_format": "standard"
+}

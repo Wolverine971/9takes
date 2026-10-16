@@ -1,0 +1,2268 @@
+{
+  "schema_version": 3,
+  "subject": "grace-reiter",
+  "status": "ready",
+  "research_tasks": [
+    "Research log (2026-10-16, first run, mode create; the baseline was empty and there were no research notes or prior evidence). Leads: the backlog queue note (SNL Season 52 featured player; hometown conflict Madison vs Chippewa Falls; the podcast as main first-person record; Rolling Stone creators list). Opened about 20 web sources and the full podcast feed. Transcribed and read in full 38 long-form recordings (about 30 hours, roughly 350,000 words): 35 YouTube auto-caption transcripts (all 2025-2026 That's Enough episodes available, plus guest appearances on The Downside x2, Couch Surfing, Volley for Serve x2, Literally Life Changing, The Yvette Show, Business Casual Comedy, Wild Wild Web, Page Six, Kyle MacLachlan, I Never Liked You, The Comment Section), Whisper transcriptions of the Hunger Games making-of and two Passion Pod interviews (June 2022, December 2024). Readers extracted timestamped items; every quotation used in claims was rechecked against the transcript text. Evidence was gathered before a type was chosen.",
+    "Outcome: status ready, profile_format standard, leading read Type 6 at medium confidence, Type 3 the strongest alternative; Types 1, 9, 2, 7 and 4 tested and set aside (see type_hypothesis). Open-case format considered and rejected: her TikTok breakout dates to 2019-2020 and the first-person record is deep (four years, 30+ hours, plus testimony from her father, sister, roommate, producer and collaborators), so this is a hard typing, not a young record. Risks: contested_typing (Type 6 vs Type 3 is close and the record is comic) and sensitive_allegations (see the sensitivity task); the six-role jury applies.",
+    "Accuracy check (2026-10-16). SNL Season 52 began September 26, 2026; she has appeared in each of the first three episodes (C13). SNL was not allowing her to give interviews as of September 17 and no post-casting interview was found (C13). Minimum Wage premieres on Netflix October 26, 2026 (C14). Twilight (but better) was shot in June 2026 and is not yet released (C15). The podcast has had no new episodes since May 11, 2026 (C08). Corrections to common sources: born in the Madison area, not Chippewa Falls (C01); podcast launched March 2025, not late 2024 (C08); full-time American High from 2023 (C07); never lived in LA long-term (C06); no ADHD diagnosis stated (C40); TIME100 Creators claim unverified (C38).",
+    "Drafting guidance. Lead with a concrete, sourced moment rather than the SNL announcement, for durability: for example the May 2025 overshare in which the comic famous for gross-out confessions chose as her \"real\" overshare that she feels \"so guilty with the success I have\" (C16), or her father's nickname \"the shakes\" for a girl who now performs live on SNL (C23). Make the argument through the praise-and-success pattern (C16-C19), then the vigilance and checking pattern (C20-C22), then how she steadies herself (C23, C25, C26, C34). Put Type 3 beside the main argument with its real evidence (C05, C30-C32) and say plainly what the discriminator is and where it is weak. Include the boldness and novelty she shows (C36, C37) and the bossy-older-sister material (C27) as complications, not footnotes. Use the SNL, Netflix and Twilight dates as context, not as the hook. Keep \"## What is Grace Reiter's personality type?\" with an answer of at most 60 words that says Type 6 is the leading read, with Type 3 the closest alternative. Do not claim a wing or subtype; none is defensible. Set enneagram: 6 and published: false.",
+    "Sensitivity. (a) Sexuality and romance: across episodes she describes her orientation and romantic history as uncertain and personal, mostly in jokes; do not state or imply an orientation, relationship status or sexual history, and do not use the refused-kiss story beyond, at most, her own short line (C24). (b) Health: no diagnosis (C40); her therapy (C28) may be mentioned only as she framed it publicly, briefly; body-image remarks recur and must not be used as evidence. (c) Substances: a first-weed-experience story and joke references to paranoia or \"schizophrenia\" are comic and must not be presented as health disclosures. (d) A story about selling non-explicit novelty videos to a fan who then sent an explicit message (The Downside, January 2025) involves a private person; omit. (e) Third-party allegations inside her stories (a high-school classmate described as abusive to a girlfriend; a cousin's criminal charge) concern private people; never repeat them. (f) Family: her mother wants privacy (S32); her grandmother's dementia (S39) and the family dog's death are private; her parents may be named once. (g) Molly's own anxiety and health disclosures in S32 are hers, not Grace's.",
+    "Quotation cautions. All transcripts are YouTube auto-captions without speaker names or Whisper transcriptions without speaker labels; check every printed quotation against the audio at the timestamp and remove only clear stutters. Known traps: the \"becoming a Christian\" overshare is Grace's (verified by context), even though a Stapleview clip of the same conversation is easily misread as the guest's; the ADHD and Adderall lines in S27 are Gianmarco Soresi's; the full-frontal story in S33 is the host's; the \"shy older sister\", King George III and NFL stories in S47 are Drew Afualo's; in the Passion Pod episodes \"control freak\" and metrics anxiety are the host's; Whisper renders \"Hunger Games\" as \"Hongka Games\" at the start of S31. Censored words appear as \"[ __ ]\"; quote them with the original bracket or a clearly marked substitution, not a guessed spelling. The January 6 answer in S40 and the dinosaur body-standards premise in S45 are bits. Cite the syndicated NYT copy (S09) that was read, not the unopened original (S49).",
+    "Follow-up for the next refresh: (1) transcribe the Eve Hartley interview about Twilight (but better) (S50) and any release-week interviews once Twilight is posted; (2) look for her first post-casting long-form interview, especially how she describes SNL's pressure, feedback and whether she feels she belongs; (3) after October 26, 2026, check Minimum Wage credits and reception; (4) transcribe That's Enough episodes that were not available as YouTube transcripts (Eps 2, 5, 6, 9-13, 19, 21, 27, 28, 31, 33, 36, 39, 44 and the remaining feed-only episodes, IP-blocked on 2026-10-16), the Gaydar episode, the Spooners short and the 2021 Drew Barrymore Show segment; (5) seek testimony from American High (Will Phelps, the Micho brothers, Julia DiCesare) or SNL colleagues; (6) confirm the Rolling Stone rank and whether a TIME100 Creators listing exists.",
+    "Draft log (2026-10-16, draft stage). Thesis: Type 6 at medium confidence; when approval arrives she pushes it away, wants an outside authority to hold it, and braces for a fall; Type 3 argued in its own section, Types 1, 9 and 2 after it, then a section on what the type does not explain (novelty, defiance, bossiness, trust, selective oversharing). Quote fidelity: all 122 quoted strings in the body were machine-matched (normalized) against the research stage's saved texts in /tmp/grace-reiter-research (vtt/ auto-captions and Whisper transcripts, txt/ print sources), and the thesis passages were reread in context by timestamp. Two quotes that crossed a host interjection or a caption repetition were split (S46 Ginger Twinsies; S47 \"grimacing\"). Not done at this stage: a second transcription from audio. The research log asked for audio checks of caption quotes; the edit or verify stage should audio-check at least S23 0:09:04-0:10:45, S42 0:08:12-0:08:47, S38 0:16:32 and 0:51:10, S39 0:41:20 and S47 1:28:05. S18, S19 and S31 are single Whisper transcriptions without speaker labels. Correction: C23 now follows the full S20 passage. The \"the shakes\" nickname followed a seventh-grade Hubble telescope speech; the eighth-grade choir solo came after (C91). Claims removed because the draft does not use them: C04 (high-school theater dispute; note S44, where she agrees she did no plays because of stage fright, also conflicts with S29), C32 (\"I don't exist unless I mean funny\", \"shell\"), C38 (Rolling Stone list), C40 (no diagnosis; the draft makes no health claim). Their sources are retained, and type_hypothesis text references to C32 were repointed to S25 and S40. Not printed by choice: the narcissist line (S20, medium attribution), the \"attack mode\" reply (S42, joke), the \"rule followery\" and \"follow the rules\" turns (S33, shared with the host), the \"have I given you a complex\" question (S37, medium attribution), the S47 \"I just want to make a movie with my friends\" line (not re-located at the cited timestamp), the refused-kiss story (S40), body-image context of S46, and all censored-word quotations. Added: S51 (RUSSH, opened from the saved copy) for the birth date; new claims C41-C116 map every quotation and metadata fact in draft.md. Interpretation claims are labeled as such. The quoted H2 headings repeat lines mapped in C17, C19, C23 and C68. Embed: S23 at 8:48-10:52. Internal links go to published pages only (tim-robinson, jennifer-lawrence and the Type 1/2/3/6/9 pages). birth_place is omitted because the record does not settle the city (Madison vs Verona). date and lastmod are the run date (empty baseline); published: false. No inherited production_pretext blockers (empty baseline).",
+    "Edit log (2026-10-16, edit stage). Adjudicated all 47 findings from the six-role jury. Thesis unchanged: Type 6 at medium confidence, Type 3 the closest rival, Type 1 now named as a secondary live alternative in body and type FAQ. Reworked the discriminator: praise-deflection is conceded as predicted by a modest Three; the Six now leads narrowly on permission-seeking (C98) and on what steadies her (C34). Removed the unsourced 'expects it to be taken from her' and the present-tense 'wishes for someone to hold her success' from the type answer, FAQ and persona title. Printed context reviewers found missing, each rechecked this session against the saved transcripts in /tmp/grace-reiter-research: Soresi acceptance (C120), Piso concession (C84), 'never be funny again' (C121), 'I instilled in me' (C90), 'can't pinpoint trauma' (C122), 'not really religious at all' (C34), April 2026 acceptance (C41), S25 overshare (C32), moving-on coping (C36), Wickline (C124), Ginger Twinsies live record (C123, C39), Afualo closing (C109, C132), princess and Twilight apology (C125, C131). Removed claims C02, C10, C54, C69, C70, C71, C72, C94, C97 (lines cut for context, sensitivity or length). Not done at this stage: audio checks. S47 lines (C125, C109, C132) and S39 'that's what it feels like' rest on unlabeled captions and turn order; the verify stage or next refresh should audio-check S47 0:44:15, 1:27:48-1:28:38 and S23 0:10:37-0:10:46 (the 'ego' line, attributed by context). Soresi's Ginger Twinsies involvement (C64) is inferred from S39 conversation, not a cast list; confirm against a published cast list at the next refresh."
+  ],
+  "accuracy_checked_at": "2026-10-16",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://volumeone.org/sites/chippewafalls/articles/2022/03/29/293816-from-chippewa-falls-to-la-grace-reiter-joins",
+      "title": "From Chippewa Falls to LA: Grace Reiter Joins Stapleview Comedy Troupe on TikTok (Volume One)",
+      "speaker": "Grace Reiter, quoted by Sawyer Hoff (Volume One)",
+      "date": "2022-03-29",
+      "locator": "Article body: \"People love Midwestern people\" paragraph; \"persona\" paragraph; \"YouTube era\" paragraph.",
+      "excerpt": "\"It's really difficult when you're a social media influencer because you have to be this persona and you don't want to overthink it,\" Reiter said. \"Because that's what made people like you in the first place.\" [...] \"I grew up in the YouTube era,\" Reiter said. \"YouTubers were my celebrities. I think my dream had always been to be an Internet persona.\"",
+      "context": "Local Chippewa Falls magazine profile written while she was in LA filming Stapleview, age 20, 1.7 million TikTok followers. Says she started making videos for friends on Instagram in her senior year and moved to TikTok; hoped to move to LA to act. Earliest substantive first-person quotes found.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S02",
+      "url": "https://www.latimes.com/business/technology/story/2022-03-24/stapleview-snl-for-tiktok-generation-comedy-show",
+      "title": "'It's like SNL TikTok': A peek inside 'Stapleview,' a viral live comedy show (Los Angeles Times)",
+      "speaker": "Brian Contreras (Los Angeles Times)",
+      "date": "2022-03-24",
+      "locator": "Cast paragraph; pre-show livestream paragraph (\"You can watch us at 'Stapleview'\").",
+      "excerpt": "In the writers room, Grace Reiter (1.7 million followers) dances to \"Save a Horse (Ride a Cowboy).\" [...] \"You can watch us at 'Stapleview' on TikTok,\" Reiter tells her own viewers. \"You've probably seen two of our videos, because they went frickin' viral.\"",
+      "context": "Reported observation of the second episode week of Stapleview, a live TikTok sketch show created by Sam Grey (formerly of Broadway Video) that premiered March 3, 2022, in an Atwater Village studio. Seven-person cast including Jane Wickline, later her SNL castmate.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S03",
+      "url": "http://dailyorange.com/2023/10/abandoned-high-school-comedy-playground-american-high/",
+      "title": "Abandoned high school is the comedy playground for American High (The Daily Orange)",
+      "speaker": "Anish Vasudevan (The Daily Orange)",
+      "date": "2023-10-05",
+      "locator": "Opening scene (costume room, Notes app); roster paragraph; \"Phelps got word of Reiter\" paragraph; production-week paragraph.",
+      "excerpt": "\"I'll write that down, we'll think about it,\" Reiter said to her castmate Julia DiCesare before typing in her Notes app. [...] Reiter, who has a following of over 2 million on her personal TikTok, is the only one with no connection to Syracuse. [...] And Phelps got word of Reiter from one of his talent agent friends in Los Angeles.",
+      "context": "Opened through the r.jina.ai reader (direct fetch returned 403). Describes the five-person core cast of American High Shorts and College Life working in a converted school in Liverpool, NY, on an SNL-style weekly cycle; the sketches \"started this past July\" (2023).",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S04",
+      "url": "https://www.thepanthernewspaper.org/features/production-company-american-high-creates-content-from-shared-high-school-college-experiences",
+      "title": "Production company American High creates content from shared high school, college experiences (The Panther, Chapman University)",
+      "speaker": "Will Phelps (American High), quoted by The Panther",
+      "date": "2023-10-23",
+      "locator": "Paragraph beginning \"At that point, we found the five core cast members\".",
+      "excerpt": "\"At that point, we found the five core cast members (Ryan Micho, Aiden Micho, Grace Reiter, Julia DiCesare and Luke Burkeyes),\" Phelps said. \"We hired them full-time and said 'Here's what we're gonna do: You guys will all move to Syracuse, and we're going to treat this like 'Saturday Night Live.'\"",
+      "context": "Student-newspaper interview with American High's head of production. Establishes that she was hired full-time and relocated to Syracuse for the shorts; does not give her start date.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S05",
+      "url": "https://www.leadertelegram.com/news/daily-updates/chi-hi-graduate-joins-cast-of-saturday-night-live/article_d5fcf0b8-d0a9-4001-99b1-7f8b1884028b.html",
+      "title": "Chi Hi graduate joins cast of 'Saturday Night Live' (Eau Claire Leader-Telegram)",
+      "speaker": "Tim Reiter (father) and Jennifer Handrick (teacher), quoted by Chris Vetter",
+      "date": "2026-09-17",
+      "locator": "Opening quotes; \"Growing up in Chippewa Falls\" section; final paragraphs.",
+      "excerpt": "\"One day, she came up to me and said, 'Dad, I'm getting a lot of fans on this. I think I might be TikTok famous,'\" Tim Reiter said. \"She's always been a ham for the camera, and loved attention. She's always been funny.\" [...] \"It's been her goal forever. It's completely surreal.\" [...] At this time, SNL is not allowing Grace Reiter to conduct media interviews, he said. [...] They moved to Madison, where Grace Reiter was born. However, they moved back to the area in 2007, and Grace started First Grade at Southview Elementary. She graduated from Chippewa Falls High School in 2019. [...] However, Grace Reiter never got involved in plays or musicals in school.",
+      "context": "Hometown newspaper story the day after the casting announcement. Her parents Tim and Valerie both graduated from Chippewa Falls High School in 1991. A senior-year art and therapy teacher recalls her \"positive energy\". The article's \"Season 26\" is a typo for Season 52. Resolves the Madison versus Chippewa Falls question: born in Madison, raised in Chippewa Falls from 2007.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S06",
+      "url": "https://en.wikipedia.org/wiki/Grace_Reiter",
+      "title": "Grace Reiter (Wikipedia)",
+      "speaker": "Wikipedia contributors",
+      "date": "accessed 2026-10-16",
+      "locator": "Infobox; lead; Early life; Career; Filmography (raw wikitext read in full).",
+      "excerpt": "Grace Marie Reiter (born May 18, 2001) [...] Reiter was born in Madison, Wisconsin, the daughter of Timothy \"Tim\" Reiter and Valerie \"Val\" (née Cardinal). She has a younger sister, Molly [...] In late 2024, Reiter launched her podcast That's Enough with Grace Reiter. [...] Running from July to October 2025 at the Orpheum Theatre, Reiter appeared in the Off-Broadway comedy Ginger Twinsies [...] The Chair Company | Tara | Recurring role (6 episodes)",
+      "context": "Used only for leads and for facts it cites to primary records (a May 19, 2001 Capital Times birth announcement and Chippewa Herald birthday notices on newspapers.com, which were not opened). Its \"late 2024\" podcast launch is contradicted by the podcast feed (S15). Its \"late 2022\" American High start conflicts with her own dating (see C08).",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S07",
+      "url": "https://deadline.com/2026/09/snl-season-52-casts-grace-reiter-saidah-belo-osagie-1237105604/",
+      "title": "'Saturday Night Live' Casts Saidah Belo-Osagie & Grace Reiter As Featured Players For Season 52 (Deadline)",
+      "speaker": "Matt Grobar (Deadline)",
+      "date": "2026-09-16",
+      "locator": "Paragraph beginning \"Generating buzz online for years\".",
+      "excerpt": "Generating buzz online for years, Reiter was one of the original members of TikTok-based sketch show Stapleview. Her credits include Netflix's upcoming American High mockumentary Minimum Wage, on which she also wrote and directed, HBO's The Chair Company with Tim Robinson, and the online parody \"The Hunger Games (but Better).\" Originally from Chippewa Falls, WI [...]",
+      "context": "Casting announcement. Deadline had earlier reported her among showcase and screen-test names (S08). Premiere date September 26, 2026 with host Jalen Brunson.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S08",
+      "url": "https://deadline.com/2026/08/snl-showcases-2026-new-talent-standout-auditions-1237045776/",
+      "title": "'Saturday Night Live' Wraps 2026 Showcases For New Cast: Who Scored A Screen Test? (Deadline)",
+      "speaker": "Matt Grobar (Deadline)",
+      "date": "2026-08-20",
+      "locator": "Updated 10:07 a.m. paragraph listing screen-test names.",
+      "excerpt": "Other names we've heard in recent days include Claire Riffle, Grace Reiter, Devin Bockrath, Olivia Puckett [...]",
+      "context": "Reports the summer 2026 showcase and screen-test round across three cities. Establishes that she went through the standard audition pipeline in summer 2026.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S09",
+      "url": "https://www.boston.com/culture/entertainment/2026/09/18/snl-new-cast-2026/",
+      "title": "Meet the New 'SNL' Cast Members (New York Times News Service, syndicated by Boston.com and The Boston Globe)",
+      "speaker": "Maya Salam (The New York Times)",
+      "date": "2026-09-18",
+      "locator": "Grace Reiter section (four paragraphs).",
+      "excerpt": "On the show, she plays Tara, the controlling, abrasive fiancee of Natalie (Sophia Lillis) [...] finding viral success by using her physical comedy, theatrical overacting and \"take the bit too far\" energy [...] Her nearly 45-minute online parody \"The Hunger Games (but Better),\" which she said she made with friends over three days last year [...] Reiter will star in the upcoming Netflix mockumentary series \"Minimum Wage,\" about overworked teenagers in a pizzeria, which debuts Oct. 26. She is also a writer and director on the show [...] At 25, she is the first \"SNL\" cast member born in the 21st century.",
+      "context": "The NYT original (Sept. 17, 2026) could not be fetched (blocked); the identical syndicated text was opened on Boston.com and bostonglobe.com. These copies are one source, not three.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S10",
+      "url": "https://www.boston.com/culture/entertainment/2026/09/27/snl-recap-season-premiere-jalen-brunson/",
+      "title": "SNL recap: Season premiere with Jalen Brunson (Boston.com)",
+      "speaker": "Boston.com staff",
+      "date": "2026-09-27",
+      "locator": "Second paragraph.",
+      "excerpt": "Two new cast members (Grace Reiter, Saidah Belo-Osagie) took the stage, with Reiter landing an unexpectedly high number of appearances as a rookie.",
+      "context": "Premiere-night recap. Only critical note found so far on her SNL work.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S11",
+      "url": "https://variety.com/2026/tv/news/american-high-minimum-wage-netflix-series-order-1236734250/",
+      "title": "American High's 'Minimum Wage' Lands Netflix Series Order (EXCLUSIVE) (Variety)",
+      "speaker": "Joe Otterson (Variety)",
+      "date": "2026-04-30",
+      "locator": "Opening paragraphs.",
+      "excerpt": "Netflix has given \"Minimum Wage\" a 28 episode order, with the show set to launch on Netflix later this year. Each episode will run approximately 12.5 minutes. Since launching in May 2024, the original \"Minimum Wage\" shorts have drawn over 30 million views across YouTube, TikTok, and Instagram.",
+      "context": "Trade report of the Netflix order for the American High web series in which she plays Grace.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S12",
+      "url": "https://www.rollingstone.com/culture/culture-lists/top-social-media-influencers-creators-2026-1235605189/",
+      "title": "The 25 Most Influential Social Media Influencers and Creators of 2026 (Rolling Stone)",
+      "speaker": "Rolling Stone staff (entry initialed C.T.J.)",
+      "date": "2026-08-27",
+      "locator": "Grace Reiter entry.",
+      "excerpt": "This sketch comedian's humor vacillates between gross, absurd, and \"completely real.\" [...] Reiter says her comedy's strength often comes from its earnest and relatable origins. \"A lot of times I'm making things to be like, 'We all think this, right?' \" Reiter says.",
+      "context": "List entry with a short first-person quote. The queue note gave her rank as No. 20; the rank was not visible in the fetched text, so do not print a rank without checking.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S13",
+      "url": "https://www.trillmag.com/?p=314456",
+      "title": "'But Better Productions': Gen Z's Humor Has Something to Say About the Movies They Grew Up On (ft. Interview with Grace Reiter) (Trill Magazine)",
+      "speaker": "Grace Reiter, interviewed by Trill Magazine",
+      "date": "2026-07-20",
+      "locator": "Sections \"Why did The Hunger Games (but better) do so well?\" through \"The future of But Better Productions\".",
+      "excerpt": "\"I really was like, 'Please get a million views!'\" [...] \"Everyone else I just had a specific vision of like, I just know where they would fit,\" Reiter explained. [...] \"I knew I had to step it up. So I think I stepped it up production-wise.\"",
+      "context": "Opened through the r.jina.ai reader (direct fetch 403). Student-magazine interview about the parody and the coming Twilight (but better).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S14",
+      "url": "https://www.milwaukeemag.com/this-chippewa-falls-native-is-joining-snls-cast-for-season-52/",
+      "title": "This Chippewa Falls Native Is Joining SNL's Cast for Season 52 (Milwaukee Magazine)",
+      "speaker": "Adam Rogan (Milwaukee Magazine)",
+      "date": "2026-09-18",
+      "locator": "Opening two paragraphs; Chair Company paragraph.",
+      "excerpt": "Grace Reiter — a comedian born and raised in Chippewa Falls [...] Her work in Chair Company led to her being added to Time Magazine's TIME100 Creators 2026.",
+      "context": "Contains an error (she was born in Madison; S05, S06) and an unverified claim (TIME100 Creators 2026; a search found no confirmation and time.com returned 406). Use only for the Chris Farley / Ann Risley Wisconsin context, if at all.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S15",
+      "url": "https://feeds.megaphone.fm/tep",
+      "title": "That's Enough with Grace Reiter (podcast RSS feed)",
+      "speaker": "Stapleview / Grace Reiter",
+      "date": "accessed 2026-10-16",
+      "locator": "Feed items 1-60 (titles, pubDate, duration).",
+      "excerpt": "Fri, 28 Mar 2025 | Introducing: That's Enough with Grace Reiter [...] Mon, 31 Mar 2025 | Exclusively Margaritas with Grace Kuhlenschmidt [...] Mon, 13 Apr 2026 | ADHD Podcast with Milly Tamarez & Alise Morales [...] Mon, 11 May 2026 | Best Audience Overshares",
+      "context": "Sixty items; weekly guest episodes from March 31, 2025 to April 13, 2026, then four best-of compilations to May 11, 2026; no later episodes. Several episodes were published months after recording (Ep 34 recorded around her May 2025 birthday shoot; Ep 46 recorded around December 2025; the anniversary episode recorded February 18, 2026). Reader-facing show page (iTunes search 2026-10-16): https://podcasts.apple.com/us/podcast/thats-enough-with-grace-reiter/id1805215931.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S16",
+      "url": "https://www.youtube.com/watch?v=fuRMsKtzxOE",
+      "title": "Saying Goodbye - SNL (and 'Get Ready with Me - SNL', youtube.com/watch?v=P7EMHy_YHv0)",
+      "speaker": "Saturday Night Live (NBC)",
+      "date": "2026-10-11",
+      "locator": "Video descriptions (metadata only; sketches not transcribed).",
+      "excerpt": "A son (Shane Gillis) visits his elderly mother (Grace Reiter) in hospice. [...] (P7EMHy_YHv0, 2026-10-04) A group of teens (Sarah Sherman, Jane Wickline, Veronika Slowikowska) show each other their favorite GRWM creators (Dakota Johnson, Saidah Belo-Osagie, Grace Reiter).",
+      "context": "Official SNL uploads from the Oct. 3 (Dakota Johnson) and Oct. 10 (Shane Gillis) episodes. Performance roles, not personality evidence.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S17",
+      "url": "https://www.youtube.com/@GraceReiter/videos",
+      "title": "Grace Reiter YouTube channel (uploads list)",
+      "speaker": "Grace Reiter",
+      "date": "accessed 2026-10-16",
+      "locator": "Uploads list; video metadata for G6ID6U4Xd7k and l52Dh0lQbIc.",
+      "excerpt": "Bloopers | The Hunger Games (but better); The making of The Hunger Games (but better) (2025-11-25); The Hunger Games (but better) - A Parody (2025-11-19); Official Trailer | The Hunger Games (but better)",
+      "context": "As of 2026-10-16 the channel has no Twilight (but better) upload. The parody was posted 2025-11-19.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S18",
+      "url": "https://podcasts.apple.com/us/podcast/episode-89-grace-reiter-tiktok-comedian/id1484505634?i=1000566209332",
+      "title": "Passion Pod Episode 89: Grace Reiter (TikTok Comedian)",
+      "speaker": "Grace Reiter (guest); Chris Johnson (host)",
+      "date": "2022-06-13",
+      "locator": "00:06:57 (birthplace); 00:17:19-00:17:54 (coasting); 00:36:30-00:37:25 (analytics); 00:42:57 (downplaying); 00:55:06-00:55:49 (mistakes, self-worth).",
+      "excerpt": "[00:06:57] \"I was born in Verona, just a little south of Madison.\" [...] [00:17:19] \"the universe like gifted me this and I'm just going to like coast\" [...] [00:17:54] \"I'm a procrastinator and a lazy person at heart, I guess.\" [...] [00:37:15] \"my TikTok was, like, underperforming, and I didn't want that to, like, skew the analytics\" [...] [00:42:57] \"I kind of like I guess downplay The things that I do\" [...] [00:55:26] \"not taking myself more seriously\" [...] [00:55:49] \"Enjoy my company and maybe I'm not an awful horrible person\"",
+      "context": "Western Wisconsin interview podcast, recorded about May 2022 at the host's home a few weeks after Stapleview wrapped; she was living with her parents and working part-time at Ace Hardware. Episode audio downloaded from the public RSS feed (feed.pod.co/passion-pod) and transcribed locally with Whisper (base.en); no speaker labels, and the host talks about himself at length (\"control freak\", metrics stress are HIS). Check quotations against the audio. Reader-facing link changed at edit to the Apple Podcasts episode page (iTunes lookup 2026-10-16: \"Episode 89 Grace Reiter (TikTok Comedian)\", released 2022-06-13); the transcribed audio is the episode enclosure https://downloads.pod.co/dd47e031-3896-47f1-8ac5-ce83f089122f/b5816dc0-61ed-41ac-8eca-e06d4e86e438.mp3.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S19",
+      "url": "https://podcasts.apple.com/us/podcast/episode-167-grace-reiter-actress-content-creator/id1484505634?i=1000680559361",
+      "title": "Passion Pod Episode 167: Grace Reiter (Actress/Content Creator)",
+      "speaker": "Grace Reiter (guest); Chris Johnson (host)",
+      "date": "2024-12-16",
+      "locator": "00:03:43-00:05:37 (American High; SNL showcase process); 00:31:26-00:31:56 (showcase preparation; executive dysfunction); 00:40:24-00:40:39 (SNL as dream vs workload); 00:50:42 (gratitude prayer).",
+      "excerpt": "[00:05:05] \"But then recently I did like a showcase for SNL.\" [...] [00:05:17] \"the audition process for Saturday Night Live is you send in a self tape and then [...] they vet that. And then they're like, okay, we like you come do a showcase\" [00:05:37] \"And then you just like do a five minute set.\" [...] [00:31:26] \"the SNL thing, I like knew that that was coming. So I like worked for it and I practiced and then I was like, not even nervous at all.\" [...] [00:31:56] \"I struggle with executive dysfunction, I just like cannot pull myself to like do something.\" [...] [00:40:24] \"obviously SNL is like the dream.\" [00:40:39] \"I don't know if I could handle that work.\" [...] [00:50:42] \"I'm not really religious at all, but I was just feeling really grateful and very happy. So I like prayed to God\"",
+      "context": "Return visit recorded about October-November 2024 while she was home in Wisconsin before moving to New York. Transcribed locally with Whisper (base.en) from the feed audio; no speaker labels. Establishes a 2024 SNL showcase that did not lead to a hire (she does not say she reached a screen test; the host notes \"that doesn't mean you're on SNL\"). Her American High chronology: one-week guest about February 2023, full-time about July 2023 for roughly a year, \"no longer part of the shorts\" by fall 2024.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S20",
+      "url": "https://www.youtube.com/watch?v=iE7kKL0kUAk",
+      "title": "Never Tell Anyone About This with Grace Reiter | The Downside with Gianmarco Soresi #255",
+      "speaker": "Grace Reiter (guest); Gianmarco Soresi (host)",
+      "date": "2025-01-07",
+      "locator": "0:22:15-0:23:28 (stage fright, \"the shakes\"); 0:45:20-0:45:44 (narcissist fear); 0:50:43-0:51:00 (host on her basement start).",
+      "excerpt": "[0:22:55] \"I told my dad that and then he called me the shakes and then from then on no and then from then on out I was like oh I have stage fight and I can't go up up on stage because I'm going to shake and everyone's going to be like they're going to be like she's nervous\" [...] [0:23:20] \"I don't think he understood how personally or how much that was going to affect me\" [...] [0:45:30] \"that's my biggest fear is that I'm a narcissist\"",
+      "context": "YouTube auto-caption transcript (no speaker names; \">>\" marks speaker changes), read in full; quotes checked against the caption text by timestamp. Recorded just after she moved to New York (arrived around December 9, 2024). The narcissist line follows a TikTok-trivia joke and a co-host interjection, so attribution is medium. The \"because I'm a narcissist and I start Tik Tok in 2020\" line is Gianmarco's, not hers.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S21",
+      "url": "https://www.youtube.com/watch?v=bU7BnVaCx1U",
+      "title": "Exclusively Margaritas with Grace Kuhlenschmidt | That's Enough Ep 1",
+      "speaker": "Grace Reiter (host); Grace Kuhlenschmidt (guest)",
+      "date": "2025-03-31",
+      "locator": "0:38:15-0:38:40 (four-wheeling, risk); 0:47:33 (wants to cut a story).",
+      "excerpt": "[0:38:15] \"No. So, here's the deal. I'm not a risk taker. Okay. [...] I'm not a risk taker.\" [0:38:31] \"Me? Nope. Nope. I'm going I'm really taking my time. I'm looking at the ground, making sure I'm not going to flip off. Yep. I'm I'm protecting myself.\"",
+      "context": "YouTube auto-caption transcript (no speaker names; \">>\" marks speaker changes), read in full; quotes checked against the caption text by timestamp. First episode of her podcast. She also says \"I used to work at American High\" and asks to cut a personal story for fear of how it will be read, then keeps it.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S22",
+      "url": "https://www.youtube.com/watch?v=0bP_zcZydbs",
+      "title": "Grace Reiter is her own biggest fan | Couch Surfing with Coy (ep. 14)",
+      "speaker": "Grace Reiter (guest); Coy Piso (host)",
+      "date": "2025-04-26",
+      "locator": "0:51:05-0:51:54 and 1:08:58 (Harry Styles video; refusing to repeat it); 0:53:27-0:54:16 (follower ladder); 0:57:16-0:59:54 (Mall of America); 1:05:00-1:06:20 (fear of trying, half-assing, keeping busy).",
+      "excerpt": "[0:53:27] \"even when I got a million I was like well I don't have 3 million right and now I have 3 million right and I'm like okay but I don't have like 5 million [...] I feel like it'll never to quote the greatest showman never be enough\" [...] [0:57:16] \"I'm going to go to Mall of America cuz there's going to be a lot of people there and I feel like I have to get recognized by someone.\" [...] [1:05:00] \"I don't know if it's necessarily a fear of failure. I think it's really like [...] maybe like a fear of actually trying [...] I feel like my whole life I've kind of half halfass everything. And now I'm at a point in my life where I'm like, okay, well, I'm starting to see the success that I wanted [...] the fear is actually being successful\" [...] [1:08:58] \"Because the people wanted me to do it. And I said, 'Fuck the people.'\"",
+      "context": "YouTube auto-caption transcript (no speaker names; \">>\" marks speaker changes), read in full; quotes checked against the caption text by timestamp. Recorded April 20, 2025. Two-person conversation with clear turn-taking (high attribution for her answers). Coy wrote the \"fear\" question himself. The Mall of America photo turned out to be dated December 2019, so her \"post-COVID\" framing was wrong (Coy points this out).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S23",
+      "url": "https://www.youtube.com/watch?v=i_GWPEL741s",
+      "title": "Religious Awakening with Veronika Slowikowska | That's Enough Ep 8",
+      "speaker": "Grace Reiter (host); Veronika Slowikowska (guest)",
+      "date": "2025-05-19",
+      "locator": "0:08:48-0:11:10 (her overshare).",
+      "excerpt": "[0:08:48] \"Oh, and you know what? And this brings me to uh my overshare.\" [...] [0:09:04] \"I think to me what really is an overshare is this. I feel so guilty with the success I have. I'm thinking about becoming a Christian.\" [...] [0:09:46] \"people compliment me like a lot and they're like, 'Oh, you're so like you're going to be something, kid.' Or whatever. And I'm like, 'I can't handle this.' And I'm like, 'But if I believed in God, I could give all of it to God.'\" [...] [0:10:41] \"cuz the ego can get so so large. And that's what I'm terrified of.\"",
+      "context": "YouTube auto-caption transcript (no speaker names; \">>\" marks speaker changes), read in full; quotes checked against the caption text by timestamp. Attribution checked directly: she is host, introduces it as \"my overshare\" after setting aside her usual gross-out ones; Veronika's laughter and \"I resonate\" follow. The Stapleview clip \"God and Fame with Veronika Slowikowska\" (grAsg8zamtI) and the \"Best of Grace Reiter\" compilation (DkwLd_tgz4g, 2026-05-06) re-cut this same conversation; they are not independent sources. Roommate Max refers back to it independently (S45). Delivered with laughter and a riff on celebrity conversions; sincerity mixed but the framing is sincere.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S24",
+      "url": "https://www.youtube.com/watch?v=YatrI4ziPjA",
+      "title": "Volley for Serve podcast: with Grace Reiter",
+      "speaker": "Grace Reiter (guest); Ryan and Aidan Micho (hosts)",
+      "date": "2025-07-07",
+      "locator": "0:00:18 onward (choir-solo retelling); 0:08:07 (self-description); 0:31:06 (public vs secret favorite color).",
+      "excerpt": "[0:08:07] \"very sensitive and like uh dramatic\" [...] (choir solo retold as the origin of her stage fright)",
+      "context": "YouTube auto-caption transcript (no speaker names; \">>\" marks speaker changes), read in full; quotes checked against the caption text by timestamp. Hosts are American High castmates; much of the episode is bits. Used to show the stage-fright story recurs across years.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S25",
+      "url": "https://www.youtube.com/watch?v=TBv2EmLpGqs",
+      "title": "Eating People's Leftovers with Julia DiCesare | That's Enough Ep 14",
+      "speaker": "Grace Reiter (host); Julia DiCesare (guest, American High castmate)",
+      "date": "2025-07-07",
+      "locator": "0:03:04-0:05:15 (being funny, presence, loneliness); 0:37:39-0:38:23 (school, letting herself down); 0:42:44-0:43:20 (Julia on \"rigid\").",
+      "excerpt": "[0:03:04] \"I feel like I don't exist unless I mean funny. And when I'm not funny, I feel like I don't exist. Like a sort of Sim.\" [0:03:25] \"but then when I'm like funny and being funny and hanging out with friends and being funny I'm existing and I'm present. So maybe it's more I'm present.\" [...] (Julia) [0:42:44] \"I think rigid is the last word people would use to describe you.\" [0:43:03] \"Do you think you feel rigid because of wanting to wanting to control the audience's perception of your performance?\"",
+      "context": "YouTube auto-caption transcript (no speaker names; \">>\" marks speaker changes), read in full; quotes checked against the caption text by timestamp. Julia's klepto, Wendy's and chores stories are Julia's, not Grace's. Grace distinguishes her need to be funny from a Matthew Perry-style compulsion (\"This is something I enjoy\").",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S27",
+      "url": "https://www.youtube.com/watch?v=PmHpEfGp0yY",
+      "title": "Diaper to Diaper with Gianmarco Soresi | That's Enough Episode 24",
+      "speaker": "Grace Reiter (host); Gianmarco Soresi (guest)",
+      "date": "2025-09-15",
+      "locator": "0:07:19 (phone); 0:14:16 (no diagnosis); 0:22:01-0:22:20 (what oversharing withholds); 0:26:11-0:26:35 (offending, people pleaser); 0:35:52-0:37:05 (friendship, not texting first).",
+      "excerpt": "[0:07:19] \"I do think I have like a dopamine addiction\" [...] [0:22:14] \"Because the real overshare stuff would be like sad and like not funny.\" [...] [0:26:11] \"Oh my god, I'm so afraid of like offending people, though. I think I would go further.\" [...] [0:26:29] \"I think I'm a people pleaser. I think I'm like a people pleaser.\" [...] [0:35:52] \"maybe like I fear intimacy because I I have all these like oh I have my friend groups from Staple View but I don't really keep in touch with them too much\" [...] [0:36:49] \"please text me cuz like I won't text you [...] I don't want to feel like needy\"",
+      "context": "YouTube auto-caption transcript (no speaker names; \">>\" marks speaker changes), read in full; quotes checked against the caption text by timestamp. Gianmarco presses her past jokes into sincere answers; the richest sincere file. Speaker labels reliable. At 0:14:16 she answers \"No.\" to \"Have you been diagnosed with anything?\"; the ADHD and Adderall statements in this episode are Gianmarco's. Gianmarco: \"You live an ambitious highstakes stressful life.\" She also tells (0:26:35) of mocking a classmate; that passage repeats an unverified allegation about a private person and must not be reused.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S28",
+      "url": "https://www.youtube.com/watch?v=uTRNVAth6Qs",
+      "title": "Body Neutrality with Maggie Winters | That's Enough Episode 30",
+      "speaker": "Grace Reiter (host); Maggie Winters (guest)",
+      "date": "2025-10-20",
+      "locator": "0:31:33 (post views); 0:40:20 (apartment since December).",
+      "excerpt": "[0:31:33] \"Every time I post about Ginger Twinsies gets zero views. I posted one picture in this outfit.\"",
+      "context": "YouTube auto-caption transcript (no speaker names; \">>\" marks speaker changes), read in full; quotes checked against the caption text by timestamp. Two similar voices; attribution poor for long stretches (used only for items anchored by content).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S29",
+      "url": "https://www.youtube.com/watch?v=2zVjVhc2TBY",
+      "title": "Butter Beans with Grace Reiter | Literally Life Changing with Maggie Winters, Episode 1",
+      "speaker": "Grace Reiter (guest); Maggie Winters (host)",
+      "date": "2025-10-22",
+      "locator": "0:31:44-0:32:06 (high-school play); 0:37:34-0:38:00 (bad mood, nobody knows me).",
+      "excerpt": "[0:31:44] \"when I was in high school, I was in The Crucible.\" [...] [0:31:55] \"And I was Elizabeth Proctor\" [...] [0:37:39] \"Yeah, I'm in a bad mood. I was in a bad mood. But also, I'm realizing like nobody knows me and nobody knows actually really what I'm feeling.\"",
+      "context": "YouTube auto-caption transcript (no speaker names; \">>\" marks speaker changes), read in full; quotes checked against the caption text by timestamp. Contradicts the Leader-Telegram line that she \"never got involved in plays or musicals in school\" (S05).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S30",
+      "url": "https://www.youtube.com/watch?v=kR3EE_G-EY4",
+      "title": "Embracing Maximalism with Busy Phillips | That's Enough Ep 32",
+      "speaker": "Grace Reiter (host); Busy Philipps (guest)",
+      "date": "2025-11-03",
+      "locator": "0:26:47-0:27:53 (family, people pleasing, punishment); 0:30:10-0:30:40 (move to NYC, every medium); 0:40:32-0:43:47 (being \"big\", manager of talent).",
+      "excerpt": "[0:27:53] \"If anything I wish they punished me more cuz they would always be like we're going to take that computer away and they never did.\" [...] [0:30:36] \"I've done every medium now.\" [...] [0:40:42] \"I don't think you're allowed to perceive yourself like that, though. You can't.\" [...] [0:40:47] \"Because it's like that's not for me. Like a lot of times I feel like I'm not that's for you guys. Like I'm for you guys.\" [...] [0:42:18] \"I just watched this clip of Madonna talking about like you're the manager of your talent. You don't have the talent. [...] you start tying your selfworth to all of it and then it gets you know like the views and the likes\"",
+      "context": "YouTube auto-caption transcript (no speaker names; \">>\" marks speaker changes), read in full; quotes checked against the caption text by timestamp. Busy (co-producer of Ginger Twinsies) says her daughters are fans (\"you're big in our house\") and, unprompted, that Grace doesn't read as \"a traumatized funny person\". Grace says she moved to New York around December 2024. She calls the manager-of-talent passage \"kind of my overshare\".",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S31",
+      "url": "https://www.youtube.com/watch?v=l52Dh0lQbIc",
+      "title": "The making of The Hunger Games (but better)",
+      "speaker": "Grace Reiter (narrator and director)",
+      "date": "2025-11-25",
+      "locator": "0:00:34-0:03:30 (her narration on why and how); 0:37:10-0:38:04 (closing narration).",
+      "excerpt": "[0:00:34] \"For the longest time, I have been wanting to remake the [Hunger] Games for my birthday. Why? Because I want to be Katniss for my birthday, I want to be the lead in a movie for my birthday, and it's my birthday so I'm gonna do it.\" [...] [0:00:56] \"I'm a nerd. I'm such a freaking nerd. I'm a nerd, I like stuff like this. I don't know, like I like spreadsheets and stuff in math.\" [...] [0:01:49] \"I watched The Hunger Games in full and wrote down everything that happened.\" [...] [0:03:26] \"We're having fun on my birthday. We're working on my birthday. I don't know. I thought it was fun.\"",
+      "context": "No YouTube captions available; transcribed locally from the audio with Whisper (small.en). Whisper rendered \"Hunger Games\" as \"Hongka Games\" in the opening lines; check every quotation against the audio. On-set chatter is unattributable; only her direct-to-camera narration is used.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S32",
+      "url": "https://www.youtube.com/watch?v=ZGb674d2qho",
+      "title": "The Hunger Games But Better with Molly Reiter | That's Enough Ep 34",
+      "speaker": "Grace Reiter (host); Molly Reiter (sister, guest)",
+      "date": "2025-11-24",
+      "locator": "0:12:41-0:12:47 (casting); 0:18:05 (rollout plan); 0:21:43 (mom and privacy); 0:27:28-0:28:24 (childhood temper, Duluth).",
+      "excerpt": "[0:12:47] \"I casted everybody perfectly.\" [...] [0:27:28] \"I was just a general [ __ ] for most of my life.\" (Molly) [0:27:31] \"Yeah. You, for a while there, it was really hard to go on vacations with you.\" (Molly) [0:27:37] \"she watched Legend of Kora the whole time. Like the whole trip.\"",
+      "context": "YouTube auto-caption transcript (no speaker names; \">>\" marks speaker changes), read in full; quotes checked against the caption text by timestamp. Recorded right after the May 2025 birthday shoot, published November 2025. The only on-record testimony from her sister. Molly also says their mother \"always gets mad about like stuff you say\" on podcasts and wants privacy. Molly's own health disclosures in this episode are hers and must not be used.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S33",
+      "url": "https://www.youtube.com/watch?v=irWMQuIOvmI",
+      "title": "Full Frontal with Grace Reiter | The Yvette Show, Episode 26",
+      "speaker": "Grace Reiter (guest); Yvette (host)",
+      "date": "2025-12-03",
+      "locator": "0:40:18-0:40:40 (older sister on set); 0:48:43 (Tim Robinson); 0:59:13 (American High as everything); 1:05:06-1:07:06 (rules, people pleaser, confrontation); 1:25:40-1:26:42 (first weed experience, judgment).",
+      "excerpt": "[0:40:18] \"I'm the one friend that's like no but like we have to take this serious you guys.\" [...] [0:48:43] \"I didn't really also talk to him a lot cuz I was scared. I was intimidated.\" [...] [1:05:09] \"I'm like, 'We have to follow the rules. We have to be good. Come on now. Don't step out of line.' That's me.\" (Host) \"Are you a people pleaser?\" \"Of course.\" [...] [1:05:58] \"I think it's more so I'm just afraid of confrontation too and like like making someone upset.\" [...] [1:06:46] \"it like felt like it spilled out of me because I was so nervous to tell him.\" [...] [1:26:10] \"I was like, 'Do you guys think of me differently now?'\"",
+      "context": "YouTube auto-caption transcript (no speaker names; \">>\" marks speaker changes), read in full; quotes checked against the caption text by timestamp. She dates her full-time American High stint \"July of 2023 to October 2024\" here. The rules/people-pleaser turns are partly shared with the host (medium attribution); the confrontation and weed-night passages are hers (high). The full-frontal story in this episode is the HOST's, not Grace's. The weed-night material includes a joke about \"unlocking schizophrenia\"; not a disclosure and not for use as one.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S34",
+      "url": "https://www.youtube.com/watch?v=LB8IV4nRnX0",
+      "title": "Grace Reiter on making 'The Hunger Games (but better)' & 'The Chair Company' role | Page Six Viral Deep Dive",
+      "speaker": "Grace Reiter (interviewee); Page Six interviewer",
+      "date": "2025-12-12",
+      "locator": "0:03:24 (cheat code); 0:08:05-0:08:24 (goalposts, manager in 2020); 0:10:29-0:10:54 (Dune); 0:12:00 (SNL question).",
+      "excerpt": "[0:08:05] \"I feel like the goalpost is always moving cuz once I hit 1 million, I was like, 'Yeah, but like all the really Tik Tok famous people have 3 million.' And now that I'm at 3 million, I'm like, 'Yeah, but like all the really really famous Tik Tok people have 5 million.' So, I think the goalpost will always keep moving\" [...] [0:10:54] \"If you need Dune 4, get me in, guys. Tap me in. I'm really good.\"",
+      "context": "YouTube auto-caption transcript (no speaker names; \">>\" marks speaker changes), read in full; quotes checked against the caption text by timestamp. Short studio interview; the interviewer calls her \"the mastermind\" and mentions her \"binders and your spreadsheets and your like presentations\". Asked about SNL (December 2025) she says yes, if she can keep making parody movies on breaks.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S35",
+      "url": "https://www.youtube.com/watch?v=RGkqcKoJlFg",
+      "title": "Grace Reiter Burps Bad News | Business Casual Comedy #36",
+      "speaker": "Grace Reiter (guest); three hosts including a Stapleview clip editor",
+      "date": "2025-12-15",
+      "locator": "0:16:46 (not promoting herself); 0:18:56 (no standup); 0:22:12-0:22:37 (asks if her online self is her).",
+      "excerpt": "[0:16:46] \"I never tell people any of the stuff I do because I don't want them to come\" [...] [0:22:32] \"well then you would be the person to ask do you think my online stuff is me.\"",
+      "context": "YouTube auto-caption transcript (no speaker names; \">>\" marks speaker changes), read in full; quotes checked against the caption text by timestamp. Three hosts; attribution weakest of the guest episodes. A host who edits her podcast clips answers that the podcast is \"very authentic to who you are\".",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S36",
+      "url": "https://www.youtube.com/watch?v=yjs2d3Yrwe4",
+      "title": "You Have to Flop to Fly Ft. Grace Reiter | Wild Wild Web with Eric Sedeño",
+      "speaker": "Grace Reiter (guest); Eric Sedeño (host)",
+      "date": "2026-01-01",
+      "locator": "0:04:08 (blunt); 0:15:14-0:15:39 (do more, be bigger); 1:02:36 (won't gossip on camera); 1:11:26 (resolution).",
+      "excerpt": "[0:04:08] \"I'm very like blunt or like curt\" [...] (Eric) [0:15:14] \"you really just go for the joke [...] I feel like you have no shame\" [0:15:29] \"That's I mean I I feel like I'm always saying I could do more, be bigger, go harder. So like it's good to know it's landing.\" [0:15:39] \"Like maybe it is enough.\"",
+      "context": "YouTube auto-caption transcript (no speaker names; \">>\" marks speaker changes), read in full; quotes checked against the caption text by timestamp. Announces the Tate McRib comedy-music project. Eric notes she talked about people \"right before we started filming\" but she declines to on camera.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S37",
+      "url": "https://www.youtube.com/watch?v=2T-yIeGPqXs",
+      "title": "Girl Scout Camp with Sabrina Wu | That's Enough Ep 38",
+      "speaker": "Grace Reiter (host); Sabrina Wu (guest)",
+      "date": "2026-01-12",
+      "locator": "0:07:46-0:08:45 (shutting down a riff; older sister; repair).",
+      "excerpt": "[0:07:46] \"sometimes I'm like such a [ __ ] where I'm just like I would like that. I would shut that down immediately.\" [0:08:19] \"But even I knew I was like, 'No.' And that's not fair.\" [...] \"I'm very like older sister in that way\" [...] [0:08:45] \"Can I be honest? Sometimes when I do the idea, have I given you a complex about this?\"",
+      "context": "YouTube auto-caption transcript (no speaker names; \">>\" marks speaker changes), read in full; quotes checked against the caption text by timestamp. Sabrina answers that she never knows what will land. Attribution of the repair question medium-high.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S38",
+      "url": "https://www.youtube.com/watch?v=uAqkjPXE-lY",
+      "title": "Performative Nose Picking with Coy Piso | That's Enough Ep 41",
+      "speaker": "Grace Reiter (host); Coy Piso (guest)",
+      "date": "2026-02-09",
+      "locator": "0:00:26-0:01:10 (nerves); 0:16:32 (permission); 0:29:24-0:29:38 (credit, casting); 0:32:58 (next parody); 0:50:58-0:51:21 (overshared; own hand).",
+      "excerpt": "[0:16:32] \"Why did I make this whole podcast over sharing when everything I over share I'm like, 'Is that okay?'\" [...] [0:29:24] \"Well it wasn't really my idea it was all of our idea cuz we were improvising. We didn't write anything.\" [...] [0:50:58] \"This actually this has been the only time in the podcast where I've actually felt like I have overshared. [...] I knew this was going to happen too because The Hunger Games was so successful. I was like something's going to happen and it is my own hand that brings down myself.\"",
+      "context": "YouTube auto-caption transcript (no speaker names; \">>\" marks speaker changes), read in full; quotes checked against the caption text by timestamp. Few \">>\" markers in this file; attributions rest on content (host duties, \"my podcast\"). The \"own hand\" line is a half-joke about the episode's embarrassing overshare (an AI chatbot story, sensitive; do not use), but it states a prediction of self-caused downfall after success.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S39",
+      "url": "https://www.youtube.com/watch?v=ZcLMexvqHJI",
+      "title": "The Diary of Grace Reiter (The Downside with Gianmarco Soresi)",
+      "speaker": "Grace Reiter (guest); Gianmarco Soresi (host); Russell (co-host)",
+      "date": "2026-02-24",
+      "locator": "0:11:22-0:12:38 (therapy, mistakes list); 0:14:00-0:14:42 (therapist); 0:38:20-0:38:44 (journal); 0:41:14 (compliment).",
+      "excerpt": "[0:11:22] \"I would analyze every single interaction I've ever had and then like think about it. I was like, 'Okay, so like I have a list of like all like the mistakes I made today. Let's talk about that'\" [0:12:08] \"I guess I'm just like the worst person in the world\" (Gianmarco) [0:12:38] \"you're a completely non-functional human being. Yet you produce, you don't miss things.\" [...] [0:38:20] \"But in my journal I wrote I want a teacher. I want a mentor. I want a father.\" [0:38:27] \"But I mostly wrote that last one just because I was like that'd be poetic as [ __ ] if I wrote that.\" [...] [0:41:14] \"But thank you for the compliment. Thank you for the compliment. I'm sorry.\"",
+      "context": "YouTube auto-caption transcript (no speaker names; \">>\" marks speaker changes), read in full; quotes checked against the caption text by timestamp. Three voices with sparse \">>\" markers; her lines are pinned where she answers direct questions about her own therapy, journal and projects. Despite the title, no old diary is read. She says she started therapy because Gianmarco urged it on her podcast. \"I want a father\" is explicitly not a complaint about her father.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S40",
+      "url": "https://www.youtube.com/watch?v=4M3F_ntJTKI",
+      "title": "We're All Born Wicked with Eric Sedeño | That's Enough Ep 43",
+      "speaker": "Grace Reiter (host); Eric Sedeño (guest)",
+      "date": "2026-03-09",
+      "locator": "0:10:35 (self-label); 0:14:08-0:14:17 (validation joke); 0:18:59 (shell); 0:39:34 (fear).",
+      "excerpt": "[0:10:35] \"I think I'm a total [ __ ] all the time\" [...] [0:14:17] \"As you know, I need the external validation.\" [...] [0:18:59] \"people like people tell me things about me and I'm just like I don't know. Like I guess I'm truly just a shell.\" [...] [0:39:34] \"I said no cuz I was scared\" [...] \"I have to stop living in fear\"",
+      "context": "YouTube auto-caption transcript (no speaker names; \">>\" marks speaker changes), read in full; quotes checked against the caption text by timestamp. The validation line is ironic; the \"shell\" line is deadpan, answering a question about how she labels her sexuality. The refused-kiss passage is romantic and sensitive. The January 6 answer in this episode is an obvious bit.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S41",
+      "url": "https://www.youtube.com/watch?v=Vjz_NmJF8R8",
+      "title": "THAT'S ENOUGH ANNIVERSARY",
+      "speaker": "Grace Reiter (host); Lizzy Stewart (producer)",
+      "date": "2026-03-30",
+      "locator": "0:02:13-0:02:58 (birthday attention); 0:12:24 (the one cut); 0:22:39-0:24:30 (seriousness, earnestness).",
+      "excerpt": "[0:02:13] \"I want the attention but I also don't want to ask for it\" [...] (Lizzy) [0:02:34] \"I am so proud of you for taking the lead.\" [...] (Lizzy) [0:12:24] \"you've only ever asked me to cut one [...] You cut it for the other person\" [...] (Lizzy) [0:23:57] \"You do take things very seriously.\" [0:24:16] \"you're taking people at your word [...] there's no like fluff around you [...] You're so earnestly here\"",
+      "context": "YouTube auto-caption transcript (no speaker names; \">>\" marks speaker changes), read in full; quotes checked against the caption text by timestamp. Recorded February 18, 2026 (stated on air). Her producer's testimony; an interested party but a year of close observation. Grace says she won't make parodies that punch down and wonders why she is a comedian because she takes everything seriously and is \"very sensitive\".",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S42",
+      "url": "https://www.youtube.com/watch?v=v5rENwP8ICA",
+      "title": "Living with Grace with Max Zavidow | That's Enough Ep 46",
+      "speaker": "Grace Reiter (host); Max Zavidow (roommate, guest)",
+      "date": "2026-04-06",
+      "locator": "0:04:23-0:05:39 (life at home); 0:08:04-0:09:20 (compliments); 0:16:55 (friends); 0:21:49-0:22:28 (haters, offending); 0:27:17-0:31:45 (quitting, dread, shows).",
+      "excerpt": "(Max) [0:08:12] \"I think you are a singular\" (Grace) [0:08:14] \"Oh god. Okay. We can't No, we can't do this on my podcast.\" [...] (Max) [0:08:27] \"Well, what's funny is that you hate compliments more than anyone I know.\" [...] \"It's the same thing of like why you wanted to find God because you were like you were like I people are like too nice about it.\" [...] (Grace) [0:09:10] \"I'm in an attack mode right now.\" [...] [0:16:55] \"I just like hope my friends are actually my friends\" [...] (Max) [0:22:06] \"You are one of the all-time great haters.\" (Grace) [0:22:08] \"I think it's because I'm afraid of like offending people. Like I don't want people to be like offended.\"",
+      "context": "YouTube auto-caption transcript (no speaker names; \">>\" marks speaker changes), read in full; quotes checked against the caption text by timestamp. Recorded around December 2025 in their Manhattan apartment, published April 2026. The roommate's testimony is the strongest independent corroboration of her discomfort with praise. She also says she does every comedy show she dreads and enjoys it once on stage; Max says \"if there's something we don't want to do, you cannot make us do it\". Her weed and paranoia riffs in this episode are joke-framed; do not treat as health disclosures.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S43",
+      "url": "https://www.youtube.com/watch?v=eTewYGrHLtk",
+      "title": "ADHD Podcast with Milly Tamarez & Alise Morales | That's Enough Ep 47",
+      "speaker": "Grace Reiter (host); Milly Tamarez and Alise Morales (guests)",
+      "date": "2026-04-13",
+      "locator": "0:40:53-0:40:57.",
+      "excerpt": "[0:40:53] \"I don't know why I started this podcast.\" [0:40:57] \"Cuz now I'm like, wait, I don't want to tell these people all this stuff. That's why I have default to [ __ ]\"",
+      "context": "YouTube auto-caption transcript (no speaker names; \">>\" marks speaker changes), read in full; quotes checked against the caption text by timestamp. Recorded on Presidents' Day 2026. \"ADHD\" in the title refers to the guests' show, not to her; she makes no ADHD disclosure. The divorce and egg-freezing material belongs to a guest.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S44",
+      "url": "https://www.youtube.com/watch?v=wMtFoCeII34",
+      "title": "GRACE REITER talks Hunger Games, Parodies, and Chipmunks (Kyle MacLachlan)",
+      "speaker": "Grace Reiter (guest); Kyle MacLachlan (host)",
+      "date": "2026-04-22",
+      "locator": "0:07:08-0:07:37 (choir solo, stage fright); 0:18:41-0:19:36 (The Chair Company).",
+      "excerpt": "[0:07:37] \"they can see me, and they know I'm nervous\" [...] [0:19:00] \"I don't think I was acting at all. [...] I felt like I was saying words. And then I was like, oh my god, I tricked them all. I just wanted to hang out and have a good time.\" (MacLachlan) [0:19:28] \"if you can find an environment where you can play in, which you are great at, that is huge.\"",
+      "context": "YouTube auto-caption transcript (no speaker names; \">>\" marks speaker changes), read in full; quotes checked against the caption text by timestamp. Third telling of the choir-solo stage-fright story (2025-01, 2025-07, 2026-04).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S45",
+      "url": "https://www.youtube.com/watch?v=a0jf8KWHRP0",
+      "title": "Grace Reiter discusses unrealistic body standards for dinosaurs | Volley For Serve Podcast",
+      "speaker": "Grace Reiter (guest); Ryan and Aidan Micho (hosts)",
+      "date": "2026-05-11",
+      "locator": "0:07:22 (asking to join); 0:09:35 (shy); 0:35:13-0:35:40 (hot takes).",
+      "excerpt": "[0:07:22] \"Do you want me to only if you want me to?\" [...] (host) [0:09:35] \"If we don't answer within like the first 0.1 seconds, you immediately get shy and walk it down.\" [...] \"I don't want to be judged for my opinion\"",
+      "context": "YouTube auto-caption transcript (no speaker names; \">>\" marks speaker changes), read in full; quotes checked against the caption text by timestamp. Longtime collaborators; the dinosaur body-standards premise is satire.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S46",
+      "url": "https://www.youtube.com/watch?v=gYbGompZjS8",
+      "title": "Parodies with Grace Reiter - Matteo Lane & Nick Smith - I Never Liked You 135",
+      "speaker": "Grace Reiter (guest); Matteo Lane and Nick Smith (hosts)",
+      "date": "2026-08-27",
+      "locator": "0:10:53 (shot list); 0:12:01 (million views); 0:16:39 (mean to me); 0:30:13-0:31:46 (American High, Minimum Wage, Twilight); 0:34:20-0:35:44 (work mode, novelty).",
+      "excerpt": "[0:12:01] \"If I don't get a million, I'm actually going to be really really embarrassed.\" [...] [0:16:39] \"I'm always like someone they're going to be mean to me and they never are.\" [...] [0:31:27] \"we started the writers room in January and then we took like a little break in February, came back March and wrapped June 5th and then literally the next week we filmed Twilight.\" [...] [0:34:27] \"Am I happy about it? I don't know. I don't take time to really process or enjoy anything. I'm just like work mode all the time.\" [...] [0:35:29] \"I just need like novelty\"",
+      "context": "YouTube auto-caption transcript (no speaker names; \">>\" marks speaker changes), read in full; quotes checked against the caption text by timestamp. Recorded summer 2026, before the SNL announcement; SNL is not mentioned. She says American High \"brought [her] over\" to make videos; she did not attend Syracuse University. Hosts: \"she's a professional\".",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S47",
+      "url": "https://www.youtube.com/watch?v=crG4upus05Y",
+      "title": "GRACE REITER IS EXPERIENCING WHIMSY (Ft. Grace Reiter) | The Comment Section with Drew Afualo",
+      "speaker": "Grace Reiter (guest); Drew Afualo (host)",
+      "date": "2026-09-23",
+      "locator": "0:04:43-0:05:24 (Twilight apology); 0:08:56 (dream); 0:43:54 (micromanaging); 0:49:23-0:51:30 (enjoyment, rigid, shy); 1:27:48-1:28:12 (compliment).",
+      "excerpt": "[0:05:03] \"I filmed Twilight, I like cried afterwards cuz I was like, I'm so sorry I made you guys do that. It was so long. It was so hard.\" [...] [0:08:56] \"I just want to make a movie with my friends\" [...] [0:43:54] \"micromanaging everything\" [...] [0:49:23] \"I don't like let myself enjoy anything.\" [...] [0:51:23] \"cuz I'm so rigid\" (Drew) [0:51:30] \"you rigid and shy in my normal.\" [...] (Drew) [1:28:06] \"You're you're you're wincing when you say it, but you will believe it.\"",
+      "context": "YouTube auto-caption transcript (no speaker names; \">>\" marks speaker changes), read in full; quotes checked against the caption text by timestamp. Published a week after the casting news but evidently recorded before it: SNL is never mentioned, not even in her plugs (Minimum Wage, Hunger Games, Twilight \"either out now or it's coming out pretty gosh darn soon\"). The \"shy older sister\", King George III and NFL stories are Drew's. A possible body-dysmorphia remark (0:17:53) has medium attribution and is sensitive; do not use.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S48",
+      "url": "https://www.youtube.com/watch?v=cvBnNyEMD8g",
+      "title": "Chippewa Falls native, Grace Reiter, makes SNL debut (FOX2548 / WIProud)",
+      "speaker": "Tim Reiter (father) and family, local TV news",
+      "date": "2026-09-28",
+      "locator": "0:00:40-0:01:28.",
+      "excerpt": "(family) [0:00:40] \"as soon as she knew that she could make somebody laugh, it was over, pretty much.\" [...] \"something that we always figured would happen for her.\" (father) [0:01:28] \"she's got a huge personality, and she's even a better kid. I mean, she's just awesome, and she's just such a blessing, always has been.\"",
+      "context": "YouTube auto-caption transcript (no speaker names; \">>\" marks speaker changes), read in full; quotes checked against the caption text by timestamp. Hometown watch-party segment organized by her father. No quotes from Grace.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S49",
+      "url": "https://www.nytimes.com/2026/09/17/arts/television/new-snl-cast-members.html",
+      "title": "Meet The New \"S.N.L.\" Cast Members (The New York Times)",
+      "speaker": "Maya Salam (The New York Times)",
+      "date": "2026-09-17",
+      "locator": "Not opened (403 and reader-proxy block).",
+      "excerpt": "Not opened; the syndicated text was read instead (S09).",
+      "context": "Listed so the drafter cites the syndicated copy that was actually read, or opens the original before citing it.",
+      "kind": "secondary",
+      "access": "unavailable"
+    },
+    {
+      "id": "S50",
+      "url": "https://www.youtube.com/watch?v=ir4vgN7fIhY",
+      "title": "Grace Reiter Talks \"Twilight (but better)\", Potential Future But Better Productions (Eve Hartley)",
+      "speaker": "Grace Reiter (guest)",
+      "date": "unknown",
+      "locator": "Not opened (YouTube transcript requests were IP-blocked after the first 35 videos).",
+      "excerpt": "Not opened; title from a YouTube search result only.",
+      "context": "A 33-minute interview about Twilight (but better) that may update the project's status and her account of it. Transcribe at the next refresh.",
+      "kind": "primary",
+      "access": "unavailable"
+    },
+    {
+      "id": "S51",
+      "url": "https://www.russh.com/consider-grace-reiter-your-new-favourite-comedian/",
+      "title": "Consider Grace Reiter your new favourite comedian (RUSSH)",
+      "speaker": "Kirsty Thatcher (RUSSH)",
+      "date": "2026-09-17",
+      "locator": "Section \"She's the first SNL cast member born after 2000\".",
+      "excerpt": "Yep, Reiter was actually born May 18, 2001 – which also makes her a Taurus.",
+      "context": "Explainer published the day after the casting announcement. Read at the draft stage from the copy the research stage saved (raw/russh.html, txt/russh.txt). Secondary and probably not independent of Wikipedia (S06) for the date.",
+      "kind": "secondary",
+      "access": "opened"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C63",
+      "claim": "Introducing her May 2025 overshare, she said she would set aside her usual gross-out confessions.",
+      "passage": "she would \"steer away from gross ones cuz I've been doing gross all the time.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S23"
+      ],
+      "inference": "S23 0:08:56-0:08:59: \"I'm going to steer away from gross ones cuz I've been doing gross all the time.\" It frames the guilt confession as a deliberate departure from her usual material.",
+      "alternative": "Choosing a different kind of overshare is also a host varying her segment.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C16",
+      "claim": "Her May 2025 \"overshare\" on her own podcast was guilt about success: \"I feel so guilty with the success I have. I'm thinking about becoming a Christian.\"",
+      "passage": "\"I feel so guilty with the success I have. I'm thinking about becoming a Christian.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S23",
+        "S42"
+      ],
+      "inference": "She sets aside her usual gross-out overshares to offer this as the real one, and seven months later her roommate refers back to it unprompted (\"why you wanted to find God\", S42), so it reflects something persistent, not a one-off bit. It shows praise experienced as a weight she wants an outside authority to carry.",
+      "alternative": "Delivered with laughter and a riff on celebrity conversions; partly comic. Midwestern modesty and a young person's surprise at fast success are plausible circumstantial explanations. A Type 3 concerned with not appearing vain could say the first sentence, but the wish for an external authority to \"give all of it\" to fits Type 6 better. She later said she simply stopped thinking about the religion idea (S42).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C61",
+      "claim": "She explained that frequent compliments overwhelm her and that believing in God would let her hand the praise to God.",
+      "passage": "Her guest, the comedian Veronika Slowikowska, laughed. Reiter explained that \"people compliment me like a lot,\" and when they tell her \"you're going to be something, kid,\" her reaction is \"I can't handle this.\" Then: \"But if I believed in God, I could give all of it to God.\" If you think she's awesome, she reasoned, \"you think God's awesome.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S23"
+      ],
+      "inference": "S23 0:09:29-0:10:04, read in context: Veronika's laughter and \"I resonate\" come first; then Grace: \"people compliment me like a lot and they're like, 'Oh, you're so like you're going to be something, kid.' ... And I'm like, 'I can't handle this.' And I'm like, 'But if I believed in God, I could give all of it to God.'\" and \"Like if you think I'm awesome, you think God's awesome.\" Praise is experienced as a weight to be carried by an outside authority.",
+      "alternative": "Delivered with laughter and followed by a riff on celebrity conversions (Bieber, Selena Gomez, Chance the Rapper); partly comic. Midwestern modesty or surprise at fast success could produce the same words.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C62",
+      "claim": "In the same overshare she said she was terrified of her ego growing too large.",
+      "passage": "The delivery was comic, with a riff on celebrity converts. The worry underneath was stated plainly: \"the ego can get so so large. And that's what I'm terrified of.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S23"
+      ],
+      "inference": "S23 0:10:41-0:10:45: \"cuz the ego can get so so large. And that's what I'm terrified of.\" The fear attaches to success, not failure.",
+      "alternative": "A Type 3 worried about looking vain could say this; the sentence alone does not discriminate.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C01",
+      "claim": "Grace Marie Reiter was born on May 18, 2001, in the Madison area of Wisconsin and grew up in Chippewa Falls, where her family moved in 2007; she graduated from Chippewa Falls High School in 2019 and has posted sketch comedy online since 2019.",
+      "passage": "Reiter, born in 2001 near Madison, Wisconsin, and raised in Chippewa Falls, has posted sketch comedy online since 2019.",
+      "class": "third_party",
+      "source_ids": [
+        "S05",
+        "S06",
+        "S18",
+        "S51"
+      ],
+      "inference": "Her father (via the Leader-Telegram) says the family lived in Madison, where she was born, and moved back in 2007. Wikipedia gives the full date and cites a Capital Times St. Mary's Hospital birth notice and Chippewa Herald birthday notices (not opened). In 2022 she said she was \"born in Verona, just a little south of Madison\" and moved back \"like in first grade\". Safe wording: born in the Madison area (or \"near Madison\"), raised in Chippewa Falls.",
+      "alternative": "Milwaukee Magazine says \"born and raised in Chippewa Falls\" and trade outlets say \"originally from Chippewa Falls\"; those are wrong or loose on birthplace. Verona versus a Madison hospital is unresolved; do not print a city of birth more precise than the Madison area. The full date rests on Wikipedia's cited notices plus Russh; it is consistent with her age (25 in September 2026).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C06",
+      "claim": "She was an original cast member of Stapleview, a live TikTok sketch show created by former Broadway Video producer Sam Grey that premiered March 3, 2022 and was filmed in Los Angeles; she then lived in a short-term sublet in LA, not a permanent move.",
+      "passage": "In 2022 she was an original cast member of _Stapleview_, a live TikTok sketch show",
+      "class": "observed",
+      "source_ids": [
+        "S02",
+        "S01",
+        "S18",
+        "S19",
+        "S05"
+      ],
+      "inference": "Contemporaneous reporting. In 2022 and 2024 she describes the LA stint as about three months and says she never moved there.",
+      "alternative": "The Leader-Telegram says she \"moved to Burbank, Calif.\" after graduating; that most likely describes the Stapleview stint. Avoid saying she lived in LA long-term.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C07",
+      "claim": "American High, a Syracuse-area film company, recruited her as a guest around February 2023 and hired her full-time around July 2023 as one of five core cast members of American High Shorts and College Life, relocating her to Syracuse; by fall 2024 she was no longer part of the shorts, and she moved to New York City in December 2024. She did not attend Syracuse University.",
+      "passage": "from 2023 she worked in Syracuse as one of five core cast members of American High's sketch shorts.",
+      "class": "disputed",
+      "source_ids": [
+        "S19",
+        "S33",
+        "S03",
+        "S04",
+        "S46",
+        "S20",
+        "S30",
+        "S06"
+      ],
+      "inference": "Her own consistent dating (\"July of 2023 to October 2024\", S33; guest about February 2023 and full-time about July 2023, S19) plus contemporaneous Daily Orange and Panther reporting. NYC move from S20 (arrived about December 9, 2024) and S30.",
+      "alternative": "Wikipedia and CNY Central say she joined in late 2022 (Phelps began trialing comedians in October 2022). She still appears in Minimum Wage, an American High production. Use \"2023\" or \"from 2023\" for the full-time role.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C55",
+      "claim": "In 2025 she performed Off-Broadway in Ginger Twinsies (July-October 2025) and played Tara, a recurring role, on HBO's The Chair Company (premiered October 2025).",
+      "passage": "In 2025 she performed Off-Broadway in _Ginger Twinsies_ and played Tara, a recurring role, on HBO's _The Chair Company_.",
+      "class": "observed",
+      "source_ids": [
+        "S09",
+        "S06",
+        "S44"
+      ],
+      "inference": "NYT syndication (S09): she plays Tara, \"the controlling, abrasive fiancee\" of the main character's daughter, and appeared in the off-Broadway comedy Ginger Twinsies; Wikipedia (S06) gives the July-October 2025 Orpheum run and lists the Chair Company role as recurring. No sentence links Tara's traits to Reiter.",
+      "alternative": "None on the facts.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C09",
+      "claim": "She posted The Hunger Games (but better), a nearly 45-minute parody she directed and starred in as Katniss, in November 2025; it had nearly 14 million views by September 2026.",
+      "passage": "That November she posted _The Hunger Games (but better)_, a nearly 45-minute parody she directed and starred in as Katniss. By September 2026 it had nearly 14 million views.",
+      "class": "observed",
+      "source_ids": [
+        "S17",
+        "S31",
+        "S09",
+        "S13",
+        "S32",
+        "S34"
+      ],
+      "inference": "Release date and views from her channel and press; motive line is her own narration (S31, check audio because Whisper misheard the title).",
+      "alternative": "View counts are time-sensitive; write \"more than 13 million views by September 2026\". She also frames the project as a gift to her friends and says the idea came from improvising with friends (C34), so \"she wanted to be the lead\" should not stand alone.",
+      "durability": "time_sensitive",
+      "review_trigger": "View count is dated to the NYT piece of September 18, 2026; update only if the figure is restated with a new date."
+    },
+    {
+      "id": "C56",
+      "claim": "NBC named her a featured player on SNL in September 2026; at 25 she is the first SNL cast member born in the 21st century.",
+      "passage": "in September 2026 NBC named her a featured player on _Saturday Night Live_. At 25, the Times noted, she was the show's first cast member born in the 21st century.",
+      "class": "observed",
+      "source_ids": [
+        "S07",
+        "S09"
+      ],
+      "inference": "Deadline (S07) announced the hire on September 16, 2026; the NYT syndicated text (S09) says \"At 25, she is the first 'SNL' cast member born in the 21st century.\"",
+      "alternative": "Featured-player status changes at season end.",
+      "durability": "time_sensitive",
+      "review_trigger": "Revisit at the end of Season 52 (about May 2027): renewal, promotion to repertory or departure."
+    },
+    {
+      "id": "C49",
+      "claim": "Her father says SNL was her long-held goal.",
+      "passage": "that SNL had \"been her goal forever.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "Leader-Telegram (S05): \"'It's been her goal forever. It's completely surreal.'\" said of the SNL casting.",
+      "alternative": "A proud parent speaking on the day of the announcement.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C74",
+      "claim": "The article draws on her interviews and podcasts from 2022 to 2026, weighted to 2025-2026, plus testimony from people who lived and worked with her.",
+      "passage": "This analysis follows what she does when the goal starts arriving, using her interviews and podcasts from 2022 to 2026, mostly from 2025 and 2026, and testimony from people who lived and worked with her.",
+      "class": "observed",
+      "source_ids": [
+        "S18",
+        "S47",
+        "S42",
+        "S41",
+        "S39"
+      ],
+      "inference": "First-person record runs from Passion Pod (S18, recorded about May 2022) to The Comment Section (S47, September 2026); testimony comes from her roommate (S42), producer (S41), father (S05), sister (S32) and collaborators (S39, S45).",
+      "alternative": "The record is mostly comic podcasting; see type_hypothesis limits.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C75",
+      "claim": "Type 6 leading read at medium confidence: from 2024 to 2026 she waved off praise, kept asking permission to share, and steadied stage fright with preparation; Type 3 is the closest rival.",
+      "passage": "Grace Reiter's personality type is most likely Enneagram Type 6, the Loyalist, at medium confidence. Sixes sit in the head triad, whose core emotion is fear. From 2024 to 2026 she waved off praise, kept asking whether she was allowed to share, and steadied a long-running stage fright with preparation. Type 3 is the closest rival.",
+      "class": "interpretation",
+      "source_ids": [
+        "S23",
+        "S42",
+        "S39",
+        "S38",
+        "S45",
+        "S20",
+        "S19"
+      ],
+      "inference": "Each clause is traced to a body passage: praise-deflection (C16, C17, C79, C18), permission checks (C20, C46), stage fright and preparation (C23, C91, C92). The earlier clauses 'wishes for someone or something to hold her success' and 'expects it to be taken from her' were removed: the first she disavowed in April 2026 (C41), the second had no source.",
+      "alternative": "Type 3 reads the same deflection as image management (see type_hypothesis.alternative_case).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C76",
+      "claim": "Much of her vigilance is aimed at her own rise and the ego she fears.",
+      "passage": "Reiter aims much of it at her own rise: the praise, the views, the ego she is \"terrified of.\"",
+      "class": "interpretation",
+      "source_ids": [
+        "S23",
+        "S38"
+      ],
+      "inference": "Draws on \"the ego can get so so large. And that's what I'm terrified of\" (S23) and the post-hit downfall line (S38).",
+      "alternative": "Fear of ego can also be ordinary modesty.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C77",
+      "claim": "Type 3 is the main rival and Type 1 a secondary one; the Six leads on permission-seeking and what steadies her, not on praise-deflection.",
+      "passage": "Her ambition points to [Type 3](/enneagram-corner/enneagram-type-3), the Achiever, and her guilt keeps Type 1 in view. Both are weighed below. The Six leads less because of how she takes a compliment, which a modest Three would share, than because of how often she asks permission and what she leans on when she is scared.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S34",
+        "S22",
+        "S23",
+        "S38",
+        "S45",
+        "S19"
+      ],
+      "inference": "Interpretation summarizing the Why-not sections (C98, C34, C102).",
+      "alternative": "See type_hypothesis.against.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C78",
+      "claim": "When her roommate began to praise her on her podcast, she cut him off.",
+      "passage": "He began to praise her, and she cut him off: \"we can't do this on my podcast.\"",
+      "class": "observed",
+      "source_ids": [
+        "S42"
+      ],
+      "inference": "S42 0:08:12-0:08:18: Max: \"I think you are a singular\" / Grace: \"Oh god. Okay. We can't No, we can't do this on my podcast.\" Episode released April 6, 2026; recorded after the parody's release (Max mentions people calling her Katniss).",
+      "alternative": "Playful; she then jokes about being shouted out in an award speech.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C17",
+      "claim": "Her roommate Max Zavidow says she hates compliments more than anyone he knows.",
+      "passage": "\"Well, what's funny is that you hate compliments more than anyone I know.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S42"
+      ],
+      "inference": "Testimony from someone with daily access (S42 0:08:27). With C64, C79 and C68 it is the core of the discriminator against Type 3: approval is deflected rather than taken in.",
+      "alternative": "Comic self-deprecation is a technique she names (\"comedy 101\", S27), and deflecting compliments is a Midwestern norm. She answers that she is getting better at it (C66). Her \"attack mode\" reply in the same exchange is joke-framed and is not printed.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C65",
+      "claim": "Her roommate linked her dislike of compliments to the earlier wish to find God.",
+      "passage": "He tied it, unprompted, to the overshare from months before: \"It's the same thing of like why you wanted to find God.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S42",
+        "S23"
+      ],
+      "inference": "S42 0:08:35-0:08:44: \"It's the same thing of like why you wanted to find God because you were like ... people are like too nice about it.\" Shows the May 2025 overshare reflected something persistent.",
+      "alternative": "He may know the overshare from the published episode rather than from home life.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C66",
+      "claim": "She protested that she is good at taking compliments now; he allowed she was getting better.",
+      "passage": "She protested, \"No, I feel like I'm good at it now.\" \"Okay, you're getting better,\" he allowed.",
+      "class": "observed",
+      "source_ids": [
+        "S42"
+      ],
+      "inference": "S42 0:08:45-0:08:47.",
+      "alternative": "Shows change over time; the aversion may be easing.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C67",
+      "claim": "Strangers now call her Katniss, which she says was kind of always her dream.",
+      "passage": "By then, she said, strangers on the street shouted [Jennifer Lawrence](/personality-analysis/jennifer-lawrence)'s name at her and called her Katniss, \"which I guess was kind of always my dream.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S42"
+      ],
+      "inference": "S42 0:08:48-0:08:56: \"I walked on the street, people go Jennifer Lawrence, Hunger Games. Yeah, people are like they call me Katniss now, which I guess was kind of always my dream.\" Counterweight: she enjoys the recognition.",
+      "alternative": "Supports the Type 3 reading as much as Type 6.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C41",
+      "claim": "By April 2026 she said she no longer felt called to Christianity; success was going to happen and she would enjoy it or ignore it.",
+      "passage": "Later he asked whether she still felt called to Christianity. She said no. \"I think I'm just like, okay, well, this is my life and this is the things I want to do. So, like this stuff is going to happen.\" Her conclusion: \"either enjoy it or just ignore it.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S42"
+      ],
+      "inference": "S42 0:45:47-0:46:22, rechecked in this session. The quote now runs through her acceptance (\"this stuff is going to happen\"; \"either enjoy it or just ignore it\"), per subject-01.",
+      "alternative": "Could equally show a Six settling into a situation once it feels familiar.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C64",
+      "claim": "Soresi, who worked with her on Ginger Twinsies and interviewed her twice on The Downside, says she underplayed the parody when describing it in rehearsals; she credited the source film when he praised her directing.",
+      "passage": "Outside her household the pattern is looser. In February 2026 the comedian Gianmarco Soresi, who worked with her on _Ginger Twinsies_ and has interviewed her twice on his podcast, [_The Downside_](https://www.youtube.com/watch?v=ZcLMexvqHJI), told her that when she described the parody in rehearsals, \"you were really underplaying it.\" Then he praised her directing. She credited the source film (\"it also like again already did exist\"), then said:",
+      "class": "third_party",
+      "source_ids": [
+        "S39",
+        "S20"
+      ],
+      "inference": "S39 0:40:17-0:41:20 (\"I remember you telling me about this in rehearsals ... you were really underplaying it\"), rechecked this session. Ginger Twinsies link from S39 0:10:25 (\"when we were doing Ginger Twinsies\") and 0:37:00 (Soresi: \"You don't feel like I was that for you in ginger\"); the two Downside interviews are S20 (January 2025) and S39 (February 2026). Soresi is no longer cited as a witness to an aversion to compliments (critic-2).",
+      "alternative": "Underplaying a project before release is modesty about the work, not necessarily a reaction to praise. His exact Ginger Twinsies role is inferred from conversation, not from a cast list.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C79",
+      "claim": "She answered Soresi's compliment with an apology.",
+      "passage": "\"But thank you for the compliment. Thank you for the compliment. I'm sorry.\"",
+      "class": "observed",
+      "source_ids": [
+        "S39"
+      ],
+      "inference": "S39 0:41:20-0:41:23, the line immediately after C64.",
+      "alternative": "Possibly a comic beat; the apology is still an observed response to praise.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C18",
+      "claim": "Told by Busy Philipps that she is \"big in our house,\" she said she isn't allowed to perceive herself that way: \"that's not for me\" and \"Like I'm for you guys.\"",
+      "passage": "When the actor Busy Philipps, a co-producer of _Ginger Twinsies_, told her on [_That's Enough_](https://www.youtube.com/watch?v=kR3EE_G-EY4) in November 2025 that she was \"big in our house,\" where Philipps's daughters are fans, Reiter objected: \"I don't think you're allowed to perceive yourself like that, though. You can't.\" Asked why, she said, \"that's not for me,\" and then, \"Like I'm for you guys.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S30"
+      ],
+      "inference": "S30 0:40:40-0:40:52 (refusal) and 0:04:46-0:04:57 (Philipps: \"when I was asked to come on board as like a co-producer\"), both rechecked this session. The Madonna remark (former C69) came in a separate thread about idea ownership and is no longer printed.",
+      "alternative": "A healthy, borrowed philosophy of craft could explain it; it is also what a Type 3 trying not to be ruled by metrics might adopt.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C11",
+      "claim": "Of The Chair Company she told Kyle MacLachlan she didn't think she was acting at all.",
+      "passage": "Of _The Chair Company_, created by and starring [Tim Robinson](/personality-analysis/tim-robinson), she told the actor Kyle MacLachlan [in April 2026](https://www.youtube.com/watch?v=wMtFoCeII34), \"I don't think I was acting at all.\"",
+      "class": "observed",
+      "source_ids": [
+        "S44",
+        "S09"
+      ],
+      "inference": "S44 0:18:54-0:19:07 (April 22, 2026). Praise answered with an impostor joke.",
+      "alternative": "Impostor feelings are common in a first big job; MacLachlan reframes it as being in the moment.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C80",
+      "claim": "Self-mockery is her stated comic method, and compliment-deflection is ordinary Midwestern politeness.",
+      "passage": "She has called self-mockery \"comedy 101,\" and she grew up in the Upper Midwest, where waving off a compliment is ordinary politeness.",
+      "class": "interpretation",
+      "source_ids": [
+        "S27",
+        "S33"
+      ],
+      "inference": "S27 0:28:35 \"Isn't that like comedy 101? Like just [ __ ] on yourself\". The Midwest point is an author observation; she names her Midwest identity in S33 (\"Midwest freaking represent\").",
+      "alternative": "This is the circumstance alternative to the type reading.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C81",
+      "claim": "She wants attention on her birthday but does not want to ask for it.",
+      "passage": "\"I want the attention but I also don't want to ask for it.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S41"
+      ],
+      "inference": "S41 0:02:15-0:02:19; episode recorded February 18, 2026, released March 30, 2026. Shows the aversion is to direct praise, not to attention.",
+      "alternative": "Common feeling about birthdays.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C82",
+      "claim": "In February 2026 she said an embarrassing story was the only time on the podcast she felt she had overshared.",
+      "passage": "Reiter told a story she felt had gone too far.",
+      "class": "self_report",
+      "source_ids": [
+        "S38"
+      ],
+      "inference": "S38 0:50:58-0:51:04, rechecked this session (\"this has been the only time in the podcast where I've actually felt like I have overshared\"). The story itself stays undescribed.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C19",
+      "claim": "After the parody's success she predicted, half-jokingly, that her own hand would bring her down.",
+      "passage": "\"I knew this was going to happen too because The Hunger Games was so successful. I was like something's going to happen and it is my own hand that brings down myself.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S38"
+      ],
+      "inference": "S38 0:51:10-0:51:17 (episode released February 9, 2026). Anticipating danger at the moment of success is a Type 6 signature; a Type 3 more typically fears failure and being seen failing.",
+      "alternative": "A half-joke about an embarrassing overshare in that episode, not about her career. The January 2025 \"biggest fear is that I'm a narcissist\" line (S20, medium attribution) is not printed. Treat as supporting, not decisive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C83",
+      "claim": "The downfall line is a closing joke about an embarrassing story; it echoes non-joke statements (C84, C85, C121) rather than establishing a habit by itself.",
+      "passage": "It was half a joke, about an embarrassing story rather than a career. It closed the episode on a laugh. But it echoes things she has said without a punchline.",
+      "class": "interpretation",
+      "source_ids": [
+        "S38",
+        "S22",
+        "S23"
+      ],
+      "inference": "S38 0:51:08-0:51:22 (the episode's closing gag, followed by \"What?\" / \"Yeah, I don't know either\" and the plugs), rechecked this session. The draft's 'it describes a habit' was softened per critic-3; the line no longer appears in the discriminator or FAQs.",
+      "alternative": "One half-joke cannot establish a habit by itself; the claim rests on the other two sources.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C84",
+      "claim": "Asked how she keeps success from becoming a fear of failure, she doubted it was fear of failure, conceded it maybe was, and called it a fear of actually trying.",
+      "passage": "In April 2025 the creator Coy Piso asked her on his show, [_Couch Surfing_](https://www.youtube.com/watch?v=0bP_zcZydbs), how she kept the possibility of success from turning into a fear of failure. \"I don't know if it's necessarily a fear of failure,\" she said, then allowed, \"I guess maybe it kind of is,\" before landing on \"maybe like a fear of actually trying.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S22"
+      ],
+      "inference": "S22 1:05:04-1:05:16, rechecked this session; her concession is now printed (critic-5, enneagram-02).",
+      "alternative": "Fear of trying fully is also a classic way to avoid failing while fully invested (self-handicapping), which fits a failure-avoidant Three or a Nine.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C25",
+      "claim": "She describes a lifelong habit of half-effort: \"my whole life I've kind of half halfass everything\" (April 2025).",
+      "passage": "\"I feel like my whole life I've kind of half halfass everything.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S22"
+      ],
+      "inference": "S22 1:05:22-1:05:25, printed as captioned (\"half halfass\" is the auto-caption rendering). Fear of full effort fits Type 6 (and Type 9) better than Type 3 or Type 1.",
+      "alternative": "Her output contradicts the label (weekly podcast, self-produced parody, nightly open mics); the laziness may be self-image, not behavior. Audio not re-checked at this stage.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C85",
+      "claim": "Now that success is arriving, she says, the fear is of success being even bigger than she imagined.",
+      "passage": "Now that she was \"starting to see the success that I wanted,\" she said, \"now I actually care about this stuff,\" and \"the fear is actually being successful like the possibility of like oh this could be even bigger than I thought it could be.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S22"
+      ],
+      "inference": "S22 1:05:26-1:05:47, rechecked this session.",
+      "alternative": "Could be ordinary nerves about a growing career.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C44",
+      "claim": "In 2022 she said her recurring mistake was not allowing herself to claim the title of comedian.",
+      "passage": "In 2022 she told the Wisconsin podcast [_Passion Pod_](https://podcasts.apple.com/us/podcast/episode-89-grace-reiter-tiktok-comedian/id1484505634?i=1000566209332) that her recurring mistake was \"not taking myself more seriously like allowing myself to say I'm a comedian.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S18"
+      ],
+      "inference": "S18 00:55:26 (Whisper, no speaker labels). Used in the Six-vs-Three discriminator as permission to claim a role. Link now points to the Apple episode page (future-07).",
+      "alternative": "Common self-doubt at 20 or 21; Whisper text not checked against a second transcription.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C86",
+      "claim": "Interpretation: her statements do not separate fear of failing from fear of succeeding; success raised the stakes for her.",
+      "passage": "Her words don't settle whether she fears failing or succeeding, and she wasn't sure herself. What they show is that success raised the stakes instead of settling them.",
+      "class": "interpretation",
+      "source_ids": [
+        "S22",
+        "S23"
+      ],
+      "inference": "Built on C84, C85, C121. Replaces the draft's claim that her words fit a Six better than a fear of failing.",
+      "alternative": "Circumstance (next sentence) explains part of it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C87",
+      "claim": "Her career moved from TikTok to HBO, Netflix and SNL in about a year, an ordinary cause of impostor feelings.",
+      "passage": "In about a year her career moved from TikTok to HBO, Netflix and SNL, which would give anyone in her mid-20s reasons to feel like an impostor.",
+      "class": "interpretation",
+      "source_ids": [
+        "S09",
+        "S07",
+        "S11",
+        "S22"
+      ],
+      "inference": "The Chair Company (October 2025), the Netflix order (April 2026) and the SNL hire (September 2026); she says \"maybe it is imposter syndrome\" (S22).",
+      "alternative": "This is the circumstantial alternative stated in the article.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C20",
+      "claim": "On her oversharing show she says everything she overshares makes her ask, \"Is that okay?\"",
+      "passage": "\"Why did I make this whole podcast over sharing when everything I over share I'm like, 'Is that okay?'\"",
+      "class": "self_report",
+      "source_ids": [
+        "S38"
+      ],
+      "inference": "S38 0:16:34-0:16:40 (episode released February 9, 2026). Permission-checking on her own show.",
+      "alternative": "Followed by \"I guess that's the point of it\"; partly self-mocking.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C73",
+      "claim": "She avoids opinion shows because she does not want to be judged for her opinions.",
+      "passage": "On the same show she said she avoids opinion shows such as _Subway Takes_ \"because I don't have an opinion and I don't want to be judged for my opinion.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S45"
+      ],
+      "inference": "S45 0:35:44-0:35:49 (May 11, 2026), introducing a satirical hot take on the same episode.",
+      "alternative": "Said while setting up a bit; medium sincerity.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C21",
+      "claim": "Her roommate calls her one of the all-time great haters; she says she holds back because she is afraid of offending people and it could come back to her, and calls herself a people pleaser.",
+      "passage": "Her sharper opinions mostly stay private. Zavidow calls her \"one of the all-time great haters.\" Her explanation: \"I think it's because I'm afraid of like offending people.\" She holds back, she said, because \"maybe it could come back to me.\" In September 2025 she told Soresi, on [her own show](https://www.youtube.com/watch?v=PmHpEfGp0yY), \"I think I'm a people pleaser.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S42",
+        "S27"
+      ],
+      "inference": "S42 0:22:06-0:22:28 (\"maybe it could come back to me\" ends before a \">>\" marker; the following words are not quoted); S27 0:26:29. Restraint explained by anticipated consequences fits Type 6 (and Types 1, 2, 9).",
+      "alternative": "Type 2 people-pleasing aims at being liked and needed; nothing in the record shows her seeking to be needed (she says \"please text me cuz like I won't text you\", C29). Type 9 conflict-avoidance would not usually coexist with this much private sharpness.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C22",
+      "claim": "She avoided raising a complaint with an American High roommate, then blurted it at breakfast in front of everyone because she was so nervous.",
+      "passage": "When she does confront someone, it comes out sideways. At American High, she told the host of [_The Yvette Show_](https://www.youtube.com/watch?v=irWMQuIOvmI) in December 2025, a roommate kept leaving paper towels around. She said nothing, then raised it \"at like the worst time ever,\" at breakfast in front of everyone, with a guest star in the house. He asked why she hadn't just told him before. Her verdict: \"sometimes it's just that easy, but you build it up in your head.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S33"
+      ],
+      "inference": "S33 1:06:13-1:07:09. The roommate is a private person and is not named. Her causal reading is printed only up to \"you build it up in your head\"; the words after a \">>\" marker are not quoted.",
+      "alternative": "Single source for the story; conflict-avoidance is shared by Types 2, 6 and 9. It sits beside self-described bluntness (\"I'm very like blunt or like curt\", S36), which is the counterphobic side of the same pattern or simply Midwestern directness.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C46",
+      "claim": "The Micho brothers describe her hedging when invited and walking back her own questions when not answered at once.",
+      "passage": "Her old American High castmates Ryan and Aidan Micho see the same reflex. When one of them asked whether she was coming on their podcast, [_Volley for Serve_](https://www.youtube.com/watch?v=a0jf8KWHRP0), he recalled in May 2026, she answered, \"Do you want me to only if you want me to?\" Later one of them told her, \"If we don't answer within like the first 0.1 seconds, you immediately get shy and walk it down.\" Her reply: \"Oh, okay. This is good. I'm learning a lot about myself.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S45",
+        "S24"
+      ],
+      "inference": "S45 0:07:22-0:07:33 and 0:09:35-0:09:45, rechecked this session; the hosts are American High castmates (S24 context).",
+      "alternative": "Friendly ribbing between longtime collaborators; recounted, not observed by the author.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C88",
+      "claim": "Interpretation: her checking follows the Six loop of scanning for disapproval and testing it against what people say.",
+      "passage": "This is the Six's checking loop: scan for hidden disapproval, then test it against what people actually say.",
+      "class": "interpretation",
+      "source_ids": [
+        "S38",
+        "S33",
+        "S46",
+        "S42"
+      ],
+      "inference": "Built on C20, C70-C73.",
+      "alternative": "See next claim.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C89",
+      "claim": "Fear of judgment is common for young performers with large followings, and she tells these stories as self-jokes.",
+      "passage": "Fear of judgment is also close to universal for a young performer with millions of followers and a comment section, and she tells most of these stories as jokes on herself.",
+      "class": "interpretation",
+      "source_ids": [
+        "S05",
+        "S09"
+      ],
+      "inference": "Follower counts: 3.9 million TikTok (S05), about 4 million (S09).",
+      "alternative": "This is the alternative explanation, stated in the article.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C23",
+      "claim": "She traces her stage fright to a seventh-grade class speech about the Hubble telescope, when her hands shook; after she told her father, he called her \"the shakes,\" and from then on she believed she had stage fright.",
+      "passage": "Reiter dates her stage fright to seventh grade. In January 2025 she told Soresi on [_The Downside_](https://www.youtube.com/watch?v=iE7kKL0kUAk) that during a speech about the Hubble telescope her hands shook so badly she could barely flip her note cards. She told her father, \"and then he called me the shakes.\" From then on, she said, she believed she had stage fright.",
+      "class": "self_report",
+      "source_ids": [
+        "S20"
+      ],
+      "inference": "S20 0:22:25-0:23:05, rechecked this session.",
+      "alternative": "She frames the belief as self-instilled (C90) and rejects a family-wound reading (C122); the nickname is reported as context, not as cause.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C90",
+      "claim": "She doubts her father understood the nickname's effect, but frames the stage-fright belief as self-instilled.",
+      "passage": "\"I don't think he understood how personally or how much that was going to affect me,\" she said, though she framed the belief as her own doing: \"at one point I instilled in me I have stage fright and then I could never shake it.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S20"
+      ],
+      "inference": "S20 0:22:17-0:22:23 and 0:23:16-0:23:27, rechecked this session (subject-04).",
+      "alternative": "Her father is described warmly elsewhere; this is not a complaint about his parenting.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C91",
+      "claim": "In eighth grade she won a choir solo but, unable to sing it in front of a new pianist, hid behind the last row and cried; the solo was reassigned. She has retold the story at least three times.",
+      "passage": "The next year she won a choir solo in \"You Raise Me Up,\" but in rehearsal she could not sing it in front of one new person, the pianist. She hid behind the last row and cried, and the solo went to someone else. \"I was so mad at myself,\" she said. She has told the choir story at least three times, in January 2025, [July 2025](https://www.youtube.com/watch?v=YatrI4ziPjA) and April 2026.",
+      "class": "self_report",
+      "source_ids": [
+        "S20",
+        "S24",
+        "S44"
+      ],
+      "inference": "S20 0:20:20-0:21:55 (\"I literally like laid behind the last row and like hid\", \"I was so mad at myself\"); S24 0:00:18-0:02:16 (July 7, 2025); S44 0:07:13-0:07:22 (April 22, 2026).",
+      "alternative": "In S44 she agrees she did not do plays in high school because of stage fright, while in S29 she says she played Elizabeth Proctor in The Crucible; the article makes no claim about high-school theater.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C60",
+      "claim": "By fall 2026 she was performing live on SNL.",
+      "passage": "The girl who could not sing in front of a pianist was, by the fall of 2026, performing live on network television.",
+      "class": "observed",
+      "source_ids": [
+        "S10",
+        "S16"
+      ],
+      "inference": "Premiere recap (S10) and official October 2026 sketch uploads (S16). Now dated, so it stays true if she leaves SNL (future-04).",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C92",
+      "claim": "Preparing for her 2024 SNL showcase left her \"not even nervous at all.\"",
+      "passage": "\"I like knew that that was coming. So I like worked for it and I practiced and then I was like, not even nervous at all.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S19"
+      ],
+      "inference": "S19 00:31:33-00:31:38 (Whisper, no speaker labels; she is answering the host's lesson question). Recorded about October-November 2024 in Wisconsin before the December 2024 move.",
+      "alternative": "Preparation is also how Type 3 and Type 1 manage performance.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C93",
+      "claim": "She credited preparation over talent while saying she is good at it.",
+      "passage": "She credited the preparation over the talent: \"it's not because I'm like good at this, which I think I am good at it, but I am good at it.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S19"
+      ],
+      "inference": "S19 00:31:43-00:32:05.",
+      "alternative": "The assertion of skill is a counterweight to her self-deprecation.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C12",
+      "claim": "Her 2024 SNL showcase did not lead to a hire; that December she called SNL \"the dream\" but doubted she could handle the work and preferred one-and-done projects; she went through the 2026 showcases and NBC announced her hire on September 16, 2026.",
+      "passage": "She also said \"obviously SNL is like the dream,\" but \"I don't know if I could handle that work,\" and she preferred \"a one and done thing.\" That could be a Six's self-doubt or simply someone softening a disappointment. In the summer of 2026 she went through the showcases again, and on September 16 NBC [announced](https://deadline.com/2026/09/snl-season-52-casts-grace-reiter-saidah-belo-osagie-1237105604/) her hire.",
+      "class": "observed",
+      "source_ids": [
+        "S19",
+        "S08",
+        "S07",
+        "S09",
+        "S05"
+      ],
+      "inference": "S19 00:40:24-00:41:00, rechecked this session (she also says \"maybe I shouldn't shoot myself in the foot right now\" and compares the workload to American High). The plain alternative, managing a disappointment, now sits beside the type reading (fan-05). Deadline and NYT report the 2026 hire.",
+      "alternative": "Her 2024 showcase outcome is inferred from the record (she never says she advanced, and she was not hired); do not claim she was \"rejected\" in stronger terms than that. Her father says SNL invited her to the 2026 showcase.",
+      "durability": "time_sensitive",
+      "review_trigger": "Revisit at the end of Season 52 (about May 2027): contract renewal, promotion to repertory, or departure."
+    },
+    {
+      "id": "C42",
+      "claim": "She dreads live comedy shows, stresses herself out, then has fun once on stage.",
+      "passage": "Dread before and fine after is her routine with live comedy too. \"I stress myself out,\" she told Zavidow, and then \"I get up there and I have fun and I'm like oh it's like fine.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S42"
+      ],
+      "inference": "S42 0:31:31-0:31:49, after Max describes the pre-show dread. Anticipatory anxiety followed by relief.",
+      "alternative": "Pre-show nerves are near-universal among comedians.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C26",
+      "claim": "She wrote in her journal that she wants a teacher, a mentor and a father, adding that the last was mostly for poetic effect.",
+      "passage": "She also looks for guidance outside herself. In her journal, she told Soresi in February 2026, she wrote, \"I want a teacher. I want a mentor. I want a father.\" She added at once that she wrote the last one mostly because it sounded poetic.",
+      "class": "self_report",
+      "source_ids": [
+        "S39"
+      ],
+      "inference": "S39 0:38:20-0:38:30, rechecked this session. The unsourced 'speaks of her father warmly' and the punishment line were removed (subject-04).",
+      "alternative": "Young artists commonly want mentors; she explicitly frames 'I want a father' as poetic license.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C28",
+      "claim": "She described bringing her therapist a list of the day's mistakes.",
+      "passage": "She fears a swollen ego and, she told Soresi, brought her therapist \"a list of like all like the mistakes I made today.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S39",
+        "S23"
+      ],
+      "inference": "S39 0:11:29-0:11:33, rechecked this session; ego fear from S23. Now used as Type 1 evidence. Soresi's 'non-functional human being' joke is no longer printed (subject-06). Therapy is mentioned once, in her framing.",
+      "alternative": "The strongest Type 1 evidence in the record; see C102 for the discriminator and its limits.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C95",
+      "claim": "Her ambition is old, explicit and measured in numbers.",
+      "passage": "The best case against the Six reading is her ambition, which is old, explicit and measured in numbers.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S34",
+        "S22"
+      ],
+      "inference": "Introduces C05, C03, C30, C96.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C05",
+      "claim": "In 2022, at 20, she described her ambition in terms of online identity: \"I grew up in the YouTube era. YouTubers were my celebrities. I think my dream had always been to be an Internet persona.\" She also said the persona carries pressure: \"you have to be this persona and you don't want to overthink it ... Because that's what made people like you in the first place.\"",
+      "passage": "\"I grew up in the YouTube era,\" she told [Volume One](https://volumeone.org/sites/chippewafalls/articles/2022/03/29/293816-from-chippewa-falls-to-la-grace-reiter-joins), a Chippewa Falls magazine, in March 2022. \"YouTubers were my celebrities. I think my dream had always been to be an Internet persona.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Early evidence that being seen and liked online was the goal, and that she felt the liked self had to be maintained. The second quote expresses fear of losing what made people like her.",
+      "alternative": "Read as Type 3 (identity fused with an image that wins approval), this is the strongest early evidence for the alternative. Read as Type 6, it is worry about losing approval she cannot trust. A 20-year-old describing the creator economy accurately also explains it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C03",
+      "claim": "Her father says she has always been a ham for the camera who loved attention.",
+      "passage": "Her father says she has \"always been a ham for the camera, and loved attention.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S05",
+        "S48"
+      ],
+      "inference": "Independent of her own self-presentation and consistent with her account of making videos since middle school. It supports a long-held drive to perform; it does not by itself say what motive drives it.",
+      "alternative": "A proud parent speaking on the day of a career milestone; attention-loving in childhood is common and is not type-specific (Types 2, 3, 6 and 7 can all present this way).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C30",
+      "claim": "Her follower goals keep moving: \"I feel like the goalpost is always moving cuz once I hit 1 million, I was like, 'Yeah, but like all the really Tik Tok famous people have 3 million.'\"",
+      "passage": "\"I feel like the goalpost is always moving cuz once I hit 1 million, I was like, 'Yeah, but like all the really Tik Tok famous people have 3 million.'\"",
+      "class": "self_report",
+      "source_ids": [
+        "S34",
+        "S22"
+      ],
+      "inference": "Repeated from April 2025 to August 2026. This is the core of the Type 3 alternative: metrics and recognition as yardsticks of worth, with escalating goals.",
+      "alternative": "For Type 6 the same ladder reads as an inability to feel arrived or safe (\"It never feels real\", \"imposter syndrome\", S22). She also says she avoids looking at numbers and wants to stop tying worth to \"views and likes\" (C18). In 2022 she withheld her analytics from her manager because her TikTok was underperforming (S18), which can be read as image protection (Type 3) or fear of judgment (Type 6).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C96",
+      "claim": "She said she would be embarrassed if the parody got under a million views.",
+      "passage": "Of the parody she said, \"If I don't get a million, I'm actually going to be really really embarrassed.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S46"
+      ],
+      "inference": "S46 0:12:01-0:12:07 (draft-stage mapping). The Mall of America line was cut for length.",
+      "alternative": "Wanting to be recognized after going viral is common; both lines fit Type 3 and Type 6.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C53",
+      "claim": "She made the parody because she wanted to be the lead in a movie for her birthday.",
+      "passage": "She made it, she said in the [making-of video](https://www.youtube.com/watch?v=l52Dh0lQbIc), because \"I want to be the lead in a movie for my birthday.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S31"
+      ],
+      "inference": "S31 00:00:39 (Whisper; her direct-to-camera narration).",
+      "alternative": "She also frames the shoot as a group project with friends (C34); the idea came from friends improvising.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C31",
+      "claim": "She says she does not take time to process or enjoy anything and is \"work mode all the time\" (August 2026).",
+      "passage": "In August 2026 she said, \"I don't take time to really process or enjoy anything. I'm just like work mode all the time.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S46"
+      ],
+      "inference": "S46 0:34:27-0:34:32, rechecked this session; said while discussing the Ginger Twinsies run.",
+      "alternative": "Her 2024 self-description was \"floating... thing to thing\" and \"I'm having fun\"; the 2026 lines come in her busiest year (Netflix series, Twilight, SNL audition), so circumstance explains part of it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C98",
+      "claim": "Discriminator 1: she seeks permission rather than managing an image.",
+      "passage": "The Six still leads, narrowly, on two observations. First, she asks permission more than she polishes an image. A Three, even a modest one, tends to claim the role and manage how it looks. Reiter asks whether she is allowed: \"Is that okay?\" on her own overshare show, \"Do you want me to only if you want me to?\" to old castmates, \"I don't think you're allowed to perceive yourself like that\" to Philipps.",
+      "class": "interpretation",
+      "source_ids": [
+        "S38",
+        "S45",
+        "S30",
+        "S18"
+      ],
+      "inference": "Built on C20, C46, C18, C44. Replaces the draft's generic 'a Three takes admiration in' test (enneagram-01). Soresi and Afualo are no longer counted as independent witnesses (critic-2).",
+      "alternative": "A self-preservation Three can also feel impostorish about claiming a role; permission-seeking is common in young performers and in Upper Midwest manners.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C99",
+      "claim": "Interpretation: praise-deflection, ego fear and her answer about failure do not discriminate Six from a modest Three.",
+      "passage": "So the praise-deflection that opens this article does not settle the case. Both readings predict it, and so do Midwestern manners. The ego fear and her hedged answer about failure fit both too.",
+      "class": "interpretation",
+      "source_ids": [
+        "S23",
+        "S22",
+        "S42",
+        "S39"
+      ],
+      "inference": "Replaces the draft's 'second clue' (critic-5, enneagram-02). States which evidence both readings explain equally.",
+      "alternative": "She hedges (\"maybe it kind of is\").",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C34",
+      "claim": "Discriminator 2: preparation, mentors and friends steady her more than results; in 2024 she prayed in gratitude that indie films with friends would be enough, while saying she is not religious.",
+      "passage": "Second, what steadies her is preparation and people rather than the result. She practiced her way to \"not even nervous at all,\" and her journal asks for a mentor. Driving to the airport in 2024 after a film shoot in Baton Rouge, she said, \"I'm not really religious at all,\" but she prayed anyway: \"I'm so grateful if this is all it ever is is just like making like little indie films with my friends.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S19",
+        "S39"
+      ],
+      "inference": "S19 00:50:42-00:51:08 (Whisper; consecutive lines joined), rechecked this session; \"I'm not really religious at all\" now printed (subject-07). The February 2026 idea-credit line was cut (critic-8).",
+      "alternative": "She also takes pride in being the lead (C53) and enjoys star treatment (C125). The obligation-from-others line is now treated as a motivation pattern fitting Nine (C103), not as Six evidence.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C100",
+      "claim": "Limits of the case: the follower ladder fits both types, much of the record is comedy, and she uses audience reaction as a gauge.",
+      "passage": "The case has limits. The follower ladder fits both types, because a Six can keep climbing when no number ever feels safe (\"It never feels real,\" she told Piso). Much of the record is comedy, where self-deprecation is the joke. And she does use laughter as a gauge. On the _Minimum Wage_ set, where the crew had to stay quiet for sound, she said, \"I'm always trying to like make people break cuz I'm like I want I need to know.\"",
+      "class": "interpretation",
+      "source_ids": [
+        "S22",
+        "S46"
+      ],
+      "inference": "S46 0:34:43-0:35:07, rechecked this session: the make-people-break line is about the Minimum Wage set, not a live show (fan-03).",
+      "alternative": "These are the stated weaknesses of the type argument.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C13",
+      "claim": "As of September 17, 2026, her father said SNL was not allowing her to give media interviews; no post-casting interview was found by October 16, 2026.",
+      "passage": "Her father said in September 2026 that SNL was not letting her give interviews, and none had appeared by mid-October 2026.",
+      "class": "observed",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "Three episodes in. Performance roles are not personality evidence; the interview restriction explains the gap in post-casting first-person material.",
+      "alternative": "Early-season screen time fluctuates; do not build the argument on it.",
+      "durability": "time_sensitive",
+      "review_trigger": "Check for her first post-casting long-form interview (likely during the season or at the end of it) and for any critical assessment of her SNL work."
+    },
+    {
+      "id": "C101",
+      "claim": "Settle signal: in her first unscripted long-form account of a hard stretch in network TV, does she frame the stakes as standing fixed by results (Three) or fear of being found out, steadied by preparation, people and structure (Six)?",
+      "passage": "When she first describes a hard stretch in network television at length, on a loose, long-form podcast rather than a press stop, listen for what she says was at stake. A Three would more likely describe a threat to her standing, fixed by a result: a sketch that landed. A Six would more likely describe the fear of being found out, and credit what she leaned on: preparation, a trusted person, the structure of the week.",
+      "class": "interpretation",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "Revised per future-02 so press-tour humility and SNL tenure do not confound the test.",
+      "alternative": "None.",
+      "durability": "unresolved",
+      "review_trigger": "At her first long-form, non-press interview after the casting (podcast or her own channel), check whether she frames a low point as a threat to her standing fixed by results (Type 3) or as fear of being found out, steadied by preparation, a trusted person or structure (Type 6). Routine thanks to castmates during network promotion does not count. Applies whether or not she is still on SNL."
+    },
+    {
+      "id": "C27",
+      "claim": "On the parody set she was the friend insisting everyone take scenes seriously.",
+      "passage": "On the parody set, she told Yvette, she was \"the one friend that's like no but like we have to take this serious you guys.",
+      "class": "self_report",
+      "source_ids": [
+        "S33"
+      ],
+      "inference": "S33 0:40:18-0:40:21 (December 3, 2025). Supports the Type 1 reading. The S33 \"rule followery\" and \"we have to follow the rules\" turns (shared with the host, medium attribution) are not printed.",
+      "alternative": "Type 1 would explain the enforcement of standards (\"we have to take this serious\", \"we have to follow the rules. We have to be good\", S33) and her self-labeling; Type 3 would explain driving the product. Directing a low-budget shoot with friends also simply requires someone to be in charge.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C102",
+      "claim": "One-vs-Six discriminator: her stated reasons for restraint are consequences and permission, not right and wrong; One remains a live alternative.",
+      "passage": "What separates the readings is the reason she gives for holding back. A One restrains herself because something would be wrong. Reiter's reasons are about consequences and permission: she is \"afraid of like offending people,\" worries an opinion \"could come back to me,\" and asks, \"Is that okay?\" A One usually knows where the line is. Reiter usually asks someone else. That keeps the Six ahead, but One stays in the running.",
+      "class": "interpretation",
+      "source_ids": [
+        "S42",
+        "S38"
+      ],
+      "inference": "Built on C21 and C20. Replaces the draft's inconsistent use of the half-effort self-label and its 'checks it against other people' claim, which S39 did not support (critic-6, enneagram-05).",
+      "alternative": "Ones also fear consequences and can seek reassurance; this is a tilt, not a proof, which is why One stays in the running.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C103",
+      "claim": "Type 9 fits her self-described coasting and need for outside deadlines, but she says she is most stressed when idle.",
+      "passage": "In 2022 she called herself \"a procrastinator and a lazy person at heart,\" and she avoids confrontation. In 2024 she said she struggles with \"motivation stuff\" and moves when \"somebody else is like, hey, you have to do this.\" That fits a Nine at least as well as a Six. But a Nine settles when idle, and that same year she said \"the most time when I get stressed is when I'm not doing stuff.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S18",
+        "S19",
+        "S33"
+      ],
+      "inference": "S18 00:17:54; S19 00:32:02-00:32:13 (rechecked this session; the adjacent health-adjacent self-description is not printed) and 00:28:42; confrontation avoidance from S33 (C22). The obligation line now counts toward Nine (enneagram-06).",
+      "alternative": "Whisper transcripts; both statements are casual.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C104",
+      "claim": "Her output (a weekly podcast for a year, a nearly 45-minute parody made with friends) contradicts the lazy label.",
+      "passage": "Her output, a weekly podcast for a year and a nearly 45-minute parody, also argues against the lazy label.",
+      "class": "observed",
+      "source_ids": [
+        "S15",
+        "S09"
+      ],
+      "inference": "Feed dates (S15); parody length (S09).",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C29",
+      "claim": "Type 2 test: not wanting to seem needy fits a Two, but she doesn't initiate contact and shows no pattern of making herself needed.",
+      "passage": "[Type 2](/enneagram-corner/enneagram-type-2) fits the people-pleasing, and her wish not to seem \"needy\" could belong to a Two. The behavior points elsewhere. Leaving American High, she told friends, \"please text me cuz like I won't text you,\" and the record shows no habit of making herself indispensable.",
+      "class": "self_report",
+      "source_ids": [
+        "S27"
+      ],
+      "inference": "S27 0:35:52-0:37:05. Revised per enneagram-08 so the fear of seeming needy is not used against Two.",
+      "alternative": "Circumstance: frequent moves (Chippewa Falls, LA sublet, Eau Claire, Syracuse, New York) make \"burst\" friendships structural, as she says herself. Romantic history is private and should not be used as evidence.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C39",
+      "claim": "Of the Ginger Twinsies run she said she didn't know if she enjoyed the repetition but performing live every night was awesome.",
+      "passage": "\"I don't know if I enjoyed the repetition,\" she said of that run in August 2026 on [_I Never Liked You_](https://www.youtube.com/watch?v=gYbGompZjS8), but \"performing live every night was awesome.\"",
+      "class": "observed",
+      "source_ids": [
+        "S46",
+        "S06"
+      ],
+      "inference": "S46 0:34:33-0:34:42, rechecked this session; a host's \"Right.\" interrupts after \"repetition\", so the quote is split.",
+      "alternative": "Some coverage dates it as \"last year\" from 2026; use July-October 2025.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C36",
+      "claim": "She copes with success pressure by moving straight to the next thing and keeping several projects going so she won't get caught up in the numbers and comments.",
+      "passage": "Asked by Piso how she copes with the pressure, Reiter said, \"I just make it and I'm just like okay moving on. Moving on. I got to do the next thing.\" She keeps several projects going so she won't get \"too caught up in the numbers and the comments.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S22"
+      ],
+      "inference": "S22 1:05:52-1:06:15, rechecked this session. Moved from the novelty section and given its stated purpose (enneagram-01).",
+      "alternative": "Turning a success into the next task is Type 3's pattern; her stated purpose (avoiding the numbers) fits a Six managing anxiety. Type 7 also explains keeping several projects.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C37",
+      "claim": "After a Harry Styles fan-fiction parody brought her about a million followers around 2020, she declined to keep making them.",
+      "passage": "When a parody of Harry Styles fan fiction brought her about a million followers around 2020, fans wanted more. \"I'm not going to be like the Harry Styles girl,\" she decided. Five years later she put it more bluntly:",
+      "class": "self_report",
+      "source_ids": [
+        "S22"
+      ],
+      "inference": "S22 0:51:20-0:52:02 (\"it was the Harry Styles fanfiction that got me to like a million followers\"; \"I'm not going to be like the Harry Styles girl\"). A costly choice against audience demand.",
+      "alternative": "Told comically; the regret is also comic (\"I should have just kept making Harry Styles fanfiction\"). Boredom (C36) may explain it as well as principle.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C105",
+      "claim": "She later summarized the decision bluntly.",
+      "passage": "\"Because the people wanted me to do it. And I said, 'Fuck the people.'\"",
+      "class": "self_report",
+      "source_ids": [
+        "S22"
+      ],
+      "inference": "S22 1:09:01-1:09:05, told comically; she also half-regrets it in jest elsewhere (S36).",
+      "alternative": "Boredom may explain it as well as principle.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C24",
+      "claim": "She calls herself \"not a risk taker\" who is \"protecting myself\" (on four-wheelers, March 2025), yet a fellow comedian says she has no shame in pushing a joke.",
+      "passage": "She said in 2025 that she was \"not a risk taker\" and was \"protecting myself\" on a four-wheeler, yet the comedian Eric Sedeño told her, \"you have no shame to just like make the joke as hard as you can.\" A Six can push straight at what scares her, but the simpler reading may be that her risks happen inside a bit, where a character takes the hit.",
+      "class": "self_report",
+      "source_ids": [
+        "S21",
+        "S36"
+      ],
+      "inference": "S21 0:38:15-0:38:42; S36 0:15:14-0:15:26. The refused-kiss story (S40) is not used, per the sensitivity task.",
+      "alternative": "Counterevidence: her comedy takes social risks (gross-out videos, an oversharing podcast, a 45-minute parody), and she moved cities for work. The mix of caution and bold content fits a Type 6 phobic/counterphobic oscillation but also fits a performer whose risks are taken only inside a role. The kiss story is romantic and sensitive; use at most in her words, briefly.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C106",
+      "claim": "She says she would shut down a riff she doesn't like, calls that unfair, and attributes it to being an older sister.",
+      "passage": "She can be bossy, and she knows it. Telling the comedian Sabrina Wu on [_That's Enough_](https://www.youtube.com/watch?v=2T-yIeGPqXs) in January 2026 how she handles riffs she doesn't like, she said, \"I would shut that down immediately,\" and then judged herself: \"And that's not fair.\" As she put it, \"I'm very like older sister in that way.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S37"
+      ],
+      "inference": "S37 0:07:46-0:08:28, rechecked this session. Replaces Molly's teasing line as support for bossiness (subject-08).",
+      "alternative": "Directing collaborators also simply requires firmness.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C35",
+      "claim": "Her producer says she takes people at their word and is \"so earnestly here.\"",
+      "passage": "Her producer, Lizzy Stewart, told her in the March 2026 anniversary episode, \"if I tell you something you're going to assume that I'm telling you the truth,\" and \"You're so earnestly here.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S41"
+      ],
+      "inference": "Independent testimony from close collaborators across 2025-2026 about trustingness and seriousness. Taking people at their word is notable for a Type 6 reading because it shows trust once given, not universal suspicion.",
+      "alternative": "Supports Types 1 and 6 about equally; \"earnest\" is also how her comedy is marketed (Rolling Stone, S12).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C107",
+      "claim": "Her producer's account of her trust sits beside her repeated permission checks.",
+      "passage": "That trust sits oddly beside how often she checks whether people really want her there.",
+      "class": "interpretation",
+      "source_ids": [
+        "S41",
+        "S45",
+        "S38"
+      ],
+      "inference": "Juxtaposes C35 with C46 and C20. No longer refers to the 'hope my friends are actually my friends' line, which she said came up while high (subject-03).",
+      "alternative": "Unresolved contradiction, left visible.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C33",
+      "claim": "Her oversharing is selective: the real overshare material would be sad and not funny, and the only cut she requested protected another person.",
+      "passage": "She told Soresi on her show in September 2025 that \"the real overshare stuff would be like sad and like not funny.\" Stewart says Reiter has only ever asked her to cut one story from the show: \"You cut it for the other person.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S27",
+        "S41"
+      ],
+      "inference": "S27 0:22:14; S41 0:12:24-0:12:41. The S29 'nobody knows me' line was cut because it was said about a bad mood (subject-05).",
+      "alternative": "Any type can keep private material private; this argues against reading her podcast as unfiltered self-revelation, not for a particular type. A Type 4 reading (feeling unknown) was tested and set aside: she withholds rather than cultivates the sadness and does not make difference or longing her subject.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C109",
+      "claim": "In a conversation recorded before the casting and released September 23, 2026, Afualo called her unbelievably hilarious; Reiter thanked her and joined a mock self-praise bit.",
+      "passage": "Near the end of her [conversation](https://www.youtube.com/watch?v=crG4upus05Y) with Afualo on _The Comment Section_, recorded before the casting news and released on September 23, 2026, the host called Reiter \"unbelievably hilarious.\" Reiter thanked her, then joined in a bit of mock self-praise, and Afualo noticed the wince:",
+      "class": "observed",
+      "source_ids": [
+        "S47"
+      ],
+      "inference": "S47 1:27:48-1:28:10, rechecked this session. The mock-boast line itself is not quoted: captions lack speaker labels and it runs straight into romantic wording barred by the sensitivity rule. 'Was watching her face' was removed; 'noticed the wince' rests on Afualo's own line.",
+      "alternative": "Speaker labels inferred from turn order.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C68",
+      "claim": "Drew Afualo told her she was wincing when she said it but would come to believe it.",
+      "passage": "\"You're you're you're wincing when you say it, but you will believe it.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S47"
+      ],
+      "inference": "S47 1:28:05-1:28:09; printed with the captioned repetitions. Third observer (after C17 and C64) of her discomfort with praise.",
+      "alternative": "Host encouragement on a self-confidence-themed show; part of a bit about learning from Drew.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C108",
+      "claim": "Afualo added that if she keeps saying it, she will stop grimacing.",
+      "passage": "Keep saying it, Afualo added, and \"you'll stop grimacing when you say it.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S47"
+      ],
+      "inference": "S47 1:28:11-1:28:14: \"You keep saying it enough, you'll stop you'll stop grimacing when you say it.\" Only the words after the caption repetition are quoted.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C110",
+      "claim": "Closing prediction: habituation to praise is type-neutral; a Three would convert applause into the next goal, a Six would attribute it outward to preparation, people and structure.",
+      "passage": "The two readings make different predictions from here, though not about the wince. Getting used to applause would not settle the type, since people of every type do, and by April 2026 Zavidow already thought Reiter was \"getting better.\" The readings part over what she does with the applause once it stops stinging. A Three would fold it into the next goal and the next number. A Six would keep pointing it outward, at the preparation, the people and the structure that let her risk the stage.",
+      "class": "interpretation",
+      "source_ids": [
+        "S47",
+        "S42",
+        "S22"
+      ],
+      "inference": "Revised per future-01, critic-1 and enneagram-07 so ordinary habituation does not flip the type.",
+      "alternative": "An adult whose fame grows may simply habituate, whatever her type.",
+      "durability": "unresolved",
+      "review_trigger": "At the next refresh, ignore whether she still winces at praise. Check whether new success becomes the next metric or goal (Type 3) or is credited outward to preparation, people or structure (Type 6), using long-form non-press interviews."
+    },
+    {
+      "id": "C112",
+      "claim": "Type FAQ mirrors the type answer at medium confidence and names Type 1 as a secondary alternative.",
+      "passage": "Grace Reiter's personality type is most likely Enneagram Type 6, the Loyalist, read at medium confidence. Sixes sit in the head triad, whose core emotion is fear. From 2024 to 2026 she waved off praise, kept asking whether she was allowed to share, and steadied a long-running stage fright with preparation. Type 3 is the closest rival, and Type 1 a more distant one.",
+      "class": "interpretation",
+      "source_ids": [
+        "S23",
+        "S42",
+        "S39",
+        "S38",
+        "S45",
+        "S20",
+        "S19"
+      ],
+      "inference": "Mirrors C75 and C77.",
+      "alternative": "See type_hypothesis.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C113",
+      "claim": "Type 3 FAQ: the alternative, what both explain, and the narrow discriminator.",
+      "passage": "Yes, and Type 3 is the strongest alternative. Since 2022 she has described her dream as being an \"Internet persona,\" tracked her follower counts against a goalpost that keeps moving, and said she is \"work mode all the time.\" Her habit of waving off compliments fits a modest Three as well as a Six. The Six reading leads narrowly because she keeps asking permission (\"Is that okay?\") and steadies herself with preparation and trusted people rather than results.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S34",
+        "S46",
+        "S38",
+        "S45",
+        "S19",
+        "S39"
+      ],
+      "inference": "Mirrors C05, C30, C31, C79, C61, C19.",
+      "alternative": "See type_hypothesis.alternative_case.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C48",
+      "claim": "Hometown FAQ: born May 18, 2001 in the Madison area, raised in Chippewa Falls from 2007, graduated Chippewa Falls High School in 2019; some outlets wrongly say she was born in Chippewa Falls.",
+      "passage": "She was born on May 18, 2001, in the Madison area of Wisconsin, and grew up in Chippewa Falls, where her family moved in 2007. She graduated from Chippewa Falls High School in 2019. Some outlets say she was born in Chippewa Falls, but her father told the Leader-Telegram the family was living in Madison when she was born.",
+      "class": "third_party",
+      "source_ids": [
+        "S05",
+        "S06",
+        "S51",
+        "S14",
+        "S18"
+      ],
+      "inference": "Leader-Telegram (S05): \"They moved to Madison, where Grace Reiter was born. However, they moved back to the area in 2007 ... She graduated from Chippewa Falls High School in 2019.\" Full date from Wikipedia (S06, citing a birth notice not opened) and Russh (S51). Milwaukee Magazine (S14) says \"born and raised in Chippewa Falls\".",
+      "alternative": "She said in 2022 she was \"born in Verona, just a little south of Madison\" (S18); hence \"Madison area\", not a city.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C111",
+      "claim": "Birth date metadata.",
+      "passage": "2001-05-18",
+      "class": "third_party",
+      "source_ids": [
+        "S06",
+        "S51"
+      ],
+      "inference": "Wikipedia infobox (S06) and Russh (S51) give May 18, 2001; consistent with her age of 25 in September 2026 (S09) and a birthday-weekend shoot in May 2025.",
+      "alternative": "The newspaper birth notices Wikipedia cites were not opened; Russh is probably not independent of Wikipedia.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C57",
+      "claim": "SNL FAQ: named featured player September 16, 2026 with Saidah Belo-Osagie; second try after a 2024 showcase; first cast member born in the 21st century.",
+      "passage": "NBC named her a featured player for Season 52 of Saturday Night Live on September 16, 2026, alongside Saidah Belo-Osagie. It was her second try: a 2024 SNL showcase did not lead to a hire. At 25, she became the show's first cast member born in the 21st century.",
+      "class": "observed",
+      "source_ids": [
+        "S07",
+        "S09",
+        "S19",
+        "S08"
+      ],
+      "inference": "Deadline (S07, S08); NYT syndication (S09); her 2024 showcase account (S19).",
+      "alternative": "The 2024 showcase outcome is inferred (she was not hired); the FAQ says only that it did not lead to a hire.",
+      "durability": "time_sensitive",
+      "review_trigger": "Revisit at the end of Season 52 (about May 2027)."
+    },
+    {
+      "id": "C52",
+      "claim": "Parody FAQ: nearly 45 minutes, directed and starred as Katniss, shot over three days around her 24th birthday in May 2025, posted November 19, 2025, nearly 14 million views by September 2026.",
+      "passage": "A nearly 45-minute parody of The Hunger Games that Reiter directed and starred in as Katniss, shot with friends over three days around her 24th birthday in May 2025. She posted it on YouTube on November 19, 2025, and it had nearly 14 million views by September 2026.",
+      "class": "observed",
+      "source_ids": [
+        "S09",
+        "S17",
+        "S31",
+        "S47"
+      ],
+      "inference": "NYT (S09): \"nearly 45-minute\", \"made with friends over three days last year\", \"nearly 14 million views since being posted on YouTube in November\"; channel metadata (S17): posted 2025-11-19; S47: \"we just did it for my 24th birthday\".",
+      "alternative": "View counts change.",
+      "durability": "time_sensitive",
+      "review_trigger": "Update the view count at the next refresh."
+    },
+    {
+      "id": "C15",
+      "claim": "\"Twilight (but better)\" was shot in June 2026, the week after Minimum Wage wrapped, and was unreleased on her channel as of October 16, 2026.",
+      "passage": "A follow-up, Twilight (but better), was shot in June 2026 and had not been released as of October 16, 2026.",
+      "class": "self_report",
+      "source_ids": [
+        "S46",
+        "S17"
+      ],
+      "inference": "S46 0:31:27 (\"wrapped June 5th and then literally the next week we filmed Twilight\"); channel uploads checked October 16, 2026 (S17). Her post-shoot apology to the cast (S47) is not printed.",
+      "alternative": "Release timing may simply be post-production. The apology fits guilt and responsibility toward a group (Types 6, 1 or 2) but is also ordinary decency toward unpaid friends.",
+      "durability": "unresolved",
+      "review_trigger": "When Twilight (but better) is released, update the status and check her release-week interviews (including the unopened Eve Hartley interview, S50)."
+    },
+    {
+      "id": "C08",
+      "claim": "Her podcast \"That's Enough with Grace Reiter\" (Stapleview) ran weekly from March 31, 2025 (trailer March 28) to April 13, 2026, then ended with best-of compilations through May 11, 2026; its premise was \"oversharing.\"",
+      "passage": "That's Enough with Grace Reiter, a Stapleview podcast built on oversharing, ran weekly from March 31, 2025, to April 13, 2026, followed by best-of episodes through May 11, 2026.",
+      "class": "observed",
+      "source_ids": [
+        "S15",
+        "S27",
+        "S33"
+      ],
+      "inference": "RSS feed dates. Wikipedia's \"late 2024\" launch date is wrong.",
+      "alternative": "The show may resume; no announcement was found. Episodes were often published months after recording, so use recording context, not publish date, for chronology.",
+      "durability": "time_sensitive",
+      "review_trigger": "If new That's Enough episodes appear after May 11, 2026, update the run dates."
+    },
+    {
+      "id": "C50",
+      "claim": "Podcast guests included her roommate, her sister, Busy Philipps and Gianmarco Soresi.",
+      "passage": "Guests included her roommate Max Zavidow, her sister Molly, Busy Philipps and Gianmarco Soresi.",
+      "class": "observed",
+      "source_ids": [
+        "S42",
+        "S32",
+        "S30",
+        "S27"
+      ],
+      "inference": "Episode titles and content (S42 Ep 46, S32 Ep 34, S30 Ep 32, S27 Ep 24).",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C14",
+      "claim": "Minimum Wage, an American High mockumentary adapted from its web series, has a 28-episode Netflix order of about 12.5-minute episodes premiering October 26, 2026; the NYT reports she stars and is a writer and director.",
+      "passage": "Minimum Wage is an American High mockumentary series about overworked teenagers in a pizzeria, adapted from the company's web series of the same name. Netflix ordered 28 episodes of about 12.5 minutes each, and it was scheduled to premiere on October 26, 2026. Before the premiere, The New York Times reported that Reiter stars in it and is also a writer and director on the show.",
+      "class": "observed",
+      "source_ids": [
+        "S11",
+        "S09"
+      ],
+      "inference": "Order from Variety (S11); premiere date and credits from NYT (S09). Worded to stay true after the premiere (future-03).",
+      "alternative": "Variety gives the 28-episode order; check how many episodes are released on October 26. Her exact writing/directing credits should be checked against Netflix's credits after release.",
+      "durability": "time_sensitive",
+      "review_trigger": "After the October 26, 2026 premiere: confirm credits, episode count released, and reception."
+    },
+    {
+      "id": "C114",
+      "claim": "Description: her \"real\" overshare was guilt about success.",
+      "passage": "Grace Reiter's 'real' overshare was guilt about her success.",
+      "class": "self_report",
+      "source_ids": [
+        "S23"
+      ],
+      "inference": "S23 0:09:04: \"I think to me what really is an overshare is this. I feel so guilty with the success I have.\"",
+      "alternative": "Partly comic delivery (C61).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C115",
+      "claim": "Meta title: praise makes her uneasy.",
+      "passage": "Why Praise Makes Her Uneasy",
+      "class": "interpretation",
+      "source_ids": [
+        "S42",
+        "S39",
+        "S47"
+      ],
+      "inference": "Summarizes C17, C79, C68.",
+      "alternative": "Comic register; see C80.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C116",
+      "claim": "Persona title: the oversharer who asked whether it was okay.",
+      "passage": "The Oversharer Who Asked, 'Is That Okay?'",
+      "class": "interpretation",
+      "source_ids": [
+        "S38",
+        "S45"
+      ],
+      "inference": "Replaces the present-tense 'The Comic Who Wants to Give Her Success Away', which rested on a May 2025 line she later set aside (subject-01, critic-1). Past tense because the podcast ended in May 2026.",
+      "alternative": "She later said she no longer thinks about the religion idea (C41).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C119",
+      "claim": "Zavidow told her she has to get used to compliments.",
+      "passage": "Then he added, \"like you got to get used to it.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S42"
+      ],
+      "inference": "S42 0:08:35-0:08:45, rechecked in this session against the saved caption text. Shows the habituation framing reviewers flagged.",
+      "alternative": "Ordinary advice; it implies the aversion may fade with exposure regardless of type.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C120",
+      "claim": "Moments after apologizing for Soresi's compliment, she accepted it.",
+      "passage": "Moments later, after he contrasted her parody with Gus Van Sant's shot-for-shot remake of _Psycho_, she gave in: \"Okay. Okay. Okay. I'll take I'll take that. I'll take it.\"",
+      "class": "observed",
+      "source_ids": [
+        "S39"
+      ],
+      "inference": "S39 0:41:24-0:41:40, rechecked this session. Captions render the director as \"Gus Vans\"; the shot-for-shot Psycho remake is Gus Van Sant's. Counterevidence to a fixed aversion, printed per subject-02.",
+      "alternative": "Accepting praise after a beat fits easing habituation or ordinary politeness for any type.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C121",
+      "claim": "In May 2025 she described her lows as worry that she will never be funny or make a good video again.",
+      "passage": "A month later, asked by Slowikowska whether she had lows, she said she worried \"oh I'll never be funny again or oh I'll like never make another good video again.\" The fear runs both ways.",
+      "class": "self_report",
+      "source_ids": [
+        "S23"
+      ],
+      "inference": "S23 0:11:19-0:11:52, rechecked this session; the guest asks about lows and Reiter answers. Documents fear of failing, which the article now concedes (critic-5).",
+      "alternative": "Supports the Type 3 reading (fear of failing in public) as much as Six.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C122",
+      "claim": "Asked whether childhood adversity made her funny, she said she can't pinpoint trauma and that her family was just funny.",
+      "passage": "She does not tell it as a wound. When Philipps asked whether some childhood hardship had made her funny, she said, \"I can't pinpoint trauma really anywhere,\" and \"I think my family was just funny.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S30"
+      ],
+      "inference": "S30 0:26:47-0:27:20, rechecked this session. Printed so the article does not imply a family cause (subject-04). The adjacent homework and punishment remarks are not printed.",
+      "alternative": "Self-report about her own history; it establishes her framing, not the absence of any formative influence.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C123",
+      "claim": "She did no school plays or musicals; her live performing includes Stapleview's live TikTok shows (2022) and the July-October 2025 Off-Broadway run of Ginger Twinsies.",
+      "passage": "She never did plays or musicals in school, the Leader-Telegram reported. Her live record runs through _Stapleview_'s live TikTok broadcasts in 2022 and the Off-Broadway run of _Ginger Twinsies_, a parody of _The Parent Trap_, from July to October 2025.",
+      "class": "observed",
+      "source_ids": [
+        "S05",
+        "S02",
+        "S06",
+        "S09"
+      ],
+      "inference": "Leader-Telegram (S05): \"Grace Reiter never got involved in plays or musicals in school\" (reporter's statement), rechecked this session; Stapleview live format (S02); run dates and venue (S06); NYT (S09). Added per fan-01.",
+      "alternative": "Her own accounts of school theater conflict slightly (draft log, S44 vs S29); the article relies on the newspaper's statement only.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C124",
+      "claim": "After her 2024 showcase did not lead to a hire, she called her Stapleview castmate Jane Wickline's SNL hire encouraging.",
+      "passage": "That showcase did not lead to a job. Her friend Jane Wickline, a _Stapleview_ castmate, had just joined SNL, which Reiter called \"encouraging.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S19",
+        "S02",
+        "S06"
+      ],
+      "inference": "S19 00:05:56-00:06:12 (\"my friend Jane Wickline from Stapleview is a new cast member ... That was encouraging. Like, oh, somebody I know and can relate to is doing this. So that means it's possible for me\"), rechecked this session in the Whisper text; LA Times (S02) lists Wickline in the 2022 Stapleview cast; Wikipedia (S06) calls her a future SNL castmate. Added per fan-05.",
+      "alternative": "Whisper transcript without speaker labels; the turn structure (host question, then her answer) supports attribution.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C125",
+      "claim": "She says she enjoys star treatment on set and feels bad about it.",
+      "passage": "In a conversation with the podcaster Drew Afualo released in September 2026, she said of starring on a set, \"I am a princess. Like I want to be treated like a princess.\" Then: \"I feel really bad, but like this is nice.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S47"
+      ],
+      "inference": "S47 0:44:15-0:44:26, read this session in the saved captions, in a passage about acting and directing on the Minimum Wage set. Captions carry no speaker labels; attribution rests on turn order and content (Afualo's preceding line is \"you're a star\"). Not audio-checked. Added per fan-08 as two-sided evidence.",
+      "alternative": "Cuts both ways: enjoying star treatment is Type 3 evidence; the guilt fits the Six or One reading.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C32",
+      "claim": "Her July 2025 overshare: she feels she doesn't exist unless she is funny, revised to 'maybe it's more I'm present'; the article concedes this favors Type 3.",
+      "passage": "The strongest line for a Three came as an overshare. In [July 2025](https://www.youtube.com/watch?v=TBv2EmLpGqs) she told her podcast guest, \"I feel like I don't exist unless I mean funny. And when I'm not funny, I feel like I don't exist.\" She revised it on the spot: \"So maybe it's more I'm present.\" Still, a self that feels most real while performing sits close to the Three's core.",
+      "class": "self_report",
+      "source_ids": [
+        "S25"
+      ],
+      "inference": "S25 0:03:00-0:03:35, rechecked this session; she picks it as her overshare segment, then revises it, and when asked about dread says she'd \"rather be silly and funny\" (0:03:49-0:03:55). Restores the claim removed at draft (critic-7). The S40 'shell' line stays unused under the sensitivity rule.",
+      "alternative": "Softened in context; may describe feeling present when socializing rather than an identity fused with performance.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C127",
+      "claim": "Interpretation: a modest, self-preservation Three predicts the same praise-deflection.",
+      "passage": "Enneagram teachers describe a modest form of Three, often called the self-preservation Three, that wants admiration without being seen to want it. That Three would wave off compliments, apologize for them and fear a swollen ego.",
+      "class": "interpretation",
+      "source_ids": [
+        "S23",
+        "S39",
+        "S42"
+      ],
+      "inference": "Names the alternative the discriminator must beat (enneagram-01). Type-theory statement, not a claim about Reiter; the Reiter evidence it refers to is C16, C17, C79, C62.",
+      "alternative": "Subtype descriptions vary by teacher; the article uses the label only to describe the behavior it predicts.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C128",
+      "claim": "Interpretation: her moving-on strategy fits Type 3.",
+      "passage": "Turning one success into the next task is a Three's move, even if her stated aim was to keep the numbers at bay.",
+      "class": "interpretation",
+      "source_ids": [
+        "S22"
+      ],
+      "inference": "Concession built on C36.",
+      "alternative": "Her stated purpose points toward anxiety management.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C129",
+      "claim": "Interpretation: Type 1 is the second live alternative.",
+      "passage": "[Type 1](/enneagram-corner/enneagram-type-1) is the second live alternative, and the record gives it real material.",
+      "class": "interpretation",
+      "source_ids": [
+        "S23",
+        "S39",
+        "S33",
+        "S37"
+      ],
+      "inference": "Built on guilt (C16), ego fear (C62), the mistakes list (C28), enforcing seriousness (C27) and 'that's not fair' (C106). Added per critic-6 and enneagram-05.",
+      "alternative": "The guilt and self-review are also consistent with a Six's anxious conscience.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C130",
+      "claim": "She says she needs novelty.",
+      "passage": "She craves novelty. Looking back on the _Ginger Twinsies_ run, she said, \"I just need like novelty.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S46"
+      ],
+      "inference": "S46 0:35:29, rechecked this session.",
+      "alternative": "Type 7 explains novelty-seeking better; it is listed as unexplained by the Six reading.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C131",
+      "claim": "After the long Twilight (but better) shoot she cried and apologized to her friends.",
+      "passage": "After shooting _Twilight (but better)_ with friends in June 2026, she told Afualo, \"I like cried afterwards cuz I was like, I'm so sorry I made you guys do that.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S47",
+        "S46"
+      ],
+      "inference": "S47 0:04:57-0:05:07, read this session in the saved captions; content (she directed Twilight) makes attribution clear. Shoot month from S46 (C15). Added per fan-08.",
+      "alternative": "Ordinary guilt after an exhausting unpaid shoot; fits Six, One or Two.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C132",
+      "claim": "She embraced Afualo's exercise and said she would fake it until she made it.",
+      "passage": "Reiter leaned in: \"actually, you know what? Yes. No, we're doing it.\" She would, she said, \"start faking it until I make it.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S47"
+      ],
+      "inference": "S47 1:28:14-1:28:38, rechecked this session (critic-1, subject-02). The intervening remarks are romantic and not printed.",
+      "alternative": "Said inside a bit; shows ease with the exercise rather than discomfort.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C133",
+      "claim": "She framed the guilt confession as what really counts as an overshare.",
+      "passage": "Then: \"I think to me what really is an overshare is this.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S23"
+      ],
+      "inference": "S23 0:09:04-0:09:06, rechecked this session. Printed so the description's 'real' overshare matches the body (unfamiliar-07).",
+      "alternative": "None on the wording.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C117",
+      "claim": "The NYT describes her comedy as physical comedy, theatrical overacting and take-the-bit-too-far energy.",
+      "passage": "[The New York Times](https://www.boston.com/culture/entertainment/2026/09/18/snl-new-cast-2026/) credits her rise to \"physical comedy, theatrical overacting and 'take the bit too far' energy.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S09"
+      ],
+      "inference": "S09 syndicated text, rechecked this session (inner quotation marks converted to single quotes). Added per unfamiliar-05.",
+      "alternative": "A journalist's characterization.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C118",
+      "claim": "Netflix ordered Minimum Wage, an American High series starring Reiter, in April 2026.",
+      "passage": "Netflix ordered _Minimum Wage_, an American High series starring Reiter, in April 2026",
+      "class": "observed",
+      "source_ids": [
+        "S11",
+        "S09"
+      ],
+      "inference": "Variety (S11, April 30, 2026); NYT (S09). Introduced in the body per unfamiliar-01.",
+      "alternative": "Pre-release billing.",
+      "durability": "time_sensitive",
+      "review_trigger": "After the October 26, 2026 premiere, confirm her billing."
+    }
+  ],
+  "type_hypothesis": {
+    "type": 6,
+    "confidence": "medium",
+    "for_claim_ids": [
+      "C16",
+      "C61",
+      "C17",
+      "C18",
+      "C20",
+      "C21",
+      "C22",
+      "C23",
+      "C26",
+      "C34",
+      "C42",
+      "C44",
+      "C46",
+      "C92",
+      "C98"
+    ],
+    "against": "(1) The Type 3 case is substantial: since 2022 she has described her goal as being an \"Internet persona\" (C05); she measures herself by followers and views on a goalpost that keeps moving and would be \"really really embarrassed\" under a million views (C30); she is \"work mode all the time\" (C31); she made the parody partly to \"be the lead in a movie\" (C53); she enjoys star treatment on set (C125); her July 2025 overshare was \"I don't exist unless I mean funny\" (C32); and she copes with success by moving straight to \"the next thing\" (C36). A modest, self-preservation Three predicts the praise-deflection (C127, C99). (2) The Type 1 case: guilt about success (C16), fear of ego (C62), a daily mistakes list for her therapist (C28), enforcing seriousness on set (C27), judging her own bossiness \"not fair\" (C106), and harsh self-labels (C103); One is the second live alternative (C129, C102). (3) Circumstance and incentives: self-deprecation is her stated comic method and Midwestern modesty explains deflecting compliments (C80); a 23-to-25-year-old whose career jumped from TikTok to HBO, Netflix and SNL has ordinary reasons for impostor feelings (C87). Much of the record is a comedy podcast; the downfall line is a closing joke (C83). (4) Fear runs both ways: she has said she worries she will \"never be funny again\" (C121) and conceded her fear \"maybe kind of is\" fear of failure (C84). (5) Easing: by April 2026 she said she was \"good at it now\" with compliments and had let the God idea go (C66, C41), and she accepted Soresi's compliment moments after apologizing (C120). (6) Boldness, novelty and defiance of audience demand (C24, C37, C105, C130) are not central Type 6 features.",
+    "alternative_type": 3,
+    "alternative_case": "Type 3 is the strongest rival: her ambition is explicit, long-running and metric-driven (C05, C30, C31, C53), she enjoys star treatment (C125), she said she doesn't exist unless funny (C32), and she turns each success into the next task (C36, C128). A modest, self-preservation Three would wave off compliments, apologize for them and fear an inflated ego (C127), so the praise-deflection that opens the article does not discriminate (C99). What strains the Three reading: she repeatedly asks permission rather than managing an image ('Is that okay?' on her own show, 'Do you want me to only if you want me to?', 'I don't think you're allowed to perceive yourself like that', and in 2022 not 'allowing myself to say I'm a comedian'; C20, C46, C18, C44, C98), and what steadies her is preparation, mentors and friends rather than results (C92, C26, C34). Type 1 is the second live alternative (C129): guilt, ego fear, the mistakes list and enforcing standards fit an inner critic, but her stated reasons for restraint are consequences and permission rather than right and wrong (C102). Type 9 fits the coasting and need for outside deadlines (C103) but she is most stressed when idle. Type 2 fits the people-pleasing and the wish not to seem needy, but she does not initiate contact and shows no pattern of making herself indispensable (C29). Types 7 (novelty, C130) and 4 were tested and set aside at research. The S40 'shell' line is excluded under the sensitivity rule and not relied on.",
+    "discriminator": "Primary: permission versus image. A Three, even a modest one, tends to claim the role and manage how it looks; Reiter repeatedly asks whether she is allowed (C20, C46, C18, C44). Secondary: what steadies her under pressure is preparation, mentors and friends rather than results (C92, C26, C34). Neither is decisive. Evidence both readings explain equally: praise-deflection (C16, C17, C79, C18), ego fear (C62), the follower ladder (C30, C100), her hedged answer about failure (C84, C121) and her easing with praise by April 2026 (C66, C41). Limits: much of the record is comic; she uses laughter as a gauge on set (C100); the window is mostly 2025-2026 during sudden fame; and One remains a live secondary alternative (C102). Forward test: in her first unscripted long-form account of a hard stretch in network television, does she frame the stakes as standing fixed by results (Three) or fear of being found out, steadied by preparation, people and structure (Six) (C101, C110)? Hence medium confidence and the full jury.",
+    "unexplained": "Her novelty-seeking (C130). The long-standing dream of being an online persona and her saying she does not exist unless funny (C05, C32), which Type 3 explains more naturally. Her enjoyment of star treatment (C125). Her repeated self-description as lazy against heavy output (C103, C104). The firmness with which she directs friends and her harsh self-labels (C106, C27, C28), which keep Type 1 live. Her trust in people's word (C35) beside her repeated permission checks (C107). Bold comic content and defiance of audience demand beside \"not a risk taker\" (C24, C37, C105). In 2024 she doubted she could handle SNL's workload, then pursued SNL again in 2026 (C12)."
+  },
+  "profile_format": "standard"
+}

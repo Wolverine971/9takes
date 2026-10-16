@@ -1,0 +1,25 @@
+Error: Reached max turns (60)
+[runner] Turn limit reached; resuming session f410fe9f-5017-4bc3-b456-f99fa10dde14 to write outputs
+I've written both files for the Grace Reiter draft stage, and both pass the pipeline's own checks. The draft clears the draft check with no blockers at 3,604 words. `evidence-draft.json` validates against the draft with 106 claims and 50 sources. Nothing else in the repo was touched, and nothing was published.
+
+**The argument:** Type 6, held at medium confidence, with Type 3 as the closest rival. It turns on what she does when approval arrives. She apologizes for compliments. Her roommate says she "hate[s] compliments more than anyone I know." She once wished she could "give all of it to God." And after her biggest hit she predicted "it is my own hand that brings down myself." The Type 3 case gets its own section, built on her own words: the "Internet persona" dream, follower goals that keep moving, and "work mode all the time." Types 1, 9 and 2 are tested after it. A final section covers what the type doesn't explain: her need for novelty, her bossiness, how readily she trusts people, and how much she holds back on a show built on oversharing.
+
+**Your saved notes, applied:**
+- **Type answer:** it commits to Type 6 and opens with the head triad and fear. The Type 3 contest lives in "Why not Type 3?" (the research notes had asked for the rival in the answer itself).
+- **Video:** the opening describes her May 2025 overshare, so that clip is embedded.
+- **Rhythm:** paragraph lengths vary, with a set-off quote in most sections.
+
+**Quotes:** all 122 quoted strings matched the saved transcripts and source texts word for word. Two that crossed a host interruption or a repeated caption word were split. I left out anything the research flagged as uncertain attribution, a joke or sensitive.
+
+**Correction to the research:** the evidence said her dad's "the shakes" nickname came from the eighth-grade choir solo. The full transcript puts it after a seventh-grade speech about the Hubble telescope, with the choir solo the year after. The claim is fixed.
+
+**Not done:**
+- No second transcription from audio. The thesis quotes rest on YouTube auto-captions and single Whisper transcripts. The exact timestamps for the edit or verify stage to audio-check are in the log at the end of the research-task list in `evidence-draft.json`.
+- Four H2 headings quote lines that are mapped to claims elsewhere, but the heading strings themselves aren't separate claims.
+- Birthplace is left off the metadata because the record doesn't settle Madison versus Verona.
+
+The draft is unpublished. The SNL, Netflix and Twilight facts are dated and tagged for review.
+
+Files are in `docs/content-analysis/pipeline-logs/2026-10-16_06-00-03-204_grace-reiter/`:
+- `draft.md`
+- `evidence-draft.json`

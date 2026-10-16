@@ -1,0 +1,1290 @@
+{
+  "schema_version": 3,
+  "content_sha256": "a4809ef8fc8f4cc6d95846aabc756fe014f9762231dc24e4b2f96c0f7e76afac",
+  "evidence_sha256": "ab456676526580bbe37ded3f9a2505bd0d9d9fc0ffcec5b7079c8f08f6331542",
+  "status": "revise",
+  "findings": [
+    {
+      "id": "verify2-01",
+      "severity": "major",
+      "passage": "The comedian Gianmarco Soresi, who worked with her on _Ginger Twinsies_, has interviewed her twice on his podcast",
+      "problem": "Factual error about a named person. Soresi was not in Ginger Twinsies. Playbill's cast list (Russell Daniels, Aneesa Folds, Jimmy Ray Bennett, Lakisha May, Grace Reiter, Phillip Taratula, Matthew Wilkas, Mitch Wood) omits him. On her show in September 2025 he jokes that more people will see her clip on his podcast \"than we'll ever see Ginger Twinsies\" (S27 0:07:05), and she says \"Me and Russell have broken that one scene ... 'Oh, like Annie, it's you'\" (S27 0:41:14). Her castmate was his co-host Russell Daniels (named as co-host in S20 0:00:20; in S39's YouTube description), who played Annie. The research log flagged this credit as an unconfirmed inference to check against a cast list; the article prints it as fact. It is also the phrase meant to fix unfamiliar-03 and unfamiliar-04, so both decisions fail. C64's claim text repeats the error.",
+      "acceptance_test": "The body no longer says Soresi worked with her on Ginger Twinsies. He is identified by a relationship the record supports (for example, a comedian who has interviewed her twice on his podcast The Downside and was a guest on hers). If the co-host is mentioned, he is named accurately as Russell Daniels, her Ginger Twinsies castmate, with a source. The S39 compliment lines stay attributed to 'one of the two hosts' unless audio assigns them. C64's claim text and the unfamiliar-03/04 resolutions are updated to match."
+    },
+    {
+      "id": "verify2-02",
+      "severity": "minor",
+      "passage": "She never did plays or musicals in school, the Leader-Telegram reported.",
+      "problem": "The evidence record knows of a conflicting first-person account and the article omits it. In October 2025 (S29 0:31:44-0:32:10) she described playing Elizabeth Proctor in a high-school production of The Crucible and having a coughing attack on stage. In April 2026 (S44 0:07:03-0:07:10) she agreed she did no plays because she was \"too afraid\". The standard asks that disputed claims be attributed and given the relevant response.",
+      "acceptance_test": "Either the sentence notes the conflict in one clause (for example, that she has also described playing Elizabeth Proctor in a high-school Crucible), or it is cut and the live-record sentence rests on Stapleview and Ginger Twinsies. C123's text matches."
+    },
+    {
+      "id": "verify2-03",
+      "severity": "minor",
+      "passage": "That was to [Page Six](https://www.youtube.com/watch?v=LB8IV4nRnX0) in December 2025. Of the parody she said, \"If I don't get a million, I'm actually going to be really really embarrassed.\"",
+      "problem": "The second quote comes from I Never Liked You (S46, August 2026) but carries no source or date and sits right after a Page Six attribution, so a reader will assign it to Page Six in December 2025.",
+      "acceptance_test": "The million-views quote names its conversation and date (I Never Liked You, August 2026), or is linked at the quote."
+    },
+    {
+      "id": "verify2-04",
+      "severity": "minor",
+      "passage": "First, she asks permission more than she polishes an image. A Three, even a modest one, tends to claim the role and manage how it looks. Reiter asks whether she is allowed: \"Is that okay?\" on her own overshare show",
+      "problem": "The leading exhibit admits the rival reading. Asking \"Is that okay?\" about what she has just disclosed on a public podcast can be image monitoring, which is what the paragraph assigns to the Three. The paragraph's stronger exhibits are her 2022 \"allowing myself to say I'm a comedian\" and the Michos' testimony that she walks a question back when not answered at once, but the paragraph never tests the image reading of its lead example.",
+      "acceptance_test": "The discriminator paragraph either leads with the exhibits that are about permission rather than disclosure (the 2022 'allowing myself' line, 'Do you want me to only if you want me to?', the walk-it-down testimony), or adds one clause conceding that 'Is that okay?' could also be image-checking and saying why the pattern still leans Six."
+    }
+  ],
+  "research_tasks": [
+    "Fix verify2-01 before any release: replace Soresi's Ginger Twinsies credit with a supported relationship (podcast host who interviewed her twice and guested on her show); sources: Playbill cast list https://playbill.com/production/ginger-twinsies-off-broadway-orpheum-theatre-2025, S27 0:07:05 and 0:41:14, S20 0:00:20. Update C64.",
+    "Verify-stage limits (2026-10-16): YouTube caption and audio re-fetches were blocked (HTTP 429/403, transcript API IpBlocked), so YouTube quotes were checked against the research stage's saved auto-captions plus live metadata. Passion Pod 167 was independently re-transcribed from the feed mp3. At the next refresh, audio-check S47 0:44:15-0:44:28 and 1:27:48-1:28:38, S39 0:38:12-0:38:30 (journal line, unlabeled), and S39 0:40:17-0:41:42 if a single host is to be named.",
+    "Resolve the school-theater conflict (S29 0:31:44 Crucible vs S44 0:07:03 and the Leader-Telegram) or present both accounts (verify2-02).",
+    "After October 26, 2026, check Minimum Wage writer/director credits against the released show (C14); look for a first post-casting long-form interview (C13, C101)."
+  ],
+  "claim_checks": [
+    {
+      "claim_id": "C63",
+      "verdict": "supported",
+      "reason": "S23 0:08:56-0:09:01 verbatim; she is host introducing \"my overshare\" and setting aside gross-out ones."
+    },
+    {
+      "claim_id": "C16",
+      "verdict": "supported",
+      "reason": "S23 0:09:04-0:09:12 verbatim, her own overshare segment (feed: Ep 8, May 19, 2025). Attribution confirmed three ways: she says \"this brings me to uh my overshare\"; Zavidow refers back to \"why you wanted to find God\" (S42 0:08:35); she herself recalls \"Oh, I feel so guilty. I'm going to be a Christian\" (S42 0:45:41). Two separate clip uploads carry identical caption text."
+    },
+    {
+      "claim_id": "C61",
+      "verdict": "supported",
+      "reason": "S23 0:09:29-0:10:04 verbatim. The guest's \"Do we know why I'm laughing? ... I resonate\" precedes her explanation; \"if you think I'm awesome, you think God's awesome\" is fairly rendered in third person."
+    },
+    {
+      "claim_id": "C62",
+      "verdict": "supported",
+      "reason": "S23 0:10:41-0:10:45 verbatim, after the Selena Gomez/Bieber/Chance the Rapper riff the body calls \"a riff on celebrity converts\"."
+    },
+    {
+      "claim_id": "C01",
+      "verdict": "qualified",
+      "reason": "Leader-Telegram (live 2026-10-16): family moved to Madison \"where Grace Reiter was born\", back in 2007, graduated 2019, posting sketches \"starting in 2019\". S18 00:06:57: \"born in Verona, just a little south of Madison\". Full date rests on Wikipedia (live raw text cites Chippewa Herald birthday announcements, not opened) and RUSSH (probably derivative). \"Near Madison\" wording stays inside the record."
+    },
+    {
+      "claim_id": "C06",
+      "verdict": "supported",
+      "reason": "LA Times (live): March 24, 2022 report on the live TikTok sketch show, cast photo caption includes Reiter; Deadline: \"one of the original members\". The body asserts only the 2022 original-cast role."
+    },
+    {
+      "claim_id": "C07",
+      "verdict": "qualified",
+      "reason": "Panther (saved text): Phelps hired \"five core cast members\" including Reiter full-time and moved them to Syracuse; Daily Orange (saved reader text): sketches \"started this past July\" (2023), company based in Liverpool, NY. \"Worked in Syracuse\" is acceptable for the Syracuse-area base; start year rests on her own dating (S33, S19)."
+    },
+    {
+      "claim_id": "C55",
+      "verdict": "supported",
+      "reason": "NYT syndication (Boston.com, live): Tara, \"the controlling, abrasive fiancee\" in Tim Robinson's HBO \"The Chair Company\"; \"Last year, she appeared in the off-Broadway comedy Ginger Twinsies\". Playbill and Wikipedia (live) confirm the Orpheum July-October 2025 run."
+    },
+    {
+      "claim_id": "C09",
+      "verdict": "supported",
+      "reason": "yt-dlp metadata for G6ID6U4Xd7k rechecked at verify: 2,533 s (42:13), uploaded 2025-11-19, 16.3 million views on 2026-10-16. NYT copy: \"nearly 14 million views\" (September 2026); Leader-Telegram: \"42-minute\". Dated figure stays true."
+    },
+    {
+      "claim_id": "C56",
+      "verdict": "supported",
+      "reason": "Deadline (live, datePublished 2026-09-16) announces the featured-player hire; NYT copy: \"At 25, she is the first SNL cast member born in the 21st century.\" Body dates both."
+    },
+    {
+      "claim_id": "C49",
+      "verdict": "supported",
+      "reason": "Leader-Telegram (live): \"It's been her goal forever. It's completely surreal.\""
+    },
+    {
+      "claim_id": "C74",
+      "verdict": "supported",
+      "reason": "Record spans S18 (June 2022) to S47 (September 2026), heavily weighted to 2025-2026; testimony from roommate, producer, castmates, father. Past tense for relationships is correct."
+    },
+    {
+      "claim_id": "C75",
+      "verdict": "qualified",
+      "reason": "Each clause traces to verified body evidence (praise-deflection S23/S42/S39; permission checks S38/S45; preparation S19). The praise-waving examples are 2025-2026; \"2024\" is carried by the showcase-preparation clause. Medium confidence matches the narrow discriminator."
+    },
+    {
+      "claim_id": "C76",
+      "verdict": "qualified",
+      "reason": "Interpretation anchored in S23 0:10:41 (\"terrified of\" the ego); the S38 downfall line is a joke and the body labels it so."
+    },
+    {
+      "claim_id": "C77",
+      "verdict": "supported",
+      "reason": "Interpretation consistent with the Why-not sections as written; it concedes praise-deflection does not discriminate."
+    },
+    {
+      "claim_id": "C78",
+      "verdict": "supported",
+      "reason": "S42 0:08:12-0:08:18: Zavidow \"I think you are a singular\" / \">> Oh god. Okay. We can't No, we can't do this [laughter] on my podcast.\" Turn change marked."
+    },
+    {
+      "claim_id": "C17",
+      "verdict": "supported",
+      "reason": "S42 0:08:27-0:08:33, separate \">>\" turn after her reply; episode titled \"Living with Grace with Max Zavidow\" (feed April 6, 2026)."
+    },
+    {
+      "claim_id": "C65",
+      "verdict": "supported",
+      "reason": "S42 0:08:35-0:08:44 verbatim; \"unprompted\" is fair (he raises it himself)."
+    },
+    {
+      "claim_id": "C66",
+      "verdict": "supported",
+      "reason": "S42 0:08:45-0:08:47 verbatim, alternating turns."
+    },
+    {
+      "claim_id": "C67",
+      "verdict": "supported",
+      "reason": "S42 0:08:48-0:08:56: \"I walked on the street, people go Jennifer Lawrence, Hunger Games ... they call me Katniss now, which I guess was kind of always my dream\". Paraphrase is faithful after repair."
+    },
+    {
+      "claim_id": "C41",
+      "verdict": "supported",
+      "reason": "S42 0:45:47-0:46:22: asked if she has been called to Christ more recently, \"No\"; then \"this stuff is going to happen\" and \"either enjoy it or just ignore it\" (the next words, a host's \"join the nunnery\" joke, are fairly omitted)."
+    },
+    {
+      "claim_id": "C64",
+      "verdict": "unsupported",
+      "reason": "Partly false. The compliment exchange (S39 0:40:17-0:41:20) and \"interviewed her twice\" (S20 Jan 2025, S39 Feb 2026) check out, and \"one of the two hosts\" is correctly hedged. But \"Gianmarco Soresi, who worked with her on Ginger Twinsies\" is contradicted: the Playbill cast list (Russell Daniels, Aneesa Folds, Jimmy Ray Bennett, Lakisha May, Grace Reiter, Phillip Taratula, Matthew Wilkas, Mitch Wood) omits him; on her show in September 2025 (S27 0:07:05) he jokes that more people will watch her clip on his podcast \"than we'll ever see Ginger Twinsies\", and she says (S27 0:41:14-0:41:21) \"Me and Russell have broken that one scene ... 'Oh, like Annie, it's you'\". The castmate is his co-host Russell Daniels (named as co-host at S20 0:00:20), who played Annie. The \"rehearsals\" remark in S39 most plausibly came from Daniels. See verify2-01."
+    },
+    {
+      "claim_id": "C79",
+      "verdict": "supported",
+      "reason": "S39 0:41:20-0:41:23 verbatim, directly after her credit to the source film."
+    },
+    {
+      "claim_id": "C80",
+      "verdict": "qualified",
+      "reason": "\"comedy 101\" verbatim at S27 0:28:35 (\"Like just [ __ ] on yourself\"); the Midwest-manners point is author generalization, offered as the circumstance alternative, not as fact about her."
+    },
+    {
+      "claim_id": "C81",
+      "verdict": "supported",
+      "reason": "S41 0:02:13-0:02:19. Turn order: she asked about birthday sadness at 0:01:48, the producer then answers about \"your last birthday ... shooting the Hunger Games\", so the line is hers."
+    },
+    {
+      "claim_id": "C82",
+      "verdict": "supported",
+      "reason": "S38 0:50:58-0:51:04 verbatim; the story itself stays undescribed."
+    },
+    {
+      "claim_id": "C19",
+      "verdict": "supported",
+      "reason": "S38 0:51:10-0:51:17 verbatim; closing gag followed by \"What?\" / \"Yeah, I don't know either\" and plugs; the body labels it half a joke."
+    },
+    {
+      "claim_id": "C83",
+      "verdict": "supported",
+      "reason": "S38 0:51:17-0:51:27 confirms it closed the episode on a laugh; the echo claim is backed by the non-joke S22 and S23 lines."
+    },
+    {
+      "claim_id": "C84",
+      "verdict": "supported",
+      "reason": "S22 1:04:40-1:05:16. The question (read by Piso: \"how do you keep the pressure or even the possibility of it of success from developing into a fear of failure?\") is faithfully paraphrased; her concession is printed."
+    },
+    {
+      "claim_id": "C25",
+      "verdict": "supported",
+      "reason": "S22 1:05:19-1:05:25 verbatim, introduced by her \"this is going to get really personal\"."
+    },
+    {
+      "claim_id": "C85",
+      "verdict": "supported",
+      "reason": "S22 1:05:26-1:05:47 verbatim."
+    },
+    {
+      "claim_id": "C44",
+      "verdict": "supported",
+      "reason": "S18 00:55:26-00:55:32 (Whisper): \"the mistake that I mean is just like not taking myself more seriously like allowing myself to say I'm a comedian\", answering a question about mistakes she keeps making."
+    },
+    {
+      "claim_id": "C86",
+      "verdict": "supported",
+      "reason": "Fair interpretation of S22 (including \"are you really afraid of failing or are you afraid of succeeding\") and S23 0:11:19-0:11:52."
+    },
+    {
+      "claim_id": "C87",
+      "verdict": "qualified",
+      "reason": "Dates check (Chair Company Oct 2025, Netflix order April 30 2026, SNL Sept 16 2026); she herself says \"maybe it is. I just like have imposter syndrome\" (S22 0:54:16). Labeled as circumstance."
+    },
+    {
+      "claim_id": "C20",
+      "verdict": "supported",
+      "reason": "S38 0:16:32-0:16:40 verbatim, on her own show (feed Feb 9, 2026)."
+    },
+    {
+      "claim_id": "C73",
+      "verdict": "supported",
+      "reason": "S45 0:35:42-0:35:49; \"you're about to burn your opinion on this show\" and the episode premise make the speaker her. It introduces a satirical segment, but \"We've talked about how I never want to go on that show\" reads as a sincere aside."
+    },
+    {
+      "claim_id": "C21",
+      "verdict": "supported",
+      "reason": "S42 0:22:06-0:22:28: Zavidow \"You are one of the all-time great haters\" / her \"I think it's because I'm afraid of like offending people\" ... \"maybe it could come back to me\"; S27 0:26:29 \"I think I'm a people pleaser\" in answer to Soresi."
+    },
+    {
+      "claim_id": "C22",
+      "verdict": "supported",
+      "reason": "S33 1:06:13-1:07:09 verbatim; roommate unnamed in the article."
+    },
+    {
+      "claim_id": "C46",
+      "verdict": "supported",
+      "reason": "S45 0:07:22-0:07:33 (host recalls the call: \"Do you want me to only if you want me to?\") and 0:09:35-0:09:43 (host: \"walk it down\"; her \"I'm learning a lot about myself\"). Hosts are her American High castmates; \"Aidan\" matches Variety and the Daily Orange."
+    },
+    {
+      "claim_id": "C88",
+      "verdict": "qualified",
+      "reason": "Interpretation; the body follows it at once with the circumstantial alternative and the fact that she tells these stories as jokes."
+    },
+    {
+      "claim_id": "C89",
+      "verdict": "supported",
+      "reason": "Follower counts: Leader-Telegram 3.9 million TikTok, NYT about 4 million."
+    },
+    {
+      "claim_id": "C23",
+      "verdict": "supported",
+      "reason": "S20 0:22:25-0:23:05: seventh-grade Hubble speech, shaking while flipping note cards, \"I told my dad that and then he called me the shakes\", then the stage-fright belief."
+    },
+    {
+      "claim_id": "C90",
+      "verdict": "supported",
+      "reason": "S20 0:22:17-0:22:23 and 0:23:20-0:23:27 verbatim; both framings are hers."
+    },
+    {
+      "claim_id": "C91",
+      "verdict": "qualified",
+      "reason": "S20 0:20:17-0:21:56: eighth grade, one new person (the pianist), \"laid behind the last row and like hid\", \"I was going to cry\", solo given to someone else, \"I was so mad at myself\". \"Cried\" comes from the other tellings (S24 0:00:20 and 0:01:47; S44 0:07:17). Combined summary is fair; three tellings confirmed."
+    },
+    {
+      "claim_id": "C60",
+      "verdict": "supported",
+      "reason": "Boston.com recap (live): at the Sept 26, 2026 premiere Reiter took the stage with \"an unexpectedly high number of appearances\"; SNL uploads dated 2026-10-04 and 2026-10-11 (S16 metadata). Dated wording."
+    },
+    {
+      "claim_id": "C92",
+      "verdict": "supported",
+      "reason": "S19 00:31:26-00:31:38. Independently re-transcribed at verify from the Passion Pod feed mp3 (Whisper small.en): identical words; she is answering the host's \"lesson\" question."
+    },
+    {
+      "claim_id": "C93",
+      "verdict": "supported",
+      "reason": "S19 00:31:43-00:31:49, confirmed by the same verify-stage re-transcription."
+    },
+    {
+      "claim_id": "C12",
+      "verdict": "supported",
+      "reason": "S19 00:40:24-00:41:00 re-transcribed at verify (\"obviously SNL is like the dream\", \"I don't know if I could handle that work\", \"a one and done thing\"); Deadline Aug 2026 screen-test list names her; Leader-Telegram: \"participated in auditions this summer\"; Deadline Sept 16 hire. The plain alternative (softening a disappointment) is printed."
+    },
+    {
+      "claim_id": "C42",
+      "verdict": "supported",
+      "reason": "S42 0:31:14-0:31:49: Zavidow describes her pre-show dread, she agrees \"I stress myself out ... then I get up there and I have fun\"."
+    },
+    {
+      "claim_id": "C26",
+      "verdict": "qualified",
+      "reason": "S39 0:38:20-0:38:30. Captions are unlabeled; the line follows her description of a dream mentor (\"You want a man?\" / \"I maybe I do\") and draws the reply \"you're writing your journal to be published\", so attribution to her is medium-high. Her poetic-license caveat is printed."
+    },
+    {
+      "claim_id": "C28",
+      "verdict": "supported",
+      "reason": "S39 0:11:15-0:11:33, her account of what she brought to therapy; brief and in her framing."
+    },
+    {
+      "claim_id": "C95",
+      "verdict": "supported",
+      "reason": "Framing sentence for sourced items C05, C03, C30, C96."
+    },
+    {
+      "claim_id": "C05",
+      "verdict": "supported",
+      "reason": "Volume One (live): \"I grew up in the YouTube era,\" Reiter said. \"YouTubers were my celebrities. I think my dream had always been to be an Internet persona.\" March 29, 2022."
+    },
+    {
+      "claim_id": "C03",
+      "verdict": "supported",
+      "reason": "Leader-Telegram (live): \"She's always been a ham for the camera, and loved attention.\" Local TV segment (S48) carries similar family testimony."
+    },
+    {
+      "claim_id": "C30",
+      "verdict": "supported",
+      "reason": "S34 0:08:05-0:08:18 (Page Six, Dec 12, 2025) verbatim; the same ladder in S22 0:53:30-0:54:03."
+    },
+    {
+      "claim_id": "C96",
+      "verdict": "qualified",
+      "reason": "S46 0:12:01-0:12:05 verbatim (\"I Never Liked You\", August 27, 2026). The body prints it right after \"That was to Page Six in December 2025\" with no source or date, so a reader will assign it to Page Six (verify2-03)."
+    },
+    {
+      "claim_id": "C53",
+      "verdict": "supported",
+      "reason": "S31 00:00:34-00:00:43 (Whisper, her direct-to-camera narration): \"I want to be the lead in a movie for my birthday\"."
+    },
+    {
+      "claim_id": "C31",
+      "verdict": "supported",
+      "reason": "S46 0:34:27-0:34:32 verbatim, answering whether she was happy about the Ginger Twinsies run."
+    },
+    {
+      "claim_id": "C98",
+      "verdict": "qualified",
+      "reason": "Exhibits verified (S38 0:16:34, S45 0:07:29 and 0:09:39, S18 00:55:26). The inference is labeled narrow, but \"Is that okay?\" about what she discloses on a public show also admits an image-monitoring reading that the paragraph does not test (verify2-04)."
+    },
+    {
+      "claim_id": "C99",
+      "verdict": "supported",
+      "reason": "Accurate concession: praise-deflection, ego fear and the hedged failure answer are predicted by both readings."
+    },
+    {
+      "claim_id": "C34",
+      "verdict": "supported",
+      "reason": "S19 00:50:42-00:51:08 re-transcribed at verify from the feed mp3, identical (\"I'm not really religious at all ... I'm so grateful if this is all it ever is is just like making like little indie films with my friends\"); journal line S39 0:38:20."
+    },
+    {
+      "claim_id": "C100",
+      "verdict": "supported",
+      "reason": "S22 0:53:30 \"It never feels real\"; S46 0:34:43-0:35:07 confirms the make-people-break line is about the Minimum Wage set where people held back laughter \"because we can't mess up sound\"."
+    },
+    {
+      "claim_id": "C13",
+      "verdict": "supported",
+      "reason": "Leader-Telegram (live): \"At this time, SNL is not allowing Grace Reiter to conduct media interviews, he said.\" A verify-stage web search (2026-10-16) found no post-casting interview."
+    },
+    {
+      "claim_id": "C101",
+      "verdict": "supported",
+      "reason": "Settle signal stated as an observable future test, not tied to her SNL tenure; review trigger present."
+    },
+    {
+      "claim_id": "C27",
+      "verdict": "supported",
+      "reason": "S33 0:40:18-0:40:29 verbatim; context is the parody shoot (\"This is Katniss's moment\")."
+    },
+    {
+      "claim_id": "C102",
+      "verdict": "qualified",
+      "reason": "Interpretation; its quoted reasons are verified (S42 0:22:08 and 0:22:24, S38 0:16:34). One stays a live alternative in the text."
+    },
+    {
+      "claim_id": "C103",
+      "verdict": "supported",
+      "reason": "S18 00:17:54 (Whisper); S19 00:32:02-00:32:13 and 00:28:42 (the 00:31:15-00:32:20 span re-transcribed at verify, identical). The adjacent executive-dysfunction self-description is correctly left out."
+    },
+    {
+      "claim_id": "C104",
+      "verdict": "supported",
+      "reason": "Feed (live): weekly episodes March 31, 2025 to April 13, 2026; runtime 2,533 s from metadata."
+    },
+    {
+      "claim_id": "C29",
+      "verdict": "supported",
+      "reason": "S27 0:36:49-0:37:04 verbatim (\"please text me cuz like I won't text you\" ... \"I don't want to feel like needy\")."
+    },
+    {
+      "claim_id": "C39",
+      "verdict": "supported",
+      "reason": "S46 0:34:33-0:34:42; the host's \"Right.\" interrupts \"repetition / of that lifestyle\", so the split quote is fair."
+    },
+    {
+      "claim_id": "C36",
+      "verdict": "supported",
+      "reason": "S22 1:05:52-1:06:15 verbatim, with the stated purpose (not getting \"too caught up in the numbers and the comments\")."
+    },
+    {
+      "claim_id": "C37",
+      "verdict": "supported",
+      "reason": "S22 0:51:18-0:52:02: Harry Styles fan-fiction parody got her \"to like a million followers\"; \"people wanted more\"; \"I'm not going to be like the Harry Styles girl\". The first quote is her 2025 retelling of the 2020 decision."
+    },
+    {
+      "claim_id": "C105",
+      "verdict": "supported",
+      "reason": "S22 1:09:01-1:09:05 verbatim, same April 2025 interview; \"Five years later\" is measured from the ~2020 decision."
+    },
+    {
+      "claim_id": "C24",
+      "verdict": "supported",
+      "reason": "S21 0:38:15-0:38:42 verbatim (\"I'm not a risk taker\", \"I'm protecting myself\"); S36 0:15:14-0:15:26 the host's compliment, followed by her \"Thank you\"."
+    },
+    {
+      "claim_id": "C106",
+      "verdict": "supported",
+      "reason": "S37 0:07:46-0:08:28 verbatim; context is shutting down improv riffs."
+    },
+    {
+      "claim_id": "C35",
+      "verdict": "supported",
+      "reason": "S41 0:23:57-0:24:31, the producer's lines; she answers \"Yes ... Also I'm gullible\"."
+    },
+    {
+      "claim_id": "C107",
+      "verdict": "qualified",
+      "reason": "Interpretive juxtaposition of verified items (C35, C46, C20)."
+    },
+    {
+      "claim_id": "C33",
+      "verdict": "supported",
+      "reason": "S27 0:22:12-0:22:19 (Soresi: \"You overshare like bodily things\" / her: \"Yes. Because the real overshare stuff would be like sad and like not funny\"); S41 0:12:24-0:12:43."
+    },
+    {
+      "claim_id": "C109",
+      "verdict": "supported",
+      "reason": "S47 1:27:48-1:28:05: host \"And it helps when you're unbelievably hilarious like you\", her \"Oh my gosh. Thank you\", then the \"I'm a light\" bit. Neutral description respects the sensitivity rule. \"Recorded before the casting news\" is an inference from SNL never being mentioned (upload 2026-09-23); reasonable."
+    },
+    {
+      "claim_id": "C68",
+      "verdict": "supported",
+      "reason": "S47 1:28:05-1:28:09 verbatim, host's turn."
+    },
+    {
+      "claim_id": "C108",
+      "verdict": "supported",
+      "reason": "S47 1:28:11-1:28:14 verbatim after the caption repetition."
+    },
+    {
+      "claim_id": "C110",
+      "verdict": "supported",
+      "reason": "Interpretation correctly limited: habituation is type-neutral; forward test stated."
+    },
+    {
+      "claim_id": "C112",
+      "verdict": "supported",
+      "reason": "Type FAQ mirrors the body answer and names Type 1."
+    },
+    {
+      "claim_id": "C113",
+      "verdict": "qualified",
+      "reason": "Accurate summary; \"Since 2022 she has described her dream as being an Internet persona\" rests on one 2022 quote, acceptable in a list of items running since 2022."
+    },
+    {
+      "claim_id": "C48",
+      "verdict": "supported",
+      "reason": "Leader-Telegram (live) gives the Madison birth in its own narration, the 2007 move and 2019 graduation; S18 00:06:57 Verona; Milwaukee Magazine \"born and raised in Chippewa Falls\" confirms \"some outlets\"; Wikipedia (live) cites Chippewa Herald birthday announcements."
+    },
+    {
+      "claim_id": "C111",
+      "verdict": "qualified",
+      "reason": "Wikipedia cites first- and third-birthday announcements in the Chippewa Herald dated May 18, 2002 and 2004 (not opened); RUSSH probably derivative. Consistent with \"24th birthday in May 2025\" (S41, S32) and age 25 in September 2026."
+    },
+    {
+      "claim_id": "C57",
+      "verdict": "supported",
+      "reason": "Deadline Sept 16, 2026; S19 2024 showcase; NYT 21st-century line; past tense."
+    },
+    {
+      "claim_id": "C52",
+      "verdict": "supported",
+      "reason": "Metadata (42:13, 2025-11-19); NYT \"made with friends over three days last year\", \"nearly 14 million views\"; producer: \"your last birthday ... shooting the Hunger Games\" (S41 0:02:36)."
+    },
+    {
+      "claim_id": "C15",
+      "verdict": "supported",
+      "reason": "S46 0:31:27 (\"wrapped June 5th and then literally the next week we filmed Twilight\"); her channel uploads listed at verify on 2026-10-16 show no Twilight upload."
+    },
+    {
+      "claim_id": "C08",
+      "verdict": "supported",
+      "reason": "Feed (live): trailer March 28, 2025, weekly guests March 31, 2025 to April 13, 2026, best-of compilations to May 11, 2026; feed author \"Stapleview Comedy\"."
+    },
+    {
+      "claim_id": "C50",
+      "verdict": "supported",
+      "reason": "Feed titles: Max Zavidow (Apr 6, 2026), Molly Reiter (Nov 24, 2025), Busy Philipps (Nov 3, 2025), Gianmarco Soresi (Sept 15, 2025)."
+    },
+    {
+      "claim_id": "C14",
+      "verdict": "supported",
+      "reason": "Variety (live, datePublished 2026-04-30): 28 episodes, about 12.5 minutes each; NYT: debuts Oct. 26, she is \"also a writer and director on the show\". Past/scheduled tense stays true."
+    },
+    {
+      "claim_id": "C114",
+      "verdict": "supported",
+      "reason": "S23 0:09:04: \"I think to me what really is an overshare is this. I feel so guilty with the success I have.\""
+    },
+    {
+      "claim_id": "C115",
+      "verdict": "qualified",
+      "reason": "Present-tense meta-title interpretation; supported by S42 and the September 2026 wince, though the body shows the aversion easing by April 2026."
+    },
+    {
+      "claim_id": "C116",
+      "verdict": "supported",
+      "reason": "S38 0:16:34; past tense fits the ended podcast."
+    },
+    {
+      "claim_id": "C119",
+      "verdict": "supported",
+      "reason": "S42 0:08:41-0:08:45 verbatim."
+    },
+    {
+      "claim_id": "C120",
+      "verdict": "supported",
+      "reason": "S39 0:41:24-0:41:42: a host's Psycho-remake comparison, then \"Okay. Okay. Okay. I'll take I'll take that. I'll take it.\""
+    },
+    {
+      "claim_id": "C121",
+      "verdict": "supported",
+      "reason": "S23 0:11:19-0:11:52: the guest asks about \"the lows\"; her answer includes \"oh I'll never be funny again or oh I'll like never make another good video again\". \"A month later\" fits April 26 to May 19, 2025."
+    },
+    {
+      "claim_id": "C122",
+      "verdict": "supported",
+      "reason": "S30 0:26:42-0:27:20 verbatim (\"I can't pinpoint trauma really anywhere\", \"I think my family was just funny\"); Philipps' co-producer role at S30 0:04:46-0:04:57 and a Playbill headline (\"Busy Philipps, Thomas Kail Join Producing Team\")."
+    },
+    {
+      "claim_id": "C123",
+      "verdict": "qualified",
+      "reason": "Leader-Telegram (live): \"Grace Reiter never got involved in plays or musicals in school\"; S44 0:07:03-0:07:10 she agrees she did no plays (\"too afraid. I had stage fright\"). But in S29 0:31:44-0:32:10 (October 2025) she describes playing Elizabeth Proctor in a high-school Crucible and a coughing attack on stage. The evidence record notes the conflict; the article prints only the newspaper's version (verify2-02). Stapleview live format (LA Times) and the Ginger Twinsies run (Playbill, Wikipedia) check."
+    },
+    {
+      "claim_id": "C124",
+      "verdict": "supported",
+      "reason": "S19 00:05:56-00:06:12 (Whisper): \"my friend Jane Wickline from Stapleview is a new cast member ... That was encouraging\"; LA Times cast list includes Wickline."
+    },
+    {
+      "claim_id": "C125",
+      "verdict": "qualified",
+      "reason": "S47 0:44:15-0:44:28; follows Afualo's \"you're a star\" with a \">>\" turn change and concerns her acting on set, so attribution is sound but rests on unlabeled captions."
+    },
+    {
+      "claim_id": "C32",
+      "verdict": "supported",
+      "reason": "S25 0:03:00-0:03:35, her chosen overshare, with the self-revision printed."
+    },
+    {
+      "claim_id": "C127",
+      "verdict": "supported",
+      "reason": "Typology statement attributed to Enneagram teachers; describes behavior, makes no claim about her."
+    },
+    {
+      "claim_id": "C128",
+      "verdict": "supported",
+      "reason": "Fair concession built on S22 1:05:52-1:06:15."
+    },
+    {
+      "claim_id": "C129",
+      "verdict": "supported",
+      "reason": "Interpretation; the One material is verified (S23, S39, S33, S37)."
+    },
+    {
+      "claim_id": "C130",
+      "verdict": "supported",
+      "reason": "S46 0:35:29 verbatim, about the repetitive run."
+    },
+    {
+      "claim_id": "C131",
+      "verdict": "supported",
+      "reason": "S47 0:04:57-0:05:11 verbatim; content (she directed Twilight) fixes the speaker."
+    },
+    {
+      "claim_id": "C132",
+      "verdict": "supported",
+      "reason": "S47 1:28:14-1:28:38: \"actually, you know what? Yes. No, we're doing it\" and \"I'm going to start faking it until I make it\". The romantic context is correctly not quoted."
+    },
+    {
+      "claim_id": "C133",
+      "verdict": "supported",
+      "reason": "S23 0:09:04-0:09:06 verbatim."
+    },
+    {
+      "claim_id": "C117",
+      "verdict": "supported",
+      "reason": "NYT syndicated text (live): \"physical comedy, theatrical overacting and 'take the bit too far' energy\". \"Credits her rise to\" fairly renders \"finding viral success by using\"."
+    },
+    {
+      "claim_id": "C118",
+      "verdict": "supported",
+      "reason": "Variety April 30, 2026; NYT: \"Reiter will star\"."
+    },
+    {
+      "claim_id": "C134",
+      "verdict": "supported",
+      "reason": "Deadline Sept 16, 2026; dated wording; type summary matches the body."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "S23",
+      "opened": true,
+      "context_matches": true,
+      "locator": "0:08:40-0:11:55 (overshare, ego, lows). saved YouTube auto-caption transcript (research-stage pull, 2026-10-16) read in context at the cited timestamps; live caption re-fetch was rate-limited/IP-blocked at verify, live yt-dlp metadata (title, upload date) matched; two separate clip uploads carry identical text."
+    },
+    {
+      "source_id": "S42",
+      "opened": true,
+      "context_matches": true,
+      "locator": "0:08:00-0:09:20, 0:21:40-0:22:40, 0:31:00-0:31:55, 0:45:30-0:46:30. saved YouTube auto-caption transcript (research-stage pull, 2026-10-16) read in context at the cited timestamps; live caption re-fetch was rate-limited/IP-blocked at verify, live yt-dlp metadata (title, upload date) matched."
+    },
+    {
+      "source_id": "S05",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live fetch 2026-10-16: \"goal forever\", \"ham for the camera\", Madison birth and 2007 move, \"never got involved in plays or musicals\", \"42-minute\", interview restriction."
+    },
+    {
+      "source_id": "S06",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live raw wikitext 2026-10-16: birth date with Chippewa Herald birthday-announcement refs; Ginger Twinsies July-Oct 2025 at the Orpheum (cites BroadwayWorld \"Russell Daniels, Aneesa Folds, Grace Reiter and More Join\"); Tara. Used only for facts it sources."
+    },
+    {
+      "source_id": "S18",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Saved Whisper transcript of the feed mp3 (enclosure and 2022-06-13 pubDate confirmed live): 00:06:57, 00:17:54, 00:55:26."
+    },
+    {
+      "source_id": "S51",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live fetch: \"born May 18, 2001\" section."
+    },
+    {
+      "source_id": "S02",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live fetch 2026-10-16: March 24, 2022 story; cast caption lists Reiter and Wickline; writers-room paragraph."
+    },
+    {
+      "source_id": "S01",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live fetch 2026-10-16: \"YouTube era\" / \"Internet persona\" paragraph verbatim."
+    },
+    {
+      "source_id": "S19",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Feed mp3 downloaded at verify and three spans re-transcribed independently with Whisper small.en (00:31:15-00:32:20, 00:40:20-00:41:05, 00:50:38-00:51:15): identical wording; 00:05:56 and 00:28:42 read in the saved transcript."
+    },
+    {
+      "source_id": "S33",
+      "opened": true,
+      "context_matches": true,
+      "locator": "0:40:05-0:40:30 and 1:05:50-1:07:12. saved YouTube auto-caption transcript (research-stage pull, 2026-10-16) read in context at the cited timestamps; live caption re-fetch was rate-limited/IP-blocked at verify, live yt-dlp metadata (title, upload date) matched."
+    },
+    {
+      "source_id": "S03",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Saved reader copy (direct fetch 403 at research): \"started this past July\", roster and Phelps paragraphs."
+    },
+    {
+      "source_id": "S04",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Saved copy: Phelps quote on \"five core cast members\" hired full-time and moved to Syracuse."
+    },
+    {
+      "source_id": "S46",
+      "opened": true,
+      "context_matches": true,
+      "locator": "0:11:50-0:12:15, 0:34:15-0:35:35. saved YouTube auto-caption transcript (research-stage pull, 2026-10-16) read in context at the cited timestamps; live caption re-fetch was rate-limited/IP-blocked at verify, live yt-dlp metadata (title, upload date) matched."
+    },
+    {
+      "source_id": "S20",
+      "opened": true,
+      "context_matches": true,
+      "locator": "0:20:17-0:23:28 (choir, Hubble speech, \"the shakes\", \"instilled\"); co-host Russell Daniels named at 0:00:20. saved YouTube auto-caption transcript (research-stage pull, 2026-10-16) read in context at the cited timestamps; live caption re-fetch was rate-limited/IP-blocked at verify, live yt-dlp metadata (title, upload date) matched."
+    },
+    {
+      "source_id": "S30",
+      "opened": true,
+      "context_matches": true,
+      "locator": "0:04:40-0:05:00 (Philipps co-producer), 0:26:40-0:27:25. saved YouTube auto-caption transcript (research-stage pull, 2026-10-16) read in context at the cited timestamps; live caption re-fetch was rate-limited/IP-blocked at verify, live yt-dlp metadata (title, upload date) matched."
+    },
+    {
+      "source_id": "S09",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live Boston.com syndication of the NYT piece: Tara, \"take the bit too far\", \"nearly 14 million views\", Oct. 26, writer/director, 21st-century line."
+    },
+    {
+      "source_id": "S44",
+      "opened": true,
+      "context_matches": true,
+      "locator": "0:06:45-0:07:40 (no plays in high school, choir). saved YouTube auto-caption transcript (research-stage pull, 2026-10-16) read in context at the cited timestamps; live caption re-fetch was rate-limited/IP-blocked at verify, live yt-dlp metadata (title, upload date) matched."
+    },
+    {
+      "source_id": "S17",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live yt-dlp at verify: G6ID6U4Xd7k 2,533 s, uploaded 2025-11-19; channel uploads list has no Twilight video."
+    },
+    {
+      "source_id": "S31",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Saved Whisper transcript of her narration, 00:00:34-00:00:43."
+    },
+    {
+      "source_id": "S13",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Saved reader copy: \"Please get a million views!\" section."
+    },
+    {
+      "source_id": "S32",
+      "opened": true,
+      "context_matches": true,
+      "locator": "0:12:35-0:12:50 (casting, recorded after the birthday shoot). saved YouTube auto-caption transcript (research-stage pull, 2026-10-16) read in context at the cited timestamps; live caption re-fetch was rate-limited/IP-blocked at verify, live yt-dlp metadata (title, upload date) matched."
+    },
+    {
+      "source_id": "S34",
+      "opened": true,
+      "context_matches": true,
+      "locator": "0:08:00-0:08:30 (goalpost). saved YouTube auto-caption transcript (research-stage pull, 2026-10-16) read in context at the cited timestamps; live caption re-fetch was rate-limited/IP-blocked at verify, live yt-dlp metadata (title, upload date) matched."
+    },
+    {
+      "source_id": "S07",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live fetch: datePublished 2026-09-16; \"Generating buzz online for years\" paragraph."
+    },
+    {
+      "source_id": "S47",
+      "opened": true,
+      "context_matches": true,
+      "locator": "0:04:45-0:05:15, 0:43:55-0:44:35, 1:27:35-1:28:45. saved YouTube auto-caption transcript (research-stage pull, 2026-10-16) read in context at the cited timestamps; live caption re-fetch was rate-limited/IP-blocked at verify, live yt-dlp metadata (title, upload date) matched."
+    },
+    {
+      "source_id": "S41",
+      "opened": true,
+      "context_matches": true,
+      "locator": "0:01:35-0:02:40, 0:12:15-0:12:50, 0:23:50-0:24:35. saved YouTube auto-caption transcript (research-stage pull, 2026-10-16) read in context at the cited timestamps; live caption re-fetch was rate-limited/IP-blocked at verify, live yt-dlp metadata (title, upload date) matched."
+    },
+    {
+      "source_id": "S39",
+      "opened": true,
+      "context_matches": true,
+      "locator": "0:09:40-0:11:40, 0:28:55-0:29:10, 0:37:30-0:38:35, 0:40:10-0:41:45, 1:09:00-1:09:15, 1:20:20-1:20:40; live description names co-host Russell Daniels. Quoted lines match context; the Ginger Twinsies link in the transcript belongs to Daniels, not Soresi (C64). saved YouTube auto-caption transcript (research-stage pull, 2026-10-16) read in context at the cited timestamps; live caption re-fetch was rate-limited/IP-blocked at verify, live yt-dlp metadata (title, upload date) matched."
+    },
+    {
+      "source_id": "S38",
+      "opened": true,
+      "context_matches": true,
+      "locator": "0:16:20-0:16:45 and 0:50:50-0:51:30. saved YouTube auto-caption transcript (research-stage pull, 2026-10-16) read in context at the cited timestamps; live caption re-fetch was rate-limited/IP-blocked at verify, live yt-dlp metadata (title, upload date) matched."
+    },
+    {
+      "source_id": "S45",
+      "opened": true,
+      "context_matches": true,
+      "locator": "0:07:05-0:07:40, 0:09:25-0:09:50, 0:35:30-0:35:55. saved YouTube auto-caption transcript (research-stage pull, 2026-10-16) read in context at the cited timestamps; live caption re-fetch was rate-limited/IP-blocked at verify, live yt-dlp metadata (title, upload date) matched."
+    },
+    {
+      "source_id": "S22",
+      "opened": true,
+      "context_matches": true,
+      "locator": "0:51:00-0:54:20, 1:04:20-1:06:20, 1:08:50-1:09:10. saved YouTube auto-caption transcript (research-stage pull, 2026-10-16) read in context at the cited timestamps; live caption re-fetch was rate-limited/IP-blocked at verify, live yt-dlp metadata (title, upload date) matched."
+    },
+    {
+      "source_id": "S27",
+      "opened": true,
+      "context_matches": true,
+      "locator": "0:06:55-0:07:20, 0:21:55-0:22:25, 0:26:05-0:26:40, 0:28:25-0:28:45, 0:35:45-0:37:10, 0:40:55-0:41:40 (the last shows Russell, not Soresi, as her Ginger Twinsies scene partner). saved YouTube auto-caption transcript (research-stage pull, 2026-10-16) read in context at the cited timestamps; live caption re-fetch was rate-limited/IP-blocked at verify, live yt-dlp metadata (title, upload date) matched."
+    },
+    {
+      "source_id": "S11",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live fetch: datePublished 2026-04-30; 28-episode order, ~12.5 minutes."
+    },
+    {
+      "source_id": "S24",
+      "opened": true,
+      "context_matches": true,
+      "locator": "0:00:15-0:02:20 (choir retelling, \"cried\"). saved YouTube auto-caption transcript (research-stage pull, 2026-10-16) read in context at the cited timestamps; live caption re-fetch was rate-limited/IP-blocked at verify, live yt-dlp metadata (title, upload date) matched."
+    },
+    {
+      "source_id": "S10",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live fetch: premiere-recap paragraph on her appearances."
+    },
+    {
+      "source_id": "S16",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live yt-dlp metadata: fuRMsKtzxOE (2026-10-11) and P7EMHy_YHv0 (2026-10-04)."
+    },
+    {
+      "source_id": "S08",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live fetch: screen-test paragraph naming Grace Reiter."
+    },
+    {
+      "source_id": "S48",
+      "opened": true,
+      "context_matches": true,
+      "locator": "0:00:38-0:01:32 (family and father testimony). saved YouTube auto-caption transcript (research-stage pull, 2026-10-16) read in context at the cited timestamps; live caption re-fetch was rate-limited/IP-blocked at verify, live yt-dlp metadata (title, upload date) matched."
+    },
+    {
+      "source_id": "S15",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live feed fetch 2026-10-16: 60 items, dates and guest titles as cited; author Stapleview Comedy."
+    },
+    {
+      "source_id": "S21",
+      "opened": true,
+      "context_matches": true,
+      "locator": "0:38:10-0:38:45 (four-wheeling). saved YouTube auto-caption transcript (research-stage pull, 2026-10-16) read in context at the cited timestamps; live caption re-fetch was rate-limited/IP-blocked at verify, live yt-dlp metadata (title, upload date) matched."
+    },
+    {
+      "source_id": "S36",
+      "opened": true,
+      "context_matches": true,
+      "locator": "0:15:10-0:15:42 (host compliment, her reply). saved YouTube auto-caption transcript (research-stage pull, 2026-10-16) read in context at the cited timestamps; live caption re-fetch was rate-limited/IP-blocked at verify, live yt-dlp metadata (title, upload date) matched."
+    },
+    {
+      "source_id": "S37",
+      "opened": true,
+      "context_matches": true,
+      "locator": "0:07:30-0:08:50 (shutting down riffs, \"older sister\"). saved YouTube auto-caption transcript (research-stage pull, 2026-10-16) read in context at the cited timestamps; live caption re-fetch was rate-limited/IP-blocked at verify, live yt-dlp metadata (title, upload date) matched."
+    },
+    {
+      "source_id": "S14",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Saved copy: \"born and raised in Chippewa Falls\" (cited only as an outlet with the wrong birthplace)."
+    },
+    {
+      "source_id": "S25",
+      "opened": true,
+      "context_matches": true,
+      "locator": "0:02:55-0:03:40 (her chosen overshare and self-revision). saved YouTube auto-caption transcript (research-stage pull, 2026-10-16) read in context at the cited timestamps; live caption re-fetch was rate-limited/IP-blocked at verify, live yt-dlp metadata (title, upload date) matched."
+    }
+  ],
+  "decision_checks": [
+    {
+      "finding_id": "subject-01",
+      "accepted": true,
+      "reason": "Type answer, type FAQ and persona title checked: no \"taken from her\", no present-tense God wish; the downfall line appears only in the body, labeled half a joke; the April 2026 retraction is printed."
+    },
+    {
+      "finding_id": "subject-02",
+      "accepted": true,
+      "reason": "\"Okay. Okay. Okay. I'll take I'll take that. I'll take it.\" is printed after the apology; Soresi is not counted as an aversion witness (\"Outside her household the pattern is looser\"); the closing includes \"start faking it until I make it\" with no romantic wording."
+    },
+    {
+      "finding_id": "subject-03",
+      "accepted": true,
+      "reason": "None of the three context-stripped lines remains; the checking section rests on sober items, each verified in context."
+    },
+    {
+      "finding_id": "subject-04",
+      "accepted": true,
+      "reason": "\"I instilled in me\" is printed, the father line is not blockquoted, the H2 is no longer \"The shakes\", the punishment line is gone and \"I can't pinpoint trauma\" is included."
+    },
+    {
+      "finding_id": "subject-05",
+      "accepted": true,
+      "reason": "\"Nobody knows me\" line is absent; the paragraph rests on S27 and S41, both verified."
+    },
+    {
+      "finding_id": "subject-06",
+      "accepted": true,
+      "reason": "The \"non-functional human being\" quote is absent; therapy appears once in her own framing."
+    },
+    {
+      "finding_id": "subject-07",
+      "accepted": true,
+      "reason": "\"I'm not really religious at all\" is printed (re-transcribed from audio at verify); no metadata implies a religious identity."
+    },
+    {
+      "finding_id": "subject-08",
+      "accepted": true,
+      "reason": "Molly's vacation line is gone; bossiness rests on her own S37 words and the S47 Twilight apology."
+    },
+    {
+      "finding_id": "fan-01",
+      "accepted": true,
+      "reason": "The intro names the 2025 Off-Broadway run; the section names Stapleview's live format and the July-October 2025 run, sourced, and ties \"performing live every night was awesome\" to the arc. The added Leader-Telegram sentence omits her conflicting Crucible account; that is logged separately as minor verify2-02 and does not undo this fix."
+    },
+    {
+      "finding_id": "fan-02",
+      "accepted": true,
+      "reason": "Same wording fix as subject-01, verified in body, FAQ and type_hypothesis."
+    },
+    {
+      "finding_id": "fan-03",
+      "accepted": true,
+      "reason": "The make-people-break line now sits on the Minimum Wage set; S46 0:34:43-0:35:07 confirms that setting."
+    },
+    {
+      "finding_id": "fan-04",
+      "accepted": true,
+      "reason": "Philipps is introduced as a co-producer of Ginger Twinsies at first mention (S30 0:04:46; Playbill producing-team headline). No unchecked quote added."
+    },
+    {
+      "finding_id": "fan-05",
+      "accepted": true,
+      "reason": "The Wickline line (\"encouraging\", S19 00:05:56-00:06:12) and the plain alternative (\"softening a disappointment\") are both present."
+    },
+    {
+      "finding_id": "fan-06",
+      "accepted": true,
+      "reason": "\"played Tara, a recurring role\" with the NYT source; no sentence links the character to her personality."
+    },
+    {
+      "finding_id": "fan-07",
+      "accepted": true,
+      "reason": "\"Was watching her face\" is gone; the closing signals the playful bit without romance wording; the conversation is described as recorded before the casting news."
+    },
+    {
+      "finding_id": "fan-08",
+      "accepted": true,
+      "reason": "Both passages are used verbatim and in context (S47 0:04:57 and 0:44:15), with attribution limits recorded."
+    },
+    {
+      "finding_id": "critic-1",
+      "accepted": true,
+      "reason": "Closing describes a mock self-praise bit about her appeal, prints her leaning in, drops the staging, and replaces the habituation prediction with a separating one."
+    },
+    {
+      "finding_id": "critic-2",
+      "accepted": true,
+      "reason": "Only Zavidow is credited with describing an aversion; Soresi's episode shows underplaying, then apology, then acceptance; \"independently\" and \"third host\" are gone."
+    },
+    {
+      "finding_id": "critic-3",
+      "accepted": true,
+      "reason": "The downfall line is out of the discriminator and Type 3 FAQ; the body carries \"half a joke\" and \"closed the episode on a laugh\"; \"echoes\" rests on verified non-joke lines."
+    },
+    {
+      "finding_id": "critic-4",
+      "accepted": true,
+      "reason": "Each clause of the 60-word answer and type FAQ traces to verified body passages."
+    },
+    {
+      "finding_id": "critic-5",
+      "accepted": true,
+      "reason": "Both Piso uses print \"I guess maybe it kind of is\"; the \"second clue\" is gone; C121 adds the fear-of-failing line."
+    },
+    {
+      "finding_id": "critic-6",
+      "accepted": true,
+      "reason": "One paragraph treats \"lazy\" as self-judgment (consistent with Nine), drops the inaccurate \"checks against other people\" claim, engages guilt/ego/mistakes/seriousness, and names One a live alternative in body and FAQ."
+    },
+    {
+      "finding_id": "critic-7",
+      "accepted": true,
+      "reason": "S25 overshare quoted with \"So maybe it's more I'm present\", dated and linked, conceded as the strongest Three line."
+    },
+    {
+      "finding_id": "critic-8",
+      "accepted": true,
+      "reason": "The idea-credit sentence is absent."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "accepted": true,
+      "reason": "Body intro gives the Katniss role, the dated view count and the April 2026 Netflix order before later sentences rely on them."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "accepted": true,
+      "reason": "No summary states the downfall line or the God wish more strongly than the body; the God idea is past tense with the April 2026 retraction."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "accepted": false,
+      "reason": "Not accepted. The \"third host\" reference is fixed, but the acceptance test also required Soresi to be identified \"in a way that makes 'up close' accurate, or the phrase is changed to describe the relationship he actually has with her.\" The replacement identification, \"who worked with her on Ginger Twinsies\", is false: Playbill's cast list omits him, he speaks of Ginger Twinsies as an outsider (S27 0:07:05), and her castmate is his co-host Russell Daniels (S27 0:41:14). See verify2-01."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "accepted": false,
+      "reason": "Not accepted. Most witnesses are now correctly identified at first mention (Zavidow, the Michos, Stewart, Philipps, Afualo), and every Soresi reference names its conversation. But the first-mention phrase for Soresi, the most-cited outside witness, states a working relationship that does not exist (verify2-01). The acceptance test asks for a phrase saying how each testimony-bearing witness knows her; this one is wrong."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "accepted": true,
+      "reason": "NYT description of her comedy is in the bio paragraph, verified verbatim."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "accepted": true,
+      "reason": "The stage-fright section stays on stage fright and structure; the type-definition closers are gone; the journal line moved to the discriminator."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "accepted": true,
+      "reason": "\"I think to me what really is an overshare is this\" precedes the guilt quote, matching the description."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "accepted": true,
+      "reason": "Ending names \"unbelievably hilarious\", identifies Afualo, limits staging to \"noticed the wince\"; the partial decline (no romantic line quoted) is justified by the sensitivity rule and unlabeled captions."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "accepted": true,
+      "reason": "The self-preservation Three is named and conceded to predict praise-deflection; two sourced observations are offered and labeled narrow. The ambiguity of one exhibit is logged as minor verify2-04, not a failed fix."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "accepted": true,
+      "reason": "Hedge printed; the clue is downgraded to evidence both readings explain."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "accepted": true,
+      "reason": "\"Taken from her\" is gone; each clause traces to body passages."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "accepted": true,
+      "reason": "Madonna item removed from the discriminator and the body (absent from the candidate)."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "accepted": true,
+      "reason": "Half-effort label treated consistently as self-judgment; One addressed with the consequences-and-permission discriminator and kept live."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "accepted": true,
+      "reason": "\"Obligations someone else sets\" is no longer Six evidence; the Nine paragraph quotes the motivation lines (verified by re-transcription) and concedes the fit."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "accepted": true,
+      "reason": "Closing states that getting used to compliments would not settle the type and names a different forward test."
+    },
+    {
+      "finding_id": "enneagram-08",
+      "accepted": true,
+      "reason": "Two dismissal rests on behavior (not initiating contact, no indispensability pattern); \"needy\" is conceded as possibly Two-like."
+    },
+    {
+      "finding_id": "future-01",
+      "accepted": true,
+      "reason": "Closing no longer treats habituation as Three evidence; April 2026 easing mentioned with the habituation caveat; pattern dated \"From 2024 to 2026\"; C110 trigger rewritten."
+    },
+    {
+      "finding_id": "future-02",
+      "accepted": true,
+      "reason": "Settle question names a loose long-form podcast setting, describes what each type's answer would sound like, and works whether or not she stays on SNL."
+    },
+    {
+      "finding_id": "future-03",
+      "accepted": true,
+      "reason": "Minimum Wage FAQ: \"was scheduled to premiere on October 26, 2026\" and \"Before the premiere, The New York Times reported\"; no future tense for dated events."
+    },
+    {
+      "finding_id": "future-04",
+      "accepted": true,
+      "reason": "\"was, by the fall of 2026, performing live\"; SNL FAQ \"she became\"; description \"joined SNL in 2026\". No present-tense membership claim remains."
+    },
+    {
+      "finding_id": "future-05",
+      "accepted": true,
+      "reason": "\"none had appeared by mid-October 2026\"; verify-stage search found no post-casting interview."
+    },
+    {
+      "finding_id": "future-06",
+      "accepted": true,
+      "reason": "\"from 2022 to 2026, mostly from 2025 and 2026\" and \"people who lived and worked with her\"."
+    },
+    {
+      "finding_id": "future-07",
+      "accepted": true,
+      "reason": "Body link is the Apple episode page; frontmatter citations use the Apple show and episode pages, no raw mp3 or RSS URL."
+    },
+    {
+      "finding_id": "verify-01",
+      "accepted": true,
+      "reason": "All three runtime mentions say 42 minutes; metadata rechecked at verify (2,533 s)."
+    },
+    {
+      "finding_id": "verify-02",
+      "accepted": true,
+      "reason": "S39 host lines are attributed to \"one of the two hosts\", \"the hosts\" and \"a host\"; her own lines are unambiguous. This hedging is correct; the separate Ginger Twinsies identification error is verify2-01."
+    },
+    {
+      "finding_id": "verify-03",
+      "accepted": true,
+      "reason": "Therapy and journal lines name \"The Downside in February 2026\"; other Soresi references name their conversations."
+    },
+    {
+      "finding_id": "verify-04",
+      "accepted": true,
+      "reason": "Hometown FAQ credits the Leader-Telegram's own reporting and her 2022 Verona statement; checked against both sources."
+    },
+    {
+      "finding_id": "verify-05",
+      "accepted": true,
+      "reason": "\"Strangers\" and \"shouted\" are gone; quoted words unchanged and verified."
+    },
+    {
+      "finding_id": "verify-06",
+      "accepted": true,
+      "reason": "Setup says \"mock self-praise about her own appeal\"; closing separates the appeal bit from praise for her work; vow quotes verified."
+    }
+  ],
+  "prior_blocker_checks": [],
+  "protected_checks": [
+    {
+      "passage": "Some of this is method and some is manners. She has called self-mockery \"comedy 101,\" and she grew up in the Upper Midwest, where waving off a compliment is ordinary politeness.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate; surrounding context checked and its sources re-verified."
+    },
+    {
+      "passage": "It was half a joke, about an embarrassing story rather than a career.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate; surrounding context checked and its sources re-verified."
+    },
+    {
+      "passage": "In her own accounts the test usually comes back fine. Fear of judgment is also close to universal for a young performer with millions of followers and a comment section, and she tells most of these stories as jokes on herself.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate; surrounding context checked and its sources re-verified."
+    },
+    {
+      "passage": "Stewart says Reiter has only ever asked her to cut one story from the show: \"You cut it for the other person.\"",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate; surrounding context checked and its sources re-verified."
+    },
+    {
+      "passage": "When she can describe a hard week there at length, will she credit the response (Three), or the castmates, preparation and someone in charge who got her through it (Six)?",
+      "preserved": true,
+      "reason": "Changed per future-02. Its contribution, an observable test the reader can watch that does not speak for her, survives in the final paragraph of \"Why not Type 3?\": a loose long-form setting, what a Three and a Six answer would each sound like, independent of SNL tenure. Correcting the press-script confound was necessary."
+    },
+    {
+      "passage": "\"I feel so guilty with the success I have. I'm thinking about becoming a Christian.\"",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate; surrounding context checked and its sources re-verified."
+    },
+    {
+      "passage": "\"Well, what's funny is that you hate compliments more than anyone I know.\"",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate; surrounding context checked and its sources re-verified."
+    },
+    {
+      "passage": "She told her father, \"and then he called me the shakes.\" From then on, she said, she believed she had stage fright.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate; surrounding context checked and its sources re-verified."
+    },
+    {
+      "passage": "\"Because the people wanted me to do it. And I said, 'Fuck the people.'\"",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate; surrounding context checked and its sources re-verified."
+    },
+    {
+      "passage": "The two readings make different predictions from here. If Reiter is a Three, a season of applause will teach her to believe it. If she is a Six, the applause will keep feeling like something to hand to someone else.",
+      "preserved": true,
+      "reason": "Changed. The closing still opens \"The two readings make different predictions from here\" and still ends the piece on a forward test. Its original prediction (a Three learns to believe applause) was wrong because habituation does not discriminate; replacing it was necessary, and the distinctive move is kept."
+    },
+    {
+      "passage": "She said nothing, then raised it \"at like the worst time ever,\" at breakfast in front of everyone, with a guest star in the house.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate; surrounding context checked and its sources re-verified."
+    },
+    {
+      "passage": "The case has limits. The follower ladder fits both types, because a Six can keep climbing when no number ever feels safe (\"It never feels real,\" she told Piso).",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate; surrounding context checked and its sources re-verified."
+    },
+    {
+      "passage": "I feel so guilty with the success I have. I'm thinking about becoming a Christian.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate; surrounding context checked and its sources re-verified."
+    },
+    {
+      "passage": "He tied it, unprompted, to the overshare from months before: \"It's the same thing of like why you wanted to find God.\"",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate; surrounding context checked and its sources re-verified."
+    },
+    {
+      "passage": "The girl who could not sing in front of a pianist now performs live on network television. What steadies her is structure.",
+      "preserved": true,
+      "reason": "Changed only to date the status: \"was, by the fall of 2026, performing live on network television. What steadies her is structure.\" The pivot and its five-word follow-up are intact."
+    },
+    {
+      "passage": "Because the people wanted me to do it. And I said, 'Fuck the people.'",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate; surrounding context checked and its sources re-verified."
+    },
+    {
+      "passage": "Most Sixes aim that vigilance at outside threats. Reiter aims much of it at her own rise: the praise, the views, the ego she is \"terrified of.\"",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate; surrounding context checked and its sources re-verified."
+    },
+    {
+      "passage": "A Six can push straight at what scares her, but the simpler reading may be that her risks happen inside a bit, where a character takes the hit.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate; surrounding context checked and its sources re-verified."
+    },
+    {
+      "passage": "And she is trusting in a way the suspicious-Six stereotype doesn't predict.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate; surrounding context checked and its sources re-verified."
+    },
+    {
+      "passage": "Her usual confessions were bodily and gross, and this time, she said, she would \"steer away from gross ones cuz I've been doing gross all the time.\"",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate; surrounding context checked and its sources re-verified."
+    },
+    {
+      "passage": "She has told the choir story at least three times, in January 2025, [July 2025](https://www.youtube.com/watch?v=YatrI4ziPjA) and April 2026.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate; surrounding context checked and its sources re-verified."
+    },
+    {
+      "passage": "The case has limits. The follower ladder fits both types, because a Six can keep climbing when no number ever feels safe (\"It never feels real,\" she told Piso). Much of the record is comedy, where self-deprecation is the joke.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate; surrounding context checked and its sources re-verified."
+    },
+    {
+      "passage": "\"You're you're you're wincing when you say it, but you will believe it.\"",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate; surrounding context checked and its sources re-verified."
+    }
+  ],
+  "coverage_complete": true,
+  "metadata_consistent": true,
+  "alternative_type_addressed": true,
+  "five_year_test_passed": true,
+  "open_case_eligible": false,
+  "scores": {
+    "evidence": {
+      "score": 8.0,
+      "passage": "The comedian Gianmarco Soresi, who worked with her on _Ginger Twinsies_, has interviewed her twice on his podcast",
+      "reason": "Traceability is unusually strong. All 120-plus quoted strings matched the captions or Whisper text verbatim. Core passages were reread in context: S23 overshare, S42 roommate testimony, S39 compliment exchange, S22 Piso answer, S47 closing. Three S19 spans re-transcribed from audio at verify came out identical. Print facts were re-fetched live. Inference limits are visible in the prose: 'half a joke', 'Her words don't settle', 'one of the two hosts'. Testimony comes from people with real access (roommate, producer, castmates, father). Held to 8 by one false third-party credit (the passage cited, verify2-01), a disputed school-theater fact printed one-sided (verify2-02) and an unsourced quote placement (verify2-03). None touches the type thesis."
+    },
+    "enneagram": {
+      "score": 8.0,
+      "passage": "So the praise-deflection that opens this article does not settle the case. Both readings predict it, and so do Midwestern manners. The ego fear and her hedged answer about failure fit both too.",
+      "reason": "The argument tests itself. It names the self-preservation Three, concedes the hook evidence to it, and gives the strongest Three line ('I don't exist unless I mean funny') full weight. It then rests the Six lead on two narrow, sourced observations: permission-seeking across 2022-2026 with castmate testimony, and preparation and people as stabilizers. One, Nine and Two each get a sourced discriminator, and a separate section lists what the type does not explain. Medium confidence is honest. Not higher because the lead exhibit 'Is that okay?' is also readable as image-checking (verify2-04), and preparation as a stabilizer is not strongly Six-specific, so the margin over Three is thin."
+    },
+    "originality": {
+      "score": 8.5,
+      "passage": "The podcast's premise was oversharing. Its host kept checking whether she was allowed to.",
+      "reason": "The insights are specific to her. The gross-out host whose 'real' overshare is guilt about success. An oversharing show whose host keeps asking 'Is that okay?'. A father's nickname 'the shakes' set against live network TV. A roommate who links her compliment aversion to the God bit unprompted. A producer who says she takes people at their word. Type boilerplate is limited to two orienting sentences. The 'doesn't explain' section keeps real contradictions alive ('Fuck the people', novelty, bossiness)."
+    },
+    "writing": {
+      "score": 8.0,
+      "passage": "The two readings make different predictions from here, though not about the wince. That exchange was about her appeal, not her work, and getting used to compliments would not settle the type anyway: people of every type do, and by April 2026 Zavidow already thought Reiter was \"getting better.\"",
+      "reason": "Sections build on each other: praise, success fear, permission, stage fright, the rival types, then complications. Quoted H2s carry the argument, and short pivots ('What steadies her is structure.') give the piece rhythm. Precision is high and there are no em dashes in author prose. Held at 8 by density: about 20 named people and a dozen shows, and date-heavy attribution in the Type 3 section. The ending, quoted above, is over-qualified. It spends its last paragraph explaining what the scene does not show, so the piece closes on caveat rather than an image."
+    },
+    "durability": {
+      "score": 8.5,
+      "passage": "The girl who could not sing in front of a pianist was, by the fall of 2026, performing live on network television.",
+      "reason": "The hook is a dated May 2025 moment, and the argument runs on patterns from 2022-2026 that survive removing SNL. Changing facts are dated or framed so they stay true: views 'by September 2026', Minimum Wage 'was scheduled', Twilight 'as of October 16, 2026', interviews 'by mid-October 2026', the SNL status. The settle signal does not depend on her keeping the job. Time-sensitive claims carry review triggers. The record leans on a two-year window of sudden fame, which the article itself flags."
+    },
+    "hook": {
+      "score": 9.0,
+      "passage": "Then: \"I think to me what really is an overshare is this.\"\n\n> \"I feel so guilty with the success I have. I'm thinking about becoming a Christian.\"",
+      "reason": "A specific, verified, surprising moment: the comic known for gross-out confessions offers guilt about success as her real overshare. It is timestamped, embedded at the exact span, and the article repays the curiosity by testing what that guilt means."
+    },
+    "discoverability": {
+      "score": 8.0,
+      "passage": "meta_title: 'Grace Reiter Enneagram Type 6: Why Praise Makes Her Uneasy'",
+      "reason": "Name plus type in the title and meta title (59 characters). The 162-character description is accurate and dated. The type answer is under 60 words. Seven substantive FAQs cover type, the Type 3 alternative, hometown, SNL, the parody, the podcast and Minimum Wage, matching the body. Internal links go to five type pages plus Tim Robinson and Jennifer Lawrence, and all six suggestions exist as people pages. The meta title leads on a trait the article concedes does not discriminate and that it shows easing, which is a minor mismatch."
+    }
+  }
+}

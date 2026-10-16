@@ -1,0 +1,86 @@
+{
+  "schema_version": 3,
+  "role": "subject",
+  "content_sha256": "2429848079cfa6ec1a063fe639ac940ebb7baf912e8f08d0387c6c338c108dd9",
+  "evidence_sha256": "c7a2e0492e805a3b23c831881f8d251a3d81ed5f370a2c974bdd6283f333ab67",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "subject-01",
+      "severity": "major",
+      "passage": "Each time, she settles the doubt by leaning on the judgment of the people who did the choosing. They must have had a reason. She rarely answers it by naming what is special about her.",
+      "problem": "Two of the four sources cited for this claim contain her own inward answer to the doubt, and the draft leaves both out. In the Vanity Fair answer quoted for 2024 (S07, Nov 21, 2024), the next sentence is \"Getting to a place where I felt confident enough within myself to be like, 'I can do this and I am here for a reason,' I definitely have struggled with that.\" In the 2021 Knightley conversation (S03), asked about being judged because of her parents, she said \"I'm very much my own person\" and that being part of her family \"doesn't mean you can't become your own artist, or that your own art isn't valuable on its own.\" For 2022 (S05) her own reason for expecting to lose was situational: \"everybody and their mother goes in for these things.\" Because \"Each time\" drops these, she reads as more dependent on other people's approval than her own words show. The Type 4 FAQ answer and the \"First, where she goes when doubt hits\" paragraph repeat the same claim.",
+      "acceptance_test": "The 2024 imposter passage quotes or accurately paraphrases her \"confident enough within myself ... I am here for a reason\" sentence. \"Each time\" is replaced by a frequency claim the cited quotes support. The \"First, where she goes when doubt hits\" paragraph and the \"Could Lily-Rose Depp be an Enneagram Type 4?\" FAQ say she also describes finding confidence in herself. The evidence record lists the VF and Knightley self-assertions as counterevidence to the discriminator."
+    },
+    {
+      "id": "subject-02",
+      "severity": "major",
+      "passage": "Loyalty to the people who backed you, held hardest when they are under attack, is the Six's signature.",
+      "problem": "The draft treats her defence of The Idol as loyalty, but each time she explained it, she pointed to her own first-hand experience as the series lead. The ET statement the draft quotes goes on: \"He hires people whose work he esteems and has always created an environment in which I felt seen, heard, and appreciated\" (S11). At Cannes she said \"it wasn't my experience shooting the show\" (S12). In 2024 she said she stands by it because \"I loved the experience of making it—that was a huge turning point for me ... I'm really proud of what it is\" (S07). The alternatives paragraph names only professional incentives. It leaves out the plainest explanation: the lead actor described a set she remembered differently. \"The costliest test of that trust came in public\" claims a cost to her that no source shows. \"Chosen for a reason in 2023. Everything happens for a reason in 2024.\" builds a type signature on a stock phrase. The FAQ framing \"After Rolling Stone's ... report\" also leaves out that Rolling Stone says its own report carried statements from Depp defending the series (S12).",
+      "acceptance_test": "The section gives her own stated basis (first-hand experience of the set in 2023; pride in the work and what she learned in 2024) as an explanation in its own right, before or alongside the loyalty reading. The loyalty sentence is phrased as the author's reading (for example, \"this fits the Six's...\"), not as a signature. \"Costliest\" is cut or backed by a sourced cost to her. The \"for a reason\" echo is cut, or labelled as a phrase she uses and not presented as evidence. No sentence suggests she defended Levinson in spite of what she saw."
+    },
+    {
+      "id": "subject-03",
+      "severity": "major",
+      "passage": "She vouched loudly for a director in 2023 and kept silent about her own father in 2022. Her stated reason is privacy and a wish to be judged on her work. Legal caution, or simply not wanting to relive it, would explain the silence as well.",
+      "problem": "The draft cites Jezebel (S32) for fans' frustration at her silence, but that same paragraph of Jezebel says she \"previously spoke in support of her dad\" in 2016. CBS/AP (S14) records her May 29, 2016 Instagram post calling him \"the sweetest most loving person I know.\" Without that context, the contrast between the director and her father reads as a lapse of loyalty to family, which the record does not show. The block quote also starts partway through her answer and drops her own opening reason: \"When it's something that's so private and so personal that all of a sudden becomes not so personal…\" (S05). \"Not wanting to relive it\" guesses at her inner state about a domestic-abuse proceeding, with nothing to support it.",
+      "acceptance_test": "Either (a) one neutral, dated sentence notes that she publicly defended her father in a May 2016 Instagram post, sourced to CBS/AP, with no characterisation of the allegations or outcomes and no type inference from that minor-era post, or (b) the \"vouched loudly ... kept silent\" contrast is removed. The Elle quote either restores her opening clause or marks the omission with an ellipsis and paraphrases that reason. \"Not wanting to relive it\" is removed or replaced with a neutral statement that she has given no other reason. The trial's existence is cited to a neutral report, not only to Jezebel."
+    },
+    {
+      "id": "subject-04",
+      "severity": "major",
+      "passage": "Three months later her tone had changed.",
+      "problem": "The body (\"Three months later her tone had changed\" ... \"That adjustment fits a Six's sensitivity to how the group is reading her\") and the nepo-baby FAQ (\"In February 2023 she told i-D she was now careful about these conversations and acknowledged that her childhood was not a normal one\") present her admission of privilege as a correction made after the backlash. It wasn't. In the November 2022 Elle interview itself (S05) she said \"I know my childhood didn't look like everybody's childhood.\" The same piece quotes \"Maybe you get your foot in the door,\" and the writer calls her \"Ever careful,\" adding that she was \"by no means comparing her own work to that of someone in the medical field.\" The only new thing in February 2023 is that she said she was careful. As written, her original remarks look less self-aware than the record shows, and the draft then attaches a type motive to the change.",
+      "acceptance_test": "The body says, with a date, that she acknowledged her unusual childhood in the November 2022 Elle interview. \"Tone had changed\" is limited to her new statement of caution. The nepo-baby FAQ answer no longer implies that the acknowledgment first came in February 2023. The Six inference about the adjustment is either removed or clearly marked as weaker than the publicist explanation next to it."
+    },
+    {
+      "id": "subject-05",
+      "severity": "major",
+      "passage": "Put those together and you get the counterphobic Six. Fear is the standing condition.",
+      "problem": "This states a lasting inner state of a real person as fact, and the evidence behind it is weaker than the sentence claims. \"Now I'm scared of everything\" came in a laughing exchange with a friend about going to space, skydiving, bungee jumping and zip lining (S01). The draft drops that context, so the line reads as general anxiety. In 2021 she corrected herself: \"Those fears are—not fears, but those thoughts are totally normal\" (S03). The surrounding sentences also turn other evidence into fear. \"Her worry is letting the team down\" recasts \"Nobody wants to be the one that messes it up for everybody\", which she said about the whole one-take crew (\"the dolly grip, and the focus puller\"), as her personal worry (S07). \"Interviewers notice the nerves\" cites Elle's \"self-effacing\" description, which was about an apology for lateness and her concern with punctuality, not nerves (S05). The persona title \"The Nervous Star\" repeats the frame.",
+      "acceptance_test": "\"Fear is the standing condition\" is rewritten as the author's labelled inference and states its limit. The Portman exchange names what was being discussed (thrill activities such as skydiving and zip lining) or its light tone. \"Her worry is letting the team down\" becomes her description of the set. The Elle observation is no longer offered as evidence of nerves. persona_title and the FAQs claim no lasting fear state beyond what she has said."
+    },
+    {
+      "id": "subject-06",
+      "severity": "minor",
+      "passage": "She measures herself against her mother. When Paradis sends her old photos and says, \"We're twins,\" Depp told i-D, her answer is, \"You're so much prettier than me.\"",
+      "problem": "i-D (S02) presents this as said \"lovingly\" and \"half-joking\", and she ends with \"She's so beautiful.\" Placed bare under the Type 4 case, the line reads as envy or a sense of lack, which goes past both its register and what she said.",
+      "acceptance_test": "The passage keeps the affectionate, half-joking register (for example, i-D's \"half-joking\" or her \"She's so beautiful\"), or \"She measures herself against her mother\" is softened so it doesn't imply envy."
+    },
+    {
+      "id": "subject-07",
+      "severity": "minor",
+      "passage": "Or, having a lazy morning with my boyfriend.",
+      "problem": "This is quoted accurately, but on its own it misleads. Harper's Bazaar UK (S09), which the draft cites heavily, reports that her partner of two years is the musician 070 Shake (Danielle Balbuena), whom Depp calls \"'my boyfriend', because that's what she feels like.\" Most readers will assume a male partner. Leaving the word unexplained is not neutral when it gives a false impression of a relationship she has been open about.",
+      "acceptance_test": "Either the clause is cut with an ellipsis and the point about ordinary routines still stands, or a short, dated, sourced note explains her use of the word, logged as a time_sensitive claim with a review trigger. The relationship gets no further commentary or type use."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Lily-Rose Depp auditioned for Robert Eggers's _Nosferatu_ over Zoom. She was at her family's place in the French countryside, and one of her audition scenes was \"a big freak-out scene.\" So she gathered things to throw.",
+      "reason": "A specific, sourced opening built from her own account in her own terms. It shows her through her choices rather than a label."
+    },
+    {
+      "passage": "Paradis is the most interested witness there is.",
+      "reason": "States plainly where the only family testimony comes from, and keeps her mother's defence from being read as independent proof."
+    },
+    {
+      "passage": "Some of this is the job. On a sexually explicit series, trust-and-safety language is standard, and Eggers's storyboarded method imposes form on every actor in the scene.",
+      "reason": "Credits industry practice before reading her words as temperament. The draft should do this more often."
+    },
+    {
+      "passage": "Nobody has described Depp let down by someone she trusted. That is the scene that would test the loyalty reading hardest.",
+      "reason": "Says out loud what the record cannot show, instead of inventing it. This keeps the loyalty thesis honest."
+    },
+    {
+      "passage": "You have all your super-private feelings in your backpack, and you go to work and the scene starts and you let it out.",
+      "reason": "Ends on her own image of how she protects her inner life. It respects her stated boundary and doesn't psychoanalyse past it."
+    }
+  ],
+  "assessment": "Fairness proxy only; this does not speak for Lily-Rose Depp. The draft attributes the Idol production claims to Rolling Stone and HBO's denial, does not characterise the Depp v. Heard allegations, labels her mother as an interested witness, leaves out minor-era health and sexuality material, and admits the record is thin. Its main fairness risk is selective use of her own words: in four places the cited source contains her own counter-statement and the draft leaves it out. These are inward confidence (VF 2024, Knightley 2021), first-hand experience and pride in the work as her stated reason for defending The Idol (ET, Cannes, VF), her 2016 public support for her father (reported in the same Jezebel paragraph the draft cites), and an acknowledgment of privilege that predates the backlash (Elle 2022). Each omission tilts her toward the thesis: more dependent on others, more reflexively loyal, colder toward family, or less self-aware. Separately, \"Fear is the standing condition\" turns banter about zip lining into a stated lasting inner state. Sources reopened: saved full texts for VF, i-D, Elle, ET, Rolling Stone (May 2023), Jezebel, CBS/AP, Harper's Bazaar UK, Interview (Knightley, Portman) and Paris Match; VF, Jezebel, ET, Elle, i-D, Harper's and the Portman transcript were also re-fetched live on 2026-10-16, and the key lines matched. Similarity diagnostic not tripped (max 0.174 vs Arthur-Mensch on a generic public-record disclaimer; 0.068 vs Shyam Sankar on ordinary Six vocabulary). No meaningful reuse of argument found. Risk flags: sensitive_allegations (Idol production claims; Depp v. Heard) and contested_typing (6 vs 4 held at medium) both apply, so the expanded jury is warranted."
+}

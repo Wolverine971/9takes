@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "enneagram",
+  "content_sha256": "9d2e4c1d4406678a0da96bdb18a656baf8d50292529c968214f1a988931138af",
+  "evidence_sha256": "c7ae736ca5236b795795c3c5bc88b016faa016fbbbf413a85dfe6557e5049911",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "enneagram-01",
+      "severity": "major",
+      "passage": "So why does the Six lead? It comes down to what happens when the approval comes. A Three tends to take admiration in as proof and turn it into the next goal. Reiter pushes it away.",
+      "problem": "The discriminator is tested against a generic Three, not the Three the article has just described. The previous paragraph concedes that \"On a Three reading, the deflection is image management, a way to avoid looking vain while the climb continues.\" That modest, anti-vanity Three (the self-preservation Three, the subtype most often mistyped as Six or One) is expected to wave off compliments, apologize for them and dread an inflated ego (\"the ego can get so so large. And that's what I'm terrified of\"). So \"Reiter pushes it away\" is predicted by both readings, and the argument assumes its conclusion. The article's own second source also cuts the other way. In the same April 2025 Couch Surfing answer (S22, about 1:05:45-1:06:05), she says she copes with the fear of success this way: \"I just make it and I'm just like okay moving on. Moving on. I got to do the next thing\". She then explains that she keeps several projects going so she won't \"get too caught up in the numbers and the comments.\" That is the 'turn it into the next goal' move the paragraph assigns to Threes. The article moves the projects half of that answer into the novelty section and never weighs the 'next thing' half.",
+      "acceptance_test": "The 'Why not Type 3' section names the modest, image-managing form of Three in plain language (subtype jargon optional). It gives at least one sourced observation that this form does not predict and the Six reading does. Candidates in the record: the aversion showing up at home, which Zavidow says he sees \"more than anyone I know,\" versus a stance aimed at an audience; checking for permission (\"Is that okay?\", \"Do you want me to only if you want me to?\") versus checking her performance (\"it's good to know it's landing\"); and leaning on an outside authority or group. It says plainly which praise-deflection evidence both readings explain equally. It addresses her 'moving on, next thing' coping strategy from S22, and the projects line, if kept, carries its stated purpose (not getting caught up in the numbers and comments)."
+    },
+    {
+      "id": "enneagram-02",
+      "severity": "major",
+      "passage": "The fear she names is the second clue. A Three's dread is usually failing in public. Asked directly, Reiter said, \"I don't know if it's necessarily a fear of failure.\" What she describes instead is the danger of trying fully, and of success itself.",
+      "problem": "The quotation cuts off a hedge that changes what it shows. In S22 (about 1:04:56-1:05:10) the sentence continues: \"I think it's really like which I mean I guess maybe it kind of is but maybe like a fear of actually trying which maybe is but I feel like to me it feels different.\" She allows that it may be fear of failure after all. A 'fear of actually trying,' together with a lifelong habit of half-effort, is also the classic self-handicapping pattern: not trying fully protects against failing while fully invested. That pattern fits a failure-avoidant Three, and a Nine, at least as well as a Six. Presenting this as the 'second clue' against Three makes it stronger than the source allows.",
+      "acceptance_test": "The hedge is printed or fairly paraphrased (for example, she then allowed that \"maybe it kind of is\"). The paragraph then either downgrades this from a discriminating 'clue' to supporting or ambiguous evidence, or uses a sourced argument to explain why fear of trying fully favors Six over a Three avoiding failure. It does not state flatly that a Three's dread is failing in public without noting that this answer is ambiguous."
+    },
+    {
+      "id": "enneagram-03",
+      "severity": "major",
+      "passage": "Reiter's fear shows up when things go well: she pushes praise away, wishes for someone or something to hold her success, and expects it to be taken from her.",
+      "problem": "The third part of the thesis has no support in the record. The only basis is the February 2026 line \"it is my own hand that brings down myself.\" The article itself calls that line \"half a joke, about an embarrassing story rather than a career,\" and in the source the guest answers \"What?\" and she replies \"Yeah, I don't know either\" (S38, about 0:51:10-0:51:20). The line describes embarrassment she causes herself, not success being taken away by someone or something outside her. No opened source shows her expecting others or circumstances to take her success. This clause appears in the 60-word type answer and again in the type FAQ (\"expects them to be taken from her\"), so the most-read statement of the thesis adds an outside-threat theme, typical of Six descriptions, that the evidence does not show.",
+      "acceptance_test": "The third clause of the type answer and of the type FAQ matches what the body sources, for example \"braces for a fall, sometimes by her own hand\" or \"fears what success will do to her ego.\" Each clause of the 60-word answer can be traced to at least one body passage. Where that passage is a joke, the body says so."
+    },
+    {
+      "id": "enneagram-04",
+      "severity": "major",
+      "passage": "She apologizes for a compliment, wants God to hold the praise, borrows Madonna's idea that she only manages her talent, and after her biggest hit predicts her own downfall.",
+      "problem": "The Madonna item is listed as evidence for Six, but its context and her own reason point at least as much toward Three. In S30 (about 0:41:00-0:43:05) the Madonna idea comes up in a separate thread, about who owns a creative idea (Philipps: if you don't post the idea, someone else will). It is not a response to praise. The body places it right after \"I'm for you guys,\" as if it continues that refusal. Her stated reason is \"you start tying your selfworth to all of it and then it gets you know like the views and the likes.\" A sense of worth that tends to fuse with views and likes is the Three's core vulnerability. A self-aware Three adopting a philosophy to guard against it fits as well as a Six handing success to an authority. The evidence record already concedes this for C18/C69 ('what a Type 3 trying not to be ruled by metrics might adopt'), but the article uses the line in only one direction.",
+      "acceptance_test": "Either the Madonna item is removed from the discriminator list, or it is kept with its context (a conversation about who owns ideas) and with its stated rationale about self-worth tied to views and likes, and the text says that this rationale also fits the Three reading. The body paragraph no longer suggests the Madonna remark was part of her immediate answer to Philipps's praise."
+    },
+    {
+      "id": "enneagram-05",
+      "severity": "major",
+      "passage": "But her self-review is about whether she hurt someone (\"I said this like weird thing to my friend. What what how do I fix that now?\"), she checks it against other people rather than an inner standard, and a One rarely describes a lifetime of half-effort.",
+      "problem": "The One dismissal treats the same evidence in two incompatible ways and underweights the One cluster. Two paragraphs later the Nine dismissal argues that her output disproves her 'lazy' self-label. Here, that same label is treated as real behavior a One would not show. If the label is a harsh, inaccurate self-judgment, as the Nine paragraph argues, it is just what an inner-critic One produces. Worrying whether she wronged a friend is also not foreign to a One. Meanwhile the article's own hook is guilt (\"I feel so guilty with the success I have\"). The body also includes fear of a corrupting ego, a daily list of mistakes for her therapist, \"we have to take this serious,\" judging her own bossiness \"not fair,\" and wishing her parents had \"punished me more.\" That is a conscience-and-correctness cluster, and it gets three sentences and one quote, while the strongest One lines in the record are left out.",
+      "acceptance_test": "The half-effort evidence is used the same way in the One and Nine paragraphs, either as behavior or as self-judgment, not both. The One paragraph addresses the guilt in the hook. It names a specific sourced observation that separates Six from One, for example checking her self-review against other people (\"Is that okay?\", \"Do you guys think of me differently now?\") rather than an internal rule, or fear and dread rather than resentment about correctness. If no such observation holds, the body states that One remains a secondary live alternative."
+    },
+    {
+      "id": "enneagram-06",
+      "severity": "minor",
+      "passage": "For a Six, safety comes from preparation, from obligations someone else sets and from trusted guides. That is where Reiter finds her footing.",
+      "problem": "\"Obligations someone else sets\" is counted as Six-specific evidence of seeking safety, but in the source it is about motivation. In Passion Pod Episode 167 (S19, about 00:31:50-00:32:20), the line \"somebody else is like, hey, you have to do this\" comes right after she says she \"cannot pull myself to like do something\" and \"I struggle with that like motivation stuff.\" The outside obligation gets her past inertia, not insecurity. Needing someone else's deadline before starting, alongside \"a procrastinator and a lazy person at heart\" and \"half halfass everything,\" is the textbook Nine pattern, and an ordinary motivation issue. The Nine paragraph never engages it. Preparation also suits Ones and Threes, as the evidence record notes.",
+      "acceptance_test": "The synthesis either drops 'obligations someone else sets' as Six evidence, or says she frames it as a motivation problem and that it fits Nine at least as well. The Nine paragraph addresses this evidence. No diagnostic or clinical language is introduced; her self-description of a health or attention issue stays out of the article under the research sensitivity rule."
+    },
+    {
+      "id": "enneagram-07",
+      "severity": "minor",
+      "passage": "The two readings make different predictions from here. If Reiter is a Three, a season of applause will teach her to believe it. If she is a Six, the applause will keep feeling like something to hand to someone else.",
+      "problem": "The closing test does not separate the two types. Getting used to praise is expected under either one; the evidence record says so for C110 ('An adult whose fame grows may simply habituate, whatever her type'). A Six who comes to trust her setting also stops deflecting. The record already shows the praise aversion easing: \"No, I feel like I'm good at it now\" / \"Okay, you're getting better,\" and she no longer thinks about giving success to God (April 2026). Under the article's own test, that would already count toward Three, and the article does not say so. The SNL test a few paragraphs earlier is a real discriminator; the ending replaces it with a weaker one.",
+      "acceptance_test": "The ending either repeats a discriminating prediction (what she credits or leans on when things get hard, as in the SNL settle question) or says outright that getting comfortable with praise would not settle the case by itself. It no longer claims that the two readings predict different outcomes on a point where both predict the same one."
+    },
+    {
+      "id": "enneagram-08",
+      "severity": "minor",
+      "passage": "[Type 2](/enneagram-corner/enneagram-type-2) fits the people-pleasing, but not the distance she keeps. Leaving American High, she told friends, \"please text me cuz like I won't text you,\" because \"I don't want to feel like needy.\"",
+      "problem": "The quoted reason does not argue against Type 2. Not wanting to seem needy is typical of Twos, who tend to deny their own needs while meeting other people's. The behavior is the better evidence: she does not reach out first, and the record shows no habit of making herself needed.",
+      "acceptance_test": "The Two dismissal rests on behavior that Two does not predict (not initiating contact, no pattern of helping in order to be needed, avoidance of indispensable roles). It does not present the fear of seeming needy as evidence against Two."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Most Sixes aim that vigilance at outside threats. Reiter aims much of it at her own rise: the praise, the views, the ego she is \"terrified of.\"",
+      "reason": "The profile's most distinctive insight. It locates her vigilance specifically instead of reciting generic Six traits, and it is anchored in her own words."
+    },
+    {
+      "passage": "The case has limits. The follower ladder fits both types, because a Six can keep climbing when no number ever feels safe (\"It never feels real,\" she told Piso).",
+      "reason": "It honestly names evidence that does not discriminate, which is rare and should survive any tightening of the Three section."
+    },
+    {
+      "passage": "A Six can push straight at what scares her, but the simpler reading may be that her risks happen inside a bit, where a character takes the hit.",
+      "reason": "It declines the convenient counterphobic escape hatch and offers a non-type explanation instead, which is exactly the restraint the standard asks for with subtypes and arrows."
+    },
+    {
+      "passage": "When she can describe a hard week there at length, will she credit the response (Three), or the castmates, preparation and someone in charge who got her through it (Six)?",
+      "reason": "A concrete, observable, durable test that actually separates the two leading types. It is the right model for the ending."
+    },
+    {
+      "passage": "And she is trusting in a way the suspicious-Six stereotype doesn't predict.",
+      "reason": "It confronts the type's stereotype head-on and leaves a real contradiction visible instead of explaining it away."
+    }
+  ],
+  "assessment": "Type 6 at medium confidence is defensible, and the profile does much right for its type argument. Type 3 gets its own section with strong evidence (the persona dream, the follower ladder, \"work mode all the time\"). Types 1, 9 and 2 are tested. No convenient wing or arrow is used, the counterphobic escape hatch is explicitly declined, and a 'what the type doesn't explain' section keeps contradictions visible. The core weakness is the discriminator. 'What she does when approval arrives' is tested against a generic Three who takes praise in, but the article itself names the modest, image-managing Three, and that Three predicts the same deflection (enneagram-01). The two clues offered against it are weaker than stated: the fear-of-failure quotation drops her own 'maybe it kind of is' (enneagram-02), and the Madonna line's stated reason is self-worth tied to views and likes (enneagram-04). The case for Six therefore rests more on her permission-seeking (\"Is that okay?\"), her wish for outside guides, and the aversion her roommate sees at home than the article admits, and it should say so. The One and Nine dismissals are thin and internally inconsistent about her 'lazy' self-label (enneagram-05, enneagram-06). The type answer adds an 'expects it to be taken from her' motif that the record does not show (enneagram-03). Checks performed: I reopened the cached transcripts behind the thesis-bearing quotes (S19, S22, S25, S30, S38, S39, S40, S42, S47). The printed wording is accurate; the problems are an omitted hedge and missing context. Similarity diagnostic: the tripped pair with shyam-sankar shares only 'core emotion,' which is house-mandated triad vocabulary. The Maleah Joi Moon match is a stock one-line Type 3 definition. Neither is argument reuse, so there is no originality finding. Note for the editor: the evidence record's alternative_case cites S25 and S40 lines that are not printed. S40 ('truly just a shell') comes from a sexuality conversation barred by the sensitivity rule. S25 ('I don't exist unless I mean funny') is softened in context ('I'd rather be silly and funny'; the guest suggests she means it 'in a more sweet way'). Either align the record or give S25 a fair, in-context mention in the Three section. If enneagram-01 and enneagram-05 cannot be answered with a sourced discriminator, the body should hold confidence at medium explicitly and name One as a secondary live alternative rather than imply a firmer read."
+}

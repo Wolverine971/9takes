@@ -1,0 +1,21 @@
+The fan review for Grace Reiter is written to `docs/content-analysis/pipeline-logs/2026-10-16_06-00-03-204_grace-reiter/review-fan.json`. It passes the review schema, its two hashes match the request, and every quoted passage appears word for word in the draft. I didn't change any other file and didn't publish anything. The only other thing I created is a small helper script in `/tmp`, outside the repo.
+
+**Verdict:** the draft sticks closely to what she actually said and doesn't flatter her. It includes the bossiness, the "hater" streak, the credit-taking and the follower counts. What a fan would notice is missing context, not invented material.
+
+**Two major findings:**
+1. **The stage-fright story skips her live performing.** It jumps from her eighth-grade choir solo straight to SNL. It leaves out *Stapleview* as a live show in 2022 and her July–October 2025 Off-Broadway run in *Ginger Twinsies*, after which she said "performing live every night was awesome." Her father says she never did school plays, so the Off-Broadway run is the real turning point.
+2. **The type answer and the type FAQ say she "expects [success] to be taken from her."** Her own quote points inward: "it is my own hand that brings down myself." No source has her saying success will be taken away.
+
+**Six minor findings:**
+- The "make people break" quote is about a silent film crew on the *Minimum Wage* set, not a live audience.
+- Busy Philipps co-produced *Ginger Twinsies*, the show Reiter was in. That makes her refusing Philipps's praise more telling.
+- Jane Wickline was in the original *Stapleview* cast, reached SNL in 2024 (the year Reiter's showcase didn't land), and is now her castmate. The draft also never raises the plain reading of Reiter's December 2024 doubts about SNL: she may have been softening a disappointment.
+- Her *Chair Company* credit is a recurring role as Tara, not just an appearance.
+- In the closing scene, "was watching her face" is invented staging, and the exchange was a joke at the time. The Afualo conversation was recorded before the casting news, so dating it "September 2026" is off.
+- The same Afualo episode has two telling lines the draft leaves out. She cried and apologized to friends after the *Twilight* shoot. She also said "I want to be treated like a princess," which is evidence for the Type 3 reading.
+
+**Protected passages (5):** the "guilty with the success I have" opening, the roommate's "you hate compliments more than anyone I know," the "the shakes" nickname, the "Fuck the people" line, and the closing two-prediction paragraph.
+
+**Similarity check:** it flagged the shared phrase "whose core emotion is fear," which is standard site wording for the type answer. I found no meaningful reuse from other profiles.
+
+**Limits:** I checked quotes against the research stage's saved transcripts, not the audio. Wickline's 2024 SNL hire comes from my general knowledge, so the editor needs to find a source before using it. Who says what in two of the episodes isn't labeled in the transcripts.

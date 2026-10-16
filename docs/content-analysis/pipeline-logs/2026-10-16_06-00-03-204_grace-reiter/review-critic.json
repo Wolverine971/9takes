@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "critic",
+  "content_sha256": "9d2e4c1d4406678a0da96bdb18a656baf8d50292529c968214f1a988931138af",
+  "evidence_sha256": "c7ae736ca5236b795795c3c5bc88b016faa016fbbbf413a85dfe6557e5049911",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "critic-1",
+      "severity": "major",
+      "passage": "Reiter repeated a line of praise about herself. The host, Drew Afualo, was watching her face:",
+      "problem": "The closing section misreads the exchange it rests on. In S47 (1:27:48-1:28:20) the line is a mock-boast inside a bit (she calls herself \"a light\" and jokes about her appeal). Afualo says she is wincing but will believe it, and Reiter's next turn embraces the exercise: \"actually, you know what? Yes. No, we're doing it.\" She is not wincing at praise of her work, and she leans in. \"Was watching her face\" is staging the record does not supply. The final prediction (\"If Reiter is a Three, a season of applause will teach her to believe it...\") also does not discriminate: getting used to praise is type-neutral, as the evidence record concedes (C110 alternative). The 2026 record already shows her easing: \"No, I feel like I'm good at it now\" and \"this is my life... either enjoy it or just ignore it\" (S42, April 2026), \"I'll take that. I'll take it\" (S39, February 2026). By the article's own test, the existing evidence leans to the branch it labels Three. The present-tense persona_title (\"The Comic Who Wants to Give Her Success Away\") rests on the May 2025 line she later set aside.",
+      "acceptance_test": "The closing section is either cut or describes the line accurately as a self-mocking boast in a bit, without its romantic wording (sensitivity task a). It notes that she then embraced Afualo's exercise and drops \"was watching her face.\" The final prediction is replaced by a signal that actually separates Six from Three (for example, what she credits for steadiness after a hard SNL week). It also acknowledges that her 2026 statements already show her easing into praise. persona_title is not in the present tense unless the edited body supports it."
+    },
+    {
+      "id": "critic-2",
+      "severity": "major",
+      "passage": "Her roommate and Soresi, who see her up close, describe the aversion independently, and in September 2026 a third host noticed it too.",
+      "problem": "The discriminator overstates its corroboration. Only Zavidow describes an aversion to compliments. Soresi (S39 0:40:17-0:41:42) says she \"was really underplaying\" the parody when she described it in rehearsals, which is pre-release modesty about a project, not a reaction to compliments. Seconds after the printed \"I'm sorry,\" she accepts his praise: \"Okay. Okay. Okay. I'll take I'll take that. I'll take it.\" The article omits that. The \"third host\" is the mock-boast exchange (critic-1). Zavidow ties the habit to \"why you wanted to find God,\" which he may know from the published episode (C65 alternative), so \"independently\" is doubtful. Three independent observers shrink to one housemate.",
+      "acceptance_test": "The discriminator credits only Zavidow with describing an aversion to compliments. Soresi's remark is described as what it was: she played the project down before he saw it. The Soresi passage prints or paraphrases that she accepted the compliment moments after apologizing. \"Independently\" and the \"third host\" count are removed unless a newly cited source supports them."
+    },
+    {
+      "id": "critic-3",
+      "severity": "major",
+      "passage": "She apologizes for a compliment, wants God to hold the praise, borrows Madonna's idea that she only manages her talent, and after her biggest hit predicts her own downfall.",
+      "problem": "The body concedes the downfall line \"was half a joke, about an embarrassing story rather than a career.\" The discriminator here and the Type 3 FAQ (\"after her biggest hit predicted her own downfall\") repeat it without that qualifier as decisive evidence. In S38 (0:50:58-0:51:22) it is the closing gag of an episode built around an embarrassing anecdote. The guest replies \"What?\" and she answers \"Yeah, I don't know either.\" The evidence record says \"One half-joke cannot establish a habit by itself\" (C83) and \"Treat as supporting, not decisive\" (C19). The section's claim that \"it describes a habit\" leans on the same line.",
+      "acceptance_test": "Wherever the line serves as discriminator evidence (the Why-not-Type-3 paragraph and the Type 3 FAQ), it either carries the body's half-joke/embarrassing-story qualifier or is removed from the list. The \"habit\" sentence is supported by cited non-joke statements or softened to what those statements show. The embarrassing anecdote itself stays undescribed."
+    },
+    {
+      "id": "critic-4",
+      "severity": "major",
+      "passage": "she pushes praise away, wishes for someone or something to hold her success, and expects it to be taken from her.",
+      "problem": "No cited source has her expecting success to be taken from her. The lines behind this clause describe fear of her own ego (\"the ego can get so so large. And that's what I'm terrified of\", S23) and of her own hand (\"it is my own hand that brings down myself\", S38, a joke). Both are self-generated undoing, not an outside force removing success. The paraphrase turns a moral/self-sabotage worry into the stock Six image of an external threat. It sits in the 60-word type answer and the type FAQ (\"expects them to be taken from her\"), the most-read text on the page.",
+      "acceptance_test": "The type answer and the type FAQ replace \"expects it/them to be taken from her\" with a clause traceable to a cited, non-joke statement (for example, fear that success will inflate her ego, or that it \"never feels real\"). The claim inventory maps that clause to its source."
+    },
+    {
+      "id": "critic-5",
+      "severity": "major",
+      "passage": "A Three's dread is usually failing in public. Asked directly, Reiter said, \"I don't know if it's necessarily a fear of failure.\" What she describes instead is the danger of trying fully, and of success itself.",
+      "problem": "This is selective quotation in service of the \"second clue.\" The full answer (S22 1:05:04-1:05:16) is \"I don't know if it's necessarily a fear of failure. I think it's really like which I mean I guess maybe it kind of is but maybe like a fear of actually trying which maybe is but I feel like to me it feels different.\" She concedes twice that it may be fear of failure. Here and in the \"My own hand\" section the article prints the denial and drops the concession, which C84 records. The article's own material also documents fear of failing in public: the stage fright she says began with fearing \"everyone's going to be like she's nervous\" (S20), the choir solo, \"If I don't get a million, I'm actually going to be really really embarrassed,\" the comment-section dread, and avoiding opinion shows so she won't be judged. Fear of trying fully is itself a familiar way of avoiding failure.",
+      "acceptance_test": "Both uses of the Piso answer include her concession (\"I guess maybe it kind of is\") or a faithful paraphrase. The \"second clue\" paragraph either reconciles the stage-fright and million-views embarrassment evidence with its claim or is cut from the discriminator."
+    },
+    {
+      "id": "critic-6",
+      "severity": "major",
+      "passage": "and a One rarely describes a lifetime of half-effort.",
+      "problem": "The Type 1 test is three sentences long and internally inconsistent. (a) It treats her \"half halfass everything\" self-label as reliable to rule out One, while the Nine paragraph says her output argues against the same lazy self-label. In the same answer she adds, \"now I actually care about this stuff.\" (b) \"She checks it against other people rather than an inner standard\" contradicts the cited passage. She \"would analyze every single interaction,\" brought \"a list of like all like the mistakes I made today,\" said \"I was bad in this situation\" and \"I guess I'm just like the worst person in the world\" (S39 0:11:22-0:12:17). That is her own verdict, brought to the therapist. (c) The profile's central material is moral in register: guilt about success, being \"terrified\" of ego and \"I feel guilt\" (S23), \"maybe I'm not an awful horrible person\" (2022), \"And that's not fair\" (S37), \"we have to take this serious,\" and \"I wish they punished me more.\" The draft files all of it under the head-triad \"fear\" label and never asks whether guilt and fear of becoming egotistical better fit a One's fear of being bad.",
+      "acceptance_test": "The Type 1 paragraph treats the half-effort self-report the same way the Nine paragraph does, or drops it. It corrects the \"checks it against other people\" claim to match S39. It engages the guilt/ego/fairness material with a sourced discriminator that a One reading fails. Otherwise the article names Type 1 as a second live alternative, and the type answer and FAQ reflect that."
+    },
+    {
+      "id": "critic-7",
+      "severity": "major",
+      "passage": "On a Three reading, the deflection is image management, a way to avoid looking vain while the climb continues.",
+      "problem": "The strongest Three evidence in the record is missing. In her July 2025 overshare (S25, That's Enough Ep 14, 0:03:04-0:03:33) she said: \"I feel like I don't exist unless I mean funny. And when I'm not funny, I feel like I don't exist.\" She then revised it: \"So maybe it's more I'm present.\" She chose it as her segment's overshare, the same format as the God line that opens the article. The evidence record says Type 3 \"explains [this] more naturally\" (type_hypothesis.unexplained). The draft log says it was dropped only because \"the draft does not use\" it. The profile builds its hook on one overshare and leaves out the one that cuts against its thesis. (The S40 \"shell\" line belongs to a sensitive orientation conversation and should stay out.)",
+      "acceptance_test": "The Type 3 section or \"What the type doesn't explain\" quotes the S25 overshare with its self-revision (\"maybe it's more I'm present\"), dated and linked. It either explains why the Six reading survives the line or concedes it as unexplained. The S40 \"shell\" line remains unused."
+    },
+    {
+      "id": "critic-8",
+      "severity": "minor",
+      "passage": "Asked about credit for an idea in February 2026, she said, \"it wasn't really my idea it was all of our idea cuz we were improvising.\"",
+      "problem": "Context weakens the use. In S38 (0:29:12-0:29:37) the remark answers a comment that people were comparing \"that parody\" to a similar one (\"I thought this was Grace's idea\"). Disclaiming sole authorship when a resemblance is raised does not clearly show a small, shared picture of enough, and the captions carry no speaker labels. Elsewhere the article itself prints her taking credit (\"I casted everybody perfectly\") and wanting \"to be the lead in a movie for my birthday.\"",
+      "acceptance_test": "The sentence either gives the context (it came up when someone noted a resemblance to another parody) or is removed from the \"small and shared\" argument, leaving the 2024 prayer to carry that point."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "\"I feel so guilty with the success I have. I'm thinking about becoming a Christian.\"",
+      "reason": "A specific, surprising, context-faithful hook. The transcript frames it in her own words (\"what really is an overshare is this\", S23 0:09:04), and the article honestly notes the comic delivery and her later retraction."
+    },
+    {
+      "passage": "Some of this is method and some is manners. She has called self-mockery \"comedy 101,\" and she grew up in the Upper Midwest, where waving off a compliment is ordinary politeness.",
+      "reason": "It names the strongest non-type explanation for the central behavior right where that behavior is argued, without hedging it away."
+    },
+    {
+      "passage": "She said nothing, then raised it \"at like the worst time ever,\" at breakfast in front of everyone, with a guest star in the house.",
+      "reason": "A distinctive, observed behavioral detail that shows the conflict-avoidance pattern instead of asserting it."
+    },
+    {
+      "passage": "\"Because the people wanted me to do it. And I said, 'Fuck the people.'\"",
+      "reason": "Adverse evidence kept at full strength. It shows a costly choice against audience approval that complicates both the Six and Three readings."
+    },
+    {
+      "passage": "The case has limits. The follower ladder fits both types, because a Six can keep climbing when no number ever feels safe (\"It never feels real,\" she told Piso).",
+      "reason": "It states plainly where the discriminator fails. Edits that strengthen the argument should preserve this honesty."
+    }
+  ],
+  "assessment": "Well sourced and, in places, unusually candid (method vs. manners, \"The case has limits,\" \"What the type doesn't explain\"). Reopened transcripts confirm the God overshare, Zavidow's testimony, the Busy Philipps exchange and the shakes/choir story (\"cried\" is supported by S24 and S44). The discriminator is weaker than the prose presents it, though. Of its pillars, the downfall line is a closing gag (critic-3), the \"third host\" is a mock-boast she then leaned into (critic-1), Soresi described pre-release modesty and then accepted his compliment (critic-2), and the fear-of-failure denial drops her own concession (critic-5). What survives is real but thinner: one housemate's testimony, the May 2025 overshare she later set aside, the Madonna/\"I'm for you guys\" exchange, and an apology she walked back seconds later. The Three case also omits its strongest datum (critic-7). The One alternative is dismissed with a self-label the Nine paragraph treats as unreliable, while the profile's core material (guilt, fear of ego, fairness, wishing for punishment) is moral in register (critic-6). The closing prediction does not discriminate, and her 2026 record already shows her easing into praise. Medium confidence is the right label, but the body, FAQs and persona_title still read more certain than the surviving evidence; contested_typing stands. Sensitivity handling is good (orientation, private third parties, health and the Uber story are kept out) and must survive any repair. Similarity advisory: the tripped pair (\"core emotion\", vs. shyam-sankar) is standard triad vocabulary in the site's required type-answer format, and the inde-navarrette echo is a generic \"what she does when X\" framing with no shared argument. I found no meaningful reuse; the portrait's details are specific to Reiter."
+}

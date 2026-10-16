@@ -1,0 +1,25 @@
+I've written `evidence.json` for Lily-Rose Depp, and it passes the pipeline's own validator (`validateEvidence`). The research says the record is strong enough to go ahead: status `ready`, standard format. Nothing else in the repo was changed and nothing was published.
+
+**The record.** I read 33 sources, nearly all long first-person interviews from 2016 to 2026 (Elle, i-D, Vanity Fair, Harper's Bazaar UK, two Interview Magazine conversations with Portman and Knightley). Collaborators also speak: Eggers, Levinson, Hoult and her mother. Every quote in the file was pulled word for word from the saved page text, and a script confirmed each claim's quotes match its sources.
+
+**The type call: Type 6, medium confidence. The strongest alternative is Type 4.**
+- **Why 6:** from 2021 to 2025 she keeps answering doubt by leaning on the people who chose her ("if they've chosen me, then hopefully I've been chosen for a reason"). She says she was grateful for fixed choreography, and she needs collaborators who make her feel "safe and protected." She also walks toward fear on purpose ("I like the fear a little bit").
+- **The test case:** in March 2023, when Rolling Stone ran a 13-source report on *The Idol*'s production, she defended Levinson by name. She still stood by the show after it was cancelled.
+- **Why not 4, and why it's close:** her pull toward darkness, her empathy for the monster, and calling herself "full of dualities" all point to 4. But she checks whether those feelings are acceptable ("am I sick for feeling that way?") rather than claiming them, and she calls herself "a happy person" who explores the darker side at work. A reader who weighs her aesthetic over how she copes could fairly pick 4.
+- **Caution:** the site types her father as a 4. I treated that as a pull to resist, not as evidence.
+
+**Risks flagged:**
+- `sensitive_allegations`: her father's case with Amber Heard, the *Idol* set report, and an eating-disorder disclosure she made at 17.
+- `contested_typing`: because 6 vs 4 is genuinely close.
+
+Either flag sends the draft to the full six-reviewer panel. Anything from when she was a minor is marked context-only, and the eating-disorder disclosure is marked omit-or-one-attributed-line.
+
+**The timely angle:** *Alpha Gang* premiered at Telluride on Sept 5, 2026 and played TIFF that month. Eggers's *Werwulf*, in which she plays the farmer's wife, opens in the US on Dec 25, 2026. Both are logged as time-sensitive with a trigger to re-check after *Werwulf* opens. Her relationship with 070 Shake is logged the same way.
+
+**Open tasks for the draft stage (4):**
+- Eggers's "disciplined, courageous, and, like, feral" line appears only in Complex, which doesn't say where he said it. Find the original or attribute it to Complex.
+- Any mention of the 2016 or 2022 court cases needs separate reliable sourcing and must not take a side.
+- Open the original Rolling Stone report if it's quoted directly.
+- After *Werwulf* opens, read its press and re-run the 6-vs-4 test.
+
+Heads-up: `git status` shows other files staged that aren't mine (the Grace Reiter run, crosslinks, sitemap). They look like parallel work, so I left them alone.
