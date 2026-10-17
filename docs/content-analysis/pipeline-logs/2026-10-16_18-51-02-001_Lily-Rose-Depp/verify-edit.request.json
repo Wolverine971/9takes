@@ -1,0 +1,27 @@
+{
+  "schema_version": 3,
+  "subject": "Lily-Rose-Depp",
+  "mode": "create",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_verify_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-16_18-51-02-001_Lily-Rose-Depp/candidate-edit.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-16_18-51-02-001_Lily-Rose-Depp/evidence-edit.json",
+    "resolution": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-16_18-51-02-001_Lily-Rose-Depp/resolution-edit.json",
+    "review-subject": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-16_18-51-02-001_Lily-Rose-Depp/review-subject.json",
+    "review-fan": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-16_18-51-02-001_Lily-Rose-Depp/review-fan.json",
+    "review-critic": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-16_18-51-02-001_Lily-Rose-Depp/review-critic.json",
+    "review-unfamiliar": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-16_18-51-02-001_Lily-Rose-Depp/review-unfamiliar.json",
+    "review-enneagram": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-16_18-51-02-001_Lily-Rose-Depp/review-enneagram.json",
+    "review-future": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-16_18-51-02-001_Lily-Rose-Depp/review-future.json",
+    "baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-16_18-51-02-001_Lily-Rose-Depp/baseline-reader.md",
+    "checks": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-16_18-51-02-001_Lily-Rose-Depp/checks-edit.json"
+  },
+  "outputs": {
+    "verification-edit.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-16_18-51-02-001_Lily-Rose-Depp/verification-edit.json"
+  },
+  "content_sha256": "b41760549661e33623b0d76c39ae16837cd07900053df2c540a5555d6d32fce7",
+  "evidence_sha256": "1d8f0369891c3e1dbf8d2f43a835b4082c77bd522c9384c4e98df5913dc27cd6"
+}

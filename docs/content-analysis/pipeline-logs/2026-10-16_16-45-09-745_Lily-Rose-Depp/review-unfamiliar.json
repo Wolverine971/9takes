@@ -1,0 +1,100 @@
+{
+  "schema_version": 3,
+  "role": "unfamiliar",
+  "content_sha256": "2429848079cfa6ec1a063fe639ac940ebb7baf912e8f08d0387c6c338c108dd9",
+  "evidence_sha256": "c7a2e0492e805a3b23c831881f8d251a3d81ed5f370a2c974bdd6283f333ab67",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "unfamiliar-01",
+      "severity": "major",
+      "passage": "interviews with 13 members of the cast and crew described often chaotic working conditions and a show that had taken a dark turn.",
+      "problem": "The section calls this 'the costliest test of that trust', but a reader who has never heard of The Idol is not told what the report was about or why defending Levinson cost her anything. The opened Rolling Stone follow-up (S12, May 23, 2023) says the report's sources described the show changing after original director Amy Seimetz left and Levinson took over, with 'disturbing sexual and physically violent scenes between Depp and Tesfaye's characters.' The report was about her own role. Without that one fact, her statement reads like routine promotion, and the strongest piece of evidence for the loyalty thesis loses its stakes.",
+      "acceptance_test": "One or two added sentences, attributed to Rolling Stone's May 23, 2023 summary (S12), say that sources in the March report described the show turning after Seimetz's exit and Levinson's takeover, with reportedly disturbing sexual and violent scenes involving her character. HBO's denial stays next to it, and nothing is presented as established fact. Graphic anonymous-source wording is paraphrased, not quoted. The claim inventory gains a matching `disputed` claim. After reading the section, a newcomer can say why vouching for Levinson was costly for her specifically, or 'costliest' is softened to match what is shown."
+    },
+    {
+      "id": "unfamiliar-02",
+      "severity": "major",
+      "passage": "She expects to lose the role, and then she goes further in it than almost anyone would ask.",
+      "problem": "This is the thesis, but the article never names her two defining characters or what they demanded. A newcomer doesn't learn that she played Ellen Hutter, a young woman traumatized by the vampire Count Orlok (S25), or Jocelyn, a pop star whose world is 'paparazzi, nightclubs, cocaine, and S&M' (S05). The only hint that The Idol was sexually explicit comes as a caveat in a later section ('On a sexually explicit series'). So 'further than almost anyone would ask' stays abstract for exactly the reader who needs it made concrete.",
+      "acceptance_test": "Before the type H2, or at the first substantive mention of each role, one sentence per role names the character and what the part demanded (possession scenes and physical extremity for Ellen; the graphic sexual content of The Idol), sourced to opened sources already in the record (S25, S05, S07 or S01). Trim the bio list to compensate so the net word count doesn't rise. A newcomer can say what 'further' meant in each role."
+    },
+    {
+      "id": "unfamiliar-03",
+      "severity": "minor",
+      "passage": "In the same 2022 Elle interview she was asked about the \"nepo baby\" debate.",
+      "problem": "The label is never defined, and the reader isn't told that she was one of the names the 2022 debate was built around (PAPER, S33) or what the criticism of her answer was. Without that pressure, her 'I'm so careful about these conversations now' three months later and 'ready to see me fail' have no visible cause for a newcomer. The bio already gives the raw facts (famous parents, Chanel at 16) but never connects them to the label.",
+      "acceptance_test": "One clause defines 'nepo baby' (a dismissive label for children of famous parents assumed to have gotten ahead through them), and one clause, supported by S33, says she was a prominent example in the 2022 debate and that her answer drew a backlash. A reader with no memory of 2022 can explain why she would be 'careful' by February 2023. No characterization of the critics goes beyond what the opened source supports."
+    },
+    {
+      "id": "unfamiliar-04",
+      "severity": "minor",
+      "passage": "That was to i-D in 2023.",
+      "problem": "The blockquote follows a sentence attributed to Elle in 2022, so readers take it as more of the Elle interview until this line corrects them afterward. That breaks clarity in the section that sets out the trust thesis.",
+      "acceptance_test": "The source and year (i-D, February 2023) appear before or in the line introducing the blockquote. No attribution arrives after the quotation it identifies."
+    },
+    {
+      "id": "unfamiliar-05",
+      "severity": "minor",
+      "passage": "She describes herself in Four language.",
+      "problem": "A reader with no Enneagram background is asked to weigh evidence of 'Four language' (dualities, comparison with her mother, admiration for distant stars) before the article says what a Four is driven by. That only arrives about twelve sentences later ('A Four steadies herself through her own feeling...'). Earlier, 'An Eight or a Seven would talk about appetite or control' brings in two types the reader has not met, and read in order it pairs Eight with appetite and Seven with control, which is backwards.",
+      "acceptance_test": "The first paragraph of 'Why not Type 4?' says in plain words what a Four is driven by, before any evidence for it, so each detail that follows can be seen as Four evidence. The Eight/Seven comparison either gets the pairing right with a short gloss for each type or is cut. A newcomer can follow the type contest without opening another page."
+    },
+    {
+      "id": "unfamiliar-06",
+      "severity": "minor",
+      "passage": "She ties them to two families and two countries: \"when I'm with my dad's side of the family, I'm like, yeah, we're all Kentuckians.\"",
+      "problem": "A newcomer doesn't know why 'Kentuckians' explains anything. The sentence promises two countries but quotes only the American half. The same Portman answer (S01) has the French half right before it: 'my family's French, so when I'm with them, I feel like I'm 100 percent French.'",
+      "acceptance_test": "The passage quotes or paraphrases both halves of that same answer, so a reader sees French and American family sides without outside knowledge. No new unsourced biographical fact is added."
+    },
+    {
+      "id": "unfamiliar-07",
+      "severity": "minor",
+      "passage": "\"I was grateful not to have to shape it on my own,\" she told Portman. \"I didn't realize how choreographed it was going to be, but that helped infuse every moment with an intention,\" she told Vanity Fair.",
+      "problem": "Momentum drag from attribution churn. The body uses 'told' 28 times and 'she said' 12 times in about 3,625 words, and paragraphs like this switch outlets sentence by sentence. A newcomer ends up tracking magazines instead of a person. Two quotes often make the same point, and the body is already above the 3,500-word target.",
+      "acceptance_test": "Where two adjacent quotes make the same point, keep the stronger one. Set up each major interview once per section as a dated scene (e.g. 'Talking to Portman in October 2024...'), then quote without re-tagging. Every quote stays traceable to a named source and date. Body word count ends at or below 3,500, with at least ten fewer attribution tags."
+    },
+    {
+      "id": "unfamiliar-08",
+      "severity": "minor",
+      "passage": "Loyalty is a value she names outright.",
+      "problem": "This section restates the loyalty thesis right after 'Standing by The Idol' has shown it under real cost. Its new material (long-held friends, the security guard, the election quote) is atmosphere more than a new kind of evidence. For a newcomer it's the fourth pass at 'she leans on people she trusts', and momentum flattens just before the Type 4 contest.",
+      "acceptance_test": "Each remaining H2 adds a distinct kind of evidence. The strongest line here ('When things feel out of control and you feel powerless, you have to hold tight to the people you love...') moves into the close of the Idol section or the frame section, and the rest is cut or cut down to a clause. The net body word count falls."
+    },
+    {
+      "id": "unfamiliar-09",
+      "severity": "minor",
+      "passage": "In September 2026 she premiered _Alpha Gang_, a Zellner brothers science-fiction comedy, at Telluride on September 5 and then at TIFF, playing one of a gang of aliens who find themselves with human emotions.",
+      "problem": "The closing section opens with a release calendar. Alpha Gang isn't tied to the argument, and the paragraph reads as a news brief right before the article's strongest ending (the 'listen for' test and the backpack quote). Momentum dips at the point where the reader should feel the portrait come together.",
+      "acceptance_test": "Alpha Gang is either tied to the argument in one clause or cut. Werwulf's release is cut down to one dated clause. The section moves from Eggers's description of the role to the 'listen for where she says the steadiness came from' test to the backpack quote in roughly 150 words or fewer."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "She was at her family's place in the French countryside, and one of her audition scenes was \"a big freak-out scene.\" So she gathered things to throw.",
+      "reason": "A specific, sourced, slightly comic opening that a newcomer can picture right away. The paper-towels quote that follows sets up the article's whole tension between nerves and going further, without needing any prior knowledge of her."
+    },
+    {
+      "passage": "Look at where the reassurance comes from. Each time, she settles the doubt by leaning on the judgment of the people who did the choosing. They must have had a reason. She rarely answers it by naming what is special about her.",
+      "reason": "The clearest orientation in the piece. It turns three dated quotes into one idea a newcomer can carry through every later section, and it states the 6-vs-4 discriminator in plain language before any jargon."
+    },
+    {
+      "passage": "Off set, the fear doesn't turn into fuel. When Portman asked about the most daredevil thing she had done, Depp said, \"I used to be way more daredevil-ish when I was a kid, and now I'm scared of everything.\"",
+      "reason": "A surprising, verified turn that complicates the 'fear as fuel' story right after it's set up. It's the kind of detail an unfamiliar reader remembers."
+    },
+    {
+      "passage": "She vouched loudly for a director in 2023 and kept silent about her own father in 2022.",
+      "reason": "An unresolved contradiction set out in one line. It survives the type argument and makes the portrait feel like a person rather than a type illustration."
+    },
+    {
+      "passage": "You have all your super-private feelings in your backpack, and you go to work and the scene starts and you let it out.",
+      "reason": "A strong close in her own words. It echoes the opening freak-out audition and leaves a newcomer with a concrete image of how she works."
+    }
+  ],
+  "assessment": "For a reader who knows nothing about her, the draft orients well. It opens on a vivid, sourced audition scene, states the thesis by the fifth paragraph, follows with a compact bio, and gives a 56-word type answer a newcomer can follow. The Type 6 and counterphobic ideas are explained in plain language before they're used. The first three quoted H2s build steadily, and 'Why not Type 4?' plus 'What the type doesn't explain' make it a real contest rather than a verdict. Two gaps keep a newcomer from feeling the stakes. First, the article never says who she played or what those roles demanded, so 'goes further than almost anyone would ask' stays abstract (unfamiliar-02). Second, it calls the Idol defense the costliest test of her loyalty without saying that the report's claims concerned her own character's scenes (unfamiliar-01). Both are major because the thesis depends on them, and both can be fixed from sources already opened. The remaining drag is minor: about 40 attribution tags, a loyalty section that restates the thesis, Type 4 evidence shown before the Four is defined, an Eight/Seven pairing that reads backwards, a one-sided 'Kentuckians' quote, and a release-calendar paragraph just before the strong backpack close. At about 3,625 words the body is above the 3,500 target, so fixes should be net-neutral or cut. The similarity advisory did not trip. The top match (0.174, Arthur-Mensch) is a public-record disclaimer sentence, which is ordinary hedging, not reused argument, so I found no distinctiveness problem. I confirmed the Rolling Stone, Elle, Portman, PAPER, Vanity Fair and Wikipedia context against the saved source texts in /tmp/lily-rose-depp-research/txt. Risks: sensitive_allegations (the Idol production report, the 2022 Depp v. Heard trial) and contested_typing (6 vs 4 at medium confidence) stay true, so the expanded jury is appropriate."
+}

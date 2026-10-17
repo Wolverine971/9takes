@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "fan",
+  "content_sha256": "7f0a727701d46f963afe18e348acc29c773532a4b396ae26a0372de9f4ef516c",
+  "evidence_sha256": "61663c372e8fe3a673bbef82b3259361e9a5ff5bad731153d95f5ac283d2864a",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "fan-1",
+      "severity": "major",
+      "passage": "A parent's type proves nothing about a child, and she has said they are \"very different actors.\"",
+      "problem": "This flips her answer. Harper's Bazaar UK asked whether a fascination with the gothic runs in the family, and she said: \"Sure, I guess you could say so. We're very different actors, but of course you're the product of your environment, and it's a world I've always been very interested in.\" The draft keeps only the qualifier, so it reads as a rejection of a family link she actually conceded. Three other answers about her parents are trimmed the same way. To Knightley (2021), \"very much my own person\" comes right after \"Of course. Those fears are—not fears, but those thoughts are totally normal,\" and before \"obviously you're an extension of your family in that they are so much a part of who you are.\" In Vanity Fair (2024), \"it just is what it is\" (used in the draft as calm, Type 9 evidence) goes straight on: \"It's been my life... Respecting them both so much and what they do, and trying to find my own identity in this world, has been interesting...\" Then she chooses to \"work really, really hard\" over crying about it. In ELLE France (2026, via Purepeople), the draft takes \"il faut tracer sa route\" but leaves out \"En vrai, on est très semblables\" (\"Honestly, we're very alike\") about her mother. An informed reader knows that being the child of two icons is the central fact of her life. The article shows only the half of each answer where she separates herself from them.",
+      "acceptance_test": "Either the Harper's Bazaar UK quote appears with \"Sure, I guess you could say so\" and \"of course you're the product of your environment,\" or her words are cut and the sentence rests only on the point that a parent's type is not evidence. At least one sourced line shows her identifying with her parents (\"extension of your family,\" \"blessed to be their daughter,\" or \"on est très semblables\"). \"It just is what it is\" is no longer offered as Type 9 evidence without its continuation. The Four section weighs \"trying to find my own identity in this world\" (VF, 2024) along with the Knightley answer."
+    },
+    {
+      "id": "fan-2",
+      "severity": "major",
+      "passage": "Asked on the podcast about her parents' shadow, she said, \"I'm not ashamed.\"",
+      "problem": "In the Happy Sad Confused transcript (about 31:04-31:45), the line is \"I'm not ashamed, like, my parents are such talented performers. And I'm blessed to be their daughter and to have watched them go about their careers.\" It means she is not ashamed of her parentage despite the nepo-baby criticism. It is pride in her parents, not a report on her own emotional life. The draft puts it right after \"Shame words about herself are rare\" inside the first of its three reasons for Six over Four. That makes it look like a denial of shame as a core feeling. It is a denial in the context of the nepo debate, which is the very place where shame gets put on her from outside. A listener who heard the episode would catch this.",
+      "acceptance_test": "The quote is either removed from the fear-vs-shame argument or given with its continuation (\"like, my parents are such talented performers. And I'm blessed to be their daughter\") and described as being about her parentage. The fear-vs-shame count no longer uses it as evidence that shame is absent, and claim C36 is updated to match."
+    },
+    {
+      "id": "fan-3",
+      "severity": "major",
+      "passage": "She also said, \"I know my childhood didn't look like everybody's childhood.\"",
+      "problem": "The draft's account of the nepo-baby episode doesn't match what people reacted to. In Elle, the childhood line isn't part of the nepo-baby answer. It comes from an earlier section on privacy: \"my parents protected my brother [Jack] and me from it as much as possible... I know my childhood didn't look like everybody's childhood, and it's a very particular thing to deal with, but it's also the only thing that I know.\" Placed inside the nepo-baby answer, it reads as an admission of privilege she didn't make there. The draft also leaves out the half of that answer the backlash focused on: she found it \"interesting\" that she rarely hears a man called a nepo baby, compared herself to a doctor's child who \"went to medical school and trained,\" and said \"I just hear it a lot more about women, and I don't think that it's a coincidence.\" The admission of privilege actually came in i-D in February 2023, right after the line the draft quotes (\"I'm so careful about these conversations now\"): \"obviously, that still was not a normal childhood. I'm super aware of the fact that my childhood did not look like everybody's.\" The real sequence was a defensive answer, then a backlash, then an acknowledgment. The draft flattens it, and the FAQ (\"In the same interview she said her childhood did not look like everybody's\") repeats the mix-up.",
+      "acceptance_test": "The nepo-baby paragraph quotes the Elle answer in its real order and includes or accurately summarizes the gender point and the doctor comparison as what drew criticism. The childhood line is either moved back to its privacy context or replaced by the February 2023 i-D version, dated and placed after the backlash. The nepo-baby FAQ answer matches the corrected body."
+    },
+    {
+      "id": "fan-4",
+      "severity": "minor",
+      "passage": "Promotion explains less of what came after.",
+      "problem": "The November 2024 Vanity Fair answer was given during the Nosferatu awards campaign. Her own reasons in it are not mainly about Levinson. It opens \"I love it. Honestly, I love it,\" and goes on: \"that was a huge turning point for me. I learned so much about myself... I learned how to dance, and sing.\" Fans know The Idol as the show that launched her single \"One of the Girls,\" which charted on the Hot 100 (Wikipedia, S25). So the show paid off for her personally even after it was cancelled. The draft presents the later defense as mostly loyalty and leaves out the reasons she gave in the same breath.",
+      "acceptance_test": "The section includes at least one of her own stated reasons from that answer (turning point, learning to sing and dance) or mentions the single's success. The sentence no longer suggests the post-cancellation defense had no self-interest or promotional context, for example \"Promotion explains less of it, though not all.\""
+    },
+    {
+      "id": "fan-5",
+      "severity": "minor",
+      "passage": "She went on that people have \"really wanted to define me by the men in my life,\" and that she was \"really ready to be defined for the things that I put out there.\"",
+      "problem": "The full Elle sentence is \"people have really wanted to define me by the men in my life, whether that's my family members or my boyfriends, whatever.\" In a section about her father, cutting \"or my boyfriends\" makes \"men\" sound like her father alone. Informed readers will also notice that the article never mentions the relationship coverage she meant. Her one widely reported earlier relationship began on the set of The King (2018, with Timothée Chalamet, per Wikipedia), and the draft names that film without saying so.",
+      "acceptance_test": "The quote or a paraphrase keeps her scope (\"family members or my boyfriends\"). Optionally, one dated, sourced clause notes the earlier relationship coverage, without speculation beyond what the source says."
+    },
+    {
+      "id": "fan-6",
+      "severity": "minor",
+      "passage": "She calls herself \"full of dualities.\"",
+      "problem": "The draft places this right after her lines about crying and laughing, so it reads as emotional paradox and counts toward the Four. Her own explanation is about two cultures: \"I feel like I've always been full of dualities, and my double culture adds to that.\" She then explains that French friends call her \"so American,\" she went to high school in the Valley, she feels \"100 percent French\" with her mother's family, and \"we're all Kentuckians\" with her father's (Portman, 2024). Harper's Bazaar UK's \"so many sides\" and \"paradox\" line is also about French and American culture. That bicultural upbringing is the formative context a fan would expect, and the draft reduces it to \"grew up between Los Angeles and France.\" It also leaves out her parents' 2012 separation and joint custody (Wikipedia; Harper's Bazaar UK: \"separated amicably after 14 years\").",
+      "acceptance_test": "\"Full of dualities\" is quoted with \"my double culture adds to that\" or dropped as Four evidence. The biography gains one sourced line on the bicultural upbringing and the 2012 separation, stated as fact with no claim about cause."
+    },
+    {
+      "id": "fan-7",
+      "severity": "minor",
+      "passage": "\"I feel like it's corny because people always say this, but you have to have people around you that you've known forever that are going to anchor you.\"",
+      "problem": "The draft stops one sentence too early. She goes on, to the interviewer: \"Even you, I'm so grateful that I met you when I was 16, and to have one of my very favorite actresses to be able to call when I'm struggling with a scene.\" That is the most concrete example in the record of the support-seeking the Six reading depends on, and it is missing. The article also never says that Portman chose Depp to play her younger sister in Planetarium (2016, per Wikipedia), or that Knightley was her co-star in Silent Night (2021). Both interviews the draft relies on most were conducted by friends and co-stars. That explains how candid they are and should temper how much weight they carry.",
+      "acceptance_test": "The anchor passage includes or paraphrases the sentence naming Portman. On first mention, Portman and Knightley are identified by their working relationship with Depp. The fear-count limits acknowledge that these are interviews by friends."
+    },
+    {
+      "id": "fan-8",
+      "severity": "minor",
+      "passage": "The post did not mention the allegations.",
+      "problem": "CBS/AP (S14) says that her first post did not mention the allegations directly, and that she \"came to her father's defense yet again\" the same day by sharing a screenshot of a People report about the police response to a May 21 call. The single sentence makes her 2016 defense look milder than it was, and the article sets that defense against her 2022 silence. CBS/AP also identifies Heard as Depp's wife, who was then divorcing him. The draft omits this, though it explains why the matter was \"so private and so personal\" to his daughter.",
+      "acceptance_test": "Either the sentence is removed, or the text says she posted twice in his defense that day, attributed to CBS/AP. Heard is identified as his then-wife. The article does not characterize the allegations or the evidence any further."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "She was scared, she said so, and she threw the paper towels anyway.",
+      "reason": "A one-line turn that holds the whole thesis. The Vanity Fair text supports it: \"I was really nervous\" comes directly before the paper-towels quote."
+    },
+    {
+      "passage": "That claim can be tested. If she started taking big risks with no trusted people or structure around her, the Six reading would weaken.",
+      "reason": "States what would disprove the reading, so the type claim is falsifiable instead of a label."
+    },
+    {
+      "passage": "That is the clearest link in her record between fear and allegiance, and it was about politics, not a film she was selling.",
+      "reason": "Separates promotional from non-promotional evidence. The Harper's Bazaar UK text confirms the election context and wording."
+    },
+    {
+      "passage": "Nobody has described Depp let down by someone she trusted. That is the scene that would test the loyalty reading hardest.",
+      "reason": "Names the missing evidence specifically instead of hedging in general terms."
+    },
+    {
+      "passage": "\"You have all your super-private feelings in your backpack, and you go to work and the scene starts and you let it out.\"",
+      "reason": "Ends on her own image, which ties her privacy to her acting. It is verbatim against the saved Interview transcript and in context (Portman's thin-skin/thick-skin question)."
+    }
+  ],
+  "assessment": "This is a fair, carefully attributed portrait. Spot checks against the research-stage saved copies (Interview/Knightley and Portman, Elle, Vanity Fair, Harper's Bazaar UK, i-D, CBS/AP, Rolling Stone, ET, Wikipedia) and the local podcast transcript found the quotes verbatim. The Idol and trial sections are handled with restraint. The ELLE France interview was checked only through Purepeople, as the evidence record says. Sources were read from those saved copies, not re-fetched live. The fan-level problem is selective clipping where an informed reader would notice it most: her parents. Four answers about them are cut to the half that separates her from them, and one (\"I'm not ashamed\") is used as evidence in the main fear-vs-shame argument for something it doesn't mean. The nepo-baby account moves a privacy quote into the wrong answer and leaves out the remarks the backlash actually focused on. Missing context: her bicultural upbringing and her parents' 2012 split, Portman's and Knightley's relationships to her, the \"boyfriends\" half of the \"men in my life\" quote, and her second 2016 post. Leaving out her minor-era health and identity disclosures is correct. The Werwulf settle test is a good, concrete close. Similarity: the joseph-zada trip on \"people and structure\" is ordinary Six vocabulary in the 60-word answer. The argument itself rests on Depp-specific quotes, so this review raises no reuse finding. The sensitive-allegation and contested-typing risks still apply."
+}

@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "enneagram",
+  "content_sha256": "7f0a727701d46f963afe18e348acc29c773532a4b396ae26a0372de9f4ef516c",
+  "evidence_sha256": "61663c372e8fe3a673bbef82b3259361e9a5ff5bad731153d95f5ac283d2864a",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "enneagram-01",
+      "severity": "major",
+      "passage": "A Four protects a distinct inner self from being misread. Her words are threat words: \"eaten alive,\" \"lose your footing,\" and, when ordinary life stops mattering, \"That's when things get dangerous.\"",
+      "problem": "The second Six-over-Four discriminator is contradicted by the context of its own quotes, which I reopened on 2026-10-16. In Elle (S05), \"I'm not here to give myself to the world to be eaten alive\" directly follows \"people feel like they know you, even though they don't\". That is about being misknown. Elle's next paragraph says that with strangers she \"fears not for her safety, but 'that they're going to think I'm really weird or rude'\", and she gives that worry as her reason to \"retreat back into my real life\". In Interview/Portman (S01), \"That's when things get dangerous, when you don't see those things as valuable anymore\" is about losing the value of ordinary life, and Portman glosses it as needing \"to live through characters\". That is losing yourself, not an outside threat. The same answer opens with her inner life being \"so precious\" and needing protection from social-media access. The \"secret garden\" answer continues \"people have really wanted to define me by the men in my life\". So her stated reasons for privacy are largely about being misread, misdefined, and protecting her inner life, which is the Four framing the article says she lacks. Danger metaphors are not evidence of a security motive. The FAQ \"Could Lily-Rose Depp be an Enneagram Type 4?\" repeats the claim.",
+      "acceptance_test": "The article no longer says she guards privacy \"against danger, not against being misunderstood\", or else it restates the point faithfully: \"eaten alive\" is quoted with its misknown clause, or is not called a threat word, and \"things get dangerous\" is not presented as fear for her safety. The article acknowledges that her stated privacy reasons include being misknown and misdefined (\"people feel like they know you, even though they don't\"; \"define me by the men in my life\"). The Type 4 FAQ answer and C96's inference and alternative are updated to match."
+    },
+    {
+      "id": "enneagram-02",
+      "severity": "major",
+      "passage": "Fear comes up about her own life in six of her interviews from 2021 to 2025: work, fame, strangers, physical risk and politics. Shame words about herself are rare and come as jokes. Asked on the podcast about her parents' shadow, she said, \"I'm not ashamed.\"",
+      "problem": "The first discriminator counts words instead of testing what the feeling is about. Triad membership turns on the object of the worry, not on the word \"scared\" versus \"ashamed\". Sorted by object, three of the five categories are about being judged or about whether she deserves her place. Work: \"Are they sure that I'm the one?\" (Knightley 2021) and \"Why am I here and why do these people think that I can do this?\" (VF 2024, imposter syndrome). Fame: \"'She looks like hell, she must be depressed?'\" (i-D). Strangers: \"think I'm really weird or rude\", which Elle explicitly says is \"not for her safety\". That is the worth-and-being-seen content the article's own triad paragraph assigns to the heart types. Only the laughing skydiving exchange and the 2024 election remark are fears about safety. In the Knightley interview she also relabels her worry about being judged for her parentage: \"Those fears are—not fears, but those thoughts are totally normal.\" \"I'm not ashamed\" refers to her parents (\"my parents are such talented performers\"), so it says nothing about her own core emotion. Sixes also fear group judgment, so the content does not flip the case to Four. It means the count does not discriminate, while the article presents it as the lead reason.",
+      "acceptance_test": "Option (a): the first reason sorts each named fear by its object (safety, support or ability to cope, versus worth, being seen or belonging), quoting each one, and claims head-triad support only from the safety/support group. Option (b): the reason is demoted to non-decisive and the article says the fear vocabulary does not separate 6 from 3 or 4. Either way, \"I'm not ashamed\" is either dropped as triad evidence or presented with its object (her parents). The hook's \"By my count\" sentence, the 60-word type answer and the type FAQ stay consistent with the revised claim."
+    },
+    {
+      "id": "enneagram-03",
+      "severity": "major",
+      "passage": "Third, the Four material sits mostly in how she talks about art, roles and taste.",
+      "problem": "The profession discount is applied to one side only. The article earlier concedes that the Six's trust evidence is also craft and promotion talk (\"Some of this is the job... a lot of it was said while promoting a show\"). Yet \"That is a Six's toolkit, laid out in one answer\" (i-D, about getting a role), the Eggers and choreography lines and the Levinson safety lines are all craft talk. Discount both sides and the off-set remainder is closer than the article shows. Off-set Six: \"hold tight to the people you love\" (HB UK), people \"that are going to anchor you\", calling Portman \"when I'm struggling with a scene\" (S01, not in the draft), and the skydiving banter. Off-set Four: \"people feel like they know you, even though they don't\", the secret-garden/\"define me by the men in my life\" answer about her father, her inner life being \"so precious\", and \"trying to find my own identity in this world\" (VF 2024, about her parents, in the evidence record but not the draft). The record also has off-set anti-Four evidence that the draft leaves unused. Right after the identity line, VF 2024 quotes her: \"You either can sit there and cry about it and be like, 'This isn't fair!' or you can be like, 'Okay, I'm just going to work really, really hard'\". That is an explicit rejection of the self-pitying response to being misjudged.",
+      "acceptance_test": "The Why-not-Type-4 section applies the craft/promotion discount to both types or to neither. It names the non-craft evidence that remains for each type and rests the Six's lead on that remainder. If the remainder does not favor the Six, the stated confidence is lowered. Candidate evidence to check and use, each sourced: doubt about herself settled by the judgment of the people who chose her (i-D 2023; Knightley 2021), calling Portman when struggling (S01), \"hold tight\" (S09), and, against the Four, the VF 2024 \"sit there and cry about it... 'This isn't fair!'\" passage."
+    },
+    {
+      "id": "enneagram-04",
+      "severity": "major",
+      "passage": "No source shows the loyalty cost her anything, so it is a pattern, not a test.",
+      "problem": "The standard's Enneagram bar is a motive that explains repeated costly choices. The article applies the cost test only to Six loyalty, finds nothing, and moves on. It never asks which choices in the record did carry a cost. The clearest one is her silence during the 2022 trial, which \"frustrated some of his fans\" (Jezebel). Her stated reasons were privacy and being \"ready to be defined for the things that I put out there\", which the article itself files as Four-compatible self-definition (\"A Four reading would stress the self-definition\"). The nepo-baby backlash led to \"I'm so careful about these conversations now\", which fits 6 and 3 equally. Applied to every candidate type, the cost test is neutral or slightly favors the alternative, and the article doesn't say so. As written, the Six case rests entirely on costless statements.",
+      "acceptance_test": "The type argument names the choices in the record that carried a documented cost (at minimum the 2022 silence and the post-backlash adjustment) and says which motive each one supports. Then either (a) it shows a costly choice the Six explains better than the Four, with a source, or (b) it says plainly that no costly choice separates them and keeps the stated confidence at medium or below on that basis."
+    },
+    {
+      "id": "enneagram-05",
+      "severity": "major",
+      "passage": "What strains the Three is how little she guards the image: right after _The Idol_ she spent _Nosferatu_ \"looking like a corpse every day,\" which she called \"a workout for my self-esteem.\"",
+      "problem": "This confuses the Three's image (being seen as valuable and successful) with physical looks. For an actor labeled a nepo baby, the lead in a film by one of her \"bucket list directors\" builds her image as a serious actor, and VF ran this as an awards-campaign interview. In context the line is a laughing contrast with The Idol, when she was \"definitely feeling myself\". The second test, pleasing everyone \"ce n'est pas mon ambition\", sits inside a passage about not taking things to heart (\"on ne peut pas plaire à tout le monde\"). That is a common platitude. Meanwhile the Three evidence the article cites still stands: \"prove people wrong\", \"I do want to prove that I'm a hard worker\", the post-backlash \"careful\", \"Humility is incredibly important, especially in this business\", and the Chanel deal. Once the fear count no longer separates the head and heart triads (enneagram-02), the Three is as live as the Four, but the confidence line names only Type 4 as a close rival.",
+      "acceptance_test": "The looks-based test is replaced by one aimed at the Three's actual motive, with a source. Example: how she allocates credit (directors, the crew's \"team feeling\", choreography) versus her own performance. Otherwise the article says the Three is not ruled out. The confidence statement in the type section and the FAQ name every alternative that the body leaves standing."
+    },
+    {
+      "id": "enneagram-06",
+      "severity": "minor",
+      "passage": "Depp describes every one of those steps herself.",
+      "problem": "The four-step Six model is cut to fit the evidence, and the next line claims a perfect fit. The model leaves out the Six's ambivalence toward the supports it relies on and its testing of them, which the article later admits she doesn't show (\"no testing of them\"). Steps two and three (find support, then act boldly) also describe Twos, Nines and most actors on an Eggers set. The last step, \"Without it, the worry keeps running\", has no sourced instance in her record. The nearest evidence is avoiding skydiving, which is stepping back, not runaway worry. Likewise \"That is a Six's toolkit, laid out in one answer\" overstates. The evidence record notes (C11, C46, C47) that faith in the people who chose her, leaving \"no rock unturned\", and fear as fuel each fit Types 3 and 1 as well.",
+      "acceptance_test": "The type section's Six description includes the doubt and ambivalence-toward-authority component, or says up front that she shows only the trusting half. \"Every one of those steps\" is replaced by a claim matched to sourced instances, or the unsourced step is dropped. The \"Six's toolkit\" line either names the element that is specific to the Six or is softened to \"fits\"."
+    },
+    {
+      "id": "enneagram-07",
+      "severity": "minor",
+      "passage": "But Nines tend to numb distress, and she names hers constantly. Nines also avoid friction, and she told Elle she wants work that will \"challenge me, or challenge other people.\"",
+      "problem": "Both rebuttals rely on stereotypes. Much of her named distress comes in answer to direct questions (Knightley asked about anxiety, VF about insecurity), and \"challenge other people\" is artistic provocation, not interpersonal friction. Worse, the calm the Nine paragraph mentions also counts against the Six mechanism the article states (\"She scans ahead for what could go wrong... Without it, the worry keeps running\"). Examples: \"roles go to the people who are meant to play them... I totally believe that in my heart\" (podcast), \"Everything happens for a reason\" (VF 2024), \"it just is what it is\", \"Everything is mental. I'm good. I'm chilling\" (S01). Filing that evidence under Nine and then dismissing Nine means the Six reading never confronts it.",
+      "acceptance_test": "The fatalistic calm is weighed explicitly against the Six's scanning mechanism, for example by explaining why she was calm about ordinary auditions but nervous about Nosferatu and The Idol. The Nine rebuttal uses a non-stereotyped, sourced discriminator, such as her taking a public side in a conflict over the Idol report (ET, Cannes, VF 2024) or \"I'm not here to answer for anybody\", or else the Nine is left open."
+    },
+    {
+      "id": "enneagram-08",
+      "severity": "minor",
+      "passage": "guards her privacy against danger rather than against being misunderstood",
+      "problem": "Several metadata surfaces depend on the discriminators flagged above. The FAQ \"Could Lily-Rose Depp be an Enneagram Type 4?\" restates both of them (\"fear rather than shame\" and privacy \"against danger\"). The type FAQ and the 60-word answer under the type H2 rest on \"She talks about her fear often\" and \"Sixes are in the head triad, where the core emotion is fear\". The medium-confidence statement appears only in the body, two paragraphs after the answer. Once the body's argument is repaired, these will disagree with it.",
+      "acceptance_test": "After the Why-not-Type-4 repair, the Type 4 FAQ answer, the type FAQ, the 60-word type answer and the description all state the same discriminator as the body, word for word in substance. The type FAQ is no more certain than the body (it mentions that the read is held at medium confidence, or the body's equivalent qualifier). No metadata surface relies on a discriminator the body has dropped."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "That claim can be tested. If she started taking big risks with no trusted people or structure around her, the Six reading would weaken.",
+      "reason": "Gives the central mechanism a falsifier, which typing articles rarely do. Keep it, adjusted to whatever discriminator survives the repair."
+    },
+    {
+      "passage": "Many Sixes test authority before they trust it. Her public record shows trust in directors and collaborators, and no testing of them. That leaves the Loyalist reading one-sided.",
+      "reason": "Confronts the leading type's most obvious missing trait directly, instead of explaining it away with a wing, arrow or counterphobic label."
+    },
+    {
+      "passage": "In 2023 the doubt was settled by the people who chose her. Here she wants it settled \"within myself,\" and she says getting there has been a struggle. That is a real shift, and it counts toward the Four reading below.",
+      "reason": "Tracks where her reassurance comes from over time, which is the most Enneagram-literate observation in the draft and the seed of a better Six-versus-Four discriminator than the word count."
+    },
+    {
+      "passage": "Plenty of people defend their friends, so loyalty alone doesn't make her a Six.",
+      "reason": "Refuses the stereotyped 'loyal equals Six' move on the article's most quotable evidence."
+    },
+    {
+      "passage": "When she describes what steadied her through that role, does she credit the people and the frame around her, or a feeling she found in herself? The first keeps the Six. The second strengthens the Four.",
+      "reason": "A concrete, dated, observable settle test tied to the real question between the two types, not a generic 'more interviews' signal."
+    }
+  ],
+  "assessment": "The draft avoids the usual shortcuts. It uses no wing or arrow to absorb contradictions, keeps confidence at medium, names the missing authority-testing, gives a falsifier, refuses to inherit the father's type, and ends on a dated settle test. The weak point is the 'Three things keep the Six ahead' argument. I reopened Elle (S05), Interview/Portman (S01), Interview/Knightley (S03) and Vanity Fair (S07) on 2026-10-16. All three reasons fail as written. The privacy reason is contradicted by context: 'eaten alive' follows 'people feel like they know you, even though they don't', Elle says the stranger worry is 'not for her safety', and 'dangerous' means losing the value of ordinary life. The fear count is lexical, because most of her named fears are about being judged or not deserving her place. The profession discount is applied only to the Four material. The Three is dismissed with a looks-based test and the Nine with stereotypes, and the one choice in the record with a documented cost (the 2022 silence) is never weighed. A Six lead may still be defensible, but on different evidence: her repeated habit of settling doubt about herself through the judgment of the people who chose her ('if they've chosen me', 'Are they sure that I'm the one?', relief at choreography, calling Portman 'when I'm struggling with a scene', 'hold tight to the people you love'). Against the Four, there is her explicit VF 2024 rejection of 'sit there and cry about it... This isn't fair!'. If the argument cannot be rebuilt on evidence like that, the article should not claim the Six is ahead on discriminating grounds, and medium confidence is the ceiling. Similarity: the tripped pair (0.077 vs joseph-zada, 'people and structure') and the top Arthur-Mensch pair (0.17, a read-of-public-evidence disclaimer) are ordinary Six vocabulary and boilerplate, not a reused argument. The Depp-specific mechanism (walks toward fear inside a trusted frame, steps back outside one) is distinct. Risks: the sensitive-allegations flag (Idol report, Heard allegation) and contested typing are both confirmed. I opened sources only to test type reasoning; quote-fidelity checks for the whole draft remain with the evidence role."
+}

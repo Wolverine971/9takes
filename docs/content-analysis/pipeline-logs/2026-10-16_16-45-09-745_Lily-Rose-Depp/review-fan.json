@@ -1,0 +1,86 @@
+{
+  "schema_version": 3,
+  "role": "fan",
+  "content_sha256": "2429848079cfa6ec1a063fe639ac940ebb7baf912e8f08d0387c6c338c108dd9",
+  "evidence_sha256": "c7a2e0492e805a3b23c831881f8d251a3d81ed5f370a2c974bdd6283f333ab67",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "fan-01",
+      "severity": "major",
+      "passage": "Look at where the reassurance comes from. Each time, she settles the doubt by leaning on the judgment of the people who did the choosing. They must have had a reason. She rarely answers it by naming what is special about her.",
+      "problem": "'Each time' and 'rarely' are contradicted by the two interviews at either end of the pattern, and in both the draft quotes only the outward half. Vanity Fair (Nov 21, 2024), the sentence right after the imposter-syndrome line the draft quotes: \"Getting to a place where I felt confident enough within myself to be like, 'I can do this and I am here for a reason,' I definitely have struggled with that.\" The same answer goes on: \"trying to find my own identity in this world\" and \"I'm just going to work really, really hard.\" Knightley/Interview (Aug 2021), asked if she worried about being judged because of her parents: \"I'm not the same kind of actor as my dad or my mom, and I'm very much my own person... that doesn't mean you can't become your own artist, or that your own art isn't valuable on its own.\" Both resolve doubt inward, through her own distinctness. That is exactly what the Type 4 reading predicts, and exactly what the first 'Why not Type 4?' reason and FAQ 2 say she doesn't do. The 2024 'reason' line people know is 'I am here for a reason', reached 'within myself', not 'they must have had a reason'. That weakens the 'Chosen for a reason / Everything happens for a reason' pairing.",
+      "acceptance_test": "At least one of the two inward answers is quoted verbatim and dated, either next to 'Look at where the reassurance comes from' or in 'Why not Type 4?'. 'Each time', 'rarely' and 'Her answer has barely changed since 2021' are replaced by a qualified claim that says when she reaches outward (before a role starts: Knightley 2021, i-D 2023) and when she reaches inward (her parents, her right to be there: Knightley 2021, VF 2024). The first 'Why not Type 4?' reason and FAQ 2 no longer say she steadies herself 'rather than through her own sense of being distinct'. Evidence claims C58, C93 and C57 record these counter-quotes as alternatives."
+    },
+    {
+      "id": "fan-02",
+      "severity": "major",
+      "passage": "She doesn't go method, she told Vanity Fair, partly because \"I'm too attached to my life, I feel like.\" She needs \"to be able to call my friends at the end of the day and be myself.\"",
+      "problem": "This cuts her answer down to the half that fits the thesis. In the same Vanity Fair answer she goes on: \"This movie had such an immersive energy about it that I do think I brought the darkness home, for sure... I was carrying her with me when I was at home.\" The draft uses the shortened version as its second reason against Type 4: she 'places the darkness in the job' and keeps a protected container. The closing backpack image ('The inner life stays protected until the work begins') leans on the same idea. Her full answer says that on Nosferatu the container leaked.",
+      "acceptance_test": "The method quote appears with its continuation ('I do think I brought the darkness home' or 'I was carrying her with me when I was at home'), verbatim and attributed to Vanity Fair, November 2024. The second 'Why not Type 4?' reason no longer depends on the darkness staying at work, or it says outright that it didn't on Nosferatu. The closing line before the backpack quote is consistent with that. Claim C31 in the evidence inventory includes the continuation."
+    },
+    {
+      "id": "fan-03",
+      "severity": "major",
+      "passage": "She vouched loudly for a director in 2023 and kept silent about her own father in 2022.",
+      "problem": "Informed readers will notice what's missing. On May 29, 2016, at 17, days after Amber Heard's abuse allegations, she posted on Instagram that her father was \"the sweetest most loving person I know\" and had \"been nothing but a wonderful father to my little brother and I\" (CBS/AP, May 30, 2016; source S14, already in the evidence record). The Jezebel piece the draft cites also mentions the 2016 post. So she has vouched loudly for her father before. The revealing contrast is her public defense in 2016 against her silence in 2022, and the draft's director-versus-father framing hides it. It also undercuts the claim that her loyalty is 'held hardest when they are under attack': the 2016 post is the earliest example, and the 2022 silence is the exception that needs explaining.",
+      "acceptance_test": "The father paragraph states the 2016 Instagram defense with its date, her age and attribution (CBS/AP), quotes the post verbatim, and says nothing about the merits of the allegations. The contrast becomes 2016 against 2022, not just director against father. The post is treated as context from when she was a minor, not as proof of type. A claim citing S14 is added to the evidence inventory."
+    },
+    {
+      "id": "fan-04",
+      "severity": "major",
+      "passage": "Or, having a lazy morning with my boyfriend.",
+      "problem": "The quote matches the Interview transcript word for word, but the draft never names her partner. Since 2023 she has been with the musician Danielle Balbuena (070 Shake). The Harper's Bazaar UK interview the draft already relies on explains the word: Depp calls her \"'my boyfriend', because that's what she feels like.\" Without that, a new reader will picture a male partner, and a fan will read it as a mistake or an erasure. The same Harper's passage also contains a contradiction the 'deliberate distance' section leaves out: \"I've always been really private about my personal life, but it's hard not to talk about her because I'm so happy.\" She breaks her own privacy rule for this relationship, and it is a multi-year attachment on a page whose thesis is loyalty.",
+      "acceptance_test": "The article names 070 Shake (Danielle Balbuena) once, with Harper's Bazaar UK's explanation of 'my boyfriend' quoted verbatim and attributed, and makes no inference about anyone's identity or orientation. If it doesn't, the clause is cut with an ellipsis and the relationship is still mentioned elsewhere with attribution. The privacy or distance passage acknowledges the 'hard not to talk about her' exception. The relationship's dating follows the sources ('for the past two years' as of November 2024) and it is recorded as a time_sensitive claim with a review trigger."
+    },
+    {
+      "id": "fan-05",
+      "severity": "major",
+      "passage": "\"I can definitely say that nothing is going to get you the part except for being right for the part,\" she went on.",
+      "problem": "The nepo-baby section never shows the reader the facts behind the criticism, so it reads as one-sided. The i-D cover story the draft cites says her first role came on the set of Tusk, a film her father was in, where she was 'pretty casually told to jump into a scene'. The director is the father of her childhood best friend. The same piece says Chanel was a house 'her mum had worked with since the 90s' and that she met Karl Lagerfeld at eight. Informed readers know this history. Without it, PAPER's 'public criticism' line has nothing behind it, and her mother's 'many castings' defense goes unchallenged. Leaving out the well-known context rewards the flattering version.",
+      "acceptance_test": "One or two plain, sourced sentences in the bio or the 'Ready to see me fail' section give the Tusk set entry and the family's Chanel link (i-D, February 2023), without sneering, so the reader can see what the critics were reacting to. Claims C02 and C03 in the evidence inventory are updated to match."
+    },
+    {
+      "id": "fan-06",
+      "severity": "minor",
+      "passage": "She keeps a deliberate distance, and she gives a craft reason for it.",
+      "problem": "The reason she gives most often for her privacy is how she was raised, not craft. Elle (Nov 2022): \"my parents protected my brother [Jack] and me from it as much as possible\" and \"I've just been raised in a manner that has taught me that privacy is something that's important to protect.\" Portman/Interview (Dec 2024), the sentence right before the backpack line the draft ends on: \"I've grown up being taught that your private life and your inner life is so precious, and that it really needs to be protected.\" Upbringing is the obvious non-type explanation for both her distance and her 2022 silence. The draft offers 'legal caution, or simply not wanting to relive it' but skips the reason she gives in that same Elle interview.",
+      "acceptance_test": "The distance paragraph or the father paragraph quotes her upbringing reason verbatim with attribution and presents it as an alternative explanation next to the craft reason. The closing backpack quote is introduced with, or at least doesn't contradict, her own 'grown up being taught' framing."
+    },
+    {
+      "id": "fan-07",
+      "severity": "minor",
+      "passage": "Lily-Rose Depp expected to lose her two biggest roles, then went further than anyone asked.",
+      "problem": "The description says this about both roles, and the body generalizes it too ('That pairing runs through her adult career... she goes further in it than almost anyone would ask'). The record supports it for Nosferatu: the thrown paper towels, butoh, the corset, the stage blood. For The Idol her own words are 'I had to go to a lot of really vulnerable places', meaning the role required it. Rolling Stone's well-known reporting described the show's explicit content expanding during production. Read against that, saying Depp went 'further than anyone asked' on The Idol shifts responsibility in a sensitive dispute, without support.",
+      "acceptance_test": "The description and the body sentence starting 'That pairing runs through her adult career' either limit 'further than asked' to Nosferatu or rephrase it to something both roles' sources support. The metadata and the body agree."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Lily-Rose Depp auditioned for Robert Eggers's _Nosferatu_ over Zoom. She was at her family's place in the French countryside, and one of her audition scenes was \"a big freak-out scene.\" So she gathered things to throw.",
+      "reason": "Matches Vanity Fair's account. It's a specific, physical opening, and the rest of the profile pays it off."
+    },
+    {
+      "passage": "Off set, the fear doesn't turn into fuel. When Portman asked about the most daredevil thing she had done, Depp said, \"I used to be way more daredevil-ish when I was a kid, and now I'm scared of everything.\"",
+      "reason": "A real contradiction in her own words, checked against the Portman transcript. It keeps the counterphobic reading honest and leaves it partly unresolved."
+    },
+    {
+      "passage": "Still, she didn't chafe at the fixed form. She was relieved by it, which counts more against the Four than it proves the Six.",
+      "reason": "A well-calibrated inference: it says exactly how much the evidence can carry."
+    },
+    {
+      "passage": "Nobody has described Depp let down by someone she trusted. That is the scene that would test the loyalty reading hardest.",
+      "reason": "Names the missing test of the thesis plainly. Rare and valuable."
+    },
+    {
+      "passage": "When she talks about that role, listen for where she says the steadiness came from: the people and the frame around her, or a feeling she found in herself. The first keeps the Six reading. The second would strengthen the Four.",
+      "reason": "Gives the reader a concrete, durable way to test the type against Werwulf coverage. Keep it, and once fan-01 is fixed, admit that the 2024 Vanity Fair answer already contains one 'within myself' example."
+    }
+  ],
+  "assessment": "Informed-reader pass. I opened the Interview (Portman, Knightley), Elle, Vanity Fair, Harper's Bazaar UK and CBS/AP pages. The quotes the draft uses are verbatim, the dates hold, and 9takes does type Johnny Depp as a 4. The problem is selection. Three times the draft keeps the half of an answer that fits the thesis: VF's 'confident enough within myself... I am here for a reason', Knightley's 'very much my own person', and VF's 'I brought the darkness home'. Each omitted half supports the Type 4 rival on the exact discriminator the article relies on. A fan would also catch three gaps in well-known context: the 2016 Instagram defense of her father, the 070 Shake relationship that the unexplained 'boyfriend' quote points to, and how she got her first jobs through family. Fixing these should qualify the Six-over-Four argument and lower its confidence, not overturn it; medium confidence probably still holds. I'm deliberately not asking for her 2016 anorexia disclosure or her childhood illness. Using either as cause would invent a wound. Optional: name her characters (Jocelyn, Ellen) and mention The King (2019) so the career summary doesn't jump from French indies straight to The Idol."
+}

@@ -1,0 +1,32 @@
+I wrote `verification-edit.json`, and it says **revise**: the Lily-Rose Depp profile isn't release-ready yet. The pipeline's release check also rejects it, for two reasons: one major factual error, and an overall score of 8.4 against the 8.5 floor. The runner will now do its one targeted repair and re-verify. Nothing else in the repo was changed and nothing was published.
+
+**The major error.** The opening says that for the Nosferatu audition "she names no one who helped her through it." The editor added that line to answer two reviewers. Vanity Fair supports it, but the January 2, 2025 Happy Sad Confused podcast, which the profile also cites, contradicts it. There she says she "did, like, a session with, like, our dialect coach before the audition" because she hoped "the accent isn't, like, ridiculous." Three different transcription models agree on that line. The article builds on the claim twice: it calls the audition "unusual," and its own test of the type reading lists it as a counterexample. The error cuts against the article's own argument rather than for it, but it still misstates what she said. The fix is a sentence or two.
+
+**Three minor issues:**
+- "She added" puts a Vanity Fair quote after remarks it actually came before.
+- "there is no long-form testimony" states as fact what the research only failed to find.
+- The test of the type reading, keyed to her next Robert Eggers film, *Werwulf*, could be misread: she already describes acting as finding "a feeling within myself." The test should count what steadies her, not how she reaches emotion for a scene.
+
+**What checked out:**
+- **Sources:** I re-downloaded all 28 sources the claims cite and re-transcribed the key podcast stretches myself. About 140 quoted fragments match word for word.
+- **Claims:** none of the 107 is unsupported; 8 are qualified, mostly for small framing or wording problems.
+- **Reviews:** all 46 reviewer findings were resolved properly, and all 17 passages reviewers asked to keep were preserved.
+- **Open research task:** the podcast line "that's not what's important to me" is now confirmed by a second transcription.
+- **Type reasoning:** the rebuilt argument for Type 6 over Type 4 follows the Enneagram reviewer's own suggestions and keeps the same type, so it doesn't need another round of reviews.
+
+**Scores:**
+
+| Area | Score |
+|---|---|
+| Evidence | 8.5 |
+| Enneagram | 8.0 |
+| Originality | 8.5 |
+| Writing | 8.0 |
+| Durability | 9.0 |
+| Hook | 8.5 |
+| Discoverability | 8.5 |
+| **Overall** | **8.4** |
+
+Fixing the major error alone may not clear 8.5. The Enneagram score is capped by the record itself: no costly choice of hers separates Type 6 from Type 4, and the article admits the lead is narrow. So the repair probably also has to tighten the writing. The second half reads like a list of concessions, and the 168-word biography paragraph is dense.
+
+I also added one lesson to an existing memory file: absence claims an editor adds need checking against every cited source, audio included.

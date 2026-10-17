@@ -1,0 +1,1110 @@
+{
+	"schema_version": 3,
+	"content_sha256": "b41760549661e33623b0d76c39ae16837cd07900053df2c540a5555d6d32fce7",
+	"evidence_sha256": "1d8f0369891c3e1dbf8d2f43a835b4082c77bd522c9384c4e98df5913dc27cd6",
+	"status": "revise",
+	"findings": [
+		{
+			"id": "verify-01",
+			"severity": "major",
+			"passage": "She had never worked with Eggers, and she names no one who helped her through it.",
+			"problem": "A source the profile itself cites contradicts this. On the January 2, 2025 Happy Sad Confused podcast (S34, feed audio about 10:20-10:40; whisper medium.en, large-v3-turbo and small.en agree), she says she prepped for the Zoom audition: 'I did, like, a session with, like, our dialect coach before the audition because I was, like, I hope the accent isn't, like, ridiculous.' She also says she had a Zoom meeting with Eggers 'a couple days before'. Vanity Fair adds that at that first meeting he told her, 'I'm sorry, I know Zoom auditions suck.' So her accounts do name preparation support, which is the plan-and-structure kind of frame the Six reading counts. The edit introduced this sentence (critic-04, unfamiliar-01) and builds on it: 'That makes the audition unusual' and 'Two past cases already strain it: the Zoom audition...' (C115, C117). The error concedes against the thesis rather than for it, but it misstates her record in the hook and in the article's own falsification test.",
+			"acceptance_test": "The hook no longer says she names no one who helped her. Either (a) it attributes, with its date, the podcast's dialect-coach session and says the audition only partly sits outside a frame (she prepped the accent with a coach, then went big on her own), with 'That makes the audition unusual' and the 'Two past cases already strain it' sentence adjusted to match; or (b) the claim is narrowed to what is true ('In that Vanity Fair account she names no one...') and the podcast detail appears where the audition is weighed as a strain case. C117 and C115 are corrected to the new passages, with S34's dialect-coach line recorded. The type answer, persona title and FAQs still agree with the body."
+		},
+		{
+			"id": "verify-02",
+			"severity": "minor",
+			"passage": "She added, \"I'm very close with Sam and Ashley [Levinson]. They're like family to me.\"",
+			"problem": "In Vanity Fair this line comes before 'that was a huge turning point for me' in the same answer, not after it. 'She added' implies an order the source does not show.",
+			"acceptance_test": "The line is introduced without implying it followed the turning-point remarks (for example, 'In the same answer she said'), or the quotes appear in source order."
+		},
+		{
+			"id": "verify-03",
+			"severity": "minor",
+			"passage": "As of October 2026 there is no long-form testimony from the people closest to her",
+			"problem": "This states an absence as a fact about the world. The research establishes only that no such testimony turned up in the opened record (C40). The sentence is dated but not limited to what the search covered.",
+			"acceptance_test": "The sentence is limited to what the research found (for example, 'this profile found no long-form testimony...'), stays dated 'As of October 2026', and C40 remains unresolved with its trigger."
+		},
+		{
+			"id": "verify-04",
+			"severity": "minor",
+			"passage": "When she describes what steadied her through that role, does she credit the people and the frame around her, or a feeling she found in herself?",
+			"problem": "She already routinely describes her acting method as finding 'a feeling within myself that is true and honest' (AU Review, December 2024, S15) and drawing on a 'deeply personal' place (Harper's Bazaar UK). A later refresh could read ordinary craft talk as the Four outcome, so the settle test needs to separate steadying from method.",
+			"acceptance_test": "The settle test, in the C107 and C127 triggers and in at most one added clause in the article, counts what she credits for getting through doubt or fear about a role (whether she could do it, whether she belonged), not descriptions of how she reaches emotion for a scene."
+		}
+	],
+	"research_tasks": [
+		"Optional before the next refresh: open the original ELLE France interview of March 26, 2026; C101 and C123 still rest on Purepeople's report (attributed as such in the text).",
+		"After Werwulf opens (US Dec 25, 2026; UK Jan 1, 2027), apply the C107/C127 settle test. Count only what she credits for steadying her through doubt or fear about the role, not craft descriptions of finding emotion within herself (compare S15, December 2024).",
+		"Look for long-form testimony from people close to her (C40, C105) and any account of her questioning or breaking with a director or collaborator (C104, C139)."
+	],
+	"claim_checks": [
+		{
+			"claim_id": "C01",
+			"verdict": "supported",
+			"reason": "Wikipedia raw wikitext (infobox and Early life) gives 1999-05-27, Neuilly-sur-Seine, the parents and younger brother Jack; Eye for Film and Harper's Bazaar UK also name the parents. 'Outside Paris' matches 'a wealthy suburb of Paris'."
+		},
+		{
+			"claim_id": "C02",
+			"verdict": "supported",
+			"reason": "Interview/Knightley 2021 Q&A: 'I was 16'; 'I had already started working'; 'pursue that, wholeheartedly. I have really strong gut instincts'. 'On her own call' fairly glosses an account that names no adviser."
+		},
+		{
+			"claim_id": "C03",
+			"verdict": "supported",
+			"reason": "i-D (Feb 20, 2023), in the writer's voice and attributed to i-D in the article: 'at fourteen... pretty casually told to jump into a scene'. Wikipedia: debut 2014 in Tusk. Interview 2016: 'My parents trust Kevin a lot'."
+		},
+		{
+			"claim_id": "C04",
+			"verdict": "supported",
+			"reason": "Wikipedia: 'In 2015, at age 16... brand ambassador' (Harper's BAZAAR, July 15, 2015 ref). i-D: 'At fifteen... Chanel, who her mum had worked with since the 90s'. Elle: ambassador 'since she was 16'. W (Sep 14, 2026): Chanel at the Alpha Gang premiere. 'The year she turned 16' reconciles the sources; tracked time_sensitive."
+		},
+		{
+			"claim_id": "C05",
+			"verdict": "supported",
+			"reason": "Wikipedia: The Dancer, nominated for Most Promising Actress at the 42nd César Awards; Planetarium (2016)."
+		},
+		{
+			"claim_id": "C06",
+			"verdict": "supported",
+			"reason": "Wikipedia, Elle, the Vanity Fair intro ('a 19th-century woman possessed') and ET/Vogue Australia (explicit content) support the role descriptions."
+		},
+		{
+			"claim_id": "C08",
+			"verdict": "supported",
+			"reason": "Wikipedia Werwulf infobox and Release section: US Dec 25, 2026 (Focus Features) and UK Jan 1, 2027 (Universal). Empire (Jun 29, 2026): 'mediaeval farmer's wife'. Dated 'as of October 2026'."
+		},
+		{
+			"claim_id": "C10",
+			"verdict": "supported",
+			"reason": "Interview/Knightley Q&A verbatim: 'a sign that I'm invested...' and 'And trust is so huge. ...your partners, with your director, and with your crew members.' The paraphrase is faithful."
+		},
+		{
+			"claim_id": "C11",
+			"verdict": "supported",
+			"reason": "i-D verbatim, inside the writer's imposter-syndrome framing. That matches the article's 'the feeling that she might not belong in a role'."
+		},
+		{
+			"claim_id": "C12",
+			"verdict": "supported",
+			"reason": "Vanity Fair verbatim, answering 'Have you struggled with insecurity in this business?'. The inner double quotes are rendered as single quotes, which is standard nesting."
+		},
+		{
+			"claim_id": "C13",
+			"verdict": "supported",
+			"reason": "Vanity Fair intro: '\"I was really nervous,\" Depp tells me of the audition' and 'Early in our conversation... \"I thought for sure it wasn't going to go my way.\"' Elle 2022 (Idol) and Paris Match (castings) verified. Podcast: 'I'm very like chill' about auditions, plus the 'want this one' span (see C130)."
+		},
+		{
+			"claim_id": "C14",
+			"verdict": "supported",
+			"reason": "i-D: consecutive with the self-talk, verbatim."
+		},
+		{
+			"claim_id": "C16",
+			"verdict": "supported",
+			"reason": "Elle verbatim ('two people who make me feel incredibly safe and protected', then the trust sentence). i-D: 'Talk about trust and comfort.' ET/Vogue Australia: 'I've never felt more respected and more safe on a set'. People/EW: 'surrounded by people that you feel comfortable with'."
+		},
+		{
+			"claim_id": "C17",
+			"verdict": "supported",
+			"reason": "Interview/Portman verbatim. Context: she expected to improvise, found the movement choreographed, and credits movement coach Marie-Gabrielle Rotie. 'Of the choreographed possession scenes' is accurate."
+		},
+		{
+			"claim_id": "C18",
+			"verdict": "supported",
+			"reason": "ET, published 9:57 AM PST March 2, 2023: Rolling Stone released its article 'On Wednesday' (March 1), and Depp's statement is quoted verbatim."
+		},
+		{
+			"claim_id": "C19",
+			"verdict": "supported",
+			"reason": "Rolling Stone's May 23, 2023 follow-up, verbatim: 'Interviews with 13 members of the show's cast and crew', 'often chaotic', and crew members on the change after Amy Seimetz left. Eye for Film confirms Seimetz left."
+		},
+		{
+			"claim_id": "C20",
+			"verdict": "supported",
+			"reason": "Jezebel: 'the one star who especially frustrated Depp fans was his daughter... who didn't appear to acknowledge the trial at all'. Wikipedia Depp v. Heard: Fairfax County, April 11 to June 1, 2022; divorce finalized January 2017, so 'ex-wife' is accurate. Elle gives her explanation."
+		},
+		{
+			"claim_id": "C21",
+			"verdict": "supported",
+			"reason": "Elle: 'people feel like they know you, even though they don't,' she says. \"I'm not here to give myself to the world to be eaten alive.\" The quotes are consecutive and the lead-in is restored. L'Officiel (via r.jina.ai) and Music Times support the privacy and anonymity theme."
+		},
+		{
+			"claim_id": "C22",
+			"verdict": "supported",
+			"reason": "Interview/Portman verbatim; it directly follows 'This industry can be so crazy and you can lose your footing really easily.'"
+		},
+		{
+			"claim_id": "C24",
+			"verdict": "supported",
+			"reason": "Vanity Fair verbatim, followed by 'Not in a vindictive way at all... fuel to my fire.'"
+		},
+		{
+			"claim_id": "C25",
+			"verdict": "supported",
+			"reason": "Elle verbatim. Two separate sentences of one answer are joined with 'and'; the intervening sentence ('The internet cares a lot more...') is not misrepresented. PAPER (Feb 23, 2023): she 'came under fire this past November'."
+		},
+		{
+			"claim_id": "C26",
+			"verdict": "supported",
+			"reason": "Harper's Bazaar UK verbatim: Edward Scissorhands 'aged three'; 'there's a part of me that feels a little bit of empathy for Nosferatu.'"
+		},
+		{
+			"claim_id": "C27",
+			"verdict": "supported",
+			"reason": "Vanity Fair verbatim, in her answer about the audition. L'Officiel: acting is 'the only place where I can really let myself go'."
+		},
+		{
+			"claim_id": "C28",
+			"verdict": "supported",
+			"reason": "Interview/Knightley verbatim, in one answer. 'Then added' spans a single intervening clause."
+		},
+		{
+			"claim_id": "C36",
+			"verdict": "supported",
+			"reason": "Interpretation checked by re-sorting her named fears: Knightley ('Are they sure that I'm the one?'), Vanity Fair (imposter syndrome) and Elle (strangers; 'not for her safety') concern judgment. Only the Portman space and daredevil banter and the Harper's Bazaar UK election remark concern danger."
+		},
+		{
+			"claim_id": "C37",
+			"verdict": "supported",
+			"reason": "Interpretation held at medium confidence. Steadying through trusted people recurs in S03 (2021), S05 (2022), S02 (2023), S01 and S09 (2024) and S34 (2025). The counterexamples are acknowledged in the body."
+		},
+		{
+			"claim_id": "C38",
+			"verdict": "supported",
+			"reason": "Interpretation. Every cited Four item was verified in its source and the medium-confidence cap is stated."
+		},
+		{
+			"claim_id": "C39",
+			"verdict": "qualified",
+			"reason": "The quote is verified on the podcast audio: the verifier's whisper medium.en, large-v3-turbo and small.en all give 'my mom always said to me, like, you know, roles go to the people who are meant to play them. And I totally believe that in my heart.' But the claim text still says the article answers the Nine with 'challenge other people' (C30), which the edit removed. The article now answers it with C130 and C131. The inventory text is stale; the passage is accurate."
+		},
+		{
+			"claim_id": "C40",
+			"verdict": "qualified",
+			"reason": "The opened record contains no long-form testimony. Paradis's 'C'est une bosseuse comme on en voit peu' (Paris Match Belgique, quoting Madame Figaro) and the security guard's 'like a daughter' (Harper's Bazaar UK) are verified. The article, however, states the absence as a fact about the world rather than as what this research found (verify-03)."
+		},
+		{
+			"claim_id": "C41",
+			"verdict": "supported",
+			"reason": "The live 9takes Johnny Depp page reads 'TYPE 4 · THE INDIVIDUALIST' and 'Johnny Depp is an Enneagram Type 4'."
+		},
+		{
+			"claim_id": "C42",
+			"verdict": "supported",
+			"reason": "Vanity Fair verbatim. In the same paragraph it directly follows '\"I was really nervous,\" Depp tells me of the audition'."
+		},
+		{
+			"claim_id": "C43",
+			"verdict": "supported",
+			"reason": "Recounted from fresh copies. Nerves, anxiety or fear about herself appear in S03 (on-set anxiety), S05 ('shy and kind of anxious'), S02 ('I'm so nervous', 'I like the fear'), S07 ('really nervous'), S01 ('I'm so scared' of space, 'now I'm scared of everything') and S09 ('I'm scared', election). None appears in S15 or S35. None appears in S34: the verifier's segments plus a search of the full research transcript find only an ad read and 'terrified of him', which is about acting. Six of nine holds."
+		},
+		{
+			"claim_id": "C44",
+			"verdict": "qualified",
+			"reason": "The inside-a-frame half is well supported (S03, S05, S02, S01, S34). The outside-a-frame half rests only on not using Twitter, not reading coverage and retreating to normal life, which the article itself calls thin. The audition case is affected by verify-01."
+		},
+		{
+			"claim_id": "C46",
+			"verdict": "supported",
+			"reason": "i-D verbatim, quoted inside the 'fuel' sentence."
+		},
+		{
+			"claim_id": "C47",
+			"verdict": "supported",
+			"reason": "Interpretation. It correctly isolates the element specific to a Six and concedes that the other two moves are type-neutral."
+		},
+		{
+			"claim_id": "C48",
+			"verdict": "supported",
+			"reason": "Interview/Knightley verbatim: 'Definitely. The peak of that is right before I start something...'"
+		},
+		{
+			"claim_id": "C49",
+			"verdict": "supported",
+			"reason": "Podcast, feed audio about 20:30-21:10, verifier's whisper medium.en: 'it was my first time working with him... I had that trust with him, because I knew that no matter where he was leading me, it was going to be a great place to be.' Only commas differ."
+		},
+		{
+			"claim_id": "C51",
+			"verdict": "supported",
+			"reason": "Vanity Fair verbatim, in the same answer as the audition."
+		},
+		{
+			"claim_id": "C55",
+			"verdict": "supported",
+			"reason": "Elle: 'she fears not for her safety, but \"that they're going to think I'm really weird or rude...\"'. The writer's framing is marked as the magazine's in the article."
+		},
+		{
+			"claim_id": "C56",
+			"verdict": "supported",
+			"reason": "Interview/Portman verbatim."
+		},
+		{
+			"claim_id": "C57",
+			"verdict": "supported",
+			"reason": "Harper's Bazaar UK verbatim, about the election of Donald Trump. The interview took place on 'a chilly November afternoon' in London (2024); published Jan 3, 2025."
+		},
+		{
+			"claim_id": "C58",
+			"verdict": "supported",
+			"reason": "Harper's Bazaar UK verbatim. The writer's lead-in 'Her solution is to prioritise loyalty and friendship:' is correctly attributed in the article as the magazine's presentation."
+		},
+		{
+			"claim_id": "C59",
+			"verdict": "supported",
+			"reason": "Interpretation. The magazine confirms a Nosferatu promotional day ('She has just done a day's media appearances for her new film') and an election topic."
+		},
+		{
+			"claim_id": "C60",
+			"verdict": "supported",
+			"reason": "Vanity Fair: 'I'm not on Twitter. I'm not reading stuff.' Elle: 'She doesn't have Twitter'."
+		},
+		{
+			"claim_id": "C61",
+			"verdict": "supported",
+			"reason": "Elle verbatim."
+		},
+		{
+			"claim_id": "C62",
+			"verdict": "supported",
+			"reason": "A stated falsifier (interpretation)."
+		},
+		{
+			"claim_id": "C64",
+			"verdict": "supported",
+			"reason": "Rolling Stone follow-up: 'Levinson's scripts reportedly contained disturbing sexual and physically violent scenes between Depp and Tesfaye's characters, three sources told Rolling Stone.' The article correctly labels the phrase as Rolling Stone's own words."
+		},
+		{
+			"claim_id": "C65",
+			"verdict": "supported",
+			"reason": "ET: HBO statement verbatim. ET says HBO 'denied the claims', and the article presents the 'standards' line as HBO's explanation for the change."
+		},
+		{
+			"claim_id": "C67",
+			"verdict": "supported",
+			"reason": "Rolling Stone (May 23, 2023) verbatim; the article omits the opening 'I just wanna say that'."
+		},
+		{
+			"claim_id": "C68",
+			"verdict": "supported",
+			"reason": "ET verbatim; the closing sentence of her statement."
+		},
+		{
+			"claim_id": "C69",
+			"verdict": "supported",
+			"reason": "Vanity Fair verbatim. Wikipedia: 'highly unfavorable reception' and 'cancelled after one season'."
+		},
+		{
+			"claim_id": "C70",
+			"verdict": "qualified",
+			"reason": "Vanity Fair verbatim, in the same answer. In the source, the line comes before 'that was a huge turning point for me', but the article introduces it with 'She added' after those reasons (verify-02)."
+		},
+		{
+			"claim_id": "C72",
+			"verdict": "supported",
+			"reason": "No opened source shows a cost to her from the loyalty."
+		},
+		{
+			"claim_id": "C75",
+			"verdict": "supported",
+			"reason": "Elle verbatim, including the ellipsis."
+		},
+		{
+			"claim_id": "C76",
+			"verdict": "supported",
+			"reason": "Elle verbatim and consecutive; the 'family members or my boyfriends' scope is kept."
+		},
+		{
+			"claim_id": "C77",
+			"verdict": "supported",
+			"reason": "Elle verbatim; 'an open book' with friends."
+		},
+		{
+			"claim_id": "C78",
+			"verdict": "supported",
+			"reason": "The sequence is verified: Jezebel and Elle for the 2022 silence; ET (Mar 2, 2023) for the statement."
+		},
+		{
+			"claim_id": "C81",
+			"verdict": "supported",
+			"reason": "i-D (Feb 20, 2023) verbatim; PAPER (Feb 23, 2023) reproduces it. 'Three months later' (Nov 2022 to Feb 2023) is correct."
+		},
+		{
+			"claim_id": "C82",
+			"verdict": "supported",
+			"reason": "Vanity Fair: 'Absolutely.' She was quoting what she had told 'somebody... the other day'. The article's 'called the hardest part' is faithful."
+		},
+		{
+			"claim_id": "C83",
+			"verdict": "supported",
+			"reason": "Interpretation. The i-D 2023 and Vanity Fair 2024 contexts were both checked."
+		},
+		{
+			"claim_id": "C85",
+			"verdict": "supported",
+			"reason": "Paris Match Belgique (Apr 7, 2023), quoting Madame Figaro: 'C'est une bosseuse comme on en voit peu.'"
+		},
+		{
+			"claim_id": "C86",
+			"verdict": "supported",
+			"reason": "Interpretation, consistent with the Vanity Fair context ('Humility is incredibly important, especially in this business')."
+		},
+		{
+			"claim_id": "C92",
+			"verdict": "supported",
+			"reason": "Podcast, feed audio about 06:45, verifier's whisper medium.en: 'I just need to know in my heart why I'm doing something. And I like the weird stuff, you know?' The spoken words are identical and the sentence join is transcriber punctuation. Context: reception of her films."
+		},
+		{
+			"claim_id": "C94",
+			"verdict": "supported",
+			"reason": "Harper's Bazaar UK. Asked 'Does a fascination for the genre run in the family?', she said 'Sure, I guess you could say so,' says Depp. 'We're very different actors, but of course you're the product of your environment...' The split at the attribution is accurate."
+		},
+		{
+			"claim_id": "C95",
+			"verdict": "supported",
+			"reason": "S07, S01 and S09 are Nosferatu press. S03 (her Silent Night co-star, Sept 2021 issue) and S01 (Portman) are conversations with actors she worked with. S05 and S02 were Idol press."
+		},
+		{
+			"claim_id": "C98",
+			"verdict": "supported",
+			"reason": "Interpretation. The remainder items for each side were verified in context."
+		},
+		{
+			"claim_id": "C100",
+			"verdict": "supported",
+			"reason": "Vanity Fair verbatim; the same answer as 'This isn't fair!'."
+		},
+		{
+			"claim_id": "C101",
+			"verdict": "supported",
+			"reason": "Purepeople (Mar 27, 2026), quoting ELLE France 'paru ce 26 mars', verbatim. The translation is the author's and accurate. The article attributes the line 'as reported by Purepeople'; the original ELLE France was not opened."
+		},
+		{
+			"claim_id": "C103",
+			"verdict": "supported",
+			"reason": "Vanity Fair verbatim, in her answer about the chatter around The Idol."
+		},
+		{
+			"claim_id": "C104",
+			"verdict": "supported",
+			"reason": "A dated absence: no opened source shows her questioning or testing a director or collaborator."
+		},
+		{
+			"claim_id": "C105",
+			"verdict": "supported",
+			"reason": "A dated absence, consistent with the opened record."
+		},
+		{
+			"claim_id": "C106",
+			"verdict": "supported",
+			"reason": "Empire (Jun 29, 2026) verbatim, in answer to 'Clearly this is a very different role for Lily after Nosferatu'."
+		},
+		{
+			"claim_id": "C107",
+			"verdict": "supported",
+			"reason": "A concrete settle signal. A minor ambiguity with craft talk is noted in verify-04."
+		},
+		{
+			"claim_id": "C108",
+			"verdict": "supported",
+			"reason": "Interview/Portman verbatim, answering the thin-skin/thick-skin question."
+		},
+		{
+			"claim_id": "C109",
+			"verdict": "supported",
+			"reason": "Interview/Portman verbatim, two sentences later in the same answer."
+		},
+		{
+			"claim_id": "C110",
+			"verdict": "supported",
+			"reason": "The title matches the sourced hook ('really nervous', then the paper towels)."
+		},
+		{
+			"claim_id": "C111",
+			"verdict": "supported",
+			"reason": "The description matches C43, the trust quotes and the Nosferatu audition."
+		},
+		{
+			"claim_id": "C112",
+			"verdict": "supported",
+			"reason": "Vanity Fair: 'One of the sides was a big freak-out scene.' The article renders 'sides' as 'scenes' outside the quotation marks, which is accurate. Family place in the French countryside verified."
+		},
+		{
+			"claim_id": "C113",
+			"verdict": "supported",
+			"reason": "Wikipedia: 'In 2012, after 14 years together, Depp's parents separated and arranged joint custody'; 'bilingual in English and French'."
+		},
+		{
+			"claim_id": "C114",
+			"verdict": "supported",
+			"reason": "Podcast, verifier's whisper medium.en: 'it was my first time working with him. But I love his work so much.'"
+		},
+		{
+			"claim_id": "C115",
+			"verdict": "qualified",
+			"reason": "The school case holds. The audition case only partly lacks a frame. On S34 (feed audio about 10:20-10:40; medium.en, large-v3-turbo and small.en agree) she says 'I did, like, a session with, like, our dialect coach before the audition because... I hope the accent isn't, like, ridiculous'. She also says she had a Zoom meeting with Eggers 'a couple days before' (verify-01)."
+		},
+		{
+			"claim_id": "C116",
+			"verdict": "supported",
+			"reason": "Interpretation, hedged in the body ('Sixes fear the group's judgment too')."
+		},
+		{
+			"claim_id": "C117",
+			"verdict": "qualified",
+			"reason": "The Vanity Fair quote is verbatim and 'never worked with Eggers' is confirmed by S34. But 'names no one who helped her through' the audition is contradicted by S34's pre-audition session with the dialect coach, a source the claim itself cites (verify-01)."
+		},
+		{
+			"claim_id": "C118",
+			"verdict": "supported",
+			"reason": "Elle verbatim. The writer's note that she is not comparing her work to medicine is omitted without distortion."
+		},
+		{
+			"claim_id": "C119",
+			"verdict": "supported",
+			"reason": "Elle verbatim, in the passage about internet comments ('you're never going to please everybody')."
+		},
+		{
+			"claim_id": "C120",
+			"verdict": "supported",
+			"reason": "Interview/Portman verbatim; directly follows 'anchor you'."
+		},
+		{
+			"claim_id": "C121",
+			"verdict": "supported",
+			"reason": "Vanity Fair verbatim; the article's clip ends at 'wrong reasons' without changing the meaning."
+		},
+		{
+			"claim_id": "C122",
+			"verdict": "supported",
+			"reason": "Vanity Fair verbatim; directly follows C121."
+		},
+		{
+			"claim_id": "C123",
+			"verdict": "supported",
+			"reason": "Purepeople: '\"En vrai, on est très semblables\", reconnaît-elle lors d'un entretien pour le magazine ELLE, paru ce 26 mars', followed by 'j'en suis assez contente'. The context is personality, not looks."
+		},
+		{
+			"claim_id": "C124",
+			"verdict": "supported",
+			"reason": "Interpretation. The outward items (S03, S01, S09, S34) and inward items (S03, S07, S34, S37) were each verified."
+		},
+		{
+			"claim_id": "C125",
+			"verdict": "supported",
+			"reason": "Interpretation, hedged ('Neither rules out the Four, and both fit a Three')."
+		},
+		{
+			"claim_id": "C126",
+			"verdict": "supported",
+			"reason": "Interpretation. Jezebel documents the cost of the silence and PAPER documents the nepo-baby backlash."
+		},
+		{
+			"claim_id": "C127",
+			"verdict": "qualified",
+			"reason": "Inward answers appear in Vanity Fair 2024, the 2025 podcast and ELLE France 2026. They also appear earlier: Knightley 2021, 'I'm very much my own person'; Elle 2022, 'ready to be defined for the things that I put out there'. So 'more frequent from 2024 to 2026' is a soft reading of a small sample. It is labeled, dated and tracked as unresolved."
+		},
+		{
+			"claim_id": "C128",
+			"verdict": "supported",
+			"reason": "Closes the research task. The verifier transcribed feed audio 05:00-08:15 with whisper medium.en: 'of course you make something and you hope that people enjoy it and that it resonates with people. But at the end of the day, that's not what's important to me.' Context: reception of her films, including the Kevin Smith films."
+		},
+		{
+			"claim_id": "C129",
+			"verdict": "supported",
+			"reason": "Vanity Fair verbatim on the storyboards, the crew and 'this real team feeling'; Portman on the movement coach and choreography."
+		},
+		{
+			"claim_id": "C130",
+			"verdict": "supported",
+			"reason": "Podcast, feed audio about 09:25: large-v3-turbo and small.en give the span 'I really, really want this one' after false starts; medium.en compressed it to 'I really want, I really want this one'. The span is spoken. Vanity Fair: 'really nervous'."
+		},
+		{
+			"claim_id": "C131",
+			"verdict": "supported",
+			"reason": "ET (Mar 2, 2023), Rolling Stone/Cannes (May 23, 2023) and Vanity Fair (Nov 21, 2024) all verified. Podcast (Jan 2, 2025; YouTube upload date 20250102), verifier's medium.en: 'people talking shit about Sam... couldn't be further from the truth'."
+		},
+		{
+			"claim_id": "C132",
+			"verdict": "supported",
+			"reason": "Tracked metadata category; Wikipedia career dates checked."
+		},
+		{
+			"claim_id": "C133",
+			"verdict": "supported",
+			"reason": "The FAQ matches the 60-word body answer (exactly 60 words), including medium confidence and Types 4 and 3."
+		},
+		{
+			"claim_id": "C134",
+			"verdict": "supported",
+			"reason": "The FAQ restates the body's two leans and its cost conclusion, and dates the trend 'since 2024'."
+		},
+		{
+			"claim_id": "C135",
+			"verdict": "supported",
+			"reason": "The FAQ follows the Elle answer order with the 'maybe' hedge, then the dated i-D follow-up."
+		},
+		{
+			"claim_id": "C136",
+			"verdict": "supported",
+			"reason": "The FAQ is consistent with Elle and Depp v. Heard."
+		},
+		{
+			"claim_id": "C137",
+			"verdict": "supported",
+			"reason": "The persona title is an interpretation consistent with C17, C49 and C109."
+		},
+		{
+			"claim_id": "C138",
+			"verdict": "supported",
+			"reason": "Interpretation, checked against Elle, Portman and Harper's Bazaar UK."
+		},
+		{
+			"claim_id": "C139",
+			"verdict": "supported",
+			"reason": "Interpretation consistent with C104."
+		},
+		{
+			"claim_id": "C140",
+			"verdict": "supported",
+			"reason": "Interview intro: 'her Silent Night co-star'."
+		},
+		{
+			"claim_id": "C141",
+			"verdict": "supported",
+			"reason": "Wikipedia: Portman 'handpicked Depp to play her younger sister' in Planetarium. Interview calls Portman 'her old friend', and Depp says they met when she was 16."
+		}
+	],
+	"source_checks": [
+		{
+			"source_id": "S01",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fresh r.jina.ai copy (published 2024-12-03; call dated Oct 25, 2024): choreography, fears, 'anchor you' and the Portman call, thin/thick-skin backpack answer."
+		},
+		{
+			"source_id": "S02",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fresh copy (i-D, Feb 20, 2023): Tusk/Chanel origins, imposter-syndrome answer, 'so careful' nepo passage, 'Talk about trust and comfort'."
+		},
+		{
+			"source_id": "S03",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fresh r.jina.ai copy (published 2021-08-30): on-set anxiety answer, leaving school at 16, judged-through-parents answer, Silent Night intro."
+		},
+		{
+			"source_id": "S04",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fresh r.jina.ai copy (2016-01-27): Brown Q&A answer on Tusk, 'My parents trust Kevin a lot'."
+		},
+		{
+			"source_id": "S05",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fresh copy (Elle, datePublished 2022-11-16): audition, Levinson/Tesfaye safety, privacy/secret garden, strangers, 'loved ones', nepo-baby passage incl. doctor and women remarks."
+		},
+		{
+			"source_id": "S07",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fresh copy (Vanity Fair, Nov 21, 2024; CloudFront 200): intro paragraphs; Zoom audition Q&A; emotional scenes; storyboards/team; The Idol answers; insecurity; 'ready to see me fail' and 'This isn't fair!'."
+		},
+		{
+			"source_id": "S09",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fresh copy (Harper's Bazaar UK, published 2025-01-03; November 2024 London interview): Scissorhands/Nosferatu empathy, gothic-in-the-family answer, election and 'hold tight', final paragraph."
+		},
+		{
+			"source_id": "S10",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Same URL as S09 (fresh copy): final paragraph, long-term security guard says she is 'like a daughter' to him."
+		},
+		{
+			"source_id": "S11",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fresh copy (ET, published 9:57 AM PST Mar 2, 2023): 'On Wednesday' report timing, HBO statement, Depp's full statement."
+		},
+		{
+			"source_id": "S12",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fresh copy (Rolling Stone, May 23, 2023): paragraphs summarizing the March report (13 members, often chaotic, Seimetz, three sources) and Depp's Cannes remark."
+		},
+		{
+			"source_id": "S13",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fresh copy (Eye for Film, May 23, 2023): opening paragraphs naming her parents; Seimetz leaving after several episodes."
+		},
+		{
+			"source_id": "S15",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fresh copy (AU Review, Dec 18, 2024): full Q&A searched; no fear about herself; 'find a feeling within myself' craft answer noted (verify-04)."
+		},
+		{
+			"source_id": "S16",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fresh r.jina.ai copy (direct fetch returned an unrelated shell): profile text, 'the only place where I can really let myself go', interviewer's note on protecting herself."
+		},
+		{
+			"source_id": "S20",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fresh copy (People via Yahoo, Jun 3, 2023): EW quotes on feeling 'surrounded by people that you feel comfortable with, people that have your back'."
+		},
+		{
+			"source_id": "S22",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fresh copy (Empire, datePublished 2026-06-29): Q&A answer on the Werwulf role, 'so far from Lily'."
+		},
+		{
+			"source_id": "S23",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fresh copy (Paris Match Belgique, 2023-04-07): Paradis quoted from Madame Figaro, 'bosseuse comme on en voit peu', castings where she was not chosen."
+		},
+		{
+			"source_id": "S25",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fresh raw wikitext + HTML (Oct 16, 2026): infobox, Early life (birth, brother, 2012 separation, bilingual, 2016 dropout), Career (Tusk 2014, Chanel 2015 at 16, Planetarium, César, The Idol reception and cancellation)."
+		},
+		{
+			"source_id": "S26",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fresh raw wikitext (Oct 16, 2026): infobox released field and Release section (US Dec 25, 2026; UK Jan 1, 2027)."
+		},
+		{
+			"source_id": "S28",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fresh copy (W, Sep 14, 2026): first paragraphs, Chanel gown at Alpha Gang TIFF premiere."
+		},
+		{
+			"source_id": "S31",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fresh copy (Music Times, Dec 30, 2024): Daily Telegraph AU quotes on protecting anonymity; supports the privacy theme only."
+		},
+		{
+			"source_id": "S32",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fresh copy (Jezebel, Nov 2022): paragraphs 1-2, 'especially frustrated Depp fans', 'didn't appear to acknowledge the trial'."
+		},
+		{
+			"source_id": "S33",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fresh copy (PAPER, 23 February 2023): 'came under fire this past November', i-D 'so careful' quote."
+		},
+		{
+			"source_id": "S34",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fresh download of feed MP3 (md5 identical to research copy; YouTube upload 20250102). Verifier re-transcribed 05:00-08:15, 08:30-10:50, 20:20-21:40, 32:45-35:00 with whisper medium.en and the 09:00-10:55 clips with large-v3-turbo and small.en. Quoted spans confirmed; dialect-coach session before the audition at about 10:20-10:40 (verify-01)."
+		},
+		{
+			"source_id": "S35",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fresh copy (AwardsWatch, Dec 2024): article text above the video searched; no fear about herself (only the writer's 'fearless arrival')."
+		},
+		{
+			"source_id": "S36",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fresh copy (ET, 2023-06-29): Vogue Australia quotes, 'never felt more respected and more safe on a set', provocative-show remarks."
+		},
+		{
+			"source_id": "S37",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fresh copy (Purepeople, datePublished 2026-03-27): paragraphs quoting ELLE France of Mar 26, 2026 ('En vrai, on est très semblables'; 'Désormais...')."
+		},
+		{
+			"source_id": "S40",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Live 9takes page fetched Oct 16, 2026: header 'TYPE 4 · THE INDIVIDUALIST' and type answer."
+		},
+		{
+			"source_id": "S41",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fresh raw wikitext (Oct 16, 2026): lead (Fairfax County, April 11 to June 1, 2022; Depp as plaintiff) and divorce finalized January 2017."
+		}
+	],
+	"decision_checks": [
+		{
+			"finding_id": "subject-01",
+			"accepted": true,
+			"reason": "Met: the danger discriminator is gone from body and Type 4 FAQ; 'eaten alive' now follows its 'people feel like they know you' lead-in; Elle's 'not for her safety' is restored; 'things get dangerous' is unused."
+		},
+		{
+			"finding_id": "subject-02",
+			"accepted": true,
+			"reason": "Met: 60-word answer (exactly 60) and type FAQ both say 'On her public record... at medium confidence' and name Types 4 and 3; 'She talks about her fear often' is gone."
+		},
+		{
+			"finding_id": "subject-03",
+			"accepted": true,
+			"reason": "Met: the Elle childhood line is no longer in the nepo answer; gender point and 'lot of work' sentence included; 'Critics had material' cut; nepo FAQ keeps 'maybe'."
+		},
+		{
+			"finding_id": "subject-04",
+			"accepted": true,
+			"reason": "Met: 'anonymous' removed; HBO's standards line framed as its explanation for the switch, verified against the full ET statement."
+		},
+		{
+			"finding_id": "subject-05",
+			"accepted": true,
+			"reason": "Met: 'in a line the magazine presented as her \"solution\"' matches Harper's Bazaar UK's lead-in; the promotional setting is stated."
+		},
+		{
+			"finding_id": "subject-06",
+			"accepted": true,
+			"reason": "Met: no 2016 or other minor-era material remains (only film years); the school sentence now uses her words."
+		},
+		{
+			"finding_id": "subject-07",
+			"accepted": true,
+			"reason": "Met: the photo-overthinking quote is gone."
+		},
+		{
+			"finding_id": "subject-08",
+			"accepted": true,
+			"reason": "Met: H2 is now the 'people around you' line; skydiving banter removed entirely."
+		},
+		{
+			"finding_id": "fan-1",
+			"accepted": true,
+			"reason": "Met: both halves of the Harper's Bazaar UK answer appear; 'extension of your family' and 'très semblables' show identification; 'it just is what it is' is unused; 'trying to find my own identity' is quoted and the Four section weighs the parentage question with the Knightley answer."
+		},
+		{
+			"finding_id": "fan-2",
+			"accepted": true,
+			"reason": "Met: 'I'm not ashamed' is gone from the article and the evidence (C35 deleted)."
+		},
+		{
+			"finding_id": "fan-3",
+			"accepted": true,
+			"reason": "Met: Elle answer in real order with doctor and women remarks; i-D 2023 version dated after the backlash; FAQ matches. Declining to say which remark drew the backlash is evidence-based: PAPER says only that she 'appeared to dismiss the critics'."
+		},
+		{
+			"finding_id": "fan-4",
+			"accepted": true,
+			"reason": "Met: 'It still explains some' plus her own reasons ('huge turning point', 'how to dance, and sing') verified in Vanity Fair."
+		},
+		{
+			"finding_id": "fan-5",
+			"accepted": true,
+			"reason": "Met: 'whether that's my family members or my boyfriends' kept; relationship speculation correctly avoided."
+		},
+		{
+			"finding_id": "fan-6",
+			"accepted": true,
+			"reason": "Met: 'full of dualities' unused; bio adds the 2012 separation and bilingual line (Wikipedia verified)."
+		},
+		{
+			"finding_id": "fan-7",
+			"accepted": true,
+			"reason": "Met: Portman call sentence included; Portman and Knightley identified by working relationship; limits note two interviews were with actors she worked with."
+		},
+		{
+			"finding_id": "fan-8",
+			"accepted": true,
+			"reason": "Met: the 2016 sentence and paragraph are removed; Heard identified as ex-wife (divorce finalized January 2017 per S41)."
+		},
+		{
+			"finding_id": "critic-01",
+			"accepted": true,
+			"reason": "Met: fears sorted by object and demoted to non-decisive ('can't decide the case'); 'I'm not ashamed' dropped; opening and FAQ no longer claim fear is named most often."
+		},
+		{
+			"finding_id": "critic-02",
+			"accepted": true,
+			"reason": "Met: 'three for Nosferatu' and 'all six... while promoting something' are accurate per S07, S01, S09."
+		},
+		{
+			"finding_id": "critic-03",
+			"accepted": true,
+			"reason": "Met: discriminator removed and context restored as subject-01."
+		},
+		{
+			"finding_id": "critic-04",
+			"accepted": true,
+			"reason": "Acceptance test met: her stated reason is quoted, 'as far as her own words show' is gone, and the test paragraph names the audition and school decision as past cases. The replacement sentence 'she names no one who helped her through it' is itself inaccurate against S34 and is raised as verify-01."
+		},
+		{
+			"finding_id": "critic-05",
+			"accepted": true,
+			"reason": "Met: the link is labeled 'this profile's inference, not a reason she gave'; the episodes are called type-neutral; 2016 removed from the comparison."
+		},
+		{
+			"finding_id": "critic-06",
+			"accepted": true,
+			"reason": "Met: the outside-a-frame half is reduced to 'rests on thin evidence'; skydiving cut; 'every one of those steps' replaced by 'Depp shows the first half often.'"
+		},
+		{
+			"finding_id": "critic-07",
+			"accepted": true,
+			"reason": "Met: corpse line removed; Three weighed on what she measures herself by and credit allocation; 'isn't ruled out'."
+		},
+		{
+			"finding_id": "critic-08",
+			"accepted": true,
+			"reason": "Met: wording now matches S12 ('interviews with 13 cast and crew members'); research task added for the March 1 report."
+		},
+		{
+			"finding_id": "unfamiliar-01",
+			"accepted": true,
+			"reason": "Acceptance test met as written: within the first 250 words the audition is called unusual, and the school passage refers back to the test. The factual basis of 'names no one' is incomplete (verify-01)."
+		},
+		{
+			"finding_id": "unfamiliar-02",
+			"accepted": true,
+			"reason": "Met: the danger claim is gone everywhere; the secret garden reason is credited as 'a reason a Four would give'."
+		},
+		{
+			"finding_id": "unfamiliar-03",
+			"accepted": true,
+			"reason": "Met: denominator given ('six of the nine long interviews'); the verifier's independent recount agrees."
+		},
+		{
+			"finding_id": "unfamiliar-04",
+			"accepted": true,
+			"reason": "Met: the section now ends on the contrast as 'the hardest fact in her file', with non-type explanations labeled as inference."
+		},
+		{
+			"finding_id": "unfamiliar-05",
+			"accepted": true,
+			"reason": "Met in substance: the Four section is about 610 words (target roughly 600); triad re-explanation reduced to a clause; Types 3 and 9 have their own H2; body 3,684 words, about 5% over 'about 3,500', justified by context restored for other findings, with no counterevidence cut."
+		},
+		{
+			"finding_id": "unfamiliar-06",
+			"accepted": true,
+			"reason": "Met: H2 changed; skydiving line removed."
+		},
+		{
+			"finding_id": "unfamiliar-07",
+			"accepted": true,
+			"reason": "Met: the relationship paragraph is cut, so no undated status remains."
+		},
+		{
+			"finding_id": "unfamiliar-08",
+			"accepted": true,
+			"reason": "Met: 'Désormais' quoted with translation where cited; Heard identified on first mention; guard remark linked to Harper's Bazaar UK; Chanel age phrased as 'the year she turned 16'."
+		},
+		{
+			"finding_id": "enneagram-01",
+			"accepted": true,
+			"reason": "Met: the privacy-against-danger claim is removed; misknown and misdefined reasons acknowledged (C21, C55, C76, C116); C96 deleted."
+		},
+		{
+			"finding_id": "enneagram-02",
+			"accepted": true,
+			"reason": "Met: options (b) plus a light (a); 'I'm not ashamed' dropped; hook, answer and FAQ no longer rely on fear words."
+		},
+		{
+			"finding_id": "enneagram-03",
+			"accepted": true,
+			"reason": "Met: craft/promotion discount applied to both sides ('Strip the craft talk from both sides'); Six lead rests on the reviewer's suggested remainder (C11/C47, C120, C119, C58) and the 'This isn't fair!' passage; confidence stays medium. This rebuilt argument follows the reviewer's own guidance and keeps Type 6, so it is not a new thesis or risk needing another jury."
+		},
+		{
+			"finding_id": "enneagram-04",
+			"accepted": true,
+			"reason": "Met: 'Cost doesn't tip it either' names the 2022 silence and the nepo remarks and concludes no costly choice separates 6 from 4."
+		},
+		{
+			"finding_id": "enneagram-05",
+			"accepted": true,
+			"reason": "Met: looks test and 'ce n'est pas mon ambition' dropped; credit allocation and C128 used with a press-modesty caveat; Type 3 named in answer and FAQ."
+		},
+		{
+			"finding_id": "enneagram-06",
+			"accepted": true,
+			"reason": "Met: the Six description now includes doubting and testing supports and concedes she shows only the first half; 'The first move is the one to watch' names the Six-specific element."
+		},
+		{
+			"finding_id": "enneagram-07",
+			"accepted": true,
+			"reason": "Met: calm weighed ('Her calm covers the ordinary; her nerves rise with what she wants most'); the Nine rebuttal uses the sourced public side over The Idol (verified March 2023 to January 2025)."
+		},
+		{
+			"finding_id": "enneagram-08",
+			"accepted": true,
+			"reason": "Met: title, meta_title, description, type FAQ, Type 4 FAQ and 60-word answer all state the body's discriminator and medium confidence."
+		},
+		{
+			"finding_id": "future-01",
+			"accepted": true,
+			"reason": "Met: C127 added (interpretation, unresolved, trigger per press cycle); C37 and C44 relabeled unresolved pointing to C62/C107; C107's trigger lists every field to revisit."
+		},
+		{
+			"finding_id": "future-02",
+			"accepted": true,
+			"reason": "Met: section is 'How to test this read'; Werwulf is 'The first test scheduled after this profile was written' and the test applies 'to every hard role after it'; reads true on 2027-02-01."
+		},
+		{
+			"finding_id": "future-03",
+			"accepted": true,
+			"reason": "Met: relationship sentence removed."
+		},
+		{
+			"finding_id": "future-04",
+			"accepted": true,
+			"reason": "Met: 'As of October 2026, the Six's skeptical side is missing.' opens the paragraph; the testimony absence is dated too."
+		},
+		{
+			"finding_id": "future-05",
+			"accepted": true,
+			"reason": "Met: Type 4 FAQ dates the trend 'since 2024'; type FAQ says 'at medium confidence'."
+		},
+		{
+			"finding_id": "future-06",
+			"accepted": true,
+			"reason": "Met: newMovieStar kept with a time_sensitive claim (C132) and a dated removal trigger; reasonable given 2023-2024 lead roles."
+		}
+	],
+	"prior_blocker_checks": [],
+	"protected_checks": [
+		{
+			"passage": "She was scared, she said so, and she threw the paper towels anyway.",
+			"preserved": true,
+			"reason": "Present verbatim as the hook's turn; the sentences after it now give her stated reason (though see verify-01 on 'names no one')."
+		},
+		{
+			"passage": "Each time, her stated reason is her own experience as the actor in those scenes. He \"has always created an environment in which I felt seen, heard, and appreciated,\" her statement said. That is the plainest explanation, and it needs no type at all.",
+			"preserved": true,
+			"reason": "Present verbatim before any type reading of the Levinson defense."
+		},
+		{
+			"passage": "Plenty of people defend their friends, so loyalty alone doesn't make her a Six.",
+			"preserved": true,
+			"reason": "Present verbatim, now followed by the labeled-inference sentence."
+		},
+		{
+			"passage": "It would be easy to say the Four runs in the family, since 9takes reads her father, [Johnny Depp](/personality-analysis/johnny-depp), as a Type 4. A parent's type proves nothing about a child, and she has said they are \"very different actors.\"",
+			"preserved": true,
+			"reason": "Changed for a necessary correction: the clipped 'very different actors' reversed her answer (fan-1). The refusal of the inherited-type shortcut is kept word for word in the first two sentences and now rests on both halves of her actual answer."
+		},
+		{
+			"passage": "Nobody has described Depp let down by someone she trusted. That is the scene that would test the loyalty reading hardest.",
+			"preserved": true,
+			"reason": "Present verbatim."
+		},
+		{
+			"passage": "That claim can be tested. If she started taking big risks with no trusted people or structure around her, the Six reading would weaken.",
+			"preserved": true,
+			"reason": "Present verbatim, now followed by the past cases that strain it."
+		},
+		{
+			"passage": "That is the clearest link in her record between fear and allegiance, and it was about politics, not a film she was selling.",
+			"preserved": true,
+			"reason": "Changed for accuracy: 'not a film she was selling' overstated distance from promotion (subject-05). The contribution, singling this quote out from junket talk, survives in 'That is the clearest link... It came in a Nosferatu promotional interview, but it was about the election, not the film.'"
+		},
+		{
+			"passage": "\"You have all your super-private feelings in your backpack, and you go to work and the scene starts and you let it out.\"",
+			"preserved": true,
+			"reason": "Present verbatim as the closing blockquote."
+		},
+		{
+			"passage": "Some of this is the job. On a sexually explicit series, trust-and-safety language is standard, and a lot of it was said while promoting a show.",
+			"preserved": true,
+			"reason": "Present verbatim."
+		},
+		{
+			"passage": "Many Sixes test authority before they trust it. Her public record shows trust in directors and collaborators, and no testing of them. That leaves the Loyalist reading one-sided.",
+			"preserved": true,
+			"reason": "Present verbatim, now dated by the preceding sentence."
+		},
+		{
+			"passage": "Faith in the people who chose her, preparation down to the last rock, and fear kept on as fuel. That is a Six's toolkit, laid out in one answer.",
+			"preserved": true,
+			"reason": "First sentence (the author's synthesis of her three moves) kept verbatim; the overclaim 'That is a Six's toolkit' replaced by a sentence naming the Six-specific element (enneagram-06). Contribution retained."
+		},
+		{
+			"passage": "When she describes what steadied her through that role, does she credit the people and the frame around her, or a feeling she found in herself? The first keeps the Six. The second strengthens the Four.",
+			"preserved": true,
+			"reason": "Present verbatim, now generalized to every later role."
+		},
+		{
+			"passage": "You have all your super-private feelings in your backpack, and you go to work and the scene starts and you let it out.",
+			"preserved": true,
+			"reason": "Present verbatim as the closing blockquote."
+		},
+		{
+			"passage": "In 2023 the doubt was settled by the people who chose her. Here she wants it settled \"within myself,\" and she says getting there has been a struggle. That is a real shift, and it counts toward the Four reading below.",
+			"preserved": true,
+			"reason": "Present verbatim; the Four section still follows."
+		},
+		{
+			"passage": "By my count of her interviews from 2021 to 2025, fear is the hard feeling she names about herself most often.",
+			"preserved": true,
+			"reason": "The protected contribution, a closed 2021-2025 date range for the frequency claim, is kept in 'six of the nine long interviews this profile draws on from 2021 to 2025'. The 'most often' comparison was removed for an evidence reason (critic-01, enneagram-02); the verifier's recount supports the new figure."
+		},
+		{
+			"passage": "Promotion explains less of what came after. In November 2024, with the series panned and cancelled, she told Vanity Fair, \"But I stand by it. We made a choice and we went for it.\"",
+			"preserved": true,
+			"reason": "Present verbatim, followed by the promotional context (fan-4)."
+		},
+		{
+			"passage": "As of October 2026 there is no long-form testimony from the people closest to her, only her mother's defense, her longtime security guard's remark that she is \"like a daughter\" to him, and praise from collaborators in release weeks.",
+			"preserved": true,
+			"reason": "Dated, specific statement of the gap is kept, with attributions added and linked (her mother's 2023 praise, the guard's remark). Preserved; see verify-03 for a scoping nit."
+		}
+	],
+	"coverage_complete": true,
+	"metadata_consistent": true,
+	"alternative_type_addressed": true,
+	"five_year_test_passed": true,
+	"open_case_eligible": false,
+	"scores": {
+		"evidence": {
+			"score": 8.5,
+			"passage": "Three sources said his scripts contained what Rolling Stone called \"disturbing sexual and physically violent scenes\" between Depp's and Tesfaye's characters.",
+			"reason": "I reopened all 28 cited sources from fresh fetches and re-transcribed the podcast audio. About 140 quoted fragments match verbatim, and the contexts the reviewers flagged now hold: the 'eaten alive' lead-in, the 'boyfriends' scope, both halves of the Harper's Bazaar UK answer, the Elle nepo answer in order and HBO's full statement. The Idol section attributes each disputed claim to the dated Rolling Stone follow-up and ET without adjudicating it, and inferences are labeled locally ('this profile's inference'). Key episodes are corroborated across outlets (ET, Rolling Stone, Vanity Fair and the podcast for the Levinson defense; Jezebel and Elle for the silence; Elle, PAPER and i-D for the nepo arc). Deductions: the hook's 'names no one who helped her' is contradicted by the podcast (verify-01), one implied sequence ('She added'), an unscoped absence claim, and motive evidence that is almost entirely her own press-cycle self-report, as the article concedes. Above the 8 anchor, short of 9."
+		},
+		"enneagram": {
+			"score": 8.0,
+			"passage": "Two things still tip it toward the Six. **First, where she goes when she doubts herself.** Her outward answers cover the most ground: a hard scene, a \"crazy\" industry, a world out of control.",
+			"reason": "The Six reading rests on a repeated, dated pattern: she settles doubt through the people who chose her or have known her for years (i-D 2023, Knightley 2021, Elle 2022, Portman 2024, Harper's Bazaar UK 2024, the 2025 podcast). The Four is tested seriously. The craft and promotion discount is applied to both sides, the cost test is run and found neutral, the rival evidence is quoted in her own words, and two sourced discriminators favor the Six: outward versus inward steadying, and her explicit rejection of 'This isn't fair!'. Types 3 and 9 get sourced, non-stereotyped tests, and the Nine rebuttal held up against the audio. It stays at the 8 anchor rather than above it because, as the article says, no costly choice separates 6 from 4, the Six's doubting and testing half is absent, and the lead over the Four is narrow. Medium confidence matches the record."
+		},
+		"originality": {
+			"score": 8.5,
+			"passage": "In 2023 the doubt was settled by the people who chose her. Here she wants it settled \"within myself,\" and she says getting there has been a struggle.",
+			"reason": "The details are specific to her and verified: the paper towels thrown while 'really nervous', the 'secret garden', the backpack, the election 'hold tight', the call to Portman 'when I'm struggling with a scene', and standing by The Idol after cancellation while staying silent about her father. The best insight tracks where her reassurance comes from over time (2023, 2024, 2026), and an unresolved contradiction survives the type argument. Short of 9: the central 'leans on trusted collaborators' observation is partly the ordinary condition of actors, as the article admits, and short type primers (head triad, 'Fives pull back into knowledge') remain."
+		},
+		"writing": {
+			"score": 8.0,
+			"passage": "Two arguments that seem to favor the Six don't hold up. Her fear words, as shown above, mostly concern being judged.",
+			"reason": "The prose is clean and precise, with turns that land ('She was scared, she said so, and she threw the paper towels anyway.'; 'it is the hardest fact in her file'), and most sections add a new domain: work, life, loyalty, privacy, the shift in her doubt, rivals, gaps, the test. But the second half reads like a ledger of concessions ('don't hold up... still tip it... Cost doesn't tip it either... The inward answers are real, though'). The 168-word biography paragraph is a dense fact block, and 'Promotion explains less... It still explains some.' stutters. Readable and honest rather than compelling throughout."
+		},
+		"durability": {
+			"score": 9.0,
+			"passage": "The first test scheduled after this profile was written is Eggers's _Werwulf_, set as of October 2026 for release in the US on December 25, 2026, and in the UK on January 1, 2027",
+			"reason": "Every changing fact carries an absolute date: the Werwulf dates, the 'As of October 2026' absences, the inward trend 'from 2024 to 2026' and the FAQ's 'since 2024'. The thesis rests on dated 2021-2025 interviews and survives removing all 2026 material. The settle test applies to 'every hard role after it', and triggers cover the type answer, every metadata field, newMovieStar, Chanel, the Levinsons and the 9takes Johnny Depp page. This matches the durability-9 anchor. One refinement (verify-04) would make the settle test harder to misread."
+		},
+		"hook": {
+			"score": 8.5,
+			"passage": "\"I had a roll of paper towels, and some books, and I just threw shit all over the room. I started moving around like crazy. I wanted to show that I wasn't scared to go there.\"",
+			"reason": "The opening is specific, sourced (Vanity Fair, November 2024) and vivid, and the 'scared, then all in' turn sets the question the article pursues: where she goes for steadiness. It loses half a point because the framing right after it ('she names no one who helped her through it. That makes the audition unusual.') misstates her record (verify-01)."
+		},
+		"discoverability": {
+			"score": 8.5,
+			"passage": "On her public record, Lily-Rose Depp is most likely [Enneagram Type 6](/enneagram-corner/enneagram-type-6), the Loyalist, at medium confidence.",
+			"reason": "The type H2 has a 60-word plain answer, mirrored by the type FAQ. Six substantive FAQs cover the likely queries (type, the Type 4 rival, nepo baby, The Idol and Levinson, the trial silence, birth) and agree with the body. The meta_title is 52 characters with name and type, and the description is 164 characters naming Nosferatu, Type 6 and Type 4. The page links four type pages and three related profiles, and all seven links return 200. Short of 9: the meta_title says 'Type 6' without the hedge the page holds (site convention), and several FAQ answers run 67 to 85 words, long for snippets."
+		}
+	}
+}

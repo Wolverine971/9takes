@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "unfamiliar",
+  "content_sha256": "7f0a727701d46f963afe18e348acc29c773532a4b396ae26a0372de9f4ef516c",
+  "evidence_sha256": "61663c372e8fe3a673bbef82b3259361e9a5ff5bad731153d95f5ac283d2864a",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "unfamiliar-01",
+      "severity": "major",
+      "passage": "What connects the two, as far as her own words show, is trust. She goes all the way in where she feels safe.",
+      "problem": "The opening anecdote, the article's lead example of her bravery, does not show the mechanism the next sentence names. The Nosferatu audition was a Zoom tryout for a director she had not worked with, she expected to lose, and the article names no trusted person or structure around it. An unfamiliar reader is told the link is trust right after a scene with no visible trust in it. The title promises 'Brave Where She Feels Safe', and the hook appears to be an exception to that promise. Later the article sets its own test ('If she started taking big risks with no trusted people or structure around her, the Six reading would weaken') and then describes her leaving school at 16 because 'nobody handed her that frame', without saying whether that meets the test. The reader is left to decide whether the article's central mechanism has already failed twice.",
+      "acceptance_test": "Within the first 400 words, or at the latest where the mechanism is stated ('Inside a frame she trusts...'), the article reconciles the audition with the mechanism. It either names, from a source, what made that moment feel safe, or says plainly that the audition is a case the trust mechanism does not cover. The leaving-school passage in 'What the type doesn't explain' refers back to the stated test and says whether it counts as a partial counterexample, for example as one reason the read stays at medium confidence. A reader should never have to infer whether the article's own test has been met."
+    },
+    {
+      "id": "unfamiliar-02",
+      "severity": "major",
+      "passage": "Second, she guards her privacy against danger, not against being misunderstood.",
+      "problem": "This discriminator contradicts the article's own earlier account. In 'The secret garden' her stated reasons for staying silent in 2022 are privacy and 'a wish to be judged on her own work': people have 'really wanted to define me by the men in my life'. That is a reason about being mis-defined, and the article itself says 'A Four reading would stress the self-definition.' Two sections later the reader is told that her privacy is about danger and not about being misunderstood, with no mention of that quote. A reader without prior knowledge gets two incompatible summaries of the same motive and can't tell which one to trust. The Type 4 FAQ repeats the stronger version ('she guards her privacy against danger rather than against being misunderstood').",
+      "acceptance_test": "The second discriminator explicitly acknowledges the 2022 Elle self-definition reason. It then either narrows the claim (for example, threat language dominates when she talks about fame and ordinary life, while self-definition dominates when she talks about her father) or explains in one or two sentences why the threat language outweighs it. The Type 4 FAQ answer is updated to match the narrowed claim. No sentence in the body or the FAQs says her privacy is 'not' about being misunderstood unless the 'define me by the men in my life' quote is addressed nearby."
+    },
+    {
+      "id": "unfamiliar-03",
+      "severity": "minor",
+      "passage": "Fear comes up about her own life in six of her interviews from 2021 to 2025: work, fame, strangers, physical risk and politics.",
+      "problem": "This is the lead reason the article gives for choosing Type 6, and the intro sets it up ('By my count of her interviews from 2021 to 2025, fear is the hard feeling she names about herself most often'). The reader only gets the numerator. Six of how many? An unfamiliar reader can't tell whether six is most of the interviews read or a handful of many, so 'most often' can't be weighed. The stated limits that follow are good, but they qualify a count the reader can't size.",
+      "acceptance_test": "The sentence states how many 2021–2025 interviews were counted (for example, 'six of the N interviews I read'). The intro's 'By my count' sentence uses the same basis. If the comparison is 'most often', the passage also gives a rough count or a plain statement for shame-family words about herself, so the comparison is visible to the reader."
+    },
+    {
+      "id": "unfamiliar-04",
+      "severity": "minor",
+      "passage": "The record shows only what she said.",
+      "problem": "The section collects the most surprising contradiction in her record for a 'Loyalist' read: she defended her father publicly at 17, stayed silent about him as an adult in 2022, then defended her director loudly in 2023. The section never names this as a puzzle and ends on a shrug. It is the second middle section in a row to end by saying its evidence doesn't decide anything ('so it is a pattern, not a test' closes the Idol section). An unfamiliar reader loses momentum here, because the article keeps raising stakes and then setting them down.",
+      "acceptance_test": "The section ends with one plain sentence naming the contrast as an open question for the loyalty reading, for example why someone who 'holds tight' to her people spoke for her director but not her father. It may add, attributed as inference, the non-type explanations the record allows, such as legal caution or the trial's scale. Alternatively, the contrast moves into 'What the type doesn't explain', and the secret-garden section ends on what the reader learned about her rather than on what the record can't show."
+    },
+    {
+      "id": "unfamiliar-05",
+      "severity": "minor",
+      "passage": "Then there are the inward answers.",
+      "problem": "At about 790 of 3,868 words, 'Why not Type 4?' is the longest section. It stacks roughly two dozen quoted fragments in a row before reaching the three-point argument, re-explains the heart triad the reader already got in the type section, and files the Type 9 case under the Type 4 heading, where a skimming reader won't find it. Across the whole piece there are about 100 quoted fragments plus nine blockquotes, and the article is above the 2,000–3,500 target. For a reader with no stake in Lily-Rose Depp, the second half starts to read like a quote file, with too little of the author's synthesis between quotes.",
+      "acceptance_test": "'Why not Type 4?' is shortened to roughly 600 words or fewer. Cuts come from quotes that make the same point twice (for example, the darkness/underbelly/dualities run), not from the strongest Four evidence or from the three reasons the Six stays ahead. The second heart-triad explanation is cut to a clause. The Type 9 paragraph either gets its own short heading or moves beside the Type 3 paragraph as an 'other alternatives' passage. Total body length falls to about 3,500 words or less, without removing counterevidence."
+    },
+    {
+      "id": "unfamiliar-06",
+      "severity": "minor",
+      "passage": "It was a light exchange about skydiving, bungee jumping and zip lining, so it shouldn't carry much weight",
+      "problem": "The article tells the reader this exchange is lightweight, but uses it as the section headline ('Now I'm scared of everything'), which is what skimmers read, and later as evidence for the mechanism ('Outside one, she steps back. She won't jump out of a plane.'). Most people decline skydiving, so it doesn't distinguish her. Leaning on a disclaimed joke weakens the reader's trust in the 'steps back outside a frame' half of the thesis, which already rests on thin examples (no Twitter, retreating into normal life).",
+      "acceptance_test": "Either the H2 uses a weightier line from the same section (for example the 'lose your footing' or 'hold tight to the people you love' material), or 'She won't jump out of a plane.' is dropped from the pattern paragraph, so the disclaimed exchange is not doing load-bearing work. If the skydiving line stays as evidence, the disclaimer is removed and the article explains why the exchange is diagnostic."
+    },
+    {
+      "id": "unfamiliar-07",
+      "severity": "minor",
+      "passage": "Talking to Harper's Bazaar UK about her partner of about two years, the musician Danielle Balbuena (070 Shake), she teared up:",
+      "problem": "The sentence is undated and reads as a current status. 'About two years' was true at the late-2024 interview. The evidence dates the relationship to early 2023 and records it as ongoing in June 2026, so a reader in late 2026 or later gets the wrong duration and an open-ended relationship claim with no time anchor.",
+      "acceptance_test": "The sentence dates the interview in the text (for example, 'In late 2024, talking to Harper's Bazaar UK about Danielle Balbuena (070 Shake), her partner since 2023,'). It makes no undated present-tense claim about the relationship, and any duration is tied to that date."
+    },
+    {
+      "id": "unfamiliar-08",
+      "severity": "minor",
+      "passage": "The ELLE France line starts with \"Désormais\" (now, as opposed to before).",
+      "problem": "Several references assume knowledge the reader doesn't have. 'The ELLE France line' points at nothing: neither quoted ELLE France fragment ('ce n'est pas mon ambition', 'il faut tracer sa route') contains 'Désormais', so the reader can't see the evidence for the 'learned' framing. Amber Heard is named on first mention without being identified as Johnny Depp's then-wife. The 'longtime security guard' appears for the first time in the last section, with no source link and no introduction. 'At 15 or 16' in the bio reads as a careless hedge rather than a source disagreement.",
+      "acceptance_test": "The 'Désormais' sentence is quoted with a translation where it is cited, or the reference is rewritten to describe what she said without implying the reader has seen it. Amber Heard is identified on first mention (for example, 'his then-wife, the actor Amber Heard'). The security-guard remark is linked to Harper's Bazaar UK where it appears. The Chanel age is either resolved or phrased so the uncertainty doesn't read as sloppy (for example, 'in 2015, the year she turned 16')."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "She was scared, she said so, and she threw the paper towels anyway.",
+      "reason": "A one-line turn that gives an unfamiliar reader the whole puzzle in concrete terms before any typology. It is specific, sourced and memorable. Keep it even if the thesis sentence after it changes."
+    },
+    {
+      "passage": "Faith in the people who chose her, preparation down to the last rock, and fear kept on as fuel. That is a Six's toolkit, laid out in one answer.",
+      "reason": "This is where the type first clicks for a newcomer. The author's synthesis is built directly from her own three moves in one quote, rather than from type boilerplate."
+    },
+    {
+      "passage": "That is the clearest link in her record between fear and allegiance, and it was about politics, not a film she was selling.",
+      "reason": "It shows the reader why this piece of evidence matters more than the junket material around it. It is the article's best move against the 'it's just promotion' objection."
+    },
+    {
+      "passage": "When she describes what steadied her through that role, does she credit the people and the frame around her, or a feeling she found in herself? The first keeps the Six. The second strengthens the Four.",
+      "reason": "It gives the reader real forward stakes and a concrete, observable test they can check themselves. This is the kind of settle signal that keeps the page useful after the next release."
+    },
+    {
+      "passage": "You have all your super-private feelings in your backpack, and you go to work and the scene starts and you let it out.",
+      "reason": "A vivid closing image in her own words that compresses the title's idea, guarded privately and released inside the frame of a scene. It ends the piece at a natural point without a summary."
+    }
+  ],
+  "assessment": "Orientation is strong for a reader who knows nothing about her. By the sixth paragraph you know who she is, who her parents are, how she started (Tusk at 14, Chanel, The Dancer) and what The Idol and Nosferatu are. The triad and the Six's steps are explained in plain language before they're used. 'Nepo baby', the Rolling Stone report and the 2016/2022 Depp-Heard proceedings are glossed without being adjudicated. The hook is vivid and the Werwulf test gives real forward stakes. What a newcomer learns: an actor who names her fear unusually often, leans on trusted directors and old friends, defended Levinson long after it stopped helping her, and has been moving toward self-authority since 2024. The two consequential problems are coherence, not orientation. The opening audition, the lead example of her bravery, has no visible trusted frame even though the next sentence says trust is the link, and the article never closes its own falsification test against leaving school at 16 (unfamiliar-01). The second of the three reasons the Six beats the Four contradicts the article's own secret-garden account of why she stayed silent in 2022 (unfamiliar-02). Momentum sags in the middle: two consecutive sections end by conceding they don't discriminate, and the Four section is a long quote stack. At 3,868 words with about 100 quoted fragments, the piece is above its target. Similarity: the tripped pair with joseph-zada ('people and structure(s)') and the higher Arthur-Mensch pair (a reading-not-diagnosis disclaimer) are ordinary type vocabulary and standard hedging, not reused arguments. The triad-explainer wording doesn't appear in other drafts I searched. I found no meaningful reuse. Risks: sensitive_allegations (the Idol production report, the 2016 abuse allegation, Depp v. Heard) and contested_typing (medium confidence, live Type 4) both stand, so the expanded jury is appropriate. Limitation: as the unfamiliar-reader proxy I read the draft and the evidence record but did not reopen external sources. Dates and quotes are taken as recorded in the evidence file."
+}

@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "future",
+  "content_sha256": "2429848079cfa6ec1a063fe639ac940ebb7baf912e8f08d0387c6c338c108dd9",
+  "evidence_sha256": "c7a2e0492e805a3b23c831881f8d251a3d81ed5f370a2c974bdd6283f333ab67",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "future-01",
+      "severity": "major",
+      "passage": "It is due in US theaters on December 25, 2026, and in the UK on January 1, 2027.",
+      "problem": "The closing section (\"## The farmer's wife\") is pinned to an unreleased film. Its future tense becomes false ten weeks after the draft date. The settle-signal paragraph that follows (\"When she talks about that role, listen for where she says the steadiness came from...\") then reads as an open prompt for the remaining ~58 months of the five-year window unless someone runs a refresh. This is the Durability-6 anchor: the conclusion depends on the current project. The thesis survives without this section, so the problem is the tense, the framing and the placement, not the argument. C08/C102 track the date, but a trigger does not stop the published sentence from going stale.",
+      "acceptance_test": "Read the final section as if it were 2031 with no refresh: no sentence has become false. Every forward-looking Werwulf statement carries 'as of October 2026' or reads true after release (e.g., 'scheduled, at the time of writing, for a December 25, 2026 US release'). The settle signal is framed as a dated test ('her Werwulf press, from late 2026, is the next place to check whether...') and not as a present-tense instruction. The heading and the article's last beat do not depend on the unreleased film; the 2024 backpack quote can stay as the close. C08 and C102 keep their review triggers."
+    },
+    {
+      "id": "future-02",
+      "severity": "minor",
+      "passage": "In September 2026 she premiered _Alpha Gang_, a Zellner brothers science-fiction comedy, at Telluride on September 5 and then at TIFF, playing one of a gang of aliens who find themselves with human emotions.",
+      "problem": "This is a recency insert that does not deepen, complicate or test the personality argument. The standard says to include recent events only when they do. It also creates its own maintenance debt: C44's trigger waits on a US distributor and release, which did not exist as of the 2026-10-16 check. Wikipedia lists no distributor. 'She premiered' is also loose, because the film premiered and she attended.",
+      "acceptance_test": "Either cut the sentence (and remove or retire C44), or tie it to the argument with a sourced, dated first-person remark about the role. If it stays, it reads 'Alpha Gang premiered at Telluride on September 5, 2026' with no implied current release status, and C44 matches the passage exactly."
+    },
+    {
+      "id": "future-03",
+      "severity": "minor",
+      "passage": "Proving people wrong through effort could point to Type 3, the Achiever, and she has been a face of Chanel since 2015.",
+      "problem": "This is an open-ended status claim (present perfect), but C04 records it as 'stable' with no review trigger. Ambassadorships end or change. The latest support is a 2024 Vogue citation on Wikipedia and W Magazine's September 2026 note that she wore Chanel at TIFF, which is not a confirmation of the contract. The body already dates the start ('became a Chanel ambassador at 16, in 2015'), so the Type 3 aside does not need a live status claim to make its point.",
+      "acceptance_test": "Recast the clause as a dated fact ('she became a Chanel ambassador in 2015') or as a bounded status ('...and was still fronting Chanel as of 2026', sourced). If any present-tense status remains, C04 becomes time_sensitive with a trigger such as 'If Depp's Chanel ambassadorship ends or changes, update this clause.'"
+    },
+    {
+      "id": "future-04",
+      "severity": "minor",
+      "passage": "Her father, [Johnny Depp](/personality-analysis/johnny-depp), whom 9takes reads as a Type 4, spent years making gothic films with Tim Burton.",
+      "problem": "This sentence depends on another page's current typing. The site has retyped people pages before, but C92 is marked 'stable' with no trigger. The Johnny Depp draft currently carries enneagram: 4, so the sentence is accurate today. If that page is retyped, this sentence and the internal link will contradict each other silently.",
+      "acceptance_test": "Either C92 becomes time_sensitive with a trigger such as 'If the Johnny Depp page's enneagram changes, update or remove this clause,' or the clause is dropped and the shared-taste point stands without the site's typing of him."
+    },
+    {
+      "id": "future-05",
+      "severity": "minor",
+      "passage": "Her answer has barely changed since 2021.",
+      "problem": "This open-ended span claims continuity up to whenever the page is read. The dated evidence runs from August 2021 (Knightley) to January 2025 (Harper's Bazaar UK). Read in 2031, the sentence would vouch for six more years nobody checked. C51 is marked stable.",
+      "acceptance_test": "Bound the span to the evidence, e.g., 'Her answer barely changed between 2021 and 2025,' or 'across interviews from 2021 to 2025.' C51's claim text matches the bounded wording."
+    },
+    {
+      "id": "future-06",
+      "severity": "minor",
+      "passage": "Nobody has described Depp let down by someone she trusted. That is the scene that would test the loyalty reading hardest.",
+      "problem": "This is an absence claim. It is correctly tracked as unresolved (C101) with a good trigger, but the prose carries no date. A memoir, long profile or co-worker account could make it false while the page keeps asserting it. The same goes for the preceding sentence, 'There is no long-form testimony from the people closest to her.'",
+      "acceptance_test": "Both absence sentences carry an explicit 'as of October 2026' (or 'so far, as of October 2026') bound. C101 keeps durability 'unresolved' and its existing review_trigger. The sentence stays true in 2031 even if such testimony appears in the meantime."
+    },
+    {
+      "id": "future-07",
+      "severity": "minor",
+      "passage": "Lily-Rose Depp expected to lose her two biggest roles, then went further than anyone asked.",
+      "problem": "The metadata description uses a temporary superlative. Werwulf, an Eggers reunion and a Focus Features Christmas release on December 25, 2026, could become one of her biggest roles within weeks, which would make 'her two biggest roles' contestable. Search snippets are the surface least likely to be refreshed. C50 repeats the superlative ('across her two biggest roles'), and the body sentence it maps to ('That pairing runs through her adult career') generalizes from those two roles.",
+      "acceptance_test": "The description names or dates the roles instead of ranking them (e.g., 'expected to lose The Idol and Nosferatu') and stays within 120–170 characters. No metadata superlative can be falsified by a later release. C50's claim text matches the new wording."
+    },
+    {
+      "id": "future-08",
+      "severity": "minor",
+      "passage": "Asked whether she was disappointed there was no second season, she said, \"I know that we'll do something again together one day, and I'm excited for that day. Everything happens for a reason.\"",
+      "problem": "The article calls its Levinson section 'the costliest test' of the loyalty reading. That section rests on an ongoing relationship and on a collaboration she has announced for the future, yet C17 and C80–C83 are all 'stable' with no review trigger. A new Levinson project would bear directly on the 6-vs-4 discriminator. So would a public change in how she speaks about the Levinsons, or new reporting or litigation about The Idol's production. Nothing in the evidence record would prompt a re-review if any of these happened. The prose is correctly dated to 2024, so this is a gap in the record, not a false sentence.",
+      "acceptance_test": "At least one claim covering the Levinson relationship (C82/C83 or a new ID) is time_sensitive or unresolved, with a review_trigger such as 'If Depp works with Sam or Ashley Levinson again, speaks about them differently, or new reporting on The Idol's production appears, re-test the loyalty discriminator and update the Standing by The Idol section.' The prose needs no change."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Look at where the reassurance comes from. Each time, she settles the doubt by leaning on the judgment of the people who did the choosing. They must have had a reason. She rarely answers it by naming what is special about her.",
+      "reason": "The discriminator rests on dated first-person evidence from 2021 to 2025 across five outlets. It survives any future release or headline, which is the core of the five-year pass."
+    },
+    {
+      "passage": "Chosen for a reason in 2023. Everything happens for a reason in 2024.",
+      "reason": "A distinctive, dated echo that shows a repeated pattern across time instead of hanging on one event. It is the Durability-9 shape."
+    },
+    {
+      "passage": "She had professional reasons to defend her own show in 2023, and HBO had more. Those reasons explain less of 2024, when she was promoting a different film for a different studio, though no actor gains by criticizing a former director in the press.",
+      "reason": "An honest, dated check of incentives that separates promotional duty from later loyalty without overclaiming. It will read as fair in five years."
+    },
+    {
+      "passage": "She vouched loudly for a director in 2023 and kept silent about her own father in 2022.",
+      "reason": "A precise, dated contrast that leaves an unresolved contradiction standing next to the type argument. It also avoids adjudicating the 2022 trial."
+    },
+    {
+      "passage": "\"You have all your super-private feelings in your backpack, and you go to work and the scene starts and you let it out.\"",
+      "reason": "A durable 2024 close that does not depend on Werwulf. It should stay as the final beat when the forward-looking material above it is reframed."
+    }
+  ],
+  "assessment": "Five-year test: the thesis passes. The outward-steadiness discriminator and the loyalty argument rest on dated first-person evidence from 2021 to 2025: Interview/Knightley 2021, Elle 2022, i-D 2023, Vanity Fair and Interview/Portman 2024, and Harper's Bazaar UK 2025. Removing all 2026 material (Werwulf, the Empire quote, Alpha Gang) leaves the argument intact. The draft handles dates well in most places. The election is dated to November 2024, the age is stated 'as of October 2026', the Idol timeline uses absolute dates, and the current relationship was deliberately left out (C09 removed), which is the right durability call. Correctly not an open case: she has been public since 2014 and has a deep interview record. The weak spots are maintenance surfaces. The closing section is built on a film releasing December 25, 2026, written in future tense (major). Several open-ended status or absence claims lack an as-of bound or a trigger: Chanel 'since 2015', 'since 2021', 'nobody has described', 'two biggest roles' in the description, and the site's own typing of Johnny Depp. The load-bearing Levinson relationship has no review trigger. I verified the absolute dates against Wikipedia raw text on 2026-10-16: Werwulf US December 25, 2026 and UK January 1, 2027; Alpha Gang Telluride premiere September 5, 2026, with no distributor listed. The Johnny Depp draft still reads enneagram: 4. Similarity advisory did not trip (max 0.174 vs Arthur-Mensch, the generic 'read of public record' disclaimer); after comparing the arguments, I found no meaningful reuse. One aside outside this role: the 'ready to see me fail' block quote ('By 2024 she described the scrutiny as fuel.') names no outlet; it is Vanity Fair, November 2024 (S07)."
+}

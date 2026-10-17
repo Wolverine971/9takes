@@ -1,0 +1,23 @@
+I wrote the critic review to `review-critic.json` in the run folder. It passes the review schema check in `scripts/lib/blogEditorial.js`, and every quoted passage matches the draft exactly. I didn't change or publish anything else. I didn't read the other reviews.
+
+The review has 8 findings: 6 major and 2 minor. Its main conclusion is that two of the article's three reasons for putting Type 6 ahead of Type 4 don't survive a check against the sources, which I read in the saved Elle, Interview/Portman, Vanity Fair and Rolling Stone texts.
+
+**Major:**
+1. **Fear and shame are counted by different rules.** Any nerves or worry counts as fear. Only the literal word counts as shame. That leaves out imposter syndrome, "Absolutely" when asked about insecurity, "so out of my depth," "Are they sure that I'm the one?", and her worries about being judged. Her "I'm not ashamed" is about her parents, not herself.
+2. **The article miscounts its own caveat.** It says two of the six fear interviews promoted a horror film. It was three: Vanity Fair, the Portman interview and Harper's Bazaar UK. All six were press-tour interviews.
+3. **"Danger, not being misunderstood" contradicts the sources.** In Elle, "eaten alive" comes right after "people feel like they know you, even though they don't." The next paragraph says she fears "not for her safety" but that strangers will think she's "weird or rude." The FAQ repeats this claim.
+4. **Her own explanation of the audition isn't trust.** In the same Vanity Fair answer she says "my job was to show him that I could go there," and that she expected to lose. Leaving school at 16 already strains the article's "big risks without a trusted frame" test, which it only applies to the future.
+5. **Her Idol loyalty counts as Type 6 either way.** The "hold tight to the people you love" line was about the 2024 election, but the draft presents it as her reason for defending Levinson. Defending him reads as loyalty, and staying silent about her father reads as caution.
+6. **The "outside a trusted frame, she steps back" claim is thin.** It relies on the skydiving joke the article itself says shouldn't carry weight, plus not being on Twitter, which most public figures avoid.
+
+**Minor:**
+- The "looking like a corpse" line doesn't show she ignores her image. In context she says it hurt her self-esteem, and she said it in an awards-campaign interview.
+- "Anonymous sources" for the Rolling Stone reporting isn't backed by any source that was actually read.
+
+**Risk flags:** sensitive allegations and contested typing are both set to true.
+
+**Passages to keep:** the paper-towels line, "Some of this is the job," the note that she never tests authority, "Nobody has described Depp let down by someone she trusted," and the "Four runs in the family" passage.
+
+**Similarity check:** it flagged one match with the Joseph Zada draft. It's ordinary Type 6 wording in a definition sentence, not reused argument, so I didn't log it as a finding.
+
+If the editor makes these fixes honestly, the Type 6 lead gets much narrower, and medium confidence against Type 4 may not hold. If the leading type changes, the draft needs a refresh with the full six-reviewer jury.

@@ -1,0 +1,20 @@
+I've written the fan review to `review-fan.json` and changed no other files. It passes the review schema, every quoted passage matches the draft exactly, and both hashes match the frozen draft and evidence.
+
+**Findings: 3 major, 5 minor.** I checked the quotes against the research stage's saved copies of the sources and the local podcast transcript; I did not re-fetch them live.
+
+- **fan-1 (major):** The draft cuts her answers about her parents down to whichever half suits the paragraph.
+  - Asked if a love of the gothic runs in the family, she said "Sure, I guess you could say so… of course you're the product of your environment." The draft quotes only "very different actors."
+  - It does the same with three more: the Knightley "my own person" answer, the Vanity Fair "it just is what it is" answer (whose continuation is "trying to find my own identity in this world"), and the ELLE France line where she says she and her mother are "very alike."
+- **fan-2 (major):** "I'm not ashamed" is used as proof that shame isn't her core feeling. On the podcast the full line is "I'm not ashamed, like, my parents are such talented performers… I'm blessed to be their daughter." She means she isn't ashamed of her parents.
+- **fan-3 (major):** The nepo-baby section doesn't match what people reacted to.
+  - The "childhood didn't look like everybody's" line comes from a different, privacy part of the Elle piece.
+  - The parts that drew the backlash are missing: the "men don't get called nepo babies" point and the doctor comparison.
+  - Her real acknowledgment of privilege came later, in i-D (February 2023). The FAQ repeats the mix-up.
+- **Minor:**
+  - The Idol section leaves out her own reasons for standing by it ("a huge turning point," learning to sing and dance) and her single "One of the Girls," which charted on the Hot 100.
+  - "Men in my life" drops "or my boyfriends."
+  - "Full of dualities" loses her own explanation, which was about growing up French and American. Her parents' 2012 split is also missing.
+  - The "people who anchor you" quote stops one sentence before she names Portman, the interviewer, as one of those people. Neither Portman nor Knightley is identified as a co-star.
+  - "The post did not mention the allegations" leaves out her second post in her father's defense the same day.
+
+I protected five passages, including the paper-towel opening line and the "what would weaken the Six reading" test. The similarity check matched another profile on the phrase "people and structure," but that's ordinary Type 6 vocabulary and the argument rests on her own quotes, so I didn't raise it. The sensitive-allegations and contested-typing risks stay flagged.

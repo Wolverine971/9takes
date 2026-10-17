@@ -1,0 +1,20 @@
+I wrote the critic review to `docs/content-analysis/pipeline-logs/2026-10-16_16-45-09-745_Lily-Rose-Depp/review-critic.json`. It passes the review schema, and every passage it quotes matches the draft exactly. I didn't change any other files, read the other reviews, or publish anything.
+
+**Verdict: 1 blocker, 5 majors, 2 minors. This draft shouldn't ship as written.**
+
+The quotes themselves are accurate. The problem is that the draft keeps only the half of each answer that supports its argument. I reopened the saved interview texts and found the missing halves:
+
+- **The core argument (blocker).** The draft says she always settles self-doubt by trusting the people who picked her, and "rarely" by trusting herself. But the next lines of the Vanity Fair 2024 answer it quotes say she had to get "confident enough within myself to be like, 'I can do this and I am here for a reason.'" In the 2021 Knightley interview she also says "I'm very much my own person." Only one of the four examples (i-D 2023) clearly supports the claim.
+- **The case against Type 4.** The draft says she leaves the darkness at work. But Vanity Fair also has her saying "I do think I brought the darkness home, for sure." In Harper's she calls her work "deeply personal" exploration of herself. Neither line appears in the draft.
+- **The case against Type 3.** Her readiness to admit doubt is used to rule out Type 3. The draft leaves out her own line from the same answer: "Humility is incredibly important, especially in this business."
+- **The Idol defense.** The draft reads it as loyalty. It never mentions that the Rolling Stone allegations were about the sexual and violent scenes involving her own character, so she was also defending her own choices. In 2024 she also said she hopes to work with the Levinsons again, which is a career reason to keep praising them.
+- **The hook and description.** "Went further than anyone asked" has no source. The roles demanded extreme commitment, and she delivered it.
+
+I protected five passages for the editor to keep:
+- the Zoom audition opening
+- the paragraph admitting there's no testimony from people close to her
+- "now I'm scared of everything"
+- the careful handling of her silence about her father
+- the test of what to listen for once *Werwulf* comes out
+
+**One thing could change what readers see.** Once the missing lines are back in, Type 6 over Type 4 is a much closer call than the draft's "three reasons" suggests. The editor has two options: rebuild the argument on the evidence that holds up, or lower the stated confidence. If the type itself changes, the standard says the run has to be held and re-reviewed. This can't be published as an "open case" (the low-confidence format for new public figures) either: she's been interviewed at length since 2014, so her record isn't thin.

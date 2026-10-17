@@ -1,0 +1,79 @@
+{
+	"schema_version": 3,
+	"role": "enneagram",
+	"content_sha256": "2429848079cfa6ec1a063fe639ac940ebb7baf912e8f08d0387c6c338c108dd9",
+	"evidence_sha256": "c7a2e0492e805a3b23c831881f8d251a3d81ed5f370a2c974bdd6283f333ab67",
+	"risks": {
+		"sensitive_allegations": true,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": false
+	},
+	"findings": [
+		{
+			"id": "enneagram-01",
+			"severity": "major",
+			"passage": "Look at where the reassurance comes from. Each time, she settles the doubt by leaning on the judgment of the people who did the choosing. They must have had a reason. She rarely answers it by naming what is special about her. That outward move is the center of the Six reading.",
+			"problem": "The discriminator is presented as an unbroken pattern, but only the 2023 i-D line ('if they've chosen me...') resolves doubt cleanly through the choosers. The 2024 Vanity Fair answer quoted just above continues, in the next sentence: 'Getting to a place where I felt confident enough within myself to be like, \"I can do this and I am here for a reason,\" I definitely have struggled with that', then 'I may feel this way, but I have to go to work tomorrow.' That resolution comes from inside her and from duty. It does not come from the people who chose her. In 2021 her first answer was self-talk (nerves mean 'I'm invested'), before trust in partners, and 2022's 'I can't believe they wanted me' is disbelief, not reassurance. The draft quotes the doubt and leaves out the resolution, so the center of the Six case rests on one quote presented as a pattern. By the article's own Werwulf test ('a feeling she found in herself... would strengthen the Four'), the 2024 answer already counts toward the Four. The 'Why not Type 4?' first reason ('Depp points outward') and the Type 4 FAQ answer repeat the overstatement.",
+			"acceptance_test": "The 2024 'confident enough within myself ... I am here for a reason' resolution is quoted or accurately paraphrased next to the 'Why am I here' doubt. 'Each time' is replaced by a claim the dated record supports (for example, 2021 and 2023 lean on partners and choosers, while 2024 moves toward self-confidence and showing up for work). The article either explains why that shift still fits a Six (duty-bound showing up, 'I have to go to work tomorrow') or gives this discriminator less weight. The 'Why not Type 4?' first reason and the FAQ 'Could Lily-Rose Depp be an Enneagram Type 4?' no longer describe the outward move as constant."
+		},
+		{
+			"id": "enneagram-02",
+			"severity": "major",
+			"passage": "Second, how she holds the dark feeling. Her childhood memory is about a crowd being cruel to an innocent, and her sympathy for the monster arrives with a check on whether it is acceptable: \"am I sick for feeling that way?\" She also places the darkness in the job: \"I'm a happy person, so I like to explore the underbelly of that at work.\"",
+			"problem": "Reasons two and three test a caricature of the Four (unhappy, method-bound, chafing at structure) instead of the Four's motive, a search for identity and personal significance. Healthy Fours often put their intensity into the work and live ordinary lives. The 'happy person' line loses its context: in Vanity Fair it directly follows 'I also just feel like I'm better at crying than laughing, which—I don't know what that says about me as a person.' Harper's Bazaar UK, the source of 'darker underbelly', also has her saying 'The most exciting thing is getting to explore parts of myself... the place I'm drawing from is deeply personal'. In the Vanity Fair 'see me fail' answer she describes 'trying to find my own identity in this world.' Those motive-level Four statements are never confronted. 'am I sick for feeling that way?' is a half-joking aside after 'It's a difficult childhood memory'. A Four could say it just as easily, so it cannot carry a discriminator. The third reason ('A Four is more likely to chafe at imposed form') was already rated as weak in 'Inside a frame she trusts' and is promoted here to a full reason.",
+			"acceptance_test": "The Type 4 section names the Four's motive (identity and significance) and deals directly with at least 'getting to explore parts of myself... deeply personal' and 'trying to find my own identity in this world'. The 'happy person' quote either keeps the 'better at crying than laughing' line before it or is no longer offered as evidence against the Four. The second and third reasons are either labeled weak, as the frame point already is earlier in the article, or replaced by a motive-level discriminator with sources. One candidate the record supports: her doubts are mostly about whether she can do the job and not let the team down ('Am I going to be able to do this? What have I signed up for?'; 'Okay, I really don't want to fuck this up'; 'Nobody wants to be the one that messes it up for everybody'). They are rarely about being deficient, ordinary or unseen."
+		},
+		{
+			"id": "enneagram-03",
+			"severity": "major",
+			"passage": "Proving people wrong through effort could point to Type 3, the Achiever, and she has been a face of Chanel since 2015. What strains that reading is how readily she volunteers doubt and expected failure instead of projecting success. The goal she names is to be seen as reliable:",
+			"problem": "Her own words in the same source undercut the case against Type 3. In the Vanity Fair answer this section quotes, she presents humility as a deliberate professional value: 'Humility is incredibly important, especially in this business. In a way, I always want to feel like I'm just starting out.' For a performer labeled a nepo baby, voicing doubt is the image the audience rewards, so voicing doubt cannot separate a Three managing her image from a Six. 'I do want to prove that I'm a hard worker' is a wish to be seen a certain way. The gloss 'to be seen as reliable' tilts it toward the Six. The post-backlash adjustment in the previous section is credited to the Six ('sensitivity to how the group is reading her') even though it fits a Three's image management equally well. Her identification with The Idol's 'femme fatale fantasy of who I wanted to be when I was a kid' and her admiration for stars' 'aura of confidence' (Elle 2022) add to a Three case the article never weighs. One paragraph is too thin for a rival this live, and Type 3 is not cleanly excluded as things stand.",
+			"acceptance_test": "The Type 3 paragraph addresses the 'Humility is incredibly important, especially in this business' line, or otherwise deals with humility as a strategy. The case for Six over Three rests on behavior that a performance of humility cannot explain. One option is the November 2024 decision to stand publicly by a cancelled, panned and contested show and call the Levinsons family, when distancing would have helped her image. Alternatively, the article says plainly that Type 3 is not ruled out. 'To be seen as reliable' is replaced with her own wording ('a hard worker'). The nepo-baby adjustment is described as fitting Six and Three alike, or as not discriminating."
+		},
+		{
+			"id": "enneagram-04",
+			"severity": "major",
+			"passage": "Put those together and you get the counterphobic Six. Fear is the standing condition. The answer is to walk toward the specific thing that scares her, so the fear can't win.",
+			"problem": "The counterphobic subtype resolves the article's central pairing (she expects to lose the role, then goes further than anyone asks), but it is applied both ways. The paragraph right before shows avoidance off set ('now I'm scared of everything'; in the source, 'I would never jump out of a plane'), the phobic pattern. So approach at work and avoidance in life both confirm the Six, and the claim cannot be tested. The standard bars using a subtype to explain away contradictions. The supporting count is also generous. 'Weird and wonderful' (2021) and 'not interested in making anything puritanical... challenge me, or challenge other people' (2022) frame her choices as taste and provocation, not fear, and Elle's own framing is that the scrutiny 'doesn't intimidate her'. When Vanity Fair asked her directly why she gravitates to big emotional roles, she answered 'because I like the challenge of it... I come away with more of a lesson from it,' with no mention of fear. 'Across three years and three outlets' therefore rests on two clear fear-framed statements (i-D 2023; the Vanity Fair audition account).",
+			"acceptance_test": "The article says what would count against the counterphobic reading, or reconciles approach and avoidance with a stated mechanism the record supports. One such mechanism: she walks toward fear inside a protected, trusted frame and avoids it outside one, which would tie this section to 'Inside a frame she trusts'. The 'three years and three outlets' sentence counts only statements that frame the choice through fear, or is reworded. The direct Vanity Fair answer about why she chooses emotional roles ('the challenge of it') is acknowledged."
+		},
+		{
+			"id": "enneagram-05",
+			"severity": "minor",
+			"passage": "Chosen for a reason in 2023. Everything happens for a reason in 2024. Loyalty to the people who backed you, held hardest when they are under attack, is the Six's signature.",
+			"problem": "Loyalty to collaborators is not unique to one type: Twos, Eights and Nines also defend their people. The 'for a reason' echo hangs on a stock phrase. In context ('I would've loved to have worked with Sam again... Everything happens for a reason') it is a positive way of accepting a loss, which reads at least as much like a Nine or a Seven as a Six. What would make her loyalty Six-specific is what it does for her: it protects her against an unreliable world. She says this herself in the Harper's Bazaar UK election passage, where fear leads directly to holding on to her people.",
+			"acceptance_test": "The sentence no longer calls loyalty 'the Six's signature' without qualification. The Six-specific claim rests on the link she states between fear and allegiance ('When things feel out of control and you feel powerless, you have to hold tight to the people you love') or on the cost of the loyalty. The 'for a reason' echo, if kept, is marked as the author's observation and not as her stated logic."
+		},
+		{
+			"id": "enneagram-06",
+			"severity": "minor",
+			"passage": "Sixes scan ahead for what could go wrong, look for someone or something solid to lean on, and stay loyal to what holds.",
+			"problem": "The body shows the leaning and the loyalty but barely shows the scanning, and it never shows the Six's skeptical or authority-testing side. A Six with no doubt about authority reads as a stereotyped 'Loyalist'. The record holds stronger vigilance evidence than the draft uses. In the Portman conversation, right after 'the world started to scare me a lot', she adds 'I wonder if I'm more aware of the dangers of the world or something?' and says prep is hard 'because you never know if you're doing it right... until I get there, and you start having conversations with the director.' i-D 2023 also describes worst-case overthinking about being photographed. The absence of any authority-testing is worth naming as a limit, alongside the missing 'let down by someone she trusted' scene.",
+			"acceptance_test": "Either at least one sourced instance of the anticipatory scanning that the definition attributes to Sixes appears in the body, or the definition is trimmed to what the body shows. The article notes, in one clause or more, that the public record shows no questioning of trusted authority, and that this leaves the Loyalist reading one-sided."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "Still, she didn't chafe at the fixed form. She was relieved by it, which counts more against the Four than it proves the Six.",
+			"reason": "Honest calibration. It sizes an observation by what it actually rules out instead of inflating it into proof of the leading type."
+		},
+		{
+			"passage": "Then she gave her answer to it: \"When things feel out of control and you feel powerless, you have to hold tight to the people you love and look after those people.\"",
+			"reason": "The most Six-specific evidence in the piece: she ties allegiance directly to fear and powerlessness, in her own words, outside a promotional context about her work."
+		},
+		{
+			"passage": "She vouched loudly for a director in 2023 and kept silent about her own father in 2022. Her stated reason is privacy and a wish to be judged on her work. Legal caution, or simply not wanting to relive it, would explain the silence as well. The record shows only what she said.",
+			"reason": "Leaves a real contradiction unresolved, separates her stated reason from the author's inference, and handles the sensitive trial without adjudicating it."
+		},
+		{
+			"passage": "Nobody has described Depp let down by someone she trusted. That is the scene that would test the loyalty reading hardest.",
+			"reason": "Names the observation that would actually falsify the motive. That is exactly the right limit for a loyalty-based typing."
+		},
+		{
+			"passage": "When she talks about that role, listen for where she says the steadiness came from: the people and the frame around her, or a feeling she found in herself. The first keeps the Six reading. The second would strengthen the Four.",
+			"reason": "A concrete, dated settle signal that applies the stated discriminator to the next catalyst, so the page is easy to reopen."
+		}
+	],
+	"assessment": "The draft does the structural work well. It names a discriminator (where she goes for steadiness), gives Type 4 its own section in her own words, states circumstantial limits right beside the claims, claims no wing, and closes on a concrete Werwulf settle signal. The similarity diagnostic did not trip, and its top matches are the confidence disclaimer and ordinary Six vocabulary, not reused arguments. The type case is weaker than its tone, after reopening the saved Vanity Fair, i-D, Elle, Harper's Bazaar UK, Knightley and Portman texts. (1) The discriminator is presented as 'each time', but in the 2024 Vanity Fair answer the draft quotes she resolves the doubt inward ('confident enough within myself'), and the draft leaves that out. (2) The Four is rebutted on surface traits (unhappiness, method acting, resisting structure). Her motive-level Four statements ('explore parts of myself', 'find my own identity') go unanswered, and the 'happy person' quote loses its 'better at crying than laughing' lead-in. (3) Type 3 is dismissed with an argument that her own 'Humility is incredibly important, especially in this business' undercuts. (4) Counterphobia covers approach at work and avoidance off set, so both confirm the Six. Type 6 at medium confidence is still defensible on better grounds: she ties allegiance directly to fear ('hold tight to the people you love' when things feel out of control), her doubts are mostly about whether she can do the job and not let the team down, and she stood by The Idol after its cancellation. The edit should rebuild the discriminator on those points, treat 3 and 4 as live alternatives and keep medium confidence. No change of type is recommended. Risk flags: contested typing and sensitive allegations (the Depp v. Heard trial silence, The Idol production report) both apply, so the expanded jury is warranted."
+}

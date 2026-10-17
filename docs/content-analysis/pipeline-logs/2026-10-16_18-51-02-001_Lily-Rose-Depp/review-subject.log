@@ -1,0 +1,21 @@
+I've written the subject-fairness review to `docs/content-analysis/pipeline-logs/2026-10-16_18-51-02-001_Lily-Rose-Depp/review-subject.json`. It passes the contract's `reviewSchema`, and every quoted passage matches the draft exactly. No other files were changed and nothing was published.
+
+**Verdict:** the draft is mostly fair to her. The claims about The Idol and about her father are attributed to their sources, not judged. Her own responses to the Rolling Stone report, the nepo-baby debate and her silence during the trial are included. The material from before she was 18 that research flagged (the anorexia account and the 2015 photo) stays out, and the draft doesn't assume she shares her father's type.
+
+**One major finding.** The second of the three reasons the draft gives for Type 6 over Type 4 says she "guards her privacy against danger, not against being misunderstood." Her own words don't support that once you read them in context:
+- In Elle, "eaten alive" comes right after "people feel like they know you, even though they don't." The draft cuts that lead-in.
+- She explained her silence during the trial as wanting to be defined by her own work, not "by the men in my life."
+- The Portman quote the draft ends on says your "inner life is so precious."
+
+The type FAQ repeats the claim as fact.
+
+**Seven minor findings:**
+- The type FAQ doesn't carry the body's "medium confidence" label.
+- In the nepo-baby section, a line about her childhood is moved from a different part of the Elle interview. Her main rebuttal (the label gets aimed mostly at women) is dropped.
+- Nothing in the opened sources supports the "anonymous sources" label on Rolling Stone's sources. And part of HBO's statement actually confirms the production change, but the draft lists it under the dispute.
+- The election-to-loyalty link, which the draft calls the "clearest" one in her record, comes from the magazine's own bridging sentence, not her words.
+- Teen-era evidence is handled inconsistently: the post she made at 17 is excluded as type evidence, then used anyway. "Nobody handed her that frame," about leaving school at 16, isn't in the record.
+- The i-D quote about overthinking photos is presented as a standing fear. The interview gives it a specific situation and follows it with her own "Girl, you don't matter that much."
+- The heading "Now I'm scared of everything" turns a laughing remark about skydiving into a section headline.
+
+The similarity check matched "people and structure(s)" with the Joseph Zada page. That's ordinary Type 6 vocabulary, so I didn't count it as reuse. The risk flags are the same as research's: sensitive allegations and contested typing.

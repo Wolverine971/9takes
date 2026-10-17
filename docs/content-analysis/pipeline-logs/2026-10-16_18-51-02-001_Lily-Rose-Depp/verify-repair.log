@@ -1,0 +1,33 @@
+I've written `verification-repair.json` and changed nothing else. **The Lily-Rose Depp profile is factually clean but still won't clear the release gate.** The gate check gives two blockers: Enneagram 7.5 (needs 8) and overall 8.2 (needs 8.5).
+
+**Facts: everything checks out.** I re-fetched all 28 cited sources and re-transcribed the January 2025 Happy Sad Confused episode from the audio.
+- Every quote matches its source in wording and context, including the ones reviewers had flagged.
+- The dialect-coach line that the repair added is real.
+- The "six of nine interviews" count holds: the podcast has no admissions of nerves or fear.
+- All 50 repair decisions are accepted, all 17 passages reviewers marked to keep are intact (some reworded where a correction required it), and the metadata and FAQs agree with the body.
+
+**Why it falls short on the Enneagram.** The profile is honest about its own weak spot. By its own account:
+- Type 6 leads only on two observations that are based on what she says, not on choices that cost her anything, and "neither rules out the Four."
+- No costly choice separates Type 6 from Type 4, and the one costly choice on record (staying silent during her father's trial) leans Four.
+- Since 2024 her answers about confidence point inward, which also leans Four.
+
+The standard's 8 requires a motive that explains repeated costly choices. Her public record is almost all press interviews, so no amount of editing gets it there. What would move it is new evidence: her Werwulf press cycle (US release December 25, 2026), testimony from people close to her, or a costly choice where a Six and a Four would act differently. Those are listed as research tasks.
+
+**Scores:**
+
+| Dimension | Score |
+|---|---|
+| Evidence | 8.5 |
+| Enneagram | 7.5 |
+| Originality | 8.5 |
+| Writing | 8 |
+| Durability | 8.5 |
+| Hook | 9 |
+| Discoverability | 8.5 |
+
+**Three minor findings, none blocking:**
+1. The article never shows the self-talk she also uses to steady herself (e.g. "I may feel this way, but I have to go to work tomorrow"). That makes the "she leans on other people, not herself" comparison look a little cleaner than the record is.
+2. Two short quotes about leaving school ("had already started working," "wholeheartedly") are accurate but aren't mapped in the evidence file.
+3. The body is 3,769 words, against a target of about 3,500.
+
+One process note: while reading `repair-findings.json` for the prior findings, its output also showed the earlier verification's scores. I set these scores on my own and they don't simply copy that earlier set.

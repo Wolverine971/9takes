@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "critic",
+  "content_sha256": "2429848079cfa6ec1a063fe639ac940ebb7baf912e8f08d0387c6c338c108dd9",
+  "evidence_sha256": "c7a2e0492e805a3b23c831881f8d251a3d81ed5f370a2c974bdd6283f333ab67",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "critic-01",
+      "severity": "blocker",
+      "passage": "Look at where the reassurance comes from. Each time, she settles the doubt by leaning on the judgment of the people who did the choosing. They must have had a reason. She rarely answers it by naming what is special about her. That outward move is the center of the Six reading.",
+      "problem": "The central discriminator is built from the thesis-friendly halves of the answers it cites. In Vanity Fair (Nov 21, 2024, S07), straight after the imposter-syndrome line the draft quotes, she resolves the doubt inward: \"Getting to a place where I felt confident enough within myself to be like, 'I can do this and I am here for a reason,' I definitely have struggled with that.\" Later in the same interview: \"do this job for the right reasons, which is that I love what I do... If people still want to talk shit or see me in a certain way, then that's not my problem.\" The draft's \"By _Nosferatu_ the question had the same shape\" lets readers assume the same outward answer. In the Knightley interview (2021, S03), her first move in the anxiety answer is to interpret her own feeling (\"it's a sign that I'm invested\"). The trust she then names is in partners and crew generally, not \"the people who did the choosing.\" Asked whether she feared being judged because of her parents, she answered by asserting her own distinctness: \"I'm very much my own person... that doesn't mean you can't become your own artist, or that your own art isn't valuable on its own.\" Elle 2022 (\"I can't believe they wanted me\") records surprise, not a resolution. Of the four instances, only i-D 2023 cleanly shows the outward move. So \"Each time\" is false, and the \"rarely\" exception is never shown to the reader, even though the evidence record (C57 alternative) knows about it. The same claim is repeated in the type answer, FAQs 1 and 2, and the first reason the Six \"still leads\".",
+      "acceptance_test": "The doubt section quotes or closely paraphrases, with dates, the Vanity Fair 'confident enough within myself... I am here for a reason' resolution and the Knightley 'I'm very much my own person' answer. 'Each time' and 'rarely' are replaced by an accurate account of which instances point outward and which inward. The type answer, FAQs 1-2 and the first Why-not-Type-4 reason are restated to match. Then either the discriminator is rebuilt on evidence that survives the full answers, or the stated confidence is lowered. Either way, type_hypothesis.discriminator and the C10, C11, C45 and C57 inferences are updated to say the same thing as the article."
+    },
+    {
+      "id": "critic-02",
+      "severity": "major",
+      "passage": "What strains that reading is how readily she volunteers doubt and expected failure instead of projecting success.",
+      "problem": "The Vanity Fair answer the draft quotes on either side of this point states the norm behind the volunteered doubt: \"Humility is incredibly important, especially in this business. In a way, I always want to feel like I'm just starting out and like I still have so much to learn.\" The i-D piece (Feb 2023) adds a stated growth posture (\"I always want to exist in this state that's like, I know that I can get better\"). The 2023-24 doubt also comes after her November 2022 Elle remarks drew criticism and she said she was \"so careful about these conversations now.\" So volunteered doubt in cover and awards-campaign interviews is partly a stated professional value and post-backlash caution. That is what an image-aware Type 3, or any careful actor labelled a nepo baby, would also show. The draft uses the same volunteered doubt both as Six evidence and as its reason to dismiss Type 3, without telling the reader this.",
+      "acceptance_test": "The article quotes or paraphrases the 'Humility is incredibly important, especially in this business' line (Vanity Fair, Nov 2024) and acknowledges that her self-deprecation is partly a stated norm and post-2022 caution. The Type 3 dismissal either rests on a discriminator other than volunteered doubt or is openly weakened. The expected-failure forecasts are no longer presented as clean type evidence."
+    },
+    {
+      "id": "critic-03",
+      "severity": "major",
+      "passage": "Second, how she holds the dark feeling. Her childhood memory is about a crowd being cruel to an innocent, and her sympathy for the monster arrives with a check on whether it is acceptable: \"am I sick for feeling that way?\" She also places the darkness in the job: \"I'm a happy person, so I like to explore the underbelly of that at work.\"",
+      "problem": "The rebuttal to Type 4 says she keeps the darkness contained at work, but lines left out of the same sources say the opposite. Vanity Fair (S07), the paragraph after \"I'm too attached to my life\": \"I do think I brought the darkness home, for sure... I was carrying her with me when I was at home.\" Of Ellen she said: \"She is a person who really carries a lot of darkness within her, and has since she was a child, and that has isolated her a lot... I can only identify it now as an utter, complete togetherness with the character.\" Harper's Bazaar UK (S09): \"The most exciting thing is getting to explore parts of myself... the place I'm drawing from is deeply personal.\" To Portman (S01) she called set \"the only time you let that out\" for her \"super-private feelings.\" These lines are the Four's strongest evidence: the work as the channel for a protected, intense inner life. The draft leaves them out while arguing containment. The Edward Scissorhands memory is identification with a mistreated outsider, which is the center of the Four case (C89 itself labels it Type 4 evidence). Reading a joking \"am I sick\" aside as a Six's acceptability check is the author's interpretation, not something she says.",
+      "acceptance_test": "The Why-not-Type-4 section includes, attributed and dated, at least the 'brought the darkness home' line and the Harper's 'explore parts of myself... deeply personal' line. The second reason is then either dropped or rewritten so that it survives them. The 'am I sick' reading is labelled as the author's, and the Edward memory is no longer presented as counting against Type 4."
+    },
+    {
+      "id": "critic-04",
+      "severity": "major",
+      "passage": "Loyalty to the people who backed you, held hardest when they are under attack, is the Six's signature.",
+      "problem": "The draft treats the Idol defense as the costly loyalty test but leaves out the rival explanation its own sources supply. Rolling Stone's May 23, 2023 follow-up (S12) says the March report's sources described \"disturbing sexual and physically violent scenes between Depp and Tesfaye's characters\" and a show that turned into one \"about a man who gets to abuse this woman.\" Her ET statement (S11) speaks to her own experience as the performer (\"how we feel performing it\", \"I felt seen, heard, and appreciated\"). Defending her own consent and judgment, as the actor at the center of those claims, is a direct motive that needs no type, and the draft never names it. Its summary (\"often chaotic working conditions and a show that had taken a dark turn\") hides why her voice in particular mattered. Rolling Stone also says its original report included her statement, so \"Depp answered with a statement... which ET published the next day\" may misstate the order of events. For 2024, the draft says incentives \"explain less.\" But in the same Vanity Fair answer she says \"I'm excited to get to work with them again one day,\" calls the show \"a huge turning point for me\" and says \"I'm really proud of what it is.\" That is a continuing professional tie and pride in her own work. \"Is the Six's signature\" then states as type fact what is one of several sufficient explanations.",
+      "acceptance_test": "The Idol section attributes to Rolling Stone's anonymous sources, alongside HBO's denial, that the reported concerns centred on the sexual and violent material involving her character, and it names defending her own choices and work as an alternative to loyalty. The 2024 paragraph acknowledges her stated hope to work with the Levinsons again and her pride in the show. The 'signature' sentence is hedged to what the evidence supports. The statement's timing matches the sources: given for or alongside the March 1 report, and published by ET on March 2, 2023."
+    },
+    {
+      "id": "critic-05",
+      "severity": "major",
+      "passage": "She expects to lose the role, and then she goes further in it than almost anyone would ask.",
+      "problem": "The hook's thesis has no source, and the description repeats it as fact (\"then went further than anyone asked\"). The record shows that these roles asked for extremity and that she met the brief. Vanity Fair says Eggers \"needed someone uninhibited and fearless.\" She says \"I felt like my job was to show him that I could go there.\" The possession scenes were \"very much choreographed\" with a movement coach. Eggers says the Werwulf role \"was a challenge which she embraced.\" Committing fully to a demanding brief is not going further than asked. \"That pairing runs through her adult career\" also generalises from two roles and one audition.",
+      "acceptance_test": "The hook, the description and any FAQ wording either cite a source showing she went beyond what a director asked, or are rephrased to the sourced claim (for example, that she took the roles that asked the most of her and committed to them fully). The 'runs through her adult career' line names the instances it rests on or is narrowed."
+    },
+    {
+      "id": "critic-06",
+      "severity": "major",
+      "passage": "An Eight or a Seven would talk about appetite or control. She talks about being scared and about proving she isn't.",
+      "problem": "She does talk about appetite, repeatedly. Vanity Fair (2024): \"I really like emotional scenes because they're challenging. I feel stimulated by that\" and \"I gravitate more toward bigger, emotional performances because I like the challenge of it. I like to get in there.\" Elle (2022): \"There's nothing more fun to me than sinking my teeth into something.\" Harper's Bazaar UK (2025): \"you hope that your role will be as meaty as can be.\" The sentence misdescribes her record in order to rule out alternatives. The counterphobic label then lets the Six absorb both her fearfulness off set and her boldness on set, and nothing is named that would count against it. That is the explain-away pattern the standard warns about.",
+      "acceptance_test": "The sentence is removed, or corrected to acknowledge her appetite-for-challenge language with at least one dated quote. The counterphobic paragraph states what observable behaviour would count against a counterphobic Six reading, or concedes that the label does not discriminate on its own."
+    },
+    {
+      "id": "critic-07",
+      "severity": "minor",
+      "passage": "she summed it up: \"It's all about surrounding yourself with good people.\"",
+      "problem": "Several quotes are moved into the trust-and-loyalty thesis from other contexts. Eye For Film (S13) reports this line as part of her answer about celebrity culture and her character Jocelyn, who is \"struggling with the people she is keeping around her and wondering if they are telling her the truth\". It is not a summary of her own trust on set. \"Loyalty is a value she names outright\" gives her the writer's word (Harper's: \"Loyalty... ranks highly for Depp\"). What she said was \"I love people who love their people.\" \"I have had my LA best friends since forever\" comes from her answer about her two cultures, next to \"I only made French girlfriends five years ago\", not from an answer about loyalty. \"The feeling that she doesn't deserve the chance\" is the i-D writer's framing, not hers. Each shift is small, but together they make the loyalty pattern look more self-stated than it is.",
+      "acceptance_test": "The Eye For Film line is given with its Jocelyn and celebrity context, or cut. 'Names outright' is replaced with her actual words. The LA-friends quote is either placed in its bicultural context or dropped from the loyalty argument. The i-D 'doesn't deserve' framing is attributed to the writer."
+    },
+    {
+      "id": "critic-08",
+      "severity": "minor",
+      "passage": "Chosen for a reason in 2023. Everything happens for a reason in 2024.",
+      "problem": "\"Everything happens for a reason\" was a stock reply to whether she was disappointed there was no second season. Pairing that idiom with the i-D line turns a turn of phrase into a motif. The pairing also leaves out the one 2024 \"for a reason\" that is about her own worth, and it points inward: \"confident enough within myself to be like, 'I can do this and I am here for a reason.'\"",
+      "acceptance_test": "The pairing is cut, or the Vanity Fair 'I am here for a reason' line is included and the motif is no longer presented as type evidence."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Lily-Rose Depp auditioned for Robert Eggers's _Nosferatu_ over Zoom. She was at her family's place in the French countryside, and one of her audition scenes was \"a big freak-out scene.\" So she gathered things to throw.",
+      "reason": "A specific, sourced and slightly funny opening scene (Vanity Fair, Nov 2024) that shows rather than asserts the fear-then-commitment pattern. Keep it even if the thesis line after it changes."
+    },
+    {
+      "passage": "The record is also thin where it matters most. There is no long-form testimony from the people closest to her, only her mother's defense and a director's or co-star's praise in a release week. Nobody has described Depp let down by someone she trusted. That is the scene that would test the loyalty reading hardest.",
+      "reason": "Honest confrontation of the evidence gap. It names the exact observation that would test the thesis, which is what a skeptical reader needs."
+    },
+    {
+      "passage": "Off set, the fear doesn't turn into fuel. When Portman asked about the most daredevil thing she had done, Depp said, \"I used to be way more daredevil-ish when I was a kid, and now I'm scared of everything.\"",
+      "reason": "A revealing, accurately quoted contradiction (the Portman prompt is stated) that complicates the bold-on-set picture instead of smoothing it over."
+    },
+    {
+      "passage": "She vouched loudly for a director in 2023 and kept silent about her own father in 2022. Her stated reason is privacy and a wish to be judged on her work. Legal caution, or simply not wanting to relive it, would explain the silence as well. The record shows only what she said.",
+      "reason": "Model handling of a sensitive episode: it states the contrast, gives her own explanation, offers non-type alternatives, and refuses to infer a motive."
+    },
+    {
+      "passage": "When she talks about that role, listen for where she says the steadiness came from: the people and the frame around her, or a feeling she found in herself. The first keeps the Six reading. The second would strengthen the Four.",
+      "reason": "A durable, falsifiable test tied to a dated catalyst (Werwulf, Dec 25, 2026). Note that after critic-01, the Vanity Fair 2024 record already contains a 'within myself' answer, so the sentence should stay but be framed as a test of a reading that is already contested."
+    }
+  ],
+  "assessment": "Critic pass. The draft is honest in many places: it names circumstance after most claims, gives Type 4 its own section, and has a strong 'What the type doesn't explain' section. But its central causal story ('she settles doubt outward, through the people who chose her') rests on the thesis-friendly halves of the answers it quotes. Reopening S01, S02, S03, S05, S07, S09, S11, S12 and S13 from the saved research texts shows the omitted halves. Vanity Fair 2024 resolves the imposter doubt 'within myself' and gives a stated humility norm. Knightley 2021 answers the doubt about her parents with 'I'm very much my own person.' Vanity Fair says she 'brought the darkness home,' and Harper's calls her work 'deeply personal' self-exploration. Rolling Stone's follow-up shows the Idol allegations centred on her own character's material. With those restored, the Six-over-Four margin is much thinner than three confident reasons imply. The outward move survives cleanly in i-D 2023 and in her relief at Eggers's choreography. The Idol defense survives only alongside self-defense and future-work explanations. The editor should either rebuild the discriminator on what survives the full answers or lower the stated confidence. Either way, the type answer, the FAQs and the evidence record must change to match. This is not open-case territory: her record runs from 2014 through 2026 with several long-form interviews. Quote wording itself checked clean wherever I compared it; the problems are context and omission, not misquotation. Similarity advisory: not tripped (top pair 0.174 against Arthur-Mensch is the shared public-record disclaimer, not a reused argument); no distinctiveness finding."
+}

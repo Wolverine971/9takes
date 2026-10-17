@@ -1,0 +1,27 @@
+I've written the Enneagram review to `docs/content-analysis/pipeline-logs/2026-10-16_18-51-02-001_Lily-Rose-Depp/review-enneagram.json`. It passes the review schema, the hashes match the request, and every quoted passage matches the draft exactly. I changed no other files and published nothing.
+
+**Verdict:** the draft argues honestly, but its main argument that she's a Six rather than a Four doesn't hold up as written. I reopened the Elle, Vanity Fair and both Interview magazine pieces (the Portman and Knightley conversations) to check how the key quotes are used. The draft gives three reasons the Six stays ahead, and each one failed:
+
+- **Privacy "against danger, not being misunderstood":** the quotes say the opposite in context.
+  - "Eaten alive" comes right after "people feel like they know you, even though they don't."
+  - Elle says her worry with strangers is "not for her safety."
+  - "Things get dangerous" refers to losing touch with ordinary life, not to any threat.
+- **"Fear, not shame":** this counts words rather than what she's afraid of. Most of the fears she names are about being judged or not deserving her place. "I'm not ashamed" is about her parents, not about her own feelings.
+- **"Four material is just acting talk":** the draft discounts the Four evidence for coming from interviews about her work, but not the trust quotes that support the Six, which come from the same kind of interviews.
+
+There are 8 findings in total (5 major, 3 minor). The other two majors:
+- **Type 3 is dismissed with a looks-based test.** "Looking like a corpse" in a prestige Robert Eggers film builds an actor's image rather than giving it up.
+- **The cost test is never applied.** The one choice in her record with a documented cost, staying silent during her father's 2022 trial, was never weighed.
+
+The minors cover the Six definition being cut to fit her, Type 9 being dismissed with stereotypes, and the FAQ repeating the flawed reasons.
+
+**A Six lead may still be defensible, on different evidence:**
+- She repeatedly settles doubt about herself through the judgment of whoever chose her ("if they've chosen me," "Are they sure that I'm the one?").
+- She calls Natalie Portman "when I'm struggling with a scene."
+- Against the Four, she explicitly rejects the "sit there and cry about it… 'This isn't fair!'" response (Vanity Fair, 2024). The draft doesn't use this yet.
+
+If the editor can't rebuild the argument on evidence like that, the article shouldn't claim the Six is clearly ahead, and medium confidence is the most it can claim.
+
+I marked five passages to protect, including the line saying what would disprove the Six reading, the admission that she never tests authority, and the *Werwulf* press-cycle test that could settle the question later.
+
+The duplicate-writing check flagged one sentence. It's standard Six vocabulary and a stock disclaimer, not reused argument, so I didn't record it as a finding. I confirmed the sensitive-allegations and contested-typing risk flags.

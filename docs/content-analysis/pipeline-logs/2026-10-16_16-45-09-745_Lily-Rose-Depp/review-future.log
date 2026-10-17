@@ -1,0 +1,20 @@
+I wrote the future-role review to `docs/content-analysis/pipeline-logs/2026-10-16_16-45-09-745_Lily-Rose-Depp/review-future.json`. It parses against `reviewSchema`, every quoted passage matches the draft exactly, and its hashes match both the request and the runner's own hash of the current draft and evidence. No other files in the repo were changed and nothing was published. I didn't open the other jury members' reviews.
+
+**Five-year test: the type argument passes.** The Type 6 case rests on dated interviews from 2021 to 2025, across five outlets. Take out everything from 2026 (Werwulf, Alpha Gang, the Empire quote) and the argument still stands.
+
+**Findings (1 major, 7 minor):**
+- **Major: the ending is built on an unreleased film.** "The farmer's wife" section says Werwulf "is due" December 25, 2026, then tells readers to "listen for" what she says in its press. Both go stale in about ten weeks. The fix is to date that material ("as of October 2026") and end on the 2024 "backpack" quote, which ages fine.
+- **The Alpha Gang sentence is just news.** It adds nothing to the personality argument and brings its own upkeep, since the film has no US distributor yet.
+- **Claims that need a date or a review trigger:**
+  - "a face of Chanel since 2015"
+  - "since 2021"
+  - "Nobody has described Depp let down…"
+  - "whom 9takes reads as a Type 4", which goes wrong if the Johnny Depp page is ever retyped
+- **The description says "her two biggest roles."** Werwulf may soon be one of her biggest, so name The Idol and Nosferatu instead.
+- **The Sam Levinson relationship has no review trigger.** The draft treats her standing by him as its strongest evidence, and she has said they'll work together again. A new project or a falling-out should prompt a re-review.
+
+I checked the release dates against Wikipedia today: Werwulf opens December 25, 2026 in the US and January 1, 2027 in the UK, and Alpha Gang premiered at Telluride on September 5, 2026. The similarity check didn't trip, and comparing the actual arguments turned up no meaningful reuse.
+
+One issue outside this role: the "ready to see me fail" quote doesn't say where it's from. It's from Vanity Fair, November 2024.
+
+**Risk flags:** sensitive allegations and contested typing are both set to true, matching what research found.

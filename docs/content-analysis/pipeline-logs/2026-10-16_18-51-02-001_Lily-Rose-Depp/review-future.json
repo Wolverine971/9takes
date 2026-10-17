@@ -1,0 +1,79 @@
+{
+  "schema_version": 3,
+  "role": "future",
+  "content_sha256": "7f0a727701d46f963afe18e348acc29c773532a4b396ae26a0372de9f4ef516c",
+  "evidence_sha256": "61663c372e8fe3a673bbef82b3259361e9a5ff5bad731153d95f5ac283d2864a",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "future-01",
+      "severity": "major",
+      "passage": "The inward answers are real, though, and they get more frequent from 2024 to 2026.",
+      "problem": "The page names a trend that is the most likely way the Type 6 read fails over five years: more of her answers move inward, toward self-definition. But that trend sentence has no entry in the claim inventory. Meanwhile, the two claims that carry the thesis, C37 (the type answer) and C44 (the frame mechanism, \"Inside a frame she trusts... she walks toward what scares her\"), are marked durability `stable` with the trigger \"None; dated historical statement.\" Neither is a dated statement. Both are present-tense interpretations, and the article itself says future evidence could overturn them (C62, C107). C107's trigger also only asks for updates to C08 and \"The next test.\" If the settle test favors the Four, the type answer, title, meta_title, description, both type FAQs and the Type 6 keywords would all stay wrong, and no trigger would point to them.",
+      "acceptance_test": "evidence-edit.json contains a claim whose passage exactly matches the trend sentence, with class `interpretation`, durability `unresolved`, and a review_trigger that fires at each new major press cycle, starting with Werwulf (US Dec 25, 2026; UK Jan 1, 2027). The trigger says to reopen with --refresh --expanded-review if inward or self-defined steadying answers outnumber trust and structure answers. C37 and C44 are relabeled `unresolved`, with triggers that point to C62 and C107. C107's trigger names every field to revisit if the test favors Type 4: the type-answer H2, title, meta_title, persona_title, description, the two type FAQs and the keywords."
+    },
+    {
+      "id": "future-02",
+      "severity": "minor",
+      "passage": "Its press, from late 2026 on, is the next place to check this read.",
+      "problem": "The page's last argumentative section depends on one scheduled release about ten weeks away. After January 2027, \"Her next Eggers film\" and \"the next place to check\" describe a test that has already happened. Unless someone updates the page on time, it will read stale for nearly all of its five-year life. The dates are absolute and C08/C107 carry triggers, so this is a framing problem, not a factual error. The settle signal itself (what she credits for steadying her in a demanding role) is durable and worth keeping.",
+      "acceptance_test": "The settle test is phrased so it applies to any future press cycle for a demanding role, with Werwulf named as the first dated instance and its absolute release dates kept. Neither the section heading nor its sentences depend on \"next\" still lying in the future. Read on 2027-02-01 with no further edits, the section is still accurate."
+    },
+    {
+      "id": "future-03",
+      "severity": "minor",
+      "passage": "Talking to Harper's Bazaar UK about her partner of about two years, the musician Danielle Balbuena (070 Shake), she teared up:",
+      "problem": "Relationships are the status fact most likely to change in five years. Here the length is relative (\"about two years\") and the sentence has no date. The Harper's Bazaar UK date appears about 40 lines earlier, in another section. A reader in 2030 will take \"her partner\" as current and \"about two years\" as counted from now. C09 has a good trigger, but the prose doesn't age.",
+      "acceptance_test": "The sentence carries an absolute anchor, such as \"in late 2024\" or \"together since early 2023\" (per S25), so it stays true whether or not the relationship continues. C09 stays time_sensitive with its trigger."
+    },
+    {
+      "id": "future-04",
+      "severity": "minor",
+      "passage": "Her public record shows trust in directors and collaborators, and no testing of them.",
+      "problem": "Claims that something is absent from the record go stale fastest, and this one is undated. The \"As of October 2026\" anchor comes only in the next paragraph, so this sentence reads as a permanent fact about her. C104 is correctly marked `unresolved` with a trigger, but the prose gives a later reader no sign that the claim is provisional.",
+      "acceptance_test": "This sentence, or the start of its paragraph, carries an \"as of October 2026\" anchor or equivalent. The \"What the type doesn't explain\" section then dates every absence claim (C104, C40, C105)."
+    },
+    {
+      "id": "future-05",
+      "severity": "minor",
+      "passage": "calls her acting deeply personal, and has increasingly described finding",
+      "problem": "The FAQs get syndicated into search results and will be read without the body around them. The Type 4 FAQ uses an undated trend (\"increasingly\") with no stated period, so a reader in 2030 can't tell which years are meant. The type FAQ (\"Lily-Rose Depp's personality type is Enneagram Type 6, the Loyalist.\") drops the medium confidence the body states. If the 2027 settle test goes the other way, this FAQ will have claimed more certainty than the page ever held.",
+      "acceptance_test": "The Type 4 FAQ dates the trend (e.g. \"since 2024\" or \"from 2024 to 2026\"). The type FAQ, still within 60 words, says the read is held at medium confidence, matching the body's \"held at medium confidence.\""
+    },
+    {
+      "id": "future-06",
+      "severity": "minor",
+      "passage": "newMovieStar",
+      "problem": "`newMovieStar` shows on the site as \"Rising Movie Star\" (src/lib/personalityCategories.ts). That is a temporary status. Her first role came in 2014 and her first lead with a César nomination in 2016, so the label is already arguable and will be stale within five years. Nothing in the evidence record tracks it. The site uses it for 31 people, so removing it is a judgment call. Leaving it untracked is the defect.",
+      "acceptance_test": "Either `newMovieStar` is dropped and `movieStar` kept, or the edit stage records a time_sensitive metadata claim for the category, with a review_trigger to remove it at a set date or career milestone."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "By my count of her interviews from 2021 to 2025, fear is the hard feeling she names about herself most often.",
+      "reason": "The count has a closed date range, so it stays true however her later interviews read. This is the dating habit that makes a frequency claim durable."
+    },
+    {
+      "passage": "Promotion explains less of what came after. In November 2024, with the series panned and cancelled, she told Vanity Fair, \"But I stand by it. We made a choice and we went for it.\"",
+      "reason": "It tests the loyalty claim after the promotional incentive had ended, using a dated statement. The evidence still holds in five years because it doesn't depend on The Idol's reputation or her current relationship with the Levinsons."
+    },
+    {
+      "passage": "That claim can be tested. If she started taking big risks with no trusted people or structure around her, the Six reading would weaken.",
+      "reason": "It hands any future refresh a concrete test of the central mechanism, the single most useful durability device on the page."
+    },
+    {
+      "passage": "As of October 2026 there is no long-form testimony from the people closest to her, only her mother's defense, her longtime security guard's remark that she is \"like a daughter\" to him, and praise from collaborators in release weeks.",
+      "reason": "A dated, specific statement of the evidence gap, backed by an actionable trigger (C40). A later reader can tell exactly what was missing and when."
+    },
+    {
+      "passage": "\"You have all your super-private feelings in your backpack, and you go to work and the scene starts and you let it out.\"",
+      "reason": "The page ends on a lasting self-description, not on the scheduled release. If the next-test section is reframed (future-02), this close should survive, because it is why the ending doesn't depend on Werwulf."
+    }
+  ],
+  "assessment": "Five-year test: the thesis mostly passes. The type argument rests on dated interviews from 2021 to 2025, across work, fame, privacy and the November 2024 election remark. Removing the newest material (the March 2026 ELLE France quotes and the Werwulf trailer) would leave the argument intact, though it would weaken the inward-trend counterweight slightly. The hook is a dated Nosferatu anecdote from Vanity Fair (November 2024) and doesn't depend on her current status. Dates are absolute almost everywhere. The Idol reporting is dated and attributed and carefully left unsettled. Review triggers exist for Werwulf, the Levinsons, the relationship, Chanel, the testimony gap and the 9takes Johnny Depp page. Main gaps: (1) the thesis-bearing interpretations C37/C44 are marked stable, the 2024 to 2026 inward trend (the most likely way the read breaks) has no inventoried claim, and C107's trigger doesn't reach the metadata; (2) the next-test section expires in about ten weeks; (3) a few status phrases (the relationship length, an absence claim, an FAQ trend, the \"Rising Movie Star\" category) are undated or untracked. On similarity: the tripped pair with Joseph Zada (\"people and structure\") and the top Arthur Mensch pair (a public-evidence hedge) are ordinary Type 6 vocabulary and a standard disclaimer. The arguments around them are specific to Depp (the paper-towel audition, the choreographed possession scenes, the election quote, the post-cancellation defense), so I don't report them as reuse. The triad primer and the \"plain steps\" Six paragraph are the most transferable text on the page, but they age fine. Risks: sensitive_allegations (The Idol production reporting, the 2016 allegation and the Depp v. Heard trial) and contested_typing (medium confidence, Type 4 close) both stand. No sources were reopened for this role. The findings check the draft against the evidence record's dates, durability labels and triggers."
+}

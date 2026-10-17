@@ -1,0 +1,20 @@
+{
+  "schema_version": 3,
+  "subject": "Lily-Rose-Depp",
+  "mode": "create",
+  "role": "unfamiliar",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_review_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-16_16-45-09-745_Lily-Rose-Depp/draft.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-16_16-45-09-745_Lily-Rose-Depp/evidence-draft.json",
+    "similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-16_16-45-09-745_Lily-Rose-Depp/similarity.json"
+  },
+  "outputs": {
+    "review-unfamiliar.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-16_16-45-09-745_Lily-Rose-Depp/review-unfamiliar.json"
+  },
+  "content_sha256": "2429848079cfa6ec1a063fe639ac940ebb7baf912e8f08d0387c6c338c108dd9",
+  "evidence_sha256": "c7a2e0492e805a3b23c831881f8d251a3d81ed5f370a2c974bdd6283f333ab67"
+}

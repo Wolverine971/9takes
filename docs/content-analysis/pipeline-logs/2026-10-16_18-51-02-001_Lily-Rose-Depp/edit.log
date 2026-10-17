@@ -1,0 +1,33 @@
+Error: Reached max turns (60)
+[runner] Turn limit reached; resuming session 0cbaecfb-7372-4dfd-b471-1a47b7c6fae8 to write outputs
+I finished the edit stage for Lily-Rose Depp and wrote the three requested files. All pass the pipeline's own validators: `edit.md` has no blockers at 3,684 words, `evidence-edit.json` passes validation with 107 claims, and `resolution-edit.json` matches the schema. Nothing was published and no input files were touched.
+
+**What changed in the article**
+
+- **Type and confidence are unchanged:** Type 6 at medium confidence, with Type 4 as the close rival. The six reviewers broke all three reasons the draft gave for preferring 6 over 4, so I rebuilt the case:
+  - **Fear vs. shame:** the draft counted her fear words as proof she's a head type. Most of the fears she names are about being judged or deserving her place, which fits the other types too. That argument is now stated as inconclusive.
+  - **Privacy:** the draft said she guards her privacy against danger. In context her "eaten alive" line is about people thinking they know her, and Elle says outright she fears strangers' judgment, "not for her safety." That argument is gone.
+  - **Job vs. personal talk:** the draft discounted her dark-art talk as just the job but didn't discount her trust talk the same way. Both are discounted now, and what's left is close.
+- **What still favors Type 6 (narrowly):** when she doubts herself she leans on trusted people at work, in the industry and in politics. She also rejects the "This isn't fair!" response in favor of hard work. A new paragraph says plainly that no costly choice separates 6 from 4, which is why confidence stays at medium. Type 3 is now named as not ruled out, and Types 3 and 9 have their own short section.
+- **The hook no longer contradicts the thesis:** the Zoom audition had nobody she trusted named around it, so the article now calls it unusual. With leaving school at 16, it's one of two past cases that strain the article's own test.
+- **New title:** "Lily-Rose Depp: Scared, Then All In" (meta title "Lily-Rose Depp Enneagram Type 6: Scared, Then All In"). The old title, "Brave Where She Feels Safe," was contradicted by the opening anecdote. The FAQs and description now match the rebuilt argument.
+- **Accuracy fixes:**
+  - Five quotes that had been cut to one half are now quoted in full: her answers about her parents, the nepo-baby answer and the "men in my life" line.
+  - A Harper's Bazaar UK quote had joined two sentences across the magazine's "says Depp"; it's now split.
+  - "Anonymous sources" is removed (no opened source supports it), and HBO's statement is separated into what it confirmed and what it disputed.
+  - All 94 quotes in the article match the saved source texts.
+- **Cut for length:** the Eggers "in tears" quote, the skydiving banter, the 070 Shake aside, the 2016 Instagram posts she made at 17, and the full quote from her mother (now a linked mention).
+
+**Open items, all logged as research tasks:**
+- The original ELLE France interview hasn't been opened. Two quotes come only through Purepeople.
+- One short podcast quote was checked against only one transcription.
+- The March 2023 Rolling Stone report itself hasn't been opened. The article relies on its May follow-up and on ET.
+
+**Decisions you might want to veto:**
+- **Length:** 3,684 words is about 180 over the ~3,500 one reviewer asked for. The extra is restored quote context and counterevidence other reviewers required, and the verifier may push back.
+- **Category:** I kept the "Rising Movie Star" category and logged a reminder to remove it after December 2027.
+
+The outputs are in `docs/content-analysis/pipeline-logs/2026-10-16_18-51-02-001_Lily-Rose-Depp/`:
+- `edit.md`
+- `evidence-edit.json`
+- `resolution-edit.json`

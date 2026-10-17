@@ -1,0 +1,18 @@
+I wrote the fan review to `docs/content-analysis/pipeline-logs/2026-10-16_16-45-09-745_Lily-Rose-Depp/review-fan.json`. No other files were changed and nothing was published. The file passes the review schema, and its hashes match the frozen draft and evidence when computed the way the runner does it. I opened the Interview (Portman and Knightley), Elle, Vanity Fair, Harper's Bazaar UK and CBS/AP pages myself.
+
+**Verdict:** the quotes the draft uses are word-for-word accurate. The problem is which halves of her answers it kept. The Type 6 reading probably still holds at medium confidence, but the case for Type 6 over Type 4 needs qualifying.
+
+**Findings (5 major, 2 minor):**
+1. **The deciding argument says "each time," but the sources disagree (major).** The draft says she always settles self-doubt by trusting the people who chose her. It left out two places where she settles it from inside herself:
+   - Vanity Fair, 2024: "confident enough within myself to be like, 'I can do this and I am here for a reason.'"
+   - Knightley, 2021: "I'm very much my own person."
+
+   Turning to her own sense of being distinct is what the Type 4 reading predicts.
+2. **A quote about not going method is cut short (major).** In the same Vanity Fair answer she says, "I do think I brought the darkness home, for sure." That undercuts the draft's claim that she keeps the darkness at work.
+3. **Her 2016 defense of her father is missing (major).** At 17 she posted that he was "the sweetest most loving person I know." Leaving it out makes it look as if she has only ever stayed silent about him.
+4. **"My boyfriend" goes unexplained (major).** The quote is accurate, but the person she means is 070 Shake. Harper's says Depp calls her "'my boyfriend', because that's what she feels like." The same interview has "it's hard not to talk about her," a real exception to her privacy that the draft skips.
+5. **The nepo-baby section leaves out how she got started (major).** The i-D piece the draft cites says her first role came on the set of *Tusk*, a film her father was in, and that Chanel was a house her mother had worked with since the 90s. Without that, readers can't see what the critics were reacting to.
+6. **Her main stated reason for privacy is missing (minor).** It's that she was raised to protect it, not the craft reason the draft gives.
+7. **The description overclaims (minor).** "Went further than anyone asked" is supported for *Nosferatu*. Applied to *The Idol*, it shifts responsibility in a sensitive dispute.
+
+I kept five passages as protected, including the Zoom-audition opening and the line "Nobody has described Depp let down by someone she trusted." I flagged sensitive allegations and contested typing as risks. I chose not to ask for her anorexia disclosure or her childhood illness, because using either as an explanation would invent a wound.

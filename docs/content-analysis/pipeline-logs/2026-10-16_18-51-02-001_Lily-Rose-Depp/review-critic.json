@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "critic",
+  "content_sha256": "7f0a727701d46f963afe18e348acc29c773532a4b396ae26a0372de9f4ef516c",
+  "evidence_sha256": "61663c372e8fe3a673bbef82b3259361e9a5ff5bad731153d95f5ac283d2864a",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "critic-01",
+      "severity": "major",
+      "passage": "Shame words about herself are rare and come as jokes. Asked on the podcast about her parents' shadow, she said, \"I'm not ashamed.\"",
+      "problem": "The lead discriminator counts the two triads with different rules. Fear is counted by content: any nerves, anxiety or worry counts, including worries that are about being judged. Shame is counted only by the literal word. Under the article's own triad definition, the record has plenty of shame-family material about herself that the count leaves out: \"imposter syndrome of, like, 'Why am I here and why do these people think that I can do this?'\", answering \"Absolutely\" when asked about insecurity, feeling \"so out of my depth\" (VF 2024), \"Are they sure that I'm the one?\" (Interview 2021), the photo worry \"She looks like hell, she must be depressed?\" (i-D 2023), fearing strangers will think she is \"weird or rude\" (Elle 2022), and \"I'm better at crying than laughing, which—I don't know what that says about me as a person.\" The counter-quote is also stretched. \"I'm not ashamed, like, my parents are such talented performers\" (C35) denies being ashamed of her parents. It says nothing about whether shame drives how she sees herself. An everyday word (\"scared\", \"nervous\") is being compared with a rare one (\"ashamed\"), so the result is built into the method.",
+      "acceptance_test": "The 'First' discriminator either codes both triads by content with the same rule and reports the result honestly, or is reframed as a weak lean. Coding by content means the imposter, insecurity, out-of-my-depth, are-they-sure-I'm-the-one, photo-judgment and weird-or-rude items count on the shame side. The \"I'm not ashamed\" quote is either given its full context (about her parents) or dropped as evidence about her self-image. The FAQ 'Could Lily-Rose Depp be an Enneagram Type 4?' answer and the 'By my count' sentence in the opening must match the corrected claim."
+    },
+    {
+      "id": "critic-02",
+      "severity": "major",
+      "passage": "That count has limits. Two of those interviews were promoting a horror film, Knightley asked about anxiety directly, and the worry about strangers has a shame flavor.",
+      "problem": "This miscounts the main confound. Three of the six counted sources were Nosferatu press, not two: Vanity Fair's Awards Insider piece (Nov 2024, S07), the Natalie Portman Interview cover, which opens on Nosferatu prep (Dec 2024, S01), and the Harper's Bazaar UK profile, which the evidence record itself calls a \"Promotional profile for Nosferatu\" (Jan 2025, S09). The other three were also promotional: Elle 2022 and i-D 2023 for The Idol, and Interview 2021 with her Silent Night co-star. All six fear sources are press-cycle interviews, and half of them promoted a horror film. That leaves the article's main counting argument less independent than the limitation sentence admits.",
+      "acceptance_test": "The sentence gives the correct count: three of the six were Nosferatu promotion, and all six were given while promoting a project. The opening 'By my count' sentence and the discriminator's confidence wording are adjusted if the corrected confound changes how much weight the count can bear."
+    },
+    {
+      "id": "critic-03",
+      "severity": "major",
+      "passage": "**Second, she guards her privacy against danger, not against being misunderstood.** A Four protects a distinct inner self from being misread. Her words are threat words: \"eaten alive,\" \"lose your footing,\" and, when ordinary life stops mattering, \"That's when things get dangerous.\"",
+      "problem": "The source context points the other way, and the article leaves it out. In Elle 2022, \"I'm not here to give myself to the world to be eaten alive\" comes right after \"people feel like they know you, even though they don't.\" That is a statement about being misread. In the next paragraph Elle reports that around strangers \"she fears not for her safety, but 'that they're going to think I'm really weird or rude.'\" The source explicitly rules out danger and names misjudgment. The same interview's secret-garden answer, which the article quotes, is about being wrongly \"define[d] ... by the men in my life\" and wanting \"to be defined for the things that I put out there\", which again is about being misread. \"That's when things get dangerous\" (Portman 2024) means losing perspective when ordinary life stops feeling valuable, not an external threat. Treating it as a 'threat word' is matching on the word, not the meaning. The second pillar for keeping Six ahead contradicts sources the article itself relies on.",
+      "acceptance_test": "Either remove this discriminator, or rewrite it so it presents the 'people feel like they know you, even though they don't' context and Elle's 'not for her safety' framing. It must also state that her privacy reasons mix protection with not wanting to be misdefined, and not use 'That's when things get dangerous' as a threat word. The line-191 'eaten alive' sentence and the FAQ 'Could Lily-Rose Depp be an Enneagram Type 4?' answer ('guards her privacy against danger rather than against being misunderstood') are corrected to match."
+    },
+    {
+      "id": "critic-04",
+      "severity": "major",
+      "passage": "What connects the two, as far as her own words show, is trust. She goes all the way in where she feels safe.",
+      "problem": "The opening anecdote doesn't fit the explanation the article attaches to it. In the same Vanity Fair answer, she gives her own reason for going big in the Zoom audition: \"I felt like my job was to show him that I could go there. If I get the job, we'll fine tune the intricacies of it after.\" She also says she was \"really nervous\" and \"thought for sure it wasn't going to go my way.\" Her words show going all the way in where she did not feel safe, to prove herself to someone judging her, before any working trust existed. That is closer to performing fearlessness for an evaluator than to trust. \"As far as her own words show\" claims a support the source doesn't give. Later the article states its test only for the future (\"If she started taking big risks with no trusted people or structure around her\"), even though the lead anecdote, and leaving school at 16 on \"gut instincts\", are past cases that already strain it.",
+      "acceptance_test": "The opening either quotes her stated reason for the audition ('my job was to show him that I could go there') and drops 'as far as her own words show', or presents the audition as a case the trust explanation doesn't cover. The test paragraph names the audition and the school decision as existing partial counterexamples rather than wording the test only for future behavior."
+    },
+    {
+      "id": "critic-05",
+      "severity": "major",
+      "passage": "Plenty of people defend their friends, so loyalty alone doesn't make her a Six. What ties it to the Six is the reason she gives elsewhere for holding on: when things feel out of control, you \"hold tight to the people you love.\"",
+      "problem": "This pins a reason on her that she never gave for this choice. The 'hold tight' line is from a November 2024 interview about the US election. She never offered it as her reason for defending Levinson in 2023. Her stated reason there was her own experience on set, which the article itself calls \"the plainest explanation, and it needs no type at all.\" Calling it \"the reason she gives elsewhere for holding on\" passes the author's link off as her motive. The loyalty evidence also counts for Six either way. Defending Levinson publicly is read as Six loyalty, while staying silent about her father in 2022 is read as Six \"caution in a public minefield\". No outcome could have counted against the Six. The 2016 post is set aside as non-evidence because she was a minor, but it comes back in the 'So she vouched publicly for her father in 2016...' comparison.",
+      "acceptance_test": "The section either drops 'What ties it to the Six' or rewrites it as the author's clearly labeled inference, with the line's original context (November 2024, about the election) stated. The article either names which public-loyalty outcome would have counted against the Six reading, or says plainly that the Idol and father episodes are type-neutral. The 2016 post either stays out of the comparison sentence or is explicitly labeled as context only there too."
+    },
+    {
+      "id": "critic-06",
+      "severity": "major",
+      "passage": "Outside one, she steps back. She won't jump out of a plane.",
+      "problem": "The 'outside a trusted frame she steps back' half of the central mechanism (C44) rests on evidence the article itself discounts. Line 189 says the skydiving exchange \"shouldn't carry much weight\" because it was a laughing aside, yet here \"She won't jump out of a plane\" carries the claim. The other two supports are not being on Twitter, which the evidence record calls \"Common advice for public figures\" (C60), and retreating into normal life, which it calls a family norm (C61). Neither separates a Six from anyone else in her position. The type section's \"Depp describes every one of those steps herself\" also overclaims. No source shows the step \"Without it, the worry keeps running.\"",
+      "acceptance_test": "Either the 'outside' half is backed by a sourced example of her avoiding a real risk because no trusted frame was in place, or it is reduced to a tentative observation that names how thin its evidence is. The skydiving line is not used as evidence after being discounted. 'Depp describes every one of those steps herself' is changed to name only the steps the sources show."
+    },
+    {
+      "id": "critic-07",
+      "severity": "minor",
+      "passage": "What strains the Three is how little she guards the image: right after _The Idol_ she spent _Nosferatu_ \"looking like a corpse every day,\" which she called \"a workout for my self-esteem.\"",
+      "problem": "The source context weakens this as evidence against Three. In Vanity Fair she contrasts it with The Idol, where she was \"getting to look super hot and glam every day... definitely feeling myself.\" She says looking like a corpse hurt her self-esteem, which shows appearance does matter to how she feels about herself. The remark came in an awards-campaign interview about a prestige role, and the evidence record itself notes \"actors routinely accept unglamorous roles for prestige\" (C87). For an actor, a de-glam auteur role can build image rather than show indifference to it. That leaves the Three dismissal resting mostly on a translated 2026 secondhand line.",
+      "acceptance_test": "The paragraph either gives a discriminator against Three that a prestige-seeking actor would not equally satisfy, or says Three is not well separated from Six on this record. The corpse line is not presented as indifference to image unless the 'feeling myself' and self-esteem context is acknowledged."
+    },
+    {
+      "id": "critic-08",
+      "severity": "minor",
+      "passage": "The claims came from anonymous sources and were disputed.",
+      "problem": "Calling the adverse reporting \"anonymous\" plays it down, and no opened source supports that wording. The Rolling Stone follow-up that was opened (S12) says only that 13 cast and crew members were interviewed, and its sole mention of anonymity is a site footer. The original March 1, 2023 report was not opened, as the research tasks note. The claim is not in the claim inventory either. Downgrading the reporting against her collaborator with an unchecked label tips a section the article says it won't settle.",
+      "acceptance_test": "Either open the March 1, 2023 Rolling Stone report and add a mapped claim that supports exactly how many sources were anonymous, or replace 'anonymous sources' with wording the opened sources support, such as 'The claims came from 13 cast and crew members interviewed by Rolling Stone and were disputed.'"
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "She was scared, she said so, and she threw the paper towels anyway.",
+      "reason": "A sourced, concrete opening that states the contradiction in one plain sentence. Keep it even if the trust explanation after it is rewritten."
+    },
+    {
+      "passage": "Some of this is the job. On a sexually explicit series, trust-and-safety language is standard, and a lot of it was said while promoting a show.",
+      "reason": "Takes on the strongest deflationary reading of its own key evidence before leaning on it. This is what a skeptical reader needs to see."
+    },
+    {
+      "passage": "Many Sixes test authority before they trust it. Her public record shows trust in directors and collaborators, and no testing of them. That leaves the Loyalist reading one-sided.",
+      "reason": "Names a real gap that cuts against the leading type instead of explaining it away with a wing or subtype."
+    },
+    {
+      "passage": "Nobody has described Depp let down by someone she trusted. That is the scene that would test the loyalty reading hardest.",
+      "reason": "Honest about the thin evidence and specific about what evidence would actually test the claim."
+    },
+    {
+      "passage": "It would be easy to say the Four runs in the family, since 9takes reads her father, [Johnny Depp](/personality-analysis/johnny-depp), as a Type 4. A parent's type proves nothing about a child, and she has said they are \"very different actors.\"",
+      "reason": "Turns down an easy, flattering-to-the-site inference and stays grounded in her own words."
+    }
+  ],
+  "assessment": "The draft is unusually candid. It concedes that trust talk is standard on an explicit show and was said while promoting it, notes the record shows no authority-testing, flags thin intimate testimony, and handles the Idol reporting without settling it. The skeptical problem is in the 'Three things keep the Six ahead' case. The first pillar counts fear by meaning but shame only by the word, and it miscounts the Nosferatu confound (three of six sources, not two). The second pillar contradicts the sources it quotes: Elle places 'eaten alive' right after 'people feel like they know you, even though they don't' and says she fears 'not for her safety' but misjudgment. The opening's trust explanation is not what she said about that audition, and the Idol loyalty evidence counts for Six whichever way it goes. Each claim used here was checked against the cached opened text for Elle 2022, Interview/Portman 2024, Vanity Fair 2024 and the Rolling Stone follow-up. If these are repaired honestly, the Six lead narrows to the trust-and-structure pattern in her work plus the third pillar. The editor should check whether medium confidence still holds against Four (and Three), and whether the type answer, meta_title and FAQs still match the article. A change of leading type needs the refresh with expanded review. Similarity advisory: the one flagged pair (\"people and structures she trusts\" vs Zada's \"trusted people and structure\") is ordinary Six vocabulary in a definition sentence, not reused argument, so it is not a finding."
+}

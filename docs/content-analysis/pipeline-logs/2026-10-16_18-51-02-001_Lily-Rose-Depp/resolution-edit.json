@@ -1,0 +1,323 @@
+{
+  "schema_version": 3,
+  "decisions": [
+    {
+      "finding_id": "subject-01",
+      "action": "fixed",
+      "reason": "The 'guards her privacy against danger, not against being misunderstood' discriminator is removed from the body and from the Type 4 FAQ. 'Eaten alive' is now quoted with its lead-in, 'also comes with this thing where people feel like they know you, even though they don't' (Elle, S05), and Elle's 'not for her safety' framing is restored (C21, C55). The text says that worry 'sits closer to the heart types than to a Six's fear of danger' (C116). 'That's when things get dangerous' is no longer used. The Six's remaining leans (C124, C125) rest on quotes that support them in context."
+    },
+    {
+      "finding_id": "subject-02",
+      "action": "fixed",
+      "reason": "The 60-word answer and the type FAQ now open 'On her public record, Lily-Rose Depp is most likely Enneagram Type 6... at medium confidence' and name Type 4 as close and Type 3 as not ruled out (60 words in the body). 'She talks about her fear often' is gone; the answer describes what she does when she doubts herself."
+    },
+    {
+      "finding_id": "subject-03",
+      "action": "fixed",
+      "reason": "The Elle childhood line is no longer placed in the nepo answer. The nepo paragraph quotes the answer in order: 'nothing is going to get you the part...', the full foot-in-the-door sentence including 'There's a lot of work that comes after that', the doctor example and 'I just hear it a lot more about women' (C25, C118). The author-voice 'Critics had material' sentence is cut. The childhood acknowledgment now comes from i-D, February 2023, after the backlash (C81). The nepo FAQ keeps 'maybe'."
+    },
+    {
+      "finding_id": "subject-04",
+      "action": "fixed",
+      "reason": "'Anonymous' is removed. The text now says Rolling Stone's interviews with 13 cast and crew members produced the claims (S12). HBO's 'did not meet HBO standards so we chose to make a change' is presented as 'its explanation for the switch', and only the working-environment language is presented as the dispute (C65, S11 full statement)."
+    },
+    {
+      "finding_id": "subject-05",
+      "action": "fixed",
+      "reason": "The election-to-loyalty link is attributed: 'in a line the magazine presented as her \"solution,\"' (S09's 'Her solution is to prioritise loyalty and friendship:'). The follow-up now reads 'It came in a Nosferatu promotional interview, but it was about the election, not the film', and the claim notes it is one quote (C58, C59)."
+    },
+    {
+      "finding_id": "subject-06",
+      "action": "fixed",
+      "reason": "The 2016 Instagram posts (made at 17) are removed from the body and the FAQs, so no minor-era evidence appears in the pattern sentence, now 'So she spoke up for her director in 2023 after staying quiet about her father in 2022' (C78). 'Nobody handed her that frame' is replaced by what she said: she 'had already started working' and wanted to pursue acting 'wholeheartedly' (S03), plus 'Her account names no trusted person or plan behind the decision' (C02)."
+    },
+    {
+      "finding_id": "subject-07",
+      "action": "fixed",
+      "reason": "The i-D photo-overthinking quote is removed from the fear section and from the count of judged fears (C54 deleted). No drug context is added."
+    },
+    {
+      "finding_id": "subject-08",
+      "action": "fixed",
+      "reason": "The H2 is now '\"People around you that you've known forever\"', the line carrying the section's evidence. The skydiving banter is cut entirely, so it no longer serves as evidence anywhere."
+    },
+    {
+      "finding_id": "fan-1",
+      "action": "fixed",
+      "reason": "The Harper's Bazaar UK answer now appears with both halves, 'Sure, I guess you could say so,' and 'We're very different actors, but of course you're the product of your environment' (C94), split at the magazine's 'says Depp'. The Knightley answer adds 'obviously you're an extension of your family' (C28). The 2026 ELLE France 'En vrai, on est très semblables' is used (C123). 'It just is what it is' is no longer used as Type 9 evidence or anywhere else. The VF line 'trying to find my own identity in this world...' is quoted and weighed (C121)."
+    },
+    {
+      "finding_id": "fan-2",
+      "action": "fixed",
+      "reason": "'I'm not ashamed' is removed from the article and from the fear-versus-shame argument; C35 is deleted. That argument is now sorted by object and demoted to non-decisive (C36, C138)."
+    },
+    {
+      "finding_id": "fan-3",
+      "action": "fixed",
+      "reason": "The Elle answer is quoted in its real order, with the foot-in-the-door sentence in full, the doctor example ('went to medical school and trained') and the gender point (C25, C118). The childhood line is replaced by the February 2023 i-D version, dated after the backlash (C81), and the nepo FAQ matches. The opened sources (PAPER, S33) do not say which part of the answer drew the backlash, so the article does not attribute the backlash to the gender or doctor remarks."
+    },
+    {
+      "finding_id": "fan-4",
+      "action": "fixed",
+      "reason": "The protected sentences are kept and followed by 'It still explains some. She said it during her Nosferatu awards campaign, and gave reasons of her own: making the show \"was a huge turning point for me,\" where she learned \"how to dance, and sing.\"' (S07)."
+    },
+    {
+      "finding_id": "fan-5",
+      "action": "fixed",
+      "reason": "The quote now keeps her scope: 'define me by the men in my life, whether that's my family members or my boyfriends', with 'not here to answer for anybody' restored (C76). The optional Chalamet clause is not added, to avoid relationship speculation."
+    },
+    {
+      "finding_id": "fan-6",
+      "action": "fixed",
+      "reason": "'Full of dualities' is no longer used as Four evidence. The bio adds one sourced line: 'Her parents separated in 2012 after 14 years together; she is bilingual' (C113, S25, S09, S03)."
+    },
+    {
+      "finding_id": "fan-7",
+      "action": "fixed",
+      "reason": "The anchor passage now includes 'Even you, I'm so grateful that I met you when I was 16, and to have one of my very favorite actresses to be able to call when I'm struggling with a scene' (C120). On first mention Portman is identified as having 'picked her to play her younger sister' in Planetarium, 'now an old friend' (C141), and Knightley as 'her co-star in Silent Night' (C140). The fear-count limits say two of the six interviews were 'conversations with actors she had worked with' (C95)."
+    },
+    {
+      "finding_id": "fan-8",
+      "action": "fixed",
+      "reason": "The 2016 sentence is removed, along with the rest of the 2016 paragraph (minor-era context). Heard is identified as Depp's 'ex-wife' at the 2022 trial (S41: divorce finalized January 2017). The article characterizes no allegation or evidence."
+    },
+    {
+      "finding_id": "critic-01",
+      "action": "fixed",
+      "reason": "The word-count discriminator is gone. Fears are now sorted by object: 'Off set, most of the fears she names are about being judged' and 'Her fear words, as shown above, mostly concern being judged', so fear vocabulary 'can't decide the case' (C36, C138, C116). 'I'm not ashamed' is removed. The opening no longer says fear is the feeling she names 'most often', and the Type 4 FAQ no longer says 'fear rather than shame'."
+    },
+    {
+      "finding_id": "critic-02",
+      "action": "fixed",
+      "reason": "The limits sentence now reads 'all six interviews where she admits fear came while promoting something, three for Nosferatu, two in conversations with actors she had worked with' (C95). The opening count gives its basis, 'six of the nine long interviews this profile draws on from 2021 to 2025' (C43), and no longer carries the triad argument."
+    },
+    {
+      "finding_id": "critic-03",
+      "action": "fixed",
+      "reason": "The discriminator is removed, as subject-01 requires. The 'people feel like they know you, even though they don't' context and Elle's 'not for her safety' are both quoted (C21, C55). 'That's when things get dangerous' is no longer used. The 'eaten alive' sentence and the Type 4 FAQ are corrected."
+    },
+    {
+      "finding_id": "critic-04",
+      "action": "fixed",
+      "reason": "The opening now quotes her stated reason, 'I felt like my job was to show him that I could go there. If I get the job, we'll fine tune the intricacies of it after', notes she had never worked with Eggers and names no one who helped her, and says 'That makes the audition unusual' (C117). 'As far as her own words show' is removed. The test paragraph adds 'Two past cases already strain it: the Zoom audition, and her decision to leave school at 16' (C115)."
+    },
+    {
+      "finding_id": "critic-05",
+      "action": "fixed",
+      "reason": "'What ties it to the Six' is replaced by 'Tying it to the Six is this profile's inference, not a reason she gave; her \"hold tight\" line was about the election.' The section now states that 'her defense of Levinson and her silence about her father (below) are type-neutral' on their own. The 2016 post is removed from the comparison."
+    },
+    {
+      "finding_id": "critic-06",
+      "action": "fixed",
+      "reason": "The 'outside' half is reduced to a labeled tentative observation: 'The other half, stepping back where there is no frame, rests on thin evidence: she isn't on Twitter, doesn't read her coverage and likes to \"retreat back into my real life,\" as plenty of public figures do.' The skydiving line is cut. 'Depp describes every one of those steps herself' is replaced by 'Depp shows the first half often. The second barely appears in her public record' (C139)."
+    },
+    {
+      "finding_id": "critic-07",
+      "action": "fixed",
+      "reason": "The corpse/self-esteem line is removed. The Three is weighed on what she says she measures herself by ('at the end of the day, that's not what's important to me', C128) and on credit allocation (C129), with the press-modesty caveat. The section concludes 'The Three is weaker than the Four here, but it isn't ruled out', and the type answer and FAQ name Type 3."
+    },
+    {
+      "finding_id": "critic-08",
+      "action": "fixed",
+      "reason": "'Anonymous sources' is replaced with wording the opened source supports: Rolling Stone's 'interviews with 13 cast and crew members produced claims...' (S12, C19). A research task notes the March 1 report must be opened before its sourcing is characterized."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "action": "fixed",
+      "reason": "Within the first 250 words the audition is reconciled with the mechanism. The article says it had no trusted person named and calls it 'unusual' (C117). The falsifier paragraph names the audition and the school decision as past cases that strain the test, and the school paragraph says it 'is the second past case that strains this profile's test' (C115, C02)."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "action": "fixed",
+      "reason": "The privacy-against-danger discriminator is removed everywhere, including the Type 4 FAQ. The secret-garden self-definition reason is now credited as 'a reason a Four would give', and the Type 4 comparison counts 'being misknown and the secret garden for the Four' (C98)."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "action": "fixed",
+      "reason": "The count gives its denominator, 'six of the nine long interviews this profile draws on from 2021 to 2025' (C43, with the nine sources listed in the claim). The 'most often' comparison is removed rather than supported with a shame count, because the object-sorted reading (C36) makes a word comparison misleading."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "action": "fixed",
+      "reason": "The secret-garden section now ends by naming the contrast as an open question: 'So she spoke up for her director in 2023 after staying quiet about her father in 2022... For a reading built on holding tight to her people, it is the hardest fact in her file.' Non-type explanations are attributed as inference ('The trial's scale or legal caution could also explain it, though she has never said so')."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "action": "fixed",
+      "reason": "'Why not Type 4?' is cut from about 790 to about 605 words. The darkness/underbelly/dualities run is reduced to one paragraph, and the triad explanation is a single clause. Type 9 and Type 3 move to their own H2, 'What about Type 3 and Type 9?'. The body falls from 3,868 to 3,684 words after restoring the context other findings required (full quotes, the HBO statement, the doctor and gender remarks, the Portman call, the cost test). No counterevidence was removed to reach it. Repeated quotes and secondary color were cut instead: the Eggers tears quote, the skydiving banter, the 070 Shake aside, the corpse line, the photo worry and the Paradis paragraph (her praise is still linked)."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "action": "fixed",
+      "reason": "The H2 now uses the 'people around you that you've known forever' line. 'She won't jump out of a plane' and the skydiving exchange are removed."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "action": "fixed",
+      "reason": "The 070 Shake paragraph is cut entirely (C09 removed), so there is no undated relationship claim."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "action": "fixed",
+      "reason": "The ELLE France 'Désormais' sentence is now quoted in French with a translation where it is cited (C101). Heard is identified on first mention as Depp's 'ex-wife', the accurate term for the 2022 trial. The security-guard remark is linked to Harper's Bazaar UK where it appears. The Chanel line now reads 'In 2015, the year she turned 16'."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "action": "fixed",
+      "reason": "The 'against danger, not against being misunderstood' claim is removed from the body and from the Type 4 FAQ. 'Eaten alive' is quoted with its misknown clause and not called a threat word. 'Things get dangerous' is not used. The article states that her privacy reasons include being misknown and misdefined (C21, C55, C76, C116). The old C96 is deleted and the type hypothesis is rewritten."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "action": "fixed",
+      "reason": "Option (b) plus a light version of (a): fears are sorted by object ('Off set, most of the fears she names are about being judged', C138), and the fear vocabulary is demoted to non-decisive ('can't decide the case'; 'Two arguments that seem to favor the Six don't hold up'). 'I'm not ashamed' is dropped. The hook count, the 60-word answer and the type FAQ no longer rely on fear words."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "action": "fixed",
+      "reason": "The craft/promotion discount now applies to both types: 'Strip the craft talk from both sides and what remains is close: being misknown and the secret garden for the Four, old friends who \"anchor you\" and \"hold tight\" for the Six' (C98). The Six's lead is rebuilt on non-craft evidence: settling doubt through the people who chose her (C11, C47), calling Portman when struggling (C120), what family and friends think (C119), 'hold tight' (C58), and the anti-Four 'This isn't fair!' passage (C122, C125). Confidence stays medium."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "action": "fixed",
+      "reason": "A cost paragraph is added. It names the 2022 silence and the nepo-baby remarks as the choices with documented costs, says the silence leans Four and the post-backlash care fits Six and Three alike, and concludes that no costly choice separates the Six from the Four (C126). The Type 4 FAQ says so, and confidence stays medium."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "action": "fixed",
+      "reason": "The looks-based test and the 'ce n'est pas mon ambition' platitude are dropped. The Three is weighed on what she measures herself by (C128) and on credit allocation, 'to the choreography, the storyboards and a crew with \"this real team feeling\"' (C129), with the press-modesty caveat. The article says Type 3 'isn't ruled out', and the 60-word answer and type FAQ name Type 3."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "action": "fixed",
+      "reason": "The Six description now includes ambivalence and testing ('They also doubt those supports, and many test an authority before trusting it') and says up front that she shows only the trusting half (C139). 'Every one of those steps' and the unsourced 'worry keeps running' step are removed. The 'Six's toolkit' line now names the Six-specific element, borrowing confidence from the people who chose her (C47)."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "action": "fixed",
+      "reason": "The Nine's calm is weighed against the Six mechanism: 'Of Nosferatu: \"I really, really want this one,\" and that audition made her \"really nervous.\" Her calm covers the ordinary; her nerves rise with what she wants most' (C130). The rebuttal now uses a sourced, non-stereotyped discriminator: she 'took a public side in the fight over The Idol repeatedly, from March 2023 to January 2025' (C131). The 'numb distress' and 'challenge other people' stereotypes are removed."
+    },
+    {
+      "finding_id": "enneagram-08",
+      "action": "fixed",
+      "reason": "The metadata is reconciled with the repaired body. The Type 4 FAQ states the body's leans (steadying answers pointing to trusted people across contexts; rejecting dwelling on unfairness) and the cost conclusion, and dates the inward trend 'since 2024'. The type FAQ mirrors the 60-word answer with medium confidence and the Type 3 alternative. The description no longer claims fear-as-core. Title and meta_title change to 'Scared, Then All In', which the hook supports (C110, C111, C133, C134)."
+    },
+    {
+      "finding_id": "future-01",
+      "action": "fixed",
+      "reason": "Added C127 for 'The inward answers are real, though, and they get more frequent from 2024 to 2026': interpretation, unresolved, with a trigger at each major press cycle starting with Werwulf, reopening with --refresh --expanded-review if inward answers outnumber trust-and-structure answers. C37 and C44 are relabeled unresolved, with triggers pointing to C62 and C107. C107's trigger lists every field to revisit: the type-answer H2 and answer, title, meta_title, persona_title, description, both type FAQs, the enneagram field and the keywords."
+    },
+    {
+      "finding_id": "future-02",
+      "action": "fixed",
+      "reason": "The section is now 'How to test this read'. It names Werwulf as 'The first test scheduled after this profile was written', keeps absolute release dates, and adds 'The same question applies to every hard role after it.' Nothing depends on 'next' still lying in the future."
+    },
+    {
+      "finding_id": "future-03",
+      "action": "fixed",
+      "reason": "The relationship sentence is removed (C09 deleted), so no undated relationship-status claim remains."
+    },
+    {
+      "finding_id": "future-04",
+      "action": "fixed",
+      "reason": "The paragraph now opens 'As of October 2026, the Six's skeptical side is missing.' The other absence claims are dated too: C40 says 'As of October 2026', and C105 follows it in the same paragraph."
+    },
+    {
+      "finding_id": "future-05",
+      "action": "fixed",
+      "reason": "The Type 4 FAQ now says 'since 2024 has more often described finding confidence within herself'. The type FAQ says 'at medium confidence' and matches the body's answer."
+    },
+    {
+      "finding_id": "future-06",
+      "action": "fixed",
+      "reason": "newMovieStar is kept, since the site uses it for recent leads and her lead roles date from 2023 to 2024. It is now tracked by C132 (time_sensitive), with a trigger to remove it at the first refresh after December 31, 2027, or sooner if she is established as a lead beyond Werwulf."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "She was scared, she said so, and she threw the paper towels anyway.",
+      "action": "kept",
+      "reason": "Unchanged. The sentences after it now give her stated reason and call the audition unusual, rather than attaching the trust mechanism to it."
+    },
+    {
+      "passage": "Each time, her stated reason is her own experience as the actor in those scenes. He \"has always created an environment in which I felt seen, heard, and appreciated,\" her statement said. That is the plainest explanation, and it needs no type at all.",
+      "action": "kept",
+      "reason": "Unchanged, still before any type reading of the Levinson defense."
+    },
+    {
+      "passage": "Plenty of people defend their friends, so loyalty alone doesn't make her a Six.",
+      "action": "kept",
+      "reason": "Unchanged. The next sentence now labels the Six link as the profile's inference and calls the episodes type-neutral (critic-05)."
+    },
+    {
+      "passage": "It would be easy to say the Four runs in the family, since 9takes reads her father, [Johnny Depp](/personality-analysis/johnny-depp), as a Type 4. A parent's type proves nothing about a child, and she has said they are \"very different actors.\"",
+      "action": "changed",
+      "reason": "Its contribution is kept: the first two sentences reject the inherited-type shortcut unchanged. The clipped 'very different actors' half-quote reversed her answer (fan-1), so it is replaced by both halves, split at the magazine's attribution: 'Sure, I guess you could say so,' and 'We're very different actors, but of course you're the product of your environment.'"
+    },
+    {
+      "passage": "Nobody has described Depp let down by someone she trusted. That is the scene that would test the loyalty reading hardest.",
+      "action": "kept",
+      "reason": "Unchanged."
+    },
+    {
+      "passage": "That claim can be tested. If she started taking big risks with no trusted people or structure around her, the Six reading would weaken.",
+      "action": "kept",
+      "reason": "Unchanged. It is now followed by the two past cases that already strain it (critic-04, unfamiliar-01)."
+    },
+    {
+      "passage": "That is the clearest link in her record between fear and allegiance, and it was about politics, not a film she was selling.",
+      "action": "changed",
+      "reason": "The contribution, separating this quote from junket material, is kept in 'That is the clearest link in her record between fear and allegiance. It came in a Nosferatu promotional interview, but it was about the election, not the film.' 'Not a film she was selling' overstated its distance from promotion (subject-05)."
+    },
+    {
+      "passage": "\"You have all your super-private feelings in your backpack, and you go to work and the scene starts and you let it out.\"",
+      "action": "kept",
+      "reason": "Unchanged closing blockquote."
+    },
+    {
+      "passage": "You have all your super-private feelings in your backpack, and you go to work and the scene starts and you let it out.",
+      "action": "kept",
+      "reason": "Unchanged closing blockquote."
+    },
+    {
+      "passage": "Some of this is the job. On a sexually explicit series, trust-and-safety language is standard, and a lot of it was said while promoting a show.",
+      "action": "kept",
+      "reason": "Unchanged."
+    },
+    {
+      "passage": "Many Sixes test authority before they trust it. Her public record shows trust in directors and collaborators, and no testing of them. That leaves the Loyalist reading one-sided.",
+      "action": "kept",
+      "reason": "Unchanged. The paragraph now opens with 'As of October 2026, the Six's skeptical side is missing.' (future-04)."
+    },
+    {
+      "passage": "Faith in the people who chose her, preparation down to the last rock, and fear kept on as fuel. That is a Six's toolkit, laid out in one answer.",
+      "action": "changed",
+      "reason": "The first sentence, the author's synthesis of her three moves, is unchanged. 'That is a Six's toolkit' overclaimed (enneagram-06), so it now reads 'Hard work and fear as fuel fit plenty of types. The first move is the one to watch: she settles her doubt by borrowing confidence from the people who picked her.'"
+    },
+    {
+      "passage": "When she describes what steadied her through that role, does she credit the people and the frame around her, or a feeling she found in herself? The first keeps the Six. The second strengthens the Four.",
+      "action": "kept",
+      "reason": "Unchanged. It is now followed by 'The same question applies to every hard role after it.' (future-02)."
+    },
+    {
+      "passage": "In 2023 the doubt was settled by the people who chose her. Here she wants it settled \"within myself,\" and she says getting there has been a struggle. That is a real shift, and it counts toward the Four reading below.",
+      "action": "kept",
+      "reason": "Unchanged, and the Four section below still follows it."
+    },
+    {
+      "passage": "By my count of her interviews from 2021 to 2025, fear is the hard feeling she names about herself most often.",
+      "action": "changed",
+      "reason": "The closed date range, which is what was protected, is kept: 'She admits to nerves or fear in six of the nine long interviews this profile draws on from 2021 to 2025.' The 'most often' comparison was removed because critic-01, enneagram-02 and unfamiliar-03 showed it rested on a word count with no denominator."
+    },
+    {
+      "passage": "Promotion explains less of what came after. In November 2024, with the series panned and cancelled, she told Vanity Fair, \"But I stand by it. We made a choice and we went for it.\"",
+      "action": "kept",
+      "reason": "Unchanged. The promotional and self-interest context follows it (fan-4)."
+    },
+    {
+      "passage": "As of October 2026 there is no long-form testimony from the people closest to her, only her mother's defense, her longtime security guard's remark that she is \"like a daughter\" to him, and praise from collaborators in release weeks.",
+      "action": "changed",
+      "reason": "The dated statement of the evidence gap is kept. Two attributions are added: 'her mother's 2023 praise of her work ethic' is linked to Paris Match Belgique, since the Paradis paragraph was cut for length, and the guard's remark is linked to Harper's Bazaar UK (unfamiliar-08)."
+    }
+  ],
+  "prior_blockers": []
+}

@@ -1,0 +1,22 @@
+I wrote the unfamiliar-reader review for Lily-Rose Depp to `review-unfamiliar.json`. It passes the pipeline's schema check, its two content hashes match the request, and every quoted passage appears word for word in the draft. I didn't edit or publish anything else; my scratch scripts are in `/tmp`.
+
+**Verdict:** a newcomer gets oriented quickly. It opens on her *Nosferatu* audition (throwing paper towels around the room), the thesis lands by the fifth paragraph, and the type answer is 56 words, under the 60 limit. The Type 6 vs Type 4 contest is a real argument, not a token one. But two gaps keep a newcomer from feeling what's at stake:
+
+**Major findings**
+- **The Idol defense has no visible cost.** The draft calls it "the costliest test" of her loyalty but never says what the Rolling Stone report was about. The magazine's May 2023 follow-up says its sources described disturbing sexual and violent scenes involving her own character, written after the original director left and Levinson took over. That one attributed fact, kept next to HBO's denial, is what makes her loyalty to Levinson meaningful.
+- **Her roles are never described.** The draft never says she played Ellen Hutter, the woman haunted by the vampire in *Nosferatu*, or Jocelyn, the pop star in *The Idol*. So the thesis that she "goes further than almost anyone would ask" stays abstract.
+
+**Minor findings (7)**
+- "Nepo baby" is never defined, and the reader isn't told why the label stuck to her.
+- One blockquote is credited to its source only after the quote, so it first reads as part of the wrong interview.
+- The evidence for Type 4 comes before the article says what a Four is driven by. "An Eight or a Seven would talk about appetite or control" also pairs the types backwards.
+- The "Kentuckians" quote shows only the American half of her two cultures; the French half is in the same Portman answer.
+- About 40 "she told / she said" tags slow the reading, and the body is about 3,625 words against a 3,500 target.
+- The "Hold tight" section repeats the loyalty point right after the Idol section has made it.
+- The ending stops for a release calendar, including *Alpha Gang*, which isn't tied to the argument, just before the strong backpack-quote close.
+
+**Protected passages (5):** the audition opening, the "look at where the reassurance comes from" paragraph, the "now I'm scared of everything" turn, the contrast between defending Levinson and staying silent about her father, and the closing backpack quote.
+
+**Risk flags and similarity:** I kept "sensitive allegations" and "contested typing" flagged, so the six-reviewer jury stays in place. The similarity check didn't trip; its top match is a stock "this is a read of her public record" disclaimer line, not reused argument.
+
+Both major fixes can be made from sources already in the research record. Since the body is already over target, I wrote the acceptance tests so the fixes add no net words.

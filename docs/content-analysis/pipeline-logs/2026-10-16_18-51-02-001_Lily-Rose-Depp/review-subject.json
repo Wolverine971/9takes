@@ -1,0 +1,93 @@
+{
+	"schema_version": 3,
+	"role": "subject",
+	"content_sha256": "7f0a727701d46f963afe18e348acc29c773532a4b396ae26a0372de9f4ef516c",
+	"evidence_sha256": "61663c372e8fe3a673bbef82b3259361e9a5ff5bad731153d95f5ac283d2864a",
+	"risks": {
+		"sensitive_allegations": true,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": false
+	},
+	"findings": [
+		{
+			"id": "subject-01",
+			"severity": "major",
+			"passage": "**Second, she guards her privacy against danger, not against being misunderstood.** A Four protects a distinct inner self from being misread. Her words are threat words: \"eaten alive,\" \"lose your footing,\" and, when ordinary life stops mattering, \"That's when things get dangerous.\"",
+			"problem": "This gives her a motive that her own stated reasons contradict, and the article states it as fact (the Type 4 FAQ repeats it: \"she guards her privacy against danger rather than against being misunderstood\"). In Elle 2022 (S05), \"I'm not here to give myself to the world to be eaten alive\" comes right after \"people feel like they know you, even though they don't\". That is a complaint about being misknown, and the draft cuts that lead-in. Elle also writes that with strangers she fears \"not for her safety\" but being thought weird or rude. Her direct explanation for the trial silence is about self-definition: \"I'm not here to answer for anybody\" (also cut) and people have \"wanted to define me by the men in my life\". In the Portman interview (S01), \"That's when things get dangerous\" means losing sight of the value of ordinary life, not a threat. The privacy line the draft ends on is \"your inner life is so precious, and that it really needs to be protected\". The article's own secret-garden section admits \"A Four reading would stress the self-definition,\" and then this section treats the same evidence as settled the other way.",
+			"acceptance_test": "Either (a) the \"eaten alive\" quote appears with its \"people feel like they know you, even though they don't\" lead-in, the passage says her stated privacy reasons mix threat language with self-definition and inner-life language, and this stops being presented as a clean discriminator; or (b) the point is removed from the three reasons the Six leads. In either case, neither the body nor the \"Could Lily-Rose Depp be an Enneagram Type 4?\" FAQ states her privacy motive as a fact, and the medium-confidence verdict still rests on reasons the cited quotes support in context."
+		},
+		{
+			"id": "subject-02",
+			"severity": "minor",
+			"passage": "Lily-Rose Depp's personality type is Enneagram Type 6, the Loyalist. Sixes are in the head triad, where the core emotion is fear. She talks about her fear often, steadies it with people and structures she trusts, and inside that safety takes big creative risks. Type 4 is the strongest alternative.",
+			"problem": "The type FAQ, which is the snippet most likely to be lifted into search results, states a living person's type and inner process flatly. The body itself calls this \"a read of her public interviews, held at medium confidence,\" but that label sits two paragraphs below the 60-word answer and is absent from the FAQ. The standard says local hedging is needed where certainty is not warranted. A disclaimer elsewhere does not license the definitive wording here.",
+			"acceptance_test": "The type FAQ answer and the 60-word answer under \"What is Lily-Rose Depp's personality type?\" each say the type is a read of her public interviews held at medium confidence (or equivalent), and the 60-word answer stays within its limit. \"She talks about her fear often\" is framed as what she says in interviews, not as a fact about her inner life."
+		},
+		{
+			"id": "subject-03",
+			"severity": "minor",
+			"passage": "She also said, \"I know my childhood didn't look like everybody's childhood.\"",
+			"problem": "Implied adjacency, plus a missing response. In Elle (S05) this line comes from a separate passage about her parents shielding her from fame (\"and it's a very particular thing to deal with, but it's also the only thing that I know\"), not from her nepo-baby answer. Placed here, it reads as a concession inside that answer. Meanwhile the article cuts her main rebuttal from the same answer: the label is mostly applied to women (\"I just hear it a lot more about women, and I don't think that it's a coincidence\") and \"There's a lot of work that comes after that.\" It also adds the critics' case in the author's voice (\"Critics had material\"). The nepo FAQ drops her \"Maybe\" and turns her hedge into an assertion (\"a famous family gets your foot in the door but no further\").",
+			"acceptance_test": "The childhood line is either placed in its own context (being shielded from fame) or no longer presented as part of the nepo-baby answer. Her gender-double-standard argument or \"There's a lot of work that comes after that\" appears in at least one clause in the body. The nepo FAQ keeps her hedge (\"maybe\") or quotes her words directly."
+		},
+		{
+			"id": "subject-04",
+			"severity": "minor",
+			"passage": "The claims came from anonymous sources and were disputed. HBO said the early episodes \"did not meet HBO standards\" and that the team was committed to \"a safe, collaborative, and mutually respectful working environment.\"",
+			"problem": "No opened source in the record shows the Rolling Stone sources were anonymous. The May 2023 follow-up (S12) says only \"13 sources\" and \"three sources told Rolling Stone\", and C19 records that the March 1 report was not opened. Calling them anonymous without support quietly discounts the crew members' accounts, and they are third parties. Also, HBO's full statement (S11) says the \"initial approach on the show and production of the early episodes, unfortunately, did not meet HBO standards so we chose to make a change.\" That confirms the change Rolling Stone described. Listing it under \"disputed\" misstates which part HBO denied.",
+			"acceptance_test": "Either the March 1, 2023 Rolling Stone report is opened and its use of anonymous sources is cited at this passage, or \"anonymous\" is removed. HBO's \"did not meet HBO standards\" is presented as HBO's explanation for changing course, and only its working-environment language is presented as the dispute."
+		},
+		{
+			"id": "subject-05",
+			"severity": "minor",
+			"passage": "That is the clearest link in her record between fear and allegiance, and it was about politics, not a film she was selling.",
+			"problem": "The draft calls this the most Six-specific line in the record, but the connection rests on the magazine's wording. Harper's Bazaar UK (S09) joins the election remarks to the next quote with its own sentence, \"Her solution is to prioritise loyalty and friendship:\". It does not show these as consecutive words, yet the draft introduces the quote with \"Then she said what she does about it:\". The interview was also a Nosferatu cover story held after a day of media appearances, so \"not a film she was selling\" overstates how far it was from promotion.",
+			"acceptance_test": "The link between \"I'm scared\" and \"hold tight to the people you love\" is attributed to how Harper's Bazaar UK presented it, or worded as \"in the same interview.\" The sentence says the remark was about politics but made in a Nosferatu promotional interview, and the article's weighting of the line reflects that it is one quote."
+		},
+		{
+			"id": "subject-06",
+			"severity": "minor",
+			"passage": "So she vouched publicly for her father in 2016, stayed silent about him in 2022, and vouched publicly for her director in 2023.",
+			"problem": "Minor-era evidence is handled inconsistently. The article excludes the Instagram post she made at 17 as \"context here, not type evidence,\" then uses it as the first step in this pattern. It also uses her decision to leave school at 16 as counterevidence, adding a claim the record does not show: \"but nobody handed her that frame.\" What her parents or advisers said about that decision is unknown. She told Knightley she \"had already started working.\"",
+			"acceptance_test": "The article applies one rule to evidence from before she turned 18. Either the 2016 post stays out of this pattern sentence, or the sentence says that step is excluded. \"Nobody handed her that frame\" is removed or replaced with what she actually said about the decision."
+		},
+		{
+			"id": "subject-07",
+			"severity": "minor",
+			"passage": "She told i-D she overthinks being photographed: \"If I leave my house and I look like shit and someone takes a photo, is it going to be, 'She looks like hell, she must be depressed?'\"",
+			"problem": "In i-D (S02) this worry is raised in a specific situation (\"I can't smoke weed unless I'm in my room... I overthink, like...\"), not as a general habit. The next lines are her own deflation of it: \"Girl, you don't matter that much,\" \"no one fucking cares,\" and \"If I have to deal with a little bit of anxiety to keep doing what I love, then I'm ready.\" The draft presents it as a standing fear, counts it toward the fear tally and drops her response. There is no need to add the drug detail. The fair fix is to stop generalizing it.",
+			"acceptance_test": "Either this quote is removed from the fear section, or it is kept without the general claim \"she overthinks being photographed\" and alongside her immediate response (\"Girl, you don't matter that much\"). Do not add the drug context."
+		},
+		{
+			"id": "subject-08",
+			"severity": "minor",
+			"passage": "## \"Now I'm scared of everything\"",
+			"problem": "This section headline is a laughing remark about skydiving and zip lining (S01). The article itself says it \"shouldn't carry much weight,\" yet as an H2 it becomes a headline claim about her psychology, in a profile whose thesis is fear. Skimmers will read the heading as the finding.",
+			"acceptance_test": "The H2 uses a line that carries the section's actual evidence (for example the \"people around you that you've known forever\" or \"hold tight to the people you love\" material) or a neutral heading. The light exchange stays in the body with its caveat."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "She was scared, she said so, and she threw the paper towels anyway.",
+			"reason": "A sourced, specific opening that states only what she said and did, with no imagined interiority."
+		},
+		{
+			"passage": "Each time, her stated reason is her own experience as the actor in those scenes. He \"has always created an environment in which I felt seen, heard, and appreciated,\" her statement said. That is the plainest explanation, and it needs no type at all.",
+			"reason": "It gives her own stated reason fair weight before any type reading and declines to turn a contested defense into psychology."
+		},
+		{
+			"passage": "Plenty of people defend their friends, so loyalty alone doesn't make her a Six.",
+			"reason": "It refuses to treat her defense of Levinson as proof of a type, which is exactly the overclaim a fairness reader worries about."
+		},
+		{
+			"passage": "It would be easy to say the Four runs in the family, since 9takes reads her father, [Johnny Depp](/personality-analysis/johnny-depp), as a Type 4. A parent's type proves nothing about a child, and she has said they are \"very different actors.\"",
+			"reason": "It rejects an inherited-type shortcut and backs her own distinction from her father with her words."
+		},
+		{
+			"passage": "Nobody has described Depp let down by someone she trusted. That is the scene that would test the loyalty reading hardest.",
+			"reason": "An honest statement of what the record cannot show, without filling the gap with an invented wound or motive."
+		}
+	],
+	"assessment": "Fairness proxy review, checked against the saved research texts for Elle 2022, i-D 2023, Interview (Knightley 2021, Portman 2024), Vanity Fair 2024, Harper's Bazaar UK 2025, ET, Rolling Stone's May 2023 follow-up, CBS/AP 2016, Jezebel, PAPER and Paris Match, and against the evidence record. The draft is largely fair to her. Allegations about The Idol and her father are attributed and not adjudicated. Her responses to Rolling Stone, the nepo debate and the trial silence are included. Excluded material from when she was a minor (the anorexia account, the 2015 photo) stays out. Her father's type is explicitly not imputed to her, and the limits of a junket-heavy record are stated plainly. The one major problem is a motive attribution: the second reason the Six beats the Four says she guards her privacy against danger rather than against being misunderstood, but her own words, read in context, mix threat language with being misknown and self-definition. The FAQ repeats that claim as fact. The minor findings are context and adjacency issues (the childhood line, the election-to-loyalty link, the i-D overthinking quote), an unsupported \"anonymous sources\" label, HBO's statement filed under the dispute when part of it confirms the change, inconsistent handling of evidence from before she was 18, an unhedged type FAQ, and a joke used as a section headline. The similarity trip (\"people and structure\" vs joseph-zada) is ordinary Six vocabulary in the diagnosis sentence. The argument around it is specific to her, so I found no meaningful reuse. Risk flags: sensitive allegations (Idol production claims; Heard's 2016 allegation and the 2022 trial) and contested typing (medium confidence; Type 4 is close) are both present, consistent with research."
+}

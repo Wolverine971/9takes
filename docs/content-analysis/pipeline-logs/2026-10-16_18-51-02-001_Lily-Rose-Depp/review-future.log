@@ -1,0 +1,16 @@
+I've written the five-year durability ("future") review for the Lily-Rose Depp draft to `review-future.json`. It checks against the pipeline's review schema. I didn't modify any other file or publish anything.
+
+**Verdict: mostly durable.** The Type 6 argument rests on dated interviews from 2021 to 2025. If you remove the 2026 material (the ELLE France quotes and the Werwulf trailer), the argument still stands. The opening is a dated Nosferatu audition story that doesn't depend on her current status, and dates are absolute almost everywhere.
+
+**Six findings:**
+- **Major (future-01):** The page itself names the most likely way the Type 6 read breaks: her answers get more inward from 2024 to 2026. That trend sentence isn't tracked in the evidence record. The two core claims behind the type are labeled "stable" even though they're present-tense interpretations the page says could be overturned. And the Werwulf re-check trigger only updates the body section. If the read flips to Type 4, the title, description, FAQs and keywords would stay wrong and nothing would flag them.
+- **Minor:**
+  - **future-02:** The "next test" section goes stale after Werwulf opens (December 25, 2026 in the US, January 1, 2027 in the UK). It should state the test so it works for any future press cycle, with Werwulf as the first example.
+  - **future-03:** "Her partner of about two years" has no date in that sentence, so a later reader will take it as current.
+  - **future-04:** "No testing of them" claims an absence of evidence, and it comes before the "As of October 2026" date.
+  - **future-05:** The Type 4 FAQ says she has "increasingly" described inner confidence without naming the years. The type FAQ also leaves out the "medium confidence" the body states.
+  - **future-06:** The `newMovieStar` category displays as "Rising Movie Star", a temporary status nothing tracks. Her first role was in 2014.
+
+**Protected passages:** I marked five: the dated "by my count" frequency claim, her November 2024 "I stand by it" defense of The Idol after it was cancelled, the "That claim can be tested" line, the dated note on missing testimony, and the backpack quote that ends the page.
+
+The similarity check flagged an overlap with the Joseph Zada page ("people and structure"). It's ordinary Type 6 vocabulary around arguments specific to Depp, so I didn't report it as reuse. I didn't reopen sources for this role; I checked the draft's dates, durability labels and re-check triggers against the evidence record.

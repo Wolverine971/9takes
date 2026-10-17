@@ -1,0 +1,213 @@
+{
+  "target": {
+    "person": "lily-rose-depp",
+    "type": "6",
+    "units": 7,
+    "file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-16_18-51-02-001_Lily-Rose-Depp/draft.md"
+  },
+  "comparison_set": [
+    {
+      "person": "grace-reiter",
+      "date": "2026-10-16",
+      "units": 8
+    },
+    {
+      "person": "shyam-sankar",
+      "date": "2026-10-13",
+      "units": 14
+    },
+    {
+      "person": "maleah-joi-moon",
+      "date": "2026-10-12",
+      "units": 10
+    },
+    {
+      "person": "joseph-zada",
+      "date": "2026-09-12",
+      "units": 13
+    },
+    {
+      "person": "Arthur-Mensch",
+      "date": "2026-09-10",
+      "units": 42
+    },
+    {
+      "person": "inde-navarrette",
+      "date": "2026-09-10",
+      "units": 11
+    },
+    {
+      "person": "zach-bryan",
+      "date": "2026-09-10",
+      "units": 39
+    },
+    {
+      "person": "Nathan-Fielder",
+      "date": "2026-09-09",
+      "units": 27
+    }
+  ],
+  "n_requested": 8,
+  "noise_floor": {
+    "pairs_compared": 1148,
+    "median": 0,
+    "p90": 0,
+    "p99": 0.011,
+    "max": 0.17
+  },
+  "trip_threshold": 0.044,
+  "tripped": true,
+  "trip_pairs": [
+    {
+      "score": 0.077,
+      "other_person": "joseph-zada",
+      "shared_phrases": [
+        "people and structure"
+      ],
+      "target": "[diagnosis] steadies it with people and structures she trusts",
+      "other": "[diagnosis] A Six fears the ground giving way and settles once trusted people and structure are in place."
+    }
+  ],
+  "per_draft_max": [
+    {
+      "person": "Arthur-Mensch",
+      "date": "2026-09-10",
+      "units": 42,
+      "maxScore": 0.17
+    },
+    {
+      "person": "joseph-zada",
+      "date": "2026-09-12",
+      "units": 13,
+      "maxScore": 0.077
+    },
+    {
+      "person": "shyam-sankar",
+      "date": "2026-10-13",
+      "units": 14,
+      "maxScore": 0.068
+    },
+    {
+      "person": "grace-reiter",
+      "date": "2026-10-16",
+      "units": 8,
+      "maxScore": 0.027
+    },
+    {
+      "person": "maleah-joi-moon",
+      "date": "2026-10-12",
+      "units": 10,
+      "maxScore": 0.014
+    },
+    {
+      "person": "zach-bryan",
+      "date": "2026-09-10",
+      "units": 39,
+      "maxScore": 0.011
+    },
+    {
+      "person": "inde-navarrette",
+      "date": "2026-09-10",
+      "units": 11,
+      "maxScore": 0.003
+    },
+    {
+      "person": "Nathan-Fielder",
+      "date": "2026-09-09",
+      "units": 27,
+      "maxScore": 0.003
+    }
+  ],
+  "top_pairs": [
+    {
+      "score": 0.17,
+      "other_person": "Arthur-Mensch",
+      "shared_phrases": [],
+      "target": "[diagnosis] This is a read of her public interviews",
+      "other": "[diagnosis] That is a reading of public evidence rather than a diagnosis"
+    },
+    {
+      "score": 0.108,
+      "other_person": "Arthur-Mensch",
+      "shared_phrases": [],
+      "target": "[diagnosis] steadies it with people and structures she trusts",
+      "other": "[diagnosis] and staffed it with people he already trusted"
+    },
+    {
+      "score": 0.077,
+      "other_person": "joseph-zada",
+      "shared_phrases": [
+        "people and structure"
+      ],
+      "target": "[diagnosis] steadies it with people and structures she trusts",
+      "other": "[diagnosis] A Six fears the ground giving way and settles once trusted people and structure are in place."
+    },
+    {
+      "score": 0.068,
+      "other_person": "shyam-sankar",
+      "shared_phrases": [],
+      "target": "[diagnosis] She scans ahead for what could go wrong.",
+      "other": "[diagnosis] They manage it by committing to what they trust and watching for what could break it."
+    },
+    {
+      "score": 0.027,
+      "other_person": "grace-reiter",
+      "shared_phrases": [],
+      "target": "[diagnosis] and inside that safety she takes big creative risks.",
+      "other": "[diagnosis] The Six leads less because of how she takes a compliment"
+    },
+    {
+      "score": 0.024,
+      "other_person": "grace-reiter",
+      "shared_phrases": [],
+      "target": "[diagnosis] This is a read of her public interviews",
+      "other": "[diagnosis] the ego she is \"terrified of.\" Her ambition points to Type 3"
+    },
+    {
+      "score": 0.021,
+      "other_person": "Arthur-Mensch",
+      "shared_phrases": [],
+      "target": "[diagnosis] This is a read of her public interviews",
+      "other": "[diagnosis] \"you can basically run it on your own terms.\" As procurement advice this is unremarkable."
+    },
+    {
+      "score": 0.014,
+      "other_person": "maleah-joi-moon",
+      "shared_phrases": [],
+      "target": "[diagnosis] This is a read of her public interviews",
+      "other": "[diagnosis] The Enneagram is a nine-type model of core motivation"
+    },
+    {
+      "score": 0.012,
+      "other_person": "shyam-sankar",
+      "shared_phrases": [
+        "nine type"
+      ],
+      "target": "[diagnosis] The nine types sort into three triads by the hard feeling at their center.",
+      "other": "[diagnosis] The Enneagram groups its nine types by core emotion"
+    },
+    {
+      "score": 0.012,
+      "other_person": "Arthur-Mensch",
+      "shared_phrases": [],
+      "target": "[diagnosis] This is a read of her public interviews",
+      "other": "[diagnosis] and what it buys is a shorter list of people who can say no."
+    },
+    {
+      "score": 0.012,
+      "other_person": "maleah-joi-moon",
+      "shared_phrases": [
+        "nine type"
+      ],
+      "target": "[diagnosis] The nine types sort into three triads by the hard feeling at their center.",
+      "other": "[diagnosis] The Enneagram is a nine-type model of core motivation"
+    },
+    {
+      "score": 0.011,
+      "other_person": "Arthur-Mensch",
+      "shared_phrases": [],
+      "target": "[diagnosis] Depp describes every one of those steps herself.",
+      "other": "[diagnosis] That pattern repeats at every scale."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "eligible": false,
+  "blockers": [
+    "verification:revise",
+    "unresolved:verify-01:A source the profile itself cites contradicts this. On the January 2, 2025 Happy Sad Confused podcast (S34, feed audio about 10:20-10:40; whisper medium.en, large-v3-turbo and small.en agree), she says she prepped for the Zoom audition: 'I did, like, a session with, like, our dialect coach before the audition because I was, like, I hope the accent isn't, like, ridiculous.' She also says she had a Zoom meeting with Eggers 'a couple days before'. Vanity Fair adds that at that first meeting he told her, 'I'm sorry, I know Zoom auditions suck.' So her accounts do name preparation support, which is the plan-and-structure kind of frame the Six reading counts. The edit introduced this sentence (critic-04, unfamiliar-01) and builds on it: 'That makes the audition unusual' and 'Two past cases already strain it: the Zoom audition...' (C115, C117). The error concedes against the thesis rather than for it, but it misstates her record in the hook and in the article's own falsification test.",
+    "overall_below_8.5:8.4"
+  ],
+  "quality": {
+    "evidence": 8.5,
+    "enneagram": 8,
+    "originality": 8.5,
+    "writing": 8,
+    "durability": 9,
+    "hook": 8.5,
+    "discoverability": 8.5,
+    "overall": 8.4,
+    "letter": "B",
+    "rubric_version": 3,
+    "graded_at": "2026-10-16",
+    "caps_applied": [],
+    "needs_review": true,
+    "content_sha256": "b41760549661e33623b0d76c39ae16837cd07900053df2c540a5555d6d32fce7"
+  }
+}
