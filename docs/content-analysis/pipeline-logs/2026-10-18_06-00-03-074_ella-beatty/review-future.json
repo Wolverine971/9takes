@@ -1,0 +1,86 @@
+{
+  "schema_version": 3,
+  "role": "future",
+  "content_sha256": "958497076648843496b347d182e1922c90a1875acafb202d9ee7d1fa4bdc89b1",
+  "evidence_sha256": "6f6f72fd05658ddc3d1ea088ee4ae5b6a66cf41c4fa860cc2690732003c0a50c",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "future-01",
+      "severity": "major",
+      "passage": "But her public record is under three years old and mostly promotional, so nothing yet separates these reads.",
+      "problem": "This relative-age claim has a fixed expiry date. The record begins with Feud in January 2024 (C03), so 'under three years old' becomes false in January 2027. That is a month after next_review and before The Bell Jar or most settle signals are likely to arrive. The phrase is in the 60-word type answer and is mirrored in the type FAQ answer. It recurs in the intro ('So people are looking her up, and they find a public record under three years old'), where 'people are looking her up' is also undated present tense. If the page sits unrefreshed (holds and ISR lag happen), its most-quoted snippet would state a false fact.",
+      "acceptance_test": "In the type answer, the type FAQ answer and the intro paragraph, the relative age is replaced with an absolute anchor (e.g., 'a public record that begins in January 2024' or 'as of October 2026'), and the search moment is dated (e.g., 'Since the September 2026 premiere'). The type answer stays at or under 60 words, and the FAQ still mirrors it word for word. The C40 and C41 passages are updated to match."
+    },
+    {
+      "id": "future-02",
+      "severity": "major",
+      "passage": "Sarah Paulson, now one of her closest friends, told",
+      "problem": "This is an undated relationship status in the author's voice, and 'now' will not survive five years. C18 and C16 carry the Paulson relationship, yet both are marked stable with no review trigger. The standard requires changing relationships to be time_sensitive. The record's own sensitivity guidance says to describe the friendship only in the two women's own words. Paulson is also the article's main witness (the Interview conversation, Town & Country) and is named in settle signal 4. If the relationship is ever publicly described differently, several passages would need to change at once.",
+      "acceptance_test": "The label is replaced by a dated, attributed description in their own words (e.g., Beatty called Paulson 'one of my very best friends in the world' on TODAY in September 2026, S10). No relationship characterization stays in the author's voice, and nothing alludes to S24. C18 and C16 become time_sensitive, with a review_trigger such as 'Recheck if either woman describes the relationship differently on record.'"
+    },
+    {
+      "id": "future-03",
+      "severity": "minor",
+      "passage": "Golden Globe nominations are due in early December 2026, ahead of a January 10, 2027 ceremony, according to [CBS](https://www.paramountpressexpress.com/cbs-entertainment/shows/84th-annual-golden-globes/about/), and _The Bell Jar_ has no release date yet.",
+      "problem": "The cited CBS page gives the nominations date as 'Monday, Dec. 8'. December 8, 2026 is a Tuesday, but December 8, 2025 was a Monday, so the page most likely still carries the 83rd ceremony's date (C63 noted the clash but kept 'early December'). The page supports the January 10, 2027 ceremony, not a 2026 nominations date, yet next_review (2026-12-15) is timed against this catalyst. Separately, '_The Bell Jar_ has no release date yet' carries no date in this sentence, so it reads as current whenever the page is opened.",
+      "acceptance_test": "Either an opened source confirms the 2026 nominations date, or the sentence attributes only the January 10, 2027 ceremony to CBS and mentions nominations without a date CBS doesn't support. next_review falls after the confirmed nominations date. The Bell Jar clause carries 'as of October 18, 2026' or points back to the dated mention in the intro."
+    },
+    {
+      "id": "future-04",
+      "severity": "minor",
+      "passage": "Leaning on mentors is ordinary at 24 in a new city, and several of hers approached her first.",
+      "problem": "This is a factual error. She had lived in New York since entering Juilliard in 2018 (C02), so New York in 2024 was not a new city; the record's own alternative under C16 says 'new to New York theater.' The age is also loose for the examples given. Hollander's offer came during the Feud shoot, and C55's own alternative notes she was 23 then. Paulson's approach followed the Appropriate audition in early 2024, around the time she turned 24 (April 8).",
+      "acceptance_test": "The sentence uses a supported frame (e.g., 'in a first professional season' or 'new to professional theater') and either drops the age or matches it to the dated events. C55's passage is updated."
+    },
+    {
+      "id": "future-05",
+      "severity": "minor",
+      "passage": "The Newcomer Who Comes In Off Book",
+      "problem": "The metadata is pinned to her 2026 career status, with no review triggers. 'Newcomer' in persona_title will be false well within five years, while 'comes in off book' is the durable behavior. The title's 'Netflix's Lizzie Borden' is the right search hook today. But C66 (the title) is marked stable with no trigger, even though its identity tag and its 'Open Case, Leading Read' wording must both change when a bigger role arrives or the case closes. The age FAQ ('so she is 26 as of October 2026', C72) is also marked stable, though the birth date already answers the question.",
+      "acceptance_test": "persona_title drops the career-stage label but keeps the off-book image (or C67 becomes time_sensitive with a trigger). C66 becomes time_sensitive, with a review_trigger tied to the case closing or a later role overtaking Monster. The age FAQ either drops the computed age or C72 becomes time_sensitive. The title's Lizzie Borden hook does not have to change now."
+    },
+    {
+      "id": "future-06",
+      "severity": "minor",
+      "passage": "This is an open case: a leading read held loosely, the alternatives beside it, and what would decide between them.",
+      "problem": "Open-case eligibility has no dated end point. Every reopen trigger is an event except next_review 2026-12-15. Two of the five settle signals (a creative disagreement, testimony from before 2024) may never surface in promotional press. The page could then stay 'open' indefinitely while her record grows past 'early public career'. At that point the standard requires the case to graduate or become an insufficient_evidence hold. The eligibility anchor is also inconsistent: open_case.reason calls Monster (September 17, 2026) her first lead, while C03 has her leading Act One at Tribeca on June 10, 2026.",
+      "acceptance_test": "The evidence record carries a dated eligibility check, in research_tasks or a claim review_trigger: at the review after The Bell Jar press cycle, and no later than a specific 2027 date. If no settle signal has fired by then, the check requires either graduation to the standard format or an insufficient_evidence hold with research tasks. open_case.reason and C03 agree on which project was her first lead."
+    },
+    {
+      "id": "future-07",
+      "severity": "minor",
+      "passage": "Does she return to trusted people, such as Murphy's company or Paulson (Six); take whatever comes (Nine); choose for the people involved (Two); or climb toward bigger leads (Three)?",
+      "problem": "This signal will not settle much at the next review. Murphy routinely re-casts his actors, and Paulson's own career runs through his shows. Going back to 'Murphy's company or Paulson' is the default career move for any actor he rehires. It would read as Six whether the motive is security, opportunity (Three) or inertia (Nine). A future reviewer would see the signal fire and learn little.",
+      "acceptance_test": "Signal 4, and its FAQ mirror 'whom she chooses to work with next', is tied to something that separates motive from incentive: her own on-record reason for a choice, or a choice made against or without her trusted circle. Each type branch then predicts a different observable."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Ella Beatty beat the reporter to the Carlyle.",
+      "reason": "The hook is dated February 2024 and does not depend on Monster, and the closing pays it off. It will age far better than a premiere-week opening."
+    },
+    {
+      "passage": "At the same press conference, asked how they had prepared, Rebecca Hall said, \"I did absolutely nothing.\" Charlie Hunnam had spent a couple of days reading. Beatty described a book, a movement coach and work before pre-production. The difference was hers, not the job's.",
+      "reason": "A controlled comparison from one dated event: same job, same day, three preparation answers. It separates her behavior from what the role demanded, and it stays useful as evidence after Monster fades."
+    },
+    {
+      "passage": "First she removed the risk she could control. Then she took permission from the person in charge. Then she brought herself.",
+      "reason": "It states the repeated pattern as a sequence of observed steps rather than a type label, so it stays true whichever way the case settles."
+    },
+    {
+      "passage": "Read as a Six, that is the type's growth task in her own words: learning to trust that she can handle what she fears before it arrives. Read as a Nine, the telling detail comes first. The rush felt good because it left no room for her.",
+      "reason": "It holds two readings of her own words without forcing one. That is what makes the page reopenable, not wrong, if Nine wins."
+    },
+    {
+      "passage": "Whichever way it settles, some of this will hold. She was early to the Carlyle and off book for the Belasco.",
+      "reason": "It explicitly separates what is known from what is still open, which is the open-case durability bar. It ends on dated behavior rather than a status."
+    }
+  ],
+  "assessment": "The core of the article passes the five-year test. Take away Monster, the latest event, and the fear-then-preparation pattern still stands on evidence from 2024 and 2025: the off-book Appropriate put-in and the self-trust passage (Meindl, February 2025), the nerves on nights off from Sexual Misconduct (Paulson, June 2025), the audition friend-call (February 2025), and the 2024 Vogue Carlyle scene that opens and closes the piece. The open-case bar also holds. What the page says is known (she names fear, prepares early, leans on a small circle, credits luck, is uneasy being public) would stay true if a later run settled on Nine, Two or Three. Most changing facts are dated and carry review triggers: the premiere, the viewership week, The Bell Jar 'as of October 18, 2026', and the missing account of a disagreement. next_review (2026-12-15) falls just after the Globe nominations. The weak points: a relative-age claim that expires in about three months and sits in the type answer and FAQ; an undated relationship label for Paulson in the author's voice, marked stable against the record's own sensitivity rule; a nominations date the cited CBS page does not support for 2026; career-stage labels in the metadata with no triggers; and no dated end point for open-case eligibility. Eligibility is confirmed. She is an adult (born 2000), her first professional role was in January 2024, her first leads came in 2026, and research opened 24 sources and tested five types without skipping a deep testimony record. The similarity check tripped on 'whose core emotion is fear' (grace-reiter) and on generic 'public record' and 'yet separate' phrasing. These are standard triad vocabulary and ordinary hedges, and the arguments differ, so there is no reuse finding. Risk flags: contested_typing (open case) and sensitive_allegations (the TMZ and Page Six items in the record; the draft correctly avoids both)."
+}

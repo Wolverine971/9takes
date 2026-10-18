@@ -1,0 +1,2036 @@
+{
+  "schema_version": 3,
+  "subject": "dylan-patel",
+  "status": "ready",
+  "research_tasks": [
+    "Read The Information profile (S09, 2026-04-17) and revenue briefing (S11, 2026-04-18) through a subscription so they can be cited as opened sources, and replace every detail currently sourced only to the Deep News adaptation (S10): the four principles, the mother/IT remark, the bonus, MIT/Stanford rejections, University of Georgia and the majors, \"about 20 startups\", Fluidstack/Prime Intellect ratings, the Rubin timing and the Weisser quote. Until then no claim cites S09 or S11. Quote only the English original.",
+    "Find the audio or video of Latent Space's In-Context Cooking episode (S02); the YouTube IDs on the post are other videos and the episode is not in the podcast RSS. Re-check 'Just next step, next step, next step. Doesn't seem like there's a clear, immediate path.' and 'looking back, I can spin a narrative' against it.",
+    "Open the San Francisco Superior Court dockets (SemiAnalysis v. Zhou, CGC-26-635328, and Zhou's case, reported as CGC-36-635374) and Patel's own public statement on the suits; confirm filing dates, claims and current status. Keep the countersuit's specific misconduct allegations out of the article.",
+    "Pin the Blackwell GTC embargo episode Substrate mentions (year, SemiAnalysis article, Nvidia's response) before reinstating it; it was cut from the article in the edit stage because it remains undated.",
+    "Find testimony from people outside his circle: a former SemiAnalysis analyst who left, a company that disputed a SemiAnalysis report (e.g. a neocloud rated poorly in ClusterMAX, Hot Aisle), or a rival analyst. Record whether they describe sustained pressure to dominate (Eight) or quick, playful combat that moves on (Seven).",
+    "Sample 20 or more of his X replies to critics across 2023–2026 (he says he cannot resist answering) and code them: mockery-and-move-on vs. escalation and sustained pursuit. This is the most direct remaining test of the 7/8 discriminator.",
+    "Confirm the University of Georgia and his degree from a primary source (his LinkedIn education section when logged in, a UGA record, or his own statement).",
+    "Ask or search for his own explanation of why he asked the Internet Archive to remove his early anonymous writing (C11).",
+    "Check EDGAR for an amended Form D for SemiAnalysis Capital Fund I and reconcile the $400M offering with the $500M he told Substrate.",
+    "Open Patel's December 2025 X posts about the Abilene/Oracle call and the replies by Axiomatic Capital and others (summarized in S28); record how he answered, as an early data point for the reply sample.",
+    "Identify the speaker of the WisdomTree line \"he talked about us longer than anyone else in the entire presentation\" (TechFlow S05 labels it host; large-v3-turbo runs it into Patel's answer) before quoting it.",
+    "Open The Information's original (S09) for the four principles reported in translation as roughly \"have fun, make money, know everything, have influence\"; if confirmed in English, consider them for the 7-versus-8 argument.",
+    "Pin when the itinerant period ended and why: his first San Francisco lease or office, and whether the October 2024 \"kind of not really\" hedge (S01, alongside the 179-day tax joke) reflects residency rules. S01 already dates the conference circuit and first hires to 2022 and his near-settling in San Francisco to October 2024; the 7-over-8 timing argument (C41, C139) depends on these dates."
+  ],
+  "accuracy_checked_at": "2026-10-17",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.dwarkesh.com/p/dylan-jon",
+      "title": "Dylan Patel & Jon Y (Asianometry) – How the semiconductor industry actually works (Dwarkesh Podcast, full transcript)",
+      "speaker": "Dylan Patel, with Jon Y (Asianometry) and host Dwarkesh Patel",
+      "date": "2024-10-02",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-17; full published transcript saved at /tmp/dylan-patel-research/txt/dwarkesh_dylanjon.txt. Opening exchange before chapter \"00:01:15\" (name passage); chapter \"01:50:20 – Starting Asianometry and SemiAnalysis\" (Dwarkesh asks \"How does one go from Reddit shitposter to running a semiconductor research and consulting firm?\"; Dylan's origin answer, the \"friends on the internet\" exchange, the money, conferences and hiring passages); chapter \"02:06:10 – Opportunities in the semiconductor stack\" (advice passage). Jon Y's \"fraud\" remark is in the 01:50:20 chapter. Repair stage (2026-10-17): re-fetched by curl (HTTP 200, 657,706 bytes); the chapter \"01:50:20\" also contains \"In 2022, I also started going to every conference I could\", \"I've been a digital nomad since 2020. I've basically stopped and I moved to SF now, kind of not really\", the 179-day remark, \"Then I started hiring people in mid-2022\" and \"now there's 14 people here in the company\".",
+      "excerpt": "It's unfortunate my parents decided between my older brother and me to give me a white name. / It's a long line. I had immigrant parents and I grew up in rural Georgia. When I was seven, I begged for an Xbox and when I was eight I got it. / I figured out how to fix it online. I tried a variety of fixes, ended up shorting the temperature sensor. That worked for long enough until Microsoft did the recall. But in that, I learned how to do it out of necessity on the forums. I was a nerdy kid, so I liked games, but whatever. There was no other outlet so once I was like, “Holy shit, this is Pandora's box what just got opened up,” then I just shitposted on the forums constantly. I did that for many, many years and then I ended up moderating all sorts of Reddits when I was a tween and teenager. / I grew up in a family business, but I didn't get paid for working, of course, like yourself. But as soon as I started making money at my internships, I was like 18 or 19, I started making money. I started investing in semiconductors. / I went to college and did data science type stuff. I went to work on hurricane/earthquake/wildfire simulation and stuff for a financial company. / I made friends on the internet. / No, it was an obsessive hobby of many years and it pivoted all around. At some point I really liked gaming. Then I moved into phones and rooting them and underclocking them, and the chips there, and screens and cameras, and then back to gaming, and then to data center stuff because that was where the most advanced stuff was happening. I liked all sorts of telecom stuff for a little bit. It bounced all around, but generally it was in computing hardware. / I had a job for three years after college. I was posting. I had a blog, an anonymous blog for a long time. I'd even made some YouTube videos and stuff. Most of that stuff is scrubbed off the internet, including Internet Archive , because I asked them to remove it. / In 2020, I quiet quit my job and started shitposting more seriously on the internet. I moved out of my apartment and started traveling through the US. I went to all the national parks, in my truck/tent. I also stayed in hotels and motels for like three or four days a week. I started posting more frequently on the internet. I'd already had some small consulting arrangements in the past. But it really started to pick up in mid-2020, consulting arrangements from the internet from my persona. / Then in 2020, it really picked up and I thought, “Why don't I just arbitrarily make the price way higher?” And it worked. / Towards the end of 2021, I made a paid post because someone didn't pay for a report or whatever. It was about photoresist and the developments in that industry, which is the stuff you put on top of the wafer before you put in the lithography tool. It did great. I went to sleep that night and woke up the next day with 40 paid subscriptions. / I always bridged economically—because I've read all the company's earnings since I was 18 and I'm 28 now / How it got there to where it is, is just like, “Just try and do the best and try to be the best. / It's really about where you are good at. Where can you vibe? Where can you enjoy your work and be productive in society? There are a thousand different layers of the abstraction stack. Where can you make it more efficient? Where can you utilize AI to build better and make everything more efficient in the world and produce more bounty and iterate feedback loop? There's more opportunity today than any other time in human history, in my view. Just go out there and try. What engages you? Because if you're interested in it, you'll work harder. / Jon Y: To be honest, I still feel like a fraud. I sit in front of Dylan and I feel like a legit fraud, especially when he starts talking about 60,000 wafers and all that. / In 2022, I also started going to every conference I could. I go to about 40 conferences a year / I've been a digital nomad since 2020. I've basically stopped and I moved to SF now, kind of not really. / I don't live in SF, come on… But I basically do now. / I am in San Francisco sub four months a year contiguously, exactly 100 days or whatever it is, 179 days. / Then I started hiring people in mid-2022, as well. / now there's 14 people here in the company and all across the US, Japan, Taiwan, Singapore, France.",
+      "context": "Two-hour 2024 episode, mostly technical (China, export controls, fabs, AI capex). Near the end Dwarkesh asks each guest how he started; Dylan gives his longest first-person origin story on record. The name passage is banter after Dwarkesh notes they share the middle name Sanjay (\"He's Dylan Sanjay Patel\"); the two are not related. Dylan says \"I'm 28 now\" in October 2024. Transcript is the publisher's edited transcript, not auto-captions. All biographical statements are self-report. The nomad/SF exchange follows Dwarkesh's \"So you basically live at conferences?\"; Jon Y and Dwarkesh then joke about the California government and tax collectors (\"California Internal Revenue Service\", \"40% please\"), so the 179-day line is a tax-residency joke.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S02",
+      "url": "https://www.latent.space/p/dylanpatel-cooking",
+      "title": "Dylan Patel of SemiAnalysis on the $200B AI CapEx, Chip Wars, and Why Google Might Have No Profits in 2027 — In-Context Cooking (Latent Space)",
+      "speaker": "Dylan Patel, with hosts Allen Park and swyx",
+      "date": "2026-02-28",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-17; text saved at /tmp/dylan-patel-research/txt/latent_cooking.txt. Show-notes intro; transcript [00:01:39]–[00:04:06] (origin), [00:40:54]–[00:42:00] (Jensen paranoia), [00:51:46]–[00:52:19] (slop debate), [00:53:09]–[00:54:19] (hiring). Draft stage (2026-10-17): the two YouTube IDs linked on the page (pLupVXQ6dy8, IHkyFhU6JEY) are other Latent Space videos, and the episode is not in the Latent Space podcast RSS feed, so no audio was found to re-transcribe. The article quotes only short, clear spans from this machine transcript ('Just next step, next step, next step. Doesn't seem like there's a clear, immediate path.'; 'looking back, I can spin a narrative').",
+      "excerpt": "Dylan went from anonymous Silicon Twitter chip poster and rural Georgia beekeeper to one of the most cited analysts / So I did live in Minnesota briefly after [00:02:03] college. Um, I’m from rural Georgia. [00:02:06] Um, yeah, we, uh, I did [00:02:09] beekeep for like a, a year and a half basically. I feel like I’ve just [00:02:12] kind of, sort of went through a lot of life. Uh, just next step, next [00:02:15] step, next step. Doesn’t seem like there’s a clear, immediate path. / looking back, I can spin a narrative like, oh, obviously I [00:02:21] would be doing this. Yeah. Because my interest when I was eight [00:02:24] was this, and my interest when I was 12 was this. Mm-hmm. But, uh, you know, [00:02:27] like moderating forms related to chips. Yeah. But, you know, I thought it was just like a [00:02:30] serendipitous thing, you know? / Doug started posting and I was like, well, this is [00:03:33] interesting, but like, I think I could do it a lot better. / Jensen’s very paranoid. [00:41:54] Um, and that makes him like an amazing founder. / But I don’t know. I’m, I’m, I’m a, I’m a slop son, you know? / Yeah, I am. I am hiring, um, we’re [00:53:12] 60 people now. / We get to work with all the coolest people. / advising top labs, hyperscalers, hedge funds, and semiconductor giants (show notes) / we work with all the top [00:53:15] companies in the world, major AI labs, major hyperscalers. Mm-hmm. Um, [00:53:18] semiconductor companies, data center companies",
+      "context": "Casual cooking-show format: he makes chicken fried rice while discussing Taiwan, export controls and hyperscaler capex. The published transcript is machine-generated (fillers, timestamps inline, garbled phrases such as \"I was like, too, I was like, hi\" in the Substack-charging passage), so wording must be checked against audio before quoting anything beyond short, clear phrases. The host, not Dylan, says \"beekeeper for two years\"; Dylan corrects to \"like a, a year and a half basically\".",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S03",
+      "url": "https://lexfridman.com/deepseek-dylan-patel-nathan-lambert-transcript/",
+      "title": "Transcript for DeepSeek, China, OpenAI, NVIDIA, xAI, TSMC, Stargate, and AI Megaclusters | Lex Fridman Podcast #459",
+      "speaker": "Dylan Patel and Nathan Lambert, host Lex Fridman",
+      "date": "2025-02-03",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-17; full transcript saved at /tmp/dylan-patel-research/txt/lex459.txt. Lex's introduction (00:00:00); \"Future of AI\" chapter: Dylan at (04:55:01), (04:58:34), (05:03:38) and (05:05:20).",
+      "excerpt": "Dylan runs SemiAnalysis, a well-respected research and analysis company that specializes in semiconductors, GPUs, CPUs, and AI hardware in general. / I really enjoy tracking supply chain and who’s involved and what, I really do. It’s really fun to see the numbers, the cost, who’s building what capacity, helping them figure out how much capacity they should build winning deals, strategic stuff. That’s really cool. / There’s a big team, there’s a big team. / Generally, humanity is going to suffer a lot less, I’m very optimistic about that. I do worry of like techno-fascism type stuff arising. / That is a positive outcome, right? If I have food tubes and lung down scrolling and I’m happy, that’s a positive outcome.",
+      "context": "Five-hour technical conversation recorded after the DeepSeek-R1 release; almost no biography. The closing chapter is where Lex asks what excites him and what he hopes or fears for the future. The site says the transcript is human-generated and may contain errors. \"There's a big team\" is his reply when Lex pictures him alone monitoring the supply chain on screens. The food-tubes line is a joke in banter about doom-scrolling.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S04",
+      "url": "https://www.youtube.com/watch?v=lHnxU9f-rwc",
+      "title": "Dylan Patel on the infrastructure powering the AI revolution | The Next Big Thing (WisdomTree in Europe)",
+      "speaker": "Dylan Patel, with WisdomTree host(s) and Klay Hyman",
+      "date": "2026-07-09",
+      "locator": "Video upload date 2026-07-09 (yt-dlp metadata). YouTube captions were rate-limited (HTTP 429), so the first 13:00 of audio was downloaded (mweb client, format 18) to /tmp/dylan-patel-research/audio/wisdomtree_0_13.mp4 and transcribed locally with Whisper small.en; transcript at /tmp/dylan-patel-research/whisper/wisdomtree_0_13.txt with timestamps in wisdomtree_0_13.srt. Origin story 01:14 (\"origin ... comes from shitposting\"), 01:51 (moderating at 12), 02:05–02:30 (\"always been a poster\", \"burning desire to respond\"), 02:41 (\"quant for two years\"), 03:21 (motel), 04:54 (\"For four years, I traveled\"), 06:24 (\"call it before anyone else\"), 08:16 (\"interested in everything\"), 09:06 (hiring from Twitter/Discord), 09:29 (\"hell of a ride\"); Jensen email 12:40–12:59 (\"But Jensen, I was wrong. You were sandbagging.\"). Material after 13:00 was not transcribed (see S05). Draft stage (2026-10-17): two further segments were downloaded with the same mweb client and re-transcribed with Whisper large-v3-turbo (/tmp/dylan-patel-draftcheck/out/wt_a.txt for 01:50-02:45 and wt_b.txt for 12:20-20:00). Both models agree on the quoted wording of the 'random bozos' and 'burning desire' passage and of the Jensen email ('Here's all the people that gave you crap', 'Even I gave you crap', 'But Jensen, I was wrong. You were sandbagging.'). The large-v3-turbo pass also covers the belt passage after 13:00 ('we created this belt it looks like a wwe belt ... it says inference king and we sent it to all of our collaborators ... we sent it to nvidia'; 'he has this belt on the on the slide'; 'i didn't expect it to happen on stage'), which confirms S05's paraphrase. Passages between 02:45 and 12:20 (motel, quant, travel) rest on the small.en transcription only. Quotations drop spoken fillers ('you know', 'like', repeated words) only where the two transcriptions differ on them; the embedded clip starts at 12:25. | Edit stage (2026-10-17): second transcription with Whisper large-v3-turbo of 01:05-01:50, 02:45-05:10 and 07:40-08:30, in addition to the draft stage's 01:50-02:45 and 12:20-20:00 runs; quoted wording used in edit.md agrees across both models except where noted in claims.",
+      "excerpt": "Yeah, so I think the origin of Simi Analysis really comes from shitposting, posting online in let's say a less serious manner, right? / And by the time I was 12, I was moderating a lot of forms related to Android and Apple and Google and Intel and video, AMD, the hardware topics of the world, various forms on Reddit related to these things. / is I've always been a poster. I've always posted my opinion, I've always replied, I've always thought, taken comments, and I think one of the things the people on my team who now are a 90% organization, so I actually have people in marketing, they're like, Dylan, stop replying to random bozos on the internet, you're making us look bad. I just have that burning desire to respond to anyone on the internet when they try and criticize me. And so maybe it's a bad thing / I was a quant for two years, and then I started my firm. But the whole time I was posting, posting, posting, posting, posting. I had anonymous blogs, I had anonymous posts. But then in 2020, I got set up with my job disillusionment of being a quant is not as amazing as it seems, yes, you make money, but it's not as amazing as it seems. And I quite quit my job and started my company. / because I grew up in a small business. I grew up in a motel. My parents owned a motel in rural Georgia, and we lived in it. And I just know business. We later had gas stations too, and so lived in it, grew up in it, so I always loved business. / For four years, I traveled all around the world, and I went to every conference in the world. I was going to 40 conferences a year. I didn't live anywhere / and I would call it before anyone else on the street, before any hedge fund, before anyone. / I've always been interested in everything, but now I've been able to add people that are experts. / I found them on Twitter or Discord, I'm like, you're smart, come work for me, and it works. / And it's just a hell of a ride. / Here's all the people that gave you crap. Even I gave you crap. I was like, there's no way it's 25x. It's maybe 15 to 20x. And a lot of people are like, no, no, no, it's like three acts. So we were we were quite bullish. But Jensen, I was wrong. You were sandbagging.",
+      "context": "WisdomTree had just announced Dylan as a \"new partner\". The host asks for the SemiAnalysis origin story, then about Jensen Huang's GTC 2026 mention. Whisper errors to correct before quoting: \"Simi Analysis\" = SemiAnalysis; \"90% organization\" = 90-person organization; \"quite quit\" = quiet quit; \"I got set up with my job disillusionment\" is unclear (likely \"fed up with my job\"); \"forms\" = forums; \"media tech\" = MediaTek. \"I was a quant for two years\" conflicts with \"I had a job for three years after college\" (S01, 2024); do not state an exact tenure.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S05",
+      "url": "https://www.techflowpost.com/en-US/article/32465",
+      "title": "Interview with SemiAnalysis Founder Dylan Patel: Memory Shortage Will Continue, CPO Two Years Behind Market Expectations (TechFlow compilation of the WisdomTree episode)",
+      "speaker": "TechFlow (compiler/translator), quoting Dylan Patel",
+      "date": "2026-07",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-17; text saved at /tmp/dylan-patel-research/txt/techflow_32465.txt. \"Chapter 2: SemiAnalysis Startup Story\" and the GTC passage in Chapter 3, which continues past the 13:00 mark transcribed in S04.",
+      "excerpt": "Additionally in the Inference-X project, we made a belt. Looks like a WWE championship belt, written on it \"Inference King\". We mailed it to all partners, mailed to Nvidia, AMD, also SG Lang, vLLM these people who helped us do benchmarking, those who donated hardware. Because this is an open source project, I spend several million USD annually on engineer salaries, others spend millions on hardware donations, or spend millions on engineer salaries donations. Dylan: I mailed this belt to them, then this belt appeared on his slide. He held it up to show, then our chart was also on it, he spent five minutes on the slide talking \"Dylan said I was sandbagging, but I wasn't\", talking our performance is the best. That was truly a surreal moment.",
+      "context": "A compiled, partly machine-translated rendering of the S04 episode (Chinese characters survive mid-sentence). Where it overlaps S04, its wording differs from the audio (\"stop replying to those boring people online\" vs \"random bozos\"), so it is a paraphrase, not a transcript. Use only for the belt anecdote after 13:00, and re-transcribe that part of S04 before quoting it. Draft stage: the belt passage is now confirmed against the S04 audio (large-v3-turbo transcription of 12:20-20:00); the article cites S04 for it, not this compilation.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S06",
+      "url": "https://www.dwarkesh.com/p/dylan-patel",
+      "title": "Dylan Patel — Deep dive on the 3 big bottlenecks to scaling AI compute (Dwarkesh Podcast, full transcript)",
+      "speaker": "Dylan Patel, host Dwarkesh Patel",
+      "date": "2026-03-13",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-17; transcript saved at /tmp/dylan-patel-research/txt/dw_dylan-patel.txt. \"Buy my data\" exchange just before chapter \"00:34:34 – ASML will be the #1 constraint\"; \"numbers are way too high\" in the 00:34:34 chapter; Leopold and revenue-mix passage in chapter \"02:14:07 – Why aren’t more hedge funds making the AGI trade?\".",
+      "excerpt": "How many gigawatts do you think Google will have by the end of next year? Dylan Patel Buy my data. Dwarkesh Patel You charge for that kind of information. Dylan Patel Yes, yes. / Constantly, we’re told our numbers are way too high, and then when they’re right, they’re like, “Oh, yeah, but your next year’s numbers are still too high. / Leopold jokes that he’s the only client of mine who tells me our numbers are too low. Everyone else tells me our numbers are too high, almost ad nauseam. / Roughly 60% of my business is industry. So AI labs, data center companies, hyperscalers, semiconductor companies, the whole supply chain across AI infrastructure. But 40% of our revenue is hedge funds.",
+      "context": "Technical episode on logic, memory and power bottlenecks. The personal content is incidental: a one-line refusal to give away paid data, his complaint that clients always call his numbers too high until they are proved right, and the revenue split between industry and hedge funds.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S07",
+      "url": "https://www.dwarkesh.com/p/dylan-patel-3",
+      "title": "Dylan Patel – Anthropic & OpenAI will have most of the world’s compute by 2028 (Dwarkesh Podcast, full transcript)",
+      "speaker": "Dylan Patel, host Dwarkesh Patel",
+      "date": "2026-08-25",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-17; transcript saved at /tmp/dylan-patel-research/txt/dw_dylan-patel-3.txt. Episode note (top); \"I'm so fucking bullish\" in chapter \"00:07:01\"; the centralization exchange (\"scary as hell\", \"I don't trust...\", \"saving grace\", \"This is my cope\") in the chapter after \"00:48:48\" headed \"01:07:52 – Will the world’s future workforce belong to a few companies?\" (check exact chapter when quoting).",
+      "excerpt": "Had a lot of fun chatting again with my twin brother Dylan Patel. / That’s the upper bound, by the way. That’s the like, “I’m so fucking bullish. / What world do you see, Dwarkesh, where everything is not centralized? Because it seems to me that every force is screeching towards centralization. And that’s scary as hell. / I don’t trust the government, and I don’t trust Dario, and I don’t trust Sam. / Now, the one positive thing here is that today Anthropic does not capture most of the value. / But I think that’s the one saving grace, that the rest of the economy maybe profits so much more from Anthropic / Yes. This is my cope. I agree. / I would love for it not to be centralized completely. / Or Dwarkesh, from researching his podcast and learning about credit, is capturing how many dollars per megawatt? Now how much can you use? Tough. / Hey, they're a sponsor, come on. Jesus Christ. / On that somber note, I guess we'll meet again when the RSI is officially kicked off. / You're not going to have me on your podcast again for like two months?",
+      "context": "Dwarkesh argues AI pushes toward centralization; Dylan agrees it frightens him, rejects government, Anthropic's Dario Amodei and OpenAI's Sam Altman as trustworthy holders of that power, offers a \"saving grace\" (most value flows to users), and when Dwarkesh rebuts it concedes \"This is my cope.\" \"Twin brother\" is Dwarkesh's running joke; they are not related (S08).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S08",
+      "url": "https://substratemag.com/dylanpatel/",
+      "title": "Dylan Patel’s Information Machine (Substrate Magazine profile)",
+      "speaker": "Cat Tang (author); quotes Dylan Patel and SemiAnalysis staff Doug O’Laughlin, Michelle Shen, Max Kan, Myron Xie, Wayne Ma, Jeremie Eliahou Ontiveros",
+      "date": "2026-09-18",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-17 and read in full (about 3,200 words); text saved at /tmp/dylan-patel-research/txt/substrate.txt. Sections in order: GTC keynote opening; Doug O’Laughlin quote; house-party scene; WordPress founding and Reddit youth; HTC One M7 story; quitting and travel; Arm China and Vicor; CoWoS/HBM modeling and hiring; models, revenue mix and headcount; Slack policy; editing; Hot Chips lanyard; conflicts, fund and lawsuit; \"spiderweb\" and closing quotes; correction note dated 9/18/26.",
+      "excerpt": "Mid-keynote, he pulled up Nvidia’s performance metrics. “This is from SemiAnalysis. This is the largest, most comprehensive sweep of AI inference that has ever been done. / SemiAnalysis President Doug O’Laughlin confides, “Dylan’s going to be the greatest analyst of this generation. I’ve always thought that. / A friend summoned him closer to review a particular semiconductor startup. Dylan responded with a grin, throwing a long arm over the questioner’s shoulder and giving a rueful shake of his head in pantomime of the ever-cheery executioner whose work is also his vocation. “Bearish man, so bearish. / SemiAnalysis was officially founded on a WordPress blog in 2020. It was Dylan’s 255-word 24th birthday present to himself (“Moore’s Law is Dead for DRAM and that is Great for Semicap”). But, his hardware obsession began more than ten years prior. Dylan was twelve when he pseudonymously began his career and sixteen when he shed his burner account for u/dylan522p. / “It felt like I was a warrior, defending the unibody aluminum, the stereo speakers, the low megapixel camera, the LCD screen with the cooler temps. / Seven years later, he quit his job, began traveling through Asia and South America, and blogged full-time. Friends and family were confused; sentiment was something like, “Dylan, what the fuck are you doing?” It was too late to go back. / Arm China sent a cease and desist. Remembering it, Dylan smiles. “It was really sick. / “I would,” Dylan admits, “slightly overpromise on what we had, and then we would work on building it and selling it. / Quick reply from Dylan: “Yes sir let’s chat. / Less than 5% of revenue comes from Substack. / The firm is ending the year around 100 full-time employees. / Messages go in public channels by default because Dylan polices the proportion of private Slack DMs employees can send. The limit is roughly 30%. In signature Dylan fashion, he names and shames. He occasionally shares a table in Slack that shows team members who have breached the threshold. / Dylan can be a picky editor. He recalls, “[An external analyst would] write descriptions and primers and…I’m like, ‘This is fucking wrong,’. I’d write the same thing but better. / For much of this year’s conference, Dylan’s lanyard is flipped, and his well-known name is hard to spot. / Dylan famously got in hot water for breaking the new generation of Blackwells while serving as Nvidia’s guest at GTC (most traditional journalists would – at the very least – give a heads up) / He recently raised the SemiAnalysis Capital Fund I, a $500M venture fund for early-stage startup investing. SemiAnalysis and a former employee, Wei Zhou, also have ongoing mutual lawsuits. Wei’s suit alleges that Dylan, an investor in neocloud Fluidstack, asked him to put material non-public information from Fluidstack into a SemiAnalysis model. SemiAnalysis has no comment on the lawsuit. / “Hyperscalers are my biggest customers. If you look at the top 10 companies in the world – besides Saudi Aramco – they’re [in] my top 15 customers. And yet we’ll post negatively about Meta, or we’ll post negatively about Google. / “Maximally truth-seeking is all we care about, / We’re going to be the spiderweb that connects anything and everything in the supply chain and world. / Anthropic RL researcher Sholto Douglas is Dylan’s roommate) / Today, the SemiAnalysis office shares an open floor plan with writer and podcaster Dwarkesh’s studio (the two, contrary to implications from a shared last name and extensive X trolling, are not related). The central staircase leads downstairs to a small kitchen and patio, shared with Leopold Aschenbrenner’s Situational Awareness. / People – mostly mid-twenties to mid-forties men – stop him in SoMa or Potrero to say hello or ask for a selfie. / As Dylan boasted, “We influence opinion…We’ve written stuff that Nvidia hated at the time, then Jensen read it and changed the organization. We’ve done it for Meta, and we’ve done it for Google, Microsoft, OpenAI. / “Why are these companies buying our data?...My hubris is that they know that our numbers are better than theirs. And we often are. / Correction [9/18/26]: After publication, Patel corrected the $3T ARR projection’s date to 2030 from 2028 and confirmed the final amount raised for SemiAnalysis Capital Fund I was $500M. / A WWE-style championship belt was projected onto a 100-foot wall behind Huang. (opening scene) / Despite initially charging a paltry $200/year, SemiAnalysis shot to seven figures in revenue by 2023.",
+      "context": "The only dedicated long-form profile, reported with in-person interviews and office access. All named witnesses are SemiAnalysis employees or partners, so the testimony is not independent of him; no critic is quoted except through the lawsuit summary. The author met him socially first. Patel corrected two figures after publication, which shows he read it. Dates for the travel years, the HTC story (\"Seven years later\") and the GTC embargo episode are imprecise.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S09",
+      "url": "https://www.theinformation.com/articles/dylan-patel-semianalysis-grabbed-sway-silicon-valley",
+      "title": "How Dylan Patel and SemiAnalysis Grabbed Sway in Silicon Valley (The Information)",
+      "speaker": "Abram Brown (The Information)",
+      "date": "2026-04-17",
+      "locator": "Paywalled. Direct fetch on 2026-10-17 returned only page metadata (og:title, datePublished 2026-04-17T16:05:17Z, author Abram Brown, and the opening line in the meta description). The body was not read. Contents are known only through the S10 adaptation and the S11 briefing teaser.",
+      "excerpt": "For Dylan Patel, founder of SemiAnalysis, an influential AI industry newsletter and research firm, Nvidia deserves the kind of dogged observation and study the tabloid press once devoted to Princess Diana.",
+      "context": "Major reported profile (a \"Big Read\"). Not opened beyond the meta description, so nothing in it can be quoted directly. Every detail attributed to it in this record comes through S10 and must be checked against the original before publication. Repair stage (2026-10-17): no claim cites this source as support; details attributed to The Information reach the record only through S10 (and S08 for the revenue projection).",
+      "kind": "secondary",
+      "access": "unavailable"
+    },
+    {
+      "id": "S10",
+      "url": "https://www.itiger.com/news/1116756015",
+      "title": "At 29, This Young Man Wields Unprecedented Influence Over AI Discourse (Deep News, via Tiger Brokers)",
+      "speaker": "Deep News (unsigned), adapting reporting by The Information",
+      "date": "2026-04-18",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-17 and read in full; text saved at /tmp/dylan-patel-research/txt/itiger.txt. Sections: Huang/GTC opening; \"From $20 Million to $100 Million\"; \"Recognition from Huang, a Meeting with AMD's CEO\"; \"Analyst, Media Outlet, Investor\"; \"Testing the Boundaries of Conflict\"; \"From a Georgia Town to San Francisco\"; closing mother anecdote.",
+      "excerpt": "Just days later, Patel published a report expressing a bearish view on Nvidia's upcoming Rubin chip. / Patel himself is a shareholder in approximately 20 startups. / Patel is direct about this: \"There's a reason every major company in the world pays for our data and reports. It's impossible to know everything, but I think we know more than anyone else. / He outlines four principles for SemiAnalysis: \"Have fun, make money, know everything—and have influence. / Earlier this year, Patel fired a former employee, Wei Zhou. Subsequently, the two parties filed lawsuits against each other. In his lawsuit, Zhou alleges that Patel instructed him to incorporate internal information from cloud services provider Fluidstack into a SemiAnalysis research report. Patel had previously set up a Special Purpose Vehicle (SPV) to raise funds for Fluidstack. Zhou claims he was concerned this could be illegal and was fired for refusing to comply. Patel's countersuit alleges that Zhou was terminated for behavior such as being rude to colleagues and showing up to work drunk. Both parties have declined to comment on the litigation. / Patel ranked Fluidstack as \"Gold\" tier in his ClusterMax cloud services ranking. However, he pointed out that Prime Intellect, another company he has invested in, only received a \"Bronze\" ranking, suggesting SemiAnalysis does not favor affiliated companies. Vincent Weisser, co-founder of Prime Intellect, stated he believes Patel operates \"independently of his financial interests. / He grew up in rural Georgia; his parents are immigrants who ran a motel. He applied to MIT and Stanford but was rejected from both, eventually attending the University of Georgia, where he majored in data analysis, risk management, and legal studies. / After graduation, he worked at a financial company but was disappointed with his bonus—\"They gave me $100,000; it should have been more.\" He then left to found SemiAnalysis on his own in 2020. / Patel's parents still don't fully understand what their son does. \"My mom still tells people I'm in IT,\" he said. \"When she says that, I feel like a loser—stop it, Mom.",
+      "context": "An English rendering of a Chinese-language adaptation of the paywalled S09 profile; the article itself cites The Information. Quotations here have been translated into Chinese and back, so their wording is not Patel's (another adaptation renders the mother line as \"I feel like a failure—just stop, Mom\"). Use only as attributed paraphrase (\"The Information reported that...\"). Facts unique to it (MIT/Stanford rejections, University of Georgia, the majors, the bonus, about 20 startup stakes, the four principles) need S09 or another source before they are stated as fact.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S11",
+      "url": "https://www.theinformation.com/briefings/dylan-patels-semianalysis-projects-100-million-2026-revenue",
+      "title": "Dylan Patel’s SemiAnalysis Projects Over $100 Million In 2026 Revenue (The Information briefing)",
+      "speaker": "Abram Brown (The Information)",
+      "date": "2026-04-18",
+      "locator": "Paywalled briefing. Direct fetch on 2026-10-17 returned the headline, datePublished 2026-04-18T20:32:38Z, author, dek and meta description only.",
+      "excerpt": "SemiAnalysis, the AI and semiconductor research firm, which also publishes a widely read industry newsletter, expects to do more than $100 million in sales this year, marked growth from a year earlier. SemiAnalysis did closer to $20 million last year / dek: The firm’s growth comes as its founder next hopes to jump into venture capital.",
+      "context": "Teaser text of a paywalled briefing summarizing S09's revenue figures. Treated as unavailable because only the teaser was read; the $100M projection is corroborated by S08 (\"Revenue is projected to beat $100M this year\"). Repair stage (2026-10-17): no claim cites this source as support; details attributed to The Information reach the record only through S10 (and S08 for the revenue projection).",
+      "kind": "secondary",
+      "access": "unavailable"
+    },
+    {
+      "id": "S12",
+      "url": "https://scribehawk.com/transcript/nvidia-ceo-jensen-huang-gtc-2026-full-keynote",
+      "title": "NVIDIA CEO Jensen Huang GTC 2026 Full Keynote — machine transcript (ScribeHawk, from the Yahoo Finance video); official video https://www.youtube.com/watch?v=jw_o0xr8MWU",
+      "speaker": "Jensen Huang (NVIDIA CEO)",
+      "date": "2026-03-16",
+      "locator": "Keynote delivered 2026-03-16 (NVIDIA YouTube upload date 20260316). NVIDIA's own captions were rate-limited (HTTP 429), so the ScribeHawk Whisper transcript of the Yahoo Finance stream was opened (HTTP 200) on 2026-10-17 and saved at /tmp/dylan-patel-research/txt/scribehawk_gtc.txt. Passages at [01:00:55]–[01:01:05] and [01:03:30]–[01:04:06] of the Yahoo video (offsets differ from NVIDIA's upload).",
+      "excerpt": "And so this is the outcome. [01:00:56] This is from semi-analysis. [01:00:58] This is the largest, most comprehensive sweep of AI that has, AI inference that has ever been done. / I said last year at this time, that NVIDIA's Grace Blackwell, NVLink 72, was 35 times perf per watt. [01:03:44] Nobody believed me. [01:03:46] And then semi-analysis came out, and Dylan Patel had a quote. [01:03:54] He accused me of sandbagging. [01:03:55] He accused me of sandbagging. [01:04:00] He says, \"Jensen sandbagged. [01:04:01] It's actually 50 times.\" [01:04:03] And he's not wrong.",
+      "context": "Huang is presenting SemiAnalysis InferenceX results to argue Nvidia leads on tokens per watt and cost per token. He cites Dylan by name as the outside critic who said Nvidia had understated Blackwell's gain. Machine transcript (\"semi-analysis\"); S08 independently reports the \"This is from SemiAnalysis\" line, and S04 is Dylan's own account. Huang uses the praise as marketing for Nvidia. Draft stage: the wording is now confirmed against NVIDIA's own upload (S27); the article links S27.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S13",
+      "url": "https://x.com/dylan522p/status/1871287937268383867",
+      "title": "Dylan Patel X post on meeting AMD CEO Lisa Su",
+      "speaker": "Dylan Patel (@dylan522p)",
+      "date": "2024-12-23",
+      "locator": "Opened via the X syndication endpoint (cdn.syndication.twimg.com/tweet-result) on 2026-10-17; created_at 2024-12-23T20:13:05Z; saved at /tmp/dylan-patel-research/txt/x_lisasu.txt. Linked from The Decoder's 2024-12-24 update.",
+      "excerpt": "Met with @LisaSu today for 1.5 hours as we went through everything She acknowledged the gaps in AMD software stack She took our specific recommendations seriously She asked her team and us a lot of questions Many changes are in flight already! Excited to see improvements coming",
+      "context": "Posted the day after SemiAnalysis published its critical MI300X benchmark (S14), which ended by inviting Lisa Su to a meeting. Tone is cordial and credit-giving, not triumphal.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S14",
+      "url": "https://newsletter.semianalysis.com/p/mi300x-vs-h100-vs-h200-benchmark-part-1-training",
+      "title": "MI300X vs H100 vs H200 Benchmark Part 1: Training - CUDA Moat Still Alive (SemiAnalysis)",
+      "speaker": "Dylan Patel, Daniel Nishball and Reyk Knuhtsen",
+      "date": "2024-12-22",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-17 (free portion of a partly paid post); text saved at /tmp/dylan-patel-research/txt/mi300x.txt. datePublished 2024-12-22T22:03:18Z. Intro paragraph; \"Executive Recommendation to AMD\" section; end of the recommendations list.",
+      "excerpt": "SemiAnalysis has been on a five-month long quest to settle the reality of MI300X. / We genuinely want to see another effective competitor to Nvidia and want to help AMD get to that spot / Lisa, we are open to a meeting on how to fix AMD’s Datacenter GPU User Experience for the better!",
+      "context": "A co-bylined, months-long benchmarking project that found AMD's software far behind Nvidia's, after sharing code and drafts with both companies. The criticism is paired with a stated wish for AMD to compete and a public invitation to its CEO. Co-authored, so tone cannot be attributed to Dylan alone.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S15",
+      "url": "https://x.com/sama/status/1696340377098453440",
+      "title": "Sam Altman X post on SemiAnalysis Gemini article",
+      "speaker": "Sam Altman (@sama)",
+      "date": "2023-08-29",
+      "locator": "Opened via the X syndication endpoint on 2026-10-17; created_at 2023-08-29T01:53:57Z; saved at /tmp/dylan-patel-research/txt/x_sama.txt.",
+      "excerpt": "incredible google got that semianalysis guy to publish their internal marketing/recruiting chart lol",
+      "context": "Altman's response to S17, implying SemiAnalysis was carrying Google marketing. He does not name Patel.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S16",
+      "url": "https://x.com/dylan522p/status/1696405806286279033",
+      "title": "Dylan Patel X reply to Sam Altman (\"Sundar to the GPU-poors\")",
+      "speaker": "Dylan Patel (@dylan522p)",
+      "date": "2023-08-29",
+      "locator": "Opened via the X syndication endpoint on 2026-10-17; created_at 2023-08-29T06:13:56Z; saved at /tmp/dylan-patel-research/txt/x_reply_sama.txt. Quote-posts S15 with an image.",
+      "excerpt": "Sundar to the GPU-poors. The data is from a supplier of Google, and we made the chart.",
+      "context": "Reply about four hours after Altman's post. Business Insider (S17) describes the attached image as an edit of Sundar Pichai force-feeding Altman milk. The text both mocks and corrects the sourcing claim.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S17",
+      "url": "https://tech.yahoo.com/ai/articles/ai-bros-war-over-declarations-160615772.html",
+      "title": "AI bros are at war over declarations that Google's upcoming Gemini AI model smashes OpenAI's GPT-4 (Business Insider, syndicated on Yahoo)",
+      "speaker": "Hasan Chowdhury (Business Insider)",
+      "date": "2023-08-29",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-17; cleaned text at /tmp/dylan-patel-research/txt/bi_aibros_clean.txt. Paragraphs following the embedded Altman post.",
+      "excerpt": "SemiAnalysis' Patel posted on X that he got data on Google's GPU stores from a supplier of Google — rather than Google itself. He threw in an edited image of Google boss Sundar Pichai force-feeding Altman milk while holding him by the hair.",
+      "context": "Contemporaneous news account of the Altman exchange; independent of Patel. Used for the description of the image, which was not opened directly.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S18",
+      "url": "https://newsletter.semianalysis.com/p/google-gemini-eats-the-world-gemini",
+      "title": "Google Gemini Eats The World – Gemini Smashes GPT-4 By 5X, The GPU-Poors (SemiAnalysis)",
+      "speaker": "Dylan Patel and Daniel Nishball",
+      "date": "2023-08-28",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-17 (free portion of a paid post); text saved at /tmp/dylan-patel-research/txt/gemini_gpupoor.txt. Introduction and the \"The GPU-Poor\" section.",
+      "excerpt": "The point here is Google had all the keys to the kingdom, but they fumbled the bag. / Then there are a whole host of startups and open-source researchers who are struggling with far fewer GPUs. They are spending significant time and effort attempting to do things that simply don’t help, or frankly, matter.",
+      "context": "The post that coined \"GPU-Poor\" and drew Altman's jab (S15). Co-authored; the dismissive tone toward small labs and open-source fine-tuners is the house style he signs off on rather than proof of his sole voice.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S19",
+      "url": "https://newsletter.semianalysis.com/p/google-we-have-no-moat-and-neither",
+      "title": "Google \"We Have No Moat, And Neither Does OpenAI\" (SemiAnalysis)",
+      "speaker": "Dylan Patel and Afzal Ahmad",
+      "date": "2023-05-04",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-17; text saved at /tmp/dylan-patel-research/txt/nomoat.txt. Editors' introduction above the leaked memo.",
+      "excerpt": "The text below is a very recent leaked document, which was shared by an anonymous individual on a public Discord server who has granted permission for its republication. It originates from a researcher within Google. We have verified its authenticity. The only modifications are formatting and removing links to internal web pages. The document is only the opinion of a Google employee, not the entire firm. We do not agree with what is written below, nor do other researchers we asked, but we will publish our opinions on this in a separate piece for subscribers. We simply are a vessel to share this document which raises some very interesting points.",
+      "context": "SemiAnalysis published a leaked internal Google memo found on a public Discord server, said it verified authenticity, and disclaimed agreement. Shows willingness to publish what a powerful company did not choose to release.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S20",
+      "url": "https://newsletter.semianalysis.com/p/the-semiconductor-heist-of-the-century",
+      "title": "The Semiconductor Heist Of The Century | Arm China Has Gone Completely Rogue, Operating As An Independent Company With Inhouse IP/R&D (SemiAnalysis)",
+      "speaker": "Dylan Patel",
+      "date": "2021-08-27",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-17; text saved at /tmp/dylan-patel-research/txt/armchina.txt. Opening section.",
+      "excerpt": "Within 2 years, the venture went rogue. Technically it has always been legally independent, but Arm still maintained control. Recently, Arm China gave a presentation to the industry about rebranding their own IP, extending it by developing more, and emphasizing that they are striking their own independently operated path. This firm is called “安谋科技”, but it is not part of Arm Limited. This is the tech heist of the century.",
+      "context": "Solo-bylined early post that S08 calls his first viral piece and says drew a cease-and-desist from Arm China. The cease-and-desist itself was not located.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S21",
+      "url": "https://newsletter.semianalysis.com/p/moores-law-is-dead-for-dram-and-that",
+      "title": "Moore’s Law is Dead for DRAM and that is Great for SemiCap (SemiAnalysis)",
+      "speaker": "Dylan Patel",
+      "date": "2020-05-22",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-17; text saved at /tmp/dylan-patel-research/txt/dram2020.txt. datePublished 2020-05-22T21:26:00Z; Substack wordcount 282. Earliest item in the 2020 sitemap (newsletter.semianalysis.com/sitemap/2020).",
+      "excerpt": "Moore’s law has been the driver of semiconductor capabilities and cost for decades. This phenomenon is still being pushed by the likes of TSMC, Intel, and Samsung in logic, but in DRAM, it is dead.",
+      "context": "The first SemiAnalysis post, which S08 calls his \"255-word 24th birthday present to himself\". The date anchors the founding and, with S01's \"I'm 28 now\" (October 2024), his birth year.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S22",
+      "url": "https://www.sec.gov/Archives/edgar/data/2145695/000090514826003383/primary_doc.xml",
+      "title": "Form D, SemiAnalysis Capital Fund I, LP (SEC EDGAR, CIK 0002145695)",
+      "speaker": "SemiAnalysis Capital Fund I, LP; signed by Dylan Patel",
+      "date": "2026-07-29",
+      "locator": "Opened via SEC EDGAR on 2026-10-17 (full-text search for \"SemiAnalysis\", form D; primary_doc.xml for accession 0000905148-26-003383); saved at /tmp/dylan-patel-research/raw/formd_fund1.xml. Related filings found: SemiAnalysis Capital SPV I (2026-08-28), SPV II (2026-09-03, amended 2026-09-16), GCW Access-SemiAnalysis Capital Fund I (2026-08-05).",
+      "excerpt": "entityName: SemiAnalysis Capital Fund I, LP; jurisdiction: DELAWARE; related persons: SemiAnalysis Capital Fund I GP, LLC and Dylan Patel; industryGroupType: Pooled Investment Fund; investmentFundType: Venture Capital Fund; totalOfferingAmount: 400000000; totalAmountSold: 0; totalRemaining: 400000000; nameOfSigner: Dylan Patel; signatureTitle: Manager of the General Partner of the Issuer; signatureDate: 2026-07-29",
+      "context": "Regulatory notice of an offering, not a closing. On 2026-07-29 the fund sought $400M and reported none sold. S08's correction says Patel later confirmed $500M raised. No later amended Form D for the main fund was found.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S23",
+      "url": "https://longbridge.com/news/281699561",
+      "title": "High-Profile Chip Research Platform SemiAnalysis Sued by \"Former Core Employee\": Allegations of Pushing \"MNPI\" to Clients and \"CEO's Private Interests\" (Wallstreetcn, via Longbridge)",
+      "speaker": "Wallstreetcn (unsigned), summarizing court filings",
+      "date": "2026-04-05",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-17; text saved at /tmp/dylan-patel-research/txt/longbridge_suit.txt. Opening summary; \"Core of the Lawsuit\"; \"Conflict of Interest Suspicions\"; \"Countersuit Focuses on Employee Misconduct\".",
+      "excerpt": "According to legal documents filed in the San Francisco County Superior Court in April 2026, former employee Wei Zhou alleges that SemiAnalysis subjected him to retaliatory dismissal after he refused to incorporate MNPI into client analysis models. SemiAnalysis had already preemptively filed a countersuit against Zhou on March 27, alleging misappropriation of trade secrets, breach of contract, defamation, and several other counts, while explicitly denying all of Zhou's allegations. Dylan Patel subsequently issued a statement on social media, saying the company would \"vigorously defend\" its position. / Zhou further alleged in his complaint that the aforementioned MNPI was directly related to a $50 million investment vehicle led by Dylan Patel himself, and that some SemiAnalysis employees participated in work related to this investment project during company hours. / SemiAnalysis has explicitly denied all of Zhou's allegations. Its preemptively filed lawsuit (case number CGC-26-635328 / SemiAnalysis's lawsuit states that Zhou was terminated in January 2026 due to a series of serious misconducts / As noted in a post by the account Hot Aisle, newcomer FluidStack received a \"Gold tier\" certification in the system, ranking higher than Amazon Web Services (AWS) and Google Cloud, while dozens of well-established companies were marked as \"not recommended\"—despite FluidStack having known security issues and incomplete product functionality. The post implies that the rating results were potentially influenced by kickbacks.",
+      "context": "Translated financial-news summary of two San Francisco Superior Court cases, with case numbers (Zhou's is printed as CGC-36-635374, probably CGC-26-635374). The complaints themselves were not opened and no docket was checked; S08 and S10 independently report the mutual suits. Allegations on both sides are unproven. The countersuit's specific misconduct allegations concern a private individual and should not be repeated beyond \"alleged misconduct\". No settlement or ruling was found as of 2026-10-17.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S24",
+      "url": "https://cryptobriefing.com/semianalysis-acquires-citrini-research/",
+      "title": "SemiAnalysis acquires Citrini Research, CEO James Van Geelen to remain (Crypto Briefing)",
+      "speaker": "Crypto Briefing (unsigned)",
+      "date": "2026-09-11",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-17; text saved at /tmp/dylan-patel-research/txt/cryptobriefing_citrini.txt. datePublished 2026-09-11T21:15:03Z. Opening paragraphs.",
+      "excerpt": "SemiAnalysis, the semiconductor and AI infrastructure research firm founded by Dylan Patel, is acquiring Citrini Research, the thematic investment research outfit led by James van Geelen. Van Geelen will stay on as Citrini’s CEO following the deal.",
+      "context": "Secondary report; search results attribute the confirmation to Bloomberg (not opened). Terms undisclosed. Relevant only as a dated example of the firm's expansion.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S25",
+      "url": "https://www.linkedin.com/posts/dylanpatelsa_is-smic-n3s-metal-pitch-smaller-than-intel-activity-7472034202759376897-3x0E",
+      "title": "Dylan Patel LinkedIn posts (STEEL teardown lab announcement, 2026-06-14; TechInsights follow-up, 2026-09-26)",
+      "speaker": "Dylan Patel",
+      "date": "2026-06-14",
+      "locator": "Opened via his public LinkedIn profile page (linkedin.com/in/dylanpatelsa, HTTP 200) on 2026-10-17; post text taken from the page's embedded schema.org data and saved at /tmp/dylan-patel-research/txt/linkedin_posts.txt. Second post: linkedin.com/posts/dylanpatelsa_intel-panther-lake-teardown-activity-7509669106544017408-ZPC3 (2026-09-26).",
+      "excerpt": "This is a bit of inconvenient timing for TechInsights as they are private equity owned and currently being sold while having enjoyed virtually no credible competition for decades. This has led to TechInsights underinvesting in CAPEX. / Because we have no external investors and are founder led, we move faster, build faster, and we can release client chip teardowns for free regularly, while focusing on datacenter for our major clients. STEEL has a state of the art fleet of tools. We are less than a year and half into the journey here, but our goal is to be number 1 just like we are in AI, Datacenter, and Semiconductor market data, consulting, and technical analysis. / Free reverse engineering reports will continue as we are drastically undercutting TechInsights while doing superior process node analysis.",
+      "context": "Self-published business announcements aimed at clients and recruits. They show how he frames competition with an incumbent and the value he places on being founder-led without outside investors.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S26",
+      "url": "https://semianalysis.com/about/",
+      "title": "About SemiAnalysis: Independent Semiconductor & AI Research",
+      "speaker": "SemiAnalysis (company page)",
+      "date": "unknown",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-17; text saved at /tmp/dylan-patel-research/txt/semi_about.txt. \"Our story\" and \"The flywheel\" sections. Page carries no date; read as current on 2026-10-17.",
+      "excerpt": "The gap between what companies say and what the supply chain shows is where our work lives. / The work spans a newsletter read by more than 318,000 subscribers, institutional data models that track the supply chain SKU by SKU, and consulting for organizations working a specific question.",
+      "context": "Company self-description for orientation and the \"what is SemiAnalysis\" FAQ. Subscriber count is a company claim and will change.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S27",
+      "url": "https://www.youtube.com/watch?v=jw_o0xr8MWU",
+      "title": "NVIDIA GTC 2026 Keynote with Jensen Huang (NVIDIA official YouTube upload)",
+      "speaker": "Jensen Huang (NVIDIA CEO)",
+      "date": "2026-03-16",
+      "locator": "Opened 2026-10-17 in the draft stage: audio for 50:00-1:12:00 of NVIDIA's upload was downloaded (yt-dlp, mweb client) and transcribed locally with Whisper small.en (/tmp/dylan-patel-draftcheck/out/gtc.srt). 'This is from semi-analysis. This is the largest, most comprehensive sweep of AI that has, AI inference that has ever been done.' at about 1:00:53; 'I said last year at this time...' at about 1:03:30; 'And then, semi-analysis came out, and Dylan Patel had a quote. He accused me of sandbagging. He accused me of sandbagging. He says, Jensen sandbagged. It's actually 50 times, and he's not wrong. He's not wrong.' at 1:03:44-1:04:02. Offsets are from the cut segment plus 50:00 and may drift by a few seconds; the embedded clip runs 1:03:30-1:04:08.",
+      "excerpt": "And then, semi-analysis came out, and Dylan Patel had a quote. He accused me of sandbagging. He accused me of sandbagging. He says, Jensen sandbagged. It's actually 50 times, and he's not wrong. He's not wrong.",
+      "context": "Huang is presenting SemiAnalysis InferenceX results to argue Nvidia leads on performance per watt and cost per token. Second, independent transcription of the official video; it agrees with the ScribeHawk machine transcript of the Yahoo Finance stream (S12) on every quoted word. Huang names Patel as the outside critic who said Nvidia understated Blackwell's gain and uses the line to market Nvidia.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S28",
+      "url": "https://longbridge.com/en/news/269593368",
+      "title": "Is the so-called deep research on chips really just this? SemiAnalysis is fiercely criticized by netizens (Wallstreetcn via Longbridge)",
+      "speaker": "Wallstreetcn (unsigned), summarizing X posts by Dylan Patel and critics including Axiomatic Capital",
+      "date": "2025-12-13",
+      "locator": "Article body, paragraphs 2-6",
+      "excerpt": "its founder Dylan Patel boldly claimed on Thursday that the team's previous research on the delay of OpenAI's data center in Abilene, Texas \"hit the mark,\" ... \"accurately predicting Oracle's stock price plummeting by 11.5% on that day\" ... Axiomatic Capital pointed out that SemiAnalysis had publicly released a bullish report on Oracle five months ago, but after shifting to a bearish view, the related updates were only available to \"institutional-level subscribers\"",
+      "context": "Translated Chinese-language market news summary of an X exchange. Quotes of Patel are back-translated renderings of English posts and are paraphrased, not quoted, in the article. The original X posts and any replies by Patel were not opened. Saved in research and reopened by curl at the edit stage (HTTP 200).",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S30",
+      "url": "https://www.darioamodei.com/essay/machines-of-loving-grace",
+      "title": "Machines of Loving Grace: How AI Could Transform the World for the Better",
+      "speaker": "Dario Amodei",
+      "date": "2024-10",
+      "locator": "Essay title block",
+      "excerpt": "Machines of Loving Grace / How AI Could Transform the World for the Better / Dario Amodei / October 2024",
+      "context": "Opened at the edit stage only to confirm the title, author and date of the essay Patel alludes to (\"a machine that loves grace\") on the August 2026 Dwarkesh Podcast.",
+      "kind": "primary",
+      "access": "opened"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "Dylan Patel is the founder and CEO of SemiAnalysis, an independent research firm covering the semiconductor and AI-infrastructure supply chain (S26). It sells data models, research and consulting; Latent Space describes him as \"advising top labs, hyperscalers, hedge funds, and semiconductor giants,\" and he says the firm works with \"major AI labs, major hyperscalers... semiconductor companies\" (S02), \"Hyperscalers are my biggest customers\" (S08) and many investors are customers (S01).",
+      "passage": "Patel, born in 1996, founded SemiAnalysis, a research firm that tracks the semiconductor and AI-infrastructure supply chain",
+      "class": "observed",
+      "source_ids": [
+        "S26",
+        "S02",
+        "S08",
+        "S03",
+        "S01",
+        "S06"
+      ],
+      "inference": "Identity and disambiguation for the opening, the \"who is\" FAQ and \"what is SemiAnalysis\". Titles supported by opened sources: founder (S08), Founder & CEO (S02), CEO (S06). \"Chief analyst\" appears in no opened source and was removed from the body and FAQ.",
+      "alternative": "The About page (S26) says only that its work \"is read by the executives, engineers, and investors who build and fund the industry\", so the client list is linked to Latent Space (S02) instead. The subscriber count is a company claim (S10 gives 250,000+ in April 2026). \"Twin brother\" is Dwarkesh's joke (S07); S08 states they are not related.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck title, subscriber figure and office arrangement on the SemiAnalysis About page and his LinkedIn before each release. The body gives a birth year, not an age, so it does not go stale; the FAQ age is tracked on C03."
+    },
+    {
+      "id": "C02",
+      "claim": "SemiAnalysis began as a WordPress blog under his own name. Its first post, \"Moore's Law is Dead for DRAM and that is Great for SemiCap\", went up on May 22, 2020; Substrate calls it his \"24th birthday present to himself\".",
+      "passage": "he started it as a blog in May 2020",
+      "class": "observed",
+      "source_ids": [
+        "S21",
+        "S08",
+        "S02",
+        "S04"
+      ],
+      "inference": "Founding date and the Doug O’Laughlin push are well attested (his own account in S02 and S04, the post date in S21).",
+      "alternative": "S04 says he \"converted my WordPress into a sub-stack\" over the following year; exact Substack launch date not pinned.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C03",
+      "claim": "He was born in 1996: he said \"I'm 28 now\" on a podcast published October 2, 2024, Substrate dates his first post (May 22, 2020) to his 24th birthday, and The Information described him as 29 in April 2026. That makes him 30 as of October 2026.",
+      "passage": "He was born in 1996, which makes him 30 as of October 2026. He said \"I'm 28 now\" on a podcast published October 2, 2024.",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S08",
+        "S21",
+        "S10"
+      ],
+      "inference": "Answers the \"age\" search with a year only. The full birth date is not stated by him and must not be printed; \"around May 1996\" is an inference from S08 and should not appear as fact.",
+      "alternative": "S10 is a translated adaptation; the three data points agree, but none is a document.",
+      "durability": "time_sensitive",
+      "review_trigger": "Update the stated age each year (next change around May 2027) and if he publicly states his birth date."
+    },
+    {
+      "id": "C04",
+      "claim": "He grew up in rural Georgia, the son of immigrant parents who owned a motel the family lived in and later gas stations. He worked in the family business as a child without pay and says this is why he \"always loved business\".",
+      "passage": "\"My parents owned a motel in rural Georgia, and we lived in it,\" he told WisdomTree. He worked in the family business as a kid and \"didn't get paid for working, of course,\" as he put it to Dwarkesh Patel",
+      "class": "self_report",
+      "source_ids": [
+        "S04",
+        "S01",
+        "S10"
+      ],
+      "inference": "Childhood setting that he himself links to his business-plus-technology lens. Use his framing, not an invented hardship story.",
+      "alternative": "Only his own account and The Information (via S10). Do not infer finances, the parents' origin country, town, or emotional effects that he has not described. The motel sentence agrees across Whisper small.en and large-v3-turbo (02:45-05:10); the following \"I just know business\" clause differed between models (\"I kind of just know business\"), so it was dropped from the quote.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C05",
+      "claim": "Dwarkesh Patel says Dylan's middle name is Sanjay, the same as his own, and calls him his \"twin brother\" as a running joke; the two share an open office floor and are not related.",
+      "passage": "They share a last name, the middle name Sanjay and an open office floor, and Dwarkesh jokes that Dylan is his \"twin brother.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S07",
+        "S08"
+      ],
+      "inference": "Light family detail and the source of the Patel/Patel running joke.",
+      "alternative": "Banter; the middle name is stated by Dwarkesh and not contradicted. Optional detail.",
+      "durability": "time_sensitive",
+      "review_trigger": "Drop the office detail if a later source shows SemiAnalysis or Dwarkesh's studio has moved."
+    },
+    {
+      "id": "C06",
+      "claim": "Fixing his broken Xbox 360 by learning from forums opened what he called \"Pandora's box\", after which he \"shitposted on the forums constantly\".",
+      "passage": "\"Holy shit, this is Pandora's box what just got opened up.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S04",
+        "S08"
+      ],
+      "inference": "Origin of learning in public on forums and opinion-first posting. Retrospective; he notes he can \"spin a narrative\" after the fact (S02).",
+      "alternative": "Substrate says he began pseudonymously at 12 and took the handle u/dylan522p at 16, still listed as a moderator of r/hardware and other subreddits; the moderator list was not checked (Reddit blocked automated access).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C07",
+      "claim": "Substrate reports that, through his Reddit moderating, he noticed Samsung had paid influencers to post negatively about HTC, and that he defended HTC: \"It felt like I was a warrior, defending the unibody aluminum, the stereo speakers, the low megapixel camera, the LCD screen with the cooler temps.\"",
+      "passage": "Through his Reddit moderating, Patel noticed that Samsung was paying influencers to talk down HTC, the phone maker he loved, and he took up arms. \"It felt like I was a warrior, defending the unibody aluminum, the stereo speakers, the low megapixel camera, the LCD screen with the cooler temps.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "An early instance of taking a public side against a bigger player's messaging. It reads as both combative (Eight-like) and gleeful partisanship.",
+      "alternative": "One profile; Substrate states the paid campaign as fact (\"noticed\"), which the edit now follows. No contemporaneous posts were checked. (A Taiwan regulator fined Samsung in 2013 over paid posts attacking HTC, reported by Marketing Week; it was opened in the edit stage but not used because it concerns Taiwan, not the campaign he saw.)",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C08",
+      "claim": "He went to college and did \"data science type stuff\" (S01). The Information reported, in its April 17, 2026 profile, that he was rejected by MIT and Stanford and attended the University of Georgia; that profile was not opened, so the detail is taken from the Deep News adaptation (S10), which cites The Information.",
+      "passage": "He went to college and \"did data science type stuff.\" The Information reported, in an April 2026 profile known here only through a translated adaptation, that MIT and Stanford turned him down and that he attended the University of Georgia",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S10"
+      ],
+      "inference": "Supports the outsider framing (\"no semiconductor credential\") and the education FAQ, with the university attributed to The Information.",
+      "alternative": "The university, the MIT/Stanford rejections and the majors come only through a translated adaptation (S10) of a paywalled article (S09, not opened and not cited as support). His LinkedIn education section was not visible. Do not state the majors or degree title until The Information original or another source is read.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C09",
+      "claim": "In 2020 he \"quiet quit\" his finance job to post and consult full-time, the choice that led to SemiAnalysis.",
+      "passage": "In 2020 he made the choice everything else hangs on. \"In 2020, I quiet quit my job and started shitposting more seriously on the internet,\" he told Dwarkesh.",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S04",
+        "S10"
+      ],
+      "inference": "A consequential choice: he left stable, well-paid work for an uncertain solo venture. His own explanation is disillusionment plus the pull of his hobby; The Information (via S10) adds dissatisfaction with pay, which an Eight reading explains as well. The phrase \"quiet quit\" means he kept the job while the blog started (C112).",
+      "alternative": "Tenure conflicts (three years in S01, two in S04). The employer is unnamed. The bonus remark exists only as back-translated paraphrase (S10) and cannot be quoted. \"Quant\" may overstate catastrophe-modeling work.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C10",
+      "claim": "He says he lived briefly in Minnesota after college and kept bees for about a year and a half.",
+      "passage": "He also lived briefly in Minnesota after college and, by his account on Latent Space's cooking show, kept bees for about a year and a half.",
+      "class": "self_report",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "Answers the \"beekeeper\" curiosity in his own words and illustrates the \"next step, next step\" path he describes.",
+      "alternative": "Machine transcript; the host says \"two years\", Patel corrects to \"like a, a year and a half basically\". The beekeeping is undated; \"after college\" applies to Minnesota as he said it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C11",
+      "claim": "Around his three years in finance after college he kept \"an anonymous blog for a long time,\" made YouTube videos and had an anonymous account on \"silicon Twitter\"; he says he asked the Internet Archive to remove most of that material and gives no reason. Substrate reports he used the handle u/dylan522p from 16.",
+      "passage": "Around his three years in finance after college, he says, he kept \"an anonymous blog for a long time,\" made some YouTube videos, and had a pseudonymous account on what he calls silicon Twitter. \"Most of that stuff is scrubbed off the internet, including Internet Archive, because I asked them to remove it.\" In the interviews opened for this analysis, he does not say why.",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S04",
+        "S08"
+      ],
+      "inference": "The anonymous blog overlapping a finance job is ordinarily explained by professional caution. The archive request is the stronger guardedness signal and stays unexplained. Neither discriminates strongly between types.",
+      "alternative": "Substrate says he shed his burner account for the first-name handle u/dylan522p at 16, so not all early posting was anonymous. The scrub could be professional caution before charging clients, or image management (Three). The closing paraphrase (C140) keeps \"most\" and \"including Internet Archive\".",
+      "durability": "time_sensitive",
+      "review_trigger": "Search for his own explanation of the Internet Archive removal at each refresh; update the closing section if he gives one."
+    },
+    {
+      "id": "C12",
+      "claim": "From 2020 he had no fixed home for years: he left his apartment, travelled the US national parks in his truck and tent with motel stays, then (per Substrate) blogged from Asia and South America while friends and family asked, \"Dylan, what the fuck are you doing?\" He says that for four years \"I didn't live anywhere\"; by his 2024 account, the conference circuit (about 40 a year) began in 2022.",
+      "passage": "Substrate reports that he then blogged from Asia and South America. Friends and family were confused, and their sentiment, in Substrate's words, \"was something like, 'Dylan, what the fuck are you doing?'\" He told WisdomTree, \"For four years, I traveled all around the world,\" and from 2022 that meant 40 conferences a year. \"I didn't live anywhere.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S04",
+        "S08"
+      ],
+      "inference": "A repeated costly choice that traded stability and others' approval for movement and access. After the repair it is no longer the article's main discriminator on its own: from 2022 the conference load is a practical reason to travel (see C138, C139).",
+      "alternative": "Locations differ by telling (US national parks in S01; Argentina, Taiwan and Peru in S08), probably different periods. Conference-going built his sources. He quiet-quit first and had small consulting work (S01). S01 dates the conference habit: \"In 2022, I also started going to every conference I could. I go to about 40 conferences a year.\" The WisdomTree wording agrees across small.en and large-v3-turbo; large-v3-turbo has \"You know,\" before \"I didn't live anywhere\", which is why the quote is split.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C13",
+      "claim": "When consulting picked up in 2020, he thought, \"Why don't I just arbitrarily make the price way higher?\" and it worked.",
+      "passage": "When consulting picked up in 2020, he said, \"I thought, 'Why don't I just arbitrarily make the price way higher?' And it worked.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Shows a quick, playful, risk-taking commercial instinct. He turned a non-paying client into a product.",
+      "alternative": "Single self-report; the 40-subscriber figure is anecdotal. The unpaid-report move could also read as retaliation (Eight).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C14",
+      "claim": "Substrate reports that Arm China sent a cease-and-desist after his first viral post, and that he remembers it, smiling, as \"really sick\".",
+      "passage": "Substrate reports that Arm China sent a cease-and-desist, and that Patel smiles remembering it: \"It was really sick.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S20",
+        "S08"
+      ],
+      "inference": "He enjoys provoking a powerful target and treats legal pushback as a thrill rather than a threat. Fits both Seven (stimulation) and Eight (relish of confrontation).",
+      "alternative": "The cease-and-desist was not located; the reaction is reported, not filmed.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C15",
+      "claim": "Substrate places his admission that he would \"slightly overpromise on what we had, and then we would work on building it and selling it\" in the 2023 CoWoS research sold to prospective clients, mostly hedge funds.",
+      "passage": "\"I would,\" he admitted, \"slightly overpromise on what we had, and then we would work on building it and selling it.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "Selling the future before it exists, freely admitted. Consistent with Seven optimism and with Three image management; not a discriminator.",
+      "alternative": "Common founder practice; counted in the Type 3 paragraph. Single quote.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C16",
+      "claim": "SemiAnalysis grew from a solo blog to about 90 staff by July 2026 (Patel to WisdomTree); Substrate reported in September 2026 that less than 5% of revenue comes from Substack.",
+      "passage": "A solo WordPress blog in May 2020 had about 90 staff by July 2026, by Patel's count. Substrate reported in September 2026 that less than 5% of revenue comes from Substack",
+      "class": "observed",
+      "source_ids": [
+        "S04",
+        "S08",
+        "S02",
+        "S10"
+      ],
+      "inference": "Scale of the outcome; context for why his judgment now carries weight.",
+      "alternative": "Revenue figures are company projections reported by The Information (S11 teaser, S10 adaptation) and Substrate; headcounts differ by date (60 in February 2026 per S02, 85 in April per S10, 90 in July per S04).",
+      "durability": "time_sensitive",
+      "review_trigger": "Replace revenue and headcount with the latest reported figures before each release; never present revenue as personal net worth."
+    },
+    {
+      "id": "C17",
+      "claim": "As of October 2026 there is no reliable public figure for his personal net worth; SemiAnalysis revenue projections and his venture fund are not his net worth; he says the firm has no external investors (S25); no valuation appears in the sources reviewed.",
+      "passage": "As of October 2026, there is no reliable public figure. SemiAnalysis revenue and the venture fund he manages are not his personal wealth. He has said the firm has no external investors, and no valuation of the company had been published in the sources reviewed for this page.",
+      "class": "interpretation",
+      "source_ids": [
+        "S08",
+        "S22",
+        "S25"
+      ],
+      "inference": "Answers the \"net worth\" search honestly without inventing a number.",
+      "alternative": "He owns the firm, which has no outside investors (S25; the Zhou complaint, per S23, calls him sole owner), so his stake is likely substantial. The Information's revenue briefing (S11) was not opened and is not cited. The absence of a published valuation is scoped to the sources reviewed and dated.",
+      "durability": "time_sensitive",
+      "review_trigger": "Revisit at each refresh, and immediately if a credible outlet publishes a valuation of SemiAnalysis or an estimate of his wealth; keep the as-of date current."
+    },
+    {
+      "id": "C19",
+      "claim": "Patel's reply to Altman read: \"Sundar to the GPU-poors. The data is from a supplier of Google, and we made the chart.\"",
+      "passage": "His text: \"Sundar to the GPU-poors. The data is from a supplier of Google, and we made the chart.\"",
+      "class": "observed",
+      "source_ids": [
+        "S16",
+        "S17"
+      ],
+      "inference": "Under attack from one of the most powerful people in AI he counterpunched with mockery plus a factual correction. Strong evidence for combativeness; the meme form is play as much as dominance.",
+      "alternative": "Co-authored post; the image itself was not opened (described by Business Insider). One exchange.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C20",
+      "claim": "In December 2024 SemiAnalysis published a five-month benchmark finding AMD's MI300X software far behind Nvidia's, said \"We genuinely want to see another effective competitor to Nvidia\" and invited Lisa Su to a meeting.",
+      "passage": "A December 2024 SemiAnalysis benchmark found AMD's MI300X software far behind Nvidia's, said \"We genuinely want to see another effective competitor to Nvidia,\" and invited AMD's CEO to a meeting",
+      "class": "observed",
+      "source_ids": [
+        "S14",
+        "S08",
+        "S10"
+      ],
+      "inference": "Hard public criticism of a major company. The follow-up (C78) reads as both credit and a display of influence, so the episode fits Seven and Eight alike.",
+      "alternative": "Co-authored report. Substrate says Lisa Su called the SemiAnalysis team; the Deep News adaptation (S10) says she arranged the meeting within a day.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C22",
+      "claim": "At GTC on March 16, 2026, Jensen Huang said on stage: \"Dylan Patel had a quote. He accused me of sandbagging.\"",
+      "passage": "\"He accused me of sandbagging.\"",
+      "class": "observed",
+      "source_ids": [
+        "S27",
+        "S12"
+      ],
+      "inference": "A dated marker of his influence, and the payoff of a public reversal by Patel himself (C23). Huang used it to market Nvidia.",
+      "alternative": "Two machine transcriptions (S27 of NVIDIA's upload, S12 of the Yahoo Finance stream) agree on the wording; punctuation is the transcriber's. Huang repeats \"He accused me of sandbagging\" twice; the article quotes it once.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C23",
+      "claim": "Patel says that after SemiAnalysis benchmarks showed Blackwell far faster than he had predicted, he emailed Huang the critics' names and his own doubt (\"Here's all the people that gave you crap. Even I gave you crap.\"); he had guessed 15 to 20 times against Huang's claimed 25.",
+      "passage": "It listed everyone who had doubted Huang's numbers, and Patel put himself on the list: \"Here's all the people that gave you crap. Even I gave you crap.\" By his account, he had guessed 15 to 20 times, not the 25 Huang had claimed.",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "A playful public reversal by his own account, but low-cost: his firm's open benchmark delivered the news, Nvidia engineers already had the results, he had been among the more bullish doubters, and the message flattered a collaborator. The article now treats it as consistent with both Seven and Eight, not as a discriminator.",
+      "alternative": "His account of the email is unconfirmed by Nvidia. Huang's own stage figure was 35 times perf per watt (S27), not 25, so the article keeps 25 inside Patel's account. Two Whisper models agree on the quoted wording.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C24",
+      "claim": "He says his marketing staff ask him to stop arguing with critics online (\"Dylan, stop replying to random bozos on the internet, you're making us look bad\"), but \"I just have that burning desire to respond to anyone on the internet when they try and criticize me. And so maybe it's a bad thing\".",
+      "passage": "\"I just have that burning desire to respond to anyone on the internet when they try and criticize me.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "The clearest self-description of reactive combativeness and the strongest single item for the Eight alternative. He calls it \"maybe a bad thing\" and keeps doing it against his own marketing staff's image advice, which the article uses against a Three reading.",
+      "alternative": "Two Whisper transcriptions (small.en and large-v3-turbo) agree on the quoted sentence. No sample of the replies themselves was gathered.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C25",
+      "claim": "Substrate reports that he limits staff private Slack DMs to roughly 30% so that messages go to public channels by default, where source inputs feed the models; \"In signature Dylan fashion, he names and shames,\" occasionally sharing a table of people who exceed it. Separately, he recalls an external analyst's primers: \"This is fucking wrong... I'd write the same thing but better.\"",
+      "passage": "Inside the firm, Substrate reports, he caps private Slack messages at roughly 30% of what staff send, so that messages land in public channels where analysts' source notes feed the firm's models. \"In signature Dylan fashion, he names and shames,\" Tang writes, occasionally sharing a table of people who go over. Of an outside analyst's primers, he recalled, \"I'm like, 'This is fucking wrong,'. I'd write the same thing but better.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "The quota mainly serves the firm's information business; the public naming is the personal-style evidence for the Eight alternative. The editing quote concerns an external analyst, not staff.",
+      "alternative": "Workplace practices reported by the firm's own staff; no current or former employee critic described them. Substrate adds that most newsletter pitches are approved.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck before release if a newer report describes SemiAnalysis management practices."
+    },
+    {
+      "id": "C26",
+      "claim": "He frames the firm's ambition in terms of influence: \"We influence opinion…We've written stuff that Nvidia hated at the time, then Jensen read it and changed the organization.\"",
+      "passage": "\"We influence opinion…We've written stuff that Nvidia hated at the time, then Jensen read it and changed the organization.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "Appetite for influence. Through Seven, being everywhere and right early; through Eight, power and territory; through Three, status. Partly a sales pitch (C120).",
+      "alternative": "Said to a reporter and a commercial partner, partly as salesmanship.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C28",
+      "claim": "He describes his interest as \"an obsessive hobby of many years\" that \"pivoted all around\": gaming, phones, screens and cameras, telecom, then datacenters \"because that was where the most advanced stuff was happening\".",
+      "passage": "\"It was an obsessive hobby of many years and it pivoted all around,\" he told Dwarkesh",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "His attention moved toward the newest frontier, but inside one field: he says himself it was \"generally ... in computing hardware\" (C109), and Substrate notes 14 years of Android loyalty (C108). Breadth within a domain, not scatter.",
+      "alternative": "Retrospective self-description. A Five or Six would also describe long, focused obsession; only the movement toward whatever is newest is Seven-relevant.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C29",
+      "claim": "Asked to introduce himself, he described his path as \"just next step, next step, next step. Doesn't seem like there's a clear, immediate path.\"",
+      "passage": "\"Just next step, next step, next step. Doesn't seem like there's a clear, immediate path.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "He describes his life as following openings rather than a plan and is aware of the after-the-fact story. Supports the Seven reading and limits any destiny arc.",
+      "alternative": "Machine-generated transcript; no audio was found to re-check (see S02). Light, joking context.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C30",
+      "claim": "When Dwarkesh rebutted his \"saving grace\" about AI centralization, Patel conceded: \"Yes. This is my cope. I agree.\"",
+      "passage": "\"Yes. This is my cope. I agree.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "He concedes that his saving grace was a reframe and returns to the bleak conclusion. Supports a reach for an upside even after arguing himself into the grim case; it does not show escape from fear. Consistent with Seven and with analytic candor, so it supports rather than settles the read.",
+      "alternative": "Ordinary analytic candor on a friendly podcast. One instance.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C31",
+      "claim": "He distrusts concentrated power: \"I don't trust the government, and I don't trust Dario, and I don't trust Sam.\"",
+      "passage": "\"I don't trust the government, and I don't trust Dario, and I don't trust Sam,\"",
+      "class": "self_report",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "Shared ground for Eight (resisting control), Seven (protecting freedom) and Six (distrust of authority); used in the Six paragraph. Does not discriminate.",
+      "alternative": "Policy views, not personal behavior.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C32",
+      "claim": "Substrate's reporter watched him, at a San Francisco house party in the Mission, throw an arm over a friend who asked about a semiconductor startup and say with a grin, \"Bearish man, so bearish.\"",
+      "passage": "At a house party in San Francisco's Mission District, Tang watched him throw an arm around a friend who asked about a chip startup and deliver the verdict with a grin: \"Bearish man, so bearish.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "Playful register in combat; counts against a withdrawn Five reading. One reporter scene; the article claims only that the fights it captures carry a grin.",
+      "alternative": "Living arrangements and office are time-bound. The social scenes are the reporter's.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C34",
+      "claim": "The Information reported, per the translated Deep News adaptation (S10), that his parents still do not fully understand his work and that he said he feels like a loser when his mother tells people he works in IT. The Information original (S09) was not opened.",
+      "passage": "per The Information, the sting when his mother tells people he works in IT",
+      "class": "third_party",
+      "source_ids": [
+        "S10"
+      ],
+      "inference": "A small, self-mocking admission he volunteered to a reporter; counted as Three-relevant status sensitivity.",
+      "alternative": "Back-translated; another adaptation says \"failure\". Do not quote until The Information original is read.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C36",
+      "claim": "SemiAnalysis president Doug O'Laughlin told Substrate, \"Dylan's going to be the greatest analyst of this generation. I've always thought that.\"",
+      "passage": "Doug O'Laughlin, his president, told Substrate, \"Dylan's going to be the greatest analyst of this generation. I've always thought that.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "Named testimony on his command of detail.",
+      "alternative": "Both are friends or colleagues (O’Laughlin is his president), so not independent. No critic who has worked with him is on record except the lawsuit plaintiff.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck O'Laughlin's title at each refresh."
+    },
+    {
+      "id": "C37",
+      "claim": "He told Substrate that hyperscalers are among his biggest customers \"And yet we'll post negatively about Meta, or we'll post negatively about Google.\"",
+      "passage": "\"Hyperscalers are my biggest customers. If you look at the top 10 companies in the world – besides Saudi Aramco – they're [in] my top 15 customers. And yet we'll post negatively about Meta, or we'll post negatively about Google.\"",
+      "class": "disputed",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "His own account of independence, given as Substrate's presentation of his answer to the conflict question.",
+      "alternative": "His own claim of independence, made to a reporter; no audit of SemiAnalysis coverage was found.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C38",
+      "claim": "SemiAnalysis Capital Fund I, LP, a Delaware venture fund with Patel as manager of its general partner, filed a Form D on July 29, 2026 for a $400 million offering with nothing yet sold. Substrate's September 18 correction says Patel confirmed the final amount raised was $500 million.",
+      "passage": "SemiAnalysis Capital Fund I, with Patel as manager of its general partner, filed a Form D on July 29, 2026 for a $400 million offering with nothing yet sold ([SEC](https://www.sec.gov/Archives/edgar/data/2145695/000090514826003383/primary_doc.xml)). Patel later told Substrate the final amount raised was $500 million.",
+      "class": "observed",
+      "source_ids": [
+        "S22",
+        "S08"
+      ],
+      "inference": "His move from analyst to investor, documented. The $500 million figure is his own statement to Substrate.",
+      "alternative": "Offering size and raised amount conflict; the article states both with their sources. The Information briefing (S11) is not cited because it was not opened.",
+      "durability": "time_sensitive",
+      "review_trigger": "Check EDGAR for an amended Form D for SemiAnalysis Capital Fund I before each release and update the amount."
+    },
+    {
+      "id": "C39",
+      "claim": "SemiAnalysis and a former employee, Wei Zhou, are suing each other in San Francisco Superior Court. SemiAnalysis filed first on March 27, 2026, alleging trade-secret misappropriation, breach of contract and defamation, and says Zhou was fired in January 2026 for misconduct.",
+      "passage": "SemiAnalysis and a former employee, Wei Zhou, are also suing each other in San Francisco Superior Court. According to Wallstreetcn's summary of the filings, SemiAnalysis filed first, on March 27, 2026, alleging misappropriation of trade secrets, breach of contract and defamation, and says Zhou was fired in January 2026 over alleged misconduct.",
+      "class": "disputed",
+      "source_ids": [
+        "S23",
+        "S08",
+        "S10"
+      ],
+      "inference": "A live, unproven allegation that goes to the center of the conflict-of-interest question; it must be reported neutrally with both sides and no inference about his character.",
+      "alternative": "Complaints and docket were not opened; details come from translated news summaries. The countersuit's specific misconduct allegations concern a private person and are not repeated. Substrate (September 2026) says SemiAnalysis had no comment; The Information (via S10) says both parties declined to comment.",
+      "durability": "unresolved",
+      "review_trigger": "Check the San Francisco Superior Court docket for CGC-26-635328 and Zhou's case before every release; update or remove on settlement, dismissal or ruling."
+    },
+    {
+      "id": "C40",
+      "claim": "SemiAnalysis has widened into an open-source benchmark (InferenceX), ClusterMAX cloud ratings, a teardown lab in Oregon and the acquisition of Citrini Research (reported September 11, 2026).",
+      "passage": "Around those sit an open-source benchmark called InferenceX, ClusterMAX ratings of cloud providers, a teardown lab in Oregon, and the acquisition of Citrini Research, reported on September 11, 2026",
+      "class": "observed",
+      "source_ids": [
+        "S08",
+        "S24",
+        "S25"
+      ],
+      "inference": "Expansion and a taste for taking on incumbents; prizes independence from outside owners. Fits Seven (more of everything) and Eight (territory) alike.",
+      "alternative": "Business moves reflect market opportunity as much as personality.",
+      "durability": "time_sensitive",
+      "review_trigger": "Update the list of business lines and acquisitions at each refresh."
+    },
+    {
+      "id": "C41",
+      "claim": "The Seven-over-Eight call now rests, as a labeled reading, on timing: he gave up a home in 2020, before the conference circuit (2022) and the first hires (mid-2022), and by October 2024 he had \"basically\" settled in San Francisco while keeping the same conference load, so the circuit did not require the nomadism. His planless \"next step\" account and attention jumping within one field are self-descriptions, so Seven leads only narrowly.",
+      "passage": "This analysis reads the 2020 start as a Seven keeping options open before anything required it. Patel has never said so, and his \"next step\" account and the jumps to the newest corner of one field are his own descriptions too, so Seven leads only narrowly.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S04",
+        "S08"
+      ],
+      "inference": "This is the main remaining discriminator, stated as the article's inference about motive, not as Patel's stated reason. It concedes that he built a solely owned base during the no-home years (C138) and that conferences gave him a practical reason to travel from 2022.",
+      "alternative": "Eight reading: leaving an employer to be one's own boss and building a founder-led firm with no outside investors is an Eight's kind of base. The 2020-2021 travel also overlapped a pandemic in which conferences were limited, and his 2024 hedge about living in San Francisco was entangled with a California tax-residency joke, so both ends of the period have non-temperament explanations. Evidence is retrospective and self-reported.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C43",
+      "claim": "Huang used Patel's sandbagging line to promote Nvidia's performance per watt and cost per token.",
+      "passage": "Nvidia's CEO was using an outside analyst's jab to sell his product.",
+      "class": "interpretation",
+      "source_ids": [
+        "S27",
+        "S12",
+        "S08"
+      ],
+      "inference": "Frames the GTC moment as marketing by Huang, so the article does not treat it as a neutral endorsement.",
+      "alternative": "Huang may also have meant it as a compliment; both readings are compatible.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C44",
+      "claim": "Huang quoted Patel as saying \"Jensen sandbagged. It's actually 50 times\" and answered \"And he's not wrong.\"",
+      "passage": "Huang read the quote back to the crowd. \"He says, 'Jensen sandbagged. It's actually 50 times.'\" Then he answered it: \"And he's not wrong.\"",
+      "class": "observed",
+      "source_ids": [
+        "S27",
+        "S12"
+      ],
+      "inference": "Exact stage wording; the payoff of Patel's own reversal.",
+      "alternative": "Two machine transcriptions agree; Huang says \"He's not wrong\" twice and the article quotes it once.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C45",
+      "claim": "At GTC on March 16, 2026, Huang presented SemiAnalysis InferenceX results (\"This is from semi-analysis\") about three minutes before naming Patel.",
+      "passage": "On March 16, 2026, [Jensen Huang](/personality-analysis/jensen-huang) put a chart from SemiAnalysis, the chip research firm Dylan Patel founded, on the screen behind him at Nvidia's GTC keynote. A few minutes later he named the man behind it.",
+      "class": "observed",
+      "source_ids": [
+        "S27",
+        "S12",
+        "S08"
+      ],
+      "inference": "Dated opening scene, sourced to the official video.",
+      "alternative": "\"A few minutes\" rests on offsets in S27 (about 1:00:53 and 1:03:44).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C46",
+      "claim": "Patel says his email to Huang ended: \"But Jensen, I was wrong. You were sandbagging.\"",
+      "passage": "\"But Jensen, I was wrong. You were sandbagging.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "His reversal, in his own words. Read with the context in C101-C102, it is low-cost and does not discriminate between Seven and Eight.",
+      "alternative": "His retelling of a private email; Nvidia has not confirmed it. Two Whisper models agree on the wording.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C47",
+      "claim": "After the InferenceX benchmarks showed Blackwell around 30 times faster than Hopper in one test, beyond Patel's forecast, he emailed Huang; he described it on WisdomTree's podcast, uploaded July 9, 2026.",
+      "passage": "When SemiAnalysis's own benchmarks showed Nvidia's Blackwell systems running far faster than Patel had predicted, he emailed Huang. He described the email to WisdomTree's podcast in July 2026.",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Sets up the reversal.",
+      "alternative": "Benchmark specifics are his account.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C48",
+      "claim": "SemiAnalysis mailed WWE-style \"Inference King\" belts to InferenceX collaborators including Nvidia; Patel says the belt appeared on Huang's slide and he did not expect it on stage; Substrate's opening scene describes \"A WWE-style championship belt was projected onto a 100-foot wall behind Huang.\"",
+      "passage": "SemiAnalysis had made WWE-style championship belts reading \"Inference King\" and mailed them to the benchmark's collaborators, Nvidia among them. By his account the belt turned up on Huang's slide, and he had not expected any of it to reach the stage. Substrate's profile opens on the belt, projected onto a 100-foot wall behind Huang.",
+      "class": "self_report",
+      "source_ids": [
+        "S04",
+        "S05",
+        "S08"
+      ],
+      "inference": "Turning the result into a joke and a gift: a playful detail consistent with Seven, also good marketing for InferenceX.",
+      "alternative": "The belt-mailing and \"didn't expect it\" passages come from one large-v3-turbo transcription after 13:00; S05's compiled rendering agrees. Substrate describes the belt on screen but does not say its reporter attended GTC, so the article attributes the description, not an eyewitness account.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C49",
+      "claim": "He says his marketing staff tell him, \"Dylan, stop replying to random bozos on the internet.\"",
+      "passage": "His own marketing staff, he said, tell him, \"Dylan, stop replying to random bozos on the internet.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "The combative habit persists against his own team's image advice; used as the discriminator against a Three reading.",
+      "alternative": "His paraphrase of staff; two Whisper models agree on the wording.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C50",
+      "claim": "The Information reported in April 2026 a SemiAnalysis revenue projection above $100 million for 2026 (and about $20 million in 2025); the figure reaches this record through the Deep News adaptation (S10) and is corroborated by Substrate (\"Revenue is projected to beat $100M this year\").",
+      "passage": "The Information reported in April 2026 that the firm projected 2026 revenue above $100 million.",
+      "class": "third_party",
+      "source_ids": [
+        "S10",
+        "S08"
+      ],
+      "inference": "Scale of the outcome.",
+      "alternative": "Company projection. The Information briefing (S11) was read only as a paywall teaser and is not cited as support.",
+      "durability": "time_sensitive",
+      "review_trigger": "Replace with reported actual 2026 revenue when available; never present revenue as personal net worth."
+    },
+    {
+      "id": "C52",
+      "claim": "SemiAnalysis says its newsletter reaches more than 318,000 subscribers.",
+      "passage": "as of October 2026 says its newsletter reaches more than 318,000 subscribers",
+      "class": "observed",
+      "source_ids": [
+        "S26"
+      ],
+      "inference": "Orientation for the 'what is SemiAnalysis' FAQ.",
+      "alternative": "Company claim; The Information's adaptation gave 250,000+ in April 2026 (S10).",
+      "durability": "time_sensitive",
+      "review_trigger": "Update the subscriber figure from the SemiAnalysis About page before each release."
+    },
+    {
+      "id": "C54",
+      "claim": "At seven he begged for an Xbox; at eight he got an Xbox 360 that failed with the red ring of death. Home fixes (wet towel, penny trick) failed; with his cousin due the next weekend, he learned on forums to short the temperature sensor, which worked until Microsoft's recall.",
+      "passage": "He says he got a 360 at eight, and it died of a manufacturing defect called the red ring of death.",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Origin of learning in public on forums.",
+      "alternative": "Retrospective childhood story told on a podcast; attributed because the Xbox 360 launched in November 2005, when a child born in May 1996 would have been nine.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C55",
+      "claim": "After the Xbox fix he posted on forums constantly; by 12 he was moderating hardware forums and subreddits, and he was posting about smartphones before he owned one.",
+      "passage": "\"Then I just shitposted on the forums constantly,\" he said. By 12, he says, he was moderating forums and subreddits about Android, Apple, Intel, Nvidia and AMD. He was posting about smartphone chips, he told WisdomTree, \"Before I ever even had a smartphone.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S04",
+        "S08"
+      ],
+      "inference": "Early, public, opinion-first posting across topics.",
+      "alternative": "Self-report. \"Before I ever even had a smartphone\" agrees across small.en and large-v3-turbo (01:05-01:50). Reddit moderator lists were not checked.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C57",
+      "claim": "After college he worked two to three years at a financial company on hurricane, earthquake and wildfire simulations, which he later called being \"a quant\".",
+      "passage": "After college he spent two or three years at a financial company running hurricane, earthquake and wildfire simulations. He later called it being \"a quant.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S04"
+      ],
+      "inference": "Background for the 2020 choice.",
+      "alternative": "Tenure differs between tellings (three years in S01, two in S04); employer unnamed.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C58",
+      "claim": "He told Dwarkesh that he claimed AI experience when interviewing for the finance job but the work was \"bullshit multivariable regression\".",
+      "passage": "\"I said I did AI when I interviewed but it was like bullshit multivariable regression, whatever.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "A volunteered, self-mocking admission of overstatement; supports the soft-admissions point (C42).",
+      "alternative": "Banter; could also read as a confident person's charm.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C59",
+      "claim": "He says being a quant was \"not as amazing as it seems\"; The Information reported he was unhappy with his bonus.",
+      "passage": "The job paid, but he told WisdomTree it was \"not as amazing as it seems.\" The Information reported that he was unhappy with his bonus.",
+      "class": "self_report",
+      "source_ids": [
+        "S04",
+        "S10"
+      ],
+      "inference": "Stated reasons for leaving: disillusionment, and per The Information, pay.",
+      "alternative": "The bonus remark exists only as a back-translated paraphrase (S10) and is not quoted. \"not as amazing as it seems\" agrees across small.en and large-v3-turbo.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C60",
+      "claim": "In 2020 he left his apartment and travelled to U.S. national parks in his truck and tent, staying in hotels and motels three or four days a week.",
+      "passage": "he moved out of his apartment and drove to the U.S. national parks with a truck and a tent, staying in hotels and motels three or four days a week.",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Concrete start of the no-fixed-home years.",
+      "alternative": "Self-report.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C61",
+      "claim": "Late in 2021 he published a paid post because a client had not paid for a report, woke to 40 paid subscriptions and thought \"What? Okay, let's keep going.\"",
+      "passage": "Late in 2021 he paywalled a report \"because someone didn't pay for a report or whatever,\" woke up to 40 paid subscriptions and thought, \"What? Okay, let's keep going.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Quick, playful commercial instinct; turned a non-paying client into a product.",
+      "alternative": "Single self-report; could also read as retaliation (Eight).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C64",
+      "claim": "The 2020-2024 choices traded stability for options but were hedged (quiet quitting, conference sourcing); business logic explains going independent and, from 2022, much of the travel, but less well how the travel started in 2020.",
+      "passage": "Most of those moves traded stability for options, though not recklessly: he quiet-quit before he quit, and the conference years built his sources. The business case explains going independent, and from 2022 it explains much of the travel. It explains less well how the travel started.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S04",
+        "S08"
+      ],
+      "inference": "States the Seven reading of the career choices and narrows it to the 2020 start, matching C41.",
+      "alternative": "Opportunity and business strategy explain much of it; from 2022 the conference circuit gave him a practical reason to travel (S01).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C67",
+      "claim": "On Dwarkesh in August 2026 he called AI centralization \"scary as hell\".",
+      "passage": "\"What world do you see, Dwarkesh, where everything is not centralized? Because it seems to me that every force is screeching towards centralization. And that's scary as hell.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "Names a fear directly.",
+      "alternative": "Policy view in conversation.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C68",
+      "claim": "Right after \"scary as hell\" he said, \"I would love for it not to be centralized completely. But maybe that's the whole point of a machine that loves grace, right? It is everything and it makes our lives great,\" alluding to Dario Amodei's essay \"Machines of Loving Grace\" (S30).",
+      "passage": "He added, \"I would love for it not to be centralized completely,\" then nodded to \"Machines of Loving Grace,\" Dario Amodei's 2024 essay: \"But maybe that's the whole point of a machine that loves grace, right? It is everything and it makes our lives great.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S07",
+        "S30"
+      ],
+      "inference": "Tone is ambiguous (hopeful or dry); the article leaves it open and does not count it as a reframe.",
+      "alternative": "Could be sardonic, given that he says moments later he does not trust Amodei. The intervening sentence is now quoted, so no adjacency is implied.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C69",
+      "claim": "He offered \"the one saving grace\": that the rest of the economy may profit more from Anthropic than Anthropic does. Just before it he ribbed Dwarkesh: \"Or Dwarkesh, from researching his podcast and learning about credit, is capturing how many dollars per megawatt? Now how much can you use? Tough.\"",
+      "passage": "Only then, after ribbing Dwarkesh about what his podcast research gets out of AI, did he offer \"the one saving grace\": maybe the rest of the economy profits more from Anthropic's models than Anthropic does.",
+      "class": "self_report",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "The upside he offers only after laying out the bleak case (C116).",
+      "alternative": "Paraphrase of an economic argument.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C70",
+      "claim": "After conceding the cope he said \"There's 80,000 worlds and in only one of them, Anthropic doesn't own the whole world\" and continued the concentration argument in Anthropic's voice about Jane Street and \"degenerate options traders\"; Dwarkesh's \"Hey, they're a sponsor, come on. Jesus Christ.\" did not stop him (\"No, I think it's great...\" then the argument resumes); after Dwarkesh's \"On that somber note\" sign-off, Patel quipped, \"You're not going to have me on your podcast again for like two months?\"",
+      "passage": "He went darker (\"There's 80,000 worlds and in only one of them, Anthropic doesn't own the whole world\") and kept making the concentration argument, in Anthropic's voice, about Jane Street and \"degenerate options traders.\" Dwarkesh's mock protest (Jane Street is a sponsor) did not stop him. When Dwarkesh signed off \"On that somber note,\" Patel quipped, \"You're not going to have me on your podcast again for like two months?\"",
+      "class": "self_report",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "He stayed with the grim conclusion in argument and joked around it (the earlier rib, the sign-off quip) rather than escaping it through humor.",
+      "alternative": "Transcript order rechecked in the repair stage against the saved S07 text; the earlier \"only joke was Dwarkesh's\" wording was wrong and is removed.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C71",
+      "claim": "The corrected centralization exchange shows: fear named, argued through, a reach for one positive thing anyway, self-labeled cope, and acceptance of the conclusion, with jokes around it (the rib before the saving grace, the sign-off quip) but no escape into them.",
+      "passage": "He names the fear. He argues it through. He reaches for one positive thing anyway. When it fails, he calls it cope himself and accepts the grim conclusion, joking around it but not out of it.",
+      "class": "interpretation",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "Supports the Seven read (the reach) without settling it; the article says so.",
+      "alternative": "Analytic candor on a friendly podcast explains the same steps.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C72",
+      "claim": "In August 2023 Sam Altman posted \"incredible google got that semianalysis guy to publish their internal marketing/recruiting chart lol\" about the GPU-Poor post; Patel replied about four hours later.",
+      "passage": "When Sam Altman jabbed back (\"incredible google got that semianalysis guy to publish their internal marketing/recruiting chart lol\"), Patel answered within about four hours",
+      "class": "observed",
+      "source_ids": [
+        "S15",
+        "S16",
+        "S18"
+      ],
+      "inference": "Counterpunch to a powerful critic.",
+      "alternative": "Timestamps from X's syndication endpoint (01:53 and 06:13 UTC).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C73",
+      "claim": "Business Insider described Patel's image as Sundar Pichai force-feeding Altman milk while holding him by the hair.",
+      "passage": "with a meme that Business Insider described as Sundar Pichai force-feeding Altman milk while holding him by the hair",
+      "class": "third_party",
+      "source_ids": [
+        "S17"
+      ],
+      "inference": "Mocking form of the reply.",
+      "alternative": "The image itself was not opened.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C74",
+      "claim": "His August 27, 2021 post accused Arm China of going \"rogue\" and called it \"the tech heist of the century\"; Substrate calls it his first viral post.",
+      "passage": "His first viral post, in August 2021, accused Arm China of going \"rogue\" in \"the tech heist of the century\"",
+      "class": "observed",
+      "source_ids": [
+        "S20",
+        "S08"
+      ],
+      "inference": "Early willingness to provoke a powerful target.",
+      "alternative": "Solo-bylined; \"first viral\" is Substrate's description.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C75",
+      "claim": "His language about the firm emphasizes influence and being first.",
+      "passage": "And he talks in the vocabulary of influence.",
+      "class": "interpretation",
+      "source_ids": [
+        "S08",
+        "S25"
+      ],
+      "inference": "Part of the Eight case.",
+      "alternative": "Partly salesmanship to a reporter and clients.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C76",
+      "claim": "Announcing the STEEL teardown lab on June 14, 2026, he wrote \"our goal is to be number 1\" and called it \"inconvenient timing for TechInsights\".",
+      "passage": "Announcing his teardown lab in June 2026, he wrote that \"our goal is to be number 1,\" and called the timing \"inconvenient\" for the incumbent, TechInsights",
+      "class": "observed",
+      "source_ids": [
+        "S25"
+      ],
+      "inference": "Competitive, territory-taking language.",
+      "alternative": "Business announcement aimed at clients and recruits.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C77",
+      "claim": "Type 8 is described as a gut type whose core emotion is anger and whose answer to threat is control and covered vulnerability.",
+      "passage": "An Eight is a gut type with anger at the core. The Eight answer to a threat is to take control of its source and keep any soft spot covered.",
+      "class": "interpretation",
+      "source_ids": [
+        "S04",
+        "S08",
+        "S16"
+      ],
+      "inference": "Defines the rival type for the reader before testing it.",
+      "alternative": "General Enneagram description, not evidence about Patel.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C78",
+      "claim": "Lisa Su called the SemiAnalysis team for 90 minutes after the report (S08). On December 23, 2024, the day after the December 22 report (S14), Patel posted \"Met with @LisaSu today for 1.5 hours,\" including \"She acknowledged the gaps in AMD software stack,\" \"She took our specific recommendations seriously,\" \"She asked her team and us a lot of questions,\" \"Many changes are in flight already!\" and \"Excited to see improvements coming.\"",
+      "passage": "Lisa Su called, Substrate reports. Patel's post about the meeting, on December 23, the day after the report, says \"She took our specific recommendations seriously\" and \"Many changes are in flight already!\"",
+      "class": "observed",
+      "source_ids": [
+        "S13",
+        "S08"
+      ],
+      "inference": "Credit to AMD and a public display that a powerful CEO acted on his critique: fits both Seven and Eight.",
+      "alternative": "Substrate uses the call as proof that SemiAnalysis analyses \"turn heads\". The post's \"today\" puts the meeting and the post on the same day; the article no longer says \"the next day\" and no longer calls the report his \"harshest\".",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C81",
+      "claim": "The Seven reading leaves the Slack control and the influence language least explained.",
+      "passage": "None of this makes the Eight case go away. The Slack rule and the influence talk are the parts a Seven reading explains least well.",
+      "class": "interpretation",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "Honest limit of the type argument; the article specifies the public naming, hubris and reply habit rather than the quota itself.",
+      "alternative": "An Eight reading explains these directly.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C82",
+      "claim": "A coded sample of his replies to critics and of fights he starts (mock-and-move-on vs. sustained pursuit, and what each reply is for) would test Seven against Eight.",
+      "passage": "The test that would move the read is simple: collect his replies to critics over a few years. If he mocks and moves on, that is the Seven. If he escalates and keeps pursuing the same people for weeks, the Eight reading gains.",
+      "class": "interpretation",
+      "source_ids": [
+        "S04",
+        "S16",
+        "S18",
+        "S28"
+      ],
+      "inference": "Names the open discriminator, including a motive-level marker.",
+      "alternative": "Not yet done; listed in research_tasks.",
+      "durability": "time_sensitive",
+      "review_trigger": "At each refresh, code at least 20 X replies to critics from 2023 onward (include the December 2025 Oracle exchange, S28) and fights he initiates, and read the course of both SemiAnalysis/Zhou suits; revise the 7/8 read if sustained pursuit appears."
+    },
+    {
+      "id": "C83",
+      "claim": "Type 3 has real support (overpromising, \"try to be the best\", \"number 1\", hubris, stage-time scorekeeping, the mother/IT remark); the surviving discriminator is that he keeps replying against his marketing staff's image advice.",
+      "passage": "A [Type 3](/enneagram-corner/enneagram-type-3) reading has real material: the overpromising, \"Just try and do the best and try to be the best,\" \"number 1,\" the hubris, the five minutes on Huang's slide and, per The Information, the sting when his mother tells people he works in IT.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S04",
+        "S08",
+        "S10",
+        "S25"
+      ],
+      "inference": "Tests a further alternative.",
+      "alternative": "The archive scrub could be image management and the reply habit reputation defense; the article states both.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C84",
+      "claim": "Type 5 has support (\"You can just buy engineering textbooks and read them. What's stopping you?\") but fits poorly with constant conferences and public posting.",
+      "passage": "A [Type 5](/enneagram-corner/enneagram-type-5) reading has the self-taught study (\"You can just buy engineering textbooks and read them\"), but a Five does not live at 40 conferences a year.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S04"
+      ],
+      "inference": "Tests a further alternative.",
+      "alternative": "Conferences also gather information, which a Five might value.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C85",
+      "claim": "He told Substrate, \"Maximally truth-seeking is all we care about.\"",
+      "passage": "Elsewhere in the interview he said, \"Maximally truth-seeking is all we care about.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "His stated standard.",
+      "alternative": "Self-description to a reporter.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C86",
+      "claim": "The Information reported that days after GTC 2026 Patel published a bearish view of Nvidia's upcoming Rubin chip.",
+      "passage": "The Information reported that Patel published a bearish view of Nvidia's then-upcoming Rubin chip days after Huang praised him on stage",
+      "class": "third_party",
+      "source_ids": [
+        "S10"
+      ],
+      "inference": "Publishing against a benefactor.",
+      "alternative": "Known only through a translated adaptation of the paywalled S09; the report itself was not opened.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C87",
+      "claim": "Substrate presents his answer to the conflict question: he publishes against paying customers and separates private from public markets (the fund is early-stage private; employees may not hold public investments in coverage areas), with Substrate's caveat that many influential AI companies are private. The Information reported he holds stakes in about 20 startups and set up a Fluidstack investment vehicle; ClusterMAX rated Fluidstack Gold.",
+      "passage": "He also separates private and public markets: the fund backs early-stage private companies, and SemiAnalysis employees may not hold public investments in the firm's coverage areas. Substrate notes that many of the most influential AI companies, Anthropic and OpenAI among them, are private.",
+      "class": "disputed",
+      "source_ids": [
+        "S08",
+        "S10"
+      ],
+      "inference": "Shows where conflict questions arise.",
+      "alternative": "Stake count and SPV detail come from a translated adaptation of S09.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck his disclosed investments and ClusterMAX ratings before release."
+    },
+    {
+      "id": "C88",
+      "claim": "The Information reported Patel's rebuttal that Prime Intellect, another portfolio company, got only Bronze, and its co-founder said Patel acts independently of his financial interests; Hot Aisle, a GPU cloud provider that donated compute for SemiAnalysis benchmarks, questioned the Fluidstack rating.",
+      "passage": "The Information also reported that he holds stakes in about 20 startups and set up an investment vehicle for Fluidstack, a neocloud (a newer company renting out AI chips), which his ClusterMAX ranking rated \"Gold\" as of April 2026. His rebuttal there: Prime Intellect, another company he invested in, got only \"Bronze,\" and its co-founder, Vincent Weisser, told The Information he believes Patel acts independently of his financial interests. Hot Aisle, another GPU cloud provider and a past compute donor to SemiAnalysis benchmarks, questioned the Fluidstack rating publicly",
+      "class": "disputed",
+      "source_ids": [
+        "S10",
+        "S23",
+        "S14"
+      ],
+      "inference": "Both sides of the ratings question.",
+      "alternative": "Weisser's remark is a back-translated paraphrase and is not quoted; Weisser is not independent (Patel invested in his company). The Hot Aisle post itself was not opened; Wallstreetcn's summary implies kickbacks, which the article does not repeat. S14 thanks Hot Aisle for donated compute.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck ClusterMAX ratings and any public responses before release."
+    },
+    {
+      "id": "C89",
+      "claim": "Zhou's April 2026 suit alleges he was fired for refusing to put material non-public information from Fluidstack, tied to a Patel-led investment vehicle, into client models; Wallstreetcn reports SemiAnalysis explicitly denied all his allegations and that Patel posted the company would vigorously defend its position; no ruling or settlement was found as of October 17, 2026.",
+      "passage": "Zhou's suit, filed in April, alleges he was fired for refusing to put material non-public information (confidential data that investors are not supposed to trade on) from Fluidstack, tied to an investment vehicle Patel led, into SemiAnalysis client models. SemiAnalysis has denied all of his allegations, Wallstreetcn reported, and Patel posted that the company would vigorously defend its position. No ruling or settlement had been reported as of October 17, 2026.",
+      "class": "disputed",
+      "source_ids": [
+        "S23",
+        "S08",
+        "S10"
+      ],
+      "inference": "Neutral account of an unproven allegation.",
+      "alternative": "Complaints and docket not opened; details from translated summaries. \"Vigorously defend\" is paraphrased without quotation marks because it reaches the record through a translated summary. The Information (via S10) separately reported plans for a third-party data-handling report; not used in the final article for length.",
+      "durability": "unresolved",
+      "review_trigger": "Check the San Francisco Superior Court docket for both cases before every release; update or remove on settlement, dismissal or ruling."
+    },
+    {
+      "id": "C90",
+      "claim": "The personality read is not evidence about the lawsuit.",
+      "passage": "The type read says nothing about who is right in that case, and it should not be used to.",
+      "class": "interpretation",
+      "source_ids": [
+        "S23"
+      ],
+      "inference": "Guards against character inference from an unproven allegation.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C91",
+      "claim": "Most evidence is his own retelling on friendly podcasts (WisdomTree is a business partner; Dwarkesh shares his office).",
+      "passage": "Almost everything above is Patel's own retelling, given on friendly podcasts, often to hosts who are also his business partners, friends or office neighbors.",
+      "class": "interpretation",
+      "source_ids": [
+        "S04",
+        "S01",
+        "S07",
+        "S08"
+      ],
+      "inference": "Limits of the evidence base.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C92",
+      "claim": "He said that \"looking back, I can spin a narrative\" that his path was obvious.",
+      "passage": "He added that \"looking back, I can spin a narrative\" in which it was all inevitable",
+      "class": "self_report",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "His own caution about retrospective storytelling.",
+      "alternative": "Machine-generated transcript; short, clear phrase.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C94",
+      "claim": "As of October 2026, outside voices on record are critics of his work rather than people who have worked with him; the one rated company quoted is a Patel portfolio company.",
+      "passage": "As of October 2026, the outside voices on record are critics of his work, not people who have worked with him, and the one rated company quoted is a Patel investment.",
+      "class": "interpretation",
+      "source_ids": [
+        "S08",
+        "S23",
+        "S10",
+        "S28"
+      ],
+      "inference": "Names the gap in the witness record.",
+      "alternative": "Absence of found testimony, not proof none exists; listed in research_tasks.",
+      "durability": "time_sensitive",
+      "review_trigger": "At each refresh, check both San Francisco dockets, search for former-employee testimony and for responses from companies rated in ClusterMAX, and update this sentence."
+    },
+    {
+      "id": "C97",
+      "claim": "The leading read is Type 7, held at medium confidence, with Type 8 as the strongest alternative.",
+      "passage": "Dylan Patel's personality type is most likely Enneagram Type 7, the Enthusiast, held at medium confidence.",
+      "class": "interpretation",
+      "source_ids": [
+        "S04",
+        "S07",
+        "S01",
+        "S08",
+        "S27"
+      ],
+      "inference": "The article's type claim; see type_hypothesis.",
+      "alternative": "Type 8 explains the online fights and control better.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C98",
+      "claim": "Huang named Patel in the GTC keynote on March 16, 2026.",
+      "passage": "Jensen Huang cited him by name in his GTC keynote on March 16, 2026.",
+      "class": "observed",
+      "source_ids": [
+        "S27",
+        "S12"
+      ],
+      "inference": "Metadata support for the 'who is' FAQ.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C100",
+      "claim": "His semiconductor knowledge came from forums, reading earnings reports since 18 and engineering textbooks, not a semiconductor degree.",
+      "passage": "His chip expertise is self-taught, from forums, earnings reports and textbooks.",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S10"
+      ],
+      "inference": "Answers the education/background search.",
+      "alternative": "Self-description; The Information (via S10) also reports no formal semiconductor degree.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C101",
+      "claim": "Patel says the InferenceX results showed Blackwell about 30x faster than Hopper in one test, publish automatically to open-source GitHub, and that Nvidia engineers helped and already knew before his email.",
+      "passage": "His benchmark had shown Blackwell about 30 times faster than Nvidia's previous Hopper chips in one test, and the results \"automatically publish onto the open source GitHub,\" he said. \"Nvidia people helped and they knew.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "The email delivered already-public good news to a collaborator; it cost him little, so it is not a discriminator.",
+      "alternative": "Both Whisper models agree on the quoted wording (12:20-12:40 region). \"It was 30x\" at the end of the email is rendered \"It was third\" by small.en, so the article does not quote it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C102",
+      "claim": "Patel says many others guessed about 3x, so his 15-20x guess was among the bullish ones.",
+      "passage": "Others had guessed about three times, he said, so his guess had been a bullish one.",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Shows the admission was from a relatively bullish position.",
+      "alternative": "Paraphrased because the transcript has a disfluency (\"we were we were quite bullish\"); both models agree on the words.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C103",
+      "claim": "Huang's on-stage \"50 times\" matches the published SemiAnalysis GB300 NVL72 chart Substrate describes, not the 30x in the email Patel describes, so the email-to-keynote link rests on Patel's account.",
+      "passage": "The 50 times Huang read on stage matches a published SemiAnalysis chart Substrate describes, not the 30 in the email, so the line from email to keynote is Patel's telling.",
+      "class": "interpretation",
+      "source_ids": [
+        "S27",
+        "S08",
+        "S04"
+      ],
+      "inference": "Keeps the causal story attributed.",
+      "alternative": "Huang may also have seen the email; Patel says he heard from customers that Huang used it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C104",
+      "claim": "Patel calls the GTC moment surreal and says Huang spent about five minutes on the SemiAnalysis slide.",
+      "passage": "He calls the moment surreal and notes that Huang spent about five minutes on the SemiAnalysis slide.",
+      "class": "self_report",
+      "source_ids": [
+        "S04",
+        "S05"
+      ],
+      "inference": "Status scorekeeping, weighed in the Type 3 paragraph.",
+      "alternative": "\"Five minutes\" is in the large-v3-turbo transcription and the TechFlow rendering (S05), which also attributes it to Patel. A separate \"longer than anyone else\" line is speaker-ambiguous (TechFlow labels it host) and is not used.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C105",
+      "claim": "At GTC 2026 Huang said he had claimed a year earlier that Grace Blackwell NVL72 was 35 times perf per watt, that nobody believed him, and that SemiAnalysis then came out with Patel's quote.",
+      "passage": "A year earlier, Huang said, he had claimed that Nvidia's Grace Blackwell systems delivered 35 times the performance per watt of the chips before them. \"Nobody believed me. And then SemiAnalysis came out, and Dylan Patel had a quote.\"",
+      "class": "observed",
+      "source_ids": [
+        "S27",
+        "S12"
+      ],
+      "inference": "Gives the reader the metric and whose number each figure is.",
+      "alternative": "Machine transcriptions; the transcriber renders \"semi-analysis\" and inserts commas. Huang frames the comparison against Hopper H200.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C107",
+      "claim": "Substrate reports he shed his burner account for u/dylan522p at 16; the handle is still a moderator of r/hardware and matches his X handle.",
+      "passage": "At 16, Substrate reports, he traded his burner account for u/dylan522p, a handle that still moderates r/hardware and the name he uses on X.",
+      "class": "third_party",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "Not all early posting was anonymous; weakens anonymity as type evidence.",
+      "alternative": "Moderator list not checked directly (Reddit blocked automated access).",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck r/hardware moderator list and X handle at each refresh."
+    },
+    {
+      "id": "C108",
+      "claim": "Substrate describes him recalling the HTC One M7 like \"a first love affair\" and says he stayed on Android for 14 years out of \"characteristic stubbornness.\"",
+      "passage": "Substrate's Cat Tang describes him recalling that phone like \"a first love affair,\" and he stayed on Android for the next 14 years out of what she calls \"characteristic stubbornness.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "A profiler's character word that cuts against Seven restlessness and toward Eight/Six persistence.",
+      "alternative": "One reporter's characterization.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C109",
+      "claim": "He qualified the pivoting hobby himself: \"It bounced all around, but generally it was in computing hardware.\"",
+      "passage": "\"It bounced all around, but generally it was in computing hardware.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Breadth within one lifelong field.",
+      "alternative": "Retrospective.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C110",
+      "claim": "He told WisdomTree, about adding sectors to the firm, \"I've always been interested in everything, but now I've been able to add people that are experts.\"",
+      "passage": "\"I've always been interested in everything, but now I've been able to add people that are experts.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Self-described breadth of interest, the Seven-relevant part of the obsession.",
+      "alternative": "Said about business expansion, partly salesmanship. Agrees across small.en and large-v3-turbo (07:40-08:30).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C112",
+      "claim": "He says he quiet-quit (kept the job) while starting to post more, and already had some small consulting arrangements.",
+      "passage": "Quiet quitting meant keeping the paycheck while the blog got going, and he already had some small consulting work.",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "The 2020 leap was hedged at first.",
+      "alternative": "No source dates when his salary stopped; Substrate simply says he quit.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C113",
+      "claim": "On May 4, 2023 SemiAnalysis published the leaked internal Google memo \"We Have No Moat, And Neither Does OpenAI,\" after verifying its authenticity.",
+      "passage": "In May 2023 SemiAnalysis published \"We Have No Moat,\" a leaked internal Google memo on open-source AI, after verifying it",
+      "class": "observed",
+      "source_ids": [
+        "S19",
+        "S10"
+      ],
+      "inference": "A deliberate scoop against a giant; qualifies the impulse-and-opening story.",
+      "alternative": "Co-bylined with Afzal Ahmad.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C114",
+      "claim": "Substrate reports that in 2023 he reasoned that tracking TSMC CoWoS output could predict Nvidia revenue, hired on that confidence, and with Myron Xie published CoWoS/HBM research in July that grew into the Accelerator & HBM Model, one of the firm's most sought-after products.",
+      "passage": "That year, Tang reports, he bet that tracking TSMC's output of CoWoS, a packaging step that bottlenecks Nvidia's GPUs, would predict Nvidia's revenue, and he hired on it. The July 2023 work grew into one of the firm's most sought-after products.",
+      "class": "third_party",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "Sustained, methodical modeling; the reputation was not built on impulse alone.",
+      "alternative": "Substrate dates it relative to Nvidia's fiscal 2024 first-quarter call (May 2023); the year is inferred from that.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C116",
+      "claim": "Before offering the saving grace he said nothing prevents concentration \"Unless AI progress slows down, unless governments regulate the fuck out of it,\" that otherwise \"we pray that that one company gets everything right,\" and \"it's kind of hard to find a framework in which AI doesn't lead to super concentration.\"",
+      "passage": "Then he stayed in the bleak case. Nothing stops the concentration, he said, \"Unless AI progress slows down, unless governments regulate the fuck out of it.\" Otherwise \"we pray that that one company gets everything right.\" He summed it up: \"it's kind of hard to find a framework in which AI doesn't lead to super concentration.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "He names checks on power and sits with the bleak conclusion before any upside.",
+      "alternative": "None material.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C118",
+      "claim": "SemiAnalysis's August 28, 2023 \"GPU-Poor\" post said Google would smash GPT-4 pre-training FLOPS by 5x before year's end, called most rivals GPU-poor, and called startups and open-source researchers \"generally ignorant\" of what small open models need.",
+      "passage": "In August 2023 SemiAnalysis's \"GPU-Poor\" post argued that Google would train with five times GPT-4's computing power by year's end, labeled most rivals \"GPU-poor\" and called startups and open-source researchers \"generally ignorant\" of what small models need",
+      "class": "observed",
+      "source_ids": [
+        "S18"
+      ],
+      "inference": "The Altman fight began with his firm's broadside: some fights he starts.",
+      "alternative": "Co-authored with Daniel Nishball.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C119",
+      "claim": "Substrate says he closed the interview \"with pride\": \"My hubris is that they know that our numbers are better than theirs. And we often are.\"",
+      "passage": "He closed his Substrate interview, Tang writes, \"with pride\": \"My hubris is that they know that our numbers are better than theirs. And we often are.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "Status and dominance language; Eight and Three evidence.",
+      "alternative": "Partly salesmanship about data quality.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C120",
+      "claim": "Part of the Eight evidence is also the business model (sharp headlines, public Slack channels feeding models, influence as a client pitch); what remains is the reply habit, the public naming and the hubris.",
+      "passage": "Some of it is also the business. Sharp headlines sell subscriptions, public Slack channels feed the models, and \"We influence opinion\" is a pitch to the clients who pay for that influence.",
+      "class": "interpretation",
+      "source_ids": [
+        "S08",
+        "S04"
+      ],
+      "inference": "Applies the professional-incentive comparison the standard requires.",
+      "alternative": "Business and temperament can coincide; subtraction is a judgment.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C121",
+      "claim": "The Information reported he was unhappy with his bonus; an Eight leaves underpaid work as readily as a Seven, so the finance exit itself does not discriminate.",
+      "passage": "Several things that look like Seven evidence fit an Eight as well. The Information reported that he was unhappy with his bonus, and an Eight walks away from being underpaid as readily as a Seven.",
+      "class": "interpretation",
+      "source_ids": [
+        "S10",
+        "S04"
+      ],
+      "inference": "Removes the exit from the discriminator list.",
+      "alternative": "Translated adaptation only.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C122",
+      "claim": "The Blackwell email is weak discriminating evidence because an Eight with winning data loses nothing by admitting a miss.",
+      "passage": "The Blackwell email is weaker evidence than it looks. An Eight with winning data loses nothing by saying \"I was wrong.\"",
+      "class": "interpretation",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Demotes the hook episode from discriminator.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C123",
+      "claim": "The record's fights carry a grin: the Altman reply was a meme with a sourcing correction; the house-party verdict was delivered grinning.",
+      "passage": "What the record does show is a grin in the fights it captures. The Altman reply was a meme with a sourcing correction attached.",
+      "class": "interpretation",
+      "source_ids": [
+        "S16",
+        "S17",
+        "S08"
+      ],
+      "inference": "Limited to the captured examples; no reply sample was coded.",
+      "alternative": "Eights also enjoy combat.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C124",
+      "claim": "Type 6 has sourced support (distrust of all power centers, \"80,000 worlds\", praise of paranoia: \"Only the paranoid survive. Paranoid Western companies do well\" in 2024 and \"Jensen's very paranoid\" which \"makes him like an amazing founder\" in 2026) but the paranoia quotes cite Andy Grove and a founder trait, and his 2020-2024 choices reduced security.",
+      "passage": "praises paranoia: \"Only the paranoid survive. Paranoid Western companies do well\" (Dwarkesh, 2024), and \"Jensen's very paranoid,\" which \"makes him like an amazing founder\" (Latent Space, 2026).",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S07"
+      ],
+      "inference": "Tests the head-triad rival; discriminator is movement away from security.",
+      "alternative": "Counterphobic Six also confronts power; the Latent Space transcript is machine-generated (\"Um,\" removed between quoted fragments).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C125",
+      "claim": "A Six looks for safety in trusted people and preparation; Patel hedged once by quiet quitting, then gave up his home for four years on the road.",
+      "passage": "A Six looks for safety in trusted people and preparation; Patel hedged once, by quiet quitting, then gave up his home for four years on the road.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S04",
+        "S08"
+      ],
+      "inference": "Six discriminator.",
+      "alternative": "Conference-hopping could also be preparation and source-building, and his first two hires were people he knew from Discord for years (S04), which a Six reading could cite as trusted people.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C126",
+      "claim": "A Three defending an image would heed the image advice of his own marketing staff; Patel keeps replying.",
+      "passage": "But his marketing staff tell him to stop replying, and he keeps replying. A Three defending an image would take the advice of the people paid to protect it.",
+      "class": "interpretation",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Three discriminator.",
+      "alternative": "Image concern can be selective.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C127",
+      "claim": "Substrate presents his answer as publishing negatively about paying customers.",
+      "passage": "His answer, as Substrate presents it, starts with publishing against paying customers.",
+      "class": "third_party",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "Attributes his rebuttal.",
+      "alternative": "His own claim; no audit of coverage.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C129",
+      "claim": "In December 2025 Patel claimed on X that SemiAnalysis research had called the Abilene data-center delay and Oracle's 11.5% one-day drop; outside accounts pushed back, and Axiomatic Capital noted the bearish Oracle update went only to institutional subscribers after a public bullish report.",
+      "passage": "In December 2025, after Patel claimed on X that SemiAnalysis had called a data-center delay and Oracle's 11.5% one-day stock drop, outside accounts pushed back, Wallstreetcn reported; Axiomatic Capital noted that the firm's bearish Oracle update went only to institutional subscribers after a public bullish report",
+      "class": "third_party",
+      "source_ids": [
+        "S28"
+      ],
+      "inference": "Adverse outside testimony on his work, and a public victory lap relevant to the Three alternative and the reply test.",
+      "alternative": "Translated summary; original posts and his replies not opened.",
+      "durability": "time_sensitive",
+      "review_trigger": "Open the original X posts and code his replies in the reply sample."
+    },
+    {
+      "id": "C130",
+      "claim": "What Seven leaves unexplained splits into control (public naming, \"number 1\", hubris, reply habit) and guardedness (anonymous blog, explained by caution; archive request, unexplained).",
+      "passage": "What the Seven reading leaves unexplained falls into two strands. One is control: the public naming over Slack, \"number 1,\" the hubris and the reply habit. The other is guardedness: the anonymous blog, which professional caution explains, and the request to the Internet Archive, which he has not explained.",
+      "class": "interpretation",
+      "source_ids": [
+        "S08",
+        "S25",
+        "S04",
+        "S01"
+      ],
+      "inference": "Honest residue of the type argument.",
+      "alternative": "An Eight reading explains the control strand directly.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C131",
+      "claim": "SemiAnalysis's first-filed suit, including a defamation claim, is the one sustained dispute on record and the kind of escalation the Eight reading predicts, but company litigation is weak evidence of temperament; the article takes no position on merits.",
+      "passage": "SemiAnalysis filed first against its former employee, including a defamation claim, the kind of escalation the Eight reading predicts. But a company lawsuit, shaped by lawyers and about alleged trade secrets as much as words, is weak evidence of temperament, and this analysis takes no position on its merits.",
+      "class": "interpretation",
+      "source_ids": [
+        "S23"
+      ],
+      "inference": "Applies the article's own 7/8 test to the litigation without judging the case.",
+      "alternative": "One could count the filing more heavily toward Eight.",
+      "durability": "unresolved",
+      "review_trigger": "Check both San Francisco Superior Court dockets before every release; revise on ruling, settlement or dismissal."
+    },
+    {
+      "id": "C132",
+      "claim": "He told WisdomTree, \"I've always been a poster. I've always posted my opinion. I've always replied.\"; most of the pre-2020 anonymous blog and videos are gone at his request, unexplained (C140).",
+      "passage": "\"I've always been a poster,\" he told WisdomTree. \"I've always posted my opinion. I've always replied.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S04",
+        "S01"
+      ],
+      "inference": "Closing contradiction the type read does not tidy.",
+      "alternative": "Both Whisper models agree on the words; punctuation differs.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C133",
+      "claim": "Head triad support: he meets uncertainty by thinking toward the next opening (planless \"next step\" path; hunting for a way out of a bleak forecast).",
+      "passage": "Head triad, as opposed to the gut or the heart, because he meets uncertainty by thinking his way toward the next opening.",
+      "class": "interpretation",
+      "source_ids": [
+        "S02",
+        "S07"
+      ],
+      "inference": "Grounds the triad in behavior, not occupation.",
+      "alternative": "Eight is a gut type; the triad call is itself contested.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C134",
+      "claim": "Seven fear of being boxed in, dated example: in 2020 he quiet-quit a finance job and gave up his apartment for the road (national parks by truck and tent, then Asia and South America).",
+      "passage": "His clearest dated example came in 2020, when he quiet-quit a well-paid finance job and gave up his apartment for the road.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S04",
+        "S08",
+        "S10"
+      ],
+      "inference": "Ties the Seven fear to a dated choice.",
+      "alternative": "\"Well-paid\" rests on the $100,000 bonus reported via S10 and his \"you make money\"; hedged by quiet quitting. The type section no longer leans on \"four years\" because the later years have practical explanations (C138).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C135",
+      "claim": "Description metadata: he turned a 2020 blog into SemiAnalysis, which Huang quoted at GTC, and says he cannot stop answering critics.",
+      "passage": "Dylan Patel turned a 2020 blog into SemiAnalysis, the chip research firm Jensen Huang quoted at GTC. He says he can't stop answering critics.",
+      "class": "observed",
+      "source_ids": [
+        "S21",
+        "S27",
+        "S04"
+      ],
+      "inference": "Search snippet; no causal or superlative claim.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C136",
+      "claim": "Title metadata: a self-described poster whom Huang quoted on stage.",
+      "passage": "Dylan Patel: The Poster Jensen Huang Quoted on Stage",
+      "class": "observed",
+      "source_ids": [
+        "S27",
+        "S04"
+      ],
+      "inference": "Dated, factual title.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C137",
+      "claim": "Why-not-8 FAQ: Eight evidence (burning desire, 2023 Altman meme, occasional Slack naming under a public-channel rule, a firm built with no outside investors) versus the 2020 move onto the road before conferences gave a business reason to travel, plus the \"next step\" path; medium confidence.",
+      "passage": "Type 7 leads narrowly, on this analysis's reading of a choice nobody forced on him: in 2020 he gave up his apartment for the road, two years before conferences gave him a business reason to travel.",
+      "class": "interpretation",
+      "source_ids": [
+        "S04",
+        "S15",
+        "S16",
+        "S08",
+        "S01",
+        "S02",
+        "S25"
+      ],
+      "inference": "FAQ mirrors the repaired body discriminator (C41, C139) and labels it as the analysis's reading.",
+      "alternative": "Type 8 explains the reply habit, the naming and the solely owned base better.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C138",
+      "claim": "He built SemiAnalysis during the no-home years: paid posts from late 2021 (S01, \"Towards the end of 2021, I made a paid post\"; S04 \"over the coming year... started charging for it\"), hiring from mid-2022 (S01 \"I started hiring people in mid-2022\"; S04 \"as that sub-stack grew and grew in 2022, I started hiring people\"), seven figures in revenue by 2023 (S08), and a firm he says has \"no external investors\" (S25). From 2022 he went to about 40 conferences a year (S01).",
+      "passage": "He was building a base throughout: paying subscribers from late 2021, hires from mid-2022 ([Dwarkesh Podcast, October 2, 2024](https://www.dwarkesh.com/p/dylan-jon)), seven-figure revenue by 2023, per Substrate, and, he says, \"no external investors.\" That is an Eight's kind of base. From 2022, about 40 conferences a year also gave him a practical reason to skip a lease.",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S04",
+        "S08",
+        "S25"
+      ],
+      "inference": "Concession to the Eight reading: a solely owned, founder-led firm built during the nomadic years is the base an Eight would point to, and the conference load is a practical reason to have no fixed address.",
+      "alternative": "\"Paying subscribers from late 2021\" paraphrases a paid post that drew 40 subscriptions overnight; S04 says he started charging \"over the coming year\" after 2020. Headcount: 14 in October 2024 (S01), 60 in February 2026 (S02), about 90 in July 2026 (S04).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C139",
+      "claim": "He gave up his apartment in 2020 (S01), two years before the conference circuit and first hires (both 2022, S01). In October 2024 he said: \"I've been a digital nomad since 2020. I've basically stopped and I moved to SF now, kind of not really,\" then \"I don't live in SF, come on… But I basically do now,\" while saying he still goes to about 40 conferences a year. Jon Y and Dwarkesh then joked about the California government and tax collectors, and Patel answered, \"I am in San Francisco sub four months a year contiguously, exactly 100 days or whatever it is, 179 days.\"",
+      "passage": "He gave up his apartment in 2020, two years before the conferences and the first hires. And the circuit did not require it, judging by what came next: by October 2024 he had \"basically\" moved to San Francisco while still going to about 40 conferences a year. (\"I've been a digital nomad since 2020. I've basically stopped and I moved to SF now, kind of not really,\" he told Dwarkesh, a hedge the others turned into a joke about California taxes.)",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Dates both ends of the itinerant period from his own words: it began before any business need for travel and he later combined a near-settled San Francisco life with the same conference load. \"The circuit did not require it\" is the article's inference from that sequence and is labeled (\"judging by what came next\").",
+      "alternative": "The \"kind of not really\" hedge sits inside a tax-residency joke (the 179-day remark), so it may reflect California residency rules rather than option-keeping; the article says the others turned it into a tax joke and does not count the hedge as Seven evidence. The 2020-2021 travel overlapped pandemic conference cancellations. Publisher's edited transcript, re-fetched 2026-10-17.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C140",
+      "claim": "Closing: most of his pre-real-name blog and videos are gone, scrubbed at his request, including from the Internet Archive (S01: \"Most of that stuff is scrubbed off the internet, including Internet Archive, because I asked them to remove it\"); no opened interview gives his reason.",
+      "passage": "The exception is his own doing: most of the blog and videos he made before he posted under his name are gone, scrubbed at his request, including from the Internet Archive. In every interview opened for this analysis, the man who always replies has left that one unanswered.",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S04"
+      ],
+      "inference": "The unresolved guardedness strand the type read does not tidy; the paraphrase keeps S01's \"most\" and \"scrubbed off the internet, including Internet Archive\".",
+      "alternative": "Professional caution before charging clients, or image management (Three). \"Before he posted under his name\" refers to the anonymous blog era; Substrate notes the first-name handle u/dylan522p from 16.",
+      "durability": "time_sensitive",
+      "review_trigger": "Search for his own explanation of the archive removal at each refresh; revise the closing if he gives one."
+    }
+  ],
+  "type_hypothesis": {
+    "type": 7,
+    "confidence": "medium",
+    "for_claim_ids": [
+      "C09",
+      "C12",
+      "C28",
+      "C29",
+      "C30",
+      "C41",
+      "C64",
+      "C110",
+      "C123",
+      "C133",
+      "C134",
+      "C139"
+    ],
+    "against": "Much of his public behavior reads as Type 8. He says he has a \"burning desire to respond to anyone on the internet when they try and criticize me\" and keeps replying against his marketing staff (C24, C49); his firm's \"GPU-Poor\" post opened a fight and he answered Sam Altman with a humiliating meme (C118, C19); he relished Arm China's cease-and-desist (C14); as a teen he cast himself as a \"warrior\" against Samsung (C07) and stayed on Android 14 years out of \"characteristic stubbornness\" (C108); he publicly names staff who exceed a private-Slack quota (C25); he talks about influence, \"number 1\" and \"hubris\" (C26, C76, C119); SemiAnalysis sued a former employee first, including for defamation (C39, C131). The draft's lead Seven exhibits weakened on reopening: the Blackwell email was low-cost good news to a collaborator (C101-C103, C122), the Lisa Su post reads as credit and influence (C78), the centralization exchange ends in accepted pessimism, not a joke (C70, C116), and the finance exit has a pay motive (C121). The no-home years also weaken on dating: he built a solely owned, founder-led firm with staff and seven-figure revenue during them, and from 2022 the conference circuit gave him a practical reason to travel (C138). Six (distrust of all power, praise of paranoia, C31, C124) and Three (overpromising, scorekeeping, mother/IT, the December 2025 Oracle victory lap, C83, C104, C129) have real support. Most evidence is his own retrospective telling on friendly podcasts; every named witness who knows him is an employee, friend or partner; several details reach the record only through a translated adaptation of a paywalled article.",
+    "alternative_type": 8,
+    "alternative_case": "Type 8 fits a visible pattern: he takes on the powerful in public (Google's leaked memo, AMD, Nvidia, Altman, TechInsights, Arm China), starts some fights and cannot stop answering critics, names staff publicly, keeps score (\"number 1\", \"hubris\"), prizes independence and built a base he controls during the very years he had no home (no external investors, founder led; paid posts from late 2021, hires from mid-2022, seven figures by 2023: C138) and distrusts concentrated power. Leaving finance fits an Eight refusing to be underpaid, and the first-filed lawsuit is the kind of escalation an Eight would pursue, though company litigation is weak temperament evidence. Part of this is the business model (sharp headlines sell, public Slack feeds models, influence is the pitch). Six was tested (distrust, paranoia praise, worst-case framing) and set aside because the paranoia quotes cite Andy Grove and a founder trait and his 2020-2024 choices moved away from security. Three was tested (overpromising, stage-time scorekeeping, mother/IT, Oracle victory lap; the scrub could be image management) and set aside because he keeps replying against his own marketing staff's image advice. Five was set aside because he lives at 40 conferences a year and spends what he knows in public.",
+    "discriminator": "What he chooses when nothing is pushing on him, read as motive by this analysis rather than stated by him. An Eight's core move is to secure control and a defended base; a Seven's is to keep options open and avoid being pinned. Pay explains leaving finance for either type, and he built a solely owned, founder-led base during the no-home years (paid posts from late 2021, hires from mid-2022, seven figures by 2023, no external investors: C138), which is the Eight's kind of base; from 2022 about 40 conferences a year also gave him a practical reason to travel. What still tips the read is timing (C139): he gave up his apartment in 2020, two years before the conferences and the first hires, and by October 2024 he had \"basically\" settled in San Francisco while keeping the same conference load, so the circuit did not require the nomadism. The rest of the Seven case is self-reported: the planless \"next step\" path (C29), attention jumping to the newest corner of one field (C28, C109, C110), a reach for one positive thing after arguing himself into a grim conclusion, then calling it cope (C30, C71), and a grin in the fights the record captures (C123). The email, the Lisa Su post and the finance exit are treated as consistent with both types. Confidence stays medium because the deciding evidence is retrospective and self-reported, the 2020-2021 start overlapped a pandemic, the 2024 hedge sat inside a tax-residency joke, and the Eight reading explains the reply habit, the public naming, the hubris and the solely owned firm better; the open test is a coded reply sample that also captures fights he starts and what each reply is for (C82).",
+    "unexplained": "Seven does not neatly explain the control strand: the public naming over Slack (C25), \"number 1\" and \"hubris\" (C76, C119) and a reply habit he says he cannot break (C24). Nor the guardedness strand: the request that the Internet Archive remove his early anonymous writing, which he has not explained (C11). The record does not establish when he took a San Francisco lease or office, or how far his 2024 residency hedge was about taxes. The record lacks his replies to critics as a coded sample (including the December 2025 Oracle exchange, C129), testimony from former staff, rivals or rated companies beyond the lawsuit and ClusterMAX critics, his own words on the lawsuits beyond a reported \"vigorously defend\" statement, and The Information's original English wording (principles, mother, bonus, education)."
+  },
+  "profile_format": "standard"
+}

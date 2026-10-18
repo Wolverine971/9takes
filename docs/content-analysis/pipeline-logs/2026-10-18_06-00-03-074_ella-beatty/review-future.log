@@ -1,0 +1,14 @@
+I've written the future-role review to `docs/content-analysis/pipeline-logs/2026-10-18_06-00-03-074_ella-beatty/review-future.json`. It passes the review schema check, its two hashes match the request, and every passage it quotes appears word for word in the draft. Nothing else in the repo was touched and nothing was published. The only other file is a throwaway script in `/tmp`.
+
+**Verdict:** the main argument holds up over five years. If you take away Monster, the latest event, the pattern still stands on evidence from 2024 and 2025: she names fear, prepares early, leans on a small circle, and credits luck. The page also meets the bar for an open case: what it says is known would stay true even if a later run settles on Type 9, 2 or 3. I confirmed she qualifies for the open-case format. She's an adult, her first professional role was in January 2024, and research opened 24 sources and tested five types.
+
+**Findings (2 major, 5 minor):**
+- **Major: the article will contain a false fact in about three months.** "Her public record is under three years old" stops being true in January 2027. It appears in the type answer, the type FAQ and the intro.
+- **Major: "Sarah Paulson, now one of her closest friends"** describes the relationship in the article's own voice, with no date. The research notes say the friendship should only be described in the two women's own words. The evidence record also treats the relationship as stable, so nothing would flag it for a later check.
+- **Minor: the Golden Globes date.** The cited CBS page says nominations are on "Monday, Dec. 8". That matches 2025, not 2026, so the page only supports the January 10, 2027 ceremony. The next review (2026-12-15) is timed against this date.
+- **Minor: "at 24 in a new city" is wrong.** She had lived in New York since starting Juilliard in 2018.
+- **Minor: the metadata is pinned to 2026.** "Newcomer" in the persona title will go out of date, and the title and age FAQ have no review triggers.
+- **Minor: no end date for the open case.** If no deciding signal ever turns up, nothing says when the page must graduate to a normal profile or be held. The research also disagrees on whether Monster or Act One was her first lead.
+- **Minor: one weak deciding signal.** "Returns to Murphy's company or Paulson" is the normal career move for any actor Ryan Murphy re-hires, so it can't tell the types apart.
+
+I marked five passages to keep, including the Carlyle opening, the press-conference comparison of how each actor prepared, and the closing. The similarity check flagged "whose core emotion is fear" and a few generic phrases. That's standard type vocabulary and the arguments differ, so I didn't report it as reused writing.

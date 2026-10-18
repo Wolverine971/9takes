@@ -1,0 +1,20 @@
+{
+  "schema_version": 3,
+  "subject": "dylan-patel",
+  "mode": "create",
+  "role": "fan",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_review_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-17_06-00-03-505_dylan-patel/draft.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-17_06-00-03-505_dylan-patel/evidence-draft.json",
+    "similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-17_06-00-03-505_dylan-patel/similarity.json"
+  },
+  "outputs": {
+    "review-fan.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-17_06-00-03-505_dylan-patel/review-fan.json"
+  },
+  "content_sha256": "4bf49e888159a95d656ccdc4c534450cc28fe603b25dbbdb99f91a5351584eef",
+  "evidence_sha256": "eecf7daaf48a1c96feab2d847da966a30e0c7695ddf4d36b45e93497f167dd8b"
+}

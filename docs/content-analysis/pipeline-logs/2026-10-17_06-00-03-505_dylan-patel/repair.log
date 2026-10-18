@@ -1,0 +1,30 @@
+I've finished the repair stage and written the three outputs to the run folder: `repair.md`, `evidence-repair.json` and `resolution-repair.json`. I didn't change any inputs or the live draft, and nothing was published. Schema validation and the draft checks pass. All 50 review findings and all 18 protected passages are accounted for.
+
+**The main fix: why he reads as a Seven, not an Eight**
+The verifier was right that the old sentence stated Patel's motive as fact and left out that he was building SemiAnalysis during the no-home years. I re-downloaded his October 2024 Dwarkesh transcript, and it settles the dates:
+- His 40-conferences-a-year habit started in 2022, and so did his first hires. He gave up his apartment in 2020.
+- By October 2024 he had "basically" moved to San Francisco while still going to about 40 conferences a year: "I've been a digital nomad since 2020. I've basically stopped and I moved to SF now, kind of not really."
+
+The rewritten section now:
+- **Gives the Eight reading its due:** paying subscribers from late 2021, hires from 2022, seven-figure revenue by 2023, and no outside investors. The page calls that "an Eight's kind of base."
+- **Weighs the practical reasons:** the conferences, plus the fact that his 2024 "kind of not really" was part of a joke about California taxes. That hedge is disclosed, not counted as Seven evidence.
+- **Rests the Seven lead on timing,** clearly labeled as the analysis's reading: he took to the road two years before any business reason to travel, and he later settled down without cutting back on conferences. The type summary and both type FAQs now say the same thing.
+
+Seven still leads narrowly at medium confidence, so I kept the type. That keeps us out of the "hold for a full jury" path the verifier warned about. If you'd rather read this new evidence as a toss-up, that's the call to veto.
+
+**The other fixes**
+- The two paywalled sources from The Information are no longer cited as support for anything.
+- The eight small wording fixes are all in:
+  - Patel's own jokes in the Dwarkesh exchange are acknowledged.
+  - The Lisa Su post is dated to the day after the report, and "harshest" is gone.
+  - "Chief analyst" is removed everywhere.
+  - Substrate's belt detail no longer implies its reporter was there.
+  - The ending says "most" of his early posts were removed.
+  - The house party is placed in "San Francisco's Mission District."
+  - "Huang's own claim" now names whose claim it was.
+  - The net-worth FAQ is dated, and Jensen Huang's name now links to his page.
+- I also fixed two small things the verifier didn't flag: the Minnesota years are placed "after college," not inside the travel years, and the Type 6 comparison no longer says he had "less security" during years the page now says he was building a firm.
+
+**Risks for the re-check**
+- **Length:** the page is now 4,262 words, up from 4,079 (the target is 2,000–3,500; the hard limit is 4,500). Nearly all of the added words are the rebuilt argument. I cut some elsewhere, but the writing score had already lost points for length.
+- **Unreviewed argument:** the new Seven case rests on a passage none of the six reviewers saw, so the verifier will be the first to judge it.

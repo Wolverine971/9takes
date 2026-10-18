@@ -1,0 +1,26 @@
+Error: Reached max turns (60)
+[runner] Turn limit reached; resuming session a36fbffb-8dac-48fd-a4fa-f9dd8bd9dc37 to write outputs
+I've written and validated the three edit-stage files for Ella Beatty. The leading read is unchanged: Type 6 at low confidence, Type 9 as the main rival, Types 2 and 3 still live. The page stays an open case and unpublished.
+
+The files are in `docs/content-analysis/pipeline-logs/2026-10-18_06-00-03-074_ella-beatty/`:
+- **`edit.md`**: the edited article, with no blockers from the repo's draft check.
+- **`evidence-edit.json`**: the evidence record (73 claims, 32 sources). It passes the repo's evidence validator, and every claim's passage appears word for word in the article.
+- **`resolution-edit.json`**: decisions on all 48 reviewer findings, plus 14 protected passages (9 kept, 5 changed with reasons). No earlier blockers carried over.
+
+**What changed for readers:**
+- **Fear is no longer called her main emotion.** The reviewers showed she uses luck and excitement words more often than fear words. The type answer now leads with something specific to her: she keeps describing pressure as responsibility (to her castmates, her family's legacy, the real Lizzie Borden) and meets it by showing up off book.
+- **The comparison with her co-stars is gone.** The draft said her heavier preparation at the press conference was "hers, not the job's," but the source contradicts that. Five reviewers flagged it, so I removed it, including one reviewer's protected passage.
+- **Two cut quotes are restored in full:** "You don't want to leave people in the lurch" and "so many people to please." That gives the Type 2 case real material instead of a token mention.
+- **Errors fixed:** the "new city" line, the "2024 nepo baby moment" date, the Interview conversation date, and the Golden Globes nominations date (now December 7, 2026).
+- **Three new sources opened at this stage:**
+  - Seat42f's review, which praised her performance.
+  - IndieWire's D+ review, which called her "perpetually blank" and named her parents in the same clause.
+  - The Golden Globes' own awards timetable, which gave the corrected nominations date.
+- **"What would settle it" is rebuilt.** It now has four signals tied to her record. The first is how she answers the critics, which she hadn't done on record as of October 18. Type 7 is now tested and set aside.
+
+**Open issues:**
+- **Length:** the body is 2,952 words, against an open-case target of roughly 2,500 (the hard limit is 4,500). I made heavy cuts to offset the additions the reviewers required, but the verifier may still flag it.
+- **Speaker attribution for the podcast quotes is machine-checked only.** Two reviewers' pitch analyses put the key quotes in her voice, but nobody has listened to it. That listen is logged as a research task.
+- **Every printed quotation matches the saved source texts.** The two quotes from Gayety's YouTube video rely on its auto-captions, as the draft's did.
+
+Nothing was published, and I didn't modify the draft, the reviews or any other input.

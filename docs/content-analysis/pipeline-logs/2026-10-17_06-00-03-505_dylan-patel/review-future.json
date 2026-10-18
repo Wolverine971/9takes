@@ -1,0 +1,93 @@
+{
+	"schema_version": 3,
+	"role": "future",
+	"content_sha256": "4bf49e888159a95d656ccdc4c534450cc28fe603b25dbbdb99f91a5351584eef",
+	"evidence_sha256": "eecf7daaf48a1c96feab2d847da966a30e0c7695ddf4d36b45e93497f167dd8b",
+	"risks": {
+		"sensitive_allegations": true,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": false
+	},
+	"findings": [
+		{
+			"id": "future-01",
+			"severity": "major",
+			"passage": "Patel, 30, is the founder, CEO and chief analyst of SemiAnalysis",
+			"problem": "The body gives an undated age. The evidence record expects it to change around May 2027 (S08 calls the May 22, 2020 launch post his 24th birthday present), so a page that targets the 'Dylan Patel age' keyword will show a wrong age within about seven months. The yearly age trigger sits on C03, which covers only the FAQ. C01, which owns this sentence, triggers on title, subscribers and office but not on age.",
+			"acceptance_test": "The body anchors the age with a birth year ('born in 1996') or a date ('30 as of October 2026'), and the review trigger for the sentence that carries it covers the age. No age appears anywhere in the body or metadata without a year or an as-of date."
+		},
+		{
+			"id": "future-02",
+			"severity": "major",
+			"passage": "His biggest moment came from telling Jensen Huang he was wrong.",
+			"problem": "The description, and the hook's 'the biggest public moment of his career', make a career superlative about a 30-year-old whose firm, fund and profile are growing quickly. C99 is marked stable with no trigger, but the claim is time-sensitive by nature and will probably be overtaken. The description is also ambiguous: 'telling Jensen Huang he was wrong' most naturally reads as Patel telling Huang that Huang was wrong, which is the opposite of the article's point, in the text most likely to appear in search results. The hook's 'the most important man in his industry' is a 2026 status claim of the same kind.",
+			"acceptance_test": "The description and hook replace the superlatives with dated framing (for example 'At Nvidia's March 2026 keynote...') or say 'as of 2026'. The description makes clear that Patel admitted his own miss. If any superlative remains, C99 is marked time_sensitive with an actionable review trigger."
+		},
+		{
+			"id": "future-03",
+			"severity": "major",
+			"passage": "It does describe the shape of the risk. A man who keeps adding rooms to the house has to keep checking which doors are supposed to stay shut, and Patel has not stopped adding rooms.",
+			"problem": "The section's interpretive payoff comes right after the unresolved Zhou litigation, so it reads as the type read explaining that risk. The triggers on C39 and C89 say to 'update or remove on settlement, dismissal or ruling', but nothing tracks this paragraph. If the suits are removed, the payoff is left without support. If they stay after a dismissal, a type-based insinuation rests on an allegation that failed. 'Patel has not stopped adding rooms' is an undated present-tense status claim. The undisputed conflict structure it could rest on is also undated in the prose: 'which his ClusterMAX ranking rated \"Gold\"' and Prime Intellect's 'Bronze' are periodic ratings that can be reissued (C87 and C88 have triggers, but the article gives no date).",
+			"acceptance_test": "The 'shape of the risk' sentence rests explicitly on dated, undisputed facts: about 20 startup stakes, the Fluidstack vehicle and its rating as reported in April 2026, and the July 2026 fund. It still reads correctly whether either suit is won, lost, settled or dismissed. 'has not stopped' carries a date. The paragraph is added to the claim inventory as time_sensitive/unresolved with the same docket trigger as C39 and C89, and the ClusterMAX ratings name the edition or report date."
+		},
+		{
+			"id": "future-04",
+			"severity": "major",
+			"passage": "According to Wallstreetcn's summary of the filings, SemiAnalysis filed first, on March 27, 2026, alleging misappropriation of trade secrets, breach of contract and defamation, and says Zhou was fired in January 2026 over alleged misconduct.",
+			"problem": "The article's own 7-vs-8 test says the Eight reading gains 'If he escalates and keeps pursuing the same people for weeks.' Its one months-long, first-filed dispute with a former employee, which includes a defamation count, goes unmentioned when the test is stated. Over five years the course of these suits is the most visible public record of sustained pursuit or of moving on. Yet the triggers on C39 and C89 only say to update or remove the case, and C82 (the test) is marked stable with no trigger. A reader who connects the two will think the article ignored its own disconfirmer. The test can also be partly run now. The research folder holds a Wallstreetcn item dated December 13, 2025 about an X backlash to his Oracle prediction claim; it is not in the evidence record, and I did not check his replies. The research tasks already call for a 2023–2026 reply sample.",
+			"acceptance_test": "The article says plainly whether company litigation counts as evidence for the 7-vs-8 test and why: either it is weak evidence of temperament because it is counsel-driven and protects trade secrets, or it counts toward Eight. The test sentence itself stays as written. C82 becomes time_sensitive with a dated review trigger that names the reply sample (including the December 2025 Oracle episode) and the course of both suits as inputs to the 7/8 read. Neither is simply 'update or remove'."
+		},
+		{
+			"id": "future-05",
+			"severity": "minor",
+			"passage": "Substrate reports that less than 5% of revenue now comes from Substack.",
+			"problem": "Several relative-time words in author prose will mislead in five years. These include: 'now comes from Substack'; 'He also invests now.'; 'Doug O'Laughlin of Fabricated Knowledge, now SemiAnalysis's president' (a title that can change, while C62 and C36 are stable with no trigger); 'Nvidia's next chip, Rubin' (the source says 'upcoming', and Rubin will be past by 2031); 'Nvidia's new Blackwell generation' (undated; the research tasks say to pin the year or drop it); and 'Substrate expects about 100 by year end' (Substrate means the end of 2026).",
+			"acceptance_test": "Author prose uses no 'now', 'new', 'next', 'year end' or similar relative-time words unless an absolute date anchors them ('as of September 2026', 'then-upcoming Rubin', 'by the end of 2026'). The Blackwell embargo episode is dated or removed, as the research task asks. O'Laughlin's title is dated, or C36/C62 get a review trigger for the title."
+		},
+		{
+			"id": "future-06",
+			"severity": "minor",
+			"passage": "publishes a newsletter it says reaches more than 318,000 subscribers",
+			"problem": "The 'What is SemiAnalysis?' FAQ is extracted standalone into FAQ markup and snippets, but its figures carry no dates. The 318,000 subscriber count and 'less than 5% of its revenue comes from Substack' have no as-of date. 'The Information reported a 2026 revenue projection above $100 million' will look stale once 2026 actuals are reported. The C50 and C52 triggers exist, but the reader sees no date.",
+			"acceptance_test": "Every figure in this FAQ answer carries a month and year or a dated source ('as of October 2026', 'Substrate reported in September 2026'). The revenue sentence reads correctly after 2026 (for example 'reported in April 2026 that the firm projected...')."
+		},
+		{
+			"id": "future-07",
+			"severity": "minor",
+			"passage": "Nobody who left SemiAnalysis, competed with it or got a bad rating from it is on record, apart from the lawsuit and the critics of ClusterMAX.",
+			"problem": "This status claim about the public record is the one most likely to change within five years: court filings, former staff, or rated providers responding. C94 is marked stable with no trigger, and the sentence has no as-of date. Elsewhere the draft scopes such gaps well ('In the interviews opened for this analysis', 'no source opened for this analysis'), which makes them durable. This sentence lacks that scoping. The research tasks list the adversarial-testimony search, but no claim-level trigger points a refresh at this passage.",
+			"acceptance_test": "The sentence, or the section's opening, dates the record ('as of October 2026') or scopes it to the sources opened for this analysis. C94 becomes time_sensitive with a review trigger naming the two dockets, former-employee testimony and responses from rated providers. C11 (the scrubbed archive) gets a trigger to look for his own explanation."
+		},
+		{
+			"id": "future-08",
+			"severity": "minor",
+			"passage": "Type 7 leads because of what he does when he is wrong or afraid. He emailed Jensen Huang \"I was wrong,\" and he called his own optimism about AI \"my cope.\"",
+			"problem": "The 'Why isn't Dylan Patel a Type 8?' FAQ, which will often be read without the article, rests the Seven case on two 2026 podcast self-reports. The body's older, dated evidence is missing from the answer: the 2020 quit into years of travel, the December 23, 2024 X post crediting Lisa Su (an observed behavior, not a retelling) and the February 2025 Lex Fridman exchange. If either 2026 anecdote is reinterpreted, or a later refresh adds weight to the Eight evidence that runs from 2021 to 2026, this answer will look like it rests on one year.",
+			"acceptance_test": "The FAQ answer cites at least one dated pre-2026 behavior, preferably the observed December 2024 Lisa Su post. It still states the medium confidence. It stays consistent with the body's 'Why not Type 8?' section."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "It listed everyone who had doubted Huang's numbers, and Patel put himself on the list: \"Here's all the people that gave you crap. Even I gave you crap.\" By his account, he had guessed 15 to 20 times, not the 25 Huang had claimed.",
+			"reason": "A dated, specific admission that carries the pattern on its own. It stays meaningful even after the 2026 keynote becomes old news."
+		},
+		{
+			"passage": "That is a useful warning for anyone reading his origin story, this one included.",
+			"reason": "It turns his own 'I can spin a narrative' into a durable caveat on the article's method. It will still be true after any refresh."
+		},
+		{
+			"passage": "That exchange is the Seven pattern in one conversation. He names the fear. He reaches for the bright side. When the bright side fails, he says out loud that it was a reframe. Then he makes a joke.",
+			"reason": "It states the mechanism as observable steps rather than a mood. A future refresh can test new interviews against it directly."
+		},
+		{
+			"passage": "If he mocks and moves on, that is the Seven. If he escalates and keeps pursuing the same people for weeks, the Eight reading gains.",
+			"reason": "A concrete, falsifiable refresh signal. This is what keeps a medium-confidence read honest over five years. Keep it as written (see future-04 for the evidence it should be applied to)."
+		},
+		{
+			"passage": "The man who wants to be connected to everything spent much of that conference with his name turned around. Substrate does not say why, and no source opened for this analysis does either.",
+			"reason": "It ends on an unresolved, dated contradiction that the type read does not tidy up. The gap is scoped to the sources opened, so it stays accurate whatever later reporting adds."
+		}
+	],
+	"assessment": "Five-year test: the thesis survives with the latest events removed. Without the August–September 2026 material (the 'my cope' exchange, the Substrate scenes and the Citrini deal), the move from widening the field to reframing still runs through the 2020 quit, the December 2024 Lisa Su post, the February 2025 Lex Fridman exchange and the early-2026 'I was wrong' email. The hook is a dated event that reveals the pattern; it does not depend on current status. The discriminating evidence is concentrated in 2026 podcast self-reports, while the Eight evidence runs from 2021 to 2026, so medium confidence is right and the article's named reply-sample test is the main refresh lever. Date discipline is mostly strong: absolute dates throughout, 'as of October 17, 2026' on the suits, gaps scoped to 'opened for this analysis', and triggers on revenue, headcount, fund, subscribers and the office. The gaps are an undated body age that goes stale around May 2027, career superlatives in the description and hook (plus an ambiguous description), an interpretive paragraph that hangs on unresolved litigation, the article's own 7/8 test left unapplied to that litigation, record-limit and figure claims without as-of dates or triggers, and scattered relative-time words. Risk flags carry over: sensitive allegations (MNPI and wrongful-termination suits) and contested typing (7 vs 8 at medium confidence). This is a standard profile, so open-case eligibility does not apply."
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": 3,
+  "subject": "ella-beatty",
+  "mode": "create",
+  "role": "unfamiliar",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_review_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-18_06-00-03-074_ella-beatty/draft.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-18_06-00-03-074_ella-beatty/evidence-draft.json",
+    "similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-18_06-00-03-074_ella-beatty/similarity.json"
+  },
+  "outputs": {
+    "review-unfamiliar.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-18_06-00-03-074_ella-beatty/review-unfamiliar.json"
+  },
+  "content_sha256": "958497076648843496b347d182e1922c90a1875acafb202d9ee7d1fa4bdc89b1",
+  "evidence_sha256": "6f6f72fd05658ddc3d1ea088ee4ae5b6a66cf41c4fa860cc2690732003c0a50c"
+}

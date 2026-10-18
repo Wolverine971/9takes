@@ -1,0 +1,19 @@
+I've written the fan review for Dylan Patel to `docs/content-analysis/pipeline-logs/2026-10-17_06-00-03-505_dylan-patel/review-fan.json`. It passes the review schema check, the two content hashes are copied from the request, and every quoted passage matches the draft exactly. I changed no other files and published nothing. I didn't open the other review in that folder (`review-subject.json`), as the stage rules say.
+
+**Verdict:** the sourcing is good and the draft is honest about its limits. But when I reopened the sources, all three of the main pieces of evidence for Type 7 had been quoted selectively in its favor. Nothing is made up; the quotes are word-for-word but leave out the parts that cut against the argument.
+
+**Major findings (6):**
+- **fan-01, the August 2026 Dwarkesh exchange:** the draft skips his longest, bleakest passage ("unless governments regulate the fuck out of it… we pray that that one company gets everything right"). It also calls his Jane Street line a joke when he was arguing from Anthropic's point of view. In the Lex Fridman clip, his optimism was an answer to a question asking what gives him hope.
+- **fan-02, the title and opening:** on stage, Jensen Huang credited a SemiAnalysis claim of "50 times," but the email Patel describes said "30x." That the email led to the GTC moment rests only on Patel's word. The draft also never considers the business reason for the email: it was good news sent to a CEO he collaborates with. And it leaves out Patel's own boast that Huang "talked about us longer than anyone else."
+- **fan-03, the Lisa Su post:** the draft cuts the three lines about AMD acting on SemiAnalysis's recommendations, then calls the post "credit, not a victory lap."
+- **fan-04, leaving finance:** the draft says an Eight can't explain this move, but the only motive in the record is that he felt his bonus was too small.
+- **fan-05, the flipped lanyard (the closing image):** the draft drops Substrate's setup, which ties it to press badges and SemiAnalysis being "not cleanly press."
+- **fan-06, the business story:** it leaves out the 2023 CoWoS call and the leaked Google "No Moat" memo, which makes the firm's rise look more like luck than it was.
+
+**Minor findings (2):**
+- **fan-07:** the "Why not Type 8" section says it gives "that case in full," but it leaves out the reporter calling him characteristically stubborn and his "My hubris…" line. The test it proposes only looks at fights he answers, not fights he starts.
+- **fan-08:** his "anonymous" years include the u/dylan522p handle, which he still uses on X.
+
+I also marked five strong passages to protect, including the "Inference King" belt and the Slack rule. I flagged the lawsuit and the contested typing as risks.
+
+If the editor's fixes end up making Type 8 the lead, that counts as a major change to the argument. It should then go back through a refreshed run with the full panel of six reviewers instead of being settled in the edit.

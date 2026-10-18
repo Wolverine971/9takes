@@ -1,0 +1,318 @@
+{
+  "schema_version": 3,
+  "decisions": [
+    {
+      "finding_id": "subject-F1",
+      "action": "fixed",
+      "reason": "The sentence now reads: 'Of those three emotions, fear is the one she names outright, usually when asked about pressure and usually beside excitement or luck.' It is a claim about which triad emotion she names, not how often. C42 lists the source passages (S12, S14, S04, S05) and records that no statement of her own anger or shame was found. No sentence in the body, the 60-word answer, the FAQs or the description says fear dominates. The answer box now leads with responsibility, the intro says she 'names fear beside the excitement', and the description keeps 'over the moon and also really scared'."
+    },
+    {
+      "finding_id": "subject-F2",
+      "action": "fixed",
+      "reason": "The No Intervals 'voracious' line no longer appears as evidence of fear. The Nine strain now rests on the Variety sentence from the same answer as 'really scared': 'I think immediately I just wanted to start working on it' (S12, C60). The hook paragraph is recast as 'Beatty describes both' and quotes her 'I understand this person' before 'over the moon and also really scared' (C11). The press-conference quote now includes 'I was so excited. I was over the moon.' (C12). The Six 'against' paragraph says plainly: 'Some preparation she frames as excitement, not fear', quoting No Intervals."
+    },
+    {
+      "finding_id": "subject-F3",
+      "action": "fixed",
+      "reason": "The Hall/Hunnam comparison and 'The difference was hers, not the job's' are gone from the article. C47 is deleted and removed from type_hypothesis.for_claim_ids, and C12's inference no longer cites the contrast. The 'Nerves and over-preparation are ordinary' sentence is gone too. The only remaining use of the verb is about a hypothetical stressed Nine ('can worry and prepare as hard as a Six'), not a label for her preparation."
+    },
+    {
+      "finding_id": "subject-F4",
+      "action": "fixed",
+      "reason": "The closing now gives her own account of her parents immediately before the role irony: 'She calls her parents \"loving, encouraging,\" and says they \"want me to feel like I have my own experience.\"' (C87, S20). The roles are described accurately: 'one who, in the series, kills her father and stepmother'. The orientation states that the real Lizzie Borden was tried and acquitted in 1893 and that the series is an interpretation (C77, S11)."
+    },
+    {
+      "finding_id": "subject-F5",
+      "action": "fixed",
+      "reason": "The TODAY quote keeps its friendship frame: '\"She's one of my very best friends in the world... we just kind of fell in love immediately,\" she said of Paulson on TODAY' (C13). 'Defers easily to \"what was on the page\"' is removed. 'What was on the page' now appears only as her own Collider wording, inside the Six case's list of responsibilities. Nothing alludes to S24."
+    },
+    {
+      "finding_id": "subject-F6",
+      "action": "fixed",
+      "reason": "The Paulson line 'It's a relief to come to work and remember you're being someone else' is removed from the body and the Type 9 FAQ. The Nine case and FAQ now use Town & Country's 'to be able to disappear into roles' and 'a certain amount of discomfort about being a public person' (C15, C68). 'The rush felt good because it left no room for her' stays inside 'Read as a Nine', so it is marked as a reading. The Type 4 sentence no longer quotes 'just like a very normal lady'. The section is retitled 'No time to worry'."
+    },
+    {
+      "finding_id": "subject-F7",
+      "action": "fixed",
+      "reason": "Now reads: 'It is also the answer any famous child would be advised to give after the \"nepo baby\" backlash, so on its own it cannot show motive.' This states the alternative without ruling on it and implies no publicist or coaching. The PR-register caveat is stated fully only here. The Three section has one brief echo ('both come from press interviews, where a Three would also tilt toward humility'). 'It is also the expected register for a famous child in nepotism-conscious press' and 'a famous name raises the cost of being caught unprepared' are cut."
+    },
+    {
+      "finding_id": "subject-F8",
+      "action": "fixed",
+      "reason": "The sentence is removed (C55 deleted), along with the Hollander paragraph that carried the mentors point. No 'new city' or age claim remains. The section says only what its examples show: 'She keeps a small, close circle.'"
+    },
+    {
+      "finding_id": "subject-F9",
+      "action": "fixed",
+      "reason": "The 60-word answer and its FAQ mirror now name material specific to her: 'She talks about responsibility (to her castmates, her family's legacy, the real Lizzie Borden) and meets it by showing up off book.' The Six case paragraph builds on the responsibility thread across S04, S12 and S13 ('The Six case rests on a word she keeps choosing') and names the one report of nerves with nothing at stake as 'hard to put down to a first lead' (C57). That is what goes beyond ordinary first-lead nerves. The generic 'fear answered with preparation and trusted people' formula is gone from the answer, the FAQ and the intro."
+    },
+    {
+      "finding_id": "fan-01",
+      "action": "fixed",
+      "reason": "The contrast and 'The difference was hers, not the job's' are removed. The Six case now rests on her own repeated accounts: the Collider research and narrowing to the page, coming in off book for Appropriate, the diary book and the responsibility thread. C47 is deleted and removed from for_claim_ids, and C12's inference no longer cites the Hall contrast."
+    },
+    {
+      "finding_id": "fan-02",
+      "action": "fixed",
+      "reason": "Both dropped continuations are restored. (1) 'The pressure that I felt had to do with the responsibility to honor what the other actors are doing. You don't want to leave people in the lurch.' (S04, a labeled Interview transcript) now precedes 'I didn't have a lot of time to be scared...' (C50). (2) 'She had \"so many things to serve and so many people to please.\"' (S05) follows the no-time-to-worry lines (C51). Those are words both Whisper passes agree on, and two reviewer pitch checks place them in her voice. The Two section now says 'Her accounts of pressure point outward, to \"so many people to please\" and not leaving people \"in the lurch\"'. Its 'against' names what is missing ('care she gives unasked, or resentment when it goes unnoticed'). The Six case reads the lurch line as duty to the group, and 'Read as a Two, the clause that matters sits in between' accounts for the restored half."
+    },
+    {
+      "finding_id": "fan-03",
+      "action": "fixed",
+      "reason": "Settle signal 1 now carries two opened, dated reviews. Seat42f's Thomas Miller (September 17, 2026) called her Lizzie 'an impressive television lead turn' (S30). IndieWire's Ben Travers (September 18, 2026), grading the season D+, described 'a perpetually blank Ella Beatty, the daughter of Warren Beatty and Annette Bening' (S31). Both were opened by curl at this stage; claims C84 and C85 record them. The signal is reworded so it is not already met: her on-record response to that criticism, which as of October 18, 2026 had not been found. The FAQ ('how she answers the critics of her Monster performance') and open_case.settle_signals[0] match. No unopened aggregate score is printed."
+    },
+    {
+      "finding_id": "fan-04",
+      "action": "fixed",
+      "reason": "The orientation says she was 'raised in Los Angeles, where she did summer-camp and community theater as a child' (Town & Country, S20; C01). The name section quotes, in context, '\"I really care what they think and feel,\" she told Town & Country of her parents, \"and I think they have an awareness of that and they're good at staying out of it.\"' It is weighed in one clause: 'Whose approval matters is where the live types would part, and the line doesn't say which' (C80). No childhood wound is inferred. 'Always, always' now sits beside this childhood stage record (C24)."
+    },
+    {
+      "finding_id": "fan-05",
+      "action": "fixed",
+      "reason": "The career sentence now names her 2025 film debut in If I Had Legs I'd Kick You, Ibsen's Ghosts at Lincoln Center Theater, and Sexual Misconduct of the Middle Classes, 'a two-hander opposite Hugh Jackman', before Ghosts is first mentioned. Act One is placed after them. Sources: S20, S21, S04 (C03)."
+    },
+    {
+      "finding_id": "fan-06",
+      "action": "fixed",
+      "reason": "The closing now reads 'one who, in the series, kills her father and stepmother'. The orientation states, with a link to Netflix Tudum, that 'The real Lizzie Borden was tried and acquitted in 1893 of murdering her father and stepmother, and the series is an interpretation' (C77; S11, S13, S14). The 'What is the universe saying?' quote is unchanged."
+    },
+    {
+      "finding_id": "fan-07",
+      "action": "fixed",
+      "reason": "The year is removed: 'after the \"nepo baby\" backlash'. C43 and C07's alternative are updated to match."
+    },
+    {
+      "finding_id": "fan-08",
+      "action": "fixed",
+      "reason": "Now reads 'In a Zoom conversation recorded in May 2025 and published by Interview that June'. Interview's introduction says 'on a Zoom last month' and the piece was published June 5, 2025. C75's claim and passage match exactly."
+    },
+    {
+      "finding_id": "critic-01",
+      "action": "fixed",
+      "reason": "The causal sentence and the whole Hall/Hunnam contrast are removed (C47 deleted). No sentence claims that her preparation was temperament rather than the role. C12's inference now records why the comparison was withdrawn."
+    },
+    {
+      "finding_id": "critic-02",
+      "action": "fixed",
+      "reason": "The Two section quotes both relational halves: 'so many people to please' (S05, C51) and not leaving people 'in the lurch' (S04, C50). Its 'against' no longer says no account bears on giving or support. It names what the record still lacks for Two: 'care she gives unasked, or resentment when it goes unnoticed'. C35, C50 and C51 carry exactly what the article prints."
+    },
+    {
+      "finding_id": "critic-03",
+      "action": "fixed",
+      "reason": "The 'goes to work on it' claim is now backed by Variety, from the same answer as 'really scared': 'I think immediately I just wanted to start working on it' (S12, C60). 'Voracious' no longer appears. The Collider quotation is followed directly by 'Then she narrowed to \"what was on the page.\"' (C46)."
+    },
+    {
+      "finding_id": "critic-04",
+      "action": "fixed",
+      "reason": "The Paulson 'relief' line is removed from the body and the Type 9 FAQ, and the S20 'to be able to disappear into roles' quote replaces it. 'She keeps describing that relief' is gone. The Meindl rush and the Town & Country wish are no longer presented as one repeated feeling."
+    },
+    {
+      "finding_id": "critic-05",
+      "action": "fixed",
+      "reason": "The section now opens 'She keeps a small, close circle.' The TODAY quote is framed as her answer to 'how Paulson supports her'. The circle is tied to pressure only through the audition line ('She ties the circle to pressure most clearly around auditions'). The mother's 'big on not giving you the answer' is included. The Hollander paragraph is cut, so his visit no longer appears as her reaching out. The intro and type-answer phrasing 'answers it with preparation and trusted people' no longer exists."
+    },
+    {
+      "finding_id": "critic-06",
+      "action": "fixed",
+      "reason": "The settle intro names the pressure the record already holds ('a first lead, a two-day put-in, a famous name') and says 'What the record lacks is pressure of other kinds, and quiet', so it no longer contradicts the Appropriate passage. Two Monster reviews were opened (S30, S31). Signal 1 is now her response to criticism aimed at her performance, with both reviews dated and quoted. No unopened review or aggregate is summarized."
+    },
+    {
+      "finding_id": "critic-07",
+      "action": "fixed",
+      "reason": "The 'new city' sentence is removed (C55 deleted); no age or city claim remains in that section."
+    },
+    {
+      "finding_id": "critic-08",
+      "action": "fixed",
+      "reason": "The paragraph now opens 'The casting stories come from people who are not neutral.' Paulson's interest is noted at her account: she 'calls Beatty \"a person I'm wildly close to\"' in that same conversation (S04, C06). Her Bening hedge is recorded in C06's alternative. A new sentence says 'No opened source describes how she was cast in _Feud_, her first job.' (C79)."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "action": "fixed",
+      "reason": "The contrast is cut. The Collider research and the Appropriate put-in carry the preparation pattern, and no sentence attributes a preparation gap to temperament. C47 is deleted and removed from for_claim_ids."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "action": "fixed",
+      "reason": "The answer (57 words) gives the leading read, low confidence and the live alternatives. Its evidence sentence is specific to Beatty: responsibility 'to her castmates, her family's legacy, the real Lizzie Borden', met 'by showing up off book'. That could not be pasted into the Reiter, Depp or Moon answers. The paragraph above the H2 is rewritten around the composure/fear gap and shares no restated sentence with the answer. FAQ 1 mirrors the answer verbatim (checked by parsing)."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "action": "fixed",
+      "reason": "By word 77 of the body the reader knows the father ('her father Warren Beatty's cardinal rules') and the role ('Two and a half years later she would be the title star of Netflix's _Monster: The Lizzie Borden Story_'). The Carlyle is 'the Manhattan hotel'. The Carlyle opening, the poised-versus-scared contrast and their order are unchanged."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "action": "fixed",
+      "reason": "Ghosts is identified in the career sentence (Ibsen, Lincoln Center Theater, 2025) before its first mention. The Appropriate paragraph now says 'She opened after a few days of tech at the Belasco Theatre' (S05, S04), so the closing callback has a referent. Meindl is introduced as 'her friend the acting teacher Anthony Meindl' (he calls her 'my dear friend' at about 01:00 of S05). The career sentence names Sexual Misconduct of the Middle Classes as 'a two-hander opposite Hugh Jackman'."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "action": "fixed",
+      "reason": "Each caveat is now stated fully once where it first matters. The career-stage caveat is the 'ordinary weather' line after the answer. The PR caveat is 'so on its own it cannot show motive' in the name section, with one brief echo in the Three section. Cut: 'Nerves and over-preparation are ordinary in young actors', 'a famous name raises the cost of being caught unprepared', 'Leaning on mentors is ordinary...' and 'It is also the expected register...'. Only those two evidence paragraphs end on a generic caveat. Length: the edit also cut the Hall/Hunnam comparison, the Barrymore paragraph, the Hollander paragraph, the relief-quote paragraph, the Types 1/4 quotations and the fifth settle signal. But the jury's required additions (dated reviews, restored answer halves, missing credits, acquittal, Type 7, a rebuilt settle section) leave the body at 2,953 words by checkDraft. That is above the roughly 2,500-word target, under the 4,500 mechanical limit, and recorded honestly in the evidence log."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "action": "fixed",
+      "reason": "A new paragraph after the composure evidence names the hook's gap as an open question and gives each leading reading, labeled as interpretation: 'Why the fear doesn't show is a question the record leaves open. In a Six reading, preparation is the reason: by the time anyone sees her, the risk she could control is gone. In a Nine reading, the fear is real but goes quiet once the work absorbs her.' (C81)."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "action": "fixed",
+      "reason": "The settle section is rebuilt. Three of the four signals are tied to her record: the dated Seat42f and IndieWire reviews, the December 7, 2026 Globe nominations and The Bell Jar, and a choice against the advice of Paulson, Murphy or her parents. The generic 'someone who knew her before 2024' signal moved to research_tasks. Each signal names only the two or three types it separates. 'Available' no longer appears anywhere. The closer no longer uses the 'Whichever ..., some of this will hold' formula ('Some of this is already settled.'). The FAQ settle answer and open_case.settle_signals match the four signals."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "action": "fixed",
+      "reason": "The sentence is removed (C55 deleted). No 'new city' or undated age remains, and no one-sentence disclaimer paragraph sits between the circle quotes."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "action": "fixed",
+      "reason": "The Six case now names observations a newly cast actor answering 'how did you feel / how did you prepare' would not routinely produce, and says why they favor Six. First, she repeatedly describes pressure as responsibility to a group and an inheritance (S04 twice, S12, S13), including her only direct answer about what pressure meant to her ('You don't want to leave people in the lurch'). Duty to the group and the cost of letting it down 'sits near the center of Six'. Second, the one report of nerves with nothing at stake (between performances, 2025) is 'hard to put down to a first lead'. The settle intro concedes that under the pressure on record a stressed Nine looks like a Six. 'Ordinary' caveats that conceded each part are consolidated (see unfamiliar-05)."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "action": "fixed",
+      "reason": "The basis sentence is rewritten to what the sources support: of the triad emotions she names fear outright, 'usually beside excitement or luck'. C42 records the count problem and the luck/excitement register. Type 7 now gets a dismissal in the weighing section ('she volunteers the painful feelings a Seven tends to steer around'). C20 documents the Seven case: excitement, luck, curiosity, 'curious is a word she repeats often' (S20). Seven is set aside, not added to live_alternatives, so the answer, FAQ and open_case.live_alternatives are unchanged."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "action": "fixed",
+      "reason": "The pressure sentence is quoted beside the 'time to be scared' line and attributed to Paulson's Interview question: 'The pressure that I felt had to do with the responsibility to honor what the other actors are doing. You don't want to leave people in the lurch.' (C50). The weighing section says which readings it favors. It is the Six case's strongest type-specific strand (duty to the group; C57) and live Two evidence ('Her accounts of pressure point outward'). It is also recorded in type_hypothesis.discriminator."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "action": "fixed",
+      "reason": "(a) The settle intro says in plain language: 'Under the pressure on record (a first lead, a two-day put-in, a famous name), the reads look alike, since a stressed Nine can worry and prepare as hard as a Six. What the record lacks is pressure of other kinds, and quiet.' (b) Signal 2 ('Worry after success') asks whether nerves outlast her newness after the Globe nominations and The Bell Jar, and the Six case cites the one existing low-stakes instance (nights off, 2025). (c) Signal 4 now turns on a choice made against the advice of Paulson, Murphy or her parents and the reason she gives, with different observable predictions for Six, Three and Two. It notes that going back to Murphy or Paulson would show little. The FAQ settle answer is updated."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "action": "fixed",
+      "reason": "'The difference was hers, not the job's' and the whole contrast are removed. C47 leaves for_claim_ids and the claim list. Beatty's modest same-room wording is recorded in C12's inference as the reason for the withdrawal."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "action": "fixed",
+      "reason": "The Six 'against' paragraph now includes the writer's observation, attributed and with its limit: 'Town & Country's Naveen Kumar wrote that a thoughtful relationship to uncertainty is something she \"seems to be comfortable with—and maybe even covets in her work.\" That is one writer's impression, but it suits a Nine better than a Six seeking solid ground.' (C82). C82's inference notes it also fits a Seven's appetite."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "action": "fixed",
+      "reason": "'Available' and 'Take it a day at a time' are removed from the Nine case and from settle signal 2 (C59 deleted). The Nine case now uses Town & Country's 'disappear into roles' and 'discomfort about being a public person'. It states the gap: 'the body triad's buried emotion is anger, of which the record holds no account from her' (C83). Signal 3 asks what she does with her own irritation."
+    },
+    {
+      "finding_id": "enneagram-08",
+      "action": "fixed",
+      "reason": "The 'moral rather than professional' label and its truncated quote are dropped. The Three 'against' now says these are press statements a Three would also shape: 'both come from press interviews, where a Three would also tilt toward humility'. It adds the behavioral gap: 'No choice on record yet shows her taking a role for its size.' C25's inference records the omitted 'I have more experience under my belt' line."
+    },
+    {
+      "finding_id": "future-01",
+      "action": "fixed",
+      "reason": "Relative ages are gone. The answer and FAQ say 'Her public record starts in 2024'. The intro says 'a mostly promotional record that begins in January 2024' and dates the search moment ('Since the premiere', with the premiere dated September 17, 2026 in the paragraph above). The answer is 57 words, and FAQ 1 mirrors it verbatim. C40 and C41 passages are updated."
+    },
+    {
+      "finding_id": "future-02",
+      "action": "fixed",
+      "reason": "The author-voice label is replaced by a stable fact: 'Sarah Paulson, who starred opposite her on Broadway in _Appropriate_'. The friendship appears only in their own words, dated: Beatty on TODAY in September 2026, 'She's one of my very best friends in the world', and Paulson in the 2025 conversation, 'a person I'm wildly close to'. C18 and C16 are now time_sensitive with the review trigger 'Recheck if either woman describes the relationship differently on record' and a reminder never to allude to S24."
+    },
+    {
+      "finding_id": "future-03",
+      "action": "fixed",
+      "reason": "An opened source now confirms the nominations date. The Golden Globes' own timetable, reprinted by Awards Radar on May 7, 2026 (S32), gives Monday, December 7, 2026 for nominations and January 10, 2027 for the ceremony. The article cites it and no longer cites CBS (S29). next_review (2026-12-15) falls after the confirmed date. The Bell Jar clause carries 'as of October 18, 2026'."
+    },
+    {
+      "finding_id": "future-04",
+      "action": "fixed",
+      "reason": "The sentence is removed (C55 deleted), so the 'new city' and loose-age claims are gone."
+    },
+    {
+      "finding_id": "future-05",
+      "action": "fixed",
+      "reason": "persona_title is now 'The Actress Who Shows Up Off Book', which drops the career-stage label and keeps the off-book image (C67). C66 (the title) is now time_sensitive, triggered when the case closes or a later role overtakes Monster. The age FAQ now says 'she turned 26 in April 2026', a dated statement that stays true (C72)."
+    },
+    {
+      "finding_id": "future-06",
+      "action": "fixed",
+      "reason": "research_tasks now carries a dated eligibility check. Reopen at next_review (2026-12-15) and after The Bell Jar press cycle, and no later than 2027-09-17. If no settle signal has fired by then, the profile must graduate to the standard format or move to an insufficient_evidence hold with research tasks. open_case.reason and C03 now agree: her first film lead (Act One) premiered in June 2026 and her first series lead (Monster) on September 17, 2026."
+    },
+    {
+      "finding_id": "future-07",
+      "action": "fixed",
+      "reason": "Signal 4 is tied to something that separates motive from incentive. It says going back to Murphy or Paulson 'would show little' (she has worked twice with each, C86), and asks instead about a choice against their advice or her parents' and the reason she gives, with a distinct observable for Six (whom she trusts), Three (what the role can do for her) and Two (whom she wants to work beside). The FAQ mirror is updated."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Ella Beatty beat the reporter to the Carlyle.",
+      "action": "kept",
+      "reason": "Kept word for word as the opening line."
+    },
+    {
+      "passage": "Both men are selling the show, and she had already worked for Murphy on _Feud_, so no one can measure what the name did before the tape. The accounts agree that a tape was required.",
+      "action": "kept",
+      "reason": "Kept word for word. A new sentence after it adds the one gap the record leaves: no opened source describes the Feud casting."
+    },
+    {
+      "passage": "The record pushes back too. Of _Appropriate_, she also told Paulson, \"I didn't have a lot of time to be scared because I got the job and then we started.\"",
+      "action": "changed",
+      "reason": "Its contribution, her own counterevidence placed beside the thesis, is kept. The opener 'The record pushes back too.' and the quotation are verbatim. The sentence now gives the question it answered and the first half of the same answer ('The pressure that I felt had to do with the responsibility to honor what the other actors are doing. You don't want to leave people in the lurch.'), then 'Later in the same answer:' and the protected quote. Three reviewers (enneagram-03, fan-02, critic-02) showed that quoting only the second half dropped the record's most motive-bearing sentence."
+    },
+    {
+      "passage": "First she removed the risk she could control. Then she took permission from the person in charge. Then she brought herself.",
+      "action": "kept",
+      "reason": "Kept word for word, as its own paragraph after the Appropriate put-in."
+    },
+    {
+      "passage": "Each live type can claim that line: a Six scanning the room for safety, a Two for what people need, a Nine merging with it, a Three reading the audience. It is also the craft rule she says her parents taught her.",
+      "action": "kept",
+      "reason": "Kept word for word, followed by the TODAY craft-rule quotation."
+    },
+    {
+      "passage": "Each live type can claim that line: a Six scanning the room for safety, a Two for what people need, a Nine merging with it, a Three reading the audience.",
+      "action": "kept",
+      "reason": "Kept word for word."
+    },
+    {
+      "passage": "\"What is the universe saying? I don't know,\" she said with a chuckle. \"I'm going to be examining that.\"",
+      "action": "kept",
+      "reason": "Kept word for word as the last line. Only the framing before it changed: the roles are described accurately, and her account of her own parents comes first (fan-06, subject-F4)."
+    },
+    {
+      "passage": "It is also what a publicist would tell any famous child debuting in the 2024 \"nepo baby\" moment, so it shows media sense more than motive.",
+      "action": "changed",
+      "reason": "Its contribution is kept: it names the strongest non-type explanation of her most-quoted statement and declines to count that statement as motive evidence. It now reads 'It is also the answer any famous child would be advised to give after the \"nepo baby\" backlash, so on its own it cannot show motive.' Two corrections forced the change. '2024' misdated the backlash (fan-07). 'shows media sense more than motive' was a skeptical verdict that implied coaching, which the record cannot support (subject-F7)."
+    },
+    {
+      "passage": "Read as a Six, that is the type's growth task in her own words: learning to trust that she can handle what she fears before it arrives. Read as a Nine, the telling detail comes first. The rush felt good because it left no room for her.",
+      "action": "kept",
+      "reason": "Kept word for word. One sentence follows it giving the Two reading of the restored clause from the same answer ('Read as a Two, the clause that matters sits in between: \"so many people to please.\"'), so no live reading gets only the friendly half."
+    },
+    {
+      "passage": "Fear is the emotion Beatty names most. That is why Six leads, and why it can't lead by much: fear is also the ordinary weather of an actor in her first lead.",
+      "action": "changed",
+      "reason": "The second sentence, with its calibration and the 'ordinary weather' image, is kept word for word. The first sentence had to change because it was false as a frequency claim. Two reviewers (subject-F1, enneagram-02) found luck and excitement words outnumbering fear words in the saved transcripts. It now reads 'Of those three emotions, fear is the one she names outright, usually when asked about pressure and usually beside excitement or luck.', so the passage still tells a new reader why Six leads and why it can't lead by much."
+    },
+    {
+      "passage": "Murphy watched all seven tapes without being told which one, then called back and asked, \"Is it Ella?\"",
+      "action": "kept",
+      "reason": "Kept word for word."
+    },
+    {
+      "passage": "Does she start owning the work (Three), or are nerves and self-trust still her subject once she is no longer new (Six)?",
+      "action": "kept",
+      "reason": "Kept word for word in settle signal 2 ('Worry after success'), which is now tied to the dated Golden Globe nominations and The Bell Jar."
+    },
+    {
+      "passage": "At the same press conference, asked how they had prepared, Rebecca Hall said, \"I did absolutely nothing.\" Charlie Hunnam had spent a couple of days reading. Beatty described a book, a movement coach and work before pre-production. The difference was hers, not the job's.",
+      "action": "changed",
+      "reason": "Removed, because the detail it contributed was unsupported. The future reviewer valued it as a controlled comparison that separates her behavior from what the role demanded. The source (S14) shows it does not. Hall gave an artistic reason ('I wanted freedom to get a little crazy and weird'). Beatty's own same-room answer was modest ('I worked a little bit with the movement coach'; 'what was on the page felt most important to me'). All three actors landed on the script, and she alone had the title role and the best-documented person in the case. Five reviewers flagged the conclusion (subject-F3, fan-01, critic-01, unfamiliar-01, enneagram-05). A corrected version reduced to 'she played her homework down' was tried and cut for length. The true residue, her preparation pattern, is carried by her own accounts: the Collider research and narrowing to the page, the off-book put-in and the diary book. C47 is deleted."
+    },
+    {
+      "passage": "Whichever way it settles, some of this will hold. She was early to the Carlyle and off book for the Belasco.",
+      "action": "changed",
+      "reason": "Its contribution is kept: the close separates what is known from what is open and ends on dated behavior. It now reads 'Some of this is already settled. She was early to the Carlyle and off book at the Belasco.' The transition was reworded because the unfamiliar reviewer found the 'Whichever ..., some of this will hold' formula copied from the Maleah Joi Moon open case (unfamiliar-07). The Belasco is now set up in the Appropriate paragraph (unfamiliar-04)."
+    }
+  ],
+  "prior_blockers": []
+}

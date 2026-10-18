@@ -1,0 +1,27 @@
+Error: Reached max turns (120)
+[runner] Turn limit reached; resuming session 6e1a8675-e874-4333-a0ac-1774aead375b to write outputs
+I wrote `evidence.json` to the Dylan Patel run folder and it passes the pipeline's own validator. I didn't change any other repo files or publish anything; all scratch files stayed in `/tmp/dylan-patel-research/`.
+
+**Result: ready to draft, leading read Type 7, strongest alternative Type 8, medium confidence.** He doesn't qualify as an open case: there's too much long-form material on record, so it's a normal profile. The record has 26 sources (24 opened) and 42 claims.
+
+**What decides 7 over 8:** what he does when something limits, corrects or scares him. Each time, he widens his options and turns it into fun rather than digging in to take control:
+- **The job:** unhappy in finance, he quit in 2020 and spent about four years with no fixed home, travelling to around 40 conferences a year. His own description: "next step, next step, next step."
+- **Being wrong:** when benchmarks showed Nvidia's Blackwell chip was much faster than he'd predicted, he emailed Jensen Huang "Jensen, I was wrong. You were sandbagging." Huang then quoted him on stage at GTC.
+- **Bad news:** he called AI power concentrating in a few companies "scary as hell," offered a "saving grace," and when pushed admitted "This is my cope."
+
+He also owns up to his flaws without being asked.
+
+**The case for 8 is real, and the draft has to face it.** He told WisdomTree he has a "burning desire to respond to anyone on the internet when they try and criticize me," even though his marketing team asks him to stop. He answered Sam Altman with a mocking meme, caps his staff's private Slack messages and names those who go over, and talks openly about influence and his "hubris."
+
+**Sensitive material, so the full six-reviewer panel will run:**
+- **Lawsuit:** SemiAnalysis and a former employee are suing each other. The employee alleges he was fired for refusing to put non-public information into client models; the company denies it. I haven't seen the court filings, and the company's specific misconduct claims against him are kept out.
+- **Close call on type:** I flagged 7 vs 8 as contested.
+
+**What's still unverified (logged as tasks for the next stages):**
+- **The Information's April 2026 profile is paywalled.** It alone covers MIT/Stanford rejections, the University of Georgia, the bonus, his "four principles" and the mother/"IT" remark. I've only read a translation of a Chinese rewrite, so none of it can be quoted yet.
+- **Huang's GTC wording** comes from a third-party machine transcript. It needs checking against Nvidia's video.
+- **Two podcast passages** need checking against the audio before quoting: the Latent Space interview has a machine transcript, and the "Inference King" belt story in the WisdomTree interview is only in a translated summary.
+- **His replies on X:** I recommend sampling 20+ of his replies to critics. Whether he mocks and moves on (7) or escalates and keeps at it (8) is the most direct remaining test.
+- **The fund:** the July 2026 SEC filing sought $400M with nothing sold, but he told Substrate it raised $500M. The draft should state both.
+
+The "net worth" question has no reliable figure, so the record says so instead of treating company revenue as his wealth. Age is year-only: born in 1996, so 30 now.

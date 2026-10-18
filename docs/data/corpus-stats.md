@@ -2,7 +2,7 @@
 
 # 9takes Corpus Stats
 
-_Generated: 2026-10-16T16:45:31.217Z_
+_Generated: 2026-10-18T12:43:19.397Z_
 
 Verifiable numbers from the `blogs_famous_people` database. Blog writers and LLM-citation-optimized content MUST pull from this file — no hand-waved statistics, no fabricated percentages.
 
@@ -11,7 +11,7 @@ Verifiable numbers from the `blogs_famous_people` database. Blog writers and LLM
 ## Corpus Totals
 
 - **Published profiles:** 453
-- **Drafts in pipeline:** 89
+- **Drafts in pipeline:** 94
 
 > All stats below are computed against **published** profiles only.
 
@@ -173,15 +173,15 @@ Only domains with ≥ 10 profiled figures are shown. "Δ pp" = percentage points
 
 ## Pipeline
 
-- **Unpublished drafts (2000+ characters):** 89
+- **Unpublished drafts (2000+ characters):** 94
 - **Published in the last 30 days:** 3
-- **Published in the last 90 days:** 58
-- **Average new profiles per month (trailing 90d):** 19.3
+- **Published in the last 90 days:** 48
+- **Average new profiles per month (trailing 90d):** 16
 
 ## Freshness
 
 - **Updated in last 30 days:** 3
-- **Updated in last 90 days:** 73 (16.1%)
+- **Updated in last 90 days:** 64 (14.1%)
 - **Missing `lastmod`:** 0
 
 ## Ready-to-Cite Claims
@@ -196,7 +196,7 @@ Drop these into a blog verbatim — they are pre-computed from the live corpus a
 - Among 80 profiles in the Tech, Founders & Business category on 9takes, Type 5 (Investigator) is over-represented at 23.8% — +15.36 percentage points above the corpus baseline.
 - Among 35 profiles in the Comedians category on 9takes, Type 7 (Enthusiast) is over-represented at 42.9% — +29.39 percentage points above the corpus baseline.
 - Among 26 profiles in the Authors & Thinkers category on 9takes, Type 5 (Investigator) is over-represented at 30.8% — +22.38 percentage points above the corpus baseline.
-- 89 more profiles exist as unpublished drafts on 9takes, and ~19.3 new profiles were published per month over the last 90 days.
+- 94 more profiles exist as unpublished drafts on 9takes, and ~16 new profiles were published per month over the last 90 days.
 
 ---
 

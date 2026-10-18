@@ -1,0 +1,93 @@
+{
+	"schema_version": 3,
+	"role": "unfamiliar",
+	"content_sha256": "4bf49e888159a95d656ccdc4c534450cc28fe603b25dbbdb99f91a5351584eef",
+	"evidence_sha256": "eecf7daaf48a1c96feab2d847da966a30e0c7695ddf4d36b45e93497f167dd8b",
+	"risks": {
+		"sensitive_allegations": true,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": false
+	},
+	"findings": [
+		{
+			"id": "unfamiliar-01",
+			"severity": "major",
+			"passage": "Huang read the quote back to the crowd. \"He says, 'Jensen sandbagged. It's actually 50 times.'\" Then he answered it: \"And he's not wrong.\"",
+			"problem": "The first screen asks a newcomer to track SemiAnalysis, GTC, \"sandbagging\" and three multiples (50, 25, 15 to 20) before saying who Patel is (that comes nine paragraphs in) or what is being multiplied. Sandbagging, meaning understating your own numbers, is what makes the hook ironic: the \"accusation\" is really a concession. It is never defined, so the reader can't see why \"the odd part is where the jab came from.\" The record's figures also disagree. On stage Huang says he had claimed \"35 times perf per watt\" (S12). Patel remembers the claim as 25x (S04). A translated rendering of the same podcast has the email ending \"actually it's 30x\" (S05). The draft prints 50 and 25 side by side with no metric.",
+			"acceptance_test": "By the end of the third paragraph a cold reader can say: (1) in one clause, who Patel is and what SemiAnalysis does; (2) that sandbagging means understating; (3) what was being measured (Blackwell's performance-per-watt gain over Nvidia's previous chips, as the keynote frames it); (4) whose number each figure is. Conflicting figures are either attributed to their speakers or cut to the minimum the story needs."
+		},
+		{
+			"id": "unfamiliar-02",
+			"severity": "major",
+			"passage": "telling Jensen Huang he was wrong. Why that points to Type 7.",
+			"problem": "In ordinary English, \"telling Jensen Huang he was wrong\" means Huang was wrong. That is the opposite of the story: Patel told Huang that he, Patel, had been wrong. This is the search snippet, so many readers' first fact about Patel will be backwards.",
+			"acceptance_test": "The description stays within 120–170 characters and clearly says Patel admitted his own miss to Huang (for example, \"...came from admitting to Jensen Huang that he himself had been wrong\")."
+		},
+		{
+			"id": "unfamiliar-03",
+			"severity": "major",
+			"passage": "Some of the record a Seven reading does not explain. The years of anonymity, and the request to the Internet Archive to remove his early posts, look guarded rather than expansive. So do the Slack rule and the talk of influence.",
+			"problem": "The Slack rule and the influence talk are not guarded. Substrate says the cap on private messages exists so \"Messages go in public channels by default\", which forces openness. \"The spiderweb that connects anything and everything\" is the most expansive line in the piece. Earlier, the draft rightly calls these the control and influence evidence that favors the Eight (\"the parts a Seven reading explains least well\"). Filing them under \"guarded\" makes the closing summary of the counterevidence contradict itself, just before a lanyard ending that depends on \"guarded\" meaning something. The body's Slack line (\"caps private Slack messages at roughly 30% of what staff send\") also leaves out the rule's purpose, so a newcomer can't tell whether it is about secrecy or transparency.",
+			"acceptance_test": "The closing section separates two strands the Seven reading leaves unexplained: guardedness (the anonymity, the scrubbed archive, the flipped lanyard) and control or dominance (the Slack cap, the influence talk, \"number 1\"). The Slack passage in \"Why not Type 8?\" says the rule pushes staff conversation into public channels, as Substrate reports."
+		},
+		{
+			"id": "unfamiliar-04",
+			"severity": "major",
+			"passage": "and he called his own optimism about AI \"my cope.\"",
+			"problem": "In the source (S07) and in the body, \"my cope\" refers to one specific \"saving grace\": that the wider economy may profit more from Anthropic's models than Anthropic does. He offered it right after calling centralization \"scary as hell.\" \"His own optimism about AI\" turns that into a general confession. It clashes with the body's Lex Fridman quote (\"I'm very optimistic about that\") and misleads anyone who reads only the FAQ or its rich result.",
+			"acceptance_test": "The FAQ names what he called his cope (his hope that AI's value won't concentrate in one lab), matching S07 and the \"Scary as hell\" section."
+		},
+		{
+			"id": "unfamiliar-05",
+			"severity": "minor",
+			"passage": "But maybe that's the whole point of a machine that loves grace, right?",
+			"problem": "A newcomer won't recognize this as a nod to Dario Amodei's 2024 essay \"Machines of Loving Grace\", so the line reads as garbled. The article also misses its own sharpest beat: he reached for Amodei's optimistic essay for comfort, and a few exchanges later said \"I don't trust Dario.\"",
+			"acceptance_test": "A short gloss next to the quote identifies the reference (checked against the essay's title and author), so the \"I don't trust Dario\" paragraph reads as a turn rather than a new topic."
+		},
+		{
+			"id": "unfamiliar-06",
+			"severity": "minor",
+			"passage": "In August 2023, when SemiAnalysis's \"GPU-Poor\" post drew a jab from Sam Altman",
+			"problem": "The reader is never told what the post claimed (S18: that Google's Gemini would out-compute GPT-4 by 5x, and that most other labs were \"GPU-poor\"). That turns Altman's \"internal marketing/recruiting chart\" jab and \"Sundar to the GPU-poors\" into inside jokes. Other references a newcomer can't decode: \"neocloud\" (Fluidstack); \"material non-public information\", which is the core of the lawsuit allegation and needs a neutral plain-words gloss so the stakes are clear; \"the Mission\"; \"the account Hot Aisle\" (who or what is it?); and the undated line that he got \"in hot water\" for breaking news of Blackwell at GTC, which says neither what he published nor when.",
+			"acceptance_test": "The GPU-Poor sentence states the post's claim in plain words, so a newcomer can tell why Altman bit and why the meme answered him. Each of the other references is either glossed in a clause (with a year for the Blackwell episode) or cut."
+		},
+		{
+			"id": "unfamiliar-07",
+			"severity": "minor",
+			"passage": "At eight he got a 360, and it died of a manufacturing defect called the red ring of death.",
+			"problem": "This is stated in the narrator's voice, but it conflicts with the article's own age facts. He was born in 1996 (per the FAQ; Substrate puts his 24th birthday on May 22, 2020), so he was nine when the Xbox 360 launched in November 2005. S01 shows this is his own recollection (\"when I was eight I got it. It was the 360\"), and the draft repeats it as fact. A reader who checks the FAQ's age math will see the mismatch.",
+			"acceptance_test": "The age is attributed (\"he says he was eight\") or dropped. The 360 and red-ring details stay."
+		},
+		{
+			"id": "unfamiliar-08",
+			"severity": "minor",
+			"passage": "Nobody who left SemiAnalysis, competed with it or got a bad rating from it is on record, apart from the lawsuit and the critics of ClusterMAX.",
+			"problem": "The article has already quoted someone who got a low rating: Vincent Weisser, whose Prime Intellect got \"Bronze\" and who speaks well of Patel. An attentive reader sees the contradiction. The real limit is that Weisser isn't independent, because Patel invested in his company. The sentence should say that, not deny he exists.",
+			"acceptance_test": "The sentence agrees with the Weisser paragraph (for example, by excepting a Patel portfolio company and noting it is not independent), so nothing earlier in the article contradicts it."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "So which reflex runs him: the one that answers every critic, or the one that emails the most important man in his industry to say \"I was wrong\"? This analysis argues it is the second, and that the first is how it sounds out loud.",
+			"reason": "Gives a cold reader one concrete question to carry through the article, and every later section pays it off. It states the thesis without jargon."
+		},
+		{
+			"passage": "He tells it as a joke on himself now. It is also the first entry in a long file: a kid picking a public side against a much bigger company's messaging.",
+			"reason": "Turns a funny teenage anecdote into a pattern the reader can watch recur (Arm China, Altman, Nvidia, TechInsights) without announcing the type."
+		},
+		{
+			"passage": "That is a useful warning for anyone reading his origin story, this one included.",
+			"reason": "Rare, earned self-skepticism. It uses the subject's own words to tell the reader how much weight the origin story can bear, and it builds trust for the rest of the piece."
+		},
+		{
+			"passage": "That exchange is the Seven pattern in one conversation. He names the fear. He reaches for the bright side. When the bright side fails, he says out loud that it was a reframe. Then he makes a joke.",
+			"reason": "The clearest teaching moment for a reader new to the Enneagram: four observable steps tied to one sourced exchange, not a definition."
+		},
+		{
+			"passage": "The man who wants to be connected to everything spent much of that conference with his name turned around. Substrate does not say why, and no source opened for this analysis does either.",
+			"reason": "A memorable, sourced, unresolved contradiction to end on. It leaves the reader with a real person rather than a neat type, and it doesn't invent a motive."
+		}
+	],
+	"assessment": "A reader who has never heard of Patel is well served overall. The GTC scene creates real curiosity, the \"which reflex runs him\" question gives a clear thread, and the sections build (origin, the unplanned 2020 leap, fear under pressure, the full Eight case, the business and its conflicts, the limits of the record) instead of restating the thesis. A newcomer leaves knowing what SemiAnalysis is, how it grew, why people question its independence, and one concrete test for 7 versus 8. The stakes arrive late but land: the \"adding rooms\" paragraph ties the expansion pattern to conflict-of-interest risk without ruling on the lawsuit. The main friction is the opening. SemiAnalysis, \"sandbagging\" and three multiples arrive before any introduction or metric, and the record's numbers conflict: 35x versus 25x claimed, 50x versus 30x actual. Insider references (Machines of Loving Grace, GPU-poor, neocloud, MNPI, Hot Aisle) leave a newcomer outside several jokes and outside the lawsuit's stakes. The metadata needs care: the description reverses the central fact, and one FAQ broadens \"my cope.\" The closing summary of what the Seven reading can't explain mislabels the Slack rule and the influence talk as guarded. A smaller note: the head-triad paragraph's reason (a working life that \"runs on information\") would fit any analyst; the fear evidence later in the article earns the placement better. Similarity advisory: not tripped (top score 0.041, against Lamine Yamal, from a shared \"plenty of\" construction). On direct comparison the arguments and details are specific to Patel, and I found no meaningful reuse. Risk flags: sensitive allegations (the mutual lawsuits, including Zhou's MNPI allegation) and contested typing (7 over 8 at medium confidence, on mostly self-reported evidence from friendly hosts)."
+}

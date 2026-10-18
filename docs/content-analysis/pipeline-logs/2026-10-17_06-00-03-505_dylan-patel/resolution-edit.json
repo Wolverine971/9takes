@@ -1,0 +1,348 @@
+{
+  "schema_version": 3,
+  "decisions": [
+    {
+      "finding_id": "subject-01",
+      "action": "fixed",
+      "reason": "Removed the \"adding rooms ... doors are supposed to stay shut\" sentence. The lawsuit section now ends on the documented record (who alleges what, the reported denial, Patel's reported \"vigorously defend\" statement, no ruling or settlement as of October 17, 2026) followed by the kept disclaimer. No title, description or FAQ mentions the lawsuit, Fluidstack or information handling."
+    },
+    {
+      "finding_id": "subject-02",
+      "action": "fixed",
+      "reason": "Replaced \"Patel's private stakes are another matter\" with Substrate's presentation of his own answer (publishing against paying customers; private vs public markets; staff barred from public investments in coverage areas) and Substrate's actual caveat that many influential AI companies are private. The Prime Intellect \"Bronze\" point is now attributed as his rebuttal per The Information. Added Patel's reported \"vigorously defend\" statement and attributed the denial to Wallstreetcn's report of the filings (S23). The third-party data-handling report was drafted in but cut for length; one on-record response satisfies the test."
+    },
+    {
+      "finding_id": "subject-03",
+      "action": "fixed",
+      "reason": "Rewrote \"Scary as hell\" in transcript order (S07 reopened): scary as hell; the \"machine that loves grace\" line identified as a nod to Amodei's \"Machines of Loving Grace\" (S30) with tone left open; distrust; the regulation/slowdown passage, \"we pray that that one company gets everything right\" and \"hard to find a framework\"; only then the saving grace; cope; the Jane Street line described as continuing the concentration argument; the joke credited to Dwarkesh and the somber close. Removed \"He does not propose going after the people with the power.\" The pattern claim is narrowed and labeled as supporting, not settling, the read; the FAQs no longer rely on \"my cope\"."
+    },
+    {
+      "finding_id": "subject-04",
+      "action": "fixed",
+      "reason": "The Slack sentence now gives Substrate's stated purpose (public channels by default so source notes feed the models) and keeps \"occasionally\". The editing quote is attributed to an outside analyst's primers and no longer sits under staff control. The closing section files the Slack naming under a control strand, not guardedness. The Why-not-8 FAQ matches (occasional naming under a rule meant to keep information in public channels); the type FAQ no longer cites the Slack rule."
+    },
+    {
+      "finding_id": "subject-05",
+      "action": "fixed",
+      "reason": "Took the lanyard out of the guardedness evidence and out of the ending, so nothing implies he was hiding. A version with Substrate's press-badge framing was drafted, then cut for length; the acceptance test allows dropping it. The article now ends on the sourced archive-scrub contradiction, and C95 is removed from the evidence."
+    },
+    {
+      "finding_id": "subject-06",
+      "action": "fixed",
+      "reason": "Now uses Substrate's \"noticed\" (\"Through his Reddit moderating, Patel noticed that Samsung was paying influencers...\"). Replaced \"He tells it as a joke on himself now\" with Substrate's own description (recalling the phone like \"a first love affair\") plus the 14-year Android loyalty."
+    },
+    {
+      "finding_id": "subject-07",
+      "action": "fixed",
+      "reason": "Hot Aisle is identified as \"another GPU cloud provider and a past compute donor to SemiAnalysis benchmarks\" (S14 thanks it for compute; S23). Kept the neutral \"questioned\" and did not repeat the kickback implication."
+    },
+    {
+      "finding_id": "subject-08",
+      "action": "fixed",
+      "reason": "New description (168 characters): \"Dylan Patel turned a 2020 blog into SemiAnalysis, the chip research firm Jensen Huang quoted at GTC. He says he can't stop answering critics. Why he still reads as a 7.\" It no longer presents fights as how he built the firm; the combativeness is his own self-description."
+    },
+    {
+      "finding_id": "fan-01",
+      "action": "fixed",
+      "reason": "Same rewrite as subject-03. The section quotes the regulate/pray/framework passage, describes the Jane Street line as part of the argument and credits the joke to Dwarkesh. \"He does not propose going after the people with the power\" is gone. The Lex Fridman paragraph was removed rather than qualified, because a prompted hopeful ending cannot carry weight. The pattern claim is narrowed to what survives: a reach for one positive thing that he calls cope, plus acceptance of the conclusion."
+    },
+    {
+      "finding_id": "fan-02",
+      "action": "fixed",
+      "reason": "The title and description no longer state that the GTC moment came from the email. The lede notes that Huang read a published SemiAnalysis 50x chart, not the 30x in the email, so the email-to-keynote link is Patel's telling. The professional-incentive reading is stated (already-public results, Nvidia engineers knew, good news to a collaborator), and the email is demoted to \"weaker evidence than it looks\". His \"surreal\" framing and the five minutes on the slide appear in the hook and are weighed in the Type 3 paragraph. The \"longer than anyone else\" line is not used because its speaker is ambiguous (TechFlow S05 labels it host); a research task records this."
+    },
+    {
+      "finding_id": "fan-03",
+      "action": "fixed",
+      "reason": "The Lisa Su paragraph now quotes \"She took our specific recommendations seriously\" and \"Many changes are in flight already!\" and says Su called (Substrate). \"Credit, not a victory lap\" is replaced by \"credits AMD and announces that a powerful CEO acted on his critique, so it fits both readings.\" The episode no longer counts against Eight."
+    },
+    {
+      "finding_id": "fan-04",
+      "action": "fixed",
+      "reason": "The Why-not-8 section now says the bonus motive (The Information, via the adaptation) explains leaving finance for an Eight as readily as for a Seven, and removes the exit itself from the discriminators. The argument moves to what followed (four years with no fixed home). The \"costly bet\" sentence became \"though not recklessly: he quiet-quit before he quit\", and the 2020 paragraph says quiet quitting meant keeping the paycheck, with existing consulting."
+    },
+    {
+      "finding_id": "fan-05",
+      "action": "fixed",
+      "reason": "Same resolution as subject-05: the lanyard is out of the guardedness list and the ending. The closing section still lands, now on the archive-scrub contradiction."
+    },
+    {
+      "finding_id": "fan-06",
+      "action": "fixed",
+      "reason": "Added the May 2023 \"We Have No Moat\" leak (S19, dated and linked) and the 2023 CoWoS call (Substrate), and placed the overpromise quote in its 2023 hedge-fund sales context. \"The business grew the same way, by impulse and opening\" is now \"The early business grew by impulse and opening\", followed by \"The calls that made the firm's name were more deliberate.\""
+    },
+    {
+      "finding_id": "fan-07",
+      "action": "fixed",
+      "reason": "Kept \"in full\" (protected by the enneagram reviewer) and made it true by adding the missing items: Tang's \"characteristic stubbornness\" and the 14-year Android loyalty (origin section), the \"My hubris\" line (influence paragraph), and the GPU-Poor post as the fight's opener (\"some fights he starts\"). The test now also samples fights he starts."
+    },
+    {
+      "finding_id": "fan-08",
+      "action": "fixed",
+      "reason": "The origin section names u/dylan522p (from age 16, still an r/hardware moderator and his X handle, per Substrate) and dates the anonymous blog to around his finance years. The Type 3 paragraph no longer uses anonymity to dismiss a Three. The closing section credits the anonymous blog to professional caution and keeps the Internet Archive request as the clearer guardedness signal."
+    },
+    {
+      "finding_id": "critic-01",
+      "action": "fixed",
+      "reason": "Same rewrite as subject-03/fan-01. The omitted stretch is quoted before the saving grace; the Jane Street lines continue the argument; the joke is Dwarkesh's; the \"machine that loves grace\" line is flagged as possibly dry. Removed \"He does not propose going after the people with the power.\" C30 and C67-C71 inferences now record these limits. \"The Seven pattern in one conversation\" is dropped and the episode down-weighted to \"supports the read without settling it\"."
+    },
+    {
+      "finding_id": "critic-02",
+      "action": "fixed",
+      "reason": "The hook now says the results publish automatically to open-source GitHub and that Nvidia engineers helped and knew. It paraphrases the \"quite bullish\" line (others guessed about three times, so his guess was a bullish one), states the commercial upside (good news to a collaborator), and attributes the email-to-keynote link to Patel. The \"Why not Type 8\" section demotes the email (\"An Eight with winning data loses nothing by saying 'I was wrong'\"). The title, description and Why-not-8 FAQ no longer rest on it."
+    },
+    {
+      "finding_id": "critic-03",
+      "action": "fixed",
+      "reason": "Same as fan-03: the omitted lines are quoted, Su calling is attributed to Substrate, and the episode is presented as fitting both readings."
+    },
+    {
+      "finding_id": "critic-04",
+      "action": "fixed",
+      "reason": "Same resolution as subject-05/fan-05. The lanyard no longer appears among guarded behaviors or as the ending. C95 is removed."
+    },
+    {
+      "finding_id": "critic-05",
+      "action": "fixed",
+      "reason": "Opened the Wallstreetcn report of December 13, 2025 (reopened by curl, HTTP 200) and added it as S28 and C129. The closing section now reports Patel's claim, the outside pushback and Axiomatic Capital's paywall point. \"Nobody ... is on record\" is replaced by a scoped, dated description of the outside record. His replies were not found; a research task asks for the original posts."
+    },
+    {
+      "finding_id": "critic-06",
+      "action": "fixed",
+      "reason": "Added a neutral sentence to \"What the record cannot show yet\" (after the lawsuit is described): the first-filed suit, including a defamation claim, is the kind of escalation the Eight reading predicts, but company litigation shaped by lawyers is weak evidence of temperament, and the article takes no position on the merits. Patel's \"vigorously defend\" statement is included, attributed to S23 and paraphrased."
+    },
+    {
+      "finding_id": "critic-07",
+      "action": "fixed",
+      "reason": "The paragraph now includes \"It bounced all around, but generally it was in computing hardware\" and says \"The field never changed. Inside it, his attention kept jumping to the newest thing.\" C28's inference is updated, and C109 is added."
+    },
+    {
+      "finding_id": "critic-08",
+      "action": "fixed",
+      "reason": "Same as fan-04: the exit is no longer a discriminator, quiet quitting and existing consulting are stated, and \"costly bet\" is replaced."
+    },
+    {
+      "finding_id": "critic-09",
+      "action": "fixed",
+      "reason": "Same as fan-08. The anonymous blog is dated to the finance-job years, the u/dylan522p handle is noted, and professional caution appears beside the guarded reading in the closing strands. The Type 3 paragraph and closing section no longer treat anonymity as strong type evidence."
+    },
+    {
+      "finding_id": "critic-10",
+      "action": "fixed",
+      "reason": "Removed the Lex Fridman example from the section and the evidence (C65, C66), so prompted optimism is no longer counted as a reframing habit."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "action": "fixed",
+      "reason": "The first paragraph now identifies Patel in one clause (\"SemiAnalysis, the chip research firm Dylan Patel founded\"). The third paragraph defines sandbagging (lowballing your own numbers). The metric and owners are explicit: Huang's own 35x perf-per-watt claim, Patel's quoted \"50 times\", and Patel's recollection of 25 kept inside his account. The 30x is explained as one benchmark test."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "action": "fixed",
+      "reason": "The description no longer contains the ambiguous \"telling Jensen Huang he was wrong\"; it now focuses on what he built and his own \"can't stop answering critics\" line (168 characters)."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "action": "fixed",
+      "reason": "The closing section now separates two strands: control (public naming over Slack, \"number 1,\" hubris, reply habit) and guardedness (anonymous blog, explained by caution; Internet Archive request, unexplained). The Slack passage gives the public-channel purpose."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "action": "fixed",
+      "reason": "The Why-not-8 FAQ no longer mentions \"my cope\". It now rests on the 2020 move into four years with no fixed home and the \"next step\" path, so it cannot misstate what the cope referred to."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "action": "fixed",
+      "reason": "Added the gloss: \"His next line nodded to 'Machines of Loving Grace,' Dario Amodei's 2024 essay\" (checked against the essay page, S30), with tone left open. The \"I don't trust Dario\" line follows."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "action": "fixed",
+      "reason": "The GPU-Poor sentence now states the post's claim in plain words (Google training with five times GPT-4's computing power by year's end, most rivals \"GPU-poor\"). Neocloud and material non-public information are glossed in a clause each. The undated \"in hot water\" Blackwell line is cut, as the research task allowed. \"The Mission\" and Hot Aisle are given context."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "action": "fixed",
+      "reason": "Attributed: \"He says he got a 360 at eight.\" C54 records the age mismatch with the November 2005 launch."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "action": "fixed",
+      "reason": "The sentence now agrees with the Weisser paragraph: \"the one rated company quoted is a Patel investment\". The outside record is otherwise described as critics of his work, scoped \"As of October 2026\"."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "action": "fixed",
+      "reason": "The discriminator is now stated as motive: what he chooses when nothing pushes on him, control and a defended base (Eight) versus keeping options open (Seven). It rests on the unforced 2020-2024 choices (four years with no fixed home, the planless path). The Blackwell email carries the \"quite bullish\" context (paraphrased; both Whisper models agree on the wording) and is called weak evidence that fits both types. The test keeps its protected wording and adds a motive-level marker: what each reply is for, the next good line or making sure the critic cannot come back. \"Tend to\" is gone; the grin claim is limited to \"the fights it captures\" with the cited examples."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "action": "fixed",
+      "reason": "Same rewrite as subject-03. The order matches S07; the Jane Street line is part of the argument; the joke is credited to Dwarkesh; the somber close is acknowledged. \"Then he makes a joke\" is replaced by steps the transcript shows, ending in \"accepts the grim conclusion\". The Lex paragraph is removed. The section says what the exchange supports (a reach for a saving grace) and what it does not (escape from fear)."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "action": "fixed",
+      "reason": "Added a Type 6 paragraph to a new \"Why not a Six, Three or Five?\" section. It gives the distrust line (in the body, linked and dated), the \"80,000 worlds\" line and two dated paranoia-praise quotes (Dwarkesh 2024, Latent Space 2026). The discriminator accounts for counterphobic Six: the \"Only the paranoid survive\" line is Andy Grove's and praises a founder trait, a Six seeks safety in trusted people and preparation, and Patel hedged once, then spent four years with less security. The Three paragraph drops anonymity as a dismissal, names the archive scrub and the reply habit as possible image defense, and keeps a discriminator that survives them: he ignores the image advice of the staff paid to protect his image."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "action": "fixed",
+      "reason": "Restored \"It bounced all around, but generally it was in computing hardware\" and recast the point as attention jumping to the newest thing inside one field. Breadth now rests on \"I've always been interested in everything\" (S04 ~08:16), which I checked against the audio with a second Whisper model (large-v3-turbo agrees). The 14-year Android loyalty and \"characteristic stubbornness\" are now in the article."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "action": "fixed",
+      "reason": "The triad paragraph now cites behavior: meeting uncertainty by thinking toward the next opening, the planless \"next step\" path, and hunting for a way out of a bleak forecast. The boxed-in paragraph ties the Seven fear to the dated 2020 trade of a finance job for four years without a fixed address. The earnings-since-18 line and the generic \"In plain steps\" paragraph are removed."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "action": "fixed",
+      "reason": "Removed the \"hands over soft spots freely\" paragraph, including the overpromising and regression war stories as anti-Eight evidence and the readers'-corrections line (C42, C79, C80 removed). The Lisa Su paragraph quotes the recommendations line and reads as both credit and vindication. The mother/IT remark moves to the Three paragraph as status sensitivity, attributed to The Information via the translation."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "action": "fixed",
+      "reason": "Removed the \"adding rooms\" sentence. The lawsuit section ends on the record plus the disclaimer. The business expansion (C40) is described as business fact, and the evidence records that it fits Seven and Eight alike."
+    },
+    {
+      "finding_id": "enneagram-08",
+      "action": "fixed",
+      "reason": "The paragraph separates the business rationale (public channels so source notes feed the models) from the personal style (\"In signature Dylan fashion, he names and shames\"). The \"least well\" sentence is kept as protected and followed by \"The public naming and the hubris fit an Eight better than the quota does, since the quota mainly moves information.\""
+    },
+    {
+      "finding_id": "future-01",
+      "action": "fixed",
+      "reason": "The body now says \"Patel, born in 1996,\" with no undated age. The FAQ age stays dated \"as of October 2026\" under C03's yearly trigger, and C01's trigger notes that the body carries no age."
+    },
+    {
+      "finding_id": "future-02",
+      "action": "fixed",
+      "reason": "Removed the career superlatives: \"the biggest public moment of his career\" is gone from the hook, \"the most important man in his industry\" is gone from the framing question, and the description is rewritten without \"biggest\". C99 is removed. The hook is anchored to the dated March 16, 2026 keynote."
+    },
+    {
+      "finding_id": "future-03",
+      "action": "fixed",
+      "reason": "Removed the \"shape of the risk / adding rooms\" sentence, so no interpretive payoff hangs on the litigation. The conflict structure is dated (\"rated 'Gold' as of April 2026\"; July 2026 fund filing). The lawsuit-as-test paragraph is a claim (C131) with the docket trigger."
+    },
+    {
+      "finding_id": "future-04",
+      "action": "fixed",
+      "reason": "The closing section now says plainly how company litigation counts for the 7/8 test: the kind of escalation the Eight reading predicts, but weak evidence of temperament because it is counsel-shaped and about alleged trade secrets as much as words. The protected test sentences stay as written. C82 is now time_sensitive, with a trigger naming the reply sample (including the December 2025 Oracle exchange, S28) and the course of both suits."
+    },
+    {
+      "finding_id": "future-05",
+      "action": "fixed",
+      "reason": "Relative-time words fixed: \"less than 5% of revenue now comes\" became \"Substrate reported in September 2026 that less than 5% of revenue comes\"; \"He also invests now\" became \"He invests, too\", with the dated July 2026 filing. \"Nvidia's next chip, Rubin\" became \"then-upcoming Rubin chip\". The undated Blackwell embargo line and \"about 100 by year end\" are removed, and the O'Laughlin \"now ... president\" clause is cut. O'Laughlin's remaining title has a C36 trigger."
+    },
+    {
+      "finding_id": "future-06",
+      "action": "fixed",
+      "reason": "The What-is-SemiAnalysis FAQ now dates every figure: \"as of October 2026 says its newsletter reaches more than 318,000 subscribers\", \"Substrate reported in September 2026\", and \"The Information reported in April 2026 that the firm projected 2026 revenue above $100 million\"."
+    },
+    {
+      "finding_id": "future-07",
+      "action": "fixed",
+      "reason": "The record-limits sentence is dated (\"As of October 2026\") and scoped. C94 is time_sensitive, with a trigger naming the two dockets, former-employee testimony and responses from rated providers. C11 has a trigger to look for his own explanation of the archive scrub."
+    },
+    {
+      "finding_id": "future-08",
+      "action": "fixed",
+      "reason": "The Why-not-8 FAQ now cites a dated pre-2026 behavior (the 2020 move into four years with no fixed home), along with the 2023 Altman meme on the Eight side. It states medium confidence and matches the body section. The Lisa Su post was not used, because the body now reads it as fitting both types."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "The type read says nothing about who is right in that case, and it should not be used to.",
+      "action": "kept",
+      "reason": "Kept verbatim; the sentences after it that undercut it were removed (subject-01, enneagram-07, future-03)."
+    },
+    {
+      "passage": "In the interviews opened for this analysis, he does not say why.",
+      "action": "kept",
+      "reason": "Kept verbatim in the origin section after the archive-scrub quote."
+    },
+    {
+      "passage": "That is a useful warning for anyone reading his origin story, this one included.",
+      "action": "kept",
+      "reason": "Kept verbatim after the \"spin a narrative\" quote."
+    },
+    {
+      "passage": "Almost everything above is Patel's own retelling, given on friendly podcasts, often to hosts who are also his business partners, friends or office neighbors.",
+      "action": "kept",
+      "reason": "Kept verbatim at the head of \"What the record cannot show yet\"."
+    },
+    {
+      "passage": "The test that would move the read is simple: collect his replies to critics over a few years. If he mocks and moves on, that is the Seven. If he escalates and keeps pursuing the same people for weeks, the Eight reading gains.",
+      "action": "kept",
+      "reason": "Kept verbatim. The added sentences that follow extend the sample to fights he starts and add a motive-level coding marker (enneagram-01, fan-07). The closing section applies the test to the first-filed suit (critic-06, future-04)."
+    },
+    {
+      "passage": "SemiAnalysis had made WWE-style championship belts reading \"Inference King\" and mailed them to the benchmark's collaborators, Nvidia among them.",
+      "action": "kept",
+      "reason": "Kept verbatim in the hook."
+    },
+    {
+      "passage": "He added that \"looking back, I can spin a narrative\" in which it was all inevitable ([Latent Space, February 28, 2026](https://www.latent.space/p/dylanpatel-cooking)). That is a useful warning for anyone reading his origin story, this one included.",
+      "action": "kept",
+      "reason": "Kept verbatim after the \"spin a narrative\" quote."
+    },
+    {
+      "passage": "Inside the firm, Substrate reports, he caps private Slack messages at roughly 30% of what staff send, and he \"names and shames\" with a table of people who go over.",
+      "action": "changed",
+      "reason": "Changed to add Substrate's stated purpose (public channels feed the models) and its \"occasionally\" qualifier (subject-04, enneagram-08). The detail's distinctive contribution, a faithfully attributed fact that cuts against the thesis and makes the Eight case credible, is kept: the cap, the \"names and shames\" quote and the table are all still there."
+    },
+    {
+      "passage": "Every named witness is a friend or a colleague.",
+      "action": "kept",
+      "reason": "Kept verbatim. The outside critics now on record (S28, Hot Aisle) are critics of his work, not witnesses who know him, and the next paragraph says so."
+    },
+    {
+      "passage": "Nvidia's CEO was using an outside analyst's jab to sell his product. That part is ordinary marketing.",
+      "action": "kept",
+      "reason": "Kept verbatim. As the critic asked, the same commercial lens is now applied to Patel's email (critic-02)."
+    },
+    {
+      "passage": "None of this makes the Eight case go away. The Slack rule and the influence talk are the parts a Seven reading explains least well.",
+      "action": "kept",
+      "reason": "Kept verbatim. A new sentence after it adds precision without softening: the public naming and hubris fit an Eight better than the quota, and so does the reply habit."
+    },
+    {
+      "passage": "So which reflex runs him: the one that answers every critic, or the one that emails the most important man in his industry to say \"I was wrong\"? This analysis argues it is the second, and that the first is how it sounds out loud.",
+      "action": "changed",
+      "reason": "Changed to \"So which side runs him: the one that answers every critic, or the one that mails out championship belts and keeps moving to the next thing? This analysis argues it is the second, and that the first is how it sounds out loud.\" It keeps the single concrete question and the thesis a cold reader carries through. The premise (the email as costly admission) and the superlative (\"the most important man in his industry\") were removed because fan-02, critic-02, enneagram-01 and future-02 showed both were unsupported."
+    },
+    {
+      "passage": "He tells it as a joke on himself now. It is also the first entry in a long file: a kid picking a public side against a much bigger company's messaging.",
+      "action": "changed",
+      "reason": "The first sentence was the author's gloss (subject-06) and is replaced by Substrate's own description (recalling the phone like \"a first love affair\") plus the 14-year Android loyalty. The second sentence, the pattern link to later public fights, is kept verbatim."
+    },
+    {
+      "passage": "That exchange is the Seven pattern in one conversation. He names the fear. He reaches for the bright side. When the bright side fails, he says out loud that it was a reframe. Then he makes a joke.",
+      "action": "changed",
+      "reason": "The four steps misread the S07 transcript: the joke was Dwarkesh's, and Patel stayed with the bleak argument (subject-03, fan-01, critic-01, enneagram-02). The distinctive contribution, observable steps tied to one sourced exchange that a refresh can test against new interviews, is kept in corrected form: \"He names the fear. He argues it through. He reaches for one positive thing anyway. When it fails, he calls it cope himself and accepts the grim conclusion.\" It is now labeled as supporting, not settling, the read."
+    },
+    {
+      "passage": "The man who wants to be connected to everything spent much of that conference with his name turned around. Substrate does not say why, and no source opened for this analysis does either.",
+      "action": "changed",
+      "reason": "Removed. Its source frames the flipped lanyard as a press-badge point (\"SemiAnalysis is not cleanly press\"), so \"Substrate does not say why\" was misleading (subject-05, fan-05, critic-04). The contribution the protecting reviewers valued, ending on a sourced, unresolved contradiction the type does not tidy and that invents no motive, is kept by a new ending: his own \"I've always been a poster... I've always replied\" set against the early posts he asked the Internet Archive to remove and has not explained."
+    },
+    {
+      "passage": "Because a lot of the evidence says Eight. Here is that case in full.",
+      "action": "kept",
+      "reason": "Kept verbatim. \"In full\" is now accurate: the stubbornness, hubris and the fight-opening GPU-Poor post are added (fan-07)."
+    },
+    {
+      "passage": "It listed everyone who had doubted Huang's numbers, and Patel put himself on the list: \"Here's all the people that gave you crap. Even I gave you crap.\" By his account, he had guessed 15 to 20 times, not the 25 Huang had claimed.",
+      "action": "kept",
+      "reason": "Kept verbatim. The next sentence adds the \"bullish\" context the reviewers said was cut (critic-02, enneagram-01)."
+    },
+    {
+      "passage": "If he mocks and moves on, that is the Seven. If he escalates and keeps pursuing the same people for weeks, the Eight reading gains.",
+      "action": "kept",
+      "reason": "Kept verbatim, as the future reviewer asked; the evidence it applies to is now named (critic-06, future-04)."
+    }
+  ],
+  "prior_blockers": []
+}

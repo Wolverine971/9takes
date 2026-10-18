@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "enneagram",
+  "content_sha256": "4bf49e888159a95d656ccdc4c534450cc28fe603b25dbbdb99f91a5351584eef",
+  "evidence_sha256": "eecf7daaf48a1c96feab2d847da966a30e0c7695ddf4d36b45e93497f167dd8b",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "enneagram-01",
+      "severity": "major",
+      "passage": "What tips the read is what he does at the exact moments an Eight would dig in.",
+      "problem": "The discriminator rests on a straw Eight. An Eight's defense guards against vulnerability and being controlled. It does not require refusing to admit a factual miss, and Eights often concede bluntly when the data is in. In context the lead exhibit cost him almost nothing. In the saved WisdomTree transcript (about 12:00 and 12:54), Patel says SemiAnalysis was \"more bullish than ever\" and \"So we were we were quite bullish,\" while others said about 3x. His own firm's benchmark delivered the news. The email handed Huang a list of \"all the people that gave you crap.\" The title even calls it \"a Win.\" An Eight who owns the winning data loses no face by saying \"I was wrong.\" The finance exit also has an Eight-compatible motive the article reports but does not weigh: the bonus \"should have been more\" (via S10). The closing test has the same problem: \"The test that would move the read is simple: collect his replies to critics over a few years. If he mocks and moves on, that is the Seven.\" Mocking and moving on is a style, not a motive. Eights also swat and move on, and \"escalates for weeks\" is a stereotype. \"Even the fights tend to have a grin in them\" generalizes from two examples while the reply sample in research_tasks is still undone.",
+      "acceptance_test": "The 7-versus-8 discriminator is stated as a difference in motive, between keeping options and stimulation open and keeping control and invulnerability. It is supported by at least two choices that cost him something (for example, years with no fixed home, or quiet-quitting a $100,000-bonus job). The Blackwell email is presented with the \"we were quite bullish\" context, after checking that wording against the audio, and is labeled consistent with both types rather than as a moment an Eight would dig in. The proposed test names a motive-level marker, not \"mocks and moves on.\" \"Tend to\" is either backed by a coded sample of at least 20 replies from 2023–2026 or reduced to the two cited examples."
+    },
+    {
+      "id": "enneagram-02",
+      "severity": "major",
+      "passage": "When the bright side fails, he says out loud that it was a reframe. Then he makes a joke.",
+      "problem": "The article's \"Seven pattern in one conversation\" misreads the S07 transcript, and that weakens its central exhibit. After \"Yes. This is my cope. I agree,\" Patel keeps pressing the bleak argument. \"Why would I let Jane Street make all this money off of these degenerate options traders?\" is him voicing Anthropic's reason to keep compute in-house, which is why power concentrates. It is not a pivot into humor. The joke is Dwarkesh's (\"Hey, they're a sponsor, come on. Jesus Christ.\"). Patel answers \"No, I think it's great...\" and finishes the concentration argument, and Dwarkesh closes \"On that somber note.\" The draft's \"then started riffing about Jane Street ... until Dwarkesh cut in\" and \"He went darker for a sentence\" reverse this. He stayed with the dark conclusion, which, if anything, cuts against Seven pain-avoidance. The Lex exhibit also omits its prompt: Lex asked \"What gives you hope about the future of human civilization,\" so an upbeat ending is shaped by the question, not only by motive.",
+      "acceptance_test": "The exchange matches S07's order. The Jane Street line is described as part of his concentration argument, the sponsor joke is credited to Dwarkesh, and the somber close is acknowledged. \"Then he makes a joke\" is removed from the four-step pattern, or replaced with a step the transcript actually shows. The Lex paragraph says he was answering a question about hope. The section names what the exchange supports (an immediate reach for a saving grace) and what it does not (an escape from the fear, since he ends by accepting it)."
+    },
+    {
+      "id": "enneagram-03",
+      "severity": "major",
+      "passage": "Two other types came up and fit less well.",
+      "problem": "The alternatives section skips the strongest head-triad rival and dismisses Three on tells the record contradicts. SIX: The article's core evidence is a fear exchange, yet Six never appears. The record has a sourced Six case: blanket distrust of authority (\"I don't trust the government, and I don't trust Dario, and I don't trust Sam,\" S07) and worst-case framing (\"There's 80,000 worlds and in only one of them...\"). He praises paranoia across two years: \"Only the paranoid survive. Paranoid Western companies do well\" (S01, 2024) and \"Jensen's very paranoid. And that makes him like an amazing founder\" (S02, 2026). Then there is the guardedness the article admits Seven cannot explain (anonymity, the Internet Archive scrub, the flipped lanyard). Substrate also calls his 14 years on Android \"characteristic stubbornness.\" Counterphobic Six also accounts for the fights with authority figures, so \"unhedged risk\" cannot dismiss Six on its own. THREE: \"a Three rarely ignores his own marketing team's image advice, or spends years posting anonymously\" uses weak tells. Ignoring advice to stop answering critics fits defending his reputation (\"burning desire to respond to anyone ... when they try and criticize me\"). Asking the Internet Archive to remove early posts is image management. Pre-career pseudonymity is ordinary. Leftover Three material: \"My hubris is that they know that our numbers are better than theirs\" (S08), feeling \"like a loser\" when his mother says IT, and the bonus that \"should have been more\" (S10, translated).",
+      "acceptance_test": "A Six paragraph sits beside the 3 and 5 paragraphs. It gives Six's strongest sourced evidence (at least the distrust line and one paranoia-praise quote, each linked and dated) and a discriminator that accounts for counterphobic Six. One example: whether his reframes aim at more options and fun (Seven) or at a trusted, secured position (Six), shown with a specific choice. The Three paragraph drops anonymity as a dismissal, deals with the archive scrub and criticism-response as possible image defense, and gives a discriminator that survives those points."
+    },
+    {
+      "id": "enneagram-04",
+      "severity": "major",
+      "passage": "The interest never settled on one thing. It went wherever the newest thing was.",
+      "problem": "This is the article's main positive Seven evidence for breadth, and it keeps only the thesis-friendly half of the answer. In S01 the same answer continues: \"It bounced all around, but generally it was in computing hardware.\" Substrate adds that he stayed loyal to Android for 14 years out of \"characteristic stubbornness.\" The record shows about 20 years of obsession with one field, from the Xbox fix through forums and chips to SemiAnalysis. The moves happen inside it, toward the frontier. That is closer to sustained specialist focus (the Five or Six reading) than to a Seven's scatter. \"Never settled on one thing\" is contradicted by the source being quoted.",
+      "acceptance_test": "The paragraph restores \"but generally it was in computing hardware\" (or equivalent wording with the S01 link) and recasts the point as scope that keeps widening inside one lifelong field. Any breadth claim uses evidence that supports it, such as S04's \"I've always been interested in everything\" (about 8:16, small.en only, so check it against the audio first). The 14-year loyalty is weighed in the alternatives section rather than left out."
+    },
+    {
+      "id": "enneagram-05",
+      "severity": "major",
+      "passage": "Head triad, as opposed to the gut or the heart. Patel's working life runs on information.",
+      "problem": "The triad is supported by the subject of his job, not by how he handles fear. Reading earnings since 18 and selling research would describe any analyst. That is the standard's Enneagram-6 anchor (the argument could describe anyone in the role). The next paragraph (\"In a Type 7, the fear is of being boxed in: stuck with pain, boredom or a single option\") is generic type description with no Patel evidence. The type answer is the reader's first and most-quoted orientation, and right now it asserts triad and core emotion without earning them.",
+      "acceptance_test": "The triad paragraph cites a sourced behavior showing fear or uncertainty being processed, not his occupation. Examples: the saving-grace reach after \"scary as hell,\" or \"next step, next step, next step\" with no plan. The boxed-in paragraph ties the Seven fear to at least one dated, linked Patel choice, such as calling the quant job \"not as amazing as it seems\" before quiet-quitting in 2020. The earnings-since-18 line either moves to biography or is explicitly labeled as not discriminating."
+    },
+    {
+      "id": "enneagram-06",
+      "severity": "major",
+      "passage": "And he hands over soft spots freely.",
+      "problem": "Several exhibits filed as evidence against Eight do not show vulnerability. Passing off regression as AI in a job interview, and overpromising and then building the product, are war stories about nerve. Eights tell those freely, and they are not the soft spot Eights guard (tenderness or dependence). Crediting readers' crude corrections (\"an unusual way for an Eight to tell a story about being corrected in public\") is also stereotyped, since blunt, crude pushback is an Eight's native register. The Lisa Su exhibit is misread too: \"That reads as credit, not a victory lap.\" The full S13 post says \"She acknowledged the gaps in AMD software stack / She took our specific recommendations seriously / She asked her team and us a lot of questions / Many changes are in flight already!\" A CEO conceding his critique and acting on his recommendations is exactly the influence story he boasts of (\"then Jensen read it and changed the organization\"), which the article files under Eight. Only the mother/IT remark is a genuine soft admission, and it reaches the record only in translation.",
+      "acceptance_test": "The war stories and the readers'-corrections line are reclassified as consistent with both 7 and 8, or removed from the anti-Eight case. The Lisa Su paragraph quotes the \"took our specific recommendations seriously\" line and acknowledges that the post reads as both credit and vindication. Any remaining anti-Eight vulnerability claim rests on a genuinely costly disclosure, labeled with its sourcing limits."
+    },
+    {
+      "id": "enneagram-07",
+      "severity": "major",
+      "passage": "A man who keeps adding rooms to the house has to keep checking which doors are supposed to stay shut, and Patel has not stopped adding rooms.",
+      "problem": "This sentence uses the type thesis (Seven appetite as \"adding rooms\") to frame the conflict-of-interest risk right after an unproven lawsuit. That contradicts the previous sentence (\"The type read says nothing about who is right in that case, and it should not be used to\"). It also treats a $100M firm's expansion into adjacent products as personality evidence, though the evidence record says these moves fit Seven and Eight alike and reflect market opportunity (C40). Personality is being used to explain the shape of a contested allegation, and the type cannot support that inference.",
+      "acceptance_test": "The section ends without a sentence linking the type to the lawsuit or the conflict risk. The conflict structure (his private stakes, ClusterMAX ratings, the fund) is described as a business fact. If business expansion stays in as Seven evidence, it appears outside the lawsuit section with a note that it does not separate Seven from Eight or from ordinary growth incentives."
+    },
+    {
+      "id": "enneagram-08",
+      "severity": "minor",
+      "passage": "Inside the firm, Substrate reports, he caps private Slack messages at roughly 30% of what staff send, and he \"names and shames\" with a table of people who go over.",
+      "problem": "Substrate places the quota inside the firm's information model: Slack is \"the company's lifeblood,\" \"Messages go in public channels by default,\" and an analyst says \"50% of [an analyst's] job is to have sources.\" The quota is largely a professional practice in a firm that sells pooled information. The personal tell is the public naming (\"In signature Dylan fashion\"). Treating the whole rule as Eight control, and then as one of \"the parts a Seven reading explains least well,\" overstates the Eight side without the professional-incentive comparison the standard requires.",
+      "acceptance_test": "The paragraph separates the business rationale (public channels so information is shared) from the personal style (public naming and shaming). The later \"least well\" sentence refers to the naming style and the influence language, not the quota itself."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Because a lot of the evidence says Eight. Here is that case in full.",
+      "reason": "The rival type gets a full, sourced case before the rebuttal. Keep that structure while the discriminator is repaired."
+    },
+    {
+      "passage": "That is a useful warning for anyone reading his origin story, this one included.",
+      "reason": "Turns his own \"I can spin a narrative\" against the article's origin story. An honest inference limit that readers will remember."
+    },
+    {
+      "passage": "The type read says nothing about who is right in that case, and it should not be used to.",
+      "reason": "The correct guard against inferring character from an unproven allegation. Keep it even if the following sentence is cut."
+    },
+    {
+      "passage": "The man who wants to be connected to everything spent much of that conference with his name turned around. Substrate does not say why, and no source opened for this analysis does either.",
+      "reason": "An unresolved, sourced contradiction that survives the type argument and is left unexplained. The best example of the standard's 'behavior the type does not neatly explain.'"
+    },
+    {
+      "passage": "SemiAnalysis had made WWE-style championship belts reading \"Inference King\" and mailed them to the benchmark's collaborators, Nvidia among them.",
+      "reason": "A distinctive, verified, playful detail specific to this person. It supports the Seven read without needing the overstated \"I was wrong\" framing."
+    }
+  ],
+  "assessment": "Seven is still a defensible medium-confidence read. The no-fixed-home years, the planless \"next step\" path, the reach for a saving grace, and the belts and jokes are real Seven-consistent evidence, and the Eight case is presented honestly and in full. The discriminator is weaker than the article claims. Its lead exhibits are low-cost or misread in context. The \"I was wrong\" email came from the most bullish doubter, whose own benchmark proved Huang right. The \"cope\" exchange ends in Patel's own somber argument, not a joke. The Lisa Su post reads as vindication. The breadth claim drops \"generally it was in computing hardware.\" The triad paragraph argues from his occupation, Six is never tested despite sourced distrust and paranoia-praise material, and Three is dismissed on tells the record contradicts. No wing or arrow is used to explain away contradictions, and the unexplained guardedness is admitted, which is good. Risk: contested_typing stays true. If the repaired discriminator cannot rest on costly choices and also beat Six, the editor should soften the type answer's certainty or hold for the coded reply sample in research_tasks. No blocker is raised, because a supported Seven case exists. Similarity advisory checked: no trip (max 0.041, Lamine Yamal), and the top pairs share only ordinary type vocabulary. No meaningful argument reuse was found. Opened for this review: the saved S07, S01, S03, S08, S10 and S13 texts, plus the saved WisdomTree (S04) Whisper transcript (single model, so \"quite bullish\" should be checked against the audio before it is quoted)."
+}

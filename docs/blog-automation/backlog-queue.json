@@ -1,26 +1,11 @@
 {
-	"lastUpdated": "2026-10-16T06:00:00Z",
+	"lastUpdated": "2026-10-18T06:00:00Z",
 	"stats": {
 		"totalUnpublished": 132,
 		"totalPublished": 391,
 		"completionRate": "74.8%"
 	},
 	"queue": [
-		{
-			"name": "dylan-patel",
-			"displayName": "Dylan Patel",
-			"type": null,
-			"priority": 88,
-			"priorityReason": "DJ approved 2026-10-04 (lifts the 2026-09-01 hold). Entity-gap DIAMOND 80/100: SemiAnalysis founder, Wikipedia 404, but an AfC draft was declined 2026-06-21 (can be resubmitted) and Substrate published the first dedicated profile 2026-09-18, so the window is closing. Common name; disambiguate on SemiAnalysis. Seed brief: docs/content-analysis/research/dylan-patel.md.",
-			"estimatedTraffic": "medium",
-			"searchVolume": "medium",
-			"personaTitle": null,
-			"addedToQueue": "2026-10-04",
-			"retryCount": 0,
-			"strategicValue": "entity-gap-tech-analyst-cluster",
-			"entityGapScore": 80,
-			"entityGapPacket": "docs/content-analysis/entity-gaps/Dylan-Patel.md"
-		},
 		{
 			"name": "dan-ives",
 			"displayName": "Dan Ives",
@@ -35,19 +20,6 @@
 			"strategicValue": "entity-gap-tech-analyst-cluster",
 			"entityGapScore": 70,
 			"entityGapPacket": "docs/content-analysis/entity-gaps/Dan-Ives.md"
-		},
-		{
-			"name": "ella-beatty",
-			"displayName": "Ella Beatty",
-			"type": null,
-			"priority": 88,
-			"priorityReason": "First lead in Monster: The Lizzie Borden Story (Netflix Sept 17, No. 1); Wikipedia 4.8K -> 83K/day Sept 16-30, now ~31K. Past peak - thin long-form record; research must widen sources.",
-			"estimatedTraffic": "high",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-10-04",
-			"retryCount": 0,
-			"strategicValue": "netflix-fall-breakout-cluster"
 		},
 		{
 			"name": "christopher-abbott",
@@ -1966,18 +1938,18 @@
 		}
 	],
 	"inProgress": {
-		"name": "grace-reiter",
-		"displayName": "Grace Reiter",
+		"name": "ella-beatty",
+		"displayName": "Ella Beatty",
 		"type": null,
-		"priority": 89,
-		"priorityReason": "Joined SNL Season 52 as a featured player (announced Sept 16, premiere Sept 26); Wikipedia 116/day in June -> 4.5K/day last 30, re-spiking after each episode (16.6K on Sept 27). Netflix is adapting her web series Minimum Wage. Rolling Stone Most Influential Creators 2026 #20. First-person record is mostly her own podcast (That's Enough with Grace Reiter) plus short press quotes; use Open Case if evidence caps. Hometown sources conflict (Madison vs Chippewa Falls, WI) - verify. Identity-first meta_title.",
-		"estimatedTraffic": "medium",
-		"searchVolume": "medium",
+		"priority": 88,
+		"priorityReason": "First lead in Monster: The Lizzie Borden Story (Netflix Sept 17, No. 1); Wikipedia 4.8K -> 83K/day Sept 16-30, now ~31K. Past peak - thin long-form record; research must widen sources.",
+		"estimatedTraffic": "high",
+		"searchVolume": "high",
 		"personaTitle": null,
-		"addedToQueue": "2026-10-11",
+		"addedToQueue": "2026-10-04",
 		"retryCount": 0,
-		"strategicValue": "snl-season-52-cluster",
-		"startedAt": "2026-10-16T06:00:00Z"
+		"strategicValue": "netflix-fall-breakout-cluster",
+		"startedAt": "2026-10-18T06:00:00Z"
 	},
 	"skipped": [
 		{
@@ -2569,6 +2541,68 @@
 				"editorial_status": "needs_revision",
 				"blockers": ["verification:revise", "overall_below_8.5:8.4"],
 				"run_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-15_06-00-03-138_mike-faist"
+			}
+		},
+		{
+			"name": "grace-reiter",
+			"displayName": "Grace Reiter",
+			"type": null,
+			"priority": 89,
+			"priorityReason": "Joined SNL Season 52 as a featured player (announced Sept 16, premiere Sept 26); Wikipedia 116/day in June -> 4.5K/day last 30, re-spiking after each episode (16.6K on Sept 27). Netflix is adapting her web series Minimum Wage. Rolling Stone Most Influential Creators 2026 #20. First-person record is mostly her own podcast (That's Enough with Grace Reiter) plus short press quotes; use Open Case if evidence caps. Hometown sources conflict (Madison vs Chippewa Falls, WI) - verify. Identity-first meta_title.",
+			"estimatedTraffic": "medium",
+			"searchVolume": "medium",
+			"personaTitle": null,
+			"addedToQueue": "2026-10-11",
+			"retryCount": 0,
+			"strategicValue": "snl-season-52-cluster",
+			"startedAt": "2026-10-16T06:00:00Z",
+			"heldAt": "2026-10-17T06:00:00Z",
+			"needsReview": true,
+			"pipelineResult": {
+				"subject": "grace-reiter",
+				"run_status": "held",
+				"editorial_status": "needs_revision",
+				"blockers": [
+					"verification:revise",
+					"unresolved:verify2-01:Factual error about a named person. Soresi was not in Ginger Twinsies. Playbill's cast list (Russell Daniels, Aneesa Folds, Jimmy Ray Bennett, Lakisha May, Grace Reiter, Phillip Taratula, Matthew Wilkas, Mitch Wood) omits him. On her show in September 2025 he jokes that more people will see her clip on his podcast \"than we'll ever see Ginger Twinsies\" (S27 0:07:05), and she says \"Me and Russell have broken that one scene ... 'Oh, like Annie, it's you'\" (S27 0:41:14). Her castmate was his co-host Russell Daniels (named as co-host in S20 0:00:20; in S39's YouTube description), who played Annie. The research log flagged this credit as an unconfirmed inference to check against a cast list; the article prints it as fact. It is also the phrase meant to fix unfamiliar-03 and unfamiliar-04, so both decisions fail. C64's claim text repeats the error.",
+					"unverified_claim:C64",
+					"unresolved_review:unfamiliar-03",
+					"unresolved_review:unfamiliar-04",
+					"overall_below_8.5:8.2"
+				],
+				"run_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-16_06-00-03-204_grace-reiter"
+			}
+		},
+		{
+			"name": "dylan-patel",
+			"displayName": "Dylan Patel",
+			"type": null,
+			"priority": 88,
+			"priorityReason": "DJ approved 2026-10-04 (lifts the 2026-09-01 hold). Entity-gap DIAMOND 80/100: SemiAnalysis founder, Wikipedia 404, but an AfC draft was declined 2026-06-21 (can be resubmitted) and Substrate published the first dedicated profile 2026-09-18, so the window is closing. Common name; disambiguate on SemiAnalysis. Seed brief: docs/content-analysis/research/dylan-patel.md.",
+			"estimatedTraffic": "medium",
+			"searchVolume": "medium",
+			"personaTitle": null,
+			"addedToQueue": "2026-10-04",
+			"retryCount": 0,
+			"strategicValue": "entity-gap-tech-analyst-cluster",
+			"entityGapScore": 80,
+			"entityGapPacket": "docs/content-analysis/entity-gaps/Dylan-Patel.md",
+			"startedAt": "2026-10-17T06:00:00Z",
+			"heldAt": "2026-10-18T06:00:00Z",
+			"needsReview": true,
+			"pipelineResult": {
+				"subject": "dylan-patel",
+				"run_status": "held",
+				"editorial_status": "needs_revision",
+				"blockers": [
+					"verification:revise",
+					"unresolved:verify-r-01:The repair's new 7-over-8 discriminator rests on a gap the article's most-cited source contradicts, and leaves out a circumstance its own evidence record names. Patel's 2024 account (S01) says \"In 2022, I also started going to every conference I could.\" Substrate (S08), which the article cites 53 times, says \"By 2021, Dylan's itinerary had become a succession of acronyms: ISSCC, DAC, ECTC,\" and places the early travel \"As the pandemic progressed\". The body still says \"two years before the conferences\" and \"from 2022 it explains much of the travel\". The Why-not-8 FAQ says he hit the road \"two years before conferences gave him a business reason to travel\". The type section offers the 2020 move as his \"clearest dated example\" of a Seven's fear of being boxed in. The article never mentions the pandemic, yet C139's alternative says the 2020-2021 travel \"overlapped a pandemic in which conferences were limited\". That is a non-temperament explanation for the very gap the article says tips the read. C41, C137, C138 and C139 cite only S01 and do not record S08's 2021 dating. This argument was written in repair, after the six-role jury reviewed the draft. It is now the deciding Seven evidence, and no reviewer has challenged it.",
+					"unresolved_review:enneagram-01",
+					"overall_below_8.5:7.9",
+					"evidence_below_8:7.8",
+					"enneagram_below_8:7.2"
+				],
+				"run_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-17_06-00-03-505_dylan-patel"
 			}
 		}
 	]

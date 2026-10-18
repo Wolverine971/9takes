@@ -1,0 +1,199 @@
+{
+  "target": {
+    "person": "dylan-patel",
+    "type": "7",
+    "units": 14,
+    "file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-17_06-00-03-505_dylan-patel/draft.md"
+  },
+  "comparison_set": [
+    {
+      "person": "florence-pugh",
+      "date": "2026-10-04",
+      "units": 13
+    },
+    {
+      "person": "frank-lloyd-wright",
+      "date": "2026-08-26",
+      "units": 44
+    },
+    {
+      "person": "Tyla",
+      "date": "2026-08-15",
+      "units": 44
+    },
+    {
+      "person": "Travis-Kelce",
+      "date": "2026-08-13",
+      "units": 48
+    },
+    {
+      "person": "stavros-halkias",
+      "date": "2026-07-25",
+      "units": 25
+    },
+    {
+      "person": "lamine-yamal",
+      "date": "2026-07-19",
+      "units": 18
+    },
+    {
+      "person": "john-coogan",
+      "date": "2026-07-14",
+      "units": 28
+    },
+    {
+      "person": "Jeff-Goldblum",
+      "date": "2026-07-03",
+      "units": 21
+    }
+  ],
+  "n_requested": 8,
+  "noise_floor": {
+    "pairs_compared": 3374,
+    "median": 0,
+    "p90": 0,
+    "p99": 0.008,
+    "max": 0.041
+  },
+  "trip_threshold": 0.04,
+  "tripped": false,
+  "trip_pairs": [],
+  "per_draft_max": [
+    {
+      "person": "lamine-yamal",
+      "date": "2026-07-19",
+      "units": 18,
+      "maxScore": 0.041
+    },
+    {
+      "person": "Travis-Kelce",
+      "date": "2026-08-13",
+      "units": 48,
+      "maxScore": 0.029
+    },
+    {
+      "person": "florence-pugh",
+      "date": "2026-10-04",
+      "units": 13,
+      "maxScore": 0.028
+    },
+    {
+      "person": "john-coogan",
+      "date": "2026-07-14",
+      "units": 28,
+      "maxScore": 0.027
+    },
+    {
+      "person": "frank-lloyd-wright",
+      "date": "2026-08-26",
+      "units": 44,
+      "maxScore": 0.02
+    },
+    {
+      "person": "Tyla",
+      "date": "2026-08-15",
+      "units": 44,
+      "maxScore": 0.017
+    },
+    {
+      "person": "Jeff-Goldblum",
+      "date": "2026-07-03",
+      "units": 21,
+      "maxScore": 0.015
+    },
+    {
+      "person": "stavros-halkias",
+      "date": "2026-07-25",
+      "units": 25,
+      "maxScore": 0.008
+    }
+  ],
+  "top_pairs": [
+    {
+      "score": 0.041,
+      "other_person": "lamine-yamal",
+      "shared_phrases": [],
+      "target": "[diagnosis] so plenty of people who follow him would guess Type 8",
+      "other": "[diagnosis] Plenty of athletes tolerate pressure."
+    },
+    {
+      "score": 0.029,
+      "other_person": "Travis-Kelce",
+      "shared_phrases": [],
+      "target": "[diagnosis] Patel's working life runs on information.",
+      "other": "[counter-typing] run on control and confrontation as their baseline weather."
+    },
+    {
+      "score": 0.028,
+      "other_person": "florence-pugh",
+      "shared_phrases": [],
+      "target": "[diagnosis] They handle it by staying in motion and finding the upside.",
+      "other": "[diagnosis] meeting pain with motion and fun"
+    },
+    {
+      "score": 0.027,
+      "other_person": "john-coogan",
+      "shared_phrases": [
+        "work life"
+      ],
+      "target": "[diagnosis] Patel's working life runs on information.",
+      "other": "[diagnosis] and freedom from intellectual confinement organize his working life."
+    },
+    {
+      "score": 0.024,
+      "other_person": "Travis-Kelce",
+      "shared_phrases": [],
+      "target": "[diagnosis] he widens the field and makes it fun.",
+      "other": "[diagnosis] \"You saying 'marijuana' makes it sound so more intense."
+    },
+    {
+      "score": 0.024,
+      "other_person": "florence-pugh",
+      "shared_phrases": [],
+      "target": "[diagnosis] Most of the evidence is his own telling on friendly podcasts",
+      "other": "[diagnosis] and the evidence against it gets its own sections below."
+    },
+    {
+      "score": 0.02,
+      "other_person": "Travis-Kelce",
+      "shared_phrases": [],
+      "target": "[diagnosis] They handle it by staying in motion and finding the upside.",
+      "other": "[counter-typing] then re-sign reportedly below market to stay in the room."
+    },
+    {
+      "score": 0.02,
+      "other_person": "frank-lloyd-wright",
+      "shared_phrases": [],
+      "target": "[diagnosis] Sevens are in the head triad and have the core emotion of fear.",
+      "other": "[counter-typing] Sevens are Positive Outlook and reframe it away."
+    },
+    {
+      "score": 0.019,
+      "other_person": "john-coogan",
+      "shared_phrases": [],
+      "target": "[diagnosis] Sevens are in the head triad and have the core emotion of fear.",
+      "other": "[counter-typing] The Three energy is visible without defining the core."
+    },
+    {
+      "score": 0.019,
+      "other_person": "Travis-Kelce",
+      "shared_phrases": [],
+      "target": "[diagnosis] He told Dwarkesh Patel in 2024 that \"I've read all the company's earnings since I was 18",
+      "other": "[diagnosis] \" he told Rich Eisen on that September 2024 visit"
+    },
+    {
+      "score": 0.017,
+      "other_person": "Tyla",
+      "shared_phrases": [],
+      "target": "[diagnosis] He told Dwarkesh Patel in 2024 that \"I've read all the company's earnings since I was 18",
+      "other": "[diagnosis] in the version Soso gave OkayAfrica in 2024."
+    },
+    {
+      "score": 0.015,
+      "other_person": "john-coogan",
+      "shared_phrases": [],
+      "target": "[diagnosis] What tips the read is what he does at the exact moments an Eight would dig in.",
+      "other": "[counter-typing] he refused to continue until a supervisor gave him the exact value of the promised gift card."
+    }
+  ]
+}

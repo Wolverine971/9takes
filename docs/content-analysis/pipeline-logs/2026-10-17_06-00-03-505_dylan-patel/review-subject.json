@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "subject",
+  "content_sha256": "4bf49e888159a95d656ccdc4c534450cc28fe603b25dbbdb99f91a5351584eef",
+  "evidence_sha256": "eecf7daaf48a1c96feab2d847da966a30e0c7695ddf4d36b45e93497f167dd8b",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "subject-01",
+      "severity": "major",
+      "passage": "It does describe the shape of the risk. A man who keeps adding rooms to the house has to keep checking which doors are supposed to stay shut, and Patel has not stopped adding rooms.",
+      "problem": "This comes one sentence after the article says the type read \"should not be used\" on the lawsuit, and then it does exactly that. It follows a paragraph about an unproven allegation that Patel had material non-public information put into client models. 'Which doors are supposed to stay shut' is an information-barrier image, so it ties his personality to the specific charge SemiAnalysis denies. No source says his expansion caused any barrier failure. Both suits are unresolved (S23, S08, S10). The sentence turns an allegation into a character arc.",
+      "acceptance_test": "The lawsuit paragraph ends on the documented record: who alleges what, the denial, and no ruling or settlement as of the stated date. No sentence in that section, or in any FAQ, title or description, links a personality trait or the type read to the lawsuit, the Fluidstack rating or information handling. The disclaimer sentence stays."
+    },
+    {
+      "id": "subject-02",
+      "severity": "major",
+      "passage": "Substrate reports that SemiAnalysis staff may not hold public investments in companies the firm covers. Patel's private stakes are another matter.",
+      "problem": "This drops Patel's answers on the conflict question. Substrate presents the public/private split as his own answer: 'Dylan is aware of potential conflicts and raises an example... He also separates private and public markets: the fund is for early-stage private investing, and SemiAnalysis employees are not permitted to hold public investments.' Substrate then adds its own caveat that many key AI companies are private. 'Another matter' replaces his stated line and Substrate's specific caveat with the author's insinuation. The draft also leaves out other responses on record. The Information (via S10) says Patel himself made the Prime Intellect 'Bronze' point to show the firm does not favor companies he invests in, but the draft presents it as neutral fact. The Information also reported that SemiAnalysis planned an outside review of its data handling after clients asked. Wallstreetcn (S23) reports that Patel posted that the company would 'vigorously defend' its position.",
+      "acceptance_test": "The passage presents the public/private investment split as Patel's own answer (attributed to Substrate) and states Substrate's actual caveat about private AI companies in place of 'another matter'. The Prime Intellect point is attributed to Patel as his rebuttal. The lawsuit paragraph includes, with attribution, at least one on-record response beyond the bare denial: the 'vigorously defend' statement or the reported outside data-handling review. 'SemiAnalysis denies his allegations' is placed in its own court filing."
+    },
+    {
+      "id": "subject-03",
+      "severity": "major",
+      "passage": "The distrust of the government, Amodei and Altman is the part an Eight would say too. What follows it is not an Eight's next move. He does not propose going after the people with the power. He goes looking for a reason it might turn out fine.",
+      "problem": "The draft calls this the core discriminator, but its account of what he said next doesn't match the transcript (S07, dwarkesh.com/p/dylan-patel-3). Between 'I don't trust Sam' and the 'saving grace', Patel argues: 'So what can prevent it? I don't know. Unless AI progress slows down, unless governments regulate the fuck out of it, this is all that happens.' He frames the alternative as 'we pray that that one company gets everything right' and concludes 'it's kind of hard to find a framework in which AI doesn't lead to super concentration.' Only after that does he offer 'the one positive thing.' So he named the checks on power and reached a bleak conclusion before any upside. Also, the 'degenerate options traders' line is not a joke after the fact. He is voicing Anthropic's reasoning for keeping tokens in-house ('Why would I let Jane Street make all this money...'), the joke is Dwarkesh's sponsor quip, and Patel then goes on making the concentration argument seriously. The 'machine that loves grace' line refers to Amodei's essay 'Machines of Loving Grace', and its tone is ambiguous, but the draft treats it as sincere hope. The four-step 'Seven pattern in one conversation' rests on these misreadings.",
+      "acceptance_test": "The section quotes or faithfully paraphrases the regulation/slowdown passage and the 'pray that that one company gets everything right' line in the order he said them. The sentence 'He does not propose going after the people with the power. He goes looking for a reason it might turn out fine.' is removed, or rewritten so it matches the transcript. The Jane Street line is described as part of his argument that power concentrates, not as a joke he pivoted to. The 'machine that loves grace' line is identified as a reference to Amodei's essay, with its tone left open. The 'Seven pattern in one conversation' claim and any FAQ that relies on 'my cope' are qualified to match what the full exchange shows."
+    },
+    {
+      "id": "subject-04",
+      "severity": "major",
+      "passage": "Inside the firm, Substrate reports, he caps private Slack messages at roughly 30% of what staff send, and he \"names and shames\" with a table of people who go over.",
+      "problem": "This shows a real manager shaming staff without the purpose the same source gives. Substrate says 'Messages go in public channels by default' because the analysts' sources feed the models: Wayne Ma says '50% of [an analyst's] job is to have sources', inputs 'go on Slack', and 'searchable channels provide a constant flow of information.' Substrate says he 'occasionally' shares the table, and the draft drops that qualifier. The next sentence, 'He edits hard: ... This is fucking wrong', is about '[An external analyst's]' descriptions and primers, not staff. Substrate follows it with 'Still, most newsletter pitches are approved.' Putting it under 'Inside the firm' overstates his control of staff. Later, 'So do the Slack rule and the talk of influence' calls a rule that forces messages into the open 'guarded', which is backwards.",
+      "acceptance_test": "The Slack sentence gives the stated purpose (public channels by default so sources and inputs flow into the models, attributed to Substrate) and keeps 'occasionally'. The editing quote names its target as an external analyst's primers, or moves out of the 'Inside the firm' frame. The record-limits section no longer calls the Slack rule guarded unless a source supports that reading. Both FAQ answers that cite the Slack rule match the revised body."
+    },
+    {
+      "id": "subject-05",
+      "severity": "major",
+      "passage": "The man who wants to be connected to everything spent much of that conference with his name turned around. Substrate does not say why, and no source opened for this analysis does either.",
+      "problem": "The article ends on a detail with its context removed. Substrate sets the flipped lanyard up as a point about press status. At Hot Chips, industry attendees get plain white name cards, but 'press badges are distinct. The front side is seafoam green, and the back is blank.' Right after the lanyard sentence comes 'SemiAnalysis is not cleanly press.' Substrate gives no motive, but it offers a professional reading, and the draft hides it. The draft also counts the lanyard as evidence of guardedness alongside the scrubbed archive, and ends on it as a psychological mystery. That invites readers to imagine a personal hiding motive the record doesn't support. The evidence record's own wording ('wore his Hot Chips badge flipped so his name was hard to spot') also states an intent the source doesn't.",
+      "acceptance_test": "If the lanyard stays, the passage says it was a distinct press badge and that Substrate uses it to ask whether SemiAnalysis counts as press. No sentence implies he was hiding or attaches a psychological motive. 'Substrate does not say why' is removed or replaced with Substrate's framing. Otherwise the lanyard is dropped from the guardedness evidence and from the ending."
+    },
+    {
+      "id": "subject-06",
+      "severity": "minor",
+      "passage": "Patel concluded that Samsung was paying influencers to talk down HTC, the phone maker he loved, and he took up arms.",
+      "problem": "'Concluded' makes a documented fact sound like a teenager's suspicion. Substrate says that 'Through his Reddit modding, Dylan noticed that Samsung had paid influencers to post about its phones and to post negatively about HTC.' In October 2013 Taiwan's Fair Trade Commission fined Samsung about NT$10 million for paying people to post that kind of content, with HTC as the apparent target (reported by PCWorld, Marketing Week and others). The next line, 'He tells it as a joke on himself now', is also the author's gloss. Substrate describes sentiment ('a man recalling a first love affair') and says he stayed loyal to Android for 14 years.",
+      "acceptance_test": "The sentence uses Substrate's 'noticed', or says the paid campaign was confirmed by Taiwan's 2013 fine, linked to a contemporaneous report. 'He tells it as a joke on himself now' either matches what Substrate describes or is cut."
+    },
+    {
+      "id": "subject-07",
+      "severity": "minor",
+      "passage": "Critics, including the account Hot Aisle, questioned the Fluidstack rating publicly",
+      "problem": "The only named critic of the rating Patel's investment received is called 'the account Hot Aisle.' Hot Aisle is a GPU cloud provider: SemiAnalysis's December 2024 MI300X post (S14) thanks it for donating compute. That makes it a Fluidstack competitor with a commercial stake in ClusterMAX rankings. Wallstreetcn (S23) says its post 'implies that the rating results were potentially influenced by kickbacks'. Readers can't weigh the criticism without knowing who is making it.",
+      "acceptance_test": "Hot Aisle is identified as a competing GPU cloud provider, with a source. The sentence keeps the neutral 'questioned' and does not repeat the kickback implication as if it were established."
+    },
+    {
+      "id": "subject-08",
+      "severity": "minor",
+      "passage": "Dylan Patel built SemiAnalysis by posting and picking fights.",
+      "problem": "The meta description, which is what most searchers will see, says fights were how he built the firm. The body says SemiAnalysis grew through data models, conference sourcing, consulting and paid research (fewer than 5% of revenue from Substack). Patel credits posting ('the origin of SemiAnalysis really comes from shitposting'), but no source credits 'picking fights' as how he built the business. Out of context, the description reduces a 90-person research firm to feuding.",
+      "acceptance_test": "The description says what he built and why the profile is interesting without presenting fights as the way he built it. Any description of his combativeness is clearly about his style, not his business method. The description stays 120–170 characters and does not say more than the medium-confidence type read supports."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "The type read says nothing about who is right in that case, and it should not be used to.",
+      "reason": "This states the right limit on an unproven allegation. Keep it, and remove the sentences after it that undercut it (subject-01)."
+    },
+    {
+      "passage": "In the interviews opened for this analysis, he does not say why.",
+      "reason": "This is accurate. I checked the S01 transcript: he says he asked the Internet Archive to remove his early posts and gives no reason. The article declines to invent a motive."
+    },
+    {
+      "passage": "That is a useful warning for anyone reading his origin story, this one included.",
+      "reason": "This uses his own 'I can spin a narrative' caveat against the article's own origin story, which is the right stance for a profile built on retrospective self-reports."
+    },
+    {
+      "passage": "Almost everything above is Patel's own retelling, given on friendly podcasts, often to hosts who are also his business partners, friends or office neighbors.",
+      "reason": "This is a plain, specific statement of where the evidence comes from: who his witnesses are and how they relate to him. It keeps the article from claiming more than it knows about his motives."
+    },
+    {
+      "passage": "The test that would move the read is simple: collect his replies to critics over a few years. If he mocks and moves on, that is the Seven. If he escalates and keeps pursuing the same people for weeks, the Eight reading gains.",
+      "reason": "This is a concrete test, based on his observable behavior, that could prove the type read wrong. It treats him fairly by making the read depend on evidence, not on the author's certainty."
+    }
+  ],
+  "assessment": "Most of the draft separates what Patel said from what the author infers. It attributes the Fluidstack lawsuit to both sides, keeps the countersuit's specific misconduct claims out, and admits the record comes from friendly sources. The fairness failures cluster where the draft leaves out context the sources give, and each omission makes him look worse or helps the thesis. (1) The lawsuit section closes with a personality metaphor about doors staying shut, right after saying the type read shouldn't be applied there. (2) The conflict paragraph turns Patel's stated public/private investment line into 'another matter'. It also hides that the Prime Intellect point was his own rebuttal and leaves out his other on-record responses. (3) In the core 'scary as hell' exchange, he actually named regulation or a slowdown as the only checks and called the outlook bleak before offering any upside. The draft skips that, and it presents an argument about Jane Street as a joke. (4) The Slack 'names and shames' detail appears without the purpose Substrate gives (public-by-default information flow). The 'This is fucking wrong' edit was aimed at an external analyst, not staff. (5) The closing lanyard image hides Substrate's press-badge framing and implies he was hiding. Smaller fixes: 'concluded' for a Samsung campaign that a regulator confirmed, an unnamed competitor's interest behind the Hot Aisle criticism, and a description that says he built the firm by picking fights. I reopened the cached Substrate, Deep News, Wallstreetcn, Dwarkesh (2024 and 2026), Lex Fridman and WisdomTree texts and transcripts behind these passages. I confirmed Hot Aisle's role from S14 and the 2013 Samsung fine through a web search. I could not read The Information original (paywalled) or the court dockets. The sensitive-allegation and contested-typing risks stand, so the six-role jury applies."
+}

@@ -1,0 +1,29 @@
+Error: Reached max turns (60)
+[runner] Turn limit reached; resuming session 35f99aca-eeb3-462e-9e34-d29415cd4feb to write outputs
+The Ella Beatty draft stage is done. I wrote `draft.md` and `evidence-draft.json` to the run folder, and both pass the repo's v3 checks (`checkDraft` and `validateEvidence`). I didn't change any other repo files and didn't publish anything.
+
+**What the draft argues**
+- **It's an open case.** Type 6 is the leading read at low confidence, Type 9 is the main rival, and Types 2 and 3 are still possible. `published: false`, `enneagram: '6'`, and the titles, description and FAQs all say "leading read," never "is a Type 6."
+- **The tension it's built on:** everyone around her sees composure (Paulson calls her "unnervingly, dazzlingly self-assured"), while she keeps describing fear and then preparing her way out of it. It opens with her arriving at the Carlyle before the Vogue reporter and raising the nepotism question before she was asked.
+- **The most distinctive point** is that she describes relief at having no room to worry and at "being someone else." That reads as a Six's anxiety and a Nine's self-forgetting equally well, and the draft says so instead of picking one.
+- It has the required "What would settle it" section with five future signals, tied to dated events (Golden Globe nominations in early December 2026, and *The Bell Jar* release, which has no date yet).
+
+**One decision for you:** on 2026-10-12 you asked people pages to commit to the type. The open-case rules require the hedged "leading read" wording, so I followed those. If you'd rather this page commit, that's a call for the edit stage.
+
+**How the quotes were checked**
+- Every quote in the article matches the saved source texts.
+- I re-listened to every quote taken from YouTube auto-captions by running the audio through Whisper (a local transcription tool). Where Whisper and the captions disagreed, I kept only the words both had.
+- I checked that quotes split around "she said" were next to each other in the original, and that I hadn't kept only the half of an answer that suits the type. For example, the "worry" passage now includes the line before it ("I didn't have time to worry about it").
+
+**What I dropped or changed**
+- **The Bell Jar role:** research said she plays "Joan," but no source we opened says so. The draft only says she appears opposite Billie Eilish.
+- **Charlie Hunnam:** the source has him saying "a little, you know, couple of days of reading," not "a couple of days of reading," so I paraphrased him instead of quoting.
+- **Golden Globes date:** CBS's press page says nominations are on "Monday, Dec. 8," but December 8, 2026 is a Tuesday. The draft says "early December." I added that CBS page as source S29; it's the only new source.
+- **Unused claims:** I removed nine claims the article doesn't use, including the TMZ item and the Page Six item, but kept their sources. Nothing in the draft mentions or hints at either.
+
+**Still open for the editor and reviewers**
+- **Length:** 2,699 words against the open case's target of about 2,500 (the hard limit is 4,500). I listed four places to cut in the evidence file.
+- **Podcast quotes:** nobody has actually listened to check who is speaking in the In The Moment podcast. I attributed the quotes from context ("that play" is hers, and the host replies "I'm sorry I missed it").
+- **Review panel:** both risk flags are still set (contested typing and sensitive allegations), so the six-reviewer panel applies.
+
+My scripts and the audio clips are in `/tmp/ella-beatty-draftcheck/`, outside the repo.

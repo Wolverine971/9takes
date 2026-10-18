@@ -1,0 +1,18 @@
+I've written the Enneagram review for the Dylan Patel draft to `review-enneagram.json` in the run folder. It passes the review schema, and both hashes match the request. I changed no other files and published nothing.
+
+**Verdict:** Type 7 at medium confidence holds up. The best evidence is the years with no fixed home, the "next step, next step" path, the reach for a "saving grace," and the joke belts. The rival Type 8 case is laid out fairly and in full. But the deciding argument is weaker than the article claims, because several of its key examples look different in the source context. I filed 8 findings (7 major, 1 minor) and no blocker.
+
+**What the sources show:**
+- **The "I was wrong" email cost him little.** The saved WisdomTree transcript has him saying "we were quite bullish," while others guessed 3x. His own firm's benchmark proved Huang right, and the email gave Huang a list of the other doubters. The article also assumes an Eight refuses to admit factual mistakes, which is a stereotype.
+- **The "This is my cope" exchange is misdescribed.** The Jane Street line is Patel continuing his bleak argument, not a joke. The joke ("they're a sponsor") is Dwarkesh's, and the episode closes "on that somber note." So "Then he makes a joke" isn't in the transcript. Separately, his upbeat answer on Lex Fridman was a reply to "What gives you hope."
+- **The breadth claim quotes only half his answer.** The same answer goes on: "but generally it was in computing hardware." Substrate also credits his 14 years on Android to "characteristic stubbornness."
+- **Type 6 is never mentioned.** The sources have a real Six case: "I don't trust the government, and I don't trust Dario, and I don't trust Sam," and praise for paranoia in two interviews (2024 and 2026). Type 3 is dismissed for reasons the record contradicts; asking the Internet Archive to remove his early posts looks like image management.
+- **The Lisa Su post reads as a win as much as credit.** It says she "took our specific recommendations seriously." That is the kind of influence he brags about elsewhere, which the article counts toward Type 8.
+- **Other problems:**
+  - The head-triad case rests on his analyst job rather than on how he handles fear.
+  - The "adding rooms" sentence links his type to the conflict-of-interest risk right after the lawsuit, against the article's own warning.
+  - The Slack quota is partly a business practice: Substrate says messages default to public channels so information gets shared.
+
+The review marks five passages to keep, including the full Eight case, the "spin a narrative" warning, the line refusing to use the type to judge the lawsuit, the flipped-lanyard ending, and the belts.
+
+The "quite bullish" wording comes from a single Whisper transcription, so the editor should check it against the audio before quoting it.

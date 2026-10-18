@@ -1,0 +1,27 @@
+{
+  "schema_version": 3,
+  "subject": "ella-beatty",
+  "mode": "create",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_edit_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-18_06-00-03-074_ella-beatty/draft.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-18_06-00-03-074_ella-beatty/evidence-draft.json",
+    "similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-18_06-00-03-074_ella-beatty/similarity.json",
+    "review-subject": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-18_06-00-03-074_ella-beatty/review-subject.json",
+    "review-fan": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-18_06-00-03-074_ella-beatty/review-fan.json",
+    "review-critic": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-18_06-00-03-074_ella-beatty/review-critic.json",
+    "review-unfamiliar": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-18_06-00-03-074_ella-beatty/review-unfamiliar.json",
+    "review-enneagram": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-18_06-00-03-074_ella-beatty/review-enneagram.json",
+    "review-future": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-18_06-00-03-074_ella-beatty/review-future.json",
+    "baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-18_06-00-03-074_ella-beatty/baseline-reader.md",
+    "checks": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-18_06-00-03-074_ella-beatty/draft-checks.json"
+  },
+  "outputs": {
+    "edit.md": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-18_06-00-03-074_ella-beatty/edit.md",
+    "evidence-edit.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-18_06-00-03-074_ella-beatty/evidence-edit.json",
+    "resolution-edit.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-18_06-00-03-074_ella-beatty/resolution-edit.json"
+  }
+}

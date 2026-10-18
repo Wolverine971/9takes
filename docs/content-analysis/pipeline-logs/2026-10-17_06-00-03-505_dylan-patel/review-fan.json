@@ -1,0 +1,93 @@
+{
+	"schema_version": 3,
+	"role": "fan",
+	"content_sha256": "4bf49e888159a95d656ccdc4c534450cc28fe603b25dbbdb99f91a5351584eef",
+	"evidence_sha256": "eecf7daaf48a1c96feab2d847da966a30e0c7695ddf4d36b45e93497f167dd8b",
+	"risks": {
+		"sensitive_allegations": true,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": false
+	},
+	"findings": [
+		{
+			"id": "fan-01",
+			"severity": "major",
+			"passage": "He does not propose going after the people with the power. He goes looking for a reason it might turn out fine.",
+			"problem": "The centerpiece Seven exchange (S07, Dwarkesh, August 25, 2026) is trimmed in the thesis's favor. Between \"I don't trust Sam\" and \"the one saving grace\" the transcript has his longest and bleakest passage, which the draft skips: \"Unless AI progress slows down, unless governments regulate the fuck out of it, this is all that happens. In which case, we're headed for a world where either we have super concentration of resources and we pray that that one company gets everything right, or we have governments slow everything down ... and there is more of a balance of power,\" then \"it's kind of hard to find a framework in which AI doesn't lead to super concentration.\" So he does name a check on the powerful (governments slowing it down), and he stays with the grim conclusion for longer than \"went darker for a sentence\" suggests. The Jane Street line is not a riff or a joke. \"Why would I let Jane Street make all this money off of these degenerate options traders?\" is him speaking as Anthropic to make the argument that power concentrates. The joke is Dwarkesh's (\"they're a sponsor\"), and Patel answers with \"No, I think it's great\" and keeps arguing. The four-beat pattern (fear, bright side, admitted reframe, joke) only works with these cuts. The Lex Fridman half of the section (S03) also leaves out the prompt: the optimism answered Lex's closing question, \"What gives you hope about the future of human civilization,\" which asks for upside.",
+			"acceptance_test": "The section quotes or accurately summarizes the \"regulate the fuck out of it / we pray that that one company gets everything right / hard to find a framework\" passage. The Jane Street line is described as part of his argument, and \"Then he makes a joke\" is removed or reattributed. The sentence saying he does not propose going after the people with the power is removed or qualified, given that he names a government slowdown. The Lex paragraph says he was answering a question about hope. The \"Seven pattern in one conversation\" claim is either narrowed to what survives, which is an upside he himself calls cope, or argued again against the full exchange."
+		},
+		{
+			"id": "fan-02",
+			"severity": "major",
+			"passage": "His biggest moment came from telling Jensen Huang he was wrong.",
+			"problem": "The title, description and lede rest on a causal story that only Patel's account supports, and they treat the email as a costly admission. (1) On stage Huang tied the line to something SemiAnalysis published: \"And then semi-analysis came out, and Dylan Patel had a quote ... 'Jensen sandbagged. It's actually 50 times.'\" (S12 01:03:46-01:04:01). Substrate (S08) says the chart showed 50x on GB300 NVL72. The email Patel describes on WisdomTree (S04) ends \"It was 30x.\" That the email led to the stage moment is Patel's claim (\"he took that ... I didn't know that he was doing anything with it\"), yet the lede presents it as established: \"The odd part is where the jab came from.\" (2) Fans know SemiAnalysis's relationship with Nvidia is close and two-way. InferenceX is co-built with Nvidia engineers (\"Nvidia people helped and they knew\"), and Substrate reports that \"'Nvidia's Christmas Present…' triggered a series of emails from Huang.\" Telling a collaborator-CEO that his own marketing number was right is flattering and commercially useful, and it carries little risk. That makes it a weak example of \"the moments that cost him something,\" and the professional-incentive explanation is never tested. (3) Patel's own retelling celebrates the spotlight: \"he talked about us longer than anyone else in the entire presentation,\" \"it was just such a surreal moment,\" \"it was an incredible moment.\" Leaving that out hides material that bears on the Type 3 alternative. (4) \"Biggest\" is the author's judgment.",
+			"acceptance_test": "The title and description stop stating as fact that the GTC moment came from the admission. Either they attribute the link to Patel, or they describe the email without claiming it caused the moment. The lede either notes that Huang credited a published SemiAnalysis 50x claim while the email Patel describes said 30x, or it drops \"where the jab came from.\" The type argument states the professional-incentive reading of the email (good news delivered to a collaborator and frequent correspondent) and says why the Seven reading still beats it, or gives the email less weight as a discriminator. His \"longer than anyone else\" and \"surreal moment\" framing appears and is weighed in the Type 3 paragraph."
+		},
+		{
+			"id": "fan-03",
+			"severity": "major",
+			"passage": "That reads as credit, not a victory lap.",
+			"problem": "The Lisa Su post is quoted selectively, and the cut lines reverse its sense. The full post (S13, December 23, 2024) has six lines: \"Met with @LisaSu today for 1.5 hours as we went through everything / She acknowledged the gaps in AMD software stack / She took our specific recommendations seriously / She asked her team and us a lot of questions / Many changes are in flight already! / Excited to see improvements coming\". The draft quotes lines 1, 2 and 6 and drops the three about AMD's CEO acting on SemiAnalysis's recommendations. Substrate (S08) uses the same 90-minute call as proof that SemiAnalysis's \"analyses turn heads, especially those of its subjects.\" Read whole, the post shows influence just as clearly as it gives credit. That is the \"We influence opinion\" pattern the draft itself counts toward Eight. Yet the draft uses the post as clean anti-Eight evidence.",
+			"acceptance_test": "The paragraph quotes the full post, or at least \"She took our specific recommendations seriously\" and \"Many changes are in flight already!\" The sentence \"credit, not a victory lap\" is replaced with a reading that acknowledges both the credit and the display of influence. The post either stops being listed as evidence against Eight or comes with a stated reason it still counts."
+		},
+		{
+			"id": "fan-04",
+			"severity": "major",
+			"passage": "Disappointed by finance, he left.",
+			"problem": "The rebuttal lists the finance exit as something \"the Eight reading has trouble with.\" But the only motive anywhere in the record is pay. The Deep News adaptation of The Information (S10) says he \"was disappointed with his bonus\" and gives his complaint that it should have been more (translated wording, so it cannot be quoted as English). Leaving because you are underpaid is easy for an Eight reading to explain; the evidence record's own alternative_case says so. The draft mentions the bonus earlier but drops it where it would complicate the argument. The phrase \"quiet quit\" (S01) also means he kept the salary while building the blog, which softens the \"costly bet\" framing of the exit.",
+			"acceptance_test": "The Why-not-8 section either removes the finance exit from the list of moments an Eight cannot explain, or states the pay motive (paraphrased and attributed to The Information via the adaptation) and argues why the Seven reading explains the exit better. The \"It was still a costly bet\" sentence acknowledges that he quiet-quit, staying employed, before he left."
+		},
+		{
+			"id": "fan-05",
+			"severity": "major",
+			"passage": "Substrate does not say why, and no source opened for this analysis does either.",
+			"problem": "The closing image is stripped of the context Substrate gives for it. Tang writes: \"industry attendees ... receive name cards printed on plain white paper. But press badges are distinct. The front side is seafoam green, and the back is blank. For much of this year's conference, Dylan's lanyard is flipped, and his well-known name is hard to spot. SemiAnalysis is not cleanly press, at least not in the style of old-school information shops.\" She places the flipped badge inside the question of whether SemiAnalysis is press or industry. The draft drops that setup, files the detail next to the archive scrubbing as evidence of personal guardedness the Seven reading cannot explain, and ends the article on it. Literally, the closing line is true. In effect, it is misleading.",
+			"acceptance_test": "The lanyard passage includes the press-badge context (green press badge, blank back, \"not cleanly press\") and no longer presents the detail as unexplained personal guardedness. Otherwise the detail is cut, and the 'What the record cannot show yet' section still lands without it."
+		},
+		{
+			"id": "fan-06",
+			"severity": "major",
+			"passage": "The business grew the same way, by impulse and opening.",
+			"problem": "Informed readers would look for the two calls that made SemiAnalysis's reputation, and the draft omits both. The omission tilts the origin story toward Seven-style serendipity. (1) Substrate (S08) describes the 2023 CoWoS call in detail. Patel reasoned that tracking TSMC's CoWoS output could predict Nvidia's revenue, and \"Confident in his predictions,\" he hired. With Myron Xie he published \"AI Capacity Constraints - CoWoS and HBM Supply Chain,\" and that work grew into the Accelerator & HBM Model, among the firm's most sought-after products. The draft's \"slightly overpromise\" quote comes from this passage, but the draft moves it to unspecified \"early sales\" without the systematic, against-consensus modeling around it. (2) In May 2023 SemiAnalysis published Google's leaked \"We Have No Moat\" memo (S19, opened but unused), the firm's best-known scoop and a clear case of publishing against a giant. Both show sustained, methodical bets, not impulse.",
+			"acceptance_test": "The section names the CoWoS call (dated and attributed to Substrate) and places the overpromise quote in its 2023 institutional-sales context. The No Moat leak gets at least one dated, sourced sentence, either here or in the Eight case. The \"impulse and opening\" summary is qualified so it fits both the accidents and the deliberate calls."
+		},
+		{
+			"id": "fan-07",
+			"severity": "minor",
+			"passage": "Because a lot of the evidence says Eight. Here is that case in full.",
+			"problem": "\"In full\" overstates the case. It leaves out the independent profiler's character word and his own closing boast, and it frames the Altman exchange as purely reactive. Substrate (S08) says that \"In a fit of uncharacteristic sentimentality but characteristic stubbornness, Dylan stayed loyal to Android for the next 14 years.\" That 14-year loyalty also complicates \"The interest never settled on one thing.\" Tang reports that he \"closes our conversation with pride\": \"My hubris is that they know that our numbers are better than theirs. And we often are.\" The August 2023 fight also began with SemiAnalysis's own broadside, before Altman's jab. The GPU-Poor post (S18) called open-source researchers \"generally ignorant,\" named HuggingFace, Databricks and Together as GPU-poor, and called European efforts \"completely uncompetitive.\" Finally, the proposed 7/8 test (\"collect his replies to critics\") would miss fights he starts.",
+			"acceptance_test": "Either the words \"in full\" are dropped, or the section adds Tang's \"characteristic stubbornness\" with the 14-year Android loyalty, the \"My hubris\" line, and a sentence noting that the GPU-Poor post opened the fight. The proposed test also samples attacks he initiates, not only his replies to critics."
+		},
+		{
+			"id": "fan-08",
+			"severity": "minor",
+			"passage": "Most of it happened under other names.",
+			"problem": "Patel does describe his early posting and Reddit moderating as anonymous (S02, Latent Space). But Substrate (S08) reports he was \"sixteen when he shed his burner account for u/dylan522p,\" calls that handle \"the bedrock of Dylan's deeply opinionated online presence,\" says it \"is still a moderator on r/hardware, r/google, r/tpu\" and r/SemiAnalysis, and closes with \"u/dylan522p types on.\" It is the same handle he uses on X today. From 16 on, then, he wrote under his first name with no surname, an identity continuous with his public one, and r/hardware readers know it. The draft never names the handle. It then gives \"the years of anonymity\" real weight, both as guardedness the Seven reading cannot explain and as grounds for dismissing Type 3.",
+			"acceptance_test": "The origin section names u/dylan522p and his r/hardware moderator role, attributed to Substrate. It describes the early identity as an anonymous blog plus a first-name handle without a surname. The 'What the record cannot show yet' section and the Type 3 paragraph give the anonymity less weight to match, and keep the Internet Archive request as the clearer evidence of guardedness."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "SemiAnalysis had made WWE-style championship belts reading \"Inference King\" and mailed them to the benchmark's collaborators, Nvidia among them.",
+			"reason": "A memorable detail that holds up when the sources are reopened (WisdomTree large-v3-turbo transcript and Substrate both describe the belt). It gives the GTC story texture no template could."
+		},
+		{
+			"passage": "He added that \"looking back, I can spin a narrative\" in which it was all inevitable ([Latent Space, February 28, 2026](https://www.latent.space/p/dylanpatel-cooking)). That is a useful warning for anyone reading his origin story, this one included.",
+			"reason": "Uses the subject's own words to put the article's evidentiary limit in front of the reader. It is honest and distinctive, and it should survive any restructuring."
+		},
+		{
+			"passage": "Inside the firm, Substrate reports, he caps private Slack messages at roughly 30% of what staff send, and he \"names and shames\" with a table of people who go over.",
+			"reason": "A specific, faithfully attributed detail that cuts against the thesis. Keeping it is part of what makes the Eight case credible."
+		},
+		{
+			"passage": "Every named witness is a friend or a colleague.",
+			"reason": "A plain, accurate statement of the sourcing's biggest weakness, which an informed reader would otherwise raise."
+		},
+		{
+			"passage": "The type read says nothing about who is right in that case, and it should not be used to.",
+			"reason": "Keeps the personality argument away from an unresolved lawsuit. Necessary for fairness."
+		}
+	],
+	"assessment": "As an informed-reader proxy: the draft is well sourced, unusually candid about its limits, and it takes the Eight case seriously. Reopening the sources, though, shows that the three load-bearing pieces of Seven evidence have each been trimmed toward the thesis. The Dwarkesh centralization exchange skips his longest bleak passage and casts an argument as a joke. The Lisa Su post loses the three lines about AMD acting on SemiAnalysis's recommendations. The Huang email is read as a costly admission, though it was good news delivered to a collaborator-CEO, and the 50x quote Huang read on stage does not match the email's 30x. Two Substrate details lose the context that explains them (the press badge, u/dylan522p). The business story leaves out the CoWoS call and the No Moat leak that a fan would expect. Nothing here is fabricated. The pattern is selective quotation, the 'verbatim but not faithful' failure. Once repaired, the Type 7 read may hold at lower confidence, or Type 8 may lead. If the edit changes the leading type, treat it as a major thesis change and route it back through refresh and expanded review rather than resolving it in the edit."
+}

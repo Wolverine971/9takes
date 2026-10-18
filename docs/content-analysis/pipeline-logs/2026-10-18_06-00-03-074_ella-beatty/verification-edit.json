@@ -1,0 +1,911 @@
+{
+  "schema_version": 3,
+  "content_sha256": "8c99a04015a0812aec298479bde62a56faa5209f81b699f2ad50f2ff7a80ea7b",
+  "evidence_sha256": "9392f931747b7d749fb2ac4831c3f6ede027937f6959f17d5c61f6f92b3e9b94",
+  "status": "pass",
+  "findings": [
+    {
+      "id": "verify-01",
+      "severity": "minor",
+      "passage": "In a Zoom conversation recorded in May 2025 and published by [Interview](https://www.interviewmagazine.com/theater/meet-ella-beatty-daughter-of-hollywood-royalty-and-sarah-paulsons-kindred-spirit) that June, Paulson asked whether she had ever thought she shouldn't use her last name. Beatty said no.",
+      "problem": "The question is broadened. In the Interview transcript Paulson asks, 'When you were at Juilliard, did you ever think, \"I shouldn't have my last name?\"' Beatty answers 'No', then: 'It really never occurred to me until I started working.' With 'at Juilliard' dropped, 'Beatty said no' reads as a blanket denial, while the next quote says the thought did come once she was working. The quotation is accurate; the framing of the question is not. Claim C75 records the question correctly but its passage drops the qualifier.",
+      "acceptance_test": "The sentence restores the Juilliard frame, e.g. 'Paulson asked whether, at Juilliard, she had ever thought she shouldn't use her last name. Beatty said no.' C75's passage matches the new wording exactly. The quotation that follows is unchanged."
+    },
+    {
+      "id": "verify-02",
+      "severity": "minor",
+      "passage": "And the one report of nerves with nothing at stake, between performances in 2025, is hard to put down to a first lead.",
+      "problem": "In Interview (S04) the nerves come mid-run of Sexual Misconduct of the Middle Classes, a two-hander opposite Hugh Jackman (in effect a co-lead), during gaps of 'four or five days between performances'. She ties them to missing the play ('I'm finding being away from the play really hard... I miss it when I'm away from it'). The next performance was still ahead, so 'nothing at stake' is the author's overstatement. 'Hard to put down to a first lead' also leans on treating Monster as her first lead, though this run was itself a lead stage role. The datum is real and is one of the two observations the editor used to answer enneagram-01. The earlier paragraph gives the context correctly ('she missed the play'), so this is a wording repair, not a missing source.",
+      "acceptance_test": "The sentence says only what S04 supports, e.g. 'the one report of nerves away from any opening, audition or first night, on days off in the middle of a 2025 run', and drops 'nothing at stake'. Either it drops the 'first lead' contrast or it says it was mid-run rather than opening nerves. C57's passage and inference match. The Six case still marks the datum as her own account."
+    },
+    {
+      "id": "verify-03",
+      "severity": "minor",
+      "passage": "Her accounts of pressure point outward, to \"so many people to please\" and not leaving people \"in the lurch.\"",
+      "problem": "The body is 2,952 words by checkDraft, about 18% over the roughly 2,500-word open-case target, and the weighing section re-quotes material the reader has just met. 'So many people to please' appears three times in the body, and 'Exceptionally poised' and 'make me separate' twice each. It is not padding, and every addition answered a jury finding. But the recaps slow the weighing section slightly. This is not a release gate.",
+      "acceptance_test": "Optional, at the next refresh: the weighing section points back to evidence already quoted instead of re-quoting it, bringing the body nearer 2,500 words. No sourced counterevidence, alternative-type evidence or settle signal is removed."
+    }
+  ],
+  "research_tasks": [
+    "Human listen still owed for S05 (In The Moment, SoundCloud): about 30:15-30:40 ('so many things to serve and so many people to please') and 31:18-31:52 ('being where your feet are... something I'm still really trying to do'). The verifier re-downloaded the episode, re-transcribed both windows with Whisper large-v3-turbo (wording matches the article) and ran its own pitch check: quoted passages median 182-232 Hz, host's long turn median about 121 Hz. Context also fits: the host answers the passage with 'well I'm sorry I missed it' about the play she was in. Three independent machine checks agree, but no human has listened.",
+    "Open the Wonderland interview (S27, October 5, 2026) from another network. It is the most recent interview located and could hold a response to the Monster reviews (settle signal 1, C85).",
+    "At next_review (2026-12-15): check for an on-record response to criticism of her performance, awards-season or Bell Jar interviews (settle signal 2), and any account of a disagreement (C62) or of her own anger (C83). A September 2026 Capital FM item frames her Gayety junket answer about the show's queer storyline as a response to backlash. That concerns the show's choices, not her performance, so it does not meet signal 1. Note it if the framing spreads.",
+    "When verify-01 and verify-02 are repaired, update the C75 and C57 passages to match exactly."
+  ],
+  "claim_checks": [
+    {
+      "claim_id": "C09",
+      "verdict": "supported",
+      "reason": "Vogue (S01) confirms 2:58 p.m. for a 3 p.m. coffee, the folded coat, the hotel setting and 'Always be on time... (Or, in her case, early.)'. 'Expecting to wait' paraphrases 'figuring that it would be me waiting for her'."
+    },
+    {
+      "claim_id": "C07",
+      "verdict": "supported",
+      "reason": "S01: 'Exceptionally poised, she addresses the nepo-baby discourse outright, without me even asking', with both quoted sentences verbatim."
+    },
+    {
+      "claim_id": "C37",
+      "verdict": "supported",
+      "reason": "S01 'Exceptionally poised' is the reporter's own phrase."
+    },
+    {
+      "claim_id": "C18",
+      "verdict": "supported",
+      "reason": "S20 quote verbatim, attributed to Paulson. The author-voice relationship label is gone and her Appropriate credit is a stable fact."
+    },
+    {
+      "claim_id": "C11",
+      "verdict": "supported",
+      "reason": "S12 verbatim and in order; 'Beatty describes both' fairly gives the confidence half before the fear half."
+    },
+    {
+      "claim_id": "C01",
+      "verdict": "supported",
+      "reason": "S20, S21 and S22 agree on youngest of four, Bening and Beatty, Los Angeles. S20 gives summer camp and community theater."
+    },
+    {
+      "claim_id": "C02",
+      "verdict": "supported",
+      "reason": "Vogue: Juilliard start 2018. Deadline/S21: 2022 graduate. S04 quote verbatim."
+    },
+    {
+      "claim_id": "C03",
+      "verdict": "supported",
+      "reason": "S21, S20, S09, S04 (two-hander) and S06 support each credit and its sequence; Tribeca June 2026 is supported by IndieWire's June 9 Tribeca piece."
+    },
+    {
+      "claim_id": "C38",
+      "verdict": "supported",
+      "reason": "S11 names Murphy and Brennan's anthology. Premiere September 17, 2026 per S14/S11."
+    },
+    {
+      "claim_id": "C04",
+      "verdict": "supported",
+      "reason": "S23 verbatim figures: 14.5 million views in week two, No. 1 on the global English list."
+    },
+    {
+      "claim_id": "C39",
+      "verdict": "supported",
+      "reason": "S20 and S21 confirm the film and the co-star. A verifier web search on 2026-10-18 found no announced release date (production wrapped; Focus Features has not dated it)."
+    },
+    {
+      "claim_id": "C40",
+      "verdict": "qualified",
+      "reason": "Sources support the dated record (Feud January 2024, Vogue February 2024) and the composure/fear gap. No search-interest data is cited for 'people have been looking her up'. That is orientation, not evidence, and it is low-stakes."
+    },
+    {
+      "claim_id": "C41",
+      "verdict": "supported",
+      "reason": "Mirrors the type hypothesis. Each responsibility instance and 'off book' is verified (S04, S12, S05, S20). 57 words, mirrored verbatim in FAQ 1."
+    },
+    {
+      "claim_id": "C42",
+      "verdict": "qualified",
+      "reason": "Supported as worded: she names fear outright in S12, S14, S04 and S05 (re-checked). One nuance: she names shame only to deny it ('an artistic legacy that I don't feel ashamed of', S04). The claim says 'names outright' and stays true."
+    },
+    {
+      "claim_id": "C08",
+      "verdict": "supported",
+      "reason": "S04 verbatim. The ellipsis omits one sentence without changing meaning."
+    },
+    {
+      "claim_id": "C43",
+      "verdict": "supported",
+      "reason": "Interpretation stated without a verdict: 'on its own it cannot show motive'. Consistent with S01 and S04."
+    },
+    {
+      "claim_id": "C06",
+      "verdict": "supported",
+      "reason": "S04 verbatim, including 'wildly close to' as Paulson's own phrase. Vogue (S01) independently reports the self-tape and callback with Paulson and Esper."
+    },
+    {
+      "claim_id": "C05",
+      "verdict": "supported",
+      "reason": "S19 Winkler account verified ('We got her', seven tapes, 'Don't tell me who it is', 'Is it Ella?'). S20 confirms the self-tape and 'six of the eight episodes'."
+    },
+    {
+      "claim_id": "C45",
+      "verdict": "supported",
+      "reason": "S12 verbatim."
+    },
+    {
+      "claim_id": "C12",
+      "verdict": "supported",
+      "reason": "S14 verbatim, with the excitement half restored. The September 9 date comes from the report."
+    },
+    {
+      "claim_id": "C46",
+      "verdict": "supported",
+      "reason": "S13 verbatim; the narrowing to 'what was on the page' is quoted."
+    },
+    {
+      "claim_id": "C33",
+      "verdict": "supported",
+      "reason": "Verifier's Whisper pass of S05 confirms about two days of table work, blocking from video and understudies, 'came in off book so that would never be an issue', tech then opening at the Belasco, Lila's 'own version', and the assurance quote. Neugebauer's surname comes from S04."
+    },
+    {
+      "claim_id": "C48",
+      "verdict": "supported",
+      "reason": "A fair three-step summary of the verified S05 account; labeled pattern language."
+    },
+    {
+      "claim_id": "C49",
+      "verdict": "supported",
+      "reason": "S04 verbatim. 'She missed the play' and the diary book are in context."
+    },
+    {
+      "claim_id": "C10",
+      "verdict": "supported",
+      "reason": "S20 verbatim; 'as a newcomer' reflects T&C's 'conscious of being new to the industry'."
+    },
+    {
+      "claim_id": "C50",
+      "verdict": "supported",
+      "reason": "S04 verbatim and in the order spoken. Jackman (S20) and 'self-possessed' (S04) verified."
+    },
+    {
+      "claim_id": "C51",
+      "verdict": "supported",
+      "reason": "Verifier's Whisper large-v3-turbo pass of S05 (~30:15-30:36) matches all three quoted segments. The context is the Appropriate takeover. Pitch and conversational turn support her as the speaker."
+    },
+    {
+      "claim_id": "C32",
+      "verdict": "supported",
+      "reason": "Verifier's Whisper pass of S05 (~31:18-31:52) matches the block quote word for word. The host's reply ('I'm sorry I missed it') confirms she is the speaker who 'did' that play."
+    },
+    {
+      "claim_id": "C52",
+      "verdict": "supported",
+      "reason": "Labeled interpretation reading one answer three ways; the restored clause is verified."
+    },
+    {
+      "claim_id": "C15",
+      "verdict": "supported",
+      "reason": "S20 verbatim, including the 'joy in sharing' counterweight."
+    },
+    {
+      "claim_id": "C14",
+      "verdict": "supported",
+      "reason": "S08 transcript: 'I feel like the luckiest lady in the world', before the premiere."
+    },
+    {
+      "claim_id": "C31",
+      "verdict": "supported",
+      "reason": "Verifier's Whisper pass of S05 (~34:38): 'every project that I've ever done... I can't believe they picked me', about Feud and later work."
+    },
+    {
+      "claim_id": "C53",
+      "verdict": "supported",
+      "reason": "S20 verbatim."
+    },
+    {
+      "claim_id": "C54",
+      "verdict": "supported",
+      "reason": "Labeled interpretation; the Three section later concedes the press-statement limit."
+    },
+    {
+      "claim_id": "C16",
+      "verdict": "supported",
+      "reason": "S10 broadcast captions: the question was 'How does she support you?'; quotes verbatim. S17 'once a day, debrief' and 'not giving you the answer' verified."
+    },
+    {
+      "claim_id": "C34",
+      "verdict": "supported",
+      "reason": "Verifier's Whisper pass of S05 (~37:23) verbatim, in her answer about audition vulnerability."
+    },
+    {
+      "claim_id": "C19",
+      "verdict": "supported",
+      "reason": "S20 verbatim, attributed to Winkler."
+    },
+    {
+      "claim_id": "C56",
+      "verdict": "supported",
+      "reason": "S10 broadcast captions: 'listen... the best advice they have given me. What the other person is doing is always more interesting than what you can create.'"
+    },
+    {
+      "claim_id": "C57",
+      "verdict": "qualified",
+      "reason": "The responsibility thread is verified across S04, S12 and S13, and the growth-task quote is verified by the verifier's own Whisper pass. 'The one report of nerves with nothing at stake... hard to put down to a first lead' overstates S04, where the nerves came mid-run of a two-hander lead role between performances (verify-02)."
+    },
+    {
+      "claim_id": "C58",
+      "verdict": "supported",
+      "reason": "S16 and S10 quotes verified with their frames; Kumar's sentence in S20 verbatim and attributed to him as one writer's impression."
+    },
+    {
+      "claim_id": "C13",
+      "verdict": "supported",
+      "reason": "S10 verbatim, keeping the friendship frame."
+    },
+    {
+      "claim_id": "C60",
+      "verdict": "supported",
+      "reason": "S12 verbatim, from the same answer as 'really scared'."
+    },
+    {
+      "claim_id": "C24",
+      "verdict": "supported",
+      "reason": "S04 'Always, always' verbatim; childhood stage work in S20 and S03."
+    },
+    {
+      "claim_id": "C35",
+      "verdict": "supported",
+      "reason": "S15 verified by the verifier's own Whisper pass of the audio. The S05 and S04 halves are verified. The 'lacks' sentence is fair to the record."
+    },
+    {
+      "claim_id": "C25",
+      "verdict": "supported",
+      "reason": "'Exceptionally poised' (S01) and 'make me separate' (S04) verified. The press-statement limit is stated."
+    },
+    {
+      "claim_id": "C20",
+      "verdict": "supported",
+      "reason": "Interpretation consistent with the sources reopened: fear and nerves are volunteered (S12, S04, S05); no self-critical standards talk; no set-apart self-image."
+    },
+    {
+      "claim_id": "C61",
+      "verdict": "supported",
+      "reason": "Interpretation that matches the record: every fear instance comes under first-lead, put-in or nepotism pressure."
+    },
+    {
+      "claim_id": "C62",
+      "verdict": "qualified",
+      "reason": "No first-person account of a creative disagreement appears in the reopened sources. Limited to opened sources, and dated as of October 18, 2026, as stated."
+    },
+    {
+      "claim_id": "C63",
+      "verdict": "supported",
+      "reason": "S32 verbatim: Monday, December 7, 2026 nominations; Bell Jar undated as of October 18, 2026 (verifier search)."
+    },
+    {
+      "claim_id": "C26",
+      "verdict": "supported",
+      "reason": "S20 verbatim, with 'in the series' and 'father and stepmother' correctly qualified."
+    },
+    {
+      "claim_id": "C64",
+      "verdict": "supported",
+      "reason": "Callback to C09 (S01) and C33 (S05), both verified."
+    },
+    {
+      "claim_id": "C65",
+      "verdict": "supported",
+      "reason": "S12 verbatim in the description."
+    },
+    {
+      "claim_id": "C66",
+      "verdict": "supported",
+      "reason": "Title uses open-case, leading-read language; the role is supported by S11 and S21."
+    },
+    {
+      "claim_id": "C67",
+      "verdict": "supported",
+      "reason": "Drawn from 'came in off book' (S05, verified) and 'show up off-book' (S20)."
+    },
+    {
+      "claim_id": "C68",
+      "verdict": "supported",
+      "reason": "FAQ mirrors the Nine section; quotes verified in S20."
+    },
+    {
+      "claim_id": "C69",
+      "verdict": "supported",
+      "reason": "FAQ mirrors the four body signals and open_case.settle_signals."
+    },
+    {
+      "claim_id": "C70",
+      "verdict": "supported",
+      "reason": "S19 Winkler account and S20 self-tape verified; Feud for Murphy per S21/S20."
+    },
+    {
+      "claim_id": "C71",
+      "verdict": "supported",
+      "reason": "S21/S22 family facts; S18 'Shirley MacLaine is my incredible aunt'; S20 and S04 quotes verbatim."
+    },
+    {
+      "claim_id": "C72",
+      "verdict": "supported",
+      "reason": "S21 and S22 give April 8, 2000, Los Angeles, attributed in the answer; consistent with S20's '26-year-old' in September 2026."
+    },
+    {
+      "claim_id": "C73",
+      "verdict": "supported",
+      "reason": "Same as C72. A reference-source date, attributed in the FAQ."
+    },
+    {
+      "claim_id": "C74",
+      "verdict": "supported",
+      "reason": "S01's own first line: 'Ella Beatty beats me to the Carlyle.'"
+    },
+    {
+      "claim_id": "C75",
+      "verdict": "qualified",
+      "reason": "Dates and the 'No' are verified. Paulson's question was 'When you were at Juilliard, did you ever think...', and the passage drops 'at Juilliard' (verify-01)."
+    },
+    {
+      "claim_id": "C76",
+      "verdict": "supported",
+      "reason": "February 21, 2024 (S01) to September 17, 2026 (S11) is about two years seven months."
+    },
+    {
+      "claim_id": "C77",
+      "verdict": "supported",
+      "reason": "S11: 'tried and acquitted for the murders of her stepmother and father in 1893', and the series as 'interpretation'. Linked at the passage."
+    },
+    {
+      "claim_id": "C79",
+      "verdict": "supported",
+      "reason": "Absence verified in reopened S01, S20, S21 and S22: Vogue describes the Appropriate tape and callback, not Feud; Biography says only that she 'landed her first professional role'."
+    },
+    {
+      "claim_id": "C80",
+      "verdict": "supported",
+      "reason": "S20 verbatim, weighed in one clause with no wound inferred."
+    },
+    {
+      "claim_id": "C81",
+      "verdict": "supported",
+      "reason": "Labeled interpretations set side by side, both resting on verified S05 statements."
+    },
+    {
+      "claim_id": "C82",
+      "verdict": "supported",
+      "reason": "S20 verbatim, attributed to Kumar with its limit stated."
+    },
+    {
+      "claim_id": "C83",
+      "verdict": "qualified",
+      "reason": "No account of her own anger or irritation appears in the sources the verifier reopened (Vogue, Interview, Town & Country, Meindl windows, junket videos). 'Female rage' is the show's theme, and 'Not patient by nature. I'm an Aries' (S15) is a joke. Limited to opened sources, as stated."
+    },
+    {
+      "claim_id": "C84",
+      "verdict": "supported",
+      "reason": "S30 and S31 verbatim, with dates verified (Sept 17 and Sept 18, 2026; D+)."
+    },
+    {
+      "claim_id": "C85",
+      "verdict": "qualified",
+      "reason": "No response to the reviews of her performance was found in the opened post-premiere interviews or in a verifier web search on 2026-10-18. Wonderland (S27) is unopened. A Capital FM item frames her Gayety answer about the queer storyline as a reply to backlash, but that concerns the show, not her performance."
+    },
+    {
+      "claim_id": "C86",
+      "verdict": "supported",
+      "reason": "Feud and Monster are Murphy's (S21, S11). Paulson is in Appropriate (S04) and Monster (S23 cast list, S10 'work together again')."
+    },
+    {
+      "claim_id": "C87",
+      "verdict": "supported",
+      "reason": "S20 verbatim, placed before the role irony as the repair required."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "S01",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Vogue, Elise Taylor, Feb 21, 2024 (re-fetched live). Opening: 'Ella Beatty beats me to the Carlyle... I arrive at 2:58 p.m. for our 3 p.m. coffee'; 'neatly folded coat, draped over the crook of her arm'; 'father Warren Beatty's cardinal rules: \"Always be on time.\" (Or, in her case, early.)'; 'Exceptionally poised, she addresses the nepo-baby discourse outright, without me even asking'; 2018 Juilliard start. Also checked: Vogue describes the Appropriate self-tape and callback, but not how she was cast in Feud."
+    },
+    {
+      "source_id": "S03",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Broadway.com YouTube avbqFPe5Xpk (transcript re-fetched): 02:01-03:01 Annie (Sandy), Simba, Ursula, eight-week ranch summer camp. Supports the childhood community and camp theater in C01/C24. The unverified write-up lines are not used in the article."
+    },
+    {
+      "source_id": "S04",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Interview, published June 5, 2025, intro 'on a Zoom last month' (re-fetched via r.jina.ai; curl got a stub). Verified in context: 'when you walked out, Michael and I turned to each other...'; 'a person I'm wildly close to'; 'self-possessed'; 'I had no idea who your parents were'; the surname answer (the ellipsis omits one sentence; Paulson's question says 'When you were at Juilliard', see verify-01); 'Always, always'; 'I didn't work professionally at all until I graduated from acting school'; the full pressure answer ('responsibility to honor... in the lurch... I didn't have a lot of time to be scared'); nights off ('I miss it... four or five days between performances and I get really nervous'; Ian Rickson's diary book); 'a juicy two-hander'."
+    },
+    {
+      "source_id": "S05",
+      "opened": true,
+      "context_matches": true,
+      "locator": "In The Moment podcast, SoundCloud, 51:56 (re-downloaded with yt-dlp; windows at 00:30, 09:30, 23:00-27:30, 29:45-32:15, 33:45-35:15 and 36:00-38:00 re-transcribed with Whisper large-v3-turbo). Verbatim matches: 'my dear friend, Ella Beatty' (~01:00); two days of table work, blocking from a video and understudies, 'I came in off book so that would never be an issue', tech Tuesday to Friday at the Belasco; Lila 'wanting me to find my own version'; 'because I felt that assurance from her going into it I didn't feel a pressure to replicate anybody else's'; ~30:15 'part of what was so great about it... self-involved about it i had so much to do and so many things to serve and so many people to please' (context: the Appropriate takeover, right after the River/Esper discussion); ~31:18 'being present... something i'm still really trying to do and god knows that was something i did in that play', followed by the host's 'I'm sorry I missed it'; ~34:38 'every project that I've ever done... I can't believe they picked me'; ~37:23 'a friend to call to be like oh my god that audition was a nightmare'. Speaker attribution is supported by the verifier's pitch check and by context, not by a human listen."
+    },
+    {
+      "source_id": "S06",
+      "opened": true,
+      "context_matches": true,
+      "locator": "IndieWire (Kate Erbland), datePublished 2026-06-09, Tribeca: Act One (re-fetched). Supports the Act One lead and the June 2026 Tribeca premiere in C03."
+    },
+    {
+      "source_id": "S07",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Eirini Mo, YouTube d73NuEKCxLc (transcript re-fetched): 00:19 'Oh, I felt very lucky to even have been [sent the script]'. Supports the luck register in C14 only."
+    },
+    {
+      "source_id": "S08",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Entertainment Tonight, YouTube DdDLa9vctOA (transcript re-fetched): 00:10 'I feel like the luckiest lady in the world'. Uploaded 2026-09-12, before the September 17 premiere. The verifier's audio download was bot-blocked; the draft stage's Whisper re-check is on record."
+    },
+    {
+      "source_id": "S09",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Deadline (Nellie Andreeva), July 2025 (re-fetched): 'A 2022 Juilliard graduate, she made her Broadway debut with Appropriate, succeeding Elle Fanning'; Ghosts; Sexual Misconduct opposite Jackman; 'multi-country casting search'; Borden 'tried and acquitted'."
+    },
+    {
+      "source_id": "S10",
+      "opened": true,
+      "context_matches": true,
+      "locator": "TODAY, YouTube Q6n83ZQZX2w (broadcast caption track, not auto-generated; re-fetched): 02:02-02:14 'She's one of my very best friends in the world. We became extremely close... and we just kind of fell in love immediately', in answer to a question about the friendship; 02:16-02:31 'How does she support you?... We call every 15 minutes... She's there for advice at any minute'; 03:23-03:35 'listen... the best advice they have given me. What the other person is doing is always more interesting than what you can create.'"
+    },
+    {
+      "source_id": "S11",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Netflix Tudum (Kristin Iversen), Sept 17, 2026 (re-fetched): 'fourth installation of Ryan Murphy and Ian Brennan's Emmy-winning anthology series'; 'The series offers an introduction to and interpretation of Borden's life. She was tried and acquitted for the murders of her stepmother and father in 1893'."
+    },
+    {
+      "source_id": "S12",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Variety (William Earl), datePublished 2026-09-17 (re-fetched): 'I felt very connected to the character immediately... I remember making the audition tape and thinking, \"I understand this person.\" When I found out that I had gotten the part, I was over the moon and also really scared. I felt a huge responsibility to the part, to the anthology, to the real person. I think immediately I just wanted to start working on it.' All article uses are in context."
+    },
+    {
+      "source_id": "S13",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Collider (Taylor Gates), datePublished 2026-09-18 (re-fetched; video DTG4qjCB3lU transcript also fetched): 'Right away, when I found out I had the part, I listened to every single podcast and video... I couldn't be stopped if I had a WiFi connection. But I started to hone in... my responsibility was to what was on the page.' The article quotes both halves."
+    },
+    {
+      "source_id": "S14",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Showbiz Junkies (Rebecca Murray), Sept 20, 2026 report of the September 9, 2026 press conference (re-fetched): 'I was so excited. I was over the moon. And then I also felt, \"How am I gonna do this and what does it mean?\"... starting to work on it even before we were in pre-production... can help you feel like you're starting.' Also confirmed Hall's 'her own invention... freedom' reasoning and Beatty's 'a little bit with the movement coach', which justifies cutting the protected Hall/Hunnam contrast."
+    },
+    {
+      "source_id": "S15",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Gayety, YouTube Kwtu_M-LkBQ (transcript re-fetched; audio downloaded via the tv_simply client and 03:38-04:03 re-transcribed with Whisper large-v3-turbo): 'I just felt my job as the actress was to love and advocate for the person and hope that something beautiful and interesting could come from that.' Matches the article."
+    },
+    {
+      "source_id": "S16",
+      "opened": true,
+      "context_matches": true,
+      "locator": "No Intervals, YouTube ZPPP5dTamkM (transcript re-fetched): 00:25-00:35 'I was so excited to immediately just delve into every podcast, every YouTube video, every book'; 00:53-01:00 'a big responsibility to the person, to the story'. Quoted with its excitement framing, as the repair required."
+    },
+    {
+      "source_id": "S17",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Drew Barrymore Show part 1, YouTube GYkLldtGQ3s (transcript re-fetched): 05:28-05:32 'I'm very close to my mom. Like once call once a day, debrief'; 'big on not giving you the answer'. The article quotes only 'once a day, debrief', as both caption and Whisper texts support."
+    },
+    {
+      "source_id": "S18",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Drew Barrymore Show part 2, YouTube e8IWMwnMAEE (transcript re-fetched): 00:34 'Shirley MacLaine is my incredible aunt'. Supports the aunt in the FAQ (C71)."
+    },
+    {
+      "source_id": "S19",
+      "opened": true,
+      "context_matches": true,
+      "locator": "ScreenRant Plus roundtable, YouTube RooR7nJOmiM (transcript re-fetched), Winkler at about 09:44-10:15: 'Ryan and I received a self-tape from our casting director Tiffany Little Canfield... I watched a tape and I called Ryan and I said, \"We got her.\"... I'm going to watch these tapes. There's, you know, seven tapes... Don't tell me who it is... he said, \"Is it Ella?\"' 'All seven tapes' and 'sent seven tapes' (FAQ) are fair readings."
+    },
+    {
+      "source_id": "S20",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Town & Country (Naveen Kumar), online 2026-09-23, October 2026 issue (re-fetched): Paulson's 'unnervingly, dazzlingly self-assured'; parents 'very normal and loving and present'; 'sit very quietly, watch, and pray... show up off-book'; self-taped audition, 'already worked with Murphy'; Winkler 'directed six of the eight episodes', 'wide-eyedness... tuned into what everybody else in the room is doing'; Jackman 'always prepared, kind, funny, and fearless'; youngest of four, summer camp and community theater; Bell Jar opposite Billie Eilish; Act One/Monster 'What is the universe saying? I don't know... I'm going to be examining that'; 'They're loving, encouraging, and want me to feel like I have my own experience'; 'I really care what they think and feel...'; 'discomfort about being a public person... disappear into roles... joy in sharing your life'; Kumar's uncertainty sentence; 'I'll answer authentically even though I want to deflect'. All in context."
+    },
+    {
+      "source_id": "S21",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Wikipedia (re-fetched 2026-10-18): born April 8, 2000, Los Angeles; youngest of four; MacLaine paternal aunt; 2022 Juilliard; Feud 2024; Appropriate 2024; Ghosts 2025 (LCT); If I Had Legs I'd Kick You 2025 film debut; Act One 2026; Bell Jar post-production."
+    },
+    {
+      "source_id": "S22",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Biography.com (Catherine Caruso), Sept 14, 2026 (re-fetched): 'Born on April 8, 2000, the Los Angeles native, who has three siblings... Her paternal aunt is Shirley MacLaine'; Feud first professional role 'shortly after graduating' (no casting account)."
+    },
+    {
+      "source_id": "S23",
+      "opened": true,
+      "context_matches": true,
+      "locator": "TheWrap (Jose Alejandro Bastidas), Sept 29, 2026 (re-fetched): 'jumped 20% from its premiere week to gather 14.5 million views... No. 1 on the Global top 10 English list'. Matches the article's second-week framing."
+    },
+    {
+      "source_id": "S30",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Seat42f (Thomas Miller), September 17, 2026 (re-fetched): 'It is an impressive television lead turn, and one the series needs', in a mixed 6.5/10 review."
+    },
+    {
+      "source_id": "S31",
+      "opened": true,
+      "context_matches": true,
+      "locator": "IndieWire (Ben Travers), datePublished 2026-09-18 (re-fetched): 'Played by a perpetually blank Ella Beatty, the daughter of Warren Beatty and Annette Bening'; 'Grade: D+'."
+    },
+    {
+      "source_id": "S32",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Awards Radar reprint of the Golden Globes release, May 7, 2026 (re-fetched): 'Nominations for the Golden Globes will be announced on Monday, December 7, 2026'; ceremony Sunday, January 10, 2027."
+    }
+  ],
+  "decision_checks": [
+    {
+      "finding_id": "subject-F1",
+      "accepted": true,
+      "reason": "Verified: the sentence now claims only that fear is the triad emotion she names outright, beside excitement or luck. No body, answer, FAQ or description line says fear dominates."
+    },
+    {
+      "finding_id": "subject-F2",
+      "accepted": true,
+      "reason": "Verified: 'voracious' is gone; the Nine strain uses S12 'I think immediately I just wanted to start working on it' (verbatim); the hook reads 'Beatty describes both' with 'I understand this person'; the Six 'against' quotes No Intervals' excitement framing."
+    },
+    {
+      "finding_id": "subject-F3",
+      "accepted": true,
+      "reason": "Verified: the Hall/Hunnam contrast and 'over-preparation' are gone. The verifier's reread of S14 confirms Hall's artistic reason and Beatty's modest same-room answer, so removal was necessary."
+    },
+    {
+      "finding_id": "subject-F4",
+      "accepted": true,
+      "reason": "Verified: the closing gives her S20 account of her parents first and says 'in the series, kills her father and stepmother'. The acquittal is stated and linked in the orientation."
+    },
+    {
+      "finding_id": "subject-F5",
+      "accepted": true,
+      "reason": "Verified: the TODAY quote keeps 'She's one of my very best friends in the world'; 'defers easily' is gone."
+    },
+    {
+      "finding_id": "subject-F6",
+      "accepted": true,
+      "reason": "Verified: the 'relief' line is removed from the body and the Nine FAQ; the Four sentence no longer uses 'very normal lady'."
+    },
+    {
+      "finding_id": "subject-F7",
+      "accepted": true,
+      "reason": "Verified: 'so on its own it cannot show motive'; no coaching implied; the PR caveat appears once, with a brief echo in the Three case."
+    },
+    {
+      "finding_id": "subject-F8",
+      "accepted": true,
+      "reason": "Verified: the 'new city' sentence is gone."
+    },
+    {
+      "finding_id": "subject-F9",
+      "accepted": true,
+      "reason": "Verified: the answer and FAQ 1 name responsibility to castmates, legacy and the real Lizzie Borden, met by showing up off book. That is not the generic Reiter/Depp/Moon sentence. The Six case names what goes beyond first-lead nerves (see verify-02 on one phrase)."
+    },
+    {
+      "finding_id": "fan-01",
+      "accepted": true,
+      "reason": "Verified: the contrast is removed; C47 is deleted and absent from for_claim_ids; C12's inference records the withdrawal."
+    },
+    {
+      "finding_id": "fan-02",
+      "accepted": true,
+      "reason": "Verified: both continuations are restored and match S04 (re-fetched) and the verifier's own Whisper pass of S05. The Two 'against' names what is lacking."
+    },
+    {
+      "finding_id": "fan-03",
+      "accepted": true,
+      "reason": "Verified: two opened, dated reviews (S30, S31 re-fetched) carry signal 1, now reworded to her response; FAQ and settle_signals[0] match; no aggregate printed."
+    },
+    {
+      "finding_id": "fan-04",
+      "accepted": true,
+      "reason": "Verified: childhood camp and community theater (S20) and 'I really care what they think and feel' in context, weighed in one clause."
+    },
+    {
+      "finding_id": "fan-05",
+      "accepted": true,
+      "reason": "Verified: If I Had Legs (2025), Ghosts at LCT and Sexual Misconduct as a two-hander appear before Ghosts is mentioned again."
+    },
+    {
+      "finding_id": "fan-06",
+      "accepted": true,
+      "reason": "Verified: 'in the series, kills her father and stepmother', and the acquittal clause is sourced to Tudum."
+    },
+    {
+      "finding_id": "fan-07",
+      "accepted": true,
+      "reason": "Verified: 'after the \"nepo baby\" backlash', with no year."
+    },
+    {
+      "finding_id": "fan-08",
+      "accepted": true,
+      "reason": "Verified: 'recorded in May 2025 and published by Interview that June' matches the intro ('on a Zoom last month') and the June 5, 2025 publication."
+    },
+    {
+      "finding_id": "critic-01",
+      "accepted": true,
+      "reason": "Verified: the causal sentence and the contrast are gone."
+    },
+    {
+      "finding_id": "critic-02",
+      "accepted": true,
+      "reason": "Verified: the Two section quotes 'so many people to please' and 'in the lurch'; its 'against' names care given unasked and resentment."
+    },
+    {
+      "finding_id": "critic-03",
+      "accepted": true,
+      "reason": "Verified: the claim is backed by S12's fear-to-work sentence; the Collider narrowing is quoted."
+    },
+    {
+      "finding_id": "critic-04",
+      "accepted": true,
+      "reason": "Verified: the Paulson 'relief' line is removed everywhere; S20 'disappear into roles' replaces it."
+    },
+    {
+      "finding_id": "critic-05",
+      "accepted": true,
+      "reason": "Verified: 'She keeps a small, close circle'; TODAY framed as 'how Paulson supports her'; pressure tied only to the audition line; 'not giving you the answer' included; Hollander cut."
+    },
+    {
+      "finding_id": "critic-06",
+      "accepted": true,
+      "reason": "Verified: the settle intro names the pressure on record and what is lacking; reviews opened; signal 1 reworded."
+    },
+    {
+      "finding_id": "critic-07",
+      "accepted": true,
+      "reason": "Verified: the 'new city' sentence is removed."
+    },
+    {
+      "finding_id": "critic-08",
+      "accepted": true,
+      "reason": "Verified: 'The casting stories come from people who are not neutral'; Paulson's 'wildly close to' noted; the Feud absence sentence added and verified (C79)."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "accepted": true,
+      "reason": "Verified: the contrast is cut; no temperament-versus-role claim remains."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "accepted": true,
+      "reason": "Verified: the 57-word answer is Beatty-specific, shares no sentence with the intro paragraph, and FAQ 1 mirrors it exactly (checked by parsing)."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "accepted": true,
+      "reason": "Verified: father and Monster lead within the first ~80 body words; 'the Manhattan hotel'; order preserved."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "accepted": true,
+      "reason": "Verified: Ghosts set up in the career sentence; the Belasco set up in the Appropriate paragraph; Meindl introduced as 'her friend'; the Jackman play named."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "accepted": true,
+      "reason": "Accepted on substance. The caveat cadence is fixed: the career-stage caveat and the PR caveat each appear in full once, and no more than two evidence paragraphs end on a generic caveat. The length clause is not met (2,952 words against a ~2,500 target), but other jury findings required additions, and the residue is not padding. It is tracked as non-blocking verify-03."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "accepted": true,
+      "reason": "Verified: the 'Why the fear doesn't show' paragraph gives labeled Six and Nine explanations."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "accepted": true,
+      "reason": "Verified: four signals, three tied to her record (dated reviews, Dec 7 Globes/Bell Jar, a choice against Paulson/Murphy/parents); each names only the types it separates; 'available' is gone; the closer formula is replaced; FAQ matches."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "accepted": true,
+      "reason": "Verified: the sentence is removed."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "accepted": true,
+      "reason": "Verified: the Six case rests on the responsibility thread (S04 twice, S12, S13; verified) and on nights-off nerves. Its wording overreaches slightly (verify-02, minor), but the acceptance test (a dated, sourced observation beyond stock junket answers, with a reason it favors Six) is met."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "accepted": true,
+      "reason": "Verified: the basis sentence is rewritten to a supported claim; Type 7 gets a sourced dismissal; live_alternatives are unchanged and consistent."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "accepted": true,
+      "reason": "Verified: the pressure sentence is quoted next to the 'time to be scared' line, and the weighing section reads it as a Six strand and as Two evidence."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "accepted": true,
+      "reason": "Verified: (a) a plain-language convergence statement; (b) signal 2 on worry after success, with the existing nights-off instance; (c) signal 4 rewritten around a choice against trusted advice and her stated reason."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "accepted": true,
+      "reason": "Verified: the sentence and the contrast are removed; C47 is out of for_claim_ids."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "accepted": true,
+      "reason": "Verified: Kumar's uncertainty sentence is in the Six 'against', attributed, with its limit and a type reading."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "accepted": true,
+      "reason": "Verified: 'available' and 'a day at a time' are gone; the anger gap is stated (C83); signal 3 asks about her irritation."
+    },
+    {
+      "finding_id": "enneagram-08",
+      "accepted": true,
+      "reason": "Verified: the 'moral rather than professional' label is gone; the press-statement limit is conceded; a behavioral gap is named."
+    },
+    {
+      "finding_id": "future-01",
+      "accepted": true,
+      "reason": "Verified: no relative age; 'Her public record starts in 2024' and 'a mostly promotional record that begins in January 2024'; the search moment follows the dated premiere."
+    },
+    {
+      "finding_id": "future-02",
+      "accepted": true,
+      "reason": "Verified: the author-voice label is replaced with the Appropriate credit; the friendship appears only in the women's own dated words; C18 and C16 are time_sensitive with triggers; nothing alludes to S24."
+    },
+    {
+      "finding_id": "future-03",
+      "accepted": true,
+      "reason": "Verified: S32 (re-fetched) confirms Monday, December 7, 2026; CBS no longer cited; Bell Jar dated 'as of October 18, 2026'; next_review falls after the nominations date."
+    },
+    {
+      "finding_id": "future-04",
+      "accepted": true,
+      "reason": "Verified: the sentence is removed."
+    },
+    {
+      "finding_id": "future-05",
+      "accepted": true,
+      "reason": "Verified: persona_title is 'The Actress Who Shows Up Off Book'; C66 is time_sensitive with a trigger; the age FAQ says 'turned 26 in April 2026'."
+    },
+    {
+      "finding_id": "future-06",
+      "accepted": true,
+      "reason": "Verified: research_tasks carry a dated eligibility check (2026-12-15, after the Bell Jar press, no later than 2027-09-17, then graduate or hold). open_case.reason and C03 agree on Act One (film lead) and Monster (series lead)."
+    },
+    {
+      "finding_id": "future-07",
+      "accepted": true,
+      "reason": "Verified: signal 4 says returning to Murphy or Paulson shows little (C86 verified) and turns on a choice against their advice, with distinct Six/Three/Two observables; FAQ updated."
+    }
+  ],
+  "prior_blocker_checks": [],
+  "protected_checks": [
+    {
+      "passage": "Ella Beatty beat the reporter to the Carlyle.",
+      "preserved": true,
+      "reason": "Unchanged as the opening line; verified against S01's own first line."
+    },
+    {
+      "passage": "Both men are selling the show, and she had already worked for Murphy on _Feud_, so no one can measure what the name did before the tape. The accounts agree that a tape was required.",
+      "preserved": true,
+      "reason": "Unchanged word for word. The added Feud-absence sentence is verified (C79)."
+    },
+    {
+      "passage": "The record pushes back too. Of _Appropriate_, she also told Paulson, \"I didn't have a lot of time to be scared because I got the job and then we started.\"",
+      "preserved": true,
+      "reason": "Its contribution, her own counterevidence beside the thesis, is kept. The opener and the quote are verbatim, now preceded by the first half of the same S04 answer. Restoring that half fixes a context truncation flagged by three reviewers; the verifier's S04 reread confirms the order."
+    },
+    {
+      "passage": "First she removed the risk she could control. Then she took permission from the person in charge. Then she brought herself.",
+      "preserved": true,
+      "reason": "Unchanged, as its own paragraph after the verified Appropriate account."
+    },
+    {
+      "passage": "Each live type can claim that line: a Six scanning the room for safety, a Two for what people need, a Nine merging with it, a Three reading the audience. It is also the craft rule she says her parents taught her.",
+      "preserved": true,
+      "reason": "Unchanged; the TODAY craft-rule quote that follows is verified."
+    },
+    {
+      "passage": "Each live type can claim that line: a Six scanning the room for safety, a Two for what people need, a Nine merging with it, a Three reading the audience.",
+      "preserved": true,
+      "reason": "Unchanged."
+    },
+    {
+      "passage": "\"What is the universe saying? I don't know,\" she said with a chuckle. \"I'm going to be examining that.\"",
+      "preserved": true,
+      "reason": "Unchanged as the last line and verbatim in S20; only the framing before it was corrected."
+    },
+    {
+      "passage": "It is also what a publicist would tell any famous child debuting in the 2024 \"nepo baby\" moment, so it shows media sense more than motive.",
+      "preserved": true,
+      "reason": "Changed for two necessary corrections: '2024' misdated the backlash, and 'shows media sense more than motive' implied coaching the record cannot support. Its contribution (naming the strongest non-type explanation and declining to count the answer as motive) survives in 'so on its own it cannot show motive'."
+    },
+    {
+      "passage": "Read as a Six, that is the type's growth task in her own words: learning to trust that she can handle what she fears before it arrives. Read as a Nine, the telling detail comes first. The rush felt good because it left no room for her.",
+      "preserved": true,
+      "reason": "Unchanged word for word, with a Two reading of the restored clause added; the underlying S05 quotes are verified."
+    },
+    {
+      "passage": "Fear is the emotion Beatty names most. That is why Six leads, and why it can't lead by much: fear is also the ordinary weather of an actor in her first lead.",
+      "preserved": true,
+      "reason": "Its calibration and 'ordinary weather' image are kept verbatim. The first sentence was a false frequency claim, and the replacement is supported. This counts as preserving editorial quality by correcting a false detail."
+    },
+    {
+      "passage": "Murphy watched all seven tapes without being told which one, then called back and asked, \"Is it Ella?\"",
+      "preserved": true,
+      "reason": "Unchanged; verified against S19."
+    },
+    {
+      "passage": "Does she start owning the work (Three), or are nerves and self-trust still her subject once she is no longer new (Six)?",
+      "preserved": true,
+      "reason": "Unchanged, inside signal 2, which is now tied to dated catalysts."
+    },
+    {
+      "passage": "At the same press conference, asked how they had prepared, Rebecca Hall said, \"I did absolutely nothing.\" Charlie Hunnam had spent a couple of days reading. Beatty described a book, a movement coach and work before pre-production. The difference was hers, not the job's.",
+      "preserved": true,
+      "reason": "Removed, and the verifier agrees removal was necessary. The verifier's reread of S14 shows Hall's 'nothing' was an artistic choice ('my own invention... freedom'), Hunnam cited 'limited information', and Beatty herself said 'a little bit with the movement coach' and 'what was on the page felt most important'. The passage's claimed contribution (a controlled comparison separating temperament from role) was unsupported. The true residue (her preparation pattern) is carried by verified S13, S05 and S04 accounts."
+    },
+    {
+      "passage": "Whichever way it settles, some of this will hold. She was early to the Carlyle and off book for the Belasco.",
+      "preserved": true,
+      "reason": "Contribution kept ('Some of this is already settled. She was early to the Carlyle and off book at the Belasco.'). The transition was reworded to drop a formula shared with another open case, and the Belasco is now set up earlier."
+    }
+  ],
+  "coverage_complete": true,
+  "metadata_consistent": true,
+  "alternative_type_addressed": true,
+  "five_year_test_passed": true,
+  "open_case_eligible": true,
+  "scores": {
+    "evidence": {
+      "score": 8.5,
+      "reason": "Every body and FAQ quotation was matched against a fresh copy (14 web pages re-fetched; 10 video transcripts re-pulled) or the verifier's own Whisper large-v3-turbo pass of the re-downloaded podcast and Gayety audio, and each was read in context. Interested witnesses are named where they testify (Paulson 'wildly close', Winkler and Murphy 'selling the show'). Absence claims are dated and limited to opened sources. Inference is labeled ('In a Six reading...'). Limits that remain: the record is overwhelmingly self-report in promotional settings, the podcast attribution rests on machine checks plus context rather than a human listen, and two phrases overreach slightly (verify-01, verify-02). Thinness is not penalized; nothing is invented or misattributed.",
+      "passage": "The casting stories come from people who are not neutral. For _Appropriate_, Paulson and her co-star Michael Esper read with several actresses."
+    },
+    "enneagram": {
+      "score": 8.0,
+      "reason": "Open-case anchor 8 is met. Six, Nine, Two and Three are each argued from repeated first-person evidence, with the strongest evidence against each. The article says plainly why the existing record cannot separate Six from Nine (stress convergence) and names four concrete observables that would. Nothing claims more than low confidence; no wings or arrows are used to explain away contradictions; 1, 4 and 7 get sourced dismissals. Short of higher: the Six lead rests on a 'responsibility' vocabulary that is also One/Two language (conceded only for Two in the body), and one of its two distinctive data is over-framed as 'nothing at stake' (verify-02).",
+      "passage": "Under the pressure on record (a first lead, a two-day put-in, a famous name), the reads look alike, since a stressed Nine can worry and prepare as hard as a Six. What the record lacks is pressure of other kinds, and quiet."
+    },
+    "originality": {
+      "score": 8.0,
+      "reason": "The portrait runs on details specific to her: beating the Vogue reporter to the Carlyle, the off-book Belasco put-in reduced to a three-step sequence, the director's diary book on nights off, Murphy's blind 'Is it Ella?', and one podcast answer read three ways. The hook's composure-versus-fear gap is held open rather than resolved. Some house boilerplate remains: the triad explainer paragraph, and an argument skeleton (fear met by preparation and people) that reviewers found echoed in recent young-performer Six pages. The repaired answer box reduces this.",
+      "passage": "First she removed the risk she could control. Then she took permission from the person in charge. Then she brought herself."
+    },
+    "writing": {
+      "score": 8.0,
+      "reason": "Sections develop rather than restate: the name, the preparation pattern, the rush that left no time to worry, the circle, then a weighing and a concrete settle list. Pacing varies, with short declaratives after long quotes. Author prose avoids em dashes, and caveats are no longer repeated paragraph after paragraph. Drag points: at 2,952 words it runs past the open-case target, and the weighing section re-quotes lines just met ('so many people to please' three times; verify-03). The triad paragraph reads like a textbook.",
+      "passage": "Read as a Six, that is the type's growth task in her own words: learning to trust that she can handle what she fears before it arrives. Read as a Nine, the telling detail comes first. The rush felt good because it left no room for her. Read as a Two, the clause that matters sits in between: \"so many people to please.\""
+    },
+    "durability": {
+      "score": 8.5,
+      "reason": "Open-case anchor 8 is exceeded on dating. Every changing fact carries an absolute date (the Feb 2024 hook; the Sept 17, 2026 premiere; week-two views; reviews dated Sept 17 and 18; Globes Dec 7, 2026; Bell Jar and response absences 'as of October 18, 2026'). The settle signals are concrete, and next_review (2026-12-15) and a 2027-09-17 eligibility deadline make the page easy to reopen. With Monster removed, the 2024-2025 evidence (Carlyle, Belasco put-in, nights-off nerves, the worry passage) still carries the argument, and what the page calls known would stay true if Nine won. The title's 'Netflix's Lizzie Borden' hook will need updating when a bigger role arrives (C66 trigger set).",
+      "passage": "Golden Globe nominations are due December 7, 2026, according to the [Golden Globes' timetable](https://awardsradar.com/2026/05/07/84th-golden-globes-timetable-eligibility-rules-and-campaign-guidelines-announced/), and _The Bell Jar_ had no release date as of October 18, 2026."
+    },
+    "hook": {
+      "score": 8.5,
+      "reason": "A specific, sourced, observed opening from February 2024 (verified against Vogue's own first line). It shows behavior before any typing, sets up the composure-versus-fear question the article holds open, and is paid off in the close ('early to the Carlyle and off book at the Belasco').",
+      "passage": "Ella Beatty beat the reporter to the Carlyle."
+    },
+    "discoverability": {
+      "score": 8.5,
+      "reason": "meta_title (57 characters) and title lead with her name and the open-case or leading-read framing, plus the Lizzie Borden search hook. The 151-character description carries a verified quote and the rival type. The 57-word type answer sits under the required H2 and is mirrored exactly in FAQ 1. The FAQs answer the real searches (type, Nine alternative, what would settle it, how she got the role, parents, age), each consistent with the body. Internal links go to published Hugh Jackman and Billie Eilish pages and the four type pages, and the suggestions are published peers. Minor: no FAQ addresses Act One or The Bell Jar.",
+      "passage": "Leading read: Enneagram Type 6, held loosely at low confidence. Type 9 is the main alternative; Types 2 and 3 remain in play. She talks about responsibility (to her castmates, her family's legacy, the real Lizzie Borden) and meets it by showing up off book. Her public record starts in 2024, so nothing yet separates these reads."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+I wrote the subject-role (fairness) review to `docs/content-analysis/pipeline-logs/2026-10-17_06-00-03-505_dylan-patel/review-subject.json`. It passes the review schema check, and all 13 quoted passages match the draft exactly. Both hashes match the request, so this is a review of the frozen draft. I didn't change any other file or publish anything.
+
+The review keeps both risk flags on (sensitive allegations and contested typing), so the full six-role jury still applies. It has 5 major and 3 minor findings, plus 5 passages to keep.
+
+**Major findings**
+1. **The lawsuit section ends on a personality metaphor.** Right after saying the type read shouldn't be used on the case, the draft closes on "which doors are supposed to stay shut." That ties his personality to the unproven claim that he had inside information put into client models.
+2. **His answers on conflicts of interest are hidden.** Substrate presents the split between private and public investments as his own answer, and the draft turns it into "another matter." The Prime Intellect "Bronze" rating was his own rebuttal. Two other responses on record are missing: his "vigorously defend" statement and a planned outside review of how the firm handles client data.
+3. **The "scary as hell" exchange is misread.** The draft treats this as its key test of Type 7 over Type 8. In the transcript, he says only a slowdown or heavy regulation could stop AI power concentrating, and calls the outlook bleak before he offers any upside. The Jane Street line is part of that argument; the joke was Dwarkesh's. So "He goes looking for a reason it might turn out fine" doesn't match what he said.
+4. **The Slack "names and shames" detail has no context.** Substrate says the rule exists so messages stay in public channels and sources feed the firm's models, and that he shares the table only "occasionally." The "This is fucking wrong" quote was about an outside analyst's writing, not his staff.
+5. **The closing lanyard image drops Substrate's framing.** It was a distinct press badge, and Substrate uses it to ask whether SemiAnalysis counts as press. The draft says "Substrate does not say why" and ends on it as a hint that he was hiding.
+
+**Minor findings**
+- "Concluded" makes Samsung's paid anti-HTC campaign sound like a teenage suspicion. Taiwan fined Samsung for it in October 2013.
+- The only named critic of the Fluidstack rating, Hot Aisle, is a competing GPU cloud provider, and the draft doesn't say so.
+- The meta description says he built SemiAnalysis "by posting and picking fights," which no source supports as how he built the business.
+
+I checked these against the research stage's saved copies of the Substrate profile, The Information's profile in translated form, the lawsuit coverage and the podcast transcripts. I couldn't check The Information's original article (paywalled) or the court dockets.
+
+Sources for the Samsung fine:
+- [PCWorld](https://www.pcworld.com/article/448287/taiwan-fines-samsung-for-defaming-htc-with-fabricated-reviews.html)
+- [Marketing Week](https://www.marketingweek.com/2013/10/25/samsung-fined-for-posting-fake-htc-reviews/)
+- [Droid Life](https://www.droid-life.com/2013/10/24/samsung-slapped-with-340000-fine-for-faking-online-comments-about-competitors/)

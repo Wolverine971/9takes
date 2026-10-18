@@ -1,0 +1,29 @@
+{
+  "eligible": false,
+  "blockers": [
+    "verification:revise",
+    "unresolved:verify-01:The evidence record cites two sources nobody opened. S09 (The Information profile) and S11 (The Information revenue briefing) are marked 'unavailable', and my fresh fetches returned only paywall teasers. Yet C08 and C34 list S09, and C17, C38 and C50 list S11, as support. The standard treats paywalls as unopened, and the release gate requires every claim-cited source to be opened and to match its context, so this blocks release by itself. The content is carried by opened sources: the Deep News adaptation (S10) for education, the bonus and the mother/IT remark; Substrate (S08) and S10 for the $100M projection; S22, S08 and S25 for the fund and the no-external-investors line. The article's wording already discloses the translation, so the prose needs no change.",
+    "unresolved:verify-02:This sentence is now the main 7-over-8 discriminator (C41 calls it 'the main remaining discriminator'). It was written in the edit stage, so no reviewer has seen it. It has three problems. (1) It states a motive as fact. Patel never says he avoided a home to stay unpinned; 'making sure' is the article's inference, and the prose doesn't label it. (2) The order it implies ('eventually... but first') leaves out that he was building the base during the nomadic years. He started charging on Substack 'over the coming year' after 2020, made a paid post late in 2021 (S01), and 'as that substack grew and grew in 2022, I started hiring people' (S04; medium.en and small.en agree). Staff went from two to seven over 2023-24, while he says he 'didn't live anywhere' for four years. A firm he solely owns, with no outside investors, is exactly the base an Eight reading would point to. (3) Forty conferences a year is a practical reason to skip a lease, and the article never weighs it. An earlier section concedes that 'the conference years built his sources'. With the email, the Lisa Su post, the finance exit and the cope exchange all demoted to 'fits both', this paragraph carries most of the Seven call, and as written it does not show that the Eight reading fails.",
+    "unverified_source:S09",
+    "unverified_source:S11",
+    "unresolved_review:unfamiliar-06",
+    "overall_below_8.5:8.2",
+    "enneagram_below_8:7.8"
+  ],
+  "quality": {
+    "evidence": 8.4,
+    "enneagram": 7.8,
+    "originality": 8.7,
+    "writing": 7.9,
+    "durability": 8.5,
+    "hook": 8.6,
+    "discoverability": 8,
+    "overall": 8.2,
+    "letter": "B",
+    "rubric_version": 3,
+    "graded_at": "2026-10-17",
+    "caps_applied": [],
+    "needs_review": true,
+    "content_sha256": "781873f0dd4a306cdd861aa8a66631d6aed2a6d243480cd8196a8cba2cf0876f"
+  }
+}

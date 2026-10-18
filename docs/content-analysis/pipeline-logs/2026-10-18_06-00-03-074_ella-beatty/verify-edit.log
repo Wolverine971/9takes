@@ -1,0 +1,30 @@
+The verify stage is done and the Ella Beatty open case **passes**. I wrote only `verification-edit.json` in the run folder. Nothing was published, and the draft and evidence files are untouched.
+
+**Scores:**
+
+| Dimension | Score | Open-case floor |
+|---|---|---|
+| Overall | 8.2 | 8.0 |
+| Evidence | 8.5 | 7.5 |
+| Enneagram | 8.0 | 7 |
+| Originality | 8.0 | |
+| Writing | 8.0 | |
+| Durability | 8.5 | 7 |
+| Hook | 8.5 | |
+| Discoverability | 8.5 | 7 |
+
+Running the contract's own release check on the file gives eligible, with no blockers.
+
+**What I checked:**
+- **Quotes:** I fetched 14 web sources and 10 video transcripts again, live. Every quote in the body and the FAQs matches its source and reads correctly in context.
+- **Podcast:** I downloaded the Meindl episode again and transcribed the quoted passages myself with Whisper. They match word for word, including the "so many people to please" line the editor restored. A pitch check and the conversation itself both put those lines in her voice: right after the "being present" passage, the host says "I'm sorry I missed it" about the play she was in.
+- **Facts:** Dates, credits, the casting story, the reviews and the Golden Globes date all hold. A live search confirmed *The Bell Jar* still has no release date, and I found no on-record reply from her to critics of her performance.
+- **Editing:** All 48 jury findings were genuinely fixed, and all 14 passages the reviewers asked to protect were kept or properly corrected. Cutting the Hall/Hunnam comparison was necessary: the press-conference transcript contradicts the conclusion it drew.
+- **Open-case eligibility:** I confirmed it independently.
+
+**Three minor findings remain.** None blocks release; they can be fixed at the next refresh:
+1. The surname question drops "at Juilliard." That makes "Beatty said no" read as a blanket denial, when she actually said the thought came once she started working.
+2. In the Type 6 case, "nerves with nothing at stake" overstates the source. Those nerves came between performances in the middle of a running two-hander with Hugh Jackman.
+3. At 2,952 words the body runs about 18% over the open-case target. The weighing section quotes "so many people to please" a third time.
+
+**Still owed:** nobody has listened to the podcast passages by ear. Three machine checks agree, but a 2-minute listen at about 30:15 and 31:18 would close it. The case comes up for review on 2026-12-15, after the Golden Globe nominations.

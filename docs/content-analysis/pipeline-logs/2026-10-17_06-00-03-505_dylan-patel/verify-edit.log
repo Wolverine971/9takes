@@ -1,0 +1,21 @@
+The Dylan Patel page **isn't ready to release: the verdict is "revise."** I wrote `verification-edit.json` to the run folder and changed nothing else. Nothing was published.
+
+**Scores:** overall 8.2 against a release bar of 8.5. Evidence 8.4, Enneagram 7.8 (the floor is 8), originality 8.7, writing 7.9, durability 8.5, hook 8.6, discoverability 8.0.
+
+**How I checked:** I re-downloaded 27 of the 29 sources and re-ran one WisdomTree audio segment through a third transcription model. About 95 quotes match word for word, including Huang's keynote lines, the Blackwell email, the Dwarkesh exchange (in its real order) and every Substrate quote. I accepted 49 of the editor's 50 fixes and all 18 protected passages.
+
+**Two problems block release:**
+1. **The Seven-vs-Eight call rests on one weak sentence.** The editor rightly reclassified most of the original Seven evidence as fitting both types. The call now hangs on "Patel built one eventually, but first he spent years making sure nothing pinned him down." That states his motive as fact. It also skips that he was building SemiAnalysis during those "four years with no home": he started charging subscribers in late 2021 and began hiring in 2022 (all three transcriptions agree). And 40 conferences a year is a practical reason not to have a home. This is the main reason the Enneagram score is below 8. If the fix shows Seven no longer leads, the page should go back through the full six-reviewer jury rather than switch types in a quick repair.
+2. **Two paywalled sources are cited as evidence.** Five claims list The Information's profile and revenue briefing, which nobody could open. The facts are already covered by sources we did open, so this is a quick cleanup in the evidence file.
+
+**Eight small wording fixes:**
+- "The only joke was Dwarkesh's" is wrong: Patel jokes twice in that transcript.
+- Lisa Su's call and Patel's post were the same day, not "the next day."
+- No cited source calls him "chief analyst."
+- Substrate never says its reporter attended GTC, so "saw the belt" overstates it.
+- The ending drops his "most of" when describing the posts he had removed.
+- "The Mission" needs "San Francisco's," which the editor reported adding but didn't.
+- "Good news about his own claim" reads as Patel's claim when it was Huang's.
+- The net-worth FAQ needs a date, and the body should link the live Jensen Huang page.
+
+All of this fits the one repair-and-reverify pass the pipeline allows.

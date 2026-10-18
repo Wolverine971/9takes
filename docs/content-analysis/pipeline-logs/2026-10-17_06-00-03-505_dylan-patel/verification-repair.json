@@ -1,0 +1,1228 @@
+{
+  "schema_version": 3,
+  "content_sha256": "353bd0bb8a7bd0c0a27f9ab105bd218e0648b6e161b1f99f2b766af0225ddbca",
+  "evidence_sha256": "205a29ec06a0ba7cbc36e485c259552db4a868d300b5c560117c7eb30e393d3b",
+  "status": "revise",
+  "findings": [
+    {
+      "id": "verify-r-01",
+      "severity": "blocker",
+      "passage": "He gave up his apartment in 2020, two years before the conferences and the first hires.",
+      "problem": "The repair's new 7-over-8 discriminator rests on a gap the article's most-cited source contradicts, and leaves out a circumstance its own evidence record names. Patel's 2024 account (S01) says \"In 2022, I also started going to every conference I could.\" Substrate (S08), which the article cites 53 times, says \"By 2021, Dylan's itinerary had become a succession of acronyms: ISSCC, DAC, ECTC,\" and places the early travel \"As the pandemic progressed\". The body still says \"two years before the conferences\" and \"from 2022 it explains much of the travel\". The Why-not-8 FAQ says he hit the road \"two years before conferences gave him a business reason to travel\". The type section offers the 2020 move as his \"clearest dated example\" of a Seven's fear of being boxed in. The article never mentions the pandemic, yet C139's alternative says the 2020-2021 travel \"overlapped a pandemic in which conferences were limited\". That is a non-temperament explanation for the very gap the article says tips the read. C41, C137, C138 and C139 cite only S01 and do not record S08's 2021 dating. This argument was written in repair, after the six-role jury reviewed the draft. It is now the deciding Seven evidence, and no reviewer has challenged it.",
+      "acceptance_test": "Body, type section and Why-not-8 FAQ stop stating the two-year gap as fact. They either attribute the 2022 start to Patel's 2024 account and note Substrate's 2021 dating, or drop the gap length. The discriminator paragraph tells the reader the 2020 move came during the pandemic, with a quiet-quit paycheck. C41, C137, C138 and C139 record S08's \"By 2021\" passage and the pandemic. The article then either shows, with sourced specifics, why the timing still separates Seven from Eight, or says the 7/8 call cannot be tipped on the current record. Because the deciding argument has been rewritten twice since the frozen jury review, release requires `--refresh --expanded-review` (or a research-stage hold if no discriminator survives), not another blind repair."
+    },
+    {
+      "id": "verify-r-02",
+      "severity": "minor",
+      "passage": "What the record does show is a grin in the fights it captures.",
+      "problem": "This is C123, one of the type's for_claim_ids, and it generalizes from two examples (the Altman meme and the house-party verdict). The record the article itself presents also captures the Slack naming and shaming, the December 2025 Oracle victory claim (\"quite a confident tone\", S28), \"This is fucking wrong\" and a first-filed suit, with no grin recorded. Enneagram-01 asked for \"tend to\" to be backed by a coded sample or cut down to the cited examples.",
+      "acceptance_test": "The sentence is limited to the cases shown (for example, \"In two of the fights on record, the Altman reply and the house-party verdict, he is grinning\") or backed by the coded reply sample. C123 matches."
+    },
+    {
+      "id": "verify-r-03",
+      "severity": "minor",
+      "passage": "As of October 2026, the outside voices on record are critics of his work, not people who have worked with him, and the one rated company quoted is a Patel investment.",
+      "problem": "The article itself reports a former employee's suit: Wei Zhou's April 2026 filing alleges he was fired for refusing to put MNPI into client models (S23). That is an on-record account from someone who worked with him, so \"not people who have worked with him\" contradicts the paragraph three sections earlier. The edit-stage wording excepted the lawsuit; the current wording dropped the exception.",
+      "acceptance_test": "The sentence excepts the former employee's lawsuit (for example, \"apart from a former employee's lawsuit, the outside voices on record are critics of his work\") and C94 matches. It keeps the as-of date and the Weisser point."
+    },
+    {
+      "id": "verify-r-04",
+      "severity": "minor",
+      "passage": "Because a lot of the evidence says Eight. Here is that case in full.",
+      "problem": "The section claims to give the Eight case \"in full\" but omits Tang's \"characteristic stubbornness\" and the 14-year Android loyalty, which the evidence record's `against` field lists as Eight evidence. They appear only in the origin section, so the protected \"in full\" overstates slightly and enneagram-04's \"weighed in the alternatives section\" is met only by implication.",
+      "acceptance_test": "One clause in \"Why not Type 8?\" brings back the stubbornness and Android loyalty as Eight-compatible evidence, or the Five/Six paragraph weighs them as specialist focus. The protected sentence stays verbatim."
+    }
+  ],
+  "research_tasks": [
+    "Reconcile when his conference travel began: S01 (Patel, 2024: \"In 2022, I also started going to every conference I could\") against S08 (Substrate, 2026: \"By 2021, Dylan's itinerary had become a succession of acronyms: ISSCC, DAC, ECTC\"). Check whether his 2021 attendance was in person (ISSCC and ECTC 2021 were largely virtual; DAC 2021 was in person in San Francisco), using his own 2021 posts, SemiAnalysis articles citing those conferences, or conference speaker/attendee records.",
+    "Date the Asia and South America leg (\"He boomeranged from Argentina to Taiwan\") and record whether the Taiwan travel had a business purpose. The 7-over-8 timing argument depends on when travel first had a business reason.",
+    "Pin when the itinerant period ended and why: his first San Francisco lease or office, and whether the October 2024 \"kind of not really\" hedge reflects residency rules.",
+    "Code 20 or more of his X replies to critics from 2023 to 2026 (start with the August 2023 Altman thread and the December 2025 Abilene/Oracle exchange) plus fights he starts, recording mock-and-move-on against sustained pursuit and what each reply is for. This is still the most direct remaining 7/8 test.",
+    "Before any release, check the San Francisco Superior Court dockets for SemiAnalysis v. Zhou (CGC-26-635328) and Zhou's suit. A standard web search on 2026-10-17 found no reported ruling or settlement.",
+    "Read The Information profile (2026-04-17) in English so the education, bonus, mother/IT, Rubin, startup-stake and Weisser details can be checked against the original rather than the S10 translation.",
+    "Find the audio of Latent Space's In-Context Cooking episode (S02) to confirm the \"next step\" and \"spin a narrative\" wording by ear; the transcript text matches but was not re-heard."
+  ],
+  "claim_checks": [
+    {
+      "claim_id": "C01",
+      "verdict": "supported",
+      "reason": "S26 About page describes supply-chain research; S02 (Feb 28, 2026) calls him \"Founder & CEO\" and lists labs, hyperscalers, hedge funds and semiconductor clients; S03 (\"Dylan runs SemiAnalysis\") and S06 (\"Dylan is the CEO of SemiAnalysis\") agree. \"Chief analyst\" is gone. Birth year per C03."
+    },
+    {
+      "claim_id": "C02",
+      "verdict": "supported",
+      "reason": "S21 is dated May 22, 2020; S08 calls it his \"24th birthday present to himself\" and says SemiAnalysis was founded on a WordPress blog in 2020."
+    },
+    {
+      "claim_id": "C03",
+      "verdict": "supported",
+      "reason": "S01 (Oct 2, 2024): \"I'm 28 now\"; S08 dates the May 22, 2020 post to his 24th birthday; S10 headline \"At 29\" (Apr 2026). All consistent with 1996; 30 as of October 2026 holds. The article does not state a full date of birth."
+    },
+    {
+      "claim_id": "C04",
+      "verdict": "supported",
+      "reason": "My large-v3-turbo transcription of S04 at 03:19 reads \"My parents owned a motel in rural Georgia and we lived in it\"; S01 has \"I didn't get paid for working, of course\". Gas stations also at S04 03:24."
+    },
+    {
+      "claim_id": "C05",
+      "verdict": "supported",
+      "reason": "S01: Jon Y and Dwarkesh confirm \"Dylan Sanjay Patel\"; S07 episode note: \"my twin brother Dylan Patel\"; S08: shared open floor plan and \"are not related\"."
+    },
+    {
+      "claim_id": "C06",
+      "verdict": "supported",
+      "reason": "Verbatim in S01: \"Holy shit, this is Pandora's box what just got opened up,\" then \"I just shitposted on the forums constantly.\""
+    },
+    {
+      "claim_id": "C07",
+      "verdict": "supported",
+      "reason": "S08 verbatim: \"Through his Reddit modding, Dylan noticed that Samsung had paid influencers...\" and the full \"warrior\" quote."
+    },
+    {
+      "claim_id": "C08",
+      "verdict": "qualified",
+      "reason": "S01 verbatim for \"did data science type stuff\". MIT/Stanford rejections and University of Georgia exist only in S10, a translated adaptation of paywalled S09; the article says so (\"known here only through a translated adaptation\"). Correctly attributed, not independently confirmed."
+    },
+    {
+      "claim_id": "C09",
+      "verdict": "supported",
+      "reason": "S01 verbatim: \"In 2020, I quiet quit my job and started shitposting more seriously on the internet.\" S04 02:57 agrees (\"quiet quit my job and started my company\")."
+    },
+    {
+      "claim_id": "C10",
+      "verdict": "supported",
+      "reason": "S02 [00:02:01]-[00:02:12]: \"I did live in Minnesota briefly after college... I did beekeep for like a, a year and a half basically.\""
+    },
+    {
+      "claim_id": "C11",
+      "verdict": "supported",
+      "reason": "S01 verbatim: \"I had a blog, an anonymous blog for a long time. I'd even made some YouTube videos... Most of that stuff is scrubbed off the internet, including Internet Archive, because I asked them to remove it.\" S02 [00:03:21] \"anonymous Twitter in... silicon Twitter\". No reason given in S01, S02, S04 or S08."
+    },
+    {
+      "claim_id": "C12",
+      "verdict": "qualified",
+      "reason": "Travel, Substrate wording and S04 04:54-05:03 (\"For four years... I didn't live anywhere\") are verbatim. The sentence \"from 2022 that meant 40 conferences a year\" follows S01, but S08 (Substrate, opened 2026-10-17) says \"By 2021, Dylan's itinerary had become a succession of acronyms: ISSCC, DAC, ECTC\" and places the early travel \"As the pandemic progressed\"; the record does not show conferences starting only in 2022 (see verify-r-01)."
+    },
+    {
+      "claim_id": "C13",
+      "verdict": "supported",
+      "reason": "S01 verbatim, mid-2020 consulting pickup."
+    },
+    {
+      "claim_id": "C14",
+      "verdict": "supported",
+      "reason": "S08: \"Arm China sent a cease and desist. Remembering it, Dylan smiles. 'It was really sick.'\" S20 dated Aug 27, 2021."
+    },
+    {
+      "claim_id": "C15",
+      "verdict": "supported",
+      "reason": "S08 places the \"slightly overpromise\" quote right after the July (2023) CoWoS/HBM publication, with \"Prospective clients - mostly hedge funds\"."
+    },
+    {
+      "claim_id": "C16",
+      "verdict": "supported",
+      "reason": "My S04 transcription at 08:08: \"And now this year, we're at 90. So we've added 30 people this year.\" S08: \"Less than 5% of revenue comes from Substack.\" Both dated in the prose."
+    },
+    {
+      "claim_id": "C17",
+      "verdict": "supported",
+      "reason": "S25: \"we have no external investors and are founder led\". No valuation appears in S08, S10, S23 or S24. Scoped \"As of October 2026\" and to the sources reviewed."
+    },
+    {
+      "claim_id": "C19",
+      "verdict": "supported",
+      "reason": "S16 syndication JSON text: \"Sundar to the GPU-poors.\\nThe data is from a supplier of Google, and we made the chart.\" S17 embeds the same post."
+    },
+    {
+      "claim_id": "C20",
+      "verdict": "supported",
+      "reason": "S14 dated Dec 22, 2024, \"five-month long quest\"; \"We genuinely want to see another effective competitor to Nvidia\"; the post addresses Lisa Su and AMD leadership."
+    },
+    {
+      "claim_id": "C22",
+      "verdict": "supported",
+      "reason": "S12 and my large-v3-turbo pass over NVIDIA's own upload (S27 audio, about 1:03:40) both read \"Dylan Patel had a quote. He accused me of sandbagging.\""
+    },
+    {
+      "claim_id": "C23",
+      "verdict": "supported",
+      "reason": "My transcription of S04 at 12:44-12:50 and a medium.en pass over 12:20-20:00 agree: \"Here's all the people that gave you crap. Even I gave you crap... there's no way it's 25x. It's maybe 15 to 20x.\" Attributed as his account."
+    },
+    {
+      "claim_id": "C24",
+      "verdict": "supported",
+      "reason": "S04 02:22: \"I just have that burning desire to respond to anyone on the Internet when they try and criticize me.\" Large-v3-turbo agrees with the cached small.en text."
+    },
+    {
+      "claim_id": "C25",
+      "verdict": "supported",
+      "reason": "S08 verbatim: \"Messages go in public channels by default because Dylan polices the proportion of private Slack DMs... roughly 30%. In signature Dylan fashion, he names and shames. He occasionally shares a table...\" The editing quote is S08's external-analyst passage."
+    },
+    {
+      "claim_id": "C26",
+      "verdict": "supported",
+      "reason": "S08 verbatim, framed by Tang as a boast."
+    },
+    {
+      "claim_id": "C28",
+      "verdict": "supported",
+      "reason": "S01 verbatim: \"It was an obsessive hobby of many years and it pivoted all around... because that was where the most advanced stuff was happening.\""
+    },
+    {
+      "claim_id": "C29",
+      "verdict": "supported",
+      "reason": "S02 [00:02:12]-[00:02:17]: \"just next step, next [00:02:15] step, next step. Doesn't seem like there's a clear, immediate path.\" The host had asked him to introduce himself. Audio not re-heard (research task stands), but transcript wording matches."
+    },
+    {
+      "claim_id": "C30",
+      "verdict": "supported",
+      "reason": "S07 verbatim after Dwarkesh's rebuttal: \"Yes. This is my cope. I agree.\""
+    },
+    {
+      "claim_id": "C31",
+      "verdict": "supported",
+      "reason": "S07 verbatim, in reply to Dwarkesh raising government control."
+    },
+    {
+      "claim_id": "C32",
+      "verdict": "supported",
+      "reason": "S08: \"under dim lighting in the Mission... Dylan responded with a grin, throwing a long arm over the questioner's shoulder... 'Bearish man, so bearish.'\" The author was present (\"I met him...\")."
+    },
+    {
+      "claim_id": "C34",
+      "verdict": "qualified",
+      "reason": "S10: \"My mom still tells people I'm in IT... I feel like a loser\". Translated wording; the article paraphrases (\"the sting\") and attributes it to The Information. Not checked against the English original."
+    },
+    {
+      "claim_id": "C36",
+      "verdict": "supported",
+      "reason": "S08 verbatim; \"SemiAnalysis President Doug O'Laughlin\". Title has a review trigger."
+    },
+    {
+      "claim_id": "C37",
+      "verdict": "supported",
+      "reason": "S08 verbatim, presented by Tang as his answer on conflicts."
+    },
+    {
+      "claim_id": "C38",
+      "verdict": "supported",
+      "reason": "S22 Form D: issuer SemiAnalysis Capital Fund I, LP (Delaware); signer Dylan Patel, \"Manager of the General Partner of the Issuer\"; signature date 2026-07-29; totalOfferingAmount 400000000, totalAmountSold 0. S08 correction: \"confirmed the final amount raised... was $500M.\""
+    },
+    {
+      "claim_id": "C39",
+      "verdict": "supported",
+      "reason": "S23 (Apr 5, 2026): countersuit filed March 27 (CGC-26-635328) for trade secrets, breach of contract, defamation and other counts; termination in January 2026 for alleged misconduct. A standard web search on 2026-10-17 found no reported ruling or settlement."
+    },
+    {
+      "claim_id": "C40",
+      "verdict": "supported",
+      "reason": "S08: InferenceX, ClusterMAX, teardown lab in Oregon; S24 dated Sep 11, 2026 for Citrini Research; S25 for the lab."
+    },
+    {
+      "claim_id": "C41",
+      "verdict": "qualified",
+      "reason": "Labeled as the analysis's reading and sourced to S01 for 2020/2022/October 2024, which I confirmed. But the \"two years before\" gap is stated as fact and S08 (Substrate, opened 2026-10-17) says \"By 2021, Dylan's itinerary had become a succession of acronyms: ISSCC, DAC, ECTC\" and places the early travel \"As the pandemic progressed\"; the record does not show conferences starting only in 2022 (see verify-r-01). C139's own alternative notes that the pandemic limited conferences, which the article never tells the reader."
+    },
+    {
+      "claim_id": "C43",
+      "verdict": "supported",
+      "reason": "S12/S27: Huang moves straight from \"he's not wrong\" to \"our cost per token is the lowest in the world\". Interpretation is fair."
+    },
+    {
+      "claim_id": "C44",
+      "verdict": "supported",
+      "reason": "S12 and my S27 audio pass: \"He says, Jensen sandbagged. It's actually 50 times. And he's not wrong.\""
+    },
+    {
+      "claim_id": "C45",
+      "verdict": "supported",
+      "reason": "\"This is from semi-analysis\" about 1:00:56 and the Patel mention about 1:03:46 in S12; my S27 audio pass confirms both. About three minutes apart."
+    },
+    {
+      "claim_id": "C46",
+      "verdict": "supported",
+      "reason": "S04 12:56-12:57 in both of my passes: \"But, Jensen, I was wrong. You were sandbagging.\""
+    },
+    {
+      "claim_id": "C47",
+      "verdict": "supported",
+      "reason": "S04 12:10-12:28: \"Blackwell is 30x faster than Hopper on somewhere on the continuum... I emailed him as soon as we had the results.\" Upload July 9, 2026."
+    },
+    {
+      "claim_id": "C48",
+      "verdict": "supported",
+      "reason": "My medium.en pass over S04 after 13:00: \"we created this belt, it looks like a WWE belt... it says InferenceKing... we sent it to Nvidia\"; \"I didn't expect it to happen on stage.\" S08 opens on the belt projected onto a 100-foot wall."
+    },
+    {
+      "claim_id": "C49",
+      "verdict": "supported",
+      "reason": "S04 02:17: \"Dylan, stop replying to random bozos on the Internet.\""
+    },
+    {
+      "claim_id": "C50",
+      "verdict": "supported",
+      "reason": "S08 independently: \"Revenue is projected to beat $100M this year.\" S10 attributes the April 2026 figure to The Information. The article dates it as a report."
+    },
+    {
+      "claim_id": "C52",
+      "verdict": "supported",
+      "reason": "S26: \"a newsletter read by more than 318,000 subscribers\". Dated \"as of October 2026\" in the FAQ."
+    },
+    {
+      "claim_id": "C54",
+      "verdict": "supported",
+      "reason": "S01 verbatim. The article attributes the age (\"He says he got a 360 at eight\")."
+    },
+    {
+      "claim_id": "C55",
+      "verdict": "supported",
+      "reason": "S04 01:41-02:03: \"Before I ever even had a smartphone... by the time I was 12, I was moderating a lot of forums related to... Android and Apple and Google and Intel, NVIDIA, AMD\"; S01 \"shitposted on the forums constantly\"."
+    },
+    {
+      "claim_id": "C57",
+      "verdict": "supported",
+      "reason": "S01 \"I had a job for three years after college\"; S04 02:40 \"I was a quant for two years\". \"Two or three years\" honours both."
+    },
+    {
+      "claim_id": "C58",
+      "verdict": "supported",
+      "reason": "S01 verbatim."
+    },
+    {
+      "claim_id": "C59",
+      "verdict": "qualified",
+      "reason": "S04 02:57 verbatim \"not as amazing as it seems\". The bonus comes only from S10 (translated adaptation), correctly attributed to The Information."
+    },
+    {
+      "claim_id": "C60",
+      "verdict": "supported",
+      "reason": "S01 verbatim: moved out, national parks \"in my truck/tent\", hotels and motels \"three or four days a week\"."
+    },
+    {
+      "claim_id": "C61",
+      "verdict": "supported",
+      "reason": "S01: \"Towards the end of 2021, I made a paid post because someone didn't pay for a report or whatever... 40 paid subscriptions... 'What? Okay, let's keep going.'\""
+    },
+    {
+      "claim_id": "C64",
+      "verdict": "qualified",
+      "reason": "\"Quiet-quit before he quit\" and \"conference years built his sources\" are supported (S01, S08). \"From 2022 it explains much of the travel\" follows S01, but S08 (Substrate, opened 2026-10-17) says \"By 2021, Dylan's itinerary had become a succession of acronyms: ISSCC, DAC, ECTC\" and places the early travel \"As the pandemic progressed\"; the record does not show conferences starting only in 2022 (see verify-r-01)."
+    },
+    {
+      "claim_id": "C67",
+      "verdict": "supported",
+      "reason": "S07 verbatim; the turn follows Dwarkesh's argument about the frontier population growing 10x a year."
+    },
+    {
+      "claim_id": "C68",
+      "verdict": "supported",
+      "reason": "S07: both sentences are in the same turn right after \"scary as hell\". S30 is \"Machines of Loving Grace\", dated October 2024. The article leaves the tone open."
+    },
+    {
+      "claim_id": "C69",
+      "verdict": "supported",
+      "reason": "S07: \"the one positive thing here is that today Anthropic does not capture most of the value... Or Dwarkesh, from researching his podcast... Tough. But I think that's the one saving grace, that the rest of the economy maybe profits so much more from Anthropic\". The sequencing in the article is fair."
+    },
+    {
+      "claim_id": "C70",
+      "verdict": "supported",
+      "reason": "S07 order confirmed: \"80,000 worlds\", the Jane Street argument, Dwarkesh's \"Hey, they're a sponsor\", \"No, I think it's great...\", \"On that somber note\", then the quip."
+    },
+    {
+      "claim_id": "C71",
+      "verdict": "supported",
+      "reason": "Interpretation matches the full S07 exchange I read, and the article caps its weight (\"supports the read without settling it\")."
+    },
+    {
+      "claim_id": "C72",
+      "verdict": "supported",
+      "reason": "S15 created 2023-08-29T01:53:57Z, S16 created 06:13:56Z: about 4 hours 20 minutes. \"Within about four hours\" is a fair approximation."
+    },
+    {
+      "claim_id": "C73",
+      "verdict": "supported",
+      "reason": "S17: \"an edited image of Google boss Sundar Pichai force-feeding Altman milk while holding him by the hair.\""
+    },
+    {
+      "claim_id": "C74",
+      "verdict": "supported",
+      "reason": "S20 dated Aug 27, 2021; title \"Arm China Has Gone Completely Rogue\"; body \"This is the tech heist of the century.\" S08 \"his first viral post\"."
+    },
+    {
+      "claim_id": "C75",
+      "verdict": "supported",
+      "reason": "Interpretation grounded in S08 (\"We influence opinion\", \"My hubris\") and S25 (\"number 1\")."
+    },
+    {
+      "claim_id": "C76",
+      "verdict": "supported",
+      "reason": "S25 verbatim: \"our goal is to be number 1\" and \"a bit of inconvenient timing for TechInsights\". Post ID decodes to mid-June 2026; page shows \"4mo\"."
+    },
+    {
+      "claim_id": "C77",
+      "verdict": "supported",
+      "reason": "Standard Enneagram description (gut triad, anger) stated as type theory."
+    },
+    {
+      "claim_id": "C78",
+      "verdict": "supported",
+      "reason": "S13 created 2024-12-23T20:13Z: all six lines confirmed; S14 dated Dec 22; S08: Lisa Su \"called the SemiAnalysis team for 90 minutes\"."
+    },
+    {
+      "claim_id": "C81",
+      "verdict": "supported",
+      "reason": "Interpretive concession; consistent with S08 evidence."
+    },
+    {
+      "claim_id": "C82",
+      "verdict": "supported",
+      "reason": "Interpretation; the test now samples fights he starts (S18) and codes purpose. Time-sensitive trigger names the reply sample and S28."
+    },
+    {
+      "claim_id": "C83",
+      "verdict": "supported",
+      "reason": "Type 3 material sourced: \"Just try and do the best and try to be the best\" (S01), \"number 1\" (S25), hubris (S08), five minutes (S04 audio, my pass), mother/IT (S10, attributed)."
+    },
+    {
+      "claim_id": "C84",
+      "verdict": "supported",
+      "reason": "S01 verbatim \"You can just buy engineering textbooks and read them\"; 40 conferences per S01/S04."
+    },
+    {
+      "claim_id": "C85",
+      "verdict": "supported",
+      "reason": "S08 verbatim."
+    },
+    {
+      "claim_id": "C86",
+      "verdict": "qualified",
+      "reason": "S10: \"Just days later, Patel published a report expressing a bearish view on Nvidia's upcoming Rubin chip.\" Translated adaptation, attributed to The Information; the bearish report itself was not opened."
+    },
+    {
+      "claim_id": "C87",
+      "verdict": "supported",
+      "reason": "S08 verbatim for the public/private split and the caveat that \"Many of the most influential companies (notably both Anthropic and OpenAI)... are private\"."
+    },
+    {
+      "claim_id": "C88",
+      "verdict": "qualified",
+      "reason": "S10 for about 20 startups, the Fluidstack SPV, \"Gold\", the Prime Intellect \"Bronze\" rebuttal and Weisser's quote (translated, attributed). S14 thanks Hot Aisle for compute; S23 reports Hot Aisle's post. Correctly attributed throughout."
+    },
+    {
+      "claim_id": "C89",
+      "verdict": "supported",
+      "reason": "S23: Zhou's April 2026 filing alleges retaliatory dismissal for refusing to put MNPI into client models; SemiAnalysis \"explicitly denying all of Zhou's allegations\"; Patel said the company would \"vigorously defend\" its position. S10 for the SPV. No reported ruling or settlement found 2026-10-17."
+    },
+    {
+      "claim_id": "C90",
+      "verdict": "supported",
+      "reason": "Disclaimer; nothing later links the type read to the merits."
+    },
+    {
+      "claim_id": "C91",
+      "verdict": "supported",
+      "reason": "S04 host calls him \"our new partner\"; S08 shared office with Dwarkesh; Latent Space and Dwarkesh are friendly hosts."
+    },
+    {
+      "claim_id": "C92",
+      "verdict": "supported",
+      "reason": "S02 [00:02:18]: \"looking back, I can spin a narrative like, oh, obviously I would be doing this.\""
+    },
+    {
+      "claim_id": "C94",
+      "verdict": "qualified",
+      "reason": "Dated and scoped, and the Weisser point is correct. But the sentence says the outside voices on record are \"not people who have worked with him\", while the article itself reports a former employee's suit (S23). See verify-r-03."
+    },
+    {
+      "claim_id": "C97",
+      "verdict": "qualified",
+      "reason": "The type answer is internally consistent (57 words, medium confidence, Type 8 as the close alternative), but its deciding support (C139) is weaker than stated; see verify-r-01."
+    },
+    {
+      "claim_id": "C98",
+      "verdict": "supported",
+      "reason": "S12 and S27 audio: named at GTC on March 16, 2026."
+    },
+    {
+      "claim_id": "C100",
+      "verdict": "supported",
+      "reason": "S01: earnings \"since I was 18\", engineering textbooks, forums; S10: \"holds no formal degree in semiconductors or AI\"."
+    },
+    {
+      "claim_id": "C101",
+      "verdict": "supported",
+      "reason": "S04 12:10-12:33 in both of my passes: 30x in one test, \"automatically publish onto the open source GitHub\", \"NVIDIA people helped and they knew\"."
+    },
+    {
+      "claim_id": "C102",
+      "verdict": "supported",
+      "reason": "S04 12:50-12:54: \"a lot of people were like no, no, no. It's like 3x. So we were quite bullish.\""
+    },
+    {
+      "claim_id": "C103",
+      "verdict": "supported",
+      "reason": "S08: \"The chart, advertising 50x increased performance on Nvidia's GB300 NVL72\"; S04 \"It was 30x\". The inference is labeled."
+    },
+    {
+      "claim_id": "C104",
+      "verdict": "supported",
+      "reason": "My medium.en pass over S04: \"he's on the slide for five minutes... it was such a surreal moment\"; S04 10:29 \"that moment was quite surreal\"."
+    },
+    {
+      "claim_id": "C105",
+      "verdict": "supported",
+      "reason": "S27 audio (my pass): \"I said last year at this time that NVIDIA's Grace Blackwell, NVLink 72, was 35 times perf per watt. Nobody believed me. And then semi-analysis came out...\""
+    },
+    {
+      "claim_id": "C107",
+      "verdict": "supported",
+      "reason": "S08: \"sixteen when he shed his burner account for u/dylan522p... still a moderator on r/hardware\"; S13/S16 screen_name dylan522p."
+    },
+    {
+      "claim_id": "C108",
+      "verdict": "supported",
+      "reason": "S08 verbatim: \"a man recalling a first love affair\"; \"characteristic stubbornness... loyal to Android for the next 14 years.\""
+    },
+    {
+      "claim_id": "C109",
+      "verdict": "supported",
+      "reason": "S01 verbatim."
+    },
+    {
+      "claim_id": "C110",
+      "verdict": "supported",
+      "reason": "My large-v3-turbo pass over S04 at 08:15-08:17 matches the small.en wording."
+    },
+    {
+      "claim_id": "C112",
+      "verdict": "supported",
+      "reason": "S01: \"quiet quit\"; \"I'd already had some small consulting arrangements in the past.\" \"Keeping the paycheck\" is the phrase's plain meaning, and no source says when the salary stopped."
+    },
+    {
+      "claim_id": "C113",
+      "verdict": "supported",
+      "reason": "S19 dated May 04, 2023: \"We have verified its authenticity.\""
+    },
+    {
+      "claim_id": "C114",
+      "verdict": "supported",
+      "reason": "S08: CoWoS reasoning; \"Confident in his predictions... Dylan began hiring\"; published in July; \"The Accelerator & HBM Model is one of SemiAnalysis's most sought-after products\"."
+    },
+    {
+      "claim_id": "C116",
+      "verdict": "supported",
+      "reason": "S07 verbatim, in this order and before the saving grace."
+    },
+    {
+      "claim_id": "C118",
+      "verdict": "supported",
+      "reason": "S18 dated Aug 28, 2023: \"smash GPT-4 total pre-training FLOPS by 5x before the end of the year\"; \"Make Everyone Look GPU-Poor\"; \"They are generally ignorant that pretraining datasets... need to be significantly larger\"."
+    },
+    {
+      "claim_id": "C119",
+      "verdict": "supported",
+      "reason": "S08 verbatim: \"Dylan closes our conversation with pride... My hubris is that they know that our numbers are better than theirs. And we often are.\""
+    },
+    {
+      "claim_id": "C120",
+      "verdict": "supported",
+      "reason": "Interpretation grounded in S08 (Slack lifeblood, \"sharp headlines\") and the client pitch."
+    },
+    {
+      "claim_id": "C121",
+      "verdict": "supported",
+      "reason": "Interpretation; the bonus is attributed through S10."
+    },
+    {
+      "claim_id": "C122",
+      "verdict": "supported",
+      "reason": "Interpretation; fits the S04 context (already-public results, collaborator)."
+    },
+    {
+      "claim_id": "C123",
+      "verdict": "qualified",
+      "reason": "Both cited fights carry a grin (S16/S17 meme; S08 house party), and Arm China (S08 \"Dylan smiles\") fits too. But \"a grin in the fights it captures\" generalizes: the record also captures the Slack naming, the December 2025 Oracle claim (S28) and the first-filed suit, with no grin recorded. See verify-r-02."
+    },
+    {
+      "claim_id": "C124",
+      "verdict": "supported",
+      "reason": "S01: \"It's the Andy Grove-ian mindset... Only the paranoid survive. Paranoid Western companies do well\"; S02 [00:41:51]: \"Jensen's very paranoid. Um, and that makes him like an amazing founder.\""
+    },
+    {
+      "claim_id": "C125",
+      "verdict": "supported",
+      "reason": "Interpretation over S01/S04/S08 facts that I confirmed."
+    },
+    {
+      "claim_id": "C126",
+      "verdict": "supported",
+      "reason": "Interpretation over S04 02:17-02:28."
+    },
+    {
+      "claim_id": "C127",
+      "verdict": "supported",
+      "reason": "S08: \"Dylan is aware of potential conflicts and raises an example. 'Hyperscalers are my biggest customers...'\""
+    },
+    {
+      "claim_id": "C129",
+      "verdict": "supported",
+      "reason": "S28 (Wallstreetcn, Dec 13, 2025): Patel's Abilene and \"11.5%\" claim; Axiomatic Capital's point that after a public bullish report, bearish updates went only to \"institutional-level subscribers\". Reported, not the original posts."
+    },
+    {
+      "claim_id": "C130",
+      "verdict": "supported",
+      "reason": "Interpretation; the strands match the evidence cited earlier in the article."
+    },
+    {
+      "claim_id": "C131",
+      "verdict": "supported",
+      "reason": "S23 supports \"filed first... including defamation\"; the hedge (company litigation as weak temperament evidence, no position on merits) is explicit."
+    },
+    {
+      "claim_id": "C132",
+      "verdict": "supported",
+      "reason": "My S04 pass at 02:03-02:09: \"I've always been a poster. I've always posted my opinion. I've always replied.\""
+    },
+    {
+      "claim_id": "C133",
+      "verdict": "supported",
+      "reason": "Interpretation grounded in S02 and S07, both verified."
+    },
+    {
+      "claim_id": "C134",
+      "verdict": "qualified",
+      "reason": "The facts (2020 quiet quit, apartment given up, road travel) are verbatim in S01. The type section offers this as the dated example of a Seven's fear of being boxed in, without the pandemic context S08 supplies (\"As the pandemic progressed\") and C139 records. See verify-r-01."
+    },
+    {
+      "claim_id": "C135",
+      "verdict": "supported",
+      "reason": "S21 (2020 blog), S12/S27 (Huang quoted SemiAnalysis and Patel), S04 (\"burning desire\"). Description is 168 characters."
+    },
+    {
+      "claim_id": "C136",
+      "verdict": "supported",
+      "reason": "S04 \"I've always been a poster\"; S12/S27 Huang quoted him on stage."
+    },
+    {
+      "claim_id": "C137",
+      "verdict": "qualified",
+      "reason": "The Eight-side facts are accurate (S04, S15/S16, S08, S25). The Seven side says he took to the road \"two years before conferences gave him a business reason to travel\", but S08 (Substrate, opened 2026-10-17) says \"By 2021, Dylan's itinerary had become a succession of acronyms: ISSCC, DAC, ECTC\" and places the early travel \"As the pandemic progressed\"; the record does not show conferences starting only in 2022 (see verify-r-01). Same issue as the body; see verify-r-01."
+    },
+    {
+      "claim_id": "C138",
+      "verdict": "supported",
+      "reason": "S01: \"Towards the end of 2021, I made a paid post\"; \"I started hiring people in mid-2022\"; S08: \"seven figures in revenue by 2023\"; S25 \"no external investors\". My S04 pass adds \"from 2023 to 2024, I went from... two to seven\". The concessions are accurate."
+    },
+    {
+      "claim_id": "C139",
+      "verdict": "qualified",
+      "reason": "S01 verbatim for the 2020 move, the 2022 conference start (\"In 2022, I also started going to every conference I could\"), the hires, and the October 2024 \"basically\" hedge with the tax joke. But S08 dates the conference itinerary to 2021 and ties the early travel to the pandemic. The claim's alternative mentions the pandemic but not S08's 2021 dating, and the article states \"two years before\" as fact. See verify-r-01."
+    },
+    {
+      "claim_id": "C140",
+      "verdict": "supported",
+      "reason": "S01: \"Most of that stuff is scrubbed off the internet, including Internet Archive, because I asked them to remove it.\" S04 03:04 confirms he posted under his real name from 2020. \"Most\" is kept. No reason found in S01, S02, S04 or S08."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "S01",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Re-fetched 2026-10-17 (HTTP 200). Transcript sections on the Xbox, finance job, quiet quitting, national parks, late-2021 paid post, \"In 2022, I also started going to every conference I could\", \"mid-2022\" hiring, \"digital nomad since 2020... I moved to SF now, kind of not really\", Andy Grove passage."
+    },
+    {
+      "source_id": "S02",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Re-fetched 2026-10-17 (HTTP 200). Show notes plus timestamped transcript [00:02:01]-[00:02:24] (Minnesota, beekeeping, \"next step\", \"spin a narrative\"), [00:03:09]-[00:03:24] (anonymous blog, silicon Twitter), [00:41:51] (Jensen paranoid), [00:53:09] (client list)."
+    },
+    {
+      "source_id": "S03",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Re-fetched 2026-10-17 (HTTP 200). Opening: \"Dylan runs SemiAnalysis, a well-respected research and analysis company...\" Used only for C01."
+    },
+    {
+      "source_id": "S04",
+      "opened": true,
+      "context_matches": true,
+      "locator": "YouTube lHnxU9f-rwc (uploaded 2026-07-09). Re-transcribed by me from the cached mweb audio: large-v3-turbo over 00:00-13:00 (01:41 smartphone, 01:51 moderating, 02:03-02:28 poster/bozos/burning desire, 02:40-02:57 quant, 03:19 motel, 04:54-05:03 four years/40 conferences, 07:54-08:17 headcount and \"interested in everything\", 10:29 surreal, 12:10-12:58 email) and medium.en over 12:20-20:00 (belt, \"five minutes\", \"didn't expect it to happen on stage\")."
+    },
+    {
+      "source_id": "S05",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Re-fetched 2026-10-17 (HTTP 200). TechFlow compilation, Chapter 2/3 belt and five-minutes passage; matches my S04 audio pass in substance and is cited only as a secondary companion."
+    },
+    {
+      "source_id": "S06",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Re-fetched 2026-10-17 (HTTP 200). Episode note: \"Dylan Patel, founder of SemiAnalysis\"; transcript: \"Dylan is the CEO of SemiAnalysis.\" Used only for C01."
+    },
+    {
+      "source_id": "S07",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Re-fetched 2026-10-17 (HTTP 200). Episode note (\"my twin brother Dylan Patel\") and the closing transcript from \"What world do you see, Dwarkesh\" through \"You're not going to have me on your podcast again for like two months?\", read in full."
+    },
+    {
+      "source_id": "S08",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Re-fetched 2026-10-17 (HTTP 200) and read in full, including the opening belt scene, the house party in the Mission, the HTC/Android passage, \"Seven years later... Asia and South America\", \"As the pandemic progressed\", \"By 2021, Dylan's itinerary had become a succession of acronyms: ISSCC, DAC, ECTC\", the Arm China passage, \"seven figures in revenue by 2023\", CoWoS and HBM, Slack, editing, conflicts, closing \"hubris\" and the 9/18/26 correction."
+    },
+    {
+      "source_id": "S10",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Re-fetched 2026-10-17 (HTTP 200). Sections on Rubin, \"approximately 20 startups\", Fluidstack Gold/Prime Intellect Bronze and Weisser, Georgia/MIT/Stanford/UGA, bonus, mother/IT. Translated adaptation of The Information; the article attributes it that way."
+    },
+    {
+      "source_id": "S12",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Re-fetched 2026-10-17 (HTTP 200). ScribeHawk transcript [01:00:56] \"This is from semi-analysis\" and [01:03:44]-[01:04:03] the Patel passage."
+    },
+    {
+      "source_id": "S13",
+      "opened": true,
+      "context_matches": true,
+      "locator": "X syndication API (tweet 1871287937268383867) fetched 2026-10-17: created_at 2024-12-23T20:13:05Z; all six lines read."
+    },
+    {
+      "source_id": "S14",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Re-fetched 2026-10-17 (HTTP 200). Dated Dec 22, 2024; \"Executive Recommendation to AMD: We genuinely want to see another effective competitor to Nvidia\"; acknowledgements thank Hot Aisle for compute."
+    },
+    {
+      "source_id": "S15",
+      "opened": true,
+      "context_matches": true,
+      "locator": "X syndication API (tweet 1696340377098453440) fetched 2026-10-17: created_at 2023-08-29T01:53:57Z; text matches."
+    },
+    {
+      "source_id": "S16",
+      "opened": true,
+      "context_matches": true,
+      "locator": "X syndication API (tweet 1696405806286279033) fetched 2026-10-17: created_at 2023-08-29T06:13:56Z; text \"Sundar to the GPU-poors. The data is from a supplier of Google, and we made the chart.\""
+    },
+    {
+      "source_id": "S17",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Re-fetched 2026-10-17 (HTTP 200). Business Insider via Yahoo: Altman quote, \"force-feeding Altman milk while holding him by the hair\", embedded Patel post."
+    },
+    {
+      "source_id": "S18",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Re-fetched 2026-10-17 (HTTP 200). Dated Aug 28, 2023; \"smash GPT-4 total pre-training FLOPS by 5x before the end of the year\"; \"generally ignorant\" passage in the free section."
+    },
+    {
+      "source_id": "S19",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Re-fetched 2026-10-17 (HTTP 200). Dated May 04, 2023; \"We have verified its authenticity.\""
+    },
+    {
+      "source_id": "S20",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Re-fetched 2026-10-17 (HTTP 200). Dated Aug 27, 2021; title \"...Gone Completely Rogue\"; body \"This is the tech heist of the century.\""
+    },
+    {
+      "source_id": "S21",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Re-fetched 2026-10-17 (HTTP 200). Dated May 22, 2020."
+    },
+    {
+      "source_id": "S22",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Re-fetched from SEC EDGAR 2026-10-17 (HTTP 200). primary_doc.xml: issuer SemiAnalysis Capital Fund I, LP (Delaware); totalOfferingAmount 400000000; totalAmountSold 0; signer Dylan Patel, \"Manager of the General Partner of the Issuer\"; signatureDate 2026-07-29; isAmendment false."
+    },
+    {
+      "source_id": "S23",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Re-fetched 2026-10-17 (HTTP 200). Wallstreetcn via Longbridge, Apr 5, 2026: Zhou's April filing, the March 27 countersuit (CGC-26-635328) and its counts, January 2026 termination, denial, \"vigorously defend\", Hot Aisle post."
+    },
+    {
+      "source_id": "S24",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Re-fetched 2026-10-17 (HTTP 200). Crypto Briefing dated Sep. 11, 2026: SemiAnalysis acquiring Citrini Research."
+    },
+    {
+      "source_id": "S25",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Re-fetched 2026-10-17 (HTTP 200). Public LinkedIn post (STEEL teardown lab, \"4mo\", ID decodes to mid-June 2026): \"no external investors and are founder led\", \"our goal is to be number 1\", \"inconvenient timing for TechInsights\"."
+    },
+    {
+      "source_id": "S26",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Re-fetched 2026-10-17 (HTTP 200). About page: primary research, supply chain tracking, \"a newsletter read by more than 318,000 subscribers\"."
+    },
+    {
+      "source_id": "S27",
+      "opened": true,
+      "context_matches": true,
+      "locator": "NVIDIA's YouTube upload jw_o0xr8MWU; I re-transcribed the cached audio (large-v3-turbo) at about 1:00:50-1:01:30 (\"This is from semi-analysis\") and 1:03:20-1:04:35 (35 times claim, \"Dylan Patel had a quote... It's actually 50 times. And he's not wrong\"). Embed start 3810s lands on the passage."
+    },
+    {
+      "source_id": "S28",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Re-fetched 2026-10-17 (HTTP 200). Wallstreetcn via Longbridge, Dec 13, 2025: Patel's Abilene/Oracle \"11.5%\" claim, The AI Investor, Axiomatic Capital's institutional-only point, \"self-mythologizing\"."
+    },
+    {
+      "source_id": "S30",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Re-fetched 2026-10-17 (HTTP 200). \"Machines of Loving Grace: How AI Could Transform the World for the Better\", October 2024, by Anthropic's CEO."
+    }
+  ],
+  "decision_checks": [
+    {
+      "finding_id": "subject-01",
+      "accepted": true,
+      "reason": "The \"adding rooms\" sentence is gone. The lawsuit paragraph ends on who alleges what, the reported denial, \"vigorously defend\" and \"No ruling or settlement had been reported as of October 17, 2026\", then the kept disclaimer. No title, description or FAQ mentions the suit. The later C131 sentence in another section treats the first-filed suit only as weak temperament evidence and takes no position on the merits, which reconciles this with critic-06."
+    },
+    {
+      "finding_id": "subject-02",
+      "accepted": true,
+      "reason": "The split is presented as his answer \"as Substrate presents it\", with Substrate's private-companies caveat in place of \"another matter\". The Prime Intellect point is \"His rebuttal there\". \"Vigorously defend\" is included. The denial is attributed to Wallstreetcn, which reports it alongside the countersuit; close enough to \"its own filing\"."
+    },
+    {
+      "finding_id": "subject-03",
+      "accepted": true,
+      "reason": "Checked against the full S07 transcript: the regulate/pray/framework passage is quoted in order, the Jane Street lines are described as part of the concentration argument, the Amodei essay is identified with tone left open (\"hopefully or dryly\"), the offending sentence is gone, and the summary is capped (\"supports the read without settling it\"). No FAQ relies on \"my cope\"."
+    },
+    {
+      "finding_id": "subject-04",
+      "accepted": true,
+      "reason": "The Slack sentence gives Substrate's stated purpose and \"occasionally\"; the editing quote names \"an outside analyst's primers\"; the record-limits section files Slack under control, not guardedness; the Why-not-8 FAQ says \"occasionally names staff... under a rule meant to keep information in public channels\"."
+    },
+    {
+      "finding_id": "subject-05",
+      "accepted": true,
+      "reason": "The lanyard is gone from the guardedness evidence and the ending; no motive is attached to anything at Hot Chips."
+    },
+    {
+      "finding_id": "subject-06",
+      "accepted": true,
+      "reason": "Uses S08's \"noticed\"; the joke gloss is replaced by Tang's \"a first love affair\" and the 14-year loyalty, both verbatim in S08."
+    },
+    {
+      "finding_id": "subject-07",
+      "accepted": true,
+      "reason": "Hot Aisle is \"another GPU cloud provider and a past compute donor to SemiAnalysis benchmarks\" (S14 acknowledgements confirm); \"questioned\" stays neutral; no kickback implication."
+    },
+    {
+      "finding_id": "subject-08",
+      "accepted": true,
+      "reason": "The description (168 characters) no longer presents fights as the business method; the combativeness is his own \"can't stop answering critics\"."
+    },
+    {
+      "finding_id": "fan-01",
+      "accepted": true,
+      "reason": "The passage is quoted in order; Jane Street is part of the argument; the sponsor joke is credited to Dwarkesh and Patel's own jokes are acknowledged; the \"does not propose\" sentence is gone. The Lex paragraph was removed (critic-10 allowed removal), which takes away the hope-prompt problem. The claim is narrowed to an upside he calls cope."
+    },
+    {
+      "finding_id": "fan-02",
+      "accepted": true,
+      "reason": "Title and description no longer assert causation. The lede says the 50x matches a published chart, not the 30x email, \"so the line from email to keynote is Patel's telling\". The collaborator/good-news reading is stated and the email is demoted. \"Surreal\" and the five minutes appear and are weighed in the Type 3 paragraph; \"longer than anyone else\" stays out pending the speaker check, which is reasonable."
+    },
+    {
+      "finding_id": "fan-03",
+      "accepted": true,
+      "reason": "Both omitted lines are quoted verbatim (checked against S13). \"Credit, not a victory lap\" is replaced by \"It credits AMD and shows a powerful CEO acting on his critique, so it fits both readings.\""
+    },
+    {
+      "finding_id": "fan-04",
+      "accepted": true,
+      "reason": "The bonus motive is stated and attributed; the exit is listed among things that \"fit an Eight as well\"; the origin section says he quiet-quit and already had consulting."
+    },
+    {
+      "finding_id": "fan-05",
+      "accepted": true,
+      "reason": "The lanyard is cut, and the record-limits section still lands on the archive scrub."
+    },
+    {
+      "finding_id": "fan-06",
+      "accepted": true,
+      "reason": "The CoWoS call is dated and attributed to Tang; the overpromise quote sits in the 2023 hedge-fund sales context; \"We Have No Moat\" has a dated, linked sentence; \"impulse and opening\" is limited to \"The early business\" and followed by \"more deliberate\" calls."
+    },
+    {
+      "finding_id": "fan-07",
+      "accepted": true,
+      "reason": "\"In full\" is kept. The Eight section adds the hubris line, the GPU-Poor post as a fight he started, and the solely owned base. The test samples fights he starts. Tang's \"characteristic stubbornness\" appears two sections earlier rather than in the Eight section. That partly misses the letter of the test, but the reader meets it before the Eight case, and verify-r-04 asks for a one-clause cross-reference."
+    },
+    {
+      "finding_id": "fan-08",
+      "accepted": true,
+      "reason": "u/dylan522p, the r/hardware moderation and the X handle are named and attributed to Substrate. The anonymous blog is dated to the finance years. The Type 3 paragraph no longer uses anonymity, and the closing credits professional caution and keeps the Internet Archive request as the clearer signal."
+    },
+    {
+      "finding_id": "critic-01",
+      "accepted": true,
+      "reason": "The pessimistic stretch is quoted before the saving grace; Jane Street continues the argument; jokes are attributed correctly; the Amodei line is flagged as possibly dry; the \"does not propose\" sentence is gone; the article no longer says \"the Seven pattern in one conversation\" and caps the weight."
+    },
+    {
+      "finding_id": "critic-02",
+      "accepted": true,
+      "reason": "The hook states automatic GitHub publication and Nvidia's collaboration (both verbatim in my S04 pass), paraphrases \"quite bullish\", names the collaborator upside alongside the keynote-as-marketing line, attributes the causation to Patel, and demotes the email (\"An Eight with winning data loses nothing\"). Title, description and FAQ no longer rest on it."
+    },
+    {
+      "finding_id": "critic-03",
+      "accepted": true,
+      "reason": "Same fix as fan-03, and the dates now match S13 (Dec 23) and S14 (Dec 22)."
+    },
+    {
+      "finding_id": "critic-04",
+      "accepted": true,
+      "reason": "The lanyard is out of the guarded list and the ending; C95 is removed."
+    },
+    {
+      "finding_id": "critic-05",
+      "accepted": true,
+      "reason": "S28 was added and I reopened it; the Oracle exchange is reported with Axiomatic Capital's point; \"Nobody... is on record\" is replaced by a dated, scoped sentence. (That sentence now has a separate inaccuracy about the former employee; see verify-r-03.)"
+    },
+    {
+      "finding_id": "critic-06",
+      "accepted": true,
+      "reason": "The record-limits section has the neutral sentence (first-filed, defamation, Eight-predicted escalation, lawyer-shaped, no position on merits). \"Vigorously defend\" is sourced to S23."
+    },
+    {
+      "finding_id": "critic-07",
+      "accepted": true,
+      "reason": "The qualifier is quoted and the text now says \"The field never changed. Inside it, his attention kept jumping to the newest thing.\" C28/C109 match."
+    },
+    {
+      "finding_id": "critic-08",
+      "accepted": true,
+      "reason": "The exit is no longer a discriminator; quiet quitting, the paycheck and prior consulting are stated; C112 records that no source dates when the salary stopped."
+    },
+    {
+      "finding_id": "critic-09",
+      "accepted": true,
+      "reason": "The anonymous blog is dated to the finance years; the u/dylan522p handle is named; professional caution is given; neither the Type 3 paragraph nor the closing treats anonymity as strong evidence."
+    },
+    {
+      "finding_id": "critic-10",
+      "accepted": true,
+      "reason": "The Lex example and C65/C66 are removed."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "accepted": true,
+      "reason": "By the end of paragraph three: SemiAnalysis is \"the chip research firm Dylan Patel founded\"; sandbagging is defined; the 35x perf-per-watt claim is Huang's; the 50x is Patel's quoted line; 25 and 15-20 are kept inside \"By his account\"."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "accepted": true,
+      "reason": "The backwards phrase is gone. The test asked for the admission to be stated, but three other findings (fan-02, critic-02, future-02) asked the snippet to stop resting on the email. Removing it fixes the defect without reintroducing the causal claim. 168 characters."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "accepted": true,
+      "reason": "The closing separates control (Slack naming, \"number 1\", hubris, reply habit) from guardedness (anonymous blog explained by caution; the archive request unexplained). The Slack passage gives the public-channel purpose."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "accepted": true,
+      "reason": "The Why-not-8 FAQ no longer mentions cope, so it cannot misstate it; this also meets subject-03's FAQ clause."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "accepted": true,
+      "reason": "Gloss present and checked against S30 (title, author, October 2024); \"I don't trust Dario\" follows as a turn."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "accepted": true,
+      "reason": "Now complete: the GPU-Poor claim in plain words (verified against S18), neocloud and MNPI glossed, Hot Aisle identified, \"San Francisco's Mission District\", and the undated Blackwell embargo line cut."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "accepted": true,
+      "reason": "\"He says he got a 360 at eight.\""
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "accepted": true,
+      "reason": "The sentence now says \"the one rated company quoted is a Patel investment\", which agrees with the Weisser paragraph."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "accepted": false,
+      "reason": "Partly met: the discriminator is stated as motive and labeled as the analysis's reading, the email has the verified \"quite bullish\" context and is filed as fitting both, and the test codes what each reply is for. But after the repair the Seven side rests on one choice, the 2020 move, presented as \"two years before the conferences\". S08 dates the conference itinerary to 2021 and places the travel in the pandemic, and the article omits both (verify-r-01). The \"tend to\" clause became \"a grin in the fights it captures\", which still generalizes beyond the two cited examples (verify-r-02). The core concern, a discriminator the Eight reading demonstrably fails, is not yet met."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "accepted": true,
+      "reason": "Order matches S07 as I read it; Jane Street is part of the argument; the sponsor joke is Dwarkesh's; the somber close and Patel's quip are acknowledged; the section says the exchange shows a reach for one positive thing but ends in acceptance."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "accepted": true,
+      "reason": "A Six paragraph sits beside 3 and 5 with \"80,000 worlds\", the distrust (quoted and linked earlier) and two dated paranoia quotes (verified in S01 and S02). Its discriminator addresses counterphobic Six (Grove's line, paranoia praised as a founder trait). The Three paragraph drops anonymity and treats the scrub and replies as possible image defense, with the marketing-staff discriminator. The paranoia quotes are dated rather than hyperlinked in that paragraph, which is cosmetic."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "accepted": true,
+      "reason": "The qualifier is restored and verified; breadth rests on \"I've always been interested in everything\", which my large-v3-turbo pass confirms; the text now says \"The field never changed\". The 14-year loyalty is in the article (origin section), not weighed in the alternatives section as asked, but the recast sentence concedes the single-field point directly. verify-r-04 asks for the cross-reference."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "accepted": true,
+      "reason": "The triad paragraph cites behavior (\"next step\", hunting for a way out of a bleak forecast); the boxed-in paragraph ties to the dated 2020 choice; the earnings-since-18 line is gone from the type answer. (The 2020 choice's pandemic context is a separate issue, verify-r-01.)"
+    },
+    {
+      "finding_id": "enneagram-06",
+      "accepted": true,
+      "reason": "The war stories and readers'-corrections line are removed (C42, C79, C80 gone); the Lisa Su paragraph quotes the recommendations line and reads as both."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "accepted": true,
+      "reason": "No sentence links the type to the lawsuit or the conflict risk; the conflict structure is business fact; the expansion is no longer framed as Seven appetite."
+    },
+    {
+      "finding_id": "enneagram-08",
+      "accepted": true,
+      "reason": "Business rationale (public channels feed the models) is separated from personal style (\"In signature Dylan fashion, he names and shames\"); the follow-up says the naming and hubris, not the quota, fit an Eight better."
+    },
+    {
+      "finding_id": "future-01",
+      "accepted": true,
+      "reason": "Body says \"born in 1996\"; the FAQ age is dated \"as of October 2026\"; C01 and C03 triggers cover it."
+    },
+    {
+      "finding_id": "future-02",
+      "accepted": true,
+      "reason": "The superlatives are removed from hook, framing question and description; the hook is anchored to March 16, 2026; C99 is removed."
+    },
+    {
+      "finding_id": "future-03",
+      "accepted": true,
+      "reason": "The sentence is removed (subject-01 asked for removal); the conflict facts are dated (\"as of April 2026\", July 2026 filing); C131 carries the docket trigger."
+    },
+    {
+      "finding_id": "future-04",
+      "accepted": true,
+      "reason": "The article says plainly that company litigation is weak temperament evidence and why; the test sentence is unchanged; C82 is time_sensitive with a trigger naming the reply sample and S28."
+    },
+    {
+      "finding_id": "future-05",
+      "accepted": true,
+      "reason": "A grep of author prose finds no undated \"now/next/new/year end\": \"less than 5%\" is dated to Substrate September 2026, \"He invests, too\", \"then-upcoming Rubin\", the embargo line and \"about 100 by year end\" are gone, and O'Laughlin's title has a C36 trigger."
+    },
+    {
+      "finding_id": "future-06",
+      "accepted": true,
+      "reason": "Every FAQ figure is dated (\"as of October 2026\", \"Substrate reported in September 2026\", \"reported in April 2026 that the firm projected\")."
+    },
+    {
+      "finding_id": "future-07",
+      "accepted": true,
+      "reason": "Dated \"As of October 2026\"; C94 is time_sensitive with the docket/testimony trigger; C11 has the archive trigger."
+    },
+    {
+      "finding_id": "future-08",
+      "accepted": true,
+      "reason": "The FAQ cites dated pre-2026 behavior on both sides (2023 Altman meme; 2020 move), states medium confidence and matches the body. Its \"two years before conferences gave him a business reason to travel\" shares the body's dating problem, which verify-r-01 tracks; the acceptance test itself is met."
+    },
+    {
+      "finding_id": "verify-01",
+      "accepted": true,
+      "reason": "No claim cites S09 or S11; C08, C34, C17, C38 and C50 cite opened sources and name The Information in text."
+    },
+    {
+      "finding_id": "verify-02",
+      "accepted": false,
+      "reason": "The paragraph now labels the motive and concedes the base-building (late-2021 paid post, mid-2022 hires, seven figures by 2023, no external investors; all verified) and the conference rationale. But the \"sourced specifics\" that still separate Seven from Eight misstate the record: \"two years before the conferences\" relies on S01 alone while S08 says \"By 2021, Dylan's itinerary had become a succession of acronyms: ISSCC, DAC, ECTC\", and the pandemic, which C139's own alternative names as a non-temperament explanation, never reaches the reader. See verify-r-01."
+    },
+    {
+      "finding_id": "verify-03",
+      "accepted": true,
+      "reason": "Matches S07: the intervening sentence is quoted, the rib before the saving grace and the sign-off quip are acknowledged, and \"accepts the grim conclusion\" fits the transcript."
+    },
+    {
+      "finding_id": "verify-04",
+      "accepted": true,
+      "reason": "Sequence matches S13/S14 timestamps; \"harshest\" is gone."
+    },
+    {
+      "finding_id": "verify-05",
+      "accepted": true,
+      "reason": "\"Chief analyst\" is gone from body, FAQ and C01; the client list is linked to S02, which states it."
+    },
+    {
+      "finding_id": "verify-06",
+      "accepted": true,
+      "reason": "\"Substrate's profile opens on the belt, projected onto a 100-foot wall behind Huang\" matches S08's first scene."
+    },
+    {
+      "finding_id": "verify-07",
+      "accepted": true,
+      "reason": "\"Most of the blog and videos...\" matches S01; the final line keeps its force."
+    },
+    {
+      "finding_id": "verify-08",
+      "accepted": true,
+      "reason": "\"In San Francisco's Mission District.\""
+    },
+    {
+      "finding_id": "verify-09",
+      "accepted": true,
+      "reason": "\"Good news about Huang's own claim.\""
+    },
+    {
+      "finding_id": "verify-10",
+      "accepted": true,
+      "reason": "The net-worth FAQ is dated and scoped; the first Jensen Huang mention links to /personality-analysis/jensen-huang, which returned HTTP 200 on 2026-10-17."
+    }
+  ],
+  "prior_blocker_checks": [],
+  "protected_checks": [
+    {
+      "passage": "The type read says nothing about who is right in that case, and it should not be used to.",
+      "preserved": true,
+      "reason": "Verbatim; the undercutting sentence after it is gone."
+    },
+    {
+      "passage": "In the interviews opened for this analysis, he does not say why.",
+      "preserved": true,
+      "reason": "Verbatim after the archive quote; still true of S01, S02, S04 and S08."
+    },
+    {
+      "passage": "That is a useful warning for anyone reading his origin story, this one included.",
+      "preserved": true,
+      "reason": "Verbatim."
+    },
+    {
+      "passage": "Almost everything above is Patel's own retelling, given on friendly podcasts, often to hosts who are also his business partners, friends or office neighbors.",
+      "preserved": true,
+      "reason": "Verbatim at the head of \"What the record cannot show yet\"."
+    },
+    {
+      "passage": "The test that would move the read is simple: collect his replies to critics over a few years. If he mocks and moves on, that is the Seven. If he escalates and keeps pursuing the same people for weeks, the Eight reading gains.",
+      "preserved": true,
+      "reason": "Verbatim; extended with initiated fights and a motive-level coding marker."
+    },
+    {
+      "passage": "SemiAnalysis had made WWE-style championship belts reading \"Inference King\" and mailed them to the benchmark's collaborators, Nvidia among them.",
+      "preserved": true,
+      "reason": "Verbatim; the belt passage is now confirmed by my S04 audio pass."
+    },
+    {
+      "passage": "He added that \"looking back, I can spin a narrative\" in which it was all inevitable ([Latent Space, February 28, 2026](https://www.latent.space/p/dylanpatel-cooking)). That is a useful warning for anyone reading his origin story, this one included.",
+      "preserved": true,
+      "reason": "Verbatim, including the link and the warning sentence."
+    },
+    {
+      "passage": "Inside the firm, Substrate reports, he caps private Slack messages at roughly 30% of what staff send, and he \"names and shames\" with a table of people who go over.",
+      "preserved": true,
+      "reason": "Changed as two findings required (purpose and \"occasionally\"); the cap, the \"names and shames\" quote and the table remain, so the Eight-credible detail survives."
+    },
+    {
+      "passage": "Every named witness is a friend or a colleague.",
+      "preserved": true,
+      "reason": "Verbatim. Still accurate for witnesses who describe him; the following sentence has its own issue (verify-r-03)."
+    },
+    {
+      "passage": "Nvidia's CEO was using an outside analyst's jab to sell his product. That part is ordinary marketing.",
+      "preserved": true,
+      "reason": "Verbatim."
+    },
+    {
+      "passage": "None of this makes the Eight case go away. The Slack rule and the influence talk are the parts a Seven reading explains least well.",
+      "preserved": true,
+      "reason": "Verbatim; the added sentence sharpens rather than softens it."
+    },
+    {
+      "passage": "So which reflex runs him: the one that answers every critic, or the one that emails the most important man in his industry to say \"I was wrong\"? This analysis argues it is the second, and that the first is how it sounds out loud.",
+      "preserved": true,
+      "reason": "Changed because the email is no longer the Seven exhibit and the superlative was removed (critic-02, enneagram-01, future-02). The two-sided question the article answers survives as \"So which side runs him...\"."
+    },
+    {
+      "passage": "He tells it as a joke on himself now. It is also the first entry in a long file: a kid picking a public side against a much bigger company's messaging.",
+      "preserved": true,
+      "reason": "First sentence replaced because it was an unsupported gloss (subject-06); the replacement is Substrate's own description. The second sentence, the \"long file\" pattern link, is verbatim. The distinctive contribution survives."
+    },
+    {
+      "passage": "That exchange is the Seven pattern in one conversation. He names the fear. He reaches for the bright side. When the bright side fails, he says out loud that it was a reframe. Then he makes a joke.",
+      "preserved": true,
+      "reason": "Changed because the four steps misread S07. The observable-steps device survives in a version that matches the transcript I read."
+    },
+    {
+      "passage": "The man who wants to be connected to everything spent much of that conference with his name turned around. Substrate does not say why, and no source opened for this analysis does either.",
+      "preserved": true,
+      "reason": "Removed because S08 frames the flipped lanyard as a press-badge point, so \"Substrate does not say why\" misled. Its function, ending on a sourced contradiction with no invented motive, survives in the new archive-scrub ending, which I verified against S01."
+    },
+    {
+      "passage": "Because a lot of the evidence says Eight. Here is that case in full.",
+      "preserved": true,
+      "reason": "Verbatim. The section now carries the hubris line, the GPU-Poor opener and the solely owned base, so \"in full\" is close to true (see verify-r-04 for the stubbornness cross-reference)."
+    },
+    {
+      "passage": "It listed everyone who had doubted Huang's numbers, and Patel put himself on the list: \"Here's all the people that gave you crap. Even I gave you crap.\" By his account, he had guessed 15 to 20 times, not the 25 Huang had claimed.",
+      "preserved": true,
+      "reason": "Verbatim; the following sentences add the \"bullish\" context."
+    },
+    {
+      "passage": "If he mocks and moves on, that is the Seven. If he escalates and keeps pursuing the same people for weeks, the Eight reading gains.",
+      "preserved": true,
+      "reason": "Verbatim in the test paragraph."
+    }
+  ],
+  "coverage_complete": true,
+  "metadata_consistent": true,
+  "alternative_type_addressed": true,
+  "five_year_test_passed": true,
+  "open_case_eligible": false,
+  "scores": {
+    "evidence": {
+      "score": 7.8,
+      "passage": "He gave up his apartment in 2020, two years before the conferences and the first hires.",
+      "reason": "Quote fidelity is excellent. I reopened all 27 cited sources and re-transcribed the WisdomTree and GTC audio with a second model, and every one of roughly 100 quotations matched, including the full S07 exchange in order. Attribution is careful: The Information is named as known only through a translated adaptation, the lawsuit comes through Wallstreetcn's summary, and \"By his account\" and \"Patel has never said so\" keep self-report separate from inference. Independence is thin (mostly his own retellings on friendly podcasts, friends and staff as witnesses), but the article says so plainly. The deduction is context-faithfulness at the decisive point: the timing claim states a 2022 conference start that Substrate contradicts and omits the pandemic circumstance the evidence record itself names. The 8 anchor requires inference that survives a second independent account, and this inference does not."
+    },
+    "enneagram": {
+      "score": 7.2,
+      "passage": "This analysis reads the 2020 start as a Seven keeping options open before anything required it. Patel has never said so, and his \"next step\" account and the jumps to the newest corner of one field are his own descriptions too, so Seven leads only narrowly.",
+      "reason": "Well above the 6 anchor. The Eight case is argued seriously and at length (fights started, Slack naming, hubris, \"number 1\", the solely owned base, the first-filed suit). Six, Three and Five get sourced discriminators, and the triad and fear are tied to behavior. It also names what the Seven reading cannot explain and gives a motive-level test. It falls short of 8 because the Eight reading does not fail a specific, sourced discriminator. The article concedes the Eight explains the reply habit, naming, hubris and the base better, and moves the email, the Lisa Su post, the finance exit and the cope exchange to \"fits both\". What remains is one labeled reading of the 2020 move, misdated against Substrate and stripped of its pandemic context, plus self-descriptions."
+    },
+    "originality": {
+      "score": 8.6,
+      "passage": "In every interview opened for this analysis, the man who always replies has left that one unanswered.",
+      "reason": "Built almost entirely from details specific to Patel and checkable: the sandbagging email with his own name on the doubters' list, the Inference King belt, the six-line Lisa Su post, the 30% Slack quota with a naming table, \"This is my cope\", and the Internet Archive scrub turned into a closing contradiction. Type boilerplate is minimal and always tied to his evidence. The ending is an unresolved contradiction that survives the type argument."
+    },
+    "writing": {
+      "score": 7.8,
+      "passage": "Several things that look like Seven evidence fit an Eight as well.",
+      "reason": "The hook, quote-titled sections and closing are strong, and pacing varies between short beats and longer evidence paragraphs. The middle sags: \"Why not Type 8?\" runs about 1,100 words and loops (Eight evidence, business subtraction, \"fits both\" three times, the base concession, timing, the grin, then \"None of this makes the Eight case go away\"), so the reader circles before the test arrives. At 4,262 words the piece is well past the 2,000-3,500 target, and much of the overrun is that argument being re-litigated."
+    },
+    "durability": {
+      "score": 8.4,
+      "passage": "Zhou's suit, filed in April, alleges he was fired for refusing to put material non-public information (confidential data that investors are not supposed to trade on) from Fluidstack, tied to an investment vehicle Patel led, into SemiAnalysis client models. SemiAnalysis has denied all of his allegations, Wallstreetcn reported, and Patel posted that the company would vigorously defend its position. No ruling or settlement had been reported as of October 17, 2026.",
+      "reason": "Events carry absolute dates throughout (March 16, 2026 keynote, December 23, 2024 post, July 29, 2026 Form D, \"as of October 2026\" scoping). Changing facts (age, headcount, revenue, fund size, ratings, both lawsuits, O'Laughlin's title, the archive question) are time_sensitive or unresolved with actionable triggers. The hook is a dated event rather than \"this year's\" moment. Removing the 2026 material leaves the central portrait (poster since 12, reply habit, 2020-24 choices) intact. The lawsuit and conflicts section will need maintenance, but it is tracked and dated. The open timing dispute is an accuracy problem, not a durability one."
+    },
+    "hook": {
+      "score": 8.6,
+      "passage": "Sandbagging means lowballing your own numbers, so the accusation was a compliment.",
+      "reason": "A specific, sourced, embedded moment (Huang reading Patel's line back on stage) with a reversal that makes a newcomer curious. The article pays it off with the email backstory, its commercial context and the \"which side runs him\" question. It loses a little because three multiples (35, 50, 25 and 15-20) arrive before the reader knows why they matter."
+    },
+    "discoverability": {
+      "score": 8.0,
+      "passage": "Dylan Patel's personality type is most likely Enneagram Type 7, the Enthusiast, held at medium confidence.",
+      "reason": "meta_title (59 characters) and description (168 characters) are accurate and identity-first. The H2 type answer is 57 words, mirrored by the FAQ, with confidence and the alternative. The eight FAQs answer real search intent (who, SemiAnalysis, background, age, net worth, Dwarkesh relation) with dated figures. Internal links go to three live person pages and five type pages (all HTTP 200), and suggestions are relevant. Deduction: the Why-not-8 FAQ repeats the contested \"two years before conferences gave him a business reason to travel\", so the snippet most likely to be lifted carries verify-r-01's error."
+    }
+  }
+}

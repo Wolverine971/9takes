@@ -1,0 +1,26 @@
+I wrote the critic review to `docs/content-analysis/pipeline-logs/2026-10-18_06-00-03-074_ella-beatty/review-critic.json`. It passes the review schema, and every quoted passage matches the draft exactly. No other repo files were changed and nothing was published.
+
+**Verdict:** The draft deals honestly with the biggest objections. It treats her answer about her famous parents as PR she could have been coached on, not a window into motive. It sets her co-workers' descriptions of calm beside her own talk of fear, and it says nerves are normal for anyone in a first lead. The weak spot is the central claim that "she names fear, then answers it with preparation and people she trusts." The draft states this more firmly than the sources support. Fixing that should keep Type 6 as the leading read, held loosely.
+
+**Findings (2 major, 6 minor):**
+- **Major: the co-star comparison.** The draft says her extra preparation was "hers, not the job's." The same press-conference report says otherwise. Rebecca Hall called her character "her own invention," and Charlie Hunnam said little was known about his. Beatty played the lead and the best-documented person, and all three said the script mattered most.
+- **Major: the Type 2 case loses its best evidence.** Two answers the draft already quotes are cut just before the parts about serving others: "so many people to please" (podcast) and "the responsibility to honor what the other actors are doing… support people" (Interview magazine). The Type 2 section then says no account bears on her giving care.
+- **Minor:**
+  - "Voracious" is offered as proof she turns fear into work, but she framed it as excitement. The Collider quote also stops before she narrows to "what was on the page."
+  - "It's a relief to… remember you're being someone else" loses its context. She said it about the role she called closest to herself.
+  - "When pressure rises, she reaches for a small circle" goes further than its examples. Tom Hollander came to her, and the daily call with her mother is a routine.
+  - "The record hasn't caught her there yet" contradicts the draft's own Broadway takeover story. Also, early reviews of _Monster_ were mixed but praised her. I saw search summaries only, so the editor needs to open a review.
+  - Factual error: "a new city." She had lived in New York since starting Juilliard in 2018.
+  - "Easier to check" goes too far. Both casting stories come from people with a stake, and Paulson's isn't flagged.
+
+**Two checks that came back clean:**
+- **Podcast attribution.** The research stage flagged that no one had listened to confirm the key "trusting yourself" quote was hers, since the transcript has no speaker labels. I ran a rough voice-pitch analysis on the saved audio clip. The passage sits in her pitch range (about 150–230 Hz), clearly apart from the host's (about 110–150 Hz). It's a machine check, not a human listen.
+- **Similarity flag.** The match against the Grace Reiter page is the stock phrase "whose core emotion is fear." The two pages argue in a similar shape, but this one's main rival type, evidence and settle signals are specific to Beatty, so I didn't count it as reuse.
+
+The open-case format still holds for her: she's an adult early in her career, and research didn't skip a deep record. The sensitive items (the tabloid stories, her siblings) stay out of the draft.
+
+Sources (review search):
+- [Digg roundup](https://digg.com/entertainment/dj4prszf)
+- [Techloy review](https://www.techloy.com/monster-the-lizzie-borden-story-made-me-question-how-much-of-true-crime-we-know/)
+- [Fandomwire review](https://fandomwire.com/monster-the-lizzie-borden-story-review/)
+- [Autostraddle](https://www.autostraddle.com/monster-the-lizzie-borden-story-maybe-should-have-axed-everything-but-the-gay-stuff/)

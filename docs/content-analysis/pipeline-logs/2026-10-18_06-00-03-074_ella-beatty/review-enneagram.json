@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "enneagram",
+  "content_sha256": "958497076648843496b347d182e1922c90a1875acafb202d9ee7d1fa4bdc89b1",
+  "evidence_sha256": "6f6f72fd05658ddc3d1ea088ee4ae5b6a66cf41c4fa860cc2690732003c0a50c",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "enneagram-01",
+      "severity": "major",
+      "passage": "The Six case is what she volunteers across three years and very different rooms: fear, then a plan that runs through preparation and people she trusts.",
+      "problem": "This is the same argument as the five most recent young-performer v3 drafts in the similarity set, all of which lead with Six: Grace Reiter ('steadied a long-running stage fright with preparation'), Lily-Rose Depp ('steadies through people and structures she trusts'), Joseph Zada ('what settles them: people he knows and preparation done in advance. Type 9 fits his calm surface'), Maleah Joi Moon ('a trusted person gets her past a refusal') and Inde Navarrette ('leaning on someone she trusts, setting a rule in advance'). The surface overlap is ordinary vocabulary (the 1.0 match is 'whose core emotion is fear'), but the argument itself is reused. This draft also concedes that every part of it is ordinary for her situation: fear is 'the ordinary weather of an actor in her first lead', 'Nerves and over-preparation are ordinary in young actors', and 'Leaning on mentors is ordinary at 24 in a new city'. Three ordinary parts don't add up to a type-specific whole. Most of the fear and preparation material answers the two stock junket questions: how did you feel when you got the part, and how did you prepare? As written, the Six case could describe almost any newly cast actor. That is the open-case version of the Enneagram-6 anchor failure ('could describe any ambitious person').",
+      "acceptance_test": "The Six case names at least one sourced, dated observation that a newly cast actor answering 'how did you feel / how did you prepare' would not routinely produce, and says why it favors Six over Nine. Candidates already in the record: nerves on nights off, when nothing was at stake (Interview, June 2025); the expectation of rejection extended to 'every project that I've ever done' (Meindl, February 2025); and the Appropriate answer that pressure meant not leaving 'people in the lurch' (see enneagram-03). If no such datum survives, the section says plainly that the Six lead over Nine rests on vocabulary and is close to level."
+    },
+    {
+      "id": "enneagram-02",
+      "severity": "major",
+      "passage": "Fear is the emotion Beatty names most. That is why Six leads, and why it can't lead by much: fear is also the ordinary weather of an actor in her first lead.",
+      "problem": "The stated basis for the lead isn't supported, and the saved sources point the other way. In the saved video caption transcripts, her own answers use luck words about eleven times ('the luckiest lady in the world', 'I can't believe my luck', 'I felt very lucky'). Fear words appear about three times, all about horror and gore ('I hate scary stuff. I'm really squeamish'). The work-related fear comes mainly from a few text interviews and the podcast. The No Intervals telling of the landing-the-role answer has no fear in it at all: 'I was really excited. I felt very lucky... I also felt a big responsibility to the person, to the story'. Town & Country's writer notes that 'curious is a word she repeats often'. What the record supports is narrower: of the three emotions the triads turn on (fear, anger, shame), fear is the one she names. Her commonest register is excitement, luck and curiosity, plus 'voracious', 'Not patient by nature' (Gayety), relief at being too busy to worry and nerves on idle nights. That register is also the case for Type 7, the other head-triad type, which meets anxiety with motion. Seven is never mentioned, though Types 1 and 4 each get a sentence of dismissal.",
+      "acceptance_test": "The sentence is rewritten to a claim the sources support (for example, that fear is the triad emotion she names, while excitement and luck are her commonest register), or it is backed by a stated count. The weighing section gives Type 7 at least one sourced sentence of dismissal, or adds it to the live alternatives. If 7 is added, the 60-word answer, the type FAQ and open_case.live_alternatives change with it."
+    },
+    {
+      "id": "enneagram-03",
+      "severity": "major",
+      "passage": "The record pushes back too. Of _Appropriate_, she also told Paulson, \"I didn't have a lot of time to be scared because I got the job and then we started.\"",
+      "problem": "The quoted answer is cut in half. Paulson asked, 'What kind of pressure did you feel or not feel coming into this thing'. Beatty's answer opens: 'The pressure that I felt had to do with the responsibility to honor what the other actors are doing. You don't want to leave people in the lurch. You want to show up and support people... \"Okay, they've given me this job, so I better show up.\"' Only after that does she say she didn't have time to be scared (Interview, June 2025). It is the record's only direct answer about what pressure means to her, and it names obligation to the group, not fear. That matters for every live type: Six (duty and loyalty to the company), Two ('support people') and Nine (honoring what others built). Responsibility is also the most stable element across her separate tellings: Variety and No Intervals on Monster (fear drops out of the No Intervals version; responsibility stays), the Barrymore torch line and the legacy answer to Paulson. Using only the 'not scared' half as pushback throws away the most motive-bearing sentence in the record.",
+      "acceptance_test": "The pressure sentence is quoted or closely paraphrased next to the 'time to be scared' line and attributed to Interview (June 2025). The weighing section says which reading the 'leave people in the lurch' framing favors and why, for example as the Six case's strongest type-specific strand or as live Two evidence."
+    },
+    {
+      "id": "enneagram-04",
+      "severity": "major",
+      "passage": "These reads part ways under pressure, and the record hasn't caught her there yet. Five things would.",
+      "problem": "Pressure is where the Six and Nine predictions converge, not where they part. Most Enneagram teaching links the two leading hypotheses directly: a Nine under stress is said to take on Six traits (worry, over-preparation, seeking reassurance), and a secure Six relaxes toward Nine. Every fear instance in the record comes from a high-pressure moment: the first lead, a Broadway put-in with about two days of table work, nepotism scrutiny. The fear-then-prepare pattern therefore can't separate a Six from a loaded Nine. Signal 1's Six prediction ('doubt herself and prepare harder') is exactly what a stressed Nine is expected to do. Signal 4 has the same flaw in another form. Returning to Murphy or Paulson (Six) and 'take whatever comes' (Nine) look the same when the trusted collaborators are the ones offering the work. The article needs no arrow jargon, but its discriminators have to survive this.",
+      "acceptance_test": "The 'What would settle it' section (a) says in plain language that pressure alone can make a Nine look like a Six. (b) It adds or rewrites at least one signal around low-stakes or after-success behavior: whether worry vocabulary persists when nothing is at stake (the June 2025 nights-off nerves are the one existing instance), or what she does once things go well. (c) It rewrites signal 4 so the Six and Nine predictions differ in something observable, such as her stated reason for a choice or a costly choice (declining a bigger offer to stay with trusted collaborators, or the reverse). The FAQ settle answer is updated to match."
+    },
+    {
+      "id": "enneagram-05",
+      "severity": "major",
+      "passage": "At the same press conference, asked how they had prepared, Rebecca Hall said, \"I did absolutely nothing.\" Charlie Hunnam had spent a couple of days reading. Beatty described a book, a movement coach and work before pre-production. The difference was hers, not the job's.",
+      "problem": "The last sentence makes an unsupported claim about temperament, and the contrast overstates the source. In the Showbiz Junkies transcript of the September 9 press conference, Beatty's own preparation answer is modest: one book, 'I worked a little bit with the movement coach', and 'what was on the page felt most important to me'. Hunnam says 'I just felt like it was on the page', so all three converge on the script. Hall framed 'nothing' as an artistic choice ('I wanted freedom to get a little crazy and weird'), not a lack of diligence. The jobs also differed. Beatty, the newcomer, played the title role, a real person at the center of the case, while Hall and Hunnam played the supporting victims. Role size and career stage explain the gap at least as well as type. This claim (C47) sits in type_hypothesis.for_claim_ids, so it is propping up the Six case.",
+      "acceptance_test": "'The difference was hers, not the job's' is removed, or qualified to name the title-role and newcomer confounds. Beatty's own answer is described as the source gives it: a book, a little movement work, deference to the page. If the contrast stays, it is no longer presented as evidence of temperament, and C47 leaves for_claim_ids unless a revised passage still supports Six."
+    },
+    {
+      "id": "enneagram-06",
+      "severity": "minor",
+      "passage": "Against it, nearly all of this is her own account in promotional settings, and the two longest conversations were with friends. Her colleagues describe calm.",
+      "problem": "This paragraph misses the most direct challenge to the Six motive. A Six's core drive is security against uncertainty. Town & Country's Naveen Kumar writes that 'A thoughtful relationship to uncertainty is something Beatty seems to be comfortable with—and maybe even covets in her work', and in the same answer she says 'I feel now more than ever that I know less than I ever did.' The draft's own closing line ('What is the universe saying? I don't know... I'm going to be examining that') shows the same ease. 'Colleagues describe calm' is about composure. This observation is about motive, and the draft never weighs it against the Six read.",
+      "acceptance_test": "The Six 'Against it' paragraph includes the Town & Country writer's observation about uncertainty, attributed to him, with its limit stated (one writer's impression, partly about the roles she seeks). It says whether a Six, Nine or Seven reading accounts for it best."
+    },
+    {
+      "id": "enneagram-07",
+      "severity": "minor",
+      "passage": "Her word for work going well is \"available.\" Lizzie's sensibility \"felt really available right away,\" she told Entertainment Tonight. Her advice to her younger self, she told Meindl: \"Take it a day at a time.\"",
+      "problem": "Two of the Nine case's three distinctive markers don't discriminate. 'Available' is ordinary acting vocabulary ('emotionally available', 'available on set'). 'Take it a day at a time' is advice against anticipatory worry, so it is at least as much a head-triad tell as a Nine one. Meanwhile the Nine case never tests the core the draft itself gives the body triad: 'whose anger stays mostly out of sight'. The record has no account of her own anger or irritation. She mentions Lizzie's 'female rage' only as the show's theme, and her one adjacent self-report is 'Not patient by nature. I'm an Aries' (Gayety, auto-captions). That gap is the real Nine discriminator, and the draft doesn't name it.",
+      "acceptance_test": "The Nine case either replaces 'available' and 'a day at a time' with Nine-specific evidence or labels them weak. It states that no account yet shows how she handles her own anger, either as a limit of the Nine case or inside a settle signal (signal 2 could ask what she does with irritation in a disagreement)."
+    },
+    {
+      "id": "enneagram-08",
+      "severity": "minor",
+      "passage": "Against it are the deflection she admits, her discomfort with being public, and a goal that is moral rather than professional: \"I hope I'm becoming someone who, over time, becomes more conscientious and thoughtful.\"",
+      "problem": "The Three dismissal rests entirely on press self-presentation. In nepotism-conscious coverage, that is exactly the channel an image-adaptive Three would shape toward humility. The draft concedes this at 'It is also the expected register for a famous child in nepotism-conscious press' but drops the caveat here. The quote is also cut short. The same Town & Country answer continues 'I have more experience under my belt, which I really value', a competence value that undercuts 'moral rather than professional'. She gave the answer with a laugh, right after 'I'll answer authentically even though I want to deflect.'",
+      "acceptance_test": "The Three 'against' either cites a behavior or choice rather than a press statement, or says these statements cannot separate a Three adapting to the room from a non-Three. The 'moral rather than professional' label is dropped, or the full answer, including the experience line, is represented."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Read as a Six, that is the type's growth task in her own words: learning to trust that she can handle what she fears before it arrives. Read as a Nine, the telling detail comes first. The rush felt good because it left no room for her.",
+      "reason": "Reads both halves of one answer two ways instead of giving the leading type the friendly half. This is the open-case weighing the standard asks for."
+    },
+    {
+      "passage": "Each live type can claim that line: a Six scanning the room for safety, a Two for what people need, a Nine merging with it, a Three reading the audience. It is also the craft rule she says her parents taught her.",
+      "reason": "Treats a striking third-party line as behavior with four candidate motives plus a craft explanation. It is a clean demonstration of keeping motive separate from behavior."
+    },
+    {
+      "passage": "First she removed the risk she could control. Then she took permission from the person in charge. Then she brought herself.",
+      "reason": "The most specific behavioral sequence in the draft, drawn from her own account of the Appropriate put-in. It may be the type-specific datum that enneagram-01 asks the Six case to lead with."
+    },
+    {
+      "passage": "Does she start owning the work (Three), or are nerves and self-trust still her subject once she is no longer new (Six)?",
+      "reason": "The one settle signal that separates temperament from newness, which is the confound the whole case turns on."
+    },
+    {
+      "passage": "It is also what a publicist would tell any famous child debuting in the 2024 \"nepo baby\" moment, so it shows media sense more than motive.",
+      "reason": "Declines to type a coached answer. Together with the draft's complete avoidance of wings, arrows and subtypes, it shows restraint against convenient typing."
+    }
+  ],
+  "assessment": "Open-case eligibility holds. She is an adult (26); her first professional role aired in January 2024 and her first lead premiered in September 2026. Research opened 24 sources, including a 52-minute podcast and a cover profile, and the four unopened items are release-cycle interviews, not a skipped deep record. Nothing overstates confidence: the title, description, 60-word answer and FAQs all say 'leading read' or 'held loosely'. The alternatives are argued rather than token, and no wing, arrow or subtype explains away a contradiction. The weakness is the discriminator. The Six case is fear, then preparation and trusted people. The draft itself concedes each piece is ordinary for a first-lead actor, and the same engine produced Six leads in the five most recent young-performer drafts in the similarity set (enneagram-01). The surface similarity ('whose core emotion is fear') is ordinary type vocabulary and not itself a problem. In the saved sources, fear is not her most-named emotion, and Type 7 fits her commonest register but is never tested (enneagram-02). The record's most motive-bearing answer, that pressure meant not leaving people 'in the lurch', is half-quoted (enneagram-03). The pressure-based settle signals do not separate Six from Nine, since a stressed Nine is expected to look Six-like (enneagram-04). The press-conference contrast with Hall and Hunnam is overstated (enneagram-05). After repair, Six may still lead, but probably by less, and calling Six and Nine near-level is an honest fallback. If the editor instead changes the leading type, that is a thesis change requiring --refresh --expanded-review. Risks: contested_typing and sensitive_allegations carry over from research. This review raises no new risk."
+}

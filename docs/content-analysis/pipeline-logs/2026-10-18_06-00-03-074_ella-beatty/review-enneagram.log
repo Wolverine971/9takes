@@ -1,0 +1,22 @@
+I've written the Enneagram review to `docs/content-analysis/pipeline-logs/2026-10-18_06-00-03-074_ella-beatty/review-enneagram.json`. It passes the review schema check, its two hashes match the request, and every quoted passage appears word for word in the draft. I didn't change any other file, didn't open the other reviewers' work, and published nothing. The only other thing I created is a small helper script in `/tmp`, outside the repo.
+
+**Verdict:** the draft is eligible as an open case and never claims more confidence than the record holds. The problem is the reasoning that puts Six in the lead. Before writing, I checked the Six/Nine arguments against the saved interview texts and the podcast transcript.
+
+**Biggest finding:** this is the sixth young-performer draft in a row to lead with Type 6, using the same argument: she names fear, then answers it with preparation and trusted people. The other five are Grace Reiter, Lily-Rose Depp, Joseph Zada, Maleah Joi Moon and Inde Navarrette. The draft itself admits each piece of that argument is normal for any actor in a first lead. So the pipeline's Six test may be picking up press-tour answers rather than personality.
+
+**Other major findings (8 in total, 5 major):**
+- **"Fear is the emotion she names most" isn't supported.** In her video interviews she uses luck words about 11 times and fear words about 3, and those are about horror films and gore. That excited, curious register also fits Type 7, which the draft never tests.
+- **A key quote is cut in half.** The draft uses "I didn't have a lot of time to be scared" as evidence against Six. The same answer to Paulson opens with what pressure meant to her: not wanting "to leave people in the lurch." That's the most revealing motive line in the record, and it's left out.
+- **The "what would settle it" signals mostly test her under pressure.** Standard Enneagram teaching says a stressed Nine looks like a Six, so those signals can't tell the two apart. The review asks for at least one low-stakes or after-success signal.
+- **The press-conference contrast is overstated.** The draft says Rebecca Hall and Charlie Hunnam barely prepared and "the difference was hers, not the job's." In the transcript, Beatty's own answer was modest, all three deferred to the script, and she was the newcomer playing the title role.
+
+The three minor findings are about the strongest counter-evidence to each reading:
+- **Against Six:** a Town & Country remark that she seems comfortable with uncertainty is missing.
+- **Nine:** the case leans on weak markers like "available" and never looks at anger.
+- **Three:** it's ruled out using only her press self-presentation, plus a trimmed quote.
+
+The review also marks five passages to protect. One reads a single answer both as a Six and as a Nine. Another treats Max Winkler's "tuned into everybody else in the room" as behavior every live type could explain.
+
+If the edit changes the leading type rather than just narrowing the lead, the standard requires a re-run with `--refresh --expanded-review`.
+
+**Your call:** the repeated Six result is a pipeline-level pattern, not just a problem with this page. It's worth checking whether the research step leans toward Six for young actors before the next batch of rising-star profiles.

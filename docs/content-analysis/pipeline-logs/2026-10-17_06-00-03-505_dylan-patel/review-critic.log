@@ -1,0 +1,15 @@
+I wrote the critic review to `review-critic.json`. It passes the pipeline's review schema, and both input hashes match the request. I didn't change any other file, didn't publish anything, and didn't open the other reviewers' files.
+
+**Verdict:** the draft is honest about the Type 8 case. But the three stories it uses to argue Type 7 over Type 8 each leave out context that points the other way. I filed 10 findings (6 major, 4 minor) and protected 5 passages.
+
+**Major findings:**
+- **The AI-centralization exchange on Dwarkesh's podcast:** this is the core 7-vs-8 evidence. The draft cuts a stretch where Patel faces the bleak outcome squarely ("we pray that that one company gets everything right"). It also credits him with a joke that was actually Dwarkesh's, in an episode the host closes "On that somber note."
+- **The "I was wrong" email to Jensen Huang:** the benchmark results were already public, and Nvidia had helped run it. The draft cuts his line "we were quite bullish." Sending the email paid off commercially, and the link from the email to the keynote mention rests only on Patel's own telling. The title and description still state that link as fact.
+- **The Lisa Su post:** the draft cuts "She took our specific recommendations seriously" and "Many changes are in flight already!" Substrate says Su called them. Read in full, the post shows off his influence as much as it gives her credit.
+- **The closing lanyard image:** Substrate's paragraph is about press badges ("SemiAnalysis is not cleanly press"). The draft drops that and ends on the flipped badge as a personal mystery.
+- **Missing outside critics:** research saved, but never entered into the evidence file, a December 2025 report on Patel publicly claiming he called Oracle's 11.5% drop. Outside critics then accused him of "self-mythologizing." That contradicts the draft's claim that no outside critics are on record. I only opened the summary report, not the original X posts.
+- **The lawsuit:** the draft proposes a test ("if he escalates…, the Eight reading gains") but leaves out the one documented escalation: his firm's first-filed suit against a former employee, which includes a defamation claim. This can be acknowledged without taking sides on the merits.
+
+**Risk flags:** sensitive allegations and contested typing are both confirmed, so the six-reviewer jury stays on. If the editor's fixes move the article to Type 8, that counts as a thesis change and needs `--refresh --expanded-review`. An "open case" isn't an option: he has been public under his own name since 2020 and has a deep interview record.
+
+The similarity check didn't trip, and I found no reused arguments from other profiles.

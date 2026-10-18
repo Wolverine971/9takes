@@ -1,0 +1,17 @@
+The unfamiliar-reader review for the Dylan Patel draft is written to `review-unfamiliar.json` in the run folder. It passes the review schema, its hashes and role match the request, and all 13 quoted passages appear word for word in the draft. I changed no other files and published nothing.
+
+**Verdict:** someone who has never heard of Patel can follow this piece. The Huang keynote opening makes you curious, and "which reflex runs him" gives you one question to carry. Each section moves the portrait forward instead of repeating the thesis. The similarity check found no reused arguments.
+
+**Four major findings (the editor has to resolve these):**
+1. **The opening is confusing.** "Sandbagging" (understating your own numbers) carries the opening's twist but is never defined. Three numbers appear before the article says who Patel is or what was being measured. The sources also disagree on the figures: Huang says he claimed 35x, Patel remembers 25x, and the email is quoted as both 30x and 50x.
+2. **The description reverses the story.** "telling Jensen Huang he was wrong" reads as Huang being wrong, when Patel was admitting his own mistake. This is the search snippet.
+3. **The closing contradicts itself.** It calls the Slack rule and the talk of influence "guarded." Substrate says the Slack cap exists to push messages into public channels, and "the spiderweb" is the most expansive line in the piece.
+4. **One FAQ stretches a quote.** It says he called "his own optimism about AI" his cope. He only said that about one specific hope: that AI's value won't pile up at Anthropic.
+
+**Four minor findings:**
+- **Unexplained references:** "machine that loves grace" (a nod to Dario Amodei's essay) and the "GPU-Poor" post.
+- **Unexplained jargon:** "neocloud," "material non-public information" and "Hot Aisle."
+- **Age clash:** "At eight he got a 360" doesn't fit his 1996 birth year. That's his own memory, now told as fact.
+- **A "nobody on record" line** is contradicted by the Prime Intellect co-founder quoted earlier.
+
+I protected five passages, including the "which reflex" question, the "spin a narrative" warning and the flipped-lanyard ending. The review also flags sensitive allegations (the lawsuits) and contested typing (7 over 8 at medium confidence).

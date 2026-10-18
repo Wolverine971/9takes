@@ -1,0 +1,245 @@
+{
+  "target": {
+    "person": "ella-beatty",
+    "type": "6",
+    "units": 10,
+    "file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-18_06-00-03-074_ella-beatty/draft.md"
+  },
+  "comparison_set": [
+    {
+      "person": "grace-reiter",
+      "date": "2026-10-16",
+      "units": 8
+    },
+    {
+      "person": "lily-rose-depp",
+      "date": "2026-10-16",
+      "units": 8
+    },
+    {
+      "person": "shyam-sankar",
+      "date": "2026-10-13",
+      "units": 14
+    },
+    {
+      "person": "maleah-joi-moon",
+      "date": "2026-10-12",
+      "units": 10
+    },
+    {
+      "person": "joseph-zada",
+      "date": "2026-09-12",
+      "units": 13
+    },
+    {
+      "person": "Arthur-Mensch",
+      "date": "2026-09-10",
+      "units": 42
+    },
+    {
+      "person": "inde-navarrette",
+      "date": "2026-09-10",
+      "units": 11
+    },
+    {
+      "person": "zach-bryan",
+      "date": "2026-09-10",
+      "units": 39
+    }
+  ],
+  "n_requested": 8,
+  "noise_floor": {
+    "pairs_compared": 1450,
+    "median": 0,
+    "p90": 0,
+    "p99": 0.013,
+    "max": 1
+  },
+  "trip_threshold": 0.052,
+  "tripped": true,
+  "trip_pairs": [
+    {
+      "score": 1,
+      "other_person": "grace-reiter",
+      "shared_phrases": [
+        "whose core",
+        "core emotion",
+        "whose core emotion",
+        "core emotion is",
+        "emotion is fear"
+      ],
+      "target": "[diagnosis] whose core emotion is fear",
+      "other": "[diagnosis] whose core emotion is fear."
+    },
+    {
+      "score": 0.088,
+      "other_person": "lily-rose-depp",
+      "shared_phrases": [
+        "public record",
+        "her public record"
+      ],
+      "target": "[diagnosis] But her public record is under three years old and mostly promotional",
+      "other": "[diagnosis] The second barely appears in her public record."
+    },
+    {
+      "score": 0.059,
+      "other_person": "maleah-joi-moon",
+      "shared_phrases": [
+        "yet separate"
+      ],
+      "target": "[diagnosis] so nothing yet separates these reads.",
+      "other": "[diagnosis] The record cannot yet separate them."
+    }
+  ],
+  "per_draft_max": [
+    {
+      "person": "grace-reiter",
+      "date": "2026-10-16",
+      "units": 8,
+      "maxScore": 1
+    },
+    {
+      "person": "lily-rose-depp",
+      "date": "2026-10-16",
+      "units": 8,
+      "maxScore": 0.088
+    },
+    {
+      "person": "maleah-joi-moon",
+      "date": "2026-10-12",
+      "units": 10,
+      "maxScore": 0.059
+    },
+    {
+      "person": "shyam-sankar",
+      "date": "2026-10-13",
+      "units": 14,
+      "maxScore": 0.042
+    },
+    {
+      "person": "Arthur-Mensch",
+      "date": "2026-09-10",
+      "units": 42,
+      "maxScore": 0.021
+    },
+    {
+      "person": "zach-bryan",
+      "date": "2026-09-10",
+      "units": 39,
+      "maxScore": 0.02
+    },
+    {
+      "person": "joseph-zada",
+      "date": "2026-09-12",
+      "units": 13,
+      "maxScore": 0.014
+    },
+    {
+      "person": "inde-navarrette",
+      "date": "2026-09-10",
+      "units": 11,
+      "maxScore": 0.005
+    }
+  ],
+  "top_pairs": [
+    {
+      "score": 1,
+      "other_person": "grace-reiter",
+      "shared_phrases": [
+        "whose core",
+        "core emotion",
+        "whose core emotion",
+        "core emotion is",
+        "emotion is fear"
+      ],
+      "target": "[diagnosis] whose core emotion is fear",
+      "other": "[diagnosis] whose core emotion is fear."
+    },
+    {
+      "score": 0.088,
+      "other_person": "lily-rose-depp",
+      "shared_phrases": [
+        "public record",
+        "her public record"
+      ],
+      "target": "[diagnosis] But her public record is under three years old and mostly promotional",
+      "other": "[diagnosis] The second barely appears in her public record."
+    },
+    {
+      "score": 0.059,
+      "other_person": "maleah-joi-moon",
+      "shared_phrases": [
+        "yet separate"
+      ],
+      "target": "[diagnosis] so nothing yet separates these reads.",
+      "other": "[diagnosis] The record cannot yet separate them."
+    },
+    {
+      "score": 0.042,
+      "other_person": "shyam-sankar",
+      "shared_phrases": [
+        "core emotion"
+      ],
+      "target": "[diagnosis] whose core emotion is fear",
+      "other": "[diagnosis] The Enneagram groups its nine types by core emotion"
+    },
+    {
+      "score": 0.036,
+      "other_person": "maleah-joi-moon",
+      "shared_phrases": [],
+      "target": "[diagnosis] and keeps the peace by going along.",
+      "other": "[diagnosis] and keeps testing whether they will hold."
+    },
+    {
+      "score": 0.022,
+      "other_person": "grace-reiter",
+      "shared_phrases": [],
+      "target": "[diagnosis] She names fear readily and answers it with preparation and trusted people.",
+      "other": "[diagnosis] and steadied a long-running stage fright with preparation."
+    },
+    {
+      "score": 0.021,
+      "other_person": "grace-reiter",
+      "shared_phrases": [],
+      "target": "[diagnosis] and looks for ground to trust in preparation",
+      "other": "[diagnosis] A Type 6 is built to anticipate trouble and to look for support that will hold."
+    },
+    {
+      "score": 0.021,
+      "other_person": "Arthur-Mensch",
+      "shared_phrases": [],
+      "target": "[diagnosis] whose anger stays mostly out of sight",
+      "other": "[diagnosis] keeps walking out of authority structures once they stop serving the question."
+    },
+    {
+      "score": 0.021,
+      "other_person": "grace-reiter",
+      "shared_phrases": [],
+      "target": "[diagnosis] whose anger stays mostly out of sight",
+      "other": "[diagnosis] whose core emotion is fear."
+    },
+    {
+      "score": 0.02,
+      "other_person": "zach-bryan",
+      "shared_phrases": [
+        "year old"
+      ],
+      "target": "[diagnosis] But her public record is under three years old and mostly promotional",
+      "other": "[counter-typing] he's \"just a 29-year-old man who is just as confused as everyone else"
+    },
+    {
+      "score": 0.018,
+      "other_person": "zach-bryan",
+      "shared_phrases": [],
+      "target": "[diagnosis] fear is also the ordinary weather of an actor in her first lead.",
+      "other": "[diagnosis] Fear is the native language of his inner life"
+    },
+    {
+      "score": 0.017,
+      "other_person": "shyam-sankar",
+      "shared_phrases": [],
+      "target": "[diagnosis] Those four types span all three of the Enneagram's triads.",
+      "other": "[diagnosis] The Enneagram groups its nine types by core emotion"
+    }
+  ]
+}

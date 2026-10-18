@@ -1,0 +1,1380 @@
+{
+  "schema_version": 3,
+  "subject": "ella-beatty",
+  "status": "ready",
+  "research_tasks": [
+    "Research log (2026-10-18, first run, mode create, empty baseline and no research notes). Opened 24 sources and failed to open 4 (S25-S28). Read in full: the Town & Country cover profile (S20), Vogue 2024 (S01), the Interview conversation with Sarah Paulson (S04), IndieWire on Act One (S06), Netflix Tudum (S11), Variety (S12), Collider (S13), the Netflix press-conference report (S14) and the Broadway Direct Q&A (S02); transcribed the 52-minute In The Moment podcast with local Whisper (S05, small.en for the whole episode, large-v3-turbo for the quoted passages) and read caption transcripts of ten video interviews dated May 2024 to September 26, 2026 (S03, S07, S08, S10, S13 video, S15-S19; about 11,000 words). Evidence was gathered before a type was chosen. Outcome: no defensible discriminator; the subject meets open-case eligibility (adult, first professional role January 2024, first lead September 2026, record made of promotional cycles plus friendly testimony). Status ready, profile_format open_case, leading read Type 6 at low confidence, Type 9 as the alternative, Types 2 and 3 live; Types 1 and 4 considered and set aside. Risks set: contested_typing (required for open cases) and sensitive_allegations (a TMZ insinuation about her friendship with Sarah Paulson, C29, and an anonymous 2018 Page Six item about her Juilliard admission, C30), so the six-role jury applies.",
+    "Accuracy check (2026-10-18). Monster: The Lizzie Borden Story premiered on Netflix on September 17, 2026, and was No. 1 on the global English TV list in its first two weeks (14.5 million views for September 21-27, S23). Act One premiered at Tribeca on June 10, 2026; a 2027 theatrical release via Oscilloscope was reported by one outlet but not opened. The Bell Jar (Sarah Polley; she plays Joan) has wrapped and has no announced release date. Town & Country (September 23, 2026) mentions an unannounced project she was shooting in Los Angeles. No new casting announcement dated October 2026 was found. The most recent interview located (Wonderland, October 5, 2026) could not be opened. open_case.next_review is 2026-12-15, after the Golden Globe nominations expected in December.",
+    "Drafting guidance (open case). Follow the standard's 'Open case profiles' section. Open with who she is and why people are searching (her first lead, Netflix's No. 1 show, the famous parents), then name the open question: what her steady humility and her named fear are for. Show what the record shows, dated and sourced, with limits: the auditions (C05, C06), the way she meets the inheritance question (C07, C08), duty and preparation (C10-C13, C33), the trusted circle (C16, C17), the luck register (C14, C31), the worry and self-trust passage (C32), the discomfort with being public (C15), and the composure others see (C18, C19). Set Type 6 beside Types 9, 2 and 3 with the best evidence for and against each. Include an H2 beginning '## What would settle it' built from open_case.settle_signals. Keep '## What is Ella Beatty's personality type?' with an answer of at most 60 words in 'leading read, held loosely' language, for example: 'Leading read: Type 6, held loosely. Type 9 is the live alternative, with 2 and 3 still in play.' Target 1,200 to 2,500 words. Titles, description and FAQs must say 'leading read' or 'open case', never 'is a Type 6'. Set enneagram: 6 and published: false. The strongest hook candidates are verified and specific: she was waiting at the Carlyle before the Vogue reporter, following her father's 'Always be on time' (S01); she won Monster from a self-tape among seven (S19); in the same year she played a daughter dragged away from acting by her parents and a daughter who kills hers, and said 'What is the universe saying? I don't know... I'm going to be examining that' (S20).",
+    "Quotation cautions. (a) S03, S07, S08, S10 (broadcast captions), S13 video, S15, S16, S17, S18 and S19 are YouTube caption transcripts without speaker labels; check each printed quote against the audio and timestamp. (b) S05 is a Whisper transcript without speaker labels; quoted passages were re-transcribed with large-v3-turbo (see the S05 context), but confirm speaker by listening. In particular, the lines 'how do I be what you want... How do I be beautiful enough for you? How do I be interesting enough for you?' (about 35:56-36:06) may be the host's; do not attribute them to her without checking. (c) Variety's 'I've never played a true out-and-out villain' is Rebecca Hall's, not Beatty's (S12). (d) Charlie Hunnam's 'one of the best actresses he'll ever work with' is the Entertainment Tonight interviewer's report, not Hunnam on record (S08). (e) The TODAY captions render 'female rage and representation'; Netflix's statement gives 'female rage and repression'; quote neither from the captions. (f2) In S05 the line about legacy as 'that thing of feeling rooted in something and grounded in something that's such a gift' (about 45:38-45:59) and the rehearsal joke 'the worst actor ever' (about 09:15) cannot be assigned to a speaker from the transcript; do not attribute them to her without listening. (f) The Broadway.com write-up lines ('I am who I am', 'She's why I'm who I am', 'There's definitely a privilege...') were obtained through a summarizing fetch and are not in the 7-minute video; verify before quoting. (g) WWD quotes (Gus Van Sant, the Feud notebook) are secondhand via Biography.com (S22). (h) The New York Times review line 'fulfill[ed] the play's plan perfectly' is quoted from Town & Country (S20); open the review before quoting it directly. (i) In the ScreenRant roundtable (S19) use the original English caption track; the alternate track is a machine translation. Speakers there: Beatty to about 03:05, Hunnam to about 06:55, Max Winkler after. (j) Ian Brennan's 'blank slate' and 'innocence' quotes come from an unopened TV Insider piece (S28); do not use.",
+    "Sensitivity. Never repeat, link or allude to the TMZ insinuation about Beatty and Sarah Paulson (C29, S24); describe the friendship only in the two women's own words. Do not use the 2018 Page Six admissions item (C30, S25) unless the original is opened, and then only as an attributed, unconfirmed gossip report with the context that she auditioned and completed the four-year program. Do not name or characterize her siblings. Do not read Lizzie Borden, or Act One's parents, into her family (the queue note says so explicitly); her account of her parents is warm and is the only account on record. Do not speculate about her parents' ages or health. No diagnosis-like language about anxiety: 'nervous', 'scared' and 'worry' are her words; keep them hers.",
+    "Follow-ups worth doing before or at the next refresh: (1) open the Forbes Q&A (S26), the Wonderland interview (S27) and the TV Insider piece with Ian Brennan's casting quotes (S28) from a different network or through a subscription; (2) find and open the WWD 2024 and 2025 interviews, the full Broadway.com Show People episode and the New York Times review of Sexual Misconduct of the Middle Classes; (3) listen to S05 at 23:15-26:00, 29:55-32:00 and 33:50-37:40 to confirm speaker attribution; (4) look for any long-form interview or podcast given after September 2026, and for Golden Globe or other awards-season interviews; (5) search for testimony from Juilliard faculty or classmates, or from the Ghosts company (Billy Crudup, Lily Rabe, Jack O'Brien); (6) if the Page Six original surfaces, record exactly what it claims and who it cites.",
+    "Draft stage note (2026-10-18). Wrote draft.md (open case, 2,699 words by checkDraft, about 8% over the roughly 2,500-word open-case target; no checkDraft blockers) and this evidence-draft.json. Removed claims not used in the draft: C17, C21, C22, C23, C27, C28, C29, C30, C36 (their sources are retained; the C29/C30 sensitivity guidance still applies through S24/S25, and nothing in the draft alludes to either). Added S29 (CBS Golden Globes press page) for the dated catalyst in 'What would settle it'. Added claims C37-C75 so every quotation, factual statement and metadata claim has an exact passage; reused IDs keep their research meaning, narrowed to the draft passage. type_hypothesis.for_claim_ids revised: C13 moved out (the draft uses it as evidence against Six: quick trust and deference), C17 and C22 removed with their claims, and C44, C46, C47 and C49 added. Checks run: a full-body quote extractor against the saved source texts and podcast clips (/tmp/ella-beatty-draftcheck/scripts/quotecheck.py; every body quotation found); a hand check of split quotes for adjacency and order; Whisper re-transcription of every caption quotation used (S07, S08, S16, S17, S18, S19; the TODAY quotes come from the broadcast caption track). Dropped at drafting: the research stage's 'she plays Joan' in The Bell Jar (not found in any saved opened source); 'a couple of days of reading' as a Hunnam quote (S14 prints 'a little, you know, couple of days of reading'); the exact Golden Globe nominations day (CBS's 'Monday, Dec. 8' has the wrong weekday for 2026). Cut candidates if the jury wants it shorter: the Hall/Hunnam contrast (C47) could merge into C12; the mentors line (C55); the Types 1 and 4 paragraph (C20); the Barrymore belonging paragraph (C44). Edit stages on this pipeline tend to add length, so budget additions against cuts. Unresolved for the editor: none of the S05 quotations has been checked by a human listener (speaker attribution follows conversational turns and internal evidence such as 'that play' and the host's 'I'm sorry I missed it'); the Paulson-friendship TMZ item (S24) must stay out of every stage."
+  ],
+  "accuracy_checked_at": "2026-10-18",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.vogue.com/article/meet-ella-beatty-the-breakout-star-of-feud-whos-now-heading-to-broadway",
+      "title": "Meet Ella Beatty, the Breakout Star of Feud Who's Now Heading to Broadway",
+      "speaker": "Ella Beatty, interviewed in person by Elise Taylor (Vogue)",
+      "date": "2024-02-21",
+      "locator": "Opening scene at the Carlyle (paragraphs 1-2: arrives early, 'Always be on time', Bening's 'Be kind' rule, Hackman 'listen' rule); paragraph 4 (nepo-baby acknowledgment 'without me even asking'); paragraph 5 (Juilliard from 2018, 'vessel for a character', mixed feelings about a public Instagram); paragraph 6 (shows up to the Feud set on days off, Gus Van Sant, Tom Hollander's private dressing-room visit); paragraph 7 ('curiosity meets fear', 'least interesting person in the room', shy around Zac Efron); paragraph 8 (burst into tears on getting Appropriate).",
+      "excerpt": "“I totally acknowledge that there is an inherent privilege and exposure that comes from having well-known actors as parents,” [...] “And I really hope that I can offer something meaningful.” [...] “What I grew up learning was that you’re supposed to be a vessel for a character,” [...] “It’s better if people know less about who you are.” [...] “You feel like you’re the least interesting person in the room compared to these glamorous New York, Los Angeles people.”",
+      "context": "The earliest substantial interview, given in February 2024 at 23 during the Feud: Capote vs. The Swans launch and before her Broadway debut. Observational details (arriving before the reporter, the folded coat, raising nepotism unprompted, 'Exceptionally poised') are the writer's. 'Now a year out of school' conflicts loosely with the 2022 Juilliard graduation reported by Deadline (S09) and Town & Country (S21); prefer 2022. The parents' rules are her report of their advice, not their words.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S02",
+      "url": "https://broadwaydirect.com/5-questions-with-ella-beatty-of-appropriate/",
+      "title": "5 Questions with Ella Beatty of Appropriate",
+      "speaker": "Ella Beatty (written Q&A), introduced by Paul Art Smith (Broadway Direct)",
+      "date": "2024-04-16",
+      "locator": "Answers 1-5: Q1 'What inspired you to become an actor?' (make-believe, prairie women, 'my biggest inspiration to this day is ... my mom', memorizing her mother's lines); Q2 (castmates, audiences); Q4 (Love Island UK, 'I am nothing if not real!').",
+      "excerpt": "“I think I knew I wanted to be an actor before I knew that it was a professional career. [...] I think pretending to be other people was always how I made sense of the world. Undoubtedly, though, my biggest inspiration to this day is the incredible actress who is my mom [Annette Bening]. Some of my earliest memories are gazing up at her full notebooks with dialogue, memorizing her lines.” [...] “I wish I had a more interesting or quirky answer to give you, but I am nothing if not real!”",
+      "context": "Short written promotional Q&A published by the theater-ticketing site during her Broadway run in Appropriate (April 2024). Written answers may be edited or composed with help; treat as self-presentation.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S03",
+      "url": "https://www.youtube.com/watch?v=avbqFPe5Xpk",
+      "title": "Ella Beatty on Making her Broadway Debut in APPROPRIATE, CAPOTE VS. THE SWANS and more (Broadway.com, Paul Wontorek)",
+      "speaker": "Ella Beatty, interviewed on camera by Paul Wontorek (Broadway.com)",
+      "date": "2024-05-05",
+      "locator": "YouTube upload of 2024-05-05, 7:26. About 00:00-01:00 (mother in The Cherry Orchard, 'the most incredible actress in the entire world'); 01:46-03:09 (community theater: Sandy and Miss Hannigan in Annie, Simba, Ursula; eight-week ranch camp); 03:38-04:05 (Kate Harrington: 'I really wanted to honor that and I hope I did'); 05:28-06:20 ('I used to be really precious about it', seeing a parent in pain on screen; Reds; 'I hope I can carry the torch on'). Companion write-up: Hayley Levitt, Broadway.com Buzz, 2024-05-02.",
+      "excerpt": "“I felt very sensitive about telling that you know very tender part of her life [...] and I really wanted to honor that and I hope I hope I did” [...] “I think I used to be really precious about it [...] seeing a parent in pain or struggling on screen used to be really hard for me as a kid” [...] “I'm so inspired by them every time I see something they've done I hope I can carry the torch on”",
+      "context": "Promotional on-camera interview recorded in the Belasco Theatre during the Appropriate run. Text comes from YouTube auto-captions without punctuation or speaker labels; check wording against audio before quoting. The companion Broadway.com article (fetched through a summarizing tool, not read in full) attributes further lines to the longer interview ('I am who I am'; 'There's definitely a privilege that comes from having really well-known actors as parents, and I totally acknowledge that'; 'I don't think that detracts from what I hopefully have to offer'); those lines do not appear in the 7-minute upload and need checking against the full episode or article before use.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S04",
+      "url": "https://www.interviewmagazine.com/theater/meet-ella-beatty-daughter-of-hollywood-royalty-and-sarah-paulsons-kindred-spirit",
+      "title": "Meet Ella Beatty, Daughter of Hollywood Royalty—and Sarah Paulson's Kindred Spirit",
+      "speaker": "Ella Beatty in conversation with Sarah Paulson (Interview); unsigned introduction",
+      "date": "2025-06-05",
+      "locator": "Full transcript (read through r.jina.ai). Intro paragraph (Paulson and Esper chose her; 'I had no idea who your parents were'); offer 'the next morning'; Paulson: 'self-possessed'; surname exchange ('It really never occurred to me until I started working... responsibility towards an artistic legacy'); 'Always, always' and make-believe; 'Appropriate really changed my life'; pressure answer ('responsibility to honor what the other actors are doing... I better show up'); Hugh Jackman and keeping 'awe'; closest character ('I am not a good liar. I have a hard time not being totally earnest'; 'It's a relief to come to work and remember you're being someone else'); her question to Paulson about 'tremendous care'; nights off ('I get really nervous', Ian Rickson's diary book).",
+      "excerpt": "“The pressure that I felt had to do with the responsibility to honor what the other actors are doing. You don’t want to leave people in the lurch. You want to show up and support people [...] I also felt like, ‘Okay, they’ve given me this job, so I better show up.’ I didn’t have a lot of time to be scared” [...] “I think her inability to not tell the truth is something I relate to. I am not a good liar. I have a hard time not being totally earnest.” [...] “Sometimes we have four or five days between performances and I get really nervous.”",
+      "context": "Long conversation recorded on Zoom in May 2025 during the Sexual Misconduct of the Middle Classes run. The interviewer is her close friend and former co-star, so this is both self-report and friendly testimony (Paulson: 'The thing that comes to mind most clearly is self-possessed'). The register is affectionate and joking ('my Venmo is...', astrology), which should be read as banter.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S05",
+      "url": "https://soundcloud.com/anthonymeindl/anthonyinterviewsellabeatty",
+      "title": "Anthony Interviews Ella Beatty (In The Moment: Acting, Art and Life podcast)",
+      "speaker": "Ella Beatty, interviewed by acting teacher Anthony Meindl (In The Moment podcast)",
+      "date": "2025-02-21",
+      "locator": "SoundCloud upload of 2025-02-21, 51:56 (episode page on anthonymeindl.com dated 2025-03-19). Recorded on Zoom during Ghosts rehearsals. Timestamps from the local Whisper transcript: about 09:04-09:32 (rehearsal phase where 'everything feels bad'); 09:37-10:11 (booking Ghosts: 'I really was not expecting that'); 23:15-26:15 (Appropriate put-in: 'so scary', 'issue a personal apology', 'I was so lucky', Lila Neugebauer's 'assurance', 'you serve the play'); 26:04-27:02 (two days of table work, blocking from video and understudies, 'I came in off book, so that would never be an issue', four days of tech at the Belasco); 29:55-31:51 ('so many things to serve and so many people to please'; 'being where your feet are... I try really hard and fail at often'; 'trusting yourself to have... the tools and the ability to handle it... is something I'm still really trying to do'); 33:50-35:00 (Feud; 'I can't believe they picked me'); 36:20-37:35 (auditions 'such a vulnerable, scary thing'; friends to call); 40:30-41:20 (Juilliard at 18, no professional career 'until I was like 22'); 45:40-47:10 (a line on legacy as 'feeling rooted in something and grounded in something' whose speaker is uncertain; her parents as different artists, her mother 'a real actor's actor'; 'I'm so lucky'); 50:35-51:10 (speed round: 'What scares you?' 'Everything. Ghosts. We'll leave it at that'; 'Take it a day at a time'; teaching theater to five- and six-year-olds).",
+      "excerpt": "“And being present and kind of being where your feet are, it's something I try to try really hard and fail at often frequently to live by. It's just like, you know, so much of what we worry about in life, so many of the things that we are so, so emotionally fraught about, you know, you can't handle until you're there. And I think trusting yourself to have, you know, the tools and the ability to handle it when you're faced with it is something I'm still really trying to do. And God knows that was something I did in that play.” [...] “I think because I felt that assurance from her going into it, I didn't feel a pressure to replicate anybody else's [...] you can't just come in and do whatever you want, but you serve the play” [...] “there's a part of me that feels like, Oh my God, I can't believe they picked me”",
+      "context": "The longest first-person source: a relaxed 52-minute conversation with Anthony Meindl, an acting teacher who calls her 'my dear friend', recorded early in 2025 while she was rehearsing Ghosts. The host talks at length and steers toward his podcast's theme of presence, so some of her statements extend his points. No speaker labels: the episode was transcribed locally with Whisper small.en, and the quoted passages were re-transcribed with large-v3-turbo; wording differences between the two runs are minor (for example 'helped' vs 'held me and supported me'; 'serve the plate' is Whisper's mishearing of 'serve the play'). Excerpts here omit fillers such as 'um'; restore them or mark the omission when quoting. Speaker attribution follows the conversational turns and should be confirmed by listening, especially around 35:56-36:06, where lines about trying to 'be what you want' may be the host's. Draft stage: quotations restore a mid-sentence 'um' where spoken and drop leading 'and, uh' and repeated false starts only at the start of a quotation; checked against the large-v3-turbo clips (clip_a, clip_b, clip_c, clip_h).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S06",
+      "url": "https://www.indiewire.com/features/interviews/sophia-takal-interview-act-one-ella-beatty-ari-graynor-1235198937/",
+      "title": "No One Turns Female Competition Into Terrifying Cinema Quite Like Sophia Takal",
+      "speaker": "Ella Beatty (phone interview), with Sophia Takal and Ari Graynor; written by Kate Erbland (IndieWire)",
+      "date": "2026-06-09",
+      "locator": "Beatty passages: 'entry points'; 'an acting school that was really wonderful and expansive and fulfilling'; 'eager to please and eager to be praised'; 'I'm very lucky... wanting to find a sense of belonging, wanting to feel chosen'; 'brazen self-confidence'; on Ari Graynor ('a true, very, very close friend of mine... we sort of fell in love'); intimacy coordinator answer.",
+      "excerpt": "“I’m very lucky,” Beatty said with a laugh. “I have a very supportive family, but Hannah really struggles with that feeling [...] I didn’t struggle with the same things Hannah struggled with, but wanting to find a sense of belonging, wanting to feel chosen, and feel like her family understood her? I think those are things that any person who has just been a teenager can relate to.”",
+      "context": "Tribeca 2026 press for Act One, in which she plays an obsessed acting student. Her lines describe the character and teenagers in general; she explicitly separates her own Juilliard experience from the film's cultlike class. Use for what she says she recognizes, not as autobiography.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S07",
+      "url": "https://www.youtube.com/watch?v=d73NuEKCxLc",
+      "title": "Ella Beatty. Interview on the film: Act One at the Tribeca Film Festival 2026 (Eirini Mo Asks)",
+      "speaker": "Ella Beatty, red-carpet interview by Eirini Mo",
+      "date": "2026-06-17",
+      "locator": "YouTube upload of 2026-06-17, 3:27. About 00:03-00:29 ('I felt very lucky to even have been sent the script'); 00:58-01:28 ('feeling alone and not feeling seen, to want belonging'); 02:19-02:42 ('having a really strong support system... maybe not let your head get too big').",
+      "excerpt": "“I think losing yourself a little bit is okay. Maybe that's part of the creative experience, but having a really strong support system, good people around you that can kind of bring you back down to earth, keep your head screwed on straight, maybe not let your head get too big. That helps.”",
+      "context": "Short premiere-night carpet interview by a small independent channel. Auto-captions; verify wording against audio. Draft stage (2026-10-18): quoted caption passages were re-transcribed from the audio with local Whisper small.en (yt-dlp mweb client, segments in /tmp/ella-beatty-draftcheck/out); the printed wording matched.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S08",
+      "url": "https://www.youtube.com/watch?v=DdDLa9vctOA",
+      "title": "Monster: How Ella Beatty Prepared for Really Different Take on Lizzie Borden Tale (Exclusive) (Entertainment Tonight)",
+      "speaker": "Ella Beatty, interviewed by Entertainment Tonight",
+      "date": "2026-09-12",
+      "locator": "YouTube upload of 2026-09-12, 6:45. About 00:00-00:20 ('I feel like the luckiest lady in the world'); 00:20-00:45 ('I never dreamed that I would get the part'); 01:04 (empathy 'the easiest thing in the world'); 03:32-03:57 (interviewer reports Charlie Hunnam's praise; her reply 'I felt lucky every single day'); 03:57-04:15 (parents 'know when to kind of sit back'); 06:19-06:35 ('Wow, I'm really lucky').",
+      "excerpt": "“I feel like the luckiest lady in the world.” [...] “they're so wonderful because they're very supportive and loving, but they also, you know, they know when to kind of sit back and allow you to investigate the world and get curious about your character.” [...] “I was thinking, ‘Wow, I'm really lucky.’ That's what I was thinking.”",
+      "context": "Junket interview before the September 17, 2026 premiere. The interviewer, not Hunnam, reports that Hunnam called her 'one of the best actresses he'll ever work with'; treat that as hearsay. Auto-captions; verify wording against audio. Draft stage (2026-10-18): quoted caption passages were re-transcribed from the audio with local Whisper small.en (yt-dlp mweb client, segments in /tmp/ella-beatty-draftcheck/out); the printed wording matched.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S09",
+      "url": "https://deadline.com/2025/07/ella-beatty-monster-lizzie-borden-rebecca-hall-vicky-krieps-1236465248/",
+      "title": "'Monster': Ella Beatty To Star As Lizzie Borden, Rebecca Hall & Vicky Krieps Also Cast In Season 4",
+      "speaker": "Deadline (trade report)",
+      "date": "2025-07-28",
+      "locator": "Paragraphs 1-2 (casting 'after an extensive multi-country casting search'); paragraph 3 (all four already in the Ryan Murphy universe); paragraph 6 ('A 2022 Juilliard graduate'; Appropriate, Ghosts, Sexual Misconduct of the Middle Classes; repped by CAA and Entertainment 360).",
+      "excerpt": "“She landed the role after an extensive multi-country casting search.” [...] “A 2022 Juilliard graduate, she made her Broadway debut with Appropriate, succeeding Elle Fanning in the role. She subsequently starred opposite Billy Crudup and Lily Rabe in Henrik Ibsen’s Ghosts and opposite Hugh Jackman in Sexual Misconduct of the Middle Classes.”",
+      "context": "Exclusive casting report, presumably sourced from the production or her representatives. An anonymous reader comment under the article praising her is not evidence and must not be quoted.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S10",
+      "url": "https://www.youtube.com/watch?v=Q6n83ZQZX2w",
+      "title": "Ella Beatty on 'Monster' Season 4, Sarah Paulson, 'The Bell Jar' (TODAY)",
+      "speaker": "Ella Beatty, live interview on NBC's TODAY",
+      "date": "2026-09-14",
+      "locator": "YouTube upload of 2026-09-14, 4:15; broadcast caption track. About 01:08-01:41 ('I couldn't believe the opportunity'; 'I can't believe my luck. I'm kind of star struck being here right now'; 'under the stewardship of such incredible people'); 02:02-02:38 (Paulson: 'one of my very best friends in the world'; 'we call every 15 minutes'; 'She's there for advice at any minute'); 02:38-03:20 (archive clip of Annette Bening recalling being pregnant with her at the Oscars; Beatty: 'I didn't know that'); 03:20-03:36 ('listen' advice).",
+      "excerpt": "“It's everything. I mean, I can't believe my luck. I'm kind of star struck being here right now, honestly. It's all really new for me and very exciting. To get to be under the stewardship of such incredible people it's really lucky.” [...] “You know, we call every 15 minutes. [...] She's there for advice at any minute.”",
+      "context": "Live morning-show segment. The broadcast captions render one phrase as 'female rage and representation'; Netflix's written statement and other outlets give 'female rage and repression', so do not quote that phrase from the captions. The Bening clip is from an earlier TODAY appearance and refers to her 'almost 24-year-old', placing it around early 2024.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S11",
+      "url": "https://www.netflix.com/tudum/features/ella-beatty-monster-lizzie-borden-story",
+      "title": "Monster: The Lizzie Borden Story's Ella Beatty Is Terrified of Blood",
+      "speaker": "Ella Beatty, interviewed by Kristin Iversen (Netflix Tudum)",
+      "date": "2026-09-17",
+      "locator": "Paragraph 1 ('I'm a huge scaredy-cat'); paragraph 4 ('It's a very disputed case'); paragraph 5 ('confined sexually, spiritually, and emotionally'); paragraph 7 ('exercise in empathy'); paragraph 8 ('I really don't like to see people hurt. It upsets me viscerally... How am I going to do this?'; credit to makeup, costume, stunt teams; 'my little piece of it').",
+      "excerpt": "“I really don’t like to see people hurt. It upsets me viscerally. And so I definitely felt, going into this project, ‘How am I going to do this?’ [...] But the team of people involved in creating those moments was so incredible [...] I felt really lucky and excited to step up to the plate of my little piece of it.”",
+      "context": "Netflix's own promotional site, published on premiere day. Interested source: quotes are selected to promote the show.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S12",
+      "url": "https://variety.com/2026/tv/features/monster-lizzie-borden-ella-beatty-1236866041/",
+      "title": "'Lizzie Borden' Cast on Treating the Story as a Comedy, the Joy of Playing a Sadistic Character and Finding Empathy for a Bloody Monster: 'I Understand This Person'",
+      "speaker": "Ella Beatty, Rebecca Hall and Charlie Hunnam, interviewed by William Earl (Variety)",
+      "date": "2026-09-17",
+      "locator": "Beatty passages after the Hunnam axe anecdote: 'I felt very connected to the character immediately... over the moon and also really scared. I felt a huge responsibility to the part, to the anthology, to the real person... How does she blink?'; later 'We all just continued to discover it together.' The 'I've never played a true out-and-out villain' quote in this article is Rebecca Hall's, not Beatty's.",
+      "excerpt": "“I remember making the audition tape and thinking, ‘I understand this person.’ When I found out that I had gotten the part, I was over the moon and also really scared. I felt a huge responsibility to the part, to the anthology, to the real person. I think immediately I just wanted to start working on it.”",
+      "context": "Group junket feature. A search-engine summary misattributed Hall's villain quote to Beatty; the opened article attributes it to Hall.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S13",
+      "url": "https://collider.com/monster-lizzie-borden-story-netflix-ella-beatty/",
+      "title": "'Monster: The Lizzie Borden Story' Star Breaks Down Crime Series' Most Brutal Moments",
+      "speaker": "Ella Beatty, interviewed by Taylor Gates (Collider)",
+      "date": "2026-09-18",
+      "locator": "Q&A: research answer ('I listened to every single podcast and video that's ever been published in the world. I couldn't be stopped if I had a WiFi connection... my responsibility was to what was on the page'); Vicky Krieps answer; Rebecca Hall answer ('I keep saying this, so I know I'm probably repeating myself'); vomit-rig answer ('I don't have anything to complain about'). Video version: https://www.youtube.com/watch?v=DTG4qjCB3lU (uploaded 2026-09-19), about 00:21-01:08.",
+      "excerpt": "“Right away, when I found out I had the part, I listened to every single podcast and video that's ever been published in the world. I couldn't be stopped if I had a WiFi connection. But I started to hone in and get a little bit more specific, and I did feel that my responsibility was to what was on the page.”",
+      "context": "Junket interview; the article is Collider's edited transcript of the recorded video. Spoilers for episodes 1-2.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S14",
+      "url": "https://www.showbizjunkies.com/tv/netflix-monster-lizzie-borden-cast-press-conference/",
+      "title": "Inside Monster: The Lizzie Borden Story – Cast & Creators on Netflix's Dark New Season",
+      "speaker": "Ella Beatty, Rebecca Hall, Charlie Hunnam, Ian Brennan and Max Winkler at the Netflix press conference of September 9, 2026 (Showbiz Junkies report)",
+      "date": "2026-09-20",
+      "locator": "Preparation answers (Beatty: The Trial of Lizzie Borden, movement coach Julia Crockett, 'what was on the page felt most important to me'; Hall: 'I did absolutely nothing'); Beatty on landing the role ('I was over the moon. And then I also felt, How am I gonna do this and what does it mean?'); Brennan on deciding 'she did this'.",
+      "excerpt": "“I was so excited. I was over the moon. And then I also felt, ‘How am I gonna do this and what does it mean?’ For me, just starting to work on it even before we were in pre-production was really helpful. [...] all of those things that aren’t necessarily tangible work can help you feel like you’re starting.”",
+      "context": "Transcript excerpts from a group press conference. Useful as a same-room contrast: Hall says she did no research, Hunnam a couple of days of reading, Beatty a book plus a movement coach and work before pre-production. Draft stage: Hunnam's words in this report are 'I had a little, you know, couple of days of reading', so the draft paraphrases him rather than quoting.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S15",
+      "url": "https://www.youtube.com/watch?v=Kwtu_M-LkBQ",
+      "title": "Ella Beatty Says Lizzie Borden's Queer Relationship Is 'Everything' (Gayety)",
+      "speaker": "Ella Beatty, interviewed by Caitlyn McDaniel (Gayety)",
+      "date": "2026-09-18",
+      "locator": "YouTube upload of 2026-09-18, 4:42 (transcript via youtube-transcript-api). About 02:22-02:45 ('being loved and being seen in a soft way is transformative'); 03:30-03:52 ('my job as the actress was to love and advocate for the person'); 04:05-04:32 ('Not patient by nature. I'm an Aries'; 'it's okay to also be soft and vulnerable').",
+      "excerpt": "“I think for a person in really painful circumstances, being loved and being seen in a soft way is transformative. I think it can [...] make you re-interrogate your entire self-knowledge when someone loves you and sees you.” [...] “Not patient by nature. I'm an Aries.” [...] “her sensibility as a person is uh vulnerable and soft and those are things that I resonated with”",
+      "context": "Junket interview for an LGBTQ+ outlet. Statements about being seen describe Lizzie; the 'not patient' and 'resonated with' lines are about herself. Auto-generated captions; verify against audio.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S16",
+      "url": "https://www.youtube.com/watch?v=ZPPP5dTamkM",
+      "title": "Ella Beatty Plays Lizzie Borden In Netflix's 'Monster' | Interview | No Intervals",
+      "speaker": "Ella Beatty, junket interview (No Intervals)",
+      "date": "2026-09-22",
+      "locator": "YouTube upload of 2026-09-22, 3:28 (transcript via youtube-transcript-api; the upload repeats the same answers twice). About 00:27-00:53 ('I was kind of voracious after I got the part'); 00:53-01:18 ('a big responsibility to the person, to the story, and of course most primarily to what Ian and Ryan created and wrote... that was my offering to the series').",
+      "excerpt": "“I was really excited, but I also felt a big responsibility to the person, to the story, and of course most primarily to what Ian and Ryan created and wrote. [...] I also felt my job as the actor was to just get very specific in my performance, and that that was my offering to the series.”",
+      "context": "Short edited junket clip with the questions removed. Auto-generated captions. Draft stage (2026-10-18): quoted caption passages were re-transcribed from the audio with local Whisper small.en (yt-dlp mweb client, segments in /tmp/ella-beatty-draftcheck/out); the printed wording matched.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S17",
+      "url": "https://www.youtube.com/watch?v=GYkLldtGQ3s",
+      "title": "Ella Beatty Reacts to Mom Annette Bening's Interview with Drew on Parenting Advice (The Drew Barrymore Show)",
+      "speaker": "Ella Beatty with Drew Barrymore; includes an archive clip of Annette Bening",
+      "date": "2026-09-22",
+      "locator": "YouTube upload of 2026-09-22, 6:16. About 00:52-01:20 ('for a long time I didn't love being really tall... I'm just learning to own it'); 01:20-01:45 (squeamish; 'clumsy, ridiculous, like wobbly calf'); 02:58-03:23 ('the first person that really loves you and sees you... That is really corny, but it's true'); 04:38-05:19 (Bening clip: 'I tried to learn to just say not try to give them all the answers and fix everything and I'm still learning that'); 05:19-05:49 ('I'm very close to my mom... once a day, debrief... If she has judgments, she keeps them to herself').",
+      "excerpt": "“I'm very close to my mom. Like once call once a day, debrief. And yeah, she really lives that practice of you know, she wants to know what's going on in your life. If she has judgments, she keeps them to herself. And she's big on not giving you the answer, which I think makes you curious about how to figure it out yourself.”",
+      "context": "Daytime talk-show segment, part one of two. The Bening clip is from her own earlier appearance on the show and is first-person testimony about her parenting, not about Ella specifically. Auto-captions with '>>' speaker markers; verify wording and speaker against audio. Draft stage (2026-10-18): quoted caption passages were re-transcribed from the audio with local Whisper small.en (yt-dlp mweb client, segments in /tmp/ella-beatty-draftcheck/out); the printed wording matched. Whisper gives 'like call once a day, debrief' where captions give 'Like once call once a day, debrief'; the draft quotes only 'once a day, debrief'.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S18",
+      "url": "https://www.youtube.com/watch?v=e8IWMwnMAEE",
+      "title": "Ella Beatty on Her Friendship with Sarah Paulson: \"She's the one you call in a crisis\" (The Drew Barrymore Show)",
+      "speaker": "Ella Beatty with Drew Barrymore",
+      "date": "2026-09-22",
+      "locator": "YouTube upload of 2026-09-22, 5:09. About 00:00-00:53 (Barrymore's 'cosmic pull... honor this family'; Beatty: 'I absolutely feel that way... helped me feel a sense of belonging really young. But the older I get, the more I feel that responsibility to kind of carry that torch on'); 01:17-02:06 (Paulson dinner after the offer, 6:00 p.m. to about 12:30; 'if you're having a crisis... she will pick up the phone'); 02:30-03:19 (Titanic: wanted to be a Titanic survivor for Halloween; her mother's response).",
+      "excerpt": "“I absolutely feel that way. I couldn't connect to that more. Yes, I do. And I think being able to see and recognize myself in my family members and see that that was the profession that my family inhabited, that's what everybody wanted to do, helped me feel a sense of belonging really young. But the older I get, the more I feel that responsibility to kind of carry that torch on.”",
+      "context": "Part two of the same segment. The 'honor this family' framing is Barrymore's (herself a Hollywood scion); Beatty agrees with a prompt rather than volunteering it. Auto-captions; verify against audio. Draft stage (2026-10-18): quoted caption passages were re-transcribed from the audio with local Whisper small.en (yt-dlp mweb client, segments in /tmp/ella-beatty-draftcheck/out); the printed wording matched.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S19",
+      "url": "https://www.youtube.com/watch?v=RooR7nJOmiM",
+      "title": "Ella Beatty & Charlie Hunnam On How Monster: The Lizzie Borden Story Compares To Previous Portrayals (ScreenRant Plus)",
+      "speaker": "Ella Beatty, Charlie Hunnam and director/executive producer Max Winkler (questions edited out)",
+      "date": "2026-09-26",
+      "locator": "YouTube upload of 2026-09-26, 11:59; use the original-English caption track, not the auto-translated one. Beatty about 00:00-03:05 ('I felt really trusted to come to the table with my own research'; 'I'm a very sensitive person. So, sometimes a bath was needed'; 'I really wanted to just throw myself into the job entirely'); Hunnam about 03:05-06:55 ('let her drive the car'); Winkler about 06:55-11:59 (seven self-tapes; 'Ella's self-tape within 10 seconds I saw her her um her anguish, her strength, her grace'; 'a face that you didn't recognize').",
+      "excerpt": "Beatty: “I mean, I'm a very sensitive person. So, sometimes a bath was needed, um, a literal bath because, you know, it's intense. It's intense stuff.” Winkler: “Ryan and I received uh a self-tape from our casting director Tiffany Little Canfield [...] There's, you know, seven tapes. [...] he called me right back and he said, ‘Is it Ella?’ [...] Ella's self-tape within 10 seconds I saw her her um her anguish, her strength, her grace”",
+      "context": "Edited roundtable with no speaker labels; speakers identified from content (Winkler directed Ed Gein and refers to 'Charlie and I'). Winkler is the season's director and an executive producer, so his account of the casting is interested testimony; it is consistent with Town & Country's report of a self-tape (S21) and Deadline's 'multi-country casting search' (S09). Draft stage (2026-10-18): quoted caption passages were re-transcribed from the audio with local Whisper small.en (yt-dlp mweb client, segments in /tmp/ella-beatty-draftcheck/out); the printed wording matched. Where Whisper and captions differ ('I watched the tape' vs 'a tape'; 'or, you know, seven tapes' vs 'There's, you know, seven tapes'; 'her her um her anguish'), the draft quotes only shared words ('We got her', 'Is it Ella?', 'her anguish, her strength, her grace' in research) or paraphrases.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S20",
+      "url": "https://www.townandcountrymag.com/leisure/arts-and-culture/a73571951/ella-beatty-lizzie-borden-interview-2026/",
+      "title": "Who's Afraid of Ella Beatty? (Town & Country, October 2026 cover story)",
+      "speaker": "Ella Beatty, interviewed in person and by phone by Naveen Kumar; quotes Sarah Paulson, Max Winkler and Hugh Jackman",
+      "date": "2026-09-23",
+      "locator": "Online 2026-09-23; October 2026 issue. Hotel Chelsea scene ('I feel just like a very normal lady'); parents 'very normal and loving and present'; 'How is it possible that these incredible artists are my parents?'; Paulson ('unnervingly, dazzlingly self-assured'; 'the least Hollywood creature I've ever met'; six-hour dinner at the Waverly Inn; 2 a.m. FaceTime); 'sit very quietly, watch, and pray, and then work extremely hard and show up off-book'; Tom Hollander 'took me under his wing'; self-tape for Monster; voicemail to Paulson about craft services; Winkler ('wide-eyedness... devastatingly perceptive... completely tuned into what everybody else in the room is doing'); Jackman ('always prepared, kind, funny, and fearless'); Paulson ('something that feels slightly touched about her'); Buckley school; Act One and Monster parents ('What is the universe saying?'); 'I really care what they think and feel'; 'discomfort about being a public person'; 'Impressionable is one way of saying it. Curious is another'; 'I'll answer authentically even though I want to deflect... I know less than I ever did.'",
+      "excerpt": "“I felt the best thing to do was to sit very quietly, watch, and pray, and then work extremely hard and show up off-book,” [...] “There’s a wide-eyedness to Ella that can sometimes conceal how devastatingly perceptive she is,” says Max Winkler [...] “She is completely tuned into what everybody else in the room is doing.” [...] “I really care what they think and feel, and I think they have an awareness of that and they’re good at staying out of it.” [...] “I’ll answer authentically even though I want to deflect,” [...] “I hope I’m becoming someone who, over time, becomes more conscientious and thoughtful.”",
+      "context": "The only long reported profile so far: a magazine cover story with styled photographs, written after the writer screened episodes 1-2. All three named witnesses are interested parties (closest friend; director/executive producer; co-star and producer of the play). The writer's descriptions ('relaxed and casually gracious, candid, and inquisitive') are observation inside a promotional setting.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S21",
+      "url": "https://en.wikipedia.org/wiki/Ella_Beatty",
+      "title": "Ella Beatty (Wikipedia)",
+      "speaker": "Wikipedia contributors",
+      "date": "2026-10-18",
+      "locator": "Infobox and lead (born April 8, 2000, Los Angeles; Juilliard BFA); Early life (youngest of four children; 2022 graduation); Career and Acting credits tables (Feud 2024; Appropriate 2024; Ghosts 2025; If I Had Legs I'd Kick You 2025; Act One 2026; Monster 2026; The Bell Jar, post-production).",
+      "excerpt": "“Ella Beatty (born April 8, 2000) is an American actress. An alumna of the Juilliard School, she is best known for her breakthrough role as the titular character in Monster: The Lizzie Borden Story (2026).”",
+      "context": "Read from the raw page source on 2026-10-18. Use only for orientation; the birth date is repeated by Biography.com (S22) and RUSSH, and her Aries remarks (S04, S15) fit an April birthday, but no first-person statement of the full date was found.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S22",
+      "url": "https://www.biography.com/actors/a73615685/ella-beatty-facts",
+      "title": "Ella Beatty: Meet the Actor Playing Lizzie Borden in 'Monster'",
+      "speaker": "Catherine Caruso (Biography.com)",
+      "date": "2026-09-14",
+      "locator": "Background paragraphs: born April 8, 2000; community theater (Annie, The Lion King, The Little Mermaid) and summer camp; Juilliard productions (All's Well That Ends Well, The Two Gentlemen of Verona), graduated 2022; WWD quotes about Gus Van Sant and keeping the Feud notebook; later stage work.",
+      "excerpt": "“Telling Women’s Wear Daily she was honored to play the part, Beatty revealed her favorite part of the show [...] was working with director Gus Van Sant. ‘I couldn’t have asked for a more wonderful person to work with on my first job,’ she said at the time.”",
+      "context": "Explainer that aggregates earlier interviews (Vogue, Interview, WWD). The WWD originals were not opened; treat the WWD quotes as secondhand.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S23",
+      "url": "https://www.thewrap.com/creative-content/tv-shows/monster-the-lizzie-borden-story-ratings-viewership-week-2-netflix/",
+      "title": "Lizzie Borden's 'Monster' Jumps 20% From Premiere Week With 14.5 Million Views on Netflix, Tops TV Chart",
+      "speaker": "TheWrap (trade report of Netflix's Top 10 data)",
+      "date": "2026-09-29",
+      "locator": "Paragraphs 1-2: 14.5 million views in week two (September 21-27, 2026), No. 1 on Netflix's global English TV list, top 10 in 92 countries.",
+      "excerpt": "“Viewership for Season 4 of the controversial anthology series jumped 20% from its premiere week to gather 14.5 million views. ‘Monster: The Lizzie Borden Story’ was No. 1 on the Global top 10 English list, ranking in the top 10 in 92 countries, up from 89 in its first week.”",
+      "context": "Netflix's self-reported metric. Week one was reported elsewhere as 12.1 million views for September 14-20 (TheWrap and What's on Netflix search results; not opened separately). Critics' scores were mixed (about 42-50% on Rotten Tomatoes in early reports; not opened).",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S24",
+      "url": "https://www.tmz.com/2026/06/08/sarah-paulson-ella-beatty-tonys-red-carpet/",
+      "title": "Sarah Paulson Cozies Up To Warren Beatty's Daughter at Tonys, No Sign of Holland Taylor",
+      "speaker": "TMZ (tabloid report); follow-up item of 2026-06-09 with video of a New York outing",
+      "date": "2026-06-08",
+      "locator": "Headline and first two paragraphs (holding hands on the 2026 Tony Awards carpet; 'Holland Taylor was nowhere in sight'); follow-up 'Sarah Paulson and Ella Beatty Had Friendly NYC Outing Weeks Before Tonys, On Video' (2026-06-09).",
+      "excerpt": "“Sarah Paulson and Ella Beatty were cute and cozy at the 2026 Tony Awards ... and Holland Taylor was nowhere in sight.”",
+      "context": "Recorded only so later stages know the insinuation exists. It implies something about a friendship and about Paulson's relationship with a third person, with no reporting behind it. Both women describe the friendship as close and platonic in their own words (S04, S10, S18, S20). Do not repeat, link or allude to the insinuation.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S25",
+      "url": "https://www.pressreader.com/usa/new-york-post/20180314/281651075629076",
+      "title": "Hollywood scion a 'class' act (New York Post / Page Six)",
+      "speaker": "New York Post Page Six (anonymous sources)",
+      "date": "2018-03-14",
+      "locator": "Not opened. Search snippets only: describes her parents running a 'charm offensive' around a three-day Juilliard finalist intensive when she was 17, and Bening waiting in line with other parents.",
+      "excerpt": "Not opened; search-result summaries only describe the item as reporting, from unnamed sources, that her parents were working to get their 17-year-old daughter into Juilliard.",
+      "context": "PressReader returned 403 to WebFetch and only a navigation shell to curl and r.jina.ai; no Page Six original was located. An anonymous gossip item bearing on the nepotism question. Not usable as evidence of anything unless the original is opened and then only as an attributed, unconfirmed report.",
+      "kind": "secondary",
+      "access": "unavailable"
+    },
+    {
+      "id": "S26",
+      "url": "https://www.forbes.com/sites/danafeldman/2026/09/18/monster-the-lizzie-borden-story-ella-beatty-on-playing-a-notorious-murder-suspect/",
+      "title": "'Monster: The Lizzie Borden Story': Ella Beatty On Playing A Notorious Murder Suspect",
+      "speaker": "Ella Beatty, interviewed by Dana Feldman (Forbes)",
+      "date": "2026-09-18",
+      "locator": "Not opened (403 to curl and WebFetch; the reader proxy was blocked for the domain).",
+      "excerpt": "Not opened; a search summary says she called Lizzie's psychology 'really available to me' and enjoyed learning the axe with the stunt team.",
+      "context": "Promotional Q&A. Unopened; do not quote.",
+      "kind": "primary",
+      "access": "unavailable"
+    },
+    {
+      "id": "S27",
+      "url": "https://www.wonderlandmagazine.com/2026/10/05/ella-beatty-monsters-interview/",
+      "title": "Ella Beatty Talks Monsters: The Lizzie Borden Story (Wonderland)",
+      "speaker": "Ella Beatty, interviewed for Wonderland",
+      "date": "2026-10-05",
+      "locator": "Not opened (security check returned 401 to curl, WebFetch and r.jina.ai).",
+      "excerpt": "Not opened; a search summary says she discusses costuming, blood and how the audition came through her agents.",
+      "context": "The most recent interview located as of 2026-10-18. Unopened; do not quote.",
+      "kind": "primary",
+      "access": "unavailable"
+    },
+    {
+      "id": "S28",
+      "url": "https://www.tvinsider.com/1288921/monster-lizzie-borden-story-netflix-fall-preview/",
+      "title": "Lizzie Borden's Rage Fuels 'Monster''s Bloodiest Season Yet (TV Insider)",
+      "speaker": "TV Insider; quotes Ian Brennan",
+      "date": "unknown",
+      "locator": "Not opened (403).",
+      "excerpt": "Not opened; a search summary attributes to Ian Brennan that the casting 'immediately felt right' and that she has 'a real blank slate of a face' and 'exudes this sense of innocence'.",
+      "context": "Would be the only testimony from the season's creator. Unopened; do not quote until opened.",
+      "kind": "secondary",
+      "access": "unavailable"
+    },
+    {
+      "id": "S29",
+      "url": "https://www.paramountpressexpress.com/cbs-entertainment/shows/84th-annual-golden-globes/about/",
+      "title": "84th Annual Golden Globes: About (CBS / Paramount Press Express)",
+      "speaker": "CBS (press materials)",
+      "date": "unknown",
+      "locator": "About text: 'Nominations for the Golden Globe Awards will be announced on Monday, Dec. 8.'; 'ON AIR: Sunday, Jan. 10, 2027'",
+      "excerpt": "Nominations for the Golden Globe Awards will be announced on Monday, Dec. 8. [...] ON AIR: Sunday, Jan. 10, 2027, (8:00-11:00 PM, live ET/5:00-8:00 PM, live PT)",
+      "context": "Opened by WebFetch at the draft stage on 2026-10-18. No publication date on the page (footer © 2026). December 8, 2026 is a Tuesday, so 'Monday, Dec. 8' is internally inconsistent; a calendar listing gives Monday, December 7. The draft says 'early December 2026' and cites the January 10, 2027 ceremony.",
+      "kind": "secondary",
+      "access": "opened"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C09",
+      "claim": "Vogue's reporter arrived at 2:58 p.m. for a 3 p.m. meeting at the Carlyle in February 2024 and found Beatty already there with her coat folded over her arm; Beatty was following her father's rule 'Always be on time' ('Or, in her case, early').",
+      "passage": "Vogue's Elise Taylor arrived at 2:58 p.m. for a 3 p.m. coffee in February 2024, expecting to wait. Beatty was already there, her coat neatly folded over her arm, following one of her father's cardinal rules: \"Always be on time.\" In her case, early.",
+      "class": "observed",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "One observed instance, reported by the writer (S01). It shows reliability and pre-emptive care about expectations in a first major interview; the rule is her report of her father's advice.",
+      "alternative": "Punctuality for a Vogue interview is ordinary professionalism and a single occasion. 'In her case, early' paraphrases Taylor's own aside. The 'Be kind' and 'listen' rules from the same article are not used in the draft except 'listen' via TODAY (C56).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C07",
+      "claim": "In February 2024 she raised the nepotism question before the Vogue reporter asked it ('without me even asking', per Taylor) and answered: 'I totally acknowledge that there is an inherent privilege and exposure that comes from having well-known actors as parents... And I really hope that I can offer something meaningful.'",
+      "passage": "Then, before Taylor could ask, Beatty raised the subject every story about her would raise. \"I totally acknowledge that there is an inherent privilege and exposure that comes from having well-known actors as parents,\" she told [Vogue](https://www.vogue.com/article/meet-ella-beatty-the-breakout-star-of-feud-whos-now-heading-to-broadway). \"And I really hope that I can offer something meaningful.\"",
+      "class": "observed",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "The unprompted move is the reporter's observation (S01); the wording is hers and is stable from 2024 to 2025 (S01, S04; a near-identical line in the Broadway.com write-up of S03 is unverified). She names the advantage, does not argue with it, and promises work in return. That pre-emptive acknowledgment of a likely criticism fits Six (anticipating the objection), One (owning what is fair) and Three (managing the image) about equally.",
+      "alternative": "This is also the answer any publicist would recommend to a famous child debuting in 2024, when 'nepo baby' coverage was at its height. On its own it shows media competence, not motive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C37",
+      "claim": "Vogue's Elise Taylor described her as 'Exceptionally poised' (February 2024).",
+      "passage": "Taylor's words for her were \"Exceptionally poised.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "A reporter's observation in a promotional interview; it is the first instance of the composure others repeatedly describe (see C18).",
+      "alternative": "One writer's impression over tea; poise in interviews can be trained and is expected of a famous child.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C18",
+      "claim": "Sarah Paulson, whom Beatty calls 'one of my very best friends in the world' (TODAY, September 2026), told Town & Country in September 2026: 'There is something unnervingly, dazzlingly self-assured about Ella.'",
+      "passage": "Sarah Paulson, now one of her closest friends, told [Town & Country](https://www.townandcountrymag.com/leisure/arts-and-culture/a73571951/ella-beatty-lizzie-borden-interview-2026/) in September 2026, \"There is something unnervingly, dazzlingly self-assured about Ella.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S20",
+        "S10",
+        "S04"
+      ],
+      "inference": "The gap between outer composure and inner report is the most interesting unexplained feature of the record. Composure over private nerves fits a Six who has prepared, a Nine whose calm surface hides inner activity, and a Three whose presentation is polished.",
+      "alternative": "Paulson is her closest friend; a friend's flattering description in a cover story is not neutral. 'Least interesting person in the room' describes her Feud character's situation as much as her own.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C11",
+      "claim": "Of landing the Monster lead she told Variety (September 17, 2026): 'When I found out that I had gotten the part, I was over the moon and also really scared.'",
+      "passage": "Beatty describes something else. Of winning the title role in _Monster: The Lizzie Borden Story_, she told [Variety](https://variety.com/2026/tv/features/monster-lizzie-borden-ella-beatty-1236866041/) that month, \"I was over the moon and also really scared.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S12"
+      ],
+      "inference": "The pattern spans three productions and three years. The obligation runs to people (the cast, the writers, a living person) rather than to an abstract standard, and it arrives together with fear ('really scared'). That combination of duty and anxiety is the main support for the Six reading.",
+      "alternative": "'Honoring the real person' is stock junket language for any biographical role, and humility about a first lead is expected. A One would also speak of responsibility, though usually of getting it right rather than not letting people down; a Nine would also defer to the authors to avoid imposing herself.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C01",
+      "claim": "Ella Beatty was born on April 8, 2000, in Los Angeles, the youngest of the four children of actors Annette Bening and Warren Beatty; Shirley MacLaine is her paternal aunt.",
+      "passage": "She is the youngest of four children of Annette Bening and Warren Beatty, raised in Los Angeles.",
+      "class": "third_party",
+      "source_ids": [
+        "S20",
+        "S21",
+        "S22"
+      ],
+      "inference": "Year, birthplace, birth order and parents are consistent across Wikipedia (S21), Biography.com (S22) and Town & Country ('The youngest of four siblings', S20). Her age as printed in 2026 coverage (26) and her own 'I am an Aries' (S04) fit an April 2000 birthday.",
+      "alternative": "No first-person statement of the full date was found. Print the full date only as reported by reference sources, or use 'born in 2000'. Do not name or describe her siblings beyond 'youngest of four'; they are private people and none is relevant to the argument.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C02",
+      "claim": "She started at Juilliard in 2018 (Vogue), graduated in 2022 (Deadline, Biography.com), and told Paulson in 2025 she 'didn't work professionally at all until I graduated from acting school.'",
+      "passage": "She trained at Juilliard from 2018 to 2022 and, as she told Paulson, \"didn't work professionally at all until I graduated from acting school.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S09",
+        "S22",
+        "S04",
+        "S05"
+      ],
+      "inference": "Childhood roles and camp are her own account (S03, about 01:46-03:09) and Town & Country's (S20). Juilliard entry in 2018 is from Vogue (S01); graduation in 2022 from Deadline (S09), Biography.com (S22) and Town & Country ('just two years out of Juilliard' in 2024, S20). 'I didn't work professionally at all until I graduated from acting school' is hers (S04). Town & Country adds that the pandemic moved part of her training to Zoom. In February 2025 she said: 'I was 18 when I went to Juilliard and I didn't have any kind of a professional career till I was like 22. So my childhood was really just play' (S05, about 40:58-41:11).",
+      "alternative": "Vogue's February 2024 phrase 'Now a year out of school' (S01) loosely conflicts with 2022; prefer 2022. Whether skipping child acting was her choice or her parents' rule is not on record; do not present it as her decision.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C03",
+      "claim": "Her credits since January 2024: Feud: Capote vs. The Swans (FX, January 2024); replacing Elle Fanning in Appropriate on Broadway (from March 2024); Sexual Misconduct of the Middle Classes opposite Hugh Jackman off-Broadway (2025); the lead in Sophia Takal's Act One (Tribeca, June 2026).",
+      "passage": "Since January 2024 she has gone from FX's _Feud: Capote vs. The Swans_ to Broadway, replacing Elle Fanning in _Appropriate_, then to the stage opposite [Hugh Jackman](/personality-analysis/hugh-jackman) and the lead in the film _Act One_.",
+      "class": "observed",
+      "source_ids": [
+        "S01",
+        "S20",
+        "S21",
+        "S09",
+        "S06"
+      ],
+      "inference": "The sequence is consistent across Wikipedia (S21), Deadline (S09) and Town & Country (S20). It establishes that her first professional screen work was in January 2024 and her first lead role in September 2026: the whole public record is under three years old.",
+      "alternative": "Release plans for Act One (a 2027 theatrical release via Oscilloscope was reported by one outlet, not opened) and The Bell Jar are unconfirmed. Town & Country (S20) mentions an unannounced project she was shooting in Los Angeles in September 2026.",
+      "durability": "time_sensitive",
+      "review_trigger": "Update when The Bell Jar or Act One receives a release date or is released, or when a new lead role is announced."
+    },
+    {
+      "id": "C38",
+      "claim": "Monster: The Lizzie Borden Story, the fourth season of Ryan Murphy and Ian Brennan's Netflix anthology, premiered on September 17, 2026, with Beatty in the title role.",
+      "passage": "_Monster_, Ryan Murphy and Ian Brennan's Netflix anthology, premiered on September 17, 2026.",
+      "class": "observed",
+      "source_ids": [
+        "S11",
+        "S12",
+        "S21"
+      ],
+      "inference": "Netflix's Tudum feature and Variety's junket piece were published on premiere day; Tudum names Murphy and Brennan as the anthology's creators.",
+      "alternative": "None material; the premiere date is a matter of record.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C04",
+      "claim": "Monster: The Lizzie Borden Story was No. 1 on Netflix's global English-language TV list in its first two weeks, with 14.5 million views in its second week (September 21-27, 2026), up 20% from its first.",
+      "passage": "In its second week it drew 14.5 million views and topped Netflix's global English-language TV list, [TheWrap](https://www.thewrap.com/creative-content/tv-shows/monster-the-lizzie-borden-story-ratings-viewership-week-2-netflix/) reported.",
+      "class": "third_party",
+      "source_ids": [
+        "S23"
+      ],
+      "inference": "TheWrap's report of Netflix's own Top 10 data (S23). It explains why search interest in her spiked in late September 2026.",
+      "alternative": "Netflix-reported views are not independently audited. Early critics' scores for the season were mixed (reported, not opened); praise for her performance in individual reviews was not opened and should not be summarized.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck if Netflix announces a renewal, total viewing figures, or awards nominations (for example the Golden Globes)."
+    },
+    {
+      "id": "C39",
+      "claim": "She appears in Sarah Polley's film adaptation of The Bell Jar opposite Billie Eilish (and Carey Mulligan); no release date had been announced as of October 18, 2026.",
+      "passage": "She also appears in Sarah Polley's film of _The Bell Jar_, opposite [Billie Eilish](/personality-analysis/billie-eilish), which had no release date as of October 18, 2026.",
+      "class": "third_party",
+      "source_ids": [
+        "S20",
+        "S21"
+      ],
+      "inference": "Town & Country (September 2026) reports she is 'set to appear opposite Billie Eilish and Carey Mulligan in a film adaptation of Sylvia Plath's The Bell Jar directed by Sarah Polley'; Wikipedia lists the film in post-production. The research stage's 'Joan' role was not found in the saved sources and was dropped.",
+      "alternative": "Release plans are unannounced; the role name is unconfirmed in opened sources.",
+      "durability": "time_sensitive",
+      "review_trigger": "Update when The Bell Jar receives a release date or is released, and name her role once an opened source states it."
+    },
+    {
+      "id": "C40",
+      "claim": "Her public record is under three years old and almost entirely promotional, and it shows a repeated pattern of naming fear and answering it with preparation and trusted people; the motive behind the pattern is unresolved.",
+      "passage": "So people are looking her up, and they find a public record under three years old, almost all of it promotional. It holds one steady pattern: she names fear easily, then answers it with preparation and people she trusts. What that pattern is for is the open question. This is an open case: a leading read held loosely, the alternatives beside it, and what would decide between them.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S04",
+        "S05",
+        "S12",
+        "S13",
+        "S14",
+        "S20",
+        "S10"
+      ],
+      "inference": "The record runs from February 2024 (S01) to late September 2026 (S19, S20); the two longest first-person sources are conversations with friends (Paulson, S04; Meindl, S05). The pattern is documented in C11, C12, C33, C50, C16 and C34.",
+      "alternative": "The same pattern is ordinary for a young actor in a first lead and under nepotism scrutiny; it may describe circumstance rather than motive.",
+      "durability": "time_sensitive",
+      "review_trigger": "Reopen at open_case.next_review (2026-12-15) or when a long-form interview or third-party testimony from before 2024 appears."
+    },
+    {
+      "id": "C41",
+      "claim": "Leading read Type 6 at low confidence; Type 9 is the main alternative; Types 2 and 3 remain live; the record is under three years old and mostly promotional.",
+      "passage": "Leading read: Enneagram Type 6, held loosely at low confidence. Type 9 is the main alternative, and Types 2 and 3 are still in play. She names fear readily and answers it with preparation and trusted people. But her public record is under three years old and mostly promotional, so nothing yet separates these reads.",
+      "class": "interpretation",
+      "source_ids": [
+        "S04",
+        "S05",
+        "S12",
+        "S14",
+        "S13",
+        "S20"
+      ],
+      "inference": "Mirrors type_hypothesis and open_case in this record. Appears in the body and as the first FAQ answer.",
+      "alternative": "See type_hypothesis.against and alternative_case: colleagues describe composure, and nothing shows her in conflict.",
+      "durability": "unresolved",
+      "review_trigger": "Revise when any open_case.settle_signals event occurs or at the 2026-12-15 review."
+    },
+    {
+      "id": "C42",
+      "claim": "Fear is the emotion she names most often in the record, which is why Six leads, but fear is also expected of an actor in a first lead.",
+      "passage": "Fear is the emotion Beatty names most. That is why Six leads, and why it can't lead by much: fear is also the ordinary weather of an actor in her first lead.",
+      "class": "interpretation",
+      "source_ids": [
+        "S12",
+        "S14",
+        "S11",
+        "S04",
+        "S05"
+      ],
+      "inference": "Her fear statements: 'really scared' (S12), 'How am I gonna do this' (S14, S11), 'I get really nervous' (S04), auditions as 'such a vulnerable, scary thing' (S05).",
+      "alternative": "Self-report in promotional settings; a Nine or Three could report first-lead nerves too.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C08",
+      "claim": "Asked by Paulson in June 2025 whether at Juilliard she ever thought she shouldn't use her last name, she said no and: 'It really never occurred to me until I started working. I do feel a kind of responsibility towards an artistic legacy that I don't feel ashamed of... I'd hope that my work would be enough to make me separate, but I also understand why people do that.'",
+      "passage": "\"It really never occurred to me until I started working. I do feel a kind of responsibility towards an artistic legacy that I don't feel ashamed of. I would hope that my work would be powerful enough to offer something specific. I'd hope that my work would be enough to make me separate, but I also understand why people do that.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Her answer pairs responsibility to a family legacy with the hope of being judged on her work; it repeats the 2024 Vogue shape (C07).",
+      "alternative": "Interviewer is her close friend; the answer is also standard media practice for a famous child.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C43",
+      "claim": "Her handling of the inheritance question is consistent from 2024 to 2025 (name the advantage, don't argue, promise work), and the consistency shows media sense more than motive.",
+      "passage": "The answer hasn't changed shape since Vogue: name the advantage, don't argue with it, promise work in return. It is also what a publicist would tell any famous child debuting in the 2024 \"nepo baby\" moment, so it shows media sense more than motive.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S04"
+      ],
+      "inference": "Same structure in S01 (February 2024) and S04 (June 2025).",
+      "alternative": "Could also reflect sincere conviction; the record cannot separate the two.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C06",
+      "claim": "For Appropriate, Paulson and Michael Esper read with several actresses; Paulson recalls 'when you walked out, Michael and I turned to each other and we're like, \"It's got to be Ella Beatty\"' and told her 'I had no idea who your parents were.'",
+      "passage": "For _Appropriate_, Paulson and her co-star Michael Esper read with several actresses. \"When you walked out, Michael and I turned to each other and we're like, 'It's got to be Ella Beatty,'\" Paulson recalled. She also told her, \"I had no idea who your parents were.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Paulson's account in Interview (S04) and Town & Country (S20); Beatty's own version of the dinner on Drew Barrymore ('maybe 6:00 p.m. to, I don't know, 12:30', S18). A second casting by audition, with a lead actor claiming no knowledge of her parents.",
+      "alternative": "Paulson is now her closest friend and a Monster co-star, so her testimony is affectionate and interested. Town & Country says the dinner was the next night at the Waverly Inn; Beatty says it followed the offer. Minor, compatible discrepancy.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C05",
+      "claim": "Max Winkler (director of six of eight episodes, executive producer) told ScreenRant that after watching a self-tape from casting director Tiffany Little Canfield he called Ryan Murphy and said 'We got her'; Murphy watched the seven tapes without being told which one and asked 'Is it Ella?'. She had worked with Murphy on Feud.",
+      "passage": "_Monster_ came from a self-tape. Max Winkler, who directed six of the eight episodes and is an executive producer, told [ScreenRant](https://www.youtube.com/watch?v=RooR7nJOmiM) that after watching a tape from casting director Tiffany Little Canfield he called Murphy and said, \"We got her.\" Murphy watched all seven tapes without being told which one, then called back and asked, \"Is it Ella?\" Both men are selling the show, and she had already worked for Murphy on _Feud_, so no one can measure what the name did before the tape. The accounts agree that a tape was required.",
+      "class": "third_party",
+      "source_ids": [
+        "S19",
+        "S20",
+        "S09"
+      ],
+      "inference": "Winkler's account (S19, audio re-checked) agrees with Town & Country's report of a self-taped audition (S20); Deadline reported an 'extensive multi-country casting search' (S09). The record shows a tape was required; it cannot measure what the name did before it.",
+      "alternative": "Winkler and Murphy are interested parties promoting the show, Winkler is himself the son of a famous actor (S20), and a prior working relationship with Murphy plus her name can open the door to an audition. The record cannot measure how much the name helped, only that a tape was required.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C44",
+      "claim": "On The Drew Barrymore Show (September 2026), responding to Barrymore's own wish to 'honor this family', she said the family profession 'helped me feel a sense of belonging really young. But the older I get, the more I feel that responsibility to kind of carry that torch on.'",
+      "passage": "She frames the inheritance as belonging and duty. On [_The Drew Barrymore Show_](https://www.youtube.com/watch?v=e8IWMwnMAEE) in September 2026, she agreed with Barrymore's wish to \"honor this family\" and said the family profession \"helped me feel a sense of belonging really young. But the older I get, the more I feel that responsibility to kind of carry that torch on.\" It is the most Six-flavored vocabulary in the record, though Barrymore supplied the prompt.",
+      "class": "self_report",
+      "source_ids": [
+        "S18"
+      ],
+      "inference": "Belonging plus responsibility to an inherited group is the most Six-flavored theme in the record; the same 'carry the torch' line appears in 2024 (S03). Audio re-check matched the caption wording.",
+      "alternative": "She is agreeing with Barrymore's prompt ('I feel a cosmic pull that I want to honor this family'); reverence for famous parents is the safe daytime-TV answer and fits Nine or Two as well.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C45",
+      "claim": "She told Variety she felt 'a huge responsibility to the part, to the anthology, to the real person' on getting the Monster role.",
+      "passage": "\"I felt a huge responsibility to the part, to the anthology, to the real person,\" she told Variety.",
+      "class": "self_report",
+      "source_ids": [
+        "S12"
+      ],
+      "inference": "Part of the same Variety answer as C11; the obligation runs to the work and to people, alongside fear.",
+      "alternative": "'Honoring the real person' is stock junket language for a biographical role.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C12",
+      "claim": "At the September 9, 2026 Netflix press conference (Showbiz Junkies report) she said she felt 'How am I gonna do this and what does it mean?' and that starting work before pre-production helped because 'all of those things that aren't necessarily tangible work can help you feel like you're starting.'",
+      "passage": "At Netflix's September 9 press conference, [reported by Showbiz Junkies](https://www.showbizjunkies.com/tv/netflix-monster-lizzie-borden-cast-press-conference/), she said she also felt, \"How am I gonna do this and what does it mean?\" So she started before pre-production, because that work \"can help you feel like you're starting.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S14",
+        "S11"
+      ],
+      "inference": "Consistent across a 2025 stage run and the 2026 series. The same-room contrast with Hall (S14) shows this is her approach, not the production's requirement. Anxiety answered by preparation, reference material and trusted structure is the behavior that most separates a Six reading from a Nine reading, which would predict less nerves and less effort spent securing the ground.",
+      "alternative": "First-lead nerves are universal; heavy research for a historical role is common; the diary book was the director's own creation, so using it may reflect the production's culture as much as her temperament. A Three would also over-prepare for a career-making role, and a One would research to get it right. All accounts are hers.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C46",
+      "claim": "She told Collider: 'Right away, when I found out I had the part, I listened to every single podcast and video that's ever been published in the world. I couldn't be stopped if I had a WiFi connection.'",
+      "passage": "\"Right away, when I found out I had the part, I listened to every single podcast and video that's ever been published in the world. I couldn't be stopped if I had a WiFi connection.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S13",
+        "S16"
+      ],
+      "inference": "Corroborated in a separate junket clip ('I was kind of voracious after I got the part', S16). Preparation as the answer to uncertainty.",
+      "alternative": "Heavy research for a historical role is common; she then narrowed to 'what was on the page' (S13).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C47",
+      "claim": "At the same press conference, Rebecca Hall said 'I did absolutely nothing' to prepare and Charlie Hunnam described a couple of days of reading, while Beatty described a book, a movement coach and work before pre-production.",
+      "passage": "At the same press conference, asked how they had prepared, Rebecca Hall said, \"I did absolutely nothing.\" Charlie Hunnam had spent a couple of days reading. Beatty described a book, a movement coach and work before pre-production. The difference was hers, not the job's.",
+      "class": "observed",
+      "source_ids": [
+        "S14"
+      ],
+      "inference": "Same-room contrast in one report (S14) shows her level of preparation was her own choice, not the production's requirement. Hunnam's words in the report are 'a little, you know, couple of days of reading', so the draft paraphrases him.",
+      "alternative": "Lead actors often prepare more than supporting actors; Hall framed her choice as artistic freedom, not lack of care.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C33",
+      "claim": "She told Anthony Meindl (February 2025) that before replacing Elle Fanning in Appropriate she had about two days of table work, learned the blocking from a video and the understudies, and 'came in off book, so that would never be an issue'; director Lila Neugebauer told her from the start to find her own version, and 'because I felt that assurance from her going into it, I didn't feel a pressure to replicate anybody else's.'",
+      "passage": "_Appropriate_ was the same move under more pressure. She told the acting teacher Anthony Meindl on his [_In The Moment_ podcast](https://soundcloud.com/anthonymeindl/anthonyinterviewsellabeatty) in February 2025 that she had about two days of table work before taking over, learned the blocking from a video and the understudies, and \"came in off book, so that would never be an issue.\" The director, Lila Neugebauer, told her from the start to find her own version. \"Because I felt that assurance from her going into it, I didn't feel a pressure to replicate anybody else's,\" Beatty said.",
+      "class": "self_report",
+      "source_ids": [
+        "S05",
+        "S04"
+      ],
+      "inference": "A concrete, consequential episode told twice (S05 at length, S04 briefly: 'I had such an abbreviated rehearsal process... I had to learn on the job'). The sequence is: remove the controllable risk (lines), take permission from the authority in charge, then contribute within the existing structure. That ordering is Six-like; serving the structure is also Nine-like and One-like.",
+      "alternative": "Learning lines before a put-in is basic professionalism, and directors routinely tell replacements not to imitate. The apology joke is self-deprecating banter. Her account only.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C48",
+      "claim": "The Appropriate sequence runs: remove the controllable risk, take permission from the authority in charge, then contribute.",
+      "passage": "First she removed the risk she could control. Then she took permission from the person in charge. Then she brought herself.",
+      "class": "interpretation",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "Ordering drawn from her own account (C33). Securing ground before contributing is Six-like.",
+      "alternative": "Serving the existing structure also fits Nine and One; learning lines first is basic professionalism.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C49",
+      "claim": "During the 2025 run of Sexual Misconduct of the Middle Classes she said she missed the play on nights off, 'Sometimes we have four or five days between performances and I get really nervous,' and took home director Ian Rickson's 'diary book' of rehearsal images and writings.",
+      "passage": "On nights off from _Sexual Misconduct of the Middle Classes_ in 2025, she missed the play. \"Sometimes we have four or five days between performances and I get really nervous,\" she told Paulson, so she took home the director's \"diary book\" from rehearsals.",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "The nerves are tied to time away from the play; her remedy is a trusted reference object from the director. Anxiety answered by structure.",
+      "alternative": "Her stated reason is missing the characters, not fear of failure; the diary book was the director's own creation, so using it reflects his culture as well as her temperament.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C10",
+      "claim": "She told Town & Country her method as a newcomer: 'I felt the best thing to do was to sit very quietly, watch, and pray, and then work extremely hard and show up off-book.'",
+      "passage": "Her approach as a newcomer, she told Town & Country, was to \"sit very quietly, watch, and pray, and then work extremely hard and show up off-book.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S20",
+        "S01"
+      ],
+      "inference": "Her own account in 2024 and 2026, corroborated by Jackman's testimony in Town & Country (S20). Preparation and observation are how she manages being new among famous people.",
+      "alternative": "Conservatory training and ordinary replacement-actor diligence explain much of this, and a famous name raises the cost of being caught unprepared. Jackman co-starred and the production was his company's, so he is an interested party. 'Pray' is a figure of speech, not a religious claim.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C50",
+      "claim": "Counterevidence: of Appropriate she also said 'I didn't have a lot of time to be scared because I got the job and then we started'; Hugh Jackman told Town & Country she is 'always prepared, kind, funny, and fearless'; Paulson's first impression was 'self-possessed'.",
+      "passage": "The record pushes back too. Of _Appropriate_, she also told Paulson, \"I didn't have a lot of time to be scared because I got the job and then we started.\" Nerves and over-preparation are ordinary in young actors, and a famous name raises the cost of being caught unprepared. The people who work with her see composure. Jackman told Town & Country she is \"always prepared, kind, funny, and fearless.\" Paulson's word is \"self-possessed.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S04",
+        "S20"
+      ],
+      "inference": "Collaborators see composure, not anxiety; her own account includes a moment of no fear. Weakens the Six reading.",
+      "alternative": "Jackman and Paulson are friends and collaborators promoting shared work; composure over private nerves is also compatible with Six.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C51",
+      "claim": "Speaking to Meindl during Ghosts rehearsals (February 2025), she said of the Appropriate takeover: 'part of what was so great about it is that I didn't have time to worry about it... I didn't really have time to get self-conscious or, um, you know, self-involved about it.'",
+      "passage": "Talking to Meindl during _Ghosts_ rehearsals, she found an upside in the rush of the _Appropriate_ takeover. \"Part of what was so great about it is that I didn't have time to worry about it,\" she said. \"I didn't really have time to get self-conscious or, um, you know, self-involved about it.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "She experiences being too busy to worry or be self-conscious as relief; this is the half of the answer that precedes C32 and keeps it in context.",
+      "alternative": "Whisper transcript, no speaker labels; attribution follows the turn (the host asks about the role, she answers). The same answer continues 'so many things to serve and so many people to please' (cited in the Two section as C35).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C32",
+      "claim": "She described worry as a habit she works against: 'Being present and kind of being where your feet are, it's something I try to try really hard and fail at often frequently to live by... trusting yourself to have, you know, the tools and the ability to handle it when you're faced with it is, um, something I'm still really trying to do. And God knows that was something I did in that play' (of Appropriate, February 2025).",
+      "passage": "\"Being present and kind of being where your feet are, it's something I try to try really hard and fail at often frequently to live by. It's just like, you know, so much of what we worry about in life, so many of the things that we are so, so emotionally fraught about, you know, you can't handle until you're there. And I think trusting yourself to have, you know, the tools and the ability to handle it when you're faced with it is, um, something I'm still really trying to do. And God knows that was something I did in that play.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "This is the most specific self-description in the record and the strongest single support for the Six reading: anticipatory worry plus a stated, ongoing effort to trust her own capacity to cope. That is the Six's characteristic growth task. The speed-round lines repeat the theme in a joking register. It is unprompted in the sense that she extends the host's point about tragedy into a statement about herself.",
+      "alternative": "A single interview with a friend and acting teacher whose theme that day was presence ('In the Moment'); she may be echoing the host's framing. Nine also strives to be 'where your feet are' and could describe the same struggle as getting lost in others' agendas rather than in worry. The speed-round 'Everything. Ghosts.' is a joke riffing on the episode's ghosts theme. Auto-transcribed with Whisper; no speaker labels; attribution follows the conversational turn ('that play' is Appropriate, her show, not the host's). The draft quotes it with 'um' restored and the opening 'and, uh' dropped; the line follows the host's monologue about wasted worry, and 'that play' (Appropriate) and the host's reply 'I'm sorry I missed it' confirm the speaker.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C52",
+      "claim": "The worry/self-trust passage supports Six (growth task of trusting one's capacity to cope) and Nine (relief at having no room for self).",
+      "passage": "Read as a Six, that is the type's growth task in her own words: learning to trust that she can handle what she fears before it arrives. Read as a Nine, the telling detail comes first. The rush felt good because it left no room for her.",
+      "class": "interpretation",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "Both halves of the same answer (C51, C32) are set side by side so neither reading gets only the friendly half.",
+      "alternative": "May echo the host's theme of presence; a single conversation with a friend.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C15",
+      "claim": "She describes relief at not being the subject: 'It's a relief to come to work and remember you're being someone else' (Interview, 2025); in 2026 she told Town & Country she has 'a certain amount of discomfort about being a public person' and wants audiences 'thinking about the character and not me', while 'There is also joy in sharing your life with people.'",
+      "passage": "She keeps describing that relief. \"It's a relief to come to work and remember you're being someone else,\" she told Paulson. In 2026 she told Town & Country she has \"a certain amount of discomfort about being a public person\" and wants audiences \"thinking about the character and not me,\" while allowing, \"There is also joy in sharing your life with people.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S04",
+        "S20",
+        "S01"
+      ],
+      "inference": "Stable across 2024-2026 and three outlets. The weight on not being the subject counts against Three and supports Nine (self-forgetting) or Six (visibility as exposure). She allows that this may 'change and fluctuate with time', so it is a current position.",
+      "alternative": "She attributes the 'vessel' principle to her training ('What I grew up learning', S01), so it may be a learned craft ideology or family culture rather than temperament. Reticence can also be strategy for an actor whose name already draws attention. She keeps a public Instagram account and does extensive press.",
+      "durability": "unresolved",
+      "review_trigger": "Recheck after her next major press cycle (for example The Bell Jar release or awards season): has her stated comfort with public life changed?"
+    },
+    {
+      "id": "C14",
+      "claim": "She credits luck: 'I feel like the luckiest lady in the world' (Entertainment Tonight, September 12, 2026, audio re-checked); the same register appears on TODAY ('I can't believe my luck'), at Tribeca and in the 2025 podcast.",
+      "passage": "Credit runs the same way. \"I feel like the luckiest lady in the world,\" she told [Entertainment Tonight](https://www.youtube.com/watch?v=DdDLa9vctOA) before the premiere.",
+      "class": "observed",
+      "source_ids": [
+        "S08",
+        "S10",
+        "S07",
+        "S05"
+      ],
+      "inference": "The pattern appears in every 2026 interview, including unscripted carpet and morning-show settings, and she volunteers the deflection herself (S20). It argues against an image-first Three reading, which would more often own the result, and fits Nine (self-minimizing), Six (credit to the group and its leaders) and Two (attention on others). The 2025 podcast repeats the register outside a junket: 'I was so lucky. And I was so lucky' (S05, about 24:05-24:13), 'So I'm so lucky. I'm so lucky' (about 47:05).",
+      "alternative": "This is the expected register for a famous child in nepotism-conscious press and for any newcomer on a junket; publicists coach it. Effusive praise of co-stars ('She's the best', S13) is junket convention. The pattern shows how she presents, not necessarily what she believes.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C31",
+      "claim": "She told Meindl (February 2025) that she still feels disbelief 'about every project that I've ever done... there's a part of me that feels like, Oh my God, I can't believe they picked me.'",
+      "passage": "Of every project since, she told Meindl, \"there's a part of me that feels like, Oh my God, I can't believe they picked me.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S05",
+        "S08"
+      ],
+      "inference": "Consistent across an unhurried 52-minute conversation with a friend (S05, about 09:58-10:11 and 34:28-34:47) and a 2026 junket (S08). The expectation of rejection is a habit of mind she describes, not only a polite phrase. It fits Six (anticipating the bad outcome) and Nine (self-discounting) and argues against an achievement-confident Three.",
+      "alternative": "Surprise at being cast is universal among young actors and is the humble answer a famous child is expected to give. 'Every project' includes jobs she got after auditioning against many others, which makes the surprise plausible as sincere.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C53",
+      "claim": "Asked by Town & Country how she had changed, she said, 'I'll answer authentically even though I want to deflect.'",
+      "passage": "Asked by Town & Country how she had changed, she flagged the reflex first. \"I'll answer authentically even though I want to deflect,\" she said.",
+      "class": "self_report",
+      "source_ids": [
+        "S20"
+      ],
+      "inference": "She names her own deflection reflex, which argues against an image-first Three reading.",
+      "alternative": "Said 'with a laugh'; a light framing of an ordinary interview move.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C54",
+      "claim": "Her credit-deflection fits Nine's self-discounting and Six's expectation of the worse outcome, argues against Three, and is also the expected register for a famous child in nepotism-conscious press.",
+      "passage": "A Three tends to own the result. She hands it to luck and collaborators, and admits the urge to deflect. That fits a Nine's self-discounting and a Six's expectation of the worse outcome. It is also the expected register for a famous child in nepotism-conscious press.",
+      "class": "interpretation",
+      "source_ids": [
+        "S08",
+        "S05",
+        "S20"
+      ],
+      "inference": "Draws on C14, C31 and C53.",
+      "alternative": "Publicists coach this register; it shows presentation, not necessarily belief.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C16",
+      "claim": "She leans on a small circle: of Paulson, 'We call every 15 minutes' and Paulson is 'there for advice at any minute' (TODAY broadcast captions, September 2026); Tom Hollander came to her Feud dressing room privately to offer to run lines (Vogue, 2024); with her mother, 'once a day, debrief' (Drew Barrymore, September 2026, audio re-checked).",
+      "passage": "When pressure rises, she reaches for a small circle. \"We call every 15 minutes,\" she said of Paulson on [TODAY](https://www.youtube.com/watch?v=Q6n83ZQZX2w) in September 2026, a joke with a point. Paulson, she said, is \"there for advice at any minute.\" On _Feud_, Tom Hollander came to her dressing room privately to offer to run lines, and with her mother it's \"once a day, debrief,\" she told [Drew Barrymore](https://www.youtube.com/watch?v=GYkLldtGQ3s).",
+      "class": "self_report",
+      "source_ids": [
+        "S10",
+        "S01",
+        "S17"
+      ],
+      "inference": "Reliance on trusted, experienced people for advice and steadiness is repeated across 2024-2026 and fits the Six's search for reliable support; the speed and warmth of the attachments also fit Two and Nine. Her own stated function for the support system is to keep her grounded and stop her 'head' getting 'too big', which is a check on herself rather than a request for reassurance.",
+      "alternative": "'Every 15 minutes' is hyperbole. A 24-26-year-old new to New York theater with famous mentors would plausibly lean on them regardless of type, and several mentors approached her first (Paulson's dinner, Hollander's visit, S20, S01). This is relationship-forming, not proof of anxiety.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C34",
+      "claim": "She describes auditions as exposure and relies on peers to process them: 'auditioning can be so hard. It can be such a vulnerable, scary thing to do'; 'you don't really know, you know, if you're even kind of accepted in that room yet'; 'it just helps to be able to have a friend to call to be like, Oh my God, that audition was a nightmare. Or I don't know that went well. I don't know what to do with myself'; she credits acting school for giving her 'lots of friends of all ages' to lean on.",
+      "passage": "She has said what the circle is for, especially around auditions, where \"you don't really know, you know, if you're even kind of accepted in that room yet,\" as she told Meindl. Her remedy is \"a friend to call to be like, Oh my God, that audition was a nightmare.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "Acceptance and uncertainty are the terms she uses for audition fear, and peer support is her remedy. Together with C16 this shows a consistent strategy: manage uncertainty through trusted company. That is the Six pattern; it is also ordinary actor community talk.",
+      "alternative": "Responding to the host's story about a client; generic to the profession. In this stretch of the auto-transcript, a line about trying to 'be what you want... beautiful enough for you... interesting enough for you' may be hers or the host's; do not quote it without checking the audio.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C55",
+      "claim": "Reliance on mentors is ordinary at her age and situation, and several approached her first (Paulson's dinner after the Appropriate offer; Hollander's dressing-room visit).",
+      "passage": "Leaning on mentors is ordinary at 24 in a new city, and several of hers approached her first.",
+      "class": "interpretation",
+      "source_ids": [
+        "S18",
+        "S20",
+        "S01"
+      ],
+      "inference": "Counterweight to C16: the circle formed partly at others' initiative.",
+      "alternative": "Age 24 applies to 2024; she was 23 at the Feud shoot.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C19",
+      "claim": "Max Winkler told Town & Country: 'There's a wide-eyedness to Ella that can sometimes conceal how devastatingly perceptive she is... She is completely tuned into what everybody else in the room is doing.'",
+      "passage": "Winkler sees a version of this from the outside. \"There's a wide-eyedness to Ella that can sometimes conceal how devastatingly perceptive she is,\" he told Town & Country. \"She is completely tuned into what everybody else in the room is doing.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S20"
+      ],
+      "inference": "Two collaborators independently describe attention to others and the load she carried. Being 'tuned into what everybody else in the room is doing' is the trait each live type explains differently: Six as vigilance, Two as attunement to others' needs, Nine as merging with the room, Three as reading the audience.",
+      "alternative": "Interested party promoting the show; listening to scene partners is also a trained craft value (see C56).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C56",
+      "claim": "Winkler's observation fits each live type differently, and matches the craft rule she credits to her parents: 'What the other person is doing is always more interesting than what you can create' (TODAY, September 2026).",
+      "passage": "Each live type can claim that line: a Six scanning the room for safety, a Two for what people need, a Nine merging with it, a Three reading the audience. It is also the craft rule she says her parents taught her. \"What the other person is doing is always more interesting than what you can create,\" she said on TODAY.",
+      "class": "interpretation",
+      "source_ids": [
+        "S10",
+        "S20",
+        "S01"
+      ],
+      "inference": "The 'listen' rule is cited in 2024 (Vogue, via Gene Hackman and her father) and 2026 (TODAY broadcast captions), so attentiveness may be craft as much as temperament.",
+      "alternative": "The rule is her report of her parents' advice, not their words.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C57",
+      "claim": "Six case: across three years she volunteers fear followed by a plan running through preparation and trusted people, and in February 2025 named trusting herself to handle her worries as 'something I'm still really trying to do.'",
+      "passage": "The Six case is what she volunteers across three years and very different rooms: fear, then a plan that runs through preparation and people she trusts. In February 2025 she named the Six's central work, trusting herself to handle what she worries about, as \"something I'm still really trying to do.\"",
+      "class": "interpretation",
+      "source_ids": [
+        "S05",
+        "S12",
+        "S14",
+        "S13",
+        "S04",
+        "S10"
+      ],
+      "inference": "Summarizes C11, C12, C46, C33, C49, C16, C34 and C32.",
+      "alternative": "See C58, C13 and C50.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C58",
+      "claim": "Against Six: nearly all evidence is self-report in promotional settings, the two longest conversations were with friends, colleagues describe calm, and she shows none of the testing of authority often seen in Sixes.",
+      "passage": "Against it, nearly all of this is her own account in promotional settings, and the two longest conversations were with friends. Her colleagues describe calm. She also shows none of the testing of authority that often comes with Six.",
+      "class": "interpretation",
+      "source_ids": [
+        "S04",
+        "S05",
+        "S20",
+        "S19"
+      ],
+      "inference": "Mirrors type_hypothesis.against.",
+      "alternative": "Absence of testing behavior may reflect the promotional record rather than her.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C13",
+      "claim": "She attaches quickly ('we just kind of fell in love immediately', of Paulson on TODAY, September 2026) and defers to 'what was on the page' (Collider; press conference).",
+      "passage": "She attaches fast (\"we just kind of fell in love immediately,\" she said of Paulson on TODAY) and defers easily to \"what was on the page.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S10",
+        "S13",
+        "S14"
+      ],
+      "inference": "Quick trust and comfortable deference cut against the suspicious, testing side of Six and fit Nine; deference to an authority's structure is also compatible with Six. Used in the draft as evidence against Six.",
+      "alternative": "Junket etiquette favors praise of colleagues and creators; no account shows her disagreeing with a director.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C59",
+      "claim": "Nine case: credit to luck and others, relief at being someone else, wish to disappear into roles; her word for work going well is 'available' (Lizzie's sensibility 'felt really available right away', Entertainment Tonight); advice to her younger self, 'Take it a day at a time' (Meindl speed round).",
+      "passage": "The Nine case is how she presents: credit to luck and others, relief at being someone else, a wish to disappear into roles. Her word for work going well is \"available.\" Lizzie's sensibility \"felt really available right away,\" she told Entertainment Tonight. Her advice to her younger self, she told Meindl: \"Take it a day at a time.\"",
+      "class": "interpretation",
+      "source_ids": [
+        "S08",
+        "S05",
+        "S04",
+        "S20",
+        "S12"
+      ],
+      "inference": "Draws on C14, C15 and the 'available' vocabulary (also 'a lot more available on set', Variety, S12).",
+      "alternative": "'Available' is common actor shorthand; the speed round is off the cuff.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C60",
+      "claim": "Against Nine: she names fear and works on it ('I was kind of voracious after I got the part', No Intervals, September 2026, audio re-checked).",
+      "passage": "What strains it is that Nines tend to turn fear down, and she turns it up and goes to work on it. \"I was kind of voracious after I got the part,\" she told [No Intervals](https://www.youtube.com/watch?v=ZPPP5dTamkM).",
+      "class": "interpretation",
+      "source_ids": [
+        "S16",
+        "S12",
+        "S04"
+      ],
+      "inference": "A Nine reading predicts less named fear and less effort spent securing the ground.",
+      "alternative": "Energetic research for a career-making role is common to all types.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C24",
+      "claim": "Asked by Paulson in 2025 whether she always wanted to be an actor, she said 'Always, always.'",
+      "passage": "Her ambition is old and plain. Asked by Paulson whether she had always wanted to act, she said, \"Always, always.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S04",
+        "S02"
+      ],
+      "inference": "An old, unambiguous ambition strains the Nine reading's self-forgetting.",
+      "alternative": "Nearly every actor says this; banter with a friend.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C35",
+      "claim": "Two case: fast attachments, unstinting praise for collaborators, her job on Monster 'to love and advocate for the person' (Gayety, September 2026), and her imagined alternative of 'teaching theater to really little ones' (Meindl speed round); against it, she is mostly the one looked after and no account shows her giving care or resenting that it goes unnoticed.",
+      "passage": "The Two case is the warmth: fast attachments, unstinting praise for collaborators, and a job on _Monster_ she described to [Gayety](https://www.youtube.com/watch?v=Kwtu_M-LkBQ) as \"to love and advocate for the person.\" If she weren't acting, she told Meindl, she would be \"teaching theater to really little ones.\" Against it, in this record she is mostly the one being looked after, and no account shows her giving care or resenting that it goes unnoticed.",
+      "class": "self_report",
+      "source_ids": [
+        "S15",
+        "S05",
+        "S06",
+        "S13",
+        "S20",
+        "S01"
+      ],
+      "inference": "Her imagined alternative life is in service and connection with children; her stated pleasure in acting is connection with scene partners. This is the main Two-leaning material and also fits Nine's love of shared play.",
+      "alternative": "Speed-round answers are off the cuff; teaching is a common actor's alternative.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C25",
+      "claim": "Three case: the fast start, 'Exceptionally poised', the nepotism question handled unprompted, the hope that her work will 'make me separate'; against it, admitted deflection, discomfort with being public, and a self-improvement goal that is moral rather than professional: 'I hope I'm becoming someone who, over time, becomes more conscientious and thoughtful' (Town & Country).",
+      "passage": "The Three case is the polish: the fast start, \"Exceptionally poised,\" the nepotism question handled before anyone asks, the hope that her work will \"make me separate.\" Against it are the deflection she admits, her discomfort with being public, and a goal that is moral rather than professional: \"I hope I'm becoming someone who, over time, becomes more conscientious and thoughtful.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S20",
+        "S01",
+        "S04"
+      ],
+      "inference": "The goal she names for herself (more conscientious and thoughtful) is moral and relational rather than professional. It fits Six and One; it does not fit an achievement-first Three answer.",
+      "alternative": "Single source; an answer to a profile writer's question, given with a laugh.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C20",
+      "claim": "Types 1 and 4 set aside: One fits her earnestness ('I am not a good liar', Interview 2025) but nothing shows an inner critic aimed at standards; Four fits her sensitivity but she says she feels 'just like a very normal lady' (Town & Country 2026).",
+      "passage": "Types 1 and 4 were tested and set aside. One fits her earnestness (\"I am not a good liar,\" she told Paulson), but nothing shows an inner critic aimed at standards. Four fits her sensitivity, but she says she feels \"just like a very normal lady.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S04",
+        "S20",
+        "S19",
+        "S11"
+      ],
+      "inference": "Neither type has a sourced discriminator in its favor; both remain far behind the live four.",
+      "alternative": "Self-reported sincerity in promotional settings is not independent evidence of sincerity.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C61",
+      "claim": "The live readings would diverge under pressure (criticism, conflict), and the record contains no such episode.",
+      "passage": "These reads part ways under pressure, and the record hasn't caught her there yet. Five things would.",
+      "class": "interpretation",
+      "source_ids": [
+        "S04",
+        "S05",
+        "S20"
+      ],
+      "inference": "Mirrors type_hypothesis.discriminator and open_case.settle_signals.",
+      "alternative": "Some private pressure episodes may exist off the record.",
+      "durability": "unresolved",
+      "review_trigger": "Revisit when she faces sustained public criticism or describes a disagreement on record."
+    },
+    {
+      "id": "C62",
+      "claim": "No on-record account by her of a creative disagreement was found in the opened sources as of October 18, 2026.",
+      "passage": "As of October 18, 2026, no account of one from her had been found.",
+      "class": "observed",
+      "source_ids": [
+        "S04",
+        "S05",
+        "S20",
+        "S01",
+        "S13"
+      ],
+      "inference": "Absence finding from the research stage across all opened first-person sources (S01-S20).",
+      "alternative": "Unopened sources (S26, S27) could contain one; the absence claim is limited to opened sources.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck after each new long-form interview; remove if an account appears."
+    },
+    {
+      "id": "C63",
+      "claim": "CBS's press page says Golden Globe nominations will be announced in December ('Monday, Dec. 8') and the 84th ceremony airs Sunday, January 10, 2027; The Bell Jar had no announced release date as of October 18, 2026.",
+      "passage": "Golden Globe nominations are due in early December 2026, ahead of a January 10, 2027 ceremony, according to [CBS](https://www.paramountpressexpress.com/cbs-entertainment/shows/84th-annual-golden-globes/about/), and _The Bell Jar_ has no release date yet.",
+      "class": "third_party",
+      "source_ids": [
+        "S29",
+        "S20",
+        "S21"
+      ],
+      "inference": "Dated catalysts for reopening the case (open_case.next_review 2026-12-15).",
+      "alternative": "The CBS page's 'Monday, Dec. 8' conflicts with the 2026 calendar (December 8, 2026 is a Tuesday) and one calendar site lists December 7, so the draft says 'early December'.",
+      "durability": "time_sensitive",
+      "review_trigger": "Update after the nominations are announced and when The Bell Jar gets a release date."
+    },
+    {
+      "id": "C26",
+      "claim": "When Town & Country noted that in one year she played a daughter dragged from acting by her parents (Act One) and one who kills hers (Monster), she said with a chuckle: 'What is the universe saying? I don't know... I'm going to be examining that.'",
+      "passage": "And when Town & Country pointed out that in one year she played a daughter dragged away from acting by her parents and a daughter who kills hers, she didn't offer a theory. \"What is the universe saying? I don't know,\" she said with a chuckle. \"I'm going to be examining that.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S20"
+      ],
+      "inference": "She treats the irony as a question rather than a confession. The draft does not read either role into her family.",
+      "alternative": "Only her side is on record. Do not read the roles into her family life; the queue note for this subject says explicitly not to read Lizzie Borden into her.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C64",
+      "claim": "She arrived early for the Vogue interview at the Carlyle (2024) and came in off book for the Appropriate put-in teched at the Belasco (2024).",
+      "passage": "She was early to the Carlyle and off book for the Belasco.",
+      "class": "observed",
+      "source_ids": [
+        "S01",
+        "S05"
+      ],
+      "inference": "Callback to C09 and C33.",
+      "alternative": "Both are single episodes, one reported by a writer and one by her.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C65",
+      "claim": "Description: she was 'over the moon and also really scared' on landing Lizzie Borden.",
+      "passage": "Ella Beatty was 'over the moon and also really scared' to land Lizzie Borden.",
+      "class": "self_report",
+      "source_ids": [
+        "S12"
+      ],
+      "inference": "Metadata quotation from Variety (C11).",
+      "alternative": "None beyond C11.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C66",
+      "claim": "Title: she plays Lizzie Borden in a Netflix series; the profile is an open case with a leading read of Type 6.",
+      "passage": "Ella Beatty, Netflix's Lizzie Borden: An Open Case, Leading Read Enneagram Type 6",
+      "class": "interpretation",
+      "source_ids": [
+        "S11",
+        "S21"
+      ],
+      "inference": "Open-case language as required; mirrors C41.",
+      "alternative": "See C41.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C67",
+      "claim": "Persona title drawn from her own phrases 'came in off book' (S05) and 'show up off-book' (S20).",
+      "passage": "The Newcomer Who Comes In Off Book",
+      "class": "interpretation",
+      "source_ids": [
+        "S05",
+        "S20"
+      ],
+      "inference": "Describes a repeated behavior, not a type.",
+      "alternative": "Two statements, both her own.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C68",
+      "claim": "FAQ: Type 9 is the main alternative; she credits luck and others, calls being someone else 'a relief', and wants audiences 'thinking about the character and not me'; what strains it is her named fear and effort.",
+      "passage": "Yes. Type 9 is the main alternative to the leading read. She credits luck and other people for her success, has called it 'a relief to come to work and remember you're being someone else,' and wants audiences 'thinking about the character and not me.' What strains the Nine reading is how readily she names fear and how hard she works to get ahead of it.",
+      "class": "interpretation",
+      "source_ids": [
+        "S04",
+        "S20",
+        "S08",
+        "S16"
+      ],
+      "inference": "Mirrors the Nine section (C59, C60).",
+      "alternative": "See C59, C60.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C69",
+      "claim": "FAQ: the five settle signals as of October 18, 2026.",
+      "passage": "As of October 18, 2026, five things: how she handles her first sustained criticism; her first on-record account of a creative disagreement; whether awards season and The Bell Jar move her from crediting luck to owning the work; whom she chooses to work with next; and testimony from someone who knew her before 2024.",
+      "class": "interpretation",
+      "source_ids": [
+        "S04",
+        "S05",
+        "S20",
+        "S29"
+      ],
+      "inference": "Mirrors open_case.settle_signals.",
+      "alternative": "See C61.",
+      "durability": "time_sensitive",
+      "review_trigger": "Update when any signal occurs or at the 2026-12-15 review."
+    },
+    {
+      "id": "C70",
+      "claim": "FAQ: she won the Lizzie Borden role through a self-taped audition; Winkler says Canfield sent seven tapes and Murphy picked hers without being told; she had worked with Murphy on Feud.",
+      "passage": "Through a self-taped audition. Director and executive producer Max Winkler told ScreenRant in September 2026 that casting director Tiffany Little Canfield sent seven tapes, and that Ryan Murphy picked out hers without being told which one Winkler liked. She had worked with Murphy before, on Feud: Capote vs. The Swans.",
+      "class": "third_party",
+      "source_ids": [
+        "S19",
+        "S20",
+        "S21"
+      ],
+      "inference": "Mirrors C05.",
+      "alternative": "Interested testimony; see C05.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C71",
+      "claim": "FAQ: youngest of four children of Annette Bening and Warren Beatty; Shirley MacLaine is her aunt; she calls her parents 'very normal and loving and present' and hopes her work will 'be enough to make me separate'.",
+      "passage": "She is the youngest of four children of the actors Annette Bening and Warren Beatty, and Shirley MacLaine is her aunt. She describes her parents as 'very normal and loving and present,' and has said she hopes her work will 'be enough to make me separate.'",
+      "class": "third_party",
+      "source_ids": [
+        "S20",
+        "S21",
+        "S18",
+        "S04"
+      ],
+      "inference": "Aunt from her own words on Drew Barrymore ('Shirley MacLaine is my incredible aunt', S18); parents quote from Town & Country (S20).",
+      "alternative": "Her account of her parents is the only one on record; do not name or describe her siblings.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C72",
+      "claim": "FAQ: born in Los Angeles on April 8, 2000 per Wikipedia and Biography.com; 26 as of October 2026.",
+      "passage": "She was born in Los Angeles on April 8, 2000, according to Wikipedia and Biography.com, so she is 26 as of October 2026.",
+      "class": "third_party",
+      "source_ids": [
+        "S21",
+        "S22",
+        "S20"
+      ],
+      "inference": "Reference sources agree; Town & Country calls her 26 in September 2026.",
+      "alternative": "No first-person statement of the full date; attributed in the answer.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C73",
+      "claim": "birth_date metadata: 2000-04-08.",
+      "passage": "2000-04-08",
+      "class": "third_party",
+      "source_ids": [
+        "S21",
+        "S22"
+      ],
+      "inference": "As C72.",
+      "alternative": "As C72.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C74",
+      "claim": "Vogue's Elise Taylor wrote, 'Ella Beatty beats me to the Carlyle,' describing the February 2024 interview.",
+      "passage": "Ella Beatty beat the reporter to the Carlyle.",
+      "class": "observed",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "The article's own opening line, reported by the writer; detailed in C09.",
+      "alternative": "A single occasion; see C09.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C75",
+      "claim": "In the June 2025 Interview conversation, Paulson asked whether at Juilliard she ever thought 'I shouldn't have my last name?' and Beatty answered 'No.'",
+      "passage": "She has never pretended the name is irrelevant. In a June 2025 conversation for [Interview](https://www.interviewmagazine.com/theater/meet-ella-beatty-daughter-of-hollywood-royalty-and-sarah-paulsons-kindred-spirit), Paulson asked whether she had ever thought she shouldn't use her last name. Beatty said no.",
+      "class": "self_report",
+      "source_ids": [
+        "S04",
+        "S01"
+      ],
+      "inference": "Sets up C08; consistent with her raising the question herself in 2024 (C07).",
+      "alternative": "Interviewer is her close friend.",
+      "durability": "stable",
+      "review_trigger": ""
+    }
+  ],
+  "type_hypothesis": {
+    "type": 6,
+    "confidence": "low",
+    "for_claim_ids": [
+      "C32",
+      "C12",
+      "C11",
+      "C33",
+      "C16",
+      "C34",
+      "C31",
+      "C08",
+      "C10",
+      "C09",
+      "C25",
+      "C44",
+      "C46",
+      "C47",
+      "C49"
+    ],
+    "against": "(1) The people who work with her describe composure, not anxiety: Sarah Paulson's 'self-possessed' and 'unnervingly, dazzlingly self-assured... very open, clear, and confident' (C18), Hugh Jackman's 'fearless' (C10), Max Winkler's calm 'wide-eyedness' (C19). (2) There is no sign of the questioning, testing or suspicion of authority that usually accompanies Six; she trusts quickly ('fell in love immediately' with Paulson, Graynor and Krieps, C06, C16) and defers comfortably to the script and creators (C13). (3) Her relief at 'being someone else' and wish to 'disappear into roles' (C15) fit Nine's self-forgetting at least as well as Six's caution. (4) Every worry statement is self-report, and the two longest interviews are with personal friends (Paulson, S04; the acting teacher Anthony Meindl, S05); stage fright, audition dread and over-preparation are ordinary for any young actor. (5) Nepotism scrutiny supplies a non-type reason for her humility, preparation and pre-emptive acknowledgment of privilege (C07, C10, C14). (6) She also says 'I didn't have a lot of time to be scared' (S04) and enjoys being thrown in (C33), and in February 2025 she described the Ghosts rehearsal phase where 'everything feels bad' without alarm (S05). (7) The entire record is February 2024 to October 2026, almost all of it promotional.",
+    "alternative_type": 9,
+    "alternative_case": "Type 9 explains much of how she presents: credit always goes to luck and to others (C14, C31); she prefers to be 'a vessel for a character' and finds it 'a relief to come to work and remember you're being someone else' (C15); she merges warmly with collaborators and praises them without reserve (C13, C16, C19); friends see an unruffled, 'least Hollywood' calm (C18); her vocabulary for good work is that it felt 'available', 'easy' and 'fun and easy' (S08, S13, S19); she defers to 'what was on the page' (C13); she recoils from violence and others' pain (S11, S19); she values 'being where your feet are' and would tell her younger self to 'take it a day at a time' (C32). What strains the Nine reading: she names fear readily and repeatedly ('really scared', 'How am I going to do this?', 'really nervous', 'Everything', C11, C12, C32); she answers it with 'voracious' effort and preparation (C12, C33); she says she is 'Not patient by nature' (S15); she seeks frequent advice from a small circle (C16); and her ambition is old and unambiguous ('Always, always', C24, S04). Type 2 is live: relational intensity and quick attachments (C06, C16), unstinting praise, 'so many people to please' in Appropriate (S05), 'my job as the actress was to love and advocate for the person' (S15), her mother's 'Be kind' rule (C09), an imagined alternative life teaching small children (C35), and Winkler's 'completely tuned into what everybody else in the room is doing' (C19); against it, in the record she is mostly the one receiving care and mentorship (Paulson's dinner, Hollander's visit, Graynor), with no account of her helping others or of pride or resentment around giving, and she is uneasy being seen in public (C15). Type 3 is live: an unusually fast, efficient start (C03); polish ('Exceptionally poised', S01); unprompted management of the nepotism question (C07); 'work extremely hard and show up off-book' (C10); and the hope that her work will 'make me separate' (C07); against it, the reflexive credit deflection she herself names ('I want to deflect', C14), discomfort with the public persona and the wish that audiences forget her (C15), and a self-improvement goal that is moral rather than professional ('more conscientious and thoughtful', C25). Types 1 and 4 were tested and set aside for now: One fits the punctuality, earnestness and conscientiousness (C09, C20, C25) but nothing shows an inner critic aimed at standards or irritation with others' errors; Four fits the sensitivity, imagination and being-seen vocabulary (S11, S19, S06, C24) but she rarely frames herself as different and calls herself 'a very normal lady' (C15).",
+    "discriminator": "None that is defensible yet. The best candidate separates Six from Nine: what she does with fear. Across three years and several settings she names anticipatory fear readily (Monster: 'over the moon and also really scared', 'How am I going to do this?'; Sexual Misconduct: 'I get really nervous' between performances; Appropriate: 'so new and scary') and answers it by securing the ground: researching until 'I couldn't be stopped if I had a WiFi connection', starting work before pre-production because it 'can help you feel like you're starting', arriving off book 'so that would never be an issue', taking the director's diary home, calling trusted people, and drawing her freedom from an authority's assurance (C12, C16, C33). In February 2025 she named trusting herself 'to have the tools and the ability to handle it' as something she is 'still really trying to do' (C32), which is the Six's characteristic growth task; a Nine reading predicts less named fear and more settling into the group's flow. But every instance is self-report, the two longest interviews are with friends, and the worries are the ordinary worries of a young actor; the people who work with her describe composure instead (C18, C19). Nothing on record shows her in a conflict, under sustained public criticism, or making a costly choice against the advice of the people she trusts, which is where Six and Nine (and Two and Three) would behave differently. On this record the Six read cannot be held above low confidence, so the profile is an open case.",
+    "unexplained": "The gap between her inner report (nervous, scared of 'everything', shy among glamorous people) and the composure everyone around her describes ('unnervingly, dazzlingly self-assured'). Why someone so relational and so warm with collaborators finds it 'a relief' to be someone else at work and has 'a certain amount of discomfort about being a public person'. Whether forgoing child acting was her choice or her parents' rule. How much the family name opened doors that her auditions then closed, which the record cannot measure. Why she took two 2026 roles about daughters and parents (Act One, Monster); she says she will be 'examining that'. How she behaves in a disagreement, under bad reviews, or when the people she trusts disagree with her: no account exists. What she wants for herself beyond 'meaningful work' and 'people that are really curious about the world'."
+  },
+  "profile_format": "open_case",
+  "open_case": {
+    "reason": "Ella Beatty is 26 and under three years into public life: her first professional screen role aired in January 2024, her Broadway debut came that March, and her first lead (Monster: The Lizzie Borden Story) premiered on September 17, 2026. The record is a sequence of promotional cycles (Feud and Appropriate in 2024; Ghosts and Sexual Misconduct of the Middle Classes in 2025; Act One and Monster in 2026). It holds one long reported profile (Town & Country, September 2026), one 52-minute podcast with a friend who is an acting teacher, a Zoom conversation with Sarah Paulson, and about a dozen 3-to-12-minute junket, carpet and talk-show interviews. Third-party testimony comes only from collaborators and close friends (Paulson, Max Winkler, Hugh Jackman, Charlie Hunnam), all interested; no one who knew her before 2024 has spoken on record, and her parents speak about parenting in general rather than about her. Twenty-four sources were opened (four could not be) and five types tested. The leading read (Six) and its rivals disagree about what her fear, deference and warmth are for, and nothing yet shows her in a conflict, under sustained criticism, or deciding against the people she trusts.",
+    "live_alternatives": [
+      9,
+      2,
+      3
+    ],
+    "settle_signals": [
+      "The first time she faces sustained public criticism (a badly reviewed project, or a piece that argues her career was handed to her): does she talk about doubting herself, leaning on the people she trusts and preparing harder (Six); shrug it off and keep things smooth without engaging (Nine); focus on how collaborators or audiences were affected (Two); or defend the work and point to results (Three)?",
+      "Her first on-record account of a creative disagreement with a director, writer or co-star (none exists as of October 18, 2026): does she describe testing whether she could trust the person before committing (Six), going along until it felt 'available' (Nine), protecting the relationship above the outcome (Two), or doing whatever made the performance land best (Three)?",
+      "Awards-season and The Bell Jar press (Golden Globe nominations are due in December 2026; The Bell Jar has wrapped with no release date): does her register stay on luck and gratitude (Nine or Six) or shift toward owning the work (Three), and do nerves and self-trust remain her theme when she is no longer new (Six)?",
+      "Her next two or three choices of project: does she return to trusted collaborators and familiar circles, such as Ryan Murphy's company or Sarah Paulson (Six); drift toward whatever comes, with no visible plan (Nine); choose projects for the people involved and the chance to support them (Two); or make a deliberate climb toward bigger and more visible leads (Three)?",
+      "The first on-record testimony from someone who knew her before 2024 (a Juilliard classmate or teacher, a Buckley schoolmate, a summer-camp director) describing her under pressure or in a disagreement: do they recall worry and preparation, calm accommodation, caretaking, or drive?"
+    ],
+    "next_review": "2026-12-15"
+  }
+}

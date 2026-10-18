@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "fan",
+  "content_sha256": "958497076648843496b347d182e1922c90a1875acafb202d9ee7d1fa4bdc89b1",
+  "evidence_sha256": "6f6f72fd05658ddc3d1ea088ee4ae5b6a66cf41c4fa860cc2690732003c0a50c",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "fan-01",
+      "severity": "major",
+      "passage": "At the same press conference, asked how they had prepared, Rebecca Hall said, \"I did absolutely nothing.\" Charlie Hunnam had spent a couple of days reading. Beatty described a book, a movement coach and work before pre-production. The difference was hers, not the job's.",
+      "problem": "This contrast distorts the press conference (S14, opened in the saved Showbiz Junkies text). Hall's line goes on: \"Not a shred of research whatsoever... I wanted to make her my own invention,\" which makes it a stated artistic choice for Abby, not a lack of diligence. Hunnam limits his reading to \"whatever limited information was on the internet about Andrew.\" Beatty plays the title role, and Lizzie Borden is one of the most documented cases in American crime. In that same answer Beatty herself says she \"worked a little bit with the movement coach\" and that \"what was on the page felt most important to me,\" which is the same page-first line Hall and Hunnam take. So the jobs did differ (lead versus supporting, a vast record versus a thin one), and the room does not show that \"the difference was hers.\" The type record leans on this: C47 is in for_claim_ids, and C12's inference calls the Hall contrast the behavior that best separates Six from Nine.",
+      "acceptance_test": "The sentence \"The difference was hers, not the job's\" and any equivalent claim are gone. If the contrast stays, it gives Hall's reason (her own invention), Hunnam's limit (little information on Andrew), Beatty's own modest same-room wording (\"a little bit with the movement coach\", \"what was on the page\") and the fact that she was the title lead. The Six case rests on her own repeated accounts (the Collider podcasts line, coming in off book, the diary book), not on a comparison with co-stars. C47 is reclassified or removed from type_hypothesis.for_claim_ids, and C12's inference no longer cites the Hall contrast as proof that the preparation was her choice and not the role's demand."
+    },
+    {
+      "id": "fan-02",
+      "severity": "major",
+      "passage": "\"Part of what was so great about it is that I didn't have time to worry about it,\" she said. \"I didn't really have time to get self-conscious or, um, you know, self-involved about it.\"",
+      "problem": "Both versions of the Appropriate takeover quote stop just before the half that bears on the alternatives. In the Meindl audio (S05, about 30:17-30:36; clip_b) the sentence goes on: \"I had so much to do and so many things to serve and so many people to please that, um, you know, I didn't have time to worry about it too much.\" In Interview (S04) the answer that ends \"I didn't have a lot of time to be scared because I got the job and then we started\" opens: \"The pressure that I felt had to do with the responsibility to honor what the other actors are doing. You don't want to leave people in the lurch. You want to show up and support people.\" The draft quotes the no-time-to-worry halves and drops both other-directed explanations. Then the Two section says \"no account shows her giving care.\" The Nine section misses the same material (serving others leaves no room for the self). For an open case this makes the Two alternative look more token than the record allows.",
+      "acceptance_test": "At least one of the dropped continuations (\"so many things to serve and so many people to please\" or \"You don't want to leave people in the lurch. You want to show up and support people\") is quoted in context, with its speaker confirmed, beside the half already used. The Two section's \"Against it\" no longer implies the record has no other-directed motive. It may still say that no account shows her giving care, but it must deal with her own stated aim of supporting people. The Six and Nine readings of the passage account for the restored half. The evidence claims C51 and C50 (or new IDs) carry the restored passages exactly."
+    },
+    {
+      "id": "fan-03",
+      "severity": "major",
+      "passage": "1. **Her first real criticism.** A badly reviewed project, or a piece arguing her career was handed to her.",
+      "problem": "The draft only gives Monster's success: 14.5 million views and No. 1 on Netflix. An informed reader knows the season was badly reviewed. PureWow (Danielle Long, September 22, 2026, opened for this review) headlined \"Netflix's #2 Series Is Getting Rough Reviews\" and reported a 42% Rotten Tomatoes critics score and a 35% audience score. The evidence record notes about 42-50% in early reports (S23 context, unopened). TheWrap's own sentence (S23) calls the anthology \"controversial.\" Search results suggest critics singled out Beatty's performance for praise (Seat42f, Autostraddle, TechLoy, a JoBlo roundup), but those reviews were not opened here. So 'a badly reviewed project' is not something still ahead: her first lead already is one. The real open signal is criticism aimed at her or at how she was cast, and whether she has been asked about the reviews is unknown.",
+      "acceptance_test": "The orientation or the settle section carries one dated, sourced sentence on Monster's critical reception (at least one opened review or aggregator with its date, e.g. \"drew mixed-to-poor reviews in September 2026\"). If opened reviews support it, it adds how critics treated her performance specifically. Settle signal 1 is reworded so it is not already met: criticism aimed at her performance or her casting, or her on-record response to the season's reviews. The FAQ 'What would settle' answer and open_case.settle_signals[0] match the new wording, and any new claim has a source and claim ID."
+    },
+    {
+      "id": "fan-04",
+      "severity": "minor",
+      "passage": "She is the youngest of four children of Annette Bening and Warren Beatty, raised in Los Angeles. She trained at Juilliard from 2018 to 2022 and, as she told Paulson, \"didn't work professionally at all until I graduated from acting school.\"",
+      "problem": "The only formative context is a birth order and a city. The opened record has more that bears on the type question. Town & Country (S20) reports Buckley and childhood plays at summer camp and community theater (Snoopy, Sandy in Annie). S03 (about 01:46-03:09) adds Miss Hannigan, Simba and Ursula. S03 (about 05:28-06:20) has her saying \"seeing a parent in pain or struggling on screen used to be really hard for me as a kid.\" Most revealing, T&C quotes her on her parents: \"I really care what they think and feel, and I think they have an awareness of that and they're good at staying out of it.\" That line is a first-person statement about whose approval matters. It is exactly where Six (authority), Two (relationship) and Three (approval of the work) would differ, and it is missing from 'The name, and the tapes.' Without the childhood stage record, \"Always, always\" in the Nine section also stands without evidence.",
+      "acceptance_test": "One or two sourced sentences give her childhood amateur stage work (T&C and/or S03, captions checked against audio if quoted). The \"I really care what they think and feel\" line appears in context, with its source, in the name/inheritance section or the type comparison, and it is weighed in no more than a clause, without inventing a childhood wound. The open-case length limit is kept by cutting elsewhere; the draft log already lists cut candidates (C47, C55, C20, C44)."
+    },
+    {
+      "id": "fan-05",
+      "severity": "minor",
+      "passage": "Since January 2024 she has gone from FX's _Feud: Capote vs. The Swans_ to Broadway, replacing Elle Fanning in _Appropriate_, then to the stage opposite [Hugh Jackman](/personality-analysis/hugh-jackman) and the lead in the film _Act One_.",
+      "problem": "The career summary leaves out two credits a fan would expect. One is her 2025 Lincoln Center Theater role as Regina Engstrand in Ibsen's Ghosts, opposite Billy Crudup and Lily Rabe (S09, S21). The other is her film debut in A24's If I Had Legs I'd Kick You (Sundance 2025), which Collider (S13) calls \"Oscar-nominated\" (S21 lists the role as Kate). Ghosts then turns up later with no introduction (\"Talking to Meindl during _Ghosts_ rehearsals\"). Also, the play opposite Jackman is not named here, and the article never says it is a two-hander (Interview, S04), which is what gives that stage work its pressure.",
+      "acceptance_test": "The orientation sentence (or a short clause) names Ghosts (2025, Lincoln Center Theater) and If I Had Legs I'd Kick You (2025), each with a source, before Ghosts is first mentioned in the body. It does not imply that Act One was her first film. The sentence stays within the open-case length budget."
+    },
+    {
+      "id": "fan-06",
+      "severity": "minor",
+      "passage": "And when Town & Country pointed out that in one year she played a daughter dragged away from acting by her parents and a daughter who kills hers, she didn't offer a theory.",
+      "problem": "This is T&C's framing (\"plays a character who literally kills her parents,\" S20) restated in the author's voice, and it gets the best-known facts of the case wrong. Abby Borden was Lizzie's stepmother. Lizzie was tried and acquitted in 1893, as Tudum (S11) and Collider (S13) both note. Beatty herself calls it \"a very disputed case\" (S11), and Ian Brennan says the series decided \"she did this\" (S14). The article never says Lizzie was acquitted or that guilt is the show's interpretation, so a Borden-literate reader meets an apparent assertion of historical guilt in the closing image.",
+      "acceptance_test": "The closing says Lizzie kills her father and stepmother in the series, or keeps T&C's wording as a clearly attributed quotation. Somewhere the article notes in one clause that Lizzie Borden was tried and acquitted in 1893 and that the series chooses a version, sourced to S11, S13 or S14. The \"What is the universe saying?\" quote stays as it is."
+    },
+    {
+      "id": "fan-07",
+      "severity": "minor",
+      "passage": "It is also what a publicist would tell any famous child debuting in the 2024 \"nepo baby\" moment, so it shows media sense more than motive.",
+      "problem": "The 'nepo baby' backlash peaked in late 2022, with New York magazine's December 2022 'Year of the Nepo Baby' cover, and ran through 2023. \"The 2024 'nepo baby' moment\" misdates a well-known cultural event, and the draft gives no source for it. The point being made (that her answer is standard media training) still holds without the date.",
+      "acceptance_test": "Either the year is removed (e.g. \"debuting after the 'nepo baby' backlash\"), or the sentence dates the backlash to 2022-23 with a source, and claim C43 is updated to match."
+    },
+    {
+      "id": "fan-08",
+      "severity": "minor",
+      "passage": "In a June 2025 conversation for [Interview](https://www.interviewmagazine.com/theater/meet-ella-beatty-daughter-of-hollywood-royalty-and-sarah-paulsons-kindred-spirit), Paulson asked whether she had ever thought she shouldn't use her last name.",
+      "problem": "Interview published the piece on June 5, 2025, and its introduction says Paulson spoke to Beatty \"on a Zoom last month,\" so the conversation took place in May 2025 (the S04 context also says May 2025). Calling it a \"June 2025 conversation\" misdates it. This matters slightly for the 'nights off' passage too, which describes the Sexual Misconduct run in rep as of May 2025.",
+      "acceptance_test": "The sentence says the conversation was published by Interview in June 2025 (or recorded in May 2025), and claim C75 matches that wording exactly."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Ella Beatty beat the reporter to the Carlyle.",
+      "reason": "A specific, sourced opening (Vogue, February 2024) that sets up the article's real puzzle, composure outside and fear inside, without overclaiming. The closing pays it off."
+    },
+    {
+      "passage": "First she removed the risk she could control. Then she took permission from the person in charge. Then she brought herself.",
+      "reason": "The most distinctive analytic move in the piece. It is drawn from her own account of the Appropriate takeover and is specific to her rather than reusable type boilerplate."
+    },
+    {
+      "passage": "Both men are selling the show, and she had already worked for Murphy on _Feud_, so no one can measure what the name did before the tape. The accounts agree that a tape was required.",
+      "reason": "Handles the nepotism question the way an informed fan would want: it neither flatters nor sneers, says what the record can and cannot measure, and names the witnesses' interest."
+    },
+    {
+      "passage": "Each live type can claim that line: a Six scanning the room for safety, a Two for what people need, a Nine merging with it, a Three reading the audience.",
+      "reason": "Honest open-case reasoning. It shows the reader why a vivid testimonial does not discriminate between the types instead of quietly recruiting it for the leading read."
+    },
+    {
+      "passage": "\"What is the universe saying? I don't know,\" she said with a chuckle. \"I'm going to be examining that.\"",
+      "reason": "A memorable, verified ending that leaves the contradiction unresolved rather than reading the roles into her family. Fix only the framing sentence before it (see fan-06)."
+    }
+  ],
+  "assessment": "Fan-proxy read: the draft is fair to the famous-family question and avoids the TMZ and Page Six material entirely, as the sensitivity rules require. Its quotations from the Interview, Meindl, Showbiz Junkies and Town & Country texts match the saved sources wherever I checked them. The consequential problems are context, not invention. A same-room comparison that ignores the different jobs props up the Six case (fan-01). Two quotes are cut just before their other-directed halves, which weakens the Two and Nine alternatives (fan-02). The required settle section treats a badly reviewed project as still ahead when her first lead got rough reviews (fan-03). Smaller gaps: formative childhood stage work and her line about caring what her parents think, the missing Ghosts and If I Had Legs credits, the Borden acquittal and stepmother, the misdated 'nepo baby' moment, and the Interview date. Open-case eligibility holds: she is 26, her first professional role was in January 2024 and her first lead in September 2026, the record is promotional cycles plus friendly testimony, and research opened 24 sources, including a 52-minute podcast. The title, description and FAQs use leading-read language. Similarity: the tripped pair with grace-reiter is triad orientation vocabulary ('whose core emotion is fear'), which is ordinary and also the house convention, and the Beatty argument is otherwise built from her own details. One editor's note, not a finding: the thesis sentence 'answers it with preparation and trusted people' closely echoes the 2026-10-16 Grace Reiter page's 'steadies herself with preparation and trusted people', so a Beatty-specific phrasing (securing the ground before she brings herself) would read less templated. Optional nuance from T&C: Max Winkler, who vouches for the self-tape, is himself Henry Winkler's son. Limits: the reviews praising her performance were found through search and not opened; the S05 speaker attribution follows the transcript turns and was not confirmed by listening."
+}

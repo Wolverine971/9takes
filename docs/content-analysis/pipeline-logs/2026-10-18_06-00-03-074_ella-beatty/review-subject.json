@@ -1,0 +1,100 @@
+{
+  "schema_version": 3,
+  "role": "subject",
+  "content_sha256": "958497076648843496b347d182e1922c90a1875acafb202d9ee7d1fa4bdc89b1",
+  "evidence_sha256": "6f6f72fd05658ddc3d1ea088ee4ae5b6a66cf41c4fa860cc2690732003c0a50c",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "subject-F1",
+      "severity": "major",
+      "passage": "Fear is the emotion Beatty names most. That is why Six leads, and why it can't lead by much: fear is also the ordinary weather of an actor in her first lead.",
+      "problem": "This is the article's stated reason Six leads, and as a statement about the record it is unsupported. I ran a rough keyword count over the 17 interview texts the research stage saved (all speakers, so approximate). It finds about 164 words of excitement, love, luck, fun and joy against about 39 of fear, nerves and worry, and six of the eight video transcripts contain no fear word at all. Fear also comes paired with excitement in the very answers the draft quotes: 'I was so excited. I was over the moon. And then I also felt, How am I gonna do this' (Showbiz Junkies); 'over the moon and also really scared' (Variety). Calling fear her dominant emotion turns a young woman whom colleagues call 'fearless' and 'self-assured' into a portrait of fear. The record supports something narrower: fear is the difficult emotion she volunteers most readily when asked about pressure.",
+      "acceptance_test": "The sentence is rewritten to a claim the opened sources support. For example: fear is the hard feeling she names most readily when asked about pressure, usually beside excitement or gratitude. No sentence anywhere (body, 60-word answer, FAQ, description) says or implies that fear dominates what she says about herself. The verifier can find a source passage for whatever frequency the rewrite asserts."
+    },
+    {
+      "id": "subject-F2",
+      "severity": "major",
+      "passage": "What strains it is that Nines tend to turn fear down, and she turns it up and goes to work on it. \"I was kind of voracious after I got the part,\" she told [No Intervals](https://www.youtube.com/watch?v=ZPPP5dTamkM).",
+      "problem": "The quote is used as proof that she 'turns [fear] up and goes to work on it', but in the No Intervals clip the voracious research is framed as excitement: 'I was so excited to immediately just delve into every podcast, every YouTube video, every book... I was kind of voracious after I got the part... I was really excited. I felt very lucky.' No fear is named. The same thesis-friendly trimming shows in the hook. The Variety answer quoted as 'Beatty describes something else' opens with confidence: 'I felt very connected to the character immediately... I remember making the audition tape and thinking, I understand this person.' Entertainment Tonight has 'I felt like I kind of got her.' In an open case whose one candidate discriminator is fear answered by preparation, putting a fear motive on excitement-framed evidence misrepresents her and tips the Six-versus-Nine comparison.",
+      "acceptance_test": "Either the No Intervals quote is replaced by a passage where preparation follows a named fear (the press-conference 'How am I gonna do this... can help you feel like you're starting' already does this), or it is quoted with her excitement framing and stops being presented as fear. The hook's contrast with Paulson's 'self-assured' no longer implies that Beatty's own account is fear instead of confidence: either add 'I understand this person' / 'I kind of got her', or recast 'Beatty describes something else' as 'Beatty describes both'. The Six case says plainly that some of her preparation is framed as excitement."
+    },
+    {
+      "id": "subject-F3",
+      "severity": "major",
+      "passage": "At the same press conference, asked how they had prepared, Rebecca Hall said, \"I did absolutely nothing.\" Charlie Hunnam had spent a couple of days reading. Beatty described a book, a movement coach and work before pre-production. The difference was hers, not the job's.",
+      "problem": "Four context problems end in a causal conclusion stated as fact. (1) Hall's quote stops before her reason, 'because I felt like she was kind of her own invention... I wanted freedom to get a little crazy and weird', so a named third party reads as careless. (2) In the same answer Beatty also played her preparation down: she 'worked a little bit with the movement coach' and 'what was on the page felt most important to me', which matches Hunnam's 'it was on the page'. (3) 'Work before pre-production' comes from a different question asked later at the same event. (4) She is the title lead, and Hall (Abby) and Hunnam (Andrew) play supporting roles, so the size of the job differs. 'The difference was hers, not the job's' does not follow. The nearby label 'over-preparation' (\"Nerves and over-preparation are ordinary in young actors\") is also the author's judgment; colleagues call her 'always prepared'.",
+      "acceptance_test": "Either the contrast is cut (the draft notes list C47 as a cut candidate), or it gives Hall's stated reason, keeps Beatty's 'a little bit' and 'what was on the page' qualifiers, notes the lead-versus-supporting difference, and drops or hedges 'The difference was hers, not the job's'. 'Over-preparation' becomes a neutral word such as 'heavy preparation'."
+    },
+    {
+      "id": "subject-F4",
+      "severity": "minor",
+      "passage": "And when Town & Country pointed out that in one year she played a daughter dragged away from acting by her parents and a daughter who kills hers, she didn't offer a theory. \"What is the universe saying? I don't know,\" she said with a chuckle. \"I'm going to be examining that.\"",
+      "problem": "The article's last image sets a famous daughter beside two roles about parents, one of them parricide, and ends on 'I'm going to be examining that.' Town & Country followed that exchange straight away with her account of her real parents: 'They're loving, encouraging, and want me to feel like I have my own experience.' The body never gives her account of her parents (only an FAQ does), so the close leaves an implication open that the evidence record's sensitivity rule forbids: do not read Lizzie Borden or Act One's parents into her family. Minor accuracy point: in the series the victims are her father and stepmother, and the historical Lizzie Borden was acquitted.",
+      "acceptance_test": "Either the closing passage includes her own account of her parents' support from the same Town & Country passage, or the article ends somewhere else. A cold reader of the final paragraph cannot take it as a hint about her family. If kept, the role is described accurately (for example, 'a daughter who, in the series, kills her father and stepmother')."
+    },
+    {
+      "id": "subject-F5",
+      "severity": "minor",
+      "passage": "She attaches fast (\"we just kind of fell in love immediately,\" she said of Paulson on TODAY) and defers easily to \"what was on the page.\"",
+      "problem": "On TODAY the line sits inside an explicit friendship frame: 'She's one of my very best friends in the world. We became extremely close... and we just kind of fell in love immediately.' Cut out of that frame and attached to Paulson by name, it is the line most easily lifted to feed the tabloid insinuation about the two women (S24). The evidence record forbids alluding to that insinuation and says to describe the friendship only in their own words. The draft does use her words, but without the words that make the meaning plain. Also, 'defers easily' overstates her Collider line, 'I did feel that my responsibility was to what was on the page'. That is a craft position she shares with Hunnam, not evidence of deference.",
+      "acceptance_test": "Either the quote keeps the friendship frame (for example, '\"She's one of my very best friends in the world... we just kind of fell in love immediately\"'), or quick attachment is shown with another sourced instance, such as her IndieWire line about Ari Graynor ('very, very close friend of mine... we sort of fell in love'). 'Defers easily' becomes a description that matches her 'responsibility to what was on the page'."
+    },
+    {
+      "id": "subject-F6",
+      "severity": "minor",
+      "passage": "She keeps describing that relief. \"It's a relief to come to work and remember you're being someone else,\" she told Paulson.",
+      "problem": "The context changes the meaning. She said it about the role she called 'the closest to me' ('I am not a good liar. I have a hard time not being totally earnest... She also feels different from me, though. It's a relief to come to work and remember you're being someone else'), then asked Paulson how she keeps characters separate from herself. That is a point about the line between actor and role. The draft places it right after the Nine reading 'The rush felt good because it left no room for her' and calls it 'that relief', which drifts toward a general wish to escape herself she never voiced. The same kind of context slip props up the Type 4 dismissal: 'Four fits her sensitivity, but she says she feels \"just like a very normal lady.\"' In Town & Country that line is about not being recognized ('No one has glanced at us twice... I still don't really feel like I'm in the public eye'), not about how ordinary her inner life is.",
+      "acceptance_test": "The relief quote either carries its context (a role close to her own personality) or is framed as craft separation, and 'left no room for her' stays clearly marked as the Nine reading, not a stated cause. The Type 4 sentence either gives the not-recognized context or replaces the line with evidence that bears on a Four's motive. The Nine FAQ answer is updated to match."
+    },
+    {
+      "id": "subject-F7",
+      "severity": "minor",
+      "passage": "It is also what a publicist would tell any famous child debuting in the 2024 \"nepo baby\" moment, so it shows media sense more than motive.",
+      "problem": "Raising the media-practice alternative is fair. Concluding that it 'shows media sense more than motive' is an author verdict in the skeptical direction that the record cannot support either way, and it implies coaching with no evidence of any. The evidence record's own alternative for C43 says the answer 'could also reflect sincere conviction; the record cannot separate the two.' The suggestion that her humility is the expected PR register comes back twice more ('It is also the expected register for a famous child in nepotism-conscious press'; 'a famous name raises the cost of being caught unprepared'), which adds up to a steady insinuation.",
+      "acceptance_test": "The sentence says the alternative without ruling on it (for example, '...so on its own it cannot show motive'). Nothing implies a publicist or coaching was involved. The PR-register caveat appears at most once in full, with later mentions brief."
+    },
+    {
+      "id": "subject-F8",
+      "severity": "minor",
+      "passage": "Leaning on mentors is ordinary at 24 in a new city, and several of hers approached her first.",
+      "problem": "Factual error. She moved to New York for Juilliard in 2018 (Vogue; Town & Country: 'She moved to New York to attend Juilliard'), so by 2024 she had lived there about six years. What was new was professional theater, not the city.",
+      "acceptance_test": "The phrase is corrected (for example, 'at 24 and new to professional theater') and the claim's inference is updated to match."
+    },
+    {
+      "id": "subject-F9",
+      "severity": "minor",
+      "passage": "She names fear readily and answers it with preparation and trusted people.",
+      "problem": "Similarity lead, checked against the actual arguments. The phrase-level trip ('whose core emotion is fear', shared with Grace Reiter) is ordinary type vocabulary and not evidence of reuse in itself. The argument skeleton, though, matches several recent young-actress drafts. Grace Reiter: 'steadied a long-running stage fright with preparation'. Lily-Rose Depp: 'steadies through people and structures she trusts', plus 'no testing' of authority as the gap. Maleah Joi Moon: a trusted person gets her past a refusal. Beatty: fear answered with 'preparation and trusted people', plus 'none of the testing of authority'. In the article's most-read sentence, the 60-word answer and its FAQ mirror, Beatty gets the generic nervous-newcomer Six. The body already says this pattern is the ordinary weather of any first lead. Her specific material (inheritance felt as duty and belonging, the off-book put-in done under a director's assurance, relief at the line between role and self) is not where a skimming reader meets the type.",
+      "acceptance_test": "Read side by side with the Reiter, Depp and Moon type answers, the 60-word answer and its FAQ mirror name at least one behavior or statement specific to Beatty that would not fit those answers. The Six case paragraph says what in her pattern goes beyond ordinary first-lead nerves, or says plainly that nothing yet does."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Ella Beatty beat the reporter to the Carlyle.",
+      "reason": "A sourced, specific, observed opening. Vogue confirms the 2:58 arrival, the folded coat and her father's 'Always be on time' rule. It shows behavior without claiming a motive."
+    },
+    {
+      "passage": "Both men are selling the show, and she had already worked for Murphy on _Feud_, so no one can measure what the name did before the tape. The accounts agree that a tape was required.",
+      "reason": "The model for handling the nepotism question fairly. It names the interested parties and the prior relationship, then says exactly what the record does and doesn't show, with neither insinuation nor flattery."
+    },
+    {
+      "passage": "The record pushes back too. Of _Appropriate_, she also told Paulson, \"I didn't have a lot of time to be scared because I got the job and then we started.\"",
+      "reason": "Puts her own counterevidence beside the thesis instead of burying it. Checked against Interview (June 2025): verbatim and in context."
+    },
+    {
+      "passage": "First she removed the risk she could control. Then she took permission from the person in charge. Then she brought herself.",
+      "reason": "Distinctive and faithful. On the podcast she credits the director's 'assurance' and says 'the best thing I could do for everybody was just to bring myself to it'. The sequence is her account, not an invented one."
+    },
+    {
+      "passage": "Each live type can claim that line: a Six scanning the room for safety, a Two for what people need, a Nine merging with it, a Three reading the audience. It is also the craft rule she says her parents taught her.",
+      "reason": "Won't cash a flattering third-party quote in for one type, and offers a non-type explanation (craft training). This is the open-case discipline the standard asks for."
+    }
+  ],
+  "assessment": "Open-case eligibility confirmed. She is 26; her first professional role aired in January 2024 and her first lead premiered on September 17, 2026. The record is young, not under-researched: 24 sources were opened. Title, meta title, description and FAQs use leading-read language, and the alternatives get real arguments. Sensitivity handling is good. The TMZ insinuation and the Page Six admissions item are absent, siblings are not described, there is no diagnostic language, and nervous/scared/worry stay her words. I checked the thesis passages against the research stage's saved source texts and the podcast audio. Speaker attribution for S05 holds: a pitch check puts the 'being where your feet are... something I'm still really trying to do' passage, the 'didn't have time to worry' answer, the audition lines and 'Take it a day at a time' in a female voice (median about 186-235 Hz) against the host's roughly 117-124 Hz. That supports the attribution, though it does not replace a human listener. The main fairness problem is selection. The fear-first framing takes the fear half of answers whose other half is excitement, connection or calm (F1-F3), and closes on a parent-role irony without her own account of her parents (F4). Smaller context slips (F5-F8) and an argument shape shared with recent Type 6 drafts (F9) follow. Limitation: live pages were not re-fetched; the saved copies were fetched on 2026-10-18."
+}

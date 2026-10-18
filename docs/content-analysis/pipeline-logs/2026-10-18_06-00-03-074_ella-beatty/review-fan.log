@@ -1,0 +1,22 @@
+I wrote the fan review for the Ella Beatty draft to `review-fan.json` in the run folder. It passes the pipeline's review schema, and every quoted passage matches the draft word for word. I changed no other files and published nothing; my scratch scripts are in `/tmp/ella-fanrev-scripts/`.
+
+**Three major findings:**
+- **fan-01: the co-star comparison is misleading.** The draft says Rebecca Hall "did absolutely nothing" to prepare and concludes "The difference was hers, not the job's." In the press-conference text, Hall says she skipped research on purpose to make Abby "my own invention," and Charlie Hunnam says there was little information on his character. Beatty played the title role, and Lizzie Borden is a heavily documented case. In that same answer Beatty also put "what was on the page" first. The evidence file uses this comparison to support Type 6, so that claim needs changing too.
+- **fan-02: two quotes stop before the half that matters.** The no-time-to-worry quote (Meindl podcast) goes on "so many things to serve and so many people to please." The "no time to be scared" answer (Interview) begins "You don't want to leave people in the lurch. You want to show up and support people." Without those halves, the Type 2 and Type 9 alternatives look weaker than her own words support. Open cases aren't allowed to treat alternatives as token.
+- **fan-03: the show's bad reviews are missing.** The draft only cites viewing numbers, and the first settle signal is still "a badly reviewed project." PureWow (September 22, 2026), which I opened, reported a 42% Rotten Tomatoes critics score. So that signal has already happened. The open question is criticism aimed at her or her casting.
+
+**Five minor findings:**
+- No childhood context: her childhood plays at camp and community theater, and her line about her parents, "I really care what they think and feel."
+- The career summary leaves out *Ghosts* (2025) and her film debut in *If I Had Legs I'd Kick You*.
+- The closing line says Lizzie kills her parents. Abby was her stepmother, and Lizzie was acquitted in 1893.
+- "The 2024 'nepo baby' moment" is misdated; that backlash peaked in 2022–23.
+- The Interview conversation took place in May 2025 (published June), not June.
+
+**Five protected passages,** including the Carlyle opening, the three-step "First she removed the risk she could control…", and the closing "What is the universe saying?" quote.
+
+**Other checks:**
+- **Eligibility:** Beatty still qualifies as an open case.
+- **Similarity:** the flagged match with the Grace Reiter page is ordinary type wording. I mentioned in the assessment, not as a finding, that the main thesis sentence closely echoes Reiter's.
+- **Limits:** I found the reviews praising Beatty's own performance through search but didn't open them. I also didn't listen to the podcast audio to confirm who says each line.
+
+Sources: [PureWow review roundup](https://www.purewow.com/entertainment/netflix-monster-the-lizzie-borden-story), [Seat42f review](https://seat42f.com/monster-the-lizzie-borden-story-review/), [Autostraddle](https://www.autostraddle.com/monster-the-lizzie-borden-story-maybe-should-have-axed-everything-but-the-gay-stuff/), [TechLoy](https://www.techloy.com/monster-the-lizzie-borden-story-made-me-question-how-much-of-true-crime-we-know/), [Digg roundup](https://digg.com/entertainment/dj4prszf)

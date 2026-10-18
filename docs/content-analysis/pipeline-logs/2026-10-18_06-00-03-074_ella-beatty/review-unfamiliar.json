@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "unfamiliar",
+  "content_sha256": "958497076648843496b347d182e1922c90a1875acafb202d9ee7d1fa4bdc89b1",
+  "evidence_sha256": "6f6f72fd05658ddc3d1ea088ee4ae5b6a66cf41c4fa860cc2690732003c0a50c",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "unfamiliar-01",
+      "severity": "major",
+      "passage": "At the same press conference, asked how they had prepared, Rebecca Hall said, \"I did absolutely nothing.\" Charlie Hunnam had spent a couple of days reading. Beatty described a book, a movement coach and work before pre-production. The difference was hers, not the job's.",
+      "problem": "The source (Showbiz Junkies, S14) contradicts the conclusion. Hall's line continues \"Not a shred of research whatsoever... because I felt like she was kind of her own invention... I wanted freedom,\" a deliberate artistic choice for a thinly documented character. Hunnam cites the \"limited information\" on Andrew Borden. Beatty, cast as the title role, a heavily documented real defendant, read one trial book and used a movement coach, and in the same answer said \"what was on the page felt most important to me\", the same on-the-page stance as Hunnam. The jobs differed, and C47's own alternative says lead actors often prepare more. A reader new to the material will take Hall's quote as a veteran slacking off, and \"The difference was hers, not the job's\" states the opposite of what the source shows. C47 is also listed in type_hypothesis.for_claim_ids as support for Six.",
+      "acceptance_test": "Either the Hall/Hunnam contrast is cut (the Collider \"every single podcast\" line and the Appropriate put-in already carry the preparation pattern), or Hall's reason appears in her words (\"her own invention\" / wanting freedom) and the closing sentence acknowledges that the title role of a well-documented real person invites more research. No sentence attributes the preparation gap to her temperament rather than the role. C47 is either dropped from for_claim_ids or its inference is rewritten to match."
+    },
+    {
+      "id": "unfamiliar-02",
+      "severity": "major",
+      "passage": "She names fear readily and answers it with preparation and trusted people. But her public record is under three years old and mostly promotional, so nothing yet separates these reads.",
+      "problem": "These two sentences repeat the paragraph just above the H2 almost word for word (\"a public record under three years old, almost all of it promotional... she names fear easily, then answers it with preparation and people she trusts\"), so a new reader gets the same claim twice within about 60 words. The answer's only descriptive sentence is also the generic early-career Six formula. The Grace Reiter page's answer (\"steadied a long-running stage fright with preparation\") and the Lily-Rose Depp page's answer (\"steadies through people and structures she trusts\") say the same thing, and this draft concedes that fear is \"the ordinary weather of an actor in her first lead.\" The answer box is what searchers and snippets see, and right now it holds nothing a reader could learn only about Beatty.",
+      "acceptance_test": "The answer stays at 60 words or fewer and still gives the leading read, low confidence and the live alternatives. Its evidence sentence names at least one sourced detail specific to Beatty, such as raising the nepotism question before anyone asks, calling it \"a relief\" to be someone else at work, or the gap between her \"really scared\" and colleagues' \"self-assured\"/\"fearless\". That sentence could not be pasted into the Grace Reiter, Lily-Rose Depp or Maleah Joi Moon answers. The answer and the paragraph above the H2 share no restated sentence, and FAQ 1 mirrors the revised answer."
+    },
+    {
+      "id": "unfamiliar-03",
+      "severity": "minor",
+      "passage": "Vogue's Elise Taylor arrived at 2:58 p.m. for a 3 p.m. coffee in February 2024, expecting to wait. Beatty was already there, her coat neatly folded over her arm, following one of her father's cardinal rules: \"Always be on time.\" In her case, early.",
+      "problem": "A reader who doesn't know her meets \"the Carlyle,\" \"her father's cardinal rules\" and \"well-known actors as parents\" before learning who her father is or why she is in the news. Her parents are named, and the Netflix lead explained, only in the fifth to seventh paragraphs, about 160 words in. The open-case standard asks the opening to establish who the person is and the moment making people search. The hook works, but holding back the basic facts costs orientation.",
+      "acceptance_test": "Within the first 80 or so words of the body, a reader learns that she is Annette Bening and Warren Beatty's daughter (or the father is named at \"her father's\") and that she leads Netflix's Monster: The Lizzie Borden Story. The Carlyle is identified as a Manhattan hotel. The Carlyle opening, the poised-versus-scared contrast and their order are preserved."
+    },
+    {
+      "id": "unfamiliar-04",
+      "severity": "minor",
+      "passage": "Talking to Meindl during _Ghosts_ rehearsals, she found an upside in the rush of the _Appropriate_ takeover.",
+      "problem": "Several references assume knowledge the article never supplies. Ghosts (Lincoln Center's 2025 Ibsen revival) is missing from the career summary and first appears here unexplained. \"The Belasco\" in the closing callback is never set up, since the Appropriate passage doesn't name the theater, so the final line hangs on a word the reader can't place. Meindl is introduced only as \"the acting teacher,\" so the later caveat that \"the two longest conversations were with friends\" lands without support (he opens the episode calling her \"my dear friend\"). The career summary mentions \"the stage opposite Hugh Jackman\" without naming the play, which is named only later, so readers can't connect the two.",
+      "acceptance_test": "Ghosts is identified (play, year, and venue or her role) at or before its first mention. The Belasco is either set up in the Appropriate passage or replaced in the closer with a reference the reader has already met. Meindl is identified as a friend at first mention. The career summary names Sexual Misconduct of the Middle Classes, or its later mention ties back to Jackman."
+    },
+    {
+      "id": "unfamiliar-05",
+      "severity": "minor",
+      "passage": "It is also the expected register for a famous child in nepotism-conscious press.",
+      "problem": "The same two caveats close paragraph after paragraph in nearly the same shape: fear and preparation are ordinary for a young actor (the 'ordinary weather' line, 'Nerves and over-preparation are ordinary in young actors', 'Leaning on mentors is ordinary'), and humility is the nepo-baby register ('what a publicist would tell any famous child', this sentence). Both return in the weighing section. Each is fair once. Repeated, they set a rhythm where nearly every observation is taken back in its last sentence, which flattens momentum and leaves a new reader unsure what the record does show. They also account for much of the roughly 200 words by which the 2,699-word body exceeds the open-case target.",
+      "acceptance_test": "Each caveat is stated fully once where it first matters (the career-stage line after the type answer; the publicist line in 'The name, and the tapes') and once in the weighing section. Other restatements are cut or replaced with a specific counter-fact (as Jackman's \"fearless\" already does). No more than two evidence paragraphs before '## Six, Nine, Two or Three' end on a generic 'it is also ordinary/expected' caveat. The body lands at or near the roughly 2,500-word open-case target."
+    },
+    {
+      "id": "unfamiliar-06",
+      "severity": "minor",
+      "passage": "The people who work with her see composure. Jackman told Town & Country she is \"always prepared, kind, funny, and fearless.\" Paulson's word is \"self-possessed.\"",
+      "problem": "The opening sets up the profile's most intriguing contradiction: colleagues find her \"unnervingly, dazzlingly self-assured\" while she says she was \"really scared.\" After that, the article uses the gap only as a point against Six (here, and 'Her colleagues describe calm' in the weighing). It never comes back to the question the hook raised: why doesn't the fear show, and how would each live type explain that? The evidence record lists this gap first under 'unexplained'. A reader new to her finishes without the hook's question being answered or explicitly held open.",
+      "acceptance_test": "At least once after the hook, the article names the poised-versus-scared gap as an open question and says how the leading read and the main rival would each explain it, labeled as interpretation. For example, Six: the preparation is why the fear doesn't show; Nine: the fear is real but goes quiet once the work starts. Alternatively, the gap becomes one of the settle signals, such as a collaborator describing her just before a performance."
+    },
+    {
+      "id": "unfamiliar-07",
+      "severity": "minor",
+      "passage": "2. **A creative disagreement.** As of October 18, 2026, no account of one from her had been found. Does she test whether she can trust the director (Six), go along until it feels \"available\" (Nine), protect the relationship (Two), or do whatever makes the performance land (Three)?",
+      "problem": "Signals 2 and 5 would fit any early-career actor, and 'someone who knew her before 2024' is close to the 'more testimony' kind of signal the standard warns against. Signals 1 and 2 match the sibling open case for Maleah Joi Moon (2026-10-12) almost point for point ('Her first sustained criticism, or a visible disagreement...'). The section also copies that draft's skeleton: 'Five things would' / 'Five signals would separate the reads', five numbered signals each mapped to all four types, and the closer 'Whichever way it settles, some of this will hold' / 'Whichever read wins, some of this should stand.' Twenty type-labeled predictions are heavy going for a reader new to the Enneagram. And \"available\", her word for a character's sensibility feeling accessible (Entertainment Tonight), is recast here as a Nine going along, which she never said. The best Six/Nine separator in the research record, a costly choice against the advice of the people she trusts, is missing from the reader-facing list.",
+      "acceptance_test": "At least three signals are tied to specifics of Beatty's record, such as a decision she makes against the advice of Paulson, Murphy or her parents, or whom she credits in The Bell Jar press with Sarah Polley. Each signal names only the two or three types it actually separates. \"available\" is used only in its original sense. The closing transition no longer uses the 'Whichever ..., some of this will hold' formula. The FAQ settle answer is updated to match."
+    },
+    {
+      "id": "unfamiliar-08",
+      "severity": "minor",
+      "passage": "Leaning on mentors is ordinary at 24 in a new city, and several of hers approached her first.",
+      "problem": "'In a new city' clashes with the article's own timeline: she trained at Juilliard in New York from 2018 to 2022, so by 2024 she had lived there about six years. No opened source says the city was new; Town & Country's 'fledgling New Yorker' (2026) is the closest, and it doesn't say that. 'At 24' fits only 2024 (C55 notes she was 23 during the Feud shoot), but the circle described runs to 2026. As a one-sentence paragraph between two quotes about her circle, it reads like a dropped-in disclaimer.",
+      "acceptance_test": "'in a new city' is removed or replaced with a sourced circumstance, such as being new to professional work. The age is dated ('in 2024') or dropped. The sentence is folded into an adjacent paragraph instead of standing alone."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Fear is the emotion Beatty names most. That is why Six leads, and why it can't lead by much: fear is also the ordinary weather of an actor in her first lead.",
+      "reason": "Two sentences that tell a new reader both why Six leads and why it can't lead by much. This is exactly the confidence calibration an open case needs, in plain language and with a memorable image."
+    },
+    {
+      "passage": "Murphy watched all seven tapes without being told which one, then called back and asked, \"Is it Ella?\"",
+      "reason": "A specific, sourced (S19), surprising detail that changes how a skeptical reader sees the nepotism question. The paragraph's honest limit, that a tape was required but no one can measure what the name did, keeps it fair."
+    },
+    {
+      "passage": "First she removed the risk she could control. Then she took permission from the person in charge. Then she brought herself.",
+      "reason": "The clearest statement of the pattern in the piece: three short sentences that turn the Appropriate put-in into something a reader can recognize elsewhere, without jargon."
+    },
+    {
+      "passage": "Read as a Six, that is the type's growth task in her own words: learning to trust that she can handle what she fears before it arrives. Read as a Nine, the telling detail comes first. The rush felt good because it left no room for her.",
+      "reason": "Shows a new reader how two types read the same quotation differently. This is the open-case method at its best, and 'it left no room for her' is a distinctive insight specific to Beatty."
+    },
+    {
+      "passage": "\"What is the universe saying? I don't know,\" she said with a chuckle. \"I'm going to be examining that.\"",
+      "reason": "A natural ending that leaves a real contradiction unresolved in her own voice, without a CTA or a thesis restatement. Keep it even if the 'Belasco' callback before it changes (see unfamiliar-04)."
+    }
+  ],
+  "assessment": "Open-case eligibility confirmed from the reader's side. She is an adult (born 2000), her first professional role aired in January 2024 and her first lead in September 2026, and 24 sources were opened, so the record is thin because it is young, not because research was shallow. Title, meta_title, description and every FAQ use 'leading read'/'open case' language. The body mostly keeps to its stated confidence; the one real overclaim is the Hall/Hunnam contrast (unfamiliar-01), where the source itself contradicts the conclusion. Orientation: the cold open is a genuine contradiction set up in four quick beats (poised to Vogue, 'dazzlingly self-assured' to Paulson, 'really scared' to Variety), but who she is arrives late, and several later references (Ghosts, the Belasco, Meindl as a friend) assume knowledge the article never supplies (unfamiliar-03, -04). Momentum: the sections genuinely progress, from the name, to preparation, to the relief of being someone else, to her circle, to the weighing and the settle signals. The drag is a repeated caveat cadence that takes back most observations in their last sentence (unfamiliar-05), and a hook contradiction that is raised and never paid off (unfamiliar-06). What a new reader learns: concrete, checkable details that no other page has (seven tapes and 'Is it Ella?', the WiFi line, the off-book put-in, the director's diary book, 'we call every 15 minutes', 'a relief to... be someone else'), plus a clear sense of why the type is unsettled. Similarity: the tripped grace-reiter match ('whose core emotion is fear') is ordinary triad vocabulary that the house style asks for, so it is not a finding. The meaningful reuse sits at thesis and structure level: the answer-box sentence matches the Grace Reiter and Lily-Rose Depp answers (unfamiliar-02), and the settle section and closer replicate Maleah Joi Moon's open case (unfamiliar-07). Risk flags: contested_typing (required for open cases). sensitive_allegations stays set from research (TMZ/Page Six items), though the draft alludes to neither. For the enneagram juror: Reiter, Depp, Moon and now Beatty all lead with Six on a 'names fear, leans on trusted people' case. Whether Six is a career-stage artifact deserves an explicit test; the draft's 'ordinary weather' line already concedes the point."
+}

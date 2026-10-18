@@ -1,0 +1,27 @@
+Error: Reached max turns (60)
+[runner] Turn limit reached; resuming session 9c97743e-9c2b-457a-ac89-6dd2fddd5308 to write outputs
+I've written the Dylan Patel draft and its evidence file to the run folder, and both pass the pipeline's own checks. Nothing else in the repo changed and nothing was published; the only file outside the run folder I edited is one of my memory notes, and my scratch work is in `/tmp/dylan-patel-draftcheck/`.
+
+**The draft.** It's 3,575 words, leans Type 7, and treats Type 8 as the strongest rival. It's set to unpublished.
+- **Opening:** at GTC on March 16, 2026, Jensen Huang tells the crowd "Dylan Patel had a quote. He accused me of sandbagging." Then it turns: that line began as Patel emailing Huang "But Jensen, I was wrong," with his own name on the list of doubters. He also mailed out joke "Inference King" championship belts, and one ended up on Huang's slide.
+- **Type answer:** it commits to Type 7 in 55 words and leads with the head triad and fear as the core emotion. The fight with Type 8 has its own section, as you prefer.
+- **Why 7 beats 8:** the article grants the 8 case in full: his "burning desire to respond to anyone on the internet when they try and criticize me," the mocking meme aimed at Sam Altman, and naming staff who send too many private Slack messages. Then it points to what he does when he's wrong or scared. He emails "I was wrong." He calls AI centralization "scary as hell," looks for a "saving grace," then admits "This is my cope." And he praised Lisa Su the day after a harsh AMD report.
+- **What it leaves open:** it says outright that his Slack control and his talk of influence fit 8 better. It names the test that would settle it: whether his replies to critics mock and move on (7) or escalate (8).
+- **Lawsuit:** the suits between SemiAnalysis and a former employee are reported neutrally. The company's specific misconduct claims against him are left out.
+- **Embeds:** two video clips, the GTC moment and his own retelling of the email.
+- **Search questions:** the FAQs answer the questions people search: who he is, what SemiAnalysis is, background, age, net worth, and whether he's related to Dwarkesh Patel. Age is the birth year only (1996, so 30). Net worth says there's no reliable figure.
+- **Title:** the SEO title starts with his name, per the research notes: "Dylan Patel: The SemiAnalysis Founder Who Said 'I Was Wrong'".
+
+**Quote checks.**
+- **Re-checked against the audio:** I transcribed the key passages a second time. Huang's wording matches NVIDIA's own keynote video at about 1:03:44. The "burning desire" line, the email and the belt story each match across two transcriptions.
+- **Corrected:** a script checked all 105 quotes against the saved sources. It caught one quote I had joined across Substrate's "Dylan admits" break, and I fixed it. Reading by hand, I also caught "Dylan, what the fuck are you doing?", which Substrate gives as its own summary of how friends and family felt, not anyone's words. It's now attributed that way.
+- **Paragraph length:** I split the long blocks, so no paragraph runs past 70 words and there are six set-off quotes.
+- **Overlap:** the check against other Type 7 pages flagged one shared phrase, which I reworded; it now passes.
+
+**Still unverified (logged as research tasks for the later stages):**
+- **The Information's April 2026 profile is still behind a paywall.** The University of Georgia, the MIT and Stanford rejections, the bonus, the "mom says I'm in IT" remark, the ~20 startup stakes and the Rubin timing all reach the draft through a translated rewrite. They're paraphrased and credited to The Information, never quoted.
+- **Two Latent Space quotes come from a machine transcript.** I couldn't find the episode's audio: the YouTube links on that page are other videos, and the show isn't in their podcast feed. The quotes are "next step, next step, next step" and "looking back, I can spin a narrative."
+- **Some WisdomTree quotes were transcribed once.** The motel, quant and travel lines haven't had the second transcription.
+- **Other open items:** the court dockets, a sample of his replies to critics, testimony from anyone outside his circle, and the venture fund ($400 million in the SEC filing vs. the $500 million he told Substrate). The draft states both fund figures.
+
+Open decision for you: the draft follows your "commit to the type" preference. If you'd rather it say "medium confidence" in the type answer itself, it's a one-line change.

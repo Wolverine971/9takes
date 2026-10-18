@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "critic",
+  "content_sha256": "958497076648843496b347d182e1922c90a1875acafb202d9ee7d1fa4bdc89b1",
+  "evidence_sha256": "6f6f72fd05658ddc3d1ea088ee4ae5b6a66cf41c4fa860cc2690732003c0a50c",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "critic-01",
+      "severity": "major",
+      "passage": "The difference was hers, not the job's.",
+      "problem": "The press-conference contrast is the draft's main proof that her preparation is temperament, not circumstance, and the source undercuts it. In the Showbiz Junkies report (S14), Hall says she did no research because she felt Abby Borden 'was kind of her own invention' and she 'wanted freedom'. Hunnam says there was only 'limited information... about Andrew' and 'I just felt like it was on the page.' Beatty, playing the title character and the most documented figure, says she 'worked a little bit with the movement coach' and that 'what was on the page felt most important to me.' The jobs did differ: lead against supporting roles, a well-documented subject against thinly recorded ones, and a first lead against two veterans. All three actors also landed on the page. The sentence rules out the explanation the source points to.",
+      "acceptance_test": "Delete the causal sentence or replace it with what S14 supports: she prepared more than the two supporting veterans, but she played the lead and the best-documented character, and all three said the script mattered most. No sentence may claim that the contrast rules out the role as the reason. If the Hall/Hunnam contrast stays, it is labeled as suggestive, not as a discriminator."
+    },
+    {
+      "id": "critic-02",
+      "severity": "major",
+      "passage": "Against it, in this record she is mostly the one being looked after, and no account shows her giving care or resenting that it goes unnoticed.",
+      "problem": "The Two alternative is weakened by quoting only the half of answers that the draft uses elsewhere. The Meindl answer quoted in 'The relief of being someone else' goes on, right after 'self-involved about it', to say: 'I had so much to do and so many things to serve and so many people to please' (S05, clip_b large-v3-turbo transcript at about 00:32-00:39; small.en has 'It has so much to do'). The Interview answer that supplies 'I didn't have a lot of time to be scared' opens with: 'The pressure that I felt had to do with the responsibility to honor what the other actors are doing. You don't want to leave people in the lurch. You want to show up and support people' (S04). In her own account, the pressure she felt was about serving others. That is the most Two-flavored material on record, and it fits the Six reading of duty too. The evidence record (C51 alternative) says the 'people to please' line is cited in the Two section, but the drafted Two section does not include it. For an open case this treats a live alternative as token.",
+      "acceptance_test": "The Two section (or the passages where these answers are already quoted) includes at least one of the cut relational halves, quoted from the large-v3-turbo clip or S04 verbatim. The 'Against it' sentence no longer says that no account bears on giving or support. It states what the record still lacks for Two, such as care given unasked or resentment at being overlooked. The evidence record's claim mapping (C35/C51) matches what the article actually prints."
+    },
+    {
+      "id": "critic-03",
+      "severity": "minor",
+      "passage": "What strains it is that Nines tend to turn fear down, and she turns it up and goes to work on it.",
+      "problem": "The quote attached to this claim does not mention fear. In No Intervals (S16) the line runs: 'I was so excited to immediately just delve into every podcast, every YouTube video, every book... I was kind of voracious after I got the part, but I didn't initially know very much about her.' She frames the effort as excitement and starting from little knowledge. In the same way, the Collider block quote stops at 'WiFi connection' and drops the next sentence: 'But I started to hone in and get a little bit more specific, and I did feel that my responsibility was to what was on the page' (S13). The fear-then-effort link is better supported elsewhere, in Variety's 'really scared... I think immediately I just wanted to start working on it' (S12) and the press conference's 'How am I gonna do this... starting to work on it even before we were in pre-production was really helpful' (S14).",
+      "acceptance_test": "Back the 'turns it up and goes to work on it' claim with a quote in which she connects fear to the work (S12 or S14 wording, verbatim). If 'voracious' stays, frame it as she did, with excitement. The Collider block quote either includes the 'hone in... what was on the page' sentence or is followed directly by a clause noting that she narrowed to the script."
+    },
+    {
+      "id": "critic-04",
+      "severity": "minor",
+      "passage": "She keeps describing that relief. \"It's a relief to come to work and remember you're being someone else,\" she told Paulson.",
+      "problem": "The context is removed and the line is used as Nine evidence (here, in the Nine case's 'relief at being someone else', and in the Type 9 FAQ). In S04 she said it of the Sexual Misconduct character she had just called 'the closest to me': 'She also feels different from me, though. It's a relief to come to work and remember you're being someone else.' It is about keeping a boundary between herself and a character who resembles her. It is not the same relief as the Meindl passage, where the rush left no time to worry. 'She keeps describing that relief' builds a recurring pattern out of two different statements. Town & Country's 'I want to be able to disappear into roles' (S20) does support the Nine point directly.",
+      "acceptance_test": "Wherever the Paulson line is used (body and the Type 9 FAQ), it carries its context: said of the role she called closest to herself. Otherwise replace it with the S20 'disappear into roles' quote. 'She keeps describing that relief' is reworded so that it does not present the two statements as one repeated feeling."
+    },
+    {
+      "id": "critic-05",
+      "severity": "minor",
+      "passage": "When pressure rises, she reaches for a small circle.",
+      "problem": "The topic sentence promises a cause (pressure) and an action (she reaches out) that most of its examples do not show. TODAY's 'We call every 15 minutes' answers 'How does she support you? What's that like on set?' (S10), not a moment of pressure. Hollander 'came to my dressing room privately' after he 'had been tipped off that I was new' (S01). The initiative was his. The mother 'debrief' is a daily closeness routine, and in the same breath she says her mother is 'big on not giving you the answer, which I think makes you curious about how to figure it out yourself' (S17). Only the audition friend-call (S05) ties support to pressure. This leg ('people she trusts') is half of the article's central pattern, repeated in the intro, the type answer, the FAQ and the Six case.",
+      "acceptance_test": "The section opener claims no more than the examples show. For example, it says she keeps a small, close circle, and ties it to pressure only through the audition passage. Hollander's visit is presented as his initiative where it appears. The mother's 'not giving you the answer' is either included or the debrief is not used as advice-seeking. The intro and type-answer phrasing 'answers it with preparation and trusted people' is checked against the revised section."
+    },
+    {
+      "id": "critic-06",
+      "severity": "minor",
+      "passage": "These reads part ways under pressure, and the record hasn't caught her there yet.",
+      "problem": "This contradicts the draft's own 'Appropriate was the same move under more pressure', and the Appropriate put-in (two days of table work, then opening) is narrated as a pressure episode read in the Six direction. The evidence record's discriminator names the specific untested situations: open conflict, sustained criticism, a costly choice against trusted advice. Signal 1 also says 'A badly reviewed project', but Monster itself drew mixed early reviews. A standard web search returned Digg's roundup reporting a 50% Rotten Tomatoes score from six reviews on September 18, 2026, and JoBlo calling the season a 'gory bore', while reviewers singled out her performance for praise. I saw search-result summaries only and did not open the reviews.",
+      "acceptance_test": "The sentence names the kinds of pressure the record lacks (conflict, criticism aimed at her, a choice against trusted advice), so it no longer contradicts the Appropriate passage. The editor opens at least one review of Monster. Signal 1 is then either reworded to criticism of her own work or casting, or dated with the current state (for example, as of October 2026 the season's reviews were mixed but praised her). No unopened review is summarized."
+    },
+    {
+      "id": "critic-07",
+      "severity": "minor",
+      "passage": "Leaning on mentors is ordinary at 24 in a new city, and several of hers approached her first.",
+      "problem": "Factual: by 2024 New York was not a new city to her. She started Juilliard in 2018 (Vogue, S01), and Town & Country says 'She moved to New York to attend Juilliard' (S20), so she had lived there about six years. The new thing was the industry. Town & Country says she 'is conscious of being new to the industry'.",
+      "acceptance_test": "Replace 'in a new city' with wording the sources support, such as 'new to the industry'. The age matches the dated episode it describes (she was 23 when Feud shot, 24 for Appropriate in 2024)."
+    },
+    {
+      "id": "critic-08",
+      "severity": "minor",
+      "passage": "How she got the work is easier to check.",
+      "problem": "Neither account can be checked independently. Both are testimony from interested parties. The Appropriate account comes from Paulson, now one of her closest friends, in a conversation the two published together (S04). The draft flags Winkler and Murphy as 'selling the show' but does not flag Paulson's interest at this point. Her 'I had no idea who your parents were' is printed without qualification, and in the same answer she hedges: 'If your last name were Bening, it might be a little bit different.' The Feud casting, her first job and the one most open to the name question, has no account at all.",
+      "acceptance_test": "The sentence is reworded so that it presents the casting stories as testimony, not verification. For example: the people who cast her have described it. Paulson's interest is noted at the Appropriate account, as the section does for Winkler and Murphy. The section says that no account of the Feud casting exists in the opened record."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Ella Beatty beat the reporter to the Carlyle.",
+      "reason": "A specific, verified opening (S01: 'Ella Beatty beats me to the Carlyle', 2:58 p.m. for a 3 p.m. coffee) that the closing callback pays off. It shows a behavior before any typing."
+    },
+    {
+      "passage": "It is also what a publicist would tell any famous child debuting in the 2024 \"nepo baby\" moment, so it shows media sense more than motive.",
+      "reason": "Faces the strongest non-type explanation of her most-quoted statement and declines to count it as motive evidence."
+    },
+    {
+      "passage": "Both men are selling the show, and she had already worked for Murphy on _Feud_, so no one can measure what the name did before the tape. The accounts agree that a tape was required.",
+      "reason": "Separates what the record establishes (a tape was required) from what it cannot measure (what the name did). It names the witnesses' interest. This is the right model for the rest of the section."
+    },
+    {
+      "passage": "Read as a Six, that is the type's growth task in her own words: learning to trust that she can handle what she fears before it arrives. Read as a Nine, the telling detail comes first. The rush felt good because it left no room for her.",
+      "reason": "Reads both rival types against the same answer, so neither gets only the friendly half. Machine pitch analysis of the Meindl clip supports attributing the keystone passage to Beatty."
+    },
+    {
+      "passage": "\"What is the universe saying? I don't know,\" she said with a chuckle. \"I'm going to be examining that.\"",
+      "reason": "Ends on an unresolved contradiction in her own words. It avoids the tempting step of reading Lizzie Borden or Act One into her family, as the sensitivity guidance requires."
+    }
+  ],
+  "assessment": "The draft is honest about the biggest adverse evidence. It treats the nepotism answer as coachable PR rather than motive, puts colleagues' composure next to her stated fear, calls first-lead nerves ordinary, and flags Barrymore's and Meindl's prompts. Its weakness is that the central causal chain ('names fear, then answers it with preparation and people she trusts') is stated more firmly in the prose than the sources support at three points (critic-01, -03, -05). The Two alternative also lost its best material when relational halves were cut from quotes the draft already uses (critic-02). Fixing these should leave the Six lead intact but held at the low confidence the record allows. Keystone attribution check: S05 has no speaker labels and no human has listened to it. So I ran a rough F0 (pitch) analysis on /tmp/ella-beatty-research/audio/clips/clip_b.wav (the large-v3-turbo re-transcription segment). Her clearly identified answer at 12-40 s shows a median of about 165-275 Hz. The host's 'tragedy occurs... yours was a less traumatic version' at 50-77 s shows about 112-150 Hz. The 'being present... something I'm still really trying to do... in that play' passage at 82-115 s shows about 150-228 Hz, which matches Beatty, not the host. This is a machine check, not a human listen, and the editor may still want one. Other spot checks against saved source text held: Vogue hook and 'Exceptionally poised' (S01); the surname exchange, 'self-possessed' and 'really nervous' with the diary book (S04); Winkler's tape account and 'six of the eight episodes' (S19, S20); TheWrap's figures (S23); the Drew Barrymore 'torch' and 'debrief' lines (S17, S18). Similarity: the trip against grace-reiter (score 1) is 'whose core emotion is fear', ordinary triad vocabulary in the house type-answer convention. The lily-rose-depp and maleah-joi-moon matches are generic phrases. At the level of argument, the Grace Reiter page (2026-10-16) also leads with Six for a young performer on fear steadied by preparation plus praise deflection. But this draft's rival (Nine), evidence and settle signals are specific to Beatty, so I do not count it as meaningful reuse. Open-case eligibility holds: she is an adult (born 2000), her first professional role aired January 2024 and her first lead September 2026, 24 sources were opened, and no deep record was skipped. Title, meta title, description and FAQs use leading-read language, and the settle signals are concrete. Sensitivity: the TMZ and Page Six items are absent, siblings are not named, and neither role is read into her family. The research-stage risks (sensitive_allegations, contested_typing) are retained."
+}

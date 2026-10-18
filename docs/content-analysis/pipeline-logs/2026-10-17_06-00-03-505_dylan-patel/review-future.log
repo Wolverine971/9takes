@@ -1,0 +1,25 @@
+I've written the five-year review for the Dylan Patel draft to `review-future.json` in the run folder. It passes the review schema check and carries the request's draft and evidence hashes. I didn't change or publish anything else.
+
+**Verdict:** the Type 7 argument still holds if you remove the newest material (August–September 2026). The same behavior runs through his 2020 decision to quit, his December 2024 post crediting AMD's Lisa Su, the February 2025 Lex Fridman interview and the early-2026 "I was wrong" email. Medium confidence is right, because most of the evidence that separates Seven from Eight comes from his own 2026 podcast appearances.
+
+**Major findings (4):**
+- **Age goes stale:** the body says "Patel, 30" with no date. The evidence record expects his age to change around May 2027, and nothing set to recheck that sentence covers age. The page targets "Dylan Patel age" searches.
+- **"Biggest moment" will date badly, and the description is ambiguous:** a career-best claim about a 30-year-old will probably be overtaken. "Telling Jensen Huang he was wrong" also reads as if Huang was the one who was wrong, which is the opposite of the article's point.
+- **The "adding rooms" paragraph depends on an open lawsuit:** if the suits are dismissed or dropped from the page, the paragraph is left hanging on an allegation that failed.
+- **The article doesn't apply its own test:** it says the Eight reading gains if he "keeps pursuing the same people." It then never addresses SemiAnalysis's lawsuit against a former employee, which it filed first and which includes a defamation claim. The review asks the article to say whether a company lawsuit counts as evidence for that test.
+  - The research folder also holds a December 2025 article about an online backlash to one of his predictions, which isn't in the evidence record. His replies there would be a usable data point for that test; I didn't check them.
+
+**Minor findings (4):**
+- Words like "now," "next chip" and "year end" with no date attached.
+- Figures in the "What is SemiAnalysis?" FAQ answer with no as-of date.
+- "Nobody who left SemiAnalysis… is on record" is undated and nothing flags it for recheck.
+- The "Why isn't he a Type 8?" FAQ rests only on two 2026 anecdotes.
+
+I also marked five passages to keep:
+- his email listing himself among the doubters
+- "this one included"
+- the step-by-step Seven pattern in the AI-centralization exchange
+- the mock-or-escalate test
+- the flipped-lanyard ending
+
+The risk flags carry over from the evidence: sensitive allegations, and a contested 7-versus-8 typing.

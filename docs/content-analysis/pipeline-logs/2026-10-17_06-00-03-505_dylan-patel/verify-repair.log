@@ -1,0 +1,22 @@
+I verified the repaired Dylan Patel draft and it does **not** pass. The verdict is **revise**, and since the one allowed repair is already used, the run will hold. I wrote only `verification-repair.json` to the run folder. Nothing else changed and nothing was published.
+
+**What held up:**
+- **Quotes and sources:** I reopened all 27 cited sources and re-transcribed the WisdomTree and GTC keynote audio with a second model. All of the roughly 100 quotes match, including the full Dwarkesh "scary as hell" exchange in order.
+- **Earlier fixes:** 58 of the 60 earlier review and verifier findings are fixed. All 18 protected passages survived.
+- **Paywalled sources:** the two paywalled pieces from The Information no longer support any claim.
+- **Lawsuits:** no ruling or settlement has been reported. A web search found coverage of the filings only ([Wallstreetcn via Longbridge](https://longbridge.com/news/281699561), [Edgen](https://www.edgen.tech/news/post/semianalysis-faces-2-lawsuits-over-data-use-and-trade-secrets)).
+
+**What blocks release: the new reason he's a 7 and not an 8 has a dating error.** The repair rests the Seven call on timing. It says he gave up his apartment in 2020, "two years before the conferences" gave him a business reason to travel. That date comes only from Patel's own 2024 telling. Substrate, the page's most-cited source, says "By 2021, Dylan's itinerary had become a succession of acronyms: ISSCC, DAC, ECTC." Substrate also places the early travel during the pandemic, which the page never mentions. The run's own evidence file even names the pandemic as an explanation for that gap that has nothing to do with personality.
+
+This argument was written after the six reviewers saw the draft, so no reviewer has ever challenged it. I flagged it as a blocker: it needs a rerun with all six reviewers (`--refresh --expanded-review`), not another quick patch.
+
+**Three smaller fixes for the same pass:**
+- "A grin in the fights it captures" generalizes from two examples.
+- "The outside voices on record are… not people who have worked with him" ignores the former employee's lawsuit, which the page itself covers.
+- "Here is that case in full" leaves out his "characteristic stubbornness," which only appears earlier in the page.
+
+**Scores:** overall 7.9 against an 8.5 floor. The type argument scores 7.2 and evidence 7.8, both below their 8.0 floors. Originality (8.6), hook (8.6) and durability (8.4) are strong. Writing is 7.8: the page is 4,262 words, and the "Why not Type 8?" section circles the same argument.
+
+**Your call:** once Substrate's 2021 date and the pandemic are on the page, the Seven lead may not hold. Then the honest outcome is to hold the page for more research. The best evidence to collect is a coded sample of his replies to critics on X. Forcing a Seven call would overstate the record.
+
+The task list in the file also covers dating his first conferences (in person or virtual), the Taiwan trip, and when he settled in San Francisco.

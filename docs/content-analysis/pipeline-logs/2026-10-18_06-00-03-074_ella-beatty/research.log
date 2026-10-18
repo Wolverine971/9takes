@@ -1,0 +1,23 @@
+Research is done for Ella Beatty. I wrote `evidence.json` to the run folder and it passes the repo's v3 check (`validateEvidence`). It comes out as an **open case**: status `ready`, Type 6 as the leading read at low confidence, Type 9 as the main rival, and Types 2 and 3 still possible. Both risk flags are set, so the six-reviewer panel applies.
+
+**Why an open case, not a hold or a confident type**
+- **Her record is young, not thin from lack of digging.** Her first professional role aired January 2024 and her first lead (*Monster: The Lizzie Borden Story*) came out September 17, 2026. I opened 24 sources (4 more wouldn't open), including the Town & Country cover story, a 52-minute podcast I transcribed locally, the Sarah Paulson conversation in Interview, and ten video interviews.
+- **The case for Type 6.** She repeatedly names fear and answers it by preparing: "I came in off book, so that would never be an issue." She leans on a small group of trusted people and puts duty to others first. In February 2025 she said that trusting herself to handle what she worries about "is something I'm still really trying to do."
+- **Why it can't go higher.** Almost all of it is her own words in promotional interviews, and the two longest interviewers are her friends. The people who work with her describe calm instead: Paulson calls her "unnervingly, dazzlingly self-assured." Nothing on record shows her in a conflict or under sustained criticism, which is where 6 and 9 would part ways.
+- **Next review:** 2026-12-15, after the Golden Globe nominations. I wrote five concrete signals that would settle it.
+
+**Sensitive items to keep out of the draft**
+- TMZ hinted at something about her friendship with Sarah Paulson. I recorded it only so the writer avoids it.
+- A 2018 Page Six item, citing unnamed sources, said her parents lobbied around her Juilliard audition. I couldn't open it, so it's marked unusable.
+
+**Quotes I caught that would have been wrong**
+- A search summary credited Rebecca Hall's "never played a true villain" line to Beatty.
+- One ScreenRant caption track is a machine translation; the notes point to the original.
+- A "wobbly calf" line on Drew Barrymore's show is probably Barrymore's.
+- Two podcast lines can't be pinned to her rather than the host.
+
+All of these are listed in the cautions section of `research_tasks`.
+
+**Couldn't open:** the Forbes and Wonderland interviews, TV Insider's piece quoting creator Ian Brennan on why he cast her, and the Page Six original. They're marked unavailable and none of them supports a claim.
+
+No other repo files were changed and nothing was published. Saved texts, transcripts and my build scripts are outside the repo in `/tmp/ella-beatty-research/` and `/tmp/ella-beatty-scripts/`, for the later quote checks.
