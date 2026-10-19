@@ -1,6 +1,6 @@
 // src/routes/register/+page.server.ts
 import { fail, redirect, type Actions } from '@sveltejs/kit';
-import { AuthApiError } from '@supabase/supabase-js';
+import { isAuthApiError, isAuthWeakPasswordError } from '@supabase/supabase-js';
 import type { PageServerLoad } from './$types';
 import { getAuthProtectionState, recordAuthProtectionEvent } from '$lib/server/authProtection';
 import { logger } from '$lib/utils/logger';
@@ -141,7 +141,15 @@ export const actions: Actions = {
 					identifier: normalizedEmail
 				});
 
-				if (err instanceof AuthApiError && err.status === 400) {
+				if (isAuthWeakPasswordError(err) || err.code === 'weak_password') {
+					return fail(400, {
+						error:
+							'This password is too easy to guess or has appeared in a data breach. Choose a stronger, unique password and try again.',
+						captchaRequired: nextProtectionState.captchaRequired
+					});
+				}
+
+				if (isAuthApiError(err) && err.status === 400) {
 					logger.warn('Registration failed - auth error', {
 						email: normalizedEmail,
 						error: err.message

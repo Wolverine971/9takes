@@ -25,6 +25,7 @@
 		type CommentFailureStage
 	} from '$lib/analytics/commentEvents';
 	import { getOrCreateVisitorId } from '$lib/analytics/visitorIdentity';
+	import { qualifiedVisibility } from '$lib/analytics/qualifiedVisibility';
 	import type { CommunityProof } from '$lib/data/homepageCommunity';
 	import ReplyOptInTray, {
 		type ReplyOptInOffer
@@ -70,6 +71,21 @@
 	let surface = $derived(preview ? 'homepage_preview' : 'homepage');
 	let root = $state<HTMLDivElement>();
 	let startedQuestionId = '';
+	let gateReported = false;
+	function reportGateImpression() {
+		if (preview || !isLive || !live || posted || gateReported) return;
+		gateReported = true;
+		void fetch(resolve('/api/nine/impression'), {
+			method: 'POST',
+			keepalive: true,
+			headers: { 'content-type': 'application/json' },
+			body: JSON.stringify({
+				questionUrl: live.slug,
+				sourcePath: '/',
+				fingerprint: getOrCreateVisitorId()
+			})
+		}).catch(() => {});
+	}
 
 	function trackPractice(step: HomepagePracticeStep, placement?: string) {
 		void captureHomepagePractice({
@@ -83,7 +99,8 @@
 
 	function trackAnswerStarted() {
 		error = '';
-		if (startedQuestionId === question.id) return;
+		postError = '';
+		if (!answer.trim() || startedQuestionId === question.id) return;
 		startedQuestionId = question.id;
 		trackPractice('started');
 	}
@@ -138,7 +155,7 @@
 		}
 	];
 	const description =
-		'A question-and-answer community for seeing why people react differently. Try a private question, compare 9 perspectives, then join a real conversation.';
+		'A question-and-answer community for seeing why people react differently. Answer a question, read other people’s responses, and compare 9 perspectives.';
 
 	let questionIndex = $state(0);
 	let answer = $state('');
@@ -156,21 +173,21 @@
 		question.id === 'friendship' ? 'Try the dinner question' : 'Try friendship again'
 	);
 
-	// Live-take mode: the hero question is a real live question and the visitor can opt in to
-	// post the answer they already wrote (POST /api/homepage/answer). The design preview
+	// The live hero posts with one explicit action, then reveals the conversation.
+	// POST /api/homepage/answer keeps the give-first gate authoritative. The design preview
 	// simulates the post instead and saves nothing.
 	let isLive = $derived(live !== null && question.liveSlug === live.slug);
 	let cardTitle = $derived(isLive && live ? live.title : question.question);
 	let liveHref = $derived(
 		live ? resolve('/questions/[slug]', { slug: live.slug }) : resolve('/questions')
 	);
-	let postState = $state<'idle' | 'posting' | 'posted' | 'private'>('idle');
+	let postState = $state<'idle' | 'posting' | 'posted'>('idle');
 	let postError = $state('');
 	let postResult = $state<LiveTakePostResult | null>(null);
 	// The server already passed the give-first gate for this visitor, so they start unlocked.
 	let answeredBefore = $derived(isLive && Boolean(live?.answered));
 	let posted = $derived(postState === 'posted' || answeredBefore);
-	let showReveal = $derived(revealed || answeredBefore);
+	let showReveal = $derived(revealed || posted);
 	let alreadyAnswered = $derived(
 		postResult ? postResult.alreadyAnswered : answeredBefore && postState !== 'posted'
 	);
@@ -295,6 +312,7 @@
 
 	async function postAnswer() {
 		if (!live || postState === 'posting' || posted) return;
+		reportGateImpression();
 		const stateBefore = postState;
 		trackPractice('live_post_clicked');
 		postState = 'posting';
@@ -317,16 +335,6 @@
 		postedHeading?.scrollIntoView({ block: 'center', behavior: 'instant' });
 	}
 
-	function keepPrivate() {
-		trackPractice('live_kept_private');
-		postState = 'private';
-	}
-
-	async function goToOptIn() {
-		await tick();
-		document.getElementById('live-optin')?.scrollIntoView({ block: 'center', behavior: 'instant' });
-	}
-
 	async function revealPerspectives(event: SubmitEvent) {
 		event.preventDefault();
 		if (answerLength < 2) {
@@ -336,6 +344,10 @@
 		}
 		error = '';
 		submittedAnswer = answer.trim();
+		if (isLive) {
+			await postAnswer();
+			return;
+		}
 		revealed = true;
 		trackPractice('revealed');
 		await tick();
@@ -388,7 +400,7 @@
 			}}
 />
 
-{#snippet liveOptIn(take: LiveTake)}
+{#snippet liveConversation()}
 	<div class="live-optin ph-no-capture" id="live-optin">
 		{#if posted}
 			<p class="mono kicker posted-kicker">
@@ -447,50 +459,6 @@
 			<Button size="lg" data-track="handoff" data-placement="live_posted" href={liveHref}
 				>Open the full conversation <ArrowRight size={18} aria-hidden="true" /></Button
 			>
-		{:else if postState === 'private'}
-			<h3>Kept private.</h3>
-			<p>
-				Your answer stays in this tab. You can still add it to the conversation before you leave.
-			</p>
-			{#if postError}<p class="form-error" role="alert">{postError}</p>{/if}
-			<div class="next-actions">
-				<Button onclick={postAnswer}>{signedIn ? 'Post it' : 'Post it anonymously'}</Button>
-				<Button
-					variant="secondary"
-					data-track="link"
-					data-placement="live_private"
-					href={resolve('/questions')}>Browse other questions</Button
-				>
-			</div>
-		{:else}
-			<p class="mono kicker">THE REAL CONVERSATION</p>
-			<h3>
-				{take.responses > 0
-					? `${plural(take.responses, 'response from a real person is', 'responses from real people are')} waiting.`
-					: 'Be the first real answer.'}
-			</h3>
-			<p>
-				{signedIn
-					? 'Post your answer to read theirs. It goes up exactly as you wrote it, from your account.'
-					: 'Post your answer anonymously to read theirs. It goes up exactly as you wrote it.'}
-			</p>
-			<blockquote>{submittedAnswer}</blockquote>
-			{#if postError}<p class="form-error" role="alert">{postError}</p>{/if}
-			<div class="next-actions">
-				<Button size="lg" loading={postState === 'posting'} onclick={postAnswer}
-					>{signedIn ? 'Post and read them' : 'Post anonymously and read them'}
-					<ArrowRight size={18} aria-hidden="true" /></Button
-				>
-				<Button variant="ghost" disabled={postState === 'posting'} onclick={keepPrivate}
-					>Keep it private</Button
-				>
-			</div>
-			<p class="optin-fine">
-				{signedIn
-					? 'Posts from your account. One answer per question here.'
-					: 'No name or account attached. One answer per question.'}{#if preview}{' '}Preview:
-					posting is simulated and nothing is saved.{/if}
-			</p>
 		{/if}
 	</div>
 {/snippet}
@@ -530,7 +498,11 @@
 		</div>
 
 		<div class="hero-action">
-			<div class="question-panel ph-no-capture" id="try-a-question">
+			<div
+				class="question-panel ph-no-capture"
+				id="try-a-question"
+				use:qualifiedVisibility={reportGateImpression}
+			>
 				<div class="panel-topline">
 					<span class="mono">{isLive ? 'LIVE QUESTION' : 'YOUR FIRST REACTION'}</span>
 					{#if isLive && liveResponses > 0}
@@ -556,30 +528,52 @@
 							maxlength="600"
 							rows="3"
 							aria-labelledby="practice-question"
-							aria-describedby={error
+							aria-describedby={error || postError
 								? 'answer-reason practice-note practice-error'
 								: 'answer-reason practice-note'}
-							aria-invalid={!!error}
+							aria-invalid={!!error || !!postError}
+							disabled={postState === 'posting'}
 							placeholder={question.hint}
 							oninput={trackAnswerStarted}></textarea>
-						{#if error}<p class="form-error" id="practice-error" role="alert">{error}</p>{/if}
-						<Button type="submit" size="lg" fullWidth class="reveal-button"
-							>Reveal 9 perspectives <ArrowRight size={17} aria-hidden="true" /></Button
+						{#if error || postError}<p class="form-error" id="practice-error" role="alert">
+								{error || postError}
+							</p>{/if}
+						<Button
+							type="submit"
+							size="lg"
+							fullWidth
+							class="reveal-button"
+							loading={postState === 'posting'}
+							>{isLive
+								? signedIn
+									? 'Post and read answers'
+									: 'Post anonymously and read answers'
+								: 'Reveal 9 perspectives'}
+							<ArrowRight size={17} aria-hidden="true" /></Button
 						>
 						<p class="practice-note" id="practice-note">
-							<LockKeyhole size={13} aria-hidden="true" />
+							{#if !isLive}<LockKeyhole size={13} aria-hidden="true" />{/if}
 							<span
 								>{isLive
-									? 'Nothing is posted unless you choose to. No account needed. First, compare 9 AI-written examples.'
+									? signedIn
+										? 'Your answer will be public and posted from your account. Then read other people’s answers.'
+										: 'Your answer will be public, without your name. No account needed. Then read other people’s answers.'
 									: 'Nothing is posted. No account needed. You’ll compare 9 AI-written examples.'}</span
 							>
 						</p>
+						{#if preview && isLive}<p class="preview-note">
+								Preview: posting is simulated and nothing is saved.
+							</p>{/if}
 					</form>
 				{:else}
 					<div class="answer-receipt">
 						<div class="receipt-icon"><Check size={23} aria-hidden="true" /></div>
 						<h2>
-							{alreadyAnswered ? 'You already answered this one.' : 'Your first take is yours.'}
+							{alreadyAnswered
+								? 'You already answered this one.'
+								: posted
+									? 'Your answer is in the conversation.'
+									: 'Your first take is yours.'}
 						</h2>
 						<p class="receipt-question">{cardTitle}</p>
 						{#if shownAnswer}<blockquote>{shownAnswer}</blockquote>{/if}
@@ -592,9 +586,7 @@
 									? 'Still private until you choose to post it.'
 									: 'Still private. Saved only until this page refreshes.'}
 						</p>
-						{#if isLive && !posted}
-							<Button onclick={goToOptIn}>Post it to the conversation</Button>
-						{:else if !posted}
+						{#if !posted}
 							<Button variant="secondary" onclick={editAnswer}>Edit my answer</Button>
 						{/if}
 					</div>
@@ -660,6 +652,12 @@
 			</figure>
 		</div>
 	</section>
+
+	{#if isLive && posted}
+		<section class="section shell" aria-label="The live conversation">
+			{@render liveConversation()}
+		</section>
+	{/if}
 
 	{#if showReveal}
 		<section class="reveal-section section shell" aria-labelledby="reveal-title">
@@ -743,9 +741,7 @@
 				These examples explore motivations. They do not determine your type, and a priority can
 				belong to more than one type.
 			</p>
-			{#if isLive && live}
-				{@render liveOptIn(live)}
-			{:else}
+			{#if !isLive}
 				<div class="next-experience">
 					<div>
 						<h3>Take that curiosity into a conversation.</h3>
@@ -948,11 +944,7 @@
 					? 'You’ve seen what another perspective can open up. Bring yours to a real conversation.'
 					: 'Start with your own answer. See what someone else might be seeing.'}
 			</p>
-			{#if showReveal && isLive && !posted}
-				<Button size="lg" onclick={goToOptIn}
-					>Post your take <ArrowRight size={18} aria-hidden="true" /></Button
-				>
-			{:else if showReveal}
+			{#if showReveal}
 				<Button
 					size="lg"
 					data-track="handoff"
@@ -1614,25 +1606,6 @@
 		margin-top: var(--space-md);
 		font-size: 18px;
 		line-height: 1.55;
-		color: var(--ink-mid);
-	}
-	.live-optin blockquote {
-		margin-top: var(--space-xl);
-		padding: var(--space-lg) var(--space-xl);
-		border-left: 2px solid var(--lamp-glow);
-		background: var(--night-deep);
-		font-size: 18px;
-		line-height: 1.55;
-		overflow-wrap: anywhere;
-		white-space: pre-wrap;
-	}
-	.live-optin .next-actions {
-		margin-top: var(--space-xl);
-	}
-	.optin-fine {
-		margin-top: var(--space-md);
-		font-size: 14px;
-		line-height: 1.5;
 		color: var(--ink-mid);
 	}
 	.posted-kicker {

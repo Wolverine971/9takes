@@ -1,6 +1,7 @@
 // src/lib/types/opentype.d.ts
 declare module 'opentype.js' {
 	export interface Font {
+		tables: { gsub?: unknown };
 		getAdvanceWidth(text: string, fontSize: number, options?: Record<string, unknown>): number;
 		getPath(
 			text: string,
@@ -14,4 +15,6 @@ declare module 'opentype.js' {
 	}
 
 	export function parse(buffer: ArrayBuffer): Font;
+	const opentype: { parse: typeof parse };
+	export default opentype;
 }

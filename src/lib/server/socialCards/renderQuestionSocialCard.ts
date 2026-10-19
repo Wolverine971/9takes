@@ -2,7 +2,7 @@
 import path from 'path';
 import { readFile } from 'node:fs/promises';
 import sharp from 'sharp';
-import * as opentype from 'opentype.js';
+import opentype, { type Font } from 'opentype.js';
 import { calculateQuestionCardTextLayout } from '$lib/socialCards/questionCardTextLayout';
 import {
 	QUESTION_SOCIAL_CARD_HEIGHT,
@@ -29,7 +29,7 @@ const FOOTER_MAX_WIDTH = 960;
 const URL_FONT_SIZES = [20, 18, 16, 14];
 
 let cachedBoldFontBuffer: Buffer | null = null;
-let cachedBoldFont: opentype.Font | null = null;
+let cachedBoldFont: Font | null = null;
 
 const toArrayBuffer = (buffer: Buffer): ArrayBuffer =>
 	buffer.buffer.slice(buffer.byteOffset, buffer.byteOffset + buffer.byteLength) as ArrayBuffer;
@@ -63,7 +63,7 @@ export interface RenderQuestionSocialCardOptions {
 	fontBoldUrl?: string;
 }
 
-const loadBoldFont = async (): Promise<opentype.Font> => {
+const loadBoldFont = async (): Promise<Font> => {
 	if (cachedBoldFont) {
 		return cachedBoldFont;
 	}
@@ -76,15 +76,15 @@ const loadBoldFont = async (): Promise<opentype.Font> => {
 		}
 	}
 	cachedBoldFont = opentype.parse(toArrayBuffer(cachedBoldFontBuffer));
+	// Inter's GSUB contains contextual substitutions that opentype.js cannot
+	// render. These Latin social cards need outlines and kerning, not ligature
+	// substitution; keep the font's glyphs/metrics/GPOS and skip GSUB here only.
+	delete cachedBoldFont.tables.gsub;
 	return cachedBoldFont;
 };
 
-const getAdvanceWidth = (
-	font: opentype.Font,
-	text: string,
-	size: number,
-	letterSpacing = 0
-): number => font.getAdvanceWidth(text, size, { kerning: true, letterSpacing });
+const getAdvanceWidth = (font: Font, text: string, size: number, letterSpacing = 0): number =>
+	font.getAdvanceWidth(text, size, { kerning: true, letterSpacing });
 
 const buildTextPath = ({
 	font,
@@ -96,7 +96,7 @@ const buildTextPath = ({
 	anchor,
 	letterSpacing = 0
 }: {
-	font: opentype.Font;
+	font: Font;
 	text: string;
 	size: number;
 	x: number;

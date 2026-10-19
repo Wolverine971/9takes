@@ -316,7 +316,7 @@ describe('/personality-analysis/[slug] load', () => {
 		expect(questionCalls).toContainEqual(['in', ['url', [...PROVEN_CHORUS_QUESTION_URLS]]]);
 	});
 
-	it('picks per person, and the same person always gets the same question', async () => {
+	it('consistently leads with the simpler starter question', async () => {
 		admin.nineTakes = { data: readyChoruses(PROVEN_CHORUS_QUESTION_URLS), error: null };
 		const pickFor = async (slug: string) => {
 			const { event } = setup({
@@ -331,7 +331,7 @@ describe('/personality-analysis/[slug] load', () => {
 		const picks = await Promise.all(slugs.map(pickFor));
 
 		slugs.forEach((slug, i) => expect(picks[i]).toBe(orderProvenChorusCandidates(slug)[0]));
-		expect(new Set(picks).size).toBeGreaterThan(1);
+		expect(new Set(picks)).toEqual(new Set(['what-were-you-like-as-a-kid-in-3-words']));
 		expect(await pickFor('person-3')).toBe(picks[3]);
 	});
 
@@ -348,7 +348,7 @@ describe('/personality-analysis/[slug] load', () => {
 		expect(result.chorus.questionUrl).toBe(orderProvenChorusCandidates('zendaya')[1]);
 	});
 
-	it('skips a pool question whose nine takes are not seeded yet', async () => {
+	it('uses bundled starter examples when the database chorus is missing or incomplete', async () => {
 		const order = orderProvenChorusCandidates('zendaya');
 		// Only the last candidate in this page's order can accept an answer.
 		admin.nineTakes = {
@@ -365,14 +365,14 @@ describe('/personality-analysis/[slug] load', () => {
 
 		const result = await loadPage(event);
 
-		expect(result.chorus.questionUrl).toBe(order[order.length - 1]);
+		expect(result.chorus.questionUrl).toBe('what-were-you-like-as-a-kid-in-3-words');
 	});
 
 	it('renders no chorus when no pool question is eligible and answerable', async () => {
 		admin.nineTakes = { data: [], error: null };
 		const { event } = setup({
 			person: { data: PUBLISHED_PERSON, error: null },
-			pool: { data: poolRows(), error: null }
+			pool: { data: poolRows().map((row) => ({ ...row, flagged: true })), error: null }
 		});
 
 		expect((await loadPage(event)).chorus).toBeNull();

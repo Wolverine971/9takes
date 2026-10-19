@@ -19,6 +19,13 @@ vi.mock('$lib/analytics/visitorIdentity', () => ({
 	getOrCreateVisitorId: getOrCreateVisitorIdMock
 }));
 
+vi.mock('$lib/analytics/marketingEvents', () => ({ captureChorusInteraction: vi.fn() }));
+vi.mock('$lib/analytics/commentEvents', () => ({
+	captureCommentCreated: vi.fn(),
+	normalizeServerCommentAnalytics: () => ({})
+}));
+
+import { captureChorusInteraction } from '$lib/analytics/marketingEvents';
 import NineChorus from './NineChorus.svelte';
 
 const PROVEN_URL = 'whats-something-every-day-seem-fine-nobody-knows-costing-effort';
@@ -94,6 +101,7 @@ describe('NineChorus', () => {
 			}
 		);
 		Element.prototype.scrollIntoView = vi.fn();
+		vi.clearAllMocks();
 		fetchMock.mockReset();
 		fetchMock.mockImplementation(async (url: string) =>
 			url === '/api/nine/mirror'
@@ -106,6 +114,29 @@ describe('NineChorus', () => {
 	afterEach(() => {
 		vi.useRealTimers();
 		vi.unstubAllGlobals();
+	});
+
+	it('makes the starter question short and labels the AI examples before posting', () => {
+		const { getByRole, getByText } = renderProvenChorus({
+			questionUrl: 'what-were-you-like-as-a-kid-in-3-words',
+			question: 'What were you like as a kid in 3 words?'
+		});
+		expect(getByRole('textbox').getAttribute('rows')).toBe('2');
+		expect(getByText('Just three words. No explanation needed.')).toBeTruthy();
+		expect(getByText(/nine AI-written examples/)).toBeTruthy();
+	});
+
+	it('does not reveal on a malformed success response', async () => {
+		fetchMock.mockImplementation(async (url: string) =>
+			url === '/api/nine/mirror'
+				? mirrorResponse({ takes: TAKES, answerRecorded: false })
+				: new Response(null, { status: 204 })
+		);
+		const { getByRole, findByRole, container } = renderProvenChorus();
+		await fireEvent.input(getByRole('textbox'), { target: { value: 'Quiet, curious, restless.' } });
+		await fireEvent.click(getByRole('button', { name: 'Post answer and compare' }));
+		expect((await findByRole('alert')).textContent).toContain('couldn’t confirm');
+		expect(container.querySelector('.chorus-reveal')).toBeNull();
 	});
 
 	it('shows the question verbatim under the reader-facing lead', () => {
@@ -122,7 +153,7 @@ describe('NineChorus', () => {
 		await fireEvent.input(textarea, {
 			target: { value: '  I color-code my calendar so nobody sees me scramble.  ' }
 		});
-		await fireEvent.click(getByRole('button', { name: 'Answer and see the nine' }));
+		await fireEvent.click(getByRole('button', { name: 'Post answer and compare' }));
 
 		await waitFor(() => expect(callsTo('/api/nine/mirror')).toHaveLength(1));
 		expect(bodyOf(callsTo('/api/nine/mirror')[0])).toEqual({
@@ -150,7 +181,7 @@ describe('NineChorus', () => {
 
 		const textarea = container.querySelector('textarea') as HTMLTextAreaElement;
 		await fireEvent.input(textarea, { target: { value: 'Every single time, honestly.' } });
-		await fireEvent.click(getByRole('button', { name: 'Answer and see the nine' }));
+		await fireEvent.click(getByRole('button', { name: 'Post answer and compare' }));
 
 		await waitFor(() => expect(callsTo('/api/nine/mirror')).toHaveLength(1));
 		expect(bodyOf(callsTo('/api/nine/mirror')[0])).toEqual({
@@ -207,7 +238,7 @@ describe('NineChorus', () => {
 
 		const textarea = container.querySelector('textarea') as HTMLTextAreaElement;
 		await fireEvent.input(textarea, { target: { value: 'Smiling through every meeting.' } });
-		await fireEvent.click(getByRole('button', { name: 'Answer and see the nine' }));
+		await fireEvent.click(getByRole('button', { name: 'Post answer and compare' }));
 
 		await waitFor(() => expect(callsTo('/api/nine/mirror')).toHaveLength(1));
 		const order = fetchMock.mock.calls.map(([url]) => url);
@@ -234,10 +265,19 @@ describe('NineChorus', () => {
 
 		const textarea = container.querySelector('textarea') as HTMLTextAreaElement;
 		await fireEvent.input(textarea, { target: { value: 'Pretending the inbox is fine.' } });
-		await fireEvent.click(getByRole('button', { name: 'Answer and see the nine' }));
+		await fireEvent.click(getByRole('button', { name: 'Post answer and compare' }));
 
 		expect((await findByRole('alert')).textContent).toContain('This chorus is not ready yet');
 		expect(textarea.value).toBe('Pretending the inbox is fine.');
+		expect(captureChorusInteraction).toHaveBeenCalledWith(
+			expect.objectContaining({ step: 'started' })
+		);
+		expect(captureChorusInteraction).toHaveBeenCalledWith(
+			expect.objectContaining({ step: 'failed', errorCategory: 'http_error' })
+		);
+		expect(JSON.stringify(vi.mocked(captureChorusInteraction).mock.calls)).not.toContain(
+			textarea.value
+		);
 		expect(container.querySelector('.chorus-reveal')).toBeNull();
 	});
 });

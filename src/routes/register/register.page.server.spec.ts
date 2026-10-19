@@ -58,6 +58,7 @@ vi.mock('$lib/utils/logger', () => ({
 	logger: loggerMocks
 }));
 
+import { AuthWeakPasswordError, AuthApiError } from '@supabase/supabase-js';
 import { actions } from './+page.server';
 
 function buildRegisterRequest(overrides: Record<string, string> = {}) {
@@ -117,6 +118,24 @@ describe('register action', () => {
 		captureRegistrationCompletedMock.mockResolvedValue(true);
 		profileEqMock.mockResolvedValue({ error: null });
 		profileUpdateMock.mockReturnValue({ eq: profileEqMock });
+	});
+
+	it.each([
+		new AuthWeakPasswordError('Password is known to be weak', 422, ['pwned']),
+		new AuthApiError('weak password', 422, 'weak_password')
+	])('returns an actionable validation error for a weak password', async (error) => {
+		const event = buildEvent({ data: { user: null }, error });
+		const result = await actions.register(event as any);
+		expect(result).toMatchObject({
+			status: 400,
+			data: {
+				error: expect.stringContaining('stronger, unique password'),
+				captchaRequired: false
+			}
+		});
+		expect(loggerMocks.error).not.toHaveBeenCalled();
+		expect(safelyEnrollMock).not.toHaveBeenCalled();
+		expect(JSON.stringify(result)).not.toContain('Password1');
 	});
 
 	it('keeps successful registration working while enrolling in the welcome sequence', async () => {

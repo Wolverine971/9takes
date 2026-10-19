@@ -14,6 +14,14 @@
 	// happens here in the browser: the visitor id, the gate impression, the answer.
 	import { tick } from 'svelte';
 	import { prefersReducedMotion } from 'svelte/motion';
+	import { resolve } from '$app/paths';
+	import { CHORUS_STARTER_SLUG } from '$lib/data/chorusStarter';
+	import { qualifiedVisibility } from '$lib/analytics/qualifiedVisibility';
+	import { captureChorusInteraction } from '$lib/analytics/marketingEvents';
+	import {
+		captureCommentCreated,
+		normalizeServerCommentAnalytics
+	} from '$lib/analytics/commentEvents';
 	import { browser } from '$app/environment';
 	import QRCode from 'qrcode';
 	import { TYPE_COLOR_MAP, formatTypeLabel } from '$lib/constants/enneagramColors';
@@ -42,11 +50,6 @@
 		lead?: string | null;
 	} = $props();
 
-	// A gate impression counts once the Chorus has been on screen, like the
-	// qualified question impressions elsewhere: half visible for 750ms.
-	const IMPRESSION_VISIBLE_SHARE = 0.5;
-	const IMPRESSION_DWELL_MS = 750;
-
 	let phase = $state<'threshold' | 'revealed'>('threshold');
 	let draft = $state('');
 	let submitting = $state(false);
@@ -55,12 +58,27 @@
 	let takes = $state<Take[]>([]);
 	let shareState = $state<'idle' | 'copied'>('idle');
 	let qrDataUrl = $state('');
+	let alreadyAnswered = $state(false);
+	let started = false;
+	let isStarter = $derived(questionUrl === CHORUS_STARTER_SLUG);
+	function track(
+		step: 'shown' | 'started' | 'submitted' | 'failed' | 'revealed',
+		errorCategory?: 'http_error' | 'network_error' | 'invalid_response'
+	) {
+		if (questionUrl)
+			void captureChorusInteraction({ step, questionUrl, sourcePath, errorCategory });
+	}
+	function startAnswer() {
+		submitError = null;
+		if (started || !draft.trim()) return;
+		started = true;
+		track('started');
+	}
 
 	let root = $state<HTMLElement | undefined>();
 
 	const wordCount = $derived(draft.trim() ? draft.trim().split(/\s+/).length : 0);
-	const canSubmit = $derived(wordCount >= 3 && !submitting);
-	const questionPath = $derived(questionUrl ? `/questions/${questionUrl}` : '');
+	const canSubmit = $derived(wordCount >= 3 && draft.trim().length >= 8 && !submitting);
 	const shareUrl = $derived(questionUrl ? `https://9takes.com/questions/${questionUrl}` : '');
 
 	async function submit() {
@@ -69,6 +87,8 @@
 		reportGateImpression();
 		submitting = true;
 		submitError = null;
+		track('submitted');
+		let errorCategory: 'http_error' | 'network_error' | 'invalid_response' = 'network_error';
 		try {
 			const res = await fetch('/api/nine/mirror', {
 				method: 'POST',
@@ -76,7 +96,30 @@
 				body: JSON.stringify(buildMirrorRequest(draft.trim()))
 			});
 			const data = await res.json().catch(() => null);
-			if (!res.ok) throw new Error(data?.error ?? data?.message ?? 'failed');
+			if (!res.ok) {
+				errorCategory = 'http_error';
+				throw new Error(data?.error ?? data?.message ?? 'failed');
+			}
+			errorCategory = 'invalid_response';
+			if (data?.answerRecorded !== true || !Array.isArray(data.takes) || data.takes.length !== 9) {
+				throw new Error(
+					'We couldn’t confirm your answer. Your draft is still here; please try again.'
+				);
+			}
+			alreadyAnswered = data.alreadyAnswered === true;
+			if (!alreadyAnswered && Number.isSafeInteger(data.questionId)) {
+				void captureCommentCreated({
+					surface: 'personality_chorus',
+					sourcePath: sourcePath ?? undefined,
+					questionId: data.questionId,
+					questionUrl: questionUrl ?? undefined,
+					commentKind: 'answer',
+					parentType: 'question',
+					commentId: data.commentId,
+					isAnonymous: data.isAnonymous === true,
+					...normalizeServerCommentAnalytics(data.commentAnalytics)
+				});
+			}
 			mirror =
 				typeof data?.reflection === 'string' &&
 				Number.isInteger(data?.resonantType) &&
@@ -89,6 +132,7 @@
 					: null;
 			takes = data.takes ?? [];
 			phase = 'revealed';
+			track('revealed');
 			if (browser && shareUrl) {
 				QRCode.toDataURL(shareUrl, { width: 180, margin: 1 })
 					.then((url) => (qrDataUrl = url))
@@ -100,6 +144,7 @@
 				block: 'start'
 			});
 		} catch (e) {
+			track('failed', errorCategory);
 			submitError =
 				e instanceof Error && e.message !== 'failed'
 					? e.message
@@ -126,6 +171,7 @@
 	function reportGateImpression() {
 		if (gateReported || !browser || !questionUrl || !sourcePath) return;
 		gateReported = true;
+		track('shown');
 		void fetch('/api/nine/impression', {
 			method: 'POST',
 			keepalive: true,
@@ -134,42 +180,6 @@
 		}).catch(() => {
 			/* instrumentation is best-effort */
 		});
-	}
-
-	function trackGateImpression(node: HTMLElement) {
-		if (!browser || typeof IntersectionObserver === 'undefined') return;
-
-		let timer: ReturnType<typeof setTimeout> | null = null;
-		const clearTimer = () => {
-			if (timer) clearTimeout(timer);
-			timer = null;
-		};
-		const observer = new IntersectionObserver(
-			([entry]) => {
-				// A Chorus taller than the viewport can never be half visible, so
-				// filling half the screen counts too.
-				const onScreen =
-					Boolean(entry?.isIntersecting) &&
-					(entry.intersectionRatio >= IMPRESSION_VISIBLE_SHARE ||
-						entry.intersectionRect.height >= window.innerHeight * IMPRESSION_VISIBLE_SHARE);
-				if (!onScreen) return clearTimer();
-				if (timer || gateReported) return;
-				timer = setTimeout(() => {
-					timer = null;
-					observer.disconnect();
-					reportGateImpression();
-				}, IMPRESSION_DWELL_MS);
-			},
-			{ threshold: [0, 0.25, 0.5, 0.75, 1] }
-		);
-		observer.observe(node);
-
-		return {
-			destroy() {
-				clearTimer();
-				observer.disconnect();
-			}
-		};
 	}
 
 	async function share() {
@@ -201,9 +211,9 @@
 
 {#if question}
 	<section
-		class="chorus"
+		class="chorus ph-no-capture"
 		bind:this={root}
-		use:trackGateImpression
+		use:qualifiedVisibility={reportGateImpression}
 		aria-label="One question, nine perspectives"
 	>
 		<header class="chorus-head">
@@ -222,10 +232,13 @@
 					<textarea
 						id="chorus-take"
 						bind:value={draft}
-						oninput={() => (submitError = null)}
+						oninput={startAnswer}
 						maxlength="2000"
-						rows="4"
-						placeholder="Answer honestly. You see everyone else’s answers after you write yours."
+						rows={isStarter ? 2 : 4}
+						disabled={submitting}
+						placeholder={isStarter
+							? 'Three words that describe you as a kid…'
+							: 'A few words in your own voice…'}
 						aria-invalid={submitError ? 'true' : 'false'}
 						aria-describedby={`chorus-take-count${submitError ? ' chorus-take-error' : ''}`}
 					></textarea>
@@ -234,17 +247,21 @@
 				<div class="give-foot">
 					<span id="chorus-take-count" class="count" class:ready={wordCount >= 3}>
 						{wordCount === 0
-							? 'A sentence is enough.'
+							? isStarter
+								? 'Just three words. No explanation needed.'
+								: 'A sentence is enough.'
 							: `${wordCount} word${wordCount === 1 ? '' : 's'}`}
 					</span>
 					<button class="reveal-btn" onclick={submit} disabled={!canSubmit}>
-						{submitting ? 'Listening…' : 'Answer and see the nine'}
+						{submitting ? 'Posting…' : 'Post answer and compare'}
 					</button>
 				</div>
 				{#if submitError}
 					<p id="chorus-take-error" class="submit-error" role="alert">{submitError}</p>
 				{/if}
-				<p class="promise">You answer before you see. That is the whole point.</p>
+				<p class="promise">
+					Compare your answer with nine AI-written examples of different perspectives.
+				</p>
 				<p class="trust">No account needed. Your answer is posted publicly to the question page.</p>
 			</div>
 		{:else}
@@ -257,9 +274,11 @@
 
 				<!-- 2. Your answer + the mirror -->
 				<div class="your-answer block" style={`--accent:${typeColor(mirror?.resonantType ?? 9)}`}>
-					<span class="block-kicker">YOUR ANSWER</span>
-					<p class="your-text">{draft.trim()}</p>
-					{#if mirror}
+					<span class="block-kicker"
+						>{alreadyAnswered ? 'YOU ALREADY ANSWERED THIS QUESTION' : 'YOUR ANSWER · POSTED'}</span
+					>
+					{#if !alreadyAnswered}<p class="your-text">{draft.trim()}</p>{/if}
+					{#if mirror && !alreadyAnswered}
 						<p class="mirror-text">{mirror.reflection}</p>
 						<span class="closest">Closest to {formatTypeLabel(mirror.resonantType)}</span>
 					{/if}
@@ -268,12 +287,17 @@
 				<!-- 3. The nine -->
 				<div class="block">
 					<span class="block-kicker">HOW THE NINE TYPES ANSWER</span>
-					<p class="sub">Same question. None of them wrong.</p>
+					<p class="sub">
+						AI-written examples illustrate different priorities. They don’t determine your type.
+					</p>
 					<ol class="voices">
 						{#each takes as t, i (t.type)}
 							<li class="voice" style={`--accent:${typeColor(t.type)}; --delay:${i * 50}ms`}>
 								<span class="voice-name">{formatTypeLabel(t.type)}</span>
 								<p class="voice-take">{t.take}</p>
+								<span class="voice-name"
+									>{t.source === 'human' ? 'Community answer' : 'AI-written example'}</span
+								>
 							</li>
 						{/each}
 					</ol>
@@ -297,7 +321,7 @@
 										? 'Link copied'
 										: 'Share with your friends to see what they would say'}
 								</button>
-								<a class="door-link" href={questionPath}
+								<a class="door-link" href={resolve('/questions/[slug]', { slug: questionUrl })}
 									>See everyone’s answers on the question page →</a
 								>
 							</div>
@@ -306,7 +330,9 @@
 				{/if}
 
 				<div class="doorway">
-					<a class="door-link subtle" href="/enneagram-test">Find which voice is yours →</a>
+					<a class="door-link subtle" href={resolve('/enneagram-test')}
+						>Find which voice is yours →</a
+					>
 				</div>
 			</div>
 		{/if}

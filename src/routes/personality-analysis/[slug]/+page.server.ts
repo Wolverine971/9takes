@@ -28,6 +28,7 @@ import {
 	PROVEN_CHORUS_QUESTION_URLS,
 	orderProvenChorusCandidates
 } from '$lib/server/provenChorusQuestions';
+import { bundledChorusTakes } from '$lib/server/bundledChorus';
 import personalitySimilaritySnapshot from '$lib/generated/personalitySimilaritySnapshot.json';
 import { waitUntil } from '@vercel/functions';
 import { smartQuotesText } from '$lib/utils/smartQuotes';
@@ -340,6 +341,9 @@ async function resolveProvenChorusQuestion(
 	if (publicText.size === 0) return null;
 
 	const ready = await findReadyChoruses('question', [...publicText.keys()], pageSlug);
+	for (const questionUrl of publicText.keys()) {
+		if (bundledChorusTakes(questionUrl)) ready.add(questionUrl);
+	}
 
 	for (const questionUrl of orderProvenChorusCandidates(pageSlug)) {
 		const question = publicText.get(questionUrl);

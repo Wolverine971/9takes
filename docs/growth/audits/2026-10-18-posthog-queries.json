@@ -1,0 +1,144 @@
+{
+	"project_id": 35460,
+	"project_timezone": "UTC",
+	"host": "9takes.com",
+	"interpretation": "Secondary step-level counts, not a sequential funnel. Explicit date bounds align the comparison to America/New_York. Weekly display bins start Sunday UTC; read the two returned rows together, not as ET calendar weeks.",
+	"queries": [
+		{
+			"label": "prior",
+			"tool": "query-trends",
+			"input": {
+				"series": [
+					{
+						"kind": "EventsNode",
+						"event": "homepage_practice_started",
+						"math": "dau"
+					},
+					{
+						"kind": "EventsNode",
+						"event": "homepage_practice_revealed",
+						"math": "dau"
+					},
+					{
+						"kind": "EventsNode",
+						"event": "homepage_practice_live_post_clicked",
+						"math": "dau"
+					},
+					{
+						"kind": "EventsNode",
+						"event": "homepage_practice_live_kept_private",
+						"math": "dau"
+					},
+					{
+						"kind": "EventsNode",
+						"event": "homepage_practice_handoff_clicked",
+						"math": "dau"
+					},
+					{
+						"kind": "EventsNode",
+						"event": "comment_started",
+						"math": "dau"
+					},
+					{
+						"kind": "EventsNode",
+						"event": "comment_created",
+						"math": "dau"
+					},
+					{
+						"kind": "EventsNode",
+						"event": "test_started",
+						"math": "dau"
+					},
+					{
+						"kind": "EventsNode",
+						"event": "test_result_shown",
+						"math": "dau"
+					}
+				],
+				"dateRange": {
+					"date_from": "2026-10-05T04:00:00Z",
+					"date_to": "2026-10-12T03:59:59Z"
+				},
+				"interval": "week",
+				"filterTestAccounts": true,
+				"properties": [
+					{
+						"key": "$host",
+						"operator": "exact",
+						"type": "event",
+						"value": "9takes.com"
+					}
+				]
+			},
+			"result": "Date|homepage_practice_started|homepage_practice_revealed|homepage_practice_live_post_clicked|homepage_practice_live_kept_private|homepage_practice_handoff_clicked|comment_started|comment_created|test_started|test_result_shown\n2026-10-04|5|5|3|2|1|2|4|1|1\n2026-10-11|0|0|0|0|0|0|0|0|0"
+		},
+		{
+			"label": "current",
+			"tool": "query-trends",
+			"input": {
+				"series": [
+					{
+						"kind": "EventsNode",
+						"event": "homepage_practice_started",
+						"math": "dau"
+					},
+					{
+						"kind": "EventsNode",
+						"event": "homepage_practice_revealed",
+						"math": "dau"
+					},
+					{
+						"kind": "EventsNode",
+						"event": "homepage_practice_live_post_clicked",
+						"math": "dau"
+					},
+					{
+						"kind": "EventsNode",
+						"event": "homepage_practice_live_kept_private",
+						"math": "dau"
+					},
+					{
+						"kind": "EventsNode",
+						"event": "homepage_practice_handoff_clicked",
+						"math": "dau"
+					},
+					{
+						"kind": "EventsNode",
+						"event": "comment_started",
+						"math": "dau"
+					},
+					{
+						"kind": "EventsNode",
+						"event": "comment_created",
+						"math": "dau"
+					},
+					{
+						"kind": "EventsNode",
+						"event": "test_started",
+						"math": "dau"
+					},
+					{
+						"kind": "EventsNode",
+						"event": "test_result_shown",
+						"math": "dau"
+					}
+				],
+				"dateRange": {
+					"date_from": "2026-10-12T04:00:00Z",
+					"date_to": "2026-10-18T13:12:00Z"
+				},
+				"interval": "week",
+				"filterTestAccounts": true,
+				"properties": [
+					{
+						"key": "$host",
+						"operator": "exact",
+						"type": "event",
+						"value": "9takes.com"
+					}
+				]
+			},
+			"result": "Date|homepage_practice_started|homepage_practice_revealed|homepage_practice_live_post_clicked|homepage_practice_live_kept_private|homepage_practice_handoff_clicked|comment_started|comment_created|test_started|test_result_shown\n2026-10-11|2|2|0|0|0|0|0|2|2\n2026-10-18 (partial)|0|0|0|0|0|1|1|0|0\n\nNote: rows marked \"(partial)\" cover an interval that is still in progress as of the query time, so their values are incomplete. Timezone: UTC."
+		}
+	]
+}

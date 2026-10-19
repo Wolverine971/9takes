@@ -10,6 +10,20 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Active workstreams
 
+### 2026-10-18 — Conversion fixes implemented locally, awaiting deployment
+
+Following DJ's instruction, the homepage now posts and reveals real responses in one explicit action; celebrity pages prefer the simpler three-word childhood question with bundled AI examples, removing the missing-seed dependency. Exposure/start/failure tracking, weak-password validation, host-backlog accounting/alarms, and social-card font rendering are repaired. See the [implementation entry in the growth log](../growth/growth-log.md#2026-10-18--conversion-fixes-prepared-locally) for validation and the post-deployment readout. This is a local code change, not a production conversion result. Replies to waiting contributors and recovery of confirmation 211 remain operational work.
+
+### 2026-10-18 — Marketing investigation: traffic is steady; celebrity conversion and the unanswered-reply loop remain the constraints
+
+- [Fresh brief](../daily-briefs/2026-10-18_marketing-status.md) and [growth audit](../growth/growth-log.md). Live read-only production queries, PostHog project 35460, live UI walkthrough and recent-change review. No product or production mutations.
+- **Observed:** Oct 12 partial week has 632 human visitors, 1 response, 0 email signups, 0 registrations; prior complete week had 676 / 6 / 2 / 1. Same Monday–Saturday visitors **582 → 624 (+7.2%)**. Non-admin question creation was already near zero: one since July 1.
+- **Celebrity leak:** **226 exposed → 1 answer since Oct 3**, including 102 → 0 this week. q118/q203 still lack question seeds. Homepage: 2 people completed the private reveal this week and neither clicked to post; the private exercise is not a community contribution.
+- **Newly confirmed operational mistake:** the digest excludes already-emailed pending drafts from repeat reminders and returns before counting them when there are no new items. Six `no_takes` days hid 15 pending drafts; today's desk has 16. All six prior-week contributors remain unanswered, with 0 repeat contributions within seven days. Three reply opt-ins remain unnotified.
+- **Technical:** 81 existing tests pass. No confirmed broad outage. Weak-password messaging, confirmation 211 recovery and homepage exposure tracking remain unfinished; two social-card rendering errors use a fallback. The type-prompt sequence remains draft. Current newsletter rejections resemble automation, not engaged readers blocked by a new rule.
+- **Marketing operations:** 453 published people profiles / 146 unpublished; all publisher runs Oct 13–18 found no publishable draft. Instagram runway remains RED, 0/10 approved/scheduled; latest local engagement record Aug 7. GSC exports stop Oct 4; live outreach status not rechecked.
+- **Priority:** reply to current contributors and surface overdue drafts; finish/change the celebrity prompt; then repair conversion error messages and measurement. Details and success criteria are in the brief. These actions were not executed by this investigation.
+
 ### 2026-10-12 — Unattended weekly brief: comments recovered to 6 (half via the new homepage box) but the celebrity gate showed q567 to 103 readers for 1 take and 0 of 6 takes got a reply; the same two DJ-only steps (seed approval, desk replies) are open a second week while DJ shipped 15 commits (Enneagram test, Google-only answer summaries, stale-facts pass, CEO page, Dakota Johnson, Doja Cat 7 -> 9); outreach restarted and Enneagram Monthly invited a draft
 
 - Brief: [`docs/daily-briefs/2026-10-12_marketing-status.md`](../daily-briefs/2026-10-12_marketing-status.md). Growth freshness gate PASSED (growth-log `### 2026-10-12`; audit started 06:00:00, brief started 06:11:41; chain on time). Headline + biggest leak quoted verbatim. Supabase MCP down (6th week); read-only `scripts/db-query.sh` (people counts + 18 key rows, inserts/publishes since 10-05, `blogs_famous_people_history` since 10-05, `email_sends` by sequence) + nine read-only production GETs.

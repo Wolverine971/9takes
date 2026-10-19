@@ -11,6 +11,7 @@ import { SmartLLMService } from '../../utils/server/smart-llm-service';
 import { enneagramTypeProfiles } from '$lib/data/enneagramTypeProfiles';
 import { ENNEAGRAM_TYPE_COLORS } from '$lib/constants/enneagramColors';
 import { isQuestionPubliclyEligible } from '$lib/server/questionEditorial';
+import { bundledChorusTakes } from '$lib/server/bundledChorus';
 
 export type NineTake = {
 	type: number; // 1..9
@@ -117,10 +118,10 @@ export async function getChorusForQuestion(questionUrl: string): Promise<ChorusD
 
 	const { data: q } = await (supabase as any)
 		.from('questions')
-		.select('id, question, question_formatted, flagged, removed')
+		.select('id, question, question_formatted, flagged, removed, data')
 		.eq('url', questionUrl)
 		.maybeSingle();
-	if (!q?.id || q.flagged || q.removed) return null;
+	if (!q?.id || !isQuestionPubliclyEligible(q)) return null;
 
 	const { data: row } = await (supabase as any)
 		.from('nine_takes')
@@ -129,7 +130,8 @@ export async function getChorusForQuestion(questionUrl: string): Promise<ChorusD
 		.eq('subject_slug', questionUrl)
 		.maybeSingle();
 
-	const takes = Array.isArray(row?.takes) ? (row.takes as NineTake[]) : [];
+	const cachedTakes = Array.isArray(row?.takes) ? (row.takes as NineTake[]) : [];
+	const takes = cachedTakes.length === 9 ? cachedTakes : (bundledChorusTakes(questionUrl) ?? []);
 	if (takes.length !== 9) return null;
 
 	const question = clean(row?.situation) || clean(q.question_formatted) || clean(q.question);

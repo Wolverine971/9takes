@@ -21,6 +21,7 @@ import {
 	recordStrategicQuestionImpression
 } from '$lib/server/giveFirstFunnel';
 import { PROVEN_CHORUS_QUESTION_URLS } from '$lib/server/provenChorusQuestions';
+import { LIVE_TAKE_SLUG } from '$lib/data/homepageLiveTake';
 import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 import { normalizePersonalitySlug } from '$lib/utils/personalityAnalysis';
 import { CONTENT_GUARD_CACHE_CONTROL } from '$lib/server/contentAccessGuard';
@@ -34,7 +35,10 @@ const requestSchema = z.object({
 		.min(1)
 		.max(160)
 		.regex(/^[a-z0-9-]+$/i, 'invalid question'),
-	sourcePath: z.string().max(300).regex(SOURCE_PATH_PATTERN, 'invalid path'),
+	sourcePath: z
+		.string()
+		.max(300)
+		.refine((path) => path === '/' || SOURCE_PATH_PATTERN.test(path), 'invalid path'),
 	fingerprint: z.string().trim().min(1).max(100).optional()
 });
 
@@ -47,6 +51,7 @@ const noContent = () =>
  * would let a caller pin gate impressions on arbitrary questions and paths.
  */
 async function isQuestionShownOnPage(questionUrl: string, sourcePath: string): Promise<boolean> {
+	if (sourcePath === '/') return questionUrl === LIVE_TAKE_SLUG;
 	if (PROVEN_CHORUS_QUESTION_URLS.includes(questionUrl)) return true;
 
 	const slug = normalizePersonalitySlug(sourcePath.match(SOURCE_PATH_PATTERN)?.[1] ?? '');

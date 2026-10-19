@@ -10,6 +10,50 @@ Use this file as the persistent memory for growth work across audits, research p
 
 ## Experiment Log
 
+### 2026-10-18 — Conversion fixes prepared locally
+
+DJ authorized fixing the defects found in the audit. Product changes are implemented and tested locally; **not deployed**. The morning audit below describes the pre-change production state.
+
+- Homepage: one explicit **Post anonymously and read answers** action now submits the existing draft and opens real responses before the AI examples. Signed-in copy says the answer posts from the account. Failed requests keep the draft; repeat answers show the server-confirmed existing take. Preview stays simulated, and an unavailable live question retains the private exercise fallback.
+- Celebrity articles: default fallback is q118, **What were you like as a kid in 3 words?**, with an explicit article-to-reader transition and a compact composer. Nine short, labeled AI examples ship in code; a complete curated database chorus takes precedence. This removes the missing-seed dependency without changing production rows or unflagging hidden questions. The public backing question and editorial eligibility are checked by both the loader and answer endpoint.
+- Measurement: homepage impressions can now use the browser's new visitor identity. `chorus_shown/started/submitted/failed/revealed` include question URL, source path and prompt version (`three_words_v1`); successful new posts also emit canonical `comment_created`. Newsletter exposure/start/submit/failure now complement completion. No answer text or email is sent in these events. The live homepage funnel is now **started → live_post_clicked → comment_created**, rather than private reveal → optional post; do not compare the old private-reveal step as the same conversion.
+- Defects: weak passwords return an actionable 400 instead of a generic 500; host digest counts previously emailed pending drafts before its early return and raises an alarm even with no new takes; social cards use the CommonJS default font import and skip unsupported Inter GSUB substitutions while retaining outlines and kerning.
+- Validation: 153 targeted tests across 14 files (152-test regression run plus the added analytics privacy case), full Svelte check with no errors, desktop/mobile browser inspection and a simulated homepage post. Production build, traced Vercel server-runtime checks and static/final bundle budgets all passed. Svelte check reports 21 pre-existing warnings in eight unrelated files. No synthetic public answer, signup, email or deployment was performed.
+- Rollout: deploy the code, revalidate cached personality article pages, then verify q118 appears before starting the readout. No database seeding is needed for this starter.
+- Readout after deployment: compare qualified q118 exposures → starts → submitted → server-confirmed contributions, plus request failures, article engagement and seven-day returns. Initial target remains at least 3 celebrity contributors per week for two weeks; the previous gate was 1/226. No conversion improvement is claimed before live data exists.
+- Still operational: reply to pending contributors and recover failed confirmation 211. Logging an outstanding draft is not a reply or a reminder email. No automatic host replies or new mailing schedule were added.
+
+Visual checks: [celebrity prompt](audits/2026-10-18-fixes/celebrity-prompt.png), [homepage on mobile](audits/2026-10-18-fixes/homepage-mobile.png), [simulated homepage reveal](audits/2026-10-18-fixes/homepage-preview.png).
+
+### 2026-10-18
+
+**Marketing investigation: traffic held up, but participation fell to one response this partial week. The celebrity gate is now 226 visitors → 1 answer since launch, all six prior-week contributors remain unanswered, and the digest silently ignores an already-emailed reply backlog on days with no new takes.**
+
+Live production reads via `scripts/db-query.sh`; headline source **`admin_engagement_trends_weekly_v2(26)`**. Weeks start Monday, America/New_York. Last complete week is Oct 5–11; current counts are partial through Oct 18 morning. Visitor rollup refreshed 00:35 ET, while responses/signups were checked through approximately 09:12 ET. The Oct 2 gate-crawler/path breaks and Oct 3 replacement-surface launch predate the current comparison; older raw gate counts are not comparable.
+
+| Week          | Human visitors (returning) | Human comments | Contributors (returning) | Real signups | Registrations | Bookings |
+| ------------- | -------------------------: | -------------: | -----------------------: | -----------: | ------------: | -------: |
+| 08-17         |                   586 (35) |              3 |                    3 (0) |            0 |             0 |        0 |
+| 08-24         |                   590 (27) |              7 |                    5 (1) |            1 |             3 |        0 |
+| 08-31         |                   582 (38) |              4 |                    3 (0) |            0 |             2 |        0 |
+| 09-07         |                   643 (28) |              6 |                    6 (0) |            0 |             0 |        0 |
+| 09-14         |                   658 (35) |              9 |                    6 (1) |            1 |             1 |        0 |
+| 09-21         |                   669 (43) |              0 |                    0 (0) |            1 |             0 |        0 |
+| 09-28         |                   586 (35) |              2 |                    2 (0) |            1 |             1 |        1 |
+| 10-05         |                   676 (22) |              6 |                    6 (0) |            2 |             1 |        1 |
+| 10-12 partial |                   632 (35) |              1 |                    1 (0) |            0 |             0 |        0 |
+
+- **Direction:** same Monday–Saturday engaged visitors rose **582 → 624 (+7.2%)**. Responses averaged 8.2/week in the ten weeks starting July 13; the recent fall is real. Signups were already scarce (11 across the prior 25 complete weeks), and only one non-admin question was created since July 1. No evidence of a new acquisition collapse.
+- **Activation:** celebrity **102 → 0** this week, **226 → 1 (0.44%)** since Oct 3; 90/102 gate visitors engaged ≥30 seconds. Only q567 has seeded question takes; q118/q203 rotation remains incomplete. PostHog homepage exercise counts: **5 started / 5 revealed / 3 clicked post** last week; **2 / 2 / 0** this partial week. These are independent step counts, not a sequential funnel. Live reveal works but saves no public response until the second choice.
+- **Retention:** six prior-week contributors → **1 visit-return, 0 repeat contributions within seven days**, all six unanswered. Desk: **16 pending / 1 posted lifetime**; 3 reply opt-ins, 0 notified. Fresh response 759 also needs a reply. `hostDigest.ts` returns before counting already-sent pending drafts when no new/unsent items exist; six `no_takes` runs logged backlog 0 and no alarm while 15 drafts waited.
+- **Technical:** 81 relevant existing tests passed; homepage reveal, article, login and registration render live. No synthetic production submissions. Weak-password fallback remains misleading, but no new occurrences this week. Mail: 3 welcome sends, 0 failures; confirmation 211 still not resent. Two social-card errors fall back to a generic image. No confirmed new site-wide outage. Homepage exposure and celebrity/newsletter start/failure instrumentation remain incomplete.
+
+**Biggest leak: engaged readers are not becoming participants, and participants receive no response.** The highest-volume prompt gets 0.44% answers; the entire prior-week contributor cohort received no reply. Anti-pattern: counting automated work completed while the human outcome remains unfinished.
+
+Ranked bets: **(1)** reply to 759/754/749/743 and add overdue-backlog reminders (success: ≥80% new substantive takes replied within 24 hours and ≥1 returning contributor over two weeks); **(2)** finish q118/q203 seeding or replace the celebrity slot with an on-topic prompt (≥3 celebrity contributors/week for two weeks); **(3)** fix weak-password messaging, recover confirmation 211 and instrument actual exposure/start/submit/failure. These are proposed changes, not executed. Host digest is running but backlog reminders are ineffective; celebrity/homepage experiments remain running; mail is restored but recovery incomplete; type-prompt sequence remains draft.
+
+Full evidence, limitations and marketing scan: [October 18 brief](../daily-briefs/2026-10-18_marketing-status.md), [SQL](audits/2026-10-18-marketing-funnel.sql), [weekly snapshot](audits/2026-10-18-weekly-snapshot.json), [PostHog queries](audits/2026-10-18-posthog-queries.json). Audit browser actions occurred after the analytics cutoff. Product code and production state were not changed.
+
 ### 2026-10-12
 
 **Weekly growth audit: comments came back to 6, from six different people, after two weeks at 0 and 2. Half arrived through the new homepage answer box. None of the six got a reply, the desk now holds 15 unposted drafts, and one contributor came back 30 hours later to look at their take and left. Celebrity pages showed the gate to 103 readers and got 1 take, which says "i dont understand this question". Mail is on again after 34 days, and the week's one registrant unsubscribed after the third welcome email.**

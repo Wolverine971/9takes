@@ -553,7 +553,9 @@
 				questionUrl={chorus.questionUrl}
 				personName={postDisplayName}
 				sourcePath={`/personality-analysis/${post.slug}`}
-				lead="Before you see how the nine types answered, add yours."
+				lead={chorus.source === 'proven'
+					? `You’ve been reading about ${postDisplayName}’s personality. What about yours? Start with an easy question about you.`
+					: 'What does this bring up for you? Add your own perspective.'}
 			/>
 		{/key}
 	{/if}

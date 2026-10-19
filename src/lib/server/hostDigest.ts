@@ -1027,6 +1027,11 @@ function applyAlarm(summary: HostDigestSummary): void {
 			`${summary.insertFailures} take${summary.insertFailures === 1 ? '' : 's'} could not be saved to the desk`
 		);
 	}
+	if (summary.olderPending > 0) {
+		reasons.push(
+			`${summary.olderPending} previously emailed host draft${summary.olderPending === 1 ? '' : 's'} still awaiting a reply or dismissal`
+		);
+	}
 	if (summary.status === 'send_failed') reasons.push(`email failed: ${summary.error ?? 'unknown'}`);
 	if (summary.status === 'no_recipient') reasons.push('PRIVATE_ADMIN_EMAIL is not configured');
 	if (summary.status === 'crashed') reasons.push(`run crashed: ${summary.error ?? 'unknown'}`);
@@ -1246,14 +1251,16 @@ async function executeHostDigest(
 		summary.carriedOver += 1;
 	}
 
-	if (items.length === 0) return;
-
-	const { count: olderPending } = await supabase
+	const { count: olderPending, error: pendingError } = await supabase
 		.from('host_reply_drafts')
 		.select('id', { count: 'exact', head: true })
 		.eq('status', 'pending')
 		.not('digest_sent_at', 'is', null);
+	if (pendingError) throw new Error('Failed to count pending host drafts');
 	summary.olderPending = typeof olderPending === 'number' ? olderPending : 0;
+
+	// Count and surface the backlog even on days without a new take.
+	if (items.length === 0) return;
 
 	if (!recipient) {
 		summary.status = 'no_recipient';

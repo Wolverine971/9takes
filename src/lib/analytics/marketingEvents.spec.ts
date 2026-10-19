@@ -6,6 +6,8 @@ const { captureMock } = vi.hoisted(() => ({ captureMock: vi.fn() }));
 vi.mock('$lib/analytics/posthog', () => ({ capture: captureMock }));
 
 import {
+	captureChorusInteraction,
+	captureEmailSignupStep,
 	captureEmailSignupCompleted,
 	captureHomepageLinkClicked,
 	captureHomepagePractice,
@@ -15,6 +17,32 @@ import {
 
 describe('marketing conversion events', () => {
 	beforeEach(() => vi.clearAllMocks());
+
+	it('records prompt and signup drop-offs without copying submitted content', async () => {
+		await captureChorusInteraction({
+			step: 'failed',
+			questionUrl: 'what-were-you-like-as-a-kid-in-3-words',
+			sourcePath: '/personality-analysis/jack-black',
+			errorCategory: 'http_error',
+			...({ answer: 'private answer' } as {})
+		});
+		await captureEmailSignupStep({
+			step: 'started',
+			surface: 'blog_purpose',
+			sourcePath: '/personality-analysis/jack-black',
+			...({ email: 'private@example.com' } as {})
+		});
+		expect(captureMock.mock.calls[0]).toEqual([
+			'chorus_failed',
+			expect.objectContaining({
+				prompt_version: 'three_words_v1',
+				question_url: 'what-were-you-like-as-a-kid-in-3-words',
+				error_category: 'http_error'
+			})
+		]);
+		expect(captureMock.mock.calls[1][0]).toBe('email_signup_started');
+		expect(JSON.stringify(captureMock.mock.calls)).not.toContain('private');
+	});
 
 	it('captures a server-confirmed reveal without submitted text', async () => {
 		await captureRevealCompleted({

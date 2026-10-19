@@ -20,12 +20,11 @@
 //   q203  what are your criteria for considering someone a friend?  8 human
 //         takes; 3/31 (10%) on its question page.
 //
-// /api/nine/mirror can only accept an answer once a question has its nine
-// cached takes (nine_takes, subject_type 'question'). q118 and q203 have none
-// yet, so the page loader skips them until DJ seeds them
-// (scripts/seed-strategic-question.mjs); until then every page gets q567.
-// Order is strongest first and only matters as the walk order after the
-// per-person starting point.
+// October 18: q118 now has bundled, explicitly AI-labeled examples and is the
+// default. A curated database chorus replaces the bundled examples when present.
+// Other candidates remain fallbacks if q118 is no longer publicly eligible.
+import { CHORUS_STARTER_SLUG } from '$lib/data/chorusStarter';
+
 export const PROVEN_CHORUS_QUESTION_URLS: readonly string[] = [
 	'whats-something-every-day-seem-fine-nobody-knows-costing-effort',
 	'what-were-you-like-as-a-kid-in-3-words',
@@ -53,6 +52,11 @@ export function orderProvenChorusCandidates(
 	pool: readonly string[] = PROVEN_CHORUS_QUESTION_URLS
 ): string[] {
 	if (pool.length === 0) return [];
+	// The October audit found 1 answer in 226 exposed readers, explicitly confused
+	// by the old fallback. Lead with the concrete three-word question on every page.
+	if (pool.includes(CHORUS_STARTER_SLUG)) {
+		return [CHORUS_STARTER_SLUG, ...pool.filter((slug) => slug !== CHORUS_STARTER_SLUG)];
+	}
 	const start = stableSlugHash(pageSlug) % pool.length;
 	return [...pool.slice(start), ...pool.slice(0, start)];
 }

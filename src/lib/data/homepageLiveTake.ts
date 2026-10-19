@@ -1,6 +1,5 @@
 // src/lib/data/homepageLiveTake.ts
-// Live-take homepage: the hero question is a real live question, and after the private
-// reveal the visitor can opt in to post the answer they already wrote.
+// Live-take homepage: one explicit post unlocks the real conversation.
 
 // Question 203. The homepage's private practice set (homepagePracticeV2 "friendship") is
 // written for this question, so changing it means writing a matching practice set.
@@ -51,7 +50,7 @@ export type LiveTakePostResult = {
 };
 
 export const LIVE_TAKE_ANSWER_FAQ =
-	'Nothing leaves this tab until you choose to post it. If you post, your answer is added to the live question without your name, exactly as you wrote it, and the other answers open up. If you keep it private, it clears when you refresh.';
+	'Pressing Post adds your answer to the live question exactly as you wrote it, then opens the other answers. No account is needed: guests post without a name. If you are signed in, your answer posts from your account. An unsubmitted draft stays in this tab and clears when you refresh.';
 
 type TakeRow = {
 	id: number;

@@ -60,6 +60,37 @@ export function captureEmailSignupCompleted(input: EmailSignupCompletedInput): P
 	});
 }
 
+/** Bounded funnel labels only; never send drafts, email addresses or exception messages. */
+export function captureChorusInteraction(input: {
+	step: 'shown' | 'started' | 'submitted' | 'failed' | 'revealed';
+	questionUrl: string;
+	sourcePath?: string | null;
+	errorCategory?: 'http_error' | 'network_error' | 'invalid_response';
+}): Promise<void> {
+	return capture(`chorus_${input.step}`, {
+		surface: 'personality_chorus',
+		question_url: input.questionUrl,
+		source_path: input.sourcePath,
+		error_category: input.errorCategory,
+		prompt_version:
+			input.questionUrl === 'what-were-you-like-as-a-kid-in-3-words'
+				? 'three_words_v1'
+				: 'chorus_v2'
+	});
+}
+
+export function captureEmailSignupStep(
+	input: EmailSignupCompletedInput & {
+		step: 'shown' | 'started' | 'submitted' | 'failed';
+		errorCategory?: 'validation' | 'http_error' | 'network_error' | 'invalid_response';
+	}
+): Promise<void> {
+	return capture(`email_signup_${input.step}`, {
+		...sharedProperties(input),
+		error_category: input.errorCategory
+	});
+}
+
 export function captureTypeSelected(input: TypeSelectedInput): Promise<void> {
 	if (
 		!Number.isSafeInteger(input.enneagramType) ||

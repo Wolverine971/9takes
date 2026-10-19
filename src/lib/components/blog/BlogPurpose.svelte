@@ -3,7 +3,11 @@
 	import { onMount } from 'svelte';
 	import EnneagramDiagram from './EnneagramDiagram.svelte';
 	import { notifications } from '../molecules/notifications';
-	import { captureEmailSignupCompleted } from '$lib/analytics/marketingEvents';
+	import { qualifiedVisibility } from '$lib/analytics/qualifiedVisibility';
+	import {
+		captureEmailSignupCompleted,
+		captureEmailSignupStep
+	} from '$lib/analytics/marketingEvents';
 
 	interface Props {
 		/** Who the article is about; the diagram opens on their type. */
@@ -21,6 +25,24 @@
 	let submitted = $state(false);
 	let formExtra = $state('');
 	let formLoadTime = $state(Date.now());
+	let started = false;
+	function track(
+		step: 'shown' | 'started' | 'submitted' | 'failed',
+		errorCategory?: 'validation' | 'http_error' | 'network_error' | 'invalid_response'
+	) {
+		void captureEmailSignupStep({
+			step,
+			errorCategory,
+			surface: 'blog_purpose',
+			sourcePath: window.location.pathname
+		});
+	}
+	function startSignup() {
+		error = '';
+		if (started || !email.trim()) return;
+		started = true;
+		track('started');
+	}
 	const inputId = 'blog-purpose-signup-email';
 	const errorId = 'blog-purpose-signup-error';
 
@@ -35,22 +57,26 @@
 		const normalizedEmail = email.trim().toLowerCase();
 		if (!/\S+@\S+\.\S+/.test(normalizedEmail)) {
 			error = 'Enter a valid email address';
+			track('failed', 'validation');
 			return;
 		}
 
 		error = '';
 		loading = true;
+		track('submitted');
 
 		const body = new FormData();
 		body.append('email', normalizedEmail);
 		body.append('form_extra', formExtra);
 		body.append('_timeToken', String(Date.now() - formLoadTime));
 
+		let errorCategory: 'network_error' | 'invalid_response' = 'network_error';
 		try {
 			const response = await fetch('/api/signups', { method: 'POST', body });
+			errorCategory = 'invalid_response';
 			const result = (await response.json()) as SignupResponse;
 
-			if (result.ok) {
+			if (response.ok && result.ok === true) {
 				submitted = true;
 				email = '';
 				void captureEmailSignupCompleted({
@@ -63,10 +89,12 @@
 				submitted = true;
 				notifications.warning('Already subscribed', 3000);
 			} else {
+				track('failed', 'http_error');
 				error = result.message || 'We could not subscribe you. Please try again.';
 				notifications.warning('Signup failed', 3000);
 			}
 		} catch {
+			track('failed', errorCategory);
 			error = 'We could not subscribe you. Check your connection and try again.';
 			notifications.warning('Signup failed', 3000);
 		} finally {
@@ -103,7 +131,8 @@
 			{:else}
 				<form
 					onsubmit={handleSubmit}
-					class="signup-form"
+					class="signup-form ph-no-capture"
+					use:qualifiedVisibility={() => track('shown')}
 					aria-label="Get new 9takes personality breakdowns by email"
 					aria-busy={loading}
 					novalidate
@@ -126,7 +155,7 @@
 								id={inputId}
 								type="email"
 								bind:value={email}
-								oninput={() => (error = '')}
+								oninput={startSignup}
 								placeholder="Your email"
 								required
 								autocomplete="email"

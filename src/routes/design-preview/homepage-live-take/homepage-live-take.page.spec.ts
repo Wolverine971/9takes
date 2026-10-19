@@ -49,19 +49,18 @@ describe('homepage live-take preview', () => {
 		);
 		expect(screen.getByRole('heading', { name: live.title })).toBeTruthy();
 		expect(screen.getByText('10 responses so far')).toBeTruthy();
-		expect(screen.getByText(/Nothing is posted unless you choose to/)).toBeTruthy();
+		expect(screen.getByText(/Your answer will be public, without your name/)).toBeTruthy();
 		expect(screen.getByRole('link', { name: 'Current homepage' }).getAttribute('href')).toBe('/');
 	});
 
-	it('offers an opt-in post after the reveal and simulates the unlock without leaking text', async () => {
+	it('simulates the single post and unlock without leaking text', async () => {
 		const { container } = render(Page, { props: { data: { live } as never } });
 		const answer = 'Someone who shows up when it is inconvenient.';
 		await fireEvent.input(screen.getByRole('textbox'), { target: { value: answer } });
-		await fireEvent.click(screen.getByRole('button', { name: 'Reveal 9 perspectives' }));
-		expect(await screen.findByText('10 responses from real people are waiting.')).toBeTruthy();
-		expect(screen.getByText(/Preview: posting is simulated/)).toBeTruthy();
+		await fireEvent.click(
+			screen.getByRole('button', { name: 'Post anonymously and read answers' })
+		);
 
-		await fireEvent.click(screen.getByRole('button', { name: 'Post anonymously and read them' }));
 		await waitFor(() =>
 			expect(
 				screen.getByRole('heading', { name: 'You’re in. Here’s how others answered.' })
@@ -90,9 +89,8 @@ describe('homepage live-take preview', () => {
 		};
 		render(Page, { props: { data: { live: withAnswers } as never } });
 		await fireEvent.input(screen.getByRole('textbox'), { target: { value: 'Loyalty.' } });
-		await fireEvent.click(screen.getByRole('button', { name: 'Reveal 9 perspectives' }));
 		await fireEvent.click(
-			await screen.findByRole('button', { name: 'Post anonymously and read them' })
+			screen.getByRole('button', { name: 'Post anonymously and read answers' })
 		);
 		expect(await screen.findByText('They remember the small things.')).toBeTruthy();
 		expect(screen.getByText('ENNEAGRAM 2')).toBeTruthy();

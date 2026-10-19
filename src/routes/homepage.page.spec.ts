@@ -104,7 +104,11 @@ function answerCalls() {
 
 async function writeAndReveal(text = ANSWER) {
 	await fireEvent.input(screen.getByRole('textbox'), { target: { value: text } });
-	await fireEvent.click(screen.getByRole('button', { name: 'Reveal 9 perspectives' }));
+	await fireEvent.click(
+		screen.getByRole('button', {
+			name: /^(Reveal 9 perspectives|Post anonymously and read answers|Post and read answers)$/
+		})
+	);
 }
 
 describe('promoted homepage', () => {
@@ -181,10 +185,8 @@ describe('homepage live take', () => {
 		const { container } = render(Homepage, { props: { data: { live } as never } });
 		expect(screen.getByRole('heading', { name: live.title })).toBeTruthy();
 		expect(screen.getByText('10 responses so far')).toBeTruthy();
-		expect(screen.getByText(/Nothing is posted unless you choose to/)).toBeTruthy();
+		expect(screen.getByText(/Your answer will be public, without your name/)).toBeTruthy();
 
-		await writeAndReveal();
-		expect(await screen.findByText('10 responses from real people are waiting.')).toBeTruthy();
 		expect(container.querySelectorAll('.live-take')).toHaveLength(0);
 		expect(container.textContent).not.toMatch(/Preview|simulated/);
 		expect(answerCalls()).toHaveLength(0);
@@ -193,15 +195,20 @@ describe('homepage live take', () => {
 	it('posts the answer for real, unlocks the answers and offers reply notes', async () => {
 		const { container } = render(Homepage, { props: { data: { live } as never } });
 		await writeAndReveal();
-		await fireEvent.click(
-			await screen.findByRole('button', { name: 'Post anonymously and read them' })
-		);
 
 		await waitFor(() =>
 			expect(
 				screen.getByRole('heading', { name: 'You’re in. Here’s how others answered.' })
 			).toBeTruthy()
 		);
+		expect(answerCalls()).toHaveLength(1);
+		expect(document.activeElement?.textContent).toBe('You’re in. Here’s how others answered.');
+		expect(
+			container
+				.querySelector('#live-optin')!
+				.compareDocumentPosition(container.querySelector('.comparison')!) &
+				Node.DOCUMENT_POSITION_FOLLOWING
+		).toBeTruthy();
 		const [, init] = answerCalls()[0];
 		expect(init).toMatchObject({ method: 'POST', headers: { 'content-type': 'application/json' } });
 		expect(JSON.parse(String(init?.body))).toEqual({
@@ -295,9 +302,6 @@ describe('homepage live take', () => {
 		};
 		const { container } = render(Homepage, { props: { data: { live } as never } });
 		await writeAndReveal();
-		await fireEvent.click(
-			await screen.findByRole('button', { name: 'Post anonymously and read them' })
-		);
 
 		expect(await screen.findByText('YOU ANSWERED THIS ONE')).toBeTruthy();
 		expect(container.querySelector('.own-take')?.textContent).toContain('Loyalty, mostly.');
@@ -312,9 +316,6 @@ describe('homepage live take', () => {
 		};
 		const { container } = render(Homepage, { props: { data: { live } as never } });
 		await writeAndReveal();
-		await fireEvent.click(
-			await screen.findByRole('button', { name: 'Post anonymously and read them' })
-		);
 
 		expect(await screen.findByText('YOU ANSWERED THIS ONE')).toBeTruthy();
 		expect(container.querySelector('.own-take')).toBeNull();
@@ -328,16 +329,18 @@ describe('homepage live take', () => {
 		};
 		const { container } = render(Homepage, { props: { data: { live } as never } });
 		await writeAndReveal();
-		await fireEvent.click(
-			await screen.findByRole('button', { name: 'Post anonymously and read them' })
-		);
 
 		expect((await screen.findByRole('alert')).textContent).toBe(
 			'Too many comments. Please wait a minute before trying again.'
 		);
-		expect(screen.getByRole('button', { name: 'Post anonymously and read them' })).toBeTruthy();
-		expect(container.querySelector('#live-optin blockquote')?.textContent).toBe(ANSWER);
-		expect(container.querySelectorAll('.live-take')).toHaveLength(0);
+		expect(screen.getByRole('button', { name: 'Post anonymously and read answers' })).toBeTruthy();
+		expect((screen.getByRole('textbox') as HTMLTextAreaElement).value).toBe(ANSWER);
+		expect(container.querySelector('.comparison')).toBeNull();
+		answerReply = { status: 200, body: postedBody };
+		await fireEvent.click(
+			screen.getByRole('button', { name: 'Post anonymously and read answers' })
+		);
+		expect(await screen.findByText('They remember the small things.')).toBeTruthy();
 		expect(commentFailedMock).toHaveBeenCalledWith(
 			expect.objectContaining({
 				surface: 'homepage',
@@ -350,9 +353,10 @@ describe('homepage live take', () => {
 
 	it('tells signed-in visitors their take posts from their account', async () => {
 		render(Homepage, { props: { data: { live: { ...live, signedIn: true } } as never } });
-		await writeAndReveal();
-		expect(await screen.findByRole('button', { name: 'Post and read them' })).toBeTruthy();
-		expect(screen.getByText('Posts from your account. One answer per question here.')).toBeTruthy();
+		expect(screen.getByRole('button', { name: 'Post and read answers' })).toBeTruthy();
+		expect(
+			screen.getByText(/Your answer will be public and posted from your account/)
+		).toBeTruthy();
 		expect(screen.queryByText(/No name or account attached/)).toBeNull();
 	});
 });

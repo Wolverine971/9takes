@@ -436,6 +436,8 @@ describe('hostDigestSince', () => {
 });
 
 type FakeSupabaseOptions = {
+	olderPending?: number;
+	pendingError?: { message: string } | null;
 	candidates?: HostDigestCandidate[];
 	lastDigestSentAt?: string | null;
 	previousRun?: { id: number; created_at: string; context: Record<string, unknown> } | null;
@@ -445,6 +447,8 @@ type FakeSupabaseOptions = {
 };
 
 function fakeSupabase({
+	olderPending = 0,
+	pendingError = null,
 	candidates = [],
 	lastDigestSentAt = null,
 	previousRun = null,
@@ -475,7 +479,7 @@ function fakeSupabase({
 	const tables: Record<string, () => any> = {
 		host_reply_drafts: () => ({
 			select: vi.fn((columns: string, opts?: { count?: string; head?: boolean }) => {
-				if (opts?.head) return chain({ count: 0, error: null });
+				if (opts?.head) return chain({ count: olderPending, error: pendingError });
 				if (columns === 'digest_sent_at') {
 					return chain({
 						data: lastDigestSentAt ? { digest_sent_at: lastDigestSentAt } : null,
@@ -554,6 +558,26 @@ describe('runHostDigest', () => {
 		recipient: 'dj@example.com',
 		secret: SECRET
 	};
+
+	it('reports the existing backlog even with no new takes', async () => {
+		const db = fakeSupabase({ olderPending: 15 });
+		const send = vi.fn();
+		const { llm } = fakeLlm([]);
+		const summary = await runHostDigest({ ...base, supabase: db.supabase, send, llm });
+		expect(summary).toMatchObject({ candidates: 0, olderPending: 15, alarm: true });
+		expect(summary.alarmReasons.join(' ')).toContain('15 previously emailed host drafts');
+		expect(db.runLog[0].context.olderPending).toBe(15);
+		expect(send).not.toHaveBeenCalled();
+	});
+
+	it('does not report a healthy zero backlog when the count fails', async () => {
+		const db = fakeSupabase({ pendingError: { message: 'unavailable' } });
+		const { llm } = fakeLlm([]);
+		await expect(
+			runHostDigest({ ...base, supabase: db.supabase, send: vi.fn(), llm })
+		).rejects.toThrow('Failed to count pending host drafts');
+		expect(db.runLog[0].context).toMatchObject({ status: 'crashed', alarm: true });
+	});
 
 	it('sends nothing when there are no candidates, and logs a healthy run', async () => {
 		const db = fakeSupabase();

@@ -73,6 +73,29 @@ describe('POST /api/nine/impression', () => {
 		personLookup.mockResolvedValue({ data: null, error: null });
 	});
 
+	it('records a first-visit homepage impression using the browser identity', async () => {
+		const response = await post(
+			buildEvent({
+				body: {
+					questionUrl: 'whats-criteria-considering-someone-friend',
+					sourcePath: '/',
+					fingerprint: 'new-visitor'
+				}
+			})
+		);
+		expect(response.status).toBe(204);
+		expect(recordImpressionMock).toHaveBeenCalledWith(
+			expect.objectContaining({ path: '/', fingerprint: 'new-visitor' })
+		);
+	});
+
+	it('does not attribute an arbitrary question to the homepage', async () => {
+		await post(
+			buildEvent({ body: { questionUrl: PROVEN_URL, sourcePath: '/', fingerprint: 'visitor' } })
+		);
+		expect(recordImpressionMock).not.toHaveBeenCalled();
+	});
+
 	it('records a gate impression for a proven question on a personality page', async () => {
 		const response = await post(
 			buildEvent({
