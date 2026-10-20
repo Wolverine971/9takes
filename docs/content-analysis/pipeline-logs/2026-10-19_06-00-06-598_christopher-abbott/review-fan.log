@@ -1,0 +1,17 @@
+I wrote the fan review to `docs/content-analysis/pipeline-logs/2026-10-19_06-00-06-598_christopher-abbott/review-fan.json`. It passes the contract's `reviewSchema` check, uses the hashes from the request, and every passage it quotes matches the draft exactly. I changed no other files and published nothing.
+
+The review has 8 findings: 3 major and 5 minor.
+
+**Major (must be fixed before release):**
+- **Safety-net "reversal" is invented (fan-01).** The draft says Abbott once saw theater as "a bit of a safety net" (2015) and now finds the "lack of safety net" thrilling (2026), and uses that as evidence for Type 6. In context, both lines praise the same thing about live theater: in 2015 he meant "it's not recorded," and in 2026 he meant making instinctive decisions in front of an audience. No source shows he ever feared the stage.
+- **Lena Dunham's account is softened (fan-02).** Her quote on *Watch What Happens Live* includes "he couldn't handle it" and "he wigged out." The draft keeps only her kind lines ("his prerogative," "a great place").
+- **His family background is missing (fan-03).** In two interviews (2023 and 2026) Abbott describes the six-family house as full of relatives, and says his father came to Connecticut from St. Vincent. The draft explains his childhood only through class.
+
+**Minor:**
+- Three quotes the case for Type 6 over Type 8 relies on are missing context. The draft drops his line that the slap "was deserved," and the "therapist" line is ambiguous. "Drawn to conflict" was about an actor's habit of watching people.
+- "He walked off *Girls* and out of *John*" overstates both exits. He left *Girls* after the season 2 finale, and he finished *John*'s run plus an extension.
+- "Guest star on *Girls*" is his own recollection but is written as fact. Wikipedia's *Girls* page lists him as main cast.
+- The "he sticks with his people" argument leaves out his earliest example: his 2011 film debut, *Martha Marcy May Marlene*, came out of a circle of filmmaker friends he still works with. It also leaves out his own 2015 caveat that it "just kind of happened that way."
+- The Aubrey Plaza FAQ ("They met... in 2019") can read as dating the romance to when she was still married. Wikipedia lists them as partners from 2025.
+
+The review also protects five passages for the editor to keep, including the verified opening scene and the way the draft handles the unclear "stability" audio. The similarity check flagged some phrases, but they're standard type vocabulary, so I didn't count them as reuse. I didn't listen to the Dunham clip myself, so fan-02 offers two fixes: check the clip and quote both halves, or cut the Dunham paraphrase.

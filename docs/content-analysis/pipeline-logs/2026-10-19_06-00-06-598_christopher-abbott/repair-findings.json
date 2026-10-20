@@ -1,0 +1,28 @@
+{
+  "eligible": false,
+  "blockers": [
+    "verification:revise",
+    "verification:coverage_complete",
+    "unresolved:verify-V01:The main Six-over-Seven discriminator rests on the thesis-friendly half of a 2019 answer. On Back to One (S29), after \"I've grinded enough to like be disappointed enough times that I never, I will never put my eggs in any basket\" and the hype explanation, he corrects himself at about 0:58:30: \"So, in a healthy way, I think I've been disappointed enough, you know? And I don't even, I shouldn't even say disappointed 'cause that's not even the really, that's by no means is a feeling that I felt in that.\" (Research medium.en vtt at 0:58:36; reproduced independently with whisper.cpp small.en on a fresh clip.) The article omits the correction and paraphrases the line as \"He expects to be 'disappointed'\". Reframing a letdown so it was not felt as one is close to the Seven move the next paragraph says he does not make (\"A Seven ... reframes a letdown before it lands. Abbott leans the other way\"). The same clipped line feeds \"braces for disappointment\" in the type answer and type FAQ, \"braces for letdowns\" in the Type 8 FAQ, C136, and the persona title. This sentence is also missing from the claim inventory, so coverage is incomplete.",
+    "unresolved:verify-V02:The fallback-trade discriminator omits his stated reasons, which point away from security. On Happy Sad Confused (S18, about 0:29:40-0:30:20; confirmed by an independent large-v3-turbo pass) the host asks \"why did you have to, for money?\" and he answers \"No, I didn't ... it wasn't that much money at that time.\" He explains: \"I was trying to get in touch with like whatever working roots or manhood,\" calls it \"an early identity crisis\", and says being noticed for the show \"made me sort of act out in certain ways.\" The article keeps only \"do I want to only rely on it?\" and labels the jobs a fallback trade (\"keeps a fallback\" in the type answer and type FAQ; \"kept a fallback trade during Girls\" in the Type 8 FAQ, one of only three reasons given there for Six over Eight). Seeking \"working roots or manhood\" echoes his \"I'm a man. I don't do this kind of shit\" and fits the Eight reading at least as well. This is a boundary error between reported fact and inferred motive.",
+    "overall_below_8.5:8",
+    "evidence_below_8:7.5",
+    "enneagram_below_8:7.5"
+  ],
+  "quality": {
+    "evidence": 7.5,
+    "enneagram": 7.5,
+    "originality": 8.5,
+    "writing": 8,
+    "durability": 8.5,
+    "hook": 9,
+    "discoverability": 8,
+    "overall": 8,
+    "letter": "B",
+    "rubric_version": 3,
+    "graded_at": "2026-10-19",
+    "caps_applied": [],
+    "needs_review": true,
+    "content_sha256": "d782df825ce03bc534bf419c48848da8b927bc8b99d925b3096759dea3ac3001"
+  }
+}

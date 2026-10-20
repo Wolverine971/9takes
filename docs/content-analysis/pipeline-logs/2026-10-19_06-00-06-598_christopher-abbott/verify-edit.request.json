@@ -1,0 +1,27 @@
+{
+  "schema_version": 3,
+  "subject": "christopher-abbott",
+  "mode": "create",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_verify_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-19_06-00-06-598_christopher-abbott/candidate-edit.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-19_06-00-06-598_christopher-abbott/evidence-edit.json",
+    "resolution": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-19_06-00-06-598_christopher-abbott/resolution-edit.json",
+    "review-subject": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-19_06-00-06-598_christopher-abbott/review-subject.json",
+    "review-fan": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-19_06-00-06-598_christopher-abbott/review-fan.json",
+    "review-critic": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-19_06-00-06-598_christopher-abbott/review-critic.json",
+    "review-unfamiliar": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-19_06-00-06-598_christopher-abbott/review-unfamiliar.json",
+    "review-enneagram": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-19_06-00-06-598_christopher-abbott/review-enneagram.json",
+    "review-future": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-19_06-00-06-598_christopher-abbott/review-future.json",
+    "baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-19_06-00-06-598_christopher-abbott/baseline-reader.md",
+    "checks": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-19_06-00-06-598_christopher-abbott/checks-edit.json"
+  },
+  "outputs": {
+    "verification-edit.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-19_06-00-06-598_christopher-abbott/verification-edit.json"
+  },
+  "content_sha256": "d782df825ce03bc534bf419c48848da8b927bc8b99d925b3096759dea3ac3001",
+  "evidence_sha256": "6ab3af422f417d73ad3f7b57cc511d6f7c68ae635c03ea5e318054c9c014fa64"
+}

@@ -1,0 +1,23 @@
+I wrote the future-role review to `docs/content-analysis/pipeline-logs/2026-10-19_06-00-06-598_christopher-abbott/review-future.json`. It passes the review schema, and every finding and protected passage matches the draft text exactly. I changed no other files and published nothing.
+
+**Five-year test: mostly passes, with one major finding.** If you remove the August–October 2026 material (X-Men casting, Happy Sad Confused podcast), the portrait still stands. The opening rests on dated choices from 2013 and 2023, most of the anxiety language comes from a 2019 podcast, and the X-Men section is framed as a test of the reading, not proof of it.
+
+**Major finding (future-01):** The strongest point against Type 8, why he left *Girls*, is written as if his account never changed. Abbott has explained that exit four different ways since 2013. The "nervous" and "scared" wording appears only in his October 2026 telling, 13 years later, on a comedy podcast. A May 2026 Talk Easy line ("a little bit of fear of commitment") would show the same framing in a second interview, but the draft leaves it out. That line is machine-transcribed only, so it needs a second transcription before anyone quotes it. The claims behind this point are marked stable with no recheck trigger.
+
+**Minor findings:**
+- **Announcement date looks one day off.** The draft says Marvel announced the casting on August 15, 2026. D23 ran August 14–16, and a report says Marvel presented on Friday, which was August 14.
+- **Phrases that only make sense today:** "two years out," "is directing," "denies."
+- **The closing heading "Stability" is in quotation marks** as Abbott's word. The draft itself says the audio doesn't confirm that word; only TheWrap heard it.
+- **The relationship FAQ ("He lives in New York with … Aubrey Plaza")** has no as-of date, and the sentence isn't mapped to any claim in the evidence file.
+- **The article names what would settle the typing**, but those sentences have no recheck triggers in the evidence file.
+- **Repeated phrasing:** two Type 6 phrases ("something solid to stand on," "walks straight at what scares") also appear in last week's Lily-Rose Depp and Shyam Sankar drafts. The "core emotion is fear" matches are the required triad sentence and aren't a problem.
+
+I reopened Slashfilm, SYFY Wire and TheWrap, ran one web search, and searched the saved podcast transcripts. Nobody listened to the audio. The contested-typing risk is unchanged, and I raised no new risks.
+
+Sources:
+- [The Nerds of Color, D23 report (Aug 15, 2026)](https://thenerdsofcolor.org/2026/08/15/marvel-studios-electrifies-d23-expo-with-x-men-announcements-and-more/)
+- [Popverse, D23 2026 X-Men cast](https://www.thepopverse.com/movies-x-men-mcu-cast-announcement-d23-2026-marvel-studios/)
+- [Empire, X-Men cast confirmed at D23](https://www.empireonline.com/movies/news/x-men-mcu-cast-confirmed-d23-adam-driver-inde-navarette-christopher-abbott/)
+- [Slashfilm, D23 casting](https://www.slashfilm.com/2237598/kraven-star-christopher-abbott-professor-x-marvel-x-men-reboot/)
+- [SYFY Wire](https://www.syfy.com/syfy-wire/christopher-abbott-excited-to-play-professor-charles-xavier-in-x-men-reboot)
+- [TheWrap](https://thewrap.com/creative-content/tv-shows/christopher-abbott-wanted-to-quit-girls-filming-season-2)

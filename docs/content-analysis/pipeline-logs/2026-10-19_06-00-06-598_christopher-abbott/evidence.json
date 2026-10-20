@@ -1,0 +1,920 @@
+{
+  "schema_version": 3,
+  "subject": "christopher-abbott",
+  "status": "ready",
+  "research_tasks": [
+    "Research log (2026-10-19, first run, mode create, empty baseline, no prior evidence, no research notes file). No existing page or draft for Christopher Abbott exists under any name in src/blog/people or docs/content-analysis/research; he appears only in the Aubrey-Plaza draft (as her partner) and the mike-faist draft (as Adam Trask), which are crosslink targets, not duplicates. Not open-case eligible: professional career since 2008, Girls breakout in 2012, Golden Globe nomination 2019, a 2012-2026 interview record and three long-form audio interviews; the record is deep, so the hard call is typing, not thinness. Opened 30 sources (S01-S30). Read in full: Interview magazine 2012, 2023 and 2026 (S03, S01, S02), the New York Times 2013 profile and 2024 exit interview (S04, S05), Issue 2015, Slant 2015, SAGindie 2015, Seventh Row 2016, Variety and NPR 2019, AnOther 2020, Cero 2024, Sharp 2025, Playbill and W 2026, and local-Whisper transcripts of three podcasts: Back to One (June 2019, 63 min), Talk Easy (May 2026, 81 min) and Happy Sad Confused (October 2026, 51 min), about 3 h 15 min of audio. Evidence was gathered before a type was chosen. An Eight reading formed first from the print record (control, ownership, fights, Girls walkout); the long-form audio then surfaced repeated, unprompted anxiety, doubt and hedging language across 2019-2026, which moved the lead to a counterphobic Six. Outcome: status ready, standard format, Type 6 at medium confidence, Type 8 the strongest rival, Types 7 and 4 live; contested_typing flagged so the six-role jury reviews it.",
+    "Transcript fidelity. Audio came from each podcast's RSS enclosure (Talk Easy: rss.art19.com/talk-easy-with-sam-fragoso; Happy Sad Confused: feeds.megaphone.fm/ADL4698769913; Back to One: rss.libsyn.com/shows/119993/destinations/697709.xml) and was transcribed locally with whisper.cpp (ggml medium.en). Timestamps in S17, S18 and S29 refer to those transcripts and include ad breaks. Only the Happy Sad Confused X-Men line (about 0:32:25) was second-transcribed (small.en: 'I am kind of looking forward to that. Substability kind of'; medium.en: 'that ability'); TheWrap (S19) heard 'stability'. Quote it as 'kind of looking forward to' the 'stability', or paraphrase. In Back to One, 'I facilitate back and forth' is almost certainly 'vacillate'; do not print 'facilitate'. Before printing any verbatim quote from S17, S18 or S29, re-listen at the timestamp or second-transcribe; punctuation and filler are machine-made. Scratch files (may not survive): audio in /tmp/christopher-abbott-research/audio, transcripts (.vtt/.txt/.log) in /tmp/christopher-abbott-research/tx, print text in /tmp/christopher-abbott-research/txt. Every excerpt in this file was machine-checked against those saved texts before writing (0 mismatches).",
+    "Access workarounds and independence. S04 and S05 (New York Times) and S22 (Hollywood Reporter) were opened through Wayback raw captures (web.archive.org/web/<year>id_/<url>). Most print pages were read through r.jina.ai; Variety, NPR, AnOther and Bravo through plain curl with a browser user agent. Not independent: TVLine, Nylon, Distractify, Soapcentral and THR all recycle the 2013 Times 'relatable' quote (S04); TheWrap (S19) and NetflixJunkie report the Happy Sad Confused episode (S18); AwardsDaily repeats the Mond account in S09; the Channel 4 press Q&A repeats the Catch-22 answers in S11.",
+    "Do-not-use list. (1) Never name or describe Aubrey Plaza's late husband or connect the relationship's timing to his death; nothing on that was opened and it is private. Do not name the child. (2) Do not print the slur from the e-bike story (S01) and do not embellish the slap; use his framing ('in reaction', 'shaken by it'). (3) Do not call his anxiety, 'mental health issues' (S12) or therapy a diagnosis. (4) Page Six's 'creative differences' rests on an anonymous source (S22); attribute or omit. Dunham's 'couldn't handle it' (S20) is a blog transcription of a joke segment; attribute and pair it with his account, and check the clip before quoting. (5) The 2013 'relatable' quote: he disowned it in 2026 as 'dancing around'; use both or neither. (6) Playbill's 'broke his leg ... performed in a cast' (S15) is wrong: bucket-handle meniscus tear, surgery, sleeve brace and crutches (S05). (7) The Lois Smith line ('he did not have a happy time' in John) is the Back to One host's secondhand report; do not print it. (8) 'I don't like when things go well' and the post-Tony bathroom story were jokes on a comedy podcast; do not present them as confessions. (9) Parents' and sister's names and the parents' divorce timing are Wikipedia or garbled audio only; omit. (10) Talk Easy was 'the first long form' podcast by his count, but Back to One (2019) was a live long-form podcast; do not say he had never done one. (11) The Tony winner's name is from an unopened secondary source; omit or verify. (12) Do not read his characters' motives (Yossarian, Biff, Danny) onto him as evidence; use only what he says about himself.",
+    "Unopened or set aside. Could not open or did not use: the 2012 GQ piece 'Christopher Abbott on Playing the Nice Guy on Girls' (not located); the Watch What Happens Live clips themselves (Dunham 2018, Williams 2016); the Today with Jenna & Sheinelle clip (May 18, 2026); a 2023 Vogue interview about working with Plaza (cited secondhand only); the Smartless episode where Plaza announced the pregnancy; Josh Horowitz's 2024 Kraven-era conversation; JoBlo and Bloody Disgusting interviews with Brandon Cronenberg (no comment on Abbott found); Wolf Man press (Leigh Whannell's praise is secondhand). Searched without finding a Vulture, Esquire or GQ long-form profile.",
+    "Settle signals for a future refresh (would strengthen or overturn the Six read). (a) Independent testimony from Jerrod Carmichael, Aubrey Plaza, Jeff Ward or Josh Mond about how he behaves when a project or relationship is threatened: does he reach for allies and reassurance (6) or take charge alone (8)? (b) How he talks about the X-Men commitment once production starts: relief at stability and a trusted team (6) versus friction with studio control or a quiet exit (8 or 7). (c) Whether the anxiety language (death, sleep, social situations) recurs in fatherhood-era interviews. (d) Any account of a conflict he started rather than met. Recheck at the first long X-Men interview or the next stage project."
+  ],
+  "accuracy_checked_at": "2026-10-19",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.interviewmagazine.com/film/christopher-abbott-and-jerrod-carmichael-on-sex-appeal-and-success",
+      "title": "Christopher Abbott and Jerrod Carmichael on Sex Appeal and Success",
+      "speaker": "Christopher Abbott in conversation with Jerrod Carmichael (Interview magazine); intro by the magazine",
+      "date": "2023-09-08",
+      "locator": "Online Q&A, recorded July 3, 2023 at Abbott's New York apartment, before the SAG-AFTRA strike. Passages: intro (\"cipher than celebrity\"); his mother and the six-family house; career aims and community college; the acting class he almost walked out of; money and dinners; \"my own worst critic\"; the e-bike fight story.",
+      "excerpt": "With no social media and an allergy to self-promotion, Abbott is more cipher than celebrity. [...] I love my mom. I just wonder, would I confide in her if something was wrong? And I don’t think I would. [...] And I observe. Even before acting, I was a watcher. [...] Because I thought it was embarrassing. At that time, I was like, “I’m a man. I don’t do this kind of shit.” [...] I never wanted to look cheap. I think that’s a childhood thing. [...] But I’m definitely my own worst critic. I’m the first to be tired of myself and think I’m phoning it in. [...] Well, I didn’t feel that cool. I was shaken by it. But all that is to say that growing up, yes, I have gotten into fights, but I wouldn’t look for them. But if for whatever reason someone wanted to fight me, I wouldn’t back down from it.",
+      "context": "The longest and most personal print conversation in the record, conducted by a close friend who directed him in On the Count of Three; it was redone (\"take two\") because Carmichael felt the first take was performed. Also the source for: \"I don't get any\" industry attention, \"I'm genuinely unaware of that stuff\"; both parents \"worked a lot\"; parents married 32 years before divorcing, met in high school; \"I wanted money\" and wanted to work early; pre-psychology at community college for \"a year and a half\"; interest in \"human behavior specifically, and why people do what they do\"; the elementary-school \"Chicago\" sweatpants humiliation as \"a turning point where I was like, I need to start looking better\"; mirror vs photo self-image (\"You are the most handsome devil\" / \"the ugliest piece of shit\"); kids \"as a sole human\" decision; \"I have been\" a dog \"in the past ... I'm tired now\". The e-bike story: a rider hit him, called him a slur and threatened him; \"in reaction to that, I just slapped him\". Keep the slur out of the article. The \"cipher\" line and \"allergy to self-promotion\" are the magazine's framing, not his words.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S02",
+      "url": "https://www.interviewmagazine.com/culture/christopher-abbott-death-of-a-salesman-interview",
+      "title": "Christopher Abbott Only Cries Onstage",
+      "speaker": "Christopher Abbott, interviewed by Georgie McKeon (Interview magazine)",
+      "date": "2026-06-01",
+      "locator": "Online Q&A recorded May 21, 2026 in New York during the Death of a Salesman run. Passages: theater vs film (\"a greater sense of control\"); \"lack of safety net that I find thrilling\"; Biff's traps (\"woe is me\"); Chickahominy and the \"chip on your shoulder\"; fatherhood; \"Before you became an actor, were you a man who cried?\"",
+      "excerpt": "If I’m talking to my therapist, I feel a greater sense of control from doing it live. As an actor, I struggle with that sometimes. Being on set requires a lot of cooks in a kitchen. With theater, there are still cooks, but once you’re up there on stage, you’re on your own, so there’s a sense of control there that I don’t get from film or TV. [...] There’s a lack of safety net that I find thrilling. [...] The big one was for Biff to feel bad for himself. [...] For me, the heartbreaking thing about Biff is his realization and his acceptance that he’s not that special. [...] So there’s something that happens when affluence is a quarter of a mile away, whether it’s a chip on your shoulder or something else. [...] Short answer, no. Even now, in some ways, I’m not a crier. [...] But as a young kid, I was sensitive, I know that. Then growing up and becoming a man, there was the classic thing, whether it’s nature or nurture, of learning to bury that kind of stuff. [...] It just means that showing vulnerability is not the go-to.",
+      "context": "A thoughtful backstage interview by a writer who also grew up in Greenwich. He calls himself primarily a theater actor (\"ever since I started acting, I’ve been in plays pretty consistently\"); offered Biff without auditioning by Joe Mantello; \"I wouldn’t say intimidated. If anything, I leaned more towards excitement\"; \"I’ve made the mistake in the past of getting too 'into the zone' before a scene\"; on fatherhood, \"I joked that I’m learning that I will do my best to not be a Willy Loman\"; the play \"makes men, specifically, cry\"; he plays instruments \"just for myself\" and has \"always secretly wanted\" to be a musician; Radiohead. The intro line (\"a knack for playing New York tough guys and articulating their misguided machismo with tenderness\") is the writer's description.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S03",
+      "url": "https://www.interviewmagazine.com/film/christopher-abbott-hello-i-must-be-going",
+      "title": "Christopher Abbott’s Comings and Goings",
+      "speaker": "Christopher Abbott, interviewed by Colleen Kelsey (Interview magazine)",
+      "date": "2012-09-07",
+      "locator": "Online Q&A for Hello I Must Be Going, during a break from shooting Girls season 2. Passages: relating to a disillusioned actor character; stage vs screen.",
+      "excerpt": "You love what you’re doing, but then all these other things kind of come along with it, and you can’t help but question it sometimes. I’ve done that. I fell in love with the art of doing it and as the years have gone by, you have some experiences and you meet people that you really don’t relate to. [...] Brady Corbet, he’s one of my closest friends. [...] there are some people, where you think, “How are we in the same world?”",
+      "context": "The earliest substantial interview in the record (age 26). Shows the doubt about \"the business of acting\" was present before he left Girls, and the early reliance on a small circle of friends from Martha Marcy May Marlene. Also: with film \"I don’t try to rehearse as much\"; theater \"you can have a shitty show the next night ... That’s kind of what makes it fun.\"",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S04",
+      "url": "https://www.nytimes.com/2013/09/24/theater/back-to-his-working-class-roots.html",
+      "title": "Back to His Working-Class Roots",
+      "speaker": "Laura Bennett (The New York Times), with Christopher Abbott, playwright Lucy Thurber, director Jackson Gay and actor Betty Gilpin",
+      "date": "2013-09-24",
+      "locator": "Print feature, Section C page 1, interviewed backstage at Rattlestick Playwrights Theater during Where We’re Born. Opened through the Wayback Machine raw capture (web.archive.org/web/2023id_/...). Paragraphs on the abrupt Girls exit after the season 2 finale in March; Chickahominy six-family house across from a funeral parlor; parents' jobs; Thurber, Gay and Gilpin testimony; the \"relatable\" explanation; \"bleed for it\".",
+      "excerpt": "“It’s the most important project I’ve done,” he said. [...] He ached for her hometown cousin Tony, at once macho and fragile, struggling against his nature to do the right thing. “A lot of those people are people I grew up with,” he said. [...] His parents worked long, hard hours — his mother in various odd jobs, his father at a gas station. [...] I recognize in Chris somebody who has found that there is a life-or-death quality to theater, an urgency.” [...] “He comes to rehearsal even when he is not in the scene,” said Jackson Gay, the director. [...] “The thing that most people have seen him in is not the color that is most present in Chris,” said Betty Gilpin, who plays Lilly in “Where We’re Born.” “For him to be written off as the ‘nice guy’ is an injustice in my mind. He’s got that bull in a china shop in him.” [...] No single catalytic moment made him decide to leave “Girls,” Mr. Abbott explained. It was more of a gradual process of realizing that his priorities as an actor had shifted. “The world that Lena wrote was very real, especially in New York,” he said. “But it wasn’t as relatable for me on a personal level. [...] “Of course, you have to make a living in this business,” he said. “But you still want to have nuggets of those kinds of jobs where you bleed for it.”",
+      "context": "The original of the 2013 \"relatable\" quote that TVLine, THR, Nylon and others recycle (they are not independent). Three named testimonies from collaborators who had just worked with him. Writer's observation: \"choosing his words carefully ... His smile was shy, his gaze level\". Also: \"I’m still learning how to be an actor in this world ... you’re doing something for yourself, and for other people, that can feel bigger\"; Thurber: \"Coming from poverty, from a working-class family ... you don’t find that many of us in the arts\" and \"He just, on a cellular level, knows the people I’m writing about\"; 15 friends from home came to a Friday show. In 2026 (S18) he disowned this quote as \"dancing around\"; use both.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S05",
+      "url": "https://www.nytimes.com/2024/01/16/theater/christopher-abbott-exit-interview.html",
+      "title": "Covid, Crutches, Surgery: For Christopher Abbott the Show Somehow Went On",
+      "speaker": "Michael Paulson (The New York Times), edited Q&A with Christopher Abbott",
+      "date": "2024-01-16",
+      "locator": "Print \"exit interview\" (Section C page 1) after the Danny and the Deep Blue Sea run closed; conversations at his TriBeCa walk-up and by phone. Opened through the Wayback Machine raw capture. Passages: the December injury; \"I thought about stopping the show\"; \"You’d have to pry it out of my hands\"; \"swan song\"; \"characters who struggle with speaking\"; ticket prices.",
+      "excerpt": "That early December injury — he had a bucket handle meniscus tear — was followed in short order by a case of Covid and arthroscopic surgery. And then he returned to the stage, performing for several weeks on crutches, through the end of the show’s 11-week run on Saturday night. [...] I thought about it, of course. I thought about stopping the show. I thought about just walking offstage. [...] I didn’t think I was going to back out. We worked really hard on this thing, and there’s an ownership I feel and we all feel. You’d have to pry it out of my hands. I wouldn’t want somebody else doing it. [...] “This could be my swan song, in terms of the angry-young-man thing, just given my age and where I’m at.” [...] But I find beauty in characters who struggle with speaking. I don’t mean stupid, but they struggle with expressing emotions, so things come out very guttural — it comes from not a cerebral place, but more from the gut and more from the heart. I’m drawn to things like that — I feel like I understand it.",
+      "context": "The best-documented costly choice in the record (injury, surgery, Covid, then weeks on crutches rather than ceding the role; director Jeff Ward went on for three shows during his surgery recovery). Also: \"What the part ... calls for ... was a sustained agitation. I’ve never had to sustain that level of intensity\"; \"it’s a level of emotion that I don’t get to do in my daily life\"; \"There’s something very old-school about the way these characters express themselves — it’s on their sleeve, and they don’t hold anything back, and that’s a refreshing thing to do\"; on prices, \"I’m not thrilled about it\". Playbill (S16) says he \"broke his leg (he performed in a cast)\"; that is wrong. NYT: bucket-handle meniscus tear, sleeve brace, crutches; he confirmed \"I tore my meniscus\" in S18.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S06",
+      "url": "https://issuemagazine.com/christopher-abbott/",
+      "title": "Christopher Abbott (Issue magazine interview)",
+      "speaker": "Christopher Abbott, interviewed by Clare Shearer (Issue magazine)",
+      "date": "2015 (undated page; he says he is six years past 23 and James White is \"this year’s\" film)",
+      "locator": "Online Q&A for James White. Passages: first acting class; theater as \"a bit of a safety net\"; Josh Mond friendship; \"Just the actor. Just the other person\"; \"when I’m filming something, I forget that people are going to watch it\"; \"It’s a trap when you think about the result\".",
+      "excerpt": "Doing theater, I felt there was a bit of a safety net. There was room to experiment and make mistakes. [...] Josh and I have a rapport with each other where we don’t need to say too much. It’s just understood. [...] Just the actor. Just the other person. That’s the motto or mantra in everything I do, and it sounds easy, but just focus on the person. Don’t worry about me. [...] Sometimes I’ll do jobs just to work with a person. [...] I mean this sincerely: when I’m filming something, I forget that people are going to watch it one day. I think that’s a healthy thing, too. [...] It’s a trap when you think about the result of the thing. For actors, thinking, “This is going to be my moment. This is going to be my chance to shine.” It’s then that you get lost and stop listening to people, and it can be dangerous.",
+      "context": "Undated web page; dated by internal evidence to 2015. Says his first class was \"in the second year at community college\" (S01 says he left after a year and a half; minor). Contrast the 2015 \"safety net\" of theater with 2026 \"lack of safety net that I find thrilling\" (S02). Also: \"For myself, I don’t feel like I’m getting more mature with age. I felt more mature six years ago when I was 23\".",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S07",
+      "url": "https://www.slantmagazine.com/film/interview-christopher-abbott/",
+      "title": "Interview: Christopher Abbott Talks James White",
+      "speaker": "Christopher Abbott, interviewed by Elise Nakhnikian (Slant Magazine)",
+      "date": "2015-11-12",
+      "locator": "Online Q&A for James White. Passages: working with friends (\"Sit back down, I got it\"); \"my ego wants people to watch me\"; leaving Girls (\"ran its course\"); \"people in life are always playing roles\".",
+      "excerpt": "Or when I would see him come up to me and see he was about to say something, I was like, “Sit back down, I got it.” [...] I do this because I have a fascination with human behavior. That’s why I do it, truthfully. Yes, I have an ego, and my ego wants people to watch me. That’s undeniable. But the crux of why I got into this is just an interest in humans and why they do what they do. [...] Leaving the show was not as big of the deal as maybe some of the press [implied]. It was just something that kind of ran its course, and it was a very adult conversation between me and them. It wasn’t dramatic at all.",
+      "context": "The interviewer's framing: \"Low-key but engaged ... unpretentious sincerity.\" The 2015 \"very adult conversation between me and them\" account of the Girls exit conflicts with Allison Williams (S23: \"I don’t think he’s really talked to Lena about it\") and with Dunham (S22); attribute each. Also: \"I didn’t set out to work just with friends. It just kind of happened that way\"; \"people in life are always playing roles. Everyone’s putting on a bit of a show.\"",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S08",
+      "url": "https://sagindie.org/interviews/josh-mond-christopher-abbott-james-white/",
+      "title": "Filmmaker Interview: writer/director Josh Mond and actor Christopher Abbott of James White",
+      "speaker": "Christopher Abbott and Josh Mond (SAGindie)",
+      "date": "2015-11-13",
+      "locator": "Joint Q&A; passage on whether he feels pressure to take superhero and tentpole roles.",
+      "excerpt": "Maybe for exploratory reasons. I’m not being humble, but I really don’t think– I don’t know if I can do superhero stuff, I don’t know if I have the right energy for that- [...] I think it’s in his future. [...] But I’m just so interested in the scope of them, and what it’s like to work on those budgets and having that amount of resources. Just production-wise I want to experience that. I want to see helicopters flying over, you know what I mean? I just think that stuff is so cool.",
+      "context": "Eleven years before the Professor X casting (S27), Mond predicted it (\"I think it’s in his future\"). His stated reason for big films is experiential curiosity, the same reason he gives for Kraven in 2026 (S19: \"I want to go see how the wheels turn\").",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S09",
+      "url": "https://seventh-row.com/2016/03/16/josh-mond-james-white/",
+      "title": "Josh Mond on the aesthetic of James White and working with Christopher Abbott",
+      "speaker": "Josh Mond, director of James White (The Seventh Row)",
+      "date": "2016-03-17",
+      "locator": "Joint interview; Mond's answers on writing the part for Abbott and on his acting.",
+      "excerpt": "When I got into the editing room, I saw a lot of the things that he was doing that I didn’t realize he was doing when I was on set. I realized that I had to write it for him. [...] Over the years, he read every draft. As we got closer to production, we would go through every scene and discuss it with our DP. Chris was on location scouts. Our close relationship allowed me to ask Chris to be involved in a lot more than an actor would be asked. [...] He had so much control and so much range and so much elegance. I was just blown away. He protects you from cliche and things becoming sentimental.",
+      "context": "Independent named testimony from the director and close friend; establishes the creative ownership Abbott later describes as \"the first time where I felt a lot of freedom\" (S19). Mond also compares him to Paul Newman making unattractive characters human. AwardsDaily (Nov 2015) carries a shorter version of the same account; not independent.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S10",
+      "url": "https://variety.com/2019/tv/news/george-clooney-catch-22-christopher-abbott-1203194665/",
+      "title": "How George Clooney and Christopher Abbott Battled to Bring ‘Catch-22’ Into the 21st Century",
+      "speaker": "Variety feature with George Clooney, Grant Heslov and Christopher Abbott",
+      "date": "2019-04-23",
+      "locator": "Joint interview at the Langham Huntington, Pasadena; paragraphs on casting, Clooney's \"captain of the ship\" remark, Heslov's \"relief\", and Abbott on being ready.",
+      "excerpt": "“The most important part to us was casting Chris,” says Clooney [...] “I’ve recognized a lot of things in Chris that I think are more mature than I had when I was his age, but the one thing where I see real similarity is in the way he can take this in stride and sort of be the captain of the ship. It was a big ship, and he had to be the captain of it. And he did it easily.” [...] “When the right guy walks in the room, it’s such a relief,” Heslov says. [...] “By the time this came along, I was, of course, nervous, and excited,” he says. “But at the same time, I was ready. I’m completely ready for it.”",
+      "context": "Producer testimony during a promotional push (incentive to praise the lead). He was 33 and carried a six-episode series shot over nearly five months in Italy. Also Abbott on Yossarian: \"He’s the kind of person who’s always looking at the sky during a storm, and watching for lightning to strike.\"",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S11",
+      "url": "https://www.npr.org/transcripts/726941847",
+      "title": "Christopher Abbott On 'Catch-22'",
+      "speaker": "Christopher Abbott, interviewed by Scott Simon (NPR Weekend Edition)",
+      "date": "2019-05-25",
+      "locator": "Radio transcript; answers on pressure of an iconic role and on Yossarian's motive.",
+      "excerpt": "But, ultimately, I had to let that go because I had other things to worry about, put it that way. [...] it's not that he's afraid to die. He's just afraid to die at the hands of his, you know, superiors. [...] I think the reason why he wants to get out so bad is his lust for life.",
+      "context": "Character interpretation, not self-description; do not read Yossarian's motives onto Abbott. Useful only for how he handles pressure (\"had to let that go\") and what he finds sympathetic in a man resisting superiors. The Channel 4 press Q&A (2019) repeats the \"let that go\" answer.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S12",
+      "url": "https://www.anothermag.com/design-living/12974/christopher-abbott-possessor-brandon-cronenberg-interview-review",
+      "title": "Christopher Abbott on Possessor (AnOther interview)",
+      "speaker": "Christopher Abbott, interviewed for AnOther magazine (byline not captured)",
+      "date": "2020-11-26",
+      "locator": "Online feature on the UK release of Possessor, interviewed by Zoom from New York.",
+      "excerpt": "As a man who describes himself as a “watcher”, “fascinated” by human behaviour [...] “For me, the thing I trace [the role] to is mental health,” he concludes. “I have my own mental health issues – I feel like you’re crazy if you don’t – but I was attracted to [Possessor] because it comes from a very real place. [...] “I don’t like to plan too much,” Abbott claims of these emotional scenes. [...] But I’m not complaining – I just want to jump off the diving board when action is called and not think about it too much.”",
+      "context": "The mental-health line is a general, undiagnosed aside; never turn it into a diagnosis. Writer's framing (\"watcher\", \"contemplative mood\") echoes his own words in S01. Also: working at a video rental store where Stalker and The Matrix \"blew his mind\".",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S13",
+      "url": "https://ceromagazine.com/articles/christopher-abbott-danny-deep-blue-sea-play-poor-things-interview",
+      "title": "Christopher Abbott (Cero Magazine interview)",
+      "speaker": "Christopher Abbott, profiled by Cero Magazine (byline not captured)",
+      "date": "2024-01-10",
+      "locator": "Online profile in the final week of Danny and the Deep Blue Sea. Paragraphs on years developing the play with Jeff Ward, bringing Aubrey Plaza onto the project, choosing roles \"in the moment\".",
+      "excerpt": "Abbott spent years along with the play’s director Jeff Ward, a longtime friend and former roommate, to bring this production together [...] Plaza, on the other hand, is performing live theater in New York for the first time in nearly two decades, having been brought onto the project by Abbott after the two worked together on the 2020 Sundance hit _Black Bear._ [...] “It’s sort of whatever speaks to me in the moment,“ he says about his process for selecting his roles. [...] I relieve myself from trying to play a tone because it’s almost impossible.“",
+      "context": "Writer's statements (not his words) for the years of development and his bringing Plaza onto the project; treat as reported, single-source. Also: \"you can really pour your guts out and it’s a release and it feels good\"; \"We’re still growing with it ... It keeps it exhilarating\"; on Plaza, \"this Gena Rowlands-type quality\".",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S14",
+      "url": "https://sharpmagazine.com/2025/03/03/christopher-abbott-bring-them-down-interview/",
+      "title": "Christopher Abbott on Bring Them Down (Sharp interview)",
+      "speaker": "Christopher Abbott, interviewed by phone from New Zealand (Sharp magazine)",
+      "date": "2025-03-03",
+      "locator": "Online feature for Bring Them Down; he was on the South Island shooting (East of Eden) for almost six months.",
+      "excerpt": "“I’m often working when things are coming out. So, I weirdly feel separate once I finish something,” Abbott elaborates. [...] “It’s a world that I don’t — I didn’t — know very well at all,” Abbott adds. “I’m always gonna jump at that kind of opportunity.” [...] “The preparation changes here and there, but the thing that’s consistent is ‘prepare, prepare, prepare,’ and then try to forget it all, and just be present and play.” [...] “It’s nice to hear that stuff,” Abbott admits, “but I’d be lying if I said I thought too much about it, because I’m usually thinking about something else that I’m doing, you know?”",
+      "context": "Also: needing a break is \"not some mental, like, actor thing ... I just need to come down from, you know, the hours\"; wanting to work with a shepherd dog was \"a reason that I wanted to do it\"; on survival instinct, \"an animal instinct kicks in. That’s an interesting thing to observe\".",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S15",
+      "url": "https://playbill.com/article/christopher-abbott-had-never-seen-death-of-a-salesman-now-hes-tony-nominated-for-playing-biff",
+      "title": "Christopher Abbott Had Never Seen Death of a Salesman; Now He's Tony-Nominated for Playing Biff",
+      "speaker": "Christopher Abbott, interviewed by Playbill",
+      "date": "2026-05-20",
+      "locator": "Online feature after the Tony nominations. Passages: slept through the nominations; \"no self-pity\"; mantra \"don’t lie\"; celebrating by doing laundry.",
+      "excerpt": "\"A trick for everyone in this play is to not feel bad for yourself—like no self-pity,\" explains Abbott. \"It's more human nature just to move through life, and so you keep moving through the play. It's a trap to sort of self-reflect in the moment.\" [...] \"Whenever I go on stage, a little mantra that I have is: don't lie. For the sake of using a bad word, it's like, to not bullshit.\" [...] \"I have two shows tomorrow. Not to de-romanticize it, but when I have the time today, I'm doing laundry, and doing some stuff around the house.",
+      "context": "Factual error: says he \"broke his leg (he performed in a cast)\" during Danny; it was a meniscus tear and he used a sleeve brace and crutches (S05, S18). Also his favorite first-act moment: \"I tell him to essentially stop yelling at my mother, and there's a silence in that.\"",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S16",
+      "url": "https://www.wmagazine.com/culture/christopher-abbott-ben-ahlers-death-of-a-salesman-tonys-interview",
+      "title": "Christopher Abbott and Ben Ahlers Are Balancing 'Death of a Salesman' With Knicks Fever",
+      "speaker": "Christopher Abbott and Ben Ahlers (W magazine)",
+      "date": "2026-06-05",
+      "locator": "Joint interview ahead of the Tonys.",
+      "excerpt": "Abbott’s advice to Ahlers was to keep in mind what happens off-stage as much as on: “We have to show up and do our job, but just remember that what you’re going to take home when this is said and done is the memories of the in-between.”",
+      "context": "Ahlers: they ran lines at Abbott's apartment over Knicks games and Chinese food. Gives his age as 40. Minor source.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S17",
+      "url": "https://talkeasypod.com/christopher-abbott/",
+      "title": "Tony Nominee Christopher Abbott ('Death of a Salesman') Takes Center Stage — Talk Easy with Sam Fragoso, episode 455",
+      "speaker": "Christopher Abbott, interviewed by Sam Fragoso (Talk Easy podcast)",
+      "date": "2026-05-31",
+      "locator": "Audio, about 81 minutes, recorded on the Winter Garden stage. Audio from the podcast RSS enclosure; transcribed locally with whisper.cpp (ggml medium.en). Timestamps from that transcript (ads included). Passages: 0:07:11 \"I relate to that so much\" (Biff's \"I'm nothing\"); 0:08:14 \"Can everyone just shut up?\"; 0:15:26 \"chip on my shoulder\"; 0:25:37 \"I'd rather find out than not\"; 0:33:45 \"blind belief\"; 0:37:50-0:40:53 why he left Girls; 0:45:59 his father; 0:48:59 the meniscus tear.",
+      "excerpt": "I relate to that so much. [...] We're all on this earth sort of trying to compete and trying to be seen in some form or another. [...] And I'm like, at a certain point, I'm like, \"Can everyone just shut up? Just stop it?\" [...] I'd rather find out than not. And, you know, for better or for worse, in life. You know what I mean? But I'd rather find out what the hell's going on. [...] I want to know. I want to know yes or no for myself. [...] My personality is, like, I get bored very easily. [...] It's my own sort of maybe impatience. Yeah, a little bit of fear of commitment, like, sign. You know, I don't like signing on to long-term things. [...] I want to go, like, hide. [...] I think I was dancing around, you know. [...] I was talking around, basically, just saying, like, \"I don't -- I just want to do something else.\" [...] I'm always hesitant to, like, air out. [...] It became, like, another version. And talk about, like, going back to, like, being -- like, getting bored easily. It's, like, all of a sudden -- Like, I wasn't bored of doing that play yet, but, like, all of a sudden, it became a new thing. And I was like, \"This is kind of interesting.\"",
+      "context": "The richest long-form source. Machine transcript: punctuation and filler words are the model's; re-listen or second-transcribe at the timestamp before printing any quote verbatim. Also: the trap of the 2013 \"relatable\" quote (\"I don't even know what the fuck I'm talking about ... Fucking leave me alone\"); he denies the report that he \"stormed off set\"; \"it would have been\" easier to do six seasons than be asked about leaving for a decade; \"I'm a lifelong not great sleeper ... it could be worse\"; \"A lot of the stories from my past are unclear and vague\"; Cassavetes as the aspiration and the goal of hearing \"I never seen that before\"; an analyst suggested he write; an unfinished \"auto-fiction\" about three generations of men in his father's line; on his father, \"there's love there, and there's a lot of mystery\"; crashing auditions he wasn't invited to; lived on about $3,000 for years; to act \"without vanity\". Not independent of the other 2026 press, but a different, unscripted setting.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S18",
+      "url": "https://feeds.megaphone.fm/ADL4698769913",
+      "title": "Christopher Abbott — Happy Sad Confused with Josh Horowitz",
+      "speaker": "Christopher Abbott, interviewed by Josh Horowitz (Happy Sad Confused podcast)",
+      "date": "2026-10-01",
+      "locator": "Audio, about 51 minutes (episode \"Christopher Abbott\" in the show's RSS feed). Transcribed locally with whisper.cpp (ggml medium.en); the 0:32:25 \"stability\" line was second-transcribed with small.en. Passages: 0:03:19 \"I don't like when things go well\"; 0:04:20 Tony loss; 0:06:24-0:07:24 surprise 40th \"living funeral\"; 0:08:24 highs and dips; 0:09:26 \"chip on my shoulder\"; 0:18:37 social media; 0:29:03-0:32:25 quitting periods, Italian ice, set carpentry, fear of commitment, stability; 0:34:13 James White freedom; 0:39:18 Kraven; 0:42:19 consciousness.",
+      "excerpt": "I don't like when things go well. [...] And my cynical nature goes, I didn't win. [...] I had a surprise party just for my 40th, which was really, I never had that. And I, cause I don't want it. [...] my brain goes cynical and dark. [...] It was a living funeral. [...] I've had many periods during my career where I sort of felt like I wanted to quit acting. [...] I was trying to get in touch with like whatever working roots or manhood. [...] I think maybe that was like an early identity crisis of trying to like figure out, you know, am I just an actor or do I like do I want to only rely on it? [...] I was always nervous to sign on to something for multiple seasons because whatever my own fear of commitment generally. [...] I get bored easily. [...] So it was the first time where I felt a lot of freedom in getting to do what I wanted and felt very comfortable. I didn't feel like I was working for someone. [...] I like sometimes I don't pick things for actor reasons. I was like, I want to go see how the wheels turn, how the gears turn on a product.",
+      "context": "Machine transcript; verify by ear before quoting. The host frames the episode as showing his \"goofball\" side; much of it is joking (the \"post-Tony poop\" answer, the remote-viewing story he cuts short: \"This is going to make me seem like a crazy person\"). \"I don't like when things go well\" is said laughing in reply to a joke; do not present it as a solemn confession. The X-Men line second-transcribed as \"I am kind of looking forward to that. Substability kind of\" (medium.en: \"that ability\"); TheWrap heard \"stability\" (S19). Also: \"I didn't grow up rich. I always feel like that's still a chip on my shoulder\"; \"I'm not really on social media ... it's sort of on purpose\"; \"I like big movies\"; \"you try to curate within happenstance\"; he thought Kazan wanted him for Charles (\"I've sort of typecast myself a little bit\"); Kraven: \"I didn't understand what the power was\"; \"I like throwing garbage out\".",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S19",
+      "url": "https://thewrap.com/creative-content/tv-shows/christopher-abbott-wanted-to-quit-girls-filming-season-2",
+      "title": "Christopher Abbott Explains Why He Wanted to Quit Acting While Filming ‘Girls’ Season 2",
+      "speaker": "Alyssa Ray (TheWrap), reporting the Happy Sad Confused episode",
+      "date": "2026-10-02",
+      "locator": "News write-up of S18 with quotations.",
+      "excerpt": "Abbott, who has been cast as Professor Charles Xavier in the MCU’s “X-Men” reboot, countered that it wasn’t “that many” movies, adding that he was looking forward to the “stability” these days.",
+      "context": "Not independent of S18 (it reports the same episode). Used only as a second hearing of the \"stability\" word. Its headline overstates: he said he \"felt like\" quitting and took other jobs while \"contemplating\", not that he tried to leave mid-season.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S20",
+      "url": "https://www.pajiba.com/celebrities_are_better_than_you/now-we-know-why-christopher-abbot-left-lena-dunhams-girls.php",
+      "title": "Now We Know Why Christopher Abbot Left Lena Dunham's 'Girls'",
+      "speaker": "Lena Dunham on Watch What Happens Live (Bravo), as transcribed by Pajiba",
+      "date": "2018-10-11",
+      "locator": "Blog transcription of Dunham's \"Plead the Fifth\" segment the previous night.",
+      "excerpt": "I would say our difference is that I was amazing at my job and he couldn’t handle it. I mean, I just like … I don’t know what to say. He just didn’t want to do it anymore. He wigged out. And by the way, that’s his prerogative. I’m sure he had plenty of great reasons. But I do remember he said something about being “stuck on a sitcom,” and I didn’t love that. But he’s a real true artist and we’ve come to a great place.",
+      "context": "Third-party transcription of a joking game-show answer; the clip itself was not opened. Attribute to Dunham, give his account beside it (S04, S07, S17), and quote only if the clip is checked by ear. Not an allegation of misconduct.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S21",
+      "url": "https://www.bravotv.com/the-daily-dish/lena-dunham-allison-williams-why-christopher-abbott-left-girls",
+      "title": "Allison Williams and Lena Dunham Don't Even Know Why Christopher Abbott Left Girls",
+      "speaker": "Allison Williams on Watch What Happens Live, reported by Bravo's Daily Dish",
+      "date": "2016-05-11",
+      "locator": "Short write-up with quotes from Williams on WWHL.",
+      "excerpt": "\"We've never talked about why he left the show. I don't think he's really talked to Lena about it. He just kind of left,\" she said",
+      "context": "Co-star testimony (his on-screen partner). Conflicts with his 2015 \"very adult conversation between me and them\" (S07) and his 2026 \"a lot of back and forth at the time\" (S17); attribute both. Williams also said she had not talked to him since he left when he returned for season 5.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S22",
+      "url": "https://www.hollywoodreporter.com/live-feed/girls-alum-christopher-abbott-reveals-635561",
+      "title": "'Girls' Alum Christopher Abbott Reveals Why He Left the Show",
+      "speaker": "The Hollywood Reporter (staff), quoting Abbott's representative and Page Six",
+      "date": "2013-09",
+      "locator": "News write-up; opened through the Wayback Machine (2019 capture). Paragraphs quoting the 2013 rep statement and Page Six's initial report.",
+      "excerpt": "Shortly after Abbott left the HBO series, his rep told The Hollywood Reporter, \"[Chris] is grateful for the experience of collaborating with Lena [Dunham], Judd [Apatow] and the entire Girls cast and crew, but right now he’s working on numerous other projects and has decided not to return to the show.\" But Page Six's initial report about his exit said he was having creative differences with creator and star Dunham and didn't like the direction the show was going.",
+      "context": "The rep statement is the official 2013 position. The Page Six claim rests on an anonymous source; never state it as fact. Not independent of S04 for the \"relatable\" quote.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S23",
+      "url": "https://en.wikipedia.org/wiki/Christopher_Abbott",
+      "title": "Christopher Abbott — Wikipedia",
+      "speaker": "Wikipedia contributors",
+      "date": "accessed 2026-10-19 (page revision of 2026-10-18)",
+      "locator": "Lead; Early life and education; Career sections 2008-present; Personal life.",
+      "excerpt": "Christopher Jacob Abbott (born February 10, 1986) is an American actor known for his work in film, television, and theater. [...] His mother is Anna (née Servidio) and his father is Orville Abbott. He has an older sister, Christina. Abbott's father was born in Saint Vincent and the Grenadines in the Caribbean. His mother is of Italian descent. [...] In December 2023, Abbott had a meniscus tear during a performance, after which he had surgery. He performed the rest of the show's run on crutches. [...] Abbott lives in New York with his partner, actress Aubrey Plaza. He and Plaza met in 2019 on the set of the film Black Bear, then reunited in the off-Broadway production of Danny and the Deep Blue Sea. In April 2026, it was announced that they were expecting their first child. Their daughter was born in July 2026.",
+      "context": "Used for dates and credits only; each fact is cited to primary reporting on the page (birth date via the Danny press release; parents via obituaries/genealogy references not opened here). Independent Spirit nomination (James White, 2015), Golden Globe nomination (Catch-22, 77th Globes), Tony nomination (Death of a Salesman, 2026); East of Eden (Netflix, 2026); Professor X casting (August 2026, film planned for 2028). Sister's and parents' names are Wikipedia-only here; do not print them unless a primary source is opened.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S24",
+      "url": "https://www.realitytea.com/2026/05/19/aubrey-plaza-pregnant-boyfriend-christopher-abbott-baby-reaction/",
+      "title": "Christopher Abbott Reacts To Expecting Baby No. 1 With Pregnant Aubrey Plaza",
+      "speaker": "RealityTea, reporting Abbott on Today with Jenna & Sheinelle (May 18, 2026)",
+      "date": "2026-05-19",
+      "locator": "News write-up of a morning-TV appearance with Nathan Lane.",
+      "excerpt": "The 40-year-old feigned annoyance, saying, “I thought for my Tony nom.” Then, he added, “No, no, I’m kidding. I know, I know, I know. It’s just too much. There’s too much going on.” [...] Abbott replied, “Yes, that’s very nice. Thank you very much. It’s very exciting.”",
+      "context": "Secondary write-up of a TV clip (clip not opened). Only shows his public reticence about the relationship. Do not speculate about the relationship timeline.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S25",
+      "url": "https://www.syfy.com/syfy-wire/christopher-abbott-excited-to-play-professor-charles-xavier-in-x-men-reboot",
+      "title": "X-Men Reboot Has Christopher Abbott “Excited” to Play Professor X for Marvel Studios",
+      "speaker": "SYFY Wire, quoting Abbott to Entertainment Tonight at the East of Eden premiere",
+      "date": "2026-10-08",
+      "locator": "News write-up; includes the Marvel cast announcement and May 5, 2028 date.",
+      "excerpt": "\"I haven't read anything yet,\"[he confessed to _Entertainment Tonight_] at the red carpet premiere for Netflix's _East of Eden_ adaptation. \"I'm not even being coy, but I'm excited to work with Jake Schreier. I think he's a great director, and that cast is really good. I can't wait. I love _X-Men_.\"",
+      "context": "Secondary; the Marvel post it embeds gives the cast and \"Only in theaters May 5, 2028.\" Slashfilm (D23 report, opened) confirms the August 2026 D23 announcement. Time-sensitive: release date and title may change.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S26",
+      "url": "https://theplaylist.net/black-bear-sarah-gadon-christopher-abbott-interview-20201206/",
+      "title": "‘Black Bear’: Sarah Gadon & Christopher Abbott Talk Working With Aubrey Plaza, Balancing Tension, Filmmaking & More",
+      "speaker": "Christopher Abbott and Sarah Gadon (The Playlist)",
+      "date": "2020-12-06",
+      "locator": "Joint Q&A for Black Bear; answer on what draws him to projects.",
+      "excerpt": "Not really. There’s not a theme or particular desire I have that pulls me to certain works; it honestly comes down to the script, the director, and the people you’re working with. [...] You keep finding your people.",
+      "context": "Shows the recurring reliance on a circle of collaborators (Cronenberg, Levine, Plaza, Gadon). Also: on Black Bear's writer-director Lawrence Michael Levine, \"the fact that he wasn’t precious about it was something I appreciated.\"",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S27",
+      "url": "https://www.slashfilm.com/2237598/kraven-star-christopher-abbott-professor-x-marvel-x-men-reboot/",
+      "title": "Marvel's X-Men Reboot Casts A Kraven The Hunter Star As The New Professor X [D23]",
+      "speaker": "Slashfilm (D23 report)",
+      "date": "2026-08-15",
+      "locator": "News report of the Marvel Studios D23 panel.",
+      "excerpt": "But Feige has always kept several irons in the fire, which is why we're now learning more and more about how, exactly, the studio intends to reboot the X-Men ... and, specifically, who has now been cast as the new Charles Xavier. [...] but as revealed at D23, Christopher Abbott has secured the role.",
+      "context": "Confirms the casting announcement at D23 (August 15, 2026). Secondary; time-sensitive.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S28",
+      "url": "https://www.tvinsider.com/783356/catch-22-christopher-abbott-season-1-hulu-yossarian-george-clooney/",
+      "title": "‘Catch-22’s Christopher Abbott Talks Tapping Into His Inner Yossarian",
+      "speaker": "Christopher Abbott, interviewed by TV Insider at the IFC Split Screens Festival",
+      "date": "2019-06-03",
+      "locator": "Short Q&A after a talk-back on June 1, 2019.",
+      "excerpt": "But it was the first time that I kind of had to carry something this big. So that was kind of a new experience. I think, in some aspects, I’ve grown because of that.",
+      "context": "Minor; corroborates the Catch-22 lead as a first.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S29",
+      "url": "https://filmmakermagazine.com/?p=107616",
+      "title": "Back to One, episode 61: Christopher Abbott (live at the Made in NY Media Center, Brooklyn)",
+      "speaker": "Christopher Abbott, interviewed by Peter Rinaldi before a live audience (Back to One podcast, Filmmaker Magazine)",
+      "date": "2019-06-04",
+      "locator": "Audio, about 63 minutes; enclosure https://traffic.libsyn.com/secure/filmmakermagazine/Back_To_One_-_Christopher_Abbott.mp3 from the show RSS. Transcribed locally with whisper.cpp (ggml medium.en). Passages: 0:04:02 vanity and \"social anxiety\"; 0:10:08-0:11:08 the audition he crashed (\"anxiety sweat\"); 0:16:10-0:17:11 leaving John; 0:18:12-0:20:12 coded direction and \"manipulation\"; 0:27:27 \"hyper aware\"; 0:34:30 \"as many weapons as I could\"; 0:41:30-0:42:30 FOMO and \"anxiety about death\"; 0:44:33 anger at ungenerous actors; 0:50:59 wanting \"everyone to love me\"; 0:52:04 anxiety and bedtime TV; 0:57:13 \"never put my eggs in any basket\"; 0:59:16-1:00:18 \"my ego will kick in\".",
+      "excerpt": "I had like anxiety sweat. [...] I was the one that was kind of like, all right, I'm done doing the show. And I think people were a little bit upset with me, but you know, truth is, it's just like, there's nothing more valuable to me than time. [...] I was just done with it on the inside. [...] it was just like one of those gut feeling things at the time. I'm not avoiding the question. I really, I just, there wasn't a specific reason. [...] I'm not particularly sensitive. I mean, that sounds like I am, but like. But like, you know, I'm like, let's just talk. [...] I guess obviously what I don't like is manipulation. [...] I'm hyper aware of human, like weird social situations. [...] my attention just, I'm drawn to like conflict and things like that. [...] I kinda wanted to go in just with as many weapons as I could. [...] I had deep FOMO [...] this is, I think this has to do with my own, like, my own anxiety about death. [...] what if I die before this thing even comes out? [...] When I was younger, I wanted everyone to love me [...] I think also 'cause anxiety, I can't, before bed, I just can't watch anything that's too intense. [...] I've grinded enough to like be disappointed enough times that I never, I will never put my eggs in any basket for any situation. [...] part of me is always like, what, like what is going on here, you know? And then my ego will kick in and be like, nope, I deserve it. And then, you know, I facilitate back and forth all the time.",
+      "context": "The earliest long-form source (age 33, weeks after Catch-22 premiered) and the one most explicit about anxiety. Machine transcript; filler and punctuation are the model's (\"facilitate\" is likely \"vacillate\"); re-listen at the timestamp before quoting. The host (not Abbott) relays that Lois Smith, his John co-star, told him on the street \"he did not have a happy time\" in John; that is third-hand, keep it out of the article unless confirmed. John ran at Signature Theatre in 2015; he \"did the whole run and extended a bit\" and then declined a further extension. Also: in rehearsal \"I like it to feel like we're all in this together\"; he dislikes coded direction (\"just give it to me straight\"); \"I'm much more vain in real life ... I save that for anything involving any kind of social anxiety\"; he learned all five audition scenes for Catch-22 \"just in case\"; on ungenerous scene partners, \"I get very angry and annoyed ... it makes me very upset\"; \"I love being part of a community ... a work family\". He later called the May 2026 Talk Easy episode his \"first long form\" podcast; this live event preceded it.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S30",
+      "url": "https://culturedmag.com/article/2026/09/21/film-mike-faist-east-of-eden-interview/",
+      "title": "It’s Been Two Years, but Mike Faist Is Back Onscreen in Another Love Triangle",
+      "speaker": "Mike Faist, East of Eden co-star (Cultured magazine Q&A)",
+      "date": "2026-09-21",
+      "locator": "Q&A, answer about preparing for a House of Blue Leaves reading by watching archive tapes at Lincoln Center.",
+      "excerpt": "When I was watching that production, the actor who was playing the character that I was given, I thought, This guy is the first performance that actually started to click and make sense for me as to what to do with this. I used that as a launching point for myself, and that actor was Chris Abbott, but I didn’t know it at the time.",
+      "context": "Peer testimony about his early stage work (the 2011 Broadway House of Blue Leaves, Ronnie). Faist calls it the 2010-or-so taping. Text saved during the 2026-10-15 Mike Faist research run; not re-fetched today.",
+      "kind": "testimony",
+      "access": "opened"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "Christopher Abbott was born on February 10, 1986, in Greenwich, Connecticut, and spent his early years in a six-family house in Chickahominy, a working-class, heavily Italian-American neighborhood of Greenwich, across the street from a funeral parlor; his father, from St. Vincent, worked at a gas station when young and his mother worked various jobs. He later grew up in Stamford.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S23",
+        "S04",
+        "S01",
+        "S17"
+      ],
+      "inference": "Birth date and place from Wikipedia (S23); the house, the funeral parlor and the parents' jobs from the 2013 New York Times (S04) and his own accounts (S01, S17). He was 27 in September 2013, 33 in April 2019, 37 in July 2023 and 40 in 2026, all consistent with February 1986.",
+      "alternative": "None on the facts. Do not print his parents' or sister's names from Wikipedia alone. Do not build a causal childhood story on the funeral parlor; he jokes that it is \"a whole hour of unpacking\" (S17) and leaves it there.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C02",
+      "claim": "He says he grew up in the non-affluent part of a town assumed to be rich and still carries \"a chip on my shoulder\" about that assumption.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S18",
+        "S17",
+        "S02"
+      ],
+      "inference": "Repeated in three separate 2026 settings (Interview, Talk Easy, Happy Sad Confused), so it is a settled self-description, not a one-off line. It shows vigilance about being misread by others.",
+      "alternative": "Class grievance is common among working-class actors in an elite profession and is not a type marker on its own; it fits Six (defensive vigilance), Eight (resentment of presumed status) and Four (outsider identity) equally.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C03",
+      "claim": "Before acting he worked at a video store, a wine store and landscaping jobs, considered psychology, and took his first acting class at Norwalk Community College; he nearly walked out of it because it felt embarrassing (\"I'm a man. I don't do this kind of shit\"), then kept walking toward the stage.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S17",
+        "S06",
+        "S29"
+      ],
+      "inference": "Told consistently in 2015, 2019, 2023 and 2026. In 2026 he adds: \"I really was second-guessing even doing this\" and explains continuing as \"I'd rather find out than not ... I want to know yes or no for myself\" (S17).",
+      "alternative": "Small timing conflict: \"the second year at community college\" (S06, S29) versus dropping out after \"a year and a half\" (S01). Both can be true. A polished origin story; it shows what he foregrounds, not a cause.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C04",
+      "claim": "He moved to New York in 2006, trained at HB Studio because it was cheap, and spent years \"hustling\": waiting all day at non-union open calls, asking production assistants on street shoots for work, and talking his way into an audition he had not been invited to until he was asked to leave in front of a room of actors.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S17",
+        "S18",
+        "S29"
+      ],
+      "inference": "Told in 2019 (S29) and 2026 (S17) with the same details (the elevator opening into the waiting room). He calls the push \"naivete\" and \"blind belief\" (S17) and remembers \"anxiety sweat\" during the walk of shame (S29).",
+      "alternative": "Pushiness from economic need and inexperience, which he now laughs at, not necessarily temperament. Fits counterphobic Six (moving toward what scares him) and Eight (forcing the door) alike.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C05",
+      "claim": "He says he \"never wanted to look cheap\", sweated through split dinner bills while living on about $3,000 at a time, and calls it \"a childhood thing\"; as a kid he covered scuffs on white Air Force 1s with Wite-Out.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S17"
+      ],
+      "inference": "A shame-and-image thread that recurs (2023 and 2026), alongside the elementary-school humiliation he calls \"a turning point where I was like, I need to start looking better\" (S01).",
+      "alternative": "This is the strongest heart-triad (image/shame) material in the record and is not well explained by Six or Eight; it may reflect class experience more than type.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C06",
+      "claim": "His theater career began in 2008 Off-Broadway (Good Boys and True; Mouth to Mouth), followed by That Face (2010) and his Broadway debut in The House of Blue Leaves (2011); Mike Faist says watching the archive tape of that Blue Leaves performance first made the role \"click\" for him.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S23",
+        "S04",
+        "S30"
+      ],
+      "inference": "Credits from Wikipedia (each cited there to contemporaneous reviews) and the 2013 Times profile. Faist's remark is independent peer testimony from 2026.",
+      "alternative": "None on the facts. Faist dates the tape \"2010 or so\"; the Broadway production opened in April 2011.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C07",
+      "claim": "He played Charlie on HBO's Girls as a guest star for seasons 1 and 2 (2012-2013), left shortly after the season 2 finale in March 2013 when asked to sign on long term, and returned for one season 5 episode, \"The Panic in Central Park\" (2016).",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S23",
+        "S04",
+        "S17",
+        "S18",
+        "S21"
+      ],
+      "inference": "Guest-star status and the multi-season ask are his account (S18: \"they wanted me to sign on ... for like a six year or whatever\"). The Times (S04) dates the exit to \"shortly after the Season 2 finale in March\". The \"six year\" figure is his loose recollection.",
+      "alternative": "None on the dates. The contract length is his memory, not a document.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C08",
+      "claim": "His explanations for leaving Girls have changed: in 2013 the character \"wasn't as relatable for me on a personal level\"; in 2015 it \"kind of ran its course\" after \"a very adult conversation\"; in 2026 he says he was \"nervous to sign on to something for multiple seasons\" out of \"my own fear of commitment generally\", that the offer \"scared me\", that \"I get bored easily\", and that in 2013 \"I think I was dancing around\" when all he meant was \"I just want to do something else.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S04",
+        "S07",
+        "S18",
+        "S17",
+        "S20"
+      ],
+      "inference": "The 2026 account is the most candid (he disowns the 2013 wording) and it is framed in fear and doubt language: \"nervous\", \"scared me\", \"How the fuck am I going to know if this is what I want to do next year or whatever?\" (S17). That framing is the main evidence for the Six reading of the exit.",
+      "alternative": "Thirteen years of hindsight can rewrite motives; the 2013 and 2015 accounts may be just as true. \"Bored easily\" and wanting \"different things\" support Seven; Dunham's recollection of \"stuck on a sitcom\" (C09) supports a refusal-to-be-boxed-in reading (Eight or Four).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C09",
+      "claim": "Others remember the Girls exit differently: his representative said in 2013 he was \"grateful\" and busy with other projects; Page Six reported creative differences; Allison Williams said in 2016 \"I don't think he's really talked to Lena about it. He just kind of left\"; Lena Dunham joked in 2018 that \"he couldn't handle it ... He wigged out\", recalled him saying he was \"stuck on a sitcom\", and called him \"a real true artist\".",
+      "passage": "",
+      "class": "disputed",
+      "source_ids": [
+        "S22",
+        "S21",
+        "S20",
+        "S07",
+        "S17"
+      ],
+      "inference": "Named testimony from his on-screen partner and the show's creator, both in jokey talk-show settings. Williams's account conflicts with his 2015 \"very adult conversation between me and them\" (S07) and his 2026 \"a lot of back and forth at the time\" (S17). He denies a report that he \"stormed off set\" (S17).",
+      "alternative": "Page Six relied on an anonymous source; never state \"creative differences\" as fact. Dunham's words come from a blog transcription (S20) of a game segment; check the clip by ear before quoting. Present all accounts as accounts.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C10",
+      "claim": "During Girls season 2 he worked at a friend's Italian ice stand in Rockaway and as a set carpenter on other films while questioning whether to keep acting; he says he has had \"many periods\" of wanting to quit and was trying to reconnect with \"working roots or manhood\" and to work out \"do I want to only rely on it?\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S18",
+        "S19"
+      ],
+      "inference": "He calls it \"an early identity crisis\" and admits \"getting noticed for a big show like this made me sort of act out\" (S18). \"Do I want to only rely on it?\" reads as hedging against dependence on one uncertain source of security.",
+      "alternative": "Could be identity-seeking (Four), self-reliance (Eight), or ordinary young-actor whiplash after sudden attention. TheWrap's headline (S19) overstates it as wanting to quit mid-season.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C11",
+      "claim": "In 2015 he finished the run of Annie Baker's John at Signature Theatre, extended \"a bit\", then declined to extend further even though \"people were a little bit upset with me\", saying \"there's nothing more valuable to me than time\", he was \"done with it on the inside\", and it was \"one of those gut feeling things\".",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S29"
+      ],
+      "inference": "A second, independent walkaway on unstated grounds, two years after Girls. In the same interview he describes discomfort with a rehearsal room where the director and playwright whispered and gave \"code\" notes: \"what I don't like is manipulation ... just give it to me straight\" (S29). He does not say that caused his decision.",
+      "alternative": "Single-source and self-reported; he insists there was no specific reason. The link to the rehearsal discomfort is an inference. The host's secondhand line from Lois Smith (\"he did not have a happy time\") is third-hand and should not be printed.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C12",
+      "claim": "After Girls he went straight to a small downtown play, Lucy Thurber's Where We're Born (Rattlestick, September 2013), calling it \"the most important project I've done\" because its working-class characters \"are people I grew up with\"; Betty Gilpin said \"He's got that bull in a china shop in him,\" Thurber saw \"a life-or-death quality to theater, an urgency,\" and director Jackson Gay said \"He comes to rehearsal even when he is not in the scene.\"",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Three named collaborators speaking within weeks of working with him, in one Times feature. Shows his loyalty to an old friend (Thurber had given him early readings, S18) and full commitment once he chose a project.",
+      "alternative": "Same article, same moment: three voices but one reporter's selection. Collaborators praising a colleague in his own press piece have an incentive to be generous.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C13",
+      "claim": "He describes himself as guarded off stage: he would not confide in his mother if something were wrong, says \"I'm not a crier\", that as a man he learned \"to bury that kind of stuff\" and \"showing vulnerability is not the go-to\", and is \"always hesitant to, like, air out\" family history; he has discussed these things with a therapist and an analyst.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S17",
+        "S12"
+      ],
+      "inference": "Consistent 2023-2026 self-description of guardedness, which he attributes to masculine socialization (\"whether it's nature or nurture\"). His first long-form podcast, by his own count, came at 40 (S17).",
+      "alternative": "He names the cause himself as learned male norms, so this is weak evidence for any one type. It fits Eight's armor, Six's caution about exposure, Five's privacy and Nine's minimizing. Do not turn the therapy references into a diagnosis.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C14",
+      "claim": "He told Jerrod Carmichael that after an e-bike rider hit him, called him a slur and threatened him, he slapped the man \"in reaction\", and said he was \"shaken by it\"; growing up he got into fights but \"I wouldn't look for them. But if for whatever reason someone wanted to fight me, I wouldn't back down from it.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Reactive, not initiating, toughness that leaves him shaken: the counterphobic pattern of facing a threat head-on rather than the Eight pattern of seeking dominance. One incident, told once.",
+      "alternative": "An Eight can also refuse to back down and still feel rattled. Do not print the slur. Keep his own framing (\"it was deserved\", \"I didn't feel that cool\"); do not dramatize.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C15",
+      "claim": "His own words about anxiety recur across 2019-2026: \"social anxiety\" (where he keeps his vanity), \"anxiety sweat\" during the crashed audition, \"my own anxiety about death\" (\"what if I die before this thing even comes out?\"), avoiding intense TV at night \"'cause of anxiety\", getting \"really anxious and nervous\" just before the Tony result, and being \"nervous\" and \"scared\" about signing a multi-season contract.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S29",
+        "S18"
+      ],
+      "inference": "The most consistent self-description in the long-form record, volunteered unprompted in three settings seven years apart. This is the main reason fear-type explanations (Six) beat Eight, whose defenses rarely present as narrated anxiety.",
+      "alternative": "Many people, including Eights, admit nerves before awards or auditions; the weight comes from the range of contexts (death, sleep, social situations, commitment), not any single line. Not a clinical claim; never call it a disorder.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C16",
+      "claim": "He describes a habit of expecting the downside: \"my cynical nature goes, I didn't win\"; \"my brain goes cynical and dark\"; a surprise 40th party he did not want felt like \"a living funeral\"; \"the highs are going to dip down eventually\"; \"I will never put my eggs in any basket for any situation\"; and, laughing, \"I don't like when things go well.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S18",
+        "S29"
+      ],
+      "inference": "A pessimistic, hedge-everything stance consistent from 2019 to 2026. \"Never put my eggs in any basket\" is the clearest statement of the Six strategy of insuring against disappointment.",
+      "alternative": "Several lines are jokes on a comedy-friendly podcast; do not present \"I don't like when things go well\" as a solemn confession. Melancholy also fits Four. Dark humor is common among actors.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C17",
+      "claim": "He prepares defensively: he learned all five Catch-22 audition scenes \"just in case\", wanting to go in \"with as many weapons as I could\", tried to be off book for the whole six-episode series before arriving, and summarizes his method as \"prepare, prepare, prepare\" and then forget it.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S29",
+        "S14",
+        "S10",
+        "S02"
+      ],
+      "inference": "Threat-oriented preparation (\"weapons\", \"just in case\") supports the Six reading; he also told Variety he was \"of course, nervous ... But at the same time, I was ready\" (S10).",
+      "alternative": "Thorough preparation is standard professional practice and also fits Eight (control) and One. The Mantello offer he greeted with \"excitement\" rather than intimidation (S02).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C18",
+      "claim": "He is suspicious of indirect handling: he disliked a rehearsal room where the director and playwright whispered and gave notes \"in code\", said \"what I don't like is manipulation\" and \"just give it to me straight\", and describes himself as \"hyper aware\" of tensions in social groups and \"drawn to like conflict\".",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S29",
+        "S15"
+      ],
+      "inference": "Attention to hidden agendas and a preference for blunt, shared problem-solving (\"we're all in this together\") reads as Six vigilance; his stage mantra \"don't lie ... to not bullshit\" (S15) fits the same demand for straightness.",
+      "alternative": "Hatred of manipulation and love of directness are equally Eight traits; this observation does not separate them. \"drawn to like conflict\" leans Eight.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C19",
+      "claim": "He values a close, long-standing circle and a \"work family\": friends from HB Studio (director Mona Fastvold, whom he introduced to Brady Corbet), Borderline Films (Josh Mond, Sean Durkin, Antonio Campos), playwright Lucy Thurber, Sam Rockwell and Jeff Ward; he says \"Sometimes I'll do jobs just to work with a person\", \"You keep finding your people\", and \"I love being part of a community\".",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S06",
+        "S26",
+        "S29",
+        "S17",
+        "S18",
+        "S03",
+        "S07",
+        "S16"
+      ],
+      "inference": "Loyalty to a trusted group is a consistent thread from 2012 (Brady Corbet \"one of my closest friends\") to 2026. Supports Six (security through trusted allies).",
+      "alternative": "He says \"I didn't set out to work just with friends. It just kind of happened that way\" (S07); indie careers run on friendship networks regardless of type. Also fits Nine.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C20",
+      "claim": "Josh Mond wrote James White for him after seeing what he did in an experimental short; Abbott read every draft, joined location scouts and discussed every scene, and in 2026 he called it \"the first time where I felt a lot of freedom ... I didn't feel like I was working for someone.\" Mond: \"He had so much control and so much range and so much elegance.\"",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S09",
+        "S18",
+        "S07",
+        "S06"
+      ],
+      "inference": "Director testimony (S09) plus his own retrospective (S18). Freedom inside a trusted friend's project is where he feels most at ease, and he told Mond on set \"Sit back down, I got it\" (S07).",
+      "alternative": "This is the best Eight evidence on autonomy (\"I didn't feel like I was working for someone\"); for a Six, the freedom is safe because it sits inside a trusted alliance. Both readings fit.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C21",
+      "claim": "He prefers the stage partly for control: \"If I'm talking to my therapist, I feel a greater sense of control from doing it live ... once you're up there on stage, you're on your own\"; in 2015 theater felt like \"a bit of a safety net\", and by 2026 he finds the \"lack of safety net\" thrilling.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S06"
+      ],
+      "inference": "Control framed as something he works on in therapy suggests control as anxiety management (Six) rather than a drive to dominate (Eight). The shift from wanting a safety net (2015) to relishing its absence (2026) shows movement toward the feared thing, the counterphobic pattern.",
+      "alternative": "Eight is the obvious alternative reading of \"control\". The safety-net reversal could simply be experience.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C22",
+      "claim": "During Danny and the Deep Blue Sea (opposite Aubrey Plaza, Lucille Lortel, October 2023-January 2024), a project he had spent years developing with director and friend Jeff Ward and for which he brought Plaza aboard, he suffered a bucket-handle meniscus tear in early December, had surgery and Covid, and finished the run on crutches: \"there's an ownership I feel and we all feel. You'd have to pry it out of my hands. I wouldn't want somebody else doing it.\"",
+      "passage": "",
+      "class": "observed",
+      "source_ids": [
+        "S05",
+        "S13",
+        "S17",
+        "S23",
+        "S15"
+      ],
+      "inference": "The clearest costly stay in the record. The Times reports the injury, surgery, missed shows and crutches (S05); he confirmed the tear in 2026 and called continuing \"old-school theater shit. The show must go on\" and, in the same breath, \"all of a sudden, it became a new thing\" (S17). Ownership \"we all feel\" frames it as loyalty to a shared project as much as personal control.",
+      "alternative": "Eight reading: refusing to cede control. Seven reading: novelty (\"This is kind of interesting\"). Six reading: duty and loyalty to a team. Playbill's \"broke his leg ... performed in a cast\" (S15) is wrong. Cero's claims that he spent years developing it and brought Plaza aboard are the writer's (S13), single-source.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C23",
+      "claim": "He is drawn to inarticulate, gut-driven men: \"I find beauty in characters who struggle with speaking ... it comes from not a cerebral place, but more from the gut and more from the heart\"; he called Danny a possible \"swan song, in terms of the angry-young-man thing\", and frames Biff's anger as coming \"from a place of love\".",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S05",
+        "S17",
+        "S04",
+        "S18"
+      ],
+      "inference": "A repeated casting and taste pattern (Tony in 2013, James White, Danny, Biff). It says what he relates to, not his type; he notes \"work begets work\" (S05).",
+      "alternative": "Typecasting and industry momentum explain much of it; he says he had \"sort of typecast myself\" when he expected to play Charles in East of Eden (S18).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C24",
+      "claim": "He stays out of public view: no social media (\"sort of on purpose\"), he says he is \"genuinely unaware\" of industry attention, forgets while filming that people will watch, feels \"separate\" from finished work, and says \"people are just trying to be seen ... Can everyone just shut up?\"; yet he also says \"my ego wants people to watch me. That's undeniable.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S18",
+        "S01",
+        "S06",
+        "S14",
+        "S17",
+        "S07"
+      ],
+      "inference": "Consistent from 2015 to 2026. Interview magazine called it \"an allergy to self-promotion\" (S01, writer's framing). The 2015 admission of ego is counterevidence to reading him as indifferent to recognition (Nine or Five).",
+      "alternative": "Privacy and distaste for self-promotion fit Six (caution), Four (disdain for the performative), Five and Nine; it does not discriminate. In 2026 he notes that \"people don't understand me\" can be \"a shield\" until recognition comes (S17), a Four-flavored self-observation.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C25",
+      "claim": "He calls himself \"my own worst critic\", oscillates between finding himself handsome and \"the ugliest piece of shit\", tries to act \"without vanity\" and \"without shame\", and says the most heartbreaking thing in Death of a Salesman is Biff's acceptance \"that he's not that special\" (\"I relate to that so much\").",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S17",
+        "S02",
+        "S15"
+      ],
+      "inference": "The heart-triad thread (shame, image, significance) that supports Four as a live alternative.",
+      "alternative": "He explicitly rejects self-pity as \"a trap\" (S15) and frames \"I am nothing\" as universal \"dark humor\" about everyone \"trying to be seen\" (S17). Self-criticism is common among serious actors.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C26",
+      "claim": "He also shows a novelty-seeking streak: in 2015 he wanted a big studio film to \"see helicopters flying over\"; he took Kraven the Hunter to \"see how the wheels turn\" and admits \"I didn't understand what the power was\"; he jumps at unfamiliar worlds; and on Catch-22 he had \"deep FOMO\" watching castmates tour Sardinia.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S08",
+        "S18",
+        "S14",
+        "S29",
+        "S17"
+      ],
+      "inference": "Curiosity and fear of missing out support Seven (or a Seven wing). He also says \"I get bored very easily\" (S17).",
+      "alternative": "Counterevidence to Seven: asked whether he enjoys the play, \"I was like, no ... I just don't like the word enjoy\" (S17); his outlook is pessimistic (C16) and he seeks painful material. Do not use a wing to explain this away in the article; present it as the live tension it is.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C27",
+      "claim": "He describes his self-belief as unstable: early on it was \"blind belief\" that he was \"a really good actor\", but at award shows \"part of me is always like, what is going on here ... And then my ego will kick in and be like, nope, I deserve it ... back and forth all the time\"; when younger \"I wanted everyone to love me\".",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S29",
+        "S17"
+      ],
+      "inference": "Ambivalence between doubt and self-assertion is a characteristic Six pattern; the wish to be loved when young fades, by his account, with age.",
+      "alternative": "Impostor feelings are near-universal among working-class entrants to elite fields. Self-confidence about talent also fits Eight.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C28",
+      "claim": "George Clooney and Grant Heslov cast him as the lead of Hulu's Catch-22 (2019); Clooney said he could \"take this in stride and sort of be the captain of the ship ... And he did it easily,\" and the role earned him a Golden Globe nomination.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S10",
+        "S23",
+        "S28",
+        "S11"
+      ],
+      "inference": "Producer testimony during a promotional push; Abbott called it \"the first time that I kind of had to carry something this big\" (S28).",
+      "alternative": "Promotional incentive to praise; it describes how he looked from outside, not his motive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C29",
+      "claim": "He was nominated for the 2026 Tony Award for Best Featured Actor in a Play for Biff Loman in Joe Mantello's Broadway revival of Death of a Salesman (Winter Garden Theatre, previews from March 6, 2026) and did not win.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S23",
+        "S15",
+        "S18"
+      ],
+      "inference": "Nomination from Playbill and Wikipedia; the loss from his own account (S18: \"I didn't win\"). The winner's name rests on a secondary site not cited here; omit it or verify.",
+      "alternative": "None on the facts.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C30",
+      "claim": "He plays Adam Trask in Zoe Kazan's seven-episode Netflix limited series East of Eden (released October 1, 2026); he expected to be offered Charles and says Kazan explained why she wanted him for Adam.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S18",
+        "S23"
+      ],
+      "inference": "Release date from Wikipedia and the podcast timing; casting anecdote from S18.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C31",
+      "claim": "Marvel Studios announced him as Charles Xavier/Professor X in its X-Men reboot at D23 on August 15, 2026, directed by Jake Schreier and dated for May 5, 2028; by October 2026 he had not read a script, and he said he was now \"kind of looking forward to\" the \"stability\" of a multi-film role.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S27",
+        "S25",
+        "S18",
+        "S19"
+      ],
+      "inference": "The casting is reported fact; the \"stability\" remark is his (S18, second-transcribed; TheWrap heard the same word, S19). A man who left Girls for fear of commitment now welcoming a long franchise commitment, at 40 with a new child, is a meaningful change.",
+      "alternative": "Release dates, title and contract length can change; the stability line was a half-joking answer to \"10 X-Men movies\".",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck when Marvel announces the X-Men title, start of production or a changed release date (currently May 5, 2028), and whenever Abbott gives a long interview about the role."
+    },
+    {
+      "id": "C32",
+      "claim": "He lives in New York with Aubrey Plaza, whom he met making Black Bear (shot 2019) and reunited with on Danny and the Deep Blue Sea; their pregnancy was announced in April 2026 and their daughter was born in July 2026. He says almost nothing publicly about the relationship (\"It's just too much. There's too much going on\").",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S23",
+        "S24",
+        "S17"
+      ],
+      "inference": "Dates from Wikipedia (citing People and other reporting). His reticence is observable on Today (S24) and in the brief, joking baby-name exchange on Talk Easy (S17).",
+      "alternative": "Do not speculate about when the relationship began or connect it to Plaza's bereavement; no source on that was opened and it is private. Do not name the child.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck if Abbott or Plaza publicly discuss marriage, the child, or the relationship in a long interview."
+    },
+    {
+      "id": "C33",
+      "claim": "Interpretation: across 2013-2026 his walkaways (Girls, John) are explained in the language of doubt, fear of being locked in and gut unease, his costly stay (Danny on crutches) in the language of shared ownership and duty, and his toughness as reactive; together with persistent self-described anxiety, pessimism, hedging and loyalty to a trusted circle, this fits a counterphobic Six better than an Eight.",
+      "passage": "",
+      "class": "interpretation",
+      "source_ids": [
+        "S18",
+        "S17",
+        "S29",
+        "S05",
+        "S01",
+        "S04"
+      ],
+      "inference": "The motive inference rests mainly on his own words in three long-form interviews (2019, May 2026, October 2026), checked against print interviews from 2012-2026 and testimony from Thurber, Gilpin, Gay, Mond, Clooney, Williams and Dunham. It explains why the same man refuses a secure six-season deal yet plays through surgery.",
+      "alternative": "Strongest rival: Eight (control, ownership, autonomy, confrontation, Gilpin's \"bull in a china shop\"). Live: Seven (boredom, FOMO, novelty) and Four (shame, authenticity, \"people don't understand me\" shield). No subtype or wing claim is needed.",
+      "durability": "stable",
+      "review_trigger": ""
+    }
+  ],
+  "type_hypothesis": {
+    "type": 6,
+    "confidence": "medium",
+    "for_claim_ids": [
+      "C08",
+      "C15",
+      "C16",
+      "C17",
+      "C18",
+      "C19",
+      "C21",
+      "C14",
+      "C27",
+      "C10",
+      "C11",
+      "C33"
+    ],
+    "against": "The print record alone reads as an Eight: he walked out of Girls at its height and out of John against others' wishes; he slapped a man who threatened him and 'wouldn't back down'; he finished Danny on crutches because 'You'd have to pry it out of my hands'; he wants control on stage, felt free on James White because 'I didn't feel like I was working for someone', and dislikes 'manipulation'. Collaborators describe force, not fear: Gilpin's 'bull in a china shop', Thurber's 'life-or-death' urgency, Mond's 'so much control', Clooney's 'captain of the ship ... he did it easily'. He also states confidence in his talent ('blind belief', 'I wouldn't say intimidated'). And some Six markers are thin: much of the pessimism is joking podcast banter, his guardedness he attributes to masculine norms, and preparation is professional habit.",
+    "alternative_type": 8,
+    "alternative_case": "Eight explains the confrontational, autonomy-protecting choices directly: refusing a long contract on someone else's show, leaving John on 'gut feeling', keeping Danny when injured ('I wouldn't want somebody else doing it'), preferring the stage where 'you're on your own', directness ('just give it to me straight', 'don't lie ... to not bullshit'), anger at ungenerous actors, buried vulnerability, and being 'drawn to like conflict'. Collaborator testimony stresses force and command. Seven is also live (boredom, FOMO, 'see how the wheels turn', novelty even in the crutches), as is Four (shame and image thread, authenticity, 'people don't understand me' as a 'shield', 'I relate' to Biff's 'I'm nothing').",
+    "discriminator": "What he says drives the choices. When he explains the decisions that look most like Eight, he uses fear and doubt words, not control words: the Girls contract made him 'nervous' and 'scared me', from 'my own fear of commitment generally', because 'How the fuck am I going to know if this is what I want to do next year or whatever?' (2026); the Danny stay was 'an ownership I feel and we all feel' and 'old-school theater shit. The show must go on' (duty to a shared project); the fight was reactive and left him 'shaken'; stage control is something he discusses with his therapist. Independently of those choices he volunteers anxiety in every long-form setting (social anxiety, 'anxiety sweat', 'anxiety about death', TV at night 'cause of anxiety', 'anxious and nervous' at the Tonys), hedges ('I will never put my eggs in any basket for any situation', 'do I want to only rely on it?'), arms himself 'just in case' ('as many weapons as I could'), vacillates between impostor doubt and 'nope, I deserve it', and leans on a long-trusted circle and 'work family'. An Eight's defenses rarely present as narrated anxiety and doubt; a counterphobic Six's do, alongside moving toward the feared thing ('I'd rather find out than not'; the 'lack of safety net that I find thrilling').",
+    "unexplained": "The shame-and-image thread (never wanting to 'look cheap', Wite-Out on sneakers, 'I need to start looking better', the handsome/ugly mirror swing, acting 'without shame') belongs to the heart triad and is not explained by Six or Eight. The novelty streak (boredom, FOMO, Kraven to 'see how the wheels turn', the injury becoming 'a new thing') leans Seven, though he dislikes the word 'enjoy' and courts painful material. His accounts of the Girls exit shift across 2013, 2015 and 2026, and Williams and Dunham remember less conversation than he does; the motive cannot be fixed with certainty. Why he finally welcomes a long franchise commitment at 40 ('stability') is plausibly fatherhood and age as much as type."
+  },
+  "profile_format": "standard"
+}

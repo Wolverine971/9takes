@@ -1,0 +1,22 @@
+Error: Reached max turns (100)
+[runner] Turn limit reached; resuming session fc9d19ac-0c0d-42a1-a506-f8c7af4b4858 to write outputs
+The Christopher Abbott verify stage is done. Its status is `revise`, so the profile isn't eligible yet. I wrote only `verification-edit.json` in the run folder, which passes the pipeline's schema check, and didn't publish anything.
+
+**Why it's held.** Two quotes that carry the type argument leave out the other half of his answer, and in both cases the missing half weakens the Type 6 case:
+
+1. **The "disappointed" line (2019 Back to One podcast).** The article quotes "I've grinded enough to like be disappointed enough times…" and turns it into "He expects to be 'disappointed.'" About 75 seconds later he takes it back: "I shouldn't even say disappointed… that's by no means is a feeling that I felt in that." Two transcription models agree on those words. Talking yourself out of a disappointment is close to the Type 7 habit the article says he lacks, and this is the main evidence for picking 6 over 7. It also feeds "braces for disappointment" in the type answer, both type FAQs and the page's tagline, "The Actor Who Braces for the Letdown."
+2. **The Italian-ice and set-carpentry jobs during *Girls* (2026 Happy Sad Confused podcast).** The article reads them as a backup trade, which counts as Type 6 evidence. On the podcast, though, the host asks if he did it for money and he says "No, I didn't." He says he was "trying to get in touch with… working roots or manhood," which fits the Type 8 reading at least as well.
+
+**Two smaller fixes:**
+- The article says he "carried" *Death of a Salesman*, but Biff is a featured role. No source I opened shows he finished that 2026 run.
+- No source gives a recording date for the 2019 podcast, so "recorded weeks after *Catch-22* premiered" is a guess.
+
+**What held up:**
+- Every quote from articles and interviews matched live or archived copies word for word.
+- The podcast quotes held up when I re-transcribed the clips with a different Whisper model. Its pass on five Talk Easy clips hadn't finished when the stage closed. Those quotes rest on the earlier saved transcripts, and the file says so.
+- I downloaded and transcribed Lena Dunham's 2018 *Watch What Happens Live* clip myself, and her quotes check out.
+- I accepted all 48 reviewer fixes, kept every protected passage, and re-ran the same-type similarity check: only the required "whose core emotion is fear" sentence matches other Type 6 pages.
+
+**Scores:** evidence 7.5, Enneagram 7.5, originality 8.5, writing 8, durability 8.5, hook 9, discoverability 8, for 8.0 overall. Release needs 8.5 overall and at least 8 on evidence and Enneagram. Separately, the sentence "He expects to be 'disappointed'" isn't in the evidence list at all, so that list is marked incomplete.
+
+**To clear it:** add the two missing halves, re-weigh the 6-vs-7 and 6-vs-8 comparisons, then soften the type answer, the FAQs and the tagline to match. None of this changes the leading type, so the six-reviewer pass shouldn't need to run again.

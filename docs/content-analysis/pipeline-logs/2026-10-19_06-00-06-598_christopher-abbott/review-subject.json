@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "subject",
+  "content_sha256": "5abe148c97df0229fa94ee8234c806a220e0d27583af40c607c41ec4eb459917",
+  "evidence_sha256": "ba444d753061ec0eca07b1453a7664ca3d4c20a0fc1940f76c13acb7e7dd7b7a",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "subject-01",
+      "severity": "major",
+      "passage": "He walked off _Girls_ and out of _John_.",
+      "problem": "Loaded exit verbs overstate both departures. On John (Back to One, S29, 0:17:02-0:17:47) he \"did the whole run and extended a bit,\" then declined a further extension, adding \"I kind of felt bad\" and \"it's not that I didn't like doing it, I did.\" On Girls he was a two-season guest star who declined a long-term deal after the season 2 finale. He denies a report that he \"stormed off set\" and describes \"a lot of back and forth at the time and just coming to the agreement\" (Talk Easy, S17, 0:40:21-0:40:32). \"Walked off\", \"walked out of\", \"walkouts\" (type section: \"A résumé of walkouts\"), \"Two years later he walked away again\" and the FAQ's \"He walked away from Girls and from Annie Baker's John\" suggest he abandoned productions midstream. That is the same insinuation the article reports him denying.",
+      "acceptance_test": "No body, FAQ or metadata sentence describes the Girls or John exits as walking off, walking out or walkouts. John is described as declining a further extension after the full run plus an extension, and Girls as declining a long-term deal after two guest seasons. The John passage includes his \"I kind of felt bad\" or \"it's not that I didn't like doing it, I did\" next to \"people were a little bit upset with me.\""
+    },
+    {
+      "id": "subject-02",
+      "severity": "major",
+      "passage": "Asked whether he had considered ending the run, he said no.",
+      "problem": "The block quote that follows skips the first half of his answer. In the NYT exit interview (S05), his reply to \"Did you think about just ending the run?\" is: \"No. I had figured out the staging, on how to do it with crutches, so I knew I was going to be able to go back to that version. Honestly, it's more precarious for me to shower than what I do onstage. Or going up and down my steps. I didn't think I was going to back out. We worked really hard on this thing...\" Without the feasibility reason, the hook, the Girls/Danny contrast, \"He refused to hand _Danny_ to someone else\" and the knee-injury FAQ present the stay as a stubborn refusal at physical cost. His own first explanation was that the crutch staging was already solved and the stage was low-risk. The article imagines more defiance than he described.",
+      "acceptance_test": "Near the ownership quote, the article reports that he said the crutch staging had already been worked out (restaged with the director, choreographers and Plaza) and that being onstage was \"more precarious\" for him to shower than to perform, or a faithful paraphrase. No sentence in the body, FAQ or description says the stay defied a physical risk greater than the source supports."
+    },
+    {
+      "id": "subject-03",
+      "severity": "major",
+      "passage": "His friends threw him a surprise 40th birthday party, which he said he never wanted.",
+      "problem": "Selective quotation flips what he said about the party. On Happy Sad Confused (S18, about 0:06:50-0:07:35, research medium.en transcript) he says he doesn't want such parties, \"but it was beautiful. It was really sweet because... you forget that people like you and they show up,\" and \"I know my friends love me.\" Only then does he add that \"my brain goes cynical and dark\" and call it \"a living funeral.\" The draft keeps only the unwanted, morbid half. That makes the line read as his verdict on his friends' gesture, and the anxiety section then uses it as evidence.",
+      "acceptance_test": "The same sentence or the next one reports that he called the party beautiful or sweet, as a paraphrase or as a quote second-transcribed from the saved audio. The \"living funeral\" line is framed as his description of his own cynical reflex, not his judgment of the party or his friends."
+    },
+    {
+      "id": "subject-04",
+      "severity": "major",
+      "passage": "Even the control he finds onstage comes framed as a therapy-room admission:",
+      "problem": "In Interview 2026 (S02), asked what he enjoys about live shows, he gives a band-on-tour analogy, then says: \"If I'm talking to my therapist, I feel a greater sense of control from doing it live. As an actor, I struggle with that sometimes. Being on set requires a lot of cooks in a kitchen.\" The research record itself marks the preface as ambiguous: it may just be a figure of speech for \"honestly.\" Calling it \"a therapy-room admission\" presents it as a disclosure from his therapy and makes it one of four items that \"tip it back toward the Six.\" That claims to know what he discusses with a therapist, and it turns a mental-health reference into evidence for a motive.",
+      "acceptance_test": "The phrase \"therapy-room admission\" is gone. If the line stays, it is quoted neutrally, its ambiguity is acknowledged, and it is not counted as a discriminator. No sentence implies what he tells a therapist or treats his therapy as evidence for his type."
+    },
+    {
+      "id": "subject-05",
+      "severity": "minor",
+      "passage": "In the same conversation he agreed with the host's description of a rehearsal room where the director, Sam Gold, and Baker whispered between themselves and gave notes he had to decode.",
+      "problem": "Placing the named collaborators two sentences before \"what I don't like is manipulation\" invites readers to conclude he called Gold and Baker manipulative. That is unfair to them and to him. On Back to One (S29, 0:16:44-0:18:32) he first called Baker \"a genius.\" Answering the host's description, he said \"Sam and her obviously have like a really healthy rapport... there's just a kinship there.\" \"Manipulation\" came when the host asked, in general, what direction works for him. \"He did not say that was why he left\" addresses cause, not this inference.",
+      "acceptance_test": "The passage includes his generous framing of the pair (\"a really healthy rapport\", \"kinship\", or Baker as \"a genius\"), or makes clear that \"manipulation\" answered a general question about direction, or moves the named collaborators away from the manipulation sentence."
+    },
+    {
+      "id": "subject-06",
+      "severity": "minor",
+      "passage": "He keeps his vanity, he said, for \"any kind of social anxiety.\"",
+      "problem": "The anxiety section counts lines that he framed differently. In context (S29, 0:04:39-0:05:14) this is about vanity: he is \"much more vain in real life\" than on camera and saves vanity for social life. It is not a report of anxiety, yet \"social situations\" enters the tally (\"death, sleep, social situations, contracts and awards\"). Likewise, he introduced \"I will never put my eggs in any basket\" (0:57:16) with \"I think I have a healthy perspective on life in this business\" and followed it with \"of course, it's gorgeous and nice... I take it to heart.\" He called it healthy realism. The draft presents it as anxious hedging.",
+      "acceptance_test": "The vanity line either gets its context (vanity saved for real life, none on camera) or leaves the anxiety tally. The eggs quote carries his \"healthy perspective\" framing. The tally sentence lists only contexts where he actually describes anxiety or nerves."
+    },
+    {
+      "id": "subject-07",
+      "severity": "minor",
+      "passage": "says he won't back down from a fight",
+      "problem": "The Type 8 FAQ turns a statement about growing up into a present-tense trait and drops his qualifier. In Interview 2023 (S01) he says: \"growing up, yes, I have gotten into fights, but I wouldn't look for them. But if for whatever reason someone wanted to fight me, I wouldn't back down from it.\" He follows it immediately with \"Those days are over for me. At least, I think.\" The body also leaves out that qualifier, and that he said the rider caused the collision (\"I knew right away it was totally his fault\"). For a self-reported physical altercation, his own limiting response belongs next to it.",
+      "acceptance_test": "The FAQ uses past framing (for example, that growing up he wouldn't back down) or adds the qualifier. The body includes \"Those days are over for me. At least, I think.\" or a faithful paraphrase near the fight passage. The slur stays unprinted and the slap stays unembellished."
+    },
+    {
+      "id": "subject-08",
+      "severity": "minor",
+      "passage": "Christopher Abbott Enneagram Type 6: Why He Left Girls",
+      "problem": "The search title promises a causal answer that the article itself says the record can't give. The body reports three changing explanations (2013, 2015, 2026), co-workers who remember it differently, and a medium-confidence type reading. Under a Type 6 label, \"Why He Left Girls\" presents a typing inference as the explanation of a real career decision, and the body has already pulled back from that.",
+      "acceptance_test": "meta_title stays within 35-65 characters, does not claim to explain why he left Girls, and matches the body's medium-confidence framing (for example, it names the Girls exit as a subject or question rather than a solved motive)."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "By 2026 he had disowned the 2013 version. \"I think I was dancing around,\" he said on Talk Easy.",
+      "reason": "It sets the subject's changing accounts side by side and lets his own correction stand, instead of picking the version that fits the thesis. Checked against Talk Easy 0:41:01-0:41:19."
+    },
+    {
+      "passage": "None of it is clinical, and nothing here treats it that way. It is the vocabulary he reaches for when he explains himself.",
+      "reason": "It cleanly separates self-reported language from diagnosis, which is exactly the line a fair profile of someone's anxiety talk must hold."
+    },
+    {
+      "passage": "He names the cause himself, which makes it weak evidence for any one type. The shame thread may owe as much to growing up near money without it as to type.",
+      "reason": "It credits the subject's own explanation and states the limit of the inference plainly. Keep this as a model for the repairs above."
+    },
+    {
+      "passage": "A Six reading has a logic for that: at 40, with a new child, steadiness can become the thing worth protecting. Age and fatherhood explain it at least as well.",
+      "reason": "It gives a non-type explanation equal weight for a recent life change, and it handles the child without naming her or speculating."
+    },
+    {
+      "passage": "The record still lacks the scene that would settle it: a conflict he started rather than met, or an account from his closest collaborators of how he behaves when a project he loves is threatened.",
+      "reason": "It says plainly what the public record cannot show and keeps the article from claiming access to motives it has not got."
+    }
+  ],
+  "assessment": "On the subject's side the draft is mostly careful. It separates self-report from inference and keeps the anxiety material non-clinical. It also follows the do-not-use list: the child is not named, Plaza's bereavement is not mentioned, the slur is not printed, and Dunham's unverified \"couldn't handle it\" line is left out. It prints his denial of the \"stormed off set\" report and pairs the 2013 \"relatable\" quote with his 2026 disowning of it. The main fairness risk is selective quotation that tilts his own words toward the thesis. In four places, the half of an answer that is left out would soften or reverse the portrayal: on John (\"I kind of felt bad\"), on Danny (staging solved, \"more precarious\" to shower), on the 40th party (\"beautiful\"), and on the eggs line (\"healthy perspective\"). Add the walkout verbs and the therapy framing. These are wording-level fixes; the type argument survives them. Smaller items not raised as findings: the H2 '\"Stability\"' puts in quotation marks a word the body says the audio leaves unclear, a word only TheWrap heard. The \"enjoy\" rebuttal of Seven is a quip about a grueling play: he adds \"I enjoy food,\" and in 2019 said of a happy set \"I wanna enjoy this so much.\" The Dunham paraphrase says \"complaining\" where she said \"he said something about being 'stuck on a sitcom'.\" And \"tough-guy reputation\" comes from Interview's description of his roles, not of him. Similarity diagnostic: the matches are the house triad sentence and two type-definition phrases (\"something solid to stand on\", \"walks straight at what scares him\") shared with Lily-Rose Depp and Shyam Sankar. The Abbott-specific argument is distinct, so I raised no finding. Risks: contested_typing stays true. There is no new sensitive allegation: the slap is self-reported, and the storming-off report is denied, with the denial printed. Verification: I reopened the saved print texts of S01, S02, S04, S05, S06, S13 and S20 and the research-stage medium.en transcripts of S17, S18 and S29 at the cited points. The podcast checks rest on machine transcripts, not a human listen, so any newly quoted podcast words need second transcription."
+}

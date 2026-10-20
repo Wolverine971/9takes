@@ -1,0 +1,100 @@
+{
+  "schema_version": 3,
+  "role": "critic",
+  "content_sha256": "5abe148c97df0229fa94ee8234c806a220e0d27583af40c607c41ec4eb459917",
+  "evidence_sha256": "ba444d753061ec0eca07b1453a7664ca3d4c20a0fc1940f76c13acb7e7dd7b7a",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "critic-F1",
+      "severity": "major",
+      "passage": "An Eight telling the _Girls_ story would usually center it on autonomy. Abbott centers it on being \"nervous\" and \"scared.\"",
+      "problem": "This is the main discriminator, and it relies on half of his answer. On Happy Sad Confused (S18, about 0:31) the sentence goes on: \"And that just sort of scared me just because, you know, I liked I liked working on it, but I get, you know, I get bored easily ... I just want to do something else.\" On Talk Easy (S17, about 0:38-0:41) he explains the same exit as \"My personality is, like, I get bored very easily,\" \"my own sort of maybe impatience,\" \"a little bit of fear of commitment,\" \"I don't like signing on to long-term things\" and \"I just want to always want to do different things.\" In his own words, the thing he feared was being locked in and bored. That is a freedom or novelty motive, not the Six's fear of losing support, and the draft quotes those Talk Easy lines two sections earlier before saying the opposite here. The same paragraph also calls the stage-control line a \"therapy-room admission.\" In S02 the line is \"If I'm talking to my therapist, I feel a greater sense of control from doing it live. As an actor, I struggle with that sometimes,\" and the research record itself says the preface may just mean \"honestly\" (C21).",
+      "acceptance_test": "Wherever \"scared\" is quoted as Six evidence, the Why-not-8 section also quotes or paraphrases its stated reason (\"just because ... I get bored easily\"). The sentence claiming he centers the Girls story on fear rather than autonomy is either removed or rewritten to admit that his own accounts center on boredom and not wanting long commitments. The therapist preface is presented as a possible figure of speech, not as a confession. The Girls exit then either feeds a discriminator that survives his stated reason or is labeled non-discriminating. The type FAQ and claims C33, C95 and C116 match the revised wording."
+    },
+    {
+      "id": "critic-F2",
+      "severity": "major",
+      "passage": "The weight is in the repetition: death, sleep, social situations, contracts and awards, across seven years and three long conversations.",
+      "problem": "The repetition is thinner than claimed. Death, sleep and social anxiety all come from one 2019 conversation (S29, Back to One), as the draft itself admits. In the 81-minute Talk Easy (S17), the only fear words he uses about himself are \"a little bit of fear of commitment\" (paired with boredom, see F1) and \"in fear of fucking them up\" (about sneakers). The Happy Sad Confused \"anxious and nervous\" line is the setup of the post-Tony bathroom joke (S18, about 0:05), which the research do-not-use list (item 8) flags as comedy. The \"living funeral\" line is cut out of \"it was beautiful. It was really sweet ... you forget that people like you and they show up.\" Across the print record (Interview 2012, 2023 and 2026, NYT 2013 and 2024, Issue, Slant, Playbill, Cero, Sharp) he reports essentially no anxiety. When Interview asked him directly in 2026 whether the Salesman offer intimidated him, he said \"I wouldn't say intimidated. If anything, I leaned more towards excitement\" (S02). The research record lists that line as counterevidence, and the draft omits it. The FAQ line \"he brings up anxiety in nearly every long interview\" goes further than the record.",
+      "acceptance_test": "The anxiety section says the bulk of the material comes from one 2019 conversation. It includes and answers the 2026 \"I wouldn't say intimidated ... excitement\" line. The Tony and birthday lines either appear with their surrounding context (the bathroom joke; \"it was beautiful ... really sweet\") or stop counting as anxiety evidence. The Could-he-be-an-8 FAQ no longer says \"nearly every long interview\" unless a stated count of the opened long interviews supports it."
+    },
+    {
+      "id": "critic-F3",
+      "severity": "major",
+      "passage": "After the slap, he said, \"I didn't feel that cool. I was shaken by it.\"",
+      "problem": "The draft keeps only the half of the exchange that suits Six. In the same Interview 2023 exchange (S01) he opens with \"The end of the story is I slapped him, but it was deserved.\" Right after \"shaken\" he says \"Those days are over for me. At least, I think. But I still have fantasies about shit happening.\" He then says he wishes he had gone along for Carmichael's Paris incident, and tells him \"Yeah, I'd fuck someone up for you.\" Wanting confrontation and offering to fight for a friend is the strongest Eight material in the record. The draft scores the fight for Six on \"shaken\" alone, then concludes \"That is vigilance more than appetite.\" Earlier it calls the incident \"one street fight,\" although he says \"growing up, yes, I have gotten into fights.\"",
+      "acceptance_test": "The Why-not-8 section sets \"it was deserved\" and \"I still have fantasies about shit happening\" (or \"I'd fuck someone up for you\") beside \"shaken\", with no slur. The \"vigilance more than appetite\" sentence is revised or directly answers this material. \"One street fight\" is changed to reflect the fights he reports from growing up. Claims C14 and C96 cover the added passages."
+    },
+    {
+      "id": "critic-F4",
+      "severity": "major",
+      "passage": "That is the counterphobic move in miniature: the feared thing becomes the draw.",
+      "problem": "This reversal is assembled from two quotes that mean different things. In Issue 2015 (S06) the safety net is that a play is unrecorded: \"There was room to experiment and make mistakes ... once the play's over, it's over. It's not recorded.\" In Interview 2026 (S02) the missing safety net is the same liveness seen from the other side: \"I like making quick, instinctive decisions in front of an audience.\" Both quotes describe a property of live theater, and he prefers the stage in both years. Neither says he ever feared the stage or the lack of a safety net, so \"the feared thing becomes the draw\" has no source. The counterphobic label leans on this paragraph and on \"I'd rather find out than not,\" which is a statement of curiosity (C51 notes it fits Seven too).",
+      "acceptance_test": "Either the \"counterphobic move in miniature\" conclusion is cut, or both safety-net quotes appear with their stated reasons and the text says they describe the same liveness from two angles. No sentence claims he once feared something that now draws him unless a source shows the earlier fear."
+    },
+    {
+      "id": "critic-F5",
+      "severity": "major",
+      "passage": "A Seven chases enjoyment, though, and Abbott told Talk Easy, \"I guess I just don't like the word enjoy.\"",
+      "problem": "The Seven rival is dismissed with a line taken out of its context. On Talk Easy (S17, about 1:12) the line answers whether he enjoys performing Death of a Salesman, a draining play. In the same exchange he says \"I enjoy food\" and the host adds \"You enjoy the Knicks.\" It is a quibble about one word, not a statement about what drives him. The \"anxiety about death\" quote that the draft counts as Six evidence is also cut short. In Back to One (S29) it continues: \"what if I die before this thing even comes out? Like, I wanna enjoy this so much. Like, this moment, like, this time being spent. Like, again, time is the most valuable thing to me.\" The full sentence is about savoring the present, which leans Seven and contradicts the dismissal.",
+      "acceptance_test": "The Seven paragraph either gives the \"enjoy\" line its context (he was asked about performing Salesman) or stops using it as the rebuttal. The death-anxiety sentence includes or paraphrases \"I wanna enjoy this so much ... time is the most valuable thing to me.\" Seven is then either rebutted with evidence that survives context or left explicitly live in the type answer and the FAQ."
+    },
+    {
+      "id": "critic-F6",
+      "severity": "major",
+      "passage": "The pattern runs along ownership. He leaves arrangements that someone else set for years ahead. He stays inside projects that he and his friends built.",
+      "problem": "This is an attractive causal story with a simpler rival in his own words. \"Arrangements that someone else set for years ahead\" has exactly one case, Girls. John was no multi-year arrangement: he \"did the whole run and extended a bit\" and then declined a further extension, saying it was \"a play I would have watched 50 times rather than be in for, you know, an extended period\" and \"something wasn't quite sitting right with me in it\" (S29). The draft omits both lines. He stayed with Death of a Salesman and carried Catch-22, and neither project was his or his friends'. He also finished both Girls seasons he had signed for. One pattern covers every case: he keeps finite commitments and resists open-ended ones, as he says himself (\"there's nothing more valuable to me than time,\" said twice in the 2019 conversation; \"I don't like signing on to long-term things\"). It also breaks the hook's logic. Finishing an 11-week run he had already committed to is not \"the opposite\" of declining a roughly six-year contract. The evidence record's own C81 calls the pattern \"partial,\" but the draft never says so.",
+      "acceptance_test": "The ownership paragraph names its limits: John was an extension, and Salesman and Catch-22 were not his projects. It weighs the finite-versus-open-ended explanation using his \"time\" lines and the \"extended period\" line. The hook's \"done the opposite\" framing is softened or justified. \"Two years later he walked away again\" makes clear that he completed the run and an extension first."
+    },
+    {
+      "id": "critic-F7",
+      "severity": "minor",
+      "passage": "Thirteen years after a multi-season offer \"scared\" him, the man who said he would never put his eggs in any basket has signed on to a franchise with a release date two years out.",
+      "problem": "This changes what the 2019 line meant. On Back to One (S29, about 0:57) \"I will never put my eggs in any basket\" answers the host's report of Clooney calling him \"the next star.\" He goes on: \"I've been in that situation before ... people said ... 'get ready, like it's about to explode.' And then it didn't.\" The line is about not trusting hype. It says nothing about avoiding commitment, so it can't stand in for the Girls fear.",
+      "acceptance_test": "The X-Men paragraph either supports the contrast with a quote that is actually about commitment (for example \"nervous to sign on to something for multiple seasons\") or keeps the eggs line only alongside its hype context."
+    },
+    {
+      "id": "critic-F8",
+      "severity": "minor",
+      "passage": "The record still lacks the scene that would settle it: a conflict he started rather than met, or an account from his closest collaborators of how he behaves when a project he loves is threatened.",
+      "problem": "The nearest scene to this settle signal is already in an opened source, and the draft doesn't use it. After the knee injury he told the Times (S05): \"We canceled that Sunday show. The director, the choreographers and Aubrey came here, and just here in my living room we tried to figure out a new staging,\" and \"I had figured out the staging, on how to do it with crutches.\" That is his own account of how he acted when a project he loved was threatened. It is mixed: he gathered his people, and he also solved it himself. The test \"A Six would reach for his people. An Eight would take charge alone\" also understates how often Eights rally their own crews.",
+      "acceptance_test": "The paragraph either uses the living-room restaging as the existing, mixed evidence for this test, or narrows the claim to the missing evidence it actually means: independent testimony from collaborators. The reach-for-people versus take-charge test acknowledges that both types can gather allies."
+    },
+    {
+      "id": "critic-F9",
+      "severity": "minor",
+      "passage": "Colleagues describe force too: Gilpin's bull in a china shop, and Mond, who said Abbott \"had so much control and so much range and so much elegance.\"",
+      "problem": "Mond's line in Seventh Row (S09) answers \"What did you notice in the edit that Chris was doing on set?\" He is praising Abbott's subtle nuance from take to take, which is craft, not temperament. The research record says the same (C94: \"Craft praise, not temperament\"). Counting it as testimony to his \"force\" pads the Eight case with something it can't support, and makes the steelman look stronger than the record is. In the same piece, Mond says the friendship made him \"feel safe and comfortable in my anxiety and fears.\" That is testimony about Abbott as a steadying presence, and it is the material this paragraph needs.",
+      "acceptance_test": "Mond's \"control\" quote is either dropped from the force list or labeled as praise for his acting. Any collaborator testimony kept in the Eight case is about how he behaves, not how he acts on camera."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "On a Saturday in early December 2023, with maybe 30 minutes left in a performance of _Danny and the Deep Blue Sea_ at the Lucille Lortel Theatre, Christopher Abbott got up off the floor and felt his knee lock.",
+      "reason": "A specific opening whose details match the Times exit interview (S05) and that pays off. Keep it even if the \"opposite\" contrast that follows is softened (F6)."
+    },
+    {
+      "passage": "By 2026 he had disowned the 2013 version. \"I think I was dancing around,\" he said on Talk Easy.",
+      "reason": "Honest handling of an unstable self-account. The draft shows the 2013, 2015 and 2026 versions plus Williams and Dunham rather than choosing the convenient one. That is the right model for repairing F1."
+    },
+    {
+      "passage": "He did not say that was why he left.",
+      "reason": "Disciplined restraint. It refuses to turn the Gold and Baker rehearsal anecdote into a motive he never claimed, and leaves out the secondhand Lois Smith line."
+    },
+    {
+      "passage": "A Six reading has a logic for that: at 40, with a new child, steadiness can become the thing worth protecting. Age and fatherhood explain it at least as well.",
+      "reason": "Names a non-type explanation at equal weight instead of folding the X-Men commitment into the thesis. This is the kind of adverse-evidence confrontation the rest of the Eight and Seven sections should match."
+    },
+    {
+      "passage": "He names the cause himself, which makes it weak evidence for any one type.",
+      "reason": "A clean statement of an inference limit. It treats his own explanation (learned male norms) as evidence instead of overriding it with type."
+    }
+  ],
+  "assessment": "This is a fair-minded draft in its architecture. It has a real Why-not-8 section, a section on what the Six reading leaves out, attributed and shifting Girls accounts, and explicit jokes caveats. It does not hide the Eight case. The problem is in the decisive paragraphs. The discriminator (\"his own explanations of those choices use fear and doubt words rather than control words\") stands mostly on the thesis-friendly half of each answer. \"Scared\" loses the \"just because ... I get bored easily\" that follows it (F1). The slap story loses \"it was deserved\" and \"I still have fantasies about shit happening\" (F3). The death-anxiety line loses \"I wanna enjoy this so much,\" and that clipping is what lets a word quibble dismiss Seven (F5). The anxiety tally comes mostly from one 2019 podcast plus two comedy beats, while a direct 2026 denial of intimidation goes unmentioned (F2). The safety-net \"reversal\" is two descriptions of the same liveness (F4). The ownership pattern has a simpler rival in his own repeated words about time and finite commitments (F6). Checked against the saved transcripts (/tmp/christopher-abbott-research/tx: b21, talkeasy, hsc) and print texts (txt: interview_carmichael, interview_salesman, issue, nyt2024, seventhrow_mond, cero). I found no misquotation: the problems are clipping and framing, not wording. Once repaired, the honest record may still favor Six, but on narrower ground (hedging, the 2019 anxiety material, loyalty to a trusted circle), with the Girls exit and the stage preference no longer discriminating. Seven needs to be treated as more live than the draft allows. If the editor cannot find a sourced discriminator that survives F1, F3 and F5, the confidence or the lead type should change, and under the standard that is a thesis change requiring re-review. Similarity: the 1.0 matches (\"whose core emotion is fear\") are the house-mandated triad sentence. \"Something solid to stand on\" (Lily-Rose Depp) and the counterphobic-Six-mistaken-for-Eight setup (Shyam Sankar) are ordinary definitional type vocabulary in the diagnosis paragraph, not reused arguments, so I record no similarity finding. The editor could still tie that paragraph to an Abbott-specific example. No sensitive-allegation, historical-source or thesis-change risk was found in the frozen draft. contested_typing remains true."
+}

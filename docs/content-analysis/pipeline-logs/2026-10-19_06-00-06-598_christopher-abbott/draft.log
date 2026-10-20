@@ -1,0 +1,24 @@
+Error: Reached max turns (60)
+[runner] Turn limit reached; resuming session 255d6705-c5ed-4192-b48f-dff47a3ad3fd to write outputs
+I wrote both files, `draft.md` and `evidence-draft.json`. They pass the pipeline's own checks: `validateEvidence` and `checkDraft` report no blockers. I didn't change any other repo files (my scratch scripts are in `/tmp`), and nothing was published. The draft is `published: false`.
+
+**The draft**
+- **Length:** 3,323 words in 9 sections, inside the 2,000–3,500 target.
+- **Opening:** the December 2023 night he tore his knee during *Danny and the Deep Blue Sea* and kept going ("You'd have to pry it out of my hands"). It's set against his 2013 exit from *Girls* when the show wanted him for years. The question it raises: why would someone who wouldn't sign on to a hit show refuse to give up a small play on a torn knee?
+- **Type call:** the answer under "What is Christopher Abbott's personality type?" is 59 words and commits to Type 6 (the Six who walks straight at what scares him), with no rival named in that paragraph. Medium confidence is stated in the paragraph after it, and in the FAQ.
+- **Why Six over Eight:** he leaves arrangements other people set for years ahead, and stays with projects he and his friends built. When he explains himself, he uses fear and doubt words more than control words. He brings up anxiety in all three long podcast interviews, 2019 to 2026.
+- **The Eight case** gets its own section in his own words: the walkouts, the "Let's do it" slap, and wanting control on stage. Seven and Four each get their strongest evidence, and the article says what neither explains.
+- **Metadata:** 6 FAQs, `meta_title` "Christopher Abbott Enneagram Type 6: Why He Left Girls", a 152-character description, and suggestions limited to pages I checked are published (Aubrey Plaza, Pedro Pascal, Jon Bernthal, Tom Hardy, Jeremy Allen White, Paul Mescal).
+- **Style checks:** there are no em dashes, and five strong lines are set off as blockquotes.
+
+**Quote checking**
+- I matched every quoted phrase in the body against the saved source texts and transcripts, and none failed.
+- The podcast quotes come from machine transcripts, so I transcribed each quoted clip a second time with a different model. Where the two versions differ, I quote only the words they share or paraphrase.
+
+**The evidence file** maps 117 claims to exact passages in the draft. I dropped three claims the draft doesn't use (Mike Faist's comment, the inarticulate-characters thread, and the social-media/privacy material), but their sources stay in the record.
+
+**Still open (also recorded in `research_tasks`)**
+- No one has listened to the podcast clips. The second transcription is still a machine pass.
+- One line, "I love being part of a community" (Back to One), has only the original transcription.
+- I couldn't find the 2018 Lena Dunham *Watch What Happens Live* clip. Her account is paraphrased from Pajiba's write-up, and her "couldn't handle it" line isn't printed.
+- I didn't quote the word "stability" in the X-Men passage, because the audio is unclear there. The article credits TheWrap with hearing it.

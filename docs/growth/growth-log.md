@@ -10,6 +10,76 @@ Use this file as the persistent memory for growth work across audits, research p
 
 ## Experiment Log
 
+### 2026-10-19
+
+**Weekly growth audit: the second-best traffic week in 26 (773 engaged humans, 40 returning) produced 1 take. Every gated surface except question pages went to zero, celebrity pages showed q567 to 110 readers for no answers, and the one contributor got no reply. The 10-18 fix build is live as of ~21:00 ET Sunday, so this week is the baseline it has to beat.**
+
+Headline source **`admin_engagement_trends_weekly_v2(26)`** via `scripts/db-query.sh`, run 10-19 06:00 ET. "This week" = **10-12..10-18** (Monday start, America/New_York). No series break falls between 10-05 and 10-12. **New break, 10-18 ~21:00 ET:** the fix build moves the celebrity default from q567 to q118, makes the homepage a one-step post, and records homepage `gate_shown` for first-visit browsers. Homepage gate counts and funnel steps after it are not comparable to earlier weeks.
+
+| Week (v2 RPC)       |                                    Human visitors (returning) |                                                       Human comments | Contributors (returning) |      Real signups | Registrations | Bookings |
+| ------------------- | ------------------------------------------------------------: | -------------------------------------------------------------------: | -----------------------: | ----------------: | ------------: | -------: |
+| 08-24               |                                                      590 (27) |                                                                    7 |                    5 (1) |                 1 |             3 |        0 |
+| 08-31               |                                                      582 (38) |                                                                    4 |                    3 (0) |                 0 |             2 |        0 |
+| 09-07               |                                                      643 (28) |                                                                    6 |                    6 (0) |                 0 |             0 |        0 |
+| 09-14               |                                                      658 (35) |                                                                    9 |                    6 (1) |                 1 |             1 |        0 |
+| 09-21               |                                                      669 (43) |                                                                    0 |                    0 (0) |                 1 |             0 |        0 |
+| 09-28               |                                                      586 (35) |                                                                    2 |                    2 (0) |                 1 |             1 |        1 |
+| 10-05               |                                                      676 (22) |                                                                    6 |                    6 (0) |                 2 |             1 |        1 |
+| **10-12**           |                                                  **773 (40)** |                                                                **1** |                **1 (0)** |             **0** |         **0** |    **0** |
+| 10-19 partial (6 h) |                                                         3 (0) |                                                                    0 |                    0 (0) |                 0 |             0 |        0 |
+| 25 complete weeks   | 200-818, median 560, #2 of 25; returning 18-43, median 30, #2 | median 2; 12 in 11 wks to 07-06, 82 in 07-13..09-14, then 0, 2, 6, 1 |       returning: 4 total | 0 in 16 of 25 wks |      25 total |  2 total |
+
+| Secondary diagnostic                                               | Value                                                                                                                                                                       |
+| ------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Gate -> take by surface, human, 10-12 wk (10-05 wk)                | celebrity **110 -> 0** (103 -> 1); home 24 -> 0 (14 -> 3); question pages 11 -> 1 (9 -> 2); blog embeds 5 -> 0 (13 -> 0). 110 includes one local-dev row with no page visit |
+| Celebrity q567 since the 10-03 launch, distinct fps                | **233 -> 1 (0.43%)**                                                                                                                                                        |
+| Celebrity q118 since the deploy (first real reader 10-19 01:53 ET) | 3 readers (78 s, 8.5 min, 21.7 min on page) -> 0 takes                                                                                                                      |
+| Takes per 1,000 engaged humans                                     | **1.3** (10-05: 8.9; 07-13..09-14: 13.3; 04-27..07-06: 2.4)                                                                                                                 |
+| Engaged-human entry landings, 10-12 wk (10-05 wk)                  | celebrity 387 (318); search 528 (464); direct 192 (165); home 18 (13)                                                                                                       |
+| Contributor return, +24 h..+7 d                                    | 10-05 cohort matured: 6 -> 1 visit, 0 second takes. 759: back direct after 21 h, 3 pages, did not reopen its take (1.2 d observed)                                          |
+| Takes with a DJ reply within 24 h                                  | **0 of 1** (0 of 7 since 10-05). Last host reply 10-03, 16 days ago. Desk: 16 pending, 1 posted lifetime; 3 opt-ins, 0 notified                                             |
+| Host digest (`app_error_events`, `host_digest`)                    | 7 of 7 days ran. 6 `no_takes` logged `olderPending` 0 (the bug); 10-18 sent with 15 older pending, `alarm` false. The fix is deployed; first post-fix run is 10-19 09:00 ET |
+| Email                                                              | 3 welcome sends, 0 failed, 0 opened; **0 active welcome enrollments**. Signup 211's confirmation still failed (14 days)                                                     |
+| Beta card (client-side `cta_experiment_events`)                    | 532 viewers -> 26 opened -> **0 submitted** (10-05 wk: 621 -> 14 -> 1). Goal 10 by 11-15: 1                                                                                 |
+| Auth pages                                                         | `/login` 12 engaged humans, `/register` 1, 0 registrations. Bot-inclusive: 86 register honeypots, 108 failed logins                                                         |
+| Errors / raw visitors (bot-inclusive)                              | `opentype.parse` x3, last 10-18 14:02 ET (before the fix deploy). Raw visitors 3,005 (3,338)                                                                                |
+
+- **Direction changes:**
+  - **Traffic up, participation down.** Engaged humans 676 -> 773 (+14%), second only to 818 (08-03). Returning 22 -> 40, 5.2% of visitors. Takes 6 -> 1 and contributors 6 -> 1. Comments did drop: they fell from the summer band (82 in 10 weeks) back to the pre-July floor. Per 1,000 engaged humans, that is 13.3 in summer and 1.3 now. Demand is not the problem.
+  - **Only question pages converted.** The one take (759) came from a Google reader: 18 min on Alex Karp, 2 min on the homepage without answering, then an answer to q571 (admin-posted 10-13) on its question page. The question page is the one surface where existing takes are visible. That it is what converts is an inference from n = 1.
+  - **Returning contributors: 0 for a fourth straight week, 4 in 25 weeks.** Signups 2 -> 0, registrations 1 -> 0, bookings 1 -> 0. For these three series, zero is the normal level, not a drop. 0 registrations leaves the welcome sequence with nobody in it.
+  - **T-41 C two-week readout** (bars: home >=2 contributors a week, celebrity >=3). Celebrity q567 went 0, 1, 0 (233 -> 1): **lost**. Homepage two-step v1 went 3, 0, below the bar: **lost, superseded** by one-step v2. Both 4-week clocks restart on 10-19.
+
+**Biggest leak this week: the ask, not the audience. The second-biggest engaged-human week in 26 (773) produced one take (1.3 per 1,000), celebrity pages alone showed the gate to 110 readers for 0 answers, and the one contributor got no reply.** Anti-patterns: a leaky bucket (traffic rose while the bottom stayed open) and execution debt (replies have been a top bet for three audits, 0 done).
+
+- **Recommended bets (ranked):**
+  1. **Read q118 daily against a pre-committed kill rule.**
+     - Hypothesis: we believe the q118 three-word ask, with bundled AI examples, will move celebrity-page readers from 0 to >=3 contributors a week. The reasons: 387 engaged celebrity landers a week, readers near the gate spend a median ~3.9 min, and q567's only answer said it was not understood.
+     - **Success: >=3 celebrity contributors in each of the 10-19 and 10-26 weeks, and q118 gate -> take >=3%.**
+     - **Kill: 0 takes after ~100 q118 gate fingerprints (about a week). The 95% upper bound is then ~3%, at or below what the bar needs (3 of ~110 a week).** On a kill, put the on-topic "your read on {person}" prompt in the slot (the 10-12 ambitious version). Guardrail: median engaged time of gate viewers >=3.5 min.
+  2. **Work the 16 pending drafts, starting with the opt-ins 743 and 749, the registrant 754 and the newest 759, and verify the backlog alarm today.**
+     - Hypothesis: we believe a DJ reply within 24 h to first-time contributors will move `returning_contributors` off 0. The reasons: the only recorded loop turn followed a DJ reply, two contributors (`c4e88b00`, 753) reopened an unanswered take, and 759 came back to the site within a day.
+     - **Success: >=80% of new takes replied within 24 h for 2 weeks, >=1 opt-in notified, and `returning_contributors` >=1 by the 11-02 audit.**
+     - Check: the 10-19 09:00 ET digest should log `olderPending` >=16 with `alarm` true. If it does not, the fix did not land.
+     - Lean: 10 minutes today. Ambitious, for DJ to pick: name who else can reply in his voice if a daily slot will not hold. Automatic replies stay off.
+  3. **Read homepage v2 on the new events, and resend 211 in the same pass.**
+     - Hypothesis: we believe removing the second "post" choice will move homepage contributors from 0 to >=2 a week. The reason: last week's PostHog counts were 2 started, 2 revealed, 0 clicked post.
+     - **Success: >=2 homepage contributors a week for 2 weeks, and started -> `comment_created` >=40%.**
+     - Read it against engaged `/` visitors, not gate counts (10-18 break).
+- **Running experiments:**
+  - Celebrity question: q567 lost; q118 running since 10-19 01:53 ET (3 -> 0).
+  - Homepage: v1 lost; one-step v2 running since ~10-18 21:00 ET.
+  - Host digest: running 7 of 7 days; backlog fix deployed, unverified.
+  - Weak-password message and social-card font: deployed; 0 password hits this week, and all 3 card errors predate the deploy.
+  - Mail: running, 0 failures; 211 not resent.
+  - Beta card: running, 0 submits this week.
+  - Reply opt-in: 3 lifetime, 0 served.
+  - The Nine, Reddit, founding circle and type prompt: held.
+  - 10-18 bets: #1 replies **not done**; #2 celebrity prompt **done** (deployed); #3 defects and instrumentation **done except the 211 resend**.
+- Repro: [SQL](audits/2026-10-19-weekly-audit.sql), [v2 snapshot](audits/2026-10-19-v2-snapshot.csv).
+  - Deploy timing is inferred from `vercel ls` plus the first real q118 celebrity event; the live commit is unverified.
+  - Not queried this run: PostHog (the 10-18 counts are cited), inbox delivery of the digest, and per-take source attribution beyond 759.
+
 ### 2026-10-18 — Conversion fixes prepared locally
 
 DJ authorized fixing the defects found in the audit. Product changes are implemented and tested locally; **not deployed**. The morning audit below describes the pre-change production state.

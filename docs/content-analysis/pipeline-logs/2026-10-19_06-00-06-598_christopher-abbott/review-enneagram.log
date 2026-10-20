@@ -1,0 +1,18 @@
+I wrote the Enneagram review to `review-enneagram.json` in the Christopher Abbott run folder. It passes the review schema, and both hashes match the request when computed the way the runner computes them. I didn't change any other file and didn't publish anything.
+
+**Verdict:** Type 6 is still a defensible lead, but the draft's case is weaker than it reads. Its main test, "fear words versus control words," only rules out Eight. It can't rule out Seven, which is also a fear type. I flagged `contested_typing` as true.
+
+I checked the quotes the type argument relies on against the saved transcripts and articles. Several lose surrounding words that weaken or reverse how they're used:
+- **Girls exit:** the multi-year offer "scared me just because… I get bored easily," and "I just want to always want to do different things."
+- **Staying in Danny on a torn knee:** his answer to "Why?" includes "it became a new thing… This is kind of interesting."
+- **Death anxiety:** the line goes straight on to "I wanna enjoy this so much." The draft's only argument against Seven ("I don't like the word enjoy") was about whether he enjoys performing *Death of a Salesman*.
+- **The slap:** the draft leaves out "it was deserved" and "I still have fantasies about shit happening… I wish I had gone."
+- **Safety net:** the 2015 and 2026 quotes use the phrase in different senses, so they aren't the "reversal" the draft calls them.
+
+**Findings:** seven major, one minor. Beyond the quote problems above, the "counterphobic" label stretches to fit every choice, including the Girls exit, which by his account was walking *away* from what scared him. Its explainer paragraph also repeats the argument already used on the Shyam Sankar draft. And the "what would settle it" test ("a Six reaches for his people, an Eight takes charge alone") rests on a stereotype, since Eights are loyal to their circle too.
+
+I marked five passages to keep, including the hook's contradiction and the line where the draft admits age and fatherhood explain the X-Men signing as well as the type does.
+
+**Decision for you:** if the edit ends up naming Seven instead of Eight as the strongest alternative, or changes the core type, I'd send it back through `--refresh --expanded-review` rather than let the edit through on this review. That's why I left the major-thesis-change flag off.
+
+The podcast quotes come from machine transcripts. I read them but didn't re-listen to the audio.

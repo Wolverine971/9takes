@@ -1,0 +1,86 @@
+{
+  "schema_version": 3,
+  "role": "future",
+  "content_sha256": "5abe148c97df0229fa94ee8234c806a220e0d27583af40c607c41ec4eb459917",
+  "evidence_sha256": "ba444d753061ec0eca07b1453a7664ca3d4c20a0fc1940f76c13acb7e7dd7b7a",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "future-01",
+      "severity": "major",
+      "passage": "An Eight telling the _Girls_ story would usually center it on autonomy. Abbott centers it on being \"nervous\" and \"scared.\"",
+      "problem": "This is the discriminator for his most Eight-looking choice, and it is written as his settled, timeless account. The article itself documents four tellings: 2013 'wasn't as relatable', 2015 'ran its course', May 2026 'I just want to do something else' and 'bored very easily', and October 2026 'nervous' and 'scared me'. The fear words come from a retrospective account 13 years after the fact, on a comedy podcast, in the same stretch where he jokes about signing on for 10 X-Men movies. One more telling in the next five years could undercut the argument. The record is actually sturdier than the draft shows. The saved Talk Easy transcript (May 2026, about 0:39:27, machine-transcribed medium.en only) has him say 'It's my own sort of maybe impatience. Yeah, a little bit of fear of commitment', right next to the 'long-term things' line the draft quotes. The draft leaves that out, so the fear framing looks like it rests on a single October 2026 interview. Claims C61, C62, C95, C115 and C116 are all marked durability 'stable' with empty review_trigger, even though this explanation has already shifted three times and the evidence record's 'unexplained' field says the motive 'cannot be fixed with certainty'. The Type 8 FAQ repeats the undated generalization and adds 'he brings up anxiety in nearly every long interview'. That rests on three long-form audio interviews, and in the Talk Easy transcript the only 'anxiety' is an ad read, not Abbott.",
+      "acceptance_test": "(1) The Why-not-Type-8 sentence and the 'Could Christopher Abbott be an Enneagram Type 8?' FAQ date the fear framing to his 2026 accounts and say plainly that his 2013 and 2015 explanations used no fear words. (2) Either the Talk Easy 'a little bit of fear of commitment' line is second-transcribed at about 0:39:27 and added with its May 2026 date, or the article says the 'nervous'/'scared' framing comes from one October 2026 interview. (3) 'nearly every long interview' becomes a count or date span the record supports, e.g. 'in his 2019 and October 2026 long-form interviews'. (4) C61, C62, C95, C115 and C116 are reclassified 'unresolved', each with a review_trigger such as 'Recheck whenever he next explains leaving Girls; if a later account drops fear language, reassess the Six discriminator.'"
+    },
+    {
+      "id": "future-02",
+      "severity": "minor",
+      "passage": "On August 15, 2026, Marvel Studios announced Abbott as Charles Xavier in its _X-Men_ reboot, dated for May 5, 2028,",
+      "problem": "The absolute date looks one day off. D23 2026 ran August 14 to 16 in Anaheim (Popverse event box). The Nerds of Color's August 15, 2026 report says Marvel's presentation was at the Honda Center 'on Friday', and August 14, 2026 was a Friday. Slashfilm (S27) is timestamped 'Aug. 15, 2026 12:12 am EST', which is the evening of August 14 Pacific time, and Marvel's embedded tweet in S25 shows the UTC date. The August 15 date comes from report and tweet timestamps, not the event itself. C31 and S27's context repeat it.",
+      "acceptance_test": "The body, C31 and S27's context give the announcement as 'August 14, 2026, at D23 in Anaheim', backed by an opened report that names the day, or use 'in mid-August 2026 at D23'. No exact day appears that an opened source does not support."
+    },
+    {
+      "id": "future-03",
+      "severity": "minor",
+      "passage": "the man who said he would never put his eggs in any basket has signed on to a franchise with a release date two years out",
+      "problem": "Author prose in the latest-event section uses relative or present-tense status phrasing that only holds in October 2026. 'two years out' will be wrong once May 2028 passes or the date moves, and Marvel dates often move. 'Jake Schreier is directing.' states a current crew status. Earlier, 'Abbott denies a report from the time that he \"stormed off set.\"' hides that the denial is from May 2026 (Talk Easy, C65). A 2031 reader cannot tell which of these were checked, or when.",
+      "acceptance_test": "No relative-to-now time phrase remains in author prose: 'two years out' becomes 'a film Marvel dated for May 2028' (or similar). 'Jake Schreier is directing' becomes dated, e.g. 'Marvel named Jake Schreier to direct'. The denial becomes 'In 2026 he denied ...'. C65 gets a date in its claim text."
+    },
+    {
+      "id": "future-04",
+      "severity": "minor",
+      "passage": "## \"Stability\"",
+      "problem": "The closing H2 puts in quotation marks, as Abbott's word, a word the section admits the audio leaves unclear. The saved Happy Sad Confused transcripts read 'that ability kind of' (medium.en) and 'Substability' (small.en), and only TheWrap (S19, not independent of S18) heard 'stability'. The heading also frames the ending around the most perishable item on the page: a 2028 film with no title yet, which he had not read a script for as of October 2026. If he exits, the film is recast, or the date slips, the heading will read as a dated forecast. The body already handles the attribution honestly. Only the heading overreaches.",
+      "acceptance_test": "The H2 no longer presents 'stability' as his verbatim word. For example, use a heading tied to the dated event or the pattern ('Professor X at 40', 'The long contract'). The body keeps the TheWrap attribution, and C110/C111 still carry their review triggers."
+    },
+    {
+      "id": "future-05",
+      "severity": "minor",
+      "passage": "Yes. He lives in New York with the actress Aubrey Plaza.",
+      "problem": "This is the most perishable fact on the page and a high-intent search answer. It is in present tense with no as-of date, and it is not the passage of any claim. C32's passage is the July 2026 daughter sentence, and C119 covers the next two sentences of this FAQ. Under the standard, relationships must be time_sensitive claims with an actionable review_trigger at the exact passage.",
+      "acceptance_test": "The FAQ answer is dated, e.g. 'As of October 2026, yes. He lives in New York with ...'. That exact sentence is the passage of a time_sensitive claim (C32 or a new one) with a review_trigger such as 'Recheck if either discusses the relationship, marriage or a separation in a long interview, or if Wikipedia's personal-life section changes.'"
+    },
+    {
+      "id": "future-06",
+      "severity": "minor",
+      "passage": "Until that account exists, the Six reading holds at medium confidence.",
+      "problem": "The article names its own settle conditions, but the evidence record does not wire them to reopen triggers. This sentence is not in the claim inventory. 'The record still lacks the scene that would settle it' (C100) is marked 'stable' with an empty review_trigger. 'How he talks about the job once filming starts, and whether the anxiety language survives fatherhood, will test this reading.' is also unmapped. The settle signals exist only as prose in research_tasks, and a standard-format record has no next_review. For a contested medium-confidence typing, nothing in the record prompts a refresh when the deciding evidence appears.",
+      "acceptance_test": "Each of the three sentences is the exact passage of a claim with durability 'unresolved'. Each review_trigger names a concrete observable: independent testimony from Plaza, Jeff Ward, Jerrod Carmichael or Josh Mond about how he acts when a project is threatened; any account of a conflict he started; his first long interview after X-Men production begins; his first fatherhood-era long-form interview."
+    },
+    {
+      "id": "future-07",
+      "severity": "minor",
+      "passage": "A [Type 6](/enneagram-corner/enneagram-type-6) scans for what could go wrong and looks for something solid to stand on: trusted people, preparation, a backup plan.",
+      "problem": "The similarity diagnostic tripped on four pairs. The two 1.0 scores ('whose core emotion is fear', with ella-beatty and grace-reiter) are the required triad sentence and ordinary type vocabulary, so they are not a finding. Two stock images do recur in this paragraph and the one before it, though. 'something solid to stand on' matches lily-rose-depp (2026-10-16), and 'the Six who walks straight at what scares him' matches shyam-sankar's 'walk straight at what worries them' (2026-10-13). Both are the generic Six definition, not Abbott-specific argument. As more fear-triad pages ship, these phrases are becoming a house template. The paragraph could sit in any Six profile, which weakens the page's originality over time.",
+      "acceptance_test": "The Type 6 definition keeps the triad sentence. Either its images come from Abbott's record (e.g. learning all five audition scenes 'just in case', 'I'd rather find out than not'), or it is reworded so neither 'something solid to stand on' nor 'walks straight at what scares' appears. Rerunning the similarity diagnostic shows no pair above the trip threshold except the triad sentence."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "So the actor who would not commit to more seasons of a hit series would not let go of an Off-Broadway two-hander on a torn knee.",
+      "reason": "The hook's contradiction is two dated, verified choices (March 2013, December 2023). It does not depend on the X-Men news or any current status, so it will still open the page well in 2031."
+    },
+    {
+      "passage": "His explanation has changed over time. In September 2013 he told the Times that the world Lena Dunham wrote \"wasn't as relatable for me on a personal level.\"",
+      "reason": "It treats a shifting self-account as dated layers rather than one fixed truth. This is the right structure for a story he will likely retell again, and a refresh can add to it without rewriting."
+    },
+    {
+      "passage": "In 2015 he told Issue that theater gave him \"a bit of a safety net.\" In 2026 he told Interview, \"There's a lack of safety net that I find thrilling.\"",
+      "reason": "A dated change of mind on his own words, eleven years apart. It shows the counterphobic move as movement over time, the kind of evidence that survives later events."
+    },
+    {
+      "passage": "The record still lacks the scene that would settle it: a conflict he started rather than met, or an account from his closest collaborators of how he behaves when a project he loves is threatened. A Six would reach for his people. An Eight would take charge alone.",
+      "reason": "It names a concrete, observable discriminator and admits the record lacks it. The page stays honest and easy to reopen, and it stays true even if a later refresh settles on Eight."
+    },
+    {
+      "passage": "Age and fatherhood explain it at least as well. How he talks about the job once filming starts, and whether the anxiety language survives fatherhood, will test this reading.",
+      "reason": "It frames the newest event as a test, not proof, and gives a rival non-type explanation equal weight. Removing the X-Men section would leave the thesis intact, which is the five-year standard."
+    }
+  ],
+  "assessment": "Five-year test: mostly passes, with one load-bearing weakness. If the August–October 2026 material (X-Men casting, Happy Sad Confused) is removed, the portrait still stands. The hook is 2013 vs 2023. The Danny ownership quote is January 2024. The anxiety vocabulary (social anxiety, death, sleep, 'anxiety sweat', 'just in case') comes from the 2019 Back to One recording, and the safety-net reversal is dated 2015/2026. The X-Men section is framed as a test with a rival explanation. Absolute dates are used almost everywhere, birth and age facts are dated, and the evidence record holds triggers for the release date, director and stability remark. The weakness is future-01: the discriminator for the Girls exit is written as timeless but rests on 2026 retrospective tellings of a story he has explained four ways. The supporting claims are marked stable with no trigger, and the draft skips a May 2026 Talk Easy line that would spread the fear framing across two interviews. Smaller durability issues: a likely one-day error in the D23 announcement date (Friday, August 14, 2026), relative or present-tense status phrases ('two years out', 'is directing', 'denies'), a closing H2 that quotes a word the audio does not confirm, an undated relationship-status FAQ outside the claim inventory, and settle conditions with no review triggers. Similarity leads were compared. The triad sentence is ordinary vocabulary. Two stock Six images recur across recent pages and are logged as minor. I reopened Slashfilm, SYFY Wire and TheWrap and searched the saved Talk Easy and Happy Sad Confused transcripts; there was no human listen. Contested-typing risk is unchanged and no new risk is raised."
+}

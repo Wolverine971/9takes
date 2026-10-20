@@ -1,5 +1,5 @@
 {
-	"lastUpdated": "2026-10-18T06:00:00Z",
+	"lastUpdated": "2026-10-19T06:00:00Z",
 	"stats": {
 		"totalUnpublished": 132,
 		"totalPublished": 391,
@@ -20,19 +20,6 @@
 			"strategicValue": "entity-gap-tech-analyst-cluster",
 			"entityGapScore": 70,
 			"entityGapPacket": "docs/content-analysis/entity-gaps/Dan-Ives.md"
-		},
-		{
-			"name": "christopher-abbott",
-			"displayName": "Christopher Abbott",
-			"type": null,
-			"priority": 87,
-			"priorityReason": "Professor X casting (Aug), East of Eden (Adam Trask) Oct 1, baby with Aubrey Plaza (published page - crosslink). Wikipedia 34K/day Oct 1-3.",
-			"estimatedTraffic": "medium",
-			"searchVolume": "medium",
-			"personaTitle": null,
-			"addedToQueue": "2026-10-04",
-			"retryCount": 0,
-			"strategicValue": "east-of-eden-dune-marvel-cluster"
 		},
 		{
 			"name": "paapa-essiedu",
@@ -153,6 +140,23 @@
 		}
 	],
 	"completed": [
+		{
+			"name": "ella-beatty",
+			"displayName": "Ella Beatty",
+			"type": null,
+			"priority": 88,
+			"priorityReason": "First lead in Monster: The Lizzie Borden Story (Netflix Sept 17, No. 1); Wikipedia 4.8K -> 83K/day Sept 16-30, now ~31K. Past peak - thin long-form record; research must widen sources.",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-10-04",
+			"retryCount": 0,
+			"strategicValue": "netflix-fall-breakout-cluster",
+			"startedAt": "2026-10-18T06:00:00Z",
+			"completedAt": "2026-10-19T06:00:00Z",
+			"needsReview": true,
+			"recoveryNote": "Reconciled by nightly-blog-cron: draft existed but queue was never updated."
+		},
 		{
 			"name": "stella-lefty",
 			"displayName": "Stella Lefty",
@@ -1938,18 +1942,18 @@
 		}
 	],
 	"inProgress": {
-		"name": "ella-beatty",
-		"displayName": "Ella Beatty",
+		"name": "christopher-abbott",
+		"displayName": "Christopher Abbott",
 		"type": null,
-		"priority": 88,
-		"priorityReason": "First lead in Monster: The Lizzie Borden Story (Netflix Sept 17, No. 1); Wikipedia 4.8K -> 83K/day Sept 16-30, now ~31K. Past peak - thin long-form record; research must widen sources.",
-		"estimatedTraffic": "high",
-		"searchVolume": "high",
+		"priority": 87,
+		"priorityReason": "Professor X casting (Aug), East of Eden (Adam Trask) Oct 1, baby with Aubrey Plaza (published page - crosslink). Wikipedia 34K/day Oct 1-3.",
+		"estimatedTraffic": "medium",
+		"searchVolume": "medium",
 		"personaTitle": null,
 		"addedToQueue": "2026-10-04",
 		"retryCount": 0,
-		"strategicValue": "netflix-fall-breakout-cluster",
-		"startedAt": "2026-10-18T06:00:00Z"
+		"strategicValue": "east-of-eden-dune-marvel-cluster",
+		"startedAt": "2026-10-19T06:00:00Z"
 	},
 	"skipped": [
 		{

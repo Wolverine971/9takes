@@ -1,0 +1,25 @@
+I've finished the Christopher Abbott repair stage. It wrote three files in the run folder: `repair.md`, `evidence-repair.json` and `resolution-repair.json`. I didn't touch the live draft and didn't publish anything. The pipeline's own checks pass on all three files, and all 152 quotations match the saved sources. The verifier still has to re-check the work before the profile can be eligible.
+
+**The two holds:**
+
+- **The "disappointed" line (2019 *Back to One* podcast).** The article now prints the part of his answer it had left out: "I shouldn't even say disappointed," and that it was "by no means" a feeling he'd had. I ran the clip through a third transcription model, and all three agree on those exact words, so those are the only words quoted. The line "He expects to be 'disappointed'" is gone.
+  - The Type 6 vs. Type 7 section now says this answer fits either type.
+  - What still points to Six is his own 2026 description of himself as cynical, which comes mostly inside jokes. The article now calls the Six-over-Seven lead **narrow** and says his decisions to leave projects fit Seven at least as well.
+- **The side jobs during *Girls*.** The article now says he told the host he didn't take them for the money, and that he wanted to get in touch with "working roots" or "manhood." It also adds his "am I just an actor" question and his line about how the attention "made me sort of act out." The jobs no longer count as Type 6 evidence. They now appear in the Type 8 case, tied to his "I'm a man" moment at his first acting class.
+
+**Things that changed because of those fixes:**
+- **Title line and FAQs:** the tagline is now "The Actor Who Argues With His Own Confidence." The type answer and both type FAQs no longer say he "braces for letdowns" or "keeps a fallback." They now rest on nerves he admits before big moments, his self-described cynicism, and his back-and-forth over whether he deserves his success.
+- **Section heading:** "Bracing for the letdown" is now "The nervous captain."
+
+**The two smaller fixes:**
+- ***Death of a Salesman*:** no source shows he finished the 2026 run, so it's dropped from the list of things he saw through. He's now described as having "played Biff" in it rather than "carried" it.
+- **Podcast date:** the 2019 podcast is now dated only by its stated June 2019 release.
+
+The type stays the same: Type 6 at medium confidence, with Type 8 as the strongest alternative. So the six-reviewer pass shouldn't need to rerun.
+
+**Risks for the next verify pass:**
+- **Length:** the article grew from 3,919 to 4,129 words. That's under the 4,500 limit but further over the 3,500 target, which already cost points on the writing score.
+- **Scores:** release needs 8.5 overall and at least 8 on evidence and Enneagram. Last round scored 8.0 overall and 7.5 on both. Saying openly that Six only narrowly beats Seven should help the evidence score, but it may not raise the Enneagram score.
+- **Still open:**
+  - Nobody has listened to either clip by ear yet. Every quote check so far is machine transcription.
+  - There's still no source on how the *Salesman* run ended for him. I logged both as research tasks.

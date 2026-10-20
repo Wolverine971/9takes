@@ -2,6 +2,8 @@
 
 # Search Cleanup and Gap Plan (2026-10-03)
 
+**Two-week check completed October 19:** [fresh GSC comparison and next actions](2026-10-19-search-cleanup-two-week-check.md). The seven cleanup pages gained clicks in matched two-week windows, the people-title batch has no click lift, and three new posts have search traffic. Original baselines below are preserved.
+
 **Data:** Google Search Console, pulled 2026-10-04 UTC. 90-day window 2026-07-04 to 2026-10-02, plus monthly page trends 2025-07 to 2026-09. Built by merging four independent scans (near-miss, decay, stale, offshoots/gaps), then spot-checking the numbers against `docs/data/gsc/`.
 
 **Context:** Search is not shrinking. Sitewide clicks were 1,465 in September 2026, the best month in the 15 in the file (low: 790 in Feb 2026). Growth from newer pages hides real losses on a handful of older ones. This plan targets those losses, plus the questions searchers ask that no 9takes page answers.

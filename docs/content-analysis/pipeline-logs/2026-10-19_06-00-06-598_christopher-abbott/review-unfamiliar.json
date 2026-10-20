@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "unfamiliar",
+  "content_sha256": "5abe148c97df0229fa94ee8234c806a220e0d27583af40c607c41ec4eb459917",
+  "evidence_sha256": "ba444d753061ec0eca07b1453a7664ca3d4c20a0fc1940f76c13acb7e7dd7b7a",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "unfamiliar-01",
+      "severity": "major",
+      "passage": "This analysis asks what connects those two choices.",
+      "problem": "The hook promises one answer and the article delivers two that are never joined. Line 152 says the answer 'has more fear in it'; the best answer actually on the page is the ownership pattern in 'What he stays for' ('He leaves arrangements that someone else set for years ahead. He stays inside projects that he and his friends built.'). Nothing ties that pattern back to the Six mechanism the type section defined ('trusted people, preparation, a backup plan'). So a reader who meets the ownership pattern takes it as autonomy, which is the Eight case, and finishes without a one-sentence answer to the question the opening raised. 'Why not Type 8?' later calls Danny 'a duty to a shared project', but that is three sections away and phrased as rebuttal, not as the payoff.",
+      "acceptance_test": "Within 'What he stays for' (or at the latest the first paragraph of 'Why not Type 8?'), one or two sentences, framed as inference ('this suggests'), explicitly connect the leave/stay pattern to the Six reading: wary of open-ended commitments to someone else's plan, committed when the ground is people he trusts. The same passage concedes that an Eight's autonomy reading also fits the pattern. A cold reader asked 'what connects leaving Girls and staying in Danny?' can answer in one sentence using words from the article."
+    },
+    {
+      "id": "unfamiliar-02",
+      "severity": "major",
+      "passage": "An Eight telling the _Girls_ story would usually center it on autonomy. Abbott centers it on being \"nervous\" and \"scared.\"",
+      "problem": "The reader has just been shown, in 'The show he left', that the Girls explanation changed: 'wasn't as relatable' (2013), 'ran its course' (2015), 'I just want to do something else', 'bored very easily' and 'I don't like signing on to long-term things' (May 2026), and only then 'nervous' and 'scared me' (October 2026). The discriminator paragraph then says, in the present tense, that Abbott 'centers it' on fear, as though that were his only account. An attentive newcomer notices the article choosing its latest and most thesis-friendly version, and the type argument loses trust exactly where it most needs it. The boredom and 'something else' framing is itself closer to autonomy or Seven than to fear.",
+      "acceptance_test": "The Why-not-8 Girls sentence specifies that the fear framing comes from his 2026 retellings, says it sits beside the boredom and 'something else' explanations, and states why it is given weight (for example, that he himself called the 2013 version 'dancing around'). Alternatively, the discriminator relies less on Girls and more on evidence that did not shift (the slap aftermath, the anxiety vocabulary). A reader comparing the two sections finds no contradiction between 'His explanation has changed over time' and the discriminator."
+    },
+    {
+      "id": "unfamiliar-03",
+      "severity": "minor",
+      "passage": "has more fear in it than his tough-guy reputation suggests.",
+      "problem": "The turn in the hook depends on a contrast whose first half the reader is never shown. Nothing before or after line 152 says what the 'tough-guy reputation' is: the résumé paragraph lists titles (James White, Possessor, Poor Things, Kraven the Hunter, Wolf Man) without saying what kinds of men he plays or how he is seen. A newcomer who knows him only as Aubrey Plaza's partner or the new Professor X has no image of toughness to be surprised against. The evidence record has a usable source: Interview's 2026 introduction describes 'a knack for playing New York tough guys' (S02, the writer's words).",
+      "acceptance_test": "By the end of the orientation paragraph (line 154), one sourced sentence establishes what the reputation is, either the kinds of roles he is known for or an attributed outside description such as Interview's 2026 'New York tough guys' line, with a link. If no such sentence is added, the phrase 'tough-guy reputation' is replaced with something the article does show."
+    },
+    {
+      "id": "unfamiliar-04",
+      "severity": "minor",
+      "passage": "His co-star, [Aubrey Plaza](/personality-analysis/aubrey-plaza), \"knew something was wrong and she rolled with it.\"",
+      "problem": "The body never says plainly that Plaza is his partner. She is introduced as 'co-star' (line 144), then 'he brought Plaza onto it' (line 216), and the relationship only surfaces through 'he and Plaza had a daughter' (line 270). Many unfamiliar readers arrive through Plaza: she is the first suggestion and a keyword, and the FAQ answers 'Is Christopher Abbott with Aubrey Plaza?'. They either wonder why the body skirts it or miss the stakes of the opening scene (his partner improvising around his injury onstage). The FAQ states it clearly; the body should match.",
+      "acceptance_test": "At Plaza's first or second body mention, one plain clause identifies her as his partner (met making Black Bear, 2019, as the FAQ says), sourced, with no added relationship detail. The daughter sentence is no longer the first signal in the body that they are a couple."
+    },
+    {
+      "id": "unfamiliar-05",
+      "severity": "minor",
+      "passage": "## \"Stability\"",
+      "problem": "The final section is titled with a quoted word that the section itself says the audio 'leaves unclear' and that only TheWrap heard ('something the podcast audio leaves unclear'). A heading in quotation marks reads as his verified word. The newcomer gets a headline claim and then a hedge, which feels like a bait-and-switch at the moment the article is landing its ending. The section's real payoff (signing on to a franchise dated two years out after a multi-season offer 'scared' him) does not need the uncertain word.",
+      "acceptance_test": "The H2 heading does not present an unverified word as his quotation. The section opens on verified facts: the August 15, 2026 casting, the May 5, 2028 date and his 'not that many' reply. If the 'stability' reading is kept, it is attributed to TheWrap in one clause and carries no weight in the conclusion."
+    },
+    {
+      "id": "unfamiliar-06",
+      "severity": "minor",
+      "passage": "That is the counterphobic move in miniature: the feared thing becomes the draw.",
+      "problem": "The two 'safety nets' do not mean the same thing, and the reader cannot tell. In the 2015 Issue interview, the net is the theater process: 'There was room to experiment and make mistakes' (S06), a sentence the draft leaves out. In 2026 the missing net is being alone onstage in live performance (S02). The pair shows a change in emphasis, but nowhere has he said he feared the lack of a net. So 'the feared thing becomes the draw' is a neat line that a newcomer will take as established. It also asks for more certainty than the record gives.",
+      "acceptance_test": "The paragraph includes enough of the 2015 context ('room to experiment and make mistakes') for the reader to see what each net referred to. The closing sentence is framed as a possible shift ('may be') or cut, and nothing implies he described being afraid of performing without a net unless a source says so."
+    },
+    {
+      "id": "unfamiliar-07",
+      "severity": "minor",
+      "passage": "A [Type 6](/enneagram-corner/enneagram-type-6) scans for what could go wrong and looks for something solid to stand on: trusted people, preparation, a backup plan.",
+      "problem": "This orientation paragraph is the one place a newcomer learns what a Six is, but it is generic, and it duplicates other drafts. The similarity advisory led to a check of the drafts themselves: 'something solid to stand on' defines the Six in Lily-Rose-Depp.md and Dario-Amodei.md. The paragraph's next move ('Most Sixes handle fear by being careful. The counterphobic Six handles it by going toward the threat... often mistaken for... Type 8') is the same careful-Six/bold-Six-mistaken-for-Eight skeleton as shyam-sankar.md ('Some Sixes look nervous. Others walk straight at what worries them...'). The 'whose core emotion is fear' match is ordinary, mandated type vocabulary and is not part of this finding. The cost to the reader is that the definition is not tied to Abbott until much later, even though the article already has the details: learning all five audition scenes 'just in case', 'as many weapons as I could', 'You keep finding your people'.",
+      "acceptance_test": "The type-definition paragraph contains at least one Abbott-specific detail that illustrates the mechanism. It no longer uses the 'something solid to stand on' phrasing or the careful-Six/bold-Six-mistaken-for-Eight sentence pattern found in the Lily-Rose-Depp, Dario-Amodei and shyam-sankar drafts. A rerun of the similarity diagnostic shows no match above the trip threshold except the core-emotion vocabulary."
+    },
+    {
+      "id": "unfamiliar-08",
+      "severity": "minor",
+      "passage": "he brings up anxiety in nearly every long interview",
+      "problem": "The Type 8 FAQ, which can appear in search results with no context, claims a wider evidence base than the body. The body's own count is 'across seven years and three long conversations' (Back to One 2019, Talk Easy and Happy Sad Confused 2026). The other long interviews it quotes (Interview 2023 with Carmichael, Interview 2026) are mainly cited for shame, guardedness and control, and in 2026 he told Interview 'I wouldn't say intimidated'. The metadata should not overstate the discriminator the body argues carefully.",
+      "acceptance_test": "The FAQ answer matches the body's scope (for example, 'in each of his three long podcast conversations, from 2019 to 2026') or is rephrased so that every quantity it states is supported by a passage in the body."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "So the actor who would not commit to more seasons of a hit series would not let go of an Off-Broadway two-hander on a torn knee.",
+      "reason": "A real, sourced contradiction stated in one sentence. It gives a newcomer an immediate question that the rest of the article sets out to answer. This is the article's engine; keep its shape even if the sentence after it changes."
+    },
+    {
+      "passage": "He signed in, asked for a copy of the scenes, and was called up to the desk and asked who had sent him. Then he was told to leave.",
+      "reason": "The best scene in the origin section: specific, humiliating and plainly told, with the 'anxiety sweat' payoff that follows. It shows the fear and the step forward together instead of asserting them."
+    },
+    {
+      "passage": "He leaves arrangements that someone else set for years ahead. He stays inside projects that he and his friends built.",
+      "reason": "The article's most original insight about this particular person, and the clearest answer to the hook. Keep it verbatim and connect it to the type argument (see unfamiliar-01) rather than diluting it."
+    },
+    {
+      "passage": "In the mirror, he said, he sometimes thinks, \"You are the most handsome devil I have ever seen,\" and in a photo, \"You are the ugliest piece of shit.\"",
+      "reason": "A surprising, memorable detail that does not fit the thesis. It is what makes the reader meet a person rather than a type, and it is exactly the kind of off-thesis line a length trim would wrongly cut."
+    },
+    {
+      "passage": "\"And I just kept walking towards the class,\" he told Carmichael. \"That was the choice.\"",
+      "reason": "An earned ending in his own words. It closes the walking-toward motif that runs from the persona title through the first acting class, with no tacked-on lesson."
+    }
+  ],
+  "assessment": "As a cold read this works. The torn-knee opening is vivid and sourced, and the Girls/Danny contradiction gives a newcomer a reason to keep going. Orientation (who he is, his major credits, why he is in the news) arrives by line 154, and the plain type answer is 59 words. The sections build rather than repeat: origins, the show he left, what he stays for, the fear vocabulary, the Eight case, what the Six reading leaves out, the present. Quotes are concrete, attributions are clear, the 3,300-word length fits, and the honesty about limits (the laughter in the podcasts, Seven and Four threads, age and fatherhood as rival explanations) earns trust. The main weaknesses for an unfamiliar reader are the payoff and internal consistency. The hook's question is answered twice (fear, and ownership), and the two answers are never joined to the type. The Eight discriminator leans on the latest of several Girls explanations the article itself showed changing. The 'tough-guy reputation' contrast is asserted but never shown. Plaza's relationship is only implied in the body. The closing section is headed with a word the article says is inaudible. The safety-net reversal omits the context that would show the two 'nets' differ. Similarity advisory: the core-emotion match is standard vocabulary; the Six-definition paragraph does reuse phrasing and argument shape from three other drafts (unfamiliar-07). A newcomer leaves knowing his career arc, the knee story, the shifting Girls exit and his habit of narrating anxiety, which would stay useful in five years. Risks: contested_typing remains true, as inherited from research. No new sensitive-allegation, historical or thesis-change risk was found, and no blockers."
+}

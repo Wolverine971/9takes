@@ -1,0 +1,15 @@
+The critic review is written to `docs/content-analysis/pipeline-logs/2026-10-19_06-00-06-598_christopher-abbott/review-critic.json`. It passes the review schema, its hashes match the request, and every quoted passage matches the draft word for word. I didn't touch any other repo files or publish anything.
+
+**Verdict:** The draft is fair in how it's built. It has a real "Why not Type 8?" section, gives his changing explanations for leaving *Girls*, and says plainly where he's joking. The weak spot is the decisive argument for Type 6: it mostly uses the half of each quote that helps it. I checked against the saved podcast transcripts and print texts and found no misquotes, only clipped quotes and slanted framing. The full findings are in the JSON.
+
+The six major findings, all in the type argument:
+- **"Scared" of the *Girls* contract:** The same sentence goes on "just because… I get bored easily." By his own account the fear was of being locked in, not of losing support.
+- **The slap story:** "Shaken" is kept, but "it was deserved," "I still have fantasies about shit happening" and "I'd fuck someone up for you" are dropped. That's the strongest Type 8 material in the record.
+- **"Anxiety about death":** The quote is cut before "I wanna enjoy this so much." Type 7 is then dismissed with "I don't like the word enjoy," which was a quibble about performing a draining play.
+- **How often he mentions anxiety:** Most of it comes from one 2019 podcast plus two comedy bits. The draft leaves out his 2026 answer "I wouldn't say intimidated… more towards excitement."
+- **The "safety net" reversal:** The 2015 and 2026 quotes both describe the same thing, that theater is live and unrecorded. Neither shows a fear that later became a draw.
+- **"The pattern runs along ownership":** He finished the run of *John* and an extension before leaving. He also stayed in two projects that weren't his. His own repeated line, "time is the most valuable thing to me," explains every case more simply: he keeps finite commitments and resists open-ended ones.
+
+The three minor findings: the "eggs in any basket" quote is used out of context, a "what would settle it" scene is already in the 2024 Times interview, and a director's praise for his acting is counted as evidence of his temperament.
+
+I marked five passages to protect, including the opening knee-injury scene and the even-handed "Age and fatherhood explain it at least as well." The contested-typing flag stays on, and I found no other new risks. If the editor can't find a sourced way to tell Type 6 from 8 once these quotes are restored, the confidence or the lead type should change. Under the standard, that counts as a thesis change and needs re-review.

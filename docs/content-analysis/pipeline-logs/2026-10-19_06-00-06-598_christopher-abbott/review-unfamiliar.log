@@ -1,0 +1,24 @@
+I wrote the unfamiliar-reader review to `docs/content-analysis/pipeline-logs/2026-10-19_06-00-06-598_christopher-abbott/review-unfamiliar.json`. It passes the pipeline's review schema. Both hashes match the frozen draft and evidence when recomputed with the pipeline's own hash functions, and every quoted passage appears exactly in the draft. No other files were touched and nothing was published.
+
+**Verdict:** the Christopher Abbott draft works as a cold read. The torn-knee opening is vivid, the contradiction between leaving *Girls* and refusing to leave *Danny* gives a newcomer a reason to keep reading, and the sections build on each other. It's about 3,300 words, inside the target range. There are 8 findings: 2 major, 6 minor, no blockers.
+
+**Major (the editor must fix or reject these with a reason):**
+1. **The opening question gets two answers that never connect.** The intro says the answer is fear. The strongest answer on the page is a different one: he leaves arrangements other people set years ahead, and stays in projects he and his friends built. Nothing ties that back to the Type 6 reading, so a reader takes it as evidence for Type 8.
+2. **The Type 8 rebuttal relies on the most recent *Girls* explanation.** The article first shows his reason changing over the years (2013, 2015, May 2026, October 2026). It then says he frames the exit around being "nervous" and "scared." That framing appears only in 2026, and a careful reader will notice the selection.
+
+**Minor:**
+- **"Tough-guy reputation" is never shown.** The draft asserts it but never describes it. The evidence file has a usable source: Interview magazine's line about his "knack for playing New York tough guys."
+- **The body never says Aubrey Plaza is his partner.** The relationship is only implied until the daughter line, though the FAQ states it outright.
+- **The last section's heading is a word the article admits is unclear.** It's titled "Stability," but the article says the podcast audio is unclear and only TheWrap heard that word.
+- **The "safety net" comparison misleads.** The two quotes mean different things. In 2015 the net was room to experiment and make mistakes; in 2026 it's being alone onstage. "The feared thing becomes the draw" claims more than the quotes support.
+- **The paragraph defining Type 6 copies other drafts.** It reuses "something solid to stand on" from the Lily-Rose Depp and Dario Amodei drafts. Its next move, careful Six versus bold Six mistaken for an Eight, repeats the Shyam Sankar draft. The "core emotion is fear" match is standard type vocabulary, so I didn't flag that.
+- **The Type 8 FAQ overstates the evidence.** It says he brings up anxiety in "nearly every long interview." The body counts three long conversations.
+
+I protected five passages so later edits keep them:
+- the core contradiction sentence
+- the audition where he was told to leave the waiting room
+- the two-sentence pattern of what he leaves and what he stays in
+- the mirror and photo quote
+- the closing line from the first acting class
+
+The contested-typing risk stays on, as it was set during research. I found no new risks.

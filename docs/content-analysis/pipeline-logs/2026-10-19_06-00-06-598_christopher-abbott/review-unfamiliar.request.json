@@ -1,0 +1,20 @@
+{
+  "schema_version": 3,
+  "subject": "christopher-abbott",
+  "mode": "create",
+  "role": "unfamiliar",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_review_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-19_06-00-06-598_christopher-abbott/draft.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-19_06-00-06-598_christopher-abbott/evidence-draft.json",
+    "similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-19_06-00-06-598_christopher-abbott/similarity.json"
+  },
+  "outputs": {
+    "review-unfamiliar.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-19_06-00-06-598_christopher-abbott/review-unfamiliar.json"
+  },
+  "content_sha256": "5abe148c97df0229fa94ee8234c806a220e0d27583af40c607c41ec4eb459917",
+  "evidence_sha256": "ba444d753061ec0eca07b1453a7664ca3d4c20a0fc1940f76c13acb7e7dd7b7a"
+}

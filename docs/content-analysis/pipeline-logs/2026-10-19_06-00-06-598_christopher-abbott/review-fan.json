@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "fan",
+  "content_sha256": "5abe148c97df0229fa94ee8234c806a220e0d27583af40c607c41ec4eb459917",
+  "evidence_sha256": "ba444d753061ec0eca07b1453a7664ca3d4c20a0fc1940f76c13acb7e7dd7b7a",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "fan-01",
+      "severity": "major",
+      "passage": "In 2015 he told Issue that theater gave him \"a bit of a safety net.\" In 2026 he told Interview, \"There's a lack of safety net that I find thrilling.\" That is the counterphobic move in miniature: the feared thing becomes the draw.",
+      "problem": "The two quotes describe one consistent preference, not a reversal. In Issue (2015) the 'safety net' is that a play is not recorded: \"There was room to experiment and make mistakes. I prefer to do that in plays more than films because once the play's over, it's over. It's not recorded.\" In Interview (2026) the 'lack of safety net' is making \"quick, instinctive decisions in front of an audience.\" Both praise live, unrepeatable performance, and in 2012 (Interview, S03) he already said the risk of \"a shitty show the next night\" is \"kind of what makes it fun.\" No source shows he ever feared the stage, so 'the feared thing becomes the draw' is invented. It is also offered as one of the observations that tip the case to Six.",
+      "acceptance_test": "The paragraph is removed from the Six-vs-Eight discriminator, or rewritten so the 2015 line keeps its 'It's not recorded' context and both lines read as a steady love of live performance. No sentence claims his attitude to the stage moved toward risk or that the stage was something he feared, unless a newly opened source shows earlier fear of live performance. C99/C21 inferences are updated to match."
+    },
+    {
+      "id": "fan-02",
+      "severity": "major",
+      "passage": "Two years later, in a joking game segment on the same show, Dunham said he simply didn't want to do it anymore.",
+      "problem": "Pajiba's transcription, the article's only source for Dunham, reads: \"I would say our difference is that I was amazing at my job and he couldn't handle it ... He just didn't want to do it anymore. He wigged out. And by the way, that's his prerogative ... he said something about being 'stuck on a sitcom,' and I didn't love that. But he's a real true artist and we've come to a great place.\" The draft keeps every gracious clause (prerogative, great place) and drops the sharp ones ('couldn't handle it', 'wigged out', 'I didn't love that'). Adding 'simply' flattens it further. Fans remember this clip for the jab. Paraphrasing a named person's account of a disputed exit only in the subject's favor misstates her testimony. The dropped half (that he 'wigged out') also bears directly on the article's own fear-of-commitment reading.",
+      "acceptance_test": "Either (a) the clip (YouTube bTco5F0Hbt8) is checked by ear, and the Dunham passage includes both her sharp claim ('couldn't handle it' / 'wigged out') and her gracious close, attributed and framed as a joking Plead the Fifth answer, with 'simply' removed; or (b) if the clip cannot be checked, the Dunham paraphrase is cut entirely rather than kept in softened form. C63/C64 passages are updated to match."
+    },
+    {
+      "id": "fan-03",
+      "severity": "major",
+      "passage": "Abbott spent his early years in Chickahominy, a working-class, heavily Italian-American neighborhood of Greenwich, in a six-family house across the street from a funeral parlor",
+      "problem": "The childhood section frames his origins only through class and the Times' description of the neighborhood. It leaves out what Abbott himself says about the house and his family. In Interview (2023, S01) and Talk Easy (May 2026, S17) he describes the six units as filled with relatives: his parents and sister in one, then an uncle, a great-aunt and uncle, his mother's godparents, grandparents and a great-grandmother (\"very Italian-style living\"). On Talk Easy he also confirms that his father came to Connecticut from St. Vincent in the Caribbean and worked at the gas station \"when he was younger\" after moving to America. He says he is drafting auto-fiction about three generations of men on his father's side, at his analyst's suggestion. These are his own accounts in opened primary sources, already in the evidence record (C01 claim text), yet the draft drops them. The relatives' compound is the earliest 'trusted people' context in a profile whose thesis is loyalty to his people. The immigrant father complicates the 'grew up near money without it' reading. An informed reader will notice the gap.",
+      "acceptance_test": "The childhood paragraph adds, attributed to Abbott with source and year, that the six-family house held his extended family and that his father emigrated from St. Vincent to Connecticut. The gas-station line agrees with his Talk Easy clarification. No private relatives are named. No sentence claims that his heritage, the house or his parents' later divorce caused his type. A matching claim citing S01/S17 is added to the evidence record."
+    },
+    {
+      "id": "fan-04",
+      "severity": "minor",
+      "passage": "What tips it back toward the Six is his account of why.",
+      "problem": "Three quotes in this section lose context that cuts the other way. (a) The slap: his first line to Carmichael was \"The end of the story is I slapped him, but it was deserved.\" Just before that, Carmichael said he feels safe walking New York with Abbott because \"you could fight for me.\" The draft keeps 'shaken' and drops both. (b) \"If I'm talking to my therapist\" reads as a conversational preface: in the same interview he deflects with \"That's for my therapist.\" The evidence record itself calls the phrasing ambiguous (C21), yet the draft presents it as a 'therapy-room admission' that tips the case. (c) \"I'm drawn to like conflict\" comes in an answer about acting craft: \"actors are just always, have a certain acute awareness for human behavior ... trying to grab it and hold onto it and then to be able to use it.\" The Eight case and the Six rebuttal both ignore the professional explanation the standard says must be weighed.",
+      "acceptance_test": "The fight is quoted with 'but it was deserved' in either the Eight case or the rebuttal. The therapist line is either dropped from the discriminator or explicitly labeled ambiguous. The conflict quote keeps its actor-observation framing and is treated as weak evidence for either type. After these changes, the Six-over-Eight paragraphs rest only on observations that survive their full context."
+    },
+    {
+      "id": "fan-05",
+      "severity": "minor",
+      "passage": "He walked off _Girls_ and out of _John_.",
+      "problem": "Both verbs overstate what the article itself reports. He left Girls after the season 2 finale and denies the report that he 'stormed off set'. On John he 'did the whole run and extended a bit' and then declined a further extension. 'Walked off ... out of' reads as mid-run walkouts, which fans of either show know did not happen. It inflates the Eight case with a distortion rather than the actual behavior.",
+      "acceptance_test": "The sentence is rewritten to match the record (for example: declined to return to Girls after two seasons; declined to extend John after finishing the run and an extension). No wording implies he left mid-production."
+    },
+    {
+      "id": "fan-06",
+      "severity": "minor",
+      "passage": "Abbott was a guest star on _Girls_ for its first two seasons.",
+      "problem": "This is stated in the narrator's voice, and again in the FAQ ('He played Charlie as a guest star in the first two seasons'). It is actually Abbott's recollection on Happy Sad Confused: \"I was a guest star for the first two seasons.\" References disagree. Wikipedia's Girls article lists Charlie Dattolo under main cast (seasons 1-2, 5); Abbott's own Wikipedia page says 'recurring role'. Fans know Charlie as a core character in seasons 1-2. The billing claim needs attribution.",
+      "acceptance_test": "Body and FAQ either attribute the billing to him ('by his own account, technically a guest star') or use neutral wording ('played Charlie in the first two seasons'). No unattributed claim about his contract status remains."
+    },
+    {
+      "id": "fan-07",
+      "severity": "minor",
+      "passage": "The pattern runs along ownership. He leaves arrangements that someone else set for years ahead. He stays inside projects that he and his friends built.",
+      "problem": "The 'his people' argument starts in 2015 and misses its earliest and best-known evidence, which is already in the record. His feature debut, Martha Marcy May Marlene (2011), came out of the Borderline Films circle (Sean Durkin, Antonio Campos, Josh Mond). In 2012 he called \"the guys I did Martha Marcy May Marlene with, all those dudes\" \"extremely, dear friends\" and Brady Corbet \"one of my closest friends\" (Interview, S03). Carmichael, introduced only as 'his friend', directed him in On the Count of Three (2021). The section also omits his own caveat to Slant in 2015: \"I didn't set out to work just with friends. It just kind of happened that way.\" That caveat, plus the ordinary way indie careers run on friendship networks, is the fair counterweight. The career paragraph never names his debut.",
+      "acceptance_test": "The section or the career paragraph names Martha Marcy May Marlene as his 2011 feature debut with the Borderline group, quotes or paraphrases the 2012 friendship line, and notes that Carmichael directed him in On the Count of Three. It includes the 2015 Slant caveat. The ownership pattern is presented as something he says grew out of circumstance as much as design."
+    },
+    {
+      "id": "fan-08",
+      "severity": "minor",
+      "passage": "They met making the film Black Bear in 2019 and acted together again in Danny and the Deep Blue Sea in 2023.",
+      "problem": "Informed readers know Plaza was married to Jeff Baena until his death in January 2025. The article's own reference (Wikipedia) lists Abbott and Plaza as partners from 2025. In answer to 'Is Christopher Abbott with Aubrey Plaza?', opening with 'They met ... in 2019' and 'acted together again ... in 2023' invites readers to date the romance to those years, which no opened source supports. The evidence record (C32) already warns against speculating about when the relationship began.",
+      "acceptance_test": "The FAQ frames 2019 and 2023 explicitly as professional collaborations (for example: 'first worked together on Black Bear, filmed in 2019'). It either gives no relationship start date or gives only a sourced one, with citation. Baena is not mentioned or speculated about."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "On a Saturday in early December 2023, with maybe 30 minutes left in a performance of _Danny and the Deep Blue Sea_ at the Lucille Lortel Theatre, Christopher Abbott got up off the floor and felt his knee lock. It was a bucket-handle meniscus tear.",
+      "reason": "A specific, verified cold open. The NYT exit interview confirms the Saturday, the 'maybe 30 minutes left', the locked knee and the bucket-handle tear. It drops the reader into a costly choice instead of a biography."
+    },
+    {
+      "passage": "So the actor who would not commit to more seasons of a hit series would not let go of an Off-Broadway two-hander on a torn knee.",
+      "reason": "The organizing contradiction of the piece, stated in one plain sentence. Both halves are documented, and it sets up a real question that the article answers."
+    },
+    {
+      "passage": "By 2026 he had disowned the 2013 version. \"I think I was dancing around,\" he said on Talk Easy.",
+      "reason": "Shows the subject revising his own story across 13 years, checked against the Talk Easy transcript. It treats his explanations as evidence that changes over time, not as one fixed motive. Fans will value this."
+    },
+    {
+      "passage": "It's \"not that many,\" Abbott said, and then that, getting older, he was \"kind of looking forward to\" something the podcast audio leaves unclear.",
+      "reason": "Honest handling of an ambiguous recording. The local transcript genuinely reads 'that ability', and TheWrap heard 'stability'. The draft says so instead of quietly picking the word that suits the thesis."
+    },
+    {
+      "passage": "\"And I just kept walking towards the class,\" he told Carmichael. \"That was the choice.\"",
+      "reason": "A verbatim bookend (Interview 2023) that returns to the first acting class. It ends on his own words and the article's central image without a forced moral."
+    }
+  ],
+  "assessment": "Fan/informed-reader pass, checked against the cached opened sources: NYT 2013/2024, Pajiba, Bravo, Issue, Slant, Interview 2012/2023/2026, and the Back to One, Talk Easy and Happy Sad Confused transcripts. I also fetched Wikipedia's Girls cast list. I did not check the Dunham WWHL clip by ear. Most of the well-known material holds up: the knee timeline, the shifting Girls accounts, Williams, John, the Tony and the X-Men casting. The portrait is distinctive and does not flatter in tone. Three problems should block release. First, the 2015/2026 'safety net' lines are spliced into a reversal they do not describe, and that reversal is used as Six evidence (fan-01). Second, Dunham's account keeps her gracious half and drops 'couldn't handle it / wigged out' (fan-02). Third, the childhood section leaves out Abbott's own account of the house full of relatives and his father's emigration from St. Vincent (fan-03). Several Six-over-Eight quotes also lose context that cuts toward Eight or toward professional habit (fan-04). Lower-priority notes, not filed as findings: (1) The Talk Easy answer to why he kept performing injured continues straight from 'The show must go on' into 'getting bored easily ... it became a new thing'. The draft splits that one answer across two sections without saying so. (2) 'I just don't like the word enjoy' answers whether he enjoys performing Death of a Salesman; it is thin as a rebuttal of Seven. (3) The 'eggs in any basket' line opens with 'I think I have a healthy perspective on life in this business' and follows hype that didn't pan out, so learned realism is a live alternative to fear. (4) On HSC he also says fame from Girls 'made me sort of act out', and after losing the Tony he felt 'this weird relief'. Both are revealing details the draft leaves out. Similarity advisory: the tripped pairs ('whose core emotion is fear', 'something solid to stand on', 'walks straight at what scares him') are ordinary type vocabulary in the type-definition paragraph. That is not meaningful reuse. The person-specific argument elsewhere is distinctive, though the Type 6 explainer paragraph is the most generic in the piece. Risks: contested typing stays true (inherited from research). The Plaza FAQ wording (fan-08) is a fairness fix, not a new allegation."
+}

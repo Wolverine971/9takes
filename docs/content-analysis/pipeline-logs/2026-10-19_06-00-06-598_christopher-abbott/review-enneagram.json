@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "enneagram",
+  "content_sha256": "5abe148c97df0229fa94ee8234c806a220e0d27583af40c607c41ec4eb459917",
+  "evidence_sha256": "ba444d753061ec0eca07b1453a7664ca3d4c20a0fc1940f76c13acb7e7dd7b7a",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "enneagram-01",
+      "severity": "major",
+      "passage": "Neither the Seven nor the Four reading explains the anxiety, the hedging or the loyalty to his people.",
+      "problem": "This gets the typology wrong, and it hides the alternative the article's own discriminator can't beat. Seven is a head type, and its core emotion is fear too, so anxiety talk cannot rule it out. The FAQ's test ('fear and doubt words rather than control words') separates head types from Eight, not Six from Seven. Abbott's own 'why' answers for both of the article's turning-point choices point to Seven. On Girls, Talk Easy 2026: 'My personality is, like, I get bored very easily... It's my own sort of maybe impatience. Yeah, a little bit of fear of commitment... I don't like signing on to long-term things... that goes for anything... I just want to always want to do different things.' Happy Sad Confused 2026 says the offer 'just sort of scared me just because, you know, I liked working on it, but I get, you know, I get bored easily.' On Danny, asked 'Why?' he kept performing, Talk Easy: 'The show must go on. It really worked for the play... talk about... getting bored easily... all of a sudden, it became a new thing. And I was like, \"This is kind of interesting.\"' The draft puts the novelty halves in a side section and the fear/duty halves in the thesis, so they never meet. A reader could fairly answer the hook's question ('what connects those two choices') this way: he leaves what threatens to repeat and stays when it turns new. The article never confronts that answer.",
+      "acceptance_test": "The type section or 'Why not' material names a Six-versus-Seven discriminator other than anxiety vocabulary and tests it against the boredom/novelty reasons he gives for both Girls and Danny. Candidates from the record: expecting disappointment rather than reframing toward the upside ('cynical and dark', 'disappointed enough times', 'never put my eggs in any basket'), 'I want to know yes or no for myself', and suspicion of manipulation. The sentence above is corrected so it no longer says Seven fails to explain anxiety. The article states whether Seven or Eight is the strongest alternative, and the type answer, the 'Could he be an Eight?' FAQ and evidence type_hypothesis agree. If the strongest alternative or the core type changes, the run goes back through --refresh --expanded-review."
+    },
+    {
+      "id": "enneagram-02",
+      "severity": "major",
+      "passage": "He likes a happy set partly because of \"my own anxiety about death,\" the thought, \"what if I die before this thing even comes out?\"",
+      "problem": "Three items in the anxiety tally ('death, sleep, social situations, contracts and awards') lose the context that decides what they mean. (a) In Back to One (2019), the death line goes straight on: 'Like, I wanna enjoy this so much. Like, this moment, like, this time being spent. Like, again, time is the most valuable thing to me.' In context, the death anxiety resolves into savoring the moment, which is a Seven-style response, and in his own word 'enjoy'. (b) That undercuts the article's only stated counter to Seven, 'I guess I just don't like the word enjoy.' That line answered whether he enjoys performing Death of a Salesman. In the same exchange he says 'I enjoy food' and then names his favorite section for its 'ups and downs and arounds'. It is about a tragic role, not a rejection of enjoyment. (c) The 'social anxiety' line is about where he spends his vanity ('I'm much more vain in real life... I save that for anything involving any kind of social anxiety'). That is image material for the Four thread, not security fear. The tally counts the word 'anxiety', not the motive behind it.",
+      "acceptance_test": "Either the death line keeps its 'I wanna enjoy this so much... time is the most valuable thing to me' continuation and is weighed as Seven-compatible, or it leaves the tally. The 'enjoy' line is either dropped as a counter to Seven or framed as an answer about performing a tragedy. The vanity/social-anxiety line moves to the image thread or comes out of the anxiety count. The 'weight is in the repetition' sentence is recounted to match what survives."
+    },
+    {
+      "id": "enneagram-03",
+      "severity": "major",
+      "passage": "An Eight telling the _Girls_ story would usually center it on autonomy. Abbott centers it on being \"nervous\" and \"scared.\"",
+      "problem": "This summary is selective, and the article's own earlier section contradicts it. In both 2026 podcasts, the same answers that contain 'nervous' and 'scared' also center on wanting out on his own terms: 'I just want to do something else' (Talk Easy and Happy Sad Confused), 'I don't like signing on to long-term things', 'that goes for anything'. Not wanting to be bound years ahead on someone else's terms is the autonomy story the sentence says he does not tell. 'Fear of commitment', as he uses it, is fear of being locked in. That fits Eight's resistance to control and Seven's fear of limitation at least as well as Six's security fear. The draft offers this as the first tipping point toward Six.",
+      "acceptance_test": "The sentence says he frames the exit as both nervousness and wanting 'something else'/not signing long-term. It then either explains why the fear wording outweighs the autonomy wording, or stops treating the Girls exit as a discriminator. The FAQ 'Could Christopher Abbott be an Enneagram Type 8?' answer is made consistent."
+    },
+    {
+      "id": "enneagram-04",
+      "severity": "major",
+      "passage": "After the slap, he said, \"I didn't feel that cool. I was shaken by it.\"",
+      "problem": "The draft uses 'shaken' as evidence that his toughness is reactive and fear-tinged. It leaves out adjacent lines in the same Interview 2023 exchange that cut the other way. He opens the story with 'The end of the story is I slapped him, but it was deserved.' Right after 'wouldn't back down', he says: 'Those days are over for me. At least, I think. But I still have fantasies about shit happening. You told me the story about Paris the other day and I wish I had gone.' That refers to Carmichael being targeted in a homophobic attack. Fantasizing about confrontations and wishing he had been there to stand up for a friend is protector-and-appetite material that bears directly on Six versus Eight. The evidence record's own note on this story (C14) says to keep 'it was deserved', and the draft drops it.",
+      "acceptance_test": "The fight passage includes 'it was deserved' and the 'fantasies about shit happening' / 'I wish I had gone' lines, with no slur and no embellishment, and the tipping paragraph weighs them. Either 'shaken' still tips toward Six with that counterweight stated, or the fight is reclassified as non-discriminating. A claim covering the added lines is added to the evidence record."
+    },
+    {
+      "id": "enneagram-05",
+      "severity": "major",
+      "passage": "That is the counterphobic move in miniature: the feared thing becomes the draw.",
+      "problem": "The two 'safety net' quotes use the phrase in different senses, so they are not a change of feeling. Issue 2015: 'Doing theater, I felt there was a bit of a safety net. There was room to experiment and make mistakes... once the play's over, it's over. It's not recorded.' Interview 2026: 'I like making quick, instinctive decisions in front of an audience. There's a lack of safety net that I find thrilling.' One is about mistakes leaving no recording, the other about having no retakes. Both describe the same medium, and the 2026 answer also says the stage gives him 'a sense of control'. Nothing in either source shows he ever feared the stage's risk, so 'the feared thing becomes the draw' is not supported. This passage is offered as specific evidence for the counterphobic label.",
+      "acceptance_test": "Either the juxtaposition is cut, or both quotes appear with their explanations ('room to experiment... it's not recorded' versus 'quick, instinctive decisions in front of an audience') and the article no longer calls them a reversal or a feared thing turned into a draw. The counterphobic reading then rests on other sourced scenes."
+    },
+    {
+      "id": "enneagram-06",
+      "severity": "major",
+      "passage": "Christopher Abbott's personality type is Enneagram Type 6, the Loyalist, in its counterphobic form: the Six who walks straight at what scares him.",
+      "problem": "The counterphobic label works as a frame that can absorb any choice. The article's central Six evidence, the Girls exit, is by his October 2026 account a move away from what 'scared' him: a flight from the feared thing, which is phobic, not counterphobic. The acting class and the crashed audition get counterphobia, Girls gets fearful avoidance, and Danny gets loyalty, so every behavior has some Six mechanism and none could count against the read. The label sits in the 60-word answer, the type FAQ and the persona title ('The Actor Who Walks Toward What Scares Him') with no discriminator of its own. The explainer that follows ('Most Sixes handle fear by being careful. The counterphobic Six handles it by going toward the threat, which is why... this kind of Six is often mistaken for the confrontational Type 8') is reusable boilerplate. shyam-sankar.md already makes the same argument ('Others walk straight at what worries them and come across as the boldest person in the room... which is why most people would first guess Type 8'), and Ellen-DeGeneres.md has 'walk straight at the thing scaring her'. That is the similarity tripwire's meaningful match. The shared triad sentence is ordinary vocabulary and not at issue.",
+      "acceptance_test": "Either the type section reconciles the Girls flight with the counterphobic frame (for example: his record shows both moves, and here is what decides which one he makes, with sources), or 'counterphobic form' comes out of the 60-word answer, the type FAQ and the persona title and appears only as a pattern in specific sourced scenes. The generic phobic/counterphobic explainer is replaced with Abbott-specific evidence, so it no longer repeats the shyam-sankar argument."
+    },
+    {
+      "id": "enneagram-07",
+      "severity": "major",
+      "passage": "A Six would reach for his people. An Eight would take charge alone.",
+      "problem": "This settle signal relies on a stereotype. Eights are often fiercely loyal and protective toward an inner circle, so 'reach for his people' versus 'take charge alone' does not separate the types. The same weakness runs through 'What he stays for' and through the tipping sentence 'He defends Danny as \"an ownership I feel and we all feel,\" a duty to a shared project.' 'Duty' is the author's word. The quote goes on 'You'd have to pry it out of my hands. I wouldn't want somebody else doing it,' which is possessive. The surrounding NYT 2024 answer is practical and self-reliant ('I had figured out the staging, on how to do it with crutches... I didn't think I was going to back out'). The article also says the record lacks 'an account... of how he behaves when a project he loves is threatened', but its own hook is that scene. By the article's own test it reads as taking charge personally, and it never says so.",
+      "acceptance_test": "The tipping paragraph quotes the ownership line in full and says which part leans Six (the shared 'we all feel') and which leans Eight ('pry it out of my hands'). The settle signal is rewritten as a test Sixes and Eights actually answer differently, for example whether under threat he consults others and second-guesses his own call, or decides and shields others; or whether close collaborators describe him worrying or commanding. It also says what the Danny scene already shows and why that is not enough on its own."
+    },
+    {
+      "id": "enneagram-08",
+      "severity": "minor",
+      "passage": "Even the control he finds onstage comes framed as a therapy-room admission",
+      "problem": "Two tipping items treat lines that don't separate the types as if they did. (a) 'If I'm talking to my therapist' reads as an idiom for candor, and the evidence record (C21) calls the phrasing ambiguous and possibly 'a figure of speech for honestly'. The draft drops that hedge. The next sentence in the source, 'As an actor, I struggle with that sometimes,' is about lacking control on set, which fits Eight as well. (b) In Back to One, 'I'm drawn to like conflict' comes inside an answer about acting craft: 'actors are just always, have a certain acute awareness for human behavior... you're always watching... to be able to use it.' The draft first lists it as Eight evidence ('In a group... \"I'm drawn to like conflict\"'), then reclaims it as 'vigilance more than appetite'. In context it is an actor's observational habit, which the evidence record (C98) also names as the alternative, so it is neither Eight appetite nor Six vigilance.",
+      "acceptance_test": "Both lines either leave the tipping argument or appear as non-discriminating. If 'drawn to like conflict' stays in the Eight case, the article says he was describing what he watches for as an actor. If the therapist line stays, its hedge comes back ('he may simply mean honestly')."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "So the actor who would not commit to more seasons of a hit series would not let go of an Off-Broadway two-hander on a torn knee.",
+      "reason": "A sourced contradiction that sets up a real typing question. Keep it whichever type wins; the repair in enneagram-01 should answer it, not remove it."
+    },
+    {
+      "passage": "By 2026 he had disowned the 2013 version. \"I think I was dancing around,\" he said on Talk Easy.",
+      "reason": "It dates his shifting explanations in order and keeps Williams's and Dunham's accounts next to his. That is the right basis for any motive claim about the exit."
+    },
+    {
+      "passage": "The best case against the Six reading is what he does.",
+      "reason": "It states the rival's strongest ground plainly before arguing back, with no straw man. Keep it while the tipping paragraph is repaired."
+    },
+    {
+      "passage": "He names the cause himself, which makes it weak evidence for any one type.",
+      "reason": "Good inference discipline: guardedness he puts down to male norms is not counted as type evidence. The anxiety tally should apply the same test (enneagram-02)."
+    },
+    {
+      "passage": "Age and fatherhood explain it at least as well.",
+      "reason": "It refuses to claim the X-Men commitment for the type and keeps a time-sensitive event from carrying the thesis, which passes the five-year test."
+    }
+  ],
+  "assessment": "Six is a defensible lead. The record has real Six material that the draft underuses: anticipatory pessimism ('disappointed enough times', 'never put my eggs in any basket'; he calls it a 'healthy perspective' learned from hype that fizzled), 'I want to know yes or no for myself', suspicion of manipulation and the doubt/ego back-and-forth. But the argument as written mostly separates head types from gut types, not Six from its rivals. Its main test, fear words versus control words, cannot rule out Seven, and in his own reasons for leaving Girls and staying in Danny he says he gets bored easily and wants things new. I checked context in the saved texts (/tmp/christopher-abbott-research: hsc.txt, talkeasy.txt, b21.txt, nyt2024.md, interview_carmichael.md, issue.md, interview_salesman.md). Six of the quotes the type argument relies on lose surrounding words that weaken or reverse how they are used: the death-anxiety line, 'enjoy', 'social anxiety', the Girls 'scared', the slap, and the safety-net pair. The counterphobic label absorbs contradictions and reuses the shyam-sankar argument. The settle signal relies on a loyalty stereotype. The writing is honest about inference elsewhere, and the protected passages should survive. contested_typing stays true. I did not flag major_thesis_change: Six can survive with repair. If the edit changes the core type, or makes Seven rather than Eight the strongest alternative, that is a thesis change and should go back through --refresh --expanded-review. Limitation: the podcast texts are machine (whisper medium.en) transcripts and I did not re-listen. The context points above rest on wording around the quotes, which the evidence record says agrees across both transcriptions where it was checked."
+}

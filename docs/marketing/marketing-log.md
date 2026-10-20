@@ -10,6 +10,32 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Active workstreams
 
+### 2026-10-19 — Unattended weekly brief: fix build verified live (q118 on celebrity pages, one-step homepage post); week 10-12 closed at 773 engaged humans -> 1 take; desk replies still 0 for a 4th audit; 7 v3 runs -> 1 pass -> 0 publishes; Type 6 skew in new subjects
+
+- **Brief:** [`docs/daily-briefs/2026-10-19_marketing-status.md`](../daily-briefs/2026-10-19_marketing-status.md).
+  - Growth freshness gate PASSED: growth-log `### 2026-10-19`, audit 06:00 -> 06:07 exit 0, brief started 06:07. Headline and biggest leak are quoted verbatim.
+  - Supabase MCP down (7th week). Data came from read-only `scripts/db-query.sh`, two production GETs and three read-only `--publish-check` runs.
+- **Growth headline (verbatim):** _"the second-best traffic week in 26 (773 engaged humans, 40 returning) produced 1 take. Every gated surface except question pages went to zero, celebrity pages showed q567 to 110 readers for no answers, and the one contributor got no reply. The 10-18 fix build is live as of ~21:00 ET Sunday, so this week is the baseline it has to beat."_
+- **Biggest leak (verbatim):** _"the ask, not the audience. The second-biggest engaged-human week in 26 (773) produced one take (1.3 per 1,000), celebrity pages alone showed the gate to 110 readers for 0 answers, and the one contributor got no reply."_ q567 closes at 233 -> 1 (lost). Homepage two-step v1 lost.
+- **Fix build verified live 06:07:**
+  - `/personality-analysis/jack-black` asks q118 ("What were you like as a kid in 3 words?"), with no q567 text.
+  - The homepage shows "Post anonymously and read answers."
+  - q118 so far: 3 readers -> 0 takes. The kill rule fires at 0 takes after ~100 gate fps.
+  - The live commit is unverified; the build was committed as `0ec5387dd`.
+- **Desk:** `host_reply_drafts` 16 pending / 1 posted lifetime (re-queried). Last host reply 10-03. 3 opt-ins, 0 notified. The digest backlog-alarm fix's first run is 09:00 ET today, after this brief, so it is unverified.
+- **Content:**
+  - Nightly v3 runs: Shyam Sankar, Sienna Spiro, Mike Faist, Grace Reiter and Dylan Patel were held (`needs_revision`). Ella Beatty passed (Open Case). Christopher Abbott failed at verify-repair (100-turn cap, 8.0, untracked).
+  - Publisher: "No publishable draft" 7/7 days, 96 candidates. Madonna was published by hand 10-13 (DB 452 -> 453).
+  - `--publish-check`: Ilya Sutskever is images-only. Ella Beatty and Stella Lefty are `editorial_v3:stale_or_invalid_release` + images.
+  - NEW: 5 of 15 people rows created since 10-01 are typed 6 (33% vs 12% of the live corpus). The pipeline's own reviewer flagged the same pattern.
+  - NEW: Dakota Johnson is live but still queued at priority 84 (inferred selection ~10-22).
+- **Still parked / unchanged:** Instagram (RED 0/10, last session 08-07), Quora/Twitter (05-19), The Nine, One Take, pop-culture 20 not live (oldest 308 days), 10 unfired packets, GSC 16 days stale, T-41 A unstarted. Enneagram Monthly draft not written (day 10).
+- **Next move (ranked):**
+  1. DJ replies to 743, 749, 754 and 759 today, then confirms the 09:00 digest alarm.
+  2. DJ pre-approves the q118 fallback ("your read on {person}"). Lean: build on kill. Ambitious: build now behind a flag.
+  3. An agent drafts the Enneagram Monthly article for DJ review.
+  - Following: Ilya Sutskever portrait (DJ, ~10 min, publishes 8.7). Remove Dakota Johnson from the queue. Type-6 calibration check. Beta-card goal decision (1/10, 27 days left). Signup 211 resend.
+
 ### 2026-10-18 — Conversion fixes implemented locally, awaiting deployment
 
 Following DJ's instruction, the homepage now posts and reveals real responses in one explicit action; celebrity pages prefer the simpler three-word childhood question with bundled AI examples, removing the missing-seed dependency. Exposure/start/failure tracking, weak-password validation, host-backlog accounting/alarms, and social-card font rendering are repaired. See the [implementation entry in the growth log](../growth/growth-log.md#2026-10-18--conversion-fixes-prepared-locally) for validation and the post-deployment readout. This is a local code change, not a production conversion result. Replies to waiting contributors and recovery of confirmation 211 remain operational work.
@@ -400,6 +426,21 @@ Following DJ's instruction, the homepage now posts and reveals real responses in
 
 ## Blocked / waiting
 
+### 2026-10-19 — Current blockers needing DJ / eng decision
+
+- **Desk replies (DJ, ~15 min, 4th audit):** 16 pending / 1 posted lifetime; last reply 10-03. Start with 743 + 749 (opt-ins), then 754 (registrant) and 759 (newest). Growth's ambitious option: name a second replier in DJ's voice.
+- **Digest backlog alarm (growth/eng, verify today):** the 09:00 ET run should log `olderPending` >=16 with `alarm` true.
+- **q118 fallback pre-approval (DJ, ~1 min):** the swap to "your read on {person}" if q118 hits 0 takes at ~100 gate fps (~10-25). Lean: build on kill. Ambitious: build now behind a flag.
+- **Dakota Johnson in the create queue (DJ / queue owner):** live since 10-09, queued at priority 84, likely selected ~10-22 02:00. Not edited by the PM, because `backlog-queue.json` is modified in the working tree by the cron.
+- **Portraits (DJ):** Ilya Sutskever (8.7) is images-only. Ella Beatty and Stella Lefty also need a release refresh (`editorial_v3:stale_or_invalid_release`; inferred fix `--phase finalize`).
+- **Christopher Abbott (pipeline):** verify-repair timed out at 100 turns (8.0; evidence 7.5, Enneagram 7.5). The queue still shows him `inProgress`, and the 02:00 reconcile will move him. Per memory, a rerun should reuse this run's review files.
+- **Type 6 skew (DJ call):** 5 of 15 new rows since 10-01 are typed 6 vs 12% of the corpus. A calibration check was proposed.
+- **Beta card goal (DJ):** 1 of 10 by 11-15; 532 -> 26 -> 0 this week. Keep it, change the card, or reset the goal.
+- **Enneagram Monthly (DJ go-ahead, 2nd ask):** draft invited 10-09, not written. The chart-by-script question is still open.
+- **Carried:** signup 211 resend (14 days); `enneagram_type_prompt` still draft; typing calls (Dario 5 -> 6, Druski 8 -> 3, the Mark-Fischbach duplicate, the Greg Brockman flag drift); leadership post typing mismatches (Nadella, Jobs, Bezos); publisher Node pin; T-44 migration; T-41 A readout + fresh GSC pull; perspective-review backfill (70); pop-culture 20.
+- **Parked (no day counts from now on):** Instagram, Quora, Twitter, The Nine, One Take.
+- **Resolved since 10-12:** celebrity rotation (q118 shipped with bundled examples, no seeding needed; live 10-18); homepage second post step removed; weak-password message; social-card font; homepage exposure + chorus/newsletter funnel events; digest backlog accounting (deployed, verification pending).
+
 ### 2026-10-12 — Current blockers needing DJ / eng decision
 
 - **T-41 G seed approval (DJ, ~10 min, 2nd week):** celebrity slot still asks q567 only (103 -> 1 this week, 124 -> 1 since launch). Readout 10-17. Alternative for DJ to pick: move "Add your read on {person}" into the mid-article slot (needs a build).
@@ -545,6 +586,13 @@ Following DJ's instruction, the homepage now posts and reveals real responses in
 
 ## Decisions
 
+### 2026-10-19 — Observed from artifacts + memory (not stated to the PM directly)
+
+- **10-12/13:** No paid AI detector. Agents flag generic passages and DJ picks each post's direction, left as an uncommitted HTML comment in the post. Rewrites should be shorter, with the FAQ cut, and should end with 5–6 riff-able questions for DJ. People pages commit to one type, lead with triad + core emotion, and argue the case conversationally; rival types go in "Why not" sections. Paragraph rhythm should be mixed, not uniform blocks.
+- **10-13:** Madonna published (Type 3, B+ 8.5).
+- **10-14:** Person-suggestion spam blocked, and unsolicited confirmation emails stopped (Turnstile).
+- **10-18:** DJ authorized the conversion fixes found by the investigation. The celebrity default became q118 with nine bundled, labeled AI examples (no DB seeding, no unflagging of hidden questions). The homepage became a single explicit "Post anonymously and read answers" action. Automatic host replies stay off. Deployed the same night.
+
 ### 2026-10-12 — Observed from artifacts + memory (not stated to the PM directly)
 
 - **10-05:** postal address supplied; PO box shown in email footers only, not on the site. Sam Altman stays Type 4 (the 4 -> 3 refresh was not synced; misquote corrections were).
@@ -622,6 +670,8 @@ Following DJ's instruction, the homepage now posts and reveals real responses in
 
 ## Status snapshots
 
+- [2026-10-19](../daily-briefs/2026-10-19_marketing-status.md) — Growth gate passed (chain on time). Headline: the second-best traffic week in 26 (773 engaged, 40 returning) produced 1 take; every gated surface except question pages went to zero; q567 showed to 110 celebrity readers for 0; the one contributor got no reply. The fix build was verified live by the PM (q118 on celebrity pages, one-step homepage post); q118 is at 3 -> 0 so far. Desk: 16 pending, 0 replies since 10-03 (4th audit). 7 v3 runs -> 1 pass (Ella Beatty, release stale + no portrait) -> 0 publishes; Madonna was published by hand (DB 453); Ilya Sutskever is images-only. NEW: Type 6 skew (33% of new rows vs 12% corpus); Dakota Johnson live but still queued. Enneagram Monthly draft unwritten (day 10). Instagram, Quora, Twitter, The Nine and One Take parked.
+- [2026-10-18](../daily-briefs/2026-10-18_marketing-status.md) — Off-cycle marketing and conversion investigation (not a weekly brief). Traffic held (Mon–Sat 582 -> 624). Celebrity q567 226 -> 1 since launch. Homepage reveal-then-post two-step lost the 2 starters. All six prior-week contributors unanswered. Digest early-return bug hid a 15-draft backlog. DJ then authorized and shipped the fixes (see the growth-log 10-18 implementation entry).
 - [2026-10-12](../daily-briefs/2026-10-12_marketing-status.md) — Growth gate passed (chain on time); headline: comments came back to 6 from six first-timers (half via the new homepage answer box) after 0 and 2; none got a reply (15 unposted desk drafts) and one contributor returned at 30 hours and left; celebrity pages showed q567 to 103 readers for 1 take ("i dont understand this question"); mail on again after 34 days and the week's one registrant unsubscribed after welcome email 3. Same two DJ-only steps open a second week (q118 / q203 seeds, desk replies). DJ shipped 15 commits: Enneagram test, Google-only answer summaries + give-first lockdown, stale-facts pass (103 live rows), CEO page / celebrity hub / compatibility calculator, 3 MDsvex posts, Dakota Johnson published (DB 452), Doja Cat retyped 7 -> 9 live, Altman retype dropped. Outreach restarted (5 of 15 sent) and Enneagram Monthly invited a draft article. Open calls: Dario 5 -> 6, Druski 8 -> 3, Mark Fischbach duplicate of Markiplier, Greg Brockman publish-flag drift. Instagram 66 / Quora 146 days dark.
 - [2026-10-05](../daily-briefs/2026-10-05_marketing-status.md) — Growth gate passed (chain on time); headline: comments stayed at the pre-July floor a second week (0, then 2); the two new gate surfaces showed the gate to 32 humans and got 0 takes (celebrity q567: 26 deep readers -> 0); host digest works again (8 drafts) but 0 posted; the week's best visitor answered, opted in, hit "Server error" twice registering (weak-password) and left. DJ shipped the loop's engineering half (desk, human-only gate, live-take homepage, celebrity question, beta card live with 16 views / 0 opens, IndexNow); mail still blocked in prod (6th ask, 5 people lost). Content engine restarted: queue 0 -> 18, 10 v3 runs, 4 MDsvex posts live, Andrew Garfield published on _Artificial_'s NYFF day (first people publish in 25 days) before the publisher died on Node 26 again. Unapproved retypes on live drafts: Sam Altman 4 -> 3, Dario 5 -> 6, Druski 8 -> 3. Instagram 59 / Quora 139 days dark.
 - [2026-09-28](../daily-briefs/2026-09-28_marketing-status.md) — Growth gate passed (chain on time); headline: contributions 9 -> 0 (first empty week since July); the only retained contributor reloaded their unanswered q570 nine times, lost their session, got no reset email and left (last seen 09-22); four takes unanswered 8 days; host desk dead 16 days; mail off 26 days (third real person lost, signup 209); homepage V2 live but no gate. 0 / 34 matured contributor return. Growth's #1 bet unshipped 3rd week (confirmed from git) while DJ shipped 11 commits: personality ISR live, cross-link system (371 links, gate debt 66 -> 2, 139 live people rows synced), question-page opt-in tray, Talk-to-DJ rebuild (0 notes), The Nine harness (never run live), fresh GSC pull. Create queue empty 8 nights; 0 people publishes in 18 days; Druski refresh failed v3 verify and its draft retypes the live page 8 -> 3 unsynced. Instagram 52 / Quora 132 days dark.
@@ -645,6 +695,18 @@ Following DJ's instruction, the homepage now posts and reveals real responses in
 ## Experiment + campaign log
 
 Cross-link only. Detail lives in `docs/growth/growth-log.md`.
+
+### 2026-10-18 — Fix build live: celebrity q118 (`three_words_v1`) + one-step homepage post (v2)
+
+- Growth-log `### 2026-10-18 — Conversion fixes prepared locally` and `### 2026-10-19`. The PM verified it live 10-19 06:07 via production GETs. q118: 3 readers -> 0 takes since 10-19 01:53 ET. Success: >=3 celebrity contributors in each of the 10-19 and 10-26 weeks, and gate -> take >=3%. Kill: 0 takes after ~100 gate fps, then swap to "your read on {person}". Homepage v2 success: >=2 contributors/week for 2 weeks, and started -> `comment_created` >=40%. Series break 10-18 ~21:00 ET: homepage gate counts are not comparable to earlier weeks.
+
+### 2026-10-12 -> 10-18 — Post-answer loop week 6; celebrity q567 and homepage v1 final readouts (T-41 C)
+
+- Growth-log `### 2026-10-19`.
+  - The week overall: 773 engaged humans -> 1 take (759, a question page, Google reader); 0 returning contributors (4th week); 0 of 1 replied within 24 h (0 of 7 since 10-05).
+  - Gate by surface: celebrity 110 -> 0, home 24 -> 0, question pages 11 -> 1, blog embeds 5 -> 0.
+  - Celebrity q567 lost (233 -> 1 since 10-03). Homepage two-step v1 lost (3, 0) and was superseded.
+  - Beta card: 532 viewers -> 26 opened -> 0 submitted (goal 1 of 10 by 11-15).
 
 ### 2026-10-05 -> 10-11 — Post-answer loop experiment, week 5 readout
 

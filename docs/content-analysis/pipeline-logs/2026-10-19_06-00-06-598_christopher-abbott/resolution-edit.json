@@ -1,0 +1,353 @@
+{
+ "schema_version": 3,
+ "decisions": [
+  {
+   "finding_id": "subject-01",
+   "action": "fixed",
+   "reason": "No body, FAQ or metadata sentence calls either exit a walk-off, walkout or walking away. Type section no longer has 'a résumé of walkouts'. Girls: 'he left the show rather than sign on for years more' and 'He turned down years more of Girls'. John: 'He \"did the whole run and extended a bit,\" ... and then declined to extend again', followed by the blockquote ('people were a little bit upset with me') and 'He \"kind of felt bad,\" he added, and it wasn't that he disliked the work' (C72, C73). The FAQ now says 'declined to sign on to Girls for years more, declined to extend Annie Baker's John'."
+  },
+  {
+   "finding_id": "subject-02",
+   "action": "fixed",
+   "reason": "The hook now prints the first half of his NYT answer: 'He had already figured out how to do the show on crutches. \"Honestly, it's more precarious for me to shower than what I do onstage.\"' The paragraph before it reports the Sunday living-room restaging with the director, the choreographers and Plaza (C121, C122). The blockquote begins 'I didn't think I was going to back out.' The 'refused to hand Danny' line remains as behavior, and the Why-not-8 section now calls the Danny stay non-discriminating. The knee FAQ adds the restaging."
+  },
+  {
+   "finding_id": "subject-03",
+   "action": "fixed",
+   "reason": "The party passage now reads: '\"It was beautiful. It was really sweet,\" he said. Seeing everyone in one room, though, \"my brain goes cynical and dark,\" and the party felt like \"a living funeral.\"' Both whisper transcriptions share these words (hsc_40 small.en, hsc medium.en). The line is presented as his own cynical reflex, which the article calls a forecast, not as his verdict on his friends (C88)."
+  },
+  {
+   "finding_id": "subject-04",
+   "action": "fixed",
+   "reason": "'Therapy-room admission' and the 'If I'm talking to my therapist' quote are gone from the article. The stage-control line is quoted without the preface and counted only in the Eight case. Nothing implies what he tells a therapist or uses therapy as type evidence (C21 updated, C97 removed)."
+  },
+  {
+   "finding_id": "subject-05",
+   "action": "fixed",
+   "reason": "The rehearsal passage now opens with his generous framing: 'Abbott said the two had \"a kinship there\"' and the John paragraph has him calling Baker 'a genius'. The 'what I don't like is manipulation' line is no longer printed, so no sentence sits near Gold and Baker that could read as calling them manipulative. 'He did not say that was why he left' is kept (C18, C74)."
+  },
+  {
+   "finding_id": "subject-06",
+   "action": "fixed",
+   "reason": "The vanity/'social anxiety' line is removed from the article. The eggs quote is introduced with his own framing: 'he answered with what he called \"a healthy perspective on life in this business\"', followed by the hype context (people had told him he was about to break out and it hadn't happened). The old tally sentence ('death, sleep, social situations, contracts and awards') is replaced by 'This is thinner than it looks. Most of it comes from one 2019 conversation, the 2026 lines arrive inside jokes, and in print he rarely talks this way.'"
+  },
+  {
+   "finding_id": "subject-07",
+   "action": "fixed",
+   "reason": "The Type 8 FAQ now says 'says that growing up he wouldn't back down from a fight'. The body prints 'Those days are over for me. At least, I think.' right after the growing-up quote (C138). The slur is not printed and the slap is quoted in his words only. The 'totally his fault' line was not added; the body already says the rider ran into him, cursed at him and threatened him, which carries the same point."
+  },
+  {
+   "finding_id": "subject-08",
+   "action": "fixed",
+   "reason": "meta_title is now 'Christopher Abbott, Enneagram Type 6: The Girls Exit Revisited' (62 characters). It names the Girls exit as a subject, not a solved motive, and the body treats the exit as non-discriminating."
+  },
+  {
+   "finding_id": "fan-01",
+   "action": "fixed",
+   "reason": "The two safety-net lines now carry their stated reasons and are read as one consistent preference: 'Both lines praise liveness: a play is \"not recorded,\" and he likes \"quick, instinctive decisions in front of an audience.\"' The paragraph sits in the Eight case as stage material, not in the Six discriminator. 'The feared thing becomes the draw' and the counterphobic framing are gone. C99 and C21 are updated."
+  },
+  {
+   "finding_id": "fan-02",
+   "action": "fixed",
+   "reason": "Option (a). The WWHL clip (YouTube bTco5F0Hbt8, Plead the Fifth, 2018-10-11) was downloaded and transcribed locally with two whisper models (medium.en and small.en). Both agree on every quoted word; this is a machine check, not a human listen, and research_tasks says so. The passage now quotes both halves inside the game framing: 'We're friends again now', the joke 'I was amazing at my job and he couldn't handle it', 'just didn't want to do it anymore', 'He wigged out', then 'his prerogative', 'didn't love' the 'stuck on a sitcom' remark and 'we've come to a great place'. 'Simply' is gone. New source S31; C63, C64 and C128 updated."
+  },
+  {
+   "finding_id": "fan-03",
+   "action": "fixed",
+   "reason": "The childhood section now adds his own account, attributed to Interview 2023: the six-family house held his parents and sister plus uncles, a great-aunt, his mother's godparents, grandparents and a great-grandmother, and 'It was a very unique way of growing up, which I didn't know at the time.' (C125). It also says his father was born in St. Vincent in the Caribbean and worked at a gas station when he was younger, matching the Talk Easy clarification (C48, sources S04, S17, S23). The birthplace rests on Wikipedia and on Abbott's own Talk Easy description of autofiction about three generations of men 'St. Vincent in the Caribbean, Connecticut, and Florida'. The Talk Easy exchange about the gas station has no speaker labels, so the article does not quote him on the migration. No relatives are named and no causal type claim is made."
+  },
+  {
+   "finding_id": "fan-04",
+   "action": "fixed",
+   "reason": "(a) The fight now opens with '\"The end of the story is I slapped him, but it was deserved,\" he told Carmichael in 2023' (C137). (b) The therapist line is no longer in the article. (c) 'I'm drawn to like conflict' is no longer used anywhere, because in context it is an actor's habit of watching people. The tipping paragraphs now rest only on observations that survive full context: forecasting, narrated doubt and the fallback trade (C142). The slap is described as leaning 'only slightly'."
+  },
+  {
+   "finding_id": "fan-05",
+   "action": "fixed",
+   "reason": "Rewritten as 'He turned down years more of Girls, declined to extend John and refused to hand Danny to someone else.' Nothing implies he left either production midway."
+  },
+  {
+   "finding_id": "fan-06",
+   "action": "fixed",
+   "reason": "Body: 'By his own account, Abbott was \"a guest star for the first two seasons\" of Girls.' (C127). FAQ: 'He played Charlie in the first two seasons, as what he calls a guest star'. The hook now says 'He played Charlie ... in the first two seasons of HBO's Girls', with no billing claim."
+  },
+  {
+   "finding_id": "fan-07",
+   "action": "fixed",
+   "reason": "'What he stays for' now names Martha Marcy May Marlene (2011) as his first feature, from Josh Mond's company Borderline Films (C129), and quotes the 2012 line about 'people that are extremely, dear friends of mine, like the guys I did Martha Marcy May Marlene with, all those dudes' (C130). Carmichael is introduced as the friend 'who directed him in On the Count of Three' (C126). The Slant caveat is printed: 'It was not a plan, he told Slant: \"I didn't set out to work just with friends. It just kind of happened that way.\"' (C19)."
+  },
+  {
+   "finding_id": "fan-08",
+   "action": "fixed",
+   "reason": "The FAQ now reads 'They first worked together on the film Black Bear in 2019 and again onstage in Danny and the Deep Blue Sea in 2023.' Both are framed as collaborations, with no relationship start date. Baena is not mentioned. The body's partner clause ('Plaza, his co-star in Black Bear and Danny, is also his partner') gives no date either (C119, C124)."
+  },
+  {
+   "finding_id": "critic-F1",
+   "action": "fixed",
+   "reason": "The Girls passage now quotes the reason he gave in the same breath: 'The multi-year offer \"just sort of scared me,\" he said, and gave the reason in the same breath: he liked working on the show, but \"I get bored easily.\"' It also prints the Talk Easy reasons ('bored very easily', 'first time I had ever gone back to anything', 'fear of commitment', 'I don't like signing on to long-term things'). The 'centers it on nervous and scared' sentence is gone. The Why-not-8 section says '_Girls_ doesn't decide it' and that wanting out fits Eight autonomy as easily as Six worry. The therapist preface is gone. The type FAQ, C33, C95 and C116 are rewritten to match."
+  },
+  {
+   "finding_id": "critic-F2",
+   "action": "fixed",
+   "reason": "The anxiety section now says 'That 2019 conversation ... holds most of the anxiety talk in his record' and 'This is thinner than it looks. Most of it comes from one 2019 conversation, the 2026 lines arrive inside jokes, and in print he rarely talks this way.' It prints and answers 'I wouldn't say intimidated. If anything, I leaned more towards excitement.' (C135). The Tony line carries 'The story ended as a bathroom joke'. The party line carries 'It was beautiful. It was really sweet'. The Type 8 FAQ no longer says 'nearly every long interview'."
+  },
+  {
+   "finding_id": "critic-F3",
+   "action": "fixed",
+   "reason": "The Why-not-8 section now has 'it was deserved' (C137), 'Those days are over for me. At least, I think. But I still have fantasies about shit happening.' and 'Yeah, I'd fuck someone up for you' with his 'Just enough to not get in trouble' (C138). There is no slur. 'Vigilance more than appetite' is removed. 'One street fight' is replaced by the quoted 'growing up, yes, I have gotten into fights' sentence (C93). The slap is weighed as leaning only slightly toward Six (C141)."
+  },
+  {
+   "finding_id": "critic-F4",
+   "action": "fixed",
+   "reason": "Cut the 'counterphobic move in miniature' conclusion. Both safety-net quotes now appear with their stated reasons, and the text says they describe liveness from two angles. No sentence claims he once feared the stage."
+  },
+  {
+   "finding_id": "critic-F5",
+   "action": "fixed",
+   "reason": "The 'enjoy' line is no longer used as a rebuttal (C105 removed). The death-anxiety sentence now continues: 'The thought lands on savoring, though: he wants to \"enjoy this so much,\" because \"time is the most valuable\" thing to him.' (C15). Seven gets its own section with its strongest evidence. It is rebutted with a discriminator that survives context: the direction of his forecast (C144), with its limit stated (C145). It is named as live in the type section and the type FAQ ('Type 7 is also live')."
+  },
+  {
+   "finding_id": "critic-F6",
+   "action": "fixed",
+   "reason": "The ownership paragraph now names its limits: 'That pattern is partial. Girls is the only multi-year offer in the record, and he carried Catch-22 and Salesman, which neither he nor his friends built.' (C132). The finite-versus-open-ended pattern comes first, in his own terms ('He finishes what he signs up for ... What he resists is the open-ended renewal') (C131). The John paragraph quotes 'would have watched 50 times rather than be in' for 'an extended period' and keeps 'there's nothing more valuable to me than time'. The hook's 'done the opposite' is now 'A decade earlier he had said no to a much bigger job ... rather than sign on for years more.' John reads 'did the whole run and extended a bit ... and then declined to extend again'."
+  },
+  {
+   "finding_id": "critic-F7",
+   "action": "fixed",
+   "reason": "The X-Men contrast now uses a commitment quote: 'Thirteen years after a multi-season offer \"just sort of scared me,\" he signed on to a Marvel franchise.' (C146). The eggs line appears only in the Bracing section, introduced by his 'healthy perspective' framing and followed by the hype context."
+  },
+  {
+   "finding_id": "critic-F8",
+   "action": "fixed",
+   "reason": "The settle paragraph now follows a Danny paragraph that uses the living-room restaging as existing, mixed evidence ('he gathered his collaborators in his living room, and he also worked out the crutch staging himself'). The kept sentence names what is still missing: an account from his closest collaborators. The binary test is replaced by 'Both types rally their people. The question is whether he checks his call with them and second-guesses it, or makes the call and shields them.'"
+  },
+  {
+   "finding_id": "critic-F9",
+   "action": "fixed",
+   "reason": "Mond's 'control and range' line is removed (C94 removed). The Eight case now uses Mond's testimony about how Abbott behaves: their close relationship 'made me feel safe and comfortable in my anxiety and fears' (C139)."
+  },
+  {
+   "finding_id": "unfamiliar-01",
+   "action": "fixed",
+   "reason": "'What he stays for' now ends by answering the hook. The plain pattern is about time: he finishes what he signs up for and resists open-ended renewals. That is followed by an inference paragraph labeled 'This suggests': 'from inside a Six: wary of an open-ended promise to someone else's plan, committed when the end is in sight and the ground is people he trusts. An Eight would tell the same story as autonomy, and a Seven as boredom' (C131, C133). The protected ownership sentences are kept verbatim."
+  },
+  {
+   "finding_id": "unfamiliar-02",
+   "action": "fixed",
+   "reason": "The Why-not-8 Girls paragraph now says: 'The fear words come from his 2026 retellings, where \"scared\" and \"fear of commitment\" sit beside boredom and wanting \"something else.\" His 2013 and 2015 versions used none.' It withdraws Girls as a discriminator (C140). The discriminator now rests on forecasting and narrated doubt (C142), so it no longer contradicts 'His explanation has changed over time.'"
+  },
+  {
+   "finding_id": "unfamiliar-03",
+   "action": "fixed",
+   "reason": "The hook now has the sourced sentence 'In 2026, Interview magazine credited him with \"a knack for playing New York tough guys.\"' with a link to the Interview 2026 piece (C123). The contrast sentence becomes 'has more nerves and doubt in it than those roles suggest.'"
+  },
+  {
+   "finding_id": "unfamiliar-04",
+   "action": "fixed",
+   "reason": "The orientation paragraph now says plainly: 'Plaza, his co-star in Black Bear and Danny, is also his partner, and their daughter was born in July 2026.' This comes before the type section and before the X-Men daughter sentence, so the daughter line is no longer the first signal (C124, sourced to Wikipedia and RealityTea). It is the third body mention, not the first or second. Both earlier mentions sit inside the December 2023 injury scene, where 'partner' would date the relationship to 2023, which no opened source supports (fan-08; Wikipedia lists 2025)."
+  },
+  {
+   "finding_id": "unfamiliar-05",
+   "action": "fixed",
+   "reason": "The H2 is now '## Professor X at 40'. The section opens on verified facts: the August 2026 D23 announcement, May 5, 2028, the July 2026 daughter and 'not that many'. 'Stability' appears once, attributed to TheWrap. The conclusion rests on the 'just sort of scared me' contrast, not on that word."
+  },
+  {
+   "finding_id": "unfamiliar-06",
+   "action": "fixed",
+   "reason": "The paragraph now gives both contexts: 'a play is \"not recorded,\"' and he likes 'quick, instinctive decisions in front of an audience'. It reads them as one love of liveness. The closing 'feared thing becomes the draw' sentence is cut."
+  },
+  {
+   "finding_id": "unfamiliar-07",
+   "action": "fixed",
+   "reason": "The definition paragraph is rewritten: 'A Type 6 organizes life around security: whom to trust, what could go wrong, what the backup is. Abbott's version is easy to miss, because so much of what he does looks tough. The doubt shows when he explains himself, and in small habits, like learning every audition scene on offer \"just in case.\"' Neither 'something solid to stand on' nor the careful-Six/bold-Six-mistaken-for-Eight pattern remains, and the persona title no longer uses 'walks toward what scares him'. The only remaining shared phrase is the mandated triad sentence. I did not rerun the similarity script in this stage; the verifier should."
+  },
+  {
+   "finding_id": "unfamiliar-08",
+   "action": "fixed",
+   "reason": "The Type 8 FAQ no longer states any count. It reads: 'he narrates doubt that an Eight usually keeps quiet: he braces for letdowns, kept a fallback trade during Girls, and said a 2023 street confrontation left him shaken'. Each item has a body passage (C116)."
+  },
+  {
+   "finding_id": "enneagram-01",
+   "action": "fixed",
+   "reason": "The sentence that said Seven cannot explain anxiety is replaced (C108). The new 'Why not Type 7?' section says: 'Sevens share the Six's head triad and its fear, so anxiety talk cannot separate them. The direction of the forecast can.' It tests that against his boredom and novelty reasons, including the Girls boredom quotes and the Danny 'became a new thing' line (C144, C104), and states the limit, learned realism (C145). Type 8 remains the strongest alternative and Type 7 is live. The type section, type FAQ ('Type 8 is the strongest alternative, and Type 7 is also live'), Type 8 FAQ and type_hypothesis (alternative_type 8; alternative_case names Seven live) agree. Core type and strongest alternative are unchanged, so no --refresh is triggered."
+  },
+  {
+   "finding_id": "enneagram-02",
+   "action": "fixed",
+   "reason": "(a) The death line keeps its continuation ('enjoy this so much', 'time is the most valuable') and the article says the thought 'lands on savoring'. That half counts toward Seven in C15. (b) The 'enjoy' line is no longer used. (c) The vanity/'social anxiety' line is removed. The old repetition sentence is replaced by an honest statement of how concentrated the material is (C89)."
+  },
+  {
+   "finding_id": "enneagram-03",
+   "action": "fixed",
+   "reason": "The Girls discriminator is withdrawn. The article prints the fear wording beside 'I just want to do something else', 'bored very easily' and 'I don't like signing on to long-term things', then says '_Girls_ doesn't decide it ... Wanting out of a long contract fits an Eight's autonomy as easily as a Six's worry.' The Type 8 FAQ no longer uses Girls as Six evidence."
+  },
+  {
+   "finding_id": "enneagram-04",
+   "action": "fixed",
+   "reason": "The fight now includes 'it was deserved', 'I still have fantasies about shit happening' and 'I'd fuck someone up for you', with no slur. 'You told me the story about Paris ... I wish I had gone' is paraphrased as the Paris exchange. The tipping paragraph weighs them: 'The slap leans only slightly. An Eight telling that story would usually stop at \"it was deserved.\" Abbott went on to say it shook him.' Claims C137, C138 and C141 cover the additions."
+  },
+  {
+   "finding_id": "enneagram-05",
+   "action": "fixed",
+   "reason": "The juxtaposition is kept, with both explanations, and the reversal reading is removed. The counterphobic reading no longer appears anywhere. The Six case rests on other sourced material."
+  },
+  {
+   "finding_id": "enneagram-06",
+   "action": "fixed",
+   "reason": "Option (b). 'Counterphobic' is gone from the 60-word answer, both type FAQs, the description and the persona title, which is now 'The Actor Who Braces for the Letdown'. The generic phobic/counterphobic explainer that echoed shyam-sankar is replaced. The type is now described through Abbott-specific patterns: forecasting, worst-case preparation, a fallback trade and narrated doubt. The acting-class and audition scenes stay as scenes, with no mechanism label."
+  },
+  {
+   "finding_id": "enneagram-07",
+   "action": "fixed",
+   "reason": "The tipping paragraph quotes both halves of the ownership line and labels them: '\"An ownership I feel and we all feel\" is shared; \"You'd have to pry it out of my hands\" is possessive'. It says what the Danny scene shows: he gathered collaborators and solved the staging himself. It calls the scene non-discriminating. 'Duty' is gone. The settle signal is rewritten as a test the types answer differently: 'whether he checks his call with them and second-guesses it, or makes the call and shields them'."
+  },
+  {
+   "finding_id": "enneagram-08",
+   "action": "fixed",
+   "reason": "(a) The therapist line is removed. (b) 'Drawn to like conflict' is removed from both the Eight case and the rebuttal. Neither line appears in the tipping argument."
+  },
+  {
+   "finding_id": "future-01",
+   "action": "fixed",
+   "reason": "(1) The Why-not-8 section dates the fear framing to 2026 retellings and says his 2013 and 2015 versions used no fear words (C140). The Girls FAQ dates each explanation (2013, 2015, 2026). The Type 8 FAQ no longer relies on Girls. (2) The Talk Easy 'fear of commitment' line is added with its May 2026 date. Both whisper transcriptions share the quoted words; 'a little bit of' is paraphrased as 'a little' because the models differ (C60). (3) 'Nearly every long interview' is gone. (4) C60, C61, C62, C115, C116 and C140 are now 'unresolved' with a Girls-retelling review_trigger. C95 now describes the Danny stay, not the Girls exit, so it stays stable."
+  },
+  {
+   "finding_id": "future-02",
+   "action": "fixed",
+   "reason": "The body now says 'In August 2026, at Disney's D23 event', with no exact day. C31 and the S27 context explain that August 15 is the report and tweet timestamp and that no opened source names the presentation day."
+  },
+  {
+   "finding_id": "future-03",
+   "action": "fixed",
+   "reason": "'Two years out' is gone. The film is 'a film Marvel dated for May 5, 2028'. 'Jake Schreier is directing' is removed (C109 removed). The denial now reads 'In 2026 Abbott denied a report from the time', and C65's claim is dated May 2026."
+  },
+  {
+   "finding_id": "future-04",
+   "action": "fixed",
+   "reason": "The H2 is now '## Professor X at 40'. The body keeps the TheWrap attribution in one clause. C110 and C111 keep time-sensitive status with review triggers."
+  },
+  {
+   "finding_id": "future-05",
+   "action": "fixed",
+   "reason": "The FAQ now opens 'As of October 2026, yes. He lives in New York with the actress Aubrey Plaza.' That sentence is the passage of new time_sensitive claim C150 (Wikipedia, S23), with a trigger for long interviews about the relationship or Wikipedia changes."
+  },
+  {
+   "finding_id": "future-06",
+   "action": "fixed",
+   "reason": "The settle paragraph is C100, now unresolved, with a trigger naming testimony from Plaza, Ward, Carmichael or Mond, or a conflict he started. 'Until that account exists...' is C143, unresolved. 'How he talks about the job once filming starts...' is C147, unresolved, triggered by his first long interview after X-Men production begins and his first fatherhood-era long-form interview."
+  },
+  {
+   "finding_id": "future-07",
+   "action": "fixed",
+   "reason": "'Something solid to stand on' and 'walks straight at what scares' no longer appear anywhere. The definition paragraph uses Abbott's own habit ('learning every audition scene on offer \"just in case\"'). The triad sentence is kept as house vocabulary. I did not rerun the similarity diagnostic in this stage; the verifier should confirm."
+  }
+ ],
+ "protected_passages": [
+  {
+   "passage": "By 2026 he had disowned the 2013 version. \"I think I was dancing around,\" he said on Talk Easy.",
+   "action": "kept",
+   "reason": "Kept word for word. The surrounding Girls passage now adds the May 2026 Talk Easy reasons and the October 2026 boredom clause, so the shifting accounts appear in order."
+  },
+  {
+   "passage": "None of it is clinical, and nothing here treats it that way. It is the vocabulary he reaches for when he explains himself.",
+   "action": "kept",
+   "reason": "Kept word for word as the close of the Bracing section, after the new paragraph stating how concentrated the anxiety material is."
+  },
+  {
+   "passage": "He names the cause himself, which makes it weak evidence for any one type. The shame thread may owe as much to growing up near money without it as to type.",
+   "action": "kept",
+   "reason": "Kept word for word in the guardedness paragraph."
+  },
+  {
+   "passage": "A Six reading has a logic for that: at 40, with a new child, steadiness can become the thing worth protecting. Age and fatherhood explain it at least as well.",
+   "action": "kept",
+   "reason": "Kept word for word. The sentence before it now contrasts the X-Men commitment with 'just sort of scared me', not the eggs line (critic-F7)."
+  },
+  {
+   "passage": "The record still lacks the scene that would settle it: a conflict he started rather than met, or an account from his closest collaborators of how he behaves when a project he loves is threatened.",
+   "action": "kept",
+   "reason": "Kept word for word in edit.md."
+  },
+  {
+   "passage": "On a Saturday in early December 2023, with maybe 30 minutes left in a performance of _Danny and the Deep Blue Sea_ at the Lucille Lortel Theatre, Christopher Abbott got up off the floor and felt his knee lock. It was a bucket-handle meniscus tear.",
+   "action": "kept",
+   "reason": "Kept word for word as the opening."
+  },
+  {
+   "passage": "So the actor who would not commit to more seasons of a hit series would not let go of an Off-Broadway two-hander on a torn knee.",
+   "action": "kept",
+   "reason": "Kept word for word. The sentence before it is softened from 'done the opposite' to 'said no to a much bigger job ... rather than sign on for years more' (critic-F6), and the hook's question is answered in 'What he stays for'."
+  },
+  {
+   "passage": "It's \"not that many,\" Abbott said, and then that, getting older, he was \"kind of looking forward to\" something the podcast audio leaves unclear.",
+   "action": "kept",
+   "reason": "Kept word for word. TheWrap's 'stability' stays attributed in the next sentence, and the H2 no longer quotes the word."
+  },
+  {
+   "passage": "\"And I just kept walking towards the class,\" he told Carmichael. \"That was the choice.\"",
+   "action": "kept",
+   "reason": "Kept word for word as the closing line."
+  },
+  {
+   "passage": "On a Saturday in early December 2023, with maybe 30 minutes left in a performance of _Danny and the Deep Blue Sea_ at the Lucille Lortel Theatre, Christopher Abbott got up off the floor and felt his knee lock.",
+   "action": "kept",
+   "reason": "Kept word for word as the opening."
+  },
+  {
+   "passage": "He did not say that was why he left.",
+   "action": "kept",
+   "reason": "Kept word for word after the rehearsal-room sentences, which now open with his generous framing of Gold and Baker ('a kinship there')."
+  },
+  {
+   "passage": "He names the cause himself, which makes it weak evidence for any one type.",
+   "action": "kept",
+   "reason": "Kept word for word in the guardedness paragraph."
+  },
+  {
+   "passage": "He signed in, asked for a copy of the scenes, and was called up to the desk and asked who had sent him. Then he was told to leave.",
+   "action": "kept",
+   "reason": "Kept word for word in the origin section."
+  },
+  {
+   "passage": "He leaves arrangements that someone else set for years ahead. He stays inside projects that he and his friends built.",
+   "action": "kept",
+   "reason": "Kept word for word as its own paragraph. It is now preceded by the finite-versus-open-ended pattern and followed by its stated limits and an inference paragraph connecting it to the type argument (unfamiliar-01, critic-F6)."
+  },
+  {
+   "passage": "In the mirror, he said, he sometimes thinks, \"You are the most handsome devil I have ever seen,\" and in a photo, \"You are the ugliest piece of shit.\"",
+   "action": "kept",
+   "reason": "Kept word for word in the image-and-shame paragraph."
+  },
+  {
+   "passage": "The best case against the Six reading is what he does.",
+   "action": "kept",
+   "reason": "Kept word for word as the opening of 'Why not Type 8?', which now gives the Eight case more sourced material (fight context, protectiveness, friends' testimony)."
+  },
+  {
+   "passage": "Age and fatherhood explain it at least as well.",
+   "action": "kept",
+   "reason": "Kept word for word. The sentence before it now contrasts the X-Men commitment with 'just sort of scared me', not the eggs line (critic-F7)."
+  },
+  {
+   "passage": "His explanation has changed over time. In September 2013 he told the Times that the world Lena Dunham wrote \"wasn't as relatable for me on a personal level.\"",
+   "action": "kept",
+   "reason": "Kept word for word. The dated layers now extend to May and October 2026."
+  },
+  {
+   "passage": "In 2015 he told Issue that theater gave him \"a bit of a safety net.\" In 2026 he told Interview, \"There's a lack of safety net that I find thrilling.\"",
+   "action": "kept",
+   "reason": "Both sentences are kept word for word in the Why-not-8 section. The reversal reading in this reviewer's reason is withdrawn. Fan-01, critic-F4, enneagram-05 and unfamiliar-06 showed from the sources that the two nets describe the same liveness: in 2015 a play is not recorded; in 2026 he likes quick decisions in front of an audience. The next sentence now says so. The passage keeps its dated, eleven-years-apart value as his own words about the stage."
+  },
+  {
+   "passage": "The record still lacks the scene that would settle it: a conflict he started rather than met, or an account from his closest collaborators of how he behaves when a project he loves is threatened. A Six would reach for his people. An Eight would take charge alone.",
+   "action": "changed",
+   "reason": "The first sentence, which names the missing evidence and admits the record lacks it, is kept word for word. 'A Six would reach for his people. An Eight would take charge alone.' is replaced. Enneagram-07 and critic-F8 showed it rests on a stereotype, since Eights also rally an inner circle. The new test is 'Both types rally their people. The question is whether he checks his call with them and second-guesses it, or makes the call and shields them.' The passage still gives a concrete, observable discriminator that stays true if a refresh settles on Eight. C100 is unresolved with a trigger."
+  },
+  {
+   "passage": "Age and fatherhood explain it at least as well. How he talks about the job once filming starts, and whether the anxiety language survives fatherhood, will test this reading.",
+   "action": "kept",
+   "reason": "Kept word for word. The sentence before it now contrasts the X-Men commitment with 'just sort of scared me', not the eggs line (critic-F7)."
+  }
+ ],
+ "prior_blockers": []
+}

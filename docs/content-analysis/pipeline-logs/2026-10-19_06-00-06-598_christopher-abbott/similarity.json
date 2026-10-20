@@ -1,0 +1,268 @@
+{
+  "target": {
+    "person": "christopher-abbott",
+    "type": "6",
+    "units": 9,
+    "file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-19_06-00-06-598_christopher-abbott/draft.md"
+  },
+  "comparison_set": [
+    {
+      "person": "ella-beatty",
+      "date": "2026-10-18",
+      "units": 9
+    },
+    {
+      "person": "grace-reiter",
+      "date": "2026-10-16",
+      "units": 8
+    },
+    {
+      "person": "lily-rose-depp",
+      "date": "2026-10-16",
+      "units": 8
+    },
+    {
+      "person": "shyam-sankar",
+      "date": "2026-10-13",
+      "units": 14
+    },
+    {
+      "person": "maleah-joi-moon",
+      "date": "2026-10-12",
+      "units": 10
+    },
+    {
+      "person": "joseph-zada",
+      "date": "2026-09-12",
+      "units": 13
+    },
+    {
+      "person": "Arthur-Mensch",
+      "date": "2026-09-10",
+      "units": 42
+    },
+    {
+      "person": "inde-navarrette",
+      "date": "2026-09-10",
+      "units": 11
+    }
+  ],
+  "n_requested": 8,
+  "noise_floor": {
+    "pairs_compared": 1035,
+    "median": 0,
+    "p90": 0,
+    "p99": 0.022,
+    "max": 1
+  },
+  "trip_threshold": 0.088,
+  "tripped": true,
+  "trip_pairs": [
+    {
+      "score": 1,
+      "other_person": "ella-beatty",
+      "shared_phrases": [
+        "whose core",
+        "core emotion",
+        "whose core emotion",
+        "core emotion is",
+        "emotion is fear"
+      ],
+      "target": "[diagnosis] whose core emotion is fear.",
+      "other": "[diagnosis] whose core emotion is fear"
+    },
+    {
+      "score": 1,
+      "other_person": "grace-reiter",
+      "shared_phrases": [
+        "whose core",
+        "core emotion",
+        "whose core emotion",
+        "core emotion is",
+        "emotion is fear"
+      ],
+      "target": "[diagnosis] whose core emotion is fear.",
+      "other": "[diagnosis] whose core emotion is fear."
+    },
+    {
+      "score": 0.302,
+      "other_person": "lily-rose-depp",
+      "shared_phrases": [
+        "someth solid",
+        "someth solid to",
+        "solid to stand"
+      ],
+      "target": "[diagnosis] A Type 6 scans for what could go wrong and looks for something solid to stand on",
+      "other": "[diagnosis] find something solid to stand on"
+    },
+    {
+      "score": 0.124,
+      "other_person": "shyam-sankar",
+      "shared_phrases": [
+        "walk straight",
+        "walk straight at"
+      ],
+      "target": "[diagnosis] the Six who walks straight at what scares him.",
+      "other": "[diagnosis] Others walk straight at what worries them and come across as the boldest person in the room."
+    }
+  ],
+  "per_draft_max": [
+    {
+      "person": "ella-beatty",
+      "date": "2026-10-18",
+      "units": 9,
+      "maxScore": 1
+    },
+    {
+      "person": "grace-reiter",
+      "date": "2026-10-16",
+      "units": 8,
+      "maxScore": 1
+    },
+    {
+      "person": "lily-rose-depp",
+      "date": "2026-10-16",
+      "units": 8,
+      "maxScore": 0.302
+    },
+    {
+      "person": "shyam-sankar",
+      "date": "2026-10-13",
+      "units": 14,
+      "maxScore": 0.124
+    },
+    {
+      "person": "joseph-zada",
+      "date": "2026-09-12",
+      "units": 13,
+      "maxScore": 0.048
+    },
+    {
+      "person": "Arthur-Mensch",
+      "date": "2026-09-10",
+      "units": 42,
+      "maxScore": 0.035
+    },
+    {
+      "person": "inde-navarrette",
+      "date": "2026-09-10",
+      "units": 11,
+      "maxScore": 0.012
+    },
+    {
+      "person": "maleah-joi-moon",
+      "date": "2026-10-12",
+      "units": 10,
+      "maxScore": 0.008
+    }
+  ],
+  "top_pairs": [
+    {
+      "score": 1,
+      "other_person": "ella-beatty",
+      "shared_phrases": [
+        "whose core",
+        "core emotion",
+        "whose core emotion",
+        "core emotion is",
+        "emotion is fear"
+      ],
+      "target": "[diagnosis] whose core emotion is fear.",
+      "other": "[diagnosis] whose core emotion is fear"
+    },
+    {
+      "score": 1,
+      "other_person": "grace-reiter",
+      "shared_phrases": [
+        "whose core",
+        "core emotion",
+        "whose core emotion",
+        "core emotion is",
+        "emotion is fear"
+      ],
+      "target": "[diagnosis] whose core emotion is fear.",
+      "other": "[diagnosis] whose core emotion is fear."
+    },
+    {
+      "score": 0.302,
+      "other_person": "lily-rose-depp",
+      "shared_phrases": [
+        "someth solid",
+        "someth solid to",
+        "solid to stand"
+      ],
+      "target": "[diagnosis] A Type 6 scans for what could go wrong and looks for something solid to stand on",
+      "other": "[diagnosis] find something solid to stand on"
+    },
+    {
+      "score": 0.124,
+      "other_person": "shyam-sankar",
+      "shared_phrases": [
+        "walk straight",
+        "walk straight at"
+      ],
+      "target": "[diagnosis] the Six who walks straight at what scares him.",
+      "other": "[diagnosis] Others walk straight at what worries them and come across as the boldest person in the room."
+    },
+    {
+      "score": 0.071,
+      "other_person": "ella-beatty",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Type 6 scans for what could go wrong and looks for something solid to stand on",
+      "other": "[diagnosis] and looks for ground to trust in preparation"
+    },
+    {
+      "score": 0.05,
+      "other_person": "shyam-sankar",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Type 6 scans for what could go wrong and looks for something solid to stand on",
+      "other": "[diagnosis] They manage it by committing to what they trust and watching for what could break it."
+    },
+    {
+      "score": 0.048,
+      "other_person": "joseph-zada",
+      "shared_phrases": [],
+      "target": "[diagnosis] The Six reading rests on how he explains himself",
+      "other": "[diagnosis] The Six case rests on what settles them"
+    },
+    {
+      "score": 0.035,
+      "other_person": "Arthur-Mensch",
+      "shared_phrases": [],
+      "target": "[diagnosis] stubborn ownership and one street fight reads like an Eight.",
+      "other": "[counter-typing] An Eight expands from felt power."
+    },
+    {
+      "score": 0.032,
+      "other_person": "Arthur-Mensch",
+      "shared_phrases": [
+        "counterphobic six"
+      ],
+      "target": "[diagnosis] The counterphobic Six handles it by going toward the threat",
+      "other": "[counter-typing] and the classic mistyping for a counterphobic Six."
+    },
+    {
+      "score": 0.031,
+      "other_person": "shyam-sankar",
+      "shared_phrases": [
+        "core emotion"
+      ],
+      "target": "[diagnosis] whose core emotion is fear.",
+      "other": "[diagnosis] The Enneagram groups its nine types by core emotion"
+    },
+    {
+      "score": 0.023,
+      "other_person": "grace-reiter",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Type 6 scans for what could go wrong and looks for something solid to stand on",
+      "other": "[diagnosis] A Type 6 is built to anticipate trouble and to look for support that will hold."
+    },
+    {
+      "score": 0.02,
+      "other_person": "Arthur-Mensch",
+      "shared_phrases": [],
+      "target": "[diagnosis] this kind of Six is often mistaken for the confrontational Type 8.",
+      "other": "[counter-typing] A weaker Type 9 case exists for the deflation"
+    }
+  ]
+}

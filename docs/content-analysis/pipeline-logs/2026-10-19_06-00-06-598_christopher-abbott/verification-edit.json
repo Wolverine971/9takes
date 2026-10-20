@@ -1,0 +1,1298 @@
+{
+  "schema_version": 3,
+  "content_sha256": "d782df825ce03bc534bf419c48848da8b927bc8b99d925b3096759dea3ac3001",
+  "evidence_sha256": "6ab3af422f417d73ad3f7b57cc511d6f7c68ae635c03ea5e318054c9c014fa64",
+  "status": "revise",
+  "findings": [
+    {
+      "id": "verify-V01",
+      "severity": "major",
+      "passage": "He expects to be \"disappointed,\" hears his \"cynical nature\" first, and says his brain \"goes cynical and dark\" at his own birthday party.",
+      "problem": "The main Six-over-Seven discriminator rests on the thesis-friendly half of a 2019 answer. On Back to One (S29), after \"I've grinded enough to like be disappointed enough times that I never, I will never put my eggs in any basket\" and the hype explanation, he corrects himself at about 0:58:30: \"So, in a healthy way, I think I've been disappointed enough, you know? And I don't even, I shouldn't even say disappointed 'cause that's not even the really, that's by no means is a feeling that I felt in that.\" (Research medium.en vtt at 0:58:36; reproduced independently with whisper.cpp small.en on a fresh clip.) The article omits the correction and paraphrases the line as \"He expects to be 'disappointed'\". Reframing a letdown so it was not felt as one is close to the Seven move the next paragraph says he does not make (\"A Seven ... reframes a letdown before it lands. Abbott leans the other way\"). The same clipped line feeds \"braces for disappointment\" in the type answer and type FAQ, \"braces for letdowns\" in the Type 8 FAQ, C136, and the persona title. This sentence is also missing from the claim inventory, so coverage is incomplete.",
+      "acceptance_test": "Near the eggs block quote, the Bracing section reports his self-correction (quote \"I shouldn't even say disappointed\" or paraphrase it faithfully, attributed to Back to One 2019). \"He expects to be 'disappointed'\" is removed or reworded so it no longer claims an expectation of disappointment he disowned. The Six-over-Seven paragraph explicitly weighs the correction (for example, that the 2019 forecast leans as much toward reframing as toward bracing, leaving the 2026 joke lines and the \"cynical and dark\" party line as the forecast evidence) and keeps the confidence and Seven-live language honest. The type answer, type FAQ, Type 8 FAQ and persona_title do not state more than the reweighed evidence supports. The sentence is added to the evidence inventory as an interpretation claim, and C16, C33, C45, C116, C136 and C144 inferences are updated."
+    },
+    {
+      "id": "verify-V02",
+      "severity": "major",
+      "passage": "Nor do they usually build a second trade on the side the way he did during _Girls_, asking, \"do I want to only rely on it?\"",
+      "problem": "The fallback-trade discriminator omits his stated reasons, which point away from security. On Happy Sad Confused (S18, about 0:29:40-0:30:20; confirmed by an independent large-v3-turbo pass) the host asks \"why did you have to, for money?\" and he answers \"No, I didn't ... it wasn't that much money at that time.\" He explains: \"I was trying to get in touch with like whatever working roots or manhood,\" calls it \"an early identity crisis\", and says being noticed for the show \"made me sort of act out in certain ways.\" The article keeps only \"do I want to only rely on it?\" and labels the jobs a fallback trade (\"keeps a fallback\" in the type answer and type FAQ; \"kept a fallback trade during Girls\" in the Type 8 FAQ, one of only three reasons given there for Six over Eight). Seeking \"working roots or manhood\" echoes his \"I'm a man. I don't do this kind of shit\" and fits the Eight reading at least as well. This is a boundary error between reported fact and inferred motive.",
+      "acceptance_test": "The Italian-ice/carpentry passage reports that he said he did not need the jobs for money and that he was \"trying to get in touch with ... working roots or manhood\" (faithful paraphrase acceptable). The Six-over-Eight paragraph either reweighs \"do I want to only rely on it?\" against those stated reasons or stops counting the side jobs as Six evidence. \"Keeps a fallback\" (type answer, type FAQ) and \"kept a fallback trade during Girls\" (Type 8 FAQ) are reworded or removed to match. C66, C67, C116, C142 and the type_hypothesis discriminator text are updated."
+    },
+    {
+      "id": "verify-V03",
+      "severity": "minor",
+      "passage": "That pattern is partial. _Girls_ is the only multi-year offer in the record, and he carried _Catch-22_ and _Salesman_, which neither he nor his friends built.",
+      "problem": "\"Carried ... Salesman\" overstates a featured role: his Tony nomination was for Best Featured Actor and Nathan Lane played Willy (S23). The preceding list, \"He finishes what he signs up for: ... a Broadway run of Salesman\", is not backed by any opened source showing he played through the end of the 22-week engagement that began March 6, 2026 (his daughter was born in July 2026).",
+      "acceptance_test": "Salesman is described as a role he played (for example, \"played Biff in Salesman\") rather than one he carried. Either an opened source confirms he finished the Salesman run, or it is dropped from the \"finishes what he signs up for\" list. C131 and C132 are updated."
+    },
+    {
+      "id": "verify-V04",
+      "severity": "minor",
+      "passage": "That 2019 conversation, recorded live in Brooklyn weeks after _Catch-22_ premiered, holds most of the anxiety talk in his record.",
+      "problem": "The Filmmaker page (S29) dates publication to June 4, 2019 and calls it a live event in Brooklyn, but gives no recording date. \"Weeks after Catch-22 premiered\" (May 17, 2019) is an inference; the host's \"I don't know if you guys have seen it\" suggests the show was out, but no source dates the recording.",
+      "acceptance_test": "The sentence uses a date the source states (for example, \"a live Brooklyn taping released in June 2019, weeks after Catch-22 premiered\") or marks the timing as approximate. C84 is updated to match."
+    }
+  ],
+  "research_tasks": [
+    "Verify-stage notes (2026-10-19). Every print quote was matched verbatim against live re-fetches (curl, r.jina.ai, or Wayback raw captures for NYT 2013/2024 and Pajiba). Podcast quotes were read in context in the saved medium.en transcripts. An independent openai-whisper large-v3-turbo pass on 22 clips cut from the saved RSS audio covered 16 clips before this stage closed; the Talk Easy clips around 0:06:34, 0:09:13, 0:34:03, 0:38:40-0:41:55 and 0:49:05 were still pending, so those quotes rest on the saved transcript plus the research small.en check. The WWHL clip (S31) was independently downloaded and transcribed.",
+    "For V-01: quote or paraphrase his 0:58:30 Back to One correction (\"I shouldn't even say disappointed ... by no means is a feeling that I felt in that\") and reweigh the Six-over-Seven discriminator. Re-transcribe 0:58:00-0:59:20 with a third model if the exact wording will be quoted.",
+    "For V-02: add his stated reasons for the Rockaway Italian-ice and set-carpentry work (not for money; \"working roots or manhood\"; \"identity crisis\"; \"act out\") from Happy Sad Confused 0:29:40-0:30:20 and reweigh the fallback item in the Six-over-Eight case and the FAQs.",
+    "For V-03: find a source on whether Abbott completed the 2026 Death of a Salesman engagement (closing date and any replacement or absence around his daughter's July 2026 birth), or drop the claim.",
+    "Note for a future refresh: the large-v3-turbo pass hears \"I am kind of looking forward to that stability kind of\" in the X-Men exchange (HSC ~0:32:20), agreeing with TheWrap; the article's hedge can stay or be firmed up with that second transcription."
+  ],
+  "claim_checks": [
+    {
+      "claim_id": "C01",
+      "verdict": "supported",
+      "reason": "Birth date and Greenwich birthplace match Wikipedia (S23, live re-fetch 2026-10-19); NYT 2013 (S04, Wayback raw capture) places his early years in Greenwich."
+    },
+    {
+      "claim_id": "C02",
+      "verdict": "supported",
+      "reason": "Verbatim in Happy Sad Confused at ~0:10:19 (saved whisper.cpp medium.en transcript of the RSS audio, read in context; confirmed by independent openai-whisper large-v3-turbo pass on clips cut from the saved RSS audio); he goes on \"because people ... assume\", matching the paraphrase."
+    },
+    {
+      "claim_id": "C03",
+      "verdict": "supported",
+      "reason": "Interview 2023 (S01, live r.jina.ai copy): he signed up for an acting class at the community college and almost walked out; NYT 2013 names Norwalk Community College."
+    },
+    {
+      "claim_id": "C04",
+      "verdict": "supported",
+      "reason": "Talk Easy (S17): \"I would show up to auditions that I wasn't asked to be at\"; Back to One (S29) gives the same story in detail."
+    },
+    {
+      "claim_id": "C05",
+      "verdict": "supported",
+      "reason": "Verbatim in S01 (live copy), in the split-dinner-bill answer (\"I'd be sweating a little. I never wanted to look cheap. I think that's a childhood thing.\")."
+    },
+    {
+      "claim_id": "C07",
+      "verdict": "supported",
+      "reason": "NYT 2013 (S04): left shortly after the Season 2 finale in March; Wikipedia (S23) and TheWrap (S19) confirm the season 5 return in \"The Panic in Central Park\"."
+    },
+    {
+      "claim_id": "C08",
+      "verdict": "supported",
+      "reason": "Verbatim in NYT 2013 (S04, Wayback raw capture): \"The world that Lena wrote was very real ... But it wasn't as relatable for me on a personal level.\""
+    },
+    {
+      "claim_id": "C09",
+      "verdict": "supported",
+      "reason": "Verbatim in Bravo (S21, live copy dated May 11, 2016), reporting Williams on Watch What Happens Live; the article attributes it \"as Bravo reported\", which is accurate since the clip itself was not opened."
+    },
+    {
+      "claim_id": "C10",
+      "verdict": "supported",
+      "reason": "Verbatim at ~0:29:57 in Happy Sad Confused (saved whisper.cpp medium.en transcript of the RSS audio, read in context; confirmed by independent openai-whisper large-v3-turbo pass on clips cut from the saved RSS audio)."
+    },
+    {
+      "claim_id": "C11",
+      "verdict": "supported",
+      "reason": "Verbatim at ~0:17:06 in Back to One (saved whisper.cpp medium.en transcript of the RSS audio, read in context; independent openai-whisper large-v3-turbo pass on clips cut from the saved RSS audio differs only by an \"um\"). Context checked: he adds \"I kind of felt bad\" and \"it's not that I didn't like doing it\", both printed."
+    },
+    {
+      "claim_id": "C13",
+      "verdict": "supported",
+      "reason": "Verbatim in Interview 2026 (S02, live copy); the paraphrase about men learning to bury feelings follows his own sentence. The \"That's for my therapist\" aside is correctly not used."
+    },
+    {
+      "claim_id": "C14",
+      "verdict": "supported",
+      "reason": "Verbatim in S01 (live copy). The slur in the same answer is correctly left out."
+    },
+    {
+      "claim_id": "C15",
+      "verdict": "supported",
+      "reason": "All four fragments verbatim at ~0:42:48 in Back to One (independent openai-whisper large-v3-turbo pass on clips cut from the saved RSS audio agrees). Context: answering what set atmosphere he likes, with \"what if I die\" turning to savoring, as the article now says."
+    },
+    {
+      "claim_id": "C16",
+      "verdict": "qualified",
+      "reason": "Words are verbatim (~0:57:21 Back to One; independent openai-whisper large-v3-turbo pass on clips cut from the saved RSS audio agrees) and the \"healthy perspective\" plus hype context is printed. But about 75 seconds later he corrects himself: \"I think I've been disappointed enough, you know, and I don't even, I shouldn't even say disappointed 'cause ... that's by no means is a feeling that I felt in that\" (research medium.en vtt at 0:58:36; independently confirmed by whisper.cpp small.en on a fresh clip). The article omits this and paraphrases the line as \"He expects to be 'disappointed'\". See V-01."
+    },
+    {
+      "claim_id": "C17",
+      "verdict": "supported",
+      "reason": "Verbatim at ~0:35:27 in Back to One (independent openai-whisper large-v3-turbo pass on clips cut from the saved RSS audio agrees): five scenes on offer, \"just learn 'em all\", \"just in case\", \"as many weapons as I could\"."
+    },
+    {
+      "claim_id": "C18",
+      "verdict": "supported",
+      "reason": "Verbatim at ~0:18:30 in Back to One (independent openai-whisper large-v3-turbo pass on clips cut from the saved RSS audio agrees); he also calls it \"a really healthy rapport\". The rehearsal irritation and \"manipulation\" line are correctly not tied to Gold or Baker."
+    },
+    {
+      "claim_id": "C19",
+      "verdict": "supported",
+      "reason": "Verbatim in Slant 2015 (S07, live copy), answering whether he works with friends by design."
+    },
+    {
+      "claim_id": "C20",
+      "verdict": "supported",
+      "reason": "Seventh Row (S09, live copy): \"Over the years, he read every draft\" and \"Chris was on location scouts\"; Mond is the speaker."
+    },
+    {
+      "claim_id": "C21",
+      "verdict": "supported",
+      "reason": "Verbatim in Interview 2026 (S02, live copy). Dropping the preceding \"If I'm talking to my therapist\" preface does not change the meaning about stage control."
+    },
+    {
+      "claim_id": "C22",
+      "verdict": "supported",
+      "reason": "Verbatim in NYT 2024 (S05, Wayback raw capture), the answer to \"Did you think about just ending the run?\"; the first half of that answer (crutch staging solved, shower line) is printed just before."
+    },
+    {
+      "claim_id": "C25",
+      "verdict": "supported",
+      "reason": "Verbatim in S01 (live copy), answering how he sees himself (\"it oscillates\")."
+    },
+    {
+      "claim_id": "C26",
+      "verdict": "supported",
+      "reason": "Verbatim at ~0:41:54 in Back to One; Sardinia and the boats are in the same answer."
+    },
+    {
+      "claim_id": "C27",
+      "verdict": "supported",
+      "reason": "Talk Easy (~0:34:18, saved medium.en transcript read in context): \"I think the naivete helped ... I thought I was a really good actor ... It's sort of blind belief.\" Not covered by my turbo pass; the research small.en pass reportedly agrees."
+    },
+    {
+      "claim_id": "C28",
+      "verdict": "supported",
+      "reason": "Verbatim in Variety 2019 (S10, live copy): \"It was a big ship, and he had to be the captain of it. And he did it easily.\""
+    },
+    {
+      "claim_id": "C29",
+      "verdict": "supported",
+      "reason": "Interview 2026 (S02) and Wikipedia (S23): Tony nomination for Biff Loman in the 2026 Broadway Death of a Salesman."
+    },
+    {
+      "claim_id": "C30",
+      "verdict": "supported",
+      "reason": "Wikipedia (S23, live copy): Adam Trask in the 2026 Netflix East of Eden miniseries."
+    },
+    {
+      "claim_id": "C31",
+      "verdict": "supported",
+      "reason": "SYFY Wire (S25, live copy) embeds Marvel's tweet: \"Christopher Abbott is Professor Charles Xavier ... Only in theaters May 5, 2028\"; Slashfilm (S27) reports it \"as revealed at D23\". \"August 2026\" avoids the unconfirmed exact day."
+    },
+    {
+      "claim_id": "C32",
+      "verdict": "supported",
+      "reason": "Wikipedia (S23): \"Their daughter was born in July 2026\"; time_sensitive with trigger."
+    },
+    {
+      "claim_id": "C33",
+      "verdict": "qualified",
+      "reason": "Interpretation, labeled as such. \"Argues with his own confidence out loud\" is well supported (awards seesaw), but \"braces for disappointment\" leans on the clipped \"disappointed\" line (V-01) and \"keeps a fallback\" leaves out his stated non-financial reason (V-02)."
+    },
+    {
+      "claim_id": "C34",
+      "verdict": "supported",
+      "reason": "NYT 2024 (S05): early December injury, \"This happened on a Saturday\", \"maybe 30 minutes left of the play\", bucket handle meniscus tear, knee \"had locked\" on getting up. Talk Easy confirms \"I got up off the floor\". The Times intro says \"about halfway\"; the article correctly follows his own account."
+    },
+    {
+      "claim_id": "C35",
+      "verdict": "supported",
+      "reason": "Verbatim in S05 (Wayback raw capture)."
+    },
+    {
+      "claim_id": "C36",
+      "verdict": "supported",
+      "reason": "Verbatim in S05: \"she knew something was wrong and she rolled with it.\""
+    },
+    {
+      "claim_id": "C37",
+      "verdict": "supported",
+      "reason": "S05: surgery the following Wednesday, Covid that weekend, and Jeff Ward went on in the title role for three shows while Abbott recovered."
+    },
+    {
+      "claim_id": "C38",
+      "verdict": "supported",
+      "reason": "NYT 2013 (S04): Charlie, Marnie's boyfriend, left shortly after the Season 2 finale in March; \"rather than sign on for years more\" rests on his Happy Sad Confused account (S18)."
+    },
+    {
+      "claim_id": "C39",
+      "verdict": "supported",
+      "reason": "Interpretation; the span 2012/2013 to 2026 matches the dated interviews used."
+    },
+    {
+      "claim_id": "C40",
+      "verdict": "supported",
+      "reason": "Wikipedia (S23): born February 10, 1986, in Greenwich, Connecticut; age 40 consistent with W (S16)."
+    },
+    {
+      "claim_id": "C41",
+      "verdict": "supported",
+      "reason": "Verbatim in Interview 2026 (S02, live copy)."
+    },
+    {
+      "claim_id": "C42",
+      "verdict": "supported",
+      "reason": "Wikipedia (S23): Independent Spirit nomination (James White, 2015), Golden Globe nomination (Catch-22, 2019), and the listed films including Kraven the Hunter and Wolf Man."
+    },
+    {
+      "claim_id": "C43",
+      "verdict": "supported",
+      "reason": "Interpretation, labeled; the triad statement is standard type vocabulary."
+    },
+    {
+      "claim_id": "C44",
+      "verdict": "supported",
+      "reason": "Accurate description of the evidence base: most type evidence comes from Back to One, Talk Easy and Happy Sad Confused."
+    },
+    {
+      "claim_id": "C45",
+      "verdict": "qualified",
+      "reason": "Type FAQ mirrors the body. \"Braces for disappointment\" and \"keeps a fallback\" carry the V-01 and V-02 context problems."
+    },
+    {
+      "claim_id": "C46",
+      "verdict": "supported",
+      "reason": "Description matches S04/S05: declined a long Girls deal; finished the Danny run on crutches after a meniscus tear."
+    },
+    {
+      "claim_id": "C47",
+      "verdict": "supported",
+      "reason": "Near-verbatim paraphrase of NYT 2013 (S04, Wayback raw capture)."
+    },
+    {
+      "claim_id": "C48",
+      "verdict": "supported",
+      "reason": "NYT 2013 (S04) for parents' jobs; Wikipedia (S23) for his father's birth in Saint Vincent and the Grenadines; Talk Easy: \"He did when he was younger. When he moved to America, Connecticut.\""
+    },
+    {
+      "claim_id": "C50",
+      "verdict": "supported",
+      "reason": "S01 (live copy): Carmichael asks why he almost walked out; \"Because I thought it was embarrassing ... 'I'm a man. I don't do this kind of shit.'\" and \"Do I walk out and forget the class?\""
+    },
+    {
+      "claim_id": "C51",
+      "verdict": "supported",
+      "reason": "Talk Easy ~0:25:30, answering \"Why do you think you kept walking towards this stage?\" (independent openai-whisper large-v3-turbo pass on clips cut from the saved RSS audio agrees, \"I rather\" vs \"I'd rather\")."
+    },
+    {
+      "claim_id": "C52",
+      "verdict": "supported",
+      "reason": "Talk Easy ~0:25:52 (independent openai-whisper large-v3-turbo pass on clips cut from the saved RSS audio agrees): \"that was the case for a lot of decisions\" and \"I want to know yes or no for myself.\""
+    },
+    {
+      "claim_id": "C53",
+      "verdict": "supported",
+      "reason": "Happy Sad Confused: \"2006 I moved here\" and HB Studio \"was cheap, which is part of the reason why I went\"; Talk Easy repeats both."
+    },
+    {
+      "claim_id": "C54",
+      "verdict": "supported",
+      "reason": "Back to One ~0:11 (saved transcript in context): elevator into a room of about 16 actors, sign-in, asked for extra sides, asked \"who sent you?\", told he needed an appointment."
+    },
+    {
+      "claim_id": "C55",
+      "verdict": "supported",
+      "reason": "Back to One ~0:11:53 (independent openai-whisper large-v3-turbo pass on clips cut from the saved RSS audio agrees): \"I was sweating. I had like anxiety sweat.\""
+    },
+    {
+      "claim_id": "C56",
+      "verdict": "supported",
+      "reason": "Interpretation labeled as a pattern; supported by the acting-class, elevator and \"find out\" stories."
+    },
+    {
+      "claim_id": "C57",
+      "verdict": "supported",
+      "reason": "Happy Sad Confused ~0:31:37 (independent openai-whisper large-v3-turbo pass on clips cut from the saved RSS audio agrees): \"they wanted me to sign on ... for like a six year or whatever.\""
+    },
+    {
+      "claim_id": "C58",
+      "verdict": "supported",
+      "reason": "Verbatim in Slant 2015 (S07, live copy)."
+    },
+    {
+      "claim_id": "C59",
+      "verdict": "supported",
+      "reason": "Talk Easy ~0:41:01 (saved medium.en transcript in context): calls the 2013 quote terrible, \"I think I was dancing around\", \"I just want to do something else.\""
+    },
+    {
+      "claim_id": "C60",
+      "verdict": "supported",
+      "reason": "Talk Easy ~0:38:54 (saved transcript in context): \"I get bored very easily\", \"the first time I had ever gone back to anything\", \"a little bit of fear of commitment\", \"I don't like signing on to long-term things.\" Dated May 2026, unresolved with trigger."
+    },
+    {
+      "claim_id": "C61",
+      "verdict": "supported",
+      "reason": "Verbatim at ~0:31:30 in Happy Sad Confused (independent openai-whisper large-v3-turbo pass on clips cut from the saved RSS audio agrees)."
+    },
+    {
+      "claim_id": "C62",
+      "verdict": "supported",
+      "reason": "Verbatim at ~0:31:35-0:31:56 (independent openai-whisper large-v3-turbo pass on clips cut from the saved RSS audio agrees), including the boredom reason in the same breath."
+    },
+    {
+      "claim_id": "C63",
+      "verdict": "supported",
+      "reason": "Independently transcribed the official WWHL upload (YouTube bTco5F0Hbt8, 2018-10-11, 232s) with whisper.cpp medium.en: \"I would say our difference was that I was amazing at my job and he couldn't handle it ... he just didn't want to do it anymore. He wigged out.\" Pajiba (S20, Wayback raw) matches."
+    },
+    {
+      "claim_id": "C64",
+      "verdict": "supported",
+      "reason": "Same transcription: \"that's his prerogative ... stuck on a sitcom, and I didn't love that ... we've come to a great place.\""
+    },
+    {
+      "claim_id": "C65",
+      "verdict": "supported",
+      "reason": "Talk Easy ~0:40:21 (saved transcript in context): \"I remember one was, like, I stormed off set, and, like, that was never true ... a lot of back and forth at the time and just coming to the agreement.\""
+    },
+    {
+      "claim_id": "C66",
+      "verdict": "qualified",
+      "reason": "Facts verified (independent openai-whisper large-v3-turbo pass on clips cut from the saved RSS audio at ~0:29:45): Italian ice in Rockaway \"maybe during the second season\", set carpenter \"around that time\". But the host asks \"why did you have to, for money?\" and he answers \"No, I didn't ... it wasn't that much money\", then gives his reason: \"I was trying to get in touch with like whatever working roots or manhood.\" The article omits both while treating the jobs as a fallback. See V-02."
+    },
+    {
+      "claim_id": "C67",
+      "verdict": "qualified",
+      "reason": "Verbatim (independent openai-whisper large-v3-turbo pass on clips cut from the saved RSS audio agrees), but used in C142 and the FAQ as a security fallback without his stated reason (working roots or manhood; not for money). See V-02."
+    },
+    {
+      "claim_id": "C70",
+      "verdict": "supported",
+      "reason": "Verbatim in NYT 2013 (S04); Gilpin was his co-star in \"Where We're Born\" (2013)."
+    },
+    {
+      "claim_id": "C71",
+      "verdict": "supported",
+      "reason": "Wikipedia (S23): Elias Schreiber-Hoffman in Annie Baker's John at Signature Theatre, fall 2015, directed by Sam Gold."
+    },
+    {
+      "claim_id": "C72",
+      "verdict": "supported",
+      "reason": "Verbatim at ~0:16:44-0:17:03 in Back to One (independent openai-whisper large-v3-turbo pass on clips cut from the saved RSS audio agrees)."
+    },
+    {
+      "claim_id": "C73",
+      "verdict": "supported",
+      "reason": "Verbatim at ~0:17:24-0:17:42 (independent openai-whisper large-v3-turbo pass on clips cut from the saved RSS audio has a stutter, \"on on the inside\"); \"There wasn't a specific reason\" follows, consistent with the article."
+    },
+    {
+      "claim_id": "C74",
+      "verdict": "supported",
+      "reason": "Verbatim at ~0:18:38 and ~0:19:18 (independent openai-whisper large-v3-turbo pass on clips cut from the saved RSS audio agrees). \"He did not say that was why he left\" is accurate."
+    },
+    {
+      "claim_id": "C75",
+      "verdict": "supported",
+      "reason": "Seventh Row (S09): \"I realized that I had to write it for him.\""
+    },
+    {
+      "claim_id": "C76",
+      "verdict": "supported",
+      "reason": "Verbatim at ~0:35:00 in Happy Sad Confused (independent openai-whisper large-v3-turbo pass on clips cut from the saved RSS audio agrees)."
+    },
+    {
+      "claim_id": "C77",
+      "verdict": "supported",
+      "reason": "Cero (S13, live copy): \"Abbott spent years along with the play's director Jeff Ward, a longtime friend and former roommate, to bring this production together\"; Plaza \"brought onto the project by Abbott\"."
+    },
+    {
+      "claim_id": "C78",
+      "verdict": "supported",
+      "reason": "Talk Easy ~0:49:33 (saved transcript in context), answering \"Why?\" he kept performing."
+    },
+    {
+      "claim_id": "C79",
+      "verdict": "supported",
+      "reason": "Verbatim in The Playlist 2020 (S26, live copy)."
+    },
+    {
+      "claim_id": "C81",
+      "verdict": "supported",
+      "reason": "Interpretation; its limits are stated in the next paragraph (C132)."
+    },
+    {
+      "claim_id": "C82",
+      "verdict": "supported",
+      "reason": "Variety (S10): \"executive producer and director Clooney\"."
+    },
+    {
+      "claim_id": "C83",
+      "verdict": "supported",
+      "reason": "Verbatim in Variety (S10, live copy)."
+    },
+    {
+      "claim_id": "C84",
+      "verdict": "qualified",
+      "reason": "Filmmaker page (S29, live): \"first Back To One live podcast event from the Made In NY Media Center in Brooklyn\", published June 4, 2019; Catch-22 premiered May 17, 2019 (S10). The recording date is not given; \"weeks after\" is inferred (the host says \"I don't know if you guys have seen it\"). See V-04."
+    },
+    {
+      "claim_id": "C85",
+      "verdict": "supported",
+      "reason": "Verbatim at ~0:57:16 (independent openai-whisper large-v3-turbo pass on clips cut from the saved RSS audio agrees), answering the host's question about Clooney calling him \"the next star\"."
+    },
+    {
+      "claim_id": "C86",
+      "verdict": "supported",
+      "reason": "Verbatim in the cold open and at ~0:59 in Back to One (independent openai-whisper large-v3-turbo pass on clips cut from the saved RSS audio agrees). Context is the host's Spirit Awards / imposter question, so \"At an awards show\" is accurate."
+    },
+    {
+      "claim_id": "C87",
+      "verdict": "supported",
+      "reason": "Verbatim at ~0:05:12 in Happy Sad Confused (independent openai-whisper large-v3-turbo pass on clips cut from the saved RSS audio agrees); followed by the relief, headache and bathroom joke, which the article notes."
+    },
+    {
+      "claim_id": "C88",
+      "verdict": "supported",
+      "reason": "Verbatim at ~0:06:59-0:07:32 (independent openai-whisper large-v3-turbo pass on clips cut from the saved RSS audio agrees, with an \"uh\"), including \"beautiful\" and \"really sweet\" before \"cynical and dark\"."
+    },
+    {
+      "claim_id": "C89",
+      "verdict": "supported",
+      "reason": "Accurate statement of how concentrated the anxiety material is."
+    },
+    {
+      "claim_id": "C90",
+      "verdict": "supported",
+      "reason": "Verbatim in Playbill 2026 (S15, live copy): \"Whenever I go on stage, a little mantra that I have is: don't lie ... to not bullshit.\""
+    },
+    {
+      "claim_id": "C91",
+      "verdict": "supported",
+      "reason": "Verbatim at ~0:45:15 in Back to One (independent openai-whisper large-v3-turbo pass on clips cut from the saved RSS audio agrees), about actors who are not generous."
+    },
+    {
+      "claim_id": "C92",
+      "verdict": "supported",
+      "reason": "S01 (live copy): \"He ran into me on an electric bike ... He kept saying he was going to fuck me up.\""
+    },
+    {
+      "claim_id": "C93",
+      "verdict": "supported",
+      "reason": "Verbatim in S01 (live copy)."
+    },
+    {
+      "claim_id": "C95",
+      "verdict": "supported",
+      "reason": "Interpretation over S05 (verified): the living-room restaging with the director, choreographers and Plaza, and \"I had figured out the staging\"."
+    },
+    {
+      "claim_id": "C96",
+      "verdict": "supported",
+      "reason": "Verbatim in S01, answering Carmichael's \"You're so cool.\""
+    },
+    {
+      "claim_id": "C99",
+      "verdict": "supported",
+      "reason": "Issue 2015 (S06, live copy): \"a bit of a safety net ... It's not recorded.\" Interview 2026 (S02): \"quick, instinctive decisions in front of an audience. There's a lack of safety net that I find thrilling.\" Read as one preference, correctly."
+    },
+    {
+      "claim_id": "C100",
+      "verdict": "supported",
+      "reason": "Interpretation and settle signal; consistent with the record (no independent testimony about his conduct under threat beyond his own NYT account). Unresolved with a concrete trigger."
+    },
+    {
+      "claim_id": "C101",
+      "verdict": "supported",
+      "reason": "Talk Easy ~0:39:44 (saved transcript in context): \"And then that goes for anything.\""
+    },
+    {
+      "claim_id": "C103",
+      "verdict": "supported",
+      "reason": "Happy Sad Confused ~0:39:27 and ~0:40:36 (independent openai-whisper large-v3-turbo pass on clips cut from the saved RSS audio agrees): \"I want to go see how the wheels turn, how the gears turn on a product.\""
+    },
+    {
+      "claim_id": "C104",
+      "verdict": "supported",
+      "reason": "Talk Easy ~0:49:33-0:49:50 (saved transcript in context): the same answer has \"The show must go on\", \"it became a new thing\" and \"This is kind of interesting.\""
+    },
+    {
+      "claim_id": "C106",
+      "verdict": "supported",
+      "reason": "S01 (live copy): Air Force 1s \"smelled like Wite-Out\"; the Chicago sweatpants incident \"was a turning point where I was like, I need to start looking better.\""
+    },
+    {
+      "claim_id": "C107",
+      "verdict": "supported",
+      "reason": "Talk Easy ~0:07:30-0:08:10 (saved transcript in context): \"I relate to that so much\", \"dark humor\", \"just trying to be seen left, right, and center.\""
+    },
+    {
+      "claim_id": "C108",
+      "verdict": "supported",
+      "reason": "Interpretation, labeled; reasonable."
+    },
+    {
+      "claim_id": "C110",
+      "verdict": "supported",
+      "reason": "Happy Sad Confused ~0:32:20: \"not that many\" verified. The next word is uncertain: medium.en \"that ability\", while independent openai-whisper large-v3-turbo pass on clips cut from the saved RSS audio hears \"that stability\". The article's hedge is conservative and accurate."
+    },
+    {
+      "claim_id": "C111",
+      "verdict": "supported",
+      "reason": "TheWrap (S19, live): \"looking forward to the 'stability' these days\". independent openai-whisper large-v3-turbo pass on clips cut from the saved RSS audio also hears \"stability\", so the attribution holds."
+    },
+    {
+      "claim_id": "C112",
+      "verdict": "supported",
+      "reason": "Interpretation with the rival explanation (age, fatherhood) stated."
+    },
+    {
+      "claim_id": "C113",
+      "verdict": "supported",
+      "reason": "Verbatim in S01 (live copy)."
+    },
+    {
+      "claim_id": "C114",
+      "verdict": "supported",
+      "reason": "S04 plus his own HSC account (\"I was a guest star for the first two seasons\", six-year ask); correctly attributed."
+    },
+    {
+      "claim_id": "C115",
+      "verdict": "supported",
+      "reason": "Dated accounts verified: 2013 NYT, 2015 Slant, 2026 HSC/Talk Easy. \"The part wasn't as relatable\" is a close paraphrase of \"the world that Lena wrote ... wasn't as relatable for me\"."
+    },
+    {
+      "claim_id": "C116",
+      "verdict": "qualified",
+      "reason": "FAQ sentence. \"Said a 2023 street confrontation left him shaken\" is verified (S01). \"Braces for letdowns\" and \"kept a fallback trade\" rest on the context-clipped lines in V-01 and V-02."
+    },
+    {
+      "claim_id": "C117",
+      "verdict": "supported",
+      "reason": "S05 plus Talk Easy (\"I got up off the floor in a weird way\")."
+    },
+    {
+      "claim_id": "C118",
+      "verdict": "supported",
+      "reason": "S05: Ward in the title role for three shows; returned on crutches through the end of the 11-week run."
+    },
+    {
+      "claim_id": "C119",
+      "verdict": "supported",
+      "reason": "Wikipedia (S23): \"He and Plaza met in 2019 on the set of the film Black Bear, then reunited in the off-Broadway production of Danny\"; daughter July 2026."
+    },
+    {
+      "claim_id": "C120",
+      "verdict": "supported",
+      "reason": "RealityTea (S24): they \"have mostly kept their relationship out of the public\"."
+    },
+    {
+      "claim_id": "C121",
+      "verdict": "supported",
+      "reason": "Near-verbatim paraphrase of S05."
+    },
+    {
+      "claim_id": "C122",
+      "verdict": "supported",
+      "reason": "S05: \"No. I had figured out the staging, on how to do it with crutches ... Honestly, it's more precarious for me to shower than what I do onstage.\""
+    },
+    {
+      "claim_id": "C123",
+      "verdict": "supported",
+      "reason": "Interview 2026 (S02) intro, the writer's words: \"a knack for playing New York tough guys\"."
+    },
+    {
+      "claim_id": "C124",
+      "verdict": "supported",
+      "reason": "Wikipedia (S23): partner Aubrey Plaza (2025-present), daughter July 2026; Cero/Wikipedia for Black Bear and Danny."
+    },
+    {
+      "claim_id": "C125",
+      "verdict": "supported",
+      "reason": "S01 (live copy): six-family house listing parents, sister, uncles, great-aunt, mother's godparents, grandparents, great-grandmother; \"It was a very unique way of growing up, which I didn't know at the time.\""
+    },
+    {
+      "claim_id": "C126",
+      "verdict": "supported",
+      "reason": "S01 intro: Carmichael \"directed Abbott in the dark comedy On the Count of Three\"."
+    },
+    {
+      "claim_id": "C127",
+      "verdict": "supported",
+      "reason": "HSC ~0:31:37 (independent openai-whisper large-v3-turbo pass on clips cut from the saved RSS audio: \"guest star for the first two two seasons\"); S01 (2023) also has \"I was a guest star on Girls\"."
+    },
+    {
+      "claim_id": "C128",
+      "verdict": "supported",
+      "reason": "WWHL clip transcription: \"We're friends again now.\" / \"Good.\" / \"And I joke about it all the time.\" before the \"amazing at my job\" line, so \"then joked\" is accurate."
+    },
+    {
+      "claim_id": "C129",
+      "verdict": "supported",
+      "reason": "Issue (S06): Martha Marcy May Marlene \"produced by Mond's company Borderline Films\"; Wikipedia: 2011 feature debut."
+    },
+    {
+      "claim_id": "C130",
+      "verdict": "supported",
+      "reason": "Verbatim in Interview 2012 (S03, live copy)."
+    },
+    {
+      "claim_id": "C131",
+      "verdict": "qualified",
+      "reason": "Finite-versus-open-ended pattern is well supported for Girls, John and Danny. No opened source confirms he played through the end of the 2026 Salesman engagement (Wikipedia: a 22-week engagement from March 6, 2026; his daughter was born in July 2026). See V-03."
+    },
+    {
+      "claim_id": "C132",
+      "verdict": "qualified",
+      "reason": "\"Carried ... Salesman\" overstates: Biff is a featured role (Tony nomination for Best Featured Actor; Nathan Lane plays Willy, per S23). Catch-22 as lead is supported (S10, S28). See V-03."
+    },
+    {
+      "claim_id": "C133",
+      "verdict": "supported",
+      "reason": "Inference labeled \"This suggests\", with the Eight and Seven readings stated beside it."
+    },
+    {
+      "claim_id": "C134",
+      "verdict": "supported",
+      "reason": "Verbatim at ~0:04:26 in Happy Sad Confused (independent openai-whisper large-v3-turbo pass on clips cut from the saved RSS audio agrees), while ranking the year's milestones."
+    },
+    {
+      "claim_id": "C135",
+      "verdict": "supported",
+      "reason": "Verbatim in Interview 2026 (S02, live copy)."
+    },
+    {
+      "claim_id": "C136",
+      "verdict": "qualified",
+      "reason": "Interpretation. \"When something good is coming, he braces for it to fall through\" is supported by the Tony and party lines and the 2019 hype answer, but that answer's self-correction (\"I shouldn't even say disappointed\") is left out. See V-01."
+    },
+    {
+      "claim_id": "C137",
+      "verdict": "supported",
+      "reason": "Verbatim in S01 (live copy)."
+    },
+    {
+      "claim_id": "C138",
+      "verdict": "supported",
+      "reason": "Verbatim in S01 (live copy); Carmichael describes the Paris incident between \"I wish I had gone\" and \"I'd fuck someone up for you\"."
+    },
+    {
+      "claim_id": "C139",
+      "verdict": "supported",
+      "reason": "S01 (Carmichael: \"I feel safe around you\") and S09 (Mond: \"It also made me feel safe and comfortable in my anxiety and fears\")."
+    },
+    {
+      "claim_id": "C140",
+      "verdict": "supported",
+      "reason": "Accurate: the 2013 (S04) and 2015 (S07) accounts contain no fear words; the 2026 accounts pair fear with boredom and \"something else\"."
+    },
+    {
+      "claim_id": "C141",
+      "verdict": "supported",
+      "reason": "Interpretation over verified S01 lines (\"it was deserved\"; \"I didn't feel that cool. I was shaken by it\")."
+    },
+    {
+      "claim_id": "C142",
+      "verdict": "qualified",
+      "reason": "The seesaw is verified (Back to One, Spirit Awards/imposter context). \"Build a second trade on the side ... do I want to only rely on it?\" omits that he said he did not take the jobs for money and was seeking \"working roots or manhood\". See V-02."
+    },
+    {
+      "claim_id": "C143",
+      "verdict": "supported",
+      "reason": "Accurate hedge, unresolved with a trigger."
+    },
+    {
+      "claim_id": "C144",
+      "verdict": "qualified",
+      "reason": "The typology is sound (Six and Seven share the head triad). But the forecast evidence offered in the next sentences (\"He expects to be 'disappointed'\") is not in the claim inventory and rests on a line he retracted. See V-01."
+    },
+    {
+      "claim_id": "C145",
+      "verdict": "supported",
+      "reason": "Accurate limit: he frames it as \"a healthy perspective\" after hype that fizzled (Back to One ~0:57:16)."
+    },
+    {
+      "claim_id": "C146",
+      "verdict": "supported",
+      "reason": "HSC \"just sort of scared me\" verified; X-Men casting verified (S25, S27)."
+    },
+    {
+      "claim_id": "C147",
+      "verdict": "supported",
+      "reason": "Settle signal; unresolved with trigger."
+    },
+    {
+      "claim_id": "C148",
+      "verdict": "supported",
+      "reason": "Verified across S18/S29/S05/S01; the growing-up framing of the fight is correct."
+    },
+    {
+      "claim_id": "C149",
+      "verdict": "supported",
+      "reason": "S05: finished that show; living-room restaging the next day with the director, choreographers and Plaza."
+    },
+    {
+      "claim_id": "C150",
+      "verdict": "supported",
+      "reason": "Wikipedia (S23): \"Abbott lives in New York with his partner, actress Aubrey Plaza\"; dated \"As of October 2026\", time_sensitive with trigger."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "S01",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Interview 2023 (Carmichael conversation dated July 3, 2023), live r.jina.ai copy; Q&A paragraphs on the house, acting class, money, mirror, fight, Paris."
+    },
+    {
+      "source_id": "S02",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Interview 2026 (conversation May 21, 2026; published 2026-06-01), live r.jina.ai copy; intro, stage-control, safety-net, intimidation and crier answers."
+    },
+    {
+      "source_id": "S03",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Interview 2012, live r.jina.ai copy; answer naming the Martha Marcy May Marlene \"dudes\" and Brady Corbet."
+    },
+    {
+      "source_id": "S04",
+      "opened": true,
+      "context_matches": true,
+      "locator": "NYT 2013-09-24, Wayback raw capture (2014); Chickahominy, parents, Norwalk, 2006, Gilpin, \"wasn't as relatable\" paragraphs."
+    },
+    {
+      "source_id": "S05",
+      "opened": true,
+      "context_matches": true,
+      "locator": "NYT 2024-01-16 exit interview, Wayback raw capture (2025); Q&A answers on the injury, Sunday restaging, ending the run."
+    },
+    {
+      "source_id": "S06",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Issue magazine (2015 by content), live r.jina.ai copy; \"safety net ... It's not recorded\" answer."
+    },
+    {
+      "source_id": "S07",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Slant 2015-11-12, live r.jina.ai copy; Girls \"ran its course\" and \"didn't set out to work just with friends\" answers."
+    },
+    {
+      "source_id": "S08",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Filmmaker joint interview with Mond (2015), live copy; superhero/\"in his future\" passage."
+    },
+    {
+      "source_id": "S09",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Seventh Row 2016, live copy; Mond on writing James White for Abbott, drafts, location scouts, feeling safe."
+    },
+    {
+      "source_id": "S10",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Variety 2019-04-23, live curl copy; Clooney \"captain of the ship\" and Abbott \"nervous, and excited ... ready\" paragraphs."
+    },
+    {
+      "source_id": "S11",
+      "opened": true,
+      "context_matches": true,
+      "locator": "NPR 2019 transcript, live copy; \"let that go\" and \"lust for life\" answers (minor support only)."
+    },
+    {
+      "source_id": "S12",
+      "opened": true,
+      "context_matches": true,
+      "locator": "AnOther 2020, live copy; \"watcher\" and mental-health aside (minor support only)."
+    },
+    {
+      "source_id": "S13",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Cero 2024-01-10, live r.jina.ai copy; Ward roommate and Plaza \"brought onto the project by Abbott\" paragraphs."
+    },
+    {
+      "source_id": "S14",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Sharp 2025-03-03, live copy; \"prepare, prepare, prepare\" passage (minor support only)."
+    },
+    {
+      "source_id": "S15",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Playbill 2026, live copy; \"don't lie ... to not bullshit\" mantra paragraph."
+    },
+    {
+      "source_id": "S16",
+      "opened": true,
+      "context_matches": true,
+      "locator": "W magazine 2026-06, live copy; \"memories of the in-between\", age 40 (minor support only)."
+    },
+    {
+      "source_id": "S17",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Talk Easy (May 2026) RSS audio; saved medium.en transcript read in context at ~0:07-0:08, ~0:25:30, ~0:34, ~0:38:54-0:41:10, ~0:49:33; clips at ~0:25:15 and ~0:20:19 independently re-transcribed with large-v3-turbo. Live show page fetched."
+    },
+    {
+      "source_id": "S18",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Happy Sad Confused (feed item Oct 1, 2026, confirmed in live megaphone feed); saved RSS audio, medium.en transcript plus independent large-v3-turbo clips at ~0:04:11, ~0:06:44, ~0:10:04, ~0:29:42-0:33:04, ~0:34:44, ~0:39:12, ~0:40:21. Context gap in the article's use of ~0:29:45 (fallback) is a claim-level issue, V-02."
+    },
+    {
+      "source_id": "S19",
+      "opened": true,
+      "context_matches": true,
+      "locator": "TheWrap 2026-10-02, live r.jina.ai copy; \"stability\" paragraph."
+    },
+    {
+      "source_id": "S20",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Pajiba 2018-10-11, Wayback raw capture (2019) and live r.jina.ai copy; transcription of Dunham's Plead the Fifth answer."
+    },
+    {
+      "source_id": "S21",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Bravo 2016-05-11, live curl copy; Williams quote paragraph."
+    },
+    {
+      "source_id": "S22",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Hollywood Reporter 2013, live curl copy; rep statement and Page Six \"creative differences\" paragraph (minor support only)."
+    },
+    {
+      "source_id": "S23",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Wikipedia, live r.jina.ai copy fetched 2026-10-19; infobox, early life, career, personal life, filmography and theatre tables."
+    },
+    {
+      "source_id": "S24",
+      "opened": true,
+      "context_matches": true,
+      "locator": "RealityTea 2026-05-19, live copy; Today appearance write-up, \"kept their relationship out of the public\"."
+    },
+    {
+      "source_id": "S25",
+      "opened": true,
+      "context_matches": true,
+      "locator": "SYFY Wire 2026-10-08, live copy; embedded Marvel Studios tweet (\"Only in theaters May 5, 2028\") and release-date paragraph."
+    },
+    {
+      "source_id": "S26",
+      "opened": true,
+      "context_matches": true,
+      "locator": "The Playlist 2020-12-06, live r.jina.ai copy; \"You keep finding your people\" answer."
+    },
+    {
+      "source_id": "S27",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Slashfilm, byline Aug. 15, 2026 12:12 am EST, live copy; \"as revealed at D23\" paragraph (no release date in this piece; the date comes from S25)."
+    },
+    {
+      "source_id": "S28",
+      "opened": true,
+      "context_matches": true,
+      "locator": "TV Insider 2019-06-03, live r.jina.ai copy; \"carry something this big\" answer (minor support only)."
+    },
+    {
+      "source_id": "S29",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Back to One ep. 61 (live Brooklyn event; Filmmaker page published 2019-06-04, live copy); saved RSS audio, medium.en transcript plus independent large-v3-turbo clips at ~0:00:12, ~0:11:38, ~0:16:29-0:19:58, ~0:35:12, ~0:41:38-0:43:51, ~0:45:00, ~0:57:01, and small.en on ~0:58:00-0:59:20 (the \"shouldn't even say disappointed\" correction). Omission of that correction is a claim-level issue, V-01."
+    },
+    {
+      "source_id": "S31",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Official WWHL YouTube upload bTco5F0Hbt8 (\"Lena Dunham Calls Out Daniel Tosh And Calvin Harris | Plead The Fifth\", 2018-10-11, 232s); audio downloaded and transcribed with whisper.cpp medium.en; Abbott question at roughly 1:20-2:05."
+    }
+  ],
+  "decision_checks": [
+    {
+      "finding_id": "subject-01",
+      "accepted": true,
+      "reason": "No walk-off/walkout/walked-away wording remains anywhere (grep-checked); John reads \"did the whole run and extended a bit ... declined to extend again\" with \"kind of felt bad\" beside the upset line."
+    },
+    {
+      "finding_id": "subject-02",
+      "accepted": true,
+      "reason": "Hook prints \"He had already figured out how to do the show on crutches\" and the shower line before the block quote, and the living-room restaging is reported; all verified in S05."
+    },
+    {
+      "finding_id": "subject-03",
+      "accepted": true,
+      "reason": "Party passage prints \"It was beautiful. It was really sweet\" before \"cynical and dark\"; verified in HSC by an independent turbo pass."
+    },
+    {
+      "finding_id": "subject-04",
+      "accepted": true,
+      "reason": "No therapy wording remains (grep-checked); the stage-control line is quoted without the preface and only in the Eight case."
+    },
+    {
+      "finding_id": "subject-05",
+      "accepted": true,
+      "reason": "Rehearsal passage opens with \"a kinship there\" and Baker as \"a genius\"; \"manipulation\" is not printed."
+    },
+    {
+      "finding_id": "subject-06",
+      "accepted": true,
+      "reason": "Vanity line gone; eggs quote introduced with \"a healthy perspective on life in this business\" and the hype context. (A separate omission in the same answer, his retraction of \"disappointed\", is new finding V-01, not a failure of this test.)"
+    },
+    {
+      "finding_id": "subject-07",
+      "accepted": true,
+      "reason": "FAQ uses \"growing up he wouldn't back down\"; body prints \"Those days are over for me. At least, I think.\" No slur."
+    },
+    {
+      "finding_id": "subject-08",
+      "accepted": true,
+      "reason": "meta_title \"Christopher Abbott, Enneagram Type 6: The Girls Exit Revisited\" is 62 characters and makes no causal claim."
+    },
+    {
+      "finding_id": "fan-01",
+      "accepted": true,
+      "reason": "Both safety-net lines carry their reasons (\"not recorded\"; \"quick, instinctive decisions\") and are read as one love of liveness in the Eight case; no reversal claim remains."
+    },
+    {
+      "finding_id": "fan-02",
+      "accepted": true,
+      "reason": "Option (a) met. I independently transcribed the official WWHL upload; every quoted word matches, including both the sharp and gracious halves, and \"simply\" is gone."
+    },
+    {
+      "finding_id": "fan-03",
+      "accepted": true,
+      "reason": "House occupants attributed to Interview 2023 (verified); father's St. Vincent birth (Wikipedia) and the gas-station \"when he was younger\" (Talk Easy) agree. The emigration fact is not attributed to Abbott in the prose, but it is sourced and the editor explains why the unlabeled Talk Easy exchange was not quoted; no relatives named, no causal type claim."
+    },
+    {
+      "finding_id": "fan-04",
+      "accepted": true,
+      "reason": "Fight opens with \"it was deserved\"; the therapist line and \"drawn to like conflict\" are gone."
+    },
+    {
+      "finding_id": "fan-05",
+      "accepted": true,
+      "reason": "Rewritten to \"turned down years more of Girls, declined to extend John\"; no mid-production wording."
+    },
+    {
+      "finding_id": "fan-06",
+      "accepted": true,
+      "reason": "Body: \"By his own account ... 'a guest star for the first two seasons'\"; FAQ: \"as what he calls a guest star\"."
+    },
+    {
+      "finding_id": "fan-07",
+      "accepted": true,
+      "reason": "Martha Marcy May Marlene (2011) via Borderline, the 2012 friends line, Carmichael as On the Count of Three director and the Slant caveat are all present and verified."
+    },
+    {
+      "finding_id": "fan-08",
+      "accepted": true,
+      "reason": "FAQ frames 2019 and 2023 as collaborations with no relationship start date; Baena not mentioned."
+    },
+    {
+      "finding_id": "critic-F1",
+      "accepted": true,
+      "reason": "\"Just sort of scared me\" now carries \"I get bored easily\"; Talk Easy reasons printed; Girls declared non-discriminating; therapist preface gone."
+    },
+    {
+      "finding_id": "critic-F2",
+      "accepted": true,
+      "reason": "Section says the 2019 conversation holds most of the anxiety talk, prints \"I wouldn't say intimidated\", gives the bathroom-joke and \"beautiful\" context, and the FAQ drops \"nearly every long interview\"."
+    },
+    {
+      "finding_id": "critic-F3",
+      "accepted": true,
+      "reason": "\"It was deserved\", \"fantasies about shit happening\" and \"I'd fuck someone up for you\" are printed with no slur; \"vigilance more than appetite\" and \"one street fight\" are gone."
+    },
+    {
+      "finding_id": "critic-F4",
+      "accepted": true,
+      "reason": "Counterphobic conclusion cut; both nets given their stated reasons."
+    },
+    {
+      "finding_id": "critic-F5",
+      "accepted": true,
+      "reason": "\"Enjoy\" rebuttal gone; death line continues into savoring; Seven has its own section and is named live in the type answer and FAQ, which satisfies the test's \"or\" branch. The surviving Six-over-Seven discriminator has a separate context gap (V-01)."
+    },
+    {
+      "finding_id": "critic-F6",
+      "accepted": true,
+      "reason": "Ownership paragraph states its limits (Girls the only multi-year offer; Catch-22 and Salesman not his projects) and leads with the finite-versus-open-ended pattern; John lines restored. Residual wording issue on Salesman is minor V-03."
+    },
+    {
+      "finding_id": "critic-F7",
+      "accepted": true,
+      "reason": "X-Men contrast now uses \"just sort of scared me\"; the eggs line stays in its hype context."
+    },
+    {
+      "finding_id": "critic-F8",
+      "accepted": true,
+      "reason": "Living-room restaging used as existing mixed evidence; the reach-for-people vs take-charge stereotype is replaced."
+    },
+    {
+      "finding_id": "critic-F9",
+      "accepted": true,
+      "reason": "Mond's craft-praise \"control\" line removed; his \"safe and comfortable\" testimony used instead (verified in S09)."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "accepted": true,
+      "reason": "\"What he stays for\" ends with the time pattern plus a \"This suggests\" Six inference that concedes the Eight and Seven readings."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "accepted": true,
+      "reason": "Why-not-8 dates the fear words to 2026 retellings, says 2013/2015 used none, and withdraws Girls as a discriminator."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "accepted": true,
+      "reason": "Sourced, linked \"a knack for playing New York tough guys\" (verified as Interview's 2026 intro wording)."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "accepted": true,
+      "reason": "Accepted on purpose rather than letter: \"partner\" comes at the third body mention, before the type section and in the same sentence before the daughter. Putting it in the December 2023 injury scene would imply a relationship date no opened source supports (Wikipedia: partner 2025-present)."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "accepted": true,
+      "reason": "H2 is \"Professor X at 40\"; section opens on the D23 announcement and May 5, 2028; \"stability\" attributed once to TheWrap."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "accepted": true,
+      "reason": "Both contexts given; \"feared thing\" sentence cut."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "accepted": true,
+      "reason": "Definition rewritten around his \"just in case\" habit. I reran scripts/same-type-similarity.mjs: excluding the self-match, only the mandated \"whose core emotion is fear\" sentence matches (ella-beatty, grace-reiter); lily-rose-depp 0.006, shyam-sankar 0.022."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "accepted": true,
+      "reason": "Type 8 FAQ states no count; each item has a body passage."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "accepted": true,
+      "reason": "Sentence corrected; Seven section names a non-anxiety discriminator (direction of the forecast), tests it against the boredom reasons and states its limit; Eight is named strongest and Seven live consistently. That discriminator's evidence has a context gap reported as V-01."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "accepted": true,
+      "reason": "Death line keeps the savoring continuation; \"enjoy\" rebuttal and vanity line gone; tally replaced by an honest concentration statement."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "accepted": true,
+      "reason": "Girls discriminator withdrawn; fear wording printed beside \"something else\" and the long-term line; FAQ consistent."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "accepted": true,
+      "reason": "\"It was deserved\", fantasies and Paris exchange included with no slur, weighed as leaning \"only slightly\"; C137, C138, C141 added."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "accepted": true,
+      "reason": "Juxtaposition kept with both explanations and no reversal reading; counterphobic label gone."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "accepted": true,
+      "reason": "\"Counterphobic\" removed from the answer, FAQs, description and persona title; explainer replaced with Abbott-specific patterns."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "accepted": true,
+      "reason": "Ownership line quoted in full and split into shared vs possessive halves; Danny called non-discriminating; settle test rewritten as consult-and-second-guess vs decide-and-shield."
+    },
+    {
+      "finding_id": "enneagram-08",
+      "accepted": true,
+      "reason": "Therapist line and \"drawn to like conflict\" removed from the argument."
+    },
+    {
+      "finding_id": "future-01",
+      "accepted": true,
+      "reason": "Fear framing dated to 2026 retellings; Talk Easy \"fear of commitment\" added with its May 2026 date (verified in the saved transcript); count language gone; C60, C61, C62, C115, C116 and C140 unresolved with triggers."
+    },
+    {
+      "finding_id": "future-02",
+      "accepted": true,
+      "reason": "Body says \"In August 2026, at Disney's D23 event\" with no exact day."
+    },
+    {
+      "finding_id": "future-03",
+      "accepted": true,
+      "reason": "\"Two years out\" and \"Jake Schreier is directing\" gone; the denial is dated 2026."
+    },
+    {
+      "finding_id": "future-04",
+      "accepted": true,
+      "reason": "Heading no longer quotes \"stability\"; TheWrap attribution kept. (My turbo pass also hears \"stability\", so the hedge is safe.)"
+    },
+    {
+      "finding_id": "future-05",
+      "accepted": true,
+      "reason": "FAQ opens \"As of October 2026, yes.\"; C150 is time_sensitive with a concrete trigger."
+    },
+    {
+      "finding_id": "future-06",
+      "accepted": true,
+      "reason": "C100, C143 and C147 are unresolved with concrete triggers naming the testimony and interviews that would settle the read."
+    },
+    {
+      "finding_id": "future-07",
+      "accepted": true,
+      "reason": "Phrases gone; similarity rerun shows only the mandated triad sentence above threshold."
+    }
+  ],
+  "prior_blocker_checks": [],
+  "protected_checks": [
+    {
+      "passage": "By 2026 he had disowned the 2013 version. \"I think I was dancing around,\" he said on Talk Easy.",
+      "preserved": true,
+      "reason": "Present word for word; verified against Talk Easy ~0:41:01."
+    },
+    {
+      "passage": "None of it is clinical, and nothing here treats it that way. It is the vocabulary he reaches for when he explains himself.",
+      "preserved": true,
+      "reason": "Present word for word at the end of the Bracing section."
+    },
+    {
+      "passage": "He names the cause himself, which makes it weak evidence for any one type. The shame thread may owe as much to growing up near money without it as to type.",
+      "preserved": true,
+      "reason": "Present word for word in the guardedness paragraph."
+    },
+    {
+      "passage": "A Six reading has a logic for that: at 40, with a new child, steadiness can become the thing worth protecting. Age and fatherhood explain it at least as well.",
+      "preserved": true,
+      "reason": "Present word for word in \"Professor X at 40\"."
+    },
+    {
+      "passage": "The record still lacks the scene that would settle it: a conflict he started rather than met, or an account from his closest collaborators of how he behaves when a project he loves is threatened.",
+      "preserved": true,
+      "reason": "First sentence present word for word."
+    },
+    {
+      "passage": "On a Saturday in early December 2023, with maybe 30 minutes left in a performance of _Danny and the Deep Blue Sea_ at the Lucille Lortel Theatre, Christopher Abbott got up off the floor and felt his knee lock. It was a bucket-handle meniscus tear.",
+      "preserved": true,
+      "reason": "Present word for word as the opening; facts verified in NYT 2024."
+    },
+    {
+      "passage": "So the actor who would not commit to more seasons of a hit series would not let go of an Off-Broadway two-hander on a torn knee.",
+      "preserved": true,
+      "reason": "Present word for word."
+    },
+    {
+      "passage": "It's \"not that many,\" Abbott said, and then that, getting older, he was \"kind of looking forward to\" something the podcast audio leaves unclear.",
+      "preserved": true,
+      "reason": "Present word for word; \"not that many\" verified by an independent turbo pass."
+    },
+    {
+      "passage": "\"And I just kept walking towards the class,\" he told Carmichael. \"That was the choice.\"",
+      "preserved": true,
+      "reason": "Present word for word as the closing line; verified in S01."
+    },
+    {
+      "passage": "On a Saturday in early December 2023, with maybe 30 minutes left in a performance of _Danny and the Deep Blue Sea_ at the Lucille Lortel Theatre, Christopher Abbott got up off the floor and felt his knee lock.",
+      "preserved": true,
+      "reason": "Present word for word as the opening; facts verified in NYT 2024."
+    },
+    {
+      "passage": "He did not say that was why he left.",
+      "preserved": true,
+      "reason": "Present word for word."
+    },
+    {
+      "passage": "He names the cause himself, which makes it weak evidence for any one type.",
+      "preserved": true,
+      "reason": "Present word for word."
+    },
+    {
+      "passage": "He signed in, asked for a copy of the scenes, and was called up to the desk and asked who had sent him. Then he was told to leave.",
+      "preserved": true,
+      "reason": "Present word for word; matches Back to One."
+    },
+    {
+      "passage": "He leaves arrangements that someone else set for years ahead. He stays inside projects that he and his friends built.",
+      "preserved": true,
+      "reason": "Present word for word as its own paragraph, now followed by its stated limits."
+    },
+    {
+      "passage": "In the mirror, he said, he sometimes thinks, \"You are the most handsome devil I have ever seen,\" and in a photo, \"You are the ugliest piece of shit.\"",
+      "preserved": true,
+      "reason": "Present word for word; verified in S01."
+    },
+    {
+      "passage": "The best case against the Six reading is what he does.",
+      "preserved": true,
+      "reason": "Present word for word opening \"Why not Type 8?\"."
+    },
+    {
+      "passage": "Age and fatherhood explain it at least as well.",
+      "preserved": true,
+      "reason": "Present word for word."
+    },
+    {
+      "passage": "His explanation has changed over time. In September 2013 he told the Times that the world Lena Dunham wrote \"wasn't as relatable for me on a personal level.\"",
+      "preserved": true,
+      "reason": "Present word for word; quote verified in NYT 2013."
+    },
+    {
+      "passage": "In 2015 he told Issue that theater gave him \"a bit of a safety net.\" In 2026 he told Interview, \"There's a lack of safety net that I find thrilling.\"",
+      "preserved": true,
+      "reason": "Both sentences present word for word; the reversal reading the reviewer valued was disproved by three reviewers and removed, while the dated eleven-year pairing survives as liveness evidence. Correcting the false reading is a legitimate change."
+    },
+    {
+      "passage": "The record still lacks the scene that would settle it: a conflict he started rather than met, or an account from his closest collaborators of how he behaves when a project he loves is threatened. A Six would reach for his people. An Eight would take charge alone.",
+      "preserved": true,
+      "reason": "Changed but preserved in contribution: the first sentence, naming the missing evidence, is kept word for word. The stereotype test \"A Six would reach for his people. An Eight would take charge alone.\" was replaced, as enneagram-07 and critic-F8 required, with \"Both types rally their people. The question is whether he checks his call with them and second-guesses it, or makes the call and shields them.\" That is still a concrete, observable settle signal and stays true if a refresh lands on Eight."
+    },
+    {
+      "passage": "Age and fatherhood explain it at least as well. How he talks about the job once filming starts, and whether the anxiety language survives fatherhood, will test this reading.",
+      "preserved": true,
+      "reason": "Present word for word."
+    }
+  ],
+  "coverage_complete": false,
+  "metadata_consistent": true,
+  "alternative_type_addressed": true,
+  "five_year_test_passed": true,
+  "scores": {
+    "evidence": {
+      "score": 7.5,
+      "reason": "Unusually strong traceability: thirty sources opened, every print quote verbatim against live copies, podcast quotes holding up under an independent second model, attribution and dates in the prose, and the shifting Girls accounts and both halves of Dunham's answer laid out honestly. But two load-bearing self-reports keep only the thesis-friendly half of their answers: the \"disappointed\" line he immediately took back (V-01) and the side jobs he said were not for money but about \"working roots or manhood\" (V-02). Both cut against the type thesis, and one paraphrase (\"He expects to be 'disappointed'\") overstates its source. That is the specific failure the evidence anchor penalizes.",
+      "passage": "He expects to be \"disappointed,\" hears his \"cynical nature\" first, and says his brain \"goes cynical and dark\" at his own birthday party."
+    },
+    "enneagram": {
+      "score": 7.5,
+      "reason": "The argument tests the strongest rival seriously. \"Why not Type 8?\" gives Eight its best material (the slap, \"pry it out of my hands\", stage control, protectiveness); Seven and Four each get their own space; Girls and Danny are explicitly ruled non-discriminating; and the settle signal is concrete. But the discriminators that tip the case are thin and, as verified, two of three lose force in full context: the forecast against Seven (V-01) and the fallback trade against Eight (V-02). That leaves mainly the 2019 imposter seesaw and 2026 joke lines. Medium confidence is honest, but the sourced discriminator does not yet survive its own context the way the 8 anchor requires.",
+      "passage": "What leans Six is the narrated doubt. Eights feel fear too, but they rarely volunteer the seesaw he describes, between \"what is going on here\" and \"nope, I deserve it.\" Nor do they usually build a second trade on the side the way he did during _Girls_, asking, \"do I want to only rely on it?\""
+    },
+    "originality": {
+      "score": 8.5,
+      "reason": "The central insight is specific to him and was earned from his record rather than the type template: he finishes finite commitments and resists open-ended renewals, and stays where he and his friends built the project. Distinctive details (the Wite-Out-scented Air Force 1s, the elevator ejection, the \"living funeral\", Gilpin's \"bull in a china shop\", the living-room restaging) carry it. The similarity rerun shows no reused house phrasing beyond the mandated triad sentence.",
+      "passage": "He leaves arrangements that someone else set for years ahead. He stays inside projects that he and his friends built."
+    },
+    "writing": {
+      "score": 8.0,
+      "reason": "Clear progression from contradiction to origins, exits, stays, nerves, rivals and present, with sections that develop rather than repeat and a closing callback that lands. Pacing slows in quote-dense stretches (the Girls section stacks five dated accounts; \"Why not Type 8?\" runs long), and at 3,919 words it sits above the 2,000-3,500 target. Short hinge paragraphs (\"What tips it back toward the Six is small.\") keep it readable.",
+      "passage": "So the actor who would not commit to more seasons of a hit series would not let go of an Off-Broadway two-hander on a torn knee."
+    },
+    "durability": {
+      "score": 8.5,
+      "reason": "The argument stands on dated events from 2013-2024 and survives removal of the 2026 X-Men material, which is framed as a test with age and fatherhood named as rival explanations. Changing facts carry absolute dates (\"As of October 2026\", \"In August 2026\", May 5, 2028) and time-sensitive or unresolved claims have concrete review triggers, including the Girls retellings and the settle signals.",
+      "passage": "Thirteen years after a multi-season offer \"just sort of scared me,\" he signed on to a Marvel franchise. A Six reading has a logic for that: at 40, with a new child, steadiness can become the thing worth protecting. Age and fatherhood explain it at least as well."
+    },
+    "hook": {
+      "score": 9.0,
+      "reason": "A specific, sourced scene (Saturday, early December 2023, about 30 minutes left, bucket-handle tear; every detail matches NYT 2024 and Talk Easy) sets up the Girls-versus-Danny contradiction, and the article actually answers it in \"What he stays for\".",
+      "passage": "On a Saturday in early December 2023, with maybe 30 minutes left in a performance of _Danny and the Deep Blue Sea_ at the Lucille Lortel Theatre, Christopher Abbott got up off the floor and felt his knee lock. It was a bucket-handle meniscus tear."
+    },
+    "discoverability": {
+      "score": 8.0,
+      "reason": "Accurate 62-character meta_title and 152-character description; a plain type answer under 60 words; six useful FAQs matching real queries (type, why he left Girls, Type 8, the knee, Aubrey Plaza, age), each dated where perishable; correct internal links to the Plaza page and the Type 4/6/7/8 pages; six published suggestions. Two FAQ answers repeat the \"braces for disappointment\" and \"fallback\" framing that V-01 and V-02 require softening.",
+      "passage": "Christopher Abbott's personality type is Enneagram Type 6, the Loyalist, read at medium confidence from his long interviews."
+    }
+  }
+}
