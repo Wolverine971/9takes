@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "enneagram",
+  "content_sha256": "8b3f8463c5f047e390517a54ba02946855ad8e8b4d5181e6d87fab923cb4cc50",
+  "evidence_sha256": "23fb21d08bf24d65f78b2fa7ea792bb5d15bbed522f47226392067663ba157a1",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "enneagram-01",
+      "severity": "major",
+      "passage": "A One's goodness answers to an inner standard: is this right? His answer points outward, to how he is perceived, and to safety.",
+      "problem": "The discriminator separates Six from One, but not Six from the image triad. Most of the evidence for it is other people's verdicts and perception management: 'trying to control like how you are perceived in the world' (S24 c.0:24:30), 'I've tricked so many people' (S27), 'they really wanted the other guy' (S02), 'see that what's underneath the car bonnet doesn't work' (S01), and overwork 'before it's too late' (S07). That is also textbook Type 3: fear of being exposed as hollow or worthless. The competitive self-override in the half marathon points the same way. The article never names Type 3. The research record mentions it only as '3 or 8' for one anecdote. The Six-specific line 'That is how a Six's fear tends to work. Attention goes outward' claims for Six an external-verdict focus that defines the heart triad. An informed reader will see the type-defining quote use image language and then get no Three test.",
+      "acceptance_test": "Name Type 3 next to the One comparison and dispatch it with a sourced discriminator, not a definition. The record already has candidates. He shrinks his success to a stranger ('just a few little things', S01), where a Three presents it. Hattenstone reports that when Coel asked who should play Kwame in her own show, 'He never put himself forward' (S01). He confesses the doubt to the press instead of managing the image. The fear he names is being uninvited ('Oh my God I've made a huge mistake in inviting you to be in this', S01), not being outshone. Say plainly that in the Faith answer perception is the means and 'safety' the stated end. A Three's stated end would be worth or admiration. If that can't be argued from sources, lower the discriminator's stated weight."
+    },
+    {
+      "id": "enneagram-02",
+      "severity": "major",
+      "passage": "The counterphobic Six explains it: once a threat is concrete and named, he moves toward it. Still, look at what he reached for in the same breath.",
+      "problem": "Counterphobia is doing convenient, unfalsifiable work. The type section sets it up: 'Essiedu does both, in sequence.' Dread then counts as phobic Six and boldness as counterphobic Six, so no behaviour could count against the type. The two acts it absorbs don't fit 'moves toward a threat'. Signing the letter opened a new front on a separate issue. His stated reasons are principle ('artists in the trans community have a right to be treated with dignity') and autonomy ('My points of view are mine'). He declined a police report out of proportionality ('I don't think some 17-year-old boy being put in jail for two weeks... would actually make me feel any better', S04), not to confront anyone. 'In the same breath' also joins two separate answers. The production-team line is in his answer about the letter. 'How I felt as a kid' is in an earlier answer about the abuse (S04). The 'how I felt as a kid' answer is about representation, not seeking safety.",
+      "acceptance_test": "Either state what a counterphobic Six predicts here that a principled One or an Eight would not, and cite an instance, or record the letter and police-report choices as One-compatible or unexplained. Remove 'in the same breath', or limit it to the production-team sentence inside the letter answer. Don't call the representation motive something he 'reached for' as safety. Use the counterphobic label only where the source shows fear named first and then confronted."
+    },
+    {
+      "id": "enneagram-03",
+      "severity": "major",
+      "passage": "Some fans of [J.K. Rowling](/personality-analysis/j.k.-rowling) called for him to be sacked.",
+      "problem": "This omits the cleanest real-world test of the article's 'taken away' thesis. In the same Sunday Times interview, asked how it felt when people called for him to be sacked, he said: 'Look, at the end of the day, I got this job on the merit of my talent... And so if that was the reason I got kicked off this job, then it wouldn't be a project I'd want to work on anyway' (S04, 2026). The feared loss became literal and public, and he answered with confidence in his merit and readiness to walk. That contradicts the content of 'When are they going to realise that they really wanted the other guy?' Read another way, it supports the dread-before, steady-during pattern. Either way the type argument has to face it, and right now the reader never sees it.",
+      "acceptance_test": "Quote the 'merit of my talent' answer at or near the Rowling paragraph. Say explicitly whether it supports the anticipatory-only reading of his dread, or counts against the loss-anxiety thread as One-like or Eight-like certainty. The 'taken away' sections must not read as if loss-anxiety governs his response to actual threats of loss."
+    },
+    {
+      "id": "enneagram-04",
+      "severity": "major",
+      "passage": "That is fear doing its work in advance. A Six often prepares for disaster so thoroughly that, when it comes, the work is already done.",
+      "problem": "The interpretation overrides the stated motive the draft has just quoted. On Dish (S26) he says he shadowed Troughton's rehearsals because he was 'bored' with his 'two, three lines' and because 'I'm a nerd'. The Guardian piece (S30) credits his over-preparation to 'grit and enthusiasm'. Nothing in the record says he prepared out of dread. Diligence and curiosity are One- (or Five-) compatible, and claim C17 itself calls this 'supporting texture, not a discriminator'. 'Steadies' is also generalised from one eyewitness night in 2014 into a trait: 'When danger is real, he steadies' (type answer, FAQ) and 'Calm During' (meta_title). His own account of that night is 'internal banshees' and 'like taking last rites' (S06). The Snape episode shows emotional effect and nervous laughter, not calm.",
+      "acceptance_test": "Either cite a source that ties his preparation to fear, or report his stated motive (boredom, being a nerd) and treat the King Lear night as non-discriminating. Change 'he steadies' and 'Calm During' in the answer, FAQ and meta_title to what the record shows: he goes on despite dread, and one critic saw no tremble. The type answer must not present a single observed event as a repeated pattern."
+    },
+    {
+      "id": "enneagram-05",
+      "severity": "major",
+      "passage": "His anger points the same way. A One's anger fixes on error. His public anger fixes on people with power who fail those in their charge.",
+      "problem": "This misstates Type 1, so the One case loses unfairly. A One's anger fixes on injustice, hypocrisy and people who break the rules they should keep, not on 'error' in the abstract. The draft's own example, 'Johnson can get away with breaking the rules he made', is a textbook One complaint about rule-breaking by the rule-maker. The draft also omits his own speculation on Faith's podcast: 'I don't know if the anger is suppressed. I don't know if it's repressed' (S24 c.0:10:05). That is the One's signature defence, held-down anger. The evidence record (C24 alternative) says this line 'should be preserved'. Without it, 'He is rarely angry' reads as neutral when it is the best One datum from his own mouth.",
+      "acceptance_test": "Add the 'suppressed / repressed' line to the One case. Either drop anger as a Six-versus-One discriminator, or restate it as something a One does not predict, such as his suspicion of authority ('there to see what you've done', S05; 'people will take advantage', S06). Acknowledge that the Johnson line also fits a One."
+    },
+    {
+      "id": "enneagram-06",
+      "severity": "major",
+      "passage": "He has turned down \"a lot of slave roles, a lot of period dramas as a butler or servant,\" and projects that became \"very, very, very big successes.\"",
+      "problem": "Factual and context error in the One evidence. Mr Porter (S07, 2024) says he was 'getting offered a lot of slave roles... which I think speaks to how I was perceived in the industry'. The writer adds that 'He wouldn't entirely write off such a role'. The evidence record agrees (C26b: 'He describes being offered these'). The draft also drops his stated reason for the refusals he did make. He says he has 'tried to be savvy about the propensity of the industry to try and clip my wings. But that involves saying no to a lot of things' (S08, 2023). That reason is vigilance toward institutional power, the same thread as Invertigo's 'all the power existed outside of me'. It bears on Six versus One, and the draft files these choices purely as principle.",
+      "acceptance_test": "Change 'turned down' to 'was offered' for the slave and butler roles, or cite a source showing he declined them. Quote the 'clip my wings' reason with the 'very, very, very big successes' line and assign it honestly: compatible with a Six's wariness of power and with a One's principle. The costly refusals should no longer be presented as uncontested One evidence."
+    },
+    {
+      "id": "enneagram-07",
+      "severity": "minor",
+      "passage": "But Nines struggle to say no, and he says it often, in public, knowing the cost.",
+      "problem": "This is a stereotyped dismissal. Nines are known for stubborn refusal, so saying no doesn't separate them. The record has a real Nine case the draft doesn't weigh. He numbed grief: 'an emergency act of self-preservation in order to stop myself thinking or feeling or engaging', belongings locked in the loft for about ten years, no crying for five or six years. He takes a defusing role in fights, Coel calls him 'peaceful', he says 'I have to just surrender to that', and, Hattenstone reports, he 'never put himself forward' for Kwame (S01). The draft uses the loft only against Four, without noticing it is Nine-compatible.",
+      "acceptance_test": "Replace the 'struggle to say no' line with a discriminator from the record. For example, a Nine tends to tune out threat, but he narrates anticipated threat vividly and can't stop reading 'What are you doing here?' on faces. Note that the grief shutdown is Nine-compatible but was limited to grief."
+    },
+    {
+      "id": "enneagram-08",
+      "severity": "minor",
+      "passage": "The fear of things being taken away from you at any moment really kicks in and you think you need to do something again before it's too late.",
+      "problem": "Two quotes in the Six evidence are cut to the thesis-friendly half. Mr Porter's next sentence, 'But you need to respect your body, respect your talent, you can take time off and then the other thing will come' (S07), is dropped. The research notes asked that it be kept if the quote was used. Separately, 'Michaela Coel... told Hattenstone he approaches characters \"almost with fear and trembling\"' joins two sentences. In S01 Coel says 'He approaches characters with great sensitivity and thoughtfulness. I have never seen him with any ego. He's trying to discover things almost with fear and trembling.' In context the phrase means reverent care, but placed in 'The safety he builds' it reads as more fear.",
+      "acceptance_test": "Restore the Mr Porter follow-on sentence, or paraphrase it beside the quote. Quote Coel's 'trying to discover things almost with fear and trembling' with 'great sensitivity and thoughtfulness' attached, and don't count it as fear evidence."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Some of the record sits awkwardly with a Six reading.",
+      "reason": "The section leaves the half marathon, the restlessness, the humour and the eating quirk unexplained. It doesn't reach for a 6w7 wing or an arrow to absorb them, which is the honest handling the standard asks for."
+    },
+    {
+      "passage": "None of this is decisive. The Faith answer is one podcast exchange, spoken in therapy vocabulary and in the second person.",
+      "reason": "This states the limits of the main discriminator in the reader's view and names a concrete scene that would settle it (a director's account of a production in trouble). It holds the read at medium confidence without hedging the whole piece."
+    },
+    {
+      "passage": "His fear in rehearsal \"that you might be bad\" is a One's line, and it stays on the One side of the ledger.",
+      "reason": "A rare concession: evidence that cuts against the thesis is left on the rival's side instead of being reinterpreted. This credibility move should survive the edit."
+    },
+    {
+      "passage": "This is where the type argument has to be careful. Losing both parents by 20, on little money, would teach anyone to brace for loss, and public evidence can't separate temperament from that history.",
+      "reason": "This sets circumstance against temperament at the exact point where a childhood-wound story would be tempting, and declines to invent the causal link."
+    },
+    {
+      "passage": "A Six would describe Snape with relief at a trusted team and a stable home, and aim the dread at how audiences receive it. A One would talk about getting the role right and bristle at compromises in the work.",
+      "reason": "A concrete, falsifiable settle test tied to a dated catalyst, the 2026-12-25 premiere. It turns the type claim into something a future refresh can check."
+    }
+  ],
+  "assessment": "Type 6 at medium confidence is defensible. The confidence label is right, and the One case gets a fair, sourced hearing that includes Faith's read and his 'Yeah, totally'. The weaknesses are in what the discriminator actually discriminates. (1) It separates Six from One, but the evidence it rests on (others' verdicts, 'how you are perceived', 'I've tricked so many people', overwork 'before it's too late', competitive overdrive) is image-triad language. Type 3 is never named or tested, though the record has anti-3 evidence ready (self-minimising to a stranger, Hattenstone's report that he 'never put himself forward' for Kwame, public confession of doubt). (2) The behavioural half of the thesis, 'dread before, calm during', is the weakest part. The King Lear preparation was, by his own account, boredom and nerdiness. 'Calm' rests on one eyewitness night in 2014. Counterphobia is used to absorb the letter and the police-report decision, whose stated reasons are principle, autonomy and proportionality. That makes the Six read unfalsifiable at its most important test. (3) Three omissions bear directly on the typing: 'I got this job on the merit of my talent' when people called for his sacking (S04); 'I don't know if the anger is suppressed... repressed' (S24, flagged to preserve in C24); and 'clip my wings' as his reason for refusals (S08). (4) One factual error inflates the One case: he was offered slave and butler roles, not shown to have turned them down (S07). No convenient wing is invoked, and the 'What the type doesn't explain' section is a real strength. Similarity trips ('whose core emotion is fear', 'tests the ground before trusting it') are mandated triad phrasing and ordinary type vocabulary. The arguments themselves aren't reused, so this is not a finding. Sources reopened, from the research stage's saved copies in /tmp/paapa-essiedu-research (not re-fetched live): S01, S02, S03, S04, S06, S07, S08, S29 and S30 print text; S24 Mad, Sad and Bad transcript c.0:08-0:10:10 and 0:23:36-0:25:10; S26 Dish transcript (King Lear story). Risks stay as flagged: sensitive allegations (death threats, Guildhall racism, the letter and Rowling) and contested typing. Fixing these findings should sharpen the existing Six read, not change the thesis."
+}

@@ -1,0 +1,27 @@
+Error: Reached max turns (60)
+[runner] Turn limit reached; resuming session 0738049a-f253-42d2-b995-d987281809d6 to write outputs
+I wrote the two output files for the Paapa Essiedu draft stage. Nothing else in the repo changed, and nothing was published or graded.
+
+**Result:** the draft passes both checks: the site's draft check (no blockers) and the validation that matches each claim to a passage in the draft.
+
+- **Length:** 3,861 words in 10 sections. That's within the 4,500 hard limit but above the 2,000–3,500 target. The edit stage usually adds about 800 words, so I've noted in the evidence file that the editor should cut first.
+- **Type call:** the type answer (55 words) commits to Type 6 in your voice. Medium confidence and Type 1 as the main rival come in the next paragraph and in a "Why not Type 1?" section.
+- **Metadata:** `published: false`; meta title 57 characters, description 168.
+- **Evidence file:** all 39 research sources are kept, plus one new one: the YouTube cut of the Paloma Faith podcast, whose captions I downloaded. It has 121 claims, each tied to an exact passage in the draft. I dropped five research claims the draft doesn't use (fame, faith, Kwame casting, private life, the 2023 anxiety quote) and said so in the type reasoning.
+
+**The story:** it opens on a contrast. In a 2022 Guardian interview he says he expects to be "found out" before every job and needs friends to "drag me into the car". In 2014, as an understudy, he went on mid-show in *King Lear* with "neither a tremble in limb or voice", in the reviewer's words. What tips the call from Type 1 to Type 6 is his own answer on Paloma Faith's podcast: people-pleasing is "trying to create safeness for yourself, safety for yourself". That clip is embedded at the right timestamp.
+
+**Quote checks done:**
+- Where earlier transcripts disagreed, I ran a third transcription on four audio clips and only quote words at least two agree on.
+- That changed two lines. He actually says "I'm always certain I'm gonna be terrible… I've tricked so many people." For the *King Lear* story, one transcript has "I know the lines" and the other "I know all the lines", so only "I'm not going to go on with the book" is quoted.
+- I read every key quote in context in the saved source text. That turned up one fix: the half-sister who revealed his mother's hopes is his father's daughter, so the draft says "his mother", not "their mother".
+
+**Not done (turn limit), and recorded in the evidence file's research notes:**
+- I didn't run an automated check of every quote in the final cut against the source texts. The verify stage should run one, then hand-check quotes split across a "he said" (the death-threat and open-letter passages especially).
+- A friend's recollection that he begged him not to see a play before press night is paraphrased from a single machine transcript.
+
+The do-not-use list was followed: no marriage, no slur, no teacher's name, no Forest School remarks, no diagnosis language beyond his own quoted words.
+
+Files are in `docs/content-analysis/pipeline-logs/2026-10-20_06-00-05-001_paapa-essiedu/`:
+- `draft.md`
+- `evidence-draft.json`

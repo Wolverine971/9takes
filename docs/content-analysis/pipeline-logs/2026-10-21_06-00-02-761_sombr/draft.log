@@ -1,0 +1,25 @@
+Error: Reached max turns (60)
+[runner] Turn limit reached; resuming session bfcabe4e-b4d2-4e6a-912a-1dc08ad44374 to write outputs
+I've written the Sombr draft stage: `draft.md` and `evidence-draft.json` are in the run folder. Both pass the pipeline's own validators (`checkDraft` reports no blockers, `validateEvidence` passes), and no other files were changed or published.
+
+**The draft:** it's an open case. The leading read is Type 3, held loosely. Type 4 is the main rival and Type 7 is still in play.
+- **Opening:** at 18, in 2023, with no chart hit, he told 1883 Magazine that Madison Square Garden was his dream: "it will happen. I know it!" In 2026 he booked two nights there, then told Jimmy Fallon his life goal had been "a 1,000-seater."
+- **The case for 3:** the fears he names (being dropped, being "a disappointment," not performing well for fans). His line that he didn't know he was good "until other people told me." And his habit of posting a chorus on TikTok first and finishing only the songs that get a response.
+- **The case for 4:** he named himself for a mood, writes alone because it feels too vulnerable to share, fights his producer to keep imperfect vocals, and puts things in songs that get him in trouble. Also included: his own CBS remark that any signed artist who says they don't care about the numbers is lying.
+- **"What would settle it":** five signals. They are the unannounced second album, a first commercial flop, whether he ever takes on co-writers, the unanswered criticism of his September 2026 George Michael tribute at the VMAs, and someone who knew him before 2022 speaking on record.
+
+**Not done, and recorded in the evidence log:**
+- **No audio check.** Every quote matches the saved source texts and caption transcripts, but none was re-checked against the audio. YouTube refused the audio downloads for most of the session, and the one file that finally came through wasn't transcribed before the turn limit. The log lists the exact timestamps the verifier should listen to.
+- **Over length.** The draft is 2,807 words, about 12% above the 2,500-word open-case target but well under the 4,500 ceiling. The log names the first cuts.
+
+**Calls on sensitive material you may want to check:**
+- **Birth date left out.** Only a radio-station bio cited by Wikipedia supports July 5, 2005, so the page just says "21 as of October 2026."
+- **Depression mentioned briefly.** Two sentences in his own words, ending with his "I'm just somber, man," with a line saying no type is read from his health. It isn't the hook or the ending. I didn't add a crisis-line note because no other people page has one; the jury may disagree.
+- **Left out entirely:** the eating disclosure and the "can't see a future" line. Also left out: the specific concert-banter accusations, the critic's body-mocking comparisons, his sister, and the people his songs are about.
+- **The concert critic's complaint** is attributed to her through CNN, and the "industry plant" charge is presented as an allegation with his denial, not judged.
+
+Nine research claims the draft doesn't use were dropped from the inventory; their sources are kept.
+
+Files are in `docs/content-analysis/pipeline-logs/2026-10-21_06-00-02-761_sombr/`:
+- `draft.md`
+- `evidence-draft.json`

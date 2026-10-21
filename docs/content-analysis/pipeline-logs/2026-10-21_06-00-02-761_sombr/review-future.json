@@ -1,0 +1,72 @@
+{
+  "schema_version": 3,
+  "role": "future",
+  "content_sha256": "2a0a4f5e1204ea07a867d3cf41ca71eeddd43e4bbb4efb64bb890dd2a0bed49e",
+  "evidence_sha256": "7c5f17dea7fd32aae87896661db0579c6b9b2cf26ebe61939e459be7741e72fc",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "future-01",
+      "severity": "major",
+      "passage": "A record about 18 months old can't yet separate them.",
+      "problem": "The 60-word type answer and the type FAQ (which repeats it verbatim and is the most likely snippet to be lifted out of context) give the record's age as a relative span with no anchor date. The same relative phrasing appears in the body ('His life as a star is about 18 months old'). Within one refresh cycle the figure is wrong, and a reader in 2028 or 2031 has no way to tell how stale it is. The evidence record makes this worse: I04, the claim that maps the type answer, is tagged 'stable' with an empty review_trigger, so maintenance would not catch it. Only I02 (the body sentence) carries a trigger. The standard requires absolute dates for changing facts.",
+      "acceptance_test": "The type answer, the type FAQ answer and the body sentence anchor the record to absolute dates instead of a relative age (e.g. 'a record that begins with his spring 2025 breakout' or 'as of October 2026'), and the type answer stays at or under 60 words. No reader-facing passage states the record's age as 'about N months' without a date. I04 and any metadata claim mapping the type FAQ are marked time_sensitive with a review_trigger tied to open_case.next_review."
+    },
+    {
+      "id": "future-02",
+      "severity": "major",
+      "passage": "As of October 21, 2026, five things would put that on record.",
+      "problem": "The article holds Type 7 'still in play', but the settle list gives Seven no test of its own. All five signals are authenticity-versus-success forks built to separate Three from Four, with Seven added as a third branch ('shrugging it off', 'described mainly as fun', 'joking it away'). The evidence's own discriminator says 'Seven cannot be excluded until he is seen handling a long stretch without touring.' The article's strongest Seven quote is 'how I can survive not being on tour.' Open_case.settle_signals also includes an off-tour signal that the draft dropped. The end of the You Are the Reason tour (scheduled through July 14, 2027 per the evidence record) is the most predictable dated catalyst after the next review, and it is the one a future refresh is most likely to be able to check. Without it, a reader returning in 2028 cannot tell whether Seven was ever tested or simply forgotten.",
+      "acceptance_test": "The settle section includes a dated signal about the first long stretch off tour after the You Are the Reason tour ends (scheduled dates given 'as of' a date, not as fact). It states in reader language what he describes as steadying him then, and which response favors Seven, Three or Four. The 'What would settle Sombr's Enneagram type?' FAQ matches the body's count and items. The evidence record has a claim for the new passage with a time_sensitive review_trigger at the tour's end. Length is held by trimming elsewhere (see future-03), not added net."
+    },
+    {
+      "id": "future-03",
+      "severity": "minor",
+      "passage": "Adjusting his image, feeling misunderstood or joking it away would each say something.",
+      "problem": "Signal 4 is tied to a specific, fast-decaying controversy (online criticism of his September 27, 2026 VMA George Michael tribute). The FAQ names it as one of the five settle signals. Backlash of this size rarely gets a reply, so 'as of October 21, 2026 he had not responded' is likely to stay true and become meaningless. A 2031 reader gets a dated non-event instead of a test. It is also the only item that does not map each response to a type; 'would each say something' leaves the reader to guess. And the article already has a data point for this exact signal (the October 2025 TikTok defense followed by 'I wouldn't respond now'), which it read toward Three, so the signal should say what a repeat would add.",
+      "acceptance_test": "Signal 4 is framed as how he handles the next sustained public criticism. The VMA tribute appears at most as a dated example. Each response maps explicitly to a type, as items 1 to 3 do, and the item says whether a repeat of the 2025 defend-then-reverse pattern would strengthen the Three read. The FAQ wording no longer makes the VMA backlash a named settle item, or it carries its date. C40/C40b get a review_trigger that removes the 'had not responded' clause at open_case.next_review if no response has surfaced."
+    },
+    {
+      "id": "future-04",
+      "severity": "minor",
+      "passage": "He writes and produces his songs alone at home, then finishes them with the producer Tony Berg.",
+      "problem": "Several present-tense status claims about his working arrangements are recorded as 'stable' with no review_trigger, though they can change with the next album. They are this body sentence (C16c), the FAQ 'Who produces Sombr's music?' ('He writes and produces his songs himself at home, then finishes them with the producer Tony Berg at Sound City in Los Angeles', M06), and 'NYLON reports that his father, Andy Boose, is part of his behind-the-scenes team' in the body and in the industry-plant FAQ (C28b, C28e). The article itself names co-writers as a settle signal, which concedes that the process may change. If album two brings in other producers or writers, or his team changes, the FAQ answers go wrong silently.",
+      "acceptance_test": "Each of these claims is anchored to a period or source date: e.g. 'Through I Barely Know Her and his 2026 singles, he wrote and produced...' and 'NYLON reported in April 2026 that his father... was part of his behind-the-scenes team.' This applies in both the body and the FAQs. C16c, M06, C28b and C28e are marked time_sensitive with a review_trigger tied to the second album's credits or a reported team change."
+    },
+    {
+      "id": "future-05",
+      "severity": "minor",
+      "passage": "No teacher, classmate or early collaborator has described him on record, and Berg has not been quoted.",
+      "problem": "This is an absence claim that will become false the first time anyone speaks, and Berg is the likeliest to. The list's 'As of October 21, 2026' lead-in dates it for the reader, but I12 is tagged 'stable' with an empty review_trigger. Research listed finding a Berg or LaGuardia comment as an open follow-up. A quick check on 2026-10-21 found Sombr describing Berg, but no verbatim Berg quote about him, so the claim holds today. Nothing in the record prompts a re-check, and the sentence is where the article explains what testimony is missing.",
+      "acceptance_test": "I12 is marked time_sensitive with a review_trigger to re-search for Tony Berg, LaGuardia faculty/classmates and early collaborators at open_case.next_review. The passage keeps an explicit date in its own sentence or stays under the dated lead-in, following the model of 'No reporting found by October 21, 2026 shows how his label or management relationships were formed.'"
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Both answers are his. Which one describes him is the question this profile tries, and so far fails, to settle.",
+      "reason": "The hook rests on two dated self-statements (1883, November 2023; Fallon, June 2026), not on the Garden shows happening. The contradiction stays true whatever the type turns out to be and whatever happens at the November 2026 concerts. It is the most durable possible open-case hook."
+    },
+    {
+      "passage": "These readings will separate when the choice that feels true and the choice that works pull apart and cost him something.",
+      "reason": "This states the discriminator as a future, observable event rather than a vague call for 'more interviews', so the page is easy to reopen and the sentence survives any outcome."
+    },
+    {
+      "passage": "Research closed on October 21, 2026. Quotes from video interviews follow YouTube's captions, repeated words included.",
+      "reason": "An absolute research date and transcription method in the body tell a future reader exactly how old the record is and how quotes were taken. Preserve this sentence, and use it as the anchor for the fix in future-01."
+    },
+    {
+      "passage": "The Three reading notices that the humble version arrived after the bold one had paid off, when humility plays better. Nothing on record shows which explanation is right.",
+      "reason": "This states the interpretation and its limit side by side. What it says is known stays true even if a later run settles on Four or Seven, which is the open-case durability anchor."
+    },
+    {
+      "passage": "Some of this should stand however it settles.",
+      "reason": "The close names what is outcome-independent instead of predicting a verdict. It is the right ending for a page meant to be reopened."
+    }
+  ],
+  "assessment": "Five-year test: the thesis survives removing the latest events. The type case rests on dated self-reports from 2023 to 2026; the September 2026 VMA tribute appears only as a settle signal, and the hook works from two dated quotes rather than the November 23-24, 2026 shows. Absolute dates are used almost everywhere ('21 as of October 2026', 'by August 2026', 'No reporting found by October 21, 2026'), and research closure is stated in the body. Open-case eligibility is confirmed: he is an adult (21); his first hit charted in April 2025; 38 sources were opened, including about 45,000 caption words; and the thinness comes from career stage, not skipped research. Confidence is not overstated in the title, meta_title, description, type answer or FAQs; all say 'leading read' or 'held loosely'. Two weak spots: the type answer and type FAQ give the record's age as an undated 'about 18 months' (future-01), and the settle section has no Seven-specific signal, though the evidence says only an off-tour stretch can rule Seven out (future-02). Smaller items: a settle signal tied to a backlash likely to go permanently unanswered (future-03), and present-tense production/team status claims and an absence claim tagged stable with no review trigger (future-04, future-05). Note for the editor and verifier: after November 24, 2026, the C09/M02 trigger should also update 'booked' in the description, hook and persona_title framing if the shows happen or move. The 'His next single, \"Homewrecker\"' clause would read better with its February 2026 date. Similarity advisory: not tripped (max 0.039 vs threshold 0.04). The top pairs share only ordinary heart-triad vocabulary with Jonathan-Bailey, Tate-McRae and margaret-qualley, not an argument, so I see no meaningful reuse."
+}

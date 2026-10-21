@@ -1,0 +1,22 @@
+I've written the critic review to `docs/content-analysis/pipeline-logs/2026-10-20_06-00-05-001_paapa-essiedu/review-critic.json`. It passes the review schema check (`reviewSchema`) with 10 findings (8 major, 2 minor) and 5 protected passages. I didn't open the other reviews, didn't change any other file and didn't publish anything.
+
+**What the review found:** the draft is honest in places but leans on stories its own sources don't support.
+
+- **King Lear prep:** the draft says his preparation was "fear doing its work in advance." In the Dish podcast he says he was "bored as \*\*\*\* in it… I'm a nerd," and the Guardian puts it down to "grit and enthusiasm."
+- **"Counterphobic" as a catch-all:** dread before a job and calm in real danger are both counted as Six, so nothing could count against it. Not reporting the death threats was a stated proportionality choice ("some 17-year-old boy being put in jail…"), not moving toward danger.
+- **Snape section:** "in the same breath" joins two Sunday Times answers that are several questions apart. The same interview has two answers the draft leaves out that cut against "fear of loss":
+  - He rejected the idea that he took the role for "stability and cash."
+  - He said that if he were sacked for his views, it "wouldn't be a project I'd want to work on anyway."
+- **The deciding quote:** two of the three things he says people-pleasing is for are about how others see you, which is Type 3 territory. Type 3 is never tested, and neither is Type 7 despite the restlessness evidence. The FAQ also turns his "safety for yourself" into "safety for himself."
+- **Factual error:** the draft says he "turned down" slave and servant roles. Mr Porter says he was *offered* them and wouldn't entirely rule one out. The evidence record's own claim C26b says the same.
+- **Anger section:** the Johnson line ("breaking the rules he made") points to Type 1, not Six. Responses to racism don't tell the types apart, yet the draft counts them as Six evidence.
+- **Safety section:**
+  - Leaving medicine for acting, against his mother's hopes, is presented as playing it safe.
+  - The 2016 quote drops the half that says what you need is "genuine openness and vulnerability."
+  - "Safe hands" and "strength in numbers" are presented as his outlook, but those were conversations where safety itself was the subject.
+
+**Protected passages:** the caveat that losing both parents would make anyone brace for loss, "None of this is decisive," the "Maybe they are thinking it" moment, the mezcal story, and the half-marathon collapse.
+
+Risk flags: contested typing and sensitive allegations (Guildhall racism, death threats, the trans-rights letter) are both on. The similarity matches are the required "whose core emotion is" sentence and ordinary Six wording, so I didn't count them as reuse.
+
+I checked the quotes against the research run's saved copies of the sources in `/tmp/paapa-essiedu-research`, not fresh fetches of the live pages. The verifier should know that.

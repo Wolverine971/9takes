@@ -1,0 +1,18 @@
+I've finished the subject-fairness review of the Sombr draft and written `review-subject.json`. It passes the contract's review schema, and every quoted passage matches the draft exactly. No other files were changed and nothing was published. I compared the sensitive passages against the sources the research stage had saved, and re-fetched four of them live to confirm the key lines.
+
+**Result: 10 findings (1 blocker, 7 major, 2 minor) and 5 passages to protect.** The draft qualifies as an open case. He's an adult, his breakout was April 2025, and the record is thin because it's young, not because research was shallow. The draft doesn't overstate its confidence anywhere.
+
+- **Blocker: a factual error in the industry-plant section.** The body and the FAQ both say no reporting shows how his label deal came about. Three sources the draft already cites (American Songwriter, ELLE, Consequence) report it: his self-released "Caroline" went viral on TikTok in 2022, labels came calling, and he signed with Warner. The same passage also cuts his rebuttal down to "incredibly insane." It drops his actual reason: his father's events work is HIV/AIDS charity work.
+- **Major: his mental health is used as type evidence while the article says it isn't.**
+  - Anxiety attacks and a body-image song lyric are used to support Type 3.
+  - His depression disclosure sits inside the Type 4 argument.
+  - "Going out every night" is used for Type 7, but on CBS he said it happened because he was depressed. The draft leaves that out.
+  - The opening question, "Is the sadness the self, or the brand?", suggests his sadness might be marketing, in a profile that later quotes his depression.
+- **Major: the October 2025 TikTok concert controversy is unfair to him in two ways.**
+  - The draft leaves out that the critic herself compared his looks to Slender Man, which is what his "body-shaming" complaint was about.
+  - It says he didn't address her complaints about his jokes, but the CNN report it cites says his reply defended the tone of his jokes.
+  - His 2026 change of position is put down to how the episode landed. The draft leaves out his own reasons and his promise never to make anyone uncomfortable again.
+- **Major: the "story turned modest" argument trims context.** His NYLON and Broski quotes were about the long odds people warned him of, not denials of ambition. The line "when humility plays better" credits him with a calculated motive no source supports. The real tension (the Madison Square Garden prediction in 2023 versus the "1,000-seater" line to Fallon) still holds on its own.
+- **Minor:** "He manages how he is seen" states the author's inference as fact, and the publicist line it relies on was a joke. The George Michael tribute criticism is mentioned without his stated homage to Michael.
+
+Once the health material is taken out of the argument, the Type 3 case gets thinner. The editor should recheck whether "Three leads, narrowly" still holds. I didn't open the original TikTok videos or Vogue's George Michael interview, and I didn't re-transcribe any audio.

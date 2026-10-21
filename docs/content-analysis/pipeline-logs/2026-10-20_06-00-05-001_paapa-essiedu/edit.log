@@ -1,0 +1,27 @@
+Error: Reached max turns (60)
+[runner] Turn limit reached; resuming session bfa84830-db39-4865-898b-8ad2b095945f to write outputs
+I've written all three edit-stage outputs, and the editorial contract checks pass on each. Nothing was published, and no input files were changed.
+
+**`edit.md`**
+- The article is still Type 6 at medium confidence, with Type 1 as the main rival. It comes in at 3,498 words, under the 3,500 target. The draft was 3,861.
+- **Factual corrections:**
+  - The slave and servant roles were *offered* to him, not turned down.
+  - On the Guildhall incident, the article now says he didn't know whether the slur was aimed at him or Michaela Coel, as the source says.
+  - "In the same breath" is gone. In the Sunday Times interview those were two separate answers.
+- **Snape section:** it now includes three answers the draft left out. They are his stated reason for taking the role, his "merit of my talent" answer to the calls to sack him, and his principle for signing the letter. The article now says plainly that these cut against the fear-of-loss reading.
+- **Type argument:**
+  - The "counterphobic Six" label now covers only Hamlet and the death-threats answer. The letter and his decision not to report the threats are counted as fitting Type 1 just as well.
+  - Anger is no longer used to separate Six from One.
+  - Type 3 now gets an explicit test, and Type 7 is named for his restlessness.
+  - The type section now says what evidence would count against Six.
+- **Quotes restored to full context:** the openness half of his 2016 answer, his own correction in the Mr Porter quote, all four reasons he gave Hattenstone (class among them), his "suppressed or repressed" anger line, the rest of the Lennie James grief answer, and the framing around Coel's "fear and trembling."
+- **Metadata:** "Calm During" is gone from the meta title. The description and persona title now present the dread as a dated pattern. The FAQs keep his second-person phrasing on the Type 1 question, and the Snape FAQ reads correctly before and after the December 25, 2026 premiere date.
+- **Links:** the Dish and Going Rogue podcast links now go to their official YouTube uploads at the right timestamps, replacing raw audio files behind tracking redirects.
+
+**`evidence-edit.json`:** 152 claims across the same 40 sources, with existing IDs kept. I removed 39 claims that are no longer in the article and updated or added the rest. Every passage matches the edited article. Facts that will change, such as the premiere date, the Snape role and whether the dread fades, carry concrete review triggers. The edit-stage changes are logged in the research tasks.
+
+**`resolution-edit.json`:** all 49 findings are marked fixed (25 major, 24 minor), each with a reason. The reviews flagged 23 distinct passages to protect. 20 are unchanged and 3 changed with reasons: the threats line and the stranger anecdote now carry dates, and the closing test was rewritten. There were no inherited blockers.
+
+**Not re-checked in this session:**
+- One phrase was not re-listened to: "cooked" in the half-marathon story. It rests on the research-stage transcript, and the evidence record says so.
+- I didn't rerun the similarity check after removing the generic Six definition. The verifier should run it, along with a full-body quote check against the saved source texts.

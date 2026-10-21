@@ -1,0 +1,19 @@
+I wrote the unfamiliar-reader review for the Sombr draft to `docs/content-analysis/pipeline-logs/2026-10-21_06-00-02-761_sombr/review-unfamiliar.json`. It passes the review schema, and every quoted passage matches the draft exactly. I didn't touch any other file or publish anything.
+
+The review has eight findings (one major, seven minor) and five passages to protect.
+
+- **Major (unfamiliar-01):** The opening leaves out how his career started. By November 2023, when he predicted he'd play Madison Square Garden, his 2022 song "Caroline" had already gone viral and Warner had signed him at 17. The reader only learns about the signing in the fifth section, and "Caroline" is never explained. That makes the prediction sound bolder than it was, and later mentions of his slump don't make sense without the timeline.
+- **Minor:**
+  - The TikTok sentence doesn't say who was body-shamed. The source says the creator mocked him, which is what connects that episode to his body-image single.
+  - The opening asks "bold or modest?", but the question the article really tests is whether he follows his feelings or what works. The two framings compete.
+  - The "Three, Four or Seven" section mostly repeats earlier evidence, and the article is 2,807 words against the 1,200–2,500 target for an open case.
+  - Two of the five "What would settle it" signals don't say which outcome would favor which type, and one leaves out Seven.
+  - Quotes copied from YouTube captions keep their repeated words, which makes them hard to read. A note about captions also interrupts the intro.
+  - Producer Tony Berg and the school he left (LaGuardia) aren't explained. The body also implies Berg finished every song, but the FAQ says the breakout single was made without him.
+  - The SEO title (meta_title) says "Leading Read 3" with no "Type" or "Enneagram" in front of the 3.
+
+**Protected passages:** the Madison Square Garden quote in the opening, "until other people told me that I was good," the moment he contradicts himself in one answer on Brittany Broski's show, the "I wouldn't respond now" reversal, and the Knicks-games ending.
+
+**Open-case check:** he qualifies. He's 21, his breakout came in April 2025, research opened 38 sources, and the titles, description and FAQs don't overstate confidence. The similarity check found no reused writing from other profiles.
+
+I set the sensitive-allegations and contested-typing risk flags to true, matching the evidence record.

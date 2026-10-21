@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "fan",
+  "content_sha256": "8b3f8463c5f047e390517a54ba02946855ad8e8b4d5181e6d87fab923cb4cc50",
+  "evidence_sha256": "23fb21d08bf24d65f78b2fa7ea792bb5d15bbed522f47226392067663ba157a1",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "fan-F1",
+      "severity": "major",
+      "passage": "and he keeps it out of the work. \"I really, passionately do not believe in acting as therapy,\" he told Lennie James.",
+      "problem": "This keeps the half of the answer that helps the Six case and drops the rest. In the same Lennie James conversation (Guardian, 2020-12-19) he goes on: \"But I do feel like unconsciously, something as huge as that can't do anything but shape the direction that you go in afterwards ... allow that to flow through the work that you do.\" What he rejects is using roles to process grief. He does not say grief stays out of the work. He also made the Hamlet link himself. To The Times (2020-02-17) he said Hamlet's \"trauma around his grief and his desire for rescuing and fixing ... really play into a lot of my own insecurities and experiences.\" And the grief broke through on stage when he played Romeo on his 25th birthday (Bustle, already cited). A reader who knows the orphaned-son-plays-Hamlet story will notice it is missing, and the main argument against Type 4 rests on a reversed quote.",
+      "acceptance_test": "The Four paragraph no longer says he keeps grief out of the work. It gives the 'flow through the work' continuation, quoted or accurately paraphrased with source and date. The case against Four then rests on a point that survives that continuation (he refuses to use roles as therapy; he resists identity labels), or the paragraph concedes that this point favours Four. Optional: one clause in the Hamlet passage giving his own 2020 grief parallel."
+    },
+    {
+      "id": "fan-F2",
+      "severity": "major",
+      "passage": "He took it partly for the boy in the library, where his mother took him in the holidays because she couldn't afford a babysitter.",
+      "problem": "In the same Sunday Times interview (2026-03-21), the interviewer suggested that if he wanted \"stability and cash\" a Star Wars job would have been easier. He answered: \"Yes, but the themes that run through Harry Potter are of love triumphing over hate — of acceptance. And that's why I'm doing it.\" On the calls to sack him: \"I got this job on the merit of my talent ... if that was the reason I got kicked off this job, then it wouldn't be a project I'd want to work on anyway.\" His 'kid' line, quoted earlier, continues: \"the idea that a kid like me can see themselves represented in that world? That's motivation.\" The draft drops his stated reason and his merit answer. It reframes the kid as escapism, then predicts that \"A Six would describe Snape with relief at a trusted team and a stable home.\" But the record already shows him turning down the stability frame and saying he would walk if the job hung on his politics. That is the sharpest real-world test of the 'if it all gets taken away' thesis, and the article never shows it.",
+      "acceptance_test": "The Snape material gives his stated reason (the themes and acceptance, and/or representation for 'a kid like me') and the merit/'wouldn't want to work on' answer, both attributed to The Sunday Times, March 2026. The 'decade ahead' prediction either deals with his rejection of the stability motive or is rewritten so the current record does not already contradict it. 'Still, look at what he reached for in the same breath' must not imply that the production-team line and the kid line came from the same answer."
+    },
+    {
+      "id": "fan-F3",
+      "severity": "major",
+      "passage": "Essiedu had been thinking about why he is so dismissive of his own success, and his explanation works like insurance.",
+      "problem": "Hattenstone gives the reasons Essiedu named as a list: \"class, insecurity, impostor syndrome, self-preservation\". Only after that comes \"If it all gets taken away, you don't feel that loss so keenly.\" The draft presents self-preservation as the whole explanation and drops class and impostor syndrome. Those are the circumstantial explanations that compete with the type reading. On The Going Rogue Club (2024) he also tied the impostor feeling to how he was brought up, 'from early'. A reader of the Guardian interview will see the self-explanation trimmed to fit the loss-insurance thesis.",
+      "acceptance_test": "The section names all four reasons he gave, attributed as Hattenstone's summary, before the 'taken away' quote. The interpretation then treats self-preservation as one reason among several and weighs class/upbringing as a rival explanation instead of leaving it out."
+    },
+    {
+      "id": "fan-F4",
+      "severity": "major",
+      "passage": "He is rarely angry. He told Faith that \"all the fights that I've been in as an adult have been trying to break up fights,\" and credited churchgoing until his late teens: \"it probably is Christian guilt.\"",
+      "problem": "In the episode he says something narrower: \"I don't often find myself having explosive kind of outbursts of anger.\" Straight after the Christian-guilt line he adds: \"I don't know if the anger is suppressed. I don't know if it's repressed.\" Later in the same episode he says the racism he faced \"really does make me angry\" and \"I do feel angry, but I do consciously try and like convert that anger into action and into ... my own development.\" 'Rarely angry' turns 'rarely explosive' into no anger at all. It also drops his own suspicion that his anger is held down, which is the gut-triad marker the One section says it is testing. This misstates a source the article leans on, and it weakens the strongest rival unfairly.",
+      "acceptance_test": "'He is rarely angry' is replaced by his own framing: rarely explosive, unsure whether the anger is suppressed or repressed, converts anger into action. It is attributed to Mad, Sad and Bad, March 2025, and counted on the One side. The 'What tips the read to Six' paragraphs still hold with that evidence on the One side, or they say plainly that this point favours One."
+    },
+    {
+      "id": "fan-F5",
+      "severity": "major",
+      "passage": "He is choosy on principle. He has turned down \"a lot of slave roles, a lot of period dramas as a butler or servant,\" and projects that became \"very, very, very big successes.\"",
+      "problem": "Two problems. (1) Factual: Mr Porter (2024) says he was \"getting offered\" these roles and that \"no role is technically off limits\"; he \"wouldn't entirely write off such a role\". The source does not say he turned them down. (2) Missing contradiction: the portrait is built on \"The fear of things being taken away from you at any moment\". Saying no to projects that became huge hits is the most revealing contradiction in the record. The evidence record lists it as unexplained, but the article files it only as One evidence and leaves it out of 'What the type doesn't explain'. His own reason is also dropped. In the Big Issue (2023), after the Hamlet race-press experience: \"I've tried to be savvy about the propensity of the industry to try and clip my wings. But that involves saying no to a lot of things.\" In The Times (2020): \"My aim isn't to be that famous ... I don't feel the same pressure to think, 'Oh, I need to be in a Marvel film today.'\" His reason cuts both ways: vigilance against being boxed in (Six) or holding to a standard (One). That is exactly what an informed reader would want weighed.",
+      "acceptance_test": "The slave-roles clause matches Mr Porter: he was offered the roles and is frustrated by what the offers say about how he was seen. It does not claim he turned them down unless another opened source says so. The article states the tension between his fear of losing work and his refusals of big projects, quotes or paraphrases the 'clip my wings' explanation with source and date, and says which reading it favours or that it does not discriminate."
+    },
+    {
+      "id": "fan-F6",
+      "severity": "minor",
+      "passage": "That is fear doing its work in advance. A Six often prepares for disaster so thoroughly that, when it comes, the work is already done.",
+      "problem": "His own accounts of his best-known origin story are messier than 'the work is already done'. The Observer answer (2016-03-13) that the draft quotes for 'out-of-body' and 'internal banshees' goes on: \"I was standing there desperately trying to recall Edmund's lines – it was like taking last rites ... He is in too deep to say anything other than fuck it. That is where I was, too.\" On Dish (May 2026) he said: \"I didn't even know where to stand. I didn't know where the lights were ... you're operating completely on instincts.\" He credits a laugh on Goneril's line with easing him in. Preparation covered the lines. The steadiness he describes is a leap, which is a more specific and more interesting mechanism than the generic Six gloss.",
+      "acceptance_test": "The section includes at least one of his own 'desperately trying to recall' / 'didn't know where to stand' / 'fuck it' details with source and date. The interpretive sentence no longer claims the work was already done. It describes preparation plus a leap, or it grounds the counterphobic reading in his 'in too deep' line."
+    },
+    {
+      "id": "fan-F7",
+      "severity": "minor",
+      "passage": "Born in London in 1990, Essiedu became the Royal Shakespeare Company's first Black Hamlet in 2016,",
+      "problem": "The fact is correct, but it is the press framing he has repeatedly said wore him down. The Times (2020) says he was \"bored and disillusioned\" by it. He told the Big Issue (2023): \"There was almost more focus on that than the actual production and I found that so difficult.\" The Guardian (2022) says he \"prickled\" at it. Leading his bio with the label, here and in the 'known for' FAQ, without his response reads to fans as the framing he resisted. His resistance is also type evidence the draft already relies on (the discriminator says he 'resists identity labels').",
+      "acceptance_test": "Either keep the fact and add a short clause, here or where Hamlet comes back, on how he received the label, with source and date. Or lead the orientation with the role and the 2016 Ian Charleson Award and give the 'first Black Hamlet' fact with his response. The FAQ stays consistent with the body."
+    },
+    {
+      "id": "fan-F8",
+      "severity": "minor",
+      "passage": "He has been wary of exploitation from the start. \"For anyone to survive, you cannot live with your heart on your sleeve all the time because people will take advantage,\" he told the Observer in 2016.",
+      "problem": "In the source this sentence is a caveat. Asked his greatest talent, he said: \"Front-footedness ... what you need is genuine openness and vulnerability, a willingness to share yourself. Having said that, for anyone to survive...\" The draft gives only the caveat, as if wariness were the headline. The openness half is just as revealing, and it fits the Coel and Prebble testimony the article uses later.",
+      "acceptance_test": "The sentence gives the openness/vulnerability half of the answer alongside the wariness, or the framing 'wary of exploitation from the start' is softened to match a caveat in an answer about openness."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Hattenstone asked if he meant it. \"Genuine!\" he said, fiercely.",
+      "reason": "The cold open matches the Guardian text (2022-06-11) exactly. In three lines it shows the doubt is sincere, not a pose, and every later section pays off the curiosity it creates."
+    },
+    {
+      "passage": "was in the audience, and he admits he checked Essiedu's knees for knocking.",
+      "reason": "This is the one contemporaneous eyewitness detail (Lawson, 2014-01-27), and it is verified: Lawson was there the night Troughton lost his voice. It is the independent evidence for 'steady when it counts' and is specific to this person."
+    },
+    {
+      "passage": "Then, after a stop: \"Maybe they are thinking it.\"",
+      "reason": "The pause is in the source ('He comes to a stop'). The reversal from 'I'm projecting' to 'maybe they are thinking it' is the most revealing beat in the piece, and it shows the outward-facing doubt better than any gloss could."
+    },
+    {
+      "passage": "About 16 kilometers in he was \"cooked,\" yet \"I continued running for another three kilometres, even though my body was basically shut down.\"",
+      "reason": "The wording matches both transcriptions. The 'What the type doesn't explain' section lets a real person exceed the type, and this is its strongest anomaly."
+    },
+    {
+      "passage": "None of this is decisive. The Faith answer is one podcast exchange, spoken in therapy vocabulary and in the second person.",
+      "reason": "This is an honest limit on the article's own discriminator, followed by a concrete settle question (a director's account of him in a troubled production). Keep it through any repair to the One section."
+    }
+  ],
+  "assessment": "Fan-proxy read. I rechecked the well-known material against the saved source texts and the facts hold: the Hattenstone café exchange; Lawson's eyewitness column and Russell Beale pulling him out of the line for his own bow; the Sunday Times death-threat quotes; the Paloma Faith being-good exchange (two transcriptions agree); the Olivier category; and the December 25, 2026 premiere (TechRadar, which notes the date was moved up from 2027). The problem is selective quoting where an informed reader knows the rest of the answer. Six times the draft keeps the half of a quote that helps the Six reading and drops the half that complicates it: grief that 'flows through the work' (Four); his stated reason for taking Snape and his 'merit' answer (stability); his own four-part explanation for dismissing his success (class); his suspicion that his anger is suppressed (One); his 'clip my wings' reason for refusing big jobs; and his 2016 account of the Lear night. None of these overturns Type 6 alone. Together they make the rivals look weaker than the record does, and the Snape answers are a live test of the loss-insurance thesis. Most fixes swap a clause rather than add one, which matters at 3,861 words. Two details are worth a clause if there is room: he was born to Ghanaian parents and could not face going back to Ghana alone for six or seven years after his mother died (Guardian 2022); and Coel's 'very dependable' came in the same answer as 'I used to beg him: Answer your phone!', which complicates 'loyalty needed and loyalty given'. The similarity trip comes from the mandated triad/core-emotion sentence plus a generic Six gloss shared with recent Six pages ('people and structures that will hold', 'tests the ground before trusting it'). The argument itself is not reused, but that gloss paragraph is the least specific in the piece and could be tied to his own evidence. Keep the sensitive-allegations and contested-typing risks flagged."
+}

@@ -1,0 +1,107 @@
+{
+  "schema_version": 3,
+  "role": "subject",
+  "content_sha256": "2a0a4f5e1204ea07a867d3cf41ca71eeddd43e4bbb4efb64bb890dd2a0bed49e",
+  "evidence_sha256": "7c5f17dea7fd32aae87896661db0579c6b9b2cf26ebe61939e459be7741e72fc",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "subject-01",
+      "severity": "blocker",
+      "passage": "No reporting found by October 21, 2026 shows how his label or management relationships were formed",
+      "problem": "False as to the label, and it tilts a sensitive allegation. Three sources the draft already cites report how the Warner deal formed. American Songwriter (S04, December 2025): \"caroline\" \"went viral on TikTok overnight\" and \"He was signed to Warner Records in quick order.\" ELLE (S08, September 2026): after he self-released \"Caroline\" on TikTok in 2022 \"his inbox was flooded with record labels,\" and he says he chose Warner because they were the \"hungriest.\" Consequence (S18, January 2023): \"caroline\" drew over a million Spotify streams in its first week, before the signing. The same sentence, extended with \"or that family connections made his career,\" is the answer to the \"Is Sombr an industry plant?\" FAQ, so the error also ships in structured data. Saying no reporting exists implies the path is unexplained, which is exactly what the charge alleges. ELLE and American Songwriter were re-fetched live on 2026-10-21 and contain these lines.",
+      "acceptance_test": "Both the body paragraph and the industry-plant FAQ state the documented sequence: a self-released \"Caroline\" went viral on TikTok in 2022, label interest followed, and the Warner signing was announced in January 2023 when he was 17. That sequence is attributed to American Songwriter/Consequence, and \"hungriest\" to his own account in ELLE. Any remaining limit is narrowed to what is actually unreported (for example, how his management team was assembled or what his father's role on it is). Claims C28d/C28g are revised to match and cite S04/S08/S18."
+    },
+    {
+      "id": "subject-02",
+      "severity": "major",
+      "passage": "Sombr calls the idea \"just incredibly insane.\"",
+      "problem": "The allegation gets its premise (\"pointing to his father's events company\") and a fact placed right after it that sounds like corroboration (his father is on his team), but his rebuttal is cut down to an adjective. ELLE (S08) prints his reasoning. His father \"devotes his life to fight AIDS\": ELLE describes him as an events producer working with HIV/AIDS organizations, and his mother works in HIV/AIDS prevention. He argues that such work could not get him signed, and ELLE adds that \"no one's parent can make an artist's music pop.\" The Collegian column (S25) also describes the company as a producer of charity galas. Without the content of his answer, the reader cannot weigh it. The FAQ repeats the same imbalance (\"incredibly insane\").",
+      "acceptance_test": "The body and FAQ say what the father's events work is (charity and HIV/AIDS events, per ELLE and the Collegian). They quote or fairly paraphrase his reason for rejecting the charge. They present the father's team role as a separate documented fact, not as the clause that follows the allegation. The article still does not adjudicate the charge."
+    },
+    {
+      "id": "subject-03",
+      "severity": "major",
+      "passage": "His health is not evidence for any type, and none is read from it here.",
+      "problem": "The disclaimer is untrue of the article. (a) \"The verdicts he fears\" closes the Three case with the ELLE anxiety-attack disclosure (\"I have anxiety attacks with people coming up to me... scared that I didn't perform well\"; \"fame sharpened the same fear\"). The intro's list of \"named fears\" and \"Three, Four or Seven\" (\"not performing well\") repeat it. (b) The \"My Body Isn't Ready\" paragraph takes a lyric from a song he describes as being about a lifelong body-image struggle and says it \"states the Three's dilemma plainly.\" (c) The depression disclosure sits inside the Four case under \"The feeling is old, too,\" where it serves as evidence that his sadness is longstanding. (d) \"Going out every night\" is behavior from a period he called depressed, used for Seven (see subject-04). The evidence record's own sensitivity guidance said not to use C22 or C33-C35 as type evidence. Typing a 21-year-old partly from his anxiety attacks, depression and body image is the harm that guidance exists to prevent, and a disclaimer does not cure it.",
+      "acceptance_test": "No sentence in the body, type answer, FAQs or description offers depression, anxiety attacks, body-image distress or the \"My Body Isn't Ready\" lyric as support for or against Three, Four or Seven. Any of this material that remains sits outside the argument paragraphs, quoted in his words with dates, so the disclaimer is literally true. After the change, the named-fears list and the Three/Four/Seven weighing are reread, and the stated confidence still matches the remaining evidence."
+    },
+    {
+      "id": "subject-04",
+      "severity": "major",
+      "passage": "During the slump before \"Back to Friends\" he was \"going out every night like I was just like avoiding it,\" he told CBS.",
+      "problem": "Context removed. In the CBS extended interview (S09, captions about 12:08-12:34) Mason asks whether he thought it wasn't going to happen. His answer: \"Which is why I was so depressed. Like I like started like hanging out with the wrong people like like not even doing music as much every anymore. Like going out every night like I was just like avoiding it.\" He presents the nights out as part of a depressed period. The draft drops that explanation and relabels the behavior as Seven-style avoidance (\"Seven has its own evidence\").",
+      "acceptance_test": "The quote is removed from the Seven case. If it is kept anywhere, the reader is told he tied it to being depressed during the slump, and it is not used as type evidence (consistent with subject-03). The Seven case rests on the remaining non-health evidence: the touring high, the unserious persona, sleeping through the nominations, and Blackwell's testimony."
+    },
+    {
+      "id": "subject-05",
+      "severity": "major",
+      "passage": "Is the sadness the self, or the brand?",
+      "problem": "The article's framing question asks whether his sadness might be marketing. The same profile later quotes his September 2026 disclosure of a \"deep, deep depression,\" and the surrounding ELLE text describes the darkest period of his life. Together, the intro invites readers to treat a disclosed mental-health struggle as a possible branding device. Nothing in the record supports that, and the Three-versus-Four question does not need it. The real question is whether the somber persona or the drive for recognition is the organizing motive.",
+      "acceptance_test": "The intro's question is reframed around the stage name, persona or motive (for example, whether the somber persona or the striving sits at the center). No sentence suggests his sadness, depression or emotional disclosures may be performed or a \"brand.\" The point that \"the authenticity story also does professional work\" may stay, because it concerns his rhetoric about authorship, not his feelings."
+    },
+    {
+      "id": "subject-06",
+      "severity": "major",
+      "passage": "He answered on TikTok that he had \"never uttered a serious word in my life\" and that her video had started \"a massive body-shaming hate train,\" without directly addressing her claims about the jokes.",
+      "problem": "Two omissions make his reply look evasive. (a) The critic herself mocked his looks. Per The FADER (\"slender man? ... the weird dancing dude\") and Digital Music News (Slender Man and Napoleon Dynamite comparisons), those jabs were what his \"body-shaming\" complaint referred to. The draft gives no referent, so the complaint reads as deflection. (b) CNN's wire report, which the draft cites, says he \"took umbrage with being attacked for the tone of his jokes\": the \"never uttered a serious word\" line was his answer about the jokes. What he left unaddressed is narrower, her claim that some jokes were inappropriate for a young crowd (the Collegian says he gave no \"clear response\" to that). He also said, \"Everyone is welcome in my concert.\" The FADER and the CNN wire copy were re-fetched live on 2026-10-21.",
+      "acceptance_test": "The passage notes, attributed to FADER or DMN, that the critic compared his appearance to Slender Man. It presents \"never uttered a serious word\" as his defense of the tone of his jokes. It narrows the unaddressed part to her specific claim that some jokes were inappropriate for the crowd's age. Her allegations stay attributed, and the \"bark\"/\"daddy\" claims stay unprinted."
+    },
+    {
+      "id": "subject-07",
+      "severity": "major",
+      "passage": "A defense first, then a new stance once he saw how it landed: that fits a Three's attention to reception.",
+      "problem": "The sentence imputes a motive and leaves out his own account. In ELLE (S08) he explains: \"I think responding only makes it worse. I was a teenager when I was kind of just pushed into the spotlight... I thought I needed to defend myself.\" He adds, \"I'm an awkward kid. I don't know what to do in weird moments,\" says the video made him see \"that is weird,\" and commits: \"I plan to never say or do something that would even make someone uncomfortable again.\" The draft prints two non-adjacent fragments (\"I wouldn't respond now\" ... \"That video kind of woke me up\") with none of the reasons or the commitment, then attributes the change to \"how it landed.\" The alternative it offers (\"with a publicist\") is also an image explanation. His stated reason, that he came to see the behavior as wrong, never appears as a candidate explanation.",
+      "acceptance_test": "The paragraph gives his stated reasons and his commitment in his words, attributed to ELLE (September 2026). It marks the gap between the quoted fragments. It sets his own account (he came to see the conduct as inappropriate) beside the Three reading and the growing-up/publicist reading, without asserting which motive drove the change."
+    },
+    {
+      "id": "subject-08",
+      "severity": "major",
+      "passage": "The Three reading notices that the humble version arrived after the bold one had paid off, when humility plays better.",
+      "problem": "The \"story turned modest\" argument trims the context of its quotes, then imputes a strategic motive. NYLON (S06): \"I am someone who would have been happy doing anything creative as a job, as long as I could get by. There was no f*cking possibility that I could be a successful artist. You are told it's one in a million.\" Broski (S14): as a child he would say \"I want to be a pop star. I want to be a rock star,\" and people, \"literally... my parents,\" told him it was \"one in a billion\"; then \"all I wanted to do was make music. It wasn't I didn't want to be famous or known. I wanted to just do it for a career.\" In context, both describe long odds and wanting music as a job, not a denial of ambition. The draft's \"Yet in that same Broski answer\" turns one coherent anecdote into a self-contradiction, and \"when humility plays better\" assigns a calculated motive that no source supports. The tension between 1883 (the Garden \"will happen\") and Fallon (\"1,000-seater... all I ever dreamed of\") is genuine and can make the point alone.",
+      "acceptance_test": "The NYLON and Broski quotes either carry their context (the odds he was told; doing music \"for a career\") or are no longer used as evidence that he revised his story. \"When humility plays better\" is removed, or explicitly flagged as speculation that no source supports. \"Once the hits arrived, the story turned modest\" is restated as an observation about the 1883/People-versus-Fallon sequence only."
+    },
+    {
+      "id": "subject-09",
+      "severity": "minor",
+      "passage": "He manages how he is seen, and the managing has grown.",
+      "problem": "Author inference stated as fact. The support is \"they can't PR train me\" (Entertainment Tonight, which follows \"they've tried, but\") and the NYLON publicist line. NYLON reports that line as a joke (\"'Now I'm so scared,' he jokes\") and frames it as a young star learning that his jokes no longer land with a bigger audience.",
+      "acceptance_test": "The sentence is marked as interpretation or cut, and the NYLON line is presented in its joking register."
+    },
+    {
+      "id": "subject-10",
+      "severity": "minor",
+      "passage": "His opening of the George Michael tribute at the September 27, 2026 VMAs drew online criticism",
+      "problem": "The criticism is reported without his side. Billboard (S28), already in the record, reports that he wore one of Michael's personal Faith-era jackets (per a spokesperson). It also quotes him, via Vogue, admiring that Michael \"wrote, produced, and performed all his own music... I wish I could have gotten to meet him.\" Yahoo (S29) describes the criticism as George Michael fans saying the performance did not do the music justice. Unspecified \"online criticism\" invites readers to imagine worse. The FAQ repeats the item.",
+      "acceptance_test": "The settle-signal item names the substance of the criticism (fans saying it did not do Michael's music justice, per Yahoo) and adds one attributed clause on his stated homage (told Vogue, as quoted by Billboard). The FAQ wording stays consistent."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Mason suggested that \"Caroline\" had validated him. \"It validated me,\" he agreed.",
+      "reason": "It shows the interviewer's framing before his agreement, so the reader sees a prompted answer for what it is. This is a model of fair attribution on the record's most thesis-bearing statement, and the CBS captions confirm it."
+    },
+    {
+      "passage": "That is how a TikTok-era career works, so on its own it says little about motive.",
+      "reason": "It separates professional incentive from personality, which is the core fairness duty for a young artist whose whole public record is promotional."
+    },
+    {
+      "passage": "\"Wanted to be seen\" could carry a Four's sense of lack just as well, and one answer to a sympathetic interviewer can't settle it.",
+      "reason": "It places an honest limit on the single quote that most invites overreach. It also refuses to build a childhood-wound story from one answer."
+    },
+    {
+      "passage": "No teacher, classmate or early collaborator has described him on record, and Berg has not been quoted.",
+      "reason": "It states the record's gap plainly instead of filling it with invented testimony or imagined interiority."
+    },
+    {
+      "passage": "Some of this should stand however it settles. At 18 he called the Garden, and in 2026 he said he had only dreamed of a 1,000-seater.",
+      "reason": "The ending rests on verified, dated statements in his own words and leaves his health and the controversies out of the conclusion. That conclusion stays true whichever type a later run settles on."
+    }
+  ],
+  "assessment": "Subject-fairness read of the frozen open-case draft. Open-case eligibility holds: he is an adult (21 as of October 2026); the breakout is recent (first Hot 100 entry April 2025); research opened 38 sources, including about 45,000 caption words; and the record is thin because it is young and promotional, not because research was shallow. Title, description, type answer and FAQs say \"leading read\" and \"held loosely\" and do not overstate confidence. The alternatives get real cases, and the settle signals are concrete. The draft already does much right: the allegations are attributed to the critic and the bark/daddy claims are not printed. His sister, his exes, dating rumors and cannabis use are left out. The \"can't see a future\" line and the eating disclosure are excluded, and prompted answers are shown as prompted. The fairness problems cluster in four places. (1) The industry-plant passage and FAQ contain a factual error: the draft says no reporting explains how the label relationship formed, but American Songwriter, ELLE and Consequence, all cited, report the viral-\"Caroline\"-to-Warner sequence. The passage also strips the substance from his rebuttal (his father's HIV/AIDS charity events work). (2) Mental-health disclosures are used as type evidence (anxiety attacks for Three, depression in the Four case, a depression-period behavior relabeled as Seven, and a body-image lyric for Three) while the article says none are. The intro's \"sadness... or the brand\" question compounds this. (3) The October 2025 TikTok episode omits that the critic mocked his appearance and that CNN describes his reply as a defense of his jokes' tone. The 2026 reversal is attributed to reception while his own stated reasons and commitment are left out. (4) Several modest or joking statements are trimmed of context and read as image management (\"when humility plays better,\" \"He manages how he is seen\"). None of these changes the open-case verdict, but removing the health-based support will thin the Three case, and the editor should recheck that \"leads, narrowly\" still holds. Sources opened for this review: research-stage saved copies of ELLE, NYLON, The FADER, Complex, Digital Music News, the CNN wire copy (localnews8), the Daily Collegian, Consequence and American Songwriter, plus the CBS extended, Broski, Fallon and Owen Thiele caption transcripts. ELLE, American Songwriter, The FADER and the CNN wire copy were re-fetched live on 2026-10-21 and matched. Not opened: the original TikTok videos and Vogue's George Michael interview; no audio was re-transcribed. Similarity diagnostic: not tripped (maximum 0.039 against a 0.04 threshold, no shared phrases; the top pairs are ordinary type-vocabulary lines), and I found no meaningful reuse. Risk flags: sensitive_allegations and contested_typing stay true."
+}

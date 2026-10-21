@@ -1,0 +1,2118 @@
+{
+ "schema_version": 3,
+ "subject": "sombr",
+ "status": "ready",
+ "research_tasks": [
+  "Research log (2026-10-21, first run, mode create, empty baseline, no research notes or prior evidence). Opened 38 sources. Read in full: i-D (S01), Billboard 2025 (S02, S03), American Songwriter (S04), the NPR transcript (S05), NYLON (S06), Variety 2026 (S07), ELLE 2026 (S08), 1883 Magazine (S17, through r.jina.ai), Consequence (S18), Atwood (S19), and People (S20, through the Wayback Machine). Transcribed YouTube captions and read in full: CBS Mornings extended (S09, about 34 minutes) and broadcast (S10), Owen Thiele (S11, 46 minutes), Switched On Pop (S12, 27 minutes), Spout (S13), Brittany Broski (S14), Variety Behind the Song (S15), The Tonight Show (S16), Entertainment Tonight (S33) and Quenlin Blackwell (S38); about 45,000 caption words in all. A LARRAY comedy video (5MI-2MPwh3U) was also read and set aside as all bits. Controversy and testimony coverage: S21-S32. Evidence was gathered before a type was chosen. Outcome: no defensible discriminator; the subject meets open-case eligibility (adult; star-level public career since spring 2025; record made of promotional cycles plus friendly testimony). Status ready, profile_format open_case, leading read Type 3 at low confidence, Type 4 as the alternative, Type 7 live; Types 6 and 2 considered and set aside. Risks: contested_typing (required for open cases) and sensitive_allegations (concert-behavior allegations including sexualized banter before a young audience, C26; industry-plant/nepotism allegations, C28; extensive mental-health, eating and body-image disclosures, C33-C35), so the six-role jury applies.",
+  "Accuracy check (2026-10-21). The You Are the Reason Tour began July 22, 2026 (Mexico City) and is in its North American arena leg in October 2026; the hometown finale is two nights at Madison Square Garden, November 23-24, 2026, with Oceania and European legs through July 14, 2027 (S37, S08, S16). 2026 singles: \"Homewrecker\" (February 6), \"Potential\" (April 17), \"My Body Isn’t Ready\" (June 25). The second album is in progress (ELLE, September 22, 2026) but its title and date are unannounced; fan wikis list a possible working title, not confirmed. He opened the George Michael tribute at the September 27, 2026 VMAs, drew online criticism and had made no public response as of today. He received Variety’s songwriter honor from Lindsey Buckingham on August 5, 2026, and was among the most-awarded artists (three wins) at the May 25, 2026 AMAs. The backlog note’s \"possible Grammy noms Nov 16\" was not verified and should not be printed. open_case.next_review is 2026-12-15, after the Garden shows and any year-end album or awards news.",
+  "Drafting guidance (open case). Follow the standard’s \"Open case profiles\" section. Open with who he is and why people are searching (the arena tour ending at Madison Square Garden; Swift’s \"Sombr is the future\"), then name the open question: is \"somber\" the self or the image? The strongest verified, durable hook: in November 2023, at 18 and with no hit, he told 1883 Magazine that Madison Square Garden was his dream, \"but it will happen. I know it!\" (S17). In November 2026 he headlines it twice, and in June 2026 he told Jimmy Fallon his life goal had been \"a 1,000-seater\" (S16). Other strong verified details: Variety’s tally of \"cocky\" 12 times and \"grateful\" 12 times (C20); his line, in his childhood bedroom, that he never felt good at anything \"until other people told me that I was good\" (C14); A/B testing choruses on TikTok (C13); fighting Tony Berg to keep imperfect vocals (C18); the ELLE writer watching him watch her listen (C32). Show the record dated and sourced, with its limits. Set Three beside Four and Seven with the best evidence for and against each, and say plainly what professional incentive explains (TikTok strategy, image care, authenticity talk as an answer to industry-plant claims). Include an H2 beginning \"## What would settle it\" built from open_case.settle_signals. Keep \"## What is Sombr’s personality type?\" with an answer of at most 60 words in \"leading read, held loosely\" language, e.g. \"Leading read: Type 3, held loosely. Type 4 is the live alternative, with 7 still in play.\" Target 1,200-2,500 words. Titles, description and FAQs must say \"leading read\" or \"open case\", never \"is a Type 3\". Set enneagram: 3, type: ['celebrity'] per site convention, published: false. Use his stage name as he styles it in running text per site convention (the press uses both \"Sombr\" and \"sombr\"); his legal name is Shane Michael Boose.",
+  "Quotation cautions. (a) S09-S16, S33 and S38 are YouTube caption transcripts without reliable speaker labels; check every printed quote against the audio at the timestamp in the source locator, keep or mark disfluencies honestly, and do not tidy the wording into something he did not say. S16 (Fallon) captions look professionally made but still need checking. (b) The NPR transcript (S05) is provisional by NPR’s own note. (c) Variety and i-D both misname the album \"I Barely Knew Her\"; the title is I Barely Know Her. (d) American Songwriter wrongly says he won \"best alternative artist\" at the VMAs; it was Best Alternative Video for \"Back to Friends\". (e) Swift’s New York Times quote is via L’Officiel (S27); open the NYT interview before quoting it as the Times. Her October 2025 SiriusXM remark was not opened; describe it only generally. (f) His George Michael quotes are from Vogue via Billboard (S28); attribute as \"told Vogue\". (g) \"The biggest artist in the world\" is a phrase inside People’s paraphrase (S20); attribute it as reported. (h) The \"bark\"/\"daddy\" allegations are the TikTok critic’s claims as relayed by Complex and the Daily Collegian (S24, S25), not observed. (i) Cover Media, Rova, ARY News, The Tab, Tribune and BollywoodShaadis only syndicate the Variety and ELLE quotes; cite the originals (S07, S08). (j) Variety’s \"cocky\" and \"grateful\" counts are the writer’s tallies, not a transcript. (k) Do not attribute the Lindsey Buckingham quote to Sombr: Buckingham is speaking (S32). (l) ELLE’s \"inked his record deal with Warner Records at 16\" conflicts with the January 2023 announcement at 17 (S18); use \"at 17\" for the signing.",
+  "Sensitivity. Mental health: he has disclosed depression (lifelong, and a \"deep, deep depression\" in 2026 with \"darker points than I’ve ever seen\" and not being able to \"see a future\"), anxiety attacks, eating difficulties and body-image distress (C22, C33-C35). Use these only in his words, dated and in context, without diagnostic labels (\"eating disorder\", \"clinical\") and without speculation about risk; never use them as type evidence; never make them the hook or the ending; and do not quote the \"can’t see a future\" line in isolation or in a headline, description or FAQ. Do not quote the People line about dying and being remembered (S20) or the Virginia Woolf reference in 1883 (S17). If the draft discusses his 2026 depression disclosure at any length, follow responsible-reporting practice (no sensational framing; consider a brief support-resource note consistent with site practice). Allegations: attribute every concert-behavior claim to the TikTok critic, give his responses then and in 2026 (C26, C27), and do not repeat \"bark\"/\"daddy\" as fact. Present the industry-plant charge as an allegation with his rebuttal and the documented facts (his father’s company; his father on his team), and do not adjudicate (C28). Privacy: do not name or characterize his sister; do not identify the people behind \"Back to Friends\" or \"Homewrecker\"; do not repeat dating rumors (an Addison Rae dinner was tabloid fodder); mention teenage cannabis use only in his words, if at all. Do not characterize his private relationship with Taylor Swift.",
+  "Follow-ups worth doing before or at the next refresh: (1) open Swift’s April 28, 2026 New York Times interview and her October 2025 SiriusXM Hits 1 remarks; (2) find any on-record comment from Tony Berg, LaGuardia faculty or classmates, or his manager; (3) listen to S09 at 05:00-07:30, 12:00-14:30 and 30:30-34:00, and S11 at 11:00-11:30, to confirm wording and speaker; (4) look for an extended CBS or radio interview from awards season, and for the Vanity Fair piece cited by radio outlets about the Swift shout-out; (5) watch for his response to the George Michael tribute criticism and for second-album announcements; (6) if the original TikTok videos (the critic’s and his October 2025 reply) are accessible, transcribe them rather than relying on summaries.",
+  "Draft log (2026-10-21, mode create, empty baseline). Wrote draft.md as an open case: leading read Type 3 at low confidence, Type 4 the live alternative, Type 7 in play, Types 6 and 2 set aside. checkDraft: 2,807 words, no blockers, 0 em dashes; 58-word type answer. No new source was added. Excerpts/locators of already-opened sources were extended to cover what the draft prints (S01, S04, S06, S09, S12, S13, S14, S16, S17, S19); S01's date updated to the byline date on the saved page (AUGUST 18, 2025). Claims removed because the draft does not print them: C19 (impress Tony), C20 (Variety's grateful/cocky tallies), C24 (offstage nerves/onstage swagger), C25 (online persona, digital team), C30 (Swift song choice), C34 (eating disclosure, left out on sensitivity grounds), C36 (visibility ambivalence), C39 (BRIT stunt), C44 (Grammy-nominee permanence). Their sources are retained; type_hypothesis text was revised to drop references to C25, C34 and C39 and C19, and for_claim_ids now omits C19, C20 and C44 and adds C14b, C05b and C11f. Sub-claims (C01b-C47) and interpretation/metadata claims (I01-I16, M01-M08) map every printed quotation, factual statement and metadata claim to an exact passage.",
+  "Draft-stage quote checks DONE: every printed quotation was read against the saved source texts and caption transcripts in /tmp/sombr-research/raw and /tmp/sombr-research/subs (scratch; may not survive), with surrounding context. Caption quotes keep repeated words ('All my all my hits', 'I'll I'll finish it', 'once you're a a public figure, um', 'I I I me and only me') and the body says so. NOT DONE (turn limit): no audio second transcription. yt-dlp audio downloads returned HTTP 403 for the default, mweb-audio, ios and tv clients; a format-18 mweb download of the CBS extended interview (fa8qodzIUoQ) finally succeeded into /tmp/sombr-draft-audio but was not transcribed. A verifier should listen at: S09 06:00-07:30 ('be a disappointment'; 'it's a lie... once you sign a record deal'; 'me and only me'), 09:30-11:30 (chorus posted; 'every single day'), 12:15-14:30 ('going out every night'; 'wanted to be seen'; 'until other people told me'; 'It validated me'), 28:00-28:30 ('the same kid'), 30:30-33:00 ('vulnerable real thing'; 'super scared'; 'good friends for fun'; 'very self-conscious'); S12 11:30-13:00 and 22:00-24:00; S14 12:00-15:00; S11 11:00-11:30, 18:30-19:00, 36:00-36:40; S33 00:50-01:00; S16 04:40-05:20 (professional captions).",
+  "Draft decisions on sensitive material: no full birth date (only a radio-station page cited by Wikipedia supports July 5, 2005), so no birth_date field; age printed as '21 as of October 2026'. The ELLE depression disclosure is quoted briefly in his words with his own framing ('It's what I signed up for... I'm just somber, man'), not as the hook or ending, with an explicit statement that no type is read from his health; the 'can't see a future' line, the eating disclosure, the People death joke and the 1883 Virginia Woolf reference are not used. Because the disclosure gets two sentences rather than extended discussion, no support-resource note was added (people drafts on the site carry none); the jury may disagree. The concert-behavior allegations are attributed to the TikTok critic via CNN; the 'bark'/'daddy' claims and the Slender Man/Napoleon Dynamite comparisons are not printed. The industry-plant charge is presented as an allegation with his denial and the documented fact of his father's team role, not adjudicated. His sister, the people behind 'Back to Friends' and 'Homewrecker', dating rumors and cannabis use are not named or described ('teenage angst and rejection' is quoted without the 'pothead' clause).",
+  "Length note for the editor: checkDraft counts about 2,807 words, roughly 12% above the open-case target of 1,200-2,500 (well inside the 4,500 ceiling). First cuts if the jury wants it shorter: the Swift NYT/L'Officiel sentence (C29b), the ELLE listening-session paragraph (C32, C32b), the Entertainment Tonight/NYLON PR paragraph (C21, C21b), and the 'Three, Four or Seven' summary, which partly restates earlier sections. Budget any additions against cuts; edit stages on this pipeline have tended to add length."
+ ],
+ "accuracy_checked_at": "2026-10-21",
+ "risks": {
+  "sensitive_allegations": true,
+  "contested_typing": true,
+  "historical_source_uncertainty": false,
+  "major_thesis_change": false
+ },
+ "sources": [
+  {
+   "id": "S01",
+   "url": "https://i-d.co/article/sombr-interview-album-i-barely-know-her/",
+   "title": "Can Sombr Save Rock ‘n’ Roll? (Sombr Interview on His Debut Album, Addison Rae, and Rock Stardom)",
+   "speaker": "Sombr (Shane Boose), interviewed in person at the Chateau Marmont and by phone by Douglas Greenwood (i-D)",
+   "date": "2025-08-18 (byline date on the saved page; Wikipedia cites August 17, 2025)",
+   "locator": "Paragraphs 2-4 (album unfinished days before deadline; \"Is my mind going insane\"; \"They don’t come out of a fucking factory\"); paragraph 5 (writes alone at night, Tony Berg \"my mentor\", \"No co-writers or committees\"); paragraph 6 (ex texted after Fallon; \"if all art was hiding the truth\"); paragraph 7 (online persona; \"I actually can’t read\"); paragraph 8 (Lower East Side childhood, \"very emotionally complicated child\", father present and nodding); paragraphs 11-12 (\"I will never think it’s complete\"); closing phone call (\"I would pay to be on tour\", \"closest thing to drugs\", \"I’m so grateful that people know who I am\").",
+   "excerpt": "“Is my mind going insane, or are people gonna like this?” [...] “They don’t come out of a fucking factory.” [...] “That’s my mentor,” he says. “Fucking best guy ever.” That’s it. No co-writers or committees. [...] “It’s definitely got me in trouble, but if all art was hiding the truth, art would fucking suck,” [...] “I was a very emotionally complicated child,” he says. “My dad can confirm that.” [...] “But you can’t make music without being a little bit crazy.” [...] “There’s not necessarily something missing, it’s just that I will never think it’s complete,” [...] “I would pay to be on tour,” [...] “the closest thing to drugs.” [...] “I’m so grateful that people know who I am,” he says. “It’s just the life I chose. [...] Recently, after performing “Back to Friends” on Fallon, he came off stage to several texts and missed calls from the girl it’s about.",
+   "context": "Long reported cover profile from early August 2025, before the album release and before the Grammy nomination, with his father sitting beside him (the writer reports the father nodding at \"very emotionally complicated child\"). Observations (the \"hot waif\", the self-satirizing TikTok persona) are the writer’s. The writer misnames the album \"I Barely Knew Her\" in two places; do not copy that. The ex who texted after Fallon is not named; keep her unnamed. Draft stage: the saved page text carries the byline date AUGUST 18, 2025.",
+   "kind": "primary",
+   "access": "opened"
+  },
+  {
+   "id": "S02",
+   "url": "https://www.billboard.com/music/rock/sombr-back-to-friends-undressed-rock-breakthrough-1235954372/",
+   "title": "Sombr ‘Didn’t Want to Just Do Ballads Forever’ — So He Pushed the Tempo and Scored Two Hot 100 Hits",
+   "speaker": "Sombr (Shane Boose), interviewed by Jason Lipshutz (Billboard)",
+   "date": "2025-04-24",
+   "locator": "Paragraphs 1-2 (Radiohead, Buckley, Bridgers); paragraph on streaming totals (\"They 100 percent break my brain\"); paragraph on \"Caroline\" and the signing; paragraph beginning \"Sombr, who still writes and produces all of his songs\" (\"I’m a really hard worker... manifest\"); \"I didn’t want to just do ballads forever\"; closing (\"It’s all I’ve ever wanted\").",
+   "excerpt": "“They 100 percent break my brain,” he says of the streaming totals. [...] “I was just making music,” he says, “and I’m a really hard worker. I like to think that, if you really put in the hours and manifest what you want, it will happen.” [...] “I didn’t want to just do ballads forever.” [...] “It’s getting wild, and I love it. It’s all I’ve ever wanted.”",
+   "context": "Trade-press interview during his breakout, when \"Back to Friends\" was climbing the Hot 100 and he was opening for Daniel Seavey. Note that the claim he \"never got impatient\" while waiting for a breakthrough conflicts with his later accounts of discouragement and fear of being dropped (S04, S09).",
+   "kind": "primary",
+   "access": "opened"
+  },
+  {
+   "id": "S03",
+   "url": "https://www.billboard.com/music/pop/gigi-perez-sombr-self-producer-pop-hits-1236042825/",
+   "title": "For Artists Like Gigi Perez and Sombr, Self-Producing Is ‘An Experiment and an Adventure’",
+   "speaker": "Sombr, interviewed by Jason Lipshutz (Billboard); feature also covers Gigi Perez",
+   "date": "2025-08-14 (Aug. 16, 2025 print issue)",
+   "locator": "Sombr paragraphs: \"It’s authentic, straight from me\"; GarageBand at the end of elementary school, Logic in middle school, never considered another producer; \"hit-making factory\"; 50-70% at home then Sound City with Tony Berg; \"I am old-fashioned... I agonize over lyrics.\"",
+   "excerpt": "“It’s authentic, straight from me,” [...] he says he never considered relying upon another producer for his work. [...] “It’s just me in my room, making stuff that I want to hear and based off what I feel. And that’s why it works in my mind.” [...] “I agonize over lyrics. I really have no interest in AI and how it relates to music.”",
+   "context": "Trade feature on self-producing pop artists, a week before his album release. The \"factory\" and \"straight from me\" framing recurs across 2025 and doubles as his answer to industry-plant talk (C28).",
+   "kind": "primary",
+   "access": "opened"
+  },
+  {
+   "id": "S04",
+   "url": "https://americansongwriter.com/december-2025-digital-cover-story-the-unfiltered-rise-of-sombr-whose-vulnerability-and-diy-vision-launched-a-new-kind-of-pop-star/",
+   "title": "December 2025 Digital Cover Story: The Unfiltered Rise of Sombr, Whose Vulnerability, and DIY Vision Launched a New Kind of Pop Star",
+   "speaker": "Sombr, interviewed at his Los Angeles home by Lily Moayeri (American Songwriter)",
+   "date": "2025-12-08",
+   "locator": "Paragraph 3 (\"I couldn’t imagine my 17-year-old self\"); paragraph on Berg’s reading list (\"It felt like homework\"); paragraph on the post-signing slump (\"I was definitely discouraged... you get dropped\"); paragraph on \"back to friends\" (\"Everything before ‘back to friends’...\"); Sound City paragraph (\"I want to impress Tony\"); distortion paragraph; depression paragraph (\"My whole life I’ve dealt with some aspect of that\"); closing paragraphs (\"my world has lost its innocence\", \"the world needs more individuals\").; process paragraph ('Before he brings a song to Berg'); 'Interestingly, back to friends was made without Berg's production involvement'",
+   "excerpt": "“I was definitely discouraged,” he says. “I was signed at 17. My ego was stroked so hard. I left school. I was making a bunch of stuff and wasn’t seeing the numbers my label had hoped for, which was really hard because I was so passionate about the music. When all of a sudden you’re thrown into a commercial thing, and you’re competing, if you don’t do numbers within a certain amount of time, you get dropped. That was a big fear I definitely felt creeping in.” [...] “Everything before ‘back to friends’ was me making what I thought people wanted to hear, or what I thought would work,” says sombr. “That just wasn’t the truth. It’s a mind fuck having your passion become a job. ‘back to friends’ was when I got past that and said, ‘I’m going to make what I feel like making.’” [...] “Now, every time I write a song at home, I want to impress Tony. I don’t want him to have notes. I don’t want to bring anything other than a song better than the song I brought the last time. He really pushed me in that way. I have high standards for myself. [...] “My whole life I’ve dealt with some aspect of that, and I was trying to figure it out, still figuring it out,” [...] “To be honest, my world has lost its innocence,” he says. “Everything is a much more real now and feels like work. I want to make a project without anything in mind. I want to do more of what I want.” [...] “But I think the world needs more individuals in music.” [...] Before he brings a song to Berg, sombr completes it at home, alone, the only way he can be truly vulnerable. [...] Interestingly, “back to friends” was made without Berg’s production involvement. [...] in the nearly three years between “caroline” and “back to friends,” sombr released almost 20 songs, none of which made a significant impact.",
+   "context": "The most reflective print interview of the 2025 cycle, given just after the Grammy nomination. \"That\" in \"My whole life I’ve dealt with some aspect of that\" refers to being depressed, which the writer paraphrases immediately before the quote; quote it with that context. The piece wrongly says he won \"best alternative artist\" at the VMAs; the award was Best Alternative Video (S34).",
+   "kind": "primary",
+   "access": "opened"
+  },
+  {
+   "id": "S05",
+   "url": "https://www.kbia.org/2025-09-07/the-artist-known-as-sombr-discusses-his-new-album-growing-up-in-new-york-and-more",
+   "title": "The artist known as sombr discusses his new album, growing up in New York and more (NPR Weekend Edition Sunday)",
+   "speaker": "Shane Michael Boose, interviewed by Ayesha Rascoe (NPR); transcript republished by KBIA",
+   "date": "2025-09-07",
+   "locator": "NPR transcript: opening (\"it really, really does feel like suffering\"); Lower East Side answer; LaGuardia arias answer; distortion answer; closing exchange on love (\"I don’t think I’ve been truly in love\", \"I felt so obsessed\").",
+   "excerpt": "BOOSE: I definitely have experienced many times seeing, you know, the one I loved with someone else, and it's really - the feeling you get when you see that and you still haven't moved on is like - it really, really does feel like suffering. [...] I like the amount of distortion on the vocal to reflect how emotional what I'm singing is about. It's a way for me to express emotions that I don't feel like I've fully expressed just from singing into a microphone. [...] No, I don't think I've figured it out because I don't - I don't think I've been truly in love. [...] I felt so obsessed and like I would be with this person for the rest of my life, and I would do anything for this person.",
+   "context": "Short public-radio interview two weeks after the album release. NPR notes its transcripts are produced on deadline and may differ from the audio; check printed quotes against the broadcast.",
+   "kind": "primary",
+   "access": "opened"
+  },
+  {
+   "id": "S06",
+   "url": "https://www.nylon.com/entertainment/sombr-nylon-guys-interview-new-album-tour",
+   "title": "Sombr On New Music, Dating While Famous & Overcoming TikTok ‘Cringe’",
+   "speaker": "Sombr, interviewed by video call from Barcelona by Tomás Mier (NYLON)",
+   "date": "2026-04-01",
+   "locator": "Opening scene (vintage loafers, accents); \"This feels like a simulation... I’m never going to have a hit\"; Grammy night (\"bawling in my mother’s arms\", \"I will always be a Grammy nominee\"); family paragraph (father Andy, event producer, part of his behind-the-scenes team; Cherry Valley); \"a million f*cking TikToks every week... cringe until you win\"; \"I’m a little too normal\"; publicist/TMZ paragraph; restaurant anecdote; privacy (\"act like I’m always being watched\"); \"if the album flops\"; \"Homewrecker\" subject (\"he’s f*cking pissed\"); BRIT Awards stunt; 2026 wishes.; Grammy paragraph ('no f*cking possibility'); signing paragraph ('which paired him with Tony Berg')",
+   "excerpt": "“Bro, I’m never going to have a hit.” [...] “That’s something they can never take away from me: I will always be a Grammy nominee,” [...] learned how to play guitar from his dad, Andy, a successful event producer who’s played in a number of indie bands and is also part of Sombr’s behind-the-scenes team. [...] He fueled that momentum with relentless (mostly) self-aware promo, making “a million f*cking TikToks every week,” he says. “Even if some people found it cringe, it’s cringe until you win.” [...] I’m just a normal motherf*cker,’” he says. “I’m a little too normal.” [...] “Now I’m so scared,” he jokes. “Now I try to do a prank with another artist or something, and there’ll be a TMZ article about it, I have to hear from my publicist, and it’s just… not the same anymore.” [...] “I just have to accept that I don’t have privacy,” he continues, “which is not something I’ll ever complain about because this is what I wanted. But I have to always act like I’m always being watched. Because I am.” [...] “And if the album flops, f*ck it. As long as I am happy with what I made.” [...] “Apparently he’s f*cking pissed. [...] There was no f*cking possibility that I could be a successful artist. You are told it’s one in a million. [...] In February, he released “Homewrecker,” his poppiest song to date [...] he says he’s trying to tone it down and leave more of the silly posts to his digital team. [...] In early 2023, he signed to Warner Records, which paired him with Tony Berg",
+   "context": "Cover interview conducted in late February 2026 during the European tour, days before the BRIT Awards (published April 1). The writer supplies the description of his father as part of his team and of \"Homewrecker\" as \"his poppiest song to date\". He says he will not confirm whether the restaurant meeting was a date; do not speculate. Do not identify the real people behind \"Homewrecker\".",
+   "kind": "primary",
+   "access": "opened"
+  },
+  {
+   "id": "S07",
+   "url": "https://variety.com/2026/music/features/sombr-body-image-pop-stardom-interview-1236826139/",
+   "title": "Sombr on Body Image, Eating Habits and Rise to Pop Stardom (Variety Power of Young Hollywood cover)",
+   "speaker": "Sombr (Shane Boose), interviewed in a car, backstage and at a show by Ethan Shanfeld (Variety)",
+   "date": "2026-08-05",
+   "locator": "Brooklyn underplay scene; car interview (blessing/grateful counts; \"always look camera-ready\"); LaGuardia and \"Caroline\" paragraphs (\"scared to be judged\", \"I was so cocky\", Columbia email, \"I deserve a lot more than dinner\"); dropout paragraph (\"high school-dropout success story\"); Berg paragraph (\"cocky (the word comes up 12 times...)\", \"I thought I knew everything\"); touring paragraph (\"crew of 30 people\", \"biggest high\"); fame paragraphs (\"serving you forever\", \"I’m OK with people knowing everything about me\", rumors, \"I know who I am\"); body-image paragraphs (\"My Body Isn’t Ready\"); Taylor Swift paragraphs (letter and necklace, Songwriters Hall of Fame song choice); eating paragraphs; dating paragraphs.",
+   "excerpt": "(Blessing is a word Boose says three times in the first four minutes of our conversation. Grateful is uttered 12 times. Three honoreds. One lucky.) [...] it has forced him to “always look camera-ready.” [...] He was more concerned about what his peers would say in group chats than about making it big. [...] “When you’re in high school, you’re scared to be judged.” [...] “But then I realized, ‘Wait, you guys also want to own my music. So I deserve a lot more than dinner.’” [...] “Either I’ll be a high school dropout and also be dropped by my label, or I’ll be a high school-dropout success story.” [...] Boose, who describes himself as cocky (the word comes up 12 times in our interview), credits Berg with keeping him “in check” and teaching him to have higher standards for his writing. “I thought I knew everything,” Boose says, “and he basically showed me that I knew nothing, and that I had a lot of work to do.” [...] “I’m a kid who dropped out of high school who now has a crew of 30 people on tour with me,” he says, “and they’re looking to me to lead the charge.” [...] “Touring is the biggest high you can get as an artist,” he says. “For me, it’s more about how I can survive not being on tour.” [...] “I’m OK with people knowing everything about me,” [...] “Now, I’ve just accepted it. Everyone can say whatever the fuck they want about me. I know who I am.” [...] “I want people who look up to me that might not be happy about their body image to understand that I’m not always happy about my body image,” [...] “I asked Taylor to pick the songs for me, because I wanted the night to be fully about her, but she wouldn’t allow it,” he says. “She was like, ‘No, I want you to pick the songs.’ It put me under a lot of pressure, but she was really happy with my choices.” [...] “I have issues with eating,” he says. [...] “Most of the time before shows I’m literally eating against my will, so I have enough energy to get through the show.” [...] “It’s been my lifelong struggle. I only eat to survive; I don’t eat for pleasure most of the time.” [...] “Does she just like me for the things I do?” he sings suspiciously of a love interest on “My Body Isn’t Ready.” (“That’s a lyric I couldn’t have written a year ago,” Boose notes.) [...] “I don’t want to date someone who wants to date me for the wrong reasons.”",
+   "context": "The longest reported profile, interviewed the day after \"My Body Isn’t Ready\" came out (June 25-26, 2026) with his father, publicist and an assistant in the car; published August 5. The word counts (\"cocky\" 12 times, \"grateful\" 12 times) are the journalist’s tallies, not a transcript. The writer misnames the album \"I Barely Knew Her\"; do not copy. The eating and body-image passages are health disclosures: quote them only as his words, dated, without diagnostic labels.",
+   "kind": "primary",
+   "access": "opened"
+  },
+  {
+   "id": "S08",
+   "url": "https://www.elle.com/culture/music/a73572941/sombr-you-are-the-reason-tour-new-album-interview-2026/",
+   "title": "Sombr ELLE October 2026 cover interview (You Are the Reason tour, new album)",
+   "speaker": "Sombr, interviewed at a Los Angeles studio and observed at Lollapalooza by Samuel Maude (ELLE); with comments from Quenlin Blackwell and Inde Navarrette",
+   "date": "2026-09-22 (October 2026 issue)",
+   "locator": "Opening (\"It’s self-centered to call yourself famous\"); Lollapalooza paragraph (\"more myself and more Zen when I’m on the stage\"); tour spending; Quenlin Blackwell testimony; the writer’s listening-session observation; family and school paragraph (\"I was failing in school\", Warner \"hungriest\"); industry-plant paragraph; Taylor Swift paragraph (\"Dear John\"); fame paragraph (\"anxiety attacks\", \"scared that I didn’t perform well or act well for them\", Swift’s advice); TikTok-response paragraph (\"I wouldn’t respond now\", \"That video kind of woke me up\"); body-image paragraph (\"why I’m in the fucking gym now\"); closing paragraph (stage-name origin, \"deep, deep depression\", \"I’m just somber, man\").",
+   "excerpt": "“It’s just fucking lame,” he exclaims, his arms flailing in the air. “It’s self-centered to call yourself famous. I don’t even think of it as a positive thing. How can I describe being in the spotlight when I don’t always want to be seen?” [...] “I’m more myself and more Zen when I’m on the stage,” he says. “I just feel out of place in the regular world and in public.” [...] “He doesn’t look at anything that he does within his career as something that he painstakingly has to do,” she says. [...] When Sombr plays me a few tracks during our time together, and he watches me take them in and asks me questions after each one. He makes sure that I tell him my favorite and is also quick to let me know they’re not quite finished or need to be mixed again. [...] “I was failing in school, and we would get emails home pretty much three times a week,” [...] “To think that that could help me get signed or become a big artist because my dad devotes his life to fight AIDS is just incredibly insane.” [...] I don’t really go out in public anymore, because I have anxiety attacks with people coming up to me. I just get so scared that I didn’t perform well or act well for them.” [...] “I wouldn’t respond now,” he says. “I think responding only makes it worse. I was a teenager when I was kind of just pushed into the spotlight. [...] “I’m an awkward kid. I don’t know what to do in weird moments. That video kind of woke me up. I was like, ‘Wait, yeah, that is weird.’ [...] I plan to never say or do something that would even make someone uncomfortable again.” [...] They make fun of how skinny I am, which is why I’m in the fucking gym now. [...] “It was just like teenage angst and rejection, being a pothead, skipping class, being pissed off at the world,” he says. “Recently, more than ever, I’ve fallen into a deep, deep depression when I’m on my own. [...] “It’s what I signed up for. I’m never going to be an artist who complains about that, because if I wanted to disappear from the spotlight, I would. I’m just somber, man.” [...] “I don’t really see it as experimenting. I don’t care how a song ends up, whatever is best for the song. I’m down to make it really weird.”",
+   "context": "The most recent long interview (conducted around Red Rocks and Lollapalooza, late July/early August 2026; published September 22). It contains his most serious mental-health disclosure; the closing paragraph continues \"I’ve seen darker points than I’ve ever seen... I’ve hit a point lately where I can’t see a future.\" Handle with care (see research_tasks). Cover Media, Rova, ARY News and others syndicated these quotes; they are not independent sources. ELLE says he signed with Warner \"at 16\"; Consequence (S18) dates the signing announcement to January 2023, when he was 17.",
+   "kind": "primary",
+   "access": "opened"
+  },
+  {
+   "id": "S09",
+   "url": "https://www.youtube.com/watch?v=fa8qodzIUoQ",
+   "title": "Extended interview: Sombr (CBS Mornings)",
+   "speaker": "Sombr, interviewed by Anthony Mason (CBS Mornings) in his childhood bedroom in New York",
+   "date": "2026-01-08 (uploaded; recorded fall 2025 during the North American tour)",
+   "locator": "YouTube auto-captions, about 34 minutes: 00:00-01:00 (club tour he \"couldn’t sell\"); 05:18-05:30 (dad \"Go for it, brother\", mom \"no one knows who you are yet\"); 06:22 (\"be a disappointment\"); 06:57 (\"me and only me want to hear\"); 07:15 (\"I was very depressed and nothing else was working\"); 11:07-11:23 (biggest debut; \"posted it on the internet every single day\"); 12:18-12:27 (\"hanging out with the wrong people... going out every night\"); 13:00-14:20 (\"troubled kid\", \"I had a lot of anxiety\", \"I wanted to be seen or like a part of something\", \"until other people told me that I was good\", \"It validated me\"); 17:16 (\"Back to Friends gave me a confidence\"); 25:58 (Tony Berg, \"until, you know, forever\"); 31:02 (\"super scared of people’s opinions\"); 32:52-33:43 (\"very self-conscious person\", \"a place where I can be fully myself\").; 06:xx ('it's a lie'; 'once you sign a record deal'); 09:xx-10:xx (posted the chorus before finishing); 17:xx ('the only person that touched that song'); 28:xx ('the same kid that thought I was never going to be an artist'); 32:xx ('very self-conscious person')",
+   "excerpt": "I don't want to move back in and like be a disappointment. [...] I'm just going to write what I I I me and only me want to hear. I don't want to assume what anyone else wants to hear. [...] I was very depressed and nothing else was working and I was like, you know what, it's probably over. Let me just make something for fun. [...] I posted it on the internet every single day. I believed in it so much. [...] Which is why I was so depressed. Like I like started like hanging out with the wrong people [...] going out every night like I was just like avoiding it. [...] I just always felt like insecure and like I wanted to be seen or like a part of something. [...] I never felt like I was good at anything or a part of anything. [...] But I didn't even realize that I was good at music until other people told me that I was good. Like I never I just never felt like I belonged. [...] It validated me. [...] committed to working with Tony until, you know, forever. [...] I'm super scared of people's opinions [...] I'm like very self-conscious person. [...] I'm realizing that there's a a place where I can be fully myself. [...] any any artist that that is in the position I was in that that gets signed that says that they don't care about that or you know they'll never try to they'll never succumb to their record, it's a lie. You know, once you sign a record deal, once you're a a public figure, um there's always that part of it in your mind. [...] before I finished it, I posted it online. [...] I posted the chorus online. [...] Um and and Christmas is approaching. [...] the same kid that thought I was never going to be an artist [...] I'm like very self-conscious person. [...] I'm the only person that touched that song.",
+   "context": "The most revealing interview in the record: unhurried, in the bedroom where he wrote \"Caroline\", with a veteran interviewer. Caption transcript without speaker labels; turn changes are marked but imperfect. Every quoted line above is in his answers by context; confirm against the audio before printing, and keep disfluencies or mark omissions honestly. The \"It validated me\" line follows the interviewer’s \"it validated you\".",
+   "kind": "primary",
+   "access": "opened"
+  },
+  {
+   "id": "S10",
+   "url": "https://www.youtube.com/watch?v=XARhfeo1aQM",
+   "title": "Sombr talks about writing music from childhood bedroom and rise to fame (CBS Mornings broadcast segment)",
+   "speaker": "CBS Mornings segment by Anthony Mason, with Sombr",
+   "date": "2025-12-10",
+   "locator": "YouTube auto-captions, 8 minutes: 03:06-04:08 (flounder for two years, \"very depressed\"); 04:48 (\"super scared of people’s opinions\"); 05:14 (\"I wanted to be seen or like a part of something\"); 06:09 (self-conscious, dancing on stage).",
+   "excerpt": "I just always felt like insecure and like I wanted to be seen or like a part of something. [...] I'm super scared of people's opinions.",
+   "context": "Broadcast edit of the same interview as S09 (not independent of it); it fixes the airdate of the material to December 10, 2025.",
+   "kind": "primary",
+   "access": "opened"
+  },
+  {
+   "id": "S11",
+   "url": "https://www.youtube.com/watch?v=rLIftYPquTg",
+   "title": "I shared a bed with Sombr (In Your Dreams With Owen Thiele)",
+   "speaker": "Sombr, in conversation with comedian Owen Thiele (a friend of his sister)",
+   "date": "2025-12-19",
+   "locator": "YouTube auto-captions, about 46 minutes, comic format: 11:06-11:22 (\"trying to be likable\", \"I’m a people pleaser\", in a bit about the \"6-7\" meme); 18:37-18:54 (pressure to \"keep up in the pop world\", \"that is truly me\"); 23:10 (\"not what I thought people wanted to hear\"); 24:05 (\"has to be the best song I’ve done yet\"); 25:40 (\"let down my fans\", germaphobia); 31:07-31:53 (nerves off stage; \"social anxiety? Yeah. So bad.\"); 34:28 (hate comments); 36:30 (slept through Grammy nomination, \"can’t deal with the pressure\"); 37:33 (needs to be alone after tours); 42:29 (big dream: a girlfriend).",
+   "excerpt": "I'm just trying to be likable, you know. [...] I'm a people pleaser. [...] I had a few big hits really fast and like I felt all this pressure to like keep up in the pop world [...] I need to go back to my roots, be the indie alternative. Like that is truly me [...] I was just always trying to make something fresh and like what I wanted to make, not what I thought people wanted to hear. [...] any song that I complete has to be the best song I've done yet. [...] I cannot get sick and let down my fans. [...] Do you have social anxiety? [...] Yeah. So bad. [...] I just can't deal with the pressure of like waiting for the moment.",
+   "context": "Friendly, joking podcast in a bed set; much of it is bits. The \"people pleaser\" and \"likable\" lines come inside a joke about repeating a meme because the crowd screams; treat as self-description offered half in jest. Caption transcript without reliable speaker labels; the lines above are his by context, but confirm by listening. His sister appears briefly off camera; do not name or characterize her.",
+   "kind": "primary",
+   "access": "opened"
+  },
+  {
+   "id": "S12",
+   "url": "https://www.youtube.com/watch?v=FO7UjDv16BY",
+   "title": "How Sombr’s bedroom recordings became his biggest hits (Switched On Pop)",
+   "speaker": "Sombr, interviewed by the Switched On Pop host (musicologist podcast; host not identified in captions)",
+   "date": "2025-12-11",
+   "locator": "YouTube auto-captions, 27 minutes: 01:00 (\"that song started a new life for me\"); 11:38-12:54 (fights with Tony Berg over home vocals; \"I need the imperfection... a critic may not like it, but I don’t care\"); 22:09-23:14 (posts choruses before finishing; \"AB test\"; \"If I like the response, I’ll finish it\"); 23:29 (\"there’s demand for this now. I can really show off\"); 23:50 (\"12 to 12\" untested, \"make sure this works no matter what at whatever cost\").; 22:xx ('making something that I that I am really happy with'); 11:xx ('Get on the nicest microphone in the world')",
+   "excerpt": "Tony and I fight about that a lot. [...] I need the imperfection. I might crank the distortion a little too much on the verse and a critic may not like it, but I don't care. I need that. [...] All my all my hits I made in the process of of them blowing up because I I don't finish songs. [...] I love being at being able to to AB test things music [...] If I like the response, I'll I'll finish it and I'll drop it. [...] make sure this works no matter what at whatever cost. [...] what I what I like doing is um making something that I that I am really happy with and then seeing if if people want it now or later [...] And he's like, \"Get on the nicest microphone in the world.\" [...] we keep a lot of my bedroom elements in",
+   "context": "Production-focused interview; the most detailed account of how audience response shapes which songs he finishes. Caption transcript; confirm wording against audio before quoting.",
+   "kind": "primary",
+   "access": "opened"
+  },
+  {
+   "id": "S13",
+   "url": "https://www.youtube.com/watch?v=nGo6a8-PGmA",
+   "title": "Sombr: From LaGuardia to the Charts—And Elton John’s Playlist?! (Spout Podcast)",
+   "speaker": "Sombr, interviewed by Nick Major (Spout Podcast)",
+   "date": "2025-04-01",
+   "locator": "YouTube auto-captions; interview runs to about 18:00, the rest is unrelated news: 01:02-02:04 (Elton John played \"Back to Friends\"); 06:37 (\"easier for me to be real than... emulate something\"); 10:33 (shows are when he is happiest); 12:21 (no hobbies, \"it’s all music\"); 14:18 (\"actually from me\"); 14:42 (\"just be genuine\").; 06:xx ('I just write about things that I'm actually feeling')",
+   "excerpt": "it's easier for me to be real than than try to try to emulate something [...] when I'm the happiest [...] I'm glad people can see that it's like actually from me [...] just be genuine [...] I just write about things that I'm actually feeling",
+   "context": "Earliest long video interview, recorded during the breakout and the Daniel Seavey support tour. Caption transcript; confirm wording.",
+   "kind": "primary",
+   "access": "opened"
+  },
+  {
+   "id": "S14",
+   "url": "https://www.youtube.com/watch?v=xUPuR25faLw",
+   "title": "Sombr Joins Brittany Broski’s Royal Court",
+   "speaker": "Sombr, interviewed by Brittany Broski (Royal Court)",
+   "date": "2026-06-17",
+   "locator": "YouTube auto-captions, 21 minutes, comic format with a serious segment: 05:05 (wishes he had no career \"so people couldn’t say those things about me\"); 11:46 (\"this is going to be great for me\"); 12:25-13:18 (happiness \"inconsistent\"; isolating to write makes him sad, touring makes him happy; \"I need that human connection\"); 14:50 (\"I didn’t want to be famous or known\").; 14:xx ('I want to be a pop star. I want to be a rock star.')",
+   "excerpt": "this is going to be great for me [...] when I'm writing I isolate myself and I get sad and then when I tour and I'm able to like be with my people I get so happy [...] I need that human connection. [...] I didn't want to be famous or known. [...] cuz I'd be like, \"I want to be a pop star. I want to be a rock star.\" was like \"That's like a one in a billion. People don't become pop stars.\"",
+   "context": "Comedy talk show; the 11:05-15:08 segment is framed by the host as \"serious introspective questions\". Caption transcript; confirm wording.",
+   "kind": "primary",
+   "access": "opened"
+  },
+  {
+   "id": "S15",
+   "url": "https://www.youtube.com/watch?v=fm8olugxqr4",
+   "title": "Sombr - Back to Friends | Behind the Song (Variety)",
+   "speaker": "Sombr, solo to camera (Variety video series)",
+   "date": "2025-12-01",
+   "locator": "YouTube auto-captions, 13 minutes: 00:41 (\"I can’t really just act like that\"); 01:24 (emailed independent labels before \"Caroline\", none replied); 01:38 (\"two and a half years I was just grinding\"); 11:10-12:10 (slept through the Grammy nomination stream; \"200 cap clubs that weren’t selling out\").",
+   "excerpt": "I can't really just act like that. I can't just move on [...] Months prior to that I would be making songs and emailing different independent record labels like like just sending files and like none of them responded. [...] for, you know, the next two and a half years I was just grinding.",
+   "context": "Scripted-feeling production walkthrough; useful for the pre-\"Caroline\" ambition and the post-signing slump. Captions mishear his name as \"Slander\".",
+   "kind": "primary",
+   "access": "opened"
+  },
+  {
+   "id": "S16",
+   "url": "https://www.youtube.com/watch?v=9IQiQ25Sq90",
+   "title": "SOMBR Talks Taylor Swift Hall of Fame Performance and Grammys, Performs \"My Body Isn’t Ready\" (The Tonight Show Starring Jimmy Fallon)",
+   "speaker": "Sombr, interviewed by Jimmy Fallon",
+   "date": "2026-06-25 (aired the night \"My Body Isn’t Ready\" was released; uploaded 2026-07-05)",
+   "locator": "Captions: 01:01-02:01 (Swift asked him to choose the songs); 03:01-04:01 (took his mother to the Grammys); 04:47 (\"my life goal as a musician was to be able to headline a 1,000-seater\"); 05:19 (never seen a concert at the Garden); 05:59 (body image, \"look different from the other kids in school\"); 07:06-08:09 (performance; lyric \"I try to be the person you’re expecting\").; 04:xx (Fallon reads the November 23-24 Garden dates); 05:00-05:20 ('No, I'm gonna be the first')",
+   "excerpt": "So, basically I was like, \"Taylor, what songs do you want me to sing? You know, this is your night.\" And she was like, \"No, you choose.\" [...] my life goal as a musician was to be able to headline a 1,000-seater. That's all I ever dreamed of. [...] about something I've been struggling my whole life, which is, you know, issues with my body image. And I feel like growing up, you know, feeling like I look different from the other kids in school [...] I try to be the person you're expecting [...] -I don't think I've ever seen a concert. I've just been to Knicks games. Yeah. I've never seen a concert there. -Wait, you've never seen a concert at the Garden? -No, I'm gonna be the first. [...] Red Rocks on here. November 23rd and 24th, you have two nights -- not one, two nights at Madison Square Garden.",
+   "context": "Late-night promotional appearance. The \"1,000-seater\" line conflicts with his 2023 and 2025 statements that Madison Square Garden was his dream (S17, S20). Lyrics are art, not testimony; he does frame this song as autobiographical.",
+   "kind": "primary",
+   "access": "opened"
+  },
+  {
+   "id": "S17",
+   "url": "https://1883magazine.com/sombr/",
+   "title": "Sombr (1883 Magazine interview)",
+   "speaker": "Sombr, written or transcribed Q&A (1883 Magazine)",
+   "date": "2023-11-17",
+   "locator": "Q&A: answer 1 (father’s bands; \"started producing and studying the social media algorithm\"); stage-name answer (\"SMB... rough part of my life\"); EP-inspiration answer (\"pretty difficult time with my emotions\", \"different outlets that were not always great for me\"); Tony Berg answer; dream-venue answer (\"Madison Square Garden... That’s my dream, but it will happen. I know it!\"); Germany answer (\"my Spotify data\"); hobbies answer (skateboarding, veterinarian).; upcoming-shows answer ('hasn't done a live show yet'); goals answer ('the goal is to be a rock star')",
+   "excerpt": "Afterward, I started producing and studying the social media algorithm while writing my own music. [...] It has my initials on it, SMB. Also, to be quite honest, I was going through a rough part of my life when I released my first single. [...] Being a teenager, I definitely had a pretty difficult time with my emotions when I was younger. I didn’t really know how to control them and I didn’t really know how to deal with my strong emotions. [...] Madison Square Garden in New York City. I was born and raised in New York City and my dad used to take me to basketball games there. That’s kind of just the top venue you can get to in New York and it’s legendary. That’s my dream, but it will happen. I know it! [...] I was looking at my Spotify data in Germany, it’s pretty high up there. [...] So Sombr hasn’t done a live show yet so we have a few shows in January. [...] I’d say the goal is to be a rock star. I feel like there aren’t enough rock stars right now. I want to make rock and roll and I want to play arenas. [...] I turned 18, moved out on my own",
+   "context": "The earliest substantial interview, at 18, before any hit. The direct site fetch was blocked; the full text was read through r.jina.ai. The interviewer’s question about the dream venue is cut from the extraction, but the answer is unambiguous. The answer about \"would’ve been you\" mentions a Virginia Woolf line written \"before she left this world\"; do not use it (see research_tasks).",
+   "kind": "primary",
+   "access": "opened"
+  },
+  {
+   "id": "S18",
+   "url": "https://consequence.net/2023/01/sombr-weak-signs-warner-records/",
+   "title": "Singer-Songwriter sombr Signs to Warner Records, Drops New Single “weak”: Exclusive",
+   "speaker": "Jonah Krueger (Consequence), with statements from sombr and Warner Records CEO Aaron Bay-Schuck",
+   "date": "2023-01-27",
+   "locator": "Paragraphs 1-3 (signing at 17; moniker at 14; \"searched for other artists to sign to his independent label\"); sombr statement; Bay-Schuck statement; closing quote.",
+   "excerpt": "Seventeen-year-old singer-songwriter sombr has signed to Warner Records [...] An avid fan of music from an early age, sombr first adopted his moniker at age 14 after crafting a makeshift studio in his bedroom. [...] he quickly began honing his writing and searched for other artists to sign to his independent label. [...] “I can’t remember the last time I saw this much talent in an artist this young,” Aaron Bay-Schuck, CEO and Co-Chairman of Warner Records, adds. [...] “I plan to keep releasing songs all year… and hopefully for the rest of my life.”",
+   "context": "Label-supplied signing announcement; biographical lines are press copy, and the CEO is an interested party. Wikipedia and the i-D piece date \"Caroline\" to 2022; Melodic Mag’s \"2020\" is an error.",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S19",
+   "url": "https://atwoodmagazine.com/live-sombr-brooklyn-babys-all-right-2024-concert-review/",
+   "title": "sombr Brings His Indie Rock Sound Home to Brooklyn’s Baby’s All Right",
+   "speaker": "Blake McMillan (Atwood Magazine), backstage interview and concert review",
+   "date": "2024-02-05",
+   "locator": "Backstage paragraphs (\"he is all nerves\"); show paragraph (\"transformed from the backstage, quiet-minded Shane into sombr\"); closing (\"I just want to work. And meet as many listeners as possible.\").",
+   "excerpt": "Before going on, he is all nerves [...] he took the stage and transformed from the backstage, quiet-minded Shane into sombr, who was so alive it seemed he could do anything. [...] “I want to play more shows this year. I want to do a supporting tour. I want to do festivals. I want to go to Europe. Australia, Asia. [...] I just want to work. And meet as many listeners as possible.” [...] Opening, he chooses “never find u” [...] This tour is the first time he’s met them.",
+   "context": "Independent observation of the January 30, 2024 Williamsburg show, during the flat period between \"Caroline\" and \"Back to Friends\". The offstage-nerves/onstage-transformation contrast matches his own later accounts (S09, S08).",
+   "kind": "testimony",
+   "access": "opened"
+  },
+  {
+   "id": "S20",
+   "url": "https://people.com/back-to-friends-singer-sombr-talks-dropping-out-of-high-school-songwriting-exclusive-11713265",
+   "title": "Sombr Talks Dropping Out of High School to Chase His Dreams and Reveals 2 Rom-Coms That’ve Inspired His Music (Exclusive)",
+   "speaker": "Sombr, interviewed by Daniela Avila (People)",
+   "date": "2025-04-11",
+   "locator": "Lede (\"the biggest artist in the world\"); \"Caroline\" paragraph (\"some people started hating me\"); dropout paragraph (\"My mom wasn’t too happy\"); \"Ever since I started making music\" paragraph; closing paragraphs (dreams of Madison Square Garden and a No. 1 song). Read via the Wayback Machine capture of November 8, 2025 (web.archive.org/web/20251108174957id_/...), because the live site blocks automated access.",
+   "excerpt": "He dropped out of high school when he was 17 to pursue music full time — and now dreams of being \"the biggest artist in the world.\" [...] \"when it worked for me, I definitely felt like some people started hating me.\" [...] \"My mom wasn't too happy. I think my dad was more supportive, but it was just like, 'This is all I wanted to do. Why should I go to school and delay the whole thing when it's happening now?'\" [...] dreams of headlining Madison Square Garden and having a No. 1 song.",
+   "context": "\"The biggest artist in the world\" is a quoted phrase inside People’s paraphrase, not a full sentence; attribute it as \"told People he dreamed of being...\" The same article closes with a dark joke about dying and being remembered for his music; do not quote it (see research_tasks).",
+   "kind": "primary",
+   "access": "opened"
+  },
+  {
+   "id": "S21",
+   "url": "https://localnews8.com/?p=1579707",
+   "title": "Sombr’s TikTok drama may not be something you know about, but your kids probably do (CNN, syndicated by LocalNews8)",
+   "speaker": "CNN staff, quoting TikTok creator Meg and Sombr’s TikTok response",
+   "date": "2025-10-21",
+   "locator": "Paragraphs 3-12: Meg’s review (\"one of the worst experiences of my life\", \"Sombr dating show\", jokes \"inappropriate given the average age\"); Sombr’s response (\"skill issue\", \"never uttered a serious word in my life\", \"live a little\").",
+   "excerpt": "Calling it “one of the worst experiences of my life,” [...] Meg also alleged that the artist made jokes that were inappropriate given the average age of the audience. [...] “I am a 20-year-old artist – freshly 20 – and if you’re 25 years old, and you’re gonna come to my concert and not expect people younger than you to be there when I, the artist, am five years younger than you, it’s just a skill issue,” [...] “never uttered a serious word in my life.”",
+   "context": "Wire report summarizing both TikTok videos; neither original video was opened. CNN says it sought comment from both parties.",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S22",
+   "url": "https://www.digitalmusicnews.com/2025/10/20/sombr-tiktok-brainrot-performance-slammed/",
+   "title": "Sombr Gets Torched on TikTok for ‘Brainrot’ Live Performance Resembling a ‘Middle School Dance’",
+   "speaker": "Digital Music News staff, quoting Meg (@meganator__) and Sombr",
+   "date": "2025-10-20",
+   "locator": "Paragraphs 2-5 (Meg’s quotes; Sombr’s response; body-shaming accusation).",
+   "excerpt": "“I had to leave because it was the most egotistical performance I’ve ever seen in my life.” [...] He also accused Meg of body-shaming him—she compared him to Napoleon Dynamite and referred to internet hoax-turned-horror icon Slender Man—and of her video “starting a massive body-shaming hate train.”",
+   "context": "Trade-blog summary; adds Meg’s \"most egotistical performance\" line and the Napoleon Dynamite/Slender Man comparisons.",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S23",
+   "url": "https://www.thefader.com/2025/10/20/sombr-tiktok-drama-body-shaming-explained",
+   "title": "Sombr says all ages welcome at his shows after negative TikTok review",
+   "speaker": "The FADER staff, quoting Sombr’s TikTok response",
+   "date": "2025-10-20",
+   "locator": "Paragraphs 2-5 (show date and venue; the \"Sombr Dating Show\"; his response including \"Live a little\" and \"I am just existing\").",
+   "excerpt": "the October 13 Sombr show at Anthem in Washington, D.C. [...] “Live a little, enjoy life,” he urged the TikTok critic. “Every age, sex, sexuality, gender, race: Everyone is welcome in my concert, and I mean everyone. You guys need to find problematic people to hate on, because I am just existing.”",
+   "context": "Most complete transcription of his October 2025 TikTok reply among the opened sources; fixes the show date.",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S24",
+   "url": "https://www.complex.com/music/a/markelibert/sombr-responds-woman-audience-bark-daddy-concert",
+   "title": "Sombr Responds After Woman Said He Asked Audience to Bark and Call Him ‘Daddy’ at Concert",
+   "speaker": "Complex staff (Mark Elibert), reporting the TikTok critic’s claims and Sombr’s response",
+   "date": "2025-10-21",
+   "locator": "Paragraphs 2-3 (the critic’s claims including \"bark\" and \"daddy\").",
+   "excerpt": "According to the woman, he also asked the audience to bark for him and call him \"daddy.\"",
+   "context": "Reports the most specific allegation about his stage banter. It is the critic’s account as relayed by Complex; no footage or independent attendee testimony was opened.",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S25",
+   "url": "https://dailycollegian.com/2025/11/sombrs-rise-to-fame-is-laced-with-controversy/",
+   "title": "Sombr’s rise to fame is laced with controversy (Massachusetts Daily Collegian)",
+   "speaker": "Kaitlyn Saperstein (student newspaper opinion/feature)",
+   "date": "2025-11-06",
+   "locator": "Paragraphs 2 and 5-9 (industry-plant allegations; parents and AAB Productions; Warner homepage; denial); paragraphs 10-14 (TikTok critique, including \"bark\" and \"daddy\"; \"He did not give a clear response\").",
+   "excerpt": "Sombr is facing industry plant allegations and has recently fallen under fire on social media for his behavior on stage. [...] Some believe that Sombr’s parents, Andy Boose and Bennah Serfaty, could have something to do with his newfound stardom. Boose is the founder of AAB Productions, which helps organize luxury events such as the Cannes gala. [...] Sombr has denied the industry plant allegations [...] He did not give a clear response to the complaints surrounding his sexual comments in front of the young audience.",
+   "context": "A student writer summarizing online allegations; it offers speculation, not reporting, about parental influence. Use it only to establish that the allegations circulated, never as support for them.",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S26",
+   "url": "https://variety.com/2026/music/news/sombr-covers-taylor-swift-songwriters-hall-of-fame-1236779478/",
+   "title": "Sombr Covers Two Taylor Swift Songs as Steven Spielberg Compares Her to Lennon-McCartney at Songwriters Hall of Fame Ceremony",
+   "speaker": "Variety staff report, quoting Taylor Swift’s induction speech",
+   "date": "2026-06-12",
+   "locator": "Paragraph 5 (Sombr performed \"Cardigan\" and \"Dear John\"); paragraph 6 (Swift’s thanks and \"Sombr is the future\" quote).",
+   "excerpt": "“I have to say thank you to Sombr for that perfect performance,” she said. “His writing is so exceptional that it makes me actually envious, and I love that feeling [...] ‘Sombr is the future and he does it all on his own and he doesn’t need AI. The kids are fine.’ And so obviously, Shane is a very well-adjusted person and artist, and doesn’t need any of my advice at all.”",
+   "context": "Contemporaneous report of the June 2026 Songwriters Hall of Fame ceremony in New York. Swift’s praise is public and generous, and it speaks to his songwriting and authorship rather than his motives.",
+   "kind": "testimony",
+   "access": "opened"
+  },
+  {
+   "id": "S27",
+   "url": "https://www.lofficielusa.com/music/taylor-swift-sombr-fan-interview-quote-songwriting-lyrics-confession",
+   "title": "Taylor Swift Says She’s a ‘Massive Sombr Fan’ — Here’s Why",
+   "speaker": "L’Officiel USA staff, quoting Taylor Swift’s New York Times interview of April 28, 2026",
+   "date": "2026-04-29",
+   "locator": "Paragraph 3 (Swift quote).",
+   "excerpt": "\"I'm a massive Sombr fan, of his songwriting,\" [...] \"His lyrics are so intensely confessional",
+   "context": "Secondhand: the New York Times interview itself was not opened. Read through r.jina.ai because the direct HTML extraction failed. Swift first named him among new artists she was listening to in a SiriusXM Hits 1 interview in October 2025 (reported by radio sites; not opened).",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S28",
+   "url": "https://www.billboard.com/music/pop/sombr-wore-george-michael-leather-jacket-2026-vmas-tribute-1236349052/",
+   "title": "Sombr Paid Secret Homage to George Michael During All-Star 2026 VMAs Tribute With a Signature Piece of Late Singer’s Wardrobe",
+   "speaker": "Billboard staff, quoting a spokesperson and Sombr’s comments to Vogue",
+   "date": "2026-09-28",
+   "locator": "Paragraphs 1-2 (tribute opener; Michael’s Faith-era jacket per a spokesperson); paragraph 4 (Sombr to Vogue).",
+   "excerpt": "According to a spokesperson, Sombr was wearing one of Michael’s personal customized leather jackets from the Faith era during the performance. [...] “The fact he wrote, produced, and performed all his own music is so inspiring to me, because I do the same. He was also 19 when he broke internationally. I wish I could have gotten to meet him.”",
+   "context": "His quotes are secondhand from Vogue (not opened). Billboard’s description of the performance as \"torched the stage\" is the outlet’s judgment.",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S29",
+   "url": "https://www.yahoo.com/entertainment/music/articles/sombr-faces-backlash-over-george-161229224.html",
+   "title": "Sombr faces backlash over George Michael tribute at 2026 VMAs",
+   "speaker": "Yahoo Entertainment staff, quoting social-media posts",
+   "date": "2026-09-28",
+   "locator": "Paragraphs 1-4 (backlash; sample X posts).",
+   "excerpt": "Sombr is facing backlash from George Michael fans who say his performance during a tribute to the late pop icon at the 2026 MTV Video Music Awards failed to do the singer's music justice.",
+   "context": "Aggregates anonymous social posts; establishes that criticism circulated, not its breadth. PinkNews (September 24, 2026) separately reported criticism of the line-up for lacking out queer performers before the show. No response from Sombr was found as of October 21, 2026.",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S30",
+   "url": "https://ca.billboard.com/music/music-news/sombr-2026-brit-awards-onstage-attack-staged-1236189359",
+   "title": "Sombr’s 2026 BRIT Awards Onstage Attack Sparks Speculation Over Whether It Was Staged",
+   "speaker": "Billboard Canada staff",
+   "date": "2026-03-01",
+   "locator": "Paragraphs 3-6 and 10 (man in \"Sombr Is A Homewrecker\" shirt pushes him; reps confirm to Variety it was staged).",
+   "excerpt": "the man who pushed Sombr was wearing a black T-shirt that read, “Sombr Is A Homewrecker,” [...] After his BRITs performance, Sombr’s representatives confirmed to Variety that the incident was indeed staged and part of the show.",
+   "context": "February 28, 2026, Co-op Live, Manchester. NYLON (S06) describes him keeping the bit going on TikTok afterward.",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S31",
+   "url": "https://variety.com/2026/film/news/power-of-young-hollywood-2026-party-inside-tate-mcrae-1236829692/",
+   "title": "Variety Toasts Young Hollywood’s Hottest at Cover Bash With Tate McRae, Sombr, Tyriq Withers and Malachi Barton",
+   "speaker": "Variety staff party report, quoting Sombr",
+   "date": "2026-08-07",
+   "locator": "Paragraph quoting Sombr after receiving his songwriting honor from Lindsey Buckingham.",
+   "excerpt": "“all my songs alone in my bedroom, and to be recognized in this incredible setting is humbling. My mind goes to dark places, and it feels like the only place I can turn to is writing songs.”",
+   "context": "Short public remark at the August 5, 2026 event, where Lindsey Buckingham presented him with Variety’s songwriter honor.",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S32",
+   "url": "https://americansongwriter.com/lindsey-buckingham-opens-up-about-potential-sombr-collaboration-will-have-to-wait-and-see/",
+   "title": "Lindsey Buckingham Opens up About Potential Sombr Collaboration: \"Will Have To Wait and See”",
+   "speaker": "American Songwriter staff, quoting Lindsey Buckingham",
+   "date": "2026-08-06",
+   "locator": "Paragraphs 1-3 and 6 (Sombr bows to Buckingham; Buckingham on Sombr reaching out).",
+   "excerpt": "Sombr couldn’t help but bow to the famed musician. [...] “He reached out to me a few months back and just wanted me to know I’d been a big influence on him. And he did mention something about getting together to do something.”",
+   "context": "The quoted speaker is Buckingham (the embedded clip caption confirms it): Sombr contacted him to say he had been an influence. Brief, cordial testimony; no assessment of character.",
+   "kind": "testimony",
+   "access": "opened"
+  },
+  {
+   "id": "S33",
+   "url": "https://www.youtube.com/watch?v=iBCfS4dTsGQ",
+   "title": "Sombr Declares ‘They Can’t PR Train Me’ at 2025 MTV VMAs (Exclusive) (Entertainment Tonight)",
+   "speaker": "Sombr, red-carpet interview (Entertainment Tonight)",
+   "date": "2025-09-08 (uploaded; filmed at the September 7, 2025 VMAs)",
+   "locator": "Auto-captions, 97 seconds: 00:53 (\"they can’t PR train me\"); closing (\"I don’t expect anything\").",
+   "excerpt": "they've tried, but they they can't PR train me. [...] I don't expect anything. I'm just happy to be here, to be honest.",
+   "context": "Red-carpet soundbite. Compare with his 2026 accounts of hearing from his publicist and toning down jokes (S06) and of regretting his TikTok reply (S08).",
+   "kind": "primary",
+   "access": "opened"
+  },
+  {
+   "id": "S34",
+   "url": "https://en.wikipedia.org/wiki/Sombr",
+   "title": "Sombr (Wikipedia)",
+   "speaker": "Wikipedia contributors",
+   "date": "unknown (revision read 2026-10-21)",
+   "locator": "Lead; Early life; Career 2021-2024 and 2025-present; Awards table (VMAs 2025, Grammys 2026, AMAs 2026, BRITs 2026).",
+   "excerpt": "(born July 5, 2005), known professionally as [...] His debut studio album, ''[[I Barely Know Her]]'' (2025), reached the top-ten on the [[Billboard 200|''Billboard'' 200]] [...] On February 6, 2026, he released the single \"[[Homewrecker (Sombr song)|Homewrecker]]\" [...] On June 25, 2026, \"[[My Body Isn't Ready]]\" was released",
+   "context": "Tertiary reference used only for dates, chart and award facts, each cross-checked where possible. The full birth date is sourced there to a radio-station artist page; his reported ages (17 in January 2023, 19 in April 2025, 21 in August 2026) are consistent with it.",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S35",
+   "url": "https://en.wikipedia.org/wiki/68th_Annual_Grammy_Awards",
+   "title": "68th Annual Grammy Awards (Wikipedia)",
+   "speaker": "Wikipedia contributors",
+   "date": "unknown (revision read 2026-10-21)",
+   "locator": "Lead (ceremony February 1, 2026; Olivia Dean won Best New Artist); Performers (Best New Artist medley ending with \"12 to 12\").",
+   "excerpt": "[[Olivia Dean]] won [[Grammy Award for Best New Artist|Best New Artist]] [...] On January 21, all eight nominees for Best New Artist were announced as performers.",
+   "context": "Reference for the nomination outcome and date.",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S36",
+   "url": "https://en.wikipedia.org/wiki/American_Music_Awards_of_2026",
+   "title": "American Music Awards of 2026 (Wikipedia)",
+   "speaker": "Wikipedia contributors",
+   "date": "unknown (revision read 2026-10-21)",
+   "locator": "Lead and nominations section (May 25, 2026; Sombr among the most-awarded with three wins).",
+   "excerpt": "were held on May 25, 2026, at the [[MGM Grand Garden Arena]] [...] [[Bruno Mars]], [[BTS]], [[Cardi B]], [[Huntrix]], [[Katseye]], Sombr, and Carpenter were the most awarded artists, with three wins each",
+   "context": "Reference for the AMA results.",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S37",
+   "url": "https://en.wikipedia.org/wiki/You_Are_the_Reason_Tour",
+   "title": "You Are the Reason Tour (Wikipedia)",
+   "speaker": "Wikipedia contributors",
+   "date": "unknown (revision read 2026-10-21)",
+   "locator": "Lead and Background (dates, 2027 legs, added London shows); tour-dates table.",
+   "excerpt": "It is set to begin of July 22, 2026 at the [[Pepsi Center WTC]] in Mexico City and is set to conclude on July 14, 2027",
+   "context": "Reference for tour dates. Billboard’s April 2026 announcement gave Red Rocks (July 26) as the opener, before the Mexico City date was added. ELLE (S08) and Fallon (S16) confirm two Madison Square Garden nights, November 23-24, 2026.",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S38",
+   "url": "https://www.youtube.com/watch?v=Hxk-sUHAnig",
+   "title": "FEEDING STARVING CELEBRITIES FT. SOMBR (Quenlin Blackwell)",
+   "speaker": "Sombr, on Quenlin Blackwell’s comic cooking show",
+   "date": "2026-02-07",
+   "locator": "Auto-captions, 46 minutes, mostly bits: 16:44 (\"I think I’m a pretty likable guy\"); 28:01 (never changed a lyric for being too revealing: \"I’ll air everything out on the song\").",
+   "excerpt": "Because I think I'm a pretty likable guy. [...] No. I'll I'll air everything out on the song.",
+   "context": "Comedy format with a friend and \"Homewrecker\" co-star; low evidential weight. Caption transcript without speaker labels; both lines are his answers by context.",
+   "kind": "primary",
+   "access": "opened"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C01",
+   "claim": "Sombr is the stage name of Shane Michael Boose, a singer, songwriter and producer raised on Manhattan's Lower East Side; he was 21 as of October 2026.",
+   "passage": "Sombr is the stage name of Shane Michael Boose, a singer, songwriter and producer raised on Manhattan's Lower East Side, 21 as of October 2026.",
+   "class": "third_party",
+   "source_ids": [
+    "S34",
+    "S01",
+    "S05",
+    "S04",
+    "S07",
+    "S08",
+    "S06"
+   ],
+   "inference": "Legal name and stage name are consistent across S01, S05, S07, S08, S34. The Lower East Side upbringing is his own account (S01, S05) and is tattooed on his hand (S04). Variety (published August 5, 2026) and ELLE (September 22, 2026) both describe him as 21; NYLON (April 1, 2026, interviewed February) as 20.",
+   "alternative": "The full birth date (July 5, 2005) rests only on a radio-station artist page cited by Wikipedia, so the draft omits it and prints only a dated age. Do not name or characterize his sister.",
+   "durability": "time_sensitive",
+   "review_trigger": "Update or remove the age after mid-2027 (Wikipedia gives a July birthday)."
+  },
+  {
+   "id": "C01b",
+   "claim": "Metadata (FAQ): his age as of October 2026.",
+   "passage": "He was 21 as of October 2026.",
+   "class": "third_party",
+   "source_ids": [
+    "S07",
+    "S08",
+    "S34"
+   ],
+   "inference": "Variety (August 2026) and ELLE (September 2026) describe him as 21.",
+   "alternative": "Age is dated; the full birth date is deliberately not printed.",
+   "durability": "time_sensitive",
+   "review_trigger": "Update or remove the age after mid-2027."
+  },
+  {
+   "id": "C01c",
+   "claim": "Metadata (FAQ): real name, occupation and upbringing.",
+   "passage": "Sombr is the stage name of Shane Michael Boose, a singer, songwriter and producer raised on Manhattan's Lower East Side.",
+   "class": "third_party",
+   "source_ids": [
+    "S34",
+    "S01",
+    "S05",
+    "S04"
+   ],
+   "inference": "Birth year and city are consistent across sources; the Lower East Side upbringing is his own account (S01, S05) and is tattooed on his hand (S04). Parents’ names and work are from ELLE (S08); NYLON adds that his father is part of his behind-the-scenes team (S06).",
+   "alternative": "The full date rests on a radio-station page cited by Wikipedia; \"born in 2005\" is safe if the date is challenged. Do not name, quote or characterize his sister.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C02",
+   "claim": "The stage name combines his initials (SMB) with how he was feeling when he released his first single.",
+   "passage": "\"Sombr\" holds his initials, SMB, and it \"kind of made sense for how I was feeling,\" he told 1883.",
+   "class": "self_report",
+   "source_ids": [
+    "S17",
+    "S07",
+    "S18",
+    "S08"
+   ],
+   "inference": "Told the same way in 1883 (2023), Variety (2026) and ELLE (2026). 1883: \"It has my initials on it, SMB. Also, to be quite honest, I was going through a rough part of my life when I released my first single. 'Sombr' kind of made sense for how I was feeling.\"",
+   "alternative": "Naming a project for a mood can be branding as much as identity; Variety calls it a description of 'the vibe of his moody breakup tunes'.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C02b",
+   "claim": "Metadata (FAQ): origin of the stage name.",
+   "passage": "The name holds his initials, SMB, and he told 1883 Magazine in 2023 that it \"kind of made sense for how I was feeling.\"",
+   "class": "self_report",
+   "source_ids": [
+    "S17"
+   ],
+   "inference": "Consistent across 2023-2026 accounts. He calls his early music \"laughable\" and \"shitty music with 30 listens on SoundCloud\" (S07).",
+   "alternative": "Exact ages vary by interview (GarageBand at \"10\" or \"end of elementary school\").",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C03",
+   "claim": "He signed with Warner Records at 17 (announced January 2023) and the releases that followed did not take off for about two years.",
+   "passage": "Signed at 17, he watched release after release miss.",
+   "class": "observed",
+   "source_ids": [
+    "S18",
+    "S04",
+    "S07",
+    "S01"
+   ],
+   "inference": "Consequence (January 27, 2023) gives the signing at 17. American Songwriter: almost 20 songs between 'Caroline' and 'Back to Friends', 'none of which made a significant impact'; he 'wasn't seeing the numbers my label had hoped for'.",
+   "alternative": "ELLE says he signed 'at 16'; the January 2023 announcement fixes 17. 'Miss' summarizes the reported commercial result, not a judgment of the songs.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C04",
+   "claim": "His mother doubted his leaving LaGuardia for music and his father backed it; he frames it as a bet on himself.",
+   "passage": "he left school over his mother's doubts to bet on himself",
+   "class": "self_report",
+   "source_ids": [
+    "S20",
+    "S07",
+    "S09",
+    "S08"
+   ],
+   "inference": "People 2025 ('My mom wasn't too happy. I think my dad was more supportive'), CBS 2025 (mother: 'no one knows who you are yet') and Variety 2026 ('required some convincing in the mom department'; 'Either I'll be a high school dropout and also be dropped by my label, or I'll be a high school-dropout success story').",
+   "alternative": "His parents have not spoken on record. Report only his account, and do not cast either parent as an obstacle.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C05",
+   "claim": "After signing he feared being dropped for not doing the numbers.",
+   "passage": "\"If you don't do numbers within a certain amount of time, you get dropped. That was a big fear I definitely felt creeping in,\" he told American Songwriter.",
+   "class": "self_report",
+   "source_ids": [
+    "S04"
+   ],
+   "inference": "Direct quote from the December 2025 cover story; named fear of commercial failure, core material for the Three reading.",
+   "alternative": "Any young signee shares this fear. In April 2025 he told Billboard he 'never got impatient' (S02), which sits awkwardly with it.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C05b",
+   "claim": "He feared moving home and being 'a disappointment' during the slump.",
+   "passage": "\"I don't want to move back in and like be a disappointment.\"",
+   "class": "self_report",
+   "source_ids": [
+    "S09"
+   ],
+   "inference": "CBS extended interview, 06:xx (caption wording), describing the two years after signing.",
+   "alternative": "Caption transcript only; not second-transcribed from audio (see research_tasks).",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C05c",
+   "claim": "During the slump he avoided the work by going out every night.",
+   "passage": "\"going out every night like I was just like avoiding it,\"",
+   "class": "self_report",
+   "source_ids": [
+    "S09"
+   ],
+   "inference": "CBS extended interview, 12:xx (caption wording): 'started like hanging out with the wrong people... going out every night like I was just like avoiding it.' Fits the Seven reading's avoidance.",
+   "alternative": "Ordinary discouragement at 18-19; he also says he was depressed then. Caption transcript only.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C06",
+   "claim": "He frames his breakthrough as an authenticity turn: \"Everything before ‘back to friends’ was me making what I thought people wanted to hear, or what I thought would work... ‘back to friends’ was when I got past that and said, ‘I’m going to make what I feel like making.’\"",
+   "passage": "\"Everything before 'back to friends' was me making what I thought people wanted to hear, or what I thought would work,\"",
+   "class": "self_report",
+   "source_ids": [
+    "S04"
+   ],
+   "inference": "A consistent narrative across December 2025 interviews. A Four reading takes it at face value (return to the true self); a Three reading notes it is the classic Three arc of dropping an adapted image for a truer one, and that it is told after the turn paid off.",
+   "alternative": "It is also a good origin story for a brand built on authorship, and it counters the industry-plant charge (C28). His process after the turn still ran on audience testing (C13).",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C06b",
+   "claim": "He frames his breakthrough as an authenticity turn: \"Everything before ‘back to friends’ was me making what I thought people wanted to hear, or what I thought would work... ‘back to friends’ was when I got past that and said, ‘I’m going to make what I feel like making.’\"",
+   "passage": "\"'back to friends' was when I got past that and said, 'I'm going to make what I feel like making.'\"",
+   "class": "self_report",
+   "source_ids": [
+    "S04"
+   ],
+   "inference": "A consistent narrative across December 2025 interviews. A Four reading takes it at face value (return to the true self); a Three reading notes it is the classic Three arc of dropping an adapted image for a truer one, and that it is told after the turn paid off.",
+   "alternative": "It is also a good origin story for a brand built on authorship, and it counters the industry-plant charge (C28). His process after the turn still ran on audience testing (C13).",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C06c",
+   "claim": "In the same CBS answer that tells the authenticity turn, he said any signed artist who claims not to care about the record deal is lying.",
+   "passage": "he said any signed artist who claims not to care about success is lying: \"once you sign a record deal, once you're a a public figure, um there's always that part of it in your mind.\"",
+   "class": "self_report",
+   "source_ids": [
+    "S09"
+   ],
+   "inference": "CBS extended, 06:xx (caption wording): 'any any artist that... gets signed that says that they don't care about that or... they'll never succumb to their record, it's a lie. You know, once you sign a record deal, once you're a a public figure, um there's always that part of it in your mind.' He concedes the commercial pressure inside his own Four-shaped story.",
+   "alternative": "An honest description of the industry, not necessarily of his motive. Caption transcript only; verifier should listen at 06:00-07:00.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C07",
+   "claim": "\"Back to Friends\", written and produced by him alone, came out on December 27, 2024 with no marketing push. He posted it daily; it entered the Hot 100 in April 2025, peaked in January 2026 and passed 2 billion Spotify streams. \"Undressed\" followed in March 2025.",
+   "passage": "\"Back to Friends,\" which he released on December 27, 2024, entered the Billboard Hot 100 in April 2025, peaked in January 2026 and had passed 2 billion Spotify streams by August 2026",
+   "class": "observed",
+   "source_ids": [
+    "S01",
+    "S07",
+    "S02"
+   ],
+   "inference": "Release date from i-D; Hot 100 entry, January 2026 peak and 'more than 2 billion streams on Spotify' from Variety (August 5, 2026); Billboard (April 24, 2025) confirms the Hot 100 climb.",
+   "alternative": "Stream counts are time-sensitive; date any figure.",
+   "durability": "time_sensitive",
+   "review_trigger": "Update stream counts if quoted; Variety’s \"more than 2 billion\" is as of August 2026."
+  },
+  {
+   "id": "C07b",
+   "claim": "He posted the 'Back to Friends' chorus before finishing it and promoted the song daily after release.",
+   "passage": "With \"Back to Friends\" he posted the chorus online before he finished the song, he told CBS, and after its release, \"I posted it on the internet every single day. I believed in it so much.\"",
+   "class": "self_report",
+   "source_ids": [
+    "S09"
+   ],
+   "inference": "CBS extended, 09:xx-11:xx (caption wording): 'before I finished it, I posted it online... I posted the chorus online'; 'I posted it on the internet every single day. I believed in it so much.'",
+   "alternative": "Daily posting is standard TikTok-era promotion. Caption transcript only.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C08",
+   "claim": "I Barely Know Her was released August 22, 2025 and reached the Billboard 200 top ten.",
+   "passage": "His debut album, _I Barely Know Her_, came out on August 22, 2025 and reached the top ten of the Billboard 200.",
+   "class": "observed",
+   "source_ids": [
+    "S34",
+    "S01"
+   ],
+   "inference": "Reference facts (Wikipedia, cross-checked against i-D's pre-release timing).",
+   "alternative": "Variety and i-D misname the album 'I Barely Knew Her'; the title is I Barely Know Her.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C08b",
+   "claim": "He was nominated for Best New Artist at the 68th Grammys, held February 1, 2026.",
+   "passage": "He was a Best New Artist nominee at the [Grammys](https://en.wikipedia.org/wiki/68th_Annual_Grammy_Awards) on February 1, 2026.",
+   "class": "observed",
+   "source_ids": [
+    "S35",
+    "S06",
+    "S15"
+   ],
+   "inference": "Wikipedia (ceremony date; Olivia Dean won); NYLON and the Variety video confirm the nomination.",
+   "alternative": "Stated without the outcome; Olivia Dean won.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C09",
+   "claim": "He is booked for two Madison Square Garden nights, November 23-24, 2026, on the You Are the Reason tour.",
+   "passage": "In 2026 he booked two nights there, November 23 and 24, on his You Are the Reason tour.",
+   "class": "observed",
+   "source_ids": [
+    "S16",
+    "S08",
+    "S37"
+   ],
+   "inference": "Fallon (June 2026) reads out the November 23 and 24 dates; ELLE confirms two nights; Wikipedia's tour page lists them.",
+   "alternative": "Tour dates can change.",
+   "durability": "time_sensitive",
+   "review_trigger": "After November 24, 2026, confirm the shows happened as dated; update if dates changed."
+  },
+  {
+   "id": "C09b",
+   "claim": "The second album had no announced title or release date as of October 21, 2026.",
+   "passage": "No title or date had been announced as of October 21, 2026.",
+   "class": "observed",
+   "source_ids": [
+    "S08",
+    "S06"
+   ],
+   "inference": "ELLE (September 22, 2026) and NYLON (April 2026) describe the album as in progress; the research-stage accuracy check found no announcement (fan-wiki working titles not treated as reliable).",
+   "alternative": "An announcement could follow at any time.",
+   "durability": "unresolved",
+   "review_trigger": "Update when the second album's title or date is announced."
+  },
+  {
+   "id": "C10",
+   "claim": "In November 2023, at 18, he named Madison Square Garden as his dream venue and said 'it will happen. I know it!'",
+   "passage": "\"Madison Square Garden in New York City,\" he said. \"That's my dream, but it will happen. I know it!\"",
+   "class": "self_report",
+   "source_ids": [
+    "S17"
+   ],
+   "inference": "1883 Magazine Q&A, November 17, 2023, dream-venue answer. Early, specific, confident goal statement: the strongest single support for an achievement motive.",
+   "alternative": "Big dreams are ordinary for teenage musicians; the question is what reaching the Garden would prove to him.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C10b",
+   "claim": "At the time of the 1883 interview he was 18, had no chart hit and had not yet played a live show as Sombr.",
+   "passage": "In November 2023, Shane Boose was 18, had no chart hit and had not yet played a live show as Sombr.",
+   "class": "self_report",
+   "source_ids": [
+    "S17",
+    "S02",
+    "S19"
+   ],
+   "inference": "1883: 'I turned 18, moved out on my own'; 'So Sombr hasn't done a live show yet so we have a few shows in January.' Billboard (April 2025) and Variety date his first Hot 100 entries to 2025. Atwood reviews the January 2024 shows as his first tour.",
+   "alternative": "'Caroline' was a viral TikTok moment and Variety calls it 'a modest hit'; hence 'no chart hit', not 'no hit'.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C10c",
+   "claim": "At 18 he told 1883 his goal was to be a rock star and play arenas.",
+   "passage": "\"the goal is to be a rock star.\" He added: \"I want to make rock and roll and I want to play arenas.\"",
+   "class": "self_report",
+   "source_ids": [
+    "S17"
+   ],
+   "inference": "1883 goals answer: 'I'd say the goal is to be a rock star. I feel like there aren't enough rock stars right now. I want to make rock and roll and I want to play arenas.'",
+   "alternative": "Big dreams are ordinary for teenage musicians, and the label-search line is Warner’s press copy. A Four can want the Garden too; the question is what it would prove to him.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C10d",
+   "claim": "People reported in April 2025 that he dreamed of being 'the biggest artist in the world', headlining the Garden and having a No. 1 song.",
+   "passage": "reported that he dreamed of being \"the biggest artist in the world,\" headlining Madison Square Garden and having a No. 1 song.",
+   "class": "self_report",
+   "source_ids": [
+    "S20"
+   ],
+   "inference": "'The biggest artist in the world' is a quoted phrase inside People's paraphrase; attributed as reported.",
+   "alternative": "People's framing, not a full sentence of his.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C11",
+   "claim": "On Fallon (June 25, 2026), asked about the Garden shows, he said his life goal had been to headline a 1,000-seater.",
+   "passage": "\"My life goal as a musician was to be able to headline a 1,000-seater,\" Sombr said. \"That's all I ever dreamed of.\"",
+   "class": "self_report",
+   "source_ids": [
+    "S16"
+   ],
+   "inference": "Captions at 04:47: 'I mean, all I ever -- my life goal as a musician was to be able to headline a 1,000-seater. That's all I ever dreamed of.' Set against C10 as an observed change in how he tells his ambition.",
+   "alternative": "'Dream' and 'life goal' may mean different things; talk-show modesty. Present both, dated; do not call it dishonesty.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C11b",
+   "claim": "In 2026 he told NYLON there was no possibility he could be a successful artist.",
+   "passage": "\"There was no f*cking possibility that I could be a successful artist,\"",
+   "class": "self_report",
+   "source_ids": [
+    "S06"
+   ],
+   "inference": "NYLON (April 1, 2026): 'There was no f*cking possibility that I could be a successful artist. You are told it's one in a million.'",
+   "alternative": "He may be describing what he was told, not what he believed.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C11c",
+   "claim": "On CBS (fall 2025) he called himself 'the same kid that thought I was never going to be an artist'.",
+   "passage": "he called himself \"the same kid that thought I was never going to be an artist.\"",
+   "class": "self_report",
+   "source_ids": [
+    "S09"
+   ],
+   "inference": "CBS extended, 28:xx (caption wording), on Taylor Swift's praise.",
+   "alternative": "Caption transcript only; context is gratitude at a hero's praise.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C11d",
+   "claim": "In June 2026 he told Brittany Broski he didn't want to be famous or known.",
+   "passage": "\"I didn't want to be famous or known.\"",
+   "class": "self_report",
+   "source_ids": [
+    "S14"
+   ],
+   "inference": "Broski 14:xx (caption wording): 'It wasn't I didn't want to be famous or known. I wanted to just do it for a career cuz I wanted to do what I love.'",
+   "alternative": "Caption transcript only.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C11e",
+   "claim": "In the same Broski answer he recalled telling people as a kid that he wanted to be a pop star and a rock star.",
+   "passage": "\"I want to be a pop star. I want to be a rock star.\"",
+   "class": "self_report",
+   "source_ids": [
+    "S14"
+   ],
+   "inference": "Broski 14:xx (caption wording): 'cuz I'd be like, \"I want to be a pop star. I want to be a rock star.\" was like \"That's like a one in a billion.\"' The same answer holds both the ambition and the disavowal.",
+   "alternative": "Caption transcript only.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C11f",
+   "claim": "Interpretation: the modest account of his ambition postdates the success, which fits a Three adjusting self-presentation, but the record cannot decide.",
+   "passage": "The Three reading notices that the humble version arrived after the bold one had paid off, when humility plays better. Nothing on record shows which explanation is right.",
+   "class": "interpretation",
+   "source_ids": [
+    "S17",
+    "S20",
+    "S16",
+    "S06",
+    "S14"
+   ],
+   "inference": "Dated sequence: 1883 (2023), People (2025) bold; NYLON, Fallon, Broski (2026) modest.",
+   "alternative": "Ordinary modesty, or different meanings of 'dream' and 'goal'.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C12",
+   "claim": "At 18 he said he had studied the social media algorithm while writing his music.",
+   "passage": "\"started producing and studying the social media algorithm while writing my own music,\"",
+   "class": "self_report",
+   "source_ids": [
+    "S17"
+   ],
+   "inference": "1883, answer 1. Strategic attention to audiences before the breakout.",
+   "alternative": "This is now the job for any TikTok-era artist, and his label expects it; on its own it says more about career incentives than motive. He also advises other artists simply to \"be genuine\" (S13).",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C12b",
+   "claim": "He describes relentless TikTok promotion: 'it's cringe until you win.'",
+   "passage": "\"a million f*cking TikToks every week,\" he told NYLON. \"Even if some people found it cringe, it's cringe until you win.\"",
+   "class": "self_report",
+   "source_ids": [
+    "S06"
+   ],
+   "inference": "Strategic, results-oriented self-promotion from before the breakout to after it.",
+   "alternative": "This is now the job for any TikTok-era artist, and his label expects it; on its own it says more about career incentives than motive. He also advises other artists simply to \"be genuine\" (S13).",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C12c",
+   "claim": "Interpretation: testing and daily posting are professional norms, weak as motive evidence.",
+   "passage": "That is how a TikTok-era career works, so on its own it says little about motive.",
+   "class": "interpretation",
+   "source_ids": [
+    "S06",
+    "S12",
+    "S13"
+   ],
+   "inference": "Professional incentive explains the behavior without a type motive.",
+   "alternative": "The degree of comfort with audience-decided completion may still be personal.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C13",
+   "claim": "He lets audience response decide which songs he finishes: \"All my all my hits I made in the process of of them blowing up because I I don’t finish songs\" (caption wording); he posts choruses first, says \"I love being at being able to to AB test things music\", and \"If I like the response, I’ll I’ll finish it and I’ll drop it.\" He made an exception for \"12 to 12\", which he did not test: \"make sure this works no matter what at whatever cost.\"",
+   "passage": "\"All my all my hits I made in the process of of them blowing up because I I don't finish songs,\"",
+   "class": "self_report",
+   "source_ids": [
+    "S12"
+   ],
+   "inference": "Switched On Pop 22:xx (caption wording). Feedback-driven completion fits Three's orientation to what works with an audience.",
+   "alternative": "A Four could use the same tactic for exposure without changing the songs. He presents it as fun (\"when else could you do that\"), and the \"Back to Friends\" chorus was posted before he finished it (S09).",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C13b",
+   "claim": "He lets audience response decide which songs he finishes: \"All my all my hits I made in the process of of them blowing up because I I don’t finish songs\" (caption wording); he posts choruses first, says \"I love being at being able to to AB test things music\", and \"If I like the response, I’ll I’ll finish it and I’ll drop it.\" He made an exception for \"12 to 12\", which he did not test: \"make sure this works no matter what at whatever cost.\"",
+   "passage": "\"If I like the response, I'll I'll finish it and I'll drop it.\"",
+   "class": "self_report",
+   "source_ids": [
+    "S12"
+   ],
+   "inference": "Feedback-driven completion fits Three’s orientation to what works with an audience. It sits awkwardly beside his \"me and only me want to hear\" narrative (C06), though in his telling the feeling comes first and the test only decides timing.",
+   "alternative": "A Four could use the same tactic for exposure without changing the songs. He presents it as fun (\"when else could you do that\"), and the \"Back to Friends\" chorus was posted before he finished it (S09).",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C13c",
+   "claim": "In his framing the song he is happy with comes first and the test decides timing.",
+   "passage": "he likes \"making something that I that I am really happy with and then seeing if if people want it now or later.\"",
+   "class": "self_report",
+   "source_ids": [
+    "S12"
+   ],
+   "inference": "Switched On Pop 22:xx (caption wording): 'what I like doing is um making something that I that I am really happy with and then seeing if if people want it now or later'. Counterweight to the Three reading of C13.",
+   "alternative": "A Four could use the same tactic for exposure without changing the songs. He presents it as fun (\"when else could you do that\"), and the \"Back to Friends\" chorus was posted before he finished it (S09).",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C13d",
+   "claim": "He did not test '12 to 12' and resolved to make it work 'at whatever cost'.",
+   "passage": "The one song he didn't test, \"12 to 12,\" he set out to \"make sure this works no matter what at whatever cost.\"",
+   "class": "self_report",
+   "source_ids": [
+    "S12"
+   ],
+   "inference": "Switched On Pop 23:xx (caption wording): 'I'm not even gonna leak this or test it. I'm gonna I'm gonna make sure this works no matter what at whatever cost.'",
+   "alternative": "A Four could use the same tactic for exposure without changing the songs. He presents it as fun (\"when else could you do that\"), and the \"Back to Friends\" chorus was posted before he finished it (S09).",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C14",
+   "claim": "Asked why he was a troubled child, he said: \"I just always felt like insecure and like I wanted to be seen or like a part of something. I never felt like I was good at anything or a part of anything... But I didn’t even realize that I was good at music until other people told me that I was good. Like I never I just never felt like I belonged.\" Of \"Caroline\" taking off: \"It validated me.\"",
+   "passage": "\"I just always felt like insecure and like I wanted to be seen or like a part of something,\"",
+   "class": "self_report",
+   "source_ids": [
+    "S09",
+    "S10"
+   ],
+   "inference": "This is the closest the record comes to a core-motive statement. \"Never felt like I was good at anything... until other people told me\" points to worth conferred by recognized competence (Three). \"Wanted to be seen\" and \"never felt like I belonged\" can equally express Four’s sense of lack, or a Six’s wish to belong.",
+   "alternative": "A single unprompted childhood reflection in a sympathetic interview; it does not discriminate on its own. Quote from the audio, and do not turn it into a childhood-wound story.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C14b",
+   "claim": "Asked why he was a troubled child, he said: \"I just always felt like insecure and like I wanted to be seen or like a part of something. I never felt like I was good at anything or a part of anything... But I didn’t even realize that I was good at music until other people told me that I was good. Like I never I just never felt like I belonged.\" Of \"Caroline\" taking off: \"It validated me.\"",
+   "passage": "\"I didn't even realize that I was good at music until other people told me that I was good.\"",
+   "class": "self_report",
+   "source_ids": [
+    "S09"
+   ],
+   "inference": "This is the closest the record comes to a core-motive statement. \"Never felt like I was good at anything... until other people told me\" points to worth conferred by recognized competence (Three). \"Wanted to be seen\" and \"never felt like I belonged\" can equally express Four’s sense of lack, or a Six’s wish to belong.",
+   "alternative": "A single unprompted childhood reflection in a sympathetic interview; it does not discriminate on its own. Quote from the audio, and do not turn it into a childhood-wound story.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C14c",
+   "claim": "Asked whether 'Caroline' validated him, he agreed: 'It validated me.'",
+   "passage": "Mason suggested that \"Caroline\" had validated him. \"It validated me,\" he agreed.",
+   "class": "self_report",
+   "source_ids": [
+    "S09"
+   ],
+   "inference": "CBS extended, 14:xx (caption wording); the line echoes the interviewer's 'it validated you'.",
+   "alternative": "An agreement with an interviewer's framing, not an unprompted statement.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C14d",
+   "claim": "Interpretation: worth conferred by others' recognition of his competence matches the Three pattern.",
+   "passage": "Worth confirmed by other people's verdict on his ability is the Three pattern.",
+   "class": "interpretation",
+   "source_ids": [
+    "S09"
+   ],
+   "inference": "Rests on C14/C14b.",
+   "alternative": "'Wanted to be seen' and 'never felt like I belonged' can express a Four's lack or a Six's wish to belong; one answer does not discriminate.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C15",
+   "claim": "He told i-D he was 'a very emotionally complicated child'; his father, present, nodded.",
+   "passage": "\"I was a very emotionally complicated child,\" he told i-D, as his father nodded beside him.",
+   "class": "self_report",
+   "source_ids": [
+    "S01"
+   ],
+   "inference": "i-D (August 2025), paragraph 8: 'To his right, his dad... nods from behind his phone.'",
+   "alternative": "Do not infer a cause, diagnosis or wound. Mention teenage cannabis use only in his words, if at all.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C15b",
+   "claim": "He told ELLE the stage name grew out of 'teenage angst and rejection'.",
+   "passage": "He told ELLE the name grew out of \"teenage angst and rejection.\"",
+   "class": "self_report",
+   "source_ids": [
+    "S08"
+   ],
+   "inference": "ELLE closing paragraph (September 2026).",
+   "alternative": "Do not infer a cause, diagnosis or wound. Mention teenage cannabis use only in his words, if at all.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C16",
+   "claim": "He writes alone because writing is vulnerable and he is scared of people's opinions.",
+   "passage": "\"When I write it's such a vulnerable real thing for me,\" he told CBS. \"I'm super scared of people's opinions.\"",
+   "class": "self_report",
+   "source_ids": [
+    "S09",
+    "S10"
+   ],
+   "inference": "CBS extended 30:xx-31:xx (caption wording): 'it's really because when I write it's such a vulnerable real thing for me... I'm super scared of people's opinions'.",
+   "alternative": "Solo authorship is also his brand and selling point (Swift: \"he does it all on his own\", C29), so the habit pays as well as costs. He does co-produce with Berg and uses session players (S12).",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C16b",
+   "claim": "He has tried co-writing with friends and says it doesn't work for him.",
+   "passage": "He has tried co-writing \"just with good friends for fun and it doesn't work,\" he told CBS.",
+   "class": "self_report",
+   "source_ids": [
+    "S09"
+   ],
+   "inference": "Solo authorship maintained at commercial scale, which shrinks his pool of collaborators, supports the Four reading (feeling expressed privately and authentically). His own explanation is fear of others’ judgment, which fits Three’s image sensitivity as well.",
+   "alternative": "Solo authorship is also his brand and selling point (Swift: \"he does it all on his own\", C29), so the habit pays as well as costs. He does co-produce with Berg and uses session players (S12).",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C16c",
+   "claim": "He writes and produces songs alone at home and then brings them to Tony Berg.",
+   "passage": "He writes and produces his songs alone at home, then finishes them with the producer Tony Berg.",
+   "class": "observed",
+   "source_ids": [
+    "S04",
+    "S03",
+    "S01"
+   ],
+   "inference": "American Songwriter: 'Before he brings a song to Berg, sombr completes it at home, alone'; Billboard (August 2025): 50-70% made at home, then Sound City with Berg; i-D: 'No co-writers or committees.'",
+   "alternative": "He co-produces with Berg and uses session players on finished records.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C17",
+   "claim": "He describes his music as 'authentic, straight from me' (Billboard, August 2025).",
+   "passage": "\"It's authentic, straight from me,\" as he told",
+   "class": "self_report",
+   "source_ids": [
+    "S03"
+   ],
+   "inference": "Billboard self-producing feature, August 14, 2025.",
+   "alternative": "The rhetoric is brand-consistent and doubles as a defense against industry-plant accusations (C28); it cannot be separated from career incentive.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C17b",
+   "claim": "Interpretation: his authenticity rhetoric also answers industry-plant accusations, so it cannot be separated from career incentive.",
+   "passage": "doubles as his answer to the charge, which makes it weak evidence of motive.",
+   "class": "interpretation",
+   "source_ids": [
+    "S03",
+    "S25",
+    "S08"
+   ],
+   "inference": "A steady authenticity ethic across 2025; it supports Four if taken as motive.",
+   "alternative": "The rhetoric is brand-consistent and doubles as a defense against industry-plant accusations (C28); it cannot be separated from career incentive.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C18",
+   "claim": "He argues with Berg to keep imperfect bedroom vocals and distortion even if a critic dislikes it.",
+   "passage": "\"I need the imperfection,\" he told Switched On Pop of his arguments with Berg over keeping bedroom vocals. \"I might crank the distortion a little too much on the verse and a critic may not like it, but I don't care.\"",
+   "class": "self_report",
+   "source_ids": [
+    "S12"
+   ],
+   "inference": "Switched On Pop 11:xx-12:xx (caption wording): 'Tony and I fight about that a lot... he's like, \"Get on the nicest microphone in the world.\"... we keep a lot of my bedroom elements in... I need the imperfection. I might crank the distortion a little too much on the verse and a critic may not like it, but I don't care.'",
+   "alternative": "He also defers to Berg on writing standards (C19), and the bedroom sound is part of what made the hits work, so the choice may not be costly.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C21",
+   "claim": "At the September 2025 VMAs he said 'they can't PR train me'.",
+   "passage": "that \"they can't PR train me.\"",
+   "class": "self_report",
+   "source_ids": [
+    "S33"
+   ],
+   "inference": "ET red carpet, 00:53 (caption wording): 'they've tried, but they they can't PR train me.'",
+   "alternative": "Any newly famous 20-year-old is watched and coached; his acceptance of it is pragmatic, and he says \"I’m OK with people knowing everything about me\" (S07).",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C21b",
+   "claim": "By early 2026 he had toned down his pranks because of tabloid coverage and his publicist.",
+   "passage": "In early 2026 he told NYLON he had toned down his pranks because \"there'll be a TMZ article about it, I have to hear from my publicist.\"",
+   "class": "self_report",
+   "source_ids": [
+    "S06"
+   ],
+   "inference": "NYLON (interview late February 2026): he says he's trying to tone it down; 'Now I try to do a prank with another artist or something, and there'll be a TMZ article about it, I have to hear from my publicist, and it's just... not the same anymore.' Change of stance on PR within months: supports Three.",
+   "alternative": "Any newly famous 20-year-old is coached; NYLON reports he said it jokingly ('Now I'm so scared,' he jokes).",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C22",
+   "claim": "In 2026 he said he no longer goes out in public \"because I have anxiety attacks with people coming up to me. I just get so scared that I didn’t perform well or act well for them.\"",
+   "passage": "\"I don't really go out in public anymore, because I have anxiety attacks with people coming up to me,\" he told ELLE in 2026. \"I just get so scared that I didn't perform well or act well for them.\"",
+   "class": "self_report",
+   "source_ids": [
+    "S08"
+   ],
+   "inference": "The fear he names is of having failed to perform for an audience, not of being unsafe or misunderstood. This is the clearest Three-shaped fear in the record.",
+   "alternative": "One statement, in the interview that also discloses depression; anxiety has many sources. No diagnostic language; quote in context.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C23",
+   "claim": "Writing alone makes him sad; touring makes him happy.",
+   "passage": "\"When I'm writing I isolate myself and I get sad and then when I tour and I'm able to like be with my people I get so happy,\" he told Broski.",
+   "class": "self_report",
+   "source_ids": [
+    "S14"
+   ],
+   "inference": "Broski 12:xx (caption wording). Counterevidence for Four, which would predict comfort in solitary creation.",
+   "alternative": "He also names \"the writing room\" as a place he is fully himself (S09). Stage euphoria is common among performers.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C23b",
+   "claim": "He says he is most himself on stage.",
+   "passage": "\"I'm more myself and more Zen when I'm on the stage,\" he told ELLE.",
+   "class": "self_report",
+   "source_ids": [
+    "S08"
+   ],
+   "inference": "ELLE, Lollapalooza paragraph.",
+   "alternative": "He also names \"the writing room\" as a place he is fully himself (S09). Stage euphoria is common among performers.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C23c",
+   "claim": "He calls touring the biggest high and says the challenge is surviving time off tour.",
+   "passage": "\"Touring is the biggest high you can get as an artist,\" he told Variety. \"For me, it's more about how I can survive not being on tour.\"",
+   "class": "self_report",
+   "source_ids": [
+    "S07"
+   ],
+   "inference": "Variety (interviewed June 2026). Supports the Seven reading's high-seeking.",
+   "alternative": "He also names \"the writing room\" as a place he is fully himself (S09). Stage euphoria is common among performers.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C26",
+   "claim": "In October 2025 a 25-year-old TikTok creator, Meg (@meganator__), called his October 13 Washington, D.C. show \"one of the worst experiences of my life\", criticized his \"brainrot\" jokes and a \"Sombr Dating Show\" bit in which fans call a \"toxic ex\", and alleged jokes inappropriate for a young audience; per Complex and a student paper, she said he asked the crowd to \"bark\" and called himself \"daddy\". She also compared him to Slender Man and Napoleon Dynamite.",
+   "passage": "A TikTok creator who attended his October 13 show in Washington, D.C., called it \"one of the worst experiences of my life\" and said some of his jokes were inappropriate for the young crowd",
+   "class": "disputed",
+   "source_ids": [
+    "S21",
+    "S23",
+    "S22",
+    "S24",
+    "S25"
+   ],
+   "inference": "Allegations from one attendee, widely viewed and reported; no footage or second attendee account was opened.",
+   "alternative": "Allegations from one attendee as reported by CNN and others; no footage or second attendee account opened. Specific banter claims (relayed by Complex and a student paper) are deliberately not printed.",
+   "durability": "unresolved",
+   "review_trigger": "Revisit if footage, other attendee accounts, or any further statement from Sombr surfaces."
+  },
+  {
+   "id": "C27",
+   "claim": "He replied on TikTok within days, calling himself unserious and accusing her of starting a body-shaming hate train, without directly addressing the joke claims.",
+   "passage": "He answered on TikTok that he had \"never uttered a serious word in my life\" and that her video had started \"a massive body-shaming hate train,\" without directly addressing her claims about the jokes.",
+   "class": "self_report",
+   "source_ids": [
+    "S21",
+    "S22",
+    "S07",
+    "S25"
+   ],
+   "inference": "CNN quotes 'never uttered a serious word in my life'; Digital Music News and Variety quote 'massive body-shaming hate train'; the Daily Collegian notes he 'did not give a clear response' to the complaints about his comments.",
+   "alternative": "Growing up in public at 20-21 and PR advice explain the shift equally well.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C27b",
+   "claim": "In September 2026 he said he wouldn't respond now and that the video 'kind of woke me up'.",
+   "passage": "\"I wouldn't respond now,\" he told ELLE. \"That video kind of woke me up. I was like, 'Wait, yeah, that is weird.'\"",
+   "class": "self_report",
+   "source_ids": [
+    "S08"
+   ],
+   "inference": "ELLE TikTok-response paragraph; he also says 'I plan to never say or do something that would even make someone uncomfortable again.'",
+   "alternative": "Growing up in public at 20-21 and PR advice explain the shift equally well.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C27c",
+   "claim": "Interpretation: defending, then adjusting after seeing the reception, fits Three.",
+   "passage": "A defense first, then a new stance once he saw how it landed: that fits a Three's attention to reception.",
+   "class": "interpretation",
+   "source_ids": [
+    "S21",
+    "S08"
+   ],
+   "inference": "Under criticism he first defended himself, then a year later changed both his stance and his stated conduct. Adjusting to how he is received fits Three; the hurt about his body ran deeper and led to a song (C33).",
+   "alternative": "Growing up in public at 20-21 and PR advice explain the shift equally well (stated in the next sentence of the draft).",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C28",
+   "claim": "He has faced online 'industry plant' allegations pointing to his father's events company.",
+   "passage": "Online critics have called him an \"industry plant,\" pointing to his father's events company",
+   "class": "disputed",
+   "source_ids": [
+    "S25",
+    "S08"
+   ],
+   "inference": "The record shows an organic TikTok spike for \"Caroline\" and a slow, unmarketed climb for \"Back to Friends\" (his account, S09), and no evidence of parental string-pulling. The father’s role on his team is documented.",
+   "alternative": "Unproven either way; presented as an allegation with his response, not adjudicated.",
+   "durability": "unresolved",
+   "review_trigger": "Revisit if reporting establishes how his management or label relationships were formed."
+  },
+  {
+   "id": "C28b",
+   "claim": "NYLON reports that his father, Andy Boose, is part of his behind-the-scenes team.",
+   "passage": "NYLON reports that his father, Andy Boose, is part of his behind-the-scenes team.",
+   "class": "third_party",
+   "source_ids": [
+    "S06"
+   ],
+   "inference": "NYLON: 'his dad, Andy, a successful event producer who's played in a number of indie bands and is also part of Sombr's behind-the-scenes team.'",
+   "alternative": "The writer's description; the father's exact role is not specified.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C28c",
+   "claim": "Sombr rejects the industry-plant idea.",
+   "passage": "Sombr calls the idea \"just incredibly insane.\"",
+   "class": "self_report",
+   "source_ids": [
+    "S08"
+   ],
+   "inference": "ELLE: 'To think that that could help me get signed or become a big artist because my dad devotes his life to fight AIDS is just incredibly insane.'",
+   "alternative": "Unproven either way. Present it as an allegation with his response; do not adjudicate, and do not describe his parents beyond what is on record.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C28d",
+   "claim": "Research limit: no opened source documents how his label or management relationships were formed.",
+   "passage": "No reporting found by October 21, 2026 shows how his label or management relationships were formed.",
+   "class": "interpretation",
+   "source_ids": [
+    "S25",
+    "S08",
+    "S06"
+   ],
+   "inference": "The research stage found allegations (S25), his denial (S08) and the father's documented team role (S06), but no reporting on the business decisions.",
+   "alternative": "Unproven either way. Present it as an allegation with his response; do not adjudicate, and do not describe his parents beyond what is on record.",
+   "durability": "unresolved",
+   "review_trigger": "Revisit if reporting establishes how his management or label relationships were formed."
+  },
+  {
+   "id": "C28e",
+   "claim": "Metadata (FAQ): the industry-plant allegation and the father's documented role.",
+   "passage": "Online critics have called him one, pointing to his father's events company, and NYLON reports that his father, Andy Boose, is part of his behind-the-scenes team.",
+   "class": "disputed",
+   "source_ids": [
+    "S25",
+    "S06"
+   ],
+   "inference": "The record shows an organic TikTok spike for \"Caroline\" and a slow, unmarketed climb for \"Back to Friends\" (his account, S09), and no evidence of parental string-pulling. The father’s role on his team is documented.",
+   "alternative": "Unproven either way. Present it as an allegation with his response; do not adjudicate, and do not describe his parents beyond what is on record.",
+   "durability": "unresolved",
+   "review_trigger": "Revisit if reporting establishes how his management or label relationships were formed."
+  },
+  {
+   "id": "C28f",
+   "claim": "Metadata (FAQ): his denial.",
+   "passage": "Sombr calls the idea \"incredibly insane.\"",
+   "class": "self_report",
+   "source_ids": [
+    "S08"
+   ],
+   "inference": "The record shows an organic TikTok spike for \"Caroline\" and a slow, unmarketed climb for \"Back to Friends\" (his account, S09), and no evidence of parental string-pulling. The father’s role on his team is documented.",
+   "alternative": "Unproven either way. Present it as an allegation with his response; do not adjudicate, and do not describe his parents beyond what is on record.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C28g",
+   "claim": "Metadata (FAQ): research limit on the allegation.",
+   "passage": "No reporting found by October 21, 2026 shows how his label or management relationships were formed, or that family connections made his career.",
+   "class": "interpretation",
+   "source_ids": [
+    "S25",
+    "S08",
+    "S06"
+   ],
+   "inference": "The record shows an organic TikTok spike for \"Caroline\" and a slow, unmarketed climb for \"Back to Friends\" (his account, S09), and no evidence of parental string-pulling. The father’s role on his team is documented.",
+   "alternative": "Unproven either way. Present it as an allegation with his response; do not adjudicate, and do not describe his parents beyond what is on record.",
+   "durability": "unresolved",
+   "review_trigger": "Revisit if reporting establishes how his management or label relationships were formed."
+  },
+  {
+   "id": "C29",
+   "claim": "At her June 2026 Songwriters Hall of Fame induction, Swift said she tells friends 'Sombr is the future and he does it all on his own and he doesn't need AI.'",
+   "passage": "\"Sombr is the future and he does it all on his own and he doesn't need AI,\"",
+   "class": "third_party",
+   "source_ids": [
+    "S26"
+   ],
+   "inference": "Variety's report quotes the speech: 'A lot of my late night debates with my friends about the state of the music industry involve me saying very loudly, \"Sombr is the future and he does it all on his own and he doesn't need AI.\"'",
+   "alternative": "Expert endorsement of his songwriting; says nothing about motive. Do not characterize their private relationship.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C29b",
+   "claim": "Swift told the New York Times (April 28, 2026) his lyrics are 'so intensely confessional', as quoted by L'Officiel.",
+   "passage": "\"His lyrics are so intensely confessional,\" she told The New York Times in April 2026, as quoted by",
+   "class": "third_party",
+   "source_ids": [
+    "S27"
+   ],
+   "inference": "An expert endorsement of his songwriting and solo authorship; it adds nothing on motive.",
+   "alternative": "The NYT interview itself was not opened; attributed via L'Officiel.",
+   "durability": "time_sensitive",
+   "review_trigger": "Update if Swift or Sombr say more on record, or if they collaborate."
+  },
+  {
+   "id": "C31",
+   "claim": "Quenlin Blackwell describes him as 'so happy, ready, and willing to explore and create'.",
+   "passage": "Quenlin Blackwell, who co-starred in his \"Homewrecker\" video, told ELLE he is \"so happy, ready, and willing to explore and create.\"",
+   "class": "third_party",
+   "source_ids": [
+    "S08",
+    "S06"
+   ],
+   "inference": "ELLE quotes Blackwell; NYLON confirms she was cast in the 'Homewrecker' video. Peer testimony closer to the Seven reading's lightness.",
+   "alternative": "A friend and co-star speaking in a promotional context.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C32",
+   "claim": "ELLE’s writer observed that when he played her unreleased tracks, \"he watches me take them in and asks me questions after each one. He makes sure that I tell him my favorite and is also quick to let me know they’re not quite finished or need to be mixed again.\"",
+   "passage": "Sombr \"watches me take them in and asks me questions after each one,\" the writer observed.",
+   "class": "third_party",
+   "source_ids": [
+    "S08"
+   ],
+   "inference": "Behavior under observation: he seeks the listener’s reaction and pre-empts judgment with caveats, which fits a Three monitoring reception (or a Four’s vulnerability about the work).",
+   "alternative": "Many artists act this way with unreleased music; one observation.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C32b",
+   "claim": "ELLE’s writer observed that when he played her unreleased tracks, \"he watches me take them in and asks me questions after each one. He makes sure that I tell him my favorite and is also quick to let me know they’re not quite finished or need to be mixed again.\"",
+   "passage": "\"He makes sure that I tell him my favorite and is also quick to let me know they're not quite finished or need to be mixed again.\"",
+   "class": "third_party",
+   "source_ids": [
+    "S08"
+   ],
+   "inference": "Behavior under observation: he seeks the listener’s reaction and pre-empts judgment with caveats, which fits a Three monitoring reception (or a Four’s vulnerability about the work).",
+   "alternative": "Many artists act this way with unreleased music; one observation.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C33",
+   "claim": "He describes 'My Body Isn't Ready' (released June 25, 2026) as about a lifelong body-image struggle; it includes the line 'I try to be the person you're expecting'.",
+   "passage": "His June 2026 single \"My Body Isn't Ready,\" about what he told Fallon was a lifelong struggle with his body image, includes the line \"I try to be the person you're expecting.\"",
+   "class": "self_report",
+   "source_ids": [
+    "S16",
+    "S07",
+    "S34"
+   ],
+   "inference": "Fallon: 'This song I wrote, you know, about something I've been struggling my whole life, which is, you know, issues with my body image'; the lyric is in the Fallon performance captions. He presents the song as autobiographical. The line articulates the Three dilemma in his own song.",
+   "alternative": "Lyrics are art, not testimony (stated in the draft). Body-image talk is health-adjacent; kept in his words without speculation.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C35",
+   "claim": "In ELLE (September 2026) he described a recent deep depression when on his own and framed it as what he signed up for: 'I'm just somber, man.'",
+   "passage": "In the same September 2026 interview he described a recent \"deep, deep depression when I'm on my own,\" and framed it as the price of the work: \"It's what I signed up for... I'm just somber, man.\"",
+   "class": "self_report",
+   "source_ids": [
+    "S08"
+   ],
+   "inference": "ELLE closing paragraph. Only his framing (accepting it as the price of the career) is relevant to the portrait; the draft states that no type is read from his health.",
+   "alternative": "Mental-health information is never type evidence. The 'can't see a future' line is deliberately not quoted (sensitivity guidance).",
+   "durability": "time_sensitive",
+   "review_trigger": "Revisit if he speaks further about his mental health; describe it only as of the dated interview."
+  },
+  {
+   "id": "C37",
+   "claim": "After his 2025 Fallon performance of 'Back to Friends', the woman the song is about texted and called him.",
+   "passage": "After he sang \"Back to Friends\" on Fallon in 2025, the ex it is about texted and called him, he told",
+   "class": "self_report",
+   "source_ids": [
+    "S01"
+   ],
+   "inference": "i-D: 'after performing \"Back to Friends\" on Fallon, he came off stage to several texts and missed calls from the girl it's about.'",
+   "alternative": "Never identify the person.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C37b",
+   "claim": "He says truthful songwriting has got him in trouble but art that hides the truth 'would fucking suck'.",
+   "passage": "\"It's definitely got me in trouble, but if all art was hiding the truth, art would fucking suck.\"",
+   "class": "self_report",
+   "source_ids": [
+    "S01"
+   ],
+   "inference": "i-D paragraph 6. Confession over discretion supports the Four reading.",
+   "alternative": "Confessional writing is also his commercial identity. Never identify the people behind the songs.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C38",
+   "claim": "In December 2025 he said he needed to go back to his indie-alternative roots: 'that is truly me'.",
+   "passage": "\"I need to go back to my roots, be the indie alternative. Like that is truly me.\"",
+   "class": "self_report",
+   "source_ids": [
+    "S11"
+   ],
+   "inference": "Owen Thiele 18:xx (caption wording), right after 'I felt all this pressure to like keep up in the pop world'.",
+   "alternative": "Comic podcast; caption transcript only.",
+   "durability": "unresolved",
+   "review_trigger": "Reassess when the second album is released: its sound, its commercial reception and his account of the choices."
+  },
+  {
+   "id": "C38b",
+   "claim": "'Homewrecker' (February 6, 2026), his next single, was called 'his poppiest song to date' by NYLON.",
+   "passage": "His next single, \"Homewrecker,\" was what NYLON called \"his poppiest song to date.\"",
+   "class": "third_party",
+   "source_ids": [
+    "S06",
+    "S34"
+   ],
+   "inference": "NYLON writer's judgment; release date from Wikipedia.",
+   "alternative": "It may have been written before the December 2025 remark.",
+   "durability": "unresolved",
+   "review_trigger": "Reassess when the second album is released: its sound, its commercial reception and his account of the choices."
+  },
+  {
+   "id": "C38c",
+   "claim": "In early 2026 he said that if the album flops, 'f*ck it', as long as he is happy with it.",
+   "passage": "\"If the album flops, f*ck it. As long as I am happy with what I made,\" he told NYLON.",
+   "class": "self_report",
+   "source_ids": [
+    "S06"
+   ],
+   "inference": "Stated intent (indie roots, indifference to flopping) and released output (the poppiest single) diverged in early 2026. The unreleased second album is where this tension will resolve.",
+   "alternative": "\"Homewrecker\" may have been written before the December 2025 remark; \"poppiest\" is the NYLON writer’s judgment.",
+   "durability": "unresolved",
+   "review_trigger": "Reassess when the second album is released: its sound, its commercial reception and his account of the choices."
+  },
+  {
+   "id": "C40",
+   "claim": "He opened the George Michael tribute at the September 27, 2026 VMAs; some viewers criticized the performance online.",
+   "passage": "His opening of the George Michael tribute at the September 27, 2026 VMAs drew online criticism,",
+   "class": "observed",
+   "source_ids": [
+    "S28",
+    "S29"
+   ],
+   "inference": "Billboard confirms the tribute opener; Yahoo aggregates social criticism (establishes that it circulated, not its breadth).",
+   "alternative": "The Vogue quote is secondhand; social criticism is anecdotal.",
+   "durability": "time_sensitive",
+   "review_trigger": "Update if he responds to the tribute criticism."
+  },
+  {
+   "id": "C40b",
+   "claim": "No public response from him to the tribute criticism was found as of October 21, 2026.",
+   "passage": "as of October 21, 2026 he had not responded.",
+   "class": "observed",
+   "source_ids": [
+    "S28",
+    "S29"
+   ],
+   "inference": "Research-stage accuracy check.",
+   "alternative": "The Vogue quote is secondhand; social criticism is anecdotal.",
+   "durability": "time_sensitive",
+   "review_trigger": "Update if he responds to the tribute criticism."
+  },
+  {
+   "id": "C41",
+   "claim": "He resists being set apart: 'I'm just a normal motherf*cker... I'm a little too normal.'",
+   "passage": "\"I'm a little too normal,\" he told NYLON.",
+   "class": "self_report",
+   "source_ids": [
+    "S06"
+   ],
+   "inference": "NYLON. Counterevidence for Four (no envy or emphasis on difference appears in the record).",
+   "alternative": "Relatable humility is also good press, and Fours can present as ordinary.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C42",
+   "claim": "He slept through his VMA and Grammy nominations because he can't deal with waiting for the moment.",
+   "passage": "\"I just can't deal with the pressure of like waiting for the moment.\"",
+   "class": "self_report",
+   "source_ids": [
+    "S11"
+   ],
+   "inference": "Owen Thiele 36:xx (caption wording). Fits Three's evaluation sensitivity and Seven's avoidance.",
+   "alternative": "He sleeps 4 a.m. to 1 p.m. (S11), so sleeping through morning announcements may be mostly schedule.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C43",
+   "claim": "In January 2024, before any chart hit, he told Atwood his plans (more shows, a support tour, festivals, Europe, Australia, Asia) and 'I just want to work. And meet as many listeners as possible.'",
+   "passage": "\"I just want to work. And meet as many listeners as possible.\"",
+   "class": "self_report",
+   "source_ids": [
+    "S19"
+   ],
+   "inference": "Atwood closing paragraph. Shows the drive predates success.",
+   "alternative": "Ordinary for a newly signed artist; career incentive.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C45",
+   "claim": "He calls himself 'a people pleaser' inside a comic bit; nothing in the record shows a helper identity.",
+   "passage": "He calls himself \"a people pleaser\" in a comic bit, but nothing shows a helper identity.",
+   "class": "self_report",
+   "source_ids": [
+    "S11"
+   ],
+   "inference": "Owen Thiele 11:xx (caption wording): 'I'm just trying to be likable, you know... Like I I'm a people pleaser.' Considered and set aside as Type 2 evidence.",
+   "alternative": "Spoken inside comedy bits; speaker attribution comes from caption context. Low evidential weight.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C46",
+   "claim": "He describes himself as very self-conscious.",
+   "passage": "on CBS he called himself a \"very self-conscious person.\"",
+   "class": "self_report",
+   "source_ids": [
+    "S09"
+   ],
+   "inference": "CBS extended 32:xx (caption wording): 'I'm like very self-conscious person.' Against the Seven reading.",
+   "alternative": "Said while explaining stage dancing; caption transcript only.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C47",
+   "claim": "He told Fallon he had never seen a concert at Madison Square Garden, only Knicks games: 'No, I'm gonna be the first.'",
+   "passage": "when Fallon asked about the first concert he saw there, he said he had never been to one, only Knicks games. \"No, I'm gonna be the first.\"",
+   "class": "self_report",
+   "source_ids": [
+    "S16"
+   ],
+   "inference": "Fallon captions 05:00-05:20: 'I don't think I've ever seen a concert. I've just been to Knicks games... -No, I'm gonna be the first.'",
+   "alternative": "Light talk-show exchange.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "I01",
+   "claim": "The record pairs a sad stage name with algorithm study, audience testing and fears of commercial and performance failure.",
+   "passage": "Yet the same record shows a teenager studying the algorithm, a songwriter who tests choruses on TikTok before finishing them, and a young star whose named fears are being dropped, being \"a disappointment\" and not performing well for fans.",
+   "class": "interpretation",
+   "source_ids": [
+    "S17",
+    "S12",
+    "S04",
+    "S09",
+    "S08"
+   ],
+   "inference": "Summarizes C12, C13, C05, C05b, C22.",
+   "alternative": "Each element has a professional explanation (see C12c).",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "I02",
+   "claim": "His star career dates from spring 2025 and the first-person record is promotional.",
+   "passage": "His life as a star is about 18 months old, and nearly every first-person source comes from a promotional cycle",
+   "class": "interpretation",
+   "source_ids": [
+    "S02",
+    "S34",
+    "S07",
+    "S08",
+    "S06"
+   ],
+   "inference": "First Hot 100 entry April 2025 (S02); the opened interviews cluster around the breakout, album, awards and tour cycles (open_case.reason).",
+   "alternative": "The CBS bedroom interview is unhurried but still promotional.",
+   "durability": "time_sensitive",
+   "review_trigger": "Revise the 18-month framing at the next refresh (open_case.next_review)."
+  },
+  {
+   "id": "I03",
+   "claim": "Dating and quotation-method note.",
+   "passage": "Research closed on October 21, 2026. Quotes from video interviews follow YouTube's captions, repeated words included.",
+   "class": "observed",
+   "source_ids": [
+    "S09",
+    "S12",
+    "S11",
+    "S14",
+    "S16",
+    "S33"
+   ],
+   "inference": "Video quotations were matched against saved caption transcripts; not second-transcribed from audio at draft stage (research_tasks).",
+   "alternative": "A verifier should listen to the cited timestamps.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "I04",
+   "claim": "Type answer: leading read 3 at low confidence; 4 live; 7 in play.",
+   "passage": "Leading read: Enneagram Type 3, held loosely, at low confidence. Type 4 is the live alternative, and Type 7 is still in play. He has studied audience response since his teens, yet he named himself for a sad mood and says his songs come from what he feels. A record about 18 months old can't yet separate them.",
+   "class": "interpretation",
+   "source_ids": [
+    "S17",
+    "S12",
+    "S09",
+    "S04",
+    "S08",
+    "S13"
+   ],
+   "inference": "Mirrors type_hypothesis and open_case. 'Says his songs come from what he feels': S09 ('me and only me want to hear'), S13 ('I just write about things that I'm actually feeling'), S04.",
+   "alternative": "No defensible discriminator yet (type_hypothesis.discriminator).",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "I05",
+   "claim": "Framing of the three live readings.",
+   "passage": "For Sombr, the three disagree about what his drive, his candor and his love of the stage are for.",
+   "class": "interpretation",
+   "source_ids": [
+    "S09",
+    "S08",
+    "S07"
+   ],
+   "inference": "Applies the triad descriptions to C10-C13, C16-C18, C23.",
+   "alternative": "Typology framing, not evidence.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "I06",
+   "claim": "Both the 2023 Garden prediction and the 2026 1,000-seater line are his own statements.",
+   "passage": "Both answers are his. Which one describes him is the question this profile tries, and so far fails, to settle.",
+   "class": "interpretation",
+   "source_ids": [
+    "S17",
+    "S16"
+   ],
+   "inference": "C10 and C11.",
+   "alternative": "See C11 alternative.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "I07",
+   "claim": "Why Three leads: named fears and worth-through-recognition.",
+   "passage": "Three leads, narrowly, on what he volunteers when asked what he fears and what made him feel worth something",
+   "class": "interpretation",
+   "source_ids": [
+    "S04",
+    "S09",
+    "S08",
+    "S12",
+    "S17"
+   ],
+   "inference": "C05, C05b, C22, C14b, C10, C11, C13.",
+   "alternative": "Weighed in the same paragraph against professional incentive and self-report limits.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "I08",
+   "claim": "Counterevidence to the Four reading.",
+   "passage": "What strains it is the lack of envy, the audience testing, and a man who says the stage, not solitude, is where he feels most himself.",
+   "class": "interpretation",
+   "source_ids": [
+    "S06",
+    "S12",
+    "S14",
+    "S08"
+   ],
+   "inference": "C41, C13, C23, C23b.",
+   "alternative": "Fours can present as ordinary; he also names 'the writing room' as a place he is fully himself (S09).",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "I09",
+   "claim": "Weighing of the Seven reading.",
+   "passage": "Seven explains the touring high and the unserious persona, but not fears centered on judgment.",
+   "class": "interpretation",
+   "source_ids": [
+    "S07",
+    "S21",
+    "S08",
+    "S11"
+   ],
+   "inference": "C23c, C27, C22, C42.",
+   "alternative": "Seven cannot be excluded until he is seen through a long stretch off tour.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "I10",
+   "claim": "Types 6 and 2 were considered and set aside for now.",
+   "passage": "Types 6 and 2 were tested and set aside.",
+   "class": "interpretation",
+   "source_ids": [
+    "S11",
+    "S09",
+    "S20",
+    "S07"
+   ],
+   "inference": "See type_hypothesis.alternative_case; C04, C45.",
+   "alternative": "Six fits the frequent 'scared' language and loyalty to Berg and his parents.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "I11",
+   "claim": "Unexplained: algorithm study and audience testing beside a sad stage name and stage-centered selfhood.",
+   "passage": "What stays unexplained is the central contradiction",
+   "class": "interpretation",
+   "source_ids": [
+    "S17",
+    "S12",
+    "S08"
+   ],
+   "inference": "type_hypothesis.unexplained.",
+   "alternative": "May reflect career incentive more than motive.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "I12",
+   "claim": "Research limit: no testimony from anyone who knew him before 2022, and none from Tony Berg.",
+   "passage": "No teacher, classmate or early collaborator has described him on record, and Berg has not been quoted.",
+   "class": "interpretation",
+   "source_ids": [
+    "S08",
+    "S26",
+    "S32",
+    "S19"
+   ],
+   "inference": "Opened testimony is limited to friends, collaborators and admirers (Blackwell, Navarrette, Swift, Buckingham) and two journalists' observations.",
+   "alternative": "Such testimony may exist unopened; see research follow-up (2).",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "I13",
+   "claim": "Interpretation of his stated reason for writing alone.",
+   "passage": "That reason, fear of judgment, fits a Three's image sensitivity as well as a Four's privacy.",
+   "class": "interpretation",
+   "source_ids": [
+    "S09"
+   ],
+   "inference": "C16.",
+   "alternative": "Shyness and temperament explain it without type.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "I14",
+   "claim": "Alternative explanation for his changed stance on the TikTok episode.",
+   "passage": "Growing up in public at 20, with a publicist, explains it about as well.",
+   "class": "interpretation",
+   "source_ids": [
+    "S06",
+    "S08"
+   ],
+   "inference": "NYLON documents publicist involvement (C21b); ELLE quotes 'I was a teenager when I was kind of just pushed into the spotlight.'",
+   "alternative": "N/A: this sentence is itself the alternative.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "I15",
+   "claim": "Interpretation of the 'My Body Isn't Ready' lyric.",
+   "passage": "Lyrics are art, not testimony, but he presents the song as his own story, and that line states the Three's dilemma plainly.",
+   "class": "interpretation",
+   "source_ids": [
+    "S16",
+    "S07"
+   ],
+   "inference": "He calls the song autobiographical on Fallon and in Variety.",
+   "alternative": "A lyric can dramatize rather than report.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "I16",
+   "claim": "Method note on mental-health disclosures.",
+   "passage": "His health is not evidence for any type, and none is read from it here.",
+   "class": "interpretation",
+   "source_ids": [
+    "S08",
+    "S04"
+   ],
+   "inference": "Sensitivity guidance (research_tasks).",
+   "alternative": "N/A.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "M01",
+   "claim": "Metadata (description): the 2023 Garden prediction.",
+   "passage": "At 18, with no chart hit, Sombr said he would play Madison Square Garden.",
+   "class": "self_report",
+   "source_ids": [
+    "S17"
+   ],
+   "inference": "1883: Garden as dream venue, 'it will happen. I know it!'",
+   "alternative": "Paraphrase of a dream-venue answer.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "M02",
+   "claim": "Metadata (description): two Garden nights booked for November 2026.",
+   "passage": "In 2026 he booked two nights there.",
+   "class": "observed",
+   "source_ids": [
+    "S16",
+    "S08",
+    "S37"
+   ],
+   "inference": "See C09.",
+   "alternative": "Tour dates can change.",
+   "durability": "time_sensitive",
+   "review_trigger": "After November 24, 2026, confirm the shows happened."
+  },
+  {
+   "id": "M03",
+   "claim": "Metadata (FAQ): the Four case.",
+   "passage": "He took his stage name from a mood, writes alone because he finds songwriting too vulnerable to share, and fights his producer to keep imperfect bedroom vocals.",
+   "class": "self_report",
+   "source_ids": [
+    "S17",
+    "S09",
+    "S12"
+   ],
+   "inference": "C02, C16, C18.",
+   "alternative": "See type_hypothesis.alternative_case.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "M04",
+   "claim": "Metadata (FAQ): what strains the Four case.",
+   "passage": "What strains it is that he shows no envy, calls himself \"a little too normal,\" and says writing alone makes him sad while the stage makes him most himself.",
+   "class": "interpretation",
+   "source_ids": [
+    "S06",
+    "S14",
+    "S08"
+   ],
+   "inference": "C41, C23, C23b.",
+   "alternative": "Fours can present as ordinary.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "M05",
+   "claim": "Metadata (FAQ): settle signals.",
+   "passage": "As of October 21, 2026, five things: how he explains his unannounced second album, how he handles a first commercial flop, whether he ever takes on co-writers, how he answers criticism such as the reaction to his September 2026 VMA tribute to George Michael, and a first account from someone who knew him before 2022.",
+   "class": "interpretation",
+   "source_ids": [
+    "S06",
+    "S11",
+    "S09",
+    "S28",
+    "S29",
+    "S08"
+   ],
+   "inference": "Mirrors open_case.settle_signals and the draft's 'What would settle it' section.",
+   "alternative": "Signals can be overtaken by events; next_review 2026-12-15.",
+   "durability": "time_sensitive",
+   "review_trigger": "Revisit at open_case.next_review (2026-12-15) or when the album is announced."
+  },
+  {
+   "id": "M06",
+   "claim": "Metadata (FAQ): his production process.",
+   "passage": "He writes and produces his songs himself at home, then finishes them with the producer Tony Berg at Sound City in Los Angeles.",
+   "class": "observed",
+   "source_ids": [
+    "S04",
+    "S03",
+    "S17"
+   ],
+   "inference": "American Songwriter and Billboard; 1883 ('brought it into Sound City').",
+   "alternative": "He co-produces with Berg on finished records.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "M07",
+   "claim": "Metadata (FAQ): Warner paired him with Berg; signing announced January 2023.",
+   "passage": "Warner Records paired them after signing him; the signing was announced in January 2023.",
+   "class": "observed",
+   "source_ids": [
+    "S06",
+    "S18",
+    "S09"
+   ],
+   "inference": "NYLON: 'he signed to Warner Records, which paired him with Tony Berg'; Consequence dated January 27, 2023; CBS: his A&R introduced him to Berg.",
+   "alternative": "None.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "M08",
+   "claim": "Metadata (FAQ): 'Back to Friends' was made without Berg.",
+   "passage": "His breakout, \"Back to Friends,\" was made without Berg's production involvement, American Songwriter reported.",
+   "class": "third_party",
+   "source_ids": [
+    "S04",
+    "S09"
+   ],
+   "inference": "American Songwriter: \"'back to friends' was made without Berg's production involvement\"; CBS: 'I'm the only person that touched that song.'",
+   "alternative": "None.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C10e",
+   "claim": "Section heading echoing his 2023 1883 line.",
+   "passage": "## \"It will happen. I know it!\"",
+   "class": "self_report",
+   "source_ids": [
+    "S17"
+   ],
+   "inference": "Heading quotes C10 ('That's my dream, but it will happen. I know it!'), capitalized as a heading.",
+   "alternative": "Big dreams are ordinary for teenage musicians; the question is what reaching the Garden would prove to him.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C06e",
+   "claim": "Section heading echoing his American Songwriter line.",
+   "passage": "## \"What I feel like making\"",
+   "class": "self_report",
+   "source_ids": [
+    "S04"
+   ],
+   "inference": "Heading quotes C06b ('I'm going to make what I feel like making').",
+   "alternative": "It is also a good origin story for a brand built on authorship, and it counters the industry-plant charge (C28). His process after the turn still ran on audience testing (C13).",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C14e",
+   "claim": "Callback to his CBS line 'I wanted to be seen or like a part of something'.",
+   "passage": "\"Wanted to be seen\" could carry a Four's sense of lack just as well",
+   "class": "self_report",
+   "source_ids": [
+    "S09",
+    "S10"
+   ],
+   "inference": "Echo of C14 used in the interpretation that it does not discriminate.",
+   "alternative": "A single unprompted childhood reflection in a sympathetic interview; it does not discriminate on its own. Quote from the audio, and do not turn it into a childhood-wound story.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C14f",
+   "claim": "Callback to his CBS line about learning he was good when others told him.",
+   "passage": "learning he was good only when \"other people told me.\"",
+   "class": "self_report",
+   "source_ids": [
+    "S09"
+   ],
+   "inference": "Echo of C14b.",
+   "alternative": "A single unprompted childhood reflection in a sympathetic interview; it does not discriminate on its own. Quote from the audio, and do not turn it into a childhood-wound story.",
+   "durability": "stable",
+   "review_trigger": ""
+  }
+ ],
+ "type_hypothesis": {
+  "type": 3,
+  "confidence": "low",
+  "for_claim_ids": [
+   "C14",
+   "C22",
+   "C10",
+   "C13",
+   "C05",
+   "C21",
+   "C11",
+   "C32",
+   "C43",
+   "C33",
+   "C27",
+   "C12",
+   "C45",
+   "C14b",
+   "C05b",
+   "C11f"
+  ],
+  "against": "(1) The somber self-description is unusually consistent across 2023-2026 and settings: \"a very emotionally complicated child\", \"a troubled kid\", songwriting as \"the only place I can turn to\", writing alone because it is \"vulnerable\", \"I’m just somber, man\" (C15, C16, C35). Identification with feeling fits Four more naturally than Three. (2) His own account of the breakthrough is a turn away from \"what I thought would work\" toward \"what I feel like making\" (C06), and he has paid small, real costs for it: fighting his mentor to keep imperfect bedroom vocals (\"a critic may not like it, but I don’t care\", C18), refusing co-writers at commercial scale (C16), airing exes and getting \"in trouble\" (C37), and releasing a male body-insecurity song (C33). (3) A Three usually guards an image of competence; he has disclosed anxiety attacks, body insecurity and depression (C22, C33, C35). Gen Z candor norms and his confessional brand weaken this point, and mental health is not type evidence. (4) Much of the Three material is simply the job: TikTok-era careers require studying the algorithm, testing hooks, posting daily and managing image (C12, C13, C21). Professional incentive explains it without a motive. (5) The touring \"high\", the \"never uttered a serious word\" persona, the 2023-2024 avoidance and his peers’ picture of easy, playful openness also fit Seven (C23, C27, C05, C31). (6) Almost everything is self-report in promotional settings within about 18 months of fame; the only testimony is from friends, collaborators and admirers (C29, C31), and no one who knew him before 2022 has spoken on record.",
+  "alternative_type": 4,
+  "alternative_case": "Type 4 explains the emotional center of the record. He named himself for a mood (the name \"kind of made sense for how I was feeling\", S17; \"teenage angst and rejection\", C15). He describes a lifelong sense of not belonging (C14), feelings so large that a clean vocal \"just doesn’t give me\" enough (C18), and songwriting as the only place to store them (C16). He insists the songs are true and his own (\"they don’t come out of a fucking factory\", C17), keeps imperfection against expert advice (C18), confesses at personal cost (C37), and narrates his breakthrough as abandoning what would sell (C06). After the pop hits he said he wanted to return to \"indie alternative. Like that is truly me\" (C38). What strains the Four reading: he shows no envy and resists being set apart (\"I’m a little too normal\", \"I will always be a supporter of anyone who’s putting themselves out there\", C41); he A/B tests his feelings on an audience and finishes what tests well (C13); he stated concrete status goals years before success and played them down afterward (C10, C11); he adjusted his public conduct after criticism and on his publicist’s advice (C21, C27); he went to the gym in answer to body-shaming (S08); and he says solitary writing makes him sad while on stage he is \"more myself and more Zen\" (C23). Type 7 is also live: the touring \"high\" and difficulty surviving \"not being on tour\" (C23), the unserious persona (C27), avoidance during the slump (C05), sleeping through big verdicts (C42), and Quenlin Blackwell’s picture of someone \"so happy, ready, and willing to explore\" (C31). Against Seven: his fears concern judgment and performing well (C14, C22, C16); he dwells openly in pain rather than reframing it; and he calls himself \"very self-conscious\" (S09). Types 6 and 2 were tested and set aside for now. Six fits the frequent \"scared\" language, germaphobia and \"let down my fans\" (S11), and his loyalty to Berg and his parents (S04, S06), but nothing shows doubt of authority, worst-case planning or security-seeking, and he defied his mother to bet on himself (C04). Two fits \"people pleaser\", gifts to fans and \"serving you forever\" (C45, S07), but there is no helper identity or pride in giving.",
+  "discriminator": "None that is defensible yet. The best candidate separates Three from Four: when the authentic choice and the working choice diverge, which wins? The record points both ways. He narrates his breakthrough as abandoning \"what I thought would work\" (C06) and keeps costly authorship habits (C16, C18, C37). But his process runs on audience response (C13); his ambitions were concrete and public at 14, 18 and 19 and were softened once met (C10, C11); he monitors reception in front of a journalist (C32); and he changed his conduct after criticism (C21, C27). The fears he names point toward Three: being dropped, being \"a disappointment\", \"scared that I didn’t perform well or act well for them\", and never feeling \"good at anything... until other people told me\" (C05, C14, C22). But these are few, self-reported, and shared by most young signees, while Four’s identification with feeling is just as consistent. The decisive test is a commercial setback after fame, or a forced choice between the tested pop direction and his stated wish to \"go back to my roots\" (C38). It has not happened: the second album was unannounced as of October 21, 2026. Seven cannot be excluded until he is seen handling a long stretch without touring. On this record Three cannot be held above low confidence, so the profile is an open case.",
+  "unexplained": "Why a musician who studied the algorithm at 18 and A/B tests his choruses names himself for sadness and calls the stage the only place he feels right. The gap between the \"never uttered a serious word\" persona and the darkness he discloses. Why he says he never felt good at anything despite auditioning into LaGuardia. The change from \"they can’t PR train me\" (September 2025) to deferring to his publicist (2026), and from \"That’s my dream, but it will happen\" (Madison Square Garden, 2023) to \"my life goal... a 1,000-seater\" (2026). How much his father’s industry experience and presence on his team shaped his path; the record shows the TikTok spikes, not the business decisions. How he behaves in a private disagreement, with a collaborator or with his label: no account exists. What the second album will sound like, and how he will respond if it underperforms."
+ },
+ "profile_format": "open_case",
+ "open_case": {
+  "reason": "Sombr is 21. He had a viral moment and a major-label deal in 2022-2023, but no hit until \"Back to Friends\" charted in April 2025, so his public life as a star is about 18 months old. The record is a run of promotional cycles: the breakout (spring 2025), the debut album (August 2025), awards season (late 2025 to early 2026) and the 2026 singles and arena tour. It holds four long reported profiles (i-D, American Songwriter, Variety, ELLE), a cover interview (NYLON), one unhurried TV interview in his childhood bedroom (CBS Mornings, about 34 minutes), several podcasts and comedy shows (mostly bits), and short trade and radio pieces. Interviews from 2023-2024, before fame, are thin. The only third-party testimony is from friends, collaborators and admirers (Quenlin Blackwell, Inde Navarrette, Taylor Swift, Lindsey Buckingham, a Warner executive), plus two journalists’ observations; his father appears in interviews but does not speak, and no teacher, classmate or early collaborator is on record. Thirty-eight sources were opened (including about three and a half hours of transcribed interviews) and five types tested. The leading read (Three) and its rivals (Four, Seven) disagree about what his drive, candor and stage euphoria are for, and nothing yet shows him choosing between authenticity and success when they conflict, handling a commercial setback, or in a private conflict.",
+  "live_alternatives": [
+   4,
+   7
+  ],
+  "settle_signals": [
+   "The second album (unannounced as of October 21, 2026): when he describes his choices, does he talk about what tested well and what will connect or win (Three), about making the strange, true record whatever the numbers (Four), or about what was most fun to make (Seven)? And does the record follow his talk of going \"back to my roots\" or the pop direction that worked?",
+   "His first real commercial setback after fame (a single or the album underperforming): does he pivot toward what works and work harder (Three), hold to it as true to himself and say he was misunderstood, as he pre-committed with \"if the album flops, f*ck it\" (Four), or shrug it off and move on to the next thing (Seven)?",
+   "Collaboration: if he begins co-writing or using outside writers to keep the hits coming (Three), keeps writing alone even when it slows output (Four), or starts collaborating mainly for the fun of it (Seven).",
+   "How he handles sustained criticism, such as the September 2026 George Michael tribute backlash or a bad review of album two: does he adjust his image and conduct, as he did after the October 2025 TikTok episode (Three), withdraw into feeling misunderstood (Four), or joke it away (Seven)?",
+   "When the arena run pauses after the Madison Square Garden finale (November 23-24, 2026), does he describe what steadies him as goals, work and audience response (Three), solitary writing and being understood (Four), or new stimulation and keeping things light (Seven)?",
+   "The first on-record testimony from someone who knew him before 2022 (a LaGuardia teacher or classmate, Tony Berg, an early collaborator) about what drove him: recognition and results, feeling different and needing to express it, or chasing fun."
+  ],
+  "next_review": "2026-12-15"
+ }
+}

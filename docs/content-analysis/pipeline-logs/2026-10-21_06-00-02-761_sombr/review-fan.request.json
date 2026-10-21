@@ -1,0 +1,20 @@
+{
+  "schema_version": 3,
+  "subject": "sombr",
+  "mode": "create",
+  "role": "fan",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_review_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-21_06-00-02-761_sombr/draft.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-21_06-00-02-761_sombr/evidence-draft.json",
+    "similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-21_06-00-02-761_sombr/similarity.json"
+  },
+  "outputs": {
+    "review-fan.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-21_06-00-02-761_sombr/review-fan.json"
+  },
+  "content_sha256": "2a0a4f5e1204ea07a867d3cf41ca71eeddd43e4bbb4efb64bb890dd2a0bed49e",
+  "evidence_sha256": "7c5f17dea7fd32aae87896661db0579c6b9b2cf26ebe61939e459be7741e72fc"
+}

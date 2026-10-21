@@ -1,0 +1,19 @@
+I've written the unfamiliar-reader review to `docs/content-analysis/pipeline-logs/2026-10-20_06-00-05-001_paapa-essiedu/review-unfamiliar.json`. It passes the review schema, its hashes match the request, and every quoted passage appears word for word in the draft. I didn't modify any other files or publish anything.
+
+**Verdict:** a reader who has never heard of Paapa Essiedu is oriented quickly. The two opening scenes (the café confession and the King Lear night) set up a real question, and the piece pays it off: he dreads every job in advance, steadies once there's real danger, and explains his need to be good as a way to feel safe. It's strongest from the opening through "Why not Type 1?".
+
+**One major finding:**
+- **The Type 6 explanation is stretched in the Snape section.** The draft calls his signing of the trans-rights open letter "counterphobic" (a Six moving toward a threat). But signing created a new risk; it wasn't a move toward one that already existed. A lay reader sees the type absorbing whatever happens, right before the section that argues for Type 1.
+
+**Seven minor findings:**
+- **Missing context on the letter.** The draft never says why J.K. Rowling's fans wanted him sacked. It also doesn't say that his "No" about seeking advice came 10 months later, to The Sunday Times in March 2026.
+- **A Boris Johnson quote cuts against its own point.** The quote, "breaking the rules he made," reads as Type 1 anger at rule-breaking. The same 2022 Guardian passage has a better line about people not being with their dying parents.
+- **"Friends" overstates the source.** He said "people who are close to me," not friends. And "tells friends the same story off the press circuit" really means a friend's public livestream and a friend's podcast.
+- **The "is it easing?" thread is never tied together.** His 2023 line about worrying less what people think, an interviewer's "all containment," and his weekly therapy sit in three different sections.
+- **The last third runs long.** The body is 3,861 words against a 3,500 target. It promises Types 9 and 2 a "full hearing" and gives them two sentences each, and it ends a section on an eating quirk that complicates nothing.
+- **Some names and works aren't introduced.** Jessie Buckley, Lucy Prebble, Lennie James and the play *Pass Over* need a few words each, and "Only that year" should say 2024.
+- **The Type 6 definition sentence reads like other recent Six profiles.** The similarity check's "core emotion is fear" matches are the standard house sentence, so I didn't flag those.
+
+**Passages to protect:** the opening ("Hattenstone assumed he was fishing. He wasn't."), the "Inside… / Outside…" return to King Lear, "The verdict he fears belongs to other people," the paragraph admitting that losing both parents could explain the bracing for loss, and the Type 1 vs Type 6 test built on his conversation with Paloma Faith.
+
+I checked the King Lear account, the death-threat and letter quotes, the 2023 Times lines and the Johnson context against the saved source texts, and they're accurate. This wasn't a full evidence audit. I set the same two risk flags as the research stage: sensitive allegations and contested typing.

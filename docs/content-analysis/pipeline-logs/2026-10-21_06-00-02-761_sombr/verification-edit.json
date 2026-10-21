@@ -1,0 +1,1300 @@
+{
+  "schema_version": 3,
+  "content_sha256": "35c1f7ca9b2473bade7f93af0fac059acf153191935ff8944cc4b313a76cefb5",
+  "evidence_sha256": "49aaaa9650d8b76e208ab122cc130c1a62308ec7cd30316480c14a7dd3a5b6ff",
+  "status": "pass",
+  "findings": [
+    {
+      "id": "verify-01",
+      "severity": "minor",
+      "passage": "His turn to writing for himself came, he told CBS, only after \"it went on for so long and it wasn't working anymore,\" which a Three reading counts as one more adjustment to what works.",
+      "problem": "One of the four Three reasons that 'survive' omits the motive he gives in the same CBS answer (S09 ~06:50-07:30). Right after the quoted clause he says he would write what 'me and only me want to hear. I don't want to assume what anyone else wants to hear. What will be successful, right?' Moments later: 'it's probably over. Let me just make something for fun.' That is a giving-up account, and it cuts against 'adjustment to what works'. The timing point is legitimate and labeled as a reading, but the reader isn't shown his own framing beside it. The depression context in the same answer should stay out.",
+      "acceptance_test": "The sentence or the next one adds, in his non-health words and attributed to CBS, that he described the turn as giving up on guessing what would succeed (e.g. 'it's probably over. Let me just make something for fun'). The Three reading is framed as weighing the timing against that stated motive. No health material is added, and the 'tiebreaker' summary still reads as true."
+    },
+    {
+      "id": "verify-02",
+      "severity": "minor",
+      "passage": "He has studied audience response since his early teens, yet he named himself for a sad mood and says his songs come from what he feels.",
+      "problem": "In the 60-word type answer (and its FAQ mirror, the most likely snippet), 'studied audience response since his early teens' is broader than the source. In 1883 (2023) he says that in his early teens he 'started producing and studying the social media algorithm.' Audience testing of choruses is documented only from 2024-2025.",
+      "acceptance_test": "The type answer and type FAQ use wording faithful to 1883 (e.g. 'He has studied the social media algorithm since his early teens' or 'has studied what spreads online since his early teens'), stay at or under 60 words, and match each other."
+    }
+  ],
+  "research_tasks": [
+    "Optional at next_review (2026-12-15): audio-check S11 (Thiele ~18:26-18:54, ~25:27-25:42, ~36:26-36:35), S12 (Switched On Pop ~22:09-23:16) and S14 (Broski ~12:55-14:50). Fresh captions match every printed quote, but these have not been heard; S16 Fallon captions are professional.",
+    "At next_review: re-search for a Tony Berg, LaGuardia faculty/classmate or early-collaborator account; for any Sombr response to the Sept 27, 2026 VMA tribute criticism; and for a second-album title/date. Update I12, C40b and C09b."
+  ],
+  "claim_checks": [
+    {
+      "claim_id": "C10b",
+      "verdict": "supported",
+      "reason": "1883 (Nov 17, 2023, via r.jina.ai): he says 'Sombr hasn't done a live show yet so we have a few shows in January'; born July 5, 2005 (Wikipedia), so 18; first Hot 100 entry was April 2025 (Billboard S02, Variety). Atwood's Feb 2024 review describes him 'in person for the very first time'."
+    },
+    {
+      "claim_id": "C10",
+      "verdict": "supported",
+      "reason": "Verbatim in 1883's dream-venue answer, which also mentions his dad taking him to basketball games there."
+    },
+    {
+      "claim_id": "C09",
+      "verdict": "supported",
+      "reason": "Wikipedia tour table lists MSG Nov 23 and 24, 2026; Fallon (June 25, 2026) reads 'November 23rd and 24th... two nights'; ELLE confirms two consecutive hometown nights."
+    },
+    {
+      "claim_id": "C11",
+      "verdict": "supported",
+      "reason": "Fallon captions 04:47-04:52: answer to 'What does that mean to a New York City kid...headlining the Garden'; begins 'I mean, all I ever --' before the quoted words, which are verbatim."
+    },
+    {
+      "claim_id": "I06",
+      "verdict": "supported",
+      "reason": "Interpretation framing two verified, dated self-statements; it claims nothing beyond them."
+    },
+    {
+      "claim_id": "C01",
+      "verdict": "supported",
+      "reason": "Wikipedia gives birth name and July 5, 2005 birth date (21 in Oct 2026); Lower East Side confirmed by i-D, NPR/KBIA and NYLON; producer role per Billboard/AS."
+    },
+    {
+      "claim_id": "C03b",
+      "verdict": "supported",
+      "reason": "Variety (200,000 likes overnight, Columbia email), People ('Every record label was in my email inbox'), ELLE ('inbox was flooded') and AS all report the 2022 TikTok 'Caroline' and label interest; attributed as his account."
+    },
+    {
+      "claim_id": "C03d",
+      "verdict": "supported",
+      "reason": "Consequence, Jan 26-27, 2023: 'Seventeen-year-old singer-songwriter sombr has signed to Warner Records' with Warner CEO statement. The exclusive ran in Consequence; 'Warner Records announced' is a fair compression."
+    },
+    {
+      "claim_id": "C03c",
+      "verdict": "supported",
+      "reason": "American Songwriter: 'in the nearly three years between caroline and back to friends, sombr released almost 20 songs, none of which made a significant impact.'"
+    },
+    {
+      "claim_id": "C07",
+      "verdict": "supported",
+      "reason": "Dec 27 release per i-D; Variety (Aug 2026): entered Hot 100 April 2025, peaked January 2026, 'more than 2 billion streams on Spotify'."
+    },
+    {
+      "claim_id": "C08",
+      "verdict": "supported",
+      "reason": "Wikipedia: I Barely Know Her released Aug 22, 2025 and reached the top ten of the Billboard 200; Collegian also gives Aug 22."
+    },
+    {
+      "claim_id": "C08b",
+      "verdict": "supported",
+      "reason": "Grammys Wikipedia: ceremony Feb 1, 2026, all eight Best New Artist nominees including Sombr performed; Variety Behind the Song has him sleeping through the nomination stream."
+    },
+    {
+      "claim_id": "C16c",
+      "verdict": "supported",
+      "reason": "Variety: label paired him with 'veteran producer Tony Berg, who helped launch Phoebe Bridgers' career'; AS and Billboard describe home writing/producing then Sound City with Berg; hedged 'by his account' and time-tagged."
+    },
+    {
+      "claim_id": "C16f",
+      "verdict": "supported",
+      "reason": "American Songwriter verbatim: 'back to friends was made without Berg's production involvement.'"
+    },
+    {
+      "claim_id": "C29",
+      "verdict": "supported",
+      "reason": "Variety SHOF report (June 11, 2026): Swift says in late-night debates with friends, 'Sombr is the future and he does it all on his own and he doesn't need AI.' Verbatim."
+    },
+    {
+      "claim_id": "C02",
+      "verdict": "supported",
+      "reason": "1883 stage-name answer: 'It has my initials on it, SMB... \"Sombr\" kind of made sense for how I was feeling.' Verbatim."
+    },
+    {
+      "claim_id": "I01",
+      "verdict": "supported",
+      "reason": "Each element sourced: algorithm study in early teens (1883), chorus posting/testing (CBS, Switched On Pop), fear of being dropped while signed and hitless (AS) and 'be a disappointment' (CBS, about the two post-signing years)."
+    },
+    {
+      "claim_id": "I01b",
+      "verdict": "supported",
+      "reason": "Interpretive framing question; matches the discriminator in type_hypothesis and claims no answer."
+    },
+    {
+      "claim_id": "I02",
+      "verdict": "supported",
+      "reason": "Hot 100 entry April 2025 (Variety, Billboard); first-person record is promo-cycle interviews, as the source list shows. Time-tagged."
+    },
+    {
+      "claim_id": "I04",
+      "verdict": "qualified",
+      "reason": "Leading read, low confidence and live alternatives match evidence and body. 'Studied audience response since his early teens' paraphrases 1883's 'studying the social media algorithm' in his early teens; close but broader than the source (see verify-02)."
+    },
+    {
+      "claim_id": "I03",
+      "verdict": "supported",
+      "reason": "Research date matches accuracy_checked_at; printed caption quotes match fresh YouTube captions I downloaded 2026-10-21, repetitions included (one quote is a contiguous fragment of 'I don't believe I don't believe them')."
+    },
+    {
+      "claim_id": "C35",
+      "verdict": "supported",
+      "reason": "ELLE (Sept 2026) depression disclosure and Fallon (June 2026, 05:59) body-image remarks confirmed; mentioned only, not quoted."
+    },
+    {
+      "claim_id": "I16",
+      "verdict": "supported",
+      "reason": "Checked the body, type answer and FAQs: no health or body-image material is used as type evidence; for_claim_ids excludes C22/C33/C35."
+    },
+    {
+      "claim_id": "C10e",
+      "verdict": "supported",
+      "reason": "Heading quotes 1883 verbatim."
+    },
+    {
+      "claim_id": "C12d",
+      "verdict": "supported",
+      "reason": "1883: 'when I was in my early teens, I got into the whole musical theatre scene in New York... Afterward, I started producing and studying the social media algorithm.' Sequence preserved."
+    },
+    {
+      "claim_id": "C12",
+      "verdict": "supported",
+      "reason": "1883 verbatim."
+    },
+    {
+      "claim_id": "C12e",
+      "verdict": "supported",
+      "reason": "1883 ('LaGuardia... I was a vocal major'), ELLE ('training to sing Italian and German arias'), AS (dropped out junior year)."
+    },
+    {
+      "claim_id": "C10c",
+      "verdict": "supported",
+      "reason": "1883 goals answer verbatim; continues 'I just think it's so possible with everything that I've accomplished at my age.'"
+    },
+    {
+      "claim_id": "C10d",
+      "verdict": "supported",
+      "reason": "People, April 11, 2025 (Wayback capture Nov 8, 2025): 'now dreams of being \"the biggest artist in the world\"' and 'dreams of headlining Madison Square Garden and having a No. 1 song.' Correctly attributed as People's report."
+    },
+    {
+      "claim_id": "C11b",
+      "verdict": "supported",
+      "reason": "NYLON (April 1, 2026) verbatim, including the odds clause; follows 'I will always be a Grammy nominee' and 'happy doing anything creative as a job'."
+    },
+    {
+      "claim_id": "C11e",
+      "verdict": "supported",
+      "reason": "Broski captions (June 17, 2026): 'I want to be a pop star. I want to be a rock star.' was like 'That's like a one in a billion... that's literally what my parents would say.'"
+    },
+    {
+      "claim_id": "C11g",
+      "verdict": "supported",
+      "reason": "Fair reading of both contexts (NYLON odds; Broski parents' reply and 'I wanted to just do it for a career')."
+    },
+    {
+      "claim_id": "C11h",
+      "verdict": "supported",
+      "reason": "Ordering of the 1883 (2023), People (2025) and Fallon (June 2026) statements verified; two Garden nights were announced before the Fallon taping."
+    },
+    {
+      "claim_id": "C11f",
+      "verdict": "supported",
+      "reason": "Labeled as one reading with its limit stated; no motive asserted."
+    },
+    {
+      "claim_id": "C07b",
+      "verdict": "supported",
+      "reason": "CBS extended captions: 'before I finished it, I posted it online... I posted the chorus online'; later 'I posted it on the internet every single day. I believed in it so much.' Verbatim."
+    },
+    {
+      "claim_id": "C13",
+      "verdict": "supported",
+      "reason": "Switched On Pop captions ~22:13: 'All my all my hits I made in the process of of them blowing up because I I don't finish songs.' Fragment verbatim."
+    },
+    {
+      "claim_id": "C13b",
+      "verdict": "supported",
+      "reason": "Switched On Pop ~23:14: 'If I like the response, I'll I'll finish it and I'll drop it.'"
+    },
+    {
+      "claim_id": "C13c",
+      "verdict": "supported",
+      "reason": "Switched On Pop: host asks 'Is it because you have to? Do we have to feed the machine'; he answers 'No... what I like doing is making something that I that I am really happy with and then seeing if if people want it now or later.' Faithful."
+    },
+    {
+      "claim_id": "C12b",
+      "verdict": "supported",
+      "reason": "NYLON verbatim; context is relentless promo after 'Back to Friends'."
+    },
+    {
+      "claim_id": "C12c",
+      "verdict": "supported",
+      "reason": "Interpretation discounting professional incentive; appropriate."
+    },
+    {
+      "claim_id": "C32",
+      "verdict": "supported",
+      "reason": "ELLE writer's observation, verbatim."
+    },
+    {
+      "claim_id": "C32b",
+      "verdict": "supported",
+      "reason": "ELLE verbatim."
+    },
+    {
+      "claim_id": "C06e",
+      "verdict": "supported",
+      "reason": "Heading quotes AS verbatim."
+    },
+    {
+      "claim_id": "C06",
+      "verdict": "supported",
+      "reason": "AS verbatim. The intervening 'That just wasn't the truth. It's a mind fuck having your passion become a job.' is not printed, but the two quotes are presented separately and the sense is kept."
+    },
+    {
+      "claim_id": "C06b",
+      "verdict": "supported",
+      "reason": "AS verbatim."
+    },
+    {
+      "claim_id": "C16",
+      "verdict": "supported",
+      "reason": "CBS extended captions verbatim, answering 'Why do you write alone?'; filmed during his fall 2025 tour (opens 'You're in the middle of a tour')."
+    },
+    {
+      "claim_id": "C16d",
+      "verdict": "supported",
+      "reason": "CBS verbatim; context: he couldn't write his best work with others 'because I'm super scared of people's opinions'."
+    },
+    {
+      "claim_id": "I13",
+      "verdict": "supported",
+      "reason": "Interpretation; fair to the source."
+    },
+    {
+      "claim_id": "C16e",
+      "verdict": "supported",
+      "reason": "Same CBS answer a few lines later: 'I have to write alone. It's why I love it so much. I love being in my own head.'"
+    },
+    {
+      "claim_id": "C18",
+      "verdict": "supported",
+      "reason": "Switched On Pop ~11:38-12:54: 'Tony and I fight about that a lot... that's like the main thing we fight about' (home vocals), then the quoted lines verbatim."
+    },
+    {
+      "claim_id": "C19",
+      "verdict": "supported",
+      "reason": "AS verbatim; preceded by 'When I first started going to Sound City, I thought I was the shit'."
+    },
+    {
+      "claim_id": "C20",
+      "verdict": "supported",
+      "reason": "Variety: 'describes himself as cocky (the word comes up 12 times in our interview)' and 'Grateful is uttered 12 times.' Correctly framed as the writer's tallies."
+    },
+    {
+      "claim_id": "I18",
+      "verdict": "supported",
+      "reason": "Interpretation; both readings stated."
+    },
+    {
+      "claim_id": "C37",
+      "verdict": "supported",
+      "reason": "i-D: after performing 'Back to Friends' on Fallon (late-night debut May 2025) he came off stage to texts and missed calls from the girl it's about."
+    },
+    {
+      "claim_id": "C37b",
+      "verdict": "supported",
+      "reason": "i-D verbatim; i-D says he was 'shrugging them off'."
+    },
+    {
+      "claim_id": "C37c",
+      "verdict": "supported",
+      "reason": "Interpretation applying the incentive discount to the Four evidence; supported by i-D's shrug and the song's success."
+    },
+    {
+      "claim_id": "C15",
+      "verdict": "supported",
+      "reason": "i-D: 'I was a very emotionally complicated child... My dad can confirm that.' His dad, to his right, 'nods from behind his phone.'"
+    },
+    {
+      "claim_id": "C15b",
+      "verdict": "supported",
+      "reason": "ELLE: stage name 'also came from all of those big feels': 'It was just like teenage angst and rejection, being a pothead...' The fragment is faithful; the omitted clauses are sensitive."
+    },
+    {
+      "claim_id": "C23b",
+      "verdict": "supported",
+      "reason": "ELLE verbatim; both sentences adjacent (printed twice in ELLE)."
+    },
+    {
+      "claim_id": "I08",
+      "verdict": "supported",
+      "reason": "Interpretation grounded in the verified testing method."
+    },
+    {
+      "claim_id": "C41",
+      "verdict": "supported",
+      "reason": "NYLON: 'Everyone always puts artists on these pedestals. It's like, \"Bro, I'm just like y'all...\" I'm a little too normal.' 'Fans' narrows 'everyone' slightly, but 'y'all' addresses his audience; promo caveat applied."
+    },
+    {
+      "claim_id": "C23",
+      "verdict": "supported",
+      "reason": "Broski: after shows he meets fans, which 'makes everything feel real because it's so easy to like see everything as numbers or like statistics.'"
+    },
+    {
+      "claim_id": "I08b",
+      "verdict": "supported",
+      "reason": "Interpretation; fair."
+    },
+    {
+      "claim_id": "C28",
+      "verdict": "supported",
+      "reason": "Attributed allegation. Collegian (Nov 6, 2025): AAB Productions 'manages very high-profile charity dinners', worked with Elton John AIDS Foundation; ELLE: father 'a musician himself before becoming an events producer working with HIV/AIDS organizations.' Not adjudicated."
+    },
+    {
+      "claim_id": "C28c",
+      "verdict": "supported",
+      "reason": "ELLE verbatim."
+    },
+    {
+      "claim_id": "C28i",
+      "verdict": "supported",
+      "reason": "Variety: Columbia Records email; 'Boose's dad warned him not to reply. \"That's a scam\"'; other emails followed; Warner flew the 16-year-old to LA. 'First' is implied by the sequence ('continued to roll in')."
+    },
+    {
+      "claim_id": "C28j",
+      "verdict": "supported",
+      "reason": "ELLE: 'signed with Warner Records, he says, because they were the \"hungriest\" for him.'"
+    },
+    {
+      "claim_id": "C28b",
+      "verdict": "supported",
+      "reason": "NYLON (April 2026): dad Andy 'is also part of Sombr's behind-the-scenes team.' Dated and time-tagged."
+    },
+    {
+      "claim_id": "C28d",
+      "verdict": "supported",
+      "reason": "I found no reporting on how the team was assembled in the opened sources; the limit is now narrow and dated."
+    },
+    {
+      "claim_id": "C17",
+      "verdict": "supported",
+      "reason": "Billboard (Aug 14, 2025) verbatim, in a piece on self-producing."
+    },
+    {
+      "claim_id": "C17b",
+      "verdict": "supported",
+      "reason": "Interpretation that discounts it as motive evidence; it says 'doubles as', not that he said it in reply."
+    },
+    {
+      "claim_id": "C03",
+      "verdict": "supported",
+      "reason": "Signed at 17 (Consequence, Variety, AS 'I was signed at 17'); almost 20 releases without significant impact (AS)."
+    },
+    {
+      "claim_id": "C05",
+      "verdict": "supported",
+      "reason": "AS verbatim, about the post-signing slump."
+    },
+    {
+      "claim_id": "C05b",
+      "verdict": "supported",
+      "reason": "CBS ~06:22 verbatim: during the two years after signing, worried about having left high school; 'I don't want to move back in and like be a disappointment.'"
+    },
+    {
+      "claim_id": "C14j",
+      "verdict": "supported",
+      "reason": "CBS: he says he was 'a troubled kid', and Mason asks 'What do you think that was about?' Paraphrase is fair; filmed in his childhood bedroom per the CBS segment."
+    },
+    {
+      "claim_id": "C14",
+      "verdict": "supported",
+      "reason": "CBS extended and broadcast captions verbatim; Whisper (edit stage) agrees."
+    },
+    {
+      "claim_id": "C14g",
+      "verdict": "supported",
+      "reason": "CBS verbatim."
+    },
+    {
+      "claim_id": "C14b",
+      "verdict": "supported",
+      "reason": "CBS verbatim, within the same answer."
+    },
+    {
+      "claim_id": "C14k",
+      "verdict": "supported",
+      "reason": "CBS verbatim; one caption repetition kept."
+    },
+    {
+      "claim_id": "C14h",
+      "verdict": "supported",
+      "reason": "Captions and Whisper both give 'I don't believe I don't believe them' after Mason's 'you didn't believe them.' My pitch check on the saved audio: this phrase has a median F0 of about 120 Hz, within Sombr's measured range (about 100-117 Hz) and above Mason's (about 82-94 Hz). The next sentence ('I mean, that puts what happened with Caroline...') is about 85 Hz, Mason-like. That weakly supports 'probably his'; the uncertainty is disclosed."
+    },
+    {
+      "claim_id": "C14c",
+      "verdict": "supported",
+      "reason": "CBS: Mason, 'it not only took off, it validated you'; Sombr, 'It validated me.' Prompted framing shown."
+    },
+    {
+      "claim_id": "C14d",
+      "verdict": "supported",
+      "reason": "Hedged three-way interpretation that matches the full answer."
+    },
+    {
+      "claim_id": "C14e",
+      "verdict": "supported",
+      "reason": "Interpretation with its limit stated."
+    },
+    {
+      "claim_id": "C14i",
+      "verdict": "supported",
+      "reason": "Musical theater (1883), LaGuardia vocal major/arias (1883, ELLE, People) set against 'until other people told me'; labeled unexplained."
+    },
+    {
+      "claim_id": "C27e",
+      "verdict": "supported",
+      "reason": "ELLE documents the 2026 reversal of his Oct 2025 stance; no other dated reversal was found in the record."
+    },
+    {
+      "claim_id": "C26",
+      "verdict": "supported",
+      "reason": "Attributed allegation. FADER: 'October 13 Sombr show at Anthem in Washington, D.C.'; CNN wire (localnews8): 'one of the worst experiences of my life', jokes 'inappropriate given the average age of the audience'. 'bark'/'daddy' not printed."
+    },
+    {
+      "claim_id": "C26b",
+      "verdict": "supported",
+      "reason": "DMN: 'she compared him to Napoleon Dynamite and referred to... Slender Man'; Variety also notes 'Slender Man'."
+    },
+    {
+      "claim_id": "C27",
+      "verdict": "supported",
+      "reason": "DMN: 'starting a massive body-shaming hate train'; CNN: he 'took umbrage with being attacked for the tone of his jokes', saying he has 'never uttered a serious word in my life.' Collegian: 'did not give a clear response' to the young-audience complaints."
+    },
+    {
+      "claim_id": "C27b",
+      "verdict": "supported",
+      "reason": "ELLE verbatim, consecutive sentences."
+    },
+    {
+      "claim_id": "C27d",
+      "verdict": "supported",
+      "reason": "ELLE: after 'I'm an awkward kid...' come 'That video kind of woke me up...' and, after the 'so be it' sentence, the commitment. Gaps are marked ('Later in the same answer', 'And:')."
+    },
+    {
+      "claim_id": "C27c",
+      "verdict": "supported",
+      "reason": "Interpretation faithful to his ELLE words."
+    },
+    {
+      "claim_id": "I14",
+      "verdict": "supported",
+      "reason": "Interpretation; concludes the episode does not discriminate."
+    },
+    {
+      "claim_id": "I20",
+      "verdict": "supported",
+      "reason": "Interpretation; the fears are verified (AS, CBS)."
+    },
+    {
+      "claim_id": "C48",
+      "verdict": "supported",
+      "reason": "Thiele captions ~25:30: 'Very rarely... If I go out after a show, it has to be the last show of the tour.'"
+    },
+    {
+      "claim_id": "C48b",
+      "verdict": "supported",
+      "reason": "Thiele verbatim."
+    },
+    {
+      "claim_id": "C49",
+      "verdict": "supported",
+      "reason": "Variety: Warner flew 'the 16-year-old to Los Angeles'; 'Wait, you guys also want to own my music. So I deserve a lot more than dinner.' Fragment verbatim."
+    },
+    {
+      "claim_id": "C04",
+      "verdict": "supported",
+      "reason": "People: 'My mom wasn't too happy. I think my dad was more supportive'; Variety: 'some convincing in the mom department', 'moved to L.A. as soon as he turned 18'; CBS: dad 'Go for it, brother'."
+    },
+    {
+      "claim_id": "I20b",
+      "verdict": "supported",
+      "reason": "Interpretation acknowledging the counterphobic possibility; fair."
+    },
+    {
+      "claim_id": "C23c",
+      "verdict": "supported",
+      "reason": "Variety verbatim; asked how he survives his nonstop schedule."
+    },
+    {
+      "claim_id": "C42",
+      "verdict": "supported",
+      "reason": "Thiele ~36:30: slept through Grammy and VMA nominations, 'I just can't deal with it... I just can't deal with the pressure of like waiting for the moment.'"
+    },
+    {
+      "claim_id": "C31",
+      "verdict": "supported",
+      "reason": "ELLE: Quenlin Blackwell, 'who starred in Sombr's \"Homewrecker\" music video', verbatim quote."
+    },
+    {
+      "claim_id": "I09b",
+      "verdict": "supported",
+      "reason": "Interpretation consistent with the verified fears and lyric-focused sources."
+    },
+    {
+      "claim_id": "C45",
+      "verdict": "supported",
+      "reason": "Thiele ~11:22: 'I'm a people pleaser' inside the 6-7 meme bit; comic context stated."
+    },
+    {
+      "claim_id": "I10",
+      "verdict": "supported",
+      "reason": "Reasonable interpretation; no helper-identity evidence in opened sources."
+    },
+    {
+      "claim_id": "I07",
+      "verdict": "supported",
+      "reason": "Summarizing interpretation; each premise is verified elsewhere in the body."
+    },
+    {
+      "claim_id": "I07b",
+      "verdict": "supported",
+      "reason": "Summarizes C13c and C19, both verified self-report."
+    },
+    {
+      "claim_id": "C06f",
+      "verdict": "qualified",
+      "reason": "CBS ~06:50 verbatim. But the same answer continues 'I'm just going to write what I... me and only me want to hear. I don't want to assume what anyone else wants to hear. What will be successful, right?' and later 'it's probably over. Let me just make something for fun.' The Three reading (I17) is labeled, but his stated motive in that answer is not shown beside it (see verify-01)."
+    },
+    {
+      "claim_id": "I17",
+      "verdict": "qualified",
+      "reason": "A labeled reading that is defensible on timing, but it omits his own giving-up framing in the same CBS answer (verify-01)."
+    },
+    {
+      "claim_id": "C44",
+      "verdict": "supported",
+      "reason": "NYLON verbatim (Grammy night recollection)."
+    },
+    {
+      "claim_id": "I09",
+      "verdict": "supported",
+      "reason": "Summary interpretation; each item verified."
+    },
+    {
+      "claim_id": "I21",
+      "verdict": "supported",
+      "reason": "Interpretation that matches the discriminator."
+    },
+    {
+      "claim_id": "C09b",
+      "verdict": "supported",
+      "reason": "ELLE (Sept 2026) says the album is in progress with no title; NYLON likewise. My 2026-10-21 web search found no announced title or date. Time-tagged unresolved."
+    },
+    {
+      "claim_id": "C38d",
+      "verdict": "supported",
+      "reason": "Thiele captions ~18:37-18:54 (Dec 19, 2025): 'I had a few big hits really fast and like I felt all this pressure to like keep up in the pop world and whatever do do this and that which it did worked great.' Fragments verbatim."
+    },
+    {
+      "claim_id": "C38",
+      "verdict": "supported",
+      "reason": "Thiele verbatim ('Like that is truly me and I need to...')."
+    },
+    {
+      "claim_id": "I19",
+      "verdict": "supported",
+      "reason": "Interpretation stating the limits."
+    },
+    {
+      "claim_id": "C38c",
+      "verdict": "supported",
+      "reason": "NYLON verbatim, about the next album."
+    },
+    {
+      "claim_id": "C16b",
+      "verdict": "supported",
+      "reason": "CBS: 'I've tried it... just with good friends for fun and it doesn't work.'"
+    },
+    {
+      "claim_id": "I22",
+      "verdict": "supported",
+      "reason": "Interpretation consistent with I13."
+    },
+    {
+      "claim_id": "C40",
+      "verdict": "supported",
+      "reason": "Yahoo/USA Today (Sept 28, 2026): fans 'say his performance... failed to do the singer's music justice'; he opened the tribute Sept 27."
+    },
+    {
+      "claim_id": "C40c",
+      "verdict": "supported",
+      "reason": "Billboard quoting Vogue: 'The fact he wrote, produced, and performed all his own music is so inspiring to me, because I do the same.' Attributed as told to Vogue."
+    },
+    {
+      "claim_id": "C40b",
+      "verdict": "supported",
+      "reason": "No response found in Billboard, Yahoo or a 2026-10-21 web search; dated and time-tagged."
+    },
+    {
+      "claim_id": "C53",
+      "verdict": "supported",
+      "reason": "Wikipedia: tour runs July 22, 2026 to July 14, 2027; dated 'as of October 2026'."
+    },
+    {
+      "claim_id": "I12",
+      "verdict": "supported",
+      "reason": "No on-record teacher, classmate or early-collaborator account in the opened sources; a 2026-10-21 search found Sombr describing Berg but no Berg quote about him; Buckingham (S32) is a later admirer. Dated and time-tagged."
+    },
+    {
+      "claim_id": "C47",
+      "verdict": "supported",
+      "reason": "Fallon captions: 'I don't think I've ever seen a concert. I've just been to Knicks games... -No, I'm gonna be the first.'"
+    },
+    {
+      "claim_id": "M01",
+      "verdict": "supported",
+      "reason": "Description; 1883 Nov 2023, no chart hit until 2025."
+    },
+    {
+      "claim_id": "M02",
+      "verdict": "supported",
+      "reason": "Description; two MSG nights booked (Wikipedia, Fallon, ELLE). Time-tagged for after Nov 24, 2026."
+    },
+    {
+      "claim_id": "C01b",
+      "verdict": "supported",
+      "reason": "Born July 5, 2005 (Wikipedia); 21 in Oct 2026; Variety and ELLE consistent."
+    },
+    {
+      "claim_id": "C01c",
+      "verdict": "supported",
+      "reason": "Matches Wikipedia, i-D, NPR, AS."
+    },
+    {
+      "claim_id": "C02b",
+      "verdict": "supported",
+      "reason": "1883 (Nov 2023) verbatim."
+    },
+    {
+      "claim_id": "M03",
+      "verdict": "supported",
+      "reason": "FAQ items each verified: name (1883), vulnerability and 'being in my own head' (CBS), imperfect vocals vs producer (Switched On Pop), 'out of place in the regular world' (ELLE 2026)."
+    },
+    {
+      "claim_id": "M04",
+      "verdict": "supported",
+      "reason": "FAQ interpretation grounded in CBS/Switched On Pop testing method."
+    },
+    {
+      "claim_id": "M05",
+      "verdict": "supported",
+      "reason": "FAQ settle list matches the six body items and open_case.settle_signals."
+    },
+    {
+      "claim_id": "C28e",
+      "verdict": "supported",
+      "reason": "FAQ allegation attributed; 'charity dinners' is the Collegian's wording."
+    },
+    {
+      "claim_id": "C28f",
+      "verdict": "supported",
+      "reason": "ELLE wording; 'incredibly insane' and 'devotes his life to fight AIDS' verbatim fragments."
+    },
+    {
+      "claim_id": "C28g",
+      "verdict": "supported",
+      "reason": "AS, Variety, ELLE and Consequence all trace label interest to the 2022 'Caroline' TikTok."
+    },
+    {
+      "claim_id": "M06",
+      "verdict": "supported",
+      "reason": "Billboard (Aug 2025): write and produce each song at home, then Sound City with co-producer Tony Berg; AS same process. Hedged 'by his account' and dated to the debut."
+    },
+    {
+      "claim_id": "M07",
+      "verdict": "supported",
+      "reason": "Variety: after signing, 'his label hooked him up with... Tony Berg'; Consequence for January 2023."
+    },
+    {
+      "claim_id": "M08",
+      "verdict": "supported",
+      "reason": "AS verbatim fact, attributed."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "S01",
+      "opened": true,
+      "context_matches": true,
+      "locator": "i-D (byline Aug 18, 2025), re-fetched live 2026-10-21: 'emotionally complicated child' paragraph (dad nods); Fallon/ex texts paragraph ('art would fucking suck'); 'On December 27, he released Back to Friends'."
+    },
+    {
+      "source_id": "S02",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Billboard (Apr 24, 2025), re-fetched live: 'Caroline' paragraph (mid-2022 TikTok, Warner deal early 2023); Hot 100 timing."
+    },
+    {
+      "source_id": "S03",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Billboard (Aug 14, 2025), re-fetched live: 'It's authentic, straight from me' paragraph; debut-album process paragraph (50-70% at home, Sound City with Tony Berg)."
+    },
+    {
+      "source_id": "S04",
+      "opened": true,
+      "context_matches": true,
+      "locator": "American Songwriter (Dec 8, 2025), re-fetched live: almost 20 songs paragraph; 'you get dropped' quote; 'made without Berg's production involvement'; 'Everything before back to friends'; 'impress Tony'."
+    },
+    {
+      "source_id": "S05",
+      "opened": true,
+      "context_matches": true,
+      "locator": "NPR transcript via KBIA (Sept 7, 2025), re-fetched live: Lower East Side answer."
+    },
+    {
+      "source_id": "S06",
+      "opened": true,
+      "context_matches": true,
+      "locator": "NYLON (Apr 1, 2026), re-fetched live: Grammy-night paragraph ('Grammy nominee', 'one in a million'); dad Andy 'part of Sombr's behind-the-scenes team'; 'a million f*cking TikToks'; 'pedestals... a little too normal'; 'if the album flops'."
+    },
+    {
+      "source_id": "S07",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Variety (Aug 5, 2026), re-fetched live: grateful count paragraph; 'Caroline'/Columbia 'That's a scam'/Warner flew 16-year-old/'more than dinner'; dropout and L.A. at 18; Berg 'helped launch Phoebe Bridgers' career', cocky 12 times; Hot 100 April 2025, peak Jan 2026, 2B streams; 'Touring is the biggest high'; Slender Man."
+    },
+    {
+      "source_id": "S08",
+      "opened": true,
+      "context_matches": true,
+      "locator": "ELLE (Sept 22, 2026), re-fetched live: Lollapalooza paragraph ('more myself and more Zen'/'out of place'); parents paragraph (father former musician, HIV/AIDS events); 'hungriest'; industry-plant rebuttal; Blackwell testimony; writer's listening session; TikTok reversal answer; 'teenage angst and rejection'."
+    },
+    {
+      "source_id": "S09",
+      "opened": true,
+      "context_matches": true,
+      "locator": "CBS Mornings extended interview (uploaded Jan 8, 2026; filmed fall 2025 on tour), fresh YouTube captions 2026-10-21: ~06:20-07:30 ('be a disappointment', 'it wasn't working anymore'); ~10:00-11:30 (chorus posted, 'every single day'); ~13:20-14:21 (insecure, belonged, 'I don't believe them', 'It validated me'), pitch-checked on saved audio; ~30:30-33:00 (write alone, 'own head', 'good friends for fun')."
+    },
+    {
+      "source_id": "S10",
+      "opened": true,
+      "context_matches": true,
+      "locator": "CBS Mornings broadcast segment (Dec 10, 2025), fresh captions: 'vulnerable, real thing', 'super scared of people's opinions', 'wanted to be seen or like a part of something'."
+    },
+    {
+      "source_id": "S11",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Owen Thiele podcast (Dec 19, 2025), fresh captions: ~11:22 'people pleaser' (6-7 bit); ~18:37-18:54 pop pressure/'truly me'; ~25:30-25:40 'let down my fans'; ~36:20-36:32 slept through nominations."
+    },
+    {
+      "source_id": "S12",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Switched On Pop (Dec 11, 2025), fresh captions: ~11:38-12:54 Berg fights over home vocals, 'I need the imperfection'; ~22:09-23:14 'I don't finish songs', 'feed the machine', 'If I like the response'."
+    },
+    {
+      "source_id": "S13",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Spout Podcast (Apr 1, 2025), fresh captions: 'easier for me to be real than... emulate something'."
+    },
+    {
+      "source_id": "S14",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Brittany Broski Royal Court (June 17, 2026), fresh captions: 'pop star... rock star', 'one in a billion... what my parents would say'; touring vs 'numbers or like statistics'."
+    },
+    {
+      "source_id": "S15",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Variety Behind the Song (Dec 1, 2025), fresh captions: slept through the Grammy nomination stream, 'in the running for best new artist'."
+    },
+    {
+      "source_id": "S16",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Tonight Show (aired June 25, 2026, uploaded July 5, 2026), fresh captions ~04:40-05:20: two MSG nights Nov 23-24; '1,000-seater'; never seen a concert there, only Knicks games; 'No, I'm gonna be the first.'"
+    },
+    {
+      "source_id": "S17",
+      "opened": true,
+      "context_matches": true,
+      "locator": "1883 Magazine (Nov 17, 2023), direct fetch 403, read via r.jina.ai 2026-10-21: early-life answer (musical theatre, algorithm, LaGuardia vocal major); stage-name answer (SMB); 'hasn't done a live show yet'; dream-venue answer; goals answer (rock star, arenas)."
+    },
+    {
+      "source_id": "S18",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Consequence (Jan 27, 2023), re-fetched live: 'Seventeen-year-old... has signed to Warner Records' (Jan 26), moniker at 14, 'caroline' 2022."
+    },
+    {
+      "source_id": "S19",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Atwood Magazine (Feb 5, 2024), re-fetched live: 18 years old backstage, 'in person for the very first time'."
+    },
+    {
+      "source_id": "S20",
+      "opened": true,
+      "context_matches": true,
+      "locator": "People (Apr 11, 2025), live fetch 403; read via Wayback capture 20251108174957: lede ('biggest artist in the world'); dropout paragraph ('dad was more supportive'); closing (Madison Square Garden, No. 1 song)."
+    },
+    {
+      "source_id": "S21",
+      "opened": true,
+      "context_matches": true,
+      "locator": "CNN wire copy on localnews8 (Oct 21, 2025), re-fetched live: Meg's review ('one of the worst experiences of my life', jokes 'inappropriate given the average age'); his response ('took umbrage... tone of his jokes', 'never uttered a serious word')."
+    },
+    {
+      "source_id": "S22",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Digital Music News (Oct 20, 2025), re-fetched live: Napoleon Dynamite/Slender Man comparisons; 'massive body-shaming hate train'."
+    },
+    {
+      "source_id": "S23",
+      "opened": true,
+      "context_matches": true,
+      "locator": "The FADER (Oct 20, 2025), re-fetched live: 'October 13 Sombr show at Anthem in Washington, D.C.'"
+    },
+    {
+      "source_id": "S24",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Complex (Oct 21, 2025), re-fetched live: headline and lede relaying the critic's bark/daddy claims (used only as unprinted corroboration of the allegation's attribution)."
+    },
+    {
+      "source_id": "S25",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Massachusetts Daily Collegian contributor column (Nov 6, 2025), re-fetched live: industry-plant paragraphs (AAB Productions charity dinners, Elton John AIDS Foundation); 'He did not give a clear response'."
+    },
+    {
+      "source_id": "S26",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Variety SHOF report (June 11, 2026), re-fetched live: Swift speech paragraph ('Sombr is the future...')."
+    },
+    {
+      "source_id": "S28",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Billboard (Sept 28, 2026), re-fetched live: Vogue quote paragraph ('so inspiring to me, because I do the same')."
+    },
+    {
+      "source_id": "S29",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Yahoo/USA Today (Sept 28, 2026), re-fetched live: lede (fans say it 'failed to do the singer's music justice'; opened tribute Sept 27)."
+    },
+    {
+      "source_id": "S32",
+      "opened": true,
+      "context_matches": true,
+      "locator": "American Songwriter (Aug 6, 2026), re-fetched live: Buckingham quotes ('He reached out to me'); no Berg quote."
+    },
+    {
+      "source_id": "S33",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Entertainment Tonight VMA clip (Sept 8, 2025), fresh captions: ~00:53 'they've tried, but they they can't PR train me' (no longer quoted in body; supports the caption-method note only)."
+    },
+    {
+      "source_id": "S34",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Wikipedia 'Sombr' raw wikitext fetched 2026-10-21: infobox (Shane Michael Boose, born July 5, 2005); Early life (Lower East Side); album reached Billboard 200 top ten; BNA nomination."
+    },
+    {
+      "source_id": "S35",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Wikipedia '68th Annual Grammy Awards' raw fetched 2026-10-21: date February 1, 2026; all eight BNA nominees, Sombr among them, announced as performers."
+    },
+    {
+      "source_id": "S37",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Wikipedia 'You Are the Reason Tour' raw fetched 2026-10-21: start July 22, 2026, end July 14, 2027; MSG Nov 23 and 24 rows."
+    }
+  ],
+  "decision_checks": [
+    {
+      "finding_id": "subject-01",
+      "accepted": true,
+      "reason": "Verified in candidate: the false 'no reporting' line is gone from body and FAQ; the TikTok-to-Warner sequence is given and attributed (his account; Consequence for the Jan 2023 signing at 17; Variety for Columbia/'scam'/LA; ELLE for 'hungriest'); the remaining limit is narrowed to how the team was assembled. I confirmed each fact live."
+    },
+    {
+      "finding_id": "subject-02",
+      "accepted": true,
+      "reason": "Verified: father described as a former musician whose company produces charity galas incl. HIV/AIDS organizations (Collegian, ELLE, both checked); full rebuttal clause quoted verbatim; team role is a separate dated NYLON sentence; no adjudication ('Either way')."
+    },
+    {
+      "finding_id": "subject-03",
+      "accepted": true,
+      "reason": "Verified across body, type answer, FAQs and description: no anxiety, depression or body-image material is used as type evidence; the only mention is the dated method-note sentence, which is now literally true. for_claim_ids excludes C22/C33/C35. Confidence stays low and Six became live, consistent with the thinner Three case."
+    },
+    {
+      "finding_id": "subject-04",
+      "accepted": true,
+      "reason": "Verified: 'going out every night' is gone from the article and the Seven case rests on the touring high, the slept-through nominations and Blackwell."
+    },
+    {
+      "finding_id": "subject-05",
+      "accepted": true,
+      "reason": "Verified: the 'sadness... or the brand' question is replaced by 'when what feels true and what works pull apart, which does he follow?'; no sentence treats his feelings as possibly performed."
+    },
+    {
+      "finding_id": "subject-06",
+      "accepted": true,
+      "reason": "Verified: Slender Man/Napoleon Dynamite attributed to DMN (checked live); 'never uttered a serious word' framed as a defense of his jokes' tone per CNN (checked); unaddressed part narrowed to the young-crowd claim, which the Collegian supports; bark/daddy unprinted."
+    },
+    {
+      "finding_id": "subject-07",
+      "accepted": true,
+      "reason": "Verified: ELLE reasons and commitment quoted verbatim with the gap marked; the 'fits a Three's attention to reception' sentence is gone; acceptance of the criticism is offered as an explanation; the episode is said not to separate the readings."
+    },
+    {
+      "finding_id": "subject-08",
+      "accepted": true,
+      "reason": "Verified: 'when humility plays better' removed; NYLON and Broski lines carry their odds/parents context; 'Yet in that same Broski answer' gone; inference limited to 1883/People vs Fallon with its limit."
+    },
+    {
+      "finding_id": "subject-09",
+      "accepted": true,
+      "reason": "Verified: the 'He manages how he is seen' paragraph (ET, NYLON publicist) was cut entirely."
+    },
+    {
+      "finding_id": "subject-10",
+      "accepted": true,
+      "reason": "Verified: item 4 names the substance (fans said it 'failed to do the music justice', Yahoo) and his stated homage (Vogue via Billboard), both checked live; the FAQ no longer names the VMA item."
+    },
+    {
+      "finding_id": "fan-F1",
+      "accepted": true,
+      "reason": "Verified: 'Caroline' identified at first mention; Warner signing Jan 2023 at 17; hitless stretch; early-teens musical theatre and LaGuardia classical vocal training; father as former musician; the training-vs-'until other people told me' tension stated as unexplained. Omitting guitar lessons and Dear Evan Hansen is a reasonable length call."
+    },
+    {
+      "finding_id": "fan-F2",
+      "accepted": true,
+      "reason": "Verified as for subject-02. The one part of the fan's test not followed (keeping 'no reporting shows how his label... relationships were formed') was correctly rejected on evidence: Variety, ELLE, AS and Consequence report the route, so the line was false."
+    },
+    {
+      "finding_id": "fan-F3",
+      "accepted": true,
+      "reason": "Verified: CBS belonging lines included and the passage read three ways; ELLE second sentence printed and counted for Four in body, summary and Type 4 FAQ; the '12 to 12' line removed (allowed by critic-07's test)."
+    },
+    {
+      "finding_id": "fan-F4",
+      "accepted": true,
+      "reason": "Verified with subject-08; the garbled Broski clause is no longer printed, so no garble note is needed."
+    },
+    {
+      "finding_id": "fan-F5",
+      "accepted": true,
+      "reason": "Verified: the 'impress Tony / no notes' quote sits beside the imperfection quote; cocky/grateful tallies attributed to Variety's writer (checked); one sentence on how both readings account for it; no added certainty."
+    },
+    {
+      "finding_id": "fan-F6",
+      "accepted": true,
+      "reason": "Verified: item 1 prints the pop-pressure premise ('a few big hits really fast', 'keep up in the pop world', 'worked great'), checked in Thiele captions, with its limits and why the album is the cleaner test."
+    },
+    {
+      "finding_id": "fan-F7",
+      "accepted": true,
+      "reason": "Verified: algorithm study dated to early teens in the body, type answer and FAQ; the misdated sentence is gone."
+    },
+    {
+      "finding_id": "fan-F8",
+      "accepted": true,
+      "reason": "Verified with subject-07: quotes separated, reasons included, gap marked, commitment quoted."
+    },
+    {
+      "finding_id": "critic-01",
+      "accepted": true,
+      "reason": "Verified: no health material carries type weight; Three re-weighed on non-health evidence (C13c, C19, C06f, C44) and restated as leading 'on a tiebreaker, not a margin'; confidence low; Six made live. A residual context issue in C06f is logged as minor verify-01 and does not undo the fix."
+    },
+    {
+      "finding_id": "critic-02",
+      "accepted": true,
+      "reason": "Verified: 'is the Three pattern' and 'volunteers' are gone; belonging and 'I don't believe them' are printed with the speaker uncertainty stated; the reading is hedged three ways. My pitch check weakly supports 'probably his' (about 120 Hz vs Mason's 82-94 Hz)."
+    },
+    {
+      "finding_id": "critic-03",
+      "accepted": true,
+      "reason": "Verified: 'out of place' and 'I love being in my own head' printed beside their partners and counted for Four; the Broski 'get sad' strain removed; 'a little too normal' carries the promo caveat; the Four FAQ includes both lines."
+    },
+    {
+      "finding_id": "critic-04",
+      "accepted": true,
+      "reason": "Verified: the Oct 2025 reply is described as CNN reports it; 'The clearest test' is gone; the ELLE commitment is quoted; accepting the criticism is named; 'The episode doesn't separate the readings.'"
+    },
+    {
+      "finding_id": "critic-05",
+      "accepted": true,
+      "reason": "Verified as for subject-01; the Columbia 'scam' detail and Warner flight are attributed to Variety and match the live page."
+    },
+    {
+      "finding_id": "critic-06",
+      "accepted": true,
+      "reason": "Verified option (b): Six is in live_alternatives, the type answer, the type FAQ, the triad paragraph and settle items 2, 4, 5 and 6, with sourced for/against (Thiele 'let down my fans', Variety 'own my music', AS/CBS fears; unhedged bets per People/Variety/CBS). The reviewer's acceptance test explicitly allowed this, and the leading type, alternative_type and confidence are unchanged, so it is not a new type thesis or risk."
+    },
+    {
+      "finding_id": "critic-07",
+      "accepted": true,
+      "reason": "Verified: Four's costs carry the incentive caveat ('so the cost is small'); NYLON odds clause printed; '12 to 12' removed."
+    },
+    {
+      "finding_id": "critic-08",
+      "accepted": true,
+      "reason": "Verified: all six settle items map outcomes to readings; items 4 and 6 now include Three, Four, Six and Seven branches matching open_case.settle_signals."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "accepted": true,
+      "reason": "Verified: orientation gives the 2022 'Caroline' viral moment, the Jan 2023 signing at 17 and 'Almost 20 songs followed without a hit' before the type argument; the hook no longer implies he was unsigned."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "accepted": true,
+      "reason": "Verified: the critic's appearance jabs are attributed, so 'body-shaming' has a referent; the body-image song paragraph was removed for health reasons."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "accepted": true,
+      "reason": "Verified: the intro ends on one question, tied to the Garden contrast, and the same question opens 'What would settle it'."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "accepted": true,
+      "reason": "Verified: 'Where the case stands' is about 140 words and adds weighing (which Three reasons survive the discounts) rather than re-listing; the algorithm/sadness contradiction appears in full twice. The body is still about 3,190 words against a roughly 2,500 open-case target; I weigh that in the writing score, not as an open finding."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "accepted": true,
+      "reason": "Verified: each numbered item maps outcomes to types; item 6 names what each kind of account would favor."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "accepted": true,
+      "reason": "Verified: process lines are short verbatim fragments; no printed quote carries more than one caption repetition; the method note is out of the intro's setup and follows the type explanation."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "accepted": true,
+      "reason": "Verified: Berg identified at first mention (Variety credential, checked); the body says 'Back to Friends' was made without Berg's production involvement (AS, checked); LaGuardia and his leaving it are named before the Six section."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "accepted": true,
+      "reason": "Verified: meta_title is 'Sombr's Personality Type: Open Case, Leading Read Type 3' (within 35-65 chars)."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "accepted": true,
+      "reason": "Verified option (b), as for critic-06; the PR-reversal paragraph that grounded the 'nothing shows doubt of authority' claim is gone, and the Seven fear argument is tested against Six."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "accepted": true,
+      "reason": "Verified with critic-02; the sentence now names Three, skill discovery and belonging (Six/Four), and the summary uses it only in qualified form."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "accepted": true,
+      "reason": "Verified: ELLE quote printed whole; Broski continuation weighed against Three's scoreboard; 'stage, not solitude' and 'no envy' removed; summary and Type 4 FAQ name only the behavioral strain (audience-tested finishing)."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "accepted": true,
+      "reason": "Verified with subject-03; the lyric is dropped and for_claim_ids no longer contains C22 or C33."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "accepted": true,
+      "reason": "Verified: co-writing signal reworded around reasons; testimony signal mapped; off-tour signal added with a Seven prediction about outrunning the comedown; Six branches where Six is live; FAQ lists the same six items."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "accepted": true,
+      "reason": "Verified: the reception clause is gone, the episode is presented as non-discriminating, and C27 is out of for_claim_ids. Not printing 'so be it' is a length call the test allowed."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "accepted": true,
+      "reason": "Verified: the summary argues surviving Three reasons and states 'a tiebreaker, not a margin', with Four leading on self-description; title, meta_title, description, type answer and FAQ keep leading-read language. Order unchanged, so no refresh is needed. One of the four reasons (C06f) carries the minor context gap logged as verify-01."
+    },
+    {
+      "finding_id": "future-01",
+      "accepted": true,
+      "reason": "Verified: type answer, type FAQ and body anchor the record to the 2025 breakout; no 'about N months' remains; I02 and I04 are time_sensitive with triggers."
+    },
+    {
+      "finding_id": "future-02",
+      "accepted": true,
+      "reason": "Verified: dated off-tour signal (item 5) with Three/Four/Six/Seven mapping; FAQ lists six items; C53 time_sensitive (tour end confirmed July 14, 2027 on Wikipedia)."
+    },
+    {
+      "finding_id": "future-03",
+      "accepted": true,
+      "reason": "Verified: item 4 is 'the next sustained criticism' with the VMA as a dated example, mapped to types, and the defend-then-reverse note; FAQ no longer names the VMA; C40/C40b time_sensitive with triggers."
+    },
+    {
+      "finding_id": "future-04",
+      "accepted": true,
+      "reason": "Verified: 'By his account' and 'Through his 2025 debut album' anchor process claims; NYLON team role dated April 2026 in body and FAQ; C16c, M06, C28b time_sensitive; C28e unresolved with trigger."
+    },
+    {
+      "finding_id": "future-05",
+      "accepted": true,
+      "reason": "Verified: I12 time_sensitive with a re-search trigger at next_review; the sentence sits under the dated lead-in."
+    }
+  ],
+  "prior_blocker_checks": [],
+  "protected_checks": [
+    {
+      "passage": "Mason suggested that \"Caroline\" had validated him. \"It validated me,\" he agreed.",
+      "preserved": true,
+      "reason": "Verbatim in candidate; CBS captions and Whisper confirm Mason's 'it validated you' before his 'It validated me.'"
+    },
+    {
+      "passage": "That is how a TikTok-era career works, so on its own it says little about motive.",
+      "preserved": true,
+      "reason": "Verbatim; still placed right after the NYLON promo quotes."
+    },
+    {
+      "passage": "\"Wanted to be seen\" could carry a Four's sense of lack just as well, and one answer to a sympathetic interviewer can't settle it.",
+      "preserved": true,
+      "reason": "Verbatim; now follows the expanded three-way reading of the CBS answer."
+    },
+    {
+      "passage": "No teacher, classmate or early collaborator has described him on record, and Berg has not been quoted.",
+      "preserved": true,
+      "reason": "Verbatim in settle item 6 under the dated lead-in; still true per my 2026-10-21 search."
+    },
+    {
+      "passage": "Some of this should stand however it settles. At 18 he called the Garden, and in 2026 he said he had only dreamed of a 1,000-seater.",
+      "preserved": true,
+      "reason": "Verbatim as the close."
+    },
+    {
+      "passage": "In November 2023, Shane Boose was 18, had no chart hit and had not yet played a live show as Sombr.",
+      "preserved": true,
+      "reason": "Verbatim as the first sentence; the next paragraphs add that he was already signed."
+    },
+    {
+      "passage": "Both answers are his. Which one describes him is the question this profile tries, and so far fails, to settle.",
+      "preserved": true,
+      "reason": "Verbatim; now tied to the single test question."
+    },
+    {
+      "passage": "Sombr \"watches me take them in and asks me questions after each one,\" the writer observed.",
+      "preserved": true,
+      "reason": "Verbatim with its ELLE continuation."
+    },
+    {
+      "passage": "\"Even if some people found it cringe, it's cringe until you win.\"",
+      "preserved": true,
+      "reason": "Verbatim, followed by the incentive discount."
+    },
+    {
+      "passage": "These readings will separate when the choice that feels true and the choice that works pull apart and cost him something.",
+      "preserved": true,
+      "reason": "Verbatim as the opening of 'What would settle it'."
+    },
+    {
+      "passage": "That reason, fear of judgment, fits a Three's image sensitivity as well as a Four's privacy.",
+      "preserved": true,
+      "reason": "Verbatim; the co-writing settle item is now consistent with it."
+    },
+    {
+      "passage": "And when Fallon asked about the first concert he saw there, he said he had never been to one, only Knicks games. \"No, I'm gonna be the first.\"",
+      "preserved": true,
+      "reason": "Verbatim as the final lines; checked against Fallon captions."
+    },
+    {
+      "passage": "\"Madison Square Garden in New York City,\" he said. \"That's my dream, but it will happen. I know it!\"",
+      "preserved": true,
+      "reason": "Verbatim in the hook; checked against 1883."
+    },
+    {
+      "passage": "\"I didn't even realize that I was good at music until other people told me that I was good.\"",
+      "preserved": true,
+      "reason": "Verbatim, now with the surrounding belonging lines and a hedged reading."
+    },
+    {
+      "passage": "Yet in that same Broski answer he remembered telling people as a kid, \"I want to be a pop star. I want to be a rock star.\"",
+      "preserved": true,
+      "reason": "Changed, but its distinctive contribution survives: the pop star/rock star quote stays, now with the reply he got ('That's like a one in a billion'). The 'same answer' self-contradiction framing misread a coherent answer (Broski captions confirm), so removing it was necessary for accuracy."
+    },
+    {
+      "passage": "\"I wouldn't respond now,\" he told ELLE. \"That video kind of woke me up. I was like, 'Wait, yeah, that is weird.'\"",
+      "preserved": true,
+      "reason": "Changed for accuracy: the two ELLE sentences were joined though not adjacent. Both are still quoted verbatim, separated by his reasons with a marked gap, and the change of position over time (the contribution the reviewer valued) is kept and fuller."
+    },
+    {
+      "passage": "doubles as his answer to the charge, which makes it weak evidence of motive.",
+      "preserved": true,
+      "reason": "Verbatim at the end of the industry-plant paragraph."
+    },
+    {
+      "passage": "\"If the album flops, f*ck it. As long as I am happy with what I made,\" he told NYLON. Holding to that favors Four, pivoting and working harder favors Three",
+      "preserved": true,
+      "reason": "Verbatim in settle item 2, with Six and Seven branches appended."
+    },
+    {
+      "passage": "Research closed on October 21, 2026. Quotes from video interviews follow YouTube's captions, repeated words included.",
+      "preserved": true,
+      "reason": "Verbatim; moved to after the triad explanation, still anchoring the dated record."
+    },
+    {
+      "passage": "The Three reading notices that the humble version arrived after the bold one had paid off, when humility plays better. Nothing on record shows which explanation is right.",
+      "preserved": true,
+      "reason": "Changed, but interpretation and limit still sit side by side ('A Three reading notices that the smaller dream was recalled after the bigger one was booked. Nothing on record shows which explanation is right.'). The unsupported motive clause was removed, and 'paid off' became 'was booked' because the shows had not happened at taping; both corrections are accurate."
+    },
+    {
+      "passage": "Some of this should stand however it settles.",
+      "preserved": true,
+      "reason": "Verbatim as the start of the close."
+    }
+  ],
+  "coverage_complete": true,
+  "metadata_consistent": true,
+  "alternative_type_addressed": true,
+  "five_year_test_passed": true,
+  "open_case_eligible": true,
+  "scores": {
+    "evidence": {
+      "score": 8.5,
+      "passage": "When Mason suggested he hadn't believed the praise, the tape has \"I don't believe them,\" probably his reply, though the speaker isn't certain.",
+      "reason": "I re-fetched every article source live (People via Wayback; 1883 via jina) and downloaded fresh captions for all nine videos. All 89 printed quotations match their sources word for word, with correct speaker, date and surrounding context; trimmed quotes now carry their adverse halves. This passage shows the standard: caption and Whisper agree on the words, the speaker is uncertain, and the article says so (my pitch check weakly supports the lean). Allegations are attributed with rebuttals and are not adjudicated. Limits: the record is almost all self-report from promotional cycles, third-party testimony is from friends and admirers, one thesis-bearing quote omits his own framing (verify-01), and one type-answer paraphrase is broader than its source (verify-02)."
+    },
+    "enneagram": {
+      "score": 8.0,
+      "passage": "Three leads on a tiebreaker, not a margin. The testing is partly the job, the fears fit Six, and the bedroom answer is about belonging as much as ability.",
+      "reason": "Against the open-case anchor: Three, Four, Six and Seven are each argued from repeated first-person evidence with stated counterevidence ('What strains the Four reading...', 'Against Six are the bets themselves', 'Against it, the fears he names...'). The article says what does not discriminate (the TikTok episode, fear of judgment, the Fallon modesty) and what would (six mapped settle signals), and claims no more than a tiebreaker. Below 8.5 because the surviving Three reasons are thin and partly contestable: liking to A/B test could fit Seven, the 'wasn't working' timing omits his giving-up framing, and the Grammy-nominee line is one remark. The Six and Seven cases are short."
+    },
+    "originality": {
+      "score": 8.5,
+      "passage": "In 2026 he booked two nights there, November 23 and 24, on his You Are the Reason tour. That June, on The Tonight Show, Jimmy Fallon asked what headlining the Garden meant to a New York kid. \"My life goal as a musician was to be able to headline a 1,000-seater,\" Sombr said.",
+      "reason": "The organizing insight comes from his own words: the 2023 Garden prediction against the 2026 1,000-seater memory, bookended by never having seen a concert there. Several details exist only for him: choruses posted before songs are finished, fights with Berg to keep $1,000-mic bedroom vocals while writing to leave Berg 'no notes', the ELLE writer watched while she listened, and the father who took Columbia's email for a scam. The heart/head triad paragraph is the only reusable type boilerplate."
+    },
+    "writing": {
+      "score": 7.8,
+      "passage": "Read one way, this is worth arriving through other people's verdict, which would fit a Three, though \"I don't believe them,\" if it is his, says the verdict didn't settle much. Read another, it is how any teenager learns a skill is real, and the answer keeps returning to belonging, a Six's question as much as anyone's.",
+      "reason": "Strong sequence: hook, orientation, ambition, method, Four case, fears, Six/Seven, verdict, settle signals, callback ending. The sections develop rather than restate the thesis. But hedging loops recur in nearly every section (as in this passage, plus 'fits both readings' and 'doesn't separate the readings'), and some paragraphs are crammed (the 170-word industry-plant paragraph, the long settle list). At about 3,190 words the piece runs roughly a quarter past the open-case target of about 2,500, mostly from jury-required context, and the back half sags."
+    },
+    "durability": {
+      "score": 8.5,
+      "passage": "As of October 21, 2026, six things would put that on record.",
+      "reason": "Against the open-case anchor: every changing fact is dated (age 'as of October 2026', tour 'scheduled... through July 2027', no album title or VMA response 'as of October 21, 2026', NYLON team role 'April 2026'), and the evidence record tags each with a review_trigger. The hook and close rest on two dated quotes, not on the Garden shows. Settle signals plus next_review 2026-12-15 make reopening easy. What the page says is known would stay true if a later run settles on Four or Six. Some items (the VMA example, the post-tour signal) will need refreshing, as designed."
+    },
+    "hook": {
+      "score": 9.0,
+      "passage": "In November 2023, Shane Boose was 18, had no chart hit and had not yet played a live show as Sombr. [1883 Magazine](https://1883magazine.com/sombr/) asked for his dream venue. \"Madison Square Garden in New York City,\" he said. \"That's my dream, but it will happen. I know it!\"",
+      "reason": "Specific, dated and sourced. It sets up an immediate contradiction (the Fallon 1,000-seater line two paragraphs later), and the ending pays it off with the never-seen-a-concert-there detail. Every factual element checked out."
+    },
+    "discoverability": {
+      "score": 8.0,
+      "passage": "Sombr's Personality Type: Open Case, Leading Read Type 3",
+      "reason": "The meta_title (56 chars) and identity-first title use honest open-case language. The 154-char description is accurate and curiosity-driving. The H2 type answer is under 60 words and mirrored in the type FAQ. Six FAQs answer real search intents (real name, industry plant, producer, Type 4 alternative, what would settle it). Anchors match the headings. The body links Taylor Swift's profile and four type pages, and six published related-musician suggestions are set. Inbound links are not yet in place (unpublished draft). The type-answer wording issue (verify-02) touches the most-lifted snippet."
+    }
+  }
+}

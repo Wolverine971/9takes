@@ -1,0 +1,249 @@
+{
+	"source": "src/lib/data/corpus-stats.json (scripts/generate-corpus-stats.js)",
+	"generated_at": "2026-10-20T00:20:42.583Z",
+	"note": "Editorial typings of published 9takes public-figure profiles. Fields come from category tags and overlap.",
+	"all": {
+		"n": 453,
+		"counts": {
+			"1": 29,
+			"2": 29,
+			"3": 82,
+			"4": 66,
+			"5": 38,
+			"6": 54,
+			"7": 61,
+			"8": 48,
+			"9": 46
+		},
+		"share": {
+			"1": 0.064,
+			"2": 0.064,
+			"3": 0.181,
+			"4": 0.1457,
+			"5": 0.0839,
+			"6": 0.1192,
+			"7": 0.1347,
+			"8": 0.106,
+			"9": 0.1015
+		}
+	},
+	"fields": {
+		"film-tv": {
+			"label": "Film & TV",
+			"n": 177,
+			"counts": {
+				"1": 11,
+				"2": 15,
+				"3": 27,
+				"4": 23,
+				"5": 5,
+				"6": 31,
+				"7": 23,
+				"8": 16,
+				"9": 26
+			},
+			"share": {
+				"1": 0.0621,
+				"2": 0.0847,
+				"3": 0.1525,
+				"4": 0.1299,
+				"5": 0.0282,
+				"6": 0.1751,
+				"7": 0.1299,
+				"8": 0.0904,
+				"9": 0.1469
+			},
+			"raw_labels": ["movieStar", "newMovieStar", "celebrity"]
+		},
+		"creator-media": {
+			"label": "Creators & Internet Personalities",
+			"n": 101,
+			"counts": {
+				"1": 4,
+				"2": 5,
+				"3": 24,
+				"4": 12,
+				"5": 5,
+				"6": 8,
+				"7": 23,
+				"8": 13,
+				"9": 7
+			},
+			"share": {
+				"1": 0.0396,
+				"2": 0.0495,
+				"3": 0.2376,
+				"4": 0.1188,
+				"5": 0.0495,
+				"6": 0.0792,
+				"7": 0.2277,
+				"8": 0.1287,
+				"9": 0.0693
+			},
+			"raw_labels": ["creator", "influencer", "tiktoker", "lifestyleInfluencer", "journalist"]
+		},
+		"music": {
+			"label": "Musicians & Artists",
+			"n": 84,
+			"counts": {
+				"1": 0,
+				"2": 5,
+				"3": 19,
+				"4": 31,
+				"5": 1,
+				"6": 5,
+				"7": 7,
+				"8": 7,
+				"9": 9
+			},
+			"share": {
+				"1": 0,
+				"2": 0.0595,
+				"3": 0.2262,
+				"4": 0.369,
+				"5": 0.0119,
+				"6": 0.0595,
+				"7": 0.0833,
+				"8": 0.0833,
+				"9": 0.1071
+			},
+			"raw_labels": ["musician"]
+		},
+		"politics-public": {
+			"label": "Politics & Public Figures",
+			"n": 62,
+			"counts": {
+				"1": 8,
+				"2": 10,
+				"3": 10,
+				"4": 7,
+				"5": 7,
+				"6": 6,
+				"7": 2,
+				"8": 7,
+				"9": 5
+			},
+			"share": {
+				"1": 0.129,
+				"2": 0.1613,
+				"3": 0.1613,
+				"4": 0.1129,
+				"5": 0.1129,
+				"6": 0.0968,
+				"7": 0.0323,
+				"8": 0.1129,
+				"9": 0.0806
+			},
+			"raw_labels": ["politician", "historical", "activist"]
+		},
+		"tech-business": {
+			"label": "Tech, Founders & Business",
+			"n": 80,
+			"counts": {
+				"1": 6,
+				"2": 1,
+				"3": 20,
+				"4": 4,
+				"5": 19,
+				"6": 8,
+				"7": 11,
+				"8": 8,
+				"9": 3
+			},
+			"share": {
+				"1": 0.075,
+				"2": 0.0125,
+				"3": 0.25,
+				"4": 0.05,
+				"5": 0.2375,
+				"6": 0.1,
+				"7": 0.1375,
+				"8": 0.1,
+				"9": 0.0375
+			},
+			"raw_labels": ["techie", "entrepreneur", "business"]
+		},
+		"comedy": {
+			"label": "Comedians",
+			"n": 35,
+			"counts": {
+				"1": 0,
+				"2": 0,
+				"3": 3,
+				"4": 1,
+				"5": 0,
+				"6": 4,
+				"7": 15,
+				"8": 4,
+				"9": 8
+			},
+			"share": {
+				"1": 0,
+				"2": 0,
+				"3": 0.0857,
+				"4": 0.0286,
+				"5": 0,
+				"6": 0.1143,
+				"7": 0.4286,
+				"8": 0.1143,
+				"9": 0.2286
+			},
+			"raw_labels": ["comedian"]
+		},
+		"authors-thinkers": {
+			"label": "Authors & Thinkers",
+			"n": 26,
+			"counts": {
+				"1": 5,
+				"2": 1,
+				"3": 0,
+				"4": 4,
+				"5": 8,
+				"6": 3,
+				"7": 1,
+				"8": 4,
+				"9": 0
+			},
+			"share": {
+				"1": 0.1923,
+				"2": 0.0385,
+				"3": 0,
+				"4": 0.1538,
+				"5": 0.3077,
+				"6": 0.1154,
+				"7": 0.0385,
+				"8": 0.1538,
+				"9": 0
+			},
+			"raw_labels": ["author", "psychology", "essay"]
+		}
+	},
+	"retypes_2026": {
+		"method": "git history of src/blog/people/drafts/*.md 'enneagram:' changes, kept only where the live blogs_famous_people type equals the latest draft type (checked 2026-10-19)",
+		"people": [
+			["Donald Trump", "8", "3"],
+			["John Coogan", "5", "7"],
+			["Shawn Ryan", "8", "5"],
+			["Saagar Enjeti", "5", "7"],
+			["Tim Ferriss", "5", "1"],
+			["Neil Strauss", "5", "4"],
+			["Adam Neumann", "7", "3"],
+			["Alix Earle", "3", "9"],
+			["Clavicular", "3", "4"],
+			["David Goggins", "6", "8"],
+			["Doja Cat", "7", "9"]
+		],
+		"excluded_draft_only": ["Druski", "Sam Altman", "Dario Amodei"]
+	},
+	"ceo_subset_2026_10_07": {
+		"source": "/enneagram-corner/what-enneagram-type-are-most-ceos",
+		"n": 46,
+		"fives": 14,
+		"threes": 11,
+		"without_7_ai_leaders": {
+			"n": 39,
+			"fives": 10,
+			"threes": 10
+		}
+	}
+}

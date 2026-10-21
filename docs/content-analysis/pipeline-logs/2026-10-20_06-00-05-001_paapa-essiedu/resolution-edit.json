@@ -1,0 +1,368 @@
+{
+  "schema_version": 3,
+  "decisions": [
+    {
+      "finding_id": "subject-01",
+      "action": "fixed",
+      "reason": "Removed 'in the same breath'. The threats answer and the letter answer now appear separately, and the 'kid' line is framed as representation. The counterphobic label is limited to the threats answer: 'The letter and the police decision read as principle and proportion, which a One fits at least as well.' Added his stated principle (trans artists 'should be able to work without being intimidated') and his merit answer, 'then it wouldn't be a project I'd want to work on anyway' (Sunday Times, March 2026). I15 states what this does to the fear-of-loss reading. Claims C19l, C19m, I09, I15."
+    },
+    {
+      "finding_id": "subject-02",
+      "action": "fixed",
+      "reason": "Added the stability question and his answer, 'Yes, but the themes that run through Harry Potter are of love triumphing over hate — of acceptance. And that's why I'm doing it.' Also added 'a kid like me can see themselves represented in that world', both attributed to The Sunday Times, March 2026. The 'stable home' settle test is gone. The closing test now uses director testimony and his own account of his self-criticism (C19n, C19h, I07)."
+    },
+    {
+      "finding_id": "subject-03",
+      "action": "fixed",
+      "reason": "Now reads 'he had been \"getting offered a lot of slave roles ... which I think speaks to how I was perceived in the industry,\" though he wouldn't entirely rule such a role out if it had a point'. It is moved to 'What the type doesn't explain', framed as resisting being boxed in ('clip my wings', Big Issue 2023), and no longer counted as uncontested One evidence (C26b, C26d, C26e, C26f)."
+    },
+    {
+      "finding_id": "subject-04",
+      "action": "fixed",
+      "reason": "Now reads 'During a Guildhall improvisation, a teacher playing a prison warden shouted a racial slur, and \"I didn't know if she was talking to me or Michaela,\" he said in 2022.' The teacher is not named and the slur is not printed (C29, C29c)."
+    },
+    {
+      "finding_id": "subject-05",
+      "action": "fixed",
+      "reason": "Hattenstone's full list is restored ('class, insecurity, impostor syndrome, self-preservation'), and the follow-up is now 'A week after the café, he and Hattenstone caught up again.' The Mr Porter corrective ('But you need to respect your body ...') is restored. Class and upbringing are weighed as a rival in the careful-argument paragraph (C09e, C09f, C25e)."
+    },
+    {
+      "finding_id": "subject-06",
+      "action": "fixed",
+      "reason": "The 2016 answer now gives the openness half first ('genuine openness and vulnerability, a willingness to share yourself'), then the caveat. 'From the start' is removed (C14, C14b)."
+    },
+    {
+      "finding_id": "subject-07",
+      "action": "fixed",
+      "reason": "'He is rarely angry' is removed. It is replaced by his reported framing: adult fights spent breaking up fights, 'it probably is Christian guilt', 'I don't know if the anger is suppressed. I don't know if it's repressed.', and trying to turn anger into action. All of it is counted on the One side (C24, C24b, C24c, C24d)."
+    },
+    {
+      "finding_id": "subject-08",
+      "action": "fixed",
+      "reason": "The Type 1 FAQ now says 'Six leads narrowly because of his answer in that one podcast exchange. Speaking in general terms, he called people-pleasing an attempt to control how you are perceived and to create \"safety for yourself.\"' The intro is singular and dated: 'when his friend Paloma Faith asked him in 2025 ... his answer ended on safety' (C39d, C11b)."
+    },
+    {
+      "finding_id": "subject-09",
+      "action": "fixed",
+      "reason": "The description is now attributed and dated: 'For years, Paapa Essiedu has described dreading being found out before each new job.' The persona title is now 'The Actor Who Kept Expecting to Be Found Out'. Both are time_sensitive with a review trigger (C45, C48)."
+    },
+    {
+      "finding_id": "fan-F1",
+      "action": "fixed",
+      "reason": "The Four paragraph now gives the continuation: a loss that big shapes you unconsciously and he wants to 'allow that to flow through the work that you do' (Lennie James, Guardian, 2020). The argument against Four now rests on how he handles grief: he will not use acting as therapy, and by 2023 he preferred imagination to drawing on grief (Maxwell). The paragraph concedes 'That is Four language, and it counts.' The optional Hamlet parallel was cut for length (C23f, C23g)."
+    },
+    {
+      "finding_id": "fan-F2",
+      "action": "fixed",
+      "reason": "His stated reason, the representation line and the merit/'wouldn't want to work on' answer are added, all attributed to The Sunday Times, March 2026. The closing prediction no longer depends on the stability motive. 'In the same breath' is removed (C19h, C19l, C19m, C19n, I07)."
+    },
+    {
+      "finding_id": "fan-F3",
+      "action": "fixed",
+      "reason": "All four reasons now appear as Hattenstone's summary before the 'taken away' quote. Self-preservation is one reason among several. Class and upbringing are weighed as a rival: 'Class is on his own list, and in 2024 he traced the impostor feeling back to how he was brought up.' (C09e, C25e)"
+    },
+    {
+      "finding_id": "fan-F4",
+      "action": "fixed",
+      "reason": "'Rarely angry' is removed. His own framing is now attributed to Mad, Sad and Bad 2025: break-up fights, Christian guilt, suppressed or repressed, anger turned into action. It is counted on the One side, and the article says plainly that 'Held-down anger ... are One territory.' The 'What keeps Six narrowly ahead' paragraph no longer leans on anger (I16)."
+    },
+    {
+      "finding_id": "fan-F5",
+      "action": "fixed",
+      "reason": "Slave/servant roles are now 'offered', with his framing. The Big Issue 'clip my wings ... saying no to a lot of things' reason is quoted with 'very, very, very big successes'. 'What the type doesn't explain' states the tension directly: 'Neither predicts a man who fears loss turning down jobs that became hits.' It also says which reading each part fits (C26d, C26f)."
+    },
+    {
+      "finding_id": "fan-F6",
+      "action": "fixed",
+      "reason": "Added 'desperately trying to recall Edmund's lines' and Edmund 'in too deep to say anything other than fuck it. That is where I was, too.' (Observer 2016). The interpretation now reads 'The preparation covered the lines and the rest was a leap' (C17i, C17j, I08)."
+    },
+    {
+      "finding_id": "fan-F7",
+      "action": "fixed",
+      "reason": "Where Hamlet returns, the section now says he was the RSC's first Black Hamlet, and he told The Big Issue in 2023: 'There was almost more focus on that than the actual production and I found that so difficult.' The intro and FAQ keep the plain fact (C01d)."
+    },
+    {
+      "finding_id": "fan-F8",
+      "action": "fixed",
+      "reason": "The openness half is given before the caveat, and 'wary of exploitation from the start' is removed (C14b)."
+    },
+    {
+      "finding_id": "critic-01",
+      "action": "fixed",
+      "reason": "The section states his own motive ('Bored with his own two or three lines', 'I'm a nerd') and the Guardian's 'grit and enthusiasm'. It says 'Nothing in his accounts ties that to dread.' It also says the night fits a keen young actor or a One as well, and that it is texture, not proof. The generic 'A Six often prepares for disaster' sentence is removed. 'Why not Type 1?' adds 'The King Lear night is the nearest thing, and it cuts both ways.' (C17h, C17l, C17k, I08, I19)"
+    },
+    {
+      "finding_id": "critic-02",
+      "action": "fixed",
+      "reason": "Counterphobia is now used only where a source names the fear first: Hamlet ('I don't know if I can do this') and the threats answer. The letter and the police decision are recorded as principle and proportion that a One fits at least as well. The type section names observable behaviour that would weaken Six: getting through the run-up alone, or tracing his self-criticism to his own standard rather than to exposure (I09, I10, I14)."
+    },
+    {
+      "finding_id": "critic-03",
+      "action": "fixed",
+      "reason": "The adjacency is removed. The 'kid' line is presented as representation. Both omitted S04 answers (the stability/themes answer and the merit/'wouldn't want to work on' answer) are added. I15 answers the question 'A man who says fear of loss keeps him from resting shrugged ... at losing a ten-year role.' The settle test no longer uses the stability frame."
+    },
+    {
+      "finding_id": "critic-04",
+      "action": "fixed",
+      "reason": "Type 3 is now named in the type section and tested in 'Why not Type 1?'. The test uses 'just a few little things', 'He never put himself forward' (Kwame), 'My aim isn't to be that famous' (Times 2020) and the uninvited-not-outshone fear. 'Very big successes' is discussed under 'doesn't explain'. The article explains why safety is the operative word ('perception is the means and safety the stated end'). 'Tips the read' is softened to 'keeps Six narrowly ahead'. Restlessness names Type 7. The 'full hearing' promise is removed (I17, I18, C21d, C35)."
+    },
+    {
+      "finding_id": "critic-05",
+      "action": "fixed",
+      "reason": "The Type 1 FAQ and the intro now keep the second-person framing, say it was one 2025 exchange, and match the body's limit (C39d, C11b)."
+    },
+    {
+      "finding_id": "critic-06",
+      "action": "fixed",
+      "reason": "The roles are now 'offered' (Mr Porter 2024). The Big Issue refusal of 'very, very, very big successes' is quoted separately. No sentence says he turned down slave or servant roles (C26b, C26c)."
+    },
+    {
+      "finding_id": "critic-07",
+      "action": "fixed",
+      "reason": "Anger is dropped as a Six discriminator. The Johnson remark and the suppressed-anger line are conceded to One ('One territory'). The Guildhall racism is now used only as circumstance that 'would make anyone guarded, so the wariness is weak type evidence.' The police remark was cut (I13, I16)."
+    },
+    {
+      "finding_id": "critic-08",
+      "action": "fixed",
+      "reason": "The section is renamed 'The leap and the net' and opens 'Acting itself was a leap', with Hattenstone's 'at the last minute, and much to everybody's surprise, including his own'. It adds the half-sister's account of his mother still hoping for medicine, and the line 'That condition is a standard, and a One would hear it the same way.' The 2016 openness half is restored. 'Safe hands' and 'strength in numbers' are cut. 'Commitment to safety and success' is cut (C04, C04d, C05d, I12, C14b)."
+    },
+    {
+      "finding_id": "critic-09",
+      "action": "fixed",
+      "reason": "The 'friends off the press circuit' claim is replaced with the one off-stage glimpse, Finlay's on-air recollection about Pass Over. The 'decade' claim now rests on 2020, 2022 and 2024, and the 2016 hindsight quip is removed. The humility/self-improvement half of the Chatterbox answer is added as One-compatible: 'a thought a One could have had' (C07, C40b, C40c)."
+    },
+    {
+      "finding_id": "critic-10",
+      "action": "fixed",
+      "reason": "Coel's 'fear and trembling' now carries her framing ('with great sensitivity and thoughtfulness', 'trying to discover things almost with fear and trembling') and is not counted as fear evidence. The one-system sentence adds 'Dependability alone would fit a One, Two or Nine.' 'Friends' is replaced with 'people close to him' (C15c, I05)."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "action": "fixed",
+      "reason": "The counterphobic label no longer covers the letter. The text says plainly that only the threats answer reads as a Six facing fear, and that the letter and the police decision read as principle and proportion that a One fits (I09)."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "action": "fixed",
+      "reason": "Added 'Many saw his signature as a rebuke to J.K. Rowling, The Sunday Times noted.' The advice answer is attributed: 'He signed without seeking advice, he told The Sunday Times.' Order is now casting (April 2025), threats, letter weeks after casting, and 2026 answers named as Sunday Times (C19j, C19k)."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "action": "fixed",
+      "reason": "The article concedes the Johnson line as One anger ('anger at people who break their own rules, are One territory') and no longer uses it for a care axis (I16)."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "action": "fixed",
+      "reason": "'Friends' is replaced with 'people close to him'. The off-stage claim now cites what the record shows: Finlay's on-air recollection on the 2020 livestream. The loyalty line keeps its shape (I05, C40b)."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "action": "fixed",
+      "reason": "One 'Is it easing?' paragraph now puts side by side the 2023 'thinking less' quote, Maxwell's 2016-to-2023 change from restlessness to containment, weekly therapy in 2022 and the 2026 therapy quote. It says what that changes: 'The alarm may be quieter, with support kept in place, which still fits a Six. The dread gone without that support would not.' (C42, C42b, C22e, C22f, I11)"
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "action": "fixed",
+      "reason": "Body is 3,498 words by checkDraft. Cuts came from restatement, the King Lear retelling, the letter paragraph, the Two/Nine paragraphs and secondary quotes. The 'full hearing' promise is removed. The eating detail is cut, and each remaining 'doesn't explain' item states what it complicates."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "action": "fixed",
+      "reason": "Buckley is glossed as 'his co-star in the 2022 film Men', Lennie James as 'the actor', and Pass Over as 'Essiedu's 2020 play at London's Kiln Theatre'. The half-sister disclosure is dated to 2024 ('had only just told him'). The Prebble quote was cut for length."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "action": "fixed",
+      "reason": "The stock Six definition ('people and structures that will hold', 'tests the ground before trusting it') is removed. The type paragraph now uses his own material and keeps 'Essiedu does both, in sequence.' Remaining matches are the house-mandated triad sentence. The similarity diagnostic was not rerun at this stage."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "action": "fixed",
+      "reason": "Type 3 is named beside the One comparison and handled with sourced discriminators: 'just a few little things', never putting himself forward for Kwame, 'My aim isn't to be that famous', and the fear of being uninvited ('huge mistake in inviting you'), not outshone. 'In the Faith answer, perception is the means and safety the stated end.' The heart-triad claim for Six ('Attention goes outward') is removed (C10c, I17, I18)."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "action": "fixed",
+      "reason": "Counterphobia is used only where fear is named first. 'In the same breath' is removed. The representation motive is not called something he reached for. The letter and police report are recorded as One-compatible (I09, I14, C19h)."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "action": "fixed",
+      "reason": "The 'merit of my talent' answer and 'wouldn't be a project I'd want to work on anyway' are quoted in the Snape section. The article says what they do: they count against loss-anxiety governing his response to real loss. A Six reading can absorb them only as anticipatory dread about competence, and a One reading fits more simply (C19l, C19m, I15)."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "action": "fixed",
+      "reason": "The Lear preparation now carries his stated motive and is labelled non-discriminating. 'He steadies' is removed from the type answer and FAQ ('Then he goes on anyway'). The meta title is changed from 'Calm During' to 'The Fear of Being Found Out' (I08, C47, C49)."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "action": "fixed",
+      "reason": "Added the suppressed/repressed line. Anger is dropped as a Six-versus-One discriminator, and the Johnson line is acknowledged as fitting a One. The 'A One's anger fixes on error' misstatement is removed (C24c, I16)."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "action": "fixed",
+      "reason": "Changed to 'offered'. 'Clip my wings' is quoted with 'very, very, very big successes' and assigned to both readings ('Wariness of being boxed in suits a Six, and holding to a standard suits a One') (C26f)."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "action": "fixed",
+      "reason": "The 'struggle to say no' stereotype is replaced: 'The grief shutdown fits a Nine too, but it was limited to grief. A Nine tends to tune out threat, and he narrates anticipated threat in vivid detail.'"
+    },
+    {
+      "finding_id": "enneagram-08",
+      "action": "fixed",
+      "reason": "The Mr Porter follow-on is restored. Coel's phrase is quoted with 'with great sensitivity and thoughtfulness' and 'trying to discover things', and is not counted as fear evidence (C09f, C15c)."
+    },
+    {
+      "finding_id": "future-01",
+      "action": "fixed",
+      "reason": "The closing test now rests on two signals press-tour praise cannot satisfy: independent director or collaborator testimony about a troubled production, and his own direct answer about where his self-criticism comes from. Each result is named: 'Holding the line alone, or tracing it to a standard he sets himself, moves the read toward One.' I07's passage and review_trigger are updated."
+    },
+    {
+      "finding_id": "future-02",
+      "action": "fixed",
+      "reason": "Now reads 'He was in weekly therapy in 2022, and in 2026 he told The Sunday Times: \"If I didn't, I'd be incredibly anxious and unhappy.\"' C22e is dated 2022."
+    },
+    {
+      "finding_id": "future-03",
+      "action": "fixed",
+      "reason": "The description, persona title, type answer and FAQ now frame the dread as a documented pattern ('For years ... has described', 'Kept Expecting'). All say 'each new job'. C45, C47, C48 and C49 are time_sensitive with the trigger 'If a post-2026 interview says the first-day dread has gone, revise ...'."
+    },
+    {
+      "finding_id": "future-04",
+      "action": "fixed",
+      "reason": "The Snape FAQ now reads 'As of March 2026, the first season was scheduled to premiere on December 25, 2026', which stays true after the date. The known-for FAQ uses the past-tense 'in April 2025 HBO cast him'. C20, C20b, C20e, C20f and C20g carry dated, actionable triggers."
+    },
+    {
+      "finding_id": "future-05",
+      "action": "fixed",
+      "reason": "Absolute dates replace drift words: 'in 2020, 2022 and 2024'; 'which by 2025 he called a companion'; 'On a trip shortly before that interview' (June 2022); 'As of March 2026, he had not reported the threats.'"
+    },
+    {
+      "finding_id": "future-06",
+      "action": "fixed",
+      "reason": "The inline links and citations for Dish and The Going Rogue Club now use the official YouTube uploads (hqph-vko_lY&t=2145s; gskkRklT-9Y&t=745s), confirmed by oEmbed and timestamped from their auto-captions. No pdst.fm, chtbl.com or media.mp3 link remains. The Mad, Sad and Bad links already used the YouTube upload."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "This is where the type argument has to be careful. Losing both parents by 20, on little money, would teach anyone to brace for loss, and public evidence can't separate temperament from that history.",
+      "action": "kept",
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "There are fair objections. First-night nerves are close to universal among actors, and British interviews reward self-deprecation.",
+      "action": "kept",
+      "reason": "Kept verbatim. The rebuttal that follows now cites Finlay's on-air recollection instead of 'tells friends the same story' (critic-09, unfamiliar-04)."
+    },
+    {
+      "passage": "None of this is decisive. The Faith answer is one podcast exchange, spoken in therapy vocabulary and in the second person.",
+      "action": "kept",
+      "reason": "Kept verbatim. The metadata (Type 1 FAQ, intro) now matches its limit (subject-08, critic-05)."
+    },
+    {
+      "passage": "He has not reported the threats. \"I don't think some 17-year-old boy being put in jail for two weeks for threatening to murder me would actually make me feel any better.\"",
+      "action": "changed",
+      "reason": "Dated per future-05: 'As of March 2026, he had not reported the threats.' His own reason is kept verbatim straight after, so readers can still judge the interpretation."
+    },
+    {
+      "passage": "He knows he is doing it. \"You know that thing when you project what your brain wants you to see on somebody who is probably just having a cup of tea?\" Then, after a stop: \"Maybe they are thinking it.\"",
+      "action": "kept",
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "Hattenstone asked if he meant it. \"Genuine!\" he said, fiercely.",
+      "action": "kept",
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "was in the audience, and he admits he checked Essiedu's knees for knocking.",
+      "action": "kept",
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "Then, after a stop: \"Maybe they are thinking it.\"",
+      "action": "kept",
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "About 16 kilometers in he was \"cooked,\" yet \"I continued running for another three kilometres, even though my body was basically shut down.\"",
+      "action": "kept",
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "On a recent trip, he had told a stranger he'd been in \"just a few little things,\" then gushed over her job in mezcal. \"And I thought: what is wrong with me!\"",
+      "action": "changed",
+      "reason": "'Recent' is replaced with 'On a trip shortly before that interview' (June 2022) per future-05. The detail and quotes are otherwise intact, and the passage is also reused as Three counterevidence."
+    },
+    {
+      "passage": "About 16 kilometers in he was \"cooked,\" yet \"I continued running for another three kilometres, even though my body was basically shut down.\" He woke in the medical tent unable to find words.",
+      "action": "kept",
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "Hattenstone assumed he was fishing. He wasn't.",
+      "action": "kept",
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "Inside, he told the Observer in 2016, it was \"an out-of-body experience\" with \"internal banshees.\" Outside, Lawson saw no tremble",
+      "action": "kept",
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "The verdict he fears belongs to other people, and he supplies it himself.",
+      "action": "kept",
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "A One's goodness answers to an inner standard: is this right? His answer points outward, to how he is perceived, and to safety.",
+      "action": "kept",
+      "reason": "Kept verbatim. Followed by the Type 3 test, because \"how he is perceived\" is also image language (enneagram-01)."
+    },
+    {
+      "passage": "Some of the record sits awkwardly with a Six reading.",
+      "action": "kept",
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "His fear in rehearsal \"that you might be bad\" is a One's line, and it stays on the One side of the ledger.",
+      "action": "kept",
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "A Six would describe Snape with relief at a trusted team and a stable home, and aim the dread at how audiences receive it. A One would talk about getting the role right and bristle at compromises in the work.",
+      "action": "changed",
+      "reason": "Rewritten per future-01, subject-02, fan-F2 and critic-03. The March 2026 record already answered the 'stable home' half, and press-tour praise could not fail the test. The concrete, falsifiable, dated settle test is kept in a new form: director testimony and his own account of his self-criticism, each naming which result moves the read toward One."
+    },
+    {
+      "passage": "Put the café and the King Lear night side by side and a pattern shows. His fear arrives early, before anything has gone wrong. When something really does go wrong, he is the steady one.",
+      "action": "kept",
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "This is a read of his public record from 2014 to 2026, at medium confidence.",
+      "action": "kept",
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "The scene that would settle it is not on record: a director's account of how he behaves when a production is in trouble. Does he gather allies and over-prepare, or quietly hold the line on standards?",
+      "action": "kept",
+      "reason": "Kept verbatim. Followed by 'The King Lear night is the nearest thing, and it cuts both ways' (critic-01), and it anchors the closing test (future-01)."
+    },
+    {
+      "passage": "Dominic Maxwell of The Times remembered \"a kind of Tiggerish energy, a physical restlessness\" when they met in 2016. By 2023, Maxwell wrote, \"he is all containment.\"",
+      "action": "kept",
+      "reason": "Kept verbatim. Moved into the 'Is it easing?' paragraph beside the 2023 'thinking less' quote, per unfamiliar-05."
+    },
+    {
+      "passage": "Losing both parents by 20, on little money, would teach anyone to brace for loss, and public evidence can't separate temperament from that history.",
+      "action": "kept",
+      "reason": "Kept verbatim."
+    }
+  ],
+  "prior_blockers": []
+}

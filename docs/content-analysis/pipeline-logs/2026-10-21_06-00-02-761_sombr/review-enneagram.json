@@ -1,0 +1,86 @@
+{
+  "schema_version": 3,
+  "role": "enneagram",
+  "content_sha256": "2a0a4f5e1204ea07a867d3cf41ca71eeddd43e4bbb4efb64bb890dd2a0bed49e",
+  "evidence_sha256": "7c5f17dea7fd32aae87896661db0579c6b9b2cf26ebe61939e459be7741e72fc",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "enneagram-01",
+      "severity": "major",
+      "passage": "Types 6 and 2 were tested and set aside. He is loyal to Berg and his parents, but nothing shows a Six's doubt of authority or worst-case planning, and he left school over his mother's doubts to bet on himself.",
+      "problem": "Six is dismissed on a stereotype, and the draft's own record contradicts the reasons given. On 'doubt of authority': the draft prints 'they can't PR train me' (ET, September 2025) and then his deference to his publicist (NYLON, 2026). Defying authority and then complying is a Six marker at least as much as it is Three image care. On 'worst-case planning': in the Owen Thiele interview (S11, about 25:10-25:40, saved captions) he says he rarely goes out after shows because 'I cannot get sick and let down my fans,' and calls himself a 'huge germaphobe.' At about 36:00-36:20 he says that not being able to 'deal with the pressure of like waiting for the moment' 'sums up me as a person.' Siding with his supportive father against his doubtful mother is not evidence against Six. Fear is the dominant feeling in the record: 'big fear,' 'super scared of people's opinions,' and, unprinted, 'I had a lot of anxiety' as a child (S09, about 13:15). The fears the draft counts for Three (being dropped, being 'a disappointment,' letting fans down) fit a Six's fear of losing support as readily as a Three's fear of worthlessness. Six gets two sentences. Seven has comparable evidence and gets its own section and live status.",
+      "acceptance_test": "The body does one of two things. (a) It names a sourced observation that separates 3 from 6, meaning something an anxious, support-seeking Six would not do or say, and it drops any 'nothing shows' claim that the PR reversal or the let-down-my-fans precaution contradicts. Or (b) it lists 6 as a live alternative in the type answer, the type FAQ, open_case.live_alternatives and at least one settle signal. The Seven section's argument that his fears 'concern judgment and performing well' is also tested against 6, which shares the head triad's fear."
+    },
+    {
+      "id": "enneagram-02",
+      "severity": "major",
+      "passage": "Worth confirmed by other people's verdict on his ability is the Three pattern.",
+      "problem": "This is a categorical type mapping built on a trimmed answer. In the same CBS answer (S09, 13:26-14:21, saved captions) he says he never felt 'a part of anything' and 'just never felt like I belonged.' Belonging comes up three times in four lines. Earlier in the answer he says 'I had a lot of anxiety.' When Mason says 'you didn't believe them,' the captions show 'I don't believe them.' Only after that does Mason supply 'it validated you,' and he agrees. The draft qualifies only 'wanted to be seen' (as possible Four evidence). It never addresses belonging, a Six or Four theme. It also skips praise that did not land, which cuts against a Three reading in which recognized success settles worth. The captions have no reliable speaker labels, so the 'I don't believe them' attribution needs the audio.",
+      "acceptance_test": "The sentence no longer says 'is the Three pattern.' It says which types the passage fits: 3, plus 6 or 4 for the belonging half. The 14:00-14:20 exchange is checked against the S09 audio. If he said 'I don't believe them,' the body weighs that against the Three reading. The line counts toward Three in the 'Three, Four or Seven' summary only in this qualified form."
+    },
+    {
+      "id": "enneagram-03",
+      "severity": "major",
+      "passage": "\"I'm more myself and more Zen when I'm on the stage,\" he told ELLE.",
+      "problem": "The main strain on Four rests on a half-quote and a stereotype. ELLE (S08) prints the full quote twice: 'I'm more myself and more Zen when I'm on the stage. I just feel out of place in the regular world and in public.' The unprinted second sentence, about feeling out of place in the ordinary world, leans toward Four rather than against it. The Broski line answered 'You've described happiness as inconsistent for you.' He goes on to say that meeting fans 'makes everything feel real because it's so easy to like see everything as numbers or like statistics ... I need that human connection' (S14, about 12:30-13:20). That strains Three's focus on metrics more than it strains Four. Getting sad while isolated fits Four melancholy. The draft's own definition of Four ('wanting to be seen as that self') predicts that a Four could feel most himself on stage. 'He shows no envy' is absence of evidence in promotional interviews, where envy is rarely voiced. The same argument recurs in the 'Three, Four or Seven' summary, in the closing 'What stays unexplained' line and in the 'Could Sombr be an Enneagram Type 4?' FAQ.",
+      "acceptance_test": "The ELLE quote is printed or paraphrased together with its second sentence, and the Broski continuation is weighed. 'Stage, not solitude' is removed as a strain on Four, or the body argues why it strains Four despite the draft's own definition. The summary, the unexplained line and the Type 4 FAQ name only strains that actually separate the types, such as finishing songs based on audience response or changing his conduct after criticism. 'No envy' is labeled as absence of evidence."
+    },
+    {
+      "id": "enneagram-04",
+      "severity": "major",
+      "passage": "His health is not evidence for any type, and none is read from it here.",
+      "problem": "The draft does read type from his health. The ELLE anxiety-attack disclosure (S08) is the Three evidence for 'fame sharpened the same fear,' and it reappears as 'not performing well' in the intro and among the reasons Three leads. The 'My Body Isn't Ready' body-image song is read as stating 'the Three's dilemma plainly.' The research record's sensitivity guidance names exactly these disclosures (C22, C33) as never to be used as type evidence, yet both are in type_hypothesis.for_claim_ids. The use is also one-sided. The evidence record counts releasing a song about his own body insecurity as an image exposure, which is evidence against Three, but only the lyric that suits Three is weighed. 'I try to be the person you're expecting' fits a Two's or Nine's accommodation just as well, and as a line to a partner in a body-image song it is not a clean statement of image in service of success. In context, the ELLE fear is about fan encounters in public ('people coming up to me'), not about stage performance.",
+      "acceptance_test": "No mental-health or body-image disclosure (anxiety attacks, depression, body image) carries type weight in the body, intro, summary, FAQs or type_hypothesis.for_claim_ids, so the 'none is read from it here' sentence is true of the final text. The lyric is either dropped as type evidence or presented as fitting several types, with the image cost of releasing the song weighed beside it. The draft states again whether Three still leads after these removals (see enneagram-07)."
+    },
+    {
+      "id": "enneagram-05",
+      "severity": "major",
+      "passage": "Bringing in writers to keep the hits coming would point to Three; staying alone when it slows him, to Four.",
+      "problem": "The settle signals are uneven. (1) The co-writing signal maps staying solo to Four. But the body says his stated reason for writing alone, fear of judgment, 'fits a Three's image sensitivity as well as a Four's privacy,' so by the draft's own reasoning this signal cannot separate them. (2) Signal 5 ('A first outside account of what drove him would add the view this record lacks') does not map outcomes to types. That is the generic 'more testimony' signal the open-case standard warns against, and the evidence record's version of it did map outcomes. (3) Seven's branches reduce Seven to fun and jokes ('described mainly as fun,' 'shrugging it off,' 'joking it away'). The article and FAQ also drop the one signal the evidence record says could rule Seven out: how he handles the stretch off tour after the Garden finale (open_case.settle_signals[4]). The record's discriminator says 'Seven cannot be excluded until he is seen handling a long stretch without touring.' (4) If Six becomes live (enneagram-01), no signal separates 3 from 6.",
+      "acceptance_test": "Each signal names an observable outcome and which reading each outcome favors. The co-writing signal is reworded around a reason that actually separates the types, for example whether he explains staying solo as protecting the work's truth or protecting how he is judged. Signal 5 says what an outside account would need to describe to favor 3, 4 or 7 (and 6 if live). The post-tour signal is added, with a Seven prediction about avoiding limits and pain rather than about fun or jokes. The 'What would settle Sombr's Enneagram type?' FAQ matches the final list and count."
+    },
+    {
+      "id": "enneagram-06",
+      "severity": "minor",
+      "passage": "A defense first, then a new stance once he saw how it landed: that fits a Three's attention to reception.",
+      "problem": "The context is quoted selectively. ELLE (S08) gives his reasons in full. One supports the draft's reception reading: 'I think responding only makes it worse.' Two do not. 'That video kind of woke me up ... that is weird' concedes the substance of the criticism. 'If you still choose to look at me in a type of way because of that, so be it, but just know that that doesn't represent me as a human' accepts a damaged image while asserting who he is. An image-protective Three reading does not predict that, and it fits Four's identity claim at least as well. The next sentence ('Growing up in public at 20, with a publicist, explains it about as well') helps, but the episode is still counted toward Three in type_hypothesis (C27).",
+      "acceptance_test": "Either the 'so be it' line is quoted or paraphrased and the episode is presented as not separating 3, 4 and 6, or the 'fits a Three's attention to reception' clause is dropped. C27 comes out of for_claim_ids unless the final text still argues it for Three."
+    },
+    {
+      "id": "enneagram-07",
+      "severity": "major",
+      "passage": "Three leads, narrowly, on what he volunteers when asked what he fears and what made him feel worth something: being dropped, being a disappointment, not performing well, and learning he was good only when \"other people told me.\"",
+      "problem": "Once enneagram-01 through -04 are applied, the stated reasons for the lead do not hold. Of the four items, 'not performing well' is a health disclosure (enneagram-04). 'Other people told me' is undercut by its own context (enneagram-02). 'Being dropped' and 'a disappointment' are fears the draft admits most young signees share, and they fit Six (enneagram-01). The draft itself discounts the remaining support for Three (big ambition stated early and softened later; finishing songs based on audience response) as ordinary TikTok-era practice. None of those discounts touches the Four evidence: the name taken from a mood, writing alone, the fights to keep imperfection, confessions that cost him, 'that is truly me' about his indie roots, and the unprinted 'out of place in the regular world.' The structure also tilts toward Three: three H2s build the Three case, one builds Four and one builds Seven. As written, 'Three leads, narrowly' is asserted more than shown, which drifts toward the open-case Enneagram 6 anchor (one type asserted in tone).",
+      "acceptance_test": "After the fixes, the summary names at least one sourced reason Three leads Four that survives the draft's own discounts for professional incentive, self-report and health disclosure. Candidates the editor must actually argue, not just cite, are his account of two years 'making what I thought people wanted to hear, or what I thought would work' (S04), and accepting looking 'cringe' in order to 'win' (S06). If no reason survives, the type answer says 3 and 4 are effectively tied and names the tiebreaker that keeps 3 as the leading read. Alternatively the lead changes to 4, which is a type-thesis change and needs --refresh --expanded-review. The title, meta_title, description, type answer and type FAQ all match the outcome."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Both answers are his. Which one describes him is the question this profile tries, and so far fails, to settle.",
+      "reason": "Turns the open case's uncertainty into the hook without overclaiming. It sets up the type question with two dated statements of his own instead of a typology label."
+    },
+    {
+      "passage": "That is how a TikTok-era career works, so on its own it says little about motive.",
+      "reason": "Discounts professional incentive at the exact point where the Three evidence is most tempting. This is the motive-versus-behavior discipline the type argument needs."
+    },
+    {
+      "passage": "doubles as his answer to the charge, which makes it weak evidence of motive.",
+      "reason": "Applies the same incentive discount to the Four evidence (authenticity talk as a defense against the industry-plant charge). The symmetry is what keeps the comparison fair."
+    },
+    {
+      "passage": "That reason, fear of judgment, fits a Three's image sensitivity as well as a Four's privacy.",
+      "reason": "Honestly admits that a vivid behavior (writing alone) does not discriminate. Keep it, and make the co-writing settle signal consistent with it (enneagram-05)."
+    },
+    {
+      "passage": "\"If the album flops, f*ck it. As long as I am happy with what I made,\" he told NYLON. Holding to that favors Four, pivoting and working harder favors Three",
+      "reason": "The strongest discriminator in the piece. It turns his own on-record pre-commitment into a falsifiable future test that separates 3 from 4 on a costly choice."
+    }
+  ],
+  "assessment": "Open-case eligibility holds. He is an adult (21), his breakout was recent (Hot 100 entry April 2025), and the record is thin because he is young, not because research was shallow (38 sources opened, about 45,000 caption words). No blocker. The draft's typing discipline is better than most. It invokes no wing or arrow to dissolve the 3/4 tension, it discounts TikTok-era incentives on both sides, and its title, meta_title, description and type FAQ all use leading-read language. The problem is the case for the lead. Three leads Four on four named items. One is a health disclosure that the draft's own disclaimer and the research guardrail exclude. One is a CBS answer trimmed of its belonging lines and an apparent 'I don't believe them.' The other two are fears that fit Six as well. Meanwhile the main strain on Four uses half of an ELLE quote whose second half leans Four, and it rests on a Fours-like-solitude stereotype that contradicts the draft's own Four definition. Six is dismissed on a stereotype that the draft's printed PR reversal and the 'let down my fans' precaution (S11) contradict. The settle signals separate 3 from 4 well (the album and flop tests). They are generic for testimony, internally inconsistent on co-writing, stereotyped for Seven, and missing the off-tour test the evidence record says Seven needs. After the fixes, the editor must re-state whether 3 still leads. If the lead changes, that is a type-thesis change requiring --refresh --expanded-review. Method: I checked contexts in the research stage's saved copies of ELLE and NYLON and the caption files for CBS (S09), Brittany Broski (S14), Owen Thiele (S11) and Switched On Pop (S12), not the live pages. No audio was checked, and the caption speaker labels are unreliable."
+}

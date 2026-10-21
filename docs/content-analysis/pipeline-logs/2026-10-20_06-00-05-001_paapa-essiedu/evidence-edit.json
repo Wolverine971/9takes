@@ -1,0 +1,2613 @@
+{
+  "schema_version": 3,
+  "subject": "paapa-essiedu",
+  "status": "ready",
+  "research_tasks": [
+    "Research log (2026-10-20, first run, mode create, empty baseline, no prior evidence, no research-notes file). No page or draft for Paapa Essiedu exists under any name in src/blog or docs/content-analysis/research; he appears only in queue and scouting files (docs/blog-automation/backlog-queue.json, docs/content-research/2026-10-04_surging-people-scout.md). A July 2026 candidate list (docs/blog-automation/personality-analysis-candidates-2026-07-01.md) guessed Type 4; that was treated as an untested hypothesis. Not open-case eligible: professional since 2012 (RSC), widely interviewed since the 2016 Hamlet, an Emmy- and BAFTA-nominated breakout in 2020 and an Olivier win in 2026, so the record is deep and the hard part is typing, not thinness. Opened 39 sources (S01-S39). Read in full: Guardian/Observer 2016, 2018, 2020 (two), 2022, 2023, 2024 and 2026; Times 2020, 2023 and Sunday Times 2026; Soho House 2022; Mr Porter 2024; Big Issue 2023; Bustle 2024; Glass 2021; Untitled, A.V. Club, The Ringer and Den of Geek 2020; Another Man 2021; Afridiziak 2016; Inverse 2023; Dazed 2024. Audio, about 3 h 50 min, transcribed locally: Mad, Sad and Bad with Paloma Faith (2025, 35 min), The Going Rogue Club (2024, 87 min), Dish (2026, 47 min), Chatterbox (2020, 63 min); plus YouTube auto-captions for Mountview LIVE (2020, 42 min). Evidence was gathered before choosing a type. The print record alone supports a principled, self-critical One about as well as a Six; what moved the lead to Six was his own explanation of his conscientiousness as a safety strategy (S24) and the decade-long consistency of the 'found out / taken away' doubt (C07, C09). Outcome: status ready, standard format, Type 6 at medium confidence, Type 1 the strongest rival, 4, 9 and 2 live; contested_typing and sensitive_allegations flagged so the six-role jury reviews it.",
+    "Transcript fidelity. Audio came from each podcast's RSS enclosure (Mad, Sad and Bad: feeds.acast.com/public/shows/678163642d4090d8afa2a087; Going Rogue: feeds.acast.com/public/shows/643d3ebb4c61dd001119e92f; Dish: feeds.megaphone.fm/dish) and, for Chatterbox, YouTube (android_vr client) and was transcribed with whisper.cpp ggml-medium.en. Timestamps in S24-S27 refer to those transcripts. Second transcription with small.en agreed on: S24 c.0:08:10-0:10:50 (anger, fights, 'Christian guilt'), c.0:23:20-0:25:10 (being good, people-pleasing as control and safety), c.0:31:10-0:33:10 (half marathon); S25 c.0:12:30-0:15:20 (impostor syndrome, his mother and the drama-school rejections; small.en hears 'sly with it' where medium.en hears 'slow with it': paraphrase). Speaker turns are unlabelled: in S24 the 'permission to be confrontational ... the lioness in me' passage (c.0:11:15) is Paloma Faith's, not his; in S25 the Dream Team bully-director story, 'there's no hierarchy' and the production-company passages are Philip Barantini's; in S27 'begging me not to come and see Pass Over' is Calum Finlay's. S28 is YouTube auto-captions only (audio refused with HTTP 403): paraphrase or re-listen before quoting. S26 'nice feverishly' is a mis-hearing; do not print it. Scratch files (may not survive): audio in /tmp/paapa-essiedu-research/audio, transcripts in /tmp/paapa-essiedu-research/tx and tx2, captions in /tmp/paapa-essiedu-research/subs, print text in /tmp/paapa-essiedu-research/txt. Every excerpt in this file was machine-checked against those saved texts before writing.",
+    "Access and independence. The Times pieces (S03, S04, S05) and the Big Issue (S08) are paywalled or registration-walled and were read through r.jina.ai; bylines came from page metadata (Dominic Maxwell for S03 and S05; Jonathan Dean for S04). Jonathan Dean also wrote the Soho House profile (S02): two separate conversations, one interviewer. Dominic Maxwell interviewed him in 2016, 2020 and 2023. Not independent: Variety, AOL, Complex, Blavity, Jang, Hollywood Life and TheWrap all recycle S04's death-threats quotes; the Independent/Yahoo 'first role that made him doubt himself' piece recycles S03; the Mr Porter regional mirrors duplicate S07. Colleague testimony is independent of him but delivered in promotional settings: Coel (S01), Prebble and Barton (S08, S09), Buckley and Lennie James (S09), Ronan (S37), Freeman and Ng (S20), Paloma Faith (S24, a friend and host), Calum Finlay (S27, a friend and host). Mark Lawson's 2014 column (S29) is the one contemporaneous eyewitness observation.",
+    "Do-not-use list. (1) Never print the racial slur from the Guildhall account and never name or speculate about the teacher; the school apologised (S01, S38). (2) Do not report marriage or divorce: he refuses to discuss his relationship (S01, S03, S05); the 2026 divorce appears only in an unsourced Wikipedia infobox entry (S32) and no reporting was found. (3) Do not present 'nervous breakdown', 'depressed', 'brain fog', 'PTSD' (S19), 'psychopath' or 'I'm mad' (S24) as diagnoses; they are his colloquial or comic words. (4) The father's departure age conflicts ('a baby' vs 'four'): attribute or say 'very young'. (5) The Forest School scholarship age conflicts (seven vs 11): omit. (6) Do not attribute Paloma Faith's 'lioness'/'permission to be confrontational' lines to him. (7) Boris Johnson 'bigotry' and Suella Braverman remarks are his opinions; attribute and date them, and do not let them become the profile's centre. (8) Characterise the April 2025 open letter only by its stated content (condemning the UK Supreme Court ruling on the Equality Act's definition of 'woman' and 'sex'); do not editorialise on trans-rights politics or on JK Rowling beyond her published statement. (9) Do not read his characters' motives (Kwame's suppression, George's devotion, Hamlet's 'rescuing and fixing', Tristan's jokes) onto him except where he draws the parallel himself (S05 for Hamlet). (10) The Forest School 'racism, misogyny, homophobia were rife' line must carry the school's response (S04). (11) The Bond-odds banter (S03) and the Snape 'reworked backstory' are not evidence.",
+    "Unopened or set aside. Not opened: the 2016 Times interview 'from Hamlet to Press' (Maxwell; linked from S05); the Vulture 2020 interview on Kwame casting; the Esquire 2026 interview (the Quidditch fall), known only through syndication; the Olivier speech video (Instagram story); the Virgin Radio (2026, 18 min), In Creative Company (2021, 26 min) and Babies press videos; TheatreVoice 2016 audio beyond its pull-quote; Mountview audio (403). Set aside: Off Menu with Ed Gamble and James Acaster, episode 210 (2023-10-18), opened only as a low-quality podscripts auto-transcript (fussy eating, selling the cheese off school pizza; also told on Dish, S26); no Harry Potter showrunner comment on him beyond the casting announcement was found; no Simon Godwin, Jamie Lloyd, Ivo van Hove or Bryan Cranston testimony about him was found.",
+    "Settle signals for a future refresh (would strengthen or overturn the Six read against One). (a) Independent testimony from directors or long-term collaborators (Coel, Lennie James, Prebble, Simon Godwin, Ivo van Hove, the Harry Potter team) about how he behaves when a production is in trouble: does he seek allies and reassurance and over-prepare (6), or quietly correct and hold the line on standards (1)? (b) How he talks about Snape once the series airs (premiere scheduled 2026-12-25): relief at a stable ten-year home and a trusted team, and continued anticipatory dread about reception (6), versus satisfaction at doing the role rightly and frustration at compromises in the work (1). (c) Whether he describes his self-criticism, when asked directly, as fear of exposure and loss or as falling short of a standard. (d) Any account of him alone against an institution with no allies, which would weaken the Six reading. Recheck at the first long post-premiere interview.",
+    "Draft stage (2026-10-20). Wrote draft.md (3,861 words by checkDraft, 10 H2 sections, 55-word type answer, checkDraft blockers: none) and this inventory. The draft is above the 2,000-3,500 target; edit-stage jury additions usually add about 800 words, so the editor should cut before adding (candidates: the King Lear retelling, the letter paragraph, the Two/Nine paragraphs). Commits to Type 6 in the answer per house voice; medium confidence and Type 1 are stated in the next paragraph and in a 'Why not Type 1?' section.",
+    "Draft-stage checks done: every load-bearing quote was read in its saved source text (/tmp/paapa-essiedu-research/txt and tx) with the surrounding answer. Third transcription (whisper large-v3-turbo) of S27 stage-fright, Hamlet and Invertigo passages and the S26 understudy story; YouTube auto-captions of the S40 cut for the being-good exchange. Wording follows words shared by at least two transcriptions; see S24, S26, S27 and S40 context notes. The S40 embed (start 1383, end 1481) was located from auto-caption timestamps only.",
+    "Draft-stage checks NOT done (turn limit): no automated full-body quote extractor was run against the union of saved texts after the final cut. The verifier should run one, then hand-check split quotes for adjacency (notably C43b/C43c, C19e-C19g, C27/C27b). Finlay's 'begging' line (C40b) rests on one machine transcript. The Glass 2021 'wow, that was really good' quote and the Mr Porter 'respect your body' follow-on were cut from the draft; if the editor restores the Mr Porter quote, keep its second sentence.",
+    "Omitted per the do-not-use list: marriage or relationship, the slur itself, the teacher's identity, the Forest School remarks, Johnson 'bigotry' lines, 'psychopath', and any diagnosis language beyond his own quoted words ('nervous breakdown' is labelled colloquial in the text).",
+    "Edit stage (2026-10-20). Adjudicated all 49 findings from the six-role jury (25 major, 24 minor; all fixed). Changes: removed the invented adjacency between the threats and letter answers; added his stated reason for taking Snape, his merit answer to the sacking calls and his principle for signing (S04); limited the counterphobic label to Hamlet and the threats answer and recorded the letter and police decision as One-compatible; corrected 'turned down' slave/servant roles to 'offered' with his framing and the 'clip my wings' reason (S07, S08); corrected the Guildhall account to the source ('I didn't know if she was talking to me or Michaela'); restored the openness half of the 2016 survival answer, the Mr Porter corrective, Hattenstone's full list of reasons (class, insecurity, impostor syndrome, self-preservation), the suppressed/repressed anger line, the Lennie James 'flow through the work' continuation, and Coel's humility framing; replaced the fear-driven King Lear gloss with his own boredom/nerd motive; added an explicit Type 3 test and named Type 7; dropped anger as a Six discriminator; dated therapy, the threats status, the 2022 trip and the found-out pattern; rewrote the closing settle test around director testimony and his own account of his self-criticism; replaced the Dish and Going Rogue mp3 enclosure links with the official YouTube uploads (hqph-vko_lY at 35:45; gskkRklT-9Y at 12:25), located via auto-captions downloaded 2026-10-20. Body 3,498 words by checkDraft. Removed claims no longer in the article: C03c, C04b, C04c, C05c, C07b, C07c, C41, C41b, C39b, C39c, C12b, C12c, C13, C13b, C13c, C16c, C16d, C17c, C17d, I03, C18, C18b, C43c, C19e, C19g, I04, C20d, C21b, C22c, C22d, C23b, C23d, C25, C25b, C25c, C28, C31, C33, C34."
+  ],
+  "accuracy_checked_at": "2026-10-20",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.theguardian.com/culture/2022/jun/11/paapa-essiedu-grief-boris-johnson-i-may-destroy-you-michaela-coel",
+      "title": "Paapa Essiedu on grief, doubt and fury at Boris Johnson: 'Bigotry is the backbone of his character'",
+      "speaker": "Paapa Essiedu interviewed by Simon Hattenstone (Guardian Saturday magazine); includes emailed or spoken comments from Michaela Coel and a Guildhall School spokesperson",
+      "date": "2022-06-11",
+      "locator": "Online feature, in order: opening cafe exchange (\"Do you really think so?\", the pre-job \"nervous breakdown\"); family background (Tony, Selina, only child); Coel testimony; Guildhall teacher incidents and school apology; mother's death, the locked loft, therapy; Lazarus Project \"ensemble\"; closing doctor exchange; the follow-up call a week later (\"If it all gets taken away\").",
+      "excerpt": "I just started a job yesterday and on the day before the first day on every job, I have a nervous breakdown, thinking: this is the one where people will find me out, see that what's underneath the car bonnet doesn't work. [...] I need a lot of support from the people who are close to me to drag me into the car to go to work on that first day. It's generally only the first day or the first week. [...] I read, 'What are you doing here?' on everybody's face. [...] You know that thing when you project what your brain wants you to see on somebody who is probably just having a cup of tea? [...] She knew how important her consent was to me. [...] He's trying to discover things almost with fear and trembling. [...] He's funny and very dependable. [...] he's always there in times of crisis. [...] It was an emergency act of self-preservation in order to stop myself thinking or feeling or engaging. [...] So there was never a feeling that this is my thing. It felt like an ensemble. [...] As long as people don't cotton on to my limitations. [...] If it all gets taken away, you don't feel that loss so keenly. [...] Perennially living in the expectation that things are going to fuck up is just mad. Even if it makes it feel quite sweet when they don't.",
+      "context": "The longest and most personal print interview in the record, conducted in a cafe while he was starting a new job (likely The Capture series 2 or similar; unnamed). Also the source for: father Tony was a lawyer who returned to Ghana 'when he was a baby' and died when Essiedu was 14; mother Selina taught fashion and design at adult-education colleges; he was an only child; she had cancer for seven years and died of breast cancer in his first year at Guildhall ('My mum was my best mate'); he went back to drama school the day after; he locked their belongings in the loft for about ten years and only sold the house in 2021; 'five years of quite repressed grief'; therapy took 'maybe only on the third attempt' and he still goes weekly; 'phobia of people watching me eat'; 'more hard-working than clever'; 'I'm definitely diligent'; self-diagnosis 'class, insecurity, impostor syndrome, self-preservation' is the journalist's paraphrase of his list, not a direct quote. The Coel lines ('fear and trembling', 'very dependable', 'always there in times of crisis', 'I have never seen him with any ego', 'peaceful, lovely, strong, sensitive man') are her testimony to the journalist. The Guildhall incident (teacher playing a prison warden used the N-word in an improvisation of Murmuring Judges; a teacher compared his speech to 'a mouthful of chocolate cake') is his account; the school's spokesperson apologised 'unreservedly' in the same piece. Never print the slur. The Boris Johnson passage ('bigotry ... part of the backbone') is his political opinion; Johnson's 2019 position that quotes were taken out of context is noted by the paper.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S02",
+      "url": "https://www.sohohouse.com/house-notes/issue-006/film-and-entertainment/paapa-essiedu",
+      "title": "All hail Paapa Essiedu: The actor breaking barriers on stage and screen",
+      "speaker": "Paapa Essiedu interviewed by Jonathan Dean (Soho House House Notes, issue 006)",
+      "date": "2022-09-12",
+      "locator": "Online profile tied to the Soho House Awards Trailblazer prize; passages on his mother wanting him to be a doctor, grief, the political nature of his choices, The Lazarus Project and impostor syndrome.",
+      "excerpt": "It was more that we grew up f*****g skint and she was a single Black mother with me, a teenage Black boy, in the years when kids were getting stabbed every day. [...] I do take my work seriously. [...] There is something I'm working against that my peers who don't come from the same background as me, and who don't look the same as me, won't be fighting against. So the choices I make are political by virtue of the fact that I'm the one who's making them. [...] Responsibility is always at the forefront of my mind [...] Imposter syndrome is very real and even if you can talk the talk, walking the walk is a completely different thing. I don't often feel like I have arrived — I often find myself thinking: When are they going to realise that they really wanted the other guy?",
+      "context": "Video interview. The same journalist, Jonathan Dean, later wrote the March 2026 Sunday Times interview (S04): separate conversations, same interviewer, so not fully independent framing. Dean adds 'It does not sound like he is joking, either.' Also the source for his mother's name, Selina; father Tony left London for Ghana 'when Essiedu was a baby' (S04 says when he was four: unresolved); mother died 'in his first year at Guildhall'; first paid job at the Orange Tree, Richmond; Lennie James as inspiration. 'Responsibility is always at the forefront of my mind' is quoted as a fragment about his roles, especially I May Destroy You.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S03",
+      "url": "https://www.thetimes.co.uk/article/paapa-essiedu-interview-the-effect-lyttelton-national-theatre-london-92vdn0nxb",
+      "title": "Paapa Essiedu: 'How many people have turned down James Bond?'",
+      "speaker": "Paapa Essiedu interviewed by Dominic Maxwell (The Times)",
+      "date": "2023-08-03",
+      "locator": "Online interview at the National Theatre during The Effect previews: grief and therapy passage; the medicine 'fork'; Hamlet as 'the next big fork'; closing passage on rejection and celebrating luck.",
+      "excerpt": "Through therapy he has found that the mission is not to get beyond grief, but to harness it. [...] The temptation with pain is to try to make it go away. But painful as grief can be, if you try to vanquish it it can deny the existence of the person you are grieving for. So actually long-term grief is a way of keeping those we have lost alive. [...] It was the first time I was confronted by something where I thought, 'I don't know if I can do this. I don't know if I'm ready.' And in terms of where I was at with my own grief. And that fact that I did do it I think taught me something about myself and what was possible for me. [...] it is hard living day to day with rejection as a constant companion. [...] The luck won't always go your way, so when it does you've got to celebrate it.",
+      "context": "Read through r.jina.ai (paywalled at source). Maxwell had interviewed him in 2016 and 2020 too (S05). Maxwell's observations: in 2016 he had 'a kind of Tiggerish energy, a physical restlessness', in 2023 'he is all containment'; he declined to discuss his relationship ('I don't think it is relevant to what we are doing here') or where he lives. He was drawn to medicine 'for the idea of working closely with people' and says 'I was always wanting to play with other kids because I was bored at home. Or maybe I was just born quite a social individual.' Bond-odds banter ('I wonder how many people have ever turned it down?') is promotional teasing, not evidence. The Independent/Yahoo write-up of this interview is syndication, not corroboration.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S04",
+      "url": "https://www.thetimes.com/culture/tv-radio/article/paapa-essiedu-harry-potter-snape-interview-3hqkzzmlk",
+      "title": "Paapa Essiedu on his Harry Potter trolls: They say, 'Quit or I'll murder you'",
+      "speaker": "Paapa Essiedu interviewed by Jonathan Dean (The Sunday Times)",
+      "date": "2026-03-21",
+      "locator": "Online interview in an east London theatre bar while filming Harry Potter and finishing All My Sons: workload; Babies; biography and therapy; faith; Snape commitment; the threats; the trans-rights letter; his mother and reading.",
+      "excerpt": "You can have passion, but time and energy are finite and I've pushed myself to the limit [...] I'm not a pillar of what a 35-year-old man should be — but I'm doing my best. [...] If I didn't, I'd be incredibly anxious and unhappy [...] I started in my mid-twenties and there was a long period before when I was depressed. I had intense brain fog, which was mostly to do with grief. [...] I'll be 45 by the time I finish and I know my life is going to change in a big way, but I have to just surrender to that. [...] My mum couldn't afford a babysitter in the holidays, so she would take me to the library. I loved Harry Potter. I never saw the films but the books were escapism when other things were less easy for me. [...] So while I'm pretty sure I'm not going to be murdered… [...] That could age badly! [...] But the abuse fuels me. And makes me more passionate about making this character my own, because I think of how I felt as a kid. [...] No. I don't think some 17-year-old boy being put in jail for two weeks for threatening to murder me would actually make me feel any better. [...] My points of view are mine and will continue to be so. [...] I'd sign that letter again today. [...] Look, at the end of the day, I got this job on the merit of my talent [...] And so if that was the reason I got kicked off this job, then it wouldn't be a project I'd want to work on anyway.",
+      "context": "Read through r.jina.ai (paywalled at source); byline from the page metadata. 'I've been told, \"Quit or I'll murder you\"' is his line in the standfirst passage. Dean: 'He laughs nervously' after the murder line. Biography here: father Tony 'a lawyer, returned to Ghana when his son was just four and died when he was 14' (conflicts with 'a baby' in S01, S02, S10); 'He is an only child'; mother died of breast cancer when he was 20; 'It took him ten years to sell their home'. Calls himself a Christian ('I never believed you just die and become worm meat'); belief in the afterlife 'maybe a coping mechanism'. On Forest School: 'racism, misogyny, homophobia were rife' (he was on a government-funded scholarship); the school responded that it 'condemns racism, misogyny and homophobia in all forms'. Asked if he sought advice before signing the April 2025 trans-rights letter: 'No.' Says he has not met Rowling. Says the role will last ten years. Syndicated without independent reporting by Variety, AOL, Complex, Blavity and others.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S05",
+      "url": "https://www.thetimes.com/culture/theatre-dance/article/paapa-essiedu-on-growing-up-in-london-interviews-and-his-new-play-pass-over-m08bw3089",
+      "title": "Paapa Essiedu on growing up in London, interviews and his new play Pass Over",
+      "speaker": "Paapa Essiedu interviewed by Dominic Maxwell (The Times)",
+      "date": "2020-02-17",
+      "locator": "Online interview backstage at the Kiln during Pass Over rehearsals: opening on art and politics; police and his neighbourhood; the 2016 Hamlet press; Hamlet and his own grief; closing on ambition.",
+      "excerpt": "My art and my politics are not divorced from each other [...] I grew up in a low-income family. The police were always a presence in my area. Grow up somewhere like that and you don't necessarily grow up thinking the police are there to protect you; they are there to see what you've done. [...] It was really hard at the time. I was 25, you know, and those were the first proper interviews I was doing. [...] His struggles, especially the kind of trauma around his grief and his desire for rescuing and fixing and all that, they really play into a lot of my own insecurities and experiences. And I suppose because of the scrutiny on me also . . . You can't phone it in. [...] My aim isn't to be that famous or really to play any particular role, but to do things that I feel are important, that are of a certain quality, and allow myself to be led by my instincts.",
+      "context": "Maxwell was one of the journalists who had asked him about being the RSC's first Black Hamlet in 2016; Essiedu: 'Well, I appreciate you acknowledging that, what it's like to be on the other side of that.' Also: vegan; 'struggling to sleep' during rehearsals; he 'mucks in to help without delay' when the journalist kicks over a jug of water (observed); thinks directing 'might be the next step'; pleased that 'one job seems to have led to another without him having to force the pace'.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S06",
+      "url": "https://www.theguardian.com/stage/2016/mar/13/paapa-essiedu-hamlet-royal-shakespeare-theatre-stratford-interview",
+      "title": "Paapa Essiedu: You can't live with your heart on your sleeve",
+      "speaker": "Paapa Essiedu interviewed by Kate Kellaway (Observer New Review Q&A)",
+      "date": "2016-03-13",
+      "locator": "Online Q&A published as Hamlet opened at Stratford: the King Lear step-in; \"big break\"; to be or not to be; survival in the profession; his mother.",
+      "excerpt": "If I never work again after this, Hamlet will be the role that ended my career. [...] Our lives are full of crossroads: should we or shouldn't we? Yes or no? [...] Front-footedness. I don't know what I have but I think what you need is genuine openness and vulnerability, a willingness to share yourself. Having said that, for anyone to survive, you cannot live with your heart on your sleeve all the time because people will take advantage. [...] It is lame – but my mother. She was a formidable person, full of presence. When she talked, you would know about it. She had rigour in her commitment to making me the guy I am today. She'd say: \"Whatever you do, give it your all, be the best you can be.\" [...] She had that first-generation immigrant commitment to safety and success.",
+      "context": "Earliest substantial interview in the record, age 25. Also: 'I was born in London in 1990 at Guy's hospital'; half-brother and half-sister in Ghana; first part in Me and My Girl as a postman; 'I originally wanted to be a doctor'; founded the theatre company Invertigo; mother's advice 'You don't slow down when you come close to a finishing line, you go harder to win.' The King Lear step-in described as 'an out-of-body experience' with 'internal banshees'. The 'ended my career' line reads as wry, but it is the same move he repeats in 2020-2026.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S07",
+      "url": "https://www.mrporter.com/en-gb/journal/fashion/interview-paapa-essiedu-25088214",
+      "title": "The Conversation-Starting Craft Of Mr Paapa Essiedu",
+      "speaker": "Paapa Essiedu interviewed by Jason Okundaye (MR PORTER The Journal)",
+      "date": "2024-09-30",
+      "locator": "Online fashion-magazine profile during Death of England: Delroy and The Outrun release: theatre and political work; his late mother and her pyjamas; Hamlet and grief; costume habit; the fear of things being taken away; gym and self-esteem; gratitude.",
+      "excerpt": "getting offered a lot of slave roles, a lot of period dramas as a butler or servant, which I think speaks to how I was perceived in the industry, rather than my interest or my historical knowledge [...] There is no substitute for something like that. Obviously, that's compounded by the fact that she can never do that again. So, there is a beautiful rareness to it. [...] I was just going through it for real onstage night after night and it had a very detrimental effect on my mental and physical health. [...] That's why I don't get into my costume until two minutes before a play starts or we're just about to go to set because I'm not interested in existing [in it] any longer than I need to be. [...] The fear of things being taken away from you at any moment really kicks in and you think you need to do something again before it's too late [...] But you need to respect your body, respect your talent, you can take time off and then the other thing will come. [...] I never thought I'd be able to do that because I always found those spaces intimidating and aggressive",
+      "context": "A fashion-retailer magazine: style material is promotional. Facts here: mother Selina taught fashion and design at adult-education colleges and worked commercially at home; he still wears 20-year-old pyjamas she made; place to study medicine at UCL; Othello in sixth form; joined the RSC after Guildhall; Hamlet at 25 while 'quietly suffering' over his mother's death (the journalist's phrase). He rejects the drama-school idea of inhabiting a character. The 'intimidating and aggressive' line is about gyms and football spaces.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S08",
+      "url": "https://www.bigissue.com/culture/papa-essiedu-its-hard-for-me-not-to-be-political-in-the-work-that-i-do/",
+      "title": "Paapa Essiedu: 'It's hard for me not to be political in the work that I do'",
+      "speaker": "Paapa Essiedu interviewed by Adrian Lobb (The Big Issue); emailed comments from Lucy Prebble and Joe Barton",
+      "date": "2023-08-10",
+      "locator": "Online version of the print cover story, at the National Theatre stage door on the first day of tech for The Effect: rehearsal pain; pigeonholing and saying no; SAG-AFTRA strike solidarity; community; closing political statement.",
+      "excerpt": "an exciting and scary day [...] It's the pain of being confronted by inadequacy [...] Or by the reality that you might be bad. It's that sadomasochistic self-flagellation, you know? [...] So from those times, I've been very aware and I've tried to be savvy about the propensity of the industry to try and clip my wings. But that involves saying no to a lot of things and not always taking the easy route. I've said no to things that have gone on to be very, very, very big successes. [...] So solidarity is a minimum for us to face this down. [...] Working in this industry, even though collaboration is a central tenet of it, you can feel very alone. But I've found community and strength, especially among people that have come from the same place as me. [...] I am not the kind of person who puts his head in the sand and will say yes to anything without thinking about the impact or the influence or the way it could be read or what it can do for people. [...] He's playful, brave and also technically brilliant. That's a rare combination. I never feel unsafe when he's on stage. Unless he wants me to.",
+      "context": "The page is registration-walled partway; the full text was returned through r.jina.ai. Byline from the author link. 'He's playful, brave ...' is Lucy Prebble's emailed testimony (playwright of The Effect). Joe Barton (writer of The Lazarus Project) in the same piece: 'you're naturally drawn to him ... Also, importantly, he's very funny.' Essiedu also: 'I was 25 years old and having to field questions about the significance of my blackness when it was hard enough for me trying to figure out how to play this part and have this production on my shoulders.' The strike passage is during the 2023 SAG-AFTRA strike; he would not discuss US-funded screen work.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S09",
+      "url": "https://www.bustle.com/entertainment/paapa-essiedu-interview-the-effect",
+      "title": "Paapa Essiedu Is A Classically Trained Charmer",
+      "speaker": "Paapa Essiedu interviewed by Samantha Leach (Bustle); comments from Lucy Prebble, Jessie Buckley, Joe Barton and Lennie James",
+      "date": "2024-04-16",
+      "locator": "Online profile over lunch in Manhattan days before The Effect closed at The Shed: therapy; Walthamstow; grief catching up at 25; colleague testimony; choosing projects.",
+      "excerpt": "I hate eating in front of people, so this is an act of love. [...] I was doing these things that I was really proud of in my professional life but I was like, 'Who's this for? Does it f*cking matter?' [...] I remember I was playing Romeo on my 25th birthday and I was just in floods of tears the whole day. I was like, 'I need to act on this, otherwise it's going to continue having a destructive impact on my life.' [...] He can do a combination of breaking your heart and making you laugh [...] funny and naughty [...] with an ocean underneath [...] He's just a very gregarious guy who can dick around, chat about Love Island, but also has an obvious, searing intelligence [...] But Paapa's very clear that despite the echoes in A Number, he's a bit like me, he doesn't see his work as therapy. [...] be brave",
+      "context": "Independent colleague testimony gathered by the journalist: Prebble ('breaking your heart and making you laugh'), Jessie Buckley, co-star in Men ('funny and naughty' 'with an ocean underneath'), Barton ('gregarious'; 'a Swiss Army knife of an actor who takes his craft very seriously, but [without] those layers of pretension'), Lennie James ('We both lost parents at young and impressionable ages'; the 'doesn't see his work as therapy' line). Also: started therapy 'about eight years ago' (c. 2016); Walthamstow 'a f*cked up place to be' in the 90s; Cillian Murphy as a career model. Observed: he sat beside the reporter 'because of concerns about my recording' and used the server's name repeatedly. The magazine states he married Rosa Robson; keep the relationship out of the profile (he declines to discuss it, S03).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S10",
+      "url": "https://theglassmagazine.com/?p=108224",
+      "title": "Glass interviews British actor Paapa Essiedu",
+      "speaker": "Paapa Essiedu interviewed by Lily Rimmer (Glass magazine)",
+      "date": "2021-01-29",
+      "locator": "Online interview (Zoom): medicine versus acting; Guildhall; the Hamlet phone call; comfort zones; I May Destroy You; lockdown and community; closing on self-assessment.",
+      "excerpt": "I was excited about studying medicine because you get to be a doctor who saves lives, it's cool … but I think there was something renegade about acting that felt like it was a choice that I was making, as opposed to a choice that was being made for me. [...] I think it's quite important that the quicker you know that, the quicker you are able to protect yourself against those challenges. [...] I remember when my agent rang to tell me, for like 10 or 20 seconds I was ecstatic. I had huge euphoria; it was a dream come true. But then the absolute fear sets in of actually having to do it and it's like a bucket of cold water over your head. [...] It's good for your mentality to be able to put yourself outside of what appears to be a comfort zone because eventually it teaches you that you can do it [...] I felt really held and I think she probably liked how she could trust me with it as well. [...] I really missed my friends and my family, they are the foundation of my life. [...] As the goalposts change, you move on in your career and the stakes become bigger … I still find it hard to sit down and say, 'wow, that was really good' or 'wow, I'm really happy with that'.",
+      "context": "Glass is a fashion-culture magazine; the interviewer also grew up in Walthamstow. Facts: born 1990 to Ghanaian parents; father returned to Ghana when he was a baby; scholarship to Forest School at 11 (S12 says his mother entered him at seven: the age is unresolved, avoid it); Guildhall cohort had 'only three non-white students'; signed by Curtis Brown in his third year. 'I felt really held' is about working with Michaela Coel on Kwame. On writing a film in lockdown: 'The application and self-discipline required from me ... I find it really difficult.'",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S11",
+      "url": "https://www.theguardian.com/culture/2018/sep/08/bbc-press-star-paapa-essiedu-the-word-diversity-doesnt-mean-anything",
+      "title": "Paapa Essiedu on BBC's Press and identity: 'The word diversity doesn't mean anything'",
+      "speaker": "Paapa Essiedu interviewed by Bridget Minamore (The Guardian)",
+      "date": "2018-09-08",
+      "locator": "Online interview over dinner during Pinter at the Pinter rehearsals: his name and Twi; Ghana visits; medicine; Guildhall; being selective.",
+      "excerpt": "When I lost my mum, I was like I don't want to go because it'll be triggering in terms of memories or something, do you know what I mean? So it took a while. But it came to a point where I was like: 'I need to now make a decision to do this as an independent adult, a Ghanaian man.' [...] What turned me on was the thing of being able to meet people, speak to people, try and work people out, and help people. [...] Their jobs are to get you to immediately trust them, or to immediately feel comfortable. [...] So much of these vocational trainings are about your own confidence, there's something intangible about what's being taught.",
+      "context": "Facts: he applied to 'many' drama schools and was rejected by all but one, Guildhall, at his last audition (journalist's summary); a decade-long gap between Ghana visits; 'Do I want to do more telly? Yeah I do, but it's got to be the right thing.' Journalist notes his east London speech and dry humour.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S12",
+      "url": "https://www.theguardian.com/culture/2020/may/24/paapa-essiedu-michaela-coel-captures-the-reality-of-lives-that-i-recognise",
+      "title": "Paapa Essiedu: 'Michaela Coel captures the reality of lives that I recognise'",
+      "speaker": "Paapa Essiedu interviewed by Claire Armitstead (The Observer)",
+      "date": "2020-05-24",
+      "locator": "Online interview during the first lockdown ahead of I May Destroy You: intimacy coordination; Hamlet and his losses; Forest School scholarship; diversity question.",
+      "excerpt": "I've done scenes before where we've had nothing to support us and it's so stressful [...] That is something I do carry with me, but you've got to remember that at the end of the day it's still acting [...] I wouldn't be so self-indulgent as to see it as a means of me digesting my own guilt [...] I think I just got lucky [...] But my mum really pushed me. I worked really hard from an early age. [...] I think it's complex",
+      "context": "Facts: when he was seven his mother entered him for a scholarship to Forest School after spotting a newspaper advertisement (conflicts with 'at the age of 11' in S10; avoid the age); place to read medicine at UCL; older half-brother and sister in Ghana. 'I think it's complex' is his cautious answer on whether success reflects progress on representation; the journalist describes him as speaking 'cautiously'.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S13",
+      "url": "https://www.theguardian.com/lifeandstyle/2020/dec/19/lennie-james-paapa-essiedu-walking-dead-i-may-destroy-you-tv",
+      "title": "Lennie James meets Paapa Essiedu: 'I was probably in the last wave of actors who needed to go to the US'",
+      "speaker": "Paapa Essiedu in conversation with Lennie James, introduced by Kemi Alemoru (Guardian Weekend)",
+      "date": "2020-12-19",
+      "locator": "Online edited transcript of a video call that Essiedu requested: Fallout as inspiration; working with Coel; loss and grief; black British actors.",
+      "excerpt": "Trust is a big word when you're doing this kind of work, because it's very exposing and vulnerable. [...] You had to make sure that you were always in safe hands and nothing was ever going to be trivialised or done in a half-arsed way. [...] I really, passionately do not believe in acting as therapy. I don't believe in using this to process shit – your grief, anxiety, whatever. But I do feel like unconsciously, something as huge as that can't do anything but shape the direction that you go in afterwards. [...] I know the reasons why I am the way I am, and I know the enormous part that my mum played in making that.",
+      "context": "Edited conversation; James played his father in A Number at the Old Vic in 2022, after this call. Introduction notes that Essiedu 'asked to speak to James after crediting him as an early career inspiration' and 'enthusiastically absorbs James's wisdom' (journalist's observation). Essiedu credits the 2008 BBC film Fallout with showing him people from his world on screen.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S14",
+      "url": "https://www.theguardian.com/culture/2023/nov/18/paapa-essiedu-interview",
+      "title": "Paapa Essiedu: 'Which living person do I most despise? Suella Braverman'",
+      "speaker": "Paapa Essiedu answering Rosanna Greenstreet (Guardian Weekend Q&A)",
+      "date": "2023-11-18",
+      "locator": "Standard Guardian Q&A questionnaire, answers in order.",
+      "excerpt": "I was a happy kid. I had quite a small life [...] I find it difficult to sit still. [...] Narcissism. [...] Tries his best. [...] My mum. [...] Home. [...] I would really love to know my parents as an adult. I lost my dad when I was 14 and my mum when I was 20. [...] After losing my mum still managing to finish drama school, because that was really difficult. I lost her in the first year. [...] To find as many moments to laugh as possible.",
+      "context": "Short written-style answers to fixed questions: 'trait you most deplore in yourself' (difficult to sit still), 'in others' (narcissism), 'describe yourself in three words' (Tries his best), 'bring something extinct back' (My mum), 'what does love feel like' (Home), 'greatest achievement' (finishing drama school), 'most important lesson' (laugh). Also the near miss with a bus when his agent rang about Hamlet, and the school fundraising concert (Usher, Plain White T's) to pay for National Youth Theatre. Questionnaire answers are compressed and partly playful.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S15",
+      "url": "https://www.theguardian.com/culture/article/2024/jul/28/paapa-essiedu-is-this-part-harder-than-hamlet-yeah-its-different-gravy-mate-death-of-england-delroy-soho-theatre",
+      "title": "Paapa Essiedu: 'Is this part harder than Hamlet? Yeah, it's different gravy, mate'",
+      "speaker": "Paapa Essiedu interviewed by Tim Lewis (Observer New Review Q&A)",
+      "date": "2024-07-28",
+      "locator": "Online Q&A before Death of England: Delroy at @sohoplace: concentration; costume habit; Saoirse Ronan; drama school; medicine; stage and screen.",
+      "excerpt": "I haven't found a thing in my life where I've had to have that level of concentration for that period of time. [...] I'm not a big believer in taking your characters home with you. [...] I was rubbish at drama school. I came to it late; I didn't do any acting, really, until I was 17 or 18. So I knew nothing. [...] the thing that always made me want to be a doctor is their capacity to say the right thing to people when they're under huge stress. [...] Every time I get any job, I go: \"Jesus, what? Really? Me?\"",
+      "context": "Q&A format. Ronan's 'He can do it all!' is quoted in the interviewer's question; he replies 'It's kind of the pot calling the kettle black'. The headline-adjacent bio states he lives with his wife, Rosa Robson: leave the relationship out.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S16",
+      "url": "https://untitled-magazine.com/?p=136725",
+      "title": "Exclusive Interview: Paapa Essiedu captivates us on screen this year in \"I May Destroy You\" and \"Gangs of London\"",
+      "speaker": "Paapa Essiedu interviewed by The Untitled Magazine (staff Q&A)",
+      "date": "2020-10-21",
+      "locator": "Online Q&A: how he started; the first Black Hamlet; stage to screen; auditioning for Kwame; collaboration with Coel.",
+      "excerpt": "Because when you're the son of a West African woman, that's pretty much the only option that you're given; you can be a doctor or you can be an accountant. [...] I spent the first five years of my career just doing plays and theater and stage work, because I felt like I needed that time to really learn what it meant to do deep work, layered work, work that develops as you go on. [...] there's like a 10-second period where you're ecstatic and elated. But then you feel proper fear that covers you like a bucket of ice. Suddenly all you see is all the people that went before you. You see Michael Sheen, Benedict Cumberbatch, David Tennant, Kenneth Branagh, and all you see is that that's not you. [...] So I rang [Michaela] and was like \"why have you not even told me about this thing?\" And she was like \"I don't know! I never thought about you for it.\" [...] I don't think being friends with Michaela necessarily means that you're more likely to be included. If anything it's going to be the opposite.",
+      "context": "US magazine Q&A, uncredited interviewer. Corroborates S17 and S18 that casting director Julie Harkin suggested him for Kwame. 'I never went to the theater for the first time until I was 18' (S06/S14 agree he came late to theatre).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S17",
+      "url": "https://www.avclub.com/i-may-destroy-yous-paapa-essiedu-on-how-the-system-has-1844424551",
+      "title": "I May Destroy You's Paapa Essiedu on how the system has failed Black gay men",
+      "speaker": "Paapa Essiedu interviewed by The A.V. Club (video and transcript)",
+      "date": "2020-07-21",
+      "locator": "Online transcript below the video: Coel and the audition; connecting with Kwame; playing suppression; backstory work; closure.",
+      "excerpt": "I connect to Kwame because he's a really imperfect Black man in the same way that I am. He's got delusions of grandeur. [...] It's really important to me that I do all of that work imaginatively and collaboratively with Michaela in a way that hopefully allows it to inform the character by giving it depth and body and making sure that I'm not making stuff up on the spot that has no consistency. [...] I think often it's—at least from my own experience—something that you carry with you and, like other sensitive things, starts to mean different things to you.",
+      "context": "Promotional interview during the broadcast run. Corroborates that Coel 'did make me audition' and that Julie Harkin suggested him. The 'imperfect Black man' line is self-deprecating and promotional; use for flavour, not as a typing clue.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S18",
+      "url": "https://www.theringer.com/tv/2020/7/14/21324004/i-may-destroy-you-friends-michaela-coel-paapa-essiedu-weruche-opia",
+      "title": "The Friendships at the Heart of 'I May Destroy You'",
+      "speaker": "Feature by The Ringer with Paapa Essiedu and Weruche Opia",
+      "date": "2020-07-14",
+      "locator": "Online feature: the Guildhall showcase; Kwame casting; Kwame suppressing his response.",
+      "excerpt": "I really respect her. I think she respects me, but maybe that's wishful thinking [...] There's a symbiosis to the way that we work, to the way that we think creatively. [...] I just felt like that was a quite unexpected response for a character like him—to have him hold it down more, and keep things to himself",
+      "context": "Corroborates that the Kwame idea came from casting director Julie Harkin and that Coel and Essiedu performed an original duologue at their Guildhall showcase. The 'hold it down' remark is about the character, not himself.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S19",
+      "url": "https://www.denofgeek.com/?p=593710",
+      "title": "The Teleprompter Interview: Paapa Essiedu 'I Wanted to be Turk from Scrubs!'",
+      "speaker": "Paapa Essiedu interviewed by Louisa Mellor (Den of Geek)",
+      "date": "2020-06-11",
+      "locator": "Online light TV-memories questionnaire (opened via the site short link ?p=593710).",
+      "excerpt": "If this is as good as it gets, a lot of people would still be pretty happy. [...] I was a proper little wimp as a kid, I remember by accident – this isn't a TV show so it probably doesn't count – I accidentally watched Texas Chainsaw Massacre. It was on VHS and my terror was so all-encompassing that I also became scared of the physical tape and then I got scared of the box that the tape was in, and then I got scared of the box that that the box was in. I was really young, seven or eight. There was some PTSD that I've worked over with a therapist. [...] I hate fancy dress so I don't really do it",
+      "context": "Jokey format. 'PTSD' is his casual phrasing, not a diagnosis; do not present it as one.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S20",
+      "url": "https://www.anothermag.com/another-man/13293/i-may-destroy-you-paapa-essiedu-femme-harris-dickinson",
+      "title": "I May Destroy You's Paapa Essiedu Discusses His New Queer Crime Thriller",
+      "speaker": "Paapa Essiedu interviewed by Sagal Mohammed (Another Man); comments from directors Sam H Freeman and Ng Choon Ping",
+      "date": "2021-04-29",
+      "locator": "Online interview about the short film FEMME: his mother's sports-day advice; choosing projects; the directors' comment; pacing.",
+      "excerpt": "She said, make sure you're going fastest at the end of the race, not at the beginning. [...] I think really carefully before deciding to do the projects that I do [...] Paapa lets you into his soul [...] He has this amazing mix of vulnerability and edge that's so essential to what we want the viewer to feel [...] As an actor, it can sometimes be hard to know your worth and your value if you're not working [...] For me, it's not necessarily about the idea that everything has to happen right now and if it doesn't happen right this moment then you're a total failure.",
+      "context": "'Paapa lets you into his soul' and 'vulnerability and edge' are the directors' testimony. The sports-day advice matches the 2016 finishing-line advice in S06 (same family story told twice).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S21",
+      "url": "https://www.afridiziak.com/interviews/paapa-essiedu/",
+      "title": "Paapa Essiedu (Afridiziak Theatre News interview)",
+      "speaker": "Paapa Essiedu interviewed by Afridiziak Theatre News",
+      "date": "2016-02-16",
+      "locator": "Online interview in the RSC Clapham rehearsal room before Hamlet: casting news; the production; gap year; significance of casting.",
+      "excerpt": "Let's hug, I'm feeling affectionate from the rehearsals. [...] Hamlet is an incredibly intelligent witty, mentally capable man. But he's also emotionally fragile, brittle, and volatile, which is something that I fully associate with flaming youth [...] I think all of it was crucial to my development as a person. I think everyone should take a gap year. [...] I didn't know I was gonna be an actor, but I chose to do A level drama and after my gap year decided to apply to drama school. Much to my mother's chagrin.",
+      "context": "Pre-opening press. Facts: place at UCL to study medicine; gap year travelling Europe and south-east Asia and working as a charity street fundraiser; almost hit by a bus on hearing he got Hamlet (also S14). Interviewer: 'ambitious, intelligent and highly energetic', 'a tendency to laugh mid-sentence'.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S22",
+      "url": "https://www.rsc.org.uk/blogs/pathways-to-shakespeare/paapa-essiedu",
+      "title": "Pathways to Shakespeare: Paapa Essiedu",
+      "speaker": "Viv Graver (RSC blog), summarising an interview with Paapa Essiedu",
+      "date": "2016",
+      "locator": "RSC blog post, undated on page; written during the 2016 Hamlet run (he is 25).",
+      "excerpt": "His involvement in drama came as a result of fancying a girl who was in the school production of Me and My Girl, [...] Knowing that he could not afford to do a degree and then drama training he applied to the Guildhall School of Music and Drama. [...] For Paapa, the role is about assuming family responsibility.",
+      "context": "Paraphrase, not direct quotation: an RSC-hosted blog by a retired teacher. Useful for the money constraint on his choice and his reading of Hamlet as 'assuming family responsibility'. Not independent of the RSC's promotion.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S23",
+      "url": "https://www.inverse.com/entertainment/paapa-essiedu-interview-black-mirror-lazarus-project",
+      "title": "'Black Mirror' Season 6's Breakout Star Almost Played a Very Different Character",
+      "speaker": "Paapa Essiedu interviewed by Inverse",
+      "date": "2023-06-22",
+      "locator": "Online interview from Milan for Black Mirror: Demon 79 and The Lazarus Project; closing advice to his younger self.",
+      "excerpt": "He's so principled, and he's such a… I don't want to say… hopeless romantic [...] He really will go to the ends of the Earth to protect the people that he loves. [...] You can be so focused, so caught up in the stresses, the microcosms of the job that you do. Be it success, be it money, be it fame, whatever it is. You get so worried by that and consumed by the anxiety that comes with that. You forget it's just a job. [...] I need to remind my today self that as well.",
+      "context": "The 'principled ... protect the people that he loves' line describes his Lazarus Project character George, not himself. The closing advice is about himself.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S24",
+      "url": "https://sphinx.acast.com/p/open/s/678163642d4090d8afa2a087/e/67aa076cd89b772ae95a6642/media.mp3",
+      "title": "Mad, Sad and Bad with Paloma Faith: 'Paapa Essiedu: Why Grief Shouldn't Be Feared'",
+      "speaker": "Paapa Essiedu in conversation with Paloma Faith (podcast host and his friend); brief contribution from her friend introduced as Baby",
+      "date": "2025-03-04",
+      "locator": "Podcast episode, 35:17 (RSS enclosure from feeds.acast.com/public/shows/678163642d4090d8afa2a087; YouTube cut adqzaOktoQU). Local whisper.cpp medium.en transcript; timestamps from it: anger and fights c.0:08:10-0:10:40; sadness and crying c.0:13:00-0:17:00; \"concerned with being a good person\" c.0:23:20-0:25:10; anger converted to action c.0:27:00-0:30:10; half marathon c.0:31:15-0:33:30. The 0:08 and 0:23 and 0:31 passages were second-transcribed with small.en and agree.",
+      "excerpt": "I don't often find myself having explosive kind of outbursts of anger. [...] I think for me, all the fights that I've been in as an adult have been trying to break up fights. [...] it probably is Christian guilt [...] I cried a bit on that day, cried a bit at the funeral, and then didn't cry again for maybe like five or six years. [...] Do you think that you are concerned with being a good person? [...] I think you're very preoccupied about being good and doing the right thing all the time. [...] Yeah, totally. [...] And I'm thinking about like the times, like people pleasing, right? And that being an attribute that on the surface feels like it's something, it's really like an attempt to exert control, right? It's trying to control like what other people think of you, trying to control like how you are perceived in the world, trying to create safeness for yourself, safety for yourself [...] So I do feel angry, but I do consciously try and like convert that anger into action [...] I'm mad when I'm actually in competition myself. But I continued running for another three kilometres, even though my body was basically shut down.",
+      "context": "Unlabelled two-person audio; speaker turns inferred from content and checked against the second transcription. The question 'Do you think that you are concerned with being a good person?' and 'very preoccupied about being good and doing the right thing all the time' are Paloma Faith's (friend testimony, playful framing); 'Yeah, totally' and the people-pleasing answer are his. ATTRIBUTION TRAP: the passage at c.0:11:15-0:12:00 ('I give my self permission to be confrontational, angry, usually in defense of someone else ... the lioness in me') is almost certainly Paloma Faith, not Essiedu; do not attribute it to him. Faith's episode description calls him 'probably the most emotionally intelligent man I know' (friend's praise). Half-marathon story: tried to run it 'way too fast', 'cooked' at about 16km, kept running about 3km more, woke in the medical tent unable to find words; told as comedy ('because I'm a psychopath' is a joke, not a self-diagnosis). Also: 'now I kind of like cry all the time'; grief 'more of a companion now'; sadness 'creates the edges, the corners, the imperfections ... that allow us to be real, authentic, unique individuals'; 'I feel very glad for my health'. Punctuation is machine-made. Draft stage (2026-10-20): quotations in the draft drop spoken false starts and repeated words (e.g. \"an an attempt\", \"it's it's it's\", \"in the in the world\"); none changes meaning. The being-good exchange (c.0:23:36-0:25:08) is checked against three transcriptions: whisper medium.en, small.en and YouTube auto-captions of the S40 cut.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S25",
+      "url": "https://sphinx.acast.com/p/open/s/643d3ebb4c61dd001119e92f/e/65faca784876ab001699896c/media.mp3",
+      "title": "The Going Rogue Club: Going Rogue with Paapa Essiedu",
+      "speaker": "Paapa Essiedu in conversation with Philip Barantini (director, podcast host)",
+      "date": "2024-03-21",
+      "locator": "Podcast episode, 1:26:55 (RSS enclosure from feeds.acast.com/public/shows/643d3ebb4c61dd001119e92f; YouTube gskkRklT-9Y). Local whisper.cpp medium.en transcript: impostor syndrome and his mother c.0:12:30-0:15:15 (second-transcribed with small.en); playing catch-up at Guildhall c.0:27:30; Orange Tree first job c.0:49:15-0:51:20; signing with an agent late c.0:54:10-0:55:40; Hamlet c.1:00:45-1:02:55; returning to The Effect c.1:19:15-1:20:00.",
+      "excerpt": "from early like I had that kind of imposter syndrome yeah yeah thing and I think that so much of our journeys as artists is about like how we kind of either make a friend of that imposter or you know like reject it in some way [...] she was like look whatever you do you have to just make sure you do it fully [...] work ethic is was was her thing [...] I'd get to the final round and then wouldn't get in right and she'd come to me and she'd be like I'm so sorry [...] my sister only told me this year that like she would then ring my sister and be like yes he didn't get in [...] this feeling of like playing catch up constantly [...] I took it so seriously [...] I was like warming up for like an hour and a half before every single show [...] I kind of felt like it was a bit of a someone like taking a punt right on me type thing [...] I'm so scared and I'm like so much of it is like can I even do this there are so many lines and like there's so much expectation [...] that was the first time in my career or really in my life where I was like rah like someone actually thinks I could be the guy",
+      "context": "Unlabelled two-person audio. Speaker turns checked by content: the Dream Team bully-director story (c.0:39:00-0:41:00), 'there's no hierarchy' and the production-company passages are Barantini's, not Essiedu's. 'My mum was amazing but like sly with it' (small.en) vs 'slow with it' (medium.en): 'sly' fits the story; paraphrase rather than quote. The sister who revealed their mother's private hope is his half-sister (he has a half-brother and half-sister in Ghana, S06). Also: 'I've got very short attention span so when I'm doing one I really want to do the other ... grass is always greener type person' (c.0:55:40); a character 'will disappear from me on the last day'; on the film industry, 'until I'm actually at the premiere' (c.1:18:30); 'you should only do things if they scare you' (c.1:19:58, likely his; turn boundary uncertain). Punctuation and filler are machine-made; re-listen before quoting. Draft stage: used only as paraphrase (two years of auditions, Guildhall the last school, the half-sister's 2024 revelation); no quotation from this source appears in the draft. Edit stage (2026-10-20): reader-facing links now use the official YouTube upload https://www.youtube.com/watch?v=gskkRklT-9Y (The Going Rogue Club channel, confirmed by oEmbed); 'auditioned two years in a row' is at about 12:30 in its auto-captions, which also agree on the half-sister passage and the 'grass is always greener' remark.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S26",
+      "url": "https://pdst.fm/e/chtbl.com/track/43774/traffic.megaphone.fm/CGPL9251216488.mp3",
+      "title": "Dish from Waitrose: 'Paapa Essiedu can't resist our spicy prawn tacos with rhubarb and scotch bonnet salsa'",
+      "speaker": "Paapa Essiedu with hosts Nick Grimshaw and Angela Hartnett",
+      "date": "2026-05-13",
+      "locator": "Podcast episode, about 47 minutes (RSS enclosure from feeds.megaphone.fm/dish; YouTube hqph-vko_lY). Local whisper.cpp medium.en transcript: Olivier win c.0:08:12; his mother and scotch bonnets c.0:11:43; cooking course c.0:19:38; Falling and Jack Thorne c.0:30:30-0:32:50; King Lear understudy story c.0:39:51-0:43:01.",
+      "excerpt": "So she was like, you either eat that or you eat rice and butter. [...] I'd said yes before I even read it. [...] So I've been like turning up to the guy who I'm understudied. I've been turned up to his rehearsals. Yeah. Like some kind of stalker, you know? And like he'd just be doing his thing and I'd be in the corner writing like nice feverishly. I'm a nerd. [...] And because I'm a nerd, I'd been stalking the guy in the rehearsal. So I was like, I know the lines, so I'm not going to go on with the book.",
+      "context": "Recorded after the 12 April 2026 Olivier win ('Sunday was just like a great kind of full stop'). The hosts open by noting he dislikes eating in front of people ('to face his fears'); he says 'Hey, I'm scared now' as a joke. The understudy story corroborates the journalist's 'devotedly over-prepared' (S30) and Mark Lawson's eyewitness account (S29). 'nice feverishly' is a mis-transcription (probably 'notes feverishly'); do not print it. Mentions a possible project where he must 'pass as a chef' (unconfirmed). Went to church 'up until I was about like 16 or 17'. Draft stage (2026-10-20): the understudy story (c.0:40:30-0:42:30) was re-transcribed with whisper large-v3-turbo. Agreed: \"like some kind of stalker\", \"I'm a nerd\", previews and understudy rehearsals not yet done, \"two, three lines\" (turbo \"two free lines\"). Disagreed: medium \"I know the lines\" vs turbo \"I know all the lines\"; the draft quotes only the shared words \"I'm not going to go on with the book\" and paraphrases the rest. Turbo hears \"notes feverishly\" where medium had \"nice feverishly\"; not quoted. Edit stage (2026-10-20): reader-facing links now use the official YouTube upload https://www.youtube.com/watch?v=hqph-vko_lY (Dish Podcast channel, confirmed by oEmbed); the understudy story begins about 35:45 in its auto-captions.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S27",
+      "url": "https://www.youtube.com/watch?v=jAcEe_qOVAE",
+      "title": "Chatterbox with Paapa Essiedu (Playbox Theatre)",
+      "speaker": "Paapa Essiedu in conversation with Calum Finlay (Playbox Theatre livestream), with audience questions",
+      "date": "2020-04-25",
+      "locator": "YouTube livestream, 1:02:35. Audio downloaded and transcribed locally with whisper.cpp medium.en; YouTube auto-captions used as a cross-check. Hamlet audition c.0:10:50; stage fright question c.0:39:15-0:40:30; audition advice c.0:33:00-0:35:00; founding Invertigo c.0:48:40-0:49:50.",
+      "excerpt": "For the majority of those four months, I was very, very stressed and anxious and nervous and certain that it wasn't happening for me. [...] Then the most intense fear, panic, overwhelming dread kind of washes over you like a bucket of ice cold water because you're like, \"Wow, I actually have to do this thing.\" [...] I remember you begging me not to come and see Passover before press night, which I ignored. [...] I'm a real overthinker when it comes to that kind of stuff [...] I always feel in that first preview, why would anyone do this to me by turning up? [...] it's really important to focus on what is in your power and what is in your control [...] I get really nervous about people who come to watch it and what they're going to think, and I'm always certain I'm going to be terrible. It's going to be the end of my career. I'm always like, why did I take this job? It was going so well. I've tricked so many people. [...] I was really terrified about the feeling of having been in drama school and having a certain amount of stability within that structure for two and a half years and going out into an industry where it felt like all the agency, all the power existed outside of me. [...] people that weren't me and who I couldn't control, you know? So I wanted to take control of my destiny",
+      "context": "Recorded during the first lockdown, when Pass Over at the Kiln had closed early. The host, Calum Finlay, is a long-standing friend ('I've known you ages'); 'I remember you begging me not to come and see Passover before press night, which I ignored' is Finlay speaking, a friend's testimony that he asked friends to stay away from early performances. The stage-fright answer responds to an audience question ('Have you ever struggled with self-confidence or stage fright?') and is partly comic ('I've tricked so many people'), but it matches S01 and S02. He co-founded Invertigo 'with like three other people', 'three other boys' from his year, in his final year at drama school. 'RNC' in the transcript is the RSC. Machine transcript: re-listen before quoting; auto-captions agree on substance. Draft stage (2026-10-20): the stage-fright answer (c.0:39:10-0:40:35), Hamlet call (c.0:10:40-0:11:55) and Invertigo answer (c.0:48:35-0:49:55) were re-transcribed locally with whisper large-v3-turbo. Three-way result: he says \"gonna\" (captions and turbo; medium normalised to \"going to\"), \"I've tricked so many people\" (medium and turbo; captions \"a trick\"), \"two and a half years\" (medium and turbo; captions \"two years\"; the draft quote stops before this phrase). Finlay's \"begging me not to come and see Passover\" line is paraphrased, not quoted; it rests on the medium.en transcript and was not re-transcribed.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S28",
+      "url": "https://www.youtube.com/watch?v=M0TPpp2GvQE",
+      "title": "Mountview LIVE - Paapa Essiedu",
+      "speaker": "Paapa Essiedu interviewed by Jasper Ryan-Cater (Mountview third-year acting student), with student questions",
+      "date": "2020-12-07",
+      "locator": "YouTube video, 42:00. YouTube auto-captions only (audio download was refused with HTTP 403): unsafe environments and strength in numbers c.0:17:50-0:21:15; saying no c.0:24:45-0:26:00; holding steady c.0:37:50-0:40:20.",
+      "excerpt": "there's definitely strength and security in numbers [...] it goes back to that kind of like mentality of like who am i to do that and how can i deserve to have this opportunity that someone else might not and not take it [...] it requires bravery and it requires confidence in your own ability and confidence in your instincts to be able to say no to things [...] there's a lot of reasons to you know be scared and be anxious and be stressed number one i think it's important that we do not ignore that and we like accept that and we hold steady with it",
+      "context": "Auto-caption text, lowercase and unpunctuated as YouTube produced it; wording is approximate. Quote only after re-listening at the timestamp; otherwise paraphrase. Context: advice to drama students on racism and unsafe rehearsal rooms ('strength in numbers', 'support each other'), freelancing, and the pandemic's threat to theatres. Draft stage: used only as paraphrase (no quotation marks), per the caption-only limit.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S29",
+      "url": "https://www.theguardian.com/stage/2014/jan/27/king-lear-national-theatre-understudy",
+      "title": "King Lear at the National Theatre: the understudy arises",
+      "speaker": "Mark Lawson (Guardian theatre column), eyewitness",
+      "date": "2014-01-27",
+      "locator": "Online column on the penultimate King Lear preview after Sam Troughton lost his voice; Essiedu, the understudy, played Edmund.",
+      "excerpt": "But, unworthily, I looked at Essiedu's knees during his opening scene to check if there was any sign of them knocking. There was, though, neither a tremble in limb or voice. [...] During the curtain call, Russell Beale pulled Essiedu out of the line to take a bow of his own.",
+      "context": "Independent contemporaneous observation of his behaviour under acute pressure, set against his own later account of 'internal banshees' (S06). The National had understudies line-ready before opening.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S30",
+      "url": "https://www.theguardian.com/stage/2021/mar/29/teacher-kenneth-rea-the-outstanding-actor",
+      "title": "How to become an outstanding actor: tips from Kenneth Rea, teacher to the stars",
+      "speaker": "David Jays (The Guardian), with comments from Paapa Essiedu and Kenneth Rea",
+      "date": "2021-03-29",
+      "locator": "Online feature on the Guildhall teacher Kenneth Rea; Essiedu passages in the middle.",
+      "excerpt": "Essiedu tells me that as a student he didn't have a huge amount of confidence or experience. [...] Ken drills down to the person. It's about the way you frame your life – one of his big things is to hold on tightly and let go lightly. [...] having devotedly over-prepared while understudying in King Lear at the National Theatre [...] Particularly if someone believes their own hype or loves themselves a little bit, it can provoke an allergic reaction to watch them.",
+      "context": "'Devotedly over-prepared' is the journalist's characterisation of the 2014 understudy work, not Essiedu's words.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S31",
+      "url": "https://www.theguardian.com/tv-and-radio/2025/may/06/i-dont-have-the-power-jk-rowling-wont-sack-paapa-essiedu-from-harry-potter-tv-show-over-trans-rights",
+      "title": "'I don't have the power': JK Rowling won't sack Paapa Essiedu from Harry Potter TV show over trans rights views",
+      "speaker": "Matthew Pearce (The Guardian); quotes JK Rowling's post on X",
+      "date": "2025-05-06",
+      "locator": "Online news report.",
+      "excerpt": "Essiedu has been cast as key character Severus Snape in the HBO drama, which is designed to run for more than a decade [...] Last week, Essiedu, along with more than 1,500 figures from film and TV, signed an open letter condemning the UK supreme court ruling [...] I don't have the power to sack an actor from the series and I wouldn't exercise it if I did.",
+      "context": "Establishes the date and content of the trans-rights letter (late April 2025) and Rowling's public reply. Some fans called for his sacking (reported in S04).",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S32",
+      "url": "https://en.wikipedia.org/wiki/Paapa_Essiedu",
+      "title": "Paapa Essiedu (Wikipedia)",
+      "speaker": "Wikipedia contributors",
+      "date": "2026-10-20",
+      "locator": "Lead, Early life and education, Career sections (plain-text extract via the MediaWiki API, retrieved 2026-10-20).",
+      "excerpt": "Paapa Kwaakye Essiedu (; born 11 June 1990) is a British actor. [...] was born on 11 June 1990 at Guy's Hospital in Southwark, London, to Ghanaian parents [...] For this, Essiedu won the Laurence Olivier Award for Best Actor in a Supporting Role in 2026.",
+      "context": "Tertiary; used only for the exact birth date (consistent with the 1990 birth year and Guy's Hospital in S06 and his stated ages: 25 in March 2016, 33 in August 2023, 35 in March 2026) and as a credits checklist. The infobox lists a 2023 marriage and a 2026 divorce with no reliable reporting found for the divorce; do not use either.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S33",
+      "url": "https://www.nyt.org.uk/news/new-news-article-375",
+      "title": "Alumni win big at Olivier Awards as Paapa Essiedu calls for greater access",
+      "speaker": "National Youth Theatre news release, quoting Essiedu's acceptance speech",
+      "date": "2026-04-13",
+      "locator": "Online news item the day after the 12 April 2026 Olivier Awards.",
+      "excerpt": "Paapa Essiedu won Best Actor in a Supporting Role for All My Sons at Wyndham's Theatre. [...] I urge everyone in this room, everyone watching at home, and everyone at governmental level, to continue funding these organisations to make sure that the next generation of theatre makers had the opportunities that I had.",
+      "context": "An interested organisation (NYT is named in the speech) quoting the speech; the full speech video was not opened. Date of the release is inferred from 'last night's Olivier Awards' and the 12 April 2026 ceremony.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S34",
+      "url": "https://www.techradar.com/streaming/hbo-max/hbo-max-dropped-the-harry-potter-tv-show-trailer-after-its-uk-launch-and-the-shows-magical-release-date-will-delight-potterheads",
+      "title": "HBO Max has finally dropped the Harry Potter TV show trailer — and the show's magical release date will…",
+      "speaker": "TechRadar staff",
+      "date": "2026-03-26",
+      "locator": "Online news report on the first trailer.",
+      "excerpt": "Alongside the trailer, we also have a confirmed release date of December 25, 2026",
+      "context": "Premiere date for HBO's Harry Potter season 1. Variety (via S04 syndication) had said 2027 days earlier; later September 2026 reports also give 25 December 2026. Recheck before publication and after the premiere.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S35",
+      "url": "https://www.aol.com/articles/harry-potter-star-paapa-essiedu-230951801.html",
+      "title": "Harry Potter star Paapa Essiedu hopes his TV drama Babies will break pregnancy loss silence",
+      "speaker": "BBC News report syndicated on AOL, quoting Paapa Essiedu",
+      "date": "2026-03-30",
+      "locator": "Online article.",
+      "excerpt": "There's a sensitivity around any kind of grief and an assumption that those questions shouldn't be asked [...] That can lead to there being stigma and shame around the topic, and that's when people feel isolated and alone.",
+      "context": "Promotional press for BBC's Babies (2026), in which he plays Stephen. Says he is not a parent.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S36",
+      "url": "https://www.theguardian.com/tv-and-radio/2026/may/08/keeley-hawes-paapa-essiedu-interview-falling-nuns-priests-jack-thorne-romantic-drama-channel-4",
+      "title": "'This priest was so fit': Keeley Hawes and Paapa Essiedu on nuns, hot clerics and their tale of forbidden passion",
+      "speaker": "Zoe Williams (The Guardian) interviewing Keeley Hawes and Paapa Essiedu",
+      "date": "2026-05-08",
+      "locator": "Online joint interview for Channel 4's Falling.",
+      "excerpt": "stopped going late teenage years, when you start to take your own personality in life",
+      "context": "He went to an Anglican church as a child (journalist's summary). Consistent with 'going to church until I was probably about 17' (S24) and 'I stopped going to church as a teen' (S04).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S37",
+      "url": "https://www.dazeddigital.com/film-tv/article/64727/1/saoirse-ronan-paapa-essiedu-the-outrun-interview-addiction-2024",
+      "title": "Saoirse Ronan and Paapa Essiedu on addiction, acting and The Outrun",
+      "speaker": "Dazed joint interview with Saoirse Ronan and Paapa Essiedu",
+      "date": "2024-09-26",
+      "locator": "Online Q&A in a Soho hotel: auditions over Zoom; Ronan on why they cast him; preparation.",
+      "excerpt": "Myself and [fellow producer] Jack Lowden wanted Paapa because we're huge fans of his. [...] And yet he doesn't take himself too seriously. It gives you a feeling of being quite relaxed when you're on set with someone. [...] But we talked about every single scene before we even turned up for the first day of rehearsals.",
+      "context": "Ronan's testimony as co-star and producer (promotional setting). The 'talked about every single scene' line is Essiedu's.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S38",
+      "url": "https://www.theguardian.com/world/2022/jun/10/top-drama-school-apologises-paapa-essiedu-michaela-coel-appalling-racism-guildhall",
+      "title": "Top drama school apologises to Paapa Essiedu and Michaela Coel for \"appalling\" racism",
+      "speaker": "The Guardian news report",
+      "date": "2022-06-10",
+      "locator": "Online news report preceding the S01 interview.",
+      "excerpt": "apologises unreservedly for the racism experienced by Paapa Essiedu, Michaela Coel and other alumni",
+      "context": "Institutional response to the account he gave in S01; the teacher is not named anywhere and must not be.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S39",
+      "url": "https://www.theatrevoice.com/audio/paapa-essiedu-ghanaian-influenced-hamlet-rsc",
+      "title": "Paapa Essiedu on his Ghanaian-influenced Hamlet at the RSC",
+      "speaker": "Paapa Essiedu interviewed by Heather Neill (TheatreVoice)",
+      "date": "2016-05-24",
+      "locator": "Audio page (recorded 24 May 2016 at the RSC Stratford offices); quotation is the pull-quote printed on the page. The audio itself was not transcribed.",
+      "excerpt": "I went to Ghana and asked loads of questions about the culture, death, ghosts, conjuring and music. I have connections there and Hamlet is a personal character.",
+      "context": "Shows preparation-by-research for Hamlet. Only the page pull-quote was read.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S40",
+      "url": "https://www.youtube.com/watch?v=adqzaOktoQU",
+      "title": "Paapa Essiedu: Experiencing Racial Profiling In Roles (Mad, Sad and Bad with Paloma Faith, YouTube cut)",
+      "speaker": "Paapa Essiedu in conversation with Paloma Faith",
+      "date": "2025-03-04",
+      "locator": "YouTube video, 34:25 (uploaded 2025-03-04). Being-good exchange 23:03-24:40 per YouTube auto-captions downloaded with yt-dlp on 2026-10-20; the draft embeds start=1383 end=1481. Captions only; the video audio was not separately transcribed for this cut.",
+      "excerpt": "do you think that you are concerned with being a good person [...] very preoccupied about being good and doing the right thing all the time yeah totally [...] it's really like an an attempt to exert control right it's it's it's trying to control like what other people think of you trying to control like how you are perceived in the in the world trying to create safeness for yourself safety for yourself [...] um probably not",
+      "context": "Same episode as S24 (the podcast RSS audio); this is the published YouTube cut, about 50 seconds shorter at the start, so timestamps differ from S24. Auto-caption wording agrees with both whisper transcriptions of S24 on every quoted word once stutters are removed. Speaker turns: the question and the \"very preoccupied\" line are Paloma Faith's; \"Yeah, totally\" and the people-pleasing answer are Essiedu's. Not independent of S24 (same recording).",
+      "kind": "primary",
+      "access": "opened"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "He was born on 11 June 1990 at Guy's Hospital in London (FAQ and birth_date frontmatter); the body says only 'Born in London in 1990'.",
+      "passage": "He was born on June 11, 1990, at Guy's Hospital in London",
+      "class": "third_party",
+      "source_ids": [
+        "S32",
+        "S06"
+      ],
+      "inference": "Exact date from Wikipedia (S32) only; year and hospital from his own 2016 account (S06); Walthamstow from S07, S10 and S09. His stated ages (25 in March 2016, 29 in February 2020, 33 in August 2023, 35 in March 2026) all fit June 1990.",
+      "alternative": "None on the facts. If a primary source for the day cannot be found, the year alone is safe; never turn the year into 1 January.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C01b",
+      "claim": "Born in London in 1990; RSC's first Black Hamlet in 2016.",
+      "passage": "Essiedu became the Royal Shakespeare Company's first Black Hamlet in 2016",
+      "class": "third_party",
+      "source_ids": [
+        "S04",
+        "S10",
+        "S06"
+      ],
+      "inference": "Orientation fact reported by The Sunday Times (2026) and Glass (2021); the 1990 London birth is his own 2016 account (S06).",
+      "alternative": "None on the facts.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C01d",
+      "claim": "His response to the 'first Black Hamlet' framing.",
+      "passage": "There was almost more focus on that than the actual production and I found that so difficult.",
+      "class": "self_report",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "Adds how he received the label (S05 also: 'bored and disillusioned').",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C01c",
+      "claim": "He broke through on screen as Kwame in I May Destroy You (2020).",
+      "passage": "broke through on screen as Kwame in Michaela Coel's _I May Destroy You_ in 2020",
+      "class": "third_party",
+      "source_ids": [
+        "S01",
+        "S04",
+        "S12"
+      ],
+      "inference": "Orientation; widely reported.",
+      "alternative": "\"Broke through\" is the draft's summary; The Sunday Times calls it his TV breakthrough.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C02",
+      "claim": "His father, Tony, a lawyer, returned to Ghana when Essiedu was very young (sources conflict: 'a baby' vs 'four') and died when Essiedu was 14.",
+      "passage": "His father, Tony, a lawyer, went back to Ghana when Essiedu was very young and died when he was 14.",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S04",
+        "S06",
+        "S10"
+      ],
+      "inference": "Repeated in his interviews across 2016-2026. Tony was 'popular, extrovert, a raconteur' and 'had not been an active father', but Essiedu 'felt his loss profoundly' (S01, journalist's paraphrase plus his quote about never making the relationship what he wanted).",
+      "alternative": "The age at which his father left conflicts between sources; write 'when he was very young' or attribute each version. Do not build a causal 'absent father' story; he does not draw one.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C02b",
+      "claim": "FAQ restatement of the father facts.",
+      "passage": "His father, Tony, a lawyer, returned to Ghana when Essiedu was very young",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S04",
+        "S10"
+      ],
+      "inference": "Same facts as C02, in FAQ metadata.",
+      "alternative": "Age at departure conflicts between sources; \"very young\" avoids choosing.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C03",
+      "claim": "His mother, Selina, taught fashion and design at adult-education colleges, raised him alone on little money, pushed him academically, and died of breast cancer in his first year at Guildhall, when he was 20, after seven years with cancer that was never discussed with him as terminal.",
+      "passage": "She had cancer for seven years and died in his first year at the Guildhall School of Music and Drama, when he was 20.",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S04",
+        "S07",
+        "S12"
+      ],
+      "inference": "Consistent across S01 (cancer for seven years, four months in hospital, 'at no point did we have a conversation ... about her dying'; 'she definitely protected me from that'), S04 (breast cancer at 20), S02 and S07 (her job).",
+      "alternative": "None on the facts. Her death year is about 2010 (first year at Guildhall, which he entered in 2009 per S25; S24 says 'the sadness that I felt in 2010'); avoid an exact date.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C03d",
+      "claim": "Parents FAQ: his mother's death.",
+      "passage": "She died of breast cancer in his first year at the Guildhall School of Music and Drama, when he was 20.",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S04"
+      ],
+      "inference": "S01 and S04 both give breast cancer at 20.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C03b",
+      "claim": "Selina taught fashion and design and raised him alone in Walthamstow.",
+      "passage": "His mother, Selina, who taught fashion and design at adult-education colleges, raised him alone in Walthamstow, east London.",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S06",
+        "S07"
+      ],
+      "inference": "Biographical; consistent across 2016, 2022 and 2024.",
+      "alternative": "None on the facts.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C04",
+      "claim": "He had a place to study medicine at UCL and dropped out to pursue acting.",
+      "passage": "He had a place to study medicine at University College London and dropped out",
+      "class": "self_report",
+      "source_ids": [
+        "S07",
+        "S10",
+        "S12",
+        "S21",
+        "S03"
+      ],
+      "inference": "Told consistently 2016-2024; the two-year audition detail and Guildhall being the last recall are from S25 (audio). S11 has the journalist's summary that he was rejected by all but one school.",
+      "alternative": "The age he won the scholarship is inconsistent (11 in S10; entered at seven in S12): omit it. He has said medicine was the expected route for 'the son of a West African woman' (S16) and that acting felt 'renegade', a choice he made rather than one made for him (S10).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C04d",
+      "claim": "Hattenstone: he dropped out of medicine at the last minute, to everyone's surprise including his own.",
+      "passage": "at the last minute, and much to everybody's surprise, including his own.",
+      "class": "third_party",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Presents the switch to acting as a real risk taken against expectation, not a safety move.",
+      "alternative": "Journalist's framing.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C05",
+      "claim": "His mother wanted him to have a secure profession but backed his drama-school attempt on condition he took it as seriously as medicine; he says her consent mattered greatly to him, and a half-sister later told him their mother privately counted each rejection as a step back toward medical school.",
+      "passage": "She knew how important her consent was to me",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S06",
+        "S25"
+      ],
+      "inference": "S01: 'She knew how important her consent was to me' and her instruction to treat acting with a doctor's professionalism 'was just what I needed to hear'. S06: her 'first-generation immigrant commitment to safety and success'. S25 (audio): the rejection consolation and the half-sister's later revelation. Suggests that a trusted authority's blessing and a safety frame were central to how he made the riskiest decision of his youth.",
+      "alternative": "Many children of immigrants seek a parent's approval for a risky career; this is context, not a type proof. The 'sly' detail in S25 is audio; paraphrase it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C05b",
+      "claim": "His mother's condition for drama school, quoted by him.",
+      "passage": "You've got to treat it in the same way you would if you were a doctor, the same level of professionalism.",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "His mother's words as he recalls them; he says it \"was just what I needed to hear\".",
+      "alternative": "Reported speech of a deceased parent, recalled years later.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C05e",
+      "claim": "He welcomed his mother's professionalism condition.",
+      "passage": "It was just what I needed to hear,",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "S01, verified this stage.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "I12",
+      "claim": "His mother's professionalism condition is One-compatible.",
+      "passage": "That condition is a standard, and a One would hear it the same way.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Concedes that the condition is a standard, not a safety net.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C05d",
+      "claim": "On The Going Rogue Club (March 2024) he said his half-sister had only just told him that his mother rang her after each drama-school rejection, still hoping he would choose medicine.",
+      "passage": "he said his half-sister had only just told him that his mother used to ring her after each drama-school rejection, still hoping he would end up at medical school.",
+      "class": "self_report",
+      "source_ids": [
+        "S25"
+      ],
+      "inference": "Paraphrase of S25 c.0:12:30-0:14:20 ('my sister only told me this year'; second-transcribed, YouTube captions agree). Shows the switch to acting ran against his mother's hopes even after she consented.",
+      "alternative": "Second-hand family memory relayed in a comic register; the exact frequency of calls is not established.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C06",
+      "claim": "Before almost every new job he goes through intense anticipatory dread that he will be exposed as not good enough, to the point of needing people close to him to get him to work on the first day; once the work starts it usually passes.",
+      "passage": "I need a lot of support from the people who are close to me to drag me into the car to go to work on that first day",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S27",
+        "S08"
+      ],
+      "inference": "S01 is the clearest statement ('on the day before the first day on every job, I have a nervous breakdown, thinking: this is the one where people will find me out'; 'I need a lot of support from the people who are close to me to drag me into the car'; 'generally only the first day or the first week'). S27 (2020) and S08 (2023 tech day 'exciting and scary') show the same pattern before 2022 and after. Points to a fear that is anticipatory and relieved by support and doing the work.",
+      "alternative": "Pre-show and first-day nerves are common among actors; 'nervous breakdown' is colloquial, not clinical, and must not be presented as a diagnosis. His journalist in S01 first assumed he was fishing for compliments; he insisted 'Genuine!'.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C06e",
+      "claim": "His \"nervous breakdown\" is colloquial for pre-job dread.",
+      "passage": "\"Nervous breakdown\" is his everyday phrase for the dread, not a diagnosis.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "S01: 'how bad are we talking? Like, really bad ... It's generally only the first day or the first week.' Do-not-use list: not a diagnosis.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C06b",
+      "claim": "The café exchange: 'Do you really think so?'",
+      "passage": "Do you really think so?",
+      "class": "observed",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Hattenstone's account of the exchange.",
+      "alternative": "Interviewer first assumed he was fishing for compliments.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C06c",
+      "claim": "The pre-job dread in his words.",
+      "passage": "this is the one where people will find me out, see that what's underneath the car bonnet doesn't work",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Establishes what he said, to whom and when; it is a self-report, not proof of motive.",
+      "alternative": "\"Nervous breakdown\" is colloquial; the draft says so explicitly.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C06d",
+      "claim": "He insisted he meant it: 'Genuine!'",
+      "passage": "Genuine!",
+      "class": "observed",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Journalist tested the claim and reports he said it \"fiercely\".",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C07",
+      "claim": "He has described the same anticipatory doubt in 2020 (Chatterbox), 2022 (Guardian café) and 2024 (Observer).",
+      "passage": "He described the same doubt, in nearly the same shape, in 2020, 2022 and 2024.",
+      "class": "self_report",
+      "source_ids": [
+        "S27",
+        "S01",
+        "S15"
+      ],
+      "inference": "Three dated instances in different settings (a friend-hosted livestream, a print interview, a second print interview) show a repeated pattern, not a single remark.",
+      "alternative": "Actors routinely describe nerves in interviews; British press norms reward self-deprecation. The 2016 Hamlet line in S06 is a quip about hindsight and is no longer counted.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C40",
+      "claim": "2020 stage-fright answer.",
+      "passage": "I've tricked so many people.",
+      "class": "self_report",
+      "source_ids": [
+        "S27"
+      ],
+      "inference": "Quoted from the three-way transcript check; \"gonna\" follows captions and turbo.",
+      "alternative": "Partly comic; he immediately says the worry is \"not a useful way\" to spend energy, which the draft reports.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C40c",
+      "claim": "In the same 2020 answer he said a little humility pushes you to improve.",
+      "passage": "pushes you into a position where you want to get better",
+      "class": "self_report",
+      "source_ids": [
+        "S27"
+      ],
+      "inference": "The self-improvement half of the stage-fright answer (medium.en transcript and YouTube captions agree c.0:40:55); acknowledged as One-compatible.",
+      "alternative": "Generic actor advice to students.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C40b",
+      "claim": "Finlay recalled Essiedu begging him not to see Pass Over before press night.",
+      "passage": "On the livestream, Finlay recalled being begged not to come and see _Pass Over_, Essiedu's 2020 play at London's Kiln Theatre, before press night.",
+      "class": "third_party",
+      "source_ids": [
+        "S27",
+        "S01"
+      ],
+      "inference": "Finlay's on-air recollection (S27, his line, not Essiedu's) is the one off-stage behavioural glimpse; Essiedu replies 'as Callum has so kindly outed me publicly for'. S01 dates Pass Over to 2020 at the Kiln.",
+      "alternative": "Rests on one machine transcript for the exact wording, so it is paraphrased; asking a friend to skip early previews is common among actors.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C41c",
+      "claim": "2024: 'Every time I get any job, I go: \"Jesus, what? Really? Me?\"'",
+      "passage": "Every time I get any job, I go: 'Jesus, what? Really? Me?'",
+      "class": "self_report",
+      "source_ids": [
+        "S15"
+      ],
+      "inference": "Establishes what he said, to whom and when; it is a self-report, not proof of motive.",
+      "alternative": "Original uses double quotes inside; the draft nests single quotes.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C08",
+      "claim": "Being cast as Hamlet at 25 was, in his telling, the first time he truly doubted he could do something: seconds of elation followed by fear 'like a bucket of cold water', the figures of famous past Hamlets, and then doing it anyway, which taught him what was possible for him.",
+      "passage": "I don't know if I can do this. I don't know if I'm ready",
+      "class": "self_report",
+      "source_ids": [
+        "S10",
+        "S16",
+        "S03",
+        "S25",
+        "S27"
+      ],
+      "inference": "Told in 2020 (S16, S27: four months of auditions 'very very stressed and anxious and nervous'), 2021 (S10), 2023 (S03) and 2024 (S25: 'I'm so scared ... can I even do this'). Shows the move from dread to action that recurs later (Delroy, Snape).",
+      "alternative": "Any 25-year-old in the RSC's first Black Hamlet would face real pressure, including press focus on race (S08, S05); the fear is circumstantially justified, so it shows his response more than his type.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "I14",
+      "claim": "Hamlet is the clearest instance of fear named and then faced.",
+      "passage": "That is fear named first and then faced, the counterphobic move.",
+      "class": "interpretation",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "Counterphobic label used only where the source names the fear first ('I don't know if I can do this').",
+      "alternative": "Any ambitious actor would take a career-making role despite doubts.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C09",
+      "claim": "He openly treats pessimism as insurance: expecting things to go wrong so that losing them hurts less, while calling that habit 'mad' and trying to change it.",
+      "passage": "If it all gets taken away, you don't feel that loss so keenly.",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S07"
+      ],
+      "inference": "S01 follow-up call: 'If it all gets taken away, you don't feel that loss so keenly' and 'Perennially living in the expectation that things are going to fuck up is just mad. Even if it makes it feel quite sweet when they don't.' S07 (2024): 'The fear of things being taken away from you at any moment really kicks in'. S04 (2026): 'pretty sure I'm not going to be murdered… That could age badly!' This anticipatory bracing for loss is the closest thing in the record to a stated motive.",
+      "alternative": "Losing both parents by 20 and working in a precarious trade would teach anyone to brace for loss; a grief explanation competes with a temperament explanation and cannot be separated from it in public evidence.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C09e",
+      "claim": "Hattenstone's summary of the four reasons he gave for dismissing his own success.",
+      "passage": "Hattenstone lists the reasons he gave: class, insecurity, impostor syndrome, self-preservation.",
+      "class": "third_party",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Restores the full list so self-preservation is one reason among several and class stands as a rival, circumstantial explanation.",
+      "alternative": "Journalist's paraphrase, not his words.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C09b",
+      "claim": "The mezcal story: he called his work 'just a few little things' and asked 'what is wrong with me!'",
+      "passage": "And I thought: what is wrong with me!",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Establishes what he said, to whom and when; it is a self-report, not proof of motive.",
+      "alternative": "Told against himself in a follow-up call.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C09c",
+      "claim": "He called the habit 'just mad'.",
+      "passage": "Perennially living in the expectation that things are going to fuck up is just mad.",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "He identifies the bracing and judges it.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C09d",
+      "claim": "2024 Mr Porter: fear of things being taken away.",
+      "passage": "The fear of things being taken away from you at any moment really kicks in",
+      "class": "self_report",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "Context is his difficulty taking time off; his next sentence (\"you need to respect your body...\") is omitted in the cut draft.",
+      "alternative": "Fashion-retailer magazine.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C09f",
+      "claim": "His own corrective to the fear of loss, in the same Mr Porter answer.",
+      "passage": "But you need to respect your body, respect your talent, you can take time off and then the other thing will come.",
+      "class": "self_report",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "Kept beside C09d so the quote is not cut to its thesis-friendly half.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C09g",
+      "claim": "He undersold his career to a stranger shortly before the June 2022 catch-up.",
+      "passage": "On a trip shortly before that interview, he had told a stranger he'd been in \"just a few little things,\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Dated to 2022 ('When he was away recently'); also used as counterevidence to a Three reading.",
+      "alternative": "Ordinary modesty with strangers.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C10",
+      "claim": "He describes reading imagined verdicts on other people's faces: on a first day he sees 'What are you doing here?' in everyone's expression and knows he is projecting.",
+      "passage": "I read, 'What are you doing here?' on everybody's face.",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "One source, but a vivid first-person account of scanning others for threat and supplying the verdict himself. In Enneagram terms this resembles the projection associated with Type 6.",
+      "alternative": "Single-source. Social anxiety in a new group is widespread and not type-specific.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C10b",
+      "claim": "He knows he is projecting: 'somebody who is probably just having a cup of tea'; then 'Maybe they are thinking it.'",
+      "passage": "somebody who is probably just having a cup of tea",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Establishes what he said, to whom and when; it is a self-report, not proof of motive.",
+      "alternative": "Single source.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C10d",
+      "claim": "After saying he projects, he allowed that people may really be thinking it.",
+      "passage": "Maybe they are thinking it.",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "S01: 'He comes to a stop. \"Maybe they are thinking it.\"' Verified against the saved text this stage.",
+      "alternative": "Said in a press interview.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C10c",
+      "claim": "In the café he said he reads 'huge mistake in inviting you' in people's body language.",
+      "passage": "Oh my God I've made a huge mistake in inviting you to be in this",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "The feared verdict is exclusion by people who chose him, which the Three test uses (uninvited, not outshone).",
+      "alternative": "Comic exaggeration in a press interview.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C42",
+      "claim": "2023: he says he is thinking less about what people think of him.",
+      "passage": "right now I'm thinking less about what people might think about me",
+      "class": "self_report",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "Counter-note to the doubt pattern; shows change.",
+      "alternative": "One interview; later statements (2024, 2025) show the doubt persisting.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C42b",
+      "claim": "Dominic Maxwell, who met him in 2016 and 2023, saw restlessness give way to containment.",
+      "passage": "By 2023, Maxwell wrote, \"he is all containment.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "One observer at two dated meetings; placed beside the 'thinking less' remark and therapy to answer whether the dread is easing.",
+      "alternative": "Different interview settings; containment may be media experience.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C42c",
+      "claim": "Closing quote on living with rejection.",
+      "passage": "The luck won't always go your way, so when it does you've got to celebrate it.",
+      "class": "self_report",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "From S03 (2023).",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C42d",
+      "claim": "He described rejection as a constant companion of acting.",
+      "passage": "about living with rejection \"as a constant companion.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "S03, verified this stage.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "I11",
+      "claim": "What easing does and does not change in the type read.",
+      "passage": "The alarm may be quieter, with support kept in place, which still fits a Six. The dread gone without that support would not.",
+      "class": "interpretation",
+      "source_ids": [
+        "S03",
+        "S01",
+        "S04"
+      ],
+      "inference": "Joins C42, C42b, C22e and C22f.",
+      "alternative": "Easing could also reflect age and success, which no type explains.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C11",
+      "claim": "Asked by a close friend whether he is preoccupied with being good and doing the right thing, he agreed and immediately explained his people-pleasing as an attempt to control how he is seen and 'to create safeness for yourself, safety for yourself', which he now weighs against being authentic.",
+      "passage": "trying to create safeness for yourself, safety for yourself",
+      "class": "self_report",
+      "source_ids": [
+        "S24",
+        "S40"
+      ],
+      "inference": "This is the most direct evidence on what his conscientiousness is for. He frames being good as a safety strategy rather than as meeting an inner standard of rightness (Type 1) or earning love (Type 2). The friend's question itself (Paloma Faith) is third-party testimony that he is visibly concerned with doing right.",
+      "alternative": "One podcast answer, given playfully and in therapy vocabulary he uses elsewhere; self-analysis can be a learned framing. It is still his explanation, unprompted, of his own behaviour.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C11b",
+      "claim": "Intro: one dated exchange in which his answer about people-pleasing ended on safety.",
+      "passage": "And when his friend Paloma Faith asked him in 2025 whether he was preoccupied with being good, his answer ended on safety.",
+      "class": "self_report",
+      "source_ids": [
+        "S24",
+        "S40"
+      ],
+      "inference": "Singular and dated so the intro does not present one exchange as a settled pattern; the answer's last gloss is 'safety for yourself'.",
+      "alternative": "Two of his three glosses are about image (how you are perceived), which the Three test addresses.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C39",
+      "claim": "Paloma Faith's question and his agreement.",
+      "passage": "I think you're very preoccupied about being good and doing the right thing all the time.",
+      "class": "third_party",
+      "source_ids": [
+        "S24",
+        "S40"
+      ],
+      "inference": "Friend testimony that he visibly cares about doing right; he answered \"Yeah, totally.\"",
+      "alternative": "Playful framing by a friend and host.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C39e",
+      "claim": "His reply to Faith's read that he is preoccupied with being good.",
+      "passage": "\"Yeah, totally,\" he said.",
+      "class": "self_report",
+      "source_ids": [
+        "S24",
+        "S40"
+      ],
+      "inference": "S24 c.0:23:20, second transcription agrees (tx2/msb_please), verified this stage.",
+      "alternative": "Playful exchange with a friend.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C39d",
+      "claim": "Type 1 FAQ: the discriminator, kept in his second person and labelled as one exchange.",
+      "passage": "Speaking in general terms, he called people-pleasing an attempt to control how you are perceived and to create \"safety for yourself.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S24",
+        "S40"
+      ],
+      "inference": "Matches the body limit ('one podcast exchange ... in the second person'); 'you' is not turned into 'he'.",
+      "alternative": "One exchange; therapy vocabulary.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C12",
+      "claim": "As a drama student he was frightened of leaving the structure of training for an industry where the power lay with agents and casting directors, and co-founded a theatre company, Invertigo, to have something he could control.",
+      "passage": "I was really terrified about the feeling of having been in drama school and having a certain amount of stability within that structure",
+      "class": "self_report",
+      "source_ids": [
+        "S27",
+        "S06"
+      ],
+      "inference": "S27 (2020, audio) gives the motive; S06 (2016) confirms he set up Invertigo and says it helped him understand the industry. A security response to loss of structure: build your own structure.",
+      "alternative": "Many graduates start companies for creative agency or to get seen; his stated motive is the fear, but the action is common.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C12d",
+      "claim": "He co-founded Invertigo with classmates in his final year at Guildhall.",
+      "passage": "At Guildhall he co-founded a theatre company, Invertigo.",
+      "class": "self_report",
+      "source_ids": [
+        "S27",
+        "S06"
+      ],
+      "inference": "S27 c.0:48:40 (founded with three others from his year); S06 ('I set up a theatre company, Invertigo').",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C14",
+      "claim": "Asked in 2016 what an actor needs to survive, he said openness and vulnerability first, then added the caveat that people will take advantage of someone who always wears their heart on their sleeve.",
+      "passage": "for anyone to survive, you cannot live with your heart on your sleeve all the time because people will take advantage",
+      "class": "self_report",
+      "source_ids": [
+        "S06"
+      ],
+      "inference": "Quoted with the openness half (C14b) so the caveat reads as a caveat, not the headline; the article treats the wariness as weak type evidence because experience of racism would produce it in anyone.",
+      "alternative": "Openness and vulnerability lead the answer; the caveat is ordinary professional prudence.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C14b",
+      "claim": "The openness half of the 2016 survival answer.",
+      "passage": "genuine openness and vulnerability, a willingness to share yourself",
+      "class": "self_report",
+      "source_ids": [
+        "S06"
+      ],
+      "inference": "Restored before the caveat (C14).",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C15",
+      "claim": "Michaela Coel, a friend since Guildhall, describes him as approaching characters 'almost with fear and trembling', egoless, 'very dependable' and 'always there in times of crisis'.",
+      "passage": "almost with fear and trembling",
+      "class": "third_party",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Independent named testimony from someone who has known him for over a decade and worked with him. Fear plus reliability plus loyalty is a recognisable cluster.",
+      "alternative": "A friend's tribute in a profile is warm by design. 'Fear and trembling' is a phrase about how he approaches characters, not his life generally.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C15c",
+      "claim": "Coel's framing of how he approaches characters, which gives 'fear and trembling' its sense of reverent care.",
+      "passage": "with great sensitivity and thoughtfulness",
+      "class": "third_party",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Keeps 'fear and trembling' attached to humility about craft; it is not counted as fear evidence.",
+      "alternative": "Friend testimony in a press profile.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C15d",
+      "claim": "Coel calls him funny and very dependable.",
+      "passage": "funny and very dependable",
+      "class": "third_party",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Same answer also has 'I used to beg him: Answer your phone!'",
+      "alternative": "Friend testimony.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C15b",
+      "claim": "Coel: 'he's always there in times of crisis'.",
+      "passage": "he's always there in times of crisis",
+      "class": "third_party",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Independent named testimony from a friend of more than a decade.",
+      "alternative": "A friend's tribute is warm by design.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C15e",
+      "claim": "Coel calls him peaceful.",
+      "passage": "a peaceful, lovely, strong, sensitive man",
+      "class": "third_party",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Nine-compatible testimony, weighed in the Nine paragraph.",
+      "alternative": "Friend testimony.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "I05",
+      "claim": "Interpretation: leaning on others and being leaned on is one Six system.",
+      "passage": "In Six terms, that is one system: loyalty needed and loyalty given. Dependability alone would fit a One, Two or Nine.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Joins C06 (he needs people close to him on day one) and C15b (Coel: 'always there in times of crisis'). The second sentence states the limit: dependability is not Six-specific.",
+      "alternative": "Dependability fits One, Two and Nine equally; Coel's 'I used to beg him: Answer your phone!' (S01) complicates it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C16",
+      "claim": "Jessie Buckley, his co-star in Men (2022), describes him as funny and naughty with depth underneath.",
+      "passage": "Jessie Buckley, his co-star in the 2022 film _Men_, called him \"funny and naughty,\"",
+      "class": "third_party",
+      "source_ids": [
+        "S09",
+        "S01"
+      ],
+      "inference": "Colleague testimony that the lightness is what people meet first; S01 confirms Buckley as a Men co-star.",
+      "alternative": "Delivered in a promotional profile.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C16b",
+      "claim": "Buckley: 'funny and naughty' 'with an ocean underneath'.",
+      "passage": "with an ocean underneath",
+      "class": "third_party",
+      "source_ids": [
+        "S09"
+      ],
+      "inference": "Colleague testimony.",
+      "alternative": "Promotional setting.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C17",
+      "claim": "On a stage emergency he was steady: stepping in mid-performance for an actor who lost his voice in Sam Mendes's King Lear at the National in January 2014, he showed 'neither a tremble in limb or voice' to an eyewitness critic, and he had prepared by sitting in on the lead's rehearsals and taking notes.",
+      "passage": "There was, though, neither a tremble in limb or voice.",
+      "class": "observed",
+      "source_ids": [
+        "S29",
+        "S26",
+        "S30",
+        "S06"
+      ],
+      "inference": "Mark Lawson's contemporaneous column (S29) is independent observation; S26 (2026) is Essiedu's own account of shadowing rehearsals ('Like some kind of stalker ... I'm a nerd'), matching S30's 'devotedly over-prepared'. S06 adds his inner state ('internal banshees'). Calm in real danger after preparation, with the dread located beforehand, fits a security-seeking pattern that prepares for the worst.",
+      "alternative": "Composure under pressure is also an actor's trained skill and fits Types 3, 8 and 9 as well; this is supporting texture, not a discriminator.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C17b",
+      "claim": "Shadowing Troughton's rehearsals 'Like some kind of stalker'.",
+      "passage": "Like some kind of stalker",
+      "class": "self_report",
+      "source_ids": [
+        "S26"
+      ],
+      "inference": "Two transcriptions agree.",
+      "alternative": "Told as a comic anecdote on a food podcast.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C17h",
+      "claim": "His stated reason for shadowing Troughton was boredom with his small part.",
+      "passage": "Bored with his own two or three lines",
+      "class": "self_report",
+      "source_ids": [
+        "S26"
+      ],
+      "inference": "S26 c.0:40:30 ('bored as **** in it. I've only got like two, three lines'); two transcriptions agree. No source ties the preparation to dread.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C17l",
+      "claim": "His own word for why he shadowed Troughton's rehearsals.",
+      "passage": "I'm a nerd.",
+      "class": "self_report",
+      "source_ids": [
+        "S26"
+      ],
+      "inference": "S26 c.0:40:30, medium and turbo transcriptions agree (per S26 context); re-read in the medium transcript this stage.",
+      "alternative": "Comic register.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C17e",
+      "claim": "Guardian 2021: 'devotedly over-prepared'.",
+      "passage": "devotedly over-prepared",
+      "class": "third_party",
+      "source_ids": [
+        "S30"
+      ],
+      "inference": "Journalist David Jays's characterisation.",
+      "alternative": "Not Essiedu's words; likely based on his own telling.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C17k",
+      "claim": "The Guardian credited the step-in to grit and enthusiasm.",
+      "passage": "grit and enthusiasm",
+      "class": "third_party",
+      "source_ids": [
+        "S30"
+      ],
+      "inference": "A second motive source for the over-preparation, neither tied to fear.",
+      "alternative": "S30 calls it a 'press night emergency'; it was a preview (S29).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "I08",
+      "claim": "The King Lear night does not discriminate Six from One.",
+      "passage": "The preparation covered the lines and the rest was a leap, which a keen young actor or a One holding himself to a standard could also have made.",
+      "class": "interpretation",
+      "source_ids": [
+        "S26",
+        "S29",
+        "S30",
+        "S06"
+      ],
+      "inference": "Replaces the earlier fear-driven reading; the preparation was boredom and enthusiasm by every account.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C17f",
+      "claim": "Inside it felt like 'internal banshees'.",
+      "passage": "internal banshees",
+      "class": "self_report",
+      "source_ids": [
+        "S06"
+      ],
+      "inference": "Establishes what he said, to whom and when; it is a self-report, not proof of motive.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C17m",
+      "claim": "His 2016 description of the step-in.",
+      "passage": "an out-of-body experience",
+      "class": "self_report",
+      "source_ids": [
+        "S06"
+      ],
+      "inference": "S06, verified this stage.",
+      "alternative": "Retrospective.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C17i",
+      "claim": "His 2016 account of the step-in includes struggling to recall the lines.",
+      "passage": "desperately trying to recall Edmund's lines",
+      "class": "self_report",
+      "source_ids": [
+        "S06"
+      ],
+      "inference": "Shows preparation did not make the night easy.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C17j",
+      "claim": "He compared himself on the night to Edmund, in too deep to do anything but go on.",
+      "passage": "in too deep to say anything other than fuck it. That is where I was, too.",
+      "class": "self_report",
+      "source_ids": [
+        "S06"
+      ],
+      "inference": "His own account of the leap that preparation did not cover.",
+      "alternative": "Retrospective, partly literary framing.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C17g",
+      "claim": "He was fresh out of drama school and understudying Edmund in Mendes's King Lear in January 2014.",
+      "passage": "fresh out of drama school, Essiedu was understudying Edmund in Sam Mendes's _King Lear_ at the National Theatre",
+      "class": "third_party",
+      "source_ids": [
+        "S29",
+        "S26",
+        "S10"
+      ],
+      "inference": "Lawson (Jan 2014) and his own 2026 account.",
+      "alternative": "Lawson notes the National usually has understudies line-ready before opening; Essiedu says understudy rehearsals had not yet happened. The draft gives his account, attributed.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C43",
+      "claim": "After his casting was announced, critics argued his skin colour should preclude him from playing a man written as white.",
+      "passage": "critics argued that his skin color should rule him out of playing a man written as white",
+      "class": "third_party",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "The Sunday Times's summary.",
+      "alternative": "Draft does not name critics.",
+      "durability": "time_sensitive",
+      "review_trigger": "Re-check at the Harry Potter premiere (scheduled 2026-12-25) for new reporting on the backlash."
+    },
+    {
+      "id": "C43b",
+      "claim": "'I've been told, \"Quit or I'll murder you\"'.",
+      "passage": "I've been told, 'Quit or I'll murder you,'",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Establishes what he said, to whom and when; it is a self-report, not proof of motive.",
+      "alternative": "Original nests double inside single quotes; draft reverses nesting.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C43d",
+      "claim": "'I'd be lying if I said it doesn't affect me emotionally'.",
+      "passage": "I'd be lying if I said it doesn't affect me emotionally",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Establishes what he said, to whom and when; it is a self-report, not proof of motive.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C43e",
+      "claim": "Snape FAQ: threats and non-reporting, dated.",
+      "passage": "That month he told The Sunday Times he had received death threats over the casting and had not reported them.",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Dated to March 2026.",
+      "alternative": "May change.",
+      "durability": "time_sensitive",
+      "review_trigger": "If he later reports threats, update the Snape FAQ and C19i."
+    },
+    {
+      "id": "C19",
+      "claim": "After his casting as Snape was announced in April 2025, he received racist abuse and death threats; he chose not to report them, said they fuelled him, and said he would sign the April 2025 trans-rights open letter again and had not sought advice before doing so.",
+      "passage": "But the abuse fuels me.",
+      "class": "self_report",
+      "source_ids": [
+        "S04",
+        "S31"
+      ],
+      "inference": "S04 (Sunday Times, March 2026) for the threats, his decision not to report, and the letter; S31 (Guardian, May 2025) for the letter's date and content and JK Rowling's statement that she would not sack him. Shows him holding a public position under pressure and declining institutional protection.",
+      "alternative": "Counterevidence to a cautious, authority-seeking Six: he acted without permission and against the franchise creator's known views. A counterphobic Six, a principled One or an Eight could all do this. Do not characterise the letter beyond its stated content; sensitive political topic.",
+      "durability": "time_sensitive",
+      "review_trigger": "Re-check at the Harry Potter premiere (scheduled 2026-12-25) and in his first long post-premiere interview for any change in the threats or his public stance."
+    },
+    {
+      "id": "C19h",
+      "claim": "The 'kid' line is about representation, his stated motivation.",
+      "passage": "a kid like me can see themselves represented in that world",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Presented as purpose, not as a protector he reached for.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C19b",
+      "claim": "He has not reported the threats.",
+      "passage": "I don't think some 17-year-old boy being put in jail for two weeks for threatening to murder me would actually make me feel any better.",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Establishes what he said, to whom and when; it is a self-report, not proof of motive.",
+      "alternative": "None.",
+      "durability": "time_sensitive",
+      "review_trigger": "Re-check at the premiere (2026-12-25) for any change."
+    },
+    {
+      "id": "C19i",
+      "claim": "He had not reported the death threats as of the March 2026 interview.",
+      "passage": "As of March 2026, he had not reported the threats.",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Dated status.",
+      "alternative": "May change.",
+      "durability": "time_sensitive",
+      "review_trigger": "If he later reports threats or police act, update this sentence and the Snape FAQ."
+    },
+    {
+      "id": "C19c",
+      "claim": "The April 2025 open letter, by its stated content.",
+      "passage": "signed an open letter condemning the UK Supreme Court's ruling",
+      "class": "third_party",
+      "source_ids": [
+        "S31"
+      ],
+      "inference": "Guardian report, May 2025: more than 1,500 signatories; ruling that \"woman\" and \"sex\" in the Equality Act refer only to biological woman and biological sex.",
+      "alternative": "Draft characterises the letter only by its stated content.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C19j",
+      "claim": "The Sunday Times reported that many saw his signature as a rebuke to Rowling; some of her fans called for him to be sacked.",
+      "passage": "The Sunday Times noted, and some of her fans called for him to be sacked.",
+      "class": "third_party",
+      "source_ids": [
+        "S04",
+        "S31"
+      ],
+      "inference": "Explains why the letter drew sacking calls, attributed, without editorialising beyond Rowling's statement.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C19k",
+      "claim": "He said he sought no advice before signing.",
+      "passage": "He signed without seeking advice, he told The Sunday Times",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Answer to 'if he sought advice before signing': 'No'.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C19d",
+      "claim": "Rowling responded to calls to sack him that she lacked the power to do so and would not use it if she had it.",
+      "passage": "and I wouldn't exercise it if I did.",
+      "class": "third_party",
+      "source_ids": [
+        "S31",
+        "S04"
+      ],
+      "inference": "Rowling's published statement, quoted only in its stated content per the do-not-use list.",
+      "alternative": "None; her full post (S31) adds that she does not believe in taking away jobs over legally protected beliefs.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C19f",
+      "claim": "His stated reason.",
+      "passage": "should be able to work without being intimidated",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Establishes what he said, to whom and when; it is a self-report, not proof of motive.",
+      "alternative": "Fragment of \"artists in the trans community have a right to be treated with dignity and should be able to work without being intimidated\".",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C19l",
+      "claim": "His answer to the calls to sack him: he got the job on merit.",
+      "passage": "I got this job on the merit of my talent.",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Bears directly on the fear-of-loss thesis; the article weighs it.",
+      "alternative": "Said in a promotional interview.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C19m",
+      "claim": "If he lost the role over the letter, he would not want the project.",
+      "passage": "then it wouldn't be a project I'd want to work on anyway.",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Counts against loss-anxiety governing his responses to real threats of loss; One-compatible principle.",
+      "alternative": "Easy to say with the job secure.",
+      "durability": "time_sensitive",
+      "review_trigger": "On any recast or departure news, revise the Snape section and FAQs."
+    },
+    {
+      "id": "C19n",
+      "claim": "His stated reason for taking Snape, answering a suggestion that stability and cash would come easier elsewhere.",
+      "passage": "Yes, but the themes that run through Harry Potter are of love triumphing over hate — of acceptance. And that's why I'm doing it.",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Replaces the earlier 'stable home' settle test, which the record had already partly answered.",
+      "alternative": "Promotional context.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "I15",
+      "claim": "The merit answer is in tension with the fear-of-loss thread.",
+      "passage": "A man who says fear of loss keeps him from resting shrugged, on the record, at losing a ten-year role.",
+      "class": "interpretation",
+      "source_ids": [
+        "S04",
+        "S07"
+      ],
+      "inference": "Names the contradiction directly.",
+      "alternative": "Dread may be anticipatory and about competence, not tenure.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "I09",
+      "claim": "Counterphobic label limited to the threats answer; the letter and the police decision are One-compatible.",
+      "passage": "Only the threats answer, hurt named and then turned toward the work, reads as a Six facing fear. The letter and the police decision read as principle and proportion, which a One fits at least as well.",
+      "class": "interpretation",
+      "source_ids": [
+        "S04",
+        "S31"
+      ],
+      "inference": "Replaces the earlier catch-all counterphobic reading.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C20",
+      "claim": "As reported by TechRadar in March 2026, HBO scheduled the first season of its Harry Potter series to premiere on 25 December 2026.",
+      "passage": "HBO had scheduled the first season to premiere on December 25, 2026",
+      "class": "third_party",
+      "source_ids": [
+        "S34"
+      ],
+      "inference": "Dated report of a schedule, written in the past tense so it stays true after the date passes.",
+      "alternative": "Release dates move; earlier reports said 2027 (S34 notes the date was moved up).",
+      "durability": "time_sensitive",
+      "review_trigger": "On or after 2026-12-26: confirm the premiere happened on 2026-12-25 (or record the new date) and change tense in the body and the Snape FAQ. On any recast or departure news, revise both Snape FAQs, the Snape section and the closing section."
+    },
+    {
+      "id": "C20e",
+      "claim": "Snape FAQ premiere date, dated so it stays true after the date.",
+      "passage": "As of March 2026, the first season was scheduled to premiere on December 25, 2026.",
+      "class": "third_party",
+      "source_ids": [
+        "S34"
+      ],
+      "inference": "Same as C20.",
+      "alternative": "Dates move.",
+      "durability": "time_sensitive",
+      "review_trigger": "On or after 2026-12-26: confirm the premiere and change tense in the Snape FAQ."
+    },
+    {
+      "id": "C20f",
+      "claim": "The Snape role is meant to last about ten years.",
+      "passage": "in a role meant to last about ten years",
+      "class": "third_party",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "S04: 'a role that will last ten years'; he says he will be 45 by the end.",
+      "alternative": "Series plans can change.",
+      "durability": "time_sensitive",
+      "review_trigger": "On renewal, cancellation or recast news, revise both Snape FAQs and the Snape sections."
+    },
+    {
+      "id": "C20g",
+      "claim": "Known-for FAQ: the Snape casting.",
+      "passage": "and in April 2025 HBO cast him as Severus Snape in its Harry Potter series",
+      "class": "third_party",
+      "source_ids": [
+        "S04",
+        "S31"
+      ],
+      "inference": "Past-tense event.",
+      "alternative": "None.",
+      "durability": "time_sensitive",
+      "review_trigger": "On any recast or departure news, add it to the known-for FAQ."
+    },
+    {
+      "id": "C20b",
+      "claim": "HBO cast him as Severus Snape in April 2025 (Snape FAQ).",
+      "passage": "HBO cast him in its Harry Potter series in April 2025",
+      "class": "third_party",
+      "source_ids": [
+        "S04",
+        "S31"
+      ],
+      "inference": "The Sunday Times (March 2026) says \"announced last April\".",
+      "alternative": "None.",
+      "durability": "time_sensitive",
+      "review_trigger": "On any recast or departure news, revise the Snape FAQ, the known-for FAQ and the Snape section. On or after 2026-12-26, confirm the premiere and update tense."
+    },
+    {
+      "id": "C20c",
+      "claim": "Snape commitment: 'I'll be 45 by the time I finish'.",
+      "passage": "I'll be 45 by the time I finish",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Establishes what he said, to whom and when; it is a self-report, not proof of motive.",
+      "alternative": "Plans can change.",
+      "durability": "time_sensitive",
+      "review_trigger": "Re-check at series renewal news."
+    },
+    {
+      "id": "C21",
+      "claim": "He won the 2026 Olivier Award for Best Actor in a Supporting Role for All My Sons (known-for FAQ).",
+      "passage": "He won the 2026 Olivier Award for Best Actor in a Supporting Role for All My Sons",
+      "class": "third_party",
+      "source_ids": [
+        "S33",
+        "S32"
+      ],
+      "inference": "S33 (13 April 2026) reports the win in that category at Wyndham's Theatre; S32 records the award.",
+      "alternative": "S33 is an organisation he named in his speech; the ceremony video was not opened.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C21e",
+      "claim": "Body: the Olivier win in April 2026.",
+      "passage": "in April 2026 for _All My Sons_",
+      "class": "third_party",
+      "source_ids": [
+        "S33",
+        "S32"
+      ],
+      "inference": "Same as C21.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C21c",
+      "claim": "FAQ: led The Lazarus Project.",
+      "passage": "led The Lazarus Project",
+      "class": "third_party",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Guardian 2022: his first top billing on screen.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C22",
+      "claim": "His response to his mother's death was to shut the feeling down: he went back to drama school the next day as 'an emergency act of self-preservation', locked their belongings in the loft for about ten years, barely cried for five or six years, and was depressed with 'intense brain fog' until therapy took hold in his mid-twenties; he still goes weekly.",
+      "passage": "an emergency act of self-preservation in order to stop myself thinking or feeling or engaging",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S24",
+        "S04",
+        "S09"
+      ],
+      "inference": "Consistent across 2022, 2024, 2025 and 2026. A practical, protective response that postponed grief, followed by deliberate repair.",
+      "alternative": "Grief responses at 20 are shaped by circumstance (living alone, starting training) more than by type. 'Depressed' is his word; do not turn it into a diagnosis. Keep therapy content to what he has volunteered.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C22b",
+      "claim": "Locked belongings in the loft for about 10 years.",
+      "passage": "for about 10 years",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Establishes what he said, to whom and when; it is a self-report, not proof of motive.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C25e",
+      "claim": "Class and upbringing as a rival explanation for the doubt.",
+      "passage": "Class is on his own list, and in 2024 he traced the impostor feeling back to how he was brought up.",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S25"
+      ],
+      "inference": "S01 lists class first; on S25 (c.0:12:00, two transcriptions agree) he ties the impostor feeling to how he was brought up 'from early'.",
+      "alternative": "Circumstance competes with temperament; public evidence cannot separate them.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C22e",
+      "claim": "In June 2022 he said therapy took hold on about the third attempt and that he was still going every week.",
+      "passage": "He was in weekly therapy in 2022",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Dated to 2022 in the prose so it is not read as a 2026 status; the 2026 Sunday Times records only that he does therapy (C22f).",
+      "alternative": "Frequency may have changed since 2022.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C22f",
+      "claim": "2026: therapy keeps him from being 'incredibly anxious and unhappy'.",
+      "passage": "If I didn't, I'd be incredibly anxious and unhappy",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Establishes what he said, to whom and when; it is a self-report, not proof of motive.",
+      "alternative": "Not a diagnosis.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C23",
+      "claim": "Grief later became, in his words, a 'companion' he chooses to keep close, a way of keeping the dead alive, and he now cries easily; at the same time he rejects acting as therapy and keeps characters at arm's length, putting on costume only minutes before going on.",
+      "passage": "I really, passionately do not believe in acting as therapy",
+      "class": "self_report",
+      "source_ids": [
+        "S03",
+        "S24",
+        "S13",
+        "S07",
+        "S09"
+      ],
+      "inference": "S03 and S24 on grief as companion; S13 (2020) 'I really, passionately do not believe in acting as therapy'; Lennie James independently confirms 'he doesn't see his work as therapy' (S09); S07 and S15 on the costume habit.",
+      "alternative": "The 'sadness ... allow us to be real, authentic, unique individuals' line (S24) is the strongest Type 4 note in the record; his separation of self from role cuts the other way.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C23e",
+      "claim": "By 2025 he described grief as a companion.",
+      "passage": "which by 2025 he called a companion",
+      "class": "self_report",
+      "source_ids": [
+        "S24"
+      ],
+      "inference": "S24: grief is 'more of a companion now'.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C23f",
+      "claim": "Loss shapes his work unconsciously and should flow through it, though not consciously.",
+      "passage": "allow that to flow through the work that you do",
+      "class": "self_report",
+      "source_ids": [
+        "S13"
+      ],
+      "inference": "The continuation of 'acting as therapy' (S13), restored so the Four paragraph does not reverse the quote.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C23g",
+      "claim": "By 2023 he preferred imagination to drawing on grief.",
+      "passage": "By 2023, Maxwell reported, he would rather use his imagination than draw on grief.",
+      "class": "third_party",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "Maxwell's paraphrase in S03.",
+      "alternative": "Paraphrase.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C23c",
+      "claim": "Sadness 'creates the edges, the corners...'.",
+      "passage": "creates the edges, the corners, the imperfections, the roughnesses of our character",
+      "class": "self_report",
+      "source_ids": [
+        "S24"
+      ],
+      "inference": "Strongest Type 4 note.",
+      "alternative": "Machine transcript, two models agree on the 0:13-0:15 passage.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C24",
+      "claim": "He describes himself as rarely angry, a peacemaker in fights rather than a fighter, attributes this partly to 'Christian guilt' from churchgoing until his late teens, and says he tries to convert anger at injustice into action.",
+      "passage": "it probably is Christian guilt",
+      "class": "self_report",
+      "source_ids": [
+        "S24"
+      ],
+      "inference": "S24 (2025) gives the anger account and the 'convert that anger into action' line; S36 and S04 confirm church until his late teens and that he still calls himself a Christian.",
+      "alternative": "A peacemaking stance can point to Type 9 or 2; restrained anger can point to Type 1. His own uncertainty ('I don't know if the anger is suppressed. I don't know if it's repressed') should be preserved.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C24c",
+      "claim": "He is unsure whether his anger is suppressed or repressed.",
+      "passage": "I don't know if the anger is suppressed. I don't know if it's repressed.",
+      "class": "self_report",
+      "source_ids": [
+        "S24"
+      ],
+      "inference": "S24 c.0:09:50, two transcriptions agree; counted on the One side.",
+      "alternative": "Spoken in therapy vocabulary.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C24d",
+      "claim": "He says he consciously tries to convert anger into action.",
+      "passage": "He tries, he said, to turn anger into action.",
+      "class": "self_report",
+      "source_ids": [
+        "S24"
+      ],
+      "inference": "Paraphrase of S24 c.0:29:30 (single transcription, so not quoted).",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C24b",
+      "claim": "Fights as an adult were breaking up fights.",
+      "passage": "all the fights that I've been in as an adult have been trying to break up fights",
+      "class": "self_report",
+      "source_ids": [
+        "S24"
+      ],
+      "inference": "Second-transcribed passage.",
+      "alternative": "The \"lioness\" lines nearby are Paloma Faith's and are not used.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C25d",
+      "claim": "Johnson and Partygate (attributed opinion, 2022).",
+      "passage": "Johnson can get away with breaking the rules he made.",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "His political opinion, dated and attributed.",
+      "alternative": "Johnson's own response is not engaged; the draft uses only this line.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "I16",
+      "claim": "The anger evidence favours One.",
+      "passage": "Held-down anger, and anger at people who break their own rules, are One territory.",
+      "class": "interpretation",
+      "source_ids": [
+        "S24",
+        "S01"
+      ],
+      "inference": "Concedes the Johnson remark and the suppressed-anger line to the One case.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C26",
+      "claim": "He makes principled, costly career choices and frames them as political: refusing stereotyped 'slave' and 'butler' roles, saying no to projects that became 'very, very, very big successes' to avoid being pigeonholed, and insisting he is 'not the kind of person who puts his head in the sand and will say yes to anything'.",
+      "passage": "I am not the kind of person who puts his head in the sand and will say yes to anything without thinking about the impact",
+      "class": "self_report",
+      "source_ids": [
+        "S08",
+        "S07"
+      ],
+      "inference": "Repeated 2020-2024. Strongest evidence for the Type 1 alternative (principle, responsibility, discernment) and against a conflict-avoidant Type 9.",
+      "alternative": "Also explained by a Six's wariness of being boxed in by others' power (S08 'clip my wings'), and by realistic career strategy for a Black British actor.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C26b",
+      "claim": "Turned down stereotyped roles.",
+      "passage": "a lot of slave roles, a lot of period dramas as a butler or servant",
+      "class": "self_report",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "He describes being offered these.",
+      "alternative": "He says he would not entirely rule such a role out.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C26d",
+      "claim": "He reads the offers of slave and servant roles as how the industry perceived him.",
+      "passage": "which I think speaks to how I was perceived in the industry",
+      "class": "self_report",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "Keeps his framing of racial typecasting.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C26e",
+      "claim": "He would not rule such a role out if its intention and craft justified it.",
+      "passage": "though he wouldn't entirely rule such a role out if it had a point",
+      "class": "third_party",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "Mr Porter: 'He wouldn't entirely write off such a role, but the intention and craft behind it is what matters.'",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C26f",
+      "claim": "His stated reason for saying no: resisting being boxed in after the Hamlet press.",
+      "passage": "to be savvy about the propensity of the industry to try and clip my wings. But that involves saying no to a lot of things",
+      "class": "self_report",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "Assigned to both readings (Six wariness of institutional power, One principle).",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C26c",
+      "claim": "Said no to big successes.",
+      "passage": "very, very, very big successes",
+      "class": "self_report",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "Establishes what he said, to whom and when; it is a self-report, not proof of motive.",
+      "alternative": "He would not name them.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C27",
+      "claim": "He holds himself to an exacting standard and is hard on himself: rehearsal is 'the pain of being confronted by inadequacy ... sadomasochistic self-flagellation', he struggles to call his own work good, and he sums himself up as 'Tries his best'.",
+      "passage": "It's that sadomasochistic self-flagellation, you know?",
+      "class": "self_report",
+      "source_ids": [
+        "S08",
+        "S14"
+      ],
+      "inference": "S08 (2023), S10 (2021), S14 (2023 questionnaire), S04 (2026 'I'm doing my best'). Supports both the One alternative (inner critic, standards) and the Six reading (doubt).",
+      "alternative": "The discriminator is the object of the criticism: whether he fears being wrong by a standard (1) or being found out and losing his place (6). His own words lean to the second (C07, C09), but self-flagellation language is One-compatible.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C27b",
+      "claim": "'the pain of being confronted by inadequacy'.",
+      "passage": "the pain of being confronted by inadequacy",
+      "class": "self_report",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "Establishes what he said, to whom and when; it is a self-report, not proof of motive.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C27d",
+      "claim": "Rehearsal also confronts him with the possibility that he is bad.",
+      "passage": "Or by the reality that you might be bad.",
+      "class": "self_report",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "S08, verified this stage. Kept on the One side.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C27c",
+      "claim": "Three words: 'Tries his best.'",
+      "passage": "Tries his best.",
+      "class": "self_report",
+      "source_ids": [
+        "S14"
+      ],
+      "inference": "Questionnaire answer.",
+      "alternative": "Compressed, partly playful format.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C29",
+      "claim": "He says that during a Guildhall improvisation a teacher playing a prison warden shouted a racial slur; he did not know whether it was aimed at him or Coel. The school apologised unreservedly.",
+      "passage": "During a Guildhall improvisation, a teacher playing a prison warden shouted a racial slur",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S38"
+      ],
+      "inference": "His account in S01 ('Hey you, N-word...'; 'I didn't know if she was talking to me or Michaela'); Guildhall's apology (S01, S38) acknowledges the racism he experienced. Slur not printed, teacher not named. Used only as circumstance that would make anyone guarded, not as type evidence.",
+      "alternative": "One account of one incident; the school did not dispute it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C29c",
+      "claim": "He did not know whether the slur was aimed at him or Coel.",
+      "passage": "I didn't know if she was talking to me or Michaela",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Keeps the account within what the source says about its target.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C29b",
+      "claim": "Guildhall apologised 'unreservedly'.",
+      "passage": "apologised \"unreservedly\"",
+      "class": "third_party",
+      "source_ids": [
+        "S38",
+        "S01"
+      ],
+      "inference": "Institutional response.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "I13",
+      "claim": "Racism he experienced is circumstance, not type evidence.",
+      "passage": "That history would make anyone guarded, so the wariness is weak type evidence.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S06",
+        "S38"
+      ],
+      "inference": "Treats responses to documented racism as circumstance, as the grief section does with loss.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "I06",
+      "claim": "Interpretation: the discriminator.",
+      "passage": "A One's goodness answers to an inner standard: is this right? His answer points outward, to how he is perceived, and to safety.",
+      "class": "interpretation",
+      "source_ids": [
+        "S24",
+        "S40",
+        "S01",
+        "S02"
+      ],
+      "inference": "Draft's main discriminator, with the concession that \"that you might be bad\" is One-compatible.",
+      "alternative": "One podcast answer in therapy vocabulary; a One can also fear exposure.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "I17",
+      "claim": "Three test: he volunteers flaws rather than managing his image.",
+      "passage": "But a Three manages the image, and he keeps handing interviewers the flaws.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S05",
+        "S27"
+      ],
+      "inference": "Joins C09g, C21d, C35 and his public confessions of doubt.",
+      "alternative": "Self-deprecation can itself be image management in British press culture.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C21d",
+      "claim": "Hattenstone: when Coel asked who should play Kwame, he never suggested himself.",
+      "passage": "He never put himself forward.",
+      "class": "third_party",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Counterevidence to a Three reading (and Nine-compatible).",
+      "alternative": "Journalist's report.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C35",
+      "claim": "He said in 2020 that his aim is not fame.",
+      "passage": "My aim isn't to be that famous",
+      "class": "self_report",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "Counterevidence to a Three reading.",
+      "alternative": "Stated aims can differ from behaviour.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "I18",
+      "claim": "Why safety, not perception, is the operative word.",
+      "passage": "The fear he names is of being uninvited, not outshone. In the Faith answer, perception is the means and safety the stated end.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S24"
+      ],
+      "inference": "Uses C10c and the structure of C11.",
+      "alternative": "Two of his three glosses are about image.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "I19",
+      "claim": "The Lear night is a partial, ambiguous instance of the settling scene.",
+      "passage": "The King Lear night is the nearest thing, and it cuts both ways.",
+      "class": "interpretation",
+      "source_ids": [
+        "S26",
+        "S29"
+      ],
+      "inference": "Acknowledges the one on-record emergency.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "I02",
+      "claim": "Interpretation: he supplies the feared verdict himself.",
+      "passage": "The verdict he fears belongs to other people, and he supplies it himself.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Inference from C10.",
+      "alternative": "Social anxiety in new groups is common across types.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "I01",
+      "claim": "Type thesis.",
+      "passage": "Paapa Essiedu's personality type is Enneagram Type 6, the Loyalist, read at medium confidence.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S24",
+        "S40",
+        "S02",
+        "S07",
+        "S27",
+        "S29"
+      ],
+      "inference": "Leading read from the repeated other-referenced, loss-anticipating doubt (C07, C09, C10), reliance on people close to him (C06), and his own account of people-pleasing as a bid for safety (C11). Medium confidence because the discriminator rests largely on one 2025 podcast exchange and One and Three remain live.",
+      "alternative": "Type 1 (conscientious inner critic, held-down anger, principled refusals); Type 3 (image management); Type 4 (grief and authenticity language).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "I01b",
+      "claim": "FAQ confidence statement.",
+      "passage": "read at medium confidence from his public record",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S24"
+      ],
+      "inference": "Mirrors type_hypothesis.confidence.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "I10",
+      "claim": "Falsifier: observable behaviour that would weaken the Six read.",
+      "passage": "What would count against the read is a record of him getting through the run-up alone, or tracing his self-criticism to his own standard rather than to exposure.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S24"
+      ],
+      "inference": "Names evidence against the type so the counterphobic label is not a catch-all.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C47",
+      "claim": "Type answer and type FAQ: dated, attributed found-out pattern.",
+      "passage": "for years he has described dreading being found out before each new job and leaning on people close to him to get there",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S27",
+        "S15"
+      ],
+      "inference": "From C06 and C07: 'every job' (S01, 2022), 'every single play' (S27, 2020), 'Every time I get any job' (S15, 2024).",
+      "alternative": "He said in 2023 he is 'thinking less about what people might think about me' (C42).",
+      "durability": "time_sensitive",
+      "review_trigger": "If a post-2026 interview says the first-day dread has gone, revise the type answer, type FAQ, description and persona_title."
+    },
+    {
+      "id": "C48",
+      "claim": "Persona title: the found-out pattern described over time rather than as a fixed present trait.",
+      "passage": "The Actor Who Kept Expecting to Be Found Out",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S27",
+        "S15"
+      ],
+      "inference": "Past progressive so it records the 2020-2024 pattern without asserting it holds today.",
+      "alternative": "C42 records easing in 2023.",
+      "durability": "time_sensitive",
+      "review_trigger": "If a post-2026 interview says the first-day dread has gone, revise the persona_title, meta_title and description."
+    },
+    {
+      "id": "C49",
+      "claim": "Meta title: names the theme, no longer asserts calm under pressure as a trait.",
+      "passage": "Paapa Essiedu Enneagram Type 6: The Fear of Being Found Out",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S27",
+        "S15"
+      ],
+      "inference": "Replaces 'Calm During', which generalised one eyewitness night (S29).",
+      "alternative": "None.",
+      "durability": "time_sensitive",
+      "review_trigger": "Revise with the description and persona_title if the dread is reported gone."
+    },
+    {
+      "id": "I07",
+      "claim": "Settle signals that press-tour praise cannot satisfy: independent director or collaborator testimony about his conduct in a troubled production, and his own direct explanation of where his self-criticism comes from.",
+      "passage": "Leaning on people in a troubled production, or tracing the criticism to exposure and loss, points to Six. Holding the line alone, or tracing it to a standard he sets himself, moves the read toward One.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S24"
+      ],
+      "inference": "Both signals can come out against Six and are independent of promotional interviews; each names which result moves the read toward One.",
+      "alternative": "Testimony may never appear; a single answer can be shaped by the interviewer.",
+      "durability": "time_sensitive",
+      "review_trigger": "At the first long post-premiere interview (premiere scheduled 2026-12-25) and on any director or collaborator testimony about a troubled production: check both signals and revise the type section, the Type 1 FAQ and this closing section if they point to One."
+    },
+    {
+      "id": "C31b",
+      "claim": "Half marathon detail.",
+      "passage": "I continued running for another three kilometres, even though my body was basically shut down",
+      "class": "self_report",
+      "source_ids": [
+        "S24"
+      ],
+      "inference": "Two transcriptions agree.",
+      "alternative": "Comic anecdote; \"psychopath\" joke not used.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C31c",
+      "claim": "Comic story of overriding his body in a half marathon.",
+      "passage": "about a half marathon he tried to run \"way too fast.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S24"
+      ],
+      "inference": "Second-transcribed (c.0:31:10); told as comedy.",
+      "alternative": "Comic exaggeration.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C31d",
+      "claim": "He was exhausted about 16km into the half marathon.",
+      "passage": "About 16 kilometers in he was \"cooked,\"",
+      "class": "self_report",
+      "source_ids": [
+        "S24"
+      ],
+      "inference": "S24 context records 'cooked' at about 16km (second-transcribed c.0:31:10 at research/draft stage; not re-listened at edit stage).",
+      "alternative": "Comic exaggeration.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C32",
+      "claim": "He names finding it 'difficult to sit still' as the trait he most deplores in himself, and an interviewer recalled 'Tiggerish energy' in 2016.",
+      "passage": "I find it difficult to sit still",
+      "class": "self_report",
+      "source_ids": [
+        "S14",
+        "S03"
+      ],
+      "inference": "Questionnaire (S14), podcast (S25) and Dominic Maxwell's 2023 recollection of meeting him in 2016 (S03). The main Type 7 note in the record.",
+      "alternative": "Restlessness is common in actors who work in short contracts; it does not coexist with the pleasure-seeking avoidance of pain that defines Type 7, given how he describes facing grief and fear.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C32b",
+      "claim": "Maxwell's observations.",
+      "passage": "a kind of Tiggerish energy, a physical restlessness",
+      "class": "third_party",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "Interviewer recollection; in 2023 \"he is all containment\".",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C44",
+      "claim": "FAQ age.",
+      "passage": "which makes him 36 as of October 2026",
+      "class": "third_party",
+      "source_ids": [
+        "S32"
+      ],
+      "inference": "Computed from the 11 June 1990 birth date.",
+      "alternative": "Day of birth rests on Wikipedia; ages in S01-S04 fit.",
+      "durability": "time_sensitive",
+      "review_trigger": "Update the age after 11 June 2027."
+    },
+    {
+      "id": "C45",
+      "claim": "Description: a dated, attributed summary of the found-out dread.",
+      "passage": "For years, Paapa Essiedu has described dreading being found out before each new job.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S27",
+        "S15"
+      ],
+      "inference": "Summary of C06 and C07; 'has described' attributes it and 'for years' anchors it to the 2020-2024 record.",
+      "alternative": "He said in 2023 that he was 'thinking less about what people might think about me' (C42).",
+      "durability": "time_sensitive",
+      "review_trigger": "If a post-2026 interview says the first-day dread has gone, revise the description, persona_title, meta_title, type answer and type FAQ."
+    },
+    {
+      "id": "C46",
+      "claim": "Orientation: Snape casting and death threats.",
+      "passage": "In April 2025, HBO cast him as Severus Snape in its _Harry Potter_ series, and the casting brought him death threats.",
+      "class": "third_party",
+      "source_ids": [
+        "S04",
+        "S31"
+      ],
+      "inference": "Sunday Times 2026.",
+      "alternative": "None.",
+      "durability": "time_sensitive",
+      "review_trigger": "Re-check at premiere."
+    }
+  ],
+  "type_hypothesis": {
+    "type": 6,
+    "confidence": "medium",
+    "for_claim_ids": [
+      "C06",
+      "C07",
+      "C09",
+      "C09d",
+      "C10",
+      "C10c",
+      "C11",
+      "C12",
+      "C05",
+      "C08",
+      "C39",
+      "C40",
+      "C15b",
+      "I14"
+    ],
+    "against": "A real case points elsewhere. He is conscientious to the point of self-punishment ('sadomasochistic self-flagellation', 'Tries his best'), principled in his choices ('not the kind of person who puts his head in the sand'), and a close friend volunteers that he is 'very preoccupied about being good and doing the right thing all the time' (C27, C26, C39). His anger has a One's shape: rarely explosive, possibly 'suppressed' or 'repressed' by his own account, aimed at rule-breakers ('Johnson can get away with breaking the rules he made') (C24, C24c, C25d, I16). His mother's condition was a standard (I12). When the feared loss became concrete he answered with merit and principle: he signed the trans-rights letter without seeking advice, declined to report the threats for proportion's sake, and said that if the letter cost him Snape 'it wouldn't be a project I'd want to work on anyway' (C19k, C19b, C19m, I09, I15). He says no to work that became 'very, very, very big successes' (C26c, C26f). Two of his three glosses on people-pleasing are about image, so Type 3 needs testing (I17, I18). Circumstance competes with temperament throughout: impostor feelings and first-night nerves are common among actors, British interviews reward self-deprecation, and losing both parents by 20, class and documented racism would make anyone brace for loss and stay guarded (C09e, C25e, C29, I13). Other live notes: grief as a companion and sadness as what makes people 'authentic, unique' (Type 4, C23c, C23e); peacemaking and Coel's 'peaceful' (Type 9, C24b, C15e); restlessness, 'difficult to sit still' (Type 7, C32); a competitive overdrive that ended in a medical tent (C31b, C31c).",
+    "alternative_type": 1,
+    "alternative_case": "Type 1 explains his discipline, his inner critic and his moral seriousness directly: a mother who demanded he 'give it your all' and treat acting with a doctor's professionalism; obsessive preparation (warm-ups, shadowing rehearsals); rehearsal as being 'confronted by inadequacy'; difficulty calling his own work good; principled refusals of stereotyped roles and big commercial projects; anger reserved for rule-breakers and bigots (Johnson 'can get away with breaking the rules he made'); restrained personal anger he links to 'Christian guilt'; and a friend's unprompted read that he is preoccupied with being good. Type 4 is the next rival (grief kept close as identity, authenticity language, distinctive self-presentation), then 9 (peacemaker, steady, 'surrender to that') and 2 (helping, people-pleasing).",
+    "discriminator": "What he says the goodness and the vigilance are for, and where the feared verdict comes from. Asked by a friend in March 2025 whether he is preoccupied with being good, he answered that people-pleasing is 'an attempt to exert control ... trying to create safeness for yourself, safety for yourself' (S24): perception is the means, safety the stated end. His doubt is other-referenced and about losing his place among people who chose him, not about falling short of an internal rule: 'this is the one where people will find me out' and 'Oh my God I've made a huge mistake in inviting you to be in this' (S01, 2022); 'I've tricked so many people' (S27, 2020); 'Jesus, what? Really? Me?' (S15, 2024); 'If it all gets taken away' (S01); 'The fear of things being taken away from you at any moment' (S07, 2024). He leans on people close to him to get to work on day one (S01) and built a structure when drama school's ended ('really terrified about ... stability within that structure', S27). Against a Three: he volunteers flaws rather than managing his image ('just a few little things'; never put himself forward for Kwame; 'My aim isn't to be that famous'; public confessions of doubt) and fears being uninvited, not outshone. Against a Four: he refuses to use acting as therapy and by 2023 preferred imagination to drawing on grief, though loss shapes the work unconsciously. Against a Nine: he narrates anticipated threat vividly rather than tuning it out; his numbing was limited to grief. Against a Two: he asks openly for help. Limits: the decisive answer is one podcast exchange in the second person; the King Lear night and the Snape/letter episode do not discriminate and are counted as texture or as One-compatible. What would weaken Six: a record of him getting through the run-up alone, or tracing his self-criticism to his own standard rather than to exposure; independent testimony that he holds the line alone in a troubled production.",
+    "unexplained": "The competitive self-override that left him in a medical tent after a half marathon (C31b, C31c); the restless 'difficult to sit still' streak, closer to Type 7 (C32); how readily he refuses big projects, and shrugged at losing Snape, for someone who says he fears things being taken away (C26c, C26f, C19m, I15); and the lightness colleagues meet first (C16, C16b). Not in the article: his enjoyment of flamboyant fashion alongside fame aversion (research C30) and the 2025-2026 shift in how he describes his faith (research C36)."
+  },
+  "profile_format": "standard"
+}

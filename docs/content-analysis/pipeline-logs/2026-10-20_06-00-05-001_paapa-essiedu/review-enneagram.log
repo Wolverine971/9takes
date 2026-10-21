@@ -1,0 +1,16 @@
+I finished the Enneagram review of the Paapa Essiedu draft. It's in `review-enneagram.json` in the run folder, it passes the review schema, and its hashes match the request. I didn't touch the draft or evidence, and nothing was published.
+
+**Verdict:** Type 6 at medium confidence holds up, and the comparison with Type 1 is fair. The problem is what the main test actually rules out. There are 8 findings (6 major, 2 minor), mostly gaps in the type argument, plus one factual error that makes the Type 1 case look stronger than the source supports:
+
+1. **Type 3 is never tested.** The quote the Six-versus-One case rests on is about controlling how he's perceived. Several other lines the case leans on read just as easily as Type 3 ("I've tricked so many people", "they really wanted the other guy"). The record already has evidence against 3: he played down his work to a stranger, and the Guardian writer reports he "never put himself forward" for his role in his friend Michaela Coel's show.
+2. **"Counterphobic" explains everything.** Dread counts as Six and boldness counts as Six too. That label is used to cover signing the trans-rights letter and not reporting the death threats, but his stated reasons were principle and proportionality, not facing down a fear. "In the same breath" also joins two separate answers.
+3. **A key quote is missing.** When fans called for him to be sacked, he said "I got this job on the merit of my talent." That's the clearest real test of the "it'll all be taken away" theme.
+4. **The King Lear story is over-read.** He says he sat in on the lead actor's rehearsals because he was "bored" and "a nerd." The draft calls that "fear doing its work in advance." The "Calm During" in the SEO title rests on one critic's view of one night in 2014.
+5. **The anger argument shortchanges Type 1.** The draft leaves out his line "I don't know if the anger is suppressed… repressed." The research notes said to keep it.
+6. **Factual error:** he was *offered* slave and butler roles. The source doesn't say he turned them down. The draft also drops his own reason for the roles he did refuse: not letting the industry "clip my wings."
+7. **Minor:** Type 9 is dismissed with a stereotype ("Nines struggle to say no").
+8. **Minor:** a Mr Porter quote and a Coel quote are each cut down to the half that supports the Six read.
+
+I also marked five passages for the editor to keep. One example is the "What the type doesn't explain" section, which leaves the odd details unexplained instead of forcing them to fit.
+
+The similarity check flagged some phrasing ("whose core emotion is fear"), but that's required house wording and normal type vocabulary, so I didn't count it as reuse. I checked quotes against the copies the research stage saved, not against the live articles.

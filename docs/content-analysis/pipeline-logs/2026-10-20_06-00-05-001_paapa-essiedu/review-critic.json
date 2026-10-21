@@ -1,0 +1,107 @@
+{
+  "schema_version": 3,
+  "role": "critic",
+  "content_sha256": "8b3f8463c5f047e390517a54ba02946855ad8e8b4d5181e6d87fab923cb4cc50",
+  "evidence_sha256": "23fb21d08bf24d65f78b2fa7ea792bb5d15bbed522f47226392067663ba157a1",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "critic-01",
+      "severity": "major",
+      "passage": "That is fear doing its work in advance. A Six often prepares for disaster so thoroughly that, when it comes, the work is already done.",
+      "problem": "Every source on the King Lear preparation gives a motive other than fear, and the draft prints one of them a paragraph earlier. Dish (S26, c.0:41) says: \"I'm like bored as **** in it. I've only got like two, three lines. So I've been like turning up to the guy who I'm understudied... I'm a nerd.\" The Guardian Rea feature (S30) puts the over-preparation down to \"grit and enthusiasm.\" No source in the record links it to dread. The draft says \"Bored with his own two or three lines\" and then gives the opposite motive, followed by a generic Six sentence that could appear in any Six profile. The episode also does not discriminate. He prepared alone in a corner, gathered no allies and refused the book (\"I'm not going to go on with the book\"). That fits a keen young actor or a One's standard as well as a Six. It also undercuts the later line that the settling scene, how he behaves when a production is in trouble, \"is not on record\": this is one such scene, and it is ambiguous.",
+      "acceptance_test": "No sentence attributes the Lear preparation to fear unless a source says so. The section states his own motive (boredom, being a 'nerd') and says plainly that the composure and solo preparation fit Type 1 as well as Type 6. The generic 'A Six often prepares for disaster' sentence is removed or replaced with a Lear-specific observation. The 'not on record' sentence in 'Why not Type 1?' acknowledges the Lear night as a partial, ambiguous instance."
+    },
+    {
+      "id": "critic-02",
+      "severity": "major",
+      "passage": "The counterphobic Six explains it: once a threat is concrete and named, he moves toward it.",
+      "problem": "The article lets both fear and fearlessness confirm the type. Dread before a job is phobic Six, calm in real danger is counterphobic Six (\"Essiedu does both, in sequence\"), and acting without permission becomes counterphobic Six too. The standard forbids using subtypes to explain away every contradiction, and the draft never says what behaviour would count against Six. The two acts cited also don't fit 'moving toward a threat.' The open letter came weeks after the casting as a political statement, not as a response to a threat aimed at him (S04, S31). He did not report the threats for a stated proportionality or compassion reason: \"I don't think some 17-year-old boy being put in jail for two weeks for threatening to murder me would actually make me feel any better\" (S04). That is declining to act, not approaching danger.",
+      "acceptance_test": "The letter and police-report paragraph either moves these acts to 'What the type doesn't explain' or gives a sourced reason they fit Six that a One or Nine reading cannot claim equally well. Counterphobia is not invoked as a catch-all. The type section names at least one observable behaviour that would weaken the Six read."
+    },
+    {
+      "id": "critic-03",
+      "severity": "major",
+      "passage": "Still, look at what he reached for in the same breath. He named the production team behind him, and the kid he used to be.",
+      "problem": "In the Sunday Times interview (S04) these lines are not 'the same breath.' The 'kid' line ends his answer on the abuse. Several exchanges later comes the letter answer, which mentions the production team. The 'kid' line is about representation (\"the idea that a kid like me can see themselves represented in that world? That's motivation\"), which is a purpose, not a protector to reach for. The same interview also has two answers the draft leaves out, and both cut against the 'fear of things being taken away' thesis. Asked whether he took Snape \"for the stability and cash,\" he rejected that: \"the themes that run through Harry Potter are of love triumphing over hate... that's why I'm doing it.\" On the calls to sack him: \"if that was the reason I got kicked off this job, then it wouldn't be a project I'd want to work on anyway.\" The closing test (\"A Six would describe Snape with relief at a trusted team and a stable home\") is presented as open, but he has already turned down the stability framing once.",
+      "acceptance_test": "'In the same breath' is removed, or the adjacency is described accurately, and the 'kid' line is presented as motivation and representation. At least one of the two omitted S04 answers appears in the article and is answered in the type argument: why does a man who says he fears loss shrug at losing a ten-year role? The Snape settle test either acknowledges his March 2026 rejection of the stability motive or is replaced by a signal the record has not already partly answered."
+    },
+    {
+      "id": "critic-04",
+      "severity": "major",
+      "passage": "What tips the read to Six is what he says the goodness is for.",
+      "problem": "The deciding quote does not separate Six from the type that most obviously competes with it on this evidence. In the transcript (S24 c.0:23:20), Faith asks about 'being good and doing the right thing.' He moves to people-pleasing and glosses it three ways: control of 'what other people think of you,' control of 'how you are perceived in the world,' and 'safeness... safety for yourself.' Two of the three are image management, the core of Type 3 (and of Type 2, which the draft does mention). Type 3 is never named, yet the record holds a coherent Three case: fear of being 'found out' and that 'they really wanted the other guy,' a competitive override ('I'm mad when I'm actually in competition myself'), his mother's 'you go harder to win' (S06), and being unable to take time off ('need to do something again before it's too late'). He also answered about people-pleasing, not about 'doing the right thing,' so the One's standards side of Faith's question goes unexamined. Type 7, a head-triad rival, is also unnamed despite 'difficult to sit still,' 'Tiggerish energy' and 'grass is always greener' (S25). The intro promises the One case, Type 4 'and two others get a full hearing,' but Nine and Two each get a single stereotype-based dismissal.",
+      "acceptance_test": "The article explicitly tests Type 3 against the record, using the real counterevidence ('just a few little things' to a stranger, saying no to 'very, very, very big successes', 'My aim isn't to be that famous' in S05). It explains why 'safety' rather than 'how you are perceived' is the operative word in the Faith answer, or it softens 'tips the read' accordingly. The restlessness evidence in 'What the type doesn't explain' names Type 7. 'Full hearing' is either earned or reworded."
+    },
+    {
+      "id": "critic-05",
+      "severity": "major",
+      "passage": "The Six reading leads because, answering her, he described people-pleasing as an attempt to control how he is seen and to create safety for himself.",
+      "problem": "The FAQ is more confident than the body. He spoke generally and in the second person ('safety for yourself'); the FAQ turns that into a first-person claim about himself. It also drops the body's own limit: 'None of this is decisive. The Faith answer is one podcast exchange, spoken in therapy vocabulary and in the second person.' The intro does the same: 'And when he explains why he tries so hard to be good, he talks about safety.' That presents one reframed exchange as his settled explanation of his conscientiousness.",
+      "acceptance_test": "The Type 1 FAQ answer and the intro sentence keep the second-person framing and signal that this is one exchange, matching the body's stated limit. No metadata or intro sentence states the discriminator more strongly than 'Why not Type 1?' does."
+    },
+    {
+      "id": "critic-06",
+      "severity": "major",
+      "passage": "He has turned down \"a lot of slave roles, a lot of period dramas as a butler or servant,\" and projects that became \"very, very, very big successes.\"",
+      "problem": "This is a factual error. In Mr Porter (S07) he describes a period when he was 'getting offered' those roles, and the same piece says 'He wouldn't entirely write off such a role.' The evidence record's own claim C26b says 'He describes being offered these' and 'would not entirely rule such a role out.' The draft splices that quote onto the separate Big Issue statement (S08) about saying no, which creates a refusal the sources don't record.",
+      "acceptance_test": "The sentence says he was offered those roles (attributed to Mr Porter, 2024) and quotes the Big Issue 2023 'said no to things that have gone on to be very, very, very big successes' separately. No sentence says he turned down slave or servant roles unless a source says so."
+    },
+    {
+      "id": "critic-07",
+      "severity": "major",
+      "passage": "His public anger fixes on people with power who fail those in their charge.",
+      "problem": "The anger axis is built on evidence that cuts the other way or doesn't discriminate. The Johnson quote is literally about rule-breaking hypocrisy ('Johnson can get away with breaking the rules he made,' S01, Partygate). That is the textbook One trigger, and the evidence record's own One case cites it as One evidence. The Guildhall incident (a teacher shouting a racial slur at students) and his view of the police where he grew up are responses to racism that people of every type would condemn. The draft gives grief a circumstance caveat but treats these responses as type evidence with none.",
+      "acceptance_test": "Either the anger paragraph is dropped as a discriminator, or it states that the Johnson remark leans toward One and that reactions to racism don't separate the types. The paragraph does not use responses to documented racism as positive evidence for Six."
+    },
+    {
+      "id": "critic-08",
+      "severity": "major",
+      "passage": "The riskiest decision of his youth came with a safety net attached.",
+      "problem": "This section turns a risk into safety-seeking and picks out safety words where safety was the literal topic. Hattenstone (S01) says he dropped out of medicine 'at the last minute, and much to everybody's surprise, including his own,' leaving a 'life raft' for 'notoriously choppy waters.' Afridiziak (S21) has 'Much to my mother's chagrin.' The 'net' was his mother's condition to 'do it properly... the same level of professionalism.' That is a standard, which fits One at least as well, and 'commitment to safety and success' describes her, not him. The 2016 'heart on your sleeve' line keeps only the wary half. In the full answer, 'what you need is genuine openness and vulnerability, a willingness to share yourself' comes before 'Having said that...' (S06). 'Safe hands' (S13) describes working with Coel on sexual-assault storylines, not 'advice to others.' Mountview's 'strength in numbers' (S28) is advice about racism in rehearsal rooms. The evidence record (C13) itself notes that this vocabulary is topic-driven, and the draft never says so.",
+      "acceptance_test": "The section presents the switch to acting as a real risk taken against his mother's hopes. It notes that the professionalism condition fits One too, and it restores the openness half of the 2016 answer. 'Safe hands' and 'strength in numbers' carry their actual contexts, or are cut if they no longer support the claim."
+    },
+    {
+      "id": "critic-09",
+      "severity": "minor",
+      "passage": "But Hattenstone pressed and he held to it, and he tells friends the same story off the press circuit.",
+      "problem": "The rebuttal to the 'British self-deprecation' objection is weaker than stated. The 'friends' settings are a public Playbox livestream with audience questions (S27) and a published podcast (S24), not private conversation. Finlay's account of being begged to stay away from Pass Over is the only off-stage behaviour. The 'for a decade' run also leans on the 2016 'ended my career' quip, which in context is a joke about how big breaks can only be judged in hindsight ('you can only think of breaks retrospectively'), not a statement of doubt. And the Chatterbox answer the draft paraphrases goes on to make humility the engine of self-correction ('you want to get better... make mistakes, but then you can observe them and not make them again'). That is One-leaning, and the draft omits it.",
+      "acceptance_test": "The sentence calls these public conversations with friends, and names Finlay's Pass Over account as the off-stage evidence. Either the 'decade' claim rests on 2020-2024 statements or the 2016 line is presented as a quip about hindsight. The self-improvement half of the Chatterbox answer is acknowledged where it bears on One vs Six."
+    },
+    {
+      "id": "critic-10",
+      "severity": "minor",
+      "passage": "The man who needs friends to get him into the car on day one is the friend Coel counts on in an emergency. In Six terms, that is one system: loyalty needed and loyalty given.",
+      "problem": "Two problems. First, Coel's 'fear and trembling' (quoted just above) is framed in S01 by 'He approaches characters with great sensitivity and thoughtfulness. I have never seen him with any ego,' so it describes humility about craft rather than fear. Second, being dependable in a crisis fits One, Two, Nine and Six equally. The source also says 'people who are close to me,' not 'friends,' and 'drag me into the car' may be figurative.",
+      "acceptance_test": "The Coel quote keeps its humility framing or is not used as fear evidence. The 'one system' sentence claims no Six-specificity that the dependability evidence can't carry. 'Friends' matches the source ('people who are close to me')."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "This is where the type argument has to be careful. Losing both parents by 20, on little money, would teach anyone to brace for loss, and public evidence can't separate temperament from that history.",
+      "reason": "This confronts the strongest circumstantial alternative in plain words and in the right place. It is the model for how the anger and safety sections should treat racism and class."
+    },
+    {
+      "passage": "None of this is decisive. The Faith answer is one podcast exchange, spoken in therapy vocabulary and in the second person.",
+      "reason": "This states the discriminator's limit honestly in the body. The metadata should match it, not the other way round."
+    },
+    {
+      "passage": "He knows he is doing it. \"You know that thing when you project what your brain wants you to see on somebody who is probably just having a cup of tea?\" Then, after a stop: \"Maybe they are thinking it.\"",
+      "reason": "This is faithful to S01 ('He comes to a stop'). It is a revealing, specific moment that shows self-awareness and the doubt surviving it in the same beat."
+    },
+    {
+      "passage": "On a recent trip, he had told a stranger he'd been in \"just a few little things,\" then gushed over her job in mezcal. \"And I thought: what is wrong with me!\"",
+      "reason": "This is a distinctive, verified detail specific to this person. It is also real counterevidence to a Three reading and should survive any cut."
+    },
+    {
+      "passage": "About 16 kilometers in he was \"cooked,\" yet \"I continued running for another three kilometres, even though my body was basically shut down.\" He woke in the medical tent unable to find words.",
+      "reason": "This is an honest piece of evidence against the type: costly, vivid and left unresolved. It is exactly the behaviour the standard wants kept visible."
+    }
+  ],
+  "assessment": "I read the frozen draft, the evidence record and the similarity diagnostic. I did not read the other reviews. For thesis-bearing passages I reread the research run's saved source texts: the Guardian 2016, 2020 (Lennie James), 2021 (Rea) and 2022 articles, the Times 2023 and Sunday Times 2026 interviews, Mr Porter, the Big Issue and Bustle, plus the local transcripts of Mad, Sad and Bad (the being-good exchange), Dish (the Lear story) and Chatterbox (the stage-fright answer). Limitation: these were the run's saved copies in /tmp/paapa-essiedu-research. I did not re-fetch the live pages. The draft is better than average at confronting adverse evidence where it chooses to: the circumstance caveat on grief, 'None of this is decisive', and a real 'What the type doesn't explain' section. But several attractive causal stories run ahead of the record. The King Lear preparation is assigned to fear when he says boredom and nerdiness (critic-01). Counterphobia lets fear and fearlessness both confirm Six (critic-02). The Snape section omits same-interview answers that undercut the fear-of-loss thesis and invents an adjacency (critic-03). The anger axis uses a rule-breaking quote and responses to racism (critic-07). The safety section turns a risk into safety-seeking and trims the openness half of a quote (critic-08). The single deciding quote is mostly image-control language, and Type 3 is never tested (critic-04). The FAQ also overstates it (critic-05). One factual error: he was offered slave and servant roles, not recorded as turning them down (critic-06). Six may still be the best read: the decade of 'found out / taken away' statements and the consent-seeking are real. But on this evidence One and Three remain live, and medium confidence is defensible only if the fixes above land. Contested typing and sensitive allegations (Guildhall racism, death threats, the trans-rights letter) are flagged. Similarity: every trip is the mandated 'whose core emotion is' sentence or ordinary Six vocabulary ('people and structures that will hold'), so there is no meaningful reuse of argument. The generic Six explainer sentences add little."
+}

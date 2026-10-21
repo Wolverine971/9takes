@@ -1,0 +1,21 @@
+I wrote the subject-fairness review to `docs/content-analysis/pipeline-logs/2026-10-20_06-00-05-001_paapa-essiedu/review-subject.json` and checked it against the review schema. It has 9 findings (4 major, 5 minor) and 5 protected passages. I changed no other repo files and published nothing.
+
+**Major findings:**
+- **Snape section, letter and threats:** "in the same breath" is false. In The Sunday Times (March 2026), the line about himself as a kid answers a question about the death threats. The line about the production team supporting him closes a different answer, about signing the trans-rights letter. The draft also replaces his stated reasons with an unhedged "counterphobic Six" explanation. It leaves out his reply to the calls for him to be sacked: "it wouldn't be a project I'd want to work on anyway." That reply cuts against the article's fear-of-loss thesis.
+- **Why he took Snape:** the draft leaves out his own reason. The interviewer asked whether he took it for "stability and cash." He said the themes of "love triumphing over hate… that's why I'm doing it." The draft's own test for later ("a Six would describe Snape with relief at… a stable home") already has an answer in the record.
+- **"Slave roles":** the draft says he turned them down. Mr Porter says he was *offered* them, which he said "speaks to how I was perceived in the industry," and that he "wouldn't entirely write off such a role." I confirmed this wording in a fresh fetch of the page.
+- **Guildhall racism allegation:** the draft says the slur was shouted "at him and Coel." The source quotes him saying "I didn't know if she was talking to me or Michaela."
+
+**Minor findings:** four quotes keep only the half that supports the thesis:
+- The draft's "insurance" explanation for why he plays down his success leaves out the other reasons Hattenstone gives: class and impostor syndrome.
+- The 2016 "people will take advantage" quote drops the openness he named first.
+- "He is rarely angry" ignores his own uncertainty about whether his anger is suppressed.
+- The Type 1 FAQ turns a general remark he made about people-pleasing into a self-diagnosis.
+
+Separately, the meta description states a 2022 feeling as a permanent fact, though the body says it is easing.
+
+**Risk flags:** sensitive allegations and contested typing are both true, so the full jury is warranted.
+
+**Similarity advisory:** I don't count the flagged matches as meaningful reuse. They are the required triad sentence and a two-line generic Type 6 definition. The core argument is specific to Essiedu. But "actor's nerves plus preparation" keeps getting read as Type 6 across recent pages, so I suggested the Enneagram reviewer check that the article's distinguishing evidence, not the nerves, carries the typing.
+
+**Sources:** I checked the research stage's saved copies of the thesis-bearing sources and podcast transcripts, and re-fetched the 2022 Guardian interview and the Mr Porter piece live. The Sunday Times 2026 interview is paywalled, so I read it only through the research stage's saved copy.

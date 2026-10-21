@@ -1,0 +1,60 @@
+{
+  "schema_version": 3,
+  "subject": "sombr",
+  "content_sha256": "35c1f7ca9b2473bade7f93af0fac059acf153191935ff8944cc4b313a76cefb5",
+  "expanded": true,
+  "artifacts": {
+    "baseline": {
+      "file": "baseline.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "research": {
+      "file": "evidence.json",
+      "sha256": "7ade714020812d68dcb9a4477719cb987a97ce0460e61ba4090fa37deed5cdee"
+    },
+    "draft": {
+      "file": "draft.md",
+      "sha256": "25b7b5164b84723b0f8f85f8ca1a790f04820fe7f22c8904621858624fbdc0ae"
+    },
+    "draft_evidence": {
+      "file": "evidence-draft.json",
+      "sha256": "b37ce4a823bdf18b9ba89d484a7d710925da8d90f63b59b97b176ab939a51991"
+    },
+    "evidence": {
+      "file": "evidence-edit.json",
+      "sha256": "582eb12867ba5bb8a94f8f36f001f7d56e7dd4b481495f71cf93500abef129a7"
+    },
+    "resolution": {
+      "file": "resolution-edit.json",
+      "sha256": "2775749a965e82424abaa1b06bca902fb49a7fe06e88da625362dc651d5e7dea"
+    },
+    "verification": {
+      "file": "verification-edit.json",
+      "sha256": "68e19b2fd5a567f080a32ca1f75602360cc41c62aac25c5461291226eda8318d"
+    },
+    "review-subject": {
+      "file": "review-subject.json",
+      "sha256": "7c7873feb9d22b3d11f3c40cad0a7f455c70412a19fef871c7f8afb445ff1459"
+    },
+    "review-fan": {
+      "file": "review-fan.json",
+      "sha256": "90d81aef627d5942b8d81c7709de200ea1880a169cd7f22e5a2f9062778c228f"
+    },
+    "review-critic": {
+      "file": "review-critic.json",
+      "sha256": "42ebb2e1ff8ec67a675c584e8dfb076804932589eee09758998a1ba8da94a5c8"
+    },
+    "review-unfamiliar": {
+      "file": "review-unfamiliar.json",
+      "sha256": "4f5021f65dacc9c48af94956083bfcf5307ac5329fdcdb5f021124d24f11900d"
+    },
+    "review-enneagram": {
+      "file": "review-enneagram.json",
+      "sha256": "86ca58c08ee2fdb458ef362995bfcb83a221a15c2bd79fbd4eb39641bb0450f2"
+    },
+    "review-future": {
+      "file": "review-future.json",
+      "sha256": "979de41fcabd69cf0d0a2bb8e59d4d5ac7d52332b0f83cb2e297fd540a19046e"
+    }
+  }
+}

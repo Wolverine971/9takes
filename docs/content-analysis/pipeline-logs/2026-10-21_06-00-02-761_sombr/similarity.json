@@ -1,0 +1,197 @@
+{
+  "target": {
+    "person": "sombr",
+    "type": "3",
+    "units": 5,
+    "file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-21_06-00-02-761_sombr/draft.md"
+  },
+  "comparison_set": [
+    {
+      "person": "madonna",
+      "date": "2026-10-13",
+      "units": 34
+    },
+    {
+      "person": "codie-sanchez",
+      "date": "2026-10-10",
+      "units": 7
+    },
+    {
+      "person": "greg-brockman",
+      "date": "2026-10-07",
+      "units": 12
+    },
+    {
+      "person": "tiger-woods",
+      "date": "2026-10-04",
+      "units": 10
+    },
+    {
+      "person": "ben-shelton",
+      "date": "2026-09-20",
+      "units": 9
+    },
+    {
+      "person": "Jonathan-Bailey",
+      "date": "2026-09-01",
+      "units": 33
+    },
+    {
+      "person": "Tate-McRae",
+      "date": "2026-08-27",
+      "units": 31
+    },
+    {
+      "person": "margaret-qualley",
+      "date": "2026-08-20",
+      "units": 28
+    }
+  ],
+  "n_requested": 8,
+  "noise_floor": {
+    "pairs_compared": 820,
+    "median": 0,
+    "p90": 0,
+    "p99": 0.008,
+    "max": 0.039
+  },
+  "trip_threshold": 0.04,
+  "tripped": false,
+  "trip_pairs": [],
+  "per_draft_max": [
+    {
+      "person": "Jonathan-Bailey",
+      "date": "2026-09-01",
+      "units": 33,
+      "maxScore": 0.039
+    },
+    {
+      "person": "Tate-McRae",
+      "date": "2026-08-27",
+      "units": 31,
+      "maxScore": 0.019
+    },
+    {
+      "person": "margaret-qualley",
+      "date": "2026-08-20",
+      "units": 28,
+      "maxScore": 0.018
+    },
+    {
+      "person": "madonna",
+      "date": "2026-10-13",
+      "units": 34,
+      "maxScore": 0.014
+    },
+    {
+      "person": "ben-shelton",
+      "date": "2026-09-20",
+      "units": 9,
+      "maxScore": 0.01
+    },
+    {
+      "person": "codie-sanchez",
+      "date": "2026-10-10",
+      "units": 7,
+      "maxScore": 0.006
+    },
+    {
+      "person": "greg-brockman",
+      "date": "2026-10-07",
+      "units": 12,
+      "maxScore": 0.006
+    },
+    {
+      "person": "tiger-woods",
+      "date": "2026-10-04",
+      "units": 10,
+      "maxScore": 0
+    }
+  ],
+  "top_pairs": [
+    {
+      "score": 0.039,
+      "other_person": "Jonathan-Bailey",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Type 4 answers it by finding a self that feels true and wanting to be seen as that self.",
+      "other": "[diagnosis] and he did not go looking for a better room to be seen in."
+    },
+    {
+      "score": 0.019,
+      "other_person": "Tate-McRae",
+      "shared_phrases": [],
+      "target": "[diagnosis] and keeps moving toward the next good feeling to stay ahead of pain.",
+      "other": "[counter-typing] Tate turning down a room in order to stay unlike the people inside it."
+    },
+    {
+      "score": 0.018,
+      "other_person": "margaret-qualley",
+      "shared_phrases": [],
+      "target": "[diagnosis] A record about 18 months old can't yet separate them.",
+      "other": "[counter-typing] She declines to correct the public record about herself at all"
+    },
+    {
+      "score": 0.017,
+      "other_person": "Jonathan-Bailey",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Type 4 answers it by finding a self that feels true and wanting to be seen as that self.",
+      "other": "[counter-typing] find a pattern of him walking away from work he committed to"
+    },
+    {
+      "score": 0.014,
+      "other_person": "margaret-qualley",
+      "shared_phrases": [],
+      "target": "[diagnosis] yet he named himself for a sad mood and says his songs come from what he feels.",
+      "other": "[diagnosis] and so much of the best work comes from a lack of control.\" — Margaret Qualley on Collider Ladies Night"
+    },
+    {
+      "score": 0.014,
+      "other_person": "madonna",
+      "shared_phrases": [],
+      "target": "[diagnosis] and keeps moving toward the next good feeling to stay ahead of pain.",
+      "other": "[diagnosis] she breaks any rule that gets attention and keeps every rule that gets the show finished."
+    },
+    {
+      "score": 0.01,
+      "other_person": "ben-shelton",
+      "shared_phrases": [],
+      "target": "[diagnosis] and keeps moving toward the next good feeling to stay ahead of pain.",
+      "other": "[diagnosis] and its reflex is turning pain into a good story."
+    },
+    {
+      "score": 0.009,
+      "other_person": "Tate-McRae",
+      "shared_phrases": [],
+      "target": "[diagnosis] yet he named himself for a sad mood and says his songs come from what he feels.",
+      "other": "[diagnosis] Applause is beside the point for a Three."
+    },
+    {
+      "score": 0.009,
+      "other_person": "margaret-qualley",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Type 4 answers it by finding a self that feels true and wanting to be seen as that self.",
+      "other": "[diagnosis] \"I think I just so desperately want to like be good"
+    },
+    {
+      "score": 0.008,
+      "other_person": "Jonathan-Bailey",
+      "shared_phrases": [],
+      "target": "[diagnosis] He has studied audience response since his teens",
+      "other": "[counter-typing] Bailey's defining response to threat was self-amputation at thirteen"
+    },
+    {
+      "score": 0.007,
+      "other_person": "Tate-McRae",
+      "shared_phrases": [],
+      "target": "[diagnosis] He has studied audience response since his teens",
+      "other": "[diagnosis] She has been running that equation since she was eight years old"
+    },
+    {
+      "score": 0.006,
+      "other_person": "Jonathan-Bailey",
+      "shared_phrases": [],
+      "target": "[diagnosis] yet he named himself for a sad mood and says his songs come from what he feels.",
+      "other": "[diagnosis] and he did not go looking for a better room to be seen in."
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "schema_version": 3,
+  "decisions": [
+    {
+      "finding_id": "subject-01",
+      "action": "fixed",
+      "reason": "Fixed. The false limit is gone from body and FAQ. The orientation paragraph gives the sequence: \"Caroline\" went viral on TikTok in 2022 and brought label emails (his account, per American Songwriter/Variety/ELLE), and Warner announced the signing in January 2023, when he was 17 (Consequence). The industry-plant paragraph adds Variety's account that his father took the first label email, from Columbia Records, for \"a scam\" before Warner flew him to Los Angeles, and his ELLE account that he chose Warner because it was the \"hungriest\" for him. The FAQ now says \"Reporting traces his signing to 'Caroline,' a song he posted on TikTok in 2022 that brought label emails.\" The remaining limit is narrowed to what is unreported: how his management team was assembled. Claims C28d and C28g revised; C28i, C28j, C03b and C03d added (S04, S07, S08, S18)."
+    },
+    {
+      "finding_id": "subject-02",
+      "action": "fixed",
+      "reason": "Fixed. Body: critics point to \"his father, Andy Boose, a former musician whose events company produces charity galas, including for HIV/AIDS organizations\" (Collegian, ELLE), followed by his full rebuttal sentence with its reason (\"because my dad devotes his life to fight AIDS is just incredibly insane\"). FAQ: \"which produces charity dinners\" and \"saying his father 'devotes his life to fight AIDS.'\" The father's team role is now a separate, dated sentence (\"NYLON reported in April 2026...\") placed after the documented TikTok route, not as the clause after the allegation. The article still does not adjudicate the charge (\"Either way...\")."
+    },
+    {
+      "finding_id": "subject-03",
+      "action": "fixed",
+      "reason": "Fixed. Every health disclosure was removed from the argument: the ELLE anxiety-attack paragraph, \"not performing well for fans\" in the intro list and the summary, the \"My Body Isn't Ready\" lyric paragraph, the ELLE depression lines inside the Four case, \"going out every night\" (subject-04), and \"very self-conscious\" (whose CBS context continues into body image). What remains is one dated sentence in the method note, outside the argument: \"He has also spoken in 2026 about depression and his body image, to ELLE and on Fallon; none of that is used here as evidence for a type.\" That sentence is now literally true. C22, C33 and C46 deleted; C22 and C33 left for_claim_ids. Re-weighed: Three is now said to lead \"on a tiebreaker, not a margin\" on non-health evidence (C13c, C19, C06f/I17, C44); confidence stays low and Six becomes live (critic-06)."
+    },
+    {
+      "finding_id": "subject-04",
+      "action": "fixed",
+      "reason": "Fixed. The quote and claim C05c were removed from the Seven case and from the article. Seven now rests on the touring high, sleeping through his nominations and Quenlin Blackwell's testimony."
+    },
+    {
+      "finding_id": "subject-05",
+      "action": "fixed",
+      "reason": "Fixed. \"Is the sadness the self, or the brand?\" is replaced by a motive question that does not treat his feelings as possible marketing: \"when what feels true and what works pull apart, which does he follow?\" The \"authenticity story also answers a charge\" paragraph concerns his rhetoric about authorship only."
+    },
+    {
+      "finding_id": "subject-06",
+      "action": "fixed",
+      "reason": "Fixed. Added, attributed to Digital Music News, that the critic \"compared his looks to Slender Man and Napoleon Dynamite\", which gives the referent of his body-shaming complaint. \"Never uttered a serious word in my life\" is now presented as \"a defense of his jokes' tone\" (CNN), and the unaddressed part is narrowed to \"her claim that some jokes were wrong for a young crowd.\" Her allegations stay attributed; \"bark\"/\"daddy\" remain unprinted. His \"everyone is welcome\" line was left out for length and is recorded in C27's alternative."
+    },
+    {
+      "finding_id": "subject-07",
+      "action": "fixed",
+      "reason": "Fixed. The ELLE answer is printed with his reasons (\"I think responding only makes it worse. I was a teenager when I was kind of just pushed into the spotlight\"), the gap is marked (\"Later in the same answer:\"), and his commitment is quoted (\"I plan to never say or do something that would even make someone uncomfortable again\"). The motive sentence \"A defense first... fits a Three's attention to reception\" is gone. The paragraph now sets the reception reading beside his concession on substance (\"'that is weird' concedes the point, and the promise concerns conduct, not image\"), accepting the criticism, and growing up in public, and concludes \"The episode doesn't separate the readings.\""
+    },
+    {
+      "finding_id": "subject-08",
+      "action": "fixed",
+      "reason": "Fixed. \"When humility plays better\" is removed. The NYLON quote now carries its odds clause (\"You are told it's one in a million. It truly is\"), and the Broski line carries his parents' reply (\"That's like a one in a billion\"). Both are read as \"long odds, not a retreat from ambition.\" \"Yet in that same Broski answer\" is gone, and so are the garbled Broski \"famous or known\" line and the CBS \"same kid\" line. The inference is limited to the 1883/People-versus-Fallon sequence (\"Only the Fallon answer doesn't fit\"), with its limit stated."
+    },
+    {
+      "finding_id": "subject-09",
+      "action": "fixed",
+      "reason": "Fixed. The \"He manages how he is seen\" paragraph (the ET \"can't PR train me\" line and the NYLON publicist line, which NYLON frames as a joke) was cut entirely. Claims C21 and C21b were deleted."
+    },
+    {
+      "finding_id": "subject-10",
+      "action": "fixed",
+      "reason": "Fixed. Settle item 4 names the substance of the criticism (\"George Michael fans said his opening of the tribute... failed to do the music justice,\" Yahoo) and adds his stated homage (\"so inspiring to me, because I do the same,\" told to Vogue as quoted by Billboard). Per future-03, the FAQ no longer names the VMA item, so the two stay consistent."
+    },
+    {
+      "finding_id": "fan-F1",
+      "action": "fixed",
+      "reason": "Fixed. \"Caroline\" is identified at first mention as a bedroom recording that went viral on TikTok in 2022 and brought label emails. The Warner signing (January 2023, at 17) and \"Almost 20 songs followed without a hit\" come before \"Back to Friends\". \"It will happen\" adds his early-teens musical theater and the classical vocal-major training at LaGuardia, \"the arts high school he later left\". The industry paragraph describes his father as a former musician. The tension is stated as unexplained: \"It also sits beside years of stage and vocal training, a gap the record doesn't explain\" (C14i). His father's guitar lessons and the Dear Evan Hansen detail were left out for length. Settle signal 6 still concerns outside testimony, which remains absent."
+    },
+    {
+      "finding_id": "fan-F2",
+      "action": "fixed",
+      "reason": "Fixed together with subject-02. Body: his father is \"a former musician whose events company produces charity galas, including for HIV/AIDS organizations\" (ELLE, Collegian), and the full rebuttal clause \"because my dad devotes his life to fight AIDS\" is quoted. The FAQ paraphrases it. NYLON's team-role fact is kept, dated April 2026. Per subject-01, the \"no reporting shows how his label relationships were formed\" line was false and has been narrowed to his management team; the fan's test asked to keep that line, but the subject and critic reviews show it contradicts S04/S07/S08. The charge is not adjudicated, and his sister is not named."
+    },
+    {
+      "finding_id": "fan-F3",
+      "action": "fixed",
+      "reason": "Fixed. (1) CBS: the answer now includes \"I never felt like I was good at anything or a part of anything\" and \"Like I never I just never felt like I belonged.\" \"Is the Three pattern\" is replaced by a three-way reading: Three; ordinary skill discovery; belonging, for Six or Four. (2) ELLE: the stage line is printed with \"I just feel out of place in the regular world and in public\" and now counts for Four in the body, the summary (\"out of place\") and the Type 4 FAQ. (3) The \"12 to 12\" sentence was removed, which critic-07's test allows. No sentence states a type pattern as settled."
+    },
+    {
+      "finding_id": "fan-F4",
+      "action": "fixed",
+      "reason": "Fixed with subject-08. The NYLON \"one in a million\" and Broski \"what my parents would say\" context is now quoted, and the \"humility after success\" inference is limited to the Fallon line set against 1883 (2023) and People (2025). \"Yet in that same Broski answer\" is gone. The garbled \"It wasn't I didn't want to be famous or known\" clause is no longer printed, so no garble note is needed in the body; it is recorded in S14's context. C11f was revised and C11g/C11h added."
+    },
+    {
+      "finding_id": "fan-F5",
+      "action": "fixed",
+      "reason": "Fixed. Next to the imperfection quote, the article adds Berg as the judge he writes for (\"Now, every time I write a song at home, I want to impress Tony. I don't want him to have notes,\" American Songwriter). It then states the cocky/grateful tension once, attributed to Variety's writer as tallies, and says in one sentence how both readings account for it (\"Defying the expert on texture while working for his approval fits both readings\"). C19 and C20 were restored, and I18 added. \"I thought I was the shit\" was left out for length. The change adds no new type certainty."
+    },
+    {
+      "finding_id": "fan-F6",
+      "action": "fixed",
+      "reason": "Fixed. Settle signal 1 now quotes the premise (\"a few big hits really fast\", \"felt all this pressure to like keep up in the pop world\", \"worked great\") before \"that is truly me\". It states the limits (\"That retrospective, told on a comedy podcast, points both ways\") and why the album is the cleaner test. The FAQ settle answer stays consistent. C38d and I19 were added."
+    },
+    {
+      "finding_id": "fan-F7",
+      "action": "fixed",
+      "reason": "Fixed. The misdated sentence was removed with the old summary. The body now dates the algorithm study to his early teens (\"a boy studying the social media algorithm in his early teens\"; \"in his early teens, after a stretch in New York musical theater, he 'started producing and studying...'\"). The type answer and type FAQ say \"since his early teens\", and the evidence's unexplained field was corrected."
+    },
+    {
+      "finding_id": "fan-F8",
+      "action": "fixed",
+      "reason": "Fixed together with subject-07. The two ELLE statements are separated by the intervening reasons (\"I think responding only makes it worse. I was a teenager when I was kind of just pushed into the spotlight\") and a marked gap (\"Later in the same answer:\"), and the closing commitment is quoted. The Three inference and the growing-up alternative are both weighed against his words."
+    },
+    {
+      "finding_id": "critic-01",
+      "action": "fixed",
+      "reason": "Fixed with subject-03. No anxiety, depression or body-image disclosure is used as evidence in the body, the summary, the type answer or the FAQs (C22, C33 and C46 deleted; the C35 depression line now appears only in the dated method note; \"very self-conscious\" removed). Three was re-weighed on non-health evidence already in the record: C44 (\"I will always be a Grammy nominee\") and C19 (\"I want to impress Tony\") were restored, along with his statement that he tests songs because he likes to (C13c) and the CBS timing of his authenticity turn (C06f). The summary now says Three leads \"on a tiebreaker, not a margin\": the surviving Three reasons are motives no job requires, while Four's lead rests on self-description. The order is unchanged, confidence stays low and Six is added as live. Title, metadata and FAQ strength match."
+    },
+    {
+      "finding_id": "critic-02",
+      "action": "fixed",
+      "reason": "Fixed. Audio was checked on 2026-10-21: Whisper medium.en on the downloaded S09 audio (12:40-14:30) matches the caption wording. \"I don't believe them\" follows Mason's \"You didn't believe them\", but the speaker could not be confirmed (a pitch comparison was inconclusive). The body prints it with that limit (\"probably his reply, though the speaker isn't certain\") and weighs it (\"if it is his, says the verdict didn't settle much\"). \"I just never felt like I belonged\" is included. The interpretation is hedged and names the skill-discovery and belonging readings. The summary no longer says he \"volunteers\" an answer about worth; it says the bedroom answer \"is about belonging as much as ability.\""
+    },
+    {
+      "finding_id": "critic-03",
+      "action": "fixed",
+      "reason": "Fixed. ELLE's \"I just feel out of place in the regular world and in public\" is printed beside the stage line and counted for Four. CBS's \"I love being in my own head\" is printed beside \"vulnerable\". The Broski \"isolate myself and I get sad\" line is no longer used as a strain on Four. \"A little too normal\" now carries the same promotional-register caveat the Three evidence gets, and the Four FAQ includes \"being in my own head\" and \"out of place\". The only remaining strain on Four is behavioral: the audience-testing method. \"The world needs more individuals in music\" was left out for length."
+    },
+    {
+      "finding_id": "critic-04",
+      "action": "fixed",
+      "reason": "Fixed with subject-06 and subject-07. The October 2025 reply is described as CNN reports it, as a defense of his jokes' tone, and the article no longer says he didn't address the jokes. The unaddressed part is narrowed to the young-crowd claim. His ELLE commitment is quoted and dated. \"The clearest test\" is dropped, and the paragraph says \"The episode doesn't separate the readings,\" naming acceptance of the criticism as an explanation."
+    },
+    {
+      "finding_id": "critic-05",
+      "action": "fixed",
+      "reason": "Fixed with subject-01. Body: labels approached him after \"Caroline\"; his father took the first email, from Columbia Records, for \"a scam\" (Variety); Warner flew him to Los Angeles; he chose Warner as the \"hungriest\" (ELLE). FAQ: the signing is traced to \"Caroline\" and the label emails it brought. The stated limit is narrowed to how his management team was assembled, and the allegation stays unadjudicated."
+    },
+    {
+      "finding_id": "critic-06",
+      "action": "fixed",
+      "reason": "Fixed via option (b). Six is added to open_case.live_alternatives ([4, 6, 7]), the type answer and FAQ (\"Types 6 and 7 are in play\"), and the triad paragraph. A \"Where Six and Seven fit\" section gives Six's evidence: the named fears as fears of losing support, belonging, \"I cannot get sick and let down my fans\", and \"you guys also want to own my music\". Its counterevidence is now stated accurately: he left school \"with his father's blessing over his mother's doubts\", and those unhedged bets are qualified by the note that a Six can meet fear by charging at it. Six branches were added to settle signals 2, 4, 5 and 6. The old one-sentence dismissal is gone. Health is not used. The dropout-wager quote was cut for length."
+    },
+    {
+      "finding_id": "critic-07",
+      "action": "fixed",
+      "reason": "Fixed. The Four costs now carry the same incentive caveat (\"Confession also made the hits, and he shrugged the messages off, so the cost is small\"). The NYLON line is printed with its odds clause, and the \"12 to 12\" sentence is removed."
+    },
+    {
+      "finding_id": "critic-08",
+      "action": "fixed",
+      "reason": "Fixed. Every signal now maps outcomes to readings. The criticism signal (now 4) maps changing course to Three, feeling misunderstood to Four, seeking reassurance to Six and joking to Seven. The testimony signal (now 6) maps hunger for recognition to Three, feeling different to Four, an anxious kid seeking a group to Six and chasing fun to Seven. Both match open_case.settle_signals."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "action": "fixed",
+      "reason": "Fixed. Before the Garden argument, the orientation paragraph says \"Caroline\" went viral on TikTok in 2022 and brought label emails, Warner announced his signing in January 2023 at 17, and \"Almost 20 songs followed without a hit.\" The hook keeps \"no chart hit\" (a protected passage), and the next paragraphs establish that he was signed. \"Caroline\" is identified as his song at first mention."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "action": "fixed",
+      "reason": "Fixed. The critic's Slender Man and Napoleon Dynamite comparisons are attributed (Digital Music News), so the body-shaming referent is clear. The \"My Body Isn't Ready\" paragraph was removed for the health reasons in subject-03, so no thread to it is needed. The jokes claim is still marked as not directly answered."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "action": "fixed",
+      "reason": "Fixed. The intro ends with one question, \"when what feels true and what works pull apart, which does he follow?\", tied to the Garden contrast (\"So the question under the Garden contrast is this\"). The same question opens \"What would settle it\" (the protected \"These readings will separate...\" sentence). The \"sadness or brand\" framing was removed."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "action": "fixed",
+      "reason": "Fixed. \"Three, Four or Seven\" is replaced by \"Where the case stands\" (about 140 words). Instead of re-listing evidence, it adds new weighing: which Three evidence survives the discounts, Grammy permanence, and the CBS timing of his authenticity turn. The algorithm/sadness contradiction is stated in full only twice in the body (intro and type answer); the old \"central contradiction\" line was cut. On length: the body is 3,191 words by checkDraft, above the roughly 2,500-word open-case target but inside the 1,200-4,500 limit. The added material is context the jury required (label route, rebuttal, trimmed-quote context, Six, settle mappings). Cuts were taken from the Swift NYT line, the ET/NYLON PR paragraph, the Atwood quote, the \"12 to 12\" line, the \"poppiest\" clause, the health passages and the old summary."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "action": "fixed",
+      "reason": "Fixed. All six settle items say which observable outcome favors Three and Four and, where relevant, Six and Seven. Item 6 names the kind of account that would favor each."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "action": "fixed",
+      "reason": "Fixed. The Switched On Pop process lines are now short verbatim fragments (\"I don't finish songs\", \"if I like the response\") with paraphrase. No printed quote carries more than one caption repetition (for example \"making something that I that I am really happy with\" and \"once you're a a public figure\"). The protected method note was moved out of the intro to the end of the type section, unchanged."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "action": "fixed",
+      "reason": "Fixed. At first mention Berg is \"his mentor, Tony Berg, the veteran producer who helped launch Phoebe Bridgers' career\" (Variety). The body now agrees with the FAQ: \"'Back to Friends' was made without Berg's production involvement\" (American Songwriter). LaGuardia is named, along with his leaving it (\"the arts high school he later left\"), before the Six section's \"left school\" sentence."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "action": "fixed",
+      "reason": "Fixed. meta_title is now \"Sombr's Personality Type: Open Case, Leading Read Type 3\" (56 characters)."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "action": "fixed",
+      "reason": "Fixed via option (b), as in critic-06. Six is live in the type answer, type FAQ, open_case.live_alternatives and settle signals 2, 4, 5 and 6. Its evidence: the named fears as fears of losing support, belonging, \"let down my fans\", and suspicion of the labels' motives. The PR-reversal paragraph was cut (subject-09), so no \"nothing shows doubt of authority\" claim remains. The Seven case's fear argument was also tested against Six: the article says the fears \"fit Six as readily as Three\" and frames Seven's counterevidence as fears of \"judgment, failure and letting people down\". The germaphobia and \"sums up me as a person\" lines are recorded in S11 but not printed, for length."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "action": "fixed",
+      "reason": "Fixed with critic-02. \"Is the Three pattern\" is removed. The passage is read as fitting Three and, for its belonging half, Six or Four. The 14:00-14:20 exchange was checked against the audio: the wording is confirmed and the speaker is uncertain, so the body prints \"I don't believe them\" with that limit and weighs it against the Three reading (\"if it is his, says the verdict didn't settle much\"). The summary uses the line only in this qualified form."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "action": "fixed",
+      "reason": "Fixed with critic-03. The ELLE quote is printed with its second sentence. The Broski continuation is weighed (\"so easy to like see everything as numbers or like statistics\" strains \"a Three's scoreboard too\"). \"Stage, not solitude\" is no longer a strain on Four, and \"no envy\" was removed from the body and FAQ (the evidence labels it absence of evidence). The summary and Type 4 FAQ name only the behavioral strain, finishing songs by audience response. The old \"unexplained\" line was cut."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "action": "fixed",
+      "reason": "Fixed with subject-03. No health or body-image disclosure carries type weight anywhere, and type_hypothesis.for_claim_ids no longer includes C22 or C33. The lyric was dropped. The article restates where Three stands after the removals (\"leads on a tiebreaker, not a margin\"; enneagram-07)."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "action": "fixed",
+      "reason": "Fixed. (1) The co-writing signal is reworded around reasons: \"Fear of judgment fits Three and Four alike, so his next reason matters more: protecting the songs' truth favors Four, keeping the hits coming with outside writers favors Three...\" (2) Signal 6 maps each kind of outside account to a type. (3) A post-tour signal was added (signal 5), and its Seven prediction concerns outrunning the low (\"a scramble for new stimulation to outrun the comedown\"). (4) Six branches were added where Six is live. The FAQ lists the same six items."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "action": "fixed",
+      "reason": "Fixed. The clause \"fits a Three's attention to reception\" is gone, and the episode is presented as not separating the readings, with his concession and commitment quoted. C27 was removed from for_claim_ids. The \"so be it\" line is recorded in S08 and C27c's alternative but not printed, for length."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "action": "fixed",
+      "reason": "Fixed without a type-thesis change. The summary names Three reasons that survive the article's own discounts and argues them: he says he tests songs because he likes to, not because he must (C13c); he writes for one judge whose notes he wants to avoid (C19); his authenticity turn came only after \"it went on for so long and it wasn't working anymore\" (C06f), which a Three reading counts as adjustment; and he holds onto status (\"I will always be a Grammy nominee\", C44). It also says plainly that Three leads \"on a tiebreaker, not a margin\" and that Four leads on self-description. The leading type (3), confidence (low) and alternative_type (4) are unchanged, so no --refresh is required. Title, meta_title, description, type answer and type FAQ all keep \"leading read, held loosely\" language."
+    },
+    {
+      "finding_id": "future-01",
+      "action": "fixed",
+      "reason": "Fixed. The type answer and type FAQ now read \"A record dating from his 2025 breakout can't yet separate them,\" and the body reads \"His star career dates from spring 2025.\" No reader-facing passage gives the record's age as \"about N months.\" I04 and I02 are time_sensitive with review triggers tied to open_case.next_review (2026-12-15)."
+    },
+    {
+      "finding_id": "future-02",
+      "action": "fixed",
+      "reason": "Fixed. Settle signal 5, \"The first long break from touring\", is dated (\"As of October 2026, the You Are the Reason tour was scheduled to run through July 2027\") and maps what steadies him to Three, Four, Six and Seven. The FAQ lists six items. C53 is time_sensitive with a trigger at the tour's end. Length was trimmed elsewhere, but the edit is not net-neutral (see unfamiliar-04)."
+    },
+    {
+      "finding_id": "future-03",
+      "action": "fixed",
+      "reason": "Fixed. Signal 4 is now \"The next sustained criticism\", with the VMA tribute as a dated example. Each response maps to a type, and the signal notes that a repeat of the 2025 defend-then-reverse pattern \"would add little; his reasons would matter more.\" The FAQ no longer names the VMA backlash. C40/C40b triggers now remove the \"had not answered\" clause at next_review if no response surfaces."
+    },
+    {
+      "finding_id": "future-04",
+      "action": "fixed",
+      "reason": "Fixed. Body: \"By his account he writes and produces alone at home...\" FAQ: \"Through his 2025 debut album, by his account, he wrote and produced...\" The NYLON team role is dated in both places (\"NYLON reported in April 2026...\"). C16c, M06 and C28b are time_sensitive, with review triggers tied to the second album's credits or a reported team change."
+    },
+    {
+      "finding_id": "future-05",
+      "action": "fixed",
+      "reason": "Fixed. I12 is now time_sensitive with a trigger to re-search for Tony Berg, LaGuardia faculty or classmates and early collaborators at next_review (2026-12-15). The sentence stays under the dated lead-in \"As of October 21, 2026, six things...\""
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Mason suggested that \"Caroline\" had validated him. \"It validated me,\" he agreed.",
+      "action": "kept",
+      "reason": "Kept verbatim. The interviewer's framing still precedes his agreement, and the CBS audio check on 2026-10-21 confirmed the exchange."
+    },
+    {
+      "passage": "That is how a TikTok-era career works, so on its own it says little about motive.",
+      "action": "kept",
+      "reason": "Kept verbatim. It still discounts professional incentive at the point where the Three evidence is most tempting; the summary builds on it by naming only the motives the job does not require."
+    },
+    {
+      "passage": "\"Wanted to be seen\" could carry a Four's sense of lack just as well, and one answer to a sympathetic interviewer can't settle it.",
+      "action": "kept",
+      "reason": "Kept verbatim. It now follows the expanded, hedged reading of the CBS answer (Three, skill discovery, belonging)."
+    },
+    {
+      "passage": "No teacher, classmate or early collaborator has described him on record, and Berg has not been quoted.",
+      "action": "kept",
+      "reason": "Kept verbatim under the dated lead-in in settle signal 6, now followed by a mapping of outcomes to types. I12 is time_sensitive (future-05)."
+    },
+    {
+      "passage": "Some of this should stand however it settles. At 18 he called the Garden, and in 2026 he said he had only dreamed of a 1,000-seater.",
+      "action": "kept",
+      "reason": "Kept verbatim as the close. It rests on dated statements in his own words and keeps health and controversies out of the ending."
+    },
+    {
+      "passage": "In November 2023, Shane Boose was 18, had no chart hit and had not yet played a live show as Sombr.",
+      "action": "kept",
+      "reason": "Kept verbatim as the hook. The orientation paragraph now adds that he was already signed (unfamiliar-01) without changing the sentence."
+    },
+    {
+      "passage": "Both answers are his. Which one describes him is the question this profile tries, and so far fails, to settle.",
+      "action": "kept",
+      "reason": "Kept verbatim. The intro now ties it to the single test question (unfamiliar-03)."
+    },
+    {
+      "passage": "Sombr \"watches me take them in and asks me questions after each one,\" the writer observed.",
+      "action": "kept",
+      "reason": "Kept verbatim with its continuation. It is still the rare third-party observed behavior."
+    },
+    {
+      "passage": "\"Even if some people found it cringe, it's cringe until you win.\"",
+      "action": "kept",
+      "reason": "Kept verbatim, still followed by the incentive discount."
+    },
+    {
+      "passage": "These readings will separate when the choice that feels true and the choice that works pull apart and cost him something.",
+      "action": "kept",
+      "reason": "Kept verbatim as the opening of \"What would settle it\". It now matches the intro's test question."
+    },
+    {
+      "passage": "That reason, fear of judgment, fits a Three's image sensitivity as well as a Four's privacy.",
+      "action": "kept",
+      "reason": "Kept verbatim. The co-writing settle signal was rewritten to stay consistent with it (enneagram-05), and the same CBS exchange's \"I love being in my own head\" now follows it."
+    },
+    {
+      "passage": "And when Fallon asked about the first concert he saw there, he said he had never been to one, only Knicks games. \"No, I'm gonna be the first.\"",
+      "action": "kept",
+      "reason": "Kept verbatim as the final lines."
+    },
+    {
+      "passage": "\"Madison Square Garden in New York City,\" he said. \"That's my dream, but it will happen. I know it!\"",
+      "action": "kept",
+      "reason": "Kept verbatim in the hook."
+    },
+    {
+      "passage": "\"I didn't even realize that I was good at music until other people told me that I was good.\"",
+      "action": "kept",
+      "reason": "Kept verbatim and audio-checked. It is now surrounded by the full answer (\"I never felt like I was good at anything or a part of anything\"; \"I just never felt like I belonged\") per critic-02, fan-F3 and enneagram-02, and the interpretation is hedged."
+    },
+    {
+      "passage": "Yet in that same Broski answer he remembered telling people as a kid, \"I want to be a pop star. I want to be a rock star.\"",
+      "action": "changed",
+      "reason": "Changed. The distinctive detail is kept: the quote \"I want to be a pop star. I want to be a rock star\" still appears, now with the reply he got (\"That's like a one in a billion\"). The \"same answer\" self-contradiction framing was misleading. In context the Broski answer is coherent (childhood ambition met by long odds), and it was paired with a garbled caption line. Subject-08 and fan-F4 both required removing it."
+    },
+    {
+      "passage": "\"I wouldn't respond now,\" he told ELLE. \"That video kind of woke me up. I was like, 'Wait, yeah, that is weird.'\"",
+      "action": "changed",
+      "reason": "Changed. Both quotations and the change of position over time are kept. The two sentences were joined in the draft though they come from separate ELLE paragraphs; they are now separated by his stated reasons, with a marked gap (\"Later in the same answer:\") and his closing commitment, per fan-F8, subject-07 and critic-04. The character development the reviewer valued is fuller."
+    },
+    {
+      "passage": "doubles as his answer to the charge, which makes it weak evidence of motive.",
+      "action": "kept",
+      "reason": "Kept verbatim at the end of the industry-plant paragraph. The symmetric incentive discount is now also applied to the Four costs (critic-07)."
+    },
+    {
+      "passage": "\"If the album flops, f*ck it. As long as I am happy with what I made,\" he told NYLON. Holding to that favors Four, pivoting and working harder favors Three",
+      "action": "kept",
+      "reason": "Kept verbatim. Six and Seven branches are appended after it in the same item."
+    },
+    {
+      "passage": "Research closed on October 21, 2026. Quotes from video interviews follow YouTube's captions, repeated words included.",
+      "action": "kept",
+      "reason": "Kept verbatim. It moved from the intro to the end of the type section (unfamiliar-06) and anchors the dated record (future-01)."
+    },
+    {
+      "passage": "The Three reading notices that the humble version arrived after the bold one had paid off, when humility plays better. Nothing on record shows which explanation is right.",
+      "action": "changed",
+      "reason": "Changed. The interpretation and its stated limit sit side by side, as before: \"A Three reading notices that the smaller dream was recalled after the bigger one was booked. Nothing on record shows which explanation is right.\" \"When humility plays better\" was removed because it imputes a calculated motive that no source supports (subject-08, fan-F4). \"Paid off\" became \"was booked\" because the Garden shows had not happened when he spoke to Fallon."
+    },
+    {
+      "passage": "Some of this should stand however it settles.",
+      "action": "kept",
+      "reason": "Kept verbatim as the start of the close."
+    }
+  ],
+  "prior_blockers": []
+}

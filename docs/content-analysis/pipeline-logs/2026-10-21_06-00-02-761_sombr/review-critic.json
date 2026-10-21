@@ -1,0 +1,93 @@
+{
+	"schema_version": 3,
+	"role": "critic",
+	"content_sha256": "2a0a4f5e1204ea07a867d3cf41ca71eeddd43e4bbb4efb64bb890dd2a0bed49e",
+	"evidence_sha256": "7c5f17dea7fd32aae87896661db0579c6b9b2cf26ebe61939e459be7741e72fc",
+	"risks": {
+		"sensitive_allegations": true,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": false
+	},
+	"findings": [
+		{
+			"id": "critic-01",
+			"severity": "major",
+			"passage": "His health is not evidence for any type, and none is read from it here.",
+			"problem": "The article's own argument contradicts this disclaimer. Three's lead names \"not performing well\" as one of its four decisive fears, and that fear comes from an ELLE anxiety-attack disclosure (\"I have anxiety attacks with people coming up to me... scared that I didn't perform well or act well for them\"), offered as \"fame sharpened the same fear.\" The body-image single's lyric is read as stating \"the Three's dilemma plainly.\" \"Very self-conscious person\" is used against Seven, though on CBS (S09, ~32:00) it continues \"I don't love the way my body looks.\" The ELLE depression lines sit inside the Four case under \"The feeling is old, too,\" closed by a stage-name callback (\"I'm just somber, man\") after the gravest part of his account is skipped. The research record bars mental-health and body-image disclosures from type evidence (C22, C33-C35). Take them out and the Three lead is thinner than \"narrowly\" suggests.",
+			"acceptance_test": "No anxiety, depression or body-image disclosure (C22, the C33 lyric, C35, the body-image context of C46) is used as evidence for or against any type in the body, the \"Three, Four or Seven\" summary, the type answer or the FAQs. If the ELLE depression lines stay, they sit outside the type argument and are not framed as a callback to the stage name. The Three lead is re-weighed on non-health evidence already in the record (e.g., C44 \"I will always be a Grammy nominee,\" C19 \"I want to impress Tony,\" \"any song that I complete has to be the best song I've done yet\"). If that evidence doesn't keep Three ahead, the article says Three and Four are level or changes the order, and the evidence record and metadata follow."
+		},
+		{
+			"id": "critic-02",
+			"severity": "major",
+			"passage": "Worth confirmed by other people's verdict on his ability is the Three pattern.",
+			"problem": "This is the only near-motive statement behind the Three lead, and the quote is cut right before the context that complicates it. In the CBS caption transcript (S09, ~13:00-14:00) the answer goes on: \"Like I never I just never felt like I belonged.\" Mason asks when he first knew he was good (\"When I posted that thing online and like all these dream record labels\"), suggests \"you didn't believe them,\" and the captions give \"I don't believe I don't believe them.\" Only then does Mason offer \"it validated you.\" So the passage holds a not-belonging statement (which fits Four or Six) and a present-tense disbelief of praise, which is the opposite of worth confirmed by others' verdict. \"I didn't even realize that I was good at music until other people told me\" reads just as naturally as the way any teenager learns a skill is real. The flat \"is the Three pattern\" is more confident than the passage. The summary also says he \"volunteers\" this \"when asked... what made him feel worth something.\" Mason actually asked \"What do you think that was about?\" (why he was a troubled kid), and \"It validated me\" repeats Mason's wording.",
+			"acceptance_test": "After an audio check at S09 ~13:00-14:30, the body includes \"I just never felt like I belonged\" and his reply on not believing the praise, or else stops presenting the passage as worth conferred by others' verdict. The interpretation sentence uses hedged phrasing and names the skill-discovery and belonging readings. The summary no longer says he \"volunteers\" an answer about what made him feel worth something."
+		},
+		{
+			"id": "critic-03",
+			"severity": "major",
+			"passage": "\"I'm more myself and more Zen when I'm on the stage,\" he told ELLE.",
+			"problem": "The three strains on Four (\"resists being set apart,\" \"solitude makes him sad,\" \"the stage, not solitude, is where he feels most himself\") each drop adverse context from sources the draft already cites. ELLE's very next sentence is \"I just feel out of place in the regular world and in public.\" That is a sense of not fitting in, close to the Four case, and it changes what \"most himself on stage\" means. On CBS the stage is where people \"are there because they support me, like I feel so welcomed.\" On writing alone, the same CBS answer the draft quotes for \"vulnerable\" continues \"I have to write alone. It's why I love it so much. I love being in my own head.\" That undercuts \"solitude makes him sad,\" which rests on one Broski line. \"I'm a little too normal\" comes from a riff on fans putting artists \"on these pedestals\" (NYLON). That's the relatable promo register the draft discounts when it cuts against Three (\"modesty is the normal register\") but not here. American Songwriter (S04) also has \"I think the world needs more individuals in music.\" And the draft never argues why isolating and getting sad counts against a withdrawn type.",
+			"acceptance_test": "Each strain on Four in the body, the summary and the Four FAQ is either printed beside its adjacent adverse line (\"out of place in the regular world,\" \"I love being in my own head\") and re-weighed, or removed. \"A little too normal\" gets the same promotional-register caveat the article applies to Three's evidence. The FAQ's \"says writing alone makes him sad while the stage makes him most himself\" no longer omits his CBS statement that he loves writing alone."
+		},
+		{
+			"id": "critic-04",
+			"severity": "major",
+			"passage": "He answered on TikTok that he had \"never uttered a serious word in my life\" and that her video had started \"a massive body-shaming hate train,\" without directly addressing her claims about the jokes.",
+			"problem": "This contradicts the source it cites. CNN (S21, re-opened 2026-10-21) reports he \"took umbrage with being attacked for the tone of his jokes,\" and that \"never uttered a serious word in my life\" was his answer to that charge, followed by \"I make jokes for 5 minutes of the concert and the rest is music.\" He did address the jokes, dismissively. The 2026 response is clipped too. ELLE continues past \"that is weird\" to \"If you still choose to look at me in a type of way because of that, so be it, but just know that that doesn't represent me as a human. I plan to never say or do something that would even make someone uncomfortable again.\" Without it, readers can't tell what \"that is weird\" refers to, and his most relevant response to a sensitive allegation is missing. The paragraph is billed as \"The clearest test\" and reads the change as \"attention to reception.\" The only alternative it offers is age or a publicist, not that he accepted the criticism on its merits. Two sentences later the draft concedes the episode doesn't discriminate.",
+			"acceptance_test": "The October 2025 reply is described the way CNN reports it (he defended the jokes as unserious and brief), with no claim that he didn't address them. The 2026 ELLE response includes his commitment never to \"say or do something that would even make someone uncomfortable again,\" attributed and dated. \"The clearest test\" is dropped, or the paragraph says plainly that the episode does not separate the readings. Accepting the criticism on its merits is named as an explanation alongside the Three and age/publicist readings."
+		},
+		{
+			"id": "critic-05",
+			"severity": "major",
+			"passage": "No reporting found by October 21, 2026 shows how his label or management relationships were formed.",
+			"problem": "The draft's own sources contradict this. Variety (S07, re-opened 2026-10-21) reports that after the \"Caroline\" TikTok went viral, an email from Columbia Records arrived, \"Boose's dad warned him not to reply. 'That's a scam,'\" other record companies' emails \"continued to roll in,\" and Warner flew the 16-year-old to Los Angeles. ELLE (S08) says \"his inbox was flooded with record labels hoping to sign the young singer.\" Claiming there is no information, right after noting his father's team role, leaves the industry-plant insinuation standing longer than the record allows. It also leaves out the one reported detail that bears directly on the charge: his father took the first label email for a scam. The FAQ repeats the sentence.",
+			"acceptance_test": "Body and FAQ say what is reported: labels approached him after the 2022 \"Caroline\" TikTok, his father first took Columbia's email for a scam, and Warner flew him to Los Angeles. All of it is attributed as his account via Variety/ELLE and dated. Any stated research limit is narrowed to what really is unreported (e.g., management or his father's present role), and the allegation stays unadjudicated."
+		},
+		{
+			"id": "critic-06",
+			"severity": "major",
+			"passage": "He is loyal to Berg and his parents, but nothing shows a Six's doubt of authority or worst-case planning, and he left school over his mother's doubts to bet on himself.",
+			"problem": "The Three lead rests on \"the fears he names,\" and the article never explains why those are shame or image fears rather than security or belonging fears. Being dropped by a label is a security fear. The core CBS answer is about wanting \"to be... a part of something\" and never feeling he \"belonged,\" yet the interpretation sentence weighs only Four. The dismissal's premises are also weak against the draft's own material. \"They can't PR train me\" (quoted in the draft) and his Variety line about the labels (\"you guys also want to own my music. So I deserve a lot more than dinner\") read as suspicion of authority. Variety's \"Either I'll be a high school dropout and also be dropped by my label, or I'll be a high school-dropout success story\" is worst-case framing. He left school with his father's backing (\"my dad was more supportive,\" People; \"Go for it, brother,\" CBS), not simply over his mother's doubts. Loyalty to Berg \"until, you know, forever\" (CBS) and a mentor who keeps him \"in check\" (Variety) are left out. Under the open-case rules, a one-sentence dismissal that misstates the evidence counts as a token treatment.",
+			"acceptance_test": "Either (a) the body gives a sourced discriminator showing why the named fears are about worth or image rather than security or belonging, and the Six sentence states the father's support and deals with the authority-suspicion lines; or (b) Six is added to open_case.live_alternatives, the type answer and the FAQ, with its own settle signal. Health disclosures are not used either way."
+		},
+		{
+			"id": "critic-07",
+			"severity": "minor",
+			"passage": "He tells the truth in songs even when it costs him.",
+			"problem": "Three's evidence is steadily discounted for professional incentive (\"That is how a TikTok-era career works\"; \"modesty is the normal register\"). The Four case's \"costs\" get no such discount, though they are the same commercial formula. i-D (S01) says he shrugged off the ex's messages. Confessional lyrics and the bedroom sound are what Swift praises in the next sentence and what made the hits, so \"imperfection kept against expert advice\" costs little. The evidence record says so (C18 alternative) but the article doesn't. Context is also trimmed in the Three direction. NYLON's \"There was no f*cking possibility that I could be a successful artist\" continues \"You are told it's one in a million. It truly is.\" That's an odds statement, from an answer that opens \"I will always be a Grammy nominee\" (status permanence, cut from the draft). And \"12 to 12\" went untested because \"I was so so passionate about that song\" (Switched On Pop, ~23:20), a reason the draft leaves out.",
+			"acceptance_test": "Four's cost examples carry the same professional-incentive caveat as Three's, or \"costs him\" is dropped. The NYLON line is printed with its odds clause or removed from the \"turned modest\" sequence. The \"12 to 12\" sentence keeps his stated reason (passion) or drops the implied achievement reading."
+		},
+		{
+			"id": "critic-08",
+			"severity": "minor",
+			"passage": "A first outside account of what drove him would add the view this record lacks.",
+			"problem": "Two of the five settle signals in the body don't say what would separate the readings. Signal 5 amounts to \"more testimony,\" the generic signal the open-case anchors warn against. Signal 4 ends \"Adjusting his image, feeling misunderstood or joking it away would each say something\" without mapping outcomes to types. The evidence record's settle_signals make both mappings, but the article drops them.",
+			"acceptance_test": "Signals 4 and 5 each say, in reader language, which observable outcome would favor Three, Four and Seven (and Six if it is added), matching open_case.settle_signals."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "Both answers are his. Which one describes him is the question this profile tries, and so far fails, to settle.",
+			"reason": "The hook sets two sourced, dated statements of his own against each other and admits up front that the profile can't settle them. That is the honest open-case frame, and it passes the five-year test because it doesn't depend on the latest event."
+		},
+		{
+			"passage": "That reason, fear of judgment, fits a Three's image sensitivity as well as a Four's privacy.",
+			"reason": "Says plainly that a tempting piece of evidence does not discriminate. This is the hedging the Three pillar (critic-02) should copy."
+		},
+		{
+			"passage": "Sombr \"watches me take them in and asks me questions after each one,\" the writer observed.",
+			"reason": "One of the few observed behaviors in a record that is almost all self-report. Specific to him and attributed to a named outlet's writer."
+		},
+		{
+			"passage": "These readings will separate when the choice that feels true and the choice that works pull apart and cost him something.",
+			"reason": "A crisp, testable discriminator in reader language. It frames the settle section honestly."
+		},
+		{
+			"passage": "And when Fallon asked about the first concert he saw there, he said he had never been to one, only Knicks games. \"No, I'm gonna be the first.\"",
+			"reason": "A distinctive, sourced closing detail that answers the hook without forcing a type verdict."
+		}
+	],
+	"assessment": "Critic (fair-minded skeptic). Open-case eligibility confirmed: he is 21; his star career dates from the April 2025 Hot 100 entry; 38 sources were opened, including about 45,000 caption words; and testimony is limited to friends, collaborators and admirers. No eligibility blocker. The title, description and FAQs keep \"leading read, held loosely\" language, and professional incentives are named often. But a skeptical pass shows an asymmetry. The Three lead stands partly on anxiety and body-image disclosures that the research record bars and the article says it doesn't use (critic-01), and on a CBS answer cut just before \"I just never felt like I belonged\" and \"I don't believe them\" (critic-02). Meanwhile the strains on Four rest on clipped quotes whose next sentences support Four (critic-03). Two passages on sensitive allegations contradict the sources they cite: CNN on his October 2025 TikTok reply (critic-04), and Variety/ELLE on how labels found him (critic-05). Six is dismissed on premises the draft's own material undercuts (critic-06). After repair, the honest result may be Three and Four level, or Six live. If the editor changes the leading read or the live alternatives, treat it as a major thesis change requiring --refresh --expanded-review. Similarity advisory: not tripped (max 0.039 against a 0.04 threshold, no shared phrases). The top matches are the short triad-definition sentences, which are ordinary type vocabulary, and no argument is reused. Method: claims were checked against the research stage's saved page texts and caption transcripts (/tmp/sombr-research), and CNN (via localnews8), Variety and ELLE were re-fetched live on 2026-10-21; all quoted context matched. No audio was heard, so the CBS caption wording (including \"I don't believe them\") still needs an audio check."
+}

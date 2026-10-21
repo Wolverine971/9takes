@@ -1,0 +1,79 @@
+{
+  "schema_version": 3,
+  "role": "future",
+  "content_sha256": "8b3f8463c5f047e390517a54ba02946855ad8e8b4d5181e6d87fab923cb4cc50",
+  "evidence_sha256": "23fb21d08bf24d65f78b2fa7ea792bb5d15bbed522f47226392067663ba157a1",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "future-01",
+      "severity": "major",
+      "passage": "A Six would describe Snape with relief at a trusted team and a stable home, and aim the dread at how audiences receive it. A One would talk about getting the role right and bristle at compromises in the work.",
+      "problem": "This is the article's closing durability mechanism ('The decade ahead will test this read'), and evidence claim I07 makes it the review trigger, but the test cannot realistically fail. The Six outcome is already on record before the premiere: in March 2026 he told The Sunday Times 'I have been really supported by the production team' (C19g, S04). Every actor on an HBO press tour praises the team and admits nerves about reception. Almost none publicly 'bristle at compromises' in a flagship franchise they are contracted to for ten years. Both signals depend on promotional interviews, which are biased toward the Six result, so the first post-premiere refresh will 'confirm' the read whatever his type is. The article already has a stronger test that doesn't depend on promotion: a director's account of how he behaves when a production is in trouble (the 'Why not Type 1?' section). Research task (c) has another: how he explains his self-criticism when asked directly.",
+      "acceptance_test": "The closing test names at least one observable signal that could come out against Type 6 and that routine press-tour praise or nerves cannot satisfy. Examples: unprompted colleague or director testimony about his conduct in a troubled production, or his own direct explanation of his self-criticism as fear of exposure and loss versus falling short of a standard. It also says which result would move the read toward Type 1. Claim I07's review_trigger and passage are updated to match. A reader in 2031 could check the signal against the post-premiere record and get a real answer either way."
+    },
+    {
+      "id": "future-02",
+      "severity": "minor",
+      "passage": "Therapy took hold \"maybe only on the third attempt,\" and he still goes weekly.",
+      "problem": "This sentence presents a June 2022 status as a 2026 one. Both the 'third attempt' quote and the weekly frequency come from the 2022 Guardian interview (S01: 'I still go every week'; claim C22e reads 'still weekly (2022)'). The very next sentence is attributed to 'The Sunday Times in 2026', so readers will date both to 2026, or credit the quote to The Times. The 2026 source records only that he nods when asked if he does therapy. It says nothing about frequency. The present tense 'still goes weekly' is an undated status claim, and C22e is marked stable with no trigger.",
+      "acceptance_test": "The sentence dates and attributes the third-attempt quote and the weekly frequency to the Guardian in 2022 (e.g. 'he was still going every week in 2022'), or drops 'weekly'. The 2026 Sunday Times quote stays separately attributed. C22e is recorded in past tense or as time_sensitive with a trigger."
+    },
+    {
+      "id": "future-03",
+      "severity": "minor",
+      "passage": "Paapa Essiedu dreads being found out before every job, yet walked on mid-show at the National without a tremble.",
+      "problem": "The description, the persona_title ('The Actor Who Expects to Be Found Out'), the type answer and the type FAQ ('before almost every job he expects to be found out') all state the found-out dread as a timeless present-tense habit. The record dates it: the explicit pre-job dread is from 2022 (S01). In August 2023 he said he was 'thinking less about what people might think about me' (C42), and the body reports that easing. The 2024 'Jesus, what? Really? Me?' line is a lighter echo. Ten years into Snape, the most visible line in search results may describe a habit he has publicly said he outgrew. Claim C45, the description passage, is marked stable with no review trigger, while the inventory's own C42 records a change. The description also says 'every job' where the type answer and FAQ say 'almost every job'.",
+      "acceptance_test": "Metadata and the type answer frame the dread as a documented long-running pattern with a time anchor (e.g. 'has described dreading being found out before every job' or 'for years has dreaded'). Every job versus almost every job agrees across description, type answer and FAQ. C45, or a new claim covering the persona_title and type answer, is time_sensitive. Its review_trigger reads something like 'If a post-2026 interview says the first-day dread has gone, revise description, persona_title, type answer and FAQ'."
+    },
+    {
+      "id": "future-04",
+      "severity": "minor",
+      "passage": "His casting was announced in April 2025, and HBO has scheduled the first season to premiere on December 25, 2026.",
+      "problem": "The FAQ goes stale 66 days after drafting. Unlike the body, which credits the date to TechRadar in March 2026, the FAQ states the schedule as a current fact with no source date. TechRadar itself notes the date moved from 2027, so it can move again. From December 26, 2026, 'has scheduled ... to premiere' misreads in search snippets whether or not anyone refreshes the page. The 'known for' FAQ also says, in present tense, that he 'plays Severus Snape in HBO's Harry Potter series'. That is a ten-year role status he himself framed as contingent ('if that was the reason I got kicked off this job', S04), and it is not in the claim inventory as time_sensitive. C20b's trigger ('Confirm after the premiere') has no concrete action.",
+      "acceptance_test": "The Snape FAQ answer is true both before and after December 25, 2026. For example: 'The first season was scheduled to premiere on December 25, 2026', or no premiere date at all, keeping the April 2025 casting and the ten-year commitment. The present-tense role statement in the 'known for' FAQ is inventoried as time_sensitive. C20 and C20b carry a dated, actionable trigger (e.g. 'On or after 2026-12-26: confirm the premiere, change tense in body and FAQ; on any recast or departure news, revise both FAQs and the closing section')."
+    },
+    {
+      "id": "future-05",
+      "severity": "minor",
+      "passage": "He has described the same doubt, in nearly the same shape, for a decade.",
+      "problem": "Several phrases are relative to the drafting date and will drift as the page ages. 'For a decade' was true in 2026, but the dated instances span 2016 to 2024 (C07), and a 2031 reader will read it as 2021 to 2031. Others: 'The Type 4 case starts with grief, which he now calls a companion' (the 'now' is March 2025, S24); 'On a recent trip' (recent to June 2022); 'He has not reported the threats.' (true as of March 2026; C19b is tracked, but the sentence itself carries no date). The standard requires absolute dates for changing facts.",
+      "acceptance_test": "Each phrase is anchored to an absolute date: 'from 2016 to 2024' or 'since at least 2016' for the doubt pattern; 'which by 2025 he called a companion'; the trip placed in 2022 or 'recent' removed; 'As of March 2026, he had not reported the threats'. Nothing in the body uses 'now', 'recent' or an open-ended span without a year."
+    },
+    {
+      "id": "future-06",
+      "severity": "minor",
+      "passage": "on the [Dish podcast](https://pdst.fm/e/chtbl.com/track/43774/traffic.megaphone.fm/CGPL9251216488.mp3) in May 2026",
+      "problem": "Two load-bearing reader links are raw RSS audio enclosures, not episode pages. The Dish link goes through two ad-tracking redirect prefixes (pdst.fm, then chtbl.com, the Chartable tracker Spotify has sunset) and today resolves after three hops to a tokenised megaphone.fm mp3. The Going Rogue Club link is a raw acast media.mp3. They work now, but enclosure and tracking-prefix URLs are among the fastest-rotting link types. They also hand the reader a 47- or 87-minute audio file with no timestamp for the quoted King Lear story or the drama-school rejections. The same URLs are in the citations list. S26's context records a YouTube upload (hqph-vko_lY) for Dish.",
+      "acceptance_test": "Inline links and citations for Dish (S26) and The Going Rogue Club (S25) point to a stable episode page or a public video, timestamped where the platform allows (e.g. the Dish YouTube upload at about 40:30 for the understudy story). No reader-facing link contains a tracking-redirect prefix (pdst.fm, chtbl.com) or a direct media.mp3 enclosure."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Put the café and the King Lear night side by side and a pattern shows. His fear arrives early, before anything has gone wrong. When something really does go wrong, he is the steady one.",
+      "reason": "The hook and thesis rest on dated 2014 and 2022 scenes, not on Snape, the Olivier or the premiere. Remove every 2025-2026 event and the opening still works. This is the durability-9 shape and it should not be swapped for a Snape-led opening when the series airs."
+    },
+    {
+      "passage": "This is a read of his public record from 2014 to 2026, at medium confidence.",
+      "reason": "It states the evidence window and the confidence in absolute terms, so the type claim stays honest years after the record grows. Keep it, and update the end year whenever a refresh adds evidence."
+    },
+    {
+      "passage": "The scene that would settle it is not on record: a director's account of how he behaves when a production is in trouble. Does he gather allies and over-prepare, or quietly hold the line on standards?",
+      "reason": "This is the article's best five-year settle signal. It is observable, independent of promotion, and can come out against the Six read. It should anchor the closing test (see future-01)."
+    },
+    {
+      "passage": "Dominic Maxwell of The Times remembered \"a kind of Tiggerish energy, a physical restlessness\" when they met in 2016. By 2023, Maxwell wrote, \"he is all containment.\"",
+      "reason": "One observer, two dated meetings seven years apart. It records change over time without forcing it into the type, which is exactly what keeps a profile accurate as the person ages."
+    },
+    {
+      "passage": "Losing both parents by 20, on little money, would teach anyone to brace for loss, and public evidence can't separate temperament from that history.",
+      "reason": "An explicit inference limit on the most tempting causal story. It keeps the page from aging into an overclaimed childhood-wound narrative as more biography appears."
+    }
+  ],
+  "assessment": "Five-year test: mostly passes. The thesis survives without the latest events. The hook stands on the June 2022 café interview and the January 2014 King Lear step-in. The Six-versus-One discriminator is a March 2025 podcast answer. The 'steady when it counts' arc stands on 2014, 2016 and 2024. Snape (2025-2026) and the April 2026 Olivier only add to it, so stripping them leaves the central insight intact. Absolute dates are used almost everywhere, and the type scope is dated ('2014 to 2026'). The inventory marks 10 claims time_sensitive with triggers, mostly keyed to the premiere. Weak points: (1) The closing future test is biased by promotion and already half-met by a March 2026 quote, so the first refresh would confirm the read whatever his type is (future-01, major). (2) The premiere is 66 days away, and the FAQ states its date in a tense that expires on December 26, 2026 (future-04). (3) A few status claims are undated or misdated: the 2022 weekly-therapy line placed beside a 2026 quote, the present-tense found-out dread in metadata that his own 2023 remark complicates, and drift words like 'for a decade', 'now' and 'recent' (future-02, -03, -05). (4) Two podcast links are raw tracking-redirect mp3 enclosures (future-06). The age FAQ is honestly dated 'as of October 2026' with an annual trigger; that is acceptable. Similarity advisory: it tripped on the house-mandated triad sentence ('whose core emotion is fear', and the One equivalent) and on the Six gloss 'tests the ground before trusting it' (compare Lily-Rose Depp's 'test an authority before trusting it'). That is ordinary type vocabulary, not reuse of an argument, so there is no finding. The generic Six-definition paragraph is still the least person-specific part of the page. Risks: agree with sensitive_allegations (Guildhall racism account, death threats, political statements) and contested_typing (medium confidence, Type 1 close). I found no historical-source uncertainty or major thesis change. Checked: the Times 2026, Guardian 2022, Times 2023 and TechRadar saved texts and the Mad, Sad and Bad transcript for the dated items above. Both mp3 links resolved by curl on 2026-10-20. Glass returned 403 to curl (likely a bot wall), which I did not count as rot."
+}

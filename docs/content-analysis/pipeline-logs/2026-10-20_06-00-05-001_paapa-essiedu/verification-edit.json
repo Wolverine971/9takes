@@ -1,0 +1,1368 @@
+{
+  "schema_version": 3,
+  "content_sha256": "32966ba9ca57e123da8b4fcf49270bc2929e2225af4dd80288419fc24d3d52ee",
+  "evidence_sha256": "29f34c4418aea1c8f712aaf6b90b3bca12b8c28fe24f3278d34f82930f157bdf",
+  "status": "pass",
+  "findings": [
+    {
+      "id": "verify-01",
+      "severity": "minor",
+      "passage": "And when his friend Paloma Faith asked him in 2025 whether he was preoccupied with being good, his answer ended on safety.",
+      "problem": "His answer does not end on safety. In the episode (S40 24:00-24:40, inside the embedded clip; S24 c.0:24:50-0:25:30, re-transcribed), right after 'safety for yourself' he asks whether you can do that and 'remain authentic', answers 'Probably not', and closes on deciding whether 'allowing your true self to come out is the most important thing'. Safety is the stated aim of people-pleasing in his gloss, which the body describes correctly ('perception is the means and safety the stated end'). The hook's 'ended on' misdescribes the source, and a reader who plays the clip will hear a different ending.",
+      "acceptance_test": "The intro sentence uses an accurate verb, for example 'his answer turned to safety' or 'he named safety as what people-pleasing is for'. Optionally, one clause in 'Why not Type 1?' notes that he went on to weigh that strategy against staying authentic. C11b's passage is updated to match. No other change to the discriminator is needed."
+    },
+    {
+      "id": "verify-02",
+      "severity": "minor",
+      "passage": "for years he has described dreading being found out before each new job and leaning on people close to him to get there",
+      "problem": "In the type answer and the type FAQ, 'for years' grammatically covers both halves. The dread is documented in 2020, 2022 and 2024 (S27, S01, S15). Leaning on people close to him to get to work rests on one 2022 statement (S01), and the only off-stage glimpse (2020, begging Finlay not to come to Pass Over) is avoidance rather than leaning. The search-facing answer turns one statement into a multi-year pattern.",
+      "acceptance_test": "In both the type answer and the type FAQ, 'for years' scopes only the dread, and the leaning is dated or singular (for example, '...before each new job, and in 2022 said he needs people close to him to get there'). The answer stays at or under 60 words. C47's claim text matches."
+    },
+    {
+      "id": "verify-03",
+      "severity": "minor",
+      "passage": "He was born on June 11, 1990, at Guy's Hospital in London",
+      "problem": "The day of birth (FAQ and birth_date '1990-06-11') rests on S32 (Wikipedia), whose own citation for '11 June' is a TV Insider database page tagged 'better source needed' (May 2025). A TheWrap explainer in the research cache gives the same date, and every dated age in S01-S04 fits, so it is probably right. But the evidence record contains no independent source for the day, and the standard says to omit unsupported precision.",
+      "acceptance_test": "Either the evidence record adds an opened, independent source for 11 June 1990 to C01 (TheWrap or better), or the FAQ and birth_date drop the day and keep 'born in 1990 at Guy's Hospital'. The age FAQ stays consistent either way."
+    }
+  ],
+  "research_tasks": [],
+  "claim_checks": [
+    {
+      "claim_id": "C01",
+      "verdict": "qualified",
+      "reason": "S06 (Observer, 13 Mar 2016, live re-fetch 2026-10-20): 'I was born in London in 1990 at Guy's hospital.' The day, 11 June, rests on S32 (Wikipedia), whose wikitext cites a TV Insider database page tagged 'better source needed' (May 2025). A TheWrap explainer in the research cache gives the same date, and every dated age fits (S01 '32' in June 2022; S04 '35' in March 2026). That makes it likely correct, but the record has no independent source for the day. See verify-03."
+    },
+    {
+      "claim_id": "C01b",
+      "verdict": "supported",
+      "reason": "S10 (Glass, 2021, re-read via r.jina.ai): 'In 2016, Essiedu became the first black actor to play Hamlet for the Royal Shakespeare Company.' S04: 'the first time the company had cast a black actor in the role.' S06 dates the Stratford opening to March 2016."
+    },
+    {
+      "claim_id": "C01d",
+      "verdict": "supported",
+      "reason": "Verbatim in S08 (Big Issue, 10 Aug 2023, full text via r.jina.ai). It comes in his answer about the 'rigmarole and debate about me being black' around the RSC Hamlet, and the article quotes it in that context."
+    },
+    {
+      "claim_id": "C01c",
+      "verdict": "supported",
+      "reason": "S04: 'having a TV breakthrough as Michaela Coel's friend in I May Destroy You in 2020'. S01: 'may still be best known for playing Kwame'. S12 (May 2020) dates the series."
+    },
+    {
+      "claim_id": "C02",
+      "verdict": "supported",
+      "reason": "S01: 'His father, Tony, a lawyer, returned to Ghana when he was a baby' and 'He died when Essiedu was just 14.' S04 says 'when his son was just four', and 'very young' honestly covers both versions. S02 and S10 agree on 'a baby'."
+    },
+    {
+      "claim_id": "C02b",
+      "verdict": "supported",
+      "reason": "Same sources as C02. The FAQ's 'very young' reconciles S01/S02/S10 ('a baby') with S04 ('four')."
+    },
+    {
+      "claim_id": "C03",
+      "verdict": "supported",
+      "reason": "S01: 'she had cancer for seven years and was in hospital for four months before she died'; 'In his first year at drama school, Essiedu's mother died of breast cancer.' S04 gives 'when he was 20'. S02 confirms the first year at Guildhall."
+    },
+    {
+      "claim_id": "C03d",
+      "verdict": "supported",
+      "reason": "S01 ('In his first year at drama school, Essiedu's mother died of breast cancer') plus S04 ('She died of breast cancer when he was 20')."
+    },
+    {
+      "claim_id": "C03b",
+      "verdict": "supported",
+      "reason": "S01: 'Selina, who taught fashion and design at adult education colleges, was a single parent.' S07 has the same detail. S06: 'I grew up in Walthamstow, east London, in a single-parent family.'"
+    },
+    {
+      "claim_id": "C04",
+      "verdict": "supported",
+      "reason": "S12: 'offered a place to read medicine at University College London, before deciding to throw it up'. S07 and S21 also confirm the UCL place. 'Dropped out' is Hattenstone's wording in S01, and the next clause attributes it to him."
+    },
+    {
+      "claim_id": "C04d",
+      "verdict": "supported",
+      "reason": "Verbatim in S01: 'At the last minute, and much to everybody's surprise, including his own, Essiedu dropped out.'"
+    },
+    {
+      "claim_id": "C05",
+      "verdict": "supported",
+      "reason": "Verbatim in S01: 'How did she take it? \"She was great. She knew how important her consent was to me.\"'"
+    },
+    {
+      "claim_id": "C05b",
+      "verdict": "supported",
+      "reason": "Verbatim in S01, inside his recollection of his mother: 'She was just like: \"Look, if you're going to do this thing...\"'. It is attributed as his recalled report of her words."
+    },
+    {
+      "claim_id": "C05e",
+      "verdict": "supported",
+      "reason": "Verbatim in S01, straight after the recalled condition: 'It was just what I needed to hear.'"
+    },
+    {
+      "claim_id": "I12",
+      "verdict": "supported",
+      "reason": "Labelled interpretation. The condition in S01 is a professional standard ('the same level of professionalism'), and S06 adds her 'give it your all'. Conceding that a One would hear it the same way is fair."
+    },
+    {
+      "claim_id": "C05d",
+      "verdict": "supported",
+      "reason": "I re-transcribed the Going Rogue RSS audio (0:12:20-0:15:40, whisper.cpp medium.en on a fresh cut) and checked the YouTube captions (gskkRklT-9Y, 12:20-14:10): 'my sister only told me this year that like she would then ring my sister and be like, yes, he didn't get in... one more down', and the host adds 'one more closer to medical school'. 'Half-sister' follows S01/S06 (half-brother and half-sister in Ghana; only child). The t=745s link lands on this passage."
+    },
+    {
+      "claim_id": "C06",
+      "verdict": "supported",
+      "reason": "Verbatim in S01 ('...to go to work on that first day. It's generally only the first day or the first week.'). S01 alone carries the sentence. S08 and S27 in source_ids do not contain it, which is harmless but over-inclusive."
+    },
+    {
+      "claim_id": "C06e",
+      "verdict": "supported",
+      "reason": "Labelled interpretation, consistent with S01. Asked 'how bad are we talking?', he says 'Like, really bad' and 'generally only the first day or the first week'. It is colloquial pre-job dread, and the article claims nothing clinical."
+    },
+    {
+      "claim_id": "C06b",
+      "verdict": "supported",
+      "reason": "S01: 'Well, you're a very good actor, I say. \"Do you really think so?\" he asks. I assume he's fishing for compliments.'"
+    },
+    {
+      "claim_id": "C06c",
+      "verdict": "supported",
+      "reason": "Verbatim in S01: 'I just started a job yesterday and on the day before the first day on every job, I have a nervous breakdown, thinking: this is the one where people will find me out...'"
+    },
+    {
+      "claim_id": "C06d",
+      "verdict": "supported",
+      "reason": "S01: 'Genuinely? \"Genuine!\" he says fiercely.'"
+    },
+    {
+      "claim_id": "C07",
+      "verdict": "qualified",
+      "reason": "Dated instances check out. 2020: S27, re-transcribed at 0:39:40 ('still, every single play... I'm always certain I'm going to be terrible'). 2022: S01 ('this is the one where people will find me out'). 2024: S15 ('Every time I get any job, I go: \"Jesus, what? Really? Me?\"'). The 2024 line answers a question about moving between stage and screen and is followed by 'I didn't grow up going to the theatre'. It reads as disbelief more than dread, so 'nearly the same shape' is generous but not false."
+    },
+    {
+      "claim_id": "C40",
+      "verdict": "supported",
+      "reason": "I re-transcribed S27 (0:39:00-0:41:00): 'I'm always certain I'm going to be terrible, it's going to be the end of my career. I'm always like, \"Why did I take this job? It was going so well. I've tricked so many people.\"' The YouTube captions have 'gonna'. He was answering an audience question and immediately called it 'one step too far' and 'not a useful way of putting your energy', so the answer is partly comic, as the claim notes."
+    },
+    {
+      "claim_id": "C40c",
+      "verdict": "supported",
+      "reason": "S27 captions at 0:40:58: 'a little bit of humility because at least that kind of like pushes you into a position where you want to get better'. The article presents it as One-compatible."
+    },
+    {
+      "claim_id": "C40b",
+      "verdict": "supported",
+      "reason": "I re-transcribed S27 (0:11:40-0:12:30). Finlay says: 'I remember you begging me not to come and see Pass Over before press night, which I ignored... and you were brilliant.' The host is speaking. S05 places Pass Over at the Kiln in 2020."
+    },
+    {
+      "claim_id": "C41c",
+      "verdict": "supported",
+      "reason": "Verbatim in S15 (Observer, 28 Jul 2024), answering 'Is that the plan going forwards?'."
+    },
+    {
+      "claim_id": "C08",
+      "verdict": "supported",
+      "reason": "Verbatim in S03 (Times, 3 Aug 2023), followed by 'And in terms of where I was at with my own grief.' Corroborated by S10 ('the absolute fear sets in'), S16 ('mainly terrifying') and the S25 captions at c.1:01 ('I'm so scared... can I even do this')."
+    },
+    {
+      "claim_id": "I14",
+      "verdict": "supported",
+      "reason": "Labelled interpretation. S03 shows the fear named before Hamlet, and the role was performed in 2016. This is the narrow use of counterphobia the critic and enneagram reviewers asked for."
+    },
+    {
+      "claim_id": "C09",
+      "verdict": "supported",
+      "reason": "Verbatim in S01, directly after Hattenstone's list ending 'self-preservation'. 'On the last, he said' is a fair reading of the order."
+    },
+    {
+      "claim_id": "C09e",
+      "verdict": "supported",
+      "reason": "S01: 'Sure, he knows why he's like that – class, insecurity, impostor syndrome, self-preservation.' This is Hattenstone's paraphrase and the article attributes it to him."
+    },
+    {
+      "claim_id": "C09b",
+      "verdict": "supported",
+      "reason": "Verbatim in S01, at the end of the mezcal anecdote."
+    },
+    {
+      "claim_id": "C09c",
+      "verdict": "supported",
+      "reason": "Verbatim in S01 ('...is just mad. Even if it makes it feel quite sweet when...')."
+    },
+    {
+      "claim_id": "C09d",
+      "verdict": "supported",
+      "reason": "Verbatim in S07 (Mr Porter, 30 Sep 2024, full text via r.jina.ai). The context is that 'he needs to get better at giving himself downtime from work', which matches the article's 'On taking time off'."
+    },
+    {
+      "claim_id": "C09f",
+      "verdict": "supported",
+      "reason": "Verbatim in S07: the next sentence after C09d."
+    },
+    {
+      "claim_id": "C09g",
+      "verdict": "supported",
+      "reason": "S01: 'When he was away recently, he met somebody... \"just a few little things\"... mezcal company'. Changing 'recently' to 'shortly before that interview' is accurate for a June 2022 piece."
+    },
+    {
+      "claim_id": "C10",
+      "verdict": "supported",
+      "reason": "Verbatim in S01, in the café exchange ('I'm like: I'm going to fuck it up. I read...')."
+    },
+    {
+      "claim_id": "C10b",
+      "verdict": "supported",
+      "reason": "Verbatim in S01."
+    },
+    {
+      "claim_id": "C10d",
+      "verdict": "supported",
+      "reason": "S01: 'He comes to a stop. \"Maybe they are thinking it.\"' The article's 'after a stop' is faithful."
+    },
+    {
+      "claim_id": "C10c",
+      "verdict": "supported",
+      "reason": "Verbatim in S01 ('...in their body language')."
+    },
+    {
+      "claim_id": "C42",
+      "verdict": "supported",
+      "reason": "Verbatim in S03, preceded by 'it's never easy and it's never normal'. He was answering whether he feels more confident."
+    },
+    {
+      "claim_id": "C42b",
+      "verdict": "supported",
+      "reason": "S03: 'Seven years ago he had a kind of Tiggerish energy, a physical restlessness alongside his articulacy, but today... he is all containment.' Seven years before 2023 is 2016."
+    },
+    {
+      "claim_id": "C42c",
+      "verdict": "supported",
+      "reason": "Verbatim in S03, in the closing quote."
+    },
+    {
+      "claim_id": "C42d",
+      "verdict": "supported",
+      "reason": "S03: 'it is hard living day to day with rejection as a constant companion', from the same closing answer."
+    },
+    {
+      "claim_id": "I11",
+      "verdict": "supported",
+      "reason": "Labelled interpretation. It rests on S03 (easing, 2023), S01 (weekly therapy, 2022) and S04 (therapy, 2026), and it names the observation that would count against it."
+    },
+    {
+      "claim_id": "C11",
+      "verdict": "supported",
+      "reason": "I independently re-transcribed the S24 RSS audio (0:22:50-0:25:30) and checked the S40 YouTube captions (24:00-24:13): 'It's trying to control what other people think of you, trying to control how you are perceived in the world. Trying to create safeness for yourself, safety for yourself.' The turn order makes the speaker Essiedu: Faith's question, his 'Yeah, totally', Faith's aside, then his 'the reason I'm laughing'. He goes straight on to whether you can 'remain authentic' and 'allowing your true self to come out' (see verify-01)."
+    },
+    {
+      "claim_id": "C11b",
+      "verdict": "qualified",
+      "reason": "The exchange is real and correctly dated (4 March 2025). But his answer does not end on safety. After 'safety for yourself' he asks whether you can 'remain authentic', answers 'Probably not', and closes on choosing whether 'allowing your true self to come out is the most important thing' (S40 24:13-24:40, inside the embedded clip). Safety is the stated aim of people-pleasing in his gloss, not where the answer ends. This is a minor wording repair (verify-01)."
+    },
+    {
+      "claim_id": "C39",
+      "verdict": "supported",
+      "reason": "Faith's line, at S40 23:16-23:22 and in my S24 re-transcription. The speaker is Faith. Her episode description calls him 'a great friend', which supports 'his friend'."
+    },
+    {
+      "claim_id": "C39e",
+      "verdict": "supported",
+      "reason": "His reply immediately follows Faith's line, in both my transcription and the captions ('...doing the right thing all the time. Yeah, totally')."
+    },
+    {
+      "claim_id": "C39d",
+      "verdict": "supported",
+      "reason": "An accurate paraphrase of C11 that keeps the general/second-person framing ('Speaking in general terms')."
+    },
+    {
+      "claim_id": "C12",
+      "verdict": "supported",
+      "reason": "I re-transcribed S27 (0:48:20-0:50:10) and the quote is verbatim. It continues: 'for me it was about agency... all the power existed outside of me... I wanted to take control of my destiny'. 'Fear was part of it' is fair and does not claim fear was the whole motive."
+    },
+    {
+      "claim_id": "C12d",
+      "verdict": "supported",
+      "reason": "S27: 'I set up Invertigo when I was in my final year at drama school... with three other boys'. S06: 'founded the theatre company Invertigo'."
+    },
+    {
+      "claim_id": "C14",
+      "verdict": "supported",
+      "reason": "Verbatim in S06. It is the second half of his answer to 'What do you need to survive in the profession?', after 'Having said that'."
+    },
+    {
+      "claim_id": "C14b",
+      "verdict": "supported",
+      "reason": "Verbatim in S06. This is the first half of the answer ('Front-footedness... what you need is genuine openness and vulnerability...'), now restored ahead of the caveat."
+    },
+    {
+      "claim_id": "C15",
+      "verdict": "supported",
+      "reason": "S01 (Coel): 'He approaches characters with great sensitivity and thoughtfulness. I have never seen him with any ego. He's trying to discover things almost with fear and trembling.' The article keeps the humility framing."
+    },
+    {
+      "claim_id": "C15c",
+      "verdict": "supported",
+      "reason": "Verbatim in S01 (Coel)."
+    },
+    {
+      "claim_id": "C15d",
+      "verdict": "supported",
+      "reason": "Verbatim in S01 (Coel, answering 'what makes him a good mate')."
+    },
+    {
+      "claim_id": "C15b",
+      "verdict": "supported",
+      "reason": "Verbatim in S01 (Coel)."
+    },
+    {
+      "claim_id": "C15e",
+      "verdict": "supported",
+      "reason": "Verbatim in S01 (Coel)."
+    },
+    {
+      "claim_id": "I05",
+      "verdict": "supported",
+      "reason": "Labelled interpretation, and it states its own limit ('Dependability alone would fit a One, Two or Nine'). Coel's same answer also has 'I used to beg him: Answer your phone!', which the article does not need."
+    },
+    {
+      "claim_id": "C16",
+      "verdict": "supported",
+      "reason": "S09 (Bustle, Apr 2024): 'Jessie Buckley, who starred opposite Essiedu in Men, calls him \"funny and naughty,\" but \"with an ocean underneath.\"' Men is the 2022 film."
+    },
+    {
+      "claim_id": "C16b",
+      "verdict": "supported",
+      "reason": "Verbatim in S09."
+    },
+    {
+      "claim_id": "C17",
+      "verdict": "supported",
+      "reason": "Verbatim in S29 (Lawson, 27 Jan 2014, live re-fetch). Lawson was at the Tuesday preview where Troughton's voice failed. Essiedu went on after the interval, and Lawson 'looked at Essiedu's knees during his opening scene'. Dish (S26) gives Essiedu's own account."
+    },
+    {
+      "claim_id": "C17b",
+      "verdict": "supported",
+      "reason": "I re-transcribed the Dish RSS audio (0:39:40-0:43:10) and checked the YouTube captions (36:40-37:00): 'turning up to his rehearsals like some kind of stalker, you know'. The t=2145s link lands at the King Lear question."
+    },
+    {
+      "claim_id": "C17h",
+      "verdict": "supported",
+      "reason": "Dish: 'I'm like bored as [beep] in it. I've only got like two, three lines.' The paraphrase is accurate."
+    },
+    {
+      "claim_id": "C17l",
+      "verdict": "supported",
+      "reason": "Dish: 'writing like notes feverishly. I'm a nerd.' He says it again before declining the book."
+    },
+    {
+      "claim_id": "C17e",
+      "verdict": "supported",
+      "reason": "Verbatim in S30. It is the journalist's characterisation, and the article attributes it as 'A Guardian feature'."
+    },
+    {
+      "claim_id": "C17k",
+      "verdict": "supported",
+      "reason": "Verbatim in S30 ('Rea's key qualities... such as grit and enthusiasm. They earned Essiedu his first break...')."
+    },
+    {
+      "claim_id": "I08",
+      "verdict": "supported",
+      "reason": "Labelled interpretation, consistent with S06 ('desperately trying to recall Edmund's lines') and the Dish account ('you're operating... on instincts'). It does not claim the preparation came from dread."
+    },
+    {
+      "claim_id": "C17f",
+      "verdict": "supported",
+      "reason": "Verbatim in S06, in the King Lear answer."
+    },
+    {
+      "claim_id": "C17m",
+      "verdict": "supported",
+      "reason": "Verbatim in S06 ('Looking back, it was an out-of-body experience')."
+    },
+    {
+      "claim_id": "C17i",
+      "verdict": "supported",
+      "reason": "Verbatim in S06 ('I was standing there desperately trying to recall Edmund's lines – it was like taking last rites')."
+    },
+    {
+      "claim_id": "C17j",
+      "verdict": "supported",
+      "reason": "Verbatim in S06 ('He is in too deep to say anything other than fuck it. That is where I was, too – life imitating art')."
+    },
+    {
+      "claim_id": "C17g",
+      "verdict": "supported",
+      "reason": "S29: January 2014, penultimate preview, Sam Mendes's King Lear at the National, Essiedu understudying Edmund. Dish: 'fairly fresh out of drama school'."
+    },
+    {
+      "claim_id": "C43",
+      "verdict": "supported",
+      "reason": "S04: 'numerous critics claiming that his skin colour should preclude the actor from playing a man written as white'."
+    },
+    {
+      "claim_id": "C43b",
+      "verdict": "supported",
+      "reason": "Verbatim in S04 (21 Mar 2026), in the standfirst passage."
+    },
+    {
+      "claim_id": "C43d",
+      "verdict": "supported",
+      "reason": "Verbatim in S04, closing his answer about the threats."
+    },
+    {
+      "claim_id": "C43e",
+      "verdict": "supported",
+      "reason": "S04: 'Has he reported any of the death threats? \"No.\"' The FAQ dates it to March 2026."
+    },
+    {
+      "claim_id": "C19",
+      "verdict": "supported",
+      "reason": "Verbatim in S04. The quote opens his next answer and continues to 'because I think of how I felt as a kid'."
+    },
+    {
+      "claim_id": "C19h",
+      "verdict": "supported",
+      "reason": "Verbatim in S04 ('the idea that a kid like me can see themselves represented in that world? That's motivation...')."
+    },
+    {
+      "claim_id": "C19b",
+      "verdict": "supported",
+      "reason": "Verbatim in S04, his reason for not reporting the threats."
+    },
+    {
+      "claim_id": "C19i",
+      "verdict": "supported",
+      "reason": "S04 (March 2026): 'No.' It is dated and tracked as time_sensitive."
+    },
+    {
+      "claim_id": "C19c",
+      "verdict": "supported",
+      "reason": "S31 (Guardian, 6 May 2025): 'along with more than 1,500 figures from film and TV, signed an open letter condemning the UK supreme court ruling, which judged that the terms \"woman\" and \"sex\" in the Equality Act refer only to a biological woman and to biological sex.'"
+    },
+    {
+      "claim_id": "C19j",
+      "verdict": "supported",
+      "reason": "S04: 'Many saw his signing the letter as a rebuke to Rowling, with some of her fans calling for her to sack Essiedu.'"
+    },
+    {
+      "claim_id": "C19k",
+      "verdict": "supported",
+      "reason": "S04: 'I ask Essiedu if he sought advice before signing the letter. \"No,\" he says.' The reason that follows is quoted accurately."
+    },
+    {
+      "claim_id": "C19d",
+      "verdict": "supported",
+      "reason": "S31 quotes Rowling's X post: 'I don't have the power to sack an actor from the series and I wouldn't exercise it if I did.' S04 has the same."
+    },
+    {
+      "claim_id": "C19f",
+      "verdict": "supported",
+      "reason": "Verbatim in S04 ('artists in the trans community have a right to be treated with dignity and should be able to work without being intimidated')."
+    },
+    {
+      "claim_id": "C19l",
+      "verdict": "supported",
+      "reason": "Verbatim in S04, answering 'How did it feel when there were calls to sack him?'."
+    },
+    {
+      "claim_id": "C19m",
+      "verdict": "supported",
+      "reason": "Verbatim in S04, in the same answer."
+    },
+    {
+      "claim_id": "C19n",
+      "verdict": "supported",
+      "reason": "S04: '\"Yes, but the themes... of acceptance,\" he says. \"And that's why I'm doing it.\"' Two consecutive segments are joined across a 'he says' tag with the comma changed to a full stop. The meaning is unchanged, and the stability question it answers is reported accurately."
+    },
+    {
+      "claim_id": "I15",
+      "verdict": "supported",
+      "reason": "Labelled interpretation. 'Shrugged' is a fair gloss of 'it wouldn't be a project I'd want to work on anyway' (S04), and the rest-avoidance comes from S07."
+    },
+    {
+      "claim_id": "I09",
+      "verdict": "supported",
+      "reason": "Labelled interpretation that matches the record. The threats answer names hurt and then turns it toward the work. The letter and police answers give principle and proportion as their reasons."
+    },
+    {
+      "claim_id": "C20",
+      "verdict": "supported",
+      "reason": "S34 (TechRadar, Lucy Buglass, last updated 27 Mar 2026): 'a confirmed release date of December 25, 2026... originally due in 2027'. Written in the past tense, with a dated trigger."
+    },
+    {
+      "claim_id": "C20e",
+      "verdict": "supported",
+      "reason": "S34. The as-of-March-2026 phrasing stays true after the date passes."
+    },
+    {
+      "claim_id": "C20f",
+      "verdict": "supported",
+      "reason": "S04: 'for a role that will last ten years'."
+    },
+    {
+      "claim_id": "C20g",
+      "verdict": "supported",
+      "reason": "S04: 'When Essiedu's role was announced last April' (written March 2026, so April 2025). S31 (6 May 2025) confirms the casting."
+    },
+    {
+      "claim_id": "C20b",
+      "verdict": "supported",
+      "reason": "Same as C20g."
+    },
+    {
+      "claim_id": "C20c",
+      "verdict": "supported",
+      "reason": "Verbatim in S04."
+    },
+    {
+      "claim_id": "C21",
+      "verdict": "supported",
+      "reason": "S33 (National Youth Theatre release, 'Posted 13 Apr 2026'): 'Paapa Essiedu won Best Actor in a Supporting Role for All My Sons at Wyndham's Theatre' at 'last night's Olivier Awards'. S32 lists the award."
+    },
+    {
+      "claim_id": "C21e",
+      "verdict": "supported",
+      "reason": "S33, as above. The ceremony was on 12 April 2026."
+    },
+    {
+      "claim_id": "C21c",
+      "verdict": "supported",
+      "reason": "S01: 'Now he's starring in Sky's... The Lazarus Project... anchoring both the premise and the series.'"
+    },
+    {
+      "claim_id": "C22",
+      "verdict": "supported",
+      "reason": "Verbatim in S01, after 'I went back to drama school the day after it happened'."
+    },
+    {
+      "claim_id": "C22b",
+      "verdict": "supported",
+      "reason": "S01: 'I literally put the lock on it, then walked away from it for about 10 years. I only sold the house last year.'"
+    },
+    {
+      "claim_id": "C25e",
+      "verdict": "supported",
+      "reason": "Class appears in Hattenstone's list (S01). I re-transcribed the Going Rogue audio (0:12:20): 'where I was brought up or the way I was brought up... from early, like I had that kind of imposter syndrome thing'."
+    },
+    {
+      "claim_id": "C22e",
+      "verdict": "supported",
+      "reason": "S01 (June 2022): 'I still go every week.' The article dates it to 2022."
+    },
+    {
+      "claim_id": "C22f",
+      "verdict": "supported",
+      "reason": "Verbatim in S04 ('Does he do therapy? He nods.'). The article leaves out the following 'depressed' sentence, which is appropriate restraint."
+    },
+    {
+      "claim_id": "C23",
+      "verdict": "supported",
+      "reason": "Verbatim in S13 (Lennie James conversation, 19 Dec 2020), and the article includes the continuation 'But I do feel like unconsciously...'."
+    },
+    {
+      "claim_id": "C23e",
+      "verdict": "supported",
+      "reason": "I re-transcribed S24 (c.0:16): 'I kind of find it to be more of a companion now'."
+    },
+    {
+      "claim_id": "C23f",
+      "verdict": "supported",
+      "reason": "Verbatim in S13, followed by 'But it's definitely not a conscious thing.'"
+    },
+    {
+      "claim_id": "C23g",
+      "verdict": "supported",
+      "reason": "S03: 'drawing on his grief to play Hamlet was draining... These days he would rather just use his imagination.'"
+    },
+    {
+      "claim_id": "C23c",
+      "verdict": "supported",
+      "reason": "Verbatim in my S24 re-transcription of the sadness segment."
+    },
+    {
+      "claim_id": "C24",
+      "verdict": "supported",
+      "reason": "I re-transcribed S24 (0:09): Faith asks 'Where do you think that comes from? Did you have... religious background?' and he answers 'Yeah, it probably is Christian guilt'."
+    },
+    {
+      "claim_id": "C24c",
+      "verdict": "supported",
+      "reason": "Verbatim in my S24 re-transcription."
+    },
+    {
+      "claim_id": "C24d",
+      "verdict": "supported",
+      "reason": "S24 (c.0:29:50): 'I do feel angry but I do consciously try and like convert that anger into action'."
+    },
+    {
+      "claim_id": "C24b",
+      "verdict": "supported",
+      "reason": "S24 transcript: 'have been like trying to break up fights'. The filler 'like' is dropped and the meaning is unchanged."
+    },
+    {
+      "claim_id": "C25d",
+      "verdict": "supported",
+      "reason": "Verbatim in S01, in the Partygate paragraph (after losing an aunt and uncle to Covid)."
+    },
+    {
+      "claim_id": "I16",
+      "verdict": "supported",
+      "reason": "Labelled interpretation that concedes the anger evidence to One, as the jury asked."
+    },
+    {
+      "claim_id": "C26",
+      "verdict": "supported",
+      "reason": "Verbatim in S08's closing political passage."
+    },
+    {
+      "claim_id": "C26b",
+      "verdict": "supported",
+      "reason": "Verbatim in S07 ('a period when he was \"getting offered a lot of slave roles...\"'). The article now says he was offered them."
+    },
+    {
+      "claim_id": "C26d",
+      "verdict": "supported",
+      "reason": "Verbatim in S07 ('...rather than my interest or my historical knowledge')."
+    },
+    {
+      "claim_id": "C26e",
+      "verdict": "supported",
+      "reason": "S07: 'He wouldn't entirely write off such a role, but the intention and craft behind it is what matters. \"What is the point being made?\"'"
+    },
+    {
+      "claim_id": "C26f",
+      "verdict": "supported",
+      "reason": "Verbatim in S08, after the Hamlet-race-press passage ('So from those times... I've tried to be savvy...')."
+    },
+    {
+      "claim_id": "C26c",
+      "verdict": "supported",
+      "reason": "S08: 'I've said no to things that have gone on to be very, very, very big successes. I'm not gonna say what!'"
+    },
+    {
+      "claim_id": "C27",
+      "verdict": "supported",
+      "reason": "Verbatim in S08 ('Essiedu loves the theatre. But doesn't always love the rehearsal process.')."
+    },
+    {
+      "claim_id": "C27b",
+      "verdict": "supported",
+      "reason": "Verbatim in S08."
+    },
+    {
+      "claim_id": "C27d",
+      "verdict": "supported",
+      "reason": "Verbatim in S08."
+    },
+    {
+      "claim_id": "C27c",
+      "verdict": "supported",
+      "reason": "S14 (Guardian Q&A, 18 Nov 2023): 'Describe yourself in three words / Tries his best.'"
+    },
+    {
+      "claim_id": "C29",
+      "verdict": "supported",
+      "reason": "S01: in a prison improvisation, the teacher said 'I'll play the prison warden' and then shouted the slur. The teacher is unnamed and the slur unprinted, which matches the source's own restraint."
+    },
+    {
+      "claim_id": "C29c",
+      "verdict": "supported",
+      "reason": "Verbatim in S01."
+    },
+    {
+      "claim_id": "C29b",
+      "verdict": "supported",
+      "reason": "S38: 'Guildhall School apologises unreservedly for the racism experienced by Paapa Essiedu, Michaela Coel and other alumni'."
+    },
+    {
+      "claim_id": "I13",
+      "verdict": "supported",
+      "reason": "Labelled interpretation that gives circumstance its due weight."
+    },
+    {
+      "claim_id": "I06",
+      "verdict": "qualified",
+      "reason": "This is a fair discriminator against a One's 'is this right?' standard: the people-pleasing gloss points to perception and safety. But the same answer then turns inward ('remain authentic... allowing your true self to come out'), so 'His answer points outward' describes the gloss rather than the whole answer. The embedded clip shows both. See verify-01."
+    },
+    {
+      "claim_id": "I17",
+      "verdict": "supported",
+      "reason": "S01 ('just a few little things'; 'He never put himself forward'), S05 ('My aim isn't to be that famous'), and S27's public confession of doubt. This is a sourced Three test."
+    },
+    {
+      "claim_id": "C21d",
+      "verdict": "supported",
+      "reason": "Verbatim in S01 ('She'd ask who he thought would make a good Kwame. He never put himself forward.')."
+    },
+    {
+      "claim_id": "C35",
+      "verdict": "supported",
+      "reason": "Verbatim in S05 (Times, 17 Feb 2020): '...or really to play any particular role, but to do things that I feel are important'."
+    },
+    {
+      "claim_id": "I18",
+      "verdict": "supported",
+      "reason": "S01 ('huge mistake in inviting you') and S02 ('When are they going to realise that they really wanted the other guy?') support 'uninvited, not outshone'. S24 supports 'safety the stated end'."
+    },
+    {
+      "claim_id": "I19",
+      "verdict": "supported",
+      "reason": "Labelled interpretation, accurate to S26 and S29 (solo preparation and a composed step-in, which are ambiguous between One and Six)."
+    },
+    {
+      "claim_id": "I02",
+      "verdict": "supported",
+      "reason": "Labelled interpretation drawn directly from S01 ('I read \"What are you doing here?\" on everybody's face... I read things into them')."
+    },
+    {
+      "claim_id": "I01",
+      "verdict": "supported",
+      "reason": "The type thesis is stated at medium confidence. The discriminator is limited to one exchange in the body, Types 1, 3, 4, 9, 2 and 7 are tested, and falsifiers are named."
+    },
+    {
+      "claim_id": "I01b",
+      "verdict": "supported",
+      "reason": "Accurate confidence label."
+    },
+    {
+      "claim_id": "I10",
+      "verdict": "supported",
+      "reason": "A concrete falsifier that the record could produce."
+    },
+    {
+      "claim_id": "C47",
+      "verdict": "qualified",
+      "reason": "The dread before each new job is documented across years (S27 2020, S01 2022, S15 2024). Leaning on people close to him to get to work is a single 2022 statement (S01), and the one off-stage glimpse in 2020 (begging Finlay not to come) is avoidance rather than leaning. 'For years' grammatically covers both. Minor (verify-02)."
+    },
+    {
+      "claim_id": "C48",
+      "verdict": "supported",
+      "reason": "An interpretive persona title in the past progressive, time_sensitive with a trigger. Supported by C06/C07."
+    },
+    {
+      "claim_id": "C49",
+      "verdict": "supported",
+      "reason": "An interpretive meta title, time_sensitive with a trigger. Supported by C06/C07, with S03's 2023 easing tracked in C42."
+    },
+    {
+      "claim_id": "I07",
+      "verdict": "supported",
+      "reason": "Two settle signals that press-tour praise cannot satisfy, each naming which result moves the read toward One, with an actionable trigger."
+    },
+    {
+      "claim_id": "C31b",
+      "verdict": "supported",
+      "reason": "Verbatim in my S24 re-transcription (0:31:00-0:33:40): 'But I continued running for another three kilometres, even though my body was basically shut down.'"
+    },
+    {
+      "claim_id": "C31c",
+      "verdict": "supported",
+      "reason": "S24: 'cause I'm a psychopath, I like tried to run it way too fast'. He tells it as a comic story, as the article says."
+    },
+    {
+      "claim_id": "C31d",
+      "verdict": "supported",
+      "reason": "S24: 'I got to like 16K and I was like, cooked'."
+    },
+    {
+      "claim_id": "C32",
+      "verdict": "supported",
+      "reason": "S14: 'What is the trait you most deplore in yourself? / I find it difficult to sit still.'"
+    },
+    {
+      "claim_id": "C32b",
+      "verdict": "supported",
+      "reason": "Verbatim in S03."
+    },
+    {
+      "claim_id": "C44",
+      "verdict": "supported",
+      "reason": "Arithmetic from C01. It holds for any 1990 birthday before 20 October, and S04's '35' in March 2026 fits. Tracked with a dated trigger."
+    },
+    {
+      "claim_id": "C45",
+      "verdict": "supported",
+      "reason": "Attributed, dated summary of C06/C07 ('has described', 'For years'). Time_sensitive with a trigger."
+    },
+    {
+      "claim_id": "C46",
+      "verdict": "supported",
+      "reason": "S04: casting announced 'last April' (2025) and 'I've been told, \"Quit or I'll murder you\"'."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "S01",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live re-fetch 2026-10-20 (HTTP 200). Café opening, Coel testimony, Guildhall prison improvisation, Partygate paragraph, mother's death/loft/therapy paragraphs, closing doctor exchange, and 'A week later we catch up' (class/insecurity/impostor/self-preservation; mezcal)."
+    },
+    {
+      "source_id": "S02",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live re-fetch (sohohouse.com, 200). Tony left for Ghana 'when Essiedu was a baby' and died when he was 14; mother died in his first year at Guildhall; 'When are they going to realise that they really wanted the other guy?'"
+    },
+    {
+      "source_id": "S03",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Paywalled; re-read via r.jina.ai 2026-10-20. 'Seven years ago... Tiggerish energy... all containment' / 'thinking less about what people might think'; Hamlet 'I don't know if I can do this'; 'would rather just use his imagination'; closing 'rejection as a constant companion... The luck won't always go your way'."
+    },
+    {
+      "source_id": "S04",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Paywalled; re-read via r.jina.ai 2026-10-20 (published 2026-03-21). Biography paragraph; therapy nod; Snape 'role that will last ten years'; threats and 'abuse fuels me'; the reporting question; stability/Star Wars exchange; letter, advice and merit answers."
+    },
+    {
+      "source_id": "S05",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Paywalled; re-read via r.jina.ai. Closing paragraph: 'My aim isn't to be that famous or really to play any particular role'."
+    },
+    {
+      "source_id": "S06",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live re-fetch. Q&A answers: King Lear step-in ('out-of-body experience... internal banshees... fuck it'); born at Guy's in 1990; survival answer ('Front-footedness... genuine openness... Having said that...'); Invertigo."
+    },
+    {
+      "source_id": "S07",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Direct fetch 403; full text via r.jina.ai. Downtime paragraph ('The fear of things being taken away...' / 'But you need to respect your body'); 'getting offered a lot of slave roles' paragraph with 'He wouldn't entirely write off such a role'; mother taught at adult education colleges."
+    },
+    {
+      "source_id": "S08",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Registration-walled; full text via r.jina.ai. Rehearsal ('the pain of being confronted by inadequacy'); pigeonhole and Hamlet-race-press passage ('clip my wings... very, very, very big successes'); 'head in the sand' close."
+    },
+    {
+      "source_id": "S09",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live re-fetch. Colleague-testimony paragraph: Buckley, 'who starred opposite Essiedu in Men', 'funny and naughty' / 'with an ocean underneath'."
+    },
+    {
+      "source_id": "S10",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Direct fetch 522; re-read via r.jina.ai. Father returned to Ghana 'when he was a baby'; 'first black actor to play Hamlet for the Royal Shakespeare Company'; 'absolute fear sets in'; medicine."
+    },
+    {
+      "source_id": "S12",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live re-fetch. UCL medicine place 'before deciding to throw it up'; I May Destroy You (2020) context."
+    },
+    {
+      "source_id": "S13",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live re-fetch. PE's turn on loss: 'I really, passionately do not believe in acting as therapy... allow that to flow through the work that you do. But it's definitely not a conscious thing.'"
+    },
+    {
+      "source_id": "S14",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live re-fetch. Questionnaire: trait most deplored in himself ('I find it difficult to sit still'); three words ('Tries his best')."
+    },
+    {
+      "source_id": "S15",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live re-fetch. Answer to 'Is that the plan going forwards?': 'Every time I get any job, I go: \"Jesus, what? Really? Me?\"'"
+    },
+    {
+      "source_id": "S16",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live re-fetch. Q&A answer on the first Black Hamlet: 'always exciting, and mainly terrifying actually'."
+    },
+    {
+      "source_id": "S21",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live re-fetch. 'Having been awarded a place at UCL to study medicine... after taking a gap year'."
+    },
+    {
+      "source_id": "S24",
+      "opened": true,
+      "context_matches": true,
+      "locator": "RSS audio (pubDate 4 Mar 2025), independently re-transcribed with whisper.cpp medium.en on fresh cuts: 0:07:50-0:10:50 (fights, Christian guilt, suppressed/repressed); 0:12:50-0:17:20 (companion; edges and corners); 0:22:50-0:25:30 (being good, people-pleasing, safety, then authenticity); 0:26:50-0:30:20 (anger into action); 0:31:00-0:33:40 (half marathon)."
+    },
+    {
+      "source_id": "S25",
+      "opened": true,
+      "context_matches": true,
+      "locator": "RSS audio re-transcribed 0:12:20-0:15:40, plus YouTube captions (gskkRklT-9Y, uploaded 2024-03-21, oEmbed confirmed) 12:20-14:45 and c.1:00-1:02 (Hamlet, 'I'm so scared'). The t=745s link lands on the mother/half-sister passage."
+    },
+    {
+      "source_id": "S26",
+      "opened": true,
+      "context_matches": true,
+      "locator": "RSS audio re-transcribed 0:39:40-0:43:10, plus YouTube captions (hqph-vko_lY, uploaded 2026-05-13) 35:45-37:30. The t=2145s link lands at the King Lear question."
+    },
+    {
+      "source_id": "S27",
+      "opened": true,
+      "context_matches": true,
+      "locator": "YouTube jAcEe_qOVAE (uploaded 2020-04-25, 1:02:35). Audio re-transcribed 0:11:40-0:12:30 (Finlay's Pass Over line), 0:39:00-0:41:00 (stage-fright answer) and 0:48:20-0:50:10 (Invertigo); captions cross-checked at 0:40:00 and 0:40:58."
+    },
+    {
+      "source_id": "S29",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live re-fetch (Lawson, 27 Jan 2014). Tuesday preview, Troughton's voice fails in Act III, Mendes's announcement, 'I looked at Essiedu's knees... neither a tremble in limb or voice'."
+    },
+    {
+      "source_id": "S30",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live re-fetch. 'grit and enthusiasm. They earned Essiedu his first break when, having devotedly over-prepared while understudying in King Lear'. The piece's 'press night emergency' contradicts S29 (it was a preview), but the article does not repeat it."
+    },
+    {
+      "source_id": "S31",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live re-fetch (6 May 2025). Rowling's X post; 'more than 1,500 figures from film and TV, signed an open letter condemning the UK supreme court ruling... Equality Act'."
+    },
+    {
+      "source_id": "S32",
+      "opened": true,
+      "context_matches": true,
+      "locator": "MediaWiki API extract and wikitext, 2026-10-20. Lead and Early life ('born on 11 June', cited to TV Insider and tagged 'better source needed'); Olivier award listed."
+    },
+    {
+      "source_id": "S33",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Page is JS-rendered; read via r.jina.ai. 'Posted 13 Apr 2026'; 'won Best Actor in a Supporting Role for All My Sons at Wyndham's Theatre' at 'last night's Olivier Awards'."
+    },
+    {
+      "source_id": "S34",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live re-fetch (TechRadar, Lucy Buglass, last updated 27 March 2026): 'a confirmed release date of December 25, 2026... originally due in 2027'."
+    },
+    {
+      "source_id": "S38",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live re-fetch (10 Jun 2022). Guildhall spokesperson: 'apologises unreservedly for the racism experienced by Paapa Essiedu, Michaela Coel and other alumni'."
+    },
+    {
+      "source_id": "S40",
+      "opened": true,
+      "context_matches": true,
+      "locator": "YouTube adqzaOktoQU (Mad Sad Bad channel, uploaded 2025-03-04, oEmbed confirmed); auto-captions downloaded 2026-10-20. Question at 23:03, 'very preoccupied... yeah totally' at 23:16-23:22, 'safety for yourself' at 24:00-24:13, then the authenticity turn to 24:40. The embed's start=1383/end=1481 covers exactly this exchange."
+    }
+  ],
+  "decision_checks": [
+    {
+      "finding_id": "subject-01",
+      "accepted": true,
+      "reason": "Accepted. 'In the same breath' is gone. The threats answer and the letter answer appear separately, and the kid line is framed as representation. The letter and the police decision are labelled principle and proportion that 'a One fits at least as well'. The merit and 'wouldn't be a project' answers are quoted from S04 (March 2026), I15 says what they do to the fear-of-loss reading, and C19m exists."
+    },
+    {
+      "finding_id": "subject-02",
+      "accepted": true,
+      "reason": "Accepted. The stability question and his 'that's why I'm doing it' answer are quoted from S04 with attribution, plus 'a kid like me can see themselves represented'. The 'stable home' settle test is removed, and the closing signals no longer depend on it."
+    },
+    {
+      "finding_id": "subject-03",
+      "accepted": true,
+      "reason": "Accepted. The roles are now 'getting offered' (S07, verified), with 'how I was perceived in the industry' and 'wouldn't entirely rule such a role out if it had a point'. The passage sits under 'What the type doesn't explain' with the 'clip my wings' reason, and C26b is updated. The topic sentence 'He turns down big work' is carried by the Big Issue line, not the offers."
+    },
+    {
+      "finding_id": "subject-04",
+      "accepted": true,
+      "reason": "Accepted. The text now matches S01: the teacher used the slur during the improvisation, and 'I didn't know if she was talking to me or Michaela.' The teacher is unnamed and the slur unprinted."
+    },
+    {
+      "finding_id": "subject-05",
+      "accepted": true,
+      "reason": "Accepted. All four reasons appear as Hattenstone's list, the follow-up is 'A week after the café... caught up again' (S01 'A week later we catch up'), and the Mr Porter corrective is quoted."
+    },
+    {
+      "finding_id": "subject-06",
+      "accepted": true,
+      "reason": "Accepted. The openness half of the 2016 answer comes first, verbatim from S06, and 'from the start' is gone."
+    },
+    {
+      "finding_id": "subject-07",
+      "accepted": true,
+      "reason": "Accepted. 'He is rarely angry' is gone. His own framing (breaking up fights, Christian guilt, 'I don't know if the anger is suppressed. I don't know if it's repressed', turning anger into action) is verified in my S24 re-transcription and counted on the One side."
+    },
+    {
+      "finding_id": "subject-08",
+      "accepted": true,
+      "reason": "Accepted. The Type 1 FAQ says 'that one podcast exchange' and 'Speaking in general terms', and the intro is singular and dated. The intro's 'ended on safety' wording is a separate minor inaccuracy logged as verify-01."
+    },
+    {
+      "finding_id": "subject-09",
+      "accepted": true,
+      "reason": "Accepted. The description reads 'For years, Paapa Essiedu has described dreading...' (checkDraft confirms 120-170 characters). The persona title is 'The Actor Who Kept Expecting to Be Found Out'. C45 and C48 are time_sensitive with triggers."
+    },
+    {
+      "finding_id": "fan-F1",
+      "accepted": true,
+      "reason": "Accepted. The Four paragraph quotes the 'allow that to flow through the work that you do' continuation (S13, verified) and concedes 'That is Four language, and it counts.' The case against Four now rests on refusing acting as therapy and on S03's imagination-over-grief line. 'Arm's length' is softer than 'keeps it out of the work' and sits beside the continuation, so the test is met."
+    },
+    {
+      "finding_id": "fan-F2",
+      "accepted": true,
+      "reason": "Accepted. His stated reason, the representation line and the merit answer are all attributed to S04 (March 2026). The closing test no longer uses stability, and no adjacency is implied."
+    },
+    {
+      "finding_id": "fan-F3",
+      "accepted": true,
+      "reason": "Accepted. All four reasons precede the 'taken away' quote. Class and upbringing are weighed as a rival in the careful-argument paragraph (Going Rogue 2024 verified)."
+    },
+    {
+      "finding_id": "fan-F4",
+      "accepted": true,
+      "reason": "Accepted. The flat 'rarely angry' is replaced by suppressed/repressed and anger-into-action, attributed to Faith's podcast (March 2025, named earlier in the section) and counted as One territory. The 'What keeps Six narrowly ahead' paragraph no longer relies on anger."
+    },
+    {
+      "finding_id": "fan-F5",
+      "accepted": true,
+      "reason": "Accepted. The roles are 'offered', 'clip my wings... saying no to a lot of things' is quoted with 'very, very, very big successes' (S08, verified), and the tension is stated plainly: 'Neither predicts a man who fears loss turning down jobs that became hits.'"
+    },
+    {
+      "finding_id": "fan-F6",
+      "accepted": true,
+      "reason": "Accepted. 'desperately trying to recall Edmund's lines' and the 'fuck it' line (S06) are in. 'The work is already done' is replaced by 'The preparation covered the lines and the rest was a leap.'"
+    },
+    {
+      "finding_id": "fan-F7",
+      "accepted": true,
+      "reason": "Accepted. Where Hamlet returns, the article adds his Big Issue response ('There was almost more focus on that... I found that so difficult'), verified. The intro and FAQ keep the plain fact, as the test allows."
+    },
+    {
+      "finding_id": "fan-F8",
+      "accepted": true,
+      "reason": "Accepted. The openness half is restored ahead of the caveat, and 'wary of exploitation from the start' is gone."
+    },
+    {
+      "finding_id": "critic-01",
+      "accepted": true,
+      "reason": "Accepted. His own motive ('Bored with his own two or three lines', 'I'm a nerd', verified in Dish) and the Guardian's 'grit and enthusiasm' are given, with 'Nothing in his accounts ties that to dread' and 'texture for the Six reading, not proof'. The generic Six sentence is removed, and 'The King Lear night is the nearest thing, and it cuts both ways' is added."
+    },
+    {
+      "finding_id": "critic-02",
+      "accepted": true,
+      "reason": "Accepted. Counterphobia is limited to Hamlet and the threats answer, where fear is named first. The letter and the police decision are recorded as One-compatible, and the type section names behaviour that would weaken Six. 'Essiedu does both, in sequence' remains, but with an explicit falsifier it no longer absorbs every outcome."
+    },
+    {
+      "finding_id": "critic-03",
+      "accepted": true,
+      "reason": "Accepted. The adjacency is removed, the kid line is presented as representation, and both omitted S04 answers are quoted. I15 asks the question directly, and the settle test is replaced."
+    },
+    {
+      "finding_id": "critic-04",
+      "accepted": true,
+      "reason": "Accepted. Type 3 is named and tested with sourced counterevidence (S01, S05). 'Perception is the means and safety the stated end' explains the operative word, 'tips' became 'keeps Six narrowly ahead', restlessness names Type 7, and 'full hearing' is gone."
+    },
+    {
+      "finding_id": "critic-05",
+      "accepted": true,
+      "reason": "Accepted. The Type 1 FAQ and the intro keep the general framing and the one-exchange limit. The intro's 'ended on safety' is logged separately (verify-01, minor); it does not overstate confidence."
+    },
+    {
+      "finding_id": "critic-06",
+      "accepted": true,
+      "reason": "Accepted. No sentence says he turned down slave or servant roles. The Big Issue 'very big successes' line is quoted separately."
+    },
+    {
+      "finding_id": "critic-07",
+      "accepted": true,
+      "reason": "Accepted. Anger is dropped as a Six discriminator, the Johnson line is conceded to One, and the Guildhall racism appears only as circumstance ('weak type evidence'). The neighbourhood-police remark is cut; the only remaining 'police' refers to his decision not to report the threats."
+    },
+    {
+      "finding_id": "critic-08",
+      "accepted": true,
+      "reason": "Accepted. 'Acting itself was a leap' with Hattenstone's 'much to everybody's surprise'; 'That condition is a standard, and a One would hear it the same way'; the 2016 openness half restored. 'Safe hands', 'strength in numbers' and 'commitment to safety' are absent (grep)."
+    },
+    {
+      "finding_id": "critic-09",
+      "accepted": true,
+      "reason": "Accepted. The rebuttal names Finlay's on-air Pass Over recollection (verified in my S27 re-transcription), the pattern is dated 2020/2022/2024, and the humility half is given as 'a thought a One could have had'."
+    },
+    {
+      "finding_id": "critic-10",
+      "accepted": true,
+      "reason": "Accepted. Coel's quote keeps 'with great sensitivity and thoughtfulness' and is not offered as fear evidence. The 'one system' line adds 'Dependability alone would fit a One, Two or Nine', and 'people close to him' replaces 'friends'."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "accepted": true,
+      "reason": "Accepted. The text says plainly that only the threats answer reads as a Six facing fear, and that the letter and the police decision read as principle and proportion."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "accepted": true,
+      "reason": "Accepted. 'Many saw his signature as a rebuke to J.K. Rowling, The Sunday Times noted' (verified in S04). The advice answer is attributed to The Sunday Times. The order runs casting (April 2025), letter 'weeks after', then the 2026 answers."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "accepted": true,
+      "reason": "Accepted. The Johnson line is conceded as One anger, and the care axis is gone."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "accepted": true,
+      "reason": "Accepted. 'People close to him' throughout, and the off-stage claim cites only Finlay's on-air recollection."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "accepted": true,
+      "reason": "Accepted. One 'Is it easing?' paragraph puts the 2023 'thinking less' quote, Maxwell's 2016-to-2023 contrast, weekly therapy in 2022 and the 2026 therapy quote side by side, and says what would and wouldn't change the read."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "accepted": true,
+      "reason": "Accepted. The body is 3,498 words by checkDraft. 'Full hearing' is gone, the eating detail is cut, and each 'doesn't explain' item says what it complicates (hits refused, competitive override, restlessness toward 7, the lightness colleagues meet first)."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "accepted": true,
+      "reason": "Accepted. Buckley ('his co-star in the 2022 film Men'), Lennie James ('the actor') and Pass Over ('Essiedu's 2020 play at London's Kiln Theatre') are glossed. Prebble and Romeo are cut, and the half-sister disclosure is dated to the 2024 podcast."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "accepted": true,
+      "reason": "Accepted after I reran the diagnostic myself (the editor had not). Run against src/blog/people/drafts/paapa-essiedu.md, whose body is identical to the candidate, so self-matches are excluded. The only trips are the house 'whose core emotion is fear' sentence. The next highest are the confidence statement (0.122, excluded by the test) and 'since so much of his fear is about how he is seen' (0.08, under 0.084). 'Essiedu does both, in sequence' is kept."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "accepted": true,
+      "reason": "Accepted. Type 3 is named beside the One comparison and dispatched with sourced discriminators: 'just a few little things', 'He never put himself forward', 'My aim isn't to be that famous', and the fear of being uninvited. 'Attention goes outward' is gone."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "accepted": true,
+      "reason": "Accepted. Counterphobia appears only where fear is named first, 'in the same breath' is gone, the representation motive is not framed as safety-seeking, and the letter and police choices are One-compatible."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "accepted": true,
+      "reason": "Accepted. The merit and 'wouldn't be a project' answers sit in the Snape section with an explicit reading: a Six reading can absorb them as anticipatory dread about competence, and a One reading fits more simply."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "accepted": true,
+      "reason": "Accepted. The Lear preparation carries his stated motive and is labelled non-discriminating. 'Steadies' and 'Calm During' are gone from the type answer, FAQ and meta_title ('Then he goes on anyway'). The hook's 'he is the steady one' was protected by the future reviewer and rests on Lawson plus Coel's 'always there in times of crisis'; the test did not target it."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "accepted": true,
+      "reason": "Accepted. The suppressed/repressed line is in, anger is no longer a Six-versus-One discriminator, the Johnson line is acknowledged as One-fitting, and the 'error' misstatement is gone."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "accepted": true,
+      "reason": "Accepted. The roles are 'offered', and 'clip my wings' is quoted with 'very big successes' and assigned to both readings."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "accepted": true,
+      "reason": "Accepted. The stereotype is replaced by a record-based discriminator, and the grief shutdown is conceded as Nine-compatible but limited to grief."
+    },
+    {
+      "finding_id": "enneagram-08",
+      "accepted": true,
+      "reason": "Accepted. The Mr Porter follow-on is restored verbatim, and Coel's phrase is quoted in its humility frame."
+    },
+    {
+      "finding_id": "future-01",
+      "accepted": true,
+      "reason": "Accepted. The closing test rests on independent director or collaborator testimony and his own answer about where his self-criticism comes from, says that press-tour answers won't settle it, and names the One-moving result. I07 has a matching passage and trigger."
+    },
+    {
+      "finding_id": "future-02",
+      "accepted": true,
+      "reason": "Accepted. 'He was in weekly therapy in 2022' and the 2026 Sunday Times quote are separately attributed."
+    },
+    {
+      "finding_id": "future-03",
+      "accepted": true,
+      "reason": "Accepted. The description, persona title, type answer and FAQ frame a documented pattern and agree on 'each new job'. C45, C47, C48 and C49 are time_sensitive with the agreed trigger. (Verify-02 notes a separate scope issue with 'leaning'.)"
+    },
+    {
+      "finding_id": "future-04",
+      "accepted": true,
+      "reason": "Accepted. The Snape FAQ reads 'As of March 2026, the first season was scheduled to premiere on December 25, 2026', and the known-for FAQ uses the past-tense casting. The C20 family carries dated, actionable triggers."
+    },
+    {
+      "finding_id": "future-05",
+      "accepted": true,
+      "reason": "Accepted. 'In 2020, 2022 and 2024', 'by 2025', 'On a trip shortly before that interview' and 'As of March 2026'. A grep finds no drift 'now' or 'recent' outside quotations and 'For now'."
+    },
+    {
+      "finding_id": "future-06",
+      "accepted": true,
+      "reason": "Accepted. Inline links and citations use the YouTube uploads. I checked each with oEmbed and yt-dlp metadata, and the t=745s and t=2145s offsets land on the quoted passages (captions checked). No pdst.fm, chtbl.com, acast or mp3 URL remains in the reader view."
+    }
+  ],
+  "prior_blocker_checks": [],
+  "protected_checks": [
+    {
+      "passage": "This is where the type argument has to be careful. Losing both parents by 20, on little money, would teach anyone to brace for loss, and public evidence can't separate temperament from that history.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate."
+    },
+    {
+      "passage": "There are fair objections. First-night nerves are close to universal among actors, and British interviews reward self-deprecation.",
+      "preserved": true,
+      "reason": "Present verbatim. The rebuttal that follows now rests on the verified Finlay recollection."
+    },
+    {
+      "passage": "None of this is decisive. The Faith answer is one podcast exchange, spoken in therapy vocabulary and in the second person.",
+      "preserved": true,
+      "reason": "Present verbatim, and the metadata now matches its limit."
+    },
+    {
+      "passage": "He has not reported the threats. \"I don't think some 17-year-old boy being put in jail for two weeks for threatening to murder me would actually make me feel any better.\"",
+      "preserved": true,
+      "reason": "Changed to 'As of March 2026, he had not reported the threats.' His own reason follows verbatim. The contribution (his reason in his words, so readers can judge the interpretation) is intact, and dating it improves durability."
+    },
+    {
+      "passage": "He knows he is doing it. \"You know that thing when you project what your brain wants you to see on somebody who is probably just having a cup of tea?\" Then, after a stop: \"Maybe they are thinking it.\"",
+      "preserved": true,
+      "reason": "Present verbatim and faithful to S01 ('He comes to a stop')."
+    },
+    {
+      "passage": "Hattenstone asked if he meant it. \"Genuine!\" he said, fiercely.",
+      "preserved": true,
+      "reason": "Present verbatim."
+    },
+    {
+      "passage": "was in the audience, and he admits he checked Essiedu's knees for knocking.",
+      "preserved": true,
+      "reason": "Present verbatim and verified against S29."
+    },
+    {
+      "passage": "Then, after a stop: \"Maybe they are thinking it.\"",
+      "preserved": true,
+      "reason": "Present verbatim."
+    },
+    {
+      "passage": "About 16 kilometers in he was \"cooked,\" yet \"I continued running for another three kilometres, even though my body was basically shut down.\"",
+      "preserved": true,
+      "reason": "Present verbatim, and the wording matches my re-transcription."
+    },
+    {
+      "passage": "On a recent trip, he had told a stranger he'd been in \"just a few little things,\" then gushed over her job in mezcal. \"And I thought: what is wrong with me!\"",
+      "preserved": true,
+      "reason": "'On a recent trip' became 'On a trip shortly before that interview' (an accurate date anchor). The quotes and the detail are intact, and the passage now also serves as Three counterevidence."
+    },
+    {
+      "passage": "About 16 kilometers in he was \"cooked,\" yet \"I continued running for another three kilometres, even though my body was basically shut down.\" He woke in the medical tent unable to find words.",
+      "preserved": true,
+      "reason": "Present verbatim. 'Unable to find words' matches S24 ('I couldn't remember any words')."
+    },
+    {
+      "passage": "Hattenstone assumed he was fishing. He wasn't.",
+      "preserved": true,
+      "reason": "Present verbatim."
+    },
+    {
+      "passage": "Inside, he told the Observer in 2016, it was \"an out-of-body experience\" with \"internal banshees.\" Outside, Lawson saw no tremble",
+      "preserved": true,
+      "reason": "Present verbatim."
+    },
+    {
+      "passage": "The verdict he fears belongs to other people, and he supplies it himself.",
+      "preserved": true,
+      "reason": "Present verbatim."
+    },
+    {
+      "passage": "A One's goodness answers to an inner standard: is this right? His answer points outward, to how he is perceived, and to safety.",
+      "preserved": true,
+      "reason": "Present verbatim and followed by the Type 3 test. (I06 notes the answer's later turn to authenticity; minor, verify-01.)"
+    },
+    {
+      "passage": "Some of the record sits awkwardly with a Six reading.",
+      "preserved": true,
+      "reason": "Present verbatim, and the section keeps its anomalies unexplained."
+    },
+    {
+      "passage": "His fear in rehearsal \"that you might be bad\" is a One's line, and it stays on the One side of the ledger.",
+      "preserved": true,
+      "reason": "Present verbatim."
+    },
+    {
+      "passage": "A Six would describe Snape with relief at a trusted team and a stable home, and aim the dread at how audiences receive it. A One would talk about getting the role right and bristle at compromises in the work.",
+      "preserved": true,
+      "reason": "Rewritten. The change was required by four major findings (subject-02, fan-F2, critic-03, future-01): his March 2026 'love triumphing over hate' answer already contradicted the 'stable home' half, and press-tour praise could not fail the test. The distinctive contribution (a concrete, falsifiable settle test that names which result favours each type and is reviewed after the 2026-12-25 premiere) is kept in a stronger form. I count this as preserved."
+    },
+    {
+      "passage": "Put the café and the King Lear night side by side and a pattern shows. His fear arrives early, before anything has gone wrong. When something really does go wrong, he is the steady one.",
+      "preserved": true,
+      "reason": "Present verbatim. The hook still stands on dated 2014 and 2022 scenes."
+    },
+    {
+      "passage": "This is a read of his public record from 2014 to 2026, at medium confidence.",
+      "preserved": true,
+      "reason": "Present verbatim."
+    },
+    {
+      "passage": "The scene that would settle it is not on record: a director's account of how he behaves when a production is in trouble. Does he gather allies and over-prepare, or quietly hold the line on standards?",
+      "preserved": true,
+      "reason": "Present verbatim, now followed by the King Lear concession and anchoring the closing test."
+    },
+    {
+      "passage": "Dominic Maxwell of The Times remembered \"a kind of Tiggerish energy, a physical restlessness\" when they met in 2016. By 2023, Maxwell wrote, \"he is all containment.\"",
+      "preserved": true,
+      "reason": "Present verbatim. It moved into the 'Is it easing?' paragraph, verified against S03."
+    },
+    {
+      "passage": "Losing both parents by 20, on little money, would teach anyone to brace for loss, and public evidence can't separate temperament from that history.",
+      "preserved": true,
+      "reason": "Present verbatim."
+    }
+  ],
+  "coverage_complete": true,
+  "metadata_consistent": true,
+  "alternative_type_addressed": true,
+  "five_year_test_passed": true,
+  "scores": {
+    "evidence": {
+      "score": 8.7,
+      "reason": "I reopened all 28 cited sources: 23 print pages re-fetched live or through a reader proxy, and four podcasts re-transcribed from fresh audio cuts and checked against YouTube captions. Every quotation in the reader view is verbatim and in context, including the joined Snape answer and the restored halves of the 2016, Mr Porter and Lennie James answers. Independent testimony (Lawson's eyewitness column, Coel, Buckley, Maxwell's 2016/2023 contrast) sits beside self-report. Inference limits are stated in the prose where they matter. What keeps it below 9: 'his answer ended on safety' misdescribes the end of the key exchange, 'for years... leaning on people' stretches one 2022 statement, and the day of birth rests on a flagged Wikipedia citation.",
+      "passage": "This is where the type argument has to be careful. Losing both parents by 20, on little money, would teach anyone to brace for loss, and public evidence can't separate temperament from that history."
+    },
+    "enneagram": {
+      "score": 8.2,
+      "reason": "The Six read rests on a repeated, costly, dated pattern: dread before each job in 2020, 2022 and 2024, going on anyway, and loss-bracing he himself calls 'mad'. The strongest rival, One, gets its full case (Faith's read, 'sadomasochistic self-flagellation', suppressed anger, Johnson), and loses on a specific sourced discriminator. Type 3 is tested with record-based counterevidence. Four, Nine, Two and Seven are each answered from the record, counterphobia is limited to fear named first, and falsifiers are stated. It sits at 8 rather than higher because the deciding evidence is one podcast exchange in second-person therapy vocabulary. The article admits this ('narrowly', 'None of this is decisive'), and that answer's turn to authenticity goes unmentioned.",
+      "passage": "What keeps Six narrowly ahead is what he says the goodness is for."
+    },
+    "originality": {
+      "score": 8.8,
+      "reason": "The insight belongs to this person: dread arrives before the job, he goes on anyway, and the goodness he is known for is framed as a bid for safety. It is carried by details no other profile could reuse: the car bonnet, the 'cup of tea' projection reversed into 'Maybe they are thinking it', Lawson checking his knees, his mother ringing his half-sister after each drama-school rejection, the half-marathon tent. Unresolved contradictions (refusing hits, shrugging at losing Snape) survive the argument. The stock Six definition is gone; the reran diagnostic trips only on the house triad sentence.",
+      "passage": "He knows he is doing it. \"You know that thing when you project what your brain wants you to see on somebody who is probably just having a cup of tea?\" Then, after a stop: \"Maybe they are thinking it.\""
+    },
+    "writing": {
+      "score": 8.4,
+      "reason": "The two-scene opening sets up a real question, and the sections move from dread to loss to the leap to the type contest without restating the thesis. Pacing alternates blockquotes with short declaratives. Several stretches read like a ledger of attributions, with stacked 'he told X in Y' sentences ('The record backs her up' paragraph, the Snape letter paragraph, 'What the type doesn't explain'). At 3,498 words it sits at the top of the target, so the last third is denser than it needs to be.",
+      "passage": "Put the café and the King Lear night side by side and a pattern shows. His fear arrives early, before anything has gone wrong. When something really does go wrong, he is the steady one."
+    },
+    "durability": {
+      "score": 8.8,
+      "reason": "The argument stands on dated 2014-2025 evidence, and removing the Snape and Olivier material leaves it intact. Changing facts are dated or as-of phrased ('As of March 2026, the first season was scheduled...', 'As of March 2026, he had not reported the threats'). The evidence window and confidence are stated in absolute terms. The settle signals (director testimony, his own account of his self-criticism) cannot be met by press-tour praise and carry actionable triggers. The present-tense meta_title framing of 'the fear of being found out' is the main thing a 2031 reader might find dated, and it is tracked.",
+      "passage": "Press-tour answers won't settle this read; every actor thanks the team and admits nerves. Two things could: the director's account named above, and his own answer, asked directly, about where his self-criticism comes from."
+    },
+    "hook": {
+      "score": 9.0,
+      "reason": "A specific, sourced, dated exchange ('Do you really think so?'), the interviewer's wrong assumption, and the fierce 'Genuine!' make the doubt credible within four lines. The 2014 eyewitness scene sets up a contradiction the article rewards.",
+      "passage": "Hattenstone assumed he was fishing. He wasn't."
+    },
+    "discoverability": {
+      "score": 8.5,
+      "reason": "The title and meta_title carry the name plus Type 6 and a distinct angle. The description is dated and attributed and within limits. The required H2 is answered in under 60 words with confidence and the live alternative. Six FAQs match real search intents (type, Type 1, Snape, parents, known for, age), each consistent with the body and phrased to stay true after December 2026. Internal links go to seven type pages and the published J.K. Rowling profile, and suggestions point to published related profiles (Saoirse Ronan, Emma Watson, Cillian Murphy). The type FAQ inherits verify-02's over-scoped 'for years'.",
+      "passage": "Paapa Essiedu's personality type is Enneagram Type 6, the Loyalist, read at medium confidence."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+I've written the critic review for Sombr to `docs/content-analysis/pipeline-logs/2026-10-21_06-00-02-761_sombr/review-critic.json`. It passes the review schema in `blogEditorial.js`, and every quoted passage matches the draft exactly. Nothing else in the repo was changed and nothing was published.
+
+**Verdict:** six major and two minor findings, which will hold the release until the edit stage deals with them.
+
+Sombr qualifies for an open case (the low-confidence format for early-career subjects). He's 21, his first chart hit was in April 2025, and research opened 38 sources. The tone is honest too: the title, description and FAQs all say "leading read." The problem is the evidence behind that lead:
+
+- **Health used as type evidence (major):** the draft says "none is read from" his health. But one of the four fears that put Type 3 in the lead comes from an anxiety-attack disclosure, a body-image lyric is read as "the Three's dilemma," and his depression lines sit inside the Type 4 section. The research record forbids all of this.
+- **Quotes cut in Type 3's favor (major):** the key CBS answer stops just before "I just never felt like I belonged" and, per the captions, "I don't believe them" about praise. The case against Type 4 has the same problem: ELLE's "more myself… on the stage" drops the next sentence, "I just feel out of place in the regular world," and "solitude makes him sad" leaves out his CBS line "I love being in my own head."
+- **Two factual errors on sensitive allegations (major):**
+  - The draft says his 2025 TikTok reply didn't address the critic's complaints about his jokes. CNN, the source it cites, says that reply was a defense of the jokes. His 2026 promise to "never say or do something that would even make someone uncomfortable again" is also missing.
+  - "No reporting… shows how his label… relationships were formed" is wrong. Variety and ELLE report that labels flooded his inbox after "Caroline" went viral, and that his dad first called Columbia's email "a scam." The FAQ repeats the error.
+- **Type 6 dismissed too fast (major):** one sentence sets Type 6 aside. That sentence leaves out his father's backing when he left school and his own lines distrusting the PR team and labels. The fears that carry the Type 3 lead could just as well be Type 6 security or belonging fears.
+- **Minor:** the Type 4 case isn't discounted for career incentives the way the Type 3 case is, and two of the five "What would settle it" signals don't say which outcome would favor which type.
+
+If the edit changes the leading type or the list of live alternatives, that's a major thesis change, and the pipeline should rerun with `--refresh --expanded-review`.
+
+I checked quotes against the research stage's saved pages and captions, and re-fetched CNN, Variety and ELLE live today. Everything matched. I didn't listen to any audio, so the CBS wording, including "I don't believe them," still needs an audio check.

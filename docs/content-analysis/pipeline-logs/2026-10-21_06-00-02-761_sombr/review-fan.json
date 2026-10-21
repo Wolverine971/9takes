@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "fan",
+  "content_sha256": "2a0a4f5e1204ea07a867d3cf41ca71eeddd43e4bbb4efb64bb890dd2a0bed49e",
+  "evidence_sha256": "7c5f17dea7fd32aae87896661db0579c6b9b2cf26ebe61939e459be7741e72fc",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "fan-F1",
+      "severity": "major",
+      "passage": "Mason suggested that \"Caroline\" had validated him. \"It validated me,\" he agreed.",
+      "problem": "Missing formative context that any informed fan knows and that his own opened sources supply. \"Caroline\" appears only as a name in Mason's question: readers are never told it was the self-recorded song that went viral on TikTok in 2022, brought labels calling and led to the Warner deal (NYLON S06; Variety S07; ELLE S08; CBS S09: \"When I posted that thing online and like all these dream record labels\"). The article also never mentions his musical household (1883 S17: \"My dad had always played in bands\", records by Crosby, Stills, Nash and Radiohead around the house; NYLON: learned guitar from his dad; i-D S01: his dad played Jeff Buckley's Grace at home), his early-teen New York musical-theatre years (1883; NYLON's Seussical Jr. clip; i-D's Dear Evan Hansen obsession), or LaGuardia, where he was a vocal major with classical training before dropping out in his junior year (1883; American Songwriter S04; ELLE: \"I was failing in school\"). That gap matters for the type argument. \"I didn't even realize that I was good at music until other people told me\" sits next to an audition-based arts-school place and years of stage work, which research itself listed as unexplained. And settle signal 5 says nobody has described him before 2022, while his own detailed pre-2022 account goes unused.",
+      "acceptance_test": "A short, sourced paragraph (about 120 words, placed before \"The verdicts he fears\") covers: his father's bands and guitar lessons, the musical-theatre years, the LaGuardia vocal major and the junior-year dropout, and \"Caroline\" going viral in 2022 and leading to the Warner signing (announced January 2023). The first mention of \"Caroline\" says what it is. The article states, as unexplained or as tested, the tension between \"until other people told me\" and his early stage training and LaGuardia place. Budget the words against the cuts already named in the evidence log (the Swift NYT sentence, the ET/NYLON PR paragraph, the \"Three, Four or Seven\" recap)."
+    },
+    {
+      "id": "fan-F2",
+      "severity": "major",
+      "passage": "Online critics have called him an \"industry plant,\" pointing to his father's events company",
+      "problem": "The industry-plant passage (body and FAQ) keeps the allegation's shape but cuts what both the charge and his answer are about. The Collegian column (S25) says the father's firm runs high-profile charity dinners for clients such as the Elton John AIDS Foundation, and that is why critics allege celebrity connections. ELLE (S08) says his father was a musician before becoming an events producer working with HIV/AIDS organizations, and that his mother works in HIV/AIDS prevention. His rebuttal there is specific: \"To think that that could help me get signed or become a big artist because my dad devotes his life to fight AIDS is just incredibly insane.\" i-D (S01) adds that his dad's band \"weren't big, so it doesn't count as a nepo thing.\" The draft cuts this to a bare \"just incredibly insane\" and presents the father only as an events company and a team member. That makes the denial read as a reflex and slightly tilts an allegation the article says it won't judge.",
+      "acceptance_test": "Body and FAQ describe the father's work as reported (a former musician, now an events producer for HIV/AIDS organizations, per ELLE, September 2026) and give the substance of Sombr's rebuttal using the full clause. They keep NYLON's fact that his father is on his team and the line that no reporting shows how his label or management relationships were formed. The article still doesn't judge the charge. Neither version names or characterizes his sister."
+    },
+    {
+      "id": "fan-F3",
+      "severity": "major",
+      "passage": "\"I just always felt like insecure and like I wanted to be seen or like a part of something,\" he said. \"I didn't even realize that I was good at music until other people told me that I was good.\"",
+      "problem": "At three thesis-bearing points the quote is trimmed to the half that serves the argument there. (1) CBS (S09, about 13:28-13:47): between and after the two printed sentences he said \"I never felt like I was good at anything or a part of anything\" and \"Like I never I just never felt like I belonged.\" The draft then says \"Worth confirmed by other people's verdict on his ability is the Three pattern,\" but the full answer is as much about belonging as about competence. (2) ELLE (S08): \"I'm more myself and more Zen when I'm on the stage\" is used to strain the Four reading, but his next sentence is \"I just feel out of place in the regular world and in public,\" which supports Four. (3) Switched On Pop (S12): the line about \"12 to 12\" drops his stated reason for not testing it: \"I was so so passionate about that song.\" Left out, \"make sure this works... at whatever cost\" reads as commercial resolve. The draft labels each of these a strain on Four or a point for Three, so the trims tilt the case the profile says is open.",
+      "acceptance_test": "Each of the three quotations either includes the omitted clause or marks the omission and gives its sense. The sentences that draw conclusions from them (\"Worth confirmed... is the Three pattern\", the \"What strains the Four reading\" paragraph, the \"Three leads, narrowly\" paragraph and the matching FAQ answers) are reweighed so that the belonging and out-of-place lines count for Four where they appear. No sentence states a type pattern as settled."
+    },
+    {
+      "id": "fan-F4",
+      "severity": "major",
+      "passage": "The Three reading notices that the humble version arrived after the bold one had paid off, when humility plays better.",
+      "problem": "The \"story turned modest\" section treats three later lines as post-fame modesty. In context, each describes the odds he was told about as a child, not a new humility about his ambition. NYLON (S06) continues: \"You are told it's one in a million. It truly is.\" The Broski answer (S14, about 14:07) answers a question that already assumed he had ruled such success out. In it he says his parents told him \"That's like a one in a billion. People don't become pop stars... that's literally what my parents would say,\" then \"It wasn't I didn't want to be famous or known. I wanted to just do it for a career.\" The garbled caption makes even the printed fragment uncertain. ELLE (S08) quotes his mother: \"You can't expect your kid to be a pop star.\" So the \"same kid that thought I was never going to be an artist\" line is consistent with being discouraged as a child and confident after the 2022 signing. Only the Fallon \"1,000-seater\" line truly conflicts with the 1883 and People statements. The Three inference (claim C11f, in for_claim_ids) rests on running these together, and the recurring family message that pop stardom was impossible, an important formative detail, is missing.",
+      "acceptance_test": "The section quotes or paraphrases the \"told it's one in a million\" and \"what my parents would say\" context. It notes that the Broski caption is garbled at \"It wasn't I didn't want to be famous.\" It limits the \"humility after success\" inference to the Fallon line set against 1883 (2023) and People (2025). It drops or qualifies \"Yet in that same Broski answer\" so the answer isn't presented as contradicting itself."
+    },
+    {
+      "id": "fan-F5",
+      "severity": "major",
+      "passage": "He also fights his mentor for flaws.",
+      "problem": "A revealing, widely covered contradiction is missing: his self-described cockiness. Variety (S07) counted \"cocky\" 12 times and \"grateful\" 12 times. Variety also quotes him on the time after \"Caroline\": \"I was so cocky, like, 'Fuck all of you, I'm doing TikTok music!'\" On Berg: \"I thought I knew everything... he basically showed me that I knew nothing.\" American Songwriter (S04): \"When I first started going to Sound City, I thought I was the shit, but I was not... Now, every time I write a song at home, I want to impress Tony. I don't want him to have notes,\" and on the lean years, \"My ego was stroked so hard.\" ELLE (S08) saw a \"cocky swagger\" on stage that was \"not present\" in the interview. The draft shows Berg only as someone he argues with over imperfection, and shows Sombr only as \"very self-conscious\" and modest. Fans know the brash persona and the mentor he wants to impress. Both bear directly on the stated discriminator (whose verdict he works for). The draft log shows these claims (C19, C20) were cut at drafting.",
+      "acceptance_test": "Next to the imperfection argument, the article adds the \"impress Tony / don't want him to have notes\" line (and optionally \"I thought I was the shit\"), so the reader sees both sides of the Berg relationship. It states the cocky/grateful/self-conscious tension once, attributing the 12-and-12 counts to Variety's writer as tallies. In a sentence, it says how each reading accounts for wanting to impress the mentor while defying him on imperfection. It adds no new type certainty."
+    },
+    {
+      "id": "fan-F6",
+      "severity": "major",
+      "passage": "In December 2025 he told Owen Thiele, \"I need to go back to my roots, be the indie alternative. Like that is truly me.\"",
+      "problem": "The quote is printed without its premise, which changes what it shows. In the same answer (S11, about 19:30) he said he \"went like very like colorful pop,\" that \"I had a few big hits really fast and like I felt all this pressure to like keep up in the pop world... which it did worked great,\" and that \"I wasn't trying to make a pop song. And then they became pop songs.\" That is his own account of a time when what felt true and what worked pulled apart: the conflict the \"What would settle it\" section calls future. Printed alone, the line reads as a pure Four identity claim. With its premise, it is a retrospective, self-reported datum for both readings: he admits complying with pop pressure, then claims the indie self as the true one. It does not settle the case, but leaving it out distorts the source and understates what the record already shows.",
+      "acceptance_test": "Settle signal 1 (or the paragraph before it) includes the \"pressure to keep up in the pop world... it worked great\" premise with its limits stated (retrospective, said in a comic podcast, the songs' timing unclear). The text says what this already suggests and why the second album is still the cleaner test. The FAQ settle answer stays consistent."
+    },
+    {
+      "id": "fan-F7",
+      "severity": "minor",
+      "passage": "a musician who studied the algorithm at 18 and tests his choruses named himself for sadness",
+      "problem": "Misdated. At 18 he told 1883 (S17) that he had studied the algorithm, but in his account the studying came in his early teens, after his musical-theatre years and before LaGuardia: \"Then, when I was in my early teens, I got into the whole musical theatre scene... Afterward, I started producing and studying the social media algorithm... Eventually, I went to high school at... LaGuardia.\" The FAQ (\"since his teens\") and the line \"a teenager studying the algorithm\" are right; this sentence and the evidence's unexplained field are not.",
+      "acceptance_test": "The sentence dates the algorithm study to his early teens, per his 2023 account (e.g. \"a musician who says he was studying the algorithm in his early teens\"), and agrees with the FAQ wording."
+    },
+    {
+      "id": "fan-F8",
+      "severity": "minor",
+      "passage": "\"I wouldn't respond now,\" he told ELLE. \"That video kind of woke me up. I was like, 'Wait, yeah, that is weird.'\"",
+      "problem": "Two statements from separate ELLE paragraphs are printed as if consecutive. Between them he says \"I think responding only makes it worse. I was a teenager when I was kind of just pushed into the spotlight... I thought I needed to defend myself\" and \"I'm an awkward kid. I don't know what to do in weird moments.\" After them he adds \"I plan to never say or do something that would even make someone uncomfortable again.\" The joined version drops his stated reasons. One is reception strategy (\"responding only makes it worse\"), which actually helps the Three reading's point. The other is a commitment about conduct, which complicates \"once he saw how it landed.\"",
+      "acceptance_test": "The two quotations are separated, with attribution or a marked omission between them. At least one of his stated reasons (\"responding only makes it worse\" or \"I was a teenager... pushed into the spotlight\") is included, so the Three inference and the \"growing up in public\" alternative are both weighed against his own words."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "In November 2023, Shane Boose was 18, had no chart hit and had not yet played a live show as Sombr.",
+      "reason": "Verified hook (1883 S17: \"Sombr hasn't done a live show yet\") that sets up a real, dated contradiction with the Fallon 1,000-seater line. The Knicks-game ending answers it, and 1883 also says his dad took him to basketball games at the Garden. Keep the bookend."
+    },
+    {
+      "passage": "Both answers are his. Which one describes him is the question this profile tries, and so far fails, to settle.",
+      "reason": "States the open case honestly in two sentences without overclaiming; it's what makes the open-case format readable."
+    },
+    {
+      "passage": "Sombr \"watches me take them in and asks me questions after each one,\" the writer observed.",
+      "reason": "Rare third-party observed behavior in a record that is almost all self-report; checked against ELLE (S08) and quoted in context."
+    },
+    {
+      "passage": "\"Even if some people found it cringe, it's cringe until you win.\"",
+      "reason": "His most quotable line on the TikTok method, accurate to NYLON (S06), and the draft rightly calls it weak evidence of motive."
+    },
+    {
+      "passage": "These readings will separate when the choice that feels true and the choice that works pull apart and cost him something.",
+      "reason": "A precise, person-specific discriminator. The concrete settle signals after it, which aren't generic, meet the open-case standard."
+    }
+  ],
+  "assessment": "Fan-proxy review of an open case. Eligibility holds: he is 21, his star career dates from spring 2025, and research opened 38 sources, so the record is young, not skipped. No blocker. The hook, settle signals and attribution are strong, and the title, description and type FAQ use leading-read language throughout. The main gap is formative context: his father's bands, musical theatre, LaGuardia and the 2022 \"Caroline\" breakthrough are absent, though they are in the opened sources and bear on the type question. The second problem is source distortion at thesis-bearing points: CBS, ELLE, Switched On Pop, NYLON/Broski and Owen Thiele quotes are trimmed to the half that serves the local argument, and the dropped halves cut in both directions. A well-known contradiction (self-described cockiness and wanting to impress Tony Berg) was cut at drafting. None of this changes the leading read or the open-case confidence. It does change how fairly Three, Four and Seven are weighed, so the fixes should reweigh in place, not add certainty. The draft is already about 2,800 words against a 1,200-2,500 open-case target, so restored context should replace the cuts named in the evidence log, not add to them. Limitation: checks used the research stage's saved page texts and YouTube caption transcripts (/tmp/sombr-research), not a fresh fetch or the audio. Caption wording at the cited timestamps still needs an audio check."
+}

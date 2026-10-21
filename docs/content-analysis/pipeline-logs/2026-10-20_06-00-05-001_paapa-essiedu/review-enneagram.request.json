@@ -1,0 +1,20 @@
+{
+  "schema_version": 3,
+  "subject": "paapa-essiedu",
+  "mode": "create",
+  "role": "enneagram",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_review_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-20_06-00-05-001_paapa-essiedu/draft.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-20_06-00-05-001_paapa-essiedu/evidence-draft.json",
+    "similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-20_06-00-05-001_paapa-essiedu/similarity.json"
+  },
+  "outputs": {
+    "review-enneagram.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-20_06-00-05-001_paapa-essiedu/review-enneagram.json"
+  },
+  "content_sha256": "8b3f8463c5f047e390517a54ba02946855ad8e8b4d5181e6d87fab923cb4cc50",
+  "evidence_sha256": "23fb21d08bf24d65f78b2fa7ea792bb5d15bbed522f47226392067663ba157a1"
+}

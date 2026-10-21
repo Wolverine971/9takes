@@ -1,0 +1,323 @@
+{
+  "target": {
+    "person": "paapa-essiedu",
+    "type": "6",
+    "units": 15,
+    "file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-20_06-00-05-001_paapa-essiedu/draft.md"
+  },
+  "comparison_set": [
+    {
+      "person": "christopher-abbott",
+      "date": "2026-10-19",
+      "units": 9
+    },
+    {
+      "person": "ella-beatty",
+      "date": "2026-10-18",
+      "units": 9
+    },
+    {
+      "person": "grace-reiter",
+      "date": "2026-10-16",
+      "units": 8
+    },
+    {
+      "person": "lily-rose-depp",
+      "date": "2026-10-16",
+      "units": 8
+    },
+    {
+      "person": "shyam-sankar",
+      "date": "2026-10-13",
+      "units": 14
+    },
+    {
+      "person": "maleah-joi-moon",
+      "date": "2026-10-12",
+      "units": 10
+    },
+    {
+      "person": "joseph-zada",
+      "date": "2026-09-12",
+      "units": 13
+    },
+    {
+      "person": "Arthur-Mensch",
+      "date": "2026-09-10",
+      "units": 42
+    }
+  ],
+  "n_requested": 8,
+  "noise_floor": {
+    "pairs_compared": 1695,
+    "median": 0,
+    "p90": 0,
+    "p99": 0.021,
+    "max": 1
+  },
+  "trip_threshold": 0.084,
+  "tripped": true,
+  "trip_pairs": [
+    {
+      "score": 1,
+      "other_person": "christopher-abbott",
+      "shared_phrases": [
+        "whose core",
+        "core emotion",
+        "whose core emotion",
+        "core emotion is",
+        "emotion is fear"
+      ],
+      "target": "[diagnosis] whose core emotion is fear.",
+      "other": "[diagnosis] whose core emotion is fear."
+    },
+    {
+      "score": 1,
+      "other_person": "ella-beatty",
+      "shared_phrases": [
+        "whose core",
+        "core emotion",
+        "whose core emotion",
+        "core emotion is",
+        "emotion is fear"
+      ],
+      "target": "[diagnosis] whose core emotion is fear.",
+      "other": "[diagnosis] whose core emotion is fear"
+    },
+    {
+      "score": 1,
+      "other_person": "grace-reiter",
+      "shared_phrases": [
+        "whose core",
+        "core emotion",
+        "whose core emotion",
+        "core emotion is",
+        "emotion is fear"
+      ],
+      "target": "[diagnosis] whose core emotion is fear.",
+      "other": "[diagnosis] whose core emotion is fear."
+    },
+    {
+      "score": 0.134,
+      "other_person": "christopher-abbott",
+      "shared_phrases": [
+        "whose core",
+        "core emotion",
+        "whose core emotion",
+        "core emotion is"
+      ],
+      "target": "[diagnosis] a gut-triad type whose core emotion is anger held down by a strict inner critic",
+      "other": "[diagnosis] whose core emotion is fear."
+    },
+    {
+      "score": 0.134,
+      "other_person": "ella-beatty",
+      "shared_phrases": [
+        "whose core",
+        "core emotion",
+        "whose core emotion",
+        "core emotion is"
+      ],
+      "target": "[diagnosis] a gut-triad type whose core emotion is anger held down by a strict inner critic",
+      "other": "[diagnosis] whose core emotion is fear"
+    },
+    {
+      "score": 0.134,
+      "other_person": "grace-reiter",
+      "shared_phrases": [
+        "whose core",
+        "core emotion",
+        "whose core emotion",
+        "core emotion is"
+      ],
+      "target": "[diagnosis] a gut-triad type whose core emotion is anger held down by a strict inner critic",
+      "other": "[diagnosis] whose core emotion is fear."
+    },
+    {
+      "score": 0.132,
+      "other_person": "lily-rose-depp",
+      "shared_phrases": [
+        "before trust",
+        "before trust it"
+      ],
+      "target": "[diagnosis] and tests the ground before trusting it.",
+      "other": "[diagnosis] and many test an authority before trusting it."
+    }
+  ],
+  "per_draft_max": [
+    {
+      "person": "christopher-abbott",
+      "date": "2026-10-19",
+      "units": 9,
+      "maxScore": 1
+    },
+    {
+      "person": "ella-beatty",
+      "date": "2026-10-18",
+      "units": 9,
+      "maxScore": 1
+    },
+    {
+      "person": "grace-reiter",
+      "date": "2026-10-16",
+      "units": 8,
+      "maxScore": 1
+    },
+    {
+      "person": "lily-rose-depp",
+      "date": "2026-10-16",
+      "units": 8,
+      "maxScore": 0.132
+    },
+    {
+      "person": "Arthur-Mensch",
+      "date": "2026-09-10",
+      "units": 42,
+      "maxScore": 0.12
+    },
+    {
+      "person": "shyam-sankar",
+      "date": "2026-10-13",
+      "units": 14,
+      "maxScore": 0.057
+    },
+    {
+      "person": "joseph-zada",
+      "date": "2026-09-12",
+      "units": 13,
+      "maxScore": 0.046
+    },
+    {
+      "person": "maleah-joi-moon",
+      "date": "2026-10-12",
+      "units": 10,
+      "maxScore": 0.021
+    }
+  ],
+  "top_pairs": [
+    {
+      "score": 1,
+      "other_person": "christopher-abbott",
+      "shared_phrases": [
+        "whose core",
+        "core emotion",
+        "whose core emotion",
+        "core emotion is",
+        "emotion is fear"
+      ],
+      "target": "[diagnosis] whose core emotion is fear.",
+      "other": "[diagnosis] whose core emotion is fear."
+    },
+    {
+      "score": 1,
+      "other_person": "ella-beatty",
+      "shared_phrases": [
+        "whose core",
+        "core emotion",
+        "whose core emotion",
+        "core emotion is",
+        "emotion is fear"
+      ],
+      "target": "[diagnosis] whose core emotion is fear.",
+      "other": "[diagnosis] whose core emotion is fear"
+    },
+    {
+      "score": 1,
+      "other_person": "grace-reiter",
+      "shared_phrases": [
+        "whose core",
+        "core emotion",
+        "whose core emotion",
+        "core emotion is",
+        "emotion is fear"
+      ],
+      "target": "[diagnosis] whose core emotion is fear.",
+      "other": "[diagnosis] whose core emotion is fear."
+    },
+    {
+      "score": 0.134,
+      "other_person": "christopher-abbott",
+      "shared_phrases": [
+        "whose core",
+        "core emotion",
+        "whose core emotion",
+        "core emotion is"
+      ],
+      "target": "[diagnosis] a gut-triad type whose core emotion is anger held down by a strict inner critic",
+      "other": "[diagnosis] whose core emotion is fear."
+    },
+    {
+      "score": 0.134,
+      "other_person": "ella-beatty",
+      "shared_phrases": [
+        "whose core",
+        "core emotion",
+        "whose core emotion",
+        "core emotion is"
+      ],
+      "target": "[diagnosis] a gut-triad type whose core emotion is anger held down by a strict inner critic",
+      "other": "[diagnosis] whose core emotion is fear"
+    },
+    {
+      "score": 0.134,
+      "other_person": "grace-reiter",
+      "shared_phrases": [
+        "whose core",
+        "core emotion",
+        "whose core emotion",
+        "core emotion is"
+      ],
+      "target": "[diagnosis] a gut-triad type whose core emotion is anger held down by a strict inner critic",
+      "other": "[diagnosis] whose core emotion is fear."
+    },
+    {
+      "score": 0.132,
+      "other_person": "lily-rose-depp",
+      "shared_phrases": [
+        "before trust",
+        "before trust it"
+      ],
+      "target": "[diagnosis] and tests the ground before trusting it.",
+      "other": "[diagnosis] and many test an authority before trusting it."
+    },
+    {
+      "score": 0.12,
+      "other_person": "Arthur-Mensch",
+      "shared_phrases": [],
+      "target": "[diagnosis] This is a read of his public record from 2014 to 2026",
+      "other": "[diagnosis] That is a reading of public evidence rather than a diagnosis"
+    },
+    {
+      "score": 0.091,
+      "other_person": "grace-reiter",
+      "shared_phrases": [],
+      "target": "[diagnosis] looks for people and structures that will hold",
+      "other": "[diagnosis] A Type 6 is built to anticipate trouble and to look for support that will hold."
+    },
+    {
+      "score": 0.068,
+      "other_person": "lily-rose-depp",
+      "shared_phrases": [
+        "people and structure"
+      ],
+      "target": "[diagnosis] looks for people and structures that will hold",
+      "other": "[diagnosis] she usually steadies through people and structures she trusts"
+    },
+    {
+      "score": 0.057,
+      "other_person": "shyam-sankar",
+      "shared_phrases": [],
+      "target": "[diagnosis] The steadiness arrives once the danger is in the room.",
+      "other": "[diagnosis] Others walk straight at what worries them and come across as the boldest person in the room."
+    },
+    {
+      "score": 0.046,
+      "other_person": "joseph-zada",
+      "shared_phrases": [
+        "people and structure"
+      ],
+      "target": "[diagnosis] looks for people and structures that will hold",
+      "other": "[diagnosis] A Six fears the ground giving way and settles once trusted people and structure are in place."
+    }
+  ]
+}

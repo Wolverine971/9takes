@@ -1,0 +1,16 @@
+The Enneagram review is written to `docs/content-analysis/pipeline-logs/2026-10-21_06-00-02-761_sombr/review-enneagram.json`. It passes the review schema, its hashes match the request, and every quoted passage matches the draft word for word. I changed no other files and published nothing.
+
+**Verdict:** Sombr qualifies as an open case: he's 21, his breakout was April 2025, and research opened 38 sources. The draft is disciplined: it doesn't use wings or arrows to explain away the tension, it discounts TikTok-career habits for both Type 3 and Type 4, and the title, description and FAQ all say "leading read." The problem is that Type 3 doesn't actually earn its lead over Type 4.
+
+**Seven findings (six major, one minor):**
+1. **Type 6 dismissed on a stereotype.** The draft says nothing shows "doubt of authority or worst-case planning." Its own record has both: "they can't PR train me" followed by deferring to his publicist, and the Owen Thiele interview where he skips going out after shows because "I cannot get sick and let down my fans," calls himself a "huge germaphobe," and says not handling the pressure of waiting "sums up me as a person."
+2. **The key CBS quote is trimmed.** The same answer repeats "never felt like I belonged" and mentions childhood anxiety. The captions also suggest he said "I don't believe them" about people praising him. That needs checking against the audio. Yet the draft states "is the Three pattern" outright.
+3. **The main argument against Type 4 uses half a quote.** The draft cuts ELLE's quote after the stage line. The second half is "I just feel out of place in the regular world," which leans toward Type 4. The rest of the Brittany Broski answer ("so easy to see everything as numbers… I need that human connection") cuts against Type 3.
+4. **Health disclosures are used as Type 3 evidence.** The anxiety-attack quote and the body-image song lyric count toward Type 3, even though the draft says "none is read from" his health and the research rules forbid it.
+5. **The "what would settle it" list is uneven.** The co-writing signal contradicts the draft's own reasoning. The "someone who knew him" signal doesn't say which type each outcome would favor. The Type 7 branches come down to "fun" and "joking." The draft drops the off-tour signal that the research notes say is needed to rule out Type 7.
+6. **The TikTok backlash episode is read selectively (minor).** It counts toward Type 3, but the draft omits his "so be it, but that doesn't represent me as a human" line.
+7. **The overall case for leading with Type 3.** After fixes 1–4, the draft must name a reason Type 3 leads that survives its own discounts. Otherwise it should call Types 3 and 4 a tie, or switch the lead to Type 4. A switch changes the type thesis and needs `--refresh --expanded-review`.
+
+I also marked five passages to keep, including "Both answers are his…" and the "If the album flops, f*ck it" test, which is the best way the piece offers to tell Type 3 from Type 4.
+
+**Limits:** I checked quote context in the research stage's saved copies in `/tmp/sombr-research`, not the live pages. I didn't listen to any audio, and the YouTube captions don't reliably mark who is speaking.

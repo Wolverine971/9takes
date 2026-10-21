@@ -1,0 +1,29 @@
+I've written the verify-stage output to `verification-edit.json`. The Paapa Essiedu profile **passes**, and the release check now reports no blockers. Nothing was published, and the only file I changed in the repo is that verification file.
+
+**How I checked it**
+- **Sources:** I reopened all 28 cited sources. I fetched 23 print pages again live, or through a reader proxy where the site blocks or paywalls normal access.
+- **Podcasts:** I transcribed the key passages of the four podcasts myself from fresh audio and checked them against the YouTube captions. That covers the Paloma Faith "being good" exchange, the 2020 Chatterbox livestream, the Dish King Lear story and the Going Rogue half-sister story.
+- **Quotes:** I checked every quote in the article against its source. All 152 claims are supported, and five of them carry a qualification.
+- **Reader-facing links:** The embedded Faith clip (23:03–24:41) and the two timestamped YouTube links each land on the quoted moment.
+- **Reviewer findings:** All 49 findings from the six reviewers are fixed, and all 23 passages the reviewers asked to protect survive. The editor hadn't rerun the check against near-duplicate wording in other Type 6 pages, so I did. The only matches are the standard sentence every Type 6 page carries ("whose core emotion is fear") and the confidence line.
+
+**Scores:** overall 8.6 (B+), clearing the 8.5 bar for release.
+
+| Dimension | Score |
+|---|---|
+| Evidence | 8.7 |
+| Enneagram | 8.2 |
+| Originality | 8.8 |
+| Writing | 8.4 |
+| Durability | 8.8 |
+| Hook | 9.0 |
+| Discoverability | 8.5 |
+
+Enneagram is the lowest because the case for Type 6 over Type 1 rests on one podcast answer. The article says so itself.
+
+**Three minor fixes worth making before you publish (none blocks release):**
+1. **Opening paragraph:** it says his answer to Paloma Faith "ended on safety." In the recording he goes on past safety and finishes on staying authentic and letting "your true self come out." The embedded clip plays that ending, so a reader will notice. Changing "ended on" to "turned to" fixes it.
+2. **Type answer and type FAQ:** "for years… leaning on people close to him" stretches one 2022 quote into a long pattern. Only the dread before each job is on record across several years.
+3. **Birth date:** June 11 comes from Wikipedia, and Wikipedia's own citation for it is tagged "better source needed." It's probably right, since a TheWrap article gives the same date and every age he's quoted at fits. Either add an independent source or keep just the year.
+
+Separately, I added a note to my memory: running the similarity check on the run-folder copy compares the page against itself, so it should run on the copy in the drafts folder. While doing that, a memory hook asked me to shrink the memory index. I shortened every entry to one tighter line, down to about 16KB, and dropped none of the 109 entries.

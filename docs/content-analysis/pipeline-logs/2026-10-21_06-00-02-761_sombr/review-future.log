@@ -1,0 +1,18 @@
+I wrote the future-role review for the Sombr open case. It passes the contract's `reviewSchema`, and all ten quoted passages match the draft exactly. The content and evidence hashes match the request, and I changed no other files.
+
+**Verdict:** the main argument passes the five-year test. It rests on things he said between 2023 and 2026, not on the latest events, and almost every fact that can change has a date on it. Sombr still qualifies as an open case: he's 21, his first hit charted in April 2025, and research opened 38 sources. The title, description and FAQs all say "leading read" or "held loosely", so nothing overclaims.
+
+**Two major findings (the editor must resolve these before release):**
+- **future-01:** The 60-word type answer and the type FAQ say "A record about 18 months old" with no date. That will be wrong within months, and the matching evidence claim (I04) is marked stable with no review trigger, so maintenance won't catch it. The fix is to anchor it to a real date (for example, "since his spring 2025 breakout").
+- **future-02:** The article says Type 7 is "still in play" but gives no way to settle it. All five "What would settle it" signals are built to separate 3 from 4. The research itself says 7 can only be ruled out by watching him through a long stretch off tour, and the tour is scheduled to end in July 2027. The draft dropped that signal.
+
+**Three minor findings:**
+- **future-03:** One settle signal depends on the backlash to his September 2026 VMA tribute to George Michael. He'll probably never respond, so that signal will just go stale.
+- **future-04:** Some present-tense claims are marked stable with no review trigger: that he writes and produces alone and finishes songs with Tony Berg, and that his father is on his team. A second album or a team change could make them false without anyone noticing.
+- **future-05:** "Berg has not been quoted" is an absence claim with no review trigger. A quick web search today found no verbatim Berg quote about Sombr, so it holds for now.
+
+I marked five passages to protect: the two Madison Square Garden quotes that open the piece, the "choice that feels true vs. the choice that works" line, the stated research date, the "Nothing on record shows which explanation is right" passage, and the ending. The similarity check didn't flag anything (top score 0.039, threshold 0.04). The closest matches only share standard Enneagram terms, not arguments.
+
+The review is in `docs/content-analysis/pipeline-logs/2026-10-21_06-00-02-761_sombr/review-future.json`.
+
+Sources: [Tony Berg (Wikipedia)](https://en.wikipedia.org/wiki/Tony_Berg) · [CLASH](https://www.clashmusic.com/?p=450253) · [Songfacts: We Never Dated](https://www.songfacts.com/facts/sombr/we-never-dated) · [PopMatters](https://www.popmatters.com/sombr-i-barely-knew-her)

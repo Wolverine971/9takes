@@ -1,0 +1,100 @@
+{
+  "schema_version": 3,
+  "role": "subject",
+  "content_sha256": "8b3f8463c5f047e390517a54ba02946855ad8e8b4d5181e6d87fab923cb4cc50",
+  "evidence_sha256": "23fb21d08bf24d65f78b2fa7ea792bb5d15bbed522f47226392067663ba157a1",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "subject-01",
+      "severity": "major",
+      "passage": "The counterphobic Six explains it: once a threat is concrete and named, he moves toward it. Still, look at what he reached for in the same breath. He named the production team behind him, and the kid he used to be.",
+      "problem": "In The Sunday Times (21 March 2026) these are separate answers, several questions apart. 'Because I think of how I felt as a kid' answers the death threats. 'I have been really supported by the production team' closes his answer about signing the letter. 'In the same breath' is false. Reading a statement of support he received as him reaching for protection is an invented motive. The paragraph then replaces his own stated reasons (trans artists' dignity; jailing a 17-year-old wouldn't help) with an unhedged type mechanism, although signing an open letter is not moving toward a threat. It also leaves out his answer, in the same interview, to the calls for him to be sacked: if that were the reason he lost the job, 'it wouldn't be a project I'd want to work on anyway'. That cuts against the fear-of-loss thesis and should be confronted.",
+      "acceptance_test": "'In the same breath' is gone, and any link between the threats answer and the letter answer says they were separate. The counterphobic reading is labelled as one interpretation, set beside his stated principle, with an explicit note that a principled One fits the letter equally well. His 'wouldn't be a project I'd want to work on anyway' answer is quoted or paraphrased with attribution (Sunday Times, March 2026), and the draft says what it does to the fear-of-loss reading. The evidence record has a claim for it."
+    },
+    {
+      "id": "subject-02",
+      "severity": "major",
+      "passage": "He took it partly for the boy in the library, where his mother took him in the holidays because she couldn't afford a babysitter.",
+      "problem": "His own explicit reason is missing. The Sunday Times interviewer suggested that if he had wanted 'stability and cash', a role in Star Wars would have been easier to get. He answered: 'Yes, but the themes that run through Harry Potter are of love triumphing over hate — of acceptance. And that's why I'm doing it.' He also framed the role around representation ('a kid like me can see themselves represented in that world'). The section's settle test ('A Six would describe Snape with relief at a trusted team and a stable home') is presented as unanswered. The record already shows him setting aside the stability framing in favour of values.",
+      "acceptance_test": "The Snape section quotes or closely paraphrases his 'that's why I'm doing it' answer and the stability question it answered, attributed to The Sunday Times, March 2026. The settle-signal paragraph either drops 'a stable home' or says that his one answer on stability pointed elsewhere, and names the reading that answer favours. Any motive given for taking the role is his stated one or is marked as inference."
+    },
+    {
+      "id": "subject-03",
+      "severity": "major",
+      "passage": "He is choosy on principle. He has turned down \"a lot of slave roles, a lot of period dramas as a butler or servant,\" and projects that became \"very, very, very big successes.\"",
+      "problem": "This misstates his position. Mr Porter (September 2024) says he was 'getting offered' these roles, 'which I think speaks to how I was perceived in the industry, rather than my interest or my historical knowledge'. It adds that 'no role is technically off limits' and that he 'wouldn't entirely write off such a role' if the intention and craft were right. The source records no refusal. The draft recasts his critique of racial typecasting as personal choosiness and then counts it as Type 1 evidence, which misrepresents a racially charged statement. The Big Issue line about 'very big successes' also sits in a race context: being 'savvy about the propensity of the industry to try and clip my wings'.",
+      "acceptance_test": "The sentence says he was offered these roles, not that he turned them down. It keeps his 'how I was perceived in the industry' framing and notes that he would not rule such a role out if it had a point. If the passage stays as Type 1 evidence, the draft acknowledges that he frames these choices as resisting stereotyping. Evidence claim C26b's passage is updated to match."
+    },
+    {
+      "id": "subject-04",
+      "severity": "major",
+      "passage": "In 2022 he described a Guildhall improvisation in which a teacher, playing a prison warden, shouted a racial slur at him and Coel.",
+      "problem": "This sensitive allegation is stated more broadly than the source. In The Guardian (11 June 2022), the teacher shouted 'Hey you, N-word, what have you got behind you?' and Essiedu said: 'I didn't know if she was talking to me or Michaela.' The draft says the slur was shouted 'at him and Coel', which puts on record a claim about a named third party's experience that the source does not make.",
+      "acceptance_test": "The sentence matches the source: the teacher used the slur during the improvisation, and Essiedu said he did not know whether she meant him or Coel. The teacher stays unnamed and the slur stays unprinted. Evidence claim C29's passage is updated to match."
+    },
+    {
+      "id": "subject-05",
+      "severity": "minor",
+      "passage": "Essiedu had been thinking about why he is so dismissive of his own success, and his explanation works like insurance.",
+      "problem": "Only the thesis-friendly half of his explanation survives. Hattenstone records his reasons as 'class, insecurity, impostor syndrome, self-preservation'. The draft keeps only self-preservation and frames it as 'insurance'. That drops a circumstantial cause (class) that competes with the type reading. It also drops his correctives. In 2022 he said he hoped this would change and that next time he would call himself a 'half-decent' actor. Mr Porter's 'fear of things being taken away' sentence continues: 'But you need to respect your body, respect your talent, you can take time off and then the other thing will come.' One small detail is also off: the source says 'A week later we catch up', not that Hattenstone called him back.",
+      "acceptance_test": "The section names class and impostor syndrome as reasons he gives (attributed to Hattenstone's paraphrase) beside self-preservation. It includes or paraphrases at least one of his corrective follow-ons. The follow-up is described as a catch-up a week later, not a phone call."
+    },
+    {
+      "id": "subject-06",
+      "severity": "minor",
+      "passage": "He has been wary of exploitation from the start. \"For anyone to survive, you cannot live with your heart on your sleeve all the time because people will take advantage,\" he told the Observer in 2016.",
+      "problem": "The quote is cut to its guarded half. Asked in 2016 what an actor needs to survive, he first said 'genuine openness and vulnerability, a willingness to share yourself', then 'Having said that...'. Without the first half, a balanced view of vulnerability reads as wariness, and 'from the start' turns one answer into a lifelong trait.",
+      "acceptance_test": "The passage includes or paraphrases the openness half of the answer. It no longer calls him wary 'from the start' unless another early source is cited for that."
+    },
+    {
+      "id": "subject-07",
+      "severity": "minor",
+      "passage": "He is rarely angry.",
+      "problem": "The author asserts something about his inner life that he does not assert himself. On Mad, Sad and Bad (March 2025) he said: 'I don't know if the anger is suppressed. I don't know if it's repressed. I don't know if it all comes out when it needs to come out or if it comes out in different ways.' He answered Faith's 'diffusing role' with 'maybe'. Evidence claim C24 says to preserve this uncertainty, but the draft drops it and uses the flat claim in the Type 1 comparison.",
+      "acceptance_test": "'He is rarely angry' is replaced with what he reports (his adult fights have been attempts to break up fights) plus his own uncertainty about whether his anger is suppressed or repressed, quoted or closely paraphrased."
+    },
+    {
+      "id": "subject-08",
+      "severity": "minor",
+      "passage": "he described people-pleasing as an attempt to control how he is seen and to create safety for himself.",
+      "problem": "The Type 1 FAQ turns a generic second-person remark ('trying to control like what other people think of you ... safety for yourself') into a first-person self-diagnosis ('how he is seen ... for himself'). It drops the caveats the body gives at 'None of this is decisive'. The intro does the same with one answer: 'when he explains why he tries so hard to be good, he talks about safety' implies a repeated pattern, but the record has one podcast exchange. The FAQ and search snippets carry this without the hedge.",
+      "acceptance_test": "The FAQ answer says this was one 2025 podcast answer about people-pleasing, spoken in general terms that he applied to himself, or it attributes the safety framing without turning 'you' into 'he'. The intro sentence is singular and dated (for example, 'when Paloma Faith asked him in 2025...') or is backed by a second cited source."
+    },
+    {
+      "id": "subject-09",
+      "severity": "minor",
+      "passage": "Paapa Essiedu dreads being found out before every job, yet walked on mid-show at the National without a tremble.",
+      "problem": "The meta description states a 2022 self-report about a living person's anxiety as a permanent present-tense fact, and the persona title ('The Actor Who Expects to Be Found Out') makes it his identity. The body itself records that the feeling is easing ('right now I'm thinking less about what people might think about me', The Times, August 2023) and his 2022 hope that 'this is going to change'.",
+      "acceptance_test": "The description attributes or dates the dread ('says he dreads', 'has described dreading') and stays within 120-170 characters. The persona title either attributes the trait or describes the pattern without stating it as a fixed present-tense trait."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "This is where the type argument has to be careful. Losing both parents by 20, on little money, would teach anyone to brace for loss, and public evidence can't separate temperament from that history.",
+      "reason": "This is the fairness move the subject most needs. At the most sensitive point it names circumstance as a rival explanation, so his grief is not turned into a type proof."
+    },
+    {
+      "passage": "There are fair objections. First-night nerves are close to universal among actors, and British interviews reward self-deprecation.",
+      "reason": "It tests the main evidence against its two most obvious innocent explanations before building on it."
+    },
+    {
+      "passage": "None of this is decisive. The Faith answer is one podcast exchange, spoken in therapy vocabulary and in the second person.",
+      "reason": "It states the limits of the central discriminator in plain words. The metadata should carry the same honesty (see subject-08)."
+    },
+    {
+      "passage": "He has not reported the threats. \"I don't think some 17-year-old boy being put in jail for two weeks for threatening to murder me would actually make me feel any better.\"",
+      "reason": "It gives his own reason in his own words for a choice the draft later interprets, so readers can judge the interpretation."
+    },
+    {
+      "passage": "He knows he is doing it. \"You know that thing when you project what your brain wants you to see on somebody who is probably just having a cup of tea?\" Then, after a stop: \"Maybe they are thinking it.\"",
+      "reason": "This is faithful to the source ('He comes to a stop'). It is distinctive, and it shows his self-awareness rather than imposing a diagnosis on him."
+    }
+  ],
+  "assessment": "On fairness, the draft mostly holds up. Self-reports are attributed and dated. 'Nervous breakdown' is explicitly not treated as a diagnosis. Therapy appears only as he volunteered it, and the draft avoids the word 'depressed'. The parents' deaths are set against circumstance, not used as type proof. Guildhall's apology and Rowling's statement are included. The teacher is unnamed, the slur is unprinted, and his partner and private life are left out. The problems come where the record is bent toward the thesis. The Snape section joins two separate Sunday Times answers 'in the same breath' and reads support he received as protection-seeking. It also omits his stated reason for taking the role and his answer to the sacking calls, both of which bear on the draft's own settle test. The Type 1 section turns being offered stereotyped roles into refusing them. The Guildhall allegation widens the slur's target to Coel. Several quotes keep only their thesis-friendly half (insurance, heart on sleeve, anger), and the metadata carries certainty the body hedges. Sources checked: the research-stage copies of S01, S03-S09, S13-S15, S24 (transcript), S25 (transcript), S26, S27, S29-S31 and S38. Live re-fetches of S01 and S07 confirmed the subject-03, -04 and -05 wording. S04 is paywalled, so it was read via the research stage's reader-proxy copy. Similarity advisory: the tripped matches are the triad sentence the site requires and a two-line generic Six definition shared with the Abbott, Reiter, Depp and Zada pages. The argument itself (goodness framed as safety, loss insurance, the Lear step-in) is specific to Essiedu, so this is not meaningful reuse. But 'actor's nerves plus preparation equals Six' recurs across recent pages, and the enneagram reviewer should test that the discriminator, not the nerves, carries the typing. Risks: sensitive allegations (death threats, racist abuse at drama school, trans-rights letter, Johnson) and contested typing (medium confidence, live Type 1 rival). The expanded jury is warranted."
+}

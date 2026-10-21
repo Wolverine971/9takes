@@ -1,0 +1,23 @@
+Error: Reached max turns (120)
+[runner] Turn limit reached; resuming session 12fa11ad-67d4-4116-9c06-88157cddba0d to write outputs
+[mcp-sdk] SEP-2352: stored OAuth credential has no 'issuer' stamp (pre-upgrade storage or provider not round-tripping the value). SEP-2352 isolation is inactive for this read; ensure your provider round-trips the issuer field.
+The research stage is done. I wrote only `docs/content-analysis/pipeline-logs/2026-10-20_06-00-05-001_paapa-essiedu/evidence.json`. Nothing else in the repo changed and nothing was published.
+
+**Result:** the status is `ready`, so the profile can go ahead. The leading read is **Type 6** at medium confidence, with **Type 1** as the main rival. Types 4, 9 and 2 are still possible, and the record notes why each falls short. I flagged both the typing as contested and the sensitive allegations (the Guildhall racism, the death threats, the Forest School remarks). Those flags mean the draft will go to all six reviewers instead of the usual two. It passes the pipeline's own validator.
+
+**What decided it:** his printed interviews alone fit a principled, self-critical One about as well as a Six. Two things tipped it:
+- **His own explanation.** On Paloma Faith's podcast (March 2025) she asked whether he's "very preoccupied about being good and doing the right thing all the time." He said "Yeah, totally," and described people-pleasing as "trying to create safeness for yourself, safety for yourself."
+- **The same doubt, every year from 2016 to 2026.** He keeps saying versions of "this is the one where people will find me out," "when are they going to realise that they really wanted the other guy?" and "if it all gets taken away, you don't feel that loss so keenly." He also leans on others to get through it, while being steady and moving toward real danger: the King Lear understudy night, Hamlet, the Snape threats.
+
+**Evidence base:**
+- **39 sources, all opened.** That's 23 print interviews from 2016 to 2026, testimony from Michaela Coel, Lucy Prebble, Jessie Buckley, Joe Barton, Lennie James and Saoirse Ronan, and a 2014 eyewitness review of the King Lear night.
+- **About 3h50m of podcast and video audio**, which I transcribed on this machine.
+- **Checks:** a script confirmed every quoted excerpt against the saved text. The key podcast passages agreed on a second transcription.
+
+**For the draft stage** (all recorded in the file's notes):
+- **Wrong-speaker risk.** On the Faith podcast, the "lioness / permission to be confrontational" lines are hers, not his. On Going Rogue, the bully-director story belongs to the host, Philip Barantini.
+- **Leave out his marriage or divorce.** He refuses to discuss his private life, and the only divorce mention is an unsourced Wikipedia entry. Never print the slur or name the teacher. Don't treat words like "breakdown," "depressed" or "PTSD" as diagnoses.
+- **Conflicting facts.** Sources disagree on when his father left for Ghana ("a baby" vs "four") and on his age at the Forest School scholarship (seven vs 11).
+- **Date to recheck.** The Harry Potter premiere is reported as 25 December 2026; check it again before publishing.
+
+**What I couldn't get or didn't use:** the Mountview interview is YouTube auto-captions only (the audio download was blocked), so paraphrase it or re-listen before quoting. I didn't open the Esquire and Vulture interviews or the Olivier speech video. No director testimony turned up from Simon Godwin, Jamie Lloyd, Ivo van Hove or Bryan Cranston. These are listed as signals for a future refresh.

@@ -1,0 +1,25 @@
+I wrote the fan review to `review-fan.json` in the Paapa Essiedu run folder. It passes the pipeline's review schema, and every quoted passage matches the draft exactly. No other files were changed and nothing was published.
+
+**Verdict:** the facts that fans know best hold up when checked against the saved source texts. That includes:
+- the Guardian café interview;
+- the critic's eyewitness account of the King Lear night, and Simon Russell Beale pulling him out for his own bow;
+- the Sunday Times death-threat quotes;
+- the Paloma Faith exchange;
+- the Olivier category;
+- the December 25, 2026 Harry Potter premiere.
+
+The problem is a pattern: the draft often keeps the half of a quote that supports Type 6 and drops the half that complicates it.
+
+**Five major findings:**
+1. **Grief in the work.** "He keeps it out of the work" comes from a Lennie James quote whose next sentence says grief should "flow through the work that you do." He also tied Hamlet's grief to his own in 2020. As written, the main argument against Type 4 rests on a reversed quote.
+2. **Why he took Snape.** The draft leaves out his stated reason. When the interviewer suggested stability and money, he said "the themes … of love triumphing over hate … that's why I'm doing it." It also drops his line that he wouldn't want the job if it depended on his politics. The draft then predicts "a Six would describe Snape with relief at … a stable home," which those answers already contradict.
+3. **Why he plays down his success.** The interviewer lists four reasons he gave: class, insecurity, impostor syndrome, self-preservation. The draft gives only self-preservation, the one that fits the "insurance against loss" idea.
+4. **"He is rarely angry."** What he actually said is that he rarely explodes. He added, "I don't know if the anger is suppressed." Later in the same episode he says racism "really does make me angry" and that he turns anger into action. Dropping this weakens the Type 1 case unfairly.
+5. **Turning down roles.** The draft says he "turned down" slave roles, but the Mr Porter source only says he was offered them and that no role is off limits. Saying no to projects that became huge hits also clashes with his fear of having work taken away. The evidence record flags that clash as unexplained, but the article leaves it out.
+
+**Three minor findings:**
+- The King Lear line "the work is already done" overclaims; his 2016 account says he was "desperately trying to recall" the lines.
+- The draft leads his bio with "first Black Hamlet" without noting he found that framing wearing.
+- The "heart on your sleeve" quote is a caveat in an answer that was mainly about openness.
+
+Most fixes swap a clause rather than add text, which matters because the draft is already 3,861 words. The similarity check fired only on the required sentence about the type's core emotion and a generic Type 6 description, not on any reused argument. Both risk flags stay on (sensitive allegations, contested typing), so the full six-reviewer panel still applies.

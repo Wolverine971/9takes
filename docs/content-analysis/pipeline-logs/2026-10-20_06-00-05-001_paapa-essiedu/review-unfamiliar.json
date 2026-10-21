@@ -1,0 +1,93 @@
+{
+ "schema_version": 3,
+ "role": "unfamiliar",
+ "content_sha256": "8b3f8463c5f047e390517a54ba02946855ad8e8b4d5181e6d87fab923cb4cc50",
+ "evidence_sha256": "23fb21d08bf24d65f78b2fa7ea792bb5d15bbed522f47226392067663ba157a1",
+ "risks": {
+  "sensitive_allegations": true,
+  "contested_typing": true,
+  "historical_source_uncertainty": false,
+  "major_thesis_change": false
+ },
+ "findings": [
+  {
+   "id": "unfamiliar-01",
+   "severity": "major",
+   "passage": "The counterphobic Six explains it: once a threat is concrete and named, he moves toward it.",
+   "problem": "This is the draft's own strongest counterevidence, and the explanation does not fit what a new reader has just been told. Signing the open letter was a voluntary act that created a new risk. It was not a move toward a threat that already existed. Declining a police report is declining protection, and he explains it as pointless, not as courage. Until this point the reader has learned 'dread before, steady once the danger is in the room.' Here the frame stretches to cover an act with no prior danger. A lay reader concludes that the type absorbs whatever happens: dread is Six, boldness is also Six. That undercuts trust just before the 'Why not Type 1?' section, where principle-driven action is the One case.",
+   "acceptance_test": "The counterphobic label no longer covers the letter. Either (a) the letter is named as behavior the Six read does not neatly explain, or as One-leaning principle (here, in 'Why not Type 1?' or in 'What the type doesn't explain'), or (b) the passage names a specific, sourced threat he was moving toward when he signed. A first-time reader can say in one sentence what the counterphobic explanation covers (the threats) and what it does not (the letter)."
+  },
+  {
+   "id": "unfamiliar-02",
+   "severity": "minor",
+   "passage": "Some fans of [J.K. Rowling](/personality-analysis/j.k.-rowling) called for him to be sacked.",
+   "problem": "A reader who doesn't know Rowling's public position can't see why her fans would care about a letter on a Supreme Court ruling. The source states the missing link, attributed (Sunday Times, 2026-03-21: 'Many saw his signing the letter as a rebuke to Rowling'). Two sentences later, 'Asked whether he sought advice before signing, he said, \"No.\"' gives no asker or date. A reader assumes he answered in May 2025, not to The Sunday Times ten months later. The paragraph also jumps back from March 2026 to May 2025 without signposting.",
+   "acceptance_test": "One attributed clause explains why the letter drew calls for his sacking (for example, that The Sunday Times reported many saw it as a rebuke to Rowling), with no editorialising beyond her published statement and the letter's stated content. The 'sought advice' answer names The Sunday Times and March 2026. A reader can place the casting, the letter, the calls to sack him and his 2026 answers in the right order."
+  },
+  {
+   "id": "unfamiliar-03",
+   "severity": "minor",
+   "passage": "And of Boris Johnson's lockdown parties, after losing an aunt and uncle to Covid, he said in 2022: \"Johnson can get away with breaking the rules he made.\"",
+   "problem": "The paragraph sets up the discriminator 'A One's anger fixes on error. His public anger fixes on people with power who fail those in their charge.' Its last example quotes him objecting to rule-breaking, which by the draft's own definition is One-style anger at error. An attentive newcomer sees the example cut against the claim it was chosen to support. The same 2022 Guardian passage (S01) has words that do fit the care axis: 'People were not seeing their mothers and fathers dying, not spending their last moments with them, when he was having parties.'",
+   "acceptance_test": "Either the Johnson example uses (or adds) his care-breach words from the same S01 passage, or the paragraph concedes that 'breaking the rules he made' also reads as One anger. No example offered for the 'fail those in their charge' axis is one whose quoted words are mainly about rule-breaking."
+  },
+  {
+   "id": "unfamiliar-04",
+   "severity": "minor",
+   "passage": "The man who needs friends to get him into the car on day one is the friend Coel counts on in an emergency.",
+   "problem": "He said 'people who are close to me' (S01), not friends. The draft repeatedly narrows this to 'friends', and a reader takes that as fact. The same narrowing appears in 'and he tells friends the same story off the press circuit'. The record there is a 2020 Playbox livestream with audience questions, hosted by his friend Calum Finlay, and Paloma Faith's 2025 podcast. Both are public friend-hosted shows, not private conversations a reader could assume were overheard.",
+   "acceptance_test": "Wherever the draft says who gets him to work, it uses 'people close to him' or equivalent and doesn't specify 'friends'. 'tells friends the same story off the press circuit' becomes what the record shows, for example 'he told the same story on a friend's livestream in 2020 and a friend's podcast in 2025'. The loyalty-needed/loyalty-given line keeps its shape."
+  },
+  {
+   "id": "unfamiliar-05",
+   "severity": "minor",
+   "passage": "He also says it is easing.",
+   "problem": "The draft raises the question of whether the pattern is changing, then scatters the answer across three sections and never answers it. 'Thinking less about what people might think about me' (Times 2023) sits at the end of the 'found out' section. Maxwell's 'Tiggerish energy' to 'all containment' comes from the same 2023 article, which places it right beside that quote, but the draft files it under 'What the type doesn't explain'. Weekly therapy appears in the grief section. A newcomer leaves without knowing whether the dread is fading. That matters for the five-year read and for the Snape settle test the ending sets up.",
+   "acceptance_test": "One passage puts the 2023 'thinking less' quote, the 2016-to-2023 containment change and ongoing therapy side by side, and says what that does and doesn't change in the Six read. Do this by moving material, without net word growth. A reader can answer 'is the dread fading, and would that weaken the type argument?'"
+  },
+  {
+   "id": "unfamiliar-06",
+   "severity": "minor",
+   "passage": "The One case, [Type 4](/enneagram-corner/enneagram-type-4) and two others get a full hearing below.",
+   "problem": "Momentum peaks at 'Why not Type 1?' and then sags. The body is 3,861 words against the 2,000-3,500 target. Types 9 and 2 get two sentences each, so 'a full hearing' overpromises. 'What the type doesn't explain' ends on 'And he hates being watched while he eats.' That is a quirk the Six read doesn't actually fail to explain, so the reader gets a detail with no payoff in a section whose job is to complicate the thesis.",
+   "acceptance_test": "Body is at or under 3,500 words by the checkDraft count. Cuts come from restatement and the long letter/King Lear retelling, not from sourced evidence. The type-section promise matches what follows (for example, 'shorter hearings' for 9 and 2). Every detail kept in 'What the type doesn't explain' states what it complicates, or is cut."
+  },
+  {
+   "id": "unfamiliar-07",
+   "severity": "minor",
+   "passage": "Jessie Buckley called him \"funny and naughty,\" but \"with an ocean underneath.\"",
+   "problem": "Several names and works arrive with no orientation for a reader who doesn't follow British theatre. Jessie Buckley, Lucy Prebble and Lennie James are unintroduced. _Pass Over_ is unglossed in 'Finlay, for his part, recalled being begged not to come and see _Pass Over_ before press night.' 'Romeo' has no production. 'Only that year did his half-sister tell him...' can be read as the year Guildhall took him rather than 2024, and the half-sister appears without introduction.",
+   "acceptance_test": "On first mention, Buckley, Prebble and Lennie James each get a 2-6 word role (for example, Buckley, his co-star in Men; Prebble, who wrote The Effect). Pass Over is glossed (a 2020 play at London's Kiln Theatre). 'Only that year' is replaced with an explicit year (2024) so the disclosure can't be misdated."
+  },
+  {
+   "id": "unfamiliar-08",
+   "severity": "minor",
+   "passage": "It runs the worst case, looks for people and structures that will hold, and tests the ground before trusting it.",
+   "problem": "The similarity diagnostic's core-emotion matches ('whose core emotion is fear') are the house identity sentence and are not evidence of formula. The meaningful overlap is this definition sentence. 'tests the ground before trusting it' (0.132 vs lily-rose-depp) and 'people and structures that will hold' (0.091 vs grace-reiter; also close to joseph-zada and lily-rose-depp) restate the same three-move Six definition used in recent Six profiles. The phobic/counterphobic split that follows also parallels shyam-sankar. This is the most interchangeable passage in the draft. The person-specific turn that follows, 'Essiedu does both, in sequence,' is distinctive and should stay.",
+   "acceptance_test": "Rerun the similarity diagnostic. Excluding the core-emotion identity sentence and the confidence statement, no type-section sentence scores above the 0.084 trip threshold. The Six definition is carried by his own material (the car bonnet, the faces in the café) rather than the stock 'people and structures that will hold' / 'tests ... before trusting' phrasing. 'Essiedu does both, in sequence' is kept."
+  }
+ ],
+ "protected_passages": [
+  {
+   "passage": "Hattenstone assumed he was fishing. He wasn't.",
+   "reason": "The hook. A sourced, dated exchange turns a compliment into the article's question in eight words, and the 'Genuine!' beat makes a newcomer trust that the doubt is real before any typology arrives."
+  },
+  {
+   "passage": "Inside, he told the Observer in 2016, it was \"an out-of-body experience\" with \"internal banshees.\" Outside, Lawson saw no tremble",
+   "reason": "Pays off the opening's outside view (Lawson's knees) with his inside view. That justifies telling the King Lear night twice and shows the thesis in one sentence. Checked against Lawson's 2014 column and the 2026 Dish transcript: the preview, the interval step-in and the curtain-call bow are accurate."
+  },
+  {
+   "passage": "The verdict he fears belongs to other people, and he supplies it himself.",
+   "reason": "The article's most transferable insight for an unfamiliar reader. It is earned directly from the café 'What are you doing here?' and 'cup of tea' quotes, and it sets up the One/Six discriminator."
+  },
+  {
+   "passage": "This is where the type argument has to be careful. Losing both parents by 20, on little money, would teach anyone to brace for loss, and public evidence can't separate temperament from that history.",
+   "reason": "States the inference limit at the exact point where a reader would object, then narrows the claim to what the record shows (how he handles the bracing). This builds trust for the rest of the argument."
+  },
+  {
+   "passage": "A One's goodness answers to an inner standard: is this right? His answer points outward, to how he is perceived, and to safety.",
+   "reason": "A discriminator a newcomer can understand and test. It rests on a quoted, embedded exchange, and the draft keeps the counter-line ('that you might be bad') on the One side instead of explaining it away."
+  }
+ ],
+ "assessment": "Read cold, the draft orients well. A newcomer learns he's an acclaimed actor in the first line and gets the Snape context and a dated career sketch by about 280 words. The two-scene hook (the café dread, the King Lear step-in) sets up a real question that the article answers with specific, sourced detail. What a reader takes away is concrete: dread arrives before the job, steadiness once the danger is present, and when he explains why he tries to be good, he talks about safety. Momentum is strongest from the hook through 'Why not Type 1?'. The parents material is handled with visible inference limits rather than as a wound story. The weak stretch is the Snape/letter passage. The reader isn't told why Rowling's fans objected or when he answered, and the counterphobic label is stretched over an act that preceded any threat. That is the one place the type argument looks unfalsifiable to a lay reader (unfamiliar-01, major). The last third runs long (3,861 words against a 3,500 target), promises 'full hearings' it doesn't deliver, and splits the 'is it easing?' thread across three sections. Similarity: the core-emotion matches are house identity vocabulary. The meaningful reuse is the stock Six-definition sentence. I checked the King Lear account (Lawson 2014, Dish 2026), the Snape and letter quotes (Sunday Times 2026), the Times 2023 lines and the Johnson context (Guardian 2022) against the saved source texts and found them faithful. This was an orientation-focused review, not a full evidence audit. Risk flags agree with research: sensitive allegations (death threats, the Guildhall incident, political opinions) and contested typing (medium confidence, One close behind)."
+}

@@ -1,0 +1,31 @@
+The Sombr verification stage is complete and the profile passes. I wrote `verification-edit.json` to the run directory. The contract's own release check accepts it with no blockers. Its overall score is 8.3; this is an open case, which needs 8.0 to pass. I changed nothing else and published nothing.
+
+**What I checked myself:**
+- **Articles:** I re-fetched all 21 live. Two block direct downloads, so I read 1883 Magazine through a text proxy and People through the Wayback Machine.
+- **Videos:** I downloaded fresh captions for all nine.
+- **Quotes:** All 89 quoted lines match their sources word for word. The speaker, date and context are right too, including the lines the jury said were trimmed.
+- **Recent facts:** As of today, there's no response from him to the VMA tribute criticism, no title for the second album, and no quote from Tony Berg on record. The article states all three as true "as of October 21, 2026", and they still hold.
+- **The one uncertain speaker:** The article says "I don't believe them" is "probably his reply" on the CBS tape. A rough pitch check on the saved audio backs that: the line is around 120 Hz, inside Sombr's range (about 100–117 Hz). The interviewer's next sentence is around 85 Hz, in his range (about 82–94 Hz). The article's hedge is fair.
+- **Jury findings:** I checked the edit against all 46 findings and all 21 passages the jury asked to protect. Every fix holds. The three changed passages kept what made them worth protecting.
+- **Type change:** The editor made Type 6 a live alternative, as two reviewers explicitly allowed. The leading read (Type 3, low confidence) and the main alternative (Type 4) didn't change, so this doesn't trigger a rerun with the full jury.
+- **Open-case eligibility:** I confirmed it independently. He's 21, his breakout was spring 2025, and the research genuinely tried.
+
+**Two small fixes I logged** (both minor, so neither blocks release):
+1. **CBS quote:** One of the four reasons Type 3 leads is that he changed direction only after "it went on for so long and it wasn't working anymore." In the same answer he describes giving up: "it's probably over. Let me just make something for fun." The reader should see that next to the Type 3 reading.
+2. **Type answer:** It says he "has studied audience response since his early teens." His own words were that he studied "the social media algorithm." That answer is also the type FAQ, the line search engines are most likely to show, so the wording should match the source.
+
+**Scores:**
+
+| Dimension | Score |
+|---|---|
+| Evidence | 8.5 |
+| Enneagram | 8.0 |
+| Originality | 8.5 |
+| Writing | 7.8 |
+| Durability | 8.5 |
+| Hook | 9.0 |
+| Discoverability | 8.0 |
+
+Writing is the weakest score. At about 3,190 words the piece runs about a quarter over the roughly 2,500-word target for an open case, and "fits both readings" hedges recur in most sections.
+
+I also listed two research tasks for the December 15 review. One is listening to the few podcast quotes still checked only against captions. The other is re-checking the three "as of today" facts above.

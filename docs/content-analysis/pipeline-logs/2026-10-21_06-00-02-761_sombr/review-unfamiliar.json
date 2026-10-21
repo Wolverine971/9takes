@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "unfamiliar",
+  "content_sha256": "2a0a4f5e1204ea07a867d3cf41ca71eeddd43e4bbb4efb64bb890dd2a0bed49e",
+  "evidence_sha256": "7c5f17dea7fd32aae87896661db0579c6b9b2cf26ebe61939e459be7741e72fc",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "unfamiliar-01",
+      "severity": "major",
+      "passage": "In November 2023, Shane Boose was 18, had no chart hit and had not yet played a live show as Sombr.",
+      "problem": "An unfamiliar reader comes away from the hook picturing an unsigned bedroom kid. The evidence record says that by then a 2022 song, \"Caroline,\" had gone viral and Warner Records had signed him at 17 (announced January 2023). The body says \"Signed at 17\" only in the fifth section and never explains \"Caroline\" (the Mason exchange names it as if the reader already knows it). Leaving this out makes the Garden prediction look more audacious than it was. It also means \"release after release miss,\" \"the slump before 'Back to Friends'\" and \"Caroline\" all arrive without a timeline, so the reader can't follow the arc from viral teenager to hitless signee to breakout. That arc is what the Three argument about ambition softening after success depends on.",
+      "acceptance_test": "Before the Garden quote's significance is argued (in the opening paragraphs or the orientation paragraph), the reader learns in one or two sourced sentences that \"Caroline\" went viral in 2022, that Warner signed him at 17 (announced January 2023), and that about two years of releases followed with no chart hit. The hook may keep \"no chart hit\" but no longer implies he was unsigned. Wherever \"Caroline\" appears, it is identified as his song."
+    },
+    {
+      "id": "unfamiliar-02",
+      "severity": "minor",
+      "passage": "He answered on TikTok that he had \"never uttered a serious word in my life\" and that her video had started \"a massive body-shaming hate train,\" without directly addressing her claims about the jokes.",
+      "problem": "A reader can't tell who was body-shamed. The opened Digital Music News source (S22) reports that he accused the creator of body-shaming him (she compared him to Napoleon Dynamite and Slender Man). That thread links this episode to the \"My Body Isn't Ready\" paragraph two paragraphs later. Without it, the body-image single seems to come out of nowhere, and the reader misses a cost the episode carried for him.",
+      "acceptance_test": "The sentence states, with attribution, that he said her video mocked his body or thin frame. The \"My Body Isn't Ready\" paragraph then reads as a continuation of that thread, and the joke claims still remain unanswered in his reply."
+    },
+    {
+      "id": "unfamiliar-03",
+      "severity": "minor",
+      "passage": "Both answers are his. Which one describes him is the question this profile tries, and so far fails, to settle.",
+      "problem": "The hook promises to decide between the bold Sombr and the modest one. Four paragraphs later the question becomes \"Is the sadness the self, or the brand?\" The real discriminator (\"when the choice that feels true and the choice that works pull apart\") is named only in \"What would settle it.\" Bold versus modest does not separate Three from Four, since either type could predict big and later play humble. So the reader carries two framings, and the one the article actually tests arrives at the end.",
+      "acceptance_test": "Keep the Garden contrast as the opener. By the end of the intro, one sentence ties it to the single open question the profile tests (the feeling versus what works, the self versus the brand). That same question is the one named at the start of \"What would settle it\", so the reader holds one question throughout."
+    },
+    {
+      "id": "unfamiliar-04",
+      "severity": "minor",
+      "passage": "What stays unexplained is the central contradiction: a musician who studied the algorithm at 18 and tests his choruses named himself for sadness, and says he is most himself on stage.",
+      "problem": "\"Three, Four or Seven\" mostly re-lists evidence in the order the reader just read it: fears, ambitions and testing for Three; name, solo writing, imperfection and confessions for Four; no envy and the stage against it. This sentence is the third full statement of the algorithm/sadness contradiction (it also appears in the intro question and the type answer), and \"most himself\" on stage was already quoted in the Four section. The body runs 2,807 words against the open-case target of roughly 1,200 to 2,500, and momentum sags just before the payoff section.",
+      "acceptance_test": "The comparison section is either about 150 words or less, or adds weighing not stated earlier: for each type, the single strongest piece of evidence and why it isn't decisive. The algorithm/sadness contradiction is stated in full at most twice in the body. The side-by-side comparison the open-case format requires survives."
+    },
+    {
+      "id": "unfamiliar-05",
+      "severity": "minor",
+      "passage": "Adjusting his image, feeling misunderstood or joking it away would each say something.",
+      "problem": "Items 1 and 2 of \"What would settle it\" tell the reader which outcome favors which type. Item 4 leaves a newcomer to map \"adjusting his image\" to Three, \"feeling misunderstood\" to Four and \"joking\" to Seven on their own. Item 3 drops Seven entirely. Item 5 (\"A first outside account of what drove him would add the view this record lacks.\") is the kind of generic settle signal the open-case rule warns against, even though the evidence record's version names what each kind of account would favor.",
+      "acceptance_test": "Each of the five numbered items says in plain words which observable outcome would favor Three, which Four and, where relevant, which Seven. Item 5 names the kind of account that would favor each (recognition and results, feeling different and needing to express it, or chasing fun)."
+    },
+    {
+      "id": "unfamiliar-06",
+      "severity": "minor",
+      "passage": "\"All my all my hits I made in the process of of them blowing up because I I don't finish songs,\" he told the podcast",
+      "problem": "The section that carries the audience-testing argument quotes three caption-stutter lines in a row (\"all my all my\", \"of of\", \"I I\", \"I'll I'll\", \"I that I\", \"if if\"). That makes the most important process evidence the hardest passage to read. The method note \"Research closed on October 21, 2026. Quotes from video interviews follow YouTube's captions, repeated words included.\" also sits between the setup and the type answer and halts the intro just as the open question has been posed.",
+      "acceptance_test": "Without changing any quoted wording, the key process lines are quoted as shorter clean verbatim fragments (for example \"I don't finish songs\" and \"If I like the response\"), with the rest paraphrased and attributed. No body quote carries more than one caption repetition. The method note moves out of the intro (for example to the end of the article) or shrinks to a single clause."
+    },
+    {
+      "id": "unfamiliar-07",
+      "severity": "minor",
+      "passage": "He writes and produces his songs alone at home, then finishes them with the producer Tony Berg.",
+      "problem": "Several people and places are named without enough context for a newcomer. Berg is never identified beyond \"the producer,\" so \"fights his mentor for flaws\" and \"imperfection kept against expert advice\" lose their weight. This sentence implies every song goes through Berg, while the FAQ says the breakout \"was made without Berg's production involvement\" (and CBS has him saying \"I'm the only person that touched that song\"). That detail would sharpen both Swift's \"he does it all on his own\" and the Four section's breakout story, but the body never mentions it. \"He left school over his mother's doubts\" also appears with no earlier mention of which school or that he dropped out.",
+      "acceptance_test": "At first mention, Berg is identified either by a credential from an opened source or by plainly stating his role as Sombr's mentor and producer. The body's process sentence agrees with the FAQ by noting that \"Back to Friends\" was made without Berg's production involvement. The school (LaGuardia) and his decision to leave it are named, with a source, at or before the \"left school\" sentence."
+    },
+    {
+      "id": "unfamiliar-08",
+      "severity": "minor",
+      "passage": "Personality Type: Open Case, Leading Read 3",
+      "problem": "A search reader who doesn't know the site won't parse \"Leading Read 3\" because neither \"Type\" nor \"Enneagram\" is attached to the number. The title and description both say \"Enneagram Type 3,\" so the meta_title is the only piece of metadata a newcomer can't decode.",
+      "acceptance_test": "The meta_title stays within 35 to 65 characters, keeps open-case or leading-read language, and attaches \"Type\" or \"Enneagram\" to the 3 (for example \"Sombr's Personality Type: Open Case, Leading Read Type 3\", 56 characters)."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "\"Madison Square Garden in New York City,\" he said. \"That's my dream, but it will happen. I know it!\"",
+      "reason": "A specific, dated, sourced opening. Paired with the 2026 \"1,000-seater\" line, it gives a newcomer an immediate, concrete contradiction to chase, and the ending pays it off."
+    },
+    {
+      "passage": "\"I didn't even realize that I was good at music until other people told me that I was good.\"",
+      "reason": "The most revealing first-person line in the profile, taken from an unhurried interview in his childhood bedroom. It lets the reader watch the Three/Four question arise in his own words instead of in typology vocabulary."
+    },
+    {
+      "passage": "Yet in that same Broski answer he remembered telling people as a kid, \"I want to be a pop star. I want to be a rock star.\"",
+      "reason": "Catches him contradicting himself within a single answer. It's a distinctive, human detail that shows rather than asserts why the case is open."
+    },
+    {
+      "passage": "\"I wouldn't respond now,\" he told ELLE. \"That video kind of woke me up. I was like, 'Wait, yeah, that is weird.'\"",
+      "reason": "The only documented change of position over time in the record. It turns a news blip into character development the reader can weigh, and the paragraph honestly offers the rival explanation of growing up in public."
+    },
+    {
+      "passage": "And when Fallon asked about the first concert he saw there, he said he had never been to one, only Knicks games. \"No, I'm gonna be the first.\"",
+      "reason": "An earned, specific ending that calls back to the hook without restating the thesis. It closes on him rather than on the typology."
+    }
+  ],
+  "assessment": "Orientation is mostly strong. A newcomer learns who Sombr is, why people are searching for him now (the 2 billion-stream breakout, the top-ten album, the Best New Artist nomination, Swift's praise, the two Garden nights) and what the Enneagram's heart and head triads mean, all within the first three screens. The open question is posed honestly. Momentum is good through the ambition, testing, Four and fear sections, which use concrete quoted moments rather than type boilerplate; the Mason exchange and the TikTok reversal are the high points. The biggest gap is the timeline: the viral 2022 song \"Caroline\" and the Warner deal at 17 are missing from the hook and orientation. That inflates the hook and leaves later references unexplained (unfamiliar-01, major). Smaller issues: an ambiguous body-shaming sentence, two competing framings of the central question, a recap section that repeats evidence and pushes the body past the open-case length target, settle signals that don't all map outcomes to types, caption-stutter quotes and an intro method note that slow the reading, and a few unexplained references (Berg, the school). Open-case eligibility holds from an unfamiliar reader's vantage: he is an adult (21), his breakout came in April 2025, the research opened 38 sources, and the article doesn't overstate confidence in the title, description, type answer or FAQs. Seven gets a short but non-token section. The similarity diagnostic did not trip (max 0.039 against a 0.04 threshold), and the top pairs share no phrases and make different arguments, so I found no formulaic reuse."
+}

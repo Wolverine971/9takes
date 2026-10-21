@@ -1,0 +1,13 @@
+I finished the five-year durability review of the Paapa Essiedu draft and wrote `docs/content-analysis/pipeline-logs/2026-10-20_06-00-05-001_paapa-essiedu/review-future.json`. It passes the pipeline's review schema, and both content hashes match the request. Every quoted passage matches the draft exactly. I changed no other files and published nothing.
+
+**Overall:** the Type 6 read would still stand in five years. The opening rests on the 2014 King Lear night and the 2022 Guardian café interview. The case against Type 1 rests on a 2025 podcast answer. Taking out the Snape casting, the 2026 Olivier and the premiere leaves the argument intact.
+
+**Findings (1 major, 5 minor):**
+- **Major — the closing test can't fail.** The article ends by saying Snape interviews will show whether he's a 6 or a 1. But the Type 6 sign (praising a supportive team) is already on record from March 2026. Promotional interviews almost always produce it, and almost never produce the Type 1 sign (complaining about compromises in the work). The first refresh would confirm Type 6 no matter what. The article's own better test should replace it: a director's account of how he behaves when a production is in trouble.
+- **A 2022 fact reads as 2026.** "He still goes weekly" (therapy) comes from the 2022 Guardian interview. It sits right before a 2026 Sunday Times quote, so readers will date it to 2026.
+- **The search description treats an old habit as current.** It says he "dreads being found out before every job." The clearest source for that is from 2022, and in 2023 he said it was easing. The description also says "every job" while the type answer says "almost every job."
+- **The Harry Potter FAQ expires in December.** "HBO has scheduled the first season to premiere on December 25, 2026" goes stale 66 days after drafting. The present-tense "he plays Snape" isn't tracked as something that could change.
+- **Some time words will drift:** "for a decade" (the quotes actually run 2016–2024), "now calls" grief a companion, "a recent trip," and an undated "he has not reported the threats."
+- **Two podcast links point at raw MP3 files**, one through ad-tracking redirects. They work today but are the kind of link that breaks first. The Dish episode has a YouTube upload that could be linked with a timestamp instead.
+
+I flagged five passages to protect, including the dated opening and the "public record from 2014 to 2026" scope line. The similarity check flagged standard type wording ("whose core emotion is fear"), not reused argument, so it isn't a finding. I agree with the two risk flags the research set: sensitive allegations and contested typing.
