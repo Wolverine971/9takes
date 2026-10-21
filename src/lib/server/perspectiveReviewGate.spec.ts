@@ -251,5 +251,5 @@ None.
 			verification_status: 'pass',
 			verified_content_sha256: finalContentSha256
 		});
-	});
+	}, 15_000); // Six CLI subprocesses need startup headroom on shared CI runners.
 });
