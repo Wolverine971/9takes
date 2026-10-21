@@ -2,6 +2,15 @@
 packages:
   - '.*'
 engineStrict: true
+auditConfig:
+  ignoreGhsas:
+    # Reviewed 2026-10-20; remove when an upstream fix is published.
+    # braces: only trusted repository glob patterns in Tailwind/fast-glob;
+    # the route's filesystem fallback is guarded by dev. No request patterns.
+    - GHSA-vfj7-8cjw-p6xm
+    # sprintf-js: gray-matter -> js-yaml 3 -> argparse CLI formatting only.
+    # The YAML library does not load argparse; the app never runs its CLI.
+    - GHSA-hp3w-g68c-fv3c
 allowBuilds:
   '@parcel/watcher': false
   core-js: false
