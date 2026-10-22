@@ -1,5 +1,7 @@
 // src/lib/server/hostDigest.spec.ts
 import { describe, expect, it, vi } from 'vitest';
+import { load } from 'cheerio';
+import { generateEmailHtml } from '$lib/email/base-template';
 import {
 	buildHostDigestEmail,
 	createOpenRouterDraftLlm,
@@ -326,11 +328,11 @@ describe('buildHostDigestEmail', () => {
 		expect(email.htmlContent).toContain('dang &lt;3');
 		expect(email.htmlContent).toContain('Type 6');
 		expect(email.htmlContent).toContain('anonymous');
-		expect(email.htmlContent).toContain('low effort');
-		expect(email.htmlContent).toContain('3 older drafts still pending');
+		expect(email.htmlContent).toContain('3 older comments still pending');
+		expect(email.htmlContent).toContain('4 suggested replies ready');
 		expect(email.htmlContent).toContain('https://9takes.test/admin/host-desk');
 		expect(email.htmlContent).toContain(
-			'https://9takes.test/questions/whats-something-you-do-every-day'
+			'https://9takes.test/questions/whats-something-you-do-every-day?reply=501'
 		);
 		expect(email.htmlContent).not.toContain('Drafts failed');
 
@@ -349,9 +351,13 @@ describe('buildHostDigestEmail', () => {
 			'12:skip'
 		]);
 
-		expect(email.plainTextContent).toContain('Open & post A: https://9takes.test/host-desk/');
-		expect(email.plainTextContent).toContain('Skip: https://9takes.test/host-desk/');
+		expect(email.plainTextContent).toContain('Review reply A: https://9takes.test/host-desk/');
+		expect(email.plainTextContent).toContain('Skip comment: https://9takes.test/host-desk/');
 		expect(email.plainTextContent).toContain('Fake being happy. <b>every day</b>');
+		// HTML and plain text must target the same draft/variant with the same expiry.
+		for (const link of hostDeskLinks(email.htmlContent)) {
+			expect(email.plainTextContent).toContain(link);
+		}
 	});
 
 	it('uses singular wording for one take', () => {
@@ -380,8 +386,11 @@ describe('buildHostDigestEmail', () => {
 
 		expect(email.subject).toBe('Host desk: 2 new takes to answer (drafts failed for 1)');
 		expect(email.preheader).toContain('Drafting failed for 1 of 2 takes');
-		expect(email.htmlContent).toContain('Drafting failed for 1 of 2 takes (OpenRouter 503)');
-		expect(email.htmlContent).toContain('Drafts failed for this take.');
+		expect(email.htmlContent).toContain('Drafting failed for 1 of 2 takes.');
+		expect(email.htmlContent).toContain('Drafting issue: OpenRouter 503');
+		expect(email.htmlContent).toContain('Suggested replies unavailable.');
+		expect(email.htmlContent).toContain('1 suggested reply ready');
+		expect(email.htmlContent).toContain('Only one suggestion is available.');
 		expect(email.htmlContent).toContain('never finished');
 		expect(email.htmlContent).toContain('Fake being happy.');
 		expect(email.htmlContent).not.toContain('what made you go with that one?');
@@ -394,7 +403,7 @@ describe('buildHostDigestEmail', () => {
 		// The failed take offers only Write my own and Skip; the half-drafted one
 		// offers its one real draft.
 		expect(variants).toEqual(['21:custom', '21:skip', '22:a', '22:custom', '22:skip']);
-		expect(email.plainTextContent).toContain('DRAFTS FAILED for this take: OpenRouter 503');
+		expect(email.plainTextContent).toContain('Drafting issue: OpenRouter 503');
 		expect(email.plainTextContent).toContain('!! Drafting failed for 1 of 2 takes');
 	});
 
@@ -404,7 +413,80 @@ describe('buildHostDigestEmail', () => {
 			{ now: Date.now(), secret: SECRET }
 		);
 		expect(email.subject).toBe('Host desk: 1 new take to answer (drafts failed)');
-		expect(email.htmlContent).toContain('Drafting failed for this take (timeout)');
+		expect(email.htmlContent).toContain('Drafting failed for this take.');
+		expect(email.htmlContent).toContain('Drafting issue: timeout');
+		expect(email.htmlContent).toContain('0 suggested replies ready');
+	});
+
+	it('preserves full context and line breaks through the shared email template', () => {
+		const question = `${'A long question about everyday life. '.repeat(4)}<script>no</script>`;
+		const parent = `${'This is the comment they replied to. '.repeat(8)}\nA second line.`;
+		const comment = 'first line\n\nsecond line <img src=x> & {{name}}';
+		const reply = 'a suggested reply\non two lines & <three>';
+		const email = buildHostDigestEmail(
+			[
+				{
+					draftId: 5,
+					candidate: {
+						...candidate,
+						question_text: question,
+						parent_comment_text: parent,
+						comment_text: comment,
+						question_url: 'question & answer?'
+					},
+					draftA: reply,
+					draftB: null
+				}
+			],
+			{ now: Date.parse('2026-10-22T13:00:00Z'), secret: SECRET, baseUrl: 'https://9takes.test/' }
+		);
+		const html = generateEmailHtml({
+			subject: email.subject,
+			content: email.htmlContent,
+			recipientName: 'DJ',
+			includeFooter: false
+		});
+		const $ = load(html);
+		expect($('h2').text()).toBe(question);
+		expect($('.email-content').text()).toContain(parent.replace('\n', ''));
+		expect($('.email-content').text()).toContain('second line <img src=x> & {\u200b{name}}');
+		expect($('.email-content script, .email-content img')).toHaveLength(0);
+		expect(html).toContain('first line<br><br>second line');
+		expect(html).toContain('a suggested reply<br>on two lines &amp; &lt;three&gt;');
+		expect(
+			$('a')
+				.filter((_, link) => $(link).text().includes('View conversation'))
+				.attr('href')
+		).toBe('https://9takes.test/questions/question%20%26%20answer%3F?reply=501');
+		expect(email.plainTextContent).toContain(question);
+		expect(email.plainTextContent).toContain(parent);
+		expect(email.plainTextContent).toContain(comment);
+		expect(email.plainTextContent).toContain(reply);
+	});
+
+	it('counts only available suggestions and keeps a lone B linked to variant B', () => {
+		const now = Date.parse('2026-10-22T13:00:00Z');
+		const email = buildHostDigestEmail(
+			[
+				{ draftId: 1, candidate, draftA: null, draftB: 'the second option' },
+				{
+					draftId: 2,
+					candidate: { ...candidate, question_url: null, created_at: 'invalid' },
+					draftA: 'the first option',
+					draftB: null
+				}
+			],
+			{ now, secret: SECRET, baseUrl: 'https://9takes.test' }
+		);
+		expect(email.preheader).toBe('2 comments. 2 suggested replies ready. Review, edit, then post.');
+		expect(email.subject).not.toContain('failed');
+		expect(email.htmlContent).not.toContain('Invalid Date');
+		expect(
+			hostDeskLinks(email.htmlContent).map((link) => {
+				const payload = verifyHostDeskToken(link.split('/host-desk/')[1], { now, secret: SECRET });
+				return `${payload?.draftId}:${payload?.variant}`;
+			})
+		).toEqual(['1:b', '1:custom', '1:skip', '2:a', '2:custom', '2:skip']);
 	});
 });
 

@@ -1,0 +1,2885 @@
+{
+  "date": "2026-10-22",
+  "status": "user_approved_installed",
+  "published": false,
+  "installedInPublisherVisibleDirectory": true,
+  "additionalPortraitCount": 17,
+  "totalPortraitCount": 19,
+  "excluded": [
+    {
+      "slug": "mark-fischbach",
+      "reason": "Duplicate identity of the published Markiplier profile, which already has a portrait."
+    }
+  ],
+  "template": {
+    "path": "face-line-template.png",
+    "sha256": "74b6538bbdbf61cb61ce29a7c8e7a97041108f7fdc20851291c1cd388da09344",
+    "modified": false,
+    "fixedEyeTarget": {
+      "x": 540,
+      "y": 490
+    }
+  },
+  "themeTreatment": {
+    "dark": {
+      "well": "#2c1f28",
+      "filter": "contrast(1.08) brightness(0.92) saturate(0.68)"
+    },
+    "light": {
+      "well": "#f6f3fb",
+      "filter": "contrast(1.02) brightness(0.99) saturate(0.58)"
+    }
+  },
+  "portraits": [
+    {
+      "slug": "ilya-sutskever",
+      "name": "Ilya Sutskever",
+      "filename": "Ilya-Sutskever",
+      "type": "5",
+      "status": "user_approved_installed",
+      "source": {
+        "page": "https://www.ted.com/talks/ilya_sutskever_the_exciting_perilous_journey_toward_agi",
+        "imageUrl": "https://ted-conferences-speaker-photos-production.s3.amazonaws.com/a5m5rmrz0ns0168iyzptv89rjhqc",
+        "photographerOrCredit": "Photographer not identified; TED speaker portrait",
+        "localOriginal": "output/portrait-sources/2026-10-07-queue/ilya-sutskever-source.jpg",
+        "width": 800,
+        "height": 600,
+        "sha256": "de53c2bb77c0d1a2d067d31cdecd888f6940e101957d155b1bf1a5d48b1d1e57",
+        "rights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication."
+      },
+      "transformations": {
+        "segmentation": "Apple Vision foreground mask; no face reconstruction",
+        "clockwiseRotationDegrees": 0,
+        "composition": {
+          "slug": "ilya-sutskever",
+          "name": "Ilya-Sutskever",
+          "input": "output/portrait-processed/2026-10-07-queue/ilya-sutskever-cutout.png",
+          "height": 1000,
+          "anchorX": 367.4524,
+          "anchorY": 233.08,
+          "erode": 3,
+          "contrast": 1.04,
+          "brightness": 1,
+          "targetX": 540,
+          "targetY": 490,
+          "subjectShiftRightPx": 38,
+          "reason": "Use the measured midpoint between photographed eyes instead of the earlier optical anchor, as requested by DJ."
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png"
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-22-revision-02/Ilya-Sutskever-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "a625090341fe220e8480ecd5667a13f16d2c0cc28adf1b83a8d5673305b80f69"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-22-review/rest/types/5s/Ilya-Sutskever.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 39994,
+          "sha256": "cee8861a653e702c3f7c1981d1e3557dfda9489df4421457211c3b3fda3b68c5",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-22-review/rest/types/5s/s-Ilya-Sutskever.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 12544,
+          "sha256": "5411bbbb966c6b52f1bdc4f09183e40afad4f2cbe72777cd884107d9613abaf6",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "opaqueTemplatePixelsPreserved": 22457,
+        "editorialCheck": {
+          "slug": "ilya-sutskever",
+          "file": "src/blog/people/drafts/ilya-sutskever.md",
+          "type": "5",
+          "grade": 8.7,
+          "wordCount": 4469,
+          "editorialReady": true,
+          "blockers": [
+            "missing_full_image",
+            "missing_thumbnail_image"
+          ],
+          "preparedAssets": {
+            "full": {
+              "path": "output/portrait-preflight/2026-10-07-queue/Ilya-Sutskever.webp",
+              "width": 1080,
+              "height": 1080,
+              "bytes": 38934,
+              "sha256": "c23b7b917952079ddd85a9e11a46b4e396c8b4b776a5f582807f5f27f8eb0829",
+              "alpha": true
+            },
+            "thumbnail": {
+              "path": "output/portrait-preflight/2026-10-07-queue/s-Ilya-Sutskever.webp",
+              "width": 480,
+              "height": 480,
+              "bytes": 12464,
+              "sha256": "031cc91eaa61f6bfb4765d005e233d4c84f3c1d0dcf4b62727ca56a8497cfec0",
+              "alpha": true
+            }
+          },
+          "sourceRights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication.",
+          "livePublished": false,
+          "databaseRowExists": true
+        },
+        "visualReview": "Reviewed in dark and light presentation, with shoulder edges, hair and eye alignment checked.",
+        "portraitCheck": {
+          "ok": true,
+          "type": 5,
+          "slug": "Ilya-Sutskever",
+          "full": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-10-22-review/rest/types/5s/Ilya-Sutskever.webp",
+            "bytes": 39994,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-10-22-review/rest/types/5s/s-Ilya-Sutskever.webp",
+            "bytes": 12544,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=5&portraitSlug=Ilya-Sutskever#portrait-preflight"
+        }
+      },
+      "qualityNote": "Approved source retained; photographed subject moved 38px right behind the unchanged purple eye mark. Original scale, grayscale, contrast and vertical position retained.",
+      "installedPaths": [
+        "static/types/5s/Ilya-Sutskever.webp",
+        "static/types/5s/s-Ilya-Sutskever.webp"
+      ],
+      "intendedInstallPaths": [
+        "static/types/5s/Ilya-Sutskever.webp",
+        "static/types/5s/s-Ilya-Sutskever.webp"
+      ],
+      "editorialStatus": {
+        "grade": 8.7,
+        "ready": true,
+        "remainingBlockers": [],
+        "verifiedAt": "2026-10-22T13:36:52.236Z"
+      },
+      "installedAssets": {
+        "full": {
+          "path": "static/types/5s/Ilya-Sutskever.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 39994,
+          "sha256": "cee8861a653e702c3f7c1981d1e3557dfda9489df4421457211c3b3fda3b68c5",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "static/types/5s/s-Ilya-Sutskever.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 12544,
+          "sha256": "5411bbbb966c6b52f1bdc4f09183e40afad4f2cbe72777cd884107d9613abaf6",
+          "alpha": true
+        }
+      },
+      "installedAt": "2026-10-22T15:24:21.424Z"
+    },
+    {
+      "slug": "josh-hartnett",
+      "name": "Josh Hartnett",
+      "filename": "Josh-Hartnett",
+      "type": "6",
+      "status": "user_approved_installed",
+      "source": {
+        "page": "https://commons.wikimedia.org/wiki/File:TIFF-2026-BELOW-JOSH-HARTNETT-01.png",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/TIFF-2026-BELOW-JOSH-HARTNETT-01.png",
+        "photographerOrCredit": "Josh Popov (JoshPopov), WikiPortraits",
+        "dateTaken": "2026-09-10",
+        "localOriginal": "output/portrait-sources/2026-10-22-revision-02/josh-tiff-2026-01.png",
+        "width": 7008,
+        "height": 3944,
+        "sha256": "8fe601a3696c453cb0521e9533f116c24e741975f387737e35ed1dbcf92b8d77",
+        "rights": "CC BY-SA 4.0, as stated on the Commons source page",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Josh Hartnett at TIFF 2026 — Josh Popov / Wikimedia Commons, CC BY-SA 4.0. Adapted by 9takes: crop, background removal, grayscale/contrast, placement and purple eye overlay. This adapted portrait is distributed under CC BY-SA 4.0."
+      },
+      "transformations": {
+        "sourceCrop": {
+          "left": 1900,
+          "top": 100,
+          "width": 3840,
+          "height": 3840,
+          "workingDimensions": [
+            2048,
+            2048
+          ]
+        },
+        "segmentation": {
+          "tool": "built-in image_gen",
+          "prompt": "Use case: background-extraction\nEdit target: the attached real photograph of Josh Hartnett at TIFF. Create a clean photographic cutout of the man by removing ONLY the event backdrop and all its logos.\nKeep the original square canvas and exact pixel-relative subject position and scale. Preserve the entire naturally photographed shoulder line, both suit shoulders and arms through the bottom edge. Keep the visible hair fully intact, with fine naturally antialiased edges. Remove background caught at hair wisps without removing photographed hair.\nPreserve the man's exact face, expression, hair, body, pose, jacket, shirt, original color and lighting. No beautification, regeneration, retouching, new shoulder material, clothing edits, reframing, zoom or repositioning.\nThe output must have actual alpha transparency around the subject, not a black, white or checkerboard background. Keep the same square aspect ratio as the input. Do not add the purple overlay or change to grayscale yet. This is background removal only.\n",
+          "generatedOutput": "output/portrait-processed/2026-10-22-revision-02/josh-generated-cutout.png",
+          "usage": "Alpha mask only; all generated RGB discarded",
+          "refinement": "Intersected with Apple Vision foreground mask; source-color rejection of event lettering at right hair fringe",
+          "script": "output/portrait-processed/2026-10-22-revision-02/restore-photo-pixels.mjs",
+          "validation": {
+            "pixels": 4194304,
+            "transparent": 2373666,
+            "sourceRgbPreserved": true,
+            "generatedRgbUsed": false,
+            "generatedAlphaUsed": true,
+            "alphaRefinement": "Intersection with Apple Vision foreground mask; source-color rejection of event lettering in the right hair fringe",
+            "clearedSignagePixels": 4310
+          }
+        },
+        "composition": {
+          "input": "output/portrait-processed/2026-10-22-revision-02/josh-original-pixels-cutout.png",
+          "height": 1900,
+          "anchorX": 943.7674,
+          "anchorY": 453.57365,
+          "erode": 1,
+          "contrast": 1.04,
+          "brightness": 1,
+          "targetX": 540,
+          "targetY": 490,
+          "offsetX": -32,
+          "subjectShiftLeftPx": 32,
+          "reason": "Optical alignment requested by DJ: shift subject slightly left while keeping the eye mark fixed."
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png"
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-22-revision-03/Josh-Hartnett-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "ac8d3e69e5969c8b63b829a693802b200f51f4c96904d869911a68ffe613a18b"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-22-review/rest/types/6s/Josh-Hartnett.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 117378,
+          "sha256": "9663c4533121ea8cb2ba7aabbe67eb28b9dea3f1ce7082b5dfbebefa8773772f",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-22-review/rest/types/6s/s-Josh-Hartnett.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 19450,
+          "sha256": "f9ff7b0b2f635ba4727b6600cb61e86221dc3ff7f3a27942b564c9b9880817b8",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "opaqueTemplatePixelsPreserved": 22457,
+        "editorialCheck": {
+          "slug": "josh-hartnett",
+          "file": "src/blog/people/drafts/josh-hartnett.md",
+          "type": "6",
+          "grade": 8.5,
+          "wordCount": 3672,
+          "editorialReady": true,
+          "blockers": [
+            "missing_full_image",
+            "missing_thumbnail_image"
+          ],
+          "preparedAssets": {
+            "full": {
+              "path": "output/portrait-preflight/2026-10-07-queue/Josh-Hartnett.webp",
+              "width": 1080,
+              "height": 1080,
+              "bytes": 44780,
+              "sha256": "27e56d7d111fa02d895ddd2a86ef7dc437d233569757a4206f40bc08d54b8827",
+              "alpha": true
+            },
+            "thumbnail": {
+              "path": "output/portrait-preflight/2026-10-07-queue/s-Josh-Hartnett.webp",
+              "width": 480,
+              "height": 480,
+              "bytes": 10444,
+              "sha256": "e0abda501f99534be2b0d407ac36a59e9ce38ce1c2cdd5d4afe6f0499e8d54d8",
+              "alpha": true
+            }
+          },
+          "sourceRights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication.",
+          "livePublished": false,
+          "databaseRowExists": false
+        },
+        "visualReview": "Reviewed in dark and light presentation, with shoulder edges, hair and eye alignment checked.",
+        "portraitCheck": {
+          "ok": true,
+          "type": 6,
+          "slug": "Josh-Hartnett",
+          "full": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-10-22-review/rest/types/6s/Josh-Hartnett.webp",
+            "bytes": 117378,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-10-22-review/rest/types/6s/s-Josh-Hartnett.webp",
+            "bytes": 19450,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=6&portraitSlug=Josh-Hartnett#portrait-preflight"
+        }
+      },
+      "qualityNote": "New wide photograph with naturally continuous shoulders, taken at TIFF in September 2026. The original photographic RGB is preserved; no generated face, body or shoulder pixels are used. Subject moved 32px left on the 1080px canvas for optical alignment with the unchanged purple eye mark.",
+      "installedPaths": [
+        "static/types/6s/Josh-Hartnett.webp",
+        "static/types/6s/s-Josh-Hartnett.webp"
+      ],
+      "intendedInstallPaths": [
+        "static/types/6s/Josh-Hartnett.webp",
+        "static/types/6s/s-Josh-Hartnett.webp"
+      ],
+      "editorialStatus": {
+        "grade": 8.5,
+        "ready": true,
+        "remainingBlockers": [],
+        "verifiedAt": "2026-10-22T13:36:52.236Z"
+      },
+      "installedAssets": {
+        "full": {
+          "path": "static/types/6s/Josh-Hartnett.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 117378,
+          "sha256": "9663c4533121ea8cb2ba7aabbe67eb28b9dea3f1ce7082b5dfbebefa8773772f",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "static/types/6s/s-Josh-Hartnett.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 19450,
+          "sha256": "f9ff7b0b2f635ba4727b6600cb61e86221dc3ff7f3a27942b564c9b9880817b8",
+          "alpha": true
+        }
+      },
+      "installedAt": "2026-10-22T15:24:21.424Z"
+    },
+    {
+      "slug": "sombr",
+      "name": "sombr",
+      "filename": "Sombr",
+      "type": "3",
+      "status": "user_approved_installed",
+      "source": {
+        "page": "https://www.iheart.com/content/2025-05-27-sombr-lands-iheartradio-on-the-verge-status-with-undressed/",
+        "imageUrl": "https://i.iheart.com/v3/re/new_assets/68361c93e023dc14afee816a",
+        "photographerOrCredit": "Photographer not identified; portrait distributed by iHeartRadio",
+        "localOriginal": "output/portrait-sources/2026-10-07-queue/sombr-source.jpg",
+        "width": 1200,
+        "height": 678,
+        "sha256": "54fd54a0ace30f99a8600b336782518b3c3aee5b88937e47cb7cba45a55865dd",
+        "rights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication."
+      },
+      "transformations": {
+        "segmentation": "Apple Vision foreground mask; no face reconstruction",
+        "clockwiseRotationDegrees": 17.675470857,
+        "composition": {
+          "slug": "sombr",
+          "name": "Sombr",
+          "input": "output/portrait-processed/2026-10-07-queue/sombr-crop.png",
+          "crop": "output/portrait-processed/2026-10-07-queue/sombr-crop.png",
+          "bottom": 834,
+          "height": 1075,
+          "anchorX": 648.5757761203906,
+          "anchorY": 388.06530187102385,
+          "erode": 3,
+          "contrast": 1.04,
+          "brightness": 1,
+          "targetX": 540,
+          "targetY": 490
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png"
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-22-rest/Sombr-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "f8b435e3767b67db81dde4c7a640aaa585704adc81e80f5a1281ef3d836c7773"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-22-review/rest/types/3s/Sombr.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 40594,
+          "sha256": "008679a1ba2322e98a9e7f5679178c7b4a939c0d1a3d44fff67aa9e21afe3230",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-22-review/rest/types/3s/s-Sombr.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 13810,
+          "sha256": "09e30d5bb6ae0bd6cf5ab1af0eb0e3e229e1c912f3cd502b3589de4c5bd0884b",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "unchangedOpaqueTemplatePixels": 22457,
+        "visualReview": "Reviewed in dark and light presentation, with shoulder edges, hair and eye alignment checked.",
+        "handsInFinalCrop": false,
+        "glassesInFinalCrop": false,
+        "opaqueTemplatePixelsPreserved": 22457,
+        "portraitCheck": {
+          "ok": true,
+          "type": 3,
+          "slug": "Sombr",
+          "full": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-10-22-review/rest/types/3s/Sombr.webp",
+            "bytes": 40594,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-10-22-review/rest/types/3s/s-Sombr.webp",
+            "bytes": 13810,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=3&portraitSlug=Sombr#portrait-preflight"
+        }
+      },
+      "qualityNote": "Existing real-photo cutout reviewed and recomposed to the approved eye mark; horizontal alignment remeasured. ",
+      "installedPaths": [
+        "static/types/3s/Sombr.webp",
+        "static/types/3s/s-Sombr.webp"
+      ],
+      "intendedInstallPaths": [
+        "static/types/3s/Sombr.webp",
+        "static/types/3s/s-Sombr.webp"
+      ],
+      "editorialStatus": {
+        "grade": 8.3,
+        "ready": true,
+        "remainingBlockers": [],
+        "verifiedAt": "2026-10-22T13:36:52.236Z"
+      },
+      "installedAssets": {
+        "full": {
+          "path": "static/types/3s/Sombr.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 40594,
+          "sha256": "008679a1ba2322e98a9e7f5679178c7b4a939c0d1a3d44fff67aa9e21afe3230",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "static/types/3s/s-Sombr.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 13810,
+          "sha256": "09e30d5bb6ae0bd6cf5ab1af0eb0e3e229e1c912f3cd502b3589de4c5bd0884b",
+          "alpha": true
+        }
+      },
+      "installedAt": "2026-10-22T15:24:21.424Z"
+    },
+    {
+      "slug": "cara-delevingne",
+      "name": "Cara Delevingne",
+      "filename": "Cara-Delevingne",
+      "type": "4",
+      "status": "user_approved_installed",
+      "source": {
+        "page": "https://commons.wikimedia.org/wiki/File:Cara_Delevingne_at_the_2026_New_York_Film_Festival_02.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Cara_Delevingne_at_the_2026_New_York_Film_Festival_02.jpg",
+        "photographerOrCredit": "Claire Fridkin",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "rights": "Creative Commons Attribution-Share Alike 4.0",
+        "localOriginal": "output/portrait-sources/2026-10-22-rest/cara-delevingne.jpg",
+        "width": 3950,
+        "height": 5152,
+        "sha256": "db02efbcdaa04b2e2cf452148065a27ee1ee584e14f016df2ee0005f1ce2b693",
+        "attribution": "Cara Delevingne — Claire Fridkin, CC BY-SA 4.0. Adapted by 9takes: crop, background removal, tilt correction, grayscale, contrast, placement and purple eye overlay. Adapted portrait: CC BY-SA 4.0."
+      },
+      "transformations": {
+        "sourceCrop": {
+          "left": 550,
+          "top": 500,
+          "width": 2700,
+          "height": 2700
+        },
+        "segmentation": {
+          "tool": "built-in image_gen alpha refined against local Apple Vision",
+          "prompt": "Use case: background-extraction\nEdit target: the attached real photograph. Remove ONLY the background and background signage, leaving the entire photographed person including full hair, shoulders, torso and clothing. Preserve the square canvas, exact subject position, scale, pose, expression, face, hair, original lighting and photographic detail. No beautification, no newly generated facial/body/clothing material, no rotation, no reframing, no cropping and no repositioning. Real alpha transparency around the subject, with fine natural antialiased hair edges; no opaque or checkerboard backdrop. Do not add the purple eye mark or change the colors. This is solely a clean background removal.",
+          "script": "output/portrait-processed/2026-10-22-rest/restore-and-align.mjs",
+          "validation": {
+            "sourceRgbPreserved": true,
+            "generatedRgbUsed": false,
+            "generatedAlphaUsed": true,
+            "refinedPixels": 655194,
+            "transparentPixels": 1518622,
+            "maskSimilarityTransform": {
+              "scale": 0.8885815046636526,
+              "angle": 0.008805577323768521
+            },
+            "rotationClockwiseDegrees": 19.741027694765346
+          }
+        },
+        "composition": {
+          "input": "output/portrait-processed/2026-10-22-rest/cara-delevingne-composition-cutout.png",
+          "height": 1118,
+          "anchorX": 1012.525919944924,
+          "anchorY": 673.1096657340408,
+          "erode": 2,
+          "contrast": 1.04,
+          "brightness": 1,
+          "offsetX": 0,
+          "targetX": 540,
+          "targetY": 490
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png"
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-22-rest/Cara-Delevingne-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "fb1a6c5967fde79c340a76eddfb7ba926bdba60ba14116f46fadd262eb643c63"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-22-review/rest/types/4s/Cara-Delevingne.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 87526,
+          "sha256": "8233438cd4289168e0d3a8be385eb58a27e7943d2d778cfebbe873de089245d2",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-22-review/rest/types/4s/s-Cara-Delevingne.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 23892,
+          "sha256": "d4d305a9259d862aaa3f095da179a06e76b49eeec37e54fcc1b3e4f98ff72912",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "opaqueTemplatePixelsPreserved": 22457,
+        "portraitCheck": {
+          "ok": true,
+          "type": 4,
+          "slug": "Cara-Delevingne",
+          "full": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-10-22-review/rest/types/4s/Cara-Delevingne.webp",
+            "bytes": 87526,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-10-22-review/rest/types/4s/s-Cara-Delevingne.webp",
+            "bytes": 23892,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=4&portraitSlug=Cara-Delevingne#portrait-preflight"
+        },
+        "visualReview": "Reviewed in dark and light presentation, with shoulder edges, hair and eye alignment checked."
+      },
+      "installedPaths": [
+        "static/types/4s/Cara-Delevingne.webp",
+        "static/types/4s/s-Cara-Delevingne.webp"
+      ],
+      "intendedInstallPaths": [
+        "static/types/4s/Cara-Delevingne.webp",
+        "static/types/4s/s-Cara-Delevingne.webp"
+      ],
+      "editorialStatus": {
+        "grade": 8.6,
+        "ready": false,
+        "remainingBlockers": [
+          "grade_unstable:0.4_delta",
+          "missing_perspective_review:run scripts/run-blog-pipeline.sh <Person> --resume"
+        ],
+        "verifiedAt": "2026-10-22T13:36:52.236Z"
+      },
+      "installedAssets": {
+        "full": {
+          "path": "static/types/4s/Cara-Delevingne.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 87526,
+          "sha256": "8233438cd4289168e0d3a8be385eb58a27e7943d2d778cfebbe873de089245d2",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "static/types/4s/s-Cara-Delevingne.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 23892,
+          "sha256": "d4d305a9259d862aaa3f095da179a06e76b49eeec37e54fcc1b3e4f98ff72912",
+          "alpha": true
+        }
+      },
+      "installedAt": "2026-10-22T15:24:21.424Z"
+    },
+    {
+      "slug": "laura-loomer",
+      "name": "Laura Loomer",
+      "filename": "Laura-Loomer",
+      "type": "6",
+      "status": "user_approved_installed",
+      "source": {
+        "page": "https://commons.wikimedia.org/wiki/File:Laura_Loomer_(55510823260).jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Laura_Loomer_%2855510823260%29.jpg",
+        "photographerOrCredit": "Gage Skidmore",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "rights": "Creative Commons Attribution-Share Alike 4.0",
+        "localOriginal": "output/portrait-sources/2026-10-22-rest/laura-loomer.jpg",
+        "width": 7030,
+        "height": 4689,
+        "sha256": "79f2c7aba212f2dd784eb96996a05f35bcf1eb735fff10a04695a5fbe0437bd9",
+        "attribution": "Laura Loomer — Gage Skidmore, CC BY-SA 4.0. Adapted by 9takes: crop, background removal, tilt correction, grayscale, contrast, placement and purple eye overlay. Adapted portrait: CC BY-SA 4.0."
+      },
+      "transformations": {
+        "sourceCrop": {
+          "left": 1000,
+          "top": 0,
+          "width": 4689,
+          "height": 4689
+        },
+        "segmentation": {
+          "tool": "built-in image_gen alpha refined against local Apple Vision",
+          "prompt": "Use case: background-extraction\nEdit target: the attached real photograph. Remove ONLY the background and background signage, leaving the entire photographed person including full hair, shoulders, torso and clothing. Preserve the square canvas, exact subject position, scale, pose, expression, face, hair, original lighting and photographic detail. No beautification, no newly generated facial/body/clothing material, no rotation, no reframing, no cropping and no repositioning. Real alpha transparency around the subject, with fine natural antialiased hair edges; no opaque or checkerboard backdrop. Do not add the purple eye mark or change the colors. This is solely a clean background removal.",
+          "script": "output/portrait-processed/2026-10-22-rest/restore-and-align.mjs",
+          "validation": {
+            "sourceRgbPreserved": true,
+            "generatedRgbUsed": false,
+            "generatedAlphaUsed": true,
+            "refinedPixels": 758791,
+            "transparentPixels": 1236148,
+            "maskSimilarityTransform": {
+              "scale": 0.8185794641058731,
+              "angle": 0.00028360489604306593
+            },
+            "rotationClockwiseDegrees": 10.988935943000149
+          }
+        },
+        "composition": {
+          "input": "output/portrait-processed/2026-10-22-rest/laura-loomer-composition-cutout.png",
+          "height": 1098,
+          "anchorX": 934.7385686143606,
+          "anchorY": 489.7285466647565,
+          "erode": 2,
+          "contrast": 1.04,
+          "brightness": 1,
+          "offsetX": 0,
+          "targetX": 540,
+          "targetY": 490
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png"
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-22-rest/Laura-Loomer-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "6073e249576e4ea3d6153b36280c93f9957479f74253f59d621d3933e1d1a801"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-22-review/rest/types/6s/Laura-Loomer.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 56178,
+          "sha256": "5de4ad8b2e218ceafa2dfe720efc1910cf86fe98d9c6c0a3f213fdc82de87dcf",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-22-review/rest/types/6s/s-Laura-Loomer.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 16776,
+          "sha256": "c1561f4e472c8c6493e85efe04c704be92ad32b44fba978cc2fdb673484e2d3f",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "opaqueTemplatePixelsPreserved": 22457,
+        "portraitCheck": {
+          "ok": true,
+          "type": 6,
+          "slug": "Laura-Loomer",
+          "full": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-10-22-review/rest/types/6s/Laura-Loomer.webp",
+            "bytes": 56178,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-10-22-review/rest/types/6s/s-Laura-Loomer.webp",
+            "bytes": 16776,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=6&portraitSlug=Laura-Loomer#portrait-preflight"
+        },
+        "visualReview": "Reviewed in dark and light presentation, with shoulder edges, hair and eye alignment checked."
+      },
+      "installedPaths": [
+        "static/types/6s/Laura-Loomer.webp",
+        "static/types/6s/s-Laura-Loomer.webp"
+      ],
+      "intendedInstallPaths": [
+        "static/types/6s/Laura-Loomer.webp",
+        "static/types/6s/s-Laura-Loomer.webp"
+      ],
+      "editorialStatus": {
+        "grade": 8.6,
+        "ready": false,
+        "remainingBlockers": [
+          "invalid_perspective_review_manifest:rerun full blog pipeline"
+        ],
+        "verifiedAt": "2026-10-22T13:36:52.236Z"
+      },
+      "installedAssets": {
+        "full": {
+          "path": "static/types/6s/Laura-Loomer.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 56178,
+          "sha256": "5de4ad8b2e218ceafa2dfe720efc1910cf86fe98d9c6c0a3f213fdc82de87dcf",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "static/types/6s/s-Laura-Loomer.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 16776,
+          "sha256": "c1561f4e472c8c6493e85efe04c704be92ad32b44fba978cc2fdb673484e2d3f",
+          "alpha": true
+        }
+      },
+      "installedAt": "2026-10-22T15:24:21.424Z"
+    },
+    {
+      "slug": "paapa-essiedu",
+      "name": "Paapa Essiedu",
+      "filename": "Paapa-Essiedu",
+      "type": "6",
+      "status": "user_approved_installed",
+      "source": {
+        "page": "https://commons.wikimedia.org/wiki/File:Paapa_Essiedu_at_Series_Mania.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Paapa_Essiedu_at_Series_Mania.jpg",
+        "photographerOrCredit": "Elyot Boudart",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "rights": "Creative Commons Attribution-Share Alike 4.0",
+        "localOriginal": "output/portrait-sources/2026-10-22-rest/paapa-essiedu.jpg",
+        "width": 4000,
+        "height": 6000,
+        "sha256": "041a022f51dd8965fcc9ea2a85e21f45095bb0b13d4152794ab9308e1de769c5",
+        "attribution": "Paapa Essiedu — Elyot Boudart, CC BY-SA 4.0. Adapted by 9takes: crop, background removal, tilt correction, grayscale, contrast, placement and purple eye overlay. Adapted portrait: CC BY-SA 4.0."
+      },
+      "transformations": {
+        "sourceCrop": {
+          "left": 0,
+          "top": 0,
+          "width": 4000,
+          "height": 4500
+        },
+        "segmentation": {
+          "tool": "built-in image_gen alpha refined against local Apple Vision",
+          "prompt": "Use case: background-extraction\nEdit target: the attached real photograph. Remove ONLY the background and background signage, leaving the entire photographed person including full hair, shoulders, torso and clothing. Preserve the original portrait canvas and aspect ratio, exact subject position, scale, pose, expression, face, hair, original lighting and photographic detail. No beautification, no newly generated facial/body/clothing material, no rotation, no reframing, no cropping and no repositioning. Real alpha transparency around the subject, with fine natural antialiased hair edges; no opaque or checkerboard backdrop. Do not add the purple eye mark or change the colors. This is solely a clean background removal.\nKeep only the foreground man, Paapa Essiedu. Remove the out-of-focus people behind him with the background. Preserve all photographed parts of his coat and earrings.",
+          "script": "output/portrait-processed/2026-10-22-rest/restore-and-align.mjs",
+          "validation": {
+            "sourceRgbPreserved": true,
+            "generatedRgbUsed": false,
+            "generatedAlphaUsed": true,
+            "refinedPixels": 769548,
+            "transparentPixels": 1002188,
+            "maskSimilarityTransform": {
+              "scale": 0.877501839457379,
+              "angle": -0.0015679966609723813
+            },
+            "rotationClockwiseDegrees": 0.7609466593702021
+          }
+        },
+        "composition": {
+          "input": "output/portrait-processed/2026-10-22-rest/paapa-essiedu-composition-cutout.png",
+          "height": 1355,
+          "anchorX": 846.1524216608827,
+          "anchorY": 551.5054064470886,
+          "erode": 2,
+          "contrast": 1.04,
+          "brightness": 1.05,
+          "offsetX": 4,
+          "targetX": 540,
+          "targetY": 490
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png",
+        "outerClothingFraming": {
+          "name": "Paapa-Essiedu",
+          "side": "right",
+          "startY": 720,
+          "endY": 850,
+          "boundaryX": 780,
+          "shift": 60,
+          "method": "Local horizontal resampling of photographed outer clothing only; no generated face, body or clothing pixels."
+        }
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-22-rest/Paapa-Essiedu-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "5069fe1a3c7f9a30777537206177ed5d07c91cec52cf491c713e958374f4e9c5"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-22-review/rest/types/6s/Paapa-Essiedu.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 89292,
+          "sha256": "3988dd63a8d4cab8e23811c0f8e66145df273362800e640aaeac541576f47903",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-22-review/rest/types/6s/s-Paapa-Essiedu.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 19092,
+          "sha256": "06c2fe2efeb034d737e8c19a792e9eb6945315b4aea0eea1c7eabe58997a5894",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "opaqueTemplatePixelsPreserved": 22457,
+        "portraitCheck": {
+          "ok": true,
+          "type": 6,
+          "slug": "Paapa-Essiedu",
+          "full": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-10-22-review/rest/types/6s/Paapa-Essiedu.webp",
+            "bytes": 89292,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-10-22-review/rest/types/6s/s-Paapa-Essiedu.webp",
+            "bytes": 19092,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=6&portraitSlug=Paapa-Essiedu#portrait-preflight"
+        },
+        "visualReview": "Revision 04 checked at full size and in dark and light themes; face alignment, clean hair edges and continuous shoulder framing reviewed."
+      },
+      "installedPaths": [
+        "static/types/6s/Paapa-Essiedu.webp",
+        "static/types/6s/s-Paapa-Essiedu.webp"
+      ],
+      "intendedInstallPaths": [
+        "static/types/6s/Paapa-Essiedu.webp",
+        "static/types/6s/s-Paapa-Essiedu.webp"
+      ],
+      "editorialStatus": {
+        "grade": 8.6,
+        "ready": false,
+        "remainingBlockers": [
+          "editorial_v3:stale_or_invalid_release"
+        ],
+        "verifiedAt": "2026-10-22T13:36:52.236Z"
+      },
+      "revision": {
+        "id": "04",
+        "description": "Shifted 36px left to center his face behind the purple eye mark.",
+        "previousAssets": {
+          "full": {
+            "path": "output/portrait-preflight/2026-10-22-review/rest/types/6s/Paapa-Essiedu.webp",
+            "width": 1080,
+            "height": 1080,
+            "bytes": 87406,
+            "sha256": "a8fb3317c1d56e4841b52290fad47f5ba02dcaf65bdb376ea219345c65e78bb3",
+            "alpha": true
+          },
+          "thumbnail": {
+            "path": "output/portrait-preflight/2026-10-22-review/rest/types/6s/s-Paapa-Essiedu.webp",
+            "width": 480,
+            "height": 480,
+            "bytes": 18966,
+            "sha256": "4c1da21231a835ffe26a88a041a6796577588d219d6e3511b2d2a8ba8a652784",
+            "alpha": true
+          }
+        }
+      },
+      "qualityNote": "Shifted 36px left to center his face behind the purple eye mark.",
+      "installedAssets": {
+        "full": {
+          "path": "static/types/6s/Paapa-Essiedu.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 89292,
+          "sha256": "3988dd63a8d4cab8e23811c0f8e66145df273362800e640aaeac541576f47903",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "static/types/6s/s-Paapa-Essiedu.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 19092,
+          "sha256": "06c2fe2efeb034d737e8c19a792e9eb6945315b4aea0eea1c7eabe58997a5894",
+          "alpha": true
+        }
+      },
+      "installedAt": "2026-10-22T15:24:21.424Z"
+    },
+    {
+      "slug": "mike-faist",
+      "name": "Mike Faist",
+      "filename": "Mike-Faist",
+      "type": "4",
+      "status": "user_approved_installed",
+      "source": {
+        "page": "https://www.hiamag.com/موضة/مجوهرات-وساعات/1753176-جائزة-شوبارد-trophée-chopard-2024-للممثلة-صوفي-وايلد-والممثل-مايك-فيست",
+        "imageUrl": "https://static.hiamag.com/inline-images/Mike%20Faist.jpg",
+        "photographerOrCredit": "Photographer not identified; Chopard award portrait distributed by Hia Magazine",
+        "localOriginal": "output/portrait-sources/2026-10-07-queue/mike-faist-hires.jpg",
+        "width": 8735,
+        "height": 11647,
+        "sha256": "721158f084dc8c2abff700bf58b8f897e7ff1c2efcd451e0aee943a6581bb241",
+        "rights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication."
+      },
+      "transformations": {
+        "segmentation": "Apple Vision foreground mask; no face reconstruction",
+        "clockwiseRotationDegrees": 0,
+        "composition": {
+          "slug": "mike-faist",
+          "name": "Mike-Faist",
+          "input": "output/portrait-processed/2026-10-07-queue/mike-faist-crop.png",
+          "crop": "output/portrait-processed/2026-10-07-queue/mike-faist-crop.png",
+          "bottom": 8282,
+          "height": 1115,
+          "anchorX": 4422.402197903564,
+          "anchorY": 3226.355688285731,
+          "erode": 3,
+          "contrast": 1.04,
+          "brightness": 1,
+          "targetX": 540,
+          "targetY": 490
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png"
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-22-rest/Mike-Faist-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "474f75bc77293cd330ee69be4559f5fc54a3928f4fedcfa296517c14905abba2"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-22-review/rest/types/4s/Mike-Faist.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 53066,
+          "sha256": "6770b459bfa3b7e4967b275721bc4d5f976eba2c09a89b2897cbe5a53a2dbf68",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-22-review/rest/types/4s/s-Mike-Faist.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 13906,
+          "sha256": "b8e84d109cb811363f9f3eb447c044da7928952ba6d18d287b4c720af75ac90a",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "unchangedOpaqueTemplatePixels": 22457,
+        "visualReview": "Reviewed in dark and light presentation, with shoulder edges, hair and eye alignment checked.",
+        "handsInFinalCrop": false,
+        "glassesInFinalCrop": false,
+        "opaqueTemplatePixelsPreserved": 22457,
+        "portraitCheck": {
+          "ok": true,
+          "type": 4,
+          "slug": "Mike-Faist",
+          "full": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-10-22-review/rest/types/4s/Mike-Faist.webp",
+            "bytes": 53066,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-10-22-review/rest/types/4s/s-Mike-Faist.webp",
+            "bytes": 13906,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=4&portraitSlug=Mike-Faist#portrait-preflight"
+        }
+      },
+      "qualityNote": "Existing real-photo cutout reviewed and recomposed to the approved eye mark; horizontal alignment remeasured. ",
+      "installedPaths": [
+        "static/types/4s/Mike-Faist.webp",
+        "static/types/4s/s-Mike-Faist.webp"
+      ],
+      "intendedInstallPaths": [
+        "static/types/4s/Mike-Faist.webp",
+        "static/types/4s/s-Mike-Faist.webp"
+      ],
+      "editorialStatus": {
+        "grade": 8.4,
+        "ready": false,
+        "remainingBlockers": [
+          "content_quality_below_8.5:8.4",
+          "editorial_v3:missing_or_invalid_release:ENOENT: no such file or directory, open '/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-15_06-00-03-138_mike-faist/release.json'"
+        ],
+        "verifiedAt": "2026-10-22T13:36:52.236Z"
+      },
+      "installedAssets": {
+        "full": {
+          "path": "static/types/4s/Mike-Faist.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 53066,
+          "sha256": "6770b459bfa3b7e4967b275721bc4d5f976eba2c09a89b2897cbe5a53a2dbf68",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "static/types/4s/s-Mike-Faist.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 13906,
+          "sha256": "b8e84d109cb811363f9f3eb447c044da7928952ba6d18d287b4c720af75ac90a",
+          "alpha": true
+        }
+      },
+      "installedAt": "2026-10-22T15:24:21.424Z"
+    },
+    {
+      "slug": "stella-lefty",
+      "name": "Stella Lefty",
+      "filename": "Stella-Lefty",
+      "type": "9",
+      "status": "user_approved_installed",
+      "source": {
+        "page": "https://holler.country/news/breaking/kelsea-ballerini-defends-stella-lefty-after-online-backlash-over-opry-debut/",
+        "imageUrl": "https://cdn.sanity.io/images/o6uq28nb/production/129aeeff2a2e88ef85d97180430e9cce5f51ae42-2900x2900.jpg",
+        "photographerOrCredit": "Photographer not identified; portrait distributed by Holler",
+        "localOriginal": "output/portrait-sources/2026-10-07-queue/stella-lefty-source.jpg",
+        "width": 2900,
+        "height": 2900,
+        "sha256": "ede9c7fd36949fb731f666642aa8618f3a0f5da8fa1bf601f490580cb7274c3a",
+        "rights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication."
+      },
+      "transformations": {
+        "segmentation": "Apple Vision foreground mask; no face reconstruction",
+        "clockwiseRotationDegrees": 26.8379615,
+        "composition": {
+          "slug": "stella-lefty",
+          "name": "Stella-Lefty",
+          "input": "output/portrait-processed/2026-10-07-queue/stella-lefty-crop.png",
+          "crop": "output/portrait-processed/2026-10-07-queue/stella-lefty-crop.png",
+          "bottom": 1921,
+          "height": 1040,
+          "anchorX": 2349.7343051302732,
+          "anchorY": 1077.8391587754375,
+          "erode": 3,
+          "contrast": 1.04,
+          "brightness": 1,
+          "targetX": 540,
+          "targetY": 490
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png"
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-22-rest/Stella-Lefty-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "8dc406dffcf1174e000ce5a093f56982f0e2b616e6422392038d10504994c197"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-22-review/rest/types/9s/Stella-Lefty.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 54840,
+          "sha256": "c24b6c91d6baded51e2d4e328cdd6c12c1786c93a649c4cacdceee49084f9a0a",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-22-review/rest/types/9s/s-Stella-Lefty.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 15006,
+          "sha256": "32ae76eb02c6444e3b9a71ab854f27920780c3749034060b372e8eb4a90edf90",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "unchangedOpaqueTemplatePixels": 22457,
+        "visualReview": "Reviewed in dark and light presentation, with shoulder edges, hair and eye alignment checked.",
+        "handsInFinalCrop": false,
+        "glassesInFinalCrop": false,
+        "opaqueTemplatePixelsPreserved": 22457,
+        "portraitCheck": {
+          "ok": true,
+          "type": 9,
+          "slug": "Stella-Lefty",
+          "full": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-10-22-review/rest/types/9s/Stella-Lefty.webp",
+            "bytes": 54840,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-10-22-review/rest/types/9s/s-Stella-Lefty.webp",
+            "bytes": 15006,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=9&portraitSlug=Stella-Lefty#portrait-preflight"
+        }
+      },
+      "qualityNote": "Existing real-photo cutout reviewed and recomposed to the approved eye mark; horizontal alignment remeasured. ",
+      "installedPaths": [
+        "static/types/9s/Stella-Lefty.webp",
+        "static/types/9s/s-Stella-Lefty.webp"
+      ],
+      "intendedInstallPaths": [
+        "static/types/9s/Stella-Lefty.webp",
+        "static/types/9s/s-Stella-Lefty.webp"
+      ],
+      "editorialStatus": {
+        "grade": 8.4,
+        "ready": false,
+        "remainingBlockers": [
+          "editorial_v3:stale_or_invalid_release"
+        ],
+        "verifiedAt": "2026-10-22T13:36:52.236Z"
+      },
+      "installedAssets": {
+        "full": {
+          "path": "static/types/9s/Stella-Lefty.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 54840,
+          "sha256": "c24b6c91d6baded51e2d4e328cdd6c12c1786c93a649c4cacdceee49084f9a0a",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "static/types/9s/s-Stella-Lefty.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 15006,
+          "sha256": "32ae76eb02c6444e3b9a71ab854f27920780c3749034060b372e8eb4a90edf90",
+          "alpha": true
+        }
+      },
+      "installedAt": "2026-10-22T15:24:21.424Z"
+    },
+    {
+      "slug": "codie-sanchez",
+      "name": "Codie Sanchez",
+      "filename": "Codie-Sanchez",
+      "type": "3",
+      "status": "user_approved_installed",
+      "source": {
+        "page": "https://www.inkl.com/news/codie-sanchez-17-income-streams-i-use-and-you-can-too-to-build-wealth",
+        "imageUrl": "https://images.inkl.com/s3/article/lead_image/22697368/Codie-Sanchez-Headshot-2.png",
+        "photographerOrCredit": "Photographer not identified; image distributed by Inkl",
+        "localOriginal": "output/portrait-sources/2026-10-07-queue/codie-sanchez-hires.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "7fbbcd20d9bfd963e477c6c3f7058cd09d563b350fb3e05000cdcc1de6e87284",
+        "rights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication."
+      },
+      "transformations": {
+        "segmentation": {
+          "tool": "built-in image_gen alpha refinement; original photographic RGB retained",
+          "prompt": "Use case: background-extraction\nEdit target: the attached transparent cutout of the real Codie Sanchez photograph. Refine ONLY the background removal. Completely remove the green/yellow/blue patches of original background clinging to the outside of her hair and shoulder, including the broad yellow halo along the left hair edge and the yellow loop behind the right hair. Preserve the same canvas, subject position, scale, natural strands and curls. Preserve her photographed face, expression, skin, clothing, and real natural hair highlights exactly. Do not reconstruct or beautify any facial features, do not relight her face, and do not invent hair or clothing. Keep genuine alpha transparency; no black, white or checkerboard backdrop. Do not add text or a purple mark.\n",
+          "validation": {
+            "sourceRgbPreserved": true,
+            "generatedRgbUsed": false,
+            "generatedAlphaUsed": true,
+            "refinedPixels": 688916,
+            "maskSimilarityTransform": {
+              "scale": 0.8751729571380117,
+              "angle": -0.0012910746436990833
+            },
+            "composition": {
+              "slug": "codie-sanchez",
+              "name": "Codie-Sanchez",
+              "input": "output/portrait-processed/2026-10-22-revision-04/codie-clean-cutout.png",
+              "height": 979,
+              "anchorX": 909.1279383431804,
+              "anchorY": 444.1626744466236,
+              "erode": 2,
+              "contrast": 1.04,
+              "brightness": 1,
+              "targetX": 540,
+              "targetY": 490
+            },
+            "highlightTreatment": {
+              "method": "Highlight-only grayscale tone curve outside the protected facial oval; original face and purple template unchanged",
+              "threshold": 155,
+              "reduction": 0.45,
+              "adjustedPixels": 71326
+            }
+          }
+        },
+        "clockwiseRotationDegrees": 0,
+        "composition": {
+          "slug": "codie-sanchez",
+          "name": "Codie-Sanchez",
+          "input": "output/portrait-processed/2026-10-22-revision-04/codie-clean-cutout.png",
+          "height": 979,
+          "anchorX": 909.1279383431804,
+          "anchorY": 444.1626744466236,
+          "erode": 2,
+          "contrast": 1.04,
+          "brightness": 1,
+          "targetX": 540,
+          "targetY": 490
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png",
+        "highlightTreatment": {
+          "method": "Highlight-only grayscale tone curve outside the protected facial oval; original face and purple template unchanged",
+          "threshold": 155,
+          "reduction": 0.45,
+          "adjustedPixels": 71326
+        }
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-22-rest/Codie-Sanchez-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "c561a99109ac6b01f527a864798faeb9b42d512bc9a6e174c33672efe3f40f54"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-22-review/rest/types/3s/Codie-Sanchez.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 86086,
+          "sha256": "113c58d7f5a9bee9a30ad7aec22d5f2a1b99157ac9b3f8674c172e9d3d0d0cac",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-22-review/rest/types/3s/s-Codie-Sanchez.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 23646,
+          "sha256": "4cbc68ed24e7ecfc891e0cb2518c5aebfea2bf684fc840d64f3517b6dbc6ca9f",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "unchangedOpaqueTemplatePixels": 22457,
+        "visualReview": "Revision 04 checked at full size and in dark and light themes; face alignment, clean hair edges and continuous shoulder framing reviewed.",
+        "handsInFinalCrop": false,
+        "glassesInFinalCrop": false,
+        "opaqueTemplatePixelsPreserved": 22457,
+        "portraitCheck": {
+          "ok": true,
+          "type": 3,
+          "slug": "Codie-Sanchez",
+          "full": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-10-22-review/rest/types/3s/Codie-Sanchez.webp",
+            "bytes": 86086,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-10-22-review/rest/types/3s/s-Codie-Sanchez.webp",
+            "bytes": 23646,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=3&portraitSlug=Codie-Sanchez#portrait-preflight"
+        }
+      },
+      "qualityNote": "Removed background remnants around her hair and softened harsh rim-light highlights; preserved the original face.",
+      "installedPaths": [
+        "static/types/3s/Codie-Sanchez.webp",
+        "static/types/3s/s-Codie-Sanchez.webp"
+      ],
+      "intendedInstallPaths": [
+        "static/types/3s/Codie-Sanchez.webp",
+        "static/types/3s/s-Codie-Sanchez.webp"
+      ],
+      "editorialStatus": {
+        "grade": 8.3,
+        "ready": false,
+        "remainingBlockers": [
+          "content_quality_below_8.5:8.3",
+          "editorial_v3:missing_or_invalid_release:ENOENT: no such file or directory, open '/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-10_06-00-04-931_codie-sanchez/release.json'"
+        ],
+        "verifiedAt": "2026-10-22T13:36:52.236Z"
+      },
+      "revision": {
+        "id": "04",
+        "description": "Removed background remnants around her hair and softened harsh rim-light highlights; preserved the original face.",
+        "previousAssets": {
+          "full": {
+            "path": "output/portrait-preflight/2026-10-22-review/rest/types/3s/Codie-Sanchez.webp",
+            "width": 1080,
+            "height": 1080,
+            "bytes": 68340,
+            "sha256": "8d6f6bb068e1ef8eff823b762e35c340af722d8fa16b8f1a0f0d167011f9abdb",
+            "alpha": true
+          },
+          "thumbnail": {
+            "path": "output/portrait-preflight/2026-10-22-review/rest/types/3s/s-Codie-Sanchez.webp",
+            "width": 480,
+            "height": 480,
+            "bytes": 19606,
+            "sha256": "408e7f8140172aa94a2e62c2051b1ace11e9d587d8734b5c92c6013d6d8f97f2",
+            "alpha": true
+          }
+        }
+      },
+      "installedAssets": {
+        "full": {
+          "path": "static/types/3s/Codie-Sanchez.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 86086,
+          "sha256": "113c58d7f5a9bee9a30ad7aec22d5f2a1b99157ac9b3f8674c172e9d3d0d0cac",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "static/types/3s/s-Codie-Sanchez.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 23646,
+          "sha256": "4cbc68ed24e7ecfc891e0cb2518c5aebfea2bf684fc840d64f3517b6dbc6ca9f",
+          "alpha": true
+        }
+      },
+      "installedAt": "2026-10-22T15:24:21.424Z"
+    },
+    {
+      "slug": "sienna-spiro",
+      "name": "Sienna Spiro",
+      "filename": "Sienna-Spiro",
+      "type": "2",
+      "status": "user_approved_installed",
+      "source": {
+        "page": "https://www.shazam.com/artist/sienna-spiro/1745678083",
+        "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/a4/ef/21a4ef8f-52c0-33ca-7abe-e0bf146e0711/198704048272_Cover.jpg/1400x1400bb.jpg",
+        "photographerOrCredit": "Photographer not identified; recording artwork distributed through Apple Music / Shazam",
+        "localOriginal": "output/portrait-sources/2026-10-07-queue/sienna-spiro-cover.jpg",
+        "width": 1400,
+        "height": 1400,
+        "sha256": "84d192ab860db75961b64b804c4459a997e260ee6a1e7a11c6f0847a0a966473",
+        "rights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication."
+      },
+      "transformations": {
+        "segmentation": "Apple Vision foreground mask; no face reconstruction",
+        "clockwiseRotationDegrees": 0,
+        "composition": {
+          "slug": "sienna-spiro",
+          "name": "Sienna-Spiro",
+          "input": "output/portrait-processed/2026-10-07-queue/sienna-spiro-crop.png",
+          "crop": "output/portrait-processed/2026-10-07-queue/sienna-spiro-crop.png",
+          "bottom": 1400,
+          "height": 1290,
+          "anchorX": 682.7358733151851,
+          "anchorY": 519.6823152119057,
+          "erode": 4,
+          "contrast": 1.13,
+          "brightness": 1,
+          "targetX": 540,
+          "targetY": 490
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png"
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-22-rest/Sienna-Spiro-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "29e517581927dae2a05ac8bca453b6613b12efa621a2bd84ff428a1b373b2cd1"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-22-review/rest/types/2s/Sienna-Spiro.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 40360,
+          "sha256": "f281c0604cc7a1e13cb8a8775bfcab5941e45f5d2e68788d14bf3879b32f195b",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-22-review/rest/types/2s/s-Sienna-Spiro.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 12124,
+          "sha256": "616de4174b1b4e7866a1ce1ec5ad74bf033537c4653d452496547942ededcae9",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "unchangedOpaqueTemplatePixels": 22457,
+        "visualReview": "Reviewed in dark and light presentation, with shoulder edges, hair and eye alignment checked.",
+        "handsInFinalCrop": false,
+        "glassesInFinalCrop": false,
+        "opaqueTemplatePixelsPreserved": 22457,
+        "portraitCheck": {
+          "ok": true,
+          "type": 2,
+          "slug": "Sienna-Spiro",
+          "full": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-10-22-review/rest/types/2s/Sienna-Spiro.webp",
+            "bytes": 40360,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-10-22-review/rest/types/2s/s-Sienna-Spiro.webp",
+            "bytes": 12124,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=2&portraitSlug=Sienna-Spiro#portrait-preflight"
+        }
+      },
+      "qualityNote": "Existing real-photo cutout reviewed and recomposed to the approved eye mark; horizontal alignment remeasured. Increased crop scale to carry the shoulders through the canvas edges.",
+      "installedPaths": [
+        "static/types/2s/Sienna-Spiro.webp",
+        "static/types/2s/s-Sienna-Spiro.webp"
+      ],
+      "intendedInstallPaths": [
+        "static/types/2s/Sienna-Spiro.webp",
+        "static/types/2s/s-Sienna-Spiro.webp"
+      ],
+      "editorialStatus": {
+        "grade": 8.3,
+        "ready": false,
+        "remainingBlockers": [
+          "content_quality_needs_review",
+          "editorial_v3:missing_or_invalid_release:ENOENT: no such file or directory, open '/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-14_06-00-03-124_sienna-spiro/release.json'"
+        ],
+        "verifiedAt": "2026-10-22T13:36:52.236Z"
+      },
+      "installedAssets": {
+        "full": {
+          "path": "static/types/2s/Sienna-Spiro.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 40360,
+          "sha256": "f281c0604cc7a1e13cb8a8775bfcab5941e45f5d2e68788d14bf3879b32f195b",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "static/types/2s/s-Sienna-Spiro.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 12124,
+          "sha256": "616de4174b1b4e7866a1ce1ec5ad74bf033537c4653d452496547942ededcae9",
+          "alpha": true
+        }
+      },
+      "installedAt": "2026-10-22T15:24:21.424Z"
+    },
+    {
+      "slug": "lily-rose-depp",
+      "name": "Lily-Rose Depp",
+      "filename": "Lily-Rose-Depp",
+      "type": "6",
+      "status": "user_approved_installed",
+      "source": {
+        "page": "https://commons.wikimedia.org/wiki/File:Lily-Rose_Depp_-_ALPHAGANG_-_TIFF_2026-19.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Lily-Rose_Depp_-_ALPHAGANG_-_TIFF_2026-19.jpg",
+        "photographerOrCredit": "Sarran Hamilton",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "rights": "Creative Commons Attribution-Share Alike 4.0",
+        "localOriginal": "output/portrait-sources/2026-10-22-rest/lily-rose-depp.jpg",
+        "width": 3849,
+        "height": 4000,
+        "sha256": "0f37cd7a1356bb9d0e4c81f706ab8683581ecd1afdd78e70649befc45024e6a5",
+        "attribution": "Lily Rose Depp — Sarran Hamilton, CC BY-SA 4.0. Adapted by 9takes: crop, background removal, tilt correction, grayscale, contrast, placement and purple eye overlay. Adapted portrait: CC BY-SA 4.0."
+      },
+      "transformations": {
+        "sourceCrop": {
+          "left": 250,
+          "top": 150,
+          "width": 2500,
+          "height": 2500
+        },
+        "segmentation": {
+          "tool": "built-in image_gen alpha refined against local Apple Vision",
+          "prompt": "Use case: background-extraction\nEdit target: the attached real photograph. Remove ONLY the background and background signage, leaving the entire photographed person including full hair, shoulders, torso and clothing. Preserve the square canvas, exact subject position, scale, pose, expression, face, hair, original lighting and photographic detail. No beautification, no newly generated facial/body/clothing material, no rotation, no reframing, no cropping and no repositioning. Real alpha transparency around the subject, with fine natural antialiased hair edges; no opaque or checkerboard backdrop. Do not add the purple eye mark or change the colors. This is solely a clean background removal.",
+          "script": "output/portrait-processed/2026-10-22-rest/restore-and-align.mjs",
+          "validation": {
+            "sourceRgbPreserved": true,
+            "generatedRgbUsed": false,
+            "generatedAlphaUsed": true,
+            "refinedPixels": 715482,
+            "transparentPixels": 1442678,
+            "maskSimilarityTransform": {
+              "scale": 0.9186647126637456,
+              "angle": 0.0031475098336482717
+            },
+            "rotationClockwiseDegrees": -0.6763913325228559
+          }
+        },
+        "composition": {
+          "input": "output/portrait-processed/2026-10-22-rest/lily-rose-depp-composition-cutout.png",
+          "height": 1071,
+          "anchorX": 722.6223360396016,
+          "anchorY": 493.66400631171035,
+          "erode": 2,
+          "contrast": 1.04,
+          "brightness": 1,
+          "offsetX": 0,
+          "targetX": 540,
+          "targetY": 490
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png"
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-22-rest/Lily-Rose-Depp-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "243846bd5702c9fabc1ffde10e4e2db5d4b3364540b19182f4b006bb051e6b09"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-22-review/rest/types/6s/Lily-Rose-Depp.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 63658,
+          "sha256": "e4a51cfe23e9ac809cfbeafb274c5aa3baabfe5c1f463d1c622e42029731079a",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-22-review/rest/types/6s/s-Lily-Rose-Depp.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 16738,
+          "sha256": "a9d53f059be094d09eca402c89a141f39f28345c72b058d514ce91bb33076aab",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "opaqueTemplatePixelsPreserved": 22457,
+        "portraitCheck": {
+          "ok": true,
+          "type": 6,
+          "slug": "Lily-Rose-Depp",
+          "full": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-10-22-review/rest/types/6s/Lily-Rose-Depp.webp",
+            "bytes": 63658,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-10-22-review/rest/types/6s/s-Lily-Rose-Depp.webp",
+            "bytes": 16738,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=6&portraitSlug=Lily-Rose-Depp#portrait-preflight"
+        },
+        "visualReview": "Reviewed in dark and light presentation, with shoulder edges, hair and eye alignment checked."
+      },
+      "installedPaths": [
+        "static/types/6s/Lily-Rose-Depp.webp",
+        "static/types/6s/s-Lily-Rose-Depp.webp"
+      ],
+      "intendedInstallPaths": [
+        "static/types/6s/Lily-Rose-Depp.webp",
+        "static/types/6s/s-Lily-Rose-Depp.webp"
+      ],
+      "editorialStatus": {
+        "grade": 8.2,
+        "ready": false,
+        "remainingBlockers": [
+          "content_quality_below_8.5:8.2",
+          "editorial_v3:missing_or_invalid_release:ENOENT: no such file or directory, open '/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-16_18-51-02-001_Lily-Rose-Depp/release.json'"
+        ],
+        "verifiedAt": "2026-10-22T13:36:52.236Z"
+      },
+      "installedAssets": {
+        "full": {
+          "path": "static/types/6s/Lily-Rose-Depp.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 63658,
+          "sha256": "e4a51cfe23e9ac809cfbeafb274c5aa3baabfe5c1f463d1c622e42029731079a",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "static/types/6s/s-Lily-Rose-Depp.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 16738,
+          "sha256": "a9d53f059be094d09eca402c89a141f39f28345c72b058d514ce91bb33076aab",
+          "alpha": true
+        }
+      },
+      "installedAt": "2026-10-22T15:24:21.424Z"
+    },
+    {
+      "slug": "ella-beatty",
+      "name": "Ella Beatty",
+      "filename": "Ella-Beatty",
+      "type": "6",
+      "status": "user_approved_installed",
+      "source": {
+        "page": "https://www.imdb.com/name/nm13701799/mediaviewer/rm879166465/",
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BYWY4ZWJhZmUtOTE2YS00ODgzLWFmMzAtMWQ3MmU3M2Q5MTg3XkEyXkFqcGc%40._V1_.jpg",
+        "photographerOrCredit": "Photographer not identified; IMDb portrait",
+        "localOriginal": "output/portrait-sources/2026-10-07-queue/ella-beatty-source.jpg",
+        "width": 1260,
+        "height": 1896,
+        "sha256": "3c9dba3a42abd45642815de5be18bdb330db2ca90b0efaf9bbf710bfd882e700",
+        "rights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication."
+      },
+      "transformations": {
+        "segmentation": "Apple Vision foreground mask; no face reconstruction",
+        "clockwiseRotationDegrees": 0,
+        "composition": {
+          "slug": "ella-beatty",
+          "name": "Ella-Beatty",
+          "input": "output/portrait-processed/2026-10-07-queue/ella-beatty-crop.png",
+          "crop": "output/portrait-processed/2026-10-07-queue/ella-beatty-crop.png",
+          "bottom": 1323,
+          "height": 1021,
+          "anchorX": 655.1873424641682,
+          "anchorY": 555.5652607600575,
+          "erode": 3,
+          "contrast": 1.04,
+          "brightness": 1,
+          "targetX": 540,
+          "targetY": 490
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png"
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-22-rest/Ella-Beatty-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "be262db8ee8e05fdcfbd645767c814e377d733a463e204cc5b14e4b3d2389331"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-22-review/rest/types/6s/Ella-Beatty.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 49208,
+          "sha256": "2173cb39c5733a5ecb78304b214c5b279cf2ebb3dad6056622674d7d7489165e",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-22-review/rest/types/6s/s-Ella-Beatty.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 11862,
+          "sha256": "f1017645549be03f1f2903cbed11c99829a1c26bafaff30bb9735f17f961302e",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "unchangedOpaqueTemplatePixels": 22457,
+        "visualReview": "Reviewed in dark and light presentation, with shoulder edges, hair and eye alignment checked.",
+        "handsInFinalCrop": false,
+        "glassesInFinalCrop": false,
+        "opaqueTemplatePixelsPreserved": 22457,
+        "portraitCheck": {
+          "ok": true,
+          "type": 6,
+          "slug": "Ella-Beatty",
+          "full": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-10-22-review/rest/types/6s/Ella-Beatty.webp",
+            "bytes": 49208,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-10-22-review/rest/types/6s/s-Ella-Beatty.webp",
+            "bytes": 11862,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=6&portraitSlug=Ella-Beatty#portrait-preflight"
+        }
+      },
+      "qualityNote": "Existing real-photo cutout reviewed and recomposed to the approved eye mark; horizontal alignment remeasured. ",
+      "installedPaths": [
+        "static/types/6s/Ella-Beatty.webp",
+        "static/types/6s/s-Ella-Beatty.webp"
+      ],
+      "intendedInstallPaths": [
+        "static/types/6s/Ella-Beatty.webp",
+        "static/types/6s/s-Ella-Beatty.webp"
+      ],
+      "editorialStatus": {
+        "grade": 8.2,
+        "ready": false,
+        "remainingBlockers": [
+          "editorial_v3:stale_or_invalid_release"
+        ],
+        "verifiedAt": "2026-10-22T13:36:52.236Z"
+      },
+      "installedAssets": {
+        "full": {
+          "path": "static/types/6s/Ella-Beatty.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 49208,
+          "sha256": "2173cb39c5733a5ecb78304b214c5b279cf2ebb3dad6056622674d7d7489165e",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "static/types/6s/s-Ella-Beatty.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 11862,
+          "sha256": "f1017645549be03f1f2903cbed11c99829a1c26bafaff30bb9735f17f961302e",
+          "alpha": true
+        }
+      },
+      "installedAt": "2026-10-22T15:24:21.424Z"
+    },
+    {
+      "slug": "grace-reiter",
+      "name": "Grace Reiter",
+      "filename": "Grace-Reiter",
+      "type": "6",
+      "status": "user_approved_installed",
+      "source": {
+        "page": "https://commons.wikimedia.org/wiki/File:Grace_Reiter.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Grace_Reiter.jpg",
+        "photographerOrCredit": "Tessa Bury",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "rights": "Creative Commons Attribution 4.0",
+        "localOriginal": "output/portrait-sources/2026-10-22-rest/grace-reiter.jpg",
+        "width": 3901,
+        "height": 4876,
+        "sha256": "353a0ab78f5293201fdfc807f54b1b7a2d69d256e145d469cb32e5d2798bd73e",
+        "attribution": "Grace Reiter — Tessa Bury, CC BY 4.0. Adapted by 9takes: crop, background removal, tilt correction, grayscale, contrast, placement and purple eye overlay. "
+      },
+      "transformations": {
+        "sourceCrop": {
+          "left": 0,
+          "top": 0,
+          "width": 3901,
+          "height": 4876
+        },
+        "segmentation": {
+          "tool": "built-in image_gen alpha refined against local Apple Vision",
+          "prompt": "Use case: background-extraction\nEdit target: the attached real photograph. Remove ONLY the background and background signage, leaving the entire photographed person including full hair, shoulders, torso and clothing. Preserve the original portrait canvas and aspect ratio, exact subject position, scale, pose, expression, face, hair, original lighting and photographic detail. No beautification, no newly generated facial/body/clothing material, no rotation, no reframing, no cropping and no repositioning. Real alpha transparency around the subject, with fine natural antialiased hair edges; no opaque or checkerboard backdrop. Do not add the purple eye mark or change the colors. This is solely a clean background removal.",
+          "script": "output/portrait-processed/2026-10-22-rest/restore-and-align.mjs",
+          "validation": {
+            "sourceRgbPreserved": true,
+            "generatedRgbUsed": false,
+            "generatedAlphaUsed": true,
+            "refinedPixels": 688770,
+            "transparentPixels": 537361,
+            "maskSimilarityTransform": {
+              "scale": 0.9148765915043243,
+              "angle": 0.00027420170344450226
+            },
+            "rotationClockwiseDegrees": 1.2501667949836182
+          }
+        },
+        "composition": {
+          "input": "output/portrait-processed/2026-10-22-rest/grace-reiter-composition-cutout.png",
+          "height": 1180,
+          "anchorX": 574.7060407848089,
+          "anchorY": 607.4563144540157,
+          "erode": 2,
+          "contrast": 1.04,
+          "brightness": 1,
+          "offsetX": 0,
+          "targetX": 540,
+          "targetY": 490
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png",
+        "outerClothingFraming": {
+          "name": "Grace-Reiter",
+          "side": "left",
+          "startY": 850,
+          "endY": 975,
+          "boundaryX": 360,
+          "shift": 130,
+          "method": "Local horizontal resampling of photographed outer clothing only; no generated face, body or clothing pixels."
+        }
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-22-rest/Grace-Reiter-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "f671c38105f89c9c4f5e8f05fde9d5affc5a85e25403561ca9fcc0df39b6dfba"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-22-review/rest/types/6s/Grace-Reiter.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 88054,
+          "sha256": "c3fa29aae0d6afa9768659bc9940df0e6a6f48124606f29ff6ba9e98ab216f86",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-22-review/rest/types/6s/s-Grace-Reiter.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 25786,
+          "sha256": "a6ad72a84c5db137d2977a41a7b229d1c55a68849ee98bcc99fe4c5415e7c09d",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "opaqueTemplatePixelsPreserved": 22457,
+        "portraitCheck": {
+          "ok": true,
+          "type": 6,
+          "slug": "Grace-Reiter",
+          "full": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-10-22-review/rest/types/6s/Grace-Reiter.webp",
+            "bytes": 88054,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-10-22-review/rest/types/6s/s-Grace-Reiter.webp",
+            "bytes": 25786,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=6&portraitSlug=Grace-Reiter#portrait-preflight"
+        },
+        "visualReview": "Revision 04 checked at full size and in dark and light themes; face alignment, clean hair edges and continuous shoulder framing reviewed."
+      },
+      "installedPaths": [
+        "static/types/6s/Grace-Reiter.webp",
+        "static/types/6s/s-Grace-Reiter.webp"
+      ],
+      "intendedInstallPaths": [
+        "static/types/6s/Grace-Reiter.webp",
+        "static/types/6s/s-Grace-Reiter.webp"
+      ],
+      "editorialStatus": {
+        "grade": 8.2,
+        "ready": false,
+        "remainingBlockers": [
+          "content_quality_below_8.5:8.2",
+          "editorial_v3:missing_or_invalid_release:ENOENT: no such file or directory, open '/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-16_06-00-03-204_grace-reiter/release.json'"
+        ],
+        "verifiedAt": "2026-10-22T13:36:52.236Z"
+      },
+      "revision": {
+        "id": "04",
+        "description": "Reduced portrait scale by 13.6% while keeping her eyes aligned with the unchanged purple mark.",
+        "previousAssets": {
+          "full": {
+            "path": "output/portrait-preflight/2026-10-22-review/rest/types/6s/Grace-Reiter.webp",
+            "width": 1080,
+            "height": 1080,
+            "bytes": 105560,
+            "sha256": "0ad57def54aaa0f5f43872d5e5dc8d2e8375f4b0f65167c6a599f1453ba47f4b",
+            "alpha": true
+          },
+          "thumbnail": {
+            "path": "output/portrait-preflight/2026-10-22-review/rest/types/6s/s-Grace-Reiter.webp",
+            "width": 480,
+            "height": 480,
+            "bytes": 30826,
+            "sha256": "8312122cf757a8ad4188da5f68474bed1f729bc20762555c6137226fd4e9ef88",
+            "alpha": true
+          }
+        }
+      },
+      "qualityNote": "Reduced portrait scale by 13.6% while keeping her eyes aligned with the unchanged purple mark.",
+      "installedAssets": {
+        "full": {
+          "path": "static/types/6s/Grace-Reiter.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 88054,
+          "sha256": "c3fa29aae0d6afa9768659bc9940df0e6a6f48124606f29ff6ba9e98ab216f86",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "static/types/6s/s-Grace-Reiter.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 25786,
+          "sha256": "a6ad72a84c5db137d2977a41a7b229d1c55a68849ee98bcc99fe4c5415e7c09d",
+          "alpha": true
+        }
+      },
+      "installedAt": "2026-10-22T15:24:21.424Z"
+    },
+    {
+      "slug": "inde-navarrette",
+      "name": "Inde Navarrette",
+      "filename": "Inde-Navarrette",
+      "type": "6",
+      "status": "user_approved_installed",
+      "source": {
+        "page": "https://commons.wikimedia.org/wiki/File:Inde_Navarrette_at_the_2025_Toronto_International_Film_Festival_02.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/Inde_Navarrette_at_the_2025_Toronto_International_Film_Festival_02.jpg",
+        "photographerOrCredit": "Kevin Payravi / WikiPortraits",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "rights": "Creative Commons Attribution-Share Alike 4.0",
+        "localOriginal": "output/portrait-sources/2026-10-22-rest/inde-navarrette.jpg",
+        "width": 6000,
+        "height": 4000,
+        "sha256": "37feec297005af86fd43e732644dd5a464d06fea5524a3af08ecbe3b67e82e5d",
+        "attribution": "Inde Navarrette — Kevin Payravi / WikiPortraits, CC BY-SA 4.0. Adapted by 9takes: crop, background removal, tilt correction, grayscale, contrast, placement and purple eye overlay. Adapted portrait: CC BY-SA 4.0."
+      },
+      "transformations": {
+        "sourceCrop": {
+          "left": 1700,
+          "top": 0,
+          "width": 4000,
+          "height": 4000
+        },
+        "segmentation": {
+          "tool": "built-in image_gen alpha refined against local Apple Vision",
+          "prompt": "Use case: background-extraction\nEdit target: the attached real photograph. Remove ONLY the background and background signage, leaving the entire photographed person including full hair, shoulders, torso and clothing. Preserve the square canvas, exact subject position, scale, pose, expression, face, hair, original lighting and photographic detail. No beautification, no newly generated facial/body/clothing material, no rotation, no reframing, no cropping and no repositioning. Real alpha transparency around the subject, with fine natural antialiased hair edges; no opaque or checkerboard backdrop. Do not add the purple eye mark or change the colors. This is solely a clean background removal.",
+          "script": "output/portrait-processed/2026-10-22-rest/restore-and-align.mjs",
+          "validation": {
+            "sourceRgbPreserved": true,
+            "generatedRgbUsed": false,
+            "generatedAlphaUsed": true,
+            "refinedPixels": 598899,
+            "transparentPixels": 1565285,
+            "maskSimilarityTransform": {
+              "scale": 0.920112527473839,
+              "angle": -0.012501794233513793
+            },
+            "rotationClockwiseDegrees": 0.26819607381654037
+          }
+        },
+        "composition": {
+          "input": "output/portrait-processed/2026-10-22-rest/inde-navarrette-composition-cutout.png",
+          "height": 1187,
+          "anchorX": 577.715214410588,
+          "anchorY": 501.605813375175,
+          "erode": 2,
+          "contrast": 1.04,
+          "brightness": 1,
+          "offsetX": -24,
+          "targetX": 540,
+          "targetY": 490
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png"
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-22-rest/Inde-Navarrette-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "ea0b56187ec155731b1b986547c5245be0bbf77ea14c465ef137a92db7cb320b"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-22-review/rest/types/6s/Inde-Navarrette.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 67268,
+          "sha256": "6959db5991e19ef722cc82228a8c9953558a5eff97b16522be5878017862717d",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-22-review/rest/types/6s/s-Inde-Navarrette.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 18180,
+          "sha256": "f7a4e3bff90a59e7034f5cd77b2dfa6d04430df6bb0e1153def40f7487d6eb99",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "opaqueTemplatePixelsPreserved": 22457,
+        "portraitCheck": {
+          "ok": true,
+          "type": 6,
+          "slug": "Inde-Navarrette",
+          "full": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-10-22-review/rest/types/6s/Inde-Navarrette.webp",
+            "bytes": 67268,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-10-22-review/rest/types/6s/s-Inde-Navarrette.webp",
+            "bytes": 18180,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=6&portraitSlug=Inde-Navarrette#portrait-preflight"
+        },
+        "visualReview": "Reviewed in dark and light presentation, with shoulder edges, hair and eye alignment checked."
+      },
+      "installedPaths": [
+        "static/types/6s/Inde-Navarrette.webp",
+        "static/types/6s/s-Inde-Navarrette.webp"
+      ],
+      "intendedInstallPaths": [
+        "static/types/6s/Inde-Navarrette.webp",
+        "static/types/6s/s-Inde-Navarrette.webp"
+      ],
+      "editorialStatus": {
+        "grade": 8.1,
+        "ready": false,
+        "remainingBlockers": [
+          "content_quality_below_8.5:8.1",
+          "editorial_v3:missing_or_invalid_release:ENOENT: no such file or directory, open '/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-11_01-33-50-735_Inde-Navarrette/release.json'"
+        ],
+        "verifiedAt": "2026-10-22T13:36:52.236Z"
+      },
+      "installedAssets": {
+        "full": {
+          "path": "static/types/6s/Inde-Navarrette.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 67268,
+          "sha256": "6959db5991e19ef722cc82228a8c9953558a5eff97b16522be5878017862717d",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "static/types/6s/s-Inde-Navarrette.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 18180,
+          "sha256": "f7a4e3bff90a59e7034f5cd77b2dfa6d04430df6bb0e1153def40f7487d6eb99",
+          "alpha": true
+        }
+      },
+      "installedAt": "2026-10-22T15:24:21.424Z"
+    },
+    {
+      "slug": "maleah-joi-moon",
+      "name": "Maleah Joi Moon",
+      "filename": "Maleah-Joi-Moon",
+      "type": "6",
+      "status": "user_approved_installed",
+      "source": {
+        "page": "https://www.independent.co.uk/news/ap-moon-alicia-keys-new-york-broadway-b2662627.html",
+        "imageUrl": "https://static.independent.co.uk/2024/12/11/14/Maleah_Joi_Moon_Portrait_Session_23143.jpg",
+        "photographerOrCredit": "Associated Press; individual photographer not confirmed",
+        "localOriginal": "output/portrait-sources/2026-10-07-queue/maleah-joi-moon-ap.jpg",
+        "width": 3000,
+        "height": 2000,
+        "sha256": "6b11c3111b01cf88d7f99aeb9fecdf5333fd1c244917e8a00514a29111337838",
+        "rights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication."
+      },
+      "transformations": {
+        "segmentation": "Apple Vision foreground mask; no face reconstruction",
+        "clockwiseRotationDegrees": 19.1984097,
+        "composition": {
+          "slug": "maleah-joi-moon",
+          "name": "Maleah-Joi-Moon",
+          "input": "output/portrait-processed/2026-10-07-queue/maleah-joi-moon-crop.png",
+          "crop": "output/portrait-processed/2026-10-07-queue/maleah-joi-moon-crop.png",
+          "bottom": 2111,
+          "height": 1143,
+          "anchorX": 1734.9855851956236,
+          "anchorY": 1130.933098601098,
+          "erode": 3,
+          "contrast": 1.04,
+          "brightness": 1,
+          "offsetX": -40,
+          "targetX": 540,
+          "targetY": 490
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png"
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-22-rest/Maleah-Joi-Moon-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "4977e8e4c3337a91a0f3b5f2190064cefe71ee498324918378bac81723adbd8b"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-22-review/rest/types/6s/Maleah-Joi-Moon.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 71958,
+          "sha256": "d7c66356702c64a41bdf7c765c2e5cd049cdabb62ac996d429e9a9211ff1a961",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-22-review/rest/types/6s/s-Maleah-Joi-Moon.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 16390,
+          "sha256": "b30b60db6930e0c700301bdd6c894a8ac6e75b0103ca513fcfc75e8f9ebd8321",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "unchangedOpaqueTemplatePixels": 22457,
+        "visualReview": "Reviewed in dark and light presentation, with shoulder edges, hair and eye alignment checked.",
+        "handsInFinalCrop": false,
+        "glassesInFinalCrop": false,
+        "opaqueTemplatePixelsPreserved": 22457,
+        "portraitCheck": {
+          "ok": true,
+          "type": 6,
+          "slug": "Maleah-Joi-Moon",
+          "full": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-10-22-review/rest/types/6s/Maleah-Joi-Moon.webp",
+            "bytes": 71958,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-10-22-review/rest/types/6s/s-Maleah-Joi-Moon.webp",
+            "bytes": 16390,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=6&portraitSlug=Maleah-Joi-Moon#portrait-preflight"
+        }
+      },
+      "qualityNote": "Existing real-photo cutout reviewed and recomposed to the approved eye mark; horizontal alignment remeasured. ",
+      "installedPaths": [
+        "static/types/6s/Maleah-Joi-Moon.webp",
+        "static/types/6s/s-Maleah-Joi-Moon.webp"
+      ],
+      "intendedInstallPaths": [
+        "static/types/6s/Maleah-Joi-Moon.webp",
+        "static/types/6s/s-Maleah-Joi-Moon.webp"
+      ],
+      "editorialStatus": {
+        "grade": 8,
+        "ready": false,
+        "remainingBlockers": [
+          "content_quality_needs_review",
+          "editorial_v3:missing_or_invalid_release:ENOENT: no such file or directory, open '/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-12_06-00-04-763_maleah-joi-moon/release.json'"
+        ],
+        "verifiedAt": "2026-10-22T13:36:52.236Z"
+      },
+      "installedAssets": {
+        "full": {
+          "path": "static/types/6s/Maleah-Joi-Moon.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 71958,
+          "sha256": "d7c66356702c64a41bdf7c765c2e5cd049cdabb62ac996d429e9a9211ff1a961",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "static/types/6s/s-Maleah-Joi-Moon.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 16390,
+          "sha256": "b30b60db6930e0c700301bdd6c894a8ac6e75b0103ca513fcfc75e8f9ebd8321",
+          "alpha": true
+        }
+      },
+      "installedAt": "2026-10-22T15:24:21.424Z"
+    },
+    {
+      "slug": "dylan-patel",
+      "name": "Dylan Patel",
+      "filename": "Dylan-Patel",
+      "type": "7",
+      "status": "user_approved_installed",
+      "source": {
+        "page": "https://hiddenforces.io/podcasts/us-semiconductor-export-controls-china-failing-dylan-patel/",
+        "imageUrl": "https://hiddenforces.io/wp-content/uploads/2023/09/HF-Dylan-Patel-768x768.png",
+        "photographerOrCredit": "Photographer not identified; Hidden Forces guest portrait",
+        "localOriginal": "output/portrait-sources/2026-10-07-queue/dylan-patel-source.png",
+        "width": 768,
+        "height": 768,
+        "sha256": "fb9e0c04910f8a1562a77bfbd2111f55d4bc319d697227e613503d748d8804a6",
+        "rights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication."
+      },
+      "transformations": {
+        "segmentation": "Apple Vision foreground mask; no face reconstruction",
+        "clockwiseRotationDegrees": 0,
+        "composition": {
+          "slug": "dylan-patel",
+          "name": "Dylan-Patel",
+          "input": "output/portrait-processed/2026-10-07-queue/dylan-patel-cutout.png",
+          "height": 880,
+          "anchorX": 238.16081515857263,
+          "anchorY": 274.22001332009063,
+          "erode": 3,
+          "contrast": 1.04,
+          "brightness": 1,
+          "targetX": 540,
+          "targetY": 490,
+          "offsetX": -25
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png"
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-22-rest/Dylan-Patel-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "a869b7564541efb54a5fe90e2d242dfc77390f3225aaddb45d3a47d053ea7a55"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-22-review/rest/types/7s/Dylan-Patel.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 35904,
+          "sha256": "b4214f915b4d0c5c8374e22c74ef054a31d19e5834e627e139ace5294791183c",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-22-review/rest/types/7s/s-Dylan-Patel.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 10374,
+          "sha256": "142be24199d97b95c560d2c4058ce8482a2d7d6d3f6de59b125c4d3b1b5bdb99",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "unchangedOpaqueTemplatePixels": 22457,
+        "visualReview": "Reviewed in dark and light presentation, with shoulder edges, hair and eye alignment checked.",
+        "handsInFinalCrop": false,
+        "glassesInFinalCrop": false,
+        "opaqueTemplatePixelsPreserved": 22457,
+        "portraitCheck": {
+          "ok": true,
+          "type": 7,
+          "slug": "Dylan-Patel",
+          "full": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-10-22-review/rest/types/7s/Dylan-Patel.webp",
+            "bytes": 35904,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-10-22-review/rest/types/7s/s-Dylan-Patel.webp",
+            "bytes": 10374,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=7&portraitSlug=Dylan-Patel#portrait-preflight"
+        }
+      },
+      "qualityNote": "Existing real-photo cutout reviewed and recomposed to the approved eye mark; horizontal alignment remeasured. Reduced scale and adjusted optical alignment.",
+      "installedPaths": [
+        "static/types/7s/Dylan-Patel.webp",
+        "static/types/7s/s-Dylan-Patel.webp"
+      ],
+      "intendedInstallPaths": [
+        "static/types/7s/Dylan-Patel.webp",
+        "static/types/7s/s-Dylan-Patel.webp"
+      ],
+      "editorialStatus": {
+        "grade": 7.9,
+        "ready": false,
+        "remainingBlockers": [
+          "content_quality_below_8.5:7.9",
+          "editorial_v3:missing_or_invalid_release:ENOENT: no such file or directory, open '/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-17_06-00-03-505_dylan-patel/release.json'"
+        ],
+        "verifiedAt": "2026-10-22T13:36:52.236Z"
+      },
+      "installedAssets": {
+        "full": {
+          "path": "static/types/7s/Dylan-Patel.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 35904,
+          "sha256": "b4214f915b4d0c5c8374e22c74ef054a31d19e5834e627e139ace5294791183c",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "static/types/7s/s-Dylan-Patel.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 10374,
+          "sha256": "142be24199d97b95c560d2c4058ce8482a2d7d6d3f6de59b125c4d3b1b5bdb99",
+          "alpha": true
+        }
+      },
+      "installedAt": "2026-10-22T15:24:21.424Z"
+    },
+    {
+      "slug": "shyam-sankar",
+      "name": "Shyam Sankar",
+      "filename": "Shyam-Sankar",
+      "type": "6",
+      "status": "user_approved_installed",
+      "source": {
+        "page": "https://www.hudson.org/events/mobilize-how-reboot-american-industrial-base-stop-world-war-iii",
+        "imageUrl": "https://www.hudson.org/sites/default/files/2026-02/ShyamPic.jpg",
+        "photographerOrCredit": "Photographer not identified; Hudson Institute event portrait",
+        "localOriginal": "output/portrait-sources/2026-10-07-queue/shyam-sankar-hudson.jpg",
+        "width": 4000,
+        "height": 2667,
+        "sha256": "28c6757fee77838f9efdf7f5156e12e2ee60253f5d6a8dd8868cda0e163177d3",
+        "rights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication."
+      },
+      "transformations": {
+        "segmentation": "Apple Vision foreground mask; no face reconstruction",
+        "clockwiseRotationDegrees": 0,
+        "composition": {
+          "slug": "shyam-sankar",
+          "name": "Shyam-Sankar",
+          "input": "output/portrait-processed/2026-10-07-queue/shyam-sankar-hudson-cutout.png",
+          "height": 1150,
+          "anchorX": 2058.817128290765,
+          "anchorY": 923.889659323869,
+          "erode": 3,
+          "contrast": 1.04,
+          "brightness": 1,
+          "targetX": 540,
+          "targetY": 490
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png"
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-22-rest/Shyam-Sankar-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "55be56e086cc29b797378e51eed51e1f0e07ec73990d69b9f4c21aa00b766942"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-22-review/rest/types/6s/Shyam-Sankar.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 70908,
+          "sha256": "4850d83758305d776ad2e454e005a24837beeaf709601b2cf76cf49981cfe378",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-22-review/rest/types/6s/s-Shyam-Sankar.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 13034,
+          "sha256": "4c3051661694dc40305ab57a5b06abbb5f3b5dca22b107ad9bc87a056cf5d36f",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "unchangedOpaqueTemplatePixels": 22457,
+        "visualReview": "Reviewed in dark and light presentation, with shoulder edges, hair and eye alignment checked.",
+        "handsInFinalCrop": false,
+        "glassesInFinalCrop": false,
+        "opaqueTemplatePixelsPreserved": 22457,
+        "portraitCheck": {
+          "ok": true,
+          "type": 6,
+          "slug": "Shyam-Sankar",
+          "full": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-10-22-review/rest/types/6s/Shyam-Sankar.webp",
+            "bytes": 70908,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-10-22-review/rest/types/6s/s-Shyam-Sankar.webp",
+            "bytes": 13034,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=6&portraitSlug=Shyam-Sankar#portrait-preflight"
+        }
+      },
+      "qualityNote": "Existing real-photo cutout reviewed and recomposed to the approved eye mark; horizontal alignment remeasured. ",
+      "installedPaths": [
+        "static/types/6s/Shyam-Sankar.webp",
+        "static/types/6s/s-Shyam-Sankar.webp"
+      ],
+      "intendedInstallPaths": [
+        "static/types/6s/Shyam-Sankar.webp",
+        "static/types/6s/s-Shyam-Sankar.webp"
+      ],
+      "editorialStatus": {
+        "grade": 7.9,
+        "ready": false,
+        "remainingBlockers": [
+          "content_quality_below_8.5:7.9",
+          "editorial_v3:missing_or_invalid_release:ENOENT: no such file or directory, open '/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-13_06-00-02-766_shyam-sankar/release.json'"
+        ],
+        "verifiedAt": "2026-10-22T13:36:52.236Z"
+      },
+      "installedAssets": {
+        "full": {
+          "path": "static/types/6s/Shyam-Sankar.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 70908,
+          "sha256": "4850d83758305d776ad2e454e005a24837beeaf709601b2cf76cf49981cfe378",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "static/types/6s/s-Shyam-Sankar.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 13034,
+          "sha256": "4c3051661694dc40305ab57a5b06abbb5f3b5dca22b107ad9bc87a056cf5d36f",
+          "alpha": true
+        }
+      },
+      "installedAt": "2026-10-22T15:24:21.424Z"
+    },
+    {
+      "slug": "tiger-woods",
+      "name": "Tiger Woods",
+      "filename": "Tiger-Woods",
+      "type": "3",
+      "status": "user_approved_installed",
+      "source": {
+        "page": "https://commons.wikimedia.org/wiki/File:President_Donald_Trump_hosts_a_reception_honoring_Black_History_Month_(54341713089).jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/President_Donald_Trump_hosts_a_reception_honoring_Black_History_Month_%2854341713089%29.jpg",
+        "photographerOrCredit": "Molly Riley / The White House",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "rights": "Public domain",
+        "localOriginal": "output/portrait-sources/2026-10-22-rest/tiger-woods.jpg",
+        "width": 3000,
+        "height": 2000,
+        "sha256": "7c82d86142237c80d6c148d6992d60efed1002ea7f4fe2d80ff016c0e9586a39",
+        "attribution": "Tiger Woods — Molly Riley / The White House, Public domain. Adapted by 9takes: crop, background removal, tilt correction, grayscale, contrast, placement and purple eye overlay. "
+      },
+      "transformations": {
+        "sourceCrop": {
+          "left": 700,
+          "top": 0,
+          "width": 1500,
+          "height": 1500
+        },
+        "segmentation": {
+          "tool": "built-in image_gen alpha refined against local Apple Vision",
+          "prompt": "Use case: background-extraction\nEdit target: the attached real photograph. Remove ONLY the background and background signage, leaving the entire photographed person including full hair, shoulders, torso and clothing. Preserve the square canvas, exact subject position, scale, pose, expression, face, hair, original lighting and photographic detail. No beautification, no newly generated facial/body/clothing material, no rotation, no reframing, no cropping and no repositioning. Real alpha transparency around the subject, with fine natural antialiased hair edges; no opaque or checkerboard backdrop. Do not add the purple eye mark or change the colors. This is solely a clean background removal.",
+          "script": "output/portrait-processed/2026-10-22-rest/restore-and-align.mjs",
+          "validation": {
+            "sourceRgbPreserved": true,
+            "generatedRgbUsed": false,
+            "generatedAlphaUsed": true,
+            "refinedPixels": 674774,
+            "transparentPixels": 1316379,
+            "maskSimilarityTransform": {
+              "scale": 0.8727211399957358,
+              "angle": -0.002170218291810272
+            },
+            "rotationClockwiseDegrees": -8.447067325556478
+          }
+        },
+        "composition": {
+          "input": "output/portrait-processed/2026-10-22-rest/tiger-woods-composition-cutout.png",
+          "height": 1101,
+          "anchorX": 830.0642968170732,
+          "anchorY": 431.2707534814855,
+          "erode": 2,
+          "contrast": 1.04,
+          "brightness": 1,
+          "offsetX": 56,
+          "targetX": 540,
+          "targetY": 490
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png"
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-22-rest/Tiger-Woods-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "1a114c8757458ad4df4893f95886a27e25dfdc0e17601c4ff553cb27ad5c1220"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-22-review/rest/types/3s/Tiger-Woods.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 59464,
+          "sha256": "a2ab3317892b4f02a633b5217272dbb20469269a2e2aabdd20c1f5eb8c1caafd",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-22-review/rest/types/3s/s-Tiger-Woods.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 16734,
+          "sha256": "29c653f640cdd3f63c98f2e04dbb4ba2d88d053ea241fef37cb13eb307b0da7e",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "opaqueTemplatePixelsPreserved": 22457,
+        "portraitCheck": {
+          "ok": true,
+          "type": 3,
+          "slug": "Tiger-Woods",
+          "full": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-10-22-review/rest/types/3s/Tiger-Woods.webp",
+            "bytes": 59464,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-10-22-review/rest/types/3s/s-Tiger-Woods.webp",
+            "bytes": 16734,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=3&portraitSlug=Tiger-Woods#portrait-preflight"
+        },
+        "visualReview": "Reviewed in dark and light presentation, with shoulder edges, hair and eye alignment checked."
+      },
+      "installedPaths": [
+        "static/types/3s/Tiger-Woods.webp",
+        "static/types/3s/s-Tiger-Woods.webp"
+      ],
+      "intendedInstallPaths": [
+        "static/types/3s/Tiger-Woods.webp",
+        "static/types/3s/s-Tiger-Woods.webp"
+      ],
+      "editorialStatus": {
+        "grade": null,
+        "ready": false,
+        "remainingBlockers": [
+          "missing_content_quality",
+          "editorial_v3:missing_or_invalid_release:ENOENT: no such file or directory, open '/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-04_22-22-14-073_Tiger-Woods/release.json'"
+        ],
+        "verifiedAt": "2026-10-22T13:36:52.236Z"
+      },
+      "installedAssets": {
+        "full": {
+          "path": "static/types/3s/Tiger-Woods.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 59464,
+          "sha256": "a2ab3317892b4f02a633b5217272dbb20469269a2e2aabdd20c1f5eb8c1caafd",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "static/types/3s/s-Tiger-Woods.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 16734,
+          "sha256": "29c653f640cdd3f63c98f2e04dbb4ba2d88d053ea241fef37cb13eb307b0da7e",
+          "alpha": true
+        }
+      },
+      "installedAt": "2026-10-22T15:24:21.424Z"
+    },
+    {
+      "slug": "christopher-abbott",
+      "name": "Christopher Abbott",
+      "filename": "Christopher-Abbott",
+      "type": "6",
+      "status": "user_approved_installed",
+      "source": {
+        "page": "https://commons.wikimedia.org/wiki/File:Christopher_Abbott_at_the_2024_Toronto_International_Film_Festival.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Christopher_Abbott_at_the_2024_Toronto_International_Film_Festival.jpg",
+        "photographerOrCredit": "Kevin Payravi / WikiPortraits",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "rights": "Creative Commons Attribution-Share Alike 4.0",
+        "localOriginal": "output/portrait-sources/2026-10-22-rest/christopher-abbott.jpg",
+        "width": 6720,
+        "height": 4481,
+        "sha256": "c60114decc5e3dc3e64023adac61d4c9d26bdfd71ca8d982b6816979f338f4d0",
+        "attribution": "Christopher Abbott — Kevin Payravi / WikiPortraits, CC BY-SA 4.0. Adapted by 9takes: crop, background removal, tilt correction, grayscale, contrast, placement and purple eye overlay. Adapted portrait: CC BY-SA 4.0."
+      },
+      "transformations": {
+        "sourceCrop": {
+          "left": 1200,
+          "top": 0,
+          "width": 3000,
+          "height": 3000
+        },
+        "segmentation": {
+          "tool": "built-in image_gen alpha refined against local Apple Vision",
+          "prompt": "Use case: background-extraction\nEdit target: the attached real photograph. Remove ONLY the background and background signage, leaving the entire photographed person including full hair, shoulders, torso and clothing. Preserve the square canvas, exact subject position, scale, pose, expression, face, hair, original lighting and photographic detail. No beautification, no newly generated facial/body/clothing material, no rotation, no reframing, no cropping and no repositioning. Real alpha transparency around the subject, with fine natural antialiased hair edges; no opaque or checkerboard backdrop. Do not add the purple eye mark or change the colors. This is solely a clean background removal.",
+          "script": "output/portrait-processed/2026-10-22-rest/restore-and-align.mjs",
+          "validation": {
+            "sourceRgbPreserved": true,
+            "generatedRgbUsed": false,
+            "generatedAlphaUsed": true,
+            "refinedPixels": 724096,
+            "transparentPixels": 1305107,
+            "maskSimilarityTransform": {
+              "scale": 0.8069295794716247,
+              "angle": -0.008274295834235154
+            },
+            "rotationClockwiseDegrees": -5.386439316695503
+          }
+        },
+        "composition": {
+          "input": "output/portrait-processed/2026-10-22-rest/christopher-abbott-composition-cutout.png",
+          "height": 1168,
+          "anchorX": 810.4375598046161,
+          "anchorY": 465.3136741407691,
+          "erode": 2,
+          "contrast": 1.04,
+          "brightness": 1,
+          "offsetX": 0,
+          "targetX": 540,
+          "targetY": 490
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png"
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-22-rest/Christopher-Abbott-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "39e3ecbf0c063264cbb2267ffed032f400101961b9a0f78b3999b3909f67a9a7"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-22-review/rest/types/6s/Christopher-Abbott.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 74496,
+          "sha256": "35a43079288ae667676800070faeb1787f8129309e27999c3a99359ba79d8a7b",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-22-review/rest/types/6s/s-Christopher-Abbott.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 17946,
+          "sha256": "c9c005b3de06b15328557880821fa6d87068c4ea457f009c332cd1ed69b66310",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "opaqueTemplatePixelsPreserved": 22457,
+        "portraitCheck": {
+          "ok": true,
+          "type": 6,
+          "slug": "Christopher-Abbott",
+          "full": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-10-22-review/rest/types/6s/Christopher-Abbott.webp",
+            "bytes": 74496,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-10-22-review/rest/types/6s/s-Christopher-Abbott.webp",
+            "bytes": 17946,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=6&portraitSlug=Christopher-Abbott#portrait-preflight"
+        },
+        "visualReview": "Reviewed in dark and light presentation, with shoulder edges, hair and eye alignment checked."
+      },
+      "installedPaths": [
+        "static/types/6s/Christopher-Abbott.webp",
+        "static/types/6s/s-Christopher-Abbott.webp"
+      ],
+      "intendedInstallPaths": [
+        "static/types/6s/Christopher-Abbott.webp",
+        "static/types/6s/s-Christopher-Abbott.webp"
+      ],
+      "editorialStatus": {
+        "grade": null,
+        "ready": false,
+        "remainingBlockers": [
+          "missing_content_quality",
+          "editorial_v3:missing_or_invalid_release:ENOENT: no such file or directory, open '/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-19_06-00-06-598_christopher-abbott/release.json'"
+        ],
+        "verifiedAt": "2026-10-22T13:36:52.236Z"
+      },
+      "installedAssets": {
+        "full": {
+          "path": "static/types/6s/Christopher-Abbott.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 74496,
+          "sha256": "35a43079288ae667676800070faeb1787f8129309e27999c3a99359ba79d8a7b",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "static/types/6s/s-Christopher-Abbott.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 17946,
+          "sha256": "c9c005b3de06b15328557880821fa6d87068c4ea457f009c332cd1ed69b66310",
+          "alpha": true
+        }
+      },
+      "installedAt": "2026-10-22T15:24:21.424Z"
+    }
+  ],
+  "review": {
+    "url": "http://127.0.0.1:8917/",
+    "html": "output/portrait-preflight/2026-10-22-review/rest/index.html",
+    "download": "output/portrait-preflight/2026-10-22-complete-portrait-batch.zip",
+    "darkScreenshot": "output/portrait-preflight/2026-10-22-review/rest/overview-dark.png",
+    "lightScreenshot": "output/portrait-preflight/2026-10-22-review/rest/overview-light.png",
+    "processingPrompts": "output/portrait-preflight/2026-10-22-review/rest/background-removal-prompts.json",
+    "visualReview": "Reviewed all 17 additional portraits in dark and light themes; corrected source-edge crops and eye-mark positioning. Approved Ilya and Josh portraits preserved.",
+    "latestRevision": {
+      "id": "04",
+      "url": "http://127.0.0.1:8917/rest/revision-04.html",
+      "screenshot": "output/portrait-preflight/2026-10-22-review/rest/revision-04/preview.png",
+      "changes": {
+        "paapa-essiedu": "Shifted 36px left to center his face behind the purple eye mark.",
+        "codie-sanchez": "Removed background remnants around her hair and softened harsh rim-light highlights; preserved the original face.",
+        "grace-reiter": "Reduced portrait scale by 13.6% while keeping her eyes aligned with the unchanged purple mark."
+      }
+    }
+  },
+  "installedAt": "2026-10-22T15:24:21.424Z"
+}

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T18:14:08.271Z",
+  "generated_at": "2026-10-22T15:28:54.502Z",
   "totals": {
     "published": 453,
     "unpublished_drafts": 96
@@ -665,8 +665,8 @@
   },
   "freshness": {
     "updated_last_30_days": 3,
-    "updated_last_90_days": 64,
-    "share_updated_last_90_days": 0.1413,
+    "updated_last_90_days": 63,
+    "share_updated_last_90_days": 0.1391,
     "missing_lastmod": 0
   },
   "min_domain_size": 10,

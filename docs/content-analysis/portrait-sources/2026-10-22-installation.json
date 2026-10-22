@@ -1,0 +1,979 @@
+{
+  "installedAt": "2026-10-22T15:24:21.424Z",
+  "approval": "User approved all portraits and requested proper versions installed in the project.",
+  "portraitCount": 19,
+  "fileCount": 38,
+  "addedBytes": 1563522,
+  "files": [
+    {
+      "person": "ilya-sutskever",
+      "variant": "full",
+      "source": "output/portrait-preflight/2026-10-22-review/rest/types/5s/Ilya-Sutskever.webp",
+      "path": "static/types/5s/Ilya-Sutskever.webp",
+      "sha256": "cee8861a653e702c3f7c1981d1e3557dfda9489df4421457211c3b3fda3b68c5",
+      "bytes": 39994,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "person": "ilya-sutskever",
+      "variant": "thumbnail",
+      "source": "output/portrait-preflight/2026-10-22-review/rest/types/5s/s-Ilya-Sutskever.webp",
+      "path": "static/types/5s/s-Ilya-Sutskever.webp",
+      "sha256": "5411bbbb966c6b52f1bdc4f09183e40afad4f2cbe72777cd884107d9613abaf6",
+      "bytes": 12544,
+      "width": 480,
+      "height": 480
+    },
+    {
+      "person": "josh-hartnett",
+      "variant": "full",
+      "source": "output/portrait-preflight/2026-10-22-review/rest/types/6s/Josh-Hartnett.webp",
+      "path": "static/types/6s/Josh-Hartnett.webp",
+      "sha256": "9663c4533121ea8cb2ba7aabbe67eb28b9dea3f1ce7082b5dfbebefa8773772f",
+      "bytes": 117378,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "person": "josh-hartnett",
+      "variant": "thumbnail",
+      "source": "output/portrait-preflight/2026-10-22-review/rest/types/6s/s-Josh-Hartnett.webp",
+      "path": "static/types/6s/s-Josh-Hartnett.webp",
+      "sha256": "f9ff7b0b2f635ba4727b6600cb61e86221dc3ff7f3a27942b564c9b9880817b8",
+      "bytes": 19450,
+      "width": 480,
+      "height": 480
+    },
+    {
+      "person": "sombr",
+      "variant": "full",
+      "source": "output/portrait-preflight/2026-10-22-review/rest/types/3s/Sombr.webp",
+      "path": "static/types/3s/Sombr.webp",
+      "sha256": "008679a1ba2322e98a9e7f5679178c7b4a939c0d1a3d44fff67aa9e21afe3230",
+      "bytes": 40594,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "person": "sombr",
+      "variant": "thumbnail",
+      "source": "output/portrait-preflight/2026-10-22-review/rest/types/3s/s-Sombr.webp",
+      "path": "static/types/3s/s-Sombr.webp",
+      "sha256": "09e30d5bb6ae0bd6cf5ab1af0eb0e3e229e1c912f3cd502b3589de4c5bd0884b",
+      "bytes": 13810,
+      "width": 480,
+      "height": 480
+    },
+    {
+      "person": "cara-delevingne",
+      "variant": "full",
+      "source": "output/portrait-preflight/2026-10-22-review/rest/types/4s/Cara-Delevingne.webp",
+      "path": "static/types/4s/Cara-Delevingne.webp",
+      "sha256": "8233438cd4289168e0d3a8be385eb58a27e7943d2d778cfebbe873de089245d2",
+      "bytes": 87526,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "person": "cara-delevingne",
+      "variant": "thumbnail",
+      "source": "output/portrait-preflight/2026-10-22-review/rest/types/4s/s-Cara-Delevingne.webp",
+      "path": "static/types/4s/s-Cara-Delevingne.webp",
+      "sha256": "d4d305a9259d862aaa3f095da179a06e76b49eeec37e54fcc1b3e4f98ff72912",
+      "bytes": 23892,
+      "width": 480,
+      "height": 480
+    },
+    {
+      "person": "laura-loomer",
+      "variant": "full",
+      "source": "output/portrait-preflight/2026-10-22-review/rest/types/6s/Laura-Loomer.webp",
+      "path": "static/types/6s/Laura-Loomer.webp",
+      "sha256": "5de4ad8b2e218ceafa2dfe720efc1910cf86fe98d9c6c0a3f213fdc82de87dcf",
+      "bytes": 56178,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "person": "laura-loomer",
+      "variant": "thumbnail",
+      "source": "output/portrait-preflight/2026-10-22-review/rest/types/6s/s-Laura-Loomer.webp",
+      "path": "static/types/6s/s-Laura-Loomer.webp",
+      "sha256": "c1561f4e472c8c6493e85efe04c704be92ad32b44fba978cc2fdb673484e2d3f",
+      "bytes": 16776,
+      "width": 480,
+      "height": 480
+    },
+    {
+      "person": "paapa-essiedu",
+      "variant": "full",
+      "source": "output/portrait-preflight/2026-10-22-review/rest/types/6s/Paapa-Essiedu.webp",
+      "path": "static/types/6s/Paapa-Essiedu.webp",
+      "sha256": "3988dd63a8d4cab8e23811c0f8e66145df273362800e640aaeac541576f47903",
+      "bytes": 89292,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "person": "paapa-essiedu",
+      "variant": "thumbnail",
+      "source": "output/portrait-preflight/2026-10-22-review/rest/types/6s/s-Paapa-Essiedu.webp",
+      "path": "static/types/6s/s-Paapa-Essiedu.webp",
+      "sha256": "06c2fe2efeb034d737e8c19a792e9eb6945315b4aea0eea1c7eabe58997a5894",
+      "bytes": 19092,
+      "width": 480,
+      "height": 480
+    },
+    {
+      "person": "mike-faist",
+      "variant": "full",
+      "source": "output/portrait-preflight/2026-10-22-review/rest/types/4s/Mike-Faist.webp",
+      "path": "static/types/4s/Mike-Faist.webp",
+      "sha256": "6770b459bfa3b7e4967b275721bc4d5f976eba2c09a89b2897cbe5a53a2dbf68",
+      "bytes": 53066,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "person": "mike-faist",
+      "variant": "thumbnail",
+      "source": "output/portrait-preflight/2026-10-22-review/rest/types/4s/s-Mike-Faist.webp",
+      "path": "static/types/4s/s-Mike-Faist.webp",
+      "sha256": "b8e84d109cb811363f9f3eb447c044da7928952ba6d18d287b4c720af75ac90a",
+      "bytes": 13906,
+      "width": 480,
+      "height": 480
+    },
+    {
+      "person": "stella-lefty",
+      "variant": "full",
+      "source": "output/portrait-preflight/2026-10-22-review/rest/types/9s/Stella-Lefty.webp",
+      "path": "static/types/9s/Stella-Lefty.webp",
+      "sha256": "c24b6c91d6baded51e2d4e328cdd6c12c1786c93a649c4cacdceee49084f9a0a",
+      "bytes": 54840,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "person": "stella-lefty",
+      "variant": "thumbnail",
+      "source": "output/portrait-preflight/2026-10-22-review/rest/types/9s/s-Stella-Lefty.webp",
+      "path": "static/types/9s/s-Stella-Lefty.webp",
+      "sha256": "32ae76eb02c6444e3b9a71ab854f27920780c3749034060b372e8eb4a90edf90",
+      "bytes": 15006,
+      "width": 480,
+      "height": 480
+    },
+    {
+      "person": "codie-sanchez",
+      "variant": "full",
+      "source": "output/portrait-preflight/2026-10-22-review/rest/types/3s/Codie-Sanchez.webp",
+      "path": "static/types/3s/Codie-Sanchez.webp",
+      "sha256": "113c58d7f5a9bee9a30ad7aec22d5f2a1b99157ac9b3f8674c172e9d3d0d0cac",
+      "bytes": 86086,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "person": "codie-sanchez",
+      "variant": "thumbnail",
+      "source": "output/portrait-preflight/2026-10-22-review/rest/types/3s/s-Codie-Sanchez.webp",
+      "path": "static/types/3s/s-Codie-Sanchez.webp",
+      "sha256": "4cbc68ed24e7ecfc891e0cb2518c5aebfea2bf684fc840d64f3517b6dbc6ca9f",
+      "bytes": 23646,
+      "width": 480,
+      "height": 480
+    },
+    {
+      "person": "sienna-spiro",
+      "variant": "full",
+      "source": "output/portrait-preflight/2026-10-22-review/rest/types/2s/Sienna-Spiro.webp",
+      "path": "static/types/2s/Sienna-Spiro.webp",
+      "sha256": "f281c0604cc7a1e13cb8a8775bfcab5941e45f5d2e68788d14bf3879b32f195b",
+      "bytes": 40360,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "person": "sienna-spiro",
+      "variant": "thumbnail",
+      "source": "output/portrait-preflight/2026-10-22-review/rest/types/2s/s-Sienna-Spiro.webp",
+      "path": "static/types/2s/s-Sienna-Spiro.webp",
+      "sha256": "616de4174b1b4e7866a1ce1ec5ad74bf033537c4653d452496547942ededcae9",
+      "bytes": 12124,
+      "width": 480,
+      "height": 480
+    },
+    {
+      "person": "lily-rose-depp",
+      "variant": "full",
+      "source": "output/portrait-preflight/2026-10-22-review/rest/types/6s/Lily-Rose-Depp.webp",
+      "path": "static/types/6s/Lily-Rose-Depp.webp",
+      "sha256": "e4a51cfe23e9ac809cfbeafb274c5aa3baabfe5c1f463d1c622e42029731079a",
+      "bytes": 63658,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "person": "lily-rose-depp",
+      "variant": "thumbnail",
+      "source": "output/portrait-preflight/2026-10-22-review/rest/types/6s/s-Lily-Rose-Depp.webp",
+      "path": "static/types/6s/s-Lily-Rose-Depp.webp",
+      "sha256": "a9d53f059be094d09eca402c89a141f39f28345c72b058d514ce91bb33076aab",
+      "bytes": 16738,
+      "width": 480,
+      "height": 480
+    },
+    {
+      "person": "ella-beatty",
+      "variant": "full",
+      "source": "output/portrait-preflight/2026-10-22-review/rest/types/6s/Ella-Beatty.webp",
+      "path": "static/types/6s/Ella-Beatty.webp",
+      "sha256": "2173cb39c5733a5ecb78304b214c5b279cf2ebb3dad6056622674d7d7489165e",
+      "bytes": 49208,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "person": "ella-beatty",
+      "variant": "thumbnail",
+      "source": "output/portrait-preflight/2026-10-22-review/rest/types/6s/s-Ella-Beatty.webp",
+      "path": "static/types/6s/s-Ella-Beatty.webp",
+      "sha256": "f1017645549be03f1f2903cbed11c99829a1c26bafaff30bb9735f17f961302e",
+      "bytes": 11862,
+      "width": 480,
+      "height": 480
+    },
+    {
+      "person": "grace-reiter",
+      "variant": "full",
+      "source": "output/portrait-preflight/2026-10-22-review/rest/types/6s/Grace-Reiter.webp",
+      "path": "static/types/6s/Grace-Reiter.webp",
+      "sha256": "c3fa29aae0d6afa9768659bc9940df0e6a6f48124606f29ff6ba9e98ab216f86",
+      "bytes": 88054,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "person": "grace-reiter",
+      "variant": "thumbnail",
+      "source": "output/portrait-preflight/2026-10-22-review/rest/types/6s/s-Grace-Reiter.webp",
+      "path": "static/types/6s/s-Grace-Reiter.webp",
+      "sha256": "a6ad72a84c5db137d2977a41a7b229d1c55a68849ee98bcc99fe4c5415e7c09d",
+      "bytes": 25786,
+      "width": 480,
+      "height": 480
+    },
+    {
+      "person": "inde-navarrette",
+      "variant": "full",
+      "source": "output/portrait-preflight/2026-10-22-review/rest/types/6s/Inde-Navarrette.webp",
+      "path": "static/types/6s/Inde-Navarrette.webp",
+      "sha256": "6959db5991e19ef722cc82228a8c9953558a5eff97b16522be5878017862717d",
+      "bytes": 67268,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "person": "inde-navarrette",
+      "variant": "thumbnail",
+      "source": "output/portrait-preflight/2026-10-22-review/rest/types/6s/s-Inde-Navarrette.webp",
+      "path": "static/types/6s/s-Inde-Navarrette.webp",
+      "sha256": "f7a4e3bff90a59e7034f5cd77b2dfa6d04430df6bb0e1153def40f7487d6eb99",
+      "bytes": 18180,
+      "width": 480,
+      "height": 480
+    },
+    {
+      "person": "maleah-joi-moon",
+      "variant": "full",
+      "source": "output/portrait-preflight/2026-10-22-review/rest/types/6s/Maleah-Joi-Moon.webp",
+      "path": "static/types/6s/Maleah-Joi-Moon.webp",
+      "sha256": "d7c66356702c64a41bdf7c765c2e5cd049cdabb62ac996d429e9a9211ff1a961",
+      "bytes": 71958,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "person": "maleah-joi-moon",
+      "variant": "thumbnail",
+      "source": "output/portrait-preflight/2026-10-22-review/rest/types/6s/s-Maleah-Joi-Moon.webp",
+      "path": "static/types/6s/s-Maleah-Joi-Moon.webp",
+      "sha256": "b30b60db6930e0c700301bdd6c894a8ac6e75b0103ca513fcfc75e8f9ebd8321",
+      "bytes": 16390,
+      "width": 480,
+      "height": 480
+    },
+    {
+      "person": "dylan-patel",
+      "variant": "full",
+      "source": "output/portrait-preflight/2026-10-22-review/rest/types/7s/Dylan-Patel.webp",
+      "path": "static/types/7s/Dylan-Patel.webp",
+      "sha256": "b4214f915b4d0c5c8374e22c74ef054a31d19e5834e627e139ace5294791183c",
+      "bytes": 35904,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "person": "dylan-patel",
+      "variant": "thumbnail",
+      "source": "output/portrait-preflight/2026-10-22-review/rest/types/7s/s-Dylan-Patel.webp",
+      "path": "static/types/7s/s-Dylan-Patel.webp",
+      "sha256": "142be24199d97b95c560d2c4058ce8482a2d7d6d3f6de59b125c4d3b1b5bdb99",
+      "bytes": 10374,
+      "width": 480,
+      "height": 480
+    },
+    {
+      "person": "shyam-sankar",
+      "variant": "full",
+      "source": "output/portrait-preflight/2026-10-22-review/rest/types/6s/Shyam-Sankar.webp",
+      "path": "static/types/6s/Shyam-Sankar.webp",
+      "sha256": "4850d83758305d776ad2e454e005a24837beeaf709601b2cf76cf49981cfe378",
+      "bytes": 70908,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "person": "shyam-sankar",
+      "variant": "thumbnail",
+      "source": "output/portrait-preflight/2026-10-22-review/rest/types/6s/s-Shyam-Sankar.webp",
+      "path": "static/types/6s/s-Shyam-Sankar.webp",
+      "sha256": "4c3051661694dc40305ab57a5b06abbb5f3b5dca22b107ad9bc87a056cf5d36f",
+      "bytes": 13034,
+      "width": 480,
+      "height": 480
+    },
+    {
+      "person": "tiger-woods",
+      "variant": "full",
+      "source": "output/portrait-preflight/2026-10-22-review/rest/types/3s/Tiger-Woods.webp",
+      "path": "static/types/3s/Tiger-Woods.webp",
+      "sha256": "a2ab3317892b4f02a633b5217272dbb20469269a2e2aabdd20c1f5eb8c1caafd",
+      "bytes": 59464,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "person": "tiger-woods",
+      "variant": "thumbnail",
+      "source": "output/portrait-preflight/2026-10-22-review/rest/types/3s/s-Tiger-Woods.webp",
+      "path": "static/types/3s/s-Tiger-Woods.webp",
+      "sha256": "29c653f640cdd3f63c98f2e04dbb4ba2d88d053ea241fef37cb13eb307b0da7e",
+      "bytes": 16734,
+      "width": 480,
+      "height": 480
+    },
+    {
+      "person": "christopher-abbott",
+      "variant": "full",
+      "source": "output/portrait-preflight/2026-10-22-review/rest/types/6s/Christopher-Abbott.webp",
+      "path": "static/types/6s/Christopher-Abbott.webp",
+      "sha256": "35a43079288ae667676800070faeb1787f8129309e27999c3a99359ba79d8a7b",
+      "bytes": 74496,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "person": "christopher-abbott",
+      "variant": "thumbnail",
+      "source": "output/portrait-preflight/2026-10-22-review/rest/types/6s/s-Christopher-Abbott.webp",
+      "path": "static/types/6s/s-Christopher-Abbott.webp",
+      "sha256": "c9c005b3de06b15328557880821fa6d87068c4ea457f009c332cd1ed69b66310",
+      "bytes": 17946,
+      "width": 480,
+      "height": 480
+    }
+  ],
+  "existingLibraryFilesVerifiedUnchanged": 1198,
+  "budgetsBefore": {
+    "globalCssBytes": 307200,
+    "clientOutputHardLimitBytes": 268435456,
+    "runtimeAssetBytes": 163051846,
+    "runtimeAssetsOver1MiB": 15,
+    "runtimeAssetsOver5MiB": 1,
+    "largestRuntimeAssetBytes": 5400000,
+    "portraitAssetBytes": 70855880,
+    "portraitAssetFiles": 1198,
+    "blogPngMastersInStatic": 0
+  },
+  "publishingActionPerformed": false,
+  "deploymentPerformed": false,
+  "validation": {
+    "portraitPairsPassed": 19,
+    "resolverPathsPassed": 38,
+    "unitTests": {
+      "files": 2,
+      "passed": 10,
+      "command": "pnpm exec vitest run src/lib/utils/personalityAnalysis.spec.ts src/lib/server/personalityImageRedirect.spec.ts"
+    },
+    "results": [
+      {
+        "slug": "ilya-sutskever",
+        "check": {
+          "ok": true,
+          "type": 5,
+          "slug": "Ilya-Sutskever",
+          "full": {
+            "path": "/Users/djwayne/9takes/static/types/5s/Ilya-Sutskever.webp",
+            "bytes": 39994,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/static/types/5s/s-Ilya-Sutskever.webp",
+            "bytes": 12544,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=5&portraitSlug=Ilya-Sutskever#portrait-preflight"
+        },
+        "full": "/types/5s/Ilya-Sutskever.webp",
+        "thumbnail": "/types/5s/s-Ilya-Sutskever.webp"
+      },
+      {
+        "slug": "josh-hartnett",
+        "check": {
+          "ok": true,
+          "type": 6,
+          "slug": "Josh-Hartnett",
+          "full": {
+            "path": "/Users/djwayne/9takes/static/types/6s/Josh-Hartnett.webp",
+            "bytes": 117378,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/static/types/6s/s-Josh-Hartnett.webp",
+            "bytes": 19450,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=6&portraitSlug=Josh-Hartnett#portrait-preflight"
+        },
+        "full": "/types/6s/Josh-Hartnett.webp",
+        "thumbnail": "/types/6s/s-Josh-Hartnett.webp"
+      },
+      {
+        "slug": "sombr",
+        "check": {
+          "ok": true,
+          "type": 3,
+          "slug": "Sombr",
+          "full": {
+            "path": "/Users/djwayne/9takes/static/types/3s/Sombr.webp",
+            "bytes": 40594,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/static/types/3s/s-Sombr.webp",
+            "bytes": 13810,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=3&portraitSlug=Sombr#portrait-preflight"
+        },
+        "full": "/types/3s/Sombr.webp",
+        "thumbnail": "/types/3s/s-Sombr.webp"
+      },
+      {
+        "slug": "cara-delevingne",
+        "check": {
+          "ok": true,
+          "type": 4,
+          "slug": "Cara-Delevingne",
+          "full": {
+            "path": "/Users/djwayne/9takes/static/types/4s/Cara-Delevingne.webp",
+            "bytes": 87526,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/static/types/4s/s-Cara-Delevingne.webp",
+            "bytes": 23892,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=4&portraitSlug=Cara-Delevingne#portrait-preflight"
+        },
+        "full": "/types/4s/Cara-Delevingne.webp",
+        "thumbnail": "/types/4s/s-Cara-Delevingne.webp"
+      },
+      {
+        "slug": "laura-loomer",
+        "check": {
+          "ok": true,
+          "type": 6,
+          "slug": "Laura-Loomer",
+          "full": {
+            "path": "/Users/djwayne/9takes/static/types/6s/Laura-Loomer.webp",
+            "bytes": 56178,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/static/types/6s/s-Laura-Loomer.webp",
+            "bytes": 16776,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=6&portraitSlug=Laura-Loomer#portrait-preflight"
+        },
+        "full": "/types/6s/Laura-Loomer.webp",
+        "thumbnail": "/types/6s/s-Laura-Loomer.webp"
+      },
+      {
+        "slug": "paapa-essiedu",
+        "check": {
+          "ok": true,
+          "type": 6,
+          "slug": "Paapa-Essiedu",
+          "full": {
+            "path": "/Users/djwayne/9takes/static/types/6s/Paapa-Essiedu.webp",
+            "bytes": 89292,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/static/types/6s/s-Paapa-Essiedu.webp",
+            "bytes": 19092,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=6&portraitSlug=Paapa-Essiedu#portrait-preflight"
+        },
+        "full": "/types/6s/Paapa-Essiedu.webp",
+        "thumbnail": "/types/6s/s-Paapa-Essiedu.webp"
+      },
+      {
+        "slug": "mike-faist",
+        "check": {
+          "ok": true,
+          "type": 4,
+          "slug": "Mike-Faist",
+          "full": {
+            "path": "/Users/djwayne/9takes/static/types/4s/Mike-Faist.webp",
+            "bytes": 53066,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/static/types/4s/s-Mike-Faist.webp",
+            "bytes": 13906,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=4&portraitSlug=Mike-Faist#portrait-preflight"
+        },
+        "full": "/types/4s/Mike-Faist.webp",
+        "thumbnail": "/types/4s/s-Mike-Faist.webp"
+      },
+      {
+        "slug": "stella-lefty",
+        "check": {
+          "ok": true,
+          "type": 9,
+          "slug": "Stella-Lefty",
+          "full": {
+            "path": "/Users/djwayne/9takes/static/types/9s/Stella-Lefty.webp",
+            "bytes": 54840,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/static/types/9s/s-Stella-Lefty.webp",
+            "bytes": 15006,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=9&portraitSlug=Stella-Lefty#portrait-preflight"
+        },
+        "full": "/types/9s/Stella-Lefty.webp",
+        "thumbnail": "/types/9s/s-Stella-Lefty.webp"
+      },
+      {
+        "slug": "codie-sanchez",
+        "check": {
+          "ok": true,
+          "type": 3,
+          "slug": "Codie-Sanchez",
+          "full": {
+            "path": "/Users/djwayne/9takes/static/types/3s/Codie-Sanchez.webp",
+            "bytes": 86086,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/static/types/3s/s-Codie-Sanchez.webp",
+            "bytes": 23646,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=3&portraitSlug=Codie-Sanchez#portrait-preflight"
+        },
+        "full": "/types/3s/Codie-Sanchez.webp",
+        "thumbnail": "/types/3s/s-Codie-Sanchez.webp"
+      },
+      {
+        "slug": "sienna-spiro",
+        "check": {
+          "ok": true,
+          "type": 2,
+          "slug": "Sienna-Spiro",
+          "full": {
+            "path": "/Users/djwayne/9takes/static/types/2s/Sienna-Spiro.webp",
+            "bytes": 40360,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/static/types/2s/s-Sienna-Spiro.webp",
+            "bytes": 12124,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=2&portraitSlug=Sienna-Spiro#portrait-preflight"
+        },
+        "full": "/types/2s/Sienna-Spiro.webp",
+        "thumbnail": "/types/2s/s-Sienna-Spiro.webp"
+      },
+      {
+        "slug": "lily-rose-depp",
+        "check": {
+          "ok": true,
+          "type": 6,
+          "slug": "Lily-Rose-Depp",
+          "full": {
+            "path": "/Users/djwayne/9takes/static/types/6s/Lily-Rose-Depp.webp",
+            "bytes": 63658,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/static/types/6s/s-Lily-Rose-Depp.webp",
+            "bytes": 16738,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=6&portraitSlug=Lily-Rose-Depp#portrait-preflight"
+        },
+        "full": "/types/6s/Lily-Rose-Depp.webp",
+        "thumbnail": "/types/6s/s-Lily-Rose-Depp.webp"
+      },
+      {
+        "slug": "ella-beatty",
+        "check": {
+          "ok": true,
+          "type": 6,
+          "slug": "Ella-Beatty",
+          "full": {
+            "path": "/Users/djwayne/9takes/static/types/6s/Ella-Beatty.webp",
+            "bytes": 49208,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/static/types/6s/s-Ella-Beatty.webp",
+            "bytes": 11862,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=6&portraitSlug=Ella-Beatty#portrait-preflight"
+        },
+        "full": "/types/6s/Ella-Beatty.webp",
+        "thumbnail": "/types/6s/s-Ella-Beatty.webp"
+      },
+      {
+        "slug": "grace-reiter",
+        "check": {
+          "ok": true,
+          "type": 6,
+          "slug": "Grace-Reiter",
+          "full": {
+            "path": "/Users/djwayne/9takes/static/types/6s/Grace-Reiter.webp",
+            "bytes": 88054,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/static/types/6s/s-Grace-Reiter.webp",
+            "bytes": 25786,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=6&portraitSlug=Grace-Reiter#portrait-preflight"
+        },
+        "full": "/types/6s/Grace-Reiter.webp",
+        "thumbnail": "/types/6s/s-Grace-Reiter.webp"
+      },
+      {
+        "slug": "inde-navarrette",
+        "check": {
+          "ok": true,
+          "type": 6,
+          "slug": "Inde-Navarrette",
+          "full": {
+            "path": "/Users/djwayne/9takes/static/types/6s/Inde-Navarrette.webp",
+            "bytes": 67268,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/static/types/6s/s-Inde-Navarrette.webp",
+            "bytes": 18180,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=6&portraitSlug=Inde-Navarrette#portrait-preflight"
+        },
+        "full": "/types/6s/Inde-Navarrette.webp",
+        "thumbnail": "/types/6s/s-Inde-Navarrette.webp"
+      },
+      {
+        "slug": "maleah-joi-moon",
+        "check": {
+          "ok": true,
+          "type": 6,
+          "slug": "Maleah-Joi-Moon",
+          "full": {
+            "path": "/Users/djwayne/9takes/static/types/6s/Maleah-Joi-Moon.webp",
+            "bytes": 71958,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/static/types/6s/s-Maleah-Joi-Moon.webp",
+            "bytes": 16390,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=6&portraitSlug=Maleah-Joi-Moon#portrait-preflight"
+        },
+        "full": "/types/6s/Maleah-Joi-Moon.webp",
+        "thumbnail": "/types/6s/s-Maleah-Joi-Moon.webp"
+      },
+      {
+        "slug": "dylan-patel",
+        "check": {
+          "ok": true,
+          "type": 7,
+          "slug": "Dylan-Patel",
+          "full": {
+            "path": "/Users/djwayne/9takes/static/types/7s/Dylan-Patel.webp",
+            "bytes": 35904,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/static/types/7s/s-Dylan-Patel.webp",
+            "bytes": 10374,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=7&portraitSlug=Dylan-Patel#portrait-preflight"
+        },
+        "full": "/types/7s/Dylan-Patel.webp",
+        "thumbnail": "/types/7s/s-Dylan-Patel.webp"
+      },
+      {
+        "slug": "shyam-sankar",
+        "check": {
+          "ok": true,
+          "type": 6,
+          "slug": "Shyam-Sankar",
+          "full": {
+            "path": "/Users/djwayne/9takes/static/types/6s/Shyam-Sankar.webp",
+            "bytes": 70908,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/static/types/6s/s-Shyam-Sankar.webp",
+            "bytes": 13034,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=6&portraitSlug=Shyam-Sankar#portrait-preflight"
+        },
+        "full": "/types/6s/Shyam-Sankar.webp",
+        "thumbnail": "/types/6s/s-Shyam-Sankar.webp"
+      },
+      {
+        "slug": "tiger-woods",
+        "check": {
+          "ok": true,
+          "type": 3,
+          "slug": "Tiger-Woods",
+          "full": {
+            "path": "/Users/djwayne/9takes/static/types/3s/Tiger-Woods.webp",
+            "bytes": 59464,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/static/types/3s/s-Tiger-Woods.webp",
+            "bytes": 16734,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=3&portraitSlug=Tiger-Woods#portrait-preflight"
+        },
+        "full": "/types/3s/Tiger-Woods.webp",
+        "thumbnail": "/types/3s/s-Tiger-Woods.webp"
+      },
+      {
+        "slug": "christopher-abbott",
+        "check": {
+          "ok": true,
+          "type": 6,
+          "slug": "Christopher-Abbott",
+          "full": {
+            "path": "/Users/djwayne/9takes/static/types/6s/Christopher-Abbott.webp",
+            "bytes": 74496,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/static/types/6s/s-Christopher-Abbott.webp",
+            "bytes": 17946,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=6&portraitSlug=Christopher-Abbott#portrait-preflight"
+        },
+        "full": "/types/6s/Christopher-Abbott.webp",
+        "thumbnail": "/types/6s/s-Christopher-Abbott.webp"
+      }
+    ],
+    "approvedExportHashesMatch": true,
+    "staticAssetBudgetCheck": "passed",
+    "diffWhitespaceCheck": "passed"
+  },
+  "budgetsAfter": {
+    "globalCssBytes": 307200,
+    "clientOutputHardLimitBytes": 268435456,
+    "runtimeAssetBytes": 164615368,
+    "runtimeAssetsOver1MiB": 15,
+    "runtimeAssetsOver5MiB": 1,
+    "largestRuntimeAssetBytes": 5400000,
+    "portraitAssetBytes": 72419402,
+    "portraitAssetFiles": 1236,
+    "blogPngMastersInStatic": 0
+  }
+}

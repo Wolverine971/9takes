@@ -1,0 +1,287 @@
+{
+  "date": "2026-10-22",
+  "status": "two_revised_samples_awaiting_visual_approval",
+  "published": false,
+  "installedInPublisherVisibleDirectory": false,
+  "template": {
+    "path": "face-line-template.png",
+    "sha256": "74b6538bbdbf61cb61ce29a7c8e7a97041108f7fdc20851291c1cd388da09344",
+    "modified": false,
+    "fixedEyeTarget": {
+      "x": 540,
+      "y": 490
+    }
+  },
+  "themeTreatment": {
+    "dark": {
+      "well": "#2c1f28",
+      "filter": "contrast(1.08) brightness(0.92) saturate(0.68)"
+    },
+    "light": {
+      "well": "#f6f3fb",
+      "filter": "contrast(1.02) brightness(0.99) saturate(0.58)"
+    }
+  },
+  "queueAudit": "docs/content-analysis/portrait-sources/2026-10-22-queue-audit.json",
+  "portraits": [
+    {
+      "slug": "ilya-sutskever",
+      "name": "Ilya Sutskever",
+      "filename": "Ilya-Sutskever",
+      "type": "5",
+      "status": "revised_sample_awaiting_user_approval",
+      "source": {
+        "page": "https://www.ted.com/talks/ilya_sutskever_the_exciting_perilous_journey_toward_agi",
+        "imageUrl": "https://ted-conferences-speaker-photos-production.s3.amazonaws.com/a5m5rmrz0ns0168iyzptv89rjhqc",
+        "photographerOrCredit": "Photographer not identified; TED speaker portrait",
+        "localOriginal": "output/portrait-sources/2026-10-07-queue/ilya-sutskever-source.jpg",
+        "width": 800,
+        "height": 600,
+        "sha256": "de53c2bb77c0d1a2d067d31cdecd888f6940e101957d155b1bf1a5d48b1d1e57",
+        "rights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication."
+      },
+      "transformations": {
+        "segmentation": "Apple Vision foreground mask; no face reconstruction",
+        "clockwiseRotationDegrees": 0,
+        "composition": {
+          "slug": "ilya-sutskever",
+          "name": "Ilya-Sutskever",
+          "input": "output/portrait-processed/2026-10-07-queue/ilya-sutskever-cutout.png",
+          "height": 1000,
+          "anchorX": 367.4524,
+          "anchorY": 233.08,
+          "erode": 3,
+          "contrast": 1.04,
+          "brightness": 1,
+          "targetX": 540,
+          "targetY": 490,
+          "subjectShiftRightPx": 38,
+          "reason": "Use the measured midpoint between photographed eyes instead of the earlier optical anchor, as requested by DJ."
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png"
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-22-revision-02/Ilya-Sutskever-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "a625090341fe220e8480ecd5667a13f16d2c0cc28adf1b83a8d5673305b80f69"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-22-review/revision-03/types/5s/Ilya-Sutskever.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 39994,
+          "sha256": "cee8861a653e702c3f7c1981d1e3557dfda9489df4421457211c3b3fda3b68c5",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-22-review/revision-03/types/5s/s-Ilya-Sutskever.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 12544,
+          "sha256": "5411bbbb966c6b52f1bdc4f09183e40afad4f2cbe72777cd884107d9613abaf6",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "opaqueTemplatePixelsPreserved": 22457,
+        "editorialCheck": {
+          "slug": "ilya-sutskever",
+          "file": "src/blog/people/drafts/ilya-sutskever.md",
+          "type": "5",
+          "grade": 8.7,
+          "wordCount": 4469,
+          "editorialReady": true,
+          "blockers": [
+            "missing_full_image",
+            "missing_thumbnail_image"
+          ],
+          "preparedAssets": {
+            "full": {
+              "path": "output/portrait-preflight/2026-10-07-queue/Ilya-Sutskever.webp",
+              "width": 1080,
+              "height": 1080,
+              "bytes": 38934,
+              "sha256": "c23b7b917952079ddd85a9e11a46b4e396c8b4b776a5f582807f5f27f8eb0829",
+              "alpha": true
+            },
+            "thumbnail": {
+              "path": "output/portrait-preflight/2026-10-07-queue/s-Ilya-Sutskever.webp",
+              "width": 480,
+              "height": 480,
+              "bytes": 12464,
+              "sha256": "031cc91eaa61f6bfb4765d005e233d4c84f3c1d0dcf4b62727ca56a8497cfec0",
+              "alpha": true
+            }
+          },
+          "sourceRights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication.",
+          "livePublished": false,
+          "databaseRowExists": true
+        },
+        "visualReview": "Reviewed with the exact site dark/light filters at full and thumbnail sizes; Josh has no abrupt vertical shoulder cutoffs. All four exports pass portrait:check."
+      },
+      "qualityNote": "Approved source retained; photographed subject moved 38px right behind the unchanged purple eye mark. Original scale, grayscale, contrast and vertical position retained.",
+      "installedPaths": [],
+      "intendedInstallPaths": [
+        "static/types/5s/Ilya-Sutskever.webp",
+        "static/types/5s/s-Ilya-Sutskever.webp"
+      ]
+    },
+    {
+      "slug": "josh-hartnett",
+      "name": "Josh Hartnett",
+      "filename": "Josh-Hartnett",
+      "type": "6",
+      "status": "revised_sample_awaiting_user_approval",
+      "source": {
+        "page": "https://commons.wikimedia.org/wiki/File:TIFF-2026-BELOW-JOSH-HARTNETT-01.png",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/TIFF-2026-BELOW-JOSH-HARTNETT-01.png",
+        "photographerOrCredit": "Josh Popov (JoshPopov), WikiPortraits",
+        "dateTaken": "2026-09-10",
+        "localOriginal": "output/portrait-sources/2026-10-22-revision-02/josh-tiff-2026-01.png",
+        "width": 7008,
+        "height": 3944,
+        "sha256": "8fe601a3696c453cb0521e9533f116c24e741975f387737e35ed1dbcf92b8d77",
+        "rights": "CC BY-SA 4.0, as stated on the Commons source page",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Josh Hartnett at TIFF 2026 — Josh Popov / Wikimedia Commons, CC BY-SA 4.0. Adapted by 9takes: crop, background removal, grayscale/contrast, placement and purple eye overlay. This adapted portrait is distributed under CC BY-SA 4.0."
+      },
+      "transformations": {
+        "sourceCrop": {
+          "left": 1900,
+          "top": 100,
+          "width": 3840,
+          "height": 3840,
+          "workingDimensions": [
+            2048,
+            2048
+          ]
+        },
+        "segmentation": {
+          "tool": "built-in image_gen",
+          "prompt": "Use case: background-extraction\nEdit target: the attached real photograph of Josh Hartnett at TIFF. Create a clean photographic cutout of the man by removing ONLY the event backdrop and all its logos.\nKeep the original square canvas and exact pixel-relative subject position and scale. Preserve the entire naturally photographed shoulder line, both suit shoulders and arms through the bottom edge. Keep the visible hair fully intact, with fine naturally antialiased edges. Remove background caught at hair wisps without removing photographed hair.\nPreserve the man's exact face, expression, hair, body, pose, jacket, shirt, original color and lighting. No beautification, regeneration, retouching, new shoulder material, clothing edits, reframing, zoom or repositioning.\nThe output must have actual alpha transparency around the subject, not a black, white or checkerboard background. Keep the same square aspect ratio as the input. Do not add the purple overlay or change to grayscale yet. This is background removal only.\n",
+          "generatedOutput": "output/portrait-processed/2026-10-22-revision-02/josh-generated-cutout.png",
+          "usage": "Alpha mask only; all generated RGB discarded",
+          "refinement": "Intersected with Apple Vision foreground mask; source-color rejection of event lettering at right hair fringe",
+          "script": "output/portrait-processed/2026-10-22-revision-02/restore-photo-pixels.mjs",
+          "validation": {
+            "pixels": 4194304,
+            "transparent": 2373666,
+            "sourceRgbPreserved": true,
+            "generatedRgbUsed": false,
+            "generatedAlphaUsed": true,
+            "alphaRefinement": "Intersection with Apple Vision foreground mask; source-color rejection of event lettering in the right hair fringe",
+            "clearedSignagePixels": 4310
+          }
+        },
+        "composition": {
+          "input": "output/portrait-processed/2026-10-22-revision-02/josh-original-pixels-cutout.png",
+          "height": 1900,
+          "anchorX": 943.7674,
+          "anchorY": 453.57365,
+          "erode": 1,
+          "contrast": 1.04,
+          "brightness": 1,
+          "targetX": 540,
+          "targetY": 490,
+          "offsetX": -32,
+          "subjectShiftLeftPx": 32,
+          "reason": "Optical alignment requested by DJ: shift subject slightly left while keeping the eye mark fixed."
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png"
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-22-revision-03/Josh-Hartnett-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "ac8d3e69e5969c8b63b829a693802b200f51f4c96904d869911a68ffe613a18b"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-22-review/revision-03/types/6s/Josh-Hartnett.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 117378,
+          "sha256": "9663c4533121ea8cb2ba7aabbe67eb28b9dea3f1ce7082b5dfbebefa8773772f",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-22-review/revision-03/types/6s/s-Josh-Hartnett.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 19450,
+          "sha256": "f9ff7b0b2f635ba4727b6600cb61e86221dc3ff7f3a27942b564c9b9880817b8",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "opaqueTemplatePixelsPreserved": 22457,
+        "editorialCheck": {
+          "slug": "josh-hartnett",
+          "file": "src/blog/people/drafts/josh-hartnett.md",
+          "type": "6",
+          "grade": 8.5,
+          "wordCount": 3672,
+          "editorialReady": true,
+          "blockers": [
+            "missing_full_image",
+            "missing_thumbnail_image"
+          ],
+          "preparedAssets": {
+            "full": {
+              "path": "output/portrait-preflight/2026-10-07-queue/Josh-Hartnett.webp",
+              "width": 1080,
+              "height": 1080,
+              "bytes": 44780,
+              "sha256": "27e56d7d111fa02d895ddd2a86ef7dc437d233569757a4206f40bc08d54b8827",
+              "alpha": true
+            },
+            "thumbnail": {
+              "path": "output/portrait-preflight/2026-10-07-queue/s-Josh-Hartnett.webp",
+              "width": 480,
+              "height": 480,
+              "bytes": 10444,
+              "sha256": "e0abda501f99534be2b0d407ac36a59e9ce38ce1c2cdd5d4afe6f0499e8d54d8",
+              "alpha": true
+            }
+          },
+          "sourceRights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication.",
+          "livePublished": false,
+          "databaseRowExists": false
+        },
+        "visualReview": "Reviewed in dark and light themes after a 32px left shift; full-size and thumbnail checks pass. Original shoulder silhouette retained and fixed purple template verified."
+      },
+      "qualityNote": "New wide photograph with naturally continuous shoulders, taken at TIFF in September 2026. The original photographic RGB is preserved; no generated face, body or shoulder pixels are used. Subject moved 32px left on the 1080px canvas for optical alignment with the unchanged purple eye mark.",
+      "installedPaths": [],
+      "intendedInstallPaths": [
+        "static/types/6s/Josh-Hartnett.webp",
+        "static/types/6s/s-Josh-Hartnett.webp"
+      ]
+    }
+  ],
+  "afterApproval": [
+    "Copy each approved pair to intendedInstallPaths",
+    "Run node scripts/generate-personality-image-slug-map.js",
+    "Run node scripts/check-build-budgets.mjs --accept-portrait-baseline",
+    "Run portrait checks and review the real styleguide fixture",
+    "Resolve recorded source reuse rights before publication; publication requires a separate instruction"
+  ],
+  "review": {
+    "url": "http://127.0.0.1:8917/",
+    "html": "output/portrait-preflight/2026-10-22-review/index.html",
+    "comparison": "output/portrait-preflight/2026-10-22-review/revision-03/review-pair.png",
+    "download": "output/portrait-preflight/2026-10-22-portrait-samples-v3.zip"
+  },
+  "revision": 3,
+  "previousRecord": "docs/content-analysis/portrait-sources/2026-10-22-revision-02.json",
+  "userFeedback": {
+    "josh": "Move Josh slightly to the left behind the fixed purple eye mark."
+  }
+}

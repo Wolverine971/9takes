@@ -592,20 +592,44 @@ function multiline(value: string): string {
 }
 
 function questionLink(candidate: HostDigestCandidate, baseUrl: string): string | null {
-	return candidate.question_url ? `${baseUrl}/questions/${candidate.question_url}` : null;
+	return candidate.question_url
+		? `${baseUrl}/questions/${encodeURIComponent(candidate.question_url)}?reply=${candidate.comment_id}`
+		: null;
 }
 
-const DRAFT_LABEL_STYLE =
-	'margin:0 0 4px;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#69707a;';
-const DRAFT_QUOTE_STYLE =
-	'margin:0 0 10px;padding:10px 14px;border-left:3px solid #f59e0b;background:#fffbeb;font-size:15px;line-height:1.5;';
+const LABEL_STYLE =
+	'margin:0 0 8px;font-size:11px;line-height:1.5;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#596575;';
+const LINK_STYLE = 'color:#0f766e;text-decoration:underline;';
+const COPY_STYLE =
+	'font-size:16px;line-height:1.6;color:#18212f;overflow-wrap:anywhere;word-break:break-word;';
 const ALERT_STYLE =
-	'margin:0 0 16px;padding:12px 14px;border-radius:8px;background:#fef2f2;border:1px solid #fca5a5;color:#991b1b;font-size:14px;line-height:1.5;';
+	'margin:0 0 16px;padding:14px 16px;border-radius:8px;background:#fffbeb;border:1px solid #fde68a;color:#854d0e;font-size:14px;line-height:1.6;overflow-wrap:anywhere;word-break:break-word;';
 
-function htmlDraftBlock(label: string, text: string, url: string, cta: string): string {
-	return `<p style="${DRAFT_LABEL_STYLE}">${label}</p>
-<blockquote style="${DRAFT_QUOTE_STYLE}">${multiline(text)}</blockquote>
-<p style="margin:0 0 18px;"><a class="button" href="${escapeHtml(url)}">${cta}</a></p>`;
+function htmlAction(label: string, url: string, primary = true): string {
+	// Inline styles survive email clients that strip the shared template's CSS.
+	return `<a href="${escapeHtml(url)}" style="display:inline-block;padding:11px 16px;border:1px solid ${primary ? '#0f766e' : '#cbd5e1'};border-radius:6px;background-color:${primary ? '#0f766e' : '#ffffff'};color:${primary ? '#ffffff' : '#334155'} !important;font-size:14px;line-height:22px;font-weight:700;text-decoration:none !important;mso-padding-alt:0;">${escapeHtml(label)}</a>`;
+}
+
+function htmlDraftBlock(variant: 'A' | 'B', text: string, url: string): string {
+	return `<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="width:100%;table-layout:fixed;margin:0 0 12px;">
+<tr><td style="padding:16px;background-color:#f0fdfa;border:1px solid #cce8e2;border-radius:8px;">
+<p style="${LABEL_STYLE}color:#0f766e;">Reply ${variant}</p>
+<p style="margin:0 0 14px;${COPY_STYLE}">${multiline(text)}</p>
+${htmlAction(`Review reply ${variant}`, url)}
+</td></tr></table>`;
+}
+
+function formatDigestDate(value: number | string, includeTime = false): string | null {
+	const date = new Date(value);
+	if (Number.isNaN(date.getTime())) return null;
+	return new Intl.DateTimeFormat('en-US', {
+		timeZone: 'America/New_York',
+		month: 'short',
+		day: 'numeric',
+		...(includeTime
+			? { hour: 'numeric', minute: '2-digit', timeZoneName: 'short' }
+			: { weekday: 'short', year: 'numeric' })
+	}).format(date);
 }
 
 export function buildHostDigestEmail(
@@ -619,14 +643,19 @@ export function buildHostDigestEmail(
 		notices?: string[];
 	} = {}
 ): { subject: string; preheader: string; htmlContent: string; plainTextContent: string } {
-	const baseUrl = options.baseUrl ?? BASE_URL;
+	// Keep every signed link's expiry consistent in both MIME parts.
+	const baseUrl = (options.baseUrl ?? BASE_URL).replace(/\/$/, '');
+	const linkOptions = { ...options, baseUrl, now: options.now ?? Date.now() };
+	const deskUrl = `${baseUrl}/admin/host-desk`;
 	const count = items.length;
-	const failed = items.filter((item) => !item.draftA);
-	const failureReasons = [
-		...new Set(failed.map((item) => item.failureReason).filter(Boolean) as string[])
-	];
+	const failed = items.filter((item) => !item.draftA && !item.draftB);
+	const suggestionCount = items.reduce(
+		(total, item) => total + Number(Boolean(item.draftA)) + Number(Boolean(item.draftB)),
+		0
+	);
+	const suggestionSummary = `${suggestionCount} suggested ${suggestionCount === 1 ? 'reply' : 'replies'} ready`;
 	const failureNotice = failed.length
-		? `Drafting failed for ${failed.length === count ? (count === 1 ? 'this take' : `all ${count} takes`) : `${failed.length} of ${count} takes`}${failureReasons.length ? ` (${truncate(failureReasons.join('; '), 220)})` : ''}. The takes are below anyway; tap Write my own to answer them.`
+		? `Drafting failed for ${failed.length === count ? (count === 1 ? 'this take' : `all ${count} takes`) : `${failed.length} of ${count} takes`}. Use Write my own to reply to ${failed.length === 1 ? 'that comment' : 'those comments'}.`
 		: null;
 	const notices = [failureNotice, ...(options.notices ?? [])].filter(Boolean) as string[];
 
@@ -637,99 +666,124 @@ export function buildHostDigestEmail(
 		? truncate(failureNotice, 90)
 		: count === 1
 			? truncate(items[0].candidate.comment_text, 90)
-			: `${count} takes, two drafts each, one tap to post.`;
+			: `${count} comments. ${suggestionSummary}. Review, edit, then post.`;
 
-	const htmlItems = items.map((item, index) => {
+	const entries = items.map((item) => ({
+		...item,
+		urls: {
+			a: hostDeskUrl(item.draftId, 'a', linkOptions),
+			b: hostDeskUrl(item.draftId, 'b', linkOptions),
+			custom: hostDeskUrl(item.draftId, 'custom', linkOptions),
+			skip: hostDeskUrl(item.draftId, 'skip', linkOptions)
+		},
+		qLink: questionLink(item.candidate, baseUrl),
+		postedAt: formatDigestDate(item.candidate.created_at, true)
+	}));
+
+	const htmlItems = entries.map((item, index) => {
 		const { candidate } = item;
-		const urls = {
-			a: hostDeskUrl(item.draftId, 'a', options),
-			b: hostDeskUrl(item.draftId, 'b', options),
-			custom: hostDeskUrl(item.draftId, 'custom', options),
-			skip: hostDeskUrl(item.draftId, 'skip', options)
-		};
-		const qLink = questionLink(candidate, baseUrl);
-		const qText = escapeHtml(truncate(candidate.question_text ?? 'Unknown question', 60));
+		const { urls, qLink, postedAt } = item;
+		const qText = escapeHtml(candidate.question_text ?? 'Unknown question');
 		const authorLabel = escapeHtml(describeAuthorType(candidate));
-		const badge = candidate.low_effort
-			? ' <span style="display:inline-block;padding:2px 8px;border-radius:999px;background:#fef3c7;color:#92400e;font-size:12px;font-weight:700;">low effort</span>'
-			: '';
 		const parent = candidate.parent_comment_text
-			? `<p style="margin:0 0 8px;font-size:13px;color:#69707a;">Replying to: ${escapeHtml(truncate(candidate.parent_comment_text, 140))}</p>`
+			? `<p style="margin:0 0 16px;font-size:14px;line-height:1.6;color:#596575;overflow-wrap:anywhere;word-break:break-word;"><strong>Replying to:</strong><br>${multiline(candidate.parent_comment_text)}</p>`
 			: '';
-		const drafts = item.draftA
+		const hasDraft = Boolean(item.draftA || item.draftB);
+		const drafts = hasDraft
 			? [
-					htmlDraftBlock('Draft A', item.draftA, urls.a, 'Open &amp; post A'),
-					item.draftB ? htmlDraftBlock('Draft B', item.draftB, urls.b, 'Open &amp; post B') : ''
+					`<p style="${LABEL_STYLE}margin-top:20px;">Suggested replies</p>`,
+					item.draftA ? htmlDraftBlock('A', item.draftA, urls.a) : '',
+					item.draftB ? htmlDraftBlock('B', item.draftB, urls.b) : '',
+					!item.draftA || !item.draftB
+						? '<p style="margin:0 0 12px;font-size:13px;line-height:1.6;color:#596575;">Only one suggestion is available. You can edit it or write your own.</p>'
+						: ''
 				].join('\n')
-			: `<p style="${ALERT_STYLE}"><strong>Drafts failed for this take.</strong>${item.failureReason ? ` ${escapeHtml(truncate(item.failureReason, 160))}` : ''}</p>`;
+			: `<p style="${ALERT_STYLE}margin-top:20px;"><strong>Suggested replies unavailable.</strong><br>Write your own reply below.${item.failureReason ? `<br><span style="font-size:12px;">Drafting issue: ${escapeHtml(truncate(item.failureReason, 160))}</span>` : ''}</p>`;
 
-		return `<div style="margin:0 0 28px;padding:0 0 24px;border-bottom:1px solid #e5e7eb;">
-<p style="margin:0 0 6px;font-size:13px;color:#69707a;">${index + 1} of ${count} · ${qLink ? `<a href="${escapeHtml(qLink)}">${qText}</a>` : qText}</p>
-${parent}<p style="margin:0 0 12px;padding:12px 14px;background:#f6f7f9;border-radius:8px;font-size:16px;line-height:1.5;">${multiline(candidate.comment_text)}</p>
-<p style="margin:0 0 16px;font-size:13px;color:#69707a;">${authorLabel}${badge}</p>
+		return `<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="width:100%;table-layout:fixed;margin:0 0 24px;">
+<tr><td style="padding:24px 0;border-top:2px solid #e2e8f0;">
+<p style="${LABEL_STYLE}">Comment ${index + 1} of ${count}</p>
+<h2 style="margin:0 0 16px;font-size:20px;line-height:1.4;font-weight:700;color:#18212f;overflow-wrap:anywhere;word-break:break-word;">${qText}</h2>
+${parent}<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="width:100%;table-layout:fixed;">
+<tr><td style="padding:16px;background-color:#f1f5f9;border-left:3px solid #94a3b8;border-radius:0 8px 8px 0;">
+<p style="${LABEL_STYLE}">Their comment</p>
+<p style="margin:0 0 12px;${COPY_STYLE}">${multiline(candidate.comment_text)}</p>
+<p style="margin:0;font-size:12px;line-height:1.6;color:#596575;">${authorLabel}${postedAt ? ` &middot; ${escapeHtml(postedAt)}` : ''}</p>
+</td></tr></table>
+${qLink ? `<p style="margin:8px 0 0;font-size:13px;"><a href="${escapeHtml(qLink)}" style="${LINK_STYLE}display:inline-block;padding:8px 0;">View conversation &rarr;</a></p>` : ''}
 ${drafts}
-<p style="margin:0;font-size:14px;">${item.draftA ? `<a href="${escapeHtml(urls.custom)}">Write my own</a>` : `<a class="button" href="${escapeHtml(urls.custom)}">Write my own</a>`} &nbsp;·&nbsp; <a href="${escapeHtml(urls.skip)}">Skip</a></p>
-</div>`;
+<p style="margin:16px 0 0;font-size:14px;">${htmlAction('Write my own', urls.custom, !hasDraft)} <a href="${escapeHtml(urls.skip)}" style="display:inline-block;padding:11px 12px;line-height:22px;color:#596575;text-decoration:underline;">Skip comment</a></p>
+</td></tr></table>`;
 	});
 
 	const older = options.olderPending ?? 0;
-	const olderNote =
-		older > 0
-			? `<p style="font-size:13px;color:#69707a;">${older} older draft${older === 1 ? '' : 's'} still pending.</p>`
-			: '';
+	const olderText = `${older} older ${older === 1 ? 'comment' : 'comments'} still pending`;
 	const noticeHtml = notices
 		.map((notice) => `<p style="${ALERT_STYLE}">${escapeHtml(notice)}</p>`)
 		.join('\n');
 
-	const intro = `${count === 1 ? 'One new take' : `${count} new takes`} since the last digest. Every link opens a page where you can edit, then tap once to post as you.`;
-	const htmlContent = `${noticeHtml}${noticeHtml ? '\n' : ''}<p>${intro}</p>
+	const title = `${count} ${count === 1 ? 'comment' : 'comments'} to answer`;
+	const intro = 'Choose a suggested reply to review and edit, then confirm to post as you.';
+	const date = formatDigestDate(linkOptions.now);
+	const expiryNote = 'Reply links work for 7 days. You can always return to the full host desk.';
+	const htmlContent = `<p style="${LABEL_STYLE}color:#0f766e;">Host desk &middot; ${escapeHtml(date ?? '')}</p>
+<h1 style="margin:0 0 8px;font-size:28px;line-height:1.25;font-weight:700;letter-spacing:-.5px;color:#18212f;">${title}</h1>
+<p style="margin:0 0 12px;font-size:15px;font-weight:600;color:#0f766e;">${suggestionSummary}</p>
+<p style="margin:0 0 12px;font-size:14px;line-height:1.6;color:#596575;">${intro}</p>
+<p style="margin:0 0 24px;font-size:13px;line-height:1.6;"><a href="${escapeHtml(deskUrl)}" style="${LINK_STYLE}">${older > 0 ? `${olderText} &mdash; open host desk` : 'Open full host desk'} &rarr;</a></p>
+${noticeHtml}
 ${htmlItems.join('\n')}
-${olderNote}<p style="font-size:13px;color:#69707a;">Full desk: <a href="${baseUrl}/admin/host-desk">${baseUrl}/admin/host-desk</a></p>`;
+<p style="margin:0 0 12px;">${htmlAction('Open full host desk', deskUrl, false)}</p>
+<p style="margin:0;font-size:12px;line-height:1.6;color:#596575;">${expiryNote}</p>`;
 
-	const textItems = items.map((item, index) => {
+	const textItems = entries.map((item, index) => {
 		const { candidate } = item;
-		const urls = {
-			a: hostDeskUrl(item.draftId, 'a', options),
-			b: hostDeskUrl(item.draftId, 'b', options),
-			custom: hostDeskUrl(item.draftId, 'custom', options),
-			skip: hostDeskUrl(item.draftId, 'skip', options)
-		};
-		const qLink = questionLink(candidate, baseUrl);
-		const draftLines = item.draftA
-			? [
-					`Draft A: ${item.draftA}`,
-					`Open & post A: ${urls.a}`,
-					'',
-					...(item.draftB ? [`Draft B: ${item.draftB}`, `Open & post B: ${urls.b}`, ''] : [])
-				]
-			: [
-					`DRAFTS FAILED for this take${item.failureReason ? `: ${truncate(item.failureReason, 160)}` : '.'}`,
-					''
-				];
+		const { urls, qLink, postedAt } = item;
+		const draftLines =
+			item.draftA || item.draftB
+				? [
+						'SUGGESTED REPLIES',
+						...(item.draftA ? [`Reply A: ${item.draftA}`, `Review reply A: ${urls.a}`, ''] : []),
+						...(item.draftB ? [`Reply B: ${item.draftB}`, `Review reply B: ${urls.b}`, ''] : []),
+						...(!item.draftA || !item.draftB
+							? ['Only one suggestion is available. You can edit it or write your own.', '']
+							: [])
+					]
+				: [
+						'SUGGESTED REPLIES UNAVAILABLE. Write your own reply below.',
+						...(item.failureReason ? [`Drafting issue: ${truncate(item.failureReason, 160)}`] : []),
+						''
+					];
 		return [
-			`${index + 1} of ${count}: ${truncate(candidate.question_text ?? 'Unknown question', 60)}${qLink ? ` (${qLink})` : ''}`,
-			candidate.parent_comment_text
-				? `Replying to: ${truncate(candidate.parent_comment_text, 140)}`
-				: null,
-			`Take (${describeAuthorType(candidate)}${candidate.low_effort ? ', low effort' : ''}):`,
+			`COMMENT ${index + 1} OF ${count}`,
+			`Question: ${candidate.question_text ?? 'Unknown question'}`,
+			'',
+			candidate.parent_comment_text ? `Replying to:\n${candidate.parent_comment_text}\n` : null,
+			`THEIR COMMENT (${describeAuthorType(candidate)}${postedAt ? ` · ${postedAt}` : ''}):`,
 			candidate.comment_text,
 			'',
+			...(qLink ? [`View conversation: ${qLink}`, ''] : []),
 			...draftLines,
 			`Write my own: ${urls.custom}`,
-			`Skip: ${urls.skip}`
+			`Skip comment: ${urls.skip}`
 		]
 			.filter((line) => line !== null)
 			.join('\n');
 	});
 
 	const plainTextContent = [
-		...notices.flatMap((notice) => [`!! ${notice}`, '']),
+		`HOST DESK · ${date}`,
+		title,
+		suggestionSummary,
 		intro,
+		older > 0 ? olderText : null,
+		`Open full host desk: ${deskUrl}`,
 		'',
+		...notices.flatMap((notice) => [`!! ${notice}`, '']),
 		textItems.join('\n\n----\n\n'),
 		'',
-		older > 0 ? `${older} older draft${older === 1 ? '' : 's'} still pending.` : null,
-		`Full desk: ${baseUrl}/admin/host-desk`
+		`Open full host desk: ${deskUrl}`,
+		expiryNote
 	]
 		.filter((line) => line !== null)
 		.join('\n');

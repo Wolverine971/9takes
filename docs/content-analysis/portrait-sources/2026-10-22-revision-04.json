@@ -1,0 +1,546 @@
+{
+  "date": "2026-10-22",
+  "revision": "04",
+  "published": false,
+  "changes": {
+    "paapa-essiedu": "Shifted 36px left to center his face behind the purple eye mark.",
+    "codie-sanchez": "Removed background remnants around her hair and softened harsh rim-light highlights; preserved the original face.",
+    "grace-reiter": "Reduced portrait scale by 13.6% while keeping her eyes aligned with the unchanged purple mark."
+  },
+  "portraits": [
+    {
+      "slug": "paapa-essiedu",
+      "name": "Paapa Essiedu",
+      "filename": "Paapa-Essiedu",
+      "type": "6",
+      "status": "completed_batch_portrait",
+      "source": {
+        "page": "https://commons.wikimedia.org/wiki/File:Paapa_Essiedu_at_Series_Mania.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Paapa_Essiedu_at_Series_Mania.jpg",
+        "photographerOrCredit": "Elyot Boudart",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "rights": "Creative Commons Attribution-Share Alike 4.0",
+        "localOriginal": "output/portrait-sources/2026-10-22-rest/paapa-essiedu.jpg",
+        "width": 4000,
+        "height": 6000,
+        "sha256": "041a022f51dd8965fcc9ea2a85e21f45095bb0b13d4152794ab9308e1de769c5",
+        "attribution": "Paapa Essiedu — Elyot Boudart, CC BY-SA 4.0. Adapted by 9takes: crop, background removal, tilt correction, grayscale, contrast, placement and purple eye overlay. Adapted portrait: CC BY-SA 4.0."
+      },
+      "transformations": {
+        "sourceCrop": {
+          "left": 0,
+          "top": 0,
+          "width": 4000,
+          "height": 4500
+        },
+        "segmentation": {
+          "tool": "built-in image_gen alpha refined against local Apple Vision",
+          "prompt": "Use case: background-extraction\nEdit target: the attached real photograph. Remove ONLY the background and background signage, leaving the entire photographed person including full hair, shoulders, torso and clothing. Preserve the original portrait canvas and aspect ratio, exact subject position, scale, pose, expression, face, hair, original lighting and photographic detail. No beautification, no newly generated facial/body/clothing material, no rotation, no reframing, no cropping and no repositioning. Real alpha transparency around the subject, with fine natural antialiased hair edges; no opaque or checkerboard backdrop. Do not add the purple eye mark or change the colors. This is solely a clean background removal.\nKeep only the foreground man, Paapa Essiedu. Remove the out-of-focus people behind him with the background. Preserve all photographed parts of his coat and earrings.",
+          "script": "output/portrait-processed/2026-10-22-rest/restore-and-align.mjs",
+          "validation": {
+            "sourceRgbPreserved": true,
+            "generatedRgbUsed": false,
+            "generatedAlphaUsed": true,
+            "refinedPixels": 769548,
+            "transparentPixels": 1002188,
+            "maskSimilarityTransform": {
+              "scale": 0.877501839457379,
+              "angle": -0.0015679966609723813
+            },
+            "rotationClockwiseDegrees": 0.7609466593702021
+          }
+        },
+        "composition": {
+          "input": "output/portrait-processed/2026-10-22-rest/paapa-essiedu-composition-cutout.png",
+          "height": 1355,
+          "anchorX": 846.1524216608827,
+          "anchorY": 551.5054064470886,
+          "erode": 2,
+          "contrast": 1.04,
+          "brightness": 1.05,
+          "offsetX": 4,
+          "targetX": 540,
+          "targetY": 490
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png",
+        "outerClothingFraming": {
+          "name": "Paapa-Essiedu",
+          "side": "right",
+          "startY": 720,
+          "endY": 850,
+          "boundaryX": 780,
+          "shift": 60,
+          "method": "Local horizontal resampling of photographed outer clothing only; no generated face, body or clothing pixels."
+        }
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-22-rest/Paapa-Essiedu-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "5069fe1a3c7f9a30777537206177ed5d07c91cec52cf491c713e958374f4e9c5"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-22-review/rest/types/6s/Paapa-Essiedu.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 89292,
+          "sha256": "3988dd63a8d4cab8e23811c0f8e66145df273362800e640aaeac541576f47903",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-22-review/rest/types/6s/s-Paapa-Essiedu.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 19092,
+          "sha256": "06c2fe2efeb034d737e8c19a792e9eb6945315b4aea0eea1c7eabe58997a5894",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "opaqueTemplatePixelsPreserved": 22457,
+        "portraitCheck": {
+          "ok": true,
+          "type": 6,
+          "slug": "Paapa-Essiedu",
+          "full": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-10-22-review/rest/types/6s/Paapa-Essiedu.webp",
+            "bytes": 89292,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-10-22-review/rest/types/6s/s-Paapa-Essiedu.webp",
+            "bytes": 19092,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=6&portraitSlug=Paapa-Essiedu#portrait-preflight"
+        },
+        "visualReview": "Revision 04 checked at full size and in dark and light themes; face alignment, clean hair edges and continuous shoulder framing reviewed."
+      },
+      "installedPaths": [],
+      "intendedInstallPaths": [
+        "static/types/6s/Paapa-Essiedu.webp",
+        "static/types/6s/s-Paapa-Essiedu.webp"
+      ],
+      "editorialStatus": {
+        "grade": 8.6,
+        "ready": false,
+        "remainingBlockers": [
+          "editorial_v3:stale_or_invalid_release"
+        ],
+        "verifiedAt": "2026-10-22T13:36:52.236Z"
+      },
+      "revision": {
+        "id": "04",
+        "description": "Shifted 36px left to center his face behind the purple eye mark.",
+        "previousAssets": {
+          "full": {
+            "path": "output/portrait-preflight/2026-10-22-review/rest/types/6s/Paapa-Essiedu.webp",
+            "width": 1080,
+            "height": 1080,
+            "bytes": 87406,
+            "sha256": "a8fb3317c1d56e4841b52290fad47f5ba02dcaf65bdb376ea219345c65e78bb3",
+            "alpha": true
+          },
+          "thumbnail": {
+            "path": "output/portrait-preflight/2026-10-22-review/rest/types/6s/s-Paapa-Essiedu.webp",
+            "width": 480,
+            "height": 480,
+            "bytes": 18966,
+            "sha256": "4c1da21231a835ffe26a88a041a6796577588d219d6e3511b2d2a8ba8a652784",
+            "alpha": true
+          }
+        }
+      },
+      "qualityNote": "Shifted 36px left to center his face behind the purple eye mark."
+    },
+    {
+      "slug": "codie-sanchez",
+      "name": "Codie Sanchez",
+      "filename": "Codie-Sanchez",
+      "type": "3",
+      "status": "completed_batch_portrait",
+      "source": {
+        "page": "https://www.inkl.com/news/codie-sanchez-17-income-streams-i-use-and-you-can-too-to-build-wealth",
+        "imageUrl": "https://images.inkl.com/s3/article/lead_image/22697368/Codie-Sanchez-Headshot-2.png",
+        "photographerOrCredit": "Photographer not identified; image distributed by Inkl",
+        "localOriginal": "output/portrait-sources/2026-10-07-queue/codie-sanchez-hires.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "7fbbcd20d9bfd963e477c6c3f7058cd09d563b350fb3e05000cdcc1de6e87284",
+        "rights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication."
+      },
+      "transformations": {
+        "segmentation": {
+          "tool": "built-in image_gen alpha refinement; original photographic RGB retained",
+          "prompt": "Use case: background-extraction\nEdit target: the attached transparent cutout of the real Codie Sanchez photograph. Refine ONLY the background removal. Completely remove the green/yellow/blue patches of original background clinging to the outside of her hair and shoulder, including the broad yellow halo along the left hair edge and the yellow loop behind the right hair. Preserve the same canvas, subject position, scale, natural strands and curls. Preserve her photographed face, expression, skin, clothing, and real natural hair highlights exactly. Do not reconstruct or beautify any facial features, do not relight her face, and do not invent hair or clothing. Keep genuine alpha transparency; no black, white or checkerboard backdrop. Do not add text or a purple mark.\n",
+          "validation": {
+            "sourceRgbPreserved": true,
+            "generatedRgbUsed": false,
+            "generatedAlphaUsed": true,
+            "refinedPixels": 688916,
+            "maskSimilarityTransform": {
+              "scale": 0.8751729571380117,
+              "angle": -0.0012910746436990833
+            },
+            "composition": {
+              "slug": "codie-sanchez",
+              "name": "Codie-Sanchez",
+              "input": "output/portrait-processed/2026-10-22-revision-04/codie-clean-cutout.png",
+              "height": 979,
+              "anchorX": 909.1279383431804,
+              "anchorY": 444.1626744466236,
+              "erode": 2,
+              "contrast": 1.04,
+              "brightness": 1,
+              "targetX": 540,
+              "targetY": 490
+            },
+            "highlightTreatment": {
+              "method": "Highlight-only grayscale tone curve outside the protected facial oval; original face and purple template unchanged",
+              "threshold": 155,
+              "reduction": 0.45,
+              "adjustedPixels": 71326
+            }
+          }
+        },
+        "clockwiseRotationDegrees": 0,
+        "composition": {
+          "slug": "codie-sanchez",
+          "name": "Codie-Sanchez",
+          "input": "output/portrait-processed/2026-10-22-revision-04/codie-clean-cutout.png",
+          "height": 979,
+          "anchorX": 909.1279383431804,
+          "anchorY": 444.1626744466236,
+          "erode": 2,
+          "contrast": 1.04,
+          "brightness": 1,
+          "targetX": 540,
+          "targetY": 490
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png",
+        "highlightTreatment": {
+          "method": "Highlight-only grayscale tone curve outside the protected facial oval; original face and purple template unchanged",
+          "threshold": 155,
+          "reduction": 0.45,
+          "adjustedPixels": 71326
+        }
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-22-rest/Codie-Sanchez-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "c561a99109ac6b01f527a864798faeb9b42d512bc9a6e174c33672efe3f40f54"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-22-review/rest/types/3s/Codie-Sanchez.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 86086,
+          "sha256": "113c58d7f5a9bee9a30ad7aec22d5f2a1b99157ac9b3f8674c172e9d3d0d0cac",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-22-review/rest/types/3s/s-Codie-Sanchez.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 23646,
+          "sha256": "4cbc68ed24e7ecfc891e0cb2518c5aebfea2bf684fc840d64f3517b6dbc6ca9f",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "unchangedOpaqueTemplatePixels": 22457,
+        "visualReview": "Revision 04 checked at full size and in dark and light themes; face alignment, clean hair edges and continuous shoulder framing reviewed.",
+        "handsInFinalCrop": false,
+        "glassesInFinalCrop": false,
+        "opaqueTemplatePixelsPreserved": 22457,
+        "portraitCheck": {
+          "ok": true,
+          "type": 3,
+          "slug": "Codie-Sanchez",
+          "full": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-10-22-review/rest/types/3s/Codie-Sanchez.webp",
+            "bytes": 86086,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-10-22-review/rest/types/3s/s-Codie-Sanchez.webp",
+            "bytes": 23646,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=3&portraitSlug=Codie-Sanchez#portrait-preflight"
+        }
+      },
+      "qualityNote": "Removed background remnants around her hair and softened harsh rim-light highlights; preserved the original face.",
+      "installedPaths": [],
+      "intendedInstallPaths": [
+        "static/types/3s/Codie-Sanchez.webp",
+        "static/types/3s/s-Codie-Sanchez.webp"
+      ],
+      "editorialStatus": {
+        "grade": 8.3,
+        "ready": false,
+        "remainingBlockers": [
+          "content_quality_below_8.5:8.3",
+          "editorial_v3:missing_or_invalid_release:ENOENT: no such file or directory, open '/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-10_06-00-04-931_codie-sanchez/release.json'"
+        ],
+        "verifiedAt": "2026-10-22T13:36:52.236Z"
+      },
+      "revision": {
+        "id": "04",
+        "description": "Removed background remnants around her hair and softened harsh rim-light highlights; preserved the original face.",
+        "previousAssets": {
+          "full": {
+            "path": "output/portrait-preflight/2026-10-22-review/rest/types/3s/Codie-Sanchez.webp",
+            "width": 1080,
+            "height": 1080,
+            "bytes": 68340,
+            "sha256": "8d6f6bb068e1ef8eff823b762e35c340af722d8fa16b8f1a0f0d167011f9abdb",
+            "alpha": true
+          },
+          "thumbnail": {
+            "path": "output/portrait-preflight/2026-10-22-review/rest/types/3s/s-Codie-Sanchez.webp",
+            "width": 480,
+            "height": 480,
+            "bytes": 19606,
+            "sha256": "408e7f8140172aa94a2e62c2051b1ace11e9d587d8734b5c92c6013d6d8f97f2",
+            "alpha": true
+          }
+        }
+      }
+    },
+    {
+      "slug": "grace-reiter",
+      "name": "Grace Reiter",
+      "filename": "Grace-Reiter",
+      "type": "6",
+      "status": "completed_batch_portrait",
+      "source": {
+        "page": "https://commons.wikimedia.org/wiki/File:Grace_Reiter.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Grace_Reiter.jpg",
+        "photographerOrCredit": "Tessa Bury",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "rights": "Creative Commons Attribution 4.0",
+        "localOriginal": "output/portrait-sources/2026-10-22-rest/grace-reiter.jpg",
+        "width": 3901,
+        "height": 4876,
+        "sha256": "353a0ab78f5293201fdfc807f54b1b7a2d69d256e145d469cb32e5d2798bd73e",
+        "attribution": "Grace Reiter — Tessa Bury, CC BY 4.0. Adapted by 9takes: crop, background removal, tilt correction, grayscale, contrast, placement and purple eye overlay. "
+      },
+      "transformations": {
+        "sourceCrop": {
+          "left": 0,
+          "top": 0,
+          "width": 3901,
+          "height": 4876
+        },
+        "segmentation": {
+          "tool": "built-in image_gen alpha refined against local Apple Vision",
+          "prompt": "Use case: background-extraction\nEdit target: the attached real photograph. Remove ONLY the background and background signage, leaving the entire photographed person including full hair, shoulders, torso and clothing. Preserve the original portrait canvas and aspect ratio, exact subject position, scale, pose, expression, face, hair, original lighting and photographic detail. No beautification, no newly generated facial/body/clothing material, no rotation, no reframing, no cropping and no repositioning. Real alpha transparency around the subject, with fine natural antialiased hair edges; no opaque or checkerboard backdrop. Do not add the purple eye mark or change the colors. This is solely a clean background removal.",
+          "script": "output/portrait-processed/2026-10-22-rest/restore-and-align.mjs",
+          "validation": {
+            "sourceRgbPreserved": true,
+            "generatedRgbUsed": false,
+            "generatedAlphaUsed": true,
+            "refinedPixels": 688770,
+            "transparentPixels": 537361,
+            "maskSimilarityTransform": {
+              "scale": 0.9148765915043243,
+              "angle": 0.00027420170344450226
+            },
+            "rotationClockwiseDegrees": 1.2501667949836182
+          }
+        },
+        "composition": {
+          "input": "output/portrait-processed/2026-10-22-rest/grace-reiter-composition-cutout.png",
+          "height": 1180,
+          "anchorX": 574.7060407848089,
+          "anchorY": 607.4563144540157,
+          "erode": 2,
+          "contrast": 1.04,
+          "brightness": 1,
+          "offsetX": 0,
+          "targetX": 540,
+          "targetY": 490
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png",
+        "outerClothingFraming": {
+          "name": "Grace-Reiter",
+          "side": "left",
+          "startY": 850,
+          "endY": 975,
+          "boundaryX": 360,
+          "shift": 130,
+          "method": "Local horizontal resampling of photographed outer clothing only; no generated face, body or clothing pixels."
+        }
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-22-rest/Grace-Reiter-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "f671c38105f89c9c4f5e8f05fde9d5affc5a85e25403561ca9fcc0df39b6dfba"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-22-review/rest/types/6s/Grace-Reiter.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 88054,
+          "sha256": "c3fa29aae0d6afa9768659bc9940df0e6a6f48124606f29ff6ba9e98ab216f86",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-22-review/rest/types/6s/s-Grace-Reiter.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 25786,
+          "sha256": "a6ad72a84c5db137d2977a41a7b229d1c55a68849ee98bcc99fe4c5415e7c09d",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "opaqueTemplatePixelsPreserved": 22457,
+        "portraitCheck": {
+          "ok": true,
+          "type": 6,
+          "slug": "Grace-Reiter",
+          "full": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-10-22-review/rest/types/6s/Grace-Reiter.webp",
+            "bytes": 88054,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-10-22-review/rest/types/6s/s-Grace-Reiter.webp",
+            "bytes": 25786,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=6&portraitSlug=Grace-Reiter#portrait-preflight"
+        },
+        "visualReview": "Revision 04 checked at full size and in dark and light themes; face alignment, clean hair edges and continuous shoulder framing reviewed."
+      },
+      "installedPaths": [],
+      "intendedInstallPaths": [
+        "static/types/6s/Grace-Reiter.webp",
+        "static/types/6s/s-Grace-Reiter.webp"
+      ],
+      "editorialStatus": {
+        "grade": 8.2,
+        "ready": false,
+        "remainingBlockers": [
+          "content_quality_below_8.5:8.2",
+          "editorial_v3:missing_or_invalid_release:ENOENT: no such file or directory, open '/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-16_06-00-03-204_grace-reiter/release.json'"
+        ],
+        "verifiedAt": "2026-10-22T13:36:52.236Z"
+      },
+      "revision": {
+        "id": "04",
+        "description": "Reduced portrait scale by 13.6% while keeping her eyes aligned with the unchanged purple mark.",
+        "previousAssets": {
+          "full": {
+            "path": "output/portrait-preflight/2026-10-22-review/rest/types/6s/Grace-Reiter.webp",
+            "width": 1080,
+            "height": 1080,
+            "bytes": 105560,
+            "sha256": "0ad57def54aaa0f5f43872d5e5dc8d2e8375f4b0f65167c6a599f1453ba47f4b",
+            "alpha": true
+          },
+          "thumbnail": {
+            "path": "output/portrait-preflight/2026-10-22-review/rest/types/6s/s-Grace-Reiter.webp",
+            "width": 480,
+            "height": 480,
+            "bytes": 30826,
+            "sha256": "8312122cf757a8ad4188da5f68474bed1f729bc20762555c6137226fd4e9ef88",
+            "alpha": true
+          }
+        }
+      },
+      "qualityNote": "Reduced portrait scale by 13.6% while keeping her eyes aligned with the unchanged purple mark."
+    }
+  ],
+  "validation": {
+    "codie": {
+      "sourceRgbPreserved": true,
+      "generatedRgbUsed": false,
+      "generatedAlphaUsed": true,
+      "refinedPixels": 688916,
+      "maskSimilarityTransform": {
+        "scale": 0.8751729571380117,
+        "angle": -0.0012910746436990833
+      },
+      "composition": {
+        "slug": "codie-sanchez",
+        "name": "Codie-Sanchez",
+        "input": "output/portrait-processed/2026-10-22-revision-04/codie-clean-cutout.png",
+        "height": 979,
+        "anchorX": 909.1279383431804,
+        "anchorY": 444.1626744466236,
+        "erode": 2,
+        "contrast": 1.04,
+        "brightness": 1,
+        "targetX": 540,
+        "targetY": 490
+      },
+      "highlightTreatment": {
+        "method": "Highlight-only grayscale tone curve outside the protected facial oval; original face and purple template unchanged",
+        "threshold": 155,
+        "reduction": 0.45,
+        "adjustedPixels": 71326
+      }
+    },
+    "edgeAdjustments": [
+      {
+        "name": "Grace-Reiter",
+        "side": "left",
+        "startY": 850,
+        "endY": 975,
+        "boundaryX": 360,
+        "shift": 130,
+        "method": "Local horizontal resampling of photographed outer clothing only; no generated face, body or clothing pixels."
+      },
+      {
+        "name": "Paapa-Essiedu",
+        "side": "right",
+        "startY": 720,
+        "endY": 850,
+        "boundaryX": 780,
+        "shift": 60,
+        "method": "Local horizontal resampling of photographed outer clothing only; no generated face, body or clothing pixels."
+      }
+    ]
+  }
+}

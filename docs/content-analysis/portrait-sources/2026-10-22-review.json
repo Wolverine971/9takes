@@ -1,0 +1,272 @@
+{
+  "date": "2026-10-22",
+  "status": "two_samples_awaiting_visual_approval",
+  "published": false,
+  "installedInPublisherVisibleDirectory": false,
+  "template": {
+    "path": "face-line-template.png",
+    "sha256": "74b6538bbdbf61cb61ce29a7c8e7a97041108f7fdc20851291c1cd388da09344",
+    "modified": false,
+    "fixedEyeTarget": {
+      "x": 540,
+      "y": 490
+    }
+  },
+  "themeTreatment": {
+    "dark": {
+      "well": "#2c1f28",
+      "filter": "contrast(1.08) brightness(0.92) saturate(0.68)"
+    },
+    "light": {
+      "well": "#f6f3fb",
+      "filter": "contrast(1.02) brightness(0.99) saturate(0.58)"
+    }
+  },
+  "queueAudit": "docs/content-analysis/portrait-sources/2026-10-22-queue-audit.json",
+  "portraits": [
+    {
+      "slug": "ilya-sutskever",
+      "name": "Ilya Sutskever",
+      "filename": "Ilya-Sutskever",
+      "type": "5",
+      "status": "sample_awaiting_user_approval",
+      "source": {
+        "page": "https://www.ted.com/talks/ilya_sutskever_the_exciting_perilous_journey_toward_agi",
+        "imageUrl": "https://ted-conferences-speaker-photos-production.s3.amazonaws.com/a5m5rmrz0ns0168iyzptv89rjhqc",
+        "photographerOrCredit": "Photographer not identified; TED speaker portrait",
+        "localOriginal": "output/portrait-sources/2026-10-07-queue/ilya-sutskever-source.jpg",
+        "width": 800,
+        "height": 600,
+        "sha256": "de53c2bb77c0d1a2d067d31cdecd888f6940e101957d155b1bf1a5d48b1d1e57",
+        "rights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication."
+      },
+      "transformations": {
+        "segmentation": "Apple Vision foreground mask; no face reconstruction",
+        "clockwiseRotationDegrees": 0,
+        "composition": {
+          "slug": "ilya-sutskever",
+          "name": "Ilya-Sutskever",
+          "input": "output/portrait-processed/2026-10-07-queue/ilya-sutskever-cutout.png",
+          "height": 1000,
+          "anchorX": 390,
+          "anchorY": 233.08,
+          "erode": 3,
+          "contrast": 1.04,
+          "brightness": 1,
+          "targetX": 540,
+          "targetY": 490
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png"
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-22-review/Ilya-Sutskever-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "f7eb4713500e22f69185acf368e991ce4131aff838372df027e7fcafe70193fe"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-22-review/types/5s/Ilya-Sutskever.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 38934,
+          "sha256": "c23b7b917952079ddd85a9e11a46b4e396c8b4b776a5f582807f5f27f8eb0829",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-22-review/types/5s/s-Ilya-Sutskever.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 12464,
+          "sha256": "031cc91eaa61f6bfb4765d005e233d4c84f3c1d0dcf4b62727ca56a8497cfec0",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "opaqueTemplatePixelsPreserved": 22457,
+        "editorialCheck": {
+          "slug": "ilya-sutskever",
+          "file": "src/blog/people/drafts/ilya-sutskever.md",
+          "type": "5",
+          "grade": 8.7,
+          "wordCount": 4469,
+          "editorialReady": true,
+          "blockers": [
+            "missing_full_image",
+            "missing_thumbnail_image"
+          ],
+          "preparedAssets": {
+            "full": {
+              "path": "output/portrait-preflight/2026-10-07-queue/Ilya-Sutskever.webp",
+              "width": 1080,
+              "height": 1080,
+              "bytes": 38934,
+              "sha256": "c23b7b917952079ddd85a9e11a46b4e396c8b4b776a5f582807f5f27f8eb0829",
+              "alpha": true
+            },
+            "thumbnail": {
+              "path": "output/portrait-preflight/2026-10-07-queue/s-Ilya-Sutskever.webp",
+              "width": 480,
+              "height": 480,
+              "bytes": 12464,
+              "sha256": "031cc91eaa61f6bfb4765d005e233d4c84f3c1d0dcf4b62727ca56a8497cfec0",
+              "alpha": true
+            }
+          },
+          "sourceRights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication.",
+          "livePublished": false,
+          "databaseRowExists": true
+        },
+        "visualReview": "Reviewed in local gallery using the production CSS filters and wells, in dark and light mode at hero and thumbnail sizes. Real detail-page/styleguide integration is deferred until approval."
+      },
+      "qualityNote": "Black-and-white source with moderate resolution and softer detail; no generative upscaling.",
+      "installedPaths": [],
+      "intendedInstallPaths": [
+        "static/types/5s/Ilya-Sutskever.webp",
+        "static/types/5s/s-Ilya-Sutskever.webp"
+      ]
+    },
+    {
+      "slug": "josh-hartnett",
+      "name": "Josh Hartnett",
+      "filename": "Josh-Hartnett",
+      "type": "6",
+      "status": "sample_awaiting_user_approval",
+      "source": {
+        "page": "https://www.themoviedb.org/person/2299-josh-hartnett/images/profiles",
+        "imageUrl": "https://image.tmdb.org/t/p/original/8nTEioiir92fGHcASarPxkjF6kG.jpg",
+        "photographerOrCredit": "Photographer not identified; TMDB profile portrait",
+        "localOriginal": "output/portrait-sources/2026-10-07-queue/josh-hartnett-source.jpg",
+        "width": 1000,
+        "height": 1500,
+        "sha256": "84a83f1cc232560d8824eb4fdf7168550cab9eef11ace9cc799d1b5e4b6e4bbc",
+        "rights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication."
+      },
+      "transformations": {
+        "segmentation": "Apple Vision foreground mask; no face reconstruction",
+        "clockwiseRotationDegrees": 0,
+        "composition": {
+          "slug": "josh-hartnett",
+          "name": "Josh-Hartnett",
+          "input": "output/portrait-processed/2026-10-07-queue/josh-hartnett-cutout.png",
+          "crop": "output/portrait-processed/2026-10-07-queue/josh-hartnett-crop.png",
+          "bottom": 1500,
+          "height": 973,
+          "anchorX": 504.1968673467636,
+          "anchorY": 588.7698276452645,
+          "erode": 3,
+          "contrast": 1.04,
+          "brightness": 1,
+          "targetX": 540,
+          "targetY": 490
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png",
+        "edgeRepair": {
+          "tool": "built-in image_gen",
+          "prompt": "Use case: background-extraction\nAsset type: Existing 9takes profile portrait, transparent square cutout.\nInput image 1 is the exact edit target: grayscale Josh Hartnett portrait with the purple scribble over his eyes. Input image 2 is the original photograph, only a reference for distinguishing actual hair from leftover pale background.\nRepair ONLY the background-removal edge around the top and sides of the hair in image 1. Remove white flecks, rectangular pale chunks and the bright halo trapped among the hair strands, especially at the crown. Keep real photographed hair shape and fine strands with natural antialiasing.\nPreserve the exact square canvas, subject scale and position, face, expression, grayscale shading, jacket, white shirt, and exact purple eye scribble. Do not beautify, relight, sharpen, replace or reconstruct the face. Do not change the shoulders or straight side crops of the original. Change only the narrow hair/background boundary above ear level.\nReturn the same square portrait with actual alpha transparency, not black or a painted checkerboard. No added backdrop, text, border or watermark.\n",
+          "rawOutput": "output/portrait-processed/2026-10-22-review/Josh-Hartnett-edge-repair.png",
+          "finalizer": "output/portrait-processed/2026-10-22-review/finalize-josh.mjs",
+          "scope": "Narrow hair boundary above y=425 only. No generated face or body pixels.",
+          "validation": {
+            "previous": "output/portrait-processed/2026-10-07-queue/Josh-Hartnett-master.png",
+            "master": "output/portrait-processed/2026-10-22-review/Josh-Hartnett-master.png",
+            "width": 1080,
+            "height": 1080,
+            "changedPixels": 35340,
+            "protectedPixels": 1006836,
+            "overlayPixels": 42589,
+            "faceAndBody": "all pixels at y >= 425 unchanged",
+            "hairInterior": "all pixels >=32px inside original alpha unchanged",
+            "template": "all pixels with nonzero template alpha unchanged"
+          }
+        }
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-22-review/Josh-Hartnett-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "9176044fc1b4c70183fa12a34b848dffc488f934cf74530357af51a926f2e489"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-22-review/types/6s/Josh-Hartnett.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 52778,
+          "sha256": "3a3bb9d1ed8e2c074bdbfc0fccaca5bd478b200fb02ddbea7fd103f2d7fe98f3",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-22-review/types/6s/s-Josh-Hartnett.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 11776,
+          "sha256": "3b32c26fca212396e049b182a6b9d0fdff3cadbf2538fa8fde5932fa8f79cc8b",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "opaqueTemplatePixelsPreserved": 22457,
+        "editorialCheck": {
+          "slug": "josh-hartnett",
+          "file": "src/blog/people/drafts/josh-hartnett.md",
+          "type": "6",
+          "grade": 8.5,
+          "wordCount": 3672,
+          "editorialReady": true,
+          "blockers": [
+            "missing_full_image",
+            "missing_thumbnail_image"
+          ],
+          "preparedAssets": {
+            "full": {
+              "path": "output/portrait-preflight/2026-10-07-queue/Josh-Hartnett.webp",
+              "width": 1080,
+              "height": 1080,
+              "bytes": 44780,
+              "sha256": "27e56d7d111fa02d895ddd2a86ef7dc437d233569757a4206f40bc08d54b8827",
+              "alpha": true
+            },
+            "thumbnail": {
+              "path": "output/portrait-preflight/2026-10-07-queue/s-Josh-Hartnett.webp",
+              "width": 480,
+              "height": 480,
+              "bytes": 10444,
+              "sha256": "e0abda501f99534be2b0d407ac36a59e9ce38ce1c2cdd5d4afe6f0499e8d54d8",
+              "alpha": true
+            }
+          },
+          "sourceRights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication.",
+          "livePublished": false,
+          "databaseRowExists": false
+        },
+        "visualReview": "Reviewed in local gallery using the production CSS filters and wells, in dark and light mode at hero and thumbnail sizes. Real detail-page/styleguide integration is deferred until approval."
+      },
+      "qualityNote": "Original older portrait retained; pale background fragments at crown repaired. Original face, clothing, purple overlay, and opaque hair interior preserved. Original shoulder side crops retained.",
+      "installedPaths": [],
+      "intendedInstallPaths": [
+        "static/types/6s/Josh-Hartnett.webp",
+        "static/types/6s/s-Josh-Hartnett.webp"
+      ]
+    }
+  ],
+  "afterApproval": [
+    "Copy each approved pair to intendedInstallPaths",
+    "Run node scripts/generate-personality-image-slug-map.js",
+    "Run node scripts/check-build-budgets.mjs --accept-portrait-baseline",
+    "Run portrait checks and review the real styleguide fixture",
+    "Resolve recorded source reuse rights before publication; publication requires a separate instruction"
+  ],
+  "review": {
+    "url": "http://127.0.0.1:8917/",
+    "html": "output/portrait-preflight/2026-10-22-review/index.html",
+    "darkScreenshot": "output/portrait-preflight/2026-10-22-review/review-dark.png",
+    "lightScreenshot": "output/portrait-preflight/2026-10-22-review/review-light.png"
+  }
+}

@@ -1,0 +1,581 @@
+{
+  "date": "2026-10-22",
+  "scope": "Substantial drafts with an assigned type and a missing full or thumbnail portrait",
+  "count": 20,
+  "candidates": [
+    {
+      "slug": "ilya-sutskever",
+      "file": "src/blog/people/drafts/ilya-sutskever.md",
+      "type": "5",
+      "grade": 8.7,
+      "wordCount": 4469,
+      "editorialReady": true,
+      "blockers": [
+        "missing_full_image",
+        "missing_thumbnail_image"
+      ],
+      "preparedAssets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-07-queue/Ilya-Sutskever.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 38934,
+          "sha256": "c23b7b917952079ddd85a9e11a46b4e396c8b4b776a5f582807f5f27f8eb0829",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-07-queue/s-Ilya-Sutskever.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 12464,
+          "sha256": "031cc91eaa61f6bfb4765d005e233d4c84f3c1d0dcf4b62727ca56a8497cfec0",
+          "alpha": true
+        }
+      },
+      "sourceRights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication.",
+      "livePublished": false,
+      "databaseRowExists": true
+    },
+    {
+      "slug": "josh-hartnett",
+      "file": "src/blog/people/drafts/josh-hartnett.md",
+      "type": "6",
+      "grade": 8.5,
+      "wordCount": 3672,
+      "editorialReady": true,
+      "blockers": [
+        "missing_full_image",
+        "missing_thumbnail_image"
+      ],
+      "preparedAssets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-07-queue/Josh-Hartnett.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 44780,
+          "sha256": "27e56d7d111fa02d895ddd2a86ef7dc437d233569757a4206f40bc08d54b8827",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-07-queue/s-Josh-Hartnett.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 10444,
+          "sha256": "e0abda501f99534be2b0d407ac36a59e9ce38ce1c2cdd5d4afe6f0499e8d54d8",
+          "alpha": true
+        }
+      },
+      "sourceRights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication.",
+      "livePublished": false,
+      "databaseRowExists": false
+    },
+    {
+      "slug": "sombr",
+      "file": "src/blog/people/drafts/sombr.md",
+      "type": "3",
+      "grade": 8.3,
+      "wordCount": 3191,
+      "editorialReady": true,
+      "blockers": [
+        "missing_full_image",
+        "missing_thumbnail_image"
+      ],
+      "preparedAssets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-07-queue/Sombr.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 40504,
+          "sha256": "62d7eb52aa79bbb19131a55b184baba1b19b0f57c6593f66d5b46ae5d0ecb002",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-07-queue/s-Sombr.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 13466,
+          "sha256": "8978076e3076b435a07b10f5aa68702681e778752e8e7bfccc50a333e993e970",
+          "alpha": true
+        }
+      },
+      "sourceRights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication.",
+      "livePublished": false,
+      "databaseRowExists": false
+    },
+    {
+      "slug": "cara-delevingne",
+      "file": "src/blog/people/drafts/Cara-Delevingne.md",
+      "type": "4",
+      "grade": 8.6,
+      "wordCount": 3863,
+      "editorialReady": false,
+      "blockers": [
+        "grade_unstable:0.4_delta",
+        "missing_perspective_review:run scripts/run-blog-pipeline.sh <Person> --resume",
+        "missing_full_image",
+        "missing_thumbnail_image"
+      ],
+      "preparedAssets": null,
+      "sourceRights": null,
+      "livePublished": false,
+      "databaseRowExists": true
+    },
+    {
+      "slug": "laura-loomer",
+      "file": "src/blog/people/drafts/Laura-Loomer.md",
+      "type": "6",
+      "grade": 8.6,
+      "wordCount": 2407,
+      "editorialReady": false,
+      "blockers": [
+        "invalid_perspective_review_manifest:rerun full blog pipeline",
+        "missing_full_image",
+        "missing_thumbnail_image"
+      ],
+      "preparedAssets": null,
+      "sourceRights": null,
+      "livePublished": false,
+      "databaseRowExists": true
+    },
+    {
+      "slug": "paapa-essiedu",
+      "file": "src/blog/people/drafts/paapa-essiedu.md",
+      "type": "6",
+      "grade": 8.6,
+      "wordCount": 3498,
+      "editorialReady": false,
+      "blockers": [
+        "editorial_v3:stale_or_invalid_release",
+        "missing_full_image",
+        "missing_thumbnail_image"
+      ],
+      "preparedAssets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-07-queue/Paapa-Essiedu.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 49410,
+          "sha256": "f6cf5695818602c3383c1dec3463024daf33ca2957dd9e359c578ef398ec32b3",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-07-queue/s-Paapa-Essiedu.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 9866,
+          "sha256": "04ec6ccd3be0f956709a930a6a255264043131a6ecb066f28b2aeb65fe2e752e",
+          "alpha": true
+        }
+      },
+      "sourceRights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication.",
+      "livePublished": false,
+      "databaseRowExists": false
+    },
+    {
+      "slug": "mike-faist",
+      "file": "src/blog/people/drafts/mike-faist.md",
+      "type": "4",
+      "grade": 8.4,
+      "wordCount": 3682,
+      "editorialReady": false,
+      "blockers": [
+        "content_quality_below_8.5:8.4",
+        "editorial_v3:missing_or_invalid_release:ENOENT: no such file or directory, open '/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-15_06-00-03-138_mike-faist/release.json'",
+        "missing_full_image",
+        "missing_thumbnail_image"
+      ],
+      "preparedAssets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-07-queue/Mike-Faist.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 53020,
+          "sha256": "119503885445c0cea96ffaf1fc1392038ac0ecfd1e269b3f16b4f89e01007058",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-07-queue/s-Mike-Faist.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 13938,
+          "sha256": "039abbad85258297ebbc2c8eee45974a8f6270074922d18fdd4f160a4c78845c",
+          "alpha": true
+        }
+      },
+      "sourceRights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication.",
+      "livePublished": false,
+      "databaseRowExists": true
+    },
+    {
+      "slug": "stella-lefty",
+      "file": "src/blog/people/drafts/stella-lefty.md",
+      "type": "9",
+      "grade": 8.4,
+      "wordCount": 3006,
+      "editorialReady": false,
+      "blockers": [
+        "editorial_v3:stale_or_invalid_release",
+        "missing_full_image",
+        "missing_thumbnail_image"
+      ],
+      "preparedAssets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-07-queue/Stella-Lefty.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 54824,
+          "sha256": "27e59371d20b37fc9d9e2900e6ce335c47060097fd90d95bf59bf7abfed208fd",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-07-queue/s-Stella-Lefty.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 15000,
+          "sha256": "ca9d79bfe668211b520aa594c1b90d4f0e3127d9c0619c531caed5414817585b",
+          "alpha": true
+        }
+      },
+      "sourceRights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication.",
+      "livePublished": false,
+      "databaseRowExists": true
+    },
+    {
+      "slug": "codie-sanchez",
+      "file": "src/blog/people/drafts/codie-sanchez.md",
+      "type": "3",
+      "grade": 8.3,
+      "wordCount": 4392,
+      "editorialReady": false,
+      "blockers": [
+        "content_quality_below_8.5:8.3",
+        "editorial_v3:missing_or_invalid_release:ENOENT: no such file or directory, open '/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-10_06-00-04-931_codie-sanchez/release.json'",
+        "missing_full_image",
+        "missing_thumbnail_image"
+      ],
+      "preparedAssets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-07-queue/Codie-Sanchez.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 68802,
+          "sha256": "eedd0b27113f6bf98817a25e193dda74b28d0fa2b1f367ff63265ca64b7f49ba",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-07-queue/s-Codie-Sanchez.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 19664,
+          "sha256": "396229952291e046a786e181a48a2cdec2744a3480ab535a0fbfa49023f3ddd6",
+          "alpha": true
+        }
+      },
+      "sourceRights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication.",
+      "livePublished": false,
+      "databaseRowExists": true
+    },
+    {
+      "slug": "sienna-spiro",
+      "file": "src/blog/people/drafts/sienna-spiro.md",
+      "type": "2",
+      "grade": 8.3,
+      "wordCount": 3284,
+      "editorialReady": false,
+      "blockers": [
+        "content_quality_needs_review",
+        "editorial_v3:missing_or_invalid_release:ENOENT: no such file or directory, open '/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-14_06-00-03-124_sienna-spiro/release.json'",
+        "missing_full_image",
+        "missing_thumbnail_image"
+      ],
+      "preparedAssets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-07-queue/Sienna-Spiro.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 36000,
+          "sha256": "b62a2e161cc9cc8d5041cee49048e69de8d7a069bc3fb1370df0dab9f235e51b",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-07-queue/s-Sienna-Spiro.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 10164,
+          "sha256": "4f81e815a1562e7cfbb49acb4428096c1c869f7b5ae51f3213fa33a3f5492824",
+          "alpha": true
+        }
+      },
+      "sourceRights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication.",
+      "livePublished": false,
+      "databaseRowExists": true
+    },
+    {
+      "slug": "lily-rose-depp",
+      "file": "src/blog/people/drafts/Lily-Rose-Depp.md",
+      "type": "6",
+      "grade": 8.2,
+      "wordCount": 3769,
+      "editorialReady": false,
+      "blockers": [
+        "content_quality_below_8.5:8.2",
+        "editorial_v3:missing_or_invalid_release:ENOENT: no such file or directory, open '/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-16_18-51-02-001_Lily-Rose-Depp/release.json'",
+        "missing_full_image",
+        "missing_thumbnail_image"
+      ],
+      "preparedAssets": null,
+      "sourceRights": null,
+      "livePublished": false,
+      "databaseRowExists": true
+    },
+    {
+      "slug": "ella-beatty",
+      "file": "src/blog/people/drafts/ella-beatty.md",
+      "type": "6",
+      "grade": 8.2,
+      "wordCount": 2952,
+      "editorialReady": false,
+      "blockers": [
+        "editorial_v3:stale_or_invalid_release",
+        "missing_full_image",
+        "missing_thumbnail_image"
+      ],
+      "preparedAssets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-07-queue/Ella-Beatty.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 48320,
+          "sha256": "10a697a7ed991bcf8cb5840a28e6cc1e27ed99fed6a2d2c255f9a864f2ba99ce",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-07-queue/s-Ella-Beatty.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 11858,
+          "sha256": "5a4f9fb3f9ae59dc83e6077b753951a70d772b84d2a03fa066d3c3244dfbfa7c",
+          "alpha": true
+        }
+      },
+      "sourceRights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication.",
+      "livePublished": false,
+      "databaseRowExists": true
+    },
+    {
+      "slug": "grace-reiter",
+      "file": "src/blog/people/drafts/grace-reiter.md",
+      "type": "6",
+      "grade": 8.2,
+      "wordCount": 3842,
+      "editorialReady": false,
+      "blockers": [
+        "content_quality_below_8.5:8.2",
+        "editorial_v3:missing_or_invalid_release:ENOENT: no such file or directory, open '/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-16_06-00-03-204_grace-reiter/release.json'",
+        "missing_full_image",
+        "missing_thumbnail_image"
+      ],
+      "preparedAssets": null,
+      "sourceRights": null,
+      "livePublished": false,
+      "databaseRowExists": true
+    },
+    {
+      "slug": "inde-navarrette",
+      "file": "src/blog/people/drafts/Inde-Navarrette.md",
+      "type": "6",
+      "grade": 8.1,
+      "wordCount": 4258,
+      "editorialReady": false,
+      "blockers": [
+        "content_quality_below_8.5:8.1",
+        "editorial_v3:missing_or_invalid_release:ENOENT: no such file or directory, open '/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-11_01-33-50-735_Inde-Navarrette/release.json'",
+        "missing_full_image",
+        "missing_thumbnail_image"
+      ],
+      "preparedAssets": null,
+      "sourceRights": null,
+      "livePublished": false,
+      "databaseRowExists": true
+    },
+    {
+      "slug": "maleah-joi-moon",
+      "file": "src/blog/people/drafts/maleah-joi-moon.md",
+      "type": "6",
+      "grade": 8,
+      "wordCount": 3806,
+      "editorialReady": false,
+      "blockers": [
+        "content_quality_needs_review",
+        "editorial_v3:missing_or_invalid_release:ENOENT: no such file or directory, open '/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-12_06-00-04-763_maleah-joi-moon/release.json'",
+        "missing_full_image",
+        "missing_thumbnail_image"
+      ],
+      "preparedAssets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-07-queue/Maleah-Joi-Moon.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 71586,
+          "sha256": "fb14acc8cc3b66dd98c623350eb571b4a023c27d535190a0ad3ffe0404c73df0",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-07-queue/s-Maleah-Joi-Moon.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 16496,
+          "sha256": "b1a48178e6ef239e6ed8504e4f5dd16f007b742e7a1e595e46f423a64144a8f3",
+          "alpha": true
+        }
+      },
+      "sourceRights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication.",
+      "livePublished": false,
+      "databaseRowExists": true
+    },
+    {
+      "slug": "dylan-patel",
+      "file": "src/blog/people/drafts/dylan-patel.md",
+      "type": "7",
+      "grade": 7.9,
+      "wordCount": 4262,
+      "editorialReady": false,
+      "blockers": [
+        "content_quality_below_8.5:7.9",
+        "editorial_v3:missing_or_invalid_release:ENOENT: no such file or directory, open '/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-17_06-00-03-505_dylan-patel/release.json'",
+        "missing_full_image",
+        "missing_thumbnail_image"
+      ],
+      "preparedAssets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-07-queue/Dylan-Patel.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 37490,
+          "sha256": "6f1b02bd6f40ba7b93503836ae1d0111efc635967201af0043e64b792a98cab2",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-07-queue/s-Dylan-Patel.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 10952,
+          "sha256": "dac12e1331d6b265010e391d2b4992e4a3dd8f93d188f4a141ab2c823d38c6a9",
+          "alpha": true
+        }
+      },
+      "sourceRights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication.",
+      "livePublished": false,
+      "databaseRowExists": true
+    },
+    {
+      "slug": "shyam-sankar",
+      "file": "src/blog/people/drafts/shyam-sankar.md",
+      "type": "6",
+      "grade": 7.9,
+      "wordCount": 4483,
+      "editorialReady": false,
+      "blockers": [
+        "content_quality_below_8.5:7.9",
+        "editorial_v3:missing_or_invalid_release:ENOENT: no such file or directory, open '/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-13_06-00-02-766_shyam-sankar/release.json'",
+        "missing_full_image",
+        "missing_thumbnail_image"
+      ],
+      "preparedAssets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-07-queue/Shyam-Sankar.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 70756,
+          "sha256": "4f38848cdc1679fea2ba61f2091a14b8cda11d7ed0e714c0c04d45146a8b74b5",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-07-queue/s-Shyam-Sankar.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 13012,
+          "sha256": "5addb815fbb5255c79ccaa48596bb90ab097ae209c1458d47ee717b0ada64db4",
+          "alpha": true
+        }
+      },
+      "sourceRights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication.",
+      "livePublished": false,
+      "databaseRowExists": true
+    },
+    {
+      "slug": "mark-fischbach",
+      "file": "src/blog/people/drafts/Mark-Fischbach.md",
+      "type": "1",
+      "grade": 7.3,
+      "wordCount": 4328,
+      "editorialReady": false,
+      "blockers": [
+        "creator_blocker:duplicate_subject: Mark Fischbach is Markiplier, and src/blog/people/drafts/Markiplier.md is already published as Type 7. This draft reads him as Type 1. DJ must either rerun as Markiplier --refresh --expanded-review or confirm a separate legal-name page before this draft is treated as production-ready.",
+        "content_quality_below_8.5:7.3",
+        "editorial_v3:missing_or_invalid_release:ENOENT: no such file or directory, open '/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-11_15-50-43-286_Mark-Fischbach/release.json'",
+        "missing_full_image",
+        "missing_thumbnail_image"
+      ],
+      "preparedAssets": null,
+      "sourceRights": null,
+      "livePublished": false,
+      "databaseRowExists": true,
+      "duplicateOf": "markiplier"
+    },
+    {
+      "slug": "tiger-woods",
+      "file": "src/blog/people/drafts/Tiger-Woods.md",
+      "type": "3",
+      "grade": null,
+      "wordCount": 4423,
+      "editorialReady": false,
+      "blockers": [
+        "missing_content_quality",
+        "editorial_v3:missing_or_invalid_release:ENOENT: no such file or directory, open '/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-04_22-22-14-073_Tiger-Woods/release.json'",
+        "missing_full_image",
+        "missing_thumbnail_image"
+      ],
+      "preparedAssets": null,
+      "sourceRights": null,
+      "livePublished": false,
+      "databaseRowExists": true
+    },
+    {
+      "slug": "christopher-abbott",
+      "file": "src/blog/people/drafts/christopher-abbott.md",
+      "type": "6",
+      "grade": null,
+      "wordCount": 4129,
+      "editorialReady": false,
+      "blockers": [
+        "missing_content_quality",
+        "editorial_v3:missing_or_invalid_release:ENOENT: no such file or directory, open '/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-19_06-00-06-598_christopher-abbott/release.json'",
+        "missing_full_image",
+        "missing_thumbnail_image"
+      ],
+      "preparedAssets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-07-queue/Christopher-Abbott.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 84352,
+          "sha256": "a561592b06d3459cf11b9fbf128daaf532e87cf3b18096d7c17a0cc1f7e00a6a",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-07-queue/s-Christopher-Abbott.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 15936,
+          "sha256": "988791a1c0d918137ac836f1c40b41031b4245a4e730f2741c1f3517d7313848",
+          "alpha": true
+        }
+      },
+      "sourceRights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication.",
+      "livePublished": false,
+      "databaseRowExists": false
+    }
+  ],
+  "publicationStatusVerifiedAt": "2026-10-22T13:36:52.236Z"
+}
