@@ -1,0 +1,2469 @@
+{
+	"schema_version": 3,
+	"subject": "Inde-Navarrette",
+	"status": "ready",
+	"research_tasks": [
+		"Thesis change for the draft stage (refresh): keep Type 6 as the leading read but present it as an open case at low confidence, with Type 3 as the strongest live alternative and Types 7 and 4 also live (Nine and Eight were tested and are not live: she names anxiety, doubt and fear directly and overrode a nervous director on day one; she describes assertiveness as something she had to learn). Add the required \"What would settle it\" H2 from open_case.settle_signals. Titles, description and FAQs must say \"leading read\" or \"open case\", not \"is a Type 6\".",
+		"Rewrite baseline passages that newly opened sources contradict or narrow: (a) the ending: she did relay that others felt her one take was \"magical and electric\" (S35, C61), so \"said nothing about her take persuading anyone\" must go; (b) \"Borrowed certainty\": she withheld the freakouts from Barker in rehearsal (S40, C115), gave a protective reason (S42, C138), and the \"mirror\" was a substitute for watching herself (S11 audio, C23); C86 is revised accordingly; (c) the childhood moves: four tellings (C132), including \"making friends was always really difficult\" (S46, C112); (d) the 2023 cut: her contemporaneous reaction was \"at least you guys get a Season 4\" (S32, C12); (e) skydiving was a standing love by 2021 (S36, C129); (f) box office as of 2026-10-22 (C37).",
+		"Awards Chatter audio (S41, 91 min, downloaded from the public RSS enclosure) was never transcribed or listened to; the local job was killed. Every Awards Chatter quote (C115, C116, C117) comes from THR's written excerpts (S40), which THR says are \"lightly edited for clarity and brevity\". Before quoting, check the wording against the audio, and review the full episode for anything bearing on the Six/Three question (for example her account of handling fame, criticism or the drought).",
+		"Kyle Buchanan Show (S42) was machine-transcribed only from 0:00 to 34:34 of 52:24 (Whisper small.en on the Acast audio; YouTube captions were IpBlocked). Re-listen to every cited stretch before quoting (C113, C132, C133, C134, C136-C141) and review 34:34-52:24, which was not heard. Do not identify the show or director in the playback story (C136); she did not name them in the transcribed portion.",
+		"Other machine transcripts: the W video (S45), ET clips (S47, S48) and the audio spot-checks below are local Whisper small.en transcripts, not published transcripts. Re-listen before quoting; quote only clear words and mark omissions with ellipses.",
+		"Audio spot-checks done 2026-10-22 (Whisper on downloaded audio): S09 scream, ending and \"Dog, you're free\" passages, S10 safety net, S11 mirror/\"chasing that high\"/\"be extremely stubborn\", S16 Barker's take and \"make myself comfortable\" all match the captions (captions' \"Karyn\" is \"Curry\"). Unresolved: S10 10:41 captions \"what if people saw that I switched\" vs Whisper \"that I twitched\" (quote around that word); S11 09:21-09:31 captions \"if that's what Curry said, then that's definitely what happened\" vs Whisper \"if that's what Corey told him, that's definitely what happened\" (quote only \"that's definitely what happened\" or paraphrase); S11 21:29-21:33 garbled in both, so paraphrase only (\"she took the problem to Barker\").",
+		"S13 \"freaky Nikki\" refusal (14:33-14:45) and S12 charades line are attributed from turn order and content (no speaker labels); confirm visually before quoting with a speaker name.",
+		"Where she grew up is inconsistent across her own accounts: Variety (mostly Fresno/Visalia/Bakersfield, S10), ET (\"I grew up in Texas for a good majority of my life\", S47), Kyle Buchanan (keeps going back to Texas; also Fresno, Corpus Christi, North Carolina, Washington, Arizona, S42), Wikipedia (raised primarily in Visalia, S01). Attribute each; do not state any as fact. Schön! has her father as a Marine Corps pilot (S34); other sources say Marine.",
+		"The Cosmopolitan original was not located; the Yahoo syndication (S37) was re-opened 2026-10-22 and matches the Trap House/Capstone, \"If I hadn't had that disappointment\" and \"divine timing\" quotes.",
+		"Superman & Lois character name: CBR 2021 (S19), Sweety High 2021 (S36), Just Jared Jr. 2023 (S22) and Yahoo 2026 say Sarah Cushing; Wikipedia (S01), KryptonSite (S21) and Cinemablend 2023 (S32) say Sarah Cortez. Confirm on-screen credits before stating one as the credited name, or attribute both.",
+		"People (S50) and the Los Angeles Times profile (S53) were not opened; cite the relays (S49, S52) as relays. The LA Times \"do it justice\" Rogue quote is secondhand.",
+		"Birth date: use only \"2001\" in the body; March 3, 2001 appears only in third-party profiles (S01, S05). Birthplace Tucson is third-party (S01, S05, S08, S33 intro).",
+		"Personal life: she has said she is in a relationship (\"I'm very happy in mine\", S40; \"my boyfriend\", S46) without naming the partner on record; rumored identities remain unconfirmed. Do not name anyone. Wikipedia's line on her sexuality is not relevant to the argument; omit.",
+		"Do not reference: the September 2026 online backlash roundup (S56: purported, unverified screenshots of social-media \"likes\", a \"cool girl\" street interview, and a journalist's dispute with her team), the Deadline report of an Obsession executive producer's profits suit (does not involve her), or anything clinical from CBR 2021/Looper 2022 remarks about her character's mental-health arc or \"bottling up\". If she later answers real criticism on record, that response is a settle signal.",
+		"Time-sensitive facts to re-check at next_review (2027-02-01): worldwide gross (The Numbers $520,006,715 on 2026-10-22; THR \"more than $522 million\" on 2026-10-21) and the $750,000 (NBC, THR) vs $1,000,000 (The Numbers) budget; SNL episode 2026-10-31 and its press; Academy Award nominations 2027-01-21 (Academy schedule, subject to change); Invertigo release (reported for 2027); The Waffle House Index status; X-Men release 2028-05-05; whether she has named an Enneagram type.",
+		"Open-case eligibility note for the verifier: adult (born 2001); first lead role and breakout are recent (Obsession, TIFF 2025-09-05, U.S. release 2026-05-15); earlier TV work (2019-2024) produced only short interviews, now opened (S19, S20, S21, S22/S39, S23, S32, S36). Independent testimony is limited to Barker and Johnston (S13, S15-S18). The record is thin because it is young; the remaining gap is S41 and the last 18 minutes of S42, listed above."
+	],
+	"accuracy_checked_at": "2026-10-22",
+	"risks": {
+		"sensitive_allegations": false,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": true
+	},
+	"sources": [
+		{
+			"id": "S01",
+			"url": "https://en.wikipedia.org/wiki/Inde_Navarrette",
+			"title": "Inde Navarrette",
+			"speaker": "Wikipedia contributors",
+			"date": "unknown (page last edited 2026-10-21; accessed 2026-10-22)",
+			"locator": "Lead; Early life; Career; Personal life sections (re-fetched 2026-10-22)",
+			"excerpt": "born March 3, 2001... in Tucson, Arizona... by age fifteen, she had attended eleven schools. After her parents separated, Navarrette was raised primarily in Visalia, California, briefly attending Mt. Whitney High School in Visalia before relocating to the Los Angeles area and enrolling at Redondo Union High School... Superman & Lois (2021-2024)... In 2025, Navarrette played Teresa Flores in the action film Trap House... After the festival premiere of Obsession, Navarrette filmed a lead role in the horror film Invertigo... cast as Rogue in an untitled X-Men reboot... planned 2028 release... signed on to star in The Waffle House Index... she is also an executive producer... scheduled to host an episode of Saturday Night Live on October 31, 2026... winning several accolades including a Critics' Choice Award.",
+			"context": "Tertiary compilation, re-fetched for the 2026-10-22 accuracy check. Useful for timeline and pointers only; not independent corroboration. Its \"raised primarily in Visalia\" matches her Variety account (S10) but not her ET remark that she grew up mostly in Texas (S47). The accolade line was not traced to the awarding body and is not used for anything load-bearing. A personal-life line about her sexuality is not relevant to the argument and should not be used.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S02",
+			"url": "https://www.nylon.com/entertainment/inde-navarrette-encounter-obsession-interview",
+			"title": "Inde Navarrette Wants To Prove 'Obsession' Isn't Just \"Lightning In A Bottle\"",
+			"speaker": "Inde Navarrette, interviewed by Lauren McCarthy (Nylon)",
+			"date": "2026-07-01",
+			"locator": "Corned-beef-at-the-deli profile; paragraphs on fame, auditions, privacy and dream projects",
+			"excerpt": "Strangers are now stopping her on the street... Her Instagram followers spiked to 2.2 million and counting. \"I don't care how much I'm not sleeping, because I don't know if I'll get this opportunity again.\" / \"Between Obsession and the film after that, I didn't work. I was walking dogs. I was streaming. I was doing a lot of these things to make money. I didn't have a lot of confidence because you just keep hearing no, and that can be debilitating.\" / \"I just clock it. I don't want it to affect the way that I go about things, but I'm a very private person.\" / (Like Timothée Chalamet and Connor Storrie before her, old videos of Navarrette's streamer channel have been resurfaced...) / \"I really want to prove that Obsession wasn't just lightning in a bottle... I also want to fall on my face publicly and have something that people don't like [but] maybe I do.\" She laughs. \"So, I'm looking forward to that.\" / \"It reminds me of being in a SoulCycle class and all of the girls are like, 'Sleep when you're dead.' Barry's Bootcamp and Orangetheory really [prepared me for this].\" / \"It took me a while to find my style online, which is why sometimes when people post old sh*t of mine, I go, 'Oh my God.'\"",
+			"context": "In-person profile, about two months after release, over a half-pound of corned beef on rye at 11 a.m. The writer frames the privacy quote as being about unsolicited public attention. The resurfaced-streams observation is the writer's, not hers. Draft stage re-fetched the page and matched every quote verbatim (curly quotes normalized to straight). Edit stage (2026-09-10) re-fetched the page: the not-sleeping line is followed at once by the SoulCycle/'Sleep when you're dead' joke, and the 'Oh my God' line about resurfaced posts comes immediately before the writer's resurfaced-streams aside. The article prints the asterisk in 'sh*t'.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S03",
+			"url": "https://www.numeronetherlands.com/in-conversation-with/in-conversation-with-inde-navarrette",
+			"title": "In Conversation With Inde Navarrette",
+			"speaker": "Inde Navarrette, interviewed by Jana Letonja; written by Anouk Woudt (Numero Netherlands)",
+			"date": "May 13 (year not displayed; content dates it to 2026)",
+			"locator": "Q&A: 'What drew you to the project?', 'How did working within the horror genre challenge you?', 'How does Obsession represent a turning point?'",
+			"excerpt": "I really wanted to transition into film, but to do it in a way that showed more of what I was capable of as an actress. Artistically, I felt like a boiling pot that kept being taken off the stove right before boiling over. Obsession was the perfect script for me to let it all out. / Horror was something I never thought I would be a part of. I am so deeply afraid of horror. / Obsession was the first time that I felt like I wasn't part of someone else's story.",
+			"context": "Release-week press Q&A. The written 'boiling pot' line is the draft's source for that image; she used a spoken version on GoldDerby (S11 03:07-03:18). The 'no control' line elsewhere in this Q&A is about playing Nikki and is not used as evidence of her own control needs. Draft stage re-fetched and matched wording verbatim.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S04",
+			"url": "https://www.mixedfeelings.earth/p/inde-navarrette-interview-obsession",
+			"title": "Inde Navarrette Desperately Seeks Someone to Nerd Out With",
+			"speaker": "Inde Navarrette, interviewed by Logan (mixed feelings Substack)",
+			"date": "2026-06-18",
+			"locator": "Hyperspecific questionnaire, LEVEL III: 'What's an anecdote you usually tell to describe how you were as a kid?'; later answer on edits and directing",
+			"excerpt": "I would always say, \"Mommy, I do.\" That's how I got my nickname, Inde, because I was very independent. She's a hairstylist and I would tell her clients that I don't let her do my hair. So very \"I do.\"... \"Nope. Mommy, I do.\" \"Hey, I'm going to blow these bubbles to give you bubbles.\" \"No, mommy, I do.\" \"I'm going to help you put on clothes.\" \"Nope. Mommy, I do.\" She was just like, \"Okay. You're my first daughter. I would like to dress you.\" / I want to direct one day.",
+			"context": "Fan-culture questionnaire. The nickname story is her retrospective self-report. Draft stage re-fetched and matched wording verbatim.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S05",
+			"url": "https://www.hola.com/us/celebrities/20260611906877/inde-navarrette-real-name-things-you-didnt-know/",
+			"title": "Inde Navarrette's real name and 5 more things you didn't know about the 'Obsession' star",
+			"speaker": "Daniel Neira (HOLA! USA)",
+			"date": "2026-06-11",
+			"locator": "Items 1-6 (real name, nickname, family, schools, Twitch)",
+			"excerpt": "Born Danielle Fabiola Navarrette on March 3, 2001... her mother gave her the nickname because she displayed fierce independence as a child... by age 15 she had attended 11 different schools... streamed Call of Duty, Halo, Red Dead Redemption and Fallout; built her own gaming PC during the pandemic.",
+			"context": "Aggregated explainer with no direct quotes; relies on 'multiple profiles'. Not independent of Wikipedia-era reporting. Used only for birth name and birthplace. The eleven-schools figure is not used in the draft.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S06",
+			"url": "https://www.complex.com/pop-culture/a/alex-ocho/inde-navarrette-obsession-acting-drought-streaming",
+			"title": "Inde Navarrette on Struggling to Book Roles After Filming 'Obsession': 'Nothing Was Sticking'",
+			"speaker": "Inde Navarrette, interviewed by Jillian Superstar (Complex News); written by Alex Ocho",
+			"date": "2026-06-24",
+			"locator": "Standfirst and article body quoting the Complex News video interview",
+			"excerpt": "The 25-year-old actress opened up about the career dry spell that followed the horror film, plus the self-built PC she used to keep the lights on. / \"I think I was in a space personally where I was so shut off from my own emotions, and with Nikki, you need all of them.\" / \"If I have this opportunity, I'm doing everything that I possibly can.\" / \"I'm doing this by myself in my room. Why don't I try?\" / Navarrette told Superstar she built her own PC in 2022 (reason for streaming: she loved watching other creators like Jacksepticeye and Jenna Marbles, and later enjoyed watching Vanillamace) / \"I would still love to do it, but I don't have time.\"",
+			"context": "The 'shut off' line describes her state at the Zoom callback; the 'opportunity' line her mindset going into the chemistry read. The self-built PC detail is the Complex writer's framing. Draft stage re-fetched and matched wording verbatim. Edit stage (2026-09-10) re-fetched: the 2022 PC build and the creators she watched are in the writer's framing of the video interview; 'I would still love to do it, but I don't have time' is her quote about streaming now.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S07",
+			"url": "https://www.nme.com/news/film/inde-navarrette-couldnt-get-a-job-for-one-and-a-half-years-after-obsession-wrapped-3953098",
+			"title": "Inde Navarrette couldn't get a job for one and a half years after 'Obsession' wrapped",
+			"speaker": "Victoria Luxford (NME), quoting Complex",
+			"date": "2026-06-25",
+			"locator": "Article body",
+			"excerpt": "\"I didn't work for a year and a half after Obsession... I was auditioning, I was doing everything, just nothing was sticking.\" / \"The audition process for Obsession was so crazy. I sent in a tape, they liked it, I went in for a Zoom read, it was awful. Because I felt like I knew where I wanted to take it but my body just wasn't reacting. I think I was in a space personally where I was so shut off from my own emotions, and with Nikki, you need all of them.\"",
+			"context": "Rewrite of the Complex interview (S06); not independent corroboration. Used for the 'it was awful' line and the year-and-a-half figure, both attributed in the draft as Complex News quoted by NME. Draft stage re-fetched and matched wording verbatim.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S08",
+			"url": "https://www.scmp.com/magazines/style/people/celebrities/article/3354079/meet-inde-navarrette-who-plays-nikki-curry-barkers-hit-horror-film-obsession",
+			"title": "Meet Inde Navarrette, who plays Nikki in Curry Barker's hit horror film, Obsession",
+			"speaker": "Ishani Sarkar (South China Morning Post)",
+			"date": "2026-05-19",
+			"locator": "Explainer bullets and quoted lines",
+			"excerpt": "Born Danielle Fabiola Navarrette in March 2001 in Tucson, Arizona... father was a US Marine (per USA Today)... 'Whenever I would see myself on the monitor, I would be so terrified of myself' (People).",
+			"context": "Explainer that aggregates USA Today and People. Secondary; corroborates birth name, birth year and Tucson.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S09",
+			"url": "https://www.youtube.com/watch?v=zEB4C4SIAbY",
+			"title": "Obsession Star Inde Navarrette Explains What's Really Happening to Nikki (Collider Ladies Night)",
+			"speaker": "Inde Navarrette, interviewed by Perri Nemiroff",
+			"date": "2026-05-16",
+			"locator": "Timestamps: 01:42-01:59 ('feels like drugs... It's dopamine'), 04:36-04:42 (Gladiator), 06:02-06:10 (mom's advice), 08:07-08:45 (Superman & Lois as college), 09:45-10:15 (leaving the show), 13:59-14:13 (chemistry read with Cooper), 14:44-15:13 ('ugliness', felt seen, don't show that), 20:24-21:10 (shy, scream sessions, charades), 25:05-25:31 (alternate ending), 01:33-01:59 (audition high setup), 09:45-10:23 (full freedom answer), 25:05-25:40 (full alternate-ending answer)",
+			"excerpt": "Funny enough, I didn't know how to scream. Whenever I met [Curry and] everybody, I was in a really shy place in my life... I said, \"I don't know how to scream, and I'm feeling very shy.\" And he was like, \"Okay, I'm going to schedule multiple days where it's just you and I, and then whenever you get comfortable with me, then we're going to do it in front of other people.\" And like, we played a charades game in order to kind of shock me out of it, and that created a really safe space... He did that where he would scream with me. And then he would stop and then I would stop. And he was like, \"No, what are you doing? Come on, go go go go on.\" / Honestly, I kind of felt like it was a blessing, not necessarily in disguise, but kind of just right in front of my face... as soon as they were kind of like, \"Dog, you're free.\" I was like, \"Dude.\"... So, that was hard to hear cuz I miss everybody / my mom really instilled in me to um not take no until no's a for sure / how can I make him utterly uncomfortable right now? / And I felt seen, I felt heard... very similar to this film where whenever I read the script I was like, I know exactly how to play this... you're constantly told, \"No, don't show that or don't be that or it's uncomfortable.\" / last minute we decided to change be like no she's a final girl she wouldn't do that / that feels like drugs. Feels great... It's dopamine. / an audition high is when um you can feel the energy change in the room, and you have this split second of either getting too much in your head or feeling a high off of it. And then you kind of let that feed you / I've always wanted to do film, and I love film, and I'm very thankful for Superman & Lois cuz it gave me my start... I got freedom. And it was again, to treat it like college, like I graduated. / we had an alternate ending where I didn't I I'm going to share this where Nikki kills herself. And we shot that... And last minute we decided to change be like no she's a final girl she wouldn't do that she's going to sit with the grief and also at the same time we're following her this entire time. Curry was like no we really we were we want to sit with her and that's why we got the ending that we did and so that day we decided to change it and so it just again kind of going back to that that quickness of flipping um just allowing yourself in that exact moment to have that freedom",
+			"context": "30-minute spoiler interview on release weekend. Nemiroff frames the Superman & Lois exit as budget-driven before asking. The 'blessing' reframe is retrospective after Obsession's success. 'I felt seen, I felt heard' follows her praise of Chronology of Water and precedes her comparison to reading the Obsession script; the draft keeps that order and does not attribute the line to the script alone. Auto-caption renders Curry as 'Karyn'. Draft stage re-checked all quoted lines against the cached caption transcript. Edit stage (2026-09-10) re-read the full ending answer: she attributes the change to a same-day call about the character and to Barker's wish to 'sit with her', and does not say her take persuaded anyone. The freedom answer includes her long-held film goal and 'like I graduated'. In the audition-high answer the caption inserts '[music]' between 'feeling' and 'a high'; the article omits the caption artifact.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S10",
+			"url": "https://www.youtube.com/watch?v=pnvlSfoB0Fw",
+			"title": "'Obsession's Inde Navarrette on Fame, X-Men, Oscar Buzz, & What Video Games She's Playing (Up Next with Variety)",
+			"speaker": "Inde Navarrette, interviewed by Tiana (Variety)",
+			"date": "2026-07-31",
+			"locator": "Timestamps: 05:46-07:22 (family, Marine father, moving, divorce, Central Valley), 07:27-08:52 (strict dad, hit by a car, lenses, college), 10:33-11:34 (deleted Twitch streams, 'my fear was for nothing'), 11:41-12:44 (streaming origins, 'I don't think that far ahead', audience size), 14:30-14:46 (discerning, audience trust), 22:14-22:28 ('none of my business'), 23:55-24:25 (left high school early, Orangetheory), 25:24-27:07 (Gladiator, dance battles, 'jump off of a bridge', place to hide, Nikki stood up), 27:17-27:52 (control, 'keep myself secure'), 28:43-29:09 (Oscar safety net), 30:06-30:24 (sensitive to horror, community), 06:47-07:22 (small-town mentality, Visalia homey), 30:06-30:15 (heal that)",
+			"excerpt": "Oh, I like I deleted all of them just cuz I felt like I was I got scared and I was like, why moving into like a new chapter of my life? Like what if people saw that I switched and now they don't take me seriously or it was just a lot of I mean it's not based on fact, but it I just panicked and I deleted a lot of them... now seeing that people are so lovingly holding on to it my fear was for nothing, but I mean everybody gets scared, but I love love love streaming at that time and it also just helped me out with like financials / I don't think that far ahead... I love playing video games by myself. I'm not getting any work. I know that other people do this... I would max out at like 100. Um which was nice and like intimate. / whenever it comes to what I do have control over in order to keep myself secure um it'll be my drives. It'll be my music. It'll be my video games / there's a part of my brain that is um just kind of having a safety net of if it doesn't happen, it doesn't mean that I didn't do a good job / My dad's a Marine, so I grew up moving around a lot / Me, I was like new story, new place. / I left high school early to work at a coffee shop because headshots were really expensive and my mom couldn't afford them / I would never act in front of them. That to me felt like I would rather jump off of a bridge. / Nikki stood up for herself in so many different ways as Wish Nikki and real Nikki and I felt like that was something I needed to learn / the horror community has been the most welcoming out of anyone that I've ever been a part of and I don't ever want to leave that / But as I've gotten older, I've really like appreciated like a small town mentality... I love Visalia. I love Tulare County. It's the 559 area. Um it's really it's just homey. / the beginning of Obsessed I was so sensitive and I feel like I have been my entire life especially towards horror movies. And something that Obsessed has done for me is heal that",
+			"context": "33-minute solo podcast, the longest single-subject source; speaker attribution is unambiguous (one guest). The Twitch answer responds to 'Are the streams still up on Twitch?' 'I don't think that far ahead' answers whether she began streaming with a career in mind. The 'place to hide' phrase is one she credits to Milly Alcock. Captions render Superman & Lois as 'Superstore' and Obsession as 'Obsessed'. Draft stage re-checked every quoted line against the cached caption transcript. Edit stage (2026-09-10) re-read the Twitch answer in full: the income line refers to streaming 'at that time', 'doing something that I loved and getting paid for it'. The caption rendering 'Obsessed' is replaced in the article by a bracketed [Obsession].",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S11",
+			"url": "https://www.youtube.com/watch?v=T1hlZg2YyjU",
+			"title": "Inde Navarrette on 'Obsession' Oscar dreams, freaky stories, what happens to Nikki after the credits (GoldDerby Awards Magnet)",
+			"speaker": "Inde Navarrette, interviewed by Ethan Alter (GoldDerby)",
+			"date": "2026-06-12",
+			"locator": "Timestamps: 03:00-03:38 (boiling pot, worst audition), 05:13-05:32 (kept Nikki private), 09:21-09:31 (if that's what Curry said, preceded by the two-years-ago memory reason), 17:56-18:15 (sensitive, Curry as mirror), 21:05-21:38 (torn ACL, 'Danielle, hold it together', reverse the shot), 32:08-32:15 ('extremely validating'), 35:48-36:01 (chasing that high), 36:01-36:13 ('challenge me but also allow me to um feel proud'), 36:23-36:31 (advice to young actors)",
+			"excerpt": "I felt as though it was the worst audition I had ever done. / I just needed to keep her private. I've really kept Nikki close to my chest. / I'm quite sensitive and so I didn't want to take anything home. So, I kind of used Curry as a mirror where I put full trust in him where I would show him the faces and he would tweak and whenever I heard, you know, that's perfect. No, keep it going. Keep it, keep it. That I loved / if that's what Curry said, then that's definitely what happened / Fun fact, I have a torn ACL... on the day we tried going backwards and tried going backwards and I was like Danielle, hold it together. You can do this... so he was like, \"Wait, what if you go forwards and we reverse it? Like let's try that.\" And so obviously that's what we did in the film / I would be lying to you if I said that that's not a dream and that isn't extremely validating / Kind of chasing that high to challenge myself. I think obviously whenever you're really scared of something, but you really want to do it justice and do it correctly and then you get that high of uh accomplishing it and feeling proud of it. / So really taking projects that that challenge me but also allow me to um feel proud... which I think I get from my mom and my dad. / Again, like challenge yourself, but also be extremely stubborn, you know what I mean? Kind of be delusional a little bit. You have to really believe in yourself before other people will.",
+			"context": "37-minute awards-campaign podcast; incentive to present as serious and humble. The 'Curry relieved' detail is her account of Barker's words and is not used. The line between the self-coaching and Barker's reply (21:29-21:33) is garbled in captions. Draft stage re-checked quoted lines against the cached caption transcript. Verify stage read the 09:21-09:31 context: the deference line directly follows \"because we shot this two years ago, there's some things that I kind of go\". Repair stage (2026-09-10) could not reopen the captions (youtube-transcript-api IpBlocked) and relies on that reading, which the article now reflects.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S12",
+			"url": "https://www.youtube.com/watch?v=mlwD5SdMM7I",
+			"title": "Inde Navarrette vs. Michael Johnston | Hot Ones Versus",
+			"speaker": "Inde Navarrette and Michael Johnston (First We Feast)",
+			"date": "2026-09-08",
+			"locator": "Timestamp 17:22-17:31 (charades origin story)",
+			"excerpt": "The beginning of \"Obsession\" was charades, because I was too scared to do shit, and Curry was like, \"You got to get over that,\" and he's like, \"You're all going to come over and play charades.\"",
+			"context": "Comedic hot-wing game show; stress and bravado are part of the format. Transcript has no speaker labels. This line is attributed to Navarrette because it repeats her Collider account (S09 20:24-21:10) in the first person. Re-checked against the cached caption transcript at draft stage. Edit stage (2026-09-10) removed this line from the article because the transcript has no speaker label; it is no longer used.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S13",
+			"url": "https://www.youtube.com/watch?v=mlwD5SdMM7I",
+			"title": "Inde Navarrette vs. Michael Johnston | Hot Ones Versus (Johnston's remarks)",
+			"speaker": "Michael Johnston (Obsession co-star)",
+			"date": "2026-09-08",
+			"locator": "Timestamps 14:33-14:47 (freaky Nikki smile) and 15:18-15:31 (answers the phone)",
+			"excerpt": "Dude, I can't imagine another freaky Nikki... When you did the smile, \"I'm your freaky Nikki,\" remember I was like, \"Show me what you're going to do.\" And you were like, \"No.\" You were like, \"No.\" / Dude, and guess who always answers the phone? Every time I call, you always answer me... You have never not answered the phone. I love this girl.",
+			"context": "Co-star testimony inside a joint promotional appearance; friendly and not independent of the press cycle, but a second person's account. Attribution to Johnston inferred from turn order and content (he addresses her as 'you'; the transcript notes '(Inde pops lips)' in response). Confirm visually. The phone line is not used in the draft. The transcript labels the following turn '[Inde] Do you want another one?', which supports attributing the preceding lines to Johnston.",
+			"kind": "testimony",
+			"access": "opened"
+		},
+		{
+			"id": "S14",
+			"url": "https://www.youtube.com/watch?v=IFUny5cZAdk",
+			"title": "Inde Navarrette on Her New Hit Movie Obsession, Being a Daredevil & She Makes a Wish with Jimmy (Jimmy Kimmel Live)",
+			"speaker": "Inde Navarrette, interviewed by Jimmy Kimmel",
+			"date": "2026-06-06",
+			"locator": "Timestamps: 02:55-03:15 (skydiving and piercings), 05:02-05:13 (random tattoos), 06:52-07:09 (family and horror), 08:21-08:23 (age)",
+			"excerpt": "My mom and my brothers are here... On my 18th birthday, I went skydiving... I got my nipples pierced all in one day. / So I love getting random tattoos / the Australian side of my family does not like horror movies at all, but the Mexican side does. / I was 23 when we filmed it. I just turned 25",
+			"context": "Late-night comedy segment with her mother and brothers in the audience; she frames the piercing story as news to them. Performance incentives are high. Re-checked against the cached caption transcript at draft stage.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S15",
+			"url": "https://www.youtube.com/watch?v=Op0b77nTmTg",
+			"title": "'Obsession' SPOILER Interviews with Curry Barker, Inde Navarrette and Michael Johnston (CinemaBlend)",
+			"speaker": "Curry Barker (writer-director)",
+			"date": "2026-05-29",
+			"locator": "Timestamp 03:17-04:15",
+			"excerpt": "What she really brought that I really appreciated was she she brought she brought um a personality trait to the real Nikki that I did not anticipate. I mean, I I had written Nikki as this really sweet girl next door... But what Indy brought was this like bro-y type of uh uh like um sassiness to Nikki that I didn't anticipate, but ended up working really well for the movie. Because it kind of emphasizes that Bear is totally in the friend zone.",
+			"context": "Director testimony in a joint press junket. The draft quotes 'this like bro-y type of... sassiness to Nikki that I didn't anticipate', using an ellipsis only to remove the filler 'uh uh like um'. Re-checked against the cached caption transcript at draft stage.",
+			"kind": "testimony",
+			"access": "opened"
+		},
+		{
+			"id": "S16",
+			"url": "https://www.youtube.com/watch?v=1CvhgXByrtM",
+			"title": "OBSESSION Q&A w/ Curry Barker, Inde Navarette, Michael Johnston, Cooper Tomlinson, Megan Lawless (Alamo Drafthouse)",
+			"speaker": "Curry Barker and Inde Navarrette (panel)",
+			"date": "2026-06-08",
+			"locator": "Timestamps: 16:17-16:24 ('up to me to make myself comfortable'), 22:57-23:32 (Barker on the ending)",
+			"excerpt": "Barker: what happened is we we were only going to shoot one take like I was just like it was kind a throw away, actually. Like, cuz we shot so many takes of the version that was in the script. And then, I was like, \"Hey, listen, um Capstone really wants us to do a version where you live, so we're just going to do one one take one take where you live, and um whatever.\" And it Her performance was so crazy with the with the take where she lives, and so disturbing, um that I had people basically talk me into it and be like, \"She has to live, dude. It's way crazier if she lives.\" / Navarrette: But there's some moments where it's just up to me to make myself comfortable.",
+			"context": "Post-screening panel. Barker's account of why the ending changed (studio-requested throwaway take, persuaded by her performance) differs in emphasis from hers in S09 (decided on the day: 'she's a final girl'); the draft attributes each version to its speaker. The video title supplies Cooper Tomlinson's surname. An unlabeled panelist says of the not-perceived idea 'That was her idea, and it was brilliant'; not used. Re-checked against the cached caption transcript at draft stage. Edit stage uses the 16:17-16:24 line ('up to me to make myself comfortable'); it follows her description of Johnston off-screen helping her feel comfortable in one challenging scene. The article now describes Capstone as the company that funded the film, following her words in S37.",
+			"kind": "testimony",
+			"access": "opened"
+		},
+		{
+			"id": "S17",
+			"url": "https://moveablefest.com/curry-barker-obsession/",
+			"title": "TIFF 2025 Interview: Curry Barker on Crushing It in 'Obsession'",
+			"speaker": "Curry Barker, interviewed by Stephen Saito (Moveable Fest)",
+			"date": "2025-09-06",
+			"locator": "Answer to 'What sold you on Inde and Michael to play these characters?'",
+			"excerpt": "It was a really hard casting process because I was going for super-natural... some people were really good at the scary stuff, but they couldn't get the crazy stuff quite right, or they were really good at the crazy stuff, but they couldn't get the natural stuff quite right and that was a journey to find someone that could nail both those worlds, and Inde just nailed it.",
+			"context": "Pre-release festival interview, before the box-office run; the earliest director testimony and the least shaped by later success. Draft stage re-fetched and matched wording verbatim.",
+			"kind": "testimony",
+			"access": "opened"
+		},
+		{
+			"id": "S18",
+			"url": "https://www.youtube.com/watch?v=cHhg3BeloDI",
+			"title": "WATCH: Curry Barker, Michael Johnston, Inde Navarrette On Healthy OBSESSION, Love, OG Nikki's End (India Today)",
+			"speaker": "Michael Johnston (Obsession co-star)",
+			"date": "2026-05-28",
+			"locator": "Timestamp 04:05-04:16",
+			"excerpt": "I You know, I was always um impressed with what Indie brought to the table, but you know, she had that from the jump.",
+			"context": "Joint junket; Johnston answers first when asked whether the co-stars surprised each other. Not used in the draft.",
+			"kind": "testimony",
+			"access": "opened"
+		},
+		{
+			"id": "S19",
+			"url": "https://www.cbr.com/superman-lois-inde-navarrette-sarah-cushing-interview/",
+			"title": "Superman & Lois Interview: Inde Navarrette Breaks Down Sarah",
+			"speaker": "Inde Navarrette, interviewed by Meagan Damore (CBR)",
+			"date": "2021-03-15",
+			"locator": "Answers to 'How did you land the role of Sarah Cushing?' and 'Which aspect of Sarah's character do you relate to the most and why?'",
+			"excerpt": "I created this mindset with my mom when I was 13 about going into auditions... where if we don't get something, that's not what we're supposed to do... we'd go get lost, find dinner, come home, and by the time that we got home, if it was a bad audition -- like, I don't remember half of my auditions... So with that mindset, whenever I got old enough to drive myself, which was during the Superman & Lois auditions, I realized that I didn't have that distraction. I realized very quickly that I needed to kind of make a pact with myself of, \"You know what? I'm going to give it 110%.\" That way, whenever I leave, there's no room for doubt, because doubt can really just weed its way in and just be a massive little B! / survival mode, almost, is what I like to call it, of going in, getting it done, and then leaving and letting it go once I leave the lot / With me feeling so uncomfortable with that nature, I brought my Zodiac book... from Aries all the way to Pisces, 12 signs... I wasn't talking to these girls, because I knew once I did, I would just want to be their friends / I love to think of myself as a very strong woman / I feel as though my stuff is my own and I'm very private about that.",
+			"context": "Pre-fame (series premiere) interview. Draft stage re-fetched the full page and matched every quoted line verbatim. The 'very personally' attachment line about the character's mental-health arc is deliberately omitted from the draft.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S20",
+			"url": "https://www.looper.com/783590/inde-navarrette-on-the-superman-lois-cast-honoring-culture-and-sarahs-mental-health-exclusive-interview/",
+			"title": "Inde Navarrette Talks The Superman & Lois Cast, Honoring Culture, And Sarah's Mental Health Journey",
+			"speaker": "Inde Navarrette, interviewed by Xandra Harbet (Looper)",
+			"date": "2022-03-01",
+			"locator": "Q&A answers on working with seasoned actors, Sarah's mental-health arc, names and identity, advice from castmates (re-fetched 2026-10-22)",
+			"excerpt": "\"It's amazing to work with seasoned actors because I always ask them questions, and Emmanuelle [Chriqui] and I are always working together. [There are] moments where I'm slowly getting comfortable with asking her how we go about things, running lines beforehand, seeing her ideas, my ideas, [and] see if they match.\" / \"She's older than me, so she's able to look down and guide me in different ways... Everything's open, and she's just as willing to teach, and I'm willing to learn.\"",
+			"context": "Pre-fame primary source (2022), re-opened 2026-10-22. Contains a remark about bottling up feelings and her character's mental-health arc; do not infer anything clinical or biographical from it. Her comments on the character's sexuality are about the role.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S21",
+			"url": "https://www.kryptonsite.com/superman-lois-full-interview-with-inde-navarrette-sarah/",
+			"title": "Superman & Lois: Full Interview with Inde Navarrette (Sarah)",
+			"speaker": "Inde Navarrette, interviewed by Craig Byrne (KryptonSite)",
+			"date": "2023-06-06",
+			"locator": "Answer about the slap scene with Emmanuelle Chriqui",
+			"excerpt": "I let her actually slap me five or six times... There's one time where Emmanuelle did it, and I was like \"you've got to slap me harder. I love you, but you've got to slap me harder.\"",
+			"context": "Fan-site interview at the end of season 3, the month her series-regular status ended. Uses 'Sarah Cortez' where earlier outlets use 'Cushing'. Draft stage re-fetched and matched wording verbatim.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S22",
+			"url": "https://www.justjaredjr.com/2023/04/07/inde-navarrette-talks-end-of-superman-lois-season-3-and-possibility-of-season-4/",
+			"title": "Inde Navarrette Talks End of 'Superman & Lois' Season 3 & Possibility of Season 4",
+			"speaker": "Inde Navarrette on The Wayne Ayers Podcast, as transcribed and reported by AJ Pitts (Just Jared Jr.)",
+			"date": "2023-04-07",
+			"locator": "Article body: her answer on whether season 3 was filmed as a possible last season (renewal uncertainty, James Gunn tweet)",
+			"excerpt": "The actress, who plays Sarah Cushing on the show... While appearing on The Wayne Ayers Podcast in an upcoming episode, Inde was asked if they filmed as if it was going to be the last season. / \"And then in the middle, everybody was kind of getting high hopes, and now towards the end, it's a little bit of 50-50 because James Gunn came out on Twitter, who is now the head of DC, and was like, 'No, Superman & Lois is definitely gonna find a place to live and go on for at least two more seasons.'\" / \"So seeing that, it was almost as though that's a definitive, but it's interesting in our industry, it's not a definitive, so we still have to wait for that answer,\" Inde added.",
+			"context": "Pre-fame, contemporaneous with the show's uncertainty (two months before the June 2023 cast cuts). Repair stage (2026-09-10) re-fetched the page: Just Jared Jr. (byline AJ Pitts, datePublished 2023-04-07) is reporting her remarks from an upcoming episode of The Wayne Ayers Podcast, so the venue is the podcast, not an interview with Just Jared Jr.; the article now says \"a podcast interview released in April 2023\" and credits the podcast via Just Jared Jr. The podcast's clips were uploaded to YouTube on 2023-04-12 and 2023-04-13 (S39, not opened). The same answer puts renewal at \"a little bit of 50-50 because James Gunn came out on Twitter\", so she partly credited the tweet. The page still calls her character Sarah Cushing in April 2023.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S23",
+			"url": "https://www.yahoo.com/lifestyle/13-reasons-why-star-inde-180000789.html",
+			"title": "\"13 Reasons Why\" Star Inde Navarrette On Bringing to Life Monty's Sister, Estela, in the Show's Final Season",
+			"speaker": "Inde Navarrette, interviewed by Tamara Fuentes (Seventeen; Yahoo syndication)",
+			"date": "2020-06-19",
+			"locator": "Q&A on the show's storyline, family and representation",
+			"excerpt": "Being bisexual, I understand how much you could definitely keep it to yourself because it's such a sticky subject. / My cousin and I are a month apart and we have always been best friends. / Whenever it comes to that, I will always speak out on it.",
+			"context": "Earliest opened interview (age 19); syndicated copy of the Seventeen original. Establishes her 13 Reasons Why role. The 'speak out' line refers to online bullying of a cousin who was injured as a child. Identity and family details are not used in the draft.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S24",
+			"url": "https://www.cbr.com/marvel-xmen-reboot-cast-inde-navarrette-rogue-d23-2026/",
+			"title": "Inde Navarrette as Rogue Among 4 Major Cast Members Announced for X-Men Reboot",
+			"speaker": "Jeremy Dick (CBR)",
+			"date": "2026-08-15",
+			"locator": "Article body",
+			"excerpt": "Announced at Disney's D23 Expo 2026 (Friday evening)... Inde Navarrette cast as Rogue... directed by Jake Schreier... release date May 5, 2028.",
+			"context": "Trade/fan report of the studio announcement. Retained for the record; the draft omits the casting because it does not test the personality argument and would add maintenance.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S25",
+			"url": "https://comicbookmovie.com/x_men/x-men-star-inde-navarrette-breaks-silence-on-being-cast-as-the-mcus-rogue-a229535",
+			"title": "X-Men Star Inde Navarrette Breaks Silence On Being Cast As The MCU's Rogue",
+			"speaker": "Josh Wilding (ComicBookMovie.com), quoting Inde Navarrette",
+			"date": "2026-08-25",
+			"locator": "Article body (fan video from an autograph signing)",
+			"excerpt": "It's phenomenal. A huge honour. It's insane.",
+			"context": "Brief remark to fans at a signing, captured on video and reported secondhand. Not used.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S26",
+			"url": "https://www.hola.com/us/celebrities/20260909922600/inde-navarrette-snl-halloween-host-debut/",
+			"title": "Inde Navarrette is bringing her 'Obsession' magic to SNL this Halloween",
+			"speaker": "Maria Loreto (HOLA! USA), quoting Inde Navarrette",
+			"date": "2026-09-09",
+			"locator": "Article body",
+			"excerpt": "Air date October 31... musical guest Gracie Abrams... 'See you Goblins and Ghouls live from New York on 10/31. Thank you, SNL!'",
+			"context": "Announcement coverage of a first-time hosting booking. Not used in the draft (upcoming event, not load-bearing).",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S27",
+			"url": "https://www.the-numbers.com/movie/Obsession-(2026)",
+			"title": "Obsession (2026) - Box Office and Financial Information",
+			"speaker": "The Numbers (Nash Information Services)",
+			"date": "2026-10-22 (accessed; figures still moving)",
+			"locator": "Summary box: worldwide, domestic, international, budget, release dates, video release (re-fetched 2026-10-22)",
+			"excerpt": "Domestic Box Office $263,451,715; International Box Office $256,555,000; Worldwide Box Office $520,006,715; Production Budget: $1,000,000; Domestic Releases: May 15th, 2026 (Wide) by Focus Features; Video Release: June 30th, 2026 by Universal Home Entertainment.",
+			"context": "On 2026-09-09 the same page listed $509,956,715 worldwide. Figures are aggregator estimates and still moving. Budget differs from the $750,000 reported by NBC News (S28) and THR (S40); THR's 2026-10-21 report gives \"more than $522 million worldwide\" (S54), slightly ahead of this page.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S28",
+			"url": "https://www.nbcnews.com/pop-culture/pop-culture-news/obsession-curry-barker-box-office-hit-focus-features-rcna346824",
+			"title": "How an indie horror film became a box-office 'Obsession'",
+			"speaker": "Saba Hamedy and Greg Rosenstein (NBC News)",
+			"date": "2026-05-25",
+			"locator": "Article body",
+			"excerpt": "Budget $750,000... shot in 20 days... second weekend $22.4 million, up about 30% on opening.",
+			"context": "Early-run reporting; no Navarrette quotes.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S29",
+			"url": "https://en.wikipedia.org/wiki/Obsession_(2025_film)",
+			"title": "Obsession (2025 film)",
+			"speaker": "Wikipedia contributors",
+			"date": "unknown (accessed 2026-09-10)",
+			"locator": "Lead/plot summary; Cast; Production (filming); Release; plot ending",
+			"excerpt": "The film follows Bear (Michael Johnston), a music store employee who buys a supernatural toy that grants his wish for his friend Nikki (Inde Navarrette) to fall in love with him, which makes her become obsessed. / Michael Johnston as Bear, a shy music store employee; Inde Navarrette as Nikki, Bear's co-worker and friend; Cooper Tomlinson as Ian, Bear and Nikki's friend and co-worker; Megan Lawless as Sarah. / The film was shot in Los Angeles in October 2024. / Obsession premiered on September 5, 2025, at the Toronto International Film Festival (TIFF) and was theatrically released in the United States on May 15, 2026. / Ending: Bear dies; Nikki's obsession breaks and she survives. / Amid a long casting process, Mercuri championed Inde Navarrette, who had appeared in three Capstone projects (Deadline, 2026-08-31).",
+			"context": "Tertiary. Edit stage (2026-09-10) re-fetched it and uses it for the premise, cast roles, October 2024 shoot, TIFF premiere, U.S. release date and the released ending. The Mercuri detail rests on a Deadline article about an unrelated profits lawsuit and is not used.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S30",
+			"url": "https://boo.world/database/profile/7799/inde-navarrette-personality-type",
+			"title": "Inde Navarrette Personality Type (Boo)",
+			"speaker": "Boo personality database (added by user 'personalitytypenerd')",
+			"date": "2025-10-01 (last updated)",
+			"locator": "Profile header and vote tally",
+			"excerpt": "Enneagram: 6w7... MBTI: ENTP... Enneagram votes: 1.",
+			"context": "Fan typing site; one vote. Shows existing public typing, not evidence of motive. Not used in the draft.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S31",
+			"url": "https://www.personality-database.com/profile/2026718/inde-navarrette-actors-and-actresses-usa-mbti-personality-type",
+			"title": "Inde Navarrette Personality Type (Personality Database)",
+			"speaker": "Personality Database community",
+			"date": "unknown",
+			"locator": "Profile page (HTTP 403)",
+			"excerpt": "Not retrieved (HTTP 403). A search snippet reported Type 6 on one database and 7w8 sx/so on another; unverified.",
+			"context": "Recorded only to document that the typing is contested among fan sites. Not used.",
+			"kind": "secondary",
+			"access": "unavailable"
+		},
+		{
+			"id": "S32",
+			"url": "https://www.cinemablend.com/superheroes/superman/superman-and-lois-cut-lead-inde-navarrette-sarah-cortez-season-4",
+			"title": "One Of Superman And Lois' Cut Leads Revealed Their Season 4 Return, But It's Not All Good News",
+			"speaker": "Adam Holmes (Cinemablend), quoting Inde Navarrette's TikTok",
+			"date": "2023-07-07",
+			"locator": "Article body, quoting her TikTok replies to fans (the TikTok videos themselves were not opened)",
+			"excerpt": "\"So basically, me and a few other people from the cast are now guest stars instead of series regulars, and so we'll be in about three episodes at least. But, at least you guys get a Season 4. We almost got cancelled, so at least we got a Season 4.\"",
+			"context": "Opened 2026-10-22 (unavailable on 2026-09-10). Her contemporaneous public reaction, about a month after the June 2023 cuts: matter-of-fact and turned toward the fans' gain. It contains no \"freedom\" language; the \"Dog, you're free\" framing (S09) is a 2026 retelling after Obsession's success. Cinemablend transcribes a TikTok, so the wording is a relay of her spoken words.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S33",
+			"url": "https://www.interviewmagazine.com/film/inde-navarrette-is-your-new-obsession",
+			"title": "Inde Navarrette Is Your New Obsession",
+			"speaker": "Interview Magazine",
+			"date": "2026-05-12",
+			"locator": "Quick-fire Q&A (read via r.jina.ai; direct fetch returned 403)",
+			"excerpt": "\"Who do you tell your secrets to? All of my secrets go to my family dog Lola. But she has an NDA.\" / \"Where do you go to hide? Your closet.\" / \"Do you crave attention? Only in the morning.\" / \"What's worth fighting for? Everything you care about.\" / intro: \"the 25-year-old Tucson native\"",
+			"context": "Opened 2026-10-22. A jokey questionnaire published the week of release; answers are performance, not disclosure. Low weight beyond showing her irreverent public voice. Corroborates Tucson as birthplace (third party).",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S34",
+			"url": "https://schonmagazine.com/interview-inde-navarrette/",
+			"title": "interview | inde navarrette | Schon! Magazine",
+			"speaker": "Schon! Magazine",
+			"date": "2026-05-27 (modified 2026-06-03)",
+			"locator": "Q&A, first section of the page (the same URL later carries unrelated interviews with other people)",
+			"excerpt": "\"My father was a pilot in the Marine Corps, so we moved around a lot. I went to 11 different schools and got really good at making myself comfortable anywhere. For this job, you have to immediately become comfortable with random people, and I have been desensitized to it all.\" / \"A lot of 'no's.' A lot of auditions that never went anywhere — which turned out to be a lot of learning as well. Learning how to take that rejection and redirect it into constructive criticism. That allowed me to fully give Nikki my all. I felt like I had nothing to lose and everything to gain.\" / \"Preparation was so important for me to be able to fully embody Nikki\" / \"Just the other day, this girl told me my online presence was so random, and when I went to apologize, she immediately told me, 'No! Don't change it — I love it!' I think we should all be exactly who we are on our social media.\"",
+			"context": "Opened 2026-10-22. Emailed-style written Q&A (polished answers). A third account of the moves (adaptive: \"making myself comfortable anywhere\"). The page is a rolling interview hub; only the Navarrette section is relevant.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S35",
+			"url": "https://www.hollywoodreporter.com/movies/movie-features/obsession-ending-inde-navarrette-explained-twist-interview-1236597250/",
+			"title": "Inside 'Obsession's' Ending: Inde Navarrette on Nikki's Fate and Becoming Horror's Newest Scream Queen",
+			"speaker": "The Hollywood Reporter",
+			"date": "2026-05-16 (modified 2026-10-21)",
+			"locator": "Q&A sections: horror response; physicality; voice/audition; ending; sequel",
+			"excerpt": "\"I try not to look at a lot of comments, only because I really want to take in every moment. I mean, I'm doing a press junket for the first time... So, I really want to be present\" / \"I just remember being like, 'I'm going to have so much fun with this, because who cares?' You either have to send it or not go in at all. I remember doing the audition, and like my goal was to make everybody as uncomfortable as humanly possible\" / \"Whenever I first got the script, I tried not to read any scenes Bear had alone, because I really wanted to see this fully from Nikki's perspective.\" / \"the original ending was that I was going to choose that I didn't want to live that way anymore... Last second, they were like, 'Let's just try this one thing,' and from other people's perspective, which is high praise for me, and I really, really appreciate it, they did one take, they felt like it was magical and electric, and they knew that that was the ending.\"",
+			"context": "Opened 2026-10-22 (unavailable on 2026-09-10). Release-weekend Q&A, edited. Its ending account relays that others credited her one take, which the Collider telling (S09) did not; the baseline article's line that she \"said nothing about her take persuading anyone\" is contradicted by this source and must change.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S36",
+			"url": "https://www.sweetyhigh.com/read/inde-navarrette-superman-lois-interview-032821",
+			"title": "Interview: Inde Navarrette on Sarah in 'Superman & Lois'",
+			"speaker": "Sweety High",
+			"date": "2021-03-28 (modified 2026-06-08)",
+			"locator": "Q&A, five questions",
+			"excerpt": "\"It might surprise them that I, Inde Navarrette, like to collect rocks everywhere I go? Or that I love skydiving but unfortunately can't go anymore because of COVID.\" / \"I have faced more of my fears head-on and have grown into myself on this show than I ever have.\" / \"This type of job, where you are constantly meeting new people and moving to a new country alone can be challenging. It's tough to lean in to it head first, but surprisingly, it is also the most rewarding... Twitter is my favorite for people's comments about the show. I'm careful with what I read\" / \"If you feel doubtful about those capabilities, still never give up. Work through the hole of doubt or down days by doing what makes you feel better. Whether that's a distraction—such as drawing for me—or talking to someone\" / \"no one knows you better than you do. So listen to your heart and do what your gut tells you.\"",
+			"context": "Opened 2026-10-22 (unavailable on 2026-09-10). Written Q&A from her first Superman & Lois season, five years before fame: one of the few pre-fame primary sources. Shows skydiving as a standing love by 2021, an early habit of being careful with what she reads, and doubt named as the problem to work through.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S37",
+			"url": "https://www.yahoo.com/entertainment/tv/articles/inde-navarrette-breakout-moment-finally-120000537.html",
+			"title": "Inde Navarrette's Breakout Moment Is Finally Here",
+			"speaker": "Inde Navarrette, interviewed for Cosmopolitan (Tamara Fuentes; Yahoo syndication)",
+			"date": "2026-06-24",
+			"locator": "Article body: Superman & Lois cuts, Trap House and Capstone, route to Obsession",
+			"excerpt": "as disappointed and sad as it was to not be able to go back as a series regular... it really was just divine timing / If I had done the fourth season of Superman & Lois, if I hadn't had that disappointment, it wouldn't have led me to Obsession. / I was allowed to do Trap House with Capstone, which funded Obsession. They saw me and were like, 'If Inde is attached to this, we'd love to see her in that.'",
+			"context": "Release-run magazine profile, opened on the Yahoo syndication at the edit stage (2026-09-10). Framed by the writer around the last-minute Superman & Lois budget cuts that dropped her to guest status. Establishes her own account of the Capstone connection and her acknowledgment of disappointment. Not independent of the 2026 press cycle. Repair stage attributes the \"If I hadn't had that disappointment\" narrative quote and the Trap House/Capstone Q&A answer separately, because they come from different places in the piece.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S38",
+			"url": "https://whereisthebuzz.com/inde-navarrette-went-1-5-years-without-an-acting-role-after-obsession-heres-how-she-paid-rent/",
+			"title": "Inde Navarrette Went 1.5 Years Without an Acting Role After 'Obsession': Here's How She Paid Rent",
+			"speaker": "Andre Lue (Where Is The Buzz), quoting Navarrette's Complex News interview",
+			"date": "2026-06-24",
+			"locator": "Article body (military childhood; streaming)",
+			"excerpt": "when she was growing up, she had to move a lot because her family was in the military. Thus, she visited 11 or 12 schools before she became 15 / \"Making friends was always really difficult for me\" / \"really close to video games and movies and things like that\" / streamed games on the PC, which she built herself back in 2022",
+			"context": "Secondhand write-up of the Complex News video (also syndicated on Yahoo). Opened at the edit stage. The original video was IP-blocked, so per the fan reviewer's acceptance test the \"making friends\" quote is held out of the article pending a check of the video; the article instead scopes the happy-moves account to Variety.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S39",
+			"url": "https://www.youtube.com/watch?v=330p6Mmi5m0",
+			"title": "Inde Navarrette Opens Up About The Future of Superman & Lois! | The Wayne Ayers Podcast",
+			"speaker": "Inde Navarrette, interviewed on The Wayne Ayers Podcast",
+			"date": "2023-04-12 (YouTube upload date of the clip; full episode JlIQOIvawvg uploaded 2023-04-13)",
+			"locator": "Clip 330p6Mmi5m0 0:00-0:35; full episode https://www.youtube.com/watch?v=JlIQOIvawvg 16:58-17:20 (auto-captions fetched 2026-10-22)",
+			"excerpt": "now towards the end it's a little bit of 50/50 because James Gunn came out on Twitter who's now the head of DC and was like no Superman & Lois is definitely gonna find like a place to live and go on for at least two more seasons so seeing that it was almost as though like that's a definitive but it's interesting in our industry it's it's not a definitive so we still have to wait for that answer but we shot it as though we still carried on the story arcs the way that the writers wanted to tell the stories",
+			"context": "Opened this refresh: YouTube auto-captions for both the clip and the full episode now retrieved (they were IpBlocked on 2026-09-10). The wording matches Just Jared Jr.'s transcription (S22) except caption spelling (\"50/50\", \"Superman and Lis\"). Captions, not audio; the article can now cite the podcast directly.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S40",
+			"url": "https://www.hollywoodreporter.com/movies/movie-news/obsession-star-inde-navarrette-marvel-rogue-awards-chatter-1236727817/",
+			"title": "'Obsession' Star Inde Navarrette on Sudden Fame, Cut Scenes, Relationship Takeaways, a Possible Sequel and Going Rogue for Marvel (Awards Chatter)",
+			"speaker": "Inde Navarrette, interviewed by Scott Feinberg (The Hollywood Reporter)",
+			"date": "2026-10-14",
+			"locator": "Written excerpts under the headings \"On being thrown right into the deep-end on the shoot of Obsession\", \"On what it's like to suddenly be memed\", \"On her outlook for the future\" and the opening excerpt about receiving the script",
+			"excerpt": "\"they sent me Obsession, and I read it, and I was like, 'This is going to require a lot of me that I don't know if I'm capable of.' But even as I was having that thought-process I was like, 'Shut up, you are so capable of this.' So reading it and then sending in the tape, I felt pretty confident.\" / \"Before going in, I told Curry, 'I'm really sorry, but I'm not going to show you any of the freakouts in rehearsal.' And I think I saw him die... I really wanted to keep that safe before it needed to come out in order to play it true. And so we're in the first day, I know Curry's nervous, I know that I'm really being a dick by saying 'I'm not going to show you anything.'\" / \"I have this thing where, 'It's none of my business.'\" / \"I'm in a very specific opportunity in my career where I can kind of make it last as long as humanly possible or throw it all away. I really want to be specific with the next couple of my decisions\"",
+			"context": "Live podcast taped before about 500 students at Chapman University, published with written excerpts that THR says are \"lightly edited for clarity and brevity\". Quote from the audio (S41) where wording matters; this page is the citable link. Self-report in an awards-campaign setting.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S41",
+			"url": "https://www.podtrac.com/pts/redirect.mp3/traffic.megaphone.fm/PMC2486396586.mp3",
+			"title": "Inde Navarrette - 'Obsession' [LIVE] (Awards Chatter podcast audio)",
+			"speaker": "Inde Navarrette, interviewed by Scott Feinberg (The Hollywood Reporter)",
+			"date": "2026-10-14",
+			"locator": "Episode audio, 91:11 (RSS feed https://feeds.megaphone.fm/awardschatter, pubDate Wed, 14 Oct 2026). Downloaded 2026-10-22; NOT transcribed or listened to in this stage (the local Whisper job was killed before writing output).",
+			"excerpt": "Not reviewed. All Awards Chatter wording in this record comes from THR's written, \"lightly edited\" excerpts (S40).",
+			"context": "Full audio of the episode excerpted in S40. Recorded as unavailable because nobody has listened to or transcribed it yet; it is the best place to check S40's edited wording and the surrounding context. See research tasks.",
+			"kind": "primary",
+			"access": "unavailable"
+		},
+		{
+			"id": "S42",
+			"url": "https://www.youtube.com/watch?v=NNAgv-7qYIo",
+			"title": "Inde Navarrette on \"Obsession,\" \"X-Men,\" and Overnight Fame (The Kyle Buchanan Show)",
+			"speaker": "Inde Navarrette, interviewed by Kyle Buchanan",
+			"date": "2026-10-21",
+			"locator": "Acast RSS audio (52:24), Whisper small.en transcript covering 0:00-34:34 only; 34:34-52:24 was not transcribed. Cited stretches: 0:00-0:12 (trust teaser), 6:40-7:20 (advice to past self), 9:16-10:55 (drought, \"fluke\", \"be stubborn\"), 11:40-13:19 (inner world), 13:26-14:46 (moves, Texas), 15:06-17:31 (not making friends, \"prove myself\"), 17:35-19:55 (playback story, \"taken seriously\"), 23:01-23:28 (biggest fear), 30:15-31:31 (questions, exposure, prejudgment), 32:00-32:59 (Reddit, \"silent duty\", validation)",
+			"excerpt": "\"I think I'd want people to know that they don't have to like me, I just want them to trust me.\" / \"I remember being more careful with my words, or saying it a specific way... I really, really wanted to hunker down and play a role where it could be perceived that I not only know what I'm doing, but I understand the human emotion behind it. And I could be taken seriously in a different route\" / \"I felt like I was telling my team, I really want to prove myself.\" / \"that was my biggest fear of, oh shit, am I doing a good job?\" / \"Exposure was something that I really wanted to avoid because I would say that I've gotten better about it, but I was a very sensitive person at the time. And that prejudgment that I couldn't, that would have killed me and that would have killed Nikki.\" / \"I've always lived in my own little world since I was young\" / \"I'm a little jealous sometimes of people that had one city, one state that they lived in, but simultaneously not, because I feel like I kind of fit in anywhere.\"",
+			"context": "Video podcast (52:25 on YouTube). YouTube captions were IpBlocked on 2026-10-22, so the audio was taken from the show's public Acast RSS enclosure (https://feeds.acast.com/public/shows/6acbd82fd3bfab176e6dcba4) and machine-transcribed locally; timestamps refer to that audio and may be offset from the YouTube cut. Machine transcript: re-listen before quoting. The last 18 minutes were not reviewed. The host introduces The Waffle House Index as a project she is producing.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S43",
+			"url": "https://www.hollywoodreporter.com/movies/movie-news/inde-navarrette-never-offered-heat-2-despite-rumors-1236737315/",
+			"title": "Inde Navarrette Says She Was Never Offered 'Heat 2' Role, Despite Rumors She Turned It Down",
+			"speaker": "Lexi Carson (The Hollywood Reporter), quoting Inde Navarrette on The Kyle Buchanan Show",
+			"date": "2026-10-21",
+			"locator": "Article body",
+			"excerpt": "\"No, I was not offered Heat 2... I auditioned, I want to say, for two months from April all the way up until — I don't know if it had gotten cast, but it was just kind of no longer a conversation.\" / \"I remember I sent in multiple self tapes, different self tapes. I was like, 'What do you like? What do you not like?' I mean, it's with an insane cast and even if it was as small of a character. I just wanted to learn. Definitely didn't say no... That's one of those opportunities where no matter how big you get, you're still gonna get told no.\" / X-Men \"slated for release on May 5, 2028.\"",
+			"context": "Trade write-up of S42; not independent of it. Corrects earlier unsourced reports (Page Six via aggregators) that she turned the role down.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S44",
+			"url": "https://www.wmagazine.com/culture/inde-navarrette-cover-obsession-interview-photos",
+			"title": "'Obsession' Star Inde Navarrette Is Having the Best Year of Her Life",
+			"speaker": "Inde Navarrette, interviewed by Lynn Hirschberg (W Magazine)",
+			"date": "2026-10-15",
+			"locator": "Cover story intro and Q&A (superstitions; starstruck; cat or dog; what age do you feel)",
+			"excerpt": "\"When I received the phone call that I had gotten the part, my heart sank to my butt. I realized I had to work on my anxiety. But getting the film felt like kismet.\" / \"I'm also very superstitious. My whole team is Latino... and we cleanse before events... And we don't split poles... If we split the pole, we'll be jinxed.\" / \"I'm 100 percent a cat. I don't like to be touched unless I want to be touched. I don't like to be seen unless I want to be seen... I don't like a lot of 'Pay attention to me.' That freaks me out.\" / \"Shut up! Don't talk about my accomplishments—I want to talk about yours!\" / \"every day feels like the best day of my life so far.\"",
+			"context": "Print Q&A for W's Volume Five issue (newsstands 2026-10-27); the print wording is edited and differs slightly from the companion video (S45). Light format with fashion shoot; the superstition answer describes a shared team practice she frames as cultural (\"Mexican intuition\").",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S45",
+			"url": "https://www.youtube.com/watch?v=hOc7tSh5cKo",
+			"title": "Inde Navarrette Talks Her Obsessions | W Magazine (Screen Tests video)",
+			"speaker": "Inde Navarrette (W Magazine video)",
+			"date": "2026-10-15",
+			"locator": "Whisper small.en transcript of the 7:46 video audio (downloaded 2026-10-22): 0:26-0:52 (audition, \"heart sank... anxiety\"), 1:42-2:00 (superstitions, poles), 2:48-2:52 (Gemma Chan, accomplishments), 5:07-5:12 (\"always been scared to dress up\"), 5:21-5:30 (cat, \"seen unless\"), 6:18-6:30 (Pisces, social battery)",
+			"excerpt": "\"I did not think I did very well on my second one, but apparently I did... And then I got a phone call... My heart sank to my butt and I was just like, I gotta work on my anxiety a little bit to go do this. But it would just felt very kismet.\" / \"In the past, I've always been scared to dress up or do a lot.\" / \"I'm 100% a cat... I don't like to be touched unless I like to be touched. I don't like to be seen unless I'd like to be seen.\" / \"I think that we have very small social batteries.\"",
+			"context": "Unscripted-sounding video version of the S44 interview; wording differs from the edited print. Captions were IpBlocked; audio downloaded with yt-dlp and machine-transcribed, so check exact wording against the video before quoting.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S46",
+			"url": "https://www.youtube.com/watch?v=IUAsUy_aKR8",
+			"title": "Obsession's Inde Navarrette Reveals Her Craziest DM, Favorite Streamers & Unhinged Hear Me Out Cake (Complex News)",
+			"speaker": "Inde Navarrette, interviewed by Jillian Superstar (Complex News)",
+			"date": "2026-06-23",
+			"locator": "YouTube auto-captions fetched 2026-10-22: 2:11-2:43 (nickname), 3:14-3:46 (eleven schools, friends, video games), 8:11-8:44 (Zoom read, chemistry read), 9:18-10:30 (telling Barker she was shy, \"safe space\"), 15:21-16:10 (lucky number 27), 16:28-17:00 (Big Sean DM), 19:10-19:44 (Oscar question)",
+			"excerpt": "\"So, you went to 11 different schools by the time you were 15?... Like were you able to keep friends?\" \"No.\" \"Like for making friends was always really difficult for me.\" \"Did it make you closer to your parents?\" \"Um it made it it made me really close to like video games and like movies\" / \"And he sent me a message, and at first I was like, 'Oh, no.' So, I handed the phone to my boyfriend and I was like, 'Do you want to read this message and let me know if this if we're cool on this?'\" / \"Oh, it's not that I don't care about it. Like I said earlier, I'm very sensitive. So, I kind of want to protect my peace. I don't want to get too excited about something that may or may not happen.\" / \"Listen, I want to be very forthcoming. I am super excited to play this character... But it's a little intimidating.\"",
+			"context": "The video behind the Complex article (S06) and the secondhand Where Is The Buzz report (S38); it was IpBlocked on 2026-09-10 and is now opened. Auto-captions mangle her name (\"Indiana Massaretti\"); the quoted lines are clear in context. Interviewer premises (eleven schools) are hers to accept, which she does implicitly.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S47",
+			"url": "https://www.youtube.com/watch?v=oOQwibqrxno",
+			"title": "Inde Navarette on Hosting SNL and How Southern Roots Inspire Her Take on X-Men's Rogue (Exclusive) (Entertainment Tonight)",
+			"speaker": "Inde Navarrette, interviewed by Cassie DiLaura (Entertainment Tonight)",
+			"date": "2026-09-11 (YouTube upload; recorded at TIFF around the one-year anniversary of the premiere)",
+			"locator": "Whisper small.en transcript of the 2:25 clip audio (downloaded 2026-10-22): 0:50-1:17 (divorced family, Texas, Corpus Christi, Rogue \"do her justice\"), 2:03-2:17 (SNL sketch ideas, \"my own ideas\")",
+			"excerpt": "\"So I've never told this publicly, I completely forgot, but I have a divorced family. And I grew up in Texas for a good majority of my life. So honestly, those Southern women are really my favorite. Corpus Christi is the city, specifically... Rogue is from Mississippi, so I'm really just, I want to go there. I want to really do her justice\" / \"I am writing down sketch ideas, because I've been watching SNL since I was a little girl. I really want to do her justice. I heard that Taylor Swift, whenever she did it, she wrote her own monologue. So I really, really, really want to like come in with myself and my own ideas.\"",
+			"context": "Red-carpet clip; captions IpBlocked, audio machine-transcribed. The Texas remark conflicts with her Variety account (S10: her mother had the children live mostly in Fresno/Visalia/Bakersfield) and Wikipedia (S01: raised primarily in Visalia). \"Do her justice\" in the SNL answer is as transcribed; she may have meant \"it\".",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S48",
+			"url": "https://www.youtube.com/watch?v=ozbopYomGq8",
+			"title": "Obsession's Inde Navarrette on Fan Theories and if She's Joining MCU X-Men (Exclusive) (Entertainment Tonight)",
+			"speaker": "Inde Navarrette, interviewed by Cassie DiLaura (Entertainment Tonight)",
+			"date": "2026-08-06",
+			"locator": "Whisper small.en transcript of the 2:20 clip audio (downloaded 2026-10-22), 1:40-1:54",
+			"excerpt": "\"I think something that got completely taken out of context was just meeting people in the industry, because I've met so many wonderful people. And I'm just glad that, you know, Jake's doing what he's doing for the Marvel Universe\"",
+			"context": "Carpet clip at Variety's Power of Young Hollywood event, a week before the D23 casting announcement. Shows a guarded non-answer about an unannounced role; ordinary confidentiality. Low weight.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S49",
+			"url": "https://www.justjared.com/2026/05/24/inde-navarrette-avoiding-social-media-obsession/",
+			"title": "Obsession's Inde Navarrette Is Avoiding Social Media Amid Sudden Fame",
+			"speaker": "Just Jared, quoting Inde Navarrette to People",
+			"date": "2026-05-24",
+			"locator": "Article body (read via r.jina.ai; direct fetch returned 403)",
+			"excerpt": "she and her mom have been \"limiting the amount of things that I'm allowed to see just for right now, because it's a beginning of a new process and a new step in my career and I really want to make sure that I'm protecting myself first, while also giving thanks to everybody who loves the movie.\" / not \"seeing anything on social media unless it's being sent to me by a family member or my team.\" / \"I knew I was going to do everything humanly possible\"",
+			"context": "Secondary relay of a People interview (S50), which could not be opened. Quotes appear consistent across relays (IBTimes S56 paraphrases the same). Cite People with the relay link until the original is checked.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S50",
+			"url": "https://people.com/obsession-s-inde-navarrette-is-not-reading-social-media-comments-11978469",
+			"title": "Obsession's Inde Navarrette Is Not Reading Social Media Comments (People)",
+			"speaker": "Inde Navarrette, interviewed by People",
+			"date": "2026-05 (exact date not retrieved)",
+			"locator": "Not retrieved (HTTP 403 direct; r.jina.ai 451)",
+			"excerpt": "Not retrieved. Quotes known only through Just Jared (S49).",
+			"context": "Original of S49. Recorded so the drafter does not treat the relay as the original.",
+			"kind": "primary",
+			"access": "unavailable"
+		},
+		{
+			"id": "S51",
+			"url": "https://variety.com/2026/film/news/inde-navarrette-hosting-snl-x-men-stunt-training-1236916105/",
+			"title": "Inde Navarrette on Meeting Pamela Anderson, Hosting 'SNL' and X-Men Stunt Training",
+			"speaker": "Variety staff (Marc Malkin interview), quoting Inde Navarrette",
+			"date": "2026-10-19",
+			"locator": "Article body (opened on variety.com and on the Variety Australia syndication https://au.variety.com/?p=41498)",
+			"excerpt": "\"I literally I feel like I snuck in... I'm super excited to keep everything under wraps because I really truly want to make this super fun for the audience. And what I love is when I don't know anything. So I'm really excited to be working with the writers.\" / \"I've always wanted to take part in that sort of a thing... I think it's also a really good excuse to get in the gym. I'm the laziest person, and I am very excited to get up and move my body.\"",
+			"context": "Carpet interview at the Newport Beach Film Festival (Variety's 10 Actors to Watch), also syndicated by Variety Australia (same text). \"What I love is when I don't know anything\" most likely refers to watching SNL as an audience member; read it as a taste for surprise, not a work method.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S52",
+			"url": "https://comicbookmovie.com/x_men/x-men-star-inde-navarrette-says-shes-taking-the-role-of-rogue-very-seriously-a230223",
+			"title": "X-Men Star Inde Navarrette Says She's Taking The Role Of Rogue Very Seriously",
+			"speaker": "MarkJulian (ComicBookMovie.com user post), quoting Inde Navarrette to the Los Angeles Times",
+			"date": "2026-10-03",
+			"locator": "Article body",
+			"excerpt": "\"I'm doing everything humanly possible because I love that character. I've studied that character. I want to do it justice for myself, for Jake, for what they want to portray and also for what I as a fan want her to be like. I'm doing everything, exclamation point.\" / \"I grew up in Texas for a good majority of my life... Corpus Christi is the city, specifically.\"",
+			"context": "User-submitted relay of a Los Angeles Times profile (S53, not opened) and of the ET clip (S47). Use S47 for the Texas line; the LA Times wording is known only secondhand.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S53",
+			"url": "https://www.latimes.com/",
+			"title": "Los Angeles Times profile of Inde Navarrette (late September 2026; exact URL not found)",
+			"speaker": "Inde Navarrette, interviewed by the Los Angeles Times",
+			"date": "2026-09 (reported as September 28, 2026 by secondary coverage)",
+			"locator": "Not retrieved; article URL not located",
+			"excerpt": "Not retrieved. Rogue quote known only through S52 and other relays.",
+			"context": "Recorded so the Rogue \"do it justice\" line is not treated as directly verified.",
+			"kind": "primary",
+			"access": "unavailable"
+		},
+		{
+			"id": "S54",
+			"url": "https://www.hollywoodreporter.com/movies/movie-news/obsession-inde-navarrette-nikki-halloween-horror-nights-1236737517/",
+			"title": "'Obsession' Star Inde Navarrette Says Meeting Nikki Scare Actor at Halloween Horror Nights Was \"Surreal\"",
+			"speaker": "Lexi Carson (The Hollywood Reporter), quoting Inde Navarrette",
+			"date": "2026-10-21",
+			"locator": "Article body",
+			"excerpt": "\"It was just so cool. She didn't break. She was really committed...\" / \"I want to honor Nikki's experience, but I also want to honor that Halloween Horror Nights has given her an opportunity to roam around and kind of be seen. And I just love that they're protecting her\" (ET, September) / \"Made on a reported $750,000 budget, the film has grossed more than $522 million worldwide.\"",
+			"context": "Short Zoom interview plus box-office line. Used for the as-of gross and, at most, for color.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S55",
+			"url": "https://www.yahoo.com/entertainment/movies/articles/inde-navarrette-thought-she-blew-184530143.html",
+			"title": "Inde Navarrette Thought She Blew Her 'Obsession' Audition Before the Horror Film Became a $500 Million Hit",
+			"speaker": "Marija Mrakovic (Yahoo/People syndication), summarizing W Magazine",
+			"date": "2026-10-17",
+			"locator": "Article body",
+			"excerpt": "\"Focus is also mounting a best actress Oscar campaign for Navarrette as part of a broader awards push for the film, according to Variety.\" / \"The film crossed $500 million worldwide in August, TheWrap reported. It is Focus Features' highest-grossing release.\"",
+			"context": "Secondary summary of S44 that also relays Variety and TheWrap on the awards campaign and the $500 million milestone. Not independent of S44 for her quotes.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S56",
+			"url": "https://www.ibtimes.co.uk/inde-navarrette-online-backlash-social-media-scrutiny-1820050",
+			"title": "Inde Navarrette Is Getting More Online Hate Than Lindsay Clancy in Bizarre Social Media Outrage Divide",
+			"speaker": "Anton Arandia (IBTimes UK)",
+			"date": "2026-09-16",
+			"locator": "Article body",
+			"excerpt": "\"screenshots purportedly showing Navarrette liking posts connected to Johnny Depp circulated on X and Reddit\" / \"another wave of criticism over a street interview in which she listed driving a manual car, playing pool and enjoying beer and cigarettes\" / entertainment journalist Jeff Sneider \"later deleted the posts and apologised\"",
+			"context": "Tabloid-style roundup of a September 2026 social-media backlash. Purported screenshots are unverified and the piece rests on social posts. Do not use in the article: it is not evidence of motive, it would import an unverified allegation, and it adds maintenance. Recorded because how she answers real criticism is a settle signal.",
+			"kind": "secondary",
+			"access": "opened"
+		}
+	],
+	"claims": [
+		{
+			"id": "C18",
+			"claim": "She arrived on Obsession 'in a really shy place' and told Barker she did not know how to scream.",
+			"passage": "\"I was in a really shy place in my life.\" So she told Barker exactly that: \"I said, 'I don't know how to scream, and I'm feeling very shy.'\"",
+			"class": "self_report",
+			"source_ids": [
+				"S09",
+				"S46"
+			],
+			"inference": "Her response to fear was to disclose it to a trusted authority (S09 20:29-20:50, confirmed on audio 2026-10-22; captions' \"Karyn\" is \"Curry\"). She told the same story to Complex News in June: \"Listen, I want to be very forthcoming... But it's a little intimidating\" (S46 9:18-9:52), with Barker answering \"if you ever feel like an idiot on set, I'm going to be an idiot.\" Opening instance of the name-the-fear, find-safety, commit sequence.",
+			"alternative": "Ordinary performance nerves handled by a good director. Shyness also fits Types 4, 5 or 9.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C48",
+			"claim": "By her account, Barker scheduled private scream sessions before group ones and screamed alongside her, and the plan included a game of charades, which she said created a really safe space.",
+			"passage": "By her account, Barker answered with a schedule. He booked days where it was just the two of them, and only once she was comfortable would she scream in front of anyone else. He screamed alongside her: \"he would scream with me. And then he would stop and then I would stop. And he was like, 'No, what are you doing? Come on, go go go go on.'\" There was also a game of charades, which she said \"created a really safe space.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S09"
+			],
+			"inference": "She accepted a structured, graduated exposure inside a trusted relationship. The schedule is her report of Barker's plan, not his own account. She says \"we played a charades game in order to kind of shock me out of it\" inside that account (S09 20:36-21:10); repair stage stopped saying who played, per the verify-stage qualification.",
+			"alternative": "Standard directing technique for a nervous lead; it shows Barker's method as much as her motive.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C50",
+			"claim": "Obsession's reported production budget ranges from $750,000 (NBC News) to $1 million (The Numbers).",
+			"passage": "cost between $750,000 and $1 million to make, depending on the report",
+			"class": "third_party",
+			"source_ids": [
+				"S28",
+				"S27",
+				"S40"
+			],
+			"inference": "NBC News (S28) and THR's Awards Chatter write-up (S40, 2026-10-14) report $750,000; The Numbers lists a $1,000,000 production budget (S27, re-checked 2026-10-22). The article gives the range and links sources.",
+			"alternative": "Budgets for surprise hits are often revised; the true figure may differ from both.",
+			"durability": "unresolved",
+			"review_trigger": "Reconcile if later reporting, court filings or studio statements give a different budget; re-check at the next refresh (on or after 2027-02-01)."
+		},
+		{
+			"id": "C37",
+			"claim": "Obsession had grossed more than $520 million worldwide by October 22, 2026, per The Numbers.",
+			"passage": "",
+			"class": "third_party",
+			"source_ids": [
+				"S27",
+				"S54"
+			],
+			"inference": "The Numbers lists $520,006,715 worldwide when re-fetched 2026-10-22 (it listed $509,956,715 on 2026-09-09). THR reported \"more than $522 million\" on 2026-10-21 (S54). Establishes scale only; give the figure with its as-of date and source.",
+			"alternative": "Gross is still moving; the as-of date keeps the statement true.",
+			"durability": "time_sensitive",
+			"review_trigger": "Re-check The Numbers at the next refresh (on or after 2027-02-01) and update the figure and its as-of date together."
+		},
+		{
+			"id": "C51",
+			"claim": "Interpretation: her choices tend to follow a sequence of naming the fear, securing against it through a trusted person or a self-set rule, then moving, sometimes into full commitment and sometimes into retreat.",
+			"passage": "She names the fear. She secures against it, through someone she trusts or a rule she sets herself. Only then does she move, and the move is sometimes all-out commitment and sometimes a retreat.",
+			"class": "interpretation",
+			"source_ids": [
+				"S09",
+				"S19",
+				"S11",
+				"S10"
+			],
+			"inference": "Generalizes from the scream sessions (S09: Barker's structure, by her account), the 2021 audition pact she set herself (S19), trust in Barker (S11), and the pre-emptive Twitch deletion (S10), where the move was a retreat.",
+			"alternative": "The scream sessions were Barker's method and ordinary handling of a nervous lead; the chemistry read (S06) has no safety step; on day one she overrode a nervous director to keep the freakouts unrehearsed (C115). Several stories are press anecdotes, so the sequence may reflect how actors narrate work rather than a personal motive.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C52",
+			"claim": "Interpretation (type answer): her key discriminating behavior is securing against bad outcomes before they happen and borrowing certainty from trusted people.",
+			"passage": "",
+			"class": "interpretation",
+			"source_ids": [
+				"S10",
+				"S11",
+				"S09",
+				"S19"
+			],
+			"inference": "Summarizes the Twitch deletion and Oscar safety net (S10, repeated in S46), the scream sessions (S09), the 2021 pact against doubt (S19), the anxiety she reports on getting the part (C114) and filtering online feedback through her mother and team (C119). The \"borrowing certainty\" half is weaker than the baseline said: she withheld the freakouts from Barker in rehearsal (C115).",
+			"alternative": "Type 3 image management explains the Twitch fear, the safety net and her long-horizon career caution as well (C15, C27, C117); Type 7 explains the stunts and enthusiasm (C31, C124). Several \"securing\" behaviors are ordinary celebrity hygiene or industry realism.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C19",
+			"claim": "She says she has been 'so sensitive' her whole life, especially towards horror movies, and that Obsession has healed that.",
+			"passage": "Navarrette says she has been \"so sensitive\" her whole life, \"especially towards horror movies,\" and that \"something that [_Obsession_] has done for me is heal that\"",
+			"class": "self_report",
+			"source_ids": [
+				"S10",
+				"S03"
+			],
+			"inference": "S10 30:06-30:15. Captions render the film's title as 'Obsessed'; the article substitutes [_Obsession_] in brackets. By her account the role healed a lifelong sensitivity, after the fact.",
+			"alternative": "'Afraid of horror' is a common junket line, and the article notes that taking the role reflects career circumstance (C94).",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C01",
+			"claim": "She was born Danielle Fabiola Navarrette in 2001, and profiles place her birth in Tucson, Arizona.",
+			"passage": "Navarrette was born Danielle Fabiola Navarrette in 2001; profiles place her birth in Tucson, Arizona",
+			"class": "third_party",
+			"source_ids": [
+				"S05",
+				"S08",
+				"S01",
+				"S11",
+				"S14"
+			],
+			"inference": "Birth name and year appear in several third-party profiles. Her self-address 'Danielle, hold it together' (S11) corroborates the first name; 'I just turned 25' in June 2026 (S14) fits the year. The draft attributes the birthplace to profiles.",
+			"alternative": "The exact day (March 3) appears only in third-party profiles and is omitted.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C47",
+			"claim": "Her father is a Marine, and she grew up moving a lot.",
+			"passage": "\"My dad's a Marine, so I grew up moving around a lot,\" she told Variety.",
+			"class": "self_report",
+			"source_ids": [
+				"S10"
+			],
+			"inference": "Her own statement (S10 06:10-06:14). Establishes the frequent relocation behind C03.",
+			"alternative": "None material. Details of his service are not stated.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C02",
+			"claim": "Her parents divorced, and her mother raised the children mostly in California's Central Valley around Fresno, Visalia and Bakersfield.",
+			"passage": "Her parents divorced, and she says her mother raised the children mostly in California's Central Valley, around Fresno, Visalia and Bakersfield.",
+			"class": "self_report",
+			"source_ids": [
+				"S10"
+			],
+			"inference": "Her words: 'because my parents were divorced, my mom grew up or for the majority had us live in Fresno, like Visalia, Bakersfield' (S10 06:55-07:04).",
+			"alternative": "Her accounts of where she mostly grew up differ. At TIFF in September 2026 she told ET, \"I grew up in Texas for a good majority of my life... Corpus Christi is the city, specifically\" (S47, C113); Wikipedia says she was raised primarily in Visalia (S01). The article should attribute the Central Valley account to Variety and not present either as settled fact.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C03",
+			"claim": "Unlike other military kids she knew, she says she liked moving: 'new story, new place'.",
+			"passage": "Other military kids she knew hated leaving their friends. \"Me, I was like new story, new place.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S10"
+			],
+			"inference": "Retrospective self-report (S10 06:25-06:50) showing childhood novelty tolerance. She adds that as an adult she has come to appreciate 'a small town mentality'.",
+			"alternative": "Counterevidence to a security-seeking reading as told to Variety, but her own record on the moves is mixed: in the Complex News video (S46 3:14-3:46, June 2026) she said she could not keep friends (\"making friends was always really difficult for me\") and that the moves made her \"really close to like video games and like movies\" (C112). The Seven point should be weighed with both accounts side by side.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C06",
+			"claim": "Her nickname came from a childhood habit of insisting 'Mommy, I do', refusing her hairstylist mother's help with hair, bubbles and dressing.",
+			"passage": "\"I would always say, 'Mommy, I do.' That's how I got my nickname, Inde, because I was very independent.\" Her mother, a hairstylist, offered to do her hair, blow her bubbles, help her dress. \"Nope. Mommy, I do.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S04"
+			],
+			"inference": "An early, repeated insistence on doing things herself, told as her own origin story.",
+			"alternative": "Toddler autonomy is common to every type and does not discriminate; the draft says so.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C08",
+			"claim": "At 13 she and her mother developed a shared audition mindset (if we don't get something, it wasn't meant to be) and made a day of each audition so bad ones faded.",
+			"passage": "\"I created this mindset with my mom when I was 13 about going into auditions.\" The rule was that \"if we don't get something, that's not what we're supposed to do.\" The two would make a whole day of each audition, so a bad one faded by the time they got home.",
+			"class": "self_report",
+			"source_ids": [
+				"S19"
+			],
+			"inference": "Pre-fame (2021) evidence that her early resilience was built inside a trusted relationship.",
+			"alternative": "A standard stage-parent narrative; it establishes influence, not motive.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C53",
+			"claim": "Once she drove herself to auditions, she made a pact to give 110% so there would be 'no room for doubt'.",
+			"passage": "\"I needed to kind of make a pact with myself of, 'You know what? I'm going to give it 110%.' That way, whenever I leave, there's no room for doubt, because doubt can really just weed its way in.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S19"
+			],
+			"inference": "Names doubt as the enemy and sets up a pre-committed structure against it, a pre-fame instance of anticipatory self-securing.",
+			"alternative": "Generic effort talk common to ambitious performers; fits Type 3 as well.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C54",
+			"claim": "She credits her mother with a second lesson: not to take no 'until no's a for sure'.",
+			"passage": "\"my mom really instilled in me to... not take no until no's a for sure\" (Collider)",
+			"class": "self_report",
+			"source_ids": [
+				"S09"
+			],
+			"inference": "S09 06:02-06:10. A separate parental lesson that sits in tension with the 2021 rule (S19): one accepts a rejection as a sign, the other refuses it until final. The article presents them as two lessons, not one continuous rule. Ellipsis removes the filler 'um'.",
+			"alternative": "Common inspirational framing; establishes influence, not motive.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C07",
+			"claim": "She decided to act as a small child after watching Russell Crowe in Gladiator.",
+			"passage": "She has wanted to act since she was very small, after watching Russell Crowe in _Gladiator_.",
+			"class": "self_report",
+			"source_ids": [
+				"S09",
+				"S10"
+			],
+			"inference": "Stable early vocation. She gives her age as 'like five' (S09) and 'like three' (S10); the draft says 'very small'.",
+			"alternative": "None material.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C55",
+			"claim": "She would dance-battle for her parents but never act in front of them.",
+			"passage": "\"I would never act in front of them. That to me felt like I would rather jump off of a bridge.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S10"
+			],
+			"inference": "Early privacy around the craft she most wanted, consistent with the later 'place to hide' framing (S10) and keeping Nikki private (S11).",
+			"alternative": "Ordinary childhood self-consciousness; told lightly on a podcast.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C09",
+			"claim": "She left high school early to work at a coffee shop to pay for headshots; her Marine father pushes education.",
+			"passage": "\"I left high school early to work at a coffee shop because headshots were really expensive and my mom couldn't afford them,\" she said. Her father, she says, \"really really loves to push education.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S10"
+			],
+			"inference": "A costly early choice that put the acting goal ahead of a conventional path (S10 23:55-24:25, 07:29-07:40).",
+			"alternative": "'Left early' does not specify whether she finished by another route; the draft does not say 'dropped out'.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C10",
+			"claim": "After a supporting role in the final season of 13 Reasons Why (2020), she joined The CW's Superman & Lois in 2021 as Sarah Cushing.",
+			"passage": "After a supporting role in the final season of _13 Reasons Why_ in 2020, Navarrette joined The CW's _Superman & Lois_ in 2021 as Sarah Cushing",
+			"class": "third_party",
+			"source_ids": [
+				"S01",
+				"S23",
+				"S19",
+				"S22"
+			],
+			"inference": "Established filmography. S23 (June 2020) covers her role as Estela in the final season; S19 (March 2021) names the character Sarah Cushing.",
+			"alternative": "KryptonSite 2023 (S21) uses the surname Cortez, while Just Jared Jr. (April 7, 2023, S22) still calls the character Sarah Cushing; confirm credits.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C11",
+			"claim": "She treated Superman & Lois as college; after being hit by a car she sat beside the DPs and asked about lenses.",
+			"passage": "With her father's emphasis on schooling in mind, she said, \"I treated it like college.\" When she was hit by a car during production and couldn't walk between takes, she sat beside the directors of photography, who \"always scared me,\" and started asking about lenses. \"So even though I didn't have the opportunity to go to college I felt like I did.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S10",
+				"S09"
+			],
+			"inference": "Turns a constraint into structured learning, tied explicitly to her father's emphasis on education (S10 07:29-08:40; S09 08:11-08:24).",
+			"alternative": "A common 'set was my film school' narrative; also compatible with Type 5 or 7 curiosity. The accident details are only her account.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C42",
+			"claim": "At her 2021 Superman & Lois screen test she wrote out the zodiac signs to hold focus, avoided talking to the other finalists, and called her approach 'survival mode'.",
+			"passage": "At her final screen test, surrounded by the other finalists, she felt \"so uncomfortable\" with the competition, so she brought a zodiac book and wrote out the signs \"from Aries all the way to Pisces.\" She kept to herself on purpose: \"I wasn't talking to these girls, because I knew once I did, I would just want to be their friends.\" She called the approach \"survival mode\": \"going in, getting it done, and then leaving and letting it go.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S19"
+			],
+			"inference": "Pre-fame example of managing pressure with a self-imposed structure; matches the 2026 'ran outside and... recalibrated' strategy (S09 02:20-02:25).",
+			"alternative": "Idiosyncratic nerves management; not type-specific.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C13",
+			"claim": "In a podcast interview released in April 2023, with renewal in doubt, she said James Gunn's public backing had made renewal look like \"a little bit of 50-50\" but was \"not a definitive\", so she would wait for the answer.",
+			"passage": "Because of his tweet, she said, renewal looked like \"a little bit of 50-50,\" and \"it was almost as though that's a definitive, but it's interesting in our industry, it's not a definitive, so we still have to wait for that answer.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S22",
+				"S39"
+			],
+			"inference": "Her words on The Wayne Ayers Podcast, now checked against the podcast's own YouTube captions (S39: clip 330p6Mmi5m0 0:00-0:35; full episode JlIQOIvawvg 16:58-17:20), which match Just Jared Jr.'s transcription (S22). She partly credited Gunn's tweet (\"a little bit of 50/50 because James Gunn came out on Twitter\") while withholding certainty until renewal was \"a definitive\".",
+			"alternative": "Ordinary industry realism that proved accurate: her series-regular run ended in the June 2023 budget cuts (C56). The article says so and treats the remark as adding little to the Six-versus-Three question (C111).",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C56",
+			"claim": "In June 2023 budget cuts ended her run as a Superman & Lois series regular, along with several castmates.",
+			"passage": "in June 2023, budget cuts ended her run as a series regular, along with several castmates",
+			"class": "third_party",
+			"source_ids": [
+				"S01",
+				"S09"
+			],
+			"inference": "Wikipedia reports she departed with six costars due to budget cuts in June 2023; Nemiroff frames the exit as budget-driven (S09 09:34-09:44).",
+			"alternative": "She returned in guest appearances; 'ended her run as a series regular' is the accurate scope.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C12",
+			"claim": "In 2026 she described losing her series-regular role as a blessing and as being told 'Dog, you're free', said it was hard to hear because she missed the cast, and framed it as graduating.",
+			"passage": "\"Honestly, I kind of felt like it was a blessing, not necessarily in disguise, but kind of just right in front of my face,\" she told Collider. Then: \"As soon as they were kind of like, 'Dog, you're free.' I was like, 'Dude.'\" She added that \"that was hard to hear cuz I miss everybody,\" and put the exit in her own college terms: \"I got freedom. And it was again, to treat it like college, like I graduated.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S09",
+				"S32"
+			],
+			"inference": "Quick positive reframing of a loss, told in hindsight after Obsession's success (S09 09:45-10:20, confirmed on audio 2026-10-22). Her contemporaneous public reaction in July 2023, relayed by Cinemablend from TikTok (S32, opened 2026-10-22), was matter-of-fact and turned to the fans' gain: \"But, at least you guys get a Season 4. We almost got cancelled, so at least we got a Season 4.\" No freedom language at the time.",
+			"alternative": "A Type 7 marker (reframe toward freedom), but the freedom framing is a 2026 retelling; the 2023 reaction is a modest silver lining that fits many types. The article should date each version and weigh it against her film goal and her Cosmopolitan acknowledgment of disappointment (C77).",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C17",
+			"claim": "She describes her pre-Obsession career as a boiling pot repeatedly taken off the stove.",
+			"passage": "\"Artistically, I felt like a boiling pot that kept being taken off the stove right before boiling over,\" she told Numero Netherlands in May 2026",
+			"class": "self_report",
+			"source_ids": [
+				"S03",
+				"S11"
+			],
+			"inference": "Her own image of pent-up expression that circumstances kept interrupting (written in S03; spoken in S11 03:07-03:18).",
+			"alternative": "Supports Type 9 (self-suppression) or Type 4 as much as 6; also an actor's metaphor about small TV roles.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C16",
+			"claim": "Her Obsession Zoom callback went badly; she says she was 'so shut off from my own emotions'.",
+			"passage": "\"it was awful,\" she told Complex News in June 2026, as quoted by NME. \"I think I was in a space personally where I was so shut off from my own emotions, and with Nikki, you need all of them.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S07",
+				"S06"
+			],
+			"inference": "Establishes a shut-down, fearful baseline before the decisive chemistry read (C58).",
+			"alternative": "A classic comeback-audition story shaped for press; fits many types.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C57",
+			"claim": "She called the Zoom callback the worst audition she had ever done.",
+			"passage": "On GoldDerby's podcast she called it \"the worst audition I had ever done.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S11"
+			],
+			"inference": "Independent retelling in a second outlet (S11 03:33-03:38).",
+			"alternative": "Self-deprecating press framing.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C58",
+			"claim": "She went into the chemistry read resolved to do everything she could.",
+			"passage": "\"If I have this opportunity, I'm doing everything that I possibly can,\" she told Complex",
+			"class": "self_report",
+			"source_ids": [
+				"S06"
+			],
+			"inference": "Total commitment once the chance is finite; the 'commit all the way' step of C51.",
+			"alternative": "Ordinary last-chance determination; fits Types 3 and 8 as well.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C59",
+			"claim": "At the chemistry read she locked eyes with Cooper Tomlinson and set out to make him uncomfortable.",
+			"passage": "In the room she locked eyes with Cooper Tomlinson, who would play Ian, and thought, \"how can I make him utterly uncomfortable right now?\"",
+			"class": "self_report",
+			"source_ids": [
+				"S09",
+				"S16"
+			],
+			"inference": "Aggressive commitment in the moment (S09 13:59-14:13). Surname from the S16 panel title.",
+			"alternative": "A performance choice for a horror audition, not a personality disclosure.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C35",
+			"claim": "Before release, Barker said few actors could do both the natural and the scary material, 'and Inde just nailed it'.",
+			"passage": "said actors could usually manage either the natural material or the frightening material, \"and that was a journey to find someone that could nail both those worlds, and Inde just nailed it.\"",
+			"class": "third_party",
+			"source_ids": [
+				"S17"
+			],
+			"inference": "Named director testimony from September 2025, before the box-office run.",
+			"alternative": "A director praising his lead at a festival; not a personality assessment.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C21",
+			"claim": "She kept her Nikki choices private from others on set.",
+			"passage": "\"I just needed to keep her private. I've really kept Nikki close to my chest,\" she told GoldDerby.",
+			"class": "self_report",
+			"source_ids": [
+				"S11"
+			],
+			"inference": "Protects inner preparation from exposure until it is ready.",
+			"alternative": "A common actor technique for keeping reactions fresh; fits Type 4/5 privacy as well as 6. The same privacy extended to Barker in rehearsal (C115).",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C22",
+			"claim": "Co-star Michael Johnston recalls asking her to show him the 'freaky Nikki' smile in advance and her refusing.",
+			"passage": "\"When you did the smile, 'I'm your freaky Nikki,' remember I was like, 'Show me what you're going to do.' And you were like, 'No.'\"",
+			"class": "third_party",
+			"source_ids": [
+				"S13"
+			],
+			"inference": "Second-person corroboration of C21.",
+			"alternative": "Friendly promotional context. Speaker attribution inferred from turn order; the transcript labels the next turn '[Inde]' and notes '(Inde pops lips)' in response. Confirm visually.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C23",
+			"claim": "She used Barker \"as a mirror\" with \"full trust\" and loved his adjustments; saying they had shot it two years earlier, she deferred to his account of how a sequence came together.",
+			"passage": "\"I'm quite sensitive and so I didn't want to take anything home. So, I kind of used Curry as a mirror where I put full trust in him,\" she told GoldDerby. She would show him faces, he would adjust them, and \"whenever I heard, you know, that's perfect. No, keep it going. Keep it, keep it. That I loved.\" When an interviewer's question turned on Barker's account of how a sequence came together, she said they had shot it two years earlier and deferred to him: \"if that's what Curry said, then that's definitely what happened.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S11"
+			],
+			"inference": "S11 18:05-18:25, confirmed on audio 2026-10-22. The audio continues past the quoted line: \"That I loved because there was some aspects of this movie where it wasn't for me. It was for the audience... it's not for me to see.\" The mirror was a substitute for watching herself, which she avoided while playing Nikki (W: \"I didn't want to look in the mirror... didn't want to watch playbacks\", S44), not general deference. The deference line (S11 09:21-09:31) follows \"because we shot this two years ago\"; captions read \"if that's what Curry said, then that's definitely what happened,\" Whisper hears \"if that's what Corey told him, that's definitely what happened,\" so quote only \"that's definitely what happened\" or paraphrase. Narrower than the baseline implied: C115 shows she withheld the freakouts from Barker in rehearsal.",
+			"alternative": "Normal deference by a young lead to the writer-director on his own film, or Type 9 merging; the article names both next to the Six claim (C86). Deferring to a director's memory of a shoot two years earlier is ordinary. Her stated advice to \"believe in yourself before other people will\" (C85) cuts against a borrowed-certainty reading as an ideal.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C60",
+			"claim": "With a torn ACL, she coached herself ('Danielle, hold it together') through a backward-walk shot, then took the problem to Barker, whose fix (walk forward, reverse the footage) is in the film.",
+			"passage": "\"Fun fact, I have a torn ACL,\" she told GoldDerby. When a scene called for Nikki to move backward, she tried and tried, coaching herself by her birth name: \"Danielle, hold it together. You can do this.\" Then she took the problem to Barker, who asked, \"Wait, what if you go forwards and we reverse it?\" That is what ended up in the film.",
+			"class": "self_report",
+			"source_ids": [
+				"S11"
+			],
+			"inference": "S11 21:05-21:50. Audio spot-check 2026-10-22 confirms \"Fun fact, I have a torn ACL\" and \"Danielle, hold it together. You can do this\", and Barker's reply (\"wait, what if you go forward and we reverse it?\"). The words between are garbled in both captions and Whisper (\"I just so humbly went to Korean and go...\"), most likely \"went to Curry\"; Barker is the one who answers. Keep \"she took the problem to Barker\" as a paraphrase and quote nothing from the garbled stretch.",
+			"alternative": "The line between self-coaching and Barker's reply is garbled in captions; 'took the problem to Barker' is a paraphrase. Physical workaround stories are ordinary production anecdotes.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C36",
+			"claim": "The script ended with Nikki's death and in the released film she lives; Barker says Capstone requested one take where she lives and her performance persuaded him to use it.",
+			"passage": "The script ended with Nikki's death; in the released film, she lives. Barker told an Alamo Drafthouse audience that Capstone wanted \"a version where you live,\" and he planned a single throwaway take. \"Her performance was so crazy with the... take where she lives, and so disturbing... that I had people basically talk me into it.\"",
+			"class": "third_party",
+			"source_ids": [
+				"S16",
+				"S09",
+				"S29"
+			],
+			"inference": "Barker's account (S16 22:57-23:32, confirmed on audio 2026-10-22). S09 25:05-25:14 confirms a shot alternate ending in which Nikki kills herself; S29 describes the released ending with Nikki surviving. Ellipses remove the caption repetition \"with the\" and the filler \"um\". Capstone is described as the company that funded the film, per S37 (Cosmopolitan wording re-checked on the Yahoo syndication 2026-10-22).",
+			"alternative": "Her account (C61) attributes the change to a same-day decision about the character and credits Barker, not her take.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C61",
+			"claim": "Her accounts of the ending change differ by interview: to Collider she called it a same-day decision because Nikki is \"a final girl\" and credited Barker's wish to \"sit with her\"; to THR in May 2026 she relayed that, \"from other people's perspective, which is high praise for me,\" they did one take, \"felt like it was magical and electric, and they knew that that was the ending.\"",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S09",
+				"S35"
+			],
+			"inference": "S09 25:05-25:40 (confirmed on audio 2026-10-22) and S35 (opened 2026-10-22). The baseline line that she \"said nothing about her take persuading anyone\" is contradicted by S35 and must be rewritten. Both her versions now sit alongside Barker's (C36), which credits her performance.",
+			"alternative": "Memory of a set decision about two years earlier, told to different interviewers; in THR she relays others' praise with visible modesty (\"which is high praise for me\").",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C64",
+			"claim": "After wrapping Obsession she went about a year and a half without another acting job.",
+			"passage": "After wrapping _Obsession_, Navarrette went about a year and a half without another acting job.",
+			"class": "self_report",
+			"source_ids": [
+				"S07",
+				"S06",
+				"S29"
+			],
+			"inference": "'I didn't work for a year and a half after Obsession' (Complex, as quoted by NME). Bounded by the October 2024 shoot (S29); the date of her next job is not in the opened record.",
+			"alternative": "The figure is hers.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C14",
+			"claim": "During the drought she walked dogs and streamed to make money and found repeated rejection debilitating.",
+			"passage": "\"Between Obsession and the film after that, I didn't work. I was walking dogs. I was streaming. I was doing a lot of these things to make money,\" she told Nylon. \"I didn't have a lot of confidence because you just keep hearing no, and that can be debilitating.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S02",
+				"S06"
+			],
+			"inference": "Establishes the cost and constraint behind the breakout; the same story appears in Complex (S06).",
+			"alternative": "None material.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C65",
+			"claim": "Complex reports she built her own PC in 2022 and began streaming out of love for other creators; she told Variety she liked gaming alone and a small, intimate audience.",
+			"passage": "Complex reported that she built her own gaming PC in 2022 and started streaming because she loved watching creators like Jacksepticeye and Jenna Marbles, so by that account the streaming began before the drought. \"I love playing video games by myself. I'm not getting any work. I know that other people do this,\" she told Variety. She liked the small audience, which she called \"nice and like intimate.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S06",
+				"S10"
+			],
+			"inference": "Complex (S06) dates the PC build to 2022, before the post-Obsession drought, so by that account the drought streaming continued something already under way. Variety S10 11:41-12:44.",
+			"alternative": "Her Variety line 'I'm not getting any work' suggests a lull at the start; no source fixes the first stream's date beyond Complex's framing.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C15",
+			"claim": "She deleted many of her Twitch streams (her words: 'all of them', then 'a lot of them') because she got scared people would not take her seriously after switching to acting, admitting the fear was not based on fact; she gives no date.",
+			"passage": "\"I deleted all of them just cuz... I got scared.\" She explained the fear: \"what if people saw that I switched and now they don't take me seriously.\" And she was candid that it was only a fear: \"it's not based on fact, but... I just panicked and I deleted a lot of them.\" She tied the deletion to \"moving into like a new chapter of my life\" but did not say when it happened, and no source says whether anyone advised it.",
+			"class": "self_report",
+			"source_ids": [
+				"S10"
+			],
+			"inference": "Central Six-versus-Seven evidence (S10 10:33-10:55). Audio spot-check 2026-10-22 (Whisper on the downloaded Variety audio) confirms the passage except one word: captions read \"what if people saw that I switched,\" Whisper hears \"that I twitched.\" Quote around that word (\"now they don't take me seriously\") until a human listen settles it. She acted pre-emptively against an imagined judgment and named it as fear. Date bounds: after the 2022 PC build (S06, S46 5:26) and before the July 31, 2026 Variety interview. The cost the record supports is losing much of an archive she loved, not income (C95). Ellipses remove caption false starts.",
+			"alternative": "A Type 3 image-management reading fits the 'take me seriously' fear at least as well. Scrubbing an old online persona when changing careers is an ordinary explanation. One retrospective episode, told lightly.",
+			"durability": "stable",
+			"review_trigger": "Whenever she retells the deletion with a date, an adviser or a different motive, re-test the Six-versus-Seven and Six-versus-Three discriminators."
+		},
+		{
+			"id": "C66",
+			"claim": "After fans preserved the clips she said her fear was for nothing, and that streaming had helped her financially.",
+			"passage": "\"Now seeing that people are so lovingly holding on to it my fear was for nothing,\" she said, adding that she had loved streaming and that \"it also just helped me out with like financials.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S10"
+			],
+			"inference": "Her later reassessment (S10 11:11-11:34). The financial line refers to streaming at the time, 'doing something that I loved and getting paid for it', not to the deleted archive.",
+			"alternative": "Hindsight after a positive outcome.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C67",
+			"claim": "Nylon observed that old videos from her streamer channel have resurfaced, as Timothée Chalamet's did.",
+			"passage": "Nylon noted that old videos from her streamer channel have resurfaced",
+			"class": "third_party",
+			"source_ids": [
+				"S02"
+			],
+			"inference": "An outside outlet's observation corroborating that the clips circulated.",
+			"alternative": "Writer's framing, not a quote from her.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C25",
+			"claim": "In July 2026, months before any nominations, she described a 'safety net' against an Oscar disappointment while admitting the conversation is extremely validating.",
+			"passage": "Asked about Oscar buzz in July 2026, months before any nominations, she told Variety that \"there's a part of my brain that is... just kind of having a safety net of if it doesn't happen, it doesn't mean that I didn't do a good job.\" She did not pretend indifference. On GoldDerby she said she \"would be lying to you if I said that that's not a dream and that isn't extremely validating.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S10",
+				"S11",
+				"S46"
+			],
+			"inference": "Pre-committing against a feared disappointment before it happens, the same anticipatory structure as C15 (S10 28:55-29:09, confirmed on audio 2026-10-22; S11 32:08-32:15). It is not a one-off: a month earlier, asked by Complex News whether she cares about accolades, she said \"I'm very sensitive. So, I kind of want to protect my peace. I don't want to get too excited about something that may or may not happen\" (S46 19:10-19:30, C120). Ellipsis removes the filler \"um\".",
+			"alternative": "Media-trained modesty about awards is universal; what the net protects ('a good job') is a performance verdict a Three would also guard. The article says both.",
+			"durability": "time_sensitive",
+			"review_trigger": "After Academy Award nominations are announced on 2027-01-21 (Academy schedule, subject to change), note any public response from her that tests the safety-net pattern; draw no inference from the result alone."
+		},
+		{
+			"id": "C31",
+			"claim": "She went skydiving and got her nipples pierced on her 18th birthday and says she loves getting random tattoos.",
+			"passage": "\"On my 18th birthday, I went skydiving.\" Then: \"I got my nipples pierced all in one day.\" She said she loves \"getting random tattoos.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S14"
+			],
+			"inference": "The strongest evidence for the Type 7 alternative (S14 03:07-03:15, 05:02-05:06).",
+			"alternative": "Fits Type 7 stimulation-seeking, and it is not a one-off: in March 2021 she told Sweety High she loves skydiving \"but unfortunately can't go anymore because of COVID\" (S36, C129). A counterphobic Six reading could claim deliberate fear-facing, but the piercing and \"random\" tattoos fit stimulation better. Performed for a talk-show laugh.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C68",
+			"claim": "Asked whether she began streaming with a career in mind, she said she does not think that far ahead.",
+			"passage": "Asked whether she started streaming with a career in mind, she told Variety, \"I don't think that far ahead.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S10"
+			],
+			"inference": "Cuts against typical Six anticipation; listed as unexplained (S10 11:41-11:48).",
+			"alternative": "Fits Type 7 present-focus, but the question was about streaming, not acting. In October 2026 she described her acting career in long-horizon, cautious terms: \"I can kind of make it last as long as humanly possible or throw it all away. I really want to be specific with the next couple of my decisions\" (C117). The line should not be generalized to her career.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C69",
+			"claim": "She describes a good audition as a split second between 'getting too much in your head' and a high that 'feels like drugs... It's dopamine'.",
+			"passage": "She has described the split second in a good audition when she is \"either getting too much in your head or feeling a high off of it,\" and when the high wins, it \"feels like drugs,\" adding, \"It's dopamine.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S09"
+			],
+			"inference": "S09 01:33-01:59. Stimulation language for the Type 7 case; her setup frames the high as what follows when the doubt does not take over. The caption's '[music]' artifact inside the quote is omitted.",
+			"alternative": "Common performer language about adrenaline.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C32",
+			"claim": "Her interests range from gaming to a stated wish to write and direct.",
+			"passage": "a spread of enthusiasms from gaming to a wish to write and direct",
+			"class": "self_report",
+			"source_ids": [
+				"S09",
+				"S04",
+				"S10"
+			],
+			"inference": "'write my own stuff and possibly direct one day' (S09 08:35-08:39); 'I want to direct one day' (S04). Breadth of interests supports the Type 7 alternative.",
+			"alternative": "Common actor ambitions.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C20",
+			"claim": "She describes seeking the high of mastering something she is scared of.",
+			"passage": "\"Kind of chasing that high to challenge myself. I think obviously whenever you're really scared of something, but you really want to do it justice and do it correctly and then you get that high of... accomplishing it and feeling proud of it.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S11",
+				"S19"
+			],
+			"inference": "S11 35:48-36:10, confirmed on audio 2026-10-22. The feared thing is a responsibility (\"do it justice and do it correctly\"); the payoff includes pride (C93). The phrase recurs for Rogue and SNL (C126). Echoes 2021 (\"I often challenge myself daily\", S19).",
+			"alternative": "Type 7: 'high' language points to stimulation. Type 3: the payoff is pride and accomplishment. The article states only a lean toward Six (C97).",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C34",
+			"claim": "Talking about films that show a person's ugliness, she said she felt seen and heard and knew how to play the Obsession script.",
+			"passage": "Talking about films that show a person's \"ugliness,\" she told Collider, \"I felt seen, I felt heard,\" and that with the _Obsession_ script she thought, \"I know exactly how to play this.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S09"
+			],
+			"inference": "Her strongest emotional-authenticity statements and the core evidence for the Type 4 alternative (S09 14:44-15:13). 'I felt seen, I felt heard' follows her praise of Chronology of Water; the draft keeps that context.",
+			"alternative": "Type 4 (desire to be seen in her full emotional truth). For the Six thesis, the relevant element is permission to show big emotion.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C71",
+			"claim": "She calls the horror community the most welcoming she has been part of and says she never wants to leave it.",
+			"passage": "\"has been the most welcoming out of anyone that I've ever been a part of and I don't ever want to leave that.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S10"
+			],
+			"inference": "Belonging language rather than differentness, which counts against a Type 4 core (S10 30:15-30:24).",
+			"alternative": "Press-cycle gratitude toward a fan base.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C33",
+			"claim": "She says playing Nikki taught her to stand up for herself, something she needed to learn.",
+			"passage": "\"Nikki stood up for herself in so many different ways... I felt like that was something I needed to learn.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S10"
+			],
+			"inference": "Argues against Type 8; compatible with a Nine finding a voice or a shy Six gaining nerve (S10 26:57-27:05).",
+			"alternative": "Type 9 or Type 4 identity-through-role readings.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C30",
+			"claim": "In a 2023 slap scene she asked a castmate to slap her harder.",
+			"passage": "the actor who told a _Superman & Lois_ castmate \"you've got to slap me harder\" during a slap scene",
+			"class": "self_report",
+			"source_ids": [
+				"S21"
+			],
+			"inference": "A tough, physical self-presentation that could suggest Type 8 at face value; the draft weighs it against C33.",
+			"alternative": "Professional commitment to a scene's realism rather than a personality trait.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C72",
+			"claim": "As Obsession broke out, strangers began stopping her and her Instagram following passed 2.2 million.",
+			"passage": "strangers began stopping her on the street and her Instagram following passed 2.2 million",
+			"class": "third_party",
+			"source_ids": [
+				"S02"
+			],
+			"inference": "Context for the not-sleeping quote, reported by Nylon in July 2026.",
+			"alternative": "Follower counts move; the draft frames the figure historically, as reported at the breakout.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C28",
+			"claim": "During the breakout she said she didn't care about lost sleep because she might not get this opportunity again.",
+			"passage": "\"I don't care how much I'm not sleeping, because I don't know if I'll get this opportunity again.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S02"
+			],
+			"inference": "Reported by Nylon (S02) and followed at once by a SoulCycle 'Sleep when you're dead' joke (C89), so she frames it as trained stamina, not a cost. The article files it under the Type 3 case and draws no link to other episodes.",
+			"alternative": "A common first-breakout mindset; fits Types 3, 6 or 7.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C26",
+			"claim": "She described herself as very private in 2021 (CBR) and 2026 (Nylon).",
+			"passage": "In 2021 she told CBR, \"I feel as though my stuff is my own and I'm very private about that.\" In 2026 she told Nylon, \"I'm a very private person.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S19",
+				"S02"
+			],
+			"inference": "One of the few traits documented across time (2021 to 2026).",
+			"alternative": "Privacy is not type-specific (common in 4, 5, 9) and is sensible for someone newly famous; the draft says so.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C73",
+			"claim": "Echoing Milly Alcock, she describes acting as a place to hide and be another person.",
+			"passage": "borrowing an idea she credits to the actor Milly Alcock, as \"a place to hide and to be another person.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S10"
+			],
+			"inference": "Fits sensitivity and privacy around her craft (S10 26:29-26:44).",
+			"alternative": "A borrowed phrase; also fits Type 4 or 9.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C27",
+			"claim": "She wants to be very discerning with next projects so as not to lose the audience's trust.",
+			"passage": "wanting to be \"very discerning\" with new projects because \"I don't want to lose the audience's trust in me.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S10"
+			],
+			"inference": "Reputation language (S10 14:30-14:46); the article files it under the Type 3 case.",
+			"alternative": "Standard career-strategy talk during awards season; 'trust' fits 6 as well.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C74",
+			"claim": "She told Nylon she wants to prove Obsession wasn't lightning in a bottle and, right after, that she also wants to fall on her face publicly with something people dislike but she likes.",
+			"passage": "right after the \"lightning in a bottle\" line, she added: \"I also want to fall on my face publicly and have something that people don't like [but] maybe I do.\" She laughed. \"So, I'm looking forward to that.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S02"
+			],
+			"inference": "A stated willingness to be disliked for something she loves, which cuts against the fear behind the Twitch deletion and against an image-first Type 3.",
+			"alternative": "The 'prove' language fits 3; willingness to be disliked fits 4; it is also press-tour bravado or a point for Type 7. The article names these possibilities without using a wing.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"review_trigger": "",
+			"durability": "stable",
+			"id": "C75",
+			"claim": "She says that on some scenes 'it's just up to me to make myself comfortable'.",
+			"passage": "yet she told the Alamo Drafthouse audience that \"there's some moments where it's just up to me to make myself comfortable.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S16"
+			],
+			"inference": "S16 16:15-16:30, confirmed on audio 2026-10-22: \"I had him on the other side of the screen having fun with me to make me feel really really comfortable, but there's some moments where it's just up to me to make myself comfortable.\"",
+			"alternative": "Said about one challenging scene on a friendly panel."
+		},
+		{
+			"review_trigger": "",
+			"durability": "stable",
+			"id": "C76",
+			"claim": "She links the Superman & Lois disappointment to Obsession, and says Capstone, which funded Obsession, wanted her attached after she made Trap House with them.",
+			"passage": "\"If I hadn't had that disappointment, it wouldn't have led me to _Obsession_,\" she told Cosmopolitan. Elsewhere in the piece she explained: \"I was allowed to do _Trap House_ with Capstone, which funded _Obsession_. They saw me and were like, 'If Inde is attached to this, we'd love to see her in that.'\"",
+			"class": "self_report",
+			"source_ids": [
+				"S37"
+			],
+			"inference": "Her own account of a prior professional relationship with the financier. The two sentences come from different places in the Cosmopolitan piece: a narrative quote that begins \"If I had done the fourth season of Superman & Lois\" and a Q&A answer ending \"...divine timing. I was allowed to do Trap House...\". Repair stage attributes them separately (\"Elsewhere in the piece\") instead of splicing them under one attribution.",
+			"alternative": "Ordinary industry networking; S29 (via Deadline) adds that a producer championed her, which is not used."
+		},
+		{
+			"review_trigger": "",
+			"durability": "stable",
+			"id": "C77",
+			"claim": "The freedom she describes was freedom to pursue film, and in June 2026 she told Cosmopolitan the cut had been disappointing and sad but 'divine timing'.",
+			"passage": "the freedom was freedom to chase film, which she says she had always wanted; a month later she told Cosmopolitan that \"as disappointed and sad as it was to not be able to go back as a series regular,\" it was \"divine timing.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S09",
+				"S37"
+			],
+			"inference": "Collider S09 09:49-09:53 ('I've always wanted to do film, and I love film'); Cosmopolitan (S37) acknowledges disappointment. Both are 2026 hindsight.",
+			"alternative": "Also hindsight shaped by success; the 2023 reaction remains unchecked."
+		},
+		{
+			"review_trigger": "",
+			"durability": "stable",
+			"id": "C78",
+			"claim": "Interpretation: Capstone's backing may help explain why a bad callback did not end her chances.",
+			"passage": "That backing may help explain why a bad callback did not end her chances, though no source says so directly.",
+			"class": "interpretation",
+			"source_ids": [
+				"S37",
+				"S07"
+			],
+			"inference": "Combines her Capstone account (S37) with the failed Zoom callback (S07). Labeled as unconfirmed in the prose.",
+			"alternative": "Barker may simply have wanted another look; the record is silent."
+		},
+		{
+			"review_trigger": "",
+			"durability": "stable",
+			"id": "C79",
+			"claim": "As an adult she has come to appreciate 'a small town mentality' and calls Visalia 'homey'.",
+			"passage": "As she got older, she added, she came to appreciate \"a small town mentality,\" and she still calls Visalia \"homey.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S10"
+			],
+			"inference": "S10 06:47-07:22. Continues her Variety answer on the childhood moves.",
+			"alternative": "Ordinary nostalgia for a hometown."
+		},
+		{
+			"review_trigger": "",
+			"durability": "stable",
+			"id": "C80",
+			"claim": "In her Variety account, the childhood moving did not hurt.",
+			"passage": "In her Variety telling, it didn't.",
+			"class": "self_report",
+			"source_ids": [
+				"S10"
+			],
+			"inference": "Scopes the claim to S10 06:12-06:50. The Complex News video (S46), opened this refresh, gives a harder account of the same years (C112); the article should set the two tellings together rather than rest on Variety alone.",
+			"alternative": "Her record on the moves is mixed (C112). Neither account is a verified description of her childhood; both are retrospective self-reports in promotional interviews."
+		},
+		{
+			"review_trigger": "",
+			"durability": "stable",
+			"id": "C81",
+			"claim": "Obsession follows Bear (Michael Johnston), whose wish on a supernatural toy makes his friend and co-worker Nikki (Navarrette) obsessed with him.",
+			"passage": "follows Bear (Michael Johnston), a shy music-store employee who buys a supernatural toy that grants his wish for his friend and co-worker Nikki (Navarrette) to fall in love with him, and she becomes obsessed",
+			"class": "third_party",
+			"source_ids": [
+				"S29"
+			],
+			"inference": "Premise and roles from the film page, for orientation.",
+			"alternative": "None material."
+		},
+		{
+			"review_trigger": "",
+			"durability": "stable",
+			"id": "C82",
+			"claim": "Cooper Tomlinson plays Ian, a co-worker of Bear and Nikki.",
+			"passage": "Cooper Tomlinson plays their co-worker Ian.",
+			"class": "third_party",
+			"source_ids": [
+				"S29",
+				"S16"
+			],
+			"inference": "S29 cast list; S16 title supplies the surname.",
+			"alternative": "None material."
+		},
+		{
+			"review_trigger": "",
+			"durability": "stable",
+			"id": "C83",
+			"claim": "Obsession was shot in Los Angeles in October 2024, when she was 23, premiered at TIFF on September 5, 2025, and opened in U.S. theaters on May 15, 2026.",
+			"passage": "The film was shot in Los Angeles in October 2024, when Navarrette was 23, premiered at the Toronto International Film Festival on September 5, 2025, and opened in U.S. theaters on May 15, 2026.",
+			"class": "third_party",
+			"source_ids": [
+				"S29",
+				"S14",
+				"S17",
+				"S27"
+			],
+			"inference": "S29 for shoot and dates; S14 08:21 'I was 23 when we filmed it'; S17 is the TIFF-dated Barker interview; S27 lists the May 15, 2026 release.",
+			"alternative": "None material."
+		},
+		{
+			"review_trigger": "",
+			"durability": "stable",
+			"id": "C84",
+			"claim": "Interpretation (6 vs 3): the pre-fame record leans toward Six without deciding it. In 2021 she named doubt, not failure, as the enemy, and she describes telling Barker, when they met, what she could not do rather than projecting competence. The 2023 Gunn remark adds little (C111).",
+			"passage": "The pre-fame record leans toward Six without deciding it.",
+			"class": "interpretation",
+			"source_ids": [
+				"S19",
+				"S09"
+			],
+			"inference": "S19 (\"no room for doubt\"); S09 (\"I don't know how to scream\", told in 2026 about their first meeting). The article presents this as a lean and keeps Type 3 as a live second alternative.",
+			"alternative": "Both are self-reports, and the scream story was told during the 2026 promotion; the Twitch fear is image-shaped, so Type 3 stays live. The article says so."
+		},
+		{
+			"review_trigger": "",
+			"durability": "stable",
+			"id": "C85",
+			"claim": "Her advice to young actors is to 'be extremely stubborn' and 'believe in yourself before other people will'.",
+			"passage": "\"be extremely stubborn... You have to really believe in yourself before other people will.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S11",
+				"S42"
+			],
+			"inference": "S11 36:23-36:40, confirmed on audio 2026-10-22; the audio continues \"because I think a lot of people in this industry are very visual, and sometimes they need to see it to believe it.\" She repeated the ideal in October 2026 when asked how she kept faith during the drought: \"just be stubborn... you have to believe in yourself more than anybody else believes negatively in you\" (S42 ~10:12-10:35). A stated ideal of self-sourced certainty, consistent across four months; it cuts against a borrowed-certainty reading.",
+			"alternative": "Standard inspirational advice to young actors."
+		},
+		{
+			"review_trigger": "",
+			"durability": "stable",
+			"id": "C86",
+			"claim": "Interpretation (revised): her trust on set was staged and selective. She kept the freakouts from Barker in rehearsal and from co-star Michael Johnston, then used Barker as a mirror for calibrating smaller expressions. This corroborates a guarded, trust-by-stages pattern more than it proves any type.",
+			"passage": "",
+			"class": "interpretation",
+			"source_ids": [
+				"S11",
+				"S13",
+				"S40"
+			],
+			"inference": "Combines C21/C22 (privacy from Johnston), C115 (privacy from Barker on day one, \"keep that safe\") and C23 (mirror for the smiles). Replaces the baseline line that contrasted \"full trust in one chosen authority\" with hiding choices from a scene partner; C115 shows the contrast was overstated.",
+			"alternative": "Keeping big moments unrehearsed is a common actor technique for freshness, and she gives an authenticity reason (\"in order to play it true\"), which fits Type 4 or plain craft as well as Six caution. Overriding a nervous director on day one is self-trust, which a Six-as-borrowed-certainty reading does not predict."
+		},
+		{
+			"review_trigger": "",
+			"durability": "stable",
+			"id": "C87",
+			"claim": "By June 2026 she had stopped streaming for lack of time.",
+			"passage": "\"I would still love to do it, but I don't have time,\" she told Complex",
+			"class": "self_report",
+			"source_ids": [
+				"S06"
+			],
+			"inference": "Supports the point that deleting old VODs forfeited no income the record shows.",
+			"alternative": "Stated during a busy press run; she may resume."
+		},
+		{
+			"review_trigger": "",
+			"durability": "stable",
+			"id": "C88",
+			"claim": "In July 2026 she told Nylon that when people post her old content she reacts 'Oh my God', because it took her a while to find her style online.",
+			"passage": "A month earlier she told Nylon, \"It took me a while to find my style online, which is why sometimes when people post old sh\\*t of mine, I go, 'Oh my God.'\"",
+			"class": "self_report",
+			"source_ids": [
+				"S02"
+			],
+			"inference": "Mixed feelings about resurfaced material (Nylon, July 1, 2026), a month before she told Variety her fear was for nothing. The Markdown backslash renders the asterisk printed in the article.",
+			"alternative": "Ordinary embarrassment at old content; also fits a Three's image concern."
+		},
+		{
+			"review_trigger": "",
+			"durability": "stable",
+			"id": "C89",
+			"claim": "She followed the not-sleeping line with a SoulCycle 'Sleep when you're dead' joke.",
+			"passage": "She followed it with a gym joke: \"It reminds me of being in a SoulCycle class and all of the girls are like, 'Sleep when you're dead.'\"",
+			"class": "self_report",
+			"source_ids": [
+				"S02"
+			],
+			"inference": "Frames the lost sleep as cheerful hustle rather than a regretted cost.",
+			"alternative": "None material."
+		},
+		{
+			"review_trigger": "At each refresh, search interviews for Navarrette naming an Enneagram type; update the body sentence and FAQ together.",
+			"durability": "time_sensitive",
+			"id": "C90",
+			"claim": "As of October 2026 she has not publicly named an Enneagram type.",
+			"passage": "",
+			"class": "observed",
+			"source_ids": [
+				"S09",
+				"S10",
+				"S11",
+				"S30",
+				"S40",
+				"S42",
+				"S45"
+			],
+			"inference": "None of the sources opened through 2026-10-22 has her naming an Enneagram type: the prior long-form video interviews (S09, S10, S11), the Kyle Buchanan Show through 34:34 (S42), the W video (S45) and THR's Awards Chatter excerpts (S40). The Awards Chatter audio (S41) and the last 18 minutes of S42 were not reviewed. She volunteers astrology instead (\"I'm a Pisces... my rising is Capricorn and my moon is Gemini\", S45 ~6:05-6:45; \"I'm a Pisces\", S46 ~13:35-13:45). Public Enneagram typings found are fan-submitted (S30).",
+			"alternative": "She may have mentioned a type in an unopened interview (S33, S34, S35)."
+		},
+		{
+			"review_trigger": "Re-test after the Saturday Night Live episode she hosts on 2026-10-31 (S26, S51) and its press; after Academy Award nominations on 2027-01-21; at the Invertigo release press (reported for 2027) and the X-Men press cycle (release dated 2028-05-05, S43); whenever she retells the Twitch deletion (C15). Public risks taken without a trusted guide or safe container would weaken the Six reading; a retelling of the deletion with a different motive would require re-testing the discriminator.",
+			"durability": "unresolved",
+			"id": "C91",
+			"claim": "Unresolved: whether she keeps taking risks without a safe room built for her will test the Six reading.",
+			"passage": "",
+			"class": "interpretation",
+			"source_ids": [
+				"S09",
+				"S19",
+				"S16",
+				"S10",
+				"S40"
+			],
+			"inference": "A falsifiable prediction. The record already holds self-built structures (S19 pact; S16 comfort line), structures built by others (S09), and one day-one override of a nervous director on her own terms (C115).",
+			"alternative": "Career choices after a hit are shaped by agents, studios and money as much as by motive."
+		},
+		{
+			"review_trigger": "",
+			"durability": "stable",
+			"id": "C92",
+			"claim": "She took from the ending change a lesson about 'that quickness of flipping' and freedom.",
+			"passage": "What she took from the day was \"that quickness of flipping... allowing yourself in that exact moment to have that freedom,\"",
+			"class": "self_report",
+			"source_ids": [
+				"S09"
+			],
+			"inference": "S09 25:31-25:40. Spontaneity language; the article files it with the Type 7 evidence. Ellipsis removes 'um just'.",
+			"alternative": "A description of on-set creative flexibility common in actors' accounts."
+		},
+		{
+			"review_trigger": "",
+			"durability": "stable",
+			"id": "C93",
+			"claim": "She wants projects that challenge her and let her feel proud, a way of thinking she credits to her parents.",
+			"passage": "She wants projects that \"challenge me but also allow me to... feel proud,\" a way of thinking she credits to her parents.",
+			"class": "self_report",
+			"source_ids": [
+				"S11"
+			],
+			"inference": "S11 36:01-36:13. The pride half of her answer, which fits Type 3 as well as 6. Ellipsis removes 'um'.",
+			"alternative": "Ordinary career aspiration."
+		},
+		{
+			"review_trigger": "",
+			"durability": "stable",
+			"id": "C94",
+			"claim": "Interpretation: taking the Obsession lead reflects career circumstance (the lost series-regular role, a wish to move into film, the financier's backing) as much as moving toward fear.",
+			"passage": "The part came after she lost her series-regular role, she told Numero Netherlands she \"really wanted to transition into film,\" and the film's financier already backed her.",
+			"class": "interpretation",
+			"source_ids": [
+				"S01",
+				"S03",
+				"S37"
+			],
+			"inference": "S01: June 2023 cast cuts; S03: 'I really wanted to transition into film'; S37: Capstone, which funded Obsession, wanted her attached after Trap House.",
+			"alternative": "A counterphobic reading would still count accepting a feared genre; the article rests the fear argument on how she handled it once cast."
+		},
+		{
+			"review_trigger": "",
+			"durability": "stable",
+			"id": "C95",
+			"claim": "Interpretation: the documented cost of the Twitch deletion is losing much of an archive she loved; no forfeited income is shown.",
+			"passage": "The cost the record supports is modest: she gave up much of a record of something she loved.",
+			"class": "interpretation",
+			"source_ids": [
+				"S10",
+				"S06"
+			],
+			"inference": "S10: she loved streaming and deleted many streams; the income came from streaming at the time. S06: she has stopped streaming for lack of time.",
+			"alternative": "The emotional cost may be larger or smaller than her light retelling suggests."
+		},
+		{
+			"review_trigger": "",
+			"durability": "stable",
+			"id": "C96",
+			"claim": "Interpretation: the Twitch deletion was a retreat, so the profile does not use a counterphobic label; her daring acts fit Type 7 at least as well.",
+			"passage": "Here the safe move was a retreat, not a step toward the threat",
+			"class": "interpretation",
+			"source_ids": [
+				"S10",
+				"S14"
+			],
+			"inference": "Removes the subtype label that let both hedging and daring behavior count for Six.",
+			"alternative": "A counterphobic reading could still claim the horror role and the scream work."
+		},
+		{
+			"review_trigger": "",
+			"durability": "stable",
+			"id": "C97",
+			"claim": "Interpretation: what leans toward Six in her \"chasing that high\" answer is that the feared thing is a responsibility, not a sensation.",
+			"passage": "The thing she fears is a responsibility, doing a role justice and doing it correctly, not a sensation she wants to feel.",
+			"class": "interpretation",
+			"source_ids": [
+				"S11"
+			],
+			"inference": "Reads 'do it justice and do it correctly' in S11 35:48-36:01 as the entry condition.",
+			"alternative": "A Seven reading could treat 'scared first, then the high' as thrill-seeking; Type 1 could claim 'correctly'. The article calls it a lean."
+		},
+		{
+			"review_trigger": "",
+			"durability": "stable",
+			"id": "C98",
+			"claim": "She handles strangers filming her by treating it as 'none of my business'.",
+			"passage": "Asked about strangers filming her in public, she described a deliberate narrowing of attention: \"I kind of put it as like it's none of my business.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S10"
+			],
+			"inference": "S10 22:14-22:19. A controlled narrowing of attention.",
+			"alternative": "A sensible coping line for anyone newly famous."
+		},
+		{
+			"review_trigger": "",
+			"durability": "stable",
+			"id": "C99",
+			"claim": "She went into Obsession, the film that made her famous, not knowing how to scream.",
+			"passage": "went into _Obsession_, the horror film that made her famous, not knowing how to scream",
+			"class": "self_report",
+			"source_ids": [
+				"S09",
+				"S02"
+			],
+			"inference": "S09 20:24-20:25 ('I didn't know how to scream'); S02 reports strangers stopping her and her following spiking after the film.",
+			"alternative": "'Not knowing how to scream' is about technique and comfort, which the next sentences make clear."
+		},
+		{
+			"review_trigger": "",
+			"durability": "stable",
+			"id": "C100",
+			"claim": "She told Jimmy Kimmel she went skydiving on her 18th birthday.",
+			"passage": "because the same woman told Jimmy Kimmel she went skydiving on her 18th birthday",
+			"class": "self_report",
+			"source_ids": [
+				"S14"
+			],
+			"inference": "Her own disclosure on late-night TV (S14 02:55-03:10); the piercing appears only in the attributed Type 7 section.",
+			"alternative": "Told for laughs; performance incentives are high."
+		},
+		{
+			"review_trigger": "",
+			"durability": "stable",
+			"id": "C101",
+			"claim": "Interpretation: the scream-session plan was Barker's, and warming up a nervous lead is ordinary directing.",
+			"passage": "The plan was Barker's, and warming up a nervous lead is ordinary directing, so the story shows his method as much as her motive.",
+			"class": "interpretation",
+			"source_ids": [
+				"S09"
+			],
+			"inference": "S09 20:36-20:50: 'he was like, \"Okay, I'm going to schedule multiple days...\"'.",
+			"alternative": "None material."
+		},
+		{
+			"review_trigger": "",
+			"durability": "stable",
+			"id": "C102",
+			"claim": "Later coverage calls her Superman & Lois character Sarah Cortez.",
+			"passage": "a character later coverage calls Sarah Cortez",
+			"class": "third_party",
+			"source_ids": [
+				"S21"
+			],
+			"inference": "KryptonSite (June 2023) uses 'Sarah Cortez'; earlier coverage uses 'Sarah Cushing' (S19).",
+			"alternative": "Confirm on-screen credits (research task)."
+		},
+		{
+			"review_trigger": "",
+			"durability": "stable",
+			"id": "C103",
+			"claim": "Metadata: she didn't know how to scream when Obsession began.",
+			"passage": "didn't know how to scream when Obsession began",
+			"class": "self_report",
+			"source_ids": [
+				"S09"
+			],
+			"inference": "Description wording stays within her own 'I didn't know how to scream' (S09 20:24).",
+			"alternative": "None material."
+		},
+		{
+			"review_trigger": "",
+			"durability": "stable",
+			"id": "C104",
+			"claim": "FAQ: she told Variety in July 2026 that she deleted many streams as she moved into a new chapter, afraid people would not take her seriously.",
+			"passage": "She told Variety in July 2026 that she deleted many of her streams as she moved into a new chapter of her life, afraid people would not take her seriously.",
+			"class": "self_report",
+			"source_ids": [
+				"S10"
+			],
+			"inference": "Matches the body's scope ('many', from her 'all' then 'a lot of them').",
+			"alternative": "None material."
+		},
+		{
+			"review_trigger": "",
+			"durability": "stable",
+			"id": "C105",
+			"claim": "FAQ: she had made Trap House with Capstone, which funded Obsession, and says the company wanted to see her in the film.",
+			"passage": "She had already made Trap House with Capstone, the company that funded Obsession, and she told Cosmopolitan the company wanted to see her in the film.",
+			"class": "self_report",
+			"source_ids": [
+				"S37"
+			],
+			"inference": "Paraphrases C76.",
+			"alternative": "None material."
+		},
+		{
+			"review_trigger": "",
+			"durability": "stable",
+			"id": "C106",
+			"claim": "FAQ: the Type 7 evidence (skydiving and piercing at 18, random tattoos, liking the frequent moves in her Variety account, the freedom reframe).",
+			"passage": "She went skydiving and got pierced on her 18th birthday, says she loves random tattoos, told Variety she liked moving around a lot as a kid, and called losing her Superman & Lois regular role freedom.",
+			"class": "self_report",
+			"source_ids": [
+				"S14",
+				"S10",
+				"S09"
+			],
+			"inference": "Summarizes C31, C47/C03 and C12 in her own scope (\"I grew up moving around a lot... new story, new place\"); \"constantly\" was removed at repair (verify-04).",
+			"alternative": "See C80 and C77 for the qualifications given in the body."
+		},
+		{
+			"review_trigger": "",
+			"durability": "stable",
+			"id": "C107",
+			"claim": "Achievement-shaped self-reports: leaving school early for headshots, 2021 'survival mode' and a 110% pact.",
+			"passage": "leaving high school early to pay for headshots, \"survival mode\" and a \"110%\" pact in 2021",
+			"class": "self_report",
+			"source_ids": [
+				"S10",
+				"S19"
+			],
+			"inference": "Assembled for the Type 3 case (C09, C42, C53).",
+			"alternative": "The pact against doubt also fits the Six reading."
+		},
+		{
+			"review_trigger": "",
+			"durability": "stable",
+			"id": "C109",
+			"claim": "Interpretation: the Obsession audition story has no safety step, only a shutdown followed by total commitment.",
+			"passage": "This story has no safety step, only a shutdown followed by total commitment once the chance was clearly finite",
+			"class": "interpretation",
+			"source_ids": [
+				"S06",
+				"S07",
+				"S11",
+				"S35"
+			],
+			"inference": "The audition story has no safety step: a shutdown, then total commitment once the chance was clearly finite. In May 2026 she described the same audition attitude to THR: \"'I'm going to have so much fun with this, because who cares?' You either have to send it or not go in at all\" (S35).",
+			"alternative": "Comeback-audition stories are a press-tour staple."
+		},
+		{
+			"id": "C110",
+			"claim": "FAQ: the Six reading leans ahead of Type 3 without settling it; in 2021 she named doubt as the enemy, and her first move with the Obsession director was to admit what she could not do.",
+			"passage": "The Six reading leans ahead without settling it: in 2021 she named doubt as the enemy, and her first move with Obsession's director was to admit what she could not do.",
+			"class": "interpretation",
+			"source_ids": [
+				"S19",
+				"S09"
+			],
+			"inference": "Matches the body Type 3 section (C84). The FAQ no longer uses the 2023 Gunn remark as a discriminator (verify-01).",
+			"alternative": "Type 3 remains a live second alternative; the FAQ says so.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C111",
+			"claim": "Interpretation: the 2023 Gunn remark adds little to the Six-versus-Three question, because she partly credited his tweet and her caution was ordinary and proved right.",
+			"passage": "The 2023 Gunn remark adds little, since she partly credited his tweet and her caution was ordinary and proved right.",
+			"class": "interpretation",
+			"source_ids": [
+				"S22",
+				"S01"
+			],
+			"inference": "S22: \"a little bit of 50-50 because James Gunn came out on Twitter\" and \"it's not a definitive\"; S01: her series-regular run ended in the June 2023 budget cuts. Replaces the earlier use of the remark as a security-reflex discriminator (verify-01).",
+			"alternative": "A Six-leaning reader could still count withholding belief as a security reflex; the article declines to lean on it.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C112",
+			"claim": "Asked by Complex News whether she kept friends through the military moves, she said no: \"making friends was always really difficult for me,\" and the moves made her \"really close to like video games and like movies.\"",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S46"
+			],
+			"inference": "S46 3:14-3:46 (captions). Resolves the earlier research task: the Where Is The Buzz report (S38) was accurate. Sets a harder account of the moves beside the Variety \"new story, new place\" telling (C03, C80), weakening that line as a clean point for Type 7.",
+			"alternative": "Two short retrospective answers, each shaped by its interviewer's framing (Variety asked about the hardest part; Complex asked about friends). Both can be true: novelty she enjoyed and friendships she lost.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C113",
+			"claim": "Her accounts of where she mostly grew up differ: at TIFF in September 2026 she told ET she grew up in Texas \"for a good majority of my life,\" naming Corpus Christi, while she told Variety her mother had the children live mostly around Fresno, Visalia and Bakersfield.",
+			"passage": "",
+			"class": "disputed",
+			"source_ids": [
+				"S47",
+				"S10",
+				"S01",
+				"S42"
+			],
+			"inference": "S47 0:50-1:05 (Whisper) versus S10 06:55-07:04; Wikipedia says she was raised primarily in Visalia (S01). She prefaced the Texas line with \"I've never told this publicly, I completely forgot, but I have a divorced family\", which suggests time split between parents. On the Kyle Buchanan Show she said she keeps going back to Texas and has \"spent a lot of time there\", listing Fresno, Corpus Christi, North Carolina, Washington and Arizona (S42 13:26-14:46). The record does not settle the proportions.",
+			"alternative": "Military moves and a divorced family could make both statements loosely true. Promotional context matters: the Texas remark answered a question about Rogue's Southern accent.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C114",
+			"claim": "She says that when she got the call that she had won the part of Nikki, \"my heart sank to my butt\" and she realized she had to work on her anxiety.",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S44",
+				"S45"
+			],
+			"inference": "Print: \"I realized I had to work on my anxiety\" (S44); video: \"My heart sank to my butt and I was just like, I gotta work on my anxiety a little bit to go do this\" (S45 0:46-0:52, Whisper). Good news produced worry about the responsibility ahead rather than simple elation, which fits the Six reading that her \"high\" has a feared responsibility as its entry condition (C97).",
+			"alternative": "Performance anxiety at a first lead is common to every type; a Three could equally fear failing in public. Told lightly in a fashion interview a year later.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C115",
+			"claim": "Before the first shooting day of Obsession she told Barker she would not show him any of Nikki's freakouts in rehearsal; she says she knew he was nervous and that she was \"really being a dick,\" but wanted to \"keep that safe\" so it would play true, and that Barker was relieved when the first freakout worked.",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S40",
+				"S11",
+				"S42"
+			],
+			"inference": "S40 written excerpt (THR says excerpts are \"lightly edited\"; the S41 audio was not reviewed, so check wording there before quoting). GoldDerby (S11 5:24-5:40) corroborates the privacy and Barker's relief. A week later she gave her reason to Kyle Buchanan (S42 30:48-31:31, C138): \"Exposure was something that I really wanted to avoid... I was a very sensitive person at the time. And that prejudgment... would have killed me and that would have killed Nikki.\" So the withholding was itself protective, not a sign of indifference to safety. It does narrow the \"used Curry as a mirror... full trust\" story (C23): her trust was staged, not blanket.",
+			"alternative": "Common actor practice; the authenticity reason (\"play it true\") fits Type 4 or plain craft, and avoiding \"prejudgment\" fits a Three protecting the impression of competence as well as a Six avoiding exposure. As counterevidence to Six-as-dependency: she trusted her own process over a nervous director on day one.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C116",
+			"claim": "Reading the Obsession script, she says she thought it would require more than she knew she was capable of, then told herself, \"Shut up, you are so capable of this,\" and sent in the tape feeling \"pretty confident.\"",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S40"
+			],
+			"inference": "Doubt named first, then countered with self-talk, the same structure as the 2021 pact against doubt (C53) and \"Danielle, hold it together\" (C60). From THR's lightly edited excerpt (S40); the S41 audio was not reviewed.",
+			"alternative": "Self-talk against doubt is near-universal and a staple of breakout narratives; a Three would tell the same story as competence. It also sits beside her account of a poor second audition (C16, C57).",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C117",
+			"claim": "In October 2026 she described her career as a moment she could \"make last as long as humanly possible or throw it all away,\" and said she wants to be \"specific with the next couple of my decisions.\"",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S40"
+			],
+			"inference": "Long-horizon, loss-averse framing of success, the opposite of \"I don't think that far ahead\" (C68, which concerned streaming). Fits a Six concern with keeping what she has and also a Three concern with managing a career. From THR's lightly edited excerpt (S40); the S41 audio was not reviewed.",
+			"alternative": "Standard advice from agents after a breakout; it does not separate Six from Three.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C118",
+			"claim": "When rapper Big Sean sent her a message, her first reaction was \"Oh, no,\" and she handed the phone to her boyfriend to read it and tell her whether \"we're cool on this\" before she read it herself.",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S46"
+			],
+			"inference": "S46 16:28-17:00 (captions). Anticipating a bad outcome from an unknown message and routing it through a trusted person first is the same securing move as the filtered social feeds (C119). Told as a funny story; the message was kind. Do not name the boyfriend (no confirmed identity in the record).",
+			"alternative": "Many people would hesitate before opening a message from a celebrity stranger; the anecdote is light and single.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C119",
+			"claim": "As Obsession broke out in May 2026, she told People that she and her mother were limiting what she was allowed to see online \"to make sure that I'm protecting myself first,\" and that she saw social media only when family or her team sent it.",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S49"
+			],
+			"inference": "Relayed by Just Jared (S49); the People original (S50) was not opened. A trusted filter set up before any bad reaction arrived, consistent with C25/C120.",
+			"alternative": "Ordinary advice to newly famous people; publicists recommend exactly this. A Nine avoiding disturbance or anyone protecting their focus would do the same.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C120",
+			"claim": "Asked by Complex News in June 2026 whether she cares about accolades, she said it is not that she does not care, but that because she is \"very sensitive\" she wants to \"protect my peace\" and not \"get too excited about something that may or may not happen.\"",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S46"
+			],
+			"inference": "S46 19:10-19:30 (captions). A second, independent occasion of the pre-set safety net (C25), a month before Variety. Shows the move recurs across interviewers.",
+			"alternative": "Media-trained awards modesty; \"taking it day by day\" fits Seven or Nine present-focus as well.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C121",
+			"claim": "She describes herself as \"very superstitious\": she and her all-Latino glam and publicity team cleanse with sage before events and will not split around a pole on the sidewalk, because \"if we split the pole, we'll be jinxed.\"",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S44",
+				"S45"
+			],
+			"inference": "Protective ritual practiced as a group before exposure events. Fits a Six pattern of warding off bad outcomes in company, and her other sign-reading (lucky number 27, S46; dreams that come true, S44).",
+			"alternative": "She frames it as cultural (\"Mexican intuition, Mexican energy\") and playful; the practice is the team's, not evidence of her private motive. Low weight.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C122",
+			"claim": "She calls herself \"100 percent a cat\": she does not like to be seen unless she wants to be seen, and a lot of \"pay attention to me\" freaks her out.",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S44",
+				"S45"
+			],
+			"inference": "Consistent with her long-stated privacy (C26) and with watching her film only in disguise (S44). Counts against a Three reading in which being seen is the reward, and against Type 2.",
+			"alternative": "Stated preference in a lighthearted Q&A while she is on magazine covers and hosting SNL; behavior (red carpets, campaigns) is career-driven either way.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C123",
+			"claim": "When Gemma Chan told her she was a fan, Navarrette cut her off: \"Don't talk about my accomplishments—I want to talk about yours!\"",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S44",
+				"S45"
+			],
+			"inference": "Deflects attention from her own achievements toward someone she admires. Mild evidence against a Three reading.",
+			"alternative": "Ordinary politeness and being starstruck; single anecdote.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C124",
+			"claim": "In October 2026 she said every day \"feels like the best day of my life so far,\" that she feels both 9 and 75, and that in the past she had \"always been scared to dress up or do a lot.\"",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S44",
+				"S45"
+			],
+			"inference": "The enthusiasm and the playful nine-year-old self are points for the Type 7 reading; the admission that she was \"always scared\" to dress up or \"do a lot\" points the other way, toward fear that she is now outgrowing.",
+			"alternative": "Junket exuberance during the best year of her career; neither line is strong evidence alone.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C125",
+			"claim": "Preparing to host SNL, she told ET in September 2026 that she was already writing down sketch ideas and wanted to \"come in with myself and my own ideas\"; in October she said she felt like she had \"snuck in\" and that \"what I love is when I don't know anything.\"",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S47",
+				"S51"
+			],
+			"inference": "Early preparation for a high-exposure first (S47) beside a stated taste for surprise (S51), which likely refers to watching SNL as an audience member. The pairing is a small instance of the open question: preparation for safety (6), preparation for a strong showing (3), or appetite for the unknown (7).",
+			"alternative": "Every first-time host prepares; the remarks are carpet sound bites.",
+			"durability": "time_sensitive",
+			"review_trigger": "After the 2026-10-31 episode and its press, check how she describes the week (leaning on writers and cast, solo preparation, or the thrill of not knowing) and how she responds to reviews."
+		},
+		{
+			"id": "C126",
+			"claim": "\"Do it justice\" recurs when she describes roles she fears or reveres: chasing the high of doing a feared role \"justice\" and \"correctly\" (GoldDerby, June 2026), wanting to do Rogue \"justice\" (ET, September 2026; Los Angeles Times as relayed, late September 2026).",
+			"passage": "",
+			"class": "interpretation",
+			"source_ids": [
+				"S11",
+				"S47",
+				"S52"
+			],
+			"inference": "Supports C97: the thing she fears is a responsibility to get right, across three interviewers and two roles. The LA Times line (\"I want to do it justice for myself, for Jake, for what they want to portray and also for what I as a fan want her to be like\") is known only through a relay (S52, S53 unavailable).",
+			"alternative": "A stock phrase actors use about famous roles. Responsibility to \"do it correctly\" also fits Type 1, and to impress fans and a director fits Type 3.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C127",
+			"claim": "She was not offered Heat 2: she says she auditioned for about two months with multiple self-tapes, asking \"What do you like? What do you not like?\", because \"I just wanted to learn,\" and that \"no matter how big you get, you're still gonna get told no.\"",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S43",
+				"S42"
+			],
+			"inference": "Corrects rumors that she turned the role down. Repeated rejection accepted without image repair; she volunteers the no. Mildly against a Three reading that would let the flattering rumor stand.",
+			"alternative": "Correcting a rumor that cast her as choosy is also good image management.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C128",
+			"claim": "Her current and announced work as of October 2026: she is cast as Rogue in Marvel's X-Men (release dated May 5, 2028), filmed a lead role in the horror film Invertigo after Obsession's festival premiere, is attached to star in and executive produce The Waffle House Index for Apple, and hosts Saturday Night Live on October 31, 2026; Focus Features is running a best actress awards campaign for her.",
+			"passage": "",
+			"class": "third_party",
+			"source_ids": [
+				"S01",
+				"S24",
+				"S43",
+				"S26",
+				"S51",
+				"S55",
+				"S40"
+			],
+			"inference": "Orientation only. Use absolute dates; none of these facts should carry the argument.",
+			"alternative": "Release dates and attachments change; Invertigo's release timing is reported only as \"next year\" (Complex, 2026-10-14).",
+			"durability": "time_sensitive",
+			"review_trigger": "At each refresh, re-check X-Men and Invertigo dates, The Waffle House Index status and awards outcomes (Oscar nominations 2027-01-21)."
+		},
+		{
+			"id": "C129",
+			"claim": "In March 2021, five years before fame, she told Sweety High she loves skydiving but could not go anymore because of COVID.",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S36"
+			],
+			"inference": "Makes the 18th-birthday skydive (C31, C100) part of a standing taste rather than a one-off stunt. A point for Type 7, or for a counterphobic reading, that the Six case must carry in its unexplained column.",
+			"alternative": "Recreational skydiving is a hobby many people of every type enjoy; one line in a light Q&A.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C130",
+			"claim": "She has guarded what feedback reaches her since before fame: in 2021 she said of Twitter comments, \"I'm careful with what I read\"; in May 2026 she said she and her mother were limiting what she sees; and in May 2026 she told THR she tries not to look at a lot of comments because she wants to \"take in every moment\" and \"be present.\"",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S36",
+				"S49",
+				"S35",
+				"S42"
+			],
+			"inference": "A cross-time pattern (2021 to 2026) of controlling exposure to judgment before it arrives. Her stated reasons vary: protection (\"protecting myself first\", S49) and presence (\"I really want to be present\", S35). In October 2026 she added, of Reddit, \"I won't touch Reddit\" (S42 ~32:06).",
+			"alternative": "Standard advice for actors; the presence reason fits Seven or Nine as well as a Six safety motive.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C131",
+			"claim": "In 2021 her advice for doubt was to \"work through the hole of doubt or down days by doing what makes you feel better,\" such as a distraction like drawing or talking to someone, and to \"believe in yourself, even on the days where you don't believe it.\"",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S36"
+			],
+			"inference": "Doubt is again the named enemy in 2021 (with C53). The coping split, distraction or talking to someone, maps onto both rivals: distraction is a classic Seven move, reaching for support a Six one.",
+			"alternative": "Ordinary advice to young readers of a teen site.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C132",
+			"claim": "She has told the military-move childhood at least four ways: fun (\"new story, new place\", Variety, July 2026); lonely (\"making friends was always really difficult\", Complex, June 2026); adaptive (\"got really good at making myself comfortable anywhere\", Schön!, May 2026); and mixed (\"I'm a little jealous sometimes of people that had one city... but simultaneously not, because I feel like I kind of fit in anywhere\", Kyle Buchanan Show, October 2026).",
+			"passage": "",
+			"class": "interpretation",
+			"source_ids": [
+				"S10",
+				"S46",
+				"S34",
+				"S42"
+			],
+			"inference": "Read together, the moves look like a story about adaptation rather than evidence of novelty-seeking (7) or insecurity (6). The record does not let either side claim the childhood. On the Kyle Buchanan Show she also said she keeps going back to Texas and has \"spent a lot of time there,\" which softens the \"good majority\" remark to ET (C113).",
+			"alternative": "Each telling answers a differently framed question in a promotional setting.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C133",
+			"claim": "She traces her independence to an inner world she has lived in since childhood (\"I've always lived in my own little world since I was young\"), describing herself as \"quite a dramatic child\" who felt characters' pain and joy without having lived it, and recalling that at nine, sitting in her mother's salon, she felt she was living an older client's life.",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S42"
+			],
+			"inference": "Kyle Buchanan Show (~11:44-13:19, Whisper transcript). The strongest material yet for a Type 4 reading (vivid inner world, identification with others' feeling, \"dramatic\") and for the private self a Nine or Five might describe. It does not bear on the Six/Three/Seven fork directly.",
+			"alternative": "A common actor origin story; the empathy and imagination are what acting requires.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C134",
+			"claim": "She frames what she wants from audiences in terms of trust rather than liking: \"they don't have to like me, I just want them to trust me\" (October 2026); she does not want \"to lose the audience's trust\" (July 2026); and she wants people \"to trust that I have that capability\" (Nylon, July 2026).",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S42",
+				"S10",
+				"S02"
+			],
+			"inference": "The same word across three interviews. Trust as the currency of a relationship fits a Six reading; credibility as the goal fits Three. Liking explicitly ranked below trust counts against Type 2 and somewhat against an approval-first Three.",
+			"alternative": "\"Trust\" is standard career language for an actor choosing projects after a hit.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C135",
+			"claim": "In 2022, as a young Superman & Lois cast member, she said she \"always\" asked the seasoned actors questions, was \"slowly getting comfortable with asking\" her on-screen mother Emmanuelle Chriqui how to go about things, and valued that Chriqui, being older, was \"able to look down and guide me.\"",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S20"
+			],
+			"inference": "A pre-fame instance (2022) of seeking a trusted guide, four years before the Barker \"mirror\" (C23) and consistent with asking Heat 2's makers \"What do you like? What do you not like?\" (C127). Strengthens the cross-time trust-in-a-guide pattern without depending on the Obsession press tour.",
+			"alternative": "Every newcomer on a set learns from veterans; asking questions is ordinary professional behavior, and a Three would also seek mentors to improve performance.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C136",
+			"claim": "She says an earlier director brushed off her request to see playback with \"you look beautiful, you're fine,\" that the exchange left her \"more careful with my words,\" and that she then wanted a role where \"it could be perceived that I not only know what I'm doing, but I understand the human emotion behind it\" so she \"could be taken seriously\"; she told her team \"I really want to prove myself,\" and called Obsession's reception \"validation.\"",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S42"
+			],
+			"inference": "Kyle Buchanan Show ~15:54-19:55 (Whisper; check audio before quoting). The clearest statement of a credibility motive in the record: being taken seriously and seen as competent, in her words. With the Twitch fear (\"they don't take me seriously\", C15) it makes \"taken seriously\" a repeated concern, the strongest material for the Type 3 alternative. She does not name the show or director; do not identify them.",
+			"alternative": "A Six can want credibility as protection and standing within a group; a Four wants to be seen for depth rather than surface. Being dismissed as decorative is a common grievance of young actresses, so the motive is also simply situational.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C137",
+			"claim": "After trying to befriend everyone on her early sets (\"not really knowing anything about boundaries\"), she says she went to Obsession resolved not to make friends and not to \"care about the way that other people are thinking of me,\" to focus on the work, \"because that's what matters most to me.\"",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S42"
+			],
+			"inference": "Kyle Buchanan Show ~15:19-17:31 (Whisper). A stated shift from seeking acceptance to guarding focus. It fits a Six learning to hold her own line, a Three prioritizing performance, or a Four protecting the inner work.",
+			"alternative": "Retrospective framing in an awards-season interview. Friendship formed anyway: Johnston says on Hot Ones that she always answers when he calls (\"I love this girl\", S13). She calls the Superman & Lois cast \"a very tight-knit family\" (S09) and the horror community \"the most welcoming\" (S10).",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C138",
+			"claim": "Asked why she showed Barker none of the freakouts before filming, she said exposure \"was something that I really wanted to avoid\" because she \"was a very sensitive person at the time,\" and that prejudgment \"would have killed me and that would have killed Nikki\"; she also describes asking Barker \"as many questions as humanly possible and not caring if you're annoying.\"",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S42"
+			],
+			"inference": "Kyle Buchanan Show ~30:22-31:31 (Whisper). Gives her own motive for C115: avoiding exposure and premature judgment. Pairs guarding the big moments with seeking maximal clarity from the director, a securing pattern (clarity first, exposure later) more than borrowed certainty.",
+			"alternative": "Fear of being judged before ready is as much a Three or Four concern as a Six one; preserving spontaneity is standard craft.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C139",
+			"claim": "She says her biggest fear on set was \"oh shit, am I doing a good job?\", because \"it's really uncomfortable when you don't know what somebody else is thinking.\"",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S42"
+			],
+			"inference": "Kyle Buchanan Show ~23:01-23:28 (Whisper). Discomfort with not knowing others' judgment fits the Six intolerance of uncertainty; the object, \"doing a good job\", is a performance verdict, which fits Three. A direct example of why the two do not separate on this record.",
+			"alternative": "Ordinary actor anxiety.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C140",
+			"claim": "She calls playing Nikki as a victim her \"silent duty\" (\"to really play her as authentically as I possibly could in the hopes that audiences would think of her that way\"), and says that when audiences did, \"that validation\" meant a lot.",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S42"
+			],
+			"inference": "Kyle Buchanan Show ~32:20-32:59 (Whisper). Duty language (Six) and validation language (Three) in the same answer.",
+			"alternative": "Common actor talk about protecting a character.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C141",
+			"claim": "During the post-Obsession drought she says she wondered whether the film had been \"a fluke,\" and that \"any no that they told me did hurt, but it didn't defeat me.\"",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S42",
+				"S02"
+			],
+			"inference": "Kyle Buchanan Show ~9:20-10:55 (Whisper), consistent with Nylon (S02: \"I didn't have a lot of confidence because you just keep hearing no, and that can be debilitating\"). Doubt about whether success was real, then persistence.",
+			"alternative": "Universal for actors between jobs.",
+			"durability": "stable",
+			"review_trigger": ""
+		}
+	],
+	"type_hypothesis": {
+		"type": 6,
+		"confidence": "low",
+		"for_claim_ids": [
+			"C15",
+			"C25",
+			"C120",
+			"C114",
+			"C119",
+			"C130",
+			"C118",
+			"C18",
+			"C53",
+			"C131",
+			"C20",
+			"C97",
+			"C126",
+			"C134",
+			"C135",
+			"C138",
+			"C140",
+			"C117",
+			"C116",
+			"C121",
+			"C48",
+			"C84"
+		],
+		"against": "Three directions cut against the Six reading. Type 3 is now the closest rival: on the Kyle Buchanan Show (2026-10-21) she said an earlier director brushed off her playback request with \"you look beautiful, you're fine,\" that she became \"more careful with my words,\" and that she wanted a role where \"it could be perceived that I not only know what I'm doing\" so she \"could be taken seriously\"; she told her team \"I really want to prove myself\" and called Obsession's reception \"validation\" (C136, C140). That repeats the Twitch fear that people would not \"take me seriously\" (C15). Her Oscar safety net protects the verdict that she did \"a good job\" (C25), her \"biggest fear\" on set was \"am I doing a good job?\" (C139), and she wants to prove the film \"wasn't just lightning in a bottle\" and to \"make it last\" (C74, C117). Type 7: skydiving was a standing love by March 2021 (C129), not just the 18th-birthday stunt with the piercing (C31); she loves \"random tattoos,\" calls a good audition a \"dopamine\" high (C69), went into the audition thinking \"who cares? You either have to send it or not go in at all\" (C109), handled doubt in 2021 partly through \"distraction\" (C131), reframed the 2023 cut as \"Dog, you're free\" in 2026 (C12), and says every day \"feels like the best day of my life so far\" (C124). Type 4: she has \"always lived in my own little world,\" calls herself \"quite a dramatic child\" (C133), wants to \"play it true,\" and \"felt seen\" by films about a person's ugliness (C34). Several Six pillars are weaker than the baseline said: she withheld the freakouts from Barker in rehearsal (C115) and used him as a mirror because she avoided watching herself (C23); her own ending account credits her one take (C61); her contemporaneous 2023 reaction to the cut was a plain \"at least you guys get a Season 4\" (C12). Much of the securing behavior (filtered feeds, awards modesty, careful career talk) is ordinary celebrity hygiene, and nearly all of it is self-report from a May-October 2026 press and awards campaign that rewards candor about fear.",
+		"alternative_type": 3,
+		"alternative_case": "A Three reading organizes the record around being taken seriously and valued for competence: leaving high school early to pay for headshots and the 2021 \"110%\" pact and \"survival mode\" (C107, C53, C42); deleting Twitch streams for fear people would not \"take me seriously\" (C15); the playback story, after which she was \"more careful with my words\" and wanted to be \"perceived\" as knowing what she is doing (C136); \"I really want to prove myself,\" \"validation\" and \"extremely validating\" (C136, C140, C25); proving the film \"wasn't just lightning in a bottle\" (C74); a safety net whose content is \"it doesn't mean that I didn't do a good job\" (C25); \"am I doing a good job?\" as her biggest fear (C139); career management and producing (\"make it last as long as humanly possible or throw it all away\", C117, C128); and wanting the audience's trust as credibility (C27, C134). On this reading her fear and sensitivity talk is the humble-underdog register a breakout press tour rewards, and the filters and nets protect a performer's sense of worth.",
+		"discriminator": "No defensible discriminator yet separates Six from Three; that is why this is an open case. What would separate them is what she protects when safety and image pull apart, and the record has no clean instance. Leaning Six without settling it: she leads with fear and inability rather than competence, before and after fame (2021: \"doubt can really just weed its way in\", \"the hole of doubt\", \"I'm careful with what I read\"; 2026: \"I don't know how to scream,\" \"my heart sank... I gotta work on my anxiety,\" \"scaredy cat\") (C53, C131, C130, C18, C114); she ranks trust above being liked (\"they don't have to like me, I just want them to trust me\", C134); she seeks trusted guides across time (Emmanuelle Chriqui in 2022, Barker in 2026; C135, C23); she sets protections before outcomes exist (feedback filters in 2021 and 2026, Oscar nets in June and July 2026, a celebrity DM handed to her boyfriend to vet; C130, C119, C120, C25, C118); and she gives a protective reason for withholding the freakouts (\"Exposure was something that I really wanted to avoid... prejudgment... would have killed me\", C138). Leaning Three: the explicit \"taken seriously,\" \"prove myself\" and \"validation\" motive (C136) and the performance verdict at the center of her fears (C139, C25). Both sets are self-reports from an awards campaign. Against Seven the record leans Six: when a bad outcome is only possible she secures rather than reframes (C15, C25, C120, C138), and the high she chases has a feared responsibility as its entry condition (\"do it justice and do it correctly\", repeated for Rogue and SNL; C20, C97, C126); her four tellings of the military moves no longer give Seven a clean childhood point (C132). Against Four: she seeks belonging (the horror community \"the most welcoming\", her team's shared rituals) and calibration from others more than distinctiveness (C71, C121, C23). The settle signals in open_case name the observations that would decide it.",
+		"unexplained": "A standing thrill-seeking streak (skydiving loved by 2021, the 18th-birthday skydive and piercing, \"random tattoos\") and the \"send it... who cares\" audition attitude are not explained by a security motive; a counterphobic label is not used because most of her Six-like behavior is hedging. \"I don't think that far ahead\" (about streaming) sits against Six anticipation, though she talks about her acting career in long-horizon terms. The \"taken seriously,\" \"prove myself\" and \"validation\" language is at least as well explained by Three. Her vivid inner world and \"dramatic child\" self-description fit Four better. Overriding a nervous director on day one is self-trust the borrowed-certainty picture does not predict, even with her protective reason. Her accounts of where she grew up (Central Valley, Texas) and of how the moves felt vary by interview. Independent testimony comes only from the Obsession circle (Barker, Johnston), all promotional, and pre-fame primary sources (2020-2023) are short trade and teen-site interviews."
+	},
+	"profile_format": "open_case",
+	"open_case": {
+		"reason": "Her first lead role and breakout, Obsession, premiered at TIFF on 2025-09-05 and opened in U.S. theaters on 2026-05-15; before that she had a Snapchat series (2019) and supporting or series-regular TV roles (13 Reasons Why, 2020; Superman & Lois, 2021-2024), which produced only short trade and teen-site interviews (2020-2023). Nearly all substantial material is her own talk during a May-October 2026 press and awards campaign, plus remarks by two Obsession collaborators. Research opened more than 50 sources, including the long-form Kyle Buchanan Show (2026-10-21, first 34 minutes) and THR's Awards Chatter excerpts (2026-10-14), and tested Three, Seven, Four, Nine and Eight. The pattern leans Six but cannot be separated from Three: the same episodes (the Twitch deletion, the Oscar safety net, careful career talk, withholding the freakouts) read as security-seeking or as protecting a competent image, and the record has no case yet where those motives clearly pull apart. Seven explains a thrill-seeking streak the Six reading cannot; Four has a narrower case.",
+		"live_alternatives": [
+			3,
+			7,
+			4
+		],
+		"settle_signals": [
+			"Academy Award nominations on 2027-01-21: if she is passed over, does she fall back on the net she built in advance and the people around her (6), turn quickly to the next fun thing (7), or treat it as a verdict to overturn with a bigger, more prestigious next move (3)? If she is nominated, does she talk about new anxiety and responsibility (6) or about recognition and proof (3)?",
+			"Her first real public misstep (a sketch that lands badly on the 2026-10-31 Saturday Night Live episode she hosts, a poorly received Invertigo, or sustained online criticism): does she pull back and secure (limit exposure, lean on trusted people, avoid the subject) (6), laugh it off and move on (7), or reframe it and repair her image (3)? Her stated wish to \"fall on my face publicly\" with something people dislike makes this observable.",
+			"A career choice she explains on record where safety and image conflict: choosing trusted collaborators or a known director over a higher-profile but uncertain project (6), the bigger prestige role despite the risk (3), or the strangest, newest option for its own sake (7).",
+			"Testimony from people who knew her before fame (family, Superman & Lois castmates such as Emmanuelle Chriqui, Trap House or Invertigo collaborators) about how she handles uncertainty off camera: seeking reassurance, rules and allies (6), chasing stimulation (7), or managing impressions (3).",
+			"Any retelling of the Twitch deletion with a date, an adviser or a different motive, or a fuller account of the playback incident, showing whether the fear was of losing standing and safety in a group (6) or of being seen as less than excellent (3)."
+		],
+		"next_review": "2027-02-01"
+	}
+}

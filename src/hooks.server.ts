@@ -30,6 +30,10 @@ import type { Handle } from '@sveltejs/kit';
 
 const SUPABASE_AUTH_COOKIE_NAME = getSupabaseAuthCookieName(PUBLIC_SUPABASE_URL);
 
+// Vercel only lets us choose a Node major and rolls security patches itself, so
+// log the exact version once per server instance to confirm a patch is live.
+if (!dev) console.info(`[runtime] node ${process.version}`);
+
 // import * as amp from '@sveltejs/amp';
 // import dropcss from 'dropcss';
 

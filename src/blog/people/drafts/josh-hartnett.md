@@ -11,7 +11,7 @@ loc: 'https://9takes.com/personality-analysis/josh-hartnett'
 lastmod: '2026-10-22'
 changefreq: monthly
 priority: '0.6'
-published: false
+published: true
 enneagram: '6'
 type:
   - movieStar
@@ -163,6 +163,7 @@ content_quality:
   caps_applied: []
   needs_review: false
   content_sha256: 670cb667c327a3d88767742b874b9c415325b3f935afdebae13ae97749cc16a5
+path: src/blog/people/drafts/josh-hartnett.md
 ---
 
 In the early 2000s, Josh Hartnett was asked to play Superman, and he had an idea for the part. He described it to [the Guardian's Ryan Gilbey](https://www.theguardian.com/film/2020/oct/23/josh-hartnett-target-number-one-pearl-harbor-the-virgin-suicides) in October 2020:

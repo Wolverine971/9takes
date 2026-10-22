@@ -1,0 +1,313 @@
+{
+  "target": {
+    "person": "inde-navarrette",
+    "type": "6",
+    "units": 12,
+    "file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-22_15-54-54-715_Inde-Navarrette/draft.md"
+  },
+  "comparison_set": [
+    {
+      "person": "josh-hartnett",
+      "date": "2026-10-22",
+      "units": 4
+    },
+    {
+      "person": "paapa-essiedu",
+      "date": "2026-10-20",
+      "units": 11
+    },
+    {
+      "person": "christopher-abbott",
+      "date": "2026-10-19",
+      "units": 9
+    },
+    {
+      "person": "ella-beatty",
+      "date": "2026-10-18",
+      "units": 9
+    },
+    {
+      "person": "grace-reiter",
+      "date": "2026-10-16",
+      "units": 8
+    },
+    {
+      "person": "lily-rose-depp",
+      "date": "2026-10-16",
+      "units": 8
+    },
+    {
+      "person": "shyam-sankar",
+      "date": "2026-10-13",
+      "units": 14
+    },
+    {
+      "person": "maleah-joi-moon",
+      "date": "2026-10-12",
+      "units": 10
+    }
+  ],
+  "n_requested": 8,
+  "noise_floor": {
+    "pairs_compared": 876,
+    "median": 0,
+    "p90": 0,
+    "p99": 0.109,
+    "max": 1
+  },
+  "trip_threshold": 0.436,
+  "tripped": true,
+  "trip_pairs": [
+    {
+      "score": 1,
+      "other_person": "paapa-essiedu",
+      "shared_phrases": [
+        "whose core",
+        "core emotion",
+        "whose core emotion",
+        "core emotion is",
+        "emotion is fear"
+      ],
+      "target": "[diagnosis] whose core emotion is fear.",
+      "other": "[diagnosis] whose core emotion is fear."
+    },
+    {
+      "score": 1,
+      "other_person": "christopher-abbott",
+      "shared_phrases": [
+        "whose core",
+        "core emotion",
+        "whose core emotion",
+        "core emotion is",
+        "emotion is fear"
+      ],
+      "target": "[diagnosis] whose core emotion is fear.",
+      "other": "[diagnosis] whose core emotion is fear."
+    },
+    {
+      "score": 1,
+      "other_person": "ella-beatty",
+      "shared_phrases": [
+        "held loosely",
+        "low confidence",
+        "held loosely at",
+        "loosely at low",
+        "at low confidence"
+      ],
+      "target": "[diagnosis] held loosely at low confidence.",
+      "other": "[diagnosis] held loosely at low confidence."
+    },
+    {
+      "score": 1,
+      "other_person": "ella-beatty",
+      "shared_phrases": [
+        "whose core",
+        "core emotion",
+        "whose core emotion",
+        "core emotion is",
+        "emotion is fear"
+      ],
+      "target": "[diagnosis] whose core emotion is fear.",
+      "other": "[diagnosis] whose core emotion is fear"
+    },
+    {
+      "score": 1,
+      "other_person": "grace-reiter",
+      "shared_phrases": [
+        "whose core",
+        "core emotion",
+        "whose core emotion",
+        "core emotion is",
+        "emotion is fear"
+      ],
+      "target": "[diagnosis] whose core emotion is fear.",
+      "other": "[diagnosis] whose core emotion is fear."
+    }
+  ],
+  "per_draft_max": [
+    {
+      "person": "paapa-essiedu",
+      "date": "2026-10-20",
+      "units": 11,
+      "maxScore": 1
+    },
+    {
+      "person": "christopher-abbott",
+      "date": "2026-10-19",
+      "units": 9,
+      "maxScore": 1
+    },
+    {
+      "person": "ella-beatty",
+      "date": "2026-10-18",
+      "units": 9,
+      "maxScore": 1
+    },
+    {
+      "person": "grace-reiter",
+      "date": "2026-10-16",
+      "units": 8,
+      "maxScore": 1
+    },
+    {
+      "person": "lily-rose-depp",
+      "date": "2026-10-16",
+      "units": 8,
+      "maxScore": 0.03
+    },
+    {
+      "person": "shyam-sankar",
+      "date": "2026-10-13",
+      "units": 14,
+      "maxScore": 0.022
+    },
+    {
+      "person": "maleah-joi-moon",
+      "date": "2026-10-12",
+      "units": 10,
+      "maxScore": 0.012
+    },
+    {
+      "person": "josh-hartnett",
+      "date": "2026-10-22",
+      "units": 4,
+      "maxScore": 0
+    }
+  ],
+  "top_pairs": [
+    {
+      "score": 1,
+      "other_person": "paapa-essiedu",
+      "shared_phrases": [
+        "whose core",
+        "core emotion",
+        "whose core emotion",
+        "core emotion is",
+        "emotion is fear"
+      ],
+      "target": "[diagnosis] whose core emotion is fear.",
+      "other": "[diagnosis] whose core emotion is fear."
+    },
+    {
+      "score": 1,
+      "other_person": "christopher-abbott",
+      "shared_phrases": [
+        "whose core",
+        "core emotion",
+        "whose core emotion",
+        "core emotion is",
+        "emotion is fear"
+      ],
+      "target": "[diagnosis] whose core emotion is fear.",
+      "other": "[diagnosis] whose core emotion is fear."
+    },
+    {
+      "score": 1,
+      "other_person": "ella-beatty",
+      "shared_phrases": [
+        "held loosely",
+        "low confidence",
+        "held loosely at",
+        "loosely at low",
+        "at low confidence"
+      ],
+      "target": "[diagnosis] held loosely at low confidence.",
+      "other": "[diagnosis] held loosely at low confidence."
+    },
+    {
+      "score": 1,
+      "other_person": "ella-beatty",
+      "shared_phrases": [
+        "whose core",
+        "core emotion",
+        "whose core emotion",
+        "core emotion is",
+        "emotion is fear"
+      ],
+      "target": "[diagnosis] whose core emotion is fear.",
+      "other": "[diagnosis] whose core emotion is fear"
+    },
+    {
+      "score": 1,
+      "other_person": "grace-reiter",
+      "shared_phrases": [
+        "whose core",
+        "core emotion",
+        "whose core emotion",
+        "core emotion is",
+        "emotion is fear"
+      ],
+      "target": "[diagnosis] whose core emotion is fear.",
+      "other": "[diagnosis] whose core emotion is fear."
+    },
+    {
+      "score": 0.304,
+      "other_person": "paapa-essiedu",
+      "shared_phrases": [
+        "whose core",
+        "core emotion",
+        "whose core emotion",
+        "core emotion is"
+      ],
+      "target": "[diagnosis] whose core emotion is shame.",
+      "other": "[diagnosis] whose core emotion is fear."
+    },
+    {
+      "score": 0.304,
+      "other_person": "christopher-abbott",
+      "shared_phrases": [
+        "whose core",
+        "core emotion",
+        "whose core emotion",
+        "core emotion is"
+      ],
+      "target": "[diagnosis] whose core emotion is shame.",
+      "other": "[diagnosis] whose core emotion is fear."
+    },
+    {
+      "score": 0.304,
+      "other_person": "ella-beatty",
+      "shared_phrases": [
+        "whose core",
+        "core emotion",
+        "whose core emotion",
+        "core emotion is"
+      ],
+      "target": "[diagnosis] whose core emotion is shame.",
+      "other": "[diagnosis] whose core emotion is fear"
+    },
+    {
+      "score": 0.304,
+      "other_person": "grace-reiter",
+      "shared_phrases": [
+        "whose core",
+        "core emotion",
+        "whose core emotion",
+        "core emotion is"
+      ],
+      "target": "[diagnosis] whose core emotion is shame.",
+      "other": "[diagnosis] whose core emotion is fear."
+    },
+    {
+      "score": 0.044,
+      "other_person": "christopher-abbott",
+      "shared_phrases": [],
+      "target": "[diagnosis] Fear is the emotion she names most often.",
+      "other": "[diagnosis] because boredom is the reason he gives most often for leaving things."
+    },
+    {
+      "score": 0.03,
+      "other_person": "lily-rose-depp",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Six meets fear by finding solid ground",
+      "other": "[diagnosis] Being scared doesn't make someone a Six"
+    },
+    {
+      "score": 0.022,
+      "other_person": "shyam-sankar",
+      "shared_phrases": [],
+      "target": "[diagnosis] a Four by being true to a self that feels unlike anyone else's.",
+      "other": "[diagnosis] a group or a cause that feels solid."
+    }
+  ]
+}

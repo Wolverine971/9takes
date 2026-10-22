@@ -72,12 +72,26 @@ export async function fetchPublicHtml(input: string): Promise<string> {
 			maxContentLength: 1024 * 1024,
 			maxRedirects: 0,
 			responseType: 'text',
+			// Never run a stranger's bytes through a native decompressor: Node's Brotli
+			// decoder had a remote-code-execution bug (CVE-2026-111497). Ask for a plain
+			// body and refuse any encoded one below.
+			decompress: false,
 			validateStatus: (status) => status >= 200 && status < 400,
-			headers: { 'User-Agent': '9takes-bot/1.0', Accept: 'text/html' }
+			headers: {
+				'User-Agent': '9takes-bot/1.0',
+				Accept: 'text/html',
+				'Accept-Encoding': 'identity'
+			}
 		});
 		if (response.status >= 300 && response.headers.location) {
 			url = validatePublicWebUrl(new URL(response.headers.location, url).toString());
 			continue;
+		}
+		const encoding = String(response.headers['content-encoding'] ?? '')
+			.trim()
+			.toLowerCase();
+		if (encoding && encoding !== 'identity') {
+			throw new Error('Link preview response is compressed');
 		}
 		if (!/^text\/html\b/i.test(String(response.headers['content-type'] ?? ''))) {
 			throw new Error('Link preview response is not HTML');

@@ -1,0 +1,24 @@
+Error: Reached max turns (60)I've written both outputs, `draft.md` and `evidence-draft.json`, and they pass the contract checks: `checkDraft` finds no blockers and `validateEvidence` accepts the evidence. The draft is unpublished and has no grades, and no other repo files were touched. One snag: the pipeline deleted `draft.md` when it marked the stage failed. I rebuilt it from this session's saved edits, every one of which matched exactly once, so it's identical to the version I had checked.
+
+**What the draft is.** An open case. Leading read: Type 6, held loosely at low confidence. Type 3 is the closest rival, and Types 7 and 4 are still in play.
+- **Opening:** before shooting, she told director Curry Barker she didn't know how to scream, and also that she wouldn't show him her freakout scenes in rehearsal. Admitting a fear to someone she trusts reads as Six; keeping the big moments back could be protecting herself (Six) or protecting her image (Three).
+- **New Type 3 material:** the October 21 Kyle Buchanan interview. A director once brushed off her request to watch playback with "you look beautiful, you're fine." She wanted to be "taken seriously," told her team she wanted to "prove myself," and called the result "validation."
+- **Settle section:** the required "What would settle it" section lists five things to watch, including the Oscar nominations on January 21, 2027 (on the Academy's April 7, 2026 schedule, which I opened and added as source S57) and her October 31 SNL episode.
+- **Baseline problems fixed:** the passages that newly opened sources contradicted are rewritten or cut. That covers the ending story, the "borrowed certainty" section, the childhood moves (she has now told them four different ways), the 2023 cut, and skydiving as a one-off.
+- **Metadata:** titles, description and FAQs say "leading read," never "is a Type 6."
+
+**Quote checks.** All 66 quoted strings match a saved source, and I hand-checked them for order and context.
+- **Kyle Buchanan interview:** I re-transcribed every quoted stretch with a second speech-to-text model. Where the two transcripts disagree, I quoted only the words both share. That happened three times: "Exposure was…", "had one city", and "I not only know".
+- **THR's Awards Chatter podcast:** I machine-transcribed the first 46 of its 91 minutes. THR's published excerpts smooth her wording ("I had told Curry" became "I told Curry"), so the draft quotes only words that appear in both.
+
+**Not verified:**
+- No person has listened to either audio source; these are machine transcripts only.
+- Awards Chatter after minute 46 and the Kyle Buchanan interview after 34:34 were never transcribed. The "make it last… or throw it all away" quote rests on THR's edited text alone.
+- A third-model check on the "I not only know" phrase was killed before it finished, so the draft paraphrases that clause.
+
+All of this is recorded in the evidence file's research tasks.
+
+**Over target.** The draft runs about 2,650 words against the open-case target of roughly 2,500. I left the trimming to the edit stage and named candidates in the research tasks.
+
+Sources:
+- [The Academy and ABC announce show dates for 99th and 100th Oscars](https://press.oscars.org/news/academy-and-abc-announce-show-dates-99th-and-100th-oscarsr)

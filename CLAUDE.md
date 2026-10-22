@@ -47,7 +47,7 @@ pnpm clean             # Remove .svelte-kit build output
 - **Analytics**: In-house page analytics + web-vitals, optional Vercel Analytics
 - **Images**: `sharp`, `@sveltejs/enhanced-img`, `html-to-image`, `html2canvas`, `jspdf`
 - **Deploy**: Vercel (`@sveltejs/adapter-vercel`)
-- **Runtime**: Node >=22, pnpm >=8
+- **Runtime**: Node `^22.23.4 || ^24.22.1` (security floor for CVE-2026-111497; pnpm refuses older), pnpm 11.7.0. Vercel functions run `nodejs22.x`, Vercel builds run 24.x, CI uses `.nvmrc`
 
 ## Project Structure
 

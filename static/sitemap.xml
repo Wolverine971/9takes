@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://9takes.com/blog</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-22</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/book-session</loc>
@@ -149,7 +149,7 @@
   </url>
   <url>
     <loc>https://9takes.com/corpus-stats</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-22</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner</loc>
@@ -947,7 +947,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-22</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/aaron-pierre</loc>
@@ -1497,7 +1497,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-22</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/authors-thinkers</loc>
@@ -2498,6 +2498,13 @@
     <lastmod>2026-04-29</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/6s/Joseph-Stalin.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://9takes.com/personality-analysis/josh-hartnett</loc>
+    <lastmod>2026-10-22</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/6s/Josh-Hartnett.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -4062,7 +4069,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/6</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-22</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/7</loc>

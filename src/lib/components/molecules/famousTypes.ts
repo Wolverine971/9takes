@@ -279,6 +279,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'joe-lonsdale', link: true, hasImage: true, lastmod: '2026-07-19', personaTitle: 'Silicon Valley\'s Counterphobic Strategist', contentGrade: 8.4, types: ['techie', 'entrepreneur', 'investor'] },
 		{ name: 'john-ternus', link: true, hasImage: true, lastmod: '2026-06-05', personaTitle: 'Cupertino\'s Vigilant Craftsman', contentGrade: 9.1, types: ['techie'] },
 		{ name: 'joseph-stalin', link: true, hasImage: true, lastmod: '2026-04-29', personaTitle: 'History\'s Paranoid Architect', contentGrade: 9.2, types: ['historical', 'politician', 'historical-leader'] },
+		{ name: 'josh-hartnett', link: true, hasImage: true, lastmod: '2026-10-22', personaTitle: 'The Heartthrob Who Braced for the Cut', contentGrade: 8.5, types: ['movieStar', 'celebrity'] },
 		{ name: 'kaia-gerber', link: true, hasImage: true, lastmod: '2026-07-19', personaTitle: 'Fashion\'s Undercover Librarian', contentGrade: 8.8, types: ['newMovieStar', 'celebrity'] },
 		{ name: 'keira-knightley', link: true, hasImage: true, lastmod: '2026-08-17', personaTitle: 'Cinema\'s Sword-Drawn Skeptic', contentGrade: 8.6, types: ['movieStar'] },
 		{ name: 'kendall-jenner', link: true, hasImage: true, lastmod: '2026-04-01', personaTitle: 'Fashion\'s Quiet Sentinel', contentGrade: 8.8, types: ['celebrity', 'celebrity-image'] },
