@@ -1,0 +1,22 @@
+I finished the draft stage for Josh Hartnett and wrote only the two requested files. Nothing was published, and the draft is set to `published: false`.
+
+**What the draft argues.** It opens with his Superman pitch, a hero "almost afraid of himself and his own power." From there it argues that across 24 years his big choices keep coming back to fear, trust and who gets to define him. The key moment is Pearl Harbor. He asked himself, "Am I just afraid…?", took the part anyway, and then said "Then it defined me, which means I was right to fear it." After that the fear of being boxed in won out: he refused Superman, steered a Batman meeting with Nolan toward The Prestige instead, and fought the studios. In his forties he replaced distance with a rule: work with people you trust.
+
+**Checks:**
+- The pipeline's own draft and evidence checks pass, with no blockers.
+- 3,496 words, which leaves about 1,000 words before the 4,500 ceiling. The edit stage usually adds around 800.
+- The type answer is 58 words, and there are no em dashes outside quotations.
+- The check against other Type 6 pages came back clear after I reworded two definition phrases that matched other Type 6 pages.
+- Every quotation was compared with the saved source texts after writing. Quotes that were split apart in the source are written as separate statements, and I kept both halves of answers that cut both ways.
+- The evidence file has 128 claims, each tied to an exact passage in the draft.
+
+The blog lint script reports 9 failures. They're expected: it checks for old v2 template pieces (Rabbit Hole, TL;DR, ledger comments) that the v3 standard makes optional, and it misread the description length, which is 147 characters.
+
+**Decisions you might want to veto:**
+1. **Type answer commits to Type 6, following your earlier note to commit instead of hedge.** "Medium confidence" sits in the paragraph after it, and Type 9 gets its own full section built from his own Nine-sounding quotes. The 2002 "I just kind go along for the ride" line is openly left unexplained.
+2. **Sensitive material is kept narrow.** He says a man showed up at a premiere with a gun claiming to be his father. That's included, attributed to him, as background circumstance rather than the cause, since it happened after the 2002 break. The Weinstein follow-up call is included in his own words only. His mother's death, the 2025 crash, the Harrison Ford quote and the Al Green story are all left out.
+3. **Five short quotes come from a machine transcript.** They're from the 2026 CBC Q interview, and two transcription models agree on every word of each. They're still worth a re-listen before release. Where the models disagreed ("so badly wanted to please him"), the draft paraphrases.
+
+Files are in `docs/content-analysis/pipeline-logs/2026-10-22_06-00-05-196_josh-hartnett/`:
+- draft.md
+- evidence-draft.json

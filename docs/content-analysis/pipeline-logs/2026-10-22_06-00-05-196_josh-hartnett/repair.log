@@ -1,0 +1,18 @@
+I finished the repair stage and wrote `repair.md`, `evidence-repair.json` and `resolution-repair.json`. All three pass the pipeline's own draft, evidence and resolution checks. I didn't modify any inputs, the live draft or anything else, and nothing was published.
+
+**The five verification findings:**
+- **verify-01 (the one major finding):** two claims cited Playboy and USA Today interviews that no one ever opened. They now cite only the ComicBook.com page that was actually read. The two unopened interviews stay listed as unavailable but support no claim. The article already labeled both quotes as secondhand, so its text didn't change.
+- **verify-02:** the sentence now gives the date Rachel Cooke's profile was published, not a meeting date the source never states.
+- **verify-03:** removed the "shrug," a gesture Cooke never described.
+- **verify-04:** dropped the *Below* "trauma" line from the case against Type 4. It was about a fictional character, not about Hartnett himself.
+- **verify-05 (length and readability):** the body went from 4,028 to 3,672 words.
+  - Every phrase that sounded like a note to the grader (e.g. "the studio record is not scored here") is now ordinary prose. The only one left is a protected passage.
+  - The Superman reasons now read as a progression (the part, then the career, then his whole life) instead of a list of years and outlets.
+
+**One addition:** the verifier noted that a Type 9 can also lean on familiar people. I added one labeled interpretation: Hartnett's filter is friends who liked him *before* he was famous, which looks more like a Six testing who is reliable. The counterpoint is recorded too: he describes those friends as people he feels "completely comfortable" with, which is a Nine's word.
+
+**Two places I didn't follow the verifier's instructions exactly** (the next verifier may object to either):
+- **Still about 70 words over the 3,600 target.** Cutting further would have meant removing evidence the type argument depends on.
+- **Five quotations cut, against the verifier's instruction to keep them all.** They were the 2014 "I disappeared… joined a cult" aside, the disputed college-dean letter, the Guardian writer's "conscientious" remark, the producer paragraph from SHARP magazine, and a 2024 line that repeated a 2004 one. Their claims came out of the record. The key "terrifying… learn to let it go" quote from SHARP stays, moved into the Type 9 section. All 106 multi-word quotations still in the body match the saved source texts word for word.
+
+**What decides release:** the last overall score was 8.3 and the release floor is 8.5. The main drag was writing (7.5), so this edit is aimed there. Clearing 8.5 likely needs both writing and Enneagram scores to rise. The reverify stage will tell us. If it holds again, the next lever is cutting content further rather than tightening prose.

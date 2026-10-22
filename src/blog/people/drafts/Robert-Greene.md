@@ -168,7 +168,7 @@ In growth, Fives move toward Type 8, decisive and embodied. You can see it in th
 
 ### Counterarguments: why Robert Greene might not be a Type 5
 
-The strongest alternate case is **Type 3**. "A compulsion to please people" (Young and Profiting, 2019) and a lifelong sense of being "never smart enough" (Jay Shetty, 2026) sound like a Three chasing worth through output. The difference is the audience. Threes work the room; Greene withdraws from it. Ryan Holiday, his former research assistant, says he won't answer the phone during working hours; he takes years between books, and told Sari Azout of the new one, "I don't care if anybody reads this book." A Three would struggle to say that and mean it.
+The strongest alternate case is **Type 3**. "A compulsion to please people" (Young and Profiting, 2019) and a lifelong sense of being "never smart enough" (Jay Shetty, 2026) sound like a Three chasing worth through output. The difference is the audience. Threes work the room; Greene withdraws from it. [Ryan Holiday](/personality-analysis/ryan-holiday), his former research assistant, says he won't answer the phone during working hours; he takes years between books, and told Sari Azout of the new one, "I don't care if anybody reads this book." A Three would struggle to say that and mean it.
 
 **Type 6** is the other serious read. The anxiety he inherited from his mother, "about death, about things that have to get done, about scheduling" (Tetragrammaton, 2023), is close to a Six's signature. But a Six answers anxiety by finding something solid to lean on, an authority or a group. Greene answers it alone: meditation at dawn, a research system nobody else touches, and a stated wish to need no one. That is the Five's answer to fear: withdraw and know more.
 

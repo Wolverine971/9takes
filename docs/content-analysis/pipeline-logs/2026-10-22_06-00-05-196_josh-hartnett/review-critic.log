@@ -1,0 +1,20 @@
+The critic review for the Josh Hartnett draft is written and passes the pipeline's review schema. I didn't change any other files and didn't publish anything.
+
+**Output:** `docs/content-analysis/pipeline-logs/2026-10-22_06-00-05-196_josh-hartnett/review-critic.json` (8 findings, 5 protected passages). The two hashes are copied from the request and match the frozen draft and evidence when computed the way the pipeline computes them.
+
+**Factual accuracy:** I reopened 13 sources and found no factual errors. Every quote I checked matches its source, and the Batman correction holds up. Two sources wouldn't load (MR PORTER and El País), and I didn't listen to the CBC Q audio, so the two quotes from it rest on the research's machine transcript.
+
+**Main problems:** five findings are major, meaning the type argument is shakier than the prose makes it sound.
+1. **Pearl Harbor:** the "he questioned his own fear" story comes from a 2020 interview, 18 years later. The 2002 interviewer wrote that "someone obviously persuaded him," and nothing from 2001–2004 shows him reasoning about fear.
+2. **Superman:** the section is titled "The fear that won," but his 2003 answer, which the draft cuts, starts "There's really no specific reason."
+3. **Evidence that doesn't separate the types:** meeting the real Malarek was ordinary role research (the Guardian piece says "Hartnett does his homework"). The 2015 clarification and the Weinstein call-back read as normal press damage control. The draft never addresses either reading.
+4. **The Type 9 test is applied selectively:** he says "you've just got to let it slide off your back" (2024) and "learn to let it go" (2026), which match the draft's own description of a Nine, and neither appears. The test is also never applied to his biggest choice, stepping back in 2002–03.
+5. **"Who gets to define him":** he describes this as something "we all do in our late teens or early twenties" and talks about authenticity, which fits Type 4 or 9 as well as 6. The opening claim that the same few words keep returning has no count behind it, and his longest 2024 explanation uses none of them.
+
+The three minor findings are a trimmed NPR quote that drops "also thrilled that people cared," an over-read of "isn't afraid to go out on a limb," and a Type 7 rebuttal that leans on an unattributed 2024 visa detail.
+
+The draft is honest elsewhere: it keeps his "go along for the ride" quote unexplained, admits that dangerous years could have taught him to be vigilant, and corrects the Batman myth. I marked those passages as worth keeping. Medium confidence is the right ceiling, but the argument still has to earn it.
+
+The similarity check didn't flag anything. The closest matches are shared Type 6 phrasing, not reused arguments.
+
+Risk flags: sensitive allegations (Weinstein, the stalker incident) and contested typing are both on. Historical-source uncertainty and major thesis change are off.

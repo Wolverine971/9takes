@@ -1,0 +1,20 @@
+{
+  "schema_version": 3,
+  "subject": "josh-hartnett",
+  "mode": "create",
+  "role": "future",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_review_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-22_06-00-05-196_josh-hartnett/draft.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-22_06-00-05-196_josh-hartnett/evidence-draft.json",
+    "similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-22_06-00-05-196_josh-hartnett/similarity.json"
+  },
+  "outputs": {
+    "review-future.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-22_06-00-05-196_josh-hartnett/review-future.json"
+  },
+  "content_sha256": "6d0d9edda84b363a320164469d6022ad4857d38c958bb848b5c58468a55a523f",
+  "evidence_sha256": "a9ad5c5424a5f1b3b1b2a4c00f1c58f1e15d37c9f0fd128905a310e646c1865c"
+}

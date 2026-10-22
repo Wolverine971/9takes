@@ -151,7 +151,7 @@ Another goal. Another milestone. Another promotion. Meanwhile, your health deter
 
 - Workaholism as identity, not just a work ethic
 - Imposter syndrome despite a wall of achievements
-- Burnout, then depression, then a new goal to outrun both
+- [Burnout, then depression](/enneagram-corner/depression-patterns-by-enneagram-type), then a new goal to outrun both
 - Sitting still feels unbearable
 
 ❓ **Sound familiar?** You check your phone during dinner. You feel anxious on vacation. When someone asks what you do for fun, you draw a blank.

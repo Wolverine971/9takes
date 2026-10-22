@@ -1,0 +1,1310 @@
+{
+  "schema_version": 3,
+  "content_sha256": "670cb667c327a3d88767742b874b9c415325b3f935afdebae13ae97749cc16a5",
+  "evidence_sha256": "9cb6a52fa89390a0697a83e31d1b31ae517480f775f02dddc56d7386c011eeca",
+  "status": "pass",
+  "findings": [
+    {
+      "id": "verify2-01",
+      "severity": "minor",
+      "passage": "that the stars at the top \"are terrified that someone's coming up behind them,\" so \"you're going to spend your whole life looking over your shoulder. I never wanted that.\"",
+      "problem": "S07 (Wayback 2021 copy) reads: \"The guys who are on top are terrified that someone's coming up behind them. If that's your real ambition, to be on top all the time, you're going to spend your whole life looking over your shoulder. I never wanted that.\" The author's \"so\" replaces his conditional about the ambition to stay on top, turning it into a consequence of other stars' fear. Both fragments are verbatim and the gist survives, but this is the lead quotation for the Six exposure thread.",
+      "acceptance_test": "The sentence either restores \"if that's your real ambition, to be on top all the time\" (as a quotation or an accurate paraphrase) or drops the connective \"so\", so that the looking-over-your-shoulder line reads as the cost of wanting to stay on top, which he says he never wanted."
+    },
+    {
+      "id": "verify2-02",
+      "severity": "minor",
+      "passage": "and that year Shyamalan recalled Hartnett telling him that \"danger is what really drives him,\"",
+      "problem": "In S22 (TheWrap, Aug 9 2024) the remark sits inside Shyamalan's account of needing an actor willing to make Trap without studio backing and get paid only if it succeeded (\"There's no way to protect yourself\"). The article files it with track racing as thrill-seeking evidence for Seven, which drops that context.",
+      "acceptance_test": "One clause gives the S22 context (for example, that it came while agreeing to make Trap without studio backing), or the quote moves to the counterphobic/risk paragraph. The attribution to Shyamalan via TheWrap stays."
+    },
+    {
+      "id": "verify2-03",
+      "severity": "minor",
+      "passage": "Losing control of a finished film is \"terrifying,\" he told [SHARP](https://sharpmagazine.com/2026/08/25/josh-hartnett-interview-2026-below/) in 2026, then gave the same answer: \"Eventually you develop a thick skin about it and learn to let it go.\"",
+      "problem": "S16's answer continues straight on: \"But in this instance, and on a few films I've worked on, I was able to be involved in post-production as well, and that's fantastic.\" His stated preference is a say in the outcome, not letting go. The trim favors the rival type, so it does not inflate the thesis, but it is the same kind of same-breath cut the jury flagged in the other direction.",
+      "acceptance_test": "Either a clause notes that when he can, he prefers to be involved in post-production (S16), or C111's inference records why the clause is omitted. The quoted words stay verbatim."
+    },
+    {
+      "id": "verify2-04",
+      "severity": "minor",
+      "passage": "In 2004 he told [Newcastle's Evening Chronicle](https://www.chroniclelive.co.uk/whats-on/film-tv/hell-stay-out-of-limelight-1630334) he had taken \"15 months out of the business\" (later accounts say 18).",
+      "problem": "S05 (10 Sep 2004, Wayback capture) is an unbylined Evening Chronicle feature with no sign of a one-on-one interview; its quotes may come from a junket or wire. \"He told\" the paper is slightly more specific than the page shows.",
+      "acceptance_test": "The attribution reads as a quotation the paper printed (for example, \"he said in 2004, as quoted by Newcastle's Evening Chronicle\"), or S05's context field records evidence of a direct interview."
+    },
+    {
+      "id": "verify2-05",
+      "severity": "minor",
+      "passage": "A few days after their Zoom interview, Hartnett phoned him back because he didn't feel he had made his feelings about Harvey Weinstein clear.",
+      "problem": "Record hygiene, not reader-facing. C24's claim and inference still describe the harassment answer and Gilbey's \"conscientious\" line, both cut from the article. C30's inference cross-references \"C99 and C100\" for S12 \"dictating\" and S16 \"really relieving\", but those IDs now hold the bitten-the-hand and THR claims and the S16 line is no longer printed. C29's \"repeated to six outlets\" is not shown by the cited sources.",
+      "acceptance_test": "At the next refresh, C24's claim and inference describe only the printed call-back, C30's cross-reference is corrected or removed, and C29's outlet count is either sourced or dropped."
+    }
+  ],
+  "research_tasks": [
+    "Optional, next refresh: locate the June/July 2001 Vanity Fair profile (S33) to source or retire the secondhand father account of the Pearl Harbor decision (C141).",
+    "Optional, next refresh: find the Details 2014 (S31) and USA Today 2015 (S36) originals to confirm C21 and C48 wording and pin the 2015 date, which S23 only implies ('the 36-year-old actor', 'last month').",
+    "On the release of White Lies, or by 2027-10-22, update 'unreleased as of October 2026' and recheck the Stone anecdote (C37, C113, C139).",
+    "Settle-signal for the 6-versus-9 call: any account of what steadied him through the Verity/Below week he called 'simultaneously terrifying' (trusted people and preparation would lean Six; tuning it out would lean Nine), or of how he handled a collaborator who let him down.",
+    "Look for a contemporaneous (2001-2004) statement of his Pearl Harbor reasoning; the fear self-audit is currently known only from the 2020 retelling (C09, C142)."
+  ],
+  "claim_checks": [
+    {
+      "claim_id": "C10",
+      "verdict": "supported",
+      "reason": "S02 (fresh fetch) opens with the block quote verbatim, Hartnett speaking about 'the time he was asked to play Superman'; MR PORTER (S07, Wayback 2021) dates the approach 'around 2002'. Correctly labeled self_report and the article attributes it to Gilbey, October 2020."
+    },
+    {
+      "claim_id": "C50",
+      "verdict": "supported",
+      "reason": "S02: 'The studio demurred – \"They didn't really want a fear-based character at the centre of their movie,\" he says wryly – and Hartnett walked away.' The quoted fragment is his; 'He walked away' paraphrases Gilbey's narration accurately."
+    },
+    {
+      "claim_id": "C51",
+      "verdict": "supported",
+      "reason": "S02: 'his Superman concept now feels like a metaphor for what was happening at the time in his own life'. The sentence credits the metaphor to Gilbey and says only that later accounts fit it; S14 and S12 do describe the same period as losing definition and control."
+    },
+    {
+      "claim_id": "C01",
+      "verdict": "supported",
+      "reason": "S27 infobox and lead: born July 21, 1978, Saint Paul, Minnesota; S04 (Philstar 2003): 'born Joshua Daniel Hartnett in St. Paul, Minnesota, on July 21, 1978'. Consistent with S03 ('who is 23', April 2002)."
+    },
+    {
+      "claim_id": "C52",
+      "verdict": "supported",
+      "reason": "Same two independent sources as C01 give the full date; not an inflated Jan 1 date."
+    },
+    {
+      "claim_id": "C53",
+      "verdict": "supported",
+      "reason": "Birth date per S27/S04; S27 shows '(age 48)' and S17 (Postmedia, Oct 9 2026) 'Hartnett, 48'. Dated 'as of October 2026' with a dated trigger."
+    },
+    {
+      "claim_id": "C08",
+      "verdict": "supported",
+      "reason": "S27 lead lists Cracker (1997-1998), The Virgin Suicides (1999), Pearl Harbor and Black Hawk Down (2001); S03 standfirst: 'the star being billed as \"the next Tom Cruise\"'."
+    },
+    {
+      "claim_id": "C19",
+      "verdict": "supported",
+      "reason": "S05 (2004): 'I took 15 months out of the business'; S01: 'only stopped working for 18 months'; S03 (April 2002): 'I plan to take time off'; S14 places it after Black Hawk Down and Pearl Harbor. 'About a year and a half' and 'in 2002' are fair; S06/S14 confirm he never quit acting."
+    },
+    {
+      "claim_id": "C54",
+      "verdict": "qualified",
+      "reason": "S05 Wayback copy (10 Sep 2004) has 'I took 15 months out of the business'; S01 says 18. Wording verified. Qualified only because S05 is an unbylined Evening Chronicle feature that may compile junket quotes, so 'he told Newcastle's Evening Chronicle' is slightly more specific than the page shows."
+    },
+    {
+      "claim_id": "C55",
+      "verdict": "supported",
+      "reason": "S16 (SHARP, Aug 25 2026): 'This was also the first time you served as an executive producer on a television miniseries'; S15/S17 give the Netflix Oct 8 date. Time-sensitive with dated trigger."
+    },
+    {
+      "claim_id": "C44",
+      "verdict": "supported",
+      "reason": "S15: 'Verity opens in theaters on October 2 and Below hits Netflix on October 8'; he says 'they're both coming out the same week'. Dated orientation only; trigger dated."
+    },
+    {
+      "claim_id": "C56",
+      "verdict": "supported",
+      "reason": "S30 (Deadline) headline: 'On The Verity Set With Anne Hathaway & Dakota Johnson'; S14 discusses scenes with both."
+    },
+    {
+      "claim_id": "C58",
+      "verdict": "supported",
+      "reason": "Interpretation built on verified S02 tallest-poppy passage and S01 trust rule; the type answer carries 'held at medium confidence'."
+    },
+    {
+      "claim_id": "C59",
+      "verdict": "supported",
+      "reason": "FAQ mirrors the body answer and type_hypothesis (Type 6, medium); 2002-2026 span matches the opened interview record (S03 through S14/S15)."
+    },
+    {
+      "claim_id": "C05",
+      "verdict": "supported",
+      "reason": "S04: broke his knee at 15, dropped from football, an aunt pushed him to audition for Tom Sawyer at the Minneapolis Youth Performance Company, cast as Huck Finn. 'As a teenager' avoids the 15/16 conflict."
+    },
+    {
+      "claim_id": "C06",
+      "verdict": "supported",
+      "reason": "S04: 'Yes, that's the person I've always wanted to be, somebody like Huck Finn. Somebody who's not always accepted by society but who finds his own ideals and isn't afraid to go out on a limb.' The article's truncation ends at a clause boundary and drops only the idiom critic-07 objected to."
+    },
+    {
+      "claim_id": "C62",
+      "verdict": "supported",
+      "reason": "S03: 'Pearl Harbour, in which he played Ben Affleck's best friend'."
+    },
+    {
+      "claim_id": "C63",
+      "verdict": "supported",
+      "reason": "S03: 'He was repeatedly told by Pearl Harbour's producers that the movie ... would \"change his life\"'. Attributed to Cooke in the article."
+    },
+    {
+      "claim_id": "C09",
+      "verdict": "supported",
+      "reason": "S02 verbatim, adjacent to the 'didn't necessarily want things to change' half. The article labels it a 2020 retelling and sets the 2002 record (S03 'someone obviously persuaded him') against it, so the self-report is not passed off as contemporaneous reasoning."
+    },
+    {
+      "claim_id": "C64",
+      "verdict": "supported",
+      "reason": "S03: \"'Yeah, I nearly turned it down,' he says ... 'It was a role a lot of people wanted but... I didn't want to be famous.'\" Cooke's narration sits between the two quotes; the article's 'Then:' marks the break."
+    },
+    {
+      "claim_id": "C65",
+      "verdict": "supported",
+      "reason": "S02: 'I didn't necessarily want things to change that much,' he says. 'I was happy with the amount of fame I had and the types of roles I was getting.' Adjacent, verbatim."
+    },
+    {
+      "claim_id": "C66",
+      "verdict": "supported",
+      "reason": "Labeled close reading of C09; the next paragraph states its limit (2020 retelling, omits the persuader). Inference stays inside what S02 says."
+    },
+    {
+      "claim_id": "C26",
+      "verdict": "supported",
+      "reason": "S02: 'a splashy Vanity Fair interview with him from the set of Ridley Scott's Black Hawk Down. \"Oh, that was an awful piece,\" he shudders.' S24 dates the profile June 2001. The VF piece itself (S33) is unopened and the article quotes only his reaction."
+    },
+    {
+      "claim_id": "C68",
+      "verdict": "supported",
+      "reason": "S02: 'People got a chip on their shoulder about me after that. They genuinely thought I'd been thrust on them.' Adjacent, verbatim."
+    },
+    {
+      "claim_id": "C69",
+      "verdict": "supported",
+      "reason": "S02 near the end: he 'went back to that Vanity Fair article and realised it wasn't so bad after all ... I felt like: \"Oh my God! I'm not the tallest poppy yet – don't cut me down!\" ... It was a set-up-to-fail moment.' Verbatim; framed as a remembered feeling."
+    },
+    {
+      "claim_id": "C70",
+      "verdict": "supported",
+      "reason": "Interpretation directly grounded in S02's 'it happened at a time when I wasn't that famous' plus the tallest-poppy line; a 2020 recollection, which the surrounding text makes clear."
+    },
+    {
+      "claim_id": "C74",
+      "verdict": "supported",
+      "reason": "S03: \"'It's completely down to me. These guys give me suggestions, obviously, but...'\"; he is 23 in that piece."
+    },
+    {
+      "claim_id": "C14",
+      "verdict": "supported",
+      "reason": "S03 verbatim: 'I'm one of those people who when someone says \"turn right,\" go left. I don't know whether they've figured that out yet...' (quote nesting correctly inverted). The article now reads it as Nine or Six (C154)."
+    },
+    {
+      "claim_id": "C13",
+      "verdict": "supported",
+      "reason": "S03 (Sun 21 Apr 2002): 'he walks into the room looking so gauche and anxious' and 'The way he tells it - though I am not entirely sure I believe him - fame is agony'. The sentence dates publication, not the meeting (verify-02 fix holds)."
+    },
+    {
+      "claim_id": "C15",
+      "verdict": "supported",
+      "reason": "S03: 'Luckily, I've got a pretty good bullshit meter.'"
+    },
+    {
+      "claim_id": "C23",
+      "verdict": "supported",
+      "reason": "S02: 'Naturally he met with the real Malarek before playing him. Why? \"I wanted to see if he was full of shit.\"' Gilbey's homework framing is kept in the article."
+    },
+    {
+      "claim_id": "C75",
+      "verdict": "supported",
+      "reason": "S02: 'Hartnett does his homework' paragraph (Eugenides, boxing for The Black Dahlia), then the Malarek meeting. Target Number One 'streaming from 2 November' 2020."
+    },
+    {
+      "claim_id": "C24",
+      "verdict": "supported",
+      "reason": "S02: 'A few days after our Zoom conversation, he phones me because something has been bothering him: he doesn't feel he made his feelings about Weinstein clear.' The printed passage matches. Note: the claim text still mentions the harassment answer that the article no longer prints (see finding on record hygiene); nothing unsupported is printed."
+    },
+    {
+      "claim_id": "C76",
+      "verdict": "supported",
+      "reason": "S02: '\"I wasn't surprised he was a creep,\" he says. \"But I guess I was surprised at the extent of his creepiness.\"' No allegation implied."
+    },
+    {
+      "claim_id": "C80",
+      "verdict": "qualified",
+      "reason": "S23 (ComicBook.com, fresh fetch): 'Some people interpreted those comments as though the 36-year-old actor was boasting' and his USA Today words 'I said no, I don't regret it' about Superman. Supported as reported. Qualified: the page's own date is a 2017 migration stamp; '2015' is inferred from 'last month' plus 'the 36-year-old actor' (July 2014 to July 2015). The USA Today and Playboy originals are unopened and no longer cited (verify-01 fix holds)."
+    },
+    {
+      "claim_id": "C81",
+      "verdict": "supported",
+      "reason": "Labeled interpretation that concedes One fits and professional care explains some of it; consistent with S02's Malarek and Weinstein passages."
+    },
+    {
+      "claim_id": "C82",
+      "verdict": "supported",
+      "reason": "S10 (CBC Arts) prints it verbatim; my own whisper medium.en transcript of the 2024 Q episode (S11, about 15:55 in my file) has 'after, like, Pearl Harbor came out and Black Hawk Down was coming out, and just it felt oddly stifling'. S10 is CBC's edited text of S11, as the record says."
+    },
+    {
+      "claim_id": "C30",
+      "verdict": "supported",
+      "reason": "S14 transcript: 'I was on the cover a lot of magazines, and I had a lot of paparazzi chasing me ... and I didn't want to feel like I wasn't in any control of my own life.' Verbatim. (The inference's cross-reference to C99/C100 is stale; record-only.)"
+    },
+    {
+      "claim_id": "C83",
+      "verdict": "supported",
+      "reason": "S05 (Sept 2004) verbatim: \"I was like a lot of people in their 20s, wondering, 'Who am I? What do I want to be when I grow up?'\""
+    },
+    {
+      "claim_id": "C85",
+      "verdict": "supported",
+      "reason": "Interpretation supported by S14 (definition answer), S12 ('I didn't really want to be defined by other people'), S08 ('the world is telling you what they think you are'), S09 ('other people defining you to the public')."
+    },
+    {
+      "claim_id": "C29",
+      "verdict": "supported",
+      "reason": "S14 verbatim. Context checked: it answers Summers reading back the 2002 Observer 'date' line, and he adds he is now 'less afraid of other people's opinions'. The article does not distort it."
+    },
+    {
+      "claim_id": "C86",
+      "verdict": "supported",
+      "reason": "S12: 'there was a lot of intrusion into my life at that point because I was a young actor ... and I didn't know how to protect myself exactly at that point because I was young.' Two adjacent spans of one sentence; meaning intact."
+    },
+    {
+      "claim_id": "C21",
+      "verdict": "qualified",
+      "reason": "S25: 'I was alone. I didn't trust anyone.' per Us Weekly's report of Details 2014; S24 has the same span. Wording matches both secondary copies; the Details original (S31) is unopened, and the article says so at the passage."
+    },
+    {
+      "claim_id": "C11",
+      "verdict": "supported",
+      "reason": "S04 verbatim: \"I asked myself, 'Am I going to feel fulfilled doing this?' The answer was no. Probably not.\" Presented as a fulfillment check, not a fear audit."
+    },
+    {
+      "claim_id": "C90",
+      "verdict": "supported",
+      "reason": "S04: 'I just felt that putting on the tights just didn't make sense.'"
+    },
+    {
+      "claim_id": "C91",
+      "verdict": "supported",
+      "reason": "S07 (Wayback, 21 January 2021): 'At the time, it was so obvious to me to turn it down,' says the actor ... 'I was being offered movies by the very top directors. And Superman was a risk.' Split at the attribution as printed."
+    },
+    {
+      "claim_id": "C92",
+      "verdict": "supported",
+      "reason": "S01: 'I just didn't want my life to be swallowed up by my work,' he says now."
+    },
+    {
+      "claim_id": "C93",
+      "verdict": "supported",
+      "reason": "FAQ summary matches C11, C90-C92 as verified."
+    },
+    {
+      "claim_id": "C12",
+      "verdict": "supported",
+      "reason": "S21 (CNN wire via KTVZ, July 20 2023): 'It never got that far' ... 'I had an initial conversation with him'; S02: 'he didn't get any closer to that part than a conversation with Christopher Nolan'; S23: 'Warner Brothers wanted me to talk about Batman. I wanted to talk about The Prestige.' Myth correction holds."
+    },
+    {
+      "claim_id": "C94",
+      "verdict": "supported",
+      "reason": "S21: 'He had read my brother's script for \"The Prestige\" at the time and was more interested in getting involved with that.' Quote trimmed at 'The Prestige' with the rest paraphrased correctly. S21 ties the casting to Batman Begins (2005), so 'early-to-mid 2000s' is right; S01's Dark Knight dating is not used."
+    },
+    {
+      "claim_id": "C96",
+      "verdict": "supported",
+      "reason": "S01: 'The role eventually went to Christian Bale, who Nolan had cast as Batman.'"
+    },
+    {
+      "claim_id": "C97",
+      "verdict": "supported",
+      "reason": "FAQ mirrors C94 and C96, both verified on S21 and S01."
+    },
+    {
+      "claim_id": "C48",
+      "verdict": "qualified",
+      "reason": "S23 verbatim: 'it was about relationships I wish I'd formed but because of my fear of the concept of being one thing in my career and one thing only, I decided I would just stay away from that one aspect. That was only part of what I was doing at the time.' Qualified for the same inferred-2015 date and unopened USA Today original as C80; labeled secondhand in the article."
+    },
+    {
+      "claim_id": "C25",
+      "verdict": "supported",
+      "reason": "S02: 'the contract I signed for those first two films guaranteed me to be a part of, like, five more or something. They're called contract extensions ... jump on other projects I was working on already and become co-producers.' Gilbey: 'These included O ... and ... Lucky Number Slevin'."
+    },
+    {
+      "claim_id": "C99",
+      "verdict": "supported",
+      "reason": "S02 verbatim and adjacent: 'They looked at me as someone who had bitten the hand that fed me. It wasn't that. I wasn't doing it to be recalcitrant or a rebel.'"
+    },
+    {
+      "claim_id": "C100",
+      "verdict": "supported",
+      "reason": "S19 (THR, Oct 2026): 'I had to fight really hard to get out of that box when I was younger'. Truncation drops only 'when I was younger', which the article's context ('his two accounts') preserves."
+    },
+    {
+      "claim_id": "C101",
+      "verdict": "supported",
+      "reason": "Labeled reading ('Read together') that concedes other types share the worry; rests on verified S04, S07, S01, S23, S02 reasons."
+    },
+    {
+      "claim_id": "C102",
+      "verdict": "supported",
+      "reason": "Transitional interpretation; the following quotes (S01 Oppenheimer, trust rule) are verified."
+    },
+    {
+      "claim_id": "C32",
+      "verdict": "supported",
+      "reason": "S01: \"'We didn't have a direct conversation about it' ... 'But the implication was: \"I'd better take it.\" You only get so many opportunities with Chris Nolan.'\" S27: Ernest Lawrence in Oppenheimer (2023)."
+    },
+    {
+      "claim_id": "C31",
+      "verdict": "supported",
+      "reason": "S01 verbatim block quote, introduced by 'He doesn't regret ... not pursing superhero roles. But he does allow:'."
+    },
+    {
+      "claim_id": "C103",
+      "verdict": "supported",
+      "reason": "S01: 'It was, after all, his new rule: work with people you trust.' Context is his return for The Bear; the article uses it only as McGurk's label."
+    },
+    {
+      "claim_id": "C104",
+      "verdict": "supported",
+      "reason": "S15: 'Lucky Number Slevin is one of my favorite films I've ever been a part of, because that was all friends'; S02 lists Slevin among the films Dimension attached itself to."
+    },
+    {
+      "claim_id": "C27",
+      "verdict": "supported",
+      "reason": "S07: 'People thought I was crazy for not chasing that brass ring a little harder,' he says, 'but I felt completely comfortable being with the people I knew liked me before I was making films.'"
+    },
+    {
+      "claim_id": "C42",
+      "verdict": "supported",
+      "reason": "S27 Personal life: relationship with Tamsin Egerton from 2012, four children, married November 2021, live in Hampshire; S01 and S12 describe the Hampshire home. Children not named or gendered in the article. Dated trigger present."
+    },
+    {
+      "claim_id": "C105",
+      "verdict": "supported",
+      "reason": "S27: relationship began 2012, married November 2021, four children; S12: met 2011 on The Lovers. 'Early 2010s' is accurate."
+    },
+    {
+      "claim_id": "C106",
+      "verdict": "supported",
+      "reason": "S27 'They live in Hampshire, England'; S01 'Now living in rural Hampshire'."
+    },
+    {
+      "claim_id": "C43",
+      "verdict": "supported",
+      "reason": "S08 verbatim: 'we had a couple of kids, so I wanted to establish something that was a little bit more solid.'"
+    },
+    {
+      "claim_id": "C108",
+      "verdict": "supported",
+      "reason": "S27: Oppenheimer (2023), Trap (2024); born 1978, so in his forties."
+    },
+    {
+      "claim_id": "C111",
+      "verdict": "qualified",
+      "reason": "S16 verbatim: \"That's terrifying because they have complete control over the work you've done. Eventually you develop a thick skin about it and learn to let it go.\" Qualified: the same answer continues 'But in this instance, and on a few films I've worked on, I was able to be involved in post-production as well, and that's fantastic', so his stated preference is involvement, not letting go. The trim favors the rival type, not the thesis (minor finding)."
+    },
+    {
+      "claim_id": "C37",
+      "verdict": "supported",
+      "reason": "My own whisper medium.en transcript of the 2026 Q episode (S18, fresh RSS download, about 20:58-21:04 in my file): 'I think that just by playing off my own insecurity and not giving me anything, he achieved what he needed to achieve.' Matches the printed words and attribution."
+    },
+    {
+      "claim_id": "C113",
+      "verdict": "supported",
+      "reason": "S18 (my transcript ~19:52): 'what's the best acting note you've ever gotten from a director? I mean, I just got done working with Oliver Stone'; S15: 'now we did this one, White Lies, had to do it. I had to do it' and 'I play Oliver. I mean, it's not officially Oliver'. Unreleased status dated; trigger dated."
+    },
+    {
+      "claim_id": "C36",
+      "verdict": "supported",
+      "reason": "S13 (/Film, Aug 2 2024) verbatim, order preserved: 'Yes, 100%' ... 'Oh my God, if this goes wrong, it's all on me.' [Laughs] ... 'a terrific challenge, but also I love challenges'."
+    },
+    {
+      "claim_id": "C16",
+      "verdict": "supported",
+      "reason": "S03 verbatim, same interview as the turn-right line."
+    },
+    {
+      "claim_id": "C115",
+      "verdict": "supported",
+      "reason": "S03: he 'heads in the direction of the sandwiches. \"You know, I'm not interested in fighting the publicity machine,\" he says. \"That's not my fight. There are other things I want to fight for. I want interesting roles. I want to do some good in the world.\"' Printed in full."
+    },
+    {
+      "claim_id": "C46",
+      "verdict": "supported",
+      "reason": "S12 verbatim: 'honestly, I've become really fond of being here: the quiet, the still; all of it.' Dated 2024 in the body."
+    },
+    {
+      "claim_id": "C117",
+      "verdict": "supported",
+      "reason": "S01 verbatim: 'With four children ... In a way, less is happening. But more of the important stuff is happening.'"
+    },
+    {
+      "claim_id": "C118",
+      "verdict": "supported",
+      "reason": "FAQ mirrors C16 (S03, age 23) and C46 (S12, 2024), both verified."
+    },
+    {
+      "claim_id": "C03",
+      "verdict": "supported",
+      "reason": "S01: 'His father was a musician'; my S18 transcript (~12:19-12:23): asked if his father was a full-time musician, 'He was up until I was born.' The Al Green detail is correctly left out (S18 has him narrowing it)."
+    },
+    {
+      "claim_id": "C04",
+      "verdict": "supported",
+      "reason": "S01 verbatim with the full clause: 'My dad was not someone who valued achievement in that way – high-level work achievement as a means of proving himself.'"
+    },
+    {
+      "claim_id": "C119",
+      "verdict": "supported",
+      "reason": "Interpretation holds: S02 'I burned my bridges at the studios because I wasn't participating' versus S19 'I had to fight really hard to get out of that box'. The article scores the studio years for neither type."
+    },
+    {
+      "claim_id": "C120",
+      "verdict": "supported",
+      "reason": "Refers to verified C65; labeled as the article's reading."
+    },
+    {
+      "claim_id": "C121",
+      "verdict": "supported",
+      "reason": "Labeled application of the stated test; the evidence on each side (S08, S12, S02) is verified and the result is stated as close."
+    },
+    {
+      "claim_id": "C122",
+      "verdict": "supported",
+      "reason": "Honest unexplained-evidence statement tied to the verified S03 drift line."
+    },
+    {
+      "claim_id": "C123",
+      "verdict": "supported",
+      "reason": "S08: Stiles: 'You're the outlier.' ... Hartnett: 'But I like being the outlier.' The article calls it a joke, which matches the context (only American in his household)."
+    },
+    {
+      "claim_id": "C41",
+      "verdict": "supported",
+      "reason": "S12: 'it feels unnatural to be constantly talking about work, or constantly talking about my own career. It feels too isolating, and it's self-indulgent.' The Below clause is gone (verify-04 fix holds)."
+    },
+    {
+      "claim_id": "C40",
+      "verdict": "supported",
+      "reason": "S12 verbatim: 'I used to track-race Porsche cars all the time.'"
+    },
+    {
+      "claim_id": "C39",
+      "verdict": "qualified",
+      "reason": "S22 (TheWrap, Aug 9 2024): 'The director/producer was thrilled when the actor told him that \"danger is what really drives him\"', from Shyamalan's GQ video. Wording verified; qualified because the context is Shyamalan's self-financed, no-studio-backing deal, while the article files it under thrill-seeking (minor finding)."
+    },
+    {
+      "claim_id": "C125",
+      "verdict": "supported",
+      "reason": "S01: 'He says it wasn't so simple, no clear line between \"happy Josh and unhappy Josh\", but then says: \"People's attention to me at the time was borderline unhealthy.\"'"
+    },
+    {
+      "claim_id": "C33",
+      "verdict": "supported",
+      "reason": "S01: 'Well, look, I don't want to give this a lot of weight' ... 'People that were stalking me.' ... 'a guy showed up at one of my premieres with a gun, claiming to be my father.' 'Harnett was 27 at the time'. Attributed, unnamed, prison outcome omitted."
+    },
+    {
+      "claim_id": "C126",
+      "verdict": "supported",
+      "reason": "S08: 'In the late '90s and early 2000s ... it was then the press's mission to tear you apart.'"
+    },
+    {
+      "claim_id": "C127",
+      "verdict": "supported",
+      "reason": "S03 verbatim: \"'I've been doing publicity for so long and before that I worked for four years straight. I could do with a break.'\""
+    },
+    {
+      "claim_id": "C128",
+      "verdict": "supported",
+      "reason": "States the situational alternative honestly; grounded in verified S01 stalking and S08 press accounts."
+    },
+    {
+      "claim_id": "C38",
+      "verdict": "supported",
+      "reason": "S15: 'the fact that they're both coming out the same week feels simultaneously terrifying. It's kind of a make-or-break week, this might be the last time we speak. [Laughs]'. The article calls it a joke."
+    },
+    {
+      "claim_id": "C35",
+      "verdict": "supported",
+      "reason": "My own transcript of a fresh audio download of S20 (YouTube description: 'at The British Independent Film Awards 2018 ... Report by Lucy Jones'): 'I am now just nervous about talking in front of people ... I get a lot of anxiety about these sort of events because I have to go up on stage and read.' Verbatim; the article avoids the video title's 'suffers from anxiety'."
+    },
+    {
+      "claim_id": "C129",
+      "verdict": "supported",
+      "reason": "Labeled interpretation; Pearl Harbor (S02) and Trap (S13) instances verified; the article states the label's over-reach risk in the next sentence."
+    },
+    {
+      "claim_id": "C130",
+      "verdict": "supported",
+      "reason": "S12: 'So coming to the UK didn't feel unnatural.'"
+    },
+    {
+      "claim_id": "C131",
+      "verdict": "supported",
+      "reason": "My S18 transcript (~12:55-13:01): 'No, I think that what I learned from my dad was that work is never going to fulfill you in the way the family does.' The 'inherited' framing matches 'what I learned from my dad'."
+    },
+    {
+      "claim_id": "C132",
+      "verdict": "supported",
+      "reason": "Closing interpretation consistent with verified evidence; 'early twenties' matches the 2003-2007 studio run in S27."
+    },
+    {
+      "claim_id": "C133",
+      "verdict": "supported",
+      "reason": "FAQ mirrors C19 and C54 (S05, S01, S14, S06)."
+    },
+    {
+      "claim_id": "C134",
+      "verdict": "supported",
+      "reason": "FAQ quotes S10 'oddly stifling' and S14 'affecting my own idea of who I am' verbatim and paraphrases S14's control line accurately."
+    },
+    {
+      "claim_id": "C135",
+      "verdict": "supported",
+      "reason": "S27: steady 2000s work through 30 Days of Night (2007), then 'direct-to-DVD and international films' from August (2008); Penny Dreadful from 2014 (S06, S27)."
+    },
+    {
+      "claim_id": "C136",
+      "verdict": "supported",
+      "reason": "Description summarizes S02's pitch and S04's 'politely turned down an offer to be the new Superman'."
+    },
+    {
+      "claim_id": "C02",
+      "verdict": "supported",
+      "reason": "S01: parents 'soon split up', mother moved to San Francisco, by four his father had married his stepmother; 'He got his love of painting from his stepmother, an artist'. S04: 'brought up by their father ... and their stepmother (an artist)'. No causal claim; mother's later history omitted."
+    },
+    {
+      "claim_id": "C137",
+      "verdict": "supported",
+      "reason": "Body answer carries 'held at medium confidence', consistent with type_hypothesis."
+    },
+    {
+      "claim_id": "C138",
+      "verdict": "supported",
+      "reason": "S02: 'I didn't respond to the idea of playing the same character over and over, so I branched out. I tried to find smaller films I could be part of and, in the process, I burned my bridges at the studios because I wasn't participating.' The middle is paraphrased correctly."
+    },
+    {
+      "claim_id": "C139",
+      "verdict": "supported",
+      "reason": "My S18 transcript (~20:38-20:48): 'I knew that he was messing with me, but I also like so badly wanted to please him ... So I just push it more and more and more'. Quote verbatim; paraphrase accurate."
+    },
+    {
+      "claim_id": "C140",
+      "verdict": "supported",
+      "reason": "S03: 'Still, someone obviously persuaded him to think again. \"Well, we're all on a journey. ...\"' No invented gesture (verify-03 fix holds)."
+    },
+    {
+      "claim_id": "C141",
+      "verdict": "qualified",
+      "reason": "S26 (AnOther, Jan 31 2019): 'he consulted his father'; S24 (El País, 2021): 'his father convinced him'. Neither names a source, as the article says. Qualified because it remains secondhand, which is how the article presents it."
+    },
+    {
+      "claim_id": "C142",
+      "verdict": "supported",
+      "reason": "Labeled interpretation that states the limit of the 2020 account; consistent with S02 and S03."
+    },
+    {
+      "claim_id": "C143",
+      "verdict": "supported",
+      "reason": "S08: 'Well, I never really lived in L.A. Even when we were making O, I was in Minnesota ...' and 'I was able to revert back to my family and friends in Minnesota'; S14 'moving back home to Minnesota'."
+    },
+    {
+      "claim_id": "C145",
+      "verdict": "supported",
+      "reason": "Labeled interpretation; concedes the shared motive and names the Six-specific object (exposure), resting on verified S02, S07, S08, S12 passages."
+    },
+    {
+      "claim_id": "C146",
+      "verdict": "qualified",
+      "reason": "S07: 'The guys who are on top are terrified that someone's coming up behind them. If that's your real ambition, to be on top all the time, you're going to spend your whole life looking over your shoulder. I never wanted that.' Both fragments verbatim; qualified because the article's 'so' replaces his conditional clause (minor finding)."
+    },
+    {
+      "claim_id": "C147",
+      "verdict": "supported",
+      "reason": "S08: 'I wanted to be myself amongst people that I knew'; S07: 'Those people make me who I am.' Both verbatim and in context (friends and family over industry socializing)."
+    },
+    {
+      "claim_id": "C148",
+      "verdict": "supported",
+      "reason": "S04 verbatim: 'It wasn't what I wanted to do. There's really no specific reason. I like the people involved in it.'"
+    },
+    {
+      "claim_id": "C149",
+      "verdict": "supported",
+      "reason": "S07: 'the story goes that around 2002, the actor ... was approached by Warner Bros'; the article attributes it to MR PORTER."
+    },
+    {
+      "claim_id": "C150",
+      "verdict": "supported",
+      "reason": "S02 opening passage: the studio did not want his fear-based Superman."
+    },
+    {
+      "claim_id": "C151",
+      "verdict": "supported",
+      "reason": "Hedged gloss ('appears to mean'); S23 context ('Warner Brothers wanted me to talk about Batman') supports it."
+    },
+    {
+      "claim_id": "C152",
+      "verdict": "supported",
+      "reason": "Checked against every printed explanation: 2003 fulfillment (S04), 2020 studio reluctance about a 'fear-based character' (S02), 2021 'risk' (S07), 2024 'swallowed up' (S01); only S23 (2015) names his own fear."
+    },
+    {
+      "claim_id": "C153",
+      "verdict": "supported",
+      "reason": "Open question stated as open; S07 'trilogy of films' supports 'three-film deal'."
+    },
+    {
+      "claim_id": "C154",
+      "verdict": "supported",
+      "reason": "Labeled reading of verified S03 line; gives both readings."
+    },
+    {
+      "claim_id": "C155",
+      "verdict": "supported",
+      "reason": "S02: 'Malarek, he explains, has been accused by his critics of putting himself at the forefront of his own stories. \"Ultimately, Victor is a humble man ...\"'"
+    },
+    {
+      "claim_id": "C156",
+      "verdict": "supported",
+      "reason": "S02: Dimension, 'the horror arm of Miramax, making Hartnett part of the Weinstein brothers' stable of talent', then the Weinstein question."
+    },
+    {
+      "claim_id": "C157",
+      "verdict": "supported",
+      "reason": "S02: 'making Hartnett part of the Weinstein brothers' stable of talent'. The reputational reason is the article's inference and reads as one."
+    },
+    {
+      "claim_id": "C158",
+      "verdict": "supported",
+      "reason": "S02: 'The Faculty and Halloween H20 were produced by Dimension, the horror arm of Miramax'; S27: both 1998, Halloween H20 his first feature."
+    },
+    {
+      "claim_id": "C159",
+      "verdict": "supported",
+      "reason": "S01 introduces the trust quote with 'He doesn't regret ... But he does allow:'; the echo of S23's relationship regret is fair."
+    },
+    {
+      "claim_id": "C161",
+      "verdict": "supported",
+      "reason": "S08 verbatim: 'you've just got to let it slide off your back because it's not the important thing anymore.'"
+    },
+    {
+      "claim_id": "C162",
+      "verdict": "supported",
+      "reason": "S08: 'the choice to step back from the industry had more to do with just plain sanity'; S12: 'it didn't feel entirely healthy. So I just sort of took a step back'."
+    },
+    {
+      "claim_id": "C163",
+      "verdict": "supported",
+      "reason": "Labeled interpretation; both quoted fragments verified in S12 and S08."
+    },
+    {
+      "claim_id": "C164",
+      "verdict": "supported",
+      "reason": "Interpretation over verified S02, S07 and S01 passages; the article notes their retrospective nature elsewhere."
+    },
+    {
+      "claim_id": "C165",
+      "verdict": "supported",
+      "reason": "S12 'I just kind of felt like I wanted to be more myself than that'; S08 outlier joke; S01 painting from stepmother; S07/S08 old friends."
+    },
+    {
+      "claim_id": "C166",
+      "verdict": "supported",
+      "reason": "Concedes Seven's best evidence; quote verified on S23."
+    },
+    {
+      "claim_id": "C167",
+      "verdict": "supported",
+      "reason": "S08 verbatim: 'I had to find something else to fill that gap. I felt, and still feel, that community is what fills it.' Context is achievement no longer satisfying, as the article says. Labeled 'narrows but does not close'."
+    },
+    {
+      "claim_id": "C168",
+      "verdict": "supported",
+      "reason": "S01: 'Harnett was 27 at the time – this was 19 years ago' (July 2024), so about 2005, after the 2002 break."
+    },
+    {
+      "claim_id": "C169",
+      "verdict": "supported",
+      "reason": "Opened src/blog/people/drafts/Keanu-Reeves.md on 2026-10-22: enneagram: 9, published: true. Time-sensitive with dated trigger."
+    },
+    {
+      "claim_id": "C170",
+      "verdict": "supported",
+      "reason": "S27 Career: Hollywood Homicide (2003) through 30 Days of Night (2007); 'direct-to-DVD and international films' from August (2008); Penny Dreadful 2014-2016. S06 (AP 2014) confirms the under-released indie years."
+    },
+    {
+      "claim_id": "C171",
+      "verdict": "supported",
+      "reason": "FAQ mirrors the body's discriminator and confidence."
+    },
+    {
+      "claim_id": "C172",
+      "verdict": "supported",
+      "reason": "FAQ mirrors verified evidence; 'framed' signals the 2020 retelling."
+    },
+    {
+      "claim_id": "C173",
+      "verdict": "supported",
+      "reason": "Meta title is 49 characters and matches medium confidence ('edges out')."
+    },
+    {
+      "claim_id": "C174",
+      "verdict": "supported",
+      "reason": "Persona title rests on the verified S02 tallest-poppy feeling."
+    },
+    {
+      "claim_id": "C175",
+      "verdict": "supported",
+      "reason": "Description's 'with Type 9 close' matches the body's confidence."
+    },
+    {
+      "claim_id": "C177",
+      "verdict": "supported",
+      "reason": "Labeled interpretation over S07 'liked me before I was making films'; the alternative (a Nine's comfort, 'completely comfortable') is recorded and the article concedes a Nine can also settle among familiar people."
+    },
+    {
+      "claim_id": "C178",
+      "verdict": "supported",
+      "reason": "Labeled interpretation ordering the verified 2003, 2020, 2021 and 2024 reasons; each is quoted accurately."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "S01",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh fetch 2026-10-22 of theguardian.com (Stuart McGurk, Observer, 28 Jul 2024): stepmother/painting, father quote, 18 months, 'swallowed up', Prestige/Oppenheimer and trust quote, stalking and gun at 27, 'less is happening'."
+    },
+    {
+      "source_id": "S02",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh fetch (Ryan Gilbey, 23 Oct 2020): Superman pitch, Dimension contract extensions, Pearl Harbor answer, Vanity Fair 'awful piece', Malarek homework, 'bitten the hand', follow-up Weinstein call, tallest poppy."
+    },
+    {
+      "source_id": "S03",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh fetch (Rachel Cooke, Observer, 21 Apr 2002): standfirst 'the next Tom Cruise', 'gauche and anxious', 'who is 23', Pearl Harbor and 'someone obviously persuaded him', time off, turn right/go left, bullshit meter, go along for the ride, lunch remark."
+    },
+    {
+      "source_id": "S04",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh fetch (Philstar, 19 Sep 2003): birth date, father and stepmother, knee at 15, Huck Finn quote, Superman answer with 'no specific reason ... Probably not ... tights'."
+    },
+    {
+      "source_id": "S05",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live URL returned 202/empty; opened Wayback raw capture web.archive.org/web/2016id_/ (Evening Chronicle, 10 Sep 2004, unbylined): '15 months out of the business', 'like a lot of people in their 20s'."
+    },
+    {
+      "source_id": "S06",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh fetch (AP via CSMonitor, 14 May 2014): 'narrative ... that I disappeared', worthy films without release, Penny Dreadful context."
+    },
+    {
+      "source_id": "S07",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live site 403; opened Wayback raw capture web.archive.org/web/2021id_/ (Alex Bilmes, 21 Jan 2021): Superman 'around 2002' trilogy, 'so obvious ... very top directors ... a risk', 'terrified that someone's coming up behind them', 'Those people make me who I am', brass ring."
+    },
+    {
+      "source_id": "S08",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live site 403; opened via r.jina.ai (Interview, 25 Jun 2024 conversation with Julia Stiles): never lived in L.A., plain sanity, press's mission, people that I knew, fill that gap/community, couple of kids, outlier, let it slide."
+    },
+    {
+      "source_id": "S09",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh fetch (Rolling Stone, Aug 2024): 'other people defining you ... frontal lobe', Hampshire and four kids; used only as supporting context."
+    },
+    {
+      "source_id": "S10",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh fetch (CBC Arts, 2 Aug 2024): edited text 'After Pearl Harbor came out ... it felt oddly stifling'."
+    },
+    {
+      "source_id": "S11",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Downloaded the 2 Aug 2024 Q episode from the CBC RSS enclosure (qpodcast-AdYZ4m9L-20240801.mp3) and transcribed 15:00-21:00 with whisper medium.en: 'it felt oddly stifling' about 15:55 in my file."
+    },
+    {
+      "source_id": "S12",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh fetch (Hollywood Authentic, 2024): defined by other people, intrusion/protect myself, 'didn't feel entirely healthy', 'more myself than that', self-indulgent, UK 'didn't feel unnatural', the quiet the still, Porsche racing."
+    },
+    {
+      "source_id": "S13",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh fetch (/Film, Jeremy Mathai, 2 Aug 2024): Trap answer 'Yes, 100%' ... 'it's all on me' ... 'I love challenges'."
+    },
+    {
+      "source_id": "S14",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh fetch (NPR transcript, 2 Oct 2026, Juana Summers): magazine covers/paparazzi/control; 'hadn't defined myself' as a reply to the 2002 Observer line read back to him."
+    },
+    {
+      "source_id": "S15",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh fetch (The Film Stage, Oct 2026): Slevin 'all friends', White Lies 'I had to do it', 'I play Oliver ... not officially Oliver', 'simultaneously terrifying', release dates Oct 2 and Oct 8."
+    },
+    {
+      "source_id": "S16",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh fetch (SHARP, Marc Castaldo, 25 Aug 2026): first time as EP on a miniseries; 'terrifying ... learn to let it go. But in this instance ... involved in post-production'."
+    },
+    {
+      "source_id": "S17",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh fetch (Postmedia via Yahoo Canada, 9 Oct 2026): 'Hartnett, 48', Netflix Oct. 8."
+    },
+    {
+      "source_id": "S18",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Downloaded the 8 Oct 2026 Q episode from the CBC RSS enclosure (qpodcast-QArla2x3-20261007.mp3, 24:07) and transcribed in full with whisper medium.en: father musician ~12:19, 'work is never going to fulfill you' ~12:55, Stone note ~19:52-21:09."
+    },
+    {
+      "source_id": "S19",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh fetch (The Hollywood Reporter, Oct 2026): 'I had to fight really hard to get out of that box when I was younger'."
+    },
+    {
+      "source_id": "S20",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Downloaded audio with yt-dlp (web_embedded client) and transcribed with whisper medium.en; description confirms BIFA 2018 (Lucy Jones). Anxiety answer about 2:00-2:15."
+    },
+    {
+      "source_id": "S21",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh fetch (CNN wire via KTVZ, Alli Rosenbloom, 20 Jul 2023): 'It never got that far', 'initial conversation', Prestige script quote."
+    },
+    {
+      "source_id": "S22",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh fetch (TheWrap, Sharon Knolle, 9 Aug 2024): 'danger is what really drives him' in the context of a self-financed film; GQ video itself not opened."
+    },
+    {
+      "source_id": "S23",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh fetch (ComicBook.com; page stamp 6 Sep 2017, text dates the Playboy interview 'last month' when he was 36): USA Today quotes incl. 'I don't regret it' and the relationships/fear passage."
+    },
+    {
+      "source_id": "S24",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh fetch (El País English, 26 May 2021): 'his father convinced him', Details 2014 'I was alone. I didn't trust anyone', VF June 2001."
+    },
+    {
+      "source_id": "S25",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh fetch (PopCulture.com): Details 2014 quote per Us Weekly."
+    },
+    {
+      "source_id": "S26",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh fetch (AnOther, Trey Taylor, 31 Jan 2019): 'he consulted his father'."
+    },
+    {
+      "source_id": "S27",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh fetch of en.wikipedia.org/wiki/Josh_Hartnett on 2026-10-22: infobox (born July 21, 1978, age 48, m. 2021, 4 children), Career filmography, Personal life (2012, November 2021, Hampshire)."
+    },
+    {
+      "source_id": "S30",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh fetch (Deadline, Sept 2026): Verity with Anne Hathaway and Dakota Johnson."
+    },
+    {
+      "source_id": "S38",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened src/blog/people/drafts/Keanu-Reeves.md in the repository on 2026-10-22: enneagram: 9, published: true."
+    }
+  ],
+  "decision_checks": [
+    {
+      "finding_id": "subject-F1",
+      "accepted": true,
+      "reason": "Met. The candidate prints 'They looked at me as someone who had bitten the hand that fed me,' he told Gilbey. 'It wasn't that. I wasn't doing it to be recalcitrant or a rebel.' and then his stated reason ('didn't respond to the idea of playing the same character over and over ... smaller films'), matching S02's order. 'He fought the studios' is gone; Dimension's side stays ('used it to become co-producer of films he was already making')."
+    },
+    {
+      "finding_id": "subject-F2",
+      "accepted": true,
+      "reason": "Met by removal. No harassment question, no narrated hesitation; the only Weinstein material is the call-back and his two sentences from S02."
+    },
+    {
+      "finding_id": "subject-F3",
+      "accepted": true,
+      "reason": "Met. The 2003 answer opens 'It wasn't what I wanted to do. There's really no specific reason. I like the people involved in it.' and keeps 'Probably not.' (S04). 'Another self-audit' and 'The fear that won' are gone; the fear reading is credited to 'the secondhand 2015 one'."
+    },
+    {
+      "finding_id": "subject-F4",
+      "accepted": true,
+      "reason": "Met. meta_title 'Josh Hartnett's Enneagram Type: Why 6 Edges Out 9' (49 chars) makes no causal claim about stepping back; the body answer says 'most likely ... held at medium confidence' within 60 words."
+    },
+    {
+      "finding_id": "subject-F5",
+      "accepted": true,
+      "reason": "Met. 'the old insecurity still shows' is gone; the passage includes 'I knew that he was messing with me' and attributes Stone's method to Hartnett. I re-transcribed S18 myself and the wording matches."
+    },
+    {
+      "finding_id": "subject-F6",
+      "accepted": true,
+      "reason": "Met. No 'fear has not gone' claim remains. SHARP is printed with 'learn to let it go'; Trap keeps 'Yes, 100%' first and 'I love challenges' after."
+    },
+    {
+      "finding_id": "subject-F7",
+      "accepted": true,
+      "reason": "Met. Full clause 'high-level work achievement as a means of proving himself' printed (S01); framed as 'a different measure of success'."
+    },
+    {
+      "finding_id": "subject-F8",
+      "accepted": true,
+      "reason": "Met by removal; the visa rule appears nowhere in the candidate."
+    },
+    {
+      "finding_id": "fan-01",
+      "accepted": true,
+      "reason": "Met in substance. The intro now separates the 2002 break, a studio run 'through 30 Days of Night (2007)' and the 2008-Penny Dreadful indie years; the gun incident is dated 'around 2005, after the first break'; the FAQ is corrected; the close says 'early twenties'. Only one of the four suggested studio titles is named (Slevin 2006 appears later), a literal shortfall the repair made for length; the chronology problem the test targets is fixed."
+    },
+    {
+      "finding_id": "fan-02",
+      "accepted": true,
+      "reason": "Met. Cooke's 'Still, someone obviously persuaded him to think again' is printed, the father account is attributed to AnOther (2019) and El País (2021) as secondhand, and 'Leaning on a trusted adviser fits a Six as well as a self-audit does' adjusts the interpretation. C141 maps S26/S24/S03 as third_party."
+    },
+    {
+      "finding_id": "fan-03",
+      "accepted": true,
+      "reason": "Met. 'no specific reason', 'so obvious ... very top directors ... a risk' and the 2015 'relationships I wish I'd formed' frame with 'only part of what I was doing' and 'did not regret Superman' are all printed and match S04, S07, S23."
+    },
+    {
+      "finding_id": "fan-04",
+      "accepted": true,
+      "reason": "Met. 'The contract bound him to \"like, five more or something\"' plus the co-producer mechanism; the Slevin sentence adds 'though by Gilbey's account Dimension had attached itself to Slevin too' without doubting the memory."
+    },
+    {
+      "finding_id": "fan-05",
+      "accepted": true,
+      "reason": "Met. One neutral attributed household sentence; mother's history omitted; Type 4 paragraph says 'the painting came from his stepmother'."
+    },
+    {
+      "finding_id": "fan-06",
+      "accepted": true,
+      "reason": "Met. The full 2002 lunch remark through 'I want to do some good in the world' is printed. The Kerry omission is reasoned in the resolution (secondhand, partisan-framing rule)."
+    },
+    {
+      "finding_id": "fan-07",
+      "accepted": true,
+      "reason": "Met. 'learn to let it go' printed; the 'now' producer framing was removed rather than qualified, which satisfies the test."
+    },
+    {
+      "finding_id": "fan-08",
+      "accepted": true,
+      "reason": "Met. 'Oliver Stone's White Lies, unreleased as of October 2026' and 'he plays a character based on Stone (\"it's not officially Oliver\")', both verified in S15; C37/C113/C139 time_sensitive with dated triggers."
+    },
+    {
+      "finding_id": "critic-01",
+      "accepted": true,
+      "reason": "Met. 'Eighteen years later he gave Gilbey a longer account' plus 'That is a 2020 retelling ... not how he reasoned at the time'; Cooke's 2002 persuasion line and 'Well, we're all on a journey' printed; 'most distinctive' and 'took that lesson seriously' gone."
+    },
+    {
+      "finding_id": "critic-02",
+      "accepted": true,
+      "reason": "Met. 'no specific reason' printed; heading neutral; 'only the secondhand 2015 one names fear outright' labels the reading; the Pearl Harbor/Superman asymmetry is stated as 'still open'."
+    },
+    {
+      "finding_id": "critic-03",
+      "accepted": true,
+      "reason": "Met. Malarek keeps 'what Gilbey called his homework'; Weinstein call-back carries the 'stable of talent' reputational reason; 'None of these episodes settles the type, and some are ordinary professional care ... though a One would do the same'. Neither FAQ counts them for Six."
+    },
+    {
+      "finding_id": "critic-04",
+      "accepted": true,
+      "reason": "Met. 'Run that test on the 2002 retreat and it comes out close to even' with 'just plain sanity' and 'didn't feel entirely healthy'; 'let it slide off your back' and 'learn to let it go' are cited; the studio years are neutral ('His two accounts point opposite ways'); confidence stays medium with reasons."
+    },
+    {
+      "finding_id": "critic-05",
+      "accepted": true,
+      "reason": "Met. The frequency sentence is gone; the 2004 'like a lot of people in their 20s' framing is printed; 'Wanting to define yourself is not peculiar to Sixes; Fours, Sevens and Nines guard it too.' The type answer and FAQ rest on exposure and trust."
+    },
+    {
+      "finding_id": "critic-06",
+      "accepted": true,
+      "reason": "Met. Cooke's 'though I am not entirely sure I believe him' sits beside 'gauche and anxious'; the NPR 'curled up' line was cut rather than printed half."
+    },
+    {
+      "finding_id": "critic-07",
+      "accepted": true,
+      "reason": "Met by removal; the Huck Finn quote ends at 'finds his own ideals'."
+    },
+    {
+      "finding_id": "critic-08",
+      "accepted": true,
+      "reason": "Met. Visa removed; Seven paragraph rests on 'A Seven would reach for new options; he reached for people' with his S08 words, and says 'The Seven question narrows but does not close'."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "accepted": true,
+      "reason": "Met. Events carry event dates in the body: Dimension films (1998), Pearl Harbor (2001), VF piece (2001), break (2002), Superman 'around 2002', Nolan conversation 'early-to-mid 2000s', gun 'around 2005'. 'Read in order' and 'The rest of the decade' are gone. The Dimension dispute is placed by sequence ('once he was popular') rather than a year, which is adequate."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "accepted": true,
+      "reason": "Met. The intro gives the 2003-2007 and 2008-2016 work with titles and years; the 2014 AP aside was removed, so the 'name what he was promoting' clause is moot. A reader answers 'Did he disappear?' as the FAQ does."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "accepted": true,
+      "reason": "Met. Dimension as 'the Weinstein brothers' horror label' is introduced in the first section; the Weinstein paragraph opens 'whose label had made those first films'; the harassment sentence is gone."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "accepted": true,
+      "reason": "Met. 'bound him' outside the verbatim quote."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "accepted": true,
+      "reason": "Met. Quote opens 'it was about relationships I wish I'd formed but'; '\"That one aspect\" appears to mean the superhero franchise on offer'; Oppenheimer passage says 'echoing the 2015 regret'."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "accepted": true,
+      "reason": "Met. 'In 2020 it was the frightened Superman the studio didn't want.'"
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "accepted": true,
+      "reason": "Met. 'head triad, the types built around fear'; 'counterphobic: a Six who moves toward the thing he fears'; no wing jargon; Four and Seven each get a one-clause drive."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "accepted": true,
+      "reason": "Met. Trap sits in the counterphobic paragraph beside Pearl Harbor; 'Choosing people instead of parts' ends on the Stone anecdote introduced by 'When Stone asked him ... \"I had to do it\"', which fits the heading."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "accepted": true,
+      "reason": "Met. 'What is more Six-like is how he pictures fame: as exposure to attack' with dated instances (tallest poppy told 2020, MR PORTER 2021, 'didn't know how to protect myself' 2024, 'press's mission' 2024) and identity anchored in 'people that I knew' / 'Those people make me who I am'. The shared fear is labeled shared."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "accepted": true,
+      "reason": "Met. Retreat tested and called close to even; 'turn right, go left' read as 'as much a Nine's quiet stubbornness'; SHARP with 'let it go'; 'fought the studios' gone; meta_title changed."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "accepted": true,
+      "reason": "Met. 'most distinctive' gone; persona title now 'The Heartthrob Who Braced for the Cut'; the 2003 answer is shown as the contemporaneous fulfillment check; fear reading rests on the labeled 2015 statement."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "accepted": true,
+      "reason": "Met. 'fight for' line printed in full in the Nine case; Weinstein and Malarek counted only against Nine peacekeeping with One conceded; Malarek framed as homework on a subject accused of self-promotion."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "accepted": true,
+      "reason": "Met. Seven paragraph concedes 'Its best evidence is the worry at the center of the Six case' and gives a sourced motive-level reason (community fills the gap, S08); visa gone."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "accepted": true,
+      "reason": "Met. Counterphobia named once, glossed, applied to Pearl Harbor and Trap, racing included, with its over-reach risk stated; the contradicting sentence is gone."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "accepted": true,
+      "reason": "Met by removal of both sentences."
+    },
+    {
+      "finding_id": "future-01",
+      "accepted": true,
+      "reason": "Met by removal (stronger than dating it); the Seven rebuttal rests on his own S08 words and the family-first return (C43) stays."
+    },
+    {
+      "finding_id": "future-02",
+      "accepted": true,
+      "reason": "Met by removal at repair; SHARP survives only as a dated 2026 Nine-side quote with 'learn to let it go'; the close rests on 2021/2024 evidence."
+    },
+    {
+      "finding_id": "future-03",
+      "accepted": true,
+      "reason": "Met. 'His life in the 2020s', 'he told Hollywood Authentic in 2024', FAQ 'in 2024', and 'that year Shyamalan recalled' after the 2024 citation. No 'recent' remains."
+    },
+    {
+      "finding_id": "future-04",
+      "accepted": true,
+      "reason": "Met. No '24 years' anywhere; FAQ uses 'between 2002 and 2026'."
+    },
+    {
+      "finding_id": "future-05",
+      "accepted": true,
+      "reason": "Met. 'He was 48 as of October 2026'; C53 time_sensitive with a 2027-07-21 fallback."
+    },
+    {
+      "finding_id": "future-06",
+      "accepted": true,
+      "reason": "Met. C169 time_sensitive with S38; I opened the Keanu Reeves draft and it reads enneagram: 9, published: true."
+    },
+    {
+      "finding_id": "future-07",
+      "accepted": true,
+      "reason": "Met. White Lies named; all ten time_sensitive claims carry a dated fallback (2027-07-21 or 2027-10-22)."
+    },
+    {
+      "finding_id": "verify-01",
+      "accepted": true,
+      "reason": "Met. In evidence-repair.json no claim cites S31-S37; C80 and C48 cite only S23, which I reopened and whose wording matches the article."
+    },
+    {
+      "finding_id": "verify-02",
+      "accepted": true,
+      "reason": "Met. 'Cooke's profile, published in April 2002, has him walking in ...' dates the piece (S03, 21 Apr 2002), not the meeting."
+    },
+    {
+      "finding_id": "verify-03",
+      "accepted": true,
+      "reason": "Met. No shrug; 'His only explanation then: \"Well, we're all on a journey.\"' matches S03."
+    },
+    {
+      "finding_id": "verify-04",
+      "accepted": true,
+      "reason": "Met. The Type 4 rebuttal rests on 'self-indulgent' (S12) and community; no Below trauma clause appears, and C41 cites S12 only."
+    },
+    {
+      "finding_id": "verify-05",
+      "accepted": true,
+      "reason": "Accepted with the stated deviation. Audit-voice lines were rewritten (I confirmed 'not scored here', 'This profile reads them', 'so treat the detail as reported', 'counts here' are gone); the remaining 'The Details original could not be checked' line is a protected passage. Body is 3,672 words by checkDraft, about 70 over the 3,600 the test asked for; inside the 4,500 limit and close to the standard's rough 3,500 target, and the cuts that would close the gap would take quotations a prior fix restored. The Superman reasons now read as a progression."
+    }
+  ],
+  "prior_blocker_checks": [],
+  "protected_checks": [
+    {
+      "passage": "Offered the most invulnerable hero in fiction, Hartnett went looking for the fear in him.",
+      "preserved": true,
+      "reason": "Verbatim in the candidate, still the second beat of the hook directly after the S02 Superman quote, which I verified."
+    },
+    {
+      "passage": "The first half is a contented young man. The second half is the move that matters for typing.",
+      "preserved": true,
+      "reason": "Verbatim, still preceded by both halves of the S02 Pearl Harbor answer."
+    },
+    {
+      "passage": "Batman is often added to the list, but he never turned it down.",
+      "preserved": true,
+      "reason": "Verbatim, followed by Nolan's 'It never got that far' (S21, verified) and the 2015 Prestige account."
+    },
+    {
+      "passage": "Frightening years can teach anyone to be vigilant. The type reading cannot rule out that the vigilance was learned rather than built in.",
+      "preserved": true,
+      "reason": "Verbatim in 'What the type doesn't explain', after the attributed stalking account with his minimizing preface and no prison outcome."
+    },
+    {
+      "passage": "The Details original could not be checked for this analysis, so treat the wording as reported.",
+      "preserved": true,
+      "reason": "Verbatim at the Details quote; still accurate, since S31 remains unopened and the wording matches S25/S24."
+    },
+    {
+      "passage": "Eighteen years later he gave Gilbey the fuller version, and both halves of it matter.",
+      "preserved": true,
+      "reason": "Changed one phrase to 'a longer account'. Calling the 2020 retelling 'fuller' overstated it against the 2002 record (critic-01), so the change removes an unsupported implication; the sentence's contribution, quoting both halves with the Nine-like half first, is intact."
+    },
+    {
+      "passage": "A few days after their Zoom interview, Hartnett phoned him back because he didn't feel he had made his feelings about Harvey Weinstein clear.",
+      "preserved": true,
+      "reason": "Verbatim, now preceded by the Dimension/Weinstein context and followed by his two S02 sentences; matches S02."
+    },
+    {
+      "passage": "The 2002 drift line remains unexplained. At 23, months before stepping back, he described himself much as a Nine would.",
+      "preserved": true,
+      "reason": "Verbatim in 'Why not Type 9?'."
+    },
+    {
+      "passage": "Even the _Pearl Harbor_ answer opens with a Nine's wish that things stay as they are.",
+      "preserved": true,
+      "reason": "Verbatim in the Nine case."
+    },
+    {
+      "passage": "The 2002 drift line remains unexplained. At 23, months before stepping back, he described himself much as a Nine would. A Six reading has to treat that as a young man's modesty or a pose for a journalist, and it might be neither. That is why the confidence stays at medium.",
+      "preserved": true,
+      "reason": "Verbatim and continuous; evidence confidence is still medium."
+    },
+    {
+      "passage": "He suspected his own reluctance, named it as fear and refused to let fear make the call. Then, when the film did change his life, he counted the outcome as proof that the fear had been right.",
+      "preserved": true,
+      "reason": "Verbatim; the following paragraph adds the 2020-retelling limit without rewriting the analysis."
+    },
+    {
+      "passage": "In his twenties the answer was distance. In his forties it is a short list of people he trusts.",
+      "preserved": true,
+      "reason": "Changed one word to 'In his early twenties'. S27 shows a 2003-2007 studio run in his late twenties, so the original was imprecise; the two-stage ending and its memorability are kept."
+    },
+    {
+      "passage": "The first half is a contented young man. The second half is the move that matters for typing. He suspected his own reluctance, named it as fear and refused to let fear make the call. Then, when the film did change his life, he counted the outcome as proof that the fear had been right.",
+      "preserved": true,
+      "reason": "Verbatim as one continuous passage."
+    },
+    {
+      "passage": "He was bracing for the cut before he had finished rising.",
+      "preserved": true,
+      "reason": "Verbatim; it now anchors the exposure thread and the persona title."
+    }
+  ],
+  "coverage_complete": true,
+  "metadata_consistent": true,
+  "alternative_type_addressed": true,
+  "five_year_test_passed": true,
+  "open_case_eligible": false,
+  "scores": {
+    "evidence": {
+      "score": 8.7,
+      "reason": "I reopened all 29 cited sources myself: fresh fetches, Wayback raw captures for S05 and S07, r.jina.ai for S08, the Keanu Reeves draft for S38, and my own whisper medium.en transcripts of both CBC Q episodes (from the RSS enclosures) and the 2018 BIFA clip. All 106 text quotations in body and FAQs match the sources verbatim, and the five audio quotations match my transcripts. The record spans 2002-2026 across independent outlets. Secondhand items are labeled where they appear (Details via PopCulture.com, USA Today via ComicBook.com, the father via AnOther/El País, Nolan via CNN, Shyamalan via TheWrap), and inference limits sit at the passage, as here. It stays below 9 for three reasons: small context compressions (the MR PORTER conditional, TheWrap's 'danger' context, SHARP's post-production clause), an unbylined source described as 'told', and the fact that the most Six-specific evidence is retrospective self-report from 2020-2024.",
+      "passage": "That is a 2020 retelling, and it leaves out whoever pushed him, so it shows how he later explained the decision, not how he reasoned at the time."
+    },
+    "enneagram": {
+      "score": 8.0,
+      "reason": "The Six motive (security through specific trusted people, fame pictured as exposure) explains repeated costly choices across work and relationships. He stayed among pre-fame friends instead of 'chasing that brass ring' (S07), walked away from a Superman trilogy, stepped back in 2002, returned to studio work 'to establish something ... more solid' for his children, and adopted the trust rule. Nine gets a full section in his own words: the drift line, 'the quiet, the still', 'let it slide', 'learn to let it go'. The stated pressure test is run on the hardest episode and scored honestly as a draw, and Four and Seven get one-clause drives and sourced rebuttals. That meets the 8 anchor on testing the alternative against a named, sourced discriminator. Nine does not clearly fail that discriminator, though. The threat imagery is mostly 2020-2024 retrospect, partly explained by stalking and press hostility (which the article concedes). The pre-fame-loyalty filter is thin, and the article itself calls counterphobia loose. Medium confidence is the right ceiling, and the article holds it.",
+      "passage": "Run that test on the 2002 retreat and it comes out close to even."
+    },
+    "originality": {
+      "score": 8.7,
+      "reason": "The portrait is built from details that belong only to him: the frightened-Superman pitch, the 'I was right to fear it' twist, the tallest-poppy feeling, the Batman myth corrected with Nolan's words, the Weinstein call-back, Superman reasons that widen from 2003 to 2024, Dimension attaching itself to the 'all friends' Slevin, and Stone withholding praise from the actor playing a version of Stone. The 2002 drift line survives as a real unresolved contradiction. Generic type-definition sentences (the Nine/Six pressure contrast, the Four and Seven drives) are brief but present.",
+      "passage": "In one scene Stone complimented everyone except him. \"I knew that he was messing with me,\" Hartnett said, but he wanted badly to please him and pushed further and further."
+    },
+    "writing": {
+      "score": 8.2,
+      "reason": "Clear progression: hook, Pearl Harbor and backlash, the retreat, the capes, testing behavior, the trust rule, the rival, the limits. Each section adds evidence instead of rephrasing the thesis, and short lines like this one vary the rhythm. Held down by several stacked-attribution sentences ('In 2015, after a Playboy interview was reported as a boast, Hartnett told USA Today, as quoted by ComicBook.com, that...'), a research-note line ('so treat the wording as reported'), a dense 'Why not Type 9?' section, and a body of 3,672 words, above the roughly 3,500 target.",
+      "passage": "He was bracing for the cut before he had finished rising."
+    },
+    "durability": {
+      "score": 8.8,
+      "reason": "Every changing fact is dated: the October 2026 releases, White Lies 'unreleased as of October 2026', marriage in November 2021, '48 as of October 2026'. All ten time-sensitive claims carry dated triggers. Take out the 2026 release week and the hook (2020), the Pearl Harbor record (2002/2020), the Superman and Batman record (2003-2024) and the trust rule (2021/2024) all still stand. Relative wording ('recent', '24 years', the visa) is gone, and the ending is tied to life stages rather than to 'now'.",
+      "passage": "In his early twenties the answer was distance. In his forties it is a short list of people he trusts."
+    },
+    "hook": {
+      "score": 9.0,
+      "reason": "Opens on a specific, dated, verified self-report (S02, October 2020) that turns well-worn casting trivia into the article's real question, and the piece pays it off through the studio's reaction, the shifting reasons and the fear thread. 'What was he protecting each time he said no?' hands off cleanly to the type section.",
+      "passage": "Offered the most invulnerable hero in fiction, Hartnett went looking for the fear in him."
+    },
+    "discoverability": {
+      "score": 8.5,
+      "reason": "The meta_title (49 characters) and description (hook-led, accurate, within 120-170) state the 6-versus-9 call honestly. The required H2 is followed by a 54-word plain answer with the confidence level. Six FAQs answer real queries (type, leaving Hollywood, Superman/Batman, Type 9, spouse, age); their anchors match the H2 slugs and their facts match the body. Internal links go to the Type 4/6/7/9 pages and seven person pages, and I confirmed each target exists and is published. Slight drags: 'Why 6 Edges Out 9' assumes the reader knows the numbering, and the age FAQ needs yearly upkeep (tracked).",
+      "passage": "Josh Hartnett is most likely an Enneagram [Type 6](/enneagram-corner/enneagram-type-6), the Loyalist, held at medium confidence."
+    }
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "target": {
+    "person": "josh-hartnett",
+    "type": "6",
+    "units": 12,
+    "file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-22_06-00-05-196_josh-hartnett/draft.md"
+  },
+  "comparison_set": [
+    {
+      "person": "paapa-essiedu",
+      "date": "2026-10-20",
+      "units": 11
+    },
+    {
+      "person": "christopher-abbott",
+      "date": "2026-10-19",
+      "units": 9
+    },
+    {
+      "person": "ella-beatty",
+      "date": "2026-10-18",
+      "units": 9
+    },
+    {
+      "person": "grace-reiter",
+      "date": "2026-10-16",
+      "units": 8
+    },
+    {
+      "person": "lily-rose-depp",
+      "date": "2026-10-16",
+      "units": 8
+    },
+    {
+      "person": "shyam-sankar",
+      "date": "2026-10-13",
+      "units": 14
+    },
+    {
+      "person": "maleah-joi-moon",
+      "date": "2026-10-12",
+      "units": 10
+    },
+    {
+      "person": "joseph-zada",
+      "date": "2026-09-12",
+      "units": 13
+    }
+  ],
+  "n_requested": 8,
+  "noise_floor": {
+    "pairs_compared": 984,
+    "median": 0,
+    "p90": 0,
+    "p99": 0.018,
+    "max": 0.071
+  },
+  "trip_threshold": 0.072,
+  "tripped": false,
+  "trip_pairs": [],
+  "per_draft_max": [
+    {
+      "person": "joseph-zada",
+      "date": "2026-09-12",
+      "units": 13,
+      "maxScore": 0.071
+    },
+    {
+      "person": "grace-reiter",
+      "date": "2026-10-16",
+      "units": 8,
+      "maxScore": 0.06
+    },
+    {
+      "person": "christopher-abbott",
+      "date": "2026-10-19",
+      "units": 9,
+      "maxScore": 0.029
+    },
+    {
+      "person": "shyam-sankar",
+      "date": "2026-10-13",
+      "units": 14,
+      "maxScore": 0.023
+    },
+    {
+      "person": "paapa-essiedu",
+      "date": "2026-10-20",
+      "units": 11,
+      "maxScore": 0.023
+    },
+    {
+      "person": "maleah-joi-moon",
+      "date": "2026-10-12",
+      "units": 10,
+      "maxScore": 0.02
+    },
+    {
+      "person": "ella-beatty",
+      "date": "2026-10-18",
+      "units": 9,
+      "maxScore": 0.018
+    },
+    {
+      "person": "lily-rose-depp",
+      "date": "2026-10-16",
+      "units": 8,
+      "maxScore": 0.012
+    }
+  ],
+  "top_pairs": [
+    {
+      "score": 0.071,
+      "other_person": "joseph-zada",
+      "shared_phrases": [],
+      "target": "[diagnosis] That inward interrogation is the most distinctive thing in Hartnett's record.",
+      "other": "[diagnosis] Zada's record favors the Six mainly through what settles him."
+    },
+    {
+      "score": 0.06,
+      "other_person": "grace-reiter",
+      "shared_phrases": [],
+      "target": "[diagnosis] and wants a person or a plan that will hold.",
+      "other": "[diagnosis] A Type 6 is built to anticipate trouble and to look for support that will hold."
+    },
+    {
+      "score": 0.029,
+      "other_person": "christopher-abbott",
+      "shared_phrases": [
+        "medium confidence"
+      ],
+      "target": "[diagnosis] The Six reading is held at medium confidence",
+      "other": "[diagnosis] like learning every audition scene on offer \"just in case.\" That is a medium-confidence read"
+    },
+    {
+      "score": 0.023,
+      "other_person": "shyam-sankar",
+      "shared_phrases": [],
+      "target": "[diagnosis] and wants a person or a plan that will hold.",
+      "other": "[diagnosis] a group or a cause that feels solid."
+    },
+    {
+      "score": 0.023,
+      "other_person": "paapa-essiedu",
+      "shared_phrases": [],
+      "target": "[diagnosis] The Six reading is held at medium confidence",
+      "other": "[diagnosis] a gut-triad type whose anger is held down by a strict inner critic"
+    },
+    {
+      "score": 0.022,
+      "other_person": "joseph-zada",
+      "shared_phrases": [
+        "9take read"
+      ],
+      "target": "[diagnosis] and 9takes reads other actors with walk-away stories",
+      "other": "[diagnosis] 9takes reads Timothée Chalamet and Jennifer Lawrence as Sixes and Austin Butler as a Nine."
+    },
+    {
+      "score": 0.02,
+      "other_person": "maleah-joi-moon",
+      "shared_phrases": [],
+      "target": "[diagnosis] and wants a person or a plan that will hold.",
+      "other": "[diagnosis] A Type 4 feels something essential is missing in her and wants to be seen as she really is."
+    },
+    {
+      "score": 0.019,
+      "other_person": "christopher-abbott",
+      "shared_phrases": [],
+      "target": "[diagnosis] That inward interrogation is the most distinctive thing in Hartnett's record.",
+      "other": "[diagnosis] In Abbott that shows less as timidity than as running commentary"
+    },
+    {
+      "score": 0.019,
+      "other_person": "grace-reiter",
+      "shared_phrases": [],
+      "target": "[diagnosis] and fear is the emotion their whole strategy is built around.",
+      "other": "[diagnosis] A Type 6 is built to anticipate trouble and to look for support that will hold."
+    },
+    {
+      "score": 0.018,
+      "other_person": "ella-beatty",
+      "shared_phrases": [],
+      "target": "[diagnosis] It shows up first in the biggest yes of his career.",
+      "other": "[diagnosis] the real Lizzie Borden) and meets it by showing up off book."
+    },
+    {
+      "score": 0.018,
+      "other_person": "paapa-essiedu",
+      "shared_phrases": [],
+      "target": "[diagnosis] The Six reading is held at medium confidence",
+      "other": "[diagnosis] What would count against the read is a record of him getting through the run-up alone"
+    },
+    {
+      "score": 0.018,
+      "other_person": "paapa-essiedu",
+      "shared_phrases": [],
+      "target": "[diagnosis] It shows up first in the biggest yes of his career.",
+      "other": "[diagnosis] since so much of his fear is about how he is seen."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+The final stage is done. `verification-repair.json` is written with status **pass**, and a read-only dry run of the release gate on this run returns **eligible, no blockers, overall 8.5**. Nothing was published and no other repo files were changed.
+
+**It only just clears the gate.** The weighted score is 8.48, which the gate's rounding turns into 8.5, the minimum for release. Enneagram scores exactly at its 8.0 minimum. The Type 6 read is honest at medium confidence, but Type 9 doesn't clearly lose; the article itself calls the 2002 step-back "close to even." If you want more margin before publishing, the best way to get it is new evidence, not more editing.
+
+**What I checked:**
+- **Sources:** I reopened all 29 sources the article cites myself. All 106 text quotations match their sources word for word.
+- **Audio:** I downloaded and transcribed both CBC Q episodes and the 2018 BIFA red-carpet clip myself. The Oliver Stone anecdote, "work is never going to fulfill you" and the anxiety line all match.
+- **Edits:** The editor's 51 decisions all hold up against their own pass tests: 46 from the six reviewers, plus 5 from the earlier verification. All 14 passages the reviewers asked to keep survived. Two changed by a phrase, both for accuracy:
+  - "fuller version" became "longer account".
+  - "In his twenties" became "In his early twenties".
+- **Overall checks:** coverage is complete, the frontmatter and FAQs agree with the body, the Type 9 alternative is argued seriously, and the article passes the five-year test.
+
+**Five minor findings, none blocking:**
+1. **MR PORTER quote:** the article's "so" smooths over his "if that's your real ambition" condition.
+2. **Shyamalan's "danger" line:** it's filed as thrill-seeking, but in context it was about making *Trap* without studio backing.
+3. **SHARP quote:** it leaves out that he prefers having a say in the edit. That trim helps the Type 9 case, not the article's own argument.
+4. **Evening Chronicle:** the 2004 piece is unbylined, so "he told" the paper overstates it slightly.
+5. **Evidence-record tidying:** a few claim descriptions still mention passages that were cut.
+
+I also listed optional follow-ups for the next refresh. The ones that could settle the 6-versus-9 question: tracking down the 2001 Vanity Fair profile (for his father's role in the Pearl Harbor decision), and anything he says about what steadied him through the *Verity*/*Below* week.
+
+One disclosure: to read the earlier verification's findings, I opened `repair-findings.json`. It also contained that run's overall score (8.3), which the instructions say not to look at. I scored each dimension from the text itself.

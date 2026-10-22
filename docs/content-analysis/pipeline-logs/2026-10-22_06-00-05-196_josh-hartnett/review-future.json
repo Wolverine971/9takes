@@ -1,0 +1,86 @@
+{
+  "schema_version": 3,
+  "role": "future",
+  "content_sha256": "6d0d9edda84b363a320164469d6022ad4857d38c958bb848b5c58468a55a523f",
+  "evidence_sha256": "a9ad5c5424a5f1b3b1b2a4c00f1c58f1e15d37c9f0fd128905a310e646c1865c",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "future-01",
+      "severity": "major",
+      "passage": "Yet the life he has built narrows his options. His UK marriage visa limits him to about 180 days a year of work abroad, roughly one film, which, McGurk wrote, \"also suits him fine.\"",
+      "problem": "This is a temporary legal status, stated in the author's voice, in present tense and with no date. The source is Stuart McGurk's own sentence in the July 2024 Observer (S01: \"He's in the UK on a marriage visa, which means he can only be out of the country for work 180 days a year\"), not Hartnett's words. A spouse-visa restriction belongs to an immigration route with a predictable end, so it will very likely be false within the five-year window. It also carries the whole rebuttal to Type 7. A restriction imposed by law is not something he chose, so \"the life he has built narrows his options\" reads too much into it. Only McGurk's \"suits him fine\" speaks to what Hartnett prefers. C124 is marked time_sensitive, but its trigger (\"recheck at each refresh\") gives no date even though the change is predictable.",
+      "acceptance_test": "The visa detail is attributed to McGurk and dated in the sentence (e.g. \"In 2024, McGurk reported that his UK marriage visa...\"). The case against Type 7 also rests on at least one documented choice of his, such as the family-first return to steadier work (C43) or his stated preference for stillness, not on the visa alone. The C124 review_trigger names a date (e.g. recheck by 2027-07-28 or at the next refresh, whichever is first) and says to drop the sentence if he is shooting more than about one overseas project a year."
+    },
+    {
+      "id": "future-02",
+      "severity": "major",
+      "passage": "The fear has not gone. It now gets handled through people and through a say in the outcome.",
+      "problem": "This present-tense claim about who he is now is marked stable (C109). Its \"say in the outcome\" half rests entirely on the August to October 2026 Below press cycle (S16, S17, S18). Remove that release week and the half has no support. The quoted source also cuts against \"the fear has not gone\": in SHARP (S16) the very next sentence after \"That's terrifying because they have complete control over the work you've done\" is \"Eventually you develop a thick skin about it and learn to let it go.\" The draft leaves that sentence out. The same answer also says he has had post-production input \"on a few films,\" so Below is not the first time he has had a say. A five-year reader gets a 2026 release-week snapshot presented as a settled late-career pattern.",
+      "acceptance_test": "The sentence is dated or narrowed to the dated instance (e.g. \"By 2026 he was handling it through...\"). The SHARP quotation is presented with its \"learn to let it go\" context, or the claim no longer uses \"terrifying\" as proof that the fear is still active. C109 is reclassified as time_sensitive and gets a dated review trigger, e.g. by 2028-10-22, check whether he has taken more producer roles or said the trust rule has changed. The closing paragraph's \"short list of people he trusts\" still stands on the pre-2026 evidence (C27, C31)."
+    },
+    {
+      "id": "future-03",
+      "severity": "minor",
+      "passage": "His recent life sounds like a Nine's too. Of the English countryside: \"Honestly, I've become really fond of being here: the quiet, the still; all of it.\" Of family life with four children: \"In a way, less is happening. But more of the important stuff is happening.\"",
+      "problem": "\"Recent\" is a relative date. Neither quotation is dated or attributed in the passage: the first is Hollywood Authentic, August 2024 (S12) and the second is the Observer, July 2024 (S01). In 2031, \"recent\" will place these statements in the wrong period. The Type 9 FAQ has the same problem with \"he now describes country life as 'the quiet, the still'\" (C118). So does the Type 7 paragraph, where \"danger is what really drives him\" (Shyamalan via TheWrap, August 2024, C39) has no year. These are the Nine-side quotations. Undated, they look like current evidence that has gone unanswered rather than a dated stage of his life.",
+      "acceptance_test": "The body passage and the Type 9 FAQ give the outlet or year for these quotations (e.g. \"In 2024 he told Hollywood Authentic...\"). Neither the body nor the FAQs use \"recent\" or \"now\" about them. The Shyamalan quotation carries its 2024 date."
+    },
+    {
+      "id": "future-04",
+      "severity": "minor",
+      "passage": "Across 24 years of interviews, when he explains the biggest choices of his career, the same few words keep returning: afraid, trust, control, defined.",
+      "problem": "\"24 years\" is a count tied to the 2026 research date. It appears three times: here, in the type FAQ (\"read at medium confidence from 24 years of interviews\", C59) and in the closing (\"What does hold across 24 years\"). C49 and C59 are both marked stable and have no trigger. A later refresh that adds new interviews will make the number wrong unless someone updates all three places. A reader years from now will also take it as up to date.",
+      "acceptance_test": "Either the span is written with absolute years (e.g. \"In interviews from 2002 to 2026...\") everywhere it appears, or C49 and C59 get a review_trigger telling the editor to update all three occurrences at every refresh. The body and FAQ use the same span."
+    },
+    {
+      "id": "future-05",
+      "severity": "minor",
+      "passage": "He was born on July 21, 1978, in Saint Paul, Minnesota, so he turned 48 in July 2026.",
+      "problem": "The answer to the age FAQ, which may also be served as FAQ structured data, is tied to 2026, yet C53 is marked stable with no review trigger. It never becomes false, but a 2029 reader asking how old he is gets a three-year-old answer. Nothing in the evidence record says to update it.",
+      "acceptance_test": "Either the answer keeps the exact birth date and states the age with a dated qualifier, and C53 becomes time_sensitive with a trigger to refresh the age each July or at the next refresh, or the answer is reworded so it stays correct without upkeep (birth date plus \"48 as of October 2026\")."
+    },
+    {
+      "id": "future-06",
+      "severity": "minor",
+      "passage": "and 9takes reads other actors with walk-away stories, such as [Keanu Reeves](/personality-analysis/keanu-reeves), as Nines.",
+      "problem": "This is a factual claim about the site's own current typing, and that typing can change. The claim is true today (src/blog/people/drafts/Keanu-Reeves.md is enneagram: 9 and published). It is missing from the claim inventory and has no review trigger. If the Keanu Reeves page is ever retyped, or the comparison stops holding, this sentence and the matching reader expectation in the type section will quietly go out of date.",
+      "acceptance_test": "Either the passage is added to the claim inventory as time_sensitive, with a trigger to recheck whenever the Keanu-Reeves page's type changes, or it is reworded so it does not depend on site state (e.g. readers often read walk-away actors as Nines)."
+    },
+    {
+      "id": "future-07",
+      "severity": "minor",
+      "passage": "Describing a loosely autobiographical Oliver Stone film, still unreleased in October 2026, he told Q that during one scene Stone complimented everyone except him.",
+      "problem": "The passage is dated, which is good, but it is written to expire. The film's title is already on record: The Film Stage, October 2026 (S15), calls it White Lies. The C37 and C113 trigger, \"when it is announced or released\", has no date fallback. After release, an unnamed \"still unreleased\" film reads as stale and makes the anecdote harder to check. The other time_sensitive triggers have the same gap: C42, C105 and C106 say only \"recheck at each refresh\".",
+      "acceptance_test": "The passage names the film as reported (e.g. \"White Lies, which The Film Stage reported in October 2026 was still to be released\") or no longer depends on its release status. Every time_sensitive claim (C37, C113, C42, C105, C106, C124) has a trigger with a concrete date fallback, such as \"or by 2027-10-22\"."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Offered the most invulnerable hero in fiction, Hartnett went looking for the fear in him.",
+      "reason": "This hook does not depend on the current news cycle. It comes from a dated 2020 self-report about an early-2000s choice, it opens the type question directly, and it will read the same in 2031."
+    },
+    {
+      "passage": "He suspected his own reluctance, named it as fear and refused to let fear make the call. Then, when the film did change his life, he counted the outcome as proof that the fear had been right.",
+      "reason": "This is the central insight, and it stands without the 2026 releases. It rests on 2002 and 2020 sources, it is specific to Hartnett, and it is the discriminator that carries the Six reading."
+    },
+    {
+      "passage": "Batman is often added to the list, but he never turned it down.",
+      "reason": "It corrects a perennial myth with Nolan's own dated account. This is the kind of durable, searchable fact-check that keeps a page useful for years."
+    },
+    {
+      "passage": "The 2002 drift line remains unexplained. At 23, months before stepping back, he described himself much as a Nine would. A Six reading has to treat that as a young man's modesty or a pose for a journalist, and it might be neither. That is why the confidence stays at medium.",
+      "reason": "The open contradiction is stated honestly and tied to medium confidence. It will still be true after any refresh, even one that moves the type, and it tells a future editor what to test."
+    },
+    {
+      "passage": "In his twenties the answer was distance. In his forties it is a short list of people he trusts.",
+      "reason": "The ending is tied to stages of his life rather than to \"now\", so it survives time. Its trust half rests on 2021 and 2024 evidence (C27, C31), not on the 2026 release week."
+    }
+  ],
+  "assessment": "Five-year test: the core passes. If I remove the August to October 2026 Verity/Below cycle, the hook (2020), the Pearl Harbor fear audit (2002/2020), the testing pattern (1996 to 2020), the definition account (2004, with the same story told to Hollywood Authentic and Interview in 2024 before NPR repeated it), the Superman and Batman record (2003 to 2024) and the trust rule (2021/2024) all stand. The release week sits in a dated orientation paragraph, not in the thesis. The failures are local and fixable. One is a present-tense, undated visa constraint that holds up the Type 7 rebuttal and will probably lapse (future-01). Another is a present-tense claim that \"the fear has not gone\", built only on the Below press cycle and leaving out the source's \"learn to let it go\" (future-02). The rest are relative time words and counts (\"recent\", \"now\", \"24 years\", the age FAQ) and triggers that lack dated fallbacks. Absolute dates are otherwise used well: almost every quotation carries a year and an outlet. I spot-checked the saved texts of S01 (visa, trust quote), S16 (SHARP), S17, S15 and S27 (marriage November 2021, four children, Hampshire); apart from the omission in future-02, the dated facts match. Similarity advisory: not tripped (max 0.071 against a 0.072 threshold, the Joseph Zada pair). I compared the actual arguments. Zada's Six case rests on what settles him; this one rests on interrogating his own fear and on testing authorities, so the argument is distinct. The Grace Reiter echo (\"support that will hold\" / \"a plan that will hold\") is ordinary Type 6 vocabulary inside a definition paragraph that ends with a Hartnett-specific turn. That is not formulaic reuse, so there is no finding. Risk flags carry forward: contested typing (6 against 9 at medium confidence) and sensitive allegations (the Weinstein remarks and the man with a gun at a premiere, both kept attributed)."
+}

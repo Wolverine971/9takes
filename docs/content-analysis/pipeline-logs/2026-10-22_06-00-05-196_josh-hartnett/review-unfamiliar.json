@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "unfamiliar",
+  "content_sha256": "6d0d9edda84b363a320164469d6022ad4857d38c958bb848b5c58468a55a523f",
+  "evidence_sha256": "a9ad5c5424a5f1b3b1b2a4c00f1c58f1e15d37c9f0fd128905a310e646c1865c",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "unfamiliar-01",
+      "severity": "major",
+      "passage": "Read in order, the choices suggest that once _Pearl Harbor_ had proved a fear right, he stopped overruling it.",
+      "problem": "The central argument is about change over time (fear overruled on Pearl Harbor, then obeyed, then handled through trusted people), but the body mostly dates interviews, not events. A newcomer reads \"In 2003 ... In 2021 ... In 2024 ... Nolan said in 2023\" and still never learns when Superman was offered (S07 says around 2002), when the Nolan Batman/Prestige conversation happened, whether the Dimension dispute and the chewing-gum fight came before or after Pearl Harbor, or how the Superman refusal relates to the 18-month break. The sections also double back. \"The rest of the decade suggests he took that lesson seriously\" is followed by a Vanity Fair anecdote from the same moment (2001), and then a section that goes back to age 18. \"Superman came next\" follows a section that has already reached 2024-2026. An unfamiliar reader cannot check the \"read in order\" claim that this section's conclusion depends on.",
+      "acceptance_test": "Using only the body, a reader can put these in order: Pearl Harbor (2001), the Vanity Fair backlash, the Superman refusal, the move home to Minnesota, the Nolan Batman/Prestige conversation and the Dimension contract dispute. Each event carries a sourced year or era of when it happened, not only the year he later talked about it. \"The rest of the decade suggests ...\" is either followed directly by evidence from later in that decade or removed. Any item in \"The fear that won\" that predates Pearl Harbor or cannot be dated is marked as such or taken out of the \"read in order\" sequence."
+    },
+    {
+      "id": "unfamiliar-02",
+      "severity": "major",
+      "passage": "By his forties he was back in big studio films, including Christopher Nolan's _Oppenheimer_ (2023) and M. Night Shyamalan's _Trap_ (2024).",
+      "problem": "The meta title (\"Why He Stepped Back\") and the FAQ (\"Why did Josh Hartnett leave Hollywood?\") promise to explain the step back, but the body never shows what his career looked like after the 18-month break. For 2004-2022 it names only Lucky Number Slevin, in passing as a favorite, plus an unreleased Oliver Stone film. The 2014 AP quote correcting the \"vanished\" story is cited without naming the show he was promoting there (Penny Dreadful, the context of S06). So \"back in big studio films\" suggests he was gone for twenty years, while the FAQ says \"He never quit acting\" and \"kept making smaller, independent films afterward.\" A newcomer can't judge his own correction (\"I was doing work I thought was worthy\") or the cost he describes (\"burned my bridges at the studios\") without knowing what he made in those years.",
+      "acceptance_test": "The body adds one or two sourced sentences on his 2004-2022 work, with titles and years (S02, S06 and S27 already cover several). It names what he was promoting in the 2014 AP interview. A reader who finishes the body and is asked \"Did Josh Hartnett disappear?\" gives the same answer as the FAQ."
+    },
+    {
+      "id": "unfamiliar-03",
+      "severity": "minor",
+      "passage": "A few days after their Zoom interview, Hartnett phoned him back because he didn't feel he had made his feelings about Harvey Weinstein clear.",
+      "problem": "The reader meets Weinstein about 40 lines before learning that Hartnett's first studio films (Halloween H20, The Faculty) were made for the Weinsteins' Dimension label, and that he fought with the label over his contract. Without that, a newcomer doesn't know why Gilbey asked him about Weinstein at all. On a topic the evidence flags as sensitive, the next sentence (\"he started an answer, changed tack and declined to claim it\") can read as a hint that there was more to say.",
+      "acceptance_test": "Before or within the Weinstein paragraph, one sourced clause (S02) tells the reader that Hartnett had worked for Weinstein's Dimension/Miramax. The harassment-question sentence ends on his own words, \"That's not my experience and it's not my place to claim that,\" and cannot be read as implying he was harassed."
+    },
+    {
+      "id": "unfamiliar-04",
+      "severity": "minor",
+      "passage": "because his contract for those films guaranteed him a part in \"like, five more or something.\"",
+      "problem": "\"Guaranteed him a part\" sounds like a perk, so a newcomer can't see why it made the relationship antagonistic. The source context (S02) says Dimension exercised contract extensions: the contract bound him to more films. As written, the reader has to guess at the conflict that this section's argument about fighting the studios depends on.",
+      "acceptance_test": "Outside the quotation, the sentence says plainly that the contract obligated him to more Dimension films, so a reader understands the antagonism. The quoted words stay verbatim."
+    },
+    {
+      "id": "unfamiliar-05",
+      "severity": "minor",
+      "passage": "because of my fear of the concept of being one thing in my career and one thing only, I decided I would just stay away from that one aspect.",
+      "problem": "The quote starts mid-sentence and ends on \"that one aspect,\" which a newcomer can't decode (Batman? superhero films? franchises?). The opened text (S23) begins \"it was about relationships I wish I'd formed but because of my fear ...\". That dropped regret about relationships he never formed is exactly what the Oppenheimer section pays off later (\"I recognise the missed opportunity to work with a guy like Chris\"). Cutting it hides the link that would let a reader follow the article's turn from distance to trust.",
+      "acceptance_test": "Either the quotation includes the verbatim \"it was about relationships I wish I'd formed but\" lead-in, or the prose states that he framed the answer as a regret. The reader is told what \"that one aspect\" refers to, consistent with S23. The Oppenheimer passage can then call back to that earlier regret in one clause."
+    },
+    {
+      "id": "unfamiliar-06",
+      "severity": "minor",
+      "passage": "His reasons have shifted with the years.",
+      "problem": "The list of shifting reasons for refusing Superman (fulfillment in 2003, risk in 2021, his life being swallowed by work in 2024) leaves out the version the article opens with: in 2020 the studio did not want his fear-based Superman, and he walked away. A newcomer is left wondering whether he refused the part or was turned away from his own idea. The opening image is never closed, even though it is the hook.",
+      "acceptance_test": "\"The fear that won\" includes the 2020 account (S02: the studio demurred, and he walked away) as one of the shifting reasons, or reconciles it with them, so a reader can connect the opening to the refusal. No claim goes beyond S02."
+    },
+    {
+      "id": "unfamiliar-07",
+      "severity": "minor",
+      "passage": "The racing streak would need a counterphobic Six or a Seven wing to explain it, and neither is demonstrated.",
+      "problem": "A reader without Enneagram background gets no explanation of \"counterphobic Six,\" \"Seven wing\" or (in the type answer) \"head-triad types.\" Types 4 and 7 are argued without saying what drives each type, although Nine gets a clear definition. So a newcomer can't see why calling career talk \"self-indulgent\" counts against Four, or why a visa limit counts against Seven.",
+      "acceptance_test": "Each of \"head-triad,\" \"counterphobic\" and \"wing\" gets a plain-language gloss of one clause or is removed. The Type 4 and Type 7 paragraphs each state that type's core drive in one clause before the evidence, at the same level of definition Type 9 already gets."
+    },
+    {
+      "id": "unfamiliar-08",
+      "severity": "minor",
+      "passage": "When Shyamalan sent him the _Trap_ script, his first reaction, he told [/Film](https://slashfilm.com/1632836/m-night-shyamalan-trap-has-different-twist-you-wont-see-coming-exclusive-interview), was \"'Oh my God, if this goes wrong, it's all on me.'\" He laughed, then said: \"I love challenges.\"",
+      "problem": "\"Choosing people instead of parts\" ends on an anecdote about naming a fear and taking the job anyway. That is the Pearl Harbor pattern again, not an example of choosing people. Because the article doesn't frame it, a newcomer can't tell why it is there, and the clearest late echo of the central pattern goes unnoticed. The section's last beat no longer supports its heading.",
+      "acceptance_test": "One sentence explicitly ties the Trap reaction to the Pearl Harbor pattern (he names the fear, then takes the job), or the anecdote moves to where that pattern is argued, such as the discriminator paragraph. The section ends on material that supports its own heading."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Offered the most invulnerable hero in fiction, Hartnett went looking for the fear in him.",
+      "reason": "Turns a familiar piece of casting trivia into the article's real question in one sentence, and gives a reader with no prior knowledge a reason to keep going."
+    },
+    {
+      "passage": "He suspected his own reluctance, named it as fear and refused to let fear make the call. Then, when the film did change his life, he counted the outcome as proof that the fear had been right.",
+      "reason": "The clearest explanation on the page of the article's central idea. A newcomer understands the self-audit, and its odd conclusion, without any typology background."
+    },
+    {
+      "passage": "Batman is often added to the list, but he never turned it down.",
+      "reason": "Corrects a widely repeated myth with sourced testimony. This is exactly the kind of orientation a searcher arriving cold needs."
+    },
+    {
+      "passage": "The 2002 drift line remains unexplained. At 23, months before stepping back, he described himself much as a Nine would. A Six reading has to treat that as a young man's modesty or a pose for a journalist, and it might be neither. That is why the confidence stays at medium.",
+      "reason": "Honest, plain-language handling of the strongest counterevidence. It shows the reader why the confidence is medium instead of just saying so."
+    },
+    {
+      "passage": "In his twenties the answer was distance. In his forties it is a short list of people he trusts.",
+      "reason": "An ending a newcomer can remember and repeat. It compresses the arc into a contrast the body has earned, without a CTA or a new metaphor."
+    }
+  ],
+  "assessment": "For a reader who knows only the name, the page builds curiosity quickly and mostly rewards it. The Superman pitch is a real hook, the Pearl Harbor self-audit is explained cleanly, the Batman correction and the stalking context teach things a searcher won't expect, and the Nine section gives the rival a fair hearing in plain terms. Momentum is strongest through the first two H2s and \"Why not Type 9?\".\n\nThe main failures are about orientation, not insight. First, the argument is about change over time, but events carry interview dates rather than event dates, and the sections double back. A newcomer can't verify the \"read in order\" conclusion. Second, the 2004-2022 career is nearly blank, so the body implies a twenty-year absence that its own FAQ denies.\n\nSmaller issues: Weinstein appears before the Dimension context; a truncated 2015 quote hides the regret that sets up the Oppenheimer turn; the hook's 2020 reason is missing from the list of shifting reasons; Dimension's \"guaranteed\" contract reads as a perk; some typology jargon has no gloss; and \"Choosing people instead of parts\" loses its thread at the end. Prose runs about 3,500 words, at the top of the target range, and the later sections feel it.\n\nThe similarity diagnostic did not trip (maximum 0.071 against a threshold of 0.072). The top matches are generic Six definitions (\"a plan that will hold,\" \"medium confidence\"). The Hartnett-specific argument (the fear audit, the phone-back, the Batman correction) is not reused, so there is no distinctiveness finding. Risk flags: I agree with sensitive_allegations (the Weinstein question, the gunman at a premiere) and contested_typing (Six versus Nine at medium confidence). I see no historical-source risk and no thesis-change risk."
+}

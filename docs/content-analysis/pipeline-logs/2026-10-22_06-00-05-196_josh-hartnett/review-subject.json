@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "subject",
+  "content_sha256": "6d0d9edda84b363a320164469d6022ad4857d38c958bb848b5c58468a55a523f",
+  "evidence_sha256": "a9ad5c5424a5f1b3b1b2a4c00f1c58f1e15d37c9f0fd128905a310e646c1865c",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "subject-F1",
+      "severity": "major",
+      "passage": "The cost was real. \"They looked at me as someone who had bitten the hand that fed me,\" he told Gilbey, and he said he had \"burned my bridges at the studios because I wasn't participating.\"",
+      "problem": "The quote stops just before Hartnett denies it. In S02 (opened), his very next words are \"It wasn't that. I wasn't doing it to be recalcitrant or a rebel. People wanted to create a brand around me ... but I didn't respond to the idea of playing the same character over and over, so I branched out. I tried to find smaller films I could be part of and, in the process, I burned my bridges.\" The draft prints the studios' view of him without that reply, and the sentence before it (\"He fought the studios on smaller things too\") recasts as fighting what he describes as not taking part and branching out. The non-rebel line turns up only later, in the Type 9 section, as Nine evidence. As written, the section gives a fighting cause for the burned bridges that he rejected in the same breath, and drops the reason he actually gave: smaller, more personal films.",
+      "acceptance_test": "Where \"bitten the hand that fed me\" is quoted, the same or next sentence gives his reply (\"It wasn't that\") and the reason he stated: he didn't want to play the same character over and over and went looking for smaller films. \"He fought the studios\" is either reworded so it doesn't give him a stance he denied, or marked as the author's reading next to his own non-participation account. The Dimension passage keeps the studio's side of the conflict: it used its contract extensions to come on as co-producer of his other projects (S02)."
+    },
+    {
+      "id": "subject-F2",
+      "severity": "major",
+      "passage": "Asked whether he had been harassed himself, he started an answer, changed tack and declined to claim it: \"That's not my experience and it's not my place to claim that.\"",
+      "problem": "This is a sensitive area. Describing him as having \"started an answer, changed tack and declined to claim it\" points readers toward an experience he chose not to describe. The evidence record already left out his ambiguous \"my boss's behaviour\" clause for exactly this reason (C77), but the narration still tells readers something was held back. The type argument doesn't need this exchange, because the evidence is the callback to Gilbey. The placement right after \"On the call he put it plainly\" also implies the question came during the follow-up phone call. S02 (opened) puts the question in a separate paragraph and never says when it was asked.",
+      "acceptance_test": "Either cut the harassment exchange, or give it only as his answer: it was not his experience and not his place to claim it. If more is quoted, his \"It makes me feel icky to try to do so\" goes in too. Nothing should narrate hesitation or withholding. No sentence implies, or invites readers to guess at, an experience he didn't describe. The exchange isn't tied to the phone call unless the source says it happened there, and it isn't used as evidence for a type trait."
+    },
+    {
+      "id": "subject-F3",
+      "severity": "major",
+      "passage": "Superman came next. Asked about it at the 2003 round table, he described another self-audit: \"I asked myself, 'Am I going to feel fulfilled doing this?' The answer was no.\"",
+      "problem": "The quote is cut where it would hedge. In S04 (opened), \"The answer was no.\" is followed straight away by \"Probably not.\", and the answer begins \"It wasn't what I wanted to do. There's really no specific reason. I like the people involved in it.\" Under the heading \"The fear that won,\" and called \"another self-audit\" parallel to the Pearl Harbor fear audit, the trimmed quote turns a hesitant answer about fulfillment, which he said had no specific reason, into a firm piece of fear reasoning. C60, the claim that this inward interrogation is the most distinctive thing in his record, counts this answer as one of its two instances. The only quote that ties fear to the superhero route is from 2015 and reached the draft secondhand (S23 via USA Today).",
+      "acceptance_test": "The 2003 quote either keeps \"Probably not.\" or ends where it doesn't overstate his certainty. The passage reports his contemporaneous \"There's really no specific reason\" or \"I like the people involved in it\". \"Another self-audit\" no longer implies the 2003 question was about fear. Reading the Superman refusal as fear-driven is credited to the 2015 statement (secondhand) and marked as the author's reading, and both C60 and the section heading are checked against that."
+    },
+    {
+      "id": "subject-F4",
+      "severity": "minor",
+      "passage": "Josh Hartnett Enneagram Type 6: Why He Stepped Back",
+      "problem": "The meta title says the type explains why he stepped back. The article itself concedes that stalking, a hostile press and four years of nonstop work are plain causes, and that \"The type reading cannot rule out\" learned vigilance. He has also given his own reasons in his own words. The body's type answer (\"Josh Hartnett's personality type is Enneagram Type 6, the Loyalist.\") states a medium-confidence inference as fact, while the FAQ carries the hedge \"read at medium confidence\". That leaves the most visible surfaces more certain than the record allows.",
+      "acceptance_test": "The meta_title stays within 35-65 characters and doesn't present the type as the cause of his decision to step back. The body type answer, at 60 words or fewer, carries the same medium-confidence qualifier as the type FAQ."
+    },
+    {
+      "id": "subject-F5",
+      "severity": "minor",
+      "passage": "Under a director he admires, the old insecurity still shows.",
+      "problem": "The author states a lifelong trait (\"the old insecurity\") as fact, based on one anecdote taken from a machine transcript. The same S18 excerpt has him saying \"I knew that he was messing with me\" before \"so badly wanted to please him\". He saw Stone's tactic for what it was, and the draft leaves that out, so he comes across as more naive than his own account. Stone's method is also described only through Hartnett's telling, which is fine as long as the attribution stays.",
+      "acceptance_test": "The framing sentence is either marked as interpretation or tied to his own words (\"my own insecurity\"). After re-listening to S18 at about 20:34 to confirm the wording, the passage includes that he knew Stone was deliberately unsettling him. Stone's conduct stays explicitly attributed to Hartnett's account."
+    },
+    {
+      "id": "subject-F6",
+      "severity": "minor",
+      "passage": "The fear has not gone. It now gets handled through people and through a say in the outcome.",
+      "problem": "The author asserts an ongoing inner state as fact, and the quotes offered for it are each cut before Hartnett tempers them. In SHARP (S16, opened), \"That's terrifying because they have complete control over the work you've done\" is followed by \"Eventually you develop a thick skin about it and learn to let it go.\" On /Film (S13, opened), his account of Trap starts \"you're like, 'Yes, 100%'\" and ends \"it was a terrific challenge, but also I love challenges, so I was excited\". The draft picks up at the worry and later builds its closing on \"He finds the danger first.\" Each cut makes the fear look bigger than his whole answer does.",
+      "acceptance_test": "The \"fear has not gone\" claim is either labeled as the author's reading or softened. The SHARP passage includes or paraphrases \"learn to let it go\", or no longer treats \"terrifying\" as a live fear without it. The Trap passage keeps his initial enthusiasm or doesn't suggest the worry came first."
+    },
+    {
+      "id": "subject-F7",
+      "severity": "minor",
+      "passage": "He traces his modest ambition to his father, a musician turned building manager who owned his own company: \"My dad was not someone who valued achievement in that way.\"",
+      "problem": "The quote stops at \"in that way\" without saying which way. In S01 (opened), the sentence goes on: \"– high-level work achievement as a means of proving himself.\" Cut short, it reads as if his father, and by extension Hartnett, didn't value achievement at all, and the draft calls this \"his modest ambition\" in its own voice to support the Nine case. Hartnett's point was narrower: he didn't treat work success as a way to prove himself.",
+      "acceptance_test": "The quote either includes the clause \"high-level work achievement as a means of proving himself\" or paraphrases it accurately. \"Modest ambition\" is replaced with wording that matches his claim, or attributed to the author."
+    },
+    {
+      "id": "subject-F8",
+      "severity": "minor",
+      "passage": "His UK marriage visa limits him to about 180 days a year of work abroad, roughly one film, which, McGurk wrote, \"also suits him fine.\"",
+      "problem": "His immigration status, and what it supposedly allows, comes from the writer's own prose in S01 (\"He's in the UK on a marriage visa, which means he can only be out of the country for work 180 days a year\"), not from Hartnett. The draft states it as fact in the author's voice. It is a personal legal detail that can change, and the journalist may have summarized the rule loosely. Only \"also suits him fine\" is attributed.",
+      "acceptance_test": "The whole visa sentence is attributed to McGurk and the Observer, dated 2024, for example \"McGurk reported in 2024 that...\". The article doesn't state the visa rule in its own voice. C124 keeps its time_sensitive review trigger."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Offered the most invulnerable hero in fiction, Hartnett went looking for the fear in him.",
+      "reason": "A specific, sourced hook built from his own 2020 description of his Superman idea. The sentence describes the pitch itself and claims nothing about his mind."
+    },
+    {
+      "passage": "The first half is a contented young man. The second half is the move that matters for typing.",
+      "reason": "This is the fairness model for the whole piece. It quotes both halves of the Pearl Harbor answer, including the half that fits Type 9, instead of only the half that supports the thesis."
+    },
+    {
+      "passage": "Batman is often added to the list, but he never turned it down.",
+      "reason": "It corrects a widely repeated myth in the subject's favor, using Nolan's own account and Hartnett's 2015 clarification."
+    },
+    {
+      "passage": "Frightening years can teach anyone to be vigilant. The type reading cannot rule out that the vigilance was learned rather than built in.",
+      "reason": "It gives circumstance its full weight. The stalking and premiere-gun account stays attributed and keeps his own minimizing preface, and the prison outcome is left out."
+    },
+    {
+      "passage": "The Details original could not be checked for this analysis, so treat the wording as reported.",
+      "reason": "It states a sourcing limit at the exact point where a thirdhand distrust quote is used. The article also avoids the outlet's 'mental health reasons' framing."
+    }
+  ],
+  "assessment": "As a fairness proxy, I find the draft mostly keeps the public record separate from the author's inference. It follows the research do-not-use list: no detail of his mother's health or death, children unnamed and ungendered, no crash fault, no prison outcome, no tabloid rumours or politics, no 'suffers from anxiety', and no claim that he turned down Batman. Clinical and mental-health framing is avoided. The pattern that needs fixing is narrower. In thesis-bearing passages, the author's fear reading is helped by cutting the subject's own same-breath replies: 'It wasn't that' after 'bitten the hand' (F1), 'Probably not' and 'no specific reason' on Superman (F3), 'learn to let it go' after 'terrifying' and 'Yes, 100%' before the Trap worry (F6), and 'I knew that he was messing with me' in the Stone story (F5). Each cut on its own is small. Together they push a medium-confidence portrait toward a more fearful man than his complete answers describe. The harassment exchange (F2) is the one sensitive passage whose narration invites speculation. Smaller optional points: 'Hartnett's own explanations point the same way' could be read as Hartnett endorsing Gilbey's metaphor, and 'his later accounts of that period fit that reading' would avoid that. The Malarek line ('see if he was full of shit') would be fairer to both men with Gilbey's homework framing and Hartnett's conclusion that 'Victor is a humble man', which also completes the test-then-trust point. I opened S01, S02, S03, S04, S13 and S16 directly. I couldn't re-listen to the S18 audio, so F5 relies on the record's two-model transcript. The similarity check did not trip (max 0.071 against a 0.072 threshold). Its top matches are generic definitions of Type 6 and confidence wording, not reused arguments, so there is no distinctiveness finding."
+}

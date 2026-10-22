@@ -1,0 +1,2298 @@
+{
+	"schema_version": 3,
+	"subject": "josh-hartnett",
+	"status": "ready",
+	"research_tasks": [
+		"Research log (2026-10-22, first run, mode create, empty baseline-reader.md, no prior evidence, no research notes file in docs/content-analysis/research/). No existing draft, page or research brief for Josh Hartnett was found under any name in src/blog/people/drafts or docs/content-analysis/research, and no public Enneagram typing was found. Not open-case eligible: his career began in 1997 and the record runs 1999-2026, so this is a standard profile. Opened 30 sources (S01-S30) and recorded 7 unopened (S31-S37). Read in full: the 2002 Observer (S03), 2003 Philstar junket (S04), 2020 Guardian (S02), 2021 Mr Porter (S07), 2024 Observer (S01), 2024 Interview conversation with Julia Stiles (S08), 2024 Hollywood Authentic (S12), 2026 NPR (S14), 2026 The Film Stage (S15), 2026 Sharp (S16) and 2026 Hollywood Reporter (S19), plus local transcripts of two full CBC Q interviews (2024 and 2026, about 47 minutes, S11, S18) and a 2018 red-carpet clip (S20). Evidence was gathered before choosing a type. A Six reading formed from the 2020 Guardian fear calculus and was then tested against the 2002 Observer (the strongest Nine evidence) and the 2024-2026 interviews, which it survived at medium confidence. Outcome: status ready, standard format, Type 6 at medium confidence, Type 9 the strongest rival, Types 4 and 7 live; contested_typing and sensitive_allegations are flagged so the six-role jury reviews it.",
+		"Transcript fidelity. S11 and S18 (CBC Q podcast audio from the public RSS feed, cbc.ca/podcasting/includes/qpodcast.xml) and S20 (YouTube, downloaded with yt-dlp using the mweb client) were transcribed locally with whisper.cpp medium.en and checked against small.en. The excerpts agree in wording across both models, but punctuation, repeated words and fillers are machine-made. Re-listen at the listed timestamps (they include pre-roll ads) before printing any verbatim quote from these three sources; for 2024 Q quotes prefer CBC's edited text (S10). Scratch files (may not survive to later stages): audio and transcripts in /tmp/jh-research/qpod/ and /tmp/jh-research/yt_anx/, page texts in /tmp/jh-research/<source>/page.txt. Every excerpt in this file was machine-checked against those saved texts before writing (0 mismatches).",
+		"Access workarounds and independence. S07 (Mr Porter; 403 and the reader proxy blocked) and S05 (Evening Chronicle) were opened through Wayback raw captures (web.archive.org/web/<year>id_/<url>). S08 (Interview) was opened through r.jina.ai. Toronto Life's 2026 interview returned a CAPTCHA and was not used. Not independent: S10 is an edited write-up of S11; S23-S26, S29 and S30 compile or report other interviews; Today.com, Just Jared, E!, Complex, AV Club, Fox News and Far Out repackage S01 and S02 and were not used as corroboration.",
+		"Handling and do-not-use list. (1) Sensitive: the man with a gun at a premiere who \"ended up in prison\" (C33) is his unverified account; attribute it, add nothing, name no one. His mother's drug and alcohol problems, dementia and 2023 death (S01) are disclosures about a deceased private person: omit, or one attributed sentence with no causal claim. The crash fault (\"a police car running a red light\", C45) is his allegation; police said they were investigating. Weinstein (C24): keep his words; do not imply he alleges abuse. (2) Do not name or gender his children (kept private, S29). (3) Do not repeat the 1998-2002 tabloid sex rumours in S26 or name past girlfriends. (4) Do not write that he turned down Batman (C12) or that Superman was worth $100m (C11). (5) Do not use the Harrison Ford \"hated him\" quote (C18). (6) Say \"asked to leave\" Purchase, not \"expelled\" (C07); \"played with Al Green's touring band\", not \"Al Green's guitarist\" (C03); \"about a year and a half\" for the break, not a month count (C19); \"as a teenager\" for the knee injury (C05). (7) \"Suffers from anxiety\" overstates S20; it was stage nerves (C35). (8) \"A natural worrier\" is McGurk's phrase, not Hartnett's (C34). (9) Avoid partisan framing of his Obama and Biden remarks (S01).",
+		"Unopened or set aside. Could not open: Details 2014 (S31), Playboy 2015 (S32), the 2001 Vanity Fair profile (S33), Rolling Stone 1999 (S34), HuffPost 2017 (S35), USA Today 2015 (S36) and Men's Health 2024 (S37); their quotes are known only through secondary pages and are marked as such in C12, C21, C28, C30 and C48. Also not opened: the Happy Sad Confused audio with Nolan (reported by CNN, S21), Shyamalan's GQ video (reported by TheWrap, S22), Empire podcasts #439 (2020) and #629 (2024), the 2021 Sunrise interview, and Fight or Flight (2025) press. None is essential to the type argument; S31 and S32 would strengthen or weaken the distrust and pigeonholing quotes.",
+		"Draft-stage leads. Internal links among existing drafts: Christopher-Nolan (5), Christian-Bale (5), Cillian-Murphy (5), Ben-Affleck (3), Anne-Hathaway (1), dakota-johnson (4) and Jake-Gyllenhaal (6, same-type contrast) are published; Keanu-Reeves (9, published) and Brendan-Fraser (9, unpublished) are the obvious \"walked away from Hollywood\" comparisons and should be distinguished, not echoed. Kate-Beckinsale (7) is unpublished. Strongest openings on the record: the Superman he pitched as \"afraid of himself and his own power\" (C10), or the Pearl Harbor fear audit (C09).",
+		"For the next refresh: (a) any account of how he handled a collaborator who let him down, or a public conflict, where Six and Nine part most clearly; (b) what he says steadied him through the Verity/Below release week he called \"terrifying\" (credits trusted people and preparation, Six; tuning it all out, Nine); (c) the Oliver Stone film's title (White Lies per S15), release and his account of it (C37); (d) the 2014 Details and 2015 Playboy originals; (e) any RNC finding on the September 2025 crash (C45); (f) any Below season-two decision (C44).",
+		"Draft log (2026-10-22, draft stage, create mode). Wrote draft.md (published: false, production_pretext draft, no inherited blockers) and this continuation of evidence.json. Thesis: across 24 years his explanations of his biggest choices run through fear, trust and who gets to define him; the distinctive move is the self-audit (\"Am I just afraid ...?\") on Pearl Harbor, after which the fear of being fixed by others led (Superman, the Batman/Prestige meeting, studio fights) until trust in specific people replaced distance as the remedy (Oppenheimer, \"his new rule\"). Opening is the 2020 Superman pitch (C10, C50). Type 9 gets a full section with his own Nine-like words (C16, C115, C46, C117, C04, C119, C65) and the discriminator; Types 4 and 7 are argued briefly; circumstance (stalking, press, four years of work) is its own section. Claims: 128 in the inventory, every passage matched to the draft or its metadata. Removed as unused: C02 (parents), C17 (Minneapolis \"be myself\"), C18 (Harrison Ford), C20 (\"terrified that someone's coming up behind them\"), C28 (community), C34 (\"existentialist from the age of 12\"), C45 (September 2025 crash) and C47 (children \"unadulterated\"); their sources are retained and the two type_hypothesis references to C28 and C34 now cite sources directly. New claims C50-C136 map every direct quote, factual metadata item and labeled interpretation in the draft. No new sources were opened; every quotation was re-checked against the saved source texts in /tmp/jh-research (page texts and both whisper transcripts) with a full-body extractor after drafting, and split quotes were checked for adjacency (non-adjacent spans are written as separate statements: C68, C69, C99). Do-not-use list honored: no Batman refusal, no $100m figure, no Ford quote, \"asked to leave\" not \"expelled\", no Al Green guitarist claim, no month count in the body besides his own 2004 \"15 months\" with the 18-month note, no \"suffers from anxiety\", \"natural worrier\" not used, children not named or gendered, no tabloid rumours or past girlfriends, no crash fault, no partisan framing (politics omitted). Heading and persona title avoid a shortened version of his Pearl Harbor question; the heading quotes \"Then it defined me\" verbatim. Draft checks: checkDraft no blockers, about 3,500 words, 58-word type answer, zero em dashes in author prose, same-type similarity scan clear after rewording the type definition. For reviewers: the Six reading is held at medium confidence and the 2002 \"go along for the ride\" self-portrait is stated as unexplained (C122). Machine-transcript quotes from S18 and S20 should be re-listened to at the listed timestamps before release."
+	],
+	"accuracy_checked_at": "2026-10-22",
+	"risks": {
+		"sensitive_allegations": true,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": false
+	},
+	"sources": [
+		{
+			"id": "S01",
+			"url": "https://www.theguardian.com/film/article/2024/jul/28/i-didnt-want-to-be-swallowed-up-actor-josh-hartnett-on-swapping-hollywood-for-hampshire",
+			"title": "'I didn't want to be swallowed up': actor Josh Hartnett on swapping Hollywood for Hampshire",
+			"speaker": "Josh Hartnett, interviewed over Zoom by Stuart McGurk (The Observer magazine, published on theguardian.com); includes M. Night Shyamalan quoted on casting him",
+			"date": "2024-07-28",
+			"locator": "Full feature, amended 28 July 2024. Paragraphs: the Hampshire morning routine and the 180-day marriage visa; the 18-month stop and Superman \"twice\"; \"swinging for something\"; Shyamalan on casting; the Nolan/Prestige history and Oppenheimer call; childhood in Saint Paul (\"existentialist from the age of 12\"); his mother; his father's four-day week; the stalking and premiere-gun account; politics; The Bear and \"his new rule\".",
+			"excerpt": "In reality, Hartnett only stopped working for 18 months. [...] (He notably turned down the role of Superman twice.) “I just didn’t want my life to be swallowed up by my work,” he says now. “And there was a notion at that time you just kind of give it all up. And you saw what happened to some people back then. They got obliterated by it. I didn’t want that for myself.” [...] “Some of those films were successful. Some of them were failures. But I was always swinging for something that was outside what people expected from me.” [...] “And so to find somebody that’s a bona fide movie star, that’s a great human being and is willing to risk everything, man, that’s a rare combination. And sometimes you think that doesn’t exist any more. And then he walked in.” [...] “But the implication was: ‘I’d better take it.’ You only get so many opportunities with Chris Nolan.” [...] “I recognise the missed opportunity to work with a guy like Chris. And I’ve figured out that as much as you’re worried about curating your career to things you’re interested in, I don’t believe that’s the most important thing any more. It’s about finding people who you really trust.” [...] A natural worrier (“My family says I was an existentialist from the age of 12”) and lover of the arts, but also a jock who played on the school football team. [...] “My dad was not someone who valued achievement in that way – high-level work achievement as a means of proving himself. He owned a company. He allowed himself and his employees to work four days a week. And he was home a lot.” [...] “People’s attention to me at the time was borderline unhealthy.” [...] “Well, look, I don’t want to give this a lot of weight,” he begins. [...] “There were incidents. People showed up at my house. People that were stalking me.” At one point, he says, “a guy showed up at one of my premieres with a gun, claiming to be my father. He ended up in prison.” Harnett was 27 at the time – this was 19 years ago. “There were lots of things. It was a weird time. And I wasn’t going to be grist for the mill.” [...] It was, after all, his new rule: work with people you trust. [...] He’s in the UK on a marriage visa, which means he can only be out of the country for work 180 days a year, or roughly one movie, which also suits him fine. [...] In a way, less is happening. But more of the important stuff is happening.",
+			"context": "Long-form Observer interview for Trap; the richest recent source on family and the retreat. Writer framing to keep attributed: \"A natural worrier\" is McGurk's paraphrase introducing Hartnett's family quote; \"what he's about to say is a reason, not to be confused with the reason\" is McGurk's gloss on the stalking story; \"his new rule: work with people you trust\" is McGurk's summary. Also in the piece: his parents were hippies in a \"shared living situation\" (\"I'm not going to say it was a commune\"); they split, his mother moved to San Francisco, and by the time he was four his father had married his stepmother, an artist from whom he got painting; he worked at the video store Mr Movies. His mother: \"No, she died last year\" (July 2024), \"We had spent most of my youth not around each other. And she had issues with drugs and alcohol\"; she later developed dementia. That is sensitive health information about a deceased private person; see research_tasks. Factual slips in this source: it says Nolan was working on The Dark Knight when they spoke (Nolan, S21, ties the conversation to his Batman casting, i.e. Batman Begins, 2005), and the subject's name is misspelled \"Harnett\" twice. He says he campaigned for Obama and voices fear that democracy \"might not be able to withstand those shocks\" (July 2024, days after the attempt on Trump). Draft use (2026-10-22): the mother's addiction, dementia and death are omitted; the premiere-gun account is attributed, the prison outcome is not repeated, and it is placed as circumstance (he was 27, after the 2002 break), not as the cause of the retreat.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S02",
+			"url": "https://www.theguardian.com/film/2020/oct/23/josh-hartnett-target-number-one-pearl-harbor-the-virgin-suicides",
+			"title": "Josh Hartnett: 'People genuinely thought I'd been thrust on them'",
+			"speaker": "Josh Hartnett, interviewed over Zoom from Surrey by Ryan Gilbey (The Guardian), plus a follow-up phone call",
+			"date": "2020-10-23",
+			"locator": "Full feature for Target Number One. Paragraphs: the Superman \"fear-based character\" idea; Michael Bay's \"fucking huge\"; meeting Victor Malarek; Dimension/Weinstein contract extensions; Pearl Harbor decision; the 2001 Vanity Fair piece; studio fallout and \"burned my bridges\"; Batman; the follow-up call about Weinstein; re-reading Vanity Fair (\"tallest poppy\").",
+			"excerpt": "“I had this idea that because he lives in this world where he can’t touch anything without it flying across the room, he has become almost afraid of himself and his own power. He doesn’t know how to be Superman any more. [...] The studio demurred – “They didn’t really want a fear-based character at the centre of their movie,” he says wryly – and Hartnett walked away. [...] Michael Bay, who directed him in Pearl Harbor, put it bluntly: “He’s going to be fucking huge.” The actor grimaces at the mention of that. “Huge was never something I aspired to,” he says. [...] Naturally he met with the real Malarek before playing him. Why? “I wanted to see if he was full of shit.” [...] “My interest in going to meet him was not to have flowers laid at my feet.” [...] “We had a sort of antagonistic relationship because the contract I signed for those first two films guaranteed me to be a part of, like, five more or something. [...] He shifts uneasily when I ask whether he was surprised by the revelations about Harvey Weinstein. [...] When he was offered Pearl Harbor, his instinct was to turn it down. “I didn’t necessarily want things to change that much,” he says. “I was happy with the amount of fame I had and the types of roles I was getting. At the same time, I asked myself: ‘Am I just afraid that by doing Pearl Harbor, I’m going to enter a new category of film-making that I might not be ready for?’ I ultimately chose to do it because turning it down would’ve been based on fear. Then it defined me, which means I was right to fear it.” [...] “Oh, that was an awful piece,” he shudders. “Was there even a quote from me in it, or was it just everyone talking about how hot I was? People got a chip on their shoulder about me after that. They genuinely thought I’d been thrust on them. It was a very weird time.” [...] After Superman, there were reports that he had also turned down Batman; in fact, he didn’t get any closer to that part than a conversation with Christopher Nolan. [...] “They looked at me as someone who had bitten the hand that fed me. It wasn’t that. I wasn’t doing it to be recalcitrant or a rebel. People wanted to create a brand around me that was going to be accessible and well-liked, but I didn’t respond to the idea of playing the same character over and over, so I branched out. I tried to find smaller films I could be part of and, in the process, I burned my bridges at the studios because I wasn’t participating. Our goals weren’t the same.” [...] He is nothing if not conscientious. A few days after our Zoom conversation, he phones me because something has been bothering him: he doesn’t feel he made his feelings about Weinstein clear. This time, he puts it as plainly as he can. “I wasn’t surprised he was a creep,” he says. “But I guess I was surprised at the extent of his creepiness.” [...] “That’s not my experience and it’s not my place to claim that. It makes me feel icky to try to do so.” [...] I felt like: ‘Oh my God! I’m not the tallest poppy yet – don’t cut me down!’ I was being compared to Tom Cruise and Julia Roberts and that’s insane. It was a set-up-to-fail moment.” He gives a sigh. “It was actually an interesting look at the nature of fame. If only it wasn’t about me.”",
+			"context": "The most revealing single interview on the 2001-2004 decisions, with an observed behaviour (the unprompted follow-up call) reported by the writer. Interpretive lines are Gilbey's: the Superman concept \"now feels like a metaphor for what was happening at the time in his own life\"; \"It was around then that he plotted his calculated retreat\"; \"He is nothing if not conscientious\". The Weinstein material is about a convicted sex offender; Hartnett explicitly declines to claim he was harassed. Also here: he does his homework (raked over Trip Fontaine with Jeffrey Eugenides; trained as a boxer for months for The Black Dahlia); Dimension (Miramax) exercised contract extensions and became co-producer on O and Lucky Number Slevin; he and Tamsin Egerton moved to Surrey to be near her parents. Not independent of: Today.com, Just Jared, E! and El País (S24) reuse these quotes. Draft use (2026-10-22): the Pearl Harbor answer is quoted in both halves (C65 and C09), and the harassment question is reported with his hesitation; the ambiguous \"my boss's behaviour\" clause is not quoted (C77).",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S03",
+			"url": "https://www.theguardian.com/film/2002/apr/21/features.magazine",
+			"title": "Hart throb",
+			"speaker": "Josh Hartnett, interviewed in a New York hotel during the 40 Days and 40 Nights junket by Rachel Cooke (The Observer); includes Sofia Coppola and Ben Affleck quoted",
+			"date": "2002-04-21",
+			"locator": "Full feature. Paragraphs: the hotel meeting (\"gauche and anxious\"); Twin Cities home; parents \"hippyish\"; how he fell into acting; Pearl Harbor (\"I nearly turned it down\"); Tom Cruise comparison; the \"blank space\" theory of fame; Sean Penn and the \"bullshit meter\"; \"go along for the ride\"; time off; \"turn right, go left\"; the publicity machine.",
+			"excerpt": "he walks into the room looking so gauche and anxious and unbelievably handsome that it's hard to sit still. [...] His folks are, he insists, are a lot more interested in achieving happiness rather than success - and brought Josh up to be just the same way. [...] 'You just knew he had it,' she said. [...] 'Yeah, I nearly turned it down,' he says, though he clearly dislikes talking about the film which, in relation to the expectations heaped on it, turned out to be a Titanic-sized flop. 'It was a role a lot of people wanted but... I didn't want to be famous.' [...] He looks uncomfortable. 'I dunno. Tom Cruise is a multinational corporation.' He pauses and then, perhaps afraid that he might sound as if he is dissing Cruise, adds: [...] 'Yes, by realising I'm not any more important than anyone else. [...] He stops, looks flustered, runs his hands through his hair. 'I'm just coming up with this theory right now, so tell me if it's bullshit. [...] People care about my fame, not me. But that's fine. I have my own life. [...] 'I respect people who recognise their boundaries as to how much of this stuff they can take. I also respect people who can work in the midst of this press bonanza. Luckily, I've got a pretty good bullshit meter. I'm pretty good at returning to life after my work is done.' [...] 'I just kind go along for the ride. You need some people in the world who are determined to do one thing in life, to make that thing their goal. But luckily, because you have all those other people being pillars, holding up the world, someone like me can just wander through.' [...] 'It's completely down to me. These guys give me suggestions, obviously, but I'm one of those people who when someone says \"turn right,\" go left. I don't know whether they've figured that out yet...' [...] 'You know, I'm not interested in fighting the publicity machine,' he says. 'That's not my fight. There are other things I want to fight for. I want interesting roles. I want to do some good in the world.'",
+			"context": "The only long contemporaneous interview from the peak (age 23) that was opened. Cooke's tone is arch and flirtatious; her readings (\"perhaps afraid\", \"though I am not entirely sure I believe him\", \"Poor boy. He'll learn, I guess\") are interpretation and must stay attributed. Facts here: he still lived in the Twin Cities; parents divorced, close to both; three younger siblings; father had played guitar for Al Green \"before taking over the family real estate business\" (but see C03: in 2026 he narrowed this); knee injury \"at 16\" (S04 says 15); first role in Cracker; Ben Affleck to Vanity Fair: \"He is so very pretty\". NPR (S14) read him this piece's \"date\" line in 2026. Wikipedia (S27) cites this article as the archived Observer piece.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S04",
+			"url": "https://www.philstar.com/entertainment/2003/09/19/220926/heart-josh",
+			"title": "Into the heart of Josh",
+			"speaker": "Josh Hartnett at a Hollywood Homicide press round table at the Four Seasons, Beverly Hills, reported by Ricky Lo (The Philippine Star)",
+			"date": "2003-09-19",
+			"locator": "Round-table junket held \"several weeks\" before publication (the film opened in the US in June 2003). Passages: Huck Finn; SUNY Purchase letter to the dean; Harrison Ford; Minneapolis vs Los Angeles; Superman.",
+			"excerpt": "\"Yes, that’s the person I’ve always wanted to be, somebody like Huck Finn. Somebody who’s not always accepted by society but who finds his own ideals and isn’t afraid to go out on a limb.\" [...] \"I objected to the school’s practice of admitting more students than it would ultimately graduate and felt that the program’s highly competitive structure stifled students’ creativity. Instead of writing an essay for one of my liberal arts classes, I decided to take the opportunity to speak my mind. I wrote a letter to the dean and to my teachers about the policy. They didn’t appreciate it, so they asked me to leave. I stayed in that school for only five months.\" [...] He’s my idol. It was a little bit intimidating at first but eventually we got along very well. [...] \"I feel more comfortable there. I come to Hollywood to work and then I go back to Minneapolis where I can be myself. [...] You’re either an outsider looking in or an insider stuck inside this expensive ball of wax. [...] I asked myself, ‘Am I going to feel fulfilled doing this?’ The answer was no. Probably not. I just felt that putting on the tights just didn’t make sense. [...] \"I think more than anything physical, it’s my drive to explore things, my desire to experience the world. [...] Sitting there at the round table, being grilled by the journalists, Josh looked like a schoolboy taking an oral exam.",
+			"context": "A shared junket round table, so his answers were given to a dozen outlets at once; treat as his on-record words, not an exclusive. The writer gives his birth date as July 21, 1978, says he broke his knee \"when he was 15\" (S03 and S07 say 16) and that he was \"kicked out due to his, yes, 'rebel streak'\" (writer's phrase). His own account of the Purchase exit is the most detailed available; compare S26 (Rolling Stone 1999 via AnOther) and S24.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S05",
+			"url": "https://www.chroniclelive.co.uk/whats-on/film-tv/hell-stay-out-of-limelight-1630334",
+			"title": "He'll stay out of limelight",
+			"speaker": "Josh Hartnett, quoted in an unbylined Evening Chronicle (Newcastle) feature for Wicker Park",
+			"date": "2004-09-10",
+			"locator": "Opened via the Wayback raw capture web.archive.org/web/20160614184102id_/ (the live URL is the one Wikipedia cites). Paragraphs on the hottest-actor poll, the 15 months out, painting, Superman, Wicker Park.",
+			"excerpt": "\"I'm absolutely not in the race to be the hottest actor,\" he insists. \"I know what it's like to be in that whole world. I was up there for a couple of years and it was uncomfortable. [...] \"I think trying to stay at the top is a shortcut to unhappiness.\" [...] \"I spent a bit of time really thinking about whether this was the right thing for me,\" he reveals. \"I took 15 months out of the business. I was like a lot of people in their 20s, wondering, 'Who am I? What do I want to be when I grow up?'. [...] I always wanted to be a painter and if I had the means I might just hermit myself away and do that for a while.\" [...] \"I didn't ever want to do it,\" he explains. \"It just wasn't the kind of movie I wanted to do. I turned down other superhero roles as well.\"",
+			"context": "Probably junket copy syndicated to regional papers; no interviewer named. The only near-contemporaneous source for the length of the break, which he gives as 15 months; McGurk (S01) and El País (S24) say 18 months. Writer calls him \"introspective\" and notes he is rarely seen at showbiz parties and had just bought a home in Minnesota.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S06",
+			"url": "https://www.csmonitor.com/The-Culture/TV/2014/0514/Penny-Dreadful-actor-Josh-Hartnett-discusses-his-role-on-the-Victorian-TV-show",
+			"title": "'Penny Dreadful' actor Josh Hartnett discusses his role on the Victorian TV show",
+			"speaker": "Josh Hartnett, interviewed by Lynn Elber (Associated Press), published by The Christian Science Monitor",
+			"date": "2014-05-14",
+			"locator": "AP feature for Penny Dreadful season 1; the paragraphs on release guarantees, 2001 fame, \"the narrative ... that I disappeared\", and \"Being 35 and not 18\".",
+			"excerpt": "Hartnett also appreciated the guarantee that the project would be marketed and presented to an audience, something he's become painfully aware isn't always the case with independent films. [...] \"It's really exciting to have a big movie release,\" said Hartnett. \"Everybody should be so lucky to have that experience. You feel like the whole world's focused on you for a little while, and it's overwhelming.\" [...] \"The narrative that's been created over the last couple months is that I disappeared, and I was some hermit for the last few years and joined a cult or something,\" he said. \"It's just crazy. ... I was doing work I thought was worthy.\" [...] \"Being 35 and not 18, I'm less susceptible to the negative aspects\"",
+			"context": "AP wire copy, so it ran in many papers; this is one copy, not independent corroboration of anything else. The \"guarantee\" sentence is the writer's paraphrase of his reasons for doing TV.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S07",
+			"url": "https://www.mrporter.com/en-gb/journal/fashion/actor-josh-hartnett-interview-1597802",
+			"title": "Why Mr Josh Hartnett Chose \"Having A Life\" Over The Hollywood Dream",
+			"speaker": "Josh Hartnett, interviewed on a video call in mid-December 2020 by Alex Bilmes (MR PORTER, The Journal)",
+			"date": "2021-01",
+			"locator": "Opened via the Wayback raw capture web.archive.org/web/2021id_/ (live site returned 403). Published January 2021 per syndicated reports; interview conducted mid-December 2020. Passages: Superman; the chewing-gum anecdote; \"I decided to have a life\"; becoming \"a commodity\"; \"terrified that someone's coming up behind them\"; friends and family; Minneapolis; \"I would not have a happy life\".",
+			"excerpt": "“At the time, it was so obvious to me to turn it down,” says the actor in his measured Midwestern baritone. “I was being offered movies by the very top directors. And Superman was a risk. Yes, there was a lot of money involved, but I didn’t think that was the be-all and end-all.” [...] There was a time I was considered quite a commodity in the business and I wanted my character to chew gum in a scene. It was run up so many flagpoles and it was the subject of conversation for days and in the end, they decided just no. [...] “I decided to have a life,” says Mr Hartnett. “To put that first. That was always my goal.” [...] “I started to realise that I had to perform in a certain way in the marketplace or I was going to lose my career,” says Mr Hartnett. [...] “The guys who are on top are terrified that someone’s coming up behind them. If that’s your real ambition, to be on top all the time, you’re going to spend your whole life looking over your shoulder. I never wanted that. I want to do good work with people I like and spend my free time with people I care about.” [...] “I’m not going to speak for other people,” he says, choosing his words carefully, [...] “A lot of people get caught in that trap, but I feel very strongly about friends I’ve known for a long time and my family. I wanted to make sure I wasn’t losing those relationships. Those people make me who I am. I put those concerns ahead of chasing a Hollywood dream.” [...] “People thought I was crazy for not chasing that brass ring a little harder,” he says, “but I felt completely comfortable being with the people I knew liked me before I was making films. [...] but I will say that in giving in to the allure of Hollywood entirely, I know that I would not have a happy life,” he says. “I feel very strongly about that.”",
+			"context": "He raised Superman himself (\"every interviewer asks me about it\"). The $100m three-film fee is \"according to industry gossip\" (writer); do not state it as fact. Writer's framing: the decision \"to prioritise relationships with friends and family over those with industry powerbrokers ... personal values of honesty and integrity\". Also: three children then (born by end of 2019), living on the Surrey-Sussex border; at 16 he \"tore his anterior cruciate ligament\"; \"College had lasted all of six months\". El País (S24) and others reuse these quotes.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S08",
+			"url": "https://www.interviewmagazine.com/film/josh-hartnett-tells-julia-stiles-how-he-escaped-the-hollywood-trap",
+			"title": "Josh Hartnett Tells Julia Stiles How He Escaped the Hollywood Trap",
+			"speaker": "Josh Hartnett in conversation with Julia Stiles, his O co-star (Interview magazine, September 2024 issue)",
+			"date": "2024-08-07",
+			"locator": "Transcript dated \"MONDAY 7 PM JUNE 25, 2024 LONDON\"; opened via r.jina.ai. Passages: leaving L.A. (\"just plain sanity\"), community, returning to studio films, Trap, method acting, goats, press comfort.",
+			"excerpt": "But the choice to step back from the industry had more to do with just plain sanity. In the late ’90s and early 2000s, as you remember, if you were named as one of these interesting people in celebrity culture, it was then the press’s mission to tear you apart. [...] I wanted to be myself amongst people that I knew, so I was able to revert back to my family and friends in Minnesota. Also, after a certain amount of time chasing a goal, I realized that achieving these things wasn’t giving me back the satisfaction I hoped it would, so I had to find something else to fill that gap. I felt, and still feel, that community is what fills it. Achievement is great in any walk of life. It’s a reason to get up in the morning. But the thing that really holds you is your community. I felt that I was kind of rootless at that time, so I wanted to find that community. [...] But coming back to making studio films, what happened in all transparency was that we had a couple of kids, so I wanted to establish something that was a little bit more solid. [...] You and I both had attention that we didn’t know how to navigate. [...] I think method acting is a joke that some actor came up with. [...] So we got some goats to deal with that. The goats are more my vibe. [...] But I like being the outlier. [...] But when you’re very young, it’s like you’re trying to find yourself, and the world is telling you what they think you are, and it’s discombobulating. So you’re forced to either fight against or go along with people’s perceptions of you.",
+			"context": "A peer conversation rather than a profile, so it shows his register with a friend: warm, joking, self-deprecating. Stiles' line is her own testimony about the O cast's shared experience, not an observation of him specifically. He says he \"never really lived in L.A.\" (he lived \"set to set\" and in Minnesota and New York). Tamsin Egerton: met playing husband and wife in \"the worst movie either of us have ever made\" in London, both left other partners, she got pregnant, then they married. Four children; \"I'm a foreigner in my own home\" (joke about an English family). On method actors: \"To make the whole set focus on and be afraid of them\".",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S09",
+			"url": "https://www.rollingstone.com/tv-movies/tv-movie-features/josh-hartnett-trap-shyamalan-interview-the-bear-oppenheimer-1235072298/",
+			"title": "Can't You Just Let Josh Hartnett Be an Indie Weirdo?",
+			"speaker": "Josh Hartnett, interviewed at the Crosby Street Hotel, Manhattan, by Brittany Spanos (Rolling Stone)",
+			"date": "2024-08-03",
+			"locator": "Feature for Trap; the quoted passages on career path, weird characters and the \"treadmill\", the frontal-lobe line, and his kids.",
+			"excerpt": "“I was never a person that had a career path in mind or wanted to be the biggest movie star in the world,” Hartnett says, sitting in Manhattan’s Crosby Street Hotel. “That wasn’t who I ever was. So it wasn’t like I stepped away, it was just that people had an idea of what I could be. And I was never feeling that way.” [...] “It’s so much easier to do things within this business when you’re a little bit older,” he says, “because you’re not worried about other people defining you to the public in a way that you don’t feel comfortable with, because your frontal lobe is fully developed. It wasn’t when I was 20. [...] “I thought I was going to be able to continue to play weird characters or characters that were outside of the heroic archetypes. And after certain movies came out, the studios or whoever was in charge wanted me to stay on that treadmill. But I just continued doing my own thing, and it was hard. [...] “I’ve never made a movie that’s for young audiences, and my kids don’t really understand what I do,” he admits.",
+			"context": "Writer's framing: \"Josh Hartnett has always wanted to do what was least expected of him.\" Also: he met Kid Cudi at a 2009 Ratatat concert and directed the \"Pursuit of Happiness\" video for about five grand (Wikipedia says produced); he hopes to work with the Coen brothers and Scorsese.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S10",
+			"url": "https://www.cbc.ca/arts/q/josh-hartnett-on-escaping-the-heartthrob-label-to-explore-more-interesting-roles-1.7282192",
+			"title": "Josh Hartnett on escaping the heartthrob label to explore more interesting roles",
+			"speaker": "Vivian Rashotte (CBC Arts), quoting Hartnett from his Q with Tom Power interview",
+			"date": "2024-08-02",
+			"locator": "Article version of the Q interview (S11); the quoted paragraphs on \"oddly stifling\", \"throw caution to the wind\", and \"explorative artist\".",
+			"excerpt": "\"After Pearl Harbor came out and Black Hawk Down was coming out, it felt oddly stifling,\" Hartnett tells Q's Tom Power in an interview. \"I was both young enough and had wise enough people around me that I was able to see that … I wasn't going to be able to create my own identity in a positive way in that environment where everybody else had an opinion on what I should be.\" [...] \"[I] decided, 'I'm just going to throw caution to the wind and do the thing that I feel is right and develop in the way that I feel I want to develop,'\" he tells Power. \"It was probably the best thing I ever did for myself.",
+			"context": "Edited, cleaned-up quotations of the same conversation transcribed in S11; not independent of S11. Prefer this cleaned text for print and use S11 to check context.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S11",
+			"url": "https://www.cbc.ca/listen/cbc-podcasts/q-with-tom-power",
+			"title": "Josh Hartnett: Shedding the heartthrob label (Q with Tom Power podcast)",
+			"speaker": "Josh Hartnett, interviewed by Tom Power (CBC Q); episode introduced by guest host Talia Schlanger",
+			"date": "2024-08-02",
+			"locator": "Episode audio from the CBC Q podcast RSS feed (cbc.ca/podcasting/includes/qpodcast.xml, enclosure qpodcast-AdYZ4m9L-20240801.mp3), about 22 minutes. Timestamps are from the downloaded file and include a pre-roll ad: Shyamalan script \"huge challenge\" about 7:30-8:10; \"Zero ... I didn't want Cooper to bleed over\" about 11:10; \"oddly stifling\" about 17:16; \"throw a caution to the wind\" about 18:08.",
+			"excerpt": "I did want to do it immediately, because I love a challenge. But like, I knew the possibility of if I don't make this character work incredible throughout if it's not as entertaining as it needs to be the whole film fails [...] I didn't want Cooper to bleed over into my life or my life to bleed over into Cooper's. [...] people tend to hide the reality of what they're going through pretty well.",
+			"context": "Machine transcript (whisper.cpp medium.en, checked against small.en; the excerpts above agree across both apart from punctuation). Punctuation and fillers are machine-made: re-listen before printing a verbatim quote not also in S10. He also says he \"read a lot of books about sociopathy and psychopathy\" for Trap and that he wanted the character \"to be uniquely himself\"; \"I don't want to associate myself with\" a serial killer while raising his kids (wording garbled in both transcripts).",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S12",
+			"url": "https://hollywoodauthentic.com/josh-hartnett",
+			"title": "Josh Hartnett (Hollywood Authentic cover story)",
+			"speaker": "Josh Hartnett, interviewed at his home in the English countryside by Greg Williams (Hollywood Authentic; \"Photographs, interview and video by GREG WILLIAMS\")",
+			"date": "2024-08-28",
+			"locator": "Feature from a July 2024 visit; passages on superhero films and being \"defined by other people\", \"intrusion\", \"self-protective\", New York friends, the countryside, social media, and track-racing Porsches.",
+			"excerpt": "Personally, I didn’t want someone else dictating how I was portrayed in the media, and how I was portrayed on screen so much. [...] So, all that said, I didn’t really want to be defined by other people. I wanted to do my own thing. That’s why I’ve created the career I’ve created.’ [...] ‘It just felt like there was a lot of intrusion into my life at that point because I was a young actor, and people were interested in my life, and I didn’t know how to protect myself exactly at that point because I was young. And, also, I was still defining myself, in the way that we all do in our late teens or early twenties. So to have all these other opinions of who I was constantly swirling around in the miasma that is my brain while I’m trying to decide what it is that I want to be – it didn’t feel entirely healthy. [...] I think, looking back on it, it was self-protective, but it was also much more positive than that. [...] Especially when I’m not working, it feels unnatural to be constantly talking about work, or constantly talking about my own career. It feels too isolating, and it’s self-indulgent. [...] Honestly, I’ve become really fond of being here: the quiet, the still; all of it. [...] So coming to the UK didn’t feel unnatural. [...] ‘I used to track-race Porsche cars all the time. I completely gutted 911s with the biggest engine you could get, completely light. A lot of fun. I took a Bugatti out on an F1 track in Kuala Lumpur.",
+			"context": "An access piece in a celebrity-friendly magazine: home, goats (named Olive, Lavender, Poppy and Grape), a restored 1965 Lamborghini tractor he calls \"The Beast\". It misdates the Nolan conversation to The Dark Knight in 2008 (contradicts S21) and calls him 45 (he turned 46 on 21 July 2024). He doesn't do social media. \"Fame is not the endgame for me ... if it becomes your be all and end all, I think that's a trap.\"",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S13",
+			"url": "https://slashfilm.com/1632836/m-night-shyamalan-trap-has-different-twist-you-wont-see-coming-exclusive-interview",
+			"title": "Director M. Night Shyamalan's Trap Has A Different Twist You Won't See Coming [Exclusive Interview]",
+			"speaker": "Josh Hartnett, interviewed by Jeremy Mathai (/Film); separate interview with Shyamalan",
+			"date": "2024-08-02",
+			"locator": "Hartnett Q&A section (script reaction; Oppenheimer vs Trap; sympathy for the character).",
+			"excerpt": "\"When you hear that Night wants you to be in his film, you're like, \"Yes, 100%.\" And then you read the script and you're like, 'Oh my God, if this goes wrong, it's all on me.' [Laughs] And yeah, it was a terrific challenge, but also I love challenges, so I was excited to be a part of it.\" [...] They don't have any fear of other people's opinions the way that some directors who maybe aren't quite as sure of themselves would want to hold more tightly. [...] people don't know where to put me these days, so I can go all over the place and try different roles.",
+			"context": "Press-day interview; the \"all on me\" line is delivered with a laugh. He praises directors for lacking \"fear of other people's opinions\", the same phrase he later applies to himself (S14).",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S14",
+			"url": "https://www.npr.org/2026/10/02/nx-s1-5788798/josh-hartnett-reflects-on-verity-and-living-a-much-less-hollywood-existence",
+			"title": "Josh Hartnett reflects on 'Verity' and living a 'much less Hollywood existence'",
+			"speaker": "Josh Hartnett, interviewed by Juana Summers (NPR, All Things Considered)",
+			"date": "2026-10-02",
+			"locator": "NPR transcript; passages on why he left after Black Hawk Down, the 2002 Observer quote read back to him, and Verity.",
+			"excerpt": "it goes back to the fact that I never actually intended to become a famous actor. [...] and I didn't want to feel like I wasn't in any control of my own life. And so I ended up moving back home to Minnesota and just kind of had a much more, I think - a much less Hollywood existence. [...] And so everybody thinks that I disappeared, but really, I disappeared from their - you know, from their sight, but I was still obviously working on things that I thought were worthy. [...] was that I felt like I hadn't defined myself yet. And so there were lots of people that were kind of putting their definition of me out there into the world, and that was affecting my own idea of who I am. And I don't feel like that person anymore. So I have a pretty clear, clearly defined life now, and I am less afraid of other people's opinions. [...] But I find, at that time, if I would have heard that, I would have curled up into a ball, and I would have been - you know, I would have been so embarrassed by that. [...] I like to find things that are new and surprising and will challenge me",
+			"context": "NPR notes the transcript may differ from the audio. Summers' question states he turned down Superman twice (her framing, consistent with S01). He was 18 at his first film by his count. Verity: he says he shares a manager with Anne Hathaway, who produced the film.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S15",
+			"url": "https://thefilmstage.com/josh-hartnett-on-verity-and-working-with-warren-beatty-oliver-stone-and-sofia-coppola/",
+			"title": "Josh Hartnett on Verity and Working with Warren Beatty, Oliver Stone, and Sofia Coppola",
+			"speaker": "Josh Hartnett on The Film Stage's The B-Side podcast, interviewed by Dan Mecca (published transcript)",
+			"date": "2026-10-01",
+			"locator": "Transcript; passages on directors, Lucky Number Slevin as \"all friends\", the Oliver Stone film, and the Verity/Below release week.",
+			"excerpt": "Trying to get inside the heads of these directors and figure out what it is that they want and why they want it. [...] Lucky Number Slevin is one of my favorite films I’ve ever been a part of, because that was all friends. [...] and now we did this one, White Lies, had to do it. [...] The characters are so different, and the fact that they’re both coming out the same week feels simultaneously terrifying. It’s kind of a make-or-break week, this might be the last time we speak.",
+			"context": "Conversational; the \"last time we speak\" line is a joke. Source of the Oliver Stone film title (White Lies), which is time-sensitive and should be rechecked on release. Mentions the 2001 Vanity Fair piece and possible Batman regret without new detail.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S16",
+			"url": "https://sharpmagazine.com/2026/08/25/josh-hartnett-interview-2026-below/",
+			"title": "Josh Hartnett on Filming New Series \"Below\" in Newfoundland",
+			"speaker": "Josh Hartnett, interviewed for SHARP magazine (interviewer unnamed in the text; the site lists Marc Castaldo as author)",
+			"date": "2026-08-25",
+			"locator": "Q&A; answers on the accent, Calvin, the Oliver Stone film, being executive producer, and how he hopes his career is seen.",
+			"excerpt": "Only one member of the Penney family was from Newfoundland, so the rest of us had to learn the accent, and we were terrified of it because we wanted to get it right. [...] I had to make time to speak to my kids at night and spend time with my wife, but it was difficult to let the work go because I was always thinking about what Oliver wanted from me. [...] It was really relieving. It was great because I was able to insert my two cents after the work had been done. [...] That’s terrifying because they have complete control over the work you’ve done. Eventually you develop a thick skin about it and learn to let it go.",
+			"context": "Promotional Q&A ahead of TIFF. First time he served as executive producer on a TV miniseries (Below). Says his kids attend an arts school.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S17",
+			"url": "https://ca.news.yahoo.com/why-josh-hartnett-couldn-t-153012348.html",
+			"title": "Why Josh Hartnett couldn't resist Newfoundland and Netflix's Below",
+			"speaker": "Josh Hartnett, interviewed at TIFF by Mark Daniell (Postmedia, syndicated by Yahoo News Canada)",
+			"date": "2026-10-09",
+			"locator": "Feature; quotes on success, intending to act full-time, Newfoundland.",
+			"excerpt": "\"Success means being able to approach different projects with an openness and have the knowledge that it will be released in a good way,\" he said. [...] \"I didn't know what to expect when I first got into this, because I never really intended to be an actor full-time.",
+			"context": "Gives his age as 48 and confirms Below's Netflix date (Oct. 8) and Verity in theatres. The claim that at 18 he gave himself two months to succeed is the writer's paraphrase; not quoted.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S18",
+			"url": "https://www.cbc.ca/listen/cbc-podcasts/q-with-tom-power",
+			"title": "Josh Hartnett fell in love with Newfoundland while making Below (Q with Tom Power podcast)",
+			"speaker": "Josh Hartnett, interviewed by Tom Power (CBC Q), recorded during TIFF 2026 with Hartnett in CBC St. John's",
+			"date": "2026-10-08",
+			"locator": "Episode audio from the CBC Q podcast RSS feed (enclosure qpodcast-QArla2x3-20261007.mp3), about 24 minutes. Timestamps from the downloaded file, including pre-roll: \"fully intact as a family\" about 9:03; \"reticence\" about 10:28; Al Green about 12:30-13:00; \"work is never going to fulfill you\" about 13:18; \"trying to figure out what I was about\" about 15:59; \"take on that hate\" about 16:32; \"clam up\" about 17:53; Oliver Stone \"please him\" about 20:34 and \"insecurity\" about 20:54.",
+			"excerpt": "I want to make sure that we were, that we came out of this fully intact as a family. [...] And there's a reticence amongst people that live kind of off the beaten path outside of big cities to complain about their own situation. I don't want the character to come across like he is constantly talking about his trauma or his past. [...] my dad was with him around the Midwest. [...] It's not like he was Al Green's guy, but yeah, he played with Al Green. [...] No, I think that what I learned from my dad was that work is never going to fulfill you in the way the family does. [...] And I was a young guy who was still trying to figure out what I was about. [...] listen to what people have to say and not, not take on that hate or whatever and make it part of your personality. [...] it wasn't a priority in my family to achieve [...] I clam up around really fantastic filmmakers and writers. [...] I knew that he was messing with me, but I also like so badly wanted to please him [...] I think that just by playing off my own insecurity and not giving me anything, he achieved what he needed to achieve. [...] Well, first off, you need to have good people that you're working with.",
+			"context": "Machine transcript (whisper.cpp medium.en checked against small.en; the excerpts agree in wording, not always in punctuation or repeated words). Re-listen before printing any verbatim quote. Power's intro states he got a small-craft licence and learned to tie nets; Hartnett confirms both. Note \"press ring\" in the transcript is almost certainly \"brass ring\" (he uses the phrase in S07); quote only up to \"to achieve\". Correction to the record: he says his father played with Al Green's touring band around the Midwest, not as \"Al Green's guy\" (S03 and Wikipedia say guitarist for Al Green). Draft use (2026-10-22): quoted only where medium.en and small.en agree word for word: \"took on the dad role\", \"came out of this fully intact as a family\", \"constantly talking about his trauma\", \"work is never going to fulfill you in the way the family does\", \"playing off my own insecurity and not giving me anything\". The models differ on \"so badly wanted/want to please him\", so the draft paraphrases it (C113).",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S19",
+			"url": "https://www.hollywoodreporter.com/tv/tv-features/josh-hartnett-below-interview-widows-bay-car-crash-season-2-1236730830/",
+			"title": "Josh Hartnett on Finding (and Shedding) His 'Below' Accent, and the Car Accident That Nearly Derailed Production",
+			"speaker": "Josh Hartnett, interviewed by Tony Maglio (The Hollywood Reporter)",
+			"date": "2026-10-20",
+			"locator": "Q&A; Below viewership, Widow's Bay comparison, the September 2025 crash, the accent, season two, \"that box\".",
+			"excerpt": "In its first full week of availability, Below reeled in 21.2 million views [...] So yeah, I guess it was a little bit of a scary situation if we get caught in that flywheel of people’s opinion, that “Oh, it’s just that, it’s just that, it’s just that.” [...] Well, we didn’t really talk about it because I didn’t really want it to be the story. I just wanted the show to be the story. But we got hit — my driver and I — coming home from work at like one o’clock in the morning. Got T-boned by a police car running a red light. They hit us very fast. [...] I had to fight really hard to get out of that box when I was younger [...] but I don’t have a gauge for that because I’m not really in touch.",
+			"context": "Most current source (two days before this check). His account that the police car ran a red light is his allegation about an incident the Royal Newfoundland Constabulary said it was investigating (S28); no finding located. He says no season-two talks have happened.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S20",
+			"url": "https://www.youtube.com/watch?v=ZQoGIUaFeug",
+			"title": "Josh Hartnett reveals he suffers from anxiety. (red-carpet interview, British Independent Film Awards 2018)",
+			"speaker": "Josh Hartnett, interviewed on the BIFA 2018 red carpet by Lucy Jones (Official Pop Drop YouTube channel)",
+			"date": "2018-12-03",
+			"locator": "4:43 video uploaded 2018-12-03 (metadata via yt-dlp). Anxiety answer about 2:07-2:16; children \"unadulterated\" about 1:20; directors \"intellectual level\" about 3:30.",
+			"excerpt": "I get a lot of anxiety about these sort of events because I have to go up on stage and read [...] I want them to be as unadulterated as possible when they grow up. [...] when I meet somebody that I connect with on an intellectual level, I just want to go and do something with them",
+			"context": "Audio downloaded with yt-dlp (mweb client) and transcribed locally with whisper.cpp medium.en and small.en; both agree on the excerpts. The video title overstates what he says: he describes nerves about presenting on stage at award events (\"I am now just nervous about talking in front of people\"; \"I could never be a presenter\"), not a condition. Also says the family was then mostly in the US, in the UK part time. Draft use (2026-10-22): one quote, \"I get a lot of anxiety about these sort of events because I have to go up on stage and read\", on which both transcriptions agree; framed as stage nerves.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S21",
+			"url": "https://ktvz.com/?p=1181915",
+			"title": "Christopher Nolan says he 'had an initial conversation' with Josh Hartnett to be his Batman",
+			"speaker": "Christopher Nolan, on the Happy Sad Confused podcast, as reported by CNN (syndicated by KTVZ)",
+			"date": "2023-07-20",
+			"locator": "CNN wire story; Nolan quotes.",
+			"excerpt": "“It never got that far,” Nolan said on Thursday’s episode of the “Happy Sad Confused” podcast. [...] recalled him being “a young actor whose work I was very interested in, and I had an initial conversation with him.” [...] “He had read my brother’s script for ‘The Prestige’ at the time and was more interested in getting involved with that,” Nolan said of the 2006 magician thriller.",
+			"context": "Independent testimony from the director; the podcast audio itself was not opened. Supports Hartnett's 2015 clarification (S23) over the \"turned down Batman\" headline version (S24).",
+			"kind": "testimony",
+			"access": "opened"
+		},
+		{
+			"id": "S22",
+			"url": "https://thewrap.com/m-night-shyamalan-why-he-cast-josh-hartnett-trap",
+			"title": "M. Night Shyamalan Cast Josh Hartnett in 'Trap' Because He'd 'Risk Everything': 'Danger Is What Really Drives Him'",
+			"speaker": "M. Night Shyamalan, from a GQ video interview, as reported by Sharon Knolle (TheWrap)",
+			"date": "2024-08-10",
+			"locator": "TheWrap report of Shyamalan's GQ \"iconic movies\" video; the GQ video itself was not opened.",
+			"excerpt": "When he first met with Hartnett, they bonded over the fact that they both have three daughters and live outside of Hollywood. The director/producer was thrilled when the actor told him that “danger is what really drives him.” [...] “And I was like, ‘Let’s go, brother, you found the right home,’” Shyamalan said.",
+			"context": "Second-hand report of the director's account of what Hartnett told him; the phrase is Shyamalan's memory of Hartnett's words. Self-financed film: \"We'll all get paid if we're successful\". The Observer (S01) separately quotes Shyamalan's \"willing to risk everything\".",
+			"kind": "testimony",
+			"access": "opened"
+		},
+		{
+			"id": "S23",
+			"url": "https://comicbook.com/comicbook/news/josh-hartnett-clarifies-comments-on-turning-down-christopher-nol",
+			"title": "Josh Hartnett Clarifies Comments On Turning Down Christopher Nolan's Batman",
+			"speaker": "ComicBook.com, quoting Hartnett's explanation to USA Today",
+			"date": "2015-05",
+			"locator": "Page metadata shows 2017-09-06 (a migration date); the text says the Playboy interview ran \"last month\", i.e. spring 2015. Quotes attributed to USA Today; the USA Today original (S36) was not opened.",
+			"excerpt": "“I always regret being honest about certain things. The way they come out and get decontextualized makes it sound like a boast,” Hartnett explained to USA Today. [...] Warner Brothers wanted me to talk about Batman. I wanted to talk about The Prestige. [...] I don’t read my own press as much as possible. I just kind of — you have to be cautious about how you put certain things. [...] To set the record straight, in a nutshell, it was about relationships I wish I’d formed but because of my fear of the concept of being one thing in my career and one thing only, I decided I would just stay away from that one aspect.",
+			"context": "Secondary aggregation of a primary clarification; the wording is presumably USA Today's transcription. Use with attribution (\"he told USA Today in 2015\").",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S24",
+			"url": "https://english.elpais.com/usa/2021-05-26/why-josh-hartnett-left-hollywood-and-why-hes-back-i-decided-to-have-a-life.html",
+			"title": "Why Josh Hartnett left Hollywood, and why he's back: \"I decided to have a life\"",
+			"speaker": "Juan Sanguino (EL PAÍS English), compiling earlier interviews",
+			"date": "2021-05-26",
+			"locator": "Feature essay; paragraphs quoting a 2014 interview, the 2001 Vanity Fair piece, Hollywood Homicide press, Superman, the 2015 Playboy Batman remarks, and the Kerry campaign.",
+			"excerpt": "“I was on the cover of every magazine. I couldn’t really go anywhere. I was alone. I didn’t trust anyone,” he recalled in a 2014 interview. [...] Hartnett was hesitant to star in a blockbuster because he feared big-name directors wouldn’t take him seriously, but his father convinced him. Fame is temporary, he told his son, but regret is permanent. [...] “We had our pluses and minuses, he tested me and I hated him for a while. [...] “I’ve definitely said no to some of the wrong people,” he said about rejecting the lead role in Christopher Nolan’s Batman Begins. “I said no because I was tired and wanted to spend more time with my friends and family. That’s frowned upon in this industry… [...] “I was so focused on not being pigeonholed and so scared of being considered only one thing as an actor.” [...] He began studying acting at the State University of New York, but when he wrote a letter to the dean saying that the evaluation system stifled students’ creativity, he was expelled.",
+			"context": "Secondary and derivative: it does not name the outlets for several quotes (the 2014 interview is Details per S25; the Batman quotes are the 2015 Playboy interview, S32, per other coverage). The Harrison Ford quote has no traceable original and conflicts with his 2003 junket answer (S04); do not use. The father's \"Fame is temporary ... regret is permanent\" is a paraphrase with no source given. Says he spent 18 months in Minnesota \"without reading a single script\", dated his high-school girlfriend again and bought a house on Lake of the Isles; that he regretted campaigning for John Kerry at 25; and that he fired his manager around Penny Dreadful. Treat all as unverified leads.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S25",
+			"url": "https://popculture.com/celebrity/news/josh-hartnett-says-he-walked-away-from-hollywood-for-mental-health-reasons-in-rare-interview/",
+			"title": "Josh Hartnett Says He Walked Away From Hollywood for Mental Health Reasons",
+			"speaker": "PopCulture.com, quoting Hartnett on Sunrise (via Daily Mail) and his 2014 Details interview (via Us Weekly)",
+			"date": "2021-12-19",
+			"locator": "News roundup; the Details 2014 paragraph and the Sunrise quote.",
+			"excerpt": "“I couldn’t really go anywhere. I didn’t feel comfortable in my own skin. I was alone. I didn’t trust anyone.” [...] “Luckily, I think I hit onto it early on in my life,” he said, per the Daily Mail. “It’s about creating a good home life and being able to do things that are wild and wonderful like making films, which is such a privilege.”",
+			"context": "Third-hand for the Details quote (Details -> Us Weekly -> PopCulture). Its version includes \"I didn't feel comfortable in my own skin\", which S24's version omits. The headline's \"mental health\" framing is the outlet's; the Sunrise quote does not use that phrase as shown.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S26",
+			"url": "https://www.anothermag.com/design-living/12562/what-happened-to-josh-hartnett-actor-pearl-harbour",
+			"title": "What Happened to Josh Hartnett?",
+			"speaker": "Trey Taylor (AnOther), compiling earlier interviews",
+			"date": "2019-01-31",
+			"locator": "Essay; paragraphs quoting Rolling Stone 1999, his father before Pearl Harbor, the freeway/side-streets line, and HuffPost 2017.",
+			"excerpt": "“Well, they didn’t really kick me out; they just said I could leave if I wanted to,” a 20-year-old Hartnett explained to Rolling Stone in 1999. [...] Daniel Hartnett reminded his son what the budding actor said when he endeavored to leave Minnesota: “I’m gonna see how far I can ride this thing.” [...] “If you’re getting on the freeway, you get to the place you want to a lot quicker, but you don’t see the surrounding area,” he once said. “I’ve taken the side streets pretty much my whole life, so hopefully that’ll keep working out.” [...] He wanted to focus on more independent projects, citing he “didn’t feel like I was totally in control of my own destiny”.",
+			"context": "Arch secondary essay that repeats 1998-2002 tabloid sex rumours; do not use those. The freeway line is undated and unsourced (\"he once said\"). Originals not opened: Rolling Stone 1999 (S34), HuffPost 2017 (S35); the father anecdote presumably comes from the 2001 Vanity Fair piece (S33).",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S27",
+			"url": "https://en.wikipedia.org/wiki/Josh_Hartnett",
+			"title": "Josh Hartnett",
+			"speaker": "Wikipedia contributors",
+			"date": "2026-10-22",
+			"locator": "Article as retrieved 2026-10-22: lead, Early life, Career, Personal life.",
+			"excerpt": "Joshua Daniel Hartnett (born July 21, 1978) is an American actor. [...] Hartnett began a relationship with English actress Tamsin Egerton in 2012. [...] They have four children. [...] The couple married in November 2021.",
+			"context": "Reference only, for dates and filmography. Its claims that he \"declined the role of Bruce Wayne\" for all three Nolan films and that his father was a \"former guitarist for Al Green\" are contradicted or narrowed by S21 and S18. Relationship start: Wikipedia says 2012; he said in June 2024 he had lived \"with an English girl for 13 years\" (S08) and Hollywood Authentic says they met in 2011 on The Lovers; use \"since the early 2010s\".",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S28",
+			"url": "https://www.cbc.ca/news/canada/newfoundland-labrador/josh-hartnett-crash-1.7645959",
+			"title": "Actor Josh Hartnett sent to hospital after collision with police vehicle in St. John's",
+			"speaker": "Abby Cole (CBC News), citing a Royal Newfoundland Constabulary release and a production source",
+			"date": "2025-09-29",
+			"locator": "News report on the 25 September 2025 collision.",
+			"excerpt": "CBC News has learned that actor Josh Hartnett was a passenger in an SUV involved in a collision with a Royal Newfoundland Constabulary (RNC) patrol vehicle in St. John's on Thursday. [...] The two-vehicle crash happened at the intersection of New Cove Road and Elizabeth Avenue shortly before 1 a.m., wrote RNC communications officer Const. James Cadigan. [...] Hartnett was in the car with another 59-year-old man, and both were sent to hospital with what police believed to be minor injuries. [...] The RNC are now looking for any witnesses or footage from the collision to support their investigation.",
+			"context": "Independent reporting of the incident; does not assign fault.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S29",
+			"url": "https://www.foxnews.com/entertainment/josh-hartnett-says-hollywood-career-doesnt-amount-much-without-good-community-good-family",
+			"title": "Josh Hartnett says Hollywood career 'doesn't amount to much' without 'good community and good family'",
+			"speaker": "Lori A. Bashian (Fox News Digital), quoting Hartnett's 2024 Men's Health interview",
+			"date": "2024-07-30",
+			"locator": "News write-up; the Men's Health quotes. Opened via the .print URL. The Men's Health original (S37) was not opened.",
+			"excerpt": "Making art, generally, is very important to me. But without a good stable background of good community and good family, it doesn’t really amount to much. You need the first for the second to work really well. [...] \"Now that I have a family, when I go home at the end of the day, they don’t allow me the time to be self-indulgent and worry about what I did that day as a character, or stay in that mode,\"",
+			"context": "Second-hand quotes from Men's Health. Also states the couple keep their children's names and genders private.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S30",
+			"url": "https://deadline.com/2026/09/josh-hartnett-intimacy-coordinator-verity-anne-hathaway-dakota-johnson-1237143477/",
+			"title": "Josh Hartnett On Working With Intimacy Coordinator On The 'Verity' Set With Anne Hathaway & Dakota Johnson",
+			"speaker": "Deadline, quoting Hartnett on ABC News Live Prime",
+			"date": "2026-09-30",
+			"locator": "Short news item; ABC News Live quotes on Verity.",
+			"excerpt": "“We laughed a lot on this set and if we were ever to make another movie together it would have to be a comedy, but obviously this one is not so we had to keep a straight face occasionally.”",
+			"context": "Second-hand quotes from a TV interview; confirms Verity's cast and director (Michael Showalter) and his promotional register in late September 2026.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S31",
+			"url": "https://web.archive.org/web/2014*/details.com/*hartnett*",
+			"title": "Josh Hartnett interview (Details magazine, 2014)",
+			"speaker": "Josh Hartnett, interviewed by Details",
+			"date": "2014",
+			"locator": "Original not located; Details ceased publication in 2015. Quoted in S24 and S25 (via Us Weekly).",
+			"excerpt": "Not opened; known only through S24 and S25.",
+			"context": "Source of \"I didn't trust anyone\". Wording differs between the two secondary versions.",
+			"kind": "primary",
+			"access": "unavailable"
+		},
+		{
+			"id": "S32",
+			"url": "https://www.playboy.com/",
+			"title": "Josh Hartnett interview (Playboy, 2015)",
+			"speaker": "Josh Hartnett, interviewed by Playboy",
+			"date": "2015-04",
+			"locator": "Not located online; quoted in S24 and in April 2015 coverage (e.g. Just Jared, Time), none opened in full.",
+			"excerpt": "Not opened; Batman remarks known only through S24 and S23.",
+			"context": "Source of \"I've definitely said no to some of the wrong people\" and \"so scared of being considered only one thing\"; he said in S23 that the remarks were decontextualized.",
+			"kind": "primary",
+			"access": "unavailable"
+		},
+		{
+			"id": "S33",
+			"url": "https://archive.vanityfair.com/",
+			"title": "The Making of Josh Hartnett (Vanity Fair, 2001)",
+			"speaker": "Vanity Fair cover profile, with Jerry Bruckheimer, Ben Affleck and his manager quoted",
+			"date": "2001-07",
+			"locator": "Vanity Fair archive is subscriber-only; not opened. Quoted in S24 and S03.",
+			"excerpt": "Not opened.",
+			"context": "The piece Hartnett called \"awful\" and then \"a set-up-to-fail moment\" (S02). Secondary quotes include Michael Bay pushing him to smile and Bruckheimer's \"He has no idea what he's in for\" (S24); unverified.",
+			"kind": "secondary",
+			"access": "unavailable"
+		},
+		{
+			"id": "S34",
+			"url": "https://www.rollingstone.com/",
+			"title": "Josh Hartnett profile (Rolling Stone, 1999)",
+			"speaker": "Josh Hartnett, interviewed by Rolling Stone",
+			"date": "1999",
+			"locator": "Not located; quoted in S26.",
+			"excerpt": "Not opened.",
+			"context": "Source of \"they didn't really kick me out; they just said I could leave if I wanted to\".",
+			"kind": "primary",
+			"access": "unavailable"
+		},
+		{
+			"id": "S35",
+			"url": "https://www.huffpost.com/",
+			"title": "Josh Hartnett interview (HuffPost, 2017)",
+			"speaker": "Josh Hartnett, interviewed by HuffPost",
+			"date": "2017",
+			"locator": "Not located; quoted in S26 and in content-farm summaries.",
+			"excerpt": "Not opened.",
+			"context": "Source of \"didn't feel like I was totally in control of my own destiny\" and \"healthy perspective\" on an \"unhealthy environment\".",
+			"kind": "primary",
+			"access": "unavailable"
+		},
+		{
+			"id": "S36",
+			"url": "https://www.usatoday.com/",
+			"title": "Josh Hartnett interview (USA Today, 2015)",
+			"speaker": "Josh Hartnett, interviewed by USA Today",
+			"date": "2015-05",
+			"locator": "Not located; quoted in S23.",
+			"excerpt": "Not opened.",
+			"context": "The clarification of the Playboy Batman remarks.",
+			"kind": "primary",
+			"access": "unavailable"
+		},
+		{
+			"id": "S37",
+			"url": "https://www.menshealth.com/",
+			"title": "Josh Hartnett cover story (Men's Health, 2024)",
+			"speaker": "Josh Hartnett, interviewed by Men's Health",
+			"date": "2024-07",
+			"locator": "Not located; quoted in S29 and ET Online.",
+			"excerpt": "Not opened.",
+			"context": "Source of the \"good community and good family\" and \"self-indulgent\" quotes.",
+			"kind": "primary",
+			"access": "unavailable"
+		}
+	],
+	"claims": [
+		{
+			"id": "C10",
+			"claim": "When he was asked to play Superman in the early 2000s, his idea was a hero who \"has become almost afraid of himself and his own power\"; he described the pitch to the Guardian in October 2020.",
+			"passage": "I had this idea that because he lives in this world where he can't touch anything without it flying across the room, he has become almost afraid of himself and his own power. He doesn't know how to be Superman any more.",
+			"class": "self_report",
+			"source_ids": [
+				"S02",
+				"S07"
+			],
+			"inference": "What he found psychologically true in the most invincible character in fiction was fear. Gilbey (S02) reads it as \"a metaphor for what was happening at the time in his own life\"; that is the writer's interpretation.",
+			"alternative": "An actor's craft pitch, not a confession; single source; told in 2020 about the early 2000s.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C50",
+			"claim": "He says the studio \"didn't really want a fear-based character at the centre of their movie\", and he walked away from the part.",
+			"passage": "The studio \"didn't really want a fear-based character at the centre of their movie,\" he said. He walked away.",
+			"class": "self_report",
+			"source_ids": [
+				"S02"
+			],
+			"inference": "His account (S02, said \"wryly\" per Gilbey); \"Hartnett walked away\" is Gilbey's narration. The studio is not named in S02; MR PORTER (S07) reports Warner Bros approached him \"around 2002\" (\"the story goes\").",
+			"alternative": "Single source for the studio's reaction; the studio's side is not on record. The Superman refusal has several stated reasons (C11).",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C51",
+			"claim": "Gilbey read the Superman pitch as a metaphor for Hartnett's own situation at the time; the draft adds that Hartnett's own explanations point the same way.",
+			"passage": "Offered the most invulnerable hero in fiction, Hartnett went looking for the fear in him. Gilbey read the pitch as a metaphor for the actor's own life at the time, and Hartnett's own explanations point the same way.",
+			"class": "interpretation",
+			"source_ids": [
+				"S02",
+				"S14",
+				"S12"
+			],
+			"inference": "Gilbey (S02): the concept \"now feels like a metaphor for what was happening at the time in his own life\". The second half is the author's inference from his later accounts of being overwhelmed and defined by others (S14, S12).",
+			"alternative": "A craft pitch need not be autobiographical; Gilbey's reading is labeled as his.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C49",
+			"claim": "Across 2002-2026 his explanations for his biggest choices repeatedly run through fear, trust and protection from other people's control: he audits choices for fear (Pearl Harbor), imagines Superman as afraid of his power, tests people and institutions (the dean, advisers, Malarek), names distrust and intrusion as what drove the retreat, and now chooses work by trusted relationships and relief at regaining control.",
+			"passage": "Across 24 years of interviews, when he explains the biggest choices of his career, the same few words keep returning: afraid, trust, control, defined.",
+			"class": "interpretation",
+			"source_ids": [
+				"S02",
+				"S03",
+				"S04",
+				"S07",
+				"S12",
+				"S14",
+				"S01",
+				"S16",
+				"S23",
+				"S25"
+			],
+			"inference": "This is the profile's organizing inference for a Type 6 reading, held at medium confidence. It rests on his own words in at least eight interviews over 24 years and two outside observations (S03, S02).",
+			"alternative": "Fear language is common English and partly prompted by interviewers; real threats (stalking, C33; hostile press, C26; studio pressure, C25) supply situational causes; and the 2002 \"go along for the ride\" and recent stillness (C16, C46) fit Nine. See type_hypothesis.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C01",
+			"claim": "Josh Hartnett was born Joshua Daniel Hartnett on July 21, 1978, in Saint Paul, Minnesota (body; also birth_date and birth_place frontmatter and the age FAQ).",
+			"passage": "Hartnett was born on July 21, 1978, in Saint Paul, Minnesota.",
+			"class": "observed",
+			"source_ids": [
+				"S27",
+				"S04"
+			],
+			"inference": "Date and place from Wikipedia (S27) and the 2003 Philstar junket profile (S04). Consistent with his printed ages: 23 in April 2002 (S03), 26 in September 2004 (S05), 42 in October 2020 (S02), 46 in July 2024 (S01), 48 in October 2026 (S17, S19).",
+			"alternative": "None on the facts.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C52",
+			"claim": "Frontmatter birth_date.",
+			"passage": "1978-07-21",
+			"class": "observed",
+			"source_ids": [
+				"S27",
+				"S04"
+			],
+			"inference": "Full date given by Wikipedia (S27) and the 2003 Philstar profile (S04); consistent with every printed age (C01).",
+			"alternative": "None on the facts.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C53",
+			"claim": "Age FAQ: born July 21, 1978, in Saint Paul, so he turned 48 in July 2026.",
+			"passage": "He was born on July 21, 1978, in Saint Paul, Minnesota, so he turned 48 in July 2026.",
+			"class": "observed",
+			"source_ids": [
+				"S27",
+				"S04",
+				"S17"
+			],
+			"inference": "Arithmetic from the birth date; Postmedia (S17, October 2026) gives his age as 48.",
+			"alternative": "None on the facts.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C08",
+			"claim": "Between 1997 and 2002 he went from the TV series Cracker to Halloween H20, The Faculty, The Virgin Suicides, Pearl Harbor, Black Hawk Down, O and 40 Days and 40 Nights, and was marketed as the next Tom Cruise.",
+			"passage": "Between 1997 and 2002 he went from the TV series _Cracker_ to _Halloween H20_, _The Faculty_, _The Virgin Suicides_, _Pearl Harbor_, _Black Hawk Down_, _O_ and _40 Days and 40 Nights_, and the press billed him as \"the next Tom Cruise.\"",
+			"class": "observed",
+			"source_ids": [
+				"S27",
+				"S03",
+				"S02"
+			],
+			"inference": "Filmography from S27; the Observer standfirst in April 2002 (S03) billed him as \"the next Tom Cruise\", and he recalled in 2020 being compared to Cruise and Julia Roberts (S02).",
+			"alternative": "None on the facts.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C19",
+			"claim": "After Black Hawk Down and the 2001-2002 publicity, he moved back home to Minnesota and stepped away for about 15 to 18 months without quitting acting.",
+			"passage": "He moved home to Minnesota and spent about a year and a half away from the business.",
+			"class": "self_report",
+			"source_ids": [
+				"S05",
+				"S01",
+				"S14",
+				"S03",
+				"S06",
+				"S09"
+			],
+			"inference": "His contemporaneous number is 15 months (S05, 2004); S01 (2024, writer) and S24 say 18. He planned \"time off\" in April 2002 (S03). He repeatedly insists he never stopped working (S06 2014: \"joined a cult or something ... I was doing work I thought was worthy\"; S09; S14).",
+			"alternative": "Circumstance (burnout after four years of nonstop work, S03) explains the break as well as any type. Say about a year and a half, or more than a year, rather than a month count.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C54",
+			"claim": "In 2004 he gave the length of the break as 15 months; later accounts say 18.",
+			"passage": "that he had taken \"15 months out of the business.\" (Later accounts say 18.)",
+			"class": "self_report",
+			"source_ids": [
+				"S05",
+				"S01"
+			],
+			"inference": "S05 (2004, near-contemporaneous) is his own figure; S01 (McGurk, 2024) and S24 say 18 months.",
+			"alternative": "Memory and rounding; the draft says \"about a year and a half\" elsewhere and does not pick a month count.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C55",
+			"claim": "He also executive produced Netflix's Below (released October 8, 2026), his first time as an executive producer on a TV miniseries.",
+			"passage": "and Netflix's _Below_, which he also executive produced.",
+			"class": "observed",
+			"source_ids": [
+				"S16",
+				"S17",
+				"S19"
+			],
+			"inference": "SHARP (S16) asks about his first time as executive producer on a miniseries; Postmedia (S17) gives the Netflix date.",
+			"alternative": "None on the facts.",
+			"durability": "time_sensitive",
+			"review_trigger": "Recheck Below credits, any season-two decision and later releases at the next refresh or by 2027-10-22."
+		},
+		{
+			"id": "C44",
+			"claim": "In October 2026 he had two releases in one week: Verity (US release October 2, 2026), in which he plays Jeremy Crawford, and Netflix's six-episode Below (October 8, 2026).",
+			"passage": "In October 2026 he had two releases in one week: the thriller _Verity_",
+			"class": "observed",
+			"source_ids": [
+				"S14",
+				"S17",
+				"S19",
+				"S16",
+				"S30",
+				"S27"
+			],
+			"inference": "Current-accuracy check (S14, S17, S19, S30). Used only as orientation and for the release-week \"terrifying\" remark (C38).",
+			"alternative": "None on the facts.",
+			"durability": "time_sensitive",
+			"review_trigger": "Recheck viewing figures, any Below season-two decision and later releases at the next refresh or by 2027-10-22."
+		},
+		{
+			"id": "C56",
+			"claim": "Verity co-stars Anne Hathaway and Dakota Johnson.",
+			"passage": "opposite [Anne Hathaway](/personality-analysis/anne-hathaway) and [Dakota Johnson](/personality-analysis/dakota-johnson)",
+			"class": "observed",
+			"source_ids": [
+				"S30",
+				"S14"
+			],
+			"inference": "Deadline (S30) names Hathaway and Johnson in the cast; NPR (S14) plays scenes with both and he says Hathaway produced.",
+			"alternative": "None on the facts.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C57",
+			"claim": "In 2014 he said the media narrative that he had \"disappeared\" and \"joined a cult or something\" was \"crazy\".",
+			"passage": "\"The narrative that's been created over the last couple months is that I disappeared, and I was some hermit for the last few years and joined a cult or something,\" he told",
+			"class": "self_report",
+			"source_ids": [
+				"S06"
+			],
+			"inference": "AP interview (Lynn Elber) for Penny Dreadful, May 2014. He continues \"It's just crazy. ... I was doing work I thought was worthy.\"",
+			"alternative": "AP wire copy; one of many syndicated copies, not independent corroboration.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C58",
+			"claim": "Type answer: Hartnett is read as Enneagram Type 6 because his explanations of his biggest choices keep returning to fear, trust and who gets to define him.",
+			"passage": "he keeps returning to fear, trust and the question of who gets to define him.",
+			"class": "interpretation",
+			"source_ids": [
+				"S02",
+				"S04",
+				"S14",
+				"S12",
+				"S01",
+				"S23"
+			],
+			"inference": "Summary of the type hypothesis (see type_hypothesis and C49), held at medium confidence.",
+			"alternative": "Type 9 is the strongest rival (C16, C46); fear vocabulary is partly idiom (C38).",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C59",
+			"claim": "Type FAQ: Type 6, read at medium confidence from 24 years of interviews, with Type 9 the strongest alternative.",
+			"passage": "Josh Hartnett's personality type is Enneagram Type 6, the Loyalist, read at medium confidence from 24 years of interviews.",
+			"class": "interpretation",
+			"source_ids": [
+				"S02",
+				"S03",
+				"S14",
+				"S01"
+			],
+			"inference": "Mirrors the body answer and the type_hypothesis confidence.",
+			"alternative": "See type_hypothesis.against.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C60",
+			"claim": "The Six's inward doubt (treating one's own fear as a suspect) is the most distinctive thing in Hartnett's record.",
+			"passage": "That inward interrogation is the most distinctive thing in Hartnett's record.",
+			"class": "interpretation",
+			"source_ids": [
+				"S02",
+				"S04"
+			],
+			"inference": "Rests on his two \"I asked myself\" self-audits: Pearl Harbor (S02, C09) and Superman (S04, C11).",
+			"alternative": "Two self-reported reflections, one told 19 years later; a reflective person of any type may narrate decisions this way.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C05",
+			"claim": "A high-school football player, he turned to youth theatre after a knee injury ended football (he was cast as Huck Finn in Tom Sawyer), originally wanted to be a painter, and fell for film while working at the Saint Paul video store Mr Movies.",
+			"passage": "Hartnett played high-school football until a knee injury as a teenager pushed him toward youth theater, where he was cast as Huck Finn in _Tom Sawyer_. He had wanted to be a painter.",
+			"class": "self_report",
+			"source_ids": [
+				"S03",
+				"S04",
+				"S07",
+				"S01"
+			],
+			"inference": "Consistent across 2002, 2003, 2021 and 2024.",
+			"alternative": "The age of the injury conflicts: 16 (S03, S07) or 15 (S04). Say he was a teenager without giving an age.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C06",
+			"claim": "In 2003 he said Huck Finn was \"the person I've always wanted to be\": \"Somebody who's not always accepted by society but who finds his own ideals and isn't afraid to go out on a limb.\"",
+			"passage": "Yes, that's the person I've always wanted to be, somebody like Huck Finn. Somebody who's not always accepted by society but who finds his own ideals and isn't afraid to go out on a limb.",
+			"class": "self_report",
+			"source_ids": [
+				"S04"
+			],
+			"inference": "An early self-image as an outsider who proves he is not afraid. It fits a counterphobic Six reading (courage defined against fear) and also Four (outsider) or Seven (adventure).",
+			"alternative": "Junket round-table answer given to a dozen outlets; a flattering self-description, not behaviour.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C61",
+			"claim": "Interpretation: the ideal he named (Huck Finn) was defined against fear.",
+			"passage": "The ideal he named was defined against fear.",
+			"class": "interpretation",
+			"source_ids": [
+				"S04"
+			],
+			"inference": "His wording: someone who \"isn't afraid to go out on a limb\".",
+			"alternative": "A flattering junket self-description (C06); also fits Four (outsider) or Seven (adventure).",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C62",
+			"claim": "In Pearl Harbor he played the best friend of Ben Affleck's character.",
+			"passage": "playing the best friend of [Ben Affleck](/personality-analysis/ben-affleck)'s character.",
+			"class": "observed",
+			"source_ids": [
+				"S03",
+				"S27"
+			],
+			"inference": "S03: \"Pearl Harbour, in which he played Ben Affleck's best friend.\"",
+			"alternative": "None on the facts.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C63",
+			"claim": "Pearl Harbor's producers kept telling him the film would \"change his life\", Rachel Cooke reported in April 2002.",
+			"passage": "kept telling him the film would \"change his life.\"",
+			"class": "third_party",
+			"source_ids": [
+				"S03"
+			],
+			"inference": "Cooke: \"He was repeatedly told by Pearl Harbour's producers that the movie ... would 'change his life'.\"",
+			"alternative": "Cooke's report of what he was told; the producers are not quoted directly.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C09",
+			"claim": "He nearly turned down Pearl Harbor; in 2020 he said he asked himself whether he was \"just afraid\", took it because \"turning it down would've been based on fear\", and concluded \"Then it defined me, which means I was right to fear it.\" The heading \"Then it defined me\" quotes this passage.",
+			"passage": "At the same time, I asked myself: 'Am I just afraid that by doing Pearl Harbor, I'm going to enter a new category of film-making that I might not be ready for?' I ultimately chose to do it because turning it down would've been based on fear. Then it defined me, which means I was right to fear it.",
+			"class": "self_report",
+			"source_ids": [
+				"S02",
+				"S03",
+				"S24",
+				"S26"
+			],
+			"inference": "2002 (S03): \"Yeah, I nearly turned it down ... I didn't want to be famous.\" 2020 (S02): he asked himself \"Am I just afraid ...?\" and chose against the fear. The shape matters more than the decision: he audits his own motive for fear, acts against it, then reads the bad outcome as proof the fear was right. That is the counterphobic Six pattern; it is the single best piece of evidence for the type.",
+			"alternative": "Narrated 19 years later, polished by hindsight. Secondary sources (S24, S26) say his father talked him into it (\"I'm gonna see how far I can ride this thing\"); if so, deference to a trusted figure also played a part (also Six-consistent, but unverified). Many people would describe a big career leap as fear.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C64",
+			"claim": "In 2002 he told Cooke he nearly turned Pearl Harbor down because \"I didn't want to be famous\".",
+			"passage": "He told her: \"Yeah, I nearly turned it down.\" Then: \"It was a role a lot of people wanted but... I didn't want to be famous.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S03"
+			],
+			"inference": "Contemporaneous (April 2002). Cooke notes he \"clearly dislikes talking about the film\". The two quotes are adjacent apart from her narration.",
+			"alternative": "Said on a junket for a different film; \"Still, someone obviously persuaded him\" is Cooke's inference, and secondary sources say his father did (S24, S26, unverified).",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C65",
+			"claim": "The first half of his 2020 Pearl Harbor answer is a wish for things to stay as they were.",
+			"passage": "\"I didn't necessarily want things to change that much,\" he said. \"I was happy with the amount of fame I had and the types of roles I was getting.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S02"
+			],
+			"inference": "Kept to avoid quoting only the Six-friendly half of the answer; the two sentences are adjacent in S02 apart from \"he says\".",
+			"alternative": "This half is Nine-consistent (C66, C107).",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C66",
+			"claim": "Interpretation of the Pearl Harbor decision: he suspected his own reluctance, named it fear, overruled it, then read the outcome as proof the fear was right.",
+			"passage": "He suspected his own reluctance, named it as fear and refused to let fear make the call. Then, when the film did change his life, he counted the outcome as proof that the fear had been right.",
+			"class": "interpretation",
+			"source_ids": [
+				"S02",
+				"S03"
+			],
+			"inference": "Close reading of C09 and C64; the strongest single piece of evidence for the Six reading.",
+			"alternative": "Narrated 19 years later and polished by hindsight; many people describe a big leap as fear.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C67",
+			"claim": "Interpretation: the rest of the decade suggests he took the Pearl Harbor lesson seriously.",
+			"passage": "The rest of the decade suggests he took that lesson seriously.",
+			"class": "interpretation",
+			"source_ids": [
+				"S04",
+				"S07",
+				"S23"
+			],
+			"inference": "Supported by the later refusals and his 2015 statement that \"my fear of the concept of being one thing\" kept him from the Batman route (C48).",
+			"alternative": "Career strategy and fatigue explain the refusals too (C11, C19).",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C26",
+			"claim": "He called a 2001 Vanity Fair piece written on the Black Hawk Down set \"an awful piece\" that made people think he had been \"thrust on them\"; rereading it later he decided it \"wasn't so bad\" but called it \"a set-up-to-fail moment\".",
+			"passage": "A splashy Vanity Fair piece written on the set of _Black Hawk Down_ was, he told Gilbey, \"an awful piece.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S02",
+				"S24"
+			],
+			"inference": "Gilbey (S02) calls it \"a splashy Vanity Fair interview with him from the set of Ridley Scott's Black Hawk Down\". The piece itself (S33) was not opened.",
+			"alternative": "Any young star would dread such hype; the Vanity Fair piece itself (S33) was not opened, so its contents are known only secondhand.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C68",
+			"claim": "He said the piece made people resentful of him.",
+			"passage": "He wondered aloud whether it had even quoted him, then said: \"People got a chip on their shoulder about me after that. They genuinely thought I'd been thrust on them.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S02"
+			],
+			"inference": "S02: \"Was there even a quote from me in it, or was it just everyone talking about how hot I was? People got a chip on their shoulder...\" The question is paraphrased; the two quoted sentences are adjacent.",
+			"alternative": "His perception of how others reacted; no independent account of the backlash was opened.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C69",
+			"claim": "Rereading the piece he remembered feeling \"I'm not the tallest poppy yet\" and called it \"a set-up-to-fail moment\".",
+			"passage": "He remembered the feeling, though: \"I'm not the tallest poppy yet.\" He called it \"a set-up-to-fail moment.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S02"
+			],
+			"inference": "S02: \"I felt like: 'Oh my God! I'm not the tallest poppy yet – don't cut me down!' ... It was a set-up-to-fail moment.\" Quoted as two separate fragments because a sentence separates them.",
+			"alternative": "Any young star might dread hype; this is threat anticipation in his own words.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C70",
+			"claim": "Interpretation: he was bracing for attack before his fame had peaked.",
+			"passage": "He was bracing for the cut before he had finished rising.",
+			"class": "interpretation",
+			"source_ids": [
+				"S02"
+			],
+			"inference": "His own framing: \"it happened at a time when I wasn't that famous\" and \"don't cut me down!\" (S02).",
+			"alternative": "Hindsight from 2020.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C71",
+			"claim": "Interpretation: in his record fear more often looks like testing than timidity.",
+			"passage": "The fear in Hartnett's record rarely looks timid. More often it looks like a test.",
+			"class": "interpretation",
+			"source_ids": [
+				"S04",
+				"S03",
+				"S02"
+			],
+			"inference": "Introduces C07, C14, C23 and C24.",
+			"alternative": "Testing authority also fits Eight or Four; see type_hypothesis.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C72",
+			"claim": "He enrolled at SUNY Purchase's acting conservatory at 18 (1996).",
+			"passage": "At 18 he enrolled in the acting conservatory at SUNY Purchase.",
+			"class": "observed",
+			"source_ids": [
+				"S04",
+				"S27"
+			],
+			"inference": "Philstar (S04) dates his time at Purchase to 1996; born July 1978 (C01).",
+			"alternative": "None on the facts.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C73",
+			"claim": "He objected to the conservatory admitting more students than it would graduate and to its competitive structure, and wrote to the dean instead of an assigned essay.",
+			"passage": "He objected to the school admitting more students than it would graduate and thought its competitive structure \"stifled students' creativity,\" and instead of writing an assigned essay, he wrote to the people in charge.",
+			"class": "self_report",
+			"source_ids": [
+				"S04"
+			],
+			"inference": "Paraphrase of his 2003 account: \"Instead of writing an essay for one of my liberal arts classes, I decided to take the opportunity to speak my mind.\"",
+			"alternative": "A teenager's protest letter is common; Philstar's \"rebel streak\" is the writer's phrase.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C07",
+			"claim": "He left SUNY Purchase after about five months, after writing a letter to the dean and his teachers objecting to the programme's policy; in his words \"they asked me to leave\" (the draft avoids \"expelled\").",
+			"passage": "I wrote a letter to the dean and to my teachers about the policy. They didn't appreciate it, so they asked me to leave. I stayed in that school for only five months.",
+			"class": "disputed",
+			"source_ids": [
+				"S04",
+				"S26",
+				"S07",
+				"S24"
+			],
+			"inference": "His fullest account (2003, S04): \"They didn't appreciate it, so they asked me to leave. I stayed in that school for only five months.\" Rolling Stone 1999 via AnOther (S26): \"they didn't really kick me out; they just said I could leave if I wanted to\". Mr Porter (S07): \"College had lasted all of six months.\" El País (S24): \"expelled\". At 18 he challenged an institution's evaluation system in writing: an early instance of confronting authority on principle.",
+			"alternative": "Writers call it a \"rebel streak\" (S04); a teenager's protest essay is common. Avoid \"expelled\"; say he was asked to leave, in his words.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C74",
+			"claim": "At 23 he told Cooke his choices were \"completely down to me\".",
+			"passage": "he told Cooke that his choices were \"completely down to me.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S03"
+			],
+			"inference": "S03: \"It's completely down to me. These guys give me suggestions, obviously, but...\"",
+			"alternative": "Bravado for a journalist; see C14.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C14",
+			"claim": "In 2002 he described himself as contrarian toward his advisers: \"I'm one of those people who when someone says 'turn right,' go left.\"",
+			"passage": "but I'm one of those people who when someone says 'turn right,' go left. I don't know whether they've figured that out yet...",
+			"class": "self_report",
+			"source_ids": [
+				"S03"
+			],
+			"inference": "Reflexive testing of authority is a classic counterphobic Six marker; the same posture shows up in the Purchase letter (C07), the studio fights (C25) and testing Malarek (C23).",
+			"alternative": "Bravado for a journalist; also fits Eight or Four. He undercuts it with \"I don't know whether they've figured that out yet...\".",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C13",
+			"claim": "Interviewing him at 23 in April 2002, Rachel Cooke saw a young man \"so gauche and anxious\" who checked his own theory mid-answer (\"tell me if it's bullshit\") and added praise for Tom Cruise \"perhaps afraid that he might sound as if he is dissing Cruise\".",
+			"passage": "She described him walking in \"so gauche and anxious,\" floating a theory about fame and then checking it (\"tell me if it's bullshit\"), and adding praise for [Tom Cruise](/personality-analysis/tom-cruise), \"perhaps afraid that he might sound as if he is dissing Cruise.\"",
+			"class": "third_party",
+			"source_ids": [
+				"S03"
+			],
+			"inference": "A contemporaneous outside observation of anxious self-monitoring at the peak of his fame.",
+			"alternative": "Junket nerves at 23; \"perhaps afraid\" is Cooke's reading, and \"so gauche and anxious\" is cut from her longer \"so gauche and anxious and unbelievably handsome\". The 2003 writer (S04) saw \"a schoolboy taking an oral exam\", a similar outside impression not used in the draft.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C15",
+			"claim": "In 2002 he told Cooke he had \"a pretty good bullshit meter\" (in the same passage he said he respected people \"who recognise their boundaries as to how much of this stuff they can take\").",
+			"passage": "He told her he had \"a pretty good bullshit meter.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S03"
+			],
+			"inference": "Vigilance toward inauthenticity and an explicit boundary model for fame, at 23.",
+			"alternative": "Ordinary self-protective talk from a young star; also Five-consistent (boundaries).",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C23",
+			"claim": "Before playing journalist Victor Malarek in Target Number One (2020) he met him, he said, because \"I wanted to see if he was full of shit.\"",
+			"passage": "\"I wanted to see if he was full of shit,\" Hartnett said.",
+			"class": "self_report",
+			"source_ids": [
+				"S02"
+			],
+			"inference": "Testing a person's authenticity before committing: the Six's test-before-trust, stated plainly. He adds \"My interest in going to meet him was not to have flowers laid at my feet.\"",
+			"alternative": "Standard research for playing a real person, phrased as a joke.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C75",
+			"claim": "Target Number One was released in 2020; he met the real Malarek before playing him.",
+			"passage": "Before playing the journalist Victor Malarek in _Target Number One_ (2020), he met the real Malarek.",
+			"class": "observed",
+			"source_ids": [
+				"S02"
+			],
+			"inference": "S02: \"Naturally he met with the real Malarek before playing him\"; the film was streaming from 2 November 2020.",
+			"alternative": "None on the facts.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C24",
+			"claim": "Days after a 2020 Guardian interview, he phoned the journalist because he did not feel he had made his feelings about Harvey Weinstein clear, then said \"I wasn't surprised he was a creep ... But I guess I was surprised at the extent of his creepiness\"; he declined to claim harassment himself (\"That's not my experience and it's not my place to claim that\").",
+			"passage": "A few days after their Zoom interview, Hartnett phoned him back because he didn't feel he had made his feelings about Harvey Weinstein clear.",
+			"class": "third_party",
+			"source_ids": [
+				"S02"
+			],
+			"inference": "An observed behaviour reported by Ryan Gilbey (\"He is nothing if not conscientious\"): unprompted worry that his words would land wrongly, followed by correction. In 2015 he said the same about press in general: \"you have to be cautious about how you put certain things\" (S23). Six (or One) conscientiousness; not a Nine's letting it slide.",
+			"alternative": "Prudence on a sensitive subject, possibly advised by a publicist. Weinstein is a convicted sex offender; keep Hartnett's words attributed and do not imply he alleges abuse.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C76",
+			"claim": "On the follow-up call he said he was not surprised Weinstein was \"a creep\" but was surprised at \"the extent of his creepiness\".",
+			"passage": "\"I wasn't surprised he was a creep,\" he said. \"But I guess I was surprised at the extent of his creepiness.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S02"
+			],
+			"inference": "Adjacent in S02 apart from \"he says\". Weinstein is a convicted sex offender; the draft keeps Hartnett's words and does not imply he alleges abuse.",
+			"alternative": "Prudence on a sensitive subject; possibly advised.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C77",
+			"claim": "Asked whether he had been harassed, he began an answer, changed tack and declined to claim it.",
+			"passage": "he started an answer, changed tack and declined to claim it: \"That's not my experience and it's not my place to claim that.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S02"
+			],
+			"inference": "S02: he begins \"The last thing I want to do is come across like ... I've been in situations where I've been uncomfortable with my boss's behaviour but I'm not gonna say ...\" and \"He changes tack.\" The \"boss\" line is ambiguous about whom it concerns and is not quoted, to avoid implying an allegation.",
+			"alternative": "The omitted half could be read as hinting at discomfort; the draft reports his hesitation without importing an implication.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C78",
+			"claim": "Gilbey wrote \"He is nothing if not conscientious.\"",
+			"passage": "\"He is nothing if not conscientious,\" Gilbey wrote.",
+			"class": "third_party",
+			"source_ids": [
+				"S02"
+			],
+			"inference": "The writer's judgment, introducing the unprompted follow-up call.",
+			"alternative": "One journalist's impression.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C79",
+			"claim": "In 2015 his Playboy remarks about Batman were reported as a boast, and he told USA Today he avoids his own press and that \"you have to be cautious about how you put certain things\".",
+			"passage": "that he avoids reading his own press and that \"you have to be cautious about how you put certain things.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S23",
+				"S36"
+			],
+			"inference": "ComicBook.com (S23) quoting USA Today: \"I don't read my own press as much as possible. I just kind of — you have to be cautious about how you put certain things.\" The USA Today original (S36) was not opened.",
+			"alternative": "Secondhand transcription; ordinary press caution.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C80",
+			"claim": "The 2015 Playboy remarks about Batman were reported as a boast.",
+			"passage": "after remarks he made to Playboy about Batman were reported as a boast",
+			"class": "third_party",
+			"source_ids": [
+				"S23",
+				"S32"
+			],
+			"inference": "S23: comments were read \"as though the 36-year-old actor was boasting\"; Hartnett: \"makes it sound like a boast\". Playboy original (S32) not opened.",
+			"alternative": "Secondary aggregation.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C81",
+			"claim": "Interpretation: he tests people before trusting them and checks and repairs his own words.",
+			"passage": "He tests the people he is about to trust. He also checks his own words for how they will land and goes back to repair them.",
+			"class": "interpretation",
+			"source_ids": [
+				"S02",
+				"S23",
+				"S03"
+			],
+			"inference": "Summarizes C23, C24 and C79.",
+			"alternative": "Conscientiousness also fits One; see type_hypothesis.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C82",
+			"claim": "In 2024 he told CBC's Q that after Pearl Harbor and Black Hawk Down \"it felt oddly stifling\".",
+			"passage": "\"After Pearl Harbor came out and Black Hawk Down was coming out, it felt oddly stifling,\" he told",
+			"class": "self_report",
+			"source_ids": [
+				"S10",
+				"S11"
+			],
+			"inference": "CBC's edited text (S10) of the Q interview (S11, about 17:16).",
+			"alternative": "S10 is not independent of S11.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C30",
+			"claim": "In October 2026 he told NPR that after Black Hawk Down, on magazine covers and chased by paparazzi, \"I didn't want to feel like I wasn't in any control of my own life.\"",
+			"passage": "\"and I didn't want to feel like I wasn't in any control of my own life.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S14"
+			],
+			"inference": "Control sought as relief from feeling thrown into the centre of fame. Related 2024-2026 statements (S12 \"dictating\", S16 \"really relieving\") are inventoried as C99 and C100.",
+			"alternative": "Every actor resents losing the edit; \"terrifying\" is partly idiom.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C83",
+			"claim": "In 2004 he described the break as a period of wondering \"Who am I?\"",
+			"passage": "\"I was like a lot of people in their 20s, wondering, 'Who am I? What do I want to be when I grow up?'\"",
+			"class": "self_report",
+			"source_ids": [
+				"S05"
+			],
+			"inference": "Near-contemporaneous (September 2004).",
+			"alternative": "Common young-adult reflection; junket copy.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C84",
+			"claim": "He had considered quitting acting for school or painting and might \"hermit myself away\".",
+			"passage": "He had considered quitting for school or painting: \"if I had the means I might just hermit myself away and do that for a while.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S05"
+			],
+			"inference": "S05: \"I thought if I did give up acting I'd go back to school for a while and find something else to do. I always wanted to be a painter and if I had the means I might just hermit myself away...\"",
+			"alternative": "Five-like withdrawal language; stated as a hypothetical.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C85",
+			"claim": "Interpretation: his later explanations gather around other people defining him before he could define himself.",
+			"passage": "Twenty years on, his explanations gather around one idea. Other people were defining him before he could define himself.",
+			"class": "interpretation",
+			"source_ids": [
+				"S14",
+				"S12",
+				"S08",
+				"S09"
+			],
+			"inference": "Repeated in 2024-2026 to several outlets (C29, C86, S08, S09).",
+			"alternative": "Prompted by interviewers; a standard developmental story about early fame.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C29",
+			"claim": "In October 2026 he told NPR that he stepped away partly because \"I felt like I hadn't defined myself yet\" and other people's definitions of him were \"affecting my own idea of who I am\".",
+			"passage": "I felt like I hadn't defined myself yet. And so there were lots of people that were kind of putting their definition of me out there into the world, and that was affecting my own idea of who I am.",
+			"class": "self_report",
+			"source_ids": [
+				"S14",
+				"S12",
+				"S08",
+				"S09"
+			],
+			"inference": "The central self-explanation, repeated to six outlets. Note the vocabulary: protection, intrusion, \"afraid of other people's opinions\", \"you're forced to either fight against or go along with people's perceptions\" (S08). He frames the problem as threat to an unformed self, not as a wish to be unique (against Four) or as numbness (against Nine).",
+			"alternative": "A standard developmental story about early fame, prompted by interviewers; Four (identity) and Nine (losing self in others' agendas) both read the same words differently. The \"frontal lobe\" line (S09) shows he partly explains it by age, not type.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C86",
+			"claim": "He told Hollywood Authentic in 2024 of \"a lot of intrusion\" and not knowing \"how to protect myself\".",
+			"passage": "describing \"a lot of intrusion into my life at that point\" and adding, \"I didn't know how to protect myself exactly at that point because I was young.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S12"
+			],
+			"inference": "Adjacent clauses in one S12 sentence: \"there was a lot of intrusion into my life at that point because I was a young actor, and people were interested in my life, and I didn't know how to protect myself...\"",
+			"alternative": "Access piece in a celebrity-friendly magazine.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C87",
+			"claim": "Looking back, he called the step back \"self-protective, but ... also much more positive than that\".",
+			"passage": "Looking back, he said, \"it was self-protective, but it was also much more positive than that.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S12"
+			],
+			"inference": "Includes his own positive reframing, not only the protective half.",
+			"alternative": "None beyond self-report limits.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C21",
+			"claim": "Quoted from a 2014 Details interview about the peak years: \"I was on the cover of every magazine ... I couldn't really go anywhere. I didn't feel comfortable in my own skin. I was alone. I didn't trust anyone.\"",
+			"passage": "put the peak years more bleakly: \"I was alone. I didn't trust anyone.\" The Details original could not be checked for this analysis, so treat the wording as reported.",
+			"class": "self_report",
+			"source_ids": [
+				"S25",
+				"S24"
+			],
+			"inference": "If accurate, he names isolation and distrust at the peak. The quoted span \"I was alone. I didn't trust anyone.\" appears in both secondary versions (S25, S24).",
+			"alternative": "Secondhand only (Details via Us Weekly via PopCulture, S25; El País, S24, omits \"I didn't feel comfortable in my own skin\"); the Details original (S31) was not opened. Fame, stalking (C33) and press hostility (C26) are sufficient situational causes. Quote only with attribution to Us Weekly's report of the Details interview, or paraphrase.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C88",
+			"claim": "On NPR in 2026 Summers read him a line from Cooke's 2002 profile; he said he now has a clearly defined life and is \"less afraid of other people's opinions\", and that at the time he \"would have curled up into a ball\".",
+			"passage": "Hartnett said he now has \"a pretty clear, clearly defined life\" and that \"I am less afraid of other people's opinions.\" At the time, he added, \"I would have curled up into a ball.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S14"
+			],
+			"inference": "S14 order: \"So I have a pretty clear, clearly defined life now, and I am less afraid of other people's opinions. But I find, at that time, if I would have heard that, I would have curled up into a ball\". He also said he would have been \"thrilled that people cared\" (not quoted).",
+			"alternative": "NPR notes the transcript may differ from the audio.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C89",
+			"claim": "Summers read him a line from the 2002 Observer profile.",
+			"passage": "On NPR, Summers read him a swooning line from Cooke's 2002 profile.",
+			"class": "observed",
+			"source_ids": [
+				"S14"
+			],
+			"inference": "NPR transcript: the \"date with a boy you know is miles - continents - out of your league\" line.",
+			"alternative": "None on the facts.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C11",
+			"claim": "He turned down Superman in the early 2000s; in 2003 he said he asked himself \"Am I going to feel fulfilled doing this?\" and \"The answer was no\", and his stated reasons later shifted (C90, C91, C92).",
+			"passage": "he described another self-audit: \"I asked myself, 'Am I going to feel fulfilled doing this?' The answer was no.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S04",
+				"S05",
+				"S07",
+				"S01",
+				"S14"
+			],
+			"inference": "Turned down \"twice\" per S01 and NPR (S14). The constant beneath the changing reasons is refusal of a long studio commitment that would define him. The \"$100m\" fee is \"industry gossip\" (S07); do not state it.",
+			"alternative": "A shrewd career call explains it; so does a Seven's fear of being trapped or a Nine's fear of being swallowed. The reasons are partly retrofitted to each interviewer.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C90",
+			"claim": "In 2003 his Superman reason was fulfilment and \"putting on the tights just didn't make sense\".",
+			"passage": "In 2003 it was fulfillment and \"putting on the tights just didn't make sense.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S04"
+			],
+			"inference": "Same 2003 answer as C11.",
+			"alternative": "Junket round table.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C91",
+			"claim": "In 2021 he told MR PORTER \"Superman was a risk.\"",
+			"passage": "that \"Superman was a risk.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S07"
+			],
+			"inference": "S07: \"At the time, it was so obvious to me to turn it down ... And Superman was a risk.\" The $100m fee is industry gossip and is not used.",
+			"alternative": "Retrospective reason.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C92",
+			"claim": "In 2024 he told the Observer \"I just didn't want my life to be swallowed up by my work.\"",
+			"passage": "\"I just didn't want my life to be swallowed up by my work.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S01"
+			],
+			"inference": "S01 places it after the 18-month stop and Superman \"twice\" (writer's framing).",
+			"alternative": "Retrospective; Nine-consistent wording (being swallowed).",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C93",
+			"claim": "FAQ: he turned down Superman in the early 2000s, with reasons ranging from fulfilment to risk to not wanting his life swallowed by work.",
+			"passage": "He turned down Superman in the early 2000s; his stated reasons have ranged from fulfillment to risk to not wanting his life swallowed by work.",
+			"class": "self_report",
+			"source_ids": [
+				"S04",
+				"S07",
+				"S01",
+				"S05"
+			],
+			"inference": "Summary of C11, C90-C92.",
+			"alternative": "See C11.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C12",
+			"claim": "The story that he turned down Batman is wrong: Christopher Nolan said in 2023 \"It never got that far\", and Hartnett said in 2015 that Warner Bros. wanted to talk about Batman while he wanted to talk about The Prestige.",
+			"passage": "Batman is often added to the list, but he never turned it down.",
+			"class": "disputed",
+			"source_ids": [
+				"S24",
+				"S23",
+				"S21",
+				"S02",
+				"S01",
+				"S12"
+			],
+			"inference": "Nolan (S21) and Gilbey (S02, \"a conversation with Christopher Nolan\") agree there was no offer. Hartnett's own versions consistently name fear of typecasting (\"my fear of the concept of being one thing in my career and one thing only\", S23). S01 and S12 misplace the conversation at The Dark Knight; Nolan ties it to his first Batman casting (Batman Begins, 2005).",
+			"alternative": "Do not write that he turned down Batman. Say he met Nolan about it and steered toward The Prestige, which Nolan cast with Christian Bale. The Playboy quotes are secondhand (S24); the Playboy original (S32) was not opened.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C94",
+			"claim": "Nolan, via CNN in 2023: \"It never got that far\"; he had \"an initial conversation\" and Hartnett was more interested in The Prestige.",
+			"passage": "that \"It never got that far.\" Nolan had \"an initial conversation\" with him, and Hartnett \"had read my brother's script for 'The Prestige' at the time and was more interested in getting involved with that.\"",
+			"class": "third_party",
+			"source_ids": [
+				"S21"
+			],
+			"inference": "CNN wire report of Nolan on Happy Sad Confused (S21); podcast audio not opened.",
+			"alternative": "Secondhand transcription of the director's words.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C95",
+			"claim": "Hartnett, 2015: \"Warner Brothers wanted me to talk about Batman. I wanted to talk about The Prestige.\"",
+			"passage": "Hartnett's 2015 version: \"Warner Brothers wanted me to talk about Batman. I wanted to talk about The Prestige.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S23",
+				"S36"
+			],
+			"inference": "ComicBook.com quoting USA Today.",
+			"alternative": "Secondhand; USA Today original not opened.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C96",
+			"claim": "The Prestige role went to Christian Bale, whom Nolan had cast as Batman.",
+			"passage": "The Prestige role went to [Christian Bale](/personality-analysis/christian-bale), whom Nolan had cast as Batman.",
+			"class": "observed",
+			"source_ids": [
+				"S01",
+				"S27"
+			],
+			"inference": "S01: \"The role eventually went to Christian Bale, who Nolan had cast as Batman.\"",
+			"alternative": "None on the facts.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C97",
+			"claim": "FAQ Batman answer.",
+			"passage": "Christopher Nolan has said \"It never got that far\": the two had an initial conversation, and Hartnett was more interested in The Prestige, a role that went to Christian Bale.",
+			"class": "third_party",
+			"source_ids": [
+				"S21",
+				"S01"
+			],
+			"inference": "Mirrors C94 and C96.",
+			"alternative": "See C12.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C48",
+			"claim": "In 2015 he told USA Today that \"because of my fear of the concept of being one thing in my career and one thing only, I decided I would just stay away from that one aspect.\"",
+			"passage": "because of my fear of the concept of being one thing in my career and one thing only, I decided I would just stay away from that one aspect.",
+			"class": "self_report",
+			"source_ids": [
+				"S23",
+				"S36"
+			],
+			"inference": "He names fear of being fixed in one identity as the driver of avoiding the franchise route. The 2015 Playboy line \"so scared of being considered only one thing\" (S24) is consistent but not quoted in the draft.",
+			"alternative": "Secondhand from 2015 press via ComicBook.com (S23); the USA Today original (S36) was not opened. Also fits a Seven's fear of being trapped.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C25",
+			"claim": "He had \"a sort of antagonistic relationship\" with Dimension (the Weinstein brothers' Miramax horror arm, which produced Halloween H20 and The Faculty) over contract extensions that \"guaranteed me to be a part of, like, five more or something\".",
+			"passage": "He told Gilbey he had \"a sort of antagonistic relationship\" with Dimension, the Weinstein brothers' horror label behind _Halloween H20_ and _The Faculty_, because his contract for those films guaranteed him a part in \"like, five more or something.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S02"
+			],
+			"inference": "Counts against a conflict-avoidant Nine: he names antagonism and its cost. The 2021 chewing-gum anecdote (S07) shows the control dispute in miniature.",
+			"alternative": "He frames it as non-participation rather than rebellion (\"I wasn't doing it to be recalcitrant or a rebel\"), which a Nine's passive resistance would also produce.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C98",
+			"claim": "The chewing-gum anecdote: a request to chew gum in a scene was debated for days and refused.",
+			"passage": "\"I wanted my character to chew gum in a scene. It was run up so many flagpoles and it was the subject of conversation for days and in the end, they decided just no.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S07"
+			],
+			"inference": "S07, offered as \"an anecdotal answer\" to why he did not want to be a huge star; he adds \"They had an idea of what they thought they could sell with me in it\".",
+			"alternative": "Undated, unnamed film; his account only.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C99",
+			"claim": "Studios saw him as having \"bitten the hand that fed me\"; he \"burned my bridges at the studios because I wasn't participating\".",
+			"passage": "\"They looked at me as someone who had bitten the hand that fed me,\" he told Gilbey, and he said he had \"burned my bridges at the studios because I wasn't participating.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S02"
+			],
+			"inference": "Not adjacent in S02 (sentences between), so written as two statements.",
+			"alternative": "He frames it as non-participation, which a Nine could also produce (C106).",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C100",
+			"claim": "In 2026 he told The Hollywood Reporter \"I had to fight really hard to get out of that box when I was younger.\"",
+			"passage": "\"I had to fight really hard to get out of that box when I was younger.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S19"
+			],
+			"inference": "Fight language about typecasting (October 2026).",
+			"alternative": "Retrospective; standard comeback narrative.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C101",
+			"claim": "Interpretation: after Pearl Harbor proved a fear right, he stopped overruling that fear, which was of being fixed by others' idea of him.",
+			"passage": "Read in order, the choices suggest that once _Pearl Harbor_ had proved a fear right, he stopped overruling it. The fear was specific: being fixed in place by other people's idea of him.",
+			"class": "interpretation",
+			"source_ids": [
+				"S02",
+				"S04",
+				"S23",
+				"S12"
+			],
+			"inference": "Chronology: Pearl Harbor (2001), Superman refusal (by 2003), Batman/Prestige meeting (c. 2004), \"fear of the concept of being one thing\" (2015).",
+			"alternative": "The Superman refusal could equally be shrewd career judgment or fatigue (C11, C19); see type_hypothesis.unexplained (3).",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C102",
+			"claim": "Interpretation: the later Hartnett answers the same fear differently.",
+			"passage": "The later Hartnett has a different answer to the same fear.",
+			"class": "interpretation",
+			"source_ids": [
+				"S01",
+				"S18"
+			],
+			"inference": "Introduces C32, C31 and the trust rule.",
+			"alternative": "Parenthood and age explain the shift as well (C43).",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C32",
+			"claim": "Christopher Nolan, whom he had met two decades earlier, cast him as Ernest Lawrence in Oppenheimer (2023); Hartnett said \"the implication was: 'I'd better take it.' You only get so many opportunities with Chris Nolan\" and \"I recognise the missed opportunity to work with a guy like Chris.\"",
+			"passage": "When Nolan called him two decades later for _Oppenheimer_, in which he played the physicist Ernest Lawrence, \"the implication was: 'I'd better take it.' You only get so many opportunities with Chris Nolan.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S01",
+				"S21",
+				"S27"
+			],
+			"inference": "Shows the recalibration from avoiding typecasting to valuing trusted relationships (C31).",
+			"alternative": "None on the facts.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C31",
+			"claim": "In 2024 he said that rather than curating his career, \"It's about finding people who you really trust.\"",
+			"passage": "I recognise the missed opportunity to work with a guy like Chris. And I've figured out that as much as you're worried about curating your career to things you're interested in, I don't believe that's the most important thing any more. It's about finding people who you really trust.",
+			"class": "self_report",
+			"source_ids": [
+				"S01"
+			],
+			"inference": "McGurk (S01) calls it \"his new rule: work with people you trust\". He reorganized his career around trusted relationships after the Batman-Prestige episode, which he describes as a missed relationship (S23).",
+			"alternative": "\"It's all about directors\" (his own phrase in 2024, S09) is common actor talk and good career strategy; Five (intellectual connection) and Nine (harmony) also fit.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C103",
+			"claim": "McGurk calls it \"his new rule: work with people you trust.\"",
+			"passage": "McGurk called it \"his new rule: work with people you trust.\"",
+			"class": "third_party",
+			"source_ids": [
+				"S01"
+			],
+			"inference": "Writer's summary.",
+			"alternative": "Writer framing.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C104",
+			"claim": "He calls Lucky Number Slevin (2006) a favourite \"because that was all friends\".",
+			"passage": "\"is one of my favorite films I've ever been a part of, because that was all friends.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S15"
+			],
+			"inference": "S15: written by his friend Jason Smilovic, produced by friends, directed by Paul McGuigan.",
+			"alternative": "Conversational podcast.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C27",
+			"claim": "In 2021 he said people \"thought I was crazy for not chasing that brass ring a little harder\" but he \"felt completely comfortable being with the people I knew liked me before I was making films\".",
+			"passage": "In 2021 he said that while people \"thought I was crazy for not chasing that brass ring a little harder,\" he \"felt completely comfortable being with the people I knew liked me before I was making films.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S07"
+			],
+			"inference": "He chose the security of proven, long-standing loyalties over status. The phrase \"liked me before\" is about trustworthiness of affection, which fits Six; belonging and comfort also fit Nine.",
+			"alternative": "A values statement any family-minded person might make; writer frames it as \"honesty and integrity\".",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C42",
+			"claim": "He lives in the Hampshire countryside with his wife, the English actor Tamsin Egerton (married November 2021), and their four children.",
+			"passage": "He lives in the Hampshire countryside with his wife, the English actor Tamsin Egerton, whom he married in November 2021, and their four children.",
+			"class": "self_report",
+			"source_ids": [
+				"S01",
+				"S08",
+				"S12",
+				"S27"
+			],
+			"inference": "Current settled life chosen for privacy and family. \"I like being the outlier\" and \"The goats are more my vibe\" (S08) are his jokes about being the only American in an English household.",
+			"alternative": "Family location follows his wife's parents and the pandemic (S02, S12), not only his temperament. Do not name or gender the children (kept private, S29).",
+			"durability": "time_sensitive",
+			"review_trigger": "Update if residence, family size, marital status or visa arrangement changes; recheck at each refresh."
+		},
+		{
+			"id": "C105",
+			"claim": "FAQ: together since the early 2010s, married November 2021, four children.",
+			"passage": "They have been together since the early 2010s, married in November 2021 and have four children.",
+			"class": "observed",
+			"source_ids": [
+				"S27",
+				"S08",
+				"S12",
+				"S01"
+			],
+			"inference": "Wikipedia says 2012; S08 (June 2024) \"13 years\"; S12 says they met in 2011, hence \"early 2010s\".",
+			"alternative": "None on the facts; do not name or gender the children.",
+			"durability": "time_sensitive",
+			"review_trigger": "Update if marital status or family size changes; recheck at each refresh."
+		},
+		{
+			"id": "C106",
+			"claim": "FAQ: the family lives in the Hampshire countryside.",
+			"passage": "The family lives in the Hampshire countryside in England.",
+			"class": "observed",
+			"source_ids": [
+				"S01",
+				"S12"
+			],
+			"inference": "S01 (July 2024).",
+			"alternative": "None.",
+			"durability": "time_sensitive",
+			"review_trigger": "Update if residence changes; recheck at each refresh."
+		},
+		{
+			"id": "C107",
+			"claim": "In the village, he says, \"nobody cares\" about his career.",
+			"passage": "In the village, he told McGurk, \"nobody cares\" about his career.",
+			"class": "self_report",
+			"source_ids": [
+				"S01"
+			],
+			"inference": "S01: unlike New York or LA, \"where people only want to talk about your career\", here \"nobody cares\".",
+			"alternative": "None.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C43",
+			"claim": "He says he returned to studio work because \"we had a couple of kids, so I wanted to establish something that was a little bit more solid.\"",
+			"passage": "because \"we had a couple of kids, so I wanted to establish something that was a little bit more solid.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S08",
+				"S07",
+				"S01",
+				"S27",
+				"S09"
+			],
+			"inference": "A security motive for the comeback in his own words.",
+			"alternative": "Parenthood and money are sufficient explanations; the Six reading should not lean on this.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C108",
+			"claim": "By his forties he was back in big studio films, including Oppenheimer (2023) and Trap (2024).",
+			"passage": "By his forties he was back in big studio films, including Christopher Nolan's _Oppenheimer_ (2023) and M. Night Shyamalan's _Trap_ (2024).",
+			"class": "observed",
+			"source_ids": [
+				"S27",
+				"S01"
+			],
+			"inference": "Filmography; he turned 45 in 2023.",
+			"alternative": "None on the facts.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C109",
+			"claim": "Interpretation: the fear is now handled through people and a say in the outcome.",
+			"passage": "The fear has not gone. It now gets handled through people and through a say in the outcome.",
+			"class": "interpretation",
+			"source_ids": [
+				"S16",
+				"S17",
+				"S18",
+				"S01"
+			],
+			"inference": "Introduces C22, C110-C112.",
+			"alternative": "Professional incentive explains wanting a say (C22).",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C22",
+			"claim": "In October 2026 he defined success as approaching projects \"with an openness and have the knowledge that it will be released in a good way\".",
+			"passage": "means approaching projects \"with an openness and have the knowledge that it will be released in a good way.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S17"
+			],
+			"inference": "A security criterion: assurance that the system behind a project will hold. He took Penny Dreadful (2014) partly for a similar guarantee (S06, writer's paraphrase; not used).",
+			"alternative": "Any actor burned by unreleased independent films wants distribution; professional incentive. The 2014 \"guarantee\" sentence is the AP writer's paraphrase.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C110",
+			"claim": "Being executive producer on Below was \"really relieving\".",
+			"passage": "Being an executive producer on _Below_ was \"really relieving,\" he told",
+			"class": "self_report",
+			"source_ids": [
+				"S16"
+			],
+			"inference": "SHARP Q&A, August 2026.",
+			"alternative": "Every actor values a say in the edit.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C111",
+			"claim": "Otherwise \"That's terrifying because they have complete control over the work you've done.\"",
+			"passage": "\"That's terrifying because they have complete control over the work you've done.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S16"
+			],
+			"inference": "S16 context: on most jobs once you wrap it is \"Don't let the door hit you on the way out\"; he adds \"Eventually you develop a thick skin about it and learn to let it go.\"",
+			"alternative": "\"Terrifying\" is partly idiom (C38).",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C112",
+			"claim": "On Below he \"took on the dad role\" with the younger cast, wanting them to come out \"fully intact as a family\".",
+			"passage": "he \"took on the dad role,\" wanting to make sure they came out of the shoot \"fully intact as a family.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S18"
+			],
+			"inference": "CBC Q 2026 machine transcript (about 9:03); both whisper models agree on \"took on the dad role\" and \"came out of this fully intact as a family\". Power's question framed it as getting the cast together for the accents.",
+			"alternative": "Re-listen before final print; ordinary lead-actor behaviour.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C37",
+			"claim": "On a loosely autobiographical Oliver Stone film (unreleased as of October 2026; S15 names it White Lies), he says Stone kept him off balance by complimenting everyone but him, that he badly wanted to please him, and that Stone got the performance \"by playing off my own insecurity and not giving me anything\".",
+			"passage": "Stone got what he needed, Hartnett said, \"by playing off my own insecurity and not giving me anything.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S18",
+				"S16",
+				"S15"
+			],
+			"inference": "Under a withholding authority he reports insecurity and an intense wish to please, and he pushed harder: the Six's relationship to authority in a single anecdote.",
+			"alternative": "A director's deliberate technique works on many actors; Two or Nine wishes to please also fit. Machine transcript (S18): both models agree on \"playing off my own insecurity and not giving me anything\"; they differ on \"so badly wanted/want to please him\", so the draft paraphrases that part.",
+			"durability": "time_sensitive",
+			"review_trigger": "Recheck the title and release of the Oliver Stone film (S15 names it White Lies) when it is announced or released."
+		},
+		{
+			"id": "C113",
+			"claim": "The Stone anecdote: he wanted badly to please the director and pushed his performance further.",
+			"passage": "Describing a loosely autobiographical Oliver Stone film, still unreleased in October 2026, he told Q that during one scene Stone complimented everyone except him. Hartnett wanted badly to please the director and pushed his performance further and further.",
+			"class": "self_report",
+			"source_ids": [
+				"S18",
+				"S16"
+			],
+			"inference": "Paraphrase of S18 (about 20:34): \"Everybody's getting compliments, but not me ... I also like so badly wanted to please him ... So I did push it more and more and more\". \"Loosely autobiographical\" is from S16.",
+			"alternative": "Machine transcript; paraphrased where the two models differ.",
+			"durability": "time_sensitive",
+			"review_trigger": "Recheck the title and release of the Oliver Stone film (S15 names it White Lies) when it is announced or released."
+		},
+		{
+			"id": "C114",
+			"claim": "Interpretation: under a director he admires, the old insecurity still shows.",
+			"passage": "Under a director he admires, the old insecurity still shows.",
+			"class": "interpretation",
+			"source_ids": [
+				"S18",
+				"S15"
+			],
+			"inference": "S15: \"I was always a big fan of his ... had to do it.\"",
+			"alternative": "Stone's method would unsettle most actors.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C36",
+			"claim": "On reading the Trap script, his first thought was \"Oh my God, if this goes wrong, it's all on me\", then \"I love challenges\" (/Film, 2024).",
+			"passage": "was \"'Oh my God, if this goes wrong, it's all on me.'\" He laughed, then said: \"I love challenges.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S13",
+				"S11"
+			],
+			"inference": "Anticipates the failure scenario first, then commits: the same fear-then-act shape as Pearl Harbor (C09).",
+			"alternative": "Normal lead-actor pressure, told with a laugh on a press day.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C16",
+			"claim": "In the April 2002 Observer interview he said \"I just kind go along for the ride ... someone like me can just wander through\" (the strongest early Nine evidence).",
+			"passage": "I just kind go along for the ride. You need some people in the world who are determined to do one thing in life, to make that thing their goal. But luckily, because you have all those other people being pillars, holding up the world, someone like me can just wander through.",
+			"class": "self_report",
+			"source_ids": [
+				"S03"
+			],
+			"inference": "This is the Nine case in his own words: drift, self-effacement, declining the fight. It is the main counterevidence to the Six reading.",
+			"alternative": "In the same breath he adds \"There are other things I want to fight for. I want interesting roles. I want to do some good in the world\"; the self-effacement may be Midwestern modesty rather than self-forgetting.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C115",
+			"claim": "\"That's not my fight\" about the publicity machine (2002).",
+			"passage": "As he left for lunch, he added that he wasn't interested in fighting the publicity machine. \"That's not my fight.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S03"
+			],
+			"inference": "S03: said as he headed for lunch: \"You know, I'm not interested in fighting the publicity machine ... That's not my fight.\"",
+			"alternative": "Same breath as C116.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C116",
+			"claim": "In the same breath: \"There are other things I want to fight for.\"",
+			"passage": "And in the same 2002 breath as \"That's not my fight,\" he said, \"There are other things I want to fight for.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S03"
+			],
+			"inference": "Adjacent in S03; he adds \"I want interesting roles. I want to do some good in the world.\"",
+			"alternative": "Aspirational talk at 23.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C46",
+			"claim": "Of English country life he says \"Honestly, I've become really fond of being here: the quiet, the still; all of it.\" (Hollywood Authentic, 2024).",
+			"passage": "\"Honestly, I've become really fond of being here: the quiet, the still; all of it.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S12"
+			],
+			"inference": "The Nine reading's best recent evidence: settledness and ease.",
+			"alternative": "Settling into parenthood in one's forties explains this for any type; a Six can find security and relax.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C117",
+			"claim": "Of family life with four children: \"In a way, less is happening. But more of the important stuff is happening.\"",
+			"passage": "\"In a way, less is happening. But more of the important stuff is happening.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S01"
+			],
+			"inference": "S01 (July 2024).",
+			"alternative": "Parenthood in one's forties explains this for any type.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C118",
+			"claim": "FAQ Nine evidence.",
+			"passage": "At 23 he said, \"I just kind go along for the ride,\" and he now describes country life as \"the quiet, the still.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S03",
+				"S12"
+			],
+			"inference": "Mirrors C16 and C46.",
+			"alternative": "See type_hypothesis.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C03",
+			"claim": "His father was a musician who later got \"a real job\" as a building manager and owned his own company. (The \"guitarist for Al Green\" story is not used; Hartnett narrowed it in 2026 to playing in Al Green's touring band.)",
+			"passage": "a musician turned building manager who owned his own company",
+			"class": "disputed",
+			"source_ids": [
+				"S01",
+				"S18",
+				"S03"
+			],
+			"inference": "S03 (2002) and Wikipedia (S27) say guitar player for Al Green; S18 (2026, machine transcript) narrows it to touring with Green around the Midwest (\"he played with Al Green one time\" in Hartnett's retelling of a family question). S01: building manager, \"He owned a company\".",
+			"alternative": "Use the 2026 wording, or say he played in Al Green's touring band. Re-listen to S18 at about 12:30-13:00 before quoting.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C04",
+			"claim": "He credits his father with not valuing achievement: \"My dad was not someone who valued achievement in that way\" (2024).",
+			"passage": "\"My dad was not someone who valued achievement in that way.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S01",
+				"S18",
+				"S03"
+			],
+			"inference": "Stated in 2002 (parents \"more interested in achieving happiness rather than success\", S03), 2024 (S01) and 2026 (S18). It is a stable, repeated self-explanation for his low career ambition, which counts against a Three reading and is neutral between Six and Nine.",
+			"alternative": "Learned family value and Midwestern culture explain this without any type; it is the reason he gives, not proof of motive.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C119",
+			"claim": "He frames his studio battles as non-participation, not rebellion.",
+			"passage": "And he describes his studio battles as non-participation, which is how a Nine resists: \"I wasn't doing it to be recalcitrant or a rebel.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S02"
+			],
+			"inference": "S02: \"I wasn't doing it to be recalcitrant or a rebel ... I burned my bridges at the studios because I wasn't participating.\"",
+			"alternative": "The typological gloss (\"how a Nine resists\") is the author's.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C120",
+			"claim": "Interpretation: the Pearl Harbor answer opens with a Nine-like wish that things stay as they are.",
+			"passage": "Even the _Pearl Harbor_ answer opens with a Nine's wish that things stay as they are.",
+			"class": "interpretation",
+			"source_ids": [
+				"S02"
+			],
+			"inference": "Refers to C65.",
+			"alternative": "A Six can also prefer the familiar.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C121",
+			"claim": "Interpretation: on the pressure discriminator his record leans Six.",
+			"passage": "On that test Hartnett's record leans Six.",
+			"class": "interpretation",
+			"source_ids": [
+				"S02",
+				"S03",
+				"S04",
+				"S23"
+			],
+			"inference": "See type_hypothesis.discriminator: fear audits (C09, C11), testing (C07, C14, C23), self-correction (C24, C79), \"other things I want to fight for\" (C116).",
+			"alternative": "Rests on about ten statements over 24 years; see type_hypothesis.against.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C122",
+			"claim": "Interpretation: the 2002 drift self-portrait is unexplained by the Six reading.",
+			"passage": "The 2002 drift line remains unexplained. At 23, months before stepping back, he described himself much as a Nine would.",
+			"class": "interpretation",
+			"source_ids": [
+				"S03"
+			],
+			"inference": "type_hypothesis.unexplained (1).",
+			"alternative": "It may be modesty, a pose or accurate.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C123",
+			"claim": "He calls himself \"the outlier\" (a joke about being the only American at home).",
+			"passage": "\"But I like being the outlier.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S08"
+			],
+			"inference": "S08: said after Stiles calls him \"the outlier\" in an English family (\"I'm a foreigner in my own home\"). The draft labels it a joke.",
+			"alternative": "A joke, weak evidence for Four.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C41",
+			"claim": "He disowns self-focus: talking about his own career \"feels too isolating, and it's self-indulgent\" (2024); family \"don't allow me the time to be self-indulgent\" (2024); and he asked for his Below character not to be \"constantly talking about his trauma\", citing a Minnesotan \"reticence ... to complain about their own situation\" (2026).",
+			"passage": "Yet he calls talking about his own career \"self-indulgent,\" and on _Below_ he asked that his character not be \"constantly talking about his trauma.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S12",
+				"S18"
+			],
+			"inference": "Counts against Four, whose motive centres on the significance of personal feeling.",
+			"alternative": "Midwestern norms and screen-writing instinct, not motive. S18 is a machine transcript; both models agree on \"constantly talking about his trauma\".",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C40",
+			"claim": "He says he \"used to track-race Porsche cars all the time\" (2024).",
+			"passage": "He told Hollywood Authentic, \"I used to track-race Porsche cars all the time,\"",
+			"class": "self_report",
+			"source_ids": [
+				"S12"
+			],
+			"inference": "Unexplained by a security-seeking reading unless it is counterphobic risk-taking or a Seven wing.",
+			"alternative": "Seven is the type this best fits; a wealthy young man racing cars is also just circumstance. Reports that he did his own stunts on Fight or Flight (2025) were seen only in search summaries and are not in this record; omit unless sourced.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C39",
+			"claim": "M. Night Shyamalan recalled Hartnett telling him that \"danger is what really drives him\" (via TheWrap, 2024).",
+			"passage": "and Shyamalan recalled Hartnett telling him that \"danger is what really drives him,\"",
+			"class": "third_party",
+			"source_ids": [
+				"S22"
+			],
+			"inference": "A collaborator's view of him as a risk-taker. The \"danger\" line is Shyamalan's recollection of Hartnett's words, reported via a GQ video by TheWrap (S22).",
+			"alternative": "Promotional praise; secondhand for the danger line. Supports counterphobic Six, Seven or Eight equally.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C124",
+			"claim": "His UK marriage visa limits work abroad to about 180 days a year, which, McGurk wrote, \"also suits him fine\".",
+			"passage": "His UK marriage visa limits him to about 180 days a year of work abroad, roughly one film, which, McGurk wrote, \"also suits him fine.\"",
+			"class": "third_party",
+			"source_ids": [
+				"S01"
+			],
+			"inference": "S01 (July 2024): \"he can only be out of the country for work 180 days a year, or roughly one movie, which also suits him fine.\"",
+			"alternative": "Writer's report; visa rules and his status may change.",
+			"durability": "time_sensitive",
+			"review_trigger": "Update if his residence or visa arrangement changes; recheck at each refresh."
+		},
+		{
+			"id": "C125",
+			"claim": "Asked in 2024 to trace his step back to a moment, he said it wasn't so simple, then that the attention was \"borderline unhealthy\".",
+			"passage": "he told McGurk it wasn't so simple, then said: \"People's attention to me at the time was borderline unhealthy.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S01"
+			],
+			"inference": "S01: no clear line between \"happy Josh and unhappy Josh\".",
+			"alternative": "None.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C33",
+			"claim": "He says that at the height of his fame people showed up at his house and stalked him, and that when he was 27 \"a guy showed up at one of my premieres with a gun, claiming to be my father. He ended up in prison\"; he prefaced it \"I don't want to give this a lot of weight\" and concluded \"I wasn't going to be grist for the mill.\"",
+			"passage": "Then: \"Well, look, I don't want to give this a lot of weight.\" He described people stalking him and, when he was 27, \"a guy showed up at one of my premieres with a gun, claiming to be my father.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S01"
+			],
+			"inference": "A real threat gives a situational reason for vigilance and retreat. That he minimized it is notable: he refuses to make the frightening story the explanation.",
+			"alternative": "Unverified beyond his account; the man is unnamed and no court record was found. At 27 (c. 2005) it postdates the 2002 break, so the draft presents it as part of those years' intrusiveness, not the cause. Circumstance, not type. The prison outcome is not repeated.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C126",
+			"claim": "He recalled that in those years \"it was then the press's mission to tear you apart\".",
+			"passage": "\"it was then the press's mission to tear you apart.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S08"
+			],
+			"inference": "S08: \"In the late '90s and early 2000s ... if you were named as one of these interesting people in celebrity culture, it was then the press's mission to tear you apart.\"",
+			"alternative": "A general claim about the era.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C127",
+			"claim": "By April 2002 he had \"worked for four years straight\".",
+			"passage": "By April 2002 he had also, he said, \"worked for four years straight.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S03"
+			],
+			"inference": "S03: \"I've been doing publicity for so long and before that I worked for four years straight. I could do with a break.\"",
+			"alternative": "Burnout explains the break without type.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C128",
+			"claim": "Interpretation: the vigilance may have been learned from frightening years rather than built in.",
+			"passage": "The type reading cannot rule out that the vigilance was learned rather than built in.",
+			"class": "interpretation",
+			"source_ids": [
+				"S01",
+				"S08",
+				"S03"
+			],
+			"inference": "type_hypothesis.against (6).",
+			"alternative": "This is the situational alternative itself.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C38",
+			"claim": "In 2026 he told The Film Stage that the Verity-Below release week \"feels simultaneously terrifying\" and joked \"this might be the last time we speak\".",
+			"passage": "felt \"simultaneously terrifying\" and joked, \"this might be the last time we speak.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S15"
+			],
+			"inference": "Recurring threat framing around other people's opinions and outcomes he cannot control.",
+			"alternative": "Much of this is idiom and comic exaggeration; weigh it lightly.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C35",
+			"claim": "At the 2018 British Independent Film Awards he said he gets \"a lot of anxiety about these sort of events because I have to go up on stage and read\" (stage nerves, narrow).",
+			"passage": "\"I get a lot of anxiety about these sort of events because I have to go up on stage and read.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S20"
+			],
+			"inference": "Specific performance anxiety when he must appear as himself rather than in character; consistent with \"I clam up around really fantastic filmmakers and writers\" (2026, S18).",
+			"alternative": "Common stage nerves, not a condition. The video's title (\"suffers from anxiety\") overstates it. Machine transcript, two models agree; re-listen at about 2:07.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C129",
+			"claim": "Interpretation: the racing streak needs a counterphobic Six or a Seven wing, and neither is demonstrated.",
+			"passage": "The racing streak would need a counterphobic Six or a Seven wing to explain it, and neither is demonstrated.",
+			"class": "interpretation",
+			"source_ids": [
+				"S12",
+				"S22"
+			],
+			"inference": "type_hypothesis.unexplained (2).",
+			"alternative": "Wealthy young men race cars; circumstance.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C130",
+			"claim": "Moving to the UK \"didn't feel unnatural\".",
+			"passage": "moving to England, he said, \"didn't feel unnatural.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S12"
+			],
+			"inference": "S12: \"So coming to the UK didn't feel unnatural.\" The family lives in Hampshire, England.",
+			"alternative": "None.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C131",
+			"claim": "He says he learned from his father that \"work is never going to fulfill you in the way the family does\".",
+			"passage": "\"Work is never going to fulfill you in the way the family does,\" he told Q in 2026, describing what he learned at home.",
+			"class": "self_report",
+			"source_ids": [
+				"S18"
+			],
+			"inference": "CBC Q 2026 machine transcript (about 13:18); both models agree on the wording.",
+			"alternative": "Re-listen before final print. Learned family value explains this without type.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C132",
+			"claim": "Closing interpretation: he finds the danger first, says so, then decides; the answer was distance in his twenties and trusted people in his forties.",
+			"passage": "He finds the danger first, says so out loud and then decides what to do about it. In his twenties the answer was distance. In his forties it is a short list of people he trusts.",
+			"class": "interpretation",
+			"source_ids": [
+				"S02",
+				"S13",
+				"S14",
+				"S01"
+			],
+			"inference": "Synthesizes C09, C36, C19 and C31.",
+			"alternative": "See type_hypothesis.against.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C133",
+			"claim": "FAQ: he never quit acting; after Black Hawk Down and Pearl Harbor publicity he moved home to Minnesota and spent about a year and a half away.",
+			"passage": "He never quit acting. After Black Hawk Down and the Pearl Harbor publicity, he moved back home to Minnesota and spent about a year and a half away from the business.",
+			"class": "self_report",
+			"source_ids": [
+				"S14",
+				"S05",
+				"S01",
+				"S06"
+			],
+			"inference": "Mirrors C19 and C54.",
+			"alternative": "See C19.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C134",
+			"claim": "FAQ: his stated reasons for stepping back.",
+			"passage": "He has said the fame felt \"oddly stifling,\" that he didn't want to lose control of his own life, and that other people's definitions of him were \"affecting my own idea of who I am.\"",
+			"class": "self_report",
+			"source_ids": [
+				"S10",
+				"S14"
+			],
+			"inference": "Mirrors C82, C30 and C29.",
+			"alternative": "See C29.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C135",
+			"claim": "FAQ: he kept making smaller, independent films afterward.",
+			"passage": "He kept making smaller, independent films afterward.",
+			"class": "self_report",
+			"source_ids": [
+				"S02",
+				"S14"
+			],
+			"inference": "S02: \"I tried to find smaller films I could be part of\"; S14: \"I wanted to look for independent films to work on\".",
+			"alternative": "None.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C136",
+			"claim": "Description: he pitched Superman as a hero afraid of his own power, then turned the part down.",
+			"passage": "Josh Hartnett pitched Superman as a hero afraid of his own power, then turned the part down.",
+			"class": "self_report",
+			"source_ids": [
+				"S02"
+			],
+			"inference": "Mirrors C10 and C50.",
+			"alternative": "See C10.",
+			"durability": "stable",
+			"review_trigger": ""
+		}
+	],
+	"type_hypothesis": {
+		"type": 6,
+		"confidence": "medium",
+		"for_claim_ids": [
+			"C09",
+			"C10",
+			"C12",
+			"C13",
+			"C14",
+			"C15",
+			"C21",
+			"C22",
+			"C23",
+			"C24",
+			"C25",
+			"C26",
+			"C27",
+			"C29",
+			"C30",
+			"C31",
+			"C36",
+			"C37",
+			"C48",
+			"C49"
+		],
+		"against": "(1) His own 2002 words are the Nine's: \"I just kind go along for the ride ... someone like me can just wander through\" and \"That's not my fight\" (C16); his recent life is described in Nine terms too: \"the quiet, the still\" and \"less is happening. But more of the important stuff is happening\" (C46). (2) The central motion of his story is withdrawal from overwhelm to home, family and stillness (C19, C42), which Nine (and Five) explain as naturally as Six. (3) He rarely presents as anxious now: the 2020-2026 interviewers describe him relaxed, warm and joking (S08, S12, S18), and most of his recent fear words are comic idiom (C38). (4) The explicit anxiety evidence is narrow: stage nerves at award events (C35) and a family joke about being \"an existentialist from the age of 12\" (S01; not used in the draft); \"a natural worrier\" is the writer's phrase. (5) Two of the strongest fear-and-distrust quotes are secondhand (Details 2014, C21; Playboy and USA Today 2015, C48). (6) Situational causes are heavy: stalking and a man with a gun at a premiere (C33), a hostile press (C26), studio pressure and contract options (C25), and four years of nonstop work (C19); a vigilant style could be learned from circumstance rather than driven by type. (7) He raced cars, told Shyamalan danger drives him, and seeks work that is \"new and surprising\" (C39, C40, S14), which a security-seeking type does not predict unless counterphobic. (8) His identity language (\"defined\", \"more myself\", \"the outlier\", C29, C42) is also the Four's vocabulary.",
+		"alternative_type": 9,
+		"alternative_case": "Type 9 is the strongest rival. The shape of his life is a Nine's: overwhelmed by the noise of fame he did not fight it so much as leave it, going home to Minnesota for about a year and a half (C19), and for two decades he has preferred family, old friends and a quiet village to status (C27, C42, C46). His explanations stress being swallowed and losing himself to other people's agendas: \"I just didn't want my life to be swallowed up by my work\" (C11); others' definitions were \"affecting my own idea of who I am\" (C29); \"you're forced to either fight against or go along with people's perceptions of you\" (C29). He disclaims ambition and self-importance (\"I'm not any more important than anyone else\", \"go along for the ride\", C16), credits a father who did not value achievement (C04), and now describes contentment and stillness (C46). His resistance is the Nine's kind: he says he was not \"recalcitrant or a rebel\"; he just \"wasn't participating\" (C25). Type 4 is live for the outsider and identity language (Huck Finn, \"the outlier\", \"more myself\", \"the explorative artist that I wanted to be\", C06, C29, C42) and the painter's self-image, but he disowns self-focus and complaint (C41) and grounds identity in community rather than distinctiveness (S08, S29; not used in the draft). Type 7 is live for variety-seeking, car racing, \"danger\" and the fear of being \"pigeonholed\" or locked into a long Superman deal (C11, C40, C48), but when it mattered he chose stillness and duty over options (C42, C43). Type 5 was considered for privacy, boundaries and \"hermit myself away\" (C15, C19) and set aside because he locates safety in people, not in withdrawal into the mind. Type 8 was considered for the contrarian and control streak (C14, C30) and set aside because he frames control as relief from fear, not as power. Same-cluster caution: the site types other walked-away actors Brendan Fraser and Keanu Reeves as 9, so readers will expect leaving Hollywood to mean Nine; the profile must show why that does not fit here.",
+		"discriminator": "What he does under pressure, and how he explains it. A Nine keeps the peace inside himself: he numbs out, lets things slide and, when pushed, withdraws or quietly digs in, and his account of hard choices centres on comfort, harmony and not being disturbed. A Six scans for threat, tests authorities and recruits trusted allies, and explains hard choices through fear, trust and protection. Hartnett's record leans Six on four observable points. (1) He audits his own decisions for fear and acts against it: Pearl Harbor \"would've been based on fear. Then it defined me, which means I was right to fear it\" (C09); Trap, \"if this goes wrong, it's all on me\", then \"I love challenges\" (C36); Superman imagined as a hero \"afraid of himself and his own power\" (C10). (2) He tests rather than smooths: a letter to the dean at 18 (C07), \"when someone says 'turn right,' go left\" (C14), \"I wanted to see if he was full of shit\" (C23), and open antagonism with Miramax and the studios until he \"burned my bridges\" (C25). (3) He builds safety out of trusted people rather than out of being left alone: \"I didn't trust anyone\" at the peak (C21, secondhand), the people \"I knew liked me before I was making films\" (C27), \"It's about finding people who you really trust\" (C31), wanting the Below cast to come out \"fully intact as a family\" (S18). (4) He loops back on his own words when he fears they will be misread: the unprompted call about Weinstein (C24), \"you have to be cautious about how you put certain things\" (S23), and the 2002 observer's \"perhaps afraid that he might sound as if he is dissing Cruise\" (C13). Under a withholding authority he reports insecurity and a wish to please (C37); getting control back was \"really relieving\" because losing it is \"terrifying\" (C30). A Nine reading has to treat each of these as incidental; a Six reading predicts them. Limits: points (1) and (4) rest on about ten statements over 24 years; two fear quotes are secondhand (C21, C48); fear words are partly idiom; and stalking and press hostility supply situational reasons for vigilance. Confidence stays medium.",
+		"unexplained": "(1) The 2002 \"go along for the ride ... wander through\" self-portrait (C16), which is pure Nine and was said at the moment he was preparing to step back. (2) The thrill-seeking: track-racing gutted Porsche 911s, a Bugatti on an F1 track, \"danger is what really drives him\" (C39, C40); counterphobia or a Seven wing would explain it, but neither is demonstrated. (3) Why he took Pearl Harbor against his fear but refused Superman (C09, C11): the fear audit predicts the first and not obviously the second, unless a decade-long commitment was the decisive threat. (4) How relaxed he now seems with the press while still reaching for fear vocabulary (C29, C38). (5) How easily he relocates (moving to the UK \"didn't feel unnatural\", C46) when a Six is often attached to familiar ground; his attachment seems to be to people, not place. (6) The Kerry-campaign regret and political worry reported secondhand or in passing (S24, S01), not explored. Wing unresolved (6w7 for humour, adventure and cars; 6w5 for privacy, homework and \"intellectual\" connection); no subtype attempted."
+	},
+	"profile_format": "standard"
+}

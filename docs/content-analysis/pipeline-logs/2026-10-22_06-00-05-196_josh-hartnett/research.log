@@ -1,0 +1,39 @@
+Error: Reached max turns (120)
+[runner] Turn limit reached; resuming session 57910242-e021-4d6f-b1f7-5595588d1257 to write outputs
+The research stage for Josh Hartnett is finished and `evidence.json` is written to the run directory. It passes the pipeline's own validation check. That is the only file I wrote in the repo; scratch files stayed in `/tmp`. Nothing was published.
+
+**Result: ready to draft.** The leading read is Type 6 at medium confidence, with Type 9 as the strongest rival. Types 4 and 7 are still in play; 5 and 8 were considered and ruled out. It's a standard profile, not an open case, because his record runs from 1999 to 2026 and is deep, not thin.
+
+**Why 6 over 9:** across 24 years he explains his big choices in terms of fear, trust and protection:
+- He took Pearl Harbor because "turning it down would've been based on fear. Then it defined me, which means I was right to fear it."
+- He pitched his Superman as a hero "afraid of himself and his own power."
+- He tests people and institutions: a letter to his drama school's dean at 18, "when someone says 'turn right,' go left," and meeting a real journalist he was about to play "to see if he was full of shit."
+- He now picks work by trust: "It's about finding people who you really trust."
+- Days after a 2020 Guardian interview, he phoned the writer back unprompted to clarify what he'd said about Harvey Weinstein.
+
+The Nine case is real, and the record argues it: in 2002 he said "I just kind go along for the ride," and he now describes country life as "the quiet, the still."
+
+**Evidence base:**
+- 49 claims and 37 sources, 30 of them opened.
+- About 47 minutes of audio, from two full CBC Q interviews (2024 and 2026) and a 2018 red-carpet clip. I transcribed it locally with two speech-to-text models, which agree on the wording.
+- Every quoted excerpt was machine-checked against the saved text.
+- Seven sources couldn't be opened: Details 2014, Playboy 2015, Vanity Fair 2001, Rolling Stone 1999, HuffPost 2017, USA Today 2015 and Men's Health 2024. Quotes from them are marked secondhand, and no claim relies on an unopened source.
+
+**Risk flags.** Both are set, so the full six-reviewer panel will run:
+- **Contested typing:** 6 versus 9 is genuinely close.
+- **Sensitive material:**
+  - His account of a man with a gun at a premiere who "ended up in prison." It's unverified beyond his own word.
+  - His mother's drug and alcohol problems, dementia and 2023 death.
+  - His claim that a police car ran a red light in his September 2025 crash. Police said they were investigating, and I found no finding.
+  - His Weinstein comments.
+
+**Corrections for the drafter:**
+- He didn't turn down Batman; Christopher Nolan says "It never got that far."
+- His father played in Al Green's touring band; he wasn't Green's guitarist.
+- He was asked to leave SUNY Purchase, not expelled.
+- His break was about a year and a half.
+- The "suffers from anxiety" video was stage nerves at an awards show.
+
+The full do-not-use list, timestamps to re-listen to before quoting the audio, internal-link leads, and tasks for the next refresh are in `research_tasks`.
+
+One thing to know for the draft: the site types Brendan Fraser and Keanu Reeves as 9. Readers will expect "walked away from Hollywood" to mean Nine, so the profile needs to show why that doesn't fit here.

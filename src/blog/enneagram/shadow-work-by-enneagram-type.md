@@ -58,7 +58,7 @@ This isn't inspiration. This is a tactical map of how each type's shadow operate
 Midjourney Prompt: split image showing a bright figure on one side and its dark shadow counterpart on the other, the shadow showing inverted or distorted versions of the light figure's qualities, symbolic representation of conscious and unconscious aspects of personality, dramatic black and white contrast with golden light, psychological depth and introspection, classical artistic style with modern psychological understanding, Unreal Engine, Cinematic, beautifully detailed, hyper realistic --ar 16:9 --v 6
 -->
 
-Carl Jung called the shadow **"the thing a person has no wish to be."** Every trait you've rejected, every impulse you've buried, every quality that didn't fit the person you're trying to be.
+[Carl Jung](/personality-analysis/carl-jung) called the shadow **"the thing a person has no wish to be."** Every trait you've rejected, every impulse you've buried, every quality that didn't fit the person you're trying to be.
 
 His crucial insight: **What you resist persists. What you don't integrate, you project onto others.**
 

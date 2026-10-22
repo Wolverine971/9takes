@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "critic",
+  "content_sha256": "6d0d9edda84b363a320164469d6022ad4857d38c958bb848b5c58468a55a523f",
+  "evidence_sha256": "a9ad5c5424a5f1b3b1b2a4c00f1c58f1e15d37c9f0fd128905a310e646c1865c",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "critic-01",
+      "severity": "major",
+      "passage": "Eighteen years later he gave Gilbey the fuller version, and both halves of it matter.",
+      "problem": "The fear audit that the draft calls \"the most distinctive thing in Hartnett's record\" exists only in a 2020 retelling, and the 2002 record points elsewhere. Cooke's April 2002 Observer piece (S03, opened) says \"Hartnett wasn't so sure he wanted his life to change\" and \"Still, someone obviously persuaded him to think again.\" Asked then why he took it, he said only \"Well, we're all on a journey. The average American switches profession four times...\" There is no self-audit in that answer. Calling the 2020 account \"the fuller version\" treats an 18-year retrospective as an expansion of the 2002 record when it may be a reconstruction. The draft then builds a causal chain on it (\"The rest of the decade suggests he took that lesson seriously\"; \"once Pearl Harbor had proved a fear right, he stopped overruling it\"). No 2001-2004 source shows him stating that lesson.",
+      "acceptance_test": "The Pearl Harbor section names the Gilbey account as a 2020 retrospective and reports Cooke's 2002 observation that someone persuaded him, along with his 2002 \"we're all on a journey\" answer. \"Most distinctive thing\" and \"took that lesson seriously\" are either labeled as resting on his later framing or supported by a 2001-2004 source in which he describes the fear audit or the lesson."
+    },
+    {
+      "id": "critic-02",
+      "severity": "major",
+      "passage": "Read in order, the choices suggest that once _Pearl Harbor_ had proved a fear right, he stopped overruling it. The fear was specific: being fixed in place by other people's idea of him.",
+      "problem": "The section is titled \"The fear that won\" and concludes that fear decided Superman. His only contemporaneous answer (Philstar, September 2003, S04, opened) begins: \"It wasn't what I wanted to do. There's really no specific reason. I like the people involved in it. I just didn't feel that it was the right thing for me to do.\" The draft cuts this to the \"Am I going to feel fulfilled\" line and calls it \"another self-audit,\" which makes it look like the Pearl Harbor fear audit. He has given three different Superman reasons: fulfillment (2003), \"a risk\" (2021) and \"swallowed up by my work\" (2024). Only the 2015 franchise statement names fear. The evidence record lists the Pearl Harbor-yes/Superman-no asymmetry as unexplained (type_hypothesis.unexplained 3), but the prose presents it as explained.",
+      "acceptance_test": "The Superman paragraph includes \"There's really no specific reason\" or a faithful paraphrase of it, and \"another self-audit\" no longer implies a fear audit. The heading and closing sentence present \"stopped overruling it\" as the author's inference, resting mainly on the 2015 statement. The Pearl Harbor-yes/Superman-no asymmetry is acknowledged as open or resolved with a cited source."
+    },
+    {
+      "id": "critic-03",
+      "severity": "major",
+      "passage": "He goes back to fix his own words when he worries they will be misread, as with the Weinstein call.",
+      "problem": "Two of the three discriminator legs, testing people and repairing his own words, have professional explanations that the draft drops.\n\n- **Malarek:** Gilbey puts the meeting in a paragraph that opens \"Hartnett does his homework,\" next to consulting Jeffrey Eugenides and boxing training for The Black Dahlia, and writes \"Naturally he met with the real Malarek\" (S02, opened). Hartnett explains that Malarek \"has been accused by his critics of putting himself at the forefront of his own stories.\" That is role research on a real person he was about to play, not a test of someone he was \"about to trust.\"\n- **The 2015 clarification:** It opens \"I always regret being honest about certain things. The way they come out and get decontextualized makes it sound like a boast\" (S23, opened). That is ordinary press damage control.\n- **The Weinstein call-back:** He had been in Weinstein's Dimension stable, and his first answer called abuse \"an open secret.\" That gives a plain reputational reason to sharpen it.\n- **Smoothing over the Cruise remark:** Avoiding offense fits Nine peacekeeping as well as Six vigilance.\n\nNone of these readings is addressed where the draft scores these legs against Type 9, in either the body or the FAQ.",
+      "acceptance_test": "\"Why not Type 9?\" and the \"Could Josh Hartnett be an Enneagram Type 9?\" FAQ either state and answer the professional, reputational and Nine-peacekeeping readings of the Malarek meeting, the 2015 clarification and the Weinstein call, or stop counting those episodes as evidence that separates the types. The Malarek paragraph keeps Gilbey's homework framing. \"He tests the people he is about to trust\" no longer describes Malarek as someone he was about to trust."
+    },
+    {
+      "id": "critic-04",
+      "severity": "major",
+      "passage": "On that test Hartnett's record leans Six.",
+      "problem": "The draft's own discriminator says a Nine under strain will \"go numb, let things slide or quietly dig in.\" The record contains his own statements of exactly that, and none appear in the draft:\n\n- \"you've just got to let it slide off your back because it's not the important thing anymore\" (Interview, 2024, S08)\n- \"you're forced to either fight against or go along with people's perceptions of you\" (same interview)\n- \"Eventually you develop a thick skin about it and learn to let it go\" (SHARP, 2026, S16). This is the sentence right after the \"terrifying\" line the draft quotes.\n- To Stiles, he said stepping back \"had more to do with just plain sanity\" and was about finding \"community\" because he felt \"rootless.\"\n\nThe draft applies the test to small episodes (the dean letter, Malarek, the Weinstein call) but never to his biggest costly choice, the 2002-03 withdrawal, which reads as the Nine branch under the draft's own definition. The studio battles are also scored both ways: as a fight in \"The fear that won\" (\"He fought the studios on smaller things too\") and as Nine resistance in \"Why not Type 9?\" (\"non-participation, which is how a Nine resists\"). The draft never reconciles the two.",
+      "acceptance_test": "\"Why not Type 9?\" runs the stated pressure test on the step-back itself. It cites and answers at least the \"let it slide off your back\" and \"learn to let it go\" statements, and it either assigns the studio-battle evidence to one reading or marks it as neutral. If the Six lead survives, the body and FAQ explain why in those terms; otherwise the confidence wording is lowered."
+    },
+    {
+      "id": "critic-05",
+      "severity": "major",
+      "passage": "Across 24 years of interviews, when he explains the biggest choices of his career, the same few words keep returning: afraid, trust, control, defined.",
+      "problem": "This is a frequency claim with no base rate, and the \"defined\" part of it is not specific to Type 6. His longest 2024 answer about stepping back, to Julia Stiles (S08), uses \"sanity,\" \"vacuous,\" \"satisfaction,\" \"rootless\" and \"community,\" and none of the four words. When he does talk about definition, he presents it as a universal stage: \"I was still defining myself, in the way that we all do in our late teens or early twenties\" (Hollywood Authentic, 2024, S12), and \"like a lot of people in their 20s\" (2004, quoted in the draft). In the same Hollywood Authentic passage he explains the retreat as authenticity: \"something that felt more authentic to me,\" \"I just kind of felt like I wanted to be more myself than that.\" That is the vocabulary of Four, or of Nine self-loss, as much as Six. The type answer and type FAQ still make \"who gets to define him\" a pillar of the Six reading without testing it against these.",
+      "acceptance_test": "The hook either supports the recurrence claim, for example by stating how many of the opened interviews use these words, or is rephrased to match what the record shows. \"Who gets to define him\" includes his own framing of definition as a stage everyone goes through. The type answer and type FAQ either argue why the definition thread points to Six rather than Four or Nine, or stop treating it as a Six-specific marker."
+    },
+    {
+      "id": "critic-06",
+      "severity": "minor",
+      "passage": "At the time, he added, \"I would have curled up into a ball.\"",
+      "problem": "The quote is trimmed in a way that leans toward fear. In the NPR transcript (S14, opened) the answer continues: \"I would have been so embarrassed by that. But at the same time, you know, in a way, you know, also thrilled that people cared.\" The full answer is about embarrassment and pleasure at the attention, not fear alone. The draft also uses Cooke as an outside witness to his anxiety (\"so gauche and anxious\") but leaves out her doubt in the same piece: \"The way he tells it - though I am not entirely sure I believe him - fame is agony.\"",
+      "acceptance_test": "The NPR line keeps the embarrassed and thrilled halves, or is paraphrased to include both. If Cooke is cited for his anxiety, her stated skepticism about his anti-fame stance also appears, or her description is presented as the light, swooning profile it is."
+    },
+    {
+      "id": "critic-07",
+      "severity": "minor",
+      "passage": "The ideal he named was defined against fear.",
+      "problem": "This builds a type inference on the idiom \"isn't afraid to go out on a limb.\" Later the draft concedes that his fear words are often idiom. The Huck Finn quote itself is about being an outsider who \"finds his own ideals,\" which fits Four or a counterphobic reading just as well.",
+      "acceptance_test": "The sentence is cut, or it is labeled as the author's reading and the outsider-and-ideals reading of the quote is acknowledged."
+    },
+    {
+      "id": "critic-08",
+      "severity": "minor",
+      "passage": "Yet the life he has built narrows his options. His UK marriage visa limits him to about 180 days a year of work abroad, roughly one film, which, McGurk wrote, \"also suits him fine.\"",
+      "problem": "The rebuttal of Type 7 rests on a legal constraint. McGurk reported it in July 2024 (S01), but the draft states it in its own present-tense voice in October 2026, and immigration status can change. A legal limit also says nothing about motive. Meanwhile his Seven-leaning statements go unanswered: \"after a certain amount of time chasing a goal, I realized that achieving these things wasn't giving me back the satisfaction I hoped it would, so I had to find something else to fill that gap\" (Interview, 2024, S08), and \"I could exist anywhere... 'Oh, this is the next step'\" (Hollywood Authentic, 2024, S12).",
+      "acceptance_test": "The visa claim is attributed and dated (for example, \"McGurk reported in July 2024\") or removed. The Seven paragraph either rests on a motive-level discriminator or says plainly that the Seven question is unresolved."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Offered the most invulnerable hero in fiction, Hartnett went looking for the fear in him.",
+      "reason": "A specific, sourced hook that creates real curiosity. The line is accurate about his 2020 pitch, and it is distinctive to this subject."
+    },
+    {
+      "passage": "Even the _Pearl Harbor_ answer opens with a Nine's wish that things stay as they are.",
+      "reason": "The draft turns its own best Six quote against itself and keeps the inconvenient first half. This is the honest handling of adverse evidence the profile needs more of."
+    },
+    {
+      "passage": "Batman is often added to the list, but he never turned it down.",
+      "reason": "Corrects a widely repeated myth using Nolan's 2023 account (verified in the CNN wire copy) and Hartnett's 2015 version. This has lasting reference value."
+    },
+    {
+      "passage": "The 2002 drift line remains unexplained. At 23, months before stepping back, he described himself much as a Nine would. A Six reading has to treat that as a young man's modesty or a pose for a journalist, and it might be neither. That is why the confidence stays at medium.",
+      "reason": "Leaves the strongest counterevidence standing instead of explaining it away, and ties it explicitly to the stated confidence."
+    },
+    {
+      "passage": "Frightening years can teach anyone to be vigilant. The type reading cannot rule out that the vigilance was learned rather than built in.",
+      "reason": "States plainly that a situational explanation is available. Keep this, and extend the same candor to the discriminator section."
+    }
+  ],
+  "assessment": "No material factual errors turned up in the sources I reopened: S01, S02, S03, S04, S08 (via r.jina.ai), S12, S13, S14, S16, S17, S21, S23 and S25. Every quote I checked matches its source, and the Batman correction holds. S07 (MR PORTER, 403) and S24 (El País, 404) would not load. I did not open the CBC Q audio, so the Stone anecdote and the \"dad role\" line rest on the evidence record's machine transcript.\n\nThe draft confronts more adverse evidence than most: it keeps the 2002 drift line, the Nine half of the Pearl Harbor answer, the situational causes and the idiom caveat. Its two most attractive causal stories are weaker than the prose implies.\n\n- **Pearl Harbor to stopped overruling fear:** this rests on a 2020 retrospective. The contemporaneous 2002 and 2003 accounts point to outside persuasion and to \"no specific reason.\"\n- **Who gets to define him as a Six marker:** Hartnett himself describes defining himself as a stage everyone goes through, and frames the retreat as authenticity.\n\nThe Six-versus-Nine test is applied selectively. The professional explanations for its two behavioral legs (role homework, press damage control) are dropped, and his own \"let it slide\" and \"learn to let it go\" statements, which match the Nine branch of the draft's own test, are missing. Medium confidence is the right ceiling. The argument has to earn even that, or the confidence wording should drop.\n\nThe similarity check did not trip: the top score was 0.071 against a trip threshold of 0.072. The top pairs share only ordinary Type 6 definition wording (\"that will hold\") and the phrase \"medium confidence,\" not reused arguments. I found no meaningful reuse."
+}

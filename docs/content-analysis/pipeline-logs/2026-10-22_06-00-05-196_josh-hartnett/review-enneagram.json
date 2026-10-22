@@ -1,0 +1,86 @@
+{
+	"schema_version": 3,
+	"role": "enneagram",
+	"content_sha256": "6d0d9edda84b363a320164469d6022ad4857d38c958bb848b5c58468a55a523f",
+	"evidence_sha256": "a9ad5c5424a5f1b3b1b2a4c00f1c58f1e15d37c9f0fd128905a310e646c1865c",
+	"risks": {
+		"sensitive_allegations": true,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": false
+	},
+	"findings": [
+		{
+			"id": "enneagram-01",
+			"severity": "major",
+			"passage": "Read in order, the choices suggest that once _Pearl Harbor_ had proved a fear right, he stopped overruling it. The fear was specific: being fixed in place by other people's idea of him.",
+			"problem": "The fear the article centers is not specifically a Six's fear. Being defined, fixed, \"swallowed up\" or limited to \"one thing in my career and one thing only\" (2015) maps at least as well onto Nine (losing yourself to other people's agendas: \"that was affecting my own idea of who I am\", S14), Four (\"I wanted to try to do something that felt more authentic to me... I wanted to be more myself than that\", S12) and Seven (fear of being confined to one thing). The mere presence of fear words is not the Six motive. A Six's fear is about losing support or protection and being exposed. As written, this thesis sentence would fit 4, 7 or 9 equally well, so the Six case leans on vocabulary. The record has a more Six-specific thread that the article underuses. Fame is framed as exposure to attack: \"Oh my God! I'm not the tallest poppy yet – don't cut me down!\" and \"a set-up-to-fail moment\" (S02; the draft cuts the \"don't cut me down\" half); \"The guys who are on top are terrified that someone's coming up behind them... you're going to spend your whole life looking over your shoulder. I never wanted that\" (S07, recorded in research, unused); \"I didn't know how to protect myself\" (S12); \"the press's mission to tear you apart\" (S08). Identity is anchored in trusted people rather than in distinctiveness or options: \"Those people make me who I am\" (S07, unused); \"I wanted to be myself amongst people that I knew\" (S08, unused).",
+			"acceptance_test": "The type argument names the object of his fear and uses at least two sourced, dated instances to show why it is a Six fear (exposure, attack, losing protection or trusted support) rather than a Four, Seven or Nine fear. \"Being fixed in place by other people's idea of him\" is either reframed on that basis or openly acknowledged as a fear several types share. No sentence offers fear vocabulary on its own as evidence for Six."
+		},
+		{
+			"id": "enneagram-02",
+			"severity": "major",
+			"passage": "On that test Hartnett's record leans Six. He names his fear and argues with it, as in the _Pearl Harbor_ question. He tests institutions and people, from the dean's office to Malarek.",
+			"problem": "The article defines a Nine under strain as someone who will \"go numb, let things slide or quietly dig in, and explains hard choices by what would disturb them least\". It then never applies that test to the biggest pressure episode in the record, the 2002-2004 step back. His own accounts of that episode match the Nine definition: \"the choice to step back from the industry had more to do with just plain sanity\" (S08), \"it didn't feel entirely healthy. So I just sort of took a step back\" (S12), and he \"wasn't participating\" (S02). The 2002 line \"when someone says 'turn right,' go left. I don't know whether they've figured that out yet...\" (S03) is covert resistance the advisers haven't even noticed, which is the article's own \"quietly dig in\". Yet the article files it under \"A habit of testing the people in charge.\" The SHARP quote stops just before his coping strategy. After \"That's terrifying because they have complete control over the work you've done\" he says \"Eventually you develop a thick skin about it and learn to let it go\" (S16, confirmed on the live page). Letting it go is exactly the Nine move the discriminator describes. \"He fought the studios on smaller things too\" also overstates the gum anecdote: in MR PORTER (S07) the studio said no and nothing describes a fight. Overall the discriminator gets applied to the favorable episodes (Pearl Harbor, the dean, Malarek, the Weinstein call) and skipped for the ones that read as Nine.",
+			"acceptance_test": "\"Why not Type 9?\" applies its own pressure test to the 2002-2004 retreat and says plainly which way that episode leans. \"Turn right, go left\" either moves out of the testing-authority section or is acknowledged as also fitting quiet Nine stubbornness. The SHARP quote either includes \"learn to let it go\" or stops being used as one-sided Six evidence. \"He fought the studios\" either cites a sourced fight or is reworded. If the retreat leans Nine, the meta_title \"Why He Stepped Back\" and the type answer's \"stepping back from Hollywood\" no longer imply that the Six reading explains the retreat."
+		},
+		{
+			"id": "enneagram-03",
+			"severity": "major",
+			"passage": "That inward interrogation is the most distinctive thing in Hartnett's record.",
+			"problem": "The fear self-audit is the article's signature Six marker. The persona title (\"Cross-Examined His Own Fear\") and the first discriminator point both rest on it. But the record shows it clearly only once, in a 2020 retelling of a 2000 decision. His contemporaneous 2002 account says only \"Yeah, I nearly turned it down... I didn't want to be famous,\" with no fear audit (S03). The second instance the article offers is Superman in 2003 (\"Am I going to feel fulfilled doing this?\"), labeled \"another self-audit\" inside \"The fear that won\". That was a fulfillment check, and in the same answer he said \"There's really no specific reason. I like the people involved in it\" (S04, confirmed on the live page). The fear framing of Superman only appears later: \"risk\" in 2021, \"swallowed up\" in 2024. The 2015 \"fear of the concept of being one thing\" line was about the Batman/Prestige meeting and comes through a secondary page. Trap's \"if this goes wrong, it's all on me\", followed by a laugh and \"I love challenges\", is a light third instance. A marker called \"the most distinctive thing\" in a 24-year record needs to repeat across contexts and time.",
+			"acceptance_test": "Either the article shows at least two more sourced, dated instances beyond Pearl Harbor where he names a fear in himself and argues with it, or it scales back \"the most distinctive thing in Hartnett's record\" (and the persona title's reliance on it). The Superman paragraph presents the 2003 fulfillment account (\"no specific reason\") as the contemporaneous one and labels the fear reading as retrospective. \"The fear that won\" either rests on a contemporaneous fear statement or is softened."
+		},
+		{
+			"id": "enneagram-04",
+			"severity": "minor",
+			"passage": "And in the same 2002 breath as \"That's not my fight,\" he said, \"There are other things I want to fight for.\"",
+			"problem": "The discriminator paragraph's supporting items are weaker than they look. (1) In the Observer (S03) the \"fight for\" line continues: \"I want interesting roles. I want to do some good in the world.\" What he wants to fight for is an aspiration, not a response to threat, and a Nine could say it. Cut off where it is, it reads as combative Six energy. (2) \"He goes back to fix his own words when he worries they will be misread, as with the Weinstein call\": Gilbey frames the call as conscientiousness, and what it did was make his condemnation plainer. That counts fairly against Nine conflict-avoidance, but it is not specific to Six (it fits One just as well). Clarifying a misreported remark, as in the 2015 Batman correction, is ordinary celebrity behavior. (3) \"He tests the people he is about to trust\": Malarek was a role subject he met as homework (Gilbey: \"Hartnett does his homework... Naturally he met with the real Malarek\", S02), not someone he was about to trust.",
+			"acceptance_test": "The \"fight for\" line either includes its continuation or is dropped as Six evidence. The Weinstein call and the dean letter are presented as evidence against the Nine reading, not as proof of Six. \"He tests the people he is about to trust\" is reworded to fit the Malarek context (role preparation, skepticism of a self-promoting subject)."
+		},
+		{
+			"id": "enneagram-05",
+			"severity": "minor",
+			"passage": "[Type 7](/enneagram-corner/enneagram-type-7) fits the thrill-seeking.",
+			"problem": "The paragraph argues against the Seven at its weakest point (racing and \"danger\") and ignores its strongest one, which is the motive the article itself centers. \"My fear of the concept of being one thing in my career and one thing only\" (2015, quoted in the draft as the Batman motive), \"I didn't respond to the idea of playing the same character over and over, so I branched out\" (S02), \"I was always swinging for something that was outside what people expected from me\" (S01) and turning down a multi-film Superman commitment all express the Seven's signature fear of being confined. The rebuttal relies on a visa limit, which is a legal condition of a family choice, plus McGurk's gloss (\"also suits him fine\"), not on a choice of limitation in Hartnett's own words. So the article presents the Seven's best evidence as Six evidence and leaves the Seven alternative token. This is the Seven-specific companion to enneagram-01.",
+			"acceptance_test": "The Type 7 paragraph deals directly with the \"one thing only\" and pigeonholing evidence. It either gives a sourced reason that strand reads as Six rather than Seven (for example, that he met confinement by withdrawing to stillness and trusted people instead of multiplying options, citing his words) or concedes that the strand fits Seven too. The visa rebuttal is either backed by his own words or replaced."
+		},
+		{
+			"id": "enneagram-06",
+			"severity": "minor",
+			"passage": "The racing streak would need a counterphobic Six or a Seven wing to explain it, and neither is demonstrated.",
+			"problem": "Much of the article's own core Six evidence is counterphobic in shape: choosing Pearl Harbor because \"turning it down would've been based on fear\", the contrarian \"turn right, go left\", Trap's \"if this goes wrong, it's all on me... I love challenges\", and Shyamalan's line that he is \"willing to risk everything\" (S01, unused). Saying counterphobia is \"not demonstrated\" contradicts the evidence the Six case depends on. Calling on it only when convenient would do the opposite damage, letting the label absorb any behavior.",
+			"acceptance_test": "The article takes one consistent position. Either it names the counterphobic pattern once in the type argument (citing Pearl Harbor and Trap), says plainly that racing fits the same pattern, and notes the risk that the label explains too much; or it stops relying on counterphobic behavior as Six evidence. The \"neither is demonstrated\" sentence no longer contradicts earlier sections."
+		},
+		{
+			"id": "enneagram-07",
+			"severity": "minor",
+			"passage": "The ideal he named was defined against fear.",
+			"problem": "\"Isn't afraid to go out on a limb\" is a stock idiom. The ideal itself, an outsider \"who finds his own ideals\", is the identity motif the article later assigns to Type 4. Later the article discounts his fear words as idiom (\"The fear words have also softened into idiom\") but counts this one as thesis evidence. The same selectivity affects the opening lexical claim, \"the same few words keep returning: afraid, trust, control, defined\". That claim is not counted, and the words partly come from interviewers asking him about fear and leaving Hollywood.",
+			"acceptance_test": "\"The ideal he named was defined against fear\" is removed or qualified (flagged as an idiom, or the outsider ideal acknowledged as Four-flavored). The \"same few words keep returning\" sentence is either backed by a count across named interviews or reworded to point to specific decisions rather than word frequency."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "Offered the most invulnerable hero in fiction, Hartnett went looking for the fear in him.",
+			"reason": "A specific, sourced hook that turns a famous trivia item (the Superman refusal) into a psychological question the article goes on to answer."
+		},
+		{
+			"passage": "The first half is a contented young man. The second half is the move that matters for typing. He suspected his own reluctance, named it as fear and refused to let fear make the call. Then, when the film did change his life, he counted the outcome as proof that the fear had been right.",
+			"reason": "The best piece of motive analysis in the draft. It separates the Nine-like half of the quote from the Six-like half instead of cherry-picking, and it reads the closing twist (\"I was right to fear it\") precisely."
+		},
+		{
+			"passage": "He was bracing for the cut before he had finished rising.",
+			"reason": "Names anticipatory threat-scanning, the most Six-specific behavior in the record. It should anchor the discriminator, not be trimmed."
+		},
+		{
+			"passage": "The 2002 drift line remains unexplained. At 23, months before stepping back, he described himself much as a Nine would. A Six reading has to treat that as a young man's modesty or a pose for a journalist, and it might be neither. That is why the confidence stays at medium.",
+			"reason": "An exemplary honest limit. It states the strongest contrary datum, declines to explain it away, and ties it to the confidence level."
+		},
+		{
+			"passage": "Frightening years can teach anyone to be vigilant. The type reading cannot rule out that the vigilance was learned rather than built in.",
+			"reason": "Takes the situational alternative (stalking, press hostility) seriously, in plain language, inside the body rather than as a footer disclaimer."
+		}
+	],
+	"assessment": "Enneagram review. The draft is unusually honest where profiles usually fudge. It holds medium confidence, gives Type 9 a full section built from his own words, concedes that the Pearl Harbor answer opens like a Nine, leaves the 2002 drift line unexplained, gives circumstance its own section, and uses no wing, arrow or subtype to absorb contradictions. The weak point is the discriminator. The motive the article centers, fear of being defined or fixed by other people, is shared ground for 4, 7 and 9. That leaves the Six case resting on fear vocabulary plus one strong self-audit (Pearl Harbor, told in 2020). The stated Six-versus-Nine test (behavior under pressure) is applied to favorable episodes but not to the 2002-2004 retreat, where his own explanations (plain sanity, not participating, quietly going left, learning to let it go) match the article's definition of a Nine. The record has a more Six-specific thread the article underuses: fame framed as exposure to attack (tallest poppy, set-up-to-fail, looking over your shoulder, not knowing how to protect himself) and identity anchored in trusted people (\"Those people make me who I am\"). With that thread at the center and the retreat scored honestly, Six at medium confidence is defensible. As written, it beats Nine more on framing than on a tested discriminator, and Seven is argued only at its weakest point. Risk flags: contested_typing stays true (the Six-versus-Nine call is genuinely close), and sensitive_allegations stays true (the stalker and gun account, Weinstein). Similarity: not tripped (max 0.071 against a 0.072 threshold, at the noise ceiling). The top matches are ordinary Six definitional phrasing (\"a person or a plan that will hold\" echoes Grace Reiter's \"support that will hold\") and the \"9takes reads other actors... as\" comparison device also seen in the Joseph Zada profile. The arguments themselves differ, so there is no reuse finding. Sources read for this review: S01, S02, S03, S04, S07, S08, S12, S14, S16 and S23, from the research-stage saved page texts. Live pages for S03, S04 and S16 were re-fetched to confirm the quotes that findings 02-04 depend on."
+}

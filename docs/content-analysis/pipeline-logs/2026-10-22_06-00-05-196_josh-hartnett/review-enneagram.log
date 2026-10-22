@@ -1,0 +1,26 @@
+I've finished the Enneagram review for the Josh Hartnett run and written `review-enneagram.json`. It passes the contract's review schema, its two hashes match the request, and every passage it cites matches the draft exactly. Nothing else in the repo was touched, and nothing was published.
+
+**Verdict:** Type 6 at medium confidence is defensible. As written, though, it beats Type 9 more on framing than on an actual test.
+
+**What the draft does well:** It is honest where profiles usually fudge. It gives Type 9 a full section built from his own words and leaves his 2002 "go along for the ride" line unexplained. It uses no wings, arrows or subtypes to explain away contradictions.
+
+**Major findings (3):**
+- **enneagram-01: the central fear isn't specific to Type 6.** The article's core fear is being defined or "fixed in place" by others. That fits Types 4, 7 and 9 just as well. Two stronger threads are sitting unused in the sources:
+  - fame as exposure to attack: "don't cut me down!", "looking over your shoulder", "I didn't know how to protect myself"
+  - identity anchored in trusted people: "Those people make me who I am"
+- **enneagram-02: the Six-vs-Nine test is only applied to the easy cases.** The draft never applies it to his biggest pressure episode, stepping back in 2002–2004. There his own explanations match the article's own definition of a Nine:
+  - "plain sanity"
+  - "wasn't participating"
+  - "turn right, go left," said about advisers who hadn't noticed
+  - "learn to let it go," which the draft cuts out of the SHARP quote
+- **enneagram-03: the signature move barely repeats.** "Cross-examining his own fear" clearly shows up only once, in a 2020 retelling of the Pearl Harbor decision. The 2003 Superman answer is labelled "another self-audit," but it was about fulfillment, and in it he said "There's really no specific reason."
+
+**Minor findings (4):**
+- The "other things I want to fight for" quote is cut off before "I want interesting roles. I want to do some good in the world."
+- Type 7 is only argued against its weakest point (racing), not its strongest (his fear of being "one thing only").
+- The draft says a "counterphobic" Six (one who runs at what scares them) is "not demonstrated," yet the Pearl Harbor and *Trap* evidence it relies on is exactly that pattern.
+- It discounts his fear words as idiom in one place but counts "isn't afraid to go out on a limb" as evidence in another.
+
+I protected five passages, including the Superman opening, the two-halves reading of the Pearl Harbor quote, and "bracing for the cut." I kept both risk flags on: the typing is contested, and the draft covers sensitive allegations (the stalker with a gun, Weinstein). The similarity check didn't trip, so there's no reuse finding.
+
+I read the main sources from the copies the research stage saved. I re-fetched the live pages for the four quotes the major findings rest on (2002 Observer, 2003 Philstar, SHARP), and all four matched.

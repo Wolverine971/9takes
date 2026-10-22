@@ -250,7 +250,7 @@ The loud version is charming entitlement, where rules are for other people and c
 
 ### Type 8: the one who never backs down
 
-The common picture of [Eights](/enneagram-corner/enneagram-type-8) centers on strength and staying in control. In the Big Five studies, their profile matches the loud style's mix more consistently than any other type's.
+The common picture of [Eights](/enneagram-corner/enneagram-type-8) centers on strength and staying in control. In [the Big Five studies](/enneagram-corner/enneagram-vs-personality-frameworks-comparison), their profile matches the loud style's mix more consistently than any other type's.
 
 Loud, it's my way or no way, retaliation for disrespect, and "respect" that is really fear. The quiet version is rare to see, because showing hurt can feel like weakness, so a wound tends to come out as an attack. Type 8 had the second-strongest NPD correlation in the clinic study (.27) and the strongest link to antisocial features (.36).
 

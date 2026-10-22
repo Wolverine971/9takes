@@ -1,0 +1,26 @@
+{
+  "eligible": false,
+  "blockers": [
+    "verification:revise",
+    "unresolved:verify-01:The evidence record lists unopened sources as support. C80 cites S32 (Playboy 2015) and C48 cites S36 (USA Today 2015); both are marked access: unavailable, and no stage opened them. The article handles this correctly (\"as quoted by ComicBook.com\"), and the wording checks out against S23. But the release gate requires every source a claim cites to be opened and context-checked, and I cannot honestly report S32 or S36 as opened. As it stands, the record says these claims rest on originals nobody read.",
+    "unverified_source:S32",
+    "unverified_source:S36",
+    "overall_below_8.5:8.3"
+  ],
+  "quality": {
+    "evidence": 8.5,
+    "enneagram": 8,
+    "originality": 8.5,
+    "writing": 7.5,
+    "durability": 8.5,
+    "hook": 9,
+    "discoverability": 8.5,
+    "overall": 8.3,
+    "letter": "B",
+    "rubric_version": 3,
+    "graded_at": "2026-10-22",
+    "caps_applied": [],
+    "needs_review": true,
+    "content_sha256": "1faaf40cee7bcfc11e3a277a676e8f6e967cfb251082878ed2cb032273410e52"
+  }
+}

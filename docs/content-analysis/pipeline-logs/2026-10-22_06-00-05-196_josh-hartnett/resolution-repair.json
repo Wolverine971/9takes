@@ -1,0 +1,333 @@
+{
+  "schema_version": 3,
+  "decisions": [
+    {
+      "finding_id": "subject-F1",
+      "action": "fixed",
+      "reason": "Fixed. The quote now runs in the order Hartnett gave it in S02: \"They looked at me as someone who had bitten the hand that fed me,\" he told Gilbey. \"It wasn't that. I wasn't doing it to be recalcitrant or a rebel.\" The next sentence gives his stated reason: he \"didn't respond to the idea of playing the same character over and over,\" so he went looking for smaller films and \"burned my bridges at the studios because I wasn't participating\" (C99, C138). \"He fought the studios on smaller things too\" and the chewing-gum anecdote are gone. The Dimension paragraph keeps the studio's side: the contract \"bound him\" and Dimension \"used it to become co-producer of films he was already making, such as O\" (C25)."
+    },
+    {
+      "finding_id": "subject-F2",
+      "action": "fixed",
+      "reason": "Fixed by removal. The harassment question and his answer are cut from the article, and C77 is removed from the inventory. Nothing narrates hesitation or withholding, no sentence ties anything to the follow-up call except his statement about Weinstein, and the exchange is not used as type evidence."
+    },
+    {
+      "finding_id": "subject-F3",
+      "action": "fixed",
+      "reason": "Fixed. The 2003 answer opens with his own hedge, \"It wasn't what I wanted to do. There's really no specific reason. I like the people involved in it\" (C148), and keeps \"The answer was no. Probably not\" (C11). \"Another self-audit\" became \"Then came a check on himself,\" with no fear framing. The heading \"The fear that won\" became \"Saying no to the capes\" (FAQ anchor updated). The reading is labeled: \"only the secondhand 2015 one names fear outright\" (C152), then \"Read together, they still share one worry, being fixed in place by other people's idea of him, and Sixes are not the only type who has it\" (C101, reworded at repair to remove the audit voice of \"This profile reads them\"). C60 (\"most distinctive thing\") stays removed."
+    },
+    {
+      "finding_id": "subject-F4",
+      "action": "fixed",
+      "reason": "Fixed. The meta_title is \"Josh Hartnett's Enneagram Type: Why 6 Edges Out 9\" (49 characters), which does not present the type as the cause of stepping back. The body type answer (54 words) opens \"Josh Hartnett is most likely an Enneagram Type 6, the Loyalist, held at medium confidence\" (the Type 6 link now sits in this sentence), matching the FAQ's \"read at medium confidence\" (C137, C59)."
+    },
+    {
+      "finding_id": "subject-F5",
+      "action": "fixed",
+      "reason": "Fixed. \"Under a director he admires, the old insecurity still shows\" stays deleted (C114 removed). The passage keeps \"I knew that he was messing with me\" (C139) before he says he wanted to please Stone, and Stone's method stays in Hartnett's words with explicit attribution: \"Stone got what he needed, he said, 'by playing off my own insecurity...'\" (C37). The verification stage independently transcribed a fresh download of the 2026 Q episode and found the Stone wording identical; a human listen at about 20:15-21:05 remains optional (research_tasks)."
+    },
+    {
+      "finding_id": "subject-F6",
+      "action": "fixed",
+      "reason": "Fixed. \"The fear has not gone\" stays deleted. At repair the dated SHARP paragraph (\"By 2026 he was also handling the old worry through a say in the outcome\", former C109) was cut for length, so no sentence now claims an ongoing fear from that interview. The SHARP quote survives in the Nine case with both halves together: \"Losing control of a finished film is 'terrifying,' he told SHARP in 2026, then gave the same answer: 'Eventually you develop a thick skin about it and learn to let it go'\" (C111). The Trap account keeps his order: \"Yes, 100%\" first, then the worry, then \"a terrific challenge, but also I love challenges\" (C36). The closing reads \"He looks for the danger.\""
+    },
+    {
+      "finding_id": "subject-F7",
+      "action": "fixed",
+      "reason": "Fixed. The father quote now includes the full clause, \"– high-level work achievement as a means of proving himself\" (C04), and \"his modest ambition\" became \"a different measure of success.\""
+    },
+    {
+      "finding_id": "subject-F8",
+      "action": "fixed",
+      "reason": "Fixed by removal. The visa sentence (C124) is cut, so the article no longer states the visa rule in any voice and needs no visa trigger. The Seven rebuttal now rests on his own words about what filled the gap (C167)."
+    },
+    {
+      "finding_id": "fan-01",
+      "action": "fixed",
+      "reason": "Fixed. The intro separates the 2002 break (\"Then, in 2002, he stepped back and spent about a year and a half away from the business in Minnesota\") from the studio run and the lower-profile years: \"Studio films followed through 30 Days of Night (2007). From 2008 until the TV series Penny Dreadful (2014–2016) he worked mostly in small independent films...\" (C170, shortened at repair). The 2014 AP aside was cut at repair for length, so there is no longer a quote to misplace in the chronology. The gun incident is dated \"around 2005, after the first break\" (C168). The Minnesota sentence now rests on his own words: \"'I never really lived in L.A.,' he told Julia Stiles in 2024, so he went home to Minnesota\" (C143; the author-voice \"He had never really moved to Los Angeles\" is gone). The FAQ is consistent (C133, C135), and the closing reads \"In his early twenties the answer was distance\" (C132)."
+    },
+    {
+      "finding_id": "fan-02",
+      "action": "fixed",
+      "reason": "Fixed. The Pearl Harbor section has Cooke's 2002 \"Still, someone obviously persuaded him to think again\" and his only answer then, \"Well, we're all on a journey\" (C140). It adds \"Later secondhand accounts name the persuader as his father,\" citing AnOther (2019) and El País (2021), \"though neither cites a primary source\" (C141; reworded at repair from \"so treat the detail as reported\", keeping the secondhand label). The interpretation says the 2020 account \"leaves out whoever pushed him\" and \"Leaning on a trusted adviser fits a Six as well as a self-audit does\" (C142). \"That inward interrogation is the most distinctive thing in Hartnett's record\" stays deleted."
+    },
+    {
+      "finding_id": "fan-03",
+      "action": "fixed",
+      "reason": "Fixed. Restored context: 2003 \"There's really no specific reason. I like the people involved in it\" (C148); 2021 \"it was so obvious to me to turn it down,\" then \"I was being offered movies by the very top directors. And Superman was a risk\" (C91, printed as two quotations because an attribution separates them in S07); 2015 with its \"relationships I wish I'd formed\" opening, \"That was only part of what I was doing at the time\" and his statement that he did not regret Superman (C48, C80). At repair the dated reasons were reordered into a progression (\"from the part to the career to the whole life\", C178) without trimming any of them. The labeled reading names fear as one secondhand reason among several (C152, C101)."
+    },
+    {
+      "finding_id": "fan-04",
+      "action": "fixed",
+      "reason": "Fixed. Outside the quotation the sentence now says the contract \"bound him\" to \"like, five more or something\" and that Dimension used it \"to become co-producer of films he was already making, such as O\" (C25). The Slevin sentence adds \"though by Gilbey's account Dimension had attached itself to Slevin too\" without questioning the \"all friends\" memory (C104)."
+    },
+    {
+      "finding_id": "fan-05",
+      "action": "fixed",
+      "reason": "Fixed. One neutral, attributed sentence now opens the early-life section: \"Hartnett's parents split when he was small, and he grew up mainly with his father, a former musician, and his stepmother, an artist who gave him his love of painting, the Observer reported in 2024\" (C02 restored). It makes no causal claim, and his mother's health and death are omitted. The Type 4 paragraph notes that \"the painting came from his stepmother\" (C165)."
+    },
+    {
+      "finding_id": "fan-06",
+      "action": "fixed",
+      "reason": "Fixed. The 2002 lunch remark is printed in full in the Nine section: \"That's not my fight. There are other things I want to fight for. I want interesting roles. I want to do some good in the world\" (C115; C116 merged). It is no longer used as combative Six evidence. The Kerry campaigning is left out because it is reported only secondhand (S24) and the research do-not-use list rules out partisan framing; it stays listed in type_hypothesis.unexplained (7)."
+    },
+    {
+      "finding_id": "fan-07",
+      "action": "fixed",
+      "reason": "Fixed. The SHARP quote is printed whole, fear word and coping together, in the Nine case: \"Losing control of a finished film is 'terrifying,' he told SHARP in 2026, then gave the same answer: 'Eventually you develop a thick skin about it and learn to let it go'\" (C111; former C176 merged into it). At repair the separate \"By 2026 he was also handling the old worry\" paragraph and the Slevin producing note (former C109, C110, C160) were cut for length, so there is no longer a \"now\" framing that needs qualifying."
+    },
+    {
+      "finding_id": "fan-08",
+      "action": "fixed",
+      "reason": "Fixed. The body names the film as White Lies, \"unreleased as of October 2026,\" and says he plays a character based on Stone (\"it's not officially Oliver\") (S15). C37, C113 and C139 are time_sensitive with a release-or-2027-10-22 trigger."
+    },
+    {
+      "finding_id": "critic-01",
+      "action": "fixed",
+      "reason": "Fixed. \"The fuller version\" became \"a longer account\" (the protected sentence changed, keeping its both-halves contribution). The section reports Cooke's 2002 \"someone obviously persuaded him\" and his \"Well, we're all on a journey\" (C140), then labels the account: \"That is a 2020 retelling, and it leaves out whoever pushed him, so it shows how he later explained the decision, not how he reasoned at the time\" (C142). \"The rest of the decade suggests he took that lesson seriously\" (C67) and \"the most distinctive thing\" (C60) stay deleted."
+    },
+    {
+      "finding_id": "critic-02",
+      "action": "fixed",
+      "reason": "Fixed. The Superman paragraph opens with \"There's really no specific reason\" and \"Probably not\" (C148, C11); \"another self-audit\" is gone and the heading is neutral (\"Saying no to the capes\"). The causal \"once Pearl Harbor had proved a fear right, he stopped overruling it\" is replaced by labeled interpretation resting on the secondhand 2015 statement: \"only the secondhand 2015 one names fear outright. Read together, they still share one worry... and Sixes are not the only type who has it\" (C152, C101). The asymmetry stays open: \"Why he overruled his fear for Pearl Harbor and not for Superman is still open; a three-film deal... may simply have been the bigger threat\" (C153)."
+    },
+    {
+      "finding_id": "critic-03",
+      "action": "fixed",
+      "reason": "Fixed. Malarek keeps Gilbey's framing, \"he did what Gilbey called his homework and met the real man,\" plus the critics' accusation and Hartnett's verdict, \"Ultimately, Victor is a humble man\" (C75, C155). \"He tests the people he is about to trust\" stays removed, and the 2015 \"cautious\" clarification (C79) is not used. The Weinstein call-back carries its reputational motive (C157). The section closes: \"None of these episodes settles the type, and some are ordinary professional care... That counts against a Nine's peacekeeping, though a One would do the same\" (C81). Neither the Type 9 FAQ nor the discriminator counts these episodes as Six-specific (C171, C164). At repair the disputed Purchase letter (former C07, C73) and Gilbey's \"conscientious\" aside (former C78) were cut for length."
+    },
+    {
+      "finding_id": "critic-04",
+      "action": "fixed",
+      "reason": "Fixed. \"Why not Type 9?\" runs the pressure test on the retreat: \"Run that test on the 2002 retreat and it comes out close to even. His words for it are a Nine's: 'just plain sanity'... 'it didn't feel entirely healthy. So I just sort of took a step back'\" (C121, C162). It cites \"let it slide off your back\" (C161) and \"learn to let it go\" (C111). The studio years are neutral: \"Quietly not taking part is how a Nine resists; a hard fight is not. His two accounts point opposite ways\" (C119, reworded at repair from the audit-voice \"so the studio record is not scored here\"). The Six lead is explained in different terms (exposure, a pre-fame-loyalty filter on trusted people, counterphobic pattern; C163, C164, C177, C129), and confidence stays medium."
+    },
+    {
+      "finding_id": "critic-05",
+      "action": "fixed",
+      "reason": "Fixed. The frequency sentence (C49) stays deleted. The definition section keeps his own ordinary-stage framing from 2004, \"I was like a lot of people in their 20s, wondering, 'Who am I? What do I want to be when I grow up?'\" (C83), and states \"Wanting to define yourself is not peculiar to Sixes; Fours, Sevens and Nines guard it too\" (C145). At repair the 2024 \"late teens or early twenties\" line (former C144) was cut as a duplicate of C83, which makes the same point closer to the events. The type answer and type FAQ do not use \"who gets to define him\" as a Six marker; they rest on exposure and trust (C58, C172)."
+    },
+    {
+      "finding_id": "critic-06",
+      "action": "fixed",
+      "reason": "Fixed. Cooke's skepticism now sits beside her description: \"so gauche and anxious,\" but \"The way he tells it - though I am not entirely sure I believe him - fame is agony\" (C13). The NPR \"curled up into a ball\" exchange was first restored with its \"so embarrassed\" and \"also thrilled that people cared\" halves, then cut for length rather than printed trimmed (C88, C89 removed)."
+    },
+    {
+      "finding_id": "critic-07",
+      "action": "fixed",
+      "reason": "Fixed by removal. \"The ideal he named was defined against fear\" (C61) is deleted, and the Huck Finn quote now ends at \"finds his own ideals,\" without the idiom. The Type 4 paragraph cites the outsider self-image."
+    },
+    {
+      "finding_id": "critic-08",
+      "action": "fixed",
+      "reason": "Fixed. The visa claim is removed (C124). The Seven paragraph now rests on a motive-level discriminator from his own 2024 words: \"I had to find something else to fill that gap... A Seven would reach for new options; he reached for people: 'I felt, and still feel, that community is what fills it.'\" It says plainly that \"The Seven question narrows but does not close\" (C167)."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "action": "fixed",
+      "reason": "Fixed. Events carry event dates: Dimension's first films (1998, C158), Pearl Harbor (2001), the 2001 Vanity Fair piece (C26), the 2002 break in Minnesota (C19), the Superman offer \"around 2002\" (C149), the Nolan conversation \"in the early-to-mid 2000s\" (C94) and the gun incident around 2005 (C168). \"The rest of the decade suggests...\" and the \"Read in order\" sentence stay deleted. The bullshit-meter section now opens on the dated 2002 Cooke exchange (\"At 23\") after the Purchase anecdote was cut at repair for length. The sections run Pearl Harbor (2001), the break (2002), Superman/Batman (2002 to mid-2000s), and the trust rule (2020s)."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "action": "fixed",
+      "reason": "Fixed. The intro gives the 2003-2007 studio run and the 2008-2015 lower-profile films ending with Penny Dreadful: \"Studio films followed through 30 Days of Night (2007). From 2008 until the TV series Penny Dreadful (2014–2016) he worked mostly in small independent films, several released straight to DVD\" (C170). A reader of the body answers \"Did he disappear?\" as the FAQ does: no, he kept working. The 2014 AP aside (former C57) was cut at repair for length; the filmography already carries the answer."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "action": "fixed",
+      "reason": "Fixed. Dimension, \"the Weinstein brothers' horror label,\" is introduced in the early-life section (C158), and the Weinstein paragraph opens \"Gilbey also asked about Harvey Weinstein, whose label had made those first films\" (C156). The harassment sentence is removed entirely (see subject-F2)."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "action": "fixed",
+      "reason": "Fixed. Outside the quotation: \"The contract bound him to 'like, five more or something,'... Dimension used it to become co-producer of films he was already making\" (C25). The quoted words stay verbatim."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "action": "fixed",
+      "reason": "Fixed. The 2015 quotation now opens with the verbatim \"it was about relationships I wish I'd formed but\" (C48). The next line explains \"'That one aspect' appears to mean the superhero franchise on offer\" (C151). The Oppenheimer passage calls back: \"In 2024 he told McGurk what he had learned, echoing the 2015 regret\" (C159)."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "action": "fixed",
+      "reason": "Fixed. The list of shifting reasons includes the hook's version: \"In 2020 it was the frightened Superman the studio didn't want\" (C150, S02)."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "action": "fixed",
+      "reason": "Fixed. \"Head triad\" is glossed in the type answer (\"the types built around fear\"). \"Counterphobic\" is glossed (\"a Six who moves toward the thing he fears\"), and \"Seven wing\" is removed. The Type 4 and Type 7 paragraphs each open with the type's core drive: \"driven by the search for an authentic, distinct identity\" and \"driven to keep options open and escape confinement.\""
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "action": "fixed",
+      "reason": "Fixed. The Trap anecdote moved to the discriminator paragraph and is tied explicitly to the counterphobic pattern alongside Pearl Harbor (C36, C129). \"Choosing people instead of parts\" now ends on the Stone anecdote, framed by the director he chose: \"When Stone asked him, he told The Film Stage, 'I had to do it'\" (C113)."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "action": "fixed",
+      "reason": "Fixed. The definition section names the fear's object and why it reads as Six: \"What is more Six-like is how he pictures fame: as exposure to attack\" (C145). The dated instances are the 2001 tallest-poppy feeling with \"don't cut me down\" (C69, told 2020), MR PORTER 2021 (\"terrified that someone's coming up behind them... looking over your shoulder\", C146), \"didn't know how to protect myself\" (2024, C86) and \"the press's mission to tear you apart\" (2024, C126). Identity is anchored in trusted people: \"I wanted to be myself amongst people that I knew\"; \"Those people make me who I am\" (C147). \"Being fixed in place\" is labeled shared: \"Sixes are not the only type who has it\" (C101)."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "action": "fixed",
+      "reason": "Fixed. The retreat is tested and called \"close to even\" (C121, C162, C163). \"Turn right, go left\" is acknowledged as \"as much a Nine's quiet stubbornness as a Six's open challenge\" (C154). The Nine case includes \"learn to let it go\" printed with its \"terrifying\" setup (C111). \"He fought the studios\" and the gum anecdote stay removed, and the studio years count for neither type (C119). The meta_title no longer says \"Why He Stepped Back,\" and the type answer does not cite stepping back as Six evidence."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "action": "fixed",
+      "reason": "Fixed. The marker is scaled back: \"most distinctive thing\" is deleted, the self-audit is labeled a 2020 retelling (C142), and the persona title changed from \"Cross-Examined His Own Fear\" to \"The Heartthrob Who Braced for the Cut,\" which rests on the 2001 exposure feeling (C174). The 2003 fulfillment answer is presented as the contemporaneous one with \"no specific reason\" (C148). \"The fear that won\" is replaced by a neutral heading and a labeled reading that rests the fear interpretation on the secondhand 2015 statement (C152)."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "action": "fixed",
+      "reason": "Fixed. The \"fight for\" line is printed with its continuation in the Nine section and is not Six evidence (C115). The Weinstein call-back and the Malarek check are presented as evidence against Nine peacekeeping that \"a One would do the same\" (C81); the Purchase letter was cut at repair. Malarek is worded as homework and skepticism of a self-promoting subject (C75, C155)."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "action": "fixed",
+      "reason": "Fixed. The Type 7 paragraph concedes that its \"best evidence is the worry at the center of the Six case: ... 'being one thing in my career and one thing only'\" (C166, reworded at repair from the audit-voice \"the worry this profile leans on\"). It gives a sourced, motive-level reason the strand reads less Seven: when achievement went flat, \"A Seven would reach for new options; he reached for people\" (C167). The visa rebuttal stays removed."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "action": "fixed",
+      "reason": "Fixed. One consistent position: the type argument names the counterphobic pattern once, glosses it, applies it to Pearl Harbor and Trap, and states its limit: \"The car racing fits too, though a label that stretches over almost any bold act means little without the trust pattern beside it\" (C129, reworded at repair from \"it counts here only alongside the trust pattern\"). The \"neither is demonstrated\" sentence stays deleted."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "action": "fixed",
+      "reason": "Fixed by removal. \"The ideal he named was defined against fear\" (C61) and the \"same few words keep returning\" sentence (C49) are deleted. The Huck Finn quote no longer includes the idiom."
+    },
+    {
+      "finding_id": "future-01",
+      "action": "fixed",
+      "reason": "Fixed. The temporary visa detail is removed rather than dated (C124 deleted), so nothing can lapse. The case against Seven rests on his documented choice of community (C167), and the trust section keeps the family-first return to steadier studio work (C43)."
+    },
+    {
+      "finding_id": "future-02",
+      "action": "fixed",
+      "reason": "Fixed by removal at repair. The dated \"By 2026 he was also handling the old worry through a say in the outcome\" (former C109) and the Slevin producing note (former C160) were cut with the SHARP paragraph for length, so nothing about his producer role can go stale. The SHARP quote survives only as a dated 2026 statement in the Nine case, with \"learn to let it go\" (C111). The closing line rests on pre-2026 evidence (C27, C31)."
+    },
+    {
+      "finding_id": "future-03",
+      "action": "fixed",
+      "reason": "Fixed. \"His recent life\" became \"His life in the 2020s,\" with outlets and years: \"he told Hollywood Authentic in 2024,\" and \"he told McGurk\" (introduced as 2024). The Type 9 FAQ says \"in 2024 he described English country life\" (C118). The Shyamalan line carries \"that year\" after the 2024 Hollywood Authentic citation (C39). No body sentence or FAQ uses \"recent\" or \"now\" about these quotes."
+    },
+    {
+      "finding_id": "future-04",
+      "action": "fixed",
+      "reason": "Fixed. \"24 years\" is gone from the hook (sentence deleted), the type FAQ (\"interviews he gave between 2002 and 2026\") and the closing (\"across his accounts\")."
+    },
+    {
+      "finding_id": "future-05",
+      "action": "fixed",
+      "reason": "Fixed. The age answer now reads \"He was born on July 21, 1978, in Saint Paul, Minnesota. He was 48 as of October 2026.\" C53 is time_sensitive, with a trigger to update after each July 21 and by 2027-07-21 at the latest."
+    },
+    {
+      "finding_id": "future-06",
+      "action": "fixed",
+      "reason": "Fixed. The Keanu Reeves comparison is in the inventory as C169 (time_sensitive), supported by new source S38: the repository source of the published Keanu Reeves page, which reads enneagram: 9, published: true on 2026-10-22. Its trigger says to recheck whenever that page's enneagram field changes, and by 2027-10-22."
+    },
+    {
+      "finding_id": "future-07",
+      "action": "fixed",
+      "reason": "Fixed. The film is named (\"White Lies, unreleased as of October 2026\"). Every time_sensitive claim (C37, C42, C44, C53, C55, C105, C106, C113, C139, C169) has a dated fallback in its trigger (2027-07-21, 2027-10-22 or 2028-10-22). C124 and, at repair, C109 were removed with their passages."
+    },
+    {
+      "finding_id": "verify-01",
+      "action": "fixed",
+      "reason": "Fixed in the evidence record. C80 and C48 now cite only S23 (ComicBook.com, opened), the page the article links and names (\"as quoted by ComicBook.com\"). S32 (Playboy 2015) and S36 (USA Today 2015) stay in the source list as access: unavailable, and no claim's source_ids includes them. C12's note and the research log say the same. No article change: the body already labels both statements as secondhand."
+    },
+    {
+      "finding_id": "verify-02",
+      "action": "fixed",
+      "reason": "Fixed. The sentence now dates the piece, not the meeting: \"Cooke's profile, published in April 2002, has him walking in 'so gauche and anxious,' though she doubted his anti-fame line\" (S03: \"he walks into the room looking so gauche and anxious\"). \"Met him in April 2002\" and the inferred \"near the end of the publicity run\" are gone. C13 is updated, and its claim records that the interview took place at a New York junket for 40 Days and 40 Nights with no date given."
+    },
+    {
+      "finding_id": "verify-03",
+      "action": "fixed",
+      "reason": "Fixed. The invented gesture is removed: \"His only explanation then: 'Well, we're all on a journey.'\" C140 is updated to match."
+    },
+    {
+      "finding_id": "verify-04",
+      "action": "fixed",
+      "reason": "Fixed by taking the second option in the acceptance test. The Type 4 rebuttal drops the Below clause and rests on \"He calls talking about his own career 'self-indulgent'\" (S12) and on the community evidence (\"he grounds identity in old friends, not difference\"; \"community is what fills it\"). C41 now cites only S12, and its inference records why the Below line was dropped: it was a choice for a fictional fisherman grounded in regional reticence (S18), not a statement about his own self-focus."
+    },
+    {
+      "finding_id": "verify-05",
+      "action": "fixed",
+      "reason": "Fixed, with one deviation stated plainly. Length: the body runs 3,672 words by checkDraft (from 4,028). That is about 70 over the 3,600 in the acceptance test; I stopped there because further cuts would have taken quotations the type argument or a prior fix depends on. Audit voice: rewritten as reader-facing sentences: \"so the studio record is not scored here\" became \"His two accounts point opposite ways\"; \"This profile reads them as one worry\" became \"Read together, they still share one worry\"; \"so treat the detail as reported\" became \"though neither cites a primary source\"; \"it counts here only alongside the trust pattern\" became \"means little without the trust pattern beside it\"; \"the worry this profile leans on\" became \"the worry at the center of the Six case.\" The one remaining audit-style line, \"The Details original could not be checked for this analysis, so treat the wording as reported,\" is a protected passage and is kept verbatim. Ledger: \"Saying no to the capes\" now reads as a progression (\"Over the years his reason has widened, from the part to the career to the whole life\", C178), and the duplicate list of reasons in the next paragraph is gone. Kept: all 14 protected passages (12 verbatim, 2 as changed at edit) and every secondhand label (ComicBook.com, PopCulture.com/Details, the AnOther/El País father accounts, CNN for Nolan, TheWrap for Shyamalan). Deviation: to reach this length I cut five low-weight passages with their quotations and removed their claims: the 2014 AP \"disappeared\" aside (C57; the filmography answers the question), the disputed SUNY Purchase letter (C73, C07), Gilbey's \"He is nothing if not conscientious\" (C78), the SHARP producer paragraph with \"really relieving\" and the Slevin producing note (C109, C110, C160; the SHARP \"terrifying ... learn to let it go\" quote is kept in the Nine case as C111), and the 2024 \"late teens or early twenties\" line (C144, duplicated by the 2004 C83). Every other inventoried quotation is kept, and all 106 multi-word quotations in the body were rechecked word for word against the saved source texts. The stacked attributions that remain are ones a quotation needs, chiefly the 2015 USA Today/ComicBook.com paragraph and the secondhand father paragraph."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Offered the most invulnerable hero in fiction, Hartnett went looking for the fear in him.",
+      "action": "kept",
+      "reason": "Kept verbatim as the hook. The next sentence was shortened at repair to \"and Hartnett's later accounts fit that reading,\" still stating that his accounts fit Gilbey's reading rather than proving it."
+    },
+    {
+      "passage": "The first half is a contented young man. The second half is the move that matters for typing.",
+      "action": "kept",
+      "reason": "Kept verbatim. Both halves of the Pearl Harbor answer are still quoted, and the next paragraph sets the 2002 record against it and labels it a 2020 retelling."
+    },
+    {
+      "passage": "Batman is often added to the list, but he never turned it down.",
+      "action": "kept",
+      "reason": "Kept verbatim, still followed by Nolan's \"It never got that far\" (CNN, 2023)."
+    },
+    {
+      "passage": "Frightening years can teach anyone to be vigilant. The type reading cannot rule out that the vigilance was learned rather than built in.",
+      "action": "kept",
+      "reason": "Kept verbatim. The stalking account keeps his minimizing preface, is dated around 2005, and still has no prison outcome."
+    },
+    {
+      "passage": "The Details original could not be checked for this analysis, so treat the wording as reported.",
+      "action": "kept",
+      "reason": "Kept verbatim at the Details quote. It is the one audit-style line left after the repair's voice pass, kept because it is protected and because the Details original is still unopened."
+    },
+    {
+      "passage": "Eighteen years later he gave Gilbey the fuller version, and both halves of it matter.",
+      "action": "changed",
+      "reason": "Changed one phrase at edit: \"the fuller version\" became \"a longer account\" (critic-01), because calling an 18-year retrospective the fuller version treated it as an expansion of the 2002 record. The sentence's contribution stays intact: both halves of the 2020 answer are still quoted, the Nine-like half first, and the repair shortened the lead-in to the second half to \"Then he questioned that instinct.\" Current text: \"Eighteen years later he gave Gilbey a longer account, and both halves of it matter.\""
+    },
+    {
+      "passage": "A few days after their Zoom interview, Hartnett phoned him back because he didn't feel he had made his feelings about Harvey Weinstein clear.",
+      "action": "kept",
+      "reason": "Kept verbatim. It is preceded by the Weinstein context and followed directly by his words and the reputational motive. The harassment exchange stays cut, and at repair Gilbey's \"conscientious\" aside was cut for length, so the sentence carries no implied allegation and no extra characterization."
+    },
+    {
+      "passage": "The 2002 drift line remains unexplained. At 23, months before stepping back, he described himself much as a Nine would.",
+      "action": "kept",
+      "reason": "Kept verbatim in the Type 9 section."
+    },
+    {
+      "passage": "Even the _Pearl Harbor_ answer opens with a Nine's wish that things stay as they are.",
+      "action": "kept",
+      "reason": "Kept verbatim in the Nine case."
+    },
+    {
+      "passage": "The 2002 drift line remains unexplained. At 23, months before stepping back, he described himself much as a Nine would. A Six reading has to treat that as a young man's modesty or a pose for a journalist, and it might be neither. That is why the confidence stays at medium.",
+      "action": "kept",
+      "reason": "Kept verbatim; confidence remains medium in the evidence record."
+    },
+    {
+      "passage": "He suspected his own reluctance, named it as fear and refused to let fear make the call. Then, when the film did change his life, he counted the outcome as proof that the fear had been right.",
+      "action": "kept",
+      "reason": "Kept verbatim. The next paragraph now labels it a reading of a 2020 retelling that omits the persuader (critic-01, fan-02), without rewriting the analysis itself."
+    },
+    {
+      "passage": "In his twenties the answer was distance. In his forties it is a short list of people he trusts.",
+      "action": "changed",
+      "reason": "Changed one word: \"In his twenties\" became \"In his early twenties\" (fan-01), because his late twenties included a 2003-2007 studio run. The two-stage contrast and the ending are kept: \"In his early twenties the answer was distance. In his forties it is a short list of people he trusts.\""
+    },
+    {
+      "passage": "The first half is a contented young man. The second half is the move that matters for typing. He suspected his own reluctance, named it as fear and refused to let fear make the call. Then, when the film did change his life, he counted the outcome as proof that the fear had been right.",
+      "action": "kept",
+      "reason": "Kept verbatim as a continuous passage, followed by the new retelling caveat."
+    },
+    {
+      "passage": "He was bracing for the cut before he had finished rising.",
+      "action": "kept",
+      "reason": "Kept verbatim. It now anchors the Six-specific exposure thread and the persona title (\"The Heartthrob Who Braced for the Cut\")."
+    }
+  ],
+  "prior_blockers": []
+}

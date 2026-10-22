@@ -1,0 +1,21 @@
+I've written the unfamiliar-reader review for the Josh Hartnett draft to `review-unfamiliar.json` in the run directory. It passes the pipeline's review schema, its hashes match the request, and every quoted passage matches the draft exactly. No other files were touched and nothing was published.
+
+**Verdict:** for someone who knows only his name, the draft is engaging and mostly pays off. The weak spots are about keeping the reader oriented, not about the insight.
+
+**Two major findings (the editor must address these):**
+1. **The timeline can't be followed.** The argument depends on order: he overruled his fear on Pearl Harbor, later obeyed it, then learned to rely on people he trusts. But most dates in the body are when he gave an interview, not when things happened, and the sections jump backwards. A new reader can't tell when the Superman offer or the Nolan Batman conversation happened, or how either relates to his 18-month break. So the "read in order" conclusion can't be checked.
+2. **2004–2022 is nearly blank.** The body names only *Lucky Number Slevin* from those years. Then "back in big studio films" suggests he was gone for twenty years, which contradicts the page's own FAQ ("He never quit acting"). One or two sourced sentences listing that period's work would fix it.
+
+**Six minor findings:**
+- Weinstein comes up about 40 lines before the reader learns Hartnett's early films were made for the Weinsteins' label. On a sensitive topic, his hesitant answer about harassment can then read as a hint.
+- "Guaranteed him a part" in five more films reads like a perk; the source says the contract tied him to them.
+- A 2015 quote is cut so it hides his regret about relationships he never formed (with Nolan), which is what sets up the *Oppenheimer* turn later.
+- The list of his changing reasons for refusing Superman leaves out the 2020 version the article opens with.
+- Typology jargon is unexplained ("head-triad", "counterphobic", "wing"), and Types 4 and 7 are never defined.
+- The *Trap* anecdote at the end of "Choosing people instead of parts" doesn't fit that section's heading.
+
+**Protected passages:** five, including the opening Superman line, the explanation of the Pearl Harbor self-audit, the correction that he never turned down Batman, the honest "remains unexplained" paragraph, and the closing "distance / people he trusts" contrast.
+
+**Other checks:**
+- **Similarity:** the check didn't trip (0.071 against a 0.072 threshold). The closest matches are generic Type 6 definitions, so I raised no finding on distinctiveness.
+- **Risk flags:** I kept two risk flags on: sensitive allegations and contested typing (Six versus Nine).

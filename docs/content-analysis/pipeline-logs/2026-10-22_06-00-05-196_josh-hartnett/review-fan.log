@@ -1,0 +1,21 @@
+I've written the fan-role review for the Josh Hartnett draft to `review-fan.json`. It passes the schema, the hashes match the request (so I reviewed the frozen draft), and all 13 quoted passages match the draft word for word. I didn't touch any other file or publish anything.
+
+**Risk flags:** sensitive allegations (Weinstein, the man with a gun at a premiere) and contested typing (6 vs 9) are both set. That keeps the six-reviewer panel in place. The type thesis doesn't need to change.
+
+**Three major findings** (the edit stage has to fix these):
+1. **The career timeline is squashed.** The draft has one step back (about 18 months around 2002–03) and then jumps to *Oppenheimer*. It leaves out the 2003–2007 studio run (*Hollywood Homicide*, *Sin City*, *The Black Dahlia*, *Lucky Number Slevin*, *30 Days of Night*). It also merges two separate quiet periods, the early break and the low-profile years around 2008–2014. Minnesota was already his home base before the break. So "In his twenties the answer was distance" doesn't hold up, and neither does the FAQ line about "smaller, independent films afterward."
+2. **His father's role in taking *Pearl Harbor* is missing.** The draft calls that decision its strongest evidence for Type 6 and tells it as a purely internal debate. But the 2002 Observer notes "someone obviously persuaded him," and two later secondhand accounts say it was his father. Including it doesn't hurt the Six reading; leaving it out just looks one-sided to anyone who knows the story.
+3. **The Superman section, "The fear that won," trims his quotes toward fear.** It cuts his own "There's really no specific reason" (2003), the line "it was so obvious to me to turn it down… I was being offered movies by the very top directors" (2021), and his 2015 caveat "That was only part of what I was doing at the time."
+
+**Five minor findings:**
+- The Weinstein brothers' horror label (Dimension) had options on him and attached itself to *Lucky Number Slevin* as co-producer. That's the same film the draft holds up as his "all friends" example of working with people he trusts.
+- The draft never says he was raised mainly by his father and stepmother. His love of painting came from her, which matters because the painter detail is used as a Type 4 clue.
+- The quote "There are other things I want to fight for" is cut short, and his 2004 campaign work, which he later regretted, is left out.
+- A quote from SHARP magazine drops "learn to let it go."
+- The unnamed Oliver Stone film is *White Lies*, and in it Hartnett plays a version of Stone himself.
+
+I marked five passages to protect: the Superman hook, the two-sided *Pearl Harbor* answer, the correction of the Batman myth, the Weinstein call-back, and the paragraph admitting the 2002 "go along for the ride" line stays unexplained.
+
+The similarity check didn't trip (top score 0.071, threshold 0.072). The closest matches are ordinary Type 6 wording, not a reused argument.
+
+I left a couple of scratch files in `/tmp` (`jh_fan_claims.txt`, `jh_fan_tools/`). They're outside the repo.

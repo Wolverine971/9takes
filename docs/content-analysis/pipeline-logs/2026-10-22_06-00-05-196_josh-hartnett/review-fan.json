@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "fan",
+  "content_sha256": "6d0d9edda84b363a320164469d6022ad4857d38c958bb848b5c58468a55a523f",
+  "evidence_sha256": "a9ad5c5424a5f1b3b1b2a4c00f1c58f1e15d37c9f0fd128905a310e646c1865c",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "fan-01",
+      "severity": "major",
+      "passage": "Then he stepped back. He moved home to Minnesota and spent about a year and a half away from the business.",
+      "problem": "The career record a fan knows best is compressed into one retreat. Next comes 'By his forties he was back in big studio films', the FAQ says 'He kept making smaller, independent films afterward', and the close says 'In his twenties the answer was distance.' The opened record says otherwise. Wikipedia (S27): he 'continued to work steadily throughout the 2000s' in Hollywood Homicide (2003), Wicker Park (2004), Sin City (2005), The Black Dahlia and Lucky Number Slevin (2006) and 30 Days of Night (2007). Then 'direct-to-DVD and international films' followed from August (2008) to Wild Horses (2015), and Penny Dreadful (2014-16) ended that stretch. The Film Stage (S15) dates 'his intentional disappearance from Hollywood' to the mid-2000s. The 2014 AP quote (S06) is about 'the last few years', not 2002. Minnesota was already his home before the break: S03 (April 2002) says 'he still resides in the Twin Cities', and S04 (2003) says he 'continues to live in Minneapolis when he's not on location'. The draft also leaves out S01's 'parted company with his agents'. And the gun-at-premiere incident ('when he was 27', so about 2005) came after the first break. Placed under the step back, it reads like a cause of it. Fans will notice Sin City, The Black Dahlia and 30 Days of Night are missing. The 'distance in his twenties' arc also skips the late twenties he spent headlining studio genre films.",
+      "acceptance_test": "The body names the 2003-2007 studio run (at least two of Hollywood Homicide, Sin City, The Black Dahlia, 30 Days of Night). It separates the roughly 15-18-month break of about 2002-03 from the lower-profile years of about 2008-2014 that ended with Penny Dreadful. The 2014 AP 'disappeared' quote is placed against the later period, and the gun incident is dated after the first break. Wording does not suggest he relocated to Minnesota for the break. The FAQ line 'He kept making smaller, independent films afterward' is corrected or dated, for example to 'increasingly from the late 2000s'. 'In his twenties the answer was distance' is reworded to match the filmography. Claims C108, C132, C133 and C135 are updated."
+    },
+    {
+      "id": "fan-02",
+      "severity": "major",
+      "passage": "He suspected his own reluctance, named it as fear and refused to let fear make the call.",
+      "problem": "The draft calls the Pearl Harbor self-audit 'the move that matters for typing', and the type section calls it 'the most distinctive thing in Hartnett's record'. It tells the decision as a purely inward interrogation. The best-known version of the story includes his father. The opened 2002 Observer (S03) comments right after 'I didn't want to be famous': 'Still, someone obviously persuaded him to think again.' Widely repeated secondary accounts say the persuader was his father. AnOther, 2019 (S26): he 'consulted his father', who reminded him of his own line 'I'm gonna see how far I can ride this thing.' El País, 2021 (S24): 'his father convinced him. Fame is temporary... but regret is permanent.' The evidence record already flags this (C09, C64 alternatives), but the article never mentions it. An informed reader will see the anecdote as the 2020 retelling with the adviser removed. Consulting a trusted figure before a big leap does not hurt a Six reading, so leaving it out only weakens fairness and costs nothing on the type.",
+      "acceptance_test": "The Pearl Harbor section includes Cooke's 'someone obviously persuaded him' and/or the father account. Both are attributed and marked secondhand, with no primary source traced. The interpretation paragraph and 'That inward interrogation is the most distinctive thing in Hartnett's record' are adjusted to cover a self-audit made with or after a trusted person's push. A claim mapping the father account to S03, S24 and S26, marked disputed or third_party, is added to the inventory."
+    },
+    {
+      "id": "fan-03",
+      "severity": "major",
+      "passage": "Asked about it at the 2003 round table, he described another self-audit: \"I asked myself, 'Am I going to feel fulfilled doing this?' The answer was no.\"",
+      "problem": "The section 'The fear that won' trims away the parts of its own quotes that cut against the fear reading. The full 2003 answer (S04) opens: 'It wasn't what I wanted to do. There's really no specific reason. I like the people involved in it. I just didn't feel that it was the right thing for me to do.' It ends 'The answer was no. Probably not.' The 2021 MR PORTER line (S07) is cut down to 'Superman was a risk'. In full it reads: 'At the time, it was so obvious to me to turn it down. I was being offered movies by the very top directors. And Superman was a risk.' That is a confident career call, not fear. The 2015 block quote (S23) starts mid-sentence. It drops the opening 'it was about relationships I wish I'd formed but', the tail 'That was only part of what I was doing at the time', and his statement in the same answer that he does not regret Superman. With these cuts, the heading and the C101 claim that he 'stopped overruling' fear look better supported than the record allows. A fan who has read these well-circulated interviews will catch it.",
+      "acceptance_test": "The section restores 'There's really no specific reason' (or an accurate paraphrase) and the 'so obvious... offered movies by the very top directors' context. It presents the 2015 fear clause with its 'relationships' frame and 'only part of what I was doing' qualifier. The heading and the 'once Pearl Harbor had proved a fear right, he stopped overruling it' paragraph describe fear as one of several stated reasons, with the explicit fear motive from the secondhand 2015 clarification. C90, C91, C48 and C101 are updated."
+    },
+    {
+      "id": "fan-04",
+      "severity": "minor",
+      "passage": "because his contract for those films guaranteed him a part in \"like, five more or something.\"",
+      "problem": "'Guaranteed him a part' makes the contract sound like a perk. In S02 he describes options that bound him: 'They're called contract extensions. I was told at the time that nobody ever uses them... they decided to, um, exercise that right. What they did a few times was to jump on other projects I was working on already and become co-producers.' Gilbey adds: 'These included O... and the comic thriller Lucky Number Slevin.' That mechanism is the most on-thesis detail available, since it is literally a studio fixing him in place. It also exposes a contradiction the draft misses. The Film Stage quote holds up Lucky Number Slevin as the 'all friends' proof of his trust rule, yet by Gilbey's account the Weinstein label attached itself to that same film under the extensions he resented.",
+      "acceptance_test": "The sentence says the contract obligated or optioned him for further films, and it includes the co-producer mechanism. The Lucky Number Slevin passage, or the Dimension paragraph, says that by Gilbey's account (S02) the Weinstein label attached itself to Slevin under the extensions, without suggesting the 'all friends' memory is false. C25 and C104 are updated."
+    },
+    {
+      "id": "fan-05",
+      "severity": "minor",
+      "passage": "He had wanted to be a painter.",
+      "problem": "The draft leaves out the household he grew up in, yet it relies on 'what he learned at home', his father's values and the painter self-image (which also feeds the Type 4 case). The opened sources agree. His parents split when he was small, and his mother moved to San Francisco. By the time he was four, his father had remarried, and he was raised mainly by his father and his stepmother, an artist. That was 'a much more normal Midwestern existence' (S01, S04, S03). S01 says 'He got his love of painting from his stepmother, an artist.' S18 adds that his father was a full-time musician 'up until I was born'. That is family context for his own family-over-work choice. Without it, the painter line looks like a temperament clue (Four) when it is partly an inherited family interest.",
+      "acceptance_test": "One neutral, attributed sentence gives the household: parents separated when he was small, raised mainly by his father and his stepmother, an artist who gave him his love of painting. It makes no causal claim and follows the do-not-use list on his mother, so her addiction, dementia and death are omitted or kept to one attributed clause. The Type 4 paragraph notes that the painting came from his stepmother. C02 is restored to the inventory with its passage."
+    },
+    {
+      "id": "fan-06",
+      "severity": "minor",
+      "passage": "And in the same 2002 breath as \"That's not my fight,\" he said, \"There are other things I want to fight for.\"",
+      "problem": "The quote stops before the answer to its own question. S03 continues: 'I want interesting roles. I want to do some good in the world.' The draft also leaves out the most revealing follow-through a fan would know. In 2004, months after stepping back from public exposure, he went on the campaign trail for John Kerry. El País (S24) says he now calls it one of his biggest regrets ('a bad career move'). S01 says he later campaigned for Obama. S27 lists environmental campaigning and a 2009 'Outstanding Environmentalist' award. A man fleeing the spotlight who still took the most public stance available is a real contradiction that bears on Six (cause loyalty) and on the 'distance' story. The research notes list it as unexplained, but the article is silent.",
+      "acceptance_test": "Either the full 2002 line ('I want interesting roles. I want to do some good in the world') is quoted, or one neutral, attributed sentence notes the 2004 campaigning and his later regret. In both cases there is no partisan framing, per the research do-not-use list, and the Kerry regret is labeled secondhand (S24). Alternatively, the resolution records why the contradiction is left out."
+    },
+    {
+      "id": "fan-07",
+      "severity": "minor",
+      "passage": "\"That's terrifying because they have complete control over the work you've done.\"",
+      "problem": "The SHARP answer (S16) continues straight on: 'Eventually you develop a thick skin about it and learn to let it go. But in this instance, and on a few films I've worked on, I was able to be involved in post-production as well.' Leaving out 'learn to let it go' removes Nine-friendly counterevidence from the very quote used as Six evidence. Leaving out 'a few films I've worked on' supports the framing that his say in the outcome is new ('It now gets handled... through a say in the outcome'). He has in fact had producer credits since August (2008) and 6 Below (2017) (S27). Fans of the indie years will know he produced August.",
+      "acceptance_test": "The passage includes or paraphrases 'learn to let it go', and the 'now' framing is qualified to say he has sought a producer's say since at least 2008. The Nine section may cite 'learn to let it go' as counterevidence. C109 and C111 are updated."
+    },
+    {
+      "id": "fan-08",
+      "severity": "minor",
+      "passage": "Describing a loosely autobiographical Oliver Stone film, still unreleased in October 2026, he told Q that during one scene Stone complimented everyone except him.",
+      "problem": "The draft leaves out the detail that makes this anecdote distinctive. In The Film Stage (S15) Hartnett says 'Yeah, I play Oliver. I mean, it's not officially Oliver' and names the film White Lies. So Stone withheld approval from the actor playing a version of Stone himself. The draft keeps the film unnamed and the role vague, so a reader cannot place it later and the scene loses its sharpest irony.",
+      "acceptance_test": "The sentence names the film as White Lies (per S15, dated October 2026). It says Hartnett plays a character based on Stone and keeps the unreleased status as a dated, time-sensitive claim with a review trigger. C37 and C113 are updated."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Offered the most invulnerable hero in fiction, Hartnett went looking for the fear in him.",
+      "reason": "A specific, sourced hook that turns the most repeated fact about him, the Superman refusal, into a psychological question the article goes on to explore. It doesn't flatter him."
+    },
+    {
+      "passage": "Eighteen years later he gave Gilbey the fuller version, and both halves of it matter.",
+      "reason": "It quotes the Nine-friendly first half of the Pearl Harbor answer ('I didn't necessarily want things to change that much') before the Six-friendly half. This is exactly the context fidelity fans expect, and the paragraph should survive the fan-02 repair."
+    },
+    {
+      "passage": "Batman is often added to the list, but he never turned it down.",
+      "reason": "It corrects the most widely repeated myth about him with Nolan's 'It never got that far' and his own 2015 Prestige account. An informed reader will trust the rest of the piece more because of it."
+    },
+    {
+      "passage": "A few days after their Zoom interview, Hartnett phoned him back because he didn't feel he had made his feelings about Harvey Weinstein clear.",
+      "reason": "A distinctive, observed behavior that is little known even to fans. It is handled carefully (no implied allegation) and is the best single evidence for the 'repairs his own words' pattern."
+    },
+    {
+      "passage": "The 2002 drift line remains unexplained. At 23, months before stepping back, he described himself much as a Nine would.",
+      "reason": "Honest about what the type reading can't absorb. It refuses to explain away his own most Nine-like words, and that is why the medium confidence is believable."
+    }
+  ],
+  "assessment": "Read as an informed fan, the draft is unusually disciplined about well-known myths. Batman is corrected, the $100m Superman figure is avoided, Purchase is 'asked to leave', and the Al Green story is narrowed. Both halves of the Pearl Harbor answer are quoted, and the piece does not flatter him. Its weak spots are the ones a fan would catch first. (1) The 2003-2007 studio run (Sin City, The Black Dahlia, 30 Days of Night, Lucky Number Slevin) is missing. The roughly 2002-03 break and the roughly 2008-2014 low-profile years are merged into one retreat, which strains the 'distance in his twenties, people in his forties' arc and the FAQ claim about independent films. (2) The father's widely reported role in the Pearl Harbor decision is left out, even though the draft calls that decision its most distinctive evidence. (3) The Superman section trims non-fear context from the same 2003, 2021 and 2015 quotes it relies on. Smaller items: the Dimension contract mechanism and the Slevin contradiction, the household he grew up in, his 2004 campaigning, a trimmed SHARP quote, and the unnamed Stone film in which he plays Stone. None of these requires changing the type. They do require restating the chronology and softening 'The fear that won'. Similarity diagnostic: not tripped (max 0.071 against a 0.072 threshold). The closest pairs are ordinary type-definition wording ('a person or a plan that will hold' and Grace Reiter's 'support that will hold') and are not reuse of an argument. The expanded jury's risks stand: sensitive allegations (Weinstein, the armed stalker) and contested 6-versus-9 typing."
+}

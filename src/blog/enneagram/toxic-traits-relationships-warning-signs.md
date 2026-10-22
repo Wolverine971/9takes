@@ -278,7 +278,7 @@ Nothing settles it, because the fear was never about one answer. A Six would rat
 
 ### Type 7: the dodge
 
-**Fear, pushed down.** A Seven feels the fear and says "not now." They reframe it, plan the next good thing, and keep their options open.
+**Fear, pushed down.** A Seven feels the fear and says "not now." They reframe it, [plan the next good thing](/enneagram-corner/why-the-next-thing-wont-fix-it-type-7), and keep their options open.
 
 **Early warning sign:** Serious moments get laughed off. They can't stay serious.
 

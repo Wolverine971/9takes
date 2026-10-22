@@ -1,0 +1,16 @@
+I've written the future-role review for the Josh Hartnett draft to `docs/content-analysis/pipeline-logs/2026-10-22_06-00-05-196_josh-hartnett/review-future.json`. It passes the review schema, the two hashes match the request, and every quoted passage appears word for word in the draft. I changed no other files and published nothing.
+
+**The five-year test passes at the core.** If you remove the October 2026 *Verity*/*Below* release week, the main argument still stands on sources from 2002 to 2024: the Superman opening, the *Pearl Harbor* "am I just afraid?" self-check, his habit of testing authority, and the Batman correction. The problems are local and fixable.
+
+**Two major findings:**
+- **future-01:** The sentence saying his UK marriage visa limits him to about 180 days a year of work abroad reads as a current fact. It is actually Stuart McGurk's 2024 report, and the restriction will probably end within five years. The argument against him being a Type 7 rests on it.
+- **future-02:** "The fear has not gone. It now gets handled through… a say in the outcome" rests only on the 2026 *Below* interviews. The SHARP quote stops at "That's terrifying…". In the source, his next sentence is "Eventually you develop a thick skin about it and learn to let it go," which cuts against the draft's claim. I confirmed this in the saved copy of the interview.
+
+**Five minor findings:**
+- "Recent" and "now" are used for undated 2024 quotes on the Type 9 side, in both the body and the FAQ.
+- "24 years" appears three times and will silently go wrong after the next update.
+- The age FAQ ("turned 48 in July 2026") is marked stable with no reminder to update it.
+- "9takes reads… Keanu Reeves… as Nines" is a claim about the site itself that isn't in the claim list. It is true today.
+- The Oliver Stone film is described as "still unreleased in October 2026" even though The Film Stage already names it as *White Lies*. Several review triggers for changing facts also have no fallback date.
+
+I also listed five passages to keep, including the opening, the *Pearl Harbor* analysis and the honest admission of the unexplained 2002 quote that sounds like a Nine. The similarity check didn't trip, and the closest matches are ordinary Type 6 vocabulary rather than reused arguments.

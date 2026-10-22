@@ -55,7 +55,7 @@ Three emotions give you three groups. To get to nine types, look at what each pe
 
 Some people use it. It gives them energy and gets them moving: the 8 with anger, the 4 with shame, the 6 with fear. Some feel it and push it down, the "I don't want to feel this right now" move: the 1, the 2 and the 7. And some aren't consciously aware of it at all. It sits in the background and drives them anyway: the 9, the 3 and the 5.
 
-That's how I walk people through finding their type, and it's what the [9takes Enneagram test](/enneagram-test) is built on. Other teachers carve up the triads differently, so if you've studied the Enneagram before, some of this will look rearranged.
+That's how I walk people through finding their type, and it's what the [9takes Enneagram test](/enneagram-test) is built on. Other teachers [carve up the triads differently](/enneagram-corner/enneagram-social-styles), so if you've studied the Enneagram before, some of this will look rearranged.
 
 ### Why the strength and the weakness are one trait
 

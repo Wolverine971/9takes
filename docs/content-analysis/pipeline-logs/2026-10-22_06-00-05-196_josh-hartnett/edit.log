@@ -1,0 +1,33 @@
+Error: Reached max turns (60)
+[runner] Turn limit reached; resuming session 618eef0d-f3c5-4c17-aaa7-15925d6d1d00 to write outputs
+The edit stage for Josh Hartnett is finished. I wrote the three requested files and changed nothing else; the draft stays unpublished.
+
+**Files written** (in `docs/content-analysis/pipeline-logs/2026-10-22_06-00-05-196_josh-hartnett/`)
+- `edit.md`: the edited article.
+- `evidence-edit.json`: the updated evidence record.
+- `resolution-edit.json`: a decision on every reviewer finding.
+
+**Checks run**
+- The article passes the pipeline's draft checks with no blockers.
+- The evidence passes the pipeline's own validator: every claim's quoted passage matches the edited text.
+- Both JSON files match their required formats.
+- I checked every quotation against the saved source texts and found three that had been stitched together across an attribution. I split them at the attribution.
+
+**What changed**
+- **Type:** still Type 6 at medium confidence, with Type 9 the close rival. The argument changed:
+  - It now leans on the evidence the reviewers called most specific to a Six: he describes fame as exposure to attack ("I'm not the tallest poppy yet – don't cut me down!"), and he anchors himself in people he trusts.
+  - It applies its own Six-versus-Nine test to the 2002 retreat and admits that episode comes out close to even.
+- **Findings:** I fixed all 46 (the reviewers' summary said 44; the files contain 46).
+  - Restored the parts of his answers that had been trimmed away: Superman ("There's really no specific reason… Probably not"), the 2021 interview, the 2015 statement, "It wasn't that" after "bitten the hand," "learn to let it go," the Trap "Yes, 100%," and the Stone "messing with me."
+  - The *Pearl Harbor* fear story is now labeled as a 2020 retelling. Beside it sit the 2002 interviewer's line that "someone obviously persuaded him" and the secondhand reports that his father talked him into it.
+  - Added the 2003–2015 filmography, his family background, the Weinstein label context, the title of the Oliver Stone film (*White Lies*), and plain explanations of Enneagram terms.
+  - Cut the harassment exchange, the visa sentence, the "24 years" counts and several overreaching interpretive lines.
+- **Titles:** the meta title is now "Josh Hartnett's Enneagram Type: Why 6 Edges Out 9". The persona title is now "The Heartthrob Who Braced for the Cut".
+- **Strong passages the reviewers asked to keep:** 12 are verbatim. Two changed by a phrase: "the fuller version" became "a longer account," and "In his twenties" became "In his early twenties."
+- **Dates that will go stale:** each claim that will age (his age, the *White Lies* release, family details, the comparison to this site's Keanu Reeves page) now has a dated recheck deadline.
+
+**Open items**
+- **Length:** about 4,030 words. That is under the 4,500 limit but above the standard's ~3,500 target, and the reviewer scoring writing quality may mark it down for that.
+- **Unchecked audio:** the Oliver Stone quotes come from machine transcripts of the CBC Q podcast. The two transcription models agree, but I did not re-listen to the audio, so that stays an open research task.
+- **The father's role in *Pearl Harbor*:** reported only secondhand, and the article labels it that way.
+- **Site-page source:** I added the site's own Keanu Reeves page as a new source (`S38`). It is backed by the repository copy of that page, not the live URL.

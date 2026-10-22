@@ -995,6 +995,191 @@
 			"id": "/personality-analysis/neil-strauss -> /personality-analysis/madonna",
 			"reason": "named in a list of Strauss's interview subjects",
 			"date": "2026-10-15"
+		},
+		{
+			"id": "/community/be-gentle-when-youre-right -> /enneagram-corner/how-to-apologize-like-a-pro",
+			"reason": "only mentions are a Roy Cohn quote and a mercy-order line; post isn't about how to apologize (held 3 runs)",
+			"date": "2026-10-22"
+		},
+		{
+			"id": "/pop-culture/podcast-bros-enneagram-analysis -> /enneagram-corner/what-is-a-love-language",
+			"reason": "word match: 'want different' things",
+			"date": "2026-10-22"
+		},
+		{
+			"id": "/pop-culture/tech-titans-platform-emperors -> /pop-culture/tech-titans-disruptors",
+			"reason": "Musk's name routed to a blog post when his own page exists; only mention sits in the QuickAnswer",
+			"date": "2026-10-22"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-type-2 -> /enneagram-corner/how-to-apologize-like-a-pro",
+			"reason": "word match: 'the apology she's still waiting on' is a gift-memory detail",
+			"date": "2026-10-22"
+		},
+		{
+			"id": "/enneagram-corner/mental-health/enneagram-therapy-guide -> /enneagram-corner/how-to-apologize-like-a-pro",
+			"reason": "word match: 'ask without apologizing' (DBT assertiveness)",
+			"date": "2026-10-22"
+		},
+		{
+			"id": "/pop-culture/kardashian-family-enneagram-analysis -> /enneagram-corner/which-enneagram-type-is-most-likely-to-be-a-narcissist",
+			"reason": "'narcissism' in a list of the partners' vulnerabilities, not about narcissism by type",
+			"date": "2026-10-22"
+		},
+		{
+			"id": "/pop-culture/tech-titans-ai-wars -> /enneagram-corner/what-is-a-love-language",
+			"reason": "word match: 'diversity of these different things' (Zuckerberg quote)",
+			"date": "2026-10-22"
+		},
+		{
+			"id": "/how-to-guides/dating-dynamics-by-enneagram-type -> /enneagram-corner/what-is-a-love-language",
+			"reason": "bold label in a paragraph that already links the love-languages guide",
+			"date": "2026-10-22"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-connecting-lines -> /enneagram-corner/toxic-traits-relationships-warning-signs",
+			"reason": "word match: 'early warning system for stress' (connecting lines)",
+			"date": "2026-10-22"
+		},
+		{
+			"id": "/pop-culture/ghislaine-maxwell-psychology -> /enneagram-corner/which-enneagram-type-is-most-likely-to-be-a-narcissist",
+			"reason": "'narcissistic' is inside Tom Bower's quote about Robert Maxwell",
+			"date": "2026-10-22"
+		},
+		{
+			"id": "/how-to-guides/definitive-guide-to-relationship-conflict-part-1 -> /enneagram-corner/toxic-traits-relationships-warning-signs",
+			"reason": "word match: early warning signs of Gottman's Four Horsemen, not type toxic traits",
+			"date": "2026-10-22"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-type-6 -> /enneagram-corner/toxic-traits-relationships-warning-signs",
+			"reason": "word match: 'early warning system' is a Type 6 strength",
+			"date": "2026-10-22"
+		},
+		{
+			"id": "/enneagram-corner/love-languages-and-enneagram-types -> /enneagram-corner/how-common-is-each-enneagram-type",
+			"reason": "word match: 'the rarest kind of safety'",
+			"date": "2026-10-22"
+		},
+		{
+			"id": "/pop-culture/epstein-psychology-part-1 -> /enneagram-corner/which-enneagram-type-is-most-likely-to-be-a-narcissist",
+			"reason": "contrast line ('not the pride of a narcissist') in a 2-link Epstein paragraph",
+			"date": "2026-10-22"
+		},
+		{
+			"id": "/enneagram-corner/which-enneagram-type-is-most-likely-to-be-a-narcissist -> /enneagram-corner/depression-patterns-by-enneagram-type",
+			"reason": "'depression' inside a clinical-literature citation line",
+			"date": "2026-10-22"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-type-8 -> /enneagram-corner/how-common-is-each-enneagram-type",
+			"reason": "word match: 'The rarest one' (partner trait)",
+			"date": "2026-10-22"
+		},
+		{
+			"id": "/pop-culture/tech-titans-leadership-styles -> /enneagram-corner/depression-patterns-by-enneagram-type",
+			"reason": "'postpartum depression' in a parenthetical about a CEO's IPO",
+			"date": "2026-10-22"
+		},
+		{
+			"id": "/pop-culture/the-office-enneagram-types -> /enneagram-corner/enneagram-compatibility-matrix",
+			"reason": "same sentence already links team dynamics for the same idea",
+			"date": "2026-10-22"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-books-websites-podcasts -> /enneagram-corner/enneagram-and-religion",
+			"reason": "'Spiritual' is inside an affiliate book title",
+			"date": "2026-10-22"
+		},
+		{
+			"id": "/enneagram-corner/mental-health/enneagram-addiction-recovery-guide -> /enneagram-corner/enneagram-and-adhd-which-types-struggle-most",
+			"reason": "'ADHD medication abuse' in an addiction-pattern list, not about ADHD by type",
+			"date": "2026-10-22"
+		},
+		{
+			"id": "/enneagram-corner/personality-maxing -> /enneagram-corner/enneagram-vs-personality-frameworks-comparison",
+			"reason": "Big Five named as a control variable in charisma research",
+			"date": "2026-10-22"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-online-dating-guide -> /enneagram-corner/enneagram-compatibility-matrix",
+			"reason": "'Compatibility' means general match quality, not type pairing",
+			"date": "2026-10-22"
+		},
+		{
+			"id": "/enneagram-corner/mental-health/enneagram-medication-mental-health -> /enneagram-corner/enneagram-and-adhd-which-types-struggle-most",
+			"reason": "mention is inside an italic testimonial quote",
+			"date": "2026-10-22"
+		},
+		{
+			"id": "/enneagram-corner/mental-health/enneagram-science-mental-health -> /enneagram-corner/enneagram-and-religion",
+			"reason": "'spiritual growth' in a research-findings line",
+			"date": "2026-10-22"
+		},
+		{
+			"id": "/pop-culture/tech-titans-disruptors -> /pop-culture/tech-titans-ai-wars",
+			"reason": "Musk's name routed to a blog post when his own page exists",
+			"date": "2026-10-22"
+		},
+		{
+			"id": "/pop-culture/ghislaine-maxwell-psychology -> /enneagram-corner/enneagram-and-mental-illness",
+			"reason": "'narcissistic' is inside Tom Bower's quote about Robert Maxwell",
+			"date": "2026-10-22"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-books-websites-podcasts -> /pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
+			"reason": "word match: IEA 'Hosts global conferences'",
+			"date": "2026-10-22"
+		},
+		{
+			"id": "/pop-culture/google-leadership-evolution -> /enneagram-corner/enneagram-and-mental-illness",
+			"reason": "word match: Brin's 'disorder' means chaos",
+			"date": "2026-10-22"
+		},
+		{
+			"id": "/how-to-guides/the-crash-course-on-emotions-that-we-missed-in-kindergarten -> /pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
+			"reason": "word match: 'John' Gottman",
+			"date": "2026-10-22"
+		},
+		{
+			"id": "/pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis -> /pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
+			"reason": "word match: Unwell roster 'hosts'",
+			"date": "2026-10-22"
+		},
+		{
+			"id": "/pop-culture/podcast-bros-enneagram-analysis -> /personality-analysis/donald-trump",
+			"reason": "named as an interview guest",
+			"date": "2026-10-22"
+		},
+		{
+			"id": "/pop-culture/podcast-bros-enneagram-analysis -> /personality-analysis/vladimir-putin",
+			"reason": "sentence says the Putin interview doesn't exist",
+			"date": "2026-10-22"
+		},
+		{
+			"id": "/pop-culture/podcast-bros-enneagram-analysis -> /personality-analysis/elon-musk",
+			"reason": "named in a shared-guest list",
+			"date": "2026-10-22"
+		},
+		{
+			"id": "/enneagram-corner/90-day-personality-maxing-blueprint -> /personality-analysis/andrew-huberman",
+			"reason": "cited as the source of a research claim",
+			"date": "2026-10-22"
+		},
+		{
+			"id": "/pop-culture/hollywood-heartthrobs-enneagram-analysis -> /personality-analysis/hozier",
+			"reason": "song credit in a fan-edit example",
+			"date": "2026-10-22"
+		},
+		{
+			"id": "/how-to-guides/definitive-guide-to-relationship-conflict-part-1 -> /personality-analysis/tony-robbins",
+			"reason": "cited as an advice source next to an external link",
+			"date": "2026-10-22"
+		},
+		{
+			"id": "/personality-analysis/julia-fox -> /personality-analysis/madonna",
+			"reason": "named as a dinner companion in a Kanye anecdote",
+			"date": "2026-10-22"
 		}
 	]
 }

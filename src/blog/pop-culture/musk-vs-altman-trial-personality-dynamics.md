@@ -171,7 +171,7 @@ Every self-interested move arrived wearing the clothes of mission. That does not
 
 Much of Musk's case against Altman's credibility came from a board crisis that happened years after Musk left OpenAI. It was only indirectly connected to whether Musk's donations had legal restrictions. But it gave jurors a live test of Altman's character.
 
-Sutskever, Murati, Toner, and McCauley helped reconstruct the distrust that culminated in Altman's 2023 firing. Microsoft CEO Satya Nadella, meanwhile, described the board's execution of that decision as "amateur city" and recalled fearing that employees would leave en masse.
+Sutskever, Murati, Toner, and McCauley helped reconstruct the distrust that culminated in Altman's 2023 firing. Microsoft CEO [Satya Nadella](/personality-analysis/satya-nadella), meanwhile, described the board's execution of that decision as "amateur city" and recalled fearing that employees would leave en masse.
 
 Both things can be true:
 

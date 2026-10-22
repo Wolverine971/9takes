@@ -1,0 +1,32 @@
+The Josh Hartnett verify stage is done, and the verdict is **revise**. It isn't ready to release yet, but every fix is small. I wrote only `verification-edit.json` and published nothing. The file passes the schema, and I ran the pipeline's own release check on it.
+
+**What held up**
+- **Quotes:** every quoted passage matched source pages I fetched again myself. I also checked that each quote is attributed to the right person and means what it meant in context.
+- **Audio quotes:** I downloaded the 2026 CBC Q episode myself and transcribed it with a different Whisper model. The Oliver Stone, *Below* and father quotes match the earlier transcripts word for word, as does the 2018 red-carpet "anxiety" clip. That covers the "re-listen" task as far as a machine can; nobody has listened by ear.
+- **Editor's decisions:** I accepted all 46. Twelve of the 14 passages the reviewers asked to protect are unchanged. The other two changed by a phrase, which corrected an overstatement and kept what the reviewers valued.
+- **Typing:** Type 6 at medium confidence with Type 9 close is honestly argued. The article admits its biggest test case, the 2002 step back, comes out close to even.
+
+**What blocks release**
+1. **Two unread sources:** the evidence file cites the 2015 Playboy and USA Today interviews as support, but nobody ever opened them. The article itself attributes those quotes correctly to ComicBook.com, so the fix is in the evidence file only: drop those two citations. The release check blocks on this regardless of anything else.
+2. **Overall score is 8.3, below the 8.5 bar:**
+
+| Dimension | Score |
+|---|---|
+| Evidence | 8.5 |
+| Enneagram | 8.0 |
+| Originality | 8.5 |
+| Writing | 7.5 |
+| Durability | 8.5 |
+| Hook | 9.0 |
+| Discoverability (gated separately) | 8.5 |
+
+   Writing is what drags. At about 4,030 words the piece runs past the ~3,500 target, and the honesty fixes piled up as lines like "so the studio record is not scored here."
+
+**Three small accuracy fixes**
+- **Interview date:** the article says the 2002 interviewer "met him in April 2002". The source only shows the piece was published then.
+- **"A shrug":** this is a gesture the interviewer never described.
+- ***Below* line:** asking that his character not dwell on his trauma is used as evidence against Type 4. He actually gave a different reason: people from places like Minnesota don't complain about their own situation.
+
+If you want this released, the next step is one targeted repair: fix the evidence citations, make the three small fixes, and trim to about 3,600 words. Then verify again.
+
+One process note: while confirming the file hashes, I briefly put a scratch script in `scripts/` and deleted it in the same command, so nothing in the repo changed.

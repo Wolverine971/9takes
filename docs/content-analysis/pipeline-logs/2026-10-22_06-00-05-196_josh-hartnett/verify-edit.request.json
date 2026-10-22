@@ -1,0 +1,27 @@
+{
+  "schema_version": 3,
+  "subject": "josh-hartnett",
+  "mode": "create",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_verify_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-22_06-00-05-196_josh-hartnett/candidate-edit.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-22_06-00-05-196_josh-hartnett/evidence-edit.json",
+    "resolution": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-22_06-00-05-196_josh-hartnett/resolution-edit.json",
+    "review-subject": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-22_06-00-05-196_josh-hartnett/review-subject.json",
+    "review-fan": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-22_06-00-05-196_josh-hartnett/review-fan.json",
+    "review-critic": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-22_06-00-05-196_josh-hartnett/review-critic.json",
+    "review-unfamiliar": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-22_06-00-05-196_josh-hartnett/review-unfamiliar.json",
+    "review-enneagram": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-22_06-00-05-196_josh-hartnett/review-enneagram.json",
+    "review-future": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-22_06-00-05-196_josh-hartnett/review-future.json",
+    "baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-22_06-00-05-196_josh-hartnett/baseline-reader.md",
+    "checks": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-22_06-00-05-196_josh-hartnett/checks-edit.json"
+  },
+  "outputs": {
+    "verification-edit.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-22_06-00-05-196_josh-hartnett/verification-edit.json"
+  },
+  "content_sha256": "1faaf40cee7bcfc11e3a277a676e8f6e967cfb251082878ed2cb032273410e52",
+  "evidence_sha256": "e8dbdd555c389b2100ff5ba8d83ec51dbd45b0002a01bca4e757aeca0e2f0517"
+}

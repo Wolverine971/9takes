@@ -338,8 +338,8 @@ Data pulled October 7, 2026, from the 451 published profiles on 9takes. The busi
 - Type 2: Simon Sinek
 - Type 3: [David Beckham](/personality-analysis/david-beckham), Jared Kushner, Kris Jenner, Taylor Swift, Tony Robbins, Tyler Perry, Vivek Ramaswamy
 - Type 4: [Emma Chamberlain](/personality-analysis/emma-chamberlain)
-- Type 5: Lex Fridman, Tyler Cowen
-- Type 7: Kate Hudson, Kyle Forgeard, Ryan Reynolds
+- Type 5: Lex Fridman, [Tyler Cowen](/personality-analysis/tyler-cowen)
+- Type 7: Kate Hudson, [Kyle Forgeard](/personality-analysis/kyle-forgeard), Ryan Reynolds
 - Type 8: [Kara Swisher](/personality-analysis/kara-swisher), Scott Galloway
 - Type 9: Nate Bargatze
 
