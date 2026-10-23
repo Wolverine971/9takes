@@ -1,0 +1,1528 @@
+{
+  "schema_version": 3,
+  "content_sha256": "1ab3c113eee2935207544b1139252f5b2f992044a6ac06990887b93cc073e84e",
+  "evidence_sha256": "aa25211a31320b1672605f1a456c11a8c6ed15f04f7abf06124d292d997d4aa7",
+  "status": "insufficient_evidence",
+  "findings": [
+    {
+      "id": "verify-r-01",
+      "severity": "minor",
+      "passage": "Asked by [Numéro](https://numero.com/en/culture-en/music/interview-with-olivia-dean-the-new-bewitching-voice-of-soul/) in 2025 what she would have done without music, she named a florist among other jobs.",
+      "problem": "Numéro did not ask this. The question was \"What images come to mind when you create new songs?\" She volunteered \"if I hadn't been a musician, I would have wanted to be an English teacher, a dog sitter, or a florist\", and Numéro followed up with \"A florist?\" (S13, fetched 2026-10-23). It is the same framing error verify-04 fixed for the Numéro fear line.",
+      "acceptance_test": "The sentence presents the florist answer as volunteered, e.g. \"She told Numéro in 2025, in passing, that without music she might have been an English teacher, a dog sitter or a florist\". C45b's claim no longer says \"Asked what she would do without music\"."
+    },
+    {
+      "id": "verify-r-02",
+      "severity": "minor",
+      "passage": "she blurs her covers so listeners can see themselves in the music. A Four tends to guard what sets her apart; Dean keeps handing it over.",
+      "problem": "The listener-handoff purpose comes from Music Week's question about The Art of Loving cover and RS UK's 2025 answer, but here it is applied to both covers. In Numéro (S13, translated, 2025), which the article cites elsewhere, she explained the first album's cover differently: \"My music speaks… about me. My identity and my personal stories remain the common thread running through that first record ... a photo of me at 23 felt right. Nothing abstract. Also, I think I just really liked that photo of me.\" The omitted answer weakens a Four discriminator and the covers support for \"hands over the hearing\".",
+      "acceptance_test": "Either the cover reading is limited to her 2025 explanations of The Art of Loving and the shared blur (RS UK, Music Week), or the article notes, marked as translated, that she described the first cover as being about her own identity. C61 and C43 record the limit."
+    },
+    {
+      "id": "verify-r-03",
+      "severity": "minor",
+      "passage": "Each of these was told from success: the shortlist made, the hit album days away, the chart run under way.",
+      "problem": "\"Each of these\" includes the Messy-title remark, told on Bumble's My Love Is in May 2023, weeks before the debut came out. That was not from success. The three contexts listed fit Time Out, Sidetracked and Music Week only, so the sentence slightly overstates the Three comeback reading.",
+      "acceptance_test": "The sentence covers only the three remarks it lists (e.g. \"Three of these were told from success...\") or notes that the Messy title was explained before release. C51f's inference matches."
+    },
+    {
+      "id": "verify-r-04",
+      "severity": "minor",
+      "passage": "wore Carmen's photo on her chest for her 2024 Glastonbury Pyramid Stage set",
+      "problem": "Evidence-record hygiene. The reader-facing passage is correct, but C03's claim field still says \"at her first Glastonbury (2024)\" and C07's claim says the goals were \"achieved by 2024 (... Glastonbury 2024)\". Both contradict C03's own inference and S03/S22, which date her first Glastonbury set to 2023 (Lonely Hearts Club stage).",
+      "acceptance_test": "C03's claim reads \"for her 2024 Glastonbury Pyramid Stage set\" (no \"first\"), and C07's claim dates her first Glastonbury to 2023. No body change needed."
+    }
+  ],
+  "research_tasks": [
+    "Why the hold. Every printed quotation and fact verified against freshly fetched pages and re-downloaded captions, with key YouTube spans re-transcribed (whisper medium.en) and the Lowe speaker confirmed on video. All 52 resolution decisions and 17 protected passages check out. The hold is the type argument: the Two-over-Three lean rests on two self-reported purpose answers (RS UK 2025, ELLE 2026) that the article itself says a Three could give, and no costly or image-versus-relationship choice separates them. More editing cannot raise the Enneagram score without overclaiming. Only new evidence can.",
+    "Transcribe S37, And The Writer Is... Ep. 226 (YouTube yzWbab28z38, 1:26:40, 2025-10-27), via audio and whisper. On 2026-10-23, yt-dlp with --extractor-args \"youtube:player_client=mweb\" -f 18 downloaded YouTube media where the default client returned 403. Read it for (a) any dated choice where keeping a person, collaborator or audience cost her image, money or standing, or the reverse; (b) what she says the work is for; (c) any conflict, over-giving, difficulty receiving or resentment.",
+    "Look for a documented costly choice that separates Two from Three. Candidates: whether her loyalty to Braham, Hales/Nahome and the same band (S04, S11, S22) cost her commercial options she is on record declining; whether she turned down a feature, collaboration, brand or US-writing route for a relationship's sake; whether the 2026 Grammy speech's immigration turn drew documented career risk. Use dated, opened sources only.",
+    "Seek testimony outside the friendly circle: family (her mother Christine Dean, her aunt), former collaborators, a critical profile. Also find the WSJ. Magazine print profile and the Evening Standard 2024 interview (existing follow-ups). The current record has no family, ex-partner or critic voice (C16c).",
+    "Run the settle signal (C64) when it fires: her first long post-tour interview after 17 Oct 2026, the third-album announcement, or the February 2027 Grammys season. Classify what she says she wants against people/giving (2), goals/standing (3), freedom (7) and peace (9), with the 2025 baseline in C64b.",
+    "In the same refresh, fix verify-r-01 to verify-r-04 (minor wording and record fixes). Re-run with --refresh --expanded-review if the type thesis or discriminator changes. Open-case conversion is not an obvious route: she has released music since 2018 and has a substantial 2023-2026 long-form interview record, so this looks like a hard type on a promotional record rather than a young record. Any open-case attempt needs an independent eligibility check."
+  ],
+  "claim_checks": [
+    {
+      "claim_id": "C15",
+      "verdict": "supported",
+      "reason": "ELLE 2026 (S10, fetched fresh 2026-10-23) para. beginning \"As we settle into the sofa\": on learning it was Obell's birthday Dean \"insists on gifting me a bottle of Veuve Clicquot champagne\" and exclaims \"Why are you here working?!\". Attributed to the writer, as printed."
+    },
+    {
+      "claim_id": "C15b",
+      "verdict": "supported",
+      "reason": "ELLE 2026 (S10, fetched fresh 2026-10-23), same paragraph: \"Uh, do you know who you are?! You just won a Grammy!\" I shoot back. Exact, and correctly given as Obell's line."
+    },
+    {
+      "claim_id": "C15c",
+      "verdict": "supported",
+      "reason": "ELLE 2026 (S10, fetched fresh 2026-10-23): \"I like to set a vibe,\" she tells me, gesturing to the candles \"she had been lighting when I walked in\"; the suite is at The St. Regis, a few hours before her performance."
+    },
+    {
+      "claim_id": "C15d",
+      "verdict": "supported",
+      "reason": "ELLE 2026 (S10, fetched fresh 2026-10-23): \"on this particular Friday night ... Olivia Dean is the headliner\", \"The game is still two days away\", \"In the five days since she took home the Grammy\". Grammys 1 Feb 2026 + 5 = Friday 6 Feb 2026; Super Bowl LX was 8 Feb. Date is a correct derivation."
+    },
+    {
+      "claim_id": "C15f",
+      "verdict": "supported",
+      "reason": "ELLE 2026 (S10, fetched fresh 2026-10-23): \"Dean romanticizes life the way she makes music, turning ordinary moments into ones that feel worth lingering in\" immediately precedes the gift. Obell wrote the cover story, so both readings are fairly stated and left open."
+    },
+    {
+      "claim_id": "C31",
+      "verdict": "supported",
+      "reason": "Speech line in RS UK (S08), AP via WECT (S09) and ELLE (S10). \"Alone at 18\" is supported by Dean at the British Library (S20 captions 36:22-36:28, re-transcribed with whisper medium.en: \"she came when she was 18, never been on a plane before, came by herself\"). ELLE: emigrated \"at age 18\"."
+    },
+    {
+      "claim_id": "C31b",
+      "verdict": "supported",
+      "reason": "Exact wording appears in S08, S09 and S10; the \"a/the granddaughter\" variance is outside the quoted span."
+    },
+    {
+      "claim_id": "C31c",
+      "verdict": "supported",
+      "reason": "S08: \"Dean ended her speech with a note of positivity: 'We're nothing without each other.'\" Also in S10."
+    },
+    {
+      "claim_id": "C31d",
+      "verdict": "supported",
+      "reason": "S20 captions 36:49-36:53 and my whisper medium.en transcription of 35:50-37:12 both give \"I'm a product of her bravery\", said while introducing \"Carmen\". Upload July 2024, so \"in 2024\" is correct."
+    },
+    {
+      "claim_id": "C31e",
+      "verdict": "supported",
+      "reason": "Follows from C31d (July 2024) predating the 1 Feb 2026 speech. Labeled as the author's observation."
+    },
+    {
+      "claim_id": "C49",
+      "verdict": "supported",
+      "reason": "Interpretation of observed direction across the champagne (S10), Grammy speech (S08), Brits (S06) and Mobo (S30) remarks. The article immediately limits it: speeches \"show a direction, not a motive\"."
+    },
+    {
+      "claim_id": "C49b",
+      "verdict": "supported",
+      "reason": "Title describes direction, not motive, and is backed by at least four dated instances (champagne, Grammy, Brits, Mobo) plus the apology-first statements. The body concedes these are low-cost, so \"Keeps\" is not an overclaim about motive."
+    },
+    {
+      "claim_id": "C49c",
+      "verdict": "supported",
+      "reason": "ELLE 2026 (S10, fetched fresh 2026-10-23): the gift was five days after the Best New Artist win. Correctly time_sensitive, with a Grammy recheck trigger."
+    },
+    {
+      "claim_id": "C01",
+      "verdict": "supported",
+      "reason": "Wikipedia (S35): born 14 March 1999; Guardian (S04): \"raised in Highams Park, east London\". Consistent with the Guardian's \"26-year-old\" on 28 Feb 2026."
+    },
+    {
+      "claim_id": "C01g",
+      "verdict": "supported",
+      "reason": "Guardian (S04): \"a light, gauzy blend of bossa nova, throwback R&B and indie-pop\". RS UK (S01) cites Memphis soul and Motown. Fair paraphrase."
+    },
+    {
+      "claim_id": "C01h",
+      "verdict": "supported",
+      "reason": "Guardian (S04): \"graduate of the Brit school\"; \"Dean began releasing music aged 19, in 2018\". RS UK (S01): joined Rudimental \"on the road as a backing singer\". Time Out (S03) concurs."
+    },
+    {
+      "claim_id": "C01b",
+      "verdict": "supported",
+      "reason": "S35 gives 14 March 1999 with a citation. Ages in S04 (26 on 28 Feb 2026) and S10 (27 when ELLE published in April 2026) agree. A full date is supported, not invented precision."
+    },
+    {
+      "claim_id": "C01c",
+      "verdict": "supported",
+      "reason": "S35: \"born in Tottenham, North London\". \"London, England\" is accurate."
+    },
+    {
+      "claim_id": "C01d",
+      "verdict": "supported",
+      "reason": "S35 and S04: English/British singer."
+    },
+    {
+      "claim_id": "C01e",
+      "verdict": "supported",
+      "reason": "S35: \"English singer and songwriter\"."
+    },
+    {
+      "claim_id": "C01f",
+      "verdict": "supported",
+      "reason": "Variety AU (S26): Ticketmaster's reply tags \"@oliviadeano\". Correctly time_sensitive."
+    },
+    {
+      "claim_id": "C32",
+      "verdict": "supported",
+      "reason": "Time Out (S03): Messy \"was nominated for the Mercury Prize\"; Guardian (S04): \"her Mercury-nominated debut Messy, from 2023\". The gloss \"UK's album-of-the-year award\" is fair."
+    },
+    {
+      "claim_id": "C13",
+      "verdict": "supported",
+      "reason": "RS UK (S01): the album title came after a Mickalene Thomas exhibition at The Broad in LA, \"in response to bell hooks' [book] All About Love\". Guardian (S04): debuted at No 1 in the UK. \"Built around\" is a fair compression."
+    },
+    {
+      "claim_id": "C13c",
+      "verdict": "supported",
+      "reason": "Guardian (S04): \"its mega-smash UK No 1 single Man I Need\"."
+    },
+    {
+      "claim_id": "C13b",
+      "verdict": "supported",
+      "reason": "FAQ facts check against S01 (origin; \"to understand why I love the way that I do, and how I love other people\" is verbatim), S04 (UK No 1), S06 (Brit album of the year) and S33 (2026 Mercury shortlist). 26 Sept 2025 release is supported by S11 (published on release day) and S01."
+    },
+    {
+      "claim_id": "C32b",
+      "verdict": "supported",
+      "reason": "NPR (S12, Sept 2025): \"on the road as the opening act for Sabrina Carpenter's Short n' Sweet tour\". S12 is not in this claim's source_ids, but it is opened and in the record. S01 and S04 also mention Carpenter."
+    },
+    {
+      "claim_id": "C32c",
+      "verdict": "supported",
+      "reason": "Guardian (S04): best new artist was \"won in recent years by Chappell Roan, Olivia Rodrigo and Billie Eilish\". \"By 2026\" is accurate."
+    },
+    {
+      "claim_id": "C32d",
+      "verdict": "supported",
+      "reason": "Guardian (S06, 28 Feb 2026): four Brit awards. Dated, with a trigger."
+    },
+    {
+      "claim_id": "C32e",
+      "verdict": "supported",
+      "reason": "Guardian (S31, 31 July 2026): \"longest running UK No 1 single in history\". The verb \"became\" keeps it true after a later break."
+    },
+    {
+      "claim_id": "C32f",
+      "verdict": "supported",
+      "reason": "RS UK (S33, 30 July 2026) lists Olivia Dean on the 2026 Mercury shortlist. The result is not printed, correctly."
+    },
+    {
+      "claim_id": "C32g",
+      "verdict": "supported",
+      "reason": "S06 (album of the year at the 2026 Brits) and S33 (2026 Mercury shortlist)."
+    },
+    {
+      "claim_id": "C49d",
+      "verdict": "supported",
+      "reason": "S06: \"This album is just about love, and loving each other in a world that feels loveless right now.\" The article quotes from \"just about love\"."
+    },
+    {
+      "claim_id": "C49e",
+      "verdict": "supported",
+      "reason": "Guardian (S30, 26 Mar 2026): \"I want to just dedicate this actually to [the black feminist author] bell hooks and all the black feminists that inspire me to love better\"."
+    },
+    {
+      "claim_id": "C49f",
+      "verdict": "supported",
+      "reason": "Labeled limitation. It correctly stops the speeches counting as motive evidence."
+    },
+    {
+      "claim_id": "C33x",
+      "verdict": "supported",
+      "reason": "Method note. I independently re-downloaded the captions for S15-S21 and re-transcribed the key spans with whisper medium.en (a different model from earlier stages): S15 06:30-07:20, 09:02-09:24, 18:20-18:42; S16 06:08-06:32, 12:50-13:08; S17 06:10-06:35, 10:32-11:16; S19 08:50-09:06, 12:02-12:14; S20 35:50-37:12. Every printed fragment is shared by both transcriptions."
+    },
+    {
+      "claim_id": "C50",
+      "verdict": "supported",
+      "reason": "Hedged leading read (\"most likely reads as\", \"medium confidence\") matches type_hypothesis (type 2, medium). As a confidence statement this is accurate. Whether the evidence reaches the release bar is scored separately under Enneagram."
+    },
+    {
+      "claim_id": "C50b",
+      "verdict": "supported",
+      "reason": "Accurately states that Three is not ruled out, matching the alternative_case."
+    },
+    {
+      "claim_id": "C50c",
+      "verdict": "supported",
+      "reason": "The purpose and success answers (S01, S10) are about usefulness and people. Outward acts at peaks are documented (S10, S08, S06, S30). Hedged as a read."
+    },
+    {
+      "claim_id": "C50d",
+      "verdict": "supported",
+      "reason": "FAQ mirrors the body answer. Its quotes (\"most useful in my life\", \"how many people you can touch\") check against S01 and S10."
+    },
+    {
+      "claim_id": "C50e",
+      "verdict": "supported",
+      "reason": "Matches C50b."
+    },
+    {
+      "claim_id": "C50f",
+      "verdict": "supported",
+      "reason": "Three songs are each shown with a sourced sentence: \"Something Inbetween\" (S38 lyric; NPR S12 on independence), \"Man I Need\" (S10 \"call to action\"), \"Let Alone the One You Love\" (S07). \"Deal with that cost\" is a labeled interpretation."
+    },
+    {
+      "claim_id": "C50g",
+      "verdict": "supported",
+      "reason": "The meta title's \"A Two, With Three Close Behind\" matches the medium-confidence body and FAQ."
+    },
+    {
+      "claim_id": "C50h",
+      "verdict": "supported",
+      "reason": "The description's hedge matches the body."
+    },
+    {
+      "claim_id": "C24",
+      "verdict": "supported",
+      "reason": "Interpretation, hedged and immediately limited by circumstance (C24h, C24i) and by \"narrows the field to the heart types without choosing among them\"."
+    },
+    {
+      "claim_id": "C24b",
+      "verdict": "supported",
+      "reason": "Time Out (S03): \"I was like, if I stay in this environment I'll start to believe that I'm cringe. And I'm not cringe!\" Verbatim."
+    },
+    {
+      "claim_id": "C24j",
+      "verdict": "supported",
+      "reason": "Time Out (S03): \"dropping out after three weeks\". Credited to Time Out, as it should be."
+    },
+    {
+      "claim_id": "C24g",
+      "verdict": "supported",
+      "reason": "S03: \"Personally, it felt like you had to be making something really alternative and left to be cool [there]\". The bracketed \"there\" is rendered as narration outside the quote."
+    },
+    {
+      "claim_id": "C24d",
+      "verdict": "supported",
+      "reason": "ELLE 2026 (S10, fetched fresh 2026-10-23): \"surrounded by people who thought music was cool, and wanting to shine was cool. Whereas in my previous school, people would make me feel like I was too much.\" Context preserved."
+    },
+    {
+      "claim_id": "C24e",
+      "verdict": "supported",
+      "reason": "Labeled limit on the interpretation."
+    },
+    {
+      "claim_id": "C24h",
+      "verdict": "supported",
+      "reason": "S03: \"I felt quite different to everybody else. In primary school, I was one of the only Black girls.\" Verbatim, and offered as a circumstance alternative, not a wound."
+    },
+    {
+      "claim_id": "C24i",
+      "verdict": "supported",
+      "reason": "Labeled interpretation; it appropriately weakens C24."
+    },
+    {
+      "claim_id": "C14",
+      "verdict": "supported",
+      "reason": "RS UK (S01), answering about playing shows: \"It's the thing that makes me feel most useful in my life ... It's all about being with people.\" Dated \"an interview published in September 2025\", which S01's Aug/Sept 2025 issue supports."
+    },
+    {
+      "claim_id": "C14b",
+      "verdict": "supported",
+      "reason": "Same S01 answer, verbatim."
+    },
+    {
+      "claim_id": "C14c",
+      "verdict": "supported",
+      "reason": "ELLE 2026 (S10, fetched fresh 2026-10-23): \"My purpose in music is to help people, myself included, find compassion and a deeper connection with one another.\" Verbatim and a genuine purpose answer. \"Back in the San Francisco suite\" is a fair inference: ELLE quotes come from that interview."
+    },
+    {
+      "claim_id": "C14d",
+      "verdict": "supported",
+      "reason": "ELLE 2026 (S10, fetched fresh 2026-10-23): \"Success to me is venues and how many people you can gather in one space ... It's how many people you can touch.\""
+    },
+    {
+      "claim_id": "C14h",
+      "verdict": "supported",
+      "reason": "S17 captions 06:02-06:33, plus my whisper re-transcription. Asked \"How did you know that your talent was special?\", she says \"I've never felt like a competitive nature\" and \"I always knew that I had something to give.\" The article now frames it exactly that way."
+    },
+    {
+      "claim_id": "C14f",
+      "verdict": "supported",
+      "reason": "Labeled caveat about campaign incentives."
+    },
+    {
+      "claim_id": "C14g",
+      "verdict": "supported",
+      "reason": "FAQ quotes check against S01 and S10."
+    },
+    {
+      "claim_id": "C29",
+      "verdict": "supported",
+      "reason": "Variety AU (S26) and THR (S27): \"I'm sorry that there seems to be an issue ... My team are currently looking into it. It is extremely frustrating as the last thing I want is for anyone to be scammed or overcharged for our show\". THR calls it \"an Instagram story on Friday\", i.e. 21 Nov 2025."
+    },
+    {
+      "claim_id": "C29b",
+      "verdict": "supported",
+      "reason": "THR (S27): \"peeved fans posted screenshots showing tickets already on resale, marked up by hundreds of dollars within hours of the on-sale\". North American leg: PA (S28) names \"the North American run of the tour\", and ELLE calls it her first headlining North American arena tour."
+    },
+    {
+      "claim_id": "C29c",
+      "verdict": "supported",
+      "reason": "S26: \"She continued, '@ticketmaster @livenation @aegpresents you are providing a disgusting service ... BE BETTER.'\" The ellipsis omits \"and we need to find a new way of making that possible\"; the meaning is unchanged."
+    },
+    {
+      "claim_id": "C29d",
+      "verdict": "supported",
+      "reason": "PA (S28): Instagram story \"on Thursday\" (27 Nov 2025): Ticketmaster and AXS \"have agreed to refund the difference to anyone who has paid over face value\"; \"Every artist and their team should be granted the option to cap re-sale at face value ahead of on sale\"."
+    },
+    {
+      "claim_id": "C29k",
+      "verdict": "supported",
+      "reason": "S28: \"we as an industry have a responsibility to protect people and our community.\" Verbatim."
+    },
+    {
+      "claim_id": "C29l",
+      "verdict": "supported",
+      "reason": "S28: Rapino said \"we echo Olivia's call to do better\". The article's \"said the company would\" is a harmless tense paraphrase."
+    },
+    {
+      "claim_id": "C29m",
+      "verdict": "supported",
+      "reason": "THR (S27): \"At press time, it's unclear what Dean's team's policy was.\" No opened source resolves it. Correctly marked unresolved, with a trigger."
+    },
+    {
+      "claim_id": "C29f",
+      "verdict": "supported",
+      "reason": "S27: \"artists often exert some level of control of their resale policies\"; \"it's unclear what Dean's team's policy was\". Fair paraphrase."
+    },
+    {
+      "claim_id": "C29g",
+      "verdict": "supported",
+      "reason": "Within one statement (S26, S27) the apology precedes the complaint. The article labels this \"a small one\" and concedes it is standard crisis handling."
+    },
+    {
+      "claim_id": "C29n",
+      "verdict": "supported",
+      "reason": "Ticketmaster backed her the same day (S26) and Live Nation's CEO by 27 Nov (S28). \"Cost her little\" is a fair inference."
+    },
+    {
+      "claim_id": "C29h",
+      "verdict": "supported",
+      "reason": "S26: Ticketmaster \"acknowledged Dean's comments by reposting her message\", capped resale at face value, and wrote \"We support artists' ability to set the terms of how their tickets are sold and resold.\" Same-day report, so \"within hours\" holds."
+    },
+    {
+      "claim_id": "C29i",
+      "verdict": "supported",
+      "reason": "FAQ sequence checks against S26, S27 and S28."
+    },
+    {
+      "claim_id": "C29o",
+      "verdict": "supported",
+      "reason": "FAQ outcome checks against S26 and S28."
+    },
+    {
+      "claim_id": "C35f",
+      "verdict": "supported",
+      "reason": "Quotes verified: \"it's got to be my story\" (S16 12:57, audio-confirmed), \"I need to be across all of it\" (S15 18:28, audio-confirmed), \"she is across everything\" (S23, in a \"true 50/50\" partnership passage). The argument against Nine is labeled reasoning."
+    },
+    {
+      "claim_id": "C63",
+      "verdict": "supported",
+      "reason": "Summary interpretation. Each rival's piece is sourced in the body."
+    },
+    {
+      "claim_id": "C30",
+      "verdict": "supported",
+      "reason": "1News (S32): \"I'm so sorry about that, everybody. That's never happened before\" and \"We're not going to cut anything, we're going to give you what you paid for.\" Verbatim."
+    },
+    {
+      "claim_id": "C30b",
+      "verdict": "supported",
+      "reason": "S32: Western Springs Bowl on Saturday (17 Oct 2026), \"to conclude her Art of Loving Live tour\"; halted \"after just three songs\" for \"nearly 40 minutes\". S36: the tour concluded 17 Oct 2026 in Auckland."
+    },
+    {
+      "claim_id": "C30c",
+      "verdict": "supported",
+      "reason": "Self-limiting interpretation (\"only in direction\")."
+    },
+    {
+      "claim_id": "C16",
+      "verdict": "supported",
+      "reason": "Guardian (S04): Dean \"is such a light. You can tell she really wants the best for herself and to extend that to everyone who surrounds her\". Verbatim."
+    },
+    {
+      "claim_id": "C16d",
+      "verdict": "supported",
+      "reason": "S04: \"Brit school classmate ... a successful musician in her own right\". The Forty-Five (S25) joint interview on friendship supports \"friend\"."
+    },
+    {
+      "claim_id": "C16b",
+      "verdict": "supported",
+      "reason": "S21 captions 53:46-53:58: \"I can speak to someone in the band or I can even speak to Olivia. Be like, me and my wife are struggling\". \"Hard at home\" is fair."
+    },
+    {
+      "claim_id": "C08",
+      "verdict": "supported",
+      "reason": "S21 opens \"I've been on the road for the last 7 years with a singer called Olivia Dean\". The video title names Joel Waters, uploaded 2026-05-07 by The Real Hustle Podcast (yt-dlp metadata)."
+    },
+    {
+      "claim_id": "C15e",
+      "verdict": "supported",
+      "reason": "Time Out (S03): \"so self-effacing and generous\"; \"She smiles, flirts, makes sarcastic jokes and never breaks eye contact. She's here to please.\" Attributed to the writer, with context."
+    },
+    {
+      "claim_id": "C47",
+      "verdict": "supported",
+      "reason": "ELLE 2026 (S10, fetched fresh 2026-10-23), on post-Grammy online discourse: \"You can't please everybody. And I have such peace in that.\" Context matches \"after her 2026 Grammy\"."
+    },
+    {
+      "claim_id": "C07",
+      "verdict": "qualified",
+      "reason": "The passage is supported. S17 10:33-10:50 (audio-confirmed): first coffee with her manager at 17, goals \"Jools Holland\", an album, Glastonbury. S23: Braham has managed her since BRIT School, still in 2026. The claim summary, though, still says the goals were achieved with \"Glastonbury 2024\". The record's own C03 and S03/S22 put her first Glastonbury in 2023. See verify-r-04."
+    },
+    {
+      "claim_id": "C07b",
+      "verdict": "qualified",
+      "reason": "S17 (audio-confirmed): \"That was all I wanted to do\"; \"think of some new goals\". \"By 2024 she had done all three\": Messy (2023) and Glastonbury (2023, S03/S22) are dated. The Jools Holland appearance is dated only indirectly (S35: a cover \"recorded at Jools' Annual Hootenanny\" was released Oct 2024; S24: she has done \"Later… With Jools Holland\"). The interviewer's \"you've done them\" is in S17. Acceptable, but the year rests on secondary dating."
+    },
+    {
+      "claim_id": "C07d",
+      "verdict": "supported",
+      "reason": "Music Week (S22): \"I mean, I'd love to headline Glastonbury one day\". It is the first new goal she names there (then Brazil, Japan)."
+    },
+    {
+      "claim_id": "C55",
+      "verdict": "supported",
+      "reason": "RS UK (S01): \"you get the opportunity to play in front of those big crowds, but it's not about you\" and \"OK, could I do this myself?\" Verbatim."
+    },
+    {
+      "claim_id": "C56",
+      "verdict": "supported",
+      "reason": "Labeled interpretation."
+    },
+    {
+      "claim_id": "C02c",
+      "verdict": "supported",
+      "reason": "ELLE 2026 (S10, fetched fresh 2026-10-23): \"Dean's mother, Christine, is a lawyer ... the first Black woman to be deputy leader of the U.K.'s Women's Equality Party\". The quote follows directly."
+    },
+    {
+      "claim_id": "C07c",
+      "verdict": "supported",
+      "reason": "FAQ: goals (S17), Glastonbury headline wish (S22, 2025), and \"Everything is very intentional. I work hard.\" (ELLE 2026 (S10, fetched fresh 2026-10-23))."
+    },
+    {
+      "claim_id": "C02",
+      "verdict": "supported",
+      "reason": "ELLE 2026 (S10, fetched fresh 2026-10-23): the full quote, verbatim, through \"And I'm a feminist down to my toes.\""
+    },
+    {
+      "claim_id": "C02d",
+      "verdict": "supported",
+      "reason": "Explicitly labeled interpretation."
+    },
+    {
+      "claim_id": "C02b",
+      "verdict": "supported",
+      "reason": "W (S02): \"My mum and my auntie and my granny are too powerful.\" Verbatim."
+    },
+    {
+      "claim_id": "C02e",
+      "verdict": "supported",
+      "reason": "S10, S02 and S01 document her mother's WEP deputy leadership. Dean ties her feminism to these women (S02, S12)."
+    },
+    {
+      "claim_id": "C57",
+      "verdict": "supported",
+      "reason": "RS UK (S01): \"a little bit like the odd one out\" growing up. The circumstance caveat is kept."
+    },
+    {
+      "claim_id": "C58",
+      "verdict": "supported",
+      "reason": "Music Week (S22): \"expressing true, raw emotion and storytelling\"; uptempo \"can be scarier to do, than more sad and melancholic music\". Verbatim."
+    },
+    {
+      "claim_id": "C59",
+      "verdict": "supported",
+      "reason": "ELLE 2026 (S10, fetched fresh 2026-10-23): \"I really don't have time to fester in negative emotions toward love and men.\" Verbatim."
+    },
+    {
+      "claim_id": "C60",
+      "verdict": "supported",
+      "reason": "Time Out (S03), on Caribbean heritage: \"instead of being negative, which it was for me when I was younger, I'm trying to make it a positive.\" Verbatim."
+    },
+    {
+      "claim_id": "C61",
+      "verdict": "qualified",
+      "reason": "The Goldsmiths half is her own account (S03: \"if I stay in this environment I'll start to believe that I'm cringe\"). The covers half generalizes Music Week's explanation of the Art of Loving blur (S22) to \"her covers\". Numéro (S13, translated) has her explaining the first album's cover as \"a photo of me at 23 ... Nothing abstract. Also, I think I just really liked that photo of me\", and \"My music speaks… about me\". The article omits this. See verify-r-02."
+    },
+    {
+      "claim_id": "C62",
+      "verdict": "supported",
+      "reason": "Hedged verdict."
+    },
+    {
+      "claim_id": "C26",
+      "verdict": "supported",
+      "reason": "Guardian (S04): Charrington, \"president of Dean's label Capitol Records UK\": \"she works bloody hard\". \"Then president\" and the February 2026 date are correct."
+    },
+    {
+      "claim_id": "C26c",
+      "verdict": "supported",
+      "reason": "Time Out (S03): verbatim."
+    },
+    {
+      "claim_id": "C46",
+      "verdict": "supported",
+      "reason": "ELLE 2026 (S10, fetched fresh 2026-10-23): \"No, I'm doing too much for you. I'm actually not doing enough yet. I haven't even gotten started.\" It follows the \"wanting to shine\" sentence, so the framing is accurate."
+    },
+    {
+      "claim_id": "C26d",
+      "verdict": "supported",
+      "reason": "S03: Chanel ambassador; \"my ambition is not to be famous\"; \"You kind of don't have a choice\". WSJ (S18) professional captions 10:29-10:41: dresses and heels \"made me feel really confident and like I can step into this character almost kind of on stage and this elevated version of myself\" (uploaded Aug 2026)."
+    },
+    {
+      "claim_id": "C17",
+      "verdict": "supported",
+      "reason": "Time Out (S03): verbatim."
+    },
+    {
+      "claim_id": "C17b",
+      "verdict": "supported",
+      "reason": "Labeled interpretation reading the quote both ways."
+    },
+    {
+      "claim_id": "C51e",
+      "verdict": "supported",
+      "reason": "Accurate statement of what the record shows. No source I opened stages an image-versus-relationship choice."
+    },
+    {
+      "claim_id": "C28",
+      "verdict": "supported",
+      "reason": "S19 08:51-08:59 (audio-confirmed): \"when I thought about that title for the album I was like, it's a beautiful thing to be messy\". Uploaded May 2023, weeks before the July release."
+    },
+    {
+      "claim_id": "C09",
+      "verdict": "supported",
+      "reason": "Time Out (S03): \"I've just wangled my way in\"; \"When I got to the actual award show, I was like, no, I'm supposed to be here\". The summary's depressive-state wording is no longer printed, so nothing sensitive reaches the reader."
+    },
+    {
+      "claim_id": "C10",
+      "verdict": "supported",
+      "reason": "S16 06:11-06:29 (audio-confirmed): \"I went to America to sort of do some writing and it went quite terribly\"; \"I was kind of like making products in a way\". She says she had nothing before that trip, so \"first writing sessions\" holds."
+    },
+    {
+      "claim_id": "C10b",
+      "verdict": "supported",
+      "reason": "S16 uploaded 25 Sept 2025, the day before the 26 Sept release. BBC Sounds programme."
+    },
+    {
+      "claim_id": "C27",
+      "verdict": "supported",
+      "reason": "Music Week (S22): \"it is a bit of a dangerous game for me personally to have that as a barometer of success. But it feels great.\""
+    },
+    {
+      "claim_id": "C51f",
+      "verdict": "qualified",
+      "reason": "The three listed contexts (shortlist made, album days away, chart run) are accurate for Time Out, Sidetracked and Music Week. \"Each of these\" also covers the Messy-title remark, told on Bumble in May 2023 before the debut came out, so not from success. See verify-r-03."
+    },
+    {
+      "claim_id": "C25",
+      "verdict": "supported",
+      "reason": "ELLE 2026 (S10, fetched fresh 2026-10-23): \"She deleted all social media apps from her phone after the Grammys\"; quotes verbatim. Stated exactly (\"deleted the social media apps\"), not \"quit social media\"."
+    },
+    {
+      "claim_id": "C25d",
+      "verdict": "supported",
+      "reason": "Interpretation consistent with her stated decision: \"I don't think you're supposed to know everyone's opinion about you. And I've decided I want to live in sweet ignorance.\" Time_sensitive, with a trigger."
+    },
+    {
+      "claim_id": "C51b",
+      "verdict": "supported",
+      "reason": "Labeled limit."
+    },
+    {
+      "claim_id": "C51c",
+      "verdict": "supported",
+      "reason": "The recurrence is real: S01 (2025) and S10 (2026) both carry purpose/success answers about people. The article states the lean rests on self-report."
+    },
+    {
+      "claim_id": "C51g",
+      "verdict": "supported",
+      "reason": "Three quoted fragments check against S01 and S10, each from a purpose or success answer. The S17 talent answer is correctly excluded."
+    },
+    {
+      "claim_id": "C51d",
+      "verdict": "supported",
+      "reason": "Hedged FAQ answer matching the body."
+    },
+    {
+      "claim_id": "C51h",
+      "verdict": "supported",
+      "reason": "FAQ quotes check against S01 and S10. \"A Three could say the same\" is an honest limit."
+    },
+    {
+      "claim_id": "C20",
+      "verdict": "supported",
+      "reason": "NPR (S12), on \"Something Inbetween\": \"I love, love, but I also can really function alone.\" Verbatim."
+    },
+    {
+      "claim_id": "C20b",
+      "verdict": "supported",
+      "reason": "S19 12:05-12:12 (audio-confirmed): \"I'm quite protective with/of my heart, very protective\"; the quoted fragments are shared by both transcriptions. Time Out (S03), on the Messy breakup: \"My heart has got a hard case.\""
+    },
+    {
+      "claim_id": "C20c",
+      "verdict": "supported",
+      "reason": "S15 06:36-06:44 (audio-confirmed): \"I think that's kind of like my whole energy and I guess approach to love. Sometimes it's like intensely romantic, but also no worries if not.\""
+    },
+    {
+      "claim_id": "C20d",
+      "verdict": "supported",
+      "reason": "Genius (S38): \"It's too much to belong to anyone, I'm too scared to be changed\". S15 06:46-07:10: Lowe paraphrases a lyric about being afraid of being changed. Framing as restating her own song is accurate."
+    },
+    {
+      "claim_id": "C20e",
+      "verdict": "supported",
+      "reason": "Speaker independently confirmed. My whisper medium.en transcription of S15 06:30-07:20 gives \"Yeah, I'm too scared to belong to anyone.\" Video frames extracted at 07:09-07:15 show the camera cut from Lowe to Dean, speaking on camera, at 07:11 as the line begins."
+    },
+    {
+      "claim_id": "C20g",
+      "verdict": "supported",
+      "reason": "Persona title echoes the verified \"My heart has got a hard case\" (S03). Labeled giver framing consistent with the hedged read."
+    },
+    {
+      "claim_id": "C35",
+      "verdict": "supported",
+      "reason": "S16 12:45-13:07 (audio-confirmed): asked about features, \"especially with the subject matter of this album, I was like, it's got to be my story.\""
+    },
+    {
+      "claim_id": "C35b",
+      "verdict": "supported",
+      "reason": "S15 18:23-18:31 (audio-confirmed): asked about collaboration, \"I need to be across all of it, obviously.\""
+    },
+    {
+      "claim_id": "C35c",
+      "verdict": "supported",
+      "reason": "Music Week (S23): \"she is across everything, I'm across everything. It's a true 50/50\" and \"I think both of us are very stubborn, but also open to learning\". \"Best friend\" is from the Grammy speech (S08). Time_sensitive, with a role trigger."
+    },
+    {
+      "claim_id": "C35d",
+      "verdict": "supported",
+      "reason": "Labeled interpretation."
+    },
+    {
+      "claim_id": "C35e",
+      "verdict": "supported",
+      "reason": "Labeled interpretation that cuts against the leading type. Honest."
+    },
+    {
+      "claim_id": "C19",
+      "verdict": "supported",
+      "reason": "NPR (S12): verbatim, including the bracketed [we]. Context: Fadel asks about knowing her worth in a song; Dean cites her mother's and aunt's strength first."
+    },
+    {
+      "claim_id": "C19f",
+      "verdict": "supported",
+      "reason": "Interpretation directly grounded in ELLE's \"call to action\" quote."
+    },
+    {
+      "claim_id": "C19e",
+      "verdict": "supported",
+      "reason": "ELLE 2026 (S10, fetched fresh 2026-10-23): verbatim."
+    },
+    {
+      "claim_id": "C19b",
+      "verdict": "supported",
+      "reason": "Guardian review (S07): \"Giving that gift to a lover made her 'realise that [she] deserve[s] that too'\"; Let Alone the One You Love is \"the song Dean says she wrote the moment that idea clicked\". Melbourne, early October 2026."
+    },
+    {
+      "claim_id": "C19c",
+      "verdict": "supported",
+      "reason": "Labeled interpretation. NPR has her describing the song's message (\"drum that message home\")."
+    },
+    {
+      "claim_id": "C19d",
+      "verdict": "supported",
+      "reason": "S12: \"My mom worked with the Women's Equality Party\" precedes the quote in the same answer."
+    },
+    {
+      "claim_id": "C44",
+      "verdict": "supported",
+      "reason": "Time Out (S03): \"I learned that I know best, which can sound dickheaded ... I learned that I had to be selfish. And make myself happy first. Who gives a fuck what other people think about it?\" The expletive close is paraphrased accurately."
+    },
+    {
+      "claim_id": "C44b",
+      "verdict": "supported",
+      "reason": "Three uses with different tones are verified: S03 (defiant), S20 (guilt about \"Carmen\"), S38 (lyric)."
+    },
+    {
+      "claim_id": "C40",
+      "verdict": "supported",
+      "reason": "S20 35:59-36:01 (audio-confirmed): \"I'm the most proud of this that I've ever been, of anything I've ever made.\""
+    },
+    {
+      "claim_id": "C40b",
+      "verdict": "supported",
+      "reason": "S20 (audio-confirmed): \"it felt quite selfish at the time, because I was like, this is so for my granny\"; captions continue \"this is not for like anybody else\", which is paraphrased, not quoted."
+    },
+    {
+      "claim_id": "C40d",
+      "verdict": "supported",
+      "reason": "Genius (S38): \"I know you call it selfish when I say\". Lyric attributed to Genius's transcription."
+    },
+    {
+      "claim_id": "C40e",
+      "verdict": "supported",
+      "reason": "Follows from C44 and C40b."
+    },
+    {
+      "claim_id": "C40c",
+      "verdict": "supported",
+      "reason": "Hedged (\"seems\") interpretation resting on the Carmen remark. The article says it is the author's reading."
+    },
+    {
+      "claim_id": "C43",
+      "verdict": "supported",
+      "reason": "RS UK (S01): The Art of Loving \"shares the blurred aesthetic of her debut's cover art\"; \"It's representative of imperfection ... it's just my truth. I kind of want people to hear their own truth\". Verbatim and in order. Numéro's account of the first cover is a missing complication (verify-r-02), not an error in this passage."
+    },
+    {
+      "claim_id": "C43b",
+      "verdict": "supported",
+      "reason": "Music Week (S22): \"The blur is a metaphorical tool for me, in the sense that I really want people to see themselves in the music.\" Labeled as the profile's reading."
+    },
+    {
+      "claim_id": "C45",
+      "verdict": "supported",
+      "reason": "Numéro (S13, English translation): \"Music can sometimes feel rather self-indulgent\"; bouquets for strangers \"to mark the most important moments of their lives\". Translation flagged."
+    },
+    {
+      "claim_id": "C45d",
+      "verdict": "supported",
+      "reason": "S13: \"In my mind, it sounds like quite a peaceful job.\""
+    },
+    {
+      "claim_id": "C45b",
+      "verdict": "qualified",
+      "reason": "The jobs are right (S13: \"an English teacher, a dog sitter, or a florist\"). The framing \"Asked by Numéro in 2025 what she would have done without music\" is not: Numéro asked \"What images come to mind when you create new songs?\", and she volunteered the alternatives, then Numéro asked \"A florist?\". See verify-r-01."
+    },
+    {
+      "claim_id": "C52",
+      "verdict": "supported",
+      "reason": "Both readings rest on verified sources (S12, S02, S10). The refusal of \"Two growth\" is a labeled methodological choice."
+    },
+    {
+      "claim_id": "C42",
+      "verdict": "supported",
+      "reason": "ELLE 2026 (S10, fetched fresh 2026-10-23): \"I've been in therapy for a long time.\" Her words, no diagnostic label."
+    },
+    {
+      "claim_id": "C42b",
+      "verdict": "supported",
+      "reason": "Labeled limit. Therapy is documented in S10 and S03."
+    },
+    {
+      "claim_id": "C11",
+      "verdict": "supported",
+      "reason": "Guardian (S04): Ward is \"the Capitol A&R Dean chose to work with on The Art of Loving\"; \"One of the first things she said was, 'Sometimes, the saying get outside of your comfort zone is confusing to me, because I really want to be in my comfort zone.'\" Attributed as his recollection."
+    },
+    {
+      "claim_id": "C11b",
+      "verdict": "supported",
+      "reason": "ELLE 2025 (S11): \"for me, I almost wanted to double down on the musical relationships I had created. I work really well in my comfort zone.\" The speaker is Dean (answer, not question)."
+    },
+    {
+      "claim_id": "C12",
+      "verdict": "supported",
+      "reason": "RS UK (S08): she thanked \"her best friend, and manager, Emily: 'We've been doing this for 10 years'\". Music Week (S22): \"I'm a very loyal person\" (about her manager)."
+    },
+    {
+      "claim_id": "C12b",
+      "verdict": "supported",
+      "reason": "Labeled interpretation, giving Nine its best evidence."
+    },
+    {
+      "claim_id": "C10f",
+      "verdict": "supported",
+      "reason": "W (S02): verbatim."
+    },
+    {
+      "claim_id": "C10g",
+      "verdict": "supported",
+      "reason": "Labeled interpretation. W continues \"[Now I had] this control and trust in myself\", consistent with it."
+    },
+    {
+      "claim_id": "C23",
+      "verdict": "supported",
+      "reason": "ELLE 2026 (S10, fetched fresh 2026-10-23): \"I'll always choose joy. I want to be happy.\" and \"I've got to have as much fun as possible.\" Verbatim. They sit after her remark about showing a young Black woman's joy, but used as Seven evidence their plain meaning is not distorted."
+    },
+    {
+      "claim_id": "C23d",
+      "verdict": "supported",
+      "reason": "Numéro (S13): asked whether her songwriting might go in circles, she answers \"Not really ... I think what I really fear is the day I will stop having fun. When I will no longer feel anything while I sing.\" Framed as volunteered and translated."
+    },
+    {
+      "claim_id": "C23e",
+      "verdict": "supported",
+      "reason": "Labeled interpretation; it strengthens a rival."
+    },
+    {
+      "claim_id": "C22",
+      "verdict": "supported",
+      "reason": "S15 09:07-09:18 (audio-confirmed), after Lowe on 20,000 people knowing what she was thinking: \"why am I drawn to that feeling, you know, of being intensely vulnerable with people, but it's like it's the best thing in the world.\""
+    },
+    {
+      "claim_id": "C22b",
+      "verdict": "supported",
+      "reason": "Context matches the S15 exchange about shows."
+    },
+    {
+      "claim_id": "C22f",
+      "verdict": "supported",
+      "reason": "Limited to \"in her work\". Labeled."
+    },
+    {
+      "claim_id": "C22c",
+      "verdict": "supported",
+      "reason": "S15 09:18 (audio-confirmed): \"Makes me feel like a human.\""
+    },
+    {
+      "claim_id": "C22e",
+      "verdict": "supported",
+      "reason": "Numéro (S13): \"Are you very emotional? Not really. Let's just say I cry in private, rarely in front of people.\" Translation flagged."
+    },
+    {
+      "claim_id": "C16c",
+      "verdict": "supported",
+      "reason": "Matches the opened record: Chinouriri, Waters, Braham, Charrington, Ward, Wilkinson and Obell. No family, ex-partner or critic testimony. Time_sensitive, with a trigger."
+    },
+    {
+      "claim_id": "C16e",
+      "verdict": "supported",
+      "reason": "Labeled limit. Accurate: the dated sources run 2023-2026."
+    },
+    {
+      "claim_id": "C53",
+      "verdict": "supported",
+      "reason": "S37 watch-page metadata (yt-dlp, fetched fresh): \"Ep. 226: Olivia Dean | The Art of Loving (and Finding Yourself)\", uploaded 2025-10-27, 1:26:40. The \"87-minute ... October 2025 ... not reviewed\" statement is accurate and dated."
+    },
+    {
+      "claim_id": "C54",
+      "verdict": "supported",
+      "reason": "Absence claim consistent with every source I opened. Time_sensitive, with a re-test trigger."
+    },
+    {
+      "claim_id": "C33",
+      "verdict": "supported",
+      "reason": "Hits Radio/Rayo (S14, Apr 2026): \"I will make another album. I might as well.\" No third album in S35 or S36. A fresh web search on 2026-10-23 found no announcement. Dated \"as of October 23, 2026\"."
+    },
+    {
+      "claim_id": "C64",
+      "verdict": "supported",
+      "reason": "Settle-signal passage with an actionable trigger and an interim checkpoint."
+    },
+    {
+      "claim_id": "C64b",
+      "verdict": "supported",
+      "reason": "S22: \"I'd love to headline Glastonbury one day ... I'd really love to play some shows in Brazil\". S17 (audio-confirmed): South America, India."
+    },
+    {
+      "claim_id": "C33b",
+      "verdict": "supported",
+      "reason": "The resale problem was on the tour's North American leg (S28). The tour ended in Auckland with an apology (S32, S36)."
+    },
+    {
+      "claim_id": "C18",
+      "verdict": "supported",
+      "reason": "ELLE 2026 (S10, fetched fresh 2026-10-23): verbatim."
+    },
+    {
+      "claim_id": "C18b",
+      "verdict": "supported",
+      "reason": "ELLE 2026 (S10, fetched fresh 2026-10-23): the quote follows \"I come home from doing something like the Grammys, and the debrief we'll have is crazy\". The interview is five days after the win."
+    },
+    {
+      "claim_id": "C03",
+      "verdict": "qualified",
+      "reason": "The passage is supported. Alone at 18 (S20, audio-confirmed: \"came by herself\"); Windrush (S01, S02, S04); written while she \"wasn't doing so well\" (S01); \"a picture of Carmen on the front\" at the 2024 Pyramid Stage set (S01; S22 \"T-shirt with a heart-framed image of her grandmother\"). \"First\" is correctly dropped. The claim summary field still says \"her first Glastonbury (2024)\", contradicting its own inference and S03/S22. See verify-r-04."
+    },
+    {
+      "claim_id": "C31f",
+      "verdict": "supported",
+      "reason": "S08 and S09: \"I'm a product of bravery\"."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "S01",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched fresh 2026-10-23 (HTTP 200). Checked: \"most useful in my life ... all about being with people\", Rudimental \"it's not about you\" / \"could I do this myself?\", \"odd one out\", the Mickalene Thomas / All About Love origin, \"understand why I love the way that I do\", the blurred-cover answer, Carmen and the 2024 Pyramid Stage look, mother's WEP role, Windrush."
+    },
+    {
+      "source_id": "S02",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched fresh. Checked: \"I was always in someone else's space trying to prove something\", \"My mum and my auntie and my granny are too powerful\", mother's WEP role."
+    },
+    {
+      "source_id": "S03",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched fresh. Checked: Goldsmiths three weeks and \"cringe\", the primary-school quote, \"self-effacing and generous\", the pub passage (\"smiles, flirts ... here to please\"), Chanel / \"You kind of don't have a choice\", \"best show I've ever seen\", \"good person\", \"wangled\" / \"supposed to be here\", \"hard case\", \"I learned that I know best ... selfish ... Who gives a fuck\", \"make it a positive\", first Glastonbury 2023."
+    },
+    {
+      "source_id": "S04",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched fresh. Checked: Chinouriri (\"such a light\"; classmate), Charrington (\"bloody hard\"; president), Ward's comfort-zone recollection, releases from 2018, Highams Park, BNA list (Roan, Rodrigo, Eilish), Man I Need UK No 1, bossa nova / R&B description."
+    },
+    {
+      "source_id": "S06",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched fresh. Checked: four Brit awards 28 Feb 2026, the album-of-the-year acceptance quote."
+    },
+    {
+      "source_id": "S07",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched fresh. Checked: Melbourne review paragraph with \"realise that [she] deserve[s] that too\" and Let Alone the One You Love."
+    },
+    {
+      "source_id": "S08",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched fresh. Checked: Grammy speech, \"granddaughter of an immigrant\", \"product of bravery\", \"We're nothing without each other\", \"best friend, and manager, Emily: 'We've been doing this for 10 years'\"."
+    },
+    {
+      "source_id": "S09",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched fresh (WECT/AP). Checked: speech quote \"I'm a product of bravery, and I think those people deserve to be celebrated.\""
+    },
+    {
+      "source_id": "S10",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched fresh. Checked every printed quote and its paragraph: suite / candles / birthday champagne, five-days timing and Friday Super Bowl party, \"romanticizes life\", purpose and success answers, \"too much\" / \"wanting to shine\", mother Christine, \"five times better ... feminist down to my toes\", app deletion and \"sweet ignorance\", \"You can't please everybody\", \"call to action\", \"choose joy\" (and its representation context), \"fester\", therapy, Ticketmaster summary, friends ending."
+    },
+    {
+      "source_id": "S11",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched fresh. Checked: \"I almost wanted to double down on the musical relationships I had created\" is Dean's answer."
+    },
+    {
+      "source_id": "S12",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched fresh. Checked: \"I love, love, but I also can really function alone\" (on Something Inbetween); \"My mom worked with the Women's Equality Party\"; the \"slot into their lives ... Because we're fabulous\" answer; the Sabrina Carpenter support slot."
+    },
+    {
+      "source_id": "S13",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched fresh (English translation). Checked: florist answer (volunteered under \"What images come to mind...\", then \"A florist?\"), \"self-indulgent\", \"quite a peaceful job\", fear of no longer having fun (answer to the going-in-circles question), \"cry in private\". Also noted the first-album-cover answer, which is not used."
+    },
+    {
+      "source_id": "S14",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched fresh. Checked: \"I will make another album. I might as well.\" (Hits Radio, April 2026)."
+    },
+    {
+      "source_id": "S15",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Captions re-downloaded (en-orig). Audio re-transcribed (whisper medium.en) at 06:30-07:20, 09:02-09:24 and 18:20-18:42. Video frames at 07:09-07:15 confirm Dean speaks \"too scared to belong to anyone\". Checked \"no worries if not\", \"why am I drawn\", \"makes me feel like a human\", \"I need to be across all of it\"."
+    },
+    {
+      "source_id": "S16",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Captions re-downloaded. Audio re-transcribed at 06:08-06:32 and 12:50-13:08. Checked \"went quite terribly\", \"making products\", \"it's got to be my story\" (no-features question)."
+    },
+    {
+      "source_id": "S17",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Captions re-downloaded. Audio re-transcribed at 06:10-06:35 (talent-was-special question) and 10:32-11:16 (goals at 17, new goals). Checked \"never felt like a competitive nature\", \"something to give\", \"That was all I wanted to do\", \"think of some new goals\"."
+    },
+    {
+      "source_id": "S18",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Professional en-US captions re-downloaded; 10:20-10:45 dresses and heels, \"this elevated version of myself\"."
+    },
+    {
+      "source_id": "S19",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Captions re-downloaded. Audio re-transcribed at 08:50-09:06 (\"beautiful thing to be messy\", Dean on the album title) and 12:02-12:14 (\"quite protective ... very protective\")."
+    },
+    {
+      "source_id": "S20",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Captions re-downloaded. Audio re-transcribed at 35:50-37:12. Checked \"most proud\", grandmother came at 18 \"by herself\", \"product of her bravery\", \"felt quite selfish at the time ... this is so for my granny\"."
+    },
+    {
+      "source_id": "S21",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Captions re-downloaded. Checked 00:07-00:19 (seven years on the road with Olivia Dean) and 53:42-54:01 (\"or I can even speak to Olivia\" about his marriage). Title and date from yt-dlp metadata (Joel Waters, 2026-05-07)."
+    },
+    {
+      "source_id": "S22",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched fresh. Checked: \"dangerous game ... But it feels great\", \"raw emotion and storytelling\", uptempo \"scarier\", \"see themselves in the music\" (blur), \"I'd love to headline Glastonbury one day ... Brazil\", \"I'm a very loyal person\", 2023 Lonely Hearts Club set, 2024 Pyramid T-shirt."
+    },
+    {
+      "source_id": "S23",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched fresh. Checked: 10 years since BRIT School; \"she is across everything, I'm across everything. It's a true 50/50\"; \"very stubborn, but also open to learning\"."
+    },
+    {
+      "source_id": "S25",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched fresh. Checked: joint interview framing Dean and Chinouriri as friends."
+    },
+    {
+      "source_id": "S26",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched fresh. Checked: the full apology statement, \"She continued\" plus the call-out text, Ticketmaster's repost / cap / \"We support artists' ability...\", AEG source."
+    },
+    {
+      "source_id": "S27",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched fresh. Checked: Friday Instagram story, screenshots \"marked up by hundreds of dollars within hours\", Ticketmaster comment, \"artists often exert some level of control\", \"unclear what Dean's team's policy was\"."
+    },
+    {
+      "source_id": "S28",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched fresh. Checked: Thursday 27 Nov statement (refunds, \"Every artist and their team...\", \"we as an industry have a responsibility...\"), Rapino (\"we echo Olivia's call to do better\")."
+    },
+    {
+      "source_id": "S30",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched fresh. Checked: album dedication to bell hooks and \"all the black feminists that inspire me to love better\"."
+    },
+    {
+      "source_id": "S31",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched fresh. Checked: Rein Me In longest-running UK No 1, 31 July 2026."
+    },
+    {
+      "source_id": "S32",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched fresh. Checked: Saturday Western Springs Bowl tour finale, halt after three songs for nearly 40 minutes, both apology quotes."
+    },
+    {
+      "source_id": "S33",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched fresh. Checked: Olivia Dean on the 2026 Mercury shortlist (30 July 2026)."
+    },
+    {
+      "source_id": "S35",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched fresh. Checked: born 14 March 1999 in Tottenham, Highams Park upbringing, English singer-songwriter, Hootenanny cover (Oct 2024). No third album listed."
+    },
+    {
+      "source_id": "S36",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched fresh. Checked: The Art of Loving Live ran 23 April-17 October 2026, ending in Auckland; North American and Oceania legs."
+    },
+    {
+      "source_id": "S37",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Watch-page metadata only (yt-dlp, fetched fresh): Ep. 226, uploaded 2025-10-27, duration 1:26:40. Content not reviewed; the only claim using it (C53) states exactly that."
+    },
+    {
+      "source_id": "S38",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched fresh. Checked: \"It's too much to belong to anyone, I'm too scared to be changed\" and \"I know you call it selfish when I say\"."
+    }
+  ],
+  "decision_checks": [
+    {
+      "finding_id": "subject-F1",
+      "accepted": true,
+      "reason": "Accepted. Line 218 gives Ticketmaster's \"We support artists' ability...\" reply and THR's policy note. Line 220 gives her 27 Nov \"Every artist and their team...\" position (verbatim in S28) and Rapino's endorsement, and ends \"No source opened for this profile says what her team's resale settings were.\" The question stays open. C29h, C29d, C29l and C29m record it."
+    },
+    {
+      "finding_id": "subject-F2",
+      "accepted": true,
+      "reason": "Accepted. Body and FAQ describe one statement that \"opened with an apology\". \"My team are currently looking into it\" is restored. The order inference is marked \"though a small one\" and conceded as standard team practice. Auckland \"matches November only in direction\"."
+    },
+    {
+      "finding_id": "subject-F3",
+      "accepted": true,
+      "reason": "Accepted. The quote runs through \"And I'm a feminist down to my toes\" (verbatim in S10), preceded by ELLE's context on her mother. The unequal-bar reading is labeled \"an interpretation\". No author-voice generalization about race."
+    },
+    {
+      "finding_id": "subject-F4",
+      "accepted": true,
+      "reason": "Accepted. \"Depressive\" and \"launch\" no longer appear in the candidate. The disclosure is out of the type argument."
+    },
+    {
+      "finding_id": "subject-F5",
+      "accepted": true,
+      "reason": "Accepted. \"It means something different each time.\" The 2023 use is quoted from \"I learned that I know best\", and the expletive close is paraphrased as defiance (verified in S03). The guilt inference rests on Carmen only."
+    },
+    {
+      "finding_id": "subject-F6",
+      "accepted": true,
+      "reason": "Accepted. The Chanel point now carries \"You kind of don't have a choice\" from the same Time Out paragraph (verified)."
+    },
+    {
+      "finding_id": "subject-F7",
+      "accepted": true,
+      "reason": "Accepted. The FAQ reads \"for her 2024 Glastonbury Pyramid Stage set\", with no \"first\". S03 and S22 confirm a 2023 set. C03's inference records the resolution, though its summary field is stale (verify-r-04, minor)."
+    },
+    {
+      "finding_id": "fan-01",
+      "accepted": true,
+      "reason": "Accepted. \"too much\" carries \"wanting to shine was cool\" (ELLE) and \"cringe\" carries the alt-cool context (Time Out). \"One of the only Black girls\" is named as a circumstance alternative (\"Circumstance explains some of this as well as type does\"). No bullying label. \"Wanting to shine\" is weighed in the Three section (line 248)."
+    },
+    {
+      "finding_id": "fan-02",
+      "accepted": true,
+      "reason": "Accepted. Wilkinson's line now includes \"smiles, flirts, makes sarcastic jokes and never breaks eye contact\" and is limited to \"charm as much as giving\". \"You can't please everybody. And I have such peace in that\" follows directly, presented as counterevidence (\"ran the other way\")."
+    },
+    {
+      "finding_id": "fan-03",
+      "accepted": true,
+      "reason": "Accepted. ELLE's context (lawyer; first Black woman deputy leader of the WEP) and the feminist close are given, the bias reading is labeled interpretation, and the feminism alternative names her mother's WEP role. The link at that passage is to W rather than ELLE, but ELLE is linked and named where the role is first given."
+    },
+    {
+      "finding_id": "fan-04",
+      "accepted": true,
+      "reason": "Accepted. The bio adds the BRIT School, Rudimental backing vocals and releases from 2018 (Guardian). The Three section reads the Rudimental choice both ways (\"Even her apprenticeship reads both ways\"). The limitation now says \"the record before 2023 is thin\". Omitting the van gigs (the writer's characterization only) is justified."
+    },
+    {
+      "finding_id": "fan-05",
+      "accepted": true,
+      "reason": "Accepted. Genius (S38, fetched fresh) confirms the lyric. The article says she \"answered with her own song\", the claim is classed as a restated lyric, and the H2 is now \"Intensely romantic, but also no worries if not\"."
+    },
+    {
+      "finding_id": "fan-06",
+      "accepted": true,
+      "reason": "Accepted under the test's alternative. \"Man I Need\" is added with her ELLE explanation (verified), and \"keep circling\" is narrowed to \"at least three of her songs deal with that cost\", each with a sourced sentence."
+    },
+    {
+      "finding_id": "fan-07",
+      "accepted": true,
+      "reason": "Accepted. \"It's representative of imperfection\" comes first, then \"just my truth\", then \"hear their own truth\" (order verified in S01). The inference is labeled \"this profile's reading, not her claim\"."
+    },
+    {
+      "finding_id": "fan-08",
+      "accepted": true,
+      "reason": "Accepted. The 2026 Mercury shortlist is added without a result. Chinouriri is \"a BRIT School classmate and friend\". The \"good person\" quote is introduced \"She told Time Out:\"."
+    },
+    {
+      "finding_id": "critic-01",
+      "accepted": true,
+      "reason": "Accepted. The discriminator is restated to what the record shows (\"Her public record never stages that collision ... candor about failure, which is weaker evidence than it looks\"). The from-success caveat is added, and the verdict and Type 3 FAQ are narrowed to self-reported purpose answers at medium confidence. The depressive-state quote is gone. The candor list still slightly over-applies \"told from success\" (verify-r-03, minor)."
+    },
+    {
+      "finding_id": "critic-02",
+      "accepted": true,
+      "reason": "Accepted. \"I don't think you're supposed to know everyone's opinion about you\" is quoted, and the article says it \"strains every heart-type reading, Two included\". It is absent from the anti-Three list and the FAQ."
+    },
+    {
+      "finding_id": "critic-03",
+      "accepted": true,
+      "reason": "Accepted. Ticketmaster's same-day reply and Rapino's 27 Nov endorsement are reported with links (S26, S28). \"The companies backed her within a week, so it cost her little.\" Apology-then-remedy is conceded as standard. Ticketmaster is no longer used against Nine. One colloquial \"resale fight\" label remains (line 224, the future reviewer's suggested wording), but the surrounding text states the low cost."
+    },
+    {
+      "finding_id": "critic-04",
+      "accepted": true,
+      "reason": "Accepted. Near the hook, Obell's \"romanticizes life\" framing and the cover-story recipient are named (\"Both readings stay open\"), and the speech genre norm is conceded (\"these show a direction, not a motive\"). Two further independent, sourced acts are added (Brits S06, Mobo S30, both verified). The Three verdict no longer counts conceded acts. The title is kept as a description of direction, which the instances support."
+    },
+    {
+      "finding_id": "critic-05",
+      "accepted": true,
+      "reason": "Accepted. The 2025 new goals are reported (S22 Glastonbury headline and Brazil, verified; S17 South America and India audio-confirmed). The closing frames the signal as a second answer, with the 2025 baseline \"pointed toward standing and new experiences, not giving\"."
+    },
+    {
+      "finding_id": "critic-06",
+      "accepted": true,
+      "reason": "Accepted. The Numéro fear line is added, marked as translated and framed as volunteered (verified against S13's question). \"In her work Dean steers toward it\" limits the claim, and the cry-in-private answer is added. \"Seven stays live.\""
+    },
+    {
+      "finding_id": "critic-07",
+      "accepted": true,
+      "reason": "Accepted. \"Keeps using\" is gone. The tones are distinguished, and the defiant close is shown."
+    },
+    {
+      "finding_id": "critic-08",
+      "accepted": true,
+      "reason": "Accepted, and independently confirmed. My whisper medium.en transcription and video frames (camera on Dean from 07:11) show Dean says \"Yeah, I'm too scared to belong to anyone.\" The line is framed as her own lyric and is not the H2."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "accepted": true,
+      "reason": "Accepted. Line 190 (plain Two description) precedes line 192 (three centres: 2/3/4 heart, 5/6/7 head, 8/9/1 gut) and the triad evidence. \"Security types\" is gone."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "accepted": true,
+      "reason": "Accepted (option b). The article says the image-versus-relationship test is never observed and states what the record shows. The Messy line is not used as connection evidence, and the app deletion is in the independence section."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "accepted": true,
+      "reason": "Accepted. The H2 answer is 51 words, with \"most likely reads as\", \"medium confidence\" and Type 3 named. It matches FAQ 1."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "accepted": true,
+      "reason": "Accepted. \"The North American leg of her Art of Loving Live tour\" and \"the last night of the Art of Loving Live tour\"."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "accepted": true,
+      "reason": "Accepted. The method note is now in \"What the record can't show yet\" (line 328). Nothing sits between the stakes paragraph and the type H2."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "accepted": true,
+      "reason": "Accepted. \"She told Time Out:\" introduces the quote."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "accepted": true,
+      "reason": "Accepted. Narrowed to \"at least three of her songs\", each with a sourced sentence. The cost is defined once at line 190 and reused consistently at line 326. C50f is recorded as an interpretation."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "accepted": true,
+      "reason": "Accepted. The bio gives her sound (throwback R&B, soul, bossa nova into pop), names \"Man I Need\" as a UK No. 1, and glosses bell hooks (\"the American writer\") and the Mercury Prize."
+    },
+    {
+      "finding_id": "enneagram-1",
+      "accepted": true,
+      "reason": "Accepted (option b). The discriminator is renamed, the Three comeback reading is stated (\"also the shape of a Three's comeback story\"), the lean is lowered to a narrow, self-report-based one, the app deletion is out of the anti-Three list, and \"more often than not\" is gone. Meeting this test leaves a weak discriminator, which is reflected in the Enneagram score, not in this decision."
+    },
+    {
+      "finding_id": "enneagram-2",
+      "accepted": true,
+      "reason": "Accepted. The article states plainly that the outward acts are low-cost or conventional (\"cost her little\", \"Any headliner apologizes\", \"show a direction, not a motive\"). Confidence is medium everywhere. No costly Two-specific choice was sourced, so the test's second branch is the one met."
+    },
+    {
+      "finding_id": "enneagram-3",
+      "accepted": true,
+      "reason": "Accepted. \"You can't please everybody. And I have such peace in that\" directly follows the \"here to please\" passage and is presented as counterevidence. The app-deletion lines stay in the tension section with \"strains every heart-type reading\". C47 is in the record. The later removal of \"My joy is more powerful...\" is justified: S10 places it after \"sometimes it's my responsibility to show that we can be that\", about a young Black woman's joy."
+    },
+    {
+      "finding_id": "enneagram-4",
+      "accepted": true,
+      "reason": "Accepted. The defiant Time Out close is paraphrased, the two uses are distinguished, the listener-ownership inference rests on Carmen with its limit labeled, and C44 is absent from for_claim_ids and cited in \"against\"."
+    },
+    {
+      "finding_id": "enneagram-5",
+      "accepted": true,
+      "reason": "Accepted. Four is named in the triad paragraph and tested with sourced evidence: \"odd one out\" with the circumstance caveat, \"raw emotion\", uptempo \"scarier\". The discriminators are fester, make it a positive, Goldsmiths and the covers. Verdict: \"Four is weakened, not ruled out.\" The \"wrong amount\" gloss is gone. The covers half of the discriminator is weaker than stated (verify-r-02, minor)."
+    },
+    {
+      "finding_id": "enneagram-6",
+      "accepted": true,
+      "reason": "Accepted. \"Fester\" is quoted. Freedom lines and the refusal to fester count for Seven. The verdict rests on comfort-zone loyalty (Ward recollection, ELLE 2025, both verified). \"In her work\" qualifies the pain claim. \"Seven stays live.\""
+    },
+    {
+      "finding_id": "enneagram-7",
+      "accepted": true,
+      "reason": "Accepted. Nine is rejected on authorship (\"it's got to be my story\", \"I need to be across all of it\", \"she is across everything\", all verified), not Ticketmaster. Peace language is called \"the Nine's best evidence\"."
+    },
+    {
+      "finding_id": "enneagram-8",
+      "accepted": true,
+      "reason": "Accepted. The answer carries \"most likely\", medium confidence and Type 3. \"What reporters watched her do\" is replaced by \"her acts at peak moments point outward\"."
+    },
+    {
+      "finding_id": "future-01",
+      "accepted": true,
+      "reason": "Accepted. Description: \"Five days after her Best New Artist win\". Body: \"After the February 2026 Grammys\" / \"after her 2026 Grammy\". The Type 3 FAQ has no Grammy reference. C49c and C25 are time_sensitive with the Grammy recheck trigger."
+    },
+    {
+      "finding_id": "future-02",
+      "accepted": true,
+      "reason": "Accepted. Braham \"still managing her in 2026\", \"then president\", \"the Capitol A&R she chose for The Art of Loving\", the drummer's seven years \"on a 2026 podcast\", \"by 2026\". Remaining role labels (C35c, C08) are time_sensitive with a role trigger."
+    },
+    {
+      "finding_id": "future-03",
+      "accepted": true,
+      "reason": "Accepted. \"The covers of her first two albums, Messy and The Art of Loving\". C43 is time_sensitive with a third-cover trigger."
+    },
+    {
+      "finding_id": "future-04",
+      "accepted": true,
+      "reason": "Accepted. The tour is named, the on-sale is its North American leg, and the bookend reads \"The tour that included the resale fight ended with another apology.\""
+    },
+    {
+      "finding_id": "future-05",
+      "accepted": true,
+      "reason": "Accepted via the stated fallback. The sentence is dated (\"as of October 2026\"; metadata verified: 1:26:40, 2025-10-27), and C53's trigger fires at refresh or on a longer interview. Transcription remains the top research task."
+    },
+    {
+      "finding_id": "future-06",
+      "accepted": true,
+      "reason": "Accepted. C54 is time_sensitive with an over-giving / resentment / receiving re-test trigger."
+    },
+    {
+      "finding_id": "future-07",
+      "accepted": true,
+      "reason": "Accepted. C64 inventories the settle-signal passage with the classification trigger and the Feb 2027 checkpoint. C64b records the 2025 baseline."
+    },
+    {
+      "finding_id": "verify-01",
+      "accepted": true,
+      "reason": "Accepted. S17 06:02-06:33 (captions and my whisper transcription) confirms the line answered \"How did you know that your talent was special?\". It is now framed that way only (line 210), not counted in the purpose list (line 264) or the FAQ. The FAQ uses S01 \"most useful\" and the S10 purpose quote, both verified purpose answers. C14h is out of for_claim_ids."
+    },
+    {
+      "finding_id": "verify-02",
+      "accepted": true,
+      "reason": "Accepted. \"My joy is more powerful...\" is absent from the candidate and C25c is deleted. S10 confirms the representation context that made it misleading as approval-independence evidence."
+    },
+    {
+      "finding_id": "verify-03",
+      "accepted": true,
+      "reason": "Accepted. \"In an interview published in September 2025\" matches S01's Aug/Sept 2025 issue. \"Five months later\" is absent."
+    },
+    {
+      "finding_id": "verify-04",
+      "accepted": true,
+      "reason": "Accepted for the passages it names. The Goldsmiths three weeks are credited to Time Out, and the Numéro fear line is framed as volunteered (verified against S13's question). A parallel framing error remains in the Numéro florist sentence (\"Asked by Numéro ... what she would have done without music\"), raised as verify-r-01 (minor)."
+    },
+    {
+      "finding_id": "verify-05",
+      "accepted": true,
+      "reason": "Accepted. \"I think both of us are very stubborn, but also open to learning\" is verbatim in S23, and the anti-Nine line cites \"she is across everything\", which S23 sets in a \"true 50/50\" partnership. The Ticketmaster-against-Nine sentence is gone."
+    },
+    {
+      "finding_id": "verify-06",
+      "accepted": true,
+      "reason": "Accepted. checkDraft confirms 4,314 words with no blockers. The cuts named are absent, and all 17 protected passages survive (see protected_checks)."
+    }
+  ],
+  "prior_blocker_checks": [],
+  "protected_checks": [
+    {
+      "passage": "The bravery line was older than the night. At a [British Library panel](https://www.youtube.com/watch?v=tJxTX-0t1fs) in 2024, introducing her song \"Carmen,\" she had said of her grandmother, \"I'm a product of her bravery.\"",
+      "preserved": true,
+      "reason": "Verbatim at line 174. S20 (July 2024, audio-confirmed) predates the 1 Feb 2026 speech."
+    },
+    {
+      "passage": "Calling her boundary talk \"Two growth\" would make the theory impossible to lose. So it stays here as a tension the type does not resolve.",
+      "preserved": true,
+      "reason": "Verbatim at line 296."
+    },
+    {
+      "passage": "The Two's usual costs, over-giving and resentment at going unthanked, do not show up in public. That could be health, privacy, or a sign the read is wrong.",
+      "preserved": true,
+      "reason": "Verbatim at line 326."
+    },
+    {
+      "passage": "In 2023, before the breakthrough, Time Out's Chiara Wilkinson found her \"so self-effacing and generous.\" After their interview ran long in a pub, Wilkinson wrote: \"She's here to please.\" Those are the writer's words, not Dean's.",
+      "preserved": true,
+      "reason": "Changed, contribution kept. Line 230 keeps the attribution fence (\"Those are the writer's words, not Dean's\") and adds Wilkinson's full context from S03 plus \"they describe charm as much as giving\". The change was required by fan-02 for context fidelity."
+    },
+    {
+      "passage": "\"My friends care, but not more than I care about what they're doing. My life isn't more important than anyone else's life. It's just mine.\"",
+      "preserved": true,
+      "reason": "Verbatim at line 334. Context verified in S10 (friends she comes home to after the Grammys)."
+    },
+    {
+      "passage": "The order is the detail. The apology to fans came first, the fight came second, and the fight was with companies her tours run through.",
+      "preserved": true,
+      "reason": "Changed, contribution kept. Line 222: \"The order is the detail, though a small one: her statement put the fans before the complaint.\" The checkable observation survives. The removed \"fight\" / \"first story\" framing was inaccurate (one statement; the companies endorsed her within a week: S26, S27, S28), so removing it was a necessary correction."
+    },
+    {
+      "passage": "The bravery line was older than the night.",
+      "preserved": true,
+      "reason": "Verbatim at line 174. S20 (July 2024, audio-confirmed) predates the 1 Feb 2026 speech."
+    },
+    {
+      "passage": "Obell shot back: \"Uh, do you know who you are?! You just won a Grammy!\"",
+      "preserved": true,
+      "reason": "Verbatim at line 166. Verified in S10."
+    },
+    {
+      "passage": "The first sentence sounds like a Two. The second explains goodness by what it gets you.",
+      "preserved": true,
+      "reason": "Verbatim at line 256."
+    },
+    {
+      "passage": "Every witness quoted here is a friend, a colleague or a writer working on a cover story, and no family member, former partner or critic has described her on the record.",
+      "preserved": true,
+      "reason": "Verbatim at line 324."
+    },
+    {
+      "passage": "None of this is decisive. Candor is a norm for her generation, _Messy_ is a brand as well as a confession, and British artists are expected to play down charts.",
+      "preserved": true,
+      "reason": "Verbatim at line 262."
+    },
+    {
+      "passage": "Then she found out it was Obell's birthday.",
+      "preserved": true,
+      "reason": "Verbatim at line 164."
+    },
+    {
+      "passage": "A song for her grandmother felt selfish because it was not made for everyone else. Her default seems to be that songs belong to the listener.",
+      "preserved": true,
+      "reason": "Verbatim at line 290. It now follows \"Only the 'Carmen' remark carries guilt\", which strengthens its accuracy."
+    },
+    {
+      "passage": "When she describes what she wants from it, and from life off the road, listen for which she names: people and giving, goals and standing, freedom, or peace.",
+      "preserved": true,
+      "reason": "Verbatim at line 330."
+    },
+    {
+      "passage": "These are campaign answers for an album about love, and an album about love rewards them. \"How many people you can gather in one space\" is also a ticket count.",
+      "preserved": true,
+      "reason": "Verbatim at line 212."
+    },
+    {
+      "passage": "Any headliner apologizes after a 40-minute stoppage. What matches November is the sequence: sorry first, then making it right for the people in front of her.",
+      "preserved": true,
+      "reason": "Changed, contribution kept. Line 226: \"Any headliner apologizes after a 40-minute stoppage. Auckland matches November only in direction: sorry first, then making it right for the people in front of her.\" The self-limiting inference the future reviewer protected is intact and more cautious."
+    },
+    {
+      "passage": "That answer would move this read more than any award.",
+      "preserved": true,
+      "reason": "Verbatim at line 330. Now backed by trigger C64."
+    }
+  ],
+  "coverage_complete": true,
+  "metadata_consistent": true,
+  "alternative_type_addressed": true,
+  "five_year_test_passed": true,
+  "scores": {
+    "evidence": {
+      "score": 8.5,
+      "reason": "Traceable and context-faithful. I re-fetched all 30 web sources and re-downloaded captions for S15-S21; every one of about 120 quoted fragments in body and FAQ matched (scripted match, 0 genuine misses). I re-transcribed ten key YouTube spans with a different whisper model and confirmed the disputed Lowe speaker on video. Attribution separates writer observation, self-report, translation and inference at the passage, as in this paragraph, which marks the gift as the writer's account and leaves both readings open. Limits are stated where they bite (friendly witnesses only; promotional record; therapy vocabulary). Deductions: all testimony is friendly or professional, and three small context slips remain (Numéro florist framing, the Messy-cover answer omitted from the covers reading, \"Each of these was told from success\").",
+      "passage": "Obell wrote that Dean insisted on giving her a bottle of Veuve Clicquot champagne."
+    },
+    "enneagram": {
+      "score": 7.5,
+      "reason": "The rival-testing is excellent. Three gets its best evidence (goal list, \"five times better\" in context, image craft, instrumental goodness). Four, Seven, Six and Nine each get sourced evidence and a sourced discriminator. No wing or arrow escape, and \"Two growth\" is refused by name. But the standard's 8 needs repeated costly choices the motive explains, and the strongest alternative failing a specific discriminator. Here the article concedes every outward act is low-cost or conventional. The image-versus-relationship test is \"never staged\". The lean rests on two self-reported purpose answers from album-campaign interviews that, by its own FAQ, \"A Three could say the same\". The strongest counterevidence (approval independence, \"no worries if not\", control of her work) is left as an unresolved strain on Two. An honest medium-confidence read, but the motive does not yet beat Three.",
+      "passage": "A Three can talk about service, and a Two can want a headline slot. The record leans Two because those answers recur, to Rolling Stone UK in 2025 and to ELLE in 2026, while the goals sound like the job."
+    },
+    "originality": {
+      "score": 8.5,
+      "reason": "The insight and details belong to this person: birthday champagne for the writer of her cover story; the \"product of her bravery\" line from 19 months before the Grammy speech; \"selfish\" traced through three different meanings; the florist; the comfort-zone defence; and an ending in her own words that holds both halves. The cited passage turns her own word choice into a reading the profile labels as its own. Reusable type boilerplate is confined to the Two definition and the three-centres gloss (lines 190-192).",
+      "passage": "A song for her grandmother felt selfish because it was not made for everyone else. Her default seems to be that songs belong to the listener."
+    },
+    "writing": {
+      "score": 8.0,
+      "reason": "Clear progression from scene to stakes to type, rival, tension, rivals and limits, with varied sentence length and precise attribution. No thesis loop. The cited paragraph shows the cost: three hedges in four sentences. Concessions like this, plus \"Any headliner apologizes\", \"None of this is decisive\" and \"Each rival explains a piece\", are individually earned but cumulatively turn the middle into a ledger. At 4,314 words the piece runs well past the 2,000-3,500 target, and the four-rival section reads as a list.",
+      "passage": "The order is the detail, though a small one: her statement put the fans before the complaint. Apology-then-remedy is also how any well-run artist team handles a bad on-sale. The companies backed her within a week, so it cost her little. A Three could make the same move."
+    },
+    "durability": {
+      "score": 8.5,
+      "reason": "Built from dated 2023-2026 episodes, with absolute dates throughout. Changing facts are dated and tracked with triggers (apps C25, album status C33, roles C35c/C08, covers C43, S37 C53, absence of Two costs C54, settle signal C64). Removing Melbourne and Auckland leaves the argument intact. The type read is openly provisional, and the cited passage names a concrete, dated test that makes the page easy to reopen. What it says is known would stay true if a later refresh settled on Three. Small residual risk: present-tense role labels tied to 2026 sources.",
+      "passage": "No third album had been announced as of October 23, 2026."
+    },
+    "hook": {
+      "score": 9.0,
+      "reason": "A specific, verified scene (ELLE, 6 Feb 2026). It turns on the birthday line, sets up the giver-or-polish question the whole article tests, and is paid off by the speeches, the Ticketmaster order and the ending.",
+      "passage": "Five days after she won the Grammy for Best New Artist, Olivia Dean was in a hotel suite in San Francisco, lighting candles before an interview."
+    },
+    "discoverability": {
+      "score": 8.5,
+      "reason": "Meta title (58 characters) and description (157) are accurate and hedged to match medium confidence. The H2 answer is 51 words and names confidence and the rival. FAQs answer real search intents (type, Type 3, Ticketmaster, the song \"Carmen\", The Art of Loving), and every fact in them checked against S01, S06, S10, S26, S28 and S33. Internal links go to published Sabrina Carpenter, Chappell Roan, Olivia Rodrigo and Billie Eilish pages and to type pages 2, 3, 4, 6, 7 and 9. All six suggestions are published drafts. Minor: the description spends half its length on the anecdote.",
+      "passage": "Olivia Dean Enneagram Type: A Two, With Three Close Behind"
+    }
+  }
+}

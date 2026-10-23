@@ -1,0 +1,328 @@
+{
+  "schema_version": 3,
+  "decisions": [
+    {
+      "finding_id": "subject-F1",
+      "action": "fixed",
+      "reason": "The playback section now opens on the dated source and says the director took the request as vanity, that she kept \"fighting back on it\" (\"it's for the scene\"), that \"more careful with my words\" meant rewording requests (\"if that's the way that they saw me, then yeah, it's just for my hair\") so \"as an actor, I can get what I need\", and that Obsession \"was nothing but ugly\" and she \"loved it\" (C151, C168). A new paragraph names the situational reading (refusing to be valued for her looks) beside the Three reading (C170). All new quotes use words shared by the small.en and base.en transcripts of S42 ~18:15-19:55; no human listen was possible, so each claim is marked unresolved with timestamps."
+    },
+    {
+      "finding_id": "subject-F2",
+      "action": "fixed",
+      "reason": "The trust quote left the Six case. It now appears in the Four case, introduced as Buchanan's question about \"this career that you're forging\", followed by his \"Trust you how?\" and her full answer (not \"selling them something\", \"coming from me\", accepting \"that I may not be liked\"), which the edit stage transcribed from S42 ~49:54-51:05 with two models. Nylon's \"trust that I have that capability\" is in the Three case (C177). C134 was removed from type_hypothesis.for_claim_ids and the discriminator."
+    },
+    {
+      "finding_id": "subject-F3",
+      "action": "fixed",
+      "reason": "The unheard stretches were machine-transcribed in full at edit stage (S41 46:00-91:11 and S42 34:34-52:24, base.en, with small.en second passes on the quoted parts) and read. Neither has a self-typing or an answer to criticism; the people-pleaser line (C169), the full trust answer (C175), 'self gratifying' (C140), 'gain audiences trust' (C177) and the Heat 2 correction (C178) were incorporated, and the rest is noted as not material in S41/S42 context. The S41 audio confirms the 'make it last' wording (no longer quoted). Both absence statements are scoped to interviews reviewed (C90, C163). No person has listened; research_tasks lists the timestamps."
+    },
+    {
+      "finding_id": "subject-F4",
+      "action": "fixed",
+      "reason": "The 'make it last' sentence left the Three case (cut, C117 removed). Her wish to \"do everything humanly possible to look different\" is now acknowledged with the playback story as an anti-image statement that a Three could also use as a prestige move (C170), with the wording confirmed in both S41 transcripts."
+    },
+    {
+      "finding_id": "subject-F5",
+      "action": "fixed",
+      "reason": "The freakouts section now reports, attributed to her, that Barker calls the first freakout a weight off his shoulders and concluded she \"just needs privacy\" (C171, from THR, S41 audio and GoldDerby). \"Overriding\" became \"holding the freakouts back from a nervous director until the cameras rolled\". The description now says she \"wouldn't rehearse her freakouts for him\" and the section is titled \"The freakouts she wouldn't rehearse\". The Buchanan paragraph notes she tied the exposure reason back to craft in the same answer."
+    },
+    {
+      "finding_id": "subject-F6",
+      "action": "fixed",
+      "reason": "The Superman & Lois paragraph now gives \"I've always wanted to do film\" beside \"Dog, you're free\" and, after the Seven sentence, her same-answer \"that was hard to hear\" because she missed the cast (C12, C150); the guest-star return is noted (C149). The Seven inference rests on the fuller answer."
+    },
+    {
+      "finding_id": "subject-F7",
+      "action": "fixed",
+      "reason": "The Big Sean anecdote is kept verbatim and followed by: a fan \"since like middle school,\" she may simply have been starstruck; the hand-off is the Six detail (C174). It is labeled light and ambiguous."
+    },
+    {
+      "finding_id": "subject-F8",
+      "action": "fixed",
+      "reason": "\"It runs back to\" is gone. Leaving high school to pay for headshots now sits in the pre-fame section as an early, costly commitment (\"She had already paid to be there\"), with her financial reason intact and no type attached (C09)."
+    },
+    {
+      "finding_id": "fan-01",
+      "action": "fixed",
+      "reason": "The quote now answers Buchanan's question about \"this career that you're forging\" and sits in the Four case with his follow-up and her authenticity answer (C175, C176); Nylon's \"trust that I have that capability\" is in the Three case (C177). C134's inference was rewritten and it no longer counts as Six support. No sentence uses it as evidence of a security motive."
+    },
+    {
+      "finding_id": "fan-02",
+      "action": "fixed",
+      "reason": "The Three case's 'against' paragraph now includes the Heat 2 correction, dated and attributed (THR, October 21, 2026, relaying The Kyle Buchanan Show), with the self-tapes asking \"What do you like? What do you not like?\" It says what the episode suggests (not letting a flattering rumor stand) and its limit (also spares her looking ungrateful to Mann) (C178). The sentence \"No episode on record yet forces those motives apart\" was removed; the open-case reason now calls the episode mixed."
+    },
+    {
+      "finding_id": "fan-03",
+      "action": "fixed",
+      "reason": "The cut paragraph keeps \"Dog, you're free\", adds \"I've always wanted to do film\" and the same-answer \"that was hard to hear\" (Collider, May 2026), and notes she said she would return as a guest star (Cinemablend, 2023). The Seven sentence is followed by the loss rather than standing alone (C12, C149, C150)."
+    },
+    {
+      "finding_id": "fan-04",
+      "action": "fixed",
+      "reason": "(a) The opening now says, with sources, that in August 2026 Marvel named her as Rogue in X-Men, due May 5, 2028, recorded as time_sensitive claim C185 with a review trigger. (b) Settle signal 3 says Rogue doesn't qualify because a franchise lead is secure and prestigious at once. (c) Settle signal 2 and the settle FAQ now read \"how she answers public criticism on record\", with no description of the September 2026 posts."
+    },
+    {
+      "finding_id": "fan-05",
+      "action": "fixed",
+      "reason": "The Seven paragraph now gives the next sentence after \"who cares?\": \"You either have to send it or not go in at all,\" called an all-in pact like her 2021 one (C179). The W \"heart sank\" quote is now introduced with its setup: a second audition she was sure she had blown (C114)."
+    },
+    {
+      "finding_id": "fan-06",
+      "action": "fixed",
+      "reason": "The freakout section includes the outcome she reports, attributed as her account of Barker's later view (THR Awards Chatter excerpt and the S41 audio, plus GoldDerby), not as his verified statement (C171). Johnston's line is still left out because the speaker has not been confirmed visually; S13 context and research_tasks record why."
+    },
+    {
+      "finding_id": "fan-07",
+      "action": "rejected",
+      "reason": "Not added. Where she mostly grew up and her parents' divorce do not bear on the type question, and the article makes no claim about either, so nothing in it is falsified. The material is also less tidy than the finding assumes: she mentioned the divorce to Variety in July 2026 (S10 ~6:30-7:04), before telling ET in September that she had \"never told this publicly\". Adding it would mean a family disclosure plus a correction for a sentence about place. The conflict is recorded in research_tasks and in the S10/S47 context, with instructions to attribute each account if a later edit adds it. The four-tellings list is unchanged."
+    },
+    {
+      "finding_id": "fan-08",
+      "action": "fixed",
+      "reason": "The premise sentence now names Bear (Michael Johnston) as the one who wishes, and Nikki, his friend and co-worker, as the object who becomes obsessed (C81, per S29)."
+    },
+    {
+      "finding_id": "critic-01",
+      "action": "fixed",
+      "reason": "The question is reported as Buchanan asked it (\"this career that you're forging\"), linked to The Kyle Buchanan Show with its date at first mention. The line now sits in the Four case with the full answer, which the edit stage transcribed (authenticity, not security), and the Three case carries Nylon's \"trust that I have that capability\" and Buchanan's \"gain audiences trust\". C134 no longer supports the Six lean, and the discriminator no longer cites it. The 60-word answer and the FAQs are consistent."
+    },
+    {
+      "finding_id": "critic-02",
+      "action": "fixed",
+      "reason": "The Three-side material now quotes her resolution not to \"care about the way that other people are thinking of me\" (both transcripts), adds that this was hard \"because I was a people pleaser at the time\" (Awards Chatter, both transcripts), puts \"this is validation\" in context (her work-first approach received well; later \"self gratifying\", \"your thoughts are correct\"), and quotes \"nothing but ugly\" / \"And I loved it\". The 'make it last' quote was cut, and its look-different continuation is acknowledged. A paragraph says how this bears on Three: an anti-image statement, or a prestige move a Three would also make (C170). The contradiction is now the end of the freakouts section. Several of these repairs replace text; the body still grew overall (see unfamiliar-03)."
+    },
+    {
+      "finding_id": "critic-03",
+      "action": "fixed",
+      "reason": "The \"because you want to know either that you're doing a good job or that you're hitting that note\" clause is restored (C139), and the half-and-half reading is gone. The passage now says the discomfort is about the verdict on her work, Three's ground or simply an actor's (C157)."
+    },
+    {
+      "finding_id": "critic-04",
+      "action": "fixed",
+      "reason": "The cut passage includes \"that was hard to hear\" and \"I've always wanted to do film\". The \"who cares?\" quote carries \"You either have to send it or not go in at all,\" and the article says it echoes the 2021 pact. The Type 7 FAQ was adjusted to match."
+    },
+    {
+      "finding_id": "critic-05",
+      "action": "fixed",
+      "reason": "The Sweety High quote now shows Twitter was her \"favorite\" place for comments and that \"all the feedback has been positive\" (C130). The pre-fame paragraph now says the lean is \"Six-shaped but thin\" and that the pact cuts both ways, protecting her own verdict on her work like the Oscar safety net (C84)."
+    },
+    {
+      "finding_id": "critic-06",
+      "action": "fixed",
+      "reason": "The set-aside section gives a sourced behavioral discriminator for Nine: \"protect my peace\" meant not getting \"too excited about something that may or may not happen\" (hedging), and where a Nine smooths over friction she twice pressed a director (withholding the freakouts; \"fighting back\" over playback) (C182, C120). \"I kind of fit in anywhere\" is addressed in the same sentence. Nine stays out of the live alternatives."
+    },
+    {
+      "finding_id": "critic-07",
+      "action": "fixed",
+      "reason": "Settle signal 2 now reads \"How she answers public criticism on record\", which no longer implies that no criticism has occurred, with no allegation repeated and no journalist named. Before the wording stood, the previously unheard audio (Awards Chatter 46:00-91:11, Kyle Buchanan Show 34:34-52:24) was machine-transcribed and checked: neither contains an on-record response to criticism."
+    },
+    {
+      "finding_id": "critic-08",
+      "action": "fixed",
+      "reason": "The remaining S41/S42 audio was machine-transcribed and reviewed (see subject-F3). The absence claims are scoped to interviews reviewed: \"in any interview reviewed for this profile\" (C90), \"in any interview reviewed here\" (FAQ, C163). The sentence \"No episode on record yet forces those motives apart\" is gone. research_tasks keeps the human-listen check with timestamps."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "action": "fixed",
+      "reason": "Within the first ~200 body words, one sourced sentence says Focus is mounting a Best Actress Oscar campaign for her (Variety via People) and that Marvel named her as Rogue in X-Men in August 2026, due May 5, 2028 (THR), recorded as time_sensitive C185. Settle signal 3 says why taking Rogue doesn't separate Six from Three. The CBR D23 article (S24) is a source for C185; the body links THR."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "action": "fixed",
+      "reason": "The premise sentence names Bear as the one who wishes (C81). The opening now defines the freakouts: Nikki's sudden fits, with the first one filmed (one of the film's first jump scares) described as Nikki breaking off a kiss and lurching backward, attributed to GoldDerby (C186)."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "action": "fixed",
+      "reason": "Section endings were rewritten so evidence sections end on what they add. \"A childhood told four ways\" keeps its protected closing. \"No room for doubt\" ends on her \"that was hard to hear\". The playback section ends on what \"protect my peace\" meant. The freakouts section ends on an unresolved contradiction. The removed verdicts include \"No episode on record yet forces those motives apart\" and the false-balance \"That one sentence holds both readings\". The intro's redundant lines (\"That is why Six leads...\") were folded into one type paragraph. Length was not met: the body is about 3,200 words by the contract counter. Redundant prose was cut (the nickname, the TIFF date, 'make it last', the Gemma Chan aside, the 'show them' line, triad definitions folded in, settle signal 3 shortened). But the subject, fan, critic and enneagram findings required context the acceptance test itself says not to cut, and the excess is that sourced context. The verifier should judge whether this partial length outcome is acceptable."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "action": "fixed",
+      "reason": "The first body mention of Buchanan (the childhood list) identifies him as host of his video podcast, The Kyle Buchanan Show, with a link and the date (October 2026). The playback section opens \"On the first episode of The Kyle Buchanan Show, posted October 21, 2026\". The exposure paragraph says \"On The Kyle Buchanan Show, Buchanan asked...\", replacing \"A week later\", so the exchange can't be placed on set. The Type 3 FAQ names the show."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "action": "fixed",
+      "reason": "The paragraph opens with what she said, where and when. It says she asked for playback to get inside an intimate scene despite the crowd on set, that the director heard vanity, and that she pushed back (\"it's for the scene\"). \"A different route\" is explained from her remarks as leading away from \"oh, you look pretty\". \"The Three case got stronger in October 2026\" was removed."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "action": "fixed",
+      "reason": "(1) The Superman & Lois passage now quotes \"I've always wanted to do film\" and \"that was hard to hear\", both shared by the captions and a second Whisper transcription. \"I got freedom\" appears only in the captions, so it is not quoted. (2) The Twitch passage squares the counts: \"I deleted all of them,\" she began, then corrected herself, \"I just panicked and I deleted a lot of them\"; the FAQ matches. (3) The Awards Chatter 'make it last' clause was cut, so there is no unclear 'it'."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "action": "fixed",
+      "reason": "Barker's on-record observation is quoted in the freakouts section, attributed, linked and dated, and labeled promotional: he told CinemaBlend in May 2026 she brought \"this like bro-y type of... sassiness to Nikki that I didn't anticipate\" (C172). It is not presented as proof of type. Johnston's account is held pending speaker confirmation."
+    },
+    {
+      "finding_id": "enneagram-1",
+      "action": "fixed",
+      "reason": "The type section now grounds the Six lead in a specific sequence (sure she had blown the second audition, then \"my heart sank... I realized I had to work on my anxiety\": fear first, then a plan) rather than how often she uses fear words (C114, C187). It says plainly that most of her named fears are about being judged, so even her triad is open (C145). The triad definitions were folded into that argument, which also removes the shared \"whose core emotion is fear\" phrasing."
+    },
+    {
+      "finding_id": "enneagram-2",
+      "action": "fixed",
+      "reason": "The question is framed as being about her career. The quote moved out of the Six case into the Four case with the full authenticity answer, and Three's credibility reading is noted, with Nylon's \"trust that I have that capability\" in the Three case. C134 was removed from type_hypothesis.for_claim_ids."
+    },
+    {
+      "finding_id": "enneagram-3",
+      "action": "fixed",
+      "reason": "The \"because you want to know either that you're doing a good job or that you're hitting that note\" clause is restored, and the discomfort is no longer assigned to Six. The article calls it Three's ground or simply an actor's (C139, C157)."
+    },
+    {
+      "finding_id": "enneagram-4",
+      "action": "fixed",
+      "reason": "The 2021 pact is presented as cutting both ways: giving everything so there is \"no room for doubt\" protects her own verdict on her work, much like the 2026 safety net (C84). The FAQ no longer says she leads with inability rather than competence before and after fame. The Six case now rests on timing and on non-career securing moves, not on the pre-fame record. C53 and C84 left for_claim_ids."
+    },
+    {
+      "finding_id": "enneagram-5",
+      "action": "fixed",
+      "reason": "The Six case now separates timing (securing in advance) from content (mostly verdicts on her work) and names the non-competence items that keep Six narrowly ahead: feeds filtered with her mother, \"in order to keep myself secure\" (drives, music, video games; C173), the Big Sean message handed to her boyfriend, and guides (C158). The 60-word answer and type FAQ were recalibrated to \"at low confidence and nearly tied with Type 3; Six leads on timing... Three is close on content\". The lead stays Six; no type change."
+    },
+    {
+      "finding_id": "enneagram-6",
+      "action": "fixed",
+      "reason": "The body and the Type 7 FAQ now name the un-Seven-like part: she gave up streams she loved to head off a judgment, a trade that points to Three as much as to Six. Neither presents the deletion as evidence for Six over Seven (C96, C167)."
+    },
+    {
+      "finding_id": "enneagram-7",
+      "action": "fixed",
+      "reason": "The Four paragraph now gathers its strongest evidence: her inner world and \"dramatic child\", withholding the freakouts \"in order to play it true\" (C180), and the full trust answer about authenticity (\"coming from me\", actresses \"completely themselves\", accepting \"that I may not be liked\"; C175, C176). The discriminator is stronger than fan gratitude: she says she got \"really good at making myself comfortable anywhere\", plus the horror-community belonging (C181, C71). Settle signal 2 now tests Four (\"call it the price of being true to herself\"). Four stays live."
+    },
+    {
+      "finding_id": "enneagram-8",
+      "action": "fixed",
+      "reason": "A sentence now says Five (her privacy, her \"own little world\") and One (\"do it correctly\") have scraps but no repeated pattern on record (C183). The open_case reason lists the tested types as Three, Seven, Four, Nine, Eight, Five and One."
+    },
+    {
+      "finding_id": "future-01",
+      "action": "fixed",
+      "reason": "The SNL sentence left the hook. Settle signal 2 now reads \"her Saturday Night Live episode (booked for October 31, 2026...)\", and the settle FAQ says \"the Saturday Night Live episode she was booked to host on October 31, 2026\". Both are true before and after the date. C128 and C165 passages were updated, and no body or metadata sentence uses present or future tense for that date."
+    },
+    {
+      "finding_id": "future-02",
+      "action": "fixed",
+      "reason": "No human listen was possible in this stage. Every quoted claim resting on The Kyle Buchanan Show is now marked durability 'unresolved' with a review_trigger naming the timestamps to re-listen (C133, C134, C136, C138, C139, C140, C147, C151, C152, C153, C155, C168, C169, C175, C177). C117 was cut; its wording is confirmed by two S41 audio transcripts anyway. The previously unheard S42 34:34-52:24 was transcribed and read. \"She took the word\" holds under both transcriptions: small.en has \"That's a beautiful word for it. Exposure was...\" and base.en has \"That's a beautiful word for exposure. It was...\"."
+    },
+    {
+      "finding_id": "future-03",
+      "action": "fixed",
+      "reason": "open_case.next_review moved to 2026-11-16, after the SNL episode's press cycle, so the C128/C165 triggers and settle signal 2 fall on a scheduled review. The 2027-01-21 nominations follow-up is a separate research task, and every time_sensitive or unresolved trigger names the 2026-11-16 review or a dated catalyst."
+    },
+    {
+      "finding_id": "future-04",
+      "action": "fixed",
+      "reason": "The section now opens on the dated evidence (\"On the first episode of The Kyle Buchanan Show, posted October 21, 2026, she said...\"). No body sentence describes the case strengthening or weakening over the research timeline, and the weighing section still makes clear that Three is close (\"nearly tied\")."
+    },
+    {
+      "finding_id": "future-05",
+      "action": "fixed",
+      "reason": "The Twitch FAQ's absence statement is now dated and scoped (\"As of October 2026, no interview reviewed here dates the deletion.\") and is its own time_sensitive claim, C184, with a trigger tied to settle signal 5. The body's \"So far\" became \"As of October 2026\" (C162)."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Before _Obsession_ started shooting, Inde Navarrette told its writer-director, Curry Barker, two things.",
+      "action": "kept",
+      "reason": "Unchanged opening line."
+    },
+    {
+      "passage": "She has described those years at least four ways:",
+      "action": "kept",
+      "reason": "Unchanged. The four tellings are intact; fan-07's place and divorce material was not added (see that decision)."
+    },
+    {
+      "passage": "The plan was his, and warming up a nervous lead is ordinary directing.",
+      "action": "kept",
+      "reason": "Unchanged."
+    },
+    {
+      "passage": "Against it, nearly all of this is self-report from a campaign that rewards candor about fear, and filtering social media is ordinary advice for anyone newly famous.",
+      "action": "kept",
+      "reason": "Unchanged, still directly after the Six case."
+    },
+    {
+      "passage": "She has already named the test she wants. \"I really want to prove that _Obsession_ wasn't just lightning in a bottle,\" she told Nylon in July 2026.",
+      "action": "kept",
+      "reason": "Unchanged ending."
+    },
+    {
+      "passage": "The first was a confession. \"I said, 'I don't know how to scream, and I'm feeling very shy,'\" she told [Collider's Perri Nemiroff](https://www.youtube.com/watch?v=zEB4C4SIAbY) in May 2026.",
+      "action": "kept",
+      "reason": "Unchanged. The two-beat hook stands; the freakouts' outcome was added later in the article, as fan-06 asked."
+    },
+    {
+      "passage": "- **Lonely**, to [Complex News](https://www.youtube.com/watch?v=IUAsUy_aKR8) in June 2026. Asked whether she kept friends, she said no: \"making friends was always really difficult for me.\"",
+      "action": "kept",
+      "reason": "Unchanged list item."
+    },
+    {
+      "passage": "When the rapper Big Sean messaged her, her first thought, she told Complex News, was \"Oh, no,\" and she handed the phone to her boyfriend to read it first. (It was kind.)",
+      "action": "kept",
+      "reason": "Kept verbatim with the parenthetical. A following sentence adds her middle-school fandom and labels the moment ambiguous (subject-F7) without changing the passage."
+    },
+    {
+      "passage": "That one sentence holds both readings. Discomfort at not knowing what others think is a Six's. Fear of the verdict on her work is a Three's.",
+      "action": "changed",
+      "reason": "Removed as an unsupported detail. The sentence was cut before its \"because you want to know... that you're doing a good job\" clause, so the 6/3 split was false (critic-03, enneagram-3). Its contribution, a precise statement of why the case is open, survives in a truer form that ends the section: \"The discomfort is itself about the verdict on her work, Three's ground or simply an actor's. She resolved not to care how she came across, and her biggest fear on that set was whether she was doing a good job.\""
+    },
+    {
+      "passage": "She laughed. \"So, I'm looking forward to that.\"",
+      "action": "kept",
+      "reason": "Unchanged closing beat. The Nylon capability sentence the fan wanted restored now appears in the Three case instead of being spliced into the ending."
+    },
+    {
+      "passage": "The childhood can't settle the type. A Seven reading could claim the happy moves, a Six reading the lonely ones. Read together, they are a story about adapting.",
+      "action": "kept",
+      "reason": "Unchanged."
+    },
+    {
+      "passage": "And overriding a nervous director on day one is self-trust, which a picture of her leaning on others doesn't predict.",
+      "action": "changed",
+      "reason": "\"Overriding\" overstated the record: no source shows Barker objected, and she reports his later relief (subject-F5). Now: \"And holding the freakouts back from a nervous director until the cameras rolled is self-trust, which a picture of her leaning on others doesn't predict.\" It still confronts the leading read with a specific behavior."
+    },
+    {
+      "passage": "On the record so far, safety and image point the same way. What would separate Six from Three is a moment when they don't.",
+      "action": "kept",
+      "reason": "Unchanged lead-in to the settle signals."
+    },
+    {
+      "passage": "She has already named the test she wants.",
+      "action": "kept",
+      "reason": "Unchanged."
+    },
+    {
+      "passage": "Her trust came in stages: questions first, privacy for the big moments, the director's eye for the small ones. And overriding a nervous director on day one is self-trust, which a picture of her leaning on others doesn't predict.",
+      "action": "changed",
+      "reason": "First sentence unchanged. In the second, \"overriding a nervous director on day one\" became \"holding the freakouts back from a nervous director until the cameras rolled\" (subject-F5). The synthesis and its turn against the leading read are intact."
+    },
+    {
+      "passage": "A few sentences later: \"I also want to fall on my face publicly and have something that people don't like [but] maybe I do.\" She laughed. \"So, I'm looking forward to that.\"",
+      "action": "kept",
+      "reason": "Unchanged."
+    },
+    {
+      "passage": "The two things she told Barker are the puzzle of her public record. The confession names a fear and hands it to someone she trusts. The refusal protects something, and she has explained it two ways: to keep the performance true, and to avoid being judged too early. Is she guarding her safety, or the impression that she can do the job?",
+      "action": "kept",
+      "reason": "Unchanged. The Buchanan paragraph now notes she joined the craft and protective reasons in one answer (subject-F5)."
+    },
+    {
+      "passage": "By 2026, after a hit, the cut had become a liberation. \"As soon as they were kind of like, 'Dog, you're free.' I was like, 'Dude,'\" she told Collider. That turn toward freedom is the kind of reframe Sevens are known for, but it came in hindsight.",
+      "action": "changed",
+      "reason": "The first and third sentences are verbatim. The middle quote now opens with her same-answer \"I've always wanted to do film\" (critic-04, fan-03), and a following sentence adds \"that was hard to hear\". The dated contrast between her 2023 reaction and her 2026 reframe, the passage's contribution, is intact and more accurate."
+    },
+    {
+      "passage": "That turn toward freedom is the kind of reframe Sevens are known for, but it came in hindsight.",
+      "action": "kept",
+      "reason": "Verbatim. The next sentence qualifies it with the loss she named."
+    },
+    {
+      "passage": "\"I also want to fall on my face publicly and have something that people don't like [but] maybe I do.\"",
+      "action": "kept",
+      "reason": "Unchanged."
+    }
+  ],
+  "prior_blockers": []
+}

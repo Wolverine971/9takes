@@ -1,0 +1,28 @@
+Error: Reached max turns (60)
+[runner] Turn limit reached; resuming session 11d707bd-8caf-4c4c-b2c2-ffc1bb12d3cf to write outputs
+I've finished the draft stage for Olivia Dean. `draft.md` and `evidence-draft.json` are written to the run directory and pass the pipeline's own checks: no draft blockers, and the evidence validates against the draft. No other repo files were changed, and nothing was published (`published: false`). My only other writes were scratch files in `/tmp`.
+
+**The piece (3,435 words, 6 sections):**
+- **Opening:** five days after her Grammy, she gave the ELLE writer champagne on learning it was the writer's birthday. Five days earlier she had turned her Grammy speech toward her grandmother.
+- **Thesis:** in moments built around her, she hands the attention to someone else.
+- **Type answer:** Type 2, stated plainly the way you prefer. The medium confidence is said in the next paragraphs, not in the answer itself.
+- **Strongest rival:** "Why not Type 3?" gets its own section with its best evidence: the goal list she made at 17, her mother's "five times better," and her line that "nobody wants to work with a horrible person." What tips it to Type 2 is that when image and connection pull apart, she lets the image take the hit.
+- **Live tension:** her independence talk ("I'm too scared to belong to anyone") stays unresolved, not explained away as "Two growth."
+- **New detail I found while checking quotes:** twice she calls putting herself first "selfish." Once for trusting her own taste on *Messy*, once for writing "Carmen" only for her grandmother. With her florist answer to Numéro (from its English translation), this suggests her default is that songs belong to the listener.
+- **Ending:** her ELLE line about her friends, "It's just mine."
+
+**How the quotes were checked:**
+- A script matched every quoted line against the saved source texts, with no misses.
+- I downloaded audio for the six YouTube interviews and ran a second machine transcription (Whisper). Where it differed from YouTube's captions, the draft quotes only the words both share. That affected four lines.
+- The WSJ video has professional captions and wasn't audio-checked. Whisper is a machine check, not a human listen.
+
+**Corrections to the research record, logged in the evidence file:**
+- "I learned that I had to be selfish" was about creative decisions on *Messy*, not about love.
+- No opened source says the two Ticketmaster posts were "about an hour" apart, so the draft gives only their order.
+- The British Library panel is dated "2024," since only the upload date is known.
+
+**Choices you may want to overrule:**
+- **Lawsuit left out.** The Bill Withers estate suit isn't in the body because it doesn't bear on her personality. It's still unresolved and flagged for each refresh.
+- **One quote unused.** "I don't take any shit from people" was left out because its wording couldn't be checked against the original.
+
+Nine research claims the draft doesn't use were removed; their sources are kept. The evidence file has 135 claims and 37 sources, and the type hypothesis was revised wherever it cited a removed claim.

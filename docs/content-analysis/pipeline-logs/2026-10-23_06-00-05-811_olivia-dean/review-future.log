@@ -1,0 +1,18 @@
+I wrote the future-role (five-year test) review for the Olivia Dean draft to `review-future.json`. It passes the pipeline's review schema, and every quoted passage matches the frozen draft exactly. I didn't change or publish anything else, and I didn't open the other roles' reviews.
+
+**Verdict: the type argument still holds in five years.** Her two-pattern argument rests on dated episodes from 2023–2026: giving the ELLE writer champagne after the Grammy, and apologising to fans before taking on Ticketmaster. If you remove the latest events (the October 2026 Melbourne and Auckland shows), the argument still stands. Nearly every date is absolute, and the line that "Rein Me In" "became" the longest-running UK No. 1 stays true even if the record is later broken.
+
+**Seven findings, all minor** (upkeep, not thesis problems):
+1. The description says "her Grammy" and two other lines say "after the Grammys". The 2027 nominations are only weeks away, so another nomination or win would make these ambiguous. Fix: "her Best New Artist win" and "the February 2026 Grammys".
+2. Some time spans and job titles are marked as never changing but will go stale: "about a decade", "still manages her", Charrington's and Ward's titles, and "in recent years".
+3. "Both album covers blur her face" stops being true once a third album exists, and it has no review trigger.
+4. The article never names the tour, The Art of Loving Live. The line "The tour ended the way it went on sale" mixes the November 2025 North American ticket sale with the Auckland finale of the world tour.
+5. "The longest conversation on record…" has no date, so it will become false as she gives longer interviews. Better fix: transcribe that 87-minute podcast before release.
+6. "The Two's usual costs… do not show up in public" is marked as permanent but has no trigger to re-test it if new accounts appear.
+7. The closing test ("listen for which she names…") has no matching review trigger in the evidence file, so a third album could get a date fix without anyone running the test.
+
+**Risk flags I kept on:**
+- **Contested typing:** the read is held at medium confidence, Type 3 has a strong case, and Types 7, 9 and 6 are still live.
+- **Sensitive allegations:** her quoted mental-health disclosures, plus an unresolved October 2026 copyright suit over "I've Seen It". The suit names her label and publishers, not her. The draft rightly leaves it out of the article, but the only thing still tracking it is one item on the evidence file's research to-do list, so that item needs to survive the edit stage.
+
+The similarity check didn't flag anything; the closest match was ordinary Type 2 wording.

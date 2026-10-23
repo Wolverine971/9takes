@@ -1,0 +1,27 @@
+{
+  "eligible": false,
+  "blockers": [
+    "verification:revise",
+    "unresolved:verify-01:Context error in the type discriminator, introduced in the edit after the reviews. 'I always knew that I had something to give' (Apple Music, S17 06:02-06:33; fresh captions and my own whisper of fresh audio agree) answered 'How did you know that your talent was special?'. In context it means she had something to bring to the table alongside other artists, not what her work is for. Line 209 frames it correctly, but line 263 and the Type 3 FAQ ('asked what her work is for, she keeps answering with other people, saying... she \"always knew that I had something to give\"') present it as a purpose answer. This inflates the one discriminator the article says separates Two from Three, in body and metadata. The evidence record's discriminator also lists Apple Music among purpose answers.",
+    "unverified_claim:C51g",
+    "unverified_claim:C51h",
+    "overall_below_8.5:8",
+    "enneagram_below_8:7.5"
+  ],
+  "quality": {
+    "evidence": 8,
+    "enneagram": 7.5,
+    "originality": 8.5,
+    "writing": 7.5,
+    "durability": 8.5,
+    "hook": 8.5,
+    "discoverability": 7.5,
+    "overall": 8,
+    "letter": "B",
+    "rubric_version": 3,
+    "graded_at": "2026-10-23",
+    "caps_applied": [],
+    "needs_review": true,
+    "content_sha256": "8d17196152d24fa1119e9589530050191b4ae3bea6f00d868eb2edc6778f8042"
+  }
+}

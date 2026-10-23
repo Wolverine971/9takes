@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "subject",
+  "content_sha256": "6dfd0319be559378c5583fbd5db625635d720678ecad1a315c87ed3ea96c7008",
+  "evidence_sha256": "d975784e4865bd66b486101cfcc70de6c05c6a611ffb29fdbe379089fdd06b35",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": true
+  },
+  "findings": [
+    {
+      "id": "subject-F1",
+      "severity": "major",
+      "passage": "She \"really, really wanted to hunker down and play a role\" in which she would be seen to know what she was doing and to understand \"the human emotion behind it. And I could be taken seriously in a different route.\"",
+      "problem": "The playback story loses the context that reverses its direction. In S42 (~18:11-19:55, small.en machine transcript) the director's line continues \"Because that's the only thing you'd be concerned about\"; she says she kept \"fighting back on it\" (\"it's for the scene\"); he answered with a monologue about Robert Pattinson being \"the hair\" on Twilight; \"more careful with my words\" means rephrasing requests (\"if that's the way that they saw me, then yeah, it's just for my hair\") so \"as an actor, I can get what I need\"; and the quoted sentence continues \"because I had felt that I had done the, oh, you look pretty, you know, for a bit. And I felt like with obsession, it was nothing but ugly, and I loved it.\" Under the heading \"The Three case got stronger,\" a story about being dismissed as vain, pushing back, and seeking an unglamorous role reads as evidence of an image motive. The plainest reading of the record (a young actress refusing to be valued for her looks) sits only in C136's alternative field, not in the prose.",
+      "acceptance_test": "The section states, quoted or closely paraphrased, that the director assumed her request was about her looks, that she pushed back, that \"more careful with my words\" meant rewording requests to get what she needed, and that she wanted a role that was \"nothing but ugly\". It names the situational reading (being dismissed on looks) beside the Three reading. Any newly quoted words are checked against a human listen or a second transcription of S42."
+    },
+    {
+      "id": "subject-F2",
+      "severity": "major",
+      "passage": "Asked what she wants people to know about her, she ranked trust above liking:",
+      "problem": "Buchanan's prompt (S42 0:00-0:07) was \"What is the light that you've always wished that Inde Navarrette would be seen in? What do you want people to know about this career that you're forging?\" Her answer is about the career. In Nylon (S02, July 2026) she put the same thought as \"I want people to take that time to trust that I have that capability.\" In context, the trust she asks for is trust in her capability and project choices, which a Three reading claims as readily as a Six. The lead-in drops the career framing, and the block quote becomes the Six case's showcase line for a security value the record does not show.",
+      "acceptance_test": "The lead-in names the career question (or quotes \"this career that you're forging\"), and the passage acknowledges that the trust she asks for is in her capability (e.g., via the Nylon line), which fits Three as well. Alternatively, the quote is moved out of the Six case's evidence."
+    },
+    {
+      "id": "subject-F3",
+      "severity": "major",
+      "passage": "As of October 2026, she has not publicly named an Enneagram type.",
+      "problem": "The portrait leans hardest on the two longest interviews, yet roughly an hour of them is unreviewed: Awards Chatter audio S41 46:00-91:11 and Kyle Buchanan S42 34:34-52:24 (evidence research_tasks). That is her most recent long-form talk and the likeliest place for her own answers on criticism, career choices where safety and prestige diverge, or the stories the draft interprets. C117's quote comes from the unheard stretch and rests only on THR's lightly edited text. The People original (S50) and the LA Times profile (S53) were not opened. This sentence and its FAQ twin state a universal negative over unreviewed material. Eligibility still holds (adult, breakout 2025-26, earlier TV produced only short interviews), so this is a gap inside a young record, not a skipped deep one. It is still a missing-response risk.",
+      "acceptance_test": "The evidence records a transcript or listen of S41 46:00-91:11 and S42 34:34-52:24, or marks a stretch unavailable with a reason. Anything bearing on Six/Three/Seven, the freakouts or playback stories, or her response to criticism is either incorporated or noted as not material. C117 is checked against the S41 audio. The \"has not publicly named\" sentence and the FAQ line are confirmed against the fully reviewed record or scoped to the interviews reviewed."
+    },
+    {
+      "id": "subject-F4",
+      "severity": "minor",
+      "passage": "On _Awards Chatter_ she said she can \"make it last as long as humanly possible or throw it all away.\"",
+      "problem": "THR's excerpt (S40) reads \"I think the future is looking like really hunkering down because I'm in a very specific opportunity in my career where I can kind of make it last as long as humanly possible or throw it all away. I really want to be specific with the next couple of my decisions...\" It goes on to say she wants \"to not look like myself in some characters\" and to \"gain a lot of weight, lose a lot of weight, add eyebrow piercings, maybe shave my head, and do everything humanly possible to look different.\" The draft lifts the career clause into the Three case. It omits both the careful-decision framing, which a Six reading claims, and her wish to de-glamorize, which cuts against an image-first reading.",
+      "acceptance_test": "One option: the sentence leaves the Three case. The other: it is quoted with \"I really want to be specific with the next couple of my decisions\" and labeled as fitting Six caution as well as Three career management. Either way, her stated wish to \"look different\" is acknowledged in the Three case's \"against\" paragraph or with the playback story."
+    },
+    {
+      "id": "subject-F5",
+      "severity": "minor",
+      "passage": "She knew the cost to him. \"I know Curry's nervous,\" she said, and refusing him felt like \"really being a dick.\"",
+      "problem": "The freakouts episode gives Barker's cost (\"I think I saw him die\", \"nervous\", \"being a dick\") but not the outcome she reports. On GoldDerby (S11 ~5:13-5:32) she said \"Curry likes to talk about how I was a little bit private\" and \"on that first day, Curry talks about how relieved he felt watching me be able to do that.\" Johnston (S13, Hot Ones Versus ~14:30) independently recalls asking \"Show me what you're going to do\" and getting a no, told fondly. Without the outcome, the description's \"kept her freakouts from him\" and the body's \"overriding a nervous director on day one\" read as a power struggle won at his expense. Also, to Buchanan (S42 ~30:54-31:31) she tied exposure back to craft in the same answer (\"in order to give that authenticity, I couldn't predetermine\") and said she has \"gotten better about it\". The \"explained it two ways\" framing splits those across two interviews.",
+      "acceptance_test": "The section reports, attributed to her, that Barker was relieved on the first day. \"Overriding\" becomes a neutral verb (declined to rehearse them, held them back until the shoot) unless a source shows he objected. The description no longer implies concealment beyond rehearsal. The Buchanan paragraph or the opening puzzle notes that she joined the protective and craft reasons in one answer."
+    },
+    {
+      "id": "subject-F6",
+      "severity": "minor",
+      "passage": "By 2026, after a hit, the cut had become a liberation.",
+      "problem": "In the same Collider answer (S09 ~9:45-10:20), right after \"Dog, you're free,\" she said \"that was hard to hear cuz I miss everybody cuz we created a very tight-knit family.\" To Cosmopolitan (S37, June 2026) she called it \"that disappointment\" and \"divine timing.\" The draft shows only the freedom clause, so her 2026 account reads as a glib reframe, and the Seven point (\"the kind of reframe Sevens are known for\") gets a cleaner instance than the record holds. Her own acknowledgment of the loss is missing.",
+      "acceptance_test": "The paragraph includes her \"hard to hear cuz I miss everybody\" (or the Cosmopolitan \"disappointment\") beside \"Dog, you're free\". The Seven sentence is qualified to say she named the loss as well as the freedom."
+    },
+    {
+      "id": "subject-F7",
+      "severity": "minor",
+      "passage": "When the rapper Big Sean messaged her, her first thought, she told Complex News, was \"Oh, no,\" and she handed the phone to her boyfriend to read it first. (It was kind.)",
+      "problem": "She opens the anecdote with \"I'm a huge fan of Big Sean and I have been since like middle school\" (S46 ~16:28). A fan's \"Oh, no\" at a message from a long-time idol is most plainly starstruck nerves. The draft omits the fandom and files the moment as securing against a bad outcome, a motive the record does not distinguish from ordinary excitement.",
+      "acceptance_test": "The sentence notes she has been a fan since middle school, and the anecdote is either labeled light and ambiguous (starstruck nerves fit any type) or dropped from the Six case's evidence."
+    },
+    {
+      "id": "subject-F8",
+      "severity": "minor",
+      "passage": "It runs back to leaving high school early, she told Variety, \"to work at a coffee shop because headshots were really expensive and my mom couldn't afford them.\"",
+      "problem": "\"It runs back to\" makes the Three motive the root of leaving school. Her stated reason is financial (her mother couldn't afford headshots), given as an answer about pre-fame jobs (S10 ~23:40-24:05). Committing to acting at a personal cost shows a determination any live reading could claim. Tying a family-money disclosure to an image motive is the author's inference presented as lineage.",
+      "acceptance_test": "The causal \"It runs back to\" is gone. The anecdote keeps her financial reason and appears as an early costly commitment not specific to Three, either moved out of the Three paragraph or followed by a clause saying it fits every reading."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Before _Obsession_ started shooting, Inde Navarrette told its writer-director, Curry Barker, two things.",
+      "reason": "A specific, sourced hook built from her own words that sets up the open question honestly instead of asserting a type."
+    },
+    {
+      "passage": "She has described those years at least four ways:",
+      "reason": "Lays out her inconsistent self-accounts side by side without forcing a childhood wound or picking the version that suits the thesis. This is the model of fairness for the piece."
+    },
+    {
+      "passage": "The plan was his, and warming up a nervous lead is ordinary directing.",
+      "reason": "Clear separation of the record from inference. It refuses to credit her type with the director's technique."
+    },
+    {
+      "passage": "Against it, nearly all of this is self-report from a campaign that rewards candor about fear, and filtering social media is ordinary advice for anyone newly famous.",
+      "reason": "States the leading read's main limit right beside it, in plain language."
+    },
+    {
+      "passage": "She has already named the test she wants. \"I really want to prove that _Obsession_ wasn't just lightning in a bottle,\" she told Nylon in July 2026.",
+      "reason": "Ends in her voice with a test she set for herself, not an author's verdict. It is durable and fair."
+    }
+  ],
+  "assessment": "Subject-fairness proxy; I do not speak for her. Restraint is strong: the playback director and her boyfriend are unnamed, the September 2026 backlash roundup (IBTimes S56, unverified screenshots) and the Sneider episode are excluded, there are no clinical claims, the childhood is left unsettled, self-report is labeled, and title, description and FAQs use leading-read language without overstating. Open-case eligibility holds (adult, born 2001; first lead and breakout 2025-26; earlier TV produced only short interviews), so I raise no blocker. But about an hour of the two longest interviews is unheard (F3). The main fairness problem is selective context. The Three case is built from fragments whose surrounding words point elsewhere: the playback story is about rejecting being valued for looks (F1), \"make it last\" sits beside a wish to de-glamorize (F4), and the trust line answers a question about her career and capability (F2). Several anecdotes also lose her own mitigating words: Barker's reported relief (F5), \"hard to hear cuz I miss everybody\" (F6), and her Big Sean fandom (F7). None is defamatory, but together they tilt motive readings past the record. Similarity trips are triad-explainer vocabulary (\"whose core emotion is fear\") and sanctioned open-case phrasing (\"held loosely at low confidence\"). That is ordinary type vocabulary, not reused argument, so I raise no finding. Method: I checked context in the research/draft stages' cached copies (Kyle Buchanan small.en transcript, Collider, GoldDerby, Variety and Complex captions, Hot Ones Versus, THR excerpts, Cosmopolitan relay, IBTimes), not freshly fetched pages. The Buchanan audio is a machine transcript that no one has listened to."
+}

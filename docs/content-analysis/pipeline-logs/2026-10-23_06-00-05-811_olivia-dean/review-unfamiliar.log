@@ -1,0 +1,17 @@
+I wrote the unfamiliar-reader review to `docs/content-analysis/pipeline-logs/2026-10-23_06-00-05-811_olivia-dean/review-unfamiliar.json`. It passes the pipeline's review schema, and both input hashes match the request, so it reviews the frozen draft. No other files were touched and nothing was published.
+
+**What works for a new reader:** The opening scene, where Dean gives the ELLE writer birthday champagne five days after her Grammy, is a specific, sourced hook. The article says who she is within about 200 words and frames the question plainly: is she a genuine giver, or just a very polished professional? The Ticketmaster story and the "selfish" material about her song "Carmen" are the strongest parts.
+
+**Two major findings:**
+- **The core argument assumes Enneagram knowledge the article never gives.** The type section opens by ruling out types by "triad", but never explains that the nine types fall into three groups. Someone who searched her name can't follow it.
+- **The Type 2 vs Type 3 test is stated but never shown.** The article says the decider is what she protects "when image and connection pull apart". Every example shows her image taking a hit, but none shows her protecting a relationship at her image's expense. One example, deleting her social apps, arguably cuts the other way.
+
+**Six minor findings:**
+- **Overconfident answer:** the short answer under the "What is her personality type?" heading states Type 2 flatly, with no medium confidence and no mention of the Type 3 rival.
+- **Tour confusion:** the tour is never named, so a "North American" tour that ends in Auckland reads like a mistake.
+- **Misplaced method note:** a note about checking captions interrupts the move from the hook into the argument.
+- **Unattributed quote:** one quote has no outlet named; it's from Time Out, 2023.
+- **Overpromise on songs:** "her songs keep circling that cost" is backed by one lyric, and "that cost" is defined two different ways.
+- **Thin orientation:** the intro never says what her music sounds like or names her hit, and doesn't explain bell hooks or the Mercury Prize.
+
+The similarity check didn't trip. The only overlap with other profiles is ordinary type vocabulary, so I didn't raise a finding on it. I kept both risk flags (contested typing and sensitive allegations) set to true, matching the research record.

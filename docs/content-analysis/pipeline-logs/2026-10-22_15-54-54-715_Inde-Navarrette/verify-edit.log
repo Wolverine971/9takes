@@ -1,0 +1,34 @@
+The verify stage for Inde Navarrette is done, and the result is **`revise`**. One attribution error blocks release, and it's a one-line fix. Everything else checked out. The only file I wrote is `verification-edit.json` in the run directory, and nothing was published.
+
+**Blocking issue (major):**
+- **Wrong outlet named.** The opening paragraph says the Focus Best Actress campaign was reported "according to Variety as relayed by People." The linked Yahoo page is actually a Wealth of Geeks article (the page's metadata and logo both say so). The campaign fact itself is reported accurately; only the outlet name is wrong. The evidence record has the same error.
+- **Fix:** credit Wealth of Geeks, or better, find and link Variety's original report, and correct the source record.
+
+**Minor findings (don't block):**
+- **"Unrelated to her work" overstates.** The body and the Type 3 FAQ say Six stays ahead because of "securing moves unrelated to her work." Two of those moves are tied to her work: the Variety "keep myself secure" line is about unwinding after a role, and the social-media limit was set because of "a new step in my career." "Not about a verdict on her work" is accurate.
+- **"Variety's podcast"** is really Variety's *Up Next* video interview.
+- **Three quotes missing from the evidence record:** "And I think I saw him die," "created a really safe space," and Buchanan's "this career that you're forging." I checked all three against their sources and they're accurate.
+
+**What I checked:**
+- **Quotes:** all ~90 quoted passages match their sources in context. I re-fetched all 30 web sources live.
+- **Video interviews:** YouTube blocked live downloads, so I read its captions from a copy saved earlier today and re-transcribed key stretches from the saved videos myself.
+- **The two long podcasts:** the Kyle Buchanan quotes were the jury's biggest worry, since no person has listened to them. I transcribed them with a third, stronger speech-to-text model, and it agrees with the two earlier ones on every quoted word. The Awards Chatter quotes also check out.
+- **Facts:** box office ($520.0M as of today), budget range, Rogue casting and its May 5, 2028 date, the SNL booking for Oct 31, 2026, and the Jan 21, 2027 Oscar nominations all check out. No interview has her naming an Enneagram type.
+- **Editor's decisions:** I accepted all 44. The editor declined to add her parents' divorce, and I agreed, because she had already mentioned it to Variety in July. The reviewer who asked for a shorter piece wanted about 2,500 words; it's 3,209. I accepted that because the extra is sourced context other reviewers required, and I counted it against Writing. All 20 protected passages were kept, or changed only to remove something false.
+
+**Scores:**
+
+| Dimension | Score |
+|---|---|
+| Evidence | 8.0 |
+| Enneagram | 8.2 |
+| Originality | 8.5 |
+| Writing | 7.8 |
+| Durability | 8.0 |
+| Hook | 8.8 |
+| Discoverability | 7.8 |
+| **Overall** | **8.1** |
+
+That clears every open-case floor. I confirmed she qualifies for open-case treatment. I marked the five-year test as failed, because the "What would settle it" section will read as dated by early 2027; that doesn't block an open case.
+
+With the outlet name fixed, the page should pass on re-verification.

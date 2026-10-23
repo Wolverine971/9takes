@@ -1,0 +1,24 @@
+Error: Reached max turns (60)
+[runner] Turn limit reached; resuming session 4c684974-5962-4f2e-a4da-8a3de251085d to write outputs
+I've written the edit stage's three outputs: `edit.md`, `evidence-edit.json` and `resolution-edit.json`. All of them pass the contract's schema and draft checks, and every claim's quoted passage matches the edited article exactly. I didn't change any input or the live draft, and nothing was published.
+
+**What changed in the article**
+- **Type answer recalibrated.** The leading read is still Type 6 at low confidence, but it is now "nearly tied with Type 3." Six leads on *timing*: she names a fear and sets a protection before anything happens. Three is close on *content*: most of what she fears is a verdict on her work. Since the type number didn't change, no new review round is needed.
+- **"Trust me" quote moved.** I transcribed the end of The Kyle Buchanan Show, which nobody had reviewed before. The interviewer followed up with "Trust you how?" and her answer is about authenticity: not "selling them something," and accepting "that I may not be liked." The quote now supports the Type 4 case, which is no longer token.
+- **Quotes put back in context.** Several Type 3 and Type 7 quotes had been cut where they turned the other way. They now include what follows them: the director heard vanity and she pushed back, she wanted a role that was "nothing but ugly," and she resolved not to care what others think "because I was a people pleaser at the time." Her Superman & Lois exit now includes "that was hard to hear," and "who cares?" is followed by "send it or not go in at all."
+- **Additions reviewers asked for:**
+  - the Focus Best Actress campaign and her Rogue casting, early in the piece;
+  - her correction of the Heat 2 rumor;
+  - her report that Curry Barker was relieved after the first freakout;
+  - one outside voice (Barker's promotional "sassiness" comment);
+  - a plain definition of the freakouts, and Bear correctly named as the one who makes the wish;
+  - reasons Nine, Eight, Five and One were set aside.
+- **Dates fixed.** The SNL line is now worded as a booking so it stays true after October 31. The next review moved to 2026-11-16.
+
+**Unheard audio:** the last 45 minutes of THR's Awards Chatter podcast and the last 18 minutes of the Buchanan show were machine-transcribed and read in full. Neither has her naming a type or answering criticism, and the "has not named a type" lines are now limited to the interviews reviewed.
+
+**Open items for the verifier**
+- **Nobody has listened to the Buchanan audio.** Each quote from that show agrees across two machine transcripts. I marked them `unresolved`, with the timestamps to re-check by ear.
+- **Length.** The body is about 3,200 words against a target of roughly 2,500. The excess is sourced context other reviewers required. I marked that finding fixed but said so plainly in its reason, so the verifier may not accept it.
+- **One finding rejected:** the "unfamiliar reader" reviewer's request to add where she grew up and her parents' divorce. It doesn't bear on the type, and her own accounts conflict. That's recorded in the research tasks.
+- **Co-star Michael Johnston is still not quoted.** It isn't confirmed that he's the one speaking in that clip.

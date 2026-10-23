@@ -1,0 +1,1169 @@
+{
+  "schema_version": 3,
+  "content_sha256": "97d7b77ae903751a0d8e99602c8209da957573eaf14cf28f3bd1e4bc082895dc",
+  "evidence_sha256": "2800ad6bd32de8f9e040f2f5aae37e5f722cb03bbeede658130b7600143e3db3",
+  "status": "revise",
+  "findings": [
+    {
+      "id": "verify-01",
+      "severity": "major",
+      "passage": "Focus Features is mounting a Best Actress Oscar campaign for her, according to Variety as relayed by [People](https://www.yahoo.com/entertainment/movies/articles/inde-navarrette-thought-she-blew-184530143.html)",
+      "problem": "Misattribution. The linked Yahoo page (S55) is a Wealth of Geeks article by Marija Mrakovic syndicated on Yahoo: its schema.org provider is 'Wealth of Geeks' and it shows the Wealth of Geeks logo. It cites PEOPLE only for other items (the wigs, the May social-media interview). The campaign line itself ('according to Variety') is relayed accurately, but the article names the wrong outlet in reader-facing text, and the evidence record's S55 speaker ('Yahoo/People syndication') carries the same error.",
+      "acceptance_test": "The sentence names the relay correctly (Wealth of Geeks, via Yahoo) or, better, links Variety's original report after opening it. S55's speaker/context are corrected in the evidence record, and the citation list matches. No other claim attributes S55 to People."
+    },
+    {
+      "id": "verify-02",
+      "severity": "minor",
+      "passage": "what keeps Six narrowly ahead is a handful of securing moves unrelated to her work.",
+      "problem": "Two of the named items are work-adjacent: 'in order to keep myself secure' answers a Variety question about decompressing from a character's emotions (S10 27:10-27:52), and the social-media limit was set because it was 'a new step in my career' (S49). What they share is that they are not about a verdict on her work, which is the distinction the Six case needs. The type FAQ repeats 'including in ways unrelated to her work'.",
+      "acceptance_test": "Body and Type 3 FAQ say the items are not about a verdict on her work (or similar) instead of 'unrelated to her work', with the items unchanged."
+    },
+    {
+      "id": "verify-03",
+      "severity": "minor",
+      "passage": "\"I deleted all of them,\" she began on Variety's podcast, then corrected herself",
+      "problem": "S10 is Variety's 'Up Next' YouTube video interview ('welcome to Variety's Up Next'); nothing opened shows it is a podcast.",
+      "acceptance_test": "The sentence calls it Variety's Up Next interview (or a Variety video interview), or a source shows it is distributed as a podcast."
+    },
+    {
+      "id": "verify-04",
+      "severity": "minor",
+      "passage": "And I think I saw him die.",
+      "problem": "Three direct quotes are not in the claim inventory: 'And I think I saw him die.' (S40, and S41 audio ~44:50), 'created a really safe space' (S09 20:48-20:50) and Buchanan's 'this career that you're forging' (S42 0:05). I verified all three, so nothing in the article is unsupported, but the standard asks that every direct quote be inventoried.",
+      "acceptance_test": "Each quote's sentence is added to an existing claim's passage (C115, C48, C134) or given its own claim with source IDs and locators."
+    }
+  ],
+  "research_tasks": [
+    "Repair verify-01: open Variety's report on the Focus best-actress campaign and link it, or credit Wealth of Geeks via Yahoo; correct S55's speaker field.",
+    "Optional before the 2026-11-16 review: a human listen to the S42 timestamps in the existing research task. Three machine models (small.en, base.en, large-v3-turbo) now agree on every quoted span, so this is confirmation rather than a blocker.",
+    "Open People (S50) and the Los Angeles Times profile (S53) at the next review; both remain unopened."
+  ],
+  "claim_checks": [
+    {
+      "claim_id": "C18",
+      "verdict": "supported",
+      "reason": "S09 captions 20:27-20:38 and my own Whisper pass on the saved Collider video read 'I said, I don't know how to scream and I'm feeling very shy' (captions mishear Curry as 'Karyn'). Dated May 2026 correctly."
+    },
+    {
+      "claim_id": "C115",
+      "verdict": "supported",
+      "reason": "THR excerpt (S40, re-fetched) prints the line verbatim; my own large-v3-turbo transcription of the S41 episode audio (verify stage, 2026-10-22) at ~44:45 has 'I'm really sorry but I'm not gonna show you any of the freakouts in rehearsal' (THR normalizes 'gonna'). 'Before going in, I told Curry' supports 'she remembers telling him'."
+    },
+    {
+      "claim_id": "C81",
+      "verdict": "supported",
+      "reason": "Wikipedia film page (S29, re-fetched) plot: Bear breaks the One Wish Willow and wishes Nikki loved him; Nikki is his friend and co-worker at the music store. Premise paraphrase is faithful."
+    },
+    {
+      "claim_id": "C83",
+      "verdict": "supported",
+      "reason": "S29 infobox and lead give the May 15, 2026 US release; S55 and THR agree."
+    },
+    {
+      "claim_id": "C50",
+      "verdict": "qualified",
+      "reason": "NBC News (S28) says a $750,000 budget; The Numbers (S27) lists $1,000,000. The range is honest to the two linked reports. Wikipedia (S29) now shows $600,000-750,000, so 'depending on the report' carries real weight; tracked as unresolved."
+    },
+    {
+      "claim_id": "C37",
+      "verdict": "supported",
+      "reason": "The Numbers (S27) re-fetched at verify: Worldwide Box Office $520,006,715. THR (S54, 2026-10-21) says 'more than $522 million'. Dated 'by October 22, 2026'."
+    },
+    {
+      "claim_id": "C128",
+      "verdict": "supported",
+      "reason": "HOLA! USA (S26) says she hosts 'on October 31st' with Gracie Abrams; Variety (S51, 2026-10-19) says she is set to host the Halloween episode; Wikipedia (S01) gives October 31, 2026. 'Booked for' wording stays true after the date."
+    },
+    {
+      "claim_id": "C156",
+      "verdict": "supported",
+      "reason": "Interpretation built on two verified quotes: 'in order to play it true' (S40 text and S41 audio) and Buchanan's exposure answer ('that prejudgment... would have killed me', my own large-v3-turbo transcription of the S42 Acast audio (verify stage, 2026-10-22) ~30:55-31:15). Both explanations are hers."
+    },
+    {
+      "claim_id": "C144",
+      "verdict": "supported",
+      "reason": "Dated sources confirm the substantial record runs May-October 2026; pre-fame items (S19 2021-03-15, S36 2021-03-28, S20 2022-03-01, S23 2020-06-19) are short Q&As."
+    },
+    {
+      "claim_id": "C52",
+      "verdict": "supported",
+      "reason": "Labeled interpretation; consistent with the verified record (timing items C15/C25/C119/C120 precede outcomes; content items C139/C153/C152/C15 name verdicts on her work). Confidence stated as low."
+    },
+    {
+      "claim_id": "C114",
+      "verdict": "supported",
+      "reason": "W cover story (S44, re-fetched): second audition 'I just couldn't get there... it's not going to be me!' then 'When I received the phone call that I had gotten the part, my heart sank to my butt. I realized I had to work on my anxiety.' Quote and setup exact."
+    },
+    {
+      "claim_id": "C145",
+      "verdict": "supported",
+      "reason": "Triad statements are standard Enneagram usage; 'much of what she calls fear is fear of judgment' matches the verified quotes (take me seriously, a good job, am I doing a good job, prejudgment)."
+    },
+    {
+      "claim_id": "C90",
+      "verdict": "supported",
+      "reason": "Scoped absence. I searched every re-fetched page, all saved captions and all available machine transcripts (both full podcasts) for 'enneagram': only the Boo community database (S30) mentions a type, and that is not her voice."
+    },
+    {
+      "claim_id": "C163",
+      "verdict": "supported",
+      "reason": "FAQ mirror of C90; same search result."
+    },
+    {
+      "claim_id": "C01",
+      "verdict": "supported",
+      "reason": "HOLA! USA (S05) and SCMP (S08, via r.jina.ai) both give Danielle Fabiola Navarrette, born March 2001 in Tucson, Arizona; Wikipedia (S01) agrees. The article correctly gives only the year."
+    },
+    {
+      "claim_id": "C47",
+      "verdict": "supported",
+      "reason": "S10 captions 6:10-6:14: 'My dad's a Marine, so I grew up moving around a lot'."
+    },
+    {
+      "claim_id": "C132",
+      "verdict": "supported",
+      "reason": "Four tellings each verified (C03, C112, C146, C147); 'at least' leaves room for the divorce/place variance the article omits."
+    },
+    {
+      "claim_id": "C03",
+      "verdict": "supported",
+      "reason": "S10 captions 6:25-6:50: friends who were military brats said 'I hate moving around, I hate moving friends. Me, I was like new story, new place.' then 'that was really fun for me'. 'Fun' label fits."
+    },
+    {
+      "claim_id": "C112",
+      "verdict": "supported",
+      "reason": "S46 captions 3:31-3:36: 'Like were you able to keep friends?' 'No.' ... 'making friends was always really difficult for me'."
+    },
+    {
+      "claim_id": "C146",
+      "verdict": "supported",
+      "reason": "Schon! (S34, re-fetched) Q&A: 'I went to 11 different schools and got really good at making myself comfortable anywhere.' Exact."
+    },
+    {
+      "claim_id": "C147",
+      "verdict": "supported",
+      "reason": "my own large-v3-turbo transcription of the S42 Acast audio (verify stage, 2026-10-22) at ~14:30: 'I'm a little jealous sometimes of people that had like one city, one state that they lived in. But simultaneously not because I feel like I kind of fit in anywhere.' The ellipsis removes only 'like'. A third model now agrees with small.en and base.en."
+    },
+    {
+      "claim_id": "C148",
+      "verdict": "supported",
+      "reason": "Interpretation over C03/C112/C146/C147; fairly states that neither reading owns the childhood."
+    },
+    {
+      "claim_id": "C10",
+      "verdict": "supported",
+      "reason": "Wikipedia (S01): 13 Reasons Why (2020) and Superman & Lois (2021-2024); Yahoo 2020 Q&A (S23) and CBR 2021 (S19) are short interviews; Just Jared Jr (S22) is a 2023 relay."
+    },
+    {
+      "claim_id": "C08",
+      "verdict": "supported",
+      "reason": "CBR (S19, 2021-03-15): her mother drove and 'we'd make a whole day out of it'; 'whenever I got old enough to drive myself... I realized that I didn't have that distraction'. Paraphrase faithful."
+    },
+    {
+      "claim_id": "C53",
+      "verdict": "supported",
+      "reason": "CBR (S19) verbatim; the source sentence continues 'and just be a massive little B!', a harmless truncation."
+    },
+    {
+      "claim_id": "C131",
+      "verdict": "supported",
+      "reason": "Sweety High (S36, 2021-03-28) advice answer: 'Work through the hole of doubt or down days by doing what makes you feel better. Whether that's a distraction—such as drawing for me—or talking to someone'. Framed correctly as advice to readers."
+    },
+    {
+      "claim_id": "C130",
+      "verdict": "supported",
+      "reason": "S36: 'Twitter is my favorite for people's comments about the show. I'm careful with what I read but wonderfully all the feedback has been positive'. Context now intact."
+    },
+    {
+      "claim_id": "C135",
+      "verdict": "supported",
+      "reason": "Looper (S20, 2022-03-01): 'She's older than me, so she's able to look down and guide me in different ways.' Chriqui plays Sarah's mother Lana (S20, S32)."
+    },
+    {
+      "claim_id": "C84",
+      "verdict": "supported",
+      "reason": "Interpretation explicitly labeled 'Six-shaped but thin' and gives the Three reading of the pact; matches C53/C131/C130/C135."
+    },
+    {
+      "claim_id": "C129",
+      "verdict": "supported",
+      "reason": "S36 verbatim: 'I love skydiving but unfortunately can't go anymore because of COVID.'"
+    },
+    {
+      "claim_id": "C56",
+      "verdict": "supported",
+      "reason": "Wikipedia (S01): June 2023 announcement that she and six co-stars were departing for the fourth season due to budget cuts; Collider host (S09 9:24-9:34) frames it the same way."
+    },
+    {
+      "claim_id": "C149",
+      "verdict": "supported",
+      "reason": "Cinemablend (S32, 2023-07-07) quotes her TikTok: 'me and a few other people from the cast are now guest stars instead of series regulars... But, at least you guys get a Season 4.' 'A month later' fits."
+    },
+    {
+      "claim_id": "C12",
+      "verdict": "supported",
+      "reason": "S09 captions 9:45-10:00 and my own Whisper pass on the saved video: 'I've always wanted to do film... as soon as they were kind of like, dog, you're free, I was like, dude'."
+    },
+    {
+      "claim_id": "C150",
+      "verdict": "supported",
+      "reason": "Same answer continues 'so that was hard to hear because I miss everybody because we created a very tight-knit family' (captions and my audio pass). The hindsight label is fair."
+    },
+    {
+      "claim_id": "C136",
+      "verdict": "supported",
+      "reason": "my own large-v3-turbo transcription of the S42 Acast audio (verify stage, 2026-10-22) ~17:55-18:20: playback request because an intimate scene had 'like 1,500 people' on set; 'And he goes, you look beautiful. You're fine.' She names neither director nor show."
+    },
+    {
+      "claim_id": "C151",
+      "verdict": "supported",
+      "reason": "my own large-v3-turbo transcription of the S42 Acast audio (verify stage, 2026-10-22): 'fighting back on it', 'It's for the scene', the Robert Pattinson 'hair' monologue, 'more careful with my words... if that's the way that they saw me, then, yeah, it's just for my hair', 'as an actor, I can get what I need'. 'He heard vanity' paraphrases 'Because that's the only thing you'd be concerned about'."
+    },
+    {
+      "claim_id": "C152",
+      "verdict": "supported",
+      "reason": "my own large-v3-turbo transcription of the S42 Acast audio (verify stage, 2026-10-22): 'I really, really wanted to hunker down and play a role where it could be perceived that I not only know what I'm doing, but I understand the human emotion behind it and I could be taken seriously in a different route'. Words match; only punctuation differs."
+    },
+    {
+      "claim_id": "C153",
+      "verdict": "supported",
+      "reason": "my own large-v3-turbo transcription of the S42 Acast audio (verify stage, 2026-10-22) ~16:00: 'I was telling my team I really want to prove myself. I feel like there's something that I have never been able to show anybody'."
+    },
+    {
+      "claim_id": "C140",
+      "verdict": "supported",
+      "reason": "my own large-v3-turbo transcription of the S42 Acast audio (verify stage, 2026-10-22): 'to have the time where I did that received so well. I was like, okay, this is now my path. This is validation.' and later (~39:00) 'I think it's self gratifying to myself of, you know, you have something or your thoughts are correct.' Context represented accurately."
+    },
+    {
+      "claim_id": "C64",
+      "verdict": "supported",
+      "reason": "Complex (S06) and NME (S07): 'I didn't work for a year and a half after Obsession'; Nylon (S02): 'Between Obsession and the film after that, I didn't work... I was streaming... to make money.' Attributed self-report."
+    },
+    {
+      "claim_id": "C15",
+      "verdict": "qualified",
+      "reason": "S10 captions 10:33-10:55 and my own Whisper pass confirm 'a new chapter of my life', 'I deleted all of them', 'I just panicked and I deleted a lot of them', 'and now they don't take me seriously', 'it's not based on fact'. Two small loosenesses: the clause before the quote is 'what if people saw that I switched/twitched' (one word unclear), which the paraphrase 'her old streaming self' handles fairly; and S10 is Variety's 'Up Next' video interview, which the article calls 'Variety's podcast'."
+    },
+    {
+      "claim_id": "C66",
+      "verdict": "supported",
+      "reason": "S10 11:11-11:21 (captions and audio): 'now seeing that people are so lovingly holding on to it my fear was for nothing'. Nylon (S02) independently notes resurfaced streamer videos."
+    },
+    {
+      "claim_id": "C25",
+      "verdict": "supported",
+      "reason": "S10 28:55-29:07 (captions and my audio pass): 'there's a part of my brain that is um just kind of having a safety net of if it doesn't happen, it doesn't mean that I didn't do a good job'. Answer to the Oscar conversation; ellipsis removes 'um'."
+    },
+    {
+      "claim_id": "C120",
+      "verdict": "supported",
+      "reason": "S46 captions 19:13-19:21: asked if she cares about an Oscar, 'it's not that I don't care about it. Like I said earlier, I'm very sensitive. So, I kind of want to protect my peace. I don't want to get too excited about something that may or may not happen.' Context given in the article."
+    },
+    {
+      "claim_id": "C48",
+      "verdict": "supported",
+      "reason": "S09 20:38-20:44 (captions and my audio pass): 'I'm gonna schedule multiple days where it's just you and I. And then whenever you get comfortable with me, then we're gonna do it in front of other people.' The nearby 'created a really safe space' and screaming-alongside details (S09 20:46-21:30) are also accurate but are not in the inventory."
+    },
+    {
+      "claim_id": "C101",
+      "verdict": "supported",
+      "reason": "Labeled interpretation; the plan is attributed to Barker in her account (S09)."
+    },
+    {
+      "claim_id": "C142",
+      "verdict": "supported",
+      "reason": "S40 text and my own large-v3-turbo transcription of the S41 episode audio (verify stage, 2026-10-22): 'I really wanted to keep that safe before it needed to come out in order to play it true', 'I know Curry's nervous', 'really being a dick'. The first day was the bed-scene freakout."
+    },
+    {
+      "claim_id": "C138",
+      "verdict": "supported",
+      "reason": "my own large-v3-turbo transcription of the S42 Acast audio (verify stage, 2026-10-22) ~30:50-31:15: Buchanan asks whether she wanted to preserve the surprise or whether something felt exposed; she answers '...a beautiful word for exposure was something that I really wanted to avoid because... I was a very sensitive person at the time and that prejudgment... would have killed me and that would have killed Nikki', then ties it to authenticity. All three transcriptions support 'She took the word'."
+    },
+    {
+      "claim_id": "C155",
+      "verdict": "supported",
+      "reason": "my own large-v3-turbo transcription of the S42 Acast audio (verify stage, 2026-10-22) ~30:20: 'just asking as many questions as humanly possible and not caring if you're annoying'."
+    },
+    {
+      "claim_id": "C23",
+      "verdict": "supported",
+      "reason": "S11 captions 17:56-18:15: 'I kind of used Curry as a mirror where I put full trust in him where I would show him the faces and he would tweak'. 'Smaller moments' fairly describes the smiles/faces context."
+    },
+    {
+      "claim_id": "C86",
+      "verdict": "supported",
+      "reason": "Interpretation combining verified C155, C115/C142/C138 and C23; 'holding the freakouts back... until the cameras rolled' matches 'I'm not going to show you any of the freakouts in rehearsal'."
+    },
+    {
+      "claim_id": "C139",
+      "verdict": "supported",
+      "reason": "my own large-v3-turbo transcription of the S42 Acast audio (verify stage, 2026-10-22) ~23:00-23:20: 'as an actor it's really uncomfortable when you don't know what somebody else is thinking because you want to know either that you're doing a good job or that you're hitting that note... for me that was my biggest fear of oh shit am I doing a good job'. Context (playing silence on Obsession) is kept."
+    },
+    {
+      "claim_id": "C157",
+      "verdict": "supported",
+      "reason": "Interpretation follows directly from C139 and C169 as verified; leaves the contradiction open as stated."
+    },
+    {
+      "claim_id": "C158",
+      "verdict": "qualified",
+      "reason": "The timing point is supported (C15, C25, C120, C119 precede outcomes). But 'securing moves unrelated to her work' overstates: the Variety 'in order to keep myself secure' line (S10 27:17-27:52) answers a question about decompressing from a character's emotions, and the social-media limit came as 'a new step in my career' after the film opened (S49). They are not about a verdict on her work, which is the distinction the article needs. See minor finding verify-02."
+    },
+    {
+      "claim_id": "C119",
+      "verdict": "supported",
+      "reason": "Just Jared (S49, re-read via r.jina.ai) relays People: she and her mom are 'limiting the amount of things that I'm allowed to see just for right now, because it's a beginning of a new process and a new step in my career and I really want to make sure that I'm protecting myself first'. Attribution 'told People, as relayed by Just Jared' is correct."
+    },
+    {
+      "claim_id": "C118",
+      "verdict": "supported",
+      "reason": "S46 captions 16:29-16:50: fan of Big Sean 'since like middle school'; 'at first I was like, Oh, no. So, I handed the phone to my boyfriend'; he says 'Honey, this is the cutest little message'."
+    },
+    {
+      "claim_id": "C159",
+      "verdict": "supported",
+      "reason": "Chriqui guidance (S20) and Barker as mirror (S11) verified."
+    },
+    {
+      "claim_id": "C134",
+      "verdict": "supported",
+      "reason": "my own large-v3-turbo transcription of the S42 Acast audio (verify stage, 2026-10-22) (teaser 0:00-0:13 and closing answer ~49:50): 'What do you want people to know about, you know, this career that you're forging?' 'I think I'd want people to know that they don't have to like me. I just want them to trust me.'"
+    },
+    {
+      "claim_id": "C160",
+      "verdict": "supported",
+      "reason": "States the leading read's main limitation; consistent with the record."
+    },
+    {
+      "claim_id": "C09",
+      "verdict": "supported",
+      "reason": "S10 captions 23:55-24:03 verbatim, answering a question about pre-fame jobs."
+    },
+    {
+      "claim_id": "C122",
+      "verdict": "supported",
+      "reason": "W (S44) Q&A: 'I'm 100 percent a cat. I don't like to be touched unless I want to be touched. I don't like to be seen unless I want to be seen.'"
+    },
+    {
+      "claim_id": "C110",
+      "verdict": "supported",
+      "reason": "S09 and S46 ('Listen, I want to be very forthcoming... But it's a little intimidating') both show her opening with what she lacked."
+    },
+    {
+      "claim_id": "C31",
+      "verdict": "supported",
+      "reason": "S14 captions 3:08-3:13: 'On my 18th birthday, I went skydiving' and then got pierced the same day. Kimmel aired June 2026."
+    },
+    {
+      "claim_id": "C109",
+      "verdict": "supported",
+      "reason": "THR (S35, re-fetched): about the monologue audition scene, 'I'm going to have so much fun with this, because who cares?'"
+    },
+    {
+      "claim_id": "C20",
+      "verdict": "supported",
+      "reason": "S11 captions 35:48-36:00: 'whenever you're really scared of something, but you really want to do it justice and do it correctly and then you get that high of uh accomplishing it and feeling proud of it'. Ellipsis removes 'uh'."
+    },
+    {
+      "claim_id": "C97",
+      "verdict": "supported",
+      "reason": "Interpretation follows from the verified C20 wording."
+    },
+    {
+      "claim_id": "C96",
+      "verdict": "supported",
+      "reason": "Interpretation; 'streams she loved' is supported by S10 ('I love love love streaming at that time')."
+    },
+    {
+      "claim_id": "C133",
+      "verdict": "supported",
+      "reason": "my own large-v3-turbo transcription of the S42 Acast audio (verify stage, 2026-10-22) ~12:10-12:30: 'it made me feel like quite a dramatic child' and 'I've always lived in my own little world since I was young'."
+    },
+    {
+      "claim_id": "C71",
+      "verdict": "supported",
+      "reason": "S10 captions 30:15-30:24 verbatim."
+    },
+    {
+      "claim_id": "C33",
+      "verdict": "supported",
+      "reason": "S10 captions 26:57-27:05: 'Nikki stood up for herself... and I felt like that was something I needed to learn.'"
+    },
+    {
+      "claim_id": "C161",
+      "verdict": "supported",
+      "reason": "Academy press release (S57, via r.jina.ai): 'Oscars Nominations Announcement Thursday, January 21, 2027'."
+    },
+    {
+      "claim_id": "C162",
+      "verdict": "supported",
+      "reason": "Scoped absence; the colleague testimony found (S13, S15, S16, S17, S18) is all from the Obsession circle."
+    },
+    {
+      "claim_id": "C74",
+      "verdict": "supported",
+      "reason": "Nylon (S02, 2026-07-01) re-fetched: all four quoted pieces present; 'A few sentences later' is accurate (two sentences intervene)."
+    },
+    {
+      "claim_id": "C103",
+      "verdict": "supported",
+      "reason": "Description paraphrase stays within 'I didn't know how to scream' (S09)."
+    },
+    {
+      "claim_id": "C99",
+      "verdict": "supported",
+      "reason": "Persona title is a fair compression of S09's scream story."
+    },
+    {
+      "claim_id": "C164",
+      "verdict": "supported",
+      "reason": "FAQ summary of verified C152, C153 and C15."
+    },
+    {
+      "claim_id": "C106",
+      "verdict": "supported",
+      "reason": "FAQ summary of verified C129, C31 and C109."
+    },
+    {
+      "claim_id": "C165",
+      "verdict": "supported",
+      "reason": "Dates verified against S57 (January 21, 2027) and S26/S51/S01 (October 31, 2026)."
+    },
+    {
+      "claim_id": "C104",
+      "verdict": "supported",
+      "reason": "FAQ summary matches C15's scope ('many', after 'all' then 'a lot of them')."
+    },
+    {
+      "claim_id": "C166",
+      "verdict": "supported",
+      "reason": "FAQ summary of verified C25."
+    },
+    {
+      "claim_id": "C167",
+      "verdict": "supported",
+      "reason": "FAQ summary of C20/C97/C96; consistent with the verified wording."
+    },
+    {
+      "claim_id": "C168",
+      "verdict": "supported",
+      "reason": "my own large-v3-turbo transcription of the S42 Acast audio (verify stage, 2026-10-22) ~19:45-19:55: 'because I had felt that I had done the, oh, you look pretty, you know, for a bit. And I felt like with obsession, it was nothing but ugly and I loved it.'"
+    },
+    {
+      "claim_id": "C169",
+      "verdict": "qualified",
+      "reason": "my own large-v3-turbo transcription of the S42 Acast audio (verify stage, 2026-10-22) ~16:35: 'I don't want to care about the way that other people are thinking of me'; my own large-v3-turbo transcription of the S41 episode audio (verify stage, 2026-10-22) ~68:00: 'I didn't go to obsession to make friends. I really wanted to work and that was a bit hard for me because I was a people pleaser at the time.' The two interviews are joined fairly (Buchanan gives 'I don't want to make friends' and 'I don't want to care...' as one resolution), though on Awards Chatter the hard part was named as not going to make friends."
+    },
+    {
+      "claim_id": "C170",
+      "verdict": "supported",
+      "reason": "THR excerpt (S40) and my own large-v3-turbo transcription of the S41 episode audio (verify stage, 2026-10-22) ~89:40: for The Waffle House Index she wants to 'do everything humanly possible to look different'. The prestige-move caveat is labeled."
+    },
+    {
+      "claim_id": "C171",
+      "verdict": "supported",
+      "reason": "S40 and my own large-v3-turbo transcription of the S41 episode audio (verify stage, 2026-10-22): 'he'll even say now that it was like a weight lifted off of his shoulder... oh my god okay she can do it she just needs privacy'. Presented as her account; GoldDerby (S11 5:27-5:32) has 'Curry talks about how relieved he felt'."
+    },
+    {
+      "claim_id": "C172",
+      "verdict": "supported",
+      "reason": "S15 captions 3:48-4:02: 'what Indy brought was this like bro-y type of uh uh like um sassiness to Nikki that I didn't anticipate'. Ellipsis removes filler only; labeled promotional; dated May 2026 (2026-05-29)."
+    },
+    {
+      "claim_id": "C173",
+      "verdict": "qualified",
+      "reason": "S10 captions 27:17-27:52 and my audio pass: 'whenever it comes to what I do have control over in order to keep myself secure um it'll be my drives. It'll be my music. It'll be my video games.' Accurate quote; the question was how she decompresses from a character's emotions, so it is emotional self-regulation around her work rather than something unrelated to it (see verify-02)."
+    },
+    {
+      "claim_id": "C174",
+      "verdict": "supported",
+      "reason": "S46 16:29-16:31: 'I'm a huge fan of Big Sean and I have been since like middle school.' The ambiguity is labeled."
+    },
+    {
+      "claim_id": "C175",
+      "verdict": "supported",
+      "reason": "my own large-v3-turbo transcription of the S42 Acast audio (verify stage, 2026-10-22) ~49:50-50:30: 'Trust you how?' 'I don't want them to feel like I'm selling them something... it's coming from me... these are all women that are completely themselves... fully accept the fact that I may not be liked'."
+    },
+    {
+      "claim_id": "C176",
+      "verdict": "supported",
+      "reason": "Interpretation weighing verified C175 against Nylon's 'trust that I have that capability' (S02)."
+    },
+    {
+      "claim_id": "C177",
+      "verdict": "supported",
+      "reason": "Nylon (S02): 'I want people to take that time to trust that I have that capability.' my own large-v3-turbo transcription of the S42 Acast audio (verify stage, 2026-10-22) ~42:30: 'really trying to gain audiences' trust and really trying to, if I've already gained it, keep it with certain projects'."
+    },
+    {
+      "claim_id": "C178",
+      "verdict": "supported",
+      "reason": "THR (S43, 2026-10-21) and my own large-v3-turbo transcription of the S42 Acast audio (verify stage, 2026-10-22) ~43:20-44:00: 'No, I was not offered Heat 2'; 'I sent in multiple self-tapes... What do you like? What do you not like?'"
+    },
+    {
+      "claim_id": "C179",
+      "verdict": "supported",
+      "reason": "THR (S35) prints 'You either have to send it or not go in at all.' as the next sentence after 'who cares?'."
+    },
+    {
+      "claim_id": "C180",
+      "verdict": "supported",
+      "reason": "S40 text and S41 audio: 'in order to play it true'."
+    },
+    {
+      "claim_id": "C181",
+      "verdict": "supported",
+      "reason": "Schon! (S34) verified (C146); horror-community belonging verified (C71)."
+    },
+    {
+      "claim_id": "C182",
+      "verdict": "supported",
+      "reason": "'protect my peace' context verified (S46); 'I kind of fit in anywhere' verified (S42); 'fighting back' verified (S42); the freakout withholding verified (S40/S41)."
+    },
+    {
+      "claim_id": "C183",
+      "verdict": "supported",
+      "reason": "Records that Five and One were considered; the cited scraps ('own little world', 'do it correctly') are verified."
+    },
+    {
+      "claim_id": "C184",
+      "verdict": "supported",
+      "reason": "Scoped absence; S10, S02 and S06 describe the deletion without a date."
+    },
+    {
+      "claim_id": "C185",
+      "verdict": "qualified",
+      "reason": "Substance verified: the syndicated article (S55) says Focus is mounting a best actress campaign 'according to Variety'; THR (S43) and CBR (S24, D23, published 2026-08-15) confirm Rogue, announced August 2026, release May 5, 2028. But the article says 'as relayed by People': the linked Yahoo page is a Wealth of Geeks article (Yahoo provider metadata and logo), which cites People only for other items. See major finding verify-01."
+    },
+    {
+      "claim_id": "C186",
+      "verdict": "supported",
+      "reason": "S11 captions 4:56-5:03: 'they're kissing and she freaks out and she goes backwards. I think it's actually one of the first kind of uh jump scares in the film. That was our first day.' S40 and the S29 plot agree."
+    },
+    {
+      "claim_id": "C187",
+      "verdict": "qualified",
+      "reason": "Labeled interpretation from W (S44). 'Then a plan' slightly upgrades 'I realized I had to work on my anxiety', which is a resolve rather than a plan; acceptable at the stated low confidence."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "S01",
+      "opened": true,
+      "context_matches": true,
+      "locator": "re-fetched live at verify (2026-10-22); infobox, lead, Early life, Career (June 2023 departure; SNL October 31, 2026)"
+    },
+    {
+      "source_id": "S02",
+      "opened": true,
+      "context_matches": true,
+      "locator": "re-fetched live at verify (2026-10-22); deli profile paragraphs on resurfaced streams, 'Between Obsession and the film after that, I didn't work', lightning in a bottle / capability / fall on my face"
+    },
+    {
+      "source_id": "S05",
+      "opened": true,
+      "context_matches": true,
+      "locator": "re-fetched live at verify (2026-10-22); items 1-2: born Danielle Fabiola Navarrette, Tucson, Arizona"
+    },
+    {
+      "source_id": "S06",
+      "opened": true,
+      "context_matches": true,
+      "locator": "re-fetched live at verify (2026-10-22); article body: year and a half without a role, streaming"
+    },
+    {
+      "source_id": "S07",
+      "opened": true,
+      "context_matches": true,
+      "locator": "re-fetched live at verify (2026-10-22); article body quoting Complex: 'I didn't work for a year and a half after Obsession'"
+    },
+    {
+      "source_id": "S08",
+      "opened": true,
+      "context_matches": true,
+      "locator": "r.jina.ai copy at verify (direct fetch 403); 'So what do we know' section: born March 2001 in Tucson, Arizona"
+    },
+    {
+      "source_id": "S09",
+      "opened": true,
+      "context_matches": true,
+      "locator": "YouTube auto-captions read from the copy fetched 2026-10-22 11:56 (live caption/audio fetch returned HTTP 429/403 at verify); 9:45-10:24 and 20:24-21:30; my own Whisper large-v3-turbo pass on the saved video confirmed both stretches"
+    },
+    {
+      "source_id": "S10",
+      "opened": true,
+      "context_matches": true,
+      "locator": "YouTube auto-captions read from the copy fetched 2026-10-22 11:56 (live caption/audio fetch returned HTTP 429/403 at verify); 6:10-7:12, 10:33-11:27, 23:55-24:07, 26:57-27:52, 28:40-29:09, 30:06-30:24; my own Whisper pass confirmed 10:30-11:25 and 28:40-29:10. Format is Variety's 'Up Next' video interview"
+    },
+    {
+      "source_id": "S11",
+      "opened": true,
+      "context_matches": true,
+      "locator": "YouTube auto-captions read from the copy fetched 2026-10-22 11:56 (live caption/audio fetch returned HTTP 429/403 at verify); 4:51-5:32, 17:56-18:24, 35:48-36:10"
+    },
+    {
+      "source_id": "S13",
+      "opened": true,
+      "context_matches": true,
+      "locator": "YouTube auto-captions read from the copy fetched 2026-10-22 11:56 (live caption/audio fetch returned HTTP 429/403 at verify); 14:30-14:47 (Johnston addressing her, unquoted in the article; used only for C162's scoped absence)"
+    },
+    {
+      "source_id": "S14",
+      "opened": true,
+      "context_matches": true,
+      "locator": "YouTube auto-captions read from the copy fetched 2026-10-22 11:56 (live caption/audio fetch returned HTTP 429/403 at verify); 2:52-3:21 (18th-birthday skydiving and piercing)"
+    },
+    {
+      "source_id": "S15",
+      "opened": true,
+      "context_matches": true,
+      "locator": "YouTube auto-captions read from the copy fetched 2026-10-22 11:56 (live caption/audio fetch returned HTTP 429/403 at verify); 3:26-4:15 (Barker: 'bro-y type of... sassiness')"
+    },
+    {
+      "source_id": "S16",
+      "opened": true,
+      "context_matches": true,
+      "locator": "YouTube auto-captions read from the copy fetched 2026-10-22 11:56 (live caption/audio fetch returned HTTP 429/403 at verify); 16:12-16:24 (her: 'some moments where it's just up to me to make myself comfortable') and 23:01-23:32 (Barker on her performance in the alternate take); C162 scope only"
+    },
+    {
+      "source_id": "S17",
+      "opened": true,
+      "context_matches": true,
+      "locator": "re-fetched live at verify (2026-10-22); Barker's answer to 'What sold you on Inde and Michael' (C162 scope only)"
+    },
+    {
+      "source_id": "S18",
+      "opened": true,
+      "context_matches": true,
+      "locator": "YouTube auto-captions read from the copy fetched 2026-10-22 11:56 (live caption/audio fetch returned HTTP 429/403 at verify); 4:00-4:19 (Johnston on what she brought; C162 scope only)"
+    },
+    {
+      "source_id": "S19",
+      "opened": true,
+      "context_matches": true,
+      "locator": "re-fetched live at verify (2026-10-22) (published 2021-03-15); answer on landing the role: day-out auditions, driving herself, the 110% pact"
+    },
+    {
+      "source_id": "S20",
+      "opened": true,
+      "context_matches": true,
+      "locator": "re-fetched live at verify (2026-10-22) (published 2022-03-01); answer on advice from castmates (Chriqui 'look down and guide me')"
+    },
+    {
+      "source_id": "S22",
+      "opened": true,
+      "context_matches": true,
+      "locator": "re-fetched live at verify (2026-10-22) (2023-04-07); article body on season 3/4 uncertainty (C10 context only)"
+    },
+    {
+      "source_id": "S23",
+      "opened": true,
+      "context_matches": true,
+      "locator": "re-fetched live at verify (2026-10-22) (2020-06-19); 13 Reasons Why Q&A (Estela, Monty's sister)"
+    },
+    {
+      "source_id": "S24",
+      "opened": true,
+      "context_matches": true,
+      "locator": "re-fetched live at verify (2026-10-22) (published 2026-08-15); D23 announcement of Rogue and May 5, 2028 release"
+    },
+    {
+      "source_id": "S26",
+      "opened": true,
+      "context_matches": true,
+      "locator": "re-fetched live at verify (2026-10-22); article body: hosting 'on October 31st' with Gracie Abrams"
+    },
+    {
+      "source_id": "S27",
+      "opened": true,
+      "context_matches": true,
+      "locator": "re-fetched live at verify (2026-10-22); summary box: Worldwide Box Office $520,006,715; Production Budget $1,000,000"
+    },
+    {
+      "source_id": "S28",
+      "opened": true,
+      "context_matches": true,
+      "locator": "re-fetched live at verify (2026-10-22); article body: 'a mere $750,000 budget'"
+    },
+    {
+      "source_id": "S29",
+      "opened": true,
+      "context_matches": true,
+      "locator": "re-fetched live at verify (2026-10-22); infobox (TIFF Sept 5, 2025; US May 15, 2026), plot (Bear's wish; bed kiss and scream), lead"
+    },
+    {
+      "source_id": "S30",
+      "opened": true,
+      "context_matches": true,
+      "locator": "r.jina.ai copy at verify; community-typed profile calling her Type 6 (not her own statement; used only for C90's absence check)"
+    },
+    {
+      "source_id": "S32",
+      "opened": true,
+      "context_matches": true,
+      "locator": "re-fetched live at verify (2026-10-22) (published 2023-07-07); TikTok reply quoted in the body: guest stars, 'But, at least you guys get a Season 4.'"
+    },
+    {
+      "source_id": "S34",
+      "opened": true,
+      "context_matches": true,
+      "locator": "re-fetched live at verify (2026-10-22); first Q&A on the page: Marine Corps pilot father, 11 schools, 'comfortable anywhere'"
+    },
+    {
+      "source_id": "S35",
+      "opened": true,
+      "context_matches": true,
+      "locator": "re-fetched live at verify (2026-10-22) (published 2026-05-16); voice/audition answer: 'who cares?' followed by 'You either have to send it or not go in at all.'"
+    },
+    {
+      "source_id": "S36",
+      "opened": true,
+      "context_matches": true,
+      "locator": "re-fetched live at verify (2026-10-22) (published 2021-03-28); five-question Q&A: skydiving, Twitter comments, 'hole of doubt' advice"
+    },
+    {
+      "source_id": "S37",
+      "opened": true,
+      "context_matches": true,
+      "locator": "re-fetched live at verify (2026-10-22); 'as disappointed and sad as it was... divine timing' (C150 context)"
+    },
+    {
+      "source_id": "S40",
+      "opened": true,
+      "context_matches": true,
+      "locator": "re-fetched live at verify (2026-10-22) (published 2026-10-14); excerpts 'On being thrown right into the deep-end' (freakouts, 'saw him die', 'play it true', weight lifted) and 'On her outlook for the future' (look different)"
+    },
+    {
+      "source_id": "S41",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Episode audio saved from the megaphone RSS enclosure (feed re-fetched at verify: 'Inde Navarrette - Obsession [LIVE]', pubDate 2026-10-14); my own large-v3-turbo transcription of ~44:30-46:00, ~67:45-68:20 and ~89:15-90:00"
+    },
+    {
+      "source_id": "S42",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Acast RSS feed re-fetched at verify (episode dated 2026-10-21, same enclosure); my own large-v3-turbo transcription of 0:00-0:20, 11:40-13:00, 14:20-14:50, 15:45-20:05, 22:55-23:35, 30:10-31:40, 38:20-40:30, 42:15-45:30, 48:50-51:20, a third model agreeing with the earlier small.en/base.en passes on every quoted span"
+    },
+    {
+      "source_id": "S43",
+      "opened": true,
+      "context_matches": true,
+      "locator": "re-fetched live at verify (2026-10-22) (published 2026-10-21); Heat 2 answer, self-tapes, X-Men May 5, 2028"
+    },
+    {
+      "source_id": "S44",
+      "opened": true,
+      "context_matches": true,
+      "locator": "re-fetched live at verify (2026-10-22) (published 2026-10-15); cover-story intro (second audition, 'heart sank') and cat-or-dog answer"
+    },
+    {
+      "source_id": "S45",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Saved video audio (downloaded 2026-10-22); my own large-v3-turbo transcription of 0:20-0:56 (second audition, 'My heart sank to my butt... I gotta work on my anxiety a little bit') and 5:15-5:35 ('I'm 100% a cat... I don't like to be seen unless I like to be seen'). Spoken wording differs slightly from the edited print Q&A (S44), which is what the article quotes and attributes to W"
+    },
+    {
+      "source_id": "S46",
+      "opened": true,
+      "context_matches": true,
+      "locator": "YouTube auto-captions read from the copy fetched 2026-10-22 11:56 (live caption/audio fetch returned HTTP 429/403 at verify); 3:21-3:44, 9:42-10:08, 16:29-16:59, 19:02-19:31"
+    },
+    {
+      "source_id": "S49",
+      "opened": true,
+      "context_matches": true,
+      "locator": "r.jina.ai copy at verify (direct 403); relay of People: limiting what she sees, 'protecting myself first'"
+    },
+    {
+      "source_id": "S51",
+      "opened": true,
+      "context_matches": true,
+      "locator": "re-fetched live at verify (2026-10-22) (published 2026-10-19); set to host the SNL Halloween episode"
+    },
+    {
+      "source_id": "S54",
+      "opened": true,
+      "context_matches": true,
+      "locator": "re-fetched live at verify (2026-10-22) (published 2026-10-21); 'more than $522 million worldwide'"
+    },
+    {
+      "source_id": "S55",
+      "opened": true,
+      "context_matches": true,
+      "locator": "re-fetched live at verify (2026-10-22); body line 'Focus is also mounting a best actress Oscar campaign... according to Variety'. Provider metadata and logo identify Wealth of Geeks, not People (see verify-01); the content used matches"
+    },
+    {
+      "source_id": "S57",
+      "opened": true,
+      "context_matches": true,
+      "locator": "r.jina.ai copy at verify (direct 403); key dates: nominations announcement Thursday, January 21, 2027"
+    }
+  ],
+  "decision_checks": [
+    {
+      "finding_id": "subject-F1",
+      "accepted": true,
+      "reason": "Playback section now gives the director's looks reading ('He heard vanity'), her pushback, the rewording, 'nothing but ugly' and a separate situational reading. All new quotes match my third transcription of S42."
+    },
+    {
+      "finding_id": "subject-F2",
+      "accepted": true,
+      "reason": "The question is reported as 'this career that you're forging' (verified in S42 audio), the quote moved to the Four case, and Nylon's capability line sits in the Three case."
+    },
+    {
+      "finding_id": "subject-F3",
+      "accepted": true,
+      "reason": "Both previously unheard stretches were machine-transcribed and read; absence claims are scoped. My own search of both full transcripts found no self-typing or answer to criticism."
+    },
+    {
+      "finding_id": "subject-F4",
+      "accepted": true,
+      "reason": "'Make it last' is gone; 'look different' is acknowledged with the playback story (verified in S40 and S41 audio)."
+    },
+    {
+      "finding_id": "subject-F5",
+      "accepted": true,
+      "reason": "Her report of Barker's relief is added and attributed as her account; 'overriding' became 'holding the freakouts back'; the description says she 'wouldn't rehearse her freakouts'."
+    },
+    {
+      "finding_id": "subject-F6",
+      "accepted": true,
+      "reason": "'That was hard to hear' (verified in S09 audio) now follows the freedom line, and the Seven sentence is qualified."
+    },
+    {
+      "finding_id": "subject-F7",
+      "accepted": true,
+      "reason": "Middle-school fandom added and the moment labeled ambiguous; passage otherwise unchanged."
+    },
+    {
+      "finding_id": "subject-F8",
+      "accepted": true,
+      "reason": "'It runs back to' is gone; the coffee-shop line stands as a costly commitment with no type attached."
+    },
+    {
+      "finding_id": "fan-01",
+      "accepted": true,
+      "reason": "Question framed as about her career; the quote moved out of the Six case; C134 is no longer in for_claim_ids (checked)."
+    },
+    {
+      "finding_id": "fan-02",
+      "accepted": true,
+      "reason": "Heat 2 correction added, dated and attributed to THR relaying the show, with its limit stated; the 'No episode on record' sentence is gone (checked)."
+    },
+    {
+      "finding_id": "fan-03",
+      "accepted": true,
+      "reason": "Freedom line kept; 'hard to hear' (Collider, May 2026) and the guest-star return (Cinemablend, 2023) added."
+    },
+    {
+      "finding_id": "fan-04",
+      "accepted": true,
+      "reason": "Rogue sentence added with May 5, 2028 date (verified S43/S24) as time_sensitive C185; settle signal 3 explains why Rogue does not qualify; signal 2 and its FAQ reworded."
+    },
+    {
+      "finding_id": "fan-05",
+      "accepted": true,
+      "reason": "'Send it or not go in at all' now follows 'who cares?' (verified S35); W's 'heart sank' has its setup."
+    },
+    {
+      "finding_id": "fan-06",
+      "accepted": true,
+      "reason": "Outcome included as her account of Barker's view; Johnston's line withheld pending speaker confirmation, as the test allows."
+    },
+    {
+      "finding_id": "fan-07",
+      "accepted": true,
+      "reason": "Rejection accepted. I confirmed S10 (6:52-7:04) already mentions the divorce in July 2026, so the 'never told this publicly' framing is unreliable; the article makes no place or family claim, and 'at least four ways' does not foreclose the omitted variance."
+    },
+    {
+      "finding_id": "fan-08",
+      "accepted": true,
+      "reason": "Premise names Bear as the one who wishes (matches S29 plot)."
+    },
+    {
+      "finding_id": "critic-01",
+      "accepted": true,
+      "reason": "Question reported as asked, show linked and dated at first mention; the line sits in the Four case with Variety/Nylon trust context; discriminator no longer cites C134 (checked)."
+    },
+    {
+      "finding_id": "critic-02",
+      "accepted": true,
+      "reason": "'Care about the way that other people are thinking of me', 'people pleaser', 'validation' in context and 'nothing but ugly... And I loved it' are all present and match my transcriptions; 'make it last' cut."
+    },
+    {
+      "finding_id": "critic-03",
+      "accepted": true,
+      "reason": "The 'because you want to know... doing a good job' clause is restored (verified in my S42 transcription) and the 6/3 split is gone."
+    },
+    {
+      "finding_id": "critic-04",
+      "accepted": true,
+      "reason": "Cut passage includes 'hard to hear' and 'always wanted to do film'; 'who cares?' carries the next sentence; the Type 7 FAQ matches."
+    },
+    {
+      "finding_id": "critic-05",
+      "accepted": true,
+      "reason": "Sweety High now shows Twitter as her 'favorite' and the positive feedback; pre-fame lean called 'Six-shaped but thin' with the pact cutting both ways."
+    },
+    {
+      "finding_id": "critic-06",
+      "accepted": true,
+      "reason": "Nine set aside with a sourced behavioral reason covering 'protect my peace' and 'fit in anywhere' (both verified in context)."
+    },
+    {
+      "finding_id": "critic-07",
+      "accepted": true,
+      "reason": "Signal now reads 'How she answers public criticism on record'; no allegation repeated."
+    },
+    {
+      "finding_id": "critic-08",
+      "accepted": true,
+      "reason": "Absence statements scoped to interviews reviewed; remaining audio machine-transcribed; human-listen task kept."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "accepted": true,
+      "reason": "Campaign and Rogue sentence sits at about word 217. Orientation goal met; the sentence's 'as relayed by People' attribution is wrong, which I raise separately as verify-01 rather than reopening this decision."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "accepted": true,
+      "reason": "Bear named as the wisher; freakouts defined with a sourced clause (GoldDerby, verified)."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "accepted": true,
+      "reason": "Accepted as a partial fix. Section endings now end on new detail or tension (at most two end on a two-readings verdict). The length test was not met: 3,209 words by the contract counter against about 2,500. I agree the excess is mostly sourced context other findings required and the test forbids cutting, so I accept it, and I counted the length against Writing."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "accepted": true,
+      "reason": "Buchanan identified, linked and dated at first mention; 'A week later' replaced; the Type 3 FAQ names the show."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "accepted": true,
+      "reason": "Paragraph opens on what she said, where and when; the playback request and why the reply landed badly are explained; 'got stronger' line removed."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "accepted": true,
+      "reason": "Collider passage quotes 'always wanted to do film' and 'hard to hear'; Twitch counts squared with the self-correction (verified in S10 audio); unclear 'it' gone."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "accepted": true,
+      "reason": "Barker's CinemaBlend remark is quoted, linked, dated and labeled promotional (verified S15)."
+    },
+    {
+      "finding_id": "enneagram-1",
+      "accepted": true,
+      "reason": "Type section grounds Six in a specific sequence (W) and says the triad itself is open."
+    },
+    {
+      "finding_id": "enneagram-2",
+      "accepted": true,
+      "reason": "Quote framed as about her career and moved out of the Six support; removed from for_claim_ids."
+    },
+    {
+      "finding_id": "enneagram-3",
+      "accepted": true,
+      "reason": "Clause restored and the discomfort assigned to the verdict on her work."
+    },
+    {
+      "finding_id": "enneagram-4",
+      "accepted": true,
+      "reason": "Pact presented as cutting both ways; the FAQ no longer claims she leads with inability before and after fame; C53/C84 out of for_claim_ids (checked)."
+    },
+    {
+      "finding_id": "enneagram-5",
+      "accepted": true,
+      "reason": "Weighing separates timing from content and names the items that keep Six ahead; answer and FAQ recalibrated to 'nearly tied'. I accept the fix; the 'unrelated to her work' label for those items is loose and is raised as minor verify-02."
+    },
+    {
+      "finding_id": "enneagram-6",
+      "accepted": true,
+      "reason": "Body and FAQ now name the trade (a loved pleasure given up to head off a judgment) and point it at Three as much as Six."
+    },
+    {
+      "finding_id": "enneagram-7",
+      "accepted": true,
+      "reason": "Four case gathers 'play it true', the inner world and the full trust answer, gives a discriminator beyond fan gratitude, and signal 2 tests Four."
+    },
+    {
+      "finding_id": "enneagram-8",
+      "accepted": true,
+      "reason": "Five and One addressed in one sentence; open_case.reason lists all tested types."
+    },
+    {
+      "finding_id": "future-01",
+      "accepted": true,
+      "reason": "SNL left the hook; body and FAQ use 'booked for/was booked to host October 31, 2026', true before and after the date."
+    },
+    {
+      "finding_id": "future-02",
+      "accepted": true,
+      "reason": "Each S42-only quote is marked unresolved with timestamps. I added a third independent transcription (large-v3-turbo) that agrees on every quoted span, which lowers the risk further; a human listen remains a research task."
+    },
+    {
+      "finding_id": "future-03",
+      "accepted": true,
+      "reason": "next_review is 2026-11-16, after the SNL press cycle; triggers name that date or a dated catalyst (checked)."
+    },
+    {
+      "finding_id": "future-04",
+      "accepted": true,
+      "reason": "Section opens on dated evidence; no research-timeline narration remains."
+    },
+    {
+      "finding_id": "future-05",
+      "accepted": true,
+      "reason": "Twitch FAQ absence is dated and scoped and recorded as C184; the body's 'So far' became 'As of October 2026'."
+    }
+  ],
+  "prior_blocker_checks": [],
+  "protected_checks": [
+    {
+      "passage": "Before _Obsession_ started shooting, Inde Navarrette told its writer-director, Curry Barker, two things.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate."
+    },
+    {
+      "passage": "She has described those years at least four ways:",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate."
+    },
+    {
+      "passage": "The plan was his, and warming up a nervous lead is ordinary directing.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate."
+    },
+    {
+      "passage": "Against it, nearly all of this is self-report from a campaign that rewards candor about fear, and filtering social media is ordinary advice for anyone newly famous.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate."
+    },
+    {
+      "passage": "She has already named the test she wants. \"I really want to prove that _Obsession_ wasn't just lightning in a bottle,\" she told Nylon in July 2026.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate."
+    },
+    {
+      "passage": "The first was a confession. \"I said, 'I don't know how to scream, and I'm feeling very shy,'\" she told [Collider's Perri Nemiroff](https://www.youtube.com/watch?v=zEB4C4SIAbY) in May 2026.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate."
+    },
+    {
+      "passage": "- **Lonely**, to [Complex News](https://www.youtube.com/watch?v=IUAsUy_aKR8) in June 2026. Asked whether she kept friends, she said no: \"making friends was always really difficult for me.\"",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate."
+    },
+    {
+      "passage": "When the rapper Big Sean messaged her, her first thought, she told Complex News, was \"Oh, no,\" and she handed the phone to her boyfriend to read it first. (It was kind.)",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate."
+    },
+    {
+      "passage": "That one sentence holds both readings. Discomfort at not knowing what others think is a Six's. Fear of the verdict on her work is a Three's.",
+      "preserved": true,
+      "reason": "Removed for a sourced reason: the quote it split was cut before 'because you want to know... that you're doing a good job' (verified in S42 audio), so the 6/3 balance was false. Its contribution, a precise statement of why the case is open, survives truer at the end of the freakouts section."
+    },
+    {
+      "passage": "She laughed. \"So, I'm looking forward to that.\"",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate."
+    },
+    {
+      "passage": "The childhood can't settle the type. A Seven reading could claim the happy moves, a Six reading the lonely ones. Read together, they are a story about adapting.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate."
+    },
+    {
+      "passage": "And overriding a nervous director on day one is self-trust, which a picture of her leaning on others doesn't predict.",
+      "preserved": true,
+      "reason": "Changed to 'holding the freakouts back from a nervous director until the cameras rolled'. No source shows Barker objected; she told him in advance (S40/S41). The self-trust contrast with the leading read is intact."
+    },
+    {
+      "passage": "On the record so far, safety and image point the same way. What would separate Six from Three is a moment when they don't.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate."
+    },
+    {
+      "passage": "She has already named the test she wants.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate."
+    },
+    {
+      "passage": "Her trust came in stages: questions first, privacy for the big moments, the director's eye for the small ones. And overriding a nervous director on day one is self-trust, which a picture of her leaning on others doesn't predict.",
+      "preserved": true,
+      "reason": "First sentence verbatim; second sentence changed only from 'overriding... on day one' to 'holding the freakouts back... until the cameras rolled', keeping the turn against the leading read."
+    },
+    {
+      "passage": "A few sentences later: \"I also want to fall on my face publicly and have something that people don't like [but] maybe I do.\" She laughed. \"So, I'm looking forward to that.\"",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate."
+    },
+    {
+      "passage": "The two things she told Barker are the puzzle of her public record. The confession names a fear and hands it to someone she trusts. The refusal protects something, and she has explained it two ways: to keep the performance true, and to avoid being judged too early. Is she guarding her safety, or the impression that she can do the job?",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate."
+    },
+    {
+      "passage": "By 2026, after a hit, the cut had become a liberation. \"As soon as they were kind of like, 'Dog, you're free.' I was like, 'Dude,'\" she told Collider. That turn toward freedom is the kind of reframe Sevens are known for, but it came in hindsight.",
+      "preserved": true,
+      "reason": "First and last sentences verbatim; the quote now opens with her same-answer 'I've always wanted to do film' and is followed by 'that was hard to hear' (both verified in S09 audio). The dated 2023-vs-2026 contrast is kept and more accurate."
+    },
+    {
+      "passage": "That turn toward freedom is the kind of reframe Sevens are known for, but it came in hindsight.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate."
+    },
+    {
+      "passage": "\"I also want to fall on my face publicly and have something that people don't like [but] maybe I do.\"",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate."
+    }
+  ],
+  "coverage_complete": true,
+  "metadata_consistent": true,
+  "alternative_type_addressed": true,
+  "five_year_test_passed": false,
+  "open_case_eligible": true,
+  "scores": {
+    "evidence": {
+      "score": 8.0,
+      "passage": "Focus Features is mounting a Best Actress Oscar campaign for her, according to Variety as relayed by [People]",
+      "reason": "Every quoted span I checked (about 90, across re-fetched pages, platform captions and my own transcription of both podcasts) matches its source, and the repairs restored context the draft had cut (the 'because' clause, 'send it', 'hard to hear'). Inference limits are explicit ('Almost all of this is her own account; it shows what she says and does, not what she feels'). Held at 8 by one misattributed relay in the hook paragraph (verify-01), the loose 'unrelated to her work' label (verify-02), a few uninventoried quotes, and a record that is almost entirely self-report from one five-month campaign with only promotional outside testimony. That is thin rather than overreaching, which open cases allow."
+    },
+    "enneagram": {
+      "score": 8.2,
+      "passage": "The Six case rests on timing, not on what she fears. She secures before anything goes wrong: she deleted the streams before anyone judged them, built the Oscar net before the nominations, kept her hopes down.",
+      "reason": "Meets the open-case 8 anchor. Six and each live rival are argued from repeated first-person evidence. The timing-versus-content split names exactly what does not discriminate (the content of her fears points to Three), and settle signal 3 says what would (a choice where safety and prestige pull apart; Rogue doesn't count). Seven and Four get real evidence and real counterevidence; Nine, Eight, Five and One are set aside with reasons. Confidence never exceeds 'low, nearly tied'. Not higher because the stated basis for Six's narrow lead is softer than written: two of its 'non-work' items are work-adjacent, and 'Fear first, then a plan' reads a resolve as a plan."
+    },
+    "originality": {
+      "score": 8.5,
+      "passage": "The two things she told Barker are the puzzle of her public record. The confession names a fear and hands it to someone she trusts. The refusal protects something, and she has explained it two ways",
+      "reason": "The organizing insight (her protections are timed like a Six's, but what they protect is a verdict on her work) is specific to her record. The details are hers alone: the confession-and-refusal pair, four contradictory tellings of a military childhood, the Twitch deletion with its self-correction, the 'you look beautiful, you're fine' playback story, the Big Sean hand-off and the Heat 2 correction. Almost no type boilerplate. The ending uses her own wish to 'fall on my face publicly' as the test."
+    },
+    "writing": {
+      "score": 7.8,
+      "passage": "She had used almost the same words about her streams.",
+      "reason": "Strong two-beat opening that the freakouts section pays off; sections build instead of restating; transitions like this one tie separate interviews together cleanly. Held below 8 by length and density: 3,209 words against an open-case target of about 2,500. The playback and weighing sections stack attributed quote fragments until the reading slows ('She \"really, really wanted to hunker down and play a role\" in which...'), and the type answer and weighing section restate the timing/content split."
+    },
+    "durability": {
+      "score": 8.0,
+      "passage": "had grossed more than $520 million worldwide by October 22, 2026, according to [The Numbers]",
+      "reason": "Meets the open-case 8 anchor. Changing facts carry dates (gross 'by October 22, 2026', 'As of October 2026' absences, SNL 'booked for October 31, 2026', nominations 'due January 21, 2027'). Settle signals and a 2026-11-16 next_review make reopening easy. What the page says is known (dated self-reports and choices) stays true if a later run picks Three. Minor drag: 'Focus Features is mounting...' is present tense and undated, and the settle section will read as past by early 2027 (tracked by C161/C185)."
+    },
+    "hook": {
+      "score": 8.8,
+      "passage": "Before _Obsession_ started shooting, Inde Navarrette told its writer-director, Curry Barker, two things.",
+      "reason": "Specific, sourced and dated: a confession and a refusal, each quoted and linked, and the article spends its middle answering the question they raise. A newcomer learns why she is being searched within about 220 words."
+    },
+    "discoverability": {
+      "score": 7.8,
+      "passage": "## What is Inde Navarrette's personality type?",
+      "reason": "Clear type orientation: the H2 with a 58-word open-case answer, and title, meta title and description that use 'leading read'/'open case' language and agree with the body. Five FAQs answer real search questions (type, Type 3, Type 7, what would settle it, the Twitch deletion) and mirror the body. Links to four type pages; four related-person suggestions exist. Lower because the body links to no other personality profiles, the meta title's 'Leading Read 6' is a little cryptic for searchers, and one citation is misattributed (verify-01)."
+    }
+  }
+}

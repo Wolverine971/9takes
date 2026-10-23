@@ -1,0 +1,323 @@
+{
+  "schema_version": 3,
+  "decisions": [
+    {
+      "finding_id": "subject-F1",
+      "action": "fixed",
+      "reason": "Fixed. The Ticketmaster passage now gives Ticketmaster's same-day reply (\"We support artists' ability to set the terms of how their tickets are sold and resold\", S26), Dean's 27 Nov 2025 position (\"Every artist and their team should be granted the option to cap re-sale at face value ahead of on sale\", S28) and Rapino's endorsement (S28). It leaves the team-policy question visibly open: \"No source opened for this profile says what her team's resale settings were.\" Recorded as C29h, C29d, C29l and C29m (unresolved, with trigger)."
+    },
+    {
+      "finding_id": "subject-F2",
+      "action": "fixed",
+      "reason": "Fixed. Body and FAQ describe one statement that \"opened with an apology\"; \"Her first Instagram story\" is gone, and the omitted \"My team are currently looking into it\" is restored. The order inference is marked as thin (\"Sentence order inside one post is thin evidence\"), and Auckland is explicitly not a pattern on its own (\"Auckland matches November only in direction\")."
+    },
+    {
+      "finding_id": "subject-F3",
+      "action": "fixed",
+      "reason": "Fixed. The quote now runs through \"And I'm a feminist down to my toes,\" and is preceded by ELLE's context on her mother's career and Women's Equality Party role (C02c). The Three section says the standard can be heard as preparation for a higher bar, labelled as interpretation, with no author-voice generalization about race (C02d)."
+    },
+    {
+      "finding_id": "subject-F4",
+      "action": "fixed",
+      "reason": "Fixed. The \"depressive state\" disclosure is removed from the article and from the type argument (C09b dropped). \"Launch\" framing is replaced by \"told from success\", applied to the Time Out, Sidetracked and Music Week remarks."
+    },
+    {
+      "finding_id": "subject-F5",
+      "action": "fixed",
+      "reason": "Fixed. The section now says the word \"means something different each time\": the 2023 Time Out use is quoted from \"I learned that I know best\" and its defiant close is paraphrased (\"with an expletive, who cares what other people think. That is defiance\"); the listener-ownership inference rests on the Carmen remark only (\"Only the 'Carmen' remark carries guilt\")."
+    },
+    {
+      "finding_id": "subject-F6",
+      "action": "fixed",
+      "reason": "Fixed. The Chanel point now carries her reply from the same Time Out paragraph: when the writer said it made \"my ambition is not to be famous\" hard to buy, she answered \"You kind of don't have a choice.\" C26d updated."
+    },
+    {
+      "finding_id": "subject-F7",
+      "action": "fixed",
+      "reason": "Fixed. The FAQ now says she wore Carmen's photo \"for her 2024 Glastonbury Pyramid Stage set\", without \"first\". Music Week (S22) shows a 2023 Lonely Hearts Club stage set, agreeing with Time Out (S03); C03 records the resolution."
+    },
+    {
+      "finding_id": "fan-01",
+      "action": "fixed",
+      "reason": "Fixed. Each line now carries its context: \"too much\" against the BRIT School where \"wanting to shine was cool\" (ELLE), and \"cringe\" against a course where \"you had to be making something really alternative and left to be cool\" (Time Out). Circumstance is named as a live alternative (\"one of the only Black girls\"), with no bullying label or wound story. \"Hers is a question of worth\" is replaced by a narrowing that does not choose among heart types, and \"wanting to shine\" is weighed in the Three section (C46)."
+    },
+    {
+      "finding_id": "fan-02",
+      "action": "fixed",
+      "reason": "Fixed. Wilkinson's line now appears with its context (\"smiles, flirts, makes sarcastic jokes and never breaks eye contact\") and is marked as describing \"charm as much as giving\". It is followed by Dean's ELLE 2026 line \"You can't please everybody. And I have such peace in that\" (C47), and the tension section counts her approval-independence against the Two."
+    },
+    {
+      "finding_id": "fan-03",
+      "action": "fixed",
+      "reason": "Fixed. The Three section gives ELLE's context on her mother (lawyer; first Black woman deputy leader of the Women's Equality Party), keeps \"I'm a feminist down to my toes\", and treats the line as a learned standard (interpretation labelled). The feminist alternative names her mother's role (\"learned from a mother who helped lead the Women's Equality Party\"), and NPR's own mention precedes the \"slot into their lives\" quote."
+    },
+    {
+      "finding_id": "fan-04",
+      "action": "fixed",
+      "reason": "Fixed. The bio covers the BRIT School, Rudimental backing vocals and releases from 2018 (Guardian), and the Three section weighs the Rudimental \"it's not about you\" / \"OK, could I do this myself?\" choice both ways. The limitation now reads \"the record before 2023 is thin\". The 2020 van gigs are not used: to stay within the word limit, and because the only text account is the Time Out writer's characterization."
+    },
+    {
+      "finding_id": "fan-05",
+      "action": "fixed",
+      "reason": "Fixed. Genius (S38, opened) gives the \"Something Inbetween\" lyric \"It's too much to belong to anyone, I'm too scared to be changed\". The article now says she \"answered with her own song\", classes the line as a restated lyric (C20d, C20e), and no longer uses it as the H2; the section is titled with her plain statement \"Intensely romantic, but also no worries if not\"."
+    },
+    {
+      "finding_id": "fan-06",
+      "action": "fixed",
+      "reason": "Fixed. Her ELLE explanation of \"Man I Need\" (\"Let me encourage you\") is added and read as framing a demand as encouragement (C19e, C19f). The 'keep circling' claim is narrowed to \"at least three of her songs\", each shown with a sourced sentence. \"So Easy\" was not added, to stay within length; the narrowed claim no longer needs it."
+    },
+    {
+      "finding_id": "fan-07",
+      "action": "fixed",
+      "reason": "Fixed. The cover passage names \"representative of imperfection\" first and keeps \"just my truth\" before \"hear their own truth\"; Music Week's \"see themselves in the music\" is added. The listener-ownership inference is labelled \"this profile's reading, not her claim\"."
+    },
+    {
+      "finding_id": "fan-08",
+      "action": "fixed",
+      "reason": "Fixed. The bio adds the 2026 Mercury shortlist for The Art of Loving (S33), without the result: no report of the winner was opened. Chinouriri is introduced as \"a BRIT School classmate and friend\". The \"good person\" quote names Time Out at the passage (\"She told Time Out:\")."
+    },
+    {
+      "finding_id": "critic-01",
+      "action": "fixed",
+      "reason": "Fixed. The discriminator is restated: \"The usual test ... is what someone protects when image and relationship pull apart. Her public record never stages that collision. What it has instead is candor about failure, which is weaker evidence than it looks.\" It adds that each candor episode \"was told from success\" and fits a Three comeback story. The verdict and the Type 3 FAQ now rest narrowly on her recurring purpose answers at medium confidence. The depressive-state quote is removed."
+    },
+    {
+      "finding_id": "critic-02",
+      "action": "fixed",
+      "reason": "Fixed. The \"not supposed to know everyone's opinion\" line is quoted, and the article says the app deletion \"strains every heart-type reading, Two included: a Two wants to know the giving landed.\" It is removed from the anti-Three list and from the Type 3 FAQ."
+    },
+    {
+      "finding_id": "critic-03",
+      "action": "fixed",
+      "reason": "Fixed. The article reports Ticketmaster's same-day reply and Rapino's 27 Nov endorsement, with links. \"The fight\" / \"took on\" framing is replaced (\"The companies backed her within a week, so it cost her little\"), and apology-then-remedy is called standard crisis handling. The Nine argument now rests on her authorship and stubbornness, with Ticketmaster called \"a cheap statement made on fans' behalf\"."
+    },
+    {
+      "finding_id": "critic-04",
+      "action": "fixed",
+      "reason": "Fixed. Near the hook, the article names ELLE's own \"romanticizes life\" framing and that the recipient was writing her cover story (\"Both readings stay open\"), and it concedes the speech genre norm (\"these show a direction, not a motive\"). Two independent sourced acts are added: the Brits (S06) and Mobo (S30) album speeches. The Three verdict no longer counts the conceded acts as discriminating, and \"leans Two\" is narrowed and tied to self-report. The title is kept because it describes observed direction across the champagne, three speeches and two apologies; it makes no motive claim, which C49b now records."
+    },
+    {
+      "finding_id": "critic-05",
+      "action": "fixed",
+      "reason": "Fixed. The new goals she named are reported: \"I'd love to headline Glastonbury one day\" (Music Week 2025, text-verified), with Brazil and South America paraphrased (S22, S17). The closing signal is reframed as a second answer, with the 2025 answer as the baseline, which \"pointed toward standing and new experiences, not giving\" (C64b)."
+    },
+    {
+      "finding_id": "critic-06",
+      "action": "fixed",
+      "reason": "Fixed. The Seven section adds the Numéro fear line, marked as translated (\"the day I will stop having fun. When I will no longer feel anything while I sing\"). \"Dean steers toward it\" is limited to her work, and the cry-in-private answer is added, so the section concludes \"Seven stays live\"."
+    },
+    {
+      "finding_id": "critic-07",
+      "action": "fixed",
+      "reason": "Fixed. \"keeps using\" is replaced by \"a word that keeps turning up ... It means something different each time\". The defiant Time Out close is paraphrased, and the inference rests only on the Carmen remark."
+    },
+    {
+      "finding_id": "critic-08",
+      "action": "fixed",
+      "reason": "Fixed. The article says she answered with her own \"Something Inbetween\" lyric (Genius, S38), and the line is no longer the H2. Speaker: captions and a second machine transcription agree on the words, and Lowe's following \"Right. Right. That's a big thing to say\" indicates Dean said it. No human audio listen was done; research task 4 stays open in the evidence record."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "action": "fixed",
+      "reason": "Fixed. Before the triad evidence, one paragraph explains the three centres and their types (heart 2/3/4 around shame and image, head 5/6/7 fear, gut 8/9/1 anger). The plain Two description comes first, and \"security types\" is replaced by \"the two types that seek steadiness: a Six ... and a Nine\"."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "action": "fixed",
+      "reason": "Fixed (option b). The article states the image-versus-relationship test is never observed and names what the record shows instead (candor told from success; purpose answers about other people). The Messy line is no longer offered as connection evidence, and the deleted-apps example is moved to the independence section."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "action": "fixed",
+      "reason": "Fixed. The 51-word answer reads \"most likely reads as an Enneagram Type 2 ... held at medium confidence\" and names Type 3 as \"a close rival the record cannot yet rule out\", matching the first FAQ."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "action": "fixed",
+      "reason": "Fixed. The on-sale is described as the North American leg of her Art of Loving Live tour, and Auckland as \"the last night of the Art of Loving Live tour\"."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "action": "fixed",
+      "reason": "Fixed. The caption-method note is moved intact to \"What the record can't show yet\"."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "action": "fixed",
+      "reason": "Fixed. The quote is introduced \"She told Time Out:\" after Time Out 2023 is already established in the section."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "action": "fixed",
+      "reason": "Fixed. Narrowed to \"Her interviews and at least three of her songs deal with that cost\", with \"Something Inbetween\", \"Man I Need\" and \"Let Alone the One You Love\" each given a sourced sentence. The cost is defined once (over-giving, difficulty asking/receiving, resentment) and reused in the limits section. Recorded as interpretation claim C50f."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "action": "fixed",
+      "reason": "Fixed. The bio adds her sound (\"throwback R&B, soul and bossa nova into pop\"), names \"Man I Need\" as a UK No. 1, and glosses bell hooks (\"the American writer\") and the Mercury Prize (\"the UK's album-of-the-year award\")."
+    },
+    {
+      "finding_id": "enneagram-1",
+      "action": "fixed",
+      "reason": "Fixed (option b). The discriminator is renamed to what the evidence shows (candor about failure, told from success). The article says this is \"also the shape of a Three's comeback story\" and lowers \"leans Two\" to a narrow, self-report-based lean. The app deletion is dropped from the anti-Three list, and \"more often than not\" is removed."
+    },
+    {
+      "finding_id": "enneagram-2",
+      "action": "fixed",
+      "reason": "Fixed. The article states plainly that the outward acts are low-cost or conventional: speeches \"show a direction, not a motive\"; the Ticketmaster call-out \"cost her little\"; apology-then-remedy is the standard response; \"Auckland proves nothing on its own\". The type answer, FAQ and verdict are set at medium confidence with Three a close rival."
+    },
+    {
+      "finding_id": "enneagram-3",
+      "action": "fixed",
+      "reason": "Fixed. \"You can't please everybody. And I have such peace in that\" follows the \"here to please\" passage, and \"My joy is more powerful than whatever you think about me or how I should be presenting\" appears in the independence section. The article says these strain the Two reading. Claims C47 and C25c added with S10."
+    },
+    {
+      "finding_id": "enneagram-4",
+      "action": "fixed",
+      "reason": "Fixed. The Time Out line is extended from \"I learned that I know best\", the defiant close is paraphrased, and the two uses are no longer one guilt pattern. The listener-ownership inference rests on Carmen, the covers and Numéro, with its limit labelled. C44 moves from for_claim_ids to the against case."
+    },
+    {
+      "finding_id": "enneagram-5",
+      "action": "fixed",
+      "reason": "Fixed. Four is named in the triad paragraph and gets its own test, with sourced evidence: \"odd one out\" (with the circumstance caveat), \"expressing true, raw emotion\", and uptempo songs \"scarier ... than more sad and melancholic music\". Discriminators: no time to \"fester\", \"make it a positive\", rejecting alt-cool, and blurred covers meant for listeners. Verdict: \"Four is weakened, not ruled out.\" The \"wrong amount\" gloss is dropped."
+    },
+    {
+      "finding_id": "enneagram-6",
+      "action": "fixed",
+      "reason": "Fixed. The Seven section counts the freedom lines and the refusal to \"fester\" as Seven evidence. It rests the verdict on comfort-zone loyalty (Ward's recollection; ELLE 2025 \"double down on the musical relationships I had created\"), limits \"steers toward\" pain to her work, and concludes \"Seven stays live\"."
+    },
+    {
+      "finding_id": "enneagram-7",
+      "action": "fixed",
+      "reason": "Fixed. Nine is rejected on authorship and stubbornness (\"it's got to be my story\", \"I need to be across all of it\", \"very stubborn\"). Ticketmaster is qualified as \"a cheap statement made on fans' behalf\", and the peace lines are named \"the Nine's best evidence\"."
+    },
+    {
+      "finding_id": "enneagram-8",
+      "action": "fixed",
+      "reason": "Fixed. The answer carries \"most likely\", medium confidence and Type 3 as the rival. \"What reporters watched her do\" is replaced by \"her acts at peak moments point outward\"."
+    },
+    {
+      "finding_id": "future-01",
+      "action": "fixed",
+      "reason": "Fixed. The description says \"Five days after her Best New Artist win\". The body says \"After the February 2026 Grammys\" and \"after her 2026 Grammy\", and the Type 3 FAQ no longer mentions the Grammys. C49c and C25 are time_sensitive with a Grammy recheck trigger; C25b is removed because its FAQ passage is gone."
+    },
+    {
+      "finding_id": "future-02",
+      "action": "fixed",
+      "reason": "Fixed. Braham's duration is anchored to her 2026 Grammy speech (\"We've been doing this for 10 years\"), Charrington is \"then president\" with February 2026, Ward is \"the Capitol A&R she chose for The Art of Loving\", Braham is \"still managing her in 2026\", the drummer's seven years come from his 2026 podcast, and \"in recent years\" becomes \"by 2026\". Remaining present-tense role labels (C35c, C08) are time_sensitive with a role-change trigger."
+    },
+    {
+      "finding_id": "future-03",
+      "action": "fixed",
+      "reason": "Fixed. The sentence names \"her first two albums, Messy and The Art of Loving\". C43 is time_sensitive with a third-album-cover trigger."
+    },
+    {
+      "finding_id": "future-04",
+      "action": "fixed",
+      "reason": "Fixed. The Auckland passage names The Art of Loving Live, the November sale is its North American leg, and the bookend reads \"The tour that included the resale fight ended with another apology.\""
+    },
+    {
+      "finding_id": "future-05",
+      "action": "fixed",
+      "reason": "Fixed via the fallback. The sentence is dated (\"The longest interview found for this profile as of October 2026\"), and C53's trigger now also fires at the next refresh or when a longer interview appears. S37's watch page was opened to confirm title, date and length. The episode itself was not transcribed in this stage and remains the top research follow-up."
+    },
+    {
+      "finding_id": "future-06",
+      "action": "fixed",
+      "reason": "Fixed. C54 is time_sensitive with the trigger: if any on-record account describes over-giving, resentment at being unappreciated or difficulty receiving help, revise and re-test Type 2 against Types 3 and 7."
+    },
+    {
+      "finding_id": "future-07",
+      "action": "fixed",
+      "reason": "Fixed. New time_sensitive claim C64 inventories the settle-signal passage. Its trigger: when the third album or first long post-tour interview arrives (interim checkpoint: the February 2027 Grammys season), classify her answer against people/giving (2), goals/standing (3), freedom (7) and peace (9), re-test the type, and revise the limits section. C64b records the 2025 baseline."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "The bravery line was older than the night. At a [British Library panel](https://www.youtube.com/watch?v=tJxTX-0t1fs) in 2024, introducing her song \"Carmen,\" she had said of her grandmother, \"I'm a product of her bravery.\"",
+      "action": "kept",
+      "reason": "Kept verbatim in edit.md. subject reviewer's reason still holds: Fair to the subject. It shows the Grammy line was one she had held for a long time, not a crafted moment, and it keeps a politically charged speech anchored to her own family story without casting her as a campaigner."
+    },
+    {
+      "passage": "Calling her boundary talk \"Two growth\" would make the theory impossible to lose. So it stays here as a tension the type does not resolve.",
+      "action": "kept",
+      "reason": "Kept verbatim in edit.md. subject reviewer's reason still holds: Refuses to explain away her independence statements. This is exactly the line between record and inference that a fairness check wants kept."
+    },
+    {
+      "passage": "The Two's usual costs, over-giving and resentment at going unthanked, do not show up in public. That could be health, privacy, or a sign the read is wrong.",
+      "action": "kept",
+      "reason": "Kept verbatim in edit.md. subject reviewer's reason still holds: Declines to invent the Type 2 shadow behaviour the record lacks, and offers innocent explanations first."
+    },
+    {
+      "passage": "In 2023, before the breakthrough, Time Out's Chiara Wilkinson found her \"so self-effacing and generous.\" After their interview ran long in a pub, Wilkinson wrote: \"She's here to please.\" Those are the writer's words, not Dean's.",
+      "action": "changed",
+      "reason": "Changed, contribution kept. The attribution fence stays (\"Those are the writer's words, not Dean's\"), and the sentence now includes Wilkinson's full context (\"smiles, flirts, makes sarcastic jokes and never breaks eye contact\") plus \"they describe charm as much as giving\", per fan-02."
+    },
+    {
+      "passage": "\"My friends care, but not more than I care about what they're doing. My life isn't more important than anyone else's life. It's just mine.\"",
+      "action": "kept",
+      "reason": "Kept verbatim in edit.md. subject reviewer's reason still holds: The ending is in her own words, faithful to the ELLE context (S10, opened: she is talking about the friends she comes home to), and lets her have the last word rather than the author's verdict."
+    },
+    {
+      "passage": "The order is the detail. The apology to fans came first, the fight came second, and the fight was with companies her tours run through.",
+      "action": "changed",
+      "reason": "Changed, contribution kept. The specific, checkable observation stays (\"The order is the detail, though a small one: her statement put the fans before the complaint\"). The overreach is removed: the sources describe one statement, not separate stories, and the companies backed her within a week. \"The fight\" framing goes and the limit is stated, per subject-F2, critic-03 and enneagram-2."
+    },
+    {
+      "passage": "The bravery line was older than the night.",
+      "action": "kept",
+      "reason": "Kept verbatim in edit.md. fan reviewer's reason still holds: An informed-reader detail: the Grammy line repeats what she said about her grandmother at the British Library in 2024. It turns a viral moment into a durable pattern and shows that the speech was not improvised for the o"
+    },
+    {
+      "passage": "Obell shot back: \"Uh, do you know who you are?! You just won a Grammy!\"",
+      "action": "kept",
+      "reason": "Kept verbatim in edit.md. fan reviewer's reason still holds: Checked on the ELLE page (para. 11). The exchange is vivid, sourced, and correctly framed as the writer's observation. It gives the hook a real scene without invented interiority."
+    },
+    {
+      "passage": "The first sentence sounds like a Two. The second explains goodness by what it gets you.",
+      "action": "kept",
+      "reason": "Kept verbatim in edit.md. critic reviewer's reason still holds: It gives the rival the strongest single quote against Two (\"It's not a productive way to move through the industry\") and analyzes it fairly instead of burying it."
+    },
+    {
+      "passage": "Every witness quoted here is a friend, a colleague or a writer working on a cover story, and no family member, former partner or critic has described her on the record.",
+      "action": "kept",
+      "reason": "Kept verbatim in edit.md. critic reviewer's reason still holds: A precise, honest limit on independence of testimony that a skeptical reader needs."
+    },
+    {
+      "passage": "None of this is decisive. Candor is a norm for her generation, _Messy_ is a brand as well as a confession, and British artists are expected to play down charts.",
+      "action": "kept",
+      "reason": "Kept verbatim in edit.md. critic reviewer's reason still holds: This is the right concession. The fix in critic-01 should carry it into the verdict, not delete it."
+    },
+    {
+      "passage": "Then she found out it was Obell's birthday.",
+      "action": "kept",
+      "reason": "Kept verbatim in edit.md. unfamiliar reviewer's reason still holds: A one-line turn that makes the hook land: specific, sourced and observed rather than self-reported, and it sets up the central question without telling the reader what to think."
+    },
+    {
+      "passage": "A song for her grandmother felt selfish because it was not made for everyone else. Her default seems to be that songs belong to the listener.",
+      "action": "kept",
+      "reason": "Kept verbatim in edit.md. unfamiliar reviewer's reason still holds: The article's most original insight. It comes from her own word choice, is hedged with \"seems\", and is backed by the album-cover and florist details."
+    },
+    {
+      "passage": "When she describes what she wants from it, and from life off the road, listen for which she names: people and giving, goals and standing, freedom, or peace.",
+      "action": "kept",
+      "reason": "Kept verbatim in edit.md. enneagram reviewer's reason still holds: A concrete, observable settle signal that separates the four live hypotheses by motive rather than by behavior. It is good for durability and for a future refresh."
+    },
+    {
+      "passage": "These are campaign answers for an album about love, and an album about love rewards them. \"How many people you can gather in one space\" is also a ticket count.",
+      "action": "kept",
+      "reason": "Kept verbatim in edit.md. enneagram reviewer's reason still holds: The draft discounts its own best motive quote for professional incentive. That is exactly the motive-versus-incentive test this role looks for."
+    },
+    {
+      "passage": "Any headliner apologizes after a 40-minute stoppage. What matches November is the sequence: sorry first, then making it right for the people in front of her.",
+      "action": "changed",
+      "reason": "Changed, contribution kept. The self-limiting inference stays and is strengthened: \"Any headliner apologizes after a 40-minute stoppage. Auckland matches November only in direction: sorry first, then making it right for the people in front of her.\" \"The sequence\" wording is dropped so Auckland is not presented as an established pattern (subject-F2, enneagram-2)."
+    },
+    {
+      "passage": "That answer would move this read more than any award.",
+      "action": "kept",
+      "reason": "Kept verbatim in edit.md. future reviewer's reason still holds: It commits the page to a concrete future discriminator rather than to her current status, which makes the profile easy to reopen and keeps it from depending on chart or award news. Keep the commitment and back it with a "
+    }
+  ],
+  "prior_blockers": []
+}

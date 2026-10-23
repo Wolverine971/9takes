@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "enneagram",
+  "content_sha256": "6dfd0319be559378c5583fbd5db625635d720678ecad1a315c87ed3ea96c7008",
+  "evidence_sha256": "d975784e4865bd66b486101cfcc70de6c05c6a611ffb29fdbe379089fdd06b35",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": true
+  },
+  "findings": [
+    {
+      "id": "enneagram-1",
+      "severity": "major",
+      "passage": "That is why Six leads. Credibility is the motive she names most plainly, which is why Three is close.",
+      "problem": "The stated basis for the lead is how often she names an emotion in promotional interviews, which the next sentence admits shows what she says, not what she feels (C145's own alternative says the same). It also uses the triad's 'fear' loosely. The draft sets up head triad = fear and heart triad = shame, yet what her named fears are about is mostly a judgment: people who 'don't take me seriously' (C15), 'my biggest fear of, oh shit, am I doing a good job?' (C139), 'that prejudgment... would have killed me' (C138). In triad terms that is shame/image content. Counting the English word 'fear' therefore does not place her in the head triad. The same reasoning (nerves named on a press tour lead to the head triad and Six, with Three the closest rival) also carries the recent Paapa Essiedu, Christopher Abbott, Grace Reiter and Ella Beatty profiles. As written, it describes the genre of a nervous young actor's press tour rather than this person.",
+      "acceptance_test": "The 'What is Inde Navarrette's personality type?' section grounds the Six lead in a behavioral sequence specific to her, not in how often she uses fear words. Either the triad paragraph or the weighing section says plainly that much of what she calls fear is fear of being judged, so whether she belongs in the head or heart triad is itself unresolved."
+    },
+    {
+      "id": "enneagram-2",
+      "severity": "major",
+      "passage": "Asked what she wants people to know about her, she ranked trust above liking:",
+      "problem": "Buchanan's question (C134, S42 0:00-0:12) was 'What do you want people to know about this career that you're forging?', not about her. Her July version of the same idea, in Nylon, is 'I want people to take that time to trust that I have that capability' (S02, sitting between 'prove that Obsession wasn't just lightning in a bottle' and 'fall on my face publicly'). In context she wants audiences to trust her capability and career choices. That is a credibility statement and belongs with 'taken seriously' and 'prove myself.' The Six motive concerns whom she can rely on, not wanting to be trusted. Even so, the draft presents this as the Six case's showcase block quote.",
+      "acceptance_test": "The question is framed as being about her career. The quote either moves into the Three/credibility cluster or is presented as neutral, with the Nylon 'trust that I have that capability' context, and it no longer counts as Six support in the body or in type_hypothesis.for_claim_ids."
+    },
+    {
+      "id": "enneagram-3",
+      "severity": "major",
+      "passage": "That one sentence holds both readings. Discomfort at not knowing what others think is a Six's. Fear of the verdict on her work is a Three's.",
+      "problem": "In the source (C139, S42 ~23:01-23:22) the first sentence continues 'because you want to know either that you're doing a good job or that you're hitting that note.' By her own account, the discomfort comes from wanting the performance verdict. The draft ends the quote before the 'because' clause and then gives the first half to Six. In context this is one reading, not two: she wants to know whether she is doing well. That leans Three, or is ordinary actor anxiety about a scene partner's silence. Presenting it as a balanced 6/3 sentence props up the leading read through a cut.",
+      "acceptance_test": "The 'because you want to know... that you're doing a good job' clause is restored, quoted or paraphrased. The passage no longer assigns the discomfort to Six unless it gives a source-based reason the discomfort concerns something other than the verdict on her work."
+    },
+    {
+      "id": "enneagram-4",
+      "severity": "major",
+      "passage": "Doubt is the named enemy. The defenses are set up in advance or found in someone older. That is the earliest Six material on record.",
+      "problem": "The pre-fame record is the article's best campaign-independent evidence, and the FAQ rests the lead on it: 'What keeps Six ahead, narrowly, is that she leads with fear and inability rather than competence, before and after fame.' The 2021 pact does not support that. It commits her to maximum effort ('give it 110%') so that afterward there is 'no room for doubt,' which protects her own verdict that she did her best. That is the same structure as the 2026 Oscar net ('it doesn't mean that I didn't do a good job'), which the draft calls the Three reading's best line (C51), and C53's alternative already says the pact fits Three. The pact leads with competence, not inability. The rest of the pre-fame Six material is generic: advice to teen readers that splits 6/7 (C131), a careful-reading line that continues 'but wonderfully all the feedback has been positive' (S36), and a newcomer learning from a veteran (C135). So 'before fame as well as after' does not favor Six over Three.",
+      "acceptance_test": "The 2021 pact is presented as material for both readings, or as Three-leaning given its parallel with the safety net. Neither the FAQ nor 'The Six case rests on order' claims the pre-fame record shows her leading with inability rather than competence. If Six stays ahead, the stated reason is one the pre-fame sources actually support."
+    },
+    {
+      "id": "enneagram-5",
+      "severity": "major",
+      "passage": "Each episode reads two ways. As a Six, she secures against a bad outcome before it exists: she deletes the streams, builds the net, keeps her hopes down. As a Three, what she protects is the verdict that she is good. No episode on record yet forces those motives apart.",
+      "problem": "The episodes are not evenly split. Wherever she says what is at stake, it is a judgment of her competence or seriousness: streams ('take me seriously'), net ('a good job'), freakouts ('prejudgment'), playback ('taken seriously'), set fear ('am I doing a good job?'), 2021 pact ('no room for doubt'). The Six reading explains when she acts (she secures in advance), but not why the feared outcome is almost always a performance verdict; a Three can also hedge in advance. Only the lightest, most ordinary items have content that isn't about competence: the Big Sean message routed to her boyfriend, feeds filtered with her mother, guides on set. The article never says that the Six lead rests on timing plus these light items while Three owns the stated content. Without that, 'Six leads' can read as momentum from the earlier Six baseline that this refresh replaced. An unused item may bear on it: she told Variety that 'in order to keep myself secure' she turns to her drives, music and video games (S10 27:17-27:52). That is security language with non-competence content, though it also fits Nine or Five self-soothing.",
+      "acceptance_test": "The weighing section separates timing (securing in advance) from what is secured (mostly verdicts on her work) and names the specific non-competence items that keep Six ahead. The 60-word answer and type FAQ are recalibrated to match, for example as a near tie with Six ahead on a named basis. Otherwise the lead changes, with a stated reason, under --refresh --expanded-review."
+    },
+    {
+      "id": "enneagram-6",
+      "severity": "minor",
+      "passage": "Deleting streams she loved, out of fear, is a hard fit for a Seven.",
+      "problem": "Seven is a head type whose behavior is often fear-driven, so acting 'out of fear' does not separate it from Six. This line relies on the stereotype of a fearless Seven. What actually strains Seven is the trade: she gave up something she said she 'love love love[d]' to avoid a judgment ('take me seriously'). That trade points to Three at least as much as to Six, so it does not move Six ahead of Seven. She also framed the deletion as 'moving into like a new chapter of my life,' which a Seven reading could claim. The FAQ repeats the 'out of fear' phrasing.",
+      "acceptance_test": "Body and FAQ name what is un-Seven-like (giving up a loved pleasure to head off a judgment) instead of 'out of fear', and neither presents the deletion as evidence for Six over Seven."
+    },
+    {
+      "id": "enneagram-7",
+      "severity": "minor",
+      "passage": "Against it, she talks about belonging more than being different.",
+      "problem": "Four is listed as live in the body and FAQ but gets two quotes, while Four-compatible evidence is filed elsewhere: the authenticity reason for withholding the freakouts ('in order to play it true'), wanting to be seen for 'the human emotion behind it,' 'I don't like to be seen unless I want to be seen,' and wanting 'something that people don't like [but] maybe I do' (C74's own alternative says it fits Four). The only counterpoint is one line of press-tour gratitude to horror fans. None of the five settle signals would test Four. As written, Four is a token alternative, which the open-case rules flag.",
+      "acceptance_test": "The Four paragraph gathers its strongest evidence (at least 'play it true' and 'people don't like [but] maybe I do') and gives a discriminator stronger than one fan-gratitude line, and a settle signal or clause tests Four. Otherwise Four is dropped from the live alternatives, with a reason, in the body, FAQ and open_case.live_alternatives."
+    },
+    {
+      "id": "enneagram-8",
+      "severity": "minor",
+      "passage": "Nine and Eight were tested and set aside.",
+      "problem": "Five and One are never mentioned, though the record holds material for both. Five: '100 percent a cat,' 'I don't like to be seen unless I want to be seen,' 'I've always lived in my own little world,' 'as many questions as humanly possible,' shyness, and securing herself through solitary drives, music and video games (S10). One: 'do it justice and do it correctly,' 'give it 110%,' calling herself 'a dick' for refusing Barker. Neither looks stronger than Three. But readers cannot tell they were considered, and the evidence record's tested list (3, 7, 4, 9, 8) omits them.",
+      "acceptance_test": "A sentence or clause says why Five and One are not live, or the evidence record and the article agree on which types were tested."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "The two things she told Barker are the puzzle of her public record. The confession names a fear and hands it to someone she trusts. The refusal protects something, and she has explained it two ways: to keep the performance true, and to avoid being judged too early. Is she guarding her safety, or the impression that she can do the job?",
+      "reason": "Poses the 6-vs-3 question through two observed, sourced acts rather than type vocabulary. A model open-case hook that the rest of the article must answer."
+    },
+    {
+      "passage": "The childhood can't settle the type. A Seven reading could claim the happy moves, a Six reading the lonely ones. Read together, they are a story about adapting.",
+      "reason": "Refuses to mine conflicting retrospective childhood accounts for a type and shows all four tellings. This is the discipline the standard asks for, and it is rare in the corpus."
+    },
+    {
+      "passage": "Her trust came in stages: questions first, privacy for the big moments, the director's eye for the small ones. And overriding a nervous director on day one is self-trust, which a picture of her leaning on others doesn't predict.",
+      "reason": "Confronts counterevidence to its own leading read with a specific, sourced behavior instead of explaining it away with a wing, arrow or counterphobic label."
+    },
+    {
+      "passage": "On the record so far, safety and image point the same way. What would separate Six from Three is a moment when they don't.",
+      "reason": "States the actual discriminator in plain language. The settle signals that follow are concrete and dated."
+    },
+    {
+      "passage": "By 2026, after a hit, the cut had become a liberation. \"As soon as they were kind of like, 'Dog, you're free.' I was like, 'Dude,'\" she told Collider. That turn toward freedom is the kind of reframe Sevens are known for, but it came in hindsight.",
+      "reason": "Dates the Seven-flavored reframe against her plain 2023 reaction. This is correct handling of retrospective self-report and keeps the Seven case honest without inflating or dismissing it."
+    }
+  ],
+  "assessment": "Typing method is mostly sound. No wings, arrows or subtypes explain away contradictions, the counterphobic label is deliberately avoided, every live alternative gets a for/against, and the settle signals are concrete and dated. Titles, description and FAQs use leading-read language throughout. The weakness is calibration of the Six lead. Two of the Six case's showcase items are, in context, credibility statements: the 'trust me' quote answers a question about her career and pairs with 'trust that I have that capability' (enneagram-2), and the 'don't know what somebody else is thinking' sentence is cut before her own 'because... doing a good job' (enneagram-3). The pre-fame anchor (the 110% pact) has the same structure as the Oscar net the draft concedes to Three (enneagram-4). Wherever she names what is at stake, it is a verdict on her work (enneagram-5). The defensible basis for Six is the timing of her hedging plus a few light non-career securing moves. On stated motive the record reads as a near tie or a slight Three lean. The open-case framing survives either way, but the 60-word answer and type FAQ should not say Six is ahead for reasons the sources do not carry. Four is under-argued and untested by the settle signals; Five and One go unmentioned (enneagram-7, enneagram-8). Similarity: the tripped matches ('whose core emotion is fear', 'held loosely at low confidence') are type vocabulary and open-case phrasing, not reused argument. However, the argument shape (named press-tour nerves, then Six, with Three the closest rival) recurs across four other recent actor profiles, which is why enneagram-1 asks for a person-specific basis. Limitation: I did not reopen audio. Context points rely on the evidence record's own transcription notes (C134, C139, S02, S10, S19, S36), which the evidence reviewer should confirm."
+}

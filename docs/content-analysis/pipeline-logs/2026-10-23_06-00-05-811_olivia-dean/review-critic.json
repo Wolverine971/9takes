@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "critic",
+  "content_sha256": "69c2236e370befa3b0cddcf690f533a651f577826563d0408bfa39473e2e7e3e",
+  "evidence_sha256": "ef18f9601d9f41063a0ad037584fe6b56339a51e83a40c2176c4df4b27696bf8",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "critic-01",
+      "severity": "major",
+      "passage": "Dean, more often than not, lets the look take the hit.",
+      "problem": "The stated discriminator is what she protects \"when image and connection pull apart\", but none of the cited episodes puts image against a relationship. Messy, \"wangled\", the \"depressive state\", the LA sessions, the charts line and the app deletion all set polish against candor or self-protection. Each was also told from a position of success, inside a promotional arc. In Time Out (S03), \"wangled my way in\" comes with \"no, I'm supposed to be here\" and \"it meant so much\", and the \"depressive state\" comes with \"Therapy is awesome.\" On Sidetracked (S16, days before release), \"went quite terribly\" sets up the east London success story. On Bumble (S19), she pitched the Messy title as a shared, relatable stance against social-media perfection; that was the host's framing, and she agreed with it. Candor with a comeback is an image a Three can curate, so \"lets the look take the hit\" is asserted, not shown. Counting the 2023 low-mood disclosure as type evidence also cuts against the evidence record's own sensitivity note.",
+      "acceptance_test": "Either cite at least one dated, sourced episode in which keeping a relationship visibly cost her image or standing, or restate the discriminator to match the evidence (candor versus polish) and say plainly that it does not separate a Two from an authenticity-minded Three. \"The record leans Two\" and the FAQ answer to \"Is Olivia Dean an Enneagram Type 3?\" must match the restated claim. The \"depressive state\" quote may remain only as her own dated account, not as a point in the type tally."
+    },
+    {
+      "id": "critic-02",
+      "severity": "major",
+      "passage": "And after the Grammys she deleted the social media apps from her phone.",
+      "problem": "The article uses only half of ELLE's passage (S10). It continues: \"I don't think you're supposed to know everyone's opinion about you. And I've decided I want to live in sweet ignorance.\" The article's own type explanation says heart types \"track how they land with people\" and that Twos feel worth something \"when it lands\". Choosing not to know how she lands, and shutting off incoming love at its peak, strains the Two reading and the heart-triad reading at least as much as the Three. Yet the body and the Type 3 FAQ count it only against Three.",
+      "acceptance_test": "Quote or paraphrase the \"not supposed to know everyone's opinion about you\" line, and say it cuts against the Two and heart-triad reading as well. Otherwise remove the app deletion from both the anti-Three case and the FAQ answer to \"Is Olivia Dean an Enneagram Type 3?\"."
+    },
+    {
+      "id": "critic-03",
+      "severity": "major",
+      "passage": "The apology to fans came first, the fight came second, and the fight was with companies her tours run through.",
+      "problem": "\"The fight\", \"companies her tours run through\" and the anti-Nine line \"Dean took on three of the biggest companies in live music by name\" all imply a costly confrontation. The opened sources point the other way. The same day, Ticketmaster reposted her message, pledged a face-value cap, and added \"We support artists' ability to set the terms of how their tickets are sold and resold,\" which put the policy question back on artists' teams (Variety Australia, S26). On 27 November, Live Nation CEO Michael Rapino said \"We share Olivia's desire to keep live music accessible\" and \"we echo Olivia's call to do better\" (PA, S28). THR (S27) notes that the UK had just announced a ban on above-face-value resale, which Ticketmaster and AXS publicly backed. The companies sided with her within hours, and fans rewarded her. The episode may show care for fans, but it shows no costly conflict and gives no evidence against Nine. Apologizing first and then blaming the platform is also ordinary artist crisis communication.",
+      "acceptance_test": "Report Ticketmaster's same-day \"artists' ability to set the terms\" reply and Live Nation's 27 November endorsement, with links. Replace the \"fight\"/\"took on\" framing with what actually happened. Remove the episode from the Nine argument, or explain why a call-out the companies endorsed within the week counts as open conflict. If \"The order is the detail\" stays, explain why apologizing first, then blaming the platform, separates a Two from standard artist crisis messaging."
+    },
+    {
+      "id": "critic-04",
+      "severity": "major",
+      "passage": "In moments built around her, she hands the attention to someone else.",
+      "problem": "The thesis line and the title (\"Keeps Handing the Moment Back\") rest on two acts, and neither is tested against its rivals. The champagne went to the ELLE cover writer, whose story shapes Dean's public image. Obell's own framing of the moment, cut from the article, is aesthetic: \"Dean romanticizes life the way she makes music, turning ordinary moments into ones that feel worth lingering in\" (S10, next to the candles and \"I like to set a vibe\"). That reading fits a Three's warmth toward the press, or a Seven or Four romanticizing the moment, as well as it fits Two giving. Grammy acceptance speeches conventionally turn toward family and community, and the article gives no baseline. Later the article concedes Ticketmaster (\"A Three could make the same move\") and Auckland (\"Any headliner apologizes\"). The Three verdict then counts all of them again: \"Put that beside the acts in the last section, where at her biggest moments the attention goes out to someone else, and the record leans Two.\" After the article's own concessions, the observed behaviour specific to a Two comes down to one anecdote from one cover-story writer.",
+      "acceptance_test": "Near the hook or the thesis line, name the rival readings of the champagne (the recipient was a cover journalist; ELLE's own \"romanticizes life\" framing) and of the speech (the genre norm). In the Three verdict, list only the acts the article still treats as discriminating after its concessions. If only the champagne remains, soften \"the record leans Two\" and the \"Keeps\" claim in title and meta_title, or add independent, sourced observed acts."
+    },
+    {
+      "id": "critic-05",
+      "severity": "major",
+      "passage": "When she describes what she wants from it, and from life off the road, listen for which she names: people and giving, goals and standing, freedom, or peace.",
+      "problem": "The article quotes the Apple Music One interview (S17, October 2025) for \"think of some new goals\" but leaves out the answer she gave in the next breath: \"I'd like to headline Glastonbury one day,\" and \"I'd love to tour like some other parts of the world I've never been to,\" naming South America and India (about 10:48-11:20). Those point to standing (Three) and new experience (Seven), not people and giving. The closing then offers this same question as an untested future signal that \"would move this read more than any award\". It has already been asked once, in a source the article cites, and the answer leaned away from Two.",
+      "acceptance_test": "Report the new goals she named in October 2025, with source and date, in the Three section or the closing, and say what they suggest. Reframe the closing signal as a repeat of that question, with the 2025 answer as the baseline."
+    },
+    {
+      "id": "critic-06",
+      "severity": "major",
+      "passage": "And Sevens tend to steer away from pain. Dean steers toward it.",
+      "problem": "The Seven section leaves out the only explicit statement in the record of what she fears. Numéro (S13, 2025, English translation): \"I think what I really fear is the day I will stop having fun. When I will no longer feel anything while I sing.\" That is a fear of losing fun and feeling, close to the Seven's core fear, and the article never mentions it. The same interview complicates \"Dean steers toward it\": asked \"Are you very emotional?\", she answered \"Not really. Let's just say I cry in private, rarely in front of people.\" The evidence record already lists the fear of no longer having fun as evidence against Two. The draft drops it and dismisses Seven with a generalization the omitted material complicates.",
+      "acceptance_test": "Add the Numéro fear line to the Seven section, marked as translated and dated, and answer it directly. Either qualify \"Dean steers toward it\" with the cry-in-private answer, or limit the claim to on-stage and in-song vulnerability."
+    },
+    {
+      "id": "critic-07",
+      "severity": "minor",
+      "passage": "Then there is a word she keeps using. Twice in the interviews gathered here, when she put herself first, she called it selfish.",
+      "problem": "\"Keeps using\" rests on two uses in four years, and the trim changes the tone of the first. Time Out's full passage (S03) reads: \"I learned that I know best, which can sound dickheaded ... I learned that I had to be selfish. And make myself happy first. Who gives a fuck what other people think about it?\" That is approving and defiant, not apologetic, and its last sentence is hard to square with a heart type tracking how she lands. \"Carmen\" felt selfish to her at the time; the Messy-era selfishness is a lesson she endorses. Two uses with opposite tone make a weak pattern to build \"Her default seems to be that songs belong to the listener\" on.",
+      "acceptance_test": "Replace \"keeps using\" with an accurate count, and show the defiant close of the Time Out passage, quoted or paraphrased. State that the two uses differ in tone before drawing the inference about her default."
+    },
+    {
+      "id": "critic-08",
+      "severity": "minor",
+      "passage": "When Lowe brought up a lyric about being afraid of being changed, she answered:",
+      "problem": "\"I'm too scared to belong to anyone\" is not a fresh confession. It echoes her own \"Something Inbetween\" lyric, which Genius (checked 2026-10-23) gives as \"It's too much to belong to anyone, I'm too scared to be changed\". Lowe had just paraphrased that lyric. Auto-captions mark speaker turns unreliably, and research task 4 in the evidence record (listen to S15 at 06:30-10:45 to confirm wording and speakers) is still open. Yet the line serves as an H2 heading and as the strongest self-report of independence.",
+      "acceptance_test": "Say that she was restating her own lyric. Her endorsement of the song's stance (\"that's kind of like my whole energy and I guess approach to love\") can carry the self-report weight instead. Confirm by audio that Dean, not Lowe, says the line before keeping it as the H2."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Calling her boundary talk \"Two growth\" would make the theory impossible to lose. So it stays here as a tension the type does not resolve.",
+      "reason": "The article refuses to treat a contradiction as proof of the theory. That is rare and exactly what the standard asks for; keep it intact."
+    },
+    {
+      "passage": "The Two's usual costs, over-giving and resentment at going unthanked, do not show up in public. That could be health, privacy, or a sign the read is wrong.",
+      "reason": "It names the missing evidence that would most embarrass the leading type and allows that the read may be wrong."
+    },
+    {
+      "passage": "The first sentence sounds like a Two. The second explains goodness by what it gets you.",
+      "reason": "It gives the rival the strongest single quote against Two (\"It's not a productive way to move through the industry\") and analyzes it fairly instead of burying it."
+    },
+    {
+      "passage": "Every witness quoted here is a friend, a colleague or a writer working on a cover story, and no family member, former partner or critic has described her on the record.",
+      "reason": "A precise, honest limit on independence of testimony that a skeptical reader needs."
+    },
+    {
+      "passage": "None of this is decisive. Candor is a norm for her generation, _Messy_ is a brand as well as a confession, and British artists are expected to play down charts.",
+      "reason": "This is the right concession. The fix in critic-01 should carry it into the verdict, not delete it."
+    }
+  ],
+  "assessment": "The draft is more candid than most about its own limits: it names the friendly witnesses, the absent Two costs and the risk of turning boundary talk into \"Two growth\". But its central causal story, \"she hands the moment back\", survives mainly by counting episodes it has already conceded, and by trimming adverse context from sources it cites. The trimmed material: the companies' same-week endorsement of the Ticketmaster call-out, ELLE's \"sweet ignorance\" line, Numéro's explicit fear statement, the new goals she named right after \"think of some new goals\" (headline Glastonbury, tour new continents), and the defiant close of the \"selfish\" quote. The anti-Three discriminator is stated as image versus connection but tested only with candor-versus-polish evidence. Medium-confidence Two may survive once all of this is put back, but the title's \"Keeps\", \"the record leans Two\" and the Type 3 FAQ currently claim more than the confronted evidence supports. The editor should be ready to land on a narrower Two-over-Three read. Checks: printed wording matched for ELLE 2026, Time Out 2023, RS UK, NPR, Numéro, Music Week, the Guardian feature, Brits and chart reports, THR, Variety Australia, PA and 1News. Caption contexts were read for S15, S16, S17, S18, S19, S20 and S21. These checks used the research run's saved page texts and caption transcripts (fetched 2026-10-23), not a fresh live visit or audio, plus a live Genius lyric check. No misquotation found. Smaller points not raised as findings: Chinouriri is a classmate and friend, yet appears under \"People who work with her\". \"The drive came from home\" is a causal childhood claim resting on her self-report. Leaving out the unresolved Mattie Music Group suit is defensible, since she is not a defendant. The similarity advisory did not trip (max 0.125, against Bill Clinton, on a generic \"the Two's pattern\" sentence). I found no meaningful argument reuse; the details are specific to Dean. Keep both risk flags: contested typing, and sensitive material (a mental-health disclosure in the type tally; an unresolved suit)."
+}

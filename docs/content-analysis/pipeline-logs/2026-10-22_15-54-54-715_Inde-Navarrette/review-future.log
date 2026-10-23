@@ -1,0 +1,12 @@
+I wrote the future-role review for the Inde Navarrette profile to `docs/content-analysis/pipeline-logs/2026-10-22_15-54-54-715_Inde-Navarrette/review-future.json`. It passes the review schema, and both input hashes match the request. I didn't change or publish anything else; my one helper script is in `/tmp`, outside the repo.
+
+**Verdict:** the profile passes the five-year test once the findings below are fixed. If you remove the newest events (the SNL booking, the Oscar nominations date, the box-office figure), the open-case argument still holds. Removing even the October 21 Kyle Buchanan interview weakens the Type 3 case but doesn't collapse it.
+
+**Findings (2 major, 3 minor):**
+1. **Major – the SNL line will be out of date almost immediately.** "She hosts _Saturday Night Live_ on October 31, 2026" sits in the opening section, and the same wording appears in the "What would settle it" list and an FAQ. The page will almost certainly go live after October 31. The fix is either to cut it from the opening or reword it so it's true before and after the date.
+2. **Major – quotes from the Buchanan interview are marked as settled when they aren't.** That interview came out one day before the draft and carries much of the argument. Every quote from it comes from two automatic transcripts that disagree in places, nobody has listened to it, and the last 18 minutes were never reviewed. The evidence file still marks about ten of these quotes as stable with no prompt to recheck them. They need a human listen, or a recheck note naming the exact timestamps.
+3. **Minor – the review date skips the first test.** The next scheduled review is February 1, 2027, but the first event the page itself names as a test is SNL on October 31.
+4. **Minor – one section is framed by research timing.** "The Three case got stronger in October 2026" describes when evidence arrived, not the evidence itself.
+5. **Minor – two "hasn't happened yet" statements carry no date.** These are the FAQ line "She has not said when she deleted them" (which also isn't in the claims list) and the body line beginning "So far, the only colleagues…".
+
+The similarity check flagged only stock Enneagram wording ("whose core emotion is fear") and the standard open-case phrase ("held loosely at low confidence"). The argument itself is specific to her, so I didn't raise a finding. I marked five passages to keep, including the opening exchange with Curry Barker, the four versions of her childhood, and the closing "fall on my face publicly" quote.

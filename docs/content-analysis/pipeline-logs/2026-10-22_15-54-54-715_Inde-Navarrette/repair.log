@@ -1,0 +1,23 @@
+I've finished the Inde Navarrette repair stage and written the three outputs. A dry run of the release gate on them passes every structural check. What's left is for the re-verification to accept the fixes and check one new source. I didn't touch the live draft and nothing was published.
+
+**The major finding (the misattributed Oscar line):** I found and opened Variety's original report, a Sept 2, 2026 exclusive by Clayton Davis. The Oscar-campaign line now links to it directly, with the date in the sentence. It used to credit People through a Yahoo page that is actually a Wealth of Geeks article, which I confirmed from Yahoo's page metadata. Variety is now in the evidence record as source S58, and the Yahoo page's entry is corrected so the old mistake stays traceable. No claim relies on it any more, and the Variety link replaces the Yahoo one in the citations list.
+
+**The three minor findings:**
+- **Wording of the Type 6 case:** "unrelated to her work" became "not about a verdict on her work," in both the body and the Type 3 FAQ.
+- **Variety interview:** it's now called Variety's *Up Next* video interview instead of a podcast.
+- **Missing quotes:** three direct quotes weren't recorded as claims. I added each one to its matching existing claim.
+
+**Small extras from the verifier's score notes:**
+- "Fear first, then a plan" now reads "then a resolve to work on it," which matches what she actually said.
+- The "hunker down… taken seriously" sentence the verifier said was hard to read is now two plain sentences, with the same quoted words.
+- The meta title is now "Inde Navarrette Personality Type: Open Case, Leading Read Type 6," which reads less cryptically.
+
+**Things to know before re-verification:**
+- **Length:** I didn't cut further. The article is 3,220 words against a target of about 2,500 for this kind of uncertain-type profile. Most of the extra is sourced context that earlier reviewers asked for. Writing scored 7.8, but there's no minimum score for writing on this profile type.
+- **Score margin:** the previous verification scored it 8.1 overall against an 8.0 floor, so the margin is thin. Fixing the source error should help the evidence score.
+- **Profile links:** the verifier noted the body links to no other 9takes personality profiles. None of the people it mentions has one, and I didn't invent a comparison just to add a link.
+
+Files are in `docs/content-analysis/pipeline-logs/2026-10-22_15-54-54-715_Inde-Navarrette/`:
+- `repair.md`
+- `evidence-repair.json`
+- `resolution-repair.json`

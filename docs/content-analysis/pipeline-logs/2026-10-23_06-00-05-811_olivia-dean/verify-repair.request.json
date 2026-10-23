@@ -1,0 +1,27 @@
+{
+  "schema_version": 3,
+  "subject": "olivia-dean",
+  "mode": "create",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_verify_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-23_06-00-05-811_olivia-dean/candidate-repair.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-23_06-00-05-811_olivia-dean/evidence-repair.json",
+    "resolution": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-23_06-00-05-811_olivia-dean/resolution-repair.json",
+    "review-subject": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-23_06-00-05-811_olivia-dean/review-subject.json",
+    "review-fan": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-23_06-00-05-811_olivia-dean/review-fan.json",
+    "review-critic": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-23_06-00-05-811_olivia-dean/review-critic.json",
+    "review-unfamiliar": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-23_06-00-05-811_olivia-dean/review-unfamiliar.json",
+    "review-enneagram": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-23_06-00-05-811_olivia-dean/review-enneagram.json",
+    "review-future": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-23_06-00-05-811_olivia-dean/review-future.json",
+    "baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-23_06-00-05-811_olivia-dean/baseline-reader.md",
+    "checks": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-23_06-00-05-811_olivia-dean/checks-repair.json"
+  },
+  "outputs": {
+    "verification-repair.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-23_06-00-05-811_olivia-dean/verification-repair.json"
+  },
+  "content_sha256": "1ab3c113eee2935207544b1139252f5b2f992044a6ac06990887b93cc073e84e",
+  "evidence_sha256": "aa25211a31320b1672605f1a456c11a8c6ed15f04f7abf06124d292d997d4aa7"
+}

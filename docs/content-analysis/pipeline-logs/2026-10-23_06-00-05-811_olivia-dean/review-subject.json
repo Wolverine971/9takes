@@ -1,0 +1,86 @@
+{
+  "schema_version": 3,
+  "role": "subject",
+  "content_sha256": "69c2236e370befa3b0cddcf690f533a651f577826563d0408bfa39473e2e7e3e",
+  "evidence_sha256": "ef18f9601d9f41063a0ad037584fe6b56339a51e83a40c2176c4df4b27696bf8",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "subject-F1",
+      "severity": "major",
+      "passage": "A Three could make the same move. Standing up for fans is popular, and The Hollywood Reporter noted that artists often have some control over resale policy and that it was unclear what her own team's policy had been.",
+      "problem": "Missing response. The draft repeats THR's point that her own team may have set the resale terms she attacked, but leaves out Dean's published answer. The PA report the draft already cites two paragraphs earlier (S28, her statement of 27 Nov 2025) quotes her: \"Every artist and their team should be granted the option to cap re-sale at face value ahead of on sale.\" ELLE (S10) reports that she hopes the fix helps artists push back \"especially since they don't share in profits made on the secondary market.\" The companies' own pointed replies are also missing. Ticketmaster wrote \"We support artists' ability to set the terms of how their tickets are sold and resold\" (S26, S27), and a source close to AEG said it ticketed only the Crypto.com Arena shows and turned resale off once it noticed (S26, S27). As written, a reader gets the insinuation without either side's answer. Opened and checked: S26, S27, S28, S10.",
+      "acceptance_test": "Wherever the draft raises what her team's resale policy was, the same passage also gives (a) Dean's 27 Nov 2025 position that artists should get the option to cap resale at face value before the on-sale (S28, quoted exactly or closely paraphrased) and (b) Ticketmaster's public reply that it supports artists' ability to set resale terms (S26/S27). The question is left visibly unresolved rather than settled either way. The claim inventory (C29/C29h) records both responses."
+    },
+    {
+      "id": "subject-F2",
+      "severity": "minor",
+      "passage": "The order is the detail. The apology to fans came first, the fight came second, and the fight was with companies her tours run through.",
+      "problem": "This overreads the sources in her favor. THR (S27) describes one Instagram story: \"Dean wrote on an Instagram story on Friday\", followed by \"She said that...\". Variety (S26) says only \"She continued\". No opened source shows separate posts, so \"Her first Instagram story was an apology\" asserts a sequence of posts the record does not establish. The motive inference then rests on sentence order inside one statement. The same order argument is reused in the FAQ (\"She first apologized to fans, then told...\"), in the Auckland comparison (\"What matches November is the sequence\") and in the type discriminator. The apology's next sentence, \"My team are currently looking into it,\" is also left out, though it is part of what she actually wrote.",
+      "acceptance_test": "Unless a newly opened source shows separate posts, the body and FAQ describe the 21 Nov 2025 post as one statement that opened with an apology, and \"first Instagram story\" is gone. Any inference drawn from the order is marked as interpretation, with its limit stated (sentence order within a single post is weak evidence of what she put first). The Auckland paragraph does not present the 'sequence' as an established repeated pattern on the strength of this alone."
+    },
+    {
+      "id": "subject-F3",
+      "severity": "minor",
+      "passage": "My mum would tell me, 'You're going to need to be five times better.' So that's always been in me.",
+      "problem": "Context is trimmed, and the trim changes what the quote means as motive evidence. In ELLE (S10, opened) the line sits in a paragraph about her mother Christine, a lawyer who became \"the first Black woman to be deputy leader of the U.K.'s Women's Equality Party\". The paragraph says Dean learned from her \"the importance of hard work and empowering other women.\" Dean's very next sentence is \"And I'm a feminist down to my toes.\" The draft stops the quote before that sentence and introduces it with \"The drive came from home\" in the Three case. A parent's warning about the higher bar Dean would face then reads as a personal appetite for standing. The draft later uses her feminism as the rival explanation for her boundary talk, but never connects it to this quote.",
+      "acceptance_test": "The quote either keeps \"And I'm a feminist down to my toes,\" or the surrounding prose gives the ELLE context (her mother's women's-equality work). The Three section also acknowledges that a 'five times better' standard can reflect an unequal bar she was warned about, not only an image or achievement motive. No author-voice generalization about race is added beyond what Dean or ELLE said."
+    },
+    {
+      "id": "subject-F4",
+      "severity": "minor",
+      "passage": "But the Three's habit is to edit failure out of a launch, and she keeps putting it in.",
+      "problem": "A mental-health disclosure is filed as 'failure' and counted as a type datum. The image-hit list that this sentence sums up includes \"I was honestly in quite a depressive state,\" which she credited therapy with ending (Time Out, S03, opened). That interview ran 13 Nov 2023, about five months after Messy was released, so it was not a launch. The research record's own sensitivity rule says these disclosures appear only in her words and never serve as type evidence on their own. Treating depression as a 'failure' she chose to 'put in' turns her candor about her health into a positioning choice. That is an imagined motive and a framing she did not use.",
+      "acceptance_test": "The depressive-state line is either taken out of the image-takes-a-hit argument or explicitly set apart as her dated account of a hard period, in her words and credited to therapy as she did, and not counted for or against a type. The summary sentence no longer classes it as 'failure'. 'Launch' is applied only to remarks made around a release (Bumble, May 2023; Sidetracked, Sept 2025)."
+    },
+    {
+      "id": "subject-F5",
+      "severity": "minor",
+      "passage": "Then there is a word she keeps using. Twice in the interviews gathered here, when she put herself first, she called it selfish.",
+      "problem": "The two instances carry opposite meanings, and the draft treats them as one pattern. In Time Out 2023 (S03, opened) \"selfish\" is a defiant creative stance. It follows \"I learned that I know best, which can sound dickheaded, which it shouldn't do at all,\" and is followed by \"And make myself happy first. Who gives a fuck what other people think about it?\" At the British Library in 2024, \"it felt quite selfish at the time\" about \"Carmen\" is closer to guilt. Calling it \"a word she keeps using\" and moving to \"Her default seems to be that songs belong to the listener\" implies she is uncomfortable putting herself first. The 2023 context points the other way, so the draft is building interiority from a quote whose context contradicts it.",
+      "acceptance_test": "The section conveys that in 2023 she embraced being 'selfish' as self-trust, for example by quoting \"I learned that I know best\" or paraphrasing the closing question. Alternatively, the 'centring herself registers as selfish' inference rests only on the Carmen remark and is marked as the author's reading. Either way, the paragraph no longer presents the two uses as the same feeling."
+    },
+    {
+      "id": "subject-F6",
+      "severity": "minor",
+      "passage": "She works on the image, too. She was a Chanel ambassador by 2023",
+      "problem": "Missing response on the image point. The Time Out passage that supplies the Chanel fact (S03, opened) records Dean answering exactly this objection. The writer says the ambassadorship makes \"my ambition is not to be famous\" \"hard to buy,\" and Dean replies, \"You kind of don't have a choice... It's the same with fashion as it is with music. And it's okay. I'm not complaining.\" The draft uses the brand role as evidence of image-craft but drops her on-record answer, which is in the same paragraph.",
+      "acceptance_test": "Where the Chanel role is cited as Three evidence, the draft adds her response from the same interview: brand work as something the industry expects, and/or \"my ambition is not to be famous\". Or it otherwise notes that she addressed the irony herself. C26d's alternative field reflects this."
+    },
+    {
+      "id": "subject-F7",
+      "severity": "minor",
+      "passage": "wore Carmen's photo on her chest at her first Glastonbury in 2024",
+      "problem": "Factual conflict between two opened sources, stated as settled in the FAQ. Time Out (S03, 13 Nov 2023) lists among her 2023 milestones \"She played her first Glastonbury show.\" Rolling Stone UK (S01) calls the 2024 Pyramid Stage set \"her first time playing the festival.\" The FAQ prints the RS UK version as fact. The claim inventory (C03) does not record the conflict.",
+      "acceptance_test": "The FAQ says she wore Carmen's photo for her 2024 Glastonbury Pyramid Stage set (supported by S01), with no 'first'. Alternatively, a third opened source resolves which year she first played, and C03 records the resolution."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "The bravery line was older than the night. At a [British Library panel](https://www.youtube.com/watch?v=tJxTX-0t1fs) in 2024, introducing her song \"Carmen,\" she had said of her grandmother, \"I'm a product of her bravery.\"",
+      "reason": "Fair to the subject. It shows the Grammy line was one she had held for a long time, not a crafted moment, and it keeps a politically charged speech anchored to her own family story without casting her as a campaigner."
+    },
+    {
+      "passage": "Calling her boundary talk \"Two growth\" would make the theory impossible to lose. So it stays here as a tension the type does not resolve.",
+      "reason": "Refuses to explain away her independence statements. This is exactly the line between record and inference that a fairness check wants kept."
+    },
+    {
+      "passage": "The Two's usual costs, over-giving and resentment at going unthanked, do not show up in public. That could be health, privacy, or a sign the read is wrong.",
+      "reason": "Declines to invent the Type 2 shadow behaviour the record lacks, and offers innocent explanations first."
+    },
+    {
+      "passage": "In 2023, before the breakthrough, Time Out's Chiara Wilkinson found her \"so self-effacing and generous.\" After their interview ran long in a pub, Wilkinson wrote: \"She's here to please.\" Those are the writer's words, not Dean's.",
+      "reason": "Attribution done right. A loaded 'people-pleaser' phrase is clearly fenced off as a journalist's impression, not Dean's self-description or an established trait."
+    },
+    {
+      "passage": "\"My friends care, but not more than I care about what they're doing. My life isn't more important than anyone else's life. It's just mine.\"",
+      "reason": "The ending is in her own words, faithful to the ELLE context (S10, opened: she is talking about the friends she comes home to), and lets her have the last word rather than the author's verdict."
+    }
+  ],
+  "assessment": "Subject-fairness proxy; I do not speak for Olivia Dean. Overall the draft treats her fairly. Attribution is disciplined: journalists' impressions, Ward's recollection and the Numéro translation are all flagged. Her school experience is not labelled bullying and no childhood wound is built from it. Partners, rumours and her grandmother's health are left alone. The Withers-estate suit is left out of the body, which I agree with: she is not a defendant, nothing has been decided, and it does not bear on the argument. It should stay tracked as unresolved. The main fairness gap is the Ticketmaster section (subject-F1). It raises the possibility that her own team set the resale terms she attacked but omits her published answer and the companies' replies, all in sources it already cites. The secondary problems are context trims that tilt motive evidence: the 'five times better' quote cut before 'I'm a feminist down to my toes' (F3), a depression disclosure filed as 'failure' (F4), opposite-valence uses of 'selfish' merged into one pattern (F5), and the Chanel point without her reply (F6). The 'apology first' order argument also leans on sentence order within what the sources describe as a single post (F2). One FAQ fact conflicts between two opened sources (F7). None of these requires a thesis change. I opened and checked S10 (ELLE 2026), S03 (Time Out 2023), S01 (Rolling Stone UK), S26 (Variety AU), S27 (THR), S28 (PA) and S32 (1News). For YouTube sources (S15, S20, S21) I relied on the recorded excerpts and did not listen to the audio. Similarity advisory: not tripped. The top pair (0.125, Bill Clinton) shares only ordinary Type 2 vocabulary ('The Two's pattern runs in plain steps'), with no reused argument, so there is no distinctiveness finding. Risk flags carried forward unchanged; no further escalation."
+}

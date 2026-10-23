@@ -1,0 +1,20 @@
+{
+  "schema_version": 3,
+  "subject": "Inde-Navarrette",
+  "mode": "refresh",
+  "role": "fan",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_review_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-22_15-54-54-715_Inde-Navarrette/draft.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-22_15-54-54-715_Inde-Navarrette/evidence-draft.json",
+    "similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-22_15-54-54-715_Inde-Navarrette/similarity.json"
+  },
+  "outputs": {
+    "review-fan.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-22_15-54-54-715_Inde-Navarrette/review-fan.json"
+  },
+  "content_sha256": "6dfd0319be559378c5583fbd5db625635d720678ecad1a315c87ed3ea96c7008",
+  "evidence_sha256": "d975784e4865bd66b486101cfcc70de6c05c6a611ffb29fdbe379089fdd06b35"
+}

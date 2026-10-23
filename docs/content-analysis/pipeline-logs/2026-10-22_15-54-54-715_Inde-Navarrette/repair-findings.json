@@ -1,0 +1,24 @@
+{
+  "eligible": false,
+  "blockers": [
+    "verification:revise",
+    "unresolved:verify-01:Misattribution. The linked Yahoo page (S55) is a Wealth of Geeks article by Marija Mrakovic syndicated on Yahoo: its schema.org provider is 'Wealth of Geeks' and it shows the Wealth of Geeks logo. It cites PEOPLE only for other items (the wigs, the May social-media interview). The campaign line itself ('according to Variety') is relayed accurately, but the article names the wrong outlet in reader-facing text, and the evidence record's S55 speaker ('Yahoo/People syndication') carries the same error."
+  ],
+  "quality": {
+    "evidence": 8,
+    "enneagram": 8.2,
+    "originality": 8.5,
+    "writing": 7.8,
+    "durability": 8,
+    "hook": 8.8,
+    "discoverability": 7.8,
+    "overall": 8.1,
+    "letter": "B",
+    "rubric_version": 3,
+    "graded_at": "2026-10-22",
+    "caps_applied": [],
+    "needs_review": true,
+    "content_sha256": "97d7b77ae903751a0d8e99602c8209da957573eaf14cf28f3bd1e4bc082895dc",
+    "profile_format": "open_case"
+  }
+}

@@ -1,0 +1,18 @@
+I wrote the subject (fairness) review to `docs/content-analysis/pipeline-logs/2026-10-23_06-00-05-811_olivia-dean/review-subject.json`. It passes the review schema check, and every quoted passage matches the draft or its FAQ exactly. I didn't touch any other repo file and didn't publish anything.
+
+**Verdict:** the draft treats Olivia Dean fairly overall. It has one major gap and six minor ones, and none of them needs a change to the Type 2 thesis.
+
+- **Major (F1):** The Ticketmaster section repeats the Hollywood Reporter's point that her own team might have set the resale terms she attacked. It leaves out her published answer, which is in the PA report the draft already cites: "Every artist and their team should be granted the option to cap re-sale at face value ahead of on sale." It also leaves out Ticketmaster's reply that it supports "artists' ability to set the terms."
+- **Minor:**
+  - **F2:** "Apology first, fight second" rests on the order of sentences in what the sources describe as a single Instagram story. No source shows separate posts.
+  - **F3:** The "five times better" quote stops just before her next sentence, "And I'm a feminist down to my toes." It's then used as evidence of a Type 3 drive.
+  - **F4:** Her 2023 "depressive state" disclosure is counted as a "failure" she put into "a launch." That interview ran months after the album came out, not around a release.
+  - **F5:** The two "selfish" quotes mean opposite things. In 2023 it was defiant ("I learned that I know best"), and in 2024 it was closer to guilt. The draft treats them as one pattern.
+  - **F6:** The Chanel ambassadorship is used as image-building evidence, but her answer in the same Time Out interview is dropped: "You kind of don't have a choice."
+  - **F7:** The FAQ says her first Glastonbury was in 2024. Time Out (2023) says she played her first Glastonbury show in 2023, which conflicts with Rolling Stone UK.
+
+I opened seven sources directly: ELLE, Time Out, Rolling Stone UK, Variety, THR, PA and 1News. For the YouTube interviews I relied on the excerpts in the evidence record and didn't listen to the audio.
+
+The similarity check didn't trip. Its closest match only shares ordinary Type 2 wording, so there's no finding about reused arguments.
+
+The review also marks five passages to keep: the British Library "product of her bravery" link, the refusal to call her boundary talk "Two growth," the honest note on missing Type 2 shadow behaviour, the fenced-off "She's here to please" attribution, and the ending quote. It agrees with leaving the lawsuit out of the body, since she isn't a defendant. The risk flags (contested typing, sensitive allegations) stay as they were, with no further escalation.

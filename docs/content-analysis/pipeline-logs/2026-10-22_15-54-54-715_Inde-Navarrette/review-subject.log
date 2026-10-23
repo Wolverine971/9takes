@@ -1,0 +1,19 @@
+I wrote the subject-fairness review of the Inde Navarrette draft to `docs/content-analysis/pipeline-logs/2026-10-22_15-54-54-715_Inde-Navarrette/review-subject.json`. It passes the review schema check, and every quoted passage matches the draft exactly. I didn't change any other file or publish anything.
+
+**Verdict:** The draft is careful about privacy. It doesn't name the director in the playback story or her boyfriend, leaves out the September backlash, makes no clinical claims, and doesn't overstate the type in the title, description or FAQs. She is still eligible for an open case (born 2001, breakout in 2025–26), so there's no blocker. The main problem is that several quotes lose the words around them, and those words usually point away from the reading the draft uses them for.
+
+**Three major findings**
+- **Playback story (used as evidence for the rival type, the image-driven Three):** the draft leaves out that the director assumed she only cared about her looks, that she pushed back, and that she then said she wanted a role that was "nothing but ugly, and I loved it." In full, the story is about refusing to be valued for her looks, not chasing an image.
+- **The "trust me" quote (the leading Six case's showcase quote):** the interviewer asked about "this career that you're forging." She means trust in her ability, which fits Three just as well.
+- **Unheard source material:** about an hour of the two longest interviews hasn't been reviewed (Awards Chatter after 46:00, Kyle Buchanan after 34:34). The "make it last" quote comes from the unheard part, and the line "she has not publicly named an Enneagram type" is stated as fact over material nobody has reviewed.
+
+**Five minor findings**
+- The "make it last" quote leaves out her wish to look different on screen (gain weight, shave her head).
+- The freakouts story gives the director's discomfort but not her report that he was relieved on day one. The description's "kept her freakouts from him" reads as hiding something.
+- The 2023 series cut is called "a liberation" without her own line in the same answer: "that was hard to hear cuz I miss everybody."
+- The Big Sean anecdote leaves out that she's been a fan since middle school, so "Oh, no" more likely reads as starstruck nerves.
+- "It runs back to leaving high school early" turns a money reason (her mom couldn't afford headshots) into evidence of an image motive.
+
+The similarity check flagged phrases shared with other drafts. They're standard type terms ("whose core emotion is fear") and the approved open-case wording ("held loosely at low confidence"), not reused arguments, so I didn't log a finding.
+
+To check context, I used copies of the sources saved by the earlier research and draft stages rather than fetching the pages again. The Kyle Buchanan quotes come from a machine transcript that nobody has listened to.

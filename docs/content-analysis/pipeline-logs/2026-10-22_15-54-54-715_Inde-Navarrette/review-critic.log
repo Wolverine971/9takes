@@ -1,0 +1,20 @@
+The critic review is done and saved as `review-critic.json` in the Inde Navarrette run folder. It passes the pipeline's review-format check, and every quoted passage matches the draft exactly. I didn't change any other file, didn't open the other reviewers' files, and didn't publish anything.
+
+**Verdict:** the draft handles uncertainty honestly and its quotes are word-accurate. The problem is where the quotes are cut. Several key quotes stop right before the source turns, and each cut makes the quote fit whichever type it's being used to support. I checked this against the saved interview transcripts from the research stage. These are machine transcripts, and both versions agree on every line I cite.
+
+**Major findings (2):**
+- **"They don't have to like me, I just want them to trust me" is misframed.** This line is the last piece of evidence offered for Type 6. Kyle Buchanan actually asked how she wants *her career* to be seen. She also uses "trust" elsewhere to mean audiences trusting her work: "have the audience's trust" to Variety, "trust that I have that capability" to Nylon. That makes it a credibility statement, which supports the Type 3 rival as much as Type 6. The quote also has no source link in the article.
+- **The Type 3 evidence leaves out what the same answers say.** Right after "I really want to prove myself," she says she went to set resolved: "I don't want to care about the way that other people are thinking of me." The playback story ends "it was nothing but ugly, and I loved it." "This is validation" refers to her choice to put the work first, not to wanting approval. She resolved not to care how she came across, yet her "biggest fear" was "am I doing a good job?" That contradiction is the best detail in her record, and the draft doesn't use it.
+
+**Minor findings (6):**
+- The "biggest fear" sentence is cut before its "because" clause. Splitting it into a Six half and a Three half creates a balance the source doesn't support.
+- The Type 7 quotes drop context. The draft calls her Superman & Lois cut a "liberation," but in the same answer she said "that was hard to hear cuz I miss everybody." Her "who cares?" audition line continues "send it or not go in at all," the same all-in move the draft scores as Six in 2021.
+- In 2021, "I'm careful with what I read" sits in a sentence that calls Twitter her favorite place for comments and says the feedback was positive. Without that, the earliest Type 6 evidence looks stronger than it is.
+- Type 9 is dismissed in one clause, but the article itself quotes lines like "protect my peace" and "I kind of fit in anywhere" that fit a Nine reading.
+- The "first public misstep" test reads as if no criticism has happened yet. She faced a wave of online scrutiny in September 2026, which research rightly kept out of the article.
+- About 63 minutes of her two longest interviews were never transcribed: Awards Chatter after 46:00 and Buchanan after 34:34. Claims like "she has not named a type" should be limited to what was actually heard.
+
+**Other notes:**
+- The similarity flag only caught shared type vocabulary ("whose core emotion is fear," "held loosely at low confidence"), not reused arguments.
+- I agree she qualifies for the open-case format.
+- The draft already runs over the open-case length target, so fixes should replace text rather than add to it.

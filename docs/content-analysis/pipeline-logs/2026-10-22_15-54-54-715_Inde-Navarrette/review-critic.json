@@ -1,0 +1,93 @@
+{
+	"schema_version": 3,
+	"role": "critic",
+	"content_sha256": "6dfd0319be559378c5583fbd5db625635d720678ecad1a315c87ed3ea96c7008",
+	"evidence_sha256": "d975784e4865bd66b486101cfcc70de6c05c6a611ffb29fdbe379089fdd06b35",
+	"risks": {
+		"sensitive_allegations": false,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": true
+	},
+	"findings": [
+		{
+			"id": "critic-01",
+			"severity": "major",
+			"passage": "Asked what she wants people to know about her, she ranked trust above liking:",
+			"problem": "The question on The Kyle Buchanan Show (2026-10-21, S42 0:00-0:13; small.en and base.en agree) was \"What is the light that you've always wished that Inde Navarrette would be seen in? ... What do you want people to know about this career that you're forging?\" That asks how she wants her career to be seen, not what people should know about her. Elsewhere she uses \"trust\" to mean audiences trusting her work. To Variety in July 2026 she says she wants to \"have the audience's trust,\" in the sentence just before the Oscar safety net (S10 ~28:45). To Nylon in July 2026: \"I want people to take that time to trust that I have that capability\" (S02). In context the line is a credibility statement, close to the \"taken seriously\" motive the article files under Three. Making it the closing exhibit of the Six case relies on the word \"trust,\" not its meaning. The evidence record's discriminator (\"she ranks trust above being liked\", C134) has the same problem. The quote also has no inline source link or date.",
+			"acceptance_test": "The article reports the question as Buchanan asked it (how she wants the career she is forging to be seen) and links the Kyle Buchanan Show with its date at the quote. The line either moves to the Three case or is weighed under both readings, with the Variety \"audience's trust\" and Nylon \"trust that I have that capability\" context. C134's inference and type_hypothesis.discriminator stop citing it as a Six lean, unless a source shows trust in the Six sense (relying on trusted others). The 60-word answer and FAQs remain consistent."
+		},
+		{
+			"id": "critic-02",
+			"severity": "major",
+			"passage": "Before _Obsession_, she says, she told her team, \"I really want to prove myself.\" When the result was received well, she thought, \"this is validation.\"",
+			"problem": "This section builds the Three case from Buchanan answers but leaves out what those answers turn on. Right after \"prove myself\" (S42 ~16:01-16:43; both transcripts agree) she says she went to set resolved: \"I don't want to care about the way that other people are thinking of me. I don't want to care if I'm coming across as any which way at all.\" She says showing up \"for the work\" was \"what matters most to me.\" \"This is validation\" (~17:21-17:31) validates that work-first choice; it is not approval she was seeking. The playback story leaves out that she pushed back on the director (\"fighting back on it... it's for the scene\"). The same answer ends: \"with Obsession, it was nothing but ugly, and I loved it\" (~19:51-19:55). The Awards Chatter line used in the Three case, \"make it last as long as humanly possible or throw it all away,\" continues: she wants to \"do everything humanly possible to look different\" (gain or lose weight, shave her head) (S40). These are the record's most direct statements against an appearance or approval motive, and they sit beside the quoted lines. Leaving them out makes the closest rival look stronger than the full answers support. It also loses the best unresolved contradiction in the record: she resolved not to care how she came across, yet her \"biggest fear\" on set was \"am I doing a good job?\"",
+			"acceptance_test": "The Three discussion quotes or closely paraphrases two lines: the \"I don't want to care about the way that other people are thinking of me\" resolution and \"nothing but ugly, and I loved it.\" Quotes use only wording both transcripts share. \"Validation\" appears in its actual context. The \"make it last\" quote carries its look-different continuation or is cut. Before the text concludes that Three \"stays close,\" it says how these lines bear on Three: an anti-image statement, or a prestige-transformation strategy a Three would also choose. Repairs replace existing sentences rather than lengthening the body."
+		},
+		{
+			"id": "critic-03",
+			"severity": "minor",
+			"passage": "That one sentence holds both readings. Discomfort at not knowing what others think is a Six's. Fear of the verdict on her work is a Three's.",
+			"problem": "The quoted sentence is cut before its explanation. Both transcripts (S42 ~23:07-23:21): \"it's really uncomfortable when you don't know what somebody else is thinking because you want to know either that you're doing a good job or that you're hitting that note or you're feeling that it's coming across in a certain way.\" She is describing playing silence in a scene. The discomfort is itself the worry about the verdict on her work. Splitting the sentence into a Six half and a Three half creates a balance the source does not show.",
+			"acceptance_test": "The article keeps the \"because you want to know... that you're doing a good job\" clause, or drops the half-and-half reading. Any remaining Six reading is framed as wanting an authority's reassurance about her work, with that limit stated."
+		},
+		{
+			"id": "critic-04",
+			"severity": "minor",
+			"passage": "By 2026, after a hit, the cut had become a liberation.",
+			"problem": "The Collider answer (S09 ~9:41-10:21) is less clean than \"liberation.\" In the same answer she says \"that was hard to hear cuz I miss everybody,\" and she grounds the blessing in a goal: \"I've always wanted to do film.\" The \"reframe Sevens are known for\" line rests on the trimmed version. The Seven case trims THR's \"who cares?\" (S35) the same way. The source continues \"You either have to send it or not go in at all,\" which is the all-in pact against doubt the article credits to Six in 2021 (\"I'm going to give it 110%... no room for doubt\"). The article scores one behavior for Seven in 2026 and for Six in 2021 without saying so.",
+			"acceptance_test": "The cut passage includes the \"hard to hear\" (missing everybody) point and the film-goal reason, and the Seven inference claims no more than that fuller answer supports. The \"who cares?\" quote carries \"You either have to send it or not go in at all,\" or the text notes that it echoes the 2021 pact. The FAQ's Type 7 answer is adjusted to match."
+		},
+		{
+			"id": "critic-05",
+			"severity": "minor",
+			"passage": "Of fans' comments on Twitter: \"I'm careful with what I read.\"",
+			"problem": "The full Sweety High passage (S36, 2021-03-28) reads: \"Twitter is my favorite for people's comments about the show. I'm careful with what I read but wonderfully all the feedback has been positive and filled with excitement.\" She was reading fan comments eagerly, with a hedge. Trimmed, the line reads as a defense set up in advance, and it is one of three pre-fame Six exhibits (C84, C158). That pre-fame material is the part of the case the article values most, because no campaign shaped it. The evidence record also counts the 2021 \"110%\" pact for Three (alternative_case cites C53), and the same Sweety High answer stresses self-trust (\"Never listen to people when they are advising you to give up... Believe in yourself\"). The pre-fame Six lean is thinner than \"That is the earliest Six material on record\" implies.",
+			"acceptance_test": "The quote or a paraphrase shows that Twitter was her \"favorite\" place for comments and that the feedback was positive. The \"earliest Six material\" sentence says the pre-fame lean rests on a few short lines, one of which (the pact) fits Three equally."
+		},
+		{
+			"id": "critic-06",
+			"severity": "minor",
+			"passage": "Nine and Eight were tested and set aside. She names her anxiety rather than numbing it,",
+			"problem": "Open cases must not treat alternatives as token. Nine is dismissed in one clause, yet the article quotes Nine-shaped lines: \"I kind of want to protect my peace,\" \"I kind of fit in anywhere,\" \"got really good at making myself comfortable anywhere,\" distraction as her 2021 way through doubt, and using Barker \"as a mirror where I put full trust in him.\" The evidence record's alternative for C23 names Type 9 merging. Naming anxiety does not discriminate, since Nines describe worry readily and Nine is a common lookalike for Six.",
+			"acceptance_test": "The Nine dismissal gives a sourced behavioral discriminator, in two or three sentences, that deals with \"protect my peace\" and the fit-in-anywhere lines. Otherwise Nine is added to the live alternatives in the body, the 60-word answer, the type FAQ and open_case.live_alternatives."
+		},
+		{
+			"id": "critic-07",
+			"severity": "minor",
+			"passage": "2. **Her first public misstep,** such as a sketch that lands badly when she hosts _Saturday Night Live_, or a run of real criticism.",
+			"problem": "The evidence record holds a September 2026 wave of online scrutiny (S56): criticism of a street interview, unverified screenshots, and a journalist's posts that he later deleted with an apology. Research rightly keeps the unverified material out. The signal's wording, though, implies she has not yet faced a misstep or a run of criticism, so the test reads as untouched. No opened source shows her answering that scrutiny on record, which is itself thin data. Leaving it unsaid makes the future test look cleaner than the present record.",
+			"acceptance_test": "Without repeating any allegation or naming the journalist, the signal notes that she has faced online scrutiny since September 2026 and that the interviews reviewed contain no on-record response. Alternatively, the wording no longer implies that no criticism has occurred (e.g. \"a public misstep\" instead of \"her first\"). Before either version stands, the unheard audio (Awards Chatter after 46:00, Kyle Buchanan Show after 34:34) is checked for a response."
+		},
+		{
+			"id": "critic-08",
+			"severity": "minor",
+			"passage": "As of October 2026, she has not publicly named an Enneagram type.",
+			"problem": "Several absence claims rest on sources heard only in part. Unreviewed: about 45 minutes of the 91-minute Awards Chatter audio (S41, after 46:00) and the last 18 minutes of the Kyle Buchanan Show (S42, after 34:34) (research_tasks; C90 inference). These are the two longest primary sources in the record. The same gap sits under \"No episode on record yet forces those motives apart\" and under the open case's premise that the record cannot separate Six from Three. I agree the subject is eligible for an open case: an adult whose first lead and breakout came in 2025-2026, with a short pre-fame record that research opened. Still, \"the record can't discriminate\" should not be asserted beyond what was actually heard.",
+			"acceptance_test": "Either the remaining S41/S42 audio is reviewed and these claims are confirmed or revised, or this sentence and the FAQ's \"As of October 2026 she has not named a type herself\" are limited to the interviews reviewed. research_tasks keeps the audio review as a dated task."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "Before _Obsession_ started shooting, Inde Navarrette told its writer-director, Curry Barker, two things.",
+			"reason": "A specific, sourced hook. It pairs two dated accounts (Collider, May 2026; Awards Chatter, October 2026) into the article's real open question without claiming to know her motive."
+		},
+		{
+			"passage": "The childhood can't settle the type. A Seven reading could claim the happy moves, a Six reading the lonely ones. Read together, they are a story about adapting.",
+			"reason": "It shows four conflicting self-accounts side by side and refuses the convenient childhood-cause story. That is exactly the honesty about adverse evidence this role tests for."
+		},
+		{
+			"passage": "And overriding a nervous director on day one is self-trust, which a picture of her leaning on others doesn't predict.",
+			"reason": "The draft confronts evidence against its own leading read at the point where it is strongest, instead of explaining it away."
+		},
+		{
+			"passage": "On the record so far, safety and image point the same way. What would separate Six from Three is a moment when they don't.",
+			"reason": "A precise statement of the missing discriminator. It makes the settle signals readable and keeps the open case honest."
+		},
+		{
+			"passage": "She has already named the test she wants.",
+			"reason": "A natural ending in her own words (Nylon, July 2026; the writer's \"She laughs\" supports \"She laughed\"). It ties the portrait to the settle signals without a CTA."
+		}
+	],
+	"assessment": "The draft is candid about its uncertainty, confronts the biggest fact against its lead (overriding Barker on day one), and its quotes are word-accurate against the transcripts. The weakness is context. Several thesis-bearing quotes stop where the source turns, and each cut pushes the quote toward the type it is filed under. The Six case's closing exhibit (\"they don't have to like me, I just want them to trust me\") answers a question about how she wants her career to be seen. Read with her other uses of \"trust\" (Variety, Nylon), it is a credibility statement. The Three exhibits (\"prove myself,\" \"validation,\" \"taken seriously\") come from answers built around \"I don't want to care about the way that other people are thinking of me\" and \"nothing but ugly, and I loved it.\" The Seven exhibits lose \"hard to hear\" and \"send it or not go in at all.\" Restoring that context should leave the case more genuinely open and more interesting. She resolved not to care how she came across, yet feared \"am I doing a good job?\", and that is the best detail the record has that the draft doesn't use. The similarity hits are shared type vocabulary in the triad primer and the open-case answer (\"whose core emotion is fear,\" \"held loosely at low confidence\"), not reused arguments; the argument and details are specific to her. On eligibility: an adult with a 2025-2026 breakout and a short pre-fame record that research opened, so she qualifies, though about 63 minutes of the two longest interviews are unheard. The body is already above the open-case target length, so repairs should replace text, not add it. Risks: contested_typing and major_thesis_change stay true. No sensitive allegation is imported: the playback director is unnamed, and the September 2026 backlash claims are correctly kept out."
+}

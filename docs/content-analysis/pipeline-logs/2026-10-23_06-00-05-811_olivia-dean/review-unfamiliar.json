@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "unfamiliar",
+  "content_sha256": "69c2236e370befa3b0cddcf690f533a651f577826563d0408bfa39473e2e7e3e",
+  "evidence_sha256": "ef18f9601d9f41063a0ad037584fe6b56339a51e83a40c2176c4df4b27696bf8",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "unfamiliar-01",
+      "severity": "major",
+      "passage": "Fear of danger would point to the head types, and anger to the gut types. Hers is a question of worth.",
+      "problem": "The first argument in the type section is an elimination by triad, but the article never tells a newcomer that the Enneagram has nine types sorted into three centres, which core emotion each centre carries, or which types sit in each. A reader who arrived from a search for her name cannot follow why \"cringe\" and \"too much\" rule out the head and gut types, cannot tell that Four is also a heart type when told \"Twos and Threes also share the heart triad\", and later meets \"security types\" with no gloss. The plain description of a Two (\"The Two's pattern runs in plain steps...\") arrives after this triad argument instead of before it, so the jargon comes first and the orientation second.",
+      "acceptance_test": "Before the triad argument, at most two plain sentences state that the nine types fall into three centres (heart 2/3/4 around shame and image, head 5/6/7 around fear, gut 8/9/1 around anger), and the plain Two description precedes the triad evidence. \"security types\" is glossed or replaced. A reader with no Enneagram knowledge can say, from the article alone, why her \"cringe\"/\"too much\" lines point away from Six and Eight and why they do not separate Two from Three."
+    },
+    {
+      "id": "unfamiliar-02",
+      "severity": "major",
+      "passage": "What separates them is what each protects when image and connection pull apart. A Three guards the look of success. A Two guards the relationship. Dean, more often than not, lets the look take the hit.",
+      "problem": "This is the hinge of the article, and it names a test the evidence never shows being run. Every example that follows (titling the debut Messy, \"wangled my way in\", the \"depressive state\", the LA sessions that \"went quite terribly\", charts as \"a dangerous game\", deleting the apps) shows the image taking a hit, but none shows a relationship being protected at the image's expense. The connection half is a back-reference to the champagne and Ticketmaster acts, which the article itself concedes cost her nothing and were image-positive (\"A Three could make the same move\"). One example even runs the other way: deleting the apps cut her off from fans' \"overwhelming\" love. An unfamiliar reader is told what would decide it, then shown two separate strands rather than a single moment where image and connection actually pulled apart.",
+      "acceptance_test": "Either (a) the section names at least one dated, sourced episode where protecting a person, the audience or a relationship visibly cost her image or standing, and says in one sentence how the two pulled apart in that episode; or (b) the discriminator is restated as what the record shows (she repeatedly lets the polished image take hits in public, while her stated purpose and observed acts point at other people), without claiming the image-versus-connection test was observed. Either way, the Messy line is explicitly tied to connection (being honest with listeners against \"perfect life\" posting) if it is used as connection evidence, and the deleted-apps example is either reconciled or moved to the independence section."
+    },
+    {
+      "id": "unfamiliar-03",
+      "severity": "minor",
+      "passage": "Olivia Dean's personality type is [Enneagram Type 2](/enneagram-corner/enneagram-type-2), known as the Helper.",
+      "problem": "The plain-language answer is the passage most readers (and search snippets) take away, and it states the type flatly. The medium confidence and the live Type 3 rival appear only four paragraphs later, and the FAQ and description both hedge (\"read at medium confidence\", \"reads as\"). A reader who stops after the answer leaves with more certainty than the article claims.",
+      "acceptance_test": "The answer paragraph directly under the H2 stays at 60 words or fewer, uses \"reads as\" / \"most likely\" or equivalent, states medium confidence and names Type 3 as the closest rival, matching the first FAQ answer."
+    },
+    {
+      "id": "unfamiliar-04",
+      "severity": "minor",
+      "passage": "The tour ended the way it went on sale. On October 17, 2026, at Western Springs Bowl in Auckland, the last night of the tour,",
+      "problem": "The tour is introduced only as \"her first North American arena tour\", and is never named. When the same tour then \"ended\" in Auckland, a newcomer cannot tell how a North American tour finishes in New Zealand, and the neat callback (\"ended the way it went on sale\") reads as a mistake. The evidence (S32, S36) shows it was one world tour, The Art of Loving Live, April to October 2026, with Europe, North America and Oceania legs.",
+      "acceptance_test": "The tour is named once (The Art of Loving Live), and the Ticketmaster passage makes clear the November 21, 2025 on-sale was for its North American leg, so the Auckland finale reads as the last night of the same tour."
+    },
+    {
+      "id": "unfamiliar-05",
+      "severity": "minor",
+      "passage": "Quotes from YouTube interviews follow the captions. Auto-captions were checked against a machine transcription of the audio, and where the two differ, only the shared words are quoted.",
+      "problem": "This process note sits between the stakes question (\"A giver's motive, or a gifted professional's polish?\") and the type heading, which is the point of highest momentum. A newcomer has no context for why caption checking matters yet, so it reads as backstage bookkeeping interrupting the turn into the argument.",
+      "acceptance_test": "No method note sits between the stakes paragraph and the type H2. The caption-fidelity disclosure survives intact in \"What the record can't show yet\" or as a closing note."
+    },
+    {
+      "id": "unfamiliar-06",
+      "severity": "minor",
+      "passage": "And one answer from 2023 justifies kindness the way a Three would:",
+      "problem": "The \"I pride myself on being a good person...\" quote carries the strongest instrumental-kindness evidence for Three, but the passage names no outlet or interviewer, unlike every other quotation in the section. The evidence record (C17) places it in Time Out, October 2023 (S03). A reader cannot tell who she said it to or in what setting.",
+      "acceptance_test": "The passage names Time Out (with a link or the 2023 interview already introduced) at the quote, so the speaker, outlet and year are clear where the quote appears."
+    },
+    {
+      "id": "unfamiliar-07",
+      "severity": "minor",
+      "passage": "Dean's songs keep circling that cost, which comes up below.",
+      "problem": "The promise outruns the payoff. Below, a newcomer gets one couplet from \"Let Alone the One You Love\", a one-line mention of \"Loud\", and an unnamed lyric Zane Lowe paraphrased, then is told at the end that \"What the record holds instead is her songs and her own corrections.\" A reader who has not heard her music cannot check that her songs \"keep circling\" anything. The cost is also defined two ways: here as asking, receiving and saying what she wants, later as \"over-giving and resentment at going unthanked\". The line is an interpretive claim with no entry in the claim inventory.",
+      "acceptance_test": "Either at least two named songs are each given a dated, sourced sentence on what they argue (paraphrase is fine), or the line is narrowed to what is shown (one song plus her interview corrections). The Two's cost is defined once and the later limits section uses the same definition. The kept sentence is recorded as an interpretation claim in the evidence record."
+    },
+    {
+      "id": "unfamiliar-08",
+      "severity": "minor",
+      "passage": "Dean is a London singer-songwriter, born in 1999 and raised in Highams Park in east London.",
+      "problem": "The orientation paragraph lists awards and chart records but never says what her music sounds like or names the song most newcomers would recognise. \"Man I Need\" first appears in the Three section as a co-writing credit. bell hooks and the Mercury Prize go unexplained for readers outside the UK, and the Best New Artist sentence works mainly as a vehicle for internal links. A newcomer finishes the paragraph knowing she is successful but not what kind of artist she is.",
+      "acceptance_test": "The identity paragraph adds a few words on her sound (for example soul-pop) and names her breakout single. It glosses bell hooks (American writer and critic) and the Mercury Prize (UK album prize) in a few words each, with no more than one added sentence overall."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Then she found out it was Obell's birthday.",
+      "reason": "A one-line turn that makes the hook land: specific, sourced and observed rather than self-reported, and it sets up the central question without telling the reader what to think."
+    },
+    {
+      "passage": "The order is the detail. The apology to fans came first, the fight came second, and the fight was with companies her tours run through.",
+      "reason": "Turns a familiar celebrity-outrage story into personality evidence a newcomer can see for themselves, and the next paragraph immediately concedes the Three reading."
+    },
+    {
+      "passage": "A song for her grandmother felt selfish because it was not made for everyone else. Her default seems to be that songs belong to the listener.",
+      "reason": "The article's most original insight. It comes from her own word choice, is hedged with \"seems\", and is backed by the album-cover and florist details."
+    },
+    {
+      "passage": "Calling her boundary talk \"Two growth\" would make the theory impossible to lose. So it stays here as a tension the type does not resolve.",
+      "reason": "It refuses an unfalsifiable move in plain language a newcomer can follow, and it leaves a real contradiction standing, which makes the rest of the argument more credible."
+    },
+    {
+      "passage": "\"My friends care, but not more than I care about what they're doing. My life isn't more important than anyone else's life. It's just mine.\"",
+      "reason": "An ending in her own words that holds both halves of the portrait, the giving and the self-claiming, without a summary or CTA."
+    }
+  ],
+  "assessment": "Unfamiliar-reader pass. Orientation is mostly strong. The champagne scene is a specific, sourced hook; who she is arrives within about 200 words; and the stakes are stated plainly (\"A giver's motive, or a gifted professional's polish?\"). Momentum holds through the Ticketmaster and Auckland sequence, the Three section gives the rival real weight, and the \"selfish\" material is the most original thing a newcomer takes away. Ending in her own words works. Where a reader with no prior knowledge loses the thread: the type section opens with a triad elimination the article never explains (01); the Two-vs-Three hinge names a test, image versus connection, that no example actually shows (02); the 60-word answer drops the medium confidence and the rival (03); the unnamed tour makes the November on-sale and the Auckland finale read as two different tours (04); and a caption-method note interrupts the turn into the argument (05). Attribution density is high (about 50 told/said in about 3,400 words) but it is mostly required by the evidence standard. Where consecutive quotes share one interview, consolidate rather than strip attributions. Similarity advisory not tripped (max 0.125, against bill-clinton, on generic \"The Two's pattern\" phrasing; the dolly-parton pair shares only \"notice what someone else needs\"). That overlap is ordinary type vocabulary in one orientation paragraph, not a reused argument, so there is no similarity finding. Risks: contested_typing stays true (medium confidence, Three live, Six/Seven/Nine tested). sensitive_allegations stays true because the body prints her self-described depressive state and therapy, and the evidence record carries an unresolved lawsuit the body omits. Standard format, not argued as an open case. Hashes verified against the frozen draft and evidence."
+}

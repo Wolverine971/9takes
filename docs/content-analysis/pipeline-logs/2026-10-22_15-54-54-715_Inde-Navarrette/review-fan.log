@@ -1,0 +1,17 @@
+I wrote the fan review for the Inde Navarrette profile to `review-fan.json` in the run folder. It passes the review schema, every quoted passage matches the draft exactly, and the role and hashes are copied from the request. I didn't change any other files or publish anything.
+
+**Verdict:** the open-case framing holds up. The draft is honest about how thin her record is and doesn't flatter her. The problem a fan would notice is that several well-known stories are cut off right where they complicate the Type 6 read.
+
+**Major findings (4):**
+- **"Trust me" quote taken out of context.** Kyle Buchanan asked about the career she's building, not about her as a person. Her Nylon line, "trust that I have that capability," is the one sentence the draft's ending drops. Read in context, it's about being taken seriously, which supports the Type 3 rival rather than Type 6.
+- **Heat 2 left out.** In the same Buchanan interview she corrected a flattering rumor that she turned down Heat 2: she auditioned for two months and wasn't chosen. The research stage had logged this as evidence against Type 3, but the draft dropped it and then says no episode on record separates the two types.
+- **Superman & Lois exit trimmed.** The draft quotes "Dog, you're free" but not "that was hard to hear cuz I miss everybody" from the same answer. It also skips that she came back as a guest star for Season 4. Both weaken the Type 7 reading the draft builds on that quote.
+- **No mention of Rogue.** She was cast in Marvel's X-Men reboot, and two of the article's own cited links have "rogue" and "x-men" in their URLs. Separately, the "what would settle it" section talks about criticism as if she hasn't faced any yet. A September 2026 online pile-on did happen; the fix is to reword that signal without naming the backlash or its claims.
+
+**Minor findings (4):**
+- The audition story is used only in halves: "who cares?" supports Type 7, while W's account that she was sure she'd failed is left out.
+- The opening freakout story stops before its ending: by her account, Barker later said "she just needs privacy."
+- The childhood section leaves out the divorce she disclosed in September 2026 and her conflicting accounts of where she grew up.
+- The plot summary doesn't make clear that Bear made the wish, not Nikki.
+
+I opened six of the sources directly: two Hollywood Reporter pieces, Cinemablend, Nylon, W and Variety. YouTube blocked my requests (too-many-requests error), so the Buchanan, Collider and Complex quotes were checked only against the research notes. The similarity check flagged some shared wording with other profiles, but it's standard type vocabulary and the phrasing the open-case format requires, so I didn't raise it as a finding.

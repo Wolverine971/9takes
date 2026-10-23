@@ -1,18 +1,20 @@
 ---
-title: 'Inde Navarrette: Enneagram Type 6 Personality Analysis'
-meta_title: 'Inde Navarrette Enneagram Type 6: Safety Before the Scream'
+title: >-
+  Inde Navarrette, Obsession's Nikki: An Open Case, Leading Read Enneagram Type
+  6
+meta_title: 'Inde Navarrette Personality Type: Open Case, Leading Read Type 6'
 persona_title: The Horror Lead Who Had to Learn to Scream
 description: >-
-  Inde Navarrette didn't know how to scream when Obsession began. Her safety
-  nets, trusted guides and deleted streams suggest Enneagram Type 6, with 7 and
-  3 close behind.
+  Inde Navarrette told Obsession's director she didn't know how to scream, then
+  wouldn't rehearse her freakouts for him. Leading read: Type 6, nearly tied
+  with 3.
 author: DJ Wayne
-date: '2026-09-10'
+date: '2026-10-22'
 loc: 'https://9takes.com/personality-analysis/inde-navarrette'
-lastmod: '2026-09-10'
+lastmod: '2026-10-22'
 changefreq: monthly
 priority: '0.6'
-published: false
+published: true
 enneagram: '6'
 type:
   - movieStar
@@ -33,87 +35,102 @@ keywords:
   - Inde Navarrette Obsession
   - Inde Navarrette personality
   - Inde Navarrette Twitch
+  - Inde Navarrette Kyle Buchanan
 citations:
   - 'https://www.youtube.com/watch?v=zEB4C4SIAbY'
+  - >-
+    https://www.hollywoodreporter.com/movies/movie-news/obsession-star-inde-navarrette-marvel-rogue-awards-chatter-1236727817/
+  - 'https://www.youtube.com/watch?v=NNAgv-7qYIo'
+  - >-
+    https://www.hollywoodreporter.com/movies/movie-news/inde-navarrette-never-offered-heat-2-despite-rumors-1236737315/
   - 'https://www.youtube.com/watch?v=pnvlSfoB0Fw'
+  - 'https://www.youtube.com/watch?v=IUAsUy_aKR8'
   - 'https://www.youtube.com/watch?v=T1hlZg2YyjU'
-  - 'https://www.youtube.com/watch?v=mlwD5SdMM7I'
   - 'https://www.youtube.com/watch?v=IFUny5cZAdk'
-  - 'https://www.youtube.com/watch?v=1CvhgXByrtM'
+  - 'https://www.youtube.com/watch?v=Op0b77nTmTg'
+  - >-
+    https://www.wmagazine.com/culture/inde-navarrette-cover-obsession-interview-photos
+  - >-
+    https://www.hollywoodreporter.com/movies/movie-features/obsession-ending-inde-navarrette-explained-twist-interview-1236597250/
   - >-
     https://www.nylon.com/entertainment/inde-navarrette-encounter-obsession-interview
+  - 'https://schonmagazine.com/interview-inde-navarrette/'
   - >-
-    https://www.complex.com/pop-culture/a/alex-ocho/inde-navarrette-obsession-acting-drought-streaming
-  - >-
-    https://www.nme.com/news/film/inde-navarrette-couldnt-get-a-job-for-one-and-a-half-years-after-obsession-wrapped-3953098
-  - >-
-    https://www.yahoo.com/entertainment/tv/articles/inde-navarrette-breakout-moment-finally-120000537.html
-  - >-
-    https://www.numeronetherlands.com/in-conversation-with/in-conversation-with-inde-navarrette
-  - 'https://www.mixedfeelings.earth/p/inde-navarrette-interview-obsession'
+    https://www.justjared.com/2026/05/24/inde-navarrette-avoiding-social-media-obsession/
   - 'https://www.cbr.com/superman-lois-inde-navarrette-sarah-cushing-interview/'
   - >-
-    https://www.justjaredjr.com/2023/04/07/inde-navarrette-talks-end-of-superman-lois-season-3-and-possibility-of-season-4/
+    https://www.sweetyhigh.com/read/inde-navarrette-superman-lois-interview-032821
   - >-
-    https://www.kryptonsite.com/superman-lois-full-interview-with-inde-navarrette-sarah/
-  - 'https://moveablefest.com/curry-barker-obsession/'
+    https://www.looper.com/783590/inde-navarrette-on-the-superman-lois-cast-honoring-culture-and-sarahs-mental-health-exclusive-interview/
+  - >-
+    https://www.cinemablend.com/superheroes/superman/superman-and-lois-cut-lead-inde-navarrette-sarah-cortez-season-4
+  - >-
+    https://www.hola.com/us/celebrities/20260611906877/inde-navarrette-real-name-things-you-didnt-know/
+  - >-
+    https://variety.com/2026/film/awards/obsession-inde-navarrette-oscar-campaign-lead-actress-1236848866/
   - >-
     https://www.nbcnews.com/pop-culture/pop-culture-news/obsession-curry-barker-box-office-hit-focus-features-rcna346824
   - 'https://www.the-numbers.com/movie/Obsession-(2026)'
+  - >-
+    https://variety.com/2026/film/news/inde-navarrette-hosting-snl-x-men-stunt-training-1236916105/
   - 'https://en.wikipedia.org/wiki/Obsession_(2025_film)'
+  - >-
+    https://press.oscars.org/news/academy-and-abc-announce-show-dates-99th-and-100th-oscarsr
   - 'https://en.wikipedia.org/wiki/Inde_Navarrette'
 faqs:
   - question: What is Inde Navarrette's Enneagram type?
     answer: >-
-      Inde Navarrette looks most like an Enneagram Type 6, at medium confidence.
-      When a bad outcome is possible, she tends to secure against it first: she
-      leans on trusted guides such as director Curry Barker, sets rules for
-      herself in advance, or pulls back. Type 7 is the main alternative, with
-      Type 3 close behind. As of September 2026, she has not publicly named an
-      Enneagram type.
+      Leading read: Enneagram Type 6, at low confidence and nearly tied with
+      Type 3; Types 7 and 4 are also live. Six leads on timing: she names a fear
+      and secures against it before anything happens. Three is close on content:
+      what she fears is mostly a verdict on her work. Her young record can't yet
+      separate them. As of October 2026, she has not named a type herself in any
+      interview reviewed here.
     anchor: what-is-inde-navarrettes-personality-type
-  - question: Could Inde Navarrette be an Enneagram Type 7?
-    answer: >-
-      Yes. Type 7 is the strongest alternative. She went skydiving and got
-      pierced on her 18th birthday, says she loves random tattoos, told Variety
-      she liked moving around a lot as a kid, and called losing her Superman &
-      Lois regular role freedom. The Six reading still leads, narrowly, because
-      the high she describes comes after facing a feared responsibility, and
-      because she deleted many of her own Twitch streams out of worry about not
-      being taken seriously.
-    anchor: the-case-for-type-7-and-where-it-breaks
   - question: Could Inde Navarrette be an Enneagram Type 3?
     answer: >-
-      Possibly. Her record is full of achievement and credibility language: a
-      110% pact before auditions, wanting to prove Obsession 'wasn't just
-      lightning in a bottle,' and calling awards talk 'extremely validating.'
-      The Six reading leans ahead without settling it: in 2021 she named doubt
-      as the enemy, and her first move with Obsession's director was to admit
-      what she could not do. Type 3 remains a live second alternative.
-    anchor: type-3-and-the-other-rivals
+      Yes. Type 3 is the closest rival, nearly tied with the leading read. On
+      The Kyle Buchanan Show in October 2026 she said she wanted a role where
+      she 'could be taken seriously' and told her team 'I really want to prove
+      myself'; she told Variety she deleted old Twitch streams for fear people
+      would not take her seriously; and her Oscar safety net protects the
+      verdict that she did 'a good job.' Six stays narrowly ahead on timing: she
+      secures against outcomes before they arrive, including in ways that are
+      not about a verdict on her work.
+    anchor: closest-rival-type-3
+  - question: Could Inde Navarrette be an Enneagram Type 7?
+    answer: >-
+      It's possible. She told Sweety High in 2021 that she loves skydiving; she
+      went skydiving and got pierced on her 18th birthday; and she went into an
+      Obsession audition thinking 'who cares?' But her next sentence there was
+      'You either have to send it or not go in at all,' a push past doubt. The
+      high she describes chasing starts with something she is scared to get
+      wrong, and she gave up streams she loved to head off a judgment, a trade
+      that points to Three as much as Six.
+    anchor: also-live-type-7
+  - question: What would settle Inde Navarrette's Enneagram type?
+    answer: >-
+      As of October 22, 2026: how she answers the Academy Award nominations on
+      January 21, 2027, whether she is nominated or passed over; how she answers
+      public criticism on record, including any of the Saturday Night Live
+      episode she was booked to host on October 31, 2026; a career choice where
+      safety and prestige pull apart (taking Rogue doesn't, since it is both);
+      and testimony from people who knew her before fame.
+    anchor: what-would-settle-it
   - question: Why did Inde Navarrette delete her Twitch streams?
     answer: >-
       She told Variety in July 2026 that she deleted many of her streams as she
       moved into a new chapter of her life, afraid people would not take her
-      seriously. She admitted the fear was 'not based on fact' and, after fans
-      reposted old clips, said 'my fear was for nothing.' She has not said when
-      she deleted them.
+      seriously. She first said she deleted all of them, then corrected herself:
+      'I deleted a lot of them.' She admitted the fear had no basis and, after
+      fans reposted old clips, said 'my fear was for nothing.' As of October
+      2026, no interview reviewed here dates the deletion.
     anchor: the-streams-she-deleted
-  - question: How did Inde Navarrette get cast in Obsession?
-    answer: >-
-      She had already made Trap House with Capstone, the company that funded
-      Obsession, and she told Cosmopolitan the company wanted to see her in the
-      film. She still had to audition. After a self-tape, a Zoom callback went
-      so badly she called it 'the worst audition I had ever done.' Given a third
-      chance at a chemistry read, she committed fully and won the role of Nikki.
-      Director Curry Barker said casting was hard because few actors could
-      handle both the natural and the scary material, 'and Inde just nailed it.'
-    anchor: the-worst-audition-she-had-ever-done
 production_pretext:
-  status: draft
-  handoff_from: blog_draft_people_v3
-  reviewed: false
-  ready_for_production: false
+  status: ready
+  handoff_from: blog_pipeline_v3
+  reviewed: true
+  ready_for_production: true
   sync_mode: full
   requires:
     - db_sync
@@ -121,129 +138,139 @@ production_pretext:
     - regenerate_famous_types
     - image_check
   blockers: []
+path: src/blog/people/drafts/Inde-Navarrette.md
 editorial_workflow:
   version: 3
-  run_dir: docs/content-analysis/pipeline-logs/2026-09-11_01-33-50-735_Inde-Navarrette
+  run_dir: docs/content-analysis/pipeline-logs/2026-10-22_15-54-54-715_Inde-Navarrette
 content_quality:
   evidence: 8.5
-  enneagram: 7.5
-  originality: 8.5
-  writing: 7.5
-  durability: 8.5
-  hook: 8.5
-  discoverability: 8.5
-  overall: 8.1
+  enneagram: 8.2
+  originality: 8.6
+  writing: 7.8
+  durability: 8.3
+  hook: 8.8
+  discoverability: 7.8
+  overall: 8.3
   letter: B
   rubric_version: 3
-  graded_at: '2026-09-11'
+  graded_at: '2026-10-22'
   caps_applied: []
-  needs_review: true
-  content_sha256: 1b3dba3e523947efca8f14917aeaf526800088a1b558319d21f4002aa152bbb5
-path: src/blog/people/drafts/Inde-Navarrette.md
+  needs_review: false
+  content_sha256: b0e24e3a1ab85fbc1e6101924b62f324ab095ad167b52f685212c5362d17bce5
+  profile_format: open_case
 ---
 
-Inde Navarrette went into _Obsession_, the horror film that made her famous, not knowing how to scream. She told Collider's Perri Nemiroff that when she first met writer-director Curry Barker and the team, "I was in a really shy place in my life." So she told Barker exactly that: "I said, 'I don't know how to scream, and I'm feeling very shy.'" ([Collider Ladies Night, May 16, 2026](https://www.youtube.com/watch?v=zEB4C4SIAbY))
+Before _Obsession_ started shooting, Inde Navarrette told its writer-director, Curry Barker, two things.
 
-By her account, Barker answered with a schedule. He booked days where it was just the two of them, and only once she was comfortable would she scream in front of anyone else. He screamed alongside her: "he would scream with me. And then he would stop and then I would stop. And he was like, 'No, what are you doing? Come on, go go go go on.'" There was also a game of charades, which she said "created a really safe space." The plan was Barker's, and warming up a nervous lead is ordinary directing, so the story shows his method as much as her motive. Her part was to say the fear out loud and trust the plan.
+The first was a confession. "I said, 'I don't know how to scream, and I'm feeling very shy,'" she told [Collider's Perri Nemiroff](https://www.youtube.com/watch?v=zEB4C4SIAbY) in May 2026.
 
-_Obsession_ cost between $750,000 and $1 million to make, depending on the report ([NBC News, May 25, 2026](https://www.nbcnews.com/pop-culture/pop-culture-news/obsession-curry-barker-box-office-hit-focus-features-rcna346824); [The Numbers](https://www.the-numbers.com/movie/Obsession-%282026%29)), and had grossed more than $500 million worldwide by September 9, 2026. The scream sessions show an order that recurs in her record. She names the fear. She secures against it, through someone she trusts or a rule she sets herself. Only then does she move, and the move is sometimes all-out commitment and sometimes a retreat. That safety-first order is the core of the argument for Enneagram Type 6, the type organized around security and trust. It is also where the argument meets resistance, because the same woman told Jimmy Kimmel she went skydiving on her 18th birthday.
+The second was a refusal. "I'm really sorry, but I'm not going to show you any of the freakouts in rehearsal," she remembers telling him, on The Hollywood Reporter's [_Awards Chatter_ podcast](https://www.hollywoodreporter.com/movies/movie-news/obsession-star-inde-navarrette-marvel-rogue-awards-chatter-1236727817/), released in October 2026. "And I think I saw him die."
+
+In _Obsession_, her co-worker Bear (Michael Johnston) wishes on a supernatural toy that his friend Nikki, her character, will fall in love with him, and she becomes obsessed ([Wikipedia](https://en.wikipedia.org/wiki/Obsession_%282025_film%29)). The freakouts are Nikki's sudden fits. In the first one filmed, which she called one of the film's first jump scares, Nikki breaks off a kiss and lurches backward, she told [GoldDerby](https://www.youtube.com/watch?v=T1hlZg2YyjU).
+
+The film made her famous. Made for between $750,000 and $1 million, depending on the report ([NBC News](https://www.nbcnews.com/pop-culture/pop-culture-news/obsession-curry-barker-box-office-hit-focus-features-rcna346824)), it opened in U.S. theaters on May 15, 2026, and had grossed more than $520 million worldwide by October 22, 2026, according to [The Numbers](https://www.the-numbers.com/movie/Obsession-%282026%29). In August 2026, Marvel named her as Rogue in its _X-Men_ film, due May 5, 2028 ([THR](https://www.hollywoodreporter.com/movies/movie-news/inde-navarrette-never-offered-heat-2-despite-rumors-1236737315/)), and on September 2, 2026, [Variety](https://variety.com/2026/film/awards/obsession-inde-navarrette-oscar-campaign-lead-actress-1236848866/) reported that Focus Features would campaign her for Best Actress at the Oscars.
+
+The two things she told Barker are the puzzle of her public record. The confession names a fear and hands it to someone she trusts. The refusal protects something, and she has explained it two ways: to keep the performance true, and to avoid being judged too early. Is she guarding her safety, or the impression that she can do the job? Her record, nearly all of it from a press and awards campaign that began in May 2026, can't yet answer that. So this is an open case.
 
 ## What is Inde Navarrette's personality type?
 
-Inde Navarrette fits Enneagram Type 6 best, at medium confidence. The key clue is how she handles bad outcomes that have not happened yet: she secures against them first, by leaning on someone she trusts, setting a rule in advance or pulling back. Type 7 is the main alternative, with Type 3 close behind.
+Leading read: Enneagram Type 6, at low confidence and nearly tied with Type 3; Types 7 and 4 are also live. Six leads on timing: she names a fear and secures against it before anything happens. Three is close on content: what she fears is mostly a verdict on her work. Her young record can't yet separate them.
 
-Navarrette says she has been "so sensitive" her whole life, "especially towards horror movies," and that "something that [_Obsession_] has done for me is heal that" ([Variety's Up Next, July 31, 2026](https://www.youtube.com/watch?v=pnvlSfoB0Fw)). Taking the horror lead is weaker evidence of a [Six](/enneagram-corner/enneagram-type-6) walking toward fear than it looks. The part came after she lost her series-regular role, she told Numero Netherlands she "really wanted to transition into film," and the film's financier already backed her. The stronger evidence is what she did with the fear once cast.
+When she got the part, after a second audition she was sure she had blown, "my heart sank to my butt. I realized I had to work on my anxiety," she told [W](https://www.wmagazine.com/culture/inde-navarrette-cover-obsession-interview-photos) in October 2026. Fear first, then a resolve to work on it: that is how a [Type 6](/enneagram-corner/enneagram-type-6) looks for solid ground. But most of the fears she names are about being judged, the ground of [Type 3](/enneagram-corner/enneagram-type-3), who needs to be seen to succeed. So even her triad is open. Six and [Type 7](/enneagram-corner/enneagram-type-7) are head types, organized around fear; Three and [Type 4](/enneagram-corner/enneagram-type-4) are heart types, organized around shame; and much of what she calls fear is fear of judgment.
 
-The limits are real. Most of this evidence is her own account, given largely in interviews between May and September 2026 while she promoted a film about a woman who loses control of herself. Promotion rewards a humble, fearless story. The reading below treats her statements as evidence of what she says and does, which is not proof of what she feels. As of September 2026, she has not publicly named an Enneagram type.
+Almost all of this is her own account; it shows what she says and does, not what she feels. As of October 2026, she has not publicly named an Enneagram type in any interview reviewed for this profile.
 
-## "Mommy, I do"
+## A childhood told four ways
 
-Navarrette was born Danielle Fabiola Navarrette in 2001; profiles place her birth in Tucson, Arizona ([HOLA! USA, June 11, 2026](https://www.hola.com/us/celebrities/20260611906877/inde-navarrette-real-name-things-you-didnt-know/); [South China Morning Post, May 19, 2026](https://www.scmp.com/magazines/style/people/celebrities/article/3354079/meet-inde-navarrette-who-plays-nikki-curry-barkers-hit-horror-film-obsession)). "My dad's a Marine, so I grew up moving around a lot," she told Variety. Her parents divorced, and she says her mother raised the children mostly in California's Central Valley, around Fresno, Visalia and Bakersfield.
+She was born Danielle Fabiola Navarrette in 2001; profiles place her birth in Tucson, Arizona ([HOLA! USA](https://www.hola.com/us/celebrities/20260611906877/inde-navarrette-real-name-things-you-didnt-know/)). "My dad's a Marine, so I grew up moving around a lot," she told [Variety](https://www.youtube.com/watch?v=pnvlSfoB0Fw) in July 2026. She has described those years at least four ways:
 
-A Six story would be easier to tell if the moving had hurt. In her Variety telling, it didn't. Other military kids she knew hated leaving their friends. "Me, I was like new story, new place." As she got older, she added, she came to appreciate "a small town mentality," and she still calls Visalia "homey." That is a genuine point for the Type 7 reading.
+- **Fun**, to Variety. Other military kids she knew hated leaving their friends. "Me, I was like new story, new place."
+- **Lonely**, to [Complex News](https://www.youtube.com/watch?v=IUAsUy_aKR8) in June 2026. Asked whether she kept friends, she said no: "making friends was always really difficult for me."
+- **Adaptive**, to [Schön!](https://schonmagazine.com/interview-inde-navarrette/) in May 2026: "I went to 11 different schools and got really good at making myself comfortable anywhere."
+- **Mixed**, to Kyle Buchanan on his video podcast, [_The Kyle Buchanan Show_](https://www.youtube.com/watch?v=NNAgv-7qYIo), in October 2026: "I'm a little jealous sometimes of people that had... one city, one state that they lived in, but simultaneously not, because I feel like I kind of fit in anywhere."
 
-The nickname is her own origin story. Asked by the Substack _mixed feelings_ for a childhood anecdote, she said: "I would always say, 'Mommy, I do.' That's how I got my nickname, Inde, because I was very independent." Her mother, a hairstylist, offered to do her hair, blow her bubbles, help her dress. "Nope. Mommy, I do." ([mixed feelings, June 18, 2026](https://www.mixedfeelings.earth/p/inde-navarrette-interview-obsession))
+The childhood can't settle the type. A Seven reading could claim the happy moves, a Six reading the lonely ones. Read together, they are a story about adapting.
 
-Toddlers of every type insist on doing it themselves, so the anecdote proves little on its own. What matters more is that her later independence was built with a partner. In 2021, years before fame, she told CBR: "I created this mindset with my mom when I was 13 about going into auditions." The rule was that "if we don't get something, that's not what we're supposed to do." The two would make a whole day of each audition, so a bad one faded by the time they got home. Once she could drive herself, that buffer was gone, and she replaced it with a rule of her own: "I needed to kind of make a pact with myself of, 'You know what? I'm going to give it 110%.' That way, whenever I leave, there's no room for doubt, because doubt can really just weed its way in." ([CBR, March 15, 2021](https://www.cbr.com/superman-lois-inde-navarrette-sarah-cushing-interview/)) Doubt is the named enemy, and the defense is a structure set up in advance. Five years later she credited her mother with a second lesson that pulls the other way: "my mom really instilled in me to... not take no until no's a for sure" (Collider). One rule accepts a no as a sign; the other refuses it until it is final.
+## "No room for doubt"
 
-She has wanted to act since she was very small, after watching Russell Crowe in _Gladiator_. Yet she would not act in front of her own parents. She and a cousin did dance battles for the family, she told Variety, but "I would never act in front of them. That to me felt like I would rather jump off of a bridge."
+The pre-fame record is thin, short interviews from _13 Reasons Why_ (2020) and The CW's _Superman & Lois_ (from 2021), but nobody was campaigning for an Oscar yet. She had already paid to be there, leaving high school early, she told Variety, "to work at a coffee shop because headshots were really expensive and my mom couldn't afford them." In March 2021 she told [CBR](https://www.cbr.com/superman-lois-inde-navarrette-sarah-cushing-interview/) how she handled auditions once she drove herself, without her mother along to turn each one into a day out:
 
-Privacy is the most durable trait in the record. In 2021 she told CBR, "I feel as though my stuff is my own and I'm very private about that." In 2026 she told Nylon, "I'm a very private person." ([Nylon, July 1, 2026](https://www.nylon.com/entertainment/inde-navarrette-encounter-obsession-interview)) Asked about strangers filming her in public, she described a deliberate narrowing of attention: "I kind of put it as like it's none of my business." (Variety) She has described acting itself, borrowing an idea she credits to the actor Milly Alcock, as "a place to hide and to be another person." Privacy is common to several types and simply sensible for someone who became famous at 25, so it supports the portrait more than the type.
+> "I needed to kind of make a pact with myself of, 'You know what? I'm going to give it 110%.' That way, whenever I leave, there's no room for doubt, because doubt can really just weed its way in."
 
-The acting goal came at a price. "I left high school early to work at a coffee shop because headshots were really expensive and my mom couldn't afford them," she said. Her father, she says, "really really loves to push education."
+That month she told [Sweety High](https://www.sweetyhigh.com/read/inde-navarrette-superman-lois-interview-032821) readers to "work through the hole of doubt" with "a distraction—such as drawing for me—or talking to someone." Twitter was her "favorite" place for fan comments: "I'm careful with what I read but wonderfully all the feedback has been positive." In 2022 she told [Looper](https://www.looper.com/783590/inde-navarrette-on-the-superman-lois-cast-honoring-culture-and-sarahs-mental-health-exclusive-interview/) that Emmanuelle Chriqui, who played her character's mother, was "able to look down and guide me in different ways."
 
-## _Superman & Lois_ as college
+Doubt is the named enemy, and the defenses are set in advance or found in someone older. That is Six-shaped but thin, and the pact cuts both ways: giving everything so there is "no room for doubt" protects her own verdict on her work, much like the Oscar safety net she would describe in 2026. Sweety High also has the earliest Seven line: "I love skydiving but unfortunately can't go anymore because of COVID."
 
-After a supporting role in the final season of _13 Reasons Why_ in 2020, Navarrette joined The CW's _Superman & Lois_ in 2021 as Sarah Cushing ([Wikipedia](https://en.wikipedia.org/wiki/Inde_Navarrette)), a character later coverage calls Sarah Cortez. With her father's emphasis on schooling in mind, she said, "I treated it like college." When she was hit by a car during production and couldn't walk between takes, she sat beside the directors of photography, who "always scared me," and started asking about lenses. "So even though I didn't have the opportunity to go to college I felt like I did." (Variety)
+In June 2023, budget cuts ended her run as a series regular, along with several castmates ([Wikipedia](https://en.wikipedia.org/wiki/Inde_Navarrette)). A month later, in TikTok replies quoted by [Cinemablend](https://www.cinemablend.com/superheroes/superman/superman-and-lois-cut-lead-inde-navarrette-sarah-cortez-season-4), she said she would return as a guest star, and her reaction was plain: "But, at least you guys get a Season 4." By 2026, after a hit, the cut had become a liberation. "I've always wanted to do film," she told Collider, and "as soon as they were kind of like, 'Dog, you're free.' I was like, 'Dude.'" That turn toward freedom is the kind of reframe Sevens are known for, but it came in hindsight. And in the same answer she said "that was hard to hear," because she missed the cast.
 
-The 2021 CBR interview holds the earliest detailed account of how she handles pressure. At her final screen test, surrounded by the other finalists, she felt "so uncomfortable" with the competition, so she brought a zodiac book and wrote out the signs "from Aries all the way to Pisces." She kept to herself on purpose: "I wasn't talking to these girls, because I knew once I did, I would just want to be their friends." She called the approach "survival mode": "going in, getting it done, and then leaving and letting it go."
+## "You look beautiful, you're fine"
 
-The show also taught her how little in the business is certain. In a podcast interview released in April 2023, with renewal in doubt, she said that even a public statement from DC's James Gunn did not settle it for her. Because of his tweet, she said, renewal looked like "a little bit of 50-50," and "it was almost as though that's a definitive, but it's interesting in our industry, it's not a definitive, so we still have to wait for that answer." ([_The Wayne Ayers Podcast_, as reported by Just Jared Jr., April 7, 2023](https://www.justjaredjr.com/2023/04/07/inde-navarrette-talks-end-of-superman-lois-season-3-and-possibility-of-season-4/)) The caution was ordinary industry realism, and it proved right: in June 2023, budget cuts ended her run as a series regular, along with several castmates ([Wikipedia](https://en.wikipedia.org/wiki/Inde_Navarrette)).
+On the first episode of _The Kyle Buchanan Show_, posted October 21, 2026, she said she once asked a director on an earlier show for playback, to get inside an intimate scene despite the crowd on set. "And he goes, you look beautiful, you're fine." She did not name him or the show. He heard vanity; she kept "fighting back on it": "it's for the scene." Afterward she was "more careful with my words," rewording requests ("if that's the way that they saw me, then yeah, it's just for my hair") so that "as an actor, I can get what I need."
 
-Three years on, after _Obsession_ had succeeded, she described the loss in bright terms. "Honestly, I kind of felt like it was a blessing, not necessarily in disguise, but kind of just right in front of my face," she told Collider. Then: "As soon as they were kind of like, 'Dog, you're free.' I was like, 'Dude.'" She added that "that was hard to hear cuz I miss everybody," and put the exit in her own college terms: "I got freedom. And it was again, to treat it like college, like I graduated." That quick turn toward freedom is the kind of reframe Type 7 is known for, and it counts for the alternative. It is also hindsight; her reaction at the time could not be checked for this profile. And the freedom was freedom to chase film, which she says she had always wanted; a month later she told Cosmopolitan that "as disappointed and sad as it was to not be able to go back as a series regular," it was "divine timing." ([Cosmopolitan, June 24, 2026](https://www.yahoo.com/entertainment/tv/articles/inde-navarrette-breakout-moment-finally-120000537.html))
+She "really, really wanted to hunker down and play a role" that would show she knew what she was doing and understood "the human emotion behind it." Then, she said, "I could be taken seriously in a different route." The route led away from "oh, you look pretty." _Obsession_ "was nothing but ugly," she said. "And I loved it."
 
-## The worst audition she had ever done
+She had used almost the same words about her streams. During a year and a half without acting work after _Obsession_, she streamed video games for money, she told [Nylon](https://www.nylon.com/entertainment/inde-navarrette-encounter-obsession-interview). Moving into what she called "a new chapter of my life," she deleted many of the Twitch streams. "I deleted all of them," she began in Variety's _Up Next_ video interview, then corrected herself: "I just panicked and I deleted a lot of them." She feared people would see her old streaming self "and now they don't take me seriously," a fear she admitted had no basis. After fans reposted the clips anyway, she said, "my fear was for nothing."
 
-_Obsession_, written and directed by Barker, follows Bear (Michael Johnston), a shy music-store employee who buys a supernatural toy that grants his wish for his friend and co-worker Nikki (Navarrette) to fall in love with him, and she becomes obsessed ([Wikipedia](https://en.wikipedia.org/wiki/Obsession_%282025_film%29)). Cooper Tomlinson plays their co-worker Ian. The film was shot in Los Angeles in October 2024, when Navarrette was 23, premiered at the Toronto International Film Festival on September 5, 2025, and opened in U.S. theaters on May 15, 2026. The record does not date her audition.
+Before _Obsession_, she says, she told her team, "I really want to prove myself." On set she resolved not to "care about the way that other people are thinking of me," which was hard, she said on _Awards Chatter_, "because I was a people pleaser at the time." When that approach was received well, she thought, "this is validation," though she later called it "self gratifying," proof that "your thoughts are correct."
 
-Part of her route in ran through people who already knew her. "If I hadn't had that disappointment, it wouldn't have led me to _Obsession_," she told Cosmopolitan. Elsewhere in the piece she explained: "I was allowed to do _Trap House_ with Capstone, which funded _Obsession_. They saw me and were like, 'If Inde is attached to this, we'd love to see her in that.'" That backing may help explain why a bad callback did not end her chances, though no source says so directly.
+The plainest reading of the playback story is situational: a young actor refusing to be valued for her looks. Wanting to be ugly on screen, and next to "do everything humanly possible to look different," as she told _Awards Chatter_, is an anti-image statement, though trading glamour for transformation is also a prestige move a Three would make.
 
-Casting still took an audition, and it began with a false start. Navarrette sent in a tape, got a Zoom callback, and "it was awful," she told Complex News in June 2026, as quoted by NME. "I think I was in a space personally where I was so shut off from my own emotions, and with Nikki, you need all of them." ([NME, June 25, 2026](https://www.nme.com/news/film/inde-navarrette-couldnt-get-a-job-for-one-and-a-half-years-after-obsession-wrapped-3953098)) On GoldDerby's podcast she called it "the worst audition I had ever done." ([GoldDerby, June 12, 2026](https://www.youtube.com/watch?v=T1hlZg2YyjU))
+She hedges about verdicts that haven't arrived. Asked about Oscar buzz in July 2026, she told Variety that "there's a part of my brain that is... just kind of having a safety net of if it doesn't happen, it doesn't mean that I didn't do a good job." A month earlier she told Complex News, "I'm very sensitive. So, I kind of want to protect my peace," meaning not getting "too excited about something that may or may not happen."
 
-She got a third shot, a chemistry read. "If I have this opportunity, I'm doing everything that I possibly can," she told Complex ([Complex, June 24, 2026](https://www.complex.com/pop-culture/a/alex-ocho/inde-navarrette-obsession-acting-drought-streaming)). In the room she locked eyes with Cooper Tomlinson, who would play Ian, and thought, "how can I make him utterly uncomfortable right now?" (Collider)
+## The freakouts she wouldn't rehearse
 
-Barker, speaking at the Toronto International Film Festival before anyone knew the film would be a hit, said actors could usually manage either the natural material or the frightening material, "and that was a journey to find someone that could nail both those worlds, and Inde just nailed it." ([Moveable Fest, September 6, 2025](https://moveablefest.com/curry-barker-obsession/)) This story has no safety step, only a shutdown followed by total commitment once the chance was clearly finite, and comeback-audition stories are a press-tour staple.
+Barker answered her confession with a plan, by her account: days alone with her until she was comfortable, and then "we're going to do it in front of other people." He screamed alongside her, and a game of charades "created a really safe space," she told Collider. The plan was his, and warming up a nervous lead is ordinary directing.
 
-## Borrowed certainty
+She held part of herself back from him anyway. The first day's shooting included one of Nikki's freakouts, and on _Awards Chatter_ she gave a craft reason for keeping them unrehearsed: "I really wanted to keep that safe before it needed to come out in order to play it true." She knew the cost to him. "I know Curry's nervous," she said, and refusing him felt like "really being a dick." By her account it worked: Barker now calls that first freakout a weight off his shoulders, proof that "she can do it" and "just needs privacy."
 
-On set, Navarrette guarded her preparation. "I just needed to keep her private. I've really kept Nikki close to my chest," she told GoldDerby. Johnston remembered it on _Hot Ones Versus_, recalling a moment from the film: "When you did the smile, 'I'm your freaky Nikki,' remember I was like, 'Show me what you're going to do.' And you were like, 'No.'" ([First We Feast, September 8, 2026](https://www.youtube.com/watch?v=mlwD5SdMM7I))
+On _The Kyle Buchanan Show_, Buchanan asked whether she had wanted to preserve the surprise, or whether something about it felt exposed. She took the word. Exposure, she said, "was something that I really wanted to avoid," because "I was a very sensitive person at the time." Being judged before she was ready "would have killed me and that would have killed Nikki." In the same answer she tied it back to craft and said she has gotten better about it.
 
-With Barker, she did the reverse. "I'm quite sensitive and so I didn't want to take anything home. So, I kind of used Curry as a mirror where I put full trust in him," she told GoldDerby. She would show him faces, he would adjust them, and "whenever I heard, you know, that's perfect. No, keep it going. Keep it, keep it. That I loved." When an interviewer's question turned on Barker's account of how a sequence came together, she said they had shot it two years earlier and deferred to him: "if that's what Curry said, then that's definitely what happened."
+What she gave Barker instead, she says, was questions, "as many questions as humanly possible and not caring if you're annoying," and for smaller moments she "used Curry as a mirror where I put full trust in him," she told GoldDerby.
 
-The physical work followed the same route. "Fun fact, I have a torn ACL," she told GoldDerby. When a scene called for Nikki to move backward, she tried and tried, coaching herself by her birth name: "Danielle, hold it together. You can do this." Then she took the problem to Barker, who asked, "Wait, what if you go forwards and we reverse it?" That is what ended up in the film.
+Her trust came in stages: questions first, privacy for the big moments, the director's eye for the small ones. And holding the freakouts back from a nervous director until the cameras rolled is self-trust, which a picture of her leaning on others doesn't predict. The one outside view quoted here is promotional: Barker told [CinemaBlend](https://www.youtube.com/watch?v=Op0b77nTmTg) in May 2026 that she brought "this like bro-y type of... sassiness to Nikki that I didn't anticipate."
 
-Spoilers for the ending follow. The script ended with Nikki's death; in the released film, she lives. Barker told an Alamo Drafthouse audience that Capstone wanted "a version where you live," and he planned a single throwaway take. "Her performance was so crazy with the... take where she lives, and so disturbing... that I had people basically talk me into it." ([Alamo Drafthouse Q&A, June 8, 2026](https://www.youtube.com/watch?v=1CvhgXByrtM)) Navarrette tells it differently. "We had an alternate ending where... Nikki kills herself," she told Collider. "And last minute we decided to change be like no she's a final girl she wouldn't do that she's going to sit with the grief." A final girl is the horror survivor who makes it to the end. She credited Barker's wish to stay with the character ("Curry was like no... we want to sit with her") and said nothing about her take persuading anyone. What she took from the day was "that quickness of flipping... allowing yourself in that exact moment to have that freedom," a line for the Seven column.
+As an actor, she told Buchanan, "it's really uncomfortable when you don't know what somebody else is thinking because you want to know either that you're doing a good job or that you're hitting that note." On _Obsession_, "that was my biggest fear of, oh shit, am I doing a good job?" The discomfort is itself about the verdict on her work, Three's ground or simply an actor's. She resolved not to care how she came across, and her biggest fear on that set was whether she was doing a good job.
 
-So the set stories split her certainty: she guarded her preparation from a co-star and handed final judgment on the performance to Barker. A young lead deferring to a writer-director on his own film is ordinary, and a [Type 9](/enneagram-corner/enneagram-type-9) reading could call it merging. What the Six reading adds is selectivity, full trust in one chosen authority while her choices stayed hidden from a scene partner, but that corroborates the reading more than it proves it. Her own advice to young actors, on the same GoldDerby podcast, points the other way: "be extremely stubborn... You have to really believe in yourself before other people will." That is a stated ideal, not a description of how she worked on this set.
+## Six, Three, Seven or Four: weighing the case
 
-## The streams she deleted
+### Leading read: Type 6
 
-After wrapping _Obsession_, Navarrette went about a year and a half without another acting job. "Between Obsession and the film after that, I didn't work. I was walking dogs. I was streaming. I was doing a lot of these things to make money," she told Nylon. "I didn't have a lot of confidence because you just keep hearing no, and that can be debilitating."
+The Six case rests on timing, not on what she fears. She secures before anything goes wrong: she deleted the streams before anyone judged them, built the Oscar net before the nominations, kept her hopes down. A Three can hedge in advance too, so what keeps Six narrowly ahead is a handful of securing moves that are not about a verdict on her work. As _Obsession_ broke out, she told People, as relayed by [Just Jared](https://www.justjared.com/2026/05/24/inde-navarrette-avoiding-social-media-obsession/), that she and her mother were limiting what she saw online because "I really want to make sure that I'm protecting myself first." "In order to keep myself secure," she told Variety, she turns to her drives, music and video games. When the rapper Big Sean messaged her, her first thought, she told Complex News, was "Oh, no," and she handed the phone to her boyfriend to read it first. (It was kind.) A fan "since like middle school," she may simply have been starstruck; the hand-off is the Six detail. She finds guides: Chriqui on _Superman & Lois_, Barker on _Obsession_.
 
-Complex reported that she built her own gaming PC in 2022 and started streaming because she loved watching creators like Jacksepticeye and Jenna Marbles, so by that account the streaming began before the drought. "I love playing video games by myself. I'm not getting any work. I know that other people do this," she told Variety. She liked the small audience, which she called "nice and like intimate."
+Against it, nearly all of this is self-report from a campaign that rewards candor about fear, and filtering social media is ordinary advice for anyone newly famous.
 
-Then she deleted many of the streams. Asked by Variety whether they were still on Twitch, she said, "I deleted all of them just cuz... I got scared." She explained the fear: "what if people saw that I switched and now they don't take me seriously." And she was candid that it was only a fear: "it's not based on fact, but... I just panicked and I deleted a lot of them." She tied the deletion to "moving into like a new chapter of my life" but did not say when it happened, and no source says whether anyone advised it.
+### Closest rival: Type 3
 
-Fans had clipped and reposted the streams anyway. "Now seeing that people are so lovingly holding on to it my fear was for nothing," she said, adding that she had loved streaming and that "it also just helped me out with like financials." The relief is not the whole story. A month earlier she told Nylon, "It took me a while to find my style online, which is why sometimes when people post old sh\*t of mine, I go, 'Oh my God.'" Nylon noted that old videos from her streamer channel have resurfaced, as they did for [Timothée Chalamet](/personality-analysis/timothee-chalamet) before her.
+The Three case is the content: wherever she says what is at stake, it is a verdict on her work. She wants people "to trust that I have that capability," she told Nylon, and she told Buchanan she picks projects to "gain audiences trust" and keep it.
 
-This episode helps separate Six from Seven, though not from Three. The bad outcome was hypothetical, and she acted before it arrived. The cost the record supports is modest: she gave up much of a record of something she loved. Nothing suggests it cost money, since the income came from streaming itself, and by June 2026 she had stopped: "I would still love to do it, but I don't have time," she told Complex. People also scrub an old online persona when they change careers, so the episode leans toward Six rather than proving it.
+Against it, she deflects attention. She calls herself "100 percent a cat" and told W, "I don't like to be seen unless I want to be seen." Her first move with Barker was to admit what she couldn't do. And when rumors said she had turned down Michael Mann's _Heat 2_, she told Buchanan the less flattering truth: "No, I was not offered Heat 2" ([THR](https://www.hollywoodreporter.com/movies/movie-news/inde-navarrette-never-offered-heat-2-despite-rumors-1236737315/), October 21, 2026). She had sent self-tapes asking, "What do you like? What do you not like?" Letting the rumor stand was the image play, though correcting it also spared her looking ungrateful to Mann. All of this comes from press, where a Three would also tilt humble, so Three stays close.
 
-Here the safe move was a retreat, not a step toward the threat, which is why this profile does not call her a [counterphobic Six](/enneagram-corner/enneagram-type-6#two-flavors-of-fear-phobic-vs-counterphobic), the kind that goes looking for danger. Most of her Six-like behavior is hedging. Her genuinely daring acts, like the birthday skydive, fit Type 7 at least as well.
+### Also live: Type 7
 
-She hedges the same way about awards. Asked about Oscar buzz in July 2026, months before any nominations, she told Variety that "there's a part of my brain that is... just kind of having a safety net of if it doesn't happen, it doesn't mean that I didn't do a good job." She did not pretend indifference. On GoldDerby she said she "would be lying to you if I said that that's not a dream and that isn't extremely validating." The net goes up before the outcome exists, though a Three would guard that verdict too.
+The Seven case is her appetite. "On my 18th birthday, I went skydiving," she told [_Jimmy Kimmel Live_](https://www.youtube.com/watch?v=IFUny5cZAdk) in June 2026, and she got pierced the same day. Going into an _Obsession_ audition, she told [THR](https://www.hollywoodreporter.com/movies/movie-features/obsession-ending-inde-navarrette-explained-twist-interview-1236597250/), she thought, "I'm going to have so much fun with this, because who cares?" Her next sentence, "You either have to send it or not go in at all," is an all-in pact like her 2021 one.
 
-## The case for Type 7, and where it breaks
+What strains it is where her high starts. "Whenever you're really scared of something, but you really want to do it justice and do it correctly and then you get that high of... accomplishing it and feeling proud of it," she told GoldDerby. The feared thing is a responsibility she might get wrong, not a sensation she wants, though the payoff, pride, is one a Three would claim too. And she gave up streams she loved to head off a judgment, a trade that points to Three as much as to Six. The skydiving stays unexplained.
 
-On _Jimmy Kimmel Live_ ([June 6, 2026](https://www.youtube.com/watch?v=IFUny5cZAdk)), with her mother and brothers in the audience, Navarrette announced, "On my 18th birthday, I went skydiving." Then: "I got my nipples pierced all in one day." She said she loves "getting random tattoos." Asked whether she started streaming with a career in mind, she told Variety, "I don't think that far ahead." She has described the split second in a good audition when she is "either getting too much in your head or feeling a high off of it," and when the high wins, it "feels like drugs," adding, "It's dopamine." Add the freedom reframe, the moves she says she enjoyed and a spread of enthusiasms from gaming to a wish to write and direct. On the [Type 7](/enneagram-corner/enneagram-type-7) reading, the fear talk is junket modesty and the Twitch purge was a one-off impulse.
+### Also live: Type 4
 
-The Seven case describes her energy well and her stated motives less well. Asked by GoldDerby what she wants to carry into her next role, she said: "Kind of chasing that high to challenge myself. I think obviously whenever you're really scared of something, but you really want to do it justice and do it correctly and then you get that high of... accomplishing it and feeling proud of it." She wants projects that "challenge me but also allow me to... feel proud," a way of thinking she credits to her parents. The pride half fits Type 3 as well. What leans toward Six is the entry condition. The thing she fears is a responsibility, doing a role justice and doing it correctly, not a sensation she wants to feel. The skydive can be read either way. The Twitch deletion, a retreat from something she enjoyed, is harder for the Seven reading to absorb.
+The Four case is her inner world and her insistence on being real. "I've always lived in my own little world since I was young," she told Buchanan, adding that films made her feel like "quite a dramatic child." She kept the freakouts back "in order to play it true." Asked what people should know about "this career that you're forging," she said:
 
-What the Six reading does not explain matters just as much. It struggles with the piercing on the same day as the skydive, with the "random" tattoos, and with "I don't think that far ahead," which cuts against the anticipation Sixes usually show. It does not explain the pleasure she described to Variety in her frequent childhood moves. Those stay in the unexplained column.
+> "I think I'd want people to know that they don't have to like me, I just want them to trust me."
 
-## Type 3 and the other rivals
+Trust her how, he asked. She doesn't want audiences to feel "I'm selling them something"; she wants them to know her work is "coming from me," like actresses who are "completely themselves," even if it means accepting "that I may not be liked." Three can claim the wish to be trusted, but the standard she names is authenticity. Against Four, she says she got "really good at making myself comfortable anywhere," and the horror community, she told Variety, "has been the most welcoming out of anyone that I've ever been a part of and I don't ever want to leave that."
 
-The rival that needs the most careful test is [Type 3](/enneagram-corner/enneagram-type-3), the type organized around achievement and image. Much of her record speaks its language: leaving high school early to pay for headshots, "survival mode" and a "110%" pact in 2021, the fear that people would not "take me seriously," and wanting to be "very discerning" with new projects because "I don't want to lose the audience's trust in me." She wants to prove _Obsession_ "wasn't just lightning in a bottle" and calls awards talk "extremely validating." As _Obsession_ broke out, Nylon reported, strangers began stopping her on the street and her Instagram following passed 2.2 million. Her response: "I don't care how much I'm not sleeping, because I don't know if I'll get this opportunity again." She followed it with a gym joke: "It reminds me of being in a SoulCycle class and all of the girls are like, 'Sleep when you're dead.'" That is cheerful hustle, and a Three reading claims it easily.
+### Set aside: Nine, Eight, Five and One
 
-Podcast candor cannot settle this one. The pre-fame record leans toward Six without deciding it. In 2021 the enemy she named was doubt, not failure or a bad impression. The 2023 Gunn remark adds little, since she partly credited his tweet and her caution was ordinary and proved right. The scream story, though told in 2026, leans the same way: her first move with a new director was to tell him what she could not do, not to project competence. None of this rules Three out. The Twitch fear is at least as much about image as about safety, so Type 3 stays a live second alternative.
+"Protect my peace" and "I kind of fit in anywhere" sound like a Nine. But the peace she protects is from hoping too hard, and where a Nine smooths over friction, she twice pressed a director: withholding the freakouts and "fighting back" over playback. She names her anxiety rather than numbing it. And she describes standing up for herself as something playing Nikki taught her: "I felt like that was something I needed to learn." An Eight would hardly need the lesson. Five (her privacy, her "own little world") and One ("do it correctly") have scraps but no repeated pattern on record.
 
-Her most emotional statements lean toward Type 4. Talking about films that show a person's "ugliness," she told Collider, "I felt seen, I felt heard," and that with the _Obsession_ script she thought, "I know exactly how to play this." Against a Four core: she hands her read of a character to the director, and she talks about belonging far more than about being different. The horror community, she told Variety, "has been the most welcoming out of anyone that I've ever been a part of and I don't ever want to leave that."
+## What would settle it
 
-Type 9 has a narrower case. "Artistically, I felt like a boiling pot that kept being taken off the stove right before boiling over," she told Numero Netherlands in May 2026 ([Numero Netherlands](https://www.numeronetherlands.com/in-conversation-with/in-conversation-with-inde-navarrette)), and she told Variety that playing Nikki taught her something: "Nikki stood up for herself in so many different ways... I felt like that was something I needed to learn." That fits a Nine finding her voice. It also fits a shy Six gaining nerve, and the public record cannot separate the two. The same line counts against a Type 8 reading of her tough exterior, the actor who told a _Superman & Lois_ castmate "you've got to slap me harder" during a slap scene ([KryptonSite, June 6, 2023](https://www.kryptonsite.com/superman-lois-full-interview-with-inde-navarrette-sarah/)). Eights seldom describe assertiveness as something they had to learn.
+On the record so far, safety and image point the same way. What would separate Six from Three is a moment when they don't.
 
-## Falling on her face, on purpose
+1. **The Oscar nominations,** due January 21, 2027, on the [Academy's schedule](https://press.oscars.org/news/academy-and-abc-announce-show-dates-99th-and-100th-oscarsr). Passed over, does she fall back on her net and her people (Six), move on to the next fun thing (Seven), or set out to overturn the verdict (Three)? Nominated, does she talk about pressure (Six) or proof (Three)?
+2. **How she answers public criticism on record,** of her _Saturday Night Live_ episode (booked for October 31, 2026, per [Variety](https://variety.com/2026/film/news/inde-navarrette-hosting-snl-x-men-stunt-training-1236916105/)) or anything else. Does she pull back and lean on trusted people (Six), laugh it off (Seven), repair her image (Three), or call it the price of being true to herself (Four)?
+3. **A choice where safety and prestige pull apart.** Rogue doesn't qualify: a franchise lead is secure and prestigious at once. The test is a trusted team over a bigger, riskier project (Six), the prestige role despite the risk (Three), or the strangest new option for its own sake (Seven).
+4. **Testimony from before fame.** As of October 2026, the only colleagues found speaking about her on record worked on _Obsession_. Family or _Superman & Lois_ castmates could say whether, off camera, she seeks reassurance, stimulation or a good impression.
+5. **A fuller retelling** of the Twitch deletion or the playback story: did she fear losing her footing, or looking less than excellent?
 
-The most interesting line from her 2026 press run cuts against the pattern. Over corned beef on rye with Nylon, right after the "lightning in a bottle" line, she added: "I also want to fall on my face publicly and have something that people don't like [but] maybe I do." She laughed. "So, I'm looking forward to that."
-
-The woman who deleted streams she loved for fear of not being taken seriously was, by July 2026, saying out loud that she wants to fail in public at something she believes in. That could be growth, press-tour bravado, or a point for the Type 7 reading.
-
-The Six reading says what to watch for: whether she keeps taking risks when no one has built the safe room for her first. The record already holds partial answers. In 2021 she built her own pact against doubt. On the _Obsession_ set, that room took a schedule, a charades game and a director willing to scream first, yet she told the Alamo Drafthouse audience that "there's some moments where it's just up to me to make myself comfortable." The roles and interviews that follow _Obsession_ will keep testing which habit leads.
+She has already named the test she wants. "I really want to prove that _Obsession_ wasn't just lightning in a bottle," she told Nylon in July 2026. A few sentences later: "I also want to fall on my face publicly and have something that people don't like [but] maybe I do." She laughed. "So, I'm looking forward to that."

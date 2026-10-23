@@ -1,0 +1,29 @@
+Error: Reached max turns (60)
+[runner] Turn limit reached; resuming session 18afd148-5018-48be-a852-c146a367ab37 to write outputs
+The edit stage for Olivia Dean is finished. All three output files are written: `edit.md`, `evidence-edit.json` and `resolution-edit.json`. They pass the pipeline's own checks (no draft blockers, evidence and resolution valid against the contract). I changed nothing else in the repo, and nothing was published (`published: false`).
+
+**What changed in the article (4,359 words):**
+- **Type read is still Type 2, but held more loosely.** The type answer now says she "most likely reads as" a Two, at medium confidence, with Type 3 named as a close rival. The title, description and FAQ say the same.
+- **The Two-versus-Three argument is now honest about its limits.** Reviewers pointed out that the old test (what she protects when image and relationships clash) never actually happens in her public record. The article now says so. The Two lean rests only on how she keeps describing what her work is for ("most useful," "how many people you can touch," "something to give").
+- **Counterevidence is back in.** This includes:
+  - her "You can't please everybody. And I have such peace in that" line;
+  - deleting social media because she doesn't want to know everyone's opinion of her;
+  - the full "five times better" quote, alongside her mother's role in the Women's Equality Party;
+  - Ticketmaster's same-day reply and Live Nation's endorsement of her call-out.
+- **Other types get a fair test.** Four is tested for the first time and comes out weakened but not ruled out. Seven gets its full case and stays a live possibility. Nine is now set aside on her firm control of her own work, not on the Ticketmaster post.
+- **Errors fixed:**
+  - "I'm too scared to belong to anyone" restates her own "Something Inbetween" lyric (confirmed on Genius), so it is no longer a section heading.
+  - Her first Glastonbury was 2023, not 2024.
+  - The 2023 "selfish" quote was defiant, not guilty.
+  - Her "depressive state" disclosure is no longer used as type evidence.
+- **Built to last:** facts that will change (her Grammy, the album covers, the third album) are dated and flagged for review. The page's main future test, what she says she wants from her next album, is now tracked in the evidence file.
+
+All 46 reviewer findings are marked fixed, each with a reason. Of the 17 passages reviewers asked to protect, 14 are unchanged and 3 were reworded to fix overstatements while keeping their point. Every quote was re-checked word-for-word against the saved sources by script, and there are no misses. That check caught one quote I had joined from two separate sentences, which is now split.
+
+**Choices you may want to overrule:**
+- **Title kept:** "The Star Who Keeps Handing the Moment Back." It describes what she does, not why. To support it I added her Brits and MOBO speeches as two more sourced examples.
+- **Length:** 4,359 words, under the 4,500 limit but above the usual ~3,900 target. The extra length is reviewer-requested counterevidence. Trimming further would mean dropping sourced material.
+
+**Not done:**
+- The 87-minute *And The Writer Is…* podcast is still unreviewed. I confirmed only the page details (title, date, length). The article says it wasn't reviewed, and it is the top research follow-up.
+- The speaker for the "too scared to belong" line was checked by machine transcription only, not by a human listen. That check is still on the research list.

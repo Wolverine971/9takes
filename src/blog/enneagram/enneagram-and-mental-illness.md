@@ -4,7 +4,7 @@ description: "Explore each Enneagram type's mental health risks and shadow side 
 author: 'DJ Wayne'
 date: '2023-12-08'
 loc: 'https://9takes.com/enneagram-corner/enneagram-and-mental-illness'
-lastmod: '2025-12-20'
+lastmod: '2026-10-23'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -96,6 +96,12 @@ That **shadow side** is the engine of this exploration. Knowing yours is how you
 The Enneagram is a **[personality framework](/enneagram-corner/enneagram-vs-personality-frameworks-comparison)**, not a diagnostic tool. Everyone’s experience with mental health is unique, and symptoms or challenges can vary widely. This article is for **informational and self-reflection purposes** only and **does not replace professional mental health advice**. If you believe you might be experiencing mental health issues, please seek help from a qualified medical or mental health professional.
 
 We address these topics with **sensitivity and inclusivity** and use non-stigmatizing language. Mental health struggles affect people of all backgrounds. Looking at each type's risks should build empathy for ourselves and others, never turn a pattern into a diagnosis.
+
+## Looking for Enneagram-informed support?
+
+**Therapy in California:** Joanne B. Kim, LMFT, runs <a href="https://www.olivemecounseling.com/">OliveMe Counseling</a> in Los Gatos, California, and uses the Enneagram as one tool in her therapy practice. **She offers therapy only to people physically located in California**, including through telehealth. If you're curious about her work, explore her website and <a href="https://www.olivemecounseling.com/resources-about-the-enneagram">Enneagram resources</a> from wherever you are.
+
+**Explore your patterns with 9takes:** Want to understand your type or talk through a pattern you keep noticing? [Talk to DJ at 9takes](/book-session). This is Enneagram coaching for self-understanding and personal growth, not therapy, diagnosis, or mental health treatment.
 
 ---
 

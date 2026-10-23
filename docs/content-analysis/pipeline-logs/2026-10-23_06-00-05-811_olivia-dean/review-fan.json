@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "fan",
+  "content_sha256": "69c2236e370befa3b0cddcf690f533a651f577826563d0408bfa39473e2e7e3e",
+  "evidence_sha256": "ef18f9601d9f41063a0ad037584fe6b56339a51e83a40c2176c4df4b27696bf8",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "fan-01",
+      "severity": "major",
+      "passage": "In 2026 she told ELLE that at her old school, \"people would make me feel like I was too much.\"",
+      "problem": "The 'cringe', 'too much' and 'justify myself' lines are used as a heart-triad worth signature, but the draft cuts what each was about in the sources. In ELLE (Feb 2026, para. 25) 'too much' contrasts the earlier school with the BRIT School, where 'people... thought music was cool, and wanting to shine was cool'. In Time Out (2023), 'cringe' was about her pop taste at Goldsmiths, where 'you had to be making something really alternative and left to be cool'. The same Time Out piece has her saying of Highams Park, 'I felt quite different to everybody else. In primary school, I was one of the only Black girls. I think that's what made me want to get out and go to BRIT', and of her heritage, 'I feel like a mess of things... negative, which it was for me when I was younger.' An informed reader knows the BRIT School as her formative turning point, yet it appears only as Chinouriri's descriptor. With that context gone, the draft never weighs circumstance (being one of the only Black girls, a musical kid in places that sneered at earnest pop ambition) as an alternative explanation for the worth language, as the standard requires. It also hides that 'too much' was about wanting to shine, a detail that belongs in the Two-versus-Three comparison. The only limit offered is that 'cringe' is generational slang.",
+      "acceptance_test": "The 'too much'/'cringe' passage says in her own dated, attributed words what each line referred to: wanting to shine (ELLE), pop taste against alt-cool (Time Out), and being 'one of the only Black girls' before leaving for the BRIT School. It names circumstance as a live alternative explanation for the worth language. It does not call the school experience bullying or build a causal childhood-wound story. 'Hers is a question of worth' is qualified to match, and the 'wanting to shine' detail is weighed in the Type 3 comparison."
+    },
+    {
+      "id": "fan-02",
+      "severity": "major",
+      "passage": "After their interview ran long in a pub, Wilkinson wrote: \"She's here to please.\" Those are the writer's words, not Dean's.",
+      "problem": "The attribution is correct, but the context is not. In Time Out the sentence follows 'She smiles, flirts, makes sarcastic jokes and never breaks eye contact.' It describes a charismatic interviewee's charm, not helping. Placed under 'People who work with her describe the same direction', it reads as people-pleasing evidence the source does not give. The ELLE cover that supplies the hook also contains the most revealing contradiction to a people-pleasing reading, and the draft omits it. On the post-Grammy online discourse ('too well-liked for some people's taste'), Dean said: 'I know who I am... You can't please everybody. And I have such peace in that.' A fan who read the cover will notice that the line was skipped while the writer's 'here to please' was kept.",
+      "acceptance_test": "Either Wilkinson's line appears with its context (smiles, flirts, sarcastic jokes, eye contact) and is no longer offered as giving evidence, or it is cut. Dean's 'You can't please everybody. And I have such peace in that.' (ELLE, Feb 2026, about online discourse after the Grammys) appears, attributed and dated, and the Two argument deals with it directly, for example against the people-pleasing stereotype or alongside the boundary tension, rather than leaving it out."
+    },
+    {
+      "id": "fan-03",
+      "severity": "major",
+      "passage": "The drive came from home. To ELLE:",
+      "problem": "The 'five times better' quote is offered as Type 3 achievement drive without its setting. In ELLE it comes right after the writer introduces Dean's mother, Christine: a child-and-family lawyer who became 'the first Black woman to be deputy leader of the U.K.'s Women's Equality Party'. The writer adds that 'Through her, Dean learned the importance of hard work and empowering other women', and the quote itself ends 'And I'm a feminist down to my toes', which the draft cuts. Rolling Stone UK also names her mother's party role. For informed readers, 'five times better' is a familiar family standard about bias, a learned practice the standard says to compare against the type explanation, not straightforward image motive. The same omission weakens the draft's own alternative in the 'selfish' section, 'plain feminism from three women she calls \"too powerful\"': her mother's political career is the strongest evidence for that reading and goes unmentioned.",
+      "acceptance_test": "The Type 3 section gives the quote's source context: her mother's career and the feminist framing Dean attaches to it. If the bias meaning of 'five times better' is stated, it is labelled as interpretation. The quote is treated as a learned family standard that a Three reading has to beat, not as direct Three evidence. The 'plain feminism' alternative names her mother's Women's Equality Party role with a source link."
+    },
+    {
+      "id": "fan-04",
+      "severity": "major",
+      "passage": "Nearly everything above comes from the promotion of an album about love.",
+      "problem": "The draft treats her story as starting in 2023, but she has released music since 2018 (Guardian, S04), and the opened sources hold pre-campaign evidence that bears on the 'handing the moment back' thesis. Rolling Stone UK (S01, paras 29-31): she joined Rudimental on the road as a backing singer because 'you get the opportunity to play in front of those big crowds, but it's not about you — you can learn and take that feeling in, without the pressure', then thought 'OK, could I do this myself? I think I've got some stuff that I'd like to say... I'm a real observer... I like to learn, and then apply.' Time Out (S03) reports that in the 2020 lockdown 'she packed her band into a happy yellow van and drove around the UK, playing socially distanced gigs to cheer up strangers' (the writer's characterization). The Guardian says she spent her pandemic years building a fanbase on social media. A fan would expect the Rudimental apprenticeship and the early EPs. More importantly, these are pre-fame choices that test Two (content in a role that is 'not about you'; gigs for strangers) against Three (learning by observation, then stepping out; fanbase-building). They also weaken the limitation sentence above as written.",
+      "acceptance_test": "The profile briefly covers 2016-2022: the BRIT School, Rudimental backing vocals with her 'it's not about you' / 'real observer' explanation (RS UK 2025), and EPs from 2018-19. If the 2020 van gigs are used, they are attributed to Time Out as the writer's account. These early choices are weighed against both Two and Three, and the 'Nearly everything above...' limitation is revised to match what the record actually covers."
+    },
+    {
+      "id": "fan-05",
+      "severity": "major",
+      "passage": "When Lowe brought up a lyric about being afraid of being changed, she answered:",
+      "problem": "In the Zane Lowe captions (S15, about 06:46-07:15), Lowe paraphrases 'an interesting lyric on the album which is like I'm afraid to change... of being changed' and says you would not 'outright say, \"I'm just afraid of being changed.\"' Dean: 'Yeah. I'm too scared to belong to anyone.' Then: 'Right. Right. That's a big thing to say.' The exchange reads as Dean supplying the lyric's actual words, not volunteering a new confession. Speaker turns in these captions are unreliable, and I could not open a licensed lyric sheet to confirm it, so this is an open question rather than a confirmed error. Still, the line is quoted as a first-person self-report and used as an H2 title. If it is a lyric, a fan will see song text passed off as her plain self-description. A sung persona line is weaker self-report evidence than the draft treats it as.",
+      "acceptance_test": "The editor checks the album's official or licensed lyrics for 'too scared to belong to anyone'. If it is a lyric, the article says she was quoting her own song (name it), classifies it as lyric rather than self-report, and reconsiders it as the section title. If it is not a lyric, the editor records that in the resolution with the source checked, and the passage stays."
+    },
+    {
+      "id": "fan-06",
+      "severity": "minor",
+      "passage": "Dean's songs keep circling that cost, which comes up below.",
+      "problem": "The draft promises that her songs keep circling the Two's cost (asking, receiving, saying what she wants), then supports it with one lyric ('Let Alone the One You Love') plus 'Loud' and 'Carmen'. The two hits most readers know her by, and her own sourced explanations of them, are missing, and both bear directly on that cost. ELLE (2026): \"'Man I Need' is a call to action... 'I know you can be the man I need if you step up to the plate and be excellent for me. Let me encourage you.'\" She frames asking for what she needs as encouraging him, which is arguably the most Two-shaped line in the record. Rolling Stone UK (2025) on 'So Easy (To Fall in Love)': 'you're also excellent... Why shouldn't somebody want to fall in love with you?... \"Oh, I think I'm quite great.\" Why not?' That is a self-worth claim that belongs beside the boundary tension. Leaving out the best-known songs makes 'keep circling' look under-supported.",
+      "acceptance_test": "The love/boundaries section uses her own attributed explanation of 'Man I Need', and ideally 'So Easy', and tests each against both the Two and the boundary/independence readings. Otherwise, 'keep circling that cost' is narrowed to what the article actually shows."
+    },
+    {
+      "id": "fan-07",
+      "severity": "minor",
+      "passage": "Both album covers blur her face, and she told Rolling Stone UK why: \"I kind of want people to hear their own truth.\"",
+      "problem": "The draft quotes the second half of her explanation and builds 'Her default seems to be that songs belong to the listener' on it. Her first-stated reason in Rolling Stone UK was 'It's representative of imperfection', followed by 'Some of the stuff I'm speaking about isn't fact, or always the truth — it's just my truth' and 'So I don't need you to have a big fat picture of my face.' The trimmed version changes the emphasis. The omitted reason (imperfection, playing down her face) actually supports the draft's own Two-versus-Three discriminator about letting the image take the hit, and 'it's just my truth' complicates the 'songs belong to the listener' inference.",
+      "acceptance_test": "The cover passage gives her reasons in order, or at least names 'representative of imperfection'. The 'songs belong to the listener' line is marked as interpretation and accounts for 'it's just my truth'. If the imperfection reason is used, it is placed with the image-takes-a-hit evidence."
+    },
+    {
+      "id": "fan-08",
+      "severity": "minor",
+      "passage": "Her debut album, _Messy_ (2023), was shortlisted for the Mercury Prize.",
+      "problem": "The bio mentions only the first Mercury shortlist. The research log records that _The Art of Loving_ was also shortlisted for the 2026 Mercury Prize (S33, 30 July 2026). An informed reader will notice a second Mercury nod is missing from a paragraph that lists the Brits and the chart record. It also offers a dated echo of the 2023 'I've just wangled my way in' anecdote. Separately, Rachel Chinouriri is introduced under 'People who work with her' when she is a close friend and former BRIT School classmate ('a successful musician in her own right', Guardian). The 2023 'I pride myself on being a good person' quote is introduced as 'one answer from 2023' with no outlet named at the passage (it is Time Out).",
+      "acceptance_test": "The bio adds the 2026 Mercury shortlist for _The Art of Loving_, sourced and dated, and states the result only if a source for the winner has been opened. Chinouriri is introduced as a friend and former classmate rather than a colleague. The 'good person' quote names Time Out (2023) at the passage."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "\"My friends care, but not more than I care about what they're doing. My life isn't more important than anyone else's life. It's just mine.\"",
+      "reason": "Checked against ELLE para. 29: the setting ('I come home from doing something like the Grammys, and the debrief we'll have is crazy') matches the draft's framing exactly. It is a strong ending in her own words that holds both halves of the pattern without forcing the type."
+    },
+    {
+      "passage": "The order is the detail. The apology to fans came first, the fight came second, and the fight was with companies her tours run through.",
+      "reason": "A specific, checkable observation that a fan would recognise as true to the Ticketmaster episode (ELLE confirms the refunds and cap). It comes with THR's fair counterpoint about artist control over resale. This is evidence-led behavioural reading, not flattery."
+    },
+    {
+      "passage": "The bravery line was older than the night.",
+      "reason": "An informed-reader detail: the Grammy line repeats what she said about her grandmother at the British Library in 2024. It turns a viral moment into a durable pattern and shows that the speech was not improvised for the occasion."
+    },
+    {
+      "passage": "Obell shot back: \"Uh, do you know who you are?! You just won a Grammy!\"",
+      "reason": "Checked on the ELLE page (para. 11). The exchange is vivid, sourced, and correctly framed as the writer's observation. It gives the hook a real scene without invented interiority."
+    },
+    {
+      "passage": "Calling her boundary talk \"Two growth\" would make the theory impossible to lose. So it stays here as a tension the type does not resolve.",
+      "reason": "This is the draft's refusal to explain away the strongest counterevidence with growth or arrow language. Keep it: it is what stops the profile from becoming flattery."
+    }
+  ],
+  "assessment": "Informed-reader pass. The quotes I checked against the opened pages are accurate: ELLE 2026, Time Out 2023, Rolling Stone UK 2025, the Guardian feature of 28 Feb 2026, and the Zane Lowe captions. So are several facts a fan would test: her first Glastonbury was the 2024 Pyramid Stage, her first headlining North American arena tour, the Ticketmaster refunds and cap, Chinouriri as a BRIT classmate, and the setting of the ending quote. I found no material factual error. The fan-level weakness is context. Several thesis-bearing quotes are cut away from what a reader of the full interviews would know they were about. 'Too much' and 'cringe' are stripped of the BRIT School, wanting to shine, and being one of the only Black girls. 'Five times better' loses her mother's career as a lawyer and Women's Equality Party deputy leader. 'Here to please' is detached from the writer's description of flirtatious charm. 'Too scared to belong to anyone' may be her reciting her own lyric. The pre-2023 career is also missing: the Rudimental apprenticeship ('it's not about you'), the EPs and the 2020 van gigs. That material is pre-campaign evidence, and it would answer the draft's main limitation. Her two signature songs are missing as well, though her sourced explanations of them speak directly to the Two cost the draft names. None of this makes the draft flattering: some omissions help Type 3 and some help Type 2. Restoring them would make the medium-confidence read more honest and more recognisable to people who know her. The similarity advisory did not trip (max 0.125 vs Bill Clinton, on ordinary Two vocabulary such as 'The Two's pattern runs in plain steps'); there is no meaningful argument reuse, though that sentence and the next three are the most generic type boilerplate in the piece. Risks are kept as recorded: contested typing, plus sensitive material (her mental-health disclosures, school experiences, and the unmentioned 'I've Seen It' suit, in which she is not a defendant). Limitations: I could not open a licensed lyric sheet to settle fan-05, and I did not re-listen to audio."
+}

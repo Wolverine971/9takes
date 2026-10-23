@@ -1,0 +1,36 @@
+I've written `verification-repair.json`. The Olivia Dean profile does not clear release: status is `insufficient_evidence`, with an overall score of 8.2 against the 8.5 floor and an Enneagram score of 7.5 against 8. No other file in the run directory was touched, and nothing was published.
+
+**The facts hold up.** I re-fetched all 30 web sources and re-downloaded the captions for the seven YouTube interviews. All 120 or so quotations in the body and FAQs match the sources. I also re-transcribed ten key YouTube passages with a different transcription model than the earlier stages used. Video frames confirm that Dean herself, not Zane Lowe, says "I'm too scared to belong to anyone." The checks against the contract all pass:
+- **Claims:** 171 of 177 supported; 6 supported with caveats.
+- **Edit decisions:** all 52 hold up (45 reviewer findings plus 6 from the last verification), and all 17 protected passages survive.
+- **Coverage and metadata:** the evidence record misses nothing important, and the metadata matches the body.
+
+**Why it holds anyway:** the case for Type 2 over Type 3 rests on two things she said about what her work is for ("most useful" to Rolling Stone UK, and "to help people…" to ELLE). The article itself says a Three could say the same. It also concedes that her generous acts (the champagne, the speeches, the apologies) were low-cost, and that no moment in the record shows her choosing a relationship over her image. That honesty is right, but it caps the Enneagram score. More editing can't fix it without overclaiming. Only new evidence can.
+
+| Dimension | Score |
+|---|---|
+| Evidence | 8.5 |
+| Enneagram | 7.5 |
+| Originality | 8.5 |
+| Writing | 8.0 (long at 4,314 words, heavy on hedges) |
+| Durability | 8.5 |
+| Hook | 9.0 |
+| Discoverability | 8.5 |
+
+**Small fixes for the next refresh (all minor, none blocking):**
+- **Florist line:** it says Numéro asked what she'd do without music. She actually volunteered it.
+- **Album covers:** the blurred-cover reading leaves out what she told Numéro about her first album's cover. She said it was a photo of herself she just liked, about her own identity.
+- **"Each of these was told from success":** this sweeps in the Messy-title remark, which she made before that album came out.
+- **Evidence record:** two claim summaries still say her first Glastonbury was in 2024. It was 2023. The article itself is correct.
+
+**Research that could lift the hold:**
+- Transcribe the 87-minute *And The Writer Is…* episode, the biggest unreviewed interview. Downloads with the `mweb` YouTube client worked today, where the default client got 403 errors.
+- Look for a dated choice where keeping a person or relationship cost her image, money or standing.
+- Find testimony from people outside her circle of friends and colleagues.
+- Re-ask the "what do you want next" question when her first long post-tour interview or a third album arrives.
+
+I don't think converting it to an "open case" profile is a clean way around this. She's been releasing music since 2018 and has given many long interviews since 2023. Her type looks hard to read, not under-documented.
+
+Sources:
+- [Olivia Dean confirms she 'will make another album' (Rayo)](https://www.hellorayo.co.uk/forth/entertainment/music/olivia-dean-third-album)
+- [Olivia Dean announces The Art of Loving (Universal Music Canada)](https://www.universalmusic.ca/?p=121004)

@@ -1,0 +1,25 @@
+I wrote the unfamiliar-reader review to `docs/content-analysis/pipeline-logs/2026-10-22_15-54-54-715_Inde-Navarrette/review-unfamiliar.json`. It passes `reviewSchema`, and every quoted passage matches the draft exactly. I didn't change any other files or publish anything.
+
+**Verdict:** a newcomer gets a strong, well-sourced portrait. The problems are mostly about context the reader is missing, not wrong facts. There are 7 findings: 1 major and 6 minor.
+
+- **Major (unfamiliar-01): the stakes are undersold.** The draft never says plainly that Focus is running a Best Actress campaign for her. It also leaves out her casting as Rogue in Marvel's X-Men film (announced at D23 2026, due May 5, 2028), even though the cited sources lead with it. The third "what would settle it" signal asks for a future choice between a safe project and a prestigious one, but ignores this choice she has already made.
+- **The film's premise and the "freakouts" are unclear.** The draft doesn't say that Bear is the one who makes the wish. "Freakouts", the key word in the opening anecdote, is never explained.
+- **The same conclusion ends almost every section.** Seven sections close on "can't tell Six from Three," which slows the article down. The body is about 2,646 words, above the roughly 2,500 target for an open case.
+- **Kyle Buchanan is introduced with no context.** "A week later, Buchanan asked…" reads as if he were on set during shooting.
+- **The "you look beautiful, you're fine" story doesn't explain itself.** It's the strongest evidence for Type 3, but the reader isn't told why the remark stung.
+- **Some quotes don't carry their meaning on their own.**
+  - The "'Dude,'" quote shows no reaction. It also leaves out her line that the cut "was hard to hear cuz I miss everybody."
+  - "many" streams versus "all of them" reads as a contradiction.
+  - "make it last" never says what "it" is.
+- **No outside voices.** The article mentions that colleagues have talked about her but never quotes them. Two opened sources could fill this: co-star Michael Johnston's account backs up the withheld-freakouts story, and Curry Barker has a comment on her.
+
+**Open-case check:** she appears eligible, and I found no overstated confidence in the title, description or FAQs. One gap for the evidence reviewer: the last 18 minutes of the Kyle Buchanan Show episode and the Awards Chatter audio after 46:00 were never reviewed.
+
+**Similarity check:** the phrases it flagged ("whose core emotion is fear", "held loosely at low confidence") are the standard's own open-case answer wording and ordinary type vocabulary. Her argument is specific to her, so I didn't count this as meaningful reuse.
+
+I protected five passages:
+- the "two things" opening
+- the four tellings of her childhood
+- "Her trust came in stages"
+- the Big Sean anecdote
+- the "fall on my face publicly" ending

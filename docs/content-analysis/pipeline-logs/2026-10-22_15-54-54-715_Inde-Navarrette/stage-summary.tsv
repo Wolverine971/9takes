@@ -2,3 +2,13 @@ research	research	1	1743s
 research	research	0	176s
 draft	draft	1	1335s
 draft	draft	0	301s
+review-subject	review	0	358s
+review-fan	review	0	499s
+review-critic	review	0	512s
+review-unfamiliar	review	0	294s
+review-enneagram	review	0	295s
+review-future	review	0	233s
+edit	edit	0	1722s
+verify-edit	verify	0	960s
+repair	edit	0	335s
+verify-repair	verify	0	0s

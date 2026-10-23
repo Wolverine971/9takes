@@ -1,0 +1,14 @@
+I wrote the Enneagram review to `docs/content-analysis/pipeline-logs/2026-10-23_06-00-05-811_olivia-dean/review-enneagram.json`. It passes the review schema, the hashes match the request, and every quoted passage matches the draft exactly. I didn't modify or publish anything else.
+
+**Verdict:** Type 2 can stay the leading read, but the draft hasn't yet earned "medium confidence." No test in it actually separates Two from Three, Four or Seven. The draft is honest in many places: it uses no wings or arrows to explain things away, refuses the "Two growth" move by name, and gives Three a real section.
+
+**Findings (6 major, 2 minor):**
+- **The giving behavior doesn't rule out Three.** Every act behind the title is cheap, public or scripted: champagne for the reporter writing her cover story, a Grammy speech, and saying sorry then making it right twice (Ticketmaster, Auckland). A Three would do all of these.
+- **The key test is never observed.** The draft says Two vs Three comes down to what she protects "when image and connection pull apart." But its examples are all frank admissions of failure made after she'd already succeeded, which is also how a Three tells a comeback story. ELLE says she deleted the apps to protect her self-image, not that she let her image take a hit.
+- **Her own contrary quotes are left out.** The hook's source, the 2026 ELLE interview, has "You can't please everybody. And I have such peace in that" and "My joy is more powerful than whatever you think about me." The draft uses neither, but does use a 2023 Time Out writer's "She's here to please."
+- **The "selfish" quote is cut short.** The Time Out line goes on: "Who gives a fuck what other people think about it?" So she was using "selfish" approvingly, not guiltily. That breaks the section's "a word she keeps using" pattern, and that claim is part of the draft's case for Two.
+- **Four is never tested.** The draft's own reasoning narrows the field to Two, Three and Four, then only tests Three. Some of the record reads Four-ish ("expressing true, raw emotion," "it's got to be my story").
+- **The Seven test is one-sided.** It leaves out her ELLE line "I really don't have time to fester in negative emotions." Her freedom lines ("I'm too scared to belong to anyone") sit in another section and are never weighed against Seven.
+- **Minor:** the case against Nine uses the weakest available reason. The short type answer under the type heading drops both the confidence level and Three as the rival.
+
+I re-opened ELLE 2026, Time Out 2023 and Music Week 2025 to check these quotes. I did not re-transcribe the YouTube interviews. I left the `major_thesis_change` risk flag false on purpose: if the edit changes the leading type or replaces the main test, the pipeline should still stop for a fresh round of reviews.

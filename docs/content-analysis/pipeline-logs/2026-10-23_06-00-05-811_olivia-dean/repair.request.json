@@ -1,0 +1,29 @@
+{
+  "schema_version": 3,
+  "subject": "olivia-dean",
+  "mode": "create",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_edit_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-23_06-00-05-811_olivia-dean/candidate-edit.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-23_06-00-05-811_olivia-dean/evidence-edit.json",
+    "similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-23_06-00-05-811_olivia-dean/similarity.json",
+    "review-subject": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-23_06-00-05-811_olivia-dean/review-subject.json",
+    "review-fan": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-23_06-00-05-811_olivia-dean/review-fan.json",
+    "review-critic": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-23_06-00-05-811_olivia-dean/review-critic.json",
+    "review-unfamiliar": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-23_06-00-05-811_olivia-dean/review-unfamiliar.json",
+    "review-enneagram": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-23_06-00-05-811_olivia-dean/review-enneagram.json",
+    "review-future": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-23_06-00-05-811_olivia-dean/review-future.json",
+    "baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-23_06-00-05-811_olivia-dean/baseline-reader.md",
+    "checks": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-23_06-00-05-811_olivia-dean/repair-findings.json",
+    "resolution": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-23_06-00-05-811_olivia-dean/resolution-edit.json",
+    "verification": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-23_06-00-05-811_olivia-dean/verification-edit.json"
+  },
+  "outputs": {
+    "repair.md": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-23_06-00-05-811_olivia-dean/repair.md",
+    "evidence-repair.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-23_06-00-05-811_olivia-dean/evidence-repair.json",
+    "resolution-repair.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-23_06-00-05-811_olivia-dean/resolution-repair.json"
+  }
+}

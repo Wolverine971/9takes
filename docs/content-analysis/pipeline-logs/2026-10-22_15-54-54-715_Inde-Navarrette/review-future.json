@@ -1,0 +1,72 @@
+{
+	"schema_version": 3,
+	"role": "future",
+	"content_sha256": "6dfd0319be559378c5583fbd5db625635d720678ecad1a315c87ed3ea96c7008",
+	"evidence_sha256": "d975784e4865bd66b486101cfcc70de6c05c6a611ffb29fdbe379089fdd06b35",
+	"risks": {
+		"sensitive_allegations": false,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": true
+	},
+	"findings": [
+		{
+			"id": "future-01",
+			"severity": "major",
+			"passage": "She hosts _Saturday Night Live_ on October 31, 2026",
+			"problem": "A status note in the hook is written in the present tense about an event nine days after the draft. It will read wrong almost as soon as the page can go live: editing, verification, images and DJ's publish step all come after October 31. The same wording appears in settle signal 2 (\"when she hosts _Saturday Night Live_\", where the body gives no date at all) and in the settle FAQ (\"when she hosts Saturday Night Live on October 31, 2026\"). C128's trigger says to change the tense \"after 2026-10-31\", but the only scheduled reopen is next_review 2027-02-01, so the stale tense would sit in the opening and the FAQ for three months. The hosting gig also does nothing for the personality argument in the hook. It matters only as a settle catalyst.",
+			"acceptance_test": "The hook either drops the SNL sentence or words it so it is true both before and after the date (e.g. \"was booked to host _Saturday Night Live_ on October 31, 2026\"). The body's settle signal 2 carries the absolute date in the same tense-neutral form. The settle FAQ is worded the same way. The C128 and C165 passages are updated to match. No sentence in the body or metadata uses a present or future tense for an event dated before the planned publish or review date."
+		},
+		{
+			"id": "future-02",
+			"severity": "major",
+			"passage": "Exposure, she said, \"was something that I really wanted to avoid,\" because \"I was a very sensitive person at the time.\"",
+			"problem": "The newest source, The Kyle Buchanan Show (S42, 2026-10-21, one day before the draft), carries a lot of the argument. It supplies the second explanation in the hook's puzzle, most of the \"You look beautiful, you're fine\" Three section, the fourth childhood telling, \"am I doing a good job?\" and the Four case. Every quote from it comes from two machine transcriptions that disagree in places (research_tasks lists \"for it. Exposure was\" vs \"for exposure. It was\"). Nobody has listened to it, and 34:34-52:24 has never been reviewed. Even so, C133, C136, C138, C139, C140, C147, C151, C152, C153 and C155 are recorded as `stable` with an empty review_trigger. C117 (\"make it last as long as humanly possible or throw it all away\") rests on THR's edited text alone and is also stable with no trigger. If a later listen changes the wording, the page will carry misquotes and nothing in the claim record sends anyone back. \"She took the word\" depends on the disputed reading.",
+			"acceptance_test": "Before release, each quoted span that rests only on S42 (plus C117 from S40/S41) is confirmed by a human listen, and its source locator records the timestamp. If that can't happen, each claim is marked `unresolved` with a review_trigger that names the timestamps to re-listen (~14:30-14:42, ~19:26-19:45, ~30:52-31:20 for S42; the passage behind C117 in S41). S42 34:34-52:24 is either reviewed or named in a trigger. \"She took the word\" is either cut or shown to hold under both transcriptions."
+		},
+		{
+			"id": "future-03",
+			"severity": "minor",
+			"passage": "**Her first public misstep,** such as a sketch that lands badly when she hosts _Saturday Night Live_, or a run of real criticism.",
+			"problem": "The standard ties open_case.next_review to the next dated catalyst. The first catalyst the page names is the SNL episode on 2026-10-31, but next_review is 2027-02-01. That leaves her account of SNL week, which is exactly the evidence settle signal 2 asks for, unrecorded for three months. The C128 and C165 triggers fire \"after 2026-10-31\" with no review scheduled to run them.",
+			"acceptance_test": "The evidence record either adds an interim review date soon after the episode's press cycle (e.g. on or after 2026-11-15) for C128/C165 and settle signal 2, or states explicitly that the 2027-02-01 review covers SNL week. Either way, every time_sensitive claim's trigger date falls on or before a scheduled review."
+		},
+		{
+			"id": "future-04",
+			"severity": "minor",
+			"passage": "The Three case got stronger in October 2026.",
+			"problem": "This section opens on how the case moved during research, not on the evidence itself. Five years out, or after any refresh adds sources, the sentence reads like a news bulletin (\"stronger\" than when?). It stays true only for readers who know the October 2026 research timeline, and it ties the section to the newest source (see future-02).",
+			"acceptance_test": "The section opens on the dated evidence itself, e.g. the playback story as she told it on _The Kyle Buchanan Show_ in October 2026. No sentence in the body describes the case strengthening or weakening over the research timeline. The weighing section still makes clear that Three is close."
+		},
+		{
+			"id": "future-05",
+			"severity": "minor",
+			"passage": "She has not said when she deleted them.",
+			"problem": "This FAQ line claims an absence with no date, and it is not in the claim inventory: C104 and C66 cover the rest of the answer, not this sentence. Settle signal 5 asks for exactly this kind of retelling, so the sentence will turn false silently. The body has the same problem: \"So far, the only colleagues found speaking about her on record worked on _Obsession_.\" (C162) uses an undated \"So far\", even though the claim is tracked.",
+			"acceptance_test": "Both absence statements carry an absolute date (\"As of October 2026, ...\"). The FAQ sentence gets its own claim, marked time_sensitive, with a review_trigger tied to C15's retelling trigger and settle signal 5."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "Before _Obsession_ started shooting, Inde Navarrette told its writer-director, Curry Barker, two things.",
+			"reason": "The hook opens on a dated, sourced exchange, not on box office, awards buzz or SNL. It stays interesting and true however her career turns out, and it sets up the Six vs Three puzzle the article pays off."
+		},
+		{
+			"passage": "She has described those years at least four ways:",
+			"reason": "Four dated, attributed tellings of one childhood show the record's inconsistency without forcing a reading. The device stays accurate as she gives more accounts. A refresh can add a fifth without rewriting the argument."
+		},
+		{
+			"passage": "That turn toward freedom is the kind of reframe Sevens are known for, but it came in hindsight.",
+			"reason": "It separates her 2023 reaction at the time from her 2026 retrospective one. That is the time-aware handling of self-report that keeps the page honest as her story about herself changes."
+		},
+		{
+			"passage": "On the record so far, safety and image point the same way. What would separate Six from Three is a moment when they don't.",
+			"reason": "It states the open question in a form that stays valid whichever way the case settles. A later run can graduate the profile from this sentence without contradicting anything the page called known."
+		},
+		{
+			"passage": "\"I also want to fall on my face publicly and have something that people don't like [but] maybe I do.\"",
+			"reason": "The ending gives the reader her own stated test, dated to Nylon in July 2026. That turns settle signal 2 into something she invited, and it will still read well after the misstep happens."
+		}
+	],
+	"assessment": "Five-year test: passes, provided the fixes above are made. With the latest events removed (the SNL booking, the January 21, 2027 nominations date, the box-office figure), the open-case argument still stands: she leads with named fear and pre-set protection, credibility is the motive she states most plainly, and no episode yet separates the two. Even dropping the October 21, 2026 Buchanan interview weakens but does not collapse the Three case. Three still has the Twitch \"take me seriously\" fear (Variety, July 2026), the \"good job\" Oscar safety net, Awards Chatter's \"show them\", and the 2021 \"110%\" pact. Dates are absolute almost everywhere: the press campaign is dated to May 2026, every childhood telling has its outlet and month, and the 2023 cut is dated. Changing facts (gross, budget, type self-identification, Oscar date, colleague testimony) are tracked with triggers. Under the open-case durability anchor, what the page calls known would stay true if a later run settled on Three. The settle signals are concrete and observable. Gaps: the SNL tense in the hook, settle signal and FAQ; quotes resting only on a day-old, machine-transcribed podcast recorded as stable with no trigger; a next_review that skips the first catalyst; one section opener dated by when evidence arrived; and two undated absence claims. Metadata: the title's \"Obsession's Nikki\" ties her identity to the breakout. That stays true but may age as later roles land, which is acceptable now. The \"Inde Navarrette Kyle Buchanan\" keyword chases a passing search, which is harmless. Similarity: the diagnostic tripped only on triad vocabulary (\"whose core emotion is fear/shame\") and the open-case formula (\"held loosely at low confidence\"). That is ordinary type vocabulary and standard phrasing, not reused argument, so I raised no finding. The argument itself (the confession and the refusal, the four childhood tellings, playback vs Twitch) is specific to her."
+}

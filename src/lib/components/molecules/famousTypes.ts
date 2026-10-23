@@ -271,6 +271,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'george-w-bush', link: true, hasImage: true, lastmod: '2026-03-28', personaTitle: 'America\'s Counterphobic Commander', contentGrade: 9.1, types: ['politician', 'modern-leader'] },
 		{ name: 'greta-gerwig', link: true, hasImage: true, lastmod: '2026-08-28', personaTitle: 'Hollywood\'s Gold-Star Worrier', contentGrade: 8.5, types: ['movieStar', 'director'] },
 		{ name: 'howard-stern', link: true, hasImage: true, lastmod: '2026-03-01', personaTitle: 'Radio\'s Counterphobic Sentinel', contentGrade: 9.1, types: ['celebrity', 'tv-comedy-crossover'] },
+		{ name: 'inde-navarrette', link: true, hasImage: true, lastmod: '2026-10-22', personaTitle: 'The Horror Lead Who Had to Learn to Scream', contentGrade: 8.3, types: ['movieStar', 'celebrity'] },
 		{ name: 'jack-antonoff', link: true, hasImage: true, lastmod: '2026-07-30', personaTitle: 'Pop\'s Homesick Hitmaker', contentGrade: 8.9, types: ['musician', 'celebrity'] },
 		{ name: 'jake-gyllenhaal', link: true, hasImage: true, lastmod: '2026-03-21', personaTitle: 'Hollywood\'s Fearful Daredevil', contentGrade: 8.7, types: ['movieStar', 'screen-icon'] },
 		{ name: 'jake-shane', link: true, hasImage: true, lastmod: '2026-03-27', personaTitle: 'TikTok\'s Anxious Sweetheart', contentGrade: 8.8, types: ['creator', 'viral-entertainer'] },

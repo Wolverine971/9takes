@@ -1,0 +1,201 @@
+{
+  "target": {
+    "person": "olivia-dean",
+    "type": "2",
+    "units": 15,
+    "file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-23_06-00-05-811_olivia-dean/draft.md"
+  },
+  "comparison_set": [
+    {
+      "person": "sienna-spiro",
+      "date": "2026-10-14",
+      "units": 11
+    },
+    {
+      "person": "dolly-parton",
+      "date": "2026-08-25",
+      "units": 15
+    },
+    {
+      "person": "Ms-Rachel",
+      "date": "2026-08-20",
+      "units": 32
+    },
+    {
+      "person": "Madelaine-Petsch",
+      "date": "2026-08-15",
+      "units": 32
+    },
+    {
+      "person": "simon-sinek",
+      "date": "2026-08-15",
+      "units": 22
+    },
+    {
+      "person": "Benny-Blanco",
+      "date": "2026-07-19",
+      "units": 35
+    },
+    {
+      "person": "mother-teresa",
+      "date": "2026-06-22",
+      "units": 27
+    },
+    {
+      "person": "bill-clinton",
+      "date": "2026-04-20",
+      "units": 36
+    }
+  ],
+  "n_requested": 8,
+  "noise_floor": {
+    "pairs_compared": 3150,
+    "median": 0,
+    "p90": 0,
+    "p99": 0.008,
+    "max": 0.125
+  },
+  "trip_threshold": 0.04,
+  "tripped": false,
+  "trip_pairs": [],
+  "per_draft_max": [
+    {
+      "person": "bill-clinton",
+      "date": "2026-04-20",
+      "units": 36,
+      "maxScore": 0.125
+    },
+    {
+      "person": "mother-teresa",
+      "date": "2026-06-22",
+      "units": 27,
+      "maxScore": 0.033
+    },
+    {
+      "person": "Ms-Rachel",
+      "date": "2026-08-20",
+      "units": 32,
+      "maxScore": 0.027
+    },
+    {
+      "person": "dolly-parton",
+      "date": "2026-08-25",
+      "units": 15,
+      "maxScore": 0.026
+    },
+    {
+      "person": "Benny-Blanco",
+      "date": "2026-07-19",
+      "units": 35,
+      "maxScore": 0.025
+    },
+    {
+      "person": "Madelaine-Petsch",
+      "date": "2026-08-15",
+      "units": 32,
+      "maxScore": 0.023
+    },
+    {
+      "person": "simon-sinek",
+      "date": "2026-08-15",
+      "units": 22,
+      "maxScore": 0.019
+    },
+    {
+      "person": "sienna-spiro",
+      "date": "2026-10-14",
+      "units": 11,
+      "maxScore": 0.014
+    }
+  ],
+  "top_pairs": [
+    {
+      "score": 0.125,
+      "other_person": "bill-clinton",
+      "shared_phrases": [],
+      "target": "[diagnosis] The Two's pattern runs in plain steps.",
+      "other": "[diagnosis] fit the Two's stress pattern exactly."
+    },
+    {
+      "score": 0.084,
+      "other_person": "bill-clinton",
+      "shared_phrases": [],
+      "target": "[diagnosis] The Two's pattern runs in plain steps.",
+      "other": "[diagnosis] was the Two's survival instinct refined across decades. - The compulsive connection."
+    },
+    {
+      "score": 0.08,
+      "other_person": "bill-clinton",
+      "shared_phrases": [],
+      "target": "[diagnosis] The Two's pattern runs in plain steps.",
+      "other": "[diagnosis] The Two's emotional attunement fuses with the Three's ambition and image-awareness."
+    },
+    {
+      "score": 0.078,
+      "other_person": "bill-clinton",
+      "shared_phrases": [],
+      "target": "[diagnosis] The Two's pattern runs in plain steps.",
+      "other": "[diagnosis] That's the Three wing polishing the Two's genuine warmth into something incandescent."
+    },
+    {
+      "score": 0.056,
+      "other_person": "bill-clinton",
+      "shared_phrases": [],
+      "target": "[diagnosis] \"people would make me feel like I was too much.\" Fear of danger would point to the head types",
+      "other": "[diagnosis] Every single pattern points to the same engine"
+    },
+    {
+      "score": 0.033,
+      "other_person": "mother-teresa",
+      "shared_phrases": [],
+      "target": "[diagnosis] The Two's pattern runs in plain steps.",
+      "other": "[diagnosis] except the engine runs in one direction."
+    },
+    {
+      "score": 0.033,
+      "other_person": "bill-clinton",
+      "shared_phrases": [],
+      "target": "[diagnosis] The Two's pattern runs in plain steps.",
+      "other": "[diagnosis] the Two with a strong Three wing."
+    },
+    {
+      "score": 0.027,
+      "other_person": "Ms-Rachel",
+      "shared_phrases": [
+        "public evidence"
+      ],
+      "target": "[diagnosis] This is a read of public evidence",
+      "other": "[diagnosis] The group produced no public evidence"
+    },
+    {
+      "score": 0.026,
+      "other_person": "dolly-parton",
+      "shared_phrases": [],
+      "target": "[diagnosis] They notice what someone else needs before they notice what they need",
+      "other": "[diagnosis] They notice needs quickly and offer themselves as the answer."
+    },
+    {
+      "score": 0.025,
+      "other_person": "dolly-parton",
+      "shared_phrases": [],
+      "target": "[diagnosis] Dean's words for what she had to get past fit that.",
+      "other": "[diagnosis] Parton's record fits that structure unusually well."
+    },
+    {
+      "score": 0.025,
+      "other_person": "Benny-Blanco",
+      "shared_phrases": [],
+      "target": "[diagnosis] And I'm not cringe!\" In 2025 she told Rolling Stone UK she had \"always been coming into other people's spaces and trying to justify myself.\" In 2026 she told ELLE that at her old school",
+      "other": "[diagnosis] production is the one job in music where the deliverable is other people's best work."
+    },
+    {
+      "score": 0.023,
+      "other_person": "Madelaine-Petsch",
+      "shared_phrases": [
+        "too much"
+      ],
+      "target": "[diagnosis] \"people would make me feel like I was too much.\" Fear of danger would point to the head types",
+      "other": "[diagnosis] probably because I have too much pride.\" Pride"
+    }
+  ]
+}

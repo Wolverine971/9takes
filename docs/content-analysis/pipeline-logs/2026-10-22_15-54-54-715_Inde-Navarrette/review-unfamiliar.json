@@ -1,0 +1,86 @@
+{
+  "schema_version": 3,
+  "role": "unfamiliar",
+  "content_sha256": "6dfd0319be559378c5583fbd5db625635d720678ecad1a315c87ed3ea96c7008",
+  "evidence_sha256": "d975784e4865bd66b486101cfcc70de6c05c6a611ffb29fdbe379089fdd06b35",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": true
+  },
+  "findings": [
+    {
+      "id": "unfamiliar-01",
+      "severity": "major",
+      "passage": "She hosts _Saturday Night Live_ on October 31, 2026",
+      "problem": "The opening undersells why she is being searched now. A newcomer never learns plainly that Focus is mounting a Best Actress Oscar campaign for her (S55, relaying Variety). They have to infer it from \"nobody was campaigning for an Oscar yet\" and \"Oscar buzz\", and the settle section's first signal assumes they already know. The draft also leaves out her casting as Rogue in Marvel's X-Men reboot (S24, announced at D23 2026 for May 5, 2028; she discusses the role on record in S47 and S51). Yet the cited Variety and THR URLs and the S10 and S42 episode titles all lead with X-Men. A reader arriving from that news finds nothing about it. Settle signal 3 also asks for a future choice where safety and prestige pull apart, but it ignores the biggest career choice already on record. The evidence file omits the casting to save maintenance, but one dated, tracked clause is cheap, and its absence costs orientation.",
+      "acceptance_test": "Within the first 250 body words, one sourced, dated sentence says that Focus is running a Best Actress campaign for her and that she has been cast as Rogue in Marvel's X-Men film (announced at D23 2026, scheduled for May 5, 2028). The casting is recorded as a time_sensitive claim with a review_trigger. 'What would settle it' adds one sentence saying either why taking Rogue does not separate Six from Three (a franchise lead is both secure and prestigious) or what in her own explanation of the choice would."
+    },
+    {
+      "id": "unfamiliar-02",
+      "severity": "minor",
+      "passage": "_Obsession_, in which a wish on a supernatural toy leaves her character, Nikki, obsessed with her co-worker Bear",
+      "problem": "The sentence never says who makes the wish, so a newcomer can easily read it as Nikki's wish. Per S29, Bear buys the toy and wishes that his friend Nikki would fall in love with him. The hook's key noun, 'freakouts', is never defined either. The opening depends on the reader knowing that the role required screaming breakdowns, which is why 'I don't know how to scream' and the refusal to rehearse the freakouts matter. Someone who hasn't seen the film gets the shape of the anecdote but not its stakes.",
+      "acceptance_test": "The premise sentence names Bear as the one who wishes, per S29. By the end of the opening section, one sourced clause tells a reader who hasn't seen the film what Nikki's freakouts are on screen, without spoilers beyond the premise."
+    },
+    {
+      "id": "unfamiliar-03",
+      "severity": "minor",
+      "passage": "No episode on record yet forces those motives apart.",
+      "problem": "Nearly every section closes on the same can't-separate-them verdict. Examples: 'can't yet answer that. So this is an open case.'; 'Her record is young, so nothing yet separates them.'; 'The childhood can't settle the type.'; this line; 'That one sentence holds both readings.'; 'so Three stays close.'; 'safety and image point the same way.' Each verdict is honest, but by the third one a newcomer has the thesis. After that, the section endings stall the momentum, and the weighing section repeats what they have already been told. The standard rules out redundant thesis loops. The body is about 2,646 words, above the open-case target of roughly 2,500.",
+      "acceptance_test": "Outside the opening puzzle paragraph, the type answer, the weighing section and 'What would settle it', at most two sections end on a both-readings or cannot-separate verdict. The other evidence sections end on what they add: a new detail, a tension or a sharper question. The body comes in at or under about 2,500 words without cutting sourced evidence or protected passages."
+    },
+    {
+      "id": "unfamiliar-04",
+      "severity": "minor",
+      "passage": "A week later, Buchanan asked whether she had wanted to preserve the surprise, or whether something about it felt exposed.",
+      "problem": "Kyle Buchanan first appears in the childhood list ('Mixed, to Kyle Buchanan in October 2026') with no link and no explanation of who he is. The show only appears two sections later, and the Type 3 FAQ also names him without context. This sentence comes right after an account of the first day of shooting, so 'A week later' reads as a week into the shoot, as if Buchanan were on set. It actually means a week after the Awards Chatter taping (October 14 to October 21, 2026).",
+      "acceptance_test": "The first body mention of Buchanan identifies him as host of The Kyle Buchanan Show, with a link and a date. This sentence names the show and its date, so no reader could place the exchange on set. The Type 3 FAQ answer identifies the show."
+    },
+    {
+      "id": "unfamiliar-05",
+      "severity": "minor",
+      "passage": "And he goes, you look beautiful, you're fine.",
+      "problem": "This is the Three case's newest and strongest evidence, but a newcomer isn't told why the reply mattered. She asked for playback to stay inside an intimate scene, and the answer was about her looks. Without that, the jump to wanting to be 'taken seriously in a different route' reads as a non sequitur, and 'a different route' has no clear contrast. The paraphrase 'to put herself back inside an intimate scene on a crowded set' is hard to parse. The paragraph's opener, 'The Three case got stronger in October 2026', narrates the article's research timeline instead of the event.",
+      "acceptance_test": "The paragraph opens with what she said, where and when. One sentence, in her words where the S42 audio supports them or marked as interpretation, tells the reader what she was asking for and why the answer landed badly. 'A different route' is either explained from her surrounding remarks or cut. No motive is asserted beyond what she said."
+    },
+    {
+      "id": "unfamiliar-06",
+      "severity": "minor",
+      "passage": "\"As soon as they were kind of like, 'Dog, you're free.' I was like, 'Dude,'\" she told Collider.",
+      "problem": "Three quote fragments don't carry their meaning to a newcomer. (1) 'Dude' gives no reaction, so 'the cut had become a liberation' rests on the producers' words as she paraphrased them, not on hers. Per C12, the same answer included 'I got freedom' and 'that was hard to hear cuz I miss everybody'. The first makes the point clear, and leaving out the second makes the Seven-reframe reading look cleaner than her answer was. (2) 'she deleted many of the Twitch streams. \"I deleted all of them just cuz... I got scared,\"' reads as a contradiction unless the reader knows she corrected herself to 'a lot of them' (C15). (3) 'she can \"make it last as long as humanly possible or throw it all away.\"' has no referent for 'it'. Per C117, it is her career moment.",
+      "acceptance_test": "The Superman & Lois passage quotes words that show her reaction, such as 'I got freedom', and gives the 'hard to hear' line beside it if the S09 audio confirms both. The Twitch passage squares 'many' with 'all of them', for example by noting her self-correction, and the FAQ matches. The Awards Chatter clause names what 'it' refers to."
+    },
+    {
+      "id": "unfamiliar-07",
+      "severity": "minor",
+      "passage": "So far, the only colleagues found speaking about her on record worked on _Obsession_.",
+      "problem": "The article tells readers that colleague testimony exists but never quotes any, so every view of her comes from her own account. The record has two outside voices, both opened. Barker said she brought 'this like bro-y type of... sassiness to Nikki that I didn't anticipate' (S15). Johnston recalled asking her to show him the 'freaky Nikki' smile in advance and being told 'No' (S13), which corroborates from outside the withholding at the heart of the hook. Without either voice, a newcomer meets her only through her press-tour self-presentation, and the central anecdote rests on her word alone.",
+      "acceptance_test": "At least one Obsession collaborator's on-record observation of her (Johnston's Hot Ones Versus account or Barker's remark) appears in the freakouts or weighing section. It is attributed, linked, dated, and labeled as promotional testimony, and is not presented as proof of type."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Before _Obsession_ started shooting, Inde Navarrette told its writer-director, Curry Barker, two things.",
+      "reason": "The two-things setup is a specific, sourced hook. It turns the open case into one concrete question a newcomer can hold for the whole piece: a confession against a refusal, safety against impression."
+    },
+    {
+      "passage": "She has described those years at least four ways:",
+      "reason": "The four-tellings list teaches the reader, without lecturing, that self-reports shift with the interviewer. It is distinctive to her and makes the honest limits of the record vivid."
+    },
+    {
+      "passage": "Her trust came in stages: questions first, privacy for the big moments, the director's eye for the small ones. And overriding a nervous director on day one is self-trust, which a picture of her leaning on others doesn't predict.",
+      "reason": "A precise synthesis that also turns against the leading read. The reader meets behavior the type doesn't neatly explain."
+    },
+    {
+      "passage": "When the rapper Big Sean messaged her, her first thought, she told Complex News, was \"Oh, no,\" and she handed the phone to her boyfriend to read it first. (It was kind.)",
+      "reason": "A vivid, funny, specific detail that shows the securing pattern in a single beat. The parenthetical is perfectly timed."
+    },
+    {
+      "passage": "A few sentences later: \"I also want to fall on my face publicly and have something that people don't like [but] maybe I do.\" She laughed. \"So, I'm looking forward to that.\"",
+      "reason": "The ending lands at the story's natural point. She names her own settle test, it complicates the fear-led reading, and it leaves the reader wanting the next chapter."
+    }
+  ],
+  "assessment": "Orientation and hook: a newcomer is pulled in immediately. The Barker anecdote is concrete and funny, and by the end of the opening they know her character, the budget and box office, and the open question. What they learn holds up: the pre-fame doubt rituals, the Twitch deletion, the Oscar safety net, staged trust on set, and a settle section with concrete, dated signals in plain language. The gaps are stakes and clarity rather than substance. The Best Actress campaign and the Rogue casting are missing or only implied (unfamiliar-01). The film premise and 'freakouts' are undefined (unfamiliar-02). Several quote fragments assume context the reader doesn't have (unfamiliar-04/05/06). Momentum sags in the middle because nearly every section ends on the same both-readings verdict (unfamiliar-03), and every view of her comes from her own account (unfamiliar-07). Open-case check: she appears eligible. She is an adult (born 2001), her first lead role and breakout came in 2025-26, more than 50 sources were opened, and 3, 7, 4, 9 and 8 were tested. The title, meta title, description and FAQs consistently say 'leading read' and 'low confidence', and I found no overstated confidence. The alternatives are argued from her words rather than given token treatment. One caveat for the evidence role: the last 18 minutes of S42 and the Awards Chatter audio after 46:00 were not reviewed, and both are her longest recent sources. Similarity: the advisory tripped on 'whose core emotion is fear' (shared with Essiedu, Abbott, Beatty and Reiter) and 'held loosely at low confidence' (Beatty). Comparing the actual arguments, these are the standard's own open-case answer formula and ordinary triad definitions. Her case (credibility against fear, the Twitch deletion, the withheld freakouts) is specific to her, so I don't count it as meaningful reuse. The answer-then-triad-map scaffold does mirror Beatty's. Folding the type definitions into the evidence sentences that follow would make it read less like a module, and newcomers would still get the definitions they need."
+}

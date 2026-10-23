@@ -1,0 +1,86 @@
+{
+  "schema_version": 3,
+  "role": "future",
+  "content_sha256": "69c2236e370befa3b0cddcf690f533a651f577826563d0408bfa39473e2e7e3e",
+  "evidence_sha256": "ef18f9601d9f41063a0ad037584fe6b56339a51e83a40c2176c4df4b27696bf8",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "future-01",
+      "severity": "minor",
+      "passage": "Five days after her Grammy, Olivia Dean gave a reporter birthday champagne.",
+      "problem": "The search description says 'her Grammy', and the body and Type 3 FAQ say 'after the Grammys' ('And after the Grammys she deleted the social media apps from her phone.'). Both assume she has one Grammy and that there is only one Grammys season. The 2027 nominations are due within weeks of the accuracy check, and the evidence record treats them as a pending catalyst. If she is nominated or wins again in February 2027, the description becomes stale and 'the Grammys' could mean either year. C49c is marked stable, and the C25/C25b triggers only watch for her returning to social media, not for another Grammys.",
+      "acceptance_test": "The description identifies the award without assuming it is her only one, e.g. 'Five days after her Best New Artist win'. The body sentence and the Type 3 FAQ say 'after the February 2026 Grammys'. C49c becomes time_sensitive, and C49c, C25 and C25b each carry a trigger like 'If she receives further Grammy nominations or wins, recheck every unqualified Grammy reference in the description, FAQs and body.'"
+    },
+    {
+      "id": "future-02",
+      "severity": "minor",
+      "passage": "Braham has managed her for about a decade.",
+      "problem": "Several relative durations and current-role labels are marked stable, but they go stale on their own schedule. Examples: 'Braham has managed her for about a decade' (C12; S23 has Braham saying 'We've collaborated for 10 years' in 2026), 'Emily Braham, who still manages her' (C07), 'Braham, her manager and best friend' (C35c), 'Willem Ward, her A&R at Capitol' (C11), 'Jo Charrington, president of Capitol Records UK' (C26) and 'Best New Artist put her on a list that, in recent years, includes...' (C32c). By 2031 'about a decade' will be about five years short. Any change of manager, label or A&R makes 'still manages' and the present-tense titles false, and nothing in the record would flag it.",
+      "acceptance_test": "Each duration is anchored to a year or to the source date, e.g. 'Braham, who said in 2026 that they had worked together for 10 years'. Role labels are tied to when the testimony was given, e.g. 'then president of Capitol Records UK' or 'told the Guardian in February 2026'. 'In recent years' becomes named years or 'in the 2020s'. Any present-tense status that remains (manager, label, band) is reclassified time_sensitive with a trigger such as 'If Dean changes manager, label or touring band, update the role labels.'"
+    },
+    {
+      "id": "future-03",
+      "severity": "minor",
+      "passage": "Both album covers blur her face",
+      "problem": "This is a count that a third album will break. 'Both' only works while there are two albums. The draft builds an interpretation on it ('Her default seems to be that songs belong to the listener'). The record already says a third album is expected ('I will make another album'), yet C43 is marked stable with no trigger. If the third cover shows her face clearly, the sentence becomes ambiguous and the inference loses a support, and nobody is prompted to check.",
+      "acceptance_test": "The sentence names the albums, e.g. 'The covers of her first two albums, Messy and The Art of Loving, blur her face'. C43 is time_sensitive with the trigger 'When a third album cover is released, check whether the pattern holds and revise the listener-ownership inference if it does not.'"
+    },
+    {
+      "id": "future-04",
+      "severity": "minor",
+      "passage": "The tour ended the way it went on sale.",
+      "problem": "The article never names the tour, and this bookend mixes two scopes. The November 21, 2025 sale is described as tickets for 'her first North American arena tour'. The Auckland show on October 17, 2026 ended The Art of Loving Live, a 54-show tour across Europe, North America and Oceania that began in Glasgow in April 2026 (S36, S32). Once later tours exist, a reader cannot tell which tour 'the tour' or 'the last night of the tour' means, and the bookend implies the whole tour went on sale in November 2025.",
+      "acceptance_test": "The Auckland passage names The Art of Loving Live. The November 2025 sale is described as the sale for its North American leg (or the earlier sentence names the tour). The bookend no longer implies the whole tour went on sale that day, e.g. 'The tour that included the resale fight ended with another apology.'"
+    },
+    {
+      "id": "future-05",
+      "severity": "minor",
+      "passage": "The longest conversation on record, an 87-minute episode of the songwriting podcast _And The Writer Is..._ from October 2025, was not reviewed for this analysis.",
+      "problem": "'The longest conversation on record' is an undated superlative. It will become false as longer interviews accumulate, even if S37 is never transcribed. Its only trigger (C53: 'When S37 is transcribed') waits on an internal research step, not on any outside event. The sentence also puts a gap the research log calls fixable (audio plus whisper) into reader copy for as long as the page stays up.",
+      "acceptance_test": "Preferably, S37 is transcribed and reviewed before release, and the sentence is removed or replaced with what the episode adds. If that is not done, the sentence is dated ('the longest available as of October 2026') and C53's trigger also fires when the next long-form interview or a refresh happens."
+    },
+    {
+      "id": "future-06",
+      "severity": "minor",
+      "passage": "The Two's usual costs, over-giving and resentment at going unthanked, do not show up in public.",
+      "problem": "This is an absence-of-evidence claim about the record as of October 2026, and it is one of the article's own falsification points ('That could be health, privacy, or a sign the read is wrong'). C54 is marked stable with an empty review_trigger, while the parallel limit C16c ('no family member, former partner or critic') is correctly time_sensitive. A future memoir, collaborator interview, ex-partner account or the untranscribed S37 could add exactly this material, and the record would not prompt a re-test of the type.",
+      "acceptance_test": "C54 is time_sensitive with a trigger like 'If any on-record account describes her over-giving, resentment at being unappreciated, or difficulty receiving help, revise this sentence and re-test Type 2 against Types 3 and 7.'"
+    },
+    {
+      "id": "future-07",
+      "severity": "minor",
+      "passage": "When she describes what she wants from it, and from life off the road, listen for which she names: people and giving, goals and standing, freedom, or peace.",
+      "problem": "This is the page's forward test. It tells readers that a third-album answer 'would move this read more than any award'. No claim inventories this passage. The nearest trigger (C33: 'update the career-status sentence') only asks for a factual update, not for running the test. As a standard profile, the record has no next_review date. The commitment exists only as free text in research_tasks item 5. When the third album arrives, the page could get a date fix without anyone checking her answer against the four options.",
+      "acceptance_test": "The evidence record has a time_sensitive claim for this passage, or C33's trigger is extended, reading roughly: 'When the third album is announced, or her first long post-tour interview appears, classify what she says she wants against people/giving (2), goals/standing (3), freedom (7) and peace (9); re-test the type; revise What the record can't show yet.' The February 2027 Grammys season is listed as an interim checkpoint."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Then she found out it was Obell's birthday.",
+      "reason": "The hook is a specific, dated, attributed anecdote (ELLE, February 6, 2026), not a current-status claim. It will read the same in 2031 and introduces a pattern the rest of the article tests."
+    },
+    {
+      "passage": "The bravery line was older than the night.",
+      "reason": "It ties the 2026 Grammy speech to her 2024 British Library remark, so the thesis rests on a repeated behaviour across years, not on the night's news. This is what lets the argument survive once the Grammy recedes."
+    },
+    {
+      "passage": "Any headliner apologizes after a 40-minute stoppage. What matches November is the sequence: sorry first, then making it right for the people in front of her.",
+      "reason": "The latest event in the piece (Auckland, October 17, 2026) is used with a self-limiting inference. Removing it would leave the argument intact, which is exactly what the five-year test asks."
+    },
+    {
+      "passage": "Calling her boundary talk \"Two growth\" would make the theory impossible to lose. So it stays here as a tension the type does not resolve.",
+      "reason": "This leaves an honest, unresolved contradiction in place instead of explaining it away. A later refresh can resolve or keep the tension without retracting anything the page claimed."
+    },
+    {
+      "passage": "That answer would move this read more than any award.",
+      "reason": "It commits the page to a concrete future discriminator rather than to her current status, which makes the profile easy to reopen and keeps it from depending on chart or award news. Keep the commitment and back it with a trigger (future-07)."
+    }
+  ],
+  "assessment": "Five-year test: passes on the thesis. The opening anecdote and the central pattern (attention handed outward at peak moments, apology before the fight) are built from dated 2023–2026 episodes. Removing the latest events (Melbourne and Auckland, October 2026) leaves the argument standing, and the draft itself treats Auckland as weak support. Absolute dates are used almost everywhere. 'Rein Me In' is written as 'became' the record on July 31, 2026, so a later record-break will not falsify it. The third-album status is dated 'as of October 23, 2026'. Time-sensitive tracking exists for social media (C25), career status (C33), witness limits (C16c) and the untranscribed podcast (C53). The gaps are maintenance-level, all minor. First, unqualified 'her Grammy' / 'the Grammys' references face a catalyst within weeks (the 2027 nominations). Second, relative durations and current job titles are marked stable. Third, two count- or absence-based claims (C43, C54) have no triggers. Fourth, the tour bookend never names The Art of Loving Live and mixes the North American on-sale with the world-tour finale. Fifth, the page's own forward test has no actionable trigger in the claim record. Risks I would keep raised: contested_typing (medium confidence, a strong Three case plus live Seven, Nine and Six readings) and sensitive_allegations. The latter covers the unresolved Mattie Music Group suit over 'I've Seen It', filed October 1, 2026, which names her label and publishers but not her, and her quoted mental-health disclosures. The suit is rightly kept out of the body, but after C34 was dropped its only tracker is research_tasks item 6, so that item must survive into the edit-stage record. Similarity advisory did not trip (max 0.125 against Bill Clinton on 'The Two's pattern runs in plain steps', which is ordinary type vocabulary). The closest content echo is the generic Two description paragraph against Dolly Parton's 'They notice needs quickly'. That paragraph is the most reusable text in the piece but is not meaningful reuse of an argument."
+}
