@@ -1,0 +1,27 @@
+{
+  "schema_version": 3,
+  "subject": "kareem-rahma",
+  "mode": "create",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_verify_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-25_06-00-02-828_kareem-rahma/candidate-repair.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-25_06-00-02-828_kareem-rahma/evidence-repair.json",
+    "resolution": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-25_06-00-02-828_kareem-rahma/resolution-repair.json",
+    "review-subject": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-25_06-00-02-828_kareem-rahma/review-subject.json",
+    "review-fan": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-25_06-00-02-828_kareem-rahma/review-fan.json",
+    "review-critic": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-25_06-00-02-828_kareem-rahma/review-critic.json",
+    "review-unfamiliar": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-25_06-00-02-828_kareem-rahma/review-unfamiliar.json",
+    "review-enneagram": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-25_06-00-02-828_kareem-rahma/review-enneagram.json",
+    "review-future": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-25_06-00-02-828_kareem-rahma/review-future.json",
+    "baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-25_06-00-02-828_kareem-rahma/baseline-reader.md",
+    "checks": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-25_06-00-02-828_kareem-rahma/checks-repair.json"
+  },
+  "outputs": {
+    "verification-repair.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-25_06-00-02-828_kareem-rahma/verification-repair.json"
+  },
+  "content_sha256": "ceb58dfdd54c6c0819d2de0b0726c47f4d60a7d98815773f6379d90f14ecde27",
+  "evidence_sha256": "5d06742944455b83f4891dee3202801aef1a1b2fed5d51cf918f908d09dee967"
+}

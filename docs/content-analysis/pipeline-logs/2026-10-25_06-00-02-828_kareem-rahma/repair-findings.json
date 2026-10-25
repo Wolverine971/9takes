@@ -1,0 +1,25 @@
+{
+  "eligible": false,
+  "blockers": [
+    "verification:revise",
+    "unresolved:verify-01:The center test and FAQ 2 count his dread of a desk career as cleanly Seven-shaped (\"A trapped life, not a worthless one, is the Seven's fear\"; FAQ: \"Seven stays narrowly ahead because the life he says he dreaded was a trapped one, emailing for a living until 80\"). The record cuts the other way in at least one telling. In Interview (S21, May 2026) the same dread, \"I hated the idea of sending emails back and forth for a living for the rest of my life\", is followed directly by \"You want someone to love you, or a lot of people to love you. I was like, 'I'm destined for greater things. I should stand out. I deserve more than being just a cog in the machine.'\" The article quotes that answer in the Type 3 section but stops before \"I deserve more than being just a cog in the machine.\" It never tells the reader that the dread it scores for Seven sits in that answer. Mpls.St.Paul (S06) introduces the 40-more-years dread with \"I didn't want to be just a businessman\", which can be read either way. By the article's own definition of the Three's fear (\"being worth little unless seen succeeding\"), the Povich telling is Three-shaped, so the fear evidence is mixed. So \"one shape\" and the first of the two reasons Seven \"keeps narrowly ahead\" overstate what the sources show. C139, C143 and C148 record the reading without this counter-context. This is a context-fidelity error on a load-bearing discriminator and its metadata, not a sourcing gap.",
+    "overall_below_8.5:8.1",
+    "enneagram_below_8:7.5"
+  ],
+  "quality": {
+    "evidence": 8,
+    "enneagram": 7.5,
+    "originality": 8.5,
+    "writing": 8,
+    "durability": 8.5,
+    "hook": 9,
+    "discoverability": 7.5,
+    "overall": 8.1,
+    "letter": "B",
+    "rubric_version": 3,
+    "graded_at": "2026-10-25",
+    "caps_applied": [],
+    "needs_review": true,
+    "content_sha256": "8f8fa1ea3ebb9b3f3ed58c802471598f9c269e4dcf63d6773db17070b170216f"
+  }
+}

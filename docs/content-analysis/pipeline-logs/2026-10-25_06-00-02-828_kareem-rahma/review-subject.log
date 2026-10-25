@@ -1,0 +1,21 @@
+The subject (fairness) review for Kareem Rahma is done. It's in `docs/content-analysis/pipeline-logs/2026-10-25_06-00-02-828_kareem-rahma/review-subject.json`. The file passes the review schema, and every finding and protected passage matches the draft word for word. I changed no other files and published nothing.
+
+**Overall:** the draft mostly keeps what Rahma said apart from the author's interpretation. The main pattern is that it cuts his own softening words, so the portrait comes out harsher than his accounts. It has 8 findings: 3 major and 5 minor.
+
+**Major:**
+- **His father:** the draft quotes "really controlling" but drops what he said in the same podcast answer: "he was a good dad and I loved him and he loved me." His father has died and can't respond.
+- **Harris episode:** the draft leaves out that the campaign apologized for the "bacon is a spice" take (NYT). It also drops the reason he gave the Times for not publishing, which was about being Muslim and Gaza. And it places his faith comment right after the episode without his hedge ("I don't know. I guess…"), which suggests a link he never drew.
+- **FAQ answers:** they present the author's reading of his grief as fact ("he protected momentum rather than an image"). The body gives his own reasons, his father's "just keep going," but the FAQs don't, and FAQs often show alone as search snippets.
+
+**Minor:**
+- "When something hurts, Rahma speeds up" turns two episodes into a rule about him. It also leaves out his line that the weekend after the funeral was "obviously sad and difficult."
+- The description's "he says fun decides every yes" claims more than he said. His words were that fun is "number one" on his list.
+- The bullying quote stops before his reason: he built his humor "to avoid getting punched in the face." The draft then calls it a classic Three move.
+- The draft says a Keep the Meter Running episode "once" cost him $2,000. He described that as his normal cost per episode, and said SubwayTakes started "out of need" because the cab show was too expensive.
+- "Andrew Kuo talks publicly about the show, not about him" isn't supported. The sources hold only two short Kuo quotes, and nobody reviewed the SubwayTakes Uncut podcast he co-hosts.
+
+**Not checked live:** I worked from the source copies saved during research and didn't re-fetch anything. The podcast and Forbes wording comes from machine transcripts that still need the re-listen research flagged. The draft also calls Rolling Stone's CT Jones "her," but the source gives only the name. I put that in the assessment rather than making it a finding.
+
+**Similarity check:** the flagged match with the Tyla draft is just the common phrase "the pattern runs." The sentence "The pattern runs in a few plain steps." does appear word for word in the shyam-sankar draft. That's the site's usual phrasing rather than a fairness problem, so I didn't make it a finding.
+
+**Risk flags:** contested typing stays on from research. I found nothing that calls for adding sensitive allegations, historical uncertainty or a major thesis change.

@@ -1,0 +1,22 @@
+I've written the unfamiliar-reader review for the Dan Ives draft to `review-unfamiliar.json` in the run directory. It passes the pipeline's review schema, and every quoted passage matches the draft word for word. I didn't touch any other file in the repo or publish anything; the only other thing I created is a small helper script in `/tmp`.
+
+**Verdict:** Read cold, the draft has real pull. The blocked-reporters opening, the Musk "simplify" irony and the side roles piling up give a newcomer a story, and the Type 3 alternative is argued fairly. I found 3 major and 5 minor problems, almost all about orientation and stakes rather than facts.
+
+**Major:**
+1. **The cost of his side roles is asserted, not explained.** The Seven-over-Three argument depends on readers seeing why outside roles hurt an analyst's credibility. The draft never says "conflict of interest," and it only shows how one role (Zeta) overlapped with his coverage.
+2. **"The fear he does name is falling behind" stretches the quote.** He was talking about the risk for companies and colleges in an answer about AI ethics, not about himself. It's the only direct fear evidence in the type section.
+3. **The career summary and FAQs skip 2016–2018.** They omit the Synchronoss and GBH Insights years, the same gap the page later criticizes Ives for. Related slips:
+   - "25 years as an analyst" is Fortune's own framing, but the FAQ presents it as his words.
+   - The age FAQ quotes "I am 51 today" alone, which reads like it was his birthday.
+
+**Minor:**
+- His identity arrives about 310 words in, late for people searching "who is Dan Ives."
+- "Ives had used that word before" comes right after "I'm unblocking you," so it reads as "unblocking" rather than "simplify."
+- Terms are left unexplained: FINRA, sell-side, merchant bank and ORBS. A second ETF also appears late with no introduction.
+- "Musk's politics" (2025) never says the cause was his DOGE role.
+- The guardrails-then-Eightco point is made twice, and the body runs about 3,600 words, a little over the ~3,500 target.
+- The similarity check flagged the type section, but only its Type 7 definition and "its own section below" signpost repeat the recent Dylan Patel profile. The argument itself is specific to Ives.
+
+**Kept as protected passages:** the "I'm unblocking you" exit, the SoHo hat-shopping moment, "The turns are the test," the ten-months line about the job he expected to keep "for years to come," and the "Without the mobsters" ending.
+
+The risk flags match the evidence record (sensitive allegations, contested typing), so the six-reviewer jury still applies. I checked the Fortune article text myself: "Ives paused, 'Without the mobsters'" is verbatim, and "25 years" is the reporter's wording, not a quote from Ives.

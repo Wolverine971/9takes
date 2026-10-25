@@ -1,0 +1,22 @@
+I've written the Enneagram review to `docs/content-analysis/pipeline-logs/2026-10-24_06-00-03-871_dan-ives/review-enneagram.json`. It passes the review schema, its hashes match the request, and every quoted passage appears exactly once in the draft. I didn't change any other repo files or publish anything.
+
+**Verdict:** Type 7 at medium confidence is a fair call, but the draft's main argument for 7 over Type 3 doesn't hold up as written. Both risk flags stay on: contested typing, and the sensitive material (the SEC order, the Synchronoss termination, Barron's disputed conflict reporting).
+
+**Major findings (5):**
+1. **Wrong "asset" in the test.** The draft says a Three would protect his credibility as an objective analyst. Ives's own words say his reputation rests on being recognized: the clothes drove "the global success," and people "know me as the person who wears the funky shirts." After the Barron's story he dropped the one role without his name on it (Eightco) and added ones with it (a second ETF licensing his likeness, Yorkville Ives, Ives Ultra). That pattern fits Type 3 at least as well.
+2. **"He did not run a repair campaign" is contradicted by the draft's own record.** He defended himself on CNBC and a podcast, left Eightco within six weeks, then had his publicist go back to Barron's and told the reporters "I'm unblocking you." Two FAQ answers repeat the error.
+3. **The clothes quotes are read selectively.** In the NY Post, the example right after "constricting in terms of how I think" is about how viewers read his jacket. The Post and Business Insider pieces also contain lines about his brand and being imitated, which the draft leaves out.
+4. **The SoHo shopping scene is out of order.** "Dude, that thing is sick!" and "Oh, that's so cool" happened inside the store selling his own clothing line, with the employee who worked on that line. The draft presents it as stray delight before a separate "business stop."
+5. **The "fear of falling behind" quote isn't about him.** He said it about companies and colleges adopting AI. Fear of falling behind also fits Type 3.
+
+**Minor findings (4):**
+- The plain-language type answer says he "is" a 7 without the medium-confidence caveat or naming Type 3.
+- The type definition and a signpost sentence are copied word for word from the Dylan Patel draft. The arguments themselves differ, so this is boilerplate rather than a reused argument.
+- Evidence that favors Type 3 is filed under "oddities" instead of being counted for the rival.
+- "I don't worry about others" is about how he picks stocks, not about critics. And the Eight dismissal leans on a stereotype.
+
+I opened the Business Insider shopping piece, the NY Post profile and the Fortune interview to check the context of the quotes behind findings 3, 4, 5 and the "I don't worry about others" one.
+
+**Kept as strong writing (5 passages):** the "I'm unblocking you" opening, "Ives had used that word before," the observation that his alarm never goes off at the AI boom itself, the "picks the version where it works out" line, and the restraint on the Synchronoss chapter.
+
+**For the editor:** if they can't find a choice where chasing an option clearly cost him the recognition he cares about, the article should say 7 versus 3 is close, or the profile should be held for more research. Changing the type would need a `--refresh --expanded-review` run.

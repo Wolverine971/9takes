@@ -1,0 +1,28 @@
+Error: Reached max turns (60)
+[runner] Turn limit reached; resuming session b368ceb8-fc64-4967-939c-afc9217644a5 to write outputs
+I've written all three repair files for Dan Ives, but the page is on a **research hold** rather than ready for release. I fixed the factual errors the verifier found. The Type 7 vs Type 3 question still has no evidence that settles it, so I didn't paper over it. Nothing was published, and no other files were changed.
+
+**Why it's held**
+The verifier said the Type 7 read only stands if Type 3 fails some sourced test. I looked hard for that test and didn't find one.
+- **The Synchronoss years:** neither the 2016 Synchronoss press release nor the 2018 Wedbush one says why he left research or why he came back. Searches for interviews from that period turned up nothing.
+- **One new detail, not decisive:** I transcribed his December 2025 podcast with Wilfred Frost. He says that in 2022, when tech stocks were "getting crushed," he got "hundreds of messages, like every day" calling him a clown "still wearing the green sports jacket," and he kept wearing it. That leans Seven. But by 2022 the jackets were already his brand, so a Three would keep them too. I added it to the article and weighed it that way.
+
+So the evidence file is now marked `insufficient_evidence`, with five concrete research tasks. The most important is finding his own account of the Synchronoss move. Type 7 at medium confidence stays as the working read; I didn't raise the confidence.
+
+**What I fixed**
+- **The outside roles (major):** his FINRA record lists six outside roles, not three. One is the Yorkville affiliate. Two started in September 2026, two months after he said "I needed to simplify": chairing the Ives Ultra fund and advising Innovation X Global Opportunities. An SEC filing shows Innovation X is a separate private equity fund with no listed Yorkville tie. "Most of what followed belongs to the new firm" is gone, and the article now says his firm owns only 49.9% of the fund's adviser.
+- **The type argument (major):** the article now reports his launch-week line "you have to show them the results" and counts it as Three evidence. I replaced the old forward test, because that line already half-met it.
+- **Three wording fixes:**
+  - "Lobbied" became "went to Capitol Hill to back AI and crypto."
+  - "Ives has never named it" is now limited to the interviews opened for this page.
+  - The SEC sentence now includes the company reporting violations the SEC found he caused.
+
+**Checks**
+- All three files pass the schema check, and the draft passes the mechanical release checks.
+- All 47 earlier reviewer decisions carry forward plus the 5 new ones, and all 17 protected passages are kept.
+- The article grew from 3,901 to 4,192 words. That's still under the 4,500 limit, but the verifier had already marked writing down for length.
+
+Files are in `docs/content-analysis/pipeline-logs/2026-10-24_06-00-03-871_dan-ives/`:
+- repair.md
+- evidence-repair.json
+- resolution-repair.json

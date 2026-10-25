@@ -1,0 +1,93 @@
+{
+	"schema_version": 3,
+	"role": "critic",
+	"content_sha256": "774cb04858a7025c34bef68bd64baf1c67eafa02636a056aa98eb0606e1df237",
+	"evidence_sha256": "20185a564df3a924d52729e2a45ac96675f2ab00bde640891896a7528f62194b",
+	"risks": {
+		"sensitive_allegations": true,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": false
+	},
+	"findings": [
+		{
+			"id": "critic-01",
+			"severity": "major",
+			"passage": "Ives kept adding roles that put it at risk, in public, after a national magazine and outside experts said so. Days later he said he would keep evaluating new ones.",
+			"problem": "The discriminator tells the post-criticism record from one side only. The sources show concrete repair after the January 31, 2026 cover story. Barron's (S07, July 17, 2026) asked him why he 'start[ed] adding disclosures to his posts on X after we published our article.' He went on CNBC after the story ran. He stepped down from Eightco six weeks later. He told the same reporters in July, 'A number of the roles I no longer have.' And his publicist sought the interview with the two reporters he had blocked. The draft omits most of this and then says, here and in the next paragraph, 'he did not run a repair campaign built on specifics. He avoided the critics.' The FAQ repeats it as fact: 'when the criticism came he avoided it and moved to a bigger venture instead of repairing his image.' Pruning a liability and adding disclosures is what the Three reading predicts. The one dated addition while he was still an analyst is the license of his image and likeness for the second ETF, starting 04/01/2026 (FINRA, S11), and the discriminator never cites it. It also drops the second half of the podcast line, 'and then look at existing ... what makes sense for me' (S09), even though the earlier section reports both halves.",
+			"acceptance_test": "The Type 3 section gives the dated post-cover sequence in both directions: the April 1, 2026 ETF license plus the Yorkville/IVAI roles on one side, and the X disclosures, the CNBC defense, the March 2026 Eightco exit, 'a number of the roles I no longer have' and the publicist's outreach on the other. It then either names a specific observation that still separates 7 from 3, or says this discriminator is weaker than presented. The sentence 'did not run a repair campaign' and both type FAQs agree with that revised account."
+		},
+		{
+			"id": "critic-02",
+			"severity": "major",
+			"passage": "A Three guards the asset that makes them admired, and for a sell-side analyst that asset is credibility as an objective judge of stocks.",
+			"problem": "The rule that defeats the rival only works if a Three's admired asset must be objectivity. The article's own evidence points elsewhere. Barron's calls him 'Wall Street's Biggest Showman.' Wedbush praises his 'individual brand.' He told BI 'even people who don't know my stock calls, they know me as the person who wears the funky shirts.' He told BI's launch interview he brings 'his brand' to Yorkville Ives (S06). The draft also concedes that 'the Eightco seat also bought visibility a Three would value.' If the risky roles also grew reach and fame, then 'he risked credibility' fits a Three trading analyst credibility for celebrity, and the discriminator cancels itself. The similarity advisory supports the concern. The phrase matches with dylan-patel ('that case gets its own section below', 'keeping their options open') are only ordinary type vocabulary. But the argument shape is the same 'a Three would protect the image; he didn't; so Seven' move that defeats Three in that profile ('A Three defending an image would take the advice of the people paid to protect it'). That looks like a reusable template rather than a test specific to Ives.",
+			"acceptance_test": "The discriminator cites at least one sourced Ives behavior that a 'Three as showman' reading does not predict: a choice that cost visibility or reach as well as credibility, or one that chose novelty over audience. The type FAQ cites that same observation. If no such observation exists, the article says the 7-over-3 call rests mainly on his self-reported motives about clothes and risk, and the FAQ wording reflects that limit."
+		},
+		{
+			"id": "critic-03",
+			"severity": "major",
+			"passage": "By Monday's close, Eightco's implied market value was $8.5 billion.",
+			"problem": "The article reports the surge and never the aftermath. Barron's cover story (S08, January 31, 2026) says that 'after peaking with a market value of $7 billion, the stock quickly fell and has since shed 97% of its value.' The July piece (S07) says Eightco 'now trades around 60 cents a share.' S08 also quotes his year-end chairman message telling investors 'we think it's an undervalued asset.' The article's central question is what he does when an exciting option costs something. The most concrete cost of his most exciting option fell on investors, and it is missing. So 'The bill came on January 31, 2026' counts only his reputational bill. The omission also leaves untested the protected claim that his alarm 'has not gone off at the idea that the AI boom itself might be overdone', and the closing claim that he 'picks the version where it works out'.",
+			"acceptance_test": "A dated, attributed sentence reports Eightco's decline (S08 and/or S07) and his chairman message calling the token undervalued. The article states whether the opened record contains any Ives response to the collapse. If it contains none, it says so plainly, without guessing at motive. The new sentence names no third parties beyond what Barron's attributes."
+		},
+		{
+			"id": "critic-04",
+			"severity": "major",
+			"passage": "His FINRA record answers \"No\" to whether the order rests on rules against fraudulent, manipulative or deceptive conduct.",
+			"problem": "The sensitive-allegation paragraph keeps the subject's most favorable characterization and drops the regulator's least favorable one. The SEC order (S10, para. 15) finds that 'as Ives knew or recklessly disregarded, the fee was contingent' on resale. Para. 16 says the improper revenue 'materially inflated' Synchronoss's 2016 results and was reversed in a restatement. Para. 17 rests the violation on Exchange Act 13(b)(5), the internal-controls and books-and-records provision. The draft reports the FINRA 'No' accurately but presents none of these findings, so the reader gets an exculpatory gloss with no knowledge finding to weigh it against. A fair-minded skeptic would read that as softening, not fairness.",
+			"acceptance_test": "Next to the FINRA line, the paragraph states in attributed form that the SEC found he knew or recklessly disregarded that the revenue was contingent, and that Synchronoss later restated. It notes that he neither admitted nor denied the findings, and it nowhere says 'fraud.' Alternatively, the paragraph drops the FINRA characterization as well, so both sides are presented equally."
+		},
+		{
+			"id": "critic-05",
+			"severity": "major",
+			"passage": "He has said he is \"not afraid to stumble.\" The fear he does name is falling behind.",
+			"problem": "This is the article's only first-person evidence for the fear core of the head triad, and it is quoted out of scope. On the Smeal podcast (S16) the question was how companies should handle AI ethics and regulation. Ives answered that regulation is 'going 25 miles in the right lane' and that firms which worried too much about ethics 'missed maybe some of this technology boom.' That is advice to institutions, and it is also the AI-trade pitch he is paid to make. The evidence record itself notes this (C27 alternative), but the prose turns it into a personal fear. Fear of falling behind fits a Three's competitive frame at least as well as a Seven's, and the Type 3 section never says so.",
+			"acceptance_test": "The quote is framed as his advice to companies and colleges about AI adoption, with the note that it is also his market pitch. The type section either adds first-person evidence of his own fear or avoidance, or says plainly that the fear core is inferred from behavior (adding options, sidestepping hard questions) rather than named by him. The Type 3 section says that 'being behind' fits Three as well."
+		},
+		{
+			"id": "critic-06",
+			"severity": "minor",
+			"passage": "They asked why he had stepped down as chairman of a crypto company, among other questions. \"We didn't hear many specifics,\" they wrote. What they got was this:",
+			"problem": "The hook gives his vaguest line and leaves out the reason he gave on the same call. Asked whether he had discussed the January reporting with his new team, he said: 'A number of the roles I no longer have. I'm so laser-focused on -- this is a gargantuan task, right? ... I really needed to be 110% focused' (S07). That is a narrowing-to-one-build account, which complicates the reading of 'simplify' as a reframe. It is also the same 'laser focused' phrase he used about Tesla in 2019, so including it would strengthen the article's mirror honestly. Separately, S07 and S08 come from the same two reporters, the ones he blocked. 'We didn't hear many specifics' is the characterization of a party to the dispute, not independent corroboration.",
+			"acceptance_test": "The opening or the 'I needed to simplify' section includes, quoted or paraphrased around the Dow Jones double hyphen, his statement that he no longer held a number of the roles and needed to be '110% focused' on building the bank. The article presents 'many specifics' as the account of the two Barron's reporters he had blocked."
+		},
+		{
+			"id": "critic-07",
+			"severity": "minor",
+			"passage": "Blocking two reporters sits oddly beside \"I don't worry about others,\" which he told Business Insider in 2025, and \"I'm like an open book.\"",
+			"problem": "The fragment is cut from a sentence about analytic and sartorial style: 'The way that I cover tech stocks goes to the beat of a different drum ... I don't worry about others, because maybe it's an unconventional way that I look at names, and I dress similar to how I cover tech' (S18). It means he ignores convention among analysts, not that he is indifferent to critics, so its tension with blocking reporters is manufactured. The 'open book' contrast is fair and can stand alone.",
+			"acceptance_test": "Either the sentence quotes enough of the BI clause to show it is about unconventional coverage and dress, or the 'I don't worry about others' contrast is removed and 'I'm like an open book' is kept."
+		},
+		{
+			"id": "critic-08",
+			"severity": "minor",
+			"passage": "He ties it to time running out, and the account says nothing about being seen.",
+			"problem": "This argument from silence is used as evidence against Three, and it comes from a single launch-week publicity interview. That interview's headline quote is 'I'm an example of what I've preached', which presents his career move as a public demonstration of his thesis. Fortune also describes 'a tolerance for calculated risk' ('when it comes to calculated risk, he likes to go for it'), while the draft says 'his appetite for risk', which drops the qualifier. And the earlier line 'Lichtenberg laid out two readings of the move' stages the writer's narration as an exchange. In Fortune the Kool-Aid version is narration followed by 'He agreed, adding...', and the 'skin in the game' reading is the writer's own framing, not shown as put to Ives.",
+			"acceptance_test": "The paragraph uses 'calculated risk' as Fortune reports it. It removes the 'nothing about being seen' inference, or weighs it against the 'example of what I've preached' framing from the same interview. It describes the Kool-Aid / skin-in-the-game pair as Fortune's framing rather than a question put to him, or reports that he 'agreed' as Fortune wrote it."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "As the call wound down, his spokeswoman said he had to get to his next meeting. Ives had one more line. \"I'm unblocking you,\" he told them.",
+			"reason": "Checked against the Barron's July 17, 2026 text: spokeswoman Marcy Simon was on the call and said he had to go to his next meeting, and he said 'I'm unblocking you.' It is a specific, sourced, curiosity-making close to the opening scene."
+		},
+		{
+			"passage": "Ives had used that word before, about somebody else.",
+			"reason": "The turn is earned. The Fox Business May 20, 2019 note does say Tesla 'instead should be laser focused on ... simplifying its business model' rather than chasing 'sci-fi projects/endeavors', and Barron's itself drew the echo. It is the article's most distinctive structural idea."
+		},
+		{
+			"passage": "So his optimism on air proves nothing about temperament by itself. The turns are the test.",
+			"reason": "This confronts the job confound honestly (the 41/45 Outperform split, Wedbush's 'individual brand') and sets up a real test instead of reading bullishness as personality."
+		},
+		{
+			"passage": "In the record opened for this page, his alarm goes off at a company's distraction or a broken quarter. It has not gone off at the idea that the AI boom itself might be overdone.",
+			"reason": "A sharp, properly scoped observation specific to Ives. Keep it, and test it against Eightco's collapse (critic-03) rather than softening it."
+		},
+		{
+			"passage": "Ives paused. \"Without the mobsters.\"",
+			"reason": "Verbatim in Fortune, July 18, 2026 ('Ives paused, \"Without the mobsters.\"'). A memorable, sourced ending detail. Only the interpretive line after it needs to stay answerable to the evidence."
+		}
+	],
+	"assessment": "Critic pass, done independently. I opened and read S02, S05, S06, S07, S08, S10, S11, S17, S18 and S26. The S09 page has no transcript, so I relied on the evidence record's machine-transcript notes and did not re-listen to the audio. Every quoted span I checked matched its source. The draft deals honestly with much of the adverse evidence: the sell-side incentive and the 41/45 split, the 2019 downgrade, the 2022 Nasdaq miss, long tenures, the SEC order, and a real 'What the type leaves out' section. The central causal story, however, is told selectively exactly where it has to win. The 7-over-3 discriminator omits his pruning and repair after the cover story (critic-01). Its decisive rule is generic and partly cancelled by the article's own concession, and the same argument shape appears in the Dylan Patel profile (critic-02). The only first-person evidence for 'fear' is advice to institutions (critic-05). Two cost facts are missing while favorable glosses stay in: Eightco's 97% fall and his 'undervalued' chairman message (critic-03), and the SEC's 'knew or recklessly disregarded' finding beside the FINRA 'No' (critic-04). None of these is fabrication, and Type 7 at medium confidence may survive. But the FAQ states the contested discriminator as settled fact. Smaller notes, not raised as findings: 'He protects the image, too' credits Wedbush's lawyer's headline request to him (Wedbush said he had no role pitching the fund). 'People who have worked with him describe' rests on one named colleague. The April 2025 tariff 'Economic Armageddon' note (S31) is a further override trigger that the list omits. Zeta's statement that its advisers are non-fiduciary is not given. The similarity trips are ordinary type vocabulary and a reused signpost. The meaningful reuse is the argument shape in critic-02. The sensitive_allegations and contested_typing risks are confirmed, so the six-role jury applies."
+}

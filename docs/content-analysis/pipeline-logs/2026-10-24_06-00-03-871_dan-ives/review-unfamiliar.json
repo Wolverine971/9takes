@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "unfamiliar",
+  "content_sha256": "774cb04858a7025c34bef68bd64baf1c67eafa02636a056aa98eb0606e1df237",
+  "evidence_sha256": "20185a564df3a924d52729e2a45ac96675f2ab00bde640891896a7528f62194b",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "unfamiliar-01",
+      "severity": "major",
+      "passage": "Each new seat put his most valuable asset, his standing as an objective analyst, at a little more risk.",
+      "problem": "The article's central cost, and the Seven-over-Three discriminator built on it (\"Ives kept adding roles that put it at risk\"), depends on the reader understanding why a research analyst's paid outside roles threaten his credibility. The draft asserts the risk instead of explaining it. It never uses the plain term \"conflict of interest,\" never says why investors care (they rely on ratings that carry no personal stake), and explains the overlap with his coverage only for Zeta (a Salesforce competitor). A reader who doesn't know Wall Street can't tell why a Worldcoin-buying company's board seat or a likeness fee on an ETF built on his research is a problem. Barron's \"aren't regularly disclosed in research reports\" and the expert quotes signal alarm without the mechanism, so the reader has to take the stakes on faith.",
+      "acceptance_test": "At or before the January 31, 2026 Barron's paragraph, one or two plain sentences explain why an analyst's outside roles matter (readers rely on ratings free of personal stake; such ties are supposed to be disclosed in research), attributed to Barron's or another opened source. Each of the three roles Barron's names (Eightco, Zeta, ETF) gets a sourced clause saying how it touched his coverage or pay, or the sentence stops implying all three overlapped. No new allegation goes beyond what Barron's reported, and Wedbush's denial stays next to it."
+    },
+    {
+      "id": "unfamiliar-02",
+      "severity": "major",
+      "passage": "The fear he does name is falling behind.",
+      "problem": "In the type section this sentence is the only direct evidence offered for the fear at the center of the Seven read, and it turns a quote about other organizations into a personal fear. The Smeal podcast line (\"the biggest risk for companies, colleges, is actually just being behind\") answered a question about how companies should handle AI ethics and regulation. The evidence record's own context says it was about institutions over-worrying and missing the boom. An unfamiliar reader will come away thinking Ives said he personally fears falling behind. He didn't. The neighboring evidence (\"constricting\" about clothes, \"treadmill\" about his job) is about his preferences, not fear. So the triad explanation looks better supported than it is.",
+      "acceptance_test": "The sentence either keeps the quote's scope (the risk he names for companies and colleges) or is clearly marked as the author's inference from his career moves. The paragraph separates what he said about institutions from what the page infers about him. If the type section still says his fear is falling behind, it cites a first-person statement about himself, or it says plainly that the fear is inferred from behavior, not stated by him."
+    },
+    {
+      "id": "unfamiliar-03",
+      "severity": "major",
+      "passage": "He spent about 16 years at FBR Capital Markets and eight at Wedbush, where he was global head of technology research until July 1, 2026.",
+      "problem": "The orientation paragraph, the \"Who is Dan Ives?\" FAQ and the \"Where did Dan Ives go to school?\" FAQ (\"then spent about 16 years as a technology analyst at FBR Capital Markets\") all present an unbroken analyst career. The 2016 to 2018 years at Synchronoss (ending in termination, per the SEC) and GBH Insights show up only about 85% of the way through. That section then faults Ives because \"the Synchronoss years do not appear in the accounts of his career he gave.\" The page repeats that same omission in the summary most readers will see first, which undercuts its own point and leaves FAQ-only readers with a cleaner career than the record shows. Related framing slips: the body's \"Twenty-five years of analyst work became \\\"the treadmill\\\"\" and the FAQ's \"He told Fortune in July 2026 that after 25 years as an analyst\" turn Fortune's narration (\"the better part of 25 years\", \"after 25 years covering other people's companies\") into a fact about his job, or into his own words. The age FAQ's bare \"I am 51 today\" reads like a birthday. In context he said \"I am 51 today but I view life through a different lens than I did when I was 40.\"",
+      "acceptance_test": "The orientation paragraph's career summary includes a neutral dated clause for the 2016 to 2018 corporate and market-research roles, with a pointer to the later section. The background FAQ mentions those roles in the same neutral terms, without adding allegation language. \"25 years\" is either attributed to Fortune's framing or reworded so it doesn't call the Synchronoss stint analyst work, and the FAQ no longer presents Fortune's paraphrase as his speech. The age FAQ says he gave his age as 51 in a July 2026 Fortune interview, without implying a birthday."
+    },
+    {
+      "id": "unfamiliar-04",
+      "severity": "minor",
+      "passage": "Ives had just left Wedbush Securities and launched a new firm.",
+      "problem": "The page targets biography-intent searches (keywords \"who is Dan Ives\"; head_term_exception: biography intent is primary), but a newcomer doesn't learn that Ives is a tech-stock research analyst until about 310 words in. Before that they meet Wedbush, \"one of his pastel shirts\" and a crypto chairmanship with no frame. The hook is strong and should stay. A clause of identity is all it needs. Separately, \"Ives had used that word before, about somebody else\" follows directly after \"I'm unblocking you,\" so the nearest quoted word is \"unblocking.\" A newcomer reads it that way until the next sentence reveals \"simplifying.\"",
+      "acceptance_test": "By the end of the third body paragraph, a reader who has never heard of Ives knows he is a Wall Street tech-stock analyst known for bullish TV calls, and the Barron's cover and unblocking sequence stays in order. The transition sentence names the word (for example, \"He had used 'simplify' before, about somebody else\"), so there's no ambiguity with \"unblocking.\""
+    },
+    {
+      "id": "unfamiliar-05",
+      "severity": "minor",
+      "passage": "As of October 24, 2026, his FINRA record listed six outside business activities",
+      "problem": "Industry terms that carry the argument go undefined. FINRA appears four times and is never identified as the brokerage industry's regulator, so \"awaiting FINRA approval,\" \"outside business activities\" and \"His FINRA record answers 'No'\" mean little to a newcomer. \"Sell-side\" appears three times unexplained, including at the key discriminator (\"for a sell-side analyst that asset is credibility\"). The reader never learns what the \"modern merchant bank\" he left Wedbush to build actually does, although the launch release defines it (\"Research, banking, trading, and capital, all under one hood\"). \"ORBS\" in the Capitol Hill post is unexplained. A second fund, the \"Dan Ives Wedbush AI Power and Infrastructure ETF,\" appears near the end with no introduction, though \"two ETFs\" is later used as Three evidence. \"Closed-end fund\" and \"board of managers of the fund's adviser\" also go unglossed.",
+      "acceptance_test": "The first use of FINRA says what it is. \"Sell-side\" gets a one-time gloss (brokerage analysts whose research goes to investor clients). One sourced sentence says what Yorkville Ives does. \"ORBS\" is tied to World's iris-scanning devices or dropped from the quote's framing. The second ETF is introduced where the first ETF is discussed, or the \"two ETFs\" line identifies it. A newcomer can follow every sentence in the side-roles and \"simplify\" sections without looking up a term."
+    },
+    {
+      "id": "unfamiliar-06",
+      "severity": "minor",
+      "passage": "In 2025 it was Musk's politics.",
+      "problem": "This sums up the 2025 Tesla alarm as being about \"Musk's politics,\" but the earlier paragraph only says \"Tesla's brand damage\" and \"a brand tornado crisis moment\" without saying what caused it. The cited Fortune piece is about Musk's DOGE role and Tesla becoming \"a political symbol.\" A reader today has to guess, and a reader in five years won't have the context at all. The same gap weakens the \"guardrails\" and \"Shut up, Dan\" beats, which don't say what Musk was spending his time on.",
+      "acceptance_test": "The March 2025 paragraph names the cause in one dated, sourced clause (Musk's role in the government cost-cutting effort known as DOGE and Tesla becoming a political symbol, per Fortune, March 20, 2025). A reader with no memory of 2025 can then see why \"Musk's politics\" sums up that override."
+    },
+    {
+      "id": "unfamiliar-07",
+      "severity": "minor",
+      "passage": "When he took the Eightco seat, it had been two months since he asked Tesla's board to put guardrails on Musk's time.",
+      "problem": "The guardrails-then-Eightco juxtaposition was already set up in the opening (\"In July 2025 he asked Tesla's board to set 'guardrails'... Two months later, Ives became chairman of a public crypto company\"), and Barron's was quoted pointing out the echo. Repeating it here re-tells the hook instead of moving the story forward. Along with the \"simplify\" irony coming back at four more points (lines on \"in practice 'simplify' meant,\" the Three reading, and the discriminator), this slows the strongest section. The draft runs about 3,600 body words, above the roughly 3,500 target. Trimming restatements is the cheapest way to get back under it without losing evidence.",
+      "acceptance_test": "The two-month guardrails/Eightco juxtaposition appears once in the body. Each later mention of \"simplify\" adds a new fact or argument rather than restating the irony. Body length falls to about 3,500 words or less, and no sourced fact, counterargument or protected passage is lost."
+    },
+    {
+      "id": "unfamiliar-08",
+      "severity": "minor",
+      "passage": "Sevens belong to the head triad, the three types organized around fear, and they handle it by keeping their options open and their attention on what could go right.",
+      "problem": "The similarity diagnostic tripped on the type section. This sentence matches the recent Dylan Patel Seven profile almost exactly (\"and they handle it by keeping their options open,\" score 0.557), and \"and that case gets its own section below\" matches the same profile at 0.801 (and Florence Pugh at 0.215). On comparison, the argument around these sentences is specific to Ives (constricting clothes, the treadmill, the Tesla mirror), so the reuse is limited to definitional and signposting boilerplate rather than a copied argument. The four-step paragraph that follows (\"The pattern runs in a few plain steps... The usual cost is focus.\") could sit in any Type 7 profile and has no Ives detail in it. A reader who has seen another 9takes Seven page will notice the template. The lower-scoring pairs (\"organized around,\" \"look like\") are ordinary vocabulary and aren't a concern.",
+      "acceptance_test": "Rerunning the similarity diagnostic shows no pair against dylan-patel at or above 0.2 and no shared phrase of three or more words in the type definition or signpost. The step-pattern paragraph either attaches an Ives example to each step or shrinks to one sentence that hands off to his evidence. The \"What is Dan Ives's personality type?\" answer stays at 60 words or fewer."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "As the call wound down, his spokeswoman said he had to get to his next meeting. Ives had one more line. \"I'm unblocking you,\" he told them.",
+      "reason": "A newcomer meets a person, not a résumé. The block-then-unblock arc, sourced to the reporters' own account, sets up the avoidance-and-charm pattern the article later argues from."
+    },
+    {
+      "passage": "At one point she asked which tech stocks excited him most, just as a store employee handed him mint green and lilac hats. \"I'm not sure he heard me,\" she wrote. What he said was, \"Dude, that thing is sick!\"",
+      "reason": "The most memorable off-camera detail on the page. It's a reporter's observation rather than his self-description, and the article immediately limits what it proves."
+    },
+    {
+      "passage": "So his optimism on air proves nothing about temperament by itself. The turns are the test.",
+      "reason": "Hands a newcomer the right question (job or temperament) and a fair way to test it. It organizes the whole section, and the Nasdaq miss and Tesla downgrades actually deliver on it."
+    },
+    {
+      "passage": "The research job he had expected to keep \"for years to come\" lasted ten months after he said it.",
+      "reason": "A dated, checkable payoff that turns two separate facts into a pattern without any psychological claim. It's the clearest stakes line in the article."
+    },
+    {
+      "passage": "Fortune's editor asked the obvious follow-up: without the mobsters?\n\nIves paused. \"Without the mobsters.\"",
+      "reason": "Ends on a real, verbatim moment (Fortune: \"Ives paused, 'Without the mobsters.'\") instead of a summary or CTA. Keep the exchange even if the interpretive sentences after it are trimmed."
+    }
+  ],
+  "assessment": "Read cold, this is a page with real momentum. The blocked-reporters cold open, the Musk \"simplify\" mirror (an irony Barron's itself drew) and the role-by-role pile-up give a newcomer a story with a turn, not a résumé. The sections build: job-versus-temperament test, side roles, exit, Three rival, unexplained material, closing image. Dates are absolute, the Three case is argued fairly, and the limits paragraphs (one afternoon proves little; grief doesn't type him) keep it honest. A reader with no prior knowledge leaves knowing what he does, the 2019/2022 record that complicates the 'perma-bull' label, the conflict-of-interest story and the 7-vs-3 discriminator. The gaps are mostly ones only a newcomer would feel. (1) The stakes of the side roles are asserted, not explained, and the discriminator depends on them. (2) The one 'fear' quote in the type section is about companies, not him. (3) The career summary and FAQs skip the 2016-2018 years the page later faults him for omitting. (4) Industry jargon (FINRA, sell-side, merchant bank) and the unstated DOGE context. Identity arrives about 310 words in, which is late for biography-intent search, though one clause fixes it. Similarity: the trip is confined to Seven-definition and signposting boilerplate shared with the Dylan Patel draft. The arguments themselves are Ives-specific. Standard format is correct: a 25-year public record, not an open case. Risks match the evidence record (sensitive allegations: SEC settled order and disputed Barron's reporting; contested typing: 7 vs 3 at medium confidence). I spot-checked the Fortune text: \"25 years\" is Fortune's narration, and \"Ives paused, 'Without the mobsters'\" is verbatim. Body is about 3,600 words, slightly over target."
+}

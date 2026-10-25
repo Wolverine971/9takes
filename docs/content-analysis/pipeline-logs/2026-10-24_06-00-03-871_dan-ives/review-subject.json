@@ -1,0 +1,93 @@
+{
+	"schema_version": 3,
+	"role": "subject",
+	"content_sha256": "774cb04858a7025c34bef68bd64baf1c67eafa02636a056aa98eb0606e1df237",
+	"evidence_sha256": "20185a564df3a924d52729e2a45ac96675f2ab00bde640891896a7528f62194b",
+	"risks": {
+		"sensitive_allegations": true,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": false
+	},
+	"findings": [
+		{
+			"id": "subject-01",
+			"severity": "major",
+			"passage": "When the damage came, he did not run a repair campaign built on specifics. He avoided the critics, defended the roles as new and open in friendly rooms, then called his exit simplifying and moved into a bigger venture described in possibilities.",
+			"problem": "The opened record does not support \"avoided the critics\" or \"no repair campaign built on specifics\" without qualification. He did avoid Barron's itself (no reply, blocking). But on the February 11, 2026 OK Computer episode (S09, opening minutes of the prior-stage machine transcript), Dan Nathan says the cover story ran on a weekend and \"On Monday, you were on Fast Money with us. You knew the questions were gonna come. You did it right there on National TV.\" He also credits him for \"showing up on CNBC the next day\" when most people would hide, and Ives answers, \"Do I look like someone that's like hiding.\" Barron's July 17, 2026 follow-up (S07) reports that he began adding disclosures to his X posts after the January article. He also left Eightco six weeks after it. Adding disclosures answers the specific defect alleged (non-disclosure), so the passage omits a concrete repair. \"Friendly rooms\" is partly defensible, since Nathan is a friend and a Fast Money regular, but the reader is not told which rooms. This paragraph carries the Seven-over-Three discriminator, so the omission flatters the thesis. It has no claim record (C37 covers only the preceding paragraph's sentence).",
+			"acceptance_test": "(a) The paragraph separates avoiding Barron's (no reply, blocking) from responding publicly elsewhere and no longer says flatly that he avoided the critics. (b) It states, attributed and dated, that he went on CNBC's Fast Money the Monday after the cover story (per Nathan, February 11, 2026; re-listen before quoting the machine transcript), that Barron's reported he began adding disclosures to his X posts after the article, and that he left Eightco six weeks later. (c) If \"friendly\" stays, the venues are named so readers can judge. (d) The Seven-over-Three discriminator is restated so it holds with these facts included, or confidence is lowered. (e) The passage gets a claim record citing S07 and S09."
+		},
+		{
+			"id": "subject-02",
+			"severity": "major",
+			"passage": "when the criticism came he avoided it and moved to a bigger venture instead of repairing his image",
+			"problem": "Both type FAQs state as fact what the body treats as inference, and this one adds a causal story no source supports. It implies he left Wedbush because of the criticism and made no repair. His own accounts give other reasons: S05, wanting to build something; S06, he had been \"toying with the idea of starting a firm for a long time\", had known Yorkville for years, talks ran for months, and it was a \"tough decision\"; S07, \"right time, right partners, right place\". No opened source links the exit to the Barron's story, and the record shows responses (see subject-01). The Type FAQ says the roles \"cost him credibility\", but the body says only that they put his credibility \"at risk\". The record after January 2026 shows no credibility loss: Wedbush licensed his likeness for a second ETF from April 1, 2026 (S11), he launched a bank in July, and an Ives-named fund priced a $200 million IPO in September. FAQs surface in search results and structured data, so overclaims there travel furthest. Neither FAQ sentence has a claim record.",
+			"acceptance_test": "The \"Why isn't Dan Ives a Type 3?\" answer no longer implies that the criticism caused the move or that he made no repair; any causal link is sourced or removed. The Type FAQ replaces \"cost him credibility\" with wording the body supports (for example \"drew public questions about his objectivity\" or \"put his credibility at risk\"). Both FAQ sentences have claim records consistent with the edited body."
+		},
+		{
+			"id": "subject-03",
+			"severity": "major",
+			"passage": "Still, in practice \"simplify\" meant trading a crypto chairmanship and a day job for a bigger venture with his name on the door.",
+			"problem": "The article's spine is that \"simplify\" was contradicted in practice, but it leaves out his own explanation of what he meant. The same Barron's July 17, 2026 piece (S07) prints it: \"A number of the roles I no longer have\", followed by the point that building the merchant bank is \"a gargantuan task\" where he \"really needed to be 110% focused.\" That explanation, shedding side roles to concentrate on one large venture, is close to what this sentence presents as a gotcha. S07 also carries his written statement, \"my transition was handled appropriately\", which the draft never uses. In the hook, \"What they got was this:\" suggests the simplify line was his whole answer. In \"The simplified version kept growing\", the IVAI adviser is 49.9% owned by Yorkville Ives (S33), and the AI 30 is now Yorkville Ives research, so both belong to the firm's business rather than being new side roles. The draft concedes \"Some of that\" but does not say which.",
+			"acceptance_test": "(a) The simplify section reports, attributed to Barron's July 17, 2026, his explanation that he dropped \"a number of the roles\" to be \"110% focused\" on building the bank (quote only spans without the Dow Jones double hyphen, or paraphrase). (b) The hook no longer implies the simplify line was all he said, or the body supplies the rest. (c) The \"kept growing\" passage separates the new firm's own structure (Yorkville affiliation, the IVAI adviser chair, the AI 30) from independent outside roles (Snow Milk, Zeta, the Wedbush ETF licence). (d) The gotcha sentence is argued against his stated reason, not in its absence, or softened to match."
+		},
+		{
+			"id": "subject-04",
+			"severity": "major",
+			"passage": "Barron's reported that the Eightco, Zeta and ETF roles \"aren't regularly disclosed in research reports\" and often overlapped with his coverage.",
+			"problem": "The allegation is attributed and Wedbush's general reply appears, but the draft takes only the critical side of a story (S08) that also prints specific mitigating context. Barron's itself says \"The bio atop his X feed notes some of the roles\" and that it learned of the Zeta role \"from a footnote in his Finra record\". It reports that Wedbush said Ives \"was prohibited from holding the ETF or the stocks within it\", with an \"information barrier\" between him and the fund's managers, and that Zeta's advisers \"serve in a nonfiduciary, non-governance capacity.\" On the podcast (S09) he says of the ETF that he has \"nothing to do with the actual management\" and that the roles are on his U4. Without these, two named experts' criticism stands against a one-line corporate denial. The same gap makes a later sentence unfair: \"Blocking two reporters sits oddly beside 'I don't worry about others,' ... and 'I'm like an open book.'\" In S18, \"I don't worry about others\" refers to his unconventional way of covering stocks and dressing. In S09, \"open book\" follows his point that the roles are \"all my U4, and I don't try to hide.\" Neither was a claim about how he treats critics.",
+			"acceptance_test": "(a) The conflict paragraph adds, attributed to Barron's, at least the ETF holding prohibition and information barrier, and the fact that his X bio and FINRA record listed some of the roles. (b) If the ETF licensing fee is mentioned, his point that he does not manage the fund appears too (paraphrased, or quoted after re-listening to S09). (c) The \"sits oddly\" sentence either drops both quotes or says what each one was about. (d) The allegation stays attributed, and no sentence states or implies that he broke rules."
+		},
+		{
+			"id": "subject-05",
+			"severity": "minor",
+			"passage": "He protects the image, too: a publicist handles hard questions, he blocked the Barron's reporters, and Wedbush asked Barron's to change a June 2025 headline that called him a fund pitchman.",
+			"problem": "This counts an act by his employer as evidence of Ives's personal image management. Per S08, a Wedbush lawyer asked for the change and gave a compliance reason: Ives \"had taken no role in selling or pitching the fund.\" The draft omits the reason, so the request reads as vanity. Barron's also notes that his feeds linked to the ETF coverage, which is the fair counterpoint. As written, the reader is invited to attribute a motive to Ives for something the record shows Wedbush did, for a stated regulatory reason.",
+			"acceptance_test": "Either remove the Wedbush clause from the list of things Ives does to protect his image, or attribute it to Wedbush with its stated reason (he had no role selling or pitching the fund), optionally adding Barron's point that his feeds linked to the ETF stories."
+		},
+		{
+			"id": "subject-06",
+			"severity": "minor",
+			"passage": "His 2026 line, \"I've never built anything,\" passes over the time he spent inside a company.",
+			"problem": "Together with \"The biggest gap is a chapter he rarely mentions\", this implies he hides the Synchronoss years. The evidence is thinner than the implication. The sample is launch-week and alumni interviews in which no interviewer asked about it. His self-reported FINRA record lists both the Synchronoss job and the SEC order (S11), and a 2020 interview bio lists the role (S13). \"I've never built anything\" most plausibly means he had never founded anything, and an investor-relations job is not that. The evidence record says so (C46 alternative), but the article does not. Placed just after the SEC paragraph, the sentence invites readers to infer concealment of a regulatory matter, which the draft elsewhere says it will not guess about.",
+			"acceptance_test": "Either delete the \"passes over\" sentence, or add that the line plausibly refers to founding something. Rescope \"a chapter he rarely mentions\" to the interviews opened for this page, and note that his FINRA filing lists both the job and the order."
+		},
+		{
+			"id": "subject-07",
+			"severity": "minor",
+			"passage": "He ties it to time running out, and the account says nothing about being seen.",
+			"problem": "This turns his account of his parents' illnesses and deaths into anti-Three evidence by absence. A launch-week answer about grief would rarely mention being seen, whatever the person's type, so the silence discriminates nothing. Using a private loss as a typing lever is the overreach the evidence record warns against (C10: do not make it the engine of the type argument). The paragraph is also introduced as his \"appetite for risk\", but Fortune (S05) reports that he framed it as a \"tolerance for calculated risk\" and added that it is not \"jumping off a cliff\". The word \"calculated\" matters to a Seven reading that leans on restlessness.",
+			"acceptance_test": "The grief paragraph drops \"and the account says nothing about being seen\" and makes no typing inference from the absence. The lead-in uses his framing (\"calculated risk\", attributed to Fortune's paraphrase) instead of \"appetite for risk\"."
+		},
+		{
+			"id": "subject-08",
+			"severity": "minor",
+			"passage": "Dan Ives told Tesla to simplify, then piled up his own side roles: a crypto chair, Ives-branded ETFs, a new bank.",
+			"problem": "The search snippet calls his new firm a side role. Yorkville Ives has been his primary job since July 15, 2026, after he left Wedbush, so listing it among piled-up side roles misstates his employment in the most-read text on the page. The ETFs are Wedbush products that license his name and research, and he does not manage them. The description also says he told Tesla to simplify, while the title and meta_title say Musk. The May 2019 note (S26) was about \"Musk & Co.\" and the company's business model, so \"told Musk\" is looser than the body.",
+			"acceptance_test": "The description lists only roles held alongside his day job (for example the Eightco chair, the ETF licensing and the Zeta advisory seat), or presents the bank as the move that followed rather than as a side role. Title, meta_title and description name the same target, Tesla or Musk, consistent with the 2019 note and the 2025 \"guardrails\" call."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "His FINRA record answers \"No\" to whether the order rests on rules against fraudulent, manipulative or deceptive conduct.",
+			"reason": "Gives the reader the regulator-side limit on a sensitive finding in plain terms, next to \"without admitting or denying\". It keeps the SEC paragraph from reading as a fraud allegation. Keep it with the settlement terms."
+		},
+		{
+			"passage": "Wedbush said the reporting \"may unintentionally conflate topics that are, in reality, separate\" and cited his \"unwavering integrity.\" This page found no regulatory action on those matters as of October 24, 2026.",
+			"reason": "A dated, explicit statement of what the record does not show, placed directly after the allegation. This is the model for handling the conflict reporting. Expand around it; do not cut it."
+		},
+		{
+			"passage": "Some of that is caution. The firm's research arm was still awaiting FINRA approval, and a new partnership has reasons to say little.",
+			"reason": "Gives the subject's real constraint before the reader judges the vagueness. It is the kind of alternative explanation the profile needs more of (see subject-01)."
+		},
+		{
+			"passage": "The type cannot say what that chapter meant to him, and this page does not guess.",
+			"reason": "Refuses to invent a motive for the Synchronoss years. Keep it even if the surrounding sentences change under subject-06."
+		},
+		{
+			"passage": "One afternoon arranged with a reporter proves little on its own.",
+			"reason": "Separates a single observed scene from a trait claim at the point where the scene is most tempting to over-read."
+		}
+	],
+	"assessment": "A careful draft with one structural fairness problem. The SEC order, the Barron's allegations and the family material are mostly attributed, dated and limited, for example \"without admitting or denying\", FINRA's \"No\" on fraud-based conduct, \"no regulatory action ... as of October 24, 2026\" and \"this page does not guess\". The problem sits where the type argument needs it. The Seven-over-Three discriminator rests on the claim that when criticism came he avoided it and made no concrete repair, and the body and both type FAQs repeat that claim. The opened record shows more: a CNBC appearance the next business day, disclosures added to his X posts, the Eightco exit, his own \"110% focused\" explanation of \"simplify\", and specific ETF and Zeta responses printed in the same Barron's story. Fairness requires restoring those responses, and doing so may weaken the discriminator. The editor should restate it on the full evidence or lower confidence rather than keep the current framing. If the restated discriminator changes the type argument substantively, that is a reason to rerun with --refresh --expanded-review. Sources reopened for this review: fresh fetches of S05, S06, S07, S08 and S18; the prior-stage S10 PDF copy, because sec.gov rate-limited a fresh fetch; and the prior-stage S09 machine transcript, which I did not re-listen to. Similarity advisory: the tripped pairs with dylan-patel are the Type 7 definition sentence (\"organized around fear ... keeping their options open\", also in the Type FAQ) and the signpost \"that case gets its own section below\". The arguments differ: Patel's is fights versus open options, Ives's is role-stacking versus analyst credibility. That is ordinary type vocabulary, so I report no reuse finding, though varying the signpost would cost nothing. I confirm the sensitive_allegations and contested_typing risk flags."
+}

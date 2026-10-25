@@ -1,0 +1,27 @@
+I wrote the Enneagram review for the Kareem Rahma draft to `docs/content-analysis/pipeline-logs/2026-10-25_06-00-02-828_kareem-rahma/review-enneagram.json`. It passes the pipeline's review schema, and the hashes are copied from the request. I changed no other file in the repo and published nothing.
+
+**Verdict:** Type 7 at medium confidence is defensible, but the draft claims its reasons settle the 7-vs-3 question more than they do. The review has 6 major and 2 minor findings, and flags the typing as contested.
+
+**Only two of the draft's reasons actually separate 7 from 3:**
+- **What he says fame and money are for:** "talent has a very fun job," and money so he doesn't have to "say no to fun."
+- **Liking the trip more than the arrival:** "the best part of traveling was the airplane ride."
+
+**The major problems:**
+- **The opening hook doesn't separate the types.** Going back to school the Monday after his father's funeral fits Type 3 just as well. In the source, he credits his father's "one up yourself or don't stop… that's how I coped." The draft leaves that line out.
+- **The "Threes hide failure" reason is a stereotype.** He tells his failures in the same newsletter where he announces he finished his fame plan. The draft also leaves out the Forbes line where he turned his phone off on launch day because "I can't deal with another failure."
+- **The draft never runs the test it sets up.** It introduces the fear and shame centers but never compares them, even though Type 3 is a shame type. Shame-side quotes like "become that new identity" are left out. The money-caution evidence, which is fear-shaped, sits under "What the type leaves out" when it could support the fear-center case.
+- **Nearly all the "fun" quotes come after his rebrand into comedy (2023–2026).** His own account of life before 28 is fitting in and "wasn't following my dreams and my desires."
+- **Keep the Meter Running's money losses don't help separate the types.** That show's press is what made him feel "validated" and "really whole," so it served fun and recognition at once.
+- **The title quote is trimmed.** "Addicted to momentum" comes right after "I don't know how to take breaks because I love work." That half fits Type 3 too.
+
+The two minor findings are the quick, stereotype-based dismissals of Types 8, 9 and 6, and an unsupported claim that ADHD can't explain the "fun" rule.
+
+I flagged five passages to keep. They include the honest handling of his validation quotes and the testable line about what happens when recognition and fun pull apart.
+
+If the editor can't fix findings 01–05, the review suggests two honest options:
+- Keep Type 7, but lower the confidence and soften the "tip" language to "leans."
+- Hold the draft for more research: outside testimony, or a real choice where fun and recognition pulled apart.
+
+Switching the page to Type 3 would require `--refresh --expanded-review`. The similarity flag was a shared stock sentence ("The pattern runs in a few plain steps"), not reused argument, so I didn't report it.
+
+I checked context in the research stage's saved copies of the sources, and re-fetched the newsletter and Brooklyn Magazine pages live to confirm. I didn't re-listen to any audio, so the Forbes and Death, Sex & Money quotes rest on machine transcripts.

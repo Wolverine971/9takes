@@ -1,0 +1,15 @@
+I've finished the five-year durability review of the Dan Ives draft and written it to `docs/content-analysis/pipeline-logs/2026-10-24_06-00-03-871_dan-ives/review-future.json`. It passes the schema check, the hashes and role match the stage request, and every quoted passage matches the draft exactly. Nothing else was edited or published.
+
+**Verdict: the draft mostly passes the five-year test.** The argument is built on dated events: the 2019 Tesla "simplifying" note, the 2025 "guardrails" call, the Eightco chairmanship, the Barron's cover story and "continue to evaluate new ones." Take out everything from September–October 2026 and the case for Type 7 over Type 3 still holds. The opening is a dated scene, not a "current status" claim, and the ending doesn't predict how the AI boom turns out.
+
+**Findings (1 major, 6 minor):**
+- **Major — the type answer turns one recent stretch into a lifelong habit.** "Taking on new roles faster than he drops old ones" rests on about 15 months (mid-2025 to late 2026). The body itself admits he stayed about 16 years at one firm and eight at another. The claims that decide Type 7 over Type 3 have no re-check trigger in the evidence record. If his new bank becomes one focused, decade-long build, that sentence turns false. The fix is to put a date range on the pattern and add a concrete re-check: July 15, 2027, or any change in his FINRA side-role count.
+- **Minor:**
+  - His side activities as listed in his FINRA record (re-checked today) show a name-and-likeness fee only for the AI Power and Infrastructure ETF. The draft says he *receives* a fee from the AI Revolution ETF, which comes from January 2026 Barron's reporting and isn't confirmed now. It should be past tense with the source and date.
+  - "The firm's research arm was still awaiting FINRA approval" has no date and reads as current.
+  - The opening identity line ("is a technology stock analyst") and "a new bank" in the description will age.
+  - The claim that his alarm "has not gone off" about an AI bubble needs a trigger for the next tech crash. That's the event that would actually test the type call.
+  - The age FAQ's re-check trigger is "his next birthday," which can never fire because his birthday isn't known.
+  - The type FAQ sentence is nearly word-for-word the same as the one on the Dylan Patel page. The arguments differ, but the template is showing.
+
+I flagged five passages to keep, including the "I'm unblocking you" opening, the Musk "simplify" mirror and the "Without the mobsters" ending. Risk flags stay on: sensitive allegations (the SEC order and the disputed Barron's reporting) and contested typing (7 vs 3 at medium confidence).

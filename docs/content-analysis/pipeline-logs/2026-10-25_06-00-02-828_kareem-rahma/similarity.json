@@ -1,0 +1,211 @@
+{
+  "target": {
+    "person": "kareem-rahma",
+    "type": "7",
+    "units": 14,
+    "file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-25_06-00-02-828_kareem-rahma/draft.md"
+  },
+  "comparison_set": [
+    {
+      "person": "dan-ives",
+      "date": "2026-10-24",
+      "units": 7
+    },
+    {
+      "person": "dylan-patel",
+      "date": "2026-10-17",
+      "units": 9
+    },
+    {
+      "person": "florence-pugh",
+      "date": "2026-10-04",
+      "units": 13
+    },
+    {
+      "person": "frank-lloyd-wright",
+      "date": "2026-08-26",
+      "units": 44
+    },
+    {
+      "person": "Tyla",
+      "date": "2026-08-15",
+      "units": 44
+    },
+    {
+      "person": "Travis-Kelce",
+      "date": "2026-08-13",
+      "units": 48
+    },
+    {
+      "person": "stavros-halkias",
+      "date": "2026-07-25",
+      "units": 25
+    },
+    {
+      "person": "lamine-yamal",
+      "date": "2026-07-19",
+      "units": 18
+    }
+  ],
+  "n_requested": 8,
+  "noise_floor": {
+    "pairs_compared": 2912,
+    "median": 0,
+    "p90": 0,
+    "p99": 0.007,
+    "max": 0.127
+  },
+  "trip_threshold": 0.04,
+  "tripped": true,
+  "trip_pairs": [
+    {
+      "score": 0.127,
+      "other_person": "Tyla",
+      "shared_phrases": [
+        "pattern run",
+        "the pattern run"
+      ],
+      "target": "[diagnosis] The pattern runs in a few plain steps.",
+      "other": "[diagnosis] The pattern runs across four unrelated domains."
+    }
+  ],
+  "per_draft_max": [
+    {
+      "person": "Tyla",
+      "date": "2026-08-15",
+      "units": 44,
+      "maxScore": 0.127
+    },
+    {
+      "person": "dan-ives",
+      "date": "2026-10-24",
+      "units": 7,
+      "maxScore": 0.075
+    },
+    {
+      "person": "dylan-patel",
+      "date": "2026-10-17",
+      "units": 9,
+      "maxScore": 0.044
+    },
+    {
+      "person": "frank-lloyd-wright",
+      "date": "2026-08-26",
+      "units": 44,
+      "maxScore": 0.02
+    },
+    {
+      "person": "stavros-halkias",
+      "date": "2026-07-25",
+      "units": 25,
+      "maxScore": 0.02
+    },
+    {
+      "person": "Travis-Kelce",
+      "date": "2026-08-13",
+      "units": 48,
+      "maxScore": 0.02
+    },
+    {
+      "person": "lamine-yamal",
+      "date": "2026-07-19",
+      "units": 18,
+      "maxScore": 0.013
+    },
+    {
+      "person": "florence-pugh",
+      "date": "2026-10-04",
+      "units": 13,
+      "maxScore": 0.01
+    }
+  ],
+  "top_pairs": [
+    {
+      "score": 0.127,
+      "other_person": "Tyla",
+      "shared_phrases": [
+        "pattern run",
+        "the pattern run"
+      ],
+      "target": "[diagnosis] The pattern runs in a few plain steps.",
+      "other": "[diagnosis] The pattern runs across four unrelated domains."
+    },
+    {
+      "score": 0.075,
+      "other_person": "dan-ives",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Six uses it and scans for what could go wrong.",
+      "other": "[diagnosis] who steer away from limits and toward what could go right."
+    },
+    {
+      "score": 0.068,
+      "other_person": "Tyla",
+      "shared_phrases": [],
+      "target": "[diagnosis] I'm regretful that I didn't spend that time.\" This read comes from his interviews",
+      "other": "[diagnosis] I didn't get signed to do this"
+    },
+    {
+      "score": 0.044,
+      "other_person": "dylan-patel",
+      "shared_phrases": [],
+      "target": "[diagnosis] Rahma gives that case real evidence",
+      "other": "[diagnosis] That case gets its own section below."
+    },
+    {
+      "score": 0.027,
+      "other_person": "dan-ives",
+      "shared_phrases": [],
+      "target": "[diagnosis] Something painful or confining shows up",
+      "other": "[diagnosis] fear seldom shows up as worry."
+    },
+    {
+      "score": 0.02,
+      "other_person": "frank-lloyd-wright",
+      "shared_phrases": [],
+      "target": "[diagnosis] Rolling Stone's CT Jones found him hard to interview because he kept turning her questions back on her",
+      "other": "[diagnosis] and he kept refusing to feel them as conditions."
+    },
+    {
+      "score": 0.02,
+      "other_person": "stavros-halkias",
+      "shared_phrases": [],
+      "target": "[diagnosis] Rahma calls fun the \"number one\" test for saying yes",
+      "other": "[diagnosis] It is the number you pick when the goal is a life that does not require a boss."
+    },
+    {
+      "score": 0.02,
+      "other_person": "frank-lloyd-wright",
+      "shared_phrases": [],
+      "target": "[diagnosis] Sevens are fear types who push the fear down and keep moving.",
+      "other": "[counter-typing] Sevens are Positive Outlook and reframe it away."
+    },
+    {
+      "score": 0.02,
+      "other_person": "Travis-Kelce",
+      "shared_phrases": [],
+      "target": "[diagnosis] The usual cost is whatever got skipped along the way.",
+      "other": "[diagnosis] a mind that treats stimulation the way other people treat oxygen."
+    },
+    {
+      "score": 0.015,
+      "other_person": "Travis-Kelce",
+      "shared_phrases": [],
+      "target": "[diagnosis] Something painful or confining shows up",
+      "other": "[diagnosis] A bad feeling shows up and gets talked out of the room before it can settle in."
+    },
+    {
+      "score": 0.013,
+      "other_person": "frank-lloyd-wright",
+      "shared_phrases": [],
+      "target": "[diagnosis] The Seven tells the feeling to wait.",
+      "other": "[diagnosis] Sixteen years on the Guggenheim is the fact that strains the Seven reading hardest."
+    },
+    {
+      "score": 0.013,
+      "other_person": "lamine-yamal",
+      "shared_phrases": [],
+      "target": "[diagnosis] including press coverage that made him feel \"really whole",
+      "other": "[diagnosis] It also made him the youngest scorer in European Championship history."
+    }
+  ]
+}

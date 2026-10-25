@@ -1,0 +1,280 @@
+{
+  "target": {
+    "person": "dan-ives",
+    "type": "7",
+    "units": 16,
+    "file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-24_06-00-03-871_dan-ives/draft.md"
+  },
+  "comparison_set": [
+    {
+      "person": "dylan-patel",
+      "date": "2026-10-17",
+      "units": 9
+    },
+    {
+      "person": "florence-pugh",
+      "date": "2026-10-04",
+      "units": 13
+    },
+    {
+      "person": "frank-lloyd-wright",
+      "date": "2026-08-26",
+      "units": 44
+    },
+    {
+      "person": "Tyla",
+      "date": "2026-08-15",
+      "units": 44
+    },
+    {
+      "person": "Travis-Kelce",
+      "date": "2026-08-13",
+      "units": 48
+    },
+    {
+      "person": "stavros-halkias",
+      "date": "2026-07-25",
+      "units": 25
+    },
+    {
+      "person": "lamine-yamal",
+      "date": "2026-07-19",
+      "units": 18
+    },
+    {
+      "person": "john-coogan",
+      "date": "2026-07-14",
+      "units": 28
+    }
+  ],
+  "n_requested": 8,
+  "noise_floor": {
+    "pairs_compared": 3664,
+    "median": 0,
+    "p90": 0,
+    "p99": 0.011,
+    "max": 0.801
+  },
+  "trip_threshold": 0.044,
+  "tripped": true,
+  "trip_pairs": [
+    {
+      "score": 0.801,
+      "other_person": "dylan-patel",
+      "shared_phrases": [
+        "case get",
+        "section below",
+        "that case get",
+        "case get its",
+        "own section below"
+      ],
+      "target": "[diagnosis] and that case gets its own section below.",
+      "other": "[diagnosis] That case gets its own section below."
+    },
+    {
+      "score": 0.557,
+      "other_person": "dylan-patel",
+      "shared_phrases": [
+        "option open",
+        "keep their option",
+        "their option open"
+      ],
+      "target": "[diagnosis] and they handle it by keeping their options open and their attention on what could go right.",
+      "other": "[diagnosis] and they handle it by keeping their options open."
+    },
+    {
+      "score": 0.215,
+      "other_person": "florence-pugh",
+      "shared_phrases": [
+        "section below",
+        "own section below"
+      ],
+      "target": "[diagnosis] and that case gets its own section below.",
+      "other": "[diagnosis] and the evidence against it gets its own sections below."
+    },
+    {
+      "score": 0.127,
+      "other_person": "Tyla",
+      "shared_phrases": [
+        "pattern run",
+        "the pattern run"
+      ],
+      "target": "[diagnosis] The pattern runs in a few plain steps.",
+      "other": "[diagnosis] The pattern runs across four unrelated domains."
+    },
+    {
+      "score": 0.05,
+      "other_person": "florence-pugh",
+      "shared_phrases": [
+        "organiz around"
+      ],
+      "target": "[diagnosis] the three types organized around fear",
+      "other": "[diagnosis] Type 7 is organized around keeping life open"
+    },
+    {
+      "score": 0.046,
+      "other_person": "florence-pugh",
+      "shared_phrases": [
+        "look like"
+      ],
+      "target": "[diagnosis] fear rarely looks like worry.",
+      "other": "[diagnosis] a bold actress can look like a Seven"
+    }
+  ],
+  "per_draft_max": [
+    {
+      "person": "dylan-patel",
+      "date": "2026-10-17",
+      "units": 9,
+      "maxScore": 0.801
+    },
+    {
+      "person": "florence-pugh",
+      "date": "2026-10-04",
+      "units": 13,
+      "maxScore": 0.215
+    },
+    {
+      "person": "Tyla",
+      "date": "2026-08-15",
+      "units": 44,
+      "maxScore": 0.127
+    },
+    {
+      "person": "Travis-Kelce",
+      "date": "2026-08-13",
+      "units": 48,
+      "maxScore": 0.06
+    },
+    {
+      "person": "john-coogan",
+      "date": "2026-07-14",
+      "units": 28,
+      "maxScore": 0.033
+    },
+    {
+      "person": "stavros-halkias",
+      "date": "2026-07-25",
+      "units": 25,
+      "maxScore": 0.021
+    },
+    {
+      "person": "frank-lloyd-wright",
+      "date": "2026-08-26",
+      "units": 44,
+      "maxScore": 0.018
+    },
+    {
+      "person": "lamine-yamal",
+      "date": "2026-07-19",
+      "units": 18,
+      "maxScore": 0.011
+    }
+  ],
+  "top_pairs": [
+    {
+      "score": 0.801,
+      "other_person": "dylan-patel",
+      "shared_phrases": [
+        "case get",
+        "section below",
+        "that case get",
+        "case get its",
+        "own section below"
+      ],
+      "target": "[diagnosis] and that case gets its own section below.",
+      "other": "[diagnosis] That case gets its own section below."
+    },
+    {
+      "score": 0.557,
+      "other_person": "dylan-patel",
+      "shared_phrases": [
+        "option open",
+        "keep their option",
+        "their option open"
+      ],
+      "target": "[diagnosis] and they handle it by keeping their options open and their attention on what could go right.",
+      "other": "[diagnosis] and they handle it by keeping their options open."
+    },
+    {
+      "score": 0.215,
+      "other_person": "florence-pugh",
+      "shared_phrases": [
+        "section below",
+        "own section below"
+      ],
+      "target": "[diagnosis] and that case gets its own section below.",
+      "other": "[diagnosis] and the evidence against it gets its own sections below."
+    },
+    {
+      "score": 0.127,
+      "other_person": "Tyla",
+      "shared_phrases": [
+        "pattern run",
+        "the pattern run"
+      ],
+      "target": "[diagnosis] The pattern runs in a few plain steps.",
+      "other": "[diagnosis] The pattern runs across four unrelated domains."
+    },
+    {
+      "score": 0.06,
+      "other_person": "Travis-Kelce",
+      "shared_phrases": [],
+      "target": "[diagnosis] is actually just being behind.\" He has said he is \"not afraid to stumble.\" The fear he does name is falling behind.",
+      "other": "[counter-typing] and he has said he used to want to be known as the greatest tight end ever to play."
+    },
+    {
+      "score": 0.05,
+      "other_person": "florence-pugh",
+      "shared_phrases": [
+        "organiz around"
+      ],
+      "target": "[diagnosis] the three types organized around fear",
+      "other": "[diagnosis] Type 7 is organized around keeping life open"
+    },
+    {
+      "score": 0.046,
+      "other_person": "florence-pugh",
+      "shared_phrases": [
+        "look like"
+      ],
+      "target": "[diagnosis] fear rarely looks like worry.",
+      "other": "[diagnosis] a bold actress can look like a Seven"
+    },
+    {
+      "score": 0.033,
+      "other_person": "john-coogan",
+      "shared_phrases": [],
+      "target": "[diagnosis] the three types organized around fear",
+      "other": "[counter-typing] The Three energy is visible without defining the core."
+    },
+    {
+      "score": 0.022,
+      "other_person": "Travis-Kelce",
+      "shared_phrases": [],
+      "target": "[diagnosis] would be \"constricting.\" Twenty-five years of analyst work became \"the treadmill.\" Asked on the Smeal Academy Podcast in February 2025 how companies should handle AI ethics and regulation",
+      "other": "[diagnosis] Asked on The Rich Eisen Show in September 2024 whether a third straight Super Bowl might be his last ride"
+    },
+    {
+      "score": 0.021,
+      "other_person": "stavros-halkias",
+      "shared_phrases": [],
+      "target": "[diagnosis] he answered that \"the biggest risk for companies",
+      "other": "[diagnosis] and the fear underneath appetite is that the supply is finite."
+    },
+    {
+      "score": 0.021,
+      "other_person": "florence-pugh",
+      "shared_phrases": [],
+      "target": "[diagnosis] They add another option so they are never down to one.",
+      "other": "[diagnosis] Her own accounts keep returning to one habit"
+    },
+    {
+      "score": 0.021,
+      "other_person": "john-coogan",
+      "shared_phrases": [],
+      "target": "[diagnosis] Ives's own words keep landing on that idea.",
+      "other": "[diagnosis] John Coogan's public record points most strongly to Enneagram Type 7"
+    }
+  ]
+}

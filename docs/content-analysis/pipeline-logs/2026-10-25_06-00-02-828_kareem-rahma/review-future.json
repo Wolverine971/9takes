@@ -1,0 +1,72 @@
+{
+  "schema_version": 3,
+  "role": "future",
+  "content_sha256": "8b7a6bc84582b7330df16ce929f76ff47fe0b0f20f5038d051d1ec329f892cf6",
+  "evidence_sha256": "524de425eefc7d655e7b2f179bad4f83aa35257089be3a7ca6b88b781eadacc2",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "future-F1",
+      "severity": "major",
+      "passage": "The test going forward is simple. If he starts choosing recognition over fun when the two split, the case for Three gets stronger.",
+      "problem": "This is the page's only stated mechanism for revisiting a contested, medium-confidence typing, and nothing tracks it. No claim in evidence-draft.json carries this passage or a review_trigger for the type read. type_hypothesis.discriminator mentions it only as prose. The test also names no observable split, so a 2030 refresh cannot tell whether it fired. The record already holds the catalysts most likely to settle 7 vs 3 within five years: the Hollywood leap he named as the goal in June 2026 (S16, \"all I want to do is make TV and films in Hollywood\"), the next Emmy cycle after the YouTube-backed 2026 campaign (C110), any public account of how he took the September 2026 loss (C109; the record has none), and whether Keep the Meter Running stays self-funded. That last one is the costly choice the Seven case rests on at \"What gives the line weight is what it costs him\" (C34, C95), and those triggers are written as fact updates, not as a test of the argument.",
+      "acceptance_test": "The prose names at least one concrete, observable split in reader language. Example: if a TV, film or streaming deal arrives, does he describe it as arrival and recognition, or as one more adventure while keeping the money-losing cab show? The evidence record gains a claim for this passage (class interpretation, durability unresolved) whose review_trigger names the dated catalysts: next Emmy nominations (July 2027), any TV/film/streaming deal, his first public account of the 2026 loss, and Keep the Meter Running being sponsored, sold, made profitable or ended. The C34/C95 triggers also say that such a change requires re-checking the costly-choice argument, not just the fact."
+    },
+    {
+      "id": "future-F2",
+      "severity": "major",
+      "passage": "Did SubwayTakes win an Emmy?",
+      "problem": "The FAQ answers a present-tense award question with a flat \"No.\" The show is ongoing (C102), it has YouTube's backing, and the category recurs every year, so a later nomination or win would make this metadata false. Search features could show it in a rich result long after the body is refreshed. The supporting claims (C40, C109) are marked stable with empty review_triggers, which goes against the standard's rule that changing figures be recorded as time_sensitive with an actionable trigger.",
+      "acceptance_test": "Either the question is anchored to 2026 (e.g. \"Was SubwayTakes nominated for an Emmy?\" or \"Did SubwayTakes win the 2026 Emmy?\") and the answer opens with the dated fact rather than a bare \"No.\", or the claims behind the FAQ are recorded as time_sensitive with review_trigger \"Re-check each July Emmy nominations announcement and each September Creative Arts ceremony; update the FAQ and keywords if SubwayTakes or Rahma is nominated or wins.\" Preferably both. The body's dated sentences need no change."
+    },
+    {
+      "id": "future-F3",
+      "severity": "minor",
+      "passage": "Finally, almost everything here comes from Rahma. His co-creator, Andrew Kuo, talks publicly about the show, not about him.",
+      "problem": "This is the page's main stated evidence limit, and it is written as an undated present-tense status of the public record (C37, marked stable, no trigger). \"The best outside read is from CULTURED's Annie Hamilton\" has the same problem. Independent testimony is the evidence most likely to move a medium-confidence 7-vs-3 read. research_tasks open lead 2 already names the people to watch (Kuo on SubwayTakes Uncut, Faze, Neely, Gaffney, his wife), but no claim-level trigger will reopen the page when such testimony appears. In five years the sentence may simply be false.",
+      "acceptance_test": "The prose dates the limitation (e.g. \"As of October 2026, almost everything here comes from Rahma\" or \"In interviews through 2026, Kuo talks about the show, not about him\"). C37 is re-recorded as time_sensitive with review_trigger: \"Revisit the type argument when Kuo, Rahma's wife, a longtime collaborator or a reported profile quoting people close to him describes his temperament or motives on record.\""
+    },
+    {
+      "id": "future-F4",
+      "severity": "minor",
+      "passage": "By then the Hollywood goal had changed shape.",
+      "problem": "This states a current change in ambition, based on one Emmy press-day quote from June 2026 (C111, marked stable, alternative noted as \"Press-day framing\"). It is a changing position by definition, and it is also the most foreseeable future test of the type question, so it needs dating and tracking rather than presentation as a settled shift.",
+      "acceptance_test": "The sentence is tied to its date or source (e.g. \"By June 2026, he described the Hollywood goal differently\"). C111 is recorded as time_sensitive with a review_trigger tied to a TV, film or streaming deal or a renewed statement that Hollywood is the goal. This trigger can be shared with the claim added under future-F1."
+    },
+    {
+      "id": "future-F5",
+      "severity": "minor",
+      "passage": "In March 2025, showing a Rolling Stone reporter picture after picture of his daughter, he tried to describe something new in himself.",
+      "problem": "The page ends on a self-reported change (\"which may be the first time in my life\") from March 2025, placed after summer-2026 material that shows him still in motion (a play produced \"the very next night\", Damascus). The date keeps the prose honest and the ambiguity is a strength. But C106 is recorded as stable with no trigger, even though a claimed change of pace after fatherhood is exactly what later interviews will confirm or contradict, and the closing argument depends on it.",
+      "acceptance_test": "C106 is recorded as unresolved or time_sensitive with review_trigger: \"Re-check when he next describes his pace, travel or fatherhood; if later statements or behavior show the slowing did or did not last, revise the closing section's framing.\" The prose keeps \"In March 2025\" and the quote as the final beat. No sentence claims he has changed or has not changed."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "He went home for the funeral and slept at his parents' house for one night. On Monday he was back at school.",
+      "reason": "The hook rests on a 2007 fact in his own account. It will mean the same thing in 2031, and it carries the central argument without any recent event."
+    },
+    {
+      "passage": "\"I am addicted to momentum. I used to tell my therapist that the best part of traveling was the airplane ride. I have a habit of arriving somewhere and then looking forward to going home.\"",
+      "reason": "This dated, first-person image is the spine of the portrait (title, persona_title, closing). It does not depend on his current job or status."
+    },
+    {
+      "passage": "The goal looks like a Three's. The reason he gives is a Seven's.",
+      "reason": "This is the discriminator in two sentences. It rests on 2023-2025 statements about what money and fame were for, so it survives the removal of every 2026 event."
+    },
+    {
+      "passage": "A Seven can crave applause, and the validation quotes are what the Seven read absorbs least comfortably.",
+      "reason": "This honest concession keeps the page true if a later refresh moves toward Type 3. It should survive the trim the draft log asks for."
+    },
+    {
+      "passage": "\"I'm not in a hurry to go to the next spot, which may be the first time in my life. I always felt more comfortable being in transit, not literally, but also literally. I love it. It's a magical feeling to be on the way.\"",
+      "reason": "This closing quote is dated and deliberately unresolved, and it bookends the airplane ride. Keep it as the final beat. Only its evidence-record tracking needs work (future-F5)."
+    }
+  ],
+  "assessment": "Five-year test: the thesis passes. With every 2026 item removed (Emmy nomination and loss, Rolling Stone No. 11, Awards Radar, the Povich interview, the relaunched cab episodes), the Seven case still stands: the 2007 Monday, the 2024 airplane-ride passage, fun as the \"number one\" rule (2025), \"talent has a very fun job\" (2025) and the money-losing cab show (2022-2024). The Three case loses some 2026 support but remains fair. Date discipline is unusually good: nearly every event and quote carries a year or month, with no relative \"recently\" or \"this year\". Title, meta_title, persona_title and description are built on his own durable phrases. \"The SubwayTakes host\" stays an accurate identifier even if the show ends, and C102's trigger covers that case. The weaknesses are in tracking, not prose. The forward test that could flip a contested medium-confidence read has no observable split and no review trigger (future-F1). One FAQ answers a recurring-award question with a bare \"No.\" (future-F2). Three changing positions or record-state claims are recorded as stable (future-F3 to F5). Existing triggers on the Harris dispute (C23/C80/C81), faith (C39), relationship status (C36) and the two series (C34/C95/C102) are actionable. Trimming the 2026 news layer (Rolling Stone ranking, the $4,100 title, Damascus) costs the thesis nothing if the editor needs words. Keep at least one 2026 cab-show beat, though, because it tests the closing quote. Similarity advisory: the tripped Tyla pair shares only the phrase \"the pattern runs\", with different arguments, and the other pairs share no phrases, so there is no meaningful reuse. The plain-steps Seven mechanism paragraph overlaps in substance with Travis-Kelce's general Seven description. It is ordinary type vocabulary and ties to Rahma in the next line, so no finding. Not a standard-format open case; eligibility does not apply."
+}

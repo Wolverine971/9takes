@@ -1,0 +1,26 @@
+I wrote the fan review for Dan Ives to `docs/content-analysis/pipeline-logs/2026-10-24_06-00-03-871_dan-ives/review-fan.json`. It passes `reviewSchema`, its role and both hashes match the request, and every quoted passage appears word for word in the draft. I changed no other files and published nothing.
+
+**Overall:** the draft holds up when read as someone who follows Ives closely. It doesn't flatter him, and the facts that kind of reader checks first are right. I confirmed two things myself: Fortune's closing "without the mobsters? Ives paused" exchange, and his April 2021 Tesla upgrade back to Outperform after two years at Neutral.
+
+**Major findings (4):**
+- **fan-01 – the case against Type 3 ignores evidence in the article itself.** The opening scene is image repair: his publicist sets up an interview with the same Barron's reporters, and he ends it with "I'm unblocking you." He also went on CNBC's Fast Money the Monday after the cover story and dropped the crypto chairmanship six weeks later. He blocked the reporters while they were still reporting, not after the story ran. The type FAQ's line that he moved on "instead of repairing his image" doesn't hold.
+- **fan-02 – the Tesla record leaves out the best contradiction.** He's widely known as Wall Street's biggest Tesla bull, and by 2025 his bull case rested on robotaxis. Those are the "sci-fi projects" he dismissed in the 2019 note the title and hook are built on.
+- **fan-03 – the SEC paragraph lacks scale.** It was a company-wide action: Synchronoss paid $12.5M over a ~$190M restatement and seven employees were charged. His $15,000 penalty was the lowest in his group. Without that, readers may assume he was the main actor or was fired over the deal.
+- **fan-04 – a quote is stretched into a personal fear.** "The biggest risk ... is actually just being behind" was advice to companies about adopting AI. The draft calls it "the fear he does name."
+
+**Minor findings (3):**
+- His 2016–2018 move out of research is the precedent for the 2026 exit, but the article tells them separately.
+- The list of what turns him bearish misses the April 2025 tariff "economic Armageddon" note.
+- The similarity check flagged a few stock sentences shared with the Dylan Patel draft. The argument itself is original.
+
+The review also lists five passages to protect, including the unblocking scene, the SoHo shopping trip and the closing exchange. It keeps both risk flags (sensitive allegations, contested typing), because fixing fan-01 and fan-02 could change how confident the type call is.
+
+**Sourcing gaps for the editor:** I saw the robotaxi notes only in search results, and read the SEC press release through a verbatim copy on another site. Neither is an opened source in the evidence file yet. The Fast Money appearance is known only secondhand, from the podcast's context notes.
+
+Sources checked this session:
+- [Fortune, July 18, 2026](https://fortune.com/2026/07/18/dan-ives-modern-merchant-bank-yorkville-why-left-wall-street/)
+- [SEC release via Mondo Visione](https://mondovisione.com/media-and-resources/news/sec-charges-new-jersey-software-company-and-senior-employees-with-accounting-rel-202267/)
+- [Benzinga on the April 2021 Tesla upgrade](https://benzinga.com/analyst-ratings/analyst-color/21/04/20475734/tesla-finally-gets-an-outperform-rating-from-long-term-bull-wedbush-with-a-higher-p)
+- [CNBC, April 5, 2021](https://www.cnbc.com/2021/04/05/tesla-shares-jump-7percent-after-first-quarter-sales-surge.html)
+- [TipRanks/TheFly on the $1T AI and autonomy note](https://www.tipranks.com/news/the-fly/ai-future-at-tesla-worth-1-trillion-to-valuation-alone-says-wedbush-thefly)
+- [Barchart, "golden age of autonomous"](https://www.barchart.com/story/news/32563674/the-golden-age-of-autonomous-is-here-what-does-that-mean-for-tesla-stock)

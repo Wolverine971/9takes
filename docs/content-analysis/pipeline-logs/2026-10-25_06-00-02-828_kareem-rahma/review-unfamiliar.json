@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "unfamiliar",
+  "content_sha256": "8b7a6bc84582b7330df16ce929f76ff47fe0b0f20f5038d051d1ec329f892cf6",
+  "evidence_sha256": "524de425eefc7d655e7b2f179bad4f83aa35257089be3a7ca6b88b781eadacc2",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "unfamiliar-01",
+      "severity": "major",
+      "passage": "He came out of that summer with what he calls a \"midlife enlightenment\" and a decision to become an entertainer. (In other interviews he dates the decision to 2019.)",
+      "problem": "A new reader cannot rebuild the article's central timeline. The opening says he made the fame plan \"at 33\". This section dates the decision to summer 2020, after his brother's illness, the divorce and the protests, which supports the \"speeds up when it hurts\" thesis. The next section then goes back to 14, moves through the 2018 Museum of Pizza and says \"Then came the plan,\" which makes business failure the trigger and supports the Three reading. The parenthetical points out the conflict but never resolves it. The reader also never gets one line on when he started making comedy compared with Keep the Meter Running (2022) and SubwayTakes (2023). The description opens with \"planned his fame at 33,\" so this is the spine of the piece, not a side detail.",
+      "acceptance_test": "Somewhere a stranger will read it, at the start of \"The plan to get famous\" or in the orientation, the article gives a dated sequence that can be repeated after one read: business years, Museum of Pizza 2018, the plan at 33 (noting that he was 33 from July 2019 to July 2020, so both of his datings fit that age), the 2020 losses and protests, Keep the Meter Running 2022, SubwayTakes 2023. It says plainly whether grief or business failure produced the plan. If the record cannot decide, it says his accounts differ and names which typing argument that weakens. A cold reader shown only the body can answer \"When and why did he decide to become an entertainer?\" without contradicting the text."
+    },
+    {
+      "id": "unfamiliar-02",
+      "severity": "major",
+      "passage": "Second, under the worst pain of his life, what he protected was motion. He says he wasn't a good student, so it was not a record. He calls it momentum.",
+      "problem": "A careful first-time reader has just read a section titled with his father's \"Keep going\". They have read that his father told him \"just keep going,\" that he \"knew my dad would want me to finish,\" and that he worried that if he paused he would never go back. Duty, or earning approval from a father who withheld praise, explains the Monday return as well as a Seven's flight from pain does. Earning that approval is also the Three story this section is supposed to rule out. The tipping argument leaves all of that out, so the case reads as stacked by the time the reader gets here. \"So it was not a record\" is also unclear: a record of what?",
+      "acceptance_test": "The second reason names the father's \"just keep going\" instruction and the fear of not returning. In one or two sentences it either explains why momentum still separates the types (for example, his own \"deflecting the reality\" framing, or the 2020 repeat, when no parent had told him to keep going) or turns this from a tipping reason into supporting evidence with the limit stated. \"Not a record\" becomes plain words, such as \"not grades or a transcript\". A reader who remembers the \"That's great. Keep going.\" section no longer sees a contradiction."
+    },
+    {
+      "id": "unfamiliar-03",
+      "severity": "minor",
+      "passage": "Each of the three handles fear differently. A Six uses it and scans for what could go wrong. A Five barely notices it. A Seven pushes it down. Not right now.",
+      "problem": "This block is the unfamiliar reader's first lesson in the system, and it teaches one shaky fact and one generic mechanism. \"A Five barely notices it\" does not match mainstream Enneagram teaching, where Fives are fear types who withdraw into the mind and detach to manage fear. I could not find that phrasing anywhere else in the site's people drafts. The next paragraph (\"The pattern runs in a few plain steps... The usual cost is whatever got skipped along the way\") is Seven exposition that could sit on any Seven page and contains no Rahma detail. The similarity diagnostic's tripped pair (Tyla, \"the pattern runs\") is only a shared phrase with a different argument, so this is not meaningful reuse. The paragraph is still the most interchangeable stretch in an otherwise specific piece.",
+      "acceptance_test": "The Five clause either describes Fives in a mainstream way (for example, retreating into the mind or detaching) or is cut. The plain-steps paragraph ties at least two steps to dated Rahma instances the article already contains (2007: the routine kept and credits piled on; the Vinny half-second reframe) or shrinks to two sentences. Moved to another Seven profile, the paragraph would no longer make sense."
+    },
+    {
+      "id": "unfamiliar-04",
+      "severity": "minor",
+      "passage": "That matters for the typing. An Eight argues to win. Rahma argues about things he says he doesn't care about, for the pleasure of it.",
+      "problem": "Type 8 appears here and Type 9 appears later (\"The chameleon story could also suggest Type 9\") as one-line asides with no setup. A reader new to the Enneagram does not know why either type was ever considered, so the rebuttals feel like they answer questions nobody asked. The research tested 8, 9, 2 and 6. The article never says so, and never says what made 8 plausible in the first place: a combative show format built on \"a hundred per cent disagree\".",
+      "acceptance_test": "Either one sentence near the type section or in \"Why not Type 3?\" names the other types considered and why each drops out, or each aside gains a clause saying what made that type tempting (the 100%-disagree format for 8, the childhood chameleon for 9). A first-time reader can say why Eight came up before reading the rebuttal."
+    },
+    {
+      "id": "unfamiliar-05",
+      "severity": "minor",
+      "passage": "The Harris episode fits neither type neatly.",
+      "problem": "Momentum drops just before the close. The body is about 3,780 words, above the standard's ~3,500 target. \"What the type leaves out\" reads as a six-item catalog: ADHD, the mellow self-image, money caution, Harris, arrival, outside testimony. The Harris item runs two paragraphs (about 190 words) of campaign dispute detail and never tells the reader what it complicates. The obvious point goes unstated: he walked away from what the Times called \"the status symbol of the season,\" which cuts against a status-driven Three, and he did it over values and faith, which neither type predicts. The faith line (\"probably stronger than it's ever been\") is left hanging with no connection.",
+      "acceptance_test": "The body is at or under ~3,500 words. Each item in \"What the type leaves out\" ends with a clause naming what it complicates for the 7 or 3 reading. The Harris passage is no more than about 100 words, keeps both Rahma's account and the campaign officials' rebuttal attributed, and states in one sentence what the decision does or does not show about status versus values. The faith line is tied to that point or cut."
+    },
+    {
+      "id": "unfamiliar-06",
+      "severity": "minor",
+      "passage": "In March 2025, showing a Rolling Stone reporter picture after picture of his daughter, he tried to describe something new in himself.",
+      "problem": "The close jumps back 17 months, from the July and August 2026 cab episodes to March 2025, without signalling it. It then opens a new thread in the last paragraph: fatherhood and \"not in a hurry... which may be the first time in my life.\" The type section promised costs (\"The usual cost is whatever got skipped along the way. Rahma has named his.\"), and this is where that thread could pay off. As written, a new reader cannot tell whether the ending marks a change in the pattern or restates it (\"I love it. It's a magical feeling to be on the way\").",
+      "acceptance_test": "The time jump is signalled in a clause (for example, \"A year and a half earlier...\"). One sentence, built only from his own words and without invented interiority, frames the fatherhood moment as an open question set against the 2007 regret: does the pattern change? The closing quote is kept as the last line."
+    },
+    {
+      "id": "unfamiliar-07",
+      "severity": "minor",
+      "passage": "Kareem Rahma planned his fame at 33, but he says fun decides every yes.",
+      "problem": "\"Fun decides every yes\" says more than the body supports. In the body, fun is his \"number one\" test, and his 2025 checklist also asks whether the audience is entertained (\"I do want people to like it\"). The fame-plan timing problem in unfamiliar-01 also reaches this first clause.",
+      "acceptance_test": "The description says fun is his first test, or his number-one rule, rather than the thing that decides every yes. It stays within 120–170 characters and matches however the body finally dates the plan."
+    },
+    {
+      "id": "unfamiliar-08",
+      "severity": "minor",
+      "passage": "The Guardian's Sam Wolfson reported its core in 2024: \"to work harder than anyone\" and \"rebrand myself from a civilian to a comedian.\"",
+      "problem": "This is an evidence-record context error, not one in the prose. The alternative fields for claims C11 and C59 say he called the five-year plan \"pretty nebulous - more of a vibe\" (S01). In the saved Guardian text that line is about the new 10-year plan: \"As the five-year plan wraps up, he's starting on a 10-year one... Apart from that, Rahma is fuzzy on the details... 'This plan is pretty nebulous – more of a vibe. I'll tell you one: I want to be at the Emmys.'\" If the editor uses this as counterevidence to soften the plan, the article will misquote him in context.",
+      "acceptance_test": "C11 and C59 alternatives tie \"pretty nebulous – more of a vibe\" to the 10-year plan, or drop it. No passage in edit.md describes the five-year plan as nebulous on the strength of S01."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "\"I am addicted to momentum. I used to tell my therapist that the best part of traveling was the airplane ride. I have a habit of arriving somewhere and then looking forward to going home.\"",
+      "reason": "Next to the one night home and the Monday back at school, this is an opening a stranger remembers. It is specific and sourced, and the rest of the article cashes it in, ending with \"on the way\"."
+    },
+    {
+      "passage": "So which is he? A striver who learned to sell fun, or a fun-seeker who learned to strive? His own words point mostly to the second, and the reason starts with that Monday.",
+      "reason": "An honest central question that gives a new reader the stakes in two sentences, and the 7-versus-3 structure delivers on it."
+    },
+    {
+      "passage": "A poem is not testimony about 2007. It is still the image he picked.",
+      "reason": "The vivid detail (\"I swat it away like a fly\" / \"I hate the truth\") comes with its inference limit stated in eleven words. This is the standard's ideal in miniature."
+    },
+    {
+      "passage": "Here the two readings collide. Fame is a Three's prize. But listen to why he wanted it.",
+      "reason": "Sets up \"talent has a very fun job\". This is the moment an unfamiliar reader understands what actually separates the two types: the goal versus the reason given for it."
+    },
+    {
+      "passage": "That is about as Three as a sentence gets, and it is the main reason this read stays at medium confidence.",
+      "reason": "A concession that earns trust. It gives the rival its strongest evidence in plain language and ties confidence to it openly."
+    }
+  ],
+  "assessment": "Orientation is good. By about 180 words a stranger knows who he is and why he matters, and the SubwayTakes format line is precise (it matches the New Yorker's \"There is no in-between\"). The triad and the 7-versus-3 question are explained without jargon, and \"Why not Type 3?\" is the strongest and most honest section. A reader leaves with a real insight: he wanted the Three's prizes for the experiences they buy, and he speeds up when it hurts. Two things weaken momentum and trust. The when and why of the fame decision cannot be reconstructed (2019 or 2020, grief or business failure). And the momentum-after-the-funeral argument skips the father's \"just keep going\" instruction, which the article itself headlines. Smaller drags: a shaky Five line and a generic plan-steps paragraph in the type primer, unexplained 8 and 9 asides, a catalog-like \"What the type leaves out\" with an untethered Harris passage, and an ending that jumps back 17 months. The body is about 3,780 words, so cuts should fund the fixes. The similarity trip (Tyla, \"the pattern runs\") is a shared phrase with a different argument, not reuse. Optional, from opened S02: on the show he met \"Smoking is actually O.K.\" with \"A hundred per cent disagree. My dad died from lung cancer.\" Used carefully, that would tie the format back to the opening. Contested typing stands; I found no new sensitive allegation."
+}

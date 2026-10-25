@@ -1,0 +1,21 @@
+I've written the critic review for the Dan Ives draft to `review-critic.json` in the run directory. It passes the contract's review schema, the role and both hashes match the request, and every quoted passage appears exactly in the draft. I changed nothing else and published nothing.
+
+**Overall:** the draft deals honestly with most of the evidence against it: the job's built-in bullishness, the 2019 Tesla downgrade, the missed 2022 Nasdaq forecast and the SEC order. But where the Type 7 argument has to beat Type 3, it tells the story from one side. I raised eight findings: five major, three minor, no blockers.
+
+**Major findings**
+1. **Type 3 rebuttal leaves out his repair after the January 2026 cover story.** Barron's reports he started adding disclosures to his X posts. He defended the roles on CNBC, quit Eightco six weeks later, told the reporters "A number of the roles I no longer have," and his publicist asked the same reporters for an interview. Yet the draft and an FAQ say he "avoided" critics and didn't repair his image. The one new role he did add while still an analyst, a second ETF licensed from April 1, 2026, isn't cited.
+2. **The deciding rule cancels itself.** "A Three guards the asset that makes them admired" only works if that asset is his objectivity. The draft itself admits the Eightco seat "bought visibility a Three would value." The Dylan Patel profile beats Type 3 with the same argument, so it reads as a reusable template rather than a test specific to Ives.
+3. **Eightco's collapse is missing.** The draft reports the jump to an $8.5B implied value but not that the stock lost 97% (Barron's) and now trades around 60 cents. It also omits his chairman message calling the token "undervalued."
+4. **The SEC paragraph is lopsided.** It keeps FINRA's favorable "No" on fraud-based rules. It drops the order's finding that he "knew or recklessly disregarded" that the revenue was contingent, and that Synchronoss later restated its results.
+5. **"The fear he does name is falling behind" is quoted out of scope.** It was advice to companies on AI adoption, which is also his sales pitch. It's the article's only first-person evidence for the fear behind the Type 7 read, and falling behind fits Type 3 just as well.
+
+**Minor findings**
+- **The opening uses his vaguest line.** It leaves out "110% focused" from the same call. He also said "laser-focused" there, the phrase he used about Tesla in 2019, and including it would actually strengthen the article's mirror.
+- **"I don't worry about others" is cut from a sentence about his unconventional coverage and dress, not about critics.** So the contradiction the draft builds with blocking reporters doesn't hold.
+- **The grief passage leans on what he didn't say and changes his wording.** It claims his account "says nothing about being seen," and it turns Fortune's "calculated risk" into "appetite for risk."
+
+**Protected passages (5):** the "I'm unblocking you" opening, the "Ives had used that word before" turn, "The turns are the test," the line about what does and doesn't set off his alarm, and the "Without the mobsters" ending.
+
+**Sources:** I opened and checked the Barron's, Fortune, Business Insider, NY Post, Fox Business and Wedbush pieces, plus the SEC order and FINRA record. Every quote I checked matched. The podcast page with Dan Nathan has no transcript, so for it I relied on the evidence file's machine-transcript notes and didn't listen to the audio. The text matches the similarity check flagged against the Dylan Patel profile are ordinary type wording, not reuse; the real overlap is the argument in finding 2.
+
+I confirmed the sensitive-allegations and contested-typing risks, so the six-reviewer panel applies. I didn't flag a thesis change: Type 7 at medium confidence may hold, but the FAQ currently states the disputed argument as settled fact.

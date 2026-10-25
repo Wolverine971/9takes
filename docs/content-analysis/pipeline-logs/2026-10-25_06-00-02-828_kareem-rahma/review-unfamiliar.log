@@ -1,0 +1,17 @@
+I wrote the unfamiliar-reader review to `docs/content-analysis/pipeline-logs/2026-10-25_06-00-02-828_kareem-rahma/review-unfamiliar.json`. It passes `reviewSchema`, every finding and protected passage matches the draft word for word, and the hashes are copied from the request. Nothing else was changed and nothing was published.
+
+**Verdict:** A new reader gets oriented quickly and comes away with a real insight: he wanted fame for the experiences it buys, and he speeds up when something hurts. The "Why not Type 3?" section is the strongest part. I kept the contested-typing risk flag on and found no new sensitive allegations.
+
+**Two major findings:**
+- **When and why he decided to get famous doesn't hold together.** One section says the decision came out of summer 2020 (grief and the protests), the next says it followed his failed businesses (2018–19), and a note in brackets says he has also dated it to 2019. The description's first words, "planned his fame at 33," depend on this timeline.
+- **The second reason for picking Type 7 over Type 3 leaves out evidence the draft itself gives.** The draft says he went back to school the Monday after the funeral to keep his momentum. But it also shows his father told him "just keep going," and one section is titled after that line. Duty, or wanting a hard-to-please father's approval, explains the Monday just as well.
+
+**Six minor findings:**
+- The line "A Five barely notices it" misdescribes Fives, and the step-by-step Seven paragraph could sit on any Seven page.
+- Types 8 and 9 appear as one-line rebuttals without ever saying why they were considered.
+- The "What the type leaves out" section reads like a list, and the Harris passage never says what it shows. The body is about 3,780 words, over the ~3,500 target.
+- The ending jumps back 17 months without saying so.
+- The description's "fun decides every yes" claims more than the body supports.
+- A mistake in the evidence notes, not the article: claims C11 and C59 say he called his five-year plan "pretty nebulous – more of a vibe." In the saved Guardian text, he says that about his new 10-year plan. If the editor uses it to soften the plan, the article would quote him out of context.
+
+The duplicate-phrasing check flagged a match with the Tyla page, but it's only the shared phrase "the pattern runs," used for a different argument, so it isn't reuse.

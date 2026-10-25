@@ -1,0 +1,27 @@
+{
+  "schema_version": 3,
+  "subject": "kareem-rahma",
+  "mode": "create",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_verify_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-25_06-00-02-828_kareem-rahma/candidate-edit.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-25_06-00-02-828_kareem-rahma/evidence-edit.json",
+    "resolution": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-25_06-00-02-828_kareem-rahma/resolution-edit.json",
+    "review-subject": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-25_06-00-02-828_kareem-rahma/review-subject.json",
+    "review-fan": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-25_06-00-02-828_kareem-rahma/review-fan.json",
+    "review-critic": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-25_06-00-02-828_kareem-rahma/review-critic.json",
+    "review-unfamiliar": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-25_06-00-02-828_kareem-rahma/review-unfamiliar.json",
+    "review-enneagram": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-25_06-00-02-828_kareem-rahma/review-enneagram.json",
+    "review-future": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-25_06-00-02-828_kareem-rahma/review-future.json",
+    "baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-25_06-00-02-828_kareem-rahma/baseline-reader.md",
+    "checks": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-25_06-00-02-828_kareem-rahma/checks-edit.json"
+  },
+  "outputs": {
+    "verification-edit.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-25_06-00-02-828_kareem-rahma/verification-edit.json"
+  },
+  "content_sha256": "8f8fa1ea3ebb9b3f3ed58c802471598f9c269e4dcf63d6773db17070b170216f",
+  "evidence_sha256": "adabdcadef58e2a6106bf37f0c045149be583abec415bcbdfdd9345a2ae95978"
+}

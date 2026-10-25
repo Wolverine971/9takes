@@ -1,0 +1,26 @@
+{
+  "eligible": false,
+  "blockers": [
+    "verification:revise",
+    "unresolved:verify-01:The FINRA BrokerCheck PDF (S11, reopened 2026-10-24) lists a further outside business activity the article omits: 'ADVISOR INNOVATION X GLOBAL OPPORTUNITIES LLC; INVESTMENT RELATED; ROCKVILLE, MD; ... ADVISOR; 09/2026'. Claim C77 files it under the Yorkville Ives build, but no opened source links it to Yorkville Ives (New Jersey); a web search finds only an unrelated Innovation X Advisors in Rockville, MD. As written, the colon list reads as complete and hides an outside advisory role taken about two months after 'I needed to simplify' and '110% focused'. That is exactly the evidence the article's own 7-vs-3 test turns on ('if... the outside roles fall away, the Three reading gains'). Relatedly, 'Most of what followed belongs to the new firm' overstates IVAI: per IFR (S33) Yorkville Ives owns 49.9% of the adviser (the Leathers hold 50%), and FINRA lists his Ives Ultra Fund chairmanship (09/2026) as an outside business activity. The edit introduced this framing when it replaced the draft's 'six outside business activities' count.",
+    "unresolved:verify-02:The Seven-over-Three discriminator (C37, C158) rests on his self-reported motives in friendly or promotional interviews and on cost-reframes ('undervalued asset', 'third inning') that a chairman and sell-side analyst would also make. The article concedes that roles and repairs do not discriminate and that 'The call is close.' It also omits Three-leaning results language from the same launch interview it cites. Business Insider (S06), July 15, 2026: 'You just have to convince people, you have to show them the results.' Fortune (S05) narrates that 'he knows the proof will be in the pudding.' The page's forward test says the Three reading gains if he measures the build 'by results', but it does not report that he already framed the launch that way. With the rival not failing any specific, sourced discriminator, the type argument meets the standard's Enneagram 7-8 description, not the 8 the release gate requires.",
+    "overall_below_8.5:8.1",
+    "enneagram_below_8:7.5"
+  ],
+  "quality": {
+    "evidence": 8,
+    "enneagram": 7.5,
+    "originality": 8.5,
+    "writing": 8,
+    "durability": 8.5,
+    "hook": 9,
+    "discoverability": 8.5,
+    "overall": 8.1,
+    "letter": "B",
+    "rubric_version": 3,
+    "graded_at": "2026-10-24",
+    "caps_applied": [],
+    "needs_review": true,
+    "content_sha256": "de4d46bcf3289d390f68d47da4d1058b6eec7da3a8532b83dd881a831fc0908c"
+  }
+}

@@ -1,0 +1,25 @@
+Error: Reached max turns (120)
+[runner] Turn limit reached; resuming session 422de79e-aa55-4ff7-b4f8-4429d73e607a to write outputs
+The research stage for Dan Ives is finished. I wrote only `evidence.json` in the run directory, and it passes the contract check (`validateEvidence`). Nothing else in the repo changed; `backlog-queue.json` was already modified before this run.
+
+**Result: ready, standard profile. Leading read is Type 7 at medium confidence, with Type 3 the strongest alternative.** It's not an open case: he has a 25-year public record. Both risk flags are set, so the six-role review panel applies.
+- **Sensitive allegations:**
+  - A 2022 SEC settled order from his time at Synchronoss: $15,000, neither admitted nor denied. FINRA's record says the order is not based on anti-fraud rules.
+  - Barron's January 2026 conflict-of-interest cover story, which Wedbush disputes.
+- **Contested typing:** 7 versus 3 is close, and his job pays him to be visible and bullish, which muddies both readings.
+
+**What the record shows:**
+- **Sources:** 36 recorded, 34 opened, 40 claims. They include the SEC order and FINRA record, both Barron's pieces in full (including one where he'd blocked the reporters, then told them "I'm unblocking you"), and the July 2026 Fortune interview where he talks about his parents' deaths and his live-without-regret outlook.
+- **Podcasts:** I transcribed two locally, the Smeal Academy podcast and a 54-minute episode with Dan Nathan recorded days after the Barron's story. I couldn't get a long-form source that tests him outside promotional settings, beyond these two.
+- **Why 7 leads:** as head of tech research he took on an exciting crypto chairmanship and kept adding roles, even though each one eroded his credibility as an objective analyst. When the criticism came, he avoided the critics, then said he wanted to "simplify" and moved to a bigger new venture. He explains his style in terms of mood and freedom ("If I dress conventional, it would be constricting in terms of how I think"), not in terms of being seen.
+- **Why 3 is close:** he talks easily about his "brand", has put his name on several products, and actively manages his image.
+- **The seed brief's question (temperament or job?):** the answer is both. His style and enthusiasm go back to childhood, but his optimism has limits: he downgraded Tesla in 2019, and he stayed bullish through a badly missed 2022 forecast (Nasdaq 19,000 predicted, 10,467 actual).
+
+**Things the draft stage must respect** (all recorded in the file's notes):
+- **Not quoted from originals:**
+  - The April 2019 Tesla downgrade is only available in Spanish translation, so paraphrase it.
+  - A 2025 Tesla "code red" note appears only in headlines I didn't open. The verified "code red" quote is from May 2019.
+  - Two phrases ("paradigm changer", "economic Armageddon") were read only through WebFetch summaries.
+- **Re-listen before quoting:** podcast quotes come from machine transcripts with unlabelled speakers, so check the timestamps first.
+- **Leave out:** birth date (unverified, and sources disagree on his age by a year), his wife's name, his town, and net worth.
+- **Unopened:** the Bloomberg fund article (bot wall), TipRanks track-record data, and the CNBC appearance after the Barron's story. These are listed as open leads, not used as evidence.

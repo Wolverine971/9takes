@@ -1,0 +1,1247 @@
+{
+  "schema_version": 3,
+  "content_sha256": "ceb58dfdd54c6c0819d2de0b0726c47f4d60a7d98815773f6379d90f14ecde27",
+  "evidence_sha256": "5d06742944455b83f4891dee3202801aef1a1b2fed5d51cf918f908d09dee967",
+  "status": "insufficient_evidence",
+  "findings": [
+    {
+      "id": "verify2-01",
+      "severity": "major",
+      "passage": "So this is a lean, and it carries most of the lead.",
+      "problem": "After the repair, the Seven lead rests mainly on one soft observation: two self-descriptions six months apart (September 18, 2024 newsletter; March 26, 2025 Rolling Stone) that the satisfaction sits in the ride, not the arrival. The article itself concedes that the counters fit both types (\"I finally have arrived\", 2022; \"I don't feel successful\", 2026), that the center test \"splits\", that his stated reasons \"split by interview\", that the fun rule is \"real but late\" and venue-dependent, that ADHD can't be separated, and that \"No clean split\" between fun and recognition has been observed. The Three alternative therefore does not fail a specific, sourced discriminator, and no repeated costly choice separates the motives. That falls short of the standard's Enneagram 8 anchor, and 'most likely... at medium confidence' in the H2 answer, FAQ 1 and the description's 'leans Enneagram 7' claims more than the remaining discriminator carries. Wording cannot fix this, because lowering confidence to low is not a releasable standard-format state, and the subject is not open-case eligible (a long public record since 2012, breakout in 2022, many long-form interviews). It needs evidence.",
+      "acceptance_test": "A research refresh adds at least one of: (a) a dated, sourced choice where fun and recognition actually diverged, with his reason; (b) contemporaneous pre-2020 material (2012-2019 interviews, Nameless Network or Museum of Pizza press, his own posts) showing where his satisfaction sat before the rebrand; (c) independent testimony from someone close to him (Kuo on SubwayTakes Uncut, Adam Faze, Mary Neely, Karina Muslimova) on what drives or satisfies him; (d) his own account of the September 2026 Emmy loss or of a TV/film/streaming deal. The type section is then re-argued on that evidence so that either Three fails a specific sourced discriminator (keep 7) or the read changes (run --refresh --expanded-review). If none is found, the profile stays on hold as insufficient_evidence."
+    },
+    {
+      "id": "verify2-02",
+      "severity": "minor",
+      "passage": "published Walz (\"I'm not gonna pass up a good story,\" he told [the Guardian](https://www.theguardian.com/us-news/ng-interactive/2024/nov/13/kareem-rahma-interview-subway-takes))",
+      "problem": "Context omission. In the same Guardian passage, before the 'good story' line, he gives a values reason for doing Walz: \"I decided that he's not involved in the current administration, and that was less offensive. He's from Minnesota, and I'm from Minnesota, and he's been more sympathetic to the cause at least.\" The article keeps only the story motive and then reads the asymmetry as image management or escape. That leaves out his own principled explanation.",
+      "acceptance_test": "The Harris/Walz paragraph adds, attributed to the Guardian, that he said Walz was 'less offensive' because he was not in the current administration and was 'more sympathetic to the cause', before or beside 'I'm not gonna pass up a good story'. The closing typing sentence acknowledges that conviction also explains the split."
+    },
+    {
+      "id": "verify2-03",
+      "severity": "minor",
+      "passage": "\"I never wanted to be a politics person,\" he said in November 2024",
+      "problem": "Date precision. He said it to the Times at the reporter's second meeting, about two and a half weeks after the pre-taping meeting in late summer or early fall 2024. It was published on November 4, 2024. 'He said in November 2024' dates the publication, not the statement, in a sentence whose point is the date.",
+      "acceptance_test": "The sentence reads, for example, \"he told the Times, in a profile published November 4, 2024\", and C82 records the distinction."
+    },
+    {
+      "id": "verify2-04",
+      "severity": "minor",
+      "passage": "The man who kept moving through 2007 was describing, with his own child, not being in a hurry. What came after doesn't settle whether it lasted.",
+      "problem": "The closing question omits the nearest later evidence in a source the article already uses. On Death, Sex & Money (published April 15, 2025, about three weeks after the Rolling Stone feature), he said of fatherhood, \"I don't feel like I've changed really... I still feel the same enthusiasm for life\". Asked about slowing his output, he said he would do it only after \"a couple of missions\" (a million followers; he was posting about seven times a week).",
+      "acceptance_test": "One dated clause before the final quote notes the April 2025 statement in his words, or the 'What came after' sentence is revised to reflect it. The closing quote stays the last line, and C151 records it."
+    },
+    {
+      "id": "verify2-05",
+      "severity": "minor",
+      "passage": "Its losses can't separate fun from recognition.",
+      "problem": "Pacing. After two rounds of repair, about fifteen sentences rule an item shared ground or either-way: the Monday, the protests, the laughter origin, the cab show's losses, 'just a businessman', poverty, the center test, the stated reasons, the work half of momentum, 'I don't feel successful', the Harris split. In the second half this becomes its own loop, and the procedural signposts ('Now the center test', 'There is a timing problem too', 'So why Seven at all?') slow the read. The body is 3,899 words, above the ~3,500 target.",
+      "acceptance_test": "Shared-ground verdicts are consolidated so that each appears once, in the type sections, rather than after every anecdote. The body is at or under about 3,500 words, and audit:readability still flags nothing."
+    }
+  ],
+  "research_tasks": [
+    "Pre-2020 contemporaneous record (tests the timing problem): find and open 2012-2019 interviews or profiles from his Vice/Times/Nameless Network years, 2018 Museum of Pizza press, and 2018 Pioneer Works book-launch coverage. Record what he said then about goals, satisfaction and arrival, dated and quoted in context.",
+    "Independent testimony: review SubwayTakes Uncut episodes where Andrew Kuo describes Rahma (not the show); Mary Neely on Filmmaker Magazine's Back to One ep. 354; any on-record comments from Adam Faze or Karina Muslimova, or a reported profile quoting people close to him on what drives or satisfies him.",
+    "Post-September 2026 statements: search for his first public account of the 2026 Creative Arts Emmys loss (to Colbert Before Air) and for any TV/film/streaming deal or Keep the Meter Running TV adaptation news. Note whether he frames it as arrival/recognition or as adventure (the article's own forward test, C144).",
+    "Divergent choice: search for a dated decision where fun and recognition pulled apart (an offer or bigger platform he declined, or a recognition-maximizing format he chose over the cab show or vice versa) with his stated reason, from NYT, THR, Variety, Deadline or his newsletter.",
+    "Repetition of the satisfaction pattern: search his newsletter archive and long-form interviews for other statements about anticipation vs arrival (travel, finished projects, goals met). Establish whether the ride-over-arrival theme recurs beyond the September 2024 and March 2025 statements.",
+    "Human re-listen of the quoted Death, Sex & Money (S07: ~07:59-08:54, ~13:18-15:05, ~34:44, ~37:20-38:54, ~43:47) and Forbes (S08: 00:30:42, 00:40:02, 00:43:10-00:45:36) spans used as type evidence. They currently rest on two agreeing machine transcriptions.",
+    "Editorial fixes to carry into the refresh: verify2-02 (Walz values reason, Guardian), verify2-03 (date the 'politics person' statement to the Times profile), verify2-04 (April 2025 'I don't feel like I've changed really'), verify2-05 (consolidate shared-ground verdicts; body about 3,500 words)."
+  ],
+  "claim_checks": [
+    {
+      "claim_id": "C01",
+      "verdict": "supported",
+      "reason": "Brooklyn Magazine (S05, saved + live): \"1989 or maybe 1990... I was 3 or 4\"; Cairo birth in Interview (S21) and NYT (S04); 1986 from his 38th-birthday newsletter (S09). Rolling Stone's 'infant' and Carnegie's age seven conflict and are correctly not repeated."
+    },
+    {
+      "claim_id": "C02",
+      "verdict": "supported",
+      "reason": "Rolling Stone (S03, live): \"I started working at 14, and I just stayed working. I literally never stopped.\" Job list matches S03/S04/S07."
+    },
+    {
+      "claim_id": "C03",
+      "verdict": "supported",
+      "reason": "Interview (S21, live via r.jina.ai): \"At school, I got bullied. I got punched in the face for not speaking English... 'I need to learn how to be a person that people like.' So that's where my initial sense of humor came from, is to avoid getting punched in the face.\" Exact, and the article labels it weak evidence about an adult."
+    },
+    {
+      "claim_id": "C04",
+      "verdict": "supported",
+      "reason": "Death, Sex & Money (S07) at ~09:48-10:45 in the research Whisper transcript and the large-v3-turbo segment: the chameleon sentence matches word for word, said while describing growing up and fitting in. Machine transcription, not a human listen."
+    },
+    {
+      "claim_id": "C05",
+      "verdict": "supported",
+      "reason": "NYT (S04, Wayback): gas station owner, truck driver, exporter, vegetable farmer; Mpls.St.Paul (S06, live): \"go by the name of Sam even though his name was Sayed\"; Interview (S21): \"He drove a cab for around the first five or six years of my life.\" 'Several years' is a fair reconciliation."
+    },
+    {
+      "claim_id": "C06",
+      "verdict": "supported",
+      "reason": "S07 ~07:02: \"those debates and negotiations came more around the freedom to operate and to make decisions on my own\". 'One long debate' compresses his account that the debates ran until he was accepted to college; not distorting."
+    },
+    {
+      "claim_id": "C07",
+      "verdict": "supported",
+      "reason": "Brooklyn Magazine (S05): both lines verbatim; context is money 'to get what I want', and the article labels it 2023 retrospection about his twenties."
+    },
+    {
+      "claim_id": "C08",
+      "verdict": "supported",
+      "reason": "S07 ~15:05 (both machine passes): \"I went home for the funeral, slept at my parents' house for one night. And then on Monday I was back at school\"."
+    },
+    {
+      "claim_id": "C09",
+      "verdict": "supported",
+      "reason": "Newsletter S11 (live): poem 'Three Hundred Miles To Empty' lines match exactly; the article correctly does not say the poem is about his father."
+    },
+    {
+      "claim_id": "C10",
+      "verdict": "supported",
+      "reason": "Interview (S21): brother \"in the hospital dying\", \"I can't visit him because of COVID\", \"I also got a divorce\". Rolling Stone (March 2025) and Mpls.St.Paul (2025) call Karina Muslimova his wife, so '(He has since remarried.)' is supported without a date."
+    },
+    {
+      "claim_id": "C12",
+      "verdict": "supported",
+      "reason": "Forbes (S08) YouTube captions at 00:30:42 and the large-v3-turbo segment agree: \"What I realized is that talent has a very fun job.\" Continuous first-person answer; video page confirmed live via oEmbed."
+    },
+    {
+      "claim_id": "C13",
+      "verdict": "supported",
+      "reason": "Brooklyn Magazine (S05): Instagram-bio dilemma \"like a year in\" and \"trying to figure out my identity as quickly as possible and become that new identity\" in the same answer."
+    },
+    {
+      "claim_id": "C14",
+      "verdict": "supported",
+      "reason": "Forbes captions and second pass (00:43-00:45): \"a lot of people would say like, you don't need validation from anyone. Personally, I do\", \"I felt really whole\", \"in terms of validation, I think the press is still more important. The money is great.\" 'than money' is an accurate gloss of the question asked."
+    },
+    {
+      "claim_id": "C15",
+      "verdict": "supported",
+      "reason": "Mpls.St.Paul (S06, live): answer to \"what is it that you want?\" begins \"I'm literally trying to entertain myself. I want to see novel ideas\"."
+    },
+    {
+      "claim_id": "C18",
+      "verdict": "supported",
+      "reason": "Newsletter S12 (live, September 18, 2024): preceding \"I don't know how to take breaks because I love work\" and the three momentum/airplane/arriving sentences match exactly (a trailing 'lol' is omitted). Rolling Stone transit line verified."
+    },
+    {
+      "claim_id": "C20",
+      "verdict": "supported",
+      "reason": "Brooklyn Magazine (S05): Vinny/Buffalo Wild Wings quote verbatim, first-season episode."
+    },
+    {
+      "claim_id": "C22",
+      "verdict": "supported",
+      "reason": "Brooklyn Magazine (S05): \"I wanted to do two things. One, I wanted to go down in New York history as a legend... the second goal was to make money, which I lost... it didn't achieve either goal.\" \"That was 2018.\""
+    },
+    {
+      "claim_id": "C23",
+      "verdict": "supported",
+      "reason": "Disputed and correctly attributed: NYT (S04) reports his account of the shoes take vs \"Bacon is a spice\" and \"Two senior campaign officials said this topic had been raised in advance. Rahma and his manager dispute this.\" The article gives both sides without adjudicating."
+    },
+    {
+      "claim_id": "C25",
+      "verdict": "supported",
+      "reason": "THR (S15, live): \"I can sit in the middle of an argument and have a conversation about something that I don't care about for multiple hours simply because it's fun.\""
+    },
+    {
+      "claim_id": "C27",
+      "verdict": "supported",
+      "reason": "CULTURED /tiktok-2/ (S19, live): \"Yet when I left, I had the sense that what I perceived as a vulnerable exchange was actually no sweat off his back.\" Matches the cited page; 'open for an hour' matches \"In the hour I spent with Kareem... Nothing was off-limits.\""
+    },
+    {
+      "claim_id": "C30",
+      "verdict": "supported",
+      "reason": "S07 ~37:20-38:06: \"I'm diagnosed now... As an adult... It's probably since like I was 30.\" Stated in his words only."
+    },
+    {
+      "claim_id": "C33",
+      "verdict": "supported",
+      "reason": "S07 ~43:47: \"I'm publishing right now pretty much seven times a week... the reason I'm doing that is because I want to hit a million.\" Episode published April 15, 2025."
+    },
+    {
+      "claim_id": "C34",
+      "verdict": "supported",
+      "reason": "Interview (S21): \"at that point, I was spending out of my own pocket like $2,000\" with a per-episode cost breakdown; Rolling Stone (S03): \"didn't take $2,000 out of his pocket every episode\"; NYT: \"at a loss\". 'After that' combines Brooklyn Magazine's funded first season with these accounts and is consistent with SubwayTakes starting in spring 2023."
+    },
+    {
+      "claim_id": "C36",
+      "verdict": "supported",
+      "reason": "Awards Radar (S16, live): \"Here I go again, doing another thing on the internet, when all I want to do is make TV and films in Hollywood.\" ... \"she encouraged me\"."
+    },
+    {
+      "claim_id": "C37",
+      "verdict": "supported",
+      "reason": "Kuo's on-record comments in NYT (\"It makes the subway and New York seem as interesting...\") and TheWrap concern the show. The prose is scoped to the interviews reviewed and dated through October 2026; Uncut not reviewed, as stated."
+    },
+    {
+      "claim_id": "C38",
+      "verdict": "supported",
+      "reason": "NYT (S04): Youssef, \"born in New York to Egyptian immigrants\", \"recognized the Rahmas' blend of optimism and hustle. 'It's called being Egyptian'\"."
+    },
+    {
+      "claim_id": "C40",
+      "verdict": "supported",
+      "reason": "TheWrap (S23, live, July 2026) and THR winners list (S24, live) show SubwayTakes With Kareem Rahma in Outstanding Short Form Comedy, Drama or Variety Series."
+    },
+    {
+      "claim_id": "C42",
+      "verdict": "supported",
+      "reason": "Guardian (S01, live): \"I want to be at the Emmys. Hopefully for something I've made but if it's a plus-one that's fine.\" Said of his new 10-year plan."
+    },
+    {
+      "claim_id": "C43",
+      "verdict": "supported",
+      "reason": "S09 (live): \"July 15th, 2024 was my 38th birthday\"; Rolling Stone 2026 list (S25, live) gives \"Kareem Rahma, 40\". Arithmetic correct."
+    },
+    {
+      "claim_id": "C44",
+      "verdict": "supported",
+      "reason": "NYT: \"In Rahma's memory, his father... was always one step away from his big break.\" Attributed as the Times' phrasing of his memory."
+    },
+    {
+      "claim_id": "C45",
+      "verdict": "supported",
+      "reason": "S07 ~08:54 (both passes): \"he was really controlling and like loved me too much as the eldest son. And he also just wanted me to succeed.\" Balancing words now quoted alongside."
+    },
+    {
+      "claim_id": "C46",
+      "verdict": "supported",
+      "reason": "S07 ~13:18-14:13: quote matches both machine passes."
+    },
+    {
+      "claim_id": "C47",
+      "verdict": "supported",
+      "reason": "Newsletter S10 (live): \"My father passed away when I was twenty-one. He died after a short six-month battle with cancer.\" New Yorker (live): \"My dad died from lung cancer.\" Rolling Stone: University of Minnesota, father died 2007."
+    },
+    {
+      "claim_id": "C48",
+      "verdict": "supported",
+      "reason": "Rolling Stone (S03, live): verbatim."
+    },
+    {
+      "claim_id": "C49",
+      "verdict": "supported",
+      "reason": "New Yorker: \"I'm gonna go to New York and just get rich\"; New York Magazine reprint (S13, live): moved May 5, 2012; Brooklyn Magazine: Times Video launch; NYT: Nameless Network."
+    },
+    {
+      "claim_id": "C50",
+      "verdict": "supported",
+      "reason": "S07 ~15:05: both fragments present, separated by \"and that's it. I just couldn't let,\" and the article presents them as separate statements."
+    },
+    {
+      "claim_id": "C51",
+      "verdict": "supported",
+      "reason": "Rolling Stone (S03, live): \"I was deflecting the reality of what was happening. I didn't move home. I just continued coming home on Saturdays. He had cancer and I knew he had six months to live.\""
+    },
+    {
+      "claim_id": "C52",
+      "verdict": "supported",
+      "reason": "Rolling Stone: \"I knew that if I took a break, the likelihood of me returning was lost, because I wasn't really interested in college. And I knew my dad would want me to finish.\" DSM: \"my dad told me, just keep going\"."
+    },
+    {
+      "claim_id": "C53",
+      "verdict": "supported",
+      "reason": "S07 ~14:13-15:05: \"I wasn't a good student... I threw myself into the experience of school in order to finish.\""
+    },
+    {
+      "claim_id": "C54",
+      "verdict": "supported",
+      "reason": "Rolling Stone: \"But now as an adult, I'm regretful that I didn't spend that time.\""
+    },
+    {
+      "claim_id": "C55",
+      "verdict": "supported",
+      "reason": "NYT: \"After his father died, in 2007, Rahma stayed home to help his mother and two younger siblings. He left for New York in 2012.\""
+    },
+    {
+      "claim_id": "C56",
+      "verdict": "supported",
+      "reason": "New Yorker (live): \"I throw myself into the social uprising and give it my all, because it was a way of coping with grief\"."
+    },
+    {
+      "claim_id": "C57",
+      "verdict": "supported",
+      "reason": "Brooklyn Magazine: Museum of Pizza \"was a turning point. That was 2018\", then poetry readings; Interview (2026): \"I had a total midlife enlightenment\" in summer 2020; New Yorker: pandemic. Accounts genuinely differ, as stated."
+    },
+    {
+      "claim_id": "C58",
+      "verdict": "supported",
+      "reason": "Interview (S21): \"For the next three months, I lost myself to the cause\"."
+    },
+    {
+      "claim_id": "C59",
+      "verdict": "supported",
+      "reason": "Newsletter S10 (live): verbatim, followed by a checklist of completed plan items. Guardian 'nebulous' line correctly tied to the 10-year plan."
+    },
+    {
+      "claim_id": "C62",
+      "verdict": "supported",
+      "reason": "Forbes captions 00:30:42: \"I was like I'm going to become famous... I literally remember calling someone saying I'm going to become talent... Because I realized like I didn't want to send emails every day.\""
+    },
+    {
+      "claim_id": "C63",
+      "verdict": "supported",
+      "reason": "Forbes: \"You get to do new things. You get to experience new things.\" Adjacent to C12."
+    },
+    {
+      "claim_id": "C64",
+      "verdict": "supported",
+      "reason": "Mpls.St.Paul (S06, live): verbatim; preceded in the same answer by burnout and \"impostor syndrome\"; the article counts it as either-way."
+    },
+    {
+      "claim_id": "C65",
+      "verdict": "supported",
+      "reason": "Forbes 00:43 (second pass): \"I think that was the first time in my life that I felt validated and recognized as a comedian.\""
+    },
+    {
+      "claim_id": "C66",
+      "verdict": "supported",
+      "reason": "Interview (S21): verbatim answer to Povich's \"Did that make you feel good?\"."
+    },
+    {
+      "claim_id": "C67",
+      "verdict": "supported",
+      "reason": "S07 ~08:54: \"should I say yes or should I say no, fun, number one is fun.\""
+    },
+    {
+      "claim_id": "C68",
+      "verdict": "supported",
+      "reason": "S07 ~07:59: Sale: \"origin battle of like fighting with authority about your right to be playful, which seems like kind of a through line of your work.\""
+    },
+    {
+      "claim_id": "C69",
+      "verdict": "supported",
+      "reason": "S07 ~07:59-08:54: verbatim after a spoken false start."
+    },
+    {
+      "claim_id": "C71",
+      "verdict": "supported",
+      "reason": "Newsletter S14 (live, March 17, 2026): \"Something to entertain myself, something to entertain the tiny few people who would give a shit.\" Describes both shows."
+    },
+    {
+      "claim_id": "C72",
+      "verdict": "supported",
+      "reason": "Rolling Stone: \"I do want people to like it. But my checklist goes 'Do I find it entertaining? Yes. Does my audience find it entertaining? I hope so.'\""
+    },
+    {
+      "claim_id": "C75",
+      "verdict": "qualified",
+      "reason": "The quoted inputs are verified (S12 September 18, 2024; S03 March 26, 2025; six months apart). As an interpretation it rests on two self-descriptions, and the article itself concedes the counters (\"I finally have arrived\", \"I don't feel successful\") fit both types. It is a sourced lean, not a discriminator the Three reading fails. See verify2-01."
+    },
+    {
+      "claim_id": "C76",
+      "verdict": "supported",
+      "reason": "Vanity Fair (S20, live): \"This is what I love. I finally have arrived where I've always wanted to go.\""
+    },
+    {
+      "claim_id": "C77",
+      "verdict": "supported",
+      "reason": "Interview (S21): \"I'm not going to be embarrassed. I'm going to be cringe.\" Recalled 2020 resolve."
+    },
+    {
+      "claim_id": "C80",
+      "verdict": "supported",
+      "reason": "Disputed and attributed: NYT reports three calls rejected on Gaza, \"He ultimately agreed to the campaign's terms\", the shoes take vs bacon, and that he doesn't eat pork."
+    },
+    {
+      "claim_id": "C81",
+      "verdict": "supported",
+      "reason": "NYT: \"The campaign apologized for the bacon take and proposed a reshoot.\""
+    },
+    {
+      "claim_id": "C82",
+      "verdict": "qualified",
+      "reason": "NYT quote verified. New Yorker (August 2025, live) reports Mamdani on SubwayTakes twice, latest June 2025; a 2026-10-25 search found no later appearance, but the count is current only through that report (tracked as time_sensitive). The quote was spoken to the Times before its November 4, 2024 publication (verify2-03)."
+    },
+    {
+      "claim_id": "C83",
+      "verdict": "supported",
+      "reason": "NYT: \"the status symbol of the season came in August — an invitation to interview both Vice President Kamala Harris and her running mate, Gov. Tim Walz\"."
+    },
+    {
+      "claim_id": "C85",
+      "verdict": "supported",
+      "reason": "Interpretation grounded in verified THR (arguing for fun) and Forbes (\"Personally, I do\") quotes; limits noted."
+    },
+    {
+      "claim_id": "C86",
+      "verdict": "supported",
+      "reason": "Interpretation grounded in S10 plan and DSM ~34:44 (\"I had a couple of clients that were on Retainer... I became my own rich parent\")."
+    },
+    {
+      "claim_id": "C88",
+      "verdict": "supported",
+      "reason": "Rolling Stone: sunglasses quote verbatim."
+    },
+    {
+      "claim_id": "C89",
+      "verdict": "supported",
+      "reason": "S07 ~38:54: \"my brain is designed to jump from thing to thing\"."
+    },
+    {
+      "claim_id": "C92",
+      "verdict": "supported",
+      "reason": "S07 ~34:44 (both passes): consulting clients on retainer, \"I became my own rich parent\"."
+    },
+    {
+      "claim_id": "C94",
+      "verdict": "supported",
+      "reason": "Mpls.St.Paul: \"It is the pride and joy of my life, the thing that I have the most fun with\"."
+    },
+    {
+      "claim_id": "C95",
+      "verdict": "supported",
+      "reason": "Interview intro (May 2026): Keep the Meter Running \"is back on YouTube, in a new longform show\"; Rolling Stone 2026 list confirms the long-form YouTube series."
+    },
+    {
+      "claim_id": "C96",
+      "verdict": "supported",
+      "reason": "Interview opening exchange: verbatim; it is his explanation for returning to the cab show."
+    },
+    {
+      "claim_id": "C97",
+      "verdict": "supported",
+      "reason": "Newsletter S29 (live, July 16, 2026): \"producing John's one-man play for a sold-out audience... the very next night.\""
+    },
+    {
+      "claim_id": "C100",
+      "verdict": "supported",
+      "reason": "Vanity Fair, New Yorker and Rolling Stone describe the format; he pays the fare."
+    },
+    {
+      "claim_id": "C102",
+      "verdict": "supported",
+      "reason": "NYT names Kuo co-creator; Rolling Stone: first episode in 2023; TheWrap: \"co-created, executive produces and hosts\"."
+    },
+    {
+      "claim_id": "C103",
+      "verdict": "supported",
+      "reason": "New Yorker: \"'A hundred per cent agree' or 'A hundred per cent disagree.' (There is no in-between.)\"; GQ (S18, live) confirms the two lanes."
+    },
+    {
+      "claim_id": "C104",
+      "verdict": "supported",
+      "reason": "S12 (live) and NYT (daughter born March 2024); daughter not named; birth month not stated."
+    },
+    {
+      "claim_id": "C105",
+      "verdict": "supported",
+      "reason": "Rolling Stone closing paragraph: \"swiping through his phone to show me picture after picture of his daughter\"."
+    },
+    {
+      "claim_id": "C106",
+      "verdict": "supported",
+      "reason": "Rolling Stone: verbatim closing quote."
+    },
+    {
+      "claim_id": "C107",
+      "verdict": "supported",
+      "reason": "THR winners list (S24, live): \"Colbert Before Air • YouTube • CBS Studios (WINNER)\" in the category with SubwayTakes."
+    },
+    {
+      "claim_id": "C109",
+      "verdict": "supported",
+      "reason": "TheWrap and THR list; FAQ is anchored to the 2026 nomination."
+    },
+    {
+      "claim_id": "C110",
+      "verdict": "supported",
+      "reason": "Guardian: \"I often say to famous people, 'I'll see you at the Emmys,' as just like a bit\"; TheWrap (July 2026): \"for the past six months our team has been guiding us\" with YouTube's support. 'Deep in a six-month campaign' in June 2026 is fair."
+    },
+    {
+      "claim_id": "C111",
+      "verdict": "supported",
+      "reason": "Awards Radar: verbatim; dated June 2026 in prose."
+    },
+    {
+      "claim_id": "C112",
+      "verdict": "supported",
+      "reason": "Interview (S21, live): exact sequence verified, including Povich's interjection \"I think I felt the same way in my 30s\", which the article marks with \"A moment later\". The question was about his early thirties."
+    },
+    {
+      "claim_id": "C114",
+      "verdict": "supported",
+      "reason": "Interview: \"I got punched in the face for not speaking English.\""
+    },
+    {
+      "claim_id": "C115",
+      "verdict": "qualified",
+      "reason": "Interpretation. The definition wording is fine, but 'most likely... at medium confidence' rests mainly on one soft lean that the article itself calls \"a lean\"; the center test and stated reasons split. Defensible as a lean, but it overstates what discriminates. See verify2-01."
+    },
+    {
+      "claim_id": "C117",
+      "verdict": "supported",
+      "reason": "S09 (1986), NYT (Cairo; raised outside St. Paul), Mpls.St.Paul (Mendota Heights), CULTURED."
+    },
+    {
+      "claim_id": "C118",
+      "verdict": "supported",
+      "reason": "Vanity Fair 2022, NYT co-creator, Rolling Stone 2023 start, Brooklyn Magazine/NYT career."
+    },
+    {
+      "claim_id": "C119",
+      "verdict": "supported",
+      "reason": "S10 plan and 33; DSM million-follower goal; TheWrap Emmy campaign; Forbes \"really whole\"."
+    },
+    {
+      "claim_id": "C120",
+      "verdict": "supported",
+      "reason": "'Ranks fun first when he says yes' matches \"should I say yes or should I say no, fun, number one is fun\" (S07); 'planned his fame at 33' matches S10."
+    },
+    {
+      "claim_id": "C121",
+      "verdict": "supported",
+      "reason": "Rolling Stone opening: verbatim, in its dating context."
+    },
+    {
+      "claim_id": "C122",
+      "verdict": "supported",
+      "reason": "S07 ~08:54: \"it wasn't like a bad relationship. Like he was a good dad and I loved him and he loved me\"."
+    },
+    {
+      "claim_id": "C123",
+      "verdict": "supported",
+      "reason": "S07 ~13:18-14:13: \"it was always like one up yourself or don't stop. And so that's what I did. Like that's how I coped\"."
+    },
+    {
+      "claim_id": "C124",
+      "verdict": "supported",
+      "reason": "Interpretation that follows from his own account (deal to graduate, father's refrain, momentum); stated as shared ground."
+    },
+    {
+      "claim_id": "C125",
+      "verdict": "supported",
+      "reason": "Mpls.St.Paul (S06, live): \"So I'm assembling it for its transition from the internet to TV. Getting Ramy Youssef on board...\" and \"I don't have full control over the outcome.\" NYT: Youssef signed on to produce."
+    },
+    {
+      "claim_id": "C126",
+      "verdict": "qualified",
+      "reason": "NYT \"apprehensive about potential criticism from other Muslims\" and Guardian \"I'm not gonna pass up a good story\" are verbatim. But the same Guardian passage first gives his values reason for doing Walz (\"he's not involved in the current administration, and that was less offensive... he's been more sympathetic to the cause\"), which the article omits while reading the decision as image-or-escape. See verify2-02."
+    },
+    {
+      "claim_id": "C127",
+      "verdict": "supported",
+      "reason": "NYT: \"after publishing the Walz interview, Rahma ultimately decided not to move forward with it\"; New Yorker: \"he and the campaign mutually agreed not to release it\". Both attributed."
+    },
+    {
+      "claim_id": "C128",
+      "verdict": "supported",
+      "reason": "Interpretation stated as fitting both types; see the C126 caveat."
+    },
+    {
+      "claim_id": "C129",
+      "verdict": "supported",
+      "reason": "Interview (S21): \"That was the reason. Not because I was like, 'Oh, this is a novel idea.' It was out of need.\""
+    },
+    {
+      "claim_id": "C130",
+      "verdict": "supported",
+      "reason": "Brooklyn Magazine: \"This company called Mad Reality has co-produced and funded the first season.\""
+    },
+    {
+      "claim_id": "C131",
+      "verdict": "supported",
+      "reason": "Interview: \"It was too expensive. And the idea for Subway Takes came about because it's less expensive. The subway is a free set.\""
+    },
+    {
+      "claim_id": "C132",
+      "verdict": "supported",
+      "reason": "Interpretation grounded in Forbes (2022 press made him feel validated and whole) and Vanity Fair 2022 coverage."
+    },
+    {
+      "claim_id": "C133",
+      "verdict": "supported",
+      "reason": "Arithmetic from the July 15, 1986 birthday; Keep the Meter Running 2022 and SubwayTakes 2023 verified."
+    },
+    {
+      "claim_id": "C134",
+      "verdict": "supported",
+      "reason": "Brooklyn Magazine: readings after the 2018 book, \"Oh, that is the feeling that I desire. I like the laughter.\""
+    },
+    {
+      "claim_id": "C135",
+      "verdict": "supported",
+      "reason": "New Yorker (live): legacy, \"if money were not an issue, what would I want to do that I think I would be good at?\", \"I've always been a magnet.\" The omitted money clause does not distort."
+    },
+    {
+      "claim_id": "C136",
+      "verdict": "supported",
+      "reason": "S07 preview ~15:54 (research Whisper only): \"be sending emails for a living until I was 80\"; paraphrased, not quoted, which is appropriate for a single machine pass."
+    },
+    {
+      "claim_id": "C138",
+      "verdict": "supported",
+      "reason": "Forbes captions 00:40:02-00:40:35: after the first Keep the Meter Running episode went up, \"I turned my phone off cuz I was like, I can't deal with another failure.\" First-episode context confirmed at 00:38:26."
+    },
+    {
+      "claim_id": "C139",
+      "verdict": "supported",
+      "reason": "Interpretation; each telling verified (Forbes fun job, Interview cog, Mpls.St.Paul businessman, DSM emails until 80, Rolling Stone poverty). The 'splits' conclusion is fair."
+    },
+    {
+      "claim_id": "C140",
+      "verdict": "supported",
+      "reason": "Dates of the fun-first lines checked: Brooklyn Magazine (January 2023) is the earliest; the rest are 2025-2026."
+    },
+    {
+      "claim_id": "C141",
+      "verdict": "supported",
+      "reason": "S07 ~10:45: \"I certainly wasn't following my dreams and my desires... It wasn't until honestly, I was like 28 that I started to like really have an opinion and a taste.\""
+    },
+    {
+      "claim_id": "C142",
+      "verdict": "supported",
+      "reason": "Brooklyn Magazine: \"the money conversation came up, and my salary was literally tripled. So I was like, 'I'm in. Sure.'\""
+    },
+    {
+      "claim_id": "C143",
+      "verdict": "supported",
+      "reason": "Interpretation consistent with the verified Forbes, New Yorker and Interview tellings."
+    },
+    {
+      "claim_id": "C144",
+      "verdict": "supported",
+      "reason": "Interpretation with an unresolved status and a concrete review trigger; 'No clean split has happened yet' matches the record reviewed."
+    },
+    {
+      "claim_id": "C145",
+      "verdict": "supported",
+      "reason": "No statement linking the 2024 momentum line to the funeral was found in S12, S07 or S03; the Rolling Stone writer juxtaposes them, he does not."
+    },
+    {
+      "claim_id": "C146",
+      "verdict": "supported",
+      "reason": "S07 (2007) and New Yorker/Interview (2020) accounts; limited to two episodes."
+    },
+    {
+      "claim_id": "C147",
+      "verdict": "supported",
+      "reason": "S14: \"a seasoned host (ME!!) with years of formal improv and comedy experience\"."
+    },
+    {
+      "claim_id": "C148",
+      "verdict": "qualified",
+      "reason": "Mirrors C75: sourced, but the ride-over-arrival lean is the article's only remaining tie-breaker and is soft (verify2-01)."
+    },
+    {
+      "claim_id": "C149",
+      "verdict": "supported",
+      "reason": "S07 \"number one is fun\" and S12 airplane-ride line."
+    },
+    {
+      "claim_id": "C150",
+      "verdict": "supported",
+      "reason": "Forbes \"a very fun job\", New Yorker legacy, Interview \"I deserve more than being just a cog in the machine\"."
+    },
+    {
+      "claim_id": "C151",
+      "verdict": "qualified",
+      "reason": "Interpretation built on the verified Rolling Stone scene. 'What came after doesn't settle whether it lasted' omits that about three weeks later (Death, Sex & Money, published April 15, 2025, ~42:08-43:47) he said \"I don't feel like I've changed really\", \"I still feel the same enthusiasm for life\", and that he would slow the pace only after \"a couple of missions\". See verify2-04."
+    },
+    {
+      "claim_id": "C153",
+      "verdict": "supported",
+      "reason": "Interpretation; ADHD statements verified in S07, hobby-hopping in the Guardian narration."
+    },
+    {
+      "claim_id": "C154",
+      "verdict": "supported",
+      "reason": "S07 ~15:05: \"It was, it was obviously sad and difficult\"."
+    },
+    {
+      "claim_id": "C155",
+      "verdict": "supported",
+      "reason": "Heading uses his reported words from S07 ~14:13."
+    },
+    {
+      "claim_id": "C156",
+      "verdict": "supported",
+      "reason": "Rolling Stone: verbatim."
+    },
+    {
+      "claim_id": "C157",
+      "verdict": "supported",
+      "reason": "Vanity Fair (S20, live): \"Commenters frequently compare Rahma to Bourdain... 'It's the highest compliment I could receive,' Rahma says.\" The link target is a published page."
+    },
+    {
+      "claim_id": "C158",
+      "verdict": "supported",
+      "reason": "Guardian (S01, live): \"In high school he joked that 'hobbies are my hobby' because of how regularly he took up an interest and then abandoned it after a few weeks... he has consistently flitted between career paths.\" Attributed as the paper's report."
+    },
+    {
+      "claim_id": "C159",
+      "verdict": "supported",
+      "reason": "Interview (S21): Povich: \"you're very successful at a much earlier age than I was\"; Rahma: \"But see, the thing is, I don't feel successful.\""
+    },
+    {
+      "claim_id": "C160",
+      "verdict": "supported",
+      "reason": "Interpretation tied to his verified S12 line; no reused type exposition (same-type-similarity rerun 2026-10-25)."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "S01",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live page fetched 2026-10-25 (HTTP 200): childhood/'Switzerland' section, 'hobbies are my hobby' paragraph, Walz decision paragraph ('I'm not gonna pass up a good story'), closing 10-year-plan/Emmys paragraph."
+    },
+    {
+      "source_id": "S02",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live page fetched 2026-10-25: intro (format, Mamdani twice incl. June 2025, Harris saga, 'mutually agreed'); Q&A 'walk me through how you got here' (just get rich; pandemic; coping with grief; legacy/good at/magnet); lung cancer answer."
+    },
+    {
+      "source_id": "S03",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live page fetched 2026-10-25: opening aspiring-comedian quote; sunglasses paragraph; 'own first audience' checklist; work-at-14 paragraph; $2,000-every-episode paragraph; 2007 deflection/regret paragraph; closing daughter-photos/transit quote."
+    },
+    {
+      "source_id": "S04",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Wayback 2024 id_ snapshot of the November 4, 2024 article, fetched 2026-10-25: Gaza/three calls/accepted terms; KTMR 'at a loss'; Youssef 'being Egyptian'; father 'one step away from his big break'; 2007-2012 in Minnesota; bacon dispute and officials' rebuttal; apology/reshoot; 'apprehensive'; 'politics person'."
+    },
+    {
+      "source_id": "S05",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live page fetched 2026-10-25 plus saved transcript: 1989/age 3 or 4; East Village/skiing; Museum of Pizza two goals and 2018 turning point; poetry readings/laughter; Instagram-bio identity answer; Times salary tripled; Mad Reality funding; Vinny."
+    },
+    {
+      "source_id": "S06",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live page fetched 2026-10-25: 'what is it that you want?' answer (entertain myself); KTMR pride-and-joy/TV-transition/full-control answer; businessman/40 years/'I think I'll die' answer; Sam/Sayed answer."
+    },
+    {
+      "source_id": "S07",
+      "opened": true,
+      "context_matches": true,
+      "locator": "WNYC episode page live 2026-10-25; audio content checked in the research Whisper small.en transcript and the large-v3-turbo segment pass at ~05:20-15:40, 15:54, 34:44, 37:20-38:54, 42:08-44:34. Machine transcription only, no human listen."
+    },
+    {
+      "source_id": "S08",
+      "opened": true,
+      "context_matches": true,
+      "locator": "YouTube video confirmed live via oEmbed 2026-10-25 (Forbes, 'SubwayTakes: The Viral Show That Shouldn't Have Worked'); content checked in auto-captions and large-v3-turbo segments at 00:30:07-00:31:13, 00:38:26-00:41:08, 00:43:10-00:45:36. Machine text; speaker by continuity."
+    },
+    {
+      "source_id": "S09",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live post fetched 2026-10-25: paragraph 1 ('July 15th, 2024 was my 38th birthday')."
+    },
+    {
+      "source_id": "S10",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live post fetched 2026-10-25: father paragraph (21, six-month cancer); five-year-plan paragraph and checklist; 'need a new plan'."
+    },
+    {
+      "source_id": "S11",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live post fetched 2026-10-25: intro and poem 'Three Hundred Miles To Empty'."
+    },
+    {
+      "source_id": "S12",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live post fetched 2026-10-25: paragraph 3 (pace, 'because I love work', momentum, airplane ride, arriving)."
+    },
+    {
+      "source_id": "S13",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live reprint fetched 2026-10-25: as-told-to opening ('I moved to New York City on May 5, 2012'); transit-theme intro."
+    },
+    {
+      "source_id": "S14",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live post fetched 2026-10-25: paragraphs on both shows ('years of formal improv and comedy experience'; 'Something to entertain myself')."
+    },
+    {
+      "source_id": "S15",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live page fetched 2026-10-25: opening quote (arguing 'for multiple hours simply because it's fun'); chameleon-creatively paragraph."
+    },
+    {
+      "source_id": "S16",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live page fetched 2026-10-25: opening answer (Hollywood reluctance, wife encouraged, Emmys sign-off); closing answer ('my goal was to make the leap')."
+    },
+    {
+      "source_id": "S18",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live page fetched 2026-10-25: 'a hundred percent agree or a hundred percent disagree' paragraph."
+    },
+    {
+      "source_id": "S19",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live /tiktok-2/ page fetched 2026-10-25: profile paragraph 2 ('the hour I spent with Kareem... no sweat off his back')."
+    },
+    {
+      "source_id": "S20",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live page fetched 2026-10-25: Bourdain paragraph ('highest compliment'); closing quote ('I finally have arrived')."
+    },
+    {
+      "source_id": "S21",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live page via r.jina.ai fetched 2026-10-25 (published 2026-05-19, recorded 2026-05-06): opening KTMR exchange; bullying; early-30s exchange incl. Povich interjection; 2020 breakthrough; $2,000/'out of need'; pat on the back; 'I don't feel successful'."
+    },
+    {
+      "source_id": "S23",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live page fetched 2026-10-25: nomination paragraphs; 'for the past six months our team...' and YouTube support; Kuo quotes about the show."
+    },
+    {
+      "source_id": "S24",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live page fetched 2026-10-25: Outstanding Short Form Comedy, Drama or Variety Series block (Colbert Before Air WINNER; SubwayTakes nominee)."
+    },
+    {
+      "source_id": "S25",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live page fetched 2026-10-25: Kareem Rahma entry ('Kareem Rahma, 40'; 7.5 million followers; long-form Keep the Meter Running)."
+    },
+    {
+      "source_id": "S29",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live post fetched 2026-10-25: paragraph 1 (Irish John; one-man play 'for a sold-out audience... the very next night')."
+    }
+  ],
+  "decision_checks": [
+    {
+      "finding_id": "subject-01",
+      "accepted": true,
+      "reason": "Met. The father paragraph quotes \"It wasn't like a bad relationship\" and \"He was a good dad and I loved him and he loved me\" next to \"really controlling\" and \"he also just wanted me to succeed\"; all verified in both S07 machine passes (~08:54). C45/C122 match the prose."
+    },
+    {
+      "finding_id": "subject-02",
+      "accepted": true,
+      "reason": "Met. \"The campaign apologized and proposed a reshoot\" (NYT verbatim) precedes his decision; the Times' report of his apprehension about criticism from other Muslims and \"I never wanted to be a politics person\" give his reasons; the faith line is gone from the article."
+    },
+    {
+      "finding_id": "subject-03",
+      "accepted": true,
+      "reason": "Met. Neither FAQ uses the grief episode or says what he 'protected'; FAQ 1 equals the 58-word H2 answer word for word (checked programmatically)."
+    },
+    {
+      "finding_id": "subject-04",
+      "accepted": true,
+      "reason": "Met. \"Twice, by his own account, he met grief with motion\" replaces the general rule; the type answer has no grief claim; the hook quotes \"It was obviously sad and difficult\" (S07 ~15:05)."
+    },
+    {
+      "finding_id": "subject-05",
+      "accepted": true,
+      "reason": "Met. Description reads \"ranks fun first when he says yes\" (144 characters), matching \"number one is fun\"."
+    },
+    {
+      "finding_id": "subject-06",
+      "accepted": true,
+      "reason": "Met. The passage now carries \"where my initial sense of humor came from, is to avoid getting punched in the face\" (verified on the live Interview page) and says the childhood material is weak evidence about an adult."
+    },
+    {
+      "finding_id": "subject-07",
+      "accepted": true,
+      "reason": "Met. \"After that, he told Povich, an episode cost him about $2,000 of his own money\" states a per-episode cost (consistent with Rolling Stone's \"every episode\"), and \"It was out of need\", \"too expensive\" and \"The subway is a free set\" show the budget limiting the fun."
+    },
+    {
+      "finding_id": "subject-08",
+      "accepted": true,
+      "reason": "Met. The Kuo sentence is scoped: \"In the interviews reviewed for this profile, through October 2026\"."
+    },
+    {
+      "finding_id": "fan-01",
+      "accepted": true,
+      "reason": "Met via path (b). Both Museum of Pizza goals are named (verified in Brooklyn Magazine), the New Yorker legacy/'good at'/'magnet' answer is quoted, and the stated reasons are no longer a discriminator (\"which split by interview\"). FAQ 2 says the reasons are mixed."
+    },
+    {
+      "finding_id": "fan-02",
+      "accepted": true,
+      "reason": "Met. The 2007 paragraph gives \"just keep going\", \"one up yourself\"/\"don't stop\", \"that's how I coped\" and \"in order to finish\"; the episode is demoted to shared ground (\"the Monday counts for neither type\"); 'not a record' is gone; FAQ 2 no longer uses grief."
+    },
+    {
+      "finding_id": "fan-03",
+      "accepted": true,
+      "reason": "Met. The hook quotes \"but I don't know how to take breaks because I love work\" before the momentum block, and the ride section concedes the work half fits a Three."
+    },
+    {
+      "finding_id": "fan-04",
+      "accepted": true,
+      "reason": "Met. The pause is dated to March 2025 with the TV transition (\"assembling it for its transition from the internet to TV\"), Youssef, and \"I don't have full control over the outcome\" (verified in Mpls.St.Paul). It is no longer used as evidence that fun beat ambition."
+    },
+    {
+      "finding_id": "fan-05",
+      "accepted": true,
+      "reason": "Met. Walz publication stated; \"I never wanted to be a politics person\" is dated; Mamdani's two appearances (verified in the New Yorker, latest June 2025) are noted; a closing sentence says what the decision shows."
+    },
+    {
+      "finding_id": "fan-06",
+      "accepted": true,
+      "reason": "Met in substance. The test asked for the remarriage clause where the daughter first appears; the editor placed \"(He has since remarried.)\" in the 2020 paragraph, before \"his wife\" first appears, because the wedding timing is unverified. That achieves the test's purpose. \"his wife's view reaches us only through him\" satisfies the second clause."
+    },
+    {
+      "finding_id": "fan-07",
+      "accepted": true,
+      "reason": "Met. The readings-and-laughter origin is quoted (\"Oh, that is the feeling that I desire\"), dated after the 2018 Museum of Pizza, attributed to Brooklyn Magazine in the same passage, and the article says it fits either type."
+    },
+    {
+      "finding_id": "fan-08",
+      "accepted": true,
+      "reason": "Met. The bio dilemma is attributed to Brooklyn Magazine, and the Rolling Stone quote has its own dating context (\"a 33-year-old divorced guy and introducing myself to women as an aspiring comedian\")."
+    },
+    {
+      "finding_id": "critic-F1",
+      "accepted": true,
+      "reason": "Met. Reason two is removed; the 2007 paragraph reports \"one up yourself\"/\"don't stop\" and \"in order to finish\"; the hook now says \"That Monday is where both answers start\"; no type FAQ uses 2007."
+    },
+    {
+      "finding_id": "critic-F2",
+      "accepted": true,
+      "reason": "Met. His stated reason (\"because I love work\") is at the quote, and \"He has not linked that line to the funeral in anything reviewed here. The pairing, and the test of it, belong to this profile\" marks the inference and its limit. I found no linking statement in S12, S07 or S03."
+    },
+    {
+      "finding_id": "critic-F3",
+      "accepted": true,
+      "reason": "Met via the first option. The section no longer claims the cost gives the fun line its weight; it gives the externally funded first season, the cost-driven move to SubwayTakes \"out of need\", the TV development, the 2026 relaunch and the press the show bought, and concludes \"Its losses can't separate fun from recognition.\""
+    },
+    {
+      "finding_id": "critic-F4",
+      "accepted": true,
+      "reason": "Met. \"His accounts of the same decision change with the room\" sits beside the verified \"out of need\" (Interview) and Hollywood-reluctance (Awards Radar) quotes; description and FAQ say fun ranks first."
+    },
+    {
+      "finding_id": "critic-F5",
+      "accepted": true,
+      "reason": "Met. The Times phrase is shown to cover both invitations; he accepted the campaign's terms; he published Walz; the Guardian's \"I'm not gonna pass up a good story\" and the Times' apprehension report are quoted; a sentence states what each type predicts. (A separate minor omission of his Gaza-based reason for doing Walz is recorded as verify2-02.)"
+    },
+    {
+      "finding_id": "critic-F6",
+      "accepted": true,
+      "reason": "Met. Reason one sets the New Yorker legacy/'magnet' answer and the 'legend' goal beside \"talent has a very fun job\" and, after the repair, is removed from the tie-breakers; reason three is cut; the lead is stated as narrow and medium, and the leading type is unchanged. My separate concern about how thin the remaining tie-breaker is goes in verify2-01; it is not a failure of this test."
+    },
+    {
+      "finding_id": "critic-F7",
+      "accepted": true,
+      "reason": "Met. The ADHD paragraph states the overlap and that \"this public record can't pull them apart\"; the health detail stays in his words."
+    },
+    {
+      "finding_id": "critic-F8",
+      "accepted": true,
+      "reason": "Met. The generic plain-steps paragraph is gone. The fear claim is a definitional sentence tied to his airplane-ride line, and the center test reports the fear evidence as split. I reran same-type-similarity on src/blog/people/drafts/kareem-rahma.md (byte-identical to the candidate): the only pairs above 0.04 are his sourced airplane-ride line (0.091 vs stavros-halkias on 'best part of'; 0.052 vs Travis-Kelce on 'he used to'), not reused type exposition."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "accepted": true,
+      "reason": "Met. \"The plan to get famous\" opens with the dated sequence (2018 Museum of Pizza vs summer 2020; 33 from July 2019 to July 2020; Keep the Meter Running 2022; SubwayTakes 2023), says the accounts differ, and says the type argument leans on neither date."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "accepted": true,
+      "reason": "Met. The second reason now names the father's \"just keep going\" and the fear of not returning, and turns 2007 into shared ground with its limit stated; 'not a record' is deleted."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "accepted": true,
+      "reason": "Met. The Five clause and the generic mechanism paragraph are cut; the triad paragraph ties fear vs shame to the test run on his own statements."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "accepted": true,
+      "reason": "Met. The Eight aside says what made Eight tempting (\"The show's all-or-nothing verdicts\"); the Nine and Six asides name the chameleon years and the consulting-client hedge."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "accepted": true,
+      "reason": "Accepted with a noted shortfall. The catalog problem is fixed (ADHD, Harris and testimony each end on what they complicate; the faith line is cut), but the numeric targets are not met: the body is 3,899 words by checkDraft (3,853 by audit:readability) against ~3,500, and the Harris passage is 188 words against ~100. The editor documented that subject-02, critic-F5 and fan-05 (two of them major) required material that cannot fit in 100 words, and audit:readability flags nothing. The remaining length is a minor pacing issue recorded in verify2-05."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "accepted": true,
+      "reason": "Met. \"A year and a half earlier, in March 2025\" signals the jump, one sentence frames the fatherhood moment as an open question, and the quote stays last. (A related omitted April 2025 counterpoint is recorded as verify2-04.)"
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "accepted": true,
+      "reason": "Met. Description says he \"ranks fun first when he says yes\"; 'planned his fame at 33' is consistent with the dated sequence."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "accepted": true,
+      "reason": "Met. I verified in the live Guardian text that \"This plan is pretty nebulous – more of a vibe\" follows \"As the five-year plan wraps up, he's starting on a 10-year one\". C59's alternative ties it to the 10-year plan, and no passage calls the five-year plan nebulous."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "accepted": true,
+      "reason": "Met via path (a). The Monday and the 2020 summer are labeled shared ground; the type answer, both type FAQs and the hook no longer present them as discriminating; 'It was not a record' is gone; \"one up yourself\"/\"that's how I coped\" is quoted."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "accepted": true,
+      "reason": "Met. The failure-narration reason is cut; the phone-off line (verified at Forbes 00:40:02 as the first-episode context) and the bio agonizing are quoted as Three evidence; the tie-breaker count no longer appears."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "accepted": true,
+      "reason": "Met. The center test is run with sourced shame/acceptance passages (\"a person that people like\", needing the press, \"I'm not going to be embarrassed\", score-keeping) against sourced fear/deprivation tellings (desk dread to Forbes, Povich, Mpls.St.Paul and Death, Sex & Money; poverty). It states plainly that the test splits, and confidence rests on another observation. The money hedge moved to the Six comparison rather than being explained out of the test, which is acceptable. The Five sentence is cut."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "accepted": true,
+      "reason": "Met. The timing paragraph names the post-2023 clustering, the \"become that new identity\" rebrand and the pre-28 account (\"I certainly wasn't following my dreams and my desires\"), labels the older Seven-shaped evidence thin and secondhand, and qualifies the lead to \"lean, narrowly\"."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "accepted": true,
+      "reason": "Met via path (b). \"And the show bought him his first real press. Its losses can't separate fun from recognition\", and \"No clean split has happened yet\" makes the decisive split prospective."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "accepted": true,
+      "reason": "Met. The quote carries \"because I love work\"; the ride section says the work half fits a Three and only the anticipation half leans Seven. The editor kept the titles with a reason: \"Addicted to Momentum\" is his own phrase and the airplane ride is the half still counted. That judgment is reasonable."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "accepted": true,
+      "reason": "Met. Eight trails on his open admission of needing validation, Nine on the five-year fame plan, and Six on hedges that \"made the leap possible rather than replacing it\". No dismissal rests on a conflict stereotype."
+    },
+    {
+      "finding_id": "enneagram-08",
+      "accepted": true,
+      "reason": "Met. The ADHD paragraph states the overlap and keeps \"The type describes a pattern of motives, not a diagnosis or a cause.\"; the Buffalo Wild Wings line is qualified with the host's job and his \"years of formal improv and comedy experience\" (verified in S14)."
+    },
+    {
+      "finding_id": "future-F1",
+      "accepted": true,
+      "reason": "Met. The prose names an observable split (a TV/film/streaming deal, framed as arrival or adventure, and whether the cab show survives). C144 is an unresolved interpretation whose trigger names the July 2027 nominations, any account of the 2026 loss, any deal and the cab show's status. The C34 and C95 triggers require re-checking the argument."
+    },
+    {
+      "finding_id": "future-F2",
+      "accepted": true,
+      "reason": "Met. The FAQ is \"Was SubwayTakes nominated for an Emmy?\" and opens with the dated fact; C40/C109 are time_sensitive with the annual trigger."
+    },
+    {
+      "finding_id": "future-F3",
+      "accepted": true,
+      "reason": "Met. The limitation is dated and scoped; C37 is time_sensitive with the testimony trigger."
+    },
+    {
+      "finding_id": "future-F4",
+      "accepted": true,
+      "reason": "Met. \"By June 2026... he described the Hollywood goal differently\"; C111 is time_sensitive with a deal/renewed-goal trigger."
+    },
+    {
+      "finding_id": "future-F5",
+      "accepted": true,
+      "reason": "Met. C106 is unresolved with the requested trigger; \"in March 2025\" and the closing quote are kept; no sentence claims he has or hasn't changed."
+    },
+    {
+      "finding_id": "verify-01",
+      "accepted": true,
+      "reason": "Met. The Povich answer is quoted in full order with \"A moment later\" (verified on the live page); \"I didn't want to be just a businessman\" opens the Mpls.St.Paul quote; the 'one shape' sentence is gone; the center test \"does not come out clean\"; the lead is re-argued on the ride-over-arrival evidence (an option the test allowed), with \"I finally have arrived\" and \"I don't feel successful\" as counters. FAQ 2 no longer uses the emails dread as a discriminator. C112/C139/C143/C150 record the pairing. The leading type is unchanged."
+    },
+    {
+      "finding_id": "verify-02",
+      "accepted": true,
+      "reason": "Met. \"six months later\" is correct (September 18, 2024 to March 26, 2025); C75 and the discriminator match."
+    },
+    {
+      "finding_id": "verify-03",
+      "accepted": true,
+      "reason": "Met. \"Even the move from Vice to the Times came down to money: 'my salary was literally tripled'\" (verified in Brooklyn Magazine). The experience line is no longer a reason. The Guardian narration is added, attributed and labeled thin and secondhand."
+    },
+    {
+      "finding_id": "verify-04",
+      "accepted": true,
+      "reason": "Met. The quote matches the cited /tiktok-2/ page, checked live today: \"I had the sense that what I perceived as a vulnerable exchange was actually no sweat off his back\"."
+    },
+    {
+      "finding_id": "verify-05",
+      "accepted": true,
+      "reason": "Met. Both definition sentences are reworded; the type paragraph ties the Seven to \"the way Rahma prefers the airplane ride to arriving\". My rerun shows only his sourced airplane-ride line above 0.04."
+    },
+    {
+      "finding_id": "verify-06",
+      "accepted": true,
+      "reason": "Met. The Harris material is three paragraphs with every attribution kept. My audit:readability run flags nothing (longest paragraph 119 words; at most three long paragraphs in a row)."
+    },
+    {
+      "finding_id": "verify-07",
+      "accepted": true,
+      "reason": "Met. Contextual body links go to /personality-analysis/anthony-bourdain (supported by Vanity Fair 2022: commenters compare him to Bourdain) and /personality-analysis/zohran-mamdani; both drafts are published: true. The body has four internal outbound links."
+    }
+  ],
+  "prior_blocker_checks": [],
+  "protected_checks": [
+    {
+      "passage": "He gives reasons, and they matter.",
+      "preserved": true,
+      "reason": "Verbatim in the candidate, now followed by the father's refrain and the finishing motive."
+    },
+    {
+      "passage": "After the death he stayed in Minnesota to help his mother and two younger siblings, and he did not leave for New York until 2012, the Times reported. That was duty, not escape.",
+      "preserved": true,
+      "reason": "Verbatim; NYT support rechecked."
+    },
+    {
+      "passage": "The protests were in his hometown, so conviction explains them as well as grief does.",
+      "preserved": true,
+      "reason": "Verbatim."
+    },
+    {
+      "passage": "That explains a lot about how he works, but not why he names fun as his rule, or why he went back to school the Monday after a funeral. The type describes a pattern of motives, not a diagnosis or a cause.",
+      "preserved": true,
+      "reason": "Changed for a valid reason. The first sentence asserted a separation the record cannot support (critic-F7, enneagram-08). Replacing it with the honest overlap is the kind of correction the standard allows. The distinctive limit, 'The type describes a pattern of motives, not a diagnosis or a cause.', is kept verbatim and the health detail stays in his words."
+    },
+    {
+      "passage": "Culture explains some of what follows before any type does.",
+      "preserved": true,
+      "reason": "Verbatim."
+    },
+    {
+      "passage": "\"I think in our relationship, there was never a moment where he was like, that's great. Good job. It was always like, that's great. Keep going.\"",
+      "preserved": true,
+      "reason": "Verbatim block quote; wording verified in both S07 passes."
+    },
+    {
+      "passage": "That matters for the typing. An Eight argues to win. Rahma argues about things he says he doesn't care about, for the pleasure of it.",
+      "preserved": true,
+      "reason": "Contribution preserved. 'That matters for the typing.' and 'Rahma argues about things he says he doesn't care about, for the pleasure of it' remain. The stereotype 'An Eight argues to win' was replaced with what made Eight tempting and a motive-level reason it trails, as enneagram-07 and unfamiliar-04 required."
+    },
+    {
+      "passage": "That half second is the Seven's reframe in miniature.",
+      "preserved": true,
+      "reason": "Image preserved as 'That half second looks like the Seven's reframe in miniature', now qualified with the host/improv alternative (enneagram-08). Necessary hedge; the vivid detail survives."
+    },
+    {
+      "passage": "\"The sunglasses are a disguise,\" he told Rolling Stone. \"There's a lot of emotions in the eyes. So I'm preserving a piece of myself.\"",
+      "preserved": true,
+      "reason": "Verbatim; Rolling Stone wording verified live."
+    },
+    {
+      "passage": "\"I'm not in a hurry to go to the next spot, which may be the first time in my life. I always felt more comfortable being in transit, not literally, but also literally. I love it. It's a magical feeling to be on the way.\"",
+      "preserved": true,
+      "reason": "Verbatim as the final line; verified live."
+    },
+    {
+      "passage": "A poem is not testimony about 2007. It is still the image he picked.",
+      "preserved": true,
+      "reason": "Verbatim."
+    },
+    {
+      "passage": "That could be one good quote handed to him by a friendly host. It keeps coming back in other rooms, though.",
+      "preserved": true,
+      "reason": "Verbatim, now followed by the counter-accounts."
+    },
+    {
+      "passage": "That is about as Three as a sentence gets, and it is the main reason this read stays at medium confidence.",
+      "preserved": true,
+      "reason": "Verbatim, directly after the validation quotes."
+    },
+    {
+      "passage": "A Seven can crave applause, and the validation quotes are what the Seven read absorbs least comfortably. The test going forward is simple. If he starts choosing recognition over fun when the two split, the case for Three gets stronger.",
+      "preserved": true,
+      "reason": "Verbatim in 'The ride, not the arrival', followed by 'No clean split has happened yet' and the concrete forward test."
+    },
+    {
+      "passage": "Finally, almost everything here comes from Rahma. His co-creator, Andrew Kuo, talks publicly about the show, not about him.",
+      "preserved": true,
+      "reason": "Contribution preserved. 'Finally, almost everything here comes from Rahma.' is verbatim. The Kuo sentence is scoped and dated as subject-08 and future-F3 required, which corrects an overbroad claim."
+    },
+    {
+      "passage": "\"I am addicted to momentum. I used to tell my therapist that the best part of traveling was the airplane ride. I have a habit of arriving somewhere and then looking forward to going home.\"",
+      "preserved": true,
+      "reason": "Verbatim block quote, now with its work context; verified on the live newsletter."
+    },
+    {
+      "passage": "So which is he? A striver who learned to sell fun, or a fun-seeker who learned to strive? His own words point mostly to the second, and the reason starts with that Monday.",
+      "preserved": true,
+      "reason": "The striver/fun-seeker question is verbatim. The overstated second half was corrected to 'lean, narrowly' and 'That Monday is where both answers start' (enneagram-01, enneagram-04, critic-F1). Its function, stating the stakes, is kept."
+    },
+    {
+      "passage": "Here the two readings collide. Fame is a Three's prize. But listen to why he wanted it.",
+      "preserved": true,
+      "reason": "Verbatim."
+    },
+    {
+      "passage": "The goal looks like a Three's. The reason he gives is a Seven's.",
+      "preserved": true,
+      "reason": "Changed for accuracy. 'The goal looks like a Three's' survives in 'The goal looks like a Three's, and so does half the reasoning.' The second sentence was false on the full record: the Povich telling pairs the same dread with 'a cog in the machine', which I verified live. Correcting it preserves the goal-vs-reason distinction honestly."
+    },
+    {
+      "passage": "I'm not in a hurry to go to the next spot, which may be the first time in my life. I always felt more comfortable being in transit, not literally, but also literally.",
+      "preserved": true,
+      "reason": "Verbatim inside the final quote."
+    },
+    {
+      "passage": "He went home for the funeral and slept at his parents' house for one night. On Monday he was back at school.",
+      "preserved": true,
+      "reason": "Verbatim as the hook's second paragraph."
+    },
+    {
+      "passage": "A Seven can crave applause, and the validation quotes are what the Seven read absorbs least comfortably.",
+      "preserved": true,
+      "reason": "Verbatim."
+    }
+  ],
+  "coverage_complete": true,
+  "metadata_consistent": true,
+  "alternative_type_addressed": true,
+  "five_year_test_passed": true,
+  "open_case_eligible": false,
+  "scores": {
+    "evidence": {
+      "score": 8.5,
+      "passage": "He has not linked that line to the funeral in anything reviewed here. The pairing, and the test of it, belong to this profile.",
+      "reason": "I reopened the sources on 2026-10-25: 22 live pages, the NYT via Wayback, S07 and S08 via their machine transcripts and live pages. All 123 quoted spans in body and metadata match their cited sources, and the load-bearing ones are in context: the Povich interjection is marked 'A moment later', the CULTURED wording matches the cited URL, and the Guardian 'nebulous' line is tied to the 10-year plan. Inferences are labeled where they occur, like this passage or 'That is weak evidence about an adult'. The disputed Harris account is attributed to both sides. Limits: about 40 quotes from S07/S08 rest on machine transcription only; the record is mostly self-report with one outside read (CULTURED); two minor context omissions (verify2-02 Walz values reason, verify2-04 April 2025 counterpoint)."
+    },
+    "enneagram": {
+      "score": 7.5,
+      "passage": "So this is a lean, and it carries most of the lead.",
+      "reason": "The test of Type 3 is serious and sourced: the strongest Three quotes ('Personally, I do', 'really whole', 'I should stand out... cog in the machine'), a center test reported honestly as split, a timing problem, named confounds (culture, ADHD, improv, creator incentives), motive-level asides for 8, 9 and 6, and a concrete forward test. That is well above the 6 anchor. But the positive case for Seven now rests mainly on two self-descriptions of anticipation over arrival. The article concedes the counters fit both, says 'No clean split has happened yet', and shows no repeated costly choice that separates the motives. Three is not shown to fail a specific sourced discriminator, so it falls short of the 8 anchor, and 'medium confidence' is generous for what remains (verify2-01)."
+    },
+    "originality": {
+      "score": 8.5,
+      "passage": "I used to tell my therapist that the best part of traveling was the airplane ride. I have a habit of arriving somewhere and then looking forward to going home.",
+      "reason": "The insight (where satisfaction sits: the ride, not the arrival) is specific to him. So is the evidence: the Monday after the funeral, his father's 'that's great. Keep going.', the airport poem's 'swat it away like a fly', Vinny's Buffalo Wild Wings half second, 'I became my own rich parent', the bacon taping, 'The sunglasses are a disguise'. Type exposition is minimal and tied to his words; the rerun similarity scan shows no reused type argument. An unresolved contradiction survives ('I don't feel successful'). Held below 9 because after repair, procedural adjudication rather than discovery carries the type sections."
+    },
+    "writing": {
+      "score": 7.5,
+      "passage": "Its losses can't separate fun from recognition.",
+      "reason": "The prose is clean and exact. Paragraph lengths vary, quotes get their own blocks, there are no em dashes or stock phrases (audit:readability flags nothing; longest paragraph 119 words), the opening scene is strong and the closing quote earned. But after two repair rounds the second half runs as an adjudication loop. About fifteen sentences rule a piece of evidence shared or either-way (this one, 'the Monday counts for neither type', 'reads either way', 'fits either type', 'equally well'), and signposts like 'Now the center test' and 'There is a timing problem too' make 'Why not Type 3?' and 'The ride, not the arrival' read as procedure. At 3,899 words the body exceeds the target (verify2-05)."
+    },
+    "durability": {
+      "score": 8.5,
+      "passage": "The likeliest: if a TV, film or streaming deal arrives, does he talk about it as arrival, or as one more adventure, and does the cab show he calls his most fun survive it?",
+      "reason": "Changing facts are dated in the prose: July 2026 nomination, September 2026 loss, 'By June 2026', 'through October 2026', 'most recently in June 2025'. The Emmy FAQ is anchored to 2026, the age FAQ to the birth date, and time-sensitive claims carry actionable triggers (C37, C40, C82, C106, C111, C144, C159). Removing the 2026 material leaves the argument intact, since it rests on 2007-2025 statements. This passage names an observable test a refresh can check. The type read itself is fragile and could shift with new evidence, but the page says what would shift it."
+    },
+    "hook": {
+      "score": 8.5,
+      "passage": "He went home for the funeral and slept at his parents' house for one night. On Monday he was back at school.",
+      "reason": "A specific, sourced two-sentence scene, then his own words ('all about motion and momentum') and the 2024 newsletter, with the pairing explicitly marked as the profile's own. It sets up the striver-or-fun-seeker question, which the article pursues. A slight letdown: the article later rules that the Monday 'counts for neither type', though the hook signals this with 'That Monday is where both answers start'."
+    },
+    "discoverability": {
+      "score": 8,
+      "passage": "Kareem Rahma most likely fits Enneagram Type 7, the Enthusiast, at medium confidence. Sevens are a fear type wary of confinement and going without. Rahma ranks fun \"number one\" when deciding what to say yes to, and he used to tell his therapist the best part of traveling was the airplane ride. Type 3 is a close rival.",
+      "reason": "The H2 answer is 58 words and mirrored word for word by FAQ 1. meta_title is 53 characters; the description is 144 characters and honest ('leans Enneagram 7, with Type 3 a close rival'). Five useful FAQs (type, why not 3, who he is, the dated Emmy question, age), keyword coverage, and four contextual internal links to published pages (Type 7, Type 3, Anthony Bourdain, Zohran Mamdani) plus six suggestions. Deduction: the meta_title ('...Who Loves the Ride') carries no 'personality type' or 'Enneagram' term for the searches the keywords target, and the confidence language inherits the verify2-01 overstatement."
+    }
+  }
+}

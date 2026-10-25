@@ -1,0 +1,19 @@
+I've written the subject (fairness) review to `docs/content-analysis/pipeline-logs/2026-10-24_06-00-03-871_dan-ives/review-subject.json`. It passes the review schema, every quoted passage matches the draft exactly, and the draft and evidence fingerprints match the request. I changed no other files and published nothing.
+
+**Verdict:** the draft is careful on the sensitive material (the SEC order, the Barron's conflict-of-interest story, his parents) but leaves out Ives's own responses where the type argument depends on them. I logged 8 findings: 4 major, 4 minor.
+
+**Major**
+- **"He avoided the critics" isn't what the record shows.** He went on CNBC's Fast Money the Monday after the Barron's cover story, and his friend Dan Nathan praised him on a podcast for not hiding. Barron's itself reported he started adding disclosures to his X posts, and he left Eightco six weeks later. That paragraph is the main evidence for Type 7 over Type 3, so the gap makes the Type 7 case look stronger than it is.
+- **The two type FAQs overstate.** One says the extra roles "cost him credibility." The other implies he left Wedbush because of the criticism instead of fixing his image. No source links the exit to the article. His own reasons were a long-held plan, months of talks with Yorkville and a "tough decision."
+- **The "simplify" irony drops his explanation.** In the same Barron's interview he said he dropped "a number of the roles" to be "110% focused" on building the bank. That is close to what the draft presents as a gotcha.
+- **The conflict reporting shows only the critical side of the Barron's story.** The same article says his X bio listed some roles, and that Wedbush barred him from holding the ETF or its stocks. Zeta said its advisers have no governance role. These are missing. Two of his quotes are also used out of context to suggest hypocrisy.
+
+**Minor**
+- A headline-change request made by Wedbush's lawyer is counted as Ives protecting his image.
+- The Synchronoss passage implies he hides that chapter of his career.
+- His account of his parents' deaths is used as evidence against Type 3.
+- The meta description lists his new bank as a "side role," and it says he told Tesla to simplify while the title says Musk.
+
+**Your call:** once Ives's responses are restored, the Type 7 vs Type 3 argument may need rebuilding or a lower confidence. If it changes substantially, the standard calls for rerunning with `--refresh --expanded-review`. That costs another full review round but keeps the type call honest.
+
+**Limits:** sec.gov rate-limited my download of the SEC order, so I read the copy saved earlier in this run. I checked the Nathan podcast against the earlier machine transcript and did not re-listen to the audio. Anything quoted from it needs a listen at the timestamp first. The similarity check flagged two phrases shared with the Dylan Patel draft (the stock Type 7 definition and a "that case gets its own section below" line). The arguments themselves differ, so I didn't count it as reuse.

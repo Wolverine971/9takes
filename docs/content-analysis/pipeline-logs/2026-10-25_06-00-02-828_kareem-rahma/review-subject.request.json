@@ -1,0 +1,20 @@
+{
+  "schema_version": 3,
+  "subject": "kareem-rahma",
+  "mode": "create",
+  "role": "subject",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_review_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-25_06-00-02-828_kareem-rahma/draft.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-25_06-00-02-828_kareem-rahma/evidence-draft.json",
+    "similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-25_06-00-02-828_kareem-rahma/similarity.json"
+  },
+  "outputs": {
+    "review-subject.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-25_06-00-02-828_kareem-rahma/review-subject.json"
+  },
+  "content_sha256": "8b7a6bc84582b7330df16ce929f76ff47fe0b0f20f5038d051d1ec329f892cf6",
+  "evidence_sha256": "524de425eefc7d655e7b2f179bad4f83aa35257089be3a7ca6b88b781eadacc2"
+}

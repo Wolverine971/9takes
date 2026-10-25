@@ -1,0 +1,20 @@
+I wrote the fan review to `docs/content-analysis/pipeline-logs/2026-10-25_06-00-02-828_kareem-rahma/review-fan.json`. It passes the pipeline's `reviewSchema` check and carries the request's content and evidence hashes. Nothing else changed in the repo and nothing was published. The only other file is a small helper script in `/tmp/kr-fan-review/`.
+
+I checked most of the draft's quotes and facts against the source copies saved during research. I found no factual errors; the problem is which half of each source the draft keeps. In several places it keeps the part that supports Type 7 and drops the part that supports Type 3 or a sense of duty. None of these alone changes the type, but together they weaken two of the three reasons in "Why not Type 3?".
+
+**Major (2):**
+- **fan-01:** "When he explains why he wanted the Three's prizes, he names what they buy" holds up only because his status reasons are left out:
+  - The Museum of Pizza's first goal was to "go down in New York history as a legend." The draft quotes "didn't achieve either goal" without naming either goal.
+  - On deciding to become a comedian, he told the New Yorker: "Do I want to leave a legacy?" and "I've always been a magnet."
+  - He said he almost skipped SubwayTakes because "all I want to do is make TV and films in Hollywood."
+- **fan-02:** The Monday-after-the-funeral account comes from the same podcast passage. There he says he kept going "in order to finish" the degree he had promised his father. "Keep going" was also his father's line for withholding praise. The type argument and the FAQ ("protected momentum rather than an image") leave both points out.
+
+**Minor (6):**
+- **fan-03:** The hook quote drops the clause just before it: "I don't know how to take breaks because I love work."
+- **fan-04:** He paused Keep the Meter Running to turn it into a TV show with Ramy Youssef, and complained he didn't have "full control." The draft presents the pause as proof he picks fun over ambition.
+- **fan-05:** "I never wanted to be a politics person" appears without Zohran Mamdani's two SubwayTakes appearances.
+- **fan-06:** "His wife" shows up near the end without ever being introduced. She is also the closest thing the draft has to testimony from someone who knows him.
+- **fan-07:** His comedy began when audiences laughed at his poetry readings: "that is the feeling that I desire." The draft skips this.
+- **fan-08:** A Brooklyn Magazine anecdote about his Instagram bio is paired with a Rolling Stone quote that was actually about introducing himself to women as a divorced 33-year-old "aspiring comedian."
+
+I also marked five passages to keep: the father's "that's great. Keep going.", the "An Eight argues to win" contrast, the Buffalo Wild Wings half-second reframe, the sunglasses-as-disguise quote, and the closing "on the way" quote. The review keeps the contested-typing risk flag. The similarity check flagged only the phrase "the pattern runs," which also appears in the Tyla profile; it's ordinary wording, not a reused argument.

@@ -1,0 +1,93 @@
+{
+	"schema_version": 3,
+	"role": "subject",
+	"content_sha256": "8b7a6bc84582b7330df16ce929f76ff47fe0b0f20f5038d051d1ec329f892cf6",
+	"evidence_sha256": "524de425eefc7d655e7b2f179bad4f83aa35257089be3a7ca6b88b781eadacc2",
+	"risks": {
+		"sensitive_allegations": false,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": false
+	},
+	"findings": [
+		{
+			"id": "subject-01",
+			"severity": "major",
+			"passage": "He calls his father \"really controlling,\" a man who \"loved me too much as the eldest son.\" The praise, he says, never came.",
+			"problem": "Context fidelity about a dead private person who cannot respond. In the same Death, Sex & Money answer (research transcript at about 08:54), Rahma opened with \"it wasn't like a bad relationship. Like he was a good dad and I loved him and he loved me\" and added \"he also just wanted me to succeed.\" The draft keeps only the critical half, so readers get a harsher picture of Sayed than his son gave. C45's alternative field records the balancing line, but the prose drops it.",
+			"acceptance_test": "Next to \"really controlling,\" the father paragraph quotes Rahma's own balancing words from the same answer: at minimum \"he was a good dad and I loved him,\" checked against the second S07 transcription. C45's passage is updated to match."
+		},
+		{
+			"id": "subject-02",
+			"severity": "major",
+			"passage": "The campaign proposed a reshoot, and he decided not to go ahead (the New Yorker later described the decision as mutual).",
+			"problem": "A disputed account is missing the other side's response. The Times (S04) reports \"The campaign apologized for the bacon take and proposed a reshoot.\" The draft keeps the reshoot and drops the apology, so the campaign looks less accommodating than the record shows. For his reason, the draft gives only \"I never wanted to be a politics person.\" It leaves out what he told the Times: \"It was so complicated because I'm Muslim and there's something going on in the world that 100 percent of Muslims care about... Boring!\" The next sentence puts his May 2026 faith comment right after the Harris episode and drops its hedge. Interview S21 has \"I don't know. I guess it is probably stronger than it's ever been. And I'm working it out in the cabs, too.\" Placed there, it suggests a link between the episode and his faith that he never drew.",
+			"acceptance_test": "The paragraph says the campaign apologized for the bacon take before it offered the reshoot (NYT, November 4, 2024). It includes at least one reason he gave the Times for not publishing. The faith line either keeps his hedge and his own context (the cabs) or moves out of the Harris paragraph. The C81 and C39 passages are updated."
+		},
+		{
+			"id": "subject-03",
+			"severity": "major",
+			"passage": "under grief he protected momentum rather than an image.",
+			"problem": "The metadata states the author's guess about his motive in grief as fact. The body attributes the idea to him (\"He calls it momentum\") and sets it beside the reasons he gave: his father's \"just keep going,\" \"my dad would want me to finish,\" and his fear that he would not go back. The FAQ drops those reasons. The first FAQ also uses \"after his father died in 2007 he was back at school the Monday after the funeral\" as bare type evidence. FAQ answers get shown alone as search snippets. There, a grieving 21-year-old's choice reads as a verdict on his personality, with none of his own explanation.",
+			"acceptance_test": "Each FAQ answer either credits the framing to him (\"he has said it was 'all about motion and momentum'\") with a clause giving his duty reason, or uses an example that is not about grief (the fun rule, the airplane-ride line). No FAQ states as fact what he \"protected.\" The H2 answer and FAQ 1 still match."
+		},
+		{
+			"id": "subject-04",
+			"severity": "minor",
+			"passage": "What repeats across 2007 and 2020 is the reflex. When something hurts, Rahma speeds up.",
+			"problem": "Two documented episodes become a general rule about his inner life (\"When something hurts\"), and the type answer repeats it (\"when grief has hit him, he has sped up instead of stopping\"). Three things cut against that. In 2007 he also stayed in Minnesota for five years to help his family. The draft itself admits that conviction explains 2020. And his own account of 2007 includes \"It was obviously sad and difficult\" (S07, about 15:05). The draft leaves that line out even though the hook rests on that weekend.",
+			"acceptance_test": "The sentence and the type answer are limited to the two episodes and to his own framing (e.g. \"Twice, by his own account, he met grief with motion\"). The 2007 passage includes his \"obviously sad and difficult\" or an equivalent, so the hook does not suggest he felt nothing."
+		},
+		{
+			"id": "subject-05",
+			"severity": "minor",
+			"passage": "Kareem Rahma planned his fame at 33, but he says fun decides every yes.",
+			"problem": "The paraphrase claims more than he said. He called fun \"number one\" and \"the number one thing on my list,\" which ranks it first. He never said it decides every yes. The body itself lists other tests he names: whether the audience is entertained, \"I do want people to like it,\" money, followers. Evidence C120 notes the compression, but the description presents it as his statement.",
+			"acceptance_test": "The description's \"he says\" clause matches his words (e.g. \"he says fun comes first\" or \"he ranks fun number one\"), and the description stays within 120-170 characters."
+		},
+		{
+			"id": "subject-06",
+			"severity": "minor",
+			"passage": "His conclusion was practical: \"I need to learn how to be a person that people like.\"",
+			"problem": "The quote stops before the reason he gave. In the same Interview answer (S21) he went on: \"So that's where my initial sense of humor came from, is to avoid getting punched in the face.\" The draft then calls it \"a classic Three move,\" which turns a bullied immigrant child's self-protection into evidence of an adult image motive. C03's own alternative note calls this common circumstance and says not to present it as a causal wound.",
+			"acceptance_test": "The passage includes the reason he gave (humor as a way to avoid getting punched). The Three inference either rests only on the adult chameleon statements or is plainly marked as weak where it relies on childhood bullying."
+		},
+		{
+			"id": "subject-07",
+			"severity": "minor",
+			"passage": "He pays the full fare, and an episode once cost him about $2,000 out of pocket, he told Povich.",
+			"problem": "This misreports the source and leaves out his own counterpoint. To Povich (S21) he described about $2,000 as his regular per-episode cost at the time (\"The meter might cost me $700, food might cost me $250...\"), not a one-off. Then he said: \"It was too expensive. And the idea for Subway Takes came about because it's less expensive... It was out of need.\" The draft uses the cost to show that fun beats money (\"What gives the line weight is what it costs him\") but drops his own account that the expense pushed him to a cheaper format.",
+			"acceptance_test": "The sentence describes a regular per-episode cost. In his words, the section notes that the expense led to SubwayTakes \"out of need,\" so the cost evidence shows the fun rule giving way to budget as well as overriding it. C34 is updated."
+		},
+		{
+			"id": "subject-08",
+			"severity": "minor",
+			"passage": "His co-creator, Andrew Kuo, talks publicly about the show, not about him.",
+			"problem": "This is a sweeping claim about a named person that the record does not support. The record holds only two short Kuo quotes (NYT 2024, TheWrap 2026). Kuo co-hosts SubwayTakes Uncut, which research listed as an open lead and never reviewed. So the draft cannot say what Kuo does or does not say about Rahma in public.",
+			"acceptance_test": "The sentence is limited to the record reviewed (e.g. \"In the interviews reviewed here, Kuo talks about the show, not about him\"), or Uncut episodes are checked and cited."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "He gives reasons, and they matter.",
+			"reason": "This puts Rahma's own explanation (duty to his father, fear of not going back) next to the hook before any type reading. It is the main fairness safeguard for the grief material."
+		},
+		{
+			"passage": "After the death he stayed in Minnesota to help his mother and two younger siblings, and he did not leave for New York until 2012, the Times reported. That was duty, not escape.",
+			"reason": "It is a sourced counterweight that keeps the momentum thesis from turning into a story about him avoiding his family."
+		},
+		{
+			"passage": "The protests were in his hometown, so conviction explains them as well as grief does.",
+			"reason": "It gives his 2020 activism its own meaning instead of reducing it to a coping mechanism."
+		},
+		{
+			"passage": "That explains a lot about how he works, but not why he names fun as his rule, or why he went back to school the Monday after a funeral. The type describes a pattern of motives, not a diagnosis or a cause.",
+			"reason": "It handles a health disclosure he made himself in his own words and sets a clear limit on what the type can claim."
+		},
+		{
+			"passage": "Culture explains some of what follows before any type does.",
+			"reason": "It names a non-type explanation (Egyptian immigrant family hustle) at the point where readers would otherwise put everything down to personality."
+		}
+	],
+	"assessment": "Subject role (fairness proxy). For every passage about his father, grief, family health, faith, bullying, money and the Harris episode, I checked the saved source copies from research: S02, S03, S04, S06, S19, S21, the S07 research Whisper transcript and the S08 captions. I did not re-fetch them live. The S07 and S08 wording is machine transcription and still needs the re-listen that research flagged. Mostly the draft keeps public record and inference apart. Several things are on the page: his reasons for going back to school, his family duty, the conviction reading of 2020, the limit on ADHD, the thin outside testimony, and both sides of the Harris dispute. The daughter's name, the wedding and the Museum of Pizza figures are rightly left out. The main fairness problem is selective trimming of his own balancing words. This happens with his late father (\"he was a good dad and I loved him\"), the bullying story (humor \"to avoid getting punched in the face\"), the cost of Keep the Meter Running (\"too expensive\", SubwayTakes born \"out of need\") and his faith (the hedge \"I don't know. I guess\"). The campaign's apology for the bacon take is also missing. The metadata repeats the article's conclusions without their qualifiers: the FAQ turns his grief into flat type evidence, and the description stretches \"number one is fun\" into \"fun decides every yes.\" I found no sensitive allegations against him. ADHD, his brother's hospitalization and the divorce are his own public disclosures, and the draft keeps them brief. One unverified detail: the draft calls Rolling Stone's CT Jones \"her,\" but the source page gives only the name, so use the name or \"the reporter\" unless that is confirmed. Similarity check: the 0.127 match with Tyla is the ordinary phrase \"the pattern runs,\" not a reused argument. The framing sentence \"The pattern runs in a few plain steps.\" also appears word for word in the shyam-sankar draft. That is a house-voice template, not a fairness issue, so I made no finding. Risk flags: contested_typing stays true from research. I found nothing that justifies adding sensitive_allegations, historical uncertainty or a major thesis change."
+}

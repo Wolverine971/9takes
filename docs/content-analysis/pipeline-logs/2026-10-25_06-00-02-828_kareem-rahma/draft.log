@@ -1,0 +1,29 @@
+Error: Reached max turns (60)
+[runner] Turn limit reached; resuming session 2323dbe0-4f9c-48d3-b588-b4b509844e58 to write outputs
+I've written both files for the Kareem Rahma draft stage: `draft.md` and `evidence-draft.json`. Nothing was graded or published, and no other repo files were touched. The draft passes the pipeline's own checks: no blockers, all 114 claim passages appear in the draft, and the evidence file validates.
+
+**The draft**
+- **Story:** it opens with his father's death in 2007. Rahma was back at school the Monday after the funeral, calling it "all about motion and momentum." That sits next to his 2024 line that "the best part of traveling was the airplane ride." The question it asks: is he a striver who learned to sell fun, or a fun-seeker who learned to strive?
+- **Type answer:** it commits to Type 7 in your voice. It leads with the fear triad (Sevens push fear down), then walks through how the pattern plays out step by step. Medium confidence is stated in the next paragraph.
+- **The rival:** the Type 3 case gets its own "Why not Type 3?" section with its strongest evidence. That includes his line that 2022 press coverage made him feel "really whole" and "Personally, I do" need validation.
+- **What tips it to 7:** his reasons for chasing money and fame are experiences ("talent has a very fun job"). Under grief he protected momentum, not a record. He keeps his failures in the story.
+- **Status:** `published: false`, enneagram 7, slug `kareem-rahma`.
+
+**Quote checks**
+- All 108 quoted phrases match the saved source texts, with zero misses.
+- For the two recordings, I ran a second machine transcription at the timestamps the research flagged. That is a cross-check, not a human listen. Every quoted line matched; one caption phrase disagreed between the two passes, so I left it out.
+- Two corrections to the research record:
+  - The poem with the "I swat it away like a fly" lines never names his father, so the draft doesn't claim it's about him.
+  - One magazine quote had been slightly reworded in the research notes; the draft uses the article's actual wording.
+- Kept out as instructed: the wedding date, the Museum of Pizza dollar figures, Carnegie's "moved at age seven," and the daughter's name.
+
+**Open items for the next stages**
+- **Length:** 3,781 words is above the ~3,500 target, and the edit stage usually adds words. The editor should trim, not add.
+- **Similarity check:** the duplicate-wording scanner reported one top match I didn't inspect before the stage limit. It should be rerun and that pair checked.
+- **Thin outside testimony:** almost everything comes from Rahma himself, and the draft says so.
+- **Six research claims dropped:** they weren't used in the draft; their sources stay in the record.
+- **Links:** the six suggested-profile links point to local drafts marked published; I didn't confirm they're live.
+
+Files are in `docs/content-analysis/pipeline-logs/2026-10-25_06-00-02-828_kareem-rahma/`:
+- `draft.md`
+- `evidence-draft.json`

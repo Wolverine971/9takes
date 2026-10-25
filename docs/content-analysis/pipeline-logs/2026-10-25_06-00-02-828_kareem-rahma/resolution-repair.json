@@ -1,0 +1,378 @@
+{
+  "schema_version": 3,
+  "decisions": [
+    {
+      "finding_id": "subject-01",
+      "action": "fixed",
+      "reason": "Fixed. The father paragraph now quotes his balancing words from the same Death, Sex & Money answer: \"It wasn't like a bad relationship\" and \"He was a good dad and I loved him and he loved me,\" plus \"he also just wanted me to succeed,\" next to \"really controlling.\" Both machine transcriptions (research Whisper and the draft-stage large-v3-turbo 05:20 segment) agree on these spans. New claim C122; C45 updated."
+    },
+    {
+      "finding_id": "subject-02",
+      "action": "fixed",
+      "reason": "Fixed. The Harris paragraph now says the campaign apologized and proposed a reshoot right after the attributed bacon dispute (NYT). It gives his reasons: the Times' report that he had been \"apprehensive about potential criticism from other Muslims\" and his dated \"I never wanted to be a politics person.\" The faith line is cut from the article entirely (C39 removed), so no link between the episode and his faith is implied. C81 and C80 updated, C126/C127 added. Repair stage: The Harris material is now three paragraphs (verify-06) with every attribution kept."
+    },
+    {
+      "finding_id": "subject-03",
+      "action": "fixed",
+      "reason": "Fixed. Neither FAQ uses the grief episode any more. FAQ 1 mirrors the body answer and rests on the fun rule and the airplane-ride line. FAQ 2 rests on the dreaded trapped life and the ride-over-arrival language. No FAQ says what he \"protected.\" The H2 answer and FAQ 1 match word for word. Repair stage: FAQ 2 still uses no grief material. It now reports the mixed reasons including the Povich pairing (\"just a cog in the machine\") and rests the Seven lead mainly on the ride-over-arrival line (C148, C150), per verify-01. The H2 answer and FAQ 1 still match word for word (the generic Seven definition sentence was reworded in both, verify-05)."
+    },
+    {
+      "finding_id": "subject-04",
+      "action": "fixed",
+      "reason": "Fixed. The generalization now reads \"Twice, by his own account, he met grief with motion\" (C146), and the type answer no longer mentions grief. The hook now quotes his \"It was obviously sad and difficult\" from the same answer (C154; both machine passes). The Minnesota-duty passage is kept."
+    },
+    {
+      "finding_id": "subject-05",
+      "action": "fixed",
+      "reason": "Fixed. Description now reads \"ranks fun first when he says yes\" (144 characters), matching \"number one is fun\" without claiming it decides every yes. C120 updated."
+    },
+    {
+      "finding_id": "subject-06",
+      "action": "fixed",
+      "reason": "Fixed. The passage now includes his stated reason, \"where my initial sense of humor came from, is to avoid getting punched in the face\" (verified in the saved Interview text). \"A classic Three move\" is gone. The article calls the childhood material weak evidence about an adult and rests the Three inference on the adult record."
+    },
+    {
+      "finding_id": "subject-07",
+      "action": "fixed",
+      "reason": "Fixed. The text now says that after the externally funded first season an episode cost him about $2,000 of his own money. That was a regular per-episode cost: Povich interview \"at that point, I was spending out of my own pocket like $2,000\", and Rolling Stone 2025 says the same per episode. It quotes \"too expensive\" and \"The subway is a free set\" and, in the fun section, \"It was out of need.\" The section now says the cost shows him capping the fun as well as paying for it. C34 updated; C129, C130, C131 added."
+    },
+    {
+      "finding_id": "subject-08",
+      "action": "fixed",
+      "reason": "Fixed. The sentence is scoped to the record reviewed and dated: \"In the interviews reviewed for this profile, through October 2026, his co-creator Andrew Kuo talks about the show, not about him.\" C37 now notes that SubwayTakes Uncut was not reviewed and carries a time_sensitive trigger."
+    },
+    {
+      "finding_id": "fan-01",
+      "action": "fixed",
+      "reason": "Fixed (option a, scoped). Both Museum of Pizza goals are named, including \"I wanted to go down in New York history as a legend\". The New Yorker legacy / \"good at\" / \"magnet\" answer is quoted, and the plan section says the stated reasons are mixed. Prong one now says the reason he gave in three 2025 interviews (Forbes, Mpls.St.Paul, Death, Sex & Money) is escape from confinement, and the one he gave the New Yorker is a Three's. The sourced reason it still leans Seven is the center-test result: the fear he describes across his adult account is of a trapped life (C139). The Hollywood-ambition quote from Awards Radar is in the fun section. FAQ 2 says his reasons are mixed. The Tribeca \"Oscar\" line was omitted for length. Repair stage: Path (b) now applies in full. The stated reasons for leaving business are no longer a discriminator: the new \"The ride, not the arrival\" section says they \"split by interview\" and that \"the goal looks like a Three's, and so does half the reasoning\" (C143). The Povich telling of the same dread, with \"I deserve more than being just a cog in the machine,\" is quoted in the Type 3 section (C112), and FAQ 2 matches."
+    },
+    {
+      "finding_id": "fan-02",
+      "action": "fixed",
+      "reason": "Fixed. The reasons paragraph now includes his father's \"just keep going\" refrain, glossed as \"one up yourself\" / \"don't stop,\" and \"And so that's what I did... Like that's how I coped.\" It also says he threw himself into \"the experience of school\" \"in order to finish.\" 2007 is labeled shared ground (Seven, Three, duty) and removed from the tie-breakers. \"So it was not a record\" is deleted. FAQ 2 no longer cites grief. C123, C124 added; C53 updated."
+    },
+    {
+      "finding_id": "fan-03",
+      "action": "fixed",
+      "reason": "Fixed. The hook quotes the preceding clause, \"but I don't know how to take breaks because I love work,\" before the momentum lines. The Type 3 section says the work half of \"addicted to momentum\" fits a Three as well, and only the anticipation-over-arrival half leans Seven."
+    },
+    {
+      "finding_id": "fan-04",
+      "action": "fixed",
+      "reason": "Fixed. The shelving passage now says that by March 2025 he was \"assembling it for its transition from the internet to TV\" with Ramy Youssef, and that he chafed at not having \"full control over the outcome\" (Mpls.St.Paul, dated; NYT reports Youssef signed on to produce). The pause is no longer used as evidence of fun beating ambition. C125 added; C95 updated."
+    },
+    {
+      "finding_id": "fan-05",
+      "action": "fixed",
+      "reason": "Fixed. The Harris paragraph says he published the Walz interview. It dates \"I never wanted to be a politics person\" to November 2024, and notes that Zohran Mamdani has appeared on SubwayTakes twice, most recently in June 2025 (New Yorker; the first appearance is undated, so the text doesn't say both came later). It ends by saying what the decision does and doesn't show. C82 updated. Repair stage: Unchanged in substance; Zohran Mamdani is now linked to his published profile (verify-07), and the Harris material is split into three paragraphs."
+    },
+    {
+      "finding_id": "fan-06",
+      "action": "fixed",
+      "reason": "Fixed. The 2020 paragraph now says \"His first marriage was ending. (He has since remarried.)\" That introduces the wife before she appears, in the Awards Radar line. It is placed there rather than at the daughter's first mention because the marriage date relative to September 2024 is not verified (S31 unavailable). No name and no wedding date. The outside-testimony paragraph now says his wife's view \"reaches us only through him.\" The mellow/hyperactive paragraph was cut for length, so the CULTURED calm remark is not used (option b of the test)."
+    },
+    {
+      "finding_id": "fan-07",
+      "action": "fixed",
+      "reason": "Fixed. The plan section adds his Brooklyn Magazine (2023) origin story: after the 2018 Museum of Pizza he posted poems and did readings, and when audiences laughed, \"Oh, that is the feeling that I desire.\" It says plainly that this fits either type. The dating section places that account around 2018-19. C134 added."
+    },
+    {
+      "finding_id": "fan-08",
+      "action": "fixed",
+      "reason": "Fixed. The bio dilemma is attributed to Brooklyn Magazine, with his \"become that new identity\" line. The Rolling Stone quote now has its own context: being \"a 33-year-old divorced guy and introducing myself to women as an aspiring comedian. That's the worst.\" C13 updated; C121 added."
+    },
+    {
+      "finding_id": "critic-F1",
+      "action": "fixed",
+      "reason": "Fixed. Reason two is removed from the tie-breakers. The 2007 paragraph reports \"one up yourself\" / \"don't stop,\" \"that's how I coped\" and \"in order to finish,\" and says the episode fits duty and the Three reading as well as Seven (\"so the Monday counts for neither type\"). The hook now says \"That Monday is where both answers start.\" Neither type FAQ uses 2007."
+    },
+    {
+      "finding_id": "critic-F2",
+      "action": "fixed",
+      "reason": "Fixed. The hook gives his stated reason (\"but I don't know how to take breaks because I love work\") at the quote. A new sentence marks the funeral-to-momentum link as the author's inference: \"He has not linked that line to the funeral in anything reviewed here. The pairing, and the test of it, belong to this profile.\" (C145). No sentence attributes his work pace to his father's death."
+    },
+    {
+      "finding_id": "critic-F3",
+      "action": "fixed",
+      "reason": "Fixed. The section no longer claims the cost is what gives the fun line weight. It now gives the record: Mad Reality co-produced and funded the first season, later episodes cost about $2,000 each, and he moved to the cheaper subway format when it got \"too expensive\". It adds the TV development with Youssef, the May 2026 YouTube relaunch, and that the show bought his first real press. Its conclusion: \"Its losses can't separate fun from recognition.\" The sponsorship cross-subsidy is not added; the claim is limited instead, which is the test's first option."
+    },
+    {
+      "finding_id": "critic-F4",
+      "action": "fixed",
+      "reason": "Fixed. \"Number one is fun\" now says \"His accounts of the same decision change with the room.\" It quotes the \"out of need\" origin (Interview, May 2026) and the Hollywood reluctance (Awards Radar, June 2026) beside the \"Something to entertain myself\" newsletter. The description and FAQ now say fun ranks first, not that it decides every yes."
+    },
+    {
+      "finding_id": "critic-F5",
+      "action": "fixed",
+      "reason": "Fixed. The section says the Times' phrase covered the invitation to interview both Harris and Walz, that he accepted the campaign's terms, and that he published Walz. It quotes the Guardian's \"I'm not gonna pass up a good story\" and the Times' report that he had been \"apprehensive about potential criticism from other Muslims.\" It ends with what each type would predict: \"fits a Three managing image and a Seven escaping a bind equally well\" (C128). Repair stage: Content unchanged; the Harris material is split into three paragraphs (verify-06)."
+    },
+    {
+      "finding_id": "critic-F6",
+      "action": "fixed",
+      "reason": "Fixed. Reason one sets the New Yorker legacy / \"good at\" / \"magnet\" answer and the Museum of Pizza \"legend\" goal beside \"talent has a very fun job,\" and says the stated reasons vary by interview. Reason three (failure narration) was cut from the tie-breakers. \"Three things tip it\" is now \"Two things keep it narrowly ahead.\" Confidence stays medium, and the article calls the lead narrow. A center test and a timing problem are added rather than a type change, and the leading type is unchanged, so no hold is triggered. Repair stage: Reason one is now removed from the tie-breakers altogether (verify-01). The repaired text says the reasons split (Forbes fun and new things; New Yorker legacy and being good at it; Povich \"cog in the machine\"), and the lead rests mainly on anticipation over arrival, stated as \"a lean\" that \"carries most of the lead.\" Confidence stays medium; the leading type is unchanged, so no refresh is triggered."
+    },
+    {
+      "finding_id": "critic-F7",
+      "action": "fixed",
+      "reason": "Fixed. The ADHD paragraph no longer says ADHD doesn't explain the fun rule. It says novelty-seeking and restlessness are where ADHD and the Seven pattern overlap and that \"this public record can't pull them apart.\" It adds that the type argument rests on his stated reasons at choice points and his preference for the ride over the arrival. The health detail stays in his words."
+    },
+    {
+      "finding_id": "critic-F8",
+      "action": "fixed",
+      "reason": "Fixed. The generic \"The pattern runs in a few plain steps\" mechanism paragraph is deleted, and the phrase no longer appears in edit.md (grep count 0). The fear claim is now backed by Rahma-specific evidence in the center test: poverty (\"I don't want to be in poverty\"), dread of emailing for a living until 80, \"I think I'll die\" at 40 more years of business, and money hedges. same-type-similarity.mjs was not rerun in this stage because of the turn limit; the verifier should rerun it. This is recorded in research_tasks. Repair stage: The center test no longer asserts a single Seven-shaped fear. It reports the desk-career dread in each sourced telling (Forbes, Povich, Mpls.St.Paul with \"just a businessman\", Death, Sex & Money) and says the test \"splits\" (C139). The money-hedge evidence moved to the Six comparison. same-type-similarity was rerun on repair.md: the only pairs above 0.04 are his sourced airplane-ride line."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "action": "fixed",
+      "reason": "Fixed. \"The plan to get famous\" opens with a dated sequence. In 2023 he traced the turn to the 2018 Museum of Pizza flop and poetry readings; in 2025-2026 to summer 2020. He was 33 from July 2019 to July 2020, so both fit \"at 33.\" Keep the Meter Running followed in 2022 and SubwayTakes in 2023. It says his accounts differ, that the record can't say which trigger came first, and that the type argument therefore leans on neither (C57, C133)."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "action": "fixed",
+      "reason": "Fixed. The 2007 discussion names his father's \"just keep going\" and the fear of not returning, and labels the episode shared ground. It is no longer a tipping reason. \"Not a record\" is deleted."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "action": "fixed",
+      "reason": "Fixed. The Five clause is cut, and so is the generic plain-steps paragraph. The triad paragraph now ties the fear-versus-shame distinction to the test the article runs on Rahma's own statements."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "action": "fixed",
+      "reason": "Fixed. The Eight aside now says what made Eight tempting (\"The show's all-or-nothing verdicts can make him look like an Eight\"). The Nine and Six asides now say what suggests each (the chameleon years; the money hedges) and why each trails on motive. Repair stage: The Six aside now names the specific hedge (keeping consulting clients) that suggests Six and why it trails."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "action": "fixed",
+      "reason": "Fixed in substance; the word target is only approximately met. The body is 3,680 words by checkDraft, about 3,620 without parenthetical citation labels, down from 3,781 even after the restorations other findings required. \"What the type leaves out\" is no longer a six-item catalog. The money item moved into the center test, the arrival item into the second Seven prong, and the mellow item was cut. ADHD, Harris and outside testimony each end on what they complicate. The faith line is cut. The Harris passage is about 165 words, not 100: subject-02, critic-F5 and fan-05 required the apology, the Walz publication, the Guardian quote, the Times' apprehension report and the Mamdani context. It keeps both sides attributed and states in one sentence what the decision shows. Repair stage: The repair had to add quoted context for verify-01 (the Povich pairing, \"just a businessman\"), the Times salary reason (verify-03), the Bourdain link (verify-07) and one arrival counter, so the body is now 3,899 words by checkDraft (about 3,850 by audit:readability), above the ~3,500 target but inside the 4,500 limit. Offsetting trims: the 2007 adjudication, the dating sentence and the type paragraph. audit:readability flags nothing: longest paragraph 119 words, at most three long paragraphs in a row, longest unbroken stretch 525 words, heaviest section 688 words."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "action": "fixed",
+      "reason": "Fixed. The jump back is signalled (\"A year and a half earlier, in March 2025\"). One sentence, built from the Rolling Stone passage where his regret and the photos sit together, frames it as an open question: \"The man who kept moving through 2007 was describing, with his own child, not being in a hurry. What came after doesn't settle whether it lasted.\" The closing quote remains the last line."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "action": "fixed",
+      "reason": "Fixed. The description now says he \"ranks fun first when he says yes\" (144 characters). It keeps \"planned his fame at 33,\" which the body's dating section shows fits both of his accounts."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "action": "fixed",
+      "reason": "Fixed. The C59 alternative now ties \"pretty nebulous - more of a vibe\" to the 10-year plan and does not use it as counterevidence. C11 was removed because its passage was cut. No passage calls the five-year plan nebulous."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "action": "fixed",
+      "reason": "Fixed (path a). The Monday and the 2020 summer are labeled shared ground and dropped from the reasons Seven wins. The type answer, both type FAQs and the hook (\"That Monday is where both answers start\") no longer present them as discriminating. \"It was not a record\" is deleted, and the father's \"one up yourself\" / \"that's how I coped\" framing is quoted."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "action": "fixed",
+      "reason": "Fixed. The third reason is cut, and \"Two things keep it narrowly ahead\" replaces \"Three things tip it.\" The section still quotes the phone-off line (\"I can't deal with another failure\") and the bio agonizing as Three evidence. The \"I'm not going to be embarrassed\" resolve now sits on the shame side of the center test. Repair stage: \"Two things keep it narrowly ahead\" is gone. \"So why Seven at all?\" now says neither the fear test nor his stated reasons carry it, and the lead rests mainly on the ride-over-arrival evidence, with \"I finally have arrived\" (2022) and \"I don't feel successful\" (2026) set against it (C75, C76, C159). The phone-off and bio passages remain as Three evidence."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "action": "fixed",
+      "reason": "Fixed. The Type 3 section runs the center test. Shame/acceptance passages: \"a person that people like,\" needing the press (\"Personally, I do\"), \"I'm not going to be embarrassed,\" and score-keeping. Fear/deprivation passages: poverty, emailing until 80, 40 more years of business (\"I think I'll die\" quoted in the plan section), and the money hedge \"I became my own rich parent.\" It states that this leans Seven without settling it, which is why confidence is medium. The interview-habit anecdote is removed, the money-caution paragraph moved into the test, and the Five sentence cut. Repair stage: The center test is still run with at least two sourced shame passages and the sourced fear passages, but it now states plainly that the fear evidence splits: Forbes (escape to \"a very fun job\") vs Povich (\"massive imposter syndrome,\" \"I should stand out,\" \"a cog in the machine\"), with Mpls.St.Paul (\"just a businessman\") and Death, Sex & Money reading either way and poverty explained by immigrant precarity (C139, C112, C64). Confidence remains medium; the article says the lead rests mainly on another observation."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "action": "fixed",
+      "reason": "Fixed. A timing paragraph says nearly every fun-first line dates from 2023 or later, after a rebrand to \"become that new identity,\" in an industry that rewards that voice. It says his pre-28 account is fitting in and making money (\"I certainly wasn't following my dreams and my desires\"). It cites the thin pre-pivot Seven evidence, both labeled 2023 retrospection: money for skiing and the Vice-to-Times move for \"experiencing all of the things that I can experience.\" \"His own words point mostly to the second\" now reads \"lean, narrowly.\" Repair stage: The timing paragraph now also gives his money reason for the Vice-to-Times move (\"my salary was literally tripled,\" verify-03, C142) instead of presenting the \"experiencing all of the things\" line as the reason, and cites the Guardian's 2024 narration of teenage \"hobbies are my hobby\" and career \"flitting\" as thin, secondhand older evidence, with the ADHD confound named in the ADHD paragraph (C158, C153)."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "action": "fixed",
+      "reason": "Fixed (path b). The article now says Keep the Meter Running bought his first real press, so \"Its losses can't separate fun from recognition.\" The forward test now says \"No clean split has happened yet\" and names the likeliest split."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "action": "fixed",
+      "reason": "Fixed. The quote now carries \"because I love work,\" and the Type 3 section says the work half fits both while the airplane-ride and transit half leans Seven. Title and persona title are kept. \"Addicted to Momentum\" is his own phrase, and the hook now gives its work context. \"Loves the Airplane Ride\" is the anticipation half the article still counts for Seven. Repair stage: Unchanged in substance. The work half of \"addicted to momentum\" is still conceded to both types, and the anticipation-over-arrival half now carries most of the Seven lead under its own H2, \"The ride, not the arrival,\" with \"six months later\" corrected (verify-02)."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "action": "fixed",
+      "reason": "Fixed. Eight: the article now cites his open admission that he needs validation, not \"Eights argue to win\". Nine: \"a Nine rarely drafts a five-year plan to be famous.\" Six: the hedges \"make the leap possible rather than replacing it.\" No dismissal rests on conflict stereotypes. Repair stage: The Six sentence now reads \"Type 6 fits his money hedges, such as keeping consulting clients while starting comedy ('I became my own rich parent,' he said), but they made the leap possible rather than replacing it\" (C86, C92); the Nine test is unchanged."
+    },
+    {
+      "finding_id": "enneagram-08",
+      "action": "fixed",
+      "reason": "Fixed. The ADHD paragraph states the overlap, says the record can't separate them, and names what the type argument adds (stated reasons at choice points; ride over arrival). It keeps \"The type describes a pattern of motives, not a diagnosis or a cause.\" The Buffalo Wild Wings line now reads \"looks like the Seven's reframe in miniature, though turning a dull stop into a bit is also a host's job\". It cites his \"years of formal improv and comedy experience\" (C147). Repair stage: The ADHD paragraph now names the teenage hobby-hopping as a case where ADHD and the Seven pattern cannot be separated, and says the argument leans on what he says satisfies him, \"and even that is a lean\" (C153)."
+    },
+    {
+      "finding_id": "future-F1",
+      "action": "fixed",
+      "reason": "Fixed. The prose names a concrete split: \"if a TV, film or streaming deal arrives, does he talk about it as arrival, or as one more adventure, and does the cab show he calls his most fun survive it?\" New claim C144 (interpretation, unresolved) has a trigger naming the July 2027 nominations, any account of the 2026 loss, any TV/film/streaming deal, Keep the Meter Running being sponsored/sold/made profitable/ended, and independent testimony. The C34 and C95 triggers now require re-checking the costly-choice argument."
+    },
+    {
+      "finding_id": "future-F2",
+      "action": "fixed",
+      "reason": "Fixed (both). The FAQ is now \"Was SubwayTakes nominated for an Emmy?\" and opens \"Yes. In July 2026...\". C40 and C109 are time_sensitive, with a trigger to re-check each July nominations announcement and September Creative Arts ceremony."
+    },
+    {
+      "finding_id": "future-F3",
+      "action": "fixed",
+      "reason": "Fixed. The limitation is dated (\"through October 2026\") and scoped to the interviews reviewed. C37 is time_sensitive with the requested trigger."
+    },
+    {
+      "finding_id": "future-F4",
+      "action": "fixed",
+      "reason": "Fixed. The sentence is dated: \"By June 2026, deep in a six-month Emmy campaign..., he described the Hollywood goal differently.\" C111 is time_sensitive, with a trigger tied to a TV/film/streaming deal or a renewed Hollywood goal, shared with C144."
+    },
+    {
+      "finding_id": "future-F5",
+      "action": "fixed",
+      "reason": "Fixed. C106 is now unresolved, with the requested trigger, and C151 records the closing interpretation as unresolved. The prose keeps \"in March 2025\" and the quote as the final beat, and no sentence claims he has or hasn't changed."
+    },
+    {
+      "finding_id": "verify-01",
+      "action": "fixed",
+      "reason": "Checked against the saved Interview text (S21, r.jina.ai copy): Povich asks \"are you confused or depressed, or both?\"; Rahma: \"Just depressed. I had massive imposter syndrome, and I hated the idea of sending emails back and forth for a living for the rest of my life.\"; Povich: \"I think I felt the same way in my 30s.\"; Rahma: \"You want someone to love you, or a lot of people to love you. I was like, “I’m destined for greater things. I should stand out. I deserve more than being just a cog in the machine.”\" The Type 3 section now quotes all of it, with \"A moment later\" marking the interjection (C112). The Mpls.St.Paul quote now opens with \"I didn't want to be just a businessman\" (C64). The \"one shape\" sentence and \"A trapped life, not a worthless one, is the Seven's fear\" are gone. The center test now says it \"does not come out clean.\" To Forbes in March 2025, escaping email meant \"a very fun job\" and \"new things\"; to Povich in May 2026, the same emails sat beside \"a cog in the machine.\" \"Just a businessman\" reads either way, poverty is put down to immigrant precarity, and \"The test that should decide this profile splits\" (C139). A new H2, \"The ride, not the arrival,\" re-argues the lead. Neither the fear test nor his stated reasons carry it (\"The goal looks like a Three's, and so does half the reasoning,\" C143). It rests mainly on anticipation over arrival (C75), with \"I finally have arrived\" (2022, C76) and the newly quoted \"But see, the thing is, I don't feel successful\" (Interview 2026, C159) as counters, and it says \"this is a lean, and it carries most of the lead.\" FAQ 2 now reports the Povich pairing and rests on the ride-over-arrival evidence (C148, C150). type_hypothesis for_claim_ids, against, discriminator and unexplained are rewritten to match; C62, C12, C63 and C136 record the opposing tellings. The leading type stays 7 at medium confidence. The verifier allowed that path, so no refresh is needed. Confidence cannot drop to low for a standard-format profile, and the verifier confirmed this is not an open case."
+    },
+    {
+      "finding_id": "verify-02",
+      "action": "fixed",
+      "reason": "The passage now reads \"and six months later, 'I always felt more comfortable being in transit.'\" (September 18, 2024 newsletter, S12, to March 26, 2025 Rolling Stone, S03). C75 and type_hypothesis.discriminator now say six months and give both dates."
+    },
+    {
+      "finding_id": "verify-03",
+      "action": "fixed",
+      "reason": "Checked in the saved Brooklyn Magazine transcript (S05): the Times \"called me one day... the money conversation came up, and my salary was literally tripled. So I was like, ‘I’m in. Sure.’\" The \"experiencing all of the things\" line comes in the next answer and describes how he took the job. The timing paragraph now says \"Even the move from Vice to the Times came down to money: 'my salary was literally tripled,' he told Brooklyn Magazine,\" and the experience line no longer appears as a reason (C142). The optional replacement was also taken: the Guardian's 2024 narration (S01) that as a teenager he joked \"hobbies are my hobby,\" dropping interests \"after a few weeks,\" and has \"consistently flitted between career paths,\" attributed as the paper's report and labeled thin and secondhand (C158). The ADHD paragraph names it as a case the record cannot separate from ADHD (C153)."
+    },
+    {
+      "finding_id": "verify-04",
+      "action": "fixed",
+      "reason": "The quote now matches the cited /tiktok-2/ page (saved text: \"Yet when I left, I had the sense that what I perceived as a vulnerable exchange was actually no sweat off his back\"): \"the sense that what I perceived as a vulnerable exchange was actually no sweat off his back.\" The S19 excerpt is corrected. The S19 context now says the sister /2025/04/29/kareem-rahma-subwaytakes-tiktok/ URL carries a slightly different edit (\"I got the sense that what I had perceived\") and that quotations follow the cited page. C27 is updated."
+    },
+    {
+      "finding_id": "verify-05",
+      "action": "fixed",
+      "reason": "The generic sentence (\"sits with fear and keeps moving toward the next option so the bad feeling never catches up\") now reads \"sits with fear and keeps an exit in sight, the way Rahma prefers the airplane ride to arriving\" (C160). A rerun turned up a second definition sentence at 0.042 against frank-lloyd-wright (\"Sevens are fear types whose fear is of being trapped or deprived\"). It now reads \"Sevens are a fear type wary of confinement and going without\" in both the H2 answer and FAQ 1, which still match word for word (58 words, C115). same-type-similarity.mjs was rerun on repair.md in an isolated copy of the drafts directory that leaves out the live kareem-rahma.md, so the file cannot match itself. Only two pairs score above 0.04, and both are his own sourced airplane-ride line: 0.091 against stavros-halkias on \"the best part of\" and 0.052 against Travis-Kelce on \"he used to.\" Neither is reused type exposition."
+    },
+    {
+      "finding_id": "verify-06",
+      "action": "fixed",
+      "reason": "The Harris material is now three paragraphs. (1) The invitation, the Gaza terms, the bacon take and the officials' dispute. (2) The apology and reshoot offer, his apprehension, publishing Walz, letting Harris go, and the dated politics line with Mamdani. (3) The one-sentence typing read. No attribution was lost. audit:readability on repair.md flags nothing: longest paragraph 119 words, at most three long paragraphs in a row."
+    },
+    {
+      "finding_id": "verify-07",
+      "action": "fixed",
+      "reason": "Added a contextual link at the Keep the Meter Running description, supported by the saved Vanity Fair text (S20: \"Commenters frequently compare Rahma to Bourdain... “It’s the highest compliment I could receive,” Rahma says\"): \"Viewers compared him to [Anthony Bourdain](/personality-analysis/anthony-bourdain), and Rahma called that 'the highest compliment I could receive'\" with a dated Vanity Fair citation (C157). Zohran Mamdani is also linked where the article already names him (C82). Both drafts are marked published: true. The body now has four internal links: the Type 7 and Type 3 pages, anthony-bourdain and zohran-mamdani."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "He gives reasons, and they matter.",
+      "action": "kept",
+      "reason": "Kept verbatim; the paragraph now also carries his father's \"keep going\" refrain and the finishing motive."
+    },
+    {
+      "passage": "After the death he stayed in Minnesota to help his mother and two younger siblings, and he did not leave for New York until 2012, the Times reported. That was duty, not escape.",
+      "action": "kept",
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "The protests were in his hometown, so conviction explains them as well as grief does.",
+      "action": "kept",
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "That explains a lot about how he works, but not why he names fun as his rule, or why he went back to school the Monday after a funeral. The type describes a pattern of motives, not a diagnosis or a cause.",
+      "action": "changed",
+      "reason": "The first sentence asserted that ADHD does not explain the fun rule, which critic-F7 and enneagram-08 showed is unsupported. It is replaced by a statement of the overlap and what the type argument rests on. The distinctive limit, \"The type describes a pattern of motives, not a diagnosis or a cause.\", is kept verbatim, so the health disclosure stays in his words with a clear limit. Repair stage: the replacement sentence now also names the teenage hobby-hopping as a case the record cannot separate from ADHD, and says the argument leans on what he says satisfies him (the ride over the arrival), \"and even that is a lean.\" The paragraph's contribution is unchanged: the overlap is stated, and \"The type describes a pattern of motives, not a diagnosis or a cause\" is kept."
+    },
+    {
+      "passage": "Culture explains some of what follows before any type does.",
+      "action": "kept",
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "\"I think in our relationship, there was never a moment where he was like, that's great. Good job. It was always like, that's great. Keep going.\"",
+      "action": "kept",
+      "reason": "Kept verbatim. It now also feeds the type argument through the \"keep going\" refrain (C123)."
+    },
+    {
+      "passage": "That matters for the typing. An Eight argues to win. Rahma argues about things he says he doesn't care about, for the pleasure of it.",
+      "action": "changed",
+      "reason": "\"That matters for the typing.\" and \"Rahma argues about things he says he doesn't care about, for the pleasure of it\" are kept. \"An Eight argues to win\" was a stereotype (enneagram-07, unfamiliar-04). It is replaced with what makes Eight tempting (the all-or-nothing verdicts) and a motive-level reason it trails (his open need for validation). The discriminator is retained."
+    },
+    {
+      "passage": "That half second is the Seven's reframe in miniature.",
+      "action": "changed",
+      "reason": "Now \"That half second looks like the Seven's reframe in miniature, though turning a dull stop into a bit is also a host's job...\" The vivid mechanism image is kept, with the host/improv alternative enneagram-08 required."
+    },
+    {
+      "passage": "\"The sunglasses are a disguise,\" he told Rolling Stone. \"There's a lot of emotions in the eyes. So I'm preserving a piece of myself.\"",
+      "action": "kept",
+      "reason": "Kept verbatim, still paired with Hamilton's outside read."
+    },
+    {
+      "passage": "\"I'm not in a hurry to go to the next spot, which may be the first time in my life. I always felt more comfortable being in transit, not literally, but also literally. I love it. It's a magical feeling to be on the way.\"",
+      "action": "kept",
+      "reason": "Kept verbatim as the final line."
+    },
+    {
+      "passage": "A poem is not testimony about 2007. It is still the image he picked.",
+      "action": "kept",
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "That could be one good quote handed to him by a friendly host. It keeps coming back in other rooms, though.",
+      "action": "kept",
+      "reason": "Kept verbatim; followed by the counter-accounts critic-F4 requested."
+    },
+    {
+      "passage": "That is about as Three as a sentence gets, and it is the main reason this read stays at medium confidence.",
+      "action": "kept",
+      "reason": "Kept verbatim, right after the validation quotes."
+    },
+    {
+      "passage": "A Seven can crave applause, and the validation quotes are what the Seven read absorbs least comfortably. The test going forward is simple. If he starts choosing recognition over fun when the two split, the case for Three gets stronger.",
+      "action": "kept",
+      "reason": "Kept verbatim. Followed by \"No clean split has happened yet\" and a concrete observable split (future-F1). Still verbatim after the repair, now in the \"The ride, not the arrival\" section."
+    },
+    {
+      "passage": "Finally, almost everything here comes from Rahma. His co-creator, Andrew Kuo, talks publicly about the show, not about him.",
+      "action": "changed",
+      "reason": "\"Finally, almost everything here comes from Rahma.\" is kept. The Kuo sentence is scoped and dated (\"In the interviews reviewed for this profile, through October 2026\") per subject-08 and future-F3, and adds that his wife's view reaches us only through him. The self-report limit is still stated plainly."
+    },
+    {
+      "passage": "\"I am addicted to momentum. I used to tell my therapist that the best part of traveling was the airplane ride. I have a habit of arriving somewhere and then looking forward to going home.\"",
+      "action": "kept",
+      "reason": "Kept verbatim. It is now preceded by his stated reason (\"because I love work\") and followed by a sentence marking the funeral link as the author's inference."
+    },
+    {
+      "passage": "So which is he? A striver who learned to sell fun, or a fun-seeker who learned to strive? His own words point mostly to the second, and the reason starts with that Monday.",
+      "action": "changed",
+      "reason": "The striver-versus-fun-seeker question is kept verbatim. \"His own words point mostly to the second, and the reason starts with that Monday\" is now \"His own words lean, narrowly, toward the second. That Monday is where both answers start.\" The old wording overstated the lead and presented 2007 as Seven evidence (enneagram-01, enneagram-04, critic-F1). The stakes-in-two-sentences function is retained."
+    },
+    {
+      "passage": "Here the two readings collide. Fame is a Three's prize. But listen to why he wanted it.",
+      "action": "kept",
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "The goal looks like a Three's. The reason he gives is a Seven's.",
+      "action": "changed",
+      "reason": "\"The goal looks like a Three's\" is kept, now in \"The goal looks like a Three's, and so does half the reasoning.\" The second sentence is changed again. verify-01 showed that the edit-stage version (\"The reason he gave in those three interviews is a Seven's\") rested partly on the desk-career dread, which the Povich telling pairs with \"a cog in the machine.\" The passage's distinctive contribution, separating goal from reason, survives, and the article now says honestly that the reasons split by interview."
+    },
+    {
+      "passage": "I'm not in a hurry to go to the next spot, which may be the first time in my life. I always felt more comfortable being in transit, not literally, but also literally.",
+      "action": "kept",
+      "reason": "Kept verbatim as the final line."
+    },
+    {
+      "passage": "He went home for the funeral and slept at his parents' house for one night. On Monday he was back at school.",
+      "action": "kept",
+      "reason": "Kept verbatim as the hook."
+    },
+    {
+      "passage": "A Seven can crave applause, and the validation quotes are what the Seven read absorbs least comfortably.",
+      "action": "kept",
+      "reason": "Kept verbatim. Followed by \"No clean split has happened yet\" and a concrete observable split (future-F1). Still verbatim after the repair, now in the \"The ride, not the arrival\" section."
+    }
+  ],
+  "prior_blockers": []
+}

@@ -1,39 +1,11 @@
 {
-  "lastUpdated": "2026-10-23T06:00:00Z",
+  "lastUpdated": "2026-10-25T06:00:00Z",
   "stats": {
     "totalUnpublished": 132,
     "totalPublished": 391,
     "completionRate": "74.8%"
   },
   "queue": [
-    {
-      "name": "dan-ives",
-      "displayName": "Dan Ives",
-      "type": null,
-      "priority": 75,
-      "priorityReason": "DJ approved 2026-10-04. Entity-gap PROMISING 70/100: Wikipedia 404; left Wedbush 2026-07-01 for a merchant bank; AI closed-end fund filed (Bloomberg 2026-09-23). Weak first-person source depth; family facts are farm-only and must stay off the page. Seed brief: docs/content-analysis/research/dan-ives.md.",
-      "estimatedTraffic": "medium",
-      "searchVolume": "medium",
-      "personaTitle": null,
-      "addedToQueue": "2026-10-04",
-      "retryCount": 0,
-      "strategicValue": "entity-gap-tech-analyst-cluster",
-      "entityGapScore": 70,
-      "entityGapPacket": "docs/content-analysis/entity-gaps/Dan-Ives.md"
-    },
-    {
-      "name": "kareem-rahma",
-      "displayName": "Kareem Rahma",
-      "type": null,
-      "priority": 72,
-      "priorityReason": "Rolling Stone Most Influential Creators 2026 #11. SubwayTakes host ('So what's your take?', 7.5M followers) plus long-form series Keep the Meter Running; closest format analog to 9takes, so the profile doubles as an outreach asset. Wikipedia ~500/day last 30 (867 in June): steady, not surging. Evergreen, no dated catalyst - runs after the surge picks.",
-      "estimatedTraffic": "medium",
-      "searchVolume": "medium",
-      "personaTitle": null,
-      "addedToQueue": "2026-10-11",
-      "retryCount": 0,
-      "strategicValue": "creator-economy-cluster"
-    },
     {
       "name": "dhar-mann",
       "displayName": "Dhar Mann",
@@ -1988,18 +1960,18 @@
     }
   ],
   "inProgress": {
-    "name": "olivia-dean",
-    "displayName": "Olivia Dean",
+    "name": "kareem-rahma",
+    "displayName": "Kareem Rahma",
     "type": null,
-    "priority": 82,
-    "priorityReason": "Two Hot 100 top-10s; 2026 BNA winner predicted for Album of the Year (noms Nov 16, show Feb 7). Wikipedia 6-10K/day steady. Oct 1 Withers-publisher suit is an allegation against UMG.",
+    "priority": 72,
+    "priorityReason": "Rolling Stone Most Influential Creators 2026 #11. SubwayTakes host ('So what's your take?', 7.5M followers) plus long-form series Keep the Meter Running; closest format analog to 9takes, so the profile doubles as an outreach asset. Wikipedia ~500/day last 30 (867 in June): steady, not surging. Evergreen, no dated catalyst - runs after the surge picks.",
     "estimatedTraffic": "medium",
     "searchVolume": "medium",
     "personaTitle": null,
-    "addedToQueue": "2026-10-04",
+    "addedToQueue": "2026-10-11",
     "retryCount": 0,
-    "strategicValue": "grammy-bna-2027-cluster",
-    "startedAt": "2026-10-23T06:00:00Z"
+    "strategicValue": "creator-economy-cluster",
+    "startedAt": "2026-10-25T06:00:00Z"
   },
   "skipped": [
     {
@@ -2678,6 +2650,64 @@
           "enneagram_below_8:7.2"
         ],
         "run_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-17_06-00-03-505_dylan-patel"
+      }
+    },
+    {
+      "name": "olivia-dean",
+      "displayName": "Olivia Dean",
+      "type": null,
+      "priority": 82,
+      "priorityReason": "Two Hot 100 top-10s; 2026 BNA winner predicted for Album of the Year (noms Nov 16, show Feb 7). Wikipedia 6-10K/day steady. Oct 1 Withers-publisher suit is an allegation against UMG.",
+      "estimatedTraffic": "medium",
+      "searchVolume": "medium",
+      "personaTitle": null,
+      "addedToQueue": "2026-10-04",
+      "retryCount": 0,
+      "strategicValue": "grammy-bna-2027-cluster",
+      "startedAt": "2026-10-23T06:00:00Z",
+      "heldAt": "2026-10-24T06:00:00Z",
+      "needsReview": true,
+      "pipelineResult": {
+        "subject": "olivia-dean",
+        "run_status": "held",
+        "editorial_status": "insufficient_evidence",
+        "blockers": [
+          "verification:insufficient_evidence",
+          "overall_below_8.5:8.2",
+          "enneagram_below_8:7.5"
+        ],
+        "run_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-23_06-00-05-811_olivia-dean"
+      }
+    },
+    {
+      "name": "dan-ives",
+      "displayName": "Dan Ives",
+      "type": null,
+      "priority": 75,
+      "priorityReason": "DJ approved 2026-10-04. Entity-gap PROMISING 70/100: Wikipedia 404; left Wedbush 2026-07-01 for a merchant bank; AI closed-end fund filed (Bloomberg 2026-09-23). Weak first-person source depth; family facts are farm-only and must stay off the page. Seed brief: docs/content-analysis/research/dan-ives.md.",
+      "estimatedTraffic": "medium",
+      "searchVolume": "medium",
+      "personaTitle": null,
+      "addedToQueue": "2026-10-04",
+      "retryCount": 0,
+      "strategicValue": "entity-gap-tech-analyst-cluster",
+      "entityGapScore": 70,
+      "entityGapPacket": "docs/content-analysis/entity-gaps/Dan-Ives.md",
+      "startedAt": "2026-10-24T06:00:00Z",
+      "heldAt": "2026-10-25T06:00:00Z",
+      "needsReview": true,
+      "pipelineResult": {
+        "subject": "dan-ives",
+        "run_status": "held",
+        "editorial_status": "insufficient_evidence",
+        "blockers": [
+          "insufficient_evidence",
+          "verification:insufficient_evidence",
+          "unresolved:verify-r-01:No sourced observation separates Type 7 from Type 3, and the article says so (\"The call is close\"; \"the roles and the repairs do not separate the types\"). What remains for Seven is self-report from friendly or promotional interviews whose same answers carry audience and commercial framing (NY Post \"people took that very bearishly\"; Advisor Upside \"investors would view it extremely bearishly\"; the S42 jacket answer continues into \"we obviously have a clothing line\" and a \"signal\" to others; BI \"global success\"). \"First as mood and freedom ... only then as audience\" reflects the order of the NY Post article rather than a ranking he gave. The cost reframes (\"an undervalued asset\", \"the third inning\") are what an Eightco chairman and a sell-side AI analyst are expected to say. The rival therefore fails no specific, sourced discriminator. A 25-year public record also rules out an open case.",
+          "overall_below_8.5:8",
+          "enneagram_below_8:7"
+        ],
+        "run_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-24_06-00-03-871_dan-ives"
       }
     }
   ]

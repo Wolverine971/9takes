@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "fan",
+  "content_sha256": "8b7a6bc84582b7330df16ce929f76ff47fe0b0f20f5038d051d1ec329f892cf6",
+  "evidence_sha256": "524de425eefc7d655e7b2f179bad4f83aa35257089be3a7ca6b88b781eadacc2",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "fan-01",
+      "severity": "major",
+      "passage": "First, when he explains why he wanted the Three's prizes, he names what they buy. Money meant skiing and never saying no to fun. Fame meant \"a very fun job\" where you get to do new things. The goal looks like a Three's. The reason he gives is a Seven's.",
+      "problem": "This prong only works because the draft picks which of his explanations to show. In other well-known interviews he gives status and legacy reasons, and the draft leaves them out. Brooklyn Magazine (S05, 2023): the Museum of Pizza had two goals. \"One, I wanted to go down in New York history as a legend... the second goal was to make money.\" The draft quotes \"didn't achieve either goal\" without naming either one, which hides the strongest Three line in that interview. New Yorker (S02, 2025), on the 2020 decision: \"Do I want to leave a legacy?\" and \"what would I want to do that I think I would be good at? ... I've always been a magnet. People seem to gravitate toward me.\" Awards Radar (S16, 2026): he almost didn't start SubwayTakes because \"all I want to do is make TV and films in Hollywood.\" Forbes (S08): at Tribeca \"there was no award, but I felt like I had an Oscar.\" Even the Forbes \"very fun job\" line comes right after \"I'm going to become famous. Like that's my plan.\" Readers who know these interviews will see the prong as cherry-picked.",
+      "acceptance_test": "Name both Museum of Pizza goals where the draft quotes \"didn't achieve either goal\", including the legend goal. Then do one of two things. (a) Rewrite prong one to say his stated reasons are mixed: experience in Forbes and Brooklyn Magazine, legend, legacy and being good at it in Brooklyn Magazine and the New Yorker. Then give a sourced reason why the experience reasons still weigh more. (b) Drop the prong as a discriminator. Either way, the FAQ answer to \"Why isn't Kareem Rahma a Type 3?\" must match the revised argument."
+    },
+    {
+      "id": "fan-02",
+      "severity": "major",
+      "passage": "Second, under the worst pain of his life, what he protected was motion. He says he wasn't a good student, so it was not a record. He calls it momentum.",
+      "problem": "This leaves out context from the same Death, Sex & Money passage that the opening relies on (S07). He threw himself \"into the experience of school in order to finish.\" Finishing was the deal he had made with his father: \"I had made the deal that I'll get into college, which presumably means I will also graduate from it. So I just kept going. And I remember my dad told me, just keep going.\" He then ties this coping to his father's habit of holding back praise: \"that's great. Keep going... it was always like one up yourself or don't stop. And so that's what I did. Like that's how I coped.\" So what he protected was the degree he had promised, driven by his father's conditional-approval refrain. That is not motion for its own sake, and a duty reading or a Three reading fits it as well as a Seven one. Lines 177-179 give some of this, but the type prong drops it, and so does the FAQ (\"under grief he protected momentum rather than an image\"). \"So it was not a record\" doesn't follow: being a poor student doesn't mean he wasn't protecting graduation.",
+      "acceptance_test": "Prong two and FAQ answer 2 must say plainly that he kept going in order to finish the degree he had promised his father, and that \"keep going\" was his father's refrain. The article then argues what still favors Seven: he calls it deflection and momentum, the poem image, and the repeat in 2020. If that argument can't be made, demote the episode from a discriminator to evidence both types share. Remove or qualify \"so it was not a record\"."
+    },
+    {
+      "id": "fan-03",
+      "severity": "minor",
+      "passage": "\"I am addicted to momentum. I used to tell my therapist that the best part of traveling was the airplane ride. I have a habit of arriving somewhere and then looking forward to going home.\"",
+      "problem": "The quote is accurate but cut from context that points the other way. In the September 18, 2024 newsletter (S12), the sentence right before it reads: \"I probably need to take a break soon, but I don't know how to take breaks because I love work.\" The post opens with how much he has published that month. In context, the momentum he says he's addicted to is work output, which fits a Three reading. The title (\"Addicted to Momentum\") and the hook present it as pure Seven appetite.",
+      "acceptance_test": "Include the preceding clause, or paraphrase it at the attribution line: he wrote it while saying he didn't know how to take breaks \"because I love work\". In the type section, acknowledge that his own momentum language attaches to work as often as to novelty."
+    },
+    {
+      "id": "fan-04",
+      "severity": "minor",
+      "passage": "When the show no longer fit short-form video, he shelved it instead of keeping it on TikTok.",
+      "problem": "The draft uses the pause as proof that fun outweighs ambition (\"What gives the line weight is what it costs him\"). The source says something else. In Mpls.St.Paul (S06, March 2025) he says he stopped making it short-form to move it \"from the internet to TV,\" with Ramy Youssef on board. The NYT (S04) reported that Youssef \"has signed on to produce a television adaptation.\" He also complained, \"I'm meeting resistance with Keep the Meter Running because I don't have full control over the outcome,\" in contrast to SubwayTakes, where \"No one can tell me no because I own the distribution.\" Fans know about the Youssef adaptation. Leaving out the TV ambition and the wish for control makes the Seven read look stronger than it is.",
+      "acceptance_test": "At this passage, mention the planned TV adaptation with Youssef and the full-control quote, with dates. Then either stop using the pause as evidence of fun beating ambition, or explain why it still counts in his own words (\"I do what feels right in the moment\"; \"I'm okay not doing it, unless I'm doing it the way that I want to do it\")."
+    },
+    {
+      "id": "fan-05",
+      "severity": "minor",
+      "passage": "\"I never wanted to be a politics person,\" he told the Times. \"The more I think about it, the more I feel like I got lucky.\"",
+      "problem": "Anyone who follows the show will find this misleading as it stands. The New Yorker (S02, August 2025) reports that Zohran Mamdani appeared on SubwayTakes twice: \"Eric Adams is a terrible mayor\" and, in June 2025, \"I should be the mayor,\" which Rahma agreed with. Mamdani also appeared on Keep the Meter Running. In the same interview Rahma criticizes the \"Democratic establishment,\" defends Mamdani, and tells Cuomo at a Tribeca party, \"He's young, and you guys are old.\" The NYT notes that the Walz interview did run. The draft already has the 2020 uprising. Together these show he doesn't avoid politics; he rejects scripted, focus-grouped politics. That contradiction belongs in the paragraph that says the Harris episode \"fits neither type neatly.\"",
+      "acceptance_test": "Add one or two dated sentences noting the Mamdani appearances and that the Walz episode ran. Present \"never wanted to be a politics person\" as what he said in November 2024, not a standing policy. Say what the Harris refusal does and doesn't show, given that record."
+    },
+    {
+      "id": "fan-06",
+      "severity": "minor",
+      "passage": "He had nearly skipped SubwayTakes, he said, until his wife encouraged him.",
+      "problem": "Before this line, the article's only mention of marriage is that his marriage was ending in 2020, plus a baby daughter in 2024. \"His wife\" then appears without introduction near the end, and readers will wonder who she is. Sources the draft already cites call Karina Muslimova his wife: CULTURED 2025, Mpls.St.Paul 2025, and the Guardian 2024 (\"his now wife\"). She is also the closest thing to testimony from someone near him, even though it comes through him. In Mpls.St.Paul, when he talked of taking a Spotify job while she was pregnant, she said, \"You can't; you're too close—you're on the verge of a breakthrough.\" In CULTURED, the line right after the draft's \"pretty mellow and low-key\" quote is \"When my wife and I first met, she mentioned how surprised she was that I'm actually so calm.\" That bears directly on the mellow-versus-hyperactive paragraph and on \"almost everything here comes from Rahma.\"",
+      "acceptance_test": "Introduce his second marriage in a brief clause where the daughter first appears. The name is optional. Give no wedding date, because S31 is unverified. Either add the CULTURED calm remark, attributed as his account of her view, to the mellow/hyperactive paragraph, or state that her view reaches us only through him."
+    },
+    {
+      "id": "fan-07",
+      "severity": "minor",
+      "passage": "Before comedy, he wrote poems.",
+      "problem": "This skips the step that turned the poet into a comedian, in his own telling. Brooklyn Magazine (S05, 2023): after the 2018 Museum of Pizza failure he posted poetry on Instagram, made a book with Pioneer Works (\"We Were Promised Flying Cars\") and did readings. Then he noticed people laughing: \"Oh, that is the feeling that I desire. I like the laughter. I was like, 'All right, I'm not a poet anymore. I'm a comedian.'\" That is his own origin story for comedy, and it sits right on the 3-versus-7 line: is the laughter applause or pleasure? It also puts the start of the pivot around 2018-19, which bears on the draft's 2019-versus-2020 note.",
+      "acceptance_test": "Add the readings-and-laughter origin in his words, with its date and the Brooklyn Magazine citation. Either use it in the type comparison or say plainly that it fits both readings."
+    },
+    {
+      "id": "fan-08",
+      "severity": "minor",
+      "passage": "About a year in, he agonized over whether he could put \"comedian\" in his Instagram bio. \"You shouldn't be aspiring. You have to be,\" he told Rolling Stone.",
+      "problem": "This joins two sources so that one quote seems to answer the other. The bio dilemma comes from Brooklyn Magazine (S05, 2023), which isn't cited here. The Rolling Stone line (S03) comes from a different thought: \"the worst thing in the world was the [idea] of being a 33-year-old divorced guy and introducing myself to women as an aspiring comedian. That's the worst... You shouldn't be aspiring. You have to be.\" Side by side, readers will assume he said it about the bio. Its real context is how he'd come across while dating after his divorce, which is sharper image evidence than the draft gives it.",
+      "acceptance_test": "Attribute the bio dilemma to Brooklyn Magazine (2023). Give the Rolling Stone quote its own context: introducing himself to women as a 33-year-old divorced \"aspiring comedian\"."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "\"I think in our relationship, there was never a moment where he was like, that's great. Good job. It was always like, that's great. Keep going.\"",
+      "reason": "Matches the Death, Sex & Money transcript word for word. It's the most revealing family detail in the piece. Keep it, and connect it to the father's \"just keep going\" in the type argument (see fan-02) instead of cutting it."
+    },
+    {
+      "passage": "That matters for the typing. An Eight argues to win. Rahma argues about things he says he doesn't care about, for the pleasure of it.",
+      "reason": "Sourced (THR 2026: \"something that I don't care about for multiple hours simply because it's fun\"; New Yorker 2025: \"I actually don't care at all, but I think disagreeing is more interesting\"). It's a discriminator that fans of the show will recognize at once."
+    },
+    {
+      "passage": "That half second is the Seven's reframe in miniature.",
+      "reason": "The Vinny / Buffalo Wild Wings anecdote checks out against Brooklyn Magazine 2023. It's a concrete Keep the Meter Running moment, and it lets the reader see the mechanism instead of just being told it."
+    },
+    {
+      "passage": "\"The sunglasses are a disguise,\" he told Rolling Stone. \"There's a lot of emotions in the eyes. So I'm preserving a piece of myself.\"",
+      "reason": "Checked against Rolling Stone 2025. It explains his best-known look, the big suit and dark sunglasses, and pairs well with Hamilton's outside read, the only independent observation of his temperament in the piece."
+    },
+    {
+      "passage": "\"I'm not in a hurry to go to the next spot, which may be the first time in my life. I always felt more comfortable being in transit, not literally, but also literally. I love it. It's a magical feeling to be on the way.\"",
+      "reason": "Verbatim from Rolling Stone 2025. The ending lands on a change in him rather than a verdict, and it echoes the airplane-ride hook without repeating it."
+    }
+  ],
+  "assessment": "Read as an informed fan. The draft gets the well-known material right. I checked the SubwayTakes format, the Harris account with its attributions, the father and funeral details, the Emmy outcome, the money caution and most quotes against the saved texts of S02-S08, S12, S15, S16, S19, S21 and S25, and found no factual errors. It also shows real counterevidence. The fan-level problem is selection. In several places the draft keeps the half of a source that favors Type 7 and drops the half that favors Type 3 or duty: the hidden 'legend' goal and the legacy and magnet reasons (fan-01), the Monday account's 'in order to finish' and the father's 'keep going' (fan-02), the 'because I love work' before the hook (fan-03), and the TV ambition behind pausing Keep the Meter Running (fan-04). Fixed one at a time, none of these changes the leading type. Taken together, they mean the second and third tie-breakers in 'Why not Type 3?' are weaker than written. Medium confidence is the most the record supports, and the editor should re-test whether Seven still clearly leads once the full context is in. Omissions a fan would notice: the Mamdani episodes against 'never wanted to be a politics person' (fan-05), his current wife, who appears unintroduced and is the only near-testimony (fan-06), and the poetry-readings-to-laughter origin of his comedy (fan-07). The feature film 'Or Something' (2025, co-written with Mary Neely) is mentioned only as 'a feature film'. That's optional. Risk: contested typing stays flagged. No new sensitive allegations; the Harris dispute is properly attributed. Similarity: the only tripped pair is with Tyla, sharing 'the pattern runs' (0.127). The sentences make different arguments. It's ordinary phrasing, not reused argument, and needs no action."
+}

@@ -1,0 +1,29 @@
+I wrote `verification-repair.json` with status **insufficient_evidence**, so the Dan Ives page stays on hold. I changed no other files and published nothing. It passes the schema check, and a dry run of the release gate blocks it as expected.
+
+**The facts hold up.** I fetched fresh copies of all 40 written sources the draft cites. Every quote matched its source, and the ones I read in full context were used fairly. For the three podcasts, I downloaded the audio and transcribed it myself; those quotes match too. The SEC order and the Barron's conflict-of-interest story both give each side, with dates and attribution. All 52 editing decisions hold up against their tests, including the one rejection: the draft is still about 700 words over target, which I accepted but took into account in the writing score. All 17 passages the reviewers asked to keep survived.
+
+**The hold is about the type call.** The article itself says Type 7 vs Type 3 is "close," and I agree no sourced evidence separates them. The Seven case rests on how he describes his own motives, mostly in friendly or promotional interviews. Those same interviews also talk about how the clothes look to investors and about the brand, which points toward Three. A 25-year public record also rules out the "open case" format.
+
+**Scores:**
+
+| Dimension | Score |
+|---|---|
+| Evidence | 8.5 |
+| Enneagram | 7.0 |
+| Originality | 8.5 |
+| Writing | 7.5 |
+| Durability | 8.5 |
+| Hook | 9 |
+| Discoverability | 8 |
+
+The weighted overall is 8.0, under the 8.5 release bar, and Enneagram is under its own floor of 8.
+
+**Findings:**
+1. **Major:** nothing yet separates Seven from Three. The first thing to find is his own account, or a colleague's, of why he left top-ranked research for Synchronoss in 2016 and came back two years later.
+2. **Minor:** the 2022 green-jacket passage quotes only half his answer. In the same breath he mentions his clothing line and calls the look a "signal" to others not to hide.
+3. **Minor:** Barron's reported in January 2026 that he advised the Ives Munster AI Revolution Fund. That role is missing from his October FINRA record, and the article never mentions it.
+4. **Minor:** the paraphrase of his 2019 Tesla downgrade drops "at current levels," which makes a valuation call sound like a moral refusal.
+
+Six research tasks are listed in the file for the next refresh.
+
+One disclosure: while pulling the earlier findings' text from `repair-findings.json`, I saw two scores from the earlier verification pass embedded in the text. I scored every dimension on my own, from the draft itself.

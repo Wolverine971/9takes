@@ -1,0 +1,30 @@
+I finished the repair stage for the Kareem Rahma profile and wrote the three output files. I didn't touch the live draft or any other repo file, and nothing was published. It still needs the independent re-verification before it can release.
+
+**The main fix (verify-01).** The verifier was right. In the saved Interview text, Rahma tells Maury Povich he "hated the idea of sending emails back and forth for a living," and his next answer is "I should stand out. I deserve more than being just a cog in the machine." The article had used that same desk-job dread as clean evidence for Type 7. I rewrote the argument instead of smoothing it over:
+- The Type 3 section now quotes the full Povich answer, and the Mpls.St.Paul quote now starts with "I didn't want to be just a businessman."
+- The "cleanest test" no longer says the fear evidence "has one shape." It now says the dread comes out Seven-shaped to Forbes and Three-shaped to Povich, so that test doesn't decide anything.
+- A new section, "The ride, not the arrival," rests the narrow Seven lead mainly on his airplane-ride and "in transit" lines. It sets two counters against them: "I finally have arrived" from 2022, and a newly quoted 2026 line, "I don't feel successful," which fits both types.
+- FAQ 2 now matches this.
+
+**Decision for you:** I kept Type 7 at medium confidence. The verifier allowed that route, and keeping the type means no full re-review. The honest caveat is that the lead now rests mostly on one kind of evidence. If you'd rather call him a Three, that's defensible, but it would mean re-running the profile with the full six-reviewer panel.
+
+**The six minor fixes:**
+- "A year later" is now "six months later."
+- The Vice-to-Times move now gives his real reason, that "my salary was literally tripled."
+- The CULTURED quote now matches the cited page word for word.
+- I reworded two generic Seven definition sentences. A similarity rerun only flags his own sourced airplane-ride line, which the verifier said can stay.
+- The Harris section is now three paragraphs.
+- There are now four internal links, including new ones to Anthony Bourdain (backed by the Vanity Fair comparison) and Zohran Mamdani.
+
+**Checks:**
+- All 121 quotes in the body match the saved source texts.
+- The readability audit flags nothing.
+- The H2 type answer and FAQ 1 still match exactly.
+- The contract's own check now fails only on things the new verification will redo: the old verification is out of date, and the four new claims haven't been checked yet.
+
+**One trade-off:** the body grew from 3,680 to 3,899 words, because the missing context had to be quoted. That's above the roughly 3,500-word target but under the 4,500 limit. The last verifier already marked writing down a little for length, so it may happen again.
+
+Files are in `docs/content-analysis/pipeline-logs/2026-10-25_06-00-02-828_kareem-rahma/`:
+- `repair.md`
+- `evidence-repair.json`
+- `resolution-repair.json`

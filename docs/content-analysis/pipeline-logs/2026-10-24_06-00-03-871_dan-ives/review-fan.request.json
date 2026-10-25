@@ -1,0 +1,20 @@
+{
+  "schema_version": 3,
+  "subject": "dan-ives",
+  "mode": "create",
+  "role": "fan",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_review_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-24_06-00-03-871_dan-ives/draft.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-24_06-00-03-871_dan-ives/evidence-draft.json",
+    "similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-24_06-00-03-871_dan-ives/similarity.json"
+  },
+  "outputs": {
+    "review-fan.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-24_06-00-03-871_dan-ives/review-fan.json"
+  },
+  "content_sha256": "774cb04858a7025c34bef68bd64baf1c67eafa02636a056aa98eb0606e1df237",
+  "evidence_sha256": "20185a564df3a924d52729e2a45ac96675f2ab00bde640891896a7528f62194b"
+}

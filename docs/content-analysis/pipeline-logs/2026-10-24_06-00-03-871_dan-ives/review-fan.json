@@ -1,0 +1,86 @@
+{
+  "schema_version": 3,
+  "role": "fan",
+  "content_sha256": "774cb04858a7025c34bef68bd64baf1c67eafa02636a056aa98eb0606e1df237",
+  "evidence_sha256": "20185a564df3a924d52729e2a45ac96675f2ab00bde640891896a7528f62194b",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "fan-01",
+      "severity": "major",
+      "passage": "When the damage came, he did not run a repair campaign built on specifics. He avoided the critics, defended the roles as new and open in friendly rooms, then called his exit simplifying and moved into a bigger venture described in possibilities.",
+      "problem": "The article's own record contradicts the Seven-over-Three discriminator, and an informed reader will notice. The opening scene is an image-repair move: his publicist set up a sit-down with the same two Barron's reporters, and he closed it with \"I'm unblocking you\" (S07). Per the S09 context, Nathan credits him for going on CNBC Fast Money the Monday after the cover story, knowing the questions were coming. Wedbush had already asked Barron's to change a headline (S08). Six weeks later he gave up the Eightco seat, which is the pruning the evidence file says a Three would do. The blocking also happened \"during the reporting of this article\" (S08), so it came before the damage, not in response to it. The hook's order (cover, then silence and blocking) reads the other way. The FAQ goes further, saying he moved on \"instead of repairing his image\", which the opening scene disproves. The claim that he \"kept adding roles ... after a national magazine and outside experts said so\" never names a role added after the story. FINRA (S11) has one: likeness licensing for the AI Power and Infrastructure ETF starting 04/01/2026. As written, the strongest Three evidence sits in the hook and is never weighed in the type argument.",
+      "acceptance_test": "The Why-not-Type-3 discriminator and the Type 3 FAQ explicitly account for the Fast Money appearance, the Eightco exit and the publicist-arranged Barron's interview. Each is either conceded as image management or argued against with evidence. The Seven case rests on what survives those moves, such as dated post-story role additions (the 04/01/2026 ETF licensing per S11) and \"continue to evaluate new ones\". The FAQ no longer says he did not repair his image. The blocking is placed during the reporting, before publication. If the discriminator weakens, the stated confidence and wording say so."
+    },
+    {
+      "id": "fan-02",
+      "severity": "major",
+      "passage": "In May 2019, cutting his Tesla price target to $230, he wrote that the company \"should be laser focused on shoring up core demand for Model 3 and simplifying its business model and expense structure\" instead of expanding into \"insurance, robotaxis, and other sci-fi projects/endeavors.\"",
+      "problem": "Anyone who follows Ives knows him as Wall Street's best-known Tesla bull. The record says so: \"Wall Street's biggest Tesla bull\" (S18 headline), \"card-carrying Tesla bull\" (S21), \"biggest cheerleader\" (S22). By 2024-2025 his bull case rested on robotaxis and autonomy, the bet he called \"sci-fi\" in 2019. S22, already in the record, says his faith rests on Musk's \"promises of self-driving vehicles and robots\". Widely reported 2025 notes (seen in search results this session, not opened) called autonomy Tesla's \"golden age\" and valued the AI and autonomy opportunity at \"$1 trillion\" or more. The draft uses the 2019 sentence as a principle about focus for the title, the hook and the Musk mirror, but never says he later embraced the sci-fi bet. Tesla readers get a distorted picture (the bull who turns, rather than the bull who mostly didn't), and the article misses the contradiction most useful to its own thesis: the 2019 distraction became his 2025 opportunity.",
+      "acceptance_test": "At least one opened, dated source quotes Ives's own robotaxi or autonomy bull case (for example a June or September 2025 note) and is added to the evidence record. The body states with dates that the robotaxi line he called sci-fi in 2019 became central to his 2025 Tesla case, and that he was widely described as Tesla's biggest Wall Street bull. The title and the \"simplify\" device stay accurate after the addition, or are adjusted."
+    },
+    {
+      "id": "fan-03",
+      "severity": "major",
+      "passage": "In a settled 2022 order, the SEC found that he helped negotiate one year-end 2016 deal, promising the other company it would not suffer a loss, through which Synchronoss improperly recognized about $3.6 million in revenue.",
+      "problem": "The sensitive allegation appears without its scale. The SEC's June 7, 2022 release (read this session through a verbatim reproduction on Mondo Visione) charged Synchronoss and seven senior employees over 2013-2017 accounting tied to a restatement of about $190 million. The company paid a $12.5 million penalty. Ives was one of four former or current employees who settled over side-letter arrangements, with penalties of $15,000 to $90,000; his was the lowest. The S10 context in the evidence record already notes the order was \"one of several orders arising from Synchronoss's 2018 restatement\". Next to \"The SEC says he was terminated in mid-2017\", the bare paragraph invites readers to see him as the central actor, or fired over this deal. The record supports neither reading.",
+      "acceptance_test": "One attributed, dated sentence places his order inside the June 7, 2022 action: company penalty, number of employees charged, and his penalty relative to the group. It is sourced to the SEC press release (added as an opened source) or the order. No sentence links the 2016 deal to his 2017 termination."
+    },
+    {
+      "id": "fan-04",
+      "severity": "major",
+      "passage": "He has said he is \"not afraid to stumble.\" The fear he does name is falling behind.",
+      "problem": "This changes what the source says. In S16, \"the biggest risk for companies, colleges, is actually just being behind\" is advice to institutions about adopting AI rather than over-worrying about ethics and regulation. That is his sell-side thesis, not a statement about himself. Calling it \"the fear he does name\" turns a pitch into a personal motive, and it is the only first-person support the type section gives for the head-triad fear mechanism. \"Not afraid to stumble\" comes from a different 2026 context about his parents' deaths, so putting the two together builds a self-portrait he never gave.",
+      "acceptance_test": "Either an opened source has him naming his own fear of falling behind or missing out, or the paragraph frames the \"being behind\" line as his market thesis and labels the fear reading as the author's inference. The sentence no longer says this is a fear he names."
+    },
+    {
+      "id": "fan-05",
+      "severity": "minor",
+      "passage": "His tenures are long for the restless Seven of stereotype: about 16 years at one firm and eight at another.",
+      "problem": "This leaves out the one period that breaks the pattern. Between the two long tenures he had three employers in about two and a half years (FINRA S11: Synchronoss 02/2016-08/2017, GBH Insights 10/2017-09/2018, Wedbush from 09/2018). The evidence file's \"against\" field notes these moves. The 2016 move was his first exit from sell-side research to work inside a company, and it ended in termination and a return to research. The exit section and the FAQ (\"after 25 years as an analyst\") present 2026 as his first leap off \"the treadmill\". A reader who knows the record sees 2026 as his second attempt, which bears on both \"Research is in my DNA\" and \"I've never built anything.\" The related line saying the 2026 quote \"passes over the time he spent inside a company\" also implies more than the record shows: running investor relations at someone else's company is not founding one, which is what he said he hadn't done.",
+      "acceptance_test": "The tenure paragraph acknowledges the 2016-2018 moves. One sentence in the exit or Synchronoss section notes that 2026 was his second departure from sell-side research, with no guess at motive. The \"passes over\" sentence either recognizes the difference between an operating role and building his own firm or is cut."
+    },
+    {
+      "id": "fan-06",
+      "severity": "minor",
+      "passage": "In the record opened for this page, his alarm goes off at a company's distraction or a broken quarter.",
+      "problem": "The categories are too tidy for a record a follower will remember. S31, in the evidence record, has Wedbush (his team) calling the April 2025 tariffs an \"economic Armageddon\" for tech. That was his best-known 2025 turn, and the trigger was macro policy, not a company's distraction or a weak quarter. The next point (no alarm at the idea that AI is overdone) still holds.",
+      "acceptance_test": "Either an opened source quoting Ives's April 2025 tariff note is added and the sentence lists policy threats to the tech trade as a dated trigger, or the sentence is narrowed so it no longer implies that the opened record shows only company-level triggers."
+    },
+    {
+      "id": "fan-07",
+      "severity": "minor",
+      "passage": "The closest rival is [Type 3](/enneagram-corner/enneagram-type-3), the Achiever, and that case gets its own section below.",
+      "problem": "The similarity check tripped on template sentences, not on argument. This signpost matches the recent Dylan Patel draft at 0.80, and \"they handle it by keeping their options open\" matches at 0.56. The four-step mechanism paragraph (\"A Seven feels a limit closing in ... The usual cost is focus.\") is a generic Seven explainer with no Ives evidence. The Ives argument itself (the Musk mirror, the role stacking, the exit) is distinctive and shares nothing with the matched drafts, so this is boilerplate around a distinctive argument, not copied reasoning.",
+      "acceptance_test": "The signpost is rewritten or cut. The mechanism paragraph is either tied to an Ives instance or cut back to the triad orientation. A rerun similarity diagnostic shows no pair against dylan-patel above 0.2."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "As the call wound down, his spokeswoman said he had to get to his next meeting. Ives had one more line. \"I'm unblocking you,\" he told them.",
+      "reason": "A verified, specific and funny opening scene (S07) that shows the person instead of describing him. Keep the scene even if the blocking date is corrected and the scene is brought into the type argument (fan-01)."
+    },
+    {
+      "passage": "At one point she asked which tech stocks excited him most, just as a store employee handed him mint green and lilac hats. \"I'm not sure he heard me,\" she wrote. What he said was, \"Dude, that thing is sick!\"",
+      "reason": "The only observed off-camera scene in the record, quoted accurately from S18. It gives the enthusiasm a body without overclaiming, and the next paragraph notes the scene was arranged for press."
+    },
+    {
+      "passage": "The research job he had expected to keep \"for years to come\" lasted ten months after he said it.",
+      "reason": "A precise, dated, verifiable reversal (S23, S02) told without editorializing. It will still read correctly in five years."
+    },
+    {
+      "passage": "Fortune's editor asked the obvious follow-up: without the mobsters?\n\nIves paused. \"Without the mobsters.\"",
+      "reason": "Checked against the Fortune page this session (\"I had to ask him: without the mobsters? Ives paused, 'Without the mobsters.'\"). It is a well-earned ending that comes from the record, not from invented interiority."
+    },
+    {
+      "passage": "So his optimism on air proves nothing about temperament by itself. The turns are the test.",
+      "reason": "Separates job incentives (FactSet ratings skew, Wedbush's \"individual brand\", Nathan's sell-side line) from temperament before using market calls as evidence. A fan would want this confound named, and fan-02 builds on this test rather than replacing it."
+    }
+  ],
+  "assessment": "Read as someone who follows Ives (CNBC viewers, Tesla and AI-trade investors). The draft is accurate on the facts this reader checks first. The April 2021 return to Outperform from Neutral is confirmed by contemporaneous coverage. The May 2019 \"code red\" and \"sci-fi\" note, the 45-stock ratings split, the Eightco market values, the \"for years to come\" reversal and the closing Fortune exchange all hold up (Fortune reopened this session). It does not flatter him: the Barron's conflicts, Wedbush's reply and the SEC order are all there. The main gaps are the ones this reader would notice. The Tesla record leaves out that he became the leading robotaxi and autonomy bull after calling robotaxis sci-fi (fan-02). The SEC paragraph lacks the company-wide scale that puts his role in proportion (fan-03). The Seven-over-Three discriminator ignores image repair shown in the article's own hook and in the record: Fast Money the Monday after the story, the Eightco exit, and the publicist-arranged Barron's interview (fan-01). The type section turns an AI-adoption pitch into a personal fear (fan-04). The 2016-2018 departure from research, the precedent for the 2026 exit, is split off from the exit story (fan-05). Resolving fan-01 and fan-02 could change the confidence of the type argument, so risks stay sensitive_allegations and contested_typing. Similarity: the trip pairs are a signpost and ordinary Seven vocabulary shared with the Dylan Patel draft; the arguments differ (fan-07). Limits: the robotaxi notes and the SEC release are known from search results and a verbatim reproduction, not opened primary documents in the evidence record. The Fast Money appearance is known only secondhand through S09's context."
+}

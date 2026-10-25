@@ -1,0 +1,19 @@
+I wrote the five-year (future) review for Kareem Rahma to `review-future.json` in the run folder. It passes the pipeline's review schema, and the role and both hashes are copied from the request. Nothing else in the repo changed, and nothing was published.
+
+**Verdict:** the main argument holds up over five years. If you strip out everything from 2026 (the Emmy nomination and loss, the Rolling Stone ranking, the relaunched cab show), the Type 7 case still stands on older evidence: back at school the Monday after his father's funeral in 2007, the "airplane ride" line from 2024, and "fun is number one" from 2025. Almost every event and quote has an exact date. The problems are in what the evidence file tracks, not in the writing.
+
+**Findings (2 major, 3 minor):**
+- **F1 (major):** The draft's only stated test for whether the type read could flip from 7 to 3 ("if he starts choosing recognition over fun when the two split") isn't tracked anywhere. It also never says what a "split" would look like. The fix asks the draft to name one, and to record review triggers for:
+  - the next Emmy cycle (July 2027)
+  - any TV, film or streaming deal
+  - his first public comment on losing the 2026 Emmy
+  - Keep the Meter Running (his cab show) getting a sponsor, being sold or ending, since its cost is the main proof that "fun" is his rule
+- **F2 (major):** The FAQ "Did SubwayTakes win an Emmy?" answers with a flat "No." The show is still running and the award category comes back every year, so a later win would make that answer false. Fix: tie the question to 2026, or record a review trigger for each Emmy announcement.
+- **F3 to F5 (minor):** Three claims are marked stable when they will change:
+  - "Kuo talks about the show, not about him" (F3) is the draft's main admitted weakness, and it has no date.
+  - "The Hollywood goal had changed shape" (F4) rests on one June 2026 press quote.
+  - The closing "I'm not in a hurry" quote (F5) is a claimed change from March 2025 that later interviews could confirm or contradict.
+
+**Protected passages (5):** the funeral-Monday opening, the "addicted to momentum" quote, "The goal looks like a Three's. The reason he gives is a Seven's.", the concession that a Seven can crave applause, and the closing "on the way" quote.
+
+The similarity check flagged a match with Tyla's page, but the two pages share only the phrase "the pattern runs" and make different arguments, so I didn't count it as reuse. Cutting the 2026 news details won't hurt the argument if the editor needs to trim the draft, which runs about 3,800 words against a target of about 3,500. They should keep one 2026 cab-show detail, because it is the evidence that tests the closing quote.

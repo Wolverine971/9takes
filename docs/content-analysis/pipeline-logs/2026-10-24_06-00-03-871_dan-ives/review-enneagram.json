@@ -1,0 +1,100 @@
+{
+	"schema_version": 3,
+	"role": "enneagram",
+	"content_sha256": "774cb04858a7025c34bef68bd64baf1c67eafa02636a056aa98eb0606e1df237",
+	"evidence_sha256": "20185a564df3a924d52729e2a45ac96675f2ab00bde640891896a7528f62194b",
+	"risks": {
+		"sensitive_allegations": true,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": false
+	},
+	"findings": [
+		{
+			"id": "enneagram-01",
+			"severity": "major",
+			"passage": "Here is where Seven pulls ahead. A Three guards the asset that makes them admired, and for a sell-side analyst that asset is credibility as an objective judge of stocks.",
+			"problem": "The discriminator chooses the asset on his behalf. In his own account, what made him admired is recognition, not objectivity: \"It's definitely played a role in the global success, because of the way that I dress... Even people who don't know my stock calls, they know me as the person who wears the funky shirts on CNBC\" (Business Insider, 2025). Barron's called him \"Wall Street's Biggest Showman.\" When the image rests on visibility, a public-company chair, Capitol Hill meetings and his name on ETFs, a fund and a bank are all gains to that image. The draft concedes this (\"the Eightco seat also bought visibility a Three would value\") and then overrides it. After the January 2026 story he dropped the one role that did not carry his name (Eightco) and added roles that did: FINRA dates the IVEP likeness licensing to 04/01/2026, followed by Yorkville Ives, Ives Ultra and the AI 30 under the new firm. The Three reading predicts that pattern at least as well as the Seven reading does. The Musk \"simplify\" irony that the title and description rely on doesn't discriminate either, because any ambitious person can urge focus on others while adding roles of their own.",
+			"acceptance_test": "The 'Why not Type 3?' section must do one of two things. (a) Cite a sourced, dated choice where chasing an option cost him visibility or recognition, the image he himself describes, with no plausible status payoff. (b) Or say plainly that role accumulation and the post-Barron's sequence fit both types, then name what the Seven lead actually rests on. \"Seven pulls ahead\" and equivalent wording in the FAQ and description survive only under (a). The section must address the post-criticism pattern directly (Eightco dropped, Ives-branded roles added) instead of leaving it for the reader to find in the FINRA paragraph."
+		},
+		{
+			"id": "enneagram-02",
+			"severity": "major",
+			"passage": "When the damage came, he did not run a repair campaign built on specifics.",
+			"problem": "The draft's own record shows image repair. He went on CNBC after the story ran (\"I get the scrutiny, but everything's vetted\"). About nine days later he defended the roles on a podcast. Six weeks after the cover story he stepped down from Eightco. In July his publicist approached the same Barron's reporters, and he ended the call with \"I'm unblocking you.\" That sequence (avoid, defend in friendly venues, prune the damaging role, re-engage once there is good news) is ordinary Three image management. This sentence therefore misdescribes the behavior the discriminator depends on. The FAQ 'Why isn't Dan Ives a Type 3?' repeats the error (\"he avoided it and moved to a bigger venture instead of repairing his image\"). The type FAQ also states as fact that the roles \"cost him credibility,\" but the record shows that claim is disputed: Wedbush cited his \"unwavering integrity,\" and no regulatory action was found.",
+			"acceptance_test": "The body and both FAQs describe what actually happened (CNBC defense, podcast, Eightco exit, July outreach) and don't claim he made no repair. Any Seven inference left in place is framed as an inference about how he repaired (general and possibility language rather than specifics), with legal and PR constraints named. \"Cost him credibility\" is either attributed (to Barron's and the experts it quoted) or removed."
+		},
+		{
+			"id": "enneagram-03",
+			"severity": "major",
+			"passage": "His explanation of the clothes points the same way. It is about mood and freedom, and he has called the look the lesser part: \"The fashion is what they see, but the content is ultimately what's important.\"",
+			"problem": "This reads the clothes as mood and freedom using only half of each source. In the New York Post piece, the line right after \"constricting in terms of how I think\" is the Post's example of what that means: \"I wore a traditional sports jacket with just a little color and people took that very bearishly.\" That is about how the audience read him. The same piece quotes him saying, about men who copied his style, \"It makes me feel so good.\" The \"fashion is what they see\" line follows his stated goal of explaining tech to \"our clients and the broader public,\" so it presents the look as an audience-facing tool. Business Insider reports him saying the style is authentic but has also helped boost his brand, and quotes him crediting it with \"the global success.\" Calling the look \"the lesser part\" and the explanation \"about mood and freedom\" is a selective reading, and the draft presents it as discriminating evidence.",
+			"acceptance_test": "Either remove the clothes evidence from the 7-vs-3 discriminator or present it as split, putting at least one audience or recognition quote beside the mood quotes in the same paragraph. No sentence may claim his explanation of the clothes points to Seven unless it addresses the Three-leaning lines from the same interviews."
+		},
+		{
+			"id": "enneagram-04",
+			"severity": "major",
+			"passage": "At one point she asked which tech stocks excited him most, just as a store employee handed him mint green and lilac hats.",
+			"problem": "In the Business Insider piece (opened for this review), this moment happens inside Snow Milk (Business Insider calls it Snow Bird), the store that carries his clothing collaboration. So do the \"Oh, that's so cool\" remarks about piece after piece. The person handing him the hats is \"a Snow Bird employee who worked on the brand collaboration.\" Tecotzky introduces the scene by noting that bringing her there \"might have been a good business move.\" The draft instead puts \"Oh, that's so cool\" with the SOHO SURF purchase from earlier in the walk, and presents the Snow Milk visit after the hat moment as a separate \"business stop.\" As a result, the page's only observed off-camera behavior reads as stray delight. It was actually enthusiasm for his own line in front of a reporter, which a Three reading explains just as well.",
+			"acceptance_test": "The scene follows the article's order: the SOHO SURF hat earlier in the afternoon, then Snow Milk, where the \"so cool\" remarks and the missed stock question happen among his collaboration's merchandise. Any type inference drawn from the scene acknowledges that context (for example, that delight and promotion can't be separated here), or the inference is withdrawn."
+		},
+		{
+			"id": "enneagram-05",
+			"severity": "major",
+			"passage": "He has said he is \"not afraid to stumble.\" The fear he does name is falling behind.",
+			"problem": "The head-triad claim rests on a quote that isn't about him. On the Smeal Academy Podcast, \"the biggest risk for companies, colleges, is actually just being behind\" answers a question about institutional AI policy. He follows it by saying some institutions \"have gone too overreaching in terms of worry about ethics and regulatory\" and \"missed maybe some of this technology boom.\" It also doubles as a pitch for the trade he covers. Even read as personal, fear of falling behind fits Three (being outpaced, failing) at least as well as Seven. The same paragraph uses \"the treadmill\" as constriction language but leaves out the rest of that sentence, \"actually build something myself,\" which is achievement language. The paragraph takes material that fits either type and presents it as converging on Seven (\"Ives's own words keep landing on that idea\").",
+			"acceptance_test": "Either remove the \"being behind\" quote as evidence of his own fear or frame it explicitly as a statement about institutions. Cut \"The fear he does name is falling behind,\" or rewrite it so it no longer derives a personal core fear from that quote. The paragraph must also acknowledge that \"build something myself\" and fear of falling behind fit Three, or keep only evidence that points specifically to a fear of constraint (for example, \"constricting\" or \"only one life to live\")."
+		},
+		{
+			"id": "enneagram-06",
+			"severity": "minor",
+			"passage": "Dan Ives's personality type is Enneagram Type 7, the Enthusiast. Sevens belong to the head triad, the three types organized around fear, and they handle it by keeping their options open and their attention on what could go right.",
+			"problem": "The plain-language answer says flatly that he \"is\" Type 7, even though the record holds medium confidence with a strong Three rival. Confidence and the rival don't appear until two paragraphs later, and the research guidance asked for \"most likely\" or \"reads as\" wording that names Three. Two phrases also match the dylan-patel draft word for word: \"they handle it by keeping their options open\" (similarity 0.557, repeated in this draft's FAQ) and \"that case gets its own section below\" (0.801). The underlying arguments differ (Patel is argued against Eight), so this is shared boilerplate, not a reused argument. The generic paragraph \"The pattern runs in a few plain steps,\" which says nothing about Ives, adds to the template feel.",
+			"acceptance_test": "The answer of 60 words or fewer states the leading read with its confidence and names Type 3 as the live rival, and the type FAQ mirrors it. The type-definition clause and the signpost sentence are rewritten in terms specific to Ives. The 'plain steps' paragraph is either tied to a dated Ives sequence or cut."
+		},
+		{
+			"id": "enneagram-07",
+			"severity": "minor",
+			"passage": "The 2019 downgrade, with its talk of no longer being able to look investors in the eye, sounds more like duty to clients than a Seven's reframe, and he held Neutral for about two years.",
+			"problem": "The leftovers section treats evidence that favors the named rival as neutral oddities. Protecting the ability to look investors in the eye is credibility protection, and the evidence record itself lists Three (or One or Six) as an explanation for it. The long tenures, \"a lot of weekends,\" and \"Research is in my DNA\" also fit a Three's sustained build. In the other direction, the draft never tests the obvious explanation for long tenure within Seven: covering tech supplies constant novelty. Readers can't tell which leftovers count against Seven and for Three.",
+			"acceptance_test": "Each leftover in 'What the type leaves out' either says which rival it favors (at minimum, the 2019 downgrade as a point for Three's credibility protection) or gives a sourced explanation within Seven. The confidence statement in the type section reflects that tally."
+		},
+		{
+			"id": "enneagram-08",
+			"severity": "minor",
+			"passage": "Blocking two reporters sits oddly beside \"I don't worry about others,\" which he told Business Insider in 2025, and \"I'm like an open book.\"",
+			"problem": "The quote is out of context. In Business Insider (opened for this review), \"I don't worry about others\" is about his stock work: \"The way that I cover tech stocks goes to the beat of a different drum... I don't worry about others, because maybe it's an unconventional way that I look at names, and I dress similar to how I cover tech.\" He means he doesn't follow other analysts, not that he is indifferent to critics. It can't set up a contradiction with blocking reporters, and in truncated form it reads as an anti-Three self-report, which it isn't.",
+			"acceptance_test": "Either drop \"I don't worry about others\" from the sentence or quote it with its stock-coverage context (\"the way I look at names\") so the reader can see what it refers to. The contrast between blocking and \"open book\" can stand on its own."
+		},
+		{
+			"id": "enneagram-09",
+			"severity": "minor",
+			"passage": "An Eight reading fails faster: an Eight would have taken the fight to Barron's, and Ives blocked its reporters.",
+			"problem": "A stereotype is doing the work of a discriminator. Cutting off hostile reporters is a forceful, boundary-setting move that many Eights make. \"Would have taken the fight\" assumes Eights always confront in public. The draft never raised Eight as a contender, so this one-line dismissal adds nothing and models stereotyped typing. Better material is in the record: his conciliatory answer to Musk (\"Elon has his opinion and I get it\") and his comment two months later that Musk had \"pivoted very nicely.\"",
+			"acceptance_test": "Cut the Eight sentence or replace it with a sourced observation that actually separates Eight (for example, how he handles a rebuke from a powerful person), stated without assuming how Eights \"would\" act."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "As the call wound down, his spokeswoman said he had to get to his next meeting. Ives had one more line. \"I'm unblocking you,\" he told them.",
+			"reason": "A sourced, dated cold open that shows behavior instead of asserting a trait. It holds the whole avoid-then-charm pattern in one line, and both type readings have to explain it."
+		},
+		{
+			"passage": "Ives had used that word before, about somebody else.",
+			"reason": "It turns the \"simplify\" echo into the article's spine with one plain sentence. Keep it as a hook even after the irony stops being cited as type evidence (see enneagram-01)."
+		},
+		{
+			"passage": "It has not gone off at the idea that the AI boom itself might be overdone.",
+			"reason": "The most type-relevant observation in the piece, specific to this person. His alarms target threats to the boom, never the boom. If the editor adds the April 2025 tariff \"economic Armageddon\" note (S31), the claim that came before this sentence should widen beyond \"a company's distraction or a broken quarter.\" That would strengthen this sentence, not weaken it."
+		},
+		{
+			"passage": "He sees a boom, he hears the question about its cost, and after a beat he picks the version where it works out.",
+			"reason": "It names the Seven mechanism (positive reframing of a cost) through a sourced exchange instead of type vocabulary. It is the article's best single statement of the read."
+		},
+		{
+			"passage": "The type cannot say what that chapter meant to him, and this page does not guess.",
+			"reason": "Honest restraint on the sensitive Synchronoss chapter. It refuses to turn an SEC finding or an omission into motive evidence for either type."
+		}
+	],
+	"assessment": "Type 7 at medium confidence is plausible. The attention and affect evidence leans Seven: \"constricting in terms of how I think,\" \"only one life to live,\" launch-week possibility language, and choosing the version where the Strip works out. The draft is also honest about its limits (Synchronoss, the 2019 downgrade, job incentives). But the decisive 'Why not Type 3?' argument does not discriminate as written. It assumes the asset a Three would guard is objectivity, when his own words say it is recognition. It claims he made no repair when the record shows a repair sequence. It also misses that after the criticism he dropped the one role without his name and added roles carrying it. The clothes, SoHo and fear evidence are read selectively or out of context (I opened the BI shopping piece, the NY Post profile and the Fortune interview to check). The 60-word answer states Type 7 flatly. Both risk flags are confirmed: contested_typing, and sensitive_allegations (the SEC order, the termination, and the disputed conflict reporting). If the editor cannot find a discriminator where option-seeking clearly cost him the image he describes, the honest outcome is one of two things. Either say 7 versus 3 is close and state what the lead rests on, at medium or lower confidence, or hold with research tasks: the CNBC Fast Money appearance after the January 2026 story, and any first-person account of the Synchronoss years. Changing the type would require --refresh --expanded-review. Similarity: the pairs flagged against dylan-patel are a stock type-definition clause and a signpost phrase. The arguments differ, so this is minor boilerplate (enneagram-06), not argument reuse."
+}

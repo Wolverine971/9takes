@@ -1,0 +1,1343 @@
+{
+  "schema_version": 3,
+  "content_sha256": "de4d46bcf3289d390f68d47da4d1058b6eec7da3a8532b83dd881a831fc0908c",
+  "evidence_sha256": "e152f1d38908f9cc58a0454e4397f0885c32ea17599dea76334813a7eb8f4048",
+  "status": "revise",
+  "findings": [
+    {
+      "id": "verify-01",
+      "severity": "major",
+      "passage": "as of October 24, 2026 his FINRA record still listed outside roles beyond the firm: the Snow Milk clothing line, the Zeta advisory board and the likeness fee on the Wedbush power-and-infrastructure ETF.",
+      "problem": "The FINRA BrokerCheck PDF (S11, reopened 2026-10-24) lists a further outside business activity the article omits: 'ADVISOR INNOVATION X GLOBAL OPPORTUNITIES LLC; INVESTMENT RELATED; ROCKVILLE, MD; ... ADVISOR; 09/2026'. Claim C77 files it under the Yorkville Ives build, but no opened source links it to Yorkville Ives (New Jersey); a web search finds only an unrelated Innovation X Advisors in Rockville, MD. As written, the colon list reads as complete and hides an outside advisory role taken about two months after 'I needed to simplify' and '110% focused'. That is exactly the evidence the article's own 7-vs-3 test turns on ('if... the outside roles fall away, the Three reading gains'). Relatedly, 'Most of what followed belongs to the new firm' overstates IVAI: per IFR (S33) Yorkville Ives owns 49.9% of the adviser (the Leathers hold 50%), and FINRA lists his Ives Ultra Fund chairmanship (09/2026) as an outside business activity. The edit introduced this framing when it replaced the draft's 'six outside business activities' count.",
+      "acceptance_test": "(a) The FINRA sentence either names the September 2026 Innovation X Global Opportunities advisory role (attributed to FINRA, dated, no motive guessed) or cites an opened source showing it is part of Yorkville Ives; the list no longer reads as complete if it is not. (b) 'Most of what followed belongs to the new firm' is reworded to match the sources, e.g. a fund whose adviser Yorkville Ives owns 49.9% of, which FINRA lists among his outside activities. (c) The 'Leaving Eightco was a real cut...' paragraph and the Why-not-Type-3 forward test still read correctly with the extra role included. (d) C77's claim text and inference, and C128's inference, are corrected to match, with no unsourced classification."
+    },
+    {
+      "id": "verify-02",
+      "severity": "major",
+      "passage": "In launch week he spoke in possibilities.",
+      "problem": "The Seven-over-Three discriminator (C37, C158) rests on his self-reported motives in friendly or promotional interviews and on cost-reframes ('undervalued asset', 'third inning') that a chairman and sell-side analyst would also make. The article concedes that roles and repairs do not discriminate and that 'The call is close.' It also omits Three-leaning results language from the same launch interview it cites. Business Insider (S06), July 15, 2026: 'You just have to convince people, you have to show them the results.' Fortune (S05) narrates that 'he knows the proof will be in the pudding.' The page's forward test says the Three reading gains if he measures the build 'by results', but it does not report that he already framed the launch that way. With the rival not failing any specific, sourced discriminator, the type argument meets the standard's Enneagram 7-8 description, not the 8 the release gate requires.",
+      "acceptance_test": "(a) The launch-week paragraph or the Why-not-Type-3 section reports 'you have to show them the results' (BI, July 15, 2026) and weighs it, and the forward test is restated so the existing evidence does not already half-satisfy it. (b) The Seven lead adds at least one opened, dated observation that the Three reading does not predict. Examples: a first-person or named-testimony account of why he left research for Synchronoss in 2016 and came back; or a choice where novelty or freedom cost him recognition or status. Place it beside the discriminator and record it in the evidence inventory. (c) If research finds no such observation, the honest outcome is status insufficient_evidence with those research tasks. Releasing the profile as a medium-confidence Seven whose rival never fails a test is not acceptable."
+    },
+    {
+      "id": "verify-03",
+      "severity": "minor",
+      "passage": "As Eightco's chairman he lobbied for AI and crypto, \"the same industries he's tasked with covering.\"",
+      "problem": "Barron's (S08) says he 'traveled to Capitol Hill in his capacity as Eightco chairman to express his support of AI and crypto', and S07 says he met lawmakers 'to represent the publicly traded crypto firm he chaired'. 'Lobbied' can imply registered lobbying and is a step beyond the sources in a disputed, sensitive-allegations paragraph.",
+      "acceptance_test": "The sentence uses the sources' terms, e.g. 'As Eightco's chairman he met senators to press the case for AI and crypto, \"the same industries he's tasked with covering\"', or attributes 'lobbied' to a source that uses it."
+    },
+    {
+      "id": "verify-04",
+      "severity": "minor",
+      "passage": "It shows up as momentum, and Ives has never named it.",
+      "problem": "'Has never named it' is an unscoped universal about everything Ives has said. The evidence (C59) supports only that he has not named a fear of his own in the record opened for this page.",
+      "acceptance_test": "The clause is scoped, e.g. 'and in the interviews opened for this page Ives never names it', or equivalent wording tied to the opened record."
+    },
+    {
+      "id": "verify-05",
+      "severity": "minor",
+      "passage": "The violations were of internal-controls and books-and-records rules.",
+      "problem": "The SEC order (S10) finds that Ives violated Section 13(b)(5) and Rule 13b2-1 (internal controls and falsified records). It also finds that he caused Synchronoss's violations of the periodic-reporting provisions (Section 13(a), Rules 13a-1, 13a-11, 12b-20) as well as 13(b)(2)(A). The sentence leaves out the reporting violations, a small softening next to the FINRA 'No'.",
+      "acceptance_test": "The sentence distinguishes his own violations (internal-controls and books-and-records rules) from the company's reporting violations the SEC found he caused, still without the word fraud, or it is phrased so it does not imply the list is complete."
+    }
+  ],
+  "research_tasks": [
+    "Resolve FINRA Other Business Activity 5 ('Advisor Innovation X Global Opportunities LLC', Rockville, MD, 09/2026): identify the entity and whether it has any tie to Yorkville Ives; then correct the outside-roles sentence and C77 (verify-01).",
+    "Find a discriminator that the Three reading does not predict: a first-person or named-testimony account of why he left sell-side research for Synchronoss in February 2016 and returned via GBH Insights, or another sourced choice where novelty or freedom cost him recognition or status (verify-02).",
+    "Weigh the launch-week results language already in the record (BI, July 15, 2026: 'you have to show them the results'; Fortune's 'proof will be in the pudding' narration) in the Why-not-Type-3 section and restate the forward test (verify-02).",
+    "Locate the CNBC Fast Money segment of Monday, February 2, 2026 to quote his own answer rather than Nathan's recollection.",
+    "Human re-listen of S09 at about 15:00-17:20 to confirm that Ives, not Nathan, voices the Wynn analogy and 'you have to have some faith... be a believer' (C74); three machine transcriptions agree on the words but speaker turns are inferred.",
+    "Locate the English text of the April 2019 Tesla downgrade note (S25 is a Spanish rendering)."
+  ],
+  "claim_checks": [
+    {
+      "claim_id": "C01",
+      "verdict": "supported",
+      "reason": "Onward State (S14) reopened: Long Island roots and 'majored in finance in the Smeal College of Business'; TWST header (S13) gives a B.S. in finance from Penn State. Fortune (S05) and BI (S18) confirm Long Island."
+    },
+    {
+      "claim_id": "C03",
+      "verdict": "supported",
+      "reason": "NJBIZ (S12, via r.jina.ai, 2016-02-16) reopened: Synchronoss, 'a mobile cloud solutions company', hired him as head of global investor relations (SVP finance and corporate development); 16 years at FBR before. SEC order (S10) gives EVP of Investor Relations from about February 2016."
+    },
+    {
+      "claim_id": "C101",
+      "verdict": "supported",
+      "reason": "SEC order (S10, Wayback copy of the sec.gov PDF) para. 1: EVP of Investor Relations 'from approximately February 2016 to mid-2017, when he was terminated.' No reason is given anywhere in the order. Barron's (S08) says he 'was fired... according to an SEC filing'."
+    },
+    {
+      "claim_id": "C04",
+      "verdict": "supported",
+      "reason": "S10 paras. 6-16 reopened: one December 2016 reseller transaction; Ives 'promised that Subcontractor A would not suffer a loss from the deal under any circumstances'; SNCR improperly recognized about $3.6 million. Settled order, correctly labelled."
+    },
+    {
+      "claim_id": "C102",
+      "verdict": "supported",
+      "reason": "S10: 'without admitting or denying the findings'; $15,000 civil penalty; Undertaking A, three years refraining from participating as a salesperson in side-letter deals or sales of $10,000 or more. Barron's (S08) corroborates the penalty and three-year limit."
+    },
+    {
+      "claim_id": "C44",
+      "verdict": "supported",
+      "reason": "FINRA BrokerCheck PDF (S11) reopened 2026-10-24, Disclosure Event: 'Does the order constitute a final order based on violations of any laws or regulations that prohibit fraudulent, manipulative, or deceptive conduct? No.' The paraphrase is faithful."
+    },
+    {
+      "claim_id": "C103",
+      "verdict": "supported",
+      "reason": "S11 employment history lists Synchronoss 02/2016-08/2017 and the SEC disclosure; S13 header is the only bio found mentioning Synchronoss; the career accounts in S05, S06, S07, S14, S15 and S01 that I reopened skip from FBR to Wedbush. The sentence is properly scoped to 'the interviews opened for this page'."
+    },
+    {
+      "claim_id": "C09",
+      "verdict": "supported",
+      "reason": "Fortune (S05) reopened: verbatim 'As an analyst I always talk about companies, whether good or bad, what they've done. But I've never built anything,' he said."
+    },
+    {
+      "claim_id": "C85",
+      "verdict": "supported",
+      "reason": "S05 verbatim: 'I wanted to get off the treadmill and actually build something myself.'"
+    },
+    {
+      "claim_id": "C05",
+      "verdict": "supported",
+      "reason": "Barron's cover (S08, full Dow Jones text decoded from the Tiger page): 'Of the 45 stocks that Ives covers, according to FactSet, he rates 41 as Outperform, four as Neutral, and none as Underperform,' after noting Buy ratings vastly outrank Sell ratings."
+    },
+    {
+      "claim_id": "C58",
+      "verdict": "supported",
+      "reason": "S12 (16 years at FBR), S11 (Synchronoss 02/2016-08/2017, GBH 10/2017-09/2018, Wedbush 09/2018-07/2026), S02 (MD, Global Head of Technology Research, departed July 1, 2026). The corporate/market-research interval is about 2.6 years; 'two' is a fair round figure."
+    },
+    {
+      "claim_id": "C107",
+      "verdict": "supported",
+      "reason": "Same records as C58 (S02, S11, S12); FAQ wording matches the body."
+    },
+    {
+      "claim_id": "C06",
+      "verdict": "supported",
+      "reason": "Wedbush release (S02) dated July 1, 2026; Yorkville Ives release (S04) dated July 15, 2026; CNBC (S03) on the launch."
+    },
+    {
+      "claim_id": "C45",
+      "verdict": "supported",
+      "reason": "S02 reopened: Gary Wedbush, President and CEO: '...a unique culture and modern platform where distinctive talents like Dan can develop their voice and build their individual brand.'"
+    },
+    {
+      "claim_id": "C07",
+      "verdict": "supported",
+      "reason": "S04: 'Dan Ives, Partner and Senior Managing Director'; S03: 'will serve as partner and senior managing director', Roger Briggs CEO; S11: registered with Yorkville Ives & Co. since 07/15/2026. Dated and time-sensitive with a trigger."
+    },
+    {
+      "claim_id": "C108",
+      "verdict": "supported",
+      "reason": "S04 and S03 use 'modern merchant bank'; formed with Yorkville Securities on 2026-07-15."
+    },
+    {
+      "claim_id": "C87",
+      "verdict": "supported",
+      "reason": "Barron's July (S07) reopened: research department 'still awaiting approval from Finra'; S04 footnote on the Continuing Membership Application. Now dated 'At launch' and attributed; trigger present."
+    },
+    {
+      "claim_id": "C08",
+      "verdict": "supported",
+      "reason": "IVAI release (S32, via Finviz) reopened: PR Newswire, Sept. 30, 2026, $200 million IPO, NYSE symbol IVAI, closed-end fund."
+    },
+    {
+      "claim_id": "C77",
+      "verdict": "qualified",
+      "reason": "S11 does list Snow Milk, Zeta and the AI Power and Infrastructure ETF licence. But the passage presents these three as the complete set of outside roles 'beyond the firm', while S11 also lists 'Advisor Innovation X Global Opportunities LLC; investment related; Rockville, MD; advisor; 09/2026'. No opened source ties that entity to Yorkville Ives (a web search finds an unrelated Innovation X Advisors in Rockville, MD); the claim record classifies it as part of the firm without support. See finding verify-01."
+    },
+    {
+      "claim_id": "C92",
+      "verdict": "qualified",
+      "reason": "Leaving Eightco (S07) and the stated focus aim (S07) are supported, and 'the build carries his name' is true (S04, S32). The surrounding 'still listed outside roles' clause is incomplete (verify-01), so the conclusion this sentence draws needs repair alongside C77."
+    },
+    {
+      "claim_id": "C10",
+      "verdict": "supported",
+      "reason": "S05 reopened: 'From 2015 through 2025, he shared, he grappled with his father's case of Alzheimer's and his mother's case of Parkinson's... they died at 79 years old in 2025 and at 70 in 2020, respectively.' Presented as his account, briefly."
+    },
+    {
+      "claim_id": "C89",
+      "verdict": "supported",
+      "reason": "S05 verbatim: 'I had great parents that passed away young and I'm not afraid to stumble.'"
+    },
+    {
+      "claim_id": "C90",
+      "verdict": "supported",
+      "reason": "S05 verbatim fragments: 'you should have gone left instead of right', 'I'm not gonna like live life like that', 'jumping off a cliff to get some Instagram picture'. Context (calculated risk) preserved."
+    },
+    {
+      "claim_id": "C91",
+      "verdict": "supported",
+      "reason": "Interpretation explicitly limited; 'only one life to live' is in S05's quoted statement."
+    },
+    {
+      "claim_id": "C11",
+      "verdict": "qualified",
+      "reason": "S05 verbatim for 'pretty funky dresser' and 'over time I kind of ripped a Band-Aid off and just went with whatever works in that morning'. 'Toned it down when he reached Wall Street in the 1990s' is Fortune's paraphrase of his account; FINRA (S11) shows his first securities registration in 07/2000 (Onward State puts FBR in the '90s), so the decade is his/Fortune's framing. Attributed to Fortune, acceptable."
+    },
+    {
+      "claim_id": "C111",
+      "verdict": "supported",
+      "reason": "S05 verbatim ('pretty funky dresser', Long Island in the 1980s); S18 'super different and funky since he was a kid in Long Island'."
+    },
+    {
+      "claim_id": "C12",
+      "verdict": "supported",
+      "reason": "New York Post (S17) reopened: 'If I dress conventional, it would be constricting in terms of how I think.' Follows 'I'm comfortable in my own skin.'"
+    },
+    {
+      "claim_id": "C62",
+      "verdict": "supported",
+      "reason": "S17 verbatim: 'My style makes me feel good in a stressful job, talking stocks and dealing with clients and billions of dollars.'"
+    },
+    {
+      "claim_id": "C63",
+      "verdict": "supported",
+      "reason": "S17 verbatim: 'When I dress funky, it makes me feel more relaxed, and I do think it helps me do my job better.'"
+    },
+    {
+      "claim_id": "C15",
+      "verdict": "supported",
+      "reason": "BI shopping feature (S18, AOL syndication, datePublished 2025-09-20, byline Tecotzky) reopened: 'didn't look twice at anything in a neutral tone'; at Faherty, 'the first store', a $58 powder blue 'SOHO SURF' hat while already wearing a hat and holding another from lunch."
+    },
+    {
+      "claim_id": "C64",
+      "verdict": "supported",
+      "reason": "S18: 'I tried asking Ives about what tech stocks he finds most exciting just as Jamie handed him mint green and lilac hats, but I'm not sure he heard me. \"Dude, that thing is sick!\" he said instead.' Correctly placed inside Snow Milk."
+    },
+    {
+      "claim_id": "C65",
+      "verdict": "supported",
+      "reason": "S18: led them to Snow Milk 'where he recently launched a fashion line'; 'might have been a good business move -- he was careful to point out his shirt hanging on the wall'. FINRA (S11) lists Real Snow Milk, Brooklyn, NY, clothing collaboration, supporting 'Brooklyn brand'."
+    },
+    {
+      "claim_id": "C28",
+      "verdict": "supported",
+      "reason": "S08 verbatim Luria quote; title and former Wedbush director-of-research role match."
+    },
+    {
+      "claim_id": "C66",
+      "verdict": "supported",
+      "reason": "Interpretation with an explicit limit; style predating TV rests on S05/S18/S14 and off-camera enthusiasm on S18/S08."
+    },
+    {
+      "claim_id": "C67",
+      "verdict": "supported",
+      "reason": "Re-transcribed 00:00:50-00:11:00 of the S09 audio (megaphone mp3, 54:03) with openai-whisper large-v3-turbo, a third model independent of the earlier small.en/medium.en passes: 'You are a sell-side analyst. You cover 30 stocks. You're overwhelmingly bullish. That's not a crime. That is basically how the sell-side works.' Speaker is clearly the host. Machine transcription, not a human listen."
+    },
+    {
+      "claim_id": "C19",
+      "verdict": "qualified",
+      "reason": "El CEO (S25) reopened: 'Ya no podemos mirar a los inversionistas a los ojos y recomendar la compra de estas acciones a los niveles actuales hasta que Tesla comience a tomar su medicina.' The article paraphrases and flags it as a Spanish-language report; it drops 'at current levels', a minor compression. English original still not located (research task)."
+    },
+    {
+      "claim_id": "C49",
+      "verdict": "supported",
+      "reason": "Fox Business (S26) reopened: the May 2019 note quote contains both quoted spans verbatim; the article's 'instead of expanding into' reorders the sentence but does not change its meaning, and the quoted spans are exact."
+    },
+    {
+      "claim_id": "C50",
+      "verdict": "supported",
+      "reason": "S26 ('code red situation at Tesla', May 20, 2019); Motley Fool (S27), now reopened as a full page: 'On Monday, Ives upgraded Tesla to outperform (buy)' (April 6, 2021)."
+    },
+    {
+      "claim_id": "C20",
+      "verdict": "supported",
+      "reason": "BI (S20, 2025-07-08) reopened: 'guardrails' for how much time Musk spends at Tesla; Musk on X: 'Shut up, Dan.' Fortune (S21) corroborates."
+    },
+    {
+      "claim_id": "C51",
+      "verdict": "supported",
+      "reason": "S20 verbatim text-message reply; S18 'pivoted very nicely' (Sept. 2025, about two months later)."
+    },
+    {
+      "claim_id": "C52",
+      "verdict": "supported",
+      "reason": "Fortune (S19, 2025-03-20) reopened: 'a brand tornado crisis moment for Musk and Tesla'; proposed Musk 'take a step back from DOGE'; maintained 'outperform'."
+    },
+    {
+      "claim_id": "C18",
+      "verdict": "supported",
+      "reason": "TechNews (S28) reopened: '2022年底那斯達克指數上看19,000點'. Attributed in the article to the TechNews summary of his note."
+    },
+    {
+      "claim_id": "C68",
+      "verdict": "supported",
+      "reason": "CNBC (S30) reopened: Nasdaq Composite 10,466.88; 'tumbled 33.1%' for 2022."
+    },
+    {
+      "claim_id": "C69",
+      "verdict": "supported",
+      "reason": "MacDailyNews (S29) reopened: 'we remain steadfastly bullish on the tech sector during this market storm' (May 2022)."
+    },
+    {
+      "claim_id": "C38",
+      "verdict": "supported",
+      "reason": "Interpretation built on verified turns (S25, S26, S19, S39) and verified persistence (S29, S08)."
+    },
+    {
+      "claim_id": "C71",
+      "verdict": "supported",
+      "reason": "Framing interpretation supported by S02 (individual brand), S08 (ratings skew) and S05/S17 (pre-TV style)."
+    },
+    {
+      "claim_id": "C70",
+      "verdict": "supported",
+      "reason": "Scoped to the opened record and dated 'as of October 2026'; triggers in S25/S26 (company), S19/S20 (Musk politics), S39 (tariffs); no opened source shows him calling the AI boom overdone (S08 'This is not a bubble'; S05 disagrees with 'bubble talk'). Unresolved with an actionable trigger."
+    },
+    {
+      "claim_id": "C17",
+      "verdict": "supported",
+      "reason": "S08 verbatim: '\"This is not a bubble,\" he said in one recent interview.'"
+    },
+    {
+      "claim_id": "C72",
+      "verdict": "supported",
+      "reason": "AI 30 release (S34, GlobeNewswire via FinancialContent, Oct. 8, 2026) reopened: verbatim 'third inning' quote, published under Yorkville Ives."
+    },
+    {
+      "claim_id": "C14",
+      "verdict": "supported",
+      "reason": "S08: 'Wedbush unveiled the Ives ETF on June 4, 2025'; tracks 30 stocks from his research; 'Ives receives a flat, annual fee for the use of his name and likeness.' Now past tense and attributed to January 2026."
+    },
+    {
+      "claim_id": "C94",
+      "verdict": "supported",
+      "reason": "Two Ives-named Wedbush ETFs (S08, S11, S34), Ives AI 30 (S34), Ives Ultra AI Opportunities (S32) and Yorkville Ives (S04); dated 'As of October 2026'."
+    },
+    {
+      "claim_id": "C55",
+      "verdict": "supported",
+      "reason": "Barron's Sept. 2025 (S23) reopened: 'Last Friday, Eightco was a $4.4 million company. On Monday, it closed with an implied market value of $8.5 billion'; new stock to buy Worldcoin, 'the crypto token of World, a project run by OpenAI CEO Sam Altman'; iris scanning."
+    },
+    {
+      "claim_id": "C23",
+      "verdict": "supported",
+      "reason": "S23 verbatim release statement beginning 'I am so excited to be named Chairman of Eightco Holdings Inc.'"
+    },
+    {
+      "claim_id": "C54",
+      "verdict": "supported",
+      "reason": "S23 verbatim statement to Barron's: 'My Chairman role is in addition to my role as Head of Tech Research at Wedbush, which I expect to be for years to come.'"
+    },
+    {
+      "claim_id": "C56",
+      "verdict": "supported",
+      "reason": "S08: met Sen. Ted Cruz and 'many' other senators, per his LinkedIn; verbatim Capitol Hill post."
+    },
+    {
+      "claim_id": "C57",
+      "verdict": "supported",
+      "reason": "S08: adviser to Zeta before the end of 2025; 'Zeta's products compete with Salesforce, among other companies that Ives covers'. S11: Zeta advisory board from 10/2025."
+    },
+    {
+      "claim_id": "C78",
+      "verdict": "supported",
+      "reason": "S20 (July 8, 2025) and S23 (Sept. 2025) dates; S23 confirms he remained Wedbush head of tech research."
+    },
+    {
+      "claim_id": "C53",
+      "verdict": "supported",
+      "reason": "S08 verbatim: 'Ives himself has recognized that too many jobs can be a hindrance for executives.'"
+    },
+    {
+      "claim_id": "C79",
+      "verdict": "supported",
+      "reason": "Interpretation grounded in S08's account of FINRA objectivity rules and expert concern; worded as risk, not as a finding of wrongdoing."
+    },
+    {
+      "claim_id": "C24",
+      "verdict": "supported",
+      "reason": "S08: roles 'aren't regularly disclosed in research reports'; S07: roles 'frequently overlapped with his research'. Attributed and disputed (Wedbush reply adjacent)."
+    },
+    {
+      "claim_id": "C80",
+      "verdict": "supported",
+      "reason": "S08 verbatim Bradshaw and Gana quotes; Gana's 'serious issue' is about chairing a public company connected to an area he covers."
+    },
+    {
+      "claim_id": "C81",
+      "verdict": "supported",
+      "reason": "S08 verbatim Wedbush statement ('may unintentionally conflate topics that are, in reality, separate'; 'unwavering integrity'). No regulatory action found in S11 or the other reopened sources as of 2026-10-24."
+    },
+    {
+      "claim_id": "C41",
+      "verdict": "supported",
+      "reason": "S08: 'During the reporting of this article, he blocked two Barron's reporters on X'; S07: no reply to requests and 'he blocked both of us on LinkedIn and X'. Cover ran online 2026-01-31 (Tiger pubTime) under the quoted headline."
+    },
+    {
+      "claim_id": "C82",
+      "verdict": "supported",
+      "reason": "S07 verbatim: 'He appeared on CNBC after our article ran and said... \"I get the scrutiny, but everything's vetted. If I chew gum, Wedbush has to know about it.\"' My S09 transcription has Ives repeating a close variant ('if I chew gum, Wedbush needs to know')."
+    },
+    {
+      "claim_id": "C25",
+      "verdict": "supported",
+      "reason": "My large-v3-turbo transcription of S09 agrees with the quoted words: 'I also get that it breaks the mold', 'no one's ever seen anything like it', 'they're all my U4', 'as more opportunities come, and I'll continue to evaluate new ones and then look at existing', 'I have nothing to do with, like, the actual management', and at about 00:09:5x 'the millions of investors that follow me from my career, I'm like an open book, right?' Paraphrases are faithful. Nathan says the article ran 'the weekend before last', consistent with 'about a week and a half'. Machine transcription (three models agree), not a human listen."
+    },
+    {
+      "claim_id": "C83",
+      "verdict": "supported",
+      "reason": "S07: stepped down from Eightco 'Six weeks after Barron's cover story'; S06: stepped down in March; S02: left Wedbush July 1, 2026; S23: 'for years to come' (Sept. 2025)."
+    },
+    {
+      "claim_id": "C42",
+      "verdict": "supported",
+      "reason": "S07 verbatim: 'video call from a car ride, wearing one of his signature pastel shirts'; 'Research is in my DNA... It's something that I love. I eat and breathe it.'"
+    },
+    {
+      "claim_id": "C48",
+      "verdict": "supported",
+      "reason": "S07: the three questions (Yorkville talks, Eightco departure, disclosures after the article) and 'We didn't hear many specifics.' Attributed to the reporters he blocked."
+    },
+    {
+      "claim_id": "C26",
+      "verdict": "supported",
+      "reason": "S07 verbatim; the follow-on 'It was just the right time to simplify' refers to Eightco."
+    },
+    {
+      "claim_id": "C47",
+      "verdict": "supported",
+      "reason": "S07: 'As our interview with Ives wound down, Simon, who was on the call, said the analyst had to go to his next meeting. \"I'm unblocking you,\" Ives told us.'"
+    },
+    {
+      "claim_id": "C84",
+      "verdict": "supported",
+      "reason": "CNBC (S01) reopened: 'In this AI revolution, it's seeing the opportunities that are around the corner, and that's what I think this firm is going to be able to do.'"
+    },
+    {
+      "claim_id": "C86",
+      "verdict": "supported",
+      "reason": "BI launch (S06) reopened: 'Swiss Army knife', 'one plus one equals four', 'light on details' (BI summary line). See verify-02 for a launch-week quote the surrounding sentence omits."
+    },
+    {
+      "claim_id": "C40",
+      "verdict": "supported",
+      "reason": "S05: 'Dan Ives logs into the Zoom call in a loud, tropical shirt, the word \"Margaritaville\" splashed across the chest'; byline Nick Lichtenberg, business editor."
+    },
+    {
+      "claim_id": "C88",
+      "verdict": "supported",
+      "reason": "S05 verbatim: 'It's about building something special for the next decade.'"
+    },
+    {
+      "claim_id": "C13",
+      "verdict": "supported",
+      "reason": "S18 verbatim recognition quotes; S14 verbatim 'a kind of brand was created, but it was never that intention'."
+    },
+    {
+      "claim_id": "C27",
+      "verdict": "supported",
+      "reason": "Re-transcribed S16 (anchor.fm mp3, 14:14, iHeart startDate 2025-02-26) with large-v3-turbo: host asks 'Should companies be doing something now to prepare for the regulatory and ethical challenges of AI?' and Ives: 'But I think right now the biggest risk for companies, colleges, is actually just being behind.' Framed correctly as advice to institutions."
+    },
+    {
+      "claim_id": "C59",
+      "verdict": "qualified",
+      "reason": "The inference label is honest and 'not afraid to stumble' is verbatim (S05). But 'Ives has never named it' is an unscoped universal about everything he has said; only the opened record supports it. See verify-04."
+    },
+    {
+      "claim_id": "C31",
+      "verdict": "supported",
+      "reason": "UMD Smith (S15) reopened: verbatim 'a lot of hard work, a lot of weekends to build myself from a technology outsider to gaining credibility within tech.'"
+    },
+    {
+      "claim_id": "C95",
+      "verdict": "supported",
+      "reason": "S05 (toned down on Wall Street) and S07 (publicist Marcy Simon set up the interview and declined follow-up 'leading questions')."
+    },
+    {
+      "claim_id": "C37",
+      "verdict": "qualified",
+      "reason": "Each cited item checks out in context (S17 mood quotes before the audience joke; S05 treadmill and regret; S08 'undervalued asset'; S34 'third inning'; S09 'breaks the mold'/'open book'). But the discriminator omits Three-leaning results language from the same launch week ('You just have to convince people, you have to show them the results', S06) and rests mainly on self-report; it does not show the rival failing a specific sourced test. See verify-02."
+    },
+    {
+      "claim_id": "C97",
+      "verdict": "supported",
+      "reason": "Type answer matches the evidence record (Type 7, medium, Type 3 rival); 'constricting' (S17) and 'the treadmill' (S05) are verbatim; the inference is labelled. 58 words."
+    },
+    {
+      "claim_id": "C99",
+      "verdict": "supported",
+      "reason": "Limit statement supported by S07 (pending FINRA approval, PR handling), S06 and S24."
+    },
+    {
+      "claim_id": "C104",
+      "verdict": "supported",
+      "reason": "Interpretation honestly assigns the 2019 duty-to-clients register (S25) and the two-year Neutral (S25 to S27) to the Three reading."
+    },
+    {
+      "claim_id": "C105",
+      "verdict": "supported",
+      "reason": "Tenures from S12, S11, S02; 'around a two-year detour' matches FINRA dates."
+    },
+    {
+      "claim_id": "C16",
+      "verdict": "supported",
+      "reason": "S09 (my transcription): 'the millions of investors that follow me from my career, I'm like an open book, right?' Scoped in the article to his public life. Blocking from S07/S08."
+    },
+    {
+      "claim_id": "C32",
+      "verdict": "supported",
+      "reason": "S08 Luria quote and the 2024 $100,000 fund; S14 'I'm a big fan of passing things down'. Wife not named in the article, per the research guidance."
+    },
+    {
+      "claim_id": "C73",
+      "verdict": "supported",
+      "reason": "S05 verbatim: '\"We're going to look back on this period,\" he said, \"and realize this is building the Vegas Strip in 1955.\"'"
+    },
+    {
+      "claim_id": "C74",
+      "verdict": "qualified",
+      "reason": "My large-v3-turbo pass of S09 at about 15:00-17:20 agrees on the words ('my whole point is, is that you have to have some faith, I think to some extent you gotta be a believer') and on the Wynn-under-construction analogy after Nathan's AI-spending worry. Speaker turns are inferred from content in a machine transcript; the attribution to Ives is the most plausible reading but has not had a human listen."
+    },
+    {
+      "claim_id": "C75",
+      "verdict": "supported",
+      "reason": "S05: 'I had to ask him: without the mobsters? Ives paused, \"Without the mobsters.\"'"
+    },
+    {
+      "claim_id": "C106",
+      "verdict": "supported",
+      "reason": "Labelled interpretation of a verified exchange; makes no forecast."
+    },
+    {
+      "claim_id": "C34",
+      "verdict": "supported",
+      "reason": "S05: 'I am 51 today but I view life through a different lens...'; FAQ now gives his age as stated in the July 18, 2026 interview and no birth date. S08 (51 in Jan. 2026) consistent; S10 age 46 in June 2022 differs by a year, so omitting a birth year is right."
+    },
+    {
+      "claim_id": "C36",
+      "verdict": "supported",
+      "reason": "Recast as history. NY Post (S17) 'neon sport coats'; Fortune (S05) 'telling investors, through every dip and correction, that they're still in the early innings'."
+    },
+    {
+      "claim_id": "C61",
+      "verdict": "supported",
+      "reason": "S18: sell-offs 'usually followed by a research note from Ives imploring investors to buy the dip'; S08 'pastel- and highlighter-colored suits'."
+    },
+    {
+      "claim_id": "C109",
+      "verdict": "supported",
+      "reason": "Description: urged Tesla to simplify (S26); held the Eightco chair (S23), ETF licensing (S08, S11) and the Zeta seat (S08, S11) while Wedbush's analyst."
+    },
+    {
+      "claim_id": "C110",
+      "verdict": "supported",
+      "reason": "Title rests on the May 2019 note's 'simplifying its business model' (S26)."
+    },
+    {
+      "claim_id": "C112",
+      "verdict": "supported",
+      "reason": "S07: answering the questions that included his Eightco departure, 'I needed to simplify...', followed by 'Everything that Eightco is doing -- I wish them the best'."
+    },
+    {
+      "claim_id": "C113",
+      "verdict": "supported",
+      "reason": "My S09 transcription: Nathan, 'So that came out on a weekend, that Barron's article on Monday. You were on Fast Money with us. You knew the questions were going to come. You did it right there on national TV,' and later 'showing up on CNBC the next day after this'. Attributed in the article to Nathan's recollection."
+    },
+    {
+      "claim_id": "C151",
+      "verdict": "supported",
+      "reason": "S07 asks 'Why did he start adding disclosures to his posts on X after we published our article?', which reports that he did. 'At some point after the article' keeps the timing vague, as the source does."
+    },
+    {
+      "claim_id": "C127",
+      "verdict": "supported",
+      "reason": "S11 Other Business Activities item 3: 'DAN IVES WEDBUSH AI POWER AND INFRASTRUCTURE ETF... LICENSEE... IMAGE AND LIKENESS ARE BEING USED... RECIEVING A LICENSING FEE FROM WSI... START: 04/01/2026'."
+    },
+    {
+      "claim_id": "C114",
+      "verdict": "supported",
+      "reason": "S08: 'Wedbush told Barron's last June that Ives was prohibited from holding the ETF or the stocks within it, and that there was an \"information barrier\" between Ives and the unit running the fund.'"
+    },
+    {
+      "claim_id": "C115",
+      "verdict": "supported",
+      "reason": "S08: 'After peaking with a market value of $7 billion, the stock quickly fell and has since shed 97% of its value'; year-end chairman message on YouTube: 'When we look at ORBS, we think it's an undervalued asset.' S07: Eightco trades around 60 cents."
+    },
+    {
+      "claim_id": "C138",
+      "verdict": "supported",
+      "reason": "S08: the post was 'referring to Eightco's ticker symbol'; the company changed from OCTO in September."
+    },
+    {
+      "claim_id": "C121",
+      "verdict": "supported",
+      "reason": "S08: FINRA rules on conflicts; 'Firms must also disclose analysts' conflicts and limit activities that could compromise analysts' objectivity'; 'Analysts are required to disclose conflicts'. S07: 'Investors rely on views from him and other sell-side analysts'."
+    },
+    {
+      "claim_id": "C148",
+      "verdict": "qualified",
+      "reason": "S08 supports each overlap: Capitol Hill trip 'to express his support of AI and crypto, the same industries he's tasked with covering'; ETF holdings include stocks he covers; Dec. 4 Salesforce note without disclosing the Zeta role. 'Lobbied' is a step stronger than the source's wording in a sensitive, disputed paragraph. See verify-03."
+    },
+    {
+      "claim_id": "C149",
+      "verdict": "supported",
+      "reason": "S08: 'The bio atop his X feed notes some of the roles'; 'Barron's learned of Ives' position on Zeta's advisory board from a footnote in his Finra record.'"
+    },
+    {
+      "claim_id": "C150",
+      "verdict": "supported",
+      "reason": "S08 verbatim Zeta spokeswoman statement."
+    },
+    {
+      "claim_id": "C116",
+      "verdict": "supported",
+      "reason": "Fortune (S37, June 20, 2025) reopened: verbatim 'autonomous chapter' note before the Austin robotaxi launch; S26 has the 2019 'sci-fi' list including robotaxis."
+    },
+    {
+      "claim_id": "C135",
+      "verdict": "supported",
+      "reason": "S18 headline: 'Wall Street's biggest Tesla bull' (BI, Sept. 2025); S21 'card-carrying Tesla bull'."
+    },
+    {
+      "claim_id": "C136",
+      "verdict": "supported",
+      "reason": "S19: step back 'from his role in the Trump administration'/'from DOGE'."
+    },
+    {
+      "claim_id": "C146",
+      "verdict": "supported",
+      "reason": "S25: downgraded to 'neutral', target 275 from 365 dollars (April 2019)."
+    },
+    {
+      "claim_id": "C119",
+      "verdict": "supported",
+      "reason": "Motley Fool (S39, Apr. 7, 2025) reopened: his note said the tariffs will 'set the U.S. tech world back a decade'."
+    },
+    {
+      "claim_id": "C120",
+      "verdict": "supported",
+      "reason": "S07 verbatim: 'A number of the roles I no longer have. I'm so laser-focused on -- this is a gargantuan task, right? ... This is something where I really needed to be 110% focused.' Quoted spans avoid the double hyphen; answer was to the question about discussing the January reporting."
+    },
+    {
+      "claim_id": "C154",
+      "verdict": "supported",
+      "reason": "Interpretation linking S26 'laser focused' to S07 '110% focused'; fair."
+    },
+    {
+      "claim_id": "C152",
+      "verdict": "supported",
+      "reason": "S07: 'when Ives' publicist reached out on Wednesday to set up an interview after the Yorkville announcement, we were surprised.'"
+    },
+    {
+      "claim_id": "C130",
+      "verdict": "supported",
+      "reason": "S06: 'tough decision'; known Yorkville for years, 'in conversation for months'."
+    },
+    {
+      "claim_id": "C153",
+      "verdict": "supported",
+      "reason": "S06, as for C130."
+    },
+    {
+      "claim_id": "C161",
+      "verdict": "supported",
+      "reason": "S05 verbatim spans."
+    },
+    {
+      "claim_id": "C160",
+      "verdict": "supported",
+      "reason": "S07 verbatim span."
+    },
+    {
+      "claim_id": "C126",
+      "verdict": "supported",
+      "reason": "S05: 'losing his parents over the past decade gave him a tolerance for calculated risk'."
+    },
+    {
+      "claim_id": "C124",
+      "verdict": "supported",
+      "reason": "S17 verbatim, with 'he joked'."
+    },
+    {
+      "claim_id": "C143",
+      "verdict": "supported",
+      "reason": "S18: inside Snow Bird/Snow Milk, among the collaboration's clothes, 'He tossed around the words, \"Oh, that's so cool,\" about piece after piece.'"
+    },
+    {
+      "claim_id": "C144",
+      "verdict": "supported",
+      "reason": "Interpretation that withdraws the scene as type evidence; consistent with S18's 'good business move'."
+    },
+    {
+      "claim_id": "C125",
+      "verdict": "supported",
+      "reason": "S06: 'adding that he brings his brand and research expertise, while the firm brings dealmaking experience.'"
+    },
+    {
+      "claim_id": "C122",
+      "verdict": "supported",
+      "reason": "Labelled Three reading; each element verified (S07 CNBC defence, disclosures, Eightco exit, publicist outreach; S11, S32, S34 name-bearing vehicles)."
+    },
+    {
+      "claim_id": "C157",
+      "verdict": "supported",
+      "reason": "Interpretation conceding 'being behind' (S16) and 'build something myself' (S05) to Three as much as Seven."
+    },
+    {
+      "claim_id": "C123",
+      "verdict": "supported",
+      "reason": "Interpretation conceding roles and repairs do not discriminate; consistent with S02 and S08."
+    },
+    {
+      "claim_id": "C158",
+      "verdict": "qualified",
+      "reason": "The medium-confidence limit is honest. The forward test ('if Yorkville Ives narrows into one build he measures by results... the Three reading gains') is partly met already by his launch-week 'you have to show them the results' (S06), which the article does not report. See verify-02."
+    },
+    {
+      "claim_id": "C134",
+      "verdict": "supported",
+      "reason": "UMD (S15): 'It's a chaotic environment, but it's one that I think I've thrived in,' said of his typical daily routine in tech and investing."
+    },
+    {
+      "claim_id": "C137",
+      "verdict": "supported",
+      "reason": "S11: GBH Insights 10/2017-09/2018, Wedbush from 09/2018; S12 Synchronoss Feb. 2016. Second departure stated without motive."
+    },
+    {
+      "claim_id": "C117",
+      "verdict": "supported",
+      "reason": "SEC release 2022-101 (S38, Mondo Visione verbatim copy) reopened: Synchronoss and seven senior employees charged; about $190 million restated; $12.5 million penalty; Thomas, Bandini, Ives and Murdock settled over side letters with penalties 'ranging from $15,000 to $90,000'."
+    },
+    {
+      "claim_id": "C118",
+      "verdict": "qualified",
+      "reason": "S10 para. 15 ('as Ives knew or recklessly disregarded, the fee was contingent'), para. 16 ('materially inflated' 2016 revenue, reversed in the restatement) verbatim. 'The violations were of internal-controls and books-and-records rules' is accurate for his own violations (13(b)(5), Rule 13b2-1) but omits that the order also found he caused Synchronoss's reporting violations (13(a), Rules 13a-1, 13a-11, 12b-20). See verify-05."
+    },
+    {
+      "claim_id": "C141",
+      "verdict": "supported",
+      "reason": "S04 verbatim launch quote ('Research, banking, trading, and capital, all under one hood')."
+    },
+    {
+      "claim_id": "C142",
+      "verdict": "supported",
+      "reason": "S32: 'Dan Ives serves as Chairman of the Board of Managers of Ives Ultra Capital Management LLC'; 'Mr. Ives is not IVAI's portfolio manager and does not serve on the Investment Committee.'"
+    },
+    {
+      "claim_id": "C128",
+      "verdict": "supported",
+      "reason": "IFR (S33) reopened: adviser jointly owned by Yorkville Ives (49.9%), Edward Leathers (25%) and Jeffrey Leathers (25%). The passage reports this accurately; the separate 'belongs to the new firm' framing is addressed in verify-01."
+    },
+    {
+      "claim_id": "C155",
+      "verdict": "supported",
+      "reason": "FAQ sentence matches S18 ('global success'), S14/S06 brand talk and the named vehicles (S08, S11, S32, S04)."
+    },
+    {
+      "claim_id": "C162",
+      "verdict": "supported",
+      "reason": "FAQ: CNBC defence (S07), disclosures (S07), Eightco exit (S07, S06). No causal claim about the Wedbush exit."
+    },
+    {
+      "claim_id": "C163",
+      "verdict": "supported",
+      "reason": "FAQ mirrors the body's self-report basis and medium confidence (S17, S05). Same discriminator limits as C37 apply."
+    },
+    {
+      "claim_id": "C165",
+      "verdict": "supported",
+      "reason": "S14 (HBO corporate finance, MBA at Maryland), S15 (MBA '00), S12 (16 years FBR), S11 (Synchronoss, GBH, Wedbush 09/2018)."
+    },
+    {
+      "claim_id": "C166",
+      "verdict": "supported",
+      "reason": "S03 and S17 (bullish tech calls, colourful clothes on TV); S11 still shows him registered as a research analyst (07/15/2026); time-sensitive with trigger."
+    },
+    {
+      "claim_id": "C159",
+      "verdict": "supported",
+      "reason": "meta_title rests on S26; 'tech bull' per S18/S21."
+    },
+    {
+      "claim_id": "C167",
+      "verdict": "supported",
+      "reason": "Framing interpretation; S02 (individual brand) and S08 (ratings skew) support the job confound."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "S01",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh curl 2026-10-24: CNBC July 1, 2026 body; 'seeing the opportunities that are around the corner', Zeta/Eightco roles. Recorded locator: Key points and paragraphs 1-8 (body after the Scott Mlyn photo credit)"
+    },
+    {
+      "source_id": "S02",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh curl: Wedbush release, July 1, 2026; Gary Wedbush quote; 'MD, Global Head of Technology Research'. Recorded locator: Press release, paragraphs 1-2 and 5 (also distributed on GlobeNewswire the same day)"
+    },
+    {
+      "source_id": "S03",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh curl: CNBC July 15, 2026; partner and senior managing director; Briggs CEO; Zeta and Eightco roles. Recorded locator: Paragraphs 1-6"
+    },
+    {
+      "source_id": "S04",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh curl: PR Newswire July 15, 2026; launch quote, title, FINRA Continuing Membership Application footnote. Recorded locator: Release paragraphs 1, 4-5; boilerplate and footnote on the FINRA Continuing Membership Application"
+    },
+    {
+      "source_id": "S05",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh curl: Fortune, July 18, 2026 (Lichtenberg); every quoted span and the Margaritaville, parents, calculated-risk and Strip passages matched. Recorded locator: Paragraphs 1-3 (Margaritaville shirt; \"never built anything\"; \"off the treadmill\"); paragraphs 11-12 (Kool-Aid framing; \"bingo card\"; \"next decade\"); paragraphs 14-16 (Long Island dress; YOLO; parents); paragraphs 18-19 (\"AI has a PR proble"
+    },
+    {
+      "source_id": "S06",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh curl (AOL syndication, datePublished 2026-07-18, Tecotzky): 'tough decision', months of talks, Swiss Army knife, one plus one equals four, brand and research expertise, Eightco exit in March; also 'you have to show them the results'. Recorded locator: Paragraphs 4-13 and 15-16"
+    },
+    {
+      "source_id": "S07",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh curl of the Tiger page; full Dow Jones text decoded from embedded JSON (July 17, 2026, 11:02 ET); all quoted spans and the blocking, publicist, CNBC, disclosures, FINRA-pending details matched. Recorded locator: Full article (Dow Jones Newswires, 11:02 ET); paragraphs 3, 5-9, 13-16, 18-19 and the last two paragraphs before the bylines"
+    },
+    {
+      "source_id": "S08",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh curl of the Tiger page; full ~2,800-word Dow Jones text decoded from embedded JSON (pubTime 2026-01-31); all quotes, FactSet split, ETF fee, information barrier, Eightco 97% and 'undervalued', Zeta footnote and statements matched. Recorded locator: Full syndicated text (about 2,700 words): opening four paragraphs; Luria paragraph; \"Ives, 51\" paragraph; Synchronoss/SEC paragraphs; ETF paragraphs; Eightco and Capitol Hill paragraphs; FactSet ratings paragraph; Zeta paragraphs; closing M"
+    },
+    {
+      "source_id": "S09",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Downloaded the episode audio (traffic.megaphone.fm/RRM8995175431.mp3, 54:03) and re-transcribed 00:00:50-00:11:00 and 00:15:00-00:17:20 with openai-whisper large-v3-turbo (independent of the earlier small.en/medium.en passes). Quoted words and the Nathan Fast Money recollection agree; speaker turns inferred; not a human listen. Substack page confirms Feb 11, 2026. Recorded locator: Episode audio (megaphone RRM8995175431.mp3, 54:03). Research transcribed the whole episode with whisper.cpp small.en; the draft stage (2026-10-24) re-downloaded the audio and re-transcribed 00:00:50-00:11:00, 00:15:20-00:17:10 and 00:52:40-"
+    },
+    {
+      "source_id": "S10",
+      "opened": true,
+      "context_matches": true,
+      "locator": "sec.gov returned its rate-limit page; opened the identical PDF via web.archive.org/web/2023id_/ (7 pp.). Paras. 1, 6-17, undertakings and penalty checked. Recorded locator: Sections II and III (Summary; Respondent para. 1; Facts paras. 4-16; Violations paras. 17-18; Undertakings A-B); Section IV (penalty)"
+    },
+    {
+      "source_id": "S11",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh curl of the BrokerCheck PDF 2026-10-24; registrations, employment history, Other Business Activities 1-6 and the disclosure 'No' checked. Item 5 (Innovation X Global Opportunities, 09/2026) is not reflected accurately in the article (verify-01). Recorded locator: Report Summary p.1; Broker Qualifications pp.2-3; Registration and Employment History pp.5-6 (Other Business Activities 1-6); Disclosure Event 1 of 1, pp.7-11. The excerpt condenses table cells (field | value); every value is verbatim, incl"
+    },
+    {
+      "source_id": "S12",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh fetch through r.jina.ai (the recorded URL): NJBIZ, Feb. 16, 2016, Eric Strauss; investor relations head, SVP title, 16 years at FBR. Recorded locator: Article body, paragraphs 1-3 (read through r.jina.ai; direct fetch returned no body)"
+    },
+    {
+      "source_id": "S13",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh curl: TWST 2020 header; HBO, FBR, Synchronoss 'mobile cloud vendor', GBH, B.S. Penn State, MBA Maryland. Body still paywalled. Recorded locator: Biographical header only; the interview body is paywalled and was not read"
+    },
+    {
+      "source_id": "S14",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh curl: Onward State, March 28, 2025; Long Island, Smeal finance major, HBO, MBA, $100,000 fund, brand and 'passing things down' quotes. Recorded locator: Full article, paragraphs 3-18"
+    },
+    {
+      "source_id": "S15",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh curl: UMD Smith, Dec. 5, 2025, 'MBA '00'; hard-work and 'chaotic environment' quotes in context. Recorded locator: Profile body, paragraphs 1-15"
+    },
+    {
+      "source_id": "S16",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Downloaded the anchor.fm mp3 via the iHeart API (14:14, startDate 2025-02-26) and re-transcribed 06:00-10:00 with large-v3-turbo; the 'being behind' line and its AI-ethics question match. Recorded locator: Episode audio (anchor.fm mp3 via the iHeart episode API, 14:14). Research transcribed with Whisper small.en; the draft stage (2026-10-24) re-transcribed the full episode with whisper.cpp medium.en. Quoted spans: 00:06:16-00:06:25 (\"25 miles"
+    },
+    {
+      "source_id": "S17",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh curl: NY Post, May 28, 2024; all four quotes and 'he joked' matched; age 49. Recorded locator: Full article (fetched directly with curl; WebFetch/WebSearch cannot reach nypost.com)"
+    },
+    {
+      "source_id": "S18",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh curl (AOL syndication, datePublished 2025-09-20, Tecotzky): scene order Faherty then Snow Milk/Snow Bird; all quoted spans matched. Recorded locator: Full article, paragraphs 3-14"
+    },
+    {
+      "source_id": "S19",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh curl: Fortune, March 20, 2025; brand tornado, DOGE step-back, Outperform kept. Recorded locator: Paragraphs 3-4 and 12-14"
+    },
+    {
+      "source_id": "S20",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh curl (AOL, Lloyd Lee, 2025-07-08): guardrails, 'Shut up, Dan', text reply. Recorded locator: Paragraphs 2-6 and 8"
+    },
+    {
+      "source_id": "S21",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh curl: Fortune, July 9, 2025; second report of the exchange; 'card-carrying Tesla bull'. Recorded locator: Paragraphs 2-5 and 13-17"
+    },
+    {
+      "source_id": "S22",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh curl: Electrek, July 8, 2025 (Lambert); 'biggest cheerleader' testimony. Recorded locator: Paragraphs 1-3 and the pull-quote"
+    },
+    {
+      "source_id": "S23",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh curl of the Tiger page; Dow Jones text decoded: $4.4 million to $8.5 billion, Worldcoin/World, 'so excited', 'for years to come'. Recorded locator: Full article, paragraphs 1-2, 8 and 14-15"
+    },
+    {
+      "source_id": "S24",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh curl: Fortune, Sept. 9, 2025; second report of the Eightco chair. Recorded locator: Paragraphs 2-4 and final two paragraphs"
+    },
+    {
+      "source_id": "S25",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh curl: El CEO, April 25, 2019 (Spanish); neutral, 275 from 365, 'mirar a los inversionistas a los ojos', 'tomar su medicina'. Recorded locator: Paragraphs 2-6"
+    },
+    {
+      "source_id": "S26",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh curl: Fox Business, May 20, 2019; $230 target, 'code red', 'sci-fi projects/endeavors', 'simplifying' verbatim. Recorded locator: Paragraphs 2-3"
+    },
+    {
+      "source_id": "S27",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh curl of the full Motley Fool page (previously only a WebFetch summary): April 6, 2021 upgrade to outperform, $1,000 target. Recorded locator: Opening paragraphs (read via WebFetch summary)"
+    },
+    {
+      "source_id": "S28",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh curl: TechNews, Dec. 27, 2021; Nasdaq 19,000 by end-2022 prediction. Recorded locator: Paragraphs 1-4 (the first of the ten predictions)"
+    },
+    {
+      "source_id": "S29",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh curl: MacDailyNews, May 3, 2022; 'steadfastly bullish'. Recorded locator: Paragraphs 1-3"
+    },
+    {
+      "source_id": "S30",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh curl: CNBC, Dec. 30, 2022; 10,466.88 and -33.1%. Recorded locator: Paragraphs 2-4"
+    },
+    {
+      "source_id": "S32",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh curl (Finviz): PR Newswire Sept. 30, 2026; $200M, NYSE IVAI, chairman of the adviser's board, not PM. Recorded locator: Paragraphs 1-3"
+    },
+    {
+      "source_id": "S33",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh curl: IFR; adviser ownership 49.9% Yorkville Ives / 25% / 25%. Recorded locator: Paragraphs 1-3 and 6"
+    },
+    {
+      "source_id": "S34",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh curl (FinancialContent): GlobeNewswire Oct. 8, 2026; 'third inning' quote under Yorkville Ives; WFA continues IVES. Recorded locator: Paragraphs 1 and 4; disclosure paragraph"
+    },
+    {
+      "source_id": "S37",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh curl: Fortune, June 20, 2025 (Confino); 'autonomous chapter' note quote. Recorded locator: Paragraphs 1-6 (robotaxi launch; \"one of the most important\"; $2 trillion best case) and the \"BFF/frenemy\" paragraph"
+    },
+    {
+      "source_id": "S38",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh curl: Mondo Visione verbatim copy of SEC release 2022-101 (dated 07/06/2022, UK format); seven employees, $190M, $12.5M, settling parties and $15,000-$90,000 range. Recorded locator: Paragraphs 1 and 4-6 and the list of settling parties (Prague; Thomas, Bandini, Ives, Murdock)"
+    },
+    {
+      "source_id": "S39",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh curl: Motley Fool, Apr. 7, 2025 (Berkowitz); 'set the U.S. tech world back a decade'. Recorded locator: Paragraphs 1-3"
+    }
+  ],
+  "decision_checks": [
+    {
+      "finding_id": "subject-01",
+      "accepted": true,
+      "reason": "Accepted. Hook now places the blocking during the reporting (S08). 'After the cover story' gives the Fast Money appearance via Nathan (verified in my S09 transcription), the CNBC quote (S07), the named podcast, the X disclosures and the Eightco exit. 'Avoided the critics'/'repair campaign' are gone; the discriminator is restated and the repairs conceded to Three."
+    },
+    {
+      "finding_id": "subject-02",
+      "accepted": true,
+      "reason": "Accepted. Type 3 FAQ lists the CNBC defence, disclosures and Eightco exit as Three-style repair; no causal link from the story to the Wedbush exit; 'cost him credibility' absent; FAQ passages have claim records (C155, C162, C163)."
+    },
+    {
+      "finding_id": "subject-03",
+      "accepted": true,
+      "reason": "Accepted against its test: (a) 'A number of the roles I no longer have', 'a gargantuan task' and '110% focused' quoted around the double hyphen (S07, verified); (b) 'Part of what they got was this:'; (c) firm structure separated from the three outside roles the reviewer named; (d) closing line argued against his stated aim. A separate issue the reviewer did not name (FINRA item 5 and the 49.9% framing) is raised as verify-01."
+    },
+    {
+      "finding_id": "subject-04",
+      "accepted": true,
+      "reason": "Accepted. X bio and FINRA footnote, ETF holding ban and information barrier, Zeta statement added from S08 (verified); his 'nothing to do with the actual management' point paraphrased (verified in S09); 'I don't worry about others' removed; 'open book' scoped to his public life; no sentence says he broke rules."
+    },
+    {
+      "finding_id": "subject-05",
+      "accepted": true,
+      "reason": "Accepted. The Wedbush headline request no longer appears; image-protection list is the dress adjustment and the publicist."
+    },
+    {
+      "finding_id": "subject-06",
+      "accepted": true,
+      "reason": "Accepted. 'Passes over' deleted; the chapter is scoped to interviews opened for this page; FINRA listing of job and order stated."
+    },
+    {
+      "finding_id": "subject-07",
+      "accepted": true,
+      "reason": "Accepted. The absence inference is gone; 'tolerance for calculated risk' attributed to Fortune (verbatim in S05); cliff line kept."
+    },
+    {
+      "finding_id": "subject-08",
+      "accepted": true,
+      "reason": "Accepted. Title, meta_title and description all name Tesla; description lists only side roles held alongside the analyst job; checkDraft passes the description length."
+    },
+    {
+      "finding_id": "fan-01",
+      "accepted": true,
+      "reason": "Accepted. Post-story sequence conceded to Three, including the April 1, 2026 licence (S11 item 3); blocking placed during reporting; FAQ no longer denies repair; confidence wording says the call is close."
+    },
+    {
+      "finding_id": "fan-02",
+      "accepted": true,
+      "reason": "Accepted. S37 opened and verified; 'Wall Street's biggest Tesla bull' (S18) and the sci-fi-to-centerpiece turn stated with dates; title still accurate."
+    },
+    {
+      "finding_id": "fan-03",
+      "accepted": true,
+      "reason": "Accepted. S38 opened (verified); company-wide scale and his place at the low end of the $15,000-$90,000 range stated; termination sentence says the order gives no reason."
+    },
+    {
+      "finding_id": "fan-04",
+      "accepted": true,
+      "reason": "Accepted. 'The fear he does name' deleted; fear labelled the page's inference; the Smeal line moved to the Three section as advice to institutions."
+    },
+    {
+      "finding_id": "fan-05",
+      "accepted": true,
+      "reason": "Accepted. Orientation, FAQs and tenure sentence include the 2016-2018 roles; 2026 called his second departure from sell-side research without motive."
+    },
+    {
+      "finding_id": "fan-06",
+      "accepted": true,
+      "reason": "Accepted. S39 opened (verified); tariffs added as a dated trigger; the alarm sentence widened and dated."
+    },
+    {
+      "finding_id": "fan-07",
+      "accepted": true,
+      "reason": "Accepted. Signpost and four-step paragraph cut. I reran scripts/same-type-similarity.mjs on the candidate: the only trip pairs are the candidate against its own copy in src/blog/people/drafts/dan-ives.md; the highest pair against another Type 7 page is 0.012 (frank-lloyd-wright), and no dylan-patel pair appears."
+    },
+    {
+      "finding_id": "critic-01",
+      "accepted": true,
+      "reason": "Accepted. Both directions of the dated post-cover sequence appear, both halves of 'evaluate new ones... look at existing' are reported, and the section says the sequence does not separate 7 from 3. Both FAQs agree."
+    },
+    {
+      "finding_id": "critic-02",
+      "accepted": true,
+      "reason": "Accepted. The objectivity-asset rule is deleted and the article takes the test's second route, saying the call rests mainly on self-reported motives; the FAQ reflects that limit. Whether that route is strong enough for the Enneagram gate is scored separately (verify-02)."
+    },
+    {
+      "finding_id": "critic-03",
+      "accepted": true,
+      "reason": "Accepted. Eightco's 97% fall and the 'undervalued asset' message added (verbatim in S08); 'no other comment' stated; no motive guessed."
+    },
+    {
+      "finding_id": "critic-04",
+      "accepted": true,
+      "reason": "Accepted. 'Knew or recklessly disregarded' and 'materially inflated' added verbatim from S10 beside the FINRA 'No'; 'neither admitted nor denied' kept; no 'fraud'. (A smaller precision point on the violation list is raised as minor verify-05.)"
+    },
+    {
+      "finding_id": "critic-05",
+      "accepted": true,
+      "reason": "Accepted. Smeal quote framed as advice to institutions and a case for his trade; fear core labelled inference; Three section concedes 'being behind'."
+    },
+    {
+      "finding_id": "critic-06",
+      "accepted": true,
+      "reason": "Accepted. Hook says 'Part of what they got'; 'We didn't hear many specifics' attributed to the reporters he blocked; '110% focused' explanation reported."
+    },
+    {
+      "finding_id": "critic-07",
+      "accepted": true,
+      "reason": "Accepted. 'I don't worry about others' removed; 'open book' kept with scope."
+    },
+    {
+      "finding_id": "critic-08",
+      "accepted": true,
+      "reason": "Accepted. 'Calculated risk' used; absence inference removed; Kool-Aid/skin-in-the-game framing cut entirely."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "accepted": true,
+      "reason": "Accepted. 'Barron's spelled out the stakes' explains investor reliance and FINRA disclosure/objectivity rules (S08, S07); each of the three roles gets a sourced overlap; denials stay adjacent. ('Lobbied' wording raised as minor verify-03.)"
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "accepted": true,
+      "reason": "Accepted. Quote keeps its institutional scope; fear stated as inferred, not stated by him."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "accepted": true,
+      "reason": "Accepted. Corporate and market-research years in orientation and FAQs; '25 years' removed; age FAQ reworded without implying a birthday."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "accepted": true,
+      "reason": "Accepted. First sentence identifies him; transition names 'simplify'."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "accepted": true,
+      "reason": "Accepted. FINRA glossed at first body use; sell side glossed; Yorkville Ives described in launch words; ORBS identified; second ETF named before 'two ETFs'; closed-end fund described."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "accepted": true,
+      "reason": "Accepted. DOGE context added with date and source (S19)."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "accepted": true,
+      "reason": "Rejection accepted. The repetition part is fixed (guardrails/Eightco appears once). The 3,901-word body is above the ~3,500 target but within the 1,200-4,500 release limit, and the added material is sourced counter-evidence the majors required. The standard calls the target 'roughly' and forbids word counts as quality proxies; length is weighed in the writing score instead."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "accepted": true,
+      "reason": "Accepted. Step paragraph cut; type answer 58 words; similarity verified clear as noted under fan-07."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "accepted": true,
+      "reason": "Accepted against its test. The article took option (b): it says role accumulation and the post-Barron's sequence fit both types and names what the Seven lead rests on; 'Seven pulls ahead' is gone. My independent judgment that the remaining discriminator does not reach the Enneagram bar is recorded in the score and verify-02, not as a failed repair."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "accepted": true,
+      "reason": "Accepted. Body and FAQs describe the CNBC defence, podcast, Eightco exit and July outreach; the remaining Seven inference concerns how he repaired, with legal and PR caution named; 'cost him credibility' removed."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "accepted": true,
+      "reason": "Accepted. The audience joke sits beside the mood quotes (verified S17); recognition quotes are in the Three section; 'fashion is what they see' and 'lesser part' removed."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "accepted": true,
+      "reason": "Accepted. Scene order matches S18 (Faherty first, then Snow Milk, where 'so cool' and the missed stock question happen); inference withdrawn."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "accepted": true,
+      "reason": "Accepted. 'The fear he does name' cut; quote framed as about institutions; Three section concedes 'being behind' and 'build something myself'."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "accepted": true,
+      "reason": "Accepted. Answer leads with 'reads as... at medium confidence, with Type 3... a close rival'; FAQ mirrors it; Ives-specific mechanism; plain-steps paragraph cut."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "accepted": true,
+      "reason": "Accepted. Leftovers now state which rival they favour; long tenure gets the sourced 'chaotic environment' Seven explanation (S15) plus the Three concession."
+    },
+    {
+      "finding_id": "enneagram-08",
+      "accepted": true,
+      "reason": "Accepted. 'I don't worry about others' dropped."
+    },
+    {
+      "finding_id": "enneagram-09",
+      "accepted": true,
+      "reason": "Accepted. Eight sentence cut."
+    },
+    {
+      "finding_id": "future-01",
+      "accepted": true,
+      "reason": "Accepted. Type answer no longer asserts a present-tense habit; C37, C97 and C92 are unresolved with an actionable trigger; the discriminator rests on pre-September 2026 evidence."
+    },
+    {
+      "finding_id": "future-02",
+      "accepted": true,
+      "reason": "Accepted. C70 unresolved with a drawdown/downgrade trigger; C72 trigger narrowed; sentence dated 'as of October 2026'."
+    },
+    {
+      "finding_id": "future-03",
+      "accepted": true,
+      "reason": "Accepted. Fee sentence past tense and attributed; C94 dated; C14/C94 time-sensitive with triggers. S11 confirms only the second ETF's licence is listed now."
+    },
+    {
+      "finding_id": "future-04",
+      "accepted": true,
+      "reason": "Accepted. Dated 'At launch, Barron's reported'; C87 time-sensitive with a FINRA-decision trigger; individual registration not conflated."
+    },
+    {
+      "finding_id": "future-05",
+      "accepted": true,
+      "reason": "Accepted. Orientation recast as 'built his name as'; description has no 'new'."
+    },
+    {
+      "finding_id": "future-06",
+      "accepted": true,
+      "reason": "Accepted. C34 trigger names a checkable source event; FAQ gives no birth year."
+    },
+    {
+      "finding_id": "future-07",
+      "accepted": true,
+      "reason": "Accepted. Type FAQ carries the mechanism through 'constricting' and 'the treadmill'; shared phrasing gone; similarity clear (see fan-07)."
+    }
+  ],
+  "prior_blocker_checks": [],
+  "protected_checks": [
+    {
+      "passage": "His FINRA record answers \"No\" to whether the order rests on rules against fraudulent, manipulative or deceptive conduct.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate at its original point in the story; the surrounding repairs did not dilute it, and I re-verified its source (S07/S08/S10/S11/S05/S18/S02/S23 as applicable)."
+    },
+    {
+      "passage": "Wedbush said the reporting \"may unintentionally conflate topics that are, in reality, separate\" and cited his \"unwavering integrity.\" This page found no regulatory action on those matters as of October 24, 2026.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate at its original point in the story; the surrounding repairs did not dilute it, and I re-verified its source (S07/S08/S10/S11/S05/S18/S02/S23 as applicable)."
+    },
+    {
+      "passage": "Some of that is caution. The firm's research arm was still awaiting FINRA approval, and a new partnership has reasons to say little.",
+      "preserved": true,
+      "reason": "Changed for durability to 'Some of that is caution. At launch, Barron's reported, the firm's research arm was still awaiting FINRA approval, and a new partnership has reasons to say little.' The constraint and the alternative explanation for his vagueness are intact and now dated (S07 verified)."
+    },
+    {
+      "passage": "The type cannot say what that chapter meant to him, and this page does not guess.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate at its original point in the story; the surrounding repairs did not dilute it, and I re-verified its source (S07/S08/S10/S11/S05/S18/S02/S23 as applicable)."
+    },
+    {
+      "passage": "One afternoon arranged with a reporter proves little on its own.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate at its original point in the story; the surrounding repairs did not dilute it, and I re-verified its source (S07/S08/S10/S11/S05/S18/S02/S23 as applicable)."
+    },
+    {
+      "passage": "As the call wound down, his spokeswoman said he had to get to his next meeting. Ives had one more line. \"I'm unblocking you,\" he told them.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate at its original point in the story; the surrounding repairs did not dilute it, and I re-verified its source (S07/S08/S10/S11/S05/S18/S02/S23 as applicable)."
+    },
+    {
+      "passage": "At one point she asked which tech stocks excited him most, just as a store employee handed him mint green and lilac hats. \"I'm not sure he heard me,\" she wrote. What he said was, \"Dude, that thing is sick!\"",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate at its original point in the story; the surrounding repairs did not dilute it, and I re-verified its source (S07/S08/S10/S11/S05/S18/S02/S23 as applicable)."
+    },
+    {
+      "passage": "The research job he had expected to keep \"for years to come\" lasted ten months after he said it.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate at its original point in the story; the surrounding repairs did not dilute it, and I re-verified its source (S07/S08/S10/S11/S05/S18/S02/S23 as applicable)."
+    },
+    {
+      "passage": "Fortune's editor asked the obvious follow-up: without the mobsters?\n\nIves paused. \"Without the mobsters.\"",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate at its original point in the story; the surrounding repairs did not dilute it, and I re-verified its source (S07/S08/S10/S11/S05/S18/S02/S23 as applicable)."
+    },
+    {
+      "passage": "So his optimism on air proves nothing about temperament by itself. The turns are the test.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate at its original point in the story; the surrounding repairs did not dilute it, and I re-verified its source (S07/S08/S10/S11/S05/S18/S02/S23 as applicable)."
+    },
+    {
+      "passage": "Ives had used that word before, about somebody else.",
+      "preserved": true,
+      "reason": "Changed to 'He had used \"simplify\" before, about somebody else.' to remove the ambiguity with 'unblocking'. The turn into the Musk mirror and its position are unchanged."
+    },
+    {
+      "passage": "In the record opened for this page, his alarm goes off at a company's distraction or a broken quarter. It has not gone off at the idea that the AI boom itself might be overdone.",
+      "preserved": true,
+      "reason": "Changed to add 'as of October 2026' and 'or a policy threat to the tech trade' (tariffs, S39 verified). The sharp, scoped observation and its second sentence survive verbatim; widening it corrects an incomplete list rather than softening it."
+    },
+    {
+      "passage": "Ives paused. \"Without the mobsters.\"",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate at its original point in the story; the surrounding repairs did not dilute it, and I re-verified its source (S07/S08/S10/S11/S05/S18/S02/S23 as applicable)."
+    },
+    {
+      "passage": "It has not gone off at the idea that the AI boom itself might be overdone.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate at its original point in the story; the surrounding repairs did not dilute it, and I re-verified its source (S07/S08/S10/S11/S05/S18/S02/S23 as applicable)."
+    },
+    {
+      "passage": "He sees a boom, he hears the question about its cost, and after a beat he picks the version where it works out.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate at its original point in the story; the surrounding repairs did not dilute it, and I re-verified its source (S07/S08/S10/S11/S05/S18/S02/S23 as applicable)."
+    },
+    {
+      "passage": "That July, his publicist reached out to the same two reporters to set up an interview.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate at its original point in the story; the surrounding repairs did not dilute it, and I re-verified its source (S07/S08/S10/S11/S05/S18/S02/S23 as applicable)."
+    },
+    {
+      "passage": "It was a joke. It is also the read in one exchange. He sees a boom, he hears the question about its cost, and after a beat he picks the version where it works out.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate at its original point in the story; the surrounding repairs did not dilute it, and I re-verified its source (S07/S08/S10/S11/S05/S18/S02/S23 as applicable)."
+    }
+  ],
+  "coverage_complete": true,
+  "metadata_consistent": true,
+  "alternative_type_addressed": true,
+  "five_year_test_passed": true,
+  "open_case_eligible": false,
+  "scores": {
+    "evidence": {
+      "score": 8.0,
+      "reason": "Every print and web quotation I tested (about 100 spans) matches its reopened source verbatim. Podcast quotes agree with an independent large-v3-turbo transcription. Sensitive material is handled with both sides: 'without admitting or denying', FINRA's 'No', 'knew or recklessly disregarded', Wedbush's and Zeta's replies, the no-regulatory-action date. Inference is labelled locally ('this page's inference'), and the Spanish and Chinese secondaries are flagged. Held at 8, not higher, because one present-tense factual sentence misstates the FINRA record (verify-01) and two wordings run slightly ahead of sources (verify-03, verify-05).",
+      "passage": "Without admitting or denying the findings, he paid a $15,000 penalty and accepted three years of limits on acting as a salesperson in certain deals."
+    },
+    "enneagram": {
+      "score": 7.5,
+      "reason": "The argument is honest and seriously tests Three. It concedes that roles, repairs, brand talk, long tenures and the 2019 duty-to-clients register fit the rival, assigns each leftover to a type, and states medium confidence in the 60-word answer. But what remains for Seven is self-report from friendly or promotional interviews plus cost-reframes the job itself produces. It omits his launch-week 'you have to show them the results' (S06). No repeated costly choice is shown that Three fails to predict, so this sits between the standard's 6 and 8 anchors, not at 8 (verify-02).",
+      "passage": "So the roles and the repairs do not separate the types. Both predict an ambitious, visible man adding vehicles with his name on them, and his job paid for that either way."
+    },
+    "originality": {
+      "score": 8.5,
+      "reason": "The profile is built from details specific to Ives that recur and pay off: his own 2019 'simplifying' prescription for Tesla turned back on himself, the blocked-then-unblocked reporters, Eightco's 97% fall beside 'undervalued asset', the Snow Milk shopping scene, and the Strip 'without the mobsters' exchange. Barron's drew the Musk echo first, and the article credits it. There is almost no reusable type boilerplate, and the similarity scan is clear.",
+      "passage": "He had used \"simplify\" before, about somebody else."
+    },
+    "writing": {
+      "score": 8.0,
+      "reason": "The progression is strong: a cold-open scene, a stated question ('what he says he is protecting when a choice starts to cost him something'), then sections that each add a new test (job vs temperament, side roles, aftermath, simplify, rival, leftovers) and an earned closing exchange. Pacing varies, and there are no em dashes in author prose. It loses ground on length and density: 3,901 words, and an attribution-heavy conflict section ('Barron's reported... Barron's also noted... Barron's spelled out') that reads like a compliance memo. The 'simplify' motif is also revisited several times.",
+      "passage": "Barron's also noted that his X bio listed some of the roles and that the Zeta seat appeared in a footnote of his FINRA record."
+    },
+    "durability": {
+      "score": 8.5,
+      "reason": "The spine is dated history: the May 2019 note, the July 2025 guardrails call, the September 2025 'for years to come' and the January 2026 cover story. Removing the September-October 2026 material leaves the argument intact, and the ending names his own 'next decade' horizon rather than forecasting AI. Changing statuses are dated ('as of October 2026', 'At launch, Barron's reported') and tracked with actionable triggers. The FINRA sentence's error (verify-01) is a currency issue the triggers would catch, not a structural weakness.",
+      "passage": "The research job he had expected to keep \"for years to come\" lasted ten months after he said it."
+    },
+    "hook": {
+      "score": 9.0,
+      "reason": "A specific, sourced, surprising scene: the reporters he blocked get an interview through his publicist, he says 'I needed to simplify', and ends with 'I'm unblocking you'. The next beat turns 'simplify' into the article's question, which the body pays off.",
+      "passage": "As the call wound down, his spokeswoman said he had to get to his next meeting. Ives had one more line. \"I'm unblocking you,\" he told them."
+    },
+    "discoverability": {
+      "score": 8.5,
+      "reason": "Identity-first meta_title (49 chars) and a 152-character description consistent with the body. The type heading has a 58-word answer naming confidence and the rival. FAQs cover the actual search intents (who he is, why he left Wedbush, school, age without an invented birth date, type, why not Three) and match the edited body. Internal links go to published Elon Musk and Sam Altman pages and the Type 3/7 explainers, and all six suggestions are published drafts. Marked down slightly because the 'Who is Dan Ives?' answer will need updating as the Yorkville roles change.",
+      "passage": "Dan Ives reads as Enneagram Type 7, the Enthusiast, at medium confidence, with Type 3, the Achiever, a close rival."
+    }
+  }
+}

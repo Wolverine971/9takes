@@ -1,0 +1,15 @@
+I've written the critic review to `docs/content-analysis/pipeline-logs/2026-10-25_06-00-02-828_kareem-rahma/review-critic.json`. It passes the pipeline's review schema, and its hashes match the request. No other files changed and nothing was published.
+
+**Verdict:** the draft is honest about the Type 3 evidence. But each of its three reasons for ranking Type 7 above Type 3, and the opening's grief-to-momentum story, depends on a source quoted without its surrounding context. I filed 6 major and 2 minor findings:
+
+- **The funeral passage (major).** In the podcast transcript, "motion and momentum" is the end of one answer. In that same answer he says "my dad told me, just keep going… one up yourself or don't stop," and that he threw himself into school "in order to finish." That points to duty and his father's approval as much as to a Seven avoiding pain, yet the draft uses it as evidence for Seven over Three.
+- **"Addicted to momentum" (major).** In his newsletter, the sentence just before it gives his reason: "because I love work." The draft drops that sentence and places the quote right after the funeral, which implies a link he never makes.
+- **The show's cost as proof of fun (major).** Another company funded the first season of Keep the Meter Running. He told Maury Povich that SubwayTakes came about "out of need… Not because I was like, 'Oh, this is a novel idea'" because the cab show cost too much. The 2026 relaunch has a production budget.
+- **"Number one is fun" (major).** The draft leaves out his non-fun reasons for his biggest decisions: he nearly skipped SubwayTakes because "all I want to do is make TV and films in Hollywood," and he doubled its output for money and "a proper career." The description's "fun decides every yes" also says more than the source does.
+- **The Harris episode (major).** The draft leaves out that he published the Walz interview. The Guardian reports his deciding reason for doing it was that "I'm not gonna pass up a good story."
+- **His reasons for chasing fame (major).** The draft leaves out his New Yorker explanation for switching to comedy ("Do I want to leave a legacy?"). It also quotes the Museum of Pizza "didn't achieve either goal" line without naming the goals; one was to "go down in New York history as a legend."
+- **Minor:** the draft brushes off ADHD as an alternative explanation without support. The "pattern runs in a few plain steps" frame also appears in the Shyam Sankar draft. The similarity tool's match against Tyla is only a shared phrase, not reused argument.
+
+**Decision for you:** once the editor restores this evidence, Seven may still lead, but by less. Expect lower confidence. If the edit changes the type to 3, the pipeline will hold the article for a refresh with the expanded review.
+
+I worked from the research stage's saved source texts, plus a check of the two most important new quotes (Guardian and Povich) against the live pages on 2026-10-25. I did not re-listen to any audio. I also kept five passages on the protected list, including the line "A poem is not testimony about 2007" and the test for recognition versus fun going forward.

@@ -1,0 +1,27 @@
+I verified the repaired Kareem Rahma draft and wrote the verdict to `verification-repair.json`. It's **a hold, not a pass**: status is `insufficient_evidence`. The facts check out, but the case for Type 7 over Type 3 is too thin to release.
+
+**What holds up**
+- **Quotes:** all 123 quoted passages match their cited sources. I reopened 22 live pages and the NYT archive copy; the two audio interviews (the Death, Sex & Money podcast and the Forbes video) I checked against their machine transcripts. The context is faithful almost everywhere.
+- **Claims:** 120 of 126 are supported and 6 are qualified. None is unsupported.
+- **Reviews:** all 52 editor decisions meet their tests and all 22 protected passages survive. I reran the similarity scan and readability audit myself and both are clean.
+- **Metadata and durability:** the type answer, FAQs and description all agree. Changing facts are dated and tracked, so the page will be easy to update.
+
+**Why it holds**
+- The repair was honest, and that's what exposed the problem. The draft now admits that almost every piece of evidence fits both types. The Seven lead rests on two statements six months apart that he enjoys the trip more than arriving.
+- The draft also says itself that "No clean split has happened yet": no choice where he picked fun over recognition. Three never clearly loses, so I scored Enneagram 7.5 against the 8 floor.
+- Overall is 8.1 against 8.5. Scores: evidence 8.5, Enneagram 7.5, originality 8.5, writing 7.5, durability 8.5, hook 8.5, discoverability 8.
+- Rewording can't fix this. Calling it low confidence isn't allowed for a regular profile. He doesn't qualify for the softer early-career "open case" format either, since he's had a public record since 2012 and his breakout was in 2022.
+
+**Minor fixes to fold into the next pass**
+- The draft gives "I'm not gonna pass up a good story" as his reason for publishing the Walz interview. It leaves out the reason he gave first in the same Guardian passage: Walz was "less offensive" and "more sympathetic" on Gaza.
+- "I never wanted to be a politics person" is dated to when the NYT article ran, not when he said it.
+- The ending asks whether fatherhood changed him. It omits that about three weeks later he told the podcast "I don't feel like I've changed really."
+- About fifteen "this fits both types" rulings make the second half loop, and the body is 3,899 words against a ~3,500 target.
+
+**Your call:** a research refresh could settle it. The verification lists the research tasks: older interviews from before he became a comedian, someone close to him on record, his reaction to the September 2026 Emmy loss, or a choice where fun and recognition pulled apart. Otherwise it stays on hold, since the one allowed repair has been used.
+
+One disclosure: `repair-findings.json` turned out to contain the previous verifier's scores, and I saw them while checking decisions. I scored this draft from my own reading.
+
+Nothing else was modified or published. The only other files I created are scratch scripts in `/tmp/kr-verify2/`.
+
+Sources: [web search for later Mamdani appearances](https://kottke.org/tag/Zohran%20Mamdani) found none after the New Yorker's August 2025 count.

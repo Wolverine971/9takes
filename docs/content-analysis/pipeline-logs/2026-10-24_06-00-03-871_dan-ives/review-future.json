@@ -1,0 +1,86 @@
+{
+	"schema_version": 3,
+	"role": "future",
+	"content_sha256": "774cb04858a7025c34bef68bd64baf1c67eafa02636a056aa98eb0606e1df237",
+	"evidence_sha256": "20185a564df3a924d52729e2a45ac96675f2ab00bde640891896a7528f62194b",
+	"risks": {
+		"sensitive_allegations": true,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": false
+	},
+	"findings": [
+		{
+			"id": "future-01",
+			"severity": "major",
+			"passage": "Ives does that with markets and with his own career, taking on new roles faster than he drops old ones.",
+			"problem": "The 60-word type answer, the passage most likely to be quoted and snippeted, states a present-tense life habit, but the evidence for it is one roughly 15-month episode (the June 2025 ETF license through the September 2026 Ives Ultra fund). The body itself concedes tenures of 'about 16 years at one firm and eight at another', and the type FAQ already uses the safer past tense ('kept adding roles'). The claims that carry the Seven-over-Three discriminator (C97, C37, C92) are all marked stable with an empty review_trigger, though the meaning of the latest chapter is unresolved. If Yorkville Ives becomes the focused build he describes ('building something special for the next decade') and the outside roles thin out, this sentence becomes false and the 'simplify meant trading up' beat drifts toward the Three reading. In 2031 the page would still assert a habit nobody has rechecked.",
+			"acceptance_test": "(1) The type answer dates or bounds the pattern (e.g. 'in 2025 and 2026 he took on new roles faster than he dropped old ones'), or the body anchors it in at least one pre-2025 instance. The answer stays at or under 60 words and agrees with the type FAQ. (2) C97, C37 and C92 change to durability 'unresolved' with an actionable review_trigger, e.g. 'On 2027-07-15 and at each refresh: the FINRA outside-activity count changes by two or more; he takes or drops a board, chair or fund role; he leaves, renames or narrows Yorkville Ives; or he describes the firm in concrete goals rather than possibilities. Sustained narrowing reopens 7 vs 3.' (3) If the September-October 2026 paragraphs (IVAI, AI 30, FINRA count) are deleted, the Why not Type 3? section still states its discriminator from pre-July 2026 evidence (the Musk mirror, Eightco, 'continue to evaluate new ones')."
+		},
+		{
+			"id": "future-02",
+			"severity": "minor",
+			"passage": "In the record opened for this page, his alarm goes off at a company's distraction or a broken quarter. It has not gone off at the idea that the AI boom itself might be overdone.",
+			"problem": "This is the article's sharpest forward-testable claim, and the ending ('the Vegas Strip in 1955', the 'next decade') leans on it. But C70 is marked stable with no trigger, and C72's trigger ('The next Ives AI 30 release') fires on every routine release instead of on the event that would test the claim. The 2022 drawdown, when he stayed 'steadfastly bullish', shows what the next one could reveal about default optimism versus reframing. A five-year-old page that never records that test misses its best new evidence.",
+			"acceptance_test": "C70 becomes time_sensitive or unresolved with a trigger such as: 'A 20%+ drawdown in the Nasdaq or AI leaders, any Ives downgrade of a major AI name, or any statement that AI spending or valuations are overdone; record whether he reframes (early innings, buying opportunity) or turns.' C72's trigger is narrowed to a change in his inning framing or a bearish AI call. The sentence keeps its 'record opened for this page' scope and states its horizon (e.g. 'as of October 2026')."
+		},
+		{
+			"id": "future-03",
+			"severity": "minor",
+			"passage": "He receives a flat, annual fee for the use of his name and likeness, and the fund crossed $1 billion in assets six months after launch.",
+			"problem": "This present-tense commercial status comes from Barron's of January 31, 2026, before he left Wedbush. I reopened the FINRA BrokerCheck PDF on 2026-10-24. It lists an image-and-likeness licensing fee only for the Dan Ives Wedbush AI Power and Infrastructure ETF (from 04/01/2026), not for the AI Revolution ETF this sentence describes. S34 says the Ives AI 30 report is now licensed to Wedbush Fund Advisers. So 'receives' is unconfirmed for October 2026. C14, and C94 ('His name and likeness are on two ETFs, a research list, a fund and a firm.'), are marked stable with no trigger even though ETF names, licenses and fund roles routinely change.",
+			"acceptance_test": "The fee sentence is attributed, dated and in the past tense (e.g. 'Barron's reported in January 2026 that he received a flat annual fee...'). C94's sentence is dated ('As of October 2026'). C14 and C94 become time_sensitive with a trigger: either ETF is renamed, closed or delicensed; the AI 30 license to Wedbush Fund Advisers ends; FINRA outside activities change; or IVAI or Yorkville Ives is renamed."
+		},
+		{
+			"id": "future-04",
+			"severity": "minor",
+			"passage": "Some of that is caution. The firm's research arm was still awaiting FINRA approval, and a new partnership has reasons to say little.",
+			"problem": "This status claim is undated (C87, marked stable, empty trigger). It comes from Barron's of July 17, 2026, but the sentence reads as a standing condition. FINRA shows his individual research-analyst registration approved 07/15/2026, and he published the Ives AI 30 under Yorkville Ives on 2026-10-08. A later reader cannot tell whether the constraint still applied or when it ended.",
+			"acceptance_test": "The sentence is dated to launch week and attributed (e.g. 'At launch, Barron's reported, the firm's research arm was still awaiting FINRA approval'). If both are mentioned, it does not conflate the firm's application with his individual registration. C87 becomes time_sensitive with a trigger such as 'FINRA decision on Yorkville Ives's research business line.'"
+		},
+		{
+			"id": "future-05",
+			"severity": "minor",
+			"passage": "Ives is a technology stock analyst, known on financial TV for neon jackets and for telling investors the tech boom is still early.",
+			"problem": "The orientation sentence states a present-tense role ('is a technology stock analyst') and a time-bound message ('still early'). C36 is marked stable with no trigger, while the very next sentence's role claim (C07) has one. Since July 2026 his title is partner at a merchant bank, and he chairs a fund adviser. In five years 'analyst' may not be his primary identity. The description has the same aging problem: 'a new bank' will not stay new.",
+			"acceptance_test": "C36 takes C07's trigger (any change in title, firm, or research-analyst registration), or the sentence is recast to hold as history (e.g. 'built his name as a technology stock analyst...'). The description drops 'new' or similar temporal wording and stays within 120-170 characters."
+		},
+		{
+			"id": "future-06",
+			"severity": "minor",
+			"passage": "He told Fortune in July 2026, \"I am 51 today.\" No primary source for his birth date was found, so this page does not give one.",
+			"problem": "The FAQ is correctly dated and avoids the unverified birth date. But C34's review_trigger is 'His next birthday', and that date is unknown, so the trigger can never fire. The dated quote would not change on his birthday anyway. C34 also records a one-year conflict in the SEC order's stated age, so the trigger should name the evidence that would actually change this answer.",
+			"acceptance_test": "C34's review_trigger names a checkable event, e.g. 'Any primary or official source giving his birth date or birth year (filing, his own statement, FINRA or SEC record).' The FAQ stays dated to July 2026 and adds no computed birth year unless such a source is found."
+		},
+		{
+			"id": "future-07",
+			"severity": "minor",
+			"passage": "Sevens are in the head triad, organized around fear, and they handle it by keeping their options open.",
+			"problem": "The similarity advisory tripped against dylan-patel (2026-10-17, also Type 7): 0.801 on 'that case gets its own section below' and 0.557 on 'they handle it by keeping their options open'. I compared the arguments, and they are distinct: role-stacking and 'simplify' here, nomadism and 'next step' there. So the reasoning is not reused, and triad vocabulary alone is ordinary. The narrow problem is that this type-FAQ sentence is near-verbatim with Dylan Patel's FAQ ('Sevens are in the head triad, with fear at the core, and they handle it by keeping their options open'). The body's four-step mechanism paragraph ('A Seven feels a limit closing in...') would also fit any Seven page. As the Seven corpus grows, that skeleton becomes a template fingerprint on the most-indexed surfaces.",
+			"acceptance_test": "The type FAQ and body answer keep the triad/fear orientation but carry the Seven mechanism through an Ives-specific detail (e.g. 'treadmill', 'constricting', the 2025-26 role pile-up), so neither matches the dylan-patel FAQ or answer at the advisory's 0.044 trip threshold. The four-step paragraph is either tied to at least two Ives instances or cut. The 'that case gets its own section below' signpost is reworded or dropped."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "That July, his publicist reached out to the same two reporters to set up an interview.",
+			"reason": "The hook is a dated, sourced scene (Barron's, January 31 and July 17, 2026), not a status claim. It stays true and surprising in 2031 whatever becomes of Yorkville Ives."
+		},
+		{
+			"passage": "Ives had used that word before, about somebody else.",
+			"reason": "The Musk mirror (May 2019 'simplifying' note, July 2025 'guardrails') is the most durable evidence on the page: historical, dated, in his own words. It carries the Seven-over-Three contrast even if every 2026 event were removed."
+		},
+		{
+			"passage": "The research job he had expected to keep \"for years to come\" lasted ten months after he said it.",
+			"reason": "A self-contained, measurable contrast between stated intent and outcome, with both endpoints dated. It never needs updating."
+		},
+		{
+			"passage": "The type cannot say what that chapter meant to him, and this page does not guess.",
+			"reason": "Durable honesty about a gap. It keeps the Synchronoss chapter factual without inventing motive, so later testimony can be added without retracting anything."
+		},
+		{
+			"passage": "It was a joke. It is also the read in one exchange. He sees a boom, he hears the question about its cost, and after a beat he picks the version where it works out.",
+			"reason": "The ending turns a dated exchange into the thesis without forecasting the AI outcome. It reads as well after a crash as after a boom, which is the five-year test for a closing line."
+		}
+	],
+	"assessment": "Five-year test: mostly passes. The spine is historical and dated: the May 2019 'simplifying' note, the July 2025 'guardrails' call, the September 2025 Eightco chair, the January 2026 Barron's cover and the February 2026 'continue to evaluate new ones'. Remove the September-October 2026 material (IVAI, AI 30, FINRA count) and the Seven-over-Three case still stands. The hook is a dated scene rather than a status claim, the ending names his own horizon instead of predicting the AI outcome, and absolute dates are used well throughout (including the 'as of October 24, 2026' regulatory line). The weaknesses are tense and triggers. The type answer turns a 2025-26 episode into a present-tense habit even though the body concedes 16- and 8-year tenures. The thesis-bearing interpretation claims (C37, C92, C97, C70) are marked stable with no review trigger, even though the Yorkville Ives chapter and the next AI drawdown are exactly the events that would test 7 vs 3. Several commercial status lines are in the present tense from January 2026; one of them (the AI Revolution ETF fee) does not appear in the October 24, 2026 FINRA record I reopened, which lists likeness licensing only for the AI Power and Infrastructure ETF. C34's 'next birthday' trigger cannot fire. Similarity: the dylan-patel matches are a stock signpost and the head-triad definition, and the arguments differ, but the type-FAQ sentence is near-verbatim. Risks stand: sensitive allegations (2022 SEC settled order, Synchronoss termination, Barron's conflict reporting disputed by Wedbush) and contested typing (7 vs 3 at medium confidence, with heavy work-incentive confounds)."
+}

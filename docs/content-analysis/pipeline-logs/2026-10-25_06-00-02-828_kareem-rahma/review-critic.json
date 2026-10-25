@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "critic",
+  "content_sha256": "8b7a6bc84582b7330df16ce929f76ff47fe0b0f20f5038d051d1ec329f892cf6",
+  "evidence_sha256": "524de425eefc7d655e7b2f179bad4f83aa35257089be3a7ca6b88b781eadacc2",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "critic-F1",
+      "severity": "major",
+      "passage": "Second, under the worst pain of his life, what he protected was motion. He says he wasn't a good student, so it was not a record. He calls it momentum.",
+      "problem": "In the source (Death, Sex & Money, S07, 13:18-15:05) the momentum line ends one continuous answer: 'I had made the deal that I'll get into college, which presumably means I will also graduate from it. So I just kept going. And I remember my dad told me, just keep going... It was always like, that's great. Keep going. You know, it was always like one up yourself or don't stop. And so that's what I did. Like that's how I coped... I threw myself into the experience of school in order to finish... for me, it was like all about motion and momentum.' The draft splits this answer across sections and drops 'one up yourself or don't stop' and 'in order to finish'. It then counts the episode as a Seven tie-breaker against Three, here, in the FAQ ('under grief he protected momentum rather than an image') and in the hook ('the reason starts with that Monday'). In his telling, what he protected was the deal with his father and finishing the degree, under the same no-praise 'keep going' injunction that he later ties to needing outside validation (Interview, S21, 2026: 'anytime there was external validation, I would feel more motivated to keep going'). That supports duty or approval as much as pain avoidance. The episode is shared ground, not a discriminator.",
+      "acceptance_test": "Reason two is removed from the tie-breakers, or it is rewritten to report the 'one up yourself or don't stop' and 'in order to finish' context and to say plainly that the episode fits duty to his father and the Three reading as well as Seven. The 'experience of school' quote includes or accurately paraphrases 'in order to finish'. Neither the 'Why isn't Kareem Rahma a Type 3?' FAQ nor the line 'the reason starts with that Monday' presents 2007 as evidence that favors Seven over Three."
+    },
+    {
+      "id": "critic-F2",
+      "severity": "major",
+      "passage": "Seventeen years after the funeral, with a baby daughter and two hit shows, he wrote this in his newsletter:",
+      "problem": "The sentence just before the quoted lines gives his reason: 'I probably need to take a break soon, but I don't know how to take breaks because I love work. I am addicted to momentum.' The post goes on: 'But I'm happy... But I am overwhelmed.' (Another New Thing, S12, September 18, 2024). The draft drops that reason and places the quote straight after the funeral, so the reader infers that a grief reflex became a lifelong habit. In the opened sources Rahma never makes that link. The 2024 post is about his work pace with a new baby. So the article's central causal story is built by juxtaposition, not evidence.",
+      "acceptance_test": "At or next to the quote, the article gives his stated reason ('because I love work') or an accurate paraphrase. Any link between the 2007 funeral and the 2024 momentum line is marked as the author's inference, with its limit stated (he did not connect the two himself). No sentence implies that he attributes his work pace to his father's death."
+    },
+    {
+      "id": "critic-F3",
+      "severity": "major",
+      "passage": "What gives the line weight is what it costs him. Keep the Meter Running is the clearest case.",
+      "problem": "The draft uses the show's cost as the proof that 'number one is fun' is more than polish. The opened record cuts both ways. Mad Reality 'co-produced and funded the first season', and he had held the idea back as 'obviously expensive so I can't do it yet' until a producer appeared (Brooklyn Magazine, S05, 2023). When episodes cost him about $2,000 each, he switched to something cheaper: 'It was too expensive. And the idea for Subway Takes came about because it's less expensive. The subway is a free set. That was the reason. Not because I was like, \"Oh, this is a novel idea.\" It was out of need.' (Interview, S21, May 2026; checked on the live page 2026-10-25. Rolling Stone, S03, 2025, says the same.) The Times reports that SubwayTakes sponsorships covered the loss (S04). He stopped the short-form version while 'assembling it for its transition from the internet to TV' with Ramy Youssef (Mpls.St.Paul, S06), and the 2026 relaunch is a YouTube series with a production budget (S21). The record shows him capping the cost of the fun and developing it commercially, not paying a lasting price for it. The draft's account of the shelving ('no longer fit short-form video') leaves out both the cost and the TV push.",
+      "acceptance_test": "The section either stops claiming that the cost is what gives the fun line its weight, or it presents the whole record: the externally funded first season, the cost-driven move to SubwayTakes 'out of need', the cross-subsidy, the TV development and the funded relaunch. Any claim that remains is limited to what the record supports (e.g., he keeps returning to the show he calls his most fun). The shelving sentence mentions the move toward TV."
+    },
+    {
+      "id": "critic-F4",
+      "severity": "major",
+      "passage": "In a March 2026 newsletter he described both of his hits as \"Something to entertain myself\"",
+      "problem": "The draft treats 'number one is fun' as a decision rule that recurs 'in other rooms', limited only by creator incentives. It quotes the March 2026 essay saying both hits were made as 'Something to entertain myself' (S14) and leaves out his other accounts of the same decisions. Two months later he said SubwayTakes came 'out of need', 'Not because I was like, \"Oh, this is a novel idea.\"' (S21). He also said he was reluctant to launch it because 'all I want to do is make TV and films in Hollywood', and that he does it 'out of necessity and desperation' (Awards Radar, S16, June 2026). After his daughter was born he doubled the show's output so it would 'benefit me... Both financially and in terms of, like, a proper career' (NYT, S04, 2024). These are his own reasons at his biggest creative choice points, and they change with the venue. That bears directly on how much weight his fun self-reports can carry. The description's 'he says fun decides every yes' also says more than the source does: 'number one is fun' ranks fun first among criteria.",
+      "acceptance_test": "The 'Number one is fun' section names at least one documented choice point where he gave a non-fun reason (the 'out of need' origin, the Hollywood reluctance or the 2024 doubling for money and career). It says plainly that his accounts of the SubwayTakes decision differ by venue. The description and FAQ wording say no more than the source (e.g., 'says fun is his first test', not 'fun decides every yes')."
+    },
+    {
+      "id": "critic-F5",
+      "severity": "major",
+      "passage": "The Harris episode fits neither type neatly.",
+      "problem": "The section implies he gave up a status prize on principle, then closes on his faith. The opened sources say more. The Times' 'status symbol of the season' was 'an invitation to interview both Vice President Kamala Harris and her running mate, Gov. Tim Walz', and he published the Walz interview (S04). The draft narrows the phrase to Harris and never mentions Walz. The Times also reports that he 'felt gratified', that he 'ultimately agreed to the campaign's terms' on the reasoning that he could choose not to publish, and that he 'had been apprehensive about potential criticism from other Muslims' (S04). On Walz, the Guardian reports that 'Rahma's final decision came back to how good it would sound to tell people that he had the candidate on his show': 'It's all about the story in my world. I'm not gonna pass up a good story.' (S01; checked on the live page 2026-10-25). These facts bear directly on 3 versus 7. He took the booking, published one half and dropped the half that threatened his standing with Muslim viewers. The draft omits all of this and calls the episode neutral.",
+      "acceptance_test": "The section states, with attribution, that he published the Walz interview, that the Times phrase covered both invitations and that he accepted the campaign's terms. It quotes or paraphrases the Guardian's 'not gonna pass up a good story' reasoning and the Times' report of his apprehension about criticism from other Muslims. If it still says the episode fits neither type, it adds a sentence on what each type would predict from these facts."
+    },
+    {
+      "id": "critic-F6",
+      "severity": "major",
+      "passage": "First, when he explains why he wanted the Three's prizes, he names what they buy.",
+      "problem": "Reason one relies on the explanations that name fun (the Brooklyn Magazine skiing line; Forbes, 'talent has a very fun job') and ignores his other explanations of the same goals. Explaining the comedy pivot itself to the New Yorker (S02, 2025), he said: 'Who do I want to be? Do I want to leave a legacy?... what would I want to do that I think I would be good at?... I've always been a magnet. People seem to gravitate toward me... I'm just gonna be a comedian.' Of the Museum of Pizza he said: 'One, I wanted to go down in New York history as a legend' (S05), yet the draft quotes 'didn't achieve either goal' without naming either goal. He told the Guardian (S01) 'I was pursuing money over everything. That's how I made all of my decisions', and told Brooklyn Magazine (S05) that the rebrand 'was really my identity... become that new identity'. Reason three ('Rahma leaves it in') has a limit the draft omits. The failures in the August 2024 post sit in the same post that ticks off every box of the fame plan (S10), told from the vantage of success. And in March 2026 he said he hasn't gone all in on a new show because 'Two-for-two is a hard thing to pull off and three-for-three is even harder' (S14), which is protecting a record. With these restored, the tie-breakers are much closer than 'Three things tip it' suggests.",
+      "acceptance_test": "Reason one acknowledges that his stated reasons vary by interview, and it sets at least the New Yorker legacy/'good at'/'magnet' answer or the Museum of Pizza 'legend' goal beside 'talent has a very fun job'. The Museum of Pizza sentence names both goals (legend and money). Reason three notes that the failures are told from the vantage of success. Afterwards the stated confidence matches what the tie-breakers can actually show. If that is no longer a Seven lead, confidence drops or the run holds. A changed lead type requires --refresh --expanded-review."
+    },
+    {
+      "id": "critic-F7",
+      "severity": "minor",
+      "passage": "That explains a lot about how he works, but not why he names fun as his rule, or why he went back to school the Monday after a funeral.",
+      "problem": "The draft dismisses the ADHD confound by assertion. Stimulation and novelty seeking are exactly where ADHD and the Seven pattern overlap, and no source or argument in the article supports 'not why he names fun as his rule'. The Monday after the funeral already has his own stated reasons (the college deal with his father, 'just keep going', the fear that he would not come back), and those need neither ADHD nor a type. The sentence claims a separation the record cannot make.",
+      "acceptance_test": "The sentence no longer says ADHD does not explain the fun rule. It says the overlap is real, that this public record cannot fully separate the two, and that the type argument rests on his stated reasons at choice points. The health detail stays in his own words."
+    },
+    {
+      "id": "critic-F8",
+      "severity": "minor",
+      "passage": "The pattern runs in a few plain steps. Something painful or confining shows up: a loss, a dull job, a single path. The Seven tells the feeling to wait.",
+      "problem": "Similarity tripwire checked (0.127 against Tyla on 'pattern runs'). Tyla's sentence introduces evidence across domains, so the shared connector does not reuse an argument. However, the same 'The pattern runs in a few plain steps' frame, followed by a generic step-by-step type mechanism, appears in src/blog/people/drafts/shyam-sankar.md (Type 6). The steps here could sit in any Seven profile. The paragraph also asserts a fear mechanism ('Sevens are fear types who push the fear down') while every Rahma example in the article is grief, boredom or confinement, not fear. The record has fear-adjacent material the article never uses for this point: S03 'I don't want to be in poverty'; S05 'I don't think I can take the risk'; S21, where he says his humor began 'to avoid getting punched in the face'.",
+      "acceptance_test": "Each step of the mechanism paragraph is tied to a dated Rahma example, or the paragraph is cut so that the 2007 and 2020 episodes carry the point. The fear claim is either supported with Rahma-specific evidence or reworded so it does not claim a fear motive the article never shows. same-type-similarity is rerun and no pair above the trip threshold reflects a shared argument."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "A poem is not testimony about 2007. It is still the image he picked.",
+      "reason": "Exact inference discipline: it uses the poem without claiming it is about his father (the research record had over-read it), and the two short sentences carry the limit gracefully."
+    },
+    {
+      "passage": "That could be one good quote handed to him by a friendly host. It keeps coming back in other rooms, though.",
+      "reason": "Names the host-prompting limit on the key quote before using it, then tests the quote by replication across outlets. This is the right method, even though finding critic-F4 asks that the counter-accounts get the same treatment."
+    },
+    {
+      "passage": "That is about as Three as a sentence gets, and it is the main reason this read stays at medium confidence.",
+      "reason": "Confronts the strongest adverse quote head-on and ties it explicitly to the confidence level instead of explaining it away."
+    },
+    {
+      "passage": "A Seven can crave applause, and the validation quotes are what the Seven read absorbs least comfortably. The test going forward is simple. If he starts choosing recognition over fun when the two split, the case for Three gets stronger.",
+      "reason": "A concrete, observable forward test that keeps the page honest and easy to reopen; the critic findings strengthen rather than replace it."
+    },
+    {
+      "passage": "Finally, almost everything here comes from Rahma. His co-creator, Andrew Kuo, talks publicly about the show, not about him.",
+      "reason": "Plainly states the self-report limit of the record and the absence of independent testimony, which most profiles hide."
+    }
+  ],
+  "assessment": "Critic read (fair-minded skeptic). The draft is more honest about the Three case than most: the validation quotes, the plan, the follower goal and the Emmy campaign are all quoted, the host-prompted fun line and the poem are given explicit limits, and a forward test is named. The weakness is the step from that honest inventory to 'Three things tip it'. Each tie-breaker and the opening's causal story rest on a source read selectively. (1) The 2007 momentum answer is, in its own transcript, his father's 'one up yourself or don't stop' plus finishing the degree. (2) The 'addicted to momentum' line is attributed in its own post to 'because I love work', and is tied to the funeral only by juxtaposition. (3) The costly-fun proof omits that the first season was funded, that SubwayTakes was born 'out of need' to cut the cost, and that the relaunch is budgeted. (4) His fun self-reports conflict with his own non-fun accounts of the same decisions. (5) The Harris/Walz episode omits the published Walz interview and his 'not gonna pass up a good story' reasoning. (6) The legacy, 'legend' and identity explanations of his goals are missing. With the adverse evidence restored, Seven may still lead, but on a narrower margin than the text and FAQ convey. The editor should expect to lower or reframe confidence. If the lead type changes, the standard requires a hold for --refresh --expanded-review. Method: I reopened the research stage's saved full texts for S01-S06, S10, S12, S14, S16, S19, S21 and S25, the S07 Whisper transcript (13:18-15:05, 05:20-09:50, 37:20-39:50) and the S08 captions (00:30:07-00:31:45, 00:42:14-00:45:36). I checked the S01 'good story' passage and the S21 'out of need' passage against the live pages on 2026-10-25. No audio was re-listened to. Similarity: the only trip pair (Tyla, 0.127) is a shared connector, not a shared argument, but the same plain-steps frame recurs in the shyam-sankar draft (critic-F8). Risk flags: contested_typing stays true, and these findings deepen it. No sensitive allegations against the subject were found. The Harris dispute is about the campaign's account and is already attributed."
+}
