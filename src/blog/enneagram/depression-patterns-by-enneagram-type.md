@@ -37,7 +37,7 @@ Keyword Strategy:
 **Important note:** If you're having thoughts of suicide, call or text **988** (the 988 Suicide & Crisis Lifeline, US), or call 911 if you're in immediate danger. This article maps personality patterns. It isn't a diagnosis or a substitute for professional care.
 
 <QuickAnswer question="Which Enneagram type is most likely to be depressed?">
-There isn't enough evidence to name a most-depressed Enneagram type. Any type can experience depression. The patterns below can help you describe habits such as self-criticism, overwork or withdrawal. They cannot diagnose depression or tell you which treatment will work.
+No type has been shown to be more likely to be depressed. Type 4 is the one people usually name, because Enneagram writing links Fours with melancholy, but that reputation doesn't tell us how often Fours are depressed. No type is protected, either. A driven Three, an upbeat Seven or an easygoing Nine can be depressed while seeming fine. The nine patterns below show how depression can look in each type. Use them to describe what has changed, not to diagnose it or choose a treatment.
 </QuickAnswer>
 
 ## Depression Patterns Comparison Table
