@@ -7,12 +7,12 @@ description: >-
   named, Ilya Sutskever said: 'It didn't occur to me.' Why Type 5 fits, where
   Type 6 pushes back.
 author: DJ Wayne
-date: '2026-10-09'
+date: '2026-10-25'
 loc: 'https://9takes.com/personality-analysis/ilya-sutskever'
-lastmod: '2026-10-09'
+lastmod: '2026-10-25'
 changefreq: monthly
 priority: '0.6'
-published: false
+published: true
 enneagram: '5'
 type:
   - techie
@@ -168,6 +168,7 @@ content_quality:
   caps_applied: []
   needs_review: false
   content_sha256: 6db9a35efb17e92224e8a6fc9f560b68ec5fb32324c4d546b8cd421261e199a7
+path: src/blog/people/drafts/ilya-sutskever.md
 ---
 
 In a deposition on October 1, 2025, for [Elon Musk](/personality-analysis/elon-musk)'s lawsuit against OpenAI, a lawyer for OpenAI walked Ilya Sutskever through the memos he had written two years earlier: the case he had put to OpenAI's board for firing its chief executive, [Sam Altman](/personality-analysis/sam-altman), on November 17, 2023, and a second one about its co-founder and president, [Greg Brockman](/personality-analysis/greg-brockman). One line said that "it is my understanding that" Brockman "was essentially fired from Stripe as well." What was the basis for that? "Mira told me." Did you seek to verify it with Greg? "No." Why not? "It didn't occur to me." Mira is [Mira Murati](/personality-analysis/mira-murati), then OpenAI's chief technology officer. The Stripe claim is unverified in any source opened here, and neither Brockman nor Murati has publicly addressed the memos in them. The testimony quoted comes from the 62 pages the parties filed in court, of a transcript of roughly 365. ([deposition, October 1, 2025, pp. 309–310](https://storage.courtlistener.com/recap/gov.uscourts.cand.433688/gov.uscourts.cand.433688.340.1.pdf))

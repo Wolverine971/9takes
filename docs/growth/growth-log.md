@@ -10,7 +10,31 @@ Use this file as the persistent memory for growth work across audits, research p
 
 ## Experiment Log
 
-### 2026-10-19
+### 2026-10-25 - Spam-update and noindex readout (T-41 item A): no hit, no noindex, one Soft 404 worth fixing
+
+**Verdict: Google's September 2026 spam update did not touch the celebrity pages. No flag for DJ (the bar was a 20%+ impression drop).** Source: Search Console API, `dataState: 'all'`, pulled 2026-10-25. Scripts in the session scratchpad (auth copied from `scripts/fetch-gsc-data.mjs`, which was not edited).
+
+| `/personality-analysis/*`       | Clicks (per day) | Impressions (per day) | Avg position | Pages with impressions | Pages with 1+ click |
+| ------------------------------- | ---------------: | --------------------: | -----------: | ---------------------: | ------------------: |
+| Before, 09-10..09-23 (14 days)  |       445 (31.8) |        96,105 (6,865) |          8.6 |                    390 |                 146 |
+| Rollout, 09-24..10-08 (15 days) |  434 (28.9), -9% |   99,675 (6,645), -3% |          8.7 |                    388 |                 146 |
+| After, 10-09..10-23 (15 days)   | 612 (40.8), +28% |  104,835 (6,989), +2% |          8.4 |                    387 |                 176 |
+
+- Control (every other page, `notContains /personality-analysis/`): clicks per day 21.9, then 18.3 (-17%), then 26.7 (+22%). The rollout dip was sitewide and deeper outside the celebrity template, so it was not targeted.
+- Sitewide clicks: September now reads 1,505 (the 1,443 baseline was an earlier, less complete read). October 1-24 is already 1,444, on pace for about 1,850, another high.
+- Per-page losers are news-cycle shaped, not template shaped: of 30 celebrity pages with 50+ impressions a day before, 3 fell more than half (cillian-murphy, dario-amodei, tom-cruise) and 11 rose.
+
+**Noindex check: clean. Item O is not needed.** URL Inspection on all 433 pages with 30+ impressions from 09-24 to 10-23 (covers the top 25 by clicks sitewide and the top 25 celebrity pages): 426 "Submitted and indexed", **0 "Excluded by 'noindex' tag"**, 2 intentional redirects (`enneagram-communication-tips`, `enneagram-stress-number`), 2 "Crawled, currently not indexed" with last crawls in May and June (`paul-graham`, `lana-rhoades`).
+
+**New finding: 3 pages are classified "Soft 404"** (Google treats a 200 page as an error page and drops it from the index). All three serve full, indexable articles; a mobile-Googlebot render of the depression page loads every asset with no console errors.
+
+| Page                                                      | Last crawl | Clicks, 30 days | Impressions, 30 days |
+| --------------------------------------------------------- | ---------- | --------------: | -------------------: |
+| `/enneagram-corner/depression-patterns-by-enneagram-type` | 10-25      |              27 |                4,389 |
+| `/personality-analysis/kylie-jenner`                      | 10-05      |               0 |                  207 |
+| `/enneagram-corner/how-each-enneagram-flexes`             | 10-12      |               0 |                  136 |
+
+The depression page is the one that matters (top 15 sitewide by clicks; impressions were steady at about 150 a day through 10-24, so the drop has not shown yet). Its 10-19 accuracy pass (`b88aa3d91`) replaced the QuickAnswer's direct answer with "There isn't enough evidence to name a most-depressed Enneagram type," although the 10-19 update queue said to preserve the direct search answer. The page now opens with the crisis notice followed by a non-answer. That may contribute to the Soft 404 call but is not proven: the other two pages were not recently edited. Next steps: Request Indexing for the depression page in Search Console (manual; the API cannot), and DJ decides whether to restore a bounded direct answer in the QuickAnswer.
 
 **Weekly growth audit: the second-best traffic week in 26 (773 engaged humans, 40 returning) produced 1 take. Every gated surface except question pages went to zero, celebrity pages showed q567 to 110 readers for no answers, and the one contributor got no reply. The 10-18 fix build is live as of ~21:00 ET Sunday, so this week is the baseline it has to beat.**
 

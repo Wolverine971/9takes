@@ -233,6 +233,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'elon-musk', link: true, hasImage: true, lastmod: '2026-02-18', personaTitle: 'Technology\'s Apocalyptic Engineer', contentGrade: 8.9, types: ['techie', 'big-tech-founder'] },
 		{ name: 'friedrich-nietzsche', link: true, hasImage: true, lastmod: '2026-07-03', personaTitle: 'The Hermit Who Killed God', contentGrade: 8.8, types: ['historical'] },
 		{ name: 'george-rr-martin', link: true, hasImage: true, lastmod: '2025-12-21', personaTitle: 'Fantasy\'s Fortress Gardener', contentGrade: 8.9, types: ['author', 'novelist'] },
+		{ name: 'ilya-sutskever', link: true, hasImage: true, lastmod: '2026-10-25', personaTitle: 'The Scientist Who Went Offline', contentGrade: 8.7, types: ['techie', 'entrepreneur', 'frontier-builder'] },
 		{ name: 'jack-dorsey', link: true, hasImage: true, lastmod: '2026-03-23', personaTitle: 'Tech\'s Silent Architect', contentGrade: 8.5, types: ['techie', 'big-tech-founder'] },
 		{ name: 'john-d-rockefeller', link: true, hasImage: true, lastmod: '2026-06-22', personaTitle: 'The Ledger\'s First Billionaire', contentGrade: 8.8, types: ['entrepreneur', 'historical', 'historical-artist', 'business-operator'] },
 		{ name: 'larry-page', link: true, hasImage: true, lastmod: '2026-05-07', personaTitle: 'Silicon Valley\'s Quiet Systems Architect', contentGrade: 9, types: ['techie', 'entrepreneur', 'business-operator'] },

@@ -51,7 +51,7 @@ Most of that is now fixed and live (section 2). This tasker is what is left.
 
 #### A. Spam-update and noindex readout (run on or after 2026-10-10)
 
-**Status (2026-10-03):** Not started. Date-gated: run on or after 2026-10-10.
+**Status (2026-10-25):** Done. No spam-update hit: celebrity-page impressions -3% during the rollout and +2% after, clicks +28% after; rest of site moved the same way. 433 pages inspected, 0 "Excluded by noindex". Found 3 "Soft 404" pages, led by `depression-patterns-by-enneagram-type`. Readout and numbers: `docs/growth/growth-log.md` entry `### 2026-10-25`.
 
 - **Why:** Google's September 2026 spam update rolls out 2026-09-24 to about 2026-10-08, and early reports say it targets templated, AI-assisted programmatic pages. The 450 celebrity pages share one template. Also, the deploy-skew fix needs confirmation in Google's own data.
 - **Do:** copy the auth from `scripts/fetch-gsc-data.mjs` (do not edit it) into a scratch script. Pull daily clicks and impressions for `/personality-analysis/*` with `dataState: 'all'`. Compare 2026-09-24 to 2026-10-08 against the two weeks before. Then use the URL Inspection API on the top 25 pages by clicks and list any whose coverage says "Excluded by 'noindex' tag" with a last crawl after 2026-09-28.
@@ -162,7 +162,7 @@ The 144 KB root stylesheet plus the 33 KB `blog.css` block rendering on every pa
 
 #### O. Deploy-skew residual (only if item A finds noindex exclusions)
 
-**Status (2026-10-03):** Waiting on item A.
+**Status (2026-10-25):** Closed, not needed. Item A found 0 noindex exclusions across 433 inspected pages.
 
 HTML from the 2026-09-25 to 2026-09-28 deploys still renders the old error page with noindex, because those assets were dropped before the fix and the old HTML carries the old error component. This risk is aging out. If item A shows real exclusions, backfill the missing `/_app/immutable/*` files from the old deployment URLs into the next build's carry-over.
 

@@ -1,6 +1,7 @@
+<!-- docs/BLOG-CROSSLINK-INDEX.md -->
 # Blog Cross-Link Index
 
-_Generated: 2026-10-22 by `pnpm gen:crosslinks` (scripts/generate-crosslink-report.js)_
+_Generated: 2026-10-25 by `pnpm gen:crosslinks` (scripts/generate-crosslink-report.js)_
 _Search data: GSC 2026-07-19 → 2026-10-17 (pulled 2026-10-19)_
 
 **Scope.** Link counts cover **live posts only**: files a route actually serves with `published: true`
@@ -19,15 +20,23 @@ Link ideas to act on: [`docs/crosslinks/link-opportunities.md`](crosslinks/link-
 | Metric | Count |
 |---|---|
 | Live blog posts | 150 (+ 9 type pages) |
-| Published people pages | 455 |
+| Published people pages | 456 |
 | Completely isolated (0 in, 0 out) | 0 |
 | 0 incoming | 0 |
 | 0 outgoing | 0 |
 | Below gate (<3 in or <3 out) | 0 (0 not grandfathered) |
 | Broken internal links (live post → non-live page) | 0 |
 | Links that go through a 301 | 0 |
-| Broken/redirected links on people pages (draft mirror) | 0 |
+| Broken/redirected links on people pages (draft mirror) | 1 |
 | Body links: blog → blog / blog → people | 1,634 / 386 |
+
+### Broken or redirected links on people pages
+
+Fix in the draft, then sync with `pnpm push:people -- <Person> --sync`.
+
+| Draft | Linked |
+|---|---|
+| `src/blog/people/drafts/ilya-sutskever.md` | `/personality-analysis/greg-brockman` |
 
 ---
 
@@ -101,7 +110,7 @@ Live posts with 3 or fewer outgoing links, sorted by impressions. Readers land h
 People pages by search impressions and how many **blog posts** link to them in prose
 (the FamousTypes block on type pages and the `/personality-analysis/categories/*` listings link
 nearly every person, but those are not contextual links).
-207 of 455 people pages have at least one blog link.
+207 of 456 people pages have at least one blog link.
 
 | Person | Impressions | Clicks | Position | Blog links in | People links in |
 |---|---|---|---|---|---|
@@ -114,7 +123,7 @@ nearly every person, but those are not contextual links).
 | [Asmongold](/personality-analysis/asmongold) | 4,785 | 28 | 8.8 | 0 | 1 |
 | [Ariana Grande](/personality-analysis/ariana-grande) | 4,695 | 21 | 9.4 | 0 | 6 |
 | [Selena Gomez](/personality-analysis/selena-gomez) | 4,425 | 22 | 7.2 | 1 | 4 |
-| [Dario Amodei](/personality-analysis/dario-amodei) | 4,370 | 44 | 8.6 | 5 | 2 |
+| [Dario Amodei](/personality-analysis/dario-amodei) | 4,370 | 44 | 8.6 | 5 | 3 |
 | [Sabrina Carpenter](/personality-analysis/sabrina-carpenter) | 4,048 | 18 | 6.4 | 0 | 4 |
 | [Jack Black](/personality-analysis/jack-black) | 4,048 | 35 | 7.5 | 1 | 4 |
 | [Oliver Tree](/personality-analysis/oliver-tree) | 3,993 | 15 | 7.5 | 0 | 0 |
@@ -134,7 +143,7 @@ nearly every person, but those are not contextual links).
 ## People pages that need links
 
 A people page "needs links" with 2 or fewer contextual links in (blog posts + other people pages).
-**199 of 455** people pages need links; 63 have none.
+**200 of 456** people pages need links; 64 have none.
 Unlinked mentions on other people pages are queued in `link-opportunities.md` §4.
 
 | Person | Impressions | Position | Blog links in | People links in |
@@ -175,13 +184,13 @@ Unlinked mentions on other people pages are queued in `link-opportunities.md` §
 | 191 | 41 | 7,091 | `/enneagram-corner/enneagram-wings-complete-guide` |
 | 156 | 16 | 8,519 | `/enneagram-corner/enneagram-instinctual-subtypes` |
 | 149 | 14 | 3,317 | `/enneagram-corner/enneagram-type-3` |
-| 133 | 25 | 1,547 | `/enneagram-corner/enneagram-type-6` |
+| 134 | 25 | 1,547 | `/enneagram-corner/enneagram-type-6` |
 | 133 | 12 | 470 | `/enneagram-corner/enneagram-type-7` |
 | 132 | 15 | 2,151 | `/enneagram-corner/enneagram-type-4` |
 | 126 | 18 | 2,642 | `/enneagram-corner/enneagram-type-9` |
-| 124 | 13 | 1,765 | `/enneagram-corner/enneagram-type-5` |
+| 125 | 13 | 1,765 | `/enneagram-corner/enneagram-type-5` |
 | 123 | 14 | 942 | `/enneagram-corner/enneagram-type-8` |
-| 107 | 13 | 386 | `/enneagram-corner/enneagram-type-1` |
+| 108 | 13 | 386 | `/enneagram-corner/enneagram-type-1` |
 | 103 | 16 | 925 | `/enneagram-corner/enneagram-type-2` |
 | 63 | 24 | 2,222 | `/enneagram-corner/relationship-communication-guide` |
 | 54 | 14 | 142 | `/enneagram-corner/enneagram-connecting-lines` |
@@ -287,10 +296,10 @@ Sorted by impressions. In = blog + people pages linking in. Out = links to live 
 | 2,013 | 40.4 | 24 (24/0) | 40 (40/0) | What's My Enneagram Type? (The 5-Minute Answer You Actually Need) | `/enneagram-corner/enneagram-tldr` |
 | 1,920 | 14.6 | 9 (8/1) | 13 (13/0) | Enneagram Careers: Find the Working Conditions That Fit You | `/enneagram-corner/enneagram-types-and-career-choices` |
 | 1,823 | 8.6 | 12 (7/5) | 14 (14/0) | Enneagram and Addiction: Why Each Type Self-Medicates Differently | `/enneagram-corner/mental-health/enneagram-addiction-recovery-guide` |
-| 1,765 | 13.6 | 124 (55/69) | 13 (13/0) | Enneagram Type 5: Observer - Inside the Fortress Mind | `/enneagram-corner/enneagram-type-5` |
+| 1,765 | 13.6 | 125 (55/70) | 13 (13/0) | Enneagram Type 5: Observer - Inside the Fortress Mind | `/enneagram-corner/enneagram-type-5` |
 | 1,625 | 8.5 | 5 (5/0) | 9 (9/0) | How Common Is Each Enneagram Type? (Rarest to Most Common, and Why th… | `/enneagram-corner/how-common-is-each-enneagram-type` |
 | 1,568 | 11.9 | 30 (15/15) | 9 (9/0) | Why Type 6 Isn't the Only Anxious Type (Every Type's Hidden Anxiety P… | `/enneagram-corner/mental-health/enneagram-anxiety-complete-guide` |
-| 1,547 | 55.6 | 133 (51/82) | 25 (15/10) | Enneagram Type 6: Loyalist - Search for Solid Ground | `/enneagram-corner/enneagram-type-6` |
+| 1,547 | 55.6 | 134 (51/83) | 25 (15/10) | Enneagram Type 6: Loyalist - Search for Solid Ground | `/enneagram-corner/enneagram-type-6` |
 | 1,486 | 53.0 | 5 (5/0) | 18 (18/0) | The 9 Coworker Types: Each Enneagram as Boss, Peer, Report | `/enneagram-corner/enneagram-types-working-in-teams` |
 | 1,438 | 25.7 | 3 (3/0) | 3 (3/0) | Is the Enneagram Religious? (The Truth About Its Spiritual Origins) | `/enneagram-corner/enneagram-and-religion` |
 | 1,344 | 8.6 | 24 (22/2) | 21 (18/3) | Enneagram Strengths and Weaknesses: Why Each Type's Superpower Is Als… | `/enneagram-corner/enneagram-strengths-and-weaknesses` |
@@ -325,7 +334,7 @@ Sorted by impressions. In = blog + people pages linking in. Out = links to live 
 | 413 | 17.1 | 3 (3/0) | 10 (10/0) | How Each Enneagram Type Resists Therapy | `/enneagram-corner/mental-health/enneagram-therapy-resistance-guide` |
 | 396 | 27.7 | 7 (7/0) | 15 (15/0) | Enneagram vs Myers-Briggs: Which Actually Explains You Better? | `/enneagram-corner/enneagram-vs-meyers-briggs` |
 | 390 | 24.5 | 35 (35/0) | 10 (10/0) | Find Your Enneagram Type in 10 Minutes (4 Simple Steps) | `/enneagram-corner/beginners-guide-to-determining-your-enneagram-type` |
-| 386 | 15.6 | 107 (49/58) | 13 (13/0) | Enneagram Type 1: Perfectionist - The Inner Courtroom | `/enneagram-corner/enneagram-type-1` |
+| 386 | 15.6 | 108 (49/59) | 13 (13/0) | Enneagram Type 1: Perfectionist - The Inner Courtroom | `/enneagram-corner/enneagram-type-1` |
 | 360 | 11.5 | 27 (27/0) | 21 (21/0) | The Party Test: What Your Social Style Reveals About Your Type | `/enneagram-corner/enneagram-types-at-party` |
 | 346 | 11.3 | 3 (3/0) | 17 (17/0) | How All 9 Enneagram Types Flex (And What They Need) | `/enneagram-corner/how-each-enneagram-flexes` |
 | 324 | 6.2 | 5 (5/0) | 35 (4/31) | What Enneagram Type Are Most Musicians? The Data Says Type 4 | `/pop-culture/what-enneagram-type-are-most-musicians` |

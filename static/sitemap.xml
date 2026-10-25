@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://9takes.com/blog</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-10-25</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/book-session</loc>
@@ -149,11 +149,11 @@
   </url>
   <url>
     <loc>https://9takes.com/corpus-stats</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-10-23</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-23</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner/90-day-personality-maxing-blueprint</loc>
@@ -206,7 +206,7 @@
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner/enneagram-and-mental-illness</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2026-10-23</lastmod>
     <image:image>
       <image:loc>https://9takes.com/blogs/greek-statue-2-sided-mask.webp</image:loc>
     </image:image>
@@ -633,7 +633,7 @@
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner/mental-health</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-23</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner/mental-health/enneagram-addiction-recovery-guide</loc>
@@ -790,7 +790,7 @@
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner/subtopic/situational</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-23</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner/subtopic/workplace</loc>
@@ -947,7 +947,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-10-25</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/aaron-pierre</loc>
@@ -1497,7 +1497,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-10-25</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/authors-thinkers</loc>
@@ -2162,6 +2162,13 @@
     <lastmod>2026-05-06</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/8s/Ilona-Maher.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://9takes.com/personality-analysis/ilya-sutskever</loc>
+    <lastmod>2026-10-25</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/5s/Ilya-Sutskever.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -4072,7 +4079,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/5</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-25</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/6</loc>
