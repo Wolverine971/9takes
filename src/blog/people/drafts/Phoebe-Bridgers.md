@@ -13,7 +13,7 @@ published: true
 enneagram: 4
 type: ['musician']
 person: 'Phoebe-Bridgers'
-suggestions: ['Taylor-Swift', 'SZA', 'Lana-Del-Rey', 'Billie-Eilish', 'Gracie-Abrams']
+suggestions: ['sombr', 'Taylor-Swift', 'SZA', 'Lana-Del-Rey', 'Billie-Eilish', 'Gracie-Abrams']
 wikipedia: 'https://en.wikipedia.org/wiki/Phoebe_Bridgers'
 wikidata_qid: 'Q24883319'
 imdb_id: 'nm5353667'
@@ -391,3 +391,5 @@ Repaired:
 Protected: type call, medium confidence, all evidence, the accepted perspective repairs, and every narrative section.
 This is the pipeline's single targeted revision pass.
 -->
+
+**Related reading:** [Sombr's open-case personality profile](/personality-analysis/sombr).

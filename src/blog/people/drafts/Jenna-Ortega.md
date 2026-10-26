@@ -15,6 +15,7 @@ type: ['newMovieStar', 'rising-star']
 person: 'jenna-ortega'
 suggestions:
   [
+    'inde-navarrette',
     'Sydney-Sweeney',
     'Zendaya',
     'Timothee-Chalamet',
@@ -248,3 +249,5 @@ Her slate through 2026 includes _The Gallerist_ (which premiered at Sundance in 
 At some point you have to wonder whether the script she's been carrying for a decade — the one she won't put herself in — is her attempt to finally create something that isn't about being seen. Or whether the running itself has become the architecture, and dismantling it would mean confronting the existential child underneath who always believed the world was ending.
 
 The girl who performed autopsies on dead lizards grew up to become the most famous dead-eyed character on television. She built an empire of composure on top of a foundation of anxiety. And every night, she walks up and down the stairs six times, because that's what she thinks she needs to do to keep the world from breaking in.
+
+**Related reading:** [Inde Navarrette's open-case personality profile](/personality-analysis/inde-navarrette).

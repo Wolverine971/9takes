@@ -186,6 +186,8 @@ export const sha256 = (value) => createHash('sha256').update(value).digest('hex'
 export const isV3 = (data) => data?.editorial_workflow?.version === WORKFLOW_VERSION;
 // Publication bookkeeping is deliberately excluded. All other metadata,
 // including birth dates, FAQs and citations, is part of the reviewed surface.
+// `path` is the repo-location label `pnpm label-paths` writes into frontmatter.
+// Hashing it let every label-paths run invalidate all pending releases (2026-10-26).
 const BOOKKEEPING = new Set([
 	'content_quality',
 	'editorial_workflow',
@@ -195,8 +197,11 @@ const BOOKKEEPING = new Set([
 	'published',
 	'loc',
 	'changefreq',
-	'priority'
+	'priority',
+	'path'
 ]);
+// Hashes frozen before `path` became bookkeeping included it when present.
+const LEGACY_BOOKKEEPING = new Set([...BOOKKEEPING].filter((key) => key !== 'path'));
 /** @param {any} value @returns {any} */
 function stable(value) {
 	if (value instanceof Date) return value.toISOString();
@@ -209,12 +214,10 @@ function stable(value) {
 		);
 	return value;
 }
-/** @param {string} markdown */
-export function editorialHash(markdown) {
+/** @param {string} markdown @param {Set<string>} excluded */
+function hashExcluding(markdown, excluded) {
 	const { data, content } = matter(markdown, {});
-	const metadata = Object.fromEntries(
-		Object.entries(data).filter(([key]) => !BOOKKEEPING.has(key))
-	);
+	const metadata = Object.fromEntries(Object.entries(data).filter(([key]) => !excluded.has(key)));
 	return sha256(
 		JSON.stringify(stable(metadata)) +
 			'\n' +
@@ -222,6 +225,18 @@ export function editorialHash(markdown) {
 				.replace(/<!--[\s\S]*?-->/g, '')
 				.replace(/\r\n?/g, '\n')
 				.trim()
+	);
+}
+/** @param {string} markdown */
+export function editorialHash(markdown) {
+	return hashExcluding(markdown, BOOKKEEPING);
+}
+/** True when a stored hash matches this markdown under the current or pre-`path` rule.
+ * @param {string} markdown @param {unknown} stored */
+export function matchesEditorialHash(markdown, stored) {
+	return (
+		typeof stored === 'string' &&
+		(stored === editorialHash(markdown) || stored === hashExcluding(markdown, LEGACY_BOOKKEEPING))
 	);
 }
 /** Remove previous grades and private ledgers before independent assessment.
@@ -506,7 +521,7 @@ export function assessEditorial({
 		if (evidence.status !== 'ready') blockers.push('insufficient_evidence');
 		if (Number(matter(markdown, {}).data.enneagram) !== evidence.type_hypothesis.type)
 			blockers.push('type_hypothesis_mismatch');
-		if (verification.content_sha256 !== editorialHash(markdown))
+		if (!matchesEditorialHash(markdown, verification.content_sha256))
 			blockers.push('stale_verification');
 		if (verification.evidence_sha256 !== sha256(JSON.stringify(evidence)))
 			blockers.push('stale_evidence_verification');
@@ -635,7 +650,7 @@ export async function getEditorialPublishStatus(filePath, repoRoot = process.cwd
 		if (
 			manifest.schema_version !== 3 ||
 			manifest.subject !== path.basename(filePath, '.md') ||
-			manifest.content_sha256 !== currentContentSha256
+			!matchesEditorialHash(markdown, manifest.content_sha256)
 		)
 			return fail('stale_or_invalid_release');
 		/** @type {Record<string, any>} */
@@ -655,9 +670,14 @@ export async function getEditorialPublishStatus(filePath, repoRoot = process.cwd
 		const reviews = Object.entries(artifacts)
 			.filter(([key]) => key.startsWith('review-'))
 			.map(([, value]) => reviewSchema.parse(value));
-		const frozenHash = editorialHash(artifacts.draft);
 		const evidenceHash = sha256(JSON.stringify(evidenceSchema.parse(artifacts.draft_evidence)));
-		if (reviews.some((r) => r.content_sha256 !== frozenHash || r.evidence_sha256 !== evidenceHash))
+		if (
+			reviews.some(
+				(r) =>
+					!matchesEditorialHash(artifacts.draft, r.content_sha256) ||
+					r.evidence_sha256 !== evidenceHash
+			)
+		)
 			return fail('stale_review');
 		const expanded =
 			manifest.expanded ||

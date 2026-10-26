@@ -13,7 +13,7 @@ published: true
 enneagram: 4
 type: ['newMovieStar', 'rising-star']
 person: 'anya-taylor-joy'
-suggestions: ['Zendaya', 'Timothee-Chalamet', 'Sydney-Sweeney', 'Billie-Eilish']
+suggestions: ['inde-navarrette', 'Zendaya', 'Timothee-Chalamet', 'Sydney-Sweeney', 'Billie-Eilish']
 wikipedia: 'https://en.wikipedia.org/wiki/Anya_Taylor-Joy'
 wikidata_qid: 'Q20882479'
 imdb_id: 'nm5896355'
@@ -267,3 +267,5 @@ There it is. The thing that makes Anya Taylor-Joy one of the most psychologicall
 Every character she inhabits gives her a home. Every character she leaves makes her homeless again. But she's stopped looking for the missing piece exclusively in other people's stories — she's building her own now, with a man who shares her birthday, a chihuahua who doesn't know he's small, and a still-unanswered question in Spanish.
 
 > **Disclaimer:** This analysis of Anya Taylor-Joy's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Anya Taylor-Joy.
+
+**Related reading:** [Inde Navarrette's open-case personality profile](/personality-analysis/inde-navarrette).

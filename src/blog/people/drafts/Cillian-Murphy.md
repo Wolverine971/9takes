@@ -13,7 +13,7 @@ published: true
 enneagram: 5
 type: ['celebrity', 'screen-icon']
 person: 'cillian-murphy'
-suggestions: ['Christopher-Nolan', 'Robert-Oppenheimer', 'Tom-Hardy', 'Joaquin-Phoenix']
+suggestions: ['josh-hartnett', 'Christopher-Nolan', 'Robert-Oppenheimer', 'Tom-Hardy', 'Joaquin-Phoenix']
 wikipedia: 'https://en.wikipedia.org/wiki/Cillian_Murphy'
 wikidata_qid: 'Q202589'
 imdb_id: 'nm0614165'
@@ -516,3 +516,5 @@ PRIORITY FIXES (numbered, 3 max):
 </script>
 
 </svelte:head>
+
+**Related reading:** [Josh Hartnett's personality profile](/personality-analysis/josh-hartnett).

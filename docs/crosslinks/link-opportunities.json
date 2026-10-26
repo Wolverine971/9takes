@@ -13,11 +13,11 @@
 		"minOut": 3
 	},
 	"counts": {
-		"candidates": 379,
+		"candidates": 377,
 		"gateDebt": 0,
 		"topBlog": 40,
-		"peopleBridge": 24,
-		"peopleToPeople": 5,
+		"peopleBridge": 22,
+		"peopleToPeople": 3,
 		"skipped": 236
 	},
 	"gateDebt": [],
@@ -1591,33 +1591,6 @@
 			"excerpt": "2. **Microsoft's $13 billion is too entangled to unwind.** Satya Nadella made it instantly clear that if the board pushed Altman out, Microsoft would hire him and the entire research team."
 		},
 		{
-			"id": "/pop-culture/musk-vs-altman-trial-personality-dynamics -> /personality-analysis/ilya-sutskever",
-			"score": 1.12,
-			"target": {
-				"url": "/personality-analysis/ilya-sutskever",
-				"title": "Ilya Sutskever",
-				"kind": "person",
-				"section": "people",
-				"impressions": 0,
-				"clicks": 0,
-				"position": null,
-				"inbound": 0
-			},
-			"source": {
-				"url": "/pop-culture/musk-vs-altman-trial-personality-dynamics",
-				"file": "src/blog/pop-culture/musk-vs-altman-trial-personality-dynamics.md",
-				"section": "pop-culture",
-				"impressions": 9,
-				"outCount": 7
-			},
-			"line": 88,
-			"anchor": "Ilya Sutskever",
-			"phrase": "Ilya Sutskever",
-			"phraseKind": "name",
-			"mentionScore": 3,
-			"excerpt": "…ended the lawsuit. It did not make the trial pointless. Musk, Altman, Brockman, Ilya Sutskever, [Mira Murati](/personality-analysis/mira-murati), former board members, Microsoft executives, and others put years of privat…"
-		},
-		{
 			"id": "/pop-culture/tech-titans-ai-wars -> /personality-analysis/alexandr-wang",
 			"score": 1.1,
 			"target": {
@@ -1643,33 +1616,6 @@
 			"phraseKind": "name",
 			"mentionScore": 3,
 			"excerpt": "…ed $14.3 billion for a 49% stake in Scale AI and installed its 28-year-old CEO, Alexandr Wang, as Meta's new Chief AI Officer, leading the newly formed Meta Superintelligence Labs. Members of the core research team were …"
-		},
-		{
-			"id": "/pop-culture/artificial-movie-real-people -> /personality-analysis/ilya-sutskever",
-			"score": 1.05,
-			"target": {
-				"url": "/personality-analysis/ilya-sutskever",
-				"title": "Ilya Sutskever",
-				"kind": "person",
-				"section": "people",
-				"impressions": 0,
-				"clicks": 0,
-				"position": null,
-				"inbound": 0
-			},
-			"source": {
-				"url": "/pop-culture/artificial-movie-real-people",
-				"file": "src/blog/pop-culture/artificial-movie-real-people.md",
-				"section": "pop-culture",
-				"impressions": 0,
-				"outCount": 10
-			},
-			"line": 99,
-			"anchor": "Ilya Sutskever",
-			"phrase": "Ilya Sutskever",
-			"phraseKind": "name",
-			"mentionScore": 3,
-			"excerpt": "… screenplay, with Andrew Garfield as Altman and Yura Borisov as chief scientist Ilya Sutskever. Early reviews say it follows the real timeline, starting in 2003, but changes the motives, so treat its scenes and dialogue …"
 		},
 		{
 			"id": "/pop-culture/cancel-culture-enneagram-type -> /personality-analysis/dave-chappelle",
@@ -1754,44 +1700,6 @@
 		}
 	],
 	"peopleToPeople": [
-		{
-			"id": "/personality-analysis/sam-altman -> /personality-analysis/ilya-sutskever",
-			"source": {
-				"url": "/personality-analysis/sam-altman",
-				"file": "src/blog/people/drafts/Sam-Altman.md",
-				"outCount": 7
-			},
-			"target": {
-				"url": "/personality-analysis/ilya-sutskever",
-				"name": "Ilya Sutskever",
-				"inCount": 0,
-				"impressions": 0,
-				"position": null
-			},
-			"line": 402,
-			"anchor": "Ilya Sutskever",
-			"excerpt": "In May 2024, co-founder and chief scientist Ilya Sutskever, the man who had voted to fire Altman six months earlier, quietly left OpenAI to found his own safety-focused startup. Days later, Jan Leike, who co-led OpenAI's Superalignment team, resigned and went public: \"Over the past years, safety culture and processes have [taken a backseat to shiny products](https://x.com/janleike/status/1791498184671605209).\" The Superalignment team, announced just a year earlier with a pledge of 20% of OpenAI's compute, was dissolved. Its members were reassigned.",
-			"typeClaim": null
-		},
-		{
-			"id": "/personality-analysis/mira-murati -> /personality-analysis/ilya-sutskever",
-			"source": {
-				"url": "/personality-analysis/mira-murati",
-				"file": "src/blog/people/drafts/Mira-Murati.md",
-				"outCount": 7
-			},
-			"target": {
-				"url": "/personality-analysis/ilya-sutskever",
-				"name": "Ilya Sutskever",
-				"inCount": 0,
-				"impressions": 0,
-				"position": null
-			},
-			"line": 253,
-			"anchor": "Ilya Sutskever",
-			"excerpt": "Here is the part that complicates the diplomat image, and the part the Nine lens actually explains. Murati had spent years absorbing what she saw as Altman's way of running the company, and she did not shout about it. She wrote it down. The New York Times reported in March 2024 that before the firing she sent Altman a private memo questioning his management and shared her concerns with the board, a move that \"helped to propel\" his ouster. Keach Hagey's 2025 book, The Optimist, goes further: the dossier of alleged lying and toxic behavior that Ilya Sutskever sent the board was \"largely backed up by screenshots from Murati's Slack channel that Sutskever had compiled.\" Her frustration, typed quietly into a chat window, became part of the paper trail that brought down OpenAI's CEO.",
-			"typeClaim": null
-		},
 		{
 			"id": "/personality-analysis/sabrina-carpenter -> /personality-analysis/madonna",
 			"source": {

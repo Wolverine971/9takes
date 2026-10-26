@@ -5,7 +5,7 @@ description: "Is Artificial a true story? The real people behind Guadagnino's Op
 author: 'DJ Wayne'
 date: '2026-10-04'
 loc: 'https://9takes.com/pop-culture/artificial-movie-real-people'
-lastmod: '2026-10-04'
+lastmod: '2026-10-26'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -79,7 +79,7 @@ path: src/blog/pop-culture/artificial-movie-real-people.md
           "name": "What Enneagram types are the real people in Artificial?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "9takes reads Sam Altman as a Type 4, Mira Murati as a Type 9, and Elon Musk and Dario Amodei as Type 5s. Those typings come from each person's own words and documented actions, never from an actor's performance. 9takes has not published analyses of Ilya Sutskever, Greg Brockman, or Geoffrey Hinton."
+            "text": "9takes reads Sam Altman as a Type 4, Mira Murati as a Type 9, and Elon Musk and Dario Amodei as Type 5s. Its Ilya Sutskever profile favors Type 5 at medium confidence, with Type 6 as the strongest alternative. Those typings come from each person's own words and documented actions, never from an actor's performance. 9takes has not published analyses of Greg Brockman or Geoffrey Hinton."
           }
         }
       ]
@@ -103,7 +103,7 @@ Yes. <em>Artificial</em> dramatizes real events: OpenAI's board fired CEO Sam Al
 
 Within five days, OpenAI had agreed to bring him back.
 
-In between, the people around him read the same news in very different ways. Mira Murati, suddenly interim CEO, tried to keep the company from splitting. Ilya Sutskever voted Altman out on Friday and signed a letter demanding his return on Monday, by which time Greg Brockman had already quit. Microsoft's Satya Nadella offered Altman a landing spot while saying he still backed OpenAI.
+In between, the people around him read the same news in very different ways. Mira Murati, suddenly interim CEO, tried to keep the company from splitting. [Ilya Sutskever](/personality-analysis/ilya-sutskever) voted Altman out on Friday and signed a letter demanding his return on Monday, by which time Greg Brockman had already quit. Microsoft's Satya Nadella offered Altman a landing spot while saying he still backed OpenAI.
 
 _Artificial_ premiered at the New York Film Festival on October 5, and the first reviews describe two big choices. The film begins twenty years before that Friday, with a 17-year-old Sutskever walking into Geoffrey Hinton's office in Toronto. And it picks a hero and a villain. Awards Radar calls Borisov's Sutskever "the moral center of the film." The Playlist's Gregory Ellwood posted that Garfield gives Altman "the most epic character assassination ever."
 
@@ -111,15 +111,15 @@ The film builds its story around those two men. Here is everyone involved, and w
 
 ## Artificial cast: who plays who
 
-| Actor                                                    | Plays                                                                          | 9takes read                                  |
-| -------------------------------------------------------- | ------------------------------------------------------------------------------ | -------------------------------------------- |
-| [Andrew Garfield](/personality-analysis/andrew-garfield) | Sam Altman, the CEO who was fired and reinstated                               | [Type 4](/personality-analysis/sam-altman)   |
-| Yura Borisov                                             | Ilya Sutskever, chief scientist and one of four directors who voted Altman out | Not yet typed                                |
-| Monica Barbaro                                           | Mira Murati, CTO and interim CEO that weekend                                  | [Type 9](/personality-analysis/mira-murati)  |
-| Cooper Hoffman                                           | Greg Brockman, president and board chair, who quit                             | Not yet typed                                |
-| Ike Barinholtz                                           | Elon Musk, co-founder and early funder                                         | [Type 5](/personality-analysis/elon-musk)    |
-| Mark Rylance                                             | Geoffrey Hinton, Sutskever's doctoral advisor                                  | Not yet typed                                |
-| Not yet listed                                           | Dario Amodei, who left OpenAI in 2020 and founded Anthropic                    | [Type 5](/personality-analysis/dario-amodei) |
+| Actor                                                    | Plays                                                                          | 9takes read                                                       |
+| -------------------------------------------------------- | ------------------------------------------------------------------------------ | ----------------------------------------------------------------- |
+| [Andrew Garfield](/personality-analysis/andrew-garfield) | Sam Altman, the CEO who was fired and reinstated                               | [Type 4](/personality-analysis/sam-altman)                        |
+| Yura Borisov                                             | Ilya Sutskever, chief scientist and one of four directors who voted Altman out | [Type 5, medium confidence](/personality-analysis/ilya-sutskever) |
+| Monica Barbaro                                           | Mira Murati, CTO and interim CEO that weekend                                  | [Type 9](/personality-analysis/mira-murati)                       |
+| Cooper Hoffman                                           | Greg Brockman, president and board chair, who quit                             | Not yet typed                                                     |
+| Ike Barinholtz                                           | Elon Musk, co-founder and early funder                                         | [Type 5](/personality-analysis/elon-musk)                         |
+| Mark Rylance                                             | Geoffrey Hinton, Sutskever's doctoral advisor                                  | Not yet typed                                                     |
+| Not yet listed                                           | Dario Amodei, who left OpenAI in 2020 and founded Anthropic                    | [Type 5](/personality-analysis/dario-amodei)                      |
 
 The cast also includes Jason Schwartzman, Chris O'Dowd, Fedor Fedotov, Cooper Koch, Billie Lourd, Zosia Mamet, Angus Imrie, Nicholas Hamilton, Thaddea Graham, Will Angus, and Will Price. Public listings haven't matched most of them to characters.
 
@@ -189,7 +189,7 @@ Sutskever co-founded OpenAI, ran its research as chief scientist, and in 2023 be
 
 He compiled the memo against Altman, some of it secondhand through Murati, and voted to remove him. Three days later he signed the employee letter and posted: "I deeply regret my participation in the board's actions. I never intended to harm OpenAI. I love everything we've built together and I will do everything I can to reunite the company." He left OpenAI in May 2024.
 
-His post gives the same reason Murati gave under oath: the company was coming apart. Any typing of Sutskever would have to explain, from his own words, how Friday's vote and Monday's signature fit together.
+His post gives the same reason Murati gave under oath: the company was coming apart. The [full Sutskever analysis](/personality-analysis/ilya-sutskever) favors Type 5 at medium confidence, with Type 6 as the strongest alternative. It treats Monday's reversal as evidence that fits both readings, rather than a settled explanation of his motives.
 
 ### Greg Brockman quit within hours
 

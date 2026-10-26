@@ -3,10 +3,42 @@ import { describe, expect, it } from 'vitest';
 import {
 	QUALITY_GATES,
 	calculateQuality,
+	editorialHash,
 	evidenceSchema,
+	matchesEditorialHash,
 	profileFormat,
 	validateEvidence
 } from './blogEditorial.js';
+
+describe('editorial hash and the label-paths `path` field', () => {
+	const released = "---\ntitle: 'A'\nenneagram: 6\n---\n\nBody text.\n";
+	const labelled =
+		"---\ntitle: 'A'\nenneagram: 6\npath: src/blog/people/drafts/a.md\n---\n\nBody text.\n";
+
+	it('ignores a path line added after release', () => {
+		expect(editorialHash(labelled)).toBe(editorialHash(released));
+		expect(matchesEditorialHash(labelled, editorialHash(released))).toBe(true);
+	});
+
+	it('still accepts hashes frozen while path counted', () => {
+		// Produced by the pre-2026-10-26 editorialHash for `labelled` (path included).
+		const legacyHash = '4665d634bf990932db0b685e666f0675b5cb31953620565a0054535958eeee8b';
+		expect(editorialHash(labelled)).not.toBe(legacyHash);
+		expect(matchesEditorialHash(labelled, legacyHash)).toBe(true);
+	});
+
+	it('still catches reviewed-content edits', () => {
+		const edited = labelled.replace('Body text.', 'Different body.');
+		expect(matchesEditorialHash(edited, editorialHash(released))).toBe(false);
+		expect(
+			matchesEditorialHash(
+				released.replace('enneagram: 6', 'enneagram: 7'),
+				editorialHash(released)
+			)
+		).toBe(false);
+		expect(matchesEditorialHash(released, undefined)).toBe(false);
+	});
+});
 
 const source = (id) => ({
 	id,

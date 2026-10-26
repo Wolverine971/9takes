@@ -12,7 +12,7 @@ loc: 'https://9takes.com/personality-analysis/greg-brockman'
 lastmod: '2026-10-07'
 changefreq: monthly
 priority: '0.6'
-published: true
+published: false
 enneagram: '3'
 type:
   - techie

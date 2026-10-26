@@ -1,7 +1,7 @@
 # Link Opportunities
 
 _Generated: 2026-10-26 by `pnpm gen:crosslinks`. Worked by `/crosslink-queue`._
-_Search data: GSC 2026-07-19 → 2026-10-17. 249 candidate links found (+130 weaker ones offered only for gate debt); 236 suppressed in `docs/crosslinks/skipped.json`._
+_Search data: GSC 2026-07-19 → 2026-10-17. 247 candidate links found (+130 weaker ones offered only for gate debt); 236 suppressed in `docs/crosslinks/skipped.json`._
 
 Each row is a sentence in a live post that already talks about another page without linking to it.
 Score = target's search demand × link deficit × mention strength × source visibility (cross-section links get a bonus).
@@ -78,9 +78,7 @@ Sorted by impressions. 0 of these are NOT grandfathered and fail `pnpm crosslink
 | 2.92 | `/pop-culture/twitter-x-personality-types-toxic` (L225) | `/personality-analysis/elon-musk` | "Elon Musk" | **Did X become more toxic after Elon Musk bought Twitter?** |
 | 2.56 | `/enneagram-corner/enneagram-wings-complete-guide` (L239) | `/personality-analysis/bill-gates` | "Bill Gates" | **Public-figure interpretations:** Bill Gates, [Stephen Hawking](/personality-analysis/stephen-hawking), [Mark Zuckerberg](/personality-ana… |
 | 2.28 | `/pop-culture/fallen-founders-enneagram-analysis` (L150) | `/personality-analysis/satya-nadella` | "Satya Nadella" | 2. **Microsoft's $13 billion is too entangled to unwind.** Satya Nadella made it instantly clear that if the board pushed Altman out, Micro… |
-| 1.12 | `/pop-culture/musk-vs-altman-trial-personality-dynamics` (L88) | `/personality-analysis/ilya-sutskever` | "Ilya Sutskever" | …ended the lawsuit. It did not make the trial pointless. Musk, Altman, Brockman, Ilya Sutskever, [Mira Murati](/personality-analysis/mira-m… |
 | 1.1 | `/pop-culture/tech-titans-ai-wars` (L256) | `/personality-analysis/alexandr-wang` | "Alexandr Wang" | …ed $14.3 billion for a 49% stake in Scale AI and installed its 28-year-old CEO, Alexandr Wang, as Meta's new Chief AI Officer, leading the… |
-| 1.05 | `/pop-culture/artificial-movie-real-people` (L99) | `/personality-analysis/ilya-sutskever` | "Ilya Sutskever" | … screenplay, with Andrew Garfield as Altman and Yura Borisov as chief scientist Ilya Sutskever. Early reviews say it follows the real time… |
 | 0.79 | `/pop-culture/cancel-culture-enneagram-type` (L251) | `/personality-analysis/dave-chappelle` | "Dave Chappelle" | …temperature is visibly lower: Joe Rogan is still the largest podcaster in the world, Dave Chappelle continues to release specials Netflix … |
 | 0.74 | `/pop-culture/psychology-of-public-shame` (L138) | `/personality-analysis/will-smith` | "Will Smith" | …e construct._ "I just see him as a sad, broken human being" is a sentence about Will Smith only on the surface. Underneath, it is the soun… |
 | 0.61 | `/pop-culture/podcast-bros-enneagram-analysis` (L346) | `/personality-analysis/andrew-schulz` | "Andrew Schulz" | - **The Second Generation**: A wave of newer hosts—Andrew Schulz, Theo Von, Danny Jones—are building audiences using the infrastructure the… |
@@ -90,12 +88,10 @@ Sorted by impressions. 0 of these are NOT grandfathered and fail `pnpm crosslink
 A people page names another person who needs links (2 or fewer contextual links in) without linking them.
 Sources with 10+ internal links are skipped; at most 2 per source, and targets fill to 3.
 These pages live in the database: edit the draft, then sync (see `/crosslink-queue` step 4b).
-6 unlinked mentions found; top 5 after caps.
+4 unlinked mentions found; top 3 after caps.
 
 | Target (in, impressions) | Source (line) | Anchor | Sentence |
 |---|---|---|---|
-| `/personality-analysis/ilya-sutskever` (0, 0) | `src/blog/people/drafts/Sam-Altman.md` (L402) | "Ilya Sutskever" | In May 2024, co-founder and chief scientist Ilya Sutskever, the man who had voted to fire Altman six months earlier, quietly left OpenAI to… |
-| `/personality-analysis/ilya-sutskever` (0, 0) | `src/blog/people/drafts/Mira-Murati.md` (L253) | "Ilya Sutskever" | Here is the part that complicates the diplomat image, and the part the Nine lens actually explains. Murati had spent years absorbing what s… |
 | `/personality-analysis/madonna` (1, 0) | `src/blog/people/drafts/Sabrina-Carpenter.md` (L407) | "Madonna" | She made good on it with a show she had spent seven months building. During the second weekend on April 17, Madonna rose through the stage … |
 | `/personality-analysis/madonna` (1, 0) | `src/blog/people/drafts/Chappell-Roan.md` (L218) | "Madonna" | Chappell Roan's sound is a campy, theatrical, synth-drenched maximalism pulled from '80s pop, drag culture, and Midwest yearning. Cyndi Lau… |
 | `/personality-analysis/emma-stone` (2, 0) | `src/blog/people/drafts/Jimmy-Fallon.md` (L195) | "Emma Stone" | Lip Sync Battle, Box of Lies, Wheel of Musical Impressions, Egg Russian Roulette. The genius was never the games themselves. It was that he… |

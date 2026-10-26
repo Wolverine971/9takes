@@ -617,7 +617,10 @@ const AMBIGUOUS_OUTLETS = [
 	// TIME-sourced quote in the tech vertical graded vague (Arthur-Mensch pass,
 	// 2026-09-10). Kept ambiguous rather than in OUTLETS: "TIME" also appears as
 	// a shouted common noun, so the adjacent-cue rule still has to earn it.
-	'TIME'
+	'TIME',
+	// WIRED also styles itself in all caps, and 35 people drafts cite it that
+	// way. Same case-sensitivity gap as TIME (Nathan-Fielder pass, 2026-10-26).
+	'WIRED'
 ];
 const ATTR_CUE = '(?:told|to|in|for|on|per|via|according to|wrote (?:in|for)|said (?:in|to)|[—-])';
 
@@ -643,7 +646,8 @@ function hasOutlet(text) {
 	for (const o of AMBIGUOUS_OUTLETS) {
 		const esc = o.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 		const re = new RegExp(
-			`${ATTR_CUE}\\s+${esc}\\b|\\b${esc}\\s+(?:magazine|reported|wrote|said)\\b|,\\s*${esc}\\s*,\\s*(?:19|20)\\d{2}`
+			// `\[?` lets a markdown link open between the cue and the name ("told [WIRED](...)").
+			`${ATTR_CUE}\\s+\\[?${esc}\\b|\\b${esc}\\s+(?:magazine|reported|wrote|said)\\b|,\\s*\\[?${esc}\\s*,\\s*(?:19|20)\\d{2}`
 		);
 		if (re.test(text)) return o;
 	}

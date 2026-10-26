@@ -5,7 +5,7 @@ description: 'OpenAI beat Elon Musk in court, but jurors never decided if Sam Al
 author: 'DJ Wayne'
 date: '2026-05-01'
 loc: 'https://9takes.com/pop-culture/musk-vs-altman-trial-personality-dynamics'
-lastmod: '2026-07-19'
+lastmod: '2026-10-26'
 changefreq: 'monthly'
 priority: '0.7'
 published: true
@@ -85,7 +85,7 @@ The verdict does not mean "OpenAI never betrayed its mission." It means "Musk wa
 
 ## What Three Weeks of Testimony Actually Revealed
 
-The statute of limitations ended the lawsuit. It did not make the trial pointless. Musk, Altman, Brockman, Ilya Sutskever, [Mira Murati](/personality-analysis/mira-murati), former board members, Microsoft executives, and others put years of private conflict into a public record.
+The statute of limitations ended the lawsuit. It did not make the trial pointless. Musk, Altman, Brockman, [Ilya Sutskever](/personality-analysis/ilya-sutskever), [Mira Murati](/personality-analysis/mira-murati), former board members, Microsoft executives, and others put years of private conflict into a public record.
 
 The testimony produced three overlapping trials:
 

@@ -12,6 +12,7 @@ import matter from 'gray-matter';
 import {
 	sha256,
 	editorialHash,
+	matchesEditorialHash,
 	evidenceSchema,
 	reviewSchema,
 	resolutionSchema,
@@ -540,7 +541,7 @@ export async function runPipeline(options, { root = repoRoot, execute = executeC
 					const r = reviewSchema.parse(await readJson(o[name]));
 					if (
 						r.role !== role ||
-						r.content_sha256 !== reviewExtra.content_sha256 ||
+						!matchesEditorialHash(frozen, r.content_sha256) ||
 						r.evidence_sha256 !== reviewExtra.evidence_sha256
 					)
 						throw new Error('Review does not match frozen inputs');

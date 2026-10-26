@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-26",
+  "slug": "dhar-mann",
+  "name": "Dhar Mann",
+  "type": "3",
+  "status": "prepared_installed",
+  "published": false,
+  "source": {
+    "page": "https://www.tvtechnology.com/news/dhar-mann-brings-his-positive-message-to-nab-show",
+    "imageUrl": "https://cdn.mos.cms.futurecdn.net/tTxNEoEgtR9MtVTZTy2bhL-1600-75.jpg",
+    "photographerOrCredit": "Dhar Mann Studios (image credit in TV Tech/NAB article)",
+    "localOriginal": "output/portrait-sources/2026-10-26-dhar-mann/dhar-mann-press.jpg",
+    "width": 1600,
+    "height": 900,
+    "sha256": "e1ed35c1c1b982c9ce3f10155d87010688efecd2edc1c1b8e4784c3362ce8124",
+    "rights": "Publicly distributed press portrait credited to Dhar Mann Studios; no open reuse license or specific permission for this adaptation verified.",
+    "attribution": "Dhar Mann — image credited to Dhar Mann Studios, via TV Tech/NAB. Adapted by 9takes: crop, background removal, grayscale, shading, placement and purple eye mark."
+  },
+  "rejectedSources": [
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:Dhar_Mann_Updated.jpg",
+      "reason": "Low-resolution full-body side profile; unsuitable for established face-and-shoulder framing."
+    },
+    {
+      "source": "https://www.nab.org/documents/newsroom/pressRelease.asp?id=7131",
+      "reason": "Linked image only 300x300; selected higher-resolution copy of studio press portrait."
+    }
+  ],
+  "transformations": {
+    "sourceCrop": {
+      "left": 450,
+      "top": 0,
+      "width": 700,
+      "height": 900
+    },
+    "prompt": "Use case: background-extraction\nEdit target: this real photograph of Dhar Mann. Remove only the gray studio background. Preserve the exact original canvas, his complete hair, shoulders, torso, crossed arms, clothing and tattoos. Preserve the original face, smile, pose, lighting, skin and photographic texture without reconstruction, beautification or sharpening. Keep his original position and scale; do not crop, rotate, move or expand the subject. Use genuine alpha transparency with clean natural edges and no gray fringe. No new text, graphics, purple line, shadows or background.",
+    "tool": "built-in image_gen for alpha refinement; original photographed RGB retained",
+    "segmentation": {
+      "sourceRgbPreserved": true,
+      "generatedRgbUsed": false,
+      "generatedAlphaUsed": true,
+      "refinedPixels": 225322,
+      "transparentPixels": 316228,
+      "maskSimilarityTransform": {
+        "scale": 1.5698355960298516,
+        "angle": 0.003008124992916132
+      },
+      "rotationClockwiseDegrees": -2.195137589594437
+    },
+    "composition": {
+      "input": "output/portrait-processed/2026-10-26-dhar-mann/composition-cutout.png",
+      "height": 1097,
+      "anchorX": 381.89129757881165,
+      "anchorY": 184.89212051806118,
+      "erode": 4,
+      "contrast": 1.04,
+      "brightness": 1,
+      "offsetX": 0,
+      "targetX": 540,
+      "targetY": 490
+    },
+    "template": "face-line-template.png"
+  },
+  "blogFile": "src/blog/people/drafts/dhar-mann.md",
+  "assets": {
+    "full": {
+      "path": "static/types/3s/Dhar-Mann.webp",
+      "previewPath": "output/portrait-preflight/2026-10-26-dhar-mann/types/3s/Dhar-Mann.webp",
+      "width": 1080,
+      "height": 1080,
+      "bytes": 46392,
+      "alpha": true,
+      "sha256": "b18579e039f63aa3c94acb6a51575ed9634749449f2a7bf7130cb338b71b95b5"
+    },
+    "thumbnail": {
+      "path": "static/types/3s/s-Dhar-Mann.webp",
+      "previewPath": "output/portrait-preflight/2026-10-26-dhar-mann/types/3s/s-Dhar-Mann.webp",
+      "width": 480,
+      "height": 480,
+      "bytes": 14866,
+      "alpha": true,
+      "sha256": "bdfc31b407459e6523754e0efe9bcc350e51246e6c9097cac973008fb065c336"
+    }
+  },
+  "installedInProject": true,
+  "installedAt": "2026-10-26T17:43:37.450Z",
+  "master": {
+    "path": "output/portrait-processed/2026-10-26-dhar-mann/Dhar-Mann-master.png",
+    "width": 1080,
+    "height": 1080,
+    "sha256": "fdef045843c2147fc8c253796451560487af361683f405c21161c9ebf11e5883"
+  },
+  "validation": {
+    "opaqueTemplatePixelsPreserved": 22457,
+    "visualReview": "Reviewed both dark and light treatments: clean hair and shoulder edges, face centered under fixed purple template; original photographed face retained.",
+    "installedBytesMatchPreview": true,
+    "portraitCheck": {
+      "ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    "imageResolver": {
+      "full": "/types/3s/Dhar-Mann.webp",
+      "thumbnail": "/types/3s/s-Dhar-Mann.webp"
+    },
+    "staticAssetBudgetsPassed": true
+  },
+  "review": {
+    "url": "http://127.0.0.1:8917/dhar-mann/",
+    "screenshot": "output/portrait-preflight/2026-10-22-review/dhar-mann/preview.png",
+    "prompt": "output/portrait-processed/2026-10-26-dhar-mann/prompt.txt"
+  }
+}

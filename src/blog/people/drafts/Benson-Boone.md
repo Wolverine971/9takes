@@ -13,7 +13,7 @@ published: true
 enneagram: 7
 type: ['musician', 'singer-songwriter']
 person: 'benson-boone'
-suggestions: ['Olivia-Rodrigo', 'Sabrina-Carpenter', 'Harry-Styles', 'Ariana-Grande']
+suggestions: ['sombr', 'Olivia-Rodrigo', 'Sabrina-Carpenter', 'Harry-Styles', 'Ariana-Grande']
 wikipedia: 'https://en.wikipedia.org/wiki/Benson_Boone'
 wikidata_qid: 'Q110008128'
 imdb_id: 'nm13184863'
@@ -329,3 +329,5 @@ Still open:
 - Closing Legacy paragraph still lists "his body image honesty, his ego checks, his sobriety" as evidence he isn't purely avoiding pain — slightly softer now that Thurmon paragraph just raised the open question. An editor pass could decide whether to harden or soften the closing accordingly.
 - No concrete mirror / tour-prep scene for body image beyond the jumpsuit. If a specific quote surfaces (e.g., a tour rehearsal moment), that could sharpen the section further, but current research didn't surface one.
 -->
+
+**Related reading:** [Sombr's open-case personality profile](/personality-analysis/sombr).

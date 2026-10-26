@@ -13,7 +13,7 @@ published: true
 enneagram: '5'
 type: ['celebrity', 'director', 'celebrity-image']
 person: 'Christopher-Nolan'
-suggestions: ['Cillian-Murphy', 'Christian-Bale', 'Matt-Damon', 'Anne-Hathaway']
+suggestions: ['josh-hartnett', 'Cillian-Murphy', 'Christian-Bale', 'Matt-Damon', 'Anne-Hathaway']
 wikipedia: 'https://en.wikipedia.org/wiki/Christopher_Nolan'
 wikidata_qid: 'Q25191'
 imdb_id: 'nm0634240'
@@ -488,3 +488,5 @@ Still open (not gating):
 Lint: clean (0 fail, 1 warn — the structural thin-headroom warn for the 4,050-4,500 band).
 Note: targeted perspective verification must rerun; the length cut is exactly the change the prior verification said would require one.
 -->
+
+**Related reading:** [Josh Hartnett's personality profile](/personality-analysis/josh-hartnett).

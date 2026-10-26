@@ -1,4 +1,34 @@
+<!-- docs/content-analysis/research/Nathan-Fielder.md -->
 # Nathan Fielder: research packet
+
+## 2026-10-26 refresh: You Can See Everything release and press tour
+
+Read this section first. It supersedes the September ending material. The refreshed draft keeps Type 6 (6w5) and rewires the spine: preparation buys outside confirmation; Holmes was the person it could not buy it from; in the film's second half the doubt turns protective (the Loyalist's other half). Draft refresh ledger: bottom HTML comments in `src/blog/people/drafts/Nathan-Fielder.md`.
+
+**Trigger.** Film opened October 16, 2026 (855 theaters, previews October 15; wide in week 2). Wikipedia pageviews for Nathan_Fielder: about 9K/day before the release, about 80K/day since, peak 115,086 on October 19 (Wikimedia API, checked 2026-10-26).
+
+**Primary sources (Fielder's own words), all opened 2026-10-26:**
+
+| Source | Event / published | What it supports |
+| --- | --- | --- |
+| [WIRED, Katie Drummond](https://www.wired.com/story/nathan-fielder-tells-us-everything/) | Sit-down Sept 27 (Sunday); phone follow-up Oct 15; published Oct 19 | Planning "absurdity" and "tendency ... to want to, like, plan" (inspiration for The Rehearsal); no plan going in; A24 "ability to deliver nothing" and "relief"; expected "outward anxiety and a desire to control"; hall of mirrors; "someone has to push back"; tutor/200 words, "insecure"; "comfortable with anything I don't know"; "not my skill set ... verbal storyteller"; prison call: two missed calls, third answered, "I trust you" twice, "I don't know what she meant by that", "my mind does try to figure those things out", "It hasn't ended, I guess." **Speaker trap:** bold paragraphs are Drummond. "I trust you to tell my story", the convicted-felons riff, "I really don't like ambiguity" are hers. "I'm trusting you" is the publicist. |
+| [Variety, Jordan Moreau](https://variety.com/2026/film/news/nathan-fielder-elizabeth-holmes-you-can-see-everything-liar-1236893716/) | NYFF Q&A Sept 30, published Oct 1 | "she seems so genuine at times. But then I'm like, 'no,' and clocking and tracking my thoughts ... 'Okay, I know she's a liar.'" Audio of the Film at Lincoln Center video supports "no" (AP printed "(expletive)"). The headline's "I know she's a liar" is self-talk he is describing, not his verdict. |
+| [W Magazine, Lynn Hirschberg](https://www.wmagazine.com/culture/nathan-fielder-cover-interview-you-can-see-everything) | Published Oct 23 | Magic shop age 13 to 20; Magic Castle origin (Oppenheim's account); "widened the gap"; "I felt conflicted at times, which was new for me"; "I've never been so confused by a person" (separate part of the piece); "I always feel that everyone knows more than I do"; "I think linearly—I always believe there's a way to untangle any mess." |
+| Jack Black Q&A, [70xdc3T3oqk](https://www.youtube.com/watch?v=70xdc3T3oqk), June 1, 2025 | Audio re-transcribed 2026-10-26 (Whisper small.en) and compared with auto-captions | "I felt insecure" and "hey, I'm a pilot, too" agree in both. "no one is gonna/going to take me seriously" differs: paraphrase only. Captions carry a false start "I I". |
+| A24 teaser [GGJSRFWALTI](https://www.youtube.com/watch?v=GGJSRFWALTI) | Sept 7 upload, uploaded English subtitles | "You're being real right now?" / "I'm always being real." |
+| [AP via News4Jax](https://www.news4jax.com/entertainment/2026/10/01/no-longer-a-secret-nathan-fielders-elizabeth-holmes-doc-you-can-see-everything-lands-in-new-york/) | Oct 1 | He lived in a guest house at the couple's beachside home in Del Mar, California (not "San Diego house"). NYT: he moved in about two weeks before she left. |
+
+**Dating the prison call.** WIRED's follow-up was the day before the national release; Fielder says the call came "on Friday last week", so about October 9, 2026. Outlets that say October 16 or "the day before" are wrong. Use "the week before the film opened."
+
+**Critics used, all verbatim against saved text:** Gleiberman (Variety, Sept 7: "not taken in by any of this"); LaSalle (SF Chronicle, Oct 14: "Clearly, she climbed into his head."); Crow (Den of Geek ending explainer, Oct 17: "the most positive and charitable spin"); Slate (Adams, Oct 24: he rewrites a line that makes Holmes look like a calculated manipulator); Brody (New Yorker, Oct 19 issue: "protective" / "accurate"); The Ringer (Walker, Oct 23: "I'm just trying to be accurate"); NPR (Linda Holmes, Oct 16: "seemingly chooses to trust his gut..."); Tyler Shultz op-ed (STAT, Oct 19), including his "In Fielder's defense" concession; Winslow-Yost (NYRB, Dec 22, 2022 issue: the show's driving emotion is "fear").
+
+**Contrary evidence kept (do not drop in later passes):** he went in with no plan and says curiosity drove him and he "didn't worry"; "I love the experience of just sort of not knowing"; "felt conflicted ... which was new for me" (conflict as the exception); he repeats "help me understand" at every stop and says he withholds his read to avoid steering viewers, so the ask may be partly strategic; several critics read him as cold, unfooled or in control (Gleiberman, TNR's Marsh, Brody, Nicholson); he cut off communication with Evans when Evans tried to control the edit.
+
+**Rejected / unverified:** "the dumbest thing I've ever done" is Billy Evans (All-In, recorded mid-September, published Oct 15), not Fielder. Box office, RT 98 / Metacritic 97, Oscar campaign: true, not admitted (Tier 3). Holmes's halfway-house approval (Aug 2027) and pending commutation: Holmes page material. Single-source scene claims not used: "good father" remark, the breakup mention, the final line "You care about her". Reviews conflict on whether Holmes allowed for white lies; the draft says only that she told him she had never lied. The actress in the second-half reenactments is not named in the body (spoiler), though Den of Geek's URL names her.
+
+**Source caches** (temporary, session scratchpad; not durable): `/private/tmp/claude-501/-Users-djwayne-9takes/853a1874-9245-4ae2-9305-b18ddb45ffc9/scratchpad/fielder-sources/`.
+
+---
 
 > Final status, September 9, 2026: the full pipeline completed with one revision. The final same-version grades were 8.5 and 7.9 (delta 0.6), so quality and stability remain below the production bar. Final perspective verification and deterministic reports passed. The article remains unpublished for human review. See [the final handoff](../pipeline-handoffs/Nathan-Fielder-2026-09-09.md) for exact artifacts, source limitations, the final FAQ scope note, and production blockers. Earlier creator-stage conclusions below are historical and must be read with the later corrections.
 
