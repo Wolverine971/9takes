@@ -1,0 +1,24 @@
+I've written the fan review to `docs/content-analysis/pipeline-logs/2026-10-26_06-00-03-010_dhar-mann/review-fan.json`. It passes the review schema, every quoted passage matches the draft exactly, and the role and both hashes match the request. Nothing else in the repo was changed or published; my scratch files are in `/tmp`.
+
+**Verdict:** for someone who knows Dhar Mann, this is a strong, fair draft that doesn't flatter him. I checked about 20 quotes and facts against the saved source texts and all matched their context. One limitation: I read machine transcripts and captions, not the audio.
+
+**Major findings (the editor must fix or reject each one):**
+1. **The ending is out of date.** The last line says he stays out of the frame. But in 2026 he hosts his own interview show (*What Happens Next*), was the NFL's "Chief Kindness Officer" for the Super Bowl, and is Advertising Week's "Chief Creator Officer." Meanwhile a separate CEO, Sean Atkins, runs the studio. He left the videos and day-to-day operations, then came back as the company's public face. The body never mentions the podcast, though the frontmatter lists him as its host.
+2. **A 2010 source is misread.** The draft says he announced 75 franchise stores "ahead of the signatures" and calls it "an old habit." Mother Jones actually reported that he and his partner *said the contracts were signed*. Nothing in the sources shows that claim was false, so the article builds a negative character pattern on a quote that says something else.
+3. **weGrow's collapse is missing.** His "three failures" are real estate, medical marijuana and the investment scheme. As written, readers will take "the government" to mean the fraud case. By his own account, the loud "Marijuana Superstore" launch cost him his suppliers on opening night and "doomed" the store, which closed in 2011 after his partnership broke up. That is the costliest choice for attention in his whole record.
+
+**Minor findings:**
+- **Family background:** his parents arrived "with $6," the family shared a one-bedroom apartment with three families, and he ties his urge to scale to his father's rise from one cab to 200.
+- **Economy-class story (Shetty episode):** on an early trip, his wife's friends watched from first class as the couple walked back to economy, and he felt "humiliated." His punchline is that those friends are now the ones flying economy. It separates Type 3 from Type 2 better than the phone story the draft uses.
+- **Meme reputation:** the draft never covers the "cringe" side of his fame. In 2021 he answered critics like PewDiePie with an on-camera sketch. This one needs a new source; I read a Sportskeeda report but not the original video.
+- **Political ties:** the article mentions his family's "ties to city leaders" without saying what they were. Opened sources cover a Jerry Brown fundraiser, a council member's campaign ads on the family's taxis, and his email offering to "handle all of your lobbying."
+
+**Risk flags:** sensitive allegations is on (the fraud plea, the alleged Ponzi scheme and the actors' dispute). The other risk flags are off.
+
+**Passages to keep:** I marked five, including the change-your-name hook and the "kept the name and cut the face" insight.
+
+**Similarity:** the check didn't flag anything, and I found no meaningful reuse from other profiles.
+
+Sources:
+- [Sportskeeda, June 16, 2021: PewDiePie responds to Dhar Mann](https://www.sportskeeda.com/pop-culture/news-pewdiepie-responds-dhar-mann-latter-takes-criticism-context)
+- [Dhar Mann on Wikipedia](https://en.wikipedia.org/wiki/Dhar_Mann)

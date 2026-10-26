@@ -1,0 +1,21 @@
+I've written the Enneagram review to `docs/content-analysis/pipeline-logs/2026-10-26_06-00-03-010_dhar-mann/review-enneagram.json`. It passes the review schema, every quoted passage matches the draft exactly, and the draft and evidence still hash to the frozen values in the request. I didn't change any other file, read the other reviewers' output, or publish anything.
+
+**Verdict:** Type 3 at medium confidence holds up. The draft is strongest where it tests the type against platform incentives using his 2010 record and the moment he cut himself out of his own videos. The weak spot is the comparison with Type 2. Fixing it would probably make the Type 3 case stronger, not weaker.
+
+**Major findings (3):**
+- **The Type 2 test is framed as love versus success, but his own words connect the two.** The draft cuts off two of his quotes just before their second halves: "…as loved as possible" and "Everyone wanted to be my friend at that point." A better test is *how* he tried to earn love: by being seen to succeed, not by being needed. His record gives a clean example: as a boy he spent money on other people; as a man he spent it on keeping up an image.
+- **The "feel seen" giving examples are out of context.** On Jay Shetty's show, the concert tickets and remembered kids' names are his examples of team members and brand partners, introduced right after "that's when I started winning big." The draft presents them as personal warmth on the Type 2 side, and the Type 2 FAQ repeats that.
+- **The opening guesses why he kept his name, but he gave his own reason in the same answer.** He said there are "so many people out there just like me" and "my name is associated with positivity." That reason has both a Type 3 strand and a helper strand. The closing line also gives a purpose to cutting his face from the videos that he never stated; his stated reason was retention data.
+
+**Minor findings (5):**
+- A "strong Two wing" line absorbs the Type 2 evidence without any test.
+- The draft discounts his lowest point, then reuses "a family's shame" from that period to rule out Type 2, even though that shame doesn't separate the two types.
+- A general rule about Threes ("the picture usually gets rescued first") nudges readers to see the fraud as a product of his type.
+- The claim that his overwork is more Three than Two is asserted rather than shown, and "he called it love" stretches what he said.
+- The case against Type 7 rests on "one formula since 2018," which ignores how widely he has branched out.
+
+**Risk flags:** I raised `contested_typing` to true, on top of `sensitive_allegations`: confidence is medium, the Type 2 case is real, and the main test leans on his own looking-back story told inside a redemption brand.
+
+**Passages to keep (5):** the line about cutting himself from the videos, the "eight years before his first video" conclusion, the transition after the Lamborghini quote, the point that packaging decides which stories get made, and "Both can be true."
+
+The similarity check didn't flag anything. I checked quote context against the research stage's saved machine transcripts of the Shetty, Sanchez and How I Built This interviews; I didn't listen to the audio.

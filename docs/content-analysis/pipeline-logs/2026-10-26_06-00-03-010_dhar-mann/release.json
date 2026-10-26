@@ -1,0 +1,60 @@
+{
+  "schema_version": 3,
+  "subject": "dhar-mann",
+  "content_sha256": "83a95ae22d152cc1fa4c06600491069b17a4abb052c8656107b925cae739fa97",
+  "expanded": true,
+  "artifacts": {
+    "baseline": {
+      "file": "baseline.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "research": {
+      "file": "evidence.json",
+      "sha256": "d98460195e8950bcfff834c2b8d0d930a78f55798e3d6e35622950dfd8ce539e"
+    },
+    "draft": {
+      "file": "draft.md",
+      "sha256": "b469944159cff0e3f276e7f0bf428fcbfcb5a6b22da375c7a8bb05002c6663aa"
+    },
+    "draft_evidence": {
+      "file": "evidence-draft.json",
+      "sha256": "d5acdeaf4e175f334a42fe31d836e4015bb5031b09b1452f69b9a4bf6a5b063f"
+    },
+    "evidence": {
+      "file": "evidence-edit.json",
+      "sha256": "9e31e586b192e84452f67490c419e5db30650270a0a72b83987a900d877a9bf5"
+    },
+    "resolution": {
+      "file": "resolution-edit.json",
+      "sha256": "93c81443541f0861444fe8e80e37a650af1e1302efaf01a31c3e192b1a464ee2"
+    },
+    "verification": {
+      "file": "verification-edit.json",
+      "sha256": "42e1ef2490523885b173b562bdb8d2b48d157b4cfaf7da27dd62dde7b96b035e"
+    },
+    "review-subject": {
+      "file": "review-subject.json",
+      "sha256": "e7adf67bf0e0a3a05e7b553df0a85f158b8b0daf49e5e4376ac5439dfcfeb042"
+    },
+    "review-fan": {
+      "file": "review-fan.json",
+      "sha256": "e1feaaa746956a306c57e01acaf9b66de4f9e054c07840204618b4c697c20d4c"
+    },
+    "review-critic": {
+      "file": "review-critic.json",
+      "sha256": "1f446d736839fd8a5e938d6e4f2649d5a59b57bb38e2c3623ff75e27c0a26189"
+    },
+    "review-unfamiliar": {
+      "file": "review-unfamiliar.json",
+      "sha256": "5e597dd53c54a70d31b6193e33a09c874b59bd7b033d31b616245966357a3193"
+    },
+    "review-enneagram": {
+      "file": "review-enneagram.json",
+      "sha256": "402a7b57c7e317d61318eb1ac92bb8b52cc89e06c3ca3704ef558a14d8478d08"
+    },
+    "review-future": {
+      "file": "review-future.json",
+      "sha256": "7b9dccbfcac4640d50b5ace86b1be098c0a2d2e9351e1f7a5b68aa30ed82018e"
+    }
+  }
+}

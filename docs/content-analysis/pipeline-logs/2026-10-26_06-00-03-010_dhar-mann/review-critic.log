@@ -1,0 +1,22 @@
+I wrote the critic review to `docs/content-analysis/pipeline-logs/2026-10-26_06-00-03-010_dhar-mann/review-critic.json`. It passes the pipeline's review schema, both input hashes match the request, and every quoted passage matches the draft exactly. I didn't change any other repo files or publish anything; downloads and transcripts are in `/tmp` scratch folders.
+
+**Verdict:** the Type 3 read still holds, but six of the draft's most persuasive moves are tidier than the sources. There are 8 findings (6 major, 2 minor), and I kept the sensitive-allegations risk flag on.
+
+**Major findings**
+- **The fraud confession is the mildest version, not "the worst."** He says he only changed dates on finished, paid jobs. The court ordered full restitution of the $44,399.51 that prosecutors said he took on false paperwork, which a dates-only story doesn't explain. The draft leaves this as "Prosecutors alleged more."
+- **The 2010 record had a publicity incentive after all.** The draft treats it as a period when nothing paid him to be watched. Mother Jones introduces his reality pilot with "when your business plan depends on publicity…", his partner called the show "a hedge," and the same article already reported his "first honest hydro store" motive for the loud press release in 2010, not just in his 2024 retelling.
+- **The "kept the name, cut the face" frame is incomplete.** It skips his own stated reason for keeping the name: a brand of second chances for "people just like me." The closing line about winning "without him in the frame" also ignores that he's been hosting an on-camera podcast since May 2026 and has taken titles like the NFL's "Chief Kindness Officer."
+- **His role in his relatives' losses is softened.** He says they invested "based on me saying this was a good investment." The draft's passive version changes how the later repayment reads.
+- **The "old habit" parallel misreads 2010.** He and his partner claimed they had already signed 75 franchise contracts, and a franchise opened by 2011. That isn't the same as announcing a goal before anything is signed, as in 2026.
+- **The "Why not Type 2?" argument rests on trimmed quotes.**
+  - Right after "being seen by everyone" he says "Everyone wanted to be my friend at that point."
+  - The big-house story ends with him framing it as trying to make "everyone else's lives better."
+  - His ex-fiancée's statement that he made her feel "loved, appreciated, and respected" is never weighed.
+
+**Minor findings**
+- Giving up the spotlight is counted as Three evidence, the same way seeking it is, and without the "any data-driven operator would do this" caveat the draft applies to thumbnail testing.
+- The Type 2 FAQ drops "professional" from his line about only feeling he belonged after reaching success.
+
+The review also protects five passages, including the "plainest statement… a 2024 look back" framing and the "gray area" echo between a 2012 source and his own words.
+
+**How I checked it:** I re-transcribed the How I Built This audio locally at the key segments, read the Shetty captions, re-transcribed two sections of the Sanchez interview, and reopened the court, protest, trade-press and E! sources. Not rechecked: the other Sanchez quotes (YouTube rate-limited the caption download), the What Happens Next episode and the NFL article. I also didn't check court records for the expungement he describes.

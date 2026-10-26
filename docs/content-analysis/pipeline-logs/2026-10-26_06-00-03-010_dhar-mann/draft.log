@@ -1,0 +1,31 @@
+Error: Reached max turns (60)
+[runner] Turn limit reached; resuming session ccd688b8-0e24-47c5-b08d-ddbf44be01bd to write outputs
+I've written `draft.md` and `evidence-draft.json` to the run folder. The draft is 3,837 words by the site's counter and passes the draft check. The evidence file passes the validator: every claim's passage matches the draft exactly. Nothing else in the repo was changed and nothing was published; my scratch files are only in `/tmp/dharmann-draftcheck`.
+
+**The draft**
+- **Opening:** the worst advice Mann says he ever got was to change his name. He kept the name, which is now on the No. 2 creator on Forbes' 2026 list, and took his own face out of the videos when viewers left as soon as he appeared.
+- **Type:** it commits to Type 3 in the 60-word answer, with medium confidence and Type 2 as the rival. That case gets its own section, using his own evidence: buying classmates' lunch, anticipating his wife's needs, making viewers "feel seen."
+- **Why Three wins:** the costly choices served an image, not a relationship:
+  - renting out the Lamborghini to keep "the appearance."
+  - telling Mother Jones in 2010 that his life was "somewhat appealing to watch," eight years before YouTube paid him for it.
+  - the tombstone fear.
+  - his rule that a story without great packaging "can't be a great story."
+- **Sensitive material:**
+  - The fraud figures follow the court reporting.
+  - The man behind the Ponzi scheme is unnamed.
+  - The 2023 actors' protest is told from both sides.
+  - The childhood violence he mentioned once, and the court ruling against his parents, are left out.
+
+**Quote checking**
+- I ran a second machine transcription over the audio for every quote from the How I Built This interview and most quotes from the Shetty and Sanchez podcasts. Where the two transcripts disagreed by a word, I paraphrased or quoted only the shared words.
+- This is still machine-checked, not a human re-listen. Four short quotes rely on captions alone: "makes somebody feel seen," "Why not me?", the Tony Robbins comment, and his 2026 version of which video he planned as his last. The evidence file names them for the reviewers.
+
+**Changes from the research record**
+- I dropped five research claims the draft doesn't use and revised the type argument so it only cites claims that remain. All sources are kept.
+- New finding: his origin story changes between tellings. In 2024 the video he planned as his last was the stay-at-home-wife sketch; in 2026 it was an infidelity sketch. The draft reports both.
+
+**Still open**
+- The expungement rests on Mann's word; it isn't confirmed in court records.
+- Only Tubefilter's excerpts of his 2023 statement were read, not the full post.
+
+At about 3,840 words, the draft leaves room for the edit stage, which usually adds roughly 800, before it hits the 4,500 limit.

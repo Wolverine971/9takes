@@ -1,0 +1,27 @@
+{
+  "schema_version": 3,
+  "subject": "dhar-mann",
+  "mode": "create",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_verify_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-26_06-00-03-010_dhar-mann/candidate-edit.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-26_06-00-03-010_dhar-mann/evidence-edit.json",
+    "resolution": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-26_06-00-03-010_dhar-mann/resolution-edit.json",
+    "review-subject": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-26_06-00-03-010_dhar-mann/review-subject.json",
+    "review-fan": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-26_06-00-03-010_dhar-mann/review-fan.json",
+    "review-critic": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-26_06-00-03-010_dhar-mann/review-critic.json",
+    "review-unfamiliar": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-26_06-00-03-010_dhar-mann/review-unfamiliar.json",
+    "review-enneagram": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-26_06-00-03-010_dhar-mann/review-enneagram.json",
+    "review-future": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-26_06-00-03-010_dhar-mann/review-future.json",
+    "baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-26_06-00-03-010_dhar-mann/baseline-reader.md",
+    "checks": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-26_06-00-03-010_dhar-mann/checks-edit.json"
+  },
+  "outputs": {
+    "verification-edit.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-26_06-00-03-010_dhar-mann/verification-edit.json"
+  },
+  "content_sha256": "83a95ae22d152cc1fa4c06600491069b17a4abb052c8656107b925cae739fa97",
+  "evidence_sha256": "e2c926521d96ea2b9bf7c5c1e8645ad0ac4e457fe72f25bac9a5db8c51ec9a9a"
+}

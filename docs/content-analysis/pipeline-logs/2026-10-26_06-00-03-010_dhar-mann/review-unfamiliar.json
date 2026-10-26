@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "unfamiliar",
+  "content_sha256": "70a9cddef06cb2467b070536bbd79c174b6e45fb63cce4f55dc2cd6f6620e4bb",
+  "evidence_sha256": "e3ba9960beb35a8647002ecc8311006cee88804170b821c2239d21468e232818",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": false,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "unfamiliar-01",
+      "severity": "major",
+      "passage": "His face is another story. In the early videos he appeared at the end to deliver the moral.",
+      "problem": "A cold reader (the page targets 'who is Dhar Mann') meets 'the early videos' and 'the moral' at about word 250 but learns what the videos are, scripted moral fables performed by actors with titles like the pizza-boy one, only at about word 390, after the birth-year paragraph. The Forbes line implies 'creator' but not the form. So the opening's best idea, 'kept the name and cut the face', lands before the reader knows what the face was cut from, and the hook pays off half-understood.",
+      "acceptance_test": "Within roughly the first 200 words, and before the 'fire myself' quote, one plain sentence tells a reader with no prior knowledge what Dhar Mann Studios makes (scripted moral fables with actors, one sample title) and that Mann used to appear at the end of each to state the lesson. The later biography paragraph does not repeat it, and the name/face payoff still follows the anecdote."
+    },
+    {
+      "id": "unfamiliar-02",
+      "severity": "minor",
+      "passage": "The trouble came from his property business.",
+      "problem": "The article has never said he owned or renovated commercial property. The last business the reader saw was the weGrow superstore, which then vanishes with no outcome. A cold reader can't tell whether the grant fraud involved weGrow's building or a separate venture, or what the 'shortcut' was buying time for, so the stakes of the section (why speed mattered to him) are muddy.",
+      "acceptance_test": "Before or within the first two sentences of 'The shortcut', the reader learns from an opened source what he was renovating (or that the record specifies only commercial buildings in grant-eligible areas) and how it relates to weGrow. The weGrow thread gets a one-line attributed outcome or an explicit note that it isn't pursued. No allegation from the adversarial former partner (S07) is introduced as fact."
+    },
+    {
+      "id": "unfamiliar-03",
+      "severity": "minor",
+      "passage": "By his account, the next fall began with a friend whose affiliate-marketing business paid him monthly returns.",
+      "problem": "'The next fall' can read as 'next autumn'. The section then mixes 'Around 2013 or 2014', an undated LA move and 'Then the money stopped', and 'sold his limousines' introduces vehicles the reader never heard of. The bigger loss is a stake. The dates in the record (plea December 2013, probation sentence January 2014, engagement April 2014, LA Instagram build-up around 2014 per C12/C13/C57) put the Hollywood Hills house, Ferrari and Rolls-Royce phase alongside the felony case and probation. That also links to the city attorney's 2015 Lamborghini-photos line in the opening. The draft leaves the reader to do the arithmetic, and most won't.",
+      "acceptance_test": "'Fall' is replaced by an unambiguous word. From the text alone, without computing from the 1984 birth year, a reader can tell which LA/Instagram events came before or during the plea and probation, stated no more precisely than C12, C13 and C57 support. 'Limousines' is either introduced (e.g., as part of the car-rental business, if S05 supports it) or cut."
+    },
+    {
+      "id": "unfamiliar-04",
+      "severity": "minor",
+      "passage": "He says the recovery began when he stopped blaming the economy, the government and the friend for his three failures and saw that he \"was the common denominator.\" Soon after, an online makeup school he built with a beauty influencer brought in six figures within 24 hours of going live.",
+      "problem": "'His three failures' makes the reader work out which three (2007 mortgage collapse, fraud case, Ponzi loss). 'A beauty influencer' co-builds the school, the next paragraph says he met Laura Avila 'through those classes', and the FAQ calls Laura 'a beauty influencer', so a cold reader will likely merge the two women (C15/C16 indicate they are different people). The jump from the $600 couch to six figures in 24 hours carries no date, at the one turn where the redemption story most needs to be clear.",
+      "acceptance_test": "The three failures are named in a short clause, or 'three' is dropped. The makeup-school partner is clearly distinguished from Laura Avila (she can stay unnamed). The recovery carries an approximate year supported by the record (around 2015 per C16/C97)."
+    },
+    {
+      "id": "unfamiliar-05",
+      "severity": "minor",
+      "passage": "In 2010 he and his partner told Mother Jones they had signed contracts for 75 franchise stores and were talking up an IPO. Announcing the win in round numbers, ahead of the signatures, is an old habit.",
+      "problem": "The closing comparison has no outcome. The reader is never told whether the 75 stores or the IPO happened, so 'old habit' could mean the 2010 claims fell apart (which would cast doubt on the 2026 pledges) or only that he talks big. It's the last analytic beat before the coda and it's left open. Formatting: there is no blank line after the Digiday citation (line 330 ends with a space and line 331 begins 'In 2010'), so this renders inside the 2026 Digiday paragraph and reads as if Digiday reported the 2010 claim.",
+      "acceptance_test": "The outcome of the 2010 franchise/IPO talk is stated from an opened source, or the text says plainly that the outcome wasn't established and frames the comparison as a way of announcing things, not a track record. The 2010 sentence renders as its own paragraph."
+    },
+    {
+      "id": "unfamiliar-06",
+      "severity": "minor",
+      "passage": "In February 2023, the studio's kindness brand met its first public test, when several of its regular actors protested over pay and treatment.",
+      "problem": "The labor dispute arrives under the heading 'What the big house was for', straight after the daughter beat, with no signpost. That is an abrupt turn from family to workplace. Its three paragraphs end by conceding the response fits 'almost any company under attack', so for a cold reader they add he-said/she-said without moving the portrait, in a draft about 340 words over the 3,500-word target (about 3,840 body words).",
+      "acceptance_test": "The protest gets a heading or transition that tells the reader why it belongs in a personality profile (what it tests). It is tightened to the allegation, his response and his 2024 account, keeping both sides' quoted words. The family beat keeps its own ending, and body length moves toward the target unless the added length brings new information."
+    },
+    {
+      "id": "unfamiliar-07",
+      "severity": "minor",
+      "passage": "who had announced it on Instagram on April Fools' Day and told E! News the idea was his.",
+      "problem": "'The idea was his' reads as if getting engaged was his idea, which is trivially true, rather than the April Fools' Instagram announcement (S14). 'That year' in the same sentence has no year to refer back to. The paragraph never tells the reader what the engagement shows, so between the Ponzi collapse and the couch it reads like celebrity trivia.",
+      "acceptance_test": "The sentence says unambiguously which idea was his, per S14. 'That year' becomes 2014. The paragraph either signals why it matters (public staging at the peak of the Instagram phase, or Ghalichi as the one intimate witness on record) or is cut to a clause that keeps her 'honest and loving' statement."
+    },
+    {
+      "id": "unfamiliar-08",
+      "severity": "minor",
+      "passage": "Dhar Mann was told to change his name after a fraud plea and going broke at 30.",
+      "problem": "The description promises a sequence (the advice came after the plea and the broke-at-30 low point) that the body never states. The body quotes only 'at that point in my life, I had failed so many times', and the evidence record (C94) notes he does not date the advice. A reader who clicks for that story finds no timing.",
+      "acceptance_test": "Either the body, in his own attributed words, places the advice at a point in the timeline that matches the description, or the description is reworded so it does not assert timing that the body and sources don't establish. It stays 120-170 characters."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "So he kept the name and cut the face. Both choices protect what an audience thinks of when it hears \"Dhar Mann.\"",
+      "reason": "Gives an unfamiliar reader the whole portrait in two sentences built from two sourced choices. The rest of the article tests it, and the ending returns to it."
+    },
+    {
+      "passage": "In a [Type 3](/enneagram-corner/enneagram-type-3), shame turns into a question asked of every room: what counts as winning here? They find the answer, turn themselves into it and keep score. If the picture and the facts start to separate, the picture usually gets rescued first, and the bill arrives later.",
+      "reason": "Plain-language type explanation a reader with no Enneagram background can use. It sets up the Lamborghini-rental story that follows. The similarity tool's 'keep score' overlap with the Brockman page is ordinary vocabulary applied to a different argument, not reuse."
+    },
+    {
+      "passage": "That is the record from eight years before his first video, when no algorithm was paying him to be watched. The wish to be watched was already there, and he said it out loud.",
+      "reason": "Shows the reader why contemporaneous 2010 reporting matters more than his polished retellings. It turns a source-quality point into narrative momentum."
+    },
+    {
+      "passage": "He volunteers the worst of his old self. The Lamborghini rental, the Instagram \"addiction\" and the grant \"shortcuts\" all come from his own mouth on national podcasts. That is an odd habit for a man guarding an image, unless the redemption story is the image.",
+      "reason": "The article's sharpest complication. It names a contradiction a cold reader would notice and resolves it without forcing certainty."
+    },
+    {
+      "passage": "The worst advice he ever got was to change his name. He kept it, put it on stories where the good person always wins, \"unlike in the real world,\" and then took his face out of them, so the name could keep winning without him in the frame.",
+      "reason": "A closing callback that pays off the hook with new information (his own 'unlike in the real world' rule) instead of restating the thesis. It ends at the story's natural point."
+    }
+  ],
+  "assessment": "Read cold, this mostly works. The name-advice hook creates curiosity, the 55-word type answer is plain and early, and from the Lamborghini onward the life story runs in order, with clear stakes at each costly choice: keeping the car, the plea, the $600 couch, the daughter's 'I don't want to have a big house anymore.' A reader comes away with a specific idea (he protects the name and the package, even at the cost of his own face) instead of type boilerplate. The Type 2 section is clear about what would tell the two types apart. Where a cold reader gets lost: (1) what he makes arrives about 390 words in, after the videos and 'the moral' have already been mentioned; (2) the 2010-2015 stretch drops weGrow, introduces an unexplained property business, uses 'the next fall' ambiguously and never makes clear that the Ferrari-and-Instagram LA phase ran alongside the felony case and probation; (3) the recovery and the closing 2010-versus-2026 comparison lack the facts that would let a reader weigh them. At about 3,840 body words the draft is over the 3,500 target, and the slackest stretch is the actor-protest passage under an unrelated heading. Similarity: the maximum 0.03 against greg-brockman is below the 0.04 trip, and the only shared phrase, 'keep score', is ordinary vocabulary used for a different argument, so this is not reuse. Risk flag: sensitive_allegations stays true (felony no-contest plea, an uncorroborated Ponzi account, disputed workplace claims). Limitation: as the unfamiliar-reader proxy I checked clarity against the evidence record's excerpts and dates and did not reopen the underlying sources."
+}

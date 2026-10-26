@@ -6,12 +6,12 @@ description: >-
   At 18, with no chart hit, Sombr said he would play Madison Square Garden. In
   2026 he booked two nights there. Leading read: Enneagram Type 3, held loosely.
 author: DJ Wayne
-date: '2026-10-21'
+date: '2026-10-26'
 loc: 'https://9takes.com/personality-analysis/sombr'
-lastmod: '2026-10-21'
+lastmod: '2026-10-26'
 changefreq: monthly
 priority: '0.6'
-published: false
+published: true
 enneagram: '3'
 type:
   - musician

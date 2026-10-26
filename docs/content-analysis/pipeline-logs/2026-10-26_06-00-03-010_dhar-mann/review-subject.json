@@ -1,0 +1,79 @@
+{
+  "schema_version": 3,
+  "role": "subject",
+  "content_sha256": "70a9cddef06cb2467b070536bbd79c174b6e45fb63cce4f55dc2cd6f6620e4bb",
+  "evidence_sha256": "e3ba9960beb35a8647002ecc8311006cee88804170b821c2239d21468e232818",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": false,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "subject-01",
+      "severity": "major",
+      "passage": "Announcing the win in round numbers, ahead of the signatures, is an old habit.",
+      "problem": "The line asserts a 16-year pattern of claiming wins before they exist. Placed after the fraud story, it will read as an insinuation of deception, and neither leg supports it. Mother Jones (Dec 3, 2010, opened) reports that Mann and Peterson \"say they've signed contracts to open 75 franchise stores\": a claim that signatures existed. The draft never shows whether they did, so 'ahead of the signatures' implies the 2010 claim was false without evidence. Digiday (Oct 6, 2026, opened) describes the $100M as a target that \"He and the event's organizers\" set for creator-brand business \"within 12 months, measured against creator budgets that hand-picked brands confirmed before the doors even opened\". Mann himself volunteered that no contracts would be signed that week. The preceding sentence also drops the 12-month horizon and the organizers' role, so his own caveat reads like a dodge.",
+      "acceptance_test": "Either (a) cite an opened source showing the 2010 franchise contracts did not exist or did not materialize, attributed and dated, or (b) delete the 'old habit' sentence and the 'ahead of the signatures' framing. The 2026 sentence states the target as a joint AWNY goal over 12 months and keeps Mann's own caveat. Any surviving comparison with 2010 is labeled as the author's reading and implies boldness or salesmanship, not misrepresentation."
+    },
+    {
+      "id": "subject-02",
+      "severity": "major",
+      "passage": "Mann said their wish to meet him personally was \"never communicated.\"",
+      "problem": "The source sentence (Tubefilter, Feb 14, 2023, opened) continues \"though he eventually did connect with the aggrieved actors\". The statement the draft quotes from says \"today in my meeting with actors we came up with ways to improve things\". Tubefilter also reports that one protesting actor issued an official retraction. The studio told Passionfruit (Mar 9, 2023, opened) that protesters were under 1% of its actors and that some had publicly retracted. The draft keeps the actors' 'kept missing meetings' and 'if you talk, you're out' but drops the favorable half of his response. It then reads that response as a reputation defense. In a sensitive-allegation section this is a missing response, not just compression.",
+      "acceptance_test": "The protest passage states, attributed to Tubefilter and his statement, that he did meet with actors and that the listed changes came out of that meeting. It notes, attributed, that at least one protester publicly retracted claims. 'The workplace claims remain disputed' (or equivalent) stays. The type inference that follows does not rest on the truncated version of his response."
+    },
+    {
+      "id": "subject-03",
+      "severity": "major",
+      "passage": "The second is also the lesson of a man for whom other people's verdict is the main event.",
+      "problem": "Mann's stated lesson from the fraud case has two parts: \"how important it is to do things the right way and how much your reputation really matters.\" The draft concedes both are ordinary lessons after a plea. It then asserts as fact that, for him, other people's verdict is 'the main event'. That claim about his inner priorities is made at the one point in the record where he expresses remorse. It discounts the first half of his answer with no new evidence and no local hedge marking it as the author's inference.",
+      "acceptance_test": "The sentence is either cut or rewritten as a labeled inference ('this fits a reading in which...') tied to evidence cited elsewhere in the article. No unhedged sentence in the fraud section ranks his concern for reputation above his stated concern for doing things the right way."
+    },
+    {
+      "id": "subject-04",
+      "severity": "minor",
+      "passage": "When providing and being present collided, providing won, and he called it love.",
+      "problem": "In the Sanchez interview (S04) he says he believed that improving his wife's and children's lives \"made every decision okay\". He does not call it love. In a passage about his children, the draft attributes to him a word and a self-justification he did not use.",
+      "acceptance_test": "The paraphrase follows his own framing (e.g., 'he told himself it made every decision okay'), or 'love' is clearly marked as the author's gloss rather than his word."
+    },
+    {
+      "id": "subject-05",
+      "severity": "minor",
+      "passage": "She ended the engagement that December without giving a reason, in a statement that called him \"honest and loving.\"",
+      "problem": "The breakup sits between the Ponzi collapse and 'He was 30 and sleeping on a couch', so it reads as a consequence of his going broke. No source makes that link. Ghalichi's statement (E! News, Dec 19, 2014, opened) also asked fans to refrain from \"commenting speculations\". The sequencing invites an unsupported inference about him and a third party that the record does not carry.",
+      "acceptance_test": "The breakup is placed or worded so it is not a causal beat in the financial collapse. For example, use his own About-page phrase 'going through a difficult breakup' with attribution, or say plainly that no source connects the split to his finances. The favorable 'honest and loving' testimony is kept."
+    },
+    {
+      "id": "subject-06",
+      "severity": "minor",
+      "passage": "His lawyer conceded that he \"took shortcuts\" but called the charges overblown.",
+      "problem": "The SF Chronicle (May 18, 2012, opened) reports the defense's substantive answer: Mann obtained grants for 12 projects, and his own spending exceeded the city's matching grants. That is the direct reply to the investigator's 'paid contractors much less' allegation, which the draft quotes in the sentence before. Only the concession and the reporter's 'overblown' survive.",
+      "acceptance_test": "One attributed clause adds the defense's claim that Mann's own spending exceeded the city's matching grants. Optionally it notes that $44,399.51 in restitution was still ordered, so the reader can weigh both sides."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "No public record of the scheme was found, so it is told here as his account, and the man is not named.",
+      "reason": "Marks an uncorroborated self-report as such and declines to name a private third party accused of running a Ponzi scheme. This is exactly the restraint the record requires."
+    },
+    {
+      "passage": "On December 10, 2013, he pleaded no contest to five counts, a conviction without an admission of the underlying facts.",
+      "reason": "Separates the conviction from the broader charging-stage allegations with a precise legal gloss, so the 13 counts and the investigator's filing are not read as adjudicated facts."
+    },
+    {
+      "passage": "A felony plea and relatives' losses would weigh on anyone, and that sense of where a man should be at 30 is partly cultural. That is why the choices he made when things were going well carry more weight in this read than the fall.",
+      "reason": "Refuses to type him from his worst moment and names circumstance and culture as rival explanations for his shame. This is a strong fairness move and a sound methodological one."
+    },
+    {
+      "passage": "Public sources can't settle whether the restraint since 2015 is a changed motive or a sturdier image.",
+      "reason": "Leaves open the most consequential motive question about his reform instead of deciding it against him."
+    },
+    {
+      "passage": "None of that makes the care fake. It is specific and it costs him time, and a Three with a strong Two wing would account for much of it.",
+      "reason": "Protects his documented warmth from a cynical reading while still arguing the type. It is fair to the subject without flattering him."
+    }
+  ],
+  "assessment": "Fairness proxy, not a voice for Mann. The draft mostly separates the public record from inference. It distinguishes the no-contest plea from the 13 charging-stage counts and attributes the investigator's allegations to the filing. It reports the expungement as his claim, labels the Ponzi episode uncorroborated and leaves the operator unnamed. It leaves out his parents' 2021 housing ruling and his one-off childhood-violence remark, and it gives his side of the 2023 protest. It also flags that he narrates his own redemption story. The weak spots are a closing insinuation and a truncated response. The 'old habit' line pairs a 2010 claim of signed contracts with a disclosed 2026 12-month target and implies a pattern of premature or false claims that neither source supports (subject-01). The protest section drops the favorable half of the sentence it quotes: he met the actors, and one protester retracted (subject-02). A few author inferences about his inner priorities are stated as fact, most consequentially about his remorse over the fraud (subject-03, 04). Two minor items affect a third party's breakup and the defense's substantive answer (subject-05, 06). I opened Mother Jones 2010, both E! items, Bay Citizen/NBC, SF Chronicle 2012, CGM, Tubefilter 2023, Passionfruit, Digiday and the NYT 2021 capture. Their wording matches the draft except where noted above. I did not re-listen to the S03/S04/S05 audio, so podcast quote fidelity is left to the evidence reviewer. Similarity advisory: not tripped (max 0.03 against threshold 0.04, at the noise-floor max). The only shared phrase, 'keep score' (Greg Brockman), is ordinary Type 3 vocabulary, and the argument is specific to this subject, so there is no reuse finding. Risk: sensitive_allegations stays true (fraud conviction, workplace allegations), so the six-role jury applies."
+}

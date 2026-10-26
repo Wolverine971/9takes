@@ -1,0 +1,199 @@
+{
+  "target": {
+    "person": "dhar-mann",
+    "type": "3",
+    "units": 12,
+    "file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-26_06-00-03-010_dhar-mann/draft.md"
+  },
+  "comparison_set": [
+    {
+      "person": "sombr",
+      "date": "2026-10-21",
+      "units": 9
+    },
+    {
+      "person": "madonna",
+      "date": "2026-10-13",
+      "units": 34
+    },
+    {
+      "person": "codie-sanchez",
+      "date": "2026-10-10",
+      "units": 7
+    },
+    {
+      "person": "greg-brockman",
+      "date": "2026-10-07",
+      "units": 12
+    },
+    {
+      "person": "tiger-woods",
+      "date": "2026-10-04",
+      "units": 10
+    },
+    {
+      "person": "ben-shelton",
+      "date": "2026-09-20",
+      "units": 9
+    },
+    {
+      "person": "Jonathan-Bailey",
+      "date": "2026-09-01",
+      "units": 33
+    },
+    {
+      "person": "Tate-McRae",
+      "date": "2026-08-27",
+      "units": 31
+    }
+  ],
+  "n_requested": 8,
+  "noise_floor": {
+    "pairs_compared": 1740,
+    "median": 0,
+    "p90": 0,
+    "p99": 0.01,
+    "max": 0.03
+  },
+  "trip_threshold": 0.04,
+  "tripped": false,
+  "trip_pairs": [],
+  "per_draft_max": [
+    {
+      "person": "greg-brockman",
+      "date": "2026-10-07",
+      "units": 12,
+      "maxScore": 0.03
+    },
+    {
+      "person": "Tate-McRae",
+      "date": "2026-08-27",
+      "units": 31,
+      "maxScore": 0.026
+    },
+    {
+      "person": "madonna",
+      "date": "2026-10-13",
+      "units": 34,
+      "maxScore": 0.021
+    },
+    {
+      "person": "Jonathan-Bailey",
+      "date": "2026-09-01",
+      "units": 33,
+      "maxScore": 0.017
+    },
+    {
+      "person": "sombr",
+      "date": "2026-10-21",
+      "units": 9,
+      "maxScore": 0.014
+    },
+    {
+      "person": "ben-shelton",
+      "date": "2026-09-20",
+      "units": 9,
+      "maxScore": 0.013
+    },
+    {
+      "person": "tiger-woods",
+      "date": "2026-10-04",
+      "units": 10,
+      "maxScore": 0.006
+    },
+    {
+      "person": "codie-sanchez",
+      "date": "2026-10-10",
+      "units": 7,
+      "maxScore": 0.005
+    }
+  ],
+  "top_pairs": [
+    {
+      "score": 0.03,
+      "other_person": "greg-brockman",
+      "shared_phrases": [
+        "keep score"
+      ],
+      "target": "[diagnosis] turn themselves into it and keep score.",
+      "other": "[diagnosis] What separates Three from One is how he keeps score on his own work"
+    },
+    {
+      "score": 0.026,
+      "other_person": "Tate-McRae",
+      "shared_phrases": [],
+      "target": "[diagnosis] Mann's own account puts his worth in visible success and his dread in public failure",
+      "other": "[diagnosis] worth gets earned in visible output"
+    },
+    {
+      "score": 0.021,
+      "other_person": "madonna",
+      "shared_phrases": [],
+      "target": "[diagnosis] turn themselves into it and keep score.",
+      "other": "[diagnosis] she breaks any rule that gets attention and keeps every rule that gets the show finished."
+    },
+    {
+      "score": 0.017,
+      "other_person": "Jonathan-Bailey",
+      "shared_phrases": [],
+      "target": "[diagnosis] The belonging that matters more to him now comes from being a father to his two daughters.",
+      "other": "[diagnosis] because I felt like I was withdrawing.\" Then the line that matters most"
+    },
+    {
+      "score": 0.014,
+      "other_person": "Tate-McRae",
+      "shared_phrases": [],
+      "target": "[diagnosis] and they cope by becoming what success looks like to the people watching.",
+      "other": "[counter-typing] Tate turning down a room in order to stay unlike the people inside it."
+    },
+    {
+      "score": 0.014,
+      "other_person": "sombr",
+      "shared_phrases": [],
+      "target": "[diagnosis] The belonging that matters more to him now comes from being a father to his two daughters.",
+      "other": "[diagnosis] yet he named himself for a sad mood and says his songs come from what he feels."
+    },
+    {
+      "score": 0.014,
+      "other_person": "sombr",
+      "shared_phrases": [],
+      "target": "[diagnosis] \"being seen by everyone.\" In 2026 he told Shetty he had only recently started to feel he belonged",
+      "other": "[diagnosis] He has also spoken in 2026 about depression and his body image"
+    },
+    {
+      "score": 0.013,
+      "other_person": "ben-shelton",
+      "shared_phrases": [],
+      "target": "[diagnosis] shame turns into a question asked of every room",
+      "other": "[diagnosis] and its reflex is turning pain into a good story."
+    },
+    {
+      "score": 0.013,
+      "other_person": "greg-brockman",
+      "shared_phrases": [],
+      "target": "[diagnosis] \"being seen by everyone.\" In 2026 he told Shetty he had only recently started to feel he belonged",
+      "other": "[diagnosis] and by September 2026 he was the face of OpenAI's Astra launch."
+    },
+    {
+      "score": 0.013,
+      "other_person": "greg-brockman",
+      "shared_phrases": [],
+      "target": "[diagnosis] The belonging that matters more to him now comes from being a father to his two daughters.",
+      "other": "[diagnosis] it claims no access to his mind and makes no clinical judgment."
+    },
+    {
+      "score": 0.012,
+      "other_person": "Jonathan-Bailey",
+      "shared_phrases": [],
+      "target": "[diagnosis] The read is held at medium confidence",
+      "other": "[counter-typing] What sinks the Seven read is the shape of his worst moments."
+    },
+    {
+      "score": 0.012,
+      "other_person": "Jonathan-Bailey",
+      "shared_phrases": [],
+      "target": "[diagnosis] The read is held at medium confidence",
+      "other": "[counter-typing] A Type 2 read is also available given the warmth and the philanthropy"
+    }
+  ]
+}

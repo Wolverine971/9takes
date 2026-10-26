@@ -10,6 +10,43 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Active workstreams
 
+### 2026-10-26 — Unattended weekly brief: record traffic and the new asks worked (891 engaged humans, 1 -> 7 takes), but 0 of 7 contributors are reachable and desk replies are 0 for a 5th audit; people publisher crashed at startup 4 days (Node dylib) with Sombr ready; 7 v3 runs -> 4 passes, 3 hand publishes (DB 456)
+
+- **Brief:** [`docs/daily-briefs/2026-10-26_marketing-status.md`](../daily-briefs/2026-10-26_marketing-status.md).
+  - Growth freshness gate PASSED: growth-log `### 2026-10-26`, audit 06:00 -> 06:08 exit 0. Headline and biggest leak are quoted verbatim.
+  - Supabase MCP down (8th week). Data came from read-only `scripts/db-query.sh` and six read-only `--publish-check` runs.
+- **Growth headline (verbatim):** _"record traffic (891 engaged humans) and the new asks worked (1 -> 7 takes, q118 158 -> 4), but all 7 contributors left unreachable, 0 got a reply within 24 h, and none came back."_
+- **Biggest leak (verbatim):** _"the return leg, not the ask."_
+  - 0 returning contributors for a 5th week.
+  - 0 of 7 contributors reachable. `NineChorus.svelte` produced 4 of 7 takes and has no capture.
+  - 0 of 7 replied within 24 h. One DJ reply (to 760, at 47 h, outside the desk) reached an anonymous fingerprint that never returned.
+- **Desk:** 21 pending / 1 posted lifetime (re-queried). Seven pending takes have an email behind them: 733, 743, 749 (opt-ins) and 746, 747, 748, 754 (logged in). Digest alarm fix verified (`alarm` true daily, `olderPending` 16 -> 20).
+- **NEW, publisher dead 10-23 -> 10-26 (exit 134 at startup):**
+  - `dyld` can't load `libada.3.dylib` for `/opt/homebrew/Cellar/node/26.5.0/bin/node`.
+  - The 10-22 12:27 Homebrew upgrade installed `ada-url` 4.0.0, moved `opt/node` to 26.12.1, and pointed `bin/node` at `node@24` 24.22.1.
+  - OpenClaw's cached shell snapshot still puts the 26.5.0 keg first on PATH. That it causes the crash is inferred.
+  - Sombr (8.3 Open Case) has been `--publish-check` eligible since its portrait landed 10-22.
+- **Content:**
+  - v3 runs, 4 passes: Paapa Essiedu 8.6 (now release-stale), Sombr 8.3 (eligible), Josh Hartnett 8.5 (published), Dhar Mann 8.6 (images only, untracked).
+  - 3 holds on `insufficient_evidence`, all failing the Enneagram floor (rival type not separated): Olivia Dean, Dan Ives, Kareem Rahma.
+  - Hand publishes: Josh Hartnett and Inde Navarrette (10-22), Ilya Sutskever (10-25). DB 453 -> 456.
+  - The 10-22 portrait batch covered Paapa, Ella Beatty and Stella Lefty, but all three block on `editorial_v3:stale_or_invalid_release`.
+  - Queue: 3 left (dry ~10-29), 13 held. Dakota Johnson moved to `skipped`.
+  - Type 6: 8 of 19 rows since 10-01 (42%) vs 12% live.
+- **SEO:**
+  - T-41 A closed 10-25: no spam-update hit, 0 noindex.
+  - 3 Soft 404s. The depression page's QuickAnswer was fixed (`9b6890bc7`) and Request Indexing submitted. Re-inspect after 11-01.
+  - GSC pull 10-19.
+- **Outreach:**
+  - Enneagram Monthly package built (docx + script-drawn chart, 10-20). Send unverified.
+  - OliveMe replied 10-22 (listing yes; interview and reciprocal link no). The listing was committed 10-23 on `enneagram-and-mental-illness`; live status unverified.
+- **Still parked / unchanged:** Instagram (RED 0/10), Quora, Twitter, The Nine, One Take; pop-culture 20 not live; 10 unfired packets; beta card 1/10 (0 submits for 2 weeks, 20 days left).
+- **Next move (ranked):**
+  1. DJ replies to the 7 reachable takes today.
+  2. DJ approves a celebrity reply opt-in (PM pick: the ambitious "full chorus" email at the reveal).
+  3. Pin `scripts/daily-blog-publisher.sh` to Node 24 and refresh the OpenClaw snapshot (~5 min, eng).
+  - Following: Dhar Mann portrait; `--phase finalize` for Paapa, Stella and Ella; send Enneagram Monthly.
+
 ### 2026-10-19 — Unattended weekly brief: fix build verified live (q118 on celebrity pages, one-step homepage post); week 10-12 closed at 773 engaged humans -> 1 take; desk replies still 0 for a 4th audit; 7 v3 runs -> 1 pass -> 0 publishes; Type 6 skew in new subjects
 
 - **Brief:** [`docs/daily-briefs/2026-10-19_marketing-status.md`](../daily-briefs/2026-10-19_marketing-status.md).
@@ -426,6 +463,22 @@ Following DJ's instruction, the homepage now posts and reveals real responses in
 
 ## Blocked / waiting
 
+### 2026-10-26 — Current blockers needing DJ / eng decision
+
+- **Desk replies (DJ, ~15 min, 5th audit):** 21 pending / 1 posted lifetime. Reply to 749, 743, 733 (opt-ins; 733 has no desk row), then 754, 746, 747, 748. Ambitious option still open: name a second replier in DJ's voice.
+- **Celebrity reply opt-in (DJ go, growth bet #2):** `NineChorus` has no capture. Lean: reuse the tray (0 opt-ins from 9 takes since 10-01). Ambitious: the "full chorus" email at the reveal. Agent build ~1–2 h.
+- **q118 fallback pre-approval (DJ, 3rd ask):** swap to "your read on {person}" on 11-02 if there are fewer than 3 celebrity contributors this week.
+- **Publisher Node pin (eng, ~5 min, 6th brief, escalated):** the publisher has crashed at startup since 10-23. Fix: call `/opt/homebrew/opt/node@24/bin/node` in `scripts/daily-blog-publisher.sh` and refresh the OpenClaw shell snapshot. Sombr is waiting on it.
+- **Release refreshes (DJ / pipeline):** Paapa Essiedu 8.6, Stella Lefty 8.4 and Ella Beatty 8.2 have portraits but `editorial_v3:stale_or_invalid_release`. Inferred fix: `--phase finalize`.
+- **Portrait (DJ):** Dhar Mann (8.6) is images-only. The PM can hand over a prompt; DJ generates the image.
+- **Enneagram Monthly send (DJ):** package ready 10-20. Send unverified.
+- **Create queue (DJ):** 3 subjects left (dry ~10-29), 13 held. Refill, or reruns of held subjects? A Type 6 calibration check (3rd ask) could ride along.
+- **Beta card goal (DJ, 2nd ask):** 1/10 by 11-15. 465 -> 12 -> 0 this week.
+- **Carried:** signup 211 resend (21 days); `enneagram_type_prompt` still draft; typing calls (Dario, Druski, the Mark-Fischbach duplicate, Greg Brockman flag drift); leadership-post mismatches; T-44 migration; perspective-review backfill (70); pop-culture 20; Christopher Abbott rerun (no `release.json`); Daniela Amodei (live before 11-09).
+- **Dated, coming due:** Soft 404 re-inspection and the Jordi Hays snippet/CTR read (~11-01); q118 / homepage v2 decision (11-02); growth's `returning_contributors` >=1 bar (11-09); beta goal (11-15).
+- **Parked:** Instagram, Quora, Twitter, The Nine, One Take.
+- **Resolved since 10-19:** digest backlog alarm verified; Dakota Johnson removed from the queue (`skipped`); Ilya Sutskever published (10-25); Enneagram Monthly drafted (chart by plotting script); T-41 A readout done (10-25); depression-page QuickAnswer restored (10-25).
+
 ### 2026-10-19 — Current blockers needing DJ / eng decision
 
 - **Desk replies (DJ, ~15 min, 4th audit):** 16 pending / 1 posted lifetime; last reply 10-03. Start with 743 + 749 (opt-ins), then 754 (registrant) and 759 (newest). Growth's ambitious option: name a second replier in DJ's voice.
@@ -586,6 +639,14 @@ Following DJ's instruction, the homepage now posts and reveals real responses in
 
 ## Decisions
 
+### 2026-10-26 — Observed from artifacts + memory (not stated to the PM directly)
+
+- **10-19/21:** the Enneagram Monthly article was written from a dated 453-profile snapshot. Its chart was drawn by a plotting script (`make-chart.py`), which DJ committed. Inferred: chart-by-script is acceptable under the no-image-generation rule.
+- **10-22:** Node runtime policy. Builds run on 24.x and functions on 22.x, with engines enforced (`0ee519d4a`). Homebrew `node` now points at `node@24`. The publisher crash is a side effect of this change.
+- **10-22 / 10-25:** DJ published Josh Hartnett, Inde Navarrette and Ilya Sutskever by hand.
+- **10-23:** OliveMe Counseling listed on the mental-illness guide, as a California-only therapy option plus a "Talk to DJ" coaching link. No referral partnership is implied.
+- **10-25:** DJ approved restoring a bounded direct answer in the depression page's QuickAnswer. The old type ranking was not restored.
+
 ### 2026-10-19 — Observed from artifacts + memory (not stated to the PM directly)
 
 - **10-12/13:** No paid AI detector. Agents flag generic passages and DJ picks each post's direction, left as an uncommitted HTML comment in the post. Rewrites should be shorter, with the FAQ cut, and should end with 5–6 riff-able questions for DJ. People pages commit to one type, lead with triad + core emotion, and argue the case conversationally; rival types go in "Why not" sections. Paragraph rhythm should be mixed, not uniform blocks.
@@ -670,6 +731,7 @@ Following DJ's instruction, the homepage now posts and reveals real responses in
 
 ## Status snapshots
 
+- [2026-10-26](../daily-briefs/2026-10-26_marketing-status.md) — Growth gate passed (chain on time). Headline: record traffic (891 engaged, 47 returning) and the new asks worked (1 -> 7 takes; q118 158 -> 4, 2.5% vs q567's 0.43%), but 0 of 7 contributors are reachable, 0 were replied within 24 h, and returning contributors were 0 for a 5th week. Desk: 21 pending, 0 desk replies for a 5th audit. NEW: the people publisher has crashed at startup since 10-23 (Homebrew `ada-url` 4.0.0 broke the stale `node/26.5.0` keg on OpenClaw's PATH), with Sombr eligible since 10-22. v3: 7 runs -> 4 passes; 3 hand publishes (DB 456); Dhar Mann 8.6 images-only; Paapa, Stella and Ella release-stale; queue 3 left, 13 held; Type 6 = 42% of new rows. SEO: T-41 A closed (no hit), 3 Soft 404s, depression page fixed. Outreach: Enneagram Monthly package built (send unverified); OliveMe replied and was listed. Social parked.
 - [2026-10-19](../daily-briefs/2026-10-19_marketing-status.md) — Growth gate passed (chain on time). Headline: the second-best traffic week in 26 (773 engaged, 40 returning) produced 1 take; every gated surface except question pages went to zero; q567 showed to 110 celebrity readers for 0; the one contributor got no reply. The fix build was verified live by the PM (q118 on celebrity pages, one-step homepage post); q118 is at 3 -> 0 so far. Desk: 16 pending, 0 replies since 10-03 (4th audit). 7 v3 runs -> 1 pass (Ella Beatty, release stale + no portrait) -> 0 publishes; Madonna was published by hand (DB 453); Ilya Sutskever is images-only. NEW: Type 6 skew (33% of new rows vs 12% corpus); Dakota Johnson live but still queued. Enneagram Monthly draft unwritten (day 10). Instagram, Quora, Twitter, The Nine and One Take parked.
 - [2026-10-18](../daily-briefs/2026-10-18_marketing-status.md) — Off-cycle marketing and conversion investigation (not a weekly brief). Traffic held (Mon–Sat 582 -> 624). Celebrity q567 226 -> 1 since launch. Homepage reveal-then-post two-step lost the 2 starters. All six prior-week contributors unanswered. Digest early-return bug hid a 15-draft backlog. DJ then authorized and shipped the fixes (see the growth-log 10-18 implementation entry).
 - [2026-10-12](../daily-briefs/2026-10-12_marketing-status.md) — Growth gate passed (chain on time); headline: comments came back to 6 from six first-timers (half via the new homepage answer box) after 0 and 2; none got a reply (15 unposted desk drafts) and one contributor returned at 30 hours and left; celebrity pages showed q567 to 103 readers for 1 take ("i dont understand this question"); mail on again after 34 days and the week's one registrant unsubscribed after welcome email 3. Same two DJ-only steps open a second week (q118 / q203 seeds, desk replies). DJ shipped 15 commits: Enneagram test, Google-only answer summaries + give-first lockdown, stale-facts pass (103 live rows), CEO page / celebrity hub / compatibility calculator, 3 MDsvex posts, Dakota Johnson published (DB 452), Doja Cat retyped 7 -> 9 live, Altman retype dropped. Outreach restarted (5 of 15 sent) and Enneagram Monthly invited a draft article. Open calls: Dario 5 -> 6, Druski 8 -> 3, Mark Fischbach duplicate of Markiplier, Greg Brockman publish-flag drift. Instagram 66 / Quora 146 days dark.
@@ -695,6 +757,15 @@ Following DJ's instruction, the homepage now posts and reveals real responses in
 ## Experiment + campaign log
 
 Cross-link only. Detail lives in `docs/growth/growth-log.md`.
+
+### 2026-10-19 -> 10-25 — Celebrity q118 and homepage v2, week 1 of 2; post-answer loop week 7
+
+- Growth-log `### 2026-10-26`. The week: 891 engaged humans -> 7 takes from 7 first-time contributors; 0 returning (5th week).
+- Gate by surface: celebrity 158 -> 4, home 57 -> 2, question pages 11 -> 1, blog embeds 15 -> 0.
+- q118: 2.5% (95% CI ~0.7-6.4%). Count bar met, 3% rate bar missed, kill rule not triggered. Homepage v2: 2 takes from 28 engaged `/` humans (bar met). Both hold unchanged through 11-01; decision 11-02.
+- Reply leg: 0 of 7 replied within 24 h, 0 of 7 reachable. The digest alarm fix is verified but replies didn't move.
+- Beta card: 465 -> 12 -> 0. Signup 213 (Google -> Shawn Ryan page).
+- 10-25 SEO readout (T-41 A): no spam-update hit; Soft 404 fix shipped (`9b6890bc7`).
 
 ### 2026-10-18 — Fix build live: celebrity q118 (`three_words_v1`) + one-step homepage post (v2)
 

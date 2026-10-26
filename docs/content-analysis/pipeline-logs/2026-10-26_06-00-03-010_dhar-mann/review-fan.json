@@ -1,0 +1,86 @@
+{
+  "schema_version": 3,
+  "role": "fan",
+  "content_sha256": "70a9cddef06cb2467b070536bbd79c174b6e45fb63cce4f55dc2cd6f6620e4bb",
+  "evidence_sha256": "e3ba9960beb35a8647002ecc8311006cee88804170b821c2239d21468e232818",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": false,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "fan-01",
+      "severity": "major",
+      "passage": "The worst advice he ever got was to change his name. He kept it, put it on stories where the good person always wins, \"unlike in the real world,\" and then took his face out of them, so the name could keep winning without him in the frame.",
+      "problem": "The kicker, and the earlier line \"A Three gives up the spotlight when the spotlight stops winning,\" leave the reader thinking Mann stays out of frame. An informed viewer knows he is back in it as a person, and the evidence file already shows this. He hosts his own weekly interview show, What Happens Next, launched May 18, 2026 on YouTube and podcast platforms (Variety, S31; S25 is an episode). The NFL named him \"Chief Kindness Officer\" and \"Creator of the Week\" for Super Bowl LX, and he filmed sketches at Levi's Stadium (THR, January 2026, S28; Forbes cites the title in his No. 2 entry, S21). Advertising Week named him \"Chief Creator Officer\" (S23). Wikipedia also lists a 2022 Dhar & Jay Show co-hosted with Shetty (citing TheWrap, October 27, 2022; not opened for this review). Meanwhile, by October 2025 the studio had a separate CEO, Sean Atkins (TheWrap, S20). The body never mentions the podcast, though the frontmatter lists him as its host. Fans will see an inversion the draft never names: he left the fables and the day-to-day running of the studio, then came back as the company's public face. That either confirms the spotlight line, if the spotlight now wins in a new format and the article argues it, or shows that cutting his face was narrower than the ending claims.",
+      "acceptance_test": "The body gives the dates and links for his return as a personal public face: the hosted interview show, the NFL and Advertising Week titles, and the separate CEO. The \"fire myself\" passage or the ending tests the spotlight claim against that return. The closing line no longer implies he has stayed out of the frame. The body and the occupation metadata agree."
+    },
+    {
+      "id": "fan-02",
+      "severity": "major",
+      "passage": "In 2010 he and his partner told Mother Jones they had signed contracts for 75 franchise stores and were talking up an IPO. Announcing the win in round numbers, ahead of the signatures, is an old habit.",
+      "problem": "This misreads the source. Mother Jones (S06, December 3, 2010) reports \"Mann and Peterson say they've signed contracts to open 75 franchise stores.\" That is a claim that the signatures already existed, not an announcement made ahead of them. Nothing in the evidence record shows the 75 contracts were false, unsigned or unrealized. The record that does exist partly cuts the other way. Mother Jones (S07, March 1, 2011) reports that the first franchise had \"recently opened in Sacramento\" just as the partnership collapsed. The NYT (S01, 2021) reports that Mann countersued Peterson and won a cash settlement plus shares in the publicly traded company Peterson founded. \"Ahead of the signatures\" and \"an old habit\" turn one unverified 2010 claim and one 2026 pledge into a character pattern. That is an adverse inference about a living person, built on a source that says something else.",
+      "acceptance_test": "One of two fixes. Either the sentence cites a source showing the 75-store or IPO claims were premature or went unrealized, or it says only what Mother Jones reported (they said contracts were signed; the record does not show how many stores opened) and drops \"ahead of the signatures\" and \"old habit.\" Any pattern claim that remains rests on at least two sourced instances."
+    },
+    {
+      "id": "fan-03",
+      "severity": "major",
+      "passage": "He says the recovery began when he stopped blaming the economy, the government and the friend for his three failures and saw that he \"was the common denominator.\"",
+      "problem": "In the source, the three failures are named: \"My first failure in real estate, I blame the economy. My second failure in medical marijuana, I blame the government. My third failure with my investments, I blame Nick\" (How I Built This, S05 [41:19]). The draft never says weGrow failed. Readers will take \"the government\" to mean the fraud prosecution, and the marijuana business drops out of the story after the 2010 party. Sources already opened show how it ended, and it is the costliest visibility choice in the record. In his 2024 telling, after the \"Marijuana Superstore\" launch and a CNN appearance, the big distributors cut him off on opening night: \"So my business was pretty much doomed from the start.\" He was running the store on credit cards and supplier terms because \"from an early age, I always over leveraged myself\" (S05 [21:31-23:10]). Mother Jones (S07, March 1, 2011) reports that the original store closed and that he and Peterson split with dueling lawsuits; Mann's spokesman called Peterson's accusations retaliation. The weGrow section stops at \"Both can be true: the release was candid, and it was also the louder headline,\" and never shows what the louder headline cost. It also leaves \"What the type leaves out\" thinner, because weGrow is the failure missing from his own website timeline.",
+      "acceptance_test": "The weGrow section, or \"The shortcut,\" says with sources how weGrow ended. That means his account that the loud launch cost him his suppliers and doomed the store, plus Mother Jones's report of the 2011 closure and partnership split. Peterson's allegations are either attributed with Mann's response or left out. The \"three failures\" sentence names the failures as he did: real estate (the economy), medical marijuana (the government) and the investment (the friend)."
+    },
+    {
+      "id": "fan-04",
+      "severity": "minor",
+      "passage": "the son of Sikh immigrants from India whose taxi company, Friendly Cab, became one of the city's biggest.",
+      "problem": "The draft gives only where the family ended up, so the money-as-love origin reads like a rich kid's story. The record has the climb. His parents came to America \"with $6 in their pocket,\" and his father hadn't finished the equivalent of high school (S03 [2:38-3:08]). He grew up sharing a one-bedroom apartment with three families (NYT, S01). His father had farmed in Punjab, bought one cab in Oakland and came to own 200 (Mother Jones, S06). Mann ties his own ambition to that rise: \"That's just always how I've been, probably seeing my dad go from one taxi cab to my parents building their big taxi business. So my idea was to scale\" (S05 [47:18]). That is the first model of visible ascent in the record, and the Three read depends on visible ascent. It also lets the article weigh type against circumstance (immigrant striving), as the evidence record's 'against' field already asks. Fans hear the $6 line in nearly every long interview he gives.",
+      "acceptance_test": "The origin passage adds one or two attributed sentences on the family's start and on his own link between his father's rise and his urge to scale, with the circumstance explanation acknowledged. No new causal childhood claim goes beyond what he says himself."
+    },
+    {
+      "id": "fan-05",
+      "severity": "minor",
+      "passage": "Even his account of giving ends on a scoreboard. Here is how the story about his wife's phone wraps up:",
+      "problem": "Two minutes earlier in the same Shetty conversation (S03 [67:39-69:45]) is a sharper piece of evidence, and anyone who watched the episode will miss it. On an early influencer trip the brand paid only for economy seats. Laura's friends had upgraded to first class and watched the couple walk past: \"I felt so embarrassed... I felt like I was nothing and I was just humiliated and was, you know, sort of laughed at.\" Laura told him seat class didn't matter to her. His coda: \"A lot of those people, you know, riding in first class are now the ones riding in economy.\" He tells it as a tribute to her love. But the shame is about being seen ranking low, and the payoff is where the others sit now. That separates Three from Two more cleanly than the phone story's business moral.",
+      "acceptance_test": "Either the Type 2 section uses the economy-class story, quoted accurately against the caption track (or audio), with its timestamp added to the evidence record and framed as his account, or the editor records why the phone story is the better discriminator."
+    },
+    {
+      "id": "fan-06",
+      "severity": "minor",
+      "passage": "In February 2023, the studio's kindness brand met its first public test, when several of its regular actors protested over pay and treatment.",
+      "problem": "\"First public test\" skips the part of his reputation most young viewers know: the ironic, \"cringe\" audience. The NYT Magazine essay the draft already cites (S02) says some of his stories \"are so surreal that they verge into great, if accidental, comedy.\" His answer to the mockery is on record, and it is revealing. On June 9, 2021 he posted a sketch in which he appears on camera, tells an actor who quits that he gets hate too, and shows clips of YouTubers criticizing his videos, PewDiePie among them. PewDiePie replied, \"it was a bad video. I stand by that,\" while saying he bore Mann no ill will (Sportskeeda, June 16, 2021; opened for this review; the original video was not opened). Turning his critics into the lesson of his own format directly tests the image-management thesis. It also puts him back on camera after he says he \"fired\" himself.",
+      "acceptance_test": "Either \"first\" is dropped, or one or two sourced, dated sentences cover the ironic and reaction-channel reception and his 2021 on-camera reply, checked against the original video or a reliable report. Otherwise the editor records why it is left out. Using it requires a new source entry in the evidence record."
+    },
+    {
+      "id": "fan-07",
+      "severity": "minor",
+      "passage": "Michael Hunt, a former council aide who worked for weGrow in 2010, said Mann didn't necessarily get special treatment because of his parents' ties to city leaders.",
+      "problem": "Readers hear about \"his parents' ties to city leaders\" and later the city attorney's \"no matter how connected you are,\" but never learn what the ties were, so they can't weigh either quote. The specifics are in sources already opened. He hosted fundraisers for Jerry Brown and was \"a major source of campaign cash for Oakland politicians\" (East Bay Express, S12). He registered Councilmember Desley Brooks's 2010 re-election domain, and her campaign ads ran on Friendly Cab taxis; she said she paid for them herself but failed to report it at the time (SF Chronicle, S09). In a September 2010 email to liquor scion Ben Bronfman, who was seeking a pot-farm permit, he wrote, \"I can handle all of your lobbying, I just need a budget and a face\" (Bay Citizen, S10). Showing off his closeness to power belongs to the visible-success pattern. Fairness still requires keeping Hunt's caveat next to these facts.",
+      "acceptance_test": "Before Hunt's quote, one or two sourced, dated sentences give the specific ties. Hunt's caveat and Brooks's response stay in. Nothing implies wrongdoing the sources do not allege."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "The worst advice Dhar Mann says he ever got was to change his name.",
+      "reason": "A specific, sourced hook from the Shetty episode's Final Five (checked against the caption track at [74:58]). The article pays it off twice, with the kept name and the cut face."
+    },
+    {
+      "passage": "So he kept the name and cut the face. Both choices protect what an audience thinks of when it hears \"Dhar Mann.\"",
+      "reason": "The article's most original insight. Pairing these two choices is something even a long-time fan will not have seen before. Extend it (see fan-01) rather than cut it."
+    },
+    {
+      "passage": "\"My life really felt like a movie,\" he told Raz. Seven years later, the About page on his own website was headed \"My Life is like a Movie.\"",
+      "reason": "A verified detail that connects the 2014 Instagram period to the 2021 brand in his own words. The 2024 quote matches the How I Built This transcript at [34:00]."
+    },
+    {
+      "passage": "Gray area was the phrase Hunt had used about him in 2012.",
+      "reason": "A quiet, earned echo between a hostile-adjacent 2012 witness and Mann's own 2026 account. It does the work without editorializing."
+    },
+    {
+      "passage": "When providing and being present collided, providing won, and he called it love.",
+      "reason": "Compresses the big-house story into a type-relevant observation without overclaiming, and sets up the Three-versus-Two contrast in his family life."
+    }
+  ],
+  "assessment": "Read as an informed fan, this is a strong, fair-minded draft. It tells most viewers something they don't know: the 2010-2015 weGrow and Oakland record in contemporaneous sources. It does not flatter him; the actors' dispute and the fraud plea are handled with both sides and attribution. I spot-checked about 20 quotations and facts against saved source texts. Those were the How I Built This transcript, the Shetty caption track, Mother Jones 2010 and 2011, NYT 2021 (style and magazine), East Bay Express 2015, E! News 2014, Forbes 2026, THR on the NFL, Variety on the podcast and the Bay Citizen. All quoted lines I checked matched their context. Limitation: I read machine transcripts and captions and did not listen to audio. The fan's problems are omissions and one misreading, not invention. (1) The ending's \"out of the frame\" image ignores his 2026 return as a hosted, titled public face. (2) The 2010 franchise claim is misread as an announcement made \"ahead of the signatures.\" (3) WeGrow's collapse is missing, though it was the costliest choice for attention in the record and he counts it among his three failures. Missing formative context (the family's $6 start and his father's one-cab rise), the economy-class humiliation story and the meme reception would each sharpen the Three-versus-Two case rather than pad it. The similarity advisory did not trip (max 0.03 against Greg Brockman, on the generic phrase \"keep score\"), and I found no meaningful reuse."
+}

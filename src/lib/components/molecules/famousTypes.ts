@@ -134,6 +134,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'sabrina-carpenter', link: true, hasImage: true, lastmod: '2026-05-19', personaTitle: 'Pop\'s Winking Machine', contentGrade: 8.6, types: ['musician', 'pop-star'] },
 		{ name: 'sara-saffari', link: true, hasImage: true, lastmod: '2026-04-09', personaTitle: 'Fitness\'s Self-Built Phoenix', contentGrade: 8.4, types: ['creator', 'influencer', 'lifestyle-builder'] },
 		{ name: 'sofia-vergara', link: true, hasImage: true, lastmod: '2026-04-29', personaTitle: 'Hollywood\'s Accented CEO', contentGrade: 9, types: ['celebrity', 'movieStar', 'screen-icon'] },
+		{ name: 'sombr', link: true, hasImage: true, lastmod: '2026-10-26', personaTitle: 'The Kid Who Called the Garden', contentGrade: 8.3, types: ['musician', 'singer-songwriter', 'rising-star', 'celebrity'] },
 		{ name: 'stephen-a-smith', link: true, hasImage: true, lastmod: '2026-04-06', personaTitle: 'Sports Media\'s Self-Made Thunder', contentGrade: 8.7, types: ['celebrity', 'creator', 'celebrity-image', 'news-commentator'] },
 		{ name: 'steven-bartlett', link: true, hasImage: true, lastmod: '2026-05-11', personaTitle: 'Podcasting\'s Restless Architect', contentGrade: 8.8, types: ['entrepreneur', 'creator', 'business-creator', 'business-operator'] },
 		{ name: 'sydney-sweeney', link: true, hasImage: true, lastmod: '2026-05-19', personaTitle: 'Hollywood\'s pressure-tested architect', contentGrade: 8.7, types: ['newMovieStar', 'celebrity', 'rising-star'] },

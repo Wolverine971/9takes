@@ -1,7 +1,6 @@
-<!-- docs/BLOG-CROSSLINK-INDEX.md -->
 # Blog Cross-Link Index
 
-_Generated: 2026-10-25 by `pnpm gen:crosslinks` (scripts/generate-crosslink-report.js)_
+_Generated: 2026-10-26 by `pnpm gen:crosslinks` (scripts/generate-crosslink-report.js)_
 _Search data: GSC 2026-07-19 → 2026-10-17 (pulled 2026-10-19)_
 
 **Scope.** Link counts cover **live posts only**: files a route actually serves with `published: true`

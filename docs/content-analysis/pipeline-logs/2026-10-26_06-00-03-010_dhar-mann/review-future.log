@@ -1,0 +1,19 @@
+I wrote the five-year ("future") review for the Dhar Mann draft to `docs/content-analysis/pipeline-logs/2026-10-26_06-00-03-010_dhar-mann/review-future.json`. It passes the pipeline's review schema, and every quoted passage matches the draft exactly. I didn't touch any other file and published nothing.
+
+**Overall:** the main argument for Type 3 will hold up. It rests on dated, older evidence: the 2007 Lamborghini, the 2010 Mother Jones reporting, the 2014 collapse and the 2018 studio choices. If you took out the August–October 2026 Disney and Advertising Week news, the case would still stand. The weak spots are statements about his current situation that will go stale.
+
+**Two major findings (these block release until the editor resolves them):**
+- **The ending no longer fits 2026.** The last line says he "took his face out of them, so the name could keep winning without him in the frame." In 2026 he was back in front of the camera: hosting his own podcast, the NFL's "Chief Kindness Officer" and Advertising Week's "Chief Creator Officer." The podcast role is in the page's metadata but never mentioned in the article. This return actually supports the Type 3 read, so the fix should make the article stronger.
+- **"The workplace claims remain disputed."** This sentence has no date, and the actor-dispute claims behind it are marked as settled facts with no reminder to re-check them. Those allegations are sensitive, so the page could misstate them later without anyone noticing.
+
+**Six minor findings:**
+- The rebuttal to Type 7 leans on "since 2018 he has stuck with one formula," but his 2026 expansion (podcast, Fox, Disney, NFL, the new campus) is already straining that claim.
+- The "old habit" line pairs the unsigned Advertising Week pledges with 2010, but in 2010 he said the contracts were already signed, so the comparison doesn't fit.
+- The FAQ puts the studio in Burbank with no date, but the evidence shows a new Los Angeles campus targeted for February 2027.
+- The expungement FAQ drops the 2021 date the article body gives, and the expungement and Ponzi-scheme accounts have no reminder to re-check them.
+- "Seven years later" reads as 2031 instead of 2021, and a few uses of "now" will date the same way.
+- Nothing in the evidence file would flag new evidence about his type; the only re-check reminders are for business news.
+
+I marked five passages to protect, including the 2010 "no algorithm was paying him to be watched" line. The phrase-similarity check against other profiles didn't flag anything, and the closest match is ordinary Type 3 vocabulary.
+
+I flagged the sensitive-allegations risk, which the research stage had already flagged. I worked from the draft and the evidence file's source excerpts and didn't reopen the sources themselves; the review notes this limitation.

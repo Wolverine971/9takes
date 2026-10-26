@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "future",
+  "content_sha256": "70a9cddef06cb2467b070536bbd79c174b6e45fb63cce4f55dc2cd6f6620e4bb",
+  "evidence_sha256": "e3ba9960beb35a8647002ecc8311006cee88804170b821c2239d21468e232818",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": false,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "future-01",
+      "severity": "major",
+      "passage": "and then took his face out of them, so the name could keep winning without him in the frame.",
+      "problem": "The closing image, and the earlier \"So he kept the name and cut the face.\", treat the face removal as a settled, undated state. The article's own 2026 record already complicates it. He hosts a video podcast under his name (What Happens Next, launched May 2026, S31/S25), was named the NFL's \"Chief Kindness Officer\" in January 2026 (S28) and was Advertising Week's \"Chief Creator Officer\" in October 2026 (S23). The frontmatter even lists \"Host, What Happens Next podcast\" as an occupation that the body never mentions. When the face was removed is never dated (S05 gives no year). C20 is marked stable and describes a present status (\"the studio no longer depends on his face\") with no review trigger. A reader in 2031 who has watched him front a podcast, a Disney or Fox series, or a campus launch would find the last line false. Yet the reversal fits the article's own line, \"A Three gives up the spotlight when the spotlight stops winning.\" The draft leaves out the most testable, durable evidence for its thesis.",
+      "acceptance_test": "(1) The face removal carries a sourced absolute date or bound (e.g. \"by 2024\"), or an explicit note that its year is unknown. (2) The body acknowledges, with dates and links, that from 2026 he re-entered the frame as a personal brand (podcast host, NFL and AWNY titles) while staying out of the fables, and either uses that as a test of the Three read or rewrites the closing line so it stays true if he appears on camera again. (3) C20 becomes time_sensitive with a review_trigger such as \"If Mann appears on camera in studio fables, the Disney or Fox series, or a studio-hosted show, revise the closing.\" (4) The occupation entry \"Host, What Happens Next podcast\" is either supported in the body with a dated, time_sensitive claim and trigger, or removed."
+    },
+    {
+      "id": "future-02",
+      "severity": "major",
+      "passage": "The workplace claims remain disputed.",
+      "problem": "This is a present-tense status claim about sensitive allegations, and it carries no date. The underlying claims (C29, C81, C82, C83, C85) are all marked durability \"stable\" with empty review_triggers, although the standard requires unresolved matters to be recorded as unresolved with an actionable trigger. The record already points to open threads: S05 has a \"union question\" segment (84:28-85:39), Mann's full February 14, 2023 statement was never retrieved, and the S18 allegations were partly documented. If within five years there is a lawsuit, labor complaint, union agreement, retraction or new on-record testimony, the page will misstate the dispute's status with no prompt to re-check.",
+      "acceptance_test": "The sentence is dated (e.g. \"As of October 2026, the workplace claims remain disputed.\"). C29, C81, C82, C83 and C85 (or a single summary claim covering this passage) have durability \"unresolved\" and a review_trigger naming concrete events: any lawsuit, labor filing or union agreement involving Dhar Mann Studios actors; new on-record actor or employee testimony; retrieval of Mann's full 2023-02-14 statement. A refresh must re-check before keeping \"remain disputed\"."
+    },
+    {
+      "id": "future-03",
+      "severity": "minor",
+      "passage": "since 2018 he has stuck with one formula.",
+      "problem": "The Type 7 rebuttal partly rests on an open-ended present-perfect status that the record is already straining. Within ten months of the accuracy check he launched a podcast (S31, May 2026), signed a Fox vertical-drama deal (S30, January 2026), took an NFL title (S28), got a Disney series order (S22), set a $100 million brokering goal and announced a Creator City campus targeted for February 2027 (S23, S24). That is the most Seven-looking spread of ventures in his career. If the expansion continues, this sentence becomes false and the Seven dismissal loses one of its two legs. The sentence is not in the claim inventory.",
+      "acceptance_test": "The sentence is anchored to dates and to what actually stayed constant (e.g. the studio's moral-fable formula from 2018 through 2026, even as 2026 deals carried it to new outlets). The Seven rebuttal rests mainly on the dated stated-motive discriminator (attention and \"social acceptance\" rather than stimulation), not on formula stability. The sentence is inventoried as an interpretation claim with a review_trigger: \"If Mann's ventures move beyond the moral-fable formula, re-test the Seven alternative.\""
+    },
+    {
+      "id": "future-04",
+      "severity": "minor",
+      "passage": "Announcing the win in round numbers, ahead of the signatures, is an old habit.",
+      "problem": "This pattern claim rests on the newest event in the article (the October 6, 2026 AWNY pledges, C28, unresolved) paired with 2010 (C93). The 2010 leg does not match the wording: in 2010 he said the franchise contracts were already signed, so that leg was not \"ahead of the signatures\". What became of the 75 stores is never stated. The interpretive sentence itself is not inventoried. C28's trigger (\"update or remove the sentence\") does not say what happens to the habit claim if the pledges become signed deals. If they close in 2027, the sentence reads as a stale insinuation. Strip out the latest event and the habit rests on one undocumented 2010 outcome.",
+      "acceptance_test": "The 2010 leg states, with a source, whether the 75 franchise stores materialized, or the sentence is reworded to fit both legs (e.g. \"ahead of delivery\"). The sentence is inventoried as an unresolved interpretation claim whose review_trigger covers both outcomes: \"If signed AWNY deals of about $100M are publicly confirmed, revise or drop the habit claim. If none are confirmed by the next refresh, keep it with the date.\" Removing the AWNY paragraph leaves the section's point supported by dated older evidence or cut cleanly."
+    },
+    {
+      "id": "future-05",
+      "severity": "minor",
+      "passage": "a Burbank, California, studio that makes scripted moral fables for YouTube, Facebook and other platforms.",
+      "problem": "The 'Who is Dhar Mann?' FAQ gives the studio's location as a timeless present-tense fact, and C98 is marked stable with no trigger. Yet the record (S24) says Creator City, a four-acre Los Angeles production campus, is targeted to open in February 2027, so this orientation fact has a known expiry within months. The body's Forbes line has the same problem: \"a team of 200 whose shows draw nearly 300 million views in a typical week\" uses present tense for June 2026 figures.",
+      "acceptance_test": "C98 has durability time_sensitive with review_trigger \"February 2027 Creator City opening: re-check studio location and platforms\". The FAQ wording either uses a location that survives the move (e.g. \"Los Angeles-area\") or dates it (\"based in Burbank as of 2026\"). The Forbes headcount and views sentence is in past tense or explicitly attributed to Forbes's June 2026 figures."
+    },
+    {
+      "id": "future-06",
+      "severity": "minor",
+      "passage": "He has said the conviction was later expunged.",
+      "problem": "This FAQ answers a high-intent legal question but drops the date the body gives (\"He told the Times in 2021\"). C38 is marked stable with no trigger, even though research_tasks says the expungement is unconfirmed in court records. Similarly, \"No public record of the scheme was found\" (C12) states an October 2026 search result as if it were timeless, again with a stable/no-trigger record. Both are uncorroborated self-reports in allegation territory, and a five-year refresh needs a prompt to re-check them.",
+      "acceptance_test": "The FAQ reads in substance \"He told The New York Times in 2021 that the conviction was later expunged.\" C38 has durability unresolved with a trigger: \"Confirm or refute via Alameda County Superior Court records at the next refresh; cite the record or correct body and FAQ.\" The Ponzi sentence is dated (\"As of October 2026, no public record...\"), and C12 is unresolved with a trigger to re-search for any civil, state or federal action against the scheme or its operator."
+    },
+    {
+      "id": "future-07",
+      "severity": "minor",
+      "passage": "Seven years later, the About page on his own website was headed \"My Life is like a Movie.\"",
+      "problem": "This relative date follows directly after \"he told Raz\", and Raz is dated 2024 throughout. A reader will count seven years from the telling and get 2031, not 2021. Elsewhere, \"now\" in \"The belonging that matters more to him now\" and \"what steers him now\" refers to 2026 statements but will read as the reader's present.",
+      "acceptance_test": "The sentence uses an absolute year (e.g. \"In 2021, the About page...\"). The two \"now\" anchors are tied to their 2026 sources (e.g. \"he said in 2026\"). No relative time anchor in the body can be counted from the wrong year."
+    },
+    {
+      "id": "future-08",
+      "severity": "minor",
+      "passage": "Public sources can't settle whether the restraint since 2015 is a changed motive or a sturdier image.",
+      "problem": "The article names its key open question honestly, but the evidence record gives it no way to be reopened. C66, C30, C88 and C89 are all marked stable with empty triggers. The record's only review_triggers (C26, C28, C91, C95) are business-news checks: Forbes, Disney, AWNY. None of them would detect evidence that strengthens or overturns the Type 3 read. A refresher in 2031 would know to update earnings figures but not what to look for on the thesis.",
+      "acceptance_test": "This passage (or C66) is recorded as an unresolved interpretation claim with concrete thesis-level review_triggers. Examples: on-record testimony from Laura Avila, Ruben Ortiz or former staff about his motives; a memoir or long-form independent profile; how he publicly handles a future setback (a rebuttal with numbers versus relational repair); a step back from the studio for family (compare C90). At least one review_trigger in the evidence record targets the type thesis rather than a business metric."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "That is the record from eight years before his first video, when no algorithm was paying him to be watched. The wish to be watched was already there, and he said it out loud.",
+      "reason": "This is the article's most durable move. It uses dated, contemporaneous 2010 reporting to separate motive from platform incentives, so it stays valid whatever YouTube or his business does next."
+    },
+    {
+      "passage": "That is the plainest statement in the record of what he was protecting, and it came from him. It is also a 2024 look back, and redemption stories reward a vivid \"before.\"",
+      "reason": "It names the limit of retrospective self-narration in place. That keeps the argument honest as his interview tour adds more polished retellings."
+    },
+    {
+      "passage": "Every creator at his scale tests thumbnails, so none of this alone says much about his personality, which is why the 2010 and 2014 record carries more weight.",
+      "reason": "It weights evidence by period instead of by vividness. The type argument therefore does not depend on current platform practice, which will change within five years."
+    },
+    {
+      "passage": "Gray area was the phrase Hunt had used about him in 2012.",
+      "reason": "A distinctive, verifiable echo across a decade, linking a 2012 third-party remark to his own 2026 self-description. Specific to this person and immune to news churn."
+    },
+    {
+      "passage": "When providing and being present collided, providing won, and he called it love.",
+      "reason": "A precise, dated-by-context reading of his own account that does real discriminating work against Type 2 without overclaiming. It is the kind of sentence that keeps the portrait from reading as boilerplate."
+    }
+  ],
+  "assessment": "Five-year test: the thesis largely passes. The Type 3 case rests on dated, older material: the 2007 Lamborghini rental, Mother Jones in 2010, the 2013-2014 plea and collapse, and the 2018 launch and packaging-first studio. Removing the August-October 2026 Disney and AWNY events leaves the central argument intact. The hook is a 2026 telling of a roughly 2014 dilemma, and the Forbes ranking is dated and tracked. The weak points are status claims that will age. The closing \"face out of the frame\" image is undated and already complicated by his 2026 return as a personal brand (podcast host, NFL and AWNY titles; future-01). The disputed workplace allegations, the expungement and the uncorroborated Ponzi account are tracked as stable with no triggers (future-02, future-06). The Seven rebuttal leans on an open-ended \"one formula\" claim the 2026 expansion is straining (future-03). The closing pattern claim leans on the newest, unsigned AWNY pledges and does not fit its 2010 leg (future-04). The FAQ location has a known 2027 expiry (future-05). One relative date and a few \"now\" anchors will be counted from the wrong year (future-07). The evidence record has no review trigger aimed at the type thesis itself (future-08). Similarity advisory: not tripped (max 0.03 against a 0.04 threshold). The top match, \"keep score\" with greg-brockman, is ordinary Type 3 vocabulary, and comparing the arguments found no meaningful reuse. The short generic Type 3 paragraph (\"shame turns into a question asked of every room\") is brief and is followed immediately by Mann-specific evidence. Limitation: as the future reviewer I worked from the frozen draft and the recorded source excerpts and locators, and did not reopen the external sources. The date and status observations above come from the record's own dated excerpts. Sensitive-allegation risk is confirmed (fraud plea, disputed actor claims). The typing is medium-confidence but not contested enough to flag."
+}

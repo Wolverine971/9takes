@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "critic",
+  "content_sha256": "70a9cddef06cb2467b070536bbd79c174b6e45fb63cce4f55dc2cd6f6620e4bb",
+  "evidence_sha256": "e3ba9960beb35a8647002ecc8311006cee88804170b821c2239d21468e232818",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": false,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "critic-F1",
+      "severity": "major",
+      "passage": "He volunteers the worst of his old self.",
+      "problem": "On the fraud he volunteers the mildest version, not the worst. His 2024 account (S05, about 23:00-28:20, re-transcribed for this review) is that the projects were finished and the contractors paid, and he only changed dates to speed up reimbursement. He also calls the outcome a \"$40,000 fine.\" The record describes more than allegations. The court ordered \"full restitution - $44,399.51\" (S11). That matches the \"more than $44,000\" the investigator said the city paid \"based on fraudulent paperwork\" (S09). Prosecutors said he \"paid contractors less than he received in grants and pocketed the rest\" (S11), and the city's civil suit alleged \"false claims for work that was never done\" (S12). The Berumen example in S09 claims $48,500 to the city against a renegotiated $22,000, plus a forged-signature allegation. A dates-only story does not account for full restitution. The draft never says this. \"The shortcut\" section adopts his word (and his lawyer's) as its heading and sums up the gap as \"Prosecutors alleged more.\" It also leaves out the defense's counterpoint that \"Mann's own spending exceeded the city's matching grants\" (S09). That lets \"What the type leaves out\" build a paradox (\"an odd habit for a man guarding an image\") on a confession that was in fact trimmed. Meanwhile his 2026 Shetty interview (S03) names only \"mistakes\" and \"bad short-term decisions.\"",
+      "acceptance_test": "\"The shortcut\" section states plainly, with links to S09/S11, that the court ordered full restitution of the amount prosecutors said he received on false paperwork. It says his 2024 account (dates changed, work done and paid) does not explain that amount, and it reports the defense's claim that his spending exceeded the grants. The heading no longer adopts \"shortcut\" unattributed; a neutral or quoted heading works. \"What the type leaves out\" no longer claims he volunteers the worst. It says he volunteers the vivid failures (car, Instagram) and gives the narrowest version of the one that is a court record. The \"unless the redemption story is the image\" point is kept. Optionally, add his S03 line \"So instead of hiding from that, I'm going to embrace that. I'm going to talk about that openly\" (about 57:44-57:57) as direct support."
+    },
+    {
+      "id": "critic-F2",
+      "severity": "major",
+      "passage": "That is the record from eight years before his first video, when no algorithm was paying him to be watched.",
+      "problem": "The draft answers the professional-incentive objection by treating 2010 as a period with no incentive to be watched. Later it says this \"is why the 2010 and 2014 record carries more weight.\" The 2010 source says the opposite. Mother Jones (S06) introduces the Hempire promo with \"Besides, when your business plan depends on publicity, there is no upside to playing it safe.\" Peterson calls the show \"a hedge.\" At the time weGrow was courting 75 franchisees and an IPO, and the SF Chronicle (S09) says he \"sought fame as a 'ganja-preneur'\" and \"rode the publicity frenzy.\" The same article (S06) also reports, at the time, that he set out to build \"the first honest hydro store.\" So honesty as the motive for the loud press release is not only \"his 2024 telling,\" as the draft frames it. Both alternative explanations for the 2010 behavior come from the very source the draft uses to rule them out.",
+      "acceptance_test": "The weGrow section concedes that the reality pilot and the loud press release also served a business plan that depended on publicity (quote or paraphrase S06's line or Peterson's \"hedge\"). It notes that S06 itself reported his \"first honest hydro store\" framing in 2010. Before-YouTube weight rests on items no business incentive explains: the 2007 rental to keep \"the appearance,\" \"my life is somewhat appealing to watch\" as a personal wish, and the 2014 Instagram account he ties to \"social acceptance.\" The \"which is why the 2010 and 2014 record carries more weight\" sentence is adjusted to match. The \"no algorithm was paying him\" line no longer implies there was no incentive at all."
+    },
+    {
+      "id": "critic-F3",
+      "severity": "major",
+      "passage": "So he kept the name and cut the face. Both choices protect what an audience thinks of when it hears \"Dhar Mann.\"",
+      "problem": "The frame that opens and closes the article (kept the name, cut the face) is tidier than the record in two ways. (1) It leaves out his own stated reason for keeping the name. In the same answer the hook quotes (S03, about 75:23-76:07) he says: \"But then I realized there's so many people out there just like me that feel like a failure. I wanted to create a brand that lets people know that you can have second chances in life... my name is associated with positivity and overcoming hardship.\" The author's insight (\"protect what an audience thinks of\") is his own branding logic, presented without attribution. The other-directed half (\"people just like me\") is missing from both the hook and the Type 2 case. (2) The face cut applies to the scripted fables only (S05, about 73:00: \"I cut myself out from the videos,\" based on analytics). Since May 2026 he has hosted a weekly on-camera podcast, What Happens Next (S31, S25). He has also taken personal front-man titles: NFL \"Chief Kindness Officer\" (S28, January 2026) and Advertising Week New York's first \"Chief Creator Officer\" (S23, October 2026). The frontmatter lists him as \"Host, What Happens Next podcast.\" So the closing line, \"so the name could keep winning without him in the frame,\" ignores the most recent evidence the draft itself cites. Separately, the description says he was told to change his name \"after a fraud plea and going broke at 30.\" S03 gives no date beyond \"at that point in my life, I had failed so many times.\"",
+      "acceptance_test": "The hook or the paragraph after it reports, attributed, his stated reason for keeping the name, including the \"people just like me\" half, and the interpretation builds on it. Face-removal passages say the cut was from the scripted fables. The article acknowledges his 2026 return to on-camera and front-man roles and either integrates it (for example, the face came back once his own story was the format) or revises the closing line so it is not contradicted. The description and hook do not date the name advice more precisely than his account does, or they mark the timing as the article's inference."
+    },
+    {
+      "id": "critic-F4",
+      "severity": "major",
+      "passage": "Relatives who saw the posts invested with the friend too.",
+      "problem": "The passive phrasing removes the role he admits to. In S05 (re-transcribed for this review, in the 28:51-36:51 range) he says: \"So I told them about my investment I was doing with Nick. And it wasn't long before my cousins, my brother, and even eventually my parents all started investing.\" He also says he ended up \"having caused my family members to lose money because they all invested based on me saying this was a good investment.\" This is adverse evidence, from him, in a sensitive-allegations profile. It also changes how a thesis-bearing passage reads. The draft later presents repaying the relatives as \"a costly break from the old pattern.\" By his account it also repaired losses he says he caused, which supports duty or reputation repair as much as a change of motive.",
+      "acceptance_test": "The passage says that, by his account, he told relatives about the investment and they invested on his word, and that he says he caused their losses. The repayment sentence in \"The package decides\" reflects this context and does not present repayment purely as restraint."
+    },
+    {
+      "id": "critic-F5",
+      "severity": "major",
+      "passage": "Announcing the win in round numbers, ahead of the signatures, is an old habit.",
+      "problem": "The parallel doesn't fit the 2010 source. In 2010 Mann and Peterson told Mother Jones \"they've signed contracts to open 75 franchise stores\" (S06). That is a claim that signatures already existed, made jointly with Peterson, not an announcement ahead of signatures. The record cited has no evidence that the contracts were fictitious. By March 2011 the first franchise had opened in Sacramento (S07), and Mann later won shares in a publicly traded company Peterson founded (S01). In 2026, by contrast, he said openly that no contracts would be signed that week (S23). The type hypothesis lists this pairing (C28, C93) as discriminator evidence, so the mismatch weakens the argument, not just the ending. Formatting: the Digiday paragraph ends with a trailing space and runs straight into \"In 2010 he and his partner...\", so the two render as one paragraph.",
+      "acceptance_test": "Either the article cites evidence that the 2010 contracts did not exist, or it describes the parallel accurately, e.g. big round-number claims announced before they could be checked, attributed to both partners in 2010. If neither holds up, the \"old habit\" sentence is cut. The 2010 and 2026 paragraphs are separated by a blank line."
+    },
+    {
+      "id": "critic-F6",
+      "severity": "major",
+      "passage": "The car in 2007 served no relationship; it preserved \"the appearance.\"",
+      "problem": "The Three-over-Two argument leans on quotes that have lost their relational halves. (a) The car: in S05 (about 15:30-16:00) the sentence after \"now I was being seen by everyone\" is \"Everyone wanted to be my friend at that point.\" By his account the car bought friendship, the same mechanism as the lunches the draft assigns to the Two case, so \"served no relationship\" overclaims. (b) The big house: the draft says \"he called it love\" and that this was \"When the studio took off.\" In S04 (about 63:50-66:10, re-transcribed) he says providing \"made every decision okay,\" dates the sacrifice to \"when I was just starting out,\" and ends the story: \"the thing that I valued that I thought that I was delivering on as a dad to help make everyone else's lives better or dreams come true was actually not even the thing that they really want.\" That is a giver's misjudgment, which a Two reading would claim. The draft's verdict (\"closer to a Three's over-work\") never addresses it. (c) The only intimate independent witness, Ghalichi (S15), wrote \"For the first time in my life, I truly felt loved, appreciated, and respected.\" It appears as two words in another section and is never weighed in \"Why not Type 2?\", even though that section says the Two case mostly \"comes from him.\" Three may still win on display versus giving: the 2007 rental preserved \"the appearance that I was a lot more successful,\" not anyone's welfare. But it should win on that distinction, not on trimmed quotes.",
+      "acceptance_test": "\"Why not Type 2?\" replaces \"served no relationship\" with the actual distinction: admiration for visible success versus being loved for what one gives. It acknowledges or quotes \"Everyone wanted to be my friend at that point.\" The big-house passage drops \"he called it love,\" uses his own timing or no timing, reports his \"make everyone else's lives better or dreams come true\" framing, and the verdict sentence engages with it. Ghalichi's statement is weighed in the Type 2 section as independent Two-leaning testimony, with its limits (a gracious breakup statement)."
+    },
+    {
+      "id": "critic-F7",
+      "severity": "minor",
+      "passage": "A Three gives up the spotlight when the spotlight stops winning.",
+      "problem": "The draft counts both seeking the spotlight (car, reality pilot, Instagram) and giving it up as Three. In this reasoning nothing could count against the type. The face cut was \"all based on looking at YouTube analytics\" (S05, about 73:00). Any data-driven operator would make that call, and the draft applies exactly that caveat to thumbnail testing two paragraphs earlier. The same pattern appears in \"The second is also the lesson of a man for whom other people's verdict is the main event\": it assumes the thesis to interpret a lesson the draft has just called ordinary after a fraud plea.",
+      "acceptance_test": "The face-cut paragraph applies the same professional-incentive caveat as the thumbnail paragraph and presents the choice as consistent with Three, not as evidence for it. It can also say what Three predicts here that a data-driven operator of another type would not. The reputation paragraph does not treat an ordinary post-plea lesson as type evidence."
+    },
+    {
+      "id": "critic-F8",
+      "severity": "minor",
+      "passage": "he says he could not feel he belonged until he \"reached a certain level of success objectively.\"",
+      "problem": "The FAQ drops the qualifier the body keeps. In S03 (about 8:08-10:16) he says this about \"the professional side of things.\" He then says \"the more important one,\" as a father, is \"realizing that you actually don't have to belong... if I have nobody else in this world, I have my daughters.\" The body includes this (\"That was the professional side, he said\"; \"Professional belonging came only after...\"). The FAQ's \"could not feel he belonged\" turns half the answer into an unqualified claim, on the page's most-read metadata surface.",
+      "acceptance_test": "The Type 2 FAQ says \"professional belonging\" (or \"professionally\") and does not suggest his belonging overall depended on success."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "That is the plainest statement in the record of what he was protecting, and it came from him. It is also a 2024 look back, and redemption stories reward a vivid \"before.\"",
+      "reason": "Names the strongest piece of thesis evidence and immediately limits it. The draft then tests that evidence against contemporaneous reporting instead of treating it as proof. Keep this habit of mind."
+    },
+    {
+      "passage": "Gray area was the phrase Hunt had used about him in 2012.",
+      "reason": "A verified cross-source echo (S10 Hunt, S03 Mann). It lets an independent 2012 observer and his 2026 self-account meet without editorializing. Distinctive and specific to this subject."
+    },
+    {
+      "passage": "Seven years later, the About page on his own website was headed \"My Life is like a Movie.\"",
+      "reason": "A surprising, verified detail (S13 archived About page, S05) showing the self-narration persisted into the redemption brand. Original evidence, not type boilerplate."
+    },
+    {
+      "passage": "What the testing adds is the order of operations: in his studio, the package decides whether the story gets made.",
+      "reason": "Confronts the professional-incentive objection head-on and extracts the one detail that survives it. This is the model the face-cut paragraph (critic-F7) should follow."
+    },
+    {
+      "passage": "Even the case for quiet runs through how other people see you.",
+      "reason": "Lets his own anti-display advice (S04, verified at about 63:10-64:00) complicate the thesis honestly. It sits beside the mansion fact without calling it hypocrisy."
+    }
+  ],
+  "assessment": "This draft confronts more adverse evidence than most profiles. The fraud figures are correct and the civil settlement is kept separate. The actors' dispute gets both sides. It reports the About-page omissions and the shifting origin story, and it sets the mansion beside the quiet-wealth advice. The Type 3 read is plausible. Its most attractive moves are tidier than the sources, though. The fraud confession it calls volunteering \"the worst\" is the narrowest version, and the record (full restitution, false claims) is left as \"alleged more\" (F1). The before-YouTube control period was, in its own source, a business plan that \"depends on publicity\" (F2). The name/face frame omits his stated reason for keeping the name and ignores his 2026 return to the frame (F3). The relatives' losses are told without his admitted role (F4). The \"old habit\" parallel misreads 2010 (F5). The Type 2 discriminator leans on quotes stripped of their relational halves (F6). None of these overturns Three, but together they mean the argument has to win on the display-versus-giving distinction, not on trimmed context. Sources opened for this review: S05 audio re-transcribed locally (Whisper small.en) at the Lamborghini, fraud, LA/Ponzi, recovery, face-cut, burnout and actors segments; S03 YouTube captions; S04 audio sections (about 29:00-30:30, 63:00-66:10); S01, S02 and S12 via Wayback; and S06, S07, S08, S09, S10, S11, S13, S14, S15, S16, S17, S18, S21, S22, S23 and S31 directly. Limits: other S04 caption spans were rate-limited (HTTP 429) and not rechecked; S25 and S28 were not reopened; court records for the claimed expungement were not checked."
+}

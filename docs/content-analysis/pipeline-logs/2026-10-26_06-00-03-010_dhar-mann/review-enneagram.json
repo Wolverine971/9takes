@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "enneagram",
+  "content_sha256": "70a9cddef06cb2467b070536bbd79c174b6e45fb63cce4f55dc2cd6f6620e4bb",
+  "evidence_sha256": "e3ba9960beb35a8647002ecc8311006cee88804170b821c2239d21468e232818",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "enneagram-01",
+      "severity": "major",
+      "passage": "A Two's worth rests on being loved for what they give, and the dread is being unwanted. At Mann's costliest turning points, worth sat in visible success and the dread was public failure.",
+      "problem": "The central Three-over-Two discriminator sets up love against success, but Mann's own words send success toward love, and the draft cuts both continuations. In S05 [9:56], right after \"I associated money with love,\" he says \"I was only concerned with how could I make as much money as possible in order to be as quote unquote, as loved as possible.\" In S05 [15:23], right after \"being seen by everyone,\" he says \"Everyone wanted to be my friend at that point.\" Claim C02 records the first continuation in its claim text, but the passage and the article stop before it. Framed as love versus success, this is a false choice (both heart types are after love and worth), and a Two advocate wins it with his own sentence. The defensible discriminator is the currency. He tried to earn love and belonging by being seen to succeed (the car, \"the appearance,\" follower counts, \"a certain level of success objectively\"), not by being needed. The record holds a concrete version of this: the boy's money went to other people (lunches, arcade games), while the man's went into the image (keeping the Lamborghini through a rental business, leasing a Ferrari and a Rolls-Royce for Instagram). FAQ 1 (\"His own account puts his worth in visible success\") and the type-section answer share the same framing.",
+      "acceptance_test": "The article quotes or attributes the \"as loved as possible\" continuation (and ideally \"Everyone wanted to be my friend at that point\") where his money-and-love line or the Lamborghini appears. The Why not Type 2 section then restates the discriminator as how he sought love: by display or achievement rather than by giving or being needed. It supports that with at least two dated costly choices where display won out over giving. FAQ 1 and the Type 2 FAQ use the same framing, and no sentence implies the Two case is about love while the Three case is not."
+    },
+    {
+      "id": "enneagram-02",
+      "severity": "major",
+      "passage": "If he overhears someone mention a favorite artist, he buys them tickets. He remembers acquaintances' children by name and grade, because that \"makes somebody feel seen.\"",
+      "problem": "These two examples are the Two case's best adult evidence, and the draft takes them out of context. In S03 [71:50-72:52] they come straight after \"Taking that same application can also apply to business. And when I did that, that's when I started winning big. When it came to my team members, for instance, or it came to certain brand partners.\" In his telling, the tickets, the guitar and the remembered kindergartner illustrate service applied to team members and brand partners. He then claims it shows \"that you truly care about them\" and not \"some sort of business purpose.\" The draft splits one passage in two. The tickets and the kids become personal warmth on the Two side (\"acquaintances\"), and the \"winning big\" line becomes the wrap-up of the wife story on the Three side. Accurate context matters for the type call. It shrinks the Two case, and it gives the Three case its sharpest adult evidence: he presents anticipatory giving as a method that \"made me more successful.\" The Type 2 FAQ repeats the \"acquaintances\" framing.",
+      "acceptance_test": "The Two section, or the \"winning big\" quote right next to it, says that in his telling the ticket and kid examples involve team members and brand partners, and places \"winning big\" as his bridge into those examples. The article keeps his claim that the care is genuine, so the context does not turn the care cynical. The Type 2 FAQ answer is updated to match. The editor confirms the caption-only words at S03 ~72:52 (see the C74 note) by listening to the audio before quoting further from that span."
+    },
+    {
+      "id": "enneagram-03",
+      "severity": "major",
+      "passage": "So he kept the name and cut the face. Both choices protect what an audience thinks of when it hears \"Dhar Mann.\"",
+      "problem": "The hook's motive claim is the author's inference, and the subject's own reason sits in the same source answer without appearing. In S03 [75:30-76:02], right after the quoted lines, he says: \"But then I realized there's so many people out there just like me that feel like a failure. I wanted to create a brand that lets people know that you can have second chances in life ... my name is associated with positivity and overcoming hardship.\" That reason has two strands. One is Three-shaped (turn the damaged name into a brand: \"my name is associated with positivity\"). The other is mission- or helper-shaped (people \"just like me\"). The draft gives neither and assigns a single image motive to both choices. The face cut has its own stated reason in S05 [73:50-74:24]: retention data, and \"double down on what's working and cut out what's not.\" The closing line (\"so the name could keep winning without him in the frame\") gives the face cut a purpose he never stated. This is the article's frame, so the thesis-friendly half sits in its most visible spot.",
+      "acceptance_test": "The hook, or the paragraph right after it, reports with attribution his stated reason for keeping the name, including both the brand line and the \"people out there just like me\" line. \"Both choices protect what an audience thinks of\" is phrased as the author's reading and supported by his own \"my name is associated with positivity.\" The closing sentence either ties the face cut to the retention reason he gave or marks the name-keeps-winning purpose as interpretation."
+    },
+    {
+      "id": "enneagram-04",
+      "severity": "minor",
+      "passage": "None of that makes the care fake. It is specific and it costs him time, and a Three with a strong Two wing would account for much of it.",
+      "problem": "A convenient wing. The clause takes in the rival type's best evidence without any test. Nothing in the article separates 3w2 from 3w4, or 3w2 from a Two, so this sentence makes the Two case impossible to lose. The evidence record itself calls the wing \"optional and not needed for the core argument.\"",
+      "acceptance_test": "Either the wing clause is cut and the care stands as real, costly behavior the core type does not fully explain, or a 2-wing is backed by a named observation that a 3w4 reading would not predict. In both cases no wing appears in the metadata or FAQs."
+    },
+    {
+      "id": "enneagram-05",
+      "severity": "minor",
+      "passage": "The car in 2007 served no relationship; it preserved \"the appearance.\" The fear at 30 was a ruined name and a family's shame.",
+      "problem": "Earlier, the draft deliberately discounts the fall (\"That is why the choices he made when things were going well carry more weight in this read than the fall\"). Here it reuses the fall as discriminating evidence. \"My family is ashamed of me\" does not separate Three from Two: a Two who dreads being unwanted by family would say the same, and the draft already credits culture for it. The same S04 answer [3:06-3:38] continues \"I should have my life figured out according to all these standards and expectations of where society is.\" That measuring-stick language, or the tombstone verdict, is what would discriminate.",
+      "acceptance_test": "The discriminator list either drops family shame or replaces it with the standards-and-expectations line or the tombstone line, with its source. The list stays consistent with the earlier decision to weight the good-times choices over the fall."
+    },
+    {
+      "id": "enneagram-06",
+      "severity": "minor",
+      "passage": "If the picture and the facts start to separate, the picture usually gets rescued first, and the bill arrives later.",
+      "problem": "This states a general behavioral law for Threes (\"usually\"). It primes the reader to see the Lamborghini rental and the grant paperwork (\"to make it seem like the projects had been completed\") as expressions of type. The fraud's own stated motive in the draft is speed and cash flow (\"always wanted to do things quickly\"), not image. Presenting the type as a predictor of deception-like behavior is stereotyped, and it hints that Type 3 explains a felony, which the article elsewhere is careful not to claim.",
+      "acceptance_test": "The sentence is hedged to a tendency and tied explicitly to the case where he names the appearance motive himself (the 2007 rental). The shortcut section continues to give the grant fraud's motive as his stated speed and cash-flow explanation. No sentence presents the plea as evidence for the type."
+    },
+    {
+      "id": "enneagram-07",
+      "severity": "minor",
+      "passage": "When providing and being present collided, providing won, and he called it love. That is closer to a Three's over-work than to a Two's over-giving.",
+      "problem": "The comparison is asserted, not shown. Twos also over-provide and excuse absence as giving. The paraphrase also stretches his words: in S04 [64:16-64:48] he said he thought \"because I was trying to improve the life of my wife and my kids that that made every decision okay,\" not that it was love. The observation that would separate the types is already in the section but goes unused. His daughter asked for his time, and he offered a status object (\"this big house\"). His later correction is also framed in success terms: \"what is success if I can't even spend time with my own family.\"",
+      "acceptance_test": "The paraphrase matches his framing (improving his family's life), and the Three-over-Two claim rests on a named observable: a missed stated need answered with a status object, or his success-framed correction. Otherwise the comparison is dropped."
+    },
+    {
+      "id": "enneagram-08",
+      "severity": "minor",
+      "passage": "But the reason he gives for that life is attention and \"social acceptance,\" not pleasure, and since 2018 he has stuck with one formula.",
+      "problem": "The second half of the Seven rebuttal is weak. Sticking with a video formula that the numbers reward does not separate Three from Seven. The record also shows Seven-like breadth: serial pivots before 2018 (flyers, telemarketing, mortgages, car rental, limousines, hydroponics, Instagram, a makeup school) and a 2026 spread across a podcast, a Fox vertical deal, the NFL title, Disney and AWNY. A reader who notices that breadth will find the rebuttal thin. The discriminating material is elsewhere in the record. His pivots follow whatever is winning, and the criterion he names is attention and success, not novelty. He also describes failure as shame and public dread, not as something to escape into new options.",
+      "acceptance_test": "The Seven paragraph replaces or backs up the one-formula point with an observation that actually separates the types (for example, pivots chosen by what was winning, or shame and dread at the fall), with sources. It also acknowledges the breadth of ventures instead of implying a single track."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "A Three gives up the spotlight when the spotlight stops winning.",
+      "reason": "The article's best real discriminator. Firing himself from his own videos over retention data (S05 [73:50]) cuts against attention-for-its-own-sake, Seven and narcissistic-visibility readings, and it clarifies what Three wants (winning, not exposure)."
+    },
+    {
+      "passage": "That is the record from eight years before his first video, when no algorithm was paying him to be watched. The wish to be watched was already there, and he said it out loud.",
+      "reason": "It tests the professional-incentive alternative with dated, independent, contemporaneous evidence (Mother Jones 2010) rather than his own retrospective, which is exactly how the standard asks a type to beat circumstance."
+    },
+    {
+      "passage": "That is the plainest statement in the record of what he was protecting, and it came from him. It is also a 2024 look back, and redemption stories reward a vivid \"before.\" So the question is whether a reporter who met him at the time saw the same man.",
+      "reason": "It names the narrator-bias limit at the moment of the strongest self-report and turns that limit into the next section's test. Strong reasoning that also drives the story."
+    },
+    {
+      "passage": "What the testing adds is the order of operations: in his studio, the package decides whether the story gets made.",
+      "reason": "It concedes that thumbnail testing is ordinary for creators, then pulls out the one type-relevant detail (packaging decides whether the story gets made). This is how platform incentives should be separated from motive."
+    },
+    {
+      "passage": "Both can be true: the release was candid, and it was also the louder headline.",
+      "reason": "It keeps his honesty explanation and the publicity reading side by side instead of turning counterevidence into confirmation. Keep this habit wherever the edit touches the 3-vs-2 argument."
+    }
+  ],
+  "assessment": "Type 3 at medium confidence is defensible, and the draft does the hard part well. It tests platform incentives and narrator bias against dated pre-YouTube evidence (Mother Jones 2010, the 2014 Instagram era), and it uses the fire-myself choice as a real discriminator against an attention-seeking or Seven reading. The weak point is the Two comparison. The discriminator is framed as success versus love, but his own words tie success to love (the \"as loved as possible\" and \"Everyone wanted to be my friend\" continuations are cut). The adult \"feel seen\" giving examples are lifted out of the business framing he put them in. The hook infers a motive for keeping the name while leaving out the reason he gave in the same answer, which has both a Three strand and a helper strand. A convenient 2-wing then takes in what remains of the Two case. Fixing these probably strengthens Three. The currency of love (being seen to succeed rather than being needed) and his own giving-as-method framing are better discriminators than the current ones. The Seven rebuttal needs a better second leg. Eight, Six and Four are tested in the evidence record and reasonably left out of the article. Risk flags: sensitive_allegations (felony plea, disputed actor claims, an uncorroborated Ponzi account) and contested_typing. The case for contested_typing: confidence is medium, the Two case is real, and the discriminator rests mostly on retrospective self-narration inside a redemption brand. Similarity advisory: not tripped (max 0.03, the phrase \"keep score\" shared with Greg Brockman's Three page, which is ordinary type vocabulary). A grep of src/blog found no reuse of this draft's type-explainer sentences, though that paragraph is portable explainer prose. Sources checked: the research-stage saved texts of S03 (Shetty captions), S04 (Sanchez captions) and S05 (Raz Whisper transcript) at the cited timestamps. These are machine transcripts; I did not listen to the audio."
+}

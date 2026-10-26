@@ -1,0 +1,16 @@
+I wrote the subject-role (fairness) review to `docs/content-analysis/pipeline-logs/2026-10-26_06-00-03-010_dhar-mann/review-subject.json`. It passes the review schema, its hashes match the request, and every quoted passage appears word for word in the draft. I changed nothing else and published nothing. My scratch copies of the sources are in `/tmp/dm-subject-review/`.
+
+**Overall:** the draft is mostly fair. It keeps the no-contest plea separate from the 13 original charges and says plainly that the Ponzi story is uncorroborated. It leaves the alleged operator unnamed. It also leaves out his parents' 2021 housing ruling. I flagged six problems, three of them major, after reopening the key sources myself:
+
+1. **The "old habit" closing line (major).** It suggests he has made premature or false claims since 2010, and neither source supports that. In 2010, Mother Jones reported he *said* 75 franchise contracts were already signed, and the draft never shows they weren't. In 2026, Digiday describes the $100M as a 12-month goal he set with the event organizers, measured against budgets brands had already confirmed. He himself said no contracts would be signed that week.
+2. **The 2023 actors' protest (major).** The draft quotes only half of the Tubefilter sentence on his response. The rest says he did meet with the actors. Tubefilter also reports that one protesting actor publicly retracted their claims. Both points are missing, and the draft then reads his response as defending his reputation.
+3. **"A man for whom other people's verdict is the main event" (major).** This presents a guess about his inner priorities as fact. It does so at the one point where he expresses remorse over the fraud.
+4. **"He called it love" (minor).** He actually said he believed providing for his family "made every decision okay." The word "love" is the author's.
+5. **The breakup with Lilly Ghalichi (minor).** Its placement right after his money collapse suggests he went broke and she left because of it. No source says that, and she publicly asked fans not to speculate.
+6. **The defense's answer (minor).** The draft drops his lawyer's 2012 reply to the fraud allegation: that Mann's own spending exceeded the city's matching grants.
+
+I also marked five passages for the editor to keep, mostly where the draft handles fairness well.
+
+The similarity check didn't trip, so there's no reused-wording finding. I left the sensitive-allegations risk flag on, which means this draft gets the full six-reviewer panel.
+
+I didn't re-listen to the podcast audio myself. Exact wording of the podcast quotes is left to the evidence reviewer.

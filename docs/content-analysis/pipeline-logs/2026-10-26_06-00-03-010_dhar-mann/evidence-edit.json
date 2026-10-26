@@ -1,0 +1,2027 @@
+{
+  "schema_version": 3,
+  "subject": "dhar-mann",
+  "status": "ready",
+  "research_tasks": [
+    "Research log (2026-10-26, first v3 run, mode create; baseline, research notes and prior evidence all absent). 31 sources recorded, all opened. Long-form primary sources read end to end: How I Built This (S05, 89 min, transcribed locally with Whisper small.en from the RSS mp3), On Purpose with Jay Shetty (S03, 80 min, YouTube captions), BigDeal with Codie Sanchez (S04, 72 min, YouTube transcript), his 2021 About page and birthday tweet via Wayback (S13, S26), and one host self-disclosure on What Happens Next (S25; four other episodes checked, nothing about his record or family). Contemporaneous 2010-2015 reporting read in full: Mother Jones x3, SF Chronicle x2, Bay Citizen/NBC Bay Area, East Bay Express via Wayback. 2021 NYT profile and NYT Magazine essay read via Wayback raw captures. Testimony: Lilly Ghalichi (E! x2), actors via CGM, Tubefilter and Passionfruit, Reid and Hunt (S10), Peterson (S07). Current: Forbes 2026, THR (NFL, Disney), Variety (podcast, Disney), Deadline (Fox), Digiday and Tubefilter (AWNY, Oct 2026), TheWrap 2025, LA Times 2025. Evidence gathered before typing; types tested 3, 2, 7, 8, 4, 6. No published Enneagram or MBTI typing of him was found. Outcome: ready, standard profile, Type 3 medium, Two the strongest rival. Not open-case eligible (public career since about 2004).",
+    "Draft stage (2026-10-26): wrote draft.md (about 3,840 words by checkDraft) and this record. Quote checks were run against the saved research texts and a second machine transcription (Whisper large-v3-turbo) of every quoted S05 span and most S03/S04 spans; see the S03, S04 and S05 locators for what was and was not audio-checked. A human re-listen at those timestamps is still recommended before publication, especially for the caption-only spans named there.",
+    "Claims removed from the draft inventory because the draft does not use them: C03 (childhood 'yelling and arguing and violence', omitted for restraint: single source, living parents), C09 (Peterson's 'hydroponzi' allegation), C24 (masculinity norms, S25), C31 (declined acquisition), C32 (third-party 'systematic' testimony). Their sources are retained. The type hypothesis was revised so it references only retained claims.",
+    "The Ponzi operator from S05 is not named in the draft; the episode is attributed to Mann's account (C12, C60). S27 (the 2021 ruling against his parents) is not used.",
+    "Fraud figures in the draft follow S11 (sentence) and S12 (civil settlement). Expungement remains attributed to Mann (C38); confirm with Alameda County Superior Court records if possible.",
+    "The 2023 protest is covered briefly with both sides (C29, C81-C85). Mann's full 2023-02-14 Instagram/YouTube statement was not retrieved; only Tubefilter's fragments are quoted. Child-actor allegations (S18) are not in the draft.",
+    "His origin story differs between S05 (2024) and S03 (2026) on which video he planned as his last (C34); the draft reports the discrepancy rather than choosing one.",
+    "Optional strengthening, unchanged: an interview with Laura Avila or Ruben Ortiz would add independent testimony about his motives inside the studio.",
+    "Edit stage (2026-10-26): resolved 45 jury findings. Second machine transcription (Whisper large-v3-turbo) of every newly quoted span: S05 9:50-10:20 ('as loved as possible'), 35:35-36:25 (relatives 'invested based on me'), 21:25-22:10 (not quoted); S03 57:36-58:02 ('embrace that'), 67:50-69:50 (economy-class story), 72:52-73:22 ('feel seen', 'business purpose'), 75:20-76:10 (reason for keeping the name). All matched the caption or small.en words. Opened-source re-reads this stage: S06 (business-publicity line, Peterson 'hedge', 'first honest hydro store'), S07 (store closure, lawsuits), S09 (MannEdge, Berumen warehouse, $44,000, defense's spending claim, Jerry Brown fundraiser), S11 ('full restitution'), S12, S14, S15, S17 (met actors, retraction), S18, S20 (CEO Sean Atkins), S23 (12-month joint AWNY goal), S28, S31, S01 (countersuit).",
+    "Claims removed at the edit stage because the article no longer uses them: C13 (April Fools' engagement announcement), C27/C91/C92 (Disney benchmark and order), C34 (origin-story shift), C37 (city attorney's Lamborghini-photos line), C41 (dark/light line), C51 (bathroom lunch), C53 (merged into C05), C62 (Instagram deactivated), C72 (NYT Magazine critique), C79 (panic attacks, now only via the FAQ claim C80), C85 (2024 'small subset' remark), C90 (envy of 4 p.m. clock-out), C93 (2010 franchise claim; the 'old habit' comparison was cut as unsupported). Their sources are retained.",
+    "Still open: confirm the claimed expungement in Alameda County Superior Court records (C38); re-search for any public record of the 2014 Ponzi scheme (C12); retrieve Mann's full 2023-02-14 statement (C82-C84); a human listen at the S03/S04/S05 timestamps above before publication, especially the S04 big-house lesson tail after 66:00 (caption-only, C122)."
+  ],
+  "accuracy_checked_at": "2026-10-26",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.nytimes.com/2021/08/19/style/dhar-mann-youtube.html",
+      "title": "The Moral Philosopher of YouTube",
+      "speaker": "Ezra Marcus (The New York Times), quoting Dhar Mann, actors Carlos R. Chavez and Mair Mulroney",
+      "date": "2021-08-19",
+      "locator": "Read in full via Wayback raw capture (web.archive.org/web/2022id_/...). Paragraphs on parents' taxi company and money-for-time quote; WeGrow/Mother Jones/no-contest paragraph; website \"lowest point\" quote; first viral hit; dance-instructor suicide anecdote; thumbnail and algorithm quotes; \"too on the nose\" / \"cringe\" paragraph; 40% overseas audience email",
+      "excerpt": "\"Because they weren't around a lot, instead of being able to give me their time, they gave me money to do things,\" he said. He began to believe that \"in order to have love and live a meaningful life, you have to have money.\" [...] \"I'm not disconnected from the realities of social algorithms,\" he said. \"If, for instance, a thumbnail has somebody crying or somebody overly expressive, or zooms into a face, it's going to do better.\" [...] Sometimes, Mr. Mann said, people describe his content as \"a little bit too on the nose, or it's a little bit cringe, or why is the dialogue so direct.\" But it's intentional. \"That way, children can understand, but also people who don't speak English can understand,\" he said.",
+      "context": "The most substantial independent profile with direct interview access (2021). Marcus is skeptical of the content (\"mawkish\", \"thin and absolutist\" moral philosophy) but lets Mann explain his choices. It reports he pleaded no contest to five felony counts and \"was fined $37,500\"; contemporaneous court reporting gives a $10,000 criminal fine plus $44,399.51 restitution (S11), and $37,500 was a separate 2015 civil settlement (S12), so the NYT figure conflates the two. Expungement is Mann's own claim by email. Parents' arrival with \"$7\" here vs \"$6\" in S03.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S02",
+      "url": "https://www.nytimes.com/2021/08/04/magazine/wholesome-youtube-dhar-mann.html",
+      "title": "The Internet Demands Uplifting Videos. So He Stages Them.",
+      "speaker": "Robin Kaiser-Schatzlein (The New York Times Magazine)",
+      "date": "2021-08-04",
+      "locator": "Read in full via Wayback raw capture. Opening pizza-boy synopsis; realtor synopsis; biography paragraph; closing two paragraphs on caricature and \"the feeling of being right\"",
+      "excerpt": "Watch enough of Mann's videos, and you can't help noticing how ruthlessly and tactically they employ up-to-the-minute caricatures and stereotypes, fine-tuned to soar within YouTube's algorithm. [...] Mann guarantees us both a happy ending and the feeling of being right.",
+      "context": "Critical essay on the 'wholesome' genre with no interview. Useful as an independent read of what the product optimizes for (comeuppance, moral certainty, algorithmic fit). Says nothing first-hand about Mann's motives.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S03",
+      "url": "https://www.youtube.com/watch?v=2UW5wnan1bA",
+      "title": "DHAR MANN: This is How You Turn Your Setbacks into Your GREATEST Advantage (On Purpose with Jay Shetty)",
+      "speaker": "Dhar Mann, interviewed by Jay Shetty",
+      "date": "2026-05-20",
+      "locator": "Full 80-minute English caption track read end to end. Childhood detachment and 'yelling and arguing and violence' [2:08]; parents' '$6' and father's schooling [2:38-3:08]; turban at 8, bullying, 'too Indian for the Americans' [5:12-6:15]; lunch in the bathroom and with teachers [6:15-6:45]; belonging only after success 'objectively' [8:18-8:48]; 'born to stand out' and daughters [9:51]; Davis Marketing Services and call center [12:28-13:30]; Lamborghini at 21 and 'validation even if you're on the wrong path' [14:00-14:31]; first video posted on his birthday [58:20-58:52]; nearly quitting, last-planned video goes viral [59:24-62:58]; tombstone 'biggest failure' [65:04]; 'operating in a gray area' and Laura 'black and white' [66:36-67:08]; economy-class humiliation [68:11-69:45]; anticipating Laura's needs [70:48-71:50]; 'you win when you serve others' [71:50-72:52]; 'change your name' [74:58-76:02] Draft stage (2026-10-26): quoted spans re-transcribed with Whisper large-v3-turbo from yt-dlp section downloads (mweb client) at about 5:35, 8:12, 9:48, 13:58, 38:38, 58:15, 64:58, 66:30, 70:45, 71:20-73:05 and 74:52; all matched the caption words except 'prioritized in the algorithm' (paraphrased). Caption-only (not audio-checked): 'makes somebody feel seen' (~72:52), the Tony Robbins comment (~23:21) and the infidelity 'last video' retelling (~60:25-62:58). Edit stage (2026-10-26): new quoted spans re-transcribed with Whisper large-v3-turbo from yt-dlp mweb section downloads at 57:36-58:02 ('embrace that'), 67:50-69:50 (economy-class story), 72:52-73:22 ('makes somebody feel seen', 'business purpose') and 75:20-76:10 (reason for keeping the name); all matched the caption words.",
+      "excerpt": "I grew up around, you know, constant yelling and arguing and violence that I tried to block a lot of it out. [...] I'm very grateful to have received a certain level of validation that has come from my consistency in doing things that have made me feel like, \"Okay, I belong.\" As much as I could try to convince myself of that before, I would never have been able to until I reached a certain level of success objectively. [...] I had worries that on my tombstone people were going to say, \"Here is Dhar Mann, the biggest failure that has ever existed. [...] I grew up where operating in a gray area was okay. Right? Like, if as long as you made money, it was okay. [...] The worst advice that I ever received was someone said, \"Dar, you should change your name.\" [...] the only thing associated with my name was failure.",
+      "context": "Long-form interview with a close friend on a friendly platform, recorded around the launch of his own podcast. Highly rehearsed in places: the Jordan/Oprah/Rowling/Disney failure stories, 'one phone call, one door' and 'people with you during your struggle' lines recur almost verbatim in S04, so treat the arc as brand narration. The childhood, belonging, economy-class, tombstone, gray-area and name passages are specific and less formulaic. Shetty's own description of him (captioned as 'Dha has a system and a methodology for everything', [38:33]) is friendly testimony. He never names the 2013 fraud case here.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S04",
+      "url": "https://www.youtube.com/watch?v=Jx1gRjdgyVs",
+      "title": "From $0 to $5M Per Month: How Dhar Mann Broke YouTube (BigDeal by Codie Sanchez)",
+      "speaker": "Dhar Mann, interviewed by Codie Sanchez",
+      "date": "2026-07-29",
+      "locator": "Full 72-minute YouTube caption transcript read end to end. Rock bottom at 30, 'family is ashamed of me' [1:31-3:38]; 'I am that underdog' [6:43-7:13]; Kintsugi [8:18-9:48]; four P's and 100 title tests [15:32-24:49]; producer who quit over output [26:57]; 'Why not me?' [29:34-30:05]; packaging kills a great story [46:07-46:38]; greenlight funnel [49:44-54:55]; 'What if I quit on number 99?' [56:30]; $600 in the bank [58:04]; actor equity and 401k [60:08]; 'Stop trying to look rich' [63:13-63:45]; skipped date nights, daughter's 'I don't want to have a big house anymore' [64:16-65:51]; 'People's opinions don't matter' [66:23-66:54] Draft stage (2026-10-26): quoted spans re-transcribed with Whisper large-v3-turbo from yt-dlp section downloads at about 2:58, 7:05, 19:18, 28:55, 46:00-47:06, 63:08-64:16 and 64:10-66:00; all matched the caption words ('4:00 p.m.' heard as '4 p.m.'). Caption-only: 'Why not me?' (~30:05).",
+      "excerpt": "For me, as a 30-year-old Indian man, I was looking at it as like my family is ashamed of me, my culture I'm letting down. I should have my life figured out according to all these standards and expectations of where society is. [...] if it's not great packaging, then by default, it can't be a great story. [...] I just thought that because I was trying to improve the life of my wife and my kids that that made every decision okay. So, I skipped out on the date nights, I skipped out on the dinners, I skipped out on the school plays. [...] She said, \"I don't want to have a big house anymore.\"",
+      "context": "Business podcast; Sanchez steers toward money, scale and failure. Mann is promoting What Happens Next and repeats talking points from S03. Auto-generated captions; wording checked against surrounding context but punctuation is the caption's. The 'big house' anecdote is his own account of a private moment.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S05",
+      "url": "https://traffic.megaphone.fm/VMP8163864444.mp3",
+      "title": "Dhar Mann Studios: Dhar Mann (How I Built This with Guy Raz)",
+      "speaker": "Dhar Mann, interviewed by Guy Raz",
+      "date": "2024-04-22",
+      "locator": "Episode audio from the show's RSS feed (feeds.megaphone.fm/VMP2035168248, pubDate 2024-04-22, 89 min), transcribed locally with Whisper small.en, about 14,400 words, read end to end. Timestamps include about 2:48 of pre-roll ads. Turban, bullying, haircut, shame at temple [6:39-8:47]; buying friends, 'associated money with love' [9:21-9:56]; Davis flyers, telemarketing, $40,000 check [10:32-14:52]; orange Lamborghini at 21, 'being seen by everyone' [14:52-15:54]; renting the Lamborghini to keep 'the appearance' [16:27-16:59]; tomato press release, CNN, distributors cut him off [20:21-23:10]; his account of the grant shortcuts [23:44-25:24]; plea, '$40,000 fine', 'reputation really matters' [26:01-28:20]; Ponzi investment, LA 'money and fame', Instagram 'addiction', 'My life really felt like a movie', engagement photo shoot, family losses, rock bottom [28:51-36:51]; accountability realization [40:49-41:50]; online makeup school, 'would not be flashy', repaying family [42:21-46:12]; LiveGlam with Laura [46:42-50:33]; first video on May 29, 2018, 'That's how delusional I was' [52:41-53:47]; viral video 2018-08-30 [58:20-60:39]; 'the good person always wins' [61:46-63:24]; firing himself from the videos [73:18-74:24]; 'insane work ethic', panic attacks from Christmas Eve 2022 [78:18-80:03]; 97% ad revenue [80:38]; turned down acquisition [82:18]; actors' dispute and union question [84:28-85:39] Draft stage (2026-10-26): every S05 span quoted in the draft was re-transcribed from the same local mp3 with Whisper large-v3-turbo (about 24 cut segments, a second machine transcription, not a human listen). Spans where small.en and large-v3-turbo differed were paraphrased or quoted only in shared words ('judgment'/'judgments', 'blame'/'blamed'); 'comes a light' (small.en) is quoted as 'comes to light' (large-v3-turbo). Not audio-checked: the Tony Robbins comment line (~54:30), which matches S03's telling. Edit stage (2026-10-26): re-transcribed with large-v3-turbo from the local mp3 at 9:50-10:20 ('as loved as possible'), 21:25-22:10 and 35:35-36:25 ('having caused my family members to lose money because they all invested based on me saying this was a good investment'); words matched small.en.",
+      "excerpt": "I associated money with love since that's how my parents expressed their love to me since they were never around. [...] my whole high school career, I felt invisible with no friends. And now I was being seen by everyone. [...] So instead of giving up the car, I started an exotic car rental company. [...] So I was able to keep my car and more importantly, the appearance that I was a lot more successful than I actually was. [...] I decided to take some shortcuts on my grant application. I changed the dates on my paperwork to make it seem like the projects had been completed and contractors had been paid sooner than they were in order to start the reimbursement process faster. [...] I would say Instagram was more addictive for me than any drug out there for someone who valued social acceptance as much as I did. [...] My life really felt like a movie. [...] So I literally had to fire myself.",
+      "context": "The longest and most searching interview in the record. Raz is warm but presses on the fraud case, money and the actors' dispute. Mann's version of the fraud (back-dated paperwork to speed reimbursement) is narrower than the prosecutors' allegations (S09: checks redeposited, contractor paid less, signature forged); his '$40,000 fine' differs from the reported $10,000 fine plus $44,399.51 restitution (S11). The Ponzi operator he names ('Nick', surname transcribed as 'Jasawalla') could not be found in any public record: treat that episode as his uncorroborated account and do not name the man. The engaged-to-a-reality-star detail matches S14/S15. Machine transcription: re-check exact wording against the audio before quoting in the article.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S06",
+      "url": "https://www.motherjones.com/politics/2010/12/wegrow-dhar-mann-derek-peterson/",
+      "title": "Weedmart: Marijuana Superstores. IPOs. Reality TV.",
+      "speaker": "Josh Harkinson (Mother Jones), with direct quotes from Dhar Mann, Derek Peterson, an unnamed financial consultant, and Councilmember Desley Brooks",
+      "date": "2010-12-03",
+      "locator": "January/February 2011 issue, posted online 2010-12-03; read in full. Opening party scene ('fauxhawked 26-year-old'); 'Tall, good-looking, handsome'; Hempire reality-show paragraph; unnamed consultant 'cocky and pushing too hard, too fast'; origin story (tenant grower, Oaksterdam); PR-release rewrite; orange Lamborghini Gallardo; father 'very worried'; late-night council-meeting scene ('like a game of chess') Edit stage: re-read for the 'when your business plan depends on publicity' line, Peterson's \"It's a hedge\" quote and 'the first honest hydro store' narration.",
+      "excerpt": "\"I personally have always wanted a reality show 'cause I just think that my life is somewhat appealing to watch,\" says Mann. [...] When the PR shop that was managing weGrow's grand opening in January 2010 handed him a press release that read \"Urban gardening megastore opens by airport,\" Mann fired the firm and rewrote the release himself: \"Marijuana Superstore Opens in East Oakland.\" [...] I asked her what criteria the council would use to pick Oakland's most reputable cannabis entrepreneurs. She laughed as Mann cut in, \"Tall, good-looking, handsome.\" [...] \"He's very worried,\" Mann told me. \"All the time.\"",
+      "context": "Contemporaneous, observed reporting with extended access, eight years before the studio and before any motivational brand existed, so it tests whether image-seeking predates the incentives of YouTube. Harkinson frames the pair as 'cocky entrepreneurs'; Peterson later became an adversary (S07).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S07",
+      "url": "https://www.motherjones.com/crime-justice/2011/03/wegrow-joint-venture-goes-smoke/",
+      "title": "WeGrow's \"Joint Venture\" Goes Up In Smoke",
+      "speaker": "Josh Harkinson (Mother Jones), quoting Derek Peterson and a spokesman for Mann",
+      "date": "2011-03-01",
+      "locator": "Read in full; paragraphs 2-3",
+      "excerpt": "\"This was a fucking hydroponzi scheme, for a lack of a better term,\" Peterson told me yesterday [...] He accuses Mann of misleading him about weGrow's financials, refusing to reimburse him $50,000, and failing to pay vendors and employees. [...] A spokesman for Mann said that Peterson is trumping up the allegations in retaliation for Mann's recent decision to wind down their partnership.",
+      "context": "Allegations by an adversarial former partner in active litigation, with Mann's denial. S01 reports Mann countersued and won a cash settlement and shares, so the 'hydroponzi' charge is disputed and should never be stated as fact.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S08",
+      "url": "https://www.motherjones.com/crime-justice/2013/12/marijuana-entrepreneur-dhar-mann-fraud-oakland/",
+      "title": "How a Local \"Ganjapreneur\" Bummed Oakland's High and Cheated the City out of Thousands",
+      "speaker": "Josh Harkinson (Mother Jones)",
+      "date": "2013-12-11",
+      "locator": "Read in full; paragraphs 2-4",
+      "excerpt": "Yesterday, Mann pleaded \"no contest\" to five felony counts of defrauding the City of Oakland, the Oakland Tribune reports. [...] According to court documents, Mann submitted checks to the city that he'd supposedly written to contractors but that were in fact redeposited into his own bank account.",
+      "context": "Short follow-up dating the plea to 2013-12-10. Editorializing headline; use only for the plea date and the court-document description, which matches S09.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S09",
+      "url": "https://www.sfgate.com/crime/article/Oakland-pot-entrepreneur-charged-with-fraud-3567342.php",
+      "title": "Oakland pot entrepreneur charged with fraud",
+      "speaker": "Demian Bulwa and Matthai Kuruvila (San Francisco Chronicle), quoting DA investigator Frank Moschetti and defense attorney John Runfola",
+      "date": "2012-05-18",
+      "locator": "Read in full; charge paragraphs, Runfola quotes, Berumen Construction example, political-ties paragraphs (Jerry Brown fundraiser, Desley Brooks) Edit stage: re-read for MannEdge Properties, the Berumen warehouse 'where Mann later opened a hydroponics store', 'more than $44,000 based on fraudulent paperwork', Runfola's 12-project spending claim and the fall 2010 Jerry Brown fundraiser and champagne photo.",
+      "excerpt": "Mann submitted copies of cashier's checks made payable to contractors as proof he had made the renovations. But he actually paid the contractors much less and redeposited the checks in his own bank account, district attorney's investigator Frank Moschetti wrote in a court filing. [...] \"Discouraged by ... the complex bureaucratic process and the struggling economy, my client admittedly took shortcuts to complete reimbursement for the development process,\" Runfola said.",
+      "context": "Charging-stage reporting: allegations by prosecutors, with the defense's partial admission ('took shortcuts') and claim that Mann's own spending exceeded the grants. The forgery allegation was among the original 13 counts; the plea was to five counts (S11), so do not state which specific acts were admitted.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S10",
+      "url": "https://www.nbcbayarea.com/news/local/indicted-oakland-pot-entrepreneur-leaned-on-political-relationships/1927584/",
+      "title": "Indicted Oakland Pot Entrepreneur Leaned on Political Relationships",
+      "speaker": "Zusha Elinson (The Bay Citizen / Center for Investigative Reporting, on NBC Bay Area), quoting Mann's emails, Councilman Larry Reid and former aide Michael Hunt",
+      "date": "2012-09-06",
+      "locator": "Read in full; chest-bump opening; Reid 'smartest and brightest' quote; Bronfman emails ('I can handle all of your lobbying'); split-donation advice; 'work hard, party hard'; Hunt's closing quote",
+      "excerpt": "\"Dhar is probably one of the smartest and brightest young men I know,\" Reid said before the May indictment. \"He came up with a concept that everybody thought was interesting and unique, and he was the focus of attention across the country.\" [...] \"I can handle all of your lobbying, I just need a budget and a face,\" Mann wrote to Bronfman in the September 2010, email. [...] \"But the manner in which (Mann) has attempted to highlight and capitalize on those relationships,\" Hunt added, \"probably attracted as many people to him as were scared away because of any lingering gray area or questions of ethics.\"",
+      "context": "Investigative piece built on emails and a police report. Mann did not respond. Two independent named observers from 2010: an ally (Reid) and a former aide who worked for weGrow (Hunt). No charge arose from the political conduct described; present it as reported conduct, not wrongdoing.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S11",
+      "url": "https://www.sfgate.com/crime/article/Ganja-preneur-of-Oakland-sentenced-fined-5195154.php",
+      "title": "'Ganja-preneur' of Oakland sentenced, fined $10,000",
+      "speaker": "Jill Tucker (San Francisco Chronicle), quoting Alameda County DA spokeswoman Teresa Drenick",
+      "date": "2014-02-01",
+      "locator": "Read in full (short item); paragraphs 1-4",
+      "excerpt": "A man known as the \"ganja-preneur\" of Oakland was sentenced Friday to five years' probation and fined $10,000 for his part in a scheme to defraud a city grant program. Dhar Mann, 29, was also ordered to pay full restitution - $44,399.51 - to the city by April 1 [...] He pleaded no contest to five of the counts.",
+      "context": "Authoritative for the sentence. Two days' jail credit. Governs over S01's '$37,500' figure for the criminal fine.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S12",
+      "url": "https://eastbayexpress.com/oakland-taxicab-family-hit-with-37500-fine-for-defrauding-oakland-2-1/",
+      "title": "Oakland Taxicab Family Hit with $37,500 Fine for Defrauding Oakland",
+      "speaker": "East Bay Express (archive byline), quoting Oakland City Attorney Barbara Parker's press release",
+      "date": "2015-04-24",
+      "locator": "Live page blocked by a Cloudflare challenge; read in full via Wayback raw capture (web.archive.org/web/2016id_/...). Paragraphs 1-6",
+      "excerpt": "Oakland City Attorney Barbara Parker announced today the settlement of a civil lawsuit against members of a prominent and wealthy Oakland family that defrauded the city and its former redevelopment agency of at least $75,000. [...] The main target of the lawsuit was Dhar Mann, a member of the Singh family. [...] \"But this lawsuit demonstrates that no matter how connected you are, or how much money you have, or how many photos of your Lamborghini you post on social media, we will hold you accountable if you attempt to defraud Oakland taxpayers.\"",
+      "context": "Civil settlement, not a second conviction. The item wrongly says he was 'found guilty in a criminal trial'; he pleaded no contest (S08, S11). Parker's quote is an adversarial official's characterization; it independently records that he publicly displayed luxury goods during this period.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S13",
+      "url": "https://web.archive.org/web/20211220085945/https://www.dharmann.com/about/",
+      "title": "About - Dhar Mann (\"My Life is like a Movie.\")",
+      "speaker": "Dhar Mann (official website, first person)",
+      "date": "2021-12-20",
+      "locator": "Wayback capture 2021-12-20 of dharmann.com/about; page header, year-by-year timeline 2014-2021, 'Hi, I'm Dhar Mann' essay",
+      "excerpt": "My Life is like a Movie. 2021 - I'm the happiest I've ever been with a beautiful family and focused on making a positive impact in the world. [...] 2014 - I felt lost, depressed and was struggling to find purpose. Hi, I'm Dhar Mann. I've always had big plans for my life. But things didn't exactly go according to plan. At 30 years old, I found myself at the lowest point in my life. I was completely broke, going through a difficult breakup and feeling really depressed. I thought I was a total failure.",
+      "context": "Curated self-presentation. The public timeline begins in 2014 at the low point; the 2008-2013 businesses, weGrow and the fraud case do not appear. The page's own frame for his life is a movie. Its 'struggles taught me' list includes 'Take responsibility' and 'Stop playing victim'.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S14",
+      "url": "https://www.eonline.com/news/528442/shahs-of-sunset-s-lilly-ghalichi-engaged-to-entrepreneur-dhar-mann-but-will-she-keep-the-ring",
+      "title": "Shahs of Sunset's Lilly Ghalichi Engaged to Entrepreneur Dhar Mann—But Will She Keep the Ring?",
+      "speaker": "Zach Johnson and Beth Sobol (E! News), quoting Lilly Ghalichi",
+      "date": "2014-04-04",
+      "locator": "Read in full; Ghalichi's account of the Maldives proposal and the April Fools' Instagram announcement",
+      "excerpt": "In fact, Ghalichi says it was Mann's idea to \"tell everyone were we're getting married\" on Instagram. \"We posted our 'engagement' news with an old photo of me wearing this diamond ring I had borrowed while doing press in New York City a few months ago.\"",
+      "context": "Entertainment-press account from his then-fiancée, a reality-TV personality with her own publicity incentives. Shows a staged, public-facing announcement during the probation year.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S15",
+      "url": "https://www.eonline.com/news/607973/shahs-of-sunset-s-lilly-ghalichi-calls-off-engagement-i-know-that-every-ending-is-a-new-beginning",
+      "title": "Shahs of Sunset's Lilly Ghalichi Calls Off Engagement: \"I Know That Every Ending Is a New Beginning\"",
+      "speaker": "Bruna Nessif (E! News), quoting Lilly Ghalichi's Instagram post",
+      "date": "2014-12-19",
+      "locator": "Read in full; Ghalichi's Instagram statement, paragraphs 2-4",
+      "excerpt": "\"I want to take a moment to say that I have in fact ended my relationship with my fiancé. He is a great man, and I wish him the best in life,\" Ghalichi wrote on Instagram [...] \"After being with someone that lied to and cheated on me, it was so nice to be with someone as honest and loving as he was. For the first time in my life, I truly felt loved, appreciated, and respected.\"",
+      "context": "Rare independent testimony about him in a close relationship, and favorable. Gracious breakup statements are conventional, so weight is limited. The timing (December 2014, the year he turned 30) fits his 'difficult breakup' at 30, but he has never named her, so do not equate the two.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S16",
+      "url": "https://www.cgmagonline.com/news/dhar-mann-paying-actors-poorly",
+      "title": "YouTube's Dhar Mann Studios Accused Of Paying Actors Unfair Wages",
+      "speaker": "Philip Watson (CGMagazine), quoting actors Colin A. Borden and Charles Laughlin",
+      "date": "2023-02-10",
+      "locator": "Read in full; paragraphs 2-5",
+      "excerpt": "Colin also goes on to say, \"We've been talking to a lot of actors, the trouble is there's a culture at the studio of, if you talk, you're out,\" [...] Charles Laughlin [...] also utilized Instagram to share the mistreatment, while also saying, \"We asked for a meeting and we were told that we would not be given a meeting,\"",
+      "context": "Early protest coverage, before Mann responded. Allegations only.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S17",
+      "url": "https://www.tubefilter.com/2023/02/14/protest-dhar-mann-actors-speak-out-moral-videos-response/",
+      "title": "Moral video creator Dhar Mann responds to the protest launched by some of his regular actors",
+      "speaker": "Tubefilter, quoting Colin A. Borden and Dhar Mann's 2023-02-14 Instagram statement",
+      "date": "2023-02-14",
+      "locator": "Read in full; paragraphs 4-8 summarize and quote Mann's statement",
+      "excerpt": "As for the allegations of low wages, Mann called those claims \"100% not true.\" He said that his studio currently pays between $33 and $44 per hour for speaking roles. [...] \"While I'm taking the steps to stop the spread of misinformation, I do acknowledge that there's always opportunity for growth,\" Mann wrote on Instagram. \"So today in my meeting with actors we came up with ways to improve things such as a more efficient bookings system, stronger communication, and more consistent hours and pay.\"",
+      "context": "Secondary summary of Mann's statement; the full original post was not retrieved, so only the quoted fragments are verified. Shows both a combative rebuttal and a conceded improvement list.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S18",
+      "url": "https://passionfru.it/dhar-mann-actors-protest-3292/",
+      "title": "Dhar Mann Actors Allege 'Culture of Fear' Underpinning YouTube Empire",
+      "speaker": "Charlotte Colombo (Passionfruit), interviewing actors Mair Mulroney, Charles Laughlin, Colin Borden, Michael Vaccaro, Rachel Christianson, and a studio spokesperson",
+      "date": "2023-03-09",
+      "locator": "Read in full; allegation list, spokesperson statements, Borden 'rising tide' quote, child-actor hours, retaliation claims, December 2022 screening event, meeting no-shows, closing quotes",
+      "excerpt": "\"The protestors led a campaign of misinformation for their personal monetary gain and a few of them have even now made public apologies retracting their statements.\" [...] \"That rising tide of the studio has left the actors behind,\" Borden said. \"One of the narratives that has gone out there is that Dhar Mann does not pay his actors, and that's not what we've said at all.\" [...] all four actors said Mann continued to be a no-show due to \"scheduling conflicts,\" so the group took to the streets",
+      "context": "The most detailed account of the dispute, with point-by-point denials from the studio spokesperson ('less than 1% of our actors', '95%+' five-star feedback). Every workplace claim is an allegation; several are partly corroborated by documents the actors showed the reporter (paystubs, a 2021 call sheet). Named actors are adversarial and some later left the studio. Treat as disputed.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S19",
+      "url": "https://www.latimes.com/entertainment-arts/business/story/2025-04-23/two-decades-ago-youtube-uploaded-its-first-video-now-its-a-tv-juggernaut",
+      "title": "YouTube turns 20 years old. How it changed TV as we know it",
+      "speaker": "Wendy Lee (Los Angeles Times), quoting Dhar Mann",
+      "date": "2025-04-23",
+      "locator": "Read in full; Dhar Mann section (paragraphs on 2018 start, 125,000 sq ft, 2,000 actors, Forbes $45M, his quote)",
+      "excerpt": "\"I didn't have to wait two years for a studio to green light my deal and send me a check,\" 40-year-old Mann said. \"I was able to get instant access to monetization as soon as I got people watching my videos, so YouTube has changed my life.\"",
+      "context": "Industry feature; establishes scale figures for 2025 (about 200 staff, 2,000 actors a year).",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S20",
+      "url": "https://www.thewrap.com/dhar-mann-studios-viewership-outpaces-linear-television/",
+      "title": "Dhar Mann Studios Boss Says Digital Content Far Outpaces Linear Television With 45 Million Streams a Day",
+      "speaker": "TheWrap, quoting Dhar Mann Studios CEO Sean Atkins and head of production Toni Gray",
+      "date": "2025-10-02",
+      "locator": "Read in full; paragraphs 1-12",
+      "excerpt": "With a 125,000 square foot production space producing five hours of scripted content weekly, Mann and his team operate at an incredibly high frequency. His studio employs over 200 people [...] \"There's no people involved. It's literally just software that delivers that.\"",
+      "context": "Company executives promoting the studio. Shows that by 2025 he had installed a professional CEO and an efficiency system; says nothing direct about his psychology.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S21",
+      "url": "https://forbes.com.au/news/leadership/forbes-top-creators-2026",
+      "title": "Forbes Top Creators 2026",
+      "speaker": "Steven Bertoni (Forbes), reporting by Zoya Hasan and Alexandra York",
+      "date": "2026-06-24",
+      "locator": "#2 entry and methodology note (earnings March 2025-March 2026)",
+      "excerpt": "#2. Dhar Mann [...] Earnings: $65 M [...] The creator of uplifting Horatio Alger tales for the algorithm [...] Mann's team of 200 produces digital shows which, on a typical week, rack up nearly 300 million views.",
+      "context": "Estimated gross earnings, not audited figures. Time-sensitive ranking.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S22",
+      "url": "https://www.hollywoodreporter.com/business/digital/disney-dhar-mann-studios-1236678227/",
+      "title": "Disney Strikes Content Deal With Dhar Mann Studios",
+      "speaker": "The Hollywood Reporter, quoting Dhar Mann and Disney executives",
+      "date": "2026-08-21",
+      "locator": "Read in full; deal terms and Mann's statement",
+      "excerpt": "\"For me, this is so much bigger than a content deal,\" said Mann. \"I grew up with Disney stories. Now I get to experience that same magic through the eyes of my own family, and the idea that we now have the opportunity to create stories for Disney for the next generation is incredibly meaningful to me.\"",
+      "context": "Press-release statement. Read against S04, where he names Disney as his benchmark ('look at what Disney's doing. Why can't we get there?'). Variety's same-day report (variety.com/2026/tv/news/disney-dhar-mann-studios-20-episode-series-order-1236840119/) was also opened and matches. Episode format undisclosed.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S23",
+      "url": "https://digiday.com/marketing/dhar-manns-100m-awny-deal-target-for-creators-is-already-pledged-so-he-says/",
+      "title": "Dhar Mann's $100M AWNY deal target for creators is already pledged (so he says)",
+      "speaker": "Digiday, quoting Dhar Mann, Brad Hoos (The Outloud Group), Jamie Gutfreund (Creator Vision) and others",
+      "date": "2026-10-06",
+      "locator": "Read in full; paragraphs 1-6 on the $100M target and unnamed pledges; Hoos 'connector' quote; Gutfreund 'think like operators' quote; Q&A on AI output",
+      "excerpt": "He also said that he had several conversations with CMOs he would not name, but that their combined pledges for AWNY already exceed the $100 million benchmark — though again, he doesn't expect ink to be drying this week. [...] \"[Dhar Mann's team] think like operators. They come from business. They don't come from straight entertainment. When you hear them talk, they talk pipeline, they talk revenue, they talk deal flow.\"",
+      "context": "Trade press at Advertising Week New York, where he was the first 'Chief Creator Officer'. The pledge claim is unverified by design; industry quotes are independent but professional, not personal.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S24",
+      "url": "https://www.tubefilter.com/2026/10/07/dhar-mann-advertising-week-new-york-creator-city/",
+      "title": "Dhar Mann wants to broker $100 million in creator/brand deals, and also he's opening \"Creator City\" in Los Angeles",
+      "speaker": "Tubefilter, quoting a Dhar Mann Studios press release",
+      "date": "2026-10-08",
+      "locator": "Read in full; Creator City paragraphs",
+      "excerpt": "During his keynote, he unveiled \"Creator City,\" his new Los Angeles-based, four-acre production campus. \"The creator economy was built on technology and platforms, but unlike the industries around it, it has never had a physical home of its own, the way technology has Silicon Valley, finance has Wall Street and entertainment has Hollywood,\" Dhar Mann Studios said in a press release. \"Creator City is Dhar's vision for that home.\"",
+      "context": "Announced plan, opening targeted for February 2027; stage counts differ across outlets (five here, nine reportedly elsewhere). Unresolved and time-sensitive.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S25",
+      "url": "https://www.youtube.com/watch?v=7jIbBabfNaQ",
+      "title": "Jason Wilson: Why Men Get Angry, Shut Down & Push Away the People They Love (What Happens Next)",
+      "speaker": "Dhar Mann, host, in conversation with Jason Wilson",
+      "date": "2026-08-10",
+      "locator": "YouTube caption transcript; Mann's turn at [3:08-4:41]",
+      "excerpt": "You know, when I was growing up, I always needed a role model to look up to, right? And I grew up, you know, in Oakland, California and there weren't a lot of people that looked like me, Indian kid. [...] the men that you look up to are the ones that are, you know, very successful. They have a lot of money. They're the providers. They're tough. [...] I was always embarrassed to actually talk about any of those things because I thought it goes against being a man.",
+      "context": "His own podcast; short host self-disclosure framing a guest. Four other episodes (Roy Wood Jr., John Delony, Dr. Ramani, Shirin Behzadi) were checked for self-disclosure about his record or family; none found.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S26",
+      "url": "https://web.archive.org/web/20210529192005/https://twitter.com/dharmann/status/1398720779538345993",
+      "title": "Dhar Mann on Twitter: \"Today's not only special because it's my 37th bday...\"",
+      "speaker": "Dhar Mann",
+      "date": "2021-05-29",
+      "locator": "Archived tweet text (Wayback capture 2021-05-29)",
+      "excerpt": "Today's not only special because it's my 37th bday- it's also the 3-year anniversary of Dhar Mann Studios. I'm not always the best at describing my feelings, but from what I've been told I am pretty good at telling stories.",
+      "context": "Primary basis for the May 29, 1984 birth date (37 on May 29, 2021) and for the studio's founding date coinciding with his birthday, which matches his S03 account of posting his first video on his birthday.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S27",
+      "url": "https://oaklandside.org/2021/09/13/oakland-landlord-hit-with-3-9-million-penalty-for-hazardous-housing-conditions/",
+      "title": "Oakland landlord hit with $3.9 million penalty for hazardous housing conditions",
+      "speaker": "The Oaklandside, quoting Judge Brad Seligman's decision and attorney Aaron Hancock",
+      "date": "2021-09-13",
+      "locator": "Read in full; paragraphs 1-2, 5, 18-20",
+      "excerpt": "Baljit Singh Mann and Surinder Mann, a married couple and members of an influential Oakland family that owns 130 commercial and residential properties, as well as a taxi company, had a \"business practice renting dangerously converted spaces unfit for residential use to vulnerable tenants,\" wrote Judge Brad Seligman [...] The Manns have owned several local real estate companies since 1980, and along with their sons Harmit and Dharminder Mann, have purchased dozens of commercial and residential properties throughout the city.",
+      "context": "Concerns his parents, not him; the ruling does not name him as a party. Sensitive. Use, if at all, only as background to his own 2026 statement that he 'grew up where operating in a gray area was okay', never to imply his involvement. Dates his plea to 2014; the plea was 2013-12-10 (S08).",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S28",
+      "url": "https://www.hollywoodreporter.com/business/digital/shar-mann-robert-irwin-2026-super-bowl-creators-nfl-1236487748/",
+      "title": "Dhar Mann Named NFL's \"Chief Kindness Officer\" As League Kicks Off Super Bowl Creator Blitz (Exclusive)",
+      "speaker": "The Hollywood Reporter, quoting Dhar Mann",
+      "date": "2026-01-29",
+      "locator": "Read in full; paragraphs 7-10",
+      "excerpt": "\"I'm honored to be appointed by the NFL as its Chief Kindness Officer,\" says Mann. \"I tell hopeful stories, and the Super Bowl has always been about more than football. It's one of the rare moments when millions of people are all watching, reacting, and feeling something together.\"",
+      "context": "Promotional appointment; part of the 2026 run of titles (Chief Kindness Officer, Chief Creator Officer).",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S29",
+      "url": "https://en.wikipedia.org/wiki/Dhar_Mann",
+      "title": "Dhar Mann (Wikipedia)",
+      "speaker": "Wikipedia contributors",
+      "date": "unknown",
+      "locator": "Raw wikitext retrieved 2026-10-26 (stats updated 2026-09-16); used for leads and reference list only",
+      "excerpt": "Dharminder \"Dhar\" Mann (born May 29, 1984) is an American entrepreneur and film producer. He is the founder of Dhar Mann Studios [...] In 2026, it signed agreements to produce original video programming for Samsung TV Plus, Fox Entertainment, and The Walt Disney Company.",
+      "context": "Tertiary. Every load-bearing fact taken from it was traced to an opened source above. Lists UC Davis as education; that is consistent with his 'Davis Marketing Services' account in S03 but no primary source for a degree was opened.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S30",
+      "url": "https://deadline.com/2026/01/fox-entertainment-dhar-mann-vertical-video-deal-1236697788/",
+      "title": "Fox Entertainment Inks Scripted Vertical Video Deal With Popular Creator Dhar Mann",
+      "speaker": "Deadline, quoting Fox Entertainment CEO Rob Wade and Dhar Mann Studios CEO Sean Atkins",
+      "date": "2026-01-27",
+      "locator": "Read in full (datePublished 2026-01-27T00:43Z, i.e. the evening of January 26 Pacific); paragraphs 1-6",
+      "excerpt": "Plans call for an initial slate of 40 individual narrative videos ticketed for My Drama. [...] Mann's studio creates videos with a total audience of 163 million followers across all platforms. The deal with Fox is its first formal agreement for vertical video.",
+      "context": "Deal announcement; statements come from the CEO and Head of Vertical Content, not Mann himself. Time-sensitive.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S31",
+      "url": "https://variety.com/2026/digital/news/dhar-mann-podcast-what-happens-jameela-jamil-anderson-paak-1236735622/",
+      "title": "Dhar Mann Launches 'What Happens Next' Podcast With Jameela Jamil and Anderson .Paak Among Guests (EXCLUSIVE)",
+      "speaker": "Variety, quoting Dhar Mann and Studio71",
+      "date": "2026-05-11",
+      "locator": "Read in full; paragraphs 1-4 (premiere date May 18; Mann's quote)",
+      "excerpt": "\"I started creating videos in 2018 to share my experiences of growth and overcoming challenges, hoping to make even one person feel seen and inspired,\" Mann said. \"This podcast lets me do that in a different medium, through deeper conversations about the defining moments in people's lives.\"",
+      "context": "Launch announcement; the date follows the Wikipedia citation (no machine-readable date in the fetched page).",
+      "kind": "secondary",
+      "access": "opened"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "Mann grew up in and around Oakland, California; his family is Sikh and his parents are immigrants from India; the family's taxi company, Friendly Cab, is one of Oakland's biggest.",
+      "passage": "and grew up in and around Oakland, California, the son of Sikh immigrants from India whose taxi company, Friendly Cab, became one of the city's biggest.",
+      "class": "self_report",
+      "source_ids": [
+        "S05",
+        "S09",
+        "S01",
+        "S06"
+      ],
+      "inference": "Biographical orientation. The date comes from his own tweet (37th birthday on 2021-05-29); the full first name appears in court-adjacent reporting (S27).",
+      "alternative": "Sources conflict on details not used in the draft: parents arrived with '$7' (S01) or '$6' (S03); Mother Jones dates his father's arrival to 1985 (S06), which conflicts with a 1984 US birth. The draft states neither. S27 (the 2021 ruling against his parents) is deliberately not used.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C02",
+      "claim": "Mann says his parents, working long hours, gave him money instead of time; as a child he bought lunch, snacks and arcade games for classmates to get friends, and he came to 'associate money with love', wanting to make as much money as possible 'to be as quote unquote, as loved as possible'.",
+      "passage": "I didn't realize this until my adult years, but I associated money with love since that's how my parents expressed their love to me since they were never around.",
+      "class": "self_report",
+      "source_ids": [
+        "S05",
+        "S01"
+      ],
+      "inference": "The earliest self-described link between money, being liked and worth. Stated consistently in 2021 (S01) and 2024 (S05).",
+      "alternative": "A retrospective adult insight, rehearsed for an audience; a common immigrant-family story. The buying-friends detail also fits a Two-style strategy of giving to be loved (see C21).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C04",
+      "claim": "As a Sikh boy wearing a turban he was bullied until his mother had him and his brother cut their hair (fourth grade); he describes feeling 'too Indian for the Americans and I was too American for the Indians' and eating lunch in a bathroom so no one would see he had no one to sit with.",
+      "passage": "grew up feeling \"too Indian for the Americans and I was too American for the Indians.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S05",
+        "S03"
+      ],
+      "inference": "Long-standing belonging and shame theme; told consistently in 2024 and 2026.",
+      "alternative": "Shared by many children of immigrants and does not by itself discriminate between types. Age varies slightly (turban at 8 in S03; haircut in fourth grade in S05).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C05",
+      "claim": "By 21, after a flyer business and a telemarketing operation at UC Davis, he was running a mortgage business in Davis, California, and bought an orange Lamborghini.",
+      "passage": "At 21, running a mortgage business in Davis, California, he bought an orange Lamborghini.",
+      "class": "self_report",
+      "source_ids": [
+        "S05",
+        "S03",
+        "S06"
+      ],
+      "inference": "Early, repeated pattern of fast scaling and conspicuous reward.",
+      "alternative": "Worker counts differ between tellings (25 in S05, 40 'at the peak' in S03), so no number is given. Whether he finished a degree is unclear. Mother Jones (S06) independently describes his orange Lamborghini Gallardo in 2010.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C06",
+      "claim": "Mann says the Lamborghini gave him attention for the first time: after feeling 'invisible with no friends' in high school, 'now I was being seen by everyone'. When his mortgage business failed in the 2007 crash he would not give up the car, which 'in my head was the key to all this attention', and started an exotic-car rental company so he could keep it and 'more importantly, the appearance that I was a lot more successful than I actually was'.",
+      "passage": "So I was able to keep my car and more importantly, the appearance that I was a lot more successful than I actually was.",
+      "class": "self_report",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "The clearest first-person statement that he paid a real cost to protect an image of success rather than the substance. Central to the Type 3 case.",
+      "alternative": "It is a 2024 retrospective inside a redemption narrative, which rewards a vivid 'old self'. Seven reading: the car as pleasure and excitement; but he names attention and appearance, not enjoyment, as the reason.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C07",
+      "claim": "In fall 2010, at weGrow, he told Mother Jones he had 'always wanted a reality show 'cause I just think that my life is somewhat appealing to watch'; a three-person crew was filming him for Hempire, a reality-show pilot he was costarring in, whose promo he and his partner financed themselves.",
+      "passage": "\"I personally have always wanted a reality show 'cause I just think that my life is somewhat appealing to watch,\" Mann told him.",
+      "class": "observed",
+      "source_ids": [
+        "S06",
+        "S05"
+      ],
+      "inference": "Contemporaneous, independent observation eight years before any YouTube incentive existed: a desire to be watched and a flair for publicity.",
+      "alternative": "Mother Jones prints the contraction with a curly apostrophe; the draft uses a straight one. The quip and the pilot are publicity behavior that a promoter of any type might show; weight comes from the date (eight years before YouTube incentives).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C08",
+      "claim": "Michael Hunt, a former council aide who worked for weGrow in 2010, said Mann did not necessarily have special advantage from his parents' ties to city leaders, 'But the manner in which (Mann) has attempted to highlight and capitalize on those relationships ... probably attracted as many people to him as were scared away because of any lingering gray area or questions of ethics.' Mann did not respond to the Bay Citizen.",
+      "passage": "probably attracted as many people to him as were scared away because of any lingering gray area or questions of ethics.",
+      "class": "third_party",
+      "source_ids": [
+        "S10"
+      ],
+      "inference": "An independent named observer from 2010 describes a young man who traded on visibility and connections.",
+      "alternative": "Political networking is ordinary for a regulated-industry entrepreneur from a connected family; Hunt worked for weGrow and may have his own grievances. The draft does not present the political conduct as wrongdoing.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C10",
+      "claim": "He pleaded no contest on 2013-12-10 to five felony counts of defrauding a City of Oakland grant program and was sentenced on 2014-01-31 to five years' probation, a $10,000 fine and $44,399.51 restitution.",
+      "passage": "In December 2013 he pleaded no contest to five felony counts of defrauding a City of Oakland grant program, and in January 2014 he was sentenced to five years' probation, a $10,000 fine and $44,399.51 in restitution.",
+      "class": "observed",
+      "source_ids": [
+        "S11",
+        "S08"
+      ],
+      "inference": "Court-record facts. A no-contest plea is a conviction without an admission of the underlying allegations.",
+      "alternative": "Mann's own account (S05): he back-dated paperwork to speed slow reimbursements during a cash squeeze. The NYT (S01) gives the fine as $37,500, conflating the civil settlement; Mann says '$40,000' (S05); East Bay Express wrongly says 'criminal trial' (S12). Expungement rests on his word.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C11",
+      "claim": "Mann's 2024 account of the fraud: he 'always wanted to do things quickly', took on too many renovation projects, found reimbursements slow, and 'decided to take some shortcuts on my grant application. I changed the dates on my paperwork ...'",
+      "passage": "I changed the dates on my paperwork to make it seem like the projects had been completed and contractors had been paid sooner than they were in order to start the reimbursement process faster.",
+      "class": "self_report",
+      "source_ids": [
+        "S05",
+        "S09"
+      ],
+      "inference": "The lesson he draws is about reputation and speed, not primarily about harm done. Consistent with an image/achievement frame.",
+      "alternative": "His version is narrower than the prosecution's (contractor paid less, signature allegedly forged, S09). Reputation is also the natural lesson for anyone publicly prosecuted. In 2026 long-form interviews (S03, S04) he refers only to 'mistakes', 'shortcuts', 'gray area' and get-rich-quick schemes without naming the case.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C12",
+      "claim": "Around 2013-2014, by his account, he invested everything (and sold his rental limousines and cars to invest more) with a friend whose affiliate-marketing business paid monthly returns; the payments stopped and he says it was a Ponzi scheme. As of the 2026-10 research run no public record of the scheme or operator was found.",
+      "passage": "As of October 2026, no public record of the scheme was found, so it is told here as his account, and the man is not named.",
+      "class": "self_report",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "The strongest self-report that social acceptance through displayed success was the goal. The City Attorney's 2015 remark about 'how many photos of your Lamborghini you post on social media' (S12) independently confirms the public display.",
+      "alternative": "Uncorroborated: no public record of the scheme or operator was found; the draft does not name the man. Seven reading (parties, cars) is live for this period.",
+      "durability": "unresolved",
+      "review_trigger": "At each refresh, re-search for any civil, state or federal action against the scheme or its operator (S05 names him; the article does not). If a record is found, cite it and revise the 'no public record' sentence; if not, keep the sentence with its date."
+    },
+    {
+      "id": "C14",
+      "claim": "At 30 (2014), by his account, he went from a three-story house to sleeping on a couch with less than $600 in the bank.",
+      "passage": "He was 30 and sleeping on a couch, with \"less than $600\" in the bank.",
+      "class": "self_report",
+      "source_ids": [
+        "S05",
+        "S04",
+        "S13"
+      ],
+      "inference": "The dread he describes is public failure and a ruined name, not abandonment or danger. A key discriminator against Two and Six.",
+      "alternative": "Partly cultural and circumstantial: a public prosecution plus family financial losses would shame anyone, and the expectations of 'a 30-year-old Indian man' (S04) are external. Eviction timing varies ('2 weeks', 'days away').",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C15",
+      "claim": "Around 2015, after he says he took personal responsibility, an online makeup school he built with a popular makeup artist (not Laura Avila) brought in six figures within 24 hours of going live.",
+      "passage": "brought in six figures within 24 hours of going live.",
+      "class": "self_report",
+      "source_ids": [
+        "S05",
+        "S13"
+      ],
+      "inference": "A costly, verifiable-in-principle reversal of the earlier display pattern; suggests genuine change or a Three moving toward commitment.",
+      "alternative": "Uncorroborated revenue figure. The year is approximate: S05 places his reflection at the end of 2014 and the About page (S13) lists his rebuild in 2015.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C16",
+      "claim": "Around 2015 he started the subscription cosmetics company LiveGlam; Laura Avila, whom he met through his online makeup classes, became his business partner in it and later his fiancée and wife; he credits her 'black and white' morals with correcting an upbringing 'where operating in a gray area was okay... as long as you made money'.",
+      "passage": "Through those classes he met Laura Avila, who became his partner in the cosmetics company LiveGlam and later his wife.",
+      "class": "self_report",
+      "source_ids": [
+        "S05",
+        "S01",
+        "S03",
+        "S13"
+      ],
+      "inference": "He locates his moral change in a relationship, which supports later claims about values.",
+      "alternative": "The NYT (2021) calls her his fiancée; he calls her his wife in 2024 and 2026 (S05, S03). Her current surname was not checked; the draft uses the name the NYT printed.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C17",
+      "claim": "He posted his first motivational video to Facebook on his birthday, May 29, 2018 (his 34th, given his 2021 '37th bday' post).",
+      "passage": "On May 29, 2018, his 34th birthday, he posted his first motivational video to Facebook",
+      "class": "self_report",
+      "source_ids": [
+        "S05",
+        "S26",
+        "S03"
+      ],
+      "inference": "A small, telling detail: timing the debut for maximum love and checking the count. The founding date is independently fixed by his 2021 tweet.",
+      "alternative": "Every new creator checks views; the anecdote is self-deprecating brand lore.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C18",
+      "claim": "In his 2024 account, the video he planned as his last, about a husband who takes his stay-at-home wife for granted (posted 2018-08-30), went viral.",
+      "passage": "a sketch he had planned as his last, about a husband who takes his stay-at-home wife for granted, went viral.",
+      "class": "self_report",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "Persistence under failure; reported in three interviews.",
+      "alternative": "His 2026 telling (S03) names a different sketch, about infidelity, as the planned last video (see C34). The '200 million' view figure is his own and is not in the draft.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C19",
+      "claim": "He told Sanchez that ideas that cannot become a strong thumbnail are killed ('you'll have to kill the idea') and that he would run about 100 title tests for a podcast episode.",
+      "passage": "He told Sanchez that ideas without a strong thumbnail die",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Image precedes substance in his creative process: the package decides whether the story exists.",
+      "alternative": "The strongest professional-incentive objection: YouTube rewards packaging and testing, so any creator at scale behaves this way. That is why the pre-YouTube evidence (C06, C07, C12) carries more weight.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C20",
+      "claim": "When his on-screen appearances made audience retention drop, he removed himself from the scripted videos ('I literally had to fire myself'). By his account the cut came when he started leaning into YouTube, before the channel 'exploded' and finished 2021 as the No. 2 creator globally. The fables still run without him as of 2026-10.",
+      "passage": "So I literally had to fire myself.",
+      "class": "self_report",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "He gave up screen time in the fables when the data said it cost viewers. Counts against an attention-for-its-own-sake reading; consistent with, not proof of, Three.",
+      "alternative": "Any data-driven operator might make the same call (the article says so). The cut applies to the scripted fables only; from 2026 he fronts a podcast and promotional titles (C128-C130).",
+      "durability": "time_sensitive",
+      "review_trigger": "If Mann appears on camera in the studio's fables, the Disney or Fox series, or a studio-hosted show, revise the face-cut passages and the closing line."
+    },
+    {
+      "id": "C21",
+      "claim": "He describes anticipating his wife's needs (charging her phone at every hotel after it died at a concert; carrying snacks, Advil and safety pins), surprising people with concert tickets or guitar lessons after overhearing them, and remembering acquaintances' children's names and grades.",
+      "passage": "he charges it as soon as they reach a hotel, and he carries snacks, Advil and safety pins in case she needs them.",
+      "class": "self_report",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "The best evidence for the Two alternative: attentive, anticipatory giving and a mission of being seen. His own framing ties service to winning, which fits Three's instrumental use of warmth.",
+      "alternative": "A Two reading takes this as the core: love earned by meeting needs. Industry observers call him a 'connector' (S23).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C22",
+      "claim": "Mann says belonging came only recently and first professionally, through 'a certain level of validation that has come from my consistency', adding that he 'would never have been able to' feel it 'until I reached a certain level of success objectively'; he adds that as a father he now feels he belongs through his daughters.",
+      "passage": "I would never have been able to until I reached a certain level of success objectively.",
+      "class": "self_report",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "A direct statement that worth and belonging were contingent on measurable success. Central discriminator against Two (belonging through being needed) and Seven.",
+      "alternative": "He immediately offers a relational, post-growth answer (daughters), which a Two or a maturing Three could both give.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C23",
+      "claim": "He says that in the studio's growth years he believed providing 'made every decision okay' and skipped date nights, dinners and school plays.",
+      "passage": "I skipped out on the date nights, I skipped out on the dinners, I skipped out on the school plays.",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "When family and achievement collided, achievement won, justified as providing. Two would more typically over-give relationally; Three over-works and calls it love.",
+      "alternative": "Founders of fast-growing companies commonly overwork; cultural provider norms (C24) also explain it. The panic-attack period overlaps the February 2023 actors' protest and his reported meeting no-shows; any link is speculative.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C25",
+      "claim": "In 2024 he said that in LA 'My life really felt like a movie'; his website's About page (captured 2021-12-20) is headed 'My Life is like a Movie.'",
+      "passage": "In 2021, the About page on his own website was headed \"My Life is like a Movie.\"",
+      "class": "observed",
+      "source_ids": [
+        "S13",
+        "S05"
+      ],
+      "inference": "Self-presentation as a narrative to be watched, consistent with his 2010 reality-show remark (C07); curation of the record before the redemption arc.",
+      "alternative": "Every brand curates its founder story; omitting a criminal case is also ordinary legal and reputational prudence.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C26",
+      "claim": "Forbes ranked him No. 2 on its 2026 Top Creators list with estimated gross earnings of $65 million (March 2025-March 2026).",
+      "passage": "Forbes ranked him No. 2 on its 2026 Top Creators list, with estimated earnings of $65 million.",
+      "class": "observed",
+      "source_ids": [
+        "S21"
+      ],
+      "inference": "Scale of the achievement the type argument must explain.",
+      "alternative": "Figures are estimates and company claims; they change yearly.",
+      "durability": "time_sensitive",
+      "review_trigger": "Re-check Forbes Top Creators each June, the studio's headcount/facility, and the Fox and Disney deal status at each refresh; update figures and keep dates absolute."
+    },
+    {
+      "id": "C28",
+      "claim": "At Advertising Week New York in October 2026, as its first 'Chief Creator Officer', he and the event's organizers set a goal of $100 million in creator-brand business within 12 months; he said the goal did not mean contracts would be signed that week.",
+      "passage": "he and the event's organizers set a goal of $100 million in creator-brand deals within 12 months, though he said no contracts would be signed that week.",
+      "class": "observed",
+      "source_ids": [
+        "S23"
+      ],
+      "inference": "Part of his 2026 return as a personal front man for the brand. No longer used as evidence of a habit of premature announcements (that comparison was cut as unsupported).",
+      "alternative": "A joint conference target, standard promotion; unverified pledges are not stated in the article.",
+      "durability": "unresolved",
+      "review_trigger": "At the next refresh, check whether AWNY or Mann reported results against the 12-month, $100 million goal; add the outcome with a date or keep the sentence as a dated goal."
+    },
+    {
+      "id": "C29",
+      "claim": "In February 2023 several regular actors protested pay and treatment at Dhar Mann Studios; Colin A. Borden described 'a culture at the studio of, if you talk, you're out.'",
+      "passage": "\"a culture at the studio of, if you talk, you're out.\"",
+      "class": "disputed",
+      "source_ids": [
+        "S16",
+        "S17",
+        "S18"
+      ],
+      "inference": "Under criticism of his kindness brand, his public response defended reputation with metrics and denials before conceding fixes; the actors describe image-protection by exclusion.",
+      "alternative": "Every workplace allegation is disputed; some were partly backed by documents shown to Passionfruit. Labor economics of non-union digital production, not personality, explain the pay structure. Mulroney and others are adversarial. Child-actor claims are sensitive: attribute and include the studio's denial.",
+      "durability": "unresolved",
+      "review_trigger": "Re-check before keeping 'remain disputed': any lawsuit, labor filing or union agreement involving Dhar Mann Studios actors; new on-record actor or employee testimony; further retractions; retrieval of Mann's full 2023-02-14 statement."
+    },
+    {
+      "id": "C30",
+      "claim": "In 2026 he advised 'Stop trying to look rich before you actually are rich' and said real wealth 'is built quietly'; in 2020 he bought Khloé Kardashian's Calabasas mansion for $15.5 million (NYT).",
+      "passage": "\"Stop trying to look rich before you actually are rich,\"",
+      "class": "interpretation",
+      "source_ids": [
+        "S04",
+        "S01"
+      ],
+      "inference": "His current philosophy explicitly repudiates the display pattern of his twenties; the mansion and the audience-tested brand show the tension is unresolved.",
+      "alternative": "The mansion may be ordinary for his income and the advice may reflect real change. The draft says the two facts 'don't cancel each other out' and does not call it hypocrisy.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C33",
+      "claim": "His videos follow a fixed rule: 'in my videos, unlike in the real world, the good person always wins in the end. And the bad person always learns their lesson.'",
+      "passage": "unlike in the real world, the good person always wins in the end. And the bad person always learns their lesson.",
+      "class": "self_report",
+      "source_ids": [
+        "S05",
+        "S01",
+        "S02"
+      ],
+      "inference": "The product mirrors his redemption story: failure is temporary, comeuppance certain, and approval is broad.",
+      "alternative": "A commercial genre choice driven by audience data (kids and global viewers), not necessarily a window into his psyche.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C35",
+      "claim": "Mother Jones (2010) reports that when the PR firm handling weGrow's January 2010 opening handed him a release headed 'Urban gardening megastore opens by airport', he fired the firm and rewrote it as 'Marijuana Superstore Opens in East Oakland'; a TV crew arrived on opening morning and within hours his wholesale supplier cut him off.",
+      "passage": "he fired the firm and rewrote it: \"Marijuana Superstore Opens in East Oakland.\"",
+      "class": "observed",
+      "source_ids": [
+        "S06",
+        "S05"
+      ],
+      "inference": "A choice that served publicity, made before any platform incentive.",
+      "alternative": "His 2024 account (C55) gives honesty as the reason and describes the release differently (tomatoes vs medical marijuana); both are reported in the draft.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C36",
+      "claim": "In May 2012 Alameda County prosecutors charged him with 13 felonies (grand theft, attempted grand theft, forgery) over 2008-09 city redevelopment grants claimed by MannEdge Properties.",
+      "passage": "In May 2012 they charged him with 13 felonies, including grand theft and forgery.",
+      "class": "observed",
+      "source_ids": [
+        "S09",
+        "S11"
+      ],
+      "inference": "Court-reporting facts.",
+      "alternative": "Charges are allegations; he pleaded no contest to five counts (C39).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C38",
+      "claim": "Mann has said the conviction was later expunged (email to the NYT, 2021; judge's offer described in S05).",
+      "passage": "He told the Times in 2021 that the conviction was later expunged.",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S05"
+      ],
+      "inference": "Attributed, not asserted.",
+      "alternative": "Not confirmed in court records; rests on his word.",
+      "durability": "unresolved",
+      "review_trigger": "Confirm or refute via Alameda County Superior Court records at the next refresh; cite the record or correct the body and FAQ."
+    },
+    {
+      "id": "C39",
+      "claim": "On 2013-12-10 he pleaded no contest to five of the counts; a no-contest plea is a conviction without an admission of the underlying facts.",
+      "passage": "On December 10, 2013, he pleaded no contest to five counts, a conviction without an admission of the underlying facts.",
+      "class": "observed",
+      "source_ids": [
+        "S08",
+        "S11"
+      ],
+      "inference": "Court-record fact plus the legal meaning of the plea.",
+      "alternative": "Mother Jones' accompanying headline editorializes; the draft uses only the plea date and count.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C40",
+      "claim": "Asked whether the reputational hit might follow him for life, he said 'I definitely felt like a failure' and wished he could tell his younger self 'how important it is to do things the right way and how much your reputation really matters.'",
+      "passage": "how important it is to do things the right way and how much your reputation really matters.",
+      "class": "self_report",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "He names doing things the right way and reputation; the draft notes both and reads the second as consistent with Three.",
+      "alternative": "Reputation is the natural lesson for anyone publicly prosecuted. The intervening sentence ('people's judgment(s) of me') differs between the two machine transcriptions, so it is paraphrased, not quoted.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C42",
+      "claim": "A DA investigator's court filing (as reported by the SF Chronicle) alleged that he submitted copies of cashier's checks made out to contractors, paid them much less and redeposited the checks, and that the city paid him more than $44,000 on fraudulent paperwork.",
+      "passage": "An investigator's court filing said he paid contractors much less than he claimed and redeposited the cashier's checks he had shown the city, which paid him more than $44,000 on that paperwork.",
+      "class": "observed",
+      "source_ids": [
+        "S09",
+        "S08"
+      ],
+      "inference": "His own account (C11) is narrower than the prosecution's.",
+      "alternative": "These are allegations at the charging stage; the plea was to five of the counts and does not establish which acts were admitted. The draft attributes them to the filing.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C43",
+      "claim": "His attorney John Runfola conceded Mann 'took shortcuts' but said the charges were overblown; Runfola said Mann had obtained grants for 12 projects and that his own spending exceeded the city's matching grants.",
+      "passage": "His lawyer conceded that he \"took shortcuts\" but called the charges overblown and said Mann's own spending exceeded the city's matching grants.",
+      "class": "third_party",
+      "source_ids": [
+        "S09"
+      ],
+      "inference": "The defense's substantive answer to the investigator's allegation, kept for fairness.",
+      "alternative": "Defense framing.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C44",
+      "claim": "He says the worst advice he ever received was to change his name, because 'at that point in my life, I had failed so many times that the only thing associated with my name was failure', and that 'for a long time, honestly, I did think about changing my name.'",
+      "passage": "the only thing associated with my name was failure.",
+      "class": "self_report",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "His dread centered on a ruined name. Hook of the draft.",
+      "alternative": "A rehearsed answer in a rapid-fire podcast segment; he does not say who gave the advice or when.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C45",
+      "claim": "Guy Raz, on How I Built This (2024): 'Dhar Mann Studios doesn't actually need Dhar Mann'; Mann agreed this was important to scaling.",
+      "passage": "\"Dhar Mann Studios doesn't actually need Dhar Mann.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "Independent host's summary of the face-removal choice (C20).",
+      "alternative": "Raz's characterization, not Mann's; verified in the second transcription.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C46",
+      "claim": "Mann was born in 1984; his 2021-05-29 post calls it his '37th bday' and the studio's third anniversary.",
+      "passage": "Mann was born in 1984",
+      "class": "observed",
+      "source_ids": [
+        "S26",
+        "S29"
+      ],
+      "inference": "Year only; the draft gives the year, and the FAQ gives the year only.",
+      "alternative": "Wikipedia gives May 29, 1984, consistent with the post.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C47",
+      "claim": "His studio makes scripted moral fables; one 2021 example title is 'RICH Kid WON'T TIP Pizza Boy, He Lives to Regret It.'",
+      "passage": "That studio, Dhar Mann Studios, makes scripted moral fables performed by actors, with titles like \"RICH Kid WON'T TIP Pizza Boy, He Lives to Regret It.\"",
+      "class": "observed",
+      "source_ids": [
+        "S02",
+        "S05"
+      ],
+      "inference": "Orientation.",
+      "alternative": "Title taken from the NYT Magazine essay (S02).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C48",
+      "claim": "Type thesis: by his own account Mann sought love and worth by being seen to succeed (2007 car, 2010 reality-show wish, 2014 Instagram, packaging-first studio), rather than by being needed.",
+      "passage": "Mann's own account describes chasing love and worth by being seen to succeed, before YouTube and after it.",
+      "class": "interpretation",
+      "source_ids": [
+        "S05",
+        "S06",
+        "S03",
+        "S04"
+      ],
+      "inference": "Summary of the type hypothesis (see type_hypothesis).",
+      "alternative": "Type 2 is the closest rival; the record is largely his own retrospective narration. Held at medium confidence.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C49",
+      "claim": "He says professional belonging came through success, and that the more important belonging now comes from being a father to his daughters ('if I have nobody else in this world, I have my daughters'). He has two daughters.",
+      "passage": "That was the professional side, he added; the belonging that matters more comes from being a father to his two daughters.",
+      "class": "self_report",
+      "source_ids": [
+        "S03",
+        "S13"
+      ],
+      "inference": "Included so the success-belonging quote (C22) is not a thesis-friendly half.",
+      "alternative": "A relational answer a Two or a maturing Three could both give.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C50",
+      "claim": "His parents worked long hours building the family cab company and, he says, gave him money instead of time.",
+      "passage": "His parents worked long hours building the cab company",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S05"
+      ],
+      "inference": "Orientation for the money-and-love account (C02).",
+      "alternative": "Common immigrant-family story; retrospective.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C52",
+      "claim": "He says that when he paid for classmates' lunch, snacks or arcade games, 'a lot of people wanted to be my friend.'",
+      "passage": "when he paid for classmates' lunches, snacks and arcade games, \"a lot of people wanted to be my friend.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "Early link between money and being liked.",
+      "alternative": "Also fits a Two strategy of giving to be loved; the draft uses it in the Two case too.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C54",
+      "claim": "He says the Lamborghini gave him attention for the first time: 'my whole high school career, I felt invisible with no friends. And now I was being seen by everyone. Everyone wanted to be my friend at that point.'",
+      "passage": "\"I felt invisible with no friends. And now I was being seen by everyone.\" Then: \"Everyone wanted to be my friend at that point.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "Being seen as the payoff; by his account the car also bought friendship, so the Three-over-Two argument rests on how he sought it (display), not on the absence of a relational motive.",
+      "alternative": "Retrospective. Both machine transcriptions (small.en and large-v3-turbo, draft and critic segments at ~15:18-16:03) agree on the quoted words.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C55",
+      "claim": "In 2024 he said the tomato framing of the press release 'just felt a little hypocritical to me.'",
+      "passage": "\"just felt a little hypocritical to me.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "Honesty as an alternative motive for the loud release.",
+      "alternative": "The draft presents both readings.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C56",
+      "claim": "He says he 'always wanted to do things quickly' and took on more renovation projects than he could afford while reimbursements took one to two years.",
+      "passage": "he \"always wanted to do things quickly,\" took on too many renovations at once and hit reimbursements that took a year or two.",
+      "class": "self_report",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "Speed and over-extension.",
+      "alternative": "Cash-squeeze circumstances also explain it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C57",
+      "claim": "He says that on moving to LA around 2014 he concluded 'you need two things, money and fame' and decided 'to do whatever it took to build a large following on Instagram'; they leased a Hollywood Hills house, a Ferrari and a Rolls-Royce.",
+      "passage": "\"I realized in LA, you need two things, money and fame,\" Mann said.",
+      "class": "self_report",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "Explicit statement that fame was a goal.",
+      "alternative": "Retrospective inside a redemption arc.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C58",
+      "claim": "He says 'the flashier I was on Instagram, the faster my following would grow.'",
+      "passage": "\"the flashier I was on Instagram, the faster my following would grow.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "Display tuned to audience growth.",
+      "alternative": "Platform incentives reward display for anyone.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C59",
+      "claim": "He says 'Instagram was more addictive for me than any drug out there for someone who valued social acceptance as much as I did.'",
+      "passage": "Instagram was more addictive for me than any drug out there for someone who valued social acceptance as much as I did.",
+      "class": "self_report",
+      "source_ids": [
+        "S05",
+        "S12"
+      ],
+      "inference": "The strongest self-report that social acceptance through displayed success was the goal; the City Attorney's 2015 remark about Lamborghini photos (S12) independently confirms the display.",
+      "alternative": "Seven reading (stimulation) is possible, but he names acceptance.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C60",
+      "claim": "By his account, the friend's last payment bounced (discovered at his engagement photo shoot), the friend went silent, and the business was a Ponzi scheme.",
+      "passage": "He says the friend's last payment bounced, the friend went silent, and the business turned out to be a Ponzi scheme.",
+      "class": "self_report",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "Part of the 2014 collapse.",
+      "alternative": "Uncorroborated; see C12.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C61",
+      "claim": "Lilly Ghalichi of Bravo's Shahs of Sunset ended their 2014 engagement in December 2014 without giving a reason, asked fans not to speculate, and wrote that 'it was so nice to be with someone as honest and loving as he was.'",
+      "passage": "wrote that \"it was so nice to be with someone as honest and loving as he was.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S15"
+      ],
+      "inference": "The one intimate, independent testimony on record; weighed in the Type 2 section as Two-leaning evidence.",
+      "alternative": "Gracious breakup statements are conventional; weight is limited. No source ties the split to his finances, and the article does not place it as a beat in the collapse.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C63",
+      "claim": "He told Sanchez (2026): 'For me, as a 30-year-old Indian man, I was looking at it as like my family is ashamed of me, my culture I'm letting down.'",
+      "passage": "my family is ashamed of me, my culture I'm letting down",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Shame framed as others' verdict.",
+      "alternative": "Cultural expectations explain much of this; the draft says so.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C64",
+      "claim": "He told Shetty he feared his tombstone would read 'Here is Dhar Mann, the biggest failure that has ever existed.'",
+      "passage": "Here is Dhar Mann, the biggest failure that has ever existed.",
+      "class": "self_report",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "Dread of public failure and a ruined name; discriminator against Two and Six.",
+      "alternative": "Hyperbolic retrospective. The draft uses single quotes for the nested quotation.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C65",
+      "claim": "He says: 'My first failure in real estate, I blame[d] the economy. My second failure in medical marijuana, I blame[d] the government. My third failure with my investments, I blame[d] [the friend]', and then realized he 'was the common denominator.'",
+      "passage": "He says the recovery began when he stopped blaming the economy, the government and the friend for his three failures, in real estate, marijuana and the investment, and saw that he \"was the common denominator.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "Self-described turn to responsibility.",
+      "alternative": "The 'blame' verb tense differs between transcriptions, so the list is paraphrased; the named failures match in both.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C66",
+      "claim": "He says that after the makeup school's first success 'I decided that I would not be flashy. I would not spend money wastefully. I didn't upgrade my lifestyle even 1%' until he had repaid relatives who lost money on the investment he had recommended, within about a year.",
+      "passage": "I didn't upgrade my lifestyle even 1%",
+      "class": "self_report",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "A costly reversal of the display pattern, but also repayment of losses he says he caused (C114).",
+      "alternative": "Uncorroborated; could be a changed motive, duty, or a more durable image.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C67",
+      "claim": "He credits his wife with his ethics: 'I grew up where operating in a gray area was okay. Right? Like, if as long as you made money, it was okay', and says she 'was so black and white about everything.'",
+      "passage": "I grew up where operating in a gray area was okay.",
+      "class": "self_report",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "He locates his moral change in a relationship; echoes Hunt's 2012 'gray area' (C08).",
+      "alternative": "His characterization of his upbringing concerns his parents; the draft does not connect it to any ruling about them.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C68",
+      "claim": "He says he posted his first video on his birthday because 'I'm going to get extra love.'",
+      "passage": "figuring \"I'm going to get extra love.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "Timing the debut for love and algorithmic reach.",
+      "alternative": "Audio-checked (large-v3-turbo, 58:15-58:55). The algorithm half of his explanation is no longer in the article.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C69",
+      "claim": "He says his first video never broke 100 views.",
+      "passage": "It never broke 100 views.",
+      "class": "self_report",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "Self-deprecating detail on checking the count.",
+      "alternative": "Self-deprecating brand lore; both transcriptions agree ('didn't even break 100 views').",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C70",
+      "claim": "His first comment, from a friend, was 'Who do you think you are? Tony Robbins?'",
+      "passage": "The first comment came from a friend:",
+      "class": "self_report",
+      "source_ids": [
+        "S05",
+        "S03"
+      ],
+      "inference": "Small, vivid detail.",
+      "alternative": "Told in both S05 and S03; not audio-checked at that timestamp, but the two tellings agree on the words.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C71",
+      "claim": "He told Sanchez: 'if it's not great packaging, then by default, it can't be a great story.'",
+      "passage": "If it's not great packaging, then by default, it can't be a great story.",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Image precedes substance in his creative process.",
+      "alternative": "Professional incentive: packaging matters to every creator at scale; the draft says so.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C73",
+      "claim": "Interpretation: in his studio the package decides whether the story gets made; packaging alone is weak type evidence because every creator at scale tests it, so the pre-YouTube record carries more weight.",
+      "passage": "in his studio, the package decides whether the story gets made.",
+      "class": "interpretation",
+      "source_ids": [
+        "S04",
+        "S05"
+      ],
+      "inference": "Order of operations as the type-relevant detail.",
+      "alternative": "The strongest professional-incentive objection; acknowledged in the same paragraph.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C74",
+      "claim": "Right after saying service helped him start 'winning big' with team members and brand partners, he says he surprises people with concert tickets or guitar lessons after overhearing them and remembers their children's names and grades, which 'makes somebody feel seen.'",
+      "passage": "\"makes somebody feel seen.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "Two-case evidence, placed in the business context he gave it.",
+      "alternative": "Edit stage: re-transcribed with large-v3-turbo (S03 72:52-73:22); matches the caption ('That makes somebody feel seen in noticing the small details').",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C75",
+      "claim": "Launching his podcast, he said he started making videos 'hoping to make even one person feel seen and inspired.'",
+      "passage": "hoping to make even one person feel seen and inspired.",
+      "class": "self_report",
+      "source_ids": [
+        "S31"
+      ],
+      "inference": "Two-case evidence: a mission framed as being seen.",
+      "alternative": "Press-release language.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C76",
+      "claim": "He concludes his account of serving his wife: 'So love taught me that it's in noticing the small details, and you win when you serve others. Taking that same application can also apply to business. And when I did that, that's when I started winning big.'",
+      "passage": "And when I did that, that's when I started winning big.",
+      "class": "self_report",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "His own framing ties service to winning, consistent with Three's instrumental use of warmth.",
+      "alternative": "A Two could also describe the rewards of giving; the draft concedes the care is real.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C77",
+      "claim": "The Bay Citizen (2012) reported his 'work hard, party hard ethic', frequent Las Vegas trips and a BMW M5.",
+      "passage": "what the Bay Citizen called his \"work hard, party hard ethic",
+      "class": "third_party",
+      "source_ids": [
+        "S10"
+      ],
+      "inference": "Seven-reading evidence for his twenties.",
+      "alternative": "Ordinary for a young entrepreneur; he names acceptance, not pleasure, as the motive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C78",
+      "claim": "He says his 5-year-old asked him to play, he pointed to 'this big house' as why Daddy worked so hard, and she later told him 'I don't want to have a big house anymore.'",
+      "passage": "\"I don't want to have a big house anymore.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Providing as justification for absence.",
+      "alternative": "His own account of a private moment involving a child; told without naming her.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C80",
+      "claim": "FAQ: in 2023, after panic attacks that began on Christmas Eve 2022, he handed human resources and finance to Laura Avila and production and operations to Ruben Ortiz.",
+      "passage": "he says she took over human resources and finance at his studio in 2023.",
+      "class": "self_report",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "Delegation after the panic attacks.",
+      "alternative": "His account.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C81",
+      "claim": "The protesting actors told Passionfruit that Mann repeatedly missed meetings they requested, citing 'scheduling conflicts'.",
+      "passage": "The actors said Mann kept missing meetings they had asked for.",
+      "class": "disputed",
+      "source_ids": [
+        "S18"
+      ],
+      "inference": "Actors' account of being excluded.",
+      "alternative": "Mann said their wish to meet him personally was 'never communicated' (C82).",
+      "durability": "unresolved",
+      "review_trigger": "Re-check the 2023 actors' dispute at each refresh: lawsuits, labor filings, union agreements, new testimony or retractions."
+    },
+    {
+      "id": "C82",
+      "claim": "Mann said the protesters' desire to meet him personally was 'never communicated', though (per Tubefilter) he eventually did connect with the actors.",
+      "passage": "Mann said their wish to meet him personally was \"never communicated",
+      "class": "disputed",
+      "source_ids": [
+        "S17"
+      ],
+      "inference": "His rebuttal.",
+      "alternative": "Only Tubefilter's summary of his statement was read.",
+      "durability": "unresolved",
+      "review_trigger": "Re-check the 2023 actors' dispute at each refresh: lawsuits, labor filings, union agreements, new testimony or retractions; retrieve the full 2023-02-14 statement if available."
+    },
+    {
+      "id": "C83",
+      "claim": "Mann called the low-pay claims '100% not true', said speaking roles paid $33-$44 an hour and cited 'misinformation'.",
+      "passage": "called the low-pay claims \"100% not true,\" said speaking roles paid $33 to $44 an hour and blamed \"misinformation.\"",
+      "class": "disputed",
+      "source_ids": [
+        "S17",
+        "S18"
+      ],
+      "inference": "Reputation defense with numbers.",
+      "alternative": "Some actor claims were partly backed by documents shown to Passionfruit; the dispute is unresolved.",
+      "durability": "unresolved",
+      "review_trigger": "Re-check the 2023 actors' dispute at each refresh: lawsuits, labor filings, union agreements, new testimony or retractions."
+    },
+    {
+      "id": "C84",
+      "claim": "Tubefilter reports he eventually connected with the aggrieved actors; his statement says 'today in my meeting with actors we came up with ways to improve things' (bookings, communication, hours and pay) and 'I do acknowledge that there's always opportunity for growth.'",
+      "passage": "He did meet with actors, and listed changes that came out of that meeting, writing that \"there's always opportunity for growth.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S17"
+      ],
+      "inference": "His response included a meeting and concessions, not only rebuttal.",
+      "alternative": "Fragment quoted by Tubefilter; full original post not retrieved.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C86",
+      "claim": "His 2021 About page tells his life as a timeline beginning in 2014 with 'I felt lost, depressed and was struggling to find purpose.'",
+      "passage": "\"I felt lost, depressed and was struggling to find purpose.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S13"
+      ],
+      "inference": "Curated self-presentation starting at the low point.",
+      "alternative": "Every brand curates its founder story.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C87",
+      "claim": "weGrow and the fraud case do not appear on the 2021 About page, and he does not name the case in the two long 2026 interviews read in full (S03, S04).",
+      "passage": "WeGrow and the fraud case do not appear, and in his two long 2026 interviews he never names the case.",
+      "class": "observed",
+      "source_ids": [
+        "S13",
+        "S03",
+        "S04"
+      ],
+      "inference": "Selective telling alongside volunteered confession.",
+      "alternative": "Omitting a criminal case is ordinary legal and reputational prudence. Absence is limited to these sources.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C88",
+      "claim": "He says that once you have real success 'you'll not want to show it because you just become a bigger target in everyone's eyes anyway.'",
+      "passage": "\"you'll not want to show it because you just become a bigger target in everyone's eyes anyway.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Even the case for quiet wealth is framed by others' eyes.",
+      "alternative": "Practical security advice for the wealthy.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C89",
+      "claim": "In 2020 he bought Khloé Kardashian's Calabasas mansion for $15.5 million (NYT 2021).",
+      "passage": "'s Calabasas mansion for $15.5 million, according to",
+      "class": "observed",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Sits beside his quiet-wealth advice.",
+      "alternative": "Ordinary for his income; not framed as hypocrisy.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C94",
+      "claim": "Metadata: someone told him to change a name he says was associated only with failure; he kept it, built a moral-fable studio and cut himself out of its videos; the page reads him as Type 3.",
+      "passage": "Someone told Dhar Mann to change a name he says stood only for failure.",
+      "class": "self_report",
+      "source_ids": [
+        "S03",
+        "S11",
+        "S05"
+      ],
+      "inference": "Description summary.",
+      "alternative": "He does not date the advice; the description no longer asserts timing.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C95",
+      "claim": "FAQ: Forbes ranked him No. 2 on its 2026 Top Creators list with estimated earnings of $65 million from March 2025 to March 2026; he posted his first video in 2018.",
+      "passage": "with estimated earnings of $65 million from March 2025 to March 2026.",
+      "class": "observed",
+      "source_ids": [
+        "S21"
+      ],
+      "inference": "Scale.",
+      "alternative": "Estimates; changes yearly.",
+      "durability": "time_sensitive",
+      "review_trigger": "Re-check Forbes Top Creators each June and update the FAQ."
+    },
+    {
+      "id": "C96",
+      "claim": "FAQ: a related civil suit by the City of Oakland settled in 2015 for $37,500.",
+      "passage": "A related civil suit by the city settled in 2015 for $37,500.",
+      "class": "observed",
+      "source_ids": [
+        "S12"
+      ],
+      "inference": "Separates the civil settlement from the criminal fine.",
+      "alternative": "The NYT (S01) mislabels $37,500 as the criminal fine; the draft follows S11/S12.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C97",
+      "claim": "FAQ: his wife is Laura Avila, a beauty influencer he met through his online makeup classes around 2015.",
+      "passage": "His wife is Laura Avila, a beauty influencer he met through his online makeup classes around 2015.",
+      "class": "self_report",
+      "source_ids": [
+        "S05",
+        "S13",
+        "S01"
+      ],
+      "inference": "Orientation.",
+      "alternative": "Year from his About page timeline ('2015 - I met my dream girl Laura').",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C98",
+      "claim": "FAQ: Dhar Mann Studios is a Los Angeles-area studio that makes scripted moral fables for YouTube, Facebook and other platforms.",
+      "passage": "a Los Angeles-area studio that makes scripted moral fables for YouTube, Facebook and other platforms.",
+      "class": "observed",
+      "source_ids": [
+        "S19",
+        "S21",
+        "S24"
+      ],
+      "inference": "Orientation.",
+      "alternative": "Facility details change; a new campus (Creator City) is planned for 2027 (S24).",
+      "durability": "time_sensitive",
+      "review_trigger": "February 2027 Creator City opening (S24): re-check studio location and platforms."
+    },
+    {
+      "id": "C99",
+      "claim": "In the same Final Five answer he says he kept the name because 'there's so many people out there just like me that feel like a failure', built a studio about second chances, and now 'my name is associated with positivity and overcoming hardship.'",
+      "passage": "In the same answer he gave his reason: \"there's so many people out there just like me that feel like a failure,\" so he built a studio around second chances, and now \"my name is associated with positivity and overcoming hardship.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "His own stated reason has a brand strand (Three-shaped) and an other-directed strand (helper/mission-shaped); both are reported.",
+      "alternative": "Rehearsed rapid-fire answer. Edit stage: re-transcribed with large-v3-turbo (S03 75:20-76:10); matches the caption.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C100",
+      "claim": "Interpretation: keeping the name and cutting the face both protect the audience's association with the name.",
+      "passage": "Read together, both choices protect what an audience thinks of when it hears \"Dhar Mann\": the \"positivity\" he says he wanted the name to carry.",
+      "class": "interpretation",
+      "source_ids": [
+        "S03",
+        "S05"
+      ],
+      "inference": "Author's reading, labeled as such and tied to his own 'positivity' line (C99).",
+      "alternative": "The face cut has its own stated reason, retention data (C20); the article says so.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C101",
+      "claim": "By his account the face cut came when he started leaning into YouTube, before the channel exploded and finished 2021 as the No. 2 creator globally.",
+      "passage": "When he started focusing on YouTube, before the channel's 2021 breakout, he checked the analytics.",
+      "class": "self_report",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "Bounds the undated face cut (before 2021).",
+      "alternative": "No exact year is given; 'before the 2021 breakout' is the tightest bound the source supports.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C102",
+      "claim": "He traces his urge to scale to 'seeing my dad go from one taxi cab to my parents building their big taxi business.'",
+      "passage": "He traces his urge to scale to \"seeing my dad go from one taxi cab to my parents building their big taxi business.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S05",
+        "S06"
+      ],
+      "inference": "The first model of visible ascent in his record; circumstance (immigrant striving) is acknowledged as an alternative in the next sentence.",
+      "alternative": "Audio-checked (large-v3-turbo, S05 47:15-48:00). Mother Jones (S06) independently reports his father went from one cab to 200.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C103",
+      "claim": "He says that at that stage he 'was only concerned with how could I make as much money as possible in order to be as quote unquote, as loved as possible.'",
+      "passage": "he was \"only concerned with how could I make as much money as possible,\" so he could be \"as loved as possible.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "He ties money to love himself, so the Three-over-Two argument rests on how he sought love (display), not on success versus love.",
+      "alternative": "Edit stage: re-transcribed with large-v3-turbo (S05 9:50-10:20); words match small.en, punctuation differs, so only the shared words are quoted.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C104",
+      "claim": "Mother Jones (2010) wrote that 'when your business plan depends on publicity, there is no upside to playing it safe'; Peterson called the Hempire show 'a hedge'.",
+      "passage": "\"When your business plan depends on publicity, there is no upside to playing it safe,\" Harkinson wrote, and Peterson called the show \"a hedge.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S06"
+      ],
+      "inference": "Concedes the business incentive for publicity in 2010, so the pre-YouTube weight rests on items no business plan required (the personal wish, C07; the 2007 rental, C06; the 2014 Instagram, C59).",
+      "alternative": "The original reads 'Besides, when your business plan...'; Peterson's full line is 'It's a hedge... they're gonna love that in TV land!'",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C105",
+      "claim": "Mother Jones (2010) described his plan as 'the first honest hydro store', one that didn't perpetuate the tomato charade.",
+      "passage": "Mother Jones described Mann's plan as \"the first honest hydro store.\"",
+      "class": "observed",
+      "source_ids": [
+        "S06"
+      ],
+      "inference": "Honesty as a motive for the loud release was reported in 2010, not only in his 2024 telling.",
+      "alternative": "The phrase is the reporter's narration of his plan, not a direct quote attributed to Mann.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C106",
+      "claim": "Within hours of the January 2010 opening his wholesale supplier cut him off (Mother Jones); in 2024 he said the big distributors cut him off on opening night and 'my business was pretty much doomed from the start.'",
+      "passage": "Within hours of opening, Mother Jones reported, his wholesale supplier cut him off, and in his 2024 telling \"my business was pretty much doomed from the start.\"",
+      "class": "observed",
+      "source_ids": [
+        "S06",
+        "S05"
+      ],
+      "inference": "Shows what the louder headline cost: the costliest visibility choice in the record.",
+      "alternative": "Both machine transcriptions agree on 'doomed from the start' (critic segment). Distributor rules, not only publicity, drove the cutoff.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C107",
+      "claim": "By March 2011 the original Oakland weGrow store had closed and the partnership with Peterson had ended in lawsuits; Peterson and his wife sued, and Mann later countersued and won a cash settlement.",
+      "passage": "By March 2011 the original store had closed and the partnership with Peterson had ended in lawsuits on both sides.",
+      "class": "observed",
+      "source_ids": [
+        "S07",
+        "S01"
+      ],
+      "inference": "Outcome of weGrow.",
+      "alternative": "Peterson's specific accusations are disputed and deliberately not repeated; Mann's spokesman called them retaliation (S07).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C108",
+      "claim": "He helped host a fall 2010 fundraiser for Jerry Brown at his parents' home, and the two were pictured on his Facebook page drinking champagne.",
+      "passage": "He helped host a 2010 fundraiser for Jerry Brown and posted a photo of them drinking champagne.",
+      "class": "observed",
+      "source_ids": [
+        "S09"
+      ],
+      "inference": "Public display of political connections, the context for Hunt's remark.",
+      "alternative": "Ordinary political networking for a connected entrepreneur; no wrongdoing is alleged or implied.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C109",
+      "claim": "Interpretation: in 2010 no algorithm paid him to be watched, though his business plan rewarded publicity; the personal wish to be watched was not required by the plan.",
+      "passage": "No algorithm was paying him to be watched, though his business plan rewarded it.",
+      "class": "interpretation",
+      "source_ids": [
+        "S06"
+      ],
+      "inference": "Weights the 2010 personal wish over business-driven publicity.",
+      "alternative": "The quip itself could be promotion; the article concedes the incentive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C110",
+      "claim": "Prosecutors said that through MannEdge Properties he defrauded city programs that paid up to half the cost of renovating commercial buildings; one cited project was a warehouse where he later opened a hydroponics store.",
+      "passage": "Through MannEdge Properties he renovated commercial buildings in parts of Oakland where the city reimbursed up to half the cost. One project prosecutors cited was a warehouse where he later opened a hydroponics store.",
+      "class": "observed",
+      "source_ids": [
+        "S09",
+        "S11"
+      ],
+      "inference": "Explains the property business and its link to weGrow.",
+      "alternative": "The warehouse detail comes from the investigator's allegation (Berumen Construction); attributed to prosecutors.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C111",
+      "claim": "In January 2014 he was sentenced to five years' probation, a $10,000 fine and 'full restitution' of $44,399.51, matching the 'more than $44,000' the investigator said the city paid on fraudulent paperwork.",
+      "passage": "In January 2014 he was sentenced to five years' probation, a $10,000 fine and \"full restitution\" of $44,399.51, in line with what the investigator said the city had paid.",
+      "class": "observed",
+      "source_ids": [
+        "S11",
+        "S09"
+      ],
+      "inference": "Court-record outcome set against his dates-only account.",
+      "alternative": "Restitution can be a negotiated plea term; a no-contest plea admits no facts.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C112",
+      "claim": "Interpretation: his 2024 dates-only account does not explain the full-restitution order.",
+      "passage": "His dates-only account leaves that order unexplained.",
+      "class": "interpretation",
+      "source_ids": [
+        "S05",
+        "S11"
+      ],
+      "inference": "He gives the narrowest version of the one failure that is a court record.",
+      "alternative": "Plea terms may reflect negotiation rather than admitted facts; the article states the plea admits no facts.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C113",
+      "claim": "He moved to Los Angeles around 2014, the year his five-year probation (sentenced 2014-01-31) began.",
+      "passage": "The two of them moved to Los Angeles around 2014, the year his five-year probation began.",
+      "class": "observed",
+      "source_ids": [
+        "S05",
+        "S11"
+      ],
+      "inference": "The Ferrari-and-Instagram phase ran during probation.",
+      "alternative": "'Around 2014' is his and Raz's dating; not stated more precisely.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C114",
+      "claim": "He says relatives who saw his Instagram asked how he was doing so well, he told them about the investment, and his cousins, brother and eventually parents invested; he says they 'all invested based on me saying this was a good investment' and lost their money.",
+      "passage": "When relatives saw his posts, he says, he told them about the investment, and \"my cousins, my brother, and even eventually my parents\" put money in. They lost it too, and he says they \"all invested based on me saying this was a good investment.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "Adverse self-report of his role in family losses; reframes the later repayment (C66).",
+      "alternative": "Audio-checked with large-v3-turbo (S05 33:55-34:40 draft segment; 35:35-36:25 edit segment).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C115",
+      "claim": "Interpretation: because the losses followed his pitch, repayment settled a debt as well as breaking the display pattern.",
+      "passage": "Those losses had followed his own pitch, so the repayment settled a debt as much as it broke the old pattern, and only he has described it.",
+      "class": "interpretation",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "Prevents treating repayment purely as restraint.",
+      "alternative": "Could still be a genuine change of motive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C116",
+      "claim": "Interpretation: the face cut is consistent with Three but is also what any operator reading retention data might do; it rules out an attention-for-its-own-sake reading.",
+      "passage": "The same caveat covers cutting his face, a call any operator reading retention data might make.",
+      "class": "interpretation",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "Applies the professional-incentive caveat to the face cut.",
+      "alternative": "None beyond the caveat itself.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C117",
+      "claim": "Interpretation (discriminator): the boy spent money on other people (lunches, arcade games); the man spent it on the image (the 2007 rental to keep the car, the 2014 leased Ferrari and Rolls-Royce for Instagram).",
+      "passage": "The boy's money went to other people; the man's went into the image.",
+      "class": "interpretation",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "The currency of love: display rather than being needed.",
+      "alternative": "A Two reading calls the cars a lonely young man buying affection; the article states that reading.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C118",
+      "claim": "He told Shetty that on an early influencer trip the brand bought only economy seats, Laura's friends had all upgraded, and walking past them 'I felt like I was nothing and I was just humiliated'; Laura said she didn't care; his coda is that many of those first-class passengers 'are now the ones riding in economy.'",
+      "passage": "Walking past Laura's upgraded friends to the economy seats a brand had paid for, he said, \"I felt like I was nothing and I was just humiliated.\" Laura said she didn't care. His coda is about rank: many of those first-class passengers \"are now the ones riding in economy.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "Shame at being seen ranking low, and a coda measured in rank, separate Three from Two more cleanly than the phone story.",
+      "alternative": "He tells it as a tribute to Laura's love. Edit stage: re-transcribed with large-v3-turbo (S03 67:50-69:50); matches the caption.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C119",
+      "claim": "He says the service lesson applied to business 'when it came to my team members, for instance, or it came to certain brand partners', the context for the tickets and children examples.",
+      "passage": "The examples that follow come from business, \"when it came to my team members, for instance, or it came to certain brand partners.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "Restores the business context of his giving examples.",
+      "alternative": "Audio-checked (draft-stage large-v3-turbo segment 71:40-73:05).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C120",
+      "claim": "He says noticing those details shows 'that you truly care about them' rather than that people exist in his life 'for some sort of business purpose.'",
+      "passage": "He says it shows \"that you truly care about them,\" not a \"business purpose.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "Keeps his claim that the care is genuine.",
+      "alternative": "Edit stage: re-transcribed with large-v3-turbo (S03 72:52-73:22); matches the caption.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C121",
+      "claim": "Interpretation: the studio's moral-fable formula held from 2018 through 2026, even as 2026 deals carried it to new outlets.",
+      "passage": "the moral-fable formula held from 2018 through 2026.",
+      "class": "interpretation",
+      "source_ids": [
+        "S05",
+        "S30",
+        "S22",
+        "S31"
+      ],
+      "inference": "Second leg of the Seven rebuttal; the main leg is his stated motive (attention and 'social acceptance').",
+      "alternative": "The 2026 spread of ventures (Fox, Disney, podcast, AWNY) is the most Seven-looking period in his career.",
+      "durability": "time_sensitive",
+      "review_trigger": "If Mann's ventures move beyond the moral-fable formula, re-test the Seven alternative and revise this sentence."
+    },
+    {
+      "id": "C122",
+      "claim": "He took from the big-house moment that 'the thing that I valued, that I thought that I was delivering on as a dad to help make everyone else's lives better or dreams come true, was actually not even the thing that they really wanted.'",
+      "passage": "the thing that I valued, that I thought that I was delivering on as a dad to help make everyone else's lives better or dreams come true, was actually not even the thing that they really wanted.",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "A provider's misjudgment that a Two reading can claim; the article concedes this.",
+      "alternative": "Caption track; the draft-stage large-v3-turbo segment (64:10-66:00) covers the start of the passage; the tail is caption-only.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C123",
+      "claim": "He framed the correction as 'what is success if I can't even spend time with my own family.'",
+      "passage": "what is success if I can't even spend time with my own family.",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Success-framed correction; with the status-object answer to a request for time, tips the passage toward Three.",
+      "alternative": "Audio-checked within the draft-stage segment 64:10-66:00.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C124",
+      "claim": "Status: as of 2026-10 the 2023 workplace claims remain disputed.",
+      "passage": "As of October 2026, the workplace claims remain disputed.",
+      "class": "interpretation",
+      "source_ids": [
+        "S16",
+        "S17",
+        "S18"
+      ],
+      "inference": "Dated status of a sensitive dispute.",
+      "alternative": "Several actor claims were partly documented to Passionfruit; the studio denies them.",
+      "durability": "unresolved",
+      "review_trigger": "Re-check before keeping: any lawsuit, labor filing or union agreement involving Dhar Mann Studios actors; new on-record testimony; further retractions; Mann's full 2023-02-14 statement."
+    },
+    {
+      "id": "C125",
+      "claim": "Tubefilter reported that one protesting actor issued an official retraction; the studio told Passionfruit some protesters had publicly apologized and retracted.",
+      "passage": "Tubefilter reported that one actor issued an official retraction.",
+      "class": "third_party",
+      "source_ids": [
+        "S17",
+        "S18"
+      ],
+      "inference": "Gives the favorable half of the record in the dispute.",
+      "alternative": "Retractions do not settle the remaining claims.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C126",
+      "claim": "He told Shetty that because he had 'failed a lot more than everybody else', 'instead of hiding from that, I'm going to embrace that. I'm going to talk about that openly.'",
+      "passage": "he told Shetty that because he had \"failed a lot more than everybody else,\" he decided, \"instead of hiding from that, I'm going to embrace that.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "Direct support that he volunteers vivid failures as a brand choice.",
+      "alternative": "Edit stage: re-transcribed with large-v3-turbo (S03 57:36-58:02); matches the caption.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C127",
+      "claim": "Open thesis question: whether the restraint since 2015 is a changed motive or a sturdier image.",
+      "passage": "Public sources can't settle whether the restraint since 2015 is a changed motive or a sturdier image.",
+      "class": "interpretation",
+      "source_ids": [
+        "S05",
+        "S04",
+        "S01"
+      ],
+      "inference": "The most consequential unresolved motive question for the type read.",
+      "alternative": "Genuine change of motive versus a more durable image (the humble redeemed founder).",
+      "durability": "unresolved",
+      "review_trigger": "Reopen the type thesis on: on-record testimony from Laura Avila, Ruben Ortiz or former staff about his motives; a memoir or long independent profile; how he publicly handles a future setback (rebuttal with numbers versus relational repair); a step back from the studio for family."
+    },
+    {
+      "id": "C128",
+      "claim": "By October 2025 Dhar Mann Studios had a chief executive, Sean Atkins.",
+      "passage": "By October 2025 the studio had a chief executive, Sean Atkins.",
+      "class": "observed",
+      "source_ids": [
+        "S20"
+      ],
+      "inference": "He stepped out of day-to-day running before returning as the public face.",
+      "alternative": "Executive titles change.",
+      "durability": "time_sensitive",
+      "review_trigger": "Re-check the studio's CEO at each refresh."
+    },
+    {
+      "id": "C129",
+      "claim": "In January 2026 the NFL named him its 'Chief Kindness Officer' (and Creator of the Week) ahead of Super Bowl LX.",
+      "passage": "In January 2026 the NFL named him its \"Chief Kindness Officer.\"",
+      "class": "observed",
+      "source_ids": [
+        "S28"
+      ],
+      "inference": "Personal front-man role in 2026.",
+      "alternative": "Promotional appointment.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C130",
+      "claim": "In May 2026 he became host of a weekly interview podcast, What Happens Next (premiered May 18, 2026, on YouTube and podcast platforms).",
+      "passage": "In May he became host of a weekly interview podcast, _What Happens Next_.",
+      "class": "observed",
+      "source_ids": [
+        "S31",
+        "S25"
+      ],
+      "inference": "He is back on camera in a format where he is the product.",
+      "alternative": "The fables still run without him.",
+      "durability": "time_sensitive",
+      "review_trigger": "At each refresh, check whether What Happens Next is still running and he still hosts it; update the body, FAQ and occupation."
+    },
+    {
+      "id": "C131",
+      "claim": "FAQ: since May 2026 he has hosted a weekly interview podcast, What Happens Next.",
+      "passage": "Since May 2026 he has also hosted a weekly interview podcast, What Happens Next.",
+      "class": "observed",
+      "source_ids": [
+        "S31"
+      ],
+      "inference": "Supports the occupation entry.",
+      "alternative": "Status may change.",
+      "durability": "time_sensitive",
+      "review_trigger": "At each refresh, check whether he still hosts What Happens Next; update or remove the FAQ sentence and occupation entry."
+    },
+    {
+      "id": "C132",
+      "claim": "Interpretation: his 2026 return to on-camera, front-man roles fits a Three stepping back into the spotlight once it wins again; a founder with his reach also had business reasons to front the brand.",
+      "passage": "The return is the other half of the spotlight rule: a Three steps back in once the spotlight starts winning again.",
+      "class": "interpretation",
+      "source_ids": [
+        "S20",
+        "S28",
+        "S31",
+        "S23"
+      ],
+      "inference": "Tests the face-cut line against later behavior.",
+      "alternative": "Plain business incentives explain the return as well; the article says so.",
+      "durability": "unresolved",
+      "review_trigger": "If he steps back from on-camera roles, or appears in the fables again, revise this passage and the closing."
+    },
+    {
+      "id": "C133",
+      "claim": "Closing: when retention numbers said his face cost viewers he cut it; when the name could carry its own show he returned as host.",
+      "passage": "When the retention numbers said his face cost viewers, he cut the face. When the name could carry a show of its own, he came back as its host.",
+      "class": "interpretation",
+      "source_ids": [
+        "S05",
+        "S31"
+      ],
+      "inference": "Pays off the hook with dated past events, so it stays true if he appears on camera again.",
+      "alternative": "'Could carry a show of its own' is the author's reading.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C134",
+      "claim": "FAQ: a former fiancée called him 'honest and loving'.",
+      "passage": "a former fiancée called him \"honest and loving.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S15"
+      ],
+      "inference": "Two-case testimony in metadata.",
+      "alternative": "Gracious breakup statement; limited weight.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C135",
+      "claim": "FAQ: his account of serving others, including surprise gifts for team members and brand partners, ends with 'that's when I started winning big.'",
+      "passage": "including surprise gifts for team members and brand partners, ends with \"that's when I started winning big.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "Giving framed as a method that made him win.",
+      "alternative": "He also says the care is genuine (C120).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C136",
+      "claim": "FAQ: he says professional belonging came only once he 'reached a certain level of success objectively.'",
+      "passage": "he says professional belonging came only once he \"reached a certain level of success objectively.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "Keeps the 'professional' qualifier on the metadata surface.",
+      "alternative": "He adds that fatherhood matters more (C49).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C137",
+      "claim": "FAQ type answer: his own account describes chasing love and worth by being seen to succeed rather than by being needed.",
+      "passage": "his own account describes chasing love and worth by being seen to succeed rather than by being needed.",
+      "class": "interpretation",
+      "source_ids": [
+        "S05",
+        "S03"
+      ],
+      "inference": "Mirrors the body's type answer in the currency framing.",
+      "alternative": "Type 2 remains the closest rival at medium confidence.",
+      "durability": "stable",
+      "review_trigger": ""
+    }
+  ],
+  "type_hypothesis": {
+    "type": 3,
+    "confidence": "medium",
+    "for_claim_ids": [
+      "C06",
+      "C07",
+      "C02",
+      "C103",
+      "C54",
+      "C117",
+      "C118",
+      "C22",
+      "C59",
+      "C12",
+      "C14",
+      "C44",
+      "C64",
+      "C76",
+      "C119",
+      "C19",
+      "C20",
+      "C25",
+      "C71",
+      "C73",
+      "C122",
+      "C123",
+      "C48"
+    ],
+    "against": "The Three case leans on Mann's own retrospective narration, and narration is his product: the redemption arc is the brand, several lines recur almost verbatim across interviews (S03, S04), and his origin story shifts between tellings. Circumstance explains much of the surface: an immigrant family whose model of love and success was money and the taxi business (C02, C102); a public prosecution and family losses at 30 that would shame anyone, plus cultural expectations he names himself (C14, C63); business plans and platforms that reward publicity and packaging (C104, C19, C71). He ties money to love himself (C103), and the car bought friends by his account (C54). There is real counterevidence: he removed his own face from the fables when retention fell (C20); after 2015 he reports refusing to be flashy and repaying relatives first (C66), though the losses followed his pitch (C114); he credits his wife's morals for his change and now preaches quiet wealth (C67, C30). His warm, anticipatory service to his wife, team members and partners, and a mission of making viewers 'feel seen', read as Two (C21, C74, C75, C120), and the one intimate witness found him 'honest and loving' (C61). Independent testimony about his inner life is thin and polarized: a gracious ex-fiancée (C61), adversarial actors (C29, C81), a 2010 former aide (C08). The Ponzi episode is uncorroborated (C12).",
+    "alternative_type": 2,
+    "alternative_case": "Two explains him as a boy who learned love comes through giving: unseen at home, he bought classmates' lunches to be liked (C52) and chased money 'to be as loved as possible' (C103). The adult studio is an enterprise of making millions 'feel seen' (C75). He reads people's unspoken needs (his wife's phone charger, snacks and safety pins; overheard wishes turned into gifts; remembered children's names: C21, C74), credits his change to a loving partner (C67), repaid relatives before himself (C66), and the one intimate witness on record found him 'honest and loving' (C61). His big-house lesson is a provider's misjudgment of what his family needed (C122). On this reading the cars and Instagram of his twenties were a lonely young man buying affection, and the 2023 defensiveness was a Two's pride wounded by being called unkind (C83).",
+    "discriminator": "Not love versus success (he links the two himself, C103) but the currency: how he sought love and worth at costly choice points. A Two earns love by being needed; Mann's own account repeatedly seeks it by being seen to succeed. (1) The boy's money went to other people; the man's went into the image (C117): in 2007 he invented a rental business to keep the Lamborghini and 'the appearance that I was a lot more successful than I actually was' (C06), and in 2014 he leased a Ferrari and a Rolls-Royce for an Instagram following he ties to 'social acceptance' (C57, C59). The car bought friends (C54), but through display, not by meeting needs. (2) The economy-class story: shame at being seen ranking low and a coda measured in rank (C118). (3) His account of serving others is framed as the method that made him start 'winning big' with team members and brand partners (C76, C119), while he insists the care is real (C120). (4) Professional belonging came only after 'a certain level of success objectively' (C22), though fatherhood now matters more (C49). (5) When his daughter asked for time he pointed to a status object, and his correction is framed as 'what is success' (C78, C123). The pattern predates YouTube's incentives: the reality-show wish (2010, C07), with the business-publicity incentive conceded (C104), and the 2014 Instagram drive (C57, C59); it continues in packaging-first greenlighting (C71, C73). The face cut (C20) rules out attention for its own sake and is consistent with, not proof of, Three (C116); his 2026 return to front-man roles fits the same rule but also has business explanations (C132). Seven was tested: it fits the hedonic twenties and the breadth of ventures (C77), but his stated motive is attention and acceptance, and the collapse brought shame, not a hunt for novelty; the formula held 2018-2026 (C121). Eight fails on shame and audience-pleasing; Four on the deliberately universal, de-personalized product (C20, C33); Six on chronic over-leverage and risk.",
+    "unexplained": "Why a man so invested in image volunteers the Lamborghini rental and the Instagram 'addiction', and says he chose to 'embrace' his failures (C126), yet keeps the 2008-2013 record off his own timeline, never names the case in his 2026 long-form interviews, and gives a dates-only version of the fraud that does not explain the full-restitution order (C11, C87, C111, C112). Whether the post-2015 restraint and repayment (C66) is a real change of motive or a more durable image cannot be settled from public sources (C127); the $15.5 million mansion (C89) sits beside the quiet-wealth advice (C30, C88). His specific, time-costly care for his wife and others (C21, C74) is not fully explained by the Three read, and the article says so rather than assigning a wing. The childhood 'yelling and arguing and violence' he mentioned once (S03) is deliberately left out (single source, living parents)."
+  },
+  "profile_format": "standard"
+}

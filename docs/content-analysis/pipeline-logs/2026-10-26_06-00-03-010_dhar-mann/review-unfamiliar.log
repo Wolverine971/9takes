@@ -1,0 +1,20 @@
+I finished the unfamiliar-reader review and wrote it to `docs/content-analysis/pipeline-logs/2026-10-26_06-00-03-010_dhar-mann/review-unfamiliar.json`. It passes `reviewSchema`, the content and evidence hashes are copied from the request, and every quoted passage matches the draft word for word. I didn't touch any other file or publish anything, and I didn't read the other reviewers' files.
+
+**Verdict:** Read cold, the draft mostly works. The hook makes you curious, the type answer comes early and in plain language, and from the Lamborghini onward the story runs in order with clear stakes. A reader comes away with a specific idea: he kept his name and cut his own face from the videos, both to protect the "Dhar Mann" brand.
+
+**Findings (1 major, 7 minor):**
+- **Major, slow orientation:** the draft mentions "the early videos" and "the moral" about 250 words in. What the studio actually makes (scripted moral fables played by actors) doesn't appear until about word 390. A reader who searched "who is Dhar Mann" hits the name-and-face idea before knowing what the face was cut from.
+- **Minor:**
+  - **Property business:** it appears without introduction, and the weGrow store drops out of the story with no outcome.
+  - **2012–2015 timeline:** "the next fall" could mean autumn, "that year" has no year, and "limousines" come out of nowhere. The draft never makes clear that the Ferrari-and-Instagram years in LA overlapped his felony case and probation.
+  - **Recovery paragraph:** "three failures" isn't explained. The beauty influencer who co-built the makeup school is easy to confuse with Laura Avila, who is also called a beauty influencer in the FAQ.
+  - **Closing comparison:** the draft calls announcing deals before they're signed "an old habit," citing the 75 franchise stores he claimed in 2010. It never says what happened to them. A missing blank line also merges that sentence into the 2026 Digiday paragraph.
+  - **Actor protest:** it sits under an unrelated heading ("What the big house was for"), and the draft runs about 3,840 words against a 3,500 target.
+  - **"The idea was his":** in the Lilly Ghalichi engagement paragraph this is ambiguous, and the paragraph's purpose is unclear.
+  - **Description:** it says the name advice came after the plea and going broke at 30, but the body never says when he got it.
+
+I also protected five passages, including the kept-name/cut-face line, the plain-language Type 3 explanation and the closing callback.
+
+**Risk flag:** the review marks `sensitive_allegations: true`, because of the fraud plea, the unconfirmed Ponzi story and the disputed workplace claims. That agrees with the research stage, so the six-reviewer jury still applies. The similarity check found no reuse: the top match was 0.03, below the 0.04 trip line, and the only shared phrase, "keep score," is ordinary type vocabulary.
+
+**Limitation:** I checked clarity against the excerpts and dates in the evidence file and didn't reopen the underlying sources. The review says so.

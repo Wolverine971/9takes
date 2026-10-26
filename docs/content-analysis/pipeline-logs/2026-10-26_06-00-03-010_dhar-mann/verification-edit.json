@@ -1,0 +1,1177 @@
+{
+  "schema_version": 3,
+  "content_sha256": "83a95ae22d152cc1fa4c06600491069b17a4abb052c8656107b925cae739fa97",
+  "evidence_sha256": "e2c926521d96ea2b9bf7c5c1e8645ad0ac4e457fe72f25bac9a5db8c51ec9a9a",
+  "status": "pass",
+  "findings": [
+    {
+      "id": "verify-01",
+      "severity": "minor",
+      "passage": "By March 2011 the original store had closed and the partnership with Peterson had ended in lawsuits on both sides.",
+      "problem": "The cited source (Mother Jones, 2011-03-01, S07) reports that Peterson and his wife had filed lawsuits and that Mann 'plans to sue'. The countersuit appears only in the 2021 NYT profile (S01), with no date. As written, the sentence dates lawsuits on both sides to March 2011.",
+      "acceptance_test": "The sentence separates the dates, e.g. 'By March 2011 the original store had closed and Peterson had sued; Mann later countersued.' Alternatively, it cites a dated source for the countersuit."
+    },
+    {
+      "id": "verify-02",
+      "severity": "minor",
+      "passage": "though he said no contracts would be signed that week.",
+      "problem": "Digiday (S23) reports that the goal 'doesn't mean there will be $100 million in contracts signed before the week is out' and that 'he doesn't expect ink to be drying this week'. It also reports his claim that CMO pledges already exceed $100 million, which is the article's headline. 'No contracts would be signed' is stronger than what he said, and his pledge claim is left out.",
+      "acceptance_test": "The caveat matches the source, e.g. 'though he said he didn't expect the deals to be signed that week'. Optionally the sentence adds, attributed, his claim that pledges already exceeded the goal."
+    },
+    {
+      "id": "verify-03",
+      "severity": "minor",
+      "passage": "in my head was the key to all this attention I was getting.",
+      "problem": "Several direct quotes and one childhood detail have no claim entry of their own, though each sits inside an inventoried anecdote. The quotes are this one, 'So for the first time in my life, I saw what having all this attention felt like', 'to do whatever it took to build a large following on Instagram', 'My life really felt like a movie', 'was so black and white about everything', 'Sweetheart, you see this big house that we live in?', 'for a long time, honestly, I did think about changing my name', 'I definitely felt like a failure', the first half of Hunt's quote and 'Urban gardening megastore opens by airport'. The childhood detail is that he was 'bullied for his turban until his mother had his hair cut in fourth grade'. I checked every one against its source (S05 small.en plus medium.en, S03 captions, S04 medium.en, S06, S10) and all match, so this is a traceability gap, not an accuracy problem.",
+      "acceptance_test": "At the next refresh each listed quote and the turban/haircut detail gets its own claim with an exact passage, source ID and locator: S05 [6:51-8:21] for the haircut, S05 [15:30], [16:40], [31:51], [34:27] and [27:36], S03 [~1:07:00] and [~1:15:15], S04 [~65:20], S06 and S10."
+    }
+  ],
+  "research_tasks": [
+    "Optional, non-blocking: confirm the claimed expungement in Alameda County Superior Court records (C38); the article attributes it to Mann.",
+    "Optional, non-blocking: retrieve Mann's full 2023-02-14 Instagram statement (C82-C84); only Tubefilter's fragments have been read."
+  ],
+  "claim_checks": [
+    {
+      "claim_id": "C01",
+      "verdict": "supported",
+      "reason": "SF Chronicle 2012-05-18 (S09): 'a scion of one of the city's biggest taxi companies, Friendly Cab'; S05 [6:51-7:04] 'my family is Sikh'; NYT 2021 (S01): parents 'emigrated from India'; S05 [6:21] 'grew up in and around Oakland'. All reopened."
+    },
+    {
+      "claim_id": "C02",
+      "verdict": "supported",
+      "reason": "Matches S05 [9:43-9:56] verbatim in the research small.en transcript and in my own medium.en re-transcription of 9:30-10:25; S01 (2021) carries the same idea in different words."
+    },
+    {
+      "claim_id": "C04",
+      "verdict": "supported",
+      "reason": "Quoted words match the freshly downloaded S03 caption track at about [6:08]; recorded as his self-description."
+    },
+    {
+      "claim_id": "C05",
+      "verdict": "supported",
+      "reason": "S05 [15:16-15:30]: 'at 21 years old when I bought an orange Lamborghini... by doing mortgage refinancing... In Davis'; confirmed by my medium.en run; S06 independently mentions his 'orange Lamborghini Gallardo' in 2010."
+    },
+    {
+      "claim_id": "C06",
+      "verdict": "supported",
+      "reason": "Blockquote matches S05 [16:40-16:59] word for word in both the small.en transcript and my medium.en re-transcription. Context checked: the 2007 crash, business closed, payment 'really expensive'. Correctly labeled as a 2024 look back."
+    },
+    {
+      "claim_id": "C07",
+      "verdict": "supported",
+      "reason": "Mother Jones 2010-12-03 (S06) para. on the Hempire promo: '“I personally have always wanted a reality show ’cause I just think that my life is somewhat appealing to watch,” says Mann.' Same paragraph carries the publicity/hedge context the article now reports."
+    },
+    {
+      "claim_id": "C08",
+      "verdict": "supported",
+      "reason": "Bay Citizen via NBC Bay Area 2012-09-06 (S10), final paragraphs: Hunt's quote matches verbatim, including the preceding caveat the article keeps."
+    },
+    {
+      "claim_id": "C10",
+      "verdict": "supported",
+      "reason": "FAQ facts match S08 (plea 'yesterday' on 2013-12-11, five felony counts) and S11 (sentenced Friday [2014-01-31] to five years' probation, $10,000 fine, full restitution $44,399.51)."
+    },
+    {
+      "claim_id": "C11",
+      "verdict": "supported",
+      "reason": "Blockquote matches S05 [25:24-25:45] verbatim in small.en and my medium.en run. The article sets it against S09/S11 rather than adopting it."
+    },
+    {
+      "claim_id": "C12",
+      "verdict": "qualified",
+      "reason": "Self-report from S05 [28:42-36:51] (operator named there; correctly not named here). My own web search on 2026-10-26 also found no public record of the scheme, so the dated 'no public record' statement holds; it remains uncorroborated and is correctly marked unresolved with a re-search trigger."
+    },
+    {
+      "claim_id": "C14",
+      "verdict": "supported",
+      "reason": "S05 [36:53-37:13]: 'sleeping on a couch... I had less than $600 in my bank account'; Raz frames it as 2014, 'around 30'. S04 [~58:10] (my medium.en) has '$600 my bank account'."
+    },
+    {
+      "claim_id": "C15",
+      "verdict": "supported",
+      "reason": "S05 [45:48-45:56]: 'within 24 hours of our website going live, we brought in six figures of revenue'. Self-report, attributed via 'he says' context."
+    },
+    {
+      "claim_id": "C16",
+      "verdict": "qualified",
+      "reason": "S05 [46:57-47:04] 'Laura, who is now my wife'; S01 (2021) calls her his fiancée and co-runner of LiveGlam; S03 'my wife'. No marriage record found in a fresh search; 'his wife' rests on his repeated self-description, which is adequate for this use."
+    },
+    {
+      "claim_id": "C17",
+      "verdict": "supported",
+      "reason": "Archived tweet 2021-05-29 (S26): 'my 37th bday- it's also the 3-year anniversary of Dhar Mann Studios' fixes 2018-05-29 and the 1984 birth year; S05 and S01 give Facebook as the platform."
+    },
+    {
+      "claim_id": "C18",
+      "verdict": "supported",
+      "reason": "S05 [58:41-60:39]: the stay-at-home-wife sketch he planned as his last; posted 2018-08-30, about three months after the first video."
+    },
+    {
+      "claim_id": "C19",
+      "verdict": "supported",
+      "reason": "My medium.en transcript of S04 45:55-47:10: 'if you can't figure out a way to make it an interesting thumbnail... you'll have to kill the idea'. Fair paraphrase."
+    },
+    {
+      "claim_id": "C20",
+      "verdict": "supported",
+      "reason": "S05 [73:18-74:24] (small.en and my medium.en): 'I cut myself out from the videos... So I literally had to fire myself.' Correctly limited to the fables and marked time_sensitive with a trigger."
+    },
+    {
+      "claim_id": "C21",
+      "verdict": "supported",
+      "reason": "S03 caption track [~1:10:30-1:11:30]: phone charger at the hotel; 'snacks... Advil... safety pins'. Paraphrase faithful."
+    },
+    {
+      "claim_id": "C22",
+      "verdict": "supported",
+      "reason": "S03 captions [~8:20-8:40], verbatim; context shows he limits it to 'the professional side of things', which the article keeps (C49)."
+    },
+    {
+      "claim_id": "C23",
+      "verdict": "supported",
+      "reason": "Matches S04 in my medium.en transcript of 64:10-67:40 verbatim ('...that that made every decision. Okay, so I skipped out on the date nights...')."
+    },
+    {
+      "claim_id": "C25",
+      "verdict": "supported",
+      "reason": "Archived About page 2021-12-20 (S13) is headed 'My Life is like a Movie.'; S05 [34:27] 'My life really felt like a movie.'"
+    },
+    {
+      "claim_id": "C26",
+      "verdict": "supported",
+      "reason": "Forbes Top Creators 2026 (S21): '#2. Dhar Mann... Earnings: $65 M'; methodology: gross earnings March 2025-March 2026. Correctly time_sensitive."
+    },
+    {
+      "claim_id": "C28",
+      "verdict": "qualified",
+      "reason": "Digiday 2026-10-06 (S23): first chief creator officer; he and the organizers want $100M in creator-brand business within 12 months. But the source says the goal 'doesn't mean there will be $100 million in contracts signed before the week is out' and he 'doesn't expect ink to be drying this week'; it also reports his claim that CMO pledges already exceed $100M. 'He said no contracts would be signed that week' slightly overstates the caveat (minor finding V-02)."
+    },
+    {
+      "claim_id": "C29",
+      "verdict": "supported",
+      "reason": "CGMagazine 2023-02-10 (S16): Borden, 'there’s a culture at the studio of, if you talk, you’re out'. Attributed and marked disputed/unresolved."
+    },
+    {
+      "claim_id": "C30",
+      "verdict": "supported",
+      "reason": "My medium.en transcript of S04 63:00-64:20: 'Stop trying to look rich before you actually are rich.' Verbatim."
+    },
+    {
+      "claim_id": "C33",
+      "verdict": "supported",
+      "reason": "S05 [~1:02:14], verbatim in small.en transcript; consistent with S02's description of the format."
+    },
+    {
+      "claim_id": "C35",
+      "verdict": "supported",
+      "reason": "S06: 'When the PR shop... handed him a press release that read “Urban gardening megastore opens by airport,” Mann fired the firm and rewrote the release himself: “Marijuana Superstore Opens in East Oakland.”' Verbatim."
+    },
+    {
+      "claim_id": "C36",
+      "verdict": "supported",
+      "reason": "S09: 'charged Thursday with 13 felonies'; counts of grand theft, attempted grand theft and forgery."
+    },
+    {
+      "claim_id": "C38",
+      "verdict": "qualified",
+      "reason": "S01: 'In an email, he wrote that the conviction was later expunged.' S05 [27:01-27:14] has the judge offering expungement after probation. Court record not checked; correctly attributed and unresolved with a court-records trigger."
+    },
+    {
+      "claim_id": "C39",
+      "verdict": "supported",
+      "reason": "S08 (2013-12-11): 'Yesterday, Mann pleaded “no contest” to five felony counts'. The legal gloss is accurate in substance."
+    },
+    {
+      "claim_id": "C40",
+      "verdict": "supported",
+      "reason": "S05 [27:36-27:52] verbatim; Raz's question was about the reputational hit, as the article says."
+    },
+    {
+      "claim_id": "C42",
+      "verdict": "supported",
+      "reason": "S09: investigator Frank Moschetti's court filing: paid contractors much less, redeposited the checks; 'The city paid Mann more than $44,000 based on fraudulent paperwork'. Attributed as an allegation."
+    },
+    {
+      "claim_id": "C43",
+      "verdict": "supported",
+      "reason": "S09: Runfola 'conceded that Mann “took shortcuts”... but said the charges were overblown'; 'Mann's own spending exceeded the city's matching grants'."
+    },
+    {
+      "claim_id": "C44",
+      "verdict": "supported",
+      "reason": "S03 captions [~1:15:10-1:15:21] verbatim, in the 'worst advice' answer."
+    },
+    {
+      "claim_id": "C45",
+      "verdict": "supported",
+      "reason": "S05 [~1:14:29]: Raz, 'Dhar Mann Studios doesn't actually need Dhar Mann.' Verbatim; correctly attributed to the host."
+    },
+    {
+      "claim_id": "C46",
+      "verdict": "supported",
+      "reason": "S26 (37th birthday on 2021-05-29) and S29 infobox (born May 29, 1984). Year only, as the standard asks."
+    },
+    {
+      "claim_id": "C47",
+      "verdict": "supported",
+      "reason": "NYT Magazine 2021-08-04 (S02) names the video 'RICH Kid WON’T TIP Pizza Boy, He Lives to Regret It'."
+    },
+    {
+      "claim_id": "C48",
+      "verdict": "qualified",
+      "reason": "Author's type summary, labeled as his account; supported by C06, C57-C59, C103, C118 and the 2010 record. Interpretation, not fact."
+    },
+    {
+      "claim_id": "C49",
+      "verdict": "supported",
+      "reason": "S03 captions [~9:40-10:15]: 'the more important one... especially as a father... I have my daughters'. Two daughters per S13 and S05 [47:04]."
+    },
+    {
+      "claim_id": "C50",
+      "verdict": "supported",
+      "reason": "S01: 'His parents worked long hours running the taxi company they founded.'"
+    },
+    {
+      "claim_id": "C52",
+      "verdict": "supported",
+      "reason": "S05 [9:35-9:43] verbatim (small.en and medium.en)."
+    },
+    {
+      "claim_id": "C54",
+      "verdict": "supported",
+      "reason": "S05 [15:41-15:48] verbatim in both transcriptions; the relational half ('Everyone wanted to be my friend') is now included."
+    },
+    {
+      "claim_id": "C55",
+      "verdict": "supported",
+      "reason": "S05 [20:40-20:48]: the tomato press release 'just felt a little hypocritical to me'. Verbatim."
+    },
+    {
+      "claim_id": "C56",
+      "verdict": "supported",
+      "reason": "S05 [24:28-25:16]: 'I always wanted to do things quickly', multiple renovation projects at once, reimbursements 'one or two years'."
+    },
+    {
+      "claim_id": "C57",
+      "verdict": "supported",
+      "reason": "S05 [31:24-31:33] verbatim; LA move dated by Raz 'around 2013, 2014' and Mann 'around 2014'."
+    },
+    {
+      "claim_id": "C58",
+      "verdict": "supported",
+      "reason": "S05 [~33:04] verbatim in small.en transcript."
+    },
+    {
+      "claim_id": "C59",
+      "verdict": "supported",
+      "reason": "S05 [~33:11-33:25] verbatim in small.en transcript; S12 independently reports his Lamborghini photos on social media."
+    },
+    {
+      "claim_id": "C60",
+      "verdict": "supported",
+      "reason": "S05 [34:55-35:37]: last payment 'bounced', he 'goes dark', 'his entire business was actually a Ponzi scheme'. Attributed as his account."
+    },
+    {
+      "claim_id": "C61",
+      "verdict": "supported",
+      "reason": "E! News 2014-12-19 (S15): 'it was so nice to be with someone as honest and loving as he was.' The article truncates the preceding clause about a previous partner without changing the meaning."
+    },
+    {
+      "claim_id": "C63",
+      "verdict": "supported",
+      "reason": "My medium.en transcript of S04 2:50-3:50: 'For me, as a 30 year old Indian man, I was looking at it as like, my family is ashamed of me, my culture, I'm letting down'. Verbatim apart from comma placement."
+    },
+    {
+      "claim_id": "C64",
+      "verdict": "supported",
+      "reason": "S03 captions [~1:05:01] verbatim."
+    },
+    {
+      "claim_id": "C65",
+      "verdict": "supported",
+      "reason": "S05 [41:32-42:00]: economy, government, Nick; 'I was the common denominator'. The three failures are named as he named them."
+    },
+    {
+      "claim_id": "C66",
+      "verdict": "supported",
+      "reason": "S05 [46:05-46:12] verbatim; 'until I paid back all of my family members'."
+    },
+    {
+      "claim_id": "C67",
+      "verdict": "supported",
+      "reason": "S03 captions [~1:06:52] verbatim, with 'so black and white about everything' immediately after."
+    },
+    {
+      "claim_id": "C68",
+      "verdict": "supported",
+      "reason": "S03 captions [~58:26]: 'I'm going to get extra love, you know, I'm going to get prioritized in the algorithm'. The article quotes the first half; the omitted half carries the same reach motive, so no distortion."
+    },
+    {
+      "claim_id": "C69",
+      "verdict": "supported",
+      "reason": "S05 [3:12] and S03 [~58:40]: it never broke / didn't break 100 views."
+    },
+    {
+      "claim_id": "C70",
+      "verdict": "supported",
+      "reason": "S05 [54:26-54:32]: first comment 'from a longtime friend who said, who do you think you are? Tony Robbins'; also S03."
+    },
+    {
+      "claim_id": "C71",
+      "verdict": "supported",
+      "reason": "My medium.en transcript of S04 45:55-47:10, verbatim."
+    },
+    {
+      "claim_id": "C73",
+      "verdict": "qualified",
+      "reason": "Author's interpretation of C19/C71, explicitly framed as 'the order of operations' after conceding thumbnail testing is universal."
+    },
+    {
+      "claim_id": "C74",
+      "verdict": "supported",
+      "reason": "S03 captions [~1:12:30-1:13:02]: tickets, guitar, the kindergartner; 'That makes somebody feel seen'."
+    },
+    {
+      "claim_id": "C75",
+      "verdict": "supported",
+      "reason": "Variety 2026-05-11 (S31), verbatim."
+    },
+    {
+      "claim_id": "C76",
+      "verdict": "supported",
+      "reason": "S03 captions [~1:12:03-1:12:15] verbatim, placed as his bridge into the business examples."
+    },
+    {
+      "claim_id": "C77",
+      "verdict": "supported",
+      "reason": "S10: 'Mann is known for his work hard, party hard ethic', BMW M5 and frequent Las Vegas trips."
+    },
+    {
+      "claim_id": "C78",
+      "verdict": "supported",
+      "reason": "My medium.en and large-v3-turbo transcripts of S04 (~65:30): 'I don't want to have a big house anymore'."
+    },
+    {
+      "claim_id": "C80",
+      "verdict": "supported",
+      "reason": "S05 [1:18:51-1:19:56]: panic attacks from Christmas 2022; 'going into 2023'; 'Laura took over all of human resources and finance'."
+    },
+    {
+      "claim_id": "C81",
+      "verdict": "supported",
+      "reason": "Passionfruit 2023-03-09 (S18): after an HR meeting 'Mann wasn't present'; 'Mann continued to be a no-show due to “scheduling conflicts”'. Attributed to the actors."
+    },
+    {
+      "claim_id": "C82",
+      "verdict": "supported",
+      "reason": "Tubefilter 2023-02-14 (S17): desire to meet him 'was “never communicated,” though he eventually did connect with the aggrieved actors' (the second half is now reported in C84)."
+    },
+    {
+      "claim_id": "C83",
+      "verdict": "supported",
+      "reason": "S17: '100% not true', $33-$44 per hour for speaking roles, 'rife with “misinformation.”' Verbatim."
+    },
+    {
+      "claim_id": "C84",
+      "verdict": "supported",
+      "reason": "S17 quoting his Instagram statement: 'there’s always opportunity for growth... today in my meeting with actors we came up with ways to improve things...'."
+    },
+    {
+      "claim_id": "C86",
+      "verdict": "supported",
+      "reason": "S13: '2014 - I felt lost, depressed and was struggling to find purpose.'"
+    },
+    {
+      "claim_id": "C87",
+      "verdict": "supported",
+      "reason": "S13 timeline runs 2014-2021 with no weGrow or case; S03 full caption track has no mention of the case (searched fraud/grant/court/probation/plea/charged). S04: see the S04 source check for the full-episode search."
+    },
+    {
+      "claim_id": "C88",
+      "verdict": "supported",
+      "reason": "My medium.en transcript of S04 63:00-64:20, verbatim."
+    },
+    {
+      "claim_id": "C89",
+      "verdict": "supported",
+      "reason": "S01: 'a Calabasas mansion, which Mr. Mann bought from Khloé Kardashian for $15.5 million in 2020'."
+    },
+    {
+      "claim_id": "C94",
+      "verdict": "supported",
+      "reason": "Description summarizes S03 [~1:15:10-1:16:05]: someone told him to change his name; 'the only thing associated with my name was failure'. No timing asserted."
+    },
+    {
+      "claim_id": "C95",
+      "verdict": "supported",
+      "reason": "S21 methodology: gross earnings between March 2025 and March 2026; $65M. Time_sensitive with a June trigger."
+    },
+    {
+      "claim_id": "C96",
+      "verdict": "supported",
+      "reason": "East Bay Express 2015 via Wayback raw capture (S12): City Attorney's civil suit settlement for $37,500."
+    },
+    {
+      "claim_id": "C97",
+      "verdict": "qualified",
+      "reason": "Met through the online makeup classes around 2015 (S05 [42:26-47:12], S13 '2015 - I met my dream girl Laura'). 'Wife' rests on his own repeated usage (S05, S03, S04); S01 called her fiancée in 2021 and no marriage record was found. Adequate as attributed context."
+    },
+    {
+      "claim_id": "C98",
+      "verdict": "supported",
+      "reason": "LA Times 2025 (S19): 'Burbank-based Dhar Mann Studios'; S24 Creator City in Los Angeles; YouTube/Facebook distribution per S01/S20. 'Los Angeles-area' survives the planned move; time_sensitive with trigger."
+    },
+    {
+      "claim_id": "C99",
+      "verdict": "supported",
+      "reason": "S03 captions [~1:15:28-1:16:05] verbatim; both strands of his reason are reported."
+    },
+    {
+      "claim_id": "C100",
+      "verdict": "qualified",
+      "reason": "Labeled author's reading ('Read together'), tied to his own 'positivity' line. Interpretation."
+    },
+    {
+      "claim_id": "C101",
+      "verdict": "supported",
+      "reason": "S05 [~1:13:20-1:15:20]: 'when I started leaning into YouTube... I cut myself out'; then 'our YouTube exploded... 2021 finishing as the number two creator'. The 'before 2021' bound is supported."
+    },
+    {
+      "claim_id": "C102",
+      "verdict": "supported",
+      "reason": "S05 [~47:35] verbatim in small.en transcript; immigrant-striving alternative stated in the next sentence."
+    },
+    {
+      "claim_id": "C103",
+      "verdict": "supported",
+      "reason": "S05 [9:56-10:02] verbatim in both transcriptions: 'at this stage in my life, I was only concerned with how could I make as much money as possible in order to be as quote unquote, as loved as possible'."
+    },
+    {
+      "claim_id": "C104",
+      "verdict": "supported",
+      "reason": "S06, verbatim; Peterson's 'It's a hedge' means a fallback if the businesses fail, which fits 'business logic'."
+    },
+    {
+      "claim_id": "C105",
+      "verdict": "supported",
+      "reason": "S06: 'He’d create “the first honest hydro store”'."
+    },
+    {
+      "claim_id": "C106",
+      "verdict": "supported",
+      "reason": "S06: 'Just hours after the store opened its doors, Mann’s wholesale hydroponics supplier called to say he would no longer sell to weGrow'; S05 [23:04] 'doomed from the start' (medium.en confirms)."
+    },
+    {
+      "claim_id": "C107",
+      "verdict": "qualified",
+      "reason": "S07 (2011-03-01): the original store 'closed last week'; Peterson and his wife 'filed lawsuits against Mann'; Mann 'plans to sue'. S01 reports Mann later countersued and won a settlement. 'By March 2011... ended in lawsuits on both sides' compresses the timing: at March 2011 only Peterson's side had sued (minor finding V-01)."
+    },
+    {
+      "claim_id": "C108",
+      "verdict": "supported",
+      "reason": "S09: 'helped host a fall 2010 fundraiser at his parents' Dublin home for now-Gov. Jerry Brown. The two were pictured on his Facebook page drinking champagne.'"
+    },
+    {
+      "claim_id": "C109",
+      "verdict": "qualified",
+      "reason": "Author's inference; it now concedes the publicity incentive (S06) before weighting the personal wish."
+    },
+    {
+      "claim_id": "C110",
+      "verdict": "supported",
+      "reason": "S09: MannEdge Properties; programs 'that paid as much as half the cost of renovations of commercial buildings in certain areas'; Berumen 'warehouse where Mann later opened a hydroponics store'."
+    },
+    {
+      "claim_id": "C111",
+      "verdict": "supported",
+      "reason": "S11: 'ordered to pay full restitution - $44,399.51'; S09: city paid 'more than $44,000'."
+    },
+    {
+      "claim_id": "C112",
+      "verdict": "qualified",
+      "reason": "Author's inference from C11 v. C111; reasonable and stated narrowly."
+    },
+    {
+      "claim_id": "C113",
+      "verdict": "supported",
+      "reason": "S05 ('around 2014') and S11 (sentence of probation in January 2014)."
+    },
+    {
+      "claim_id": "C114",
+      "verdict": "supported",
+      "reason": "S05 [34:07-34:20] and [35:56-36:15] verbatim in small.en; the 'invested based on me' line was audio-checked by the edit stage, and my medium.en run of 34:05-36:25 is listed in the S05 source check."
+    },
+    {
+      "claim_id": "C115",
+      "verdict": "qualified",
+      "reason": "Author's inference built on C114; labeled 'only he has described it'."
+    },
+    {
+      "claim_id": "C116",
+      "verdict": "qualified",
+      "reason": "Author's caveat applying the professional-incentive alternative to the face cut. Interpretation."
+    },
+    {
+      "claim_id": "C117",
+      "verdict": "qualified",
+      "reason": "Author's interpretation contrasting C52 with C06/C57; supported by those sources."
+    },
+    {
+      "claim_id": "C118",
+      "verdict": "supported",
+      "reason": "S03 captions [~1:07:45-1:09:30]: brand paid economy, her friends in first class; 'I felt like I was nothing and I was just humiliated'; Laura: 'I don't care if we're sitting in economy'; 'A lot of those people... riding in first class are now the ones riding in economy.' Told as a tribute to Laura; the article's 'coda about rank' is a fair reading because he explains it by who 'managed their money well'."
+    },
+    {
+      "claim_id": "C119",
+      "verdict": "supported",
+      "reason": "S03 captions [~1:12:15-1:12:20] verbatim."
+    },
+    {
+      "claim_id": "C120",
+      "verdict": "supported",
+      "reason": "S03 captions [~1:13:05-1:13:15]: 'for some sort of business purpose and that you truly care about them'."
+    },
+    {
+      "claim_id": "C121",
+      "verdict": "qualified",
+      "reason": "Interpretation: S22 (Disney, 'short-form moral dramas'), S30 (Fox scripted verticals) and S31 show the scripted moral format carried into 2026 deals. Time_sensitive with a trigger."
+    },
+    {
+      "claim_id": "C122",
+      "verdict": "supported",
+      "reason": "My large-v3-turbo re-transcription of S04 ~65:35-66:00 matches the article word for word ('...to help make everyone else's lives better or dreams come true was actually not even the thing that they really wanted'). This resolves the caption-only flag in research_tasks."
+    },
+    {
+      "claim_id": "C123",
+      "verdict": "supported",
+      "reason": "My medium.en transcript of S04 (~64:40): 'What is success if I can't even spend time with my own family?'"
+    },
+    {
+      "claim_id": "C124",
+      "verdict": "qualified",
+      "reason": "Dated status claim. Sources S16-S18 show unresolved, contested allegations; no later resolution was found in this verification. Unresolved with a concrete trigger."
+    },
+    {
+      "claim_id": "C125",
+      "verdict": "supported",
+      "reason": "S17: 'One actor even had to issue an official retraction after making outlandish claims about Mann.' S18 has the studio claiming some protesters retracted."
+    },
+    {
+      "claim_id": "C126",
+      "verdict": "supported",
+      "reason": "S03 captions [~57:44-57:57] verbatim."
+    },
+    {
+      "claim_id": "C127",
+      "verdict": "qualified",
+      "reason": "Labeled open question; S04 'build wealth quietly' and S01 mansion sit on both sides. Unresolved with thesis-level triggers."
+    },
+    {
+      "claim_id": "C128",
+      "verdict": "supported",
+      "reason": "TheWrap 2025-10-02 (S20): 'the CEO' Sean Atkins of Dhar Mann Studios."
+    },
+    {
+      "claim_id": "C129",
+      "verdict": "supported",
+      "reason": "THR 2026-01-29 (S28): 'Mann is being named the league’s “Chief Kindness Officer”'."
+    },
+    {
+      "claim_id": "C130",
+      "verdict": "supported",
+      "reason": "S31: weekly podcast 'hosted by Dhar Mann', premiering May 18, 2026; S25 metadata shows an August 2026 episode on the 'What Happens Next - The Dhar Mann Podcast' channel."
+    },
+    {
+      "claim_id": "C131",
+      "verdict": "supported",
+      "reason": "S31 as above. Time_sensitive with trigger."
+    },
+    {
+      "claim_id": "C132",
+      "verdict": "qualified",
+      "reason": "Interpretation tested against dated facts (S20, S28, S31, S23) and paired with the business-reason alternative in the next sentence."
+    },
+    {
+      "claim_id": "C133",
+      "verdict": "qualified",
+      "reason": "Closing interpretation built on dated past events (S05 retention reason; S31 host role). It stays true if he appears on camera again."
+    },
+    {
+      "claim_id": "C134",
+      "verdict": "supported",
+      "reason": "S15 as in C61."
+    },
+    {
+      "claim_id": "C135",
+      "verdict": "supported",
+      "reason": "S03 captions [~1:12:03-1:12:30]: 'winning big' then team members and brand partners, artist tickets."
+    },
+    {
+      "claim_id": "C136",
+      "verdict": "supported",
+      "reason": "S03 captions, verbatim; FAQ keeps 'professional'."
+    },
+    {
+      "claim_id": "C137",
+      "verdict": "qualified",
+      "reason": "FAQ mirror of the type answer; interpretation supported by C06, C57-C59, C103."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "S01",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Wayback raw capture (web/2021id_) of nytimes.com 2021-08-19, read in full: $7 arrival, long hours at the taxi company, Mother Jones cover, Peterson suit and Mann countersuit, plea, '$37,500' (the civil figure, merged), 'In an email, he wrote that the conviction was later expunged', $15.5M Calabasas mansion from Khloé Kardashian in 2020, LiveGlam and Laura Avila 'now his fiancée'."
+    },
+    {
+      "source_id": "S02",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Wayback raw capture of the NYT Magazine essay, 2021-08-04: the 'RICH Kid WON’T TIP Pizza Boy' title and description of the format."
+    },
+    {
+      "source_id": "S03",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh caption track downloaded this stage (yt-dlp android client), 80 min, video uploaded 2026-05-20 on the Jay Shetty Podcast channel. Checked: belonging [8:00-10:20], embrace failure / first video [57:30-59:10], tombstone [~1:05:01], Laura gray area, economy-class story, phone, gifts [1:06:30-1:13:40], worst advice and reason [1:14:50-1:16:20]. Whole track searched: no mention of the fraud case. I also downloaded audio for 1:07:40-1:09:35 (economy class) and 1:11:55-1:13:20 (gifts, 'business purpose') and transcribed it with Whisper medium.en; the quoted words match."
+    },
+    {
+      "source_id": "S04",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Video metadata (BigDeal by Codie Sanchez, uploaded 2026-07-29, 1:12:02). Captions were rate-limited (HTTP 429), so I downloaded audio sections and transcribed them myself with Whisper medium.en: 2:50-3:50 (family ashamed), 45:55-47:10 (packaging, thumbnail), 57:45-58:40 ($600), 63:00-64:20 (look rich, bigger target), 64:10-67:40 (sacrifice, big house, lesson). The lesson tail at ~65:35-66:00 was re-done with large-v3-turbo and matches the article word for word. I also downloaded the full audio (mweb client) and transcribed all 72 minutes with Whisper small.en to test C87. The episode never mentions the fraud case, a plea, the court, probation, weGrow, marijuana or Oakland. Asked at about 41:45 where he 'failed early on in business', he answers in general terms (regretting a co-founder, an industry, a storefront) without naming the case."
+    },
+    {
+      "source_id": "S05",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Episode audio from the How I Built This RSS feed (item 'Dhar Mann Studios: Dhar Mann', pubDate 2024-04-22; local mp3). Read the research-stage small.en transcript across every cited span and independently re-transcribed 11 spans with Whisper medium.en: 9:30-10:25, 15:20-17:10, 22:55-23:40, 25:10-25:50, 27:35-28:05, 31:15-33:35, 34:05-36:25, 41:15-42:00, 45:40-46:20, 47:25-47:55, 1:13:40-1:14:50. All quoted words agree."
+    },
+    {
+      "source_id": "S06",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live page, Mother Jones 2010-12-03 (Jan/Feb 2011 issue), Josh Harkinson: early-October party, 'fauxhawked 26-year-old', Hempire pilot, 'when your business plan depends on publicity', 'I personally have always wanted a reality show', Peterson 'It’s a hedge', 'first honest hydro store', PR release story, supplier cut-off 'just hours after' opening, January 2010 opening."
+    },
+    {
+      "source_id": "S07",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live page, Mother Jones 2011-03-01: original store 'closed last week'; Peterson and wife filed lawsuits; Mann's spokesman calls it retaliation; Mann 'plans to sue'. Context matches, though the article's 'lawsuits on both sides' by March 2011 compresses timing (V-01)."
+    },
+    {
+      "source_id": "S08",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live page, Mother Jones 2013-12-11: 'Yesterday, Mann pleaded “no contest” to five felony counts'; about $44,000 in redevelopment funds; redeposited checks per court documents."
+    },
+    {
+      "source_id": "S09",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live page, SF Chronicle 2012-05-18: 13 felonies; Runfola's 'took shortcuts', overblown, 12 projects, spending exceeded grants; MannEdge Properties; up to half of renovation costs; Moschetti filing; 'more than $44,000 based on fraudulent paperwork'; Berumen warehouse; Jerry Brown fundraiser and champagne photo; Friendly Cab 'one of the city's biggest'."
+    },
+    {
+      "source_id": "S10",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live page, Bay Citizen via NBC Bay Area 2012-09-06: 'work hard, party hard ethic', Las Vegas trips, Mann did not respond, Hunt (De La Fuente aide who worked for weGrow in 2010) caveat and quote."
+    },
+    {
+      "source_id": "S11",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live page, SF Chronicle 2014-02-01 (sentenced Friday, 2014-01-31): five years' probation, $10,000 fine, 'full restitution - $44,399.51', pleaded no contest to five of 13 counts, 'pocketed the rest' per prosecutors."
+    },
+    {
+      "source_id": "S12",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live page returns 403; read via Wayback raw capture (web/2016id_): City Attorney Parker's settlement for $37,500, Lamborghini-photos line, 'major source of campaign cash', hosted fundraisers for Jerry Brown."
+    },
+    {
+      "source_id": "S13",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Wayback raw capture 2021-12-20 of dharmann.com/about: heading 'My Life is like a Movie.'; timeline from 2014 ('I felt lost, depressed...') to 2021; no weGrow or case; 'At 30 years old... going through a difficult breakup'."
+    },
+    {
+      "source_id": "S15",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live page, E! News 2014-12-19: Ghalichi's Instagram statement ending the engagement, 'honest and loving', request to refrain from 'commenting speculations'; no reason given."
+    },
+    {
+      "source_id": "S16",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live page, CGMagazine 2023-02-10: Borden's 'culture at the studio of, if you talk, you’re out'; Laughlin on being refused a meeting."
+    },
+    {
+      "source_id": "S17",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live page, Tubefilter 2023-02-14: his Feb. 14 Instagram response: 'never communicated' (plus 'he eventually did connect'), '100% not true', $33-$44/hour, 'misinformation', one actor's official retraction, 'opportunity for growth', meeting and listed fixes."
+    },
+    {
+      "source_id": "S18",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live page, Passionfruit 2023-03-09: actors say Mann was absent from the HR meeting and kept being a no-show; studio statement (<1% of actors, some retracted)."
+    },
+    {
+      "source_id": "S19",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live page, LA Times 2025-04-23: 'Burbank-based Dhar Mann Studios', ~200 staff, began on YouTube in 2018."
+    },
+    {
+      "source_id": "S20",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live page, TheWrap 2025-10-02: Dhar Mann Studios CEO Sean Atkins at TheGrill."
+    },
+    {
+      "source_id": "S21",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live page, Forbes Australia Top Creators 2026 (published 2026-06-23/24): #2 Dhar Mann, $65M; methodology March 2025-March 2026; NFL 'Chief Kindness Officer'; Fox vertical dramas."
+    },
+    {
+      "source_id": "S22",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live page, THR 2026-08-21: Disney deal, studio 'known for popular, short-form moral dramas', 20 episodes."
+    },
+    {
+      "source_id": "S23",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live page, Digiday 2026-10-06: AWNY's first chief creator officer; joint $100M goal within 12 months; caveat that it doesn't mean $100M in contracts signed that week and he doesn't expect ink drying; he says pledges already exceed $100M."
+    },
+    {
+      "source_id": "S24",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live page, Tubefilter 2026-10-07: Creator City, a Los Angeles four-acre campus, to open Super Bowl weekend February 2027."
+    },
+    {
+      "source_id": "S25",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Video metadata only (oEmbed plus yt-dlp): 'Jason Wilson: ... | What Happens Next', channel 'What Happens Next - The Dhar Mann Podcast', uploaded 2026-08-10, 48:48. Captions were rate-limited (HTTP 429), so the host self-disclosure at 3:08-4:41 was not re-read; that passage is not used. Checked only for what C130 cites it for: the show exists with him as host."
+    },
+    {
+      "source_id": "S26",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Wayback raw capture of the 2021-05-29 tweet: 'my 37th bday- it’s also the 3-year anniversary of Dhar Mann Studios'."
+    },
+    {
+      "source_id": "S28",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live page, THR 2026-01-29: NFL names Mann 'Chief Kindness Officer' and 'Creator of the Week'; his statement."
+    },
+    {
+      "source_id": "S29",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live Wikipedia page: born May 29, 1984; parents emigrated from India; Friendly Cab. Used only for the birth year, which S26 independently fixes."
+    },
+    {
+      "source_id": "S30",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live page, Deadline 2026-01-27: Fox Entertainment scripted vertical-video deal with Dhar Mann Studios, initial slate of 40."
+    },
+    {
+      "source_id": "S31",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live page, Variety 2026-05-11: 'What Happens Next', hosted by Dhar Mann, premiering May 18, weekly; 'hoping to make even one person feel seen and inspired'."
+    }
+  ],
+  "decision_checks": [
+    {
+      "finding_id": "subject-01",
+      "accepted": true,
+      "reason": "Accepted. 'Old habit' and 'ahead of the signatures' are gone (no match in the candidate). The AWNY sentence states the joint 12-month goal and keeps his caveat, though the caveat is slightly overstated against Digiday; logged separately as minor V-02."
+    },
+    {
+      "finding_id": "subject-02",
+      "accepted": true,
+      "reason": "Accepted. L311 reports, attributed to Tubefilter, that he met actors and listed resulting changes, plus the retraction. L313 is dated and rests on the full response. Checked against S17."
+    },
+    {
+      "finding_id": "subject-03",
+      "accepted": true,
+      "reason": "Accepted. The 'main event' sentence and the 'ordinary lessons' gloss are gone; L227 reports both halves of his lesson without ranking them (verified against S05 27:36-27:52)."
+    },
+    {
+      "finding_id": "subject-04",
+      "accepted": true,
+      "reason": "Accepted. L301 now reads 'he told himself it made every decision okay', matching S04 (my medium.en transcript)."
+    },
+    {
+      "finding_id": "subject-05",
+      "accepted": true,
+      "reason": "Accepted. The breakup has moved out of the collapse sequence into the Type 2 section (L275), with no causal link to his finances; 'honest and loving' kept and checked against S15."
+    },
+    {
+      "finding_id": "subject-06",
+      "accepted": true,
+      "reason": "Accepted. L223 adds the defense's claim that Mann's own spending exceeded the matching grants (S09), and L225 gives the restitution order (S11)."
+    },
+    {
+      "finding_id": "fan-01",
+      "accepted": true,
+      "reason": "Accepted. The new 'Back in the frame' section (L323-L327) gives dated, linked facts (CEO Oct 2025, NFL Jan 2026, podcast May 2026, AWNY Oct 2026), all verified. The spotlight line is tested against the return, and the closing (L329) uses past events that stay true. Body and occupation metadata agree."
+    },
+    {
+      "finding_id": "fan-02",
+      "accepted": true,
+      "reason": "Accepted. Same deletion as subject-01; no pattern claim remains."
+    },
+    {
+      "finding_id": "fan-03",
+      "accepted": true,
+      "reason": "Accepted. L211 gives the supplier cut-off (S06), his 'doomed from the start' (S05 23:04, medium.en confirms) and the 2011 closure and lawsuits (S07). Peterson's allegations are left out. L251 names the three failures as he did (S05 41:32-41:50). The lawsuit timing compression is logged as minor V-01 and does not undo the fix."
+    },
+    {
+      "finding_id": "fan-04",
+      "accepted": true,
+      "reason": "Accepted. L167 adds his own father-to-scale line (S05 ~47:35, verified) and acknowledges the immigrant-striving alternative. No new causal childhood claim. Leaving out the $6/$7 arrival figure because S01 and S03 disagree is reasonable."
+    },
+    {
+      "finding_id": "fan-05",
+      "accepted": true,
+      "reason": "Accepted. L281 uses the economy-class story, quoted accurately against the S03 captions I downloaded (1:07:45-1:09:30) and framed as his account; C118 records it."
+    },
+    {
+      "finding_id": "fan-06",
+      "accepted": true,
+      "reason": "Accepted. 'First' is dropped (L309). The reason for not adding the PewDiePie sketch (an unopened new source) is recorded, which the acceptance test allows."
+    },
+    {
+      "finding_id": "fan-07",
+      "accepted": true,
+      "reason": "Accepted. L213 gives a sourced, dated tie (2010 Jerry Brown fundraiser, champagne photo; S09) before Hunt, and keeps Hunt's caveat. Brooks is not mentioned, so her response is not needed. Nothing implies wrongdoing the sources don't allege."
+    },
+    {
+      "finding_id": "critic-F1",
+      "accepted": true,
+      "reason": "Accepted. Neutral heading 'The grant case'. L223-L225 set his dates-only account against the investigator's figure, full restitution and the defense claim, and say his account leaves the order unexplained. L317-L319 say he volunteers the vivid failures and give the court-record one the narrowest telling, with the 'embrace that' line (verified, S03 ~57:44)."
+    },
+    {
+      "finding_id": "critic-F2",
+      "accepted": true,
+      "reason": "Accepted. L205 concedes the publicity business logic and Peterson's 'hedge' (S06, verified); L207 reports the 2010 'first honest hydro store'; L215 no longer implies there was no incentive. L265 now weights 'the 2007 car to the 2014 Instagram'."
+    },
+    {
+      "finding_id": "critic-F3",
+      "accepted": true,
+      "reason": "Accepted. L155 gives his stated reason with both strands (verified, S03 ~1:15:28-1:16:05). L165 labels the reading ('Read together') and ties it to 'positivity'. The face cut is placed in the fables (L159) and bounded before 2021. The 2026 return is integrated, and the description no longer dates the advice."
+    },
+    {
+      "finding_id": "critic-F4",
+      "accepted": true,
+      "reason": "Accepted. L239 says by his account he told relatives and they invested on his word, quoting 'invested based on me' (S05 34:07-36:15). L253 says the repayment settled a debt as much as it broke the pattern."
+    },
+    {
+      "finding_id": "critic-F5",
+      "accepted": true,
+      "reason": "Accepted. The comparison is cut and there is no paragraph-merge left in the final section."
+    },
+    {
+      "finding_id": "critic-F6",
+      "accepted": true,
+      "reason": "Accepted. 'Served no relationship' is gone. L191 quotes 'Everyone wanted to be my friend at that point' and L189 'as loved as possible' (both verified). L279 argues the display-versus-being-needed currency. L303-L305 report the 'make everyone else's lives better' lesson (verified with large-v3-turbo) and concede a Two can claim it. L275 weighs Ghalichi as limited, independent Two-leaning testimony."
+    },
+    {
+      "finding_id": "critic-F7",
+      "accepted": true,
+      "reason": "Accepted. L267 applies the same operator caveat and says the cut rules out attention for its own sake rather than proving Three. The return section adds the business-reason alternative (L327). The spotlight rule still predicts both exit and return, but it is now framed as consistent with Three and the alternatives sit beside it."
+    },
+    {
+      "finding_id": "critic-F8",
+      "accepted": true,
+      "reason": "Accepted. The Type 2 FAQ now says 'professional belonging came only once he “reached a certain level of success objectively.”'"
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "accepted": true,
+      "reason": "Accepted. L157, about 130 words in and before the 'fire myself' quote, says what the studio makes and gives a sample title. L159 says he appeared at the end of each fable. No later duplicate."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "accepted": true,
+      "reason": "Accepted. L219 introduces MannEdge Properties and the half-cost reimbursement, and links one cited warehouse to the later hydroponics store (S09). The weGrow outcome is at L211. Nothing from Peterson is stated as fact."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "accepted": true,
+      "reason": "Accepted. 'Next collapse' (L231); LA dated 'around 2014, the year his five-year probation began' (L233); limousines replaced by 'rental cars', which S05 30:51 supports."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "accepted": true,
+      "reason": "Accepted. L251 names the three failures, calls the partner 'a popular makeup artist' distinct from Laura (introduced at L255), and dates the recovery 'around 2015'."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "accepted": true,
+      "reason": "Accepted. The 2010 comparison is cut, which also removes the rendering bug."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "accepted": true,
+      "reason": "Accepted. The protest has its own heading and a first line saying what it tests (L307-L309). It is tightened to the allegations, his response and a dated status. The family section ends on its own beat."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "accepted": true,
+      "reason": "Accepted. The April Fools' paragraph is cut. Ghalichi appears once, with the 2014 date and her quote, as the intimate witness."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "accepted": true,
+      "reason": "Accepted. The description asserts no timing and is 165 characters (counted)."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "accepted": true,
+      "reason": "Accepted. 'As loved as possible' (L189) and 'Everyone wanted to be my friend' (L191) are quoted. L271 and L279 recast the discriminator as currency, using 2007 and 2014 display choices. FAQ 1 and the Type 2 FAQ use the same framing, and L271 says both types want love and worth."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "accepted": true,
+      "reason": "Accepted. L285-L287 make 'winning big' the bridge into examples placed with 'team members... brand partners', and keep 'that you truly care about them' and 'business purpose'. The FAQ is updated. I checked the S03 span against the caption track; it matches."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "accepted": true,
+      "reason": "Accepted. Same evidence as critic-F3. The closing (L329) ties the face cut to the retention numbers he gave."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "accepted": true,
+      "reason": "Accepted. The wing clause is cut; L289 says the Three read does not fully explain the care. No wing appears in the FAQs or metadata."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "accepted": true,
+      "reason": "Accepted. The Type 2 section no longer uses family shame or the ruined name as a discriminator; it uses 2007, 2014, the economy-class story, giving framed as winning, and the big house."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "accepted": true,
+      "reason": "Accepted. L173 is hedged to a tendency ('the pull is to') and tied to the 2007 Lamborghini. The grant section gives his speed and cash-flow explanation, and no sentence uses the plea as type evidence."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "accepted": true,
+      "reason": "Accepted. L301 follows his framing. L305 rests the claim on two observables from S04 (a request for time answered with the big house; 'what is success...'), both verified, and concedes the Two reading."
+    },
+    {
+      "finding_id": "enneagram-08",
+      "accepted": true,
+      "reason": "Accepted. L291 acknowledges the breadth of ventures and rests the rebuttal on stated motive and shame at the fall. The formula point is dated (2018-2026) and inventoried as C121 with a trigger."
+    },
+    {
+      "finding_id": "future-01",
+      "accepted": true,
+      "reason": "Accepted. The face cut is bounded before 2021 (L159, C101). The 2026 return is dated and linked (L325). C20 is time_sensitive with a trigger. The occupation is backed by C130/C131. The closing stays true if he appears on camera again."
+    },
+    {
+      "finding_id": "future-02",
+      "accepted": true,
+      "reason": "Accepted. L313 is dated 'As of October 2026'. C29, C81, C82, C83 and C124 are unresolved with concrete triggers (lawsuits, labor filings, union agreements, testimony, retrieval of the full statement). C85 was removed with its sentence."
+    },
+    {
+      "finding_id": "future-03",
+      "accepted": true,
+      "reason": "Accepted. L291 is anchored '2018 through 2026', and C121 is an interpretation claim with the requested trigger."
+    },
+    {
+      "finding_id": "future-04",
+      "accepted": true,
+      "reason": "Accepted. The habit claim is cut; C28 is unresolved with an outcome trigger."
+    },
+    {
+      "finding_id": "future-05",
+      "accepted": true,
+      "reason": "Accepted. The FAQ says 'a Los Angeles-area studio'. C98 is time_sensitive with the February 2027 trigger. The present-tense Forbes headcount and views clause is gone from the body."
+    },
+    {
+      "finding_id": "future-06",
+      "accepted": true,
+      "reason": "Accepted. The fraud FAQ says 'He told The New York Times in 2021...'. C38 is unresolved with a court-records trigger. The Ponzi sentence is dated, and C12 is unresolved with a re-search trigger."
+    },
+    {
+      "finding_id": "future-07",
+      "accepted": true,
+      "reason": "Accepted. 'In 2021, the About page...' (L237), 'he added' (L179), and 'what steers him now' is gone. I found no relative anchor that counts from the wrong year."
+    },
+    {
+      "finding_id": "future-08",
+      "accepted": true,
+      "reason": "Accepted. C127 is an unresolved interpretation with thesis-level triggers (Avila/Ortiz/staff testimony, a memoir or independent profile, handling of a future setback, a step back for family); C132 adds another."
+    }
+  ],
+  "prior_blocker_checks": [],
+  "protected_checks": [
+    {
+      "passage": "No public record of the scheme was found, so it is told here as his account, and the man is not named.",
+      "preserved": true,
+      "reason": "L231 keeps the restraint word for word apart from the added date 'As of October 2026': still marked as his account, and the private operator is still unnamed. My own search found no record."
+    },
+    {
+      "passage": "On December 10, 2013, he pleaded no contest to five counts, a conviction without an admission of the underlying facts.",
+      "preserved": true,
+      "reason": "Verbatim at L225 and verified against S08."
+    },
+    {
+      "passage": "A felony plea and relatives' losses would weigh on anyone, and that sense of where a man should be at 30 is partly cultural. That is why the choices he made when things were going well carry more weight in this read than the fall.",
+      "preserved": true,
+      "reason": "Verbatim at L247, and the discriminator list now follows it by not using the fall."
+    },
+    {
+      "passage": "Public sources can't settle whether the restraint since 2015 is a changed motive or a sturdier image.",
+      "preserved": true,
+      "reason": "Verbatim at L321, now inventoried as C127."
+    },
+    {
+      "passage": "None of that makes the care fake. It is specific and it costs him time, and a Three with a strong Two wing would account for much of it.",
+      "preserved": true,
+      "reason": "L289 keeps the defense of his warmth ('None of that makes the care fake. It is specific and it costs him time'). The untested wing clause gave way to 'the Three read does not fully explain it', a change enneagram-04 required. The contribution, fairness without flattery, is intact and arguably stronger."
+    },
+    {
+      "passage": "The worst advice Dhar Mann says he ever got was to change his name.",
+      "preserved": true,
+      "reason": "Verbatim opening line (L149), verified against S03."
+    },
+    {
+      "passage": "So he kept the name and cut the face. Both choices protect what an audience thinks of when it hears \"Dhar Mann.\"",
+      "preserved": true,
+      "reason": "L165 keeps 'So he kept the name and cut the face.' The motive half is now labeled the article's reading and tied to his own 'positivity' line, so the pairing insight survives with honest attribution. The final section extends it."
+    },
+    {
+      "passage": "\"My life really felt like a movie,\" he told Raz. Seven years later, the About page on his own website was headed \"My Life is like a Movie.\"",
+      "preserved": true,
+      "reason": "L237 keeps the verified pairing; only the misleading relative date became 'In 2021'."
+    },
+    {
+      "passage": "Gray area was the phrase Hunt had used about him in 2012.",
+      "preserved": true,
+      "reason": "Verbatim at L255; the echo checks out against S10 and the S03 captions."
+    },
+    {
+      "passage": "When providing and being present collided, providing won, and he called it love.",
+      "preserved": true,
+      "reason": "L301 keeps the compression but replaces the word he never used with his own framing, 'he told himself it made every decision okay' (S04). Correcting a false attribution while keeping the observation counts as preservation."
+    },
+    {
+      "passage": "That is the plainest statement in the record of what he was protecting, and it came from him. It is also a 2024 look back, and redemption stories reward a vivid \"before.\"",
+      "preserved": true,
+      "reason": "Verbatim at L197."
+    },
+    {
+      "passage": "Seven years later, the About page on his own website was headed \"My Life is like a Movie.\"",
+      "preserved": true,
+      "reason": "Kept at L237 as 'In 2021, the About page on his own website was headed \"My Life is like a Movie.\"' Same verified detail; only the ambiguous relative date changed."
+    },
+    {
+      "passage": "What the testing adds is the order of operations: in his studio, the package decides whether the story gets made.",
+      "preserved": true,
+      "reason": "Verbatim at L265."
+    },
+    {
+      "passage": "Even the case for quiet runs through how other people see you.",
+      "preserved": true,
+      "reason": "Verbatim at L321, next to the verified 'bigger target' line (S04)."
+    },
+    {
+      "passage": "In a [Type 3](/enneagram-corner/enneagram-type-3), shame turns into a question asked of every room: what counts as winning here? They find the answer, turn themselves into it and keep score. If the picture and the facts start to separate, the picture usually gets rescued first, and the bill arrives later.",
+      "preserved": true,
+      "reason": "L173 keeps the plain-language explainer ('a question asked of every room... keep score'). The last sentence is now a hedged tendency tied to the 2007 car. Distinctive contribution retained."
+    },
+    {
+      "passage": "That is the record from eight years before his first video, when no algorithm was paying him to be watched. The wish to be watched was already there, and he said it out loud.",
+      "preserved": true,
+      "reason": "L215 keeps the dated-contemporaneous move and the punchline 'The wish to be watched was already there, and he said it out loud.' The 'no algorithm' clause now concedes the publicity incentive the 2010 source reports, a necessary accuracy fix."
+    },
+    {
+      "passage": "He volunteers the worst of his old self. The Lamborghini rental, the Instagram \"addiction\" and the grant \"shortcuts\" all come from his own mouth on national podcasts. That is an odd habit for a man guarding an image, unless the redemption story is the image.",
+      "preserved": true,
+      "reason": "L317-L319 keep the paradox and 'unless the redemption story is the image'. 'The worst' was inaccurate for the fraud, so it became 'the vivid failures', with the narrowest-telling point added. Removing an inaccurate detail while keeping the insight counts as preservation."
+    },
+    {
+      "passage": "The worst advice he ever got was to change his name. He kept it, put it on stories where the good person always wins, \"unlike in the real world,\" and then took his face out of them, so the name could keep winning without him in the frame.",
+      "preserved": true,
+      "reason": "L329 keeps the callback and the 'unlike in the real world' rule. The contradicted 'without him in the frame' gave way to two dated past choices, which keeps the ending's shape and makes it durable."
+    },
+    {
+      "passage": "A Three gives up the spotlight when the spotlight stops winning.",
+      "preserved": true,
+      "reason": "Verbatim at L267, now after the operator caveat and tested against the return at L327."
+    },
+    {
+      "passage": "That is the plainest statement in the record of what he was protecting, and it came from him. It is also a 2024 look back, and redemption stories reward a vivid \"before.\" So the question is whether a reporter who met him at the time saw the same man.",
+      "preserved": true,
+      "reason": "Verbatim at L197, including the turn into the 2010 test."
+    },
+    {
+      "passage": "Both can be true: the release was candid, and it was also the louder headline.",
+      "preserved": true,
+      "reason": "Verbatim at L209; S06's 2010 'first honest hydro store' now backs the candid half."
+    },
+    {
+      "passage": "Every creator at his scale tests thumbnails, so none of this alone says much about his personality, which is why the 2010 and 2014 record carries more weight.",
+      "preserved": true,
+      "reason": "L265 keeps the period weighting with 'the older record, from the 2007 car to the 2014 Instagram', because the 2010 publicity also served a business plan. The logic is retained."
+    }
+  ],
+  "coverage_complete": true,
+  "metadata_consistent": true,
+  "alternative_type_addressed": true,
+  "five_year_test_passed": true,
+  "scores": {
+    "evidence": {
+      "score": 8.6,
+      "reason": "Every quotation I could check matched its source. That covers the 2010-2015 news articles on the live pages or Wayback, S05 on two Whisper models, S03 on captions plus audio, and S04 on my own audio transcription. The central self-report (the 2007 rental to keep 'the appearance') is tested against independent contemporaneous reporting: the 2010 reality-show wish, Hunt in 2012, the 2015 Lamborghini-photos remark. Inference is marked in place ('Read together', 'in this read', 'only he has described it', 'Public sources can't settle'). The fraud section separates his dates-only account from the investigator's allegation, the restitution order and the defense's reply. Holding it below 9: two small wording overstatements (verify-01 lawsuit timing, verify-02 the AWNY caveat), a few quotes and one childhood detail missing from the claim inventory (verify-03), and independent testimony about his inner life that is thin, which the article admits.",
+      "passage": "In that version the work was done and paid for, and only the dates were wrong. Prosecutors described more. In May 2012 they charged him with 13 felonies, including grand theft and forgery. An investigator's court filing said he paid contractors much less than he claimed and redeposited the cashier's checks he had shown the city, which paid him more than $44,000 on that paperwork."
+    },
+    "enneagram": {
+      "score": 8.4,
+      "reason": "The Three read rests on repeated costly choices across contexts and years: keeping a Lamborghini through a rental business after his company collapsed (2007), the volunteered wish to be watched (2010), leased cars for an Instagram following tied to 'social acceptance' (2014), and packaging-first greenlighting. It is tested against a seriously argued Two using a specific discriminator, the currency of love (being seen to succeed vs. being needed). The article grants the Two its best evidence (anticipatory care for his wife, gifts, Ghalichi's testimony) and says the care is not fully explained. Seven gets its own test. Limits: most discriminating evidence is his own retrospective narration, which the article flags; reading the economy-class story's coda as 'about rank' is interpretive; and the spotlight rule counts both leaving and returning as Three, though business reasons now sit beside it.",
+      "passage": "He never separated love from success; he chased money to be \"as loved as possible.\" What changed was how he tried to earn it. The boy's money went to other people; the man's went into the image."
+    },
+    "originality": {
+      "score": 8.8,
+      "reason": "The organizing insight (kept the name, cut the face, then came back when the name could carry a show) belongs to this subject and is built from two verified choices. The details are surprising and checkable: renting out the Lamborghini to keep the appearance, the 26-year-old's 'my life is somewhat appealing to watch', a 2021 About page headed 'My Life is like a Movie', Hunt's 2012 'gray area' echoed by his own 2026 line, and 'the package decides whether the story gets made'. One contradiction survives the type argument: he volunteers vivid failures yet gives the court-record failure the narrowest telling. Little type boilerplate; the Type 3 explainer paragraph is the most generic part.",
+      "passage": "So he kept the name and cut the face. Read together, both choices protect what an audience thinks of when it hears \"Dhar Mann\": the \"positivity\" he says he wanted the name to carry."
+    },
+    "writing": {
+      "score": 8.2,
+      "reason": "Sections move forward instead of restating: hook, origin, 2007 car, 2010 contemporaneous test, court case, 2014 collapse, recovery and system, Two test, family cost, workplace test, contradictions, 2026 return. Pacing varies between blockquotes and short verdict lines, and author prose avoids em dashes. Weaknesses: at about 3,950 words it runs over the 2,000-3,500 target. 'The package decides' packs repayment, Laura, the first video, the viral sketch and packaging into one section. Some hedging chains are effortful ('No algorithm was paying him... though his business plan rewarded it. No business plan needed...'). The spotlight rule is stated twice.",
+      "passage": "That is the record from eight years before his first video. No algorithm was paying him to be watched, though his business plan rewarded it. No business plan needed the line he volunteered about his life being worth watching. The wish to be watched was already there, and he said it out loud."
+    },
+    "durability": {
+      "score": 8.7,
+      "reason": "The core argument rests on dated past events (2007, 2010, 2013-2015, 2018). Removing the 2026 material leaves it intact, and the closing ends on two completed past choices that stay true if he appears on camera again. Changing facts carry absolute dates and review triggers: Forbes, the podcast, the CEO, AWNY, the actors' dispute ('As of October 2026'), the expungement, the Ponzi search, the Creator City move. Thesis-level triggers exist (C127, C132). The 'Back in the frame' section is 2026-heavy and will need updating, and a few present-tense lines ('The fables still run without him') depend on tracked status.",
+      "passage": "The worst advice he ever got was to change his name. He kept it and put it on stories where the good person always wins, \"unlike in the real world.\" When the retention numbers said his face cost viewers, he cut the face. When the name could carry a show of its own, he came back as its host."
+    },
+    "hook": {
+      "score": 9.0,
+      "reason": "A specific, sourced, counterintuitive opening, checked against the S03 audio and captions. Within three short paragraphs it is set against the public record behind the name, and the article pays it off in the name/face pairing and again in the closing callback.",
+      "passage": "The worst advice Dhar Mann says he ever got was to change his name."
+    },
+    "discoverability": {
+      "score": 8.5,
+      "reason": "meta_title (55 characters) and the description (165 characters) are accurate and don't overstate. There is one clear type H2 followed by a plain answer under 60 words that names the core emotion, the confidence and the rival. Five substantive FAQs match real search intent (type, why not Two, who is, fraud conviction, wife) and agree with the body: Forbes window, the sentence figures kept apart from the civil settlement, expungement attributed with a date. Internal links go to the Type 3, 2 and 7 pages and two published profiles, and every suggestion resolves to a published page. Minor gaps: only two people links in the body, and the 'wife' FAQ rests on his own usage, with no marriage record found.",
+      "passage": "Dhar Mann's personality type is Enneagram Type 3, the Achiever. Threes are in the heart triad, where the core emotion is shame, and they cope by becoming what success looks like to the people watching. Mann's own account describes chasing love and worth by being seen to succeed, before YouTube and after it."
+    }
+  }
+}

@@ -1,0 +1,28 @@
+Error: Reached max turns (60)
+[runner] Turn limit reached; resuming session f8f95ed4-83e8-41bb-962b-f25635cbe8bb to write outputs
+I finished the edit stage for Dhar Mann and wrote all three outputs. Nothing was published, and no inputs or other repo files were changed.
+
+**What's in the run folder**
+- **`edit.md`** (3,949 words, still unpublished, type still 3): it passes the draft checker. The draft's 3,837 words grew past the 4,500 cap once the fixes went in, so I cut it back down.
+- **`evidence-edit.json`**: 117 claims. It passes the evidence validator, and every passage matches the article word for word.
+- **`resolution-edit.json`**: all 45 reviewer findings are marked fixed, and all 22 passages the reviewers asked to protect are listed (9 kept as is, 13 changed with a reason). There were no inherited blockers.
+
+**Main changes readers will notice**
+- **"Old habit" comparison cut:** five reviewers flagged the line comparing his 2010 franchise claims to his 2026 deal pledges. No source shows the 2010 contracts were false, so it's gone.
+- **Ending rewritten:** the old ending said he stays out of frame. In 2026 he became the NFL's "Chief Kindness Officer," hosts his own weekly podcast, and the studio has a separate CEO. A new final section covers this, and the last line now ends on two past choices that stay true if he keeps appearing on camera.
+- **Fraud section is fuller and fairer:**
+  - His account (only the dates were wrong) now sits next to the court's "full restitution" order.
+  - His lawyer's answer, that Mann spent more than the grants, is added.
+  - Relatives invested on his word. In his own telling, that makes the later repayment partly settling a debt, not only a change of character.
+- **Type 3 vs Type 2 argument:** he links money and love himself ("as loved as possible"), so the case now turns on how he chased love: by being seen to succeed, not by being needed. A new story backs this. He felt "humiliated" walking past first class, and his punchline is that those passengers now fly economy.
+- **Kept his own reasons:** he says he kept his name for "people out there just like me." The story of his gifts to people now sits in the business setting he gave it ("team members… brand partners").
+
+**Checks:** every new quote I took from the interviews matched a second machine transcription of the audio.
+
+**Still open (recorded in the evidence file):**
+- **Expungement:** not yet confirmed in Alameda County court records; the article only says he told the Times.
+- **Ponzi scheme:** no public record found; the article tells it as his account and doesn't name the man.
+- **2023 actor protest:** his full February 2023 statement hasn't been found.
+- **Human listen:** someone should listen to the quoted timestamps before publishing. The end of the "big house" quote from the Codie Sanchez interview has only been checked against captions.
+
+The Enneagram reviewer flagged the typing as contested, so I set that flag in the evidence file. That's honest at medium confidence. All six reviewers already covered it, so it shouldn't trigger a new review round.

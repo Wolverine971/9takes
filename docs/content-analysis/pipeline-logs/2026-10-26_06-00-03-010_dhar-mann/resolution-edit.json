@@ -1,0 +1,343 @@
+{
+  "schema_version": 3,
+  "decisions": [
+    {
+      "finding_id": "subject-01",
+      "action": "fixed",
+      "reason": "Deleted the 'old habit' sentence and the 2010 franchise comparison (no opened source shows the 2010 contracts were false; Mother Jones 2011 reports a first franchise opened). The AWNY sentence now states a joint goal with the event's organizers over 12 months and keeps his own caveat that no contracts would be signed that week (Digiday, S23). C93 removed; C28 re-scoped."
+    },
+    {
+      "finding_id": "subject-02",
+      "action": "fixed",
+      "reason": "The protest passage now says, attributed to Tubefilter and his statement, that he did meet with actors and listed changes that came out of that meeting, and that Tubefilter reported one actor issued an official retraction (C84, C125). 'As of October 2026, the workplace claims remain disputed' stays, and the closing inference rests on the full response (rebuttal, meeting, fixes)."
+    },
+    {
+      "finding_id": "subject-03",
+      "action": "fixed",
+      "reason": "Cut the 'main event' sentence and then the whole 'ordinary lessons' gloss. The fraud section now reports his two-part lesson without ranking reputation above doing things the right way."
+    },
+    {
+      "finding_id": "subject-04",
+      "action": "fixed",
+      "reason": "Replaced 'he called it love' with his own framing: 'he told himself it made every decision okay' (S04 64:16-64:48)."
+    },
+    {
+      "finding_id": "subject-05",
+      "action": "fixed",
+      "reason": "The breakup no longer sits between the Ponzi collapse and the couch. Ghalichi's statement moved to the Type 2 section as independent testimony, with no causal link to his finances; her 'honest and loving' line is kept (C61)."
+    },
+    {
+      "finding_id": "subject-06",
+      "action": "fixed",
+      "reason": "Added the defense's substantive answer, attributed: Mann's own spending exceeded the city's matching grants (S09), alongside the full-restitution order (S11)."
+    },
+    {
+      "finding_id": "fan-01",
+      "action": "fixed",
+      "reason": "Added a dated final section, 'Back in the frame': CEO Sean Atkins by October 2025 (S20), the NFL's 'Chief Kindness Officer' in January 2026 (S28), host of What Happens Next from May 2026 (S31), and AWNY 'Chief Creator Officer' in October 2026 (S23). The spotlight line is tested against this return, and the closing now says he came back as a host. The occupation metadata is supported in the body and the FAQ (C130, C131)."
+    },
+    {
+      "finding_id": "fan-02",
+      "action": "fixed",
+      "reason": "Same fix as subject-01: 'ahead of the signatures' and 'old habit' are deleted and no pattern claim remains."
+    },
+    {
+      "finding_id": "fan-03",
+      "action": "fixed",
+      "reason": "The weGrow section now gives the outcome: Mother Jones's report that his supplier cut him off within hours, his 2024 'doomed from the start' (S05, both transcriptions agree), and the 2011 store closure and lawsuits on both sides (S07, S01). Peterson's specific allegations are left out. The three failures are named as he named them: real estate, marijuana and the investment."
+    },
+    {
+      "finding_id": "fan-04",
+      "action": "fixed",
+      "reason": "Added his own link between his father's rise and his urge to scale ('seeing my dad go from one taxi cab...', S05, audio-checked), with the immigrant-striving explanation acknowledged in the next sentence. I omitted the $6/$7 arrival figure because S01 and S03 disagree on it."
+    },
+    {
+      "finding_id": "fan-05",
+      "action": "fixed",
+      "reason": "The Type 2 section now uses the economy-class story, re-transcribed against the audio (S03 67:50-69:50, large-v3-turbo matched the captions) and framed as his account, including Laura's reassurance and his rank-based coda (C118)."
+    },
+    {
+      "finding_id": "fan-06",
+      "action": "fixed",
+      "reason": "Dropped 'first' from the protest framing; the section now opens 'A studio that sells kindness gets judged on how it treats people.' I did not add the 2021 PewDiePie reply sketch: it would need a new source that was never opened in this record (Sportskeeda, and the original video), and the meme reception does not separate the types better than the evidence already used."
+    },
+    {
+      "finding_id": "fan-07",
+      "action": "fixed",
+      "reason": "Before Hunt's quote, the article now gives a sourced, dated tie: he helped host a 2010 fundraiser for Jerry Brown and posted a photo of them drinking champagne (S09). Hunt's caveat stays. I did not add the Brooks item, so her response is not needed; nothing implies wrongdoing."
+    },
+    {
+      "finding_id": "critic-F1",
+      "action": "fixed",
+      "reason": "'The grant case' (a neutral heading) now says his 2024 account has the work done and paid with only the dates wrong. It sets that against the investigator's allegation that the city paid more than $44,000 on fraudulent paperwork, the 'full restitution' of $44,399.51, and the defense's spending claim (S09, S11). It also says his dates-only account leaves that order unexplained. 'What the type leaves out' now says he volunteers the vivid failures and that the court-record failure gets the narrowest telling. It adds his S03 'embrace that' line (audio-checked) and keeps the 'unless the redemption story is the image' point."
+    },
+    {
+      "finding_id": "critic-F2",
+      "action": "fixed",
+      "reason": "The weGrow section concedes the business logic: Mother Jones's 'when your business plan depends on publicity' line and Peterson's 'a hedge' (S06). It notes that Mother Jones reported his 'first honest hydro store' plan in 2010. The closing paragraph now says his business plan rewarded publicity, so the pre-YouTube weight rests on the personal wish no plan required. The thumbnails sentence now points to the 2007 car through the 2014 Instagram."
+    },
+    {
+      "finding_id": "critic-F3",
+      "action": "fixed",
+      "reason": "The paragraph after the hook gives his stated reason, both halves: 'people out there just like me' and 'my name is associated with positivity' (S03, audio-checked). 'Both choices protect' is now labeled as the article's reading. The face cut is placed in the fables and bounded before the 2021 breakout. The 2026 return is integrated, and the closing is revised. The description no longer dates the name advice."
+    },
+    {
+      "finding_id": "critic-F4",
+      "action": "fixed",
+      "reason": "The Ponzi passage now says, by his account, that he told relatives about the investment, that his cousins, brother and parents invested, and that they 'all invested based on me saying this was a good investment' (S05, audio-checked). The repayment sentence says the repayment settled a debt as much as it broke the old pattern."
+    },
+    {
+      "finding_id": "critic-F5",
+      "action": "fixed",
+      "reason": "Cut the 'old habit' sentence and the 2010 franchise comparison. The Digiday paragraph is now a correctly separated paragraph in the final section."
+    },
+    {
+      "finding_id": "critic-F6",
+      "action": "fixed",
+      "reason": "'Served no relationship' is gone. The Type 2 section now argues the currency: love sought by display versus by being needed. It quotes 'Everyone wanted to be my friend at that point' and 'as loved as possible', and it weighs Ghalichi's statement as independent Two-leaning testimony with its limits. In the big-house passage I dropped 'he called it love' and the 'when the studio took off' timing, quoted his 'make everyone else's lives better or dreams come true' lesson, and engaged with it as a point a Two reading can claim."
+    },
+    {
+      "finding_id": "critic-F7",
+      "action": "fixed",
+      "reason": "The face-cut paragraph now applies the same professional-incentive caveat ('a call any operator reading retention data might make') and presents the choice as ruling out attention for its own sake, not as proof of Three. The reputation gloss was cut (see subject-03)."
+    },
+    {
+      "finding_id": "critic-F8",
+      "action": "fixed",
+      "reason": "The Type 2 FAQ now says 'professional belonging came only once he reached a certain level of success objectively.'"
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "action": "fixed",
+      "reason": "Moved the plain description of the studio (scripted moral fables performed by actors, with a sample title) into the fifth paragraph, about 140 words in and before the 'fire myself' quote. Removed the later duplicate."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "action": "fixed",
+      "reason": "'The grant case' opens by explaining the property business: MannEdge Properties, renovating commercial buildings where the city reimbursed up to half the cost. It notes that one project prosecutors cited was the warehouse where he later opened a hydroponics store (S09). The weGrow outcome is given in the preceding section. Nothing from Peterson is introduced as fact."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "action": "fixed",
+      "reason": "'Next fall' is now 'next collapse'. The LA move is dated 'around 2014, the year his five-year probation began' (C113). The limousines are gone: he 'sold his rental cars'."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "action": "fixed",
+      "reason": "The three failures are named in the sentence. The makeup-school partner is 'a popular makeup artist', distinct from Laura, who is introduced afterward. The recovery is dated 'around 2015'."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "action": "fixed",
+      "reason": "Cut the 2010 franchise/IPO comparison entirely, which also removes the paragraph-merge rendering bug."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "action": "fixed",
+      "reason": "The protest now has its own heading, 'When the kindness brand was accused', and an opening line saying what it tests. It is tightened to the allegation, his response including the meeting and the retraction, and a dated status. I cut his 2024 'small subset' remark. The family section keeps its own ending."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "action": "fixed",
+      "reason": "Cut the April Fools' engagement paragraph to save length. Ghalichi now appears once, in the Type 2 section, as the intimate witness on record, with her 'honest and loving' statement and the 2014 date."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "action": "fixed",
+      "reason": "Reworded the description so it asserts no timing: 'Someone told Dhar Mann to change a name he says stood only for failure. He kept it, built YouTube's moral-fable studio and cut himself out. Why he reads as a Type 3.' (165 characters)."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "action": "fixed",
+      "reason": "Added the 'as loved as possible' continuation (S05, audio-checked) and 'Everyone wanted to be my friend at that point'. The Type 2 section now restates the discriminator as the currency of love (display versus being needed), with dated costly choices: 2007 (the rental to keep the appearance), 2014 (the leased Ferrari and Rolls-Royce for Instagram) and the economy-class story. The type answer, FAQ 1 and the Type 2 FAQ use the same framing."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "action": "fixed",
+      "reason": "The 'winning big' quote is now the bridge into the examples. Those are placed in business context, 'when it came to my team members... or... brand partners'. His claim that the care is genuine ('that you truly care about them', not a 'business purpose') is kept. The FAQ now says 'surprise gifts for team members and brand partners'. The caption-only span at about 72:52-73:22 was re-transcribed with large-v3-turbo and matches."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "action": "fixed",
+      "reason": "The paragraph after the hook gives his stated reason with both strands. 'Both choices protect' is now the article's labeled reading, tied to his 'positivity' line. The closing ties the face cut to the retention reason he gave ('When the retention numbers said his face cost viewers')."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "action": "fixed",
+      "reason": "Cut the wing clause. The care now stands as real, costly behavior the Three read does not fully explain, and no wing appears in the metadata, FAQs or type_hypothesis.unexplained."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "action": "fixed",
+      "reason": "Dropped the fall (family shame and the ruined name) from the discriminator list, which keeps it consistent with weighting the good-times choices over the fall. The list now uses the 2007 and 2014 display choices, the economy-class story, giving framed as winning, and the big house."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "action": "fixed",
+      "reason": "Hedged the explainer to a tendency ('the pull is to rescue the picture first') and tied it to the case where he names the appearance motive himself, the 2007 Lamborghini. The fraud section keeps his speed and cash-flow explanation. No sentence presents the plea as type evidence."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "action": "fixed",
+      "reason": "The paraphrase now follows his framing ('made every decision okay'). The Three-over-Two claim rests on two named observables: his daughter asked for time and he pointed to a status object, and he framed the correction as 'what is success if I can't even spend time with my own family.' The Two reading's claim on the line is conceded."
+    },
+    {
+      "finding_id": "enneagram-08",
+      "action": "fixed",
+      "reason": "The Seven paragraph now acknowledges the breadth of ventures (car rentals to hydroponics to makeup schools). It rests on his stated motive (attention and 'social acceptance') and on the collapse bringing shame rather than a hunt for novelty. The formula point is dated (2018 through 2026) and inventoried with a trigger (C121)."
+    },
+    {
+      "finding_id": "future-01",
+      "action": "fixed",
+      "reason": "The face removal is bounded before the channel's 2021 breakout (C101). The body gives the dated 2026 return with links (podcast host, NFL and AWNY titles, the CEO). The closing is rewritten in past-tense events, so it stays true if he appears on camera again. C20 is time_sensitive with a trigger. The occupation entry is supported by C130 and C131."
+    },
+    {
+      "finding_id": "future-02",
+      "action": "fixed",
+      "reason": "The status line is dated: 'As of October 2026, the workplace claims remain disputed.' C29, C81, C82 and C83, plus the new status claim C124, are 'unresolved', with triggers for lawsuits, labor filings, union agreements, new testimony, retractions and the full 2023-02-14 statement. C85 was removed with its sentence."
+    },
+    {
+      "finding_id": "future-03",
+      "action": "fixed",
+      "reason": "The formula sentence is anchored ('held from 2018 through 2026'). The Seven rebuttal rests mainly on his stated motive. The sentence is inventoried as C121, time_sensitive, with the trigger 'If Mann's ventures move beyond the moral-fable formula, re-test the Seven alternative.'"
+    },
+    {
+      "finding_id": "future-04",
+      "action": "fixed",
+      "reason": "Cut the habit claim. The AWNY paragraph is now a dated, non-load-bearing part of the 2026 return; C28 is unresolved with a trigger covering the outcome of the goal."
+    },
+    {
+      "finding_id": "future-05",
+      "action": "fixed",
+      "reason": "The FAQ now says 'a Los Angeles-area studio', which survives the planned Creator City move. C98 is time_sensitive with the February 2027 trigger. I removed the present-tense Forbes headcount and views clause from the body."
+    },
+    {
+      "finding_id": "future-06",
+      "action": "fixed",
+      "reason": "The FAQ now reads 'He told The New York Times in 2021 that the conviction was later expunged.' C38 is unresolved with a court-records trigger. The Ponzi sentence is dated ('As of October 2026, no public record...'), and C12 is unresolved with a re-search trigger."
+    },
+    {
+      "finding_id": "future-07",
+      "action": "fixed",
+      "reason": "Changed to 'In 2021, the About page...'. The daughters line is tied to the 2026 interview ('he added'). The 'what steers him now' sentence was cut. No relative anchor can be counted from the wrong year."
+    },
+    {
+      "finding_id": "future-08",
+      "action": "fixed",
+      "reason": "Added C127 for 'Public sources can't settle...' as an unresolved interpretation claim. Its thesis-level triggers are testimony from Laura Avila, Ruben Ortiz or former staff; a memoir or long independent profile; how he handles a future setback; or a step back for family. C132 (the spotlight return) also has a thesis-level trigger."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "No public record of the scheme was found, so it is told here as his account, and the man is not named.",
+      "action": "changed",
+      "reason": "Dated to 'As of October 2026' for durability (future-06). The restraint is unchanged: the self-report is still marked as his account and the private operator is still unnamed."
+    },
+    {
+      "passage": "On December 10, 2013, he pleaded no contest to five counts, a conviction without an admission of the underlying facts.",
+      "action": "kept",
+      "reason": "Unchanged. It still separates the conviction from the charging-stage allegations."
+    },
+    {
+      "passage": "A felony plea and relatives' losses would weigh on anyone, and that sense of where a man should be at 30 is partly cultural. That is why the choices he made when things were going well carry more weight in this read than the fall.",
+      "action": "kept",
+      "reason": "Unchanged. The discriminator list now follows it consistently by dropping the fall (enneagram-05)."
+    },
+    {
+      "passage": "Public sources can't settle whether the restraint since 2015 is a changed motive or a sturdier image.",
+      "action": "kept",
+      "reason": "Unchanged, and now inventoried as an unresolved thesis claim (C127)."
+    },
+    {
+      "passage": "None of that makes the care fake. It is specific and it costs him time, and a Three with a strong Two wing would account for much of it.",
+      "action": "changed",
+      "reason": "I kept the defense of his warmth ('None of that makes the care fake. It is specific and it costs him time') and replaced the untested wing clause with 'and the Three read does not fully explain it' (enneagram-04). It is still fair to the subject without flattering him."
+    },
+    {
+      "passage": "The worst advice Dhar Mann says he ever got was to change his name.",
+      "action": "kept",
+      "reason": "Unchanged opening line."
+    },
+    {
+      "passage": "So he kept the name and cut the face. Both choices protect what an audience thinks of when it hears \"Dhar Mann.\"",
+      "action": "changed",
+      "reason": "I kept 'So he kept the name and cut the face.' The motive half is now labeled as the article's reading ('Read together, both choices protect...') and tied to his own stated 'positivity' goal (critic-F3, enneagram-03). The pairing insight is retained and extended by the 2026 return section, as the fan reviewer asked."
+    },
+    {
+      "passage": "\"My life really felt like a movie,\" he told Raz. Seven years later, the About page on his own website was headed \"My Life is like a Movie.\"",
+      "action": "changed",
+      "reason": "Same verified detail. 'Seven years later' became 'In 2021' because the relative date could be counted from the 2024 telling (future-07)."
+    },
+    {
+      "passage": "Gray area was the phrase Hunt had used about him in 2012.",
+      "action": "kept",
+      "reason": "Unchanged. Hunt's 'gray area' quote is still in the weGrow section."
+    },
+    {
+      "passage": "When providing and being present collided, providing won, and he called it love.",
+      "action": "changed",
+      "reason": "The compression is kept, but 'he called it love' attributed a word he did not use. It now reads 'and he told himself it made every decision okay', his own framing (subject-04, critic-F6, enneagram-07), and sits after the daughter story."
+    },
+    {
+      "passage": "That is the plainest statement in the record of what he was protecting, and it came from him. It is also a 2024 look back, and redemption stories reward a vivid \"before.\"",
+      "action": "kept",
+      "reason": "Unchanged."
+    },
+    {
+      "passage": "Seven years later, the About page on his own website was headed \"My Life is like a Movie.\"",
+      "action": "changed",
+      "reason": "Now 'In 2021, the About page on his own website was headed \"My Life is like a Movie.\"' The verified detail is kept; only the relative date changed (future-07)."
+    },
+    {
+      "passage": "What the testing adds is the order of operations: in his studio, the package decides whether the story gets made.",
+      "action": "kept",
+      "reason": "Unchanged. The face-cut paragraph now follows this model (critic-F7)."
+    },
+    {
+      "passage": "Even the case for quiet runs through how other people see you.",
+      "action": "kept",
+      "reason": "Unchanged."
+    },
+    {
+      "passage": "In a [Type 3](/enneagram-corner/enneagram-type-3), shame turns into a question asked of every room: what counts as winning here? They find the answer, turn themselves into it and keep score. If the picture and the facts start to separate, the picture usually gets rescued first, and the bill arrives later.",
+      "action": "changed",
+      "reason": "I kept the plain-language explainer ('a question asked of every room... keep score'). The last sentence is hedged to a tendency and tied to the 2007 Lamborghini, where he names the appearance motive himself (enneagram-06)."
+    },
+    {
+      "passage": "That is the record from eight years before his first video, when no algorithm was paying him to be watched. The wish to be watched was already there, and he said it out loud.",
+      "action": "changed",
+      "reason": "The dated-contemporaneous-evidence move and the punchline 'The wish to be watched was already there, and he said it out loud' are kept. The 'no algorithm' clause now concedes that his business plan rewarded publicity, as the 2010 source itself says (critic-F2)."
+    },
+    {
+      "passage": "He volunteers the worst of his old self. The Lamborghini rental, the Instagram \"addiction\" and the grant \"shortcuts\" all come from his own mouth on national podcasts. That is an odd habit for a man guarding an image, unless the redemption story is the image.",
+      "action": "changed",
+      "reason": "The paradox and 'That is an odd habit for a man guarding an image, unless the redemption story is the image' are kept. 'The worst' was inaccurate for the fraud, where he gives the narrowest version, so it now says he volunteers the vivid failures, adds his 'embrace that' line and notes that the court-record failure gets the narrowest telling (critic-F1)."
+    },
+    {
+      "passage": "The worst advice he ever got was to change his name. He kept it, put it on stories where the good person always wins, \"unlike in the real world,\" and then took his face out of them, so the name could keep winning without him in the frame.",
+      "action": "changed",
+      "reason": "I kept the callback to the hook and his 'unlike in the real world' rule. 'So the name could keep winning without him in the frame' was contradicted by his 2026 return as a host, so the closing now ends on two dated past choices: he cut the face when retention said to, and came back as host when the name could carry a show (fan-01, critic-F3, enneagram-03, future-01)."
+    },
+    {
+      "passage": "A Three gives up the spotlight when the spotlight stops winning.",
+      "action": "kept",
+      "reason": "Unchanged. It now follows the professional-incentive caveat and is tested against the 2026 return in the final section."
+    },
+    {
+      "passage": "That is the plainest statement in the record of what he was protecting, and it came from him. It is also a 2024 look back, and redemption stories reward a vivid \"before.\" So the question is whether a reporter who met him at the time saw the same man.",
+      "action": "kept",
+      "reason": "Unchanged, including the turn into the 2010 test."
+    },
+    {
+      "passage": "Both can be true: the release was candid, and it was also the louder headline.",
+      "action": "kept",
+      "reason": "Unchanged. The 2010 'first honest hydro store' report now backs the candid half."
+    },
+    {
+      "passage": "Every creator at his scale tests thumbnails, so none of this alone says much about his personality, which is why the 2010 and 2014 record carries more weight.",
+      "action": "changed",
+      "reason": "The period-weighting logic is kept. 'The 2010 and 2014 record' became 'the older record, from the 2007 car to the 2014 Instagram', because the 2010 publicity also served a business plan (critic-F2)."
+    }
+  ],
+  "prior_blockers": []
+}
