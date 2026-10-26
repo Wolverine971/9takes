@@ -19,7 +19,7 @@ Link ideas to act on: [`docs/crosslinks/link-opportunities.md`](crosslinks/link-
 | Metric | Count |
 |---|---|
 | Live blog posts | 150 (+ 9 type pages) |
-| Published people pages | 457 |
+| Published people pages | 458 |
 | Completely isolated (0 in, 0 out) | 0 |
 | 0 incoming | 0 |
 | 0 outgoing | 0 |
@@ -27,7 +27,7 @@ Link ideas to act on: [`docs/crosslinks/link-opportunities.md`](crosslinks/link-
 | Broken internal links (live post → non-live page) | 0 |
 | Links that go through a 301 | 0 |
 | Broken/redirected links on people pages (draft mirror) | 0 |
-| Body links: blog → blog / blog → people | 1,634 / 388 |
+| Body links: blog → blog / blog → people | 1,634 / 389 |
 
 ---
 
@@ -37,7 +37,7 @@ Where body links go. Rows = linking section, columns = linked section.
 
 | From \ To | enneagram-corner | community | how-to-guides | pop-culture | people | Stays in section | Posts | Median in |
 |---|---|---|---|---|---|---|---|---|
-| enneagram-corner | 1,165 | 23 | 13 | 27 | 152 | 84% | 96 | 8 |
+| enneagram-corner | 1,165 | 23 | 13 | 27 | 153 | 84% | 96 | 8 |
 | community | 58 | 50 | 1 | 6 | 3 | 42% | 18 | 4 |
 | how-to-guides | 57 | 3 | 20 | 0 | 0 | 25% | 11 | 3 |
 | pop-culture | 105 | 3 | 0 | 103 | 233 | 23% | 34 | 3 |
@@ -72,7 +72,7 @@ relative to demand. These are where an internal link is most likely to move a ra
 | `/enneagram-corner/how-each-enneagram-type-manipulates` | 3,735 | 31 | 7.3 | 21 | 21 |
 | `/enneagram-corner/mental-health/enneagram-addiction-recovery-guide` | 1,823 | 46 | 8.6 | 12 | 14 |
 | `/enneagram-corner/how-to-apologize-like-a-pro` | 1,190 | 26 | 7.7 | 9 | 5 |
-| `/enneagram-corner/enneagram-instinctual-subtypes` | 8,519 | 37 | 12.8 | 156 | 16 |
+| `/enneagram-corner/enneagram-instinctual-subtypes` | 8,519 | 37 | 12.8 | 157 | 16 |
 | `/enneagram-corner/enneagram-strengths-and-weaknesses` | 1,344 | 16 | 8.6 | 24 | 21 |
 | `/enneagram-corner/mental-health/enneagram-anxiety-complete-guide` | 1,568 | 7 | 11.9 | 30 | 9 |
 | `/enneagram-corner/enneagram-types-being-ghosted` | 1,249 | 30 | 7.1 | 26 | 17 |
@@ -101,7 +101,7 @@ Live posts with 3 or fewer outgoing links, sorted by impressions. Readers land h
 People pages by search impressions and how many **blog posts** link to them in prose
 (the FamousTypes block on type pages and the `/personality-analysis/categories/*` listings link
 nearly every person, but those are not contextual links).
-208 of 457 people pages have at least one blog link.
+209 of 458 people pages have at least one blog link.
 
 | Person | Impressions | Clicks | Position | Blog links in | People links in |
 |---|---|---|---|---|---|
@@ -116,7 +116,7 @@ nearly every person, but those are not contextual links).
 | [Selena Gomez](/personality-analysis/selena-gomez) | 4,425 | 22 | 7.2 | 1 | 4 |
 | [Dario Amodei](/personality-analysis/dario-amodei) | 4,370 | 44 | 8.6 | 5 | 3 |
 | [Sabrina Carpenter](/personality-analysis/sabrina-carpenter) | 4,048 | 18 | 6.4 | 0 | 4 |
-| [Jack Black](/personality-analysis/jack-black) | 4,048 | 35 | 7.5 | 1 | 4 |
+| [Jack Black](/personality-analysis/jack-black) | 4,048 | 35 | 7.5 | 1 | 5 |
 | [Oliver Tree](/personality-analysis/oliver-tree) | 3,993 | 15 | 7.5 | 0 | 0 |
 | [Lionel Messi](/personality-analysis/lionel-messi) | 3,870 | 16 | 9.1 | 0 | 3 |
 | [Tara Yummy](/personality-analysis/tara-yummy) | 3,789 | 19 | 8.8 | 0 | 0 |
@@ -134,7 +134,7 @@ nearly every person, but those are not contextual links).
 ## People pages that need links
 
 A people page "needs links" with 2 or fewer contextual links in (blog posts + other people pages).
-**199 of 457** people pages need links; 61 have none.
+**198 of 458** people pages need links; 61 have none.
 Unlinked mentions on other people pages are queued in `link-opportunities.md` §4.
 
 | Person | Impressions | Position | Blog links in | People links in |
@@ -172,19 +172,19 @@ Unlinked mentions on other people pages are queued in `link-opportunities.md` §
 | In | Out | Impressions | Page |
 |---|---|---|---|
 | 212 | 17 | 1,308 | `/enneagram-corner/enneagram-types-in-stress` |
-| 191 | 41 | 7,091 | `/enneagram-corner/enneagram-wings-complete-guide` |
-| 156 | 16 | 8,519 | `/enneagram-corner/enneagram-instinctual-subtypes` |
+| 192 | 41 | 7,091 | `/enneagram-corner/enneagram-wings-complete-guide` |
+| 157 | 16 | 8,519 | `/enneagram-corner/enneagram-instinctual-subtypes` |
 | 150 | 14 | 3,317 | `/enneagram-corner/enneagram-type-3` |
-| 135 | 25 | 1,547 | `/enneagram-corner/enneagram-type-6` |
+| 136 | 26 | 1,547 | `/enneagram-corner/enneagram-type-6` |
 | 134 | 12 | 470 | `/enneagram-corner/enneagram-type-7` |
 | 133 | 15 | 2,151 | `/enneagram-corner/enneagram-type-4` |
+| 126 | 13 | 1,765 | `/enneagram-corner/enneagram-type-5` |
 | 126 | 18 | 2,642 | `/enneagram-corner/enneagram-type-9` |
-| 125 | 13 | 1,765 | `/enneagram-corner/enneagram-type-5` |
 | 123 | 14 | 942 | `/enneagram-corner/enneagram-type-8` |
 | 108 | 13 | 386 | `/enneagram-corner/enneagram-type-1` |
 | 103 | 16 | 925 | `/enneagram-corner/enneagram-type-2` |
 | 63 | 24 | 2,222 | `/enneagram-corner/relationship-communication-guide` |
-| 54 | 14 | 142 | `/enneagram-corner/enneagram-connecting-lines` |
+| 55 | 14 | 142 | `/enneagram-corner/enneagram-connecting-lines` |
 | 35 | 10 | 390 | `/enneagram-corner/beginners-guide-to-determining-your-enneagram-type` |
 
 ---
@@ -265,8 +265,8 @@ Sorted by impressions. In = blog + people pages linking in. Out = links to live 
 | 12,490 | 9.4 | 24 (21/3) | 22 (22/0) | The Enneagram and Mental Illness: Understand Each Type's Predispositi… | `/enneagram-corner/enneagram-and-mental-illness` |
 | 11,788 | 7.9 | 9 (9/0) | 16 (16/0) | What Enneagram Type Is Your Zodiac Sign? The Complete Correlation Cha… | `/enneagram-corner/astrology-and-the-enneagram` |
 | 8,814 | 12.9 | 21 (21/0) | 8 (8/0) | The Complete Enneagram Compatibility Matrix: All 45 Type Pairings Dec… | `/enneagram-corner/enneagram-compatibility-matrix` |
-| 8,519 | 12.8 | 156 (16/140) | 16 (16/0) | Enneagram Instinctual Subtypes: Why You Don't Fully Match Your Type | `/enneagram-corner/enneagram-instinctual-subtypes` |
-| 7,091 | 9.1 | 191 (15/176) | 41 (7/34) | Enneagram Wings: Compare All 18 Combinations and Find Your Pattern | `/enneagram-corner/enneagram-wings-complete-guide` |
+| 8,519 | 12.8 | 157 (16/141) | 16 (16/0) | Enneagram Instinctual Subtypes: Why You Don't Fully Match Your Type | `/enneagram-corner/enneagram-instinctual-subtypes` |
+| 7,091 | 9.1 | 192 (15/177) | 41 (7/34) | Enneagram Wings: Compare All 18 Combinations and Find Your Pattern | `/enneagram-corner/enneagram-wings-complete-guide` |
 | 6,111 | 10.0 | 20 (20/0) | 19 (19/0) | Toxic Traits of Each Enneagram Type (and Which One Is the Worst) | `/enneagram-corner/toxic-traits-of-each-enneagram-type` |
 | 5,538 | 7.6 | 26 (14/12) | 3 (3/0) | Depression Patterns by Enneagram Type | `/enneagram-corner/depression-patterns-by-enneagram-type` |
 | 4,769 | 8.7 | 21 (13/8) | 16 (16/0) | Attachment Styles and Enneagram Types: A Map | `/enneagram-corner/attachment-styles-and-enneagram-types` |
@@ -287,10 +287,10 @@ Sorted by impressions. In = blog + people pages linking in. Out = links to live 
 | 2,013 | 40.4 | 24 (24/0) | 40 (40/0) | What's My Enneagram Type? (The 5-Minute Answer You Actually Need) | `/enneagram-corner/enneagram-tldr` |
 | 1,920 | 14.6 | 9 (8/1) | 13 (13/0) | Enneagram Careers: Find the Working Conditions That Fit You | `/enneagram-corner/enneagram-types-and-career-choices` |
 | 1,823 | 8.6 | 12 (7/5) | 14 (14/0) | Enneagram and Addiction: Why Each Type Self-Medicates Differently | `/enneagram-corner/mental-health/enneagram-addiction-recovery-guide` |
-| 1,765 | 13.6 | 125 (55/70) | 13 (13/0) | Enneagram Type 5: Observer - Inside the Fortress Mind | `/enneagram-corner/enneagram-type-5` |
+| 1,765 | 13.6 | 126 (55/71) | 13 (13/0) | Enneagram Type 5: Observer - Inside the Fortress Mind | `/enneagram-corner/enneagram-type-5` |
 | 1,625 | 8.5 | 5 (5/0) | 9 (9/0) | How Common Is Each Enneagram Type? (Rarest to Most Common, and Why th… | `/enneagram-corner/how-common-is-each-enneagram-type` |
 | 1,568 | 11.9 | 30 (15/15) | 9 (9/0) | Why Type 6 Isn't the Only Anxious Type (Every Type's Hidden Anxiety P… | `/enneagram-corner/mental-health/enneagram-anxiety-complete-guide` |
-| 1,547 | 55.6 | 135 (51/84) | 25 (15/10) | Enneagram Type 6: Loyalist - Search for Solid Ground | `/enneagram-corner/enneagram-type-6` |
+| 1,547 | 55.6 | 136 (51/85) | 26 (15/11) | Enneagram Type 6: Loyalist - Search for Solid Ground | `/enneagram-corner/enneagram-type-6` |
 | 1,486 | 53.0 | 5 (5/0) | 18 (18/0) | The 9 Coworker Types: Each Enneagram as Boss, Peer, Report | `/enneagram-corner/enneagram-types-working-in-teams` |
 | 1,438 | 25.7 | 3 (3/0) | 3 (3/0) | Is the Enneagram Religious? (The Truth About Its Spiritual Origins) | `/enneagram-corner/enneagram-and-religion` |
 | 1,344 | 8.6 | 24 (22/2) | 21 (18/3) | Enneagram Strengths and Weaknesses: Why Each Type's Superpower Is Als… | `/enneagram-corner/enneagram-strengths-and-weaknesses` |
@@ -344,7 +344,7 @@ Sorted by impressions. In = blog + people pages linking in. Out = links to live 
 | 159 | 6.9 | 5 (5/0) | 79 (10/69) | What Enneagram Type Are Most CEOs? Data From 80 Business Profiles | `/enneagram-corner/what-enneagram-type-are-most-ceos` |
 | 158 | 8.6 | 11 (10/1) | 14 (14/0) | Enneagram Harmonic Approaches: How Each Type Handles Conflict | `/enneagram-corner/enneagram-harmonic-approaches` |
 | 155 | 33.1 | 3 (2/1) | 3 (3/0) | Who Built the Enneagram? Mystics, Psychiatrists, Philosophers | `/enneagram-corner/enneagram-influences` |
-| 142 | 15.5 | 54 (9/45) | 14 (14/0) | Enneagram Connecting Lines: Growth and Stress | `/enneagram-corner/enneagram-connecting-lines` |
+| 142 | 15.5 | 55 (9/46) | 14 (14/0) | Enneagram Connecting Lines: Growth and Stress | `/enneagram-corner/enneagram-connecting-lines` |
 | 137 | 9.4 | 3 (3/0) | 7 (7/0) | What Is a Love Language in a Relationship? (And Why Two People With t… | `/enneagram-corner/what-is-a-love-language` |
 | 131 | 26.6 | 4 (4/0) | 37 (37/0) | Enneagram Books, Websites, Podcasts & Influencers | `/enneagram-corner/enneagram-books-websites-podcasts` |
 | 126 | 13.0 | 4 (4/0) | 17 (17/0) | Why You Keep Sabotaging New Relationships (Your Enneagram Knows) | `/enneagram-corner/how-to-navigate-early-relationship-stages` |

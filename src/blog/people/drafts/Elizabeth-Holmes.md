@@ -191,7 +191,7 @@ This ledger records checks, not a numerical grade or independent perspective cer
 
 > "I grew up with those stories about greatness, and about people deciding not to spend their lives on something purposeful, and what happens to them when they make that choice: the impact on character and quality of life." Elizabeth Holmes, [The New Yorker, December 2014](https://www.newyorker.com/magazine/2014/12/15/blood-simpler)
 
-<p class="firstLetter">A camera crew spent three years inside Elizabeth Holmes's life, starting 34 days before she reported to federal prison. In the teaser A24 cut from that footage, the comedian Nathan Fielder asks her the question her whole story reduces to.</p>
+<p class="firstLetter">A camera crew spent three years inside Elizabeth Holmes's life, starting 34 days before she reported to federal prison. In the teaser A24 cut from that footage, the comedian <a href="/personality-analysis/nathan-fielder">Nathan Fielder</a> asks her the question her whole story reduces to.</p>
 
 **"You're being real right now?"** [A24's teaser for *You Can See Everything*, released September 6, 2026](https://www.youtube.com/watch?v=GGJSRFWALTI), [NBC News, September 7, 2026](https://www.nbcnews.com/pop-culture/movies/elizabeth-holmes-nathan-fielder-documentary-you-can-see-everything-rcna596457)
 

@@ -172,7 +172,7 @@ Dimoldenberg is not improvising. She is curating a character in post, in a room 
 
 Most interviewers want you to forget the camera. She wants you to feel it. The awkwardness isn't a bug in the interview. It is the interview.
 
-Her stated comic influences are the giveaway. Nathan Fielder. Zach Galifianakis. [Amy Poehler](/personality-analysis/amy-poehler)'s Leslie Knope. Three characters built on watching a human overcommit to a tone that is slightly wrong for the room. The Type 3 insight Dimoldenberg borrowed: if you can't win by being the warmest person in the room, you can win by being the person who refuses to warm up.
+Her stated comic influences are the giveaway. [Nathan Fielder](/personality-analysis/nathan-fielder). Zach Galifianakis. [Amy Poehler](/personality-analysis/amy-poehler)'s Leslie Knope. Three characters built on watching a human overcommit to a tone that is slightly wrong for the room. The Type 3 insight Dimoldenberg borrowed: if you can't win by being the warmest person in the room, you can win by being the person who refuses to warm up.
 
 And she owns the tape. That is the line most creators never cross. She kept the show sponsor-free for years, even after millions of views, precisely so the character would not drift. She directs it, then she cuts it. She is strategic about guests in a way that would feel cynical in anyone less self-aware: "I'm interested in who's going to flirt with me." She is not booking for prestige. She is booking for clips. She already knows what the internet will do with each combination before she sits down.
 

@@ -17,7 +17,7 @@
 		"gateDebt": 0,
 		"topBlog": 40,
 		"peopleBridge": 22,
-		"peopleToPeople": 3,
+		"peopleToPeople": 2,
 		"skipped": 236
 	},
 	"gateDebt": [],
@@ -617,33 +617,6 @@
 			"excerpt": "- \"The Seven Principles for Making Marriage Work\" by John Gottman and Nan Silver"
 		},
 		{
-			"id": "/community/why-im-selective-sharing-enneagram -> /enneagram-corner/enneagram-instinctual-subtypes",
-			"score": 1.76,
-			"target": {
-				"url": "/enneagram-corner/enneagram-instinctual-subtypes",
-				"title": "Enneagram Instinctual Subtypes: Why You Don't Fully Match Your Type",
-				"kind": "blog",
-				"section": "enneagram-corner",
-				"impressions": 8519,
-				"clicks": 37,
-				"position": 12.8,
-				"inbound": 156
-			},
-			"source": {
-				"url": "/community/why-im-selective-sharing-enneagram",
-				"file": "src/blog/community/why-im-selective-sharing-enneagram.md",
-				"section": "community",
-				"impressions": 87,
-				"outCount": 5
-			},
-			"line": 63,
-			"anchor": "instinctual variants",
-			"phrase": "instinctual variants",
-			"phraseKind": "curated",
-			"mentionScore": 4.5,
-			"excerpt": "I've watched friends' eyes glaze over as I explained wings, arrows, and instinctual variants. The material was fascinating. To me. To them, it felt like a lecture they hadn't enrolled in."
-		},
-		{
 			"id": "/pop-culture/epstein-psychology-part-2 -> /pop-culture/tech-titans-disruptors",
 			"score": 1.76,
 			"target": {
@@ -669,6 +642,33 @@
 			"phraseKind": "title",
 			"mentionScore": 2,
 			"excerpt": "The Elon Musk emails — detailed in the next section — are a case in point: 16 emails over 15 months show a relationship that escalated from \"Very enjoyable conversation!\" to asking about \"the wildest party on your island…"
+		},
+		{
+			"id": "/community/why-im-selective-sharing-enneagram -> /enneagram-corner/enneagram-instinctual-subtypes",
+			"score": 1.75,
+			"target": {
+				"url": "/enneagram-corner/enneagram-instinctual-subtypes",
+				"title": "Enneagram Instinctual Subtypes: Why You Don't Fully Match Your Type",
+				"kind": "blog",
+				"section": "enneagram-corner",
+				"impressions": 8519,
+				"clicks": 37,
+				"position": 12.8,
+				"inbound": 157
+			},
+			"source": {
+				"url": "/community/why-im-selective-sharing-enneagram",
+				"file": "src/blog/community/why-im-selective-sharing-enneagram.md",
+				"section": "community",
+				"impressions": 87,
+				"outCount": 5
+			},
+			"line": 63,
+			"anchor": "instinctual variants",
+			"phrase": "instinctual variants",
+			"phraseKind": "curated",
+			"mentionScore": 4.5,
+			"excerpt": "I've watched friends' eyes glaze over as I explained wings, arrows, and instinctual variants. The material was fascinating. To me. To them, it felt like a lecture they hadn't enrolled in."
 		},
 		{
 			"id": "/community/societal-ticking-time-bombs -> /enneagram-corner/enneagram-and-adhd-which-types-struggle-most",
@@ -1736,25 +1736,6 @@
 			"line": 218,
 			"anchor": "Madonna",
 			"excerpt": "Chappell Roan's sound is a campy, theatrical, synth-drenched maximalism pulled from '80s pop, drag culture, and Midwest yearning. Cyndi Lauper's synth-pop energy. Kate Bush's vocal drama. The unapologetic excess of RuPaul's Drag Race. The ache of Patsy Cline. She's cited Madonna, [Lady Gaga](/personality-analysis/lady-gaga), and Beyonce as touchstones. When she accepted her first Grammy, she credited \"Madonna, Rihanna, and Nicki Minaj, women who made queer music mainstream.\"",
-			"typeClaim": null
-		},
-		{
-			"id": "/personality-analysis/jimmy-fallon -> /personality-analysis/emma-stone",
-			"source": {
-				"url": "/personality-analysis/jimmy-fallon",
-				"file": "src/blog/people/drafts/Jimmy-Fallon.md",
-				"outCount": 7
-			},
-			"target": {
-				"url": "/personality-analysis/emma-stone",
-				"name": "Emma Stone",
-				"inCount": 2,
-				"impressions": 0,
-				"position": null
-			},
-			"line": 195,
-			"anchor": "Emma Stone",
-			"excerpt": "Lip Sync Battle, Box of Lies, Wheel of Musical Impressions, Egg Russian Roulette. The genius was never the games themselves. It was that he got A-list stars to look ridiculous and love it. Bradley Cooper lip-syncing with murderous commitment. Emma Stone slaughtering him at a lip sync. Robert De Niro giggling. Barack Obama slow-jamming the news. The most image-managed people alive walked into that studio and put the image down.",
 			"typeClaim": null
 		}
 	]

@@ -291,6 +291,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'mila-kunis', link: true, hasImage: true, lastmod: '2026-07-29', personaTitle: 'Hollywood\'s Loyalty Engineer', contentGrade: 8.6, types: ['movieStar', 'celebrity', 'screen-icon'] },
 		{ name: 'milly-alcock', link: true, hasImage: true, lastmod: '2026-07-19', personaTitle: 'The Understudy Who Cast Herself', contentGrade: 9, types: ['movieStar', 'newMovieStar', 'rising-star'] },
 		{ name: 'morgan-wallen', link: true, hasImage: true, lastmod: '2026-07-08', personaTitle: 'Nashville\'s Counterphobic Watchdog', contentGrade: 8.8, types: ['musician', 'music-crossover'] },
+		{ name: 'nathan-fielder', link: true, hasImage: true, lastmod: '2026-10-26', personaTitle: 'Comedy\'s Contingency Planner', contentGrade: 7.9, types: ['comedian', 'creator'] },
 		{ name: 'ninja', link: true, hasImage: true, lastmod: '2026-07-28', personaTitle: 'Gaming\'s Anxious Hype-Man', contentGrade: 8.8, types: ['creator', 'celebrity', 'celebrity-image'] },
 		{ name: 'noah-wyle', link: true, hasImage: true, lastmod: '2026-08-27', personaTitle: 'Television\'s Trusted Attending', contentGrade: null, types: ['movieStar', 'celebrity'] },
 		{ name: 'olivia-cooke', link: true, hasImage: true, lastmod: '2026-08-30', personaTitle: 'Hollywood\'s Anxious Understudy', contentGrade: 8.3, types: ['movieStar'] },

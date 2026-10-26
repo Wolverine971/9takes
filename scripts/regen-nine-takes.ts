@@ -14,7 +14,7 @@
 //   pnpm regen:takes -- --id=123
 //   pnpm regen:takes -- --all --limit=25
 //   pnpm regen:takes -- --slug=<url> --dry        # print, write nothing
-//   TAKES_MODEL=anthropic/claude-sonnet-4 pnpm regen:takes -- --id=123
+//   TAKES_MODEL=anthropic/claude-sonnet-5.5 pnpm regen:takes -- --id=123
 
 import dotenv from 'dotenv';
 import { createClient } from '@supabase/supabase-js';

@@ -15,7 +15,7 @@
 //     --publish
 //       # Publish exact human-reviewed copy and generate its nine takes.
 //   node scripts/generate-chorus.mjs --limit=20       # dry-run candidate batch
-//   CHORUS_QUESTION_MODEL=anthropic/claude-sonnet-4 node scripts/generate-chorus.mjs
+//   CHORUS_QUESTION_MODEL=anthropic/claude-sonnet-5.5 node scripts/generate-chorus.mjs
 
 import { readFileSync } from 'fs';
 import dotenv from 'dotenv';
@@ -34,7 +34,7 @@ dotenv.config();
 const SUPABASE_URL = process.env.SUPABASE_URL || process.env.PUBLIC_SUPABASE_URL;
 const SUPABASE_SERVICE_KEY = process.env.SUPABASE_SERVICE_KEY;
 const OPENROUTER_KEY = process.env.PRIVATE_OPENROUTER_API_KEY;
-const QUESTION_MODEL = process.env.CHORUS_QUESTION_MODEL || 'anthropic/claude-sonnet-4';
+const QUESTION_MODEL = process.env.CHORUS_QUESTION_MODEL || 'anthropic/claude-sonnet-5.5';
 const REVIEW_MODEL = process.env.CHORUS_REVIEW_MODEL || QUESTION_MODEL;
 const TAKES_MODEL = process.env.CHORUS_MODEL || 'google/gemini-2.5-flash';
 

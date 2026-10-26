@@ -37,8 +37,8 @@ Sorted by impressions. 0 of these are NOT grandfathered and fail `pnpm crosslink
 | 1.78 | `/enneagram-corner/enneagram-workplace-team-building` (L467) | `/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic` | "Host" | Begin by teaching the system as a tool for understanding communication preferences, not as a way to label colleagues. Host a workshop that: |
 | 1.78 | `/enneagram-corner/personality-maxing` (L354) | `/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic` | "John" | And it's trainable. John Antonakis's team at the University of Lausanne taught managers [12 charismatic leadership tactics](https://hbr.org… |
 | 1.78 | `/how-to-guides/definitive-guide-to-relationship-conflict-part-1` (L506) | `/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic` | "John" | - "The Seven Principles for Making Marriage Work" by John Gottman and Nan Silver |
-| 1.76 | `/community/why-im-selective-sharing-enneagram` (L63) | `/enneagram-corner/enneagram-instinctual-subtypes` | "instinctual variants" | I've watched friends' eyes glaze over as I explained wings, arrows, and instinctual variants. The material was fascinating. To me. To them,… |
 | 1.76 | `/pop-culture/epstein-psychology-part-2` (L169) | `/pop-culture/tech-titans-disruptors` | "Elon Musk" | The Elon Musk emails — detailed in the next section — are a case in point: 16 emails over 15 months show a relationship that escalated from… |
+| 1.75 | `/community/why-im-selective-sharing-enneagram` (L63) | `/enneagram-corner/enneagram-instinctual-subtypes` | "instinctual variants" | I've watched friends' eyes glaze over as I explained wings, arrows, and instinctual variants. The material was fascinating. To me. To them,… |
 | 1.72 | `/community/societal-ticking-time-bombs` (L365) | `/enneagram-corner/enneagram-and-adhd-which-types-struggle-most` | "ADHD" | And look what's happening with ADHD. Diagnoses among US children rose sharply -- [from 6.1% in 1997 to 10.2% in 2016](https://pmc.ncbi.nlm.… |
 | 1.72 | `/pop-culture/what-enneagram-type-are-most-musicians` (L169) | `/enneagram-corner/enneagram-types-and-career-choices` | "careers" | …ysis/post-malone), and [Selena Gomez](/personality-analysis/selena-gomez) build careers on being welcome in every room they enter. The out… |
 | 1.69 | `/enneagram-corner/enneagram-personal-growth` (L237) | `/enneagram-corner/enneagram-and-religion` | "spiritual" | …nd almost no research on the growth and stress arrows. Some studies in the review did report it helped with personal and spiritual growth.… |
@@ -88,10 +88,9 @@ Sorted by impressions. 0 of these are NOT grandfathered and fail `pnpm crosslink
 A people page names another person who needs links (2 or fewer contextual links in) without linking them.
 Sources with 10+ internal links are skipped; at most 2 per source, and targets fill to 3.
 These pages live in the database: edit the draft, then sync (see `/crosslink-queue` step 4b).
-4 unlinked mentions found; top 3 after caps.
+2 unlinked mentions found; top 2 after caps.
 
 | Target (in, impressions) | Source (line) | Anchor | Sentence |
 |---|---|---|---|
 | `/personality-analysis/madonna` (1, 0) | `src/blog/people/drafts/Sabrina-Carpenter.md` (L407) | "Madonna" | She made good on it with a show she had spent seven months building. During the second weekend on April 17, Madonna rose through the stage … |
 | `/personality-analysis/madonna` (1, 0) | `src/blog/people/drafts/Chappell-Roan.md` (L218) | "Madonna" | Chappell Roan's sound is a campy, theatrical, synth-drenched maximalism pulled from '80s pop, drag culture, and Midwest yearning. Cyndi Lau… |
-| `/personality-analysis/emma-stone` (2, 0) | `src/blog/people/drafts/Jimmy-Fallon.md` (L195) | "Emma Stone" | Lip Sync Battle, Box of Lies, Wheel of Musical Impressions, Egg Russian Roulette. The genius was never the games themselves. It was that he… |
