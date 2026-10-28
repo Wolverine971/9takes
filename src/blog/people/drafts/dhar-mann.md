@@ -7,12 +7,12 @@ description: >-
   kept it, built YouTube's moral-fable studio and cut himself out. Why he reads
   as a Type 3.
 author: DJ Wayne
-date: '2026-10-26'
+date: '2026-10-27'
 loc: 'https://9takes.com/personality-analysis/dhar-mann'
-lastmod: '2026-10-26'
+lastmod: '2026-10-27'
 changefreq: monthly
 priority: '0.6'
-published: false
+published: true
 enneagram: '3'
 type:
   - creator

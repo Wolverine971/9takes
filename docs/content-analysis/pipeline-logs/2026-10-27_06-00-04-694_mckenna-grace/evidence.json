@@ -1,0 +1,984 @@
+{
+  "schema_version": 3,
+  "subject": "mckenna-grace",
+  "status": "insufficient_evidence",
+  "research_tasks": [
+    "Open the long-form sit-down material from the Sunrise on the Reaping press tour (US release 2026-11-20): podcasts or profiles of 30+ minutes, not red-carpet junkets. Code every adult account of a setback by her response: reassurance, preparation and trusted people (6); re-asserting image and output (3); reframing toward fun or new options (7); turning toward others' needs (2). Candidate setbacks: losing the Scream 7 role she first auditioned for (S02, S20), the year of pulled music releases (C18), the 2026 'internet hates you' cycle (C19).",
+    "Find named, on-record testimony from adult-era collaborators who are not promoting a joint project with her or dating her: Francis Lawrence, Josh Boone, Kevin Williamson, Emma Tammi, Allison Williams or Dave Franco as Regretting You producers, the Scooby-Doo: Origins showrunners. Look for how she takes notes, criticism and pressure, not for praise of her work ethic.",
+    "Identify the 2026 online backlash she referenced to THR (2026-03-07: 'Every other week, the internet either loves you or hates you') and SiriusXM (June 2026: 'they kind of decide when they like you and they don't'). Establish what happened and her own adult response from dated primary posts or interviews.",
+    "Get a second, independent first-person account of the roughly year-long run of pulled music releases, and of what finally let her release 'Ugly and Rotten' (June 2026) and 'Bones and All' (2026-09-25): reassurance from trusted people (6), a strategic or schedule decision (3), or something else.",
+    "Find an adult interview, outside junket framing, where she weighs a small part in a franchise she loves against a lead elsewhere, or explains turning work down. This tests whether the role-size answer (C16) holds as a discriminator against Three.",
+    "Test the Two alternative. Find adult evidence of what she does when relationships and work conflict (time with family or Mason Thames against bookings), and whether her caretaking (C25) extends beyond the cast 'families' she belongs to.",
+    "Before any direct quotation, re-transcribe from audio (Whisper large-v3-turbo) the auto-caption passages relied on here: SiriusXM DaGfC6UwbCo 15:09-15:45 and 01:00-01:45; ET whkWpbfsFmg 02:48-04:30; Who Let Alyssa Out igfn1lbEL6o 04:07-05:30; Collider s56VU0CWnfA 12:38-13:45 and 30:25-31:10. YouTube audio downloads returned HTTP 403 on 2026-10-27, so only captions were read.",
+    "Keep minor-era material out of the type argument; she turned 18 on 2024-06-25. Deliberately not used: PAPER (2022-07-08), NME on 'Self Dysmorphia' (2023), Zach Sang (2023-10-19), Consequence (2024-01-08), Riff Magazine (age 17), Bob Saget's Here For You (2021), and the 2024-06-02 JackManifold stream. Childhood context may enter only through her adult retrospection (e.g., S01, S19). Treat the minor-era body rumor and surgery details with care or leave them out.",
+    "Do not convert this to an open case. Her public career began around 2012 (Crash & Bernstein) and her breakout was Gifted (2017), so she fails the standard's early-public-career rule. Her adult record is not thin in volume, only promotional and ambiguous. Re-run research after the November 2026 press cycle, around 2026-12-01, carrying these source and claim IDs forward."
+  ],
+  "accuracy_checked_at": "2026-10-27",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.teenvogue.com/story/mckenna-grace-new-hollywood-2025-cover-interview",
+      "title": "Mckenna Grace, Relentless Optimist (Teen Vogue New Hollywood Class of 2025 cover; page title: 'Mckenna Grace Reveals Secret Hunger Games Edits and How She Landed Maysilee Donner')",
+      "speaker": "Mckenna Grace, interviewed by P. Claire Dodson; Teen Vogue",
+      "date": "2025-11-13",
+      "locator": "Full article. Key passages: opening ('There is little that... Grace can't spin into something good'); 'It is tiring at times, but I dig it'; mother's spreadsheet; 'gaslight myself into being happy or energetic'; 'Kindness... to a fault'; Troop Zero 'personality for a year'; 'The whole basis of my job is hoping that people like me'; closing section on work ethic ('Sometimes I feel like I do extra work because this industry is so cutthroat').",
+      "excerpt": "“It is tiring at times, but I dig it... Grass is always greener. I'd rather be doing 20 million things at once than just sitting at home and being like, 'Shoot. When can I get back to work?'” ... “It sounds really terrible when I put it this way... but I feel like some days I just gaslight myself into being happy or energetic.” ... “Kindness... I always want to make people feel important and seen. Even sometimes, maybe to a fault. I think that I can be a little overly excited.” ... “The whole basis of my job is hoping that people like me and that people want to hire me, or that the public likes my work.” ... “Sometimes I feel like I do extra work because this industry is so cutthroat at times... Of course, I put my career at very high importance, but I wouldn't want to put that over somebody else's expense, or step on somebody else to make my way up. It scares me, and I don't think I would like myself very much if that's who I became, or if that's who I let this industry make me.”",
+      "context": "The longest adult-era profile found, from a sit-down at her New York hotel during the Regretting You press week after a 20-hour trip from the Sunrise on the Reaping set (she was 19). Mixes direct quotation with the writer's framing ('Relentless Optimist'; she was 'searching for a bright side'), and the writer's observations are kept separate from her words. Also reports her mother travels with her and keeps a spreadsheet of projects, her Grapevine, Texas birthplace, the move to LA at five while her father finished medical school, and the paraphrased conversation with her mother about why she works so much. Childhood material appears only as her adult retrospection. Opened in full on 2026-10-27 via the r.jina.ai reader, because WebSearch is blocked from teenvogue.com. Promotional context: a magazine cover tied to Regretting You. Adult-era source (she turned 18 on 2024-06-25).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S02",
+      "url": "https://www.hollywoodreporter.com/movies/movie-features/scream-7-mckenna-grace-scene-1236523877/",
+      "title": "Mckenna Grace Breaks Down Her Big 'Scream 7' Scene",
+      "speaker": "Mckenna Grace, interviewed by The Hollywood Reporter",
+      "date": "2026-03-07",
+      "locator": "Intro section and Q&A. Key answers: role size ('Not really. I mean, I don't even see myself that way'); Five Nights at Freddy's video to Scott Cawthon and Emma Tammi; virality ('I have never gotten nervous on a carpet or in interviews until now'); fan-base research ('So I always get very nervous and try to do my research'); stunt-team cookies; 'dream job' disingenuousness; pitching songs at video village; 'jeepers'.",
+      "excerpt": "“Not really. I mean, I don't even see myself that way. I don't even think that I could. I'm just so grateful for work. Am I going to turn down Five Nights at Freddy's 2? Am I going to turn down the chance of being in my favorite franchises? No. If I'm going to be there for five minutes, why not? That's so fun... All I've ever wanted is to work. I've been doing it since I was five.” ... “I will literally play a pair of shoes in the background of a scene. I would be so honored to be a part of this in any way. I would even be your shadow on set.” So I'm just a fan. ... “In that time, I have never gotten nervous on a carpet or in interviews until now. I did one interview at the Scream 7 premiere, and when I walked off of that carpet, I was a nervous wreck... Every other week, the internet either loves you or hates you.” ... “So I always get very nervous and try to do my research so I can perform to the best of my abilities without getting in my head about it.”",
+      "context": "Long post-release Q&A about Scream 7 (a franchise-best $64M domestic opening, per THR), done while she was at a convention. The interviewer explicitly put the status question to her: as a lead actor, would she hold out for leads? That makes her answer on role size the closest thing to a discriminating observation in the record. Also confirms she auditioned for another Scream 7 character before being cast as Hannah Thurman (THR surmises it was Tatum), that she did most of her own wire work after spinal surgery, and that 'Twisting the Knife' with Ice Nine Kills topped Billboard's hard rock chart. The byline was not captured by the reader. Opened in full on 2026-10-27 via r.jina.ai. She was 19. Adult-era source (she turned 18 on 2024-06-25).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S03",
+      "url": "https://www.lofficielusa.com/music/mckenna-grace-interview-new-music-scooby-doo-hunger-games-age-movies",
+      "title": "Mckenna Grace on Stepping Into a New Creative Chapter—And Her 20s",
+      "speaker": "Mckenna Grace, interviewed by Samantha Simon; L'OFFICIEL USA",
+      "date": "2026-06-09 (updated 2026-06-22)",
+      "locator": "Intro and full Q&A: 'Ugly and Rotten' origin; 'I don't like to not work'; work-life balance answer ('My job is my life'); Scooby-Doo impostor syndrome; Mason and her mother on her personality changing after each set; style and spinal surgery; turning-20 answer ('I treat every project like it could be my last').",
+      "excerpt": "“It's hard to find a work-life balance, but luckily I love my job. My job is my life. So it's like, this is all I do. I don't like to sit still, so I spend my weekends in the studio.” ... “I have the craziest impostor syndrome, but it's been so cool.” ... “They were like, Your personality changes a bit after each of the sets that you're on.” ... “In acting, I'm telling other people's stories. In music, I get to tell my own. It's a lot scarier... I find that I get to be a lot angrier or messier... When I'm singing, I don't want to feel like I'm putting on another identity, since that's what I do for work already.” ... “I'm on my dream job right now, and I treat every project like it could be my last. I don't want to get too ambitious; I just want to keep working, putting things out there that I can be proud of, and spending time with the people that I love.”",
+      "context": "Music-focused print Q&A, done on her way to the Scooby-Doo: Origins set in Atlanta hours after 'Ugly and Rotten' came out, weeks before her 20th birthday. It is the most reflective adult self-description in the record. She reports Mason Thames and her mother observing that her personality changes with each role. She also says she hasn't released music 'in over a year', has 'the craziest impostor syndrome', and has crossed the Oscars off her bucket list. Opened in full on 2026-10-27 via r.jina.ai (the publisher's HTML carries only a teaser). Adult-era source (she turned 18 on 2024-06-25).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S04",
+      "url": "https://hero-magazine.com/article/294797/inside-heroine-24-mckenna-grace-in-conversation-with-joseph-zada",
+      "title": "“It's weird to be a part of something that you've been such a massive fan of” – Mckenna Grace in conversation with Joseph Zada (HEROINE 24)",
+      "speaker": "Mckenna Grace and Joseph Zada; HERO / HEROINE 24",
+      "date": "2026-03-23",
+      "locator": "Full two-way transcript. Key passages: Zada's first impression ('The sweetest person in the world'); 'somebody who could never stop working'; dinners with her mother every night; birthday cake; 'a bit of a manifester'; journaling again; 'I can't sit still and I like to work whenever I can. I always treat every job like it could be my last.'",
+      "excerpt": "JZ: “I could not understand how you were so sweet. The sweetest person in the world... it was crazy to think that you'd been such a star for so long... but yet you were still so excited to meet everyone.” ... JZ: “I immediately understood that you were somebody who could never stop working.” ... MG: “When we were living together and you were too tired from stunts and everything to come out or hang out, I would make you come and have dinner with my mom every night.” ... MG: “Our little family.” ... JZ: “Well, you're a bit of a manifester.” ... MG: “You know me, I can't sit still and I like to work whenever I can. I always treat every job like it could be my last. I just get excited to work.”",
+      "context": "Recorded after the Sunrise on the Reaping shoot wrapped (late 2025 / early 2026), with both co-stars praising each other throughout, so it is promotional and mutual. It is still the only adult-era named testimony from someone who lived next door to her for six weeks of a shoot. Zada's observations ('sweetest', 'could never stop working', 'manifester') are third-party; her own lines are self-report. Opened in full on 2026-10-27 via r.jina.ai. The same source was opened and verified in the Joseph Zada v3 runs (S03 there). Adult-era source (she turned 18 on 2024-06-25).",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S05",
+      "url": "https://www.youtube.com/watch?v=s56VU0CWnfA",
+      "title": "Mckenna Grace Interview: Scream 7, Hunger Games & Making Regretting You with Mason Thames (Collider Ladies Night)",
+      "speaker": "Mckenna Grace, interviewed by the Collider Ladies Night host (host's questions excluded)",
+      "date": "2025-10-25 (upload; 43:29)",
+      "locator": "Caption timestamps: 01:04-01:24 ('bubbly personality'); 09:25-09:35 ('energetic person'); 12:38-13:45 (confidence and 'proving myself'); 16:15-16:25 ('sponge'); 18:23-19:08 (notebooks with 'Joe', 'make sure I do it right'); 20:45-20:55 ('not taken a break in years'); 27:50-28:10 ('take matters into my own hands'); 30:25-31:10 (overstepping as a young producer); 42:11-42:51 ('family off of that film').",
+      "excerpt": "[12:40] “I don't always have that kind of confidence about myself where I'm like oh this is me like I am this role... you always want to look at what you're doing and be like I could do better. I could do better but not kill yourself over it of course” ... [13:39] “I'm still every day proving myself to be this character” ... [30:31] “you never want to overstep your balance or you never want to like step on anybody's toes” ... [31:04] “Okay, like it's not disrespectful and it's not um overstepping just to give your opinion” ... [28:05] “So, I always wanted to like take matters into my own hands.”",
+      "context": "Her second Collider Ladies Night appearance: a 43-minute Regretting You junket recorded while she was still shooting Sunrise on the Reaping (she was 19). Long enough to show her across many topics, but still promotional. Auto-captions downloaded with yt-dlp on 2026-10-27 and read end to end. In the Zada runs, Whisper large-v3-turbo transcripts of 14:20-14:52 and 18:13-19:10 broadly matched these captions (minor filler-word differences). Speaker attribution was checked against context: some opening lines about film school belong to the host. Adult-era source (she turned 18 on 2024-06-25). Read from YouTube auto-captions fetched on 2026-10-27; audio download returned HTTP 403, so wording must be re-checked against audio before direct quotation.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S06",
+      "url": "https://www.youtube.com/watch?v=DaGfC6UwbCo",
+      "title": "McKenna Grace Talks New Single \"Ugly and Rotten,\" Joining Scooby-Doo, Filming Scream 7 Kill Scenes (SiriusXM Morning Mashup)",
+      "speaker": "Mckenna Grace, interviewed by the hosts of SiriusXM's Morning Mashup",
+      "date": "2026-07-08 (upload; recorded June 2026, 'I turned 20 this month'; 18:18)",
+      "locator": "Caption timestamps: 00:58-01:45 (back-to-back projects, 'I don't party'); 03:00-04:20 (2025 schedule, 'I treat everything like it could be the last'); 06:00-06:45 (Mason as 'test audience'); 08:00-08:20 (manifesting); 08:30-09:05 (cursing, 'bullied into it'); 15:09-15:45 (pulled releases); 16:55-17:15 (diary entry 'after like this like big betrayal').",
+      "excerpt": "[01:21] “I love working and I love working hard because it's like you know, that's all I've ever known. That's all I do is I love to work. I don't really go out. I don't party. I don't do anything on the weekends.” ... [08:06] “people always say that I'm really good at manifesting... but I'm like y'all, I don't I'm not manifesting. I am working my butt off. I'm like behind the scenes like trying to finagle everything that I can” ... [15:31] “I get ready to release things and then I and then I pull it like the week before. I've had so many releases lined up over the last year and then like I kind of like break down and I'm like oh my god, I can't like the internet's going to hate this like they're all going to hate it and it's like I pull it and um you know, it's like finally I was like you know what? I got to rip the band-aid off”",
+      "context": "A New York radio visit promoting 'Ugly and Rotten' during a break from filming Scooby-Doo: Origins in Atlanta. It is the only source for the costly, repeated choice to pull finished releases for fear of hate. It also gives her account of the 2025 back-to-back schedule (Scream pre-production, Five Nights at Freddy's 2, Scream, a fourth film the captions render as 'Nimona' that is probably Nimrods, Regretting You, Hunger Games). The hosts confirm she is dating Mason Thames, and she calls him her 'test audience'. Captions fetched with youtube-transcript-api on 2026-10-27 after yt-dlp subtitle requests hit HTTP 429. Adult-era source (she turned 18 on 2024-06-25). Read from YouTube auto-captions fetched on 2026-10-27; audio download returned HTTP 403, so wording must be re-checked against audio before direct quotation.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S07",
+      "url": "https://www.youtube.com/watch?v=whkWpbfsFmg",
+      "title": "McKenna Grace Reacts to Jennifer Lawrence's PRAISE Ahead of 'Sunrise on the Reaping' (Exclusive) | Entertainment Tonight",
+      "speaker": "Mckenna Grace, interviewed by ET's Nischelle Turner",
+      "date": "2026-10-19 (upload; recorded at the 2026 Newport Beach Film Festival on the day of her Spotlight Award, reported as 2026-10-18)",
+      "locator": "Caption timestamps: 00:35-01:00 (fashion as former 'anxiety'); 02:48-03:25 (stage fright, 'don't belong', 'pitching myself'); 04:00-04:30 ('proving myself', 'convince other people').",
+      "excerpt": "[02:52] “I I'm still like I I have stage fright. I'm so nervous. Yes, I'm so anxious. Like I totally feel like I don't belong... Or like I still feel so nervous like coming into these rooms. I'm still you know feel like I'm pitching myself even on the days that like I totally don't believe in myself.” ... [04:01] “I still feel like I'm proving myself in that sense... I still feel like a young girl who's just like walking in and they're like she doesn't belong. And so it's like I'm I don't know if I I'm trying to view myself in that way because it's like if I view myself in that way then I can try and convince other people to view in my myself in that way, you know.”",
+      "context": "Red-carpet exclusive, recorded the day she received the festival's Spotlight Award with her parents present, about a month before Sunrise on the Reaping opens. She was 20. The award itself is confirmed only by the interviewer here and by unopened fan-news sites (fictionhorizon.com, comicbasics.com), which date the ceremony to 2026-10-18. Fetched with youtube-transcript-api on 2026-10-27. Adult-era source (she turned 18 on 2024-06-25). Read from YouTube auto-captions fetched on 2026-10-27; audio download returned HTTP 403, so wording must be re-checked against audio before direct quotation.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S08",
+      "url": "https://www.youtube.com/watch?v=2AfJtajh22A",
+      "title": "Sunrise On The Reaping Stars Prove Their Hunger Games Bonafides (ScreenRant Plus cover story)",
+      "speaker": "Mckenna Grace with Ben Wang, Whitney Peak, Iris Apatow and Joseph Zada; ScreenRant",
+      "date": "2026-10-20 (upload; 14:21)",
+      "locator": "Caption timestamps: 00:55-01:20 ('begging them to hire me'); 07:05-08:30 (the braid 'to try and convince them'; 'she's a lot more confident than I am').",
+      "excerpt": "[01:06] “I was just like begging them to hire me, you know? Like I read the book. I've read all the books.” ... [07:41] “I wore this damn braid in my hair every single day of pre-production to try and convince them. I didn't need to convince them. I was just I the first time I suggested it and they were like, 'Oh, yeah, sure.'” ... “she's she's a lot more confident than I am”",
+      "context": "Five-person cast interview during the Sunrise on the Reaping press tour (she was 20). Speaker turns were attributed from context. The line 'I was too scared' at 02:59 has an unclear speaker and is not attributed to her. Fetched with youtube-transcript-api on 2026-10-27. Adult-era source (she turned 18 on 2024-06-25). Read from YouTube auto-captions fetched on 2026-10-27; audio download returned HTTP 403, so wording must be re-checked against audio before direct quotation.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S09",
+      "url": "https://www.youtube.com/watch?v=igfn1lbEL6o",
+      "title": "The Hunger Games: Sunrise on the Reaping Cast REVEALS What Makes It So Heartbreaking (Who Let Alyssa Out)",
+      "speaker": "Mckenna Grace (paired with Ben Wang), interviewed by Who Let Alyssa Out",
+      "date": "2026-10-27 (upload; 25:11)",
+      "locator": "Caption timestamps 03:04-05:30: her answer to 'how do you wake up every day and make sure you live true to yourself?'",
+      "excerpt": "[04:07] “I'm in a very particular position to where I have eyes on me and I've had eyes on me my whole life and I'm so grateful to be doing what I love... I could be waking up today and have a lot going on, but I still want to walk in here and the people that I'm interacting with, I want to be positive as much as I can, no matter the circumstance... I just try to walk into every room like I'm like it could be the last job I have or the last chance I get to play this character... that's how I choose to live my life is to try and spread kindness and happiness wherever I can and I fail sometimes but that's how I try to live.”",
+      "context": "Roundtable junket for the Sunrise on the Reaping press tour, uploaded on the day this research was done. Only the 03:04-05:30 answer is hers; later answers belong to other cast members and are not used. She is identified as the speaker because the interviewer greets 'McKenna' and the 'eyes on me my whole life' line is a child actor's. Fetched with youtube-transcript-api on 2026-10-27. Adult-era source (she turned 18 on 2024-06-25). Read from YouTube auto-captions fetched on 2026-10-27; audio download returned HTTP 403, so wording must be re-checked against audio before direct quotation.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S10",
+      "url": "https://screenrant.com/hunger-games-sunrise-on-the-reaping-mckenna-grace-fan-casting-reaction/",
+      "title": "ScreenRant article on Mckenna Grace's reaction to being fan-cast as Maysilee Donner",
+      "speaker": "Mckenna Grace, interviewed by ScreenRant (article by Hannah Gearan)",
+      "date": "2025-10-02",
+      "locator": "Interview excerpt under the question 'What was the moment for you when you knew that the fans got their choice'.",
+      "excerpt": "“I had been crying all morning, because I was like, 'Oh, I did not think I was going to get it, especially with the fan castings, 'cause every time I get fan-casted for a role, I want so bad, I start getting fan-casted, and then I don't get it.' ... I was so nervous, and I could not believe I got it... and I hadn't told anybody I was going out for it, and I'd been going out for it for ages, and I was being so quiet and so secret... 'You're going to make me lose the job that I don't have.' I was so scared”",
+      "context": "A Regretting You junket answer about learning, in her trailer on the Regretting You set in April 2025, that she had been cast in Sunrise on the Reaping. She was 18 when it happened and 19 when she told it. Teen Vogue (2025-10-06, Sara Delgado) relays the same quotation and is a syndicated copy, not independent corroboration. Opened on 2026-10-27 with curl. Adult-era source (she turned 18 on 2024-06-25).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S11",
+      "url": "https://www.youtube.com/watch?v=vtBVBEn667w",
+      "title": "Mckenna Grace LOSES IT Over Josh Hutcherson Knowing About Her Peeta Fan Edits | Entertainment Tonight",
+      "speaker": "Mckenna Grace, interviewed by ET's Denny Directo",
+      "date": "2025-12-03 (upload; Five Nights at Freddy's 2 premiere)",
+      "locator": "Caption timestamps 00:30-01:20 (lobbying Blumhouse; 'Who let me onto this set?'); 02:40-03:05 ('dream job').",
+      "excerpt": "[00:34] “I basically been like hounding Blumhouse for what feels like 10 years now” ... “I watched the theories. I wrote the theories. I made the edits.” ... [01:11] “Who let me onto this set? It's like I just climbed the barricade onto this carpet. It's like somebody's going to kick me off soon.” ... “in a lot of my interviews lately I'm always like, 'This was my dream job...' But it really truly has been a very strange year. Um, and I'm very grateful.”",
+      "context": "Red-carpet premiere interview, three days after she returned from the Sunrise shoot (she was 19). The clip went viral because the interviewer told Josh Hutcherson about her Peeta fan edits. Auto-captions downloaded with yt-dlp on 2026-10-27. Adult-era source (she turned 18 on 2024-06-25). Read from YouTube auto-captions fetched on 2026-10-27; audio download returned HTTP 403, so wording must be re-checked against audio before direct quotation.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S12",
+      "url": "https://www.youtube.com/watch?v=oRkcA_eM5zI",
+      "title": "McKenna Grace on Being Chronically Online, Scream 7 & Manifesting a Younger Florence Pugh Role (iHeartRadioCA)",
+      "speaker": "Mckenna Grace, interviewed by iHeartRadio's Shannon Burns",
+      "date": "2024-12-14 (upload; Jingle Ball carpet)",
+      "locator": "Caption timestamps 00:15-00:50 (TikTok limit; 'chronically online'); 01:20-01:45 (franchise fear); 02:45-03:00 ('happy to be here').",
+      "excerpt": "“I've been cutting down on my Tik Tok time on lately like I've been like 30 minutes a day” ... “my mom coined the term that I was chronically online so I put a little dime Lion [sic; time limit] on my phone” ... “it's a very scary thing to be a part of a franchise um you know especially when that's been around for so long with so much like pre-existing fan base” ... “I love my job... I'm happy to be here I'm happy to be in movies”",
+      "context": "A short carpet interview soon after her Scream 7 casting was reported, when she was 18. It is the earliest adult-era source used. It shows her mother's role in policing her screen time and an early instance of fear about franchise fan bases. Auto-captions downloaded with yt-dlp on 2026-10-27. Some caption words are garbled (e.g., 'dime Lion' for 'time limit'). Adult-era source (she turned 18 on 2024-06-25). Read from YouTube auto-captions fetched on 2026-10-27; audio download returned HTTP 403, so wording must be re-checked against audio before direct quotation.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S13",
+      "url": "https://www.youtube.com/watch?v=gpfwQF0Rw9Q",
+      "title": "Mckenna Grace on Grief, Growth, and the Lessons Behind \"Regretting You\" (See It or Skip It)",
+      "speaker": "Mckenna Grace, interviewed by Patrick Beatty, See It or Skip It",
+      "date": "2025-10-20 (upload; 3:05)",
+      "locator": "Caption timestamps 00:40-01:05 (dredging up 'old dramas'); 02:05-02:58 (not regretting the past).",
+      "excerpt": "“how long am I going to torture myself with things that have happened in my life or or dredge up old dramas or situations to connect with a character. I listen to a ton of music” ... “I used to say that everything happens for a reason... I look back and I'm like everything that's happened to me, everything that I've been through, it happened and I might not have been able to see a light at the other end of the tunnel at the time, but I have to be happy with who I am now. So, I can't look back and regret what I've done in the past.”",
+      "context": "Short Regretting You junket answer (she was 19). It shows her method of reframing painful experience, and that she prefers music to mining personal pain for emotional scenes. Auto-captions downloaded with yt-dlp on 2026-10-27. Adult-era source (she turned 18 on 2024-06-25). Read from YouTube auto-captions fetched on 2026-10-27; audio download returned HTTP 403, so wording must be re-checked against audio before direct quotation.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S14",
+      "url": "https://www.youtube.com/watch?v=GsJRVUsGPVw",
+      "title": "REGRETTING YOU's Mckenna Grace Returns for Her Second Best Interview Ever | IMDb",
+      "speaker": "Mckenna Grace, IMDb 'Best Interview Ever' segment",
+      "date": "2025-10-22 (upload; 8:11)",
+      "locator": "Caption timestamps 03:03-03:30 (dark romance and horror taste against a 'bright like poppy aesthetic').",
+      "excerpt": "“I'm such a big dark romance type of girl. Like I love those. Eat them up every time. I'm like a very like bright like poppy aesthetic. I feel like I'm very happy, but I I love like a little I love a little weird horror movie.”",
+      "context": "A playful branded segment that intercuts film clips. Lines from Regretting You clips (e.g., 'I don't like to do what people expect') are dialogue, not her own words, and are excluded. Auto-captions downloaded with yt-dlp on 2026-10-27. Adult-era source (she turned 18 on 2024-06-25). Read from YouTube auto-captions fetched on 2026-10-27; audio download returned HTTP 403, so wording must be re-checked against audio before direct quotation.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S15",
+      "url": "https://www.youtube.com/watch?v=prVDntzSxo0",
+      "title": "Scream 7 Q&A Panel at Scaradise 2-28-2026",
+      "speaker": "Mckenna Grace with Celeste O'Connor, Sam Rechner, Ethan Embry, Spencer Charnas, Noah Garrett and Jeremy Conner; moderated panel",
+      "date": "2026-02-28 (panel; uploaded 2026-03-01; 39:14)",
+      "locator": "Caption timestamps 19:50-21:20 (photo op, Matthew Lillard, 'these same families'); 21:35-21:45 (fellow panelist on cookies); 28:24-29:25 (pitching songs on set).",
+      "excerpt": "“I snuck into the Screencast [sic; Scream cast] photo op with everybody... I'm like a fan. and I've just followed them around these conventions and taken pictures with them for like the past 2 or 3 years now” ... “now with um Scooby-Doo, he was honestly the first person... other than like the people very closest to me that I told” ... “to be a part of these same families” ... [unidentified fellow panelist] “Kenna makes makes these amazing cookies with her mom Crystal and you know she sets the family tone as well.” ... “I have so many demos... I have been filming and working and acting for so long now that that tends to take priority sometimes... I'm probably going to be pitching you guys a song at some point or another.”",
+      "context": "Fan-convention panel the day after Scream 7 opened (she was 19). The Matthew Lillard and Scooby-Doo details identify her as the speaker of the photo-op passage. The cookie remark comes from a fellow panelist whose identity the captions don't reveal, and is treated as unattributed testimony. It agrees with her own THR account of baking cookies for the Scream stunt team. Auto-captions downloaded with yt-dlp on 2026-10-27; panel captions often blur speaker turns. Adult-era source (she turned 18 on 2024-06-25). Read from YouTube auto-captions fetched on 2026-10-27; audio download returned HTTP 403, so wording must be re-checked against audio before direct quotation.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S16",
+      "url": "https://www.youtube.com/watch?v=Q_0P2oK1d7k",
+      "title": "Regretting You's Mason Thames and Mckenna Grace Interview Each Other and It's Non-Stop Cuteness | Entertainment Tonight",
+      "speaker": "Mason Thames and Mckenna Grace",
+      "date": "2025-10-20 (upload; 8:28)",
+      "locator": "Caption timestamps 00:40-01:00 (Thames on her); 07:10-08:05 (Octavia Spencer's call and advice).",
+      "excerpt": "Thames: “McKenna is seriously one of the best actors I've worked with... I've learned so much from her. her work ethic, her, you know, how just just powerful she is is really cool.” ... Grace: “Octavia called me uh before I had my meeting with Josh and Brunson and was like, 'You have to do it.'... her advice to me has always been really formative for me growing up since I worked with her on Gifted.”",
+      "context": "Promotional joint interview. ET describes the pair as a real-life couple, so Thames is neither neutral nor independent: his praise establishes how a partner and co-star describes her, not her motive. Auto-captions downloaded with yt-dlp on 2026-10-27. Adult-era source (she turned 18 on 2024-06-25). Read from YouTube auto-captions fetched on 2026-10-27; audio download returned HTTP 403, so wording must be re-checked against audio before direct quotation.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S17",
+      "url": "https://airmail.news/issues/2025-10-25/mckenna-grace",
+      "title": "Close-up: Mckenna Grace (Mckenna Grace On Acting, Horror Films, and Leading \"Regretting You\" With Dave Franco)",
+      "speaker": "Mckenna Grace, interviewed by Carolina de Armas; Air Mail",
+      "date": "2025-10-25",
+      "locator": "Pull quote and the first two paragraphs only; the rest is behind an email wall.",
+      "excerpt": "“I work a lot,” she says. “Even whenever I'm off a production, I'm still working—trying to figure out what to do next, and auditioning.” ... Pull quote: “I was just one of those kids who got really obsessed with Shirley Temple.”",
+      "context": "Phone interview done from Berlin while she was shooting Sunrise on the Reaping. She had been on set since 5 a.m., then had dinner with two Make-a-Wish fans (she was 19). Only the visible opening was opened, with curl on 2026-10-27. The r.jina.ai reader returned only the cookie banner, so nothing beyond the opening is used. Adult-era source (she turned 18 on 2024-06-25).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S18",
+      "url": "https://www.youtube.com/watch?v=RQObwXCw_uk",
+      "title": "McKenna Grace REACTS to Viral Childhood Interview (Exclusive) | Entertainment Tonight",
+      "speaker": "Mckenna Grace, interviewed by ET's Kevin Frazier",
+      "date": "2026-02-26 (upload; Scream 7 Los Angeles premiere)",
+      "locator": "Caption timestamps 00:40-01:00 (Lillard first to know); 01:20-01:50 ('15 years of content').",
+      "excerpt": "“he was actually other than like my family and my like two nearest and dearest he was the first person I told” ... “It's so strange like having like 14, 15 I don't even know how long I've been doing this now but like 15 years of content of your life like on the internet and then randomly it just pops up”",
+      "context": "The Scream 7 premiere carpet, probably the 'one interview at the Scream 7 premiere' after which she told THR she was a nervous wreck. The match is an inference: she gave several premiere interviews. Fetched with youtube-transcript-api on 2026-10-27. Adult-era source (she turned 18 on 2024-06-25). Read from YouTube auto-captions fetched on 2026-10-27; audio download returned HTTP 403, so wording must be re-checked against audio before direct quotation.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S19",
+      "url": "https://www.youtube.com/watch?v=beqJCpCx8HE",
+      "title": "Mckenna Grace's Hunger Games Edits Still Haunt Her | How Online Are You? (Betches)",
+      "speaker": "Mckenna Grace with Joseph Zada and Whitney Peak; Betches",
+      "date": "2026-10-20 (upload; 4:42)",
+      "locator": "Caption timestamps 02:55-03:20 (her adult memory of the 2016 Mr. Church carpet).",
+      "excerpt": "“I remember being really sad cuz I'd worked really hard on it. And I remember like being on the carpet. I was one of few people in that movie and I didn't expect anybody to know who I was. But I was on the carpet giving interviews. And they were like, 'Are you proud of your mom?' And I was like, 'Man, like I just want to be an actress.'”",
+      "context": "Comedic game segment on the Sunrise press tour (she was 20). The memory is from age ten, so it is used only as adult retrospection about wanting her work recognized, never as evidence of a child's type. Fetched with youtube-transcript-api on 2026-10-27. Adult-era source (she turned 18 on 2024-06-25). Read from YouTube auto-captions fetched on 2026-10-27; audio download returned HTTP 403, so wording must be re-checked against audio before direct quotation.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S20",
+      "url": "https://en.wikipedia.org/wiki/Mckenna_Grace",
+      "title": "Mckenna Grace",
+      "speaker": "Wikipedia contributors",
+      "date": "unknown (raw wikitext accessed 2026-10-27)",
+      "locator": "Infobox (birth_date); lead; Early life; Music career; Personal life (relationship, Academy Awards, scoliosis); 2024-present career section.",
+      "excerpt": "Mckenna Grace Burge (born June 25, 2006) is an American actress and singer... Grace has never attended a regular school; she has been homeschooled and had on-set tutors... After signing with Photo Finish Records in 2020, Grace released her debut single, \"Haunted House\", in 2021... As of February 2026, Grace is in a relationship with Mason Thames, her Nimrods and Regretting You co-star. Grace and Thames attended the 98th Academy Awards together.",
+      "context": "Used for biographical scaffolding only: birth date, homeschooling, record label, relationship status, Oscars attendance, and Scream 7 casting history (she 'originally auditioned for the role of Sidney Prescott's daughter, Tatum'). Not used for any psychological claim. The relationship line cites tribune.com.pk (2026-02-19), which was not opened. The 'gaslight myself' line was traced to its source (S01) and taken from there.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S21",
+      "url": "https://en.wikipedia.org/wiki/The_Hunger_Games:_Sunrise_on_the_Reaping",
+      "title": "The Hunger Games: Sunrise on the Reaping",
+      "speaker": "Wikipedia contributors",
+      "date": "unknown (raw wikitext accessed 2026-10-27)",
+      "locator": "Infobox released field; lead; Cast list; Release section.",
+      "excerpt": "The Hunger Games: Sunrise on the Reaping is scheduled to be released in the United States on November 20, 2026. ... Mckenna Grace as Maysilee Donner, a tribute from District 12 and owner of the Mockingjay pin. Grace also portrays Merrilee Donner, Maysilee's twin sister.",
+      "context": "Release date and role. Wikipedia cites the franchise's official account and Deadline. The release date can move.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S22",
+      "url": "https://en.wikipedia.org/wiki/Scooby-Doo:_Origins",
+      "title": "Scooby-Doo: Origins",
+      "speaker": "Wikipedia contributors",
+      "date": "unknown (raw wikitext accessed 2026-10-27)",
+      "locator": "Lead and Release section; casting reference (Deadline, 2026-02-17).",
+      "excerpt": "Scooby-Doo: Origins is scheduled to be released on the streaming service Netflix in 2027, and will consist of eight episodes. ... Mckenna Grace as Daphne Blake",
+      "context": "Status of her Daphne role. She described filming in Atlanta in summer 2026 (S03, S06). The 2027 release window can move.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S23",
+      "url": "https://en.wikipedia.org/wiki/Scream_7",
+      "title": "Scream 7",
+      "speaker": "Wikipedia contributors",
+      "date": "unknown (raw wikitext accessed 2026-10-27)",
+      "locator": "Infobox released; Cast ('Hannah Thurman'); casting section (Isabel May cast as Sidney's daughter, November 2024).",
+      "excerpt": "Mckenna Grace as Hannah Thurman, one of Tatum's best friends who is starring in a school play ... released ... 2026|2|27|United States",
+      "context": "Release date and role. The audition history comes from THR (S02).",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S24",
+      "url": "https://en.wikipedia.org/wiki/Nimrods",
+      "title": "Nimrods",
+      "speaker": "Wikipedia contributors",
+      "date": "unknown (raw wikitext accessed 2026-10-27)",
+      "locator": "Lead and Release.",
+      "excerpt": "Nimrods premiered at the Toronto International Film Festival on September 12, 2025, and was released by Inaugural Entertainment in the United States on August 14, 2026.",
+      "context": "Release history of the Green Day-inspired comedy, formerly titled New Year's Rev, with Mason Thames.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S25",
+      "url": "https://www.youtube.com/watch?v=MyA24lQByPQ",
+      "title": "Mckenna Grace - Bones and All (Official Music Video)",
+      "speaker": "Mckenna Grace (official channel)",
+      "date": "2026-09-25",
+      "locator": "yt-dlp metadata: upload_date 20260925.",
+      "excerpt": "Mckenna Grace - Bones and All (Official Music Video)",
+      "context": "Confirms the single's release date. On a Crocs-sponsored TikTok Live the same day she said, 'I actually have a song coming out tonight. Called Bones and All.' That livestream is a paid brand appearance and is not used as personality evidence.",
+      "kind": "primary",
+      "access": "opened"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "Mckenna Grace was born on June 25, 2006, in Grapevine, Texas; she turned 20 in June 2026.",
+      "passage": "",
+      "class": "observed",
+      "source_ids": [
+        "S20",
+        "S01",
+        "S06"
+      ],
+      "inference": "Birth date fixes the adult-era boundary (2024-06-25) used to select type evidence.",
+      "alternative": "None material; birthplace is from Teen Vogue's profile, birth date from Wikipedia's infobox.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C02",
+      "claim": "She started acting as a small child. She begged for acting classes, and she and her mother flew to Los Angeles when she was five while her father finished medical school. Her father is a doctor and no one in her family works in entertainment.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S06"
+      ],
+      "inference": "Her career is a family project begun in early childhood; work has been the frame of her life since before she could choose it.",
+      "alternative": "This shapes how much of her work rate is temperament versus upbringing; it is circumstance, not type evidence.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C03",
+      "claim": "Her mother travels with her and keeps a spreadsheet tracking all of her projects. In December 2024 her mother called her 'chronically online', after which she capped her TikTok use at about 30 minutes a day.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S01",
+        "S12"
+      ],
+      "inference": "A close parental support structure still organizes her working life at 19-20.",
+      "alternative": "Ordinary for a young performer whose career began at five; does not by itself indicate a dependent or security-seeking temperament.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck if a profile reports a change in who manages or travels with her."
+    },
+    {
+      "id": "C04",
+      "claim": "She was homeschooled and never attended a regular school.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S20"
+      ],
+      "inference": "Her peer world from childhood was film sets, which helps explain why casts become her 'families'.",
+      "alternative": "Background fact only.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C05",
+      "claim": "Her music career: signed with Photo Finish Records in 2020, debut single 'Haunted House' in 2021 (on the Ghostbusters: Afterlife soundtrack), EPs in 2023, 'Twisting the Knife' with Ice Nine Kills for Scream 7 (topped Billboard's hard rock chart), 'Ugly and Rotten' in June 2026, 'Bones and All' on September 25, 2026.",
+      "passage": "",
+      "class": "observed",
+      "source_ids": [
+        "S20",
+        "S03",
+        "S02",
+        "S25"
+      ],
+      "inference": "Music is a sustained second career that she describes as the one place she tells her own story.",
+      "alternative": "Chart claim is THR's; label and early discography are Wikipedia's.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C06",
+      "claim": "Recent and upcoming work: Regretting You (October 24, 2025; also executive producer), Five Nights at Freddy's 2 (December 2025), Scream 7 (February 27, 2026, as Hannah Thurman), Nimrods (US release August 14, 2026), The Hunger Games: Sunrise on the Reaping (US release November 20, 2026, as Maysilee Donner and her twin Merrilee), and Netflix's Scooby-Doo: Origins (2027, eight episodes, as Daphne Blake).",
+      "passage": "",
+      "class": "observed",
+      "source_ids": [
+        "S21",
+        "S22",
+        "S23",
+        "S24",
+        "S05",
+        "S16",
+        "S11"
+      ],
+      "inference": "Situates the November 2026 search spike and shows the density of her 2025-2026 output.",
+      "alternative": "Release dates can move.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck after 2026-11-20 (Sunrise opening) and when Netflix dates Scooby-Doo: Origins."
+    },
+    {
+      "id": "C07",
+      "claim": "She is in a relationship with her Regretting You and Nimrods co-star Mason Thames, reported as of February 2026 and discussed on air in June 2026.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S20",
+        "S06",
+        "S03",
+        "S01"
+      ],
+      "inference": "Thames is a close confidant ('knows every single one of my secrets'), which matters for weighing his testimony and her feedback loop.",
+      "alternative": "Relationship status changes; never use it as personality evidence.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck for any breakup, engagement or change in public status before publication and at each refresh."
+    },
+    {
+      "id": "C08",
+      "claim": "She received the Newport Beach Film Festival's Spotlight Award in October 2026 (reported as October 18).",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "Context for the October 2026 ET interview in which she described stage fright and not belonging.",
+      "alternative": "Award confirmed only by the interviewer and unopened fan-news sites; low-stakes metadata.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C09",
+      "claim": "She attended the March 2026 Academy Awards with Mason Thames and described going to the Oscars as a lifelong dream she 'just got to cross off' her bucket list.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S03",
+        "S20",
+        "S05"
+      ],
+      "inference": "She openly holds conventional recognition goals: in October 2025 she told Collider she wanted 'to go to the Oscars so bad someday'.",
+      "alternative": "Attending the Oscars is a common actor aspiration; weak evidence for any type.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C10",
+      "claim": "Across 2025-2026 she repeatedly describes work as the center of her life: 'My job is my life... I don't like to sit still, so I spend my weekends in the studio' (June 2026); 'I don't really go out. I don't party. I don't do anything on the weekends' (June 2026); 'All I've ever wanted is to work... it's what I've dedicated my life to' (March 2026); 'Even whenever I'm off a production, I'm still working' (October 2025).",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S03",
+        "S06",
+        "S02",
+        "S17",
+        "S01"
+      ],
+      "inference": "Work organizes her identity and time to an unusual degree, consistently across interviews and over a year apart.",
+      "alternative": "A career started at five by a family-run operation, plus promotional settings that reward 'I love my job' answers, could produce this without any particular motive. It fits Three (identity in output), Six (work as security) and Seven (restlessness) alike.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C11",
+      "claim": "She worked back-to-back through 2025 (Scream 7 pre-production, Five Nights at Freddy's 2, Scream 7, Nimrods, Regretting You, Sunrise on the Reaping), said she had not taken a break 'in years', and told SiriusXM she sleeps little ('I just don't sleep') and leans on espresso and energy drinks on productions.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S06",
+        "S02",
+        "S05",
+        "S01"
+      ],
+      "inference": "A costly, repeated choice: exhaustion and no downtime in exchange for continuous work.",
+      "alternative": "Booking density reflects demand for her, and scheduling is partly outside her control.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C12",
+      "claim": "She repeatedly says she treats every job as if it could be her last: 'I always treat every job like it could be my last' (HERO, March 2026); 'I treat every project like it could be my last' (L'Officiel, June 2026); 'I treat everything like it could be the last' (SiriusXM, June 2026); she walks 'into every room like... it could be the last job I have' (Who Let Alyssa Out, October 2026).",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S04",
+        "S03",
+        "S06",
+        "S09"
+      ],
+      "inference": "A recurring scarcity frame: work could vanish at any moment. This supports a security motive (Six) more than pure ambition, though she also presents it as gratitude.",
+      "alternative": "It may be a polished junket formula for gratitude. Repetition shows it is her own phrase, not that it reflects fear.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C13",
+      "claim": "She links her extra work to a hostile industry and to a moral guardrail: 'Sometimes I feel like I do extra work because this industry is so cutthroat at times... I wouldn't want to... step on somebody else to make my way up. It scares me, and I don't think I would like myself very much if that's who I became.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "She works harder as protection against a threatening environment, and fears what ambition could turn her into.",
+      "alternative": "Read as Three: she knows her career drive is strong ('very high importance') and guards against it becoming her whole identity. Read as Two: she fears being selfish. One interview.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C14",
+      "claim": "She rejects luck framing: 'I'm not manifesting. I am working my butt off. I'm like behind the scenes like trying to finagle everything that I can' (June 2026). Joseph Zada calls her 'a bit of a manifester'.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S06",
+        "S04"
+      ],
+      "inference": "She wants success understood as the product of her effort and maneuvering.",
+      "alternative": "Equally compatible with Three (credit for achievement) and Six (control through effort); a reply to a host's prompt.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C15",
+      "claim": "She lobbies for years for roles in franchises she loves: 'hounding Blumhouse for what feels like 10 years' for Five Nights at Freddy's; 'after this project for so, so long' for Scooby-Doo; 'begging them to hire me' and 'going out for it for ages... so quiet and so secret' for Sunrise on the Reaping.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S11",
+        "S02",
+        "S08",
+        "S10",
+        "S03"
+      ],
+      "inference": "Persistent, self-directed pursuit of belonging inside beloved fan properties.",
+      "alternative": "Strategic career-building in a branded-IP era; also fan identity. Persistence itself does not separate types.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C16",
+      "claim": "Asked by THR (March 2026) whether as a lead she should hold out for leads rather than five-minute parts, she rejected the status frame: 'I don't even see myself that way... If I'm going to be there for five minutes, why not?' She said she had sent Five Nights at Freddy's creators a video offering to 'play a pair of shoes in the background... I would even be your shadow on set. So I'm just a fan.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "Being part of a franchise she loves outranks billing. This counts against a Three reading centered on rank and image, and fits Six (belonging), Seven (fun) or Two.",
+      "alternative": "Small parts in mega-franchises may be a shrewd visibility strategy, and junket humility rewards this answer. Not yet a defensible discriminator.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C17",
+      "claim": "She manages scrutiny through preparation: 'So I always get very nervous and try to do my research so I can perform to the best of my abilities without getting in my head about it' (THR). She kept character notebooks and stayed up until about 2 a.m. writing in the book's margins with Zada; she brought Francis Lawrence an annotated book and a notebook of ideas in week one; and she wore Maysilee's braid 'every single day of pre-production to try and convince them. I didn't need to convince them.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S05",
+        "S06",
+        "S04",
+        "S01",
+        "S08"
+      ],
+      "inference": "She anticipates resistance and judgment and works to get ahead of them, even when, by her own account, the resistance never came.",
+      "alternative": "Thorough preparation is standard craft for a book adaptation with an intense fan base. The braid story is told as a joke.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C18",
+      "claim": "Over roughly a year she repeatedly readied music releases and then pulled them about a week out: 'I kind of like break down and I'm like... the internet's going to hate this like they're all going to hate it... I pull it.' She finally decided to 'rip the band-aid off' with 'Ugly and Rotten' (June 2026).",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S06",
+        "S03"
+      ],
+      "inference": "A costly, repeated choice: fear of public rejection overrode her creative output. L'Officiel confirms she had not released music 'in over a year'.",
+      "alternative": "Fits Six (anticipatory worst case), Three (fear of public failure) and Two (fear of being disliked) equally. Her filming schedule is a competing explanation she also gives (S02, S15). A single first-person source for the pulling itself.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C19",
+      "claim": "She says the 2025-2026 virality cycle made her nervous in public for the first time: 'I have never gotten nervous on a carpet or in interviews until now... I was a nervous wreck... Every other week, the internet either loves you or hates you' (March 2026). In June 2026 she added that the internet 'kind of decide when they like you and they don't'.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S06",
+        "S18"
+      ],
+      "inference": "Shows acute sensitivity to public approval, and dates the onset.",
+      "alternative": "By her own account the anxiety is recent and circumstantial, triggered by the 2026 virality cycle, which weakens it as evidence of a lifelong core type.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C20",
+      "claim": "In adult interviews she repeatedly describes self-doubt and not belonging: 'I don't always have that kind of confidence... I'm still every day proving myself' (October 2025); 'Who let me onto this set?... somebody's going to kick me off soon' (December 2025); 'the craziest impostor syndrome' (June 2026); 'I have stage fright... I totally feel like I don't belong... pitching myself even on the days that like I totally don't believe in myself... I still feel like I have a lot to prove' (October 2026).",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S05",
+        "S11",
+        "S03",
+        "S07"
+      ],
+      "inference": "Persistent insecurity about whether she has earned her place: Six (belonging, doubt) or Three (worth must be proven).",
+      "alternative": "Self-deprecation is the expected register for a young star on a junket, and some lines are jokes. 'Proving myself' fits Three as well as Six.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C21",
+      "claim": "Asked when people began seeing her as a leading lady, she said she is trying to adopt that self-view: 'if I view myself in that way then I can try and convince other people to view... myself in that way' (October 2026).",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "A deliberate image strategy, in which she adopts the self-image others should see. This is the clearest Three-shaped passage in the record.",
+      "alternative": "One auto-captioned red-carpet answer. It could be ordinary confidence self-talk or counterphobic courage (Six).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C22",
+      "claim": "She manufactures positive energy on purpose: 'some days I just gaslight myself into being happy or energetic', using a rainbow-dolphin image as 'my energy for the day' (Teen Vogue, November 2025). She tries to be 'positive as much as I can, no matter the circumstance' because 'I have eyes on me and I've had eyes on me my whole life' (October 2026).",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S09"
+      ],
+      "inference": "Positivity is a chosen discipline tied to being watched and to the people in the room.",
+      "alternative": "Three (managing affect for performance and image), Seven (reframing toward the positive) and Two (for others) all fit. Publicists reward this.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C23",
+      "claim": "Teen Vogue's interviewer observed that 'there is little that... Grace can't spin into something good. Rejection is fuel. Disappointment is a sign of desire...', and watched her 'searching for a bright side' when discussing her spinal surgery.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "An outside observer saw habitual reframing of negatives, the strongest Seven-shaped evidence in the record.",
+      "alternative": "One writer, one sitting, framed for a cover headline ('Relentless Optimist'). She also openly narrates pain elsewhere (C18, C20, C38).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C24",
+      "claim": "She names kindness as her core value: 'I always want to make people feel important and seen. Even sometimes, maybe to a fault. I think that I can be a little overly excited' (November 2025). She says she tries 'to spread kindness and happiness wherever I can and I fail sometimes' (October 2026).",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S09"
+      ],
+      "inference": "Making others feel seen is how she describes herself. This is the core of the Two alternative.",
+      "alternative": "A stated value, not an observed cost. Also consistent with a Three or Six who prizes being liked or keeping the group together.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C25",
+      "claim": "She takes care of colleagues on set. During the Sunrise shoot in Spain she made Zada join dinner with her mother 'every night' when he was too tired, and made him a birthday cake from supermarket sponge cake, strawberries and whipped cream. She brought the Scream 7 stunt team cookies 'every day'. A fellow Scream panelist said she makes cookies with her mother and 'sets the family tone'.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S04",
+        "S02",
+        "S15"
+      ],
+      "inference": "Repeated, concrete caretaking that builds group cohesion: Two (giving) or Six (group 'family').",
+      "alternative": "Normal collegial warmth on long shoots. The panelist is unidentified.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C26",
+      "claim": "Joseph Zada, her Sunrise on the Reaping co-star and next-door neighbor for six weeks of the shoot, described her as 'the sweetest person in the world', still 'so excited to meet everyone', and 'somebody who could never stop working'.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Independent of her self-reports on warmth and work rate, though not of the promotional setting.",
+      "alternative": "A mutual-praise magazine conversation. He observes behavior, not motive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C27",
+      "claim": "Mason Thames, her co-star and partner, praised 'her work ethic... how just powerful she is' (October 2025).",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S16"
+      ],
+      "inference": "Corroborates the work-rate pattern from someone close to her.",
+      "alternative": "Not independent: promotional and romantically involved.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C28",
+      "claim": "Her family notices role absorption. Thames and her mother told her 'your personality changes a bit after each of the sets' ('just tired' as Maysilee, 'the bubbliest we've ever seen you' as Daphne). She recalls that as a child playing Christmas Flint 'that was my personality for a year', and says 'I'll go be other people, and then I get home, and I'm me.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S03",
+        "S01"
+      ],
+      "inference": "A chameleon quality that the Three reading explains (identity adapts to the role), offset by her own claim of a stable family-anchored self.",
+      "alternative": "Occupational: actors who start very young often absorb roles. She says she is 'not method'. The Christmas Flint memory is adult retrospection about childhood and is used only as such.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C29",
+      "claim": "As a 19-year-old executive producer on Regretting You she held back for fear of overstepping ('you never want to overstep your balance or you never want to like step on anybody's toes') until long green-room conversations with Allison Williams and Dave Franco in the last week of production helped her see that 'it's not disrespectful and it's not um overstepping just to give your opinion'.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "Deference to hierarchy, and needing permission from trusted seniors before asserting herself: Six- or Two-shaped.",
+      "alternative": "Ordinary for the youngest producer on a set; she frames it as a gender and age dynamic, not personal anxiety.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C30",
+      "claim": "She seeks trusted feedback before going public. Thames is her music 'test audience' ('You got to tell me if you actually hate it'), and she calls Octavia Spencer's advice, including a call urging her to take Regretting You, 'formative for me growing up'.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S06",
+        "S16"
+      ],
+      "inference": "Reliance on a small circle of trusted people for reassurance and direction: Six-shaped.",
+      "alternative": "Seeking feedback from a partner and a mentor is common and sensible.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C31",
+      "claim": "She describes herself as a fan who wants to belong to franchise 'families': she snuck into the Scream cast photo op at a convention, followed Matthew Lillard and another original Scream actor around conventions as a fan for 'the past 2 or 3 years', told Lillard about Scooby-Doo before almost anyone, and calls being cast in these franchises getting 'to be a part of these same families'.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S15",
+        "S02",
+        "S18"
+      ],
+      "inference": "Belonging to beloved communities is a repeated pull in her adult choices.",
+      "alternative": "Genuine fandom and convention culture; the fan persona is also part of her public brand.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C32",
+      "claim": "She treats casts as family: 'Our little family' (Spain, with Zada and the mothers); 'I have such a nice family off of that film' (Regretting You); texting her cast 'I miss you guys already' after half a day away (June 2026).",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S04",
+        "S05",
+        "S06"
+      ],
+      "inference": "Attachment to the group is a stable feature across productions.",
+      "alternative": "Common among actors on long location shoots, and especially among former child actors.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C33",
+      "claim": "She expected rejection before her Sunrise casting: 'every time I get fan-casted for a role, I want so bad... and then I don't get it.' When castmates guessed her news she joked, 'You're going to make me lose the job that I don't have... I was so scared' (October 2025).",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S10"
+      ],
+      "inference": "Anticipatory pessimism about outcomes she wants badly: Six-shaped.",
+      "alternative": "Told with humor in a junket. A real pattern of losing fan-cast roles would justify the caution.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C34",
+      "claim": "She separates acting from music: 'In acting, I'm telling other people's stories. In music, I get to tell my own. It's a lot scarier... I get to be a lot angrier or messier... When I'm singing, I don't want to feel like I'm putting on another identity, since that's what I do for work already' (June 2026).",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "She is aware that her work involves wearing identities and protects one space from that. This complicates a simple Three reading.",
+      "alternative": "Common artist framing; also hints at a Four-like authenticity concern the evidence does not otherwise support.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C35",
+      "claim": "She notes a contrast between a 'very like bubbly personality' and 'bright like poppy aesthetic' and her love of horror, heavy metal and 'dark romance' (October 2025). She shares the horror and metal tastes with her father.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S05",
+        "S14",
+        "S02"
+      ],
+      "inference": "The persona and the private tastes diverge, which no leading type neatly explains.",
+      "alternative": "Taste is weak personality evidence.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C36",
+      "claim": "She avoids cursing: she says she 'kind of got like bullied into' cursing when younger, hates it, and uses 'jeepers' instead (June 2026; March 2026).",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S06",
+        "S02"
+      ],
+      "inference": "A personal standard she holds against peer pressure. Unexplained by the leading types.",
+      "alternative": "Small and possibly image-conscious; her reasons are not given in depth.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C37",
+      "claim": "She reframes past pain as formative: 'I can't look back and regret what I've done in the past... it's made you who you are today' (October 2025). Of eight months' training for a film that was then shelved, she said, 'everything happens for a reason. I'm so glad I did it' (November 2025).",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S13",
+        "S01"
+      ],
+      "inference": "Habitual positive reframing, supporting the Seven and Three alternatives.",
+      "alternative": "Theme-of-the-movie answer for Regretting You; reframing after a hard recovery is common.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C38",
+      "claim": "Looking back as an adult, she describes poor body image as a younger teenager, her 2022 spinal surgery as 'the hardest thing I've ever done' followed by greater confidence, and fashion as something that moved from 'anxiety' to 'healing'.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S03",
+        "S07"
+      ],
+      "inference": "Context for her current confidence and style; not type evidence.",
+      "alternative": "Sensitive health and minor-era material. Use only her adult framing, and omit the minor-era body rumor unless strictly necessary.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C39",
+      "claim": "She describes her job as dependent on being liked: 'The whole basis of my job is hoping that people like me and that people want to hire me' and 'your whole thing is to make people like you' (November 2025). She also says she cannot control what is out there of her and uses social media to show 'here's me'.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Approval sensitivity is explicit, but she attributes it to the profession.",
+      "alternative": "Occupational truth for any actor; it does not separate Two, Three and Six.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C40",
+      "claim": "As an adult she recalls being 'really sad cuz I'd worked really hard on it' when a 2016 carpet interviewer assumed she was there for her mother: 'Man, like I just want to be an actress.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S19"
+      ],
+      "inference": "Wanting her work recognized is an early and enduring theme in her own telling.",
+      "alternative": "A comic retelling of a childhood memory. It must not be used to type the child.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C41",
+      "claim": "Provisional leading read, held at low confidence: Type 6. Work, preparation and belonging to cast and fan 'families' seem to protect her against a scrutiny she expects to turn on her: every job could be her last, she prepares to pre-empt resistance, pulls releases she fears will be hated, and asks trusted people for permission and feedback.",
+      "passage": "",
+      "class": "interpretation",
+      "source_ids": [
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S09",
+        "S10",
+        "S15"
+      ],
+      "inference": "Explains the anxiety, preparation, deference and group attachment better than the alternatives do.",
+      "alternative": "Three explains the output, image-awareness and chameleon quality. Two explains the caretaking. Seven explains the deliberate joy and reframing. Her bubbly, trusting public register is not typical Six.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C42",
+      "claim": "Strongest alternative: Type 3. Her identity has been built around continuous work since age five. She talks about proving herself, credits effort over luck, consciously projects a self-image so others will adopt it, manufactures energy for the room, and shifts personality with roles.",
+      "passage": "",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S06",
+        "S07"
+      ],
+      "inference": "Explains the relentless output and the image management directly.",
+      "alternative": "Her rejection of rank (C16), her open confessions of insecurity and her fan identity sit awkwardly with a Three focused on image.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C43",
+      "claim": "Types 2 and 7 remain live. Two rests on her stated core value of making people feel 'important and seen... to a fault' and on repeated caretaking (C24, C25). Seven rests on her self-generated joy, 'I can't sit still', and a journalist's observation that she spins everything into something good (C22, C23, C37).",
+      "passage": "",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S04",
+        "S09",
+        "S02"
+      ],
+      "inference": "No current evidence rules either out.",
+      "alternative": "Two is weakened by her putting work ahead of social life (C10). Seven is weakened by her open dwelling on fear, pain and doubt (C18, C20, C38).",
+      "durability": "stable",
+      "review_trigger": ""
+    }
+  ],
+  "type_hypothesis": {
+    "type": 6,
+    "confidence": "low",
+    "for_claim_ids": [
+      "C12",
+      "C13",
+      "C16",
+      "C17",
+      "C18",
+      "C20",
+      "C29",
+      "C30",
+      "C31",
+      "C33",
+      "C41"
+    ],
+    "against": "Several things cut against a Six reading. Her default public register is high, bubbly enthusiasm and deliberate positivity (C22, C23, C35), with little of the suspicion, testing of authority or worst-case talk about people that Six usually shows; she lobbies studios and directors for years rather than doubting them (C15). By her own account she 'never' got nervous on a carpet in nearly 15 years until the 2026 virality cycle (C19), so some of the anxiety is recent and circumstantial. Her work drive reads at least as much like identity and proving (C10, C11, C14, C20, C21) as like security. Her stated core value is making people feel 'important and seen... to a fault' (C24), a Two signature, and a Teen Vogue interviewer saw her turn everything into something good (C23), a Seven-like habit. Nearly every source is promotional, and much of the self-doubt is junket self-deprecation the format rewards.",
+    "alternative_type": 3,
+    "alternative_case": "Type 3: Work has organized her identity since she was five ('My job is my life'; 'All I've ever wanted is to work'; C10, C11). She talks about having 'a lot to prove' (C20), credits effort and behind-the-scenes 'finagling' over luck (C14), and describes a conscious strategy of adopting a self-image so that others will adopt it ('if I view myself in that way then I can try and convince other people', C21). She manufactures energy for the room ('gaslight myself into being happy or energetic', C22), her partner and mother see her personality shift with each role (C28), she calls being liked 'the whole basis of my job' (C39), and she fears public rejection enough to pull finished songs (C18). This explains the relentless output, the image-awareness and the chameleon quality more directly than Six does.",
+    "discriminator": "No defensible discriminator yet. The best candidate is rank versus belonging. Asked by THR in March 2026 whether a lead actor should hold out for leads, she rejected the status frame ('I don't even see myself that way') and described offering to 'play a pair of shoes in the background' to get into a franchise she loves (C16). That points away from Three, but branded-IP career economics and junket humility weaken it, and it does not separate Six from Seven or Two. The second candidate, what she does with self-doubt, splits evenly: preparation, trusted feedback and asking permission (C17, C29, C30) read Six, while projecting a chosen self-image and manufacturing energy (C21, C22) read Three. Pulling releases for fear of hate (C18) fits Six, Three and Two equally. A real discriminator needs adult, non-promotional evidence of how she handles a setback, or a choice between belonging and advancement.",
+    "unexplained": "Her role absorption ('your personality changes a bit after each of the sets', C28) alongside her insistence that music is where she refuses to 'put on another identity' (C34). Her firm aversion to cursing (C36). The darker tastes (metal, horror, angry diary-based songs) beneath a pink, bubbly persona (C35). The tension between 'I don't want to get too ambitious' (S03) and 'I put my career at very high importance' (C13). How much of the work rate and the mother-managed structure (C02, C03) is a family business set in early childhood rather than temperament."
+  },
+  "profile_format": "standard"
+}

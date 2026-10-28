@@ -1,5 +1,5 @@
 {
-	"lastUpdated": "2026-10-26T17:23:44Z",
+	"lastUpdated": "2026-10-27T06:25:31Z",
 	"stats": {
 		"totalUnpublished": 132,
 		"totalPublished": 391,
@@ -43,19 +43,6 @@
 			"personaTitle": null,
 			"addedToQueue": "2026-10-21",
 			"retryCount": 0
-		},
-		{
-			"name": "mckenna-grace",
-			"displayName": "Mckenna Grace",
-			"type": null,
-			"priority": 90,
-			"priorityReason": "Sunrise on the Reaping (Maysilee) opens Nov 20; Wikipedia 8.4K/day Jun -> 11.9K L7, rising. Adult-era first-person sources only (much of her record is from childhood).",
-			"estimatedTraffic": "high",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-10-26",
-			"retryCount": 0,
-			"strategicValue": "hunger-games-cluster"
 		},
 		{
 			"name": "anthony-ippolito",
@@ -215,6 +202,23 @@
 		}
 	],
 	"completed": [
+		{
+			"name": "dhar-mann",
+			"displayName": "Dhar Mann",
+			"type": null,
+			"priority": 70,
+			"priorityReason": "Rolling Stone Most Influential Creators 2026 #6; 171M followers, largest uncovered audience on the list. Wikipedia ~570/day last 30, down from ~1,040 in June. Evergreen bio demand, no dated catalyst - runs after the surge picks.",
+			"estimatedTraffic": "medium",
+			"searchVolume": "medium",
+			"personaTitle": null,
+			"addedToQueue": "2026-10-11",
+			"retryCount": 0,
+			"strategicValue": "creator-economy-cluster",
+			"startedAt": "2026-10-26T06:00:00Z",
+			"completedAt": "2026-10-27T06:00:00Z",
+			"needsReview": true,
+			"recoveryNote": "Reconciled by nightly-blog-cron: draft existed but queue was never updated."
+		},
 		{
 			"name": "josh-hartnett",
 			"displayName": "Josh Hartnett",
@@ -2094,20 +2098,7 @@
 			"reconcileNote": "Pipeline completed after daily creator wrapper relaunched it detached; manually reconciled queue state from final logs."
 		}
 	],
-	"inProgress": {
-		"name": "dhar-mann",
-		"displayName": "Dhar Mann",
-		"type": null,
-		"priority": 70,
-		"priorityReason": "Rolling Stone Most Influential Creators 2026 #6; 171M followers, largest uncovered audience on the list. Wikipedia ~570/day last 30, down from ~1,040 in June. Evergreen bio demand, no dated catalyst - runs after the surge picks.",
-		"estimatedTraffic": "medium",
-		"searchVolume": "medium",
-		"personaTitle": null,
-		"addedToQueue": "2026-10-11",
-		"retryCount": 0,
-		"strategicValue": "creator-economy-cluster",
-		"startedAt": "2026-10-26T06:00:00Z"
-	},
+	"inProgress": null,
 	"skipped": [
 		{
 			"name": "dakota-johnson",
@@ -2861,6 +2852,39 @@
 					"enneagram_below_8:7.5"
 				],
 				"run_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-25_06-00-02-828_kareem-rahma"
+			}
+		},
+		{
+			"name": "mckenna-grace",
+			"displayName": "Mckenna Grace",
+			"type": null,
+			"priority": 90,
+			"priorityReason": "Sunrise on the Reaping (Maysilee) opens Nov 20; Wikipedia 8.4K/day Jun -> 11.9K L7, rising. Adult-era first-person sources only (much of her record is from childhood).",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-10-26",
+			"retryCount": 0,
+			"strategicValue": "hunger-games-cluster",
+			"startedAt": "2026-10-27T06:00:00Z",
+			"heldAt": "2026-10-27T06:25:31Z",
+			"needsReview": true,
+			"pipelineResult": {
+				"subject": "mckenna-grace",
+				"run_status": "held",
+				"editorial_status": "insufficient_evidence",
+				"blockers": [
+					"Open the long-form sit-down material from the Sunrise on the Reaping press tour (US release 2026-11-20): podcasts or profiles of 30+ minutes, not red-carpet junkets. Code every adult account of a setback by her response: reassurance, preparation and trusted people (6); re-asserting image and output (3); reframing toward fun or new options (7); turning toward others' needs (2). Candidate setbacks: losing the Scream 7 role she first auditioned for (S02, S20), the year of pulled music releases (C18), the 2026 'internet hates you' cycle (C19).",
+					"Find named, on-record testimony from adult-era collaborators who are not promoting a joint project with her or dating her: Francis Lawrence, Josh Boone, Kevin Williamson, Emma Tammi, Allison Williams or Dave Franco as Regretting You producers, the Scooby-Doo: Origins showrunners. Look for how she takes notes, criticism and pressure, not for praise of her work ethic.",
+					"Identify the 2026 online backlash she referenced to THR (2026-03-07: 'Every other week, the internet either loves you or hates you') and SiriusXM (June 2026: 'they kind of decide when they like you and they don't'). Establish what happened and her own adult response from dated primary posts or interviews.",
+					"Get a second, independent first-person account of the roughly year-long run of pulled music releases, and of what finally let her release 'Ugly and Rotten' (June 2026) and 'Bones and All' (2026-09-25): reassurance from trusted people (6), a strategic or schedule decision (3), or something else.",
+					"Find an adult interview, outside junket framing, where she weighs a small part in a franchise she loves against a lead elsewhere, or explains turning work down. This tests whether the role-size answer (C16) holds as a discriminator against Three.",
+					"Test the Two alternative. Find adult evidence of what she does when relationships and work conflict (time with family or Mason Thames against bookings), and whether her caretaking (C25) extends beyond the cast 'families' she belongs to.",
+					"Before any direct quotation, re-transcribe from audio (Whisper large-v3-turbo) the auto-caption passages relied on here: SiriusXM DaGfC6UwbCo 15:09-15:45 and 01:00-01:45; ET whkWpbfsFmg 02:48-04:30; Who Let Alyssa Out igfn1lbEL6o 04:07-05:30; Collider s56VU0CWnfA 12:38-13:45 and 30:25-31:10. YouTube audio downloads returned HTTP 403 on 2026-10-27, so only captions were read.",
+					"Keep minor-era material out of the type argument; she turned 18 on 2024-06-25. Deliberately not used: PAPER (2022-07-08), NME on 'Self Dysmorphia' (2023), Zach Sang (2023-10-19), Consequence (2024-01-08), Riff Magazine (age 17), Bob Saget's Here For You (2021), and the 2024-06-02 JackManifold stream. Childhood context may enter only through her adult retrospection (e.g., S01, S19). Treat the minor-era body rumor and surgery details with care or leave them out.",
+					"Do not convert this to an open case. Her public career began around 2012 (Crash & Bernstein) and her breakout was Gifted (2017), so she fails the standard's early-public-career rule. Her adult record is not thin in volume, only promotional and ambiguous. Re-run research after the November 2026 press cycle, around 2026-12-01, carrying these source and claim IDs forward."
+				],
+				"run_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-27_06-00-04-694_mckenna-grace"
 			}
 		}
 	]

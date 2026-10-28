@@ -6,12 +6,12 @@ description: >-
   For years, Paapa Essiedu has described dreading being found out before each
   new job. Why that reads as Type 6, and where Type 1 and Type 3 push back.
 author: DJ Wayne
-date: '2026-10-20'
+date: '2026-10-27'
 loc: 'https://9takes.com/personality-analysis/paapa-essiedu'
-lastmod: '2026-10-20'
+lastmod: '2026-10-27'
 changefreq: monthly
 priority: '0.6'
-published: false
+published: true
 enneagram: '6'
 type:
   - movieStar

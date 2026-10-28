@@ -1,0 +1,54 @@
+{
+  "schema_version": 3,
+  "subject": "mckenna-grace",
+  "mode": "create",
+  "started_at": "2026-10-27T06:00:04.695Z",
+  "stages": {
+    "research": {
+      "status": "complete",
+      "started_at": "2026-10-27T06:00:04.698Z",
+      "cache_key": "a21f499d14f066219adb527b6c440490fde366ea49a80420f2b146000bf3d701",
+      "input_hashes": {
+        "baseline": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "project_local_settings": "71d03b589826f647e87c642d87b3d4b2482dd132355c98a0daf5ae2ec6d8e8c1",
+        "user_settings": "1a985958a797cc404e1afe13c515b20d030213c8a84aa271fa23d92c4f579ca8",
+        "command": "2fb89b06fb7ae4d5f77a7de81fee26e8c8c09a29ab923d201690a22794c29eac",
+        "standard": "62d29010ef46202cdaf6fd0c74b61649fe58b9e1223ca0fac70f987b52598aac",
+        "contract": "cf00ac719ecbde77cc16ec4bf8558f53a1c271e582e04288c6e30312ded4057b",
+        "runner": "ca10cd6ca7e34093db03b00c0ce8097e846ec2f8a51a24be8b80873277fc0636"
+      },
+      "model": "CLI default",
+      "output_hashes": {
+        "evidence.json": "6e1d6aafb0fa0aed3da84b7ae8a8e2c6ebc69758d8bef566af12729f8dd1f013"
+      },
+      "finished_at": "2026-10-27T06:25:31.255Z",
+      "duration_seconds": 1527
+    }
+  },
+  "baseline_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "materialized_sha256": null,
+  "expanded": false,
+  "run_status": "held",
+  "editorial_status": "insufficient_evidence",
+  "current_stage": "research",
+  "blockers": [
+    "Open the long-form sit-down material from the Sunrise on the Reaping press tour (US release 2026-11-20): podcasts or profiles of 30+ minutes, not red-carpet junkets. Code every adult account of a setback by her response: reassurance, preparation and trusted people (6); re-asserting image and output (3); reframing toward fun or new options (7); turning toward others' needs (2). Candidate setbacks: losing the Scream 7 role she first auditioned for (S02, S20), the year of pulled music releases (C18), the 2026 'internet hates you' cycle (C19).",
+    "Find named, on-record testimony from adult-era collaborators who are not promoting a joint project with her or dating her: Francis Lawrence, Josh Boone, Kevin Williamson, Emma Tammi, Allison Williams or Dave Franco as Regretting You producers, the Scooby-Doo: Origins showrunners. Look for how she takes notes, criticism and pressure, not for praise of her work ethic.",
+    "Identify the 2026 online backlash she referenced to THR (2026-03-07: 'Every other week, the internet either loves you or hates you') and SiriusXM (June 2026: 'they kind of decide when they like you and they don't'). Establish what happened and her own adult response from dated primary posts or interviews.",
+    "Get a second, independent first-person account of the roughly year-long run of pulled music releases, and of what finally let her release 'Ugly and Rotten' (June 2026) and 'Bones and All' (2026-09-25): reassurance from trusted people (6), a strategic or schedule decision (3), or something else.",
+    "Find an adult interview, outside junket framing, where she weighs a small part in a franchise she loves against a lead elsewhere, or explains turning work down. This tests whether the role-size answer (C16) holds as a discriminator against Three.",
+    "Test the Two alternative. Find adult evidence of what she does when relationships and work conflict (time with family or Mason Thames against bookings), and whether her caretaking (C25) extends beyond the cast 'families' she belongs to.",
+    "Before any direct quotation, re-transcribe from audio (Whisper large-v3-turbo) the auto-caption passages relied on here: SiriusXM DaGfC6UwbCo 15:09-15:45 and 01:00-01:45; ET whkWpbfsFmg 02:48-04:30; Who Let Alyssa Out igfn1lbEL6o 04:07-05:30; Collider s56VU0CWnfA 12:38-13:45 and 30:25-31:10. YouTube audio downloads returned HTTP 403 on 2026-10-27, so only captions were read.",
+    "Keep minor-era material out of the type argument; she turned 18 on 2024-06-25. Deliberately not used: PAPER (2022-07-08), NME on 'Self Dysmorphia' (2023), Zach Sang (2023-10-19), Consequence (2024-01-08), Riff Magazine (age 17), Bob Saget's Here For You (2021), and the 2024-06-02 JackManifold stream. Childhood context may enter only through her adult retrospection (e.g., S01, S19). Treat the minor-era body rumor and surgery details with care or leave them out.",
+    "Do not convert this to an open case. Her public career began around 2012 (Crash & Bernstein) and her breakout was Gifted (2017), so she fails the standard's early-public-career rule. Her adult record is not thin in volume, only promotional and ambiguous. Re-run research after the November 2026 press cycle, around 2026-12-01, carrying these source and claim IDs forward."
+  ],
+  "finished_at": "2026-10-27T06:25:31.256Z",
+  "completed": true,
+  "person": "mckenna-grace",
+  "draft_path": "/Users/djwayne/9takes/src/blog/people/drafts/mckenna-grace.md",
+  "log_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-27_06-00-04-694_mckenna-grace",
+  "revised": false,
+  "final_overall": null,
+  "final_discoverability": null,
+  "perspective_final_status": "hold"
+}

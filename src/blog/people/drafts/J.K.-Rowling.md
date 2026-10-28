@@ -325,3 +325,5 @@ The woman who signed her real name on hidden marble invented a fake name to find
 She is still answering it.
 
 > **Disclaimer:** This analysis of J.K. Rowling's Enneagram type is speculative, based on publicly available information, and may not reflect her actual personality type.
+
+**Related reading:** [Paapa Essiedu's personality profile](/personality-analysis/paapa-essiedu).

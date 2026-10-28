@@ -403,3 +403,5 @@ PRIORITY FIXES (numbered, in order of impact — 3 max):
 3. Replace the post-Potter filmography section with one structural argument (e.g., the actual hit-rate of "selective" choices, including how Beauty and the Beast and Little Women are her only two financial successes since 2011). The "selective by design" thesis isn't visible in the actual data the section presents.
 
 ============================================================ -->
+
+**Related reading:** [Paapa Essiedu's personality profile](/personality-analysis/paapa-essiedu).

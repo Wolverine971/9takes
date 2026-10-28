@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://9takes.com/blog</loc>
-    <lastmod>2026-10-26</lastmod>
+    <lastmod>2026-10-27</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/book-session</loc>
@@ -947,7 +947,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis</loc>
-    <lastmod>2026-10-26</lastmod>
+    <lastmod>2026-10-27</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/aaron-pierre</loc>
@@ -1497,7 +1497,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories</loc>
-    <lastmod>2026-10-26</lastmod>
+    <lastmod>2026-10-27</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/authors-thinkers</loc>
@@ -1749,6 +1749,13 @@
     <lastmod>2026-03-01</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/8s/Denzel-Washington.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://9takes.com/personality-analysis/dhar-mann</loc>
+    <lastmod>2026-10-27</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/3s/Dhar-Mann.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -3271,6 +3278,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/personality-analysis/paapa-essiedu</loc>
+    <lastmod>2026-10-27</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/6s/Paapa-Essiedu.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis/palmer-luckey</loc>
     <lastmod>2026-02-20</lastmod>
     <image:image>
@@ -4085,7 +4099,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/3</loc>
-    <lastmod>2026-10-26</lastmod>
+    <lastmod>2026-10-27</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/4</loc>
@@ -4097,7 +4111,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/6</loc>
-    <lastmod>2026-10-26</lastmod>
+    <lastmod>2026-10-27</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/7</loc>
@@ -4464,7 +4478,7 @@
   </url>
   <url>
     <loc>https://9takes.com/questions</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-27</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/questions/advice-18-year-old-wants-go-college-doesnt-know-wants</loc>
@@ -4476,7 +4490,7 @@
   </url>
   <url>
     <loc>https://9takes.com/questions/categories</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-27</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/questions/categories/building-self-confidence-and-self-worth</loc>
@@ -4484,7 +4498,7 @@
   </url>
   <url>
     <loc>https://9takes.com/questions/categories/community-and-social-relationships</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-27</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/questions/categories/daily-routines</loc>
@@ -4524,15 +4538,15 @@
   </url>
   <url>
     <loc>https://9takes.com/questions/categories/personal-growth</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-27</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/questions/categories/personal-interests-and-lifestyle</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-27</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/questions/categories/personal-life-and-wellness</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-27</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/questions/categories/political-ideologies</loc>
@@ -4552,7 +4566,7 @@
   </url>
   <url>
     <loc>https://9takes.com/questions/categories/relationships</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-27</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/questions/categories/romantic-relationships</loc>
@@ -4564,7 +4578,7 @@
   </url>
   <url>
     <loc>https://9takes.com/questions/categories/self-relationship</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-27</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/questions/change-something-yourself-change</loc>
@@ -4680,7 +4694,7 @@
   </url>
   <url>
     <loc>https://9takes.com/questions/what-goes-through-your-head-right-after-someone-compliments-you</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-27</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/questions/what-is-something-you-would-change-about-yourself</loc>
