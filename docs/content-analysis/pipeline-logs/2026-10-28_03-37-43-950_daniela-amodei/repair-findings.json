@@ -1,0 +1,27 @@
+{
+  "eligible": false,
+  "blockers": [
+    "verification:revise",
+    "unresolved:verify-01:The editor added this as the main positive One-over-Two datum after the jury review (absent from draft.md), and the type answer, the Type 2 FAQ and 'Why not Type 2?' lean on it. The Grit sentence (S32 92:57-93:29) in full: '...trying to be honest with each other and trying to give feedback and coming from a place of wanting the best for the other person and maybe they get it a little bit wrong than a place where people are not communicating feedback.' The fragments are verbatim, but the cut drops her own relational motive, which bears directly on 1 vs 2. 'Honest and a little wrong beats smooth and silent' and the FAQ's 'prefers honest feedback ... to silence' inherit the trim. The jury caught this pattern six times in the draft (trimming context toward One), and it recurs here in a passage the jury never saw.",
+    "unresolved_review:enneagram-01",
+    "overall_below_8.5:8",
+    "evidence_below_8:7.5",
+    "enneagram_below_8:7.5"
+  ],
+  "quality": {
+    "evidence": 7.5,
+    "enneagram": 7.5,
+    "originality": 8.5,
+    "writing": 8,
+    "durability": 8.5,
+    "hook": 9,
+    "discoverability": 8,
+    "overall": 8,
+    "letter": "B",
+    "rubric_version": 3,
+    "graded_at": "2026-10-28",
+    "caps_applied": [],
+    "needs_review": true,
+    "content_sha256": "c2f31720bd7181dd05748e6bee83aa7d62faf7bd77bc4d8d3e39c71078287a85"
+  }
+}

@@ -50,8 +50,10 @@ const PERSONALITY_DISPLAY_NAME_OVERRIDES: Record<string, string> = {
 // production so browsers do not reuse a cached missing or stale response.
 const PERSONALITY_IMAGE_CACHE_VERSIONS: Record<string, string> = {
 	'demis-hassabis': '20260902d',
+	'ella-beatty': '20261028a',
 	'freddie-mercury': '20260902b',
-	'marcus-aurelius': '20260830'
+	'marcus-aurelius': '20260830',
+	'stella-lefty': '20261028a'
 };
 
 export function normalizePersonalitySlug(slug: string | null | undefined): string {

@@ -1,0 +1,1300 @@
+{
+  "schema_version": 3,
+  "content_sha256": "d6cacd414b0ab92aadd2074b54063c5bcb8f4d26e49ad283c1a96c75dfb31be4",
+  "evidence_sha256": "8d29622d9f7089beb62118d8e6d1341317f0c0b515cfc68519c0c17cc5302156",
+  "status": "insufficient_evidence",
+  "findings": [
+    {
+      "id": "reverify-01",
+      "severity": "blocker",
+      "passage": "Our leading read on Daniela Amodei's personality type is Enneagram Type 1, the Reformer, at medium confidence.",
+      "problem": "After the repair, the record states plainly that nothing separates One from Two. Type_hypothesis.discriminator says \"No clean discriminator yet separates One from Two,\" C167 says no observation in the record discriminates, and the body says \"A Two in her job who has learned that candor helps could produce the same record.\" The standard says to use insufficient_evidence \"when no defensible discriminator exists.\" The open-case route does not apply: she has run Anthropic publicly since 2021 and has 15+ long-form first-person sources, so this is a deep record whose type is hard, which the standard says \"remains insufficient_evidence with research tasks.\" \"Medium confidence\" in the type answer, type FAQ and Dario FAQ claims more than an undiscriminated lean supports, which is why enneagram-01's \"confidence is lowered to match\" is unmet. The owner note in the research file asks for exactly this hold if Type 1 cannot clear the release bar. The writing and sourcing are not the problem: the repair made the article honest. The problem is that an honest standard profile cannot yet answer its own title question.",
+      "acceptance_test": "The evidence record gains at least one opened, attributed observation from a setting where a relational motive could surface: named colleague testimony on what she does when someone misses a standard or cuts a corner, or her own non-promotional account of a choice where warmth and a standard collided. It must be one that a Two-motivated executive in her role would be unlikely to produce. The type answer, type FAQ and \"Why not Type 2?\" then argue One over Two from it, the Six lean is re-tested, and the stated confidence matches the argument. Until then the run stays insufficient_evidence; certainty is not raised by argument alone. If the new evidence favors Two, the leading type changes and the run needs --refresh --expanded-review."
+    },
+    {
+      "id": "reverify-02",
+      "severity": "minor",
+      "passage": "\"We were running towards something versus running away from something,\" she told Stanford GSB.",
+      "problem": "Her spoken words in the GSB transcript (S01) are \"I think we're running towards something, versus running away from something.\" The printed \"We were\" comes from GSB's editorial pull-quote. The meaning is unchanged, but \"she told\" attributes the pull-quote wording to her speech.",
+      "acceptance_test": "The quote uses the transcript wording (\"we're running towards something, versus running away from something\"), or the sentence attributes the past-tense rendering to Stanford GSB's write-up."
+    },
+    {
+      "id": "reverify-03",
+      "severity": "minor",
+      "passage": "Anthropic largely won in district court on August 27, 2026, lost before a split appeals panel on September 25, and was seeking rehearing as of the October filing.",
+      "problem": "The S-1 describes two separate challenges. In N.D. Cal., over the Department's directive, the Section 3252 designation and the Presidential directive, Anthropic won summary judgment on 2026-08-27. In the D.C. Circuit, on a petition for review of the separate Section 4713 designation, a 2-1 panel ruled against it on 2026-09-25, and en banc rehearing was sought. As written, the appeals loss reads as reversing the district-court win.",
+      "acceptance_test": "The sentence distinguishes the two tracks, e.g. \"Anthropic largely won in district court on August 27, 2026; in a separate challenge to a second designation, a split D.C. Circuit panel ruled against it on September 25, and it was seeking rehearing as of the October filing.\" C145 stays unresolved with its trigger."
+    },
+    {
+      "id": "reverify-04",
+      "severity": "minor",
+      "passage": "Capitol Hill didn't last: \"It just was slow and bureaucratic,\" she said at Stanford in 2024.",
+      "problem": "In the same sentence (S04) she gives a second reason: \"I missed the campaign days of getting to build something together with a small group of, you know, motivated people.\" The relational half bears on the 1-vs-2 question the article is weighing. It is the same trim pattern the jury flagged elsewhere, though here it does not tilt toward One.",
+      "acceptance_test": "The passage adds or fairly paraphrases her second reason (building something with a small, motivated group). The protected inference about procedure stays, scoped to the first reason."
+    },
+    {
+      "id": "reverify-05",
+      "severity": "minor",
+      "passage": "She wants candidates who can say \"I changed my mind because I actually realized, you know, I wasn't right about this.\"",
+      "problem": "In Vanta (S33 13:48) the culture interview looks for either \"I felt this was the correct thing and maybe it wasn't popular, but like I really stood by this\" or \"I changed my mind...\" The article quotes only the second half, as evidence she is pragmatic about values. The omitted half is One-relevant.",
+      "acceptance_test": "The sentence gives both halves (standing by an unpopular correct position, or changing one's mind), and the \"pragmatic about values\" point is weighed against the first half."
+    }
+  ],
+  "research_tasks": [
+    "Find named, on-record testimony about how she responds when someone misses a standard or cuts a corner. Sources: Anthropic's chief people officer (referenced at S29 05:31), on-record Stripe-era colleagues (the mentor/Claire Hughes Johnson link is unverified), and OpenAI-era colleagues. This is the observation that would separate One from Two (a One holds the line on the work; a Two moves toward the person) and would sharpen One vs Six. It can move the read either way.",
+    "Find a non-promotional first-person account where warmth and a standard collided and she says which she chose and why. Look in long-form interviews outside recruiting and launch settings, The Times (2024-06-24, S26, unretrieved) and TIME May 2024, especially on personal decisions (leaving Stripe, the 2020 OpenAI exit) where a relational motive could surface.",
+    "Identify from video who says \"I credit Daniela with keeping the bar high\" (S38 00:34:29) and whom \"you're the reason the culture scaled\" addresses (00:34:40). It is the only third-party datum on the One side, and a named speaker would raise its weight.",
+    "Seek on-record accounts (Daniela, Brockman, Altman or Radford) of the language-project standoff, the coup accusation and the March 2020 peer reviews (S13, S39, S12). Until then they stay disputed and corroborative only.",
+    "After the IPO, read Anthropic's first proxy and governance disclosures for how the board reviews its president and chair (C51) and any revenue-over-principle trade-off she explains (C49, C102).",
+    "Track the D.C. Circuit en banc petition on the Section 4713 designation and any appeal of the N.D. Cal. judgment (C145)."
+  ],
+  "claim_checks": [
+    {
+      "claim_id": "C01",
+      "verdict": "supported",
+      "reason": "Wired (S09): \"Dario was born in 1983 and Daniela four years later\"; photo caption: the siblings \"grew up in San Francisco's Mission District.\" Attributed to Wired in March 2025. S-1 age 39 at 2026-09-30 is consistent."
+    },
+    {
+      "claim_id": "C02",
+      "verdict": "supported",
+      "reason": "Wired (S09) family paragraph: parents Elena Engel and Riccardo Amodei moved from Italy to San Francisco in the 1970s; Riccardo a leather craftsman from near Elba who died when the children were young adults; mother Chicago-born, project manager for libraries. No causal inference drawn."
+    },
+    {
+      "claim_id": "C03",
+      "verdict": "supported",
+      "reason": "S-1 (S40) Management bio: \"B.A. in English Literature from the University of California, Santa Cruz.\""
+    },
+    {
+      "claim_id": "C04",
+      "verdict": "supported",
+      "reason": "FLI 2022 (S02), Daniela speaking: \"like a friend at an old job used to call me, the classic do-gooder.\" Verbatim and correctly attributed."
+    },
+    {
+      "claim_id": "C05",
+      "verdict": "supported",
+      "reason": "eCorner 2024 (S04): \"It just was slow and bureaucratic.\" Verbatim. The draft omits her other stated reason (missing building with a small motivated team); see reverify-04."
+    },
+    {
+      "claim_id": "C06",
+      "verdict": "supported",
+      "reason": "S-1 (S40): Stripe \"from May 2013 to July 2018\"; FLI (S02): \"It was about 40 people when I joined.\""
+    },
+    {
+      "claim_id": "C07",
+      "verdict": "supported",
+      "reason": "eCorner (S04): Stripe \"didn't sort of feel like fully meeting this other aim or goal that I had around wanting to like, positively impact the world.\" S-1 dates July 2018."
+    },
+    {
+      "claim_id": "C08",
+      "verdict": "supported",
+      "reason": "S-1 (S40): \"Vice President of Safety and Policy, Vice President of People, and Engineering Manager, between October 2018 and December 2020.\""
+    },
+    {
+      "claim_id": "C09",
+      "verdict": "supported",
+      "reason": "Isaacson (S29) 03:13, speaker-labeled N (Daniela): \"We were always just like best friends like since we were really little.\""
+    },
+    {
+      "claim_id": "C10",
+      "verdict": "supported",
+      "reason": "FLI (S02), Daniela: \"part of why I got interested in that is that it was an interest area of Dario's at the time.\" In context she also frames a shared wish \"to help people.\""
+    },
+    {
+      "claim_id": "C11",
+      "verdict": "supported",
+      "reason": "GSB (S01) transcript, Daniela: \"there's something that feels really wrong to me about the fact that I was born in America...\" Verbatim; the article supplies the preceding \"interest and impact driven\" frame (C130)."
+    },
+    {
+      "claim_id": "C12",
+      "verdict": "supported",
+      "reason": "Cheeky Pint (S18), Dario: \"my job is the second and Daniela's job is the first,\" after defining operational execution vs strategy. Context matches the article's gloss."
+    },
+    {
+      "claim_id": "C14",
+      "verdict": "supported",
+      "reason": "eCorner (S04): \"the things in particular that my reports say about me is I simultaneously really, I'm a supportive manager. I really want people to succeed. And I also hold a high bar.\" The article's framing (\"Asked what her own reports say about her\") matches the question."
+    },
+    {
+      "claim_id": "C16",
+      "verdict": "supported",
+      "reason": "eCorner (S04): of two technical leads who disagreed, \"So I probably shouldn't even be the arbiter.\" Verbatim, context matches."
+    },
+    {
+      "claim_id": "C17",
+      "verdict": "supported",
+      "reason": "Atlantic (S12): \"some employees viewed Daniela as her brother's high-EQ counterpart\"; Brockman \"and other leaders... came to see her as the third member of an inflexible triumvirate.\" Attributed as reported characterization."
+    },
+    {
+      "claim_id": "C18",
+      "verdict": "supported",
+      "reason": "Atlantic (S12) OpenAI section: she and Karnofsky had stuffed animals they \"treated as their personal advisory council for managerial role-playing\"; WSJ (S13) corroborates the stuffed animals."
+    },
+    {
+      "claim_id": "C19",
+      "verdict": "supported",
+      "reason": "WSJ (S13, syndicated): Dario \"wanted him nowhere near it\"; Daniela \"co-leading the language project with Radford, told Brockman he couldn't work on it\"; \"she offered to step down as head of the project rather than allow Brockman on it.\" Verbatim; attributed and disputed-class."
+    },
+    {
+      "claim_id": "C20",
+      "verdict": "supported",
+      "reason": "WSJ (S13): Brockman's feedback accused her \"of abusing her power to create bureaucratic processes to get her way\" (Journal wording, correctly labeled as the Journal's paraphrase); \"tough but fair\"; \"rebutting him point by point.\" Verbatim."
+    },
+    {
+      "claim_id": "C21",
+      "verdict": "supported",
+      "reason": "New Yorker (S39): \"good authority\" from a senior executive; \"Daniela, the notes continue, 'lost it,'\" brought in the executive, who denied it; \"I didn't even say that\" via one person briefed. Sourcing (Dario's notes plus one person briefed) is stated in the article."
+    },
+    {
+      "claim_id": "C22",
+      "verdict": "supported",
+      "reason": "Atlantic (S12): Daniela \"was leading the negotiations on the BATNA group's side\"; \"mutual non-disparagement agreement.\" WSJ (S13): \"tapped to lead the exit negotiations.\""
+    },
+    {
+      "claim_id": "C23",
+      "verdict": "supported",
+      "reason": "GSB (S01) best-advice answer: \"Maybe we should stay. Maybe we could make this work.\" ... \"I talked to one sort of friend and mentor outside of work, and she was like, 'Honestly, I don't think you really need to be on the phone with me.'\" Paraphrase faithful."
+    },
+    {
+      "claim_id": "C24",
+      "verdict": "supported",
+      "reason": "Atlantic (S12): \"Dario and Daniela still despise Altman and Brockman, according to several people who know them well.\" Dated September 2026 in the same sentence."
+    },
+    {
+      "claim_id": "C27",
+      "verdict": "supported",
+      "reason": "Atlantic (S12), Daniela to Roose: \"it's scary because we can lose it at any time. That's just on the business side. Then there's the mission, and we're like, Are we accidentally making things worse?...\" Both halves quoted."
+    },
+    {
+      "claim_id": "C31",
+      "verdict": "supported",
+      "reason": "First Block (S03, ~37:56 and ~39:30): titles that \"resonated\" included \"I need an adult\"; \"I did come up with I need an adult that wasn't Claude that one was me.\" Corrected attribution is accurate."
+    },
+    {
+      "claim_id": "C34",
+      "verdict": "supported",
+      "reason": "Atlantic (S12): Brockman \"gave a toast at her 2017 wedding to Holden Karnofsky, who joined OpenAI's nonprofit board that year.\""
+    },
+    {
+      "claim_id": "C35",
+      "verdict": "supported",
+      "reason": "S-1 (S40) filed 2026-10-26 lists her as President and co-founder; tracked time_sensitive."
+    },
+    {
+      "claim_id": "C43",
+      "verdict": "supported",
+      "reason": "Co-founder video (S38) 00:17:33, Daniela (context: her OpenAI roles): \"I felt a very strong desire to come and sort of just try to help make the company a little more functional.\""
+    },
+    {
+      "claim_id": "C44",
+      "verdict": "supported",
+      "reason": "Isaacson (S29) 20:44-20:53: Dario: \"hard to know what someone's values are if they don't have the value of honesty.\" W: \"And you felt that about Sam?\" N: \"I think the co-founders are an unusually high integrity group of people.\" Isaacson's question was open to both; she answered."
+    },
+    {
+      "claim_id": "C45",
+      "verdict": "supported",
+      "reason": "Isaacson (S29) 34:17, labeled N: \"I found myself asking the question, was this a really principled stand... or was this an opportunistic moment?\" Verbatim."
+    },
+    {
+      "claim_id": "C46",
+      "verdict": "supported",
+      "reason": "Isaacson (S29) 15:48, labeled D: skeptics now applying to LLM companies; \"we never say it out out loud to any particular one... You have no credibility on this matter.\" Context (unspoken verdict) is preserved."
+    },
+    {
+      "claim_id": "C48",
+      "verdict": "supported",
+      "reason": "Oprah (S30) 30:38-31:35, female run continuous with \"I think Dario and I\": \"it was a hard time. I mean, I don't think we want to sugarcoat that. It was a stressful time at the company\"; \"I think it crossed our minds\"; \"the thing that we all had in common was we just felt like this was the right thing to do.\""
+    },
+    {
+      "claim_id": "C49",
+      "verdict": "supported",
+      "reason": "Oprah (S30) 34:47-36:01, Daniela: \"but there were quiet forces that, you know, within the company or investors who were like, hey, this is a great source of revenue.\" Time-sensitive with trigger."
+    },
+    {
+      "claim_id": "C50",
+      "verdict": "supported",
+      "reason": "Grit (S32) 90:44-91:49: May 2021 spreadsheet; \"I made everyone go do that and they had to Mark in the spreadsheet when they had done it.\" Verbatim."
+    },
+    {
+      "claim_id": "C51",
+      "verdict": "supported",
+      "reason": "Grit (S32) 94:03: \"we do performance reviews every six months... and that includes me and dar we get reviews from the board.\" S-1 lists her as Chairperson. Article scopes it to 2024 and flags the chair question."
+    },
+    {
+      "claim_id": "C52",
+      "verdict": "supported",
+      "reason": "Sixth Street audio (S34) 33:34-34:06: \"something that feels the most important to me about our culture at Anthropic is this concept of integrity\"; on going behind someone's back, \"We have no tolerance for that.\""
+    },
+    {
+      "claim_id": "C53",
+      "verdict": "supported",
+      "reason": "Sixth Street (S34) 30:10: \"We have a culture interview that we have perfected over the five years that Anthropic has been-- - Perfected? - Yes, yes, has been in existence.\" Rendered faithfully, no reaffirmation implied."
+    },
+    {
+      "claim_id": "C55",
+      "verdict": "supported",
+      "reason": "Co-founder video (S38) 00:34:29-00:34:41 captions: \"I credit Daniela with keeping the bar high\"; \"Keeping out the clowns\"; \"No, but you're the reason the culture scaled, I think\"; \"People say how nice people are here.\" Speaker and addressee left unidentified, as the article says."
+    },
+    {
+      "claim_id": "C56",
+      "verdict": "supported",
+      "reason": "Grit (S32) 83:37-84:33: \"I think in my heart the thing I most m is a people leader\" (bracketed [am] is a fair repair of a caption glitch); \"I'm actually not an expert in any field I'm an expert in people.\""
+    },
+    {
+      "claim_id": "C57",
+      "verdict": "supported",
+      "reason": "Grit (S32) 85:09-85:42 lowlight: \"I'm not the expert in anything there's always a person in the world who is a better focus leader than I am if I'm temporarily in charge of a particular function and there's no leader for it my number one goal is getting myself out of that job by finding the right person.\" Condition and reason preserved."
+    },
+    {
+      "claim_id": "C58",
+      "verdict": "supported",
+      "reason": "Grit (S32) 82:53-85:42: host asked \"what's the thing that triggers you and what's the thing that like revs you up\"; she gave highlights and lowlights and named no trigger."
+    },
+    {
+      "claim_id": "C59",
+      "verdict": "supported",
+      "reason": "Grit (S32) 88:31-89:04: \"I let senior hires talk to references on me... because I think the best relationships stem from Mutual understanding about what you're both signing up for.\""
+    },
+    {
+      "claim_id": "C60",
+      "verdict": "supported",
+      "reason": "Vanta (S33) 12:12: \"move fast and safe things\"... \"not everyone loved it. And so we're like, if not everyone loves it, it's not going to people are not going to use it.\" She also called it \"a little too cheeky\"; omission is harmless."
+    },
+    {
+      "claim_id": "C61",
+      "verdict": "qualified",
+      "reason": "Vanta (S33) 13:48: the culture interview wants either \"I felt this was the correct thing and maybe it wasn't popular, but like I really stood by this or I changed my mind because I actually realized, you know, I wasn't right about this.\" The article quotes only the changed-mind half as evidence she is pragmatic about values; see reverify-05."
+    },
+    {
+      "claim_id": "C62",
+      "verdict": "supported",
+      "reason": "Bloomberg Tech (S35) 02:14-02:47: \"I would say about 80 to 90% of the time what ends up happening is we meet in the middle.\" June 2026 date matches."
+    },
+    {
+      "claim_id": "C66",
+      "verdict": "supported",
+      "reason": "Huffington (S37) ~10:18-10:52: AI girlfriends/boyfriends: \"I think that's a terrible use of AI and people should not do it.\" Upload October 2026 matches."
+    },
+    {
+      "claim_id": "C67",
+      "verdict": "supported",
+      "reason": "Huffington (S37) 42:37-43:09: misdiagnosed \"by three sets of doctors... this is not because any of those are bad doctors, right? They're really busy.\""
+    },
+    {
+      "claim_id": "C68",
+      "verdict": "supported",
+      "reason": "Isaacson (S29) 03:13-04:05: N \"the only thing that I did first\"; D \"three years later or something\"; N \"Oh, not even... You got on board real quick.\" Speakers verified in labeled transcript."
+    },
+    {
+      "claim_id": "C72",
+      "verdict": "supported",
+      "reason": "src/blog/people/drafts/Dario-Amodei.md has enneagram: 6, published: true. Time-sensitive with a retype trigger."
+    },
+    {
+      "claim_id": "C73",
+      "verdict": "supported",
+      "reason": "Atlantic (S12): \"Dario had a habit at the time of just saying, We must do X; it is the morally correct thing to do...\" from \"one former colleague.\""
+    },
+    {
+      "claim_id": "C74",
+      "verdict": "supported",
+      "reason": "Atlantic (S12): \"which they treated as their personal advisory council for managerial role-playing.\" Byline Kevin Roose verified."
+    },
+    {
+      "claim_id": "C75",
+      "verdict": "supported",
+      "reason": "Atlantic (S12): Jinji \"a lazy cat who encouraged Daniela to cancel meetings and avoid taking on too much work\"; Maura \"a detail-oriented, type-A manager\"; Beary Bonds \"patron bear of generosity and empathy.\""
+    },
+    {
+      "claim_id": "C76",
+      "verdict": "supported",
+      "reason": "Atlantic (S12): \"(In 2023, she told me the animals were 'very useful in analyzing different personality types.')\""
+    },
+    {
+      "claim_id": "C77",
+      "verdict": "supported",
+      "reason": "S-1 (S40) cover: \"As filed with the Securities and Exchange Commission on October 26, 2026\"; she is \"President and Chairperson of our board of directors.\""
+    },
+    {
+      "claim_id": "C78",
+      "verdict": "supported",
+      "reason": "TechCrunch (S20): Dario \"has just one direct report — his chief of staff. Everyone else on Anthropic's executive team reports to his sister\"; Bloomberg Circuit (S14) ~00:22:49: \"All the leadership team reports to you.\""
+    },
+    {
+      "claim_id": "C79",
+      "verdict": "supported",
+      "reason": "Interpretive bridge; consistent with the body, which shows both the supportive and high-bar sides and does not resolve which wins."
+    },
+    {
+      "claim_id": "C80",
+      "verdict": "qualified",
+      "reason": "The sentences are accurate to the record (\"does not yet separate One from Type 2, and Type 6 stays live\"), but \"at medium confidence\" outruns an argument that, by its own account (C167), has no discriminator between 1 and 2. See reverify-01."
+    },
+    {
+      "claim_id": "C81",
+      "verdict": "supported",
+      "reason": "GSB (S01): \"How do I make that more fair? How do we make that better as a broader community of the world?\""
+    },
+    {
+      "claim_id": "C82",
+      "verdict": "supported",
+      "reason": "Interpretation. Every anger scene in the article (S13, S39) is third-party; none of the interviews I opened (S01-S04, S29, S30, S32-S35, S37, S38) show first-person anger at anyone. \"Almost\" keeps the limit, though not every hour of her speech was reread."
+    },
+    {
+      "claim_id": "C84",
+      "verdict": "supported",
+      "reason": "FLI (S02), Daniela: \"I'm a few years younger than him and so I was very keen to understand the things that he was working or interested in as a potential area to have impact.\" Verbatim."
+    },
+    {
+      "claim_id": "C85",
+      "verdict": "supported",
+      "reason": "FLI (S02): \"I worked in Washington DC at a few different NGOs, I spent time working in east Africa for a public health organization, I worked on a congressional campaign, I've worked on Capitol Hill.\" eCorner corroborates."
+    },
+    {
+      "claim_id": "C86",
+      "verdict": "qualified",
+      "reason": "Interpretation of eCorner (S04). Her stated reasons were that Capitol Hill was \"slow and bureaucratic\" and that she \"missed the campaign days of getting to build something together with a small group of, you know, motivated people.\" The gloss captures the first half only; see reverify-04."
+    },
+    {
+      "claim_id": "C87",
+      "verdict": "supported",
+      "reason": "WSJ (S13): \"Brockman recruited Daniela to OpenAI\"; Atlantic (S12): \"She and Brockman had once been close.\""
+    },
+    {
+      "claim_id": "C88",
+      "verdict": "supported",
+      "reason": "Co-founder video (S38) 00:17:04: \"And so I think that it felt very me-shaped, right?\""
+    },
+    {
+      "claim_id": "C89",
+      "verdict": "supported",
+      "reason": "Co-founder video (S38) 00:17:04: \"there's all these really great people with these really good intentions, but it seems like they're a little bit of a mess.\" Daniela's turn (Stripe/Greg context)."
+    },
+    {
+      "claim_id": "C90",
+      "verdict": "qualified",
+      "reason": "Sourcing description matches S13 (unnamed), S39 (Dario's notes plus one person briefed) and S12. \"She has not publicly described these episodes\" is a negative claim dated October 2026; none of the opened interviews contain such an account, but absence cannot be fully proven. Tracked unresolved."
+    },
+    {
+      "claim_id": "C91",
+      "verdict": "supported",
+      "reason": "Co-founder video (S38): \"he had been my boss\"; WSJ (S13): \"Brockman recruited Daniela\"; Atlantic (S12): toast at her 2017 wedding."
+    },
+    {
+      "claim_id": "C92",
+      "verdict": "supported",
+      "reason": "Interpretation. WSJ sequence verified: Dario objected first; at a later staff meeting he cited that \"Radford didn't want to work with him.\" She had recommended Dario (S38). The Two reading is given equal weight."
+    },
+    {
+      "claim_id": "C93",
+      "verdict": "supported",
+      "reason": "Atlantic (S12): \"clash with Mira Murati, then OpenAI's vice president of applied AI and partnerships, over who was in charge of making decisions related to safety.\""
+    },
+    {
+      "claim_id": "C94",
+      "verdict": "supported",
+      "reason": "New Yorker (S39): \"'You just said that,' Daniela replied,\" as recalled by one person briefed."
+    },
+    {
+      "claim_id": "C95",
+      "verdict": "supported",
+      "reason": "New Yorker (S39): Altman said this was \"not quite his recollection\" and he had accused them only of \"political behavior\"; WSJ (S13): \"prompting the Amodeis to begin shouting angrily at him.\""
+    },
+    {
+      "claim_id": "C96",
+      "verdict": "supported",
+      "reason": "Interpretation, conditional on the accounts being right; includes \"though not calmly\" per \"lost it\" (S39) and \"shouting angrily\" (S13)."
+    },
+    {
+      "claim_id": "C97",
+      "verdict": "supported",
+      "reason": "Grit (S32) 90:44-91:17: \"when we were maybe 15 people it was like May of 2021\"; names down the side and across the top; one appreciation and one way \"they could be doing better\"; \"practice it with someone else before you deliver it.\""
+    },
+    {
+      "claim_id": "C98",
+      "verdict": "supported",
+      "reason": "Grit (S32) 91:49: \"so the feedback is not in the spreadsh[eet]... it's just an accountability system.\""
+    },
+    {
+      "claim_id": "C99",
+      "verdict": "supported",
+      "reason": "Interpretation labeled as such, with the Two-compatible content conceded in the prior sentence."
+    },
+    {
+      "claim_id": "C100",
+      "verdict": "supported",
+      "reason": "Sixth Street (S34) 29:38: \"the ability to work well with others, that is something that we look for more than ever\"; she raised empathy unprompted in a \"what should my kid major in\" answer."
+    },
+    {
+      "claim_id": "C101",
+      "verdict": "supported",
+      "reason": "Sixth Street (S34) 30:10: criteria are mission alignment, integrity (\"made difficult decisions in their life to stand up for their values, whatever those are\"), and collaboration. Accurate."
+    },
+    {
+      "claim_id": "C102",
+      "verdict": "supported",
+      "reason": "Oprah (S30) 34:47-36:01: \"And we just said like, sorry, that's just not how we're going to do things. We'll find another way.\" Time-sensitive with ads/revenue trigger."
+    },
+    {
+      "claim_id": "C103",
+      "verdict": "supported",
+      "reason": "Isaacson (S29) 24:57, N: sycophancy \"is harder to stamp out than some of the... more obvious ways\"; \"Our competitors are putting ads into their chat bots... You make more money if a user is engaging with your product longer. Do you then want to tell your user that they're wrong? No, you don't.\""
+    },
+    {
+      "claim_id": "C104",
+      "verdict": "supported",
+      "reason": "Anthropic statement (S41, datePublished 2026-02-26), reopened live: Department will only contract with companies who accede to \"any lawful use\"; two exceptions (mass domestic surveillance, fully autonomous weapons); \"we cannot in good conscience accede to their request.\""
+    },
+    {
+      "claim_id": "C106",
+      "verdict": "supported",
+      "reason": "Interpretation. Dario's accounts also cite rightness, not protection (S41 \"good conscience\"; S30 31:35 \"Everyone knows this is wrong\"), so the absence does not discriminate, as the article says."
+    },
+    {
+      "claim_id": "C107",
+      "verdict": "supported",
+      "reason": "Isaacson (S29) 34:17, N: \"Our view is look, we can't control any other companies... You can say we were wrong about what those red lines were.\""
+    },
+    {
+      "claim_id": "C108",
+      "verdict": "supported",
+      "reason": "Isaacson (S29) 34:56, D: \"I actually think it's a beautiful illustration of the democratic process\"; his 33:02 answer already argued \"part of the process of how democratic change happens.\""
+    },
+    {
+      "claim_id": "C109",
+      "verdict": "supported",
+      "reason": "Accurate description of the 34:17/34:56 exchange: she posed the motive as a question and did not answer it; he framed process and public judgment."
+    },
+    {
+      "claim_id": "C114",
+      "verdict": "supported",
+      "reason": "Accurate summary: both cases rest on her own words; the One side is form, and \"the motive she gives is often care\" matches S32 92:57-93:29."
+    },
+    {
+      "claim_id": "C116",
+      "verdict": "supported",
+      "reason": "GSB (S01): \"You already know what the right answer is.\""
+    },
+    {
+      "claim_id": "C117",
+      "verdict": "supported",
+      "reason": "GSB (S01): the line is her answer to \"Best advice you ever received?\" (\"I think that was really good advice\")."
+    },
+    {
+      "claim_id": "C118",
+      "verdict": "supported",
+      "reason": "Description: S38 bar credit verified; \"leading read... with 2 and 6 live\" matches the body."
+    },
+    {
+      "claim_id": "C119",
+      "verdict": "supported",
+      "reason": "Accurate statement of the record's limit, consistent with C167 and the type_hypothesis discriminator field."
+    },
+    {
+      "claim_id": "C120",
+      "verdict": "supported",
+      "reason": "Type 2 FAQ mirrors the body: \"people leader\" and \"supportive manager\" (S32, S04), \"wanting the best for the other person\" (S32), career tracking Dario (S02, S13, S38, S40); \"Her public record does not yet separate the two.\" Accurate."
+    },
+    {
+      "claim_id": "C121",
+      "verdict": "supported",
+      "reason": "S-1 (S40): \"Ms. Amodei also currently serves as the Chairperson of our board of directors.\""
+    },
+    {
+      "claim_id": "C122",
+      "verdict": "supported",
+      "reason": "S-1 (S40): OpenAI October 2018-December 2020; Stripe May 2013-July 2018."
+    },
+    {
+      "claim_id": "C123",
+      "verdict": "supported",
+      "reason": "Wired (S09): Dario born 1983, \"Daniela four years later.\""
+    },
+    {
+      "claim_id": "C124",
+      "verdict": "supported",
+      "reason": "S-1 (S40) executive table \"as of September 30, 2026\": \"Daniela Amodei(2) 39 President, Co-Founder, Chairperson, and Director.\" No full birth date is given anywhere checked."
+    },
+    {
+      "claim_id": "C125",
+      "verdict": "supported",
+      "reason": "Fortune (S17, 2025-02-13): Karnofsky \"joined Anthropic last month as a member of the startup's 'technical staff,' a company spokesperson confirmed.\""
+    },
+    {
+      "claim_id": "C126",
+      "verdict": "supported",
+      "reason": "Cheeky Pint (S18) strategy vs operational execution; TechCrunch (S20) \"handles day-to-day operations\"; dated \"As of 2026.\""
+    },
+    {
+      "claim_id": "C127",
+      "verdict": "supported",
+      "reason": "Isaacson (S29), dated 2026-10-27 interview: her 34:17 question and his 34:56 \"democratic process\" line."
+    },
+    {
+      "claim_id": "C128",
+      "verdict": "supported",
+      "reason": "Bloomberg Tech (S35): \"about 80 to 90% of the time... we meet in the middle.\" \"Most\" is accurate."
+    },
+    {
+      "claim_id": "C31a",
+      "verdict": "supported",
+      "reason": "First Block (S03) ~05:44: \"how to run payroll which like we messed up multiple times.\""
+    },
+    {
+      "claim_id": "C33",
+      "verdict": "supported",
+      "reason": "Wired (S09): \"I don't identify with that terminology. My impression is that it's a bit of an outdated term\"; Karnofsky \"cofounded one of EA's most conspicuous philanthropy wings\"; \"most of the initial funding... came from sources affiliated with\" EA."
+    },
+    {
+      "claim_id": "C37",
+      "verdict": "supported",
+      "reason": "Dario essay (S22), reopened live: \"All of Anthropic's co-founders have pledged to donate 80% of our wealth.\" Described as a pledge; S38 00:34:14 corroborates."
+    },
+    {
+      "claim_id": "C64",
+      "verdict": "supported",
+      "reason": "Oprah (S30) 58:51-60:01, Daniela: \"something that's great about our relationship is Dario and I I also think we hold each other accountable... 'Is this a right Is this the right decision for the company is this in keeping with our values.'\""
+    },
+    {
+      "claim_id": "C129",
+      "verdict": "supported",
+      "reason": "Co-founder video (S38) 00:15:53, Daniela's turn: \"I really wanna help people that have, you know, less than I do.\""
+    },
+    {
+      "claim_id": "C130",
+      "verdict": "supported",
+      "reason": "GSB (S01): \"But I think for me, it was always very interest and impact driven.\""
+    },
+    {
+      "claim_id": "C131",
+      "verdict": "supported",
+      "reason": "FLI (S02): \"he was actually a very early GiveWell fan\"; as students \"started donating small amounts of money to organizations that were working on global health issues like malaria prevention.\""
+    },
+    {
+      "claim_id": "C132",
+      "verdict": "supported",
+      "reason": "Co-founder video (S38) 00:15:53: \"He was my boss at Stripe for a while... 'The smartest person that I know is Dario.'\" WSJ (S13): Brockman \"one of the earliest employees\" at Stripe."
+    },
+    {
+      "claim_id": "C133",
+      "verdict": "supported",
+      "reason": "WSJ (S13): \"By mid-2016, impressed by OpenAI's talent roster, Dario had joined the lab.\""
+    },
+    {
+      "claim_id": "C134",
+      "verdict": "supported",
+      "reason": "WSJ (S13): \"Altman asked her to stay and said he would find another way.\""
+    },
+    {
+      "claim_id": "C135",
+      "verdict": "supported",
+      "reason": "WSJ (S13): \"The truce was short-lived. A few months later... The brother and sister denied it.\""
+    },
+    {
+      "claim_id": "C136",
+      "verdict": "supported",
+      "reason": "New Yorker (S39): in June (2019), Amodei \"read it aloud, pointing to the text\"; the coup accusation came \"months later.\""
+    },
+    {
+      "claim_id": "C137",
+      "verdict": "supported",
+      "reason": "WSJ (S13): \"Brockman at one point offered to withdraw his from Daniela's packet.\""
+    },
+    {
+      "claim_id": "C138",
+      "verdict": "supported",
+      "reason": "Atlantic (S12): \"in December 2020... Amodei, who announced that he and six other OpenAI leaders were quitting\"; GSB (S01) \"all seven of us.\""
+    },
+    {
+      "claim_id": "C139",
+      "verdict": "qualified",
+      "reason": "GSB (S01) transcript: \"I think we're running towards something, versus running away from something.\" The article prints \"We were running towards something...\" which matches GSB's editorial pull-quote, not her spoken words. Meaning unchanged; see reverify-02."
+    },
+    {
+      "claim_id": "C140",
+      "verdict": "supported",
+      "reason": "Grit (S32) 92:57-93:29, quoted whole: \"...coming from a place of wanting the best for the other person and maybe they get it a little bit wrong than a place where people are not communicating feedback to others.\" The verify-01 trim is repaired."
+    },
+    {
+      "claim_id": "C141",
+      "verdict": "supported",
+      "reason": "Interpretation; accurately states the comparison in C140 and concedes it is Two-claimable."
+    },
+    {
+      "claim_id": "C144",
+      "verdict": "supported",
+      "reason": "Oprah (S30) 34:47: \"People have very private conversations with these AI models. People upload their health information.\""
+    },
+    {
+      "claim_id": "C145",
+      "verdict": "qualified",
+      "reason": "S-1 (S40): the President directed agencies to cease using the technology; the Department moved to designate a \"supply-chain risk\"; N.D. Cal. \"largely granted summary judgment\" 2026-08-27; D.C. Cir. 2-1 denied the petition for review 2026-09-25; en banc rehearing sought. New Yorker (S39): Altman \"announced on X that the military would now be using OpenAI's models.\" Facts accurate, but the sentence implies the appeals loss reversed the district win; they were separate challenges to different designations. See reverify-03."
+    },
+    {
+      "claim_id": "C147",
+      "verdict": "supported",
+      "reason": "Isaacson (S29) 33:02, D: \"That's success\"; Atlantic (S12): \"some people at OpenAI have described the Amodeis as power-hungry virtue-signalers, not principled humanitarians.\""
+    },
+    {
+      "claim_id": "C148",
+      "verdict": "supported",
+      "reason": "Atlantic (S12): Dario \"has written in internal messages that Altman and OpenAI are 'evil.'\""
+    },
+    {
+      "claim_id": "C151",
+      "verdict": "supported",
+      "reason": "FLI (S02): \"for the majority of our lives, I think we've wanted to find something to work together on.\""
+    },
+    {
+      "claim_id": "C152",
+      "verdict": "supported",
+      "reason": "Dates check: development work partly for his interests (S02); Dario at OpenAI by mid-2016 (S13), she joined October 2018 (S40) after recommending him (S38); Anthropic co-founded January 2021 (S40). The shared-values alternative is given."
+    },
+    {
+      "claim_id": "C153",
+      "verdict": "supported",
+      "reason": "Grit (S32) 84:33: \"figuring out who are going to be the people to work on it how do we get them organized.\""
+    },
+    {
+      "claim_id": "C155",
+      "verdict": "supported",
+      "reason": "Interpretation with stated limits: the Brockman rupture rests on unnamed/adversarial accounts (S12, S13); \"inflexible\" from S12."
+    },
+    {
+      "claim_id": "C156",
+      "verdict": "supported",
+      "reason": "Oprah (S30) 59:02-60:01 group accountability and anonymous dissent quoted to the full clause; Grit (S32) \"could be doing better.\" The lean is labeled thin and Six stays live."
+    },
+    {
+      "claim_id": "C157",
+      "verdict": "supported",
+      "reason": "eCorner 2024 (S04): \"In terms of things I'm less good at, probably unsurprisingly, I'm not the expert in anything.\""
+    },
+    {
+      "claim_id": "C158",
+      "verdict": "supported",
+      "reason": "S-1 (S40): Dario Amodei, Chief Executive Officer. Time-sensitive with trigger."
+    },
+    {
+      "claim_id": "C159",
+      "verdict": "supported",
+      "reason": "S-1 (S40): President and co-founder. Time-sensitive with trigger."
+    },
+    {
+      "claim_id": "C160",
+      "verdict": "supported",
+      "reason": "S-1 (S40): Dario is CEO. Time-sensitive."
+    },
+    {
+      "claim_id": "C161",
+      "verdict": "supported",
+      "reason": "S-1 (S40): \"Co-Founder\" and \"President.\" Occupation field matches."
+    },
+    {
+      "claim_id": "C162",
+      "verdict": "supported",
+      "reason": "Atlantic (S12): Dario \"is less filtered on Anthropic's Slack than he is in his public appearances\" and called Altman and OpenAI \"evil.\" Labeled as reporting."
+    },
+    {
+      "claim_id": "C163",
+      "verdict": "qualified",
+      "reason": "Dario = 6 on the site is verified. \"Daniela, at medium confidence, as a Type 1\" carries the same overstatement as C80; see reverify-01."
+    },
+    {
+      "claim_id": "C164",
+      "verdict": "supported",
+      "reason": "Grit (S32) feedback norm (\"honest... rather than none\") and Huffington (S37) AI-companion verdict support the Nine counterargument."
+    },
+    {
+      "claim_id": "C165",
+      "verdict": "supported",
+      "reason": "Oprah (S30) 35:08-35:42: \"And so for the co-founders, it was never a question.\""
+    },
+    {
+      "claim_id": "C166",
+      "verdict": "supported",
+      "reason": "First Block (S03) ~10:44: \"in reality it's probably like 70% hit rate.\""
+    },
+    {
+      "claim_id": "C167",
+      "verdict": "supported",
+      "reason": "Accurate and important: it states that no observation in the record separates 1 from 2. The consequence for release status is in reverify-01."
+    },
+    {
+      "claim_id": "C168",
+      "verdict": "supported",
+      "reason": "Grit (S32) 93:29: \"coming from a place of wanting the best for the other person.\" Verbatim."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "S01",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Cached GSB transcript (agentA/gsb_transcript.txt): \"interest and impact driven\" fairness answer; \"why did you leave\" answer (\"seven of us\"; \"we're running towards something\"); best-advice answer."
+    },
+    {
+      "source_id": "S02",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Cached FLI transcript (agentA/fli_transcript.txt): Daniela background answers (\"classic do-gooder\", Stripe \"about 40 people\") and sibling answer (GiveWell, \"majority of our lives\")."
+    },
+    {
+      "source_id": "S03",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Cached First Block captions (agentB/yt/8cJAXfbuzx0): ~05:44 payroll; ~10:44 \"70% hit rate\"; ~37:56-39:32 memoir titles (\"that one was me\")."
+    },
+    {
+      "source_id": "S04",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Cached eCorner transcript (agentA/ecorner_clean.txt): self-awareness answer (\"supportive manager... high bar\"; \"not the expert in anything\"); technical leads (\"arbiter\"); career answer (Capitol Hill; leaving Stripe)."
+    },
+    {
+      "source_id": "S09",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Cached Wired text (agentC/wired_levy.txt): family paragraph (1983/\"four years later\", Elba, Chicago-born mother); Mission District caption; EA funding and \"outdated term\" paragraph."
+    },
+    {
+      "source_id": "S12",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Cached Atlantic text via Wayback (agentC/atl_wb.txt), byline Kevin Roose, September 29, 2026: Brockman/Murati/high-EQ/triumvirate paragraph; stuffed animals; \"morally correct\" colleague; BATNA negotiations and December 2020 meeting; 2025 office visit (\"scary\", \"despise\", \"evil\", \"virtue-signalers\")."
+    },
+    {
+      "source_id": "S13",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Cached To Vima syndication of WSJ, 28.03.2026, Hagey and Jin (agentC/wsj_feud.txt): group house/Stripe; \"Early traumas\" (mid-2016); language project; conference-room blowup; March 2020 peer reviews; \"The final split.\""
+    },
+    {
+      "source_id": "S14",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Cached Circuit captions (agentA/subs/v1wZwxY3CMg): ~00:22:49 \"All the leadership team reports to you\" / \"No one reports to you.\""
+    },
+    {
+      "source_id": "S17",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Cached Fortune text (agentC/fortune_holden.md): opening paragraphs, \"member of the technical staff,\" spokesperson confirmation."
+    },
+    {
+      "source_id": "S18",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Cached Cheeky Pint transcript (agentC/cheeky.txt): opening sibling exchange, \"my job is the second and Daniela's job is the first.\""
+    },
+    {
+      "source_id": "S20",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Cached TechCrunch text (agentC/tc.txt): opening paragraphs, one direct report (chief of staff), executive team reports to Daniela."
+    },
+    {
+      "source_id": "S22",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Reopened live 2026-10-28 (darioamodei.com): philanthropy paragraph, \"All of Anthropic's co-founders have pledged to donate 80% of our wealth.\""
+    },
+    {
+      "source_id": "S29",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Cached speaker-labeled Isaacson transcript (isaacson/labeled.txt): 03:13-04:05; 15:48; 18:55-20:53; 24:57; 33:02; 34:11-34:56."
+    },
+    {
+      "source_id": "S30",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Cached Oprah captions with gender-split runs (joint/oprah_runs.txt): 30:22-33:37 Pentagon; 34:47-36:01 no-ads; 58:51-60:01 accountability."
+    },
+    {
+      "source_id": "S32",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Cached Grit captions (agentB/yt/BhUyWzf7cWc.en-orig.txt): 82:53-85:42 working-with-me guide; 88:31-89:04 references; 90:09-93:29 spreadsheet and feedback; 94:03 reviews."
+    },
+    {
+      "source_id": "S33",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Cached Vanta captions (agentB/yt/bXT3ciKUHak): 12:12 retired value; 13:48 culture interview (\"stood by this or I changed my mind\")."
+    },
+    {
+      "source_id": "S34",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Cached Whisper transcript (agentB/audio/sixthstreet.txt) 29:38-30:44 and 33:34-34:06; Acast episode page reopened live 2026-10-28 (Season 6, Ep. 4, February 19, 2026)."
+    },
+    {
+      "source_id": "S35",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Cached Bloomberg Tech captions (agentB/yt/Kfz-NxEvu-U): 02:14-02:47 \"80 to 90%... meet in the middle.\""
+    },
+    {
+      "source_id": "S37",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Cached Huffington captions (agentB/yt/IEQJmtTqY2g): ~10:18-10:52 AI companions; 42:37-43:09 misdiagnosis."
+    },
+    {
+      "source_id": "S38",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Cached co-founder video captions (agentA/subs/om2_turns.txt): 00:15:53-00:17:46 Stripe/Brockman/OpenAI; 00:34:14 pledge; 00:34:29-00:34:44 bar/clowns/culture."
+    },
+    {
+      "source_id": "S39",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Cached New Yorker text (agentC/ny.txt): Microsoft-deal and \"coup\" paragraph; Pentagon/OpenAI paragraph (\"announced on X\")."
+    },
+    {
+      "source_id": "S40",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Cached S-1 (agentC/s1.txt): cover (filed October 26, 2026); Founder Voting Structure; executive table as of September 30, 2026; Ms. Amodei biography; Challenged Actions litigation risk factor."
+    },
+    {
+      "source_id": "S41",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Reopened live 2026-10-28 (anthropic.com, datePublished 2026-02-26): two excluded use cases; \"any lawful use\"; \"supply chain risk\" threat; \"good conscience.\""
+    }
+  ],
+  "decision_checks": [
+    {
+      "finding_id": "subject-01",
+      "accepted": true,
+      "reason": "Candidate has \"The brother and sister denied it.\" (S13), the withdrawal offer (S13), and \"As of October 2026, she has not publicly described these episodes.\" All verified in the cached WSJ text."
+    },
+    {
+      "finding_id": "subject-02",
+      "accepted": true,
+      "reason": "The Huffington sentence is gone; the irritations paragraph rests only on the Grit triggers answer (C58), which I verified at S32 82:53-85:42."
+    },
+    {
+      "finding_id": "subject-03",
+      "accepted": true,
+      "reason": "The ads paragraph opens with her privacy reason in her words (S30 34:47). The customers example is gone. The type answer and FAQs no longer say \"not by whom she protected,\" and the absence is labeled non-discriminating (C106)."
+    },
+    {
+      "finding_id": "subject-04",
+      "accepted": true,
+      "reason": "Body now has \"we can't control any other companies,\" calls hers a question left open, and says Dario \"returned to an argument he had made shortly before.\" Matches S29 33:02-34:56."
+    },
+    {
+      "finding_id": "subject-05",
+      "accepted": true,
+      "reason": "Quoted through \"has been in existence,\" with \"whatever those are\" retained; matches S34 30:10."
+    },
+    {
+      "finding_id": "subject-06",
+      "accepted": true,
+      "reason": "The unconfirmed \"professional warmth\" line is absent from the candidate and from the anti-Two case."
+    },
+    {
+      "finding_id": "subject-07",
+      "accepted": true,
+      "reason": "The non-disparagement agreement is named as an alternative in \"Beside Dario\" and in the quiet paragraph; the conduct-vs-character generalization is gone."
+    },
+    {
+      "finding_id": "subject-08",
+      "accepted": true,
+      "reason": "\"one was her own, not Claude's: 'I need an adult.'\" matches S03 ~39:30 (\"that one was me\")."
+    },
+    {
+      "finding_id": "fan-01",
+      "accepted": true,
+      "reason": "Same fix as subject-02; verified absent."
+    },
+    {
+      "finding_id": "fan-02",
+      "accepted": true,
+      "reason": "\"Rejects the need to be needed\" is gone; the expertise reason, the interim-role condition and the organizing highlight are quoted (S32 84:33-85:42), and the hub caveat is stated. The FAQ keeps the condition."
+    },
+    {
+      "finding_id": "fan-03",
+      "accepted": true,
+      "reason": "Both Atlantic fears quoted; Oprah \"a hard time... stressful... crossed our minds\" restored (S30 30:38, her run). The ambiguous first \"Yes\" stays out with a research task, which the test's fallback allows since Six is now held live; \"acts decisively\" is gone."
+    },
+    {
+      "finding_id": "fan-04",
+      "accepted": true,
+      "reason": "Atlantic \"evil\" report added; Dario's 34:56 described as returning to his own argument; contrast scoped to one dated exchange; the FAQ is dated and no longer rests on a pattern."
+    },
+    {
+      "finding_id": "fan-05",
+      "accepted": true,
+      "reason": "GiveWell origin and student donations (S02), Wired EA quote with her stated reason and Karnofsky note (S09), and 80% pledge as a pledge (S22) all added and verified; the principled-or-reputational question is left open."
+    },
+    {
+      "finding_id": "fan-06",
+      "accepted": true,
+      "reason": "Brockman as her Stripe boss and her pitch of Dario (S38 00:15:53) added; \"some of the strongest Type 2 evidence\"; language-project Two reading re-weighed (\"the brother she had recommended\")."
+    },
+    {
+      "finding_id": "fan-07",
+      "accepted": true,
+      "reason": "\"offered cost\" plus \"Altman asked her to stay and said he would find another way\"; episodes now in the Journal's order; withdrawal offer added."
+    },
+    {
+      "finding_id": "fan-08",
+      "accepted": true,
+      "reason": "Generalization removed; non-disparagement named as alternative."
+    },
+    {
+      "finding_id": "fan-09",
+      "accepted": true,
+      "reason": "Parents distinguished as Wired does; father's death stated without causal inference."
+    },
+    {
+      "finding_id": "critic-01",
+      "accepted": true,
+      "reason": "The contradicted thesis sentence is gone; ads paragraph quotes the privacy rationale; type answer, type FAQ, Type 2 FAQ and body state one consistent position. The test's \"argue why that framing points to One\" is not met because it cannot be: the article now concedes it doesn't. That concession is honest; its release consequence is reverify-01."
+    },
+    {
+      "finding_id": "critic-02",
+      "accepted": true,
+      "reason": "\"What separates her is what she leaves out\" is gone; C106 now says the absence holds for Dario too."
+    },
+    {
+      "finding_id": "critic-03",
+      "accepted": true,
+      "reason": "\"Both cases rest mostly on her own words, so the split is not description versus behavior\"; the One material is described as the form of systems she built. Reader-facing confidence language softened; the remaining \"medium confidence\" label is handled in reverify-01."
+    },
+    {
+      "finding_id": "critic-04",
+      "accepted": true,
+      "reason": "Same Grit fix as fan-02; \"professional warmth\" removed; FAQ paraphrase matches the source."
+    },
+    {
+      "finding_id": "critic-05",
+      "accepted": true,
+      "reason": "Both fears quoted accurately; \"acts decisively\" cut; the Six section concedes Six is not cleanly excluded and names its one sourced lean as thin."
+    },
+    {
+      "finding_id": "critic-06",
+      "accepted": true,
+      "reason": "The \"A Six asks / A One asks\" mapping, \"good faith\" pairing and CPO \"successful\" quote are gone; C45 is no longer a discriminator."
+    },
+    {
+      "finding_id": "critic-07",
+      "accepted": true,
+      "reason": "\"That is what a One's anger tends to look like\" is gone; \"though not calmly\" and Dario's identical move (S39) added; the Nine dismissal no longer uses the episodes."
+    },
+    {
+      "finding_id": "critic-08",
+      "accepted": true,
+      "reason": "Skeptical brand reading named, with Dario's \"success\" (S29 33:02) and the Atlantic \"virtue-signalers\" line beside \"inflexible triumvirate\"; customers example dropped."
+    },
+    {
+      "finding_id": "critic-09",
+      "accepted": true,
+      "reason": "Same fix as subject-05."
+    },
+    {
+      "finding_id": "critic-10",
+      "accepted": true,
+      "reason": "The GPT-2 premise-correction example and the correcting-habit paragraph are absent."
+    },
+    {
+      "finding_id": "critic-11",
+      "accepted": true,
+      "reason": "The opening gives both reputations from S12 and the reveal no longer depends on a one-sided reputation."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "accepted": true,
+      "reason": "The December 2020 exit is narrated with the six other leaders (S12) and her framing line before the negotiations; \"the seven\" in the close is now defined. (Quote tense issue logged separately as reverify-02.)"
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "accepted": true,
+      "reason": "The generic \"usual cost is rigidity\" line is gone; \"So what has the pattern cost her?\" answers with specific, limited costs and says the cost is hard to see in her own interviews."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "accepted": true,
+      "reason": "Pentagon thread now gives the directive, designation, Altman's announcement and litigation status, dated and tracked unresolved (C145). (Compression of the two court tracks logged as reverify-03.)"
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "accepted": true,
+      "reason": "Brockman \"an OpenAI co-founder,\" Altman \"OpenAI's chief executive,\" Murati \"then a vice president,\" one clause each."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "accepted": true,
+      "reason": "Addressee and \"though never aloud\" framing kept; the concession is reworded to \"the harshest verdict in that interview.\" Matches S29 15:48."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "accepted": true,
+      "reason": "Dario's honesty setup included; \"answered about her own side\"; \"Invited to call Altman dishonest, she declined\" is stated as observation with the non-disparagement alternative."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "accepted": true,
+      "reason": "CPO quote removed, so the \"I\" ambiguity no longer exists."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "accepted": true,
+      "reason": "Rejection accepted. The repetition the finding targeted is fixed: the discriminator question is argued once, and \"Why not Type 2?\" opens with a one-clause back-reference before new Two evidence. Length is 4,183 words, over the ~3,500 target but under the 4,500 limit, and the overage is quote context other findings required. Length is a pacing preference, not a factual concern; the writing score reflects it."
+    },
+    {
+      "finding_id": "unfamiliar-09",
+      "accepted": true,
+      "reason": "Parents now distinguished as Wired does (Italian father from near Elba; Chicago-born mother who managed library projects); C02 updated; no causal inference."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "accepted": false,
+      "reason": "The fallback branch was taken correctly: the type answer and FAQ say \"her record does not yet separate One from Type 2.\" But the test also requires \"confidence is lowered to match,\" and the type answer, type FAQ, Dario FAQ and evidence record still say medium. The editor notes the contract has no lower confidence for a ready standard record, and that the honest next step is insufficient_evidence. I agree; see reverify-01."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "accepted": true,
+      "reason": "Same Grit fix as fan-02; \"not the expert\" framing and highlight given; FAQ keeps the interim-role condition."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "accepted": true,
+      "reason": "She is shown raising empathy herself (S34 29:38), and the interview criteria are given as mission alignment, collaboration and integrity."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "accepted": true,
+      "reason": "The sibling comparison now uses back-to-back answers to the same Pentagon prompt (S29 34:17, 34:56), framed as register, ending \"one interview can't say\"; Six/One lines and \"successful\" quote removed."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "accepted": true,
+      "reason": "Fears quoted accurately; \"acts decisively\" removed; the type answer says \"Type 6 stays live\" and the Six section says the record does not exclude it."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "accepted": true,
+      "reason": "The three-era pattern is stated with dates and sources (S02, S13 mid-2016, S40 October 2018, S38) and answered with shared values (S02 donations, S04 Stripe reason)."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "accepted": true,
+      "reason": "Mechanism trimmed to one step tied to the GSB fairness account (S01), with the help-language version beside it; \"carry more of the read, though they are her own accounts\"; reference rationale in her words (S32 89:04). The trimming branch of the test is satisfied."
+    },
+    {
+      "finding_id": "enneagram-08",
+      "accepted": true,
+      "reason": "The Nine paragraph leads with first-person evidence (feedback norm; S37 AI-companion verdict) and does not use the OpenAI episodes; Type 3 is addressed with volunteered limits (S04) and mistakes (S03)."
+    },
+    {
+      "finding_id": "future-01",
+      "accepted": true,
+      "reason": "C49, C102, C103, C165 carry the ads/Pentagon/revenue trigger; C120 is unresolved with a testimony/governance trigger; the customers example and undated revenue habit are gone."
+    },
+    {
+      "finding_id": "future-02",
+      "accepted": true,
+      "reason": "Section and FAQ are scoped to \"an October 2026 interview with Walter Isaacson,\" with no implied recurring pattern."
+    },
+    {
+      "finding_id": "future-03",
+      "accepted": true,
+      "reason": "C126, C158-C161 are time_sensitive with the IPO/title trigger; FAQ says \"As of 2026\"; persona_title is trait-based (\"The High-Bar People Leader\")."
+    },
+    {
+      "finding_id": "future-04",
+      "accepted": true,
+      "reason": "\"As of October 2026, she has not publicly described these episodes\"; \"reported in September 2026\" sits in the despise sentence."
+    },
+    {
+      "finding_id": "future-05",
+      "accepted": true,
+      "reason": "Scoped to \"as she described it in 2024,\" notes the S-1 chair role and that chair review is not public; C51 is time_sensitive with a governance trigger."
+    },
+    {
+      "finding_id": "future-06",
+      "accepted": true,
+      "reason": "S34 links the episode-specific Acast page (opened live: Season 6, Ep. 4, February 19, 2026); the WSJ link text names the To Vima syndication."
+    },
+    {
+      "finding_id": "future-07",
+      "accepted": true,
+      "reason": "C72 and C163 are time_sensitive with the retype trigger; Dario-Amodei.md is enneagram 6 today."
+    },
+    {
+      "finding_id": "verify-01",
+      "accepted": true,
+      "reason": "The Grit sentence is quoted whole (S32 92:57-93:29, verified), the text says the care framing is Two-claimable, and C140/C141/C114/C120/C168 are updated. The type answer, FAQ and \"Why not Type 2?\" take the \"say plainly\" branch. Reader-facing certainty was adjusted (\"leading read,\" \"leads only narrowly,\" \"She may be\"). The leftover \"medium confidence\" label is carried forward as reverify-01, not counted against this repair."
+    },
+    {
+      "finding_id": "verify-02",
+      "accepted": true,
+      "reason": "\"though the captions don't show to whom\" and the clown exchange match S38 00:34:29-00:34:41; the niceness is no longer credited to her; C55 updated."
+    },
+    {
+      "finding_id": "verify-03",
+      "accepted": true,
+      "reason": "Her stated reason (\"a bit of an outdated term\") now precedes the open question; matches S09."
+    },
+    {
+      "finding_id": "verify-04",
+      "accepted": true,
+      "reason": "The clause now gives the group accountability and anonymous dissent channel to her full clause; matches S30 58:51-60:01."
+    },
+    {
+      "finding_id": "verify-05",
+      "accepted": true,
+      "reason": "C165 and C166 added; both quotations verified verbatim (S30 35:08-35:42; S03 ~10:44)."
+    }
+  ],
+  "prior_blocker_checks": [],
+  "protected_checks": [
+    {
+      "passage": "Read as a One, that is a standard held against a friend at personal cost. Read as a Two, it is a sister backing her brother, and the Journal's sequence, with Dario's objection first and Radford also unwilling, makes that reading at least as plausible.",
+      "preserved": true,
+      "reason": "Changed to \"an offered cost\" and \"the brother she had recommended\" (S13 shows Altman declined her offer; S38 shows she recommended Dario). The paired One/Two reading and the check against the Journal's sequence survive intact; the change corrects an overstatement."
+    },
+    {
+      "passage": "These episodes line up with the Type 1 read. They can't carry it.",
+      "preserved": true,
+      "reason": "Verbatim in the candidate."
+    },
+    {
+      "passage": "Two caveats. These were collective decisions, and \"the right thing\" is house vocabulary at Anthropic.",
+      "preserved": true,
+      "reason": "Verbatim in the candidate."
+    },
+    {
+      "passage": "She is careful about people, though. When Isaacson asked about Altman directly (\"And you felt that about Sam?\"), she said, \"I think the co-founders are an unusually high integrity group of people.\"",
+      "preserved": true,
+      "reason": "Now \"She was careful about Altman...\" with Dario's honesty setup, the verified S29 20:53 answer, and \"Invited to call Altman dishonest, she declined.\" The distinctive observation (refusing to impugn a named rival) is kept and made legible."
+    },
+    {
+      "passage": "She is charitable about other people's errors. Describing a serious infection that three sets of doctors misdiagnosed, she said: \"this is not because any of those are bad doctors, right? They're really busy.\"",
+      "preserved": true,
+      "reason": "Verbatim in the candidate; S37 42:37-43:09 verified."
+    },
+    {
+      "passage": "At OpenAI, Daniela Amodei had an advisory council made of stuffed animals.",
+      "preserved": true,
+      "reason": "Verbatim opening line; S12 verified."
+    },
+    {
+      "passage": "When Dario guessed he had followed \"three years later or something,\" she corrected him on the spot: \"Oh, not even. ... You got on board real quick.\"",
+      "preserved": true,
+      "reason": "Verbatim; S29 04:01-04:05 speaker labels verified."
+    },
+    {
+      "passage": "\"Perfected?\" the host asked. \"Yes, yes,\" she said, and went on.",
+      "preserved": true,
+      "reason": "Now \"'Perfected?' the host cut in. 'Yes, yes, has been in existence,' she said, finishing her sentence.\" The beat is kept and the implied reaffirmation, which S34 30:10 does not support, is removed."
+    },
+    {
+      "passage": "The spreadsheet recorded only that each conversation happened, not what was said.",
+      "preserved": true,
+      "reason": "Verbatim; S32 91:49 (\"it's just an accountability system\") verified."
+    },
+    {
+      "passage": "\"You already know what the right answer is.\"",
+      "preserved": true,
+      "reason": "Verbatim closing blockquote; S01 verified."
+    },
+    {
+      "passage": "She left the institution most devoted to procedure because the procedure got in the way of the work.",
+      "preserved": true,
+      "reason": "Verbatim. Its source context is slightly incomplete (reverify-04, minor), which does not affect preservation."
+    },
+    {
+      "passage": "The compulsory appreciation would suit a Two. What reads as One is the form: a value turned into a universal procedure, with compliance checked.",
+      "preserved": true,
+      "reason": "Verbatim."
+    },
+    {
+      "passage": "A One reading has to treat that quiet as control or privacy, not as proof. The only anger on record is reported by others.",
+      "preserved": true,
+      "reason": "Verbatim."
+    },
+    {
+      "passage": "In fairness, the sharpest line in that exchange came from Dario: \"You have no credibility on this matter.\"",
+      "preserved": true,
+      "reason": "Now \"the harshest verdict in that interview was Dario's: of scientists who had dismissed GPT-2... though never aloud...\" The volunteered counterexample is kept and its context corrected per S29 15:48."
+    },
+    {
+      "passage": "For a supposed rule-lover, that's worth noticing. She left the institution most devoted to procedure because the procedure got in the way of the work.",
+      "preserved": true,
+      "reason": "Verbatim. Its source context is slightly incomplete (reverify-04, minor), which does not affect preservation."
+    },
+    {
+      "passage": "A Two and a One could both say that sentence. The Two hears \"help.\" The One hears \"a mess\" and \"functional.\"",
+      "preserved": true,
+      "reason": "Verbatim."
+    },
+    {
+      "passage": "She named it the best advice she has ever received.",
+      "preserved": true,
+      "reason": "Verbatim final line."
+    },
+    {
+      "passage": "A good deal of what looks like Type 1 is also a president's job description, since building review systems and hiring rubrics is what operators do.",
+      "preserved": true,
+      "reason": "Verbatim."
+    },
+    {
+      "passage": "The Two material sits mostly in how she describes herself and in a job that rewards people skills. The One material sits in what she does when something is at stake.",
+      "preserved": true,
+      "reason": "Changed because the original split was inaccurate (critic-03: the One evidence is also self-report). The durable contribution is kept: a side-by-side of what each case rests on and the evidence a refresh should seek (\"Named colleagues describing what she does when someone cuts a corner would settle more than another interview.\"). The correction counts as preservation."
+    },
+    {
+      "passage": "Anthropic's October 2026 S-1 filing lists her age as 39 as of September 30, 2026. No source checked for this page gives a full birth date.",
+      "preserved": true,
+      "reason": "Verbatim in the age FAQ; S40 table verified."
+    }
+  ],
+  "coverage_complete": true,
+  "metadata_consistent": true,
+  "alternative_type_addressed": true,
+  "five_year_test_passed": true,
+  "open_case_eligible": false,
+  "scores": {
+    "evidence": {
+      "score": 8,
+      "passage": "**The accusation.** A few months later, the Journal reports, Altman accused the siblings of plotting against him. \"The brother and sister denied it.\"",
+      "reason": "Traceability is excellent. All 132 quoted strings in the body and metadata match a cached or reopened source verbatim (normalized). Speakers were confirmed against labeled transcripts (S29, S30). Disputed episodes name their sourcing and carry the siblings' denial and Altman's reply. Inference limits are stated locally (\"If the accounts are right,\" \"They can't carry it\"). It stops at 8: the One-side evidence is almost all her own account on promotional or recruiting stages, with one unidentified co-founder as the only third-party support. Four minor fidelity slips remain: the GSB tense, the conflated court tracks, and two context trims (Capitol Hill, Vanta)."
+    },
+    "enneagram": {
+      "score": 7,
+      "passage": "So the record does not yet separate One from Two. One leads narrowly because that form recurs across contexts and a co-founder credits her with keeping the bar high. A Two in her job who has learned that candor helps could produce the same record.",
+      "reason": "The argument is far better than achievement-as-proof. Two and Six are argued seriously from her own words, Nine and Three are answered with first-person evidence, and the article names what would settle it. But the standard's 8 anchor requires the strongest alternative to fail a specific, sourced discriminator, and here, by the article's own account, Two fails none. One \"leads\" on recurring form plus one in-house compliment, both role-confounded, while the type answer still claims medium confidence."
+    },
+    "originality": {
+      "score": 8.5,
+      "passage": "I made everyone go do that and they had to mark in the spreadsheet when they had done it ... The spreadsheet recorded only that each conversation happened, not what was said.",
+      "reason": "Details belong to this person: the stuffed-animal advisory council, the May 2021 feedback matrix with X marks, the \"Perfected?\" interruption, \"I need an adult\" as her own title, refusing to blame the three sets of doctors, \"keeping out the clowns.\" The organizing insight (values turned into procedures that include her) is specific to her record. Type boilerplate is limited to one body-triad sentence."
+    },
+    "writing": {
+      "score": 8,
+      "passage": "Read as a One, that is a standard held against a friend at an offered cost. Read as a Two, it is a sister backing the brother she had recommended, and the Journal's sequence, with Dario's objection first and Radford also unwilling, makes that reading at least as plausible.",
+      "reason": "Clear progression from hook through background, OpenAI episodes, systems, costly stands, the sibling exchange and the rivals to a resonant close. The paired-reading device and bolded episode labels keep pace. Held to 8 because the back half accumulates adjudication (\"Two caveats,\" \"Nor does it help,\" \"That is a thin distinction,\" \"The record can't settle it\"). At 4,183 words it runs well past the ~3,500 target, and \"Why not Type 2?\" partly recaps material already shown."
+    },
+    "durability": {
+      "score": 8.5,
+      "passage": "The procedure reached the top, at least as she described it in 2024: everyone got a review every six months, \"and that includes me and [Dario] we get reviews from the board.\" The S-1 now lists her as the board's chair, and how it reviews its own chair is not public.",
+      "reason": "Changing facts are dated and tracked with actionable triggers: titles, chair role, litigation, Dario's site type, ads and revenue, unresolved OpenAI accounts. The hook and core pattern rest on 2018-2024 events. Removing the October 2026 Isaacson interview and the S-1 leaves the argument standing. Not 9 because the type answer is explicitly provisional and colleague testimony could rewrite the central section."
+    },
+    "hook": {
+      "score": 9,
+      "passage": "At OpenAI, Daniela Amodei had an advisory council made of stuffed animals.",
+      "reason": "Specific, surprising and sourced (Atlantic, September 29, 2026, with her 2023 \"very useful in analyzing different personality types\"). It pays off immediately: the type-A bear and the generosity panda map onto her \"supportive manager... high bar\" self-description, which frames the whole profile."
+    },
+    "discoverability": {
+      "score": 8.5,
+      "passage": "## What is Daniela Amodei's personality type?\n\nOur leading read on Daniela Amodei's personality type is Enneagram Type 1, the Reformer, at medium confidence.",
+      "reason": "Clear H2 with a direct answer under 60 words. Title, meta_title and description accurately signal a leading read with 2 and 6 live. FAQs answer real queries (type, why not Two, who she is, age with S-1 and Wired, husband, how she differs from Dario) and match the body. Internal links go to the Type 1, 2 and 6 pages and to Sam Altman, Mira Murati and Dario Amodei, all published. The type FAQ inherits the confidence overstatement in reverify-01."
+    }
+  }
+}

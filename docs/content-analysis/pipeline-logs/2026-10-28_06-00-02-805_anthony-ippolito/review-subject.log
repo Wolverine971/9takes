@@ -1,0 +1,16 @@
+The subject (fairness) review for Anthony Ippolito is written to `docs/content-analysis/pipeline-logs/2026-10-28_06-00-02-805_anthony-ippolito/review-subject.json`. It passes `reviewSchema`, both hashes match the request, and every quoted passage appears word for word in the draft. I didn't change any other file in the repo or publish anything.
+
+**Verdict:** the draft treats the public record fairly. Disputed accounts are credited to whoever told them, critics on both sides are quoted, and nothing is invented. The problems are in how it reads his motives: it makes him look more fearful and more hungry for attention than his own words do.
+
+**5 major findings:**
+1. **Timeline error.** The draft says he "change[d] his body" before anyone asked. On Collider, director Peter Farrelly says that "after we got it… we had him working out for a year." The same mistake makes the Type 9 section's "self-started, two-year pursuit" claim wrong.
+2. **"Seen" over-read.** In casting, "being seen" just means getting an audition, and the rest of his sentence ("get in the door," "even if it didn't go my way") confirms that meaning. The draft treats the word as a sign of a Type 3 need to be noticed, in the body, the 60-word answer and the FAQs.
+3. **His own reason is missing.** In a source the draft already cites, TheWrap quotes him saying he "really wanted to be a part of it" and was "really, really enthusiastic." The draft leaves that out and then lists "loving the story" as a future signal that would settle the type.
+4. **Invented "bold step despite fear" story.** The tape came first and he described it as "really fun." The fear words came after he was cast, and the Pacino role involved no bold step at all.
+5. **Quotes cut short.** Both Stallone "lone wolf" quotes stop just before the part about perseverance, and "nobody in his corner" is the film's own theme. That undercuts the Type 6 claim that his "eye goes to support."
+
+**3 minor findings:** the line "recurring words are weight and fear" leaves out his matching words of fun, honor and gratitude. The story about him not mentioning the Pacino role happened after he was already cast, and it's Farrelly's account. Farrelly's "wasn't much of a fight" is cut before the praise that follows it.
+
+**Open-case eligibility:** he qualifies, so I raised no blocker. Two web searches turned up no podcast, long profile or *Purple Hearts* press that research missed ([Wikipedia](https://en.wikipedia.org/wiki/Anthony_Ippolito), [TVovermind](https://tvovermind.com/?p=481652)). One Bare Magazine interview mentioned by TVovermind was never opened, which is a small gap. The type stays flagged as contested; I added no new risk flags.
+
+I worked from the cached Whisper and caption transcripts and didn't re-listen to the audio.

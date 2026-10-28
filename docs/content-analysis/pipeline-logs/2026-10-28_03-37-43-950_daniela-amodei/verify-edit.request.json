@@ -1,0 +1,27 @@
+{
+  "schema_version": 3,
+  "subject": "daniela-amodei",
+  "mode": "create",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_verify_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-28_03-37-43-950_daniela-amodei/candidate-edit.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-28_03-37-43-950_daniela-amodei/evidence-edit.json",
+    "resolution": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-28_03-37-43-950_daniela-amodei/resolution-edit.json",
+    "review-subject": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-28_03-37-43-950_daniela-amodei/review-subject.json",
+    "review-fan": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-28_03-37-43-950_daniela-amodei/review-fan.json",
+    "review-critic": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-28_03-37-43-950_daniela-amodei/review-critic.json",
+    "review-unfamiliar": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-28_03-37-43-950_daniela-amodei/review-unfamiliar.json",
+    "review-enneagram": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-28_03-37-43-950_daniela-amodei/review-enneagram.json",
+    "review-future": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-28_03-37-43-950_daniela-amodei/review-future.json",
+    "baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-28_03-37-43-950_daniela-amodei/baseline-reader.md",
+    "checks": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-28_03-37-43-950_daniela-amodei/checks-edit.json"
+  },
+  "outputs": {
+    "verification-edit.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-28_03-37-43-950_daniela-amodei/verification-edit.json"
+  },
+  "content_sha256": "c2f31720bd7181dd05748e6bee83aa7d62faf7bd77bc4d8d3e39c71078287a85",
+  "evidence_sha256": "4881def0c24f91e0f69ef024d1301298252f03dd3fe34c48abc3027d55dbaa36"
+}

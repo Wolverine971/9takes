@@ -1,0 +1,1065 @@
+{
+  "schema_version": 3,
+  "content_sha256": "e28c6a0475c174c4583e508c29d3328d54187362719bc65299ea8842e7b670db",
+  "evidence_sha256": "7e84d7d041fae41645b7060d405cc32dffeaef71d6bbddd3f81adffef9b085fc",
+  "status": "pass",
+  "findings": [
+    {
+      "id": "verify-01",
+      "severity": "minor",
+      "passage": "\"After we got it, the one thing he wasn't was he wasn't buff like Stallone,\" Farrelly said on Collider in September 2026. \"So we had him working out for a year and learning how to box.\"",
+      "problem": "Collider audio (S20 01:18-01:30) has an intervening sentence between the two quoted fragments: 'And so luckily, he got to us beforehand.' The split quote reads as continuous speech, and the S20 locator, which discloses other filler drops, does not record the omission. The meaning is not distorted.",
+      "acceptance_test": "Either the omitted sentence is quoted or paraphrased (e.g. 'Luckily, he got to us beforehand,' he added), or the second fragment is introduced as a later remark, and the S20 locator records the omission."
+    },
+    {
+      "id": "verify-02",
+      "severity": "minor",
+      "passage": "Leading read: Enneagram Type 6, and it is a low-confidence call.",
+      "problem": "The body runs about 3,157 words against the open-case target of roughly 1,200-2,500. It is not padded: each section carries sourced detail that reviewers required. But it is long for a thin record, and unfamiliar-3's length clause remains unmet.",
+      "acceptance_test": "At the 2026-12-15 refresh, either the body comes down toward about 2,500 words without dropping a sourced discriminator, or new long-form evidence justifies the length."
+    },
+    {
+      "id": "verify-03",
+      "severity": "minor",
+      "passage": "Six stays narrowly ahead because he describes meeting hard roles by admitting he doesn't know how and then studying piece by piece.",
+      "problem": "The Type 3 FAQ generalizes to 'hard roles' (plural). The 'I don't know how to do this' admission exists only for Stallone (IMDb S16, September 2026). For Pacino he called the task 'kind of impossible' and researched footage (S14), which names difficulty but not not-knowing. The body's singular 'a hard task' is accurate; the FAQ overstates the tiebreaker's reach.",
+      "acceptance_test": "The FAQ ties the not-knowing admission to the Stallone role (e.g. 'he described starting the Stallone role by admitting he didn't know how') or quotes the Pacino-era wording accurately."
+    }
+  ],
+  "research_tasks": [
+    "Open People's 2026 interview (currently only relayed by Generation Iron) before quoting his account of Stallone and Jennifer Flavin's reaction or of training alone after landing the role.",
+    "Frame-check THR TIFF studio (S15) 09:34-09:37 with continuous video (not stills) to settle who says 'No.' / 'No, I mean' before 'I was fighting for it'; if Ippolito, report it as his answer to the hesitation question.",
+    "Find a dated account of when the unsolicited I Play Rocky tape was made. Training of a year and a half or more before a November 2025 shoot implies roughly 2024, well before the 2025-08-27 casting report; confirm before adding any year.",
+    "Locate Clayton Davis's original Variety interview behind the 150-to-180-pound / nearly-two-years figure (S02 relays it).",
+    "Re-transcribe the Fandango CinemaCon segment (S17 02:06-02:25) from audio; this verification relied on captions for 'really trying to soak it all in' because the Whisper pass did not complete.",
+    "At the 2026-12-15 review, collect post-release long-form interviews, Grand Army/Offer colleague testimony and his stated reasons for his next role, per the open_case settle signals."
+  ],
+  "claim_checks": [
+    {
+      "claim_id": "C40",
+      "verdict": "supported",
+      "reason": "TheWrap (S01, para 3): 'I hung a heavy bag in my grandma's basement. I didn't have a script...'; Farrelly at THR (S15 09:43-09:46, Whisper) and Variety (S22): 'we hadn't even started casting'. 'Turning himself into' refers to the tape's physicality, and the training section later states the body came after the tape."
+    },
+    {
+      "claim_id": "C01",
+      "verdict": "supported",
+      "reason": "Quote matches TheWrap verbatim (S01 para 3). TheWrap also reports the friend and cousin, the agent sending the tape, the script sent back and more scenes taped. Collider (S20 00:06-00:14, Whisper) confirms the news article."
+    },
+    {
+      "claim_id": "C41",
+      "verdict": "supported",
+      "reason": "TheWrap: 'heard about the project through a news article'; Collider (S20 00:15-00:17): 'that article that Pete was doing this movie with Toby Emmerich'. Variety S22 confirms Farrelly directed Green Book (TIFF 2018 winner). The passage avoids THR's incorrect 'Oscar for directing'."
+    },
+    {
+      "claim_id": "C42",
+      "verdict": "supported",
+      "reason": "THR studio audio (S15 10:04-10:13, Whisper): the studio loved Peter Gamble's script, asked 'how are you ever going to find Stallone?', then 'but you haven't even started casting. I said, he found us.' The paraphrase is faithful. On frames, Farrelly is the speaker."
+    },
+    {
+      "claim_id": "C33",
+      "verdict": "supported",
+      "reason": "Variety S22 closing line: premiered Sept. 12 at TIFF, limited Nov. 6, nationwide Nov. 20. I Play Rocky Wikipedia (S26) agrees and records the move from Nov 13 to Nov 6. 'Was scheduled' keeps the sentence true after release, and the claim is tracked as time_sensitive."
+    },
+    {
+      "claim_id": "C43",
+      "verdict": "supported",
+      "reason": "Variety S22 para 2: 'a star-making turn from Anthony Ippolito'. Byline Clayton Davis."
+    },
+    {
+      "claim_id": "C31",
+      "verdict": "qualified",
+      "reason": "The prose 'mid-to-late twenties as of 2026' holds under every reported age: NY Post (S06, Oct 2020) '20-year-old'; Haute Living (S13) 21 in May 2022; Variety (S22) 27; Wikipedia infobox 1999-08-21 against its own 2000-births category. That gives 25-27, and no birth year is stated. Disputed and hedged correctly."
+    },
+    {
+      "claim_id": "C32",
+      "verdict": "supported",
+      "reason": "Variety S22: 'a 27-year-old Long Island native'; NY Post S06: 'Long Islander'; Wikipedia: West Islip."
+    },
+    {
+      "claim_id": "C30",
+      "verdict": "supported",
+      "reason": "NY Post S06 and HollywoodLife S12 confirm Grand Army (2020) with A'Zion's Joey; Variety S04 and THR S14 confirm The Offer (2022) as Pacino; S04 says the series follows Ruddy 'played by Miles Teller'. Wikipedia S25 lists Grand Army as main cast."
+    },
+    {
+      "claim_id": "C44",
+      "verdict": "supported",
+      "reason": "Variety S22: 'broke out as George Wright in ... Grand Army in 2020'; SCMP S08 calls Grand Army his breakout. Credits in S05/S25 (Bella, Pixels young version, Purple Hearts supporting, Grand Army ensemble, The Offer recurring) contain no earlier lead."
+    },
+    {
+      "claim_id": "C08",
+      "verdict": "supported",
+      "reason": "Variety 2022 (S04): 'It's pretty terrifying, it makes you want to throw up,' he told Variety. Verbatim apart from the dropped opening 'It's'."
+    },
+    {
+      "claim_id": "C09",
+      "verdict": "supported",
+      "reason": "Screen Daily Rome (S03, 2026-10-20): 'There was a lot of intimidation at the beginning,' said Ippolito, at the Rome Film Fest press conference. Dated correctly to October 2026."
+    },
+    {
+      "claim_id": "C48",
+      "verdict": "supported",
+      "reason": "Interpretation grounded in TheWrap (S01): 'decided to take a shot before anyone even asked him to' and 'it was actually really fun'. THR S05 calls the tape unsolicited."
+    },
+    {
+      "claim_id": "C49",
+      "verdict": "qualified",
+      "reason": "Matches the opened record: four short 2020 Q&As (S06, S10, S11, S12), 2022 red carpets and one Q&A (S04, S13, S14), and 2026 junkets, press conferences and clips. Dated 'As of October 2026' and tracked as time_sensitive with a long-form-interview trigger."
+    },
+    {
+      "claim_id": "C50",
+      "verdict": "supported",
+      "reason": "2022: 'trying to fill those shoes is kind of impossible' then 'I looked into as much old footage' (THR S14). 2026: 'weight of the responsibility' then 'you just start by researching as much as you can' (S03); 'I don't know how to do this... piece by piece' (S16). Both roles show a difficulty named and then research."
+    },
+    {
+      "claim_id": "C37",
+      "verdict": "supported",
+      "reason": "Same pairing in S14/S04 (2022) and S03/S16 (2026), checked in the cached text and in IMDb audio (Whisper 00:20-00:29). The claim is now limited to naming the difficulty and then studying, with no counterphobic sequence."
+    },
+    {
+      "claim_id": "C51",
+      "verdict": "supported",
+      "reason": "TheWrap S01 paras 4-5: the 'long shot ... creative exercise ... actually really fun' quote is verbatim. 'They sent the agent the script in return and asked for a proper audition... shot several more scenes on his own' is attributed to TheWrap as reporting."
+    },
+    {
+      "claim_id": "C03",
+      "verdict": "qualified",
+      "reason": "Accounts genuinely conflict and the prose attributes each. THR studio (S15 09:53-09:58): 'had somehow found the script... put himself on three scenes'. IMDb (S16 01:27-01:32, Whisper): 'put himself on tape in his own apartment'. Variety S22 says grandmother's basement. 'Both men agree the tape arrived before casting began' rests on Farrelly's explicit words plus TheWrap's 'before anyone even asked him to'; Ippolito did not use the phrase 'before casting' himself."
+    },
+    {
+      "claim_id": "C02",
+      "verdict": "supported",
+      "reason": "Screen Daily Rome (S03): 'He was the first person we looked at, the only person,' said the director."
+    },
+    {
+      "claim_id": "C04",
+      "verdict": "qualified",
+      "reason": "Whisper and captions (S20 00:32-00:43) agree on the words. Fillers 'like' and 'um' and a repeated 'get in' are dropped, disclosed in the S20 locator. Whisper starts a new sentence at 'Even if it didn't go my way'; the draft follows the caption break. Either punctuation is a defensible transcription, and the meaning (he could accept not getting it) survives both."
+    },
+    {
+      "claim_id": "C77",
+      "verdict": "supported",
+      "reason": "Labeled as two readings of one junket answer, with the explicit limit 'One junket answer can't separate those.' Context checked in S20."
+    },
+    {
+      "claim_id": "C05",
+      "verdict": "supported",
+      "reason": "THR audio (S15 09:28-09:46, Whisper): 'Did you ever feel like hesitant to take the role because of like how much it means to people... I was fighting for it' then 'By the way, it wasn't much of a fight like we we never considered anyone else after him.' Fillers dropped and disclosed in the locator. Frames: Ippolito on camera at 09:36, Farrelly earlier at 08:51. 'Added' is neutral attribution."
+    },
+    {
+      "claim_id": "C06",
+      "verdict": "supported",
+      "reason": "NY Post S06 'Lucky break': broke hand in a game, audition 'scheduled a day after the procedure', 'I emailed my agent like, Listen, I'm gonna have to take a pass on this.' (verbatim). The 2019 dating rests on Baruch Athletics S28 ('played for the Bearcats in 2019') and HollywoodLife S12 (out for the season, booked Grand Army about a week later)."
+    },
+    {
+      "claim_id": "C54",
+      "verdict": "supported",
+      "reason": "NY Post S06: 'my agent emailed me back, How would you feel about sending in a tape? But I kept my hand out of the frame 'cause I didn't want them to see I had a broken hand.' Quote verbatim."
+    },
+    {
+      "claim_id": "C55",
+      "verdict": "supported",
+      "reason": "Follows from S06 (the agent proposed the tape) and S01/S05 (the Rocky tape was unsolicited). The circumstantial explanation is given first."
+    },
+    {
+      "claim_id": "C45",
+      "verdict": "supported",
+      "reason": "Variety 2022 (S04): 'But it's also a freaking honor... And it made me feel a huge weight of responsibility, but I had so much fun.' Fragments quoted accurately."
+    },
+    {
+      "claim_id": "C46",
+      "verdict": "supported",
+      "reason": "THR 2022 (S14 para 14): verbatim, including the source's own '[him]' bracket. Context: Pacino watching his performance."
+    },
+    {
+      "claim_id": "C47",
+      "verdict": "supported",
+      "reason": "Screen Daily Rome (S03): verbatim."
+    },
+    {
+      "claim_id": "C10",
+      "verdict": "supported",
+      "reason": "IMDb (S16 00:20-00:29): Whisper and captions agree; the repeated 'and' and an 'um' are dropped. Question context ('the voice, the posture. Where do you start?') matches."
+    },
+    {
+      "claim_id": "C12",
+      "verdict": "supported",
+      "reason": "Haute Living S13: Pacino prep from Panic in Needle Park and same-period interviews. TheWrap S01: 'researched Stallone's early career from 1972 to 1976, piecing together footage from bit parts'. AP S18 captions: ''72 to '76... Kojak, Lords of Flatbush'."
+    },
+    {
+      "claim_id": "C13",
+      "verdict": "supported",
+      "reason": "IMDb (S16 01:38-01:47, Whisper): 'Very Stallone-like in his approach to this. He just made it happen. He was so prepared, you know, and humble,' then the pre-production exchange: 'Have you ever done other stuff?... I was Pacino... That's the best part of The Offer.' Screen Daily S03 independently reports he learned 'only later, during pre-production'. Whisper renders 'that was the best part'; captions read 'That's the best part'. The difference is trivial."
+    },
+    {
+      "claim_id": "C19",
+      "verdict": "supported",
+      "reason": "Pop-Culturalist S11: the question was whether his first series-regular role brought pressure; the answer is quoted verbatim."
+    },
+    {
+      "claim_id": "C57",
+      "verdict": "supported",
+      "reason": "Labeled interpretation. The fear quotes (S04, S14, S03, S16) all concern icon roles. The 2020 series-regular answer (S11) shows no comparable fear."
+    },
+    {
+      "claim_id": "C14",
+      "verdict": "supported",
+      "reason": "USA Today premiere clip (S21, Whisper): 'upwards of like a year and a half to two years'; Variety S22 agrees ('upwards of a year and a half to two years'). Placed at the TIFF premiere."
+    },
+    {
+      "claim_id": "C15",
+      "verdict": "qualified",
+      "reason": "Variety AU syndicated copy (S02): 'he spent nearly two years bulking up from about 150 pounds to roughly 180 while training at Gleason's Gym', relaying an unlocated Clayton Davis interview. The prose attributes it to Variety. Collider (S20) has a looser ~40 lb exchange; the dispute is tracked."
+    },
+    {
+      "claim_id": "C59",
+      "verdict": "supported",
+      "reason": "Collider audio (S20 01:47-01:55, Whisper): 'This was like a raging bull thing to me. It's like De Niro in Raging Bull, where he just transformed into Jake LaMotta.' Speaker is Farrelly by context."
+    },
+    {
+      "claim_id": "C60",
+      "verdict": "supported",
+      "reason": "Variety AU (S02): 'It's like a consistency thing... just an entire lifestyle shift'. IMDb (S16 01:08-01:11, Whisper): 'it tested me in more ways than one'."
+    },
+    {
+      "claim_id": "C62",
+      "verdict": "supported",
+      "reason": "His words in S02/S16 concern consistency, lifestyle and testing. Farrelly (S20) says the production had him training. Labeled interpretation."
+    },
+    {
+      "claim_id": "C24",
+      "verdict": "supported",
+      "reason": "Daily Actor (S07) relaying Below the Line: the first Pacino actor withdrew over sexual content; the quote is verbatim. Papsidera's testimony is professional, about the performance, as the prose frames it."
+    },
+    {
+      "claim_id": "C26",
+      "verdict": "supported",
+      "reason": "THR studio (S15 08:47-09:02, Whisper): 'Yeah, he loved it... because he watched it alone'. Frame at 08:51 shows Farrelly speaking. Attributed and dated September 2026, set against Stallone's own words, and tracked as time_sensitive."
+    },
+    {
+      "claim_id": "C63",
+      "verdict": "supported",
+      "reason": "AAP via Newcastle Herald (S09, published 2026-09-29): 92NY memoir event, 'Kind of mixed because I'm not dead yet' and 'I actually thought it was me the first moment, there were a couple of angles'. Verbatim."
+    },
+    {
+      "claim_id": "C34",
+      "verdict": "supported",
+      "reason": "Film Stage (S30): 'manages to avoid imitation and instead bring to the character something soulful.' RT roundup (S23): Chase Hutchinson, TheWrap: 'Ippolito credibly impersonates the voice of Stallone, but the delivery lacks the iconic actor's soul.' Both verbatim."
+    },
+    {
+      "claim_id": "C28",
+      "verdict": "supported",
+      "reason": "Screen Daily Rome (S03): both sentences appear consecutively in one quoted run, so 'went straight on' is accurate."
+    },
+    {
+      "claim_id": "C66",
+      "verdict": "qualified",
+      "reason": "An absence claim checked against all opened first-person material: no worst-case planning, loyalty testing or authority wariness appears. Valid only for the current record, which the article dates."
+    },
+    {
+      "claim_id": "C38",
+      "verdict": "supported",
+      "reason": "Behavioral facts verified: the Rocky tape (S01, S05) and the 2019 broken-hand tape (S06, S28, S12). Labeled as the Three reading, with marketing and situational caveats beside it."
+    },
+    {
+      "claim_id": "C07",
+      "verdict": "supported",
+      "reason": "HollywoodLife (S12): 'I was trying to do everything. I was auditioning, doing school assignments..., taking acting classes..., working with a coach, and auditioning.' Baseball is from the preceding sentences of the same answer. The list is a fair paraphrase."
+    },
+    {
+      "claim_id": "C17",
+      "verdict": "supported",
+      "reason": "Vulkan (S10): verbatim; also relayed by SCMP S08."
+    },
+    {
+      "claim_id": "C67",
+      "verdict": "supported",
+      "reason": "THR casting (S05, 2025-08-27): verbatim. The antecedent ('Stallone bets everything on himself') is given in the prose."
+    },
+    {
+      "claim_id": "C68",
+      "verdict": "supported",
+      "reason": "IMDb (S16 01:47-02:02) and Screen Daily S03 both place the Pacino conversation in pre-production, after he was hired."
+    },
+    {
+      "claim_id": "C35",
+      "verdict": "supported",
+      "reason": "USA Today clip (S21, Whisper): 'so grateful that [Farrelly] and Toby Emmerich and so many other people that were willing to take a chance on me'. Variety S22 agrees."
+    },
+    {
+      "claim_id": "C22",
+      "verdict": "supported",
+      "reason": "Vulkan (S10): answer to 'If you weren't acting'. Verbatim; dated 2020 (WordPress date 2020-12-17)."
+    },
+    {
+      "claim_id": "C39",
+      "verdict": "supported",
+      "reason": "Fandango CinemaCon (S17 02:13-02:25, captions): 'watching his stuff, old interviews as much as possible, just really trying to soak it all in.' Pop-Culturalist S11: 'the true value in being an ensemble member.' Fandango wording is from captions here; my Whisper pass on this segment did not complete, but the phrase is unambiguous in the captions and in the netflixjunkie relay."
+    },
+    {
+      "claim_id": "C69",
+      "verdict": "supported",
+      "reason": "A fair interpretive strain on Nine: the unsolicited tape (S01) plus repeat tapes and 'fighting for it' (S15). It no longer relies on the production-directed training."
+    },
+    {
+      "claim_id": "C20",
+      "verdict": "supported",
+      "reason": "Pop-Culturalist (S11): 'I could tell she was committed to authenticity and truth. In an industry where so much of the contrary exists, I felt so grateful to be a part of this.' 'She' is Katie Cappiello. Fair compression."
+    },
+    {
+      "claim_id": "C70",
+      "verdict": "supported",
+      "reason": "HollywoodLife (S12): the question asked how he created a safe space for filming the assault scene; the answer opens 'As an actor, it's your duty to tell the story as honestly and as truthfully as possible.' Verbatim, in context."
+    },
+    {
+      "claim_id": "C18",
+      "verdict": "supported",
+      "reason": "NY Post S06: 'I would tell myself, Stop being so hard on yourself, man.' Inner quote verbatim."
+    },
+    {
+      "claim_id": "C71",
+      "verdict": "supported",
+      "reason": "Labeled interpretation, with the situational alternative (serious material) stated first."
+    },
+    {
+      "claim_id": "C72",
+      "verdict": "supported",
+      "reason": "Haute Living S13 (2022): 'Either playing music or painting.' Verbatim."
+    },
+    {
+      "claim_id": "C73",
+      "verdict": "supported",
+      "reason": "blue News (S31, 2026-10-01): 'met with the likable, cheerful young actor at the Box Club Zurich'. Reporter impression, attributed as such."
+    },
+    {
+      "claim_id": "C74",
+      "verdict": "supported",
+      "reason": "Matches open_case.next_review 2026-12-15 and the 2026-11-20 wide release (S22, S26)."
+    },
+    {
+      "claim_id": "C75",
+      "verdict": "qualified",
+      "reason": "Correct as of 2026-10-28. Robb (S17 05:02-05:08: 'it's so easy to root for Anthony because he really took on this character'), Farrelly (S15, S16, S03), Papsidera (S07) and Stallone (S09) all spoke in promotional or casting contexts. No longer-acquaintance testimony was found in the cache. Tracked as time_sensitive."
+    },
+    {
+      "claim_id": "C76",
+      "verdict": "supported",
+      "reason": "Pop-Culturalist S11: 'My coach, Lynette Sheldon, has been a huge mentor for me'."
+    },
+    {
+      "claim_id": "C78",
+      "verdict": "supported",
+      "reason": "Vulkan S10: 'I just want to work on something that speaks to me.'"
+    },
+    {
+      "claim_id": "C23",
+      "verdict": "supported",
+      "reason": "Haute Living S13: 'My senior quote in high school was actually a quote from... Marlon Brando... \"Only the one who walks his own way can't be overtaken.\"' Verbatim, and the attribution to Brando is his own."
+    },
+    {
+      "claim_id": "C79",
+      "verdict": "supported",
+      "reason": "Description is consistent with S01 (tape before casting), S03 ('intimidation at the beginning', said after casting) and the body's leading read."
+    },
+    {
+      "claim_id": "C80",
+      "verdict": "supported",
+      "reason": "TheWrap S01 paras 3-5, as above."
+    },
+    {
+      "claim_id": "C81",
+      "verdict": "supported",
+      "reason": "Same as C26; Farrelly verified as speaker by frame at 08:51."
+    },
+    {
+      "claim_id": "C83",
+      "verdict": "supported",
+      "reason": "Heading quotes S04 verbatim ('it makes you want to throw up'), which Variety used in its headline."
+    },
+    {
+      "claim_id": "C84",
+      "verdict": "qualified",
+      "reason": "THR 2022 (S14): 'trying to fill those shoes is kind of impossible. So I just tried to do the best that I could. I looked into as much old footage...'. The prose's unquoted 'so' bridges over the skipped middle sentence. Meaning preserved; both fragments verbatim."
+    },
+    {
+      "claim_id": "C85",
+      "verdict": "supported",
+      "reason": "Pairings verified: 'freaking honor... so much fun' (S04), 'actually really fun' and 'really, really enthusiastic' (S01), 'an absolute dream come true' (S08), 'take a chance on me... absolutely surreal' (S21), 'a pleasure to do all of it' (S16). I found no winning language in the opened material."
+    },
+    {
+      "claim_id": "C87",
+      "verdict": "qualified",
+      "reason": "Collider audio (S20 01:18-01:30, Whisper): 'And by the way, after we got it, the one thing he wasn't was he wasn't buff, like Stallone. And so luckily, he got to us beforehand. So we had him working out for a year and learning how to box and doing everything.' Both quoted fragments are accurate, but the second follows an omitted sentence with no ellipsis, and the locator does not disclose the omission. The meaning is not distorted; see minor finding verify-01."
+    },
+    {
+      "claim_id": "C88",
+      "verdict": "supported",
+      "reason": "Collider (S20) as above: training followed receipt of the tape and was the production's program ('we had him working out')."
+    },
+    {
+      "claim_id": "C89",
+      "verdict": "qualified",
+      "reason": "S16 'I don't know how to do this... piece by piece' and S20 'homework... prior to even submitting the tape... similar to Pacino' are verified. The type inference is explicitly labeled 'a thin edge, also said on a press tour'. The 'starting from not knowing' phrase rests on one Stallone-era remark."
+    },
+    {
+      "claim_id": "C90",
+      "verdict": "supported",
+      "reason": "Collider (S20 00:59-01:07, Whisper): 'the thing was similar to Pacino. So much of the homework had to be done prior to even submitting the tape'. Quote verbatim."
+    },
+    {
+      "claim_id": "C91",
+      "verdict": "supported",
+      "reason": "Premise matches Screen Daily S03 ('which a then-unknown Stallone wrote and refused to sell unless he could play the lead'), THR S05 and TheWrap S01. The tape won him the lead in an existing project (S15: the studio already loved Gamble's script)."
+    },
+    {
+      "claim_id": "C92",
+      "verdict": "supported",
+      "reason": "THR S05 dated August 27, 2025; Wikipedia S25 cites the same."
+    },
+    {
+      "claim_id": "C93",
+      "verdict": "supported",
+      "reason": "NY Post S06: 'made his TV debut as a baseball-throwing toddler'. Pop-Culturalist S11: 'I was on a bunch of news shows for baseball, and I got hooked up with an agent through that.'"
+    },
+    {
+      "claim_id": "C94",
+      "verdict": "supported",
+      "reason": "THR S05: 'played a younger version of Adam Sandler's character in Pixels'. Wikipedia S25 and Cinecitta News list Pixels (2015)."
+    },
+    {
+      "claim_id": "C95",
+      "verdict": "supported",
+      "reason": "TheWrap S01 enthusiasm quote, and Collider (S20 00:08-00:14): 'a bunch of people sent it to me because I had talked about Stallone's story and been inspired by it'."
+    },
+    {
+      "claim_id": "C96",
+      "verdict": "supported",
+      "reason": "TheWrap S01 para 6: verbatim."
+    },
+    {
+      "claim_id": "C97",
+      "verdict": "qualified",
+      "reason": "The author's industry-idiom gloss, not sourced. It is consistent with his own surrounding words (S20: 'get in front of people in a timely way', 'get in the door') and is used only to weaken an inference, never to support one."
+    },
+    {
+      "claim_id": "C98",
+      "verdict": "qualified",
+      "reason": "Labeled 'tilts only slightly'. The inference holds under both the caption and Whisper sentence breaks (see C04)."
+    },
+    {
+      "claim_id": "C99",
+      "verdict": "supported",
+      "reason": "THR 2022 og:title/headline (S14 HTML): \"'The Offer' Team on 'Absolutely Terrifying' Task of Getting the Iconic 'Godfather' Story Just Right\", drawn from Matthew Goode's quote. The <title> tag reads 'Terrifying', but the published headline is as quoted. The prose says 'whole cast' where THR says 'Team'; the difference is negligible."
+    },
+    {
+      "claim_id": "C101",
+      "verdict": "supported",
+      "reason": "Labeled inference, consistent with S20 (production directed training) and his own words in S02/S16."
+    },
+    {
+      "claim_id": "C102",
+      "verdict": "supported",
+      "reason": "The lone-wolf line is about Stallone (S03). The film's underdog pitch is in S05 ('the ultimate underdog story') and S03."
+    },
+    {
+      "claim_id": "C103",
+      "verdict": "supported",
+      "reason": "Objects of fear verified: Pacino 'seeing it' (S14); fans' expectations (S03). The prose gives the shared 6/3 reading rather than claiming Six."
+    },
+    {
+      "claim_id": "C104",
+      "verdict": "supported",
+      "reason": "SCMP S08: 'In August 2025, the actor shared his emotions about getting the role with Entertainment Weekly: ... It is an absolute dream come true.' Attributed in the prose as EW via SCMP. The EW original was not opened, a disclosed limit."
+    },
+    {
+      "claim_id": "C105",
+      "verdict": "supported",
+      "reason": "The parallel is THR's framing (S05: 'In a fitting echo of that spirit') and Farrelly's ('Very Stallone-like', S16). Correctly labeled marketing, not evidence of motive."
+    },
+    {
+      "claim_id": "C106",
+      "verdict": "supported",
+      "reason": "Labeled interpretation from S01 ('really wanted to be a part of it') and S20 ('inspired by it')."
+    },
+    {
+      "claim_id": "C107",
+      "verdict": "supported",
+      "reason": "HollywoodLife (S12): 'Joey is raped by two of her best friends, George and Luke, in the backseat of a New York City cab'. Wikipedia S25: George Wright. Marked as fiction in the prose."
+    },
+    {
+      "claim_id": "C108",
+      "verdict": "qualified",
+      "reason": "An absence claim checked against all opened Q&As and junkets: no language of feeling different or misunderstood. Ensemble value from S11. Valid for the dated record; settle signal 3's evidence entry names when to reopen Four."
+    },
+    {
+      "claim_id": "C109",
+      "verdict": "supported",
+      "reason": "Press-tour framing applied evenly: S21 thanks at the premiere; S16/S03 put the Pacino anecdote after hiring."
+    },
+    {
+      "claim_id": "C110",
+      "verdict": "qualified",
+      "reason": "Same tiebreaker as C89. 'Meeting hard roles' (plural) generalizes a single Stallone-era 'I don't know how to do this' (S16); the Pacino-era analogue is 'kind of impossible' plus research (S14), not admitted not-knowing. See minor finding verify-03."
+    },
+    {
+      "claim_id": "C111",
+      "verdict": "supported",
+      "reason": "Dated order verified: pre-tape words are enthusiasm and homework (S01, S20); 'intimidation' (S03, Oct 2026) and 'daunting' (S16, Sept 2026; S18) refer to carrying the role; 'fighting for it' (S15). No pre-tape fear statement appears in the opened sources."
+    },
+    {
+      "claim_id": "C116",
+      "verdict": "qualified",
+      "reason": "Matches type_hypothesis (6 low, alternative 3, live [3, 9, 1]). Dated 'As of October 2026' and tracked."
+    },
+    {
+      "claim_id": "C119",
+      "verdict": "supported",
+      "reason": "RT roundup S23: about eight critics praise the performance (Shade Studios, Punch Drunk, Fangirl Freakout, Film Stage, Awards Radar, AwardsWatch, Screen Rant) and two (TheWrap, Region Free) call it impersonation or imitation. 'Most... a minority' is proportionate."
+    },
+    {
+      "claim_id": "C120",
+      "verdict": "supported",
+      "reason": "Labeled interpretation; the enthusiasm answer (S01/S20) is compatible with all four readings, as the prose argues."
+    },
+    {
+      "claim_id": "C121",
+      "verdict": "supported",
+      "reason": "Labeled interpretation of the verified motto (S13). It now gives each leading read both halves."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "S01",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened cached TheWrap text (wrap-casting.txt). Paras 1-6 hold the tape account, enthusiasm quote and Gleason's paragraph. Every quotation matches verbatim."
+    },
+    {
+      "source_id": "S02",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened cached Variety AU syndicated copy (Marc Malkin, AFI Fest; page dated Oct 26 2026). The 'consistency thing'/'lifestyle shift' quotes and the relayed 150-180 lb / Gleason's figure match. The Clayton Davis original remains unlocated (disclosed)."
+    },
+    {
+      "source_id": "S03",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened cached Screen Daily Rome report (2026-10-20, Gabriele Niola). The intimidation, weight-of-responsibility, lone-wolf/endurance, 'first person we looked at' and pre-production Pacino passages all match."
+    },
+    {
+      "source_id": "S04",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened cached Variety 2022 premiere report (Apr 22 2022, Carson Burton). The throw-up, honor, weight and fun quotes are verbatim in one answer."
+    },
+    {
+      "source_id": "S05",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened cached THR casting exclusive (2025-08-27, Borys Kit). Premise, 'fitting echo' quote and credits (Pixels, Purple Hearts) match."
+    },
+    {
+      "source_id": "S06",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened cached NY Post cast round-up (2020-10-14). The toddler line, broken-hand 'Lucky break' answer and high-school advice are verbatim."
+    },
+    {
+      "source_id": "S07",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened cached Daily Actor relay of Below the Line (2022-11-17). The Pacino recast and 'not an exact duplicate' quote are verbatim."
+    },
+    {
+      "source_id": "S08",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened cached SCMP compilation (2026-09-17). The EW 'absolute dream come true' (Aug 2025) and Vulkan relays match. EW original not opened; the prose attributes the quote 'via' SCMP."
+    },
+    {
+      "source_id": "S09",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened cached AAP/Newcastle Herald copy (published 2026-09-29T07:39Z per page metadata). Stallone's 92NY quotes are verbatim."
+    },
+    {
+      "source_id": "S10",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened cached Vulkan Q&A. The commercials, 'speaks to me' and alternative-life answers are verbatim."
+    },
+    {
+      "source_id": "S11",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened cached Pop-Culturalist Q&A. The agent origin, Sheldon mentor, Cappiello, pressure/'excited energy' and ensemble answers are verbatim."
+    },
+    {
+      "source_id": "S12",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened cached Wayback raw copy of HollywoodLife (2020-10-26). The 'trying to do everything', broken hand/out for season/booked a week later, assault-scene duty answer and storyline description (George and Luke) match."
+    },
+    {
+      "source_id": "S13",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened cached Haute Living Q&A (2022-05-13). The Pacino prep, Brando senior quote and music/painting answer are verbatim."
+    },
+    {
+      "source_id": "S14",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened cached THR 2022 premiere report and raw HTML. The shoes/footage and terrified quotes are verbatim. The og:title/headline carries 'Absolutely Terrifying' (the <title> tag shortens it to 'Terrifying')."
+    },
+    {
+      "source_id": "S15",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened captions and re-transcribed 08:35-10:30 from audio with Whisper small.en. Frames at 08:51 (Farrelly speaking, 'he loved it') and 09:36 (Ippolito on camera before 'fighting for it'). 'Fighting for it', 'wasn't much of a fight... never considered anyone else after him', 'somehow found the script' and 'He found us' all match, fillers dropped."
+    },
+    {
+      "source_id": "S16",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened captions and re-transcribed 00:10-02:40 with Whisper small.en. The 'I don't know how to do this... piece by piece', 'tested me in more ways than one', 'own apartment', 'Very Stallone-like... and humble' and pre-production Pacino exchange match. The unquoted 'don't see myself as a lead' clip line is correctly kept out."
+    },
+    {
+      "source_id": "S17",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened Fandango CinemaCon captions. 02:06-02:25: 'first I had to try to put on some weight... just really trying to soak it all in'. 04:55-05:12: Robb, 'so easy to root for Anthony'. My Whisper pass on this clip did not complete, so the wording rests on captions; the quoted phrase is unambiguous."
+    },
+    {
+      "source_id": "S18",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened AP clip captions (00:00-00:48). 'Daunting task', 'better to avoid' the icon part, '72-'76 bit parts, Kojak and Lords of Flatbush match the C12 paraphrase."
+    },
+    {
+      "source_id": "S20",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened captions and re-transcribed the full Collider short with Whisper small.en. The 'seen' answer, homework line, Farrelly's 'after we got it... working out for a year', and the De Niro/Raging Bull comparison all match. The Farrelly quote omits one intervening sentence without disclosure (verify-01)."
+    },
+    {
+      "source_id": "S21",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Re-transcribed the full USA Today clip with Whisper small.en: 'upwards of like a year and a half to two years', 'willing to take a chance on me', 'absolutely surreal'. Matches."
+    },
+    {
+      "source_id": "S22",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened cached Variety TIFF premiere report (2026-09-12, Clayton Davis). 'Star-making turn', release dates, grandmother's-basement/three-scenes account, Grand Army breakout and age 27 all match."
+    },
+    {
+      "source_id": "S23",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened cached RT first-reviews roundup. The performance section has mostly positive quotes plus Hutchinson (TheWrap) and Itkonen (Region Free) dissents; the Hutchinson quote is verbatim."
+    },
+    {
+      "source_id": "S25",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened cached Wikipedia wikitext. Infobox 1999-08-21 vs Category:2000 births, West Islip, Grand Army George Wright, Pixels, Purple Hearts, August 2025 casting: all as described."
+    },
+    {
+      "source_id": "S26",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened cached I Play Rocky wikitext. TIFF 2026-09-12 premiere, limited Nov 6 (moved from Nov 13) and nationwide Nov 20, RT 84%: as described."
+    },
+    {
+      "source_id": "S28",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened cached Baruch Athletics item (2020-10-16): 'Ippolito, who played for the Bearcats in 2019'."
+    },
+    {
+      "source_id": "S30",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened cached Film Stage review. The 'avoid imitation... something soulful' sentence is verbatim."
+    },
+    {
+      "source_id": "S31",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened cached blue News article text (2026-10-01): 'likable, cheerful young actor' at ZFF. The embedded video was not viewable; only the reporter's impression is used, and it is attributed as such."
+    }
+  ],
+  "decision_checks": [
+    {
+      "finding_id": "subject-01",
+      "accepted": true,
+      "reason": "Verified: no passage says he changed his body before anyone asked. 'Training for a part he already had' opens with Farrelly's Collider line (checked against Whisper). The Nine strain and Type 3 FAQ no longer use the transformation. C87/C88 map to S20."
+    },
+    {
+      "finding_id": "subject-02",
+      "accepted": true,
+      "reason": "Verified: the idiom caveat precedes the two-readings paragraph, and the quote runs through 'get in the door'. The type answer, both type FAQs and the Three section no longer cite 'seen'. The Three case rests on behavior."
+    },
+    {
+      "finding_id": "subject-03",
+      "accepted": true,
+      "reason": "Verified: the TheWrap enthusiasm quote is verbatim in the tape section, the Collider 'inspired' context is summarized, settle signal 1 says the answer fits every reading, and the Nine section weighs it. Mapped to C95/C96."
+    },
+    {
+      "finding_id": "subject-04",
+      "accepted": true,
+      "reason": "Verified: the counterphobic clause is gone. The Six section states the dated order (enthusiasm and homework, tape, then fear words), which I confirmed against S01, S20, S03 and S16."
+    },
+    {
+      "finding_id": "subject-05",
+      "accepted": true,
+      "reason": "Verified: the Rome quote is extended with the perseverance/endurance sentences (verbatim in S03). The 'where his eye goes' inference is withdrawn and relabeled as the film's underdog pitch inside the Type 4 set-aside."
+    },
+    {
+      "finding_id": "subject-06",
+      "accepted": true,
+      "reason": "Verified: the fear-dominant sentence is replaced by the honor/fun/gratitude pairing (C85, which I checked). The Type 3 FAQ no longer claims his words return to fear."
+    },
+    {
+      "finding_id": "subject-07",
+      "accepted": true,
+      "reason": "Verified: the Three section and FAQ date Farrelly's Pacino story after hiring, and the unnamed Stallone-phrase sentence is cut."
+    },
+    {
+      "finding_id": "subject-08",
+      "accepted": true,
+      "reason": "Verified: 'Farrelly added' plus 'We never considered anyone else after him', which matches Whisper at S15 09:40-09:43. The line now reads as praise."
+    },
+    {
+      "finding_id": "fan-01",
+      "accepted": true,
+      "reason": "Verified: training follows the tape, attributed to Farrelly on Collider (September 2026). The heading no longer asserts two years at Gleason's. The People relay is correctly not quoted, and a research task records it."
+    },
+    {
+      "finding_id": "fan-02",
+      "accepted": true,
+      "reason": "Verified: all three passages say 2019, and the NY Post interview stays dated 2020. S28 and S12 support 2019. Claims C06/C38/C55 updated."
+    },
+    {
+      "finding_id": "fan-03",
+      "accepted": true,
+      "reason": "Verified: the full three-sentence Farrelly run is quoted verbatim (S16 01:38-01:45, Whisper), and 'He just made it happen' recurs in the Three case and FAQ."
+    },
+    {
+      "finding_id": "fan-04",
+      "accepted": true,
+      "reason": "Verified: paragraph four gives the premise (S03 wording), Farrelly is identified as Green Book's director, the THR quote appears with its antecedent, and the parallel is weighed as marketing. Not adding the unsourced Offer casting-fight parallel is correct."
+    },
+    {
+      "finding_id": "fan-05",
+      "accepted": true,
+      "reason": "Accepted under the test's fallback branch. I confirmed the cache holds only the Generation Iron relay, not People. The relay is not presented as his words, and a research task is recorded."
+    },
+    {
+      "finding_id": "fan-06",
+      "accepted": true,
+      "reason": "Verified: the toddler debut (S06), baseball news spots leading to an agent (S11) and Pixels (2015) are added. No motive is inferred from his mother's acting."
+    },
+    {
+      "finding_id": "fan-07",
+      "accepted": true,
+      "reason": "Verified: George Wright's role in the fictional assault is named and marked as fiction, accurate to S12's 'raped by two of her best friends, George and Luke'. The 'duty' quote is placed in its question. Omitting the Odessa line is a permitted branch."
+    },
+    {
+      "finding_id": "fan-08",
+      "accepted": true,
+      "reason": "Verified: the closing gives each leading read both halves of the motto and no longer counts only against Three."
+    },
+    {
+      "finding_id": "critic-01",
+      "accepted": true,
+      "reason": "Verified: same repair as subject-04. The Six case claims only difficulty-then-study across 2022 and 2026, and the 2022 pairing is now quoted from THR."
+    },
+    {
+      "finding_id": "critic-02",
+      "accepted": true,
+      "reason": "Verified: the Three rebuttal opens with the even press-tour discount, the THR 2022 'Absolutely Terrifying' register is attributed to the whole team, the answer and FAQs say 'nearly level', and the tiebreaker is named and labeled thin."
+    },
+    {
+      "finding_id": "critic-03",
+      "accepted": true,
+      "reason": "Verified: same repair as subject-01. No passage treats the transformation as unprompted."
+    },
+    {
+      "finding_id": "critic-04",
+      "accepted": true,
+      "reason": "Verified: same repair as fan-02."
+    },
+    {
+      "finding_id": "critic-05",
+      "accepted": true,
+      "reason": "Verified: the 2022 THR shoes/footage pairing is quoted, and 'with the same answer attached' replaces 'now paired'."
+    },
+    {
+      "finding_id": "critic-06",
+      "accepted": true,
+      "reason": "Verified: 'an absolute dream come true' and the honor/fun/gratitude sentence are added. Leaving the 'No.' unquoted is correct: my frame at 09:36 shows Ippolito on camera but does not prove who said 'No.' at 09:35."
+    },
+    {
+      "finding_id": "critic-07",
+      "accepted": true,
+      "reason": "Verified: 'Most... praised the performance, and a minority called it imitation' matches the S23 proportions I counted."
+    },
+    {
+      "finding_id": "critic-08",
+      "accepted": true,
+      "reason": "Verified: same repair as fan-08."
+    },
+    {
+      "finding_id": "unfamiliar-1",
+      "accepted": true,
+      "reason": "Verified: the body-change sentence is replaced by attributed timeline, the Nine strain is trimmed, and the August 27, 2025 casting report appears once with S05."
+    },
+    {
+      "finding_id": "unfamiliar-2",
+      "accepted": true,
+      "reason": "Verified: the premise is in paragraph four with attribution, Farrelly is identified at first mention without THR's Oscar error, and 'won him the lead' replaces 'became'."
+    },
+    {
+      "finding_id": "unfamiliar-3",
+      "accepted": true,
+      "reason": "Accepted with a noted shortfall. The thesis now appears twice (type answer, Six section) and the uninvited-move motif three times (heading, 'nobody invited', 'his own'); I counted both. The length clause is not met: about 3,157 words against roughly 2,500. The editor's reason holds, since the added length came from sourced context other majors required (premise, enthusiasm quote, even discount, Type 4) and I found no filler. The remaining length is logged as minor finding verify-02 rather than blocking."
+    },
+    {
+      "finding_id": "unfamiliar-4",
+      "accepted": true,
+      "reason": "Verified: the unnamed-phrase sentence is gone (grep)."
+    },
+    {
+      "finding_id": "unfamiliar-5",
+      "accepted": true,
+      "reason": "Verified: 'in his mid-to-late twenties as of 2026' is true under every reported age (25-27), with no birth year stated and Pixels (2015) named."
+    },
+    {
+      "finding_id": "unfamiliar-6",
+      "accepted": true,
+      "reason": "Verified: the clarified contrast sentence reads on first pass, and 'pattern' is dropped."
+    },
+    {
+      "finding_id": "unfamiliar-7",
+      "accepted": true,
+      "reason": "Verified: the narrower, dated claim about who has spoken about knowing him. Robb's CinemaCon remark about him is confirmed in S17."
+    },
+    {
+      "finding_id": "unfamiliar-8",
+      "accepted": true,
+      "reason": "Verified: 'Anthony Ippolito's Enneagram Type: An Open Case on the Star of I Play Rocky' is one parseable phrase with open-case wording and no 'is a Type 6'."
+    },
+    {
+      "finding_id": "enneagram-F1",
+      "accepted": true,
+      "reason": "Verified: the Six section names each fear's object (Pacino watching; fans) and concedes it belongs to Three as much as Six. No sentence offers fear alone as the reason Six leads."
+    },
+    {
+      "finding_id": "enneagram-F2",
+      "accepted": true,
+      "reason": "Verified: no counterphobic clause. The sourced order is given, THR's 'fighting for it' is cited as counterevidence, and the Collider homework line is weighed and labeled as press-tour speech."
+    },
+    {
+      "finding_id": "enneagram-F3",
+      "accepted": true,
+      "reason": "Verified: the even discount is applied, the Pacino anecdote is framed as after hiring, and the answer and FAQ say Six leads by a named thin tiebreaker with Three nearly level."
+    },
+    {
+      "finding_id": "enneagram-F4",
+      "accepted": true,
+      "reason": "Verified: same repair as subject-01. The Type 3 FAQ no longer mentions the transformation, and the training section says it reflects stamina more than motive."
+    },
+    {
+      "finding_id": "enneagram-F5",
+      "accepted": true,
+      "reason": "Verified: same repair as subject-05."
+    },
+    {
+      "finding_id": "enneagram-F6",
+      "accepted": true,
+      "reason": "Verified: the block quote runs through 'get in the door', with filler drops disclosed in the S20 locator, and a sentence weighs the clause. My Whisper pass confirms the words; the sentence break is ambiguous, which the locator discloses."
+    },
+    {
+      "finding_id": "enneagram-F7",
+      "accepted": true,
+      "reason": "Verified: '### Set aside for now: Type 4' gives sourced reasons. Settle signal 3 no longer pins 'speaks to me' on Nine, and live_alternatives [3, 9, 1] matches the body."
+    },
+    {
+      "finding_id": "enneagram-F8",
+      "accepted": true,
+      "reason": "Verified: signals 2 and 3 turn on stated reasons and note career incentives. open_case.settle_signals matches the article."
+    },
+    {
+      "finding_id": "future-01",
+      "accepted": true,
+      "reason": "Verified: same repair as fan-02. No passage, FAQ or claim dates the broken-hand audition to 2020."
+    },
+    {
+      "finding_id": "future-02",
+      "accepted": true,
+      "reason": "Verified: 'As of October 2026' anchors the record sentence, the 58-word type answer and the testimony sentence. C49 and C75 are time_sensitive with triggers."
+    },
+    {
+      "finding_id": "future-03",
+      "accepted": true,
+      "reason": "Verified, with a better alternative: the dated range is true under all reported ages, and the editor's objection to '26 or 27' is correct (2020/2022 ages allow 25)."
+    },
+    {
+      "finding_id": "future-04",
+      "accepted": true,
+      "reason": "Verified: 'was scheduled to open...' survives the release dates. C33 is updated."
+    },
+    {
+      "finding_id": "future-05",
+      "accepted": true,
+      "reason": "Verified: 'best-known credit' and 'since taken most of the weight off' are gone, and the IMDb (September 2026), 2026 Zurich and 'November 2026 release' anchors are present."
+    },
+    {
+      "finding_id": "future-06",
+      "accepted": true,
+      "reason": "Verified: same repair as enneagram-F8."
+    },
+    {
+      "finding_id": "future-07",
+      "accepted": true,
+      "reason": "Verified: 'That tape won him the lead in I Play Rocky', followed by the premise."
+    }
+  ],
+  "prior_blocker_checks": [],
+  "protected_checks": [
+    {
+      "passage": "All of it shows what he says and does in public, not what he feels.",
+      "preserved": true,
+      "reason": "Present verbatim after the triad paragraph, with the fairness boundary intact."
+    },
+    {
+      "passage": "Against it: the fear clusters where nearly anyone would feel it. Little else in the public record looks like a Six. There is no worst-case planning on display, no testing of loyalty, no wariness of authority.",
+      "preserved": true,
+      "reason": "Present verbatim beside the Six case. The added 'dream come true' sentence strengthens it rather than softening it."
+    },
+    {
+      "passage": "And Farrelly learned only in pre-production, by asking, that Ippolito had played Pacino, which Farrelly called \"the best part of The Offer.\" By then Ippolito already had the job.",
+      "preserved": true,
+      "reason": "Present verbatim, and its caveat now also governs the Three section and FAQ."
+    },
+    {
+      "passage": "Stallone's verdict on _I Play Rocky_ depends on who's reporting it. Farrelly said at TIFF in September 2026 that Stallone watched the film alone and loved it.",
+      "preserved": true,
+      "reason": "Present verbatim, still followed by Stallone's dated 92NY words. Farrelly confirmed as speaker by frame."
+    },
+    {
+      "passage": "The only people on record who have worked with him or met him are Farrelly, Papsidera, Robb and Stallone, all in promotional or casting settings.",
+      "preserved": true,
+      "reason": "Changed for accuracy: the original was false, since reporters and the tape's collaborators met him. The distinctive contribution survives in a dated, narrower form that names exactly whose testimony is missing and why the current record is promotional. Preservation accepted under the false-detail exception."
+    },
+    {
+      "passage": "Before anyone had cast a movie about the making of _Rocky_, Anthony Ippolito hung a heavy bag in his grandmother's basement and started turning himself into Sylvester Stallone.",
+      "preserved": true,
+      "reason": "Present verbatim as the opening line. The training timeline is now clarified later, so the hook no longer implies a pre-casting body change."
+    },
+    {
+      "passage": "but wanted to know how he would ever find a Stallone when casting hadn't even started. \"I said, he found us.\"",
+      "preserved": true,
+      "reason": "Present verbatim; matches Whisper at S15 10:08-10:13."
+    },
+    {
+      "passage": "Read one way, the key word is \"seen,\" the move of someone who needs the right people to notice. Read another, the key phrase is \"live with it\": he was guarding against regret. One junket answer can't separate those.",
+      "preserved": true,
+      "reason": "Present verbatim and contiguous. The idiom caveat before it and the clause-weighing sentence after it keep the two-readings structure."
+    },
+    {
+      "passage": "With both icons he studied the actor before the legend: Pacino before _The Godfather_, and Stallone's bit parts from 1972 to 1976.",
+      "preserved": true,
+      "reason": "Present verbatim. The cut Haute Living method quote was supporting detail, not the insight."
+    },
+    {
+      "passage": "At THR's studio, the interviewer asked whether he ever hesitated to take a role that means so much to people. \"I was fighting for it,\" he said. Farrelly cut in: \"By the way, it wasn't much of a fight.\"",
+      "preserved": true,
+      "reason": "Changed minimally: 'cut in' became 'added' and Farrelly's next sentence was added, both matching audio. The exchange, his framing set beside his director's reply, is intact and now read accurately."
+    },
+    {
+      "passage": "Farrelly remembers it differently. At THR's studio he said Ippolito \"had somehow found the script\" and taped three scenes. In a video for [IMDb](https://www.youtube.com/watch?v=TP7M9Ce7eUM) that month, he placed the taping \"in his own apartment.\" Both men agree the tape arrived before casting began.",
+      "preserved": true,
+      "reason": "Changed only to add an absolute date ('In a September 2026 video for IMDb'). The fair handling of the conflicting accounts is unchanged."
+    },
+    {
+      "passage": "\"I was fighting for it,\" he said. Farrelly cut in: \"By the way, it wasn't much of a fight.\"",
+      "preserved": true,
+      "reason": "Same minimal change as the longer THR passage. The live exchange is preserved and its tone is corrected to match the audio."
+    },
+    {
+      "passage": "\"But I kept my hand out of the frame 'cause I didn't want them to see I had a broken hand.\"",
+      "preserved": true,
+      "reason": "Present verbatim (NY Post wording confirmed), now with the correct 2019 dating around it."
+    },
+    {
+      "passage": "So far, fear and ambition point the same way: toward the bold move, made after heavy preparation. Separating them takes a moment when they pull apart.",
+      "preserved": true,
+      "reason": "Present verbatim at the head of the settle section, followed by the dated review."
+    },
+    {
+      "passage": "A broken hand explains the first instinct. Still, the pattern shifted. In 2020 someone else proposed the tape. For _I Play Rocky_, he made one before anyone asked.",
+      "preserved": true,
+      "reason": "Changed because the year was wrong (2019 per S28/S12) and 'pattern' overstated one instance. The sourced behavioral contrast, with the circumstantial explanation first, is retained."
+    },
+    {
+      "passage": "A motto about refusing the race sits awkwardly with a Three, and a motto about going it alone sits awkwardly with a Six. Whether it was a passing pick or a compass is one more thing the next few years should show.",
+      "preserved": true,
+      "reason": "Changed because the old reading misread 'can't be overtaken'. It is still a sourced detail neither read fully explains, now fair to both, and the closing sentence is kept verbatim."
+    },
+    {
+      "passage": "That is his reading of Stallone, not a self-portrait, but it shows where his eye goes: to support, and to its absence.",
+      "preserved": true,
+      "reason": "Changed because the support inference rested on truncated quotations (S03 continues with perseverance). The valued inference labeling ('his reading of Stallone, not a self-portrait') is retained with the honest 'underdog pitch' caveat. Removing an unsupported inference is permitted."
+    },
+    {
+      "passage": "His own words are about consistency and being tested, not about how he looked, and the studio needed the physique either way.",
+      "preserved": true,
+      "reason": "Present verbatim, now preceded by the attributed production-directed timeline."
+    }
+  ],
+  "coverage_complete": true,
+  "metadata_consistent": true,
+  "alternative_type_addressed": true,
+  "five_year_test_passed": true,
+  "open_case_eligible": true,
+  "scores": {
+    "evidence": {
+      "score": 8.5,
+      "passage": "Farrelly remembers it differently. At THR's studio he said Ippolito \"had somehow found the script\" and taped three scenes. In a September 2026 video for [IMDb](https://www.youtube.com/watch?v=TP7M9Ce7eUM), he placed the taping \"in his own apartment.\" Both men agree the tape arrived before casting began.",
+      "reason": "Every quotation I checked matches the cached text or my own Whisper re-transcription, with speakers confirmed by frames where it mattered. Conflicting accounts (tape origin, Stallone's reaction, weight) are attributed and dated rather than smoothed, as this passage shows. Inference is labeled locally ('One junket answer can't separate those'), and fear and humility evidence get an even press-tour discount. Limits: most testimony is promotional; one Farrelly quote is spliced across an omitted sentence (verify-01); the EW and Clayton Davis lines come via relays. Above the 8 anchor, short of 9."
+    },
+    "enneagram": {
+      "score": 8.0,
+      "passage": "So why list Six first? On a narrow tiebreaker. He meets a hard task by starting from not knowing (\"I don't know how to do this\") and building \"piece by piece,\" and he did his homework before the tape, as for Pacino. Starting from not knowing sits more naturally with a Six than with a Three guarding an image of competence. It is a thin edge, also said on a press tour.",
+      "reason": "This meets the open-case 8 anchor. The leading read and each live alternative are argued from first-person evidence: 6 and 3 in depth, 9 and 1 more briefly, and 4 set aside with sourced reasons. The article names exactly what does not discriminate (the fear's object belongs to Three as much as Six; the tape fits every reading), states its one tiebreaker as thin, and nowhere claims more than a low-confidence lead. Not higher because the Nine and One cases rest on two or three quotes each, and the Six case concedes almost no Six-specific behavior."
+    },
+    "originality": {
+      "score": 8.5,
+      "passage": "Order matters. Before the tape came homework and enthusiasm; the fear words (\"intimidation,\" \"daunting\") came once the role was his.",
+      "reason": "Details are specific to him and verified: the heavy bag in his grandmother's basement, the broken hand kept out of frame, 'He found us', studying both icons before their fame, Farrelly learning of the Pacino role in pre-production, the Brando senior quote. The dated-order insight and 'fear and ambition point the same way' are real arguments, not type boilerplate. Only the triad glosses are reusable."
+    },
+    "writing": {
+      "score": 8.0,
+      "passage": "So far, fear and ambition point the same way: toward the bold move, made after heavy preparation. Separating them takes a moment when they pull apart.",
+      "reason": "The structure progresses from tape to fear language, training, reception, a four-way weighing and settle signals, without restating the thesis. Pacing varies (block quotes, two-line exchanges), and the prose is precise and largely free of AI tics. Held at 8 because the body is long for an open case at about 3,150 words (verify-02); the weighing section is dense with qualifying clauses; and 'Imitation or essence' connects to the type argument only through a later settle signal."
+    },
+    "durability": {
+      "score": 8.5,
+      "passage": "As of October 2026, nobody who has known him beyond a single production has spoken about him on record; Farrelly, Papsidera, co-star AnnaSophia Robb and Stallone all spoke in promotional or casting settings.",
+      "reason": "This meets the open-case 8 anchor and exceeds it on tracking. Every changing fact is dated ('As of October 2026', 'was scheduled to open', the dated Stallone accounts), next_review 2026-12-15 is in the body, and the four settle signals are observable and turn on stated reasons. What the page says is known (the tape, the 2019 audition, the dated quotes, the conflicting accounts) stays true if a later run settles on Three. Removing the latest Rome and Zurich material leaves the argument intact."
+    },
+    "hook": {
+      "score": 9.0,
+      "passage": "Before anyone had cast a movie about the making of _Rocky_, Anthony Ippolito hung a heavy bag in his grandmother's basement and started turning himself into Sylvester Stallone.",
+      "reason": "A specific, sourced image (S01) that raises the question of who makes a tape nobody asked for. 'I said, he found us' pays it off within three paragraphs, and the article then complicates the answer."
+    },
+    "discoverability": {
+      "score": 8.0,
+      "passage": "meta_title: 'Anthony Ippolito''s Personality Type: Open Case, Leading Read 6'",
+      "reason": "The title and meta_title name him, the film and the type question without overclaiming. The description (about 150 characters) is accurate. Five FAQs match real search intent (type, Type 3, how he was cast, did Stallone like it, what would settle it), and the type FAQ mirrors the 58-word answer under the required H2. Internal links go to Type 1/3/6/9 and to published Odessa A'Zion, Miles Teller and Robert De Niro pages, and the suggestions are published peers. Not higher because 'Leading Read 6' is cryptic in a search snippet, and the Type 3 FAQ slightly overstates the tiebreaker (verify-03)."
+    }
+  }
+}

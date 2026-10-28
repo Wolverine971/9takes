@@ -1,5 +1,5 @@
 {
-	"lastUpdated": "2026-10-27T06:25:31Z",
+	"lastUpdated": "2026-10-28T07:41:47Z",
 	"stats": {
 		"totalUnpublished": 132,
 		"totalPublished": 391,
@@ -43,19 +43,6 @@
 			"personaTitle": null,
 			"addedToQueue": "2026-10-21",
 			"retryCount": 0
-		},
-		{
-			"name": "anthony-ippolito",
-			"displayName": "Anthony Ippolito",
-			"type": null,
-			"priority": 89,
-			"priorityReason": "First lead: plays Sylvester Stallone in I Play Rocky (limited Nov 6, wide Nov 20); TIFF People's Choice nominee; Wikipedia 208/day Jun -> 4.8K L7. Thin SERP: run the entity-gap audit.",
-			"estimatedTraffic": "medium",
-			"searchVolume": "medium",
-			"personaTitle": null,
-			"addedToQueue": "2026-10-26",
-			"retryCount": 0,
-			"strategicValue": "awards-season-breakouts"
 		},
 		{
 			"name": "hunter-schafer",
@@ -202,6 +189,28 @@
 		}
 	],
 	"completed": [
+		{
+			"name": "anthony-ippolito",
+			"displayName": "Anthony Ippolito",
+			"type": null,
+			"priority": 89,
+			"priorityReason": "First lead: plays Sylvester Stallone in I Play Rocky (limited Nov 6, wide Nov 20); TIFF People's Choice nominee; Wikipedia 208/day Jun -> 4.8K L7. Thin SERP: run the entity-gap audit.",
+			"estimatedTraffic": "medium",
+			"searchVolume": "medium",
+			"personaTitle": null,
+			"addedToQueue": "2026-10-26",
+			"retryCount": 0,
+			"strategicValue": "awards-season-breakouts",
+			"startedAt": "2026-10-28T06:00:00Z",
+			"completedAt": "2026-10-28T07:41:47Z",
+			"contentGrade": "8.3",
+			"letter": "B",
+			"discoverability": "8",
+			"duration": "~101 min",
+			"needsReview": true,
+			"publishReady": false,
+			"publishBlockers": ["missing_full_image", "missing_thumbnail_image"]
+		},
 		{
 			"name": "dhar-mann",
 			"displayName": "Dhar Mann",

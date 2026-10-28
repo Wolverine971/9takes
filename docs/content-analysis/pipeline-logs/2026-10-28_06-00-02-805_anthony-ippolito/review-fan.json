@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "fan",
+  "content_sha256": "bf518be272b278fe261b8ecc266b4b6eea37b9ecb6da93b0acdff8f00a6b06cd",
+  "evidence_sha256": "928a93dce175e0b1191be453ea708fd04d4e3742788c43927c3108c326bd678d",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "fan-01",
+      "severity": "major",
+      "passage": "The other thing he did before anyone asked was change his body.",
+      "problem": "The draft's own source says the opposite. On Collider (S20 01:18-01:31), Farrelly says: \"after we got it, the one thing he wasn't was he wasn't buff like Stallone. And so, luckily, he got to us beforehand. So, we had him working out for a year and learning how to box,\" and Ippolito corrects him: \"Like a year and a half.\" Generation Iron (September 2026, relaying a People interview that is in the research cache but not in the evidence record) reports that training began after he landed the role, that a production delay gave him more time, that \"the first year, a little bit longer than that, was just kind of me alone in the gym day in, day out, just kind of with this obsession,\" and that Toby Emmerich connected him with trainers Grant Roberts and Kirk Myers for the final five months. The body change followed casting. It was not a second unprompted act. The sentence therefore inflates the \"before anyone asked\" pattern that both the Six and Three cases rely on, and it has no entry in the claim inventory. The section's last line (\"the studio needed the physique either way\") already contradicts it. The heading \"Two years in Gleason's Gym\" also turns a loose upper bound (his \"a year and a half to two years\" of total effort; Farrelly's \"a year\") into a fixed span in one gym, while People describes over a year of training alone before he had trainers.",
+      "acceptance_test": "The section says training began after the filmmakers had his tape, attributed to Farrelly on Collider (September 2026). The \"before anyone asked\" sentence is removed or limited to the tape and the study done before it. The corrected sentence is mapped as a claim citing S20. The heading no longer states two years in Gleason's Gym as fact. The People line may be quoted, with its date, only if the People original is opened and added as a source. Otherwise it stays out."
+    },
+    {
+      "id": "fan-02",
+      "severity": "major",
+      "passage": "In 2020, playing baseball for Baruch College, he broke his hand in a game, and his _Grand Army_ audition fell the day after a procedure on it.",
+      "problem": "2020 is the year of the interviews (New York Post, October 2020), not the year of the injury. Baruch Athletics (S28) lists his Bearcats season as 2019. He told HollywoodLife (S12) that he broke the hand playing for Baruch, \"was out for the season after that,\" and booked Grand Army about a week later. Netflix's series order for Grand Army, with A'Zion leading the cast, was reported in October 2019, and the show premiered in October 2020. That leaves no room for a spring 2020 audition, especially with that season cut short in March. The wrong year appears three times: here, in \"In 2020 someone else proposed the tape,\" and in the Three case's \"in 2020 he taped an audition with a broken hand kept out of frame.\" Fans of Grand Army will notice. It also misdates the first data point in an argument built on dates.",
+      "acceptance_test": "All three passages either date the injury and tape to his 2019 Baruch season, citing S28, or drop the year (for example, \"while playing for Baruch, before Grand Army\"). Claims C06, C55 and C38 match. No sentence in the body, FAQs or evidence record places the Grand Army audition in 2020."
+    },
+    {
+      "id": "fan-03",
+      "severity": "major",
+      "passage": "\"He was so prepared, you know, and humble,\" he said in the IMDb video.",
+      "problem": "In the IMDb video (S16 01:38-01:45), this line ends a three-sentence run: \"Very Stallone-like in his approach to this. He just made it happen. He was so prepared, you know, and humble.\" The draft keeps the half that fits Six (the paragraph opens \"Farrelly saw the same habits,\" meaning preparation and deference). It drops the director's first-hand description that fits the Three rival. That dropped half is stronger evidence than the trade line the Three case now relies on (THR's \"is said to have pursued\"). This is an open case where Six leads Three only narrowly. Cutting the rival's best testimony out of a quoted run makes the alternative look thinner than the source does.",
+      "acceptance_test": "Either the full run is quoted in one place, or \"Very Stallone-like in his approach to this. He just made it happen\" appears in the Three case, attributed to Farrelly in the IMDb video (September 2026). C13, or a new claim, records the omitted words. The Six paragraph no longer presents Farrelly's view as evidence only of preparation and humility."
+    },
+    {
+      "id": "fan-04",
+      "severity": "major",
+      "passage": "That tape became _I Play Rocky_.",
+      "problem": "The article never says what I Play Rocky is about. Stallone, then unknown, refused to sell his Rocky script unless he played the lead. THR's casting story (S05) puts it as \"Told 'no' at every turn, Stallone bets everything on himself, holding the line on playing the lead.\" That premise explains the title, and it is the first thing a fan brings to the page. Leaving it out causes three problems. (a) This sentence reads as if the tape created the film, but Farrelly says the studio already loved Peter Gamble's script (S15 10:03-10:08); the tape won him the lead. (b) The THR quote in the Three case (\"with the same relentless drive\") loses its antecedent, so the quote appears without its context. (c) The article never weighs the parallel that THR (\"a fitting echo of that spirit\") and Farrelly (\"Very Stallone-like\") both draw: an unknown bet on himself to land the lead in a film about an unknown betting on himself to play the lead. That parallel is the strongest story behind the Three reading, and it is also the studio's marketing line. An open case needs to confront it, not leave it out. If it can be sourced, The Offer's Pacino storyline is also a fight over casting an unproven actor, which would make two such roles.",
+      "acceptance_test": "Within the opening orientation, one or two sourced sentences state the film's premise. The tape sentence says the tape won him the lead in a film already in development. The THR \"same relentless drive\" quote appears with its antecedent. The type section says in one or two sentences whether the echo counts as evidence of motive or only as the studio's marketing frame."
+    },
+    {
+      "id": "fan-05",
+      "severity": "minor",
+      "passage": "Stallone's verdict on _I Play Rocky_ depends on who's reporting it. Farrelly said at TIFF in September 2026 that Stallone watched the film alone and loved it.",
+      "problem": "Ippolito's own account is missing. Generation Iron, relaying the same People interview, reports that he said Stallone and his wife, Jennifer Flavin, watched the finished film and were \"really big fans of it.\" That is the subject's own answer to the question the FAQ asks, and fans following the press tour have seen it. The research cache has the Generation Iron page, but the evidence record has no source for it, and the People original was not opened.",
+      "acceptance_test": "Open the People interview. If the line is confirmed, add Ippolito's dated account next to Farrelly's and Stallone's in both the body and the \"Did Sylvester Stallone like I Play Rocky?\" FAQ, with source and date. If it cannot be opened, record a research task and do not present the secondary paraphrase as his words."
+    },
+    {
+      "id": "fan-06",
+      "severity": "minor",
+      "passage": "Ippolito is a Long Island native in his late twenties who has acted since childhood.",
+      "problem": "\"Acted since childhood\" is left bare, and the article omits the sourced origin a fan knows. He \"made his TV debut as a baseball-throwing toddler\" (New York Post, S06). He got his agent through childhood TV news spots for baseball (Pop-Culturalist, S11: \"I was on a bunch of news shows for baseball, and I got hooked up with an agent through that\"). He credits his mother, who \"pursued acting back in the day\" (S11). The THR casting story also lists credits the draft skips: young Sam Brenner in Pixels (2015) and Johnno in Netflix's Purple Hearts (2022). The baseball origin explains why baseball and acting were \"my two biggest passions.\" It also shows that the juggling the Three case cites began in childhood, long before any career strategy. It is a distinctive, sourced detail.",
+      "acceptance_test": "The orientation adds one or two sourced sentences on how baseball led to his agent, plus at least one credit from before Grand Army. If the mother's acting history is used, it is stated as his account, and no motive is inferred from it."
+    },
+    {
+      "id": "fan-07",
+      "severity": "minor",
+      "passage": "The One case is his moral vocabulary around _Grand Army_, a show about sexual assault and consent.",
+      "problem": "The section leaves out that his Grand Army character, George Wright, is one of the boys whose assault of Joey (played by A'Zion, linked earlier) drives the story. It also leaves out that his \"duty to tell the story as honestly and as truthfully as possible\" line answered a question about filming that scene (HollywoodLife, S12). This is the role fans know him from. The context is the best support for the draft's own rebuttal (\"serious answers suited that material\"). The same interview also has a telling detail about how he treats a scene partner: \"my whole person was just completely making sure Odessa felt safe and comfortable.\"",
+      "acceptance_test": "One sentence names his role and the storyline, clearly marked as fiction. The \"duty\" quote is placed in the context of the question it answered. The Odessa line is either used with attribution or deliberately left out."
+    },
+    {
+      "id": "fan-08",
+      "severity": "minor",
+      "passage": "A motto about refusing the race sits awkwardly with a Three, and a motto about going it alone sits awkwardly with a Six.",
+      "problem": "The motto's words do not refuse the race. \"Can't be overtaken\" keeps the race and promises not to lose it. A Three reading could claim it just as easily: you win by not running on other people's terms. The motto also echoes the film's premise of Stallone holding out to go his own way. The closing paragraph ends the article on a reading that quietly counts against the closest rival. An open case should not tip the scale that way.",
+      "acceptance_test": "The paragraph acknowledges the competitive \"can't be overtaken\" framing, or it drops the per-type verdicts and keeps the motto as an unexplained detail. No sentence in the final paragraph counts against Three or Six without also stating the opposing reading."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Before anyone had cast a movie about the making of _Rocky_, Anthony Ippolito hung a heavy bag in his grandmother's basement and started turning himself into Sylvester Stallone.",
+      "reason": "A specific, sourced cold open built from his own TheWrap account (heavy bag, grandmother's basement) and Farrelly's \"we hadn't even started casting.\" Keep it, and keep \"turning himself into\" about the tape rather than the later body change (see fan-01)."
+    },
+    {
+      "passage": "but wanted to know how he would ever find a Stallone when casting hadn't even started. \"I said, he found us.\"",
+      "reason": "Checked against the THR studio transcript (10:03-10:16). It is the director's own payoff line, used at the right moment."
+    },
+    {
+      "passage": "Read one way, the key word is \"seen,\" the move of someone who needs the right people to notice. Read another, the key phrase is \"live with it\": he was guarding against regret. One junket answer can't separate those.",
+      "reason": "This is how an open case should handle its pivotal quote: two readings anchored to two phrases, and a plain statement that the evidence can't decide between them."
+    },
+    {
+      "passage": "With both icons he studied the actor before the legend: Pacino before _The Godfather_, and Stallone's bit parts from 1972 to 1976.",
+      "reason": "A distinctive insight about his craft across four years that fans will recognize as true (Panic in Needle Park; Kojak and The Lords of Flatbush). Only this subject could have it."
+    },
+    {
+      "passage": "And Farrelly learned only in pre-production, by asking, that Ippolito had played Pacino, which Farrelly called \"the best part of The Offer.\" By then Ippolito already had the job.",
+      "reason": "Checked against the IMDb transcript (01:45-02:02). The revealing detail comes with its own fair caveat in the next sentence, which is the honesty the format needs."
+    }
+  ],
+  "assessment": "Fan read: the hook, the two-icon fear-then-research sequence and the \"seen\"/\"live with it\" split are accurate and well chosen. Someone who followed the I Play Rocky press tour will still notice four things that skew the 6-vs-3 contest. (1) The body change is presented as a second unprompted act, but Farrelly's own Collider words put the training after the filmmakers had the tape (fan-01). (2) The Grand Army injury and tape happened during his 2019 Baruch season, not 2020 (fan-02). (3) Farrelly's \"Very Stallone-like... He just made it happen\" was cut from the quoted line that the Six case uses (fan-03). (4) The film's premise, Stallone refusing to sell Rocky unless he starred, is never stated. That leaves THR's \"same relentless drive\" without its antecedent and hides the obvious parallel the Three case must confront (fan-04). Three of the four omissions remove material that favors Three, so fixing them should narrow the margin, not reverse the read. Smaller gaps: Ippolito's own account of Stallone's reaction (via People), his childhood path from baseball to an agent, and the context of his Grand Army role. Open-case eligibility: I agree he qualifies. He is an adult whose first lead and first major public moment is the 2025 casting and 2026 release. His 2020-2022 record is short Q&As and red carpets. Searches for a podcast, a long-form profile or Purple Hearts press found nothing. The one substantive source research skipped (the People interview, cached as a Generation Iron relay) is a single interview, not a deep record, so no blocker. Confidence language is honest in the title, meta_title, description, 60-word answer and FAQs (\"leading read,\" \"low-confidence\"). The settle signals are concrete and name people and events. Similarity advisory: not tripped (max 0.051 against Nathan Fielder). The top matches are ordinary type vocabulary and triad definitions, and the arguments themselves differ, so there is no meaningful reuse."
+}

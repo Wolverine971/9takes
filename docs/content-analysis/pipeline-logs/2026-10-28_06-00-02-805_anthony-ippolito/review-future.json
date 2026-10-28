@@ -1,0 +1,86 @@
+{
+  "schema_version": 3,
+  "role": "future",
+  "content_sha256": "bf518be272b278fe261b8ecc266b4b6eea37b9ecb6da93b0acdff8f00a6b06cd",
+  "evidence_sha256": "928a93dce175e0b1191be453ea708fd04d4e3742788c43927c3108c326bd678d",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "future-01",
+      "severity": "major",
+      "passage": "In 2020, playing baseball for Baruch College, he broke his hand in a game, and his _Grand Army_ audition fell the day after a procedure on it.",
+      "problem": "Misdated event. 2020 is when the New York Post interview ran (S06, 2020-10-14), not when the injury and audition happened. The draft's own Baruch source (S28, reopened 2026-10-28) says he \"played for the Bearcats in 2019\" and calls him a \"former\" player by October 2020. Grand Army's principal photography ran May to September 2019 (Wikipedia production section, citing The Cinemaholic and Untapped New York), so the audition came before 2020. The same wrong year appears in \"In 2020 someone else proposed the tape.\" and in the Three case (\"in 2020 he taped an audition with a broken hand kept out of frame\"), as well as in the C06, C38 and C55 claim text. Because the article contrasts the two self-tapes across time, the error also distorts the timeline it argues from. (\"Asked in 2020...\" and \"In 2020, asked whether...\" are interview dates and are correct.)",
+      "acceptance_test": "No body passage, FAQ or claim dates the broken-hand audition to 2020. All three passages either say 2019, sourced to S28 (plus a cited filming-date source if 2019 is given as the audition year), or anchor it without a year (\"when he auditioned for Grand Army, while playing for Baruch\"). C06, C38 and C55 are corrected to match."
+    },
+    {
+      "id": "future-02",
+      "severity": "major",
+      "passage": "Almost everything he has said in public comes from red carpets, festival junkets and short written Q&As. That record can't yet tell those motives apart, which makes this an open case.",
+      "problem": "These are present-tense statements about the record, and the open case exists so that they will change. The article itself expects long-form interviews and colleague testimony within weeks. The FAQ dates them (\"as of October 2026\"), but the body never does: not here, not in the type answer (\"the record is too young to choose\"), and not in \"The only people on record who have worked with him or met him are Farrelly, Papsidera, Robb and Stallone, all in promotional or casting settings.\" So a reader after the first podcast or awards roundtable would be told something false. C49 is classed `stable` with an empty review_trigger, so nothing in the evidence record tracks it. C75's wording is also too broad: reporters and festival officials have met him. What is limited is who has spoken about knowing him.",
+      "acceptance_test": "Each of the three body passages has an absolute anchor (for example \"As of October 2026\"). The 60-word type answer includes the date and stays at 60 words or fewer (it is 57 now). C49 is reclassed `time_sensitive` with a review_trigger tied to the first published long-form interview, podcast or profile. C75 is reworded to people who have spoken on record about working with him, and it is dated in the prose."
+    },
+    {
+      "id": "future-03",
+      "severity": "minor",
+      "passage": "Ippolito is a Long Island native in his late twenties who has acted since childhood.",
+      "problem": "A relative age expires. It is false by about 2029 to 2030 whichever birth year is right, and under the 2000 birth year that the 2020 and 2022 outlets imply, he was 26 in October 2026, which is a stretch for \"late twenties\". C31's review_trigger covers only settling the birth year, not this drift.",
+      "acceptance_test": "The age is stated in a form that stays true, such as \"who was 26 or 27 when the film premiered in September 2026\" or \"born in 1999 or 2000 (reports differ)\". C31's passage and trigger match the new wording."
+    },
+    {
+      "id": "future-04",
+      "severity": "minor",
+      "passage": "and opens in limited U.S. release on November 6, expanding nationwide on November 20",
+      "problem": "The future tense goes stale on 2026-11-06, about a week after the draft date, while the case review isn't due until 2026-12-15. For at least five weeks the page will read as pre-release, and if the refresh slips (held runs often do), the error stays. C33 tracks the fact, but the sentence isn't written to survive the wait.",
+      "acceptance_test": "The sentence stays correct after the release dates without an edit, for example \"was scheduled to open in limited U.S. release on November 6, 2026, expanding nationwide on November 20\". C33's passage is updated to match."
+    },
+    {
+      "id": "future-05",
+      "severity": "minor",
+      "passage": "He didn't tell his director about his best-known credit until asked.",
+      "problem": "Relative-time wording loses its anchor over five years. In 2025 his best-known credit was The Offer. By 2031 it will be I Play Rocky, and the sentence will read as nonsense. The same drift shows up in \"He has since taken most of the weight off.\" (since when?), \"In a video for [IMDb]... that month\" (the section never names the month), \"In the first long-form interviews after the November release\" (no year), and \"Swiss reporters at the Zurich Film Festival\" (no year).",
+      "acceptance_test": "Each phrase has an absolute anchor or an \"at the time\" qualifier, for example \"his best-known credit at the time, The Offer\", \"By TIFF in September 2026 he had taken most of the weight off\", \"In a September 2026 video for IMDb\", \"after the November 2026 release\" and \"at the 2026 Zurich Film Festival\"."
+    },
+    {
+      "id": "future-06",
+      "severity": "minor",
+      "passage": "Does he take the biggest lead on offer (Three), return to trusted collaborators such as Farrelly for security's sake (Six), pick a small character piece that, in his 2020 words to Vulkan, \"speaks to me\" (Nine), or choose a project because it tells a truth (One)?",
+      "problem": "As written, this settle signal can't be observed. \"For security's sake\" and \"because it tells a truth\" are motives, and a next-role choice is shaped by offers, agents and schedules, so a later refresh could read any choice as any type. The evidence record's version requires \"security and belonging named as reasons\". The article dropped that condition, and with it the 4 branch the record keeps for the small-character-piece outcome.",
+      "acceptance_test": "Each branch of signal 3 turns on what he says about why he chose the role, not only on what the role is. The prose says the choice alone does not settle it. The branches match the open_case.settle_signals entry, or that entry is updated to match."
+    },
+    {
+      "id": "future-07",
+      "severity": "minor",
+      "passage": "That tape became _I Play Rocky_.",
+      "problem": "Factual overstatement. Farrelly's script and the studio's interest came before the tape (S15: the studio loved the script but asked how he would find a Stallone). The tape won Ippolito the lead; it did not become the film. Placed just before the release-date sentence, it suggests the project grew out of his tape, and a reader with no other context would take that at face value.",
+      "acceptance_test": "The sentence says the tape won him the lead (for example \"That tape won him the lead in _I Play Rocky_.\") and doesn't suggest it created the film."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Read one way, the key word is \"seen,\" the move of someone who needs the right people to notice. Read another, the key phrase is \"live with it\": he was guarding against regret. One junket answer can't separate those.",
+      "reason": "It survives the five-year test whichever way the case settles: it names both readings of the one quote that matters most and states the inference limit in plain language. A refresh that lands on Three or Six can keep it unchanged."
+    },
+    {
+      "passage": "That is his reading of Stallone, not a self-portrait, but it shows where his eye goes: to support, and to its absence.",
+      "reason": "Precise inference labeling. It separates what he said about someone else from what that might suggest about him, so the claim stays honest under any later evidence."
+    },
+    {
+      "passage": "His own words are about consistency and being tested, not about how he looked, and the studio needed the physique either way.",
+      "reason": "It puts the situational alternative (the role required the body) in the same sentence as the type inference. That is the kind of hedge that keeps the page true if the case closes the other way."
+    },
+    {
+      "passage": "So far, fear and ambition point the same way: toward the bold move, made after heavy preparation. Separating them takes a moment when they pull apart.",
+      "reason": "This is the clearest statement of why the case is open and of what kind of evidence would close it. With the absolute review date that follows, it gives a future refresh a concrete test instead of a vague \"more interviews\"."
+    },
+    {
+      "passage": "A motto about refusing the race sits awkwardly with a Three, and a motto about going it alone sits awkwardly with a Six. Whether it was a passing pick or a compass is one more thing the next few years should show.",
+      "reason": "A distinctive, sourced detail that neither leading read explains. It ends on a real open question rather than a verdict, and it stays true whichever type is eventually supported."
+    }
+  ],
+  "assessment": "Five-year test: the thesis mostly passes. Take out the latest event (the October 2026 Rome and Zurich remarks and Stallone's 92NY comments) and the Six-over-Three reasoning still stands on the 2022 Pacino quotes (S04, S14) and the September 2026 IMDb and TIFF material (S16, S20). The I Play Rocky self-tape carries the article, but it is the defining career choice, not a news hook. Moving facts are mostly handled well: absolute dates for premiere, festivals and Stallone's reaction; the conflicting Stallone accounts attributed and tracked (C26, C63, C81); a dated next_review of 2026-12-15 restated in the body; and concrete, mostly observable settle signals. The failures are absolute-date accuracy and undated status claims. The Grand Army broken-hand audition is misdated to 2020 three times (S28 says he played for Baruch in 2019, and the show filmed May to September 2019: future-01). The body's statements about how thin the record is, which are the very claims the open case exists to revisit, carry no date, and C49 is untracked (future-02). Smaller drifts: relative age, future-tense release dates, \"best-known credit\" and other relative-time phrases, and one settle signal that names motives rather than observations. Eligibility: holds, though narrowly. I Play Rocky is his first lead (cast 2025-08-27, premiered 2026-09-12), and the 2020-2022 record (four short Q&As and red-carpet quotes) was actually opened, not skipped. Because some outlets call Grand Army (2020) his breakout, the verifier should decide explicitly whether \"first breakout... roughly the last three years\" is met on the first-lead criterion. Nothing in the body, title, description or FAQs claims more confidence than a low-confidence leading read. Similarity: not tripped (max 0.051 against Nathan-Fielder, at the noise-floor max). The top pairs share only ordinary type vocabulary and connective phrasing, not arguments, so there is no meaningful reuse. Risk flags: contested_typing stays true (open case); no sensitive allegations (the Grand Army assault storyline is fictional and discussed only as material); no historical source uncertainty; no thesis change."
+}

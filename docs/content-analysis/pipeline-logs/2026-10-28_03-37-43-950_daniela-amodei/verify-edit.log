@@ -1,0 +1,32 @@
+The verify stage is done. I wrote only `verification-edit.json`, which passes the contract's schema. The verdict is **revise**, so the Daniela Amodei page isn't eligible for release yet. Nothing was published or changed anywhere else.
+
+**What holds up:**
+- I reopened all 23 sources the claims rely on and fetched two fresh: Anthropic's Pentagon statement and Dario's essay. About 120 quotations match word for word, with the right speakers in the joint interviews.
+- Dates, S-1 facts, the OpenAI-era accounts (with denials and Altman's responses), internal links and suggestions all check out.
+- 51 of the 52 jury fixes are real, and all 20 passages the jury asked to protect survived.
+
+**What blocks release (one major problem):**
+After the jury review, the editor added a new main argument for Type 1 over Type 2. It rests on a Grit quote: she'd rather have honest feedback that's "a little bit wrong" than silence. The quote leaves out the middle of her sentence: honest feedback "coming from a place of wanting the best for the other person." That's caring language, the kind a Type 2 would use, so the argument looks stronger than her full sentence supports. The jury had already caught six trims like this in the draft, all leaning toward Type 1, and this one reached the final version without any reviewer seeing it. Because of it, I didn't accept the editor's fix for the jury's main type-argument finding (`enneagram-01`).
+
+**Four minor issues:**
+- **"The next lines":** the co-founder video quote skips two lines, and it's unclear who "you're the reason the culture scaled" is said to.
+- **Effective altruism:** the quote leaves out her own reason for rejecting the label ("a bit of an outdated term").
+- **"Stray from the path":** she credits the whole co-founding team and anonymous dissent with catching mistakes, not just Dario.
+- **Inventory gaps:** two quotes ("was never a question", "70% hit rate") aren't in the evidence inventory, though both are accurate.
+
+**Scores:**
+
+| Dimension | Score |
+|---|---|
+| Evidence | 7.5 |
+| Enneagram | 7.5 |
+| Originality | 8.5 |
+| Writing | 8 |
+| Durability | 8.5 |
+| Hook | 9 |
+| Discoverability | 8 |
+| **Overall** | **8.0** |
+
+Overall is below the 8.5 bar, and evidence and Enneagram are below 8.
+
+**Decision for you:** the pipeline allows one targeted repair, and it means picking a direction. Either the editor finds evidence a Type 2 would be unlikely to produce, or the page says the record doesn't yet separate 1 from 2 and lowers confidence. With the full quote restored, the second is more likely, which would make the Type 1 read on the live page more tentative. Veto if you'd rather hold the page for new research, such as colleagues on record about how she handles someone cutting a corner.

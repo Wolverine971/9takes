@@ -1,0 +1,100 @@
+{
+  "schema_version": 3,
+  "role": "fan",
+  "content_sha256": "43c88b4c75a4c5b507c140099eae85c33a4a717bb7893e0a6e0a6c117c2c7774",
+  "evidence_sha256": "a2bfc37be03ef7bdaed51e33b71f0991d2934737335c9c8cffd41c72463994bf",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": true
+  },
+  "findings": [
+    {
+      "id": "fan-01",
+      "severity": "major",
+      "passage": "When Huffington asked about self-reflection and \"learning from mistakes,\" she answered about social media and technology.",
+      "problem": "This misstates the exchange. In S37 (about 08:20-08:40), Huffington opens by saying Amodei has been \"very unusual among AI leaders in speaking a lot about wanting to be self-reflective, about learning from mistakes.\" Then she asks: \"how can we help people nurture that part that wants to be self-reflective\" in a social-media ecosystem. Amodei answered the question she was asked. The draft takes a third party's statement that she talks openly about learning from mistakes and presents it as evidence that she avoids the subject. It uses this inverted reading as support for \"she keeps her irritations private.\" C115 carries the same error.",
+      "acceptance_test": "Delete the sentence, or restate the exchange accurately: Huffington's question was about helping people be self-reflective, and her preface credits Amodei with talking about learning from mistakes. Correct C115 to match. Nothing in the \"keeps her irritations private\" paragraph should rely on this exchange."
+    },
+    {
+      "id": "fan-02",
+      "severity": "major",
+      "passage": "And she rejects the need to be needed, the engine of Type 2.",
+      "problem": "This is one of the three pillars of the case against Type 2, and it misreads the Grit context (S32, 83:25-85:42). The host asked for her working-with-me guide's highlight and lowlight. Her highlight was being the person who works out \"who are the people that are going to solve that problem.\" The quoted line comes under her lowlight, and it opens with the reason: \"I'm not the expert in anything there's always a person in the world who is a better focus leader than I am.\" The stated motive is a lack of domain expertise. It is not a rejection of indispensability. The same section of the draft also reports, via TechCrunch, that nearly every executive reports to her. That is the profile of an indispensable hub, which cuts the other way. The FAQ goes further and inverts the source: it says \"her goal in any job only she can do is to get herself out of it.\" The source describes a function where she is \"temporarily in charge\" because \"there's no leader for it.\" That is a stopgap role, not a job only she can do.",
+      "acceptance_test": "Quote the expertise reason next to the line, or paraphrase it. Remove \"rejects the need to be needed\" or test it against the central role she describes for herself as the person who matches people to problems. Rewrite the Type 2 FAQ so it matches the source (\"a function with no leader that she is covering temporarily\"), and update C57 and C120 to match. If the claim is removed, re-weigh the Type 2 case without it."
+    },
+    {
+      "id": "fan-03",
+      "severity": "major",
+      "passage": "But her fear is aimed at being wrong, not at losing safety, and she acts decisively once she has decided.",
+      "problem": "The draft's own quotation contradicts this gloss. In The Atlantic (S12), the full line is: \"it's scary because we can lose it at any time. That's just on the business side. Then there's the mission, and we're like, Are we accidentally making things worse?\" She names two fears, and the first is about losing the company. The draft keeps only the mission half. On Oprah (S30, about 30:22-31:35), she was asked \"Weren't you scared of what would happen to you?\" She answered \"Yes,\" and said the end of the company \"crossed our minds.\" The draft's Pentagon paragraph cuts this to \"it was a hard time.\" The Type 6 dismissal therefore depends on dropping the security fear she stated in her own words.",
+      "acceptance_test": "Quote or paraphrase both halves of the Atlantic line. Restore her affirmative \"Yes\" (and \"crossed our minds\") in the Oprah Pentagon paragraph. Re-argue Type 6 against a discriminator that holds up once those are included, for example that she acted despite a fear she acknowledged. Otherwise, lower the confidence of the Type 6 dismissal."
+    },
+    {
+      "id": "fan-04",
+      "severity": "major",
+      "passage": "She judged the other company's motive. He turned it into a story about process and public verdict.",
+      "problem": "The draft builds the \"sharper sibling\" contrast, and the FAQ on how she differs from Dario, on one public exchange. It reads that exchange selectively. First, Dario was already making the democratic-process argument in his previous answer (S29, 33:02: \"what we're doing is part of the process of how democratic change happens\"). Isaacson then asked about OpenAI, and at 34:56 Dario went back to his own thread. He did not redirect her point. Second, The Atlantic excerpt the draft cites throughout (S12) reports that Dario \"is less filtered on Anthropic's Slack than he is in his public appearances\" and has written in internal messages that Altman and OpenAI are \"evil.\" An Anthropic communications executive asked him to delete one such message. Well-informed readers will know the brother is the sharper private judge of OpenAI's motives. A one-moment difference in public restraint cannot carry a claim about which temperament judges motives, or the One-versus-Six distinction between the siblings.",
+      "acceptance_test": "Add the Atlantic's attributed report of Dario's private \"evil\" messages. Describe 34:56 as Dario returning to an argument he had already started. Either label the sibling contrast as a difference in public framing only, or find a second independent moment that supports it. Revise the \"How is Daniela Amodei different from Dario Amodei?\" FAQ so it does not rely on the one exchange."
+    },
+    {
+      "id": "fan-05",
+      "severity": "major",
+      "passage": "Her first career followed his interests.",
+      "problem": "The best-known thread of her moral life is missing, and the sources are already in the record. In the FLI interview the draft quotes (S02), the \"interest area\" was Dario being \"a very early GiveWell fan I think in 2007 or 2008.\" She adds that as students \"we both started donating small amounts of money to organizations that were working on global health issues like malaria prevention.\" GiveWell was co-founded by Karnofsky, whom she married in 2017. Wired (S09, already cited for her childhood) quotes her in 2025: \"I'm not the expert on effective altruism. I don't identify with that terminology. My impression is that it's a bit of an outdated term.\" Wired notes that her husband co-founded one of EA's most conspicuous philanthropy wings. In the co-founder video (S38, 30:42-34:21), the co-founders describe their 80% giving pledge as \"duty.\" The Atlantic (S12) reports that OpenAI people call the Amodeis \"power-hungry virtue-signalers, not principled humanitarians.\" The research recorded C33 and C37, but the draft dropped them. This matters for the type argument. The student-era giving is her earliest documented costly moral act. The disavowal of EA is a revealing contradiction for a profile whose discriminator is that she explains her choices by principle rather than by positioning.",
+      "acceptance_test": "Add, attributed and dated: the student-era donations and the GiveWell origin of Dario's interest (2022), the 2025 EA quote with Wired's note about Karnofsky, and the co-founders' 80% pledge (described as a pledge, with fulfillment unverified). Address directly whether the EA distancing fits the Type 1 reading (principled disagreement with a label) or cuts against it (managing reputation). Give C33 and C37 passages, or record why they stay out."
+    },
+    {
+      "id": "fan-06",
+      "severity": "major",
+      "passage": "Greg Brockman, a friend she had met at Stripe, recruited her to OpenAI.",
+      "problem": "In Anthropic's co-founder video (S38, 15:53), she says Brockman \"had been my boss. He was my boss at Stripe for a while.\" She also says: \"I actually introduced him and Dario... 'The smartest person that I know is Dario. You would be really lucky to get him.'\" The draft reduces Brockman to a friend. It also leaves out that she brokered her brother's route to OpenAI. For a reader who knows this, two things change. First, the draft says the FLI line is \"the strongest Type 2 evidence in her own words,\" but championing her brother to her own boss is stronger. Second, it changes the language-project standoff: she excluded her former boss from a project led by the brother she had recommended to him.",
+      "acceptance_test": "Add the attributed introduction and the fact that Brockman was her boss. Revisit \"That is the strongest Type 2 evidence in her own words\" and the One-versus-Two weighing of the language-project episode in light of it."
+    },
+    {
+      "id": "fan-07",
+      "severity": "minor",
+      "passage": "Read as a One, that is a standard held against a friend at personal cost.",
+      "problem": "The Wall Street Journal (S13) records the outcome the draft leaves out: \"Altman asked her to stay and said he would find another way.\" The cost was offered but never paid, so \"at personal cost\" overstates it. The episodes are also out of order. In the Journal, the conference-room accusation comes \"a few months later\" after the language-project truce, and the peer reviews follow \"By March 2020.\" The New Yorker (S39) places the accusation \"months later\" after the June 2019 Microsoft deal. The draft presents the peer review before the accusation. It also omits the peer-review outcome: Brockman \"at one point offered to withdraw his [feedback] from Daniela's packet.\"",
+      "acceptance_test": "Change \"at personal cost\" to an offered cost and note that Altman declined the offer. Put the accusation before the March 2020 peer reviews, or drop the implied sequence. Optionally, add Brockman's offer to withdraw his feedback, attributed to the Journal."
+    },
+    {
+      "id": "fan-08",
+      "severity": "minor",
+      "passage": "She judges conduct more readily than character.",
+      "problem": "The draft generalizes from one deflection, and the surrounding record contradicts it. In S29, at 20:21-20:53, Isaacson asked \"And you felt that about Sam?\" right after Dario said it is hard to know someone's values \"if they don't have the value of honesty.\" She answered that \"the co-founders are an unusually high integrity group of people.\" That is a character contrast stated by implication. It also repeats her stock GSB answer about the split (S01: \"all seven of us are people that have a lot of integrity\"). Later in the same interview (34:17), she judged OpenAI's motive as possibly \"opportunistic.\" The draft also reports that she negotiated a mutual non-disparagement agreement. That is the obvious alternative explanation for her public restraint about Altman, but the draft never connects it here or in \"What the One reading leaves out.\"",
+      "acceptance_test": "Drop the conduct-versus-character generalization, or test it against the 34:17 motive judgment and the stock integrity line. Name the non-disparagement agreement as an alternative explanation wherever the draft reads her public diplomacy about OpenAI as temperament."
+    },
+    {
+      "id": "fan-09",
+      "severity": "minor",
+      "passage": "Their parents had moved from Italy to San Francisco in the 1970s.",
+      "problem": "The same Wired paragraph the draft relies on (S09) gives more. Their father Riccardo, a leather craftsman from near Elba, \"took ill when the children were small and died when they were young adults.\" Their mother was \"a Jewish American born in Chicago\" who managed library projects. As written, the sentence suggests both parents were Italian immigrants. It also omits the best-known fact about the Amodei family. Her only first-person account of what home taught is missing too (S29, 07:17). There she says her mother has a philosophy degree. She says the values were \"people everywhere in the world are like deserving of like opportunity and dignity and rights and respect\" and that \"a successful human is to be a good person and to be kind to other people.\" That one line carries both the Type 1 (\"good person\") and Type 2 (\"kind\") strands. Optional adult context: the Journal reports that she, Dario and Karnofsky lived in a group house, that Karnofsky proposed with a movie of her stuffed animals, and that Dario's OpenAI clique was called \"the pandas.\"",
+      "acceptance_test": "Add one attributed, non-causal sentence on the parents, including the mother's background and the father's illness and death. Do not build a wound narrative or a causal claim on it. Consider adding her 07:17 account of household values, quoted in context."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "At OpenAI, Daniela Amodei had an advisory council made of stuffed animals.",
+      "reason": "This is a distinctive, verified hook. The Atlantic (S12) presents the council as her \"unusual process for working through conflicts\" during the OpenAI years, and the draft stays faithful to that. The Journal's detail that Karnofsky proposed with a movie of the animals could enrich it without replacing it."
+    },
+    {
+      "passage": "When Dario guessed he had followed \"three years later or something,\" she corrected him on the spot: \"Oh, not even. ... You got on board real quick.\"",
+      "reason": "This is a small, observed, self-revealing moment from a joint interview. It shows her correcting the record in real time with her brother, which is better evidence than any self-description."
+    },
+    {
+      "passage": "\"Perfected?\" the host asked. \"Yes, yes,\" she said, and went on.",
+      "reason": "This is the most vivid observed beat for the high-bar side. The host's surprise and her unhesitating answer do the work without commentary."
+    },
+    {
+      "passage": "The spreadsheet recorded only that each conversation happened, not what was said.",
+      "reason": "This is a precise detail from the Grit source (S32, 90:09-92:24). It is exactly what lets the reader see the form-over-content distinction the draft draws."
+    },
+    {
+      "passage": "\"You already know what the right answer is.\"",
+      "reason": "This ending is verified against the GSB transcript (S01). It is the mentor's line, and she named it her best advice. It ends on her own chosen frame, not on a thesis restatement."
+    }
+  ],
+  "assessment": "As an informed-reader proxy, I found the draft's best material real and distinctive: the stuffed-animal council, the vegetarian correction, the feedback spreadsheet and \"Perfected?\". It also handles the OpenAI allegations with honest limits. But every source misreading I found tilts toward the Type 1 reading. Huffington's question is inverted (fan-01). The \"get myself out of that job\" line loses its expertise context, and the FAQ turns it into \"any job only she can do\" (fan-02). The Atlantic's fear quote loses its business half, and her \"Yes\" to Oprah is cut (fan-03). The sibling contrast ignores the Atlantic's report that Dario privately calls OpenAI \"evil\" (fan-04). The formative record a well-read fan knows best is missing: the GiveWell and EA thread with her 2025 refusal of the EA label and the 80% pledge (fan-05), and the fact that she introduced Dario to Brockman, who had been her boss (fan-06). The co-founder exchange is trimmed the same way: after \"you're the reason the culture scaled,\" the next lines are \"People say how nice people are here. Which is actually a wildly important thing.\" The draft cuts these. The evidence record's claim that colleagues credit her \"not with care\" does not survive the full transcript. Once these are restored, the Type 2 case is stronger than the draft presents. The contested-typing and thesis-change risks should stay, and the expanded jury should stay engaged. Sources opened for this review: cached full texts of S01, S02, S03, S04, S09, S12, S13, S29, S30, S32, S35, S37, S38 and S39. I did not reopen S06, S14, S17, S18, S20, S33, S34, S36, S40 or S41."
+}

@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "subject",
+  "content_sha256": "43c88b4c75a4c5b507c140099eae85c33a4a717bb7893e0a6e0a6c117c2c7774",
+  "evidence_sha256": "a2bfc37be03ef7bdaed51e33b71f0991d2934737335c9c8cffd41c72463994bf",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": true
+  },
+  "findings": [
+    {
+      "id": "subject-01",
+      "severity": "major",
+      "passage": "She has not given her own account.",
+      "problem": "Missing response to an allegation against the subject. The Journal piece the draft relies on (S13) reports that when Altman accused the siblings of plotting against him, \"The brother and sister denied it.\" The accusation paragraph gives Altman's later walk-back and the executive's denial but never the siblings' own denial, and this sentence then tells readers she has given no account, so the coup allegation stands unanswered on her side. The same S13 section reports that Brockman \"at one point offered to withdraw\" his abuse-of-power feedback from her review packet. The draft prints that accusation and Altman's \"tough but fair\" endorsement but not the offered withdrawal, which bears on how much weight the accusation deserves.",
+      "acceptance_test": "The accusation paragraph states, attributed to the Journal, that the siblings denied the plotting accusation at the time. The peer-review paragraph notes that Brockman offered to withdraw his feedback. This sentence is narrowed so it does not contradict the reported denial (e.g., she has not publicly described these episodes). evidence-edit.json records the denial and the withdrawal offer as S13 claims."
+    },
+    {
+      "id": "subject-02",
+      "severity": "major",
+      "passage": "When Huffington asked about self-reflection and \"learning from mistakes,\" she answered about social media and technology.",
+      "problem": "Context error that imputes evasion. In S37 (about 08:00-09:09) Huffington was not asking about Amodei's own mistakes. She opened by crediting her as \"very unusual among AI leaders in speaking a lot about wanting to be self-reflective, about learning from mistakes,\" then asked how to help people nurture self-reflection amid doomscrolling and whether AI's hyper-personalization could help. An answer about social media and technology was directly responsive. The draft presents it as a dodge and uses it as the last proof that \"she keeps her irritations private\"; the question's premise actually cuts the other way. C115 carries the same misreading.",
+      "acceptance_test": "The sentence is removed, or rewritten to state the actual question (how AI can help people be self-reflective) so that no deflection is implied. If the exchange stays, the host's premise (that she speaks publicly about learning from mistakes) appears as counterevidence. The \"keeps her irritations private\" paragraph then rests only on the Grit answer. C115 is corrected."
+    },
+    {
+      "id": "subject-03",
+      "severity": "major",
+      "passage": "When a principle costs Amodei something, she explains the choice by what is right, not by whom she protected, and the rules she builds apply to her too.",
+      "problem": "Her own stated reasons are trimmed to fit the discriminator, and company decisions are presented as her personal costly choices. On Oprah (S30, 34:47-36:01) her reason for no ads is protecting users: \"People have very private conversations with these AI models. People upload their health information. They ask questions about their children,\" and \"we want to treat our customers data with the utmost privacy and respect.\" The draft quotes the investor pressure but drops this reason. The Stanford customer passage (S04) continues \"we try to leave a good taste in their mouth\" and \"come back to us six months from now\": honesty about what the product can do yet, not revenue refused on principle. The type answer then says she explains costly choices \"not by whom she protected.\" The FAQ says she \"turns away revenue on principle,\" and \"Here is where it breaks\" restates both, without the body's own caveat that these were collective decisions (the Pentagon statement was Dario's).",
+      "acceptance_test": "The ads paragraph includes her user-privacy reason in her words. The customer example either includes the \"come back to us six months from now\" context or is dropped from the costly-choice argument and the Type 2 FAQ. The type answer, the Type 2 FAQ and the \"Under cost\" paragraph limit the claim to what the record shows (e.g., she never cites loyalty to Dario or her team, and she frames these as the co-founders' collective decisions). The draft also addresses protecting users as a reason a Two reading could claim. C29, C49, C80, C113 and C120 are updated to match."
+    },
+    {
+      "id": "subject-04",
+      "severity": "minor",
+      "passage": "She judged the other company's motive. He turned it into a story about process and public verdict.",
+      "problem": "Overstates a question as a verdict about a named rival. In S29 (34:17) she opened with \"Our view is look, we can't control any other companies,\" conceded \"You can say we were wrong,\" and then said \"I found myself asking the question\" whether it was principled or opportunistic. She never answered it. The FAQ (\"she asked whether it was principled or opportunistic\") is accurate; the body is not. Dario's \"democratic process\" line also continues his own earlier answer to Isaacson's democracy question (33:02), so \"moved the question somewhere else\" sharpens the contrast between the siblings.",
+      "acceptance_test": "The body says she questioned, not judged, the company's motive and includes or paraphrases her opening \"we can't control any other companies.\" The One-versus-Six contrast is presented as a difference of emphasis in one exchange, not a verdict she delivered."
+    },
+    {
+      "id": "subject-05",
+      "severity": "minor",
+      "passage": "\"Perfected?\" the host asked. \"Yes, yes,\" she said, and went on.",
+      "problem": "An ambiguous filler is turned into a doubled-down claim. The S34 transcript reads \"- Perfected? - Yes, yes, has been in existence.\" The \"Yes, yes\" runs straight into finishing her interrupted sentence, so it is at least as plausibly an acknowledgment of the interruption as an affirmation of \"perfected.\" The cut, plus C53's inference that she \"does not soften a claim of perfection when challenged,\" makes it One evidence the record doesn't establish. The next sentence also drops her qualifier: hires who stood up for \"their values, whatever those are.\"",
+      "acceptance_test": "The quote includes the continuation (\"Yes, yes, has been in existence\") so readers can judge it, or the tone is checked against audio before the draft implies she affirmed \"perfected.\" C53 is qualified. The culture-interview paraphrase keeps \"whatever those are\" or otherwise avoids implying she screens for particular values."
+    },
+    {
+      "id": "subject-06",
+      "severity": "minor",
+      "passage": "(The documentary's captions don't label speakers; the line is very probably hers.)",
+      "problem": "The attribution contradicts itself, and the inference stretches past the quote. The preceding sentence says flatly that \"she told Bloomberg's The Circuit\"; this parenthesis admits the speaker is unconfirmed (the research tasks require video confirmation before an unqualified quote). The line also describes Claude's intended persona, not how she treats people, yet \"Her idea of warmth has edges, too\" uses it as evidence about her own warmth in the case against Type 2.",
+      "acceptance_test": "Either the speaker is confirmed from video and the parenthesis removed, or the main sentence is made conditional and the line is taken out of the case against Type 2. In both cases the prose labels it as a statement about product design, not about her relationships."
+    },
+    {
+      "id": "subject-07",
+      "severity": "minor",
+      "passage": "In public she stays diplomatic about the split: \"We were running towards something versus running away from something,\" she told Stanford GSB.",
+      "problem": "A documented alternative explanation is missing. The draft itself reports that she negotiated a 2020 mutual non-disparagement agreement in which each side pledged not to bad-mouth the other in public (S12). But when it reads her public restraint about OpenAI people as temperament (\"She is careful about people,\" \"She judges conduct more readily than character,\" \"stays diplomatic,\" \"treat that quiet as control or privacy\"), it never mentions that agreement or ordinary executive caution.",
+      "acceptance_test": "Where the draft interprets her public diplomacy about Altman, Brockman or OpenAI, it names the mutual non-disparagement agreement (and ordinary executive or legal caution) as an alternative explanation, without claiming the agreement's current terms."
+    },
+    {
+      "id": "subject-08",
+      "severity": "minor",
+      "passage": "Of the memoir titles Claude suggested for her, one that resonated was \"I need an adult.\"",
+      "problem": "Factual error about her words. At the end of the First Block interview (S03; the YouTube version is cached as 8cJAXfbuzx0, about 39:30), asked about her prompt, she says: \"I did come up with I need an adult, that wasn't Claude, that one was me.\" Claude did not suggest the title; she did.",
+      "acceptance_test": "The sentence credits \"I need an adult\" as her own title, which strengthens the self-deprecation point, and C31 and its locator reflect the correction."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Read as a One, that is a standard held against a friend at personal cost. Read as a Two, it is a sister backing her brother, and the Journal's sequence, with Dario's objection first and Radford also unwilling, makes that reading at least as plausible.",
+      "reason": "Gives the subject's most sympathetic alternative reading equal weight in a disputed, unnamed-source episode and checks it against the Journal's own sequence."
+    },
+    {
+      "passage": "These episodes line up with the Type 1 read. They can't carry it.",
+      "reason": "Keeps unnamed-source and one-party-notes allegations corroborative only; this is exactly the line between record and inference the fairness check asks for."
+    },
+    {
+      "passage": "Two caveats. These were collective decisions, and \"the right thing\" is house vocabulary at Anthropic.",
+      "reason": "Honest limit on attributing company decisions to her personal motive. Keep it, and carry it into the type answer and FAQ (see subject-03)."
+    },
+    {
+      "passage": "She is careful about people, though. When Isaacson asked about Altman directly (\"And you felt that about Sam?\"), she said, \"I think the co-founders are an unusually high integrity group of people.\"",
+      "reason": "Checked against the labeled S29 transcript (20:49-20:53). It accurately records her refusal to impugn a named rival and is a counterweight to the reported anger."
+    },
+    {
+      "passage": "She is charitable about other people's errors. Describing a serious infection that three sets of doctors misdiagnosed, she said: \"this is not because any of those are bad doctors, right? They're really busy.\"",
+      "reason": "Uses a private health disclosure with restraint and only in her own framing. It omits details she gave (pregnancy) that the argument doesn't need."
+    }
+  ],
+  "assessment": "Fairness-proxy review; it does not speak for Amodei. The draft mostly keeps the public record separate from its own inference. It labels the OpenAI conflicts as unnamed-source or Dario's-notes accounts, gives Altman's response, keeps those episodes corroborative, invents no interiority, and leaves out the most hostile reported material (the Atlantic's \"power-hungry virtue-signalers,\" the proposal video). Where it goes wrong, her side or her own stated reasons have been trimmed. The Journal reports that the siblings denied Altman's accusation and that Brockman offered to withdraw his feedback; neither appears, and the draft says she has given no account. Her no-ads reason (protecting users' private data) is dropped while the type answer and FAQ say she never explains costly choices by whom she protected, and those company decisions are presented as hers personally. The Huffington question is misdescribed, so an on-topic answer reads as a dodge. A memoir title she coined is credited to Claude. Several verbs outrun their quotes (\"judged\"; \"Perfected?\" \"Yes, yes\"). Lesser point: the H2 \"A do-gooder who followed her brother\" and \"Her first career followed his interests\" compress her own \"part of why\" (S02) into the whole story. Sources opened for this review (cached transcripts and text): WSJ via tovima, New Yorker, Atlantic (Wayback), S-1 (confirms President and Chairperson), and the transcripts for Isaacson (speaker-labeled), Oprah, Grit, Sixth Street, Huffington, Stanford eCorner, FLI, First Block and The Circuit. I did not re-watch video to settle the unlabeled speakers in S14 or S38. Risks: sensitive allegations (coup accusation, abuse-of-power review, \"despise\") and contested typing (1 vs 2 at medium confidence; earlier run held 2) stand, and the thesis changed from the prior run, so the six-role jury remains required."
+}

@@ -1,0 +1,15 @@
+I wrote the future-role review for the Anthony Ippolito draft to `review-future.json` in the run directory, and it validates against the pipeline's review schema. Nothing else in the repo changed (my scratch files are in `/tmp`), and nothing was published.
+
+**Two major findings, which will block release until the edit stage fixes them:**
+
+1. **A wrong date, three times.** The draft says he broke his hand and taped his *Grand Army* audition "in 2020." That's the year the New York Post interview ran, not when it happened. I reopened the Baruch athletics page: it says he "played for the Bearcats in 2019." *Grand Army* filmed May–September 2019, so the audition was before 2020. The same wrong year shows up in "In 2020 someone else proposed the tape," in the Type 3 section, and in three evidence-record entries.
+2. **Undated claims that the record is thin.** Lines like "Almost everything he has said in public comes from red carpets…", "the record is too young to choose" and "The only people on record…" will be false once the long-form interviews the article expects come out. The FAQ says "as of October 2026"; the article body never does. The evidence record also marks one of these claims as not time-sensitive, so no future review is set to catch it.
+
+**Five minor findings:**
+- "In his late twenties" will stop being true within a few years.
+- "Opens in limited U.S. release on November 6" goes stale in about a week, well before the December 15 review.
+- Some time references have no date attached, such as "his best-known credit" (that meant *The Offer* in 2025).
+- One "what would settle it" signal turns on his motive for picking his next role, which nobody can observe. The evidence record's version required him to state his reasons, and the draft dropped that.
+- "That tape became *I Play Rocky*" overstates it: the tape won him the lead, it didn't create the film.
+
+**Overall:** the five-year test mostly passes. Take out the October 2026 remarks and the Type 6 lead still stands on his 2022 Pacino quotes and the September 2026 interviews. He qualifies as an open case, narrowly: *I Play Rocky* is his first lead, and the 2020–2022 record was actually researched, not skipped. Some outlets call *Grand Army* his breakout, though, so I flagged that for the final checker to rule on. The similarity check didn't trip and shows no meaningful reuse. I marked five passages to protect, including the "seen" vs. "live with it" reading and the Brando-motto ending.

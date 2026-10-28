@@ -1,0 +1,16 @@
+I've finished the unfamiliar-reader review and written `review-unfamiliar.json` to the Anthony Ippolito run folder. It passes the review schema check, and every quoted passage matches the draft exactly. I didn't change any other file or publish anything.
+
+**Main problems a reader who doesn't know him would hit:**
+- **Major: one timing claim isn't supported.** "The other thing he did before anyone asked was change his body" isn't backed by the sources. Farrelly says the production had him working out for about a year and a half, and the "two years" runs up to the September 2026 premiere. That same overreach shows up in the Nine section ("a lead nobody had offered him"). The article also never gives the casting date (announced August 27, 2025), so "before casting" and "two years" have nothing to anchor them.
+- **Major: the reader never learns what the film is about.** It doesn't say that *I Play Rocky* follows an unknown Stallone who held out to play the lead he wrote, or that Farrelly directed it. Without that, the best quotes ("he found us," "I was fighting for it") lose their meaning. "That tape became *I Play Rocky*" also reads as if the tape turned into the film. One more catch: THR says Farrelly "won an Oscar for directing" *Green Book*. He didn't; his Oscars were Best Picture and Original Screenplay, so the edit shouldn't copy that line.
+- **Minor (six):**
+  - The Type 6 argument is restated four times, and the body runs about 2,700 words, over the 2,500 target for an open case.
+  - Farrelly's mention of a Stallone catchphrase never says what the phrase was.
+  - "In his late twenties" has no date and could already be wrong, since his birth year is unresolved.
+  - The broken-hand transition is unclear.
+  - "The only people on record who have… met him" is contradicted on the same page by the Swiss reporters who met him.
+  - The title reads like a string of keywords.
+
+**What I flagged to keep:** the basement opening, the "wasn't much of a fight" exchange, the broken hand kept out of frame, the "seen" vs. "live with it" reading, and the line that fear and ambition point the same way until they split.
+
+**Open case and similarity checks:** He still qualifies as an open case: he's an adult, his first lead came in 2025, and the 2020–2022 interviews research found are all short. So I raised no blocker. The "leading read" / "low-confidence" wording is consistent across the title, description, FAQs and body. The similarity check didn't flag anything: the closest match is 0.051 against Nathan Fielder, below the 0.06 limit, and it's generic wording rather than a reused argument.

@@ -1,0 +1,1565 @@
+{
+  "schema_version": 3,
+  "subject": "anthony-ippolito",
+  "status": "ready",
+  "research_tasks": [
+    "Draft stage (2026-10-28): every quotation in the body and metadata was extracted by script and matched against the cached source texts, captions and Whisper transcripts in ~/.cache/9takes-research/anthony-ippolito/. Spoken fillers and stutters were dropped from video quotations and recorded in the S15, S16 and S20 locators; reviewers should re-listen to S15 09:35-10:14 and S20 00:30-00:43 before approving the wording.",
+    "Draft stage: the year of the unsolicited I Play Rocky tape is not established (casting announced 2025-08-27; he said he had studied Stallone 'over a year' by the pre-shoot call). The draft gives no year for it. Find a dated account before adding one.",
+    "Draft stage: the THR line 'you can't help but want those people to enjoy it' (S15 09:13-09:27) has an unconfirmed speaker and is not quoted; the IMDb clip line 'I guess I just don't see myself as a lead' (S16 02:04) is dialogue from The Offer and is not quoted. Keep both out of later edits.",
+    "Draft stage: the Collider questioner for 'Like 40?' and 'taken off most of it, right?' (S20) was not frame-checked; the draft quotes only Ippolito's answers.",
+    "After the US limited release (2026-11-06) and wide release (2026-11-20), collect the first long-form sit-downs (podcasts, awards-season roundtables such as THR or Variety Actors on Actors, magazine profiles). The current record is festival junket, red carpet and Q&A remarks; no long-form profile or podcast was found on 2026-10-28.",
+    "Seek testimony from people who have known him longer than one production: Grand Army creator Katie Cappiello, co-star Odessa A'Zion, acting coach Lynette Sheldon (named as a mentor in S11), The Offer director Dexter Fletcher or cast. Only Farrelly, Papsidera, AnnaSophia Robb and Stallone have spoken about him on record so far, all in promotional or casting contexts.",
+    "Locate the original Variety interview by Clayton Davis that the 2026-10-25 Variety piece cites for the 150-to-180-pound / nearly-two-years figures (S02 is an Australian syndicated copy that only paraphrases it). Collider (S20) has Farrelly suggesting about 40 pounds, which Ippolito accepts loosely.",
+    "Resolve the birth year before any metadata uses it: Wikipedia's infobox gives 1999-08-21 while its own category says 2000 births; 2020 and 2022 outlets give ages that imply 2000 (S06, S13) and 2025-2026 outlets give ages that imply 1999 (S08, S22). Find a primary statement or official bio.",
+    "Resolve the self-tape sequence: Ippolito (S01) says the first tape was made with no script, followed by more scenes once producers sent the script; Farrelly says he 'somehow found the script' and taped three scenes in his grandmother's basement (S15, S22) or 'in his own apartment' (S16). Prefer Ippolito's first-person account and attribute Farrelly's version.",
+    "Recheck Stallone's reaction after release: Farrelly said in September 2026 that Stallone 'loved it' (S15); Stallone at 92NY, reported 2026-09-29, called his feelings 'kind of mixed because I'm not dead yet' while praising the likeness (S09).",
+    "Re-transcribe the Hollywood Elite clip (S19) from audio before quoting it; only YouTube auto-captions were read. The key clips in S15, S16, S17, S18, S20 and S21 were re-transcribed from audio with Whisper small.en on 2026-10-28 and speakers were checked against video frames where the captions were ambiguous.",
+    "When blue News publishes the full Zurich interview (announced for 2026-11-26), open it for any first-person material beyond the 2026-10-01 clip summary (S31)."
+  ],
+  "accuracy_checked_at": "2026-10-28",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.thewrap.com/creative-content/movies/anthony-ippolito-i-play-rocky-how-he-was-cast-interview/",
+      "title": "'I Play Rocky' Star Anthony Ippolito Filmed His Own Audition Before He Even Had the Script",
+      "speaker": "Anthony Ippolito, interviewed by Casey Loving (TheWrap)",
+      "date": "2026-09-13",
+      "locator": "Article body, paragraphs 3-6 (audition tape) and 8-9 (Gleason's Gym training)",
+      "excerpt": "\"I hung a heavy bag in my grandma's basement. I didn't have a script, so I was just working with my imagination, trying to capture the physicality of the character,\" ... \"It kind of felt like a bit of a long shot, but it was a creative exercise, and it was actually really fun.\" ... \"It didn't seem very plausible to some people at the time, but I was really, really enthusiastic about it.\" ... \"We were in Gleason's Gym, beating the crap out of each other. We got banged up. I had some wrist stuff, he had something with his ankle. It's not an easy game, but it was great.\"",
+      "context": "Interview at TheWrap's studio at TIFF 2026. TheWrap reports he heard about the project from a news article, shot the tape with a friend who is an aspiring director and his cousin, his agent sent it to the producers and casting director, they sent the script back and asked for a proper audition, and he shot several more scenes on his own before being cast. He researched Stallone's 1972-1976 bit parts. 'He' in the gym quote is Stephan James (Carl Weathers).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S02",
+      "url": "https://au.variety.com/2026/film/news/i-play-rocky-anthony-ippolito-sylvester-stallone-dog-41877/",
+      "title": "'I Play Rocky' Star Anthony Ippolito on Becoming Sylvester Stallone and Acting With a Dog: 'He Wasn't a Huge Fan of Me'",
+      "speaker": "Anthony Ippolito, interviewed by Marc Malkin (Variety)",
+      "date": "2026-10-25",
+      "locator": "AFI Fest screening interview; paragraphs 2-5 (training, family reaction) and the Butkus paragraph",
+      "excerpt": "\"It had its moments for sure. I was being tested,\" ... \"It's like a consistency thing, though. I had a great deal of time, so just an entire lifestyle shift and it was just one of the priorities of every day for a pretty long period.\" ... \"They didn't necessarily know I was doing the prep, and they were like, 'What's going on here?' I was like, 'I've been going to the gym, been eating.'\" ... \"In some ways they, they give you the most beautiful stuff. It's just you gotta be patient.\"",
+      "context": "Australian syndicated copy of a Variety article (byline Marc Malkin, AFI Fest, Los Angeles). Malkin writes that Ippolito 'previously told Variety's Clayton Davis' he spent nearly two years bulking from about 150 to roughly 180 pounds at Gleason's Gym in Brooklyn; that original was not located. The family question was 'What did family and friends think?' The patience line is about the dog playing Butkus on his first shooting day.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S03",
+      "url": "https://www.screendaily.com/news/i-play-rocky-star-anthony-ippolito-on-the-weight-of-responsibility-playing-a-young-sylvester-stallone/5221614.article",
+      "title": "'I Play Rocky' star Anthony Ippolito on the \"weight of responsibility\" playing a young Sylvester Stallone",
+      "speaker": "Anthony Ippolito and Peter Farrelly, reported by Gabriele Niola (Screen Daily)",
+      "date": "2026-10-20",
+      "locator": "Rome Film Fest press conference report, full article",
+      "excerpt": "\"There was a lot of intimidation at the beginning,\" ... \"I was a fan of the movies and a fan of the character, and I understand how many people are, so I did feel the weight of the responsibility. But like any other situation, you just start by researching as much as you can.\" Farrelly: \"He was the first person we looked at, the only person,\" ... \"When I saw it, I said, 'That's it, search is over.' I didn't care if he'd ever been in anything else.\" Ippolito on Stallone: \"He did feel very much like a lone wolf, kind of like an orphan in life in a lot of ways,\" ... \"It was a very emotional shoot, and taxing in that way, but also very physically taxing.\"",
+      "context": "Press conference at the 21st Rome Film Fest, where he received the Progressive Award. Reports: Farrelly learned only in pre-production that Ippolito had played Pacino; Ippolito spent more than a year studying Stallone's interviews; he spoke to Stallone about a month before shooting; 34-day shoot; November scenes in cold New Jersey and Philadelphia warehouses left him 'pretty sick'; film was runner-up for TIFF's People's Choice Award; Amazon MGM opens it in select US cinemas on November 6.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S04",
+      "url": "https://variety.com/2022/scene/news/offer-premiere-godfather-50-years-later-1235238228/",
+      "title": "'The Offer's' Anthony Ippolito on Being Intimidated to Play Al Pacino: 'It Makes You Want to Throw Up'",
+      "speaker": "Anthony Ippolito, quoted by Carson Burton (Variety)",
+      "date": "2022-04-22",
+      "locator": "Los Angeles premiere red-carpet report, final paragraphs",
+      "excerpt": "Anthony Ippolito, who plays Al Pacino, admitted playing the acting icon was \"super intimidating.\" \"It's pretty terrifying, it makes you want to throw up,\" he told Variety. \"But it's also a freaking honor, and it's one of the coolest things that I've done as an actor. And it made me feel a huge weight of responsibility, but I had so much fun.\"",
+      "context": "Red-carpet quotes at The Offer's Los Angeles premiere, alongside Colin Hanks and Matthew Goode. Short answers to a standard question about playing an icon. The same article says The Offer follows producer Albert S. Ruddy, \"played by Miles Teller\".",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S05",
+      "url": "https://www.hollywoodreporter.com/movies/movie-news/rocky-anthony-ippolito-to-play-sylvester-stallone-1236354857/",
+      "title": "'Rocky' Found: Anthony Ippolito to Play Sylvester Stallone in Amazon MGM's Movie Behind Making of Boxing Classic (Exclusive)",
+      "speaker": "Borys Kit (The Hollywood Reporter)",
+      "date": "2025-08-27",
+      "locator": "Casting exclusive, paragraphs 1-5",
+      "excerpt": "In a fitting echo of that spirit, Ippolito is said to have pursued the part of Stallone with the same relentless drive. Upon first hearing about the project, he made an unsolicited audition tape on his own and sent it directly to the producers.",
+      "context": "Casting announcement. Lists prior credits (The Offer as Pacino, Purple Hearts, young Sam Brenner in Pixels, Not Fade Away). The 'relentless drive' framing is the trade's and the studio's, not his own words.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S06",
+      "url": "https://nypost.com/2020/10/14/meet-the-cast-of-netflixs-gritty-new-nyc-high-school-drama-grand-army/",
+      "title": "Meet the cast of Netflix's gritty new NYC high school drama 'Grand Army'",
+      "speaker": "Anthony Ippolito, quoted by Chuck Arnold (New York Post)",
+      "date": "2020-10-14",
+      "locator": "Ippolito entry in the cast round-up ('Lucky break' and 'Advice to his high-school self')",
+      "excerpt": "\"When I booked 'Grand Army,' I was playing for the Baruch [College] baseball team too. I broke my hand in a game, and my audition was scheduled a day after the procedure I ended up having, so I emailed my agent like, 'Listen, I'm gonna have to take a pass on this.' And my agent emailed me back, 'How would you feel about sending in a tape?' But I kept my hand out of the frame 'cause I didn't want them to see I had a broken hand.\" ... \"I would tell myself, 'Stop being so hard on yourself, man.' High school's a tough place.\"",
+      "context": "Cast round-up for Grand Army's premiere. The Post calls him a '20-year-old Long Islander' who 'made his TV debut as a baseball-throwing toddler' and lists West Islip High School. On his character George: \"Obviously, there's some of me in there... I was just drawing on my experiences with those guys.\"",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S07",
+      "url": "https://dailyactor.com/actor-tips/the-offer-casting-director-john-papsidera",
+      "title": "'The Offer' Casting Director John Papsidera on Finding 'The Godfather' Stars",
+      "speaker": "John Papsidera (casting director, The Offer), from an interview with Below the Line",
+      "date": "2022-11-17",
+      "locator": "Paragraph on the Pacino recast",
+      "excerpt": "\"What's fascinating about that is we had cast another actor [in] that role... That was a huge blow because we thought we had a great Pacino. But as it turns out to be there's always someone else and I think across the board people were thrilled with Anthony Ippolito as Al Pacino. Again, not an exact duplicate, but his eyes did a lot of the heavy lifting and more people commented about him than almost any other role.\"",
+      "context": "The first actor cast as Pacino withdrew over sexual content in the series for religious reasons. Papsidera says he looked for 'essence' rather than impersonation. Professional testimony about the performance, not about Ippolito's character.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S08",
+      "url": "https://www.scmp.com/magazines/style/people/celebrities/article/3367710/meet-anthony-ippolito-who-stars-sylvester-stallone-upcoming-biopic-i-play-rocky",
+      "title": "Meet Anthony Ippolito, who stars as Sylvester Stallone in I Play Rocky",
+      "speaker": "South China Morning Post (Style), compiling quotes from Fandango, Entertainment Weekly and Vulkan",
+      "date": "2026-09-17",
+      "locator": "Sections 'How did Anthony Ippolito land the Stallone role?' and 'How did Anthony Ippolito break into acting?'",
+      "excerpt": "In August 2025, the actor shared his emotions about getting the role with Entertainment Weekly: \"It's an honour and a privilege to portray Sylvester Stallone in this inspiring story. It is an absolute dream come true.\"",
+      "context": "Opened via the r.jina.ai reader (direct curl returned a stub). Secondary compilation; calls him 27 and calls Grand Army his breakout. The EW original was not opened; SCMP may have localized spelling.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S09",
+      "url": "https://www.newcastleherald.com.au/story/9359765/im-not-dead-yet-stallones-mixed-feelings-on-biopic/",
+      "title": "'I'm not dead yet': Stallone's mixed feelings on biopic",
+      "speaker": "Sylvester Stallone (92NY event), reported by AAP; also quotes Ippolito via THR",
+      "date": "2026-09-29",
+      "locator": "Article body, paragraphs 3-7",
+      "excerpt": "Responding to the interviewer asking what he thought of I Play Rocky, he said: \"Kind of mixed because I'm not dead yet. Aren't we jumping the gun a little bit\"? ... \"I actually thought it was me the first moment, there were a couple of angles,\" he said.",
+      "context": "Syndicated wire copy (same story runs across ACM mastheads; one copy counted). Stallone was promoting his memoir The Steps at 92NY. The article says it 'was previously claimed that Stallone liked the film'. Also repeats Ippolito's THR line that meeting Stallone was 'a lot to take in'.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S10",
+      "url": "https://vulkanmagazine.com/grand-armys-anthony-ippolito/",
+      "title": "GRAND ARMY'S, Anthony Ippolito",
+      "speaker": "Anthony Ippolito, interviewed by Aris Pangan (Vulkan Magazine)",
+      "date": "2020-12-17",
+      "locator": "Q&A, questions on becoming an actor, similarity to George, and 'If you weren't acting'",
+      "excerpt": "\"Not really. It was something I started when I was really young, originally just wanting to get commercials or something to pay for college, but then I ended up developing a passion for acting itself when I was around 16.\" ... \"We were both athletes in High school. Other than that, we're quite different. I wasn't a big partier, but I was still exposed to the toxic masculinity and hookup culture that exists so prominently in high school\" ... \"I would probably be away at college majoring in psych, philosophy or cultural anthropology. I think everything else about my life would pretty much be the same.\"",
+      "context": "Written Q&A (date from the WordPress API). First question was whether he had a specific memory of realizing he wanted to act. Also: dream collaborator 'Adam Driver'; on set 'nothing but inclusive and collaborative'; 'I do really love character-driven stories though. I just want to work on something that speaks to me.'",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S11",
+      "url": "https://pop-culturalist.com/?p=27426",
+      "title": "Exclusive Interview: Pop Culturalist Chats with Grand Army's Anthony Ippolito",
+      "speaker": "Anthony Ippolito, interviewed by Pop-Culturalist",
+      "date": "2020-11-14",
+      "locator": "Q&A, questions 1-5 and 7",
+      "excerpt": "\"So many things—it takes a village. My mother pursued acting back in the day and always looks back on the memories she made on stage so fondly. My coach, Lynette Sheldon, has been a huge mentor for me on this journey and I'm forever grateful to her.\" ... \"I could tell she was committed to authenticity and truth. In an industry where so much of the contrary exists, I felt so grateful to be a part of this.\" ... \"A little bit, but I felt so strongly about the material that it was more of an excited energy than a nervous one. The biggest takeaway for me was the true value in being an ensemble member.\" ... \"There are certain flaws in our social fabric that this show is exposing. These issues have been glossed over for far too long.\"",
+      "context": "Written Q&A after Grand Army's premiere. The 'little bit' answer responds to whether his first series-regular role brought pressure. 'She' is creator Katie Cappiello. He got an agent after appearing on news shows for baseball as a child. Favorite book: The Four Agreements.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S12",
+      "url": "https://web.archive.org/web/2021id_/https://hollywoodlife.com/2020/10/26/grand-army-joey-sexual-assault-george-anthony-ippolito-interview/",
+      "title": "'Grand Army's Anthony Ippolito: George 'Knows He Did Something Wrong' When It Comes To Joey's Assault",
+      "speaker": "Anthony Ippolito, interviewed by HollywoodLife",
+      "date": "2020-10-26",
+      "locator": "Q&A, first two answers (baseball and acting) and the answer on filming the assault scene",
+      "excerpt": "\"I always kind of juggle the two. They were my two biggest passions in my life... if I was playing a baseball game, and I had an audition or we had a practice, I'd go to my coach and be like, listen, I've got to miss this practice. I've got to go to this audition. Or if we were playing in a championship game, and I had a commercial audition, I would tell my agent, please, I have a championship game.\" ... \"I was trying to do everything. I was auditioning, doing school assignments from professors, studying for exams, taking acting classes and scene study classes in lower Manhattan, working with a coach, and auditioning. It was a lot.\" ... \"my whole person was just completely making sure Odessa felt safe and comfortable throughout everything.\"",
+      "context": "Opened via a Wayback Machine raw copy because hollywoodlife.com blocks automated access. Long-form interview about Grand Army, including his character's sexual assault of a friend (a fictional storyline). Also says he broke his hand playing for Baruch and booked Grand Army about a week later, and that 'it's your duty to tell the story as honestly and as truthfully as possible.'",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S13",
+      "url": "https://hauteliving.com/2022/05/anthony-ippolito-plays-al-pacino-in-paramounts-the-offer/712929/",
+      "title": "Paramount+ Made Anthony Ippolito An Offer He Couldn't Refuse: Playing A Young Al Pacino",
+      "speaker": "Anthony Ippolito, interviewed by Haute Living",
+      "date": "2022-05-13",
+      "locator": "Q&A, prep answer, the senior-quote answer and 'When you're not acting'",
+      "excerpt": "\"Panic in Needle Park was a great film he had done before The Godfather ... Between watching those and looking through interviews from the same time I felt like I had enough. When you watch someone long enough you kind of pick up certain things, idiosyncrasies if you're open to receiving them.\" ... \"My senior quote in high school was actually a quote from the Don. Not Vito Corleone but the man who plays him, Marlon Brando. ... the quote was 'Only the one who walks his own way can't be overtaken.'\" ... \"Either playing music or painting.\"",
+      "context": "Opened via the r.jina.ai reader. Written Q&A; the outlet calls him 21 (inconsistent with a 1999 birth year). He had not met Pacino; director Dexter Fletcher relayed Pacino's insight. Also: 'It was surreal to be able to play someone I've looked up to for so long.' The outlet lists Miles Teller among The Offer's co-stars. On the senior quote he adds: \"It's not a direct line from The Godfather\". When not acting: \"Either playing music or painting.\"",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S14",
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/the-offer-the-godfather-premiere-1235133610/",
+      "title": "'The Offer' Team on \"Absolutely Terrifying\" Task of Getting the Iconic 'Godfather' Story Just Right",
+      "speaker": "Anthony Ippolito, quoted by Sydney Odman (The Hollywood Reporter)",
+      "date": "2022-04-21",
+      "locator": "Premiere report, Ippolito paragraphs (two consecutive quotes)",
+      "excerpt": "\"I've looked up to him as an actor for pretty much my whole life ever since I got into acting... He's a beautiful actor, and super talented and trying to fill those shoes is kind of impossible. So I just tried to do the best that I could. I looked into as much old footage as I could find with him from that time period.\" ... \"I'm kind of terrified of [him] seeing it because he's someone I've looked up to, and I respect his work. It's crazy, he's watching me act as him. I would be intimidated to have him watch me act at all, period.\"",
+      "context": "Red-carpet premiere quotes. 'Him' is Al Pacino. He notes there was little footage of pre-Godfather Pacino because he 'wasn't the Al Pacino we know today'.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S15",
+      "url": "https://www.youtube.com/watch?v=rWiOZ9ZNwTs",
+      "title": "'I Play Rocky' Star Anthony Ippolito on Meeting Sylvester Stallone & Bulking Up for Film | TIFF 2026",
+      "speaker": "Anthony Ippolito and Peter Farrelly (with Kiki Seto, Stephan James), The Hollywood Reporter TIFF Studio",
+      "date": "2026-09-14",
+      "locator": "03:25-04:35 (call with Stallone); 09:05-09:45 (fans; 'fighting for it'); 09:45-10:15 (Farrelly on the tape); 08:47-09:02 (Farrelly: Stallone \"loved it\"); 09:40 (Farrelly: \"By the way, it wasn't much of a fight\"); 10:07-10:14 (studio asked how he would find Stallone; \"I said, he found us\"). Quotations drop spoken fillers and repeated words: captions read \"I was fighting fighting for it fighting for it\" and \"had somehow found the script put three scenes put himself on three scenes\".",
+      "excerpt": "Ippolito: \"I got to speak to Stallone prior to prior to making the movie and it was a lot to take in because I'd spent like over a year by that point studying him and so it's very overwhelming and like daunting and you know there's a lot going on in my head but I was really just trying to listen as much as possible and hear his perspective\" ... \"you can't help but want those people to enjoy it.\" Q: \"Did you ever feel hesitant to take the role...?\" Ippolito: \"I was fighting for it.\" Farrelly: \"he sent us a tape in the mail that he had made in, I think, his grandmother's basement. And he had somehow found the script, put himself on three scenes\" ... \"I said, he found us.\"",
+      "context": "Quotes re-transcribed from audio with Whisper small.en (auto-captions agree on these words, with filler differences). Speaker at 09:37-09:39 checked against video frames: Ippolito is speaking while Kiki Seto laughs. Whisper also hears 'I knew I could do it' after 'I was fighting for it'; the captions lack it, so it is unverified and should not be quoted. Farrelly says Stallone watched the film alone and 'loved it'. Draft stage (2026-10-28): the line \"you can't help but want those people to enjoy it\" (09:13-09:27) sits in a stretch where frames at 548-566s are wide shots, so the speaker was not confirmed; the draft does not quote it.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S16",
+      "url": "https://www.youtube.com/watch?v=TP7M9Ce7eUM",
+      "title": "The I PLAY ROCKY Cast Find Their Voices for Knockout Performances",
+      "speaker": "Anthony Ippolito; Peter Farrelly (IMDb video)",
+      "date": "2026-09-21",
+      "locator": "00:15-01:12 (Ippolito on preparation); 01:25-02:20 (Farrelly on casting and prep); 02:04-02:06 (clip from The Offer); 02:14-02:28 (Farrelly on the Stallone phrase, captions only). Quotations drop a repeated \"and\" (\"and and figure\") present in the captions.",
+      "excerpt": "Ippolito: \"You start by saying, I don't know how to do this, and it's daunting, but you have to kind of be humbled by the task and figure it out from there piece by piece.\" ... \"your body doesn't really want to change. If you really wanted to, you gotta stick to it, and that made a difference, so it was a very kind of personal journey, you know what I mean? And it tested me in more ways than one, but it was a pleasure to do all of it.\" Farrelly: \"put himself on tape in his own apartment and sent it to us before we began casting ... Very Stallone-like in his approach to this. He just made it happen. He was so prepared, you know, and humble.\"",
+      "context": "Whisper small.en re-transcription; speakers checked against frames (00:22 Ippolito on camera, 01:40 Farrelly). Farrelly: in pre-production he asked whether Ippolito had done other work and learned he had played Pacino; Ippolito kept adding a phrase Stallone used in 1970s interviews. TRAP: the line 'I guess I just don't see myself as a lead' at 02:04 is dialogue from an inserted clip of The Offer (2022) (frame shows The Offer footage), not Ippolito speaking about himself. Captions: Farrelly calls Pacino \"the best part of The Offer\" and says Ippolito kept \"adding this line at the end of your sentences\" because \"I watched a lot of interviews Stallone did back then. He always said that.\" Ippolito: \"It required a pretty serious lifestyle shift\". The IMDb \"lead\" line (02:04) is deliberately not quoted anywhere in the draft.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S17",
+      "url": "https://www.youtube.com/watch?v=exlWOS3GGuQ",
+      "title": "The 'I Play Rocky' Cast on Depicting Sylvester Stallone's Crowning Achievement",
+      "speaker": "Anthony Ippolito; AnnaSophia Robb; Peter Farrelly (Fandango, CinemaCon)",
+      "date": "2026-04-22",
+      "locator": "02:06-02:25 (Ippolito prep); 04:55-05:12 (Robb); 05:55-06:35 (Ippolito on Stallone Zoom)",
+      "excerpt": "Ippolito: \"Well first I had to try to put on some weight because he was a pretty muscular dude and I was a little slimmer.\" ... \"Just watching his stuff old interviews as much as possible just really trying to soak it all in.\" Robb: \"it's so easy to root for Anthony because he really took on this character and the weight of carrying this movie\" Ippolito: \"He was on the set of Tulsa King, so I got to zoom with him briefly, but he couldn't have been more gracious and more generous about sharing what that experience was for him.\"",
+      "context": "CinemaCon press line, April 2026, before the festival run. Whisper small.en re-transcription of the quoted segments. Robb plays Sasha Czack; she says she drew on the people who supported her own career. Ippolito: Stallone had 'not too many people in his corner at the time, other than a few'.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S18",
+      "url": "https://www.youtube.com/watch?v=AUV0miw7NQo",
+      "title": "Anthony Ippolito on playing Sylvester Stallone in 'I Play Rocky'",
+      "speaker": "Anthony Ippolito (AP Entertainment)",
+      "date": "2026-09-14",
+      "locator": "00:00-00:50 (full clip)",
+      "excerpt": "\"Well, I had done it once in a TV show called The Offer, but it wasn't quite the same. Different guy. Yeah, so it was a daunting task and a layered task. You want to try to not just take in the celebrity, the icon part of it. It's honestly better to avoid that part of it. Because this was, you know, 72 to 76, which was like pre-fame for Stallone. So I just found myself looking up a lot of the bit parts that he did.\"",
+      "context": "Short TIFF interview clip answering 'what was it like to play a guy playing a guy'. Whisper small.en re-transcription. He names Kojak and The Lords of Flatbush and says he fell 'in love with these 70s pieces of cinema and TV'.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S19",
+      "url": "https://www.youtube.com/watch?v=CzjmQ9FcYs8",
+      "title": "Anthony Ippolito on the honor of portraying Sylvester Stallone in I Play Rocky",
+      "speaker": "Anthony Ippolito (Hollywood Elite)",
+      "date": "2026-04-18",
+      "locator": "00:00-00:59 (full clip)",
+      "excerpt": "\"... really interested in grounded stories that kind of, you know, the layered characters\" ... \"he couldn't have been nicer. He couldn't have been nicer and more generous. Shared a ton of information about what that was like and uh really helped me a lot and it was a dream dream come true because I've looked up to him for quite a while, you know.\"",
+      "context": "CinemaCon-period clip. Read from YouTube auto-captions only; not re-transcribed from audio. Treat wording as provisional (see research_tasks).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S20",
+      "url": "https://www.youtube.com/shorts/Hhf0cENNyXE",
+      "title": "Anthony Ippolito On Landing The Role Of Sylvester Stallone In I Play Rocky #tiff #rocky",
+      "speaker": "Anthony Ippolito; Peter Farrelly (Collider Interviews)",
+      "date": "2026-09-18",
+      "locator": "00:00-01:10 (full short). Quotations drop the fillers \"like\" and \"um\" from the \"if I was seen\" sentence; the draft stops the quotation at \"live with it\" because captions and Whisper break the following clause differently.",
+      "excerpt": "\"when I saw that article that Pete was doing this movie with Toby Emmerich, I just knew that I had to try to get in front of them. And I knew it wasn't necessarily going to be easy.\" ... \"But I just really felt that, at least if I was seen and I could present my interpretation, then I'd be able to live with it. Even if it didn't go my way, I just really had to try to get in the door.\" ... \"so much of the homework had to be done prior to even submitting the tape\" ... Farrelly: \"And how many pounds did you gain? Like 40?\" Ippolito: \"Something like that, yeah.\" ... \"it's a lot to maintain. And it's not my natural.\"",
+      "context": "TIFF interview with Ippolito and Farrelly. Whisper small.en re-transcription; auto-captions include fillers ('like', 'um') and read 'that he was doing this movie'. Whisper's sentence break after 'live with it' is ambiguous; the captions run the clauses together. Farrelly says they had him working out for about a year and a half and that he has since taken most of the weight off; Farrelly compares it to De Niro in Raging Bull. Ippolito says friends had sent him the article because he had 'talked about Stallone's story and been inspired by it'. The \"how many pounds did you gain? Like 40?\" question and the \"since then taken off most of it, right?\" follow-up are not frame-checked; the draft attributes neither to a named speaker, only Ippolito's answers. Farrelly (by his own reference to directing him) compares the change to De Niro in Raging Bull.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S21",
+      "url": "https://www.youtube.com/shorts/u0yVV1eVpgM",
+      "title": "Anthony Ippolito reflects on 'I Play Rocky': 'Absolutely surreal'",
+      "speaker": "Anthony Ippolito (TIFF premiere Q&A, USA TODAY Entertainment)",
+      "date": "2026-09-14",
+      "locator": "00:00-00:25 (full short)",
+      "excerpt": "\"It took a lot of effort over upwards of like a year and a half to two years and I'm just so grateful that Pete [Farrelly] and Toby Emmerich and so many other people that were willing to take a chance on me in this uh in this situation it's uh you know the movie shows that it's not really that easy to be an actor sometimes and uh it's just uh I'm just this is absolutely surreal\"",
+      "context": "Post-premiere Q&A remarks at the Princess of Wales Theatre, TIFF, 2026-09-12 (clip posted 09-14). Whisper small.en re-transcription; Whisper renders 'Pete Fairley', corrected here in brackets. The draft quotes the shared words \"a year and a half to two years\" and \"willing to take a chance on me\"; Variety (S22) prints a cleaned version of the same remarks.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S22",
+      "url": "https://variety.com/2026/film/awards/i-play-rocky-tiff-premiere-peter-farrelly-stallone-oscars-1236859905/",
+      "title": "'I Play Rocky' Premieres at TIFF: A Movie About a Best Picture Winner That's a Best Picture Contender?",
+      "speaker": "Clayton Davis (Variety), quoting Peter Farrelly and Anthony Ippolito",
+      "date": "2026-09-12",
+      "locator": "Premiere report, paragraphs 4-7",
+      "excerpt": "The director said his casting agent called one day claiming to have found the lead — a then-unknown Anthony Ippolito, who had gotten hold of the script and shot three scenes himself in his grandmother's basement. \"I looked at it and the search was over,\" Farrelly said. ... \"It took a lot of effort, upwards of a year and a half to two years,\" the actor told the crowd ... \"I'm just so grateful that they were willing to take a chance on me in this situation.\" ... \"This is absolutely surreal.\"",
+      "context": "World-premiere report (Princess of Wales Theatre, 2026-09-12). Davis calls him a 27-year-old Long Island native 'who has been working since childhood' and calls it 'a star-making turn'. Gives release as limited Nov. 6, expanding nationwide Nov. 20. The awards-advocacy framing is the critic's.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S23",
+      "url": "https://editorial.rottentomatoes.com/article/i-play-rocky-first-reviews/",
+      "title": "I Play Rocky First Reviews: An Inspirational Crowd-Pleaser Led by a Magnetic Anthony Ippolito",
+      "speaker": "Rotten Tomatoes editorial, quoting critics",
+      "date": "2026-09-14",
+      "locator": "Section 'Does Anthony Ippolito give a star-making performance?'",
+      "excerpt": "\"Ippolito credibly impersonates the voice of Stallone, but the delivery lacks the iconic actor's soul.\" – Chase Hutchinson, TheWrap ... \"Anthony Ippolito tries his best, but he's lost under Farrelly's guidance, leaving his performance as Stallone a mere imitation of Sly as Rocky, not as a person.\" – Joonatan Itkonen, Region Free ... \"You may get sick of hearing that Ippolito gives a star-making performance, but it's undeniably true.\" – Christopher Schobert, The Film Stage",
+      "context": "Round-up of first TIFF reviews; mostly positive with a dissenting minority that calls the performance imitation.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S24",
+      "url": "https://www.screendaily.com/reviews/i-play-rocky-review-peter-farrelly-turns-story-behind-sylvester-stallones-breakout-into-a-sentimental-uninspiring-pastiche/5220366.article",
+      "title": "'I Play Rocky' review: Peter Farrelly turns story behind Sylvester Stallone's breakout into a sentimental, uninspiring pastiche",
+      "speaker": "Screen Daily review",
+      "date": "2026-09-13",
+      "locator": "Review body, paragraph on the lead performance",
+      "excerpt": "Ironically, Farrelly doesn't appear to wholly trust his lead actor. Oftentimes when Ippolito delivers a monologue, the camera remains on his co-stars rather than him. Ippolito does accurately mirror Stallone's mannerisms and affectations, and lands plenty of good comedic moments",
+      "context": "Negative TIFF review of the film; describes him as a 'relative newcomer'.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S25",
+      "url": "https://en.wikipedia.org/wiki/Anthony_Ippolito",
+      "title": "Anthony Ippolito (Wikipedia)",
+      "speaker": "Wikipedia contributors",
+      "date": "accessed 2026-10-28",
+      "locator": "Infobox, Early life, Career, Filmography tables, categories (raw wikitext)",
+      "excerpt": "birth_date = August 21, 1999 (age 27) ... birth_place = [[West Islip]], [[New York (state)|New York]], U.S. ... years_active = 2006–present ... [[Category:2000 births]]",
+      "context": "Lists film debut Bella (2006), Pixels (2015, young Sam Brenner), Purple Hearts (2022, Johnno), Grand Army (2020, main cast, 8 episodes), The Offer (2022, recurring, 7 episodes). The 'only child of Anthony and Lorraine' line has no adjacent citation; the 'spent a lot of his childhood in New York City' line is tagged citation needed. The infobox year and the category year conflict.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S26",
+      "url": "https://en.wikipedia.org/wiki/I_Play_Rocky",
+      "title": "I Play Rocky (Wikipedia)",
+      "speaker": "Wikipedia contributors",
+      "date": "accessed 2026-10-28",
+      "locator": "Lead, Release and Reception sections (raw wikitext)",
+      "excerpt": "The film is scheduled to begin a limited theatrical release by Amazon MGM Studios in the United States on November 6, 2026, expanding nationwide on November 20. ... On the review aggregator website Rotten Tomatoes, 84% of 45 critics' reviews are positive ... Metacritic ... 63 out of 100, based on 20 critics",
+      "context": "World premiere TIFF 2026-09-12; nominated for People's Choice (Deadline: La Bola Negra won; Screen Daily says I Play Rocky was runner-up); limited release moved up from Nov 13 to Nov 6; screened in Rome's Grand Public section. Aggregator figures as accessed by Wikipedia editors (RT 2026-10-10).",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S27",
+      "url": "https://cinecittanews.it/roma-2026-ad-anthony-ippolito-il-premio-progressive-alla-carriera/",
+      "title": "Roma 2026, ad Anthony Ippolito il Premio Progressive alla Carriera",
+      "speaker": "Cinecittà News",
+      "date": "2026-10-07",
+      "locator": "Announcement, paragraphs 1-3",
+      "excerpt": "Il Premio Progressive alla Carriera ... intende valorizzare e incoraggiare una carriera in pieno movimento, giovane e già straordinaria",
+      "context": "Announces the Rome Film Fest (2026-10-13 to 10-25) Progressive career award, presented at the I Play Rocky screening by artistic director Paola Malanga. The award is for young careers 'in full motion', not a lifetime-achievement honor in the usual sense despite Wikipedia's translation.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S28",
+      "url": "https://athletics.baruch.cuny.edu/news/2020/10/16/former-baseball-bearcat-anthony-ippolito.aspx",
+      "title": "Former Baseball Bearcat Anthony Ippolito",
+      "speaker": "Baruch College Athletics",
+      "date": "2020-10-16",
+      "locator": "News item, full text",
+      "excerpt": "Former Baruch baseball player Anthony Ippolito will star in the Netflix series \"Grand Army.\" Ippolito, who played for the Bearcats in 2019, was featured in a New York Post story about the series",
+      "context": "Confirms his 2019 college baseball season independently of his own interviews.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S29",
+      "url": "https://variety.com/2026/film/news/i-play-rocky-cinemacon-trailer-sylvester-stallone-1236722980/",
+      "title": "'I Play Rocky' CinemaCon Trailer: Newcomer Anthony Ippolito Is Dead Ringer for Sylvester Stallone",
+      "speaker": "Brent Lang and Rebecca Rubin (Variety)",
+      "date": "2026-04-15",
+      "locator": "Paragraph 2",
+      "excerpt": "Anthony Ippolito, best known for \"The Offer,\" portrays a young Sylvester Stallone, perfectly channeling his mumbly delivery, hunched over posture and lumbering sweetness. Seriously, it's uncanny.",
+      "context": "CinemaCon teaser report. Farrelly at CinemaCon: \"It's a movie for anyone who's ever been naive and crazy enough to make their dream a reality.\"",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S30",
+      "url": "https://thefilmstage.com/tiff-review-i-play-rocky-is-a-crowdpleasing-winner/",
+      "title": "TIFF Review: I Play Rocky Is a Crowd-Pleasing Winner",
+      "speaker": "The Film Stage review (Christopher Schobert, per Rotten Tomatoes attribution)",
+      "date": "2026-09-13",
+      "locator": "Review body, paragraph on Ippolito",
+      "excerpt": "Just as Rocky brought fame to Stallone, I Play Rocky is likely to do the same for Ippolito, who manages to avoid imitation and instead bring to the character something soulful.",
+      "context": "Positive TIFF review; directly contradicts the 'imitation' critiques in S23.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S31",
+      "url": "https://www.bluewin.ch/en/people/stallone-s-co-star-i-ve-been-beaten-up-a-bit-li.3620629",
+      "title": "Stallone's Co-Star: \"I've been beaten up a bit\"",
+      "speaker": "blue News (G. Izzo, M. Hof, F. Berner)",
+      "date": "2026-10-01",
+      "locator": "Article text around the embedded video",
+      "excerpt": "blue News met with the likable, cheerful young actor at the Box Club Zürich for an interview.",
+      "context": "Zurich Film Festival European premiere. The embedded video was not viewable (third-party consent wall); the article says the full interview will be published at the Swiss theatrical release on 2026-11-26. Reporter impression only.",
+      "kind": "secondary",
+      "access": "opened"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C40",
+      "claim": "Before casting began on I Play Rocky, Ippolito hung a heavy bag in his grandmother's basement and taped himself as Stallone.",
+      "passage": "Before anyone had cast a movie about the making of _Rocky_, Anthony Ippolito hung a heavy bag in his grandmother's basement and started turning himself into Sylvester Stallone.",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S15",
+        "S22"
+      ],
+      "inference": "Hook. The basement and heavy bag are his own words to TheWrap (S01); 'before anyone had cast' rests on Farrelly's 'we hadn't even started casting' (S15) and Variety's premiere report (S22). 'Turning himself into' is the article's phrase for taping an impression, not a claim about the later physical transformation.",
+      "alternative": "Farrelly placed the taping in Ippolito's own apartment in one account (S16); the basement appears in Ippolito's account and Farrelly's other two.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C01",
+      "claim": "Ippolito learned about I Play Rocky from a news article and taped himself as Stallone before anyone asked, initially without a script, using a heavy bag hung in his grandmother's basement, with a friend and his cousin; after producers sent the script he taped more scenes on his own.",
+      "passage": "\"I didn't have a script, so I was just working with my imagination, trying to capture the physicality of the character,\" he told",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S05",
+        "S20"
+      ],
+      "inference": "Establishes the central observed choice of his career: an unsolicited, self-funded bid for a lead role. It shows initiative under long odds; it does not by itself show the motive.",
+      "alternative": "Self-taping is standard practice for working actors since 2020; agents routinely forward unsolicited tapes. The novelty is acting before casting began, which THR and the studio also used as a marketing story (S05 'relentless drive').",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C41",
+      "claim": "He learned of the project from a news article about Farrelly making the film; a friend and his cousin helped him shoot the tape and his agent sent it to the producers.",
+      "passage": "He had read a news article saying Peter Farrelly was making the film. A friend and his cousin helped him shoot the tape, and his agent sent it to the producers.",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S20"
+      ],
+      "inference": "TheWrap reports the friend (an aspiring director), the cousin and the agent's submission to producers and casting director (S01); Collider has him naming the article about Farrelly and Toby Emmerich (S20).",
+      "alternative": "TheWrap's paraphrase of the agent step is the outlet's, not a direct quote.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C42",
+      "claim": "Farrelly recalls that the studio asked how he would find a Stallone before casting began, and that he answered, 'He found us.'",
+      "passage": "but wanted to know how he would ever find a Stallone when casting hadn't even started. \"I said, he found us.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S15"
+      ],
+      "inference": "Director's account at THR's TIFF studio (S15 10:07-10:14, captions and Whisper agree). Supports that the tape reached the filmmakers unsolicited.",
+      "alternative": "A polished premiere anecdote that compresses the agent and casting-director steps.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C33",
+      "claim": "I Play Rocky premiered at TIFF on 2026-09-12 and opens in limited US release on 2026-11-06, expanding nationwide on 2026-11-20.",
+      "passage": "The film premiered at TIFF on September 12, 2026, and opens in limited U.S. release on November 6, expanding nationwide on November 20",
+      "class": "observed",
+      "source_ids": [
+        "S22",
+        "S26",
+        "S03"
+      ],
+      "inference": "Dates the moment readers are searching. The article's insight should not depend on these events.",
+      "alternative": "Earlier announcements gave 2026-11-13 for the limited release (moved up a week, S26); blue News gives 2026-11-26 for Switzerland.",
+      "durability": "time_sensitive",
+      "review_trigger": "After 2026-11-20, confirm the release happened as scheduled and update box office or awards results (Golden Globe, SAG/Actor, Oscar nominations) only if they change how the article frames his career."
+    },
+    {
+      "id": "C43",
+      "claim": "Variety's Clayton Davis called the performance 'a star-making turn.'",
+      "passage": "Variety's Clayton Davis called his performance \"a star-making turn.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S22"
+      ],
+      "inference": "Critic's assessment, attributed by name; establishes why readers are searching now.",
+      "alternative": "Awards-advocacy framing from a premiere report (S22 context); other critics disagree (C34).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C31",
+      "claim": "Birth date is unsettled: Wikipedia's infobox gives 1999-08-21 (consistent with 2025-2026 reported ages of 26 and 27), but Wikipedia's own category says 2000 births and 2020 and 2022 outlets called him 20 (October 2020) and 21 (May 2022), which imply 2000.",
+      "passage": "in his late twenties who has acted since childhood",
+      "class": "disputed",
+      "source_ids": [
+        "S25",
+        "S06",
+        "S13",
+        "S08",
+        "S22"
+      ],
+      "inference": "Do not state a full birth date or exact year as fact. 'Late twenties' is true under both reported birth years (1999 or 2000); 'acted since childhood' rests on Variety ('working since childhood', S22) and Wikipedia's 2006 debut (S25).",
+      "alternative": "The 2020-2022 outlets may have copied a wrong age; the 2026 trades may have copied Wikipedia.",
+      "durability": "unresolved",
+      "review_trigger": "If he, his representatives or an official bio state his birth year, update the metadata and close this claim."
+    },
+    {
+      "id": "C32",
+      "claim": "He is from Long Island (West Islip High School) and played baseball at Baruch College in Manhattan in 2019.",
+      "passage": "Ippolito is a Long Island native",
+      "class": "observed",
+      "source_ids": [
+        "S06",
+        "S28",
+        "S12",
+        "S22"
+      ],
+      "inference": "Biographical orientation for the article; the Long Island and Baruch facts have independent sourcing.",
+      "alternative": "Wikipedia's 'only child of Anthony and Lorraine' detail lacks an adjacent citation and should not be used.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C30",
+      "claim": "Before I Play Rocky he was a main-cast ensemble member of Netflix's Grand Army (2020), alongside Odessa A'Zion, and played a young Al Pacino in Paramount+'s The Offer (2022), which starred Miles Teller as producer Al Ruddy.",
+      "passage": "Before this he had an ensemble role alongside [Odessa A'Zion](/personality-analysis/odessa-azion) on Netflix's _Grand Army_ (2020) and played a young Al Pacino in Paramount+'s _The Offer_ (2022), which starred [Miles Teller](/personality-analysis/miles-teller).",
+      "class": "observed",
+      "source_ids": [
+        "S25",
+        "S06",
+        "S12",
+        "S04",
+        "S13"
+      ],
+      "inference": "Supports the open-case framing: a long working career of small and supporting parts, with the first lead role arriving in 2026.",
+      "alternative": "Some outlets call Grand Army (2020) his breakout (S08), so 'unknown' overstates it; Variety's 'then-unknown' is the critic's phrase.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C44",
+      "claim": "Some outlets call Grand Army his breakout; I Play Rocky is his first lead role.",
+      "passage": "Some outlets call _Grand Army_ his breakout. _I Play Rocky_ is his first lead.",
+      "class": "third_party",
+      "source_ids": [
+        "S22",
+        "S08",
+        "S11",
+        "S25",
+        "S05"
+      ],
+      "inference": "Variety (S22), SCMP (S08) and Pop-Culturalist (S11) call Grand Army his breakout; his credits (S25, S05) show supporting, recurring or ensemble roles before this starring role. Stated plainly for the open-case eligibility question.",
+      "alternative": "Whether an ensemble lead on a Netflix series counts as a 'breakout' is a judgment call the verifier should weigh.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C08",
+      "claim": "At The Offer's 2022 Los Angeles premiere he told Variety that playing Pacino was 'pretty terrifying, it makes you want to throw up.'",
+      "passage": "Playing Pacino was \"pretty terrifying, it makes you want to throw up,\" he told",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Fear and responsibility vocabulary recorded four years before the Stallone press tour, in a different role and outlet. Repetition across time is what lets it count as a pattern rather than one junket line.",
+      "alternative": "Every actor playing a living icon on a red carpet says some version of this; the situation, not a type, can explain it. In the same breath he said 'I had so much fun' and 'it's also a freaking honor'.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C09",
+      "claim": "At the Rome Film Fest press conference (reported 2026-10-20) he said there was 'a lot of intimidation at the beginning'.",
+      "passage": "Playing Stallone brought \"a lot of intimidation at the beginning,\" he said at the Rome Film Fest in October 2026",
+      "class": "self_report",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "Fear vocabulary recorded four years after the Pacino quotes, in a different role and outlet.",
+      "alternative": "Press-conference humility from a newcomer on an Amazon MGM awards campaign is expected; the repeated phrase may be a stock answer.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C48",
+      "claim": "The decisive move of his career, the I Play Rocky tape, was unsolicited.",
+      "passage": "Yet the move that made his career is one nobody invited.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S05",
+        "S15"
+      ],
+      "inference": "Summarizes C01/C42: the tape preceded casting and was sent without a request (S05 'unsolicited'; S15 'we hadn't even started casting').",
+      "alternative": "Self-taping is routine for working actors; the novelty is timing, and the studio has used the story in marketing.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C49",
+      "claim": "Almost all of his public record is red-carpet remarks, festival junkets and short written Q&As.",
+      "passage": "Almost everything he has said in public comes from red carpets, festival junkets and short written Q&As.",
+      "class": "interpretation",
+      "source_ids": [
+        "S04",
+        "S14",
+        "S06",
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S01",
+        "S02",
+        "S03",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S20",
+        "S21"
+      ],
+      "inference": "Describes the opened record (2020-2026). HollywoodLife (S12) is the longest Q&A; no long-form profile or podcast was found on 2026-10-28 (research_tasks).",
+      "alternative": "A long-form interview may exist that research did not find; the claim is about sources opened as of 2026-10-28.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C50",
+      "claim": "Leading read: Type 6 at low confidence, with Type 3 the closest rival and Types 9 and 1 live; in both icon roles he named the fear and answered it with research.",
+      "passage": "In both icon roles he named the fear and answered it with research.",
+      "class": "interpretation",
+      "source_ids": [
+        "S04",
+        "S14",
+        "S03",
+        "S13",
+        "S18",
+        "S01"
+      ],
+      "inference": "The 60-word answer's evidential sentence. Pacino: fear (S04, S14) and study of pre-Godfather footage (S13, S14). Stallone: intimidation and 'researching as much as you can' (S03), study of 1972-1976 bit parts (S18, S01).",
+      "alternative": "Research-after-fear is also ordinary actor preparation for any biographical role.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C37",
+      "claim": "Across 2020, 2022 and 2026 the same sequence recurs: he names the fear or difficulty ('terrifying', 'intimidation', 'daunting', 'I don't know how to do this'), then answers it with exhaustive preparation and deference to the source ('research as much as you can', 'listen as much as possible'), while still taking the bold step (self-taping before being asked, 'I was fighting for it').",
+      "passage": "He names the fear (\"terrifying,\" \"intimidation,\" \"daunting,\" \"I don't know how to do this\"). He answers it with study and deference to the source. Then he takes the bold step anyway",
+      "class": "interpretation",
+      "source_ids": [
+        "S04",
+        "S14",
+        "S03",
+        "S15",
+        "S16",
+        "S20",
+        "S01"
+      ],
+      "inference": "This is the pattern the Type 6 leading read rests on: anxiety acknowledged, then managed by preparation and trusted figures, with a counterphobic move toward the threat. It holds across two roles and four years.",
+      "alternative": "The pattern is concentrated in icon roles, where fear vocabulary is situational and expected on promotional tours (C19 shows 'excited energy' in 2020). The same behavior reads as a Type 3 performer's humility script, or a Type 1's diligence.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C65",
+      "claim": "Six leads because the fear-then-preparation sequence appears in his own words in two roles four years apart.",
+      "passage": "Six leads because the fear shows up in his own words in two roles four years apart, followed each time by the same response.",
+      "class": "interpretation",
+      "source_ids": [
+        "S04",
+        "S14",
+        "S03",
+        "S16"
+      ],
+      "inference": "2022 (S04, S14) and 2026 (S03, S16) statements, each followed by a stated research or step-by-step response.",
+      "alternative": "Both are icon roles on promotional tours, so the situation may explain the repetition (C57).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C51",
+      "claim": "Ippolito says the first tape was improvised without a script; TheWrap reports the producers then sent the script and asked for a proper audition, and he taped more scenes on his own.",
+      "passage": "The first tape was improvised: \"It kind of felt like a bit of a long shot, but it was a creative exercise, and it was actually really fun.\" The producers then sent the script and asked for a proper audition, and he shot several more scenes on his own, TheWrap reports.",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "His first-person sequence, preferred over Farrelly's for the process (see C03). The quote is verbatim from TheWrap.",
+      "alternative": "The second step is TheWrap's paraphrase, not his words.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C03",
+      "claim": "Details of the tape conflict: Ippolito says the first tape was made with no script and more scenes followed once producers sent it; Farrelly says he 'somehow found the script' and taped three scenes in his grandmother's basement (S15, S22) or 'in his own apartment' (S16).",
+      "passage": "Farrelly remembers it differently. At THR's studio he said Ippolito \"had somehow found the script\" and taped three scenes. In a video for [IMDb](https://www.youtube.com/watch?v=TP7M9Ce7eUM) that month, he placed the taping \"in his own apartment.\" Both men agree the tape arrived before casting began.",
+      "class": "disputed",
+      "source_ids": [
+        "S01",
+        "S15",
+        "S16",
+        "S22"
+      ],
+      "inference": "Use Ippolito's first-person sequence for the process; attribute Farrelly's version as his recollection. The grandmother's basement appears in both Ippolito's and most of Farrelly's accounts.",
+      "alternative": "Both may be partly right (an early improvised tape, then three scripted scenes); Farrelly may only have seen the later tape.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C02",
+      "claim": "Farrelly said at the Rome Film Fest that Ippolito was 'the first person we looked at, the only person'.",
+      "passage": "\"He was the first person we looked at, the only person,\" Farrelly said in Rome.",
+      "class": "third_party",
+      "source_ids": [
+        "S03",
+        "S15",
+        "S22"
+      ],
+      "inference": "Independent confirmation from the director that the self-generated tape, not a formal process, won the role.",
+      "alternative": "Director anecdotes told at premieres are polished for audiences; the casting director and agent steps are compressed.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C53",
+      "claim": "He told Collider he knew getting in front of the filmmakers 'wasn't necessarily going to be easy.'",
+      "passage": "He knew getting in front of the filmmakers \"wasn't necessarily going to be easy,\" he told",
+      "class": "self_report",
+      "source_ids": [
+        "S20"
+      ],
+      "inference": "Shows he saw the bid as a long shot before making it (compare S01 'a bit of a long shot').",
+      "alternative": "Junket framing of an underdog story that the film itself sells.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C04",
+      "claim": "Ippolito frames the bid as needing to be seen so he could accept any outcome: 'at least if I was seen and I could present my interpretation, then I'd be able to live with it.'",
+      "passage": "\"I just really felt that at least if I was seen and I could present my interpretation, then I'd be able to live with it.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S20"
+      ],
+      "inference": "His stated payoff is peace with the outcome (regret avoidance) rather than winning. It is the closest he comes in the record to naming what drove the risk, which makes it central to every type reading.",
+      "alternative": "'If I was seen' can be read as a visibility motive (Type 3); 'live with it' can be read as an inner-standard motive (Type 1) or as anxiety management (Type 6). One junket answer cannot separate these. The sentence continues \"even if it didn't go my way\"; captions attach that clause to \"live with it\" while Whisper starts a new sentence with it, so the draft ends the quotation at \"live with it\". Fillers \"like\" and \"um\" are dropped (S20 locator).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C77",
+      "claim": "The 'seen' answer supports a visibility reading (3) or a regret-avoidance reading (6) and cannot separate them.",
+      "passage": "Read one way, the key word is \"seen,\" the move of someone who needs the right people to notice. Read another, the key phrase is \"live with it\": he was guarding against regret.",
+      "class": "interpretation",
+      "source_ids": [
+        "S20"
+      ],
+      "inference": "Labels both readings of C04 as interpretation and states that one answer cannot decide them.",
+      "alternative": "'Live with it' could also express an inner standard (Type 1) or simple pragmatism.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C05",
+      "claim": "Asked whether he ever hesitated to take a role that means so much to people, he said he was fighting for it; Farrelly replied that it wasn't much of a fight.",
+      "passage": "\"I was fighting for it,\" he said. Farrelly cut in: \"By the way, it wasn't much of a fight.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S15"
+      ],
+      "inference": "Approach stance toward a feared task; Farrelly's reply (S15 09:40, captions and Whisper agree) confirms the role was effectively his from the tape.",
+      "alternative": "A light group moment; captions show a repeated 'fighting' (stutter dropped, S15 locator). The extra words 'I knew I could do it' heard only by Whisper are not quoted.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C06",
+      "claim": "In 2020 he broke his hand playing college baseball the day before a Grand Army audition, emailed his agent to pass, then sent a self-tape at the agent's suggestion and kept the hand out of frame so the producers would not see the injury.",
+      "passage": "In 2020, playing baseball for Baruch College, he broke his hand in a game, and his _Grand Army_ audition fell the day after a procedure on it. \"I emailed my agent like, 'Listen, I'm gonna have to take a pass on this,'\" he told",
+      "class": "self_report",
+      "source_ids": [
+        "S06",
+        "S12",
+        "S28"
+      ],
+      "inference": "An earlier self-tape under adverse conditions. Here his first move was to withdraw and someone else prompted the tape; in 2025 he started the tape himself. The contrast suggests growing initiative, though injury explains the 2020 hesitation.",
+      "alternative": "Hiding the cast is ordinary professional self-presentation, not evidence of image focus. The Post and HollywoodLife timelines differ slightly (audition a day after the procedure vs booking about a week after the break).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C54",
+      "claim": "The agent suggested a tape and he kept his broken hand out of the frame so the producers would not see it.",
+      "passage": "The agent suggested a tape. \"But I kept my hand out of the frame 'cause I didn't want them to see I had a broken hand.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S06"
+      ],
+      "inference": "Self-presentation under adverse conditions; listed in the Type 3 case.",
+      "alternative": "Hiding an injury from a casting team is ordinary professional caution.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C55",
+      "claim": "In 2020 the agent proposed the self-tape; for I Play Rocky he made one unprompted.",
+      "passage": "In 2020 someone else proposed the tape. For _I Play Rocky_, he made one before anyone asked.",
+      "class": "interpretation",
+      "source_ids": [
+        "S06",
+        "S01",
+        "S05"
+      ],
+      "inference": "Contrast between C06/C54 and C01. The year of the Rocky tape is not established (casting was announced 2025-08-27, S05), so the draft gives none.",
+      "alternative": "A broken hand explains the 2020 hesitation; the contrast may show circumstance, not growth.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C45",
+      "claim": "At the same 2022 premiere he called playing Pacino 'a freaking honor' that 'made me feel a huge weight of responsibility, but I had so much fun.'",
+      "passage": "Playing Pacino was also \"a freaking honor,\" he told Variety, and it \"made me feel a huge weight of responsibility, but I had so much fun.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "First recorded use of 'weight of responsibility'; the fun and honor halves are kept so the fear line is not read alone.",
+      "alternative": "Stock red-carpet answer to a stock question about playing an icon.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C46",
+      "claim": "To THR in 2022 he said he was 'kind of terrified of [him] seeing it' because he had looked up to Pacino.",
+      "passage": "\"I'm kind of terrified of [him] seeing it because he's someone I've looked up to, and I respect his work.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S14"
+      ],
+      "inference": "Fear tied to a respected figure watching; the bracket is THR's.",
+      "alternative": "Any actor playing a living icon would say this.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C47",
+      "claim": "In Rome (2026) he said he felt 'the weight of the responsibility' because so many people are fans, and that 'like any other situation, you just start by researching as much as you can.'",
+      "passage": "\"I was a fan of the movies and a fan of the character, and I understand how many people are, so I did feel the weight of the responsibility. But like any other situation, you just start by researching as much as you can.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "Same phrase as 2022 plus a stated general coping rule (research). Screen Daily prints it as one continuous quotation.",
+      "alternative": "Press-conference humility from a newcomer on an awards campaign; the phrase may be a stock answer.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C25",
+      "claim": "Co-star AnnaSophia Robb said 'it's so easy to root for Anthony because he really took on this character and the weight of carrying this movie.'",
+      "passage": "\"It's so easy to root for Anthony because he really took on this character and the weight of carrying this movie,\" she told",
+      "class": "third_party",
+      "source_ids": [
+        "S17"
+      ],
+      "inference": "A colleague independently uses the same 'weight' framing he uses about himself.",
+      "alternative": "Promotional cast panel at CinemaCon; co-stars praise leads by default. The quotation begins mid-sentence in the clip (\"and then it felt like I don't know it's so easy\"); the capital is editorial.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C10",
+      "claim": "Asked where he starts with Stallone's voice and posture, he said: 'You start by saying, I don't know how to do this, and it's daunting, but you have to kind of be humbled by the task and figure it out from there piece by piece.'",
+      "passage": "\"You start by saying, I don't know how to do this, and it's daunting, but you have to kind of be humbled by the task and figure it out from there piece by piece.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S16"
+      ],
+      "inference": "Names uncertainty first, then a stepwise method. Supports a doubt-then-preparation pattern and, separately, genuine humility.",
+      "alternative": "Could be a craft philosophy any trained actor states; also consistent with Type 9 modesty or Type 1 diligence.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C27",
+      "claim": "He spoke to Stallone briefly by Zoom about a month before shooting, while Stallone was filming Tulsa King.",
+      "passage": "He spoke to Stallone briefly by Zoom about a month before shooting.",
+      "class": "self_report",
+      "source_ids": [
+        "S17",
+        "S03"
+      ],
+      "inference": "Establishes the limited contact: one call, not a mentorship.",
+      "alternative": "None needed; the timing detail comes from Screen Daily's report rather than his own words.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C11",
+      "claim": "Of his pre-shoot call with Stallone he said it was 'overwhelming and like daunting', with 'a lot going on in my head', and that he 'was really just trying to listen as much as possible and hear his perspective.'",
+      "passage": "He told THR it was \"a lot to take in,\" with \"a lot going on in my head,\" and \"I was really just trying to listen as much as possible and hear his perspective.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S15",
+        "S09"
+      ],
+      "inference": "Deference to the source figure and absorption over self-display in a high-stakes encounter.",
+      "alternative": "Listening is the obvious strategy when meeting the subject of your role; it says little about motive. A Type 9 absorbing another person, or a Type 3 reading what is wanted, would also do it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C12",
+      "claim": "With both icons he deliberately studied the pre-fame record rather than the famous persona: Pacino's Panic in Needle Park and interviews from that period (2022), and Stallone's 1972-1976 bit parts such as Kojak and The Lords of Flatbush (2026), saying it is 'honestly better to avoid' the icon part.",
+      "passage": "With both icons he studied the actor before the legend: Pacino before _The Godfather_, and Stallone's bit parts from 1972 to 1976.",
+      "class": "self_report",
+      "source_ids": [
+        "S13",
+        "S14",
+        "S18",
+        "S01",
+        "S17"
+      ],
+      "inference": "A consistent craft choice across four years: he plays legends at the moment before they were known and studies them as unknowns. His own description of the method ('if you're open to receiving them') stresses receptivity.",
+      "alternative": "Both scripts are set before the subjects' fame, so the method follows the assignment. It is a craft fact more than a motive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C56",
+      "claim": "He told Haute Living in 2022 that watching someone long enough lets you pick up idiosyncrasies 'if you're open to receiving them.'",
+      "passage": "\"When you watch someone long enough you kind of pick up certain things, idiosyncrasies if you're open to receiving them,\" he told",
+      "class": "self_report",
+      "source_ids": [
+        "S13"
+      ],
+      "inference": "His stated method stresses receptivity; cited in the Type 9 case.",
+      "alternative": "A craft description most impressionists would recognize.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C13",
+      "claim": "Farrelly describes him as 'so prepared, you know, and humble', says he added a phrase Stallone used in 1970s interviews, and learned only during pre-production, by asking, that Ippolito had played Pacino in The Offer.",
+      "passage": "\"He was so prepared, you know, and humble,\" he said in the IMDb video. Ippolito kept ending sentences with a phrase Stallone used in his 1970s interviews. And Farrelly learned only in pre-production, by asking, that Ippolito had played Pacino, which Farrelly called \"the best part of The Offer.\" By then Ippolito already had the job.",
+      "class": "third_party",
+      "source_ids": [
+        "S16",
+        "S03"
+      ],
+      "inference": "The strongest third-party evidence against image-selling: in private pre-production he did not volunteer his best-known credit to his director. Note that he had already been hired, so there was nothing left to win by mentioning it.",
+      "alternative": "Directors praise their leads' humility during awards campaigns; the story also flatters Farrelly's 'search is over' instinct. The phrase detail is Farrelly's account from captions only (S16 02:14-02:28); the phrase itself is not named.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C19",
+      "claim": "On his first series-regular role (Grand Army, 2020) he said the pressure was 'A little bit, but I felt so strongly about the material that it was more of an excited energy than a nervous one', and named 'the true value in being an ensemble member' as his biggest takeaway.",
+      "passage": "\"A little bit, but I felt so strongly about the material that it was more of an excited energy than a nervous one.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S11"
+      ],
+      "inference": "Counterevidence to a fear-led reading: outside the icon roles he described pressure as excitement. The ensemble emphasis supports belonging-oriented readings (6 or 9).",
+      "alternative": "Written Q&A answers are composed; the fear vocabulary in C08 and C09 may track the specific threat of living icons watching, not a general disposition.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C57",
+      "claim": "The fear vocabulary clusters around the two icon roles, where most actors would feel it and press tours reward humility.",
+      "passage": "The fear clusters around the two icon roles, playing famous men who might watch. Almost any actor would feel that, and press tours reward a newcomer's humility.",
+      "class": "interpretation",
+      "source_ids": [
+        "S04",
+        "S14",
+        "S03",
+        "S11"
+      ],
+      "inference": "The strongest situational objection to the Six reading, placed beside the evidence for it.",
+      "alternative": "The 2022 quotes predate any awards campaign, so promotion explains 2026 better than 2022.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C14",
+      "claim": "He spent roughly a year and a half to two years on the role, including training and boxing at Gleason's Gym.",
+      "passage": "At the TIFF premiere he put the effort at \"a year and a half to two years\"",
+      "class": "self_report",
+      "source_ids": [
+        "S21",
+        "S22",
+        "S02",
+        "S20"
+      ],
+      "inference": "Sustained discipline toward a goal set by the role; his account stresses consistency and endurance more than appearance.",
+      "alternative": "The studio required the physique (Farrelly: 'we had him working out for a year'); transformation is role-driven, not a personal image project.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C15",
+      "claim": "Reported weight gain differs: Variety says about 150 to roughly 180 pounds over nearly two years (citing Clayton Davis); on Collider, Farrelly suggested about 40 pounds and Ippolito said 'Something like that, yeah.'",
+      "passage": "reports that he bulked up from about 150 pounds to roughly 180 at Gleason's Gym in Brooklyn.",
+      "class": "disputed",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "Variety's figure is attributed to Variety in the passage; the Collider exchange (C58) is given as a separate, looser estimate.",
+      "alternative": "Both may be loose; Ippolito has not given a number in his own words in an opened source.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C58",
+      "claim": "Asked on Collider whether he gained 'Like 40?' pounds, he answered 'Something like that, yeah.'",
+      "passage": "Asked on Collider whether he had gained \"Like 40?\" pounds, he said, \"Something like that, yeah.\"",
+      "class": "disputed",
+      "source_ids": [
+        "S20"
+      ],
+      "inference": "A loose figure he accepted rather than stated; conflicts with Variety's roughly 30 pounds (C15). The questioner is not identified because the speaker was not frame-checked.",
+      "alternative": "Research recorded Farrelly as asking; captions alone cannot confirm it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C59",
+      "claim": "Farrelly compared Ippolito's transformation to De Niro's in Raging Bull.",
+      "passage": "Farrelly compared it to [Robert De Niro](/personality-analysis/robert-de-niro) in _Raging Bull_.",
+      "class": "third_party",
+      "source_ids": [
+        "S20"
+      ],
+      "inference": "Director's framing of the physical change (S20 01:47-01:55).",
+      "alternative": "Promotional hyperbole from the film's director.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C60",
+      "claim": "He described the transformation as 'a consistency thing' and 'an entire lifestyle shift' that 'tested me in more ways than one.'",
+      "passage": "It was \"a consistency thing\" and \"an entire lifestyle shift,\" he told Variety, and it \"tested me in more ways than one,\" he told IMDb.",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S16"
+      ],
+      "inference": "His account stresses endurance over appearance.",
+      "alternative": "The studio required the physique; endurance language fits any role-driven regimen.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C61",
+      "claim": "He has since taken off most of the weight, saying it is a lot to maintain and 'not my natural.'",
+      "passage": "He has since taken most of the weight off. \"It's a lot to maintain,\" he told Collider, and \"it's not my natural.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S20"
+      ],
+      "inference": "Shows the build was for the role, not a self-image project; he adds his natural build was closer to Pacino's.",
+      "alternative": "The 'taken off most of it' premise was put to him as a question he confirmed ('Yeah').",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C62",
+      "claim": "His own account of the transformation centers on consistency and testing rather than appearance, and the studio required the physique regardless.",
+      "passage": "His own words are about consistency and being tested, not about how he looked, and the studio needed the physique either way.",
+      "class": "interpretation",
+      "source_ids": [
+        "S02",
+        "S16",
+        "S20"
+      ],
+      "inference": "Labels the inference from C60/C61 and states the role-driven alternative in the same sentence.",
+      "alternative": "Absence of appearance talk in junket clips may reflect the questions asked.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C24",
+      "claim": "Casting director John Papsidera said the first actor cast as Pacino in The Offer withdrew, that 'people were thrilled with Anthony Ippolito as Al Pacino', and that 'his eyes did a lot of the heavy lifting and more people commented about him than almost any other role.'",
+      "passage": "Casting director John Papsidera cast him as Pacino after the first actor chosen withdrew. His verdict: \"Again, not an exact duplicate, but his eyes did a lot of the heavy lifting and more people commented about him than almost any other role\"",
+      "class": "third_party",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "Independent professional testimony that his 2022 work stood out; he was a replacement, not the first choice.",
+      "alternative": "Casting directors praise their hires; it speaks to performance, not personality.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C26",
+      "claim": "Farrelly said at TIFF (September 2026) that Stallone watched the film alone and loved it.",
+      "passage": "Farrelly said at TIFF in September 2026 that Stallone watched the film alone and loved it.",
+      "class": "disputed",
+      "source_ids": [
+        "S15"
+      ],
+      "inference": "Stallone's praise is specific to resemblance; his reservations are about a biopic of a living person. Attribute each view to its speaker and date.",
+      "alternative": "Both may be true at once: liking the film while disliking the idea of a biopic while alive.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck after the 2026-11-06 US release and any Stallone interview or social post about the film; update if he endorses or criticizes it outright."
+    },
+    {
+      "id": "C63",
+      "claim": "At 92NY (reported 2026-09-29) Stallone called his feelings 'Kind of mixed because I'm not dead yet' and, shown a clip, said 'I actually thought it was me the first moment, there were a couple of angles.'",
+      "passage": "At a 92NY event reported on September 29, 2026, Stallone himself said: \"Kind of mixed because I'm not dead yet.\" Shown a clip of Ippolito in character, though, he said, \"I actually thought it was me the first moment, there were a couple of angles\"",
+      "class": "disputed",
+      "source_ids": [
+        "S09"
+      ],
+      "inference": "Stallone's own words, dated; his praise is about likeness and his reservation about a biopic of a living person. Paired with Farrelly's account (C26).",
+      "alternative": "Both may be true: liking the performance while disliking the idea.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck after the 2026-11-06 US release and any Stallone interview or post about the film; update if he endorses or criticizes it outright."
+    },
+    {
+      "id": "C34",
+      "claim": "TIFF critics split on the performance: The Film Stage said he avoids imitation and brings 'something soulful'; TheWrap's Chase Hutchinson said the delivery 'lacks the iconic actor's soul.'",
+      "passage": "wrote that he \"manages to avoid imitation and instead bring to the character something soulful.\" TheWrap's Chase Hutchinson wrote that \"Ippolito credibly impersonates the voice of Stallone, but the delivery lacks the iconic actor's soul\"",
+      "class": "third_party",
+      "source_ids": [
+        "S30",
+        "S23"
+      ],
+      "inference": "Gives the article an honest test of his study-until-you-absorb method; quotes are named and dated rather than citing a live aggregate.",
+      "alternative": "Review consensus can shift after release; the two quotes are dated TIFF reviews and stay accurate as quotations.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C28",
+      "claim": "His read on Stallone: 'He did feel very much like a lone wolf, kind of like an orphan in life in a lot of ways', who had 'not too many people in his corner at the time' and persevered.",
+      "passage": "\"He did feel very much like a lone wolf, kind of like an orphan in life in a lot of ways,\" he said in Rome. Stallone had \"not too many people in his corner at the time, other than a few,\" he told Fandango.",
+      "class": "self_report",
+      "source_ids": [
+        "S03",
+        "S17"
+      ],
+      "inference": "Shows what he notices in his subject: isolation and missing support, rather than talent or ambition. Treat it as his interpretation of Stallone, not a self-description.",
+      "alternative": "This is the film's own framing of Stallone, repeated on the press tour.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C66",
+      "claim": "Beyond fear vocabulary, the public record shows little else typical of Type 6: no worst-case planning, testing of loyalty or wariness of authority.",
+      "passage": "Little else in the public record looks like a Six. There is no worst-case planning on display, no testing of loyalty, no wariness of authority.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S03",
+        "S04",
+        "S06",
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S20"
+      ],
+      "inference": "Counterevidence taken from type_hypothesis.against; an absence across the opened sources, not proof of absence.",
+      "alternative": "Junkets rarely invite such material; long-form interviews may show it (settle signal 1).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C38",
+      "claim": "Type 3 reading: he made himself visible to the I Play Rocky filmmakers unprompted, taped a 2020 audition with an injury hidden, framed the Rocky bid as needing to be seen, ran a full multi-track schedule, began acting for commercials and spent close to two years transforming for a star-making role.",
+      "passage": "He put himself in front of the _I Play Rocky_ filmmakers before anyone asked, and in 2020 he taped an audition with a broken hand kept out of frame.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S20",
+        "S12",
+        "S06",
+        "S10",
+        "S02"
+      ],
+      "inference": "The strongest rival, and the one the press narrative ('relentless drive') implicitly assumes. Against it: he does not sell himself in private (C13), credits others' gamble (C35), plays down career identity (C22), and talks about fear more than winning. Correction at draft stage: the 2020 tape was for a scheduled audition, proposed by his agent (C06), so it is not an unprompted bid; the draft describes it accordingly.",
+      "alternative": "Visible hustle is a career requirement for an actor without connections; it does not establish an image-centered motive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C07",
+      "claim": "Through high school and college he juggled baseball and acting ('my two biggest passions'), negotiating with coaches and agents in both directions, and at Baruch was 'trying to do everything': college baseball, coursework, acting classes and auditions.",
+      "passage": "\"I was trying to do everything\": college baseball, coursework, acting classes, a coach and auditions.",
+      "class": "self_report",
+      "source_ids": [
+        "S12",
+        "S28"
+      ],
+      "inference": "A sustained pattern of high load and goal pursuit that predates fame. Compatible with Type 3 drive, with a Type 6 need to keep a fallback (degree, baseball), or with simple youthful ambition.",
+      "alternative": "Many student-athlete actors in New York juggle the same things for financial reasons; he said acting began as a way to pay for college (C17).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C17",
+      "claim": "He told Vulkan in 2020 that he started acting as a child 'originally just wanting to get commercials or something to pay for college', developing a passion for acting itself around 16.",
+      "passage": "\"originally just wanting to get commercials or something to pay for college.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S10"
+      ],
+      "inference": "A pragmatic origin followed by a later chosen commitment; mentors and family are credited ('it takes a village').",
+      "alternative": "Childhood entry via family and agent is common for New York-area child actors; crediting mentors is standard interview courtesy.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C67",
+      "claim": "THR's 2025 casting story said Ippolito 'is said to have pursued the part of Stallone with the same relentless drive.'",
+      "passage": "\"Ippolito is said to have pursued the part of Stallone with the same relentless drive.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "Trade and studio framing that fits the Type 3 reading; marked as THR's words.",
+      "alternative": "Marketing language that ties the actor to the film's underdog theme.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C68",
+      "claim": "He did not tell Farrelly about his best-known credit until asked in pre-production.",
+      "passage": "He didn't tell his director about his best-known credit until asked.",
+      "class": "third_party",
+      "source_ids": [
+        "S16",
+        "S03",
+        "S29"
+      ],
+      "inference": "Farrelly's account (S16, S03); Variety calls him 'best known for The Offer' (S29). By then he had the job (C13).",
+      "alternative": "Farrelly's anecdote flatters his own instinct; Ippolito has not described it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C35",
+      "claim": "At the TIFF premiere he thanked Farrelly, producer Toby Emmerich and others 'that were willing to take a chance on me', said 'the movie shows that it's not really that easy to be an actor sometimes', and called the moment 'absolutely surreal.'",
+      "passage": "At the premiere he cast his break as other people's bet, thanking those \"willing to take a chance on me.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S21",
+        "S22"
+      ],
+      "inference": "Frames success as other people's gamble on him rather than his own achievement; consistent with the humility testimony in C13.",
+      "alternative": "Thanking the director and producer is the expected premiere script.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C22",
+      "claim": "Asked in 2020 what he would do without acting, he said he would 'probably be away at college majoring in psych, philosophy or cultural anthropology' and that 'everything else about my life would pretty much be the same.'",
+      "passage": "\"probably be away at college majoring in psych, philosophy or cultural anthropology. I think everything else about my life would pretty much be the same.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S10"
+      ],
+      "inference": "Intellectual interest in people and meaning; the second sentence plays down how much his identity depends on the career, which supports a Type 9 reading more than Type 3.",
+      "alternative": "A light Q&A answer; 'everything else would be the same' may simply mean his family and friends.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C39",
+      "claim": "Type 9 reading: receptive absorption of his subjects ('really trying to soak it all in'), ensemble emphasis, and playing down career identity.",
+      "passage": "He describes preparation as taking people in, \"really trying to soak it all in,\" he told Fandango of Stallone's old interviews. His biggest lesson from _Grand Army_ was \"the true value in being an ensemble member.\"",
+      "class": "interpretation",
+      "source_ids": [
+        "S17",
+        "S11",
+        "S13",
+        "S10"
+      ],
+      "inference": "Neither has a sourced discriminator yet. Type 9 struggles to explain the self-started two-year pursuit; Type 1 struggles to explain the explicit fear vocabulary and the absence of correctness or irritation.",
+      "alternative": "Both readings lean on single Q&A answers from 2020.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C69",
+      "claim": "The self-started, two-year pursuit of an unoffered lead strains the Type 9 reading.",
+      "passage": "What strains it is the self-started, two-year pursuit of a lead nobody had offered him.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S21",
+        "S05"
+      ],
+      "inference": "Counterevidence to Nine from C01 and C14.",
+      "alternative": "A Nine can pursue a single wholehearted goal; the strain is a tendency, not a rule.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C20",
+      "claim": "Type 1 evidence: he praised Grand Army creator Katie Cappiello as 'committed to authenticity and truth' in 'an industry where so much of the contrary exists.'",
+      "passage": "He praised its creator, Katie Cappiello, as \"committed to authenticity and truth\" in \"an industry where so much of the contrary exists.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S11"
+      ],
+      "inference": "Moral and reform language is the strongest evidence for the Type 1 alternative.",
+      "alternative": "He was promoting a show about sexual assault and consent; serious, reform-minded answers were expected and appropriate to the material.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C70",
+      "claim": "He told HollywoodLife in 2020 that an actor's duty is to tell the story as honestly and truthfully as possible.",
+      "passage": "He told HollywoodLife, \"As an actor, it's your duty to tell the story as honestly and as truthfully as possible.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S12"
+      ],
+      "inference": "Moral-duty language cited for the Type 1 case. Said in answer to how the cast created a safe space for the assault scene.",
+      "alternative": "Expected seriousness when promoting a show about sexual assault.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C18",
+      "claim": "Asked in 2020 what he would tell his high-school self, he said: 'Stop being so hard on yourself, man.'",
+      "passage": "His advice to his high-school self: \"Stop being so hard on yourself, man.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S06"
+      ],
+      "inference": "Evidence of a harsh inner critic in adolescence. It supports Type 1 and Type 6 readings more than Type 9, and is compatible with Type 3 performance pressure.",
+      "alternative": "A common, almost formulaic answer to that question; he adds that 'High school's a tough place', pointing to circumstance.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C71",
+      "claim": "The One's irritation at what is wrong barely surfaces in his record, and the serious 2020 answers suited the material.",
+      "passage": "Against it, serious answers suited that material, and a One's irritation at what is wrong barely surfaces in his record.",
+      "class": "interpretation",
+      "source_ids": [
+        "S11",
+        "S12",
+        "S10",
+        "S06"
+      ],
+      "inference": "Counterevidence to Type 1, from type_hypothesis and C20/C70 context.",
+      "alternative": "Irritation rarely appears in promotional interviews for any type.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C72",
+      "claim": "Asked by Haute Living what he does when not acting, he said 'Either playing music or painting.'",
+      "passage": "Asked by Haute Living what he does when he isn't acting, he said, \"Either playing music or painting.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S13"
+      ],
+      "inference": "One of the details no reading explains well.",
+      "alternative": "A light Q&A answer.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C73",
+      "claim": "blue News described him at the Zurich Film Festival as a 'likable, cheerful' young actor.",
+      "passage": "Swiss reporters at the Zurich Film Festival described him as \"likable, cheerful\"",
+      "class": "third_party",
+      "source_ids": [
+        "S31"
+      ],
+      "inference": "Reporter impression only; listed among unexplained details.",
+      "alternative": "A one-line impression from a short festival meeting.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C74",
+      "claim": "The open case is scheduled for review on 2026-12-15, after the 2026-11-20 wide release.",
+      "passage": "This case is due for review on December 15, 2026, after the wide release.",
+      "class": "observed",
+      "source_ids": [
+        "S22",
+        "S26"
+      ],
+      "inference": "Mirrors open_case.next_review; the wide-release date is from S22/S26.",
+      "alternative": "Release dates have moved before (S26: limited release moved up from Nov 13).",
+      "durability": "time_sensitive",
+      "review_trigger": "On or after 2026-12-15, rerun with --refresh, open the first long-form interviews and update or close the case."
+    },
+    {
+      "id": "C75",
+      "claim": "As of 2026-10-28 the only people on record who have worked with or met him are Farrelly, Papsidera, Robb and Stallone, all in promotional or casting contexts.",
+      "passage": "The only people on record who have worked with him or met him are Farrelly, Papsidera, Robb and Stallone, all in promotional or casting settings.",
+      "class": "interpretation",
+      "source_ids": [
+        "S03",
+        "S07",
+        "S09",
+        "S15",
+        "S16",
+        "S17"
+      ],
+      "inference": "From research_tasks (testimony search on 2026-10-28). Reporters (S31) and critics are excluded as non-acquaintances.",
+      "alternative": "Testimony may exist that research did not find.",
+      "durability": "time_sensitive",
+      "review_trigger": "Update when Grand Army or The Offer colleagues, his coach or family speak about him on record."
+    },
+    {
+      "id": "C76",
+      "claim": "He called his acting coach Lynette Sheldon 'a huge mentor.'",
+      "passage": "or Lynette Sheldon, the acting coach he called \"a huge mentor,\"",
+      "class": "self_report",
+      "source_ids": [
+        "S11"
+      ],
+      "inference": "Names a long-term relationship whose testimony would discriminate.",
+      "alternative": "Interview courtesy toward a coach.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C78",
+      "claim": "He cited the 'speaks to me' standard for choosing projects in 2020.",
+      "passage": "pick a small character piece that, in his 2020 words to Vulkan, \"speaks to me\"",
+      "class": "self_report",
+      "source_ids": [
+        "S10"
+      ],
+      "inference": "His 2020 statement 'I just want to work on something that speaks to me' anchors the Nine branch of settle signal 3.",
+      "alternative": "Generic project-choice language from a short Q&A.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C23",
+      "claim": "His high-school senior quote, which he attributes to Marlon Brando, was 'Only the one who walks his own way can't be overtaken.'",
+      "passage": "His high-school senior quote, which he credits to Marlon Brando, was \"Only the one who walks his own way can't be overtaken.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S13"
+      ],
+      "inference": "A self-chosen motto of independence and non-comparison, which sits awkwardly with both a Type 3 comparison frame and a Type 6 guidance-seeking frame. It is one of the details the leading read does not explain.",
+      "alternative": "A teenager's yearbook quote picked from a hero; little weight. The attribution to Brando is his and is not verified here.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C79",
+      "claim": "Description: he taped himself as Stallone before casting began and later called the role intimidating; leading read Type 6, Type 3 close.",
+      "passage": "Anthony Ippolito taped himself as Stallone before I Play Rocky began casting, then called the role intimidating.",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S15",
+        "S03"
+      ],
+      "inference": "Metadata restatement of C40/C42 and C09.",
+      "alternative": "'Intimidating' paraphrases 'a lot of intimidation at the beginning'.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C80",
+      "claim": "Casting FAQ: his first tape was made in his grandmother's basement without a script; more scenes followed once producers sent the script.",
+      "passage": "He told TheWrap he made the first tape in his grandmother's basement without a script and taped more scenes after the producers sent the script.",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Metadata restatement of C01/C51; the FAQ also attributes Farrelly's three-scene version (C03).",
+      "alternative": "The second step is TheWrap's paraphrase.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C81",
+      "claim": "Stallone FAQ: Farrelly said in September 2026 that Stallone watched the film alone and loved it.",
+      "passage": "Peter Farrelly said in September 2026 that Stallone watched the film alone and loved it.",
+      "class": "third_party",
+      "source_ids": [
+        "S15",
+        "S09"
+      ],
+      "inference": "Metadata restatement of C26; the FAQ pairs it with Stallone's own dated words (C63).",
+      "alternative": "Stallone's view may change after release.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck after the 2026-11-06 US release and any Stallone interview or post about the film; update the FAQ with the bodytext."
+    },
+    {
+      "id": "C82",
+      "claim": "Type 3 FAQ: he spent close to two years changing his body for the role.",
+      "passage": "He also spent close to two years changing his body for the role.",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S21",
+        "S22"
+      ],
+      "inference": "Variety's 'nearly two years' (S02) and his 'a year and a half to two years' (S21, S22).",
+      "alternative": "Effort span may include pre-casting study, not only training.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C83",
+      "claim": "Section heading quoting his 2022 description of playing Pacino ('it makes you want to throw up'), in the form Variety used as its headline.",
+      "passage": "\"It makes you want to throw up\"",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Heading quotation; the full line ('It's pretty terrifying, it makes you want to throw up') is mapped by C08. The capital I follows Variety's headline.",
+      "alternative": "Standard red-carpet answer about playing an icon (see C08).",
+      "durability": "stable",
+      "review_trigger": ""
+    }
+  ],
+  "type_hypothesis": {
+    "type": 6,
+    "confidence": "low",
+    "for_claim_ids": [
+      "C37",
+      "C65",
+      "C08",
+      "C45",
+      "C46",
+      "C09",
+      "C47",
+      "C10",
+      "C11",
+      "C04",
+      "C05",
+      "C13",
+      "C19",
+      "C25",
+      "C28"
+    ],
+    "against": "The fear vocabulary that carries the reading is concentrated where almost any actor would feel it: playing living icons who might watch, on promotional tours where newcomer humility is expected. Outside those roles, in 2020, he described series-regular pressure as 'more of an excited energy than a nervous one' (C19). His defining actions (unsolicited self-tapes, years of juggling baseball, school and auditions, a two-year transformation) read at least as naturally as goal-driven initiative, and he frames the Rocky bid around being seen (C04). The record shows no worst-case scenario planning, testing of loyalty, ambivalence toward authority or doubt about collaborators. His yearbook motto celebrates walking his own way rather than leaning on guidance (C23). Draft-stage correction: the 2020 Grand Army tape was suggested by his agent for a scheduled audition (C06), so only the I Play Rocky tape was unprompted. No one who has known him outside a single production has spoken on record. Several key quotes come from video clips; the important ones were re-transcribed from audio, but one ('I knew I could do it') could not be confirmed and is excluded.",
+    "alternative_type": 3,
+    "alternative_case": "Type 3: he made himself visible to the I Play Rocky filmmakers before being asked and, in 2020, taped a scheduled audition with a broken hand kept out of frame, explains the Rocky bid as needing to be seen and present his interpretation, ran a full athletic and acting schedule at once ('I was trying to do everything'), started acting to book commercials, hid an injury from producers, and spent nearly two years building the physique for a star-making lead. Studio and trade framing ('relentless drive') fits. What weakens it: Farrelly says he never mentioned his best-known credit until asked in pre-production, he presents success as others taking a chance on him, he says his life would 'pretty much be the same' without acting, and his recurring language is fear and responsibility rather than winning or image. Type 9 (receptive absorption of others, modesty, ensemble) and Type 1 (authenticity, duty, reform language, inner critic) are also live.",
+    "discriminator": "No defensible discriminator exists yet. The observation that would separate 6 from 3 is his own unprompted account of what the risk protected him from and what steadied him: whether he describes the self-tape and transformation as preparation to feel ready and not let down people and fans who trusted him (6), or as the shot to be seen and break through (3). Current sources give one junket answer that points both ways ('if I was seen ... I'd be able to live with it'). Behavior under the first real setback after the release (criticism of the performance, or a lost award) and long-term collaborators' testimony would also discriminate. The 2022 Pacino quotes show the fear language is not only a 2026 talking point, which is why 6 leads, but they come from the same icon-role situation.",
+    "unexplained": "His yearbook motto about walking one's own way and the private painting and music; the cheerful, easy manner reporters describe (S31); his 2020 remark that pressure felt like 'excited energy'; why he passed on the 2020 audition before his agent suggested a tape but started the 2025 tape unprompted; the reform-minded moral language around Grand Army; and how much of the humility is temperament versus a newcomer's press-tour script."
+  },
+  "profile_format": "open_case",
+  "open_case": {
+    "reason": "Ippolito is an adult (late twenties; birth year reported as 1999 or 2000) whose first lead role and first major public moment is I Play Rocky: cast 2025-08-27, world premiere at TIFF 2026-09-12, US release 2026-11-06 and 2026-11-20. Before that he was a working actor with child bit parts (no interviews) and supporting or ensemble TV roles. Grand Army (2020) produced four short Q&As and The Offer (2022) produced red-carpet quotes and one short Q&A. Some outlets call Grand Army his breakout, and the verifier should weigh that. The 2026 record is festival junket, press conferences and premiere Q&As. Research on 2026-10-28 opened 31 sources across 2020-2026 and re-transcribed the key video quotes from audio, but found no long-form profile, no podcast and no testimony from anyone who has known him beyond one production. The fear-and-preparation pattern recurs across 2022 and 2026, but it cannot yet be separated from the situation (playing living icons on promotional tours) or from a Type 3 drive reading.",
+    "live_alternatives": [
+      3,
+      9,
+      1
+    ],
+    "settle_signals": [
+      "In the first long-form awards-season interviews or podcasts after the November release, when he explains why he taped himself before anyone asked, does he talk about getting seen and taking his shot (3), about preparing until he felt ready and not wanting to let down fans and the people who trusted him (6), about simply loving the story and wanting to be part of it (9), or about owing the role an honest, correct portrayal (1)?",
+      "How he responds to the critics who call the performance imitation rather than soul (TheWrap, Region Free, Screen Daily): reframing toward results and momentum (3), visible second-guessing that he then works through with trusted collaborators (6), shrugging it off to keep the peace (9), or a principled defense of the craft choice or self-criticism about what he got wrong (1).",
+      "His next role after the breakout: the biggest available lead or franchise (3); returning to trusted collaborators such as Farrelly or a familiar ensemble, with security and belonging named as reasons (6); a small, grounded character piece that 'speaks to me' (9 or 4); or a project chosen on stated moral or truth-telling grounds (1).",
+      "On-record testimony from people who have known him longer than one production (Grand Army's Katie Cappiello or Odessa A'Zion, coach Lynette Sheldon, The Offer's cast): do they describe anxious over-preparation and loyalty (6), relentless drive and adaptability (3), easygoing absorption (9), or exacting standards and self-criticism (1)?"
+    ],
+    "next_review": "2026-12-15"
+  }
+}

@@ -1,0 +1,15 @@
+I've written the subject (fairness) review to `review-subject.json` in the run folder. It passes the pipeline's review schema, and I didn't touch any other file. It has 3 major findings, 5 minor ones and 5 passages to protect. I checked each finding against the cached source texts and transcripts.
+
+**Major (the editor must fix these):**
+1. **Her denial is missing.** The Wall Street Journal piece the draft uses says that when Sam Altman accused the siblings of plotting against him, "The brother and sister denied it." It also says Greg Brockman offered to withdraw his abuse-of-power feedback about her. The draft includes neither, then says "She has not given her own account."
+2. **The Arianna Huffington exchange is misdescribed.** Huffington praised her for talking publicly about learning from mistakes, then asked how AI could help *people* be more self-reflective. Her answer about social media was on topic, but the draft presents it as a dodge and as proof she "keeps her irritations private."
+3. **Her stated reasons are cut down to fit the Type 1 case.** On Oprah she said no ads was about protecting users' private data ("They ask questions about their children"). The draft drops that, while the type answer says she never explains costly choices "by whom she protected." The Stanford "turning away customers" quote also leaves out "come back to us six months from now." The type answer and FAQ also present company-wide decisions as her personal choices, even though the body admits "These were collective decisions."
+
+**Minor:**
+4. **"She judged" OpenAI's motive.** She only asked whether it was principled or opportunistic, after saying "we can't control any other companies."
+5. **"Perfected? Yes, yes."** The transcript continues "…has been in existence," so she may just have been finishing her sentence, not standing by "perfected."
+6. **"Professional warmth" line.** The draft states it as hers, then hedges that it's only "very probably hers." It's also about how Claude should feel, not how she treats people.
+7. **Her public restraint about OpenAI.** The draft reads it as temperament but never mentions the mutual non-disparagement agreement it reports earlier.
+8. **Factual error:** she came up with "I need an adult" herself ("that wasn't Claude, that one was me"). The draft says Claude suggested it.
+
+I didn't re-watch any video, so two speakers are still unconfirmed in the captions: the "professional warmth" line in Bloomberg's The Circuit, and the "keeping the bar high" / "clown wrangler" lines in Anthropic's co-founder video. I kept the review's risk flags on (sensitive allegations, contested typing, type changed since the last run), so the full six-reviewer panel still applies.

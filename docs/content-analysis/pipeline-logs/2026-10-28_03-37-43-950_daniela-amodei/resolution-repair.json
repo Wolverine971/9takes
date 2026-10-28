@@ -1,0 +1,393 @@
+{
+  "schema_version": 3,
+  "decisions": [
+    {
+      "finding_id": "subject-01",
+      "action": "fixed",
+      "reason": "The accusation paragraph now attributes the siblings' denial to the Journal (\"The brother and sister denied it.\", C135); the peer-review paragraph adds that Brockman \"at one point offered to withdraw\" his feedback (C137); the sentence is narrowed to \"As of October 2026, she has not publicly described these episodes.\" (C90). Verified in the cached WSJ syndicated text."
+    },
+    {
+      "finding_id": "subject-02",
+      "action": "fixed",
+      "reason": "Verified in the cached Huffington captions (08:24-09:08): the question was how to help people be self-reflective, prefaced by crediting her for speaking about learning from mistakes. The sentence is removed, C115 is deleted, and the \"keeps her irritations private\" paragraph rests only on the Grit answer (C58)."
+    },
+    {
+      "finding_id": "subject-03",
+      "action": "fixed",
+      "reason": "The ads paragraph now opens with her privacy reason in her words (C144) and says a Two reading can claim protecting users as care. The customers example is dropped from the article and the Type 2 FAQ (C29 removed). The type answer, type FAQ and Type 2 FAQ no longer use \"not by whom she protected\"; the absence is downgraded to non-discriminating (C106) and the collective-decision caveat stays. C49, C80, C120 updated; C113 removed. Repair stage: C120 is rewritten again (Type 2 FAQ); it still does not use \"not by whom she protected\"."
+    },
+    {
+      "finding_id": "subject-04",
+      "action": "fixed",
+      "reason": "The body now says she \"raised the other company's motive as a question and left it open,\" includes her opener \"we can't control any other companies\" (C107), and describes Dario as returning to an argument he had made shortly before (C108). The One/Six mapping is removed and the exchange is scoped as one dated register difference (C109)."
+    },
+    {
+      "finding_id": "subject-05",
+      "action": "fixed",
+      "reason": "The quote now runs through \"Yes, yes, has been in existence,\" she said, finishing her sentence (S34 30:10). The criteria include mission alignment, collaboration and integrity with \"whatever those are\" (C101). C53 and C101 inferences no longer say she reaffirmed \"perfected.\""
+    },
+    {
+      "finding_id": "subject-06",
+      "action": "fixed",
+      "reason": "The speaker of the Circuit \"professional warmth\" line could not be confirmed, so the line is removed from the article and from the case against Type 2; C39 is deleted."
+    },
+    {
+      "finding_id": "subject-07",
+      "action": "fixed",
+      "reason": "The mutual non-disparagement agreement is named as an alternative explanation where her restraint about Altman is read (Beside Dario) and in the \"quiet\" paragraph; the conduct-versus-character generalization is removed (C22, C44)."
+    },
+    {
+      "finding_id": "subject-08",
+      "action": "fixed",
+      "reason": "Verified in cached First Block captions (~39:30: \"I did come up with I need an adult, that wasn't Claude, that one was me\"). The article now says the title was her own, not Claude's; C31 and the S03 context are corrected."
+    },
+    {
+      "finding_id": "fan-01",
+      "action": "fixed",
+      "reason": "Same correction as subject-02: the Huffington sentence is removed after checking the question in the cached captions, C115 is deleted, and nothing in the irritations paragraph relies on that exchange."
+    },
+    {
+      "finding_id": "fan-02",
+      "action": "fixed",
+      "reason": "\"Rejects the need to be needed\" is removed. The Type 2 section quotes the lowlight with its expertise reason (\"there's always a person in the world who is a better focus leader than I am\") and her highlight (\"who are going to be the people to work on it, how do we get them organized\"), and states that she remains the hub, so this is not a rejection of being needed (C57, C153). The Type 2 FAQ now says she \"hands off interim roles to people who would lead them better\" (C120). Repair stage: The Type 2 FAQ now reads \"handing interim roles to people who would lead them better\" (C120); same condition, same source."
+    },
+    {
+      "finding_id": "fan-03",
+      "action": "fixed",
+      "reason": "The Six section quotes both halves of the Atlantic line (C27). The Oprah paragraph restores \"It was a stressful time at the company\" and \"I think it crossed our minds\" (C48); the latter runs straight into \"Dario and I\", so it is hers. The ambiguous first \"Yes. Yes.\" is still not quoted (research task). \"Acts decisively\" is removed and Six is now argued as not cleanly excluded, with a thin, stated lean (C156). Repair stage: The Six lean sentence is corrected for verify-04; the fear quotes are unchanged."
+    },
+    {
+      "finding_id": "fan-04",
+      "action": "fixed",
+      "reason": "Added The Atlantic's report that Dario has called Altman and OpenAI \"evil\" in internal messages (C148); described Dario's 34:56 answer as returning to his earlier argument; labeled the contrast a public-register difference in one dated exchange. The Dario FAQ now names the interview date, adds that reporting says he is the blunter critic in private (C162), and states the typings as site reads (C163)."
+    },
+    {
+      "finding_id": "fan-05",
+      "action": "fixed",
+      "reason": "Added the student-era donations and GiveWell origin (C131), the 2025 Wired EA quote with Wired's note on Karnofsky and EA-affiliated funding (C33), and the co-founders' 80% pledge as a pledge with fulfillment unverified (C37; S22 reopened 2026-10-28). The article says the distancing could be principled or reputational and that the record cannot settle it. The \"virtue-signalers\" characterization is reported in the costly-choices section (C147). Repair stage: The Wired quote now includes her stated reason, \"My impression is that it's a bit of an outdated term.\" before the open question (verify-03, C33)."
+    },
+    {
+      "finding_id": "fan-06",
+      "action": "fixed",
+      "reason": "Added that Brockman \"was my boss at Stripe for a while\" and that she pitched Dario to him (C132), changed \"the strongest\" to \"some of the strongest Type 2 evidence,\" re-weighed the language-project Two reading as \"a sister backing the brother she had recommended\" (C92), and added the three-era career pattern to the Type 2 case (C152)."
+    },
+    {
+      "finding_id": "fan-07",
+      "action": "fixed",
+      "reason": "\"At personal cost\" is now \"at an offered cost,\" followed by \"Altman asked her to stay and said he would find another way.\" (C134). Episodes now run in the Journal's order: language project, the accusation \"a few months later,\" then the March 2020 peer reviews. The withdrawal offer is added (C137)."
+    },
+    {
+      "finding_id": "fan-08",
+      "action": "fixed",
+      "reason": "The conduct-versus-character generalization is removed, and the non-disparagement agreement is named as an alternative explanation for her public restraint."
+    },
+    {
+      "finding_id": "fan-09",
+      "action": "fixed",
+      "reason": "One attributed, non-causal sentence now distinguishes the Italian-born father (a leather craftsman from near Elba) from the Chicago-born mother (a project manager for libraries) and states the father's death factually, with no inference (C02). The optional 07:17 household-values quote was not added, to hold length."
+    },
+    {
+      "finding_id": "critic-01",
+      "action": "fixed",
+      "reason": "The type answer, type FAQ, Type 2 FAQ and \"Why not Type 2?\" again state one consistent position, worded so it survives her user-protection rationale and now also her care framing of candor: Type 1 leads narrowly on the form her values take (procedures that include her, accountability, best-person fit), and the record does not yet separate One from Two (C80, C119, C120, C114, C167). The ads paragraph still quotes the privacy reason (C144) and concedes it is Two-claimable. Repair stage: the edit-stage discriminator (\"where warmth and a standard compete, she tends to choose the standard\") is withdrawn because its central datum, C140, is Two-claimable in full context (verify-01). Rather than argue why that framing points to One, the article now says it does not, per enneagram-01's fallback."
+    },
+    {
+      "finding_id": "critic-02",
+      "action": "fixed",
+      "reason": "\"What separates her is what she leaves out\" is removed. The absence is now stated as non-discriminating because Dario shares it (\"Nor does it help that she never cites loyalty to Dario or her team: neither does Dario.\", C106), and the type_hypothesis discriminator no longer relies on it."
+    },
+    {
+      "finding_id": "critic-03",
+      "action": "fixed",
+      "reason": "The action-versus-description split is replaced: \"Both cases rest mostly on her own words, so the split is not description versus behavior.\" The Rules section opens by saying these are her own accounts on recruiting and promotional stages. Confidence stays medium with both 2 and 6 named as live, and a research task seeks named colleague testimony. Repair stage: The comparison now names the One material as \"the form her values take: compulsory, tracked feedback, reviews that include her, flattery as the flaw to train out, a sibling bond described as mutual accountability\", i.e. her accounts of systems she built, and adds \"Even there, the motive she gives is often care.\" Confidence language in the body, type FAQ and Type 2 FAQ is lowered to match (C114, C167, C80, C120)."
+    },
+    {
+      "finding_id": "critic-04",
+      "action": "fixed",
+      "reason": "Same repair as fan-02 for the Grit lowlight, and the \"professional warmth\" line is removed from the anti-Two argument (subject-06). The FAQ paraphrase now matches the source. Repair stage: Unchanged by the repair except the Type 2 FAQ wording noted under fan-02."
+    },
+    {
+      "finding_id": "critic-05",
+      "action": "fixed",
+      "reason": "The Six section quotes the loss fear and the self-doubt accurately; \"acts decisively\" is cut; the \"no surprises\" line no longer appears. The section says the record does not cleanly exclude Six and gives the one sourced lean (checks aimed at error, C156) as thin. The type answer and FAQ name Six as a live rival. Repair stage: The Six lean now describes the stray-from-the-path check as she does on Oprah: a \"group accountability\" of Dario, the other co-founders and staff who may disagree, even anonymously (verify-04, C156). It is still called thin, and Six stays live in the type answer."
+    },
+    {
+      "finding_id": "critic-06",
+      "action": "fixed",
+      "reason": "The \"A Six asks / A One asks\" mapping, the \"good faith\" pairing and the ambitious/successful linkage are removed (CPO quote removed, C111 deleted; C72 now records only the site typing). The discriminator no longer cites C45."
+    },
+    {
+      "finding_id": "critic-07",
+      "action": "fixed",
+      "reason": "\"That is what a One's anger tends to look like\" is removed. The passage now reads that she put the facts in the room \"though not calmly\" and adds that Dario did the same months earlier (C136). The Nine dismissal leads with first-person evidence and no longer uses the OpenAI episodes."
+    },
+    {
+      "finding_id": "critic-08",
+      "action": "fixed",
+      "reason": "A skeptical-reading paragraph now names the brand/strategy explanation, quotes Dario calling Congress taking up the red lines \"success,\" and reports the unnamed OpenAI characterization \"power-hungry virtue-signalers, not principled humanitarians\" alongside \"inflexible triumvirate\" (C147). The customers example is dropped. The Pentagon cost is documented (C145)."
+    },
+    {
+      "finding_id": "critic-09",
+      "action": "fixed",
+      "reason": "Same repair as subject-05: the exchange is quoted through \"has been in existence,\" and C53/C101 inferences are softened."
+    },
+    {
+      "finding_id": "critic-10",
+      "action": "fixed",
+      "reason": "The GPT-2 correction is no longer used, and the premise-correcting-habit paragraph is removed (C110 and C47 deleted)."
+    },
+    {
+      "finding_id": "critic-11",
+      "action": "fixed",
+      "reason": "The opening gives both reputations from the Atlantic (the \"high-EQ counterpart\" and \"an inflexible triumvirate\"). Repair stage: the reveal now reads \"her record is less decisive about which one she reaches for than either reputation suggests\" (C79), which still does not depend on a one-sided reputation and no longer promises a verdict the type sections withdraw."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "action": "fixed",
+      "reason": "Added, before the exit negotiations: \"In December 2020, Dario told OpenAI's staff that he and six other leaders, Daniela among them, were leaving to start what became Anthropic, The Atlantic reports.\" (C138; S01 confirms the seven), followed by her \"running towards something\" line (C139). The closing now says \"the seven.\""
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "action": "fixed",
+      "reason": "The generic \"few plain steps ... usual cost is rigidity\" paragraph is removed; the mechanism is one sentence tied to her own fairness account. A new paragraph answers \"So what has the pattern cost her?\" in one sentence, with its unnamed-source limits (C155)."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "action": "fixed",
+      "reason": "The Pentagon thread now says what followed, dated and sourced: the presidential directive and the supply-chain designation (S-1), Altman announcing a military deal (New Yorker), a district-court win on August 27, 2026, a split appeals loss on September 25, and a pending rehearing petition (C145, unresolved, with trigger). The heading is now \"When the stand has a price,\" and the ads passage is framed around revenue at risk."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "action": "fixed",
+      "reason": "Brockman is identified as \"an OpenAI co-founder\" (and \"one of its earliest employees\" at Stripe), Altman as \"OpenAI's chief executive,\" and Murati as \"then a vice president,\" each in one clause."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "action": "fixed",
+      "reason": "The quote keeps its addressee and framing: of scientists who had dismissed GPT-2, Dario said what he and his colleagues think now, \"though never aloud,\" is \"You have no credibility on this matter\" (C46). The concession now calls it the harshest verdict in the interview, not a spoken line."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "action": "fixed",
+      "reason": "The passage now includes Dario's honesty setup, says she \"answered about her own side,\" and adds \"Invited to call Altman dishonest, she declined\" (C44). The conduct-versus-character generalization is removed."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "action": "fixed",
+      "reason": "The chief people officer quote is removed: Dario's Cheeky Pint line and TechCrunch already carry the division of labor, and the quote did not bear on the One/Six contrast, which is also gone. The \"I\" ambiguity no longer exists (C111 deleted)."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "action": "rejected",
+      "reason": "Partly fixed, so recorded as rejected on the length criterion. The discriminator question is argued once (Why not Type 2?), the absence argument appears once and is downgraded, and the Type 2 recap is a single clause. But the body is 4,183 words by checkDraft after the repair (4,039 at edit), not about 3,500. The repair restored the full Grit sentence, the clown exchange and her stated EA reason, and added the plain \"does not yet separate\" paragraph; verify-01 to -04 required that context. The body stays under the 4,500 release limit, and no source link, date or stated limit was removed to cut length."
+    },
+    {
+      "finding_id": "unfamiliar-09",
+      "action": "fixed",
+      "reason": "The parents are now distinguished as Wired does (Italian father from near Elba; Chicago-born mother who managed library projects), and the father's death is stated factually with no causal inference. C02 is updated."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "action": "fixed",
+      "reason": "Re-adjudicated after verify-01, via this finding's own fallback (\"If no positive discriminator survives, the type answer and FAQ say the record does not yet separate 1 from 2\"). The edit-stage discriminator is withdrawn. Its lead datum (C140), quoted whole from Grit 92:57-93:29, frames candor as feedback \"coming from a place of wanting the best for the other person\", which a Two could say; C64 and C103 are also Two-compatible in a president's mouth. No other observation in the record is one a Two-motivated executive would be unlikely to produce, and adding a new discriminator after the jury would repeat the pattern verify-01 flagged. So: the type answer and type FAQ say \"her record does not yet separate One from Type 2, and Type 6 stays live\" (C80, C119); the Type 2 FAQ opens \"She may be.\" and ends \"Her public record does not yet separate the two.\" (C120); \"Why not Type 2?\" now says plainly \"So the record does not yet separate One from Two\" and names the lean as recurring form plus the bar credit, conceding that \"A Two in her job who has learned that candor helps could produce the same record\" (C114, C167). The absence argument stays labeled non-discriminating (C106). Confidence: reader-facing certainty is lowered (\"most likely\" becomes \"Our leading read\", \"leads only narrowly\", \"She may be\"). The evidence field stays medium because the contract (validateEvidence) does not allow low confidence for a ready standard record; the honest next step below medium is insufficient_evidence, a research hold for named colleague testimony. The type_hypothesis discriminator field records this explicitly."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "action": "fixed",
+      "reason": "Same as fan-02: the body gives the \"not the expert\" framing and her highlight, drops \"rejects the need to be needed,\" and the Type 2 FAQ keeps the interim-role condition. Repair stage: Same Type 2 FAQ wording as fan-02."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "action": "fixed",
+      "reason": "The passage now says she raised empathy herself (\"the ability to work well with others, that is something that we look for more than ever\", C100), and the interview criteria are given accurately as mission alignment, collaboration and integrity (C101)."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "action": "fixed",
+      "reason": "The Six/One lines and the \"successful\" quote are removed. The comparison uses their back-to-back answers to the same Pentagon prompt (34:17, 34:56), framed as a register difference in one interview, and ends: \"Whether their registers reflect different types or different jobs, one interview can't say.\" The FAQ describes roles and that exchange and labels the typings as 9takes reads."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "action": "fixed",
+      "reason": "The Six paragraph quotes both fears accurately, \"acts decisively\" is removed, and the type answer, FAQ and evidence record hold the read against both 2 and 6. The Six section says the record does not exclude Six; its one sourced lean is called thin (C156). Repair stage: Same Six-paragraph correction as critic-05 (verify-04). The type answer now reads \"But her record does not yet separate One from Type 2, and Type 6 stays live.\""
+    },
+    {
+      "finding_id": "enneagram-06",
+      "action": "fixed",
+      "reason": "Why not Type 2? now states the three-era pattern with sources: development work (S02), OpenAI two years after Dario joined (S13, mid-2016) and after she recommended him (S38), and Anthropic (C152, C133, C132). It is answered with shared values (student giving C131, her impact reason for leaving Stripe C07), not by the single first-career quote."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "action": "fixed",
+      "reason": "The three-step mechanism is cut to one step tied to her pre-Anthropic fairness account, and \"the usual cost is rigidity\" is gone. The Rules section is softened to \"carry more of the read, though they are her own accounts.\" The GSB quote is extended and its \"interest and impact driven\" opener added (C11, C130), with the help-language version beside it (C129). The reference-check rationale appears in her words (C59). The candor-over-comfort ranking (C140) supplies a first-person datum beyond the president role. Repair stage: C140 no longer counts as a One datum; quoted whole, it frames candor as care (verify-01). The mechanism paragraph itself is unchanged and stays tied to the GSB fairness account (C11, C81), with the help-language version beside it (C129)."
+    },
+    {
+      "finding_id": "enneagram-08",
+      "action": "fixed",
+      "reason": "The Nine paragraph now leads with first-person evidence (her candor preference and the AI-companion verdict, C164, C66) and does not use the OpenAI episodes. One sentence addresses Type 3 with a sourced reason other than the front-runner reframe: she volunteers limits (\"I'm not the expert in anything,\" C157) and mistakes. Repair stage: The Nine dismissal's gloss \"honest feedback over smooth silence\" inherited the C140 trim; it now reads \"her insistence that colleagues give each other feedback rather than none\" (C164)."
+    },
+    {
+      "finding_id": "future-01",
+      "action": "fixed",
+      "reason": "C49, C102, C103 and C120 are now time_sensitive with the requested trigger. The customers example (C29) is dropped, and the Type 2 FAQ no longer states revenue refusal as an undated habit. Research_tasks names post-IPO filings and earnings calls. Repair stage: After the repair the Type 2 FAQ no longer mentions sycophancy, ads or revenue, so C120 is now \"unresolved\" with a trigger on colleague testimony, board-review disclosures (C51) and type changes. C49, C102 and C103 keep the requested ads/Pentagon/revenue trigger, and the new C165 (\"was never a question\") carries it too."
+    },
+    {
+      "finding_id": "future-02",
+      "action": "fixed",
+      "reason": "The section (renamed \"Beside Dario\") and the FAQ are scoped to one dated exchange (\"In an October 2026 interview with Walter Isaacson\"), with no implied recurring pattern. The discriminator does not rely on C45."
+    },
+    {
+      "finding_id": "future-03",
+      "action": "fixed",
+      "reason": "C126 is time_sensitive and the FAQ says \"As of 2026.\" New time_sensitive claims cover \"Her brother Dario is the chief executive.\" (C158), the Who-is FAQ president and CEO lines (C159, C160) and the occupation field (C161), each with the IPO/title trigger. persona_title is now trait-based (\"The High-Bar People Leader\")."
+    },
+    {
+      "finding_id": "future-04",
+      "action": "fixed",
+      "reason": "The sentence now reads \"As of October 2026, she has not publicly described these episodes.\" The \"still despise\" sentence says The Atlantic \"reported in September 2026.\" C90's trigger is kept."
+    },
+    {
+      "finding_id": "future-05",
+      "action": "fixed",
+      "reason": "The passage is scoped to 2024 (\"at least as she described it in 2024\") and adds that the S-1 lists her as chair and that how the board reviews its own chair is not public. C51 is time_sensitive with the governance-disclosure trigger."
+    },
+    {
+      "finding_id": "future-06",
+      "action": "fixed",
+      "reason": "S34 now uses the episode-specific Acast URL (opened 2026-10-28; published February 19, 2026), and the in-text link matches. The WSJ link text now names the syndication (\"syndicated by To Vima\"); the canonical wsj.com page was not opened, which is logged as a research task."
+    },
+    {
+      "finding_id": "future-07",
+      "action": "fixed",
+      "reason": "C72 is time_sensitive with the trigger \"If 9takes' Dario Amodei profile changes its enneagram type or is refreshed under a new type thesis.\" A new claim (C163) covers the FAQ typing sentence."
+    },
+    {
+      "finding_id": "verify-01",
+      "action": "fixed",
+      "reason": "Reopened the cached Grit captions (92:57-93:29). The quote now runs whole: \"in general I would prefer to be in an organization where people are trying to be honest with each other and trying to give feedback and coming from a place of wanting the best for the other person and maybe they get it a little bit wrong than a place where people are not communicating feedback to others.\" The intro \"She also said which side wins when candor and comfort collide\" became \"She also said what the feedback is for.\" The gloss \"Honest and a little wrong beats smooth and silent\" is replaced by \"Her comparison is caring feedback against none at all, not honesty against kindness, and \"wanting the best for the other person\" is a motive a Two could claim as easily as a One.\" (C140, C141). The Type 2 FAQ quotes the motive (\"frames candid feedback as coming from \"wanting the best for the other person\"\", C168). The type answer, type FAQ and \"Why not Type 2?\" take the acceptance test's second branch: they say plainly that the record does not yet separate 1 from 2 (C80, C119, C120, C114, C167), and reader-facing confidence is lowered (see enneagram-01 for why the evidence field stays medium). The Nine gloss that inherited the trim is fixed (C164). C140, C141, C114 and C120 are updated, enneagram-01 is re-adjudicated, and C140/C141 are removed from for_claim_ids and cited in against/alternative_case."
+    },
+    {
+      "finding_id": "verify-02",
+      "action": "fixed",
+      "reason": "Reopened om2_turns.txt (00:34:29-00:34:41). \"The next lines\" is gone. The passage now reads: after a joke about \"keeping out the clowns,\" someone says, \"No, but you're the reason the culture scaled, I think,\" \"though the captions don't show to whom.\" The closing line is now \"The bar and the niceness arrive within seconds of each other,\" with no implication that the niceness is credited to her. C55's claim and inference say the addressee is unconfirmed, and the S38 research task now covers both the speaker and the addressee."
+    },
+    {
+      "finding_id": "verify-03",
+      "action": "fixed",
+      "reason": "Rechecked the cached Wired text. The quote now continues with her own reason: \"I don't identify with that terminology. My impression is that it's a bit of an outdated term.\" It comes before \"Principled objection to a label, or reputation management?\" C33 is updated."
+    },
+    {
+      "finding_id": "verify-04",
+      "action": "fixed",
+      "reason": "Reopened the Oprah captions (59:02-60:01). The clause now reads: \"and a \"group accountability\" of Dario, the other co-founders and staff who may disagree with them, even anonymously, so that \"if we start to stray from the path we're at least going to know.\"\" The quote is extended to her full clause. C156 is updated, and its alternative notes that anonymous dissent channels are Six-compatible. The Six lean is still called thin."
+    },
+    {
+      "finding_id": "verify-05",
+      "action": "fixed",
+      "reason": "Added C165 (passage: For the co-founders it \"was never a question,\" / S30, 35:08-35:42, \"And so for the co-founders, it was never a question.\") and C166 (passage: Her plan to give each weekday its own focus has \"probably like 70% hit rate.\" / S03, ~10:47, \"In reality, it's probably like 70% hit rate\"). Both were rechecked against the cached captions, and both are added to the S30/S03 excerpts and locators."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Read as a One, that is a standard held against a friend at personal cost. Read as a Two, it is a sister backing her brother, and the Journal's sequence, with Dario's objection first and Radford also unwilling, makes that reading at least as plausible.",
+      "action": "changed",
+      "reason": "Now: \"Read as a One, that is a standard held against a friend at an offered cost. Read as a Two, it is a sister backing the brother she had recommended, and the Journal's sequence ... makes that reading at least as plausible.\" \"Personal cost\" overstated a cost the WSJ says Altman declined (fan-07), and the Two reading is strengthened by her having recommended Dario (S38, fan-06). The equal-weight rival reading and the check against the Journal's sequence are retained verbatim."
+    },
+    {
+      "passage": "These episodes line up with the Type 1 read. They can't carry it.",
+      "action": "kept",
+      "reason": "Kept verbatim; it is accurate against the sources and does its job unchanged."
+    },
+    {
+      "passage": "Two caveats. These were collective decisions, and \"the right thing\" is house vocabulary at Anthropic.",
+      "action": "kept",
+      "reason": "Kept verbatim; it is accurate against the sources and does its job unchanged."
+    },
+    {
+      "passage": "She is careful about people, though. When Isaacson asked about Altman directly (\"And you felt that about Sam?\"), she said, \"I think the co-founders are an unusually high integrity group of people.\"",
+      "action": "changed",
+      "reason": "Now: \"She was careful about Altman. Dario had just said it is 'hard to know what someone's values are if they don't have the value of honesty.' Isaacson asked her, 'And you felt that about Sam?' She answered about her own side: 'I think the co-founders are an unusually high integrity group of people.' Invited to call Altman dishonest, she declined...\" It keeps the verified refusal to impugn a named rival and adds the setup a newcomer needs (unfamiliar-06) and the non-disparagement alternative (subject-07)."
+    },
+    {
+      "passage": "She is charitable about other people's errors. Describing a serious infection that three sets of doctors misdiagnosed, she said: \"this is not because any of those are bad doctors, right? They're really busy.\"",
+      "action": "kept",
+      "reason": "Kept verbatim; it is accurate against the sources and does its job unchanged."
+    },
+    {
+      "passage": "At OpenAI, Daniela Amodei had an advisory council made of stuffed animals.",
+      "action": "kept",
+      "reason": "Kept verbatim; it is accurate against the sources and does its job unchanged."
+    },
+    {
+      "passage": "When Dario guessed he had followed \"three years later or something,\" she corrected him on the spot: \"Oh, not even. ... You got on board real quick.\"",
+      "action": "kept",
+      "reason": "Kept verbatim; it is accurate against the sources and does its job unchanged."
+    },
+    {
+      "passage": "\"Perfected?\" the host asked. \"Yes, yes,\" she said, and went on.",
+      "action": "changed",
+      "reason": "Now: \"'Perfected?' the host cut in. 'Yes, yes, has been in existence,' she said, finishing her sentence.\" The observed beat stays. The cut that implied she reaffirmed \"perfected\" is removed, because the Whisper transcript (S34 30:10) shows \"Yes, yes\" running into the end of her interrupted sentence (subject-05, critic-09)."
+    },
+    {
+      "passage": "The spreadsheet recorded only that each conversation happened, not what was said.",
+      "action": "kept",
+      "reason": "Kept verbatim; it is accurate against the sources and does its job unchanged. Repair stage: unchanged."
+    },
+    {
+      "passage": "\"You already know what the right answer is.\"",
+      "action": "kept",
+      "reason": "Kept verbatim; it is accurate against the sources and does its job unchanged."
+    },
+    {
+      "passage": "She left the institution most devoted to procedure because the procedure got in the way of the work.",
+      "action": "kept",
+      "reason": "Kept verbatim; it is accurate against the sources and does its job unchanged."
+    },
+    {
+      "passage": "The compulsory appreciation would suit a Two. What reads as One is the form: a value turned into a universal procedure, with compliance checked.",
+      "action": "kept",
+      "reason": "Kept verbatim; it is accurate against the sources and does its job unchanged. Repair stage: unchanged. The paragraph after it now quotes her feedback preference whole (verify-01)."
+    },
+    {
+      "passage": "A One reading has to treat that quiet as control or privacy, not as proof. The only anger on record is reported by others.",
+      "action": "kept",
+      "reason": "Kept verbatim; it is accurate against the sources and does its job unchanged."
+    },
+    {
+      "passage": "In fairness, the sharpest line in that exchange came from Dario: \"You have no credibility on this matter.\"",
+      "action": "changed",
+      "reason": "Now: \"In fairness, the harshest verdict in that interview was Dario's: of scientists who had dismissed GPT-2, he said what he and his colleagues think now, though never aloud, is 'You have no credibility on this matter.'\" The volunteered counterexample to the sibling contrast is retained; the context is corrected because the line is an unspoken verdict he described, not a line spoken to anyone (unfamiliar-05). It is now reinforced by the Atlantic's report of his private messages."
+    },
+    {
+      "passage": "For a supposed rule-lover, that's worth noticing. She left the institution most devoted to procedure because the procedure got in the way of the work.",
+      "action": "kept",
+      "reason": "Kept verbatim; it is accurate against the sources and does its job unchanged."
+    },
+    {
+      "passage": "A Two and a One could both say that sentence. The Two hears \"help.\" The One hears \"a mess\" and \"functional.\"",
+      "action": "kept",
+      "reason": "Kept verbatim; it is accurate against the sources and does its job unchanged."
+    },
+    {
+      "passage": "She named it the best advice she has ever received.",
+      "action": "kept",
+      "reason": "Kept verbatim; it is accurate against the sources and does its job unchanged."
+    },
+    {
+      "passage": "A good deal of what looks like Type 1 is also a president's job description, since building review systems and hiring rubrics is what operators do.",
+      "action": "kept",
+      "reason": "Kept verbatim; it is accurate against the sources and does its job unchanged."
+    },
+    {
+      "passage": "The Two material sits mostly in how she describes herself and in a job that rewards people skills. The One material sits in what she does when something is at stake.",
+      "action": "changed",
+      "reason": "Edit stage replaced the old split, because the One evidence is also mostly self-report (critic-03). Repair stage: the passage's durable contribution is kept: a comparison of what each case rests on, plus the evidence a future refresh should seek (\"Named colleagues describing what she does when someone cuts a corner would settle more than another interview.\"). The edit-stage version's claim about how she \"settles conflicts between warmth and a standard\" rested on the trimmed Grit quote (verify-01). It now reads \"The One material is the form her values take: ...\" and \"So the record does not yet separate One from Two.\""
+    },
+    {
+      "passage": "Anthropic's October 2026 S-1 filing lists her age as 39 as of September 30, 2026. No source checked for this page gives a full birth date.",
+      "action": "kept",
+      "reason": "Kept verbatim; it is accurate against the sources and does its job unchanged."
+    }
+  ],
+  "prior_blockers": []
+}

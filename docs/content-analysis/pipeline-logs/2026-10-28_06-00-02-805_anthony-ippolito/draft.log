@@ -1,0 +1,25 @@
+I finished the draft stage for Anthony Ippolito and wrote both output files to the run directory: `draft.md` and `evidence-draft.json`. Nothing was published and no other repo files changed. The draft passes `checkDraft` with no blockers, and `validateEvidence` passes on 77 claims and 31 sources.
+
+**What the page argues.** It opens on the tape he made in his grandmother's basement before anyone had started casting the film, and Farrelly's line about it: "I said, he found us." Then it asks the open question. Does he quiet fear by preparing until he's ready, or make sure the right people see him?
+- **Answer (57 words):** leading read is Type 6, a low-confidence call. Type 3 is the closest rival, and Types 9 and 1 are still in play.
+- **The case:** the same fear-then-preparation pattern shows up when he played Pacino in 2022 and Stallone in 2026. Against it, he sent the tape unasked, his own explanation turns on being "seen," and in 2020 he called pressure "excited energy."
+- **Required `## What would settle it` section:** four signals in plain language, with a review date of December 15, 2026.
+- **Metadata:** five FAQs. The titles and FAQs say "leading read" or "open case," never "is a Type 6." It links to the Odessa A'Zion, Miles Teller and Robert De Niro pages.
+
+**Corrections to the research record:**
+- **The 2020 tape:** research counted it as an unprompted bid like the Rocky tape. The New York Post says his agent suggested it for an audition already on the schedule. The Type 3 case now says so.
+- **When he made the Rocky tape:** no source gives a year, so the draft doesn't state one.
+- **Two lines left out:** a THR line ("you can't help but want those people to enjoy it") whose speaker video frames can't confirm. Also the IMDb clip line about not seeing himself as a lead, which is dialogue from *The Offer*, not him.
+- **Collider weight exchange:** the draft quotes only his answers ("Something like that, yeah") because whoever asked "Like 40?" was never checked against the video.
+
+**Checks:**
+- **Quotes:** all 63 quoted passages match the saved source texts or transcripts. Where I dropped spoken filler words, that's noted in the source records, and the evidence file asks reviewers to re-listen to two clips.
+- **Similarity scan:** clear. It first tripped on "held loosely at low confidence," a phrase another open-case draft already uses, so I reworded it.
+- **Readability audit:** passes except one flag for the word "paramount," which is the network name Paramount+.
+- **Removed claims:** four research claims the draft doesn't use (C16, C21, C29, C36). All the sources are kept.
+
+**Your call:**
+- **Length:** the draft is 2,699 words by `checkDraft`'s count, which includes link text. That's above the open case's rough 1,200–2,500 target. I cut from about 3,170 and stopped there rather than drop the rival-type evidence.
+- **Eligibility:** some outlets call *Grand Army* (2020) his breakout. The article states that openly, and the verifier has to confirm he still qualifies as an open case.
+
+I also added a note to the open-case memory about the similarity-scan phrase and the misdescribed 2020 tape.

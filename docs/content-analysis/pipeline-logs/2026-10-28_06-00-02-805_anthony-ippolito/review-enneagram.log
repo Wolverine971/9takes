@@ -1,0 +1,21 @@
+I wrote the Enneagram review for the Anthony Ippolito open case to `review-enneagram.json` in the run folder. It passes the review schema. Its two hashes match the request and the other reviews; the runner computes them on a normalized version of the files, so they won't match a plain hash. I changed nothing else and published nothing.
+
+**Can it be an open case?** Yes. He's an adult, and *I Play Rocky* is his first lead and his first big public moment. I ran two web searches for long interviews or podcasts the research might have missed and found none. One search summary claimed he'd been on The Playlist's Bingeworthy podcast, but the results show The Playlist interviewed Stallone and Farrelly, not him.
+
+**Main problem:** the article says Type 6 is narrowly ahead of Type 3, and the reasons it gives don't hold up. Four major findings:
+1. **The "fear" quotes don't point to Six.** Each one is about being watched and judged, by Pacino, by Stallone, by fans. That fits a Three's concern with image as well as a Six's fear. The article even treats "seen" as Three evidence in one quote and "terrified of him seeing it" as Six evidence in another.
+2. **The "scared, then bold anyway" pattern isn't in the record.** Before the tape he called it "a long shot," "really fun," and said he was "really, really enthusiastic." Asked at The Hollywood Reporter whether he hesitated to take the role, the transcript has "No." just before "I was fighting for it." The fear talk came after he was cast. The record does back an unused line: he did "homework" before sending the tape, "similar to Pacino." That's the best real Six-type behavior available.
+3. **The article discounts press-tour talk on one side only.** It writes off the fear talk as newcomer humility, then counts his humility against Three. It also says he "doesn't sell himself where it would be easy" for not mentioning his Pacino role to Farrelly, but he already had the part by then.
+4. **A factual error.** The article says he changed his body "before anyone asked." In the Collider clip, Farrelly says "after we got it... we had him working out for a year." That mistake is the only argument the article makes against Type 9, and the Type 3 FAQ leans on it too.
+
+Four minor findings: his comments about Stallone being a "lone wolf" are quoted selectively; the key "if I was seen" quote is cut before "even if it didn't go my way"; Type 4 is never considered; and two of the "what would settle it" signals hinge on career choices any actor would make.
+
+**Decision for you:** the editor will either find real Six-specific evidence or call 6 and 3 a near-tie with a stated tiebreaker. If the edit makes Three the leading read, that changes the article's type argument. Under the standard, that means a hold and a rerun with `--refresh --expanded-review`, which delays release.
+
+Sources:
+- [blue News](https://www.bluewin.ch/en/people/stallone-s-co-star-i-ve-been-beaten-up-a-bit-li.3620629)
+- [TheWrap](https://www.thewrap.com/creative-content/movies/anthony-ippolito-i-play-rocky-how-he-was-cast-interview/)
+- [Variety AU](https://au.variety.com/2026/film/news/i-play-rocky-anthony-ippolito-sylvester-stallone-dog-41877/)
+- [Screen Daily (Rome)](https://www.screendaily.com/news/i-play-rocky-star-anthony-ippolito-on-the-weight-of-responsibility-playing-a-young-sylvester-stallone/5221614.article)
+- [Netflix Junkie](https://www.netflixjunkie.com/hollywood-news-anthony-ippolito-opens-up-about-the-pressure-and-the-punch-behind-his-i-play-rocky-transformation/amp/)
+- [The Playlist (Bingeworthy launch)](https://theplaylist.net/?p=347367)

@@ -8,12 +8,12 @@ description: >-
   Ella Beatty was 'over the moon and also really scared' to land Lizzie Borden.
   Leading read: Enneagram Type 6, held loosely, with Type 9 the main rival.
 author: DJ Wayne
-date: '2026-10-18'
+date: '2026-10-28'
 loc: 'https://9takes.com/personality-analysis/ella-beatty'
-lastmod: '2026-10-18'
+lastmod: '2026-10-28'
 changefreq: monthly
 priority: '0.6'
-published: false
+published: true
 enneagram: '6'
 type:
   - newMovieStar

@@ -1,0 +1,16 @@
+The Enneagram review is written to `docs/content-analysis/pipeline-logs/2026-10-28_03-37-43-950_daniela-amodei/review-enneagram.json`. It passes `reviewSchema`, and every quoted passage matches the draft word for word. I changed no other files and published nothing.
+
+**Verdict:** Type 1 is a defensible leading read over Type 2. The draft is honest about the evidence against it, and it rightly doesn't add a wing or arrow to explain contradictions away. But the case for Type 1 is weaker than the draft makes it sound. There are eight findings, seven of them major:
+
+1. **The main reason it isn't Type 2 is an absence.** The draft notes she never says she was protecting anyone, but these are company-policy statements in public settings, where nobody would say that. The same absence holds for Dario, whom the site types 6, so it can't be what sets her apart.
+2. **A Grit quote is misread.** "Getting myself out of that job" is about functions where she isn't the expert. In the same answer, what she says lights her up is being the person who finds and organizes people. That doesn't show she "rejects the need to be needed," and the FAQ stretches the quote further.
+3. **A Sixth Street answer is quoted selectively.** She raised empathy herself as the key trait, and the hiring interview screens for collaboration as well as integrity. The draft quotes only the integrity part.
+4. **The Six-vs-One sibling contrast doesn't hold.** Isaacson's question to Dario was about trust, so the trust language was his prompt, not Dario's. In the same answer Dario said "it comes down to the principles." Her "principled or opportunistic?" line, a question about someone's hidden motive, fits a Six at least as well.
+5. **The Type 6 rival is dismissed too quickly.** The quote "we can lose it at any time" is about losing the business and is followed by self-doubt, which contradicts the draft's "her fear is aimed at being wrong." "Acts decisively" has no source.
+6. **The strongest Type 2 evidence is cut down to one example.** Her career followed Dario in all three eras: international development, then OpenAI two years after him, then Anthropic with him.
+7. **The section the draft says "does carry the read" is mostly job description.** It relies on review systems and hiring practices, which the draft itself earlier says are what any company president does.
+8. **(Minor)** The draft rules out Type 9 using disputed reported scenes it said "can't carry" the case, and never mentions Type 3.
+
+I spot-checked these against the cached transcripts in `~/.cache/9takes-research/daniela-amodei/`: Isaacson, Grit, Sixth Street audio, the Atlantic and WSJ text, and Stanford GSB. If the editor can't build a positive way to tell Type 1 from 2 and 6, the honest outcome is to lower the confidence or hold the piece. There's usable Type 1 evidence the draft underplays, such as her "Perfected? Yes, yes" exchange and hiring for people who "stand up for their values."
+
+All four risk flags match the evidence record. The similarity check found no meaningful reuse from other profiles.

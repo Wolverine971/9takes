@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "critic",
+  "content_sha256": "bf518be272b278fe261b8ecc266b4b6eea37b9ecb6da93b0acdff8f00a6b06cd",
+  "evidence_sha256": "928a93dce175e0b1191be453ea708fd04d4e3742788c43927c3108c326bd678d",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "critic-01",
+      "severity": "major",
+      "passage": "He names the fear (\"terrifying,\" \"intimidation,\" \"daunting,\" \"I don't know how to do this\"). He answers it with study and deference to the source. Then he takes the bold step anyway, which is how a Six who moves toward what scares him tends to look.",
+      "problem": "The dated record doesn't show this three-beat sequence. The bold step the Six case needs is the unsolicited Rocky tape, and his only words about making it are enthusiasm: \"a creative exercise, and it was actually really fun\" and \"I was really, really enthusiastic about it\" (TheWrap, S01). Every dated fear word comes after casting: \"intimidation at the beginning\" of the role (Rome, S03), \"daunting\" voice and posture work (IMDb, S16; AP, S18), and the Stallone call \"about a month before shooting\" (S15). In the Pacino role there was no self-started bold step at all, because he replaced an actor who withdrew (Papsidera, S07). The actual order is bold step, then casting, then fear, then research. Calling the boldness counterphobic Six turns the rival's best evidence into evidence for the leading read without support. The standard warns against exactly that kind of move.",
+      "acceptance_test": "The Six section drops \"Then he takes the bold step anyway...\" or rewrites it to match the dated order: the tape is described as fun and enthusiastic, the fear words follow casting, and nothing he started himself appears in the Pacino casting. Any counterphobic reading is labeled as an interpretation the record does not yet show. The \"repeats across two roles and four years\" claim is limited to what both roles actually show: a difficulty named, then research. Claim C37's inference is updated to match."
+    },
+    {
+      "id": "critic-02",
+      "severity": "major",
+      "passage": "Against it, he doesn't sell himself where it would be easy. He didn't tell his director about his best-known credit until asked. At the premiere he cast his break as other people's bet, thanking those \"willing to take a chance on me.\"",
+      "problem": "The draft discounts the Six evidence because \"press tours reward a newcomer's humility,\" but builds its case against Three from that same humility script. The evidence is a premiere thank-you, red-carpet talk of \"weight and fear, not winning\" (a Three on a press tour would also avoid talking about winning), and a Farrelly anecdote the draft itself says happened when Ippolito \"already had the job,\" so he had nothing left to sell. The 2022 half of \"two roles four years apart\" comes from a premiere where THR headlined the whole cast's \"Absolutely Terrifying\" task (S14), so the fear register was shared, not his alone. Apply the discount evenly and nothing left in the record explains why 6 is listed ahead of 3. The Type 3 FAQ's \"narrowly ahead\" reasons are these same two discounted items.",
+      "acceptance_test": "The Three \"Against it\" paragraph and the Type 3 FAQ apply the press-tour discount to the humility evidence. They say the Pacino-credit anecdote came after hiring and that the thank-you is the expected premiere script. The Six case says the 2022 premiere coverage gives the terror register to the whole Offer cast. After that, the 60-word answer, both type FAQs and the \"Six leads because\" line do one of two things: name an ordering reason that survives the discount, or state plainly that 6 and 3 are close to even and give the specific reason 6 is listed first."
+    },
+    {
+      "id": "critic-03",
+      "severity": "major",
+      "passage": "The other thing he did before anyone asked was change his body.",
+      "problem": "His director contradicts this. On Collider (S20, about 00:18-00:31) Farrelly says: \"after we got it, the one thing he wasn't was he wasn't buff like Stallone. And so, luckily, he got to us beforehand. So, we we had him working out for a year and learning how to box.\" The training came after the tape reached the filmmakers, and the production directed it. At CinemaCon (S17) Ippolito described it as a role requirement: \"first I had to try to put on some weight.\" The same overstatement carries into the Nine paragraph: \"the self-started, two-year pursuit of a lead nobody had offered him.\" His \"year and a half to two years\" (S21) covers the training the production directed. Only the tape or tapes were unsolicited. The sentence is also missing from the claim inventory, and claim C14's own alternative notes that the studio required the physique.",
+      "acceptance_test": "The Gleason's Gym section says the training began after the tape reached Farrelly, at the production's direction, attributed to Farrelly on Collider (September 2026). The Nine-strain sentence limits \"self-started\" and \"nobody had offered him\" to the tape. Neither the Three case nor the Nine case treats the transformation as unprompted. The revised sentences are mapped to S20 in the claim inventory."
+    },
+    {
+      "id": "critic-04",
+      "severity": "major",
+      "passage": "In 2020, playing baseball for Baruch College, he broke his hand in a game, and his _Grand Army_ audition fell the day after a procedure on it.",
+      "problem": "2020 is the year of the interview, not of the injury. Baruch Athletics (S28) says he \"played for the Bearcats in 2019.\" HollywoodLife (S12) says he broke his hand playing for Baruch, was \"out for the season after that,\" and booked Grand Army \"like a week after that.\" Grand Army's principal photography ran May-September 2019 (Grand Army Wikipedia article and filming-location coverage), and the show premiered in October 2020. So the injury, the taped audition and the booking happened in 2019. The wrong year appears three times: here, in \"In 2020 someone else proposed the tape,\" and in the Three case's \"in 2020 he taped an audition with a broken hand kept out of frame.\" It also runs through claims C06, C38 and C55.",
+      "acceptance_test": "All three passages give 2019 for the injury and audition (or a phrase such as \"in spring 2019, during his one Baruch season\"), citing S28 and S12. \"He told the New York Post\" keeps 2020 as the interview date. The 2019-vs-Rocky-tape contrast is restated with the corrected year. Claims C06, C38, C54 and C55 are updated to match."
+    },
+    {
+      "id": "critic-05",
+      "severity": "minor",
+      "passage": "In Rome four years later, the vocabulary came back almost word for word, now paired with what he does about it:",
+      "problem": "\"Now paired\" implies the 2022 fear quotes came without a response, which undercuts the type section's \"followed each time by the same response.\" The 2022 source the draft already cites shows the pairing. In the same THR answer (S14) he said: \"trying to fill those shoes is kind of impossible. So I just tried to do the best that I could. I looked into as much old footage as I could find with him from that time period.\" The article contradicts itself here and hides its own best support for the two-beat pattern.",
+      "acceptance_test": "The section either quotes the 2022 THR pairing or drops \"now paired.\" The fear section and the Six section then describe the 2022 and 2026 sequences the same way."
+    },
+    {
+      "id": "critic-06",
+      "severity": "minor",
+      "passage": "Ask him about playing either icon and fear comes up fast.",
+      "problem": "The Six case adds up the fear words (\"terrifying,\" \"intimidation,\" \"daunting\") but never sets them against the other register he uses for the same role. That includes \"really, really enthusiastic\" and \"really fun\" (S01), \"an absolute dream come true\" (EW via SCMP, S08), and \"absolutely surreal\" (S21). Also, at THR's studio (S15, 09:28-09:39) the question was whether he hesitated \"because of how much it means to people,\" and the reply opens \"No.\" before \"I was fighting for it\" (the speaker of the \"No.\" was not frame-checked). The opposing evidence appears in scattered places, but the type argument never weighs it.",
+      "acceptance_test": "The Six section or its \"Against it\" paragraph says in one sentence that his Stallone vocabulary runs as much to enthusiasm and \"dream come true\" as to fear. If the 09:35 \"No.\" is confirmed as his, the THR exchange reports it."
+    },
+    {
+      "id": "critic-07",
+      "severity": "minor",
+      "passage": "TIFF critics split on the same question.",
+      "problem": "Rotten Tomatoes' first-reviews roundup (S23) is mostly positive with a dissenting minority, and the aggregate stood at 84% positive (S26). Calling it a split makes the imitation critique look like half the reception. Settle signal 2 then builds on that.",
+      "acceptance_test": "The sentence describes the reception in proportion. For example: most TIFF reviews praised the performance, and a minority (TheWrap, Region Free) called it imitation. The two quotations stay as they are."
+    },
+    {
+      "id": "critic-08",
+      "severity": "minor",
+      "passage": "A motto about refusing the race sits awkwardly with a Three, and a motto about going it alone sits awkwardly with a Six.",
+      "problem": "The quote ends in \"can't be overtaken,\" which is a claim about not losing a race, not refusing one. A competitive teenager could pick it as easily as an independent one. The closing reads only the half that hurts the rival.",
+      "acceptance_test": "The closing either acknowledges that \"can't be overtaken\" reads as competitive (so the motto cuts both ways for a Three) or drops the Three clause and keeps the motto as an unexplained detail."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Read one way, the key word is \"seen,\" the move of someone who needs the right people to notice. Read another, the key phrase is \"live with it\": he was guarding against regret. One junket answer can't separate those.",
+      "reason": "This is the only direct statement of his motive in the record. The passage reads it both ways and refuses to choose, which is the open-case discipline at its best."
+    },
+    {
+      "passage": "At THR's studio, the interviewer asked whether he ever hesitated to take a role that means so much to people. \"I was fighting for it,\" he said. Farrelly cut in: \"By the way, it wasn't much of a fight.\"",
+      "reason": "A verified, funny, revealing exchange: his framing and his director's correction side by side, matching the audio (S15 09:28-09:41)."
+    },
+    {
+      "passage": "Against it: the fear clusters where nearly anyone would feel it. Little else in the public record looks like a Six. There is no worst-case planning on display, no testing of loyalty, no wariness of authority.",
+      "reason": "It states the strongest objection to its own leading read in plain terms, right next to the case for it."
+    },
+    {
+      "passage": "And Farrelly learned only in pre-production, by asking, that Ippolito had played Pacino, which Farrelly called \"the best part of The Offer.\" By then Ippolito already had the job.",
+      "reason": "The last sentence undercuts the draft's own flattering anecdote. Keep that caveat, and carry it into the Three section (see critic-02)."
+    },
+    {
+      "passage": "Farrelly remembers it differently. At THR's studio he said Ippolito \"had somehow found the script\" and taped three scenes. In a video for [IMDb](https://www.youtube.com/watch?v=TP7M9Ce7eUM) that month, he placed the taping \"in his own apartment.\" Both men agree the tape arrived before casting began.",
+      "reason": "It gives the conflicting origin accounts fairly and attributes each one, prefers the first-person version for the process, and names the one point they share."
+    }
+  ],
+  "assessment": "Eligibility holds. I Play Rocky is his first lead (cast August 2025, premiered September 2026), and his 2020-2022 record is short Q&As and red-carpet quotes. A spot search on 2026-10-28 found no long-form profile or podcast that research skipped; one search snippet mentioned a Playlist podcast appearance, but I could not confirm it. The draft confronts much of the adverse evidence well: it gives the situational objection, the missing Six behaviors, the conflicting tape accounts, and both readings of the \"seen\" quote. Its weak point is the step from \"Six and Three are close\" to \"Six leads.\" Three attractive stories don't survive a check against the sources. First, the fear, prepare, bold-step-anyway sequence: the tape came first and was described as fun, and the fear came after casting (critic-01). Second, the humility evidence against Three: it is the same press-tour script the draft discounts when it weighs Six (critic-02). Third, the self-started body transformation: Farrelly says the production had him training after the tape arrived (critic-03). There is also a factual dating error: the broken-hand audition was in 2019, not 2020 (critic-04). None of this requires changing the leading read, but the ordering rationale in the 60-word answer and FAQs must survive an even-handed discount. Similarity advisory: below threshold (max 0.051 vs Nathan Fielder). The matches are ordinary type vocabulary and triad orientation, not a reused argument, so there is no finding. I checked these against the cached sources: Collider (S20), THR TIFF studio (S15), TheWrap (S01), Screen Daily Rome (S03), THR 2022 (S14), Variety 2022 (S04), NY Post (S06), HollywoodLife (S12), Baruch (S28) and Haute Living (S13), plus Grand Army production dates from public coverage."
+}

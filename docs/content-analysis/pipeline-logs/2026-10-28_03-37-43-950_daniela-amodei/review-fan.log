@@ -1,0 +1,24 @@
+I've written the fan review to `review-fan.json` in the run directory. It passes the pipeline's review schema, and every quoted passage matches the draft exactly. I copied the two content hashes from the request file as instructed. No other files were changed and nothing was published.
+
+**The main problem:** every misreading of a source that I found makes Type 1 look stronger than the record supports. If these are fixed, the Type 2 case gets noticeably stronger. I kept all four risk flags from the evidence record, so the full six-role review panel stays on for this run.
+
+**Major findings (6):**
+- **fan-01: Huffington question is misstated.** Huffington's question was how to help *people* be self-reflective. Her lead-in actually praised Daniela for talking about learning from mistakes. The draft uses the exchange as evidence that Daniela dodges her own mistakes.
+- **fan-02: "Getting myself out of that job" is taken out of context.** On the Grit podcast, the reason she gives is "I'm not the expert in anything." The draft reads it as rejecting the need to be needed. The FAQ goes further and turns "a function with no leader" into "any job only she can do."
+- **fan-03: The Type 6 dismissal cuts her fear quotes.** The Atlantic line continues "That's just on the business side," which is fear of losing the company. The draft also drops her "Yes" when Oprah asked whether she was scared.
+- **fan-04: The "sharper sibling" contrast leaves out a key line from its own source.** The Atlantic reports that Dario privately calls Altman and OpenAI "evil." Also, Dario was already making his democratic-process point before Isaacson asked about OpenAI, so he didn't steer away from her answer.
+- **fan-05: The GiveWell/effective altruism background is missing.** That includes:
+  - the siblings' student-era donations to malaria prevention;
+  - Karnofsky co-founding GiveWell;
+  - her 2025 line "I don't identify with that terminology";
+  - the co-founders' pledge to give away 80% of their wealth, which they describe as "duty."
+- **fan-06: She introduced Dario to Brockman, who had been her boss at Stripe.** She told him "The smartest person that I know is Dario." That's stronger Type 2 evidence than the line the draft calls the strongest.
+
+**Minor findings (3):**
+- The draft says she held a standard against Brockman "at personal cost," but Altman turned down her offer to step down. The draft also puts the OpenAI episodes in a different order than the WSJ and New Yorker do.
+- "Judges conduct more readily than character" doesn't hold up against the interview itself. The draft also never mentions the non-disparagement agreement as a reason she stays quiet about Altman.
+- The family background leaves out her father's illness and death, and that her mother is from Chicago. It also skips her own account of the values she grew up with.
+
+I also protected five passages for the editor to keep: the stuffed-animal opening, the vegetarian correction, the "Perfected?" exchange, the spreadsheet detail and the mentor ending.
+
+I checked quotes against cached full texts of 14 sources. Ten sources I didn't reopen, including Sixth Street, Vanta, The Circuit, ABC and the S-1. The review lists which ones.

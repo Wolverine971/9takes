@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-28",
+  "slug": "daniela-amodei",
+  "name": "Daniela Amodei",
+  "type": "1",
+  "status": "prepared_installed",
+  "published": false,
+  "source": {
+    "page": "https://www.anthropic.com/company/leadership",
+    "imageUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/f57094d09eacd35ebf3fa7ce5767ab3efed7e9ab-640x800.webp",
+    "photographerOrCredit": "Anthropic official leadership page; individual photographer not stated",
+    "localOriginal": "output/portrait-sources/2026-10-28-daniela-amodei/anthropic-portrait.webp",
+    "width": 640,
+    "height": 800,
+    "sha256": "3ae873c2076d65d5bf2085c386f810c49018a481d26696463512e726a22a3df0",
+    "rights": "Official publicly distributed leadership portrait. No open reuse license or specific permission for this adaptation verified.",
+    "attribution": "Daniela Amodei — portrait from Anthropic leadership. Adapted by 9takes: background removal, rotation, grayscale, shading, placement and purple eye mark."
+  },
+  "transformations": {
+    "prompt": "Use case: background-extraction\nEdit target: this real photograph of Daniela Amodei. Remove only the tan studio background. Preserve the exact original canvas, her complete hair, shoulders, torso, white shirt, jewelry, expression and pose. Preserve the original face, facial features, lighting, skin and photographic texture without reconstruction, beautification or sharpening. Keep her original position and scale; do not crop, rotate, move or expand the subject. Use genuine alpha transparency with clean natural edges and no tan fringe. Preserve fine hair edges and all white clothing as opaque. No new text, graphics, purple line, shadows or background.",
+    "tool": "built-in image_gen for alpha refinement; original photographed RGB retained",
+    "segmentation": {
+      "sourceRgbPreserved": true,
+      "generatedRgbUsed": false,
+      "generatedAlphaUsed": true,
+      "refinedPixels": 218871,
+      "transparentPixels": 176418,
+      "maskSimilarityTransform": {
+        "scale": 1.758706845345876,
+        "angle": -0.003928613308048473
+      },
+      "rotationClockwiseDegrees": 9.27620210723337
+    },
+    "composition": {
+      "input": "output/portrait-processed/2026-10-28-daniela-amodei/composition-cutout.png",
+      "height": 1017,
+      "anchorX": 429.3266931027174,
+      "anchorY": 245.8056370253889,
+      "erode": 2,
+      "contrast": 1.04,
+      "brightness": 1,
+      "offsetX": 0,
+      "targetX": 540,
+      "targetY": 490
+    },
+    "template": "face-line-template.png"
+  },
+  "blogFile": "src/blog/people/drafts/daniela-amodei.md",
+  "assets": {
+    "full": {
+      "path": "static/types/1s/Daniela-Amodei.webp",
+      "previewPath": "output/portrait-preflight/2026-10-28-daniela-amodei/types/1s/Daniela-Amodei.webp",
+      "width": 1080,
+      "height": 1080,
+      "bytes": 52434,
+      "alpha": true,
+      "sha256": "4a96b15bbfde84216e2e190eff998ba39804f4097989eecd58b79851fb078f6d"
+    },
+    "thumbnail": {
+      "path": "static/types/1s/s-Daniela-Amodei.webp",
+      "previewPath": "output/portrait-preflight/2026-10-28-daniela-amodei/types/1s/s-Daniela-Amodei.webp",
+      "width": 480,
+      "height": 480,
+      "bytes": 16436,
+      "alpha": true,
+      "sha256": "2801c556d06662b09cdd1d5999c4a742cbf48afa7bd8eb2cdc8e62c95f6bc37c"
+    }
+  },
+  "installedInProject": true,
+  "installedAt": "2026-10-28T14:35:28.462Z",
+  "master": {
+    "path": "output/portrait-processed/2026-10-28-daniela-amodei/Daniela-Amodei-master.png",
+    "width": 1080,
+    "height": 1080,
+    "sha256": "159bf2750d1d378d198c42d50bde43f14e3b510840382e1640910e87e1d24df7"
+  },
+  "validation": {
+    "opaqueTemplatePixelsPreserved": 22457,
+    "visualReview": "Reviewed dark and light themes: intact hair and natural shoulder crop, centered eye mark, white shirt detail retained.",
+    "installedBytesMatchPreview": true,
+    "portraitCheck": {
+      "ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    "imageResolver": {
+      "full": "/types/1s/Daniela-Amodei.webp",
+      "thumbnail": "/types/1s/s-Daniela-Amodei.webp"
+    },
+    "staticAssetBudgetsPassed": true
+  },
+  "review": {
+    "url": "http://127.0.0.1:8917/daniela-amodei/",
+    "screenshot": "output/portrait-preflight/2026-10-22-review/daniela-amodei/preview.png",
+    "prompt": "output/portrait-processed/2026-10-28-daniela-amodei/prompt.txt"
+  }
+}

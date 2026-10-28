@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "enneagram",
+  "content_sha256": "bf518be272b278fe261b8ecc266b4b6eea37b9ecb6da93b0acdff8f00a6b06cd",
+  "evidence_sha256": "928a93dce175e0b1191be453ea708fd04d4e3742788c43927c3108c326bd678d",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "enneagram-F1",
+      "severity": "major",
+      "passage": "Six leads because the fear shows up in his own words in two roles four years apart, followed each time by the same response.",
+      "problem": "The leading read maps the word 'fear' to the head triad without asking what the fear is about. In context every instance is fear of being watched and judged by an admired figure or by fans: \"I'm kind of terrified of [him] seeing it because he's someone I've looked up to... I would be intimidated to have him watch me act at all, period\" (THR 2022, S14); \"I understand how many people are, so I did feel the weight of the responsibility\" (Rome 2026, S03). Fear of falling short in front of people whose regard matters is the heart-triad image/shame concern of Type 3 at least as readily as Six's fear, and the 'do right by the fans' version fits Type 1. The article reads \"seen\" in the Collider quote as Three evidence but reads \"terrified of [him] seeing it\" as Six evidence, scoring the same being-watched axis for opposite types. The Type 3 FAQ repeats the rationale (\"his own words keep returning to fear and responsibility rather than winning\"). On its own terms, the lead's main evidence does not separate 6 from 3.",
+      "acceptance_test": "The type section and the Type 3 FAQ say what the fear is about in each quoted instance (being watched by Pacino, Stallone and fans) and explain why that object points to Six (loss of support, certainty or guidance) rather than Three (failing visibly before people whose regard matters) or One (getting it wrong). If no Six-specific object can be shown, the article says the fear evidence is shared by 6 and 3 and names what else keeps Six ahead, or calls it a near-tie. No sentence offers the word 'fear' alone as the reason Six leads."
+    },
+    {
+      "id": "enneagram-F2",
+      "severity": "major",
+      "passage": "Then he takes the bold step anyway, which is how a Six who moves toward what scares him tends to look.",
+      "problem": "This counterphobic clause turns the strongest Three evidence (the uninvited tape) into Six evidence, and the record does not show the sequence it describes. No fear is recorded before either bold step. Of the tape he said it was \"a bit of a long shot\", \"a creative exercise\", \"actually really fun\", and that he was \"really, really enthusiastic\" (TheWrap, S01). At THR's studio he was asked whether he ever felt hesitant to take the role because of how much it means to people. Both the auto-captions and Whisper record \"No.\" then \"No, I mean\" before \"I was fighting for it\" (S15 09:28-09:39). The draft quotes only the last line, and the speaker of the \"No.\" needs a frame check. The fear quotes (\"intimidation at the beginning\", \"weight of the responsibility\", \"terrified of [him] seeing it\") concern carrying the role and being watched. They come from press tours after he was cast, and for Pacino he was a replacement hire (S07). What the record does show before the leap is preparation: \"so much of the homework had to be done prior to even submitting the tape\", which he called \"similar to Pacino\" (Collider, S20 00:59-01:17, unused). Invoking a counterphobic Six with no discriminator is the convenient-variant move the standard forbids.",
+      "acceptance_test": "The Six case follows the sequence the sources show: enthusiasm and homework before the tape, then the bold step, then responsibility-fear and research once the role was his. The counterphobic clause is either dropped or supported by a sourced instance of fear stated before a bold step. The THR hesitation exchange appears as counterevidence to a fear-first reading, with the \"No.\" quoted only if its speaker is confirmed. The Collider line about homework done \"prior to even submitting the tape\" is weighed as the Six-consistent behavior it is (prepare before stepping out), labeled as also fitting any diligent actor."
+    },
+    {
+      "id": "enneagram-F3",
+      "severity": "major",
+      "passage": "Against it, he doesn't sell himself where it would be easy.",
+      "problem": "The press-tour discount is applied to one side only. The Six section discounts fear talk because \"press tours reward a newcomer's humility\", while the Three rebuttal counts humility-shaped evidence at full weight: the premiere thanks to those \"willing to take a chance on me\", his \"weight and fear, not winning\" vocabulary, and not telling Farrelly about The Offer. A Three on an awards campaign is the type most likely to read the room and deliver exactly that humility. He mentioned the Pacino role only after he was hired, as the article itself notes (\"By then Ippolito already had the job\"), so selling himself would have gained nothing. \"Where it would be easy\" implies a payoff that did not exist. The same anecdote anchors the reader-facing ranking in the Type 3 FAQ (\"What keeps Type 6 narrowly ahead is ... Peter Farrelly says he never mentioned playing Al Pacino until he was asked\"), so the stated reason for the lead rests on evidence the article's own logic discounts.",
+      "acceptance_test": "The Three rebuttal and the Type 3 FAQ apply the same promotional discount used against the fear evidence, or cite evidence against Three from a context where self-promotion would have paid off. The Pacino anecdote is not framed as a passed-up chance to sell himself; if kept, it states he already had the role. If little survives even-handed discounting, the 60-word answer and FAQ say Six leads by a hair on a named tiebreaker, or that 6 and 3 are tied, without overclaiming."
+    },
+    {
+      "id": "enneagram-F4",
+      "severity": "major",
+      "passage": "The other thing he did before anyone asked was change his body.",
+      "problem": "This is a factual error that carries type weight. In the Collider clip the article cites (S20 01:18-01:31), Farrelly says: \"after we got it, the one thing he wasn't was he wasn't buff like Stallone. And so, luckily, he got to us beforehand. So, we we had him working out for a year and learning how to box\", and Ippolito adds \"Like a year and a half.\" The transformation followed the filmmakers' receipt of the tape and was on their program. The evidence record's own C14 alternative quotes this, yet the passage contradicts it. By his own account the pre-tape work was study, and it \"happened very fast\" (S20 00:59-01:02). The error supports two type arguments. It is the Nine section's only rebuttal (\"What strains it is the self-started, two-year pursuit of a lead nobody had offered him.\"), and it underpins the Type 3 FAQ line \"He also spent close to two years changing his body for the role\", which reads a studio-directed regimen as personal drive.",
+      "acceptance_test": "The Gleason's section says the training followed the filmmakers' decision and was directed by them, with Farrelly's line attributed. The Nine counterargument rests only on the short, self-started tape and drops the \"two-year pursuit of a lead nobody had offered him\". The Type 3 FAQ either drops the transformation or frames it as a role requirement that does not separate the types. No passage says the body change came before anyone asked."
+    },
+    {
+      "id": "enneagram-F5",
+      "severity": "minor",
+      "passage": "That is his reading of Stallone, not a self-portrait, but it shows where his eye goes: to support, and to its absence.",
+      "problem": "The Six case quotes this reading of Stallone selectively. \"Nobody in his corner\" is the film's own framing; Robb uses it for Sasha, who \"was really championing him when he had nobody in his corner\" (S17). In the same answers Ippolito's emphasis falls on endurance against the odds: \"He had so much going against him and he persevered through so much. His endurance, I think, radiates through Rocky\" (Rome, S03). He also said \"he really did have the fortitude to keep going, even though a lot of odds were stacked against him\" (Fandango, S17) and \"he really just endured a lot\" (THR, S15). Underdog persistence reads at least as naturally as achievement against odds (3), and \"lone wolf ... orphan\" as a Four theme. Picking only the support half manufactures Six evidence.",
+      "acceptance_test": "The passage is either removed from the Six case or set beside the endurance-and-odds emphasis from the same answers, with a statement that his reading of Stallone repeats the film's underdog framing and does not discriminate between the types."
+    },
+    {
+      "id": "enneagram-F6",
+      "severity": "minor",
+      "passage": "\"I just really felt that at least if I was seen and I could present my interpretation, then I'd be able to live with it.\"",
+      "problem": "The block quote closes at \"live with it.\" with a period, but both the auto-captions and Whisper continue \"even if it didn't go my way. I just really had to try to get in the door\" (S20 00:34-00:43; the captions run the clauses together). The dropped clause matters most for typing. It says that being seen and presenting his interpretation was worth it even without getting the part, which is the test of the visibility (3) and regret (6) readings the next paragraph sets up, and it bears on \"present my interpretation\" as self-expression. Ending on a period presents a partial sentence as complete.",
+      "acceptance_test": "The quotation either includes \"even if it didn't go my way\" (any filler-dropping disclosed in the S20 locator) or ends with an ellipsis and paraphrases the continuation. The two-readings paragraph weighs what that clause implies for 3 versus 6."
+    },
+    {
+      "id": "enneagram-F7",
+      "severity": "minor",
+      "passage": "None of the four explains everything.",
+      "problem": "Type 4 is never weighed. Yet the evidence record's own settle signal names it (\"a small, grounded character piece that 'speaks to me' (9 or 4)\"), and much of the detail the article labels unexplained clusters around Four themes: painting and music, the Brando motto about walking his own way, \"present my interpretation\", \"I just want to work on something that speaks to me\" (S10), the psych/philosophy/anthropology alternative path, and his \"lone wolf ... orphan\" reading of Stallone. Settle signal 3 assigns \"speaks to me\" to Nine alone, which cannot separate 9 from 4. The case for Four is not strong, but omitting the type that best explains the unexplained residue makes the four-way comparison look complete when it is not.",
+      "acceptance_test": "The weighing section names Type 4 in a sentence or two. It either sets Four aside with a sourced reason (for example the ensemble emphasis, the cheerful manner, or no identity-as-different language) or keeps it live. Settle signal 3 either separates 9 from 4 or stops pinning \"speaks to me\" on Nine alone, and open_case.live_alternatives in the evidence matches the article."
+    },
+    {
+      "id": "enneagram-F8",
+      "severity": "minor",
+      "passage": "return to trusted collaborators such as Farrelly for security's sake (Six)",
+      "problem": "Settle signals 2 and 3 key on behavior that professional incentives produce whatever the type. A newly hot lead taking the biggest role on offer is what agents and studios push, so the choice cannot mark Three. \"For security's sake\" is a motive, not an observable choice, so the Six branch depends on his stated reason. On an awards campaign nearly every actor answers bad reviews graciously, and that can read as \"shrug it off\" (Nine) or \"work it through\" (Six) without separating them. The evidence record's version required the reason to be stated (\"with security and belonging named as reasons (6)\"); the draft dropped that condition.",
+      "acceptance_test": "Signals 2 and 3 are phrased around his stated reasons in unscripted or long-form settings (why he chose the next role, what helped him with the reviews), and each notes where the bare choice is driven by career incentives. No branch assigns a type from the choice of role alone."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "So far, fear and ambition point the same way: toward the bold move, made after heavy preparation. Separating them takes a moment when they pull apart.",
+      "reason": "Names exactly why no discriminator exists yet and what kind of observation would supply one: the honest core of the open case."
+    },
+    {
+      "passage": "Read one way, the key word is \"seen,\" the move of someone who needs the right people to notice. Read another, the key phrase is \"live with it\": he was guarding against regret. One junket answer can't separate those.",
+      "reason": "Takes the only motive statement in the record and gives both readings without forcing one. It can absorb the F6 clause without losing its shape."
+    },
+    {
+      "passage": "Against it: the fear clusters where nearly anyone would feel it. Little else in the public record looks like a Six. There is no worst-case planning on display, no testing of loyalty, no wariness of authority.",
+      "reason": "The leading read names its own missing signatures instead of explaining them away. That is rare and worth keeping."
+    },
+    {
+      "passage": "A broken hand explains the first instinct. Still, the pattern shifted. In 2020 someone else proposed the tape. For _I Play Rocky_, he made one before anyone asked.",
+      "reason": "A sourced change in behavior over six years, with the circumstantial explanation stated first. Distinctive and specific to him."
+    },
+    {
+      "passage": "A motto about refusing the race sits awkwardly with a Three, and a motto about going it alone sits awkwardly with a Six. Whether it was a passing pick or a compass is one more thing the next few years should show.",
+      "reason": "Leaves a real contradiction standing against both leading hypotheses and gives it the weight a teenager's quote deserves."
+    }
+  ],
+  "assessment": "Open-case eligibility holds: he is an adult, and I Play Rocky (cast 2025, TIFF 2026-09-12) is his first lead and first major public moment. Grand Army (2020) is called his breakout by some outlets, but that period left only short written Q&As, so the record is thin because his prominence is young. Two web searches on 2026-10-28 found no long-form profile or podcast that research skipped. One search summary claimed an appearance on The Playlist's Bingeworthy podcast, but the results point to Stallone's and Farrelly's comments to The Playlist, not to Ippolito. Confidence language is appropriately low, the alternatives get real space, and settle signals 1 and 4 are concrete. The Enneagram weakness is the 6-over-3 ranking. It rests on fear vocabulary whose object is being watched and judged, which is heart-triad territory as much as head-triad (F1). It also leans on a counterphobic fear-then-leap sequence the record does not show: his pre-tape words are enthusiasm and homework, and he denied hesitating (F2). And the press-tour discount is applied to the fear evidence but not to the humility evidence used against Three (F3). A factual error about when the transformation happened (Farrelly: \"after we got it ... we had him working out for a year\") props up the only rebuttal to Nine and the Type 3 FAQ (F4). The edit can keep Six as the leading read only if it shows a Six-specific object or behavior. The unused Collider line about homework done \"prior to even submitting the tape\" is the best candidate. Otherwise the article should present 6 and 3 as near-tied with a named tiebreaker. If the editor makes Three the leading read, that is a type-thesis change and needs --refresh --expanded-review under the standard. Type 4 is an unweighed but weak rival (F7). Similarity: not tripped (max 0.051, inside the 711-pair noise ceiling). The top pairs share only ordinary type vocabulary and the brief triad glosses, and I found no reused argument. Sources opened for this review: cached Collider (S20) captions; THR studio (S15) captions and Whisper segments; IMDb (S16), Fandango (S17), AP (S18) and USA Today (S21) Whisper segments; Screen Daily Rome (S03) page text; and the other cached page texts, scanned for fear and pressure language."
+}

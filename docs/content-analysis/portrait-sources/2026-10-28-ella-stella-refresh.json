@@ -1,0 +1,216 @@
+{
+  "date": "2026-10-28",
+  "status": "prepared_installed",
+  "installedAt": "2026-10-28T15:51:24.594Z",
+  "reason": "Replace blurry portraits with sharper photographic sources and refined transparent edges.",
+  "review": {
+    "url": "http://127.0.0.1:8917/ella-stella/",
+    "darkScreenshot": "output/portrait-preflight/2026-10-22-review/ella-stella/preview.png",
+    "lightScreenshot": "output/portrait-preflight/2026-10-22-review/ella-stella/preview-light.png"
+  },
+  "portraits": [
+    {
+      "slug": "ella-beatty",
+      "name": "Ella Beatty",
+      "type": 6,
+      "source": {
+        "page": "https://www.marieclaire.com/culture/tv-shows/who-is-ella-beatty-monster-the-lizzie-borden-story/",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/soXVqsEdJLoP2fg7CaJs4G.jpg",
+        "photographerOrCredit": "Roy Rochlin/Getty Images for Netflix",
+        "localOriginal": "output/portrait-sources/2026-10-28-ella-stella/ella-premiere.jpg",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "a6eafaaf4b32e9ae8d0872958310b26c497c9619f3c4530fe698373dc4f72c40",
+        "rights": "No open reuse license or specific permission for this adaptation verified."
+      },
+      "transformations": {
+        "prompt": "Use case: background-extraction\nEdit target: this real premiere photograph of Ella Beatty. Remove only the red patterned event background, letters, chandelier, and any objects behind her. Preserve the exact original canvas, her complete hair, natural shoulders and arms, black gown and necklace. Preserve the original face, smile, pose, lighting, skin and photographic texture without reconstruction, beautification, smoothing or sharpening. Keep her original position and scale; do not crop, rotate, move or expand the subject. Use genuine alpha transparency with clean natural edges and no background fringe. No new text, graphics, purple line, shadows or background.",
+        "promptFile": "output/portrait-processed/2026-10-28-ella-stella/ella-beatty-prompt.txt",
+        "tool": "Built-in image_gen for alpha refinement; original photographed RGB retained",
+        "sourceCrop": {
+          "left": 190,
+          "top": 0,
+          "width": 1050,
+          "height": 1080
+        },
+        "segmentation": {
+          "sourceRgbPreserved": true,
+          "generatedRgbUsed": false,
+          "generatedAlphaUsed": true,
+          "nativeAlphaUsed": false,
+          "refinedPixels": 546390,
+          "transparentPixels": 575519,
+          "alphaRegistration": {
+            "method": "canvas_normalized",
+            "scaleX": 1.178095238095238,
+            "scaleY": 1.1777777777777778
+          },
+          "rotationClockwiseDegrees": -4.112377243431491
+        },
+        "composition": {
+          "input": "output/portrait-processed/2026-10-28-ella-stella/ella-beatty-composition-cutout.png",
+          "height": 1027,
+          "anchorX": 664.0877611935139,
+          "anchorY": 346.7552058430717,
+          "erode": 6,
+          "contrast": 1.08,
+          "brightness": 1,
+          "offsetX": 0,
+          "targetX": 540,
+          "targetY": 490
+        },
+        "template": "face-line-template.png"
+      },
+      "blogFile": "src/blog/people/drafts/ella-beatty.md",
+      "assets": {
+        "full": {
+          "path": "static/types/6s/Ella-Beatty.webp",
+          "previewPath": "output/portrait-preflight/2026-10-28-ella-stella/types/6s/Ella-Beatty.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 59490,
+          "alpha": true,
+          "sha256": "1072caf52b93eeef7089e436afe8e335037bd22f3529fdf63eb9311ed64404b4",
+          "previous": {
+            "path": "output/portrait-processed/2026-10-28-ella-stella/before/Ella-Beatty.webp",
+            "sha256": "2173cb39c5733a5ecb78304b214c5b279cf2ebb3dad6056622674d7d7489165e"
+          }
+        },
+        "thumbnail": {
+          "path": "static/types/6s/s-Ella-Beatty.webp",
+          "previewPath": "output/portrait-preflight/2026-10-28-ella-stella/types/6s/s-Ella-Beatty.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 17332,
+          "alpha": true,
+          "sha256": "421ba4865f14823609055ff60970367ca78f5bf9271fde8a46a9918bbe396792",
+          "previous": {
+            "path": "output/portrait-processed/2026-10-28-ella-stella/before/s-Ella-Beatty.webp",
+            "sha256": "f1017645549be03f1f2903cbed11c99829a1c26bafaff30bb9735f17f961302e"
+          }
+        }
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-28-ella-stella/Ella-Beatty-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "c3c71787d098e42240b97c26d3905a2bb77d89d21b944a14490a715256789080"
+      },
+      "validation": {
+        "opaqueTemplatePixelsPreserved": 22457,
+        "installedBytesMatchPreview": true,
+        "visualReview": "Dark and light browser review passed: clean hair edges, natural shoulders, centered purple eye mark.",
+        "portraitCheck": {
+          "ok": true,
+          "errors": [],
+          "warnings": []
+        },
+        "imageResolver": {
+          "full": "/types/6s/Ella-Beatty.webp?v=20261028a",
+          "thumbnail": "/types/6s/s-Ella-Beatty.webp?v=20261028a"
+        },
+        "staticAssetBudgetsPassed": true
+      }
+    },
+    {
+      "slug": "stella-lefty",
+      "name": "Stella Lefty",
+      "type": 9,
+      "source": {
+        "page": "https://commons.wikimedia.org/wiki/File:Stella_Lefty_@_Moroccan_Lounge.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Stella_Lefty_%40_Moroccan_Lounge.jpg",
+        "originalPage": "https://www.flickr.com/photos/jus10h/55333579328/",
+        "photographerOrCredit": "Justin Higuchi",
+        "localOriginal": "output/portrait-sources/2026-10-28-ella-stella/stella-commons.jpg",
+        "width": 3200,
+        "height": 4000,
+        "sha256": "97f99bc1e61370db89d79aa3bf35d5d92cdb6beccbcf747508c6096aafbcb136",
+        "rights": "CC BY 4.0; license verified on Wikimedia Commons file page.",
+        "license": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "transformations": {
+        "prompt": "Use case: background-extraction\nEdit target: this real photograph of Stella Lefty. Remove only the background. Preserve the exact original canvas, face, facial features, expression, pose, lighting and photographed texture. Keep her microphone, both hands, rings, bracelets, white clothing, hair and natural shoulder contour exactly. Remove the red stage background and the background guitar or people entirely, preserving only Stella and the microphone she holds. Keep the red stage light that genuinely falls on her body; do not repaint it. Keep her original position and scale; do not crop, rotate, move or expand the subject. Use genuine alpha transparency with clean natural edges, no rectangular mask artifacts and no background fringe. Preserve fine hair edges. No reconstruction, beautification, smoothing, new text, graphics, purple line, shadows or background.",
+        "promptFile": "output/portrait-processed/2026-10-28-ella-stella/stella-lefty-prompt.txt",
+        "tool": "Built-in image_gen for alpha refinement; original photographed RGB retained",
+        "segmentation": {
+          "sourceRgbPreserved": true,
+          "generatedRgbUsed": false,
+          "generatedAlphaUsed": true,
+          "nativeAlphaUsed": false,
+          "refinedPixels": 5732067,
+          "transparentPixels": 6877358,
+          "alphaRegistration": {
+            "method": "canvas_normalized",
+            "scaleX": 0.350625,
+            "scaleY": 0.3505
+          },
+          "rotationClockwiseDegrees": 5.758550646685022
+        },
+        "composition": {
+          "input": "output/portrait-processed/2026-10-28-ella-stella/stella-lefty-composition-cutout.png",
+          "height": 1059,
+          "anchorX": 2065.0443958863616,
+          "anchorY": 1005.2270728124963,
+          "erode": 4,
+          "contrast": 1.04,
+          "brightness": 1,
+          "offsetX": 0,
+          "targetX": 540,
+          "targetY": 490
+        },
+        "template": "face-line-template.png"
+      },
+      "blogFile": "src/blog/people/drafts/stella-lefty.md",
+      "assets": {
+        "full": {
+          "path": "static/types/9s/Stella-Lefty.webp",
+          "previewPath": "output/portrait-preflight/2026-10-28-ella-stella/types/9s/Stella-Lefty.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 105480,
+          "alpha": true,
+          "sha256": "557ab75420e65f7bc8bbb7dd775087693e2f6d65cdacaec4472afc0c3a68c4b2",
+          "previous": {
+            "path": "output/portrait-processed/2026-10-28-ella-stella/before/Stella-Lefty.webp",
+            "sha256": "c24b6c91d6baded51e2d4e328cdd6c12c1786c93a649c4cacdceee49084f9a0a"
+          }
+        },
+        "thumbnail": {
+          "path": "static/types/9s/s-Stella-Lefty.webp",
+          "previewPath": "output/portrait-preflight/2026-10-28-ella-stella/types/9s/s-Stella-Lefty.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 26538,
+          "alpha": true,
+          "sha256": "f33d763fc5f0cb1ae04e0306ad4843903951192ef3776e89a6e12205d10f27b2",
+          "previous": {
+            "path": "output/portrait-processed/2026-10-28-ella-stella/before/s-Stella-Lefty.webp",
+            "sha256": "32ae76eb02c6444e3b9a71ab854f27920780c3749034060b372e8eb4a90edf90"
+          }
+        }
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-28-ella-stella/Stella-Lefty-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "17a72885cc00464281e01fc17fc5450bddf9ff4c4c55c7502c267c006527acc9"
+      },
+      "validation": {
+        "opaqueTemplatePixelsPreserved": 22457,
+        "installedBytesMatchPreview": true,
+        "visualReview": "Dark and light browser review passed: clean hair edges, natural shoulders, centered purple eye mark.",
+        "portraitCheck": {
+          "ok": true,
+          "errors": [],
+          "warnings": []
+        },
+        "imageResolver": {
+          "full": "/types/9s/Stella-Lefty.webp?v=20261028a",
+          "thumbnail": "/types/9s/s-Stella-Lefty.webp?v=20261028a"
+        },
+        "staticAssetBudgetsPassed": true
+      }
+    }
+  ],
+  "deployed": false
+}

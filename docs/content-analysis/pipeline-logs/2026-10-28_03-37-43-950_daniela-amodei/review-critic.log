@@ -1,0 +1,20 @@
+I've written the critic review to `docs/content-analysis/pipeline-logs/2026-10-28_03-37-43-950_daniela-amodei/review-critic.json`. It passes the review schema check. I didn't change any other repo files or publish anything; my scratch script sits in `/tmp`.
+
+**Verdict:** the draft is careful and full of details specific to her, but it claims the evidence separates Type 1 from Type 2 more cleanly than the evidence does. The review has 11 findings (8 major, 3 minor) and 5 passages worth protecting. It doesn't argue for Type 2. It argues that medium confidence is the most the record supports, and that the type answer, the "Why not Type 2?" section and the FAQs should claim less.
+
+The main problems, each checked against the cached transcripts:
+
+- **The core claim breaks on her own words.** The draft says she explains costly choices "by what is right, not by whom she protected." But her full no-ads answer to Oprah opens with protecting users' private conversations and health information. The draft quotes only the lines that come after that.
+- **"What she leaves out" doesn't tell her apart from Dario.** He also explains the Pentagon refusal purely as right and wrong, and 9takes types him as a Six.
+- **The "self-description vs. action" split doesn't hold.** Almost all the Type 1 evidence is her own account on podcasts. The only outside accounts of her behavior are the OpenAI stories, which the draft itself says can't carry the case.
+- **Two quotes are misread:**
+  - **"Rejects the need to be needed":** the Grit quote is about leaving temporary roles because someone else knows the area better. The Type 2 FAQ also gets the paraphrase wrong.
+  - **"Her fear is aimed at being wrong":** the full Atlantic quote is "we can lose it at any time. That's just on the business side." That's fear of loss.
+- **Two comparisons ignore counterexamples in the same source:**
+  - **Six-vs-One sibling contrast:** in the same Isaacson interview she calls Anthropic "a company that is founded on ... trust."
+  - **"Facts in the room" anger scene:** the same New Yorker paragraph shows Dario confronting Altman the same way. The sources also say she "lost it" and that the siblings were shouting, which clashes with the draft's own description of how a One's anger shows up.
+- **The strongest skeptical reading never appears.** The no-ads, Pentagon and turned-away-customer choices may also have been good strategy for the brand. And the same Atlantic article quotes OpenAI people calling the Amodeis "virtue-signalers." The draft uses that article's "inflexible triumvirate" line from rivals, but not this one.
+
+The minor findings: the "Perfected?" exchange reads as filler in the transcript, not as her doubling down; on GPT-2 she corrected Isaacson but then agreed with his main point; and the hook treats her reputation as warmer than the sources describe it.
+
+I kept the risk flags on for sensitive allegations, contested typing and the thesis change. The similarity check didn't trip and I found no reused arguments. I read sources from the run's local cache, not the live URLs. I couldn't confirm who says the "professional warmth" line in the Bloomberg documentary.

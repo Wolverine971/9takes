@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "unfamiliar",
+  "content_sha256": "bf518be272b278fe261b8ecc266b4b6eea37b9ecb6da93b0acdff8f00a6b06cd",
+  "evidence_sha256": "928a93dce175e0b1191be453ea708fd04d4e3742788c43927c3108c326bd678d",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "unfamiliar-1",
+      "severity": "major",
+      "passage": "The other thing he did before anyone asked was change his body.",
+      "problem": "A cold reader takes this as fact. It opens the Gleason's Gym section and feeds the Nine counter (\"What strains it is the self-started, two-year pursuit of a lead nobody had offered him.\"). The evidence does not show the training came before casting or that nobody asked for it. Farrelly says the production had him working out for about a year and a half (S20 context; C14 alternative). Ippolito says \"first I had to try to put on some weight because he was a pretty muscular dude\" (S17). The \"year and a half to two years\" span (S21) runs to a September 2026 premiere, so it most likely includes prep after he was cast. The work he places before the tape is study (\"so much of the homework had to be done prior to even submitting the tape,\" S20), not training. Neither sentence has its own claim in the inventory. The reader also has no timeline to check this against: the article never dates the casting (announced August 27, 2025, S05), so \"before casting began,\" \"a month before shooting\" and \"two years\" have nothing to hang on.",
+      "acceptance_test": "The body-change sentence either cites an opened source showing the training began before he was cast or asked, or it attributes the timeline (for example, Farrelly saying the production had him working out for about a year and a half). The Nine paragraph's \"two-year pursuit of a lead nobody had offered him\" is cut back to what is sourced: the unsolicited tape and the study before it. The article gives the August 27, 2025 casting announcement (THR, S05) once. Both sentences get claim entries with source IDs."
+    },
+    {
+      "id": "unfamiliar-2",
+      "severity": "major",
+      "passage": "That tape became _I Play Rocky_.",
+      "problem": "A reader who doesn't know the film learns only that it is \"a movie about the making of Rocky.\" The article never says what it depicts. Per the THR casting story (S05), the film follows an unknown Stallone who is told no at every turn and holds out to play the lead he wrote. It also never says who Farrelly is (\"He had read a news article saying Peter Farrelly was making the film.\"); he directed Green Book. Without those two facts, the stakes behind \"I said, he found us,\" \"I was fighting for it,\" Stallone as a \"lone wolf\" with \"not too many people in his corner,\" and THR's \"same relentless drive\" are invisible. (The draft drops THR's \"In a fitting echo of that spirit,\" so the reader can't tell whose spirit is meant.) The reader also can't see the actor-mirrors-subject story the studio is selling, which matters to the article's own caveat that press tours reward humility. Separately, \"That tape became I Play Rocky\" reads as if the tape turned into the film.",
+      "acceptance_test": "Within the first five paragraphs, one sentence attributed to S05 (or another opened source) states the film's premise, and Farrelly is named as the film's director at first mention. If the article mentions his Oscars, it gets them right: S05 says he \"won an Oscar for directing,\" but his Green Book Oscars were Best Picture and Original Screenplay, so that wording is not copied. The tape sentence says the tape won him the lead. If the parallel between actor and subject comes up, it is attributed to studio or trade framing and not used as evidence for any type."
+    },
+    {
+      "id": "unfamiliar-3",
+      "severity": "minor",
+      "passage": "Six leads because the fear shows up in his own words in two roles four years apart, followed each time by the same response. Three stays close because his boldest act was a bid to be seen.",
+      "problem": "These two sentences repeat the 60-word answer two paragraphs earlier almost clause for clause. The same argument (two roles, four years, he names the fear and then researches) comes back in \"The fear language starts four years before Stallone,\" \"The order holds each time. Name the difficulty, then go to work,\" and \"The Six case rests on a sequence that repeats across two roles and four years.\" The uninvited-move motif (\"before anyone asked,\" \"nobody asked for,\" \"nobody invited,\" \"uninvited,\" \"nobody had offered him\") shows up about eight times in prose and headings. By the weighing section a cold reader has heard the case four times. The body runs about 2,700 words, above the open-case target of 1,200 to 2,500.",
+      "acceptance_test": "The body states the two-roles/four-years argument as a thesis no more than twice: once in the type answer and once in the weighing section. The quoted pair is cut or folded into the answer, keeping \"All of it shows what he says and does in public, not what he feels.\" The uninvited-move motif appears at most three times, headings included. The body comes down to about 2,500 words or fewer without losing a sourced detail."
+    },
+    {
+      "id": "unfamiliar-4",
+      "severity": "minor",
+      "passage": "Ippolito kept ending sentences with a phrase Stallone used in his 1970s interviews.",
+      "problem": "This sets up a detail and never delivers it. The reader wants to know the phrase and never finds out. The evidence doesn't name it either: it rests on Farrelly in YouTube captions only (S16 02:14-02:28, per C13), not the Whisper re-transcription used for the other key quotes.",
+      "acceptance_test": "Either the phrase is quoted after re-listening to S16 02:14-02:28 from audio, attributed to Farrelly, or the sentence is cut. No version mentions the phrase without naming it."
+    },
+    {
+      "id": "unfamiliar-5",
+      "severity": "minor",
+      "passage": "Ippolito is a Long Island native in his late twenties who has acted since childhood.",
+      "problem": "This is the reader's only introduction to who he is, and it is vague and will go stale. The birth year is unresolved (1999 or 2000, C31), so he may be 26 in October 2026, which few readers would call late twenties, and the undated phrase will be wrong within a few years. \"Acted since childhood\" gives a stranger nothing to place him by, yet the evidence lists credits: the film debut Bella (2006) and young Sam Brenner in Pixels (2015) (S25, S05).",
+      "acceptance_test": "The age is either dated and true under both birth years (for example, \"in his mid-to-late twenties as of 2026\") or attributed (Variety called him 27 in September 2026). No birth year is stated. At least one dated childhood credit is named."
+    },
+    {
+      "id": "unfamiliar-6",
+      "severity": "minor",
+      "passage": "A broken hand explains the first instinct. Still, the pattern shifted.",
+      "problem": "\"The first instinct\" makes the reader work out what is meant (his email offering to pass on the audition). \"The pattern\" overstates things when only one earlier case exists. The actual point is that the 2020 tape was his agent's idea and the Rocky tape was his own, and it only becomes clear two sentences later.",
+      "acceptance_test": "The sentence says what the broken hand explains (that he first offered to pass). \"Pattern\" is dropped or backed by more than one instance. The 2020 vs. I Play Rocky contrast reads clearly on the first pass."
+    },
+    {
+      "id": "unfamiliar-7",
+      "severity": "minor",
+      "passage": "The only people on record who have worked with him or met him are Farrelly, Papsidera, Robb and Stallone, all in promotional or casting settings.",
+      "problem": "As written this is false, and the page itself contradicts it. The Swiss reporters quoted calling him \"likable, cheerful\" met him, as did every interviewer cited. TheWrap reports that a friend and his cousin shot the tape. The real claim, per the research record, is narrower: no one who has known him beyond a single production has described him on record.",
+      "acceptance_test": "The sentence makes the narrower claim (no testimony on record from anyone who has known him beyond one production) or lists only the people who have described his character. It no longer says nobody else has worked with him or met him."
+    },
+    {
+      "id": "unfamiliar-8",
+      "severity": "minor",
+      "passage": "Anthony Ippolito, I Play Rocky's Stallone: An Open Case, Leading Read Enneagram Type 6",
+      "problem": "To someone arriving from search, the title reads like a list of keywords. \"I Play Rocky's Stallone\" is hard to parse because the film's title is itself a sentence, and four comma and colon breaks hide what the page actually is. The meta_title and description are much clearer.",
+      "acceptance_test": "The title reads as one grammatical phrase a stranger can parse on first read. It names him and the film, keeps \"open case\" or \"leading read\" wording, and does not say he \"is\" a Type 6."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Before anyone had cast a movie about the making of _Rocky_, Anthony Ippolito hung a heavy bag in his grandmother's basement and started turning himself into Sylvester Stallone.",
+      "reason": "A specific, sourced opening image in his own words (S01) that raises a question, and Farrelly's \"he found us\" pays it off within three paragraphs. An unfamiliar reader is hooked before knowing who he is."
+    },
+    {
+      "passage": "\"I was fighting for it,\" he said. Farrelly cut in: \"By the way, it wasn't much of a fight.\"",
+      "reason": "A live, unscripted exchange that shows a person rather than a type. The striving claim and the director's deflation sit in two lines, and both readings can use it."
+    },
+    {
+      "passage": "\"But I kept my hand out of the frame 'cause I didn't want them to see I had a broken hand.\"",
+      "reason": "The most memorable pre-fame detail in the piece. It is concrete, from 2020, and something a reader will repeat. It also complicates the image of a fearful man."
+    },
+    {
+      "passage": "Read one way, the key word is \"seen,\" the move of someone who needs the right people to notice. Read another, the key phrase is \"live with it\": he was guarding against regret. One junket answer can't separate those.",
+      "reason": "It teaches a cold reader how the open case works, using one quote: two honest readings and a plain statement of what the evidence can't do."
+    },
+    {
+      "passage": "So far, fear and ambition point the same way: toward the bold move, made after heavy preparation. Separating them takes a moment when they pull apart.",
+      "reason": "The clearest insight a reader takes away, and it turns the settle signals from a list into a test."
+    }
+  ],
+  "assessment": "Read cold, the piece mostly works. The basement hook and \"he found us\" create real curiosity. The sections then move forward instead of circling: the tape, the fear language from 2022 to 2026, the body change, the imitation debate, a four-way weighing, and settle signals. \"Imitation or essence\" sets up a live, datable test, and the Zurich \"likable, cheerful\" note and the Brando yearbook motto leave behavior the type doesn't neatly explain. A stranger comes away knowing what he did, what he says about fear, and why the record can't yet choose between Six and Three. The biggest gaps are orientation and stakes. The reader never learns what I Play Rocky depicts or who Farrelly is, so the underdog stakes behind the best quotes are invisible (unfamiliar-2). One load-bearing timing claim, that he changed his body before anyone asked, is not supported and rests on no dated timeline (unfamiliar-1). After that, the main drag is repetition: the same argument is restated four times and the uninvited-move motif keeps recurring, which pushes the body to about 2,700 words, past the open-case target. Open-case checks: eligibility looks sound from this seat. He is an adult whose first lead was announced 2025-08-27. The 2020-2022 record is short Q&As and red-carpet quotes that research opened, and I see no deep record that was skipped, so no blocker. Confidence wording is consistent across the title, description, FAQs and body (\"leading read,\" \"low-confidence call\"). Three gets a real case with sourced counterevidence. Nine is thin (two quotes) but not token. The settle signals are concrete and dated to the 2026-12-15 review. Similarity advisory: not tripped. The highest score is 0.051 against Nathan-Fielder, below the 0.06 threshold and at the noise-floor maximum. The matched lines share only generic diagnosis phrasing (\"the same response\"), not an argument. The triad explainer is ordinary type vocabulary. I found no meaningful reuse."
+}

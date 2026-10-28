@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "subject",
+  "content_sha256": "bf518be272b278fe261b8ecc266b4b6eea37b9ecb6da93b0acdff8f00a6b06cd",
+  "evidence_sha256": "928a93dce175e0b1191be453ea708fd04d4e3742788c43927c3108c326bd678d",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "subject-01",
+      "severity": "major",
+      "passage": "The other thing he did before anyone asked was change his body.",
+      "problem": "The director contradicts this. In the Collider short (S20, 01:18-01:31) Farrelly says: \"after we got it, the one thing he wasn't was he wasn't buff like Stallone. And so, luckily, he got to us beforehand. So, we we had him working out for a year and learning how to box\" (Ippolito adds \"Like a year and a half\"). So the body change followed casting and was directed by the production. What Ippolito did before the tape was study (\"so much of the homework had to be done prior to even submitting the tape\"), not training. The same error carries into the Type 9 section (\"What strains it is the self-started, two-year pursuit of a lead nobody had offered him\"): most of those two years came after the role was his. The mistake inflates the self-starting story that both the Three case and the case against Nine lean on.",
+      "acceptance_test": "The Gleason's Gym section opens with a sourced, correct sequence: unprompted study and the tape before casting, then roughly 18 months of production-directed training afterward, attributed to Farrelly on Collider. The Type 9 section no longer calls the two-year effort a self-started pursuit of an unoffered lead. Claim C69 (and C14 or a new claim) records Farrelly's \"we had him working out\" line, and no passage says or implies he changed his body before anyone asked."
+    },
+    {
+      "id": "subject-02",
+      "severity": "major",
+      "passage": "Read one way, the key word is \"seen,\" the move of someone who needs the right people to notice.",
+      "problem": "In casting, \"being seen\" is the ordinary term for getting an audition or a look from decision-makers. His surrounding words in the same Collider answer (S20, 00:22-00:43) use it that way: getting \"in front of people in a timely way before things go in a different direction\", \"I'd be able to live with it even if it didn't go my way\", and \"I just really had to try to get in the door.\" The draft treats the industry term as a psychological tell (\"needs the right people to notice\") and repeats it as rival-type evidence: in the 60-word answer (\"his uninvited bid to be \"seen\" fits Three too\"), in the type FAQ, and in the Type 3 section (\"He framed the Stallone tape around being seen\"). That gives him an image motive built on a turn of phrase.",
+      "acceptance_test": "The article explains in one clause that \"be seen\" is casting language for getting an audition, and paraphrases or quotes the surrounding context (\"before things go in a different direction\", \"even if it didn't go my way\", \"get in the door\"). The 60-word answer, the type FAQ, the Type 3 FAQ and the Type 3 section no longer present the word \"seen\" as evidence of a visibility motive. Any Three case rests on behavior (the unprompted tape, the 2020 schedule) and labels the motive as the author's inference."
+    },
+    {
+      "id": "subject-03",
+      "severity": "major",
+      "passage": "Why tape himself at all? He knew getting in front of the filmmakers \"wasn't necessarily going to be easy,\"",
+      "problem": "The draft asks the why question and answers it only with the ambiguous \"seen\" line. It leaves out his most direct first-person answer, which is in an already-cited source. TheWrap (S01) quotes him: \"I had known a little bit of Stallone's story, so I was like, 'This is going to be a great movie,' and I really wanted to be a part of it. It didn't seem very plausible to some people at the time, but I was really, really enthusiastic about it.\" On Collider (S20, 00:08-00:14) he says friends sent him the article \"cuz I had talked about Stallone's story and been inspired by it.\" The open case then lists \"loving the story and wanting in (Nine)\" as a future settle signal, though he has already said something close to it. Missing the subject's own stated reason is the main fairness gap in the draft.",
+      "acceptance_test": "The tape section quotes or closely paraphrases, with attribution, his TheWrap statement that he thought it would be a great movie, really wanted to be part of it and was \"really, really enthusiastic,\" plus his prior inspiration by Stallone's story. Settle signal 1 is reworded to say what this existing answer already suggests and what a long-form retelling would still need to show. The type comparison says which reading or readings this self-report supports. A new claim maps the quotation to S01."
+    },
+    {
+      "id": "subject-04",
+      "severity": "major",
+      "passage": "Then he takes the bold step anyway, which is how a Six who moves toward what scares him tends to look.",
+      "problem": "This sequence (names the fear, studies, then takes the bold step anyway) misorders the record and imputes a counterphobic motive he never describes. With Rocky, the bold step came first: the tape preceded casting. The only emotion he reported at that moment is \"a long shot... a creative exercise, and it was actually really fun\" and \"really, really enthusiastic\" (S01). The fear words (\"intimidation at the beginning\", \"daunting\", \"overwhelming\") come later and concern taking on the role and meeting Stallone. With Pacino there was no bold step at all: Papsidera recast the part after the first actor withdrew (S07). No source shows fear before the tape. The draft has built a \"despite fear\" story the record doesn't contain.",
+      "acceptance_test": "The leading-read paragraph describes the order the sources show: an enthusiastic, unprompted bid; then, once the role was his, stated intimidation answered by research. It drops \"takes the bold step anyway\" and the counterphobic framing, or cites a dated source where he describes fear before making the tape. Claim C37's inference is revised to match."
+    },
+    {
+      "id": "subject-05",
+      "severity": "major",
+      "passage": "That is his reading of Stallone, not a self-portrait, but it shows where his eye goes: to support, and to its absence.",
+      "problem": "Both quotations behind this inference are cut just before the part of his answer that points somewhere else. In Rome (S03) the lone-wolf line continues: \"He had so much going against him and he persevered through so much. His endurance, I think, radiates through Rocky.\" On Fandango (S17, segment c), \"not too many people in his corner at the time, other than a few\" continues: \"And he really did have the fortitude to keep going, even though a lot of odds were stacked against him.\" On THR (S15) he also stresses that Stallone \"really just endured a lot.\" In full, his recurring note is perseverance against odds, not support. Isolation is also the film's premise: AnnaSophia Robb, on the same Fandango panel, describes Sasha \"championing him when he had nobody in his corner.\" Reading a security motive into a lead actor repeating his film's underdog theme gives him an interior concern he never expressed.",
+      "acceptance_test": "Either the quotations are extended (or paraphrased) to include the perseverance and endurance halves, and the sentence notes that \"nobody in his corner\" is the film's own framing; or the \"where his eye goes\" inference is removed from the Six case. Claim C28's alternative field already records the film-framing point, and the prose now reflects it."
+    },
+    {
+      "id": "subject-06",
+      "severity": "minor",
+      "passage": "His recurring words are weight and fear, not winning.",
+      "problem": "This summary is selective. In the same answers that contain the fear words, he repeatedly uses joy and gratitude words: \"a freaking honor... I had so much fun\" (S04), \"actually really fun\" and \"really, really enthusiastic\" (S01), \"an absolute dream come true\" (S08, S19), \"it was a pleasure to do all of it\" (S16), \"it was great\" about the gym (S01), \"falling in love with these 70s pieces\" (S18), \"absolutely surreal\" (S21), and \"excited energy\" (S11). Reporters called him \"likable, cheerful\" (S31). The Type 3 FAQ repeats the overstatement (\"his own words keep returning to fear and responsibility rather than winning\"). Calling his vocabulary fear-dominant makes him sound more anxious than his recorded words do.",
+      "acceptance_test": "The body sentence and the Type 3 FAQ describe the vocabulary accurately, e.g. that fear and weight usually come paired with honor, fun and gratitude, and that winning language is absent. Neither passage implies that fear dominates his recorded speech."
+    },
+    {
+      "id": "subject-07",
+      "severity": "minor",
+      "passage": "Against it, he doesn't sell himself where it would be easy. He didn't tell his director about his best-known credit until asked.",
+      "problem": "The account is Farrelly's, not something Ippolito has described (C68). In it, the question came in pre-production, after the tape had already won him the role (S16: \"I didn't know what he had done ... we hired him ... literally in pre-production I said have you ever done other stuff\"). With the job secured, there was nothing left to sell, so \"where it would be easy\" overstates what the anecdote shows. The body itself says \"By then Ippolito already had the job,\" but this section and the Type 3 FAQ (\"Farrelly says he never mentioned playing Al Pacino until he was asked\") use it as a main reason Six stays ahead without that caveat. Separately, \"Ippolito kept ending sentences with a phrase Stallone used in his 1970s interviews\" appears in author voice, but it is Farrelly's caption-only account (S16 02:14-02:28).",
+      "acceptance_test": "The Type 3 section and the Type 3 FAQ attribute the anecdote to Farrelly and note that he was already cast when it happened, or the anecdote is demoted from a reason Six leads. The Stallone-phrase sentence is attributed to Farrelly."
+    },
+    {
+      "id": "subject-08",
+      "severity": "minor",
+      "passage": "Farrelly cut in: \"By the way, it wasn't much of a fight.\"",
+      "problem": "Cut off here, Farrelly's line reads like the director deflating his lead's \"I was fighting for it.\" In the THR video (S15, 09:40-09:46) he goes straight on: \"we never considered anyone else after him. In fact, we hadn't even started casting.\" That makes it a compliment: the tape ended the search. \"Cut in\" also frames an interruption the transcript doesn't clearly show.",
+      "acceptance_test": "The passage keeps Farrelly's next clause (\"we never considered anyone else after him\") or paraphrases its meaning, so readers can see the line was praise. \"Cut in\" is replaced with neutral attribution unless the video shows an interruption."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "All of it shows what he says and does in public, not what he feels.",
+      "reason": "A plain, early statement separating the public record from inference. This is the fairness boundary the whole open case depends on."
+    },
+    {
+      "passage": "Against it: the fear clusters where nearly anyone would feel it. Little else in the public record looks like a Six. There is no worst-case planning on display, no testing of loyalty, no wariness of authority.",
+      "reason": "Honest counterevidence placed right beside the leading read, without softening. It stops the type from being imposed on him."
+    },
+    {
+      "passage": "And Farrelly learned only in pre-production, by asking, that Ippolito had played Pacino, which Farrelly called \"the best part of The Offer.\" By then Ippolito already had the job.",
+      "reason": "Keeps a flattering anecdote honest by stating the limit that deflates it. That caveat should spread to the Type 3 section and FAQ (subject-07), not be cut."
+    },
+    {
+      "passage": "Stallone's verdict on _I Play Rocky_ depends on who's reporting it. Farrelly said at TIFF in September 2026 that Stallone watched the film alone and loved it.",
+      "reason": "Sets the director's claim against Stallone's own dated words (next paragraph) instead of choosing the flattering version. Fair to both Stallone and Ippolito."
+    },
+    {
+      "passage": "The only people on record who have worked with him or met him are Farrelly, Papsidera, Robb and Stallone, all in promotional or casting settings.",
+      "reason": "Names exactly whose testimony is missing and why the current third-party record is promotional. It is a concrete, fair limit, not a generic \"more interviews\" signal."
+    }
+  ],
+  "assessment": "Fairness proxy; does not speak for Ippolito. The draft handles the public record carefully: disputed accounts (tape sequence, Stallone's reaction, weight figures) are attributed and dated; critics on both sides are quoted; the fictional Grand Army assault storyline is kept separate from the actor; no allegations, diagnoses or childhood wounds are invented. The problems are in how the type contest frames his motives. The rival reading builds an image motive on the casting idiom \"seen\" (subject-02). The leading read rests on a \"bold step despite fear\" sequence the chronology does not show (subject-04) and on truncated Stallone quotations (subject-05). His own stated reason for the tape, enthusiasm for a story that had inspired him, is missing even though it appears in a cited source (subject-03). One factual error also needs fixing: the director says the body transformation came after casting, under the production's direction (subject-01). Together these make him look more fearful and more visibility-driven than his recorded words do. Restoring the omitted positive material may also bear on the live-alternative list; that is for the enneagram role to test. Checked against cached TheWrap, Screen Daily Rome and AAP texts and the Whisper/caption transcripts for THR, Collider, Fandango, IMDb, USA Today and AP. I did not re-listen to the audio. Open-case eligibility: eligible in my judgment. He is an adult. His first lead and first major public moment are 2025-2026 (Screen Daily calls I Play Rocky \"the breakout role\"). Grand Army (2020) was a one-season ensemble role that produced only short Q&As. Web searches on 2026-10-28 found no podcast, long-form profile or Purple Hearts press that research skipped; one Bare Magazine interview cited by TVovermind went unopened, a minor gap rather than a deep record. The title, description and type FAQ hold confidence at \"leading read, low confidence\", and the settle signals are concrete. Risk: contested_typing stays true; no new risk flags."
+}

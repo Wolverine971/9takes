@@ -1,0 +1,100 @@
+{
+  "schema_version": 3,
+  "role": "unfamiliar",
+  "content_sha256": "43c88b4c75a4c5b507c140099eae85c33a4a717bb7893e0a6e0a6c117c2c7774",
+  "evidence_sha256": "a2bfc37be03ef7bdaed51e33b71f0991d2934737335c9c8cffd41c72463994bf",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": true
+  },
+  "findings": [
+    {
+      "id": "unfamiliar-01",
+      "severity": "major",
+      "passage": "When the group left in late 2020, she led their side of the exit negotiations, which ended in a mutual non-disparagement agreement, The Atlantic reports.",
+      "problem": "The founding of Anthropic, the most consequential choice of her career, is never narrated. \"The group\" appears here and again in the closing section (\"Before the group left OpenAI\") without ever being defined. A reader who arrives knowing nothing never learns who left, when Anthropic was founded, or how the founders themselves explain the departure. The ending's mentor line (\"You already know what the right answer is\") depends on the reader feeling the weight of that exit, and it lands on an undefined event.",
+      "acceptance_test": "At or before the first mention, one or two sentences state plainly, dated and sourced, that the Amodeis and other OpenAI colleagues left at the end of 2020 and founded Anthropic. The co-founder count can come from her Isaacson line \"five co-founders along with the two of us\" (S29 05:31). Add her own one-line framing (e.g. \"running towards something\") with no new motive inference. Both later mentions of \"the group\" then resolve to that sentence."
+    },
+    {
+      "id": "unfamiliar-02",
+      "severity": "major",
+      "passage": "The usual cost is rigidity.",
+      "problem": "Readers are meant to come away knowing what the pattern costs her. This line names the cost inside a generic mechanism paragraph (\"A One notices the gap...\") that could sit in any Type 1 profile. The closing section then argues she is pragmatic, self-forgiving and charitable, which disproves the promised rigidity, so the reader never learns what keeping the bar high has cost Daniela. The draft already holds candidate costs it never calls costs. Brockman recruited her and toasted her wedding, and she now reportedly \"despises\" him. OpenAI rivals called her \"inflexible\" and accused her of \"abusing her power to create bureaucratic processes.\"",
+      "acceptance_test": "Option one: replace the generic cost line with the specific cost her record shows, attributed with its limits (unnamed or adversarial sources). Option two: state plainly that the public record shows little visible personal cost, and say what that means for the read. Either way, the \"few plain steps\" paragraph ties at least one step to a detail specific to her. Test: an unfamiliar reader can answer \"what has this pattern cost her?\" in one sentence after finishing the article."
+    },
+    {
+      "id": "unfamiliar-03",
+      "severity": "major",
+      "passage": "It threatened to designate the company a \"supply chain risk.\" Anthropic refused.",
+      "problem": "The section heading is \"When the right thing costs money,\" and the type answer rests on choices that cost her something. Yet the Pentagon thread stops at a threat, and the reader never learns what the refusal cost or how it ended. That OpenAI took the work comes up only about 20 paragraphs later, as a setup for the sibling contrast. The ads decision and the turned-away customers also carry no concrete cost. Without one, a newcomer can't judge how costly the \"costly choices\" were, and that cost is the discriminator they are asked to accept.",
+      "acceptance_test": "The Pentagon paragraph says what followed the refusal, dated and sourced. At minimum it notes that OpenAI took the work. It also gives the status of the threatened designation and contract, or says explicitly that the matter was unresolved as of the accuracy-check date, tracked as time_sensitive with a review_trigger. If the record holds no concrete cost for ads or customers, the heading and transitions say the choices risked revenue rather than implying a demonstrated loss."
+    },
+    {
+      "id": "unfamiliar-04",
+      "severity": "minor",
+      "passage": "Greg Brockman, a friend she had met at Stripe, recruited her to OpenAI.",
+      "problem": "Brockman, Altman and Murati are never identified by role (two are only linked). A reader who doesn't know OpenAI's leadership misses the stakes of the language-project standoff: a project co-lead refusing a company co-founder while the CEO asked whether there was any way to make it work. The same gap blunts the peer-review and safety-decisions episodes.",
+      "acceptance_test": "At first mention, Brockman is identified as an OpenAI co-founder with his title at the time (sourced), Altman as OpenAI's chief executive, and Murati with her role then. Each takes one clause; no new paragraph is added."
+    },
+    {
+      "id": "unfamiliar-05",
+      "severity": "major",
+      "passage": "In fairness, the sharpest line in that exchange came from Dario: \"You have no credibility on this matter.\"",
+      "problem": "This misframes the quote's context. In the Isaacson transcript (S29 ~15:48), Dario says skeptics who called scaling \"pseudoscience\" are now \"applying for jobs at like the LLM companies,\" and that \"we never say it out loud to any particular one,\" but this is what they think. Presented bare, the line reads as something he said to critics, and a newcomer can't tell who it is aimed at. The \"in fairness\" concession that balances the sibling contrast rests on that misreading.",
+      "acceptance_test": "The quote keeps its addressee and Dario's \"never say it out loud\" framing, or it is cut. Claim C46 records the surrounding context. The concession sentence is re-weighed to match: an unspoken retort is not the sharpest line spoken in the exchange."
+    },
+    {
+      "id": "unfamiliar-06",
+      "severity": "minor",
+      "passage": "When Isaacson asked about Altman directly (\"And you felt that about Sam?\"), she said, \"I think the co-founders are an unusually high integrity group of people.\" She judges conduct more readily than character.",
+      "problem": "A newcomer can't tell what \"that\" refers to: Dario had just said it is \"hard to know what someone's values are if they don't have the value of honesty\" (S29 20:44). They also can't tell which co-founders she meant. In the transcript she answers by praising Anthropic's own co-founders and their shared vision, a pivot away from judging Altman's honesty. As written it reads as a non sequitur, and the revealing part is lost: invited to call Altman dishonest, she declined.",
+      "acceptance_test": "The sentence includes Dario's honesty setup and makes clear that \"the co-founders\" are Anthropic's. Test: a reader with no prior knowledge can see she declined the invitation to judge Altman. \"She judges conduct more readily than character\" is phrased as the author's interpretation."
+    },
+    {
+      "id": "unfamiliar-07",
+      "severity": "minor",
+      "passage": "That contrast is an interpretation of two moments, but it fits a line she quotes with approval from Anthropic's chief people officer: \"Dario makes us ambitious and I make us successful.\"",
+      "problem": "As introduced, a reader parses \"I\" as the chief people officer. In the transcript (S29 05:31), Daniela says \"the way she put it is that Dario makes us ambitious and I make us successful,\" so \"I\" is Daniela. The line is also about vision versus execution, and it doesn't obviously fit the One-versus-Six contrast (rightness versus trust) the paragraph just drew. A newcomer won't see the link.",
+      "acceptance_test": "The quotation makes Daniela unambiguously the \"I\", for example by quoting from \"the way she put it is that\" or paraphrasing with attribution. Then either explain how ambitious-versus-successful bears on the One/Six contrast, or move the line to the orientation paragraph on their division of labor, where it already fits."
+    },
+    {
+      "id": "unfamiliar-08",
+      "severity": "minor",
+      "passage": "Under cost, she moves toward a standard, not toward approval or closeness. The ads decision, the Pentagon lines and the customers she turns away are each explained by what is right or honest, and none by loyalty.",
+      "problem": "The discriminator is stated in near-identical terms three times in the body: in the type answer (\"she explains the choice by what is right, not by whom she protected\"), after the Pentagon section (\"What separates her is what she leaves out\"), and here. The FAQ repeats it again. \"Why not Type 2?\" opens by re-listing evidence the reader has already seen: following Dario's interests, \"a supportive manager,\" the warm one. This is where momentum dips for an unfamiliar reader, and the draft runs 3,679 words (draft-checks.json), over the 2,000-3,500 target.",
+      "acceptance_test": "Argue the discriminator in full once and refer back to it elsewhere. The opening of \"Why not Type 2?\" keeps only Two evidence not yet shown (\"people leader\", \"expert in people\", the Fast Company translation line) and back-refers to the rest in a clause. The body lands at or under roughly 3,500 words with no source link, date or stated limit removed."
+    },
+    {
+      "id": "unfamiliar-09",
+      "severity": "minor",
+      "passage": "Their parents had moved from Italy to San Francisco in the 1970s.",
+      "problem": "The sentence follows Wired's lead sentence, but two sentences later the same Wired paragraph says their mother, Elena Engel, was \"a Jewish American born in Chicago.\" A newcomer will read both parents as Italian immigrants. Wired gives the distinguishing context: an Italian father, a leather craftsman from a town near Elba, and a Chicago-born mother who worked as a project manager for libraries.",
+      "acceptance_test": "The sentence distinguishes the parents as Wired does (Italian-born father, Chicago-born mother), and C02's claim text is updated to match. Wired also reports the father's illness and death; including it is an editor's call. If included, it is stated factually with no causal or type inference."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "At OpenAI, Daniela Amodei had an advisory council made of stuffed animals.",
+      "reason": "A specific, sourced, surprising opening that makes a stranger keep reading. It sets up the bear-versus-panda frame that pays off when she \"named both animals at once,\" a structural device that orients the reader to the article's central question without typology jargon."
+    },
+    {
+      "passage": "When Dario guessed he had followed \"three years later or something,\" she corrected him on the spot: \"Oh, not even. ... You got on board real quick.\"",
+      "reason": "A live, verified moment that shows her correcting the record, even her brother's, playfully and in public. Readers meet a person before a type, and it previews the article's 'correction' reading without stating it."
+    },
+    {
+      "passage": "For a supposed rule-lover, that's worth noticing. She left the institution most devoted to procedure because the procedure got in the way of the work.",
+      "reason": "A counterintuitive detail that complicates the thesis early. It teaches a newcomer that Type 1 is about standards for the work, not love of procedure, and it shows the article is willing to test its own reading."
+    },
+    {
+      "passage": "A Two and a One could both say that sentence. The Two hears \"help.\" The One hears \"a mess\" and \"functional.\"",
+      "reason": "The clearest teaching moment for a reader new to the Enneagram. In three short sentences it shows how the same quotation can be read two ways and where to listen for the difference."
+    },
+    {
+      "passage": "She named it the best advice she has ever received.",
+      "reason": "The ending stops at the story's natural point, on her own \"right answer\" language from the mentor's line just above it. It doesn't restate the thesis, which lets an unfamiliar reader draw the conclusion. Its weight depends on unfamiliar-01 being fixed."
+    }
+  ],
+  "assessment": "For a reader who knows nothing about her, the draft orients well after a strong hook. Within a few paragraphs they know her job, her brother, and the warm-versus-high-bar question the piece will test, and the promise (\"it isn't the one her reputation suggests\") is paid off. Momentum holds through the biography and the OpenAI episodes because each one states its sourcing and limit up front. The spreadsheet and \"Perfected?\" moments are vivid and specific. Three gaps cost the newcomer most. The founding of Anthropic is never narrated, and \"the group\" appears twice undefined (unfamiliar-01). The costly choices at the center of the discriminator are never shown to cost anything concrete; the Pentagon thread stops at a threat (unfamiliar-03). The piece never says what the high bar costs her: it promises \"rigidity,\" then disproves it (unfamiliar-02). Several Isaacson quotes lose context a newcomer needs, and one misframes Dario's unspoken retort as spoken (unfamiliar-05). The discriminator recurs three times and the draft runs 3,679 words, so trimming the recap in \"Why not Type 2?\" helps both pacing and length. Hedges are honest and mostly well placed. The editor should keep every stated limit while fixing these. The similarity advisory did not trip (max 0.051, at the noise-floor maximum). The top pairs share no phrases and match only generic frames (\"she told a ... audience\", identity and type vocabulary), so I found no meaningful reuse of other profiles' arguments. The one reusable passage is the generic One-mechanism paragraph, covered in unfamiliar-02. I confirm the research risk flags: sensitive allegations (the coup accusation, \"abusing her power\", \"despise\"), contested typing at medium confidence with Type 2 the live rival, and a major thesis change from the prior Type 2 hold."
+}

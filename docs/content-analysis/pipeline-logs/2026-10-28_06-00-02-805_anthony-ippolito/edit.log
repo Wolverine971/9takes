@@ -1,0 +1,33 @@
+I finished the Anthony Ippolito edit stage and wrote all three output files to the run folder. Nothing else was modified and nothing was published. All 47 reviewer findings are marked fixed, and all 18 passages the reviewers asked to protect are accounted for (11 kept word for word, 7 changed with reasons). The article passes the machine checks with no blockers, and the evidence file passes the contract validator.
+
+**Factual errors fixed**
+- **The body change came after casting.** Five of six reviewers caught this. Farrelly says on Collider that the production had him train after they had his tape, and that correction now leads that section. It no longer counts as something Ippolito did on his own, which also changes the arguments for Type 3 and against Type 9.
+- **The broken-hand audition was in 2019, not 2020.** Baruch's athletics site and his HollywoodLife interview both place it in his 2019 season.
+- **Quotes that had been cut short are now complete.** These include his "even if it didn't go my way," Farrelly's "He just made it happen," Stallone's "endurance" line, and Farrelly's "We never considered anyone else after him."
+
+**How the type case changed**
+- Type 6 is still the leading read at low confidence, so the type itself didn't change and no re-review is triggered.
+- The case for it is honest now. The old draft had him feel fear and then make the tape anyway, but the record shows he made it with enthusiasm and the fear words only came after he was cast. That sequence is gone.
+- The article now says 6 and 3 are nearly level, and that the fear he describes (being watched by Pacino or by fans) fits Type 3 as well as Type 6. It discounts his humble press-tour answers the same way it discounts his fear talk.
+- Six is listed first on one named, thin tiebreaker: he admits "I don't know how to do this," then studies his way through.
+- Type 4 is now mentioned and set aside, with sourced reasons.
+
+**Reader-facing changes**
+- New title: "Anthony Ippolito's Enneagram Type: An Open Case on the Star of I Play Rocky."
+- The opening now explains what the film is about and identifies Farrelly as the director of *Green Book*.
+- Facts likely to change ("as of October 2026", the release dates) are now dated.
+
+**Decision for you:** the body is about 3,150 words, against a target of roughly 2,500 for this kind of profile. Majors from five of the six reviewers required adding sourced detail, and I cut several minor passages to make room. Getting to 2,500 would mean dropping some of that detail. If you'd rather have the shorter page, I'd cut the Type 4 section and the casting director's quote first.
+
+**Not resolved**
+- **People interview not found.** A secondary site quotes Ippolito saying Stallone and his wife were "really big fans" of the film. I couldn't find the original People interview, so the Stallone FAQ still gives only Farrelly's and Stallone's accounts. This is logged as a research task.
+- **One speaker unconfirmed.** At the Hollywood Reporter interview, someone answers "No." to whether he ever hesitated to take the role. I couldn't confirm it was him, so it isn't quoted; a frame check is logged.
+
+The next step is the independent verifier, which also has to confirm he still qualifies as an early-career open case.
+
+Files are in `docs/content-analysis/pipeline-logs/2026-10-28_06-00-02-805_anthony-ippolito/`:
+- edit.md
+- evidence-edit.json
+- resolution-edit.json
+
+Source used for the People search: [Fans Praise Anthony Ippolito's Muscular Transformation (Gay Express)](https://gayexpress.co.nz/2026/07/fans-praise-anthony-ippolitos-muscular-transformation-for-i-play-rocky/) (it did not have the People quote).

@@ -1,0 +1,29 @@
+The research stage finished, and the evidence supports your Type 1 call. I wrote only `docs/content-analysis/pipeline-logs/2026-10-28_03-37-43-950_daniela-amodei/evidence.json`. It passes the pipeline's `validateEvidence` check, and nothing was published.
+
+**Result:** ready, Type 1 at medium confidence, Type 2 as the alternative, standard page (not an open case). It has 26 sources (25 opened) and 65 claims. Where the 10-06 run had already recorded a source or claim, I kept its ID.
+
+**Why 1 beats 2:** when a principle costs her something, she explains it by what was right: the Pentagon red lines, no ads despite investor pressure, turning away customers. She never says she was protecting Dario or her staff. Her signature management moves apply to everyone, herself included:
+- the 2021 spreadsheet that made every employee give every other one feedback, with completion tracked;
+- six-monthly reviews that "includes me and [Dario]";
+- "no tolerance" for going behind a colleague's back.
+
+She also says her goal in any job only she can do is to get herself out of it. A Two needs to be needed. In the Isaacson interview she asks whether OpenAI's Pentagon move was "principled" or "opportunistic," and Dario immediately softens it. That one exchange also separates her One from his Six.
+
+**The Two side is on the page, not hidden:** "do-gooder," "supportive manager," "people leader," and following Dario into her first field. So are the points against a rigid One: she's relaxed about her own mistakes, excused the doctors who misdiagnosed her, retired a company value because not everyone loved it, and values changing her mind.
+
+**Three things I corrected while checking the leads:**
+- **Brockman episode:** the WSJ says Dario wanted Brockman off the language project before she blocked him, so that episode reads as loyalty to Dario as easily as a principle. Like the Altman confrontation, it's recorded as disputed and used only to back up other evidence, not to carry the argument.
+- **Board-review line:** "includes me and [Dario]" is from the Kleiner podcast (~94:03), not Sixth Street.
+- **Isaacson 40:15:** "I want to heal and I want to help you" is her speaking as an imagined doctor, so it can't be quoted as her own wish to help.
+
+**Risks flagged:** sensitive allegations, contested typing, and a thesis change (the held 10-06 run leaned Type 2). These send the draft to the full six-reviewer panel.
+
+**Still open, none blocking:**
+- on-record accounts of the OpenAI fights;
+- a named colleague describing how she reacts when someone cuts a corner (this would raise confidence to high);
+- who says "I credit Daniela with keeping the bar high" in the co-founders video (the draft must say "a co-founder" until identified);
+- The Times (2024) and TIME (May 2024) pieces, still unread;
+- typing mentions on Personality Database and Reddit, which were blocked;
+- before publishing, the IPO status and her titles.
+
+I also updated the Daniela memory note with these findings.

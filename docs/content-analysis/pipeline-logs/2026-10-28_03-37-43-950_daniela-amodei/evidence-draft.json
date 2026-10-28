@@ -1,0 +1,1861 @@
+{
+  "schema_version": 3,
+  "subject": "daniela-amodei",
+  "status": "ready",
+  "research_tasks": [
+    "Still open from 2026-10-06: seek on-record accounts of the WSJ, Atlantic and New Yorker OpenAI episodes (S13, S12, S39): the language-project standoff, Brockman's March 2020 peer review and her rebuttal, the Altman \"coup\" confrontation, the Murati clash. Until then C19-C21 stay disputed and corroborative only.",
+    "Find named testimony about how she reacts when someone misses a standard or cuts a corner (Stripe era: verify whether Claire Hughes Johnson was her mentor; Anthropic: identify the chief people officer she quotes in S29 05:31). This is the evidence that would move confidence to high, or toward Two if colleagues describe repair and approval-seeking instead.",
+    "Identify the speakers in S38 at 00:34:29-00:34:40 (\"I credit Daniela with keeping the bar high\"; \"Chief clown wrangler! That's my job.\") from video before attributing either line to a named person; until then the draft must say \"a co-founder.\"",
+    "Confirm by video the speaker of the S14 \"professional warmth\" line and the S31 \"standing up for our customers\" passage before quoting either as Daniela's without qualification.",
+    "Read The Times (2024-06-24, S26) and TIME's May 2024 Anthropic feature for first-person motive statements; both remain unretrieved.",
+    "Typology mentions (Personality Database, Reddit) were blocked and are unchecked; check before claiming the reading is novel or consensus.",
+    "Before publication: recheck IPO status, S-1 amendments, and her titles and reporting lines (C35, C77, C78, C121).",
+    "Draft stage (2026-10-28): the \"Yes. Yes.\" answer to \"Weren't you scared\" on the Oprah podcast (S30 ~30:38) has an ambiguous speaker in the captions; the draft quotes only the following Daniela run (\"it was a hard time\"). Confirm by video before quoting \"Yes. Yes.\" as hers.",
+    "Draft stage (2026-10-28): S41 (Anthropic's February 26, 2026 statement) was added to date the Pentagon dispute; it is Anthropic's account of the Pentagon's position. Recheck the dispute's legal status before publication (C104)."
+  ],
+  "accuracy_checked_at": "2026-10-27",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": true
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.gsb.stanford.edu/insights/daniela-amodei-says-curiosity-underrated",
+      "title": "Daniela Amodei Says Curiosity Is Underrated (Stanford GSB View From The Top, podcast transcript)",
+      "speaker": "Daniela Amodei, interviewed by Gintare Zukauskaite",
+      "date": "2026-06-29 (posted; recorded spring 2026)",
+      "locator": "Untimed transcript; sections: background/\"mindset\" answer, AI safety definition, co-founder advice, \"AI use cases\" answer, sibling-relationship answer, \"best advice\" rapid-fire",
+      "excerpt": "\"there's something that feels really wrong to me about the fact that I was born in America ... How do I make that more fair?\"; \"People love people. People are going to want to report to me.\"; \"You already know what the right answer is.\"",
+      "context": "Solo hour-long student interview. The fairness line explains her move into international development; the \"People love people\" line is a self-mocking joke about assuming AI will not replace her; the \"right answer\" line is a mentor's advice before leaving OpenAI. Rechecked 2026-10-27 against the cached transcript.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S02",
+      "url": "https://futureoflife.org/podcast/daniela-and-dario-amodei-on-anthropic/",
+      "title": "Daniela and Dario Amodei on Anthropic (Future of Life Institute Podcast, transcript)",
+      "speaker": "Daniela Amodei and Dario Amodei, interviewed by Lucas Perry",
+      "date": "2022-03-04",
+      "locator": "Untimed transcript; Daniela's background answers (international development; \"classic do-gooder\")",
+      "excerpt": "\"it was an interest area of Dario's at the time ... I was very keen to understand the things that he was working or interested in\"; \"a friend at an old job used to call me, the classic do-gooder\"",
+      "context": "Her earliest long-form interview. She explains her entry into global development partly as following Dario's interests, and describes herself through a friend's label. Rechecked 2026-10-27.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S03",
+      "url": "https://www.notion.com/blog/first-block-with-daniela-amodei",
+      "title": "First Block with Daniela Amodei, President and Co-founder at Anthropic (Notion)",
+      "speaker": "Daniela Amodei, interviewed by Akshay Kothari",
+      "date": "2023-12-19",
+      "locator": "Auto-caption minute markers ~04 (time horizons), ~06 (payroll), ~10 (themed days), ~38 (memoir titles)",
+      "excerpt": "\"he is often thinking about like the five to 10 year time frame right and really my role is around you know what is the one to two year time frame\"; payroll \"which like we messed up multiple times\"; \"probably like 70% hit rate\"; memoir title \"I need an adult\"",
+      "context": "Solo interview about operating Anthropic. The memoir titles were Claude's suggestions; she says \"I need an adult\" resonated. Rechecked 2026-10-27.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S04",
+      "url": "https://stvp.stanford.edu/node/10761/printable/print",
+      "title": "‘Helpful, Honest, Harmless’ AI [Entire Talk] (Stanford eCorner, Entrepreneurial Thought Leaders)",
+      "speaker": "Daniela Amodei, interviewed by Emily Ma",
+      "date": "2024-02-14",
+      "locator": "Untimed transcript; self-awareness answer, managing-technical-leaders answer, career answer (Capitol Hill), customers answer",
+      "excerpt": "\"I'm a supportive manager. I really want people to succeed. And I also hold a high bar.\"; \"I probably shouldn't even be the arbiter.\"; \"It just was slow and bureaucratic\"; \"we don't wanna sell you a bill of goods\"",
+      "context": "Solo talk. The supportive/high-bar line is her summary of what her reports say about her. Rechecked 2026-10-27.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S06",
+      "url": "https://www.fastcompany.com/90948058/how-anthropics-daniela-amodei-is-keeping-ai-grounded-in-safety",
+      "title": "How Anthropic’s Daniela Amodei is keeping AI from spinning out of control (Fast Company)",
+      "speaker": "Mark Sullivan (Fast Company), quoting Daniela Amodei",
+      "date": "2023-09-06",
+      "locator": "Body, paragraphs on her role and on Dario",
+      "excerpt": "\"I personally think Dario is the most impressive technical visionary in this space ... I really view my job as helping to take that vision ... and help to actually translate it into sets of operating norms\"",
+      "context": "Profile interview from the AI 20 package. Rechecked 2026-10-27 from cached copy.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S09",
+      "url": "https://www.wired.com/story/anthropic-benevolent-artificial-intelligence/",
+      "title": "If Anthropic Succeeds, a Nation of Benevolent AI Geniuses Could Be Born (Wired)",
+      "speaker": "Steven Levy (Wired), quoting Daniela Amodei",
+      "date": "2025-03-28",
+      "locator": "Family-background section; effective-altruism section",
+      "excerpt": "\"Dario was born in 1983 and Daniela four years later\"; \"as kids they played games in which they saved the world\"; \"I'm not the expert on effective altruism. I don't identify with that terminology.\"",
+      "context": "Long Dario profile with a section on the family. Biographical facts are Levy's reporting. Rechecked 2026-10-27.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S12",
+      "url": "https://www.theatlantic.com/technology/2026/09/openai-v-anthropic-inside-biggest-rivalry-tech/688819/",
+      "title": "Inside the Biggest Feud in Artificial Intelligence (The Atlantic, book excerpt; also headlined \"OpenAI vs. Anthropic\")",
+      "speaker": "Kevin Roose (The Atlantic), with unnamed colleagues and on-record Daniela Amodei",
+      "date": "2026-09-29",
+      "locator": "OpenAI section (Brockman, Murati, stuffed animals, \"Dario had a habit\"); exit-negotiation section; 2025 office-visit section",
+      "excerpt": "\"some employees viewed Daniela as her brother's high-EQ counterpart\"; \"the third member of an inflexible triumvirate\"; \"It's stressful on every dimension ... it's scary because we can lose it at any time\"; \"still despise Altman and Brockman, according to several people who know them well\"; a former colleague on Dario: \"We must do X; it is the morally correct thing to do.\"",
+      "context": "Paywalled; read in full through a Wayback capture cached outside the repo. Characterizations of her at OpenAI and the \"despise\" line come from unnamed sources; the stress quote is her on-record statement to Roose.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S13",
+      "url": "https://www.tovima.com/wsj/the-decadelong-feud-shaping-the-future-of-ai/",
+      "title": "The Decadelong Feud Shaping the Future of AI (The Wall Street Journal, syndicated by To Vima)",
+      "speaker": "Keach Hagey and Berber Jin (The Wall Street Journal)",
+      "date": "2026-03-28",
+      "locator": "Sections on the language project, the conference-room blowup, the March 2020 peer reviews, \"The final split\"",
+      "excerpt": "\"Brockman wanted a role ... but Dario ... wanted him nowhere near it\"; \"she offered to step down as head of the project rather than allow Brockman on it\"; \"Daniela called that executive into the room\"; \"prompting the Amodeis to begin shouting angrily at him\"; Brockman feedback \"accusing her of abusing her power to create bureaucratic processes to get her way\"; \"Daniela delivered a long response, rebutting him point by point.\"",
+      "context": "Reported from unnamed sources; Daniela, Brockman and Altman are not quoted on these episodes. The language-project paragraph establishes that Dario opposed Brockman's involvement before Daniela told him no and that Radford did not want to work with him. Syndicated full text; not independent of the WSJ.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S14",
+      "url": "https://www.youtube.com/watch?v=v1wZwxY3CMg",
+      "title": "Inside Anthropic, the $965 Billion AI Juggernaut | The Circuit (Bloomberg Originals)",
+      "speaker": "Daniela Amodei and Dario Amodei, interviewed by Emily Chang",
+      "date": "2026-06-10",
+      "locator": "00:01:20-00:01:29 (\"who wins\"); 00:07:20 (\"professional warmth\")",
+      "excerpt": "\"Okay, but when you argue, who wins?\" / \"No one.\" / \"No one.\"; \"I like to describe it as professional warmth. So, the goal is not for it to be your best friend, but it's not for it to be sort of cold, rote, calculating. It should feel approachable, but distant, right?\"",
+      "context": "Documentary with unlabeled captions. Attribution of the \"professional warmth\" line to Daniela is probable, not confirmed; both siblings appear to answer \"No one.\"",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S17",
+      "url": "https://fortune.com/2025/02/13/anthropic-hired-president-daniela-amodei-husband-ai-safety-responsible-scaling/",
+      "title": "Anthropic hired president Daniela Amodei's husband to work on the company's AI safety strategy (Fortune)",
+      "speaker": "Jessica Mathews (Fortune), with confirmation from an Anthropic spokesperson",
+      "date": "2025-02-13",
+      "locator": "Opening paragraphs",
+      "excerpt": "\"Holden Karnofksy, Daniela Amodei's husband, joined Anthropic last month as a member of the startup's “technical staff,” a company spokesperson confirmed.\"",
+      "context": "News item; spokesperson-confirmed. Rechecked 2026-10-27 from cached copy.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S18",
+      "url": "https://cheekypint.transistor.fm/5/transcript",
+      "title": "Cheeky Pint #5: Anthropic CEO Dario Amodei (transcript)",
+      "speaker": "Dario Amodei, interviewed by John Collison",
+      "date": "2025-08-06",
+      "locator": "Opening exchange on starting a company with a sibling",
+      "excerpt": "\"You need to operationally execute, and you need to have a good strategy ... And so my job is the second and Daniela's job is the first.\"",
+      "context": "Dario describing the division of labor; interested but close testimony.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S20",
+      "url": "https://techcrunch.com/2026/06/10/anthropics-dario-amodei-has-just-one-direct-report/",
+      "title": "Anthropic's Dario Amodei has just one direct report (TechCrunch)",
+      "speaker": "Connie Loizos (TechCrunch), summarizing Dario Amodei's Bloomberg interview",
+      "date": "2026-06-10",
+      "locator": "Opening paragraphs",
+      "excerpt": "\"he has just one direct report — his chief of staff. Everyone else on Anthropic's executive team reports to his sister, co-founder and president Daniela Amodei\"",
+      "context": "Write-up of S14. Not independent of S14 for this fact.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S22",
+      "url": "https://darioamodei.com/essay/the-adolescence-of-technology",
+      "title": "The Adolescence of Technology (essay)",
+      "speaker": "Dario Amodei",
+      "date": "2026-01",
+      "locator": "Section on wealth and philanthropy (per the 2026-10-06 run)",
+      "excerpt": "All of Anthropic's co-founders have pledged to donate 80% of their wealth (paraphrase recorded by the 2026-10-06 run).",
+      "context": "Opened by the 2026-10-06 run; not reopened 2026-10-27. Corroborated by an unlabeled co-founder in S38 (\"We did the 80% pledge thing\").",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S26",
+      "url": "https://www.thetimes.com/business-money/companies/article/anthropic-boss-daniela-amodei-makes-her-pitch-for-trustworthy-ai-hnw37q50z",
+      "title": "Anthropic boss Daniela Amodei makes her pitch for ‘trustworthy’ AI (The Times)",
+      "speaker": "Katie Prescott (The Times)",
+      "date": "2024-06-24",
+      "locator": "Not available: the cached fetch returned navigation and headline only",
+      "excerpt": "Headline and standfirst only: \"Daniela Amodei is on a mission to build the tech safely\"",
+      "context": "Paywalled. Not used for any claim.",
+      "kind": "secondary",
+      "access": "unavailable"
+    },
+    {
+      "id": "S29",
+      "url": "https://www.youtube.com/watch?v=1OdoSzfUkec",
+      "title": "The Builders with Walter Isaacson: Dario and Daniela Amodei (YouTube)",
+      "speaker": "Daniela Amodei and Dario Amodei, interviewed by Walter Isaacson",
+      "date": "2026-10-27",
+      "locator": "03:13-04:05 (vegetarian); 05:31 (chief people officer); 07:17 (values at home); 10:30 (philosophical traditions); 15:20 (critics); 16:23 (GPT-2); 18:55 (good faith, Dario); 20:53 (Sam question); 24:57 (sycophancy, ads); 34:17-34:56 (OpenAI and the Pentagon); 40:15 (meaning, medicine)",
+      "excerpt": "\"was this a really principled stand that another technology company took based on their own ethics or was this an opportunistic moment?\" (Daniela, 34:17); \"I actually think it's a beautiful illustration of the democratic process.\" (Dario, 34:56); \"I think you were quite polite about it, but\" (Daniela, 15:20); \"There wasn't something about GBT2, the model itself that made us, you know, concerned\" (Daniela, 16:23)",
+      "context": "Joint 42-minute interview. Speaker labels come from voice separation (pitch track plus per-speaker voice models, 97/97 Daniela matches on held-out audio) checked against a second Whisper transcription; full labeled transcript cached outside the repo at ~/.cache/9takes-research/daniela-amodei/isaacson/labeled.txt. Known boundary errors: the 18:49 segment labeled N (\"Look these safety issues are difficult\") runs into Dario's 18:55 answer and is treated as Dario. At 40:15 the \"I want to heal and I want to help you\" line is Daniela voicing an imagined doctor, not a first-person statement.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S30",
+      "url": "https://www.youtube.com/watch?v=w5dJqHilu5s",
+      "title": "The Co-Founders of Claude AI Tell Oprah (The Oprah Podcast)",
+      "speaker": "Daniela Amodei and Dario Amodei, interviewed by Oprah Winfrey",
+      "date": "2026-05-19",
+      "locator": "Speaker runs ~07:58 (siblings time); 30:38-31:35 and 32:29-33:37 (Pentagon dispute); 34:47-36:01 (no-ads decision); ~60:01 (accountability)",
+      "excerpt": "\"the thing that we all had in common was we just felt like this was the right thing to do\"; \"look, this is the right thing to do. These are the right red lines.\"; \"there were quiet forces that, you know, within the company or investors who were like, hey, this is a great source of revenue ... And we just said like, sorry, that's just not how we're going to do things. We'll find another way.\"; \"Dario comes over, he plays with my kids\"; \"Dario and I I also think we hold each other accountable\"",
+      "context": "Joint interview; speaker runs separated by pitch (female run = Daniela). Asked \"Weren't you scared of what would happen to you\", she answered \"Yes. Yes.\" before the \"right thing to do\" line. Cached outside the repo (joint/oprah_runs.txt).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S31",
+      "url": "https://www.youtube.com/watch?v=7xco5Qd2Oo8",
+      "title": "A conversation with Dario Amodei & Daniela Amodei (Code with Claude)",
+      "speaker": "Daniela Amodei and Dario Amodei, with an Anthropic host",
+      "date": "2026-05-06",
+      "locator": "Whisper run 20:01-22:59 (product answer)",
+      "excerpt": "\"we want it to be useful for people, we want it to be accessible. We want the product to be good, right? ... we're standing up for our customers, we're standing up for our users\"",
+      "context": "No captions; Whisper transcript with pitch-separated runs. The female run also contains the host, so attribution of this passage to Daniela is probable (she says \"Dario and I both\").",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S32",
+      "url": "https://www.youtube.com/watch?v=BhUyWzf7cWc",
+      "title": "Grit podcast: Daniela Amodei (Kleiner Perkins)",
+      "speaker": "Daniela Amodei, interviewed by Joubin Mirzadegan",
+      "date": "2024-02-12 (upload date)",
+      "locator": "15:50 (\"adults\"); 52:30 (\"reject that idea\"); 82:53-85:42 (working-with-me guide, \"triggers\" question); 88:31 (\"no surprises\"); 90:09-92:24 (feedback spreadsheet); 94:03 (performance reviews)",
+      "excerpt": "\"I made everyone go do that and they had to Mark in the spreadsheet when they had done it\"; \"that includes me and dar we get reviews from the board\"; \"what's the thing that triggers you\"; \"I'm actually not an expert in any field I'm an expert in people\"; \"my number one goal is getting myself out of that job\"; \"what I want is no surprises\"; \"I really sort of reject that idea\"",
+      "context": "Long solo interview (~100 min). Auto-captions: \"dar\" = Dario; \"I think in my heart the thing I most m is a people leader\" is garbled. The spreadsheet tracked completion, not content (\"it's an accountability system\", probable Daniela in a quick exchange).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S33",
+      "url": "https://www.youtube.com/watch?v=bXT3ciKUHak",
+      "title": "Frameworks for Growth: Daniela Amodei (Vanta)",
+      "speaker": "Daniela Amodei, interviewed by Christina Cacioppo",
+      "date": "2025-06-13",
+      "locator": "08:19 (values); 12:12 (retired value); 13:48 (culture interview)",
+      "excerpt": "\"if they're not creating tension they're probably too bland\"; \"you need to be able to back up any value with 10 examples like off the top of your head\"; \"how have you defended those beliefs in kind of uncomfortable situations for yourself because you felt it was the right thing to do\"; \"or I changed my mind because I actually realized, you know, I wasn't right about this\"; \"if not everyone loves it ... people are not going to use it\"",
+      "context": "Solo interview on company building.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S34",
+      "url": "https://sixthstreet.com/podcasts/",
+      "title": "It's Not Magic (Sixth Street podcast), San Francisco season: Daniela Amodei",
+      "speaker": "Daniela Amodei, interviewed by Sixth Street hosts",
+      "date": "2026-02-19",
+      "locator": "Whisper timestamps 30:10 (culture interview); 33:34-34:06 (integrity, \"no tolerance\")",
+      "excerpt": "\"We have a culture interview that we have perfected over the five years\" / \"Perfected?\" / \"Yes, yes\"; \"something that feels the most important to me about our culture at Anthropic is this concept of integrity\"; going behind a colleague's back: \"We have no tolerance for that.\"",
+      "context": "YouTube blocked; Acast mp3 transcribed with Whisper, cached outside the repo (agentB/audio/sixthstreet.txt). Episode page is the podcast index URL.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S35",
+      "url": "https://www.youtube.com/watch?v=Kfz-NxEvu-U",
+      "title": "Anthropic President Amodei on the Future of Claude (Bloomberg Live)",
+      "speaker": "Daniela Amodei, Bloomberg Tech interview",
+      "date": "2026-06-04",
+      "locator": "02:14-02:47 (disagreeing with Dario); 03:21-04:27 (\"wrong way to think\")",
+      "excerpt": "\"usually he'll have a piece of information that I don't have ... about 80 to 90% of the time what ends up happening is we meet in the middle\"; \"that is just completely the wrong way to think\"; \"build and develop this technology in a way that is ethical, that's responsible, that's fair\"",
+      "context": "Stage interview; the \"wrong way to think\" answer rejects the premise that Anthropic is now the front-runner.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S36",
+      "url": "https://www.youtube.com/watch?v=qUDG06BvWxc",
+      "title": "ABC News full interview: Anthropic president Daniela Amodei (Rebecca Jarvis)",
+      "speaker": "Daniela Amodei, interviewed by Rebecca Jarvis",
+      "date": "2026-02-07",
+      "locator": "19:06",
+      "excerpt": "\"So harmlessness is not the priority.\" / \"I don't think I would put it that way.\"",
+      "context": "Auto-captions with unreliable speaker markers; the exchange is clear from content.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S37",
+      "url": "https://www.youtube.com/watch?v=IEQJmtTqY2g",
+      "title": "Arianna Huffington in conversation with Daniela Amodei (YouTube)",
+      "speaker": "Daniela Amodei, interviewed by Arianna Huffington",
+      "date": "2026-10-22 (upload date)",
+      "locator": "08:36-10:52 (self-reflection question; AI companions); 42:37-43:09 (misdiagnosis)",
+      "excerpt": "\"I think that's a terrible use of AI and people should not do it.\"; \"this is not because any of those are bad doctors, right? They're really busy.\"",
+      "context": "Asked about being \"self-reflective, about learning from mistakes\", she answered about social media and technology rather than her own mistakes. The doctors line is part of a personal health story; use only her framing, if at all.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S38",
+      "url": "https://www.youtube.com/watch?v=om2lIWXLLN4",
+      "title": "Building Anthropic | A conversation with our co-founders (Anthropic)",
+      "speaker": "Anthropic co-founders including Daniela Amodei (captions unlabeled)",
+      "date": "2024-12-20",
+      "locator": "00:16:39-00:17:46 (joining OpenAI); 00:34:14 (80% pledge); 00:34:29-00:34:40 (\"keeping the bar high\")",
+      "excerpt": "\"it seems like they're a little bit of a mess\"; \"I felt a very strong desire to come and sort of just try to help make the company a little more functional\"; \"I credit Daniela with keeping the bar high.\" / \"Keeping out the clowns.\" / \"Chief clown wrangler! That's my job.\"",
+      "context": "Seven co-founders on camera; captions do not label speakers. The OpenAI lines are Daniela's own story (she describes running people and the language team). \"I credit Daniela with keeping the bar high\" is an unidentified co-founder; \"Chief clown wrangler\" is probably Daniela.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S39",
+      "url": "https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted",
+      "title": "Sam Altman May Control Our Future—Can He Be Trusted? (The New Yorker)",
+      "speaker": "Ronan Farrow and Andrew Marantz (The New Yorker)",
+      "date": "2026-04-13",
+      "locator": "Paragraph on the Microsoft deal and the \"coup\" accusation",
+      "excerpt": "\"Daniela, the notes continue, “lost it,” and brought in that executive, who denied having said anything.\"; \"“You just said that,” Daniela replied.\"; \"Altman said that this was not quite his recollection, and that he had accused the Amodeis only of “political behavior.”\"",
+      "context": "Based on Dario's contemporaneous notes plus \"one person briefed on the exchange\"; Altman disputes it. Interested-party sourcing.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S40",
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "title": "Anthropic, PBC Form S-1 Registration Statement (SEC)",
+      "speaker": "Anthropic, PBC",
+      "date": "2026-10-26",
+      "locator": "Cover page; Founder Voting Structure; Management (executive officers and directors table; Ms. Amodei biography); Executive Compensation",
+      "excerpt": "\"Daniela Amodei, our President and Chairperson of our board of directors\"; table: \"Daniela Amodei ... 39 President, Co-Founder, Chairperson, and Director\"; \"Each co-founder is paid equal compensation.\"; Class F votes \"equals 50.1%\"",
+      "context": "Ages given as of September 30, 2026. The biography lists OpenAI roles (VP of Safety and Policy, VP of People, Engineering Manager, Oct 2018-Dec 2020), Stripe Risk Manager among other positions (May 2013-July 2018), B.A. English Literature, UC Santa Cruz.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S41",
+      "url": "https://www.anthropic.com/news/statement-department-of-war",
+      "title": "Statement from Dario Amodei on our discussions with the Department of War (Anthropic)",
+      "speaker": "Dario Amodei (Anthropic)",
+      "date": "2026-02-26",
+      "locator": "Paragraphs on the two excluded use cases and on the Department's \"any lawful use\" demand and threats",
+      "excerpt": "Two such use cases have never been included in our contracts with the Department of War ... Mass domestic surveillance ... Fully autonomous weapons ... The Department of War has stated they will only contract with AI companies who accede to \"any lawful use\" and remove safeguards in the cases mentioned above. They have threatened to remove us from their systems if we maintain these safeguards; they have also threatened to designate us a \"supply chain risk\" ... we cannot in good conscience accede to their request.",
+      "context": "Anthropic's own published statement, opened 2026-10-28 by direct fetch. It is the company's account of the Pentagon's demand, not the Pentagon's. Used only to date and describe the dispute that Daniela discusses in S29 and S30.",
+      "kind": "primary",
+      "access": "opened"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "Daniela Amodei was born in 1987, four years after Dario (born 1983), and grew up in San Francisco's Mission District (Wired). The S-1 gives her age as 39 on September 30, 2026. Birth year only; no full date is supported.",
+      "passage": "She was born in 1987, four years after Dario, and the two grew up in San Francisco's Mission District",
+      "class": "third_party",
+      "source_ids": [
+        "S09",
+        "S40"
+      ],
+      "inference": "Wired dates her birth relative to Dario's; the S-1 age is consistent with 1987 but alone allows late 1986.",
+      "alternative": "If a precise date surfaces, it may fall in late 1986; never render as January 1.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C02",
+      "claim": "Her parents, Elena Engel and Riccardo Amodei, moved from Italy to San Francisco in the 1970s.",
+      "passage": "Their parents had moved from Italy to San Francisco in the 1970s.",
+      "class": "third_party",
+      "source_ids": [
+        "S09"
+      ],
+      "inference": "Biographical background only; no causal childhood claim is made.",
+      "alternative": "The draft omits the father's illness and death to avoid a wound narrative she has not offered in the sources read.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C03",
+      "claim": "She studied liberal arts and music in high school, won a classical-flute scholarship, and holds a B.A. in English Literature from UC Santa Cruz.",
+      "passage": "She won a classical-flute scholarship in high school and later earned a B.A. in English literature at UC Santa Cruz.",
+      "class": "third_party",
+      "source_ids": [
+        "S09",
+        "S40"
+      ],
+      "inference": "Stable biography.",
+      "alternative": "None material.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C04",
+      "claim": "She says a friend at an old job used to call her \"the classic do-gooder\"; in 2026 she applied the label to herself (\"I would call myself like a classic [do-gooder]\", auto-caption garbled).",
+      "passage": "A friend at an old job, she said, used to call her \"the classic do-gooder.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S29"
+      ],
+      "inference": "A self-identity of doing good, ambiguous between One and Two.",
+      "alternative": "Retrospective framing for a mission-driven company.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C05",
+      "claim": "She left Capitol Hill quickly: \"this is extremely not for me ... It just was slow and bureaucratic and I missed the campaign days of getting to build something together with a small group of, you know, motivated people.\"",
+      "passage": "Capitol Hill didn't last: \"It just was slow and bureaucratic,\" she said at Stanford in 2024.",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "She rejects bureaucracy as slow; she does not describe process as a value in itself.",
+      "alternative": "Counts against a rule-for-its-own-sake reading of Type 1; fits Two (small motivated group) or Three (impact, speed) as easily.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C06",
+      "claim": "She worked at Stripe from May 2013 to July 2018, joining when it had about 40 people; she managed recruiting and later worked in risk (S-1: \"Risk Manager, among other positions\").",
+      "passage": "She joined Stripe in May 2013, when it had about 40 people, managed recruiting and later worked in risk.",
+      "class": "third_party",
+      "source_ids": [
+        "S40",
+        "S01",
+        "S02",
+        "S04"
+      ],
+      "inference": "Dates and risk role from the S-1; headcount from her interviews; recruiting from the Stanford eCorner speaker introduction.",
+      "alternative": "None material.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C07",
+      "claim": "She left Stripe in July 2018 because payments \"didn't sort of feel like fully meeting this other aim or goal that I had around wanting to like, positively impact the world.\"",
+      "passage": "She left in July 2018 because payments didn't fully meet her aim of \"wanting to like, positively impact the world.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S04",
+        "S40"
+      ],
+      "inference": "Impact framing is her own; the date is from the S-1.",
+      "alternative": "Mission language is standard founder narration.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C08",
+      "claim": "At OpenAI from October 2018 to December 2020 she held roles including VP of Safety and Policy, VP of People and Engineering Manager (S-1).",
+      "passage": "she held roles including vice president of safety and policy, vice president of people and engineering manager, according to Anthropic's S-1",
+      "class": "third_party",
+      "source_ids": [
+        "S40"
+      ],
+      "inference": "Roles and dates from the S-1.",
+      "alternative": "None material.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C09",
+      "claim": "She describes a lifelong closeness with Dario: \"We were always just like best friends like since we were really little.\"",
+      "passage": "\"We were always just like best friends like since we were really little,\" she told Walter Isaacson",
+      "class": "self_report",
+      "source_ids": [
+        "S29"
+      ],
+      "inference": "Closeness is consistent across 2025-2026 sources.",
+      "alternative": "Closeness alone does not discriminate types.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C10",
+      "claim": "She entered international development partly to follow Dario: \"it was an interest area of Dario's at the time ... I was very keen to understand the things that he was working or interested in.\"",
+      "passage": "she said she went into international development partly because \"it was an interest area of Dario's at the time.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "An early choice organized around a loved person's interests.",
+      "alternative": "Strongest Type 2 datum in her own words; also fits a younger sibling's ordinary admiration and a shared GiveWell-era moral interest.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C11",
+      "claim": "Explaining her move into international development, she said: \"there's something that feels really wrong to me about the fact that I was born in America, I had access to all of the sort of basic things that we take for granted in life.\"",
+      "passage": "there's something that feels really wrong to me about the fact that I was born in America",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "The line names a wrong to be corrected, a One-shaped motive statement.",
+      "alternative": "Moral-mission language is expected from an AI-safety executive and is shared house vocabulary (C73).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C12",
+      "claim": "Dario describes the division of labor: \"You need to operationally execute, and you need to have a good strategy ... And so my job is the second and Daniela's job is the first.\"",
+      "passage": "\"My job is the second and Daniela's job is the first,\" he told the",
+      "class": "self_report",
+      "source_ids": [
+        "S18"
+      ],
+      "inference": "A stable division of labor described by Dario in 2025 and echoed by her (C91, C92).",
+      "alternative": "Supporting a star fits Two; owning execution and standards fits One. The role itself does not discriminate.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C14",
+      "claim": "Asked what her reports say about her: \"I'm a supportive manager. I really want people to succeed. And I also hold a high bar.\"",
+      "passage": "I'm a supportive manager. I really want people to succeed. And I also hold a high bar.",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Straddles Two (supportive) and One (high bar).",
+      "alternative": "Self-summary of others' feedback; unverified by named reports.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C16",
+      "claim": "When two technical leaders reporting to her disagreed, her default was to make them resolve it: \"I probably shouldn't even be the arbiter. I should just sort of be supporting you in figuring that out.\"",
+      "passage": "\"I probably shouldn't even be the arbiter,\" she said of technical leads who disagreed",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "She declines to impose a verdict on technical disputes outside her expertise.",
+      "alternative": "Fits Nine or Two conflict style; also a standard management norm.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C17",
+      "claim": "Inside OpenAI some employees viewed her as \"her brother's high-EQ counterpart\" and \"a skilled manager\" (Atlantic, unnamed sources).",
+      "passage": "Inside OpenAI, some employees saw her as \"her brother's high-EQ counterpart.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S12"
+      ],
+      "inference": "Two unnamed-source perceptions that pull in opposite directions (warmth vs rigidity).",
+      "alternative": "Perceptions from rivals in a factional fight; neither alone is a motive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C18",
+      "claim": "At OpenAI, Daniela Amodei and Holden Karnofsky kept a collection of stuffed animals that they treated as a \"personal advisory council for managerial role-playing\" (Atlantic); the WSJ separately reports she was such a fan of her stuffed animals that Karnofsky proposed via a movie of them.",
+      "passage": "At OpenAI, Daniela Amodei had an advisory council made of stuffed animals.",
+      "class": "third_party",
+      "source_ids": [
+        "S12",
+        "S13"
+      ],
+      "inference": "A playful, systematic way of rehearsing perspectives on management; the opening uses it as a frame for the warmth-versus-standard question, not as evidence of type.",
+      "alternative": "Whimsy and an inside joke; Roose says she treated it as between joke and earnest technique. Not type-discriminating.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C19",
+      "claim": "The WSJ reports that Brockman wanted a role in the new GPT research but Dario, then research director, \"wanted him nowhere near it\"; Daniela, co-leading the language project with Alec Radford, told Brockman he could not work on it, and when Altman asked if there was any way to make it work, \"she offered to step down as head of the project rather than allow Brockman on it.\"",
+      "passage": "Brockman wanted a role in the new GPT research, but Dario, then research director, \"wanted him nowhere near it.\" Daniela, who co-led the language project with Alec Radford, told Brockman he couldn't work on it. When Sam Altman asked whether there was any way to make it work, \"she offered to step down as head of the project rather than allow Brockman on it.\"",
+      "class": "disputed",
+      "source_ids": [
+        "S13"
+      ],
+      "inference": "She accepted personal cost to hold a position against a friend.",
+      "alternative": "Unnamed sourcing, no comment from her or Brockman. The position was Dario's first and Radford also objected, so loyalty to Dario or her team (Two/Six) explains it as well as a standard (One). Corroboration only.",
+      "durability": "unresolved",
+      "review_trigger": "If Daniela, Brockman, Radford or Altman addresses the language-project dispute on record."
+    },
+    {
+      "id": "C20",
+      "claim": "The WSJ reports that in March 2020, after Altman asked executives to write peer reviews, Brockman wrote feedback accusing her, in the WSJ's paraphrase, of \"abusing her power to create bureaucratic processes to get her way\" (Altman called it \"tough but fair\"), and that she \"delivered a long response, rebutting him point by point.\"",
+      "passage": "Brockman's feedback accused her, in the Journal's paraphrase, of \"abusing her power to create bureaucratic processes to get her way.\" Altman called it \"tough but fair.\" She \"delivered a long response, rebutting him point by point.\"",
+      "class": "disputed",
+      "source_ids": [
+        "S13"
+      ],
+      "inference": "A rival perceived her as a process-enforcer; she answered with a detailed rebuttal rather than repair.",
+      "alternative": "Paraphrase, not a Brockman quote; unnamed sources; a point-by-point defense under a formal review is also ordinary self-protection.",
+      "durability": "unresolved",
+      "review_trigger": "If the peer reviews or a first-person account by Daniela, Brockman, Murati or Altman become public."
+    },
+    {
+      "id": "C21",
+      "claim": "Per Dario's notes and one person briefed (New Yorker), when Altman said he had it on \"good authority\" that the siblings were plotting a coup, Daniela \"lost it,\" brought in the executive he cited, who denied it, and when Altman denied saying it, replied \"You just said that.\" The WSJ says the Amodeis then began \"shouting angrily at him.\" Altman says this is \"not quite his recollection.\"",
+      "passage": "says Altman told the siblings he had it on \"good authority\" from a senior executive that they were plotting a coup. Daniela, the notes say, \"lost it,\" and brought in that executive, who denied having said anything. Altman then denied making the claim: \"I didn't even say that.\"",
+      "class": "disputed",
+      "source_ids": [
+        "S39"
+      ],
+      "inference": "If accurate, her move under accusation was to establish the facts in the room and correct the record.",
+      "alternative": "Interested sourcing (Dario's notes) and unnamed sources; Altman disputes it. Defending herself and her brother from accusation explains anger for any type.",
+      "durability": "unresolved",
+      "review_trigger": "If Altman, Daniela or the executive gives an on-record account."
+    },
+    {
+      "id": "C22",
+      "claim": "She led the departing group's side of the 2020 exit negotiations (\"the divorce\"), asked to take some internal research documents, and both sides signed a mutual non-disparagement agreement.",
+      "passage": "When the group left in late 2020, she led their side of the exit negotiations, which ended in a mutual non-disparagement agreement, The Atlantic reports.",
+      "class": "third_party",
+      "source_ids": [
+        "S12",
+        "S13"
+      ],
+      "inference": "She was trusted with the adversarial negotiation.",
+      "alternative": "Role fit (operations/people lead), not necessarily temperament.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C23",
+      "claim": "Before leaving OpenAI, she recalls, the group wondered \"Maybe we should stay. Maybe we could make this work.\"; she called a friend and mentor who said, \"Honestly, I don't think you really need to be on the phone with me. You already know what the right answer is.\" She calls it the best advice she has received.",
+      "passage": "Before the group left OpenAI, she recalls, they wondered: \"Maybe we should stay. Maybe we could make this work.\" She called a friend and mentor outside work, who told her she didn't really need the call.",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "She frames the decision as knowing the right answer, not as safety or belonging.",
+      "alternative": "Seeking outside counsel before a risky move also fits Six.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C24",
+      "claim": "Publicly she frames the OpenAI exit diplomatically (\"We were running towards something versus running away from something\"), while The Atlantic, citing \"several people who know them well,\" says the siblings \"still despise Altman and Brockman.\"",
+      "passage": "The Atlantic, citing \"several people who know them well,\" says the siblings \"still despise Altman and Brockman.\" In public she stays diplomatic about the split: \"We were running towards something versus running away from something,\" she told Stanford GSB.",
+      "class": "disputed",
+      "source_ids": [
+        "S01",
+        "S12"
+      ],
+      "inference": "Public restraint about people, private judgment reported by others.",
+      "alternative": "The non-disparagement agreement (C22) and company interest explain the restraint without type. \"Despise\" is unnamed-source; attribute or omit.",
+      "durability": "unresolved",
+      "review_trigger": "If either sibling, Altman or Brockman characterizes the relationship on record."
+    },
+    {
+      "id": "C26",
+      "claim": "She and Dario protect weekly sibling time: \"Dario comes over, he plays with my kids, we hang out together.\"",
+      "passage": "\"Dario comes over, he plays with my kids, we hang out together,\" she told Oprah.",
+      "class": "self_report",
+      "source_ids": [
+        "S30"
+      ],
+      "inference": "Real investment in the relationship.",
+      "alternative": "Healthy for any type; supports the Two wing reading, not the core. Do not name or count her children.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C27",
+      "claim": "She speaks openly about fear and doubt: \"it's scary because we can lose it at any time ... Are we accidentally making things worse?\" (Atlantic, 2026).",
+      "passage": "She told The Atlantic it's \"scary because we can lose it at any time,\" and asked, \"Are we accidentally making things worse?\" But her fear is aimed at being wrong, not at losing safety, and she acts decisively once she has decided.",
+      "class": "self_report",
+      "source_ids": [
+        "S12"
+      ],
+      "inference": "Doubt is aimed at whether the company is doing harm, i.e., at being wrong.",
+      "alternative": "Strongest Type 6 material; fear of loss is also simply accurate for a frontier lab.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C29",
+      "claim": "She says Anthropic tells some prospective customers \"I don't think we can do anything for you right now. And we don't wanna sell you a bill of goods that we can to close a deal with you and get your logo,\" calling it \"a fundamental kind of honesty and integrity.\" (The draft elides the garbled \"that we can\" with an ellipsis.)",
+      "passage": "get told: \"I don't think we can do anything for you right now. And we don't wanna sell you a bill of goods ... to close a deal with you and get your logo.\" She called it \"a fundamental kind of honesty and integrity.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Turning away revenue on honesty grounds.",
+      "alternative": "Also a reputation strategy for an enterprise vendor.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C31",
+      "claim": "She is easy about her own mistakes: Anthropic \"messed up\" payroll \"multiple times\"; her themed-days schedule has a \"70% hit rate\"; a mock memoir title she liked was \"I need an adult.\"",
+      "passage": "Anthropic ran payroll, \"which like we messed up multiple times,\" she told [Notion's *First Block*](https://www.notion.com/blog/first-block-with-daniela-amodei) in 2023. Her plan to give each weekday its own focus has \"probably like 70% hit rate.\" Of the memoir titles Claude suggested for her, one that resonated was \"I need an adult.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "Relaxed public self-deprecation.",
+      "alternative": "Evidence against a harsh inner critic; Ones can be self-deprecating in public and the inner critic is not observable here.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C34",
+      "claim": "She married Holden Karnofsky in 2017 (Brockman gave a toast at the wedding); Karnofsky joined OpenAI's nonprofit board that year.",
+      "passage": "She married Holden Karnofsky in 2017, the year he joined OpenAI's nonprofit board.",
+      "class": "third_party",
+      "source_ids": [
+        "S12"
+      ],
+      "inference": "Stable marriage fact; his role is time-sensitive.",
+      "alternative": "None material.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C35",
+      "claim": "Daniela Amodei is a co-founder and the president of Anthropic (S-1 filed October 26, 2026: President, Co-Founder, Chairperson and Director).",
+      "passage": "Amodei is a co-founder and the president of Anthropic, the company behind the AI model Claude.",
+      "class": "third_party",
+      "source_ids": [
+        "S40"
+      ],
+      "inference": "Current titles and reporting lines.",
+      "alternative": "Titles change at or after an IPO.",
+      "durability": "time_sensitive",
+      "review_trigger": "On IPO completion, any S-1 amendment, or any change in her titles."
+    },
+    {
+      "id": "C39",
+      "claim": "She describes the character she wants for Claude as \"professional warmth ... not for it to be your best friend ... approachable, but distant.\"",
+      "passage": "For Claude she wants what she calls \"professional warmth,\" she told Bloomberg's [*The Circuit*](https://www.youtube.com/watch?v=v1wZwxY3CMg) in June 2026: \"the goal is not for it to be your best friend,\" and \"It should feel approachable, but distant, right?\" (The documentary's captions don't label speakers; the line is very probably hers.)",
+      "class": "self_report",
+      "source_ids": [
+        "S14"
+      ],
+      "inference": "Warmth bounded by role and distance.",
+      "alternative": "Speaker attribution probable, not confirmed; product talk, not self-description.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C43",
+      "claim": "Explaining why she joined OpenAI in 2018, she said she \"felt a very strong desire to come and sort of just try to help make the company a little more functional.\"",
+      "passage": "She \"felt a very strong desire to come and sort of just try to help make the company a little more functional.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S38"
+      ],
+      "inference": "She was drawn by a disorder to fix, a reformer's draw.",
+      "alternative": "Also a helper's draw (\"help\"); she says it \"felt very me-shaped,\" i.e., matched her skills.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C44",
+      "claim": "Asked by Isaacson whether she felt Sam Altman lacked honesty (\"And you felt that about Sam?\"), she answered: \"I think the co-founders are an unusually high integrity group of people.\"",
+      "passage": "When Isaacson asked about Altman directly (\"And you felt that about Sam?\"), she said, \"I think the co-founders are an unusually high integrity group of people.\" She judges conduct more readily than character.",
+      "class": "observed",
+      "source_ids": [
+        "S29"
+      ],
+      "inference": "She declines to judge a named person but frames the split in integrity terms.",
+      "alternative": "Non-disparagement and company interest explain the restraint.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C45",
+      "claim": "On OpenAI taking the Pentagon work Anthropic refused, she said: \"I found myself asking the question, was this a really principled stand that another technology company took based on their own ethics or was this an opportunistic moment?\" Dario immediately reframed: \"I actually think it's a beautiful illustration of the democratic process.\"",
+      "passage": "I found myself asking the question, was this a really principled stand that another technology company took based on their own ethics or was this an opportunistic moment?",
+      "class": "observed",
+      "source_ids": [
+        "S29"
+      ],
+      "inference": "In the joint setting she is the one who passes moral judgment on conduct and Dario softens it.",
+      "alternative": "One exchange; she judges conduct, not a person, and the moral frame suits Anthropic's positioning.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C46",
+      "claim": "On critics who dismissed GPT-2 she pushed past Dario's framing: \"I think you were quite polite about it, but\" some respected scientists \"bullied some of the researchers who worked on it on Twitter.\"",
+      "passage": "After Dario described the skeptics who had dismissed it, she pushed past his framing: \"I think you were quite polite about it, but\" some well-respected scientists had \"bullied some of the researchers who worked on it on Twitter.\" In fairness, the sharpest line in that exchange came from Dario: \"You have no credibility on this matter.\"",
+      "class": "observed",
+      "source_ids": [
+        "S29"
+      ],
+      "inference": "She names misconduct more bluntly than her brother in the same answer.",
+      "alternative": "Dario then delivers the sharper line (\"You have no credibility on this matter,\" probable Dario), so the bluntness is shared.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C47",
+      "claim": "She regularly corrects an interviewer's premise: \"that is just completely the wrong way to think\" (Bloomberg, 2026); \"I don't think I would put it that way\" (ABC, on harmlessness, 2026); \"There wasn't something about [GPT-2], the model itself that made us ... concerned\" (Isaacson, 2026).",
+      "passage": "Correcting the question is a habit. \"I don't think I would put it that way,\" she told ABC's Rebecca Jarvis in February 2026, when",
+      "class": "observed",
+      "source_ids": [
+        "S36",
+        "S35",
+        "S29"
+      ],
+      "inference": "A repeated habit of fixing the frame before answering, across four venues and three years.",
+      "alternative": "Media-trained executives reframe hostile premises; the content is often message discipline.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C48",
+      "claim": "Asked on Oprah's podcast whether they had been scared during the Pentagon dispute, she said \"it was a hard time. I mean, I don't think we want to sugarcoat that,\" and \"the thing that we all had in common was we just felt like this was the right thing to do\"; later she called it \"a policy disagreement,\" not \"a political disagreement.\"",
+      "passage": "\"it was a hard time\" and \"I don't think we want to sugarcoat that.\" But \"the thing that we all had in common was we just felt like this was the right thing to do.\" Later, asked directly what she had been thinking, she called it \"a policy disagreement,\" not a political one:",
+      "class": "self_report",
+      "source_ids": [
+        "S30"
+      ],
+      "inference": "A costly choice explained by rightness, not by protecting people.",
+      "alternative": "A collective decision; \"right thing\" is house vocabulary Dario also uses (C73). The \"Yes. Yes.\" that precedes her answer has an ambiguous speaker in the captions and is not quoted.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C49",
+      "claim": "On refusing ads, she said \"for the co-founders, it was never a question,\" \"but there were quiet forces that, you know, within the company or investors who were like, hey, this is a great source of revenue.\"",
+      "passage": "she said keeping ads out of Claude was never a question for the co-founders, \"but there were quiet forces that, you know, within the company or investors who were like, hey, this is a great source of revenue.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S30"
+      ],
+      "inference": "She explains a costly refusal by a standard (privacy, honesty) and treats flattery of users as a defect.",
+      "alternative": "Strategic differentiation also explains the no-ads stance.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C50",
+      "claim": "She said: \"I made everyone go do that and they had to Mark in the spreadsheet when they had done it\" (auto-caption capitalization normalized in the draft).",
+      "passage": "I made everyone go do that and they had to mark in the spreadsheet when they had done it",
+      "class": "self_report",
+      "source_ids": [
+        "S32"
+      ],
+      "inference": "She converts a value (candid feedback) into an enforced, universal procedure and checks compliance.",
+      "alternative": "Ordinary people-ops practice; the warmth requirement (one appreciation) fits Two as well.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C51",
+      "claim": "Everyone at Anthropic past two months gets a review every six months, \"and that includes me and dar [Dario] we get reviews from the board.\"",
+      "passage": "Everyone at Anthropic who has been there more than two months gets a performance review every six months, she said on the same podcast, \"and that includes me and [Dario] we get reviews from the board.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S32"
+      ],
+      "inference": "She applies the standard to herself and the CEO.",
+      "alternative": "Good governance is also an investor expectation.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C52",
+      "claim": "She calls integrity \"the most important to me about our culture,\" and on politics: going behind a colleague's back to avoid a difficult conversation, \"We have no tolerance for that.\"",
+      "passage": "she said \"something that feels the most important to me about our culture at Anthropic is this concept of integrity.\" Going behind a colleague's back to avoid a difficult conversation: \"We have no tolerance for that.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S34"
+      ],
+      "inference": "A zero-tolerance rule about conduct.",
+      "alternative": "Culture talk is part of a president's job.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C53",
+      "claim": "She said Anthropic has \"a culture interview that we have perfected over the five years\"; when the host repeated \"Perfected?\", she answered \"Yes, yes,\" and said it looks for people who \"made difficult decisions in their life to stand up for their values.\"",
+      "passage": "We have a culture interview that we have perfected over the five years that Anthropic has been--",
+      "class": "observed",
+      "source_ids": [
+        "S34"
+      ],
+      "inference": "She does not soften a claim of perfection when challenged.",
+      "alternative": "Could be humor or confidence; one exchange.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C54",
+      "claim": "She said values that are not creating tension are \"probably too bland.\"",
+      "passage": "she said values that aren't creating tension are \"probably too bland.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S33"
+      ],
+      "inference": "She selects for principled stands at personal cost.",
+      "alternative": "She also prizes \"I changed my mind because ... I wasn't right\" (C61); selection criteria are company policy.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C55",
+      "claim": "In Anthropic's co-founder video, an unidentified co-founder says, \"I credit Daniela with keeping the bar high\"; another adds \"Keeping out the clowns,\" and a voice that is probably Daniela's answers, \"Chief clown wrangler! That's my job.\"",
+      "passage": "a co-founder not identified on screen says, \"I credit Daniela with keeping the bar high.\" Someone adds, \"Keeping out the clowns.\" A voice that sounds like hers answers: \"Chief clown wrangler! That's my job.\" Then comes another line: \"No, but you're the reason the culture scaled, I think.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S38"
+      ],
+      "inference": "Close colleagues credit her with a standard, not with warmth, in this exchange.",
+      "alternative": "Speaker unidentified; friendly in-house video. The next line (\"you're the reason the culture scaled\") credits culture broadly.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C56",
+      "claim": "She calls herself a people leader: \"I think in my heart the thing I most [am] is a people leader\"; \"I'm actually not an expert in any field I'm an expert in people.\"",
+      "passage": "\"I think in my heart the thing I most [am] is a people leader,\" and \"I'm actually not an expert in any field I'm an expert in people.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S32"
+      ],
+      "inference": "Self-identity organized around people.",
+      "alternative": "Two evidence; also a precise job description for a president who has run every function.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C57",
+      "claim": "Describing what she does not like: \"if I'm temporarily in charge of a particular function and there's no leader for it my number one goal is getting myself out of that job by finding the right person.\"",
+      "passage": "if I'm temporarily in charge of a particular function and there's no leader for it my number one goal is getting myself out of that job by finding the right person",
+      "class": "self_report",
+      "source_ids": [
+        "S32"
+      ],
+      "inference": "She rejects being indispensable.",
+      "alternative": "Delegation is standard executive advice.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C58",
+      "claim": "Asked \"what's the thing that triggers you\" about her own working-with-me guide, she described what lights her up (a hard problem and the right people) and a lowlight (not being expert in anything), and named no trigger.",
+      "passage": "On *Grit*, asked about her own working-with-me guide, \"what's the thing that triggers you,\" she named what lights her up and what she's less good at, and no trigger.",
+      "class": "observed",
+      "source_ids": [
+        "S32"
+      ],
+      "inference": "She does not disclose irritants in public.",
+      "alternative": "Absence of anger is not evidence of repressed anger; do not present it as proof.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C59",
+      "claim": "She lets senior hires call references on her and checks theirs: \"what I want is no surprises ... I let senior hires talk to references on me.\"",
+      "passage": "She checks references on senior hires and invites them to check hers. \"What I want is no surprises,\" she said. \"I let senior hires talk to references on me.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S32"
+      ],
+      "inference": "Transparency she applies to herself.",
+      "alternative": "Fits Six (no surprises) as well as One.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C60",
+      "claim": "Anthropic retired a value (\"move fast and safe things\") because \"not everyone loved it ... if not everyone loves it ... people are not going to use it.\"",
+      "passage": "Anthropic retired one (\"move fast and safe things\") because \"not everyone loved it,\" she said on Vanta, and \"if not everyone loves it,\" then \"people are not going to use it.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S33"
+      ],
+      "inference": "Pragmatic about values: adoption over purity.",
+      "alternative": "Counts against a rigid One.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C61",
+      "claim": "She wants candidates able to say \"I changed my mind because I actually realized, you know, I wasn't right about this,\" and argues Claude should not be \"locked into sort of one philosophical tradition because ethics and morality are quite complicated.\"",
+      "passage": "She wants hires who can say \"I changed my mind because I actually realized, you know, I wasn't right about this.\" She told Isaacson that Claude shouldn't be \"locked into sort of one philosophical tradition.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S33",
+        "S29"
+      ],
+      "inference": "Moral pluralism and openness to being wrong.",
+      "alternative": "Counts against a dogmatic One; healthy Ones can be pluralist.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C62",
+      "claim": "On disagreeing with Dario: \"usually he'll have a piece of information that I don't have ... about 80 to 90% of the time what ends up happening is we meet in the middle.\"",
+      "passage": "\"About 80 to 90% of the time what ends up happening is we meet in the middle,\" she said at Bloomberg.",
+      "class": "self_report",
+      "source_ids": [
+        "S35"
+      ],
+      "inference": "Collaborative conflict style with her brother.",
+      "alternative": "Fits Nine or Two; also how co-founders present unity publicly.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C63",
+      "claim": "Asked if Anthropic is now the front-runner, she said \"that is just completely the wrong way to think,\" that \"all of these numbers, they're actually not the point,\" and that the company exists to build AI \"in a way that is ethical, that's responsible, that's fair.\"",
+      "passage": "whether Anthropic was now the front-runner, she said \"that is just completely the wrong way to think.\" The figures, she added, are \"actually not the point,\" and the company exists to build AI \"in a way that is ethical, that's responsible, that's fair.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S35"
+      ],
+      "inference": "She moves from status to standards.",
+      "alternative": "Message discipline.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C66",
+      "claim": "Of AI romantic companions she told Arianna Huffington: \"I think that's a terrible use of AI and people should not do it.\"",
+      "passage": "Of AI romantic companions she told Arianna Huffington, in an interview posted in October 2026: \"I think that's a terrible use of AI and people should not do it.\"",
+      "class": "observed",
+      "source_ids": [
+        "S37"
+      ],
+      "inference": "A flat normative judgment about how people should live.",
+      "alternative": "Corporate positioning against competitors' companion products.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C67",
+      "claim": "Describing a serious bacterial infection that three sets of doctors misdiagnosed, she excused the doctors: \"this is not because any of those are bad doctors, right? They're really busy.\"",
+      "passage": "Describing a serious infection that three sets of doctors misdiagnosed, she said: \"this is not because any of those are bad doctors, right? They're really busy.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S37"
+      ],
+      "inference": "She explains error by systems and constraints rather than blame.",
+      "alternative": "Counts against a fault-finding One; sensitive health material, use only her framing if at all.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C68",
+      "claim": "She became a vegetarian young, \"the only thing that I did first\"; when Dario said he followed \"three years later or something,\" she corrected him: \"Oh, not even. I think it was maybe just Yeah. Yeah. You got on board real quick.\"",
+      "passage": "Becoming a vegetarian was \"the only thing that I did first,\" she said. When Dario guessed he had followed \"three years later or something,\" she corrected him on the spot: \"Oh, not even. ... You got on board real quick.\"",
+      "class": "observed",
+      "source_ids": [
+        "S29"
+      ],
+      "inference": "An early moral choice she made on her own; she corrects the record even on a light point.",
+      "alternative": "Light banter; minor.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C72",
+      "claim": "Interpretive pairing: Dario says disagreements at Anthropic get resolved \"because they're held in good faith\"; Daniela's parallel test, in C45, is whether a choice was \"a really principled stand.\" 9takes types Dario as 6.",
+      "passage": "9takes reads Dario as a Type 6, and the conversation shows how the pair differ. Explaining why disagreements at Anthropic get resolved, Dario said it's \"because they're held in good faith.\" A Six asks whether people can be trusted. Her test was whether a choice was \"a really principled stand.\" A One asks whether it is right.",
+      "class": "interpretation",
+      "source_ids": [
+        "S29"
+      ],
+      "inference": "Possible contrast: his test is trust in good faith (Six), hers is principle (One).",
+      "alternative": "Interpretive pairing of two moments; attribution of the 18:49-18:55 segment to Dario is probable.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C73",
+      "claim": "Moral-rightness language is shared house vocabulary: a former OpenAI colleague told The Atlantic that Dario had \"a habit at the time of just saying, We must do X; it is the morally correct thing to do.\"",
+      "passage": "A former OpenAI colleague told The Atlantic that Dario \"had a habit at the time of just saying, We must do X; it is the morally correct thing to do.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S12"
+      ],
+      "inference": "Her \"right thing\" phrasing cannot alone distinguish her from Dario (typed 6 on the site).",
+      "alternative": "Use her behavior (C50, C51, C53, C57) rather than her vocabulary as the One evidence.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C74",
+      "claim": "Roose reports that she and Karnofsky treated their stuffed-animal collection as their \"personal advisory council for managerial role-playing.\"",
+      "passage": "She and her husband, Holden Karnofsky, kept a large collection, which they treated as their \"personal advisory council for managerial role-playing,\" Kevin Roose reports.",
+      "class": "third_party",
+      "source_ids": [
+        "S12",
+        "S13"
+      ],
+      "inference": "Reported detail from a book excerpt; the WSJ independently confirms the stuffed-animal collection.",
+      "alternative": "Roose notes few people at OpenAI knew about the animals; the role-playing detail rests on his reporting.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C75",
+      "claim": "Each animal had an assigned character profile: Jinji, a lazy cat who encouraged her to cancel meetings and avoid taking on too much work; Maura, a pink bear, \"a detail-oriented, type-A manager\"; Beary Bonds, a panda, the \"patron bear of generosity and empathy.\"",
+      "passage": "Jinji, a lazy cat, encouraged her to cancel meetings and take on less work. Maura, a pink bear, was \"a detail-oriented, type-A manager.\" A panda named Beary Bonds was the \"patron bear of generosity and empathy.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S12"
+      ],
+      "inference": "The animals personify management stances; the draft treats the bear and the panda as a loose sketch of the One/Two question, labeled as a sketch.",
+      "alternative": "The mapping to Enneagram types is the author's framing, not hers.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C76",
+      "claim": "Roose writes that she treated the exercises as \"something between an inside joke and an earnest management technique,\" and that in 2023 she told him the animals were \"very useful in analyzing different personality types.\"",
+      "passage": "She treated the exercises as \"something between an inside joke and an earnest management technique,\" Roose writes, and in 2023 she told him the animals were \"very useful in analyzing different personality types.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S12"
+      ],
+      "inference": "Her on-record 2023 remark to Roose, reported in 2026; the characterization of the exercises is Roose's.",
+      "alternative": "A light remark; it shows interest in personality differences, not a type.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C77",
+      "claim": "The S-1 filed October 26, 2026 lists her as Chairperson of Anthropic's board of directors.",
+      "passage": "filed October 26, 2026, also lists her as chair of the board",
+      "class": "observed",
+      "source_ids": [
+        "S40"
+      ],
+      "inference": "Current title per the registration statement.",
+      "alternative": "Titles can change at or after an IPO.",
+      "durability": "time_sensitive",
+      "review_trigger": "On IPO completion, any S-1 amendment, or any change in her board role."
+    },
+    {
+      "id": "C78",
+      "claim": "As of June 2026, everyone on Anthropic's executive team except Dario's chief of staff reports to Daniela.",
+      "passage": "everyone on the executive team except Dario's chief of staff reported to her",
+      "class": "third_party",
+      "source_ids": [
+        "S20",
+        "S14"
+      ],
+      "inference": "Current reporting lines; TechCrunch summarizes Dario's Bloomberg interview.",
+      "alternative": "S20 is not independent of S14; reporting lines change.",
+      "durability": "time_sensitive",
+      "review_trigger": "On any change in Anthropic's reporting lines or her role, including at IPO."
+    },
+    {
+      "id": "C79",
+      "claim": "Interpretation: when warmth and the standard pull in different directions, her record more often shows the standard winning, against her warm reputation.",
+      "passage": "Her record shows which one usually wins, and it isn't the one her reputation suggests.",
+      "class": "interpretation",
+      "source_ids": [
+        "S30",
+        "S29",
+        "S04",
+        "S32",
+        "S34"
+      ],
+      "inference": "Summarizes the discriminator argued later (costly choices explained by rightness; rules applied to herself).",
+      "alternative": "Her reputation for warmth is also well supported (C14, C17, C56); the claim is about which way she moves under cost, not that she lacks warmth.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C80",
+      "claim": "Interpretation (type thesis): when a principle costs her something she explains the choice by what is right rather than by whom she protected, and the rules she builds apply to her too.",
+      "passage": "When a principle costs Amodei something, she explains the choice by what is right, not by whom she protected, and the rules she builds apply to her too.",
+      "class": "interpretation",
+      "source_ids": [
+        "S30",
+        "S29",
+        "S04",
+        "S32",
+        "S34"
+      ],
+      "inference": "Rests on C48, C49, C29 (costly choices) and C50, C51, C52 (self-binding rules).",
+      "alternative": "Her \"right thing\" wording is shared house vocabulary (C73); the One evidence therefore rests on behavior and on what she omits, and remains medium confidence.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C81",
+      "claim": "Continuing the same answer, she said: \"How do I make that more fair? How do we make that better as a broader community of the world?\"",
+      "passage": "Then the question she asked herself: \"How do I make that more fair?\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "The question seeks a correction of unfairness.",
+      "alternative": "Retrospective narration; the fairness frame also fits a Two's wish to help.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C82",
+      "claim": "Interpretation: in her own interviews she shows almost no anger at anyone; the angry scenes come from others' accounts (WSJ, New Yorker, Atlantic).",
+      "passage": "In her own interviews she shows almost no anger at anyone; the angry scenes in her story come from other people's accounts.",
+      "class": "interpretation",
+      "source_ids": [
+        "S32",
+        "S37",
+        "S13",
+        "S39",
+        "S12"
+      ],
+      "inference": "Absence of public anger is consistent with a One who holds anger under control, but is not proof.",
+      "alternative": "Media training, privacy and the non-disparagement agreement (C22) explain the absence for any type.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C83",
+      "claim": "Wired reports that, according to Daniela, she and Dario played games as kids in which they saved the world.",
+      "passage": "As kids, Daniela told Wired, she and Dario played games in which they saved the world.",
+      "class": "self_report",
+      "source_ids": [
+        "S09"
+      ],
+      "inference": "An early shared moral-mission theme.",
+      "alternative": "Ordinary childhood play; not type-discriminating.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C84",
+      "claim": "She added: \"I'm a few years younger than him and so I was very keen to understand the things that he was working or interested in as a potential area to have impact.\"",
+      "passage": "I'm a few years younger than him and so I was very keen to understand the things that he was working or interested in as a potential area to have impact.",
+      "class": "self_report",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "Strongest Type 2 datum in her own words: an early choice organized around a loved person's interests. The sentence also ends on impact.",
+      "alternative": "Also fits a younger sibling's ordinary admiration and a shared GiveWell-era moral interest.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C85",
+      "claim": "Before tech she worked for NGOs in Washington, DC, for a public-health organization in East Africa, on a congressional campaign and on Capitol Hill.",
+      "passage": "She worked for NGOs in Washington, for a public-health organization in East Africa, on a congressional campaign and on Capitol Hill.",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S04"
+      ],
+      "inference": "Her own career account.",
+      "alternative": "None material.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C86",
+      "claim": "Interpretation: she left Capitol Hill because its procedure got in the way of the work, which cuts against a rule-for-its-own-sake reading.",
+      "passage": "She left the institution most devoted to procedure because the procedure got in the way of the work.",
+      "class": "interpretation",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "She says it was \"slow and bureaucratic\" and that she missed building something with a small motivated group.",
+      "alternative": "Counts against a procedural One; fits Two or Three as easily.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C87",
+      "claim": "Greg Brockman, who was friends with Daniela after they met at Stripe, recruited her to OpenAI (WSJ).",
+      "passage": "Greg Brockman, a friend she had met at Stripe, recruited her to OpenAI.",
+      "class": "third_party",
+      "source_ids": [
+        "S13",
+        "S12"
+      ],
+      "inference": "Reported background; the Atlantic adds they had once been close.",
+      "alternative": "None material.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C88",
+      "claim": "In the co-founder video she said joining OpenAI \"felt very me-shaped.\"",
+      "passage": "she said the job \"felt very me-shaped\"",
+      "class": "self_report",
+      "source_ids": [
+        "S38"
+      ],
+      "inference": "She saw the role as a fit for her skills.",
+      "alternative": "Speaker labels are absent, but the surrounding lines are her own career story.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C89",
+      "claim": "Explaining why she joined OpenAI: \"there's all these really great people with these really good intentions, but it seems like they're a little bit of a mess.\"",
+      "passage": "there's all these really great people with these really good intentions, but it seems like they're a little bit of a mess.",
+      "class": "self_report",
+      "source_ids": [
+        "S38"
+      ],
+      "inference": "She was drawn by a disorder to fix.",
+      "alternative": "She also stresses the people's goodness; a helper's draw fits too.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C90",
+      "claim": "Observation about sourcing: three 2026 outlets (WSJ, New Yorker, Atlantic) reported on her OpenAI years from unnamed sources and, in the New Yorker's case, Dario's notes; she has not given her own account.",
+      "passage": "In 2026 three outlets reported on her OpenAI years, drawing on unnamed sources and, in one case, on Dario's contemporaneous notes. She has not given her own account.",
+      "class": "observed",
+      "source_ids": [
+        "S13",
+        "S39",
+        "S12"
+      ],
+      "inference": "Limits the weight these episodes can carry.",
+      "alternative": "An on-record account may surface later.",
+      "durability": "unresolved",
+      "review_trigger": "If Daniela, Brockman, Altman or Murati gives an on-record account of the OpenAI episodes."
+    },
+    {
+      "id": "C91",
+      "claim": "Brockman had recruited her to OpenAI and, per the Atlantic, gave a toast at her 2017 wedding to Holden Karnofsky.",
+      "passage": "Brockman had recruited her and, The Atlantic adds, gave a toast at her 2017 wedding to Karnofsky.",
+      "class": "third_party",
+      "source_ids": [
+        "S13",
+        "S12"
+      ],
+      "inference": "Raises the personal cost of the language-project position.",
+      "alternative": "None material.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C92",
+      "claim": "Interpretation: the language-project episode reads as a standard held against a friend (One) or a sister backing her brother (Two); the WSJ sequence makes the second at least as plausible.",
+      "passage": "Read as a One, that is a standard held against a friend at personal cost. Read as a Two, it is a sister backing her brother, and the Journal's sequence, with Dario's objection first and Radford also unwilling, makes that reading at least as plausible.",
+      "class": "interpretation",
+      "source_ids": [
+        "S13"
+      ],
+      "inference": "Keeps the episode corroborative rather than load-bearing.",
+      "alternative": "No first-person account resolves the motive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C93",
+      "claim": "The Atlantic reports she clashed with Mira Murati over who was in charge of safety decisions, and that as her role expanded Brockman and other leaders came to see her as \"the third member of an inflexible triumvirate that included Dario and Karnofsky.\"",
+      "passage": "over who made safety decisions, and that Brockman and others came to see her as \"the third member of an inflexible triumvirate.\"",
+      "class": "disputed",
+      "source_ids": [
+        "S12"
+      ],
+      "inference": "Rivals perceived her as rigid.",
+      "alternative": "Perceptions from rivals in a factional fight, from unnamed sources.",
+      "durability": "unresolved",
+      "review_trigger": "If Murati, Brockman or Daniela addresses these conflicts on record."
+    },
+    {
+      "id": "C94",
+      "claim": "Per one person briefed (New Yorker), when Altman denied making the claim, Daniela replied, \"You just said that.\"",
+      "passage": "\"You just said that,\" Daniela replied.",
+      "class": "disputed",
+      "source_ids": [
+        "S39"
+      ],
+      "inference": "If accurate, she corrected the record in the room.",
+      "alternative": "One person briefed plus Dario's notes; Altman disputes the account.",
+      "durability": "unresolved",
+      "review_trigger": "If Altman, Daniela or the executive gives an on-record account."
+    },
+    {
+      "id": "C95",
+      "claim": "Altman told the New Yorker the account was \"not quite his recollection\" and that he had accused the Amodeis only of \"political behavior\"; the WSJ, from unnamed sources, says the Amodeis began \"shouting angrily at him.\"",
+      "passage": "Altman told the magazine this was \"not quite his recollection\" and that he had accused them only of \"political behavior.\" The Journal's version, from unnamed sources, ends with the siblings \"shouting angrily at him.\"",
+      "class": "disputed",
+      "source_ids": [
+        "S39",
+        "S13"
+      ],
+      "inference": "Gives the response and the second account.",
+      "alternative": "Both versions rest on interested or unnamed sourcing.",
+      "durability": "unresolved",
+      "review_trigger": "If Altman, Daniela or the executive gives an on-record account."
+    },
+    {
+      "id": "C96",
+      "claim": "Interpretation: if accurate, her move under accusation was to put the facts in the room and correct the record; the episodes corroborate but cannot carry the One read.",
+      "passage": "If the accounts are right, her move under accusation was to put the facts in the room and correct the record on the spot.",
+      "class": "interpretation",
+      "source_ids": [
+        "S39",
+        "S13"
+      ],
+      "inference": "Correction under accusation fits a One's anger.",
+      "alternative": "Anyone accused of a coup might react this way.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C97",
+      "claim": "In May 2021, with about 15 staff, she built a feedback spreadsheet listing every employee on both axes; each person had to give every colleague at least one appreciation and one improvement, practice it first, then deliver it.",
+      "passage": "In May 2021, when Anthropic had about 15 people, she built a spreadsheet with every employee's name down the side and across the top. Each person had to tell every colleague at least one thing they appreciated and one way they could do better, practice it with someone first, then deliver it.",
+      "class": "self_report",
+      "source_ids": [
+        "S32"
+      ],
+      "inference": "A value (candid feedback) turned into a universal procedure.",
+      "alternative": "Ordinary people-ops practice; the compulsory appreciation fits Two as well.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C98",
+      "claim": "She then asked each person how their feedback conversation went; the spreadsheet tracked completion, not the content of the feedback.",
+      "passage": "Then she asked each person how the conversation had gone. The spreadsheet recorded only that each conversation happened, not what was said.",
+      "class": "self_report",
+      "source_ids": [
+        "S32"
+      ],
+      "inference": "She checks compliance personally.",
+      "alternative": "The \"accountability system\" exchange is quick and partly unlabeled; the completion-only reading rests on the host's question and the reply.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C99",
+      "claim": "Interpretation: what reads as Type 1 in the spreadsheet is its form, a value turned into a universal procedure with compliance checked.",
+      "passage": "What reads as One is the form: a value turned into a universal procedure, with compliance checked.",
+      "class": "interpretation",
+      "source_ids": [
+        "S32"
+      ],
+      "inference": "Distinguishes form (One) from content (appreciation, Two-compatible).",
+      "alternative": "A competent operator might design the same system for any type.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C100",
+      "claim": "The Sixth Street host asked whether Anthropic had a reliable way to screen for empathy and the ability to work well with others, which she had just called more important than ever.",
+      "passage": "Asked whether Anthropic had a reliable way to screen hires for empathy and the ability to work well with others, she said:",
+      "class": "observed",
+      "source_ids": [
+        "S34"
+      ],
+      "inference": "Context for the \"perfected\" exchange; she values empathy in hires.",
+      "alternative": "Empathy as a hiring criterion is Two-compatible.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C101",
+      "claim": "When the host repeated \"Perfected?\", she answered \"Yes, yes,\" and said the interview looks for people who \"made difficult decisions in their life to stand up for their values.\"",
+      "passage": "\"Perfected?\" the host asked. \"Yes, yes,\" she said, and went on. The interview looks for people who \"made difficult decisions in their life to stand up for their values.\"",
+      "class": "observed",
+      "source_ids": [
+        "S34"
+      ],
+      "inference": "She does not soften a claim of perfection when challenged.",
+      "alternative": "Could be humor or confidence; one exchange.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C102",
+      "claim": "Her response to the pressure: \"And we just said like, sorry, that's just not how we're going to do things. We'll find another way.\"",
+      "passage": "And we just said like, sorry, that's just not how we're going to do things. We'll find another way.",
+      "class": "self_report",
+      "source_ids": [
+        "S30"
+      ],
+      "inference": "A costly refusal explained by a standard.",
+      "alternative": "Strategic differentiation also explains the no-ads stance.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C103",
+      "claim": "With Isaacson she tied no ads to sycophancy, which she called harder \"to stamp out\" than more obvious model failures; rivals with ads make more money when users engage longer: \"Do you then want to tell your user that they're wrong? No, you don't.\"",
+      "passage": "With Isaacson she tied the no-ads decision to sycophancy, which she called harder \"to stamp out\" than more obvious model failures. Rivals with ads, she said, make more money when users engage longer. \"Do you then want to tell your user that they're wrong? No, you don't.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S29"
+      ],
+      "inference": "She treats flattery of users as a defect.",
+      "alternative": "Also a competitive positioning point against ad-supported rivals.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C104",
+      "claim": "Per Anthropic's February 26, 2026 statement, the Pentagon said it would only contract with AI companies that accepted \"any lawful use\" and removed safeguards on mass domestic surveillance and fully autonomous weapons, and threatened to designate Anthropic a \"supply chain risk\"; Anthropic said \"we cannot in good conscience accede to their request.\"",
+      "passage": "In February 2026, according to Anthropic, the Pentagon said it would only contract with AI companies that accepted \"any lawful use\" of their models, which meant dropping Anthropic's two exceptions: mass domestic surveillance and fully autonomous weapons. It threatened to designate the company a \"supply chain risk.\" Anthropic refused. \"We cannot in good conscience accede to their request,\" Dario wrote in a",
+      "class": "self_report",
+      "source_ids": [
+        "S41"
+      ],
+      "inference": "Dates and describes the dispute she discusses in S29 and S30.",
+      "alternative": "This is Anthropic's account of the Pentagon's position; the government's own framing differs.",
+      "durability": "unresolved",
+      "review_trigger": "On any court ruling, settlement or policy change resolving the Anthropic-Pentagon dispute."
+    },
+    {
+      "id": "C105",
+      "claim": "She added: \"look, this is the right thing to do. These are the right red lines.\"",
+      "passage": "look, this is the right thing to do. These are the right red lines.",
+      "class": "self_report",
+      "source_ids": [
+        "S30"
+      ],
+      "inference": "Rightness, not loyalty, is the stated reason.",
+      "alternative": "House vocabulary (C73).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C106",
+      "claim": "Interpretation: in none of her accounts of these costly choices does she say she was protecting Dario, her staff or her own standing; she cites what is right or honest.",
+      "passage": "In none of these accounts does she say she was protecting Dario, her staff or her own standing. She cites what is right or honest.",
+      "class": "interpretation",
+      "source_ids": [
+        "S30",
+        "S29",
+        "S04"
+      ],
+      "inference": "The discriminator between One and Two in the evidence record.",
+      "alternative": "An absence across six venues, not proof of motive; collective framing (\"we\") also suppresses personal reasons.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C107",
+      "claim": "Isaacson asked how they felt when OpenAI stepped in to do the Pentagon work; Daniela answered first, allowing \"You can say we were wrong about what those red lines were.\"",
+      "passage": "He asked how they felt when OpenAI took the Pentagon work Anthropic had refused. Daniela answered first. \"You can say we were wrong about what those red lines were,\" she allowed.",
+      "class": "observed",
+      "source_ids": [
+        "S29"
+      ],
+      "inference": "She concedes the lines could be wrong before judging the other company.",
+      "alternative": "Speaker labels from voice separation; this segment is a clean Daniela run.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C108",
+      "claim": "Dario followed: \"I actually think it's a beautiful illustration of the democratic process,\" saying the public rendered a judgment and \"I think the world was decisively on our side.\"",
+      "passage": "spoke next and moved the question somewhere else. \"I actually think it's a beautiful illustration of the democratic process,\" he said. Companies took different approaches, and the public rendered a judgment he thought was \"decisively on our side.\"",
+      "class": "observed",
+      "source_ids": [
+        "S29"
+      ],
+      "inference": "He reframes from the rival's motive to process and public verdict.",
+      "alternative": "He still claims the world sided with Anthropic; the reframe is not pure softening.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C109",
+      "claim": "Interpretation: she judged the other company's motive; Dario turned it into a story about process and public verdict.",
+      "passage": "She judged the other company's motive. He turned it into a story about process and public verdict.",
+      "class": "interpretation",
+      "source_ids": [
+        "S29"
+      ],
+      "inference": "Contrast in one joint exchange.",
+      "alternative": "One exchange; the moral frame also suits Anthropic's positioning.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C110",
+      "claim": "When Isaacson assumed GPT-2 had frightened her, she corrected him: \"There wasn't something about GBT2, the model itself that made us, you know, concerned.\"",
+      "passage": "When Isaacson assumed the model had frightened her, she corrected him: \"There wasn't something about [GPT-2], the model itself that made us, you know, concerned.\"",
+      "class": "observed",
+      "source_ids": [
+        "S29"
+      ],
+      "inference": "Premise correction, part of the C47 habit.",
+      "alternative": "Accuracy about history, not necessarily temperament.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C111",
+      "claim": "She quotes Anthropic's chief people officer, with approval: \"Dario makes us ambitious and I make us successful.\"",
+      "passage": "\"Dario makes us ambitious and I make us successful.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S29"
+      ],
+      "inference": "Her own framing of the division of labor.",
+      "alternative": "A colleague's phrase she endorses; not independent testimony.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C112",
+      "claim": "She calls Dario \"the most impressive technical visionary in this space\" and describes her job as helping translate that vision \"into sets of operating norms\" (Fast Company, 2023).",
+      "passage": "She calls her brother \"the most impressive technical visionary in this space\" and her job, she told [Fast Company](https://www.fastcompany.com/90948058/how-anthropics-daniela-amodei-is-keeping-ai-grounded-in-safety) in 2023, is helping translate his vision \"into sets of operating norms.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S06"
+      ],
+      "inference": "Supporting a star fits Two; translating vision into norms fits One.",
+      "alternative": "The role itself does not discriminate.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C113",
+      "claim": "Interpretation: under cost she moves toward a standard, not toward approval or closeness; the ads decision, the Pentagon lines and turned-away customers are each explained by rightness or honesty, none by loyalty.",
+      "passage": "Under cost, she moves toward a standard, not toward approval or closeness. The ads decision, the Pentagon lines and the customers she turns away are each explained by what is right or honest, and none by loyalty.",
+      "class": "interpretation",
+      "source_ids": [
+        "S30",
+        "S29",
+        "S04"
+      ],
+      "inference": "Restates the discriminator against Type 2.",
+      "alternative": "Her accounts use collective framing and house vocabulary (C73).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C114",
+      "claim": "Interpretation: the Two material sits mostly in self-description and a people-skills job; the One material sits in what she does when something is at stake.",
+      "passage": "The Two material sits mostly in how she describes herself and in a job that rewards people skills. The One material sits in what she does when something is at stake.",
+      "class": "interpretation",
+      "source_ids": [
+        "S32",
+        "S04",
+        "S02",
+        "S30",
+        "S29"
+      ],
+      "inference": "Summary of the 1-versus-2 comparison.",
+      "alternative": "Self-description is also evidence of motive; the split is a weighting judgment.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C115",
+      "claim": "Asked by Arianna Huffington about being self-reflective and \"learning from mistakes,\" she answered about social media and technology rather than her own mistakes.",
+      "passage": "When Huffington asked about self-reflection and \"learning from mistakes,\" she answered about social media and technology.",
+      "class": "observed",
+      "source_ids": [
+        "S37"
+      ],
+      "inference": "No personal mistake disclosed.",
+      "alternative": "Sidestepping is ordinary executive caution.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C116",
+      "claim": "The mentor's words: \"You already know what the right answer is.\"",
+      "passage": "You already know what the right answer is.",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "She frames the exit decision as knowing the right answer.",
+      "alternative": "Seeking outside counsel before a risky move also fits Six.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C117",
+      "claim": "Asked for the best advice she ever received, she named the mentor's line.",
+      "passage": "She named it the best advice she has ever received.",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Her own ranking.",
+      "alternative": "Rapid-fire question; light weight.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C118",
+      "claim": "Metadata (description): one unidentified co-founder credits her with keeping the bar high.",
+      "passage": "A co-founder credits her with keeping the bar high.",
+      "class": "third_party",
+      "source_ids": [
+        "S38"
+      ],
+      "inference": "Mirrors C55.",
+      "alternative": "Speaker unidentified; friendly in-house video.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C119",
+      "claim": "Metadata (type FAQ): the Type 1 read is held at medium confidence, with Type 2 the closest rival.",
+      "passage": "The read is held at medium confidence, with Type 2 the closest rival.",
+      "class": "interpretation",
+      "source_ids": [
+        "S30",
+        "S29",
+        "S32",
+        "S02"
+      ],
+      "inference": "Matches type_hypothesis confidence and alternative.",
+      "alternative": "Confidence would rise with named testimony about her response to a cut corner.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C120",
+      "claim": "Metadata (Type 2 FAQ): Type 1 leads because under stakes she moves toward a standard: self-binding rules, revenue turned away on principle, and her goal of getting herself out of any job only she can do.",
+      "passage": "Type 1 leads because, when something is at stake, she moves toward a standard rather than toward approval: she builds rules that bind herself, turns away revenue on principle, and says her goal in any job only she can do is to get herself out of it.",
+      "class": "interpretation",
+      "source_ids": [
+        "S32",
+        "S30",
+        "S04"
+      ],
+      "inference": "Mirrors C113 and C57.",
+      "alternative": "See type_hypothesis.against.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C121",
+      "claim": "Metadata (Who is FAQ): Anthropic's October 2026 IPO filing lists her as chair of its board.",
+      "passage": "Anthropic's October 2026 IPO filing also lists her as chair of its board.",
+      "class": "observed",
+      "source_ids": [
+        "S40"
+      ],
+      "inference": "Current title per the S-1.",
+      "alternative": "Titles can change at or after an IPO.",
+      "durability": "time_sensitive",
+      "review_trigger": "On IPO completion, any S-1 amendment, or any change in her board role."
+    },
+    {
+      "id": "C122",
+      "claim": "Metadata (Who is FAQ): she held OpenAI roles 2018-2020 including VP of Safety and Policy and VP of People, and worked at Stripe 2013-2018.",
+      "passage": "Before Anthropic she held roles at OpenAI from 2018 to 2020, including vice president of safety and policy and vice president of people, and she worked at Stripe from 2013 to 2018.",
+      "class": "observed",
+      "source_ids": [
+        "S40"
+      ],
+      "inference": "Dates and roles from the S-1.",
+      "alternative": "None material.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C123",
+      "claim": "Metadata (age FAQ): Wired reports she was born in 1987, four years after Dario.",
+      "passage": "Wired reports she was born in 1987, four years after her brother Dario.",
+      "class": "third_party",
+      "source_ids": [
+        "S09"
+      ],
+      "inference": "Birth year only.",
+      "alternative": "The S-1 age alone allows late 1986; never render as January 1.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C124",
+      "claim": "Metadata (age FAQ): the S-1 lists her age as 39 as of September 30, 2026.",
+      "passage": "Anthropic's October 2026 S-1 filing lists her age as 39 as of September 30, 2026.",
+      "class": "observed",
+      "source_ids": [
+        "S40"
+      ],
+      "inference": "Consistent with a 1987 birth year (Jan-Sep 1987).",
+      "alternative": "None material.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C125",
+      "claim": "Metadata (married FAQ): Karnofsky joined Anthropic as a member of technical staff in January 2025, per a company spokesperson to Fortune.",
+      "passage": "Karnofsky joined Anthropic as a member of its technical staff in January 2025, a company spokesperson confirmed to Fortune.",
+      "class": "third_party",
+      "source_ids": [
+        "S17"
+      ],
+      "inference": "Spokesperson-confirmed.",
+      "alternative": "His role may change.",
+      "durability": "time_sensitive",
+      "review_trigger": "If Karnofsky's role at Anthropic changes."
+    },
+    {
+      "id": "C126",
+      "claim": "Metadata (difference FAQ): he owns long-range strategy and she runs the company day to day.",
+      "passage": "He owns long-range strategy and she runs the company day to day.",
+      "class": "self_report",
+      "source_ids": [
+        "S18",
+        "S03",
+        "S20"
+      ],
+      "inference": "Dario: \"my job is the second and Daniela's job is the first\"; her: his \"five to 10 year\" horizon, her \"one to two year.\"",
+      "alternative": "None material.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C127",
+      "claim": "Metadata (difference FAQ): judging OpenAI's Pentagon deal in the same conversation, he called it part of the democratic process while she asked whether it was principled or opportunistic.",
+      "passage": "When they judged OpenAI's Pentagon deal in the same conversation, he called it part of the democratic process, while she asked whether it was principled or opportunistic.",
+      "class": "observed",
+      "source_ids": [
+        "S29"
+      ],
+      "inference": "Mirrors C45 and C108.",
+      "alternative": "One exchange.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C128",
+      "claim": "Metadata (difference FAQ): she says they meet in the middle on most disagreements.",
+      "passage": "She says they meet in the middle on most disagreements.",
+      "class": "self_report",
+      "source_ids": [
+        "S35"
+      ],
+      "inference": "Mirrors C62 (\"80 to 90% of the time\").",
+      "alternative": "Public presentation of unity.",
+      "durability": "stable",
+      "review_trigger": ""
+    }
+  ],
+  "type_hypothesis": {
+    "type": 1,
+    "confidence": "medium",
+    "for_claim_ids": [
+      "C11",
+      "C43",
+      "C45",
+      "C46",
+      "C47",
+      "C48",
+      "C49",
+      "C50",
+      "C51",
+      "C52",
+      "C53",
+      "C54",
+      "C55",
+      "C57",
+      "C63",
+      "C66",
+      "C29",
+      "C20",
+      "C21"
+    ],
+    "against": "Her own self-description leans Two: \"the classic do-gooder\" (C04), \"a supportive manager. I really want people to succeed\" (C14), \"in my heart ... a people leader\" and \"an expert in people\" (C56), and she entered international development partly to understand Dario's interests (C10). OpenAI colleagues saw her as the \"high-EQ counterpart\" (C17); she invests in the sibling bond (C26). Several observations cut against a harsh, rigid One: she is easy about her own mistakes (C31), sidesteps a mistakes question rather than self-criticizing (C115), excuses doctors who misdiagnosed her (C67), left Capitol Hill as \"slow and bureaucratic\" (C05, C86), retired a value because not everyone loved it (C60), prizes changing one's mind and moral pluralism (C61), and declines to arbitrate disputes outside her expertise (C16). She shows no first-person anger in roughly 20 hours of her own speech and named no trigger when asked (C58). The anger evidence (C19-C21) is reported by interested or unnamed parties, and the WSJ shows the Brockman exclusion was Dario's position first, so loyalty to her brother explains it as well as a standard. Much of the One material is also a president's job: building feedback systems, culture interviews and values is what an operator does. Her \"right thing\" vocabulary is shared with Dario (C73).",
+    "alternative_type": 2,
+    "alternative_case": "Type 2 is the strongest rival and was the held, low-confidence hypothesis of the 2026-10-06 run. Its case: she chose her first field to be near Dario's interests (C10); she stands beside a star and translates his vision (C12, C112); her consistent self-identity from 2022 to 2026 is helper, supportive manager and people leader (C04, C14, C56); colleagues saw her as the warm one (C17); she tends the bond with Dario and protects family time (C26); her account of joining OpenAI includes wanting to \"help\" good people who were \"a little bit of a mess\" (C43). The reported OpenAI conflicts could be a Two defending her brother and her people (C19, C21). Why it loses on the current record: under cost she moves toward a standard rather than toward approval or relationship (C48, C49, C29); she builds impersonal rules and applies them to herself (C50, C51); she rejects being indispensable (C57), the opposite of a Two's need to be needed; she treats flattery of users as the hardest defect to \"stamp out\" and wants Claude's warmth \"approachable, but distant\" (C49, C39); and close colleagues credit her with \"keeping the bar high,\" not with care (C55). Other types: Six (doubt and fear of loss in C27, \"no surprises\" in C59, mentor counsel in C23 and C116) is weakened because her fear centers on being wrong (\"Are we accidentally making things worse?\") and she acts decisively; Nine (meeting Dario in the middle in C62, refusing to arbitrate in C16, public diplomacy in C24, C44) fails on the reported friend-blocking and point-by-point rebuttal and on her readiness to judge conduct in C45 and C66; Three is not supported: she moves from status to standards when offered front-runner framing (C63).",
+    "discriminator": "What she does when a principle costs her something, and what she says she was protecting. Across 2021-2026 and at least six venues, her own accounts of costly choices cite what was right or honest (Pentagon red lines, no ads against investor pressure, turning away customers rather than selling \"a bill of goods\": C48, C49, C29), and she never cites protecting Dario, her staff or her own standing (C106, C113). Her signature management acts are impersonal standards applied to everyone including herself (the 2021 feedback matrix with tracked completion, board reviews that include her and Dario, zero tolerance for going behind backs: C50, C51, C52), and she wants out of any job where she is indispensable (C57). A Two under cost would move toward relationship, approval and being needed; she moves toward the rule. In the one joint conversation where both siblings judge OpenAI, she asks whether its choice was \"principled\" or \"opportunistic\" and Dario softens it (C45), which also separates her One from his Six. Limits: her \"right thing\" vocabulary is shared house language and is discounted (C73); the reported OpenAI conflicts (C19-C21) corroborate but cannot anchor; no named colleague yet describes her reaction when someone cuts a corner.",
+    "unexplained": "Why a self-identified \"people leader\" whose reports call her supportive became, in two independent but unnamed-source accounts, the hard-edged process enforcer and negotiator of the OpenAI split; how a high bar coexists with genuinely relaxed self-mockery about her own errors (C31) and charity toward others' errors (C67); why she followed Dario into her first field (C10) if her compass is principle rather than attachment; how much of the public warmth and of the public rigor is temperament versus the operator role Anthropic needs beside Dario; and the near-total absence of first-person resentment in a large record, which a One reading must treat as control or privacy rather than proof."
+  },
+  "profile_format": "standard"
+}

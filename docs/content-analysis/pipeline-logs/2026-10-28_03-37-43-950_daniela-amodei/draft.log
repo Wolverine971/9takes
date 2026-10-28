@@ -1,0 +1,36 @@
+Error: Reached max turns (60)
+[runner] Turn limit reached; resuming session 7babfd56-fc03-4368-996c-c02c091e1274 to write outputs
+The draft stage is finished. I wrote `draft.md` and `evidence-draft.json` in the run folder and changed no other repo files. Nothing was graded or published, and the draft is set to `published: false`. Before you hit the turn limit, everything had already been written and checked, so I didn't need to cut any corners to finish.
+
+**Checks:**
+- **Evidence record:** the pipeline's `validateEvidence` passes against the draft. It has 110 claims and 27 sources (26 opened), each with an exact passage.
+- **Draft rules:** `checkDraft` finds no blockers. The type answer is 52 words.
+- **Quotes:** I checked all 122 unique quotes against the cached transcripts and articles. Every one appears there word for word.
+- **Readability:** `audit:readability` flags nothing. `audit:generic` rates 0.5% of the draft as generic: two sentences.
+
+**What the draft does:**
+- **Type:** 1, held at medium confidence, with 2 as the closest rival. The answer under the type heading states the type outright, and the confidence level comes in the paragraph after, which is how you like these pages.
+- **Opening:** at OpenAI she and Holden Karnofsky ran an "advisory council" of stuffed animals (The Atlantic). One was a "type-A" bear and one a panda that was the "patron bear of generosity and empathy." She has said the animals were "very useful in analyzing different personality types." The page uses the bear and the panda to set up the Type 1 versus Type 2 question.
+- **What carries the Type 1 case is her own words, not the reported fights:**
+  - the 2021 feedback spreadsheet;
+  - board reviews that "includes me and [Dario]";
+  - "no tolerance" for going behind a colleague's back;
+  - the no-ads decision and the Pentagon red lines;
+  - "getting myself out of that job";
+  - the Isaacson exchange where she asks "principled… or opportunistic?" and Dario reframes it.
+- **The OpenAI conflicts are clearly labeled as reported:** the WSJ, New Yorker and Atlantic accounts come from unnamed sources or Dario's notes. The draft says plainly that they back up the read but can't carry it.
+- **Rival types:** "Why not Type 2?" gives the Type 2 case in her own words before answering it, and Types 6 and 9 get short treatment. A separate section lays out what doesn't fit a One: she's easy on her own mistakes, retired a value because not everyone loved it, values changing her mind, and excused the doctors who misdiagnosed her.
+
+**Changes from the research record:**
+- **New source:** I opened and added Anthropic's February 26, 2026 statement on the Pentagon dispute, to date it.
+- **Not quoted:** the "Yes. Yes." on Oprah, because the captions don't make clear who said it. Her father's illness is left out so it doesn't read as an origin wound.
+- **Removed:** 10 claims the draft no longer uses. Two new open tasks went into the record.
+
+**Decision for you:** the draft runs 3,679 words against a target of about 3,500, and past edit stages have added roughly 800 words, which would break the 4,500-word ceiling. I'd tell the edit stage to cut, not add, with the OpenAI section (570 words) as the place to trim first.
+
+**Still open:**
+- No named colleague has described how she reacts when someone cuts a corner. That's what would move this to high confidence.
+- We don't know who says "I credit Daniela with keeping the bar high." The draft calls them an unidentified co-founder.
+- Before publishing: recheck the IPO status, her titles and the state of the Pentagon dispute.
+
+I left four scratch files in `/tmp` (outside the repo): the build script, the extracted quote list, the fetched Anthropic statement and a saved copy of the frontmatter.

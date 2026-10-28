@@ -1,0 +1,93 @@
+{
+	"schema_version": 3,
+	"role": "enneagram",
+	"content_sha256": "43c88b4c75a4c5b507c140099eae85c33a4a717bb7893e0a6e0a6c117c2c7774",
+	"evidence_sha256": "a2bfc37be03ef7bdaed51e33b71f0991d2934737335c9c8cffd41c72463994bf",
+	"risks": {
+		"sensitive_allegations": true,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": true
+	},
+	"findings": [
+		{
+			"id": "enneagram-01",
+			"severity": "major",
+			"passage": "What separates her is what she leaves out. In none of these accounts does she say she was protecting Dario, her staff or her own standing. She cites what is right or honest.",
+			"problem": "This is the article's central One-over-Two discriminator, and it is an absence observed in the one setting where no type would produce the missing item. Every account it covers (customers at Stanford 2024, ads and the Pentagon on Oprah 2026, front-runner at Bloomberg 2026) is a company president explaining collective company policy in public. A Two in that seat would not say she refused the Pentagon to protect her brother either. The same absence holds for Dario, whom the site types 6: his Isaacson answer opens \"it ultimately comes down to the principles\" (S29 17:38), and The Atlantic reports his \"morally correct thing\" habit (C73). If the absence holds for the comparison case and for any disciplined executive, it cannot be what \"separates her.\" The FAQ (\"explains the choice by what is right, not by whom she protected\") and \"Here is where it breaks\" both rely on the same move.",
+			"acceptance_test": "The One-over-Two argument names at least one sourced observation that a Two-motivated executive in the same role would be unlikely to produce. It should come from a setting where a relational motive could plausibly surface: her own unpacking of her role, what she screens people for, or personal choices like leaving Stripe. The absence argument stays only as labeled corroboration, with a statement that it would also hold for Dario. The type FAQ answer matches the body. If no positive discriminator survives, the type answer and FAQ say the record does not yet separate 1 from 2, and confidence is lowered to match."
+		},
+		{
+			"id": "enneagram-02",
+			"severity": "major",
+			"passage": "And she rejects the need to be needed, the engine of Type 2. Describing what she doesn't like about her work, she said:",
+			"problem": "Grit (S32 ~84:00-85:42) does not support \"rejects the need to be needed.\" The quote is her \"lowlight\": \"I'm not the expert in anything; there's always a person in the world who is a better focus leader than I am.\" Getting herself out of a job applies to functions where she lacks domain expertise. In the same answer, her highlight, what \"tends to light me up\", is figuring out \"who are going to be the people to work on it, how do we get them organized,\" and \"that's basically what I do at Anthropic all day.\" She hands off functions but stays the indispensable people hub, which a Two reading could cite just as easily. The FAQ makes it worse: \"says her goal in any job only she can do is to get herself out of it\" is not what she said (\"if I'm temporarily in charge of a particular function and there's no leader for it\").",
+			"acceptance_test": "The body gives the quote's \"not the expert\" framing and drops \"rejects the need to be needed, the engine of Type 2,\" or else supports that claim with different evidence and deals with her stated highlight of organizing people. The 'Why isn't Daniela Amodei a Type 2?' FAQ paraphrase keeps the condition (a function she is temporarily running with no leader) or drops the point."
+		},
+		{
+			"id": "enneagram-03",
+			"severity": "major",
+			"passage": "Asked whether Anthropic had a reliable way to screen hires for empathy and the ability to work well with others, she said:",
+			"problem": "The Sixth Street audio (S34 ~29:38-30:44) shows she raised empathy herself, and her answer listed more than integrity. Just before this, she said what matters for students is \"how they treat the people that they work with,\" and that \"empathy, that ability to work well with other people, to read the room\" is what Anthropic looks for \"more than ever.\" The culture interview she then describes screens for three named traits: mission alignment, integrity, and collaboration (\"The ability to work well with other people\"). The draft quotes only the integrity item. That turns a mixed, partly Two-favorable passage into One evidence. This bears directly on the One-vs-Two question.",
+			"acceptance_test": "The passage tells the reader that she raised empathy as the key quality herself, and it describes the interview criteria accurately, or at least says the interview also screens for collaboration. Any One inference from the integrity criterion is weighed against her empathy emphasis in the same answer, or the exchange moves to the Type 2 section as mixed evidence."
+		},
+		{
+			"id": "enneagram-04",
+			"severity": "major",
+			"passage": "Explaining why disagreements at Anthropic get resolved, Dario said it's \"because they're held in good faith.\" A Six asks whether people can be trusted. Her test was whether a choice was \"a really principled stand.\" A One asks whether it is right.",
+			"problem": "The sibling One/Six contrast compares answers to different prompts. Isaacson's question to Dario (S29 17:22) was explicitly about \"a breakdown of trust ... and honesty,\" so his trust wording was the interviewer's. The same Dario answer begins \"it ultimately comes down to the principles\" and says disagreements resolve because \"everyone is trying to get to the right answer and everyone is being honest.\" That is the One-style language the paragraph assigns only to her. Her line answered a different question (OpenAI and the Pentagon, 34:17). Asking whether a rival's choice was principled or \"an opportunistic moment\" is also a question about hidden motive, which is at least as Six-coded as One-coded. Finally, \"Dario makes us ambitious and I make us successful\" is about execution. It does not separate One from Six, and it is closer to Three vocabulary than to either. The FAQ 'How is Daniela Amodei different from Dario Amodei?' repeats the contrast as if it were established.",
+			"acceptance_test": "Either compare the siblings on the same prompt (their back-to-back Pentagon answers at 34:17 and 34:56), framed as a difference in register and not as proof of type, or cut the \"A Six asks / A One asks\" lines. The \"successful\" quote no longer supports the One/Six contrast. The FAQ describes their roles and the one observed exchange without asserting a type difference the evidence cannot carry."
+		},
+		{
+			"id": "enneagram-05",
+			"severity": "major",
+			"passage": "But her fear is aimed at being wrong, not at losing safety, and she acts decisively once she has decided.",
+			"problem": "The Type 6 dismissal paraphrases the quote it rests on inaccurately. In The Atlantic (S12), \"scary because we can lose it at any time\" is explicitly \"on the business side,\" which is fear of loss. It is followed by \"Are we accidentally making things worse? Like, we think we have all the safety stuff figured out, but do we?\" Doubting one's own conclusions is as much the Six signature as a One's fear of error. \"Acts decisively once she has decided\" has no source, and it does not separate One from Six, since counterphobic Sixes act decisively too. The article never weighs other Six-shaped material, some of which it uses as One evidence: \"What I want is no surprises,\" the call to a mentor before leaving OpenAI after \"Maybe we should stay. Maybe we could make this work,\" and her career-long alignment with one trusted figure. With Dario typed 6 and the siblings sharing values and vocabulary, Six is a more serious rival than two sentences can dispose of.",
+			"acceptance_test": "The Six paragraph quotes the fear accurately (business loss plus self-doubt). It names a sourced observation that separates One from Six, or says plainly that the record does not yet separate them. \"Acts decisively\" is sourced or removed. If 6 cannot be separated, the type section and FAQ say the read is held against both 2 and 6."
+		},
+		{
+			"id": "enneagram-06",
+			"severity": "major",
+			"passage": "She chose her first field partly to understand Dario's interests.",
+			"problem": "The Type 2 case is missing its strongest repeated pattern, which is what the standard asks for. The record shows her career following Dario in all three eras. His interests drew her into international development (S02, 2022). She joined OpenAI in 2018, two years after he did: the WSJ (S13) says Dario joined in mid-2016, and the siblings shared the Delano Avenue house. She then co-founded Anthropic with him and runs it as his operating counterpart. The article gives only the first instance. The OpenAI move appears only as \"Greg Brockman, a friend she had met at Stripe, recruited her.\" A reader cannot weigh the strongest Two argument when its repetition is hidden. Shared EA-era values and Holden Karnofsky's ties also explain the moves, so the pattern is not decisive, but the One argument has to face it.",
+			"acceptance_test": "'Why not Type 2?' states, with dates and sources, that her career aligned with Dario's across all three eras, including that Dario was already at OpenAI when she joined. The One argument answers this pattern with a sourced alternative explanation (her impact-driven reasons for leaving Stripe, or shared values) and does not rest on the single first-career quote."
+		},
+		{
+			"id": "enneagram-07",
+			"severity": "major",
+			"passage": "The evidence that does carry the read comes from her own descriptions of how she runs Anthropic.",
+			"problem": "Early on, the article lays out a three-step One mechanism: anger \"shows up as correction\"; Ones \"hold themselves to it first\"; \"the usual cost is rigidity\". The evidence for each step turns out to be confounded by her role, disputed, or contradicted by the article itself. For correction, the support is premise-reframing, which the draft itself calls media-trained, plus the disputed coup scene. For holding herself first, it is board reviews of the CEO and president and reference checks, which are standard governance. Her stated reason for the reference checks is relational, \"the best relationships stem from mutual understanding\" (S32 ~89:04), and the draft omits it. Rigidity is contradicted by the article's own section on a retired value and changing one's mind. The section heading claims this material \"does carry the read,\" yet it is the role-confounded material the draft conceded earlier (\"building review systems and hiring rubrics is what operators do\"). The illustration of the mechanism (the Stanford GSB \"something that feels really wrong\" quote) also comes from an answer that opens \"for me, it was always very interest and impact driven.\" The blockquote stops before the clause that names the wrong (others lacking basics she had), and a Two would also claim that empathy-for-deprivation motive.",
+			"acceptance_test": "Each step of the stated mechanism is tied to at least one first-person datum that goes beyond what the president role requires. Candidates already in the record: \"Perfected?\" / \"Yes, yes\"; values that create no tension are \"probably too bland\"; screening for people who stood up for their values; \"You can say we were wrong about what those red lines were\". Otherwise the mechanism paragraph is trimmed to what the evidence shows. \"Does carry the read\" is softened to match the earlier concession. The reference-check rationale appears in her own words."
+		},
+		{
+			"id": "enneagram-08",
+			"severity": "minor",
+			"passage": "It fails on the reported standoff with a friend, the point-by-point rebuttal and her readiness to judge.",
+			"problem": "The article says the OpenAI episodes \"can't carry\" the type read, then uses two of them (C19 and C20, both disputed and from unnamed sources) as its main reasons to rule out Type 9. Type 3 is never mentioned in the body, though an execution-focused operator who approvingly quotes \"I make us successful\" makes it a natural reader question. The evidence record dismisses 3 with the front-runner reframe (C63), a premise correction the draft itself discounts as media training.",
+			"acceptance_test": "The Nine paragraph leads with first-person evidence (the AI-companion judgment, the \"Perfected?\" exchange) and labels the OpenAI episodes as reported and corroborative. One sentence addresses Type 3 with a sourced reason other than the front-runner reframe."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "Read as a One, that is a standard held against a friend at personal cost. Read as a Two, it is a sister backing her brother, and the Journal's sequence, with Dario's objection first and Radford also unwilling, makes that reading at least as plausible.",
+			"reason": "Gives the rival type the better reading of a key anecdote, using the source's own sequence. That is the kind of discriminator honesty the typing needs, and it should survive edits."
+		},
+		{
+			"passage": "These episodes line up with the Type 1 read. They can't carry it.",
+			"reason": "Correctly demotes disputed, interested-source anger scenes to corroboration. Keep it, and make the Nine paragraph consistent with it (enneagram-08)."
+		},
+		{
+			"passage": "For a supposed rule-lover, that's worth noticing. She left the institution most devoted to procedure because the procedure got in the way of the work.",
+			"reason": "Behavior the type does not neatly explain, stated without being explained away. It guards against a stereotyped rule-follower One."
+		},
+		{
+			"passage": "A One reading has to treat that quiet as control or privacy, not as proof. The only anger on record is reported by others.",
+			"reason": "Admits that the body-triad core emotion is not visible in her own record, rather than turning silence into suppressed anger."
+		},
+		{
+			"passage": "A good deal of what looks like Type 1 is also a president's job description, since building review systems and hiring rubrics is what operators do.",
+			"reason": "States the main confound plainly and early. Keep it, and bring the later sections in line with it (enneagram-07)."
+		}
+	],
+	"assessment": "Type 1 is a defensible leading read over Type 2, and the draft is unusually candid about counterevidence. It assigns no wing, arrow or subtype to absorb contradictions, which is correct. But the argument it states for 1 is weaker than it presents. The decisive discriminator is an absence observed in corporate settings where any type, Dario included, would talk the same way (enneagram-01). Two key data points are read more One-ward than their context allows: the Grit 'getting myself out of that job' lowlight and the Sixth Street empathy answer (enneagram-02, -03). The strongest repeated Two pattern, her career following Dario across three eras, is reduced to one instance (enneagram-06). Six, the live rival given Dario's typing, is dismissed with a paraphrase the quote contradicts (enneagram-05). The sibling contrast compares answers to differently prompted questions (enneagram-04). Spot checks used cached transcripts and text: S29 Isaacson (diarized), S32 Grit captions, S34 Sixth Street Whisper audio transcript, S12 Atlantic Wayback text, S13 WSJ text, S01 GSB transcript. Positive One data does exist in the record and is underused: 'Perfected?' / 'Yes, yes'; tension-creating values; screening for people who stood up for their values; conceding 'you can say we were wrong about what those red lines were' while holding them; turning away customers. Unpacked, her 'people leader' self-description is about organizing and structuring people against problems, not tending them. If the editor cannot build a positive discriminator from material like this, the honest outcome is low-to-medium confidence against both 2 and 6, or a hold, not medium confidence against 2 alone. Similarity advisory: not tripped. The top pairs are attribution sentences ('she told a Stanford GSB audience') and ordinary type vocabulary with no shared argument, so I found no meaningful reuse. The short body-triad mechanism paragraph is generic but brief, and is handled under enneagram-07."
+}

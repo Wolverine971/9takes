@@ -1,0 +1,17 @@
+I've written `review-future.json` to the Daniela Amodei run folder. It passes the review schema check, and every finding and protected passage quotes the draft word for word. No other files were changed and nothing was published.
+
+**Verdict:** the main argument holds up over five years. The case for Type 1 over Type 2 rests on her own dated statements from 2021 to 2026, across eight or more interviews and podcasts. It still stands if you remove the October 2026 interviews, the IPO filing and the Pentagon dispute. The stuffed-animal opening doesn't depend on the news cycle, and the draft already says the disputed OpenAI stories "can't carry" the type case. Dates are absolute almost everywhere.
+
+**One major finding.** The decisive test in the argument is what she does when a principle costs money: no ads, the Pentagon limits, turning customers away. None of those claims has a "check this again if…" trigger in the evidence file, and the FAQ says "turns away revenue on principle" as if it were a permanent habit. The IPO filing on October 26 starts exactly the period that will test this. If Anthropic adds ads in 2028, nothing would flag the page as out of date. The fix is to add triggers and tie the FAQ claim to dated examples.
+
+**Six minor findings:**
+- **The sibling comparison rests on one interview.** The section comparing her with Dario, and the FAQ on how they differ, both come from a single Walter Isaacson interview dated October 27, the day before the draft. Four earlier joint appearances are already in the evidence file and could back it up. Otherwise the section should say it's describing one conversation.
+- **Job-title claims aren't tracked.** "Dario is CEO", "he owns strategy, she runs the company", her listed occupation and the page's persona title are missing from the evidence file or marked as never changing.
+- **One undated status line.** "She has not given her own account" needs "As of October 2026."
+- **A board-review claim may be outdated.** In February 2024 she said the board reviews her and Dario. The IPO filing now lists her as chair of that board, so the draft should date that statement and add a trigger to check governance after the IPO.
+- **Two citation links are fragile.** The Sixth Street link goes to the podcast's index page, not the episode. The link labeled "Wall Street Journal" goes to a copy on a Greek news site.
+- **The page depends on Dario's page.** It assumes 9takes keeps typing Dario as a 6, with no trigger to recheck if that page is retyped.
+
+The similarity check didn't flag anything. The closest matches to other profiles share only phrasing like "she told a … audience," not any argument.
+
+I protected four passages: the stuffed-animal opening, "These episodes line up with the Type 1 read. They can't carry it.", the sentence contrasting the Two evidence with the One evidence, and the age FAQ, which gives her age as of a date rather than inventing a birthday.

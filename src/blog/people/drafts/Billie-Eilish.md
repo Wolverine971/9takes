@@ -467,3 +467,5 @@ PRIORITY FIXES (numbered, in order of impact — 3 max):
 3. Trim the "When Justin Bieber Sang to Her" section to half its length — the scene is strong but the analytical commentary ("two former child stars, both consumed by the fame machine at thirteen") over-narrates what the image already conveys.
 
 ============================================================ -->
+
+**Related reading:** [Ella Beatty's open-case personality profile](/personality-analysis/ella-beatty).

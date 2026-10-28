@@ -9,12 +9,12 @@ description: >-
   was, then spent a year making pop. Leading read: Enneagram Type 9, held
   loosely.
 author: DJ Wayne
-date: '2026-10-11'
+date: '2026-10-28'
 loc: 'https://9takes.com/personality-analysis/stella-lefty'
-lastmod: '2026-10-11'
+lastmod: '2026-10-28'
 changefreq: monthly
 priority: '0.6'
-published: false
+published: true
 enneagram: '9'
 type:
   - musician
@@ -261,3 +261,5 @@ Three signals would separate the reads.
 3. Testimony from someone who knew her before 2024, describing her in a disagreement. As of October 11, 2026, the people quoted describing her firsthand all worked with her, toured with her or were dating her that year. Going quiet and smoothing it over would favor Nine; pressing the point, then checking where she stands, would favor Six. It says less about Seven or Three.
 
 Whichever read wins, what the record already shows should stand. By her own account she dreaded singing in front of people as a child, yet she posted her singing almost daily. In her telling of 2024 she bristled when a publisher said what she was, then agreed. And she says she went along and reversed herself later: once at length, in Los Angeles, and once briefly, over a tour announcement.
+
+_Portrait: [Justin Higuchi](https://www.flickr.com/photos/jus10h/55333579328/), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Cropped, background removed, converted to grayscale, and purple eye mark added._

@@ -1,0 +1,82 @@
+{
+  "schema_version": 3,
+  "role": "future",
+  "content_sha256": "43c88b4c75a4c5b507c140099eae85c33a4a717bb7893e0a6e0a6c117c2c7774",
+  "evidence_sha256": "a2bfc37be03ef7bdaed51e33b71f0991d2934737335c9c8cffd41c72463994bf",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": true
+  },
+  "findings": [
+    {
+      "id": "future-01",
+      "severity": "major",
+      "passage": "she builds rules that bind herself, turns away revenue on principle",
+      "problem": "The Type 1 over Type 2 discriminator rests on what she does when a principle costs revenue: no ads despite investor pressure, the Pentagon red lines, and turned-away customers (C29, C49, C103, C113, C120). All of these claims are marked stable with no review trigger, and the FAQ states revenue refusal as an undated, ongoing habit. The S-1 filed October 26, 2026 opens the period most likely to test or break that discriminator, when public-market revenue pressure arrives. C104's trigger covers only the Pentagon dispute itself being resolved. Nothing fires if Anthropic adds ads to Claude, narrows either exception, or she explains a revenue-over-principle trade. The page's central argument could go stale without any maintenance signal.",
+      "acceptance_test": "C49, C103, C113 and C120 (and C29 if still load-bearing) are time_sensitive or unresolved, with an actionable review_trigger such as: 'If Anthropic introduces advertising in Claude, drops or narrows either Pentagon exception, or Daniela publicly explains accepting revenue over a stated principle.' The Type 2 FAQ ties the revenue claim to dated examples (e.g. 'has turned away revenue on principle, including ads in 2026'), not an undated habit. research_tasks names post-IPO filings and earnings-call remarks as the place to look for her first-person account of such a trade-off."
+    },
+    {
+      "id": "future-02",
+      "severity": "minor",
+      "passage": "When they judged OpenAI's Pentagon deal in the same conversation, he called it part of the democratic process, while she asked whether it was principled or opportunistic.",
+      "problem": "The FAQ on how she differs from Dario, and the whole One-versus-Six contrast in 'The sharper sibling', come from one interview: The Builders (S29), dated 2026-10-27, the day before the draft. The 'It happened again on GPT-2' example is from the same conversation. The evidence record's discriminator also cites C45 to separate her One from his Six. Drop the newest source and the sibling contrast and that FAQ lose all their evidence. In the FAQ, 'the same conversation' is undated, so a reader in 2031 cannot place it. The record holds four earlier joint appearances (S02 March 2022, S30 and S31 May 2026, S14 June 2026) that could corroborate or scope the pattern.",
+      "acceptance_test": "Option one: the section and the FAQ cite at least one joint appearance dated before October 2026 that shows the same split, with her judging whether conduct was right and him reframing toward process or trust. Option two: both are explicitly scoped to a single dated exchange ('in an October 2026 interview with Walter Isaacson'), and the heading and FAQ no longer imply a recurring pattern. Either way, the evidence record's discriminator does not rely on C45 for One versus Six unless corroborated."
+    },
+    {
+      "id": "future-03",
+      "severity": "minor",
+      "passage": "He owns long-range strategy and she runs the company day to day.",
+      "problem": "Several present-tense role claims are untracked. C126 is marked stable with no trigger, yet it describes the same role split that C78 tracks as time_sensitive. Four more have no claim at all: 'Her brother Dario is the chief executive.' (body), 'Her brother Dario Amodei is Anthropic's CEO.' (FAQ), the FAQ's 'Daniela Amodei is a co-founder and the president of Anthropic', and the frontmatter `occupation: Co-founder and President, Anthropic`. `persona_title: Anthropic's Keeper of the Bar` also ties her identity to a current employer. A leadership or role change around the IPO would fire only C35, C77 and C78 and leave these stale.",
+      "acceptance_test": "Each listed passage or field has a claim with durability time_sensitive and the trigger 'On IPO completion, any S-1 amendment, or any change in Daniela's or Dario's titles or the division of their roles'. C126 is reclassified to match C78, and the FAQ answer is dated (e.g. 'As of 2026, he owns long-range strategy...'). persona_title is either trait-based or covered by that trigger."
+    },
+    {
+      "id": "future-04",
+      "severity": "minor",
+      "passage": "She has not given her own account.",
+      "problem": "This is a temporary status in undated present perfect. C90 correctly marks it unresolved with a trigger, but the reader sees no date. If she speaks on record in 2027 and no refresh happens, the sentence becomes false. A dated version stays true. The nearby 'still despise Altman and Brockman' is attributed to The Atlantic, but its September 2026 date appears only in the hook, about 170 lines earlier.",
+      "acceptance_test": "The sentence carries an absolute date, e.g. 'As of October 2026, she has not given her own account.' The 'still despise' sentence names The Atlantic's September 2026 date in the same sentence or the one before it. C90's review_trigger is retained."
+    },
+    {
+      "id": "future-05",
+      "severity": "minor",
+      "passage": "Everyone at Anthropic who has been there more than two months gets a performance review every six months, she said on the same podcast, \"and that includes me and [Dario] we get reviews from the board.\"",
+      "problem": "'The procedure reaches the top' uses a February 2024 statement, written in the present tense, as evidence that the rules bind her. The S-1 filed October 26, 2026 lists her as chair of that board, and the record notes founder Class F stock carries 50.1% of the votes. A future reader will ask who reviews the chair. The draft does not say whether the 2024 practice predates her chair role or will survive the listing. C51 is marked stable with no trigger, though board governance typically changes at an IPO, and post-IPO governance filings will be checkable evidence.",
+      "acceptance_test": "The sentence is scoped to its date (e.g. 'In February 2024 she said everyone ... got a review every six months'). The article either notes that she now chairs the board or avoids implying the 2024 arrangement is current. C51 is time_sensitive with a trigger such as 'On Anthropic's first proxy statement or governance disclosure describing how the board evaluates the president and chair, or her statement that board reviews continue after the IPO.'"
+    },
+    {
+      "id": "future-06",
+      "severity": "minor",
+      "passage": "On the Sixth Street podcast [*It's Not Magic*](https://sixthstreet.com/podcasts/) in February 2026",
+      "problem": "Two reader-facing links will not hold up for five years. S34 points to the podcast index page, not the February 2026 episode; its context field admits as much. As episodes rotate, readers will not be able to find the source of the 'perfected' and 'no tolerance' quotes. The link labeled 'Wall Street Journal' (S13) goes to a syndicated copy on tovima.com. Syndication pages are less stable than the canonical URL, and the label misstates where the link goes.",
+      "acceptance_test": "S34's URL is episode-specific (an Acast, Apple or Spotify episode page, or an archived snapshot of it), and the in-text link matches. The WSJ link uses the canonical wsj.com URL, with the opened syndicated text kept in S13's context. Alternatively, the link text names the syndication."
+    },
+    {
+      "id": "future-07",
+      "severity": "minor",
+      "passage": "9takes reads Dario as a Type 6 and Daniela as a Type 1.",
+      "problem": "The sibling contrast in the FAQ and in 'The sharper sibling' depends on another 9takes page's current typing. The FAQ sentence has no claim, and C72 is marked stable with no trigger. The site has retyped people before. If the Dario Amodei profile is refreshed to a different type, this page will silently contradict the site, and the One-versus-Six reasoning will need rework.",
+      "acceptance_test": "C72 and a new claim covering this FAQ sentence are time_sensitive, with the trigger 'If 9takes' Dario Amodei profile changes its enneagram type or is refreshed under a new type thesis.'"
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "At OpenAI, Daniela Amodei had an advisory council made of stuffed animals.",
+      "reason": "The hook has a long shelf life. It is a specific, sourced 2023-era detail, not tied to the IPO or any news cycle, and it sets up the supportive-manager versus high-bar question the whole piece answers."
+    },
+    {
+      "passage": "These episodes line up with the Type 1 read. They can't carry it.",
+      "reason": "This keeps the thesis independent of the disputed 2026 OpenAI reporting. If an on-record account later revises those episodes, the type argument still stands. That is the five-year design the standard asks for."
+    },
+    {
+      "passage": "The Two material sits mostly in how she describes herself and in a job that rewards people skills. The One material sits in what she does when something is at stake.",
+      "reason": "This states the discriminator in terms of behavior, not events. It will stay true and useful as new interviews accumulate, and it tells a future refresh exactly what evidence to look for."
+    },
+    {
+      "passage": "Anthropic's October 2026 S-1 filing lists her age as 39 as of September 30, 2026. No source checked for this page gives a full birth date.",
+      "reason": "This is how to state an age: an absolute as-of date, the source named, no made-up birth date. It stays true indefinitely."
+    }
+  ],
+  "assessment": "Five-year verdict: the core thesis passes, with tracking gaps. The Type 1 versus Type 2 argument draws on dated first-person evidence from 2021 to 2026 across at least eight venues: the 2021 feedback matrix, board reviews and 'get myself out of that job' (Grit, February 2024), turned-away customers (Stanford, 2024), integrity and the culture interview (Sixth Street, February 2026), no ads (Oprah, May 2026). It survives removing the October 2026 sources, the S-1 and the Pentagon episode. The hook is a non-news detail. The OpenAI-era allegations are explicitly non-load-bearing. Absolute dates are used almost everywhere ('By June 2026', S-1 filing date, age as of September 30, 2026, birth year only). The weak points: (1) the revenue-under-principle discriminator has no review triggers right as the IPO begins to test it; (2) the sibling contrast and the Dario FAQ rest on a single interview dated 2026-10-27; (3) several present-tense role claims, plus the occupation and persona_title metadata, are uninventoried or marked stable; (4) one undated 'has not given her own account'; (5) a February 2024 board-review claim now sits beside her S-1 chair role; (6) two fragile citation links; (7) an untracked dependency on Dario's page staying Type 6. All are cheap evidence-record and wording fixes; none requires changing the thesis. Similarity advisory: not tripped. The top pairs (max 0.051, at the noise-floor maximum) share only attribution scaffolding such as 'she told a ... audience in 2026' and generic Type 1 phrasing, with no shared argument. I found no meaningful reuse. The short 'pattern runs in a few plain steps' explainer is ordinary type vocabulary. Risk flags match the evidence record: sensitive allegations (the coup accusation and 'abusing her power'), contested typing (medium confidence, with Type 2 live), and a major thesis change from the 2026-10-06 Type 2 hold."
+}

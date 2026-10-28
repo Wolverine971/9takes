@@ -1,0 +1,23 @@
+The unfamiliar-reader review for the Daniela Amodei draft is written to `review-unfamiliar.json` in the run directory. It passes the review schema and carries the request's two hashes. I didn't change any other file in the repo or publish anything.
+
+**Verdict:** for someone who has never heard of her, the draft gets them oriented quickly after a strong hook. Momentum holds because every OpenAI episode says up front where it comes from and how far it can be trusted. The review has 9 findings (4 major, 5 minor) and protects 5 passages.
+
+**Major findings:**
+1. **The founding of Anthropic is never told.** "The group" appears twice without ever being defined. A new reader never learns who left OpenAI, when, or why, and the ending depends on that departure.
+2. **The draft never says what her high standards cost her.** It names "rigidity" as the usual cost of Type 1, then spends a section showing she isn't rigid. The lost friendship with Greg Brockman and her "inflexible" reputation are already in the draft but never called costs.
+3. **The Pentagon story stops at a threat.** The section is headed "When the right thing costs money," but the reader never learns what the refusal actually cost. That OpenAI took the work only comes up about 20 paragraphs later.
+4. **One Dario quote is out of context.** In the Isaacson transcript, "You have no credibility on this matter" is something he says they think but never say out loud. The draft presents it as said, and uses it as the "in fairness" balance in the sibling comparison.
+
+**Minor findings:**
+- Brockman, Altman and Murati are never identified by their roles at OpenAI.
+- Two Isaacson quotes are hard to follow without context:
+  - "And you felt that about Sam?" is missing the honesty remark it responds to, and her answer praised Anthropic's own co-founders rather than judging Altman.
+  - In the chief people officer quote, "I" reads as the officer when it means Daniela.
+- The central argument for Type 1 over Type 2 is stated three times. The draft runs 3,679 words, over the 3,500 target.
+- "Their parents had moved from Italy" follows Wired's wording, but the same Wired paragraph says her mother was born in Chicago.
+
+**Protected passages:** the stuffed-animal opening, the vegetarian exchange, the Capitol Hill "rule-lover" line, the "Two hears help / One hears mess" line, and the mentor-advice ending.
+
+The similarity check didn't trip and I found no reused arguments from other profiles. I kept all four risk flags from the research stage as they were.
+
+Since I'm Claude, an Anthropic model, reviewing a profile of Anthropic's president, you may want to weigh this review alongside the other jury roles. I kept to clarity and context problems, and none of the findings softens anything about her.

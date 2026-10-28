@@ -1,0 +1,201 @@
+{
+  "target": {
+    "person": "daniela-amodei",
+    "type": "1",
+    "units": 16,
+    "file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-28_03-37-43-950_daniela-amodei/draft.md"
+  },
+  "comparison_set": [
+    {
+      "person": "Mark-Fischbach",
+      "date": "2026-10-11",
+      "units": 7
+    },
+    {
+      "person": "aaron-pierre",
+      "date": "2026-08-31",
+      "units": 14
+    },
+    {
+      "person": "Marcus-Aurelius",
+      "date": "2026-08-30",
+      "units": 40
+    },
+    {
+      "person": "Ryan-Holiday",
+      "date": "2026-08-28",
+      "units": 37
+    },
+    {
+      "person": "james-clear",
+      "date": "2026-08-19",
+      "units": 24
+    },
+    {
+      "person": "ben-shapiro",
+      "date": "2026-08-15",
+      "units": 35
+    },
+    {
+      "person": "caitlin-clark",
+      "date": "2026-08-12",
+      "units": 49
+    },
+    {
+      "person": "Judge-Judy",
+      "date": "2026-05-25",
+      "units": 20
+    }
+  ],
+  "n_requested": 8,
+  "noise_floor": {
+    "pairs_compared": 3616,
+    "median": 0,
+    "p90": 0,
+    "p99": 0.007,
+    "max": 0.051
+  },
+  "trip_threshold": 0.04,
+  "tripped": false,
+  "trip_pairs": [],
+  "per_draft_max": [
+    {
+      "person": "caitlin-clark",
+      "date": "2026-08-12",
+      "units": 49,
+      "maxScore": 0.051
+    },
+    {
+      "person": "Marcus-Aurelius",
+      "date": "2026-08-30",
+      "units": 40,
+      "maxScore": 0.051
+    },
+    {
+      "person": "aaron-pierre",
+      "date": "2026-08-31",
+      "units": 14,
+      "maxScore": 0.03
+    },
+    {
+      "person": "james-clear",
+      "date": "2026-08-19",
+      "units": 24,
+      "maxScore": 0.027
+    },
+    {
+      "person": "Judge-Judy",
+      "date": "2026-05-25",
+      "units": 20,
+      "maxScore": 0.019
+    },
+    {
+      "person": "ben-shapiro",
+      "date": "2026-08-15",
+      "units": 35,
+      "maxScore": 0.017
+    },
+    {
+      "person": "Ryan-Holiday",
+      "date": "2026-08-28",
+      "units": 37,
+      "maxScore": 0.015
+    },
+    {
+      "person": "Mark-Fischbach",
+      "date": "2026-10-11",
+      "units": 7,
+      "maxScore": 0.013
+    }
+  ],
+  "top_pairs": [
+    {
+      "score": 0.051,
+      "other_person": "caitlin-clark",
+      "shared_phrases": [],
+      "target": "[diagnosis] she told a Stanford Graduate School of Business audience in 2026",
+      "other": "[counter-typing] She told a room of Goldman Sachs clients the lost title games do not keep her up at night."
+    },
+    {
+      "score": 0.051,
+      "other_person": "Marcus-Aurelius",
+      "shared_phrases": [],
+      "target": "[diagnosis] A good deal of what looks like Type 1 is also a president's job description",
+      "other": "[counter-typing] Type 1 is also among the rarest reads in the 9takes corpus (corpus stats)."
+    },
+    {
+      "score": 0.03,
+      "other_person": "aaron-pierre",
+      "shared_phrases": [],
+      "target": "[diagnosis] This read comes from her interviews",
+      "other": "[diagnosis] The case does not come from the upright characters he plays."
+    },
+    {
+      "score": 0.03,
+      "other_person": "caitlin-clark",
+      "shared_phrases": [
+        "thi read"
+      ],
+      "target": "[diagnosis] This read comes from her interviews",
+      "other": "[diagnosis] locates the difficulty exactly where this reading puts it"
+    },
+    {
+      "score": 0.027,
+      "other_person": "james-clear",
+      "shared_phrases": [],
+      "target": "[diagnosis] \"How do I make that more fair?\" The sentence names a wrong and goes looking for the fix.",
+      "other": "[diagnosis] The question isn't \"how do I get more done?\" It's \"who am I becoming?\" — the fundamental question that keeps every Enneagram One awake at night. - He chose systems over goals because goals felt insufficient."
+    },
+    {
+      "score": 0.026,
+      "other_person": "aaron-pierre",
+      "shared_phrases": [],
+      "target": "[diagnosis] This read comes from her interviews",
+      "other": "[diagnosis] The case comes from the test Pierre applies when nobody else gets a vote."
+    },
+    {
+      "score": 0.023,
+      "other_person": "Marcus-Aurelius",
+      "shared_phrases": [
+        "look like"
+      ],
+      "target": "[diagnosis] A good deal of what looks like Type 1 is also a president's job description",
+      "other": "[diagnosis] the anxiety in his letters looks like fear"
+    },
+    {
+      "score": 0.019,
+      "other_person": "caitlin-clark",
+      "shared_phrases": [],
+      "target": "[diagnosis] she told a Stanford Graduate School of Business audience in 2026",
+      "other": "[diagnosis] She spent room-management capital in a gym with no audience in it."
+    },
+    {
+      "score": 0.019,
+      "other_person": "Judge-Judy",
+      "shared_phrases": [],
+      "target": "[diagnosis] Ones are driven by a need to be good and to set things right.",
+      "other": "[diagnosis] \"These children are entitled to at least one parent to set a good example"
+    },
+    {
+      "score": 0.019,
+      "other_person": "aaron-pierre",
+      "shared_phrases": [],
+      "target": "[diagnosis] the angry scenes in her story come from other people's accounts.",
+      "other": "[diagnosis] The case does not come from the upright characters he plays."
+    },
+    {
+      "score": 0.017,
+      "other_person": "ben-shapiro",
+      "shared_phrases": [],
+      "target": "[diagnosis] and the rules she builds apply to her too.",
+      "other": "[diagnosis] and the way they prove the verdict wrong is by making the rules of the world airtight."
+    },
+    {
+      "score": 0.017,
+      "other_person": "caitlin-clark",
+      "shared_phrases": [],
+      "target": "[diagnosis] the three types whose core emotion is anger.",
+      "other": "[counter-typing] The Three that competes here is the self-preservation Three"
+    }
+  ]
+}

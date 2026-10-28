@@ -1,0 +1,20 @@
+{
+  "schema_version": 3,
+  "subject": "daniela-amodei",
+  "mode": "create",
+  "role": "enneagram",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_review_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-28_03-37-43-950_daniela-amodei/draft.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-28_03-37-43-950_daniela-amodei/evidence-draft.json",
+    "similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-28_03-37-43-950_daniela-amodei/similarity.json"
+  },
+  "outputs": {
+    "review-enneagram.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-28_03-37-43-950_daniela-amodei/review-enneagram.json"
+  },
+  "content_sha256": "43c88b4c75a4c5b507c140099eae85c33a4a717bb7893e0a6e0a6c117c2c7774",
+  "evidence_sha256": "a2bfc37be03ef7bdaed51e33b71f0991d2934737335c9c8cffd41c72463994bf"
+}

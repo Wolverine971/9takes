@@ -1,0 +1,20 @@
+I finished the repair stage and wrote the three requested files: `repair.md`, `evidence-repair.json` and `resolution-repair.json`. Nothing else was modified and nothing was published. Both JSON files pass the contract's schemas, and the draft passes its checks: 4,183 words, all 135 claim passages found in the text, and a 57-word type answer that matches the FAQ.
+
+**The main blocker (verify-01).** The cached Grit transcript confirms the verifier: the trimmed quote dropped "coming from a place of wanting the best for the other person." I put the whole sentence back. The article now says her comparison is caring feedback against no feedback at all, not honesty against kindness, and that a Two could claim this motive as easily as a One.
+
+That left the Type 1 over Type 2 argument without its main support. I didn't add a new one, because adding an argument after the jury review is exactly what the verifier flagged. Instead the page now says the record doesn't yet separate One from Two:
+- **Type answer and type FAQ:** "Our leading read… is Enneagram Type 1… But her record does not yet separate One from Type 2, and Type 6 stays live."
+- **"Why isn't she a Type 2?" FAQ:** it now opens "She may be."
+- **"Why not Type 2?" section:** One leads narrowly only because the same pattern keeps showing up: she turns values into rules and reviews that include her, and a co-founder credits her with keeping the bar high. The section says a Two in her job could produce the same record.
+
+**The four minor fixes:**
+- **Co-founder video:** the quote no longer claims the lines are consecutive, and it says the captions don't show who "you're the reason the culture scaled" was said to.
+- **Effective altruism:** her own reason is back in: "a bit of an outdated term."
+- **"Stray from the path":** it now credits group accountability (Dario, the co-founders, and staff who can disagree anonymously), not Dario alone.
+- **Evidence inventory:** "was never a question" and "70% hit rate" now have claim entries.
+
+**Decision for you:** the evidence file still says medium confidence, because the rules don't allow low confidence on a page marked ready. The only step below medium is a research hold. The page text is more tentative than before, and the evidence file records why it stayed at medium.
+
+My guess is this still won't pass reverification. The verifier gave Enneagram 7.5 partly because no observation separates Type 1 from Type 2, and the page now openly says there isn't one, so it will probably stay below 8. The page would then hold until someone finds named colleagues on record describing how she handles a missed standard. I recommend that hold over pushing for a stronger Type 1 case. The other route is to publish it as a tentative read anyway, which would mean an owner override. That's your call.
+
+The page also grew from 4,039 to 4,183 words. That's still under the 4,500 limit, but further from the roughly 3,500 target the writing score dinged it for.

@@ -1,0 +1,18 @@
+I finished the research stage and wrote `evidence.json` to the run directory. The result is **ready, as an open case**: Type 6 is the leading read at low confidence, Type 3 is the strongest rival, and Types 9 and 1 are still in play. It passes the pipeline's own validation (`validateEvidence`). I didn't change any other repo files and didn't publish anything.
+
+**Why an open case and not a hold.** He's 27 and has acted since childhood, but *I Play Rocky* is his first lead role and his first real public moment. Before that, *Grand Army* (2020) produced four short Q&As and *The Offer* (2022) produced red-carpet quotes plus one short Q&A. Everything from 2026 is festival press: junkets, press conferences, premiere Q&As. I found no long-form profile, no podcast, and nobody who has known him beyond a single production speaking on record. Some outlets call *Grand Army* his "breakout," so I've flagged that for the verifier when it decides whether he qualifies as an open case.
+
+**The case:**
+- **For Type 6:** the same sequence shows up in 2022 and 2026. He names the fear ("pretty terrifying, it makes you want to throw up," "weight of responsibility," "You start by saying, I don't know how to do this"). He answers it with heavy preparation and by deferring to the person he's playing. Then he acts boldly anyway: he sent an unsolicited audition tape and says he "was fighting for it."
+- **For Type 3:** he made himself visible twice before anyone asked, once in 2020 with a broken hand kept out of frame and once with the 2025 Rocky tape. He says he needed to be "seen." He was "trying to do everything" in college, and he spent close to two years changing his body for the role.
+- **What weakens 3:** director Peter Farrelly says he never mentioned playing Pacino until asked during pre-production. He talks about his success as other people's gamble on him.
+- **What would settle it** (four signals in the file): how he explains the self-tape in long-form awards-season interviews, how he handles the "imitation" reviews, what he picks as his next role, and what longtime collaborators say about him. The case is set to reopen on 2026-12-15, after the wide release on 2026-11-20.
+
+**Things the draft stage must get right:**
+- **Fake self-quote:** in IMDb's cast video, "I guess I just don't see myself as a lead" is a line of dialogue from a clip of *The Offer*, not Ippolito speaking. I confirmed this from a video frame, and it's logged as claim C36.
+- **Birth year is unsettled:** sources give 1999 or 2000, so the article should give no birth date.
+- **Two other disputes:** the self-tape story differs between Ippolito's account and Farrelly's, and the reported weight gain varies (about 30 vs about 40 pounds).
+- **Stallone's reaction:** accounts conflict and it's logged as time-sensitive. Farrelly says he "loved it"; Stallone says his feelings are "kind of mixed because I'm not dead yet."
+- **Quote checks:** the key video quotes were re-transcribed from audio. One line, "I knew I could do it," couldn't be confirmed and is excluded. The Hollywood Elite clip was only read from auto-captions.
+
+Full transcripts and page copies are cached outside the repo in `~/.cache/9takes-research/anthony-ippolito/`. I also added the spliced-clip trap and how to check frames to the existing transcript-attribution memory.

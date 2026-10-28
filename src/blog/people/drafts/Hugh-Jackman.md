@@ -330,3 +330,5 @@ He has been meeting people — really meeting them — for forty years now. On s
 At some point you stop asking whether it's generosity or survival. You realize it might be the same thing.
 
 > **Disclaimer:** This analysis of Hugh Jackman's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Hugh Jackman.
+
+**Related reading:** [Ella Beatty's open-case personality profile](/personality-analysis/ella-beatty).

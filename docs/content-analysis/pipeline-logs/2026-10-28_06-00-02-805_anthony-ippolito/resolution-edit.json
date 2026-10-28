@@ -1,0 +1,333 @@
+{
+  "schema_version": 3,
+  "decisions": [
+    {
+      "finding_id": "subject-01",
+      "action": "fixed",
+      "reason": "Fixed. The section is retitled \"Training for a part he already had\" and opens \"The body came after the tape.\" with Farrelly's Collider line (S20 01:18-01:31): \"After we got it, the one thing he wasn't was he wasn't buff like Stallone ... So we had him working out for a year and learning how to box.\" The pre-tape work is stated as study: \"so much of the homework had to be done prior to even submitting the tape\" (C90). The Nine paragraph now reads \"What strains it is how hard he went after a lead.\" (C69 revised). The Type 3 FAQ drops the body-change sentence, and the casting FAQ adds that training came afterward at the production's direction (C88). New claim C87 maps Farrelly's line to S20; C14 is revised and C82 removed. No passage says he changed his body before anyone asked."
+    },
+    {
+      "finding_id": "subject-02",
+      "action": "fixed",
+      "reason": "Fixed. Added \"In casting, \\\"being seen\\\" is shop talk for getting in front of the people who decide, so the word is weak evidence on its own.\" (C97). The quotation now runs through \"even if it didn't go my way. I just really had to try to get in the door.\" The 60-word answer, type FAQ, Type 3 FAQ and Type 3 section no longer cite \"seen\" as evidence. The Three case rests on behavior (the Stallone tape, the 2019 audition taped with the hand hidden, Farrelly's \"He just made it happen\", the Baruch schedule), and THR's framing is labeled as marketing. The protected two-readings paragraph stays verbatim after the idiom caveat, so the visibility reading is offered only as one interpretation of the act."
+    },
+    {
+      "finding_id": "subject-03",
+      "action": "fixed",
+      "reason": "Fixed. The tape section now answers \"Why tape himself at all?\" with his TheWrap statement, quoted in full: \"I had known a little bit of Stallone's story, so I was like, 'This is going to be a great movie,' and I really wanted to be a part of it ... I was really, really enthusiastic about it.\" (C96, S01). It is introduced as \"enthusiasm for a story that had inspired him\", summarizing Collider 00:08-00:14 (C95). Settle signal 1 now says this answer \"fits every reading\" and asks what a long-form retelling must add (C120). The Nine section says this motive \"fits Nine as well as anything\" (C106)."
+    },
+    {
+      "finding_id": "subject-04",
+      "action": "fixed",
+      "reason": "Fixed. The counterphobic \"takes the bold step anyway\" clause is gone. The Six section now gives the dated order: \"Before the tape came homework and enthusiasm; the fear words (\\\"intimidation,\\\" \\\"daunting\\\") came once the role was his. Nothing on record shows fear before the tape ... so it can't be read as a Six forcing himself toward what scares him.\" (C111). C37 now claims only what both roles show, a difficulty named and then study, and its inference records the correction."
+    },
+    {
+      "finding_id": "subject-05",
+      "action": "fixed",
+      "reason": "Fixed. The Rome quotation is extended with \"He had so much going against him and he persevered through so much. His endurance, I think, radiates through Rocky.\" (S03). The truncated Fandango \"in his corner\" line is removed. The \"where his eye goes: to support\" inference is withdrawn and the passage leaves the Six case. In the Type 4 set-aside it now reads \"That is his reading of Stallone, not a self-portrait, and it echoes the film's own underdog pitch.\" (C28, C102)."
+    },
+    {
+      "finding_id": "subject-06",
+      "action": "fixed",
+      "reason": "Fixed. \"His recurring words are weight and fear, not winning.\" is replaced by \"His fear words usually come paired with honor, fun and gratitude, and talk of winning is hard to find.\" (C85). The Six \"Against it\" paragraph adds the August 2025 \"an absolute dream come true\" (C104). The Type 3 FAQ no longer says his words keep returning to fear and responsibility."
+    },
+    {
+      "finding_id": "subject-07",
+      "action": "fixed",
+      "reason": "Fixed. The Type 3 section now says \"Farrelly's story that Ippolito never mentioned playing Pacino came from pre-production, after he was hired, when there was nothing left to sell.\" (C68). The Type 3 FAQ lists \"Farrelly's story that he never mentioned playing Al Pacino until after he was hired\" as discounted press-tour humility, not a reason Six leads. The author-voice sentence about the Stallone phrase is cut (see unfamiliar-4)."
+    },
+    {
+      "finding_id": "subject-08",
+      "action": "fixed",
+      "reason": "Fixed. \"Farrelly cut in\" becomes \"Farrelly added\", and his next sentence is quoted: \"By the way, it wasn't much of a fight. We never considered anyone else after him.\" The line now reads as the praise it was. This is Whisper's wording with caption stutters dropped, recorded in the S15 locator (C05)."
+    },
+    {
+      "finding_id": "fan-01",
+      "action": "fixed",
+      "reason": "Fixed. Same correction as subject-01: training follows the tape and is attributed to Farrelly on Collider (September 2026), mapped as C87 to S20. The heading \"Two years in Gleason's Gym\" becomes \"Training for a part he already had\". The 150-to-180-pound Gleason's figure stays attributed to Variety. The People interview (via Generation Iron) could not be found on 2026-10-28, so it is not quoted; a research task records it."
+    },
+    {
+      "finding_id": "fan-02",
+      "action": "fixed",
+      "reason": "Fixed. All three passages now say 2019: \"In 2019, playing baseball for Baruch College, he broke his hand...\", \"in 2019 the tape was his agent's idea\", and \"in 2019 an audition taped with a broken hand kept out of frame\". Sources are Baruch Athletics (S28, \"played for the Bearcats in 2019\") and HollywoodLife (S12, out for the season, booked about a week later). \"He told the New York Post in 2020\" keeps 2020 as the interview year. C06, C38 and C55 are updated, and the hypothesis text no longer dates the audition to 2020. Grand Army's production dates were not opened, so no month is given; a research task records this."
+    },
+    {
+      "finding_id": "fan-03",
+      "action": "fixed",
+      "reason": "Fixed. The full run is quoted once, in the fear section: \"Very Stallone-like in his approach to this. He just made it happen. He was so prepared, you know, and humble.\" (C13, S16 01:38-01:45, captions and Whisper agree). \"He just made it happen\" is cited again in the Type 3 case and the Type 3 FAQ."
+    },
+    {
+      "finding_id": "fan-04",
+      "action": "fixed",
+      "reason": "Fixed. The orientation now says \"That tape won him the lead in _I Play Rocky_, the story of how a then-unknown Stallone wrote _Rocky_ and refused to sell it unless he could play the lead\" (C91, S03/S05). Farrelly is identified as the director of Green Book (C41). The THR quote appears with its antecedent: \"tied him to Stallone's bet on himself: 'In a fitting echo of that spirit...'\" (C67). The type section weighs the parallel: \"Three's best story. It is also the studio's marketing line, so it can't prove motive on its own.\" (C105). The Offer's casting-fight parallel is not added because no opened source documents it."
+    },
+    {
+      "finding_id": "fan-05",
+      "action": "fixed",
+      "reason": "Fixed via the test's fallback branch. A web search on 2026-10-28 did not find the People original; only the Generation Iron relay is cached. Per the acceptance test, the relay is not presented as his words, and a research task asks for the People interview to be opened before his account of Stallone's and Jennifer Flavin's reaction goes into the body or the Stallone FAQ."
+    },
+    {
+      "finding_id": "fan-06",
+      "action": "fixed",
+      "reason": "Fixed. The orientation adds \"He made his TV debut as a baseball-throwing toddler, the New York Post reported, and childhood news spots for baseball got him an agent, he told Pop-Culturalist.\" (C93, S06/S11) and \"He played the younger version of Adam Sandler's character in _Pixels_ (2015).\" (C94, S05/S25). His mother's acting history is not used, and no motive is inferred from the childhood path."
+    },
+    {
+      "finding_id": "fan-07",
+      "action": "fixed",
+      "reason": "Fixed. The One section now names the role and storyline, marked as fiction: \"where his character, George Wright, is one of two friends who sexually assault Joey, A'Zion's character, in a fictional storyline about consent\" (C107). The \"duty\" quote is set in the question it answered: \"Asked by HollywoodLife how the cast made that scene safe to film...\" (C70). The Odessa line is deliberately left out to hold length; it bears on no type argument the article makes."
+    },
+    {
+      "finding_id": "fan-08",
+      "action": "fixed",
+      "reason": "Fixed. The closing no longer counts only against the rival: \"Both leading reads can claim half of it. 'Can't be overtaken' keeps the race and promises not to lose it, which suits a Three; 'walks his own way' refuses anyone else's course, which doesn't. A Six who builds his own footing could own 'his own way'; one who leans on guidance couldn't.\" (C121). The protected final sentence is kept."
+    },
+    {
+      "finding_id": "critic-01",
+      "action": "fixed",
+      "reason": "Fixed. Same as subject-04. The Six case is limited to what both roles show: \"he names the difficulty, then studies until he has footing\" (C37). The 2022 half is now quoted directly from THR (C84). The dated order (enthusiasm and homework before the tape, fear words after casting) replaces the bold-step sequence (C111), and no self-started step is claimed for the Pacino casting."
+    },
+    {
+      "finding_id": "critic-02",
+      "action": "fixed",
+      "reason": "Fixed. The Three rebuttal opens \"The evidence against Three deserves the same press-tour discount as the fear.\" The thank-you is labeled what premieres call for, and the Pacino anecdote is dated after hiring (C68). The 2022 fear quotes are discounted too: \"THR's headline gave the whole cast an 'Absolutely Terrifying' task, so the register wasn't his alone.\" (C99). The 60-word answer and type FAQ now say \"Type 3 is nearly level\" (C116). The \"Six leads because\" line is cut, and the one ordering reason is named as a thin tiebreaker in the Six section and Type 3 FAQ (C89, C110)."
+    },
+    {
+      "finding_id": "critic-03",
+      "action": "fixed",
+      "reason": "Fixed. Same as subject-01. Farrelly's Collider line is attributed, dated September 2026 and mapped to S20 (C87). The Nine strain no longer calls the effort self-started or the lead unoffered (C69). Neither the Three case nor the Three FAQ treats the transformation as unprompted, and the training section ends \"the transformation says more about his stamina than his motive\" (C101)."
+    },
+    {
+      "finding_id": "critic-04",
+      "action": "fixed",
+      "reason": "Fixed. Same as fan-02: 2019 in all three passages, citing S28 and S12, with \"he told the New York Post in 2020\" kept as the interview date. C06, C38 and C55 are updated. C54 carries no year, so it needed no change. The 2019-versus-Rocky contrast is restated with the corrected year (C55)."
+    },
+    {
+      "finding_id": "critic-05",
+      "action": "fixed",
+      "reason": "Fixed. The 2022 THR pairing is quoted: he said \"trying to fill those shoes is kind of impossible,\" so \"I looked into as much old footage as I could find with him from that time period.\" (C84). \"Now paired\" becomes \"with the same answer attached\", so the fear section and the Six section describe 2022 and 2026 the same way."
+    },
+    {
+      "finding_id": "critic-06",
+      "action": "fixed",
+      "reason": "Fixed. The Six \"Against it\" paragraph adds \"The fear words rarely travel alone, either. When his casting was announced in August 2025, he called the role 'an absolute dream come true'\" (C104), and the Three section adds the honor/fun/gratitude sentence (C85). The THR \"No.\" is not reported because its speaker is unconfirmed; it goes in C05's alternative and a frame-check research task. The exchange is cited in the Six section as counterevidence to a fear-first reading."
+    },
+    {
+      "finding_id": "critic-07",
+      "action": "fixed",
+      "reason": "Fixed. \"TIFF critics split on the same question\" becomes \"Most of the first TIFF reviews gathered by Rotten Tomatoes praised the performance, and a minority called it imitation.\" (C119, S23/S30). The two quotations are unchanged, and settle signal 2 refers to the \"imitation\" reviews without implying a split."
+    },
+    {
+      "finding_id": "critic-08",
+      "action": "fixed",
+      "reason": "Fixed. Same as fan-08: the closing gives each leading read its supporting and opposing half of the motto (C121), and the protected final sentence is kept."
+    },
+    {
+      "finding_id": "unfamiliar-1",
+      "action": "fixed",
+      "reason": "Fixed. The body-change sentence is replaced by Farrelly's attributed timeline (C87, S20), the Nine strain is cut back to the pursuit itself (C69), and the casting date is given once: \"His casting was reported on August 27, 2025\" (C92, S05). The tape's own date stays unstated because no source gives it (research task)."
+    },
+    {
+      "finding_id": "unfamiliar-2",
+      "action": "fixed",
+      "reason": "Fixed. Paragraph four, attributed to Screen Daily, gives the premise: a then-unknown Stallone wrote Rocky and refused to sell it unless he could play the lead (C91). Farrelly is named as the director of Green Book at first mention, without THR's incorrect Oscar-for-directing wording (C41). The tape sentence says it \"won him the lead\". The actor-subject parallel is attributed to THR and the studio and labeled as not evidence of motive (C105)."
+    },
+    {
+      "finding_id": "unfamiliar-3",
+      "action": "fixed",
+      "reason": "Fixed (repetition); length partly met. The repeated \"Six leads because ... Three stays close because ...\" pair is cut. The protected \"All of it shows what he says and does in public, not what he feels.\" is kept with a new lead-in. \"The order holds each time\" is cut. The two-roles thesis is now stated twice, in the type answer and the Six section. The uninvited-move motif now appears three times: the heading, \"one nobody invited\" and \"for I Play Rocky it was his own\". \"Before anyone asked\", \"uninvited\" and \"nobody had offered him\" are gone. Length: the body is about 3,150 words, not 2,500. Other majors (fan-04, unfamiliar-2, subject-03, critic-02/05, enneagram-F1/F3/F7) required added sourced context. To offset it, Robb's CinemaCon quote, the Stallone Zoom paragraph, the Haute Living method quote, the Collider \"Like 40?\" exchange, the weight-off paragraph and several bridges were cut. The figure stays inside the standard's 2,000-3,500 range and the 4,500 release limit."
+    },
+    {
+      "finding_id": "unfamiliar-4",
+      "action": "fixed",
+      "reason": "Fixed. The sentence about the unnamed Stallone phrase is cut, and no version mentions the phrase."
+    },
+    {
+      "finding_id": "unfamiliar-5",
+      "action": "fixed",
+      "reason": "Fixed. The age is now \"in his mid-to-late twenties as of 2026\". That is dated and true under every report: the 2020 and 2022 ages imply 25 or 26, the Wikipedia date 27. No birth year is stated. A dated childhood credit is named: Pixels (2015) (C94). C31's passage and trigger are updated."
+    },
+    {
+      "finding_id": "unfamiliar-6",
+      "action": "fixed",
+      "reason": "Fixed. The passage now reads \"The broken hand explains why he first offered to pass. Still, the contrast is real: in 2019 the tape was his agent's idea, and for _I Play Rocky_ it was his own.\" \"Pattern\" is dropped, and the contrast reads on first pass (C55)."
+    },
+    {
+      "finding_id": "unfamiliar-7",
+      "action": "fixed",
+      "reason": "Fixed. The narrower claim now reads: \"As of October 2026, nobody who has known him beyond a single production has spoken about him on record; Farrelly, Papsidera, co-star AnnaSophia Robb and Stallone all spoke in promotional or casting settings.\" (C75)."
+    },
+    {
+      "finding_id": "unfamiliar-8",
+      "action": "fixed",
+      "reason": "Fixed. The title is now \"Anthony Ippolito's Enneagram Type: An Open Case on the Star of I Play Rocky\": one grammatical phrase that names him and the film, uses open-case wording and does not say he is a Type 6."
+    },
+    {
+      "finding_id": "enneagram-F1",
+      "action": "fixed",
+      "reason": "Fixed. The Six section names the object of each fear and draws the conclusion: \"In 2022 he dreaded Pacino 'seeing it'; in 2026 he felt the weight of the fans. Both are fears of falling short in front of people whose regard matters, which belongs to Three as much as Six.\" (C103). No sentence offers fear alone as the reason Six leads. The answer and FAQs call 6 and 3 nearly level and name the separate tiebreaker (C89, C110, C116)."
+    },
+    {
+      "finding_id": "enneagram-F2",
+      "action": "fixed",
+      "reason": "Fixed. The counterphobic clause is dropped. The Six section gives the sourced sequence of enthusiasm and homework, then the tape, then fear once the role was his (C111). It cites the THR hesitation exchange as counterevidence (\"asked at THR whether he ever hesitated, he said he was 'fighting for it'\"); the \"No.\" is not quoted because its speaker is unconfirmed (research task). The Collider homework line is quoted (C90) and weighed in the tiebreaker, which is labeled \"a thin edge, also said on a press tour\" (C89)."
+    },
+    {
+      "finding_id": "enneagram-F3",
+      "action": "fixed",
+      "reason": "Fixed. Same as critic-02: the same promotional discount now applies to the humility evidence. The Pacino anecdote is framed as post-hiring, \"when there was nothing left to sell\", in the body and the Type 3 FAQ. The answer and FAQ say Six leads by a named tiebreaker, with Three \"nearly level\"."
+    },
+    {
+      "finding_id": "enneagram-F4",
+      "action": "fixed",
+      "reason": "Fixed. Same as subject-01. Farrelly's \"after we got it ... working out for a year\" is attributed and mapped (C87). The Nine counterargument rests only on the pursuit of the lead (C69). The Type 3 FAQ drops the transformation, and the training section says it separates no types (C101)."
+    },
+    {
+      "finding_id": "enneagram-F5",
+      "action": "fixed",
+      "reason": "Fixed. Same as subject-05. The lone-wolf passage leaves the Six case and is set beside the endurance half from the same Rome answer. It is labeled as the film's underdog framing that does not discriminate (C28, C102)."
+    },
+    {
+      "finding_id": "enneagram-F6",
+      "action": "fixed",
+      "reason": "Fixed. The block quote now includes \"even if it didn't go my way. I just really had to try to get in the door.\" It drops the fillers \"like\" and \"um\" and a repeated \"get in\", and follows the captions' sentence break, all disclosed in the S20 locator. A new sentence weighs the clause: \"tilts only slightly toward regret: he could accept losing, as long as he had tried.\" (C98)."
+    },
+    {
+      "finding_id": "enneagram-F7",
+      "action": "fixed",
+      "reason": "Fixed. A new \"### Set aside for now: Type 4\" names Four's evidence (music, painting, \"something that speaks to me\", the lone-wolf reading). It sets Four aside with sourced reasons: no language of feeling different or misunderstood, and the Grand Army ensemble takeaway (S11) (C108). Settle signal 3 no longer pins \"speaks to me\" on Nine. open_case.live_alternatives stays [3, 9, 1], matching \"Four stays off the live list\", and the evidence signal notes when to reopen Four."
+    },
+    {
+      "finding_id": "enneagram-F8",
+      "action": "fixed",
+      "reason": "Fixed. Signal 2 now opens \"Gracious answers are standard on an awards campaign, so only his stated reasons count. Asked at length, does he credit...\". Signal 3 opens \"Offers and agents drive the choice itself, so the test is the reason he gives\". No branch assigns a type from the bare choice. open_case.settle_signals is updated to match."
+    },
+    {
+      "finding_id": "future-01",
+      "action": "fixed",
+      "reason": "Fixed. Same as fan-02: no body passage, FAQ or claim dates the broken-hand audition to 2020. All three passages say 2019, sourced to S28 and S12, and C06, C38 and C55 are corrected."
+    },
+    {
+      "finding_id": "future-02",
+      "action": "fixed",
+      "reason": "Fixed. \"As of October 2026\" now anchors the record sentence (C49, reclassed time_sensitive with a trigger tied to the first long-form interview, podcast or profile), the 60-word answer (58 words) and the testimony sentence. That sentence is reworded to people who have spoken on record about him (C75)."
+    },
+    {
+      "finding_id": "future-03",
+      "action": "fixed",
+      "reason": "Fixed with a different wording. \"Who was 26 or 27 when the film premiered\" would be false under the 2020 and 2022 reported ages, which allow 25 at the September 2026 premiere. The text uses the dated range \"in his mid-to-late twenties as of 2026\", which stays true. C31's passage and trigger now cover this drift."
+    },
+    {
+      "finding_id": "future-04",
+      "action": "fixed",
+      "reason": "Fixed. The text now reads \"was scheduled to open in limited U.S. release on November 6, 2026, expanding nationwide on November 20\", which stays correct after the dates pass. C33 is updated."
+    },
+    {
+      "finding_id": "future-05",
+      "action": "fixed",
+      "reason": "Fixed. \"His best-known credit\" is gone; the Three section now uses Farrelly's dated pre-production story. \"He has since taken most of the weight off\" is cut. \"That month\" becomes \"In a September 2026 video for IMDb\". The settle signal and FAQ say \"after the November 2026 release\". Zurich becomes \"at the 2026 Zurich Film Festival\"."
+    },
+    {
+      "finding_id": "future-06",
+      "action": "fixed",
+      "reason": "Fixed. Same as enneagram-F8: each branch of signal 3 turns on the reason he gives, and the prose says offers and agents drive the bare choice. The motive-only branches (\"for security's sake\", \"because it tells a truth\") are replaced by stated reasons. The open_case.settle_signals entry is updated to match, including when to reopen Four."
+    },
+    {
+      "finding_id": "future-07",
+      "action": "fixed",
+      "reason": "Fixed. The sentence now reads \"That tape won him the lead in _I Play Rocky_\", followed by the film's premise, so it no longer suggests the tape created the film (C91)."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "All of it shows what he says and does in public, not what he feels.",
+      "action": "kept",
+      "reason": "Kept verbatim. A new lead-in (\"The sections below lay out the evidence for each.\") replaces the cut \"Six leads because\" pair, so the fairness boundary still sits right after the type answer."
+    },
+    {
+      "passage": "Against it: the fear clusters where nearly anyone would feel it. Little else in the public record looks like a Six. There is no worst-case planning on display, no testing of loyalty, no wariness of authority.",
+      "action": "kept",
+      "reason": "Kept verbatim beside the Six case. A sentence added after it notes the enthusiasm register (\"an absolute dream come true\") per critic-06; the counterevidence is not softened."
+    },
+    {
+      "passage": "And Farrelly learned only in pre-production, by asking, that Ippolito had played Pacino, which Farrelly called \"the best part of The Offer.\" By then Ippolito already had the job.",
+      "action": "kept",
+      "reason": "Kept verbatim. As subject-07 and critic-02 asked, its caveat now also governs the Type 3 section and Type 3 FAQ, which date the anecdote after hiring."
+    },
+    {
+      "passage": "Stallone's verdict on _I Play Rocky_ depends on who's reporting it. Farrelly said at TIFF in September 2026 that Stallone watched the film alone and loved it.",
+      "action": "kept",
+      "reason": "Kept verbatim, still followed by Stallone's own dated 92NY words."
+    },
+    {
+      "passage": "The only people on record who have worked with him or met him are Farrelly, Papsidera, Robb and Stallone, all in promotional or casting settings.",
+      "action": "changed",
+      "reason": "Changed per unfamiliar-7 and future-02. As written it was false (reporters and the friend and cousin who shot the tape met him) and undated. The distinctive contribution is retained: it names exactly whose testimony is missing and why the current record is promotional. It now reads \"As of October 2026, nobody who has known him beyond a single production has spoken about him on record; Farrelly, Papsidera, co-star AnnaSophia Robb and Stallone all spoke in promotional or casting settings.\""
+    },
+    {
+      "passage": "Before anyone had cast a movie about the making of _Rocky_, Anthony Ippolito hung a heavy bag in his grandmother's basement and started turning himself into Sylvester Stallone.",
+      "action": "kept",
+      "reason": "Kept verbatim as the hook. \"Turning himself into\" still refers to the tape; the body change is now explicitly placed after the tape (C87)."
+    },
+    {
+      "passage": "but wanted to know how he would ever find a Stallone when casting hadn't even started. \"I said, he found us.\"",
+      "action": "kept",
+      "reason": "Kept verbatim (THR 10:03-10:16 payoff)."
+    },
+    {
+      "passage": "Read one way, the key word is \"seen,\" the move of someone who needs the right people to notice. Read another, the key phrase is \"live with it\": he was guarding against regret. One junket answer can't separate those.",
+      "action": "kept",
+      "reason": "Kept verbatim and contiguous. It is now preceded by the casting-idiom caveat (subject-02) and followed by one sentence weighing \"even if it didn't go my way\" (enneagram-F6). The two-readings structure and the plain limit (\"One junket answer can't separate those.\") are unchanged."
+    },
+    {
+      "passage": "With both icons he studied the actor before the legend: Pacino before _The Godfather_, and Stallone's bit parts from 1972 to 1976.",
+      "action": "kept",
+      "reason": "Kept verbatim. The Haute Living method quote that followed it was cut for length; the distinctive insight is the sentence itself."
+    },
+    {
+      "passage": "At THR's studio, the interviewer asked whether he ever hesitated to take a role that means so much to people. \"I was fighting for it,\" he said. Farrelly cut in: \"By the way, it wasn't much of a fight.\"",
+      "action": "changed",
+      "reason": "Changed minimally per subject-08: \"Farrelly cut in\" became \"Farrelly added\" because the transcript shows no interruption, and his next sentence (\"We never considered anyone else after him.\") was added. The verified exchange, his framing set beside his director's reply, is intact; the reply now reads as the compliment the full transcript shows."
+    },
+    {
+      "passage": "Farrelly remembers it differently. At THR's studio he said Ippolito \"had somehow found the script\" and taped three scenes. In a video for [IMDb](https://www.youtube.com/watch?v=TP7M9Ce7eUM) that month, he placed the taping \"in his own apartment.\" Both men agree the tape arrived before casting began.",
+      "action": "changed",
+      "reason": "Changed only to anchor the date per future-05: \"In a video for IMDb that month\" became \"In a September 2026 video for IMDb\". The fair, attributed handling of the conflicting origin accounts and the shared point is unchanged."
+    },
+    {
+      "passage": "\"I was fighting for it,\" he said. Farrelly cut in: \"By the way, it wasn't much of a fight.\"",
+      "action": "changed",
+      "reason": "Same edit as the longer THR passage: neutral attribution (\"Farrelly added\") and Farrelly's next sentence added (subject-08). The live, unscripted exchange is preserved; the added clause corrects the draft's reading of the reply as deflation."
+    },
+    {
+      "passage": "\"But I kept my hand out of the frame 'cause I didn't want them to see I had a broken hand.\"",
+      "action": "kept",
+      "reason": "Kept verbatim. The surrounding sentence now dates the injury correctly to 2019 (fan-02)."
+    },
+    {
+      "passage": "So far, fear and ambition point the same way: toward the bold move, made after heavy preparation. Separating them takes a moment when they pull apart.",
+      "action": "kept",
+      "reason": "Kept verbatim at the head of the settle section, still followed by the absolute review date."
+    },
+    {
+      "passage": "A broken hand explains the first instinct. Still, the pattern shifted. In 2020 someone else proposed the tape. For _I Play Rocky_, he made one before anyone asked.",
+      "action": "changed",
+      "reason": "Changed because it contained the wrong year (fan-02, critic-04, future-01) and per unfamiliar-6 for clarity. It now reads \"The broken hand explains why he first offered to pass. Still, the contrast is real: in 2019 the tape was his agent's idea, and for _I Play Rocky_ it was his own.\" The sourced behavioral change, with the circumstantial explanation stated first, is retained."
+    },
+    {
+      "passage": "A motto about refusing the race sits awkwardly with a Three, and a motto about going it alone sits awkwardly with a Six. Whether it was a passing pick or a compass is one more thing the next few years should show.",
+      "action": "changed",
+      "reason": "Changed per fan-08 and critic-08: \"can't be overtaken\" is competitive, so the old line read only the half that hurt the rival. The contribution is retained: a sourced detail neither leading read fully explains. Each read now gets its supporting and opposing half, and the closing sentence (\"Whether it was a passing pick or a compass is one more thing the next few years should show.\") is kept verbatim."
+    },
+    {
+      "passage": "That is his reading of Stallone, not a self-portrait, but it shows where his eye goes: to support, and to its absence.",
+      "action": "changed",
+      "reason": "Changed per subject-05 and enneagram-F5. The inference \"where his eye goes: to support\" rested on quotations cut before his perseverance clause, so it was unsupported. The precise inference labeling the future reviewer valued is kept: \"That is his reading of Stallone, not a self-portrait, and it echoes the film's own underdog pitch.\" It now sits after the full quotation in the Type 4 set-aside."
+    },
+    {
+      "passage": "His own words are about consistency and being tested, not about how he looked, and the studio needed the physique either way.",
+      "action": "kept",
+      "reason": "Kept verbatim. It now follows the sourced statement that the production set the training goal, so the situational alternative is stronger, not weaker."
+    }
+  ],
+  "prior_blockers": []
+}

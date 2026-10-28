@@ -1,0 +1,30 @@
+I wrote the critic review to `docs/content-analysis/pipeline-logs/2026-10-28_06-00-02-805_anthony-ippolito/review-critic.json`. It passes the review schema check, and every quoted passage matches the draft exactly. I didn't change or publish anything else.
+
+**What I found:** the draft handles a lot of the evidence against its own read honestly. But the case for ranking Type 6 above Type 3 doesn't hold up against the sources. There are 4 major findings and 4 minor ones:
+
+- **critic-01 (major):** The draft says his pattern is "name the fear, research, then take the bold step anyway." The record runs the other way. He described the uninvited Stallone tape as "really fun" and said he was "really, really enthusiastic," and the fear words only show up after he was cast. In the Pacino role he never made a bold move of his own: he replaced an actor who dropped out. Calling the boldness a fearful type pushing through takes Type 3's best evidence and counts it for Type 6.
+- **critic-02 (major):** The two Type 6 vs Type 3 arguments are judged unevenly. The draft discounts his fear words as normal press-tour humility, then uses the same humility (premiere thank-yous, never talking about winning) as evidence against Type 3. Two more problems:
+  - The Pacino anecdote happened after he already had the job.
+  - The Hollywood Reporter headlined the whole cast of The Offer calling the job "absolutely terrifying" at the 2022 premiere, so the fear talk wasn't his alone.
+
+  The one-paragraph type answer and both type FAQs need a reason for ranking Type 6 first that survives this, or they should say the two types are about even.
+- **critic-03 (major):** "The other thing he did before anyone asked was change his body" is wrong. On Collider, director Peter Farrelly says the production "had him working out for a year" after his tape reached them. The same overstatement shows up in the Type 9 section ("two-year pursuit of a lead nobody had offered him").
+- **critic-04 (major, factual):** The broken-hand Grand Army audition happened in 2019, not 2020. His college athletics page lists only a 2019 baseball season, and Grand Army filmed May–September 2019. The wrong year appears three times in the article and in four claim records.
+- **Minor findings:**
+  - The fear section says the Stallone quotes are "now paired" with research, but the draft's own 2022 source shows that same pairing back then.
+  - The fear words are counted without mentioning that his Stallone quotes include just as much "dream come true" and "really fun."
+  - "TIFF critics split" overstates the negative reviews: the Rotten Tomatoes score is 84%.
+  - The closing reading of his yearbook quote ignores that "can't be overtaken" is competitive language.
+
+**Other checks:**
+- **Is this still an open case?** Yes. I Play Rocky is his first lead, and his 2020–2022 interviews are short. One search result mentioned a podcast appearance on The Playlist's Bingeworthy show, but I couldn't confirm it.
+- **Copied writing:** The similarity check was under its threshold (top score 0.051 against the Nathan Fielder page). The matches are ordinary type vocabulary, not a reused argument.
+- **Risk flags:** Same as the evidence record (contested typing is the only one set).
+- **What I checked:** I compared the claims against the cached transcripts and articles, and searched the web for Grand Army's filming dates and any long interviews research might have missed.
+
+Sources:
+- [Grand Army filming locations (Untapped Cities)](https://untappedcities.com/grand-army-filming-locations-netflix)
+- [Where was Grand Army filmed (The Cinemaholic)](https://thecinemaholic.com/where-was-grand-army-filmed)
+- [Grand Army (TV series), Wikipedia mirror](https://en.wikipedia-on-ipfs.org/wiki/Grand_Army_(TV_series))
+- [Bingeworthy podcast (Apple Podcasts)](https://podcasts.apple.com/us/podcast/bingeworthy/id1575176638?mt=2&ls=1)
+- [Netflix Junkie on Ippolito's transformation](https://www.netflixjunkie.com/hollywood-news-anthony-ippolito-opens-up-about-the-pressure-and-the-punch-behind-his-i-play-rocky-transformation/amp/)

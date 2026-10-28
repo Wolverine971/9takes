@@ -1,0 +1,35 @@
+I wrote `verification-repair.json` with status **`insufficient_evidence`**, so this run will hold rather than release. It passes the contract's schema. A dry run of the editorial check confirms the hold: verification status, an unresolved blocker, `enneagram-01`, and Enneagram 7 below the 8 floor. Nothing else was modified or published.
+
+**Why it holds:** the repair made the article honest, and that honesty is the problem. The article and evidence record now say plainly that her record doesn't separate Type 1 from Type 2, and that "a Two in her job… could produce the same record." The standard says that situation means a hold. The open-case format isn't available either: she's run Anthropic publicly since 2021 and has a deep interview record. Your own note in the research file says to hold if Type 1 can't clear the bar. "Medium confidence" in the type answer and FAQs also claims more than a lean with nothing to tell One from Two supports.
+
+**Sourcing is solid:**
+- All 132 quoted strings match a cached or reopened source word for word.
+- I checked the speakers in the Isaacson and Oprah transcripts and the context of every load-bearing quote.
+- The Pentagon facts match the S-1 and the New Yorker, and every internal link target is published.
+
+Four minor fixes for a later pass:
+- **Stanford quote:** her spoken words are "we're running towards something," not "We were…" (GSB's write-up uses the latter).
+- **Court cases:** the article merges two separate cases, so the appeals loss reads as reversing the district-court win.
+- **Capitol Hill:** it drops her second reason for leaving, that she missed building something with a small, motivated team.
+- **Hiring line:** it drops the half of her Vanta quote about standing by an unpopular position.
+
+**Scores (independent):**
+
+| Dimension | Score |
+|---|---|
+| Evidence | 8 |
+| Enneagram | 7 |
+| Originality | 8.5 |
+| Writing | 8 |
+| Durability | 8.5 |
+| Hook | 9 |
+| Discoverability | 8.5 |
+| **Overall** | **8.0** |
+
+I opened `repair-findings.json` to read the prior findings and found it also contains the previous verifier's scores. I scored from my own reading, but several of my numbers match theirs, so treat that as possible anchoring.
+
+**Editor's decisions:** I accepted 56 of 57. The exception is `enneagram-01`: its test requires confidence lowered to match, and the type answer still says "medium."
+
+**What would unblock it:** named testimony about what she does when someone misses a standard or cuts a corner. Her chief people officer, Stripe-era or OpenAI-era colleagues are the likely sources. Another route is her own account, outside promotional interviews, of a time warmth and a standard collided. Identifying who says "I credit Daniela with keeping the bar high" in the co-founder video would also help. These are in `research_tasks`.
+
+**Your call:** let it hold until that testimony turns up, or publish anyway by owner override, as with Nathan Fielder. The page reads well and is accurately sourced, but its title question stays unresolved until that testimony turns up.
