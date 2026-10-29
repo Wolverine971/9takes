@@ -1,0 +1,86 @@
+{
+  "schema_version": 3,
+  "role": "enneagram",
+  "content_sha256": "d10f7dda031a772de838286f895271512211f574a2ed42796026e0dc37e918a9",
+  "evidence_sha256": "29134fd4f1fdd151a93238265782ce60cb6eafd996ced53f69470a9c8230356b",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "enneagram-01",
+      "severity": "major",
+      "passage": "A Seven keeps the fun and reframes what it cost. Pratt's record keeps the appearance:",
+      "problem": "The discriminator tests a caricature of Seven ('protects the fun') instead of the Seven motive: avoiding pain, deprivation and limitation, and keeping options open. A Seven can accept years of restriction when it opens a bigger, more exciting life, and Vanity Fair (2017) says Pratt 'had always wanted to play an action hero', so the dieting bullet does not separate the types. The article itself concedes 'the dieting alone proves little'. Three of the four bullets carry less than the list implies. (2) In the GQ quote the article prints, the fat-guy choice begins with 'I was making myself laugh', and the weight came with appetite, yet the draft files 'it was funny' under 'His reason for keeping it, though, is commercial.' (3) The image line has a Seven reading that the article states two paragraphs earlier and never adjudicates (see enneagram-02). (4) Gunn's 'juggle to entertain everybody' is an acting note from a GQ passage about overthinking (Pratt: 'I'm a much more cerebral person than you may expect... really I'm thinking a lot, in my head below the surface'). Entertaining everybody is at least as Seven-coded as Three-coded, yet the same note is labelled earlier as 'the Three's central problem.' Only the hidden sales failure does real discriminating work, and it rests on one self-report.",
+      "acceptance_test": "The discriminator is stated at the level of motive: what the behavior protects against (being seen as a failure or worthless, versus pain or limitation). Each bullet either says why the Seven reading of that same datum fails or is removed. The fat-guy passage keeps 'making myself laugh' as a pleasure motive alongside niche and pay, instead of calling the reason commercial. The Gunn sentence ('His diagnosis still names the Three's central problem') is reframed as fitting 3 but also 7 (and 6 on self-trust), or the GQ overthinking context is given. 'Pratt's record keeps the appearance' is qualified to match the bullets that survive."
+    },
+    {
+      "id": "enneagram-02",
+      "severity": "major",
+      "passage": "Andy was one of the happiest characters on network television, and Pratt calls that happiness an image he was casting, then trades it away in two short sentences.",
+      "problem": "Pratt did not call Andy's happiness an image. In GQ (2015), 'That image that I was casting' is his own off-screen fun ('I was more fun to be around', with his wife), the 'happy plump man' GQ says he played in interviews. Shifting the line onto the character weakens the article's own tell, the impression managed 'when no camera is running', and invites the objection that every actor's character is an image. The omitted GQ context also matters for typing. Just before the line, Pratt says 'I'm sure I was the first guy in line to buy that line of bullshit.' He compares himself to Chris Farley hiding that 'he didn't feel what he was projecting on the outside' and adds 'I think that's often the case with comedians.' GQ relays that he 'didn't feel too great about who I was' and he says 'I was feeling rotten.' That describes a cheerful mask he partly believed: the Seven reading the article names ('a Seven describing his own mask') and never answers, plus a job-based explanation Pratt offers himself. The same context also holds the best motive-level Three clue, which the draft does not use: the mask covered self-worth and self-doubt ('crippled with self-doubt'), not only pain.",
+      "acceptance_test": "The hook attributes the 'image' to Pratt's off-screen fun, not Andy's happiness. The hook or 'Why not Type 7?' gives the GQ context with attribution, including 'first guy in line to buy that line of bullshit' and the comedians remark. One or two sentences then argue why a mask over 'didn't feel too great about who I was' reads as a Three's worth problem rather than Seven pain-avoidance, or the line is presented as evidence both types share rather than as a discriminator. The meta_title and description stay accurate to the corrected reading."
+    },
+    {
+      "id": "enneagram-03",
+      "severity": "major",
+      "passage": "Still, the emphasis tracks the room: an adventure for a blockbuster junket, a rescue for a cover story about finding his path.",
+      "problem": "The Maui year is the longest stretch in the record with no camera and no image upkeep, and the discriminator never counts it. After the hidden failure cracked, he spent about a year in a van and a tent, drinking and smoking weed. Per Vanity Fair (not in the draft), he was 'always giving away my shifts because I didn't have much overhead.' He later called it 'a charming time.' By the article's own test (when fun and the look of success diverge, which does he keep?), this is fun winning, or drift. The draft runs Maui only through the 'tracks the room' frame. That turns a counter-datum into a soft Three point, when tailoring tone to the outlet is a press-tour habit of every actor (the professional-incentive alternative the standard requires). The Three-supporting part of Maui, seizing the Chong encounter with 'Put me in a movie', is in the draft but not used as discriminator evidence.",
+      "acceptance_test": "The type argument includes the Maui year as the strongest off-camera case for Seven (or Nine-style drift), with a sentence on how the Three reading accounts for it, for example a stalled young man after a shaming collapse who seizes the first route back to success at Bubba Gump. The 'tracks the room' sentence either names the professional-incentive explanation or stops being counted as type evidence."
+    },
+    {
+      "id": "enneagram-04",
+      "severity": "major",
+      "passage": "Following the people who see something in him reads more like [Type 9](/enneagram-corner/enneagram-type-9), the Peacemaker, and so does \"too much of a people pleaser.\"",
+      "problem": "The closing section builds a substantial Nine case, and the article never tests 3 against 9. The case: others make every pivotal move; 'too much of a people pleaser to be a good manager'; the Proverbs 26:20 policy; reluctance to 'throw a church under the bus'; 'work to live' and the farm lake; a manager who is 'calculated and critical in a way that I'm not'. The 60-word answer and FAQ still call 7 the strongest alternative without saying why 7 outranks 9, and the fun-versus-image discriminator does not separate 3 from 9 at all. Following trusted guides who 'saw something in me' (Henry, his brother, his manager) is also a Six marker, alongside Gunn's 'didn't trust himself'. That rival goes unmentioned. Failing as a manager from people-pleasing also counts against a results-first Three. The draft already holds a usable 3-versus-9 discriminator that it leaves idle: moves he made himself ('Put me in a movie'; telling the showrunner he wanted to get bigger; deciding to 'drop the weight, like in wrestling'; the purse-holder joke about the actors who ignored him auditioning for Guardians) set against the deferrals.",
+      "acceptance_test": "Either a short passage tests 3 against 9, acknowledging 6 for the deference cluster, using the moves he initiated versus the ones others made, and says which reading wins and why. Or the article explains why 7 rather than 9 is the strongest alternative. The 60-word answer and the 'Is Chris Pratt a Type 7?' FAQ stay consistent with the resulting ranking."
+    },
+    {
+      "id": "enneagram-05",
+      "severity": "major",
+      "passage": "gave up the fun Andy Dwyer persona for years of dieting",
+      "problem": "The FAQ's whole case against Seven is two data points, and the second is the one the body concedes 'proves little' because acting rewards image management in every type. It is also inaccurate. He slimmed down for Moneyball (2011) and kept playing Andy until 2015. What he gave up was the weight and, by his GQ account, his off-screen fun, not the Andy persona. The type answer and its FAQ mirror overreach in a related way: 'from a failed sales job at 19 to the Andy Dwyer years, when fun and looking successful pulled apart, he protected the look.' At 19 the competing value was honesty about failure, not fun. The year that followed (Maui) is the record's clearest case of fun winning.",
+      "acceptance_test": "The 'Is Chris Pratt a Type 7?' answer rests on the discriminator the body actually defends after repair. It no longer says he gave up the Andy persona, and the hidden sales failure stays labelled as his own account. The 60-word H2 answer and the type FAQ no longer describe the sales failure as fun versus the look, stay at or under 60 words, and match each other."
+    },
+    {
+      "id": "enneagram-06",
+      "severity": "minor",
+      "passage": "Taken at his word, the clown began as a way to be acceptable to a man who found sensitivity dangerous.",
+      "problem": "Pratt's own words (Men's Health 2022) describe a 'self-defense mechanism' against a 'mean' father who 'wanted to put calluses on me'. 'A way to be acceptable to' is the author's approval reading. It tilts the origin story toward Three, while 'Taken at his word' presents it as Pratt's account. Two sections later the article uses the same quote for the Seven case ('Sevens use fun to keep pain out of the room') without reconciling the two readings. This is a causal childhood claim and the hinge between the rival types.",
+      "acceptance_test": "The sentence keeps Pratt's frame (humor as defense or armor against a father who found sensitivity dangerous) and marks any approval reading as the author's inference, or it says plainly that both the Three and Seven readings claim this quote."
+    },
+    {
+      "id": "enneagram-07",
+      "severity": "minor",
+      "passage": "If he is a Three, this is a Three naming the trap his type is built to walk into, and placing his worth outside it.",
+      "problem": "The faith section rightly says this is the strand the Three reading explains least. It then ends by turning his strongest anti-image statement into Three self-awareness. Combined with the skeptic's 'tracks the room' reading of the faith quotes, the section becomes unfalsifiable: managing image counts for 3, and rejecting the image economy also counts for 3. The evidence record notes the idol remark is standard evangelical framing, made on a faith-forward podcast.",
+      "acceptance_test": "The close of the faith section leaves the counterevidence standing, or says what the remark means under the rival readings, instead of reabsorbing it as confirmation of Type 3."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Ambition proves little in Hollywood, where everyone has it. The sharper tell is managing the impression when no camera is running, and treating your own fun as part of the presentation.",
+      "reason": "Refuses the achievement-equals-Three shortcut and names a real discriminating principle. Keep it even if the hook repair changes which datum illustrates it."
+    },
+    {
+      "passage": "Plenty of 19-year-olds hide a failure. Pratt talks freely about the depression; what he hid was the result, and he showed success in its place until a friend saw through it and bought him a ticket to Maui.",
+      "reason": "The most precise type reasoning in the draft: it separates hiding the feeling from hiding the result, matches the Vanity Fair context and flags the hyperbole. It is the one bullet that actually discriminates."
+    },
+    {
+      "passage": "The Three reading has limits. Acting rewards image management in every type, so the dieting alone proves little.",
+      "reason": "Honest inference limit that names the professional-incentive alternative. The FAQ should be brought into line with it, not the reverse."
+    },
+    {
+      "passage": "If image explained everything, Pratt would have stopped talking about God years ago. His faith has cost him with the mainstream audiences an image manager would court.",
+      "reason": "Confronts the strongest counterevidence at full strength instead of explaining it away with a wing or arrow."
+    },
+    {
+      "passage": "Eleven years after \"Now I have less fun. I focus more,\" the fun is back on the plan, chosen in a meeting by a man who learned as a teenage salesman that the attitude is part of what you sell.",
+      "reason": "An earned close that ties the hook to a dated choice without asserting the type, and it follows an explicit market-explanation hedge."
+    }
+  ],
+  "assessment": "Type 3 at medium confidence is a plausible lead, and the draft is unusually honest about it: it names a rival, has a limits paragraph and a 'What the type doesn't explain' section, and makes no wing, arrow or subtype claims. The weakness is the discriminator. It is set at the level of behavior (fun versus the look) against a caricatured Seven, and of its four bullets only the hidden sales failure separates the types, on one self-report. The central GQ quote is shifted from his off-screen fun onto the Andy character and stripped of context that supports the Seven mask reading, context that also holds the best motive-level Three clue ('didn't feel too great about who I was'). The Maui year is never counted. A substantial Nine case appears at the end and is never tested, and Six goes unmentioned. Medium confidence holds only once the discriminator is rebuilt; as written, 'Why not Type 7?' claims more certainty than its evidence carries. Verification: I opened the GQ 2015, Vanity Fair 2017 and Men's Health 2022 originals (curl, 2026-10-29) to check the context of the discriminator quotes; the podcast-caption sources were not reopened. Residual risk: the 'Would I be funny? Would people like me?' line is used as Three evidence, but its speaker is inferred from turn structure and that research task is still open. The similarity advisory did not trip. Its top matches are Three-gloss sentences ('Threes are heart-triad types...', 'reads a room... and becomes it') close to the Dhar Mann, Ben Shelton and Codie Sanchez pages. That is ordinary type vocabulary, not a reused argument; the sales-chant through-line and the idols close are specific to Pratt. Risks: contested typing; sensitive allegations (the church and LGBTQ dispute, the Daily Beast 'lying' headline)."
+}

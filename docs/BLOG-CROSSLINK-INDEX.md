@@ -1,6 +1,6 @@
 # Blog Cross-Link Index
 
-_Generated: 2026-10-28 by `pnpm gen:crosslinks` (scripts/generate-crosslink-report.js)_
+_Generated: 2026-10-29 by `pnpm gen:crosslinks` (scripts/generate-crosslink-report.js)_
 _Search data: GSC 2026-07-19 → 2026-10-17 (pulled 2026-10-19)_
 
 **Scope.** Link counts cover **live posts only**: files a route actually serves with `published: true`
@@ -27,7 +27,7 @@ Link ideas to act on: [`docs/crosslinks/link-opportunities.md`](crosslinks/link-
 | Broken internal links (live post → non-live page) | 0 |
 | Links that go through a 301 | 0 |
 | Broken/redirected links on people pages (draft mirror) | 0 |
-| Body links: blog → blog / blog → people | 1,634 / 389 |
+| Body links: blog → blog / blog → people | 1,638 / 396 |
 
 ---
 
@@ -37,10 +37,10 @@ Where body links go. Rows = linking section, columns = linked section.
 
 | From \ To | enneagram-corner | community | how-to-guides | pop-culture | people | Stays in section | Posts | Median in |
 |---|---|---|---|---|---|---|---|---|
-| enneagram-corner | 1,165 | 23 | 13 | 27 | 153 | 84% | 96 | 8 |
-| community | 58 | 50 | 1 | 6 | 3 | 42% | 18 | 4 |
-| how-to-guides | 57 | 3 | 20 | 0 | 0 | 25% | 11 | 3 |
-| pop-culture | 105 | 3 | 0 | 103 | 233 | 23% | 34 | 3 |
+| enneagram-corner | 1,167 | 23 | 13 | 27 | 155 | 84% | 96 | 8 |
+| community | 59 | 50 | 1 | 6 | 3 | 42% | 18 | 4 |
+| how-to-guides | 58 | 3 | 20 | 0 | 0 | 25% | 11 | 3 |
+| pop-culture | 105 | 3 | 0 | 103 | 238 | 23% | 34 | 3 |
 
 ---
 
@@ -70,10 +70,10 @@ relative to demand. These are where an internal link is most likely to move a ra
 | `/enneagram-corner/mental-health/enneagram-science-mental-health` | 3,497 | 4 | 9.7 | 18 | 6 |
 | `/enneagram-corner/enneagram-vs-personality-frameworks-comparison` | 2,796 | 3 | 8.6 | 15 | 6 |
 | `/enneagram-corner/how-each-enneagram-type-manipulates` | 3,735 | 31 | 7.3 | 21 | 21 |
-| `/enneagram-corner/mental-health/enneagram-addiction-recovery-guide` | 1,823 | 46 | 8.6 | 12 | 14 |
-| `/enneagram-corner/how-to-apologize-like-a-pro` | 1,190 | 26 | 7.7 | 9 | 5 |
-| `/enneagram-corner/enneagram-instinctual-subtypes` | 8,519 | 37 | 12.8 | 157 | 16 |
+| `/enneagram-corner/mental-health/enneagram-addiction-recovery-guide` | 1,823 | 46 | 8.6 | 12 | 15 |
+| `/enneagram-corner/how-to-apologize-like-a-pro` | 1,190 | 26 | 7.7 | 10 | 5 |
 | `/enneagram-corner/enneagram-strengths-and-weaknesses` | 1,344 | 16 | 8.6 | 24 | 21 |
+| `/enneagram-corner/enneagram-instinctual-subtypes` | 8,519 | 37 | 12.8 | 158 | 16 |
 | `/enneagram-corner/mental-health/enneagram-anxiety-complete-guide` | 1,568 | 7 | 11.9 | 30 | 9 |
 | `/enneagram-corner/enneagram-types-being-ghosted` | 1,249 | 30 | 7.1 | 26 | 17 |
 
@@ -101,7 +101,7 @@ Live posts with 3 or fewer outgoing links, sorted by impressions. Readers land h
 People pages by search impressions and how many **blog posts** link to them in prose
 (the FamousTypes block on type pages and the `/personality-analysis/categories/*` listings link
 nearly every person, but those are not contextual links).
-209 of 462 people pages have at least one blog link.
+211 of 462 people pages have at least one blog link.
 
 | Person | Impressions | Clicks | Position | Blog links in | People links in |
 |---|---|---|---|---|---|
@@ -134,7 +134,7 @@ nearly every person, but those are not contextual links).
 ## People pages that need links
 
 A people page "needs links" with 2 or fewer contextual links in (blog posts + other people pages).
-**202 of 462** people pages need links; 63 have none.
+**201 of 462** people pages need links; 62 have none.
 Unlinked mentions on other people pages are queued in `link-opportunities.md` §4.
 
 | Person | Impressions | Position | Blog links in | People links in |
@@ -173,7 +173,7 @@ Unlinked mentions on other people pages are queued in `link-opportunities.md` §
 |---|---|---|---|
 | 212 | 17 | 1,308 | `/enneagram-corner/enneagram-types-in-stress` |
 | 192 | 41 | 7,091 | `/enneagram-corner/enneagram-wings-complete-guide` |
-| 157 | 16 | 8,519 | `/enneagram-corner/enneagram-instinctual-subtypes` |
+| 158 | 16 | 8,519 | `/enneagram-corner/enneagram-instinctual-subtypes` |
 | 154 | 14 | 3,317 | `/enneagram-corner/enneagram-type-3` |
 | 139 | 26 | 1,547 | `/enneagram-corner/enneagram-type-6` |
 | 137 | 12 | 470 | `/enneagram-corner/enneagram-type-7` |
@@ -193,7 +193,7 @@ Unlinked mentions on other people pages are queued in `link-opportunities.md` §
 
 | Status | Files | Meaning |
 |---|---|---|
-| draft | 22 | Routable, `published` is false |
+| draft | 23 | Routable, `published` is false |
 | redirected | 8 | Unpublished and the route 301s the slug to a newer post |
 | no-frontmatter | 2 | Routable folder but no frontmatter (notes); 404s |
 | excluded | 49 | Social variants and notes the route globs skip (`.instagram/.twitter/.reddit/.review`, `-twitter`) |
@@ -211,6 +211,7 @@ Unpublished posts in routable folders. Word count ≥2,500 with links already in
 | 4,083 | 2026-05-19 | 5 | Alex and Leila Hormozi: What a Marriage Between Two Type 3s Actually … | `pop-culture/hormozi-marriage-two-type-3s-enneagram.md` |
 | 3,675 | 2026-06-12 | 16 | How to Stand Up for Yourself: Why Your Personality Type Makes It Worse | `guides/how-to-stand-up-for-yourself.md` |
 | 3,537 | 2026-05-19 | 7 | My First Million's Real Engine: What Happens When a Type 7 and a Type… | `pop-culture/my-first-million-shaan-sam-enneagram-dynamic.md` |
+| 3,369 | 2026-10-28 | 7 | Dario and Daniela Amodei: Why a CEO Who Plans for the Worst Trusts Hi… | `pop-culture/dario-daniela-amodei-enneagram-dynamic.md` |
 | 3,122 | 2026-04-30 | 2 | You Can't Inherit a Personality: The Succession Trap That Topples Fou… | `pop-culture/succession-personality-trap.md` |
 | 2,538 | 2026-02-06 | 4 | Your Hidden Superpower: How the Enneagram Reveals the Gifts You Canno… | `guides/enneagram-hidden-strengths-and-gifts.md` |
 | 2,386 | 2026-07-15 | 6 | Enneagram and Autism: Why Masking Makes You Mistype as a 5, 9, or 1 | `enneagram/enneagram-and-autism-why-you-keep-mistyping.md` |
@@ -265,7 +266,7 @@ Sorted by impressions. In = blog + people pages linking in. Out = links to live 
 | 12,490 | 9.4 | 24 (21/3) | 22 (22/0) | The Enneagram and Mental Illness: Understand Each Type's Predispositi… | `/enneagram-corner/enneagram-and-mental-illness` |
 | 11,788 | 7.9 | 9 (9/0) | 16 (16/0) | What Enneagram Type Is Your Zodiac Sign? The Complete Correlation Cha… | `/enneagram-corner/astrology-and-the-enneagram` |
 | 8,814 | 12.9 | 21 (21/0) | 8 (8/0) | The Complete Enneagram Compatibility Matrix: All 45 Type Pairings Dec… | `/enneagram-corner/enneagram-compatibility-matrix` |
-| 8,519 | 12.8 | 157 (16/141) | 16 (16/0) | Enneagram Instinctual Subtypes: Why You Don't Fully Match Your Type | `/enneagram-corner/enneagram-instinctual-subtypes` |
+| 8,519 | 12.8 | 158 (17/141) | 16 (16/0) | Enneagram Instinctual Subtypes: Why You Don't Fully Match Your Type | `/enneagram-corner/enneagram-instinctual-subtypes` |
 | 7,091 | 9.1 | 192 (15/177) | 41 (7/34) | Enneagram Wings: Compare All 18 Combinations and Find Your Pattern | `/enneagram-corner/enneagram-wings-complete-guide` |
 | 6,111 | 10.0 | 20 (20/0) | 19 (19/0) | Toxic Traits of Each Enneagram Type (and Which One Is the Worst) | `/enneagram-corner/toxic-traits-of-each-enneagram-type` |
 | 5,538 | 7.6 | 26 (14/12) | 3 (3/0) | Depression Patterns by Enneagram Type | `/enneagram-corner/depression-patterns-by-enneagram-type` |
@@ -286,17 +287,17 @@ Sorted by impressions. In = blog + people pages linking in. Out = links to live 
 | 2,041 | 9.7 | 4 (4/0) | 20 (20/0) | Your Enneagram Guide to Toxic Traits in a Relationship (and the Early… | `/enneagram-corner/toxic-traits-relationships-warning-signs` |
 | 2,013 | 40.4 | 24 (24/0) | 40 (40/0) | What's My Enneagram Type? (The 5-Minute Answer You Actually Need) | `/enneagram-corner/enneagram-tldr` |
 | 1,920 | 14.6 | 9 (8/1) | 13 (13/0) | Enneagram Careers: Find the Working Conditions That Fit You | `/enneagram-corner/enneagram-types-and-career-choices` |
-| 1,823 | 8.6 | 12 (7/5) | 14 (14/0) | Enneagram and Addiction: Why Each Type Self-Medicates Differently | `/enneagram-corner/mental-health/enneagram-addiction-recovery-guide` |
+| 1,823 | 8.6 | 12 (7/5) | 15 (15/0) | Enneagram and Addiction: Why Each Type Self-Medicates Differently | `/enneagram-corner/mental-health/enneagram-addiction-recovery-guide` |
 | 1,765 | 13.6 | 126 (55/71) | 13 (13/0) | Enneagram Type 5: Observer - Inside the Fortress Mind | `/enneagram-corner/enneagram-type-5` |
 | 1,625 | 8.5 | 5 (5/0) | 9 (9/0) | How Common Is Each Enneagram Type? (Rarest to Most Common, and Why th… | `/enneagram-corner/how-common-is-each-enneagram-type` |
 | 1,568 | 11.9 | 30 (15/15) | 9 (9/0) | Why Type 6 Isn't the Only Anxious Type (Every Type's Hidden Anxiety P… | `/enneagram-corner/mental-health/enneagram-anxiety-complete-guide` |
 | 1,547 | 55.6 | 139 (51/88) | 26 (15/11) | Enneagram Type 6: Loyalist - Search for Solid Ground | `/enneagram-corner/enneagram-type-6` |
-| 1,486 | 53.0 | 5 (5/0) | 18 (18/0) | The 9 Coworker Types: Each Enneagram as Boss, Peer, Report | `/enneagram-corner/enneagram-types-working-in-teams` |
+| 1,486 | 53.0 | 5 (5/0) | 19 (19/0) | The 9 Coworker Types: Each Enneagram as Boss, Peer, Report | `/enneagram-corner/enneagram-types-working-in-teams` |
 | 1,438 | 25.7 | 3 (3/0) | 3 (3/0) | Is the Enneagram Religious? (The Truth About Its Spiritual Origins) | `/enneagram-corner/enneagram-and-religion` |
 | 1,344 | 8.6 | 24 (22/2) | 21 (18/3) | Enneagram Strengths and Weaknesses: Why Each Type's Superpower Is Als… | `/enneagram-corner/enneagram-strengths-and-weaknesses` |
 | 1,308 | 24.4 | 212 (70/142) | 17 (17/0) | Enneagram Types in Stress: Stress Points, Arrows, and the Loop Undern… | `/enneagram-corner/enneagram-types-in-stress` |
 | 1,249 | 7.1 | 26 (26/0) | 17 (17/0) | Why They Ghosted You (Based on Their Enneagram Type) | `/enneagram-corner/enneagram-types-being-ghosted` |
-| 1,190 | 7.7 | 9 (9/0) | 5 (5/0) | How to Apologize by Enneagram Type: The Nine Scripts Each Type Skips | `/enneagram-corner/how-to-apologize-like-a-pro` |
+| 1,190 | 7.7 | 10 (10/0) | 5 (5/0) | How to Apologize by Enneagram Type: The Nine Scripts Each Type Skips | `/enneagram-corner/how-to-apologize-like-a-pro` |
 | 1,127 | 7.1 | 4 (4/0) | 15 (15/0) | Best Compliments for Each Enneagram Type | `/enneagram-corner/biggest-compliments-to-give-each-enneagram-type` |
 | 943 | 7.2 | 4 (4/0) | 13 (13/0) | Which Enneagram Type Is Most Likely to Be a Narcissist? (Every Type H… | `/enneagram-corner/which-enneagram-type-is-most-likely-to-be-a-narcissist` |
 | 942 | 10.9 | 123 (50/73) | 14 (14/0) | Enneagram Type 8: Challenger - Behind the Armor | `/enneagram-corner/enneagram-type-8` |
@@ -307,7 +308,7 @@ Sorted by impressions. In = blog + people pages linking in. Out = links to live 
 | 860 | 24.3 | 3 (2/1) | 17 (17/0) | Enneagram Parenting Styles: Why You Parent the Way You Do | `/enneagram-corner/enneagram-parenting-styles` |
 | 847 | 25.5 | 18 (16/2) | 14 (14/0) | Enneagram for Personal Growth: The Advice That Fixed You Can Break Th… | `/enneagram-corner/enneagram-personal-growth` |
 | 828 | 8.6 | 26 (25/1) | 25 (25/0) | How Each Enneagram Type Self-Sabotages Success (And How to Stop) | `/enneagram-corner/how-each-enneagram-type-self-sabotages-success` |
-| 800 | 8.9 | 8 (8/0) | 14 (7/7) | The AI Wars: Why Personality Types Determine Who Gets to Build God | `/pop-culture/tech-titans-ai-wars` |
+| 800 | 8.9 | 8 (8/0) | 15 (7/8) | The AI Wars: Why Personality Types Determine Who Gets to Build God | `/pop-culture/tech-titans-ai-wars` |
 | 763 | 12.0 | 4 (4/0) | 15 (7/8) | Google's Three Personality Eras: Why the Founders Had to Come Back | `/pop-culture/google-leadership-evolution` |
 | 762 | 8.9 | 9 (9/0) | 8 (8/0) | Crisis Management by Enneagram Type: A Mental Health Toolkit | `/enneagram-corner/mental-health/enneagram-crisis-management-guide` |
 | 741 | 11.2 | 4 (4/0) | 18 (18/0) | Enneagram Mental Health Red Flags: Early Warning Signs for All 9 Types | `/enneagram-corner/enneagram-mental-health-flags` |
@@ -339,9 +340,9 @@ Sorted by impressions. In = blog + people pages linking in. Out = links to live 
 | 243 | 6.1 | 7 (7/0) | 7 (7/0) | Dark Triad Celebrities and the Enneagram: What We Can Actually Say | `/pop-culture/dark-triad-meets-enneagram` |
 | 233 | 8.9 | 5 (5/0) | 32 (8/24) | Tech Titans Through the Enneagram: A Series on the Personality Types … | `/pop-culture/tech-titans-enneagram-analysis` |
 | 224 | 9.4 | 3 (3/0) | 9 (4/5) | John Coogan and Jordi Hays Built TBPN by Wanting Different Things | `/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic` |
-| 189 | 17.1 | 11 (3/8) | 25 (9/16) | Why the Next Thing Won't Fix It (How Type 7s Actually Find What They'… | `/enneagram-corner/why-the-next-thing-wont-fix-it-type-7` |
-| 166 | 8.6 | 3 (3/0) | 13 (12/1) | Cancel Culture by Enneagram Type: Who Cancels and Who Gets Cancelled | `/pop-culture/cancel-culture-enneagram-type` |
-| 159 | 6.9 | 5 (5/0) | 79 (10/69) | What Enneagram Type Are Most CEOs? Data From 80 Business Profiles | `/enneagram-corner/what-enneagram-type-are-most-ceos` |
+| 189 | 17.1 | 13 (5/8) | 25 (9/16) | Why the Next Thing Won't Fix It (How Type 7s Actually Find What They'… | `/enneagram-corner/why-the-next-thing-wont-fix-it-type-7` |
+| 166 | 8.6 | 3 (3/0) | 14 (12/2) | Cancel Culture by Enneagram Type: Who Cancels and Who Gets Cancelled | `/pop-culture/cancel-culture-enneagram-type` |
+| 159 | 6.9 | 5 (5/0) | 81 (10/71) | What Enneagram Type Are Most CEOs? Data From 80 Business Profiles | `/enneagram-corner/what-enneagram-type-are-most-ceos` |
 | 158 | 8.6 | 11 (10/1) | 14 (14/0) | Enneagram Harmonic Approaches: How Each Type Handles Conflict | `/enneagram-corner/enneagram-harmonic-approaches` |
 | 155 | 33.1 | 3 (2/1) | 3 (3/0) | Who Built the Enneagram? Mystics, Psychiatrists, Philosophers | `/enneagram-corner/enneagram-influences` |
 | 142 | 15.5 | 55 (9/46) | 14 (14/0) | Enneagram Connecting Lines: Growth and Stress | `/enneagram-corner/enneagram-connecting-lines` |
@@ -350,11 +351,11 @@ Sorted by impressions. In = blog + people pages linking in. Out = links to live 
 | 126 | 13.0 | 4 (4/0) | 17 (17/0) | Why You Keep Sabotaging New Relationships (Your Enneagram Knows) | `/enneagram-corner/how-to-navigate-early-relationship-stages` |
 | 124 | 8.0 | 3 (3/0) | 12 (2/10) | Inside the Heartthrob Machine: What Fame Does to the Men Women Obsess… | `/pop-culture/hollywood-heartthrobs-enneagram-analysis` |
 | 117 | 9.8 | 6 (6/0) | 7 (7/0) | Philosophy and Psychology Gave Birth to the Enneagram | `/enneagram-corner/philosophy-psychology-and-the-enneagram` |
-| 107 | 8.2 | 4 (4/0) | 25 (15/10) | The Fallen Founders: What Holmes, Neumann, and Bankman-Fried Reveal A… | `/pop-culture/fallen-founders-enneagram-analysis` |
+| 107 | 8.2 | 4 (4/0) | 26 (15/11) | The Fallen Founders: What Holmes, Neumann, and Bankman-Fried Reveal A… | `/pop-culture/fallen-founders-enneagram-analysis` |
 | 105 | 8.5 | 3 (3/0) | 10 (5/5) | Alex Cooper vs Alix Earle: Why the Mentor-Protegee Pipeline Always Ex… | `/pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis` |
 | 102 | 20.2 | 14 (14/0) | 15 (15/0) | Enneagram Self-Development: What I Got Wrong as a Type 8 | `/enneagram-corner/enneagram-self-development` |
 | 94 | 9.2 | 3 (3/0) | 3 (3/0) | How Epstein Trapped the Powerful and the Vulnerable (Part 2) | `/pop-culture/epstein-psychology-part-2` |
-| 87 | 6.6 | 4 (4/0) | 5 (5/0) | The Enneagram Changed My Life, But I Learned to Shut Up About It | `/community/why-im-selective-sharing-enneagram` |
+| 87 | 6.6 | 4 (4/0) | 6 (6/0) | The Enneagram Changed My Life, But I Learned to Shut Up About It | `/community/why-im-selective-sharing-enneagram` |
 | 69 | 8.1 | 3 (3/0) | 8 (8/0) | How to Throw a Party Everyone Actually Wants to Attend | `/enneagram-corner/enneagram-party-planner` |
 | 63 | 8.6 | 5 (5/0) | 16 (5/11) | The Podcaster Personality Map: Why Hosts Return to the Same Topics | `/pop-culture/podcaster-personality-map` |
 | 48 | 8.4 | 5 (5/0) | 16 (7/9) | Comedy Kings: Why the Funniest Men Alive Are Wired Completely Differe… | `/pop-culture/comedy-kings-enneagram-analysis` |
@@ -394,7 +395,7 @@ Sorted by impressions. In = blog + people pages linking in. Out = links to live 
 | — | — | 4 (4/0) | 6 (5/1) | The 90-Day Personality Maxing Blueprint | `/enneagram-corner/90-day-personality-maxing-blueprint` |
 | — | — | 4 (4/0) | 5 (5/0) | The Definitive Guide to Relationship Conflict [Part 1] | `/how-to-guides/definitive-guide-to-relationship-conflict-part-1` |
 | — | — | 4 (4/0) | 11 (4/7) | Podcast Bros: Inside the Movement That Replaced Mainstream Media | `/pop-culture/podcast-bros-enneagram-analysis` |
-| — | — | 4 (4/0) | 11 (4/7) | The Anatomy of Public Shame: What We're Actually Doing When We "Cance… | `/pop-culture/psychology-of-public-shame` |
+| — | — | 4 (4/0) | 13 (4/9) | The Anatomy of Public Shame: What We're Actually Doing When We "Cance… | `/pop-culture/psychology-of-public-shame` |
 | — | — | 4 (4/0) | 15 (14/1) | The Office Enneagram Types: Why Dunder Mifflin Was a Personality Disa… | `/pop-culture/the-office-enneagram-types` |
 | — | — | 3 (3/0) | 3 (3/0) | The Bible Doesn't Start With Answers. It Starts With a Question. | `/community/questions-are-the-engine-of-moral-awakening` |
 | — | — | 3 (3/0) | 6 (6/0) | 5 Reasons Reddit Can't Help You Find Deep Connections | `/community/reddit-deep-connections-limitations` |
@@ -410,7 +411,7 @@ Sorted by impressions. In = blog + people pages linking in. Out = links to live 
 | — | — | 3 (2/1) | 16 (16/0) | Why People Overshare: Shame, Boundaries, and Safe Spaces | `/enneagram-corner/oversharing-psychology-shame-boundaries` |
 | — | — | 3 (3/0) | 3 (3/0) | Personality Maxing: Looksmaxxing for What People Experience | `/enneagram-corner/personality-maxing` |
 | — | — | 3 (3/0) | 3 (2/1) | The Stress Paradox: Why Emotional Patterns Outlast Situations | `/enneagram-corner/situations-change-emotions-dont` |
-| — | — | 3 (3/0) | 6 (6/0) | Why Your Arguments Keep Repeating (And the Exercises That Actually Fi… | `/how-to-guides/definitive-guide-to-relationship-conflict-part-2` |
+| — | — | 3 (3/0) | 7 (7/0) | Why Your Arguments Keep Repeating (And the Exercises That Actually Fi… | `/how-to-guides/definitive-guide-to-relationship-conflict-part-2` |
 | — | — | 3 (3/0) | 3 (3/0) | The Pattern-Breaking Guide to Fighting Depression | `/how-to-guides/guide-to-fighting-depression` |
 | — | — | 3 (3/0) | 5 (5/0) | How to Read People: The 4-Step Guide to Understanding Anyone | `/how-to-guides/how-to-psychoanalyze-people` |
 | — | — | 3 (3/0) | 6 (6/0) | Active Listening Guide: Why Your Personality Type Sabotages It | `/how-to-guides/ultimate-guide-to-active-listening` |

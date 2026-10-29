@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "unfamiliar",
+  "content_sha256": "8d021edec0f65c80e2001a16c661a16d036d8bfce1912c3169b1add839bc42a0",
+  "evidence_sha256": "096b49611f9e415728dd897eb54bd612af13f28c1a40157459014777e6e7ecb9",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": false,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "unfamiliar-01",
+      "severity": "major",
+      "passage": "The casting call circulated on Instagram among trans models in New York in 2018, and her agency asked her to go in.",
+      "problem": "Orientation. By this sentence a reader who has never heard of Hunter Schafer has read about 900 words of body and still has not been told, in prose, who she is: that she is famous for playing Jules, a transgender teenager, on HBO's Euphoria, which premiered in June 2019. The body never says 'HBO', never dates the premiere ('within a month of the premiere' of what?), introduces Jules with 'She let Jules in' as a name the reader is assumed to know, and first names Sam Levinson as a co-writer in Boone without saying he created the show. Only the 'Who is Hunter Schafer?' FAQ carries this, and FAQ text sits below the article. The hook's withholding ('a 17-year-old named Hunter Schafer') works, but the payoff orientation never arrives.",
+      "acceptance_test": "Within the first two body sections, one or two plain sentences establish that she is an actress, model and visual artist who became famous playing Jules, a trans teenager, on HBO's Euphoria (premiered June 2019). At Levinson's first mention he is identified as the show's creator; 'the premiere' names the show. A reader with no prior knowledge can say after the Euphoria section what show she was on, who she played and when."
+    },
+    {
+      "id": "unfamiliar-02",
+      "severity": "major",
+      "passage": "On this reading, the line she guards is not between herself and a role but between the self she built and anything that could overwrite it. Jules was made from the same material, so Jules was allowed in.",
+      "problem": "Missing premise. The reconciliation of the Method refusal and the Jules merge depends on the reader knowing that Jules was a trans girl written partly from Schafer's own life. The body never says so, so 'the same material' refers to nothing the reader has seen and the step reads as assertion. The evidence record has the material (S18 context: the therapy-session writing drew on 'my own personal ways of thinking about trans-ness'; C19 and C65 both note the role was written around her experience) but the draft does not surface it.",
+      "acceptance_test": "A sourced sentence before this passage states that Jules was a trans teenager and that Schafer put her own life and thinking into the character (S18, S14 or S27), so that 'made from the same material' points to something the reader has been shown."
+    },
+    {
+      "id": "unfamiliar-03",
+      "severity": "major",
+      "passage": "That is the adult version of a pattern that began with a 14-year-old finishing freshman year in a skirt.",
+      "problem": "Callback to a detail never told. The closing argument is phrased as a reminder, but the skirt and freshman-year detail appear here for the first time; the childhood section says only that she came out as trans in ninth grade and her parents said no twice. A newcomer cannot check the claimed 'pattern' against its first instance. The detail also does not appear in the recorded excerpt or context of any of the three sources cited for C90 (S27, S07, S04); C90's own note says it comes from a Rolling Stone summary. The evidence reviewer should confirm whether it can be pinned.",
+      "acceptance_test": "Either the skirt detail is introduced, sourced and dated, in the childhood section where the ninth-grade coming-out is told, or the callback is rewritten to the instance the article actually showed (a ninth-grader who came out as trans after her parents said no twice). If the detail cannot be located in an opened source, it is removed."
+    },
+    {
+      "id": "unfamiliar-04",
+      "severity": "major",
+      "passage": "What she did with it is the telling part. Her first thought went to what it said about her as a trans woman: \"Oh my God, like, is this it?\" Then she reframed it.",
+      "problem": "A section a newcomer cannot place. 'Little pockets of special, intense relationships' presents Rosalía, Dominic Fike, the infidelity statement and the reframe, announces that the reframe is 'the telling part', and then ends without saying what it tells or how it bears on Type 4 versus Type 3. Every other section states its contribution to the argument; this one reads as a dating-history insert matching the keyword list (Rosalía, Dominic Fike) and it carries the page's most sensitive claim about a named living person without an argued reason to be on the page. It is also the obvious trim: the body runs 3,990 words against the standard's 2,000–3,500 target.",
+      "acceptance_test": "The section states in one or two sentences what the material shows about the pattern (for example, that the 'is this it?' to 'nothing to do with you' move is the same self-location test the article uses elsewhere, or that the few intense relationships are the retreat-to-the-few cost named in the type section), or it is cut to the one or two details that bear on the type and folded into another section. If no type-relevant sentence can be written honestly, the infidelity passage is removed."
+    },
+    {
+      "id": "unfamiliar-05",
+      "severity": "minor",
+      "passage": "She says she gains nothing from fame and would trade it for the money.",
+      "problem": "Summary of evidence the reader never saw, in ambiguous words. The fame discussion in 'The drag version of who I am' quoted only 'I don't personally gain anything from it'; the record behind this clause (C26: she would walk away from fame if she could keep the money, Call Her Daddy, 2024) never appears in the body. A reader meeting it first in the adjudication cannot tell whether it is a quote, a paraphrase or an inference, and 'trade it for the money' can be read as trading fame for money or as keeping the money and giving up the fame.",
+      "acceptance_test": "Either the Call Her Daddy remark is quoted or paraphrased with attribution where fame is discussed in 'The drag version of who I am', or this clause is rewritten to say plainly what she said (that she would give up fame if she could keep the money) with a source."
+    },
+    {
+      "id": "unfamiliar-06",
+      "severity": "minor",
+      "passage": "Weeks earlier, Schafer had become the youngest plaintiff in the lawsuit against the state's bathroom bill.",
+      "problem": "The bill is never explained in the body. A reader outside the United States, or too young to remember 2016, does not learn what the law did, what the suit challenged, or why a 17-year-old was a plaintiff; 'The lawsuit itself came to her by Facebook message from an ACLU lawyer' later assumes that knowledge. The FAQ calls it 'HB2', a name the body never uses.",
+      "acceptance_test": "At first mention, one clause states what the law did (required people in public schools and government buildings to use bathrooms matching the sex on their birth certificate) and that the ACLU suit challenged it; 'HB2' appears once in the body so the FAQ term matches."
+    },
+    {
+      "id": "unfamiliar-07",
+      "severity": "minor",
+      "passage": "The discriminator is where she locates the self. When identity collided with expectation, with her parents in 2013, with her community in 2022, and with her own earlier ideology in 2025, she revised toward what felt true to her and took the cost each time.",
+      "problem": "The sentence the article names as its discriminator asks the reader to recall one thing never dated and one thing not yet told. The body gives the coming-out by grade, not year, so '2013' has no referent for a newcomer; 'her own earlier ideology in 2025' points to the surgery reasoning that only appears in the following section, with no signal that it is a forward reference.",
+      "acceptance_test": "The ninth-grade coming-out is dated where it is told (or this sentence says 'in ninth grade'), and the 2025 reference is either signposted ('and, as the last section shows, with her own earlier ideology in 2025') or the 'Why not Type 3?' section is moved after 'The flatter answer'."
+    },
+    {
+      "id": "unfamiliar-08",
+      "severity": "minor",
+      "passage": "A Four who does not perform melancholy is still a Four, but the affect does not match the self-reports.",
+      "problem": "Self-contradicting on first read. The paragraph has just quoted her own reports of joy ('pretty easy access to like joy', 'a pretty happy kid'), so 'the self-reports' naturally means those and the sentence appears to say her lightness does not match her lightness. The intended contrast is with the depression and catharsis-craving she reports elsewhere.",
+      "acceptance_test": "The sentence names the contrast explicitly (for example: 'but the affect does not match the depression and the craving for catharsis she describes elsewhere')."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Read fast, that is a reversal. Read slowly, it is the same complaint. At 17 the label that flattened her was \"cis girl.\" At 25 it was \"trans actress.\" The content changed. The objection to being reduced to a category before anyone looked did not.",
+      "reason": "The hook's turn. It hands a stranger the whole thesis as a concrete puzzle, in dated evidence, before any Enneagram vocabulary appears, and the rest of the article pays it off."
+    },
+    {
+      "passage": "Release and craving, not achievement. That is the vocabulary of someone who makes things to metabolize feeling, and it is the first place the Type 3 alternative starts to lose ground.",
+      "reason": "Tells the reader why the quote they just read matters to the argument at the moment they read it; this is how the article keeps a newcomer oriented inside the type case."
+    },
+    {
+      "passage": "A Three manages an image to be admired for it. What she describes is managing one so the admiration lands on the decoy while she is somewhere else.",
+      "reason": "The clearest one-sentence discriminator in the piece for a reader with no Enneagram background; it makes the 3-versus-4 question concrete without jargon."
+    },
+    {
+      "passage": "The surgery is not evidence of anything about her type. Her reasoning is.",
+      "reason": "Draws the boundary a newcomer needs on the most sensitive section and keeps the argument on stated reasoning rather than on the body."
+    },
+    {
+      "passage": "I'm so thankful that I have not really been given a choice to be anyone but who I am.",
+      "reason": "Closes the loop opened in the childhood section ('I have never been able to really help but be who I am'); the ending lands for a reader who knew nothing coming in, and the article stops at its natural point."
+    }
+  ],
+  "assessment": "Read as someone who had never heard of the subject. Momentum and stakes are strong: the 2016/2024 label reversal gives a stranger the thesis as a puzzle before any Enneagram vocabulary, each section adds a different kind of evidence (childhood drawing, the Method refusal against the Jules merge, the drag persona, internal validation, the 2022 collision, the surgery reasoning), and the final quote pays off a line planted in the childhood section. The main failure is orientation: the body never tells a newcomer that she is famous for playing Jules, a trans teenager, on HBO's Euphoria from June 2019, never identifies Levinson as the show's creator, and then leans on that unstated knowledge at two load-bearing moments, the 'same material' step and the closing 'pattern' callback, whose skirt detail appears nowhere earlier in the article and not in the recorded excerpts of its three sources. The relationships section is the only one a newcomer cannot place in the argument, and it carries the most sensitive claim. The body is 3,990 words against a 2,000–3,500 target with nine H2s; that section and the forward-referenced 2025 clause are the natural trims. Similarity advisory: no trips, top pair 0.033 against a 0.04 threshold; the type-primer paragraph is ordinary vocabulary and the argued details are specific to her. This role did not reopen sources; quotation fidelity is left to the evidence reviewer. What a reader learns that should still hold in five years: the drag-persona split, validation located in 'artistic truth' before release, and a repeated willingness to revise a publicly stated self-concept at a cost."
+}

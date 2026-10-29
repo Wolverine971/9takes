@@ -1,0 +1,20 @@
+{
+  "schema_version": 3,
+  "subject": "hunter-schafer",
+  "mode": "create",
+  "role": "enneagram",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_review_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_06-00-03-007_hunter-schafer/draft.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_06-00-03-007_hunter-schafer/evidence-draft.json",
+    "similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_06-00-03-007_hunter-schafer/similarity.json"
+  },
+  "outputs": {
+    "review-enneagram.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_06-00-03-007_hunter-schafer/review-enneagram.json"
+  },
+  "content_sha256": "8d021edec0f65c80e2001a16c661a16d036d8bfce1912c3169b1add839bc42a0",
+  "evidence_sha256": "096b49611f9e415728dd897eb54bd612af13f28c1a40157459014777e6e7ecb9"
+}

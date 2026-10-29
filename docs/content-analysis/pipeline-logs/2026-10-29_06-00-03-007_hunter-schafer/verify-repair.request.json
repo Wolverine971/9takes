@@ -1,0 +1,27 @@
+{
+  "schema_version": 3,
+  "subject": "hunter-schafer",
+  "mode": "create",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_verify_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_06-00-03-007_hunter-schafer/candidate-repair.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_06-00-03-007_hunter-schafer/evidence-repair.json",
+    "resolution": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_06-00-03-007_hunter-schafer/resolution-repair.json",
+    "review-subject": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_06-00-03-007_hunter-schafer/review-subject.json",
+    "review-fan": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_06-00-03-007_hunter-schafer/review-fan.json",
+    "review-critic": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_06-00-03-007_hunter-schafer/review-critic.json",
+    "review-unfamiliar": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_06-00-03-007_hunter-schafer/review-unfamiliar.json",
+    "review-enneagram": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_06-00-03-007_hunter-schafer/review-enneagram.json",
+    "review-future": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_06-00-03-007_hunter-schafer/review-future.json",
+    "baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_06-00-03-007_hunter-schafer/baseline-reader.md",
+    "checks": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_06-00-03-007_hunter-schafer/checks-repair.json"
+  },
+  "outputs": {
+    "verification-repair.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_06-00-03-007_hunter-schafer/verification-repair.json"
+  },
+  "content_sha256": "7869a2e75791592b85ed7e2214860c967b90cd71a95f338870d82928acd69f11",
+  "evidence_sha256": "f03016686c349b22b624786744cfb3a739c2598c283e3103b26486e447a943f4"
+}

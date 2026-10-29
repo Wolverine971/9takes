@@ -1,0 +1,21 @@
+The fan-role review for the Hunter Schafer draft is written and validated. Nothing else in the run directory was touched.
+
+**Output written**
+
+`docs/content-analysis/pipeline-logs/2026-10-29_06-00-03-007_hunter-schafer/review-fan.json`
+
+It passes the review schema in blogEditorial.js, copies the request's content and evidence hashes (both re-derived from the frozen draft and evidence and confirmed matching), and every finding and protected passage quotes text that exists verbatim in the draft.
+
+**Findings** (6 major, 4 minor)
+
+- **Cuckoo was not her first job without Levinson.** The Hunger Games prequel shipped nine months earlier and is in the record. Fix is to say "first lead."
+- **"The only writing credit Levinson has shared on the show"** is an absolute over season three that no cited source covers. Verify or soften.
+- **Activist arc is flattened.** The record has her accepting the role at 17 and later saying she took the label on because people told her she was one. That is formative context and a Type 9 data point the "Why not" section should face.
+- **February 27, 2024 protest arrest is missing** from a section that paints her as withdrawn from public action. It actually supports the thesis, so omitting it reads as shaping the record.
+- **"She did not apologize"** in the transmedicalism paragraph rests on a two-sentence excerpt of a longer comment, and the liked post is paraphrased more sharply than Out's quoted text. Both need checking.
+- **Pre-fame art record is unused.** UNCSA, the HB2 thesis garments, and the April 2017 "how people perceive me versus how I feel" line are in the record and are the earliest statement of the thesis.
+- Minor: the Method-class story is caption-level per the record's own note, WUNC ages drift ("18 months" became "age two"), the fame-for-money line inverts the trade, and the "Who is" FAQ skips Hunger Games.
+
+**Protected** five passages: the hook's "same complaint" reading, the Jules-versus-Method reconciliation, the "decoy" discriminator, the "She is light" counterevidence paragraph, and the ending.
+
+**Risk flags** unchanged from the evidence record. Sensitive allegations stay true. I did not raise contested typing, since the 4-versus-3 case is argued with a stated discriminator. Similarity did not trip and the flagged pairs are ordinary type vocabulary.

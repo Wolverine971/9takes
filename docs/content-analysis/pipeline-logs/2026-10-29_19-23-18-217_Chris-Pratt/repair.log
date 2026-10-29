@@ -1,0 +1,32 @@
+I've written the three repair files for the Chris Pratt run. The repaired draft passes the pipeline's automated checks, but whether it clears the 8.5 grade gate depends on the independent re-verification, which I haven't run. I didn't touch the live draft, publish anything or change any input files.
+
+**The two major errors the verifier caught are fixed, and I confirmed both against the sources myself:**
+- **Wrong outlet for two quotes:** Gunn's "literally just made up… about his politics" and the "none of this noise has hurt his box-office prowess" line read as if they came from The Daily Beast. Both are from Men's Health, and the second is the writer Mickey Rapkin's own remark. I reopened the full Daily Beast article through the Wayback Machine and it has neither line. The article now credits both to Men's Health by name. The Daily Beast gets its own paragraph and is described only by its headline and its argument that his public record of faith makes the "not a religious person" line false.
+- **"He didn't mention Mercy" was false:** all three transcriptions have him say "Mercy I did recently" at about 48:12. The ending now says he listed Mercy among his recent roles, and I removed Mercy's reviews and box-office numbers so the ending doesn't hint they caused the comedy plan. On his recent roles, I paraphrase only "some had been more serious than others", the part all three transcriptions agree on. The other half is either "irreverence" or "a reverence" depending on the transcription, so I left it out.
+
+**The five minor findings are also fixed:**
+- Everwood is now his "first regular TV role" and Andy his breakthrough, matching Wikipedia.
+- The unexplained "Cohen" is now attributed to Vanity Fair.
+- His Hillsong denial is followed by The Daily Beast's report that he was photographed at a Hillsong service in 2017, framed as their claim, not ours.
+- The evidence record is cleaned up:
+  - Jack's August 2012 birth month is now credited to Fox News.
+  - The Chong "sales skills" line is now heard the same way by two transcriptions.
+  - The Daily Beast source now reflects the full article.
+- **Length:** 4,336 words down to 3,926. The verifier asked for about 3,500–3,900. Every protected passage and the Seven/Nine/Six tests are kept, and the faith section was reorganized so attributions no longer stack.
+
+**Cuts you might want to veto (one sentence each):**
+- **"Idols to burn" (2026):** a distinctive quote, but the paragraph repeated the faith section's closing line. Easy to restore if you want it back.
+- **The wrestling-coach "I'll be famous… shit ton of money" boast:** cut because it's relayed second-hand from an Entertainment Weekly interview nobody has opened.
+- **Anna Faris's "we both protected that imagery":** the draft already called it weak evidence, so I removed it.
+- **Small asides:** the Rob Lowe brother line, the Fox "my dad" quote, the band-list detail and the closing note about his October 2026 action roles.
+
+I also softened the meta description from "Type 3, not 7" to "leans Type 3 over 7" to match the article's medium confidence.
+
+**Still needs a human:**
+- Someone listening to the Not Dead Yet audio at about 48:15 to settle "irreverence" if you want that half of his answer back.
+- A 2017 source for the Hillsong photo if you want to say more than "The Daily Beast reported."
+
+Files are in `docs/content-analysis/pipeline-logs/2026-10-29_19-23-18-217_Chris-Pratt/`:
+- `repair.md`
+- `evidence-repair.json`
+- `resolution-repair.json`

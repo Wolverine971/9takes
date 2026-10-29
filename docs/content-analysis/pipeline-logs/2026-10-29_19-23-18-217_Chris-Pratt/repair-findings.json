@@ -1,0 +1,30 @@
+{
+  "eligible": false,
+  "blockers": [
+    "verification:revise",
+    "verification:coverage_complete",
+    "unresolved:verify-01:This misattributes quotations, and the edit introduced it (the draft ended at the headline). \"The same piece\" follows the Daily Beast headline, so readers will take Gunn's \"literally just made up... about his politics\" and \"the writer noted that 'none of this noise has hurt his box-office prowess or his reputation in town'\" as the Daily Beast's. I opened the full Daily Beast article (Kyndall Cunningham, June 30, 2022) via a Wayback raw copy, and it contains neither line. Both are from the Men's Health profile: Gunn quoted by Mickey Rapkin, and Rapkin's own aside. The Daily Beast argues the opposite, calling the 'not a religious person' line \"absolute bullshit\". The passage credits a reassuring defense to his harshest critic in a sensitive-allegation section. The attribution sentence is not in the evidence inventory; c-other-causes correctly cites only src-mh-2022.",
+    "unresolved:verify-02:This is false, and the edit introduced it. In the same Not Dead Yet answer (about 48:15-48:30), all three transcriptions (research small.en, edit large-v3-turbo, and my independent medium.en) have Pratt say: \"I've been playing this Terminal List character James Reese and then I've been doing some other things, Mercy I did recently\". He named Mercy as a recent role; he did not mention its reception. The src-not-dead-yet-2026 context says only that he \"does not mention Mercy's reception\", and c-mercy's inference (\"while noting he did not cite it\") repeats the prose error. The preceding paraphrase, \"His recent roles had carried a seriousness, he said\", is one-sided. Two of three models hear \"there's a certain irreverence in some of the roles that I've done and then there's more of a seriousness in some\" (small.en: \"a reverence\"). The answer was about having played both kinds and wanting more comedy.",
+    "unverified_claim:c-mercy",
+    "unresolved_review:subject-04",
+    "unresolved_review:subject-08",
+    "overall_below_8.5:8.2",
+    "evidence_below_8:7.8"
+  ],
+  "quality": {
+    "evidence": 7.8,
+    "enneagram": 8,
+    "originality": 8.8,
+    "writing": 7.9,
+    "durability": 8.5,
+    "hook": 8.7,
+    "discoverability": 8.4,
+    "overall": 8.2,
+    "letter": "B",
+    "rubric_version": 3,
+    "graded_at": "2026-10-29",
+    "caps_applied": [],
+    "needs_review": true,
+    "content_sha256": "aaf7b282cb97354f6266f913acf872f69d985494166e4a1b89152b0b2bc5db3e"
+  }
+}

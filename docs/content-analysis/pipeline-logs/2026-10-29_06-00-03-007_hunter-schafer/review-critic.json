@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "critic",
+  "content_sha256": "8d021edec0f65c80e2001a16c661a16d036d8bfce1912c3169b1add839bc42a0",
+  "evidence_sha256": "096b49611f9e415728dd897eb54bd612af13f28c1a40157459014777e6e7ecb9",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": false,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "critic-01-discriminator-overreach",
+      "severity": "major",
+      "passage": "The discriminator is where she locates the self. When identity collided with expectation, with her parents in 2013, with her community in 2022, and with her own earlier ideology in 2025, she revised toward what felt true to her and took the cost each time. A Three revises toward what works.",
+      "problem": "None of the three episodes is a clean discriminator, and the paragraph is presented as the clincher. 2013: a trans child coming out against parental resistance; the evidence record's own alternative on C03 calls the persistence 'plain necessity,' and a Three in her position would have done the same. 2022: the 'revision' was a comment under a Labor Day photo dump two weeks later that neither apologized nor retracted; no cost is identified, and a narrow clarification that preserves the original point is also what careful reputation management looks like. 2025: ELLE (opened) and Schafer herself frame the change as ideology meeting reality: 'hitting a wall again and again where this theoretical queer utopia didn't match up with the world she encountered every day,' queerness as philosophy 'versus how it applies and works in real life, in the context of the world that we're living in,' and the disclosure offered 'for the tension I was talking about between those two worlds [reality and ideology].' Revising a held position because it did not work in the world is the behavior the paragraph assigns to a Three one sentence later. The article also says 'The surgery is not evidence of anything about her type. Her reasoning is,' but the only quoted reasoning explains the previous stance; the reason for the change is the journalist's paraphrase.",
+      "acceptance_test": "Rebuild the paragraph on episodes where the Type 3 and Type 4 readings predict different observable behavior, and state the Type 3 prediction for each episode used. Drop the 2013 coming-out as a discriminator or label it as necessity. For 2022, either name the cost she paid or present the clarification as compatible with both readings. For 2025, quote her own ideology-versus-reality framing from ELLE and stop counting it as a clean instance of 'what felt true' beating 'what works.' The FAQ 'Why isn't Hunter Schafer a Type 3?' must match whatever survives."
+    },
+    {
+      "id": "critic-02-closing-invented-motive",
+      "severity": "major",
+      "passage": "A shy kid who did the dance anyway, crying, because the self she was had to come out and the room had to see it.",
+      "problem": "ELLE introduces the memory with 'She was invited to join in with a choreographed dance, but was so cripplingly aware of how she was being viewed, it wasn't fun,' and her own gloss is that this shy, self-conscious kid is 'what I was at my core before this job broke me open.' Nothing in the source says she danced because a self needed to be seen; she danced because she was asked and was miserable being looked at. The 'because' clause is author-supplied interiority that contradicts the source. Read plainly, the memory is compliance under acute awareness of being viewed, which is the perception-consciousness the article files under Type 3 and the 'went where people told me to go' pattern it treats as a problem. The closing image therefore converts counter-texture into the thesis.",
+      "acceptance_test": "Remove the invented motive. If the memory stays as the closing image, carry it with ELLE's framing ('cripplingly aware of how she was being viewed') and her own gloss, and let it stand as texture rather than proof. Do not replace it with another supplied inner state."
+    },
+    {
+      "id": "critic-03-rival-case-omissions",
+      "severity": "major",
+      "passage": "The Type 3 case starts in her own words.",
+      "problem": "The evidence record says the rival case is 'presented at full strength' (C80), but the record's strongest Type 3 material is her own admissions of the pull of reception, and none of it reaches the article: Vogue, August 2, 2024 (cached page opened), 'I have to keep checking in with myself and making sure I'm doing it for the right reasons and for the love of making stuff' and 'I feel like I need to keep infiltrating to the point where I feel safe enough in this world to do whatever I want'; ELLE UK, February 28, 2023 (opened), 'you can kind of get swept up in it'; the same Cal State Fullerton answer that supplies the 'artistic truth' quote (OC Register, opened) also concedes that harsh critiques from high-profile strangers are 'a bit unsettling'; Attitude/AnOther 2023 (S20), 'I set little goals for myself – this year it was to direct a short film. Another was to write ten outlines'; Numéro 2023 (S22), 'This opportunity has been long in the making, and required a lot of time and effort'; and GQ's own two-day characterization, 'the sunny, people-pleasing young advocate.' The section titled 'She did not go looking for Euphoria' also leaves out the pursuit facts in the record (at least five callbacks per Marie Claire 2019; 'more money than I've ever seen' per Call Her Daddy). The description states as flat fact that she 'judges her work by its artistic truth, not its reception,' which the body holds only at medium confidence and the source itself qualifies.",
+      "acceptance_test": "Add at least the Vogue 'checking in'/'infiltrating' lines, the ELLE UK 'swept up' line and the OC Register 'unsettling' concession to 'Why not Type 3?' or 'What the Four reading leaves out,' with one or two sentences on why they do not tip the read. Rephrase the description so it reports her claim ('says she judges...') rather than asserting it. Either retitle the Euphoria section or add the callbacks and the money in one sentence."
+    },
+    {
+      "id": "critic-04-hardening-misattributed",
+      "severity": "major",
+      "passage": "She frames that as hardening after years of exposure.",
+      "problem": "No opened source has her framing it that way, and the one source that addresses it says the opposite. GQ, April 2, 2024 (opened): 'It's not so much that Schafer has hardened herself, but more that she's learned to embrace a little cynicism as a protective measure.' The article has already quoted that 'protective measure' read two sections earlier. The paragraph that is supposed to let counterevidence stand instead closes it with a rationalization attributed to her that she did not give. The same unsourced framing appears in the evidence record's 'unexplained' field, so the error is inherited, not caught.",
+      "acceptance_test": "Delete the sentence, or replace it with GQ's read attributed to the writer. If a source exists in which she herself describes becoming desensitized to misgendering, cite it at the passage and add it to the evidence record; otherwise leave the counterevidence unexplained."
+    },
+    {
+      "id": "critic-05-hook-context-cut",
+      "severity": "minor",
+      "passage": "Read fast, that is a reversal. Read slowly, it is the same complaint. At 17 the label that flattened her was \"cis girl.\" At 25 it was \"trans actress.\" The content changed. The objection to being reduced to a category before anyone looked did not.",
+      "problem": "The 2016 sentence is framed by a clause the article omits. WUNC (opened): 'It used to, because I was like \"Ooo! I'm passing!\"... But now as I'm exploring the nonbinary part of myself, it's becoming almost—not annoying—but like I just wish that some people could see more to me than that right away.' The complaint about 'cis girl' was tied to a nonbinary self-concept she has since set aside ('flatter': 'I'm a woman. I'm a girl'), which the article documents in its last section. The simpler account of the two quotes is that her self-concept and preferred label changed. The 'same complaint' reading may still be right, but it is the author's, it is stated as fact, and the evidence record calls it 'the longest-baseline evidence for the leading type' (C54).",
+      "acceptance_test": "Restore the nonbinary framing in the hook (a clause is enough) and either argue in one sentence why the objection to being pre-sorted survives the change of self-concept, or mark the reading as a reading ('one way to hear it')."
+    },
+    {
+      "id": "critic-06-type6-same-episode",
+      "severity": "minor",
+      "passage": "But her doubt is about meaning, not safety. She asks what she was \"put on this earth to do,\" and she said no to the biggest job of her career until she believed in it.",
+      "problem": "The Blade Runner episode fits a Six at least as well as a Four: she declined, then committed only after producers 'showed me what they were wanting to do' (Rolling Stone, cached page opened) and the writers' room references; showrunner Silka Luisa called her 'a tough sell' (S36). Trust after seeing the plan is a Six move, and the same episode is used in the preceding paragraph as Four evidence. The record's security vocabulary is also absent from the rebuttal: 'keep infiltrating to the point where I feel safe enough' (Vogue 2024), 'a safety net' (ELLE UK 2023), 'I got a little scared of getting stuck in the same sort of role' (ELLE UK 2023).",
+      "acceptance_test": "Give the Six its strongest sourced instance, then name one observation on this record that separates Six from Four (for example, whether she seeks reassurance from trusted others before deciding or revises alone), instead of reusing the Blade Runner decision for both jobs."
+    },
+    {
+      "id": "critic-07-city-claim-stale",
+      "severity": "minor",
+      "passage": "She has not lived more than three or four years in one city since Raleigh, and she described the result to Bazaar as \"these little pockets of special, intense relationships.\"",
+      "problem": "This restates a 2021 remark ('I haven't spent more than three or four years in the same city, except for Raleigh when I was growing up,' Harper's Bazaar, opened) as true in 2026. She has been based in Los Angeles since 2018 or 2019 ('I technically live there, but I'm never there,' Interview, March 2026), so the present-perfect claim is now stale on the article's own evidence.",
+      "acceptance_test": "Date it ('By 2021, she said she had not...') and let the March 2026 Interview line carry the current state."
+    },
+    {
+      "id": "critic-08-facility-attribution",
+      "severity": "minor",
+      "passage": "She considered checking into a facility.",
+      "problem": "The sentence sits between two GQ quotations, but GQ (opened) says only 'I knew I needed help.' The detail is from Harper's Bazaar, December 2021 (opened): 'she considered checking into a mental-health facility, something she talked about during an appearance on Jimmy Fallon.' A reader following the GQ link will not find it, and a mental-health detail should carry its own attribution at the passage.",
+      "acceptance_test": "Attribute the sentence to Harper's Bazaar (or her Fallon appearance) at the passage, matching the attribution the article uses for the Bazaar quotes elsewhere."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Eight years later, she told GQ she had been offered \"tons of trans roles\" and did not want them, and that keeping transness out of her billing had taken work. \"If I let it happen, it would still be giving 'Transsexual Actress' before every article ever.\"",
+      "reason": "A specific, sourced, dated cold open that pairs two real quotes eight years apart. Keep the pairing even if the 'same complaint' verdict is softened per critic-05."
+    },
+    {
+      "passage": "A Three manages an image to be admired for it. What she describes is managing one so the admiration lands on the decoy while she is somewhere else.",
+      "reason": "The clearest and most original statement of what the article is actually arguing, grounded in her own 'drag' and 'Hunti' testimony rather than type boilerplate."
+    },
+    {
+      "passage": "On this reading, the line she guards is not between herself and a role but between the self she built and anything that could overwrite it. Jules was made from the same material, so Jules was allowed in.",
+      "reason": "Labeled as a reading; reconciles the Method refusal and the Jules merge without a wing, an arrow or an invented scene."
+    },
+    {
+      "passage": "Release and craving, not achievement.",
+      "reason": "A four-word pivot that earns its claim from the Awards Focus quote directly above it. Precise, specific to her vocabulary, not reusable."
+    },
+    {
+      "passage": "She is light. The New York Times called her \"the sunny Schafer\" in 2019; Variety found her \"light and airy\"; GQ called her \"silly and curious.\" Her stylist, Dara Allen, says \"She's down to clown.\" Dan Stevens talks about \"a real kind of impish sense of humor.\" She agrees. She has always had, she says, \"pretty easy access to like joy,\" and she calls herself \"a pretty happy kid\" despite the pain. A Four who does not perform melancholy is still a Four, but the affect does not match the self-reports.",
+      "reason": "Adverse evidence presented with named, dated attributions and left unresolved. This is the honesty the rest of the counterevidence section should match."
+    }
+  ],
+  "assessment": "Fair-minded skeptical read. The lead is plausible and the article does more than most to show its own counterevidence; the 'drag'/'Hunti' split, the instrumental view of fame and the withdrawn baseline are real and well sourced. The weakness is at the two points where the argument claims to clinch. The three-episode discriminator is built from one episode that is necessity (a trans child coming out), one with no identified cost that reads as careful clarification (2022), and one that ELLE and Schafer herself frame as ideology giving way to 'the world she encountered every day,' which is the 'what works' behavior the paragraph assigns to a Three. The closing image supplies a motive the source contradicts. The rival case omits her own admissions of the pull of reception (Vogue 2024 'checking in' and 'infiltrating... until I feel safe enough'; ELLE UK 2023 'swept up'; OC Register 'unsettling') and GQ's 'people-pleasing' read. One counterevidence paragraph is closed with a 'hardening' framing attributed to her that no source contains and GQ rejects. Sources opened for this review: WUNC 2016, GQ 2024, Harper's Bazaar 2021, Attitude 2023, ELLE November 2026, OC Register 2023, and cached copies of Rolling Stone 2024, Vogue 2024 and ELLE UK 2023, plus the Whisper segments of Call Her Daddy (the 'is this it?' line is in context about being a trans woman, as the article says) and Wikipedia's Euphoria season 3 episode list (all eight episodes credited to Levinson alone, so the 'only writing credit' line holds through the final season). Quotations checked matched their sources. Similarity diagnostic: not tripped; the top pairs are type-definition sentences and the only generic block is the 'pattern goes in a few plain steps' paragraph. Length: about 3,990 body words against a 2,000–3,500 target and a 4,500 ceiling, so repairs should be net cuts. Risks are left as research set them. This review does not contest the type; it contests how much the discriminator proves. If the discriminator cannot be rebuilt on episodes that actually separate 3 from 4, the honest move is to lower the stated confidence rather than keep the prose."
+}

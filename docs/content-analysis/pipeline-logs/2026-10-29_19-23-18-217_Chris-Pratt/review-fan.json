@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "fan",
+  "content_sha256": "d10f7dda031a772de838286f895271512211f574a2ed42796026e0dc37e918a9",
+  "evidence_sha256": "29134fd4f1fdd151a93238265782ce60cb6eafd996ced53f69470a9c8230356b",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "fan-01-delivery-man-regain",
+      "severity": "major",
+      "passage": "Around 30, he chose the fat-guy persona because it got laughs and was \"paying better,\" then traded it for running and crash diets once it cost him a role.",
+      "problem": "The weight story is told as a single, permanent trade, but the GQ 2015 article the draft relies on says that after Moneyball (2011) and the Zero Dark Thirty bulk (2012), Pratt \"bulked up to 295 pounds\" for a supporting role in Delivery Man (2013), then lost it again for Guardians. Fans know this yo-yo. The discriminator bullet, the type FAQ (\"gave up the fun Andy Dwyer persona for years of dieting once it cost him a role\") and the weight FAQ (Moneyball, then Zero Dark Thirty, then Guardians) all erase it. The regain suggests his body followed whichever role paid. That may still fit a Three, but it is not the 'traded the fun for the image once' story the article tells.",
+      "acceptance_test": "The body, discriminator bullet, type FAQ and weight FAQ either mention the 2013 Delivery Man regain (GQ 2015) or are reworded so that no sentence implies one permanent trade after Moneyball. \"Years of dieting\" is removed or dated to the 2013-2015 run-up to Guardians. The Delivery Man fact enters the claim inventory with src-gq-2015."
+    },
+    {
+      "id": "fan-02-gq-half-quote",
+      "severity": "major",
+      "passage": "The weight came with real appetite; as he explained to GQ, the highlights of his days were the eating and drinking.",
+      "problem": "GQ's sentence continues: \"but that the rest wasn't so good, that he felt physically and mentally sluggish and 'didn't feel too great about who I was.'\" Pratt then adds \"My bones ached, I had cardiovascular issues, I was unhealthy, I was feeling rotten,\" and that exchange leads straight into the hook quote. GQ also has him say he was \"the first guy in line to buy that line of bullshit\" and compare the happy-fat-guy persona to Chris Farley, who \"didn't feel what he was projecting on the outside.\" The draft keeps the appetite half (Seven evidence) and \"Now I have less fun. I focus more\" (Three evidence). It drops health as a plain rival reason for the change. It also drops the self-deception passage, which is the strongest Three-relevant line in the source. Readers who know the GQ piece will see the hook's context trimmed.",
+      "acceptance_test": "With GQ attribution, the article says Pratt described the heavy years as physically and mentally bad (\"feeling rotten\" or \"didn't feel too great about who I was\"). Health is named as an alternative explanation for \"Now I have less fun. I focus more.\" The \"first guy in line to buy that line of bullshit\"/Farley passage is either used or deliberately declined, with the reason recorded in the resolution. Claim c-appetite's passage and inference reflect the full sentence."
+    },
+    {
+      "id": "fan-03-healthy-daughter-post",
+      "severity": "major",
+      "passage": "In 2022, at his own prompting, he worked through the backlash at length with Men's Health (\"Why are they coming after me?\") and said he cried over coverage he feared his son, then nine, would read one day.",
+      "problem": "Placed in the faith section, this reads as if he cried over coverage of his faith. Men's Health says the tears were over articles about his own then-recent Instagram post thanking Katherine Schwarzenegger for \"a beautiful, healthy daughter,\" which readers took as a dig at Faris because Jack was born premature. This is one of the best-known Pratt controversies and a direct test of the image thesis: a public post backfired. In the same interview he also went off his publicist's script to defend his son (\"What happened to the it's-an-honor-just-to-be-nominated-let's-move-on ... line that we talked about?\"). Leaving out what the coverage was distorts the source and drops a revealing contradiction.",
+      "acceptance_test": "The sentence names the coverage: Men's Health 2022 reports a reaction to his Instagram post thanking Schwarzenegger for \"a beautiful, healthy daughter,\" read as a slight to Faris and Jack. It sits where a reader will not take it as faith backlash. The article states what it shows for the image reading, such as his breaking the publicist's line for his son. The passage for claim c-why-coming-after-me is updated."
+    },
+    {
+      "id": "fan-04-childhood-split",
+      "severity": "major",
+      "passage": "As a child, he told GQ, he was \"obnoxious, really hyperactive, disruptive,\" a jokester suspended from his high-school track team for getting naked on the bus.",
+      "problem": "GQ's answer continues: \"...but also Dad was very, very strict, so if I got yelled at, I would stay silent for a long period of time. I was really sensitive. I cried a lot. I was a crybaby for a long time.\" The draft uses the hyperactive half for the Seven case. Two sections earlier it presents the sensitive-kid/strict-father story as resting on Men's Health 2022 alone (\"no other family member is on the record\"), yet the 2015 GQ answer tells the same story seven years earlier. Separately, Vanity Fair 2017 follows the brother's army advice, which the Nine paragraph quotes, with \"I was a peculiar kid. I was very much an individual and happy to be an individual. I dressed funny and was comfortable in my own skin.\" That is the most direct childhood counterevidence to an approval-shaped self, and it is cut from the same quote. A fan will see three childhood self-portraits (2015, 2017, 2022) split up so that each section gets the part that fits its argument.",
+      "acceptance_test": "The article gives GQ's \"really sensitive... crybaby... stay silent\" clause alongside the hyperactive one and notes that the father/sensitivity account appears in both 2015 and 2022. VF's \"comfortable in my own skin\" self-description is confronted in the type argument or in the section on what the type doesn't explain. The inventory adds claims for both (src-gq-2015, src-vf-2017)."
+    },
+    {
+      "id": "fan-05-ending-fun-never-left",
+      "severity": "major",
+      "passage": "Eleven years after \"Now I have less fun. I focus more,\" the fun is back on the plan, chosen in a meeting by a man who learned as a teenage salesman that the attitude is part of what you sell.",
+      "problem": "In GQ 2015, \"Now I have less fun\" was about his private life and body (her cooking, his drinking), not his career. His career never dropped comedy. The opened Wikipedia source lists the Lego Movie franchise (2014-2019), Onward (2020), The Super Mario Bros. Movie (2023), The Garfield Movie (2024) and The Super Mario Galaxy Movie (2026, the same year as the comedy remark). Star-Lord itself is a comic lead. Fans will read \"the 2015 move in reverse\" as false. The 2026 remark marks a turn in his live-action leads, away from action thrillers (The Tomorrow War, The Terminal List, Mercy) and toward comedy. The bio paragraph also never mentions Mario, his biggest recent hit, which makes the reversal look plausible to unfamiliar readers.",
+      "acceptance_test": "The closing either names the continuous comic and family voice work, with dates, and recasts the 2026 plan as a genre shift in his live-action leads, or drops the \"2015 move in reverse\"/\"eleven years\" framing. The ending still holds if his next slate is mixed. The inference for c-ending-interp is updated."
+    },
+    {
+      "id": "fan-06-mtv-worst-chris-context",
+      "severity": "minor",
+      "passage": "He told Men's Health in 2022 that he believes the speech helped light the online hostility toward him, the same hostility behind the recurring \"Worst Chris\" meme",
+      "problem": "\"The same hostility behind\" is the draft's claim, not Pratt's. Men's Health also quotes Gunn saying people made things up \"about his politics.\" Wikipedia records a 2017 statement that he does not align with either side and a 2024 Sunday Paper op-ed on the election that put unity first and endorsed no one. That stated political neutrality is a well-known part of the Worst Chris story, and it is a natural test of the Three reading (keep broad appeal) against the Nine reading (avoid the fight). The draft leaves it out. The quoted God lines also came from a comic list of rules (\"Don't be a turd\"). Men's Health notes that \"people mostly just remember the God part,\" and the draft does the same in an article about fun as packaging.",
+      "acceptance_test": "The meme link is attributed as Pratt's belief, and the politics strand (Gunn, MH 2022) is noted. The 2017/2024 neutrality statements are either added, with a sentence on what they do or don't show for 3 vs 9, or excluded with the reason recorded in the resolution. The MTV sentence notes that the speech was a comic list."
+    },
+    {
+      "id": "fan-07-andy-guest-spot",
+      "severity": "minor",
+      "passage": "In Los Angeles, Pratt spent years being cast, he says, as \"the bad boyfriend.\"",
+      "problem": "The Andy section leaves out a well-known formative fact. Vanity Fair 2017 says the role \"was supposed to be a one-episode deal, a guest spot, but the character took off,\" and Wikipedia says it was \"initially intended as temporary\" until producers made him a series regular. For a section arguing that the persona was a business plan, it matters that the plan started as a guest spot that being liked turned into six seasons, the same room-winning mechanism the article traces from door-to-door sales to the Guardians audition.",
+      "acceptance_test": "The Andy section states, with attribution (VF 2017 and/or Wikipedia), that the role was planned as temporary and became a regular because the producers liked him. The sentence uses \"temporary\" or \"guest spot\" and does not overstate it as one episode unless it is quoting VF."
+    },
+    {
+      "id": "fan-08-providential-frame",
+      "severity": "minor",
+      "passage": "Other people make his biggest moves. His mother bought the ticket home, a friend the ticket to Maui, and a stranger took him to church.",
+      "problem": "Pratt tells these rescues as a story of providence. Vanity Fair's dek says he \"sees it as divinely ordained,\" and of the sales job he says, \"That's why I believe in God and the divine... I feel like it was perfectly planned.\" A believer's version of his life selects for rescuers and credits others by design, so 'others make his moves' is partly a feature of how he tells the story (the same room-tracking the Maui section points out), not only a Nine trait. The same accounts show him acting on his own: chasing the sales office for 15 months, choosing the fat-guy niche, asking Chong to \"Put me in a movie,\" and playing the room at the Guardians audition.",
+      "acceptance_test": "Before calling the pattern a Nine signature, the Nine paragraph notes that Pratt frames these turns as providence (VF 2017) and weighs the self-initiated moves the article already reports."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "The joke softens a strange admission. Andy was one of the happiest characters on network television, and Pratt calls that happiness an image he was casting, then trades it away in two short sentences.",
+      "reason": "The hook works: it turns a quote fans half-remember into the article's question. Keep it while restoring the GQ health context (fan-02)."
+    },
+    {
+      "passage": "Plenty of 19-year-olds hide a failure. Pratt talks freely about the depression; what he hid was the result, and he showed success in its place until a friend saw through it and bought him a ticket to Maui.",
+      "reason": "This line gives the discriminator a specific off-camera example and says what was hidden and what wasn't. It matches the VF 2017 source."
+    },
+    {
+      "passage": "Little brothers copy big brothers in every type. What stands out is what the boy wanted, in the man's telling: the effect. A room knocked out, and his mother in tears.",
+      "reason": "It concedes the ordinary explanation first, then finds the type-relevant detail inside a well-known anecdote. The detail is faithful to VF 2017."
+    },
+    {
+      "passage": "A Seven gets bored. A Three gets restless without a goal. In Pratt's version, the boredom sends him back to work.",
+      "reason": "This is a compact, verified reading of the GQ bird-hunting exchange (checked against GQ 2015) that uses evidence cutting both ways. It is not boilerplate."
+    },
+    {
+      "passage": "His example puts status and hidden need in one sentence: \"I was the king of my school and I don't have a yearbook because it was $35 and I just wouldn't ask them for that much money.\"",
+      "reason": "A detail specific to this person that fans won't know. It joins pride and poverty without spelling out the moral."
+    }
+  ],
+  "assessment": "Informed-reader read. The portrait is built on the canonical Pratt sources (GQ 2015, Vanity Fair 2017, Men's Health 2022), and asking which he protects when fun and image diverge is the right question for 3 vs 7. I reopened GQ, VF, Men's Health (first request 503, retry succeeded) and Wikipedia. The lines I checked match their sources: fun-as-image, the fat-guy niche, the purse line, bird hunting, the hidden sales failure, the coupon job and Denver office, the Moneyball quote, the Guardians room method, Hillsong and the under-the-bus line, and Gunn's juggle quote. The problems are selective halves of well-known material, and every one makes the arc cleaner than the record: the weight story leaves out the 2013 Delivery Man regain; the appetite line drops the feeling-rotten half and the Farley self-deception passage; the tears are separated from the healthy-daughter post; the childhood quotes are split by section; and the ending's return of the fun ignores comic voice work that runs through Mario in 2026. Most fixes strengthen the portrait while giving the 7, 9 and health explanations their due. Vivid Three-relevant details sit unused in the same sources: the Farley passage, the broken publicist script, and the GQ Kardashian anecdote, where he asked that a joke be kept off the gag reel and says he keeps jokes about people 'safely way behind their backs.' The similarity advisory did not trip. The top match (dhar-mann, 0.06) is the generic Three-definition sentence, and the arguments differ, so this is not meaningful reuse. Risk flags: sensitive allegations (LGBTQ church criticism, ex-wife and son) and contested typing (3 vs 7, with a live 9 strand) remain true. No historical source uncertainty, and no major thesis change is needed."
+}

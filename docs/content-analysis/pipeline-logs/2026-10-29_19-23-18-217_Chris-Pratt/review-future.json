@@ -1,0 +1,72 @@
+{
+	"schema_version": 3,
+	"role": "future",
+	"content_sha256": "d10f7dda031a772de838286f895271512211f574a2ed42796026e0dc37e918a9",
+	"evidence_sha256": "29134fd4f1fdd151a93238265782ce60cb6eafd996ced53f69470a9c8230356b",
+	"risks": {
+		"sensitive_allegations": true,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": false
+	},
+	"findings": [
+		{
+			"id": "future-01",
+			"severity": "minor",
+			"passage": "That may simply be the market talking. It is also the 2015 move in reverse. Eleven years after \"Now I have less fun. I focus more,\" the fun is back on the plan, chosen in a meeting by a man who learned as a teenage salesman that the attitude is part of what you sell.",
+			"problem": "The article closes on its most perishable material: a career direction stated on a podcast released March 31, 2026, set against Mercy's reception. By 2028 to 2031 his slate will have confirmed or contradicted that plan. The record already holds signals pointing the other way, and the ending doesn't mention them: The Terminal List season 2, an action series, premiered October 21, 2026 (src-fox-2026), and Variety reported the same day that Pratt confirmed Star-Lord's return (src-variety-2026). If the action roles keep coming, the closing image reads like a failed prediction instead of a portrait. \"The 2015 move\" also misdates the trade. By the article's own chronology, the weight came off after the Moneyball audition and before Zero Dark Thirty (2012) and Guardians (2014). 2015 is when he described it to GQ. Separately, c-mercy cites only Wikipedia for \"a critical and commercial failure\". Independent reporting I checked supports it (roughly 20 to 25 percent on Rotten Tomatoes; about $53 million worldwide on a reported $60 million budget, per GamesRadar and ComicBookMovie), but the record should not rest on the tertiary source.",
+			"acceptance_test": "The closing paragraph dates the plan to the March 2026 interview, and its insight holds whether or not his post-2026 lead roles are comedies. The point should be how he treats fun as a strategy decision made with his manager and agent, not a forecast of his filmography. \"The 2015 move\" becomes wording that either dates the trade to the years before Guardians or calls it the trade he described in 2015. c-mercy cites at least one non-Wikipedia source for the reviews and box office. c-comedy-turn and c-ending-interp carry a concrete check, e.g. \"By October 2028, compare his announced lead roles with the stated comedy turn; if action dominates, revise the closing paragraph.\""
+		},
+		{
+			"id": "future-02",
+			"severity": "minor",
+			"passage": "He produces and stars in Prime Video's _The Terminal List_, whose second season premiered on October 21, 2026.",
+			"problem": "This is the orientation paragraph's only current-status sentence, and it is the news peg, not part of the argument. The article never comes back to the show. \"Produces and stars\" goes stale as soon as the series ends or he leaves it, so within five years the opening's last line would describe a situation that no longer exists.",
+			"acceptance_test": "Either the sentence is cut, or it is rewritten as a dated past event that will still be true in 2031 whether or not the series continues. No other undated present-tense career status remains in the orientation paragraph. c-terminal-list-s2 keeps its review trigger."
+		},
+		{
+			"id": "future-03",
+			"severity": "minor",
+			"passage": "Gunn says Pratt has \"a new idea every day about everything.\"",
+			"problem": "This quote comes from the 2015 GQ profile but is written in the present tense. It reads as current testimony now, when it is 11 years old, and will still read that way at 16. The same drift appears in \"His stated policy on critics is Proverbs 26:20\" (2025 sources, no year in the sentence) and \"the recurring 'Worst Chris' meme\". Elsewhere the draft dates its attributions carefully, so these few undated present-tense lines are the ones that will age badly.",
+			"acceptance_test": "Each line is dated in its own sentence or the one before it: e.g. \"Gunn told GQ in 2015 that...\" and \"In 2025 he cited Proverbs 26:20 as his policy...\", and the meme is given a start date or put in the past tense. A scan of the body finds no present-tense attribution of a pre-2026 remark without a year nearby."
+		},
+		{
+			"id": "future-04",
+			"severity": "minor",
+			"passage": "The weightiest cases happened off camera, the hidden sales failure and Faris's remark, and each rests on one source.",
+			"problem": "The draft calls Faris's remark one of its two weightiest pieces of evidence, yet c-faris-imagery is marked stable with an empty review_trigger. The research_tasks list still says to open the May 3, 2021 Unqualified audio before leaning on it, and the GMA report is the only version opened. c-would-people-like-me has the same gap: it is quoted directly and marked stable with no trigger, but a human listen at about 38:33 is still needed to confirm the speaker. c-work-to-live (auto-captions only) and c-chong-sales-2026 (single Whisper model) are also provisional with no trigger. Someone refreshing the page later and reading the claims would not know these are pending or what prose depends on them.",
+			"acceptance_test": "Either the open tasks are closed (Unqualified audio opened and its context recorded in src-gma-faris-2021; Literally! speaker confirmed), or each dependent claim gets a review_trigger naming the open task and what the prose loses if it fails. Example: \"If the Unqualified audio shows the remark describes only Faris's own habit, remove it from the weightiest-cases sentence and soften the private-life paragraph.\" Every research task that touches a passage in the draft maps to at least one claim trigger."
+		},
+		{
+			"id": "future-05",
+			"severity": "minor",
+			"passage": "On the podcast [_Not Dead Yet_](https://api.spreaker.com/download/episode/71008192/not_dead_yet_chris_pratt.mp3) in March 2026",
+			"problem": "About fifteen quotes depend on this one audio-only episode, including the hook's PMA chant, the hometown failure, the money motive, the idols line, the priorities shift and the comedy turn. The body link and the citations entry point to a raw download endpoint. On 2026-10-29 it 302-redirected to a signed, expiring CloudFront mp3. Readers get a file download with no show, date or host context, and download endpoints are the links most likely to rot. The episode page https://www.spreaker.com/episode/chris-pratt--71008192 returned 200 on the same day.",
+			"acceptance_test": "The body link and the frontmatter citations entry point to the episode's web page (Spreaker or Ricochet), not the mp3 endpoint. src-not-dead-yet-2026 keeps its timestamped locator for the quoted segments, so a refresh in 2031 can recheck each quote without re-transcribing all 78 minutes."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "The joke softens a strange admission. Andy was one of the happiest characters on network television, and Pratt calls that happiness an image he was casting, then trades it away in two short sentences.",
+			"reason": "The hook comes from a dated 2015 interview, not a news peg. It needs no maintenance and still sets up the article's discriminator in five years."
+		},
+		{
+			"passage": "What happened next matters most for typing, because no camera was involved.",
+			"reason": "The core of the type argument rests on an off-camera choice told in 2017. Remove every 2026 event and the thesis still stands, which is exactly what the five-year test asks for."
+		},
+		{
+			"passage": "Both can be true, and the interviewers asked different questions. Still, the emphasis tracks the room: an adventure for a blockbuster junket, a rescue for a cover story about finding his path.",
+			"reason": "A distinctive, dated comparison of the 2014 and 2017 tellings. It gets stronger, not staler, as more retellings pile up."
+		},
+		{
+			"passage": "Acting rewards image management in every type, so the dieting alone proves little.",
+			"reason": "An honest limit on the inference. It keeps the medium-confidence call defensible however his career goes."
+		},
+		{
+			"passage": "A skeptic can read this as the Three's instinct applied to faith: one framing for a men's magazine mid-backlash, another for a Christian outlet mid-promotion. The fairer reading holds both.",
+			"reason": "Treats the faith material as a pattern from 2012 to 2025 rather than a single controversy, so it stays useful as the faith story continues."
+		}
+	],
+	"assessment": "Five-year test: pass for the thesis, minor maintenance for the edges. The discriminator (protect the image, pay in fun) rests on GQ 2015 and Vanity Fair 2017, and the argument stands with every 2026 event removed. The 2026 Not Dead Yet material is retrospective biography, not news, so leaning on it does not date the thesis. Dates are almost all absolute and check out: 47 in June 2026, Jack nine in mid-2022, eleven years from 2015 to 2026, Parks 2009 to 2015. The FAQs lead with fixed dates (born June 21, 1979; married since June 2019), and their changing counts are tracked as time_sensitive. The perishable parts sit at the edges. The orientation ends on a present-tense Terminal List status, and the closing paragraph rests on a stated March 2026 comedy plan that the record's own October 2026 action signals already complicate; the Mercy-flop context is supported by independent reporting but cited to Wikipedia alone. A few dated remarks are written in the present tense. The evidence record has review triggers on its time-sensitive claims, but none on claims that depend on open research tasks, including Faris's remark, which the draft names as one of its two weightiest pieces of evidence. The podcast carrying about fifteen quotes is linked through a fragile mp3 download endpoint. Similarity advisory: not tripped (max 0.06, Dhar Mann). The top pairs share only type-definition vocabulary (heart triad, shame, \"read a room and become it\", also in Ben Shelton's page). Pratt's actual argument, the salesman frame and the fun-versus-image discriminator, is specific to him. No reuse finding. Risks: sensitive allegations (Page/Zoe Church, the Faris divorce) and contested typing (medium confidence, with 7 and 9 live) remain flagged; no major thesis change."
+}

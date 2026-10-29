@@ -60,7 +60,7 @@ There's something intoxicating about understanding a system that explains so muc
 
 But when you slip into teacher mode, you create a power dynamic the other person never signed up for.
 
-I've watched friends' eyes glaze over as I explained wings, arrows, and instinctual variants. The material was fascinating. To me. To them, it felt like a lecture they hadn't enrolled in.
+I've watched friends' eyes glaze over as I explained wings, arrows, and [instinctual variants](/enneagram-corner/enneagram-instinctual-subtypes). The material was fascinating. To me. To them, it felt like a lecture they hadn't enrolled in.
 
 **What creates resistance:**
 

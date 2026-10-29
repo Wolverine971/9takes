@@ -1,0 +1,197 @@
+{
+  "target": {
+    "person": "hunter-schafer",
+    "type": "4",
+    "units": 15,
+    "file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_06-00-03-007_hunter-schafer/draft.md"
+  },
+  "comparison_set": [
+    {
+      "person": "mike-faist",
+      "date": "2026-10-15",
+      "units": 9
+    },
+    {
+      "person": "dakota-johnson",
+      "date": "2026-10-09",
+      "units": 6
+    },
+    {
+      "person": "Andrew-Garfield",
+      "date": "2026-10-05",
+      "units": 12
+    },
+    {
+      "person": "Cara-Delevingne",
+      "date": "2026-09-01",
+      "units": 33
+    },
+    {
+      "person": "Freddie-Mercury",
+      "date": "2026-08-29",
+      "units": 39
+    },
+    {
+      "person": "jeremy-allen-white",
+      "date": "2026-08-26",
+      "units": 50
+    },
+    {
+      "person": "machine-gun-kelly",
+      "date": "2026-08-16",
+      "units": 47
+    },
+    {
+      "person": "Phoebe-Bridgers",
+      "date": "2026-08-15",
+      "units": 36
+    }
+  ],
+  "n_requested": 8,
+  "noise_floor": {
+    "pairs_compared": 3480,
+    "median": 0,
+    "p90": 0,
+    "p99": 0.008,
+    "max": 0.033
+  },
+  "trip_threshold": 0.04,
+  "tripped": false,
+  "trip_pairs": [],
+  "per_draft_max": [
+    {
+      "person": "Cara-Delevingne",
+      "date": "2026-09-01",
+      "units": 33,
+      "maxScore": 0.033
+    },
+    {
+      "person": "Andrew-Garfield",
+      "date": "2026-10-05",
+      "units": 12,
+      "maxScore": 0.02
+    },
+    {
+      "person": "Freddie-Mercury",
+      "date": "2026-08-29",
+      "units": 39,
+      "maxScore": 0.018
+    },
+    {
+      "person": "mike-faist",
+      "date": "2026-10-15",
+      "units": 9,
+      "maxScore": 0.015
+    },
+    {
+      "person": "Phoebe-Bridgers",
+      "date": "2026-08-15",
+      "units": 36,
+      "maxScore": 0.014
+    },
+    {
+      "person": "jeremy-allen-white",
+      "date": "2026-08-26",
+      "units": 50,
+      "maxScore": 0.014
+    },
+    {
+      "person": "dakota-johnson",
+      "date": "2026-10-09",
+      "units": 6,
+      "maxScore": 0.013
+    },
+    {
+      "person": "machine-gun-kelly",
+      "date": "2026-08-16",
+      "units": 47,
+      "maxScore": 0.012
+    }
+  ],
+  "top_pairs": [
+    {
+      "score": 0.033,
+      "other_person": "Cara-Delevingne",
+      "shared_phrases": [],
+      "target": "[diagnosis] Fours are driven by a need for an identity that is truly their own and to be seen for it.",
+      "other": "[diagnosis] Ask a Type 4 what they want and the honest answer is to be seen accurately."
+    },
+    {
+      "score": 0.025,
+      "other_person": "Cara-Delevingne",
+      "shared_phrases": [],
+      "target": "[diagnosis] then look for a medium that can carry it outside.",
+      "other": "[diagnosis] Delevingne went looking for pain and said so"
+    },
+    {
+      "score": 0.022,
+      "other_person": "Cara-Delevingne",
+      "shared_phrases": [],
+      "target": "[diagnosis] and it gets a full hearing below.",
+      "other": "[diagnosis] It sits on top of an identity problem and it serves one"
+    },
+    {
+      "score": 0.02,
+      "other_person": "Andrew-Garfield",
+      "shared_phrases": [],
+      "target": "[diagnosis] and when a label threatens to flatten that self",
+      "other": "[diagnosis] and when his father's warmth arrived with his success"
+    },
+    {
+      "score": 0.018,
+      "other_person": "Freddie-Mercury",
+      "shared_phrases": [],
+      "target": "[diagnosis] then look for a medium that can carry it outside.",
+      "other": "[counter-typing] and cannot account for a man whose catalog marinates in loss."
+    },
+    {
+      "score": 0.016,
+      "other_person": "Andrew-Garfield",
+      "shared_phrases": [],
+      "target": "[diagnosis] They build an inner world where the real one can live",
+      "other": "[diagnosis] Type 4 builds an identity around what feels missing and the need to express what is inside."
+    },
+    {
+      "score": 0.016,
+      "other_person": "Freddie-Mercury",
+      "shared_phrases": [],
+      "target": "[diagnosis] The usual costs are a chronic sense of being misread and a habit of retreating to the few people who get it right.",
+      "other": "[diagnosis] The people who lived with him left plenty."
+    },
+    {
+      "score": 0.015,
+      "other_person": "mike-faist",
+      "shared_phrases": [],
+      "target": "[diagnosis] the three types organized around shame.",
+      "other": "[diagnosis] whose core emotion is shame."
+    },
+    {
+      "score": 0.015,
+      "other_person": "Freddie-Mercury",
+      "shared_phrases": [],
+      "target": "[diagnosis] The usual costs are a chronic sense of being misread and a habit of retreating to the few people who get it right.",
+      "other": "[diagnosis] Mercury retreated to Garden Lodge with his cats and a circle small enough to count on one hand"
+    },
+    {
+      "score": 0.014,
+      "other_person": "Phoebe-Bridgers",
+      "shared_phrases": [],
+      "target": "[diagnosis] Schafer has spent her life making an inner self visible through art",
+      "other": "[diagnosis] inside a child who expected music to become her life and started building toward it."
+    },
+    {
+      "score": 0.014,
+      "other_person": "jeremy-allen-white",
+      "shared_phrases": [],
+      "target": "[diagnosis] In a Four that shame looks less like embarrassment than a running comparison between the person inside and the person the world reflects back.",
+      "other": "[diagnosis] Recognition can satisfy a Four and still sting when it attaches to a version of the person that feels flattened"
+    },
+    {
+      "score": 0.013,
+      "other_person": "mike-faist",
+      "shared_phrases": [],
+      "target": "[diagnosis] Fours are driven by a need for an identity that is truly their own and to be seen for it.",
+      "other": "[diagnosis] A Type 4 wants to be himself and be seen that way"
+    }
+  ]
+}

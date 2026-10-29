@@ -404,7 +404,7 @@ Type 7s often have the most visible escape patterns — and paradoxically, some 
 
 Type 7s are running from pain. All of them. Always.
 
-The enthusiasm is real, but it's also a defense mechanism. Stay stimulated, stay moving, stay planning the next thing, and you never have to feel the grief, the loss, the darkness underneath. Every addiction provides either distraction or euphoria. Both serve the same purpose: escape.
+The enthusiasm is real, but it's also a defense mechanism. Stay stimulated, stay moving, [stay planning the next thing](/enneagram-corner/why-the-next-thing-wont-fix-it-type-7), and you never have to feel the grief, the loss, the darkness underneath. Every addiction provides either distraction or euphoria. Both serve the same purpose: escape.
 
 Type 7s often struggle with multiple addictions simultaneously, making [crisis management skills](/enneagram-corner/mental-health/enneagram-crisis-management-guide) particularly important when consequences from various escape behaviors pile up.
 

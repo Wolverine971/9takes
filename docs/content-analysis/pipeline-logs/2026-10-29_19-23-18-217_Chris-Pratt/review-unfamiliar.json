@@ -1,0 +1,86 @@
+{
+	"schema_version": 3,
+	"role": "unfamiliar",
+	"content_sha256": "d10f7dda031a772de838286f895271512211f574a2ed42796026e0dc37e918a9",
+	"evidence_sha256": "29134fd4f1fdd151a93238265782ce60cb6eafd996ced53f69470a9c8230356b",
+	"risks": {
+		"sensitive_allegations": true,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": false
+	},
+	"findings": [
+		{
+			"id": "unfamiliar-1",
+			"severity": "major",
+			"passage": "Andy was one of the happiest characters on network television, and Pratt calls that happiness an image he was casting, then trades it away in two short sentences.",
+			"problem": "The hook misattributes the article's founding quote. In GQ's context (recorded in src-gq-2015), Pratt was answering why Anna Faris may have preferred him heavier. He was describing himself off screen ('I was more fun to be around'), not Andy's on-screen happiness. A cold reader has just met Andy in the first paragraph, so they come away thinking Pratt dismissed the character's joy as fake. He didn't say that, and the claim would be weaker anyway, since playing a happy character is just acting. The article's own sharpest point ('managing the impression when no camera is running') needs the line to be about life off camera, so this conflation buries the best evidence in the opening. The next sentence stretches the same way: 'fun is also something he learned to sell', when the 2026 quote has him selling 'your attitude'.",
+			"acceptance_test": "Paragraphs 1-3 make clear that the 'image' Pratt described was his off-screen self during his heavier Parks years (how he was at home and to be around), with Andy only as the role he was playing then. The sales sentence uses his word, 'attitude', or marks 'fun' as the author's gloss. A reader who stops after the third paragraph can correctly say what Pratt called an image he was casting."
+		},
+		{
+			"id": "unfamiliar-2",
+			"severity": "major",
+			"passage": "The fun persona paid until it cost him a role. Then he dropped it, and by his own description much of the fun went with it.",
+			"problem": "The weight story is told as a one-way trade: fat-guy persona, Moneyball rejection, dropped for good. A cold reader can't square that with the article's own dates (Andy ran to 2015) or with the type-7 FAQ line 'gave up the fun Andy Dwyer persona for years of dieting once it cost him a role'. The record shows swings, not one trade. The Wikipedia source already in the evidence set (opened by this reviewer on 2026-10-29) says he regained the weight lost for Moneyball for the comedy 10 Years (2011) and lost it again for Zero Dark Thirty (2012), while still playing Andy. The discriminator bullet 'then traded it for running and crash diets once it cost him a role' has the same compression. A reader who knows Parks will distrust the type argument at its key bullet. A reader who doesn't will learn a false sequence. Told accurately, the record may still fit the 3 reading (his body followed whichever role was on offer).",
+			"acceptance_test": "The body paragraph, the Type 7 discriminator bullet, and both FAQ answers that touch it ('Is Chris Pratt a Type 7?' and 'Why did Chris Pratt gain and then lose weight?') show the weight changing role by role while he kept playing Andy: lost for Moneyball, regained for a comedy, lost again for Zero Dark Thirty and Guardians. A source is linked at the passage. No sentence says he gave up Andy or the persona in one move after Moneyball."
+		},
+		{
+			"id": "unfamiliar-3",
+			"severity": "minor",
+			"passage": "Following the people who see something in him reads more like [Type 9](/enneagram-corner/enneagram-type-9), the Peacemaker, and so does \"too much of a people pleaser.\"",
+			"problem": "A third type shows up in the second-to-last section and is never resolved. The type answer and every FAQ name Type 7 as the only alternative. A cold reader now can't tell whether 9 is a stronger rival than 7, a shading of the portrait, or just a caveat, and nothing explains why it doesn't displace 3. Orientation slips just when the reader expects the case to close.",
+			"acceptance_test": "One or two sentences place Type 9 explicitly, either as a live secondary reading or with the specific evidence that keeps it below 3 (for example the 'I'll be famous' forecast, the self-imposed crash diets, or the rehearsed 'Would people like me?'). The type answer and FAQs stay consistent with that placement."
+		},
+		{
+			"id": "unfamiliar-4",
+			"severity": "minor",
+			"passage": "he showed success in its place until a friend saw through it and bought him a ticket to Maui.",
+			"problem": "'Saw through it' is the author's gloss, and it lands in the anecdote the article calls 'the clearest case'. In the 2026 Not Dead Yet audio, Pratt says a friend who lived in Hawaii saw him and told him, roughly, that he didn't look good and seemed off. Pratt adds that he was partying a lot and slipping down the wrong path. The friend noticed his state; nothing says he saw through the cover story. The sourced version is more vivid and gives the reader the actual scene.",
+			"acceptance_test": "The sentence reports what Pratt says the friend noticed (as a paraphrase, or quoted only after a second transcription checks the segment) and links the podcast. 'Saw through it' is removed or labelled as inference."
+		},
+		{
+			"id": "unfamiliar-5",
+			"severity": "minor",
+			"passage": "Maui, told three ways",
+			"problem": "The heading promises three tellings but the section gives two (The Independent 2014 and Vanity Fair 2017), then moves on to the two rescues. A reader who counts feels short-changed, and the FAQ anchor `maui-told-three-ways` repeats the promise. The material for a third telling is already in the evidence: SmartLess 2022 (caption-only, 'just having a good time with my friends') and the 2026 Not Dead Yet account of 'slipping down the wrong path'.",
+			"acceptance_test": "The section presents three distinct, dated, sourced tellings (caption-only material paraphrased), or the H2 and FAQ anchor are renamed to match what the section delivers."
+		},
+		{
+			"id": "unfamiliar-6",
+			"severity": "minor",
+			"passage": "Self-promotion took a push.",
+			"problem": "The underwear-photo anecdote sits in the Type 3 evidence section with no signal of which way it cuts. The Feige payoff makes it read as image strategy that worked. Only in 'What the type doesn't explain' does the reader learn it counts against the 3 reading ('the reluctance about the photo'). The same section then ends with Faris's 'imagery' remark, which concerns private life, not auditions. The back half becomes a run of topic-sentence paragraphs ('The wish to be liked was rehearsed', 'Self-promotion took a push', 'One line touches his private life'), and momentum dips just before the Type 7 section. This is also the natural place to trim: the body is about 3,800 words against a 2,000-3,500 target.",
+			"acceptance_test": "At first mention, the photo anecdote says which reading it supports, or it moves to the counterevidence section. The Faris line sits with the other off-camera evidence (next to the hidden sales failure, or in the limits paragraph). Every remaining paragraph in the section advances the auditioning-as-selling thread."
+		},
+		{
+			"id": "unfamiliar-7",
+			"severity": "minor",
+			"passage": "His faith has cost him with the mainstream audiences an image manager would court.",
+			"problem": "The faith section opens by stating the cost as fact in the author's voice. The support that follows is Pratt's own belief that the 2018 speech 'helped light' the online hostility, plus a meme that ranks him against other Chrises. A cold reader takes the cost as established before learning it is his interpretation. The paragraph after next then quotes the skeptical reading (one framing per audience), which the opening sentence has already ruled out.",
+			"acceptance_test": "The cost is attributed ('by his account', 'he believes') or backed by evidence beyond his self-report, and the section's opening claim is no stronger than what the section shows."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "Little brothers copy big brothers in every type. What stands out is what the boy wanted, in the man's telling: the effect. A room knocked out, and his mother in tears.",
+			"reason": "Takes an ordinary anecdote, concedes the generic reading, then finds the specific detail (the effect on the room, his mother crying) that makes it about him. It gives a cold reader the insight in nine words, without jargon."
+		},
+		{
+			"passage": "What happened next matters most for typing, because no camera was involved.",
+			"reason": "A one-line signpost that tells an unfamiliar reader why this anecdote outweighs the rest. It sets up the article's method (off-camera evidence counts most) at the right moment."
+		},
+		{
+			"passage": "A Seven gets bored. A Three gets restless without a goal. In Pratt's version, the boredom sends him back to work.",
+			"reason": "Turns the bird-hunting joke into a test a non-expert can follow, and admits the exchange cuts both ways before deciding it. This is the clearest plain-language discriminator in the piece."
+		},
+		{
+			"passage": "Other people make his biggest moves. His mother bought the ticket home, a friend the ticket to Maui, and a stranger took him to church.",
+			"reason": "Counterevidence told as a pattern the reader can check against the story they have just read. It gives the portrait a person the type doesn't neatly explain."
+		},
+		{
+			"passage": "It is also the 2015 move in reverse. Eleven years after \"Now I have less fun. I focus more,\" the fun is back on the plan, chosen in a meeting by a man who learned as a teenage salesman that the attitude is part of what you sell.",
+			"reason": "The ending ties the hook and the sales origin together without restating the thesis. 'In a meeting' checks out: Pratt says on Not Dead Yet that he 'had a meeting with my manager and agent recently'."
+		}
+	],
+	"assessment": "Orientation is strong. The second paragraph has a cold reader knowing who Pratt is (Andy, Star-Lord, Owen Grady). The type section names the rival and gives the discriminator in plain words: when fun and image split, which does he keep? Momentum mostly holds because each H2 opens a new period of his life (sales, Maui, father, the weight, the audition, faith, the counter-pattern) instead of repeating the thesis, and the comedy-meeting ending pays off the hook. A reader with no prior knowledge learns specific, memorable things: PMA equals OPM, the hidden sales failure, the weight as a business plan, Gunn's 'juggle to entertain everybody', faith that costs him, and other people making his biggest moves. The main risks to that reader are two misleading framings they cannot correct themselves. First, the hook turns Pratt's remark about his off-screen self into a remark about Andy (unfamiliar-1). Second, the weight story compresses a role-by-role swing into one trade, which contradicts the article's own Parks dates (unfamiliar-2). Smaller issues: Type 9 is left unresolved, one heading promises three tellings and delivers two, and the audition section loses momentum where it is also slightly over length. The similarity diagnostic did not trip (max 0.06, against Dhar Mann's diagnosis sentence). The match is ordinary Type 3 vocabulary ('becoming what earns approval'), not a reused argument, and the 3-vs-7 test here rests on Pratt-specific evidence. Risk flags: sensitive allegations (the Elliot Page church criticism, the Daily Beast 'lying' headline, his father's untreated MS, the divorce) and contested typing (medium confidence, with 7 and 9 both live)."
+}

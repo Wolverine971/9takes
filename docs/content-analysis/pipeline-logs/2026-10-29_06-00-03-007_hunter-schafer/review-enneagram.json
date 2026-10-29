@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "enneagram",
+  "content_sha256": "8d021edec0f65c80e2001a16c661a16d036d8bfce1912c3169b1add839bc42a0",
+  "evidence_sha256": "096b49611f9e415728dd897eb54bd612af13f28c1a40157459014777e6e7ecb9",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "enneagram-01",
+      "severity": "major",
+      "passage": "The discriminator is where she locates the self. When identity collided with expectation, with her parents in 2013, with her community in 2022, and with her own earlier ideology in 2025, she revised toward what felt true to her and took the cost each time. A Three revises toward what works.",
+      "problem": "The load-bearing discriminator is built on three instances and only one of them fits the stated pattern. The 2022 episode was not a revision toward a felt truth at a cost: per the body and C41 she clarified that she had agreed with one point and denied the label (\"I am not a trans medicalist\"), which de-escalated and reduced the cost. The body's own description (\"She did not apologize and she did not double down. She narrowed the claim to what she meant\") is accurate and contradicts this summary. The 2013 instance is a transition disclosure most trans teens make regardless of type; the record's own alternative in C03 says the persistence \"could equally be read as plain necessity.\" On the 2025 instance the closing line cannot cut: when the domain is her own body, what works for her life and what felt true are the same decision, so \"a Three revises toward what works\" separates nothing. The 2016 to 2024 label reversal in the hook, and the 2025 abandonment of a self-concept she had kept because it was \"cool and badass\" for a truer one, are the two instances that actually show revision against a watching audience.",
+      "acceptance_test": "The discriminator paragraph either names instances that each show a revision toward a felt truth made in front of an audience with the cost stated and sourced (the hook's label reversal and the 2025 \"cool and badass\" self-concept qualify), or drops the three-instance list and states the discriminator as a comparison of what she makes and why (see enneagram-02). The 2022 episode is not described as a revision or as a cost accepted anywhere in the article."
+    },
+    {
+      "id": "enneagram-02",
+      "severity": "major",
+      "passage": "A Three tends to experience the admired image as the self and to measure worth by reception. Schafer calls the image drag and keeps it apart for her sanity. She says she gains nothing from fame and would trade it for the money. She measures work against \"the artistic truth of it\" before anyone sees it, and treats criticism as a sign that the work matters. She has turned down a flattering label for eight years and a career-making role for a month. And she keeps asking whether the career is even hers, which a Three fused with success does not usually do at the top of a decade-long run.",
+      "problem": "The strongest alternative is argued against the textbook Three only. The Three her own statements fit is the disidentified, impostor-prone one who keeps a work self and a home self, calls the persona a costume, and privately asks whether the jig is up (\"Is this it? Is the jig up?\" S39; \"I try to be good enough\" S01; \"something I had to prove to myself\" S27; \"the training wheels are off\" S25; the first modeling check experienced as \"validation,\" C11, which the article omits). Every sentence in this passage is compatible with that Three, including the fraud doubt the final sentence treats as disqualifying; fraud doubt is common in Threes, not rare. The two refusals offered as costs are weak as costs: declining typecasting is also the range-maximizing move for an actress already in demand, and the Blade Runner refusal lasted a month and ended in the lead. The section rests on where she says validation lives, which the article itself concedes is self-report in a genre that rewards it. The record holds a behavior-based discriminator the section never uses: across six years she explains her making as filling an absence and getting release, never as landing (\"Whatever was not in my direct vicinity that I needed in order to feel fulfilled, I tried to create,\" S14, 2018; \"fiending for that sort of catharsis,\" S18, 2021; \"a reason to live,\" S01, 2024; \"what I was put on this earth to do,\" S05, 2024; \"get cozy in the grossness\" for crying scenes, S38, 2026). A Three's account of making is organized around what will work; hers is organized around what was missing.",
+      "acceptance_test": "The Why not Type 3 section states the disidentified-Three reading in one or two sentences and then names at least one observable that separates it from Four, drawn from what she makes and why rather than from where she says validation lives; the S14 world-building line or the catharsis thread appears in that argument, and the modeling \"validation\" remark is admitted into the Three case. The clause \"which a Three fused with success does not usually do\" is removed or rewritten so it no longer treats impostor doubt as anti-Three evidence."
+    },
+    {
+      "id": "enneagram-03",
+      "severity": "major",
+      "passage": "**Type 6** fits the \"safety net,\" the \"training wheels,\" and the recurring \"Am I meant to be doing this?\" But her doubt is about meaning, not safety. She asks what she was \"put on this earth to do,\" and she said no to the biggest job of her career until she believed in it.",
+      "problem": "\"Not safety\" is refuted by a sourced line in the record. She describes her whole perception strategy as \"I need to keep infiltrating to the point where I feel safe enough in this world to do whatever I want\" (S26, Vogue, August 2024, recorded under C23), and the record adds \"I have to be in control and decide how to survive this\" (S01), \"fight or flight\" and \"in a cage\" (S05), and the middle-school resolution \"if I find my circle I can be myself and I'll be okay\" (C06). The second anti-Six instance also cuts the other way: declining a major offer until the producers showed her the plan, with the showrunner calling her \"a tough sell\" and Schafer saying \"as soon as she showed me everything... easy. Done.\" (S36), is skepticism-until-shown, which is Six behavior as much as conviction. The Six is dismissed on a claim her own words contradict.",
+      "acceptance_test": "The Type 6 paragraph quotes or paraphrases the \"safe enough\" line and gives one sourced reason it still reads Four (for example, that the safety she pursues is a platform for unconstrained self-expression rather than belonging or guidance, and that she has repeatedly chosen exposure over cover from the 2016 lawsuit onward), or the words \"not safety\" are removed. The Blade Runner holdout is not used as anti-Six evidence."
+    },
+    {
+      "id": "enneagram-04",
+      "severity": "major",
+      "passage": "**Type 9** fits \"riding the wave,\" the admission that she \"went where people told me to go,\" and the way she dissolved into Jules in season one. It fails on what she did next: she named the passivity as the problem and drove across the country to end it.",
+      "problem": "One counter-instance, a self-care decision any type might make in a crisis, is asked to dismiss a reading the record keeps feeding after 2020: \"down for the ride and not trying to push back\" (2026), \"My job as an actor is to show up and do my job\" about Jules's diminished ending (2026), and \"I'm not interested in trying to convince them anymore... I'm going to be over here with people I love\" (2024), which the article reads as Four-protective but is equally Nine withdrawal from conflict. The research record's own against-list adds that she does not cultivate specialness, rejects labels that hint at exceptionalism, calls every break an \"opportunity,\" and is described as sunny, calm, light and unbothered; Bivens's \"selflessness that helps her get into the character\" (C21) points the same way. The draft already holds the stronger anti-Nine evidence and does not deploy it: a toddler-to-adult record of differentiating against resistance (three coming-out attempts, \"stuck out like a sore thumb,\" \"I have never been able to really help but be who I am\") and a stated craving for intensity (\"fiending for that sort of catharsis\") rather than numbing it. Nines forget themselves to stay merged; her record is of a self that would not stay hidden when hiding was safer.",
+      "acceptance_test": "The Type 9 paragraph names the self-differentiating versus self-forgetting discriminator with at least one sourced instance from before 2020 and one from after, and does not rest on the truck drive alone. The \"people I love\" withdrawal is acknowledged as Nine-compatible where it appears or in this paragraph. The same what-she-makes-and-why discriminator from enneagram-02 may carry this, so one compact rewrite can resolve both."
+    },
+    {
+      "id": "enneagram-05",
+      "severity": "minor",
+      "passage": "and when a label threatens to flatten that self, she pays real costs to resist it.",
+      "problem": "The article does not show a clear cost paid for resisting a label, and this clause sits in the 60-word answer and is repeated in the type FAQ. Turning down trans roles is also the range-maximizing move; declining \"activist\" lowers her obligations, and she names the guilt that goes with that (S01); the 2022 clarification reduced the cost rather than accepting it. The one documented cost of asserting identity against an audience is 2013 to 2016 (parental resistance, depositions and public exposure at 17), which concerns transition rather than a label.",
+      "acceptance_test": "The type answer and the type FAQ either name one specific, sourced cost she accepted to avoid being reduced to a label, or the clause is softened to what the article shows (for example, that she resists the label even when carrying it would help her)."
+    },
+    {
+      "id": "enneagram-06",
+      "severity": "minor",
+      "passage": "Here the Type 3 reading gets its best material, and she supplies it. Asked by [ELLE](https://www.elle.com/culture/movies-tv/a74133846/hunter-schafer-blade-runner-2099-interview-2026/) in 2026 who is cool, she named Fran Lebowitz, Björk and Patti Smith.",
+      "problem": "The quote is filed only as Three evidence. Its structure is the Four's characteristic move: idealize others for a quality she feels she lacks, then devalue herself by comparison (\"It's not cool at all\"). A Three who thinks about perception all the time more often reframes it as competence; the self-deprecating comparison to an idealized other is the envy mechanism the article never tests for anywhere, although it recurs in her first reading of being cheated on as a deficiency in herself (\"Oh my God, like, is this it?\") and in making what was \"not in my direct vicinity\" (S14).",
+      "acceptance_test": "Where the quote appears or in the Why not Type 3 section, one or two sentences name the comparison-and-self-devaluation structure as evidence that cuts toward Four, so the quote is no longer presented as Three material only."
+    },
+    {
+      "id": "enneagram-07",
+      "severity": "minor",
+      "passage": "She is unusually unbothered by misperception for a type supposed to feel it acutely; she says she is \"totally cool\" with being called a man. She frames that as hardening after years of exposure.",
+      "problem": "The article concedes a counterexample to its own stated mechanism (\"a running comparison between the person inside and the person the world reflects back\") when the record supports a more precise claim. What she dismisses is hostile strangers' misgendering, which she assigns to the other person, the same move as \"cheating has nothing to do with you.\" What she objects to, in 2016 (WUNC), in 2024 (\"Transsexual Actress before every article\") and in the Method refusal, is being reduced by people who are actually looking: a reporter, an industry, a community. Left as written the paragraph implies the Four mechanism is absent; distinguished, it is the mechanism.",
+      "acceptance_test": "The paragraph states whose misperception she tolerates and whose she does not, with one sourced instance of each, and presents \"hardening\" as her framing rather than as the resolution of the contradiction."
+    },
+    {
+      "id": "enneagram-08",
+      "severity": "minor",
+      "passage": "They came back in June, after a month of failing to cast the part, and showed her what they wanted to build.",
+      "problem": "\"after a month of failing to cast the part\" is not in the evidence record: the S27 excerpt and context, S36 and C37 say producers approached in spring 2024, she declined, and they returned in June and showed her the world; none says the part had gone uncast. The clause strengthens the principled-holdout reading over the negotiating-leverage alternative the record itself names (C37), so it bears on the type argument. This reviewer did not reopen the Rolling Stone source and cannot confirm or refute the clause.",
+      "acceptance_test": "The clause is traced to a sentence in an opened source and recorded in the claim inventory, or it is removed."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Read fast, that is a reversal. Read slowly, it is the same complaint. At 17 the label that flattened her was \"cis girl.\" At 25 it was \"trans actress.\" The content changed. The objection to being reduced to a category before anyone looked did not.",
+      "reason": "The strongest piece of type evidence in the article: one motive held constant across a reversal of position over eight years, which neither a Three (who would keep the label that paid) nor a Nine (who would accept whichever label the room offered) predicts. It is pattern evidence, not vocabulary."
+    },
+    {
+      "passage": "On this reading, the line she guards is not between herself and a role but between the self she built and anything that could overwrite it. Jules was made from the same material, so Jules was allowed in.",
+      "reason": "Reconciles the Method refusal and the Jules merger with one motive, labels itself as a reading, and does so without a wing or arrow. This is the kind of counterevidence integration the standard asks for."
+    },
+    {
+      "passage": "A Four who does not perform melancholy is still a Four, but the affect does not match the self-reports.",
+      "reason": "Lets the central contradiction stand instead of explaining it away with a wing, subtype or line of integration. Keep the sentence and the refusal to resolve it."
+    },
+    {
+      "passage": "She holds two opposite postures without resolving them. \"I can't just wing this shit. I really have to be intentional about the way I'm moving in the world,\" she told GQ in 2024. By 2026 she was \"down for the ride and not trying to push back against it, or self-sabotage.\" Both halves are hers.",
+      "reason": "An unresolved, dated contradiction that survives the type argument; exactly what distinguishes a portrait from a type profile. enneagram-04 asks that the Nine paragraph acknowledge the second half, not that this passage change."
+    },
+    {
+      "passage": "The surgery is not evidence of anything about her type. Her reasoning is.",
+      "reason": "Draws the inference boundary correctly on the most sensitive fact in the article: a medical decision is not type evidence, a stated reason can be. Removing or softening it would make the section either exploitative or empty."
+    }
+  ],
+  "assessment": "Type 4 is a defensible leading read and medium confidence is the right level. The hook's eight-year label reversal, the world-building-from-absence thread (crayons, garments as journal entries, the Jules special), the catharsis craving and the lifelong refusal to be anyone but herself against resistance all point the same way, and the article uses no wings, arrows or subtypes to explain away what does not fit. The weakness is in how the rivals are beaten. The declared discriminator (where she says validation lives) is self-report in a genre that rewards it, as the article concedes, and its three-instance pattern has one instance that does not match (2022) and one on which the Three-versus-Four line cannot cut (2025). The Three is argued against its textbook form rather than the disidentified, impostor-prone Three her own words fit; the Six is dismissed with a claim (\"not safety\") her own \"safe enough\" line refutes; the Nine is dismissed on one counter-instance while the record's against-list keeps feeding it. The record already contains a stronger, behavior-based discriminator the article never states: across 2018 to 2026 she explains her making as filling an absence and getting release, never as landing, and she seeks intensity rather than numbing it. That one argument separates Four from Three (who makes what will work), from Nine (who numbs rather than craves) and, with the \"safe enough\" line handled, from Six. Fixing enneagram-01 through 04 is one compact rewrite of the discriminator and the Why not Type 3 section, not a new thesis. Similarity diagnostic: not tripped (max 0.033 against a 0.04 threshold); the top pairs are ordinary type vocabulary (\"to be seen,\" heart triad, shame), and the one reusable block, the four-sentence Four-mechanism paragraph, is tailored enough to this subject that I do not raise a reuse finding. Risk flags: sensitive_allegations carried from research (the infidelity statement about a named living person); contested_typing set to true by this review because the Three alternative has substantial first-person material, the discriminator rests on self-report, and Nine and Six remain live on the record's own against-list. This reviewer did not reopen sources; one factual clause (enneagram-08) is flagged as untraceable in the record rather than verified false."
+}

@@ -3,6 +3,7 @@ title: 'What Enneagram Type Are Most CEOs? Data From 80 Business Profiles'
 meta_title: 'What Enneagram Type Are Most CEOs? Type 5, by the Data'
 description: "Of 46 founders and CEOs 9takes has profiled, 14 are Type 5, over three times the type's sitewide share. See the counts, the names, and the limits."
 author: 'DJ Wayne'
+pic: 'what-enneagram-type-are-most-ceos'
 date: '2026-10-07'
 loc: 'https://9takes.com/enneagram-corner/what-enneagram-type-are-most-ceos'
 lastmod: '2026-10-07'
@@ -29,8 +30,10 @@ Data provenance (recompute before citing new numbers):
   Add Vivek Ramaswamy + Jared Kushner to the CEO set -> Fives 14, Threes 13 (n=48). Founder + hired only (n=36) -> Fives 14, Threes 5.
   CEO set + investors (n=61) -> Fives 17, Threes 13. Binomial P(>=14 Fives | n=46, p=38/451) ~ 1.6e-5.
 
-Hero image: none yet (the page renders without `pic`). Prompt for DJ to run in ChatGPT, then
-`node scripts/blog-image-variants.mjs what-enneagram-type-are-most-ceos <image>` and set pic: 'what-enneagram-type-are-most-ceos'.
+Hero image: generated with built-in imagegen on 2026-10-29.
+Master: source-assets/blogs/what-enneagram-type-are-most-ceos.png
+WebP hero and thumbnail: static/blogs/what-enneagram-type-are-most-ceos.webp and static/blogs/s-what-enneagram-type-are-most-ceos.webp.
+Full generation prompt: source-assets/blogs/what-enneagram-type-are-most-ceos.prompt.txt
 Concept: everyone expects the orator to lead; the line forms at the quiet scholar's door.
 Prompt:
 A cinematic widescreen 16:9 photograph that fills the entire frame edge to edge (no borders, no letterboxing). Subject: classical Greek marble statues; the crowd is expected to follow the orator, but the line forms at the quiet scholar's door.
@@ -269,7 +272,7 @@ For how each type tends to lead once they're in the chair, our [guide to Enneagr
 
 **These are our typings, not test results.** Nobody here took a test for us. Each profile is 9takes' reading of the public record: interviews, decisions, writing. If our writers tend to read privacy and analytic distance as Type 5, engineers will come out as Fives, and we can't rule that out from inside our own numbers. The wider debate about what typing can and can't support is in our look at [the strongest criticisms of the Enneagram](/enneagram-corner/enneagram-criticisms).
 
-**The groups are judgment calls.** Vivek Ramaswamy founded and ran Roivant. Jared Kushner ran his family's real-estate company. Both are Threes, and we filed both under business-adjacent because politics now dominates their public record. Move them into the CEO set and Fives lead by one, 14 to 13.
+**The groups are judgment calls.** Vivek Ramaswamy founded and ran Roivant. [Jared Kushner](/personality-analysis/jared-kushner) ran his family's real-estate company. Both are Threes, and we filed both under business-adjacent because politics now dominates their public record. Move them into the CEO set and Fives lead by one, 14 to 13.
 
 **Small numbers move.** With 46 people, one retyping shifts a share by about two points. The Five surplus is big enough to survive a few retypings. The gap between Fives and Threes isn't.
 
@@ -327,7 +330,7 @@ Data pulled October 7, 2026, from the 451 published profiles on 9takes. The busi
 **Investors (15)**
 
 - Type 1: Michael Seibel
-- Type 3: Chamath Palihapitiya, Jason Calacanis
+- Type 3: Chamath Palihapitiya, [Jason Calacanis](/personality-analysis/jason-calacanis)
 - Type 5: Marc Andreessen, Ray Dalio, Warren Buffett
 - Type 6: Ben Horowitz, Dalton Caldwell, David Sacks, Garry Tan, Joe Lonsdale, Peter Thiel
 - Type 7: Cathie Wood, Paul Graham, Reid Hoffman

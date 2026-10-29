@@ -1,0 +1,19 @@
+The verify-edit stage is complete. Nothing else is needed; here is the outcome.
+
+**Verdict: revise.** The candidate is strong and nearly release-ready, but it carries one factual error the edit stage introduced, so I did not pass it.
+
+**What I verified**
+
+- Every one of the 145 quotations in the body and metadata re-matched against the cached page texts, caption tracks and Whisper audio segments, and I re-read the surrounding context in all 43 used sources. Speaker, date and framing hold everywhere, including the sensitive passages: she does not name Fike on the podcast, Seventeen's full quotation of her 2022 comment contains no apology, and the surgery disclosure is her own words.
+- All 49 jury decisions check out against their acceptance tests, including the one rejection (Rolling Stone does say producers spent "more than a month" failing to cast the role). All 15 protected passages are preserved; the five that changed kept their contribution.
+- Hashes, claim passages, metadata, the Type 3/9/6 adjudication and the five-year test all pass. Coverage is complete.
+
+**The blocking finding**
+
+The childhood section says she came out as transgender in ninth grade, "the 2012-13 school year." That year was derived from Rolling Stone's compressed "at age 14, attending her last day of her freshman year." But she graduated high school in 2017, which three opened sources establish (NYT 2018, GQ's senior-year-in-March-2017, HuffPost's April 2017 senior thesis). So ninth grade was 2013-14. She turned 14 on December 31, 2012, was 14 that fall, and 15 by the last day of freshman year. The fix is one year in one sentence, plus softening two "14-year-old finishing freshman year" phrasings that repeat Rolling Stone's compression.
+
+**Three minor findings** ride along for the same repair pass: an OC Register reporter's paraphrase ("can be a bit unsettling") is set in quotation marks as her words; "Twenty years later" and "her first film" are unsupported precision; and the body sits at 4,423 words after a round every reviewer asked to be net cuts.
+
+**Scores** (overall computes to 8.5, B+): evidence 8.5, Enneagram 8.4, originality 8.4, writing 8.3, durability 8.6, hook 9.0, discoverability 8.5. Each clears its floor, so once the date is corrected the piece should pass on reverification.
+
+**Files:** only `verification-edit.json` was written in the run directory. The memory note for this run was updated with the outcome and a trap worth remembering: check any derived school year against the graduation year, not just the birth date plus one outlet's age.

@@ -1,0 +1,37 @@
+Verify-repair stage complete. The repaired Hunter Schafer candidate passes independent verification, and the only new file written is the requested `verification-repair.json` in the run directory.
+
+**Outcome**
+
+- Status is `pass`. The repo's own release check (`assessEditorial`) run against the candidate, evidence, six reviews, resolution and this verification returns eligible with zero blockers.
+- The one major finding from the previous verify stage is fixed correctly. I re-derived the school year from the opened sources myself: WUNC calls her a junior in May 2016 who transitioned her freshman year, the Times says she graduated in 2017, and HuffPost calls the April 2017 garments her senior thesis. That puts ninth grade in 2013-14, and dropping the age from both skirt sentences is right because she was 14 in the fall and 15 on the last day.
+- The three minor fixes also hold against the cached text: the OC Register line is the reporter's paraphrase, Variety and Rolling Stone support "the first film she shot", and ELLE gives no age for the birthday memory.
+
+**What I checked**
+
+- All 144 quoted spans in body and metadata matched the cached page texts, caption tracks and Whisper audio segments, with zero misses.
+- All 43 used sources were reopened at the cited passages. The arrest reports support "inside 30 Rockefeller Plaza" and Monday, February 26, 2024. The hashes in the request match the files on disk via the repo's `editorialHash`.
+- All 53 editor decisions were accepted, including the rejection of enneagram-08 (Rolling Stone does say "more than a month attempting to cast the role") and the partial on the word-count ask, which I accepted because the structural cuts were made and the remaining length is jury-requested sourced material. All 15 protected passages are preserved.
+
+**Scores**
+
+| Dimension | Score |
+| --- | --- |
+| Evidence | 8.7 |
+| Enneagram | 8.4 |
+| Originality | 8.6 |
+| Writing | 8.3 |
+| Durability | 8.7 |
+| Hook | 9.0 |
+| Discoverability | 8.6 |
+| Overall | 8.6 (B+) |
+
+**Four minor findings recorded for the next edit, none blocking**
+
+- "each the flattering one at the time" overstates; the record supports "the one that paid".
+- The quoted "!!!!!" appears only in the Wikipedia article, not in Out or Seventeen, which are the sources named at the passage.
+- Katy Schafer is named before being introduced as the mother.
+- The "only shared writing credit" sentence is true, but the record's season tables omit the specials. I opened the Euphoria specials page and confirmed the Rue special is credited to Levinson alone. That page should be added to the evidence record at the next edit.
+
+**What's next**
+
+Editorial eligibility is not publication. The page still needs a hero image and DJ's release decision under the existing publishing flow. I updated the project memory note so the next session knows the run is at pass and what the four open minor items are.

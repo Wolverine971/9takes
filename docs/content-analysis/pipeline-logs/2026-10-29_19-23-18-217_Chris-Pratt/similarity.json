@@ -1,0 +1,197 @@
+{
+  "target": {
+    "person": "chris-pratt",
+    "type": "3",
+    "units": 12,
+    "file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_19-23-18-217_Chris-Pratt/draft.md"
+  },
+  "comparison_set": [
+    {
+      "person": "dhar-mann",
+      "date": "2026-10-27",
+      "units": 11
+    },
+    {
+      "person": "sombr",
+      "date": "2026-10-26",
+      "units": 9
+    },
+    {
+      "person": "madonna",
+      "date": "2026-10-13",
+      "units": 34
+    },
+    {
+      "person": "codie-sanchez",
+      "date": "2026-10-10",
+      "units": 7
+    },
+    {
+      "person": "greg-brockman",
+      "date": "2026-10-07",
+      "units": 12
+    },
+    {
+      "person": "tiger-woods",
+      "date": "2026-10-04",
+      "units": 10
+    },
+    {
+      "person": "ben-shelton",
+      "date": "2026-09-20",
+      "units": 9
+    },
+    {
+      "person": "Jonathan-Bailey",
+      "date": "2026-09-01",
+      "units": 33
+    }
+  ],
+  "n_requested": 8,
+  "noise_floor": {
+    "pairs_compared": 1500,
+    "median": 0,
+    "p90": 0,
+    "p99": 0.011,
+    "max": 0.06
+  },
+  "trip_threshold": 0.044,
+  "tripped": false,
+  "trip_pairs": [],
+  "per_draft_max": [
+    {
+      "person": "dhar-mann",
+      "date": "2026-10-27",
+      "units": 11,
+      "maxScore": 0.06
+    },
+    {
+      "person": "codie-sanchez",
+      "date": "2026-10-10",
+      "units": 7,
+      "maxScore": 0.037
+    },
+    {
+      "person": "Jonathan-Bailey",
+      "date": "2026-09-01",
+      "units": 33,
+      "maxScore": 0.029
+    },
+    {
+      "person": "tiger-woods",
+      "date": "2026-10-04",
+      "units": 10,
+      "maxScore": 0.023
+    },
+    {
+      "person": "madonna",
+      "date": "2026-10-13",
+      "units": 34,
+      "maxScore": 0.021
+    },
+    {
+      "person": "ben-shelton",
+      "date": "2026-09-20",
+      "units": 9,
+      "maxScore": 0.019
+    },
+    {
+      "person": "greg-brockman",
+      "date": "2026-10-07",
+      "units": 12,
+      "maxScore": 0.005
+    },
+    {
+      "person": "sombr",
+      "date": "2026-10-26",
+      "units": 9,
+      "maxScore": 0.002
+    }
+  ],
+  "top_pairs": [
+    {
+      "score": 0.06,
+      "other_person": "dhar-mann",
+      "shared_phrases": [],
+      "target": "[diagnosis] Threes are heart-triad types who handle shame by becoming what earns approval.",
+      "other": "[diagnosis] and they cope by becoming what success looks like to the people watching."
+    },
+    {
+      "score": 0.037,
+      "other_person": "codie-sanchez",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Type 3 reads a room for what will be admired and becomes it",
+      "other": "[diagnosis] On a Type 3 reading she steers by results other people can see and most wants to avoid being the one who failed."
+    },
+    {
+      "score": 0.029,
+      "other_person": "Jonathan-Bailey",
+      "shared_phrases": [],
+      "target": "[diagnosis] which the pranks and appetites make the obvious first guess.",
+      "other": "[diagnosis] make the core type a safe call."
+    },
+    {
+      "score": 0.028,
+      "other_person": "Jonathan-Bailey",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Seven protects the fun and reframes the loss.",
+      "other": "[counter-typing] A Seven under threat escapes sideways into a new option."
+    },
+    {
+      "score": 0.023,
+      "other_person": "tiger-woods",
+      "shared_phrases": [],
+      "target": "[diagnosis] protects the image and pays in fun.",
+      "other": "[diagnosis] Type 3 is organized around being valuable through achievement and the image it earns."
+    },
+    {
+      "score": 0.022,
+      "other_person": "Jonathan-Bailey",
+      "shared_phrases": [],
+      "target": "[diagnosis] from a failed sales job at 19 to the Andy Dwyer years",
+      "other": "[diagnosis] in case a failed one ended up on TikTok."
+    },
+    {
+      "score": 0.021,
+      "other_person": "madonna",
+      "shared_phrases": [],
+      "target": "[diagnosis] which the pranks and appetites make the obvious first guess.",
+      "other": "[diagnosis] I'm going to be somebody.' Nothing could stop me.\" The obvious rival is Type 8"
+    },
+    {
+      "score": 0.019,
+      "other_person": "ben-shelton",
+      "shared_phrases": [],
+      "target": "[diagnosis] Threes are heart-triad types who handle shame by becoming what earns approval.",
+      "other": "[diagnosis] Threes are good at reading what a room rewards and becoming it."
+    },
+    {
+      "score": 0.015,
+      "other_person": "dhar-mann",
+      "shared_phrases": [],
+      "target": "[diagnosis] from a failed sales job at 19 to the Andy Dwyer years",
+      "other": "[diagnosis] and they cope by becoming what success looks like to the people watching."
+    },
+    {
+      "score": 0.014,
+      "other_person": "madonna",
+      "shared_phrases": [],
+      "target": "[diagnosis] Ambition proves little in Hollywood",
+      "other": "[diagnosis] \"I still have to prove.\" Present tense"
+    },
+    {
+      "score": 0.013,
+      "other_person": "Jonathan-Bailey",
+      "shared_phrases": [],
+      "target": "[diagnosis] when fun and looking successful pulled apart",
+      "other": "[counter-typing] because something newer looked more fun."
+    },
+    {
+      "score": 0.013,
+      "other_person": "ben-shelton",
+      "shared_phrases": [],
+      "target": "[diagnosis] when fun and looking successful pulled apart",
+      "other": "[diagnosis] worth nothing apart from the result."
+    }
+  ]
+}

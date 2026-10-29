@@ -1,0 +1,27 @@
+{
+  "schema_version": 3,
+  "subject": "Chris-Pratt",
+  "mode": "create",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_verify_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_19-23-18-217_Chris-Pratt/candidate-edit.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_19-23-18-217_Chris-Pratt/evidence-edit.json",
+    "resolution": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_19-23-18-217_Chris-Pratt/resolution-edit.json",
+    "review-subject": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_19-23-18-217_Chris-Pratt/review-subject.json",
+    "review-fan": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_19-23-18-217_Chris-Pratt/review-fan.json",
+    "review-critic": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_19-23-18-217_Chris-Pratt/review-critic.json",
+    "review-unfamiliar": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_19-23-18-217_Chris-Pratt/review-unfamiliar.json",
+    "review-enneagram": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_19-23-18-217_Chris-Pratt/review-enneagram.json",
+    "review-future": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_19-23-18-217_Chris-Pratt/review-future.json",
+    "baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_19-23-18-217_Chris-Pratt/baseline-reader.md",
+    "checks": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_19-23-18-217_Chris-Pratt/checks-edit.json"
+  },
+  "outputs": {
+    "verification-edit.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_19-23-18-217_Chris-Pratt/verification-edit.json"
+  },
+  "content_sha256": "aaf7b282cb97354f6266f913acf872f69d985494166e4a1b89152b0b2bc5db3e",
+  "evidence_sha256": "109f27ebbbdeb135fa62db48501bc9ded26b1166cdc300a820d75f830ab853cd"
+}

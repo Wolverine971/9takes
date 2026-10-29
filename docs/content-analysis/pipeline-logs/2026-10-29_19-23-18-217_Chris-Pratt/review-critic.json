@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "critic",
+  "content_sha256": "d10f7dda031a772de838286f895271512211f574a2ed42796026e0dc37e918a9",
+  "evidence_sha256": "29134fd4f1fdd151a93238265782ce60cb6eafd996ced53f69470a9c8230356b",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "critic-01",
+      "severity": "major",
+      "passage": "Andy was one of the happiest characters on network television, and Pratt calls that happiness an image he was casting, then trades it away in two short sentences.",
+      "problem": "Pratt's GQ answer is about his own outward fun in the comedy years ('I was outwardly having more fun. I was more fun to be around'), not Andy's happiness; GQ frames it as the 'happy plump man' he played in interviews. The surrounding GQ passage, which the draft omits, has Pratt explain that image as a mask: 'I'm sure I was the first guy in line to buy that line of bullshit', the Chris Farley comparison ('to hide the fact that he didn't feel what he was projecting on the outside. I think that's often the case with comedians'), and GQ's paraphrase that he 'didn't feel too great about who I was.' So the pain-mask reading the draft later offers only as a hypothetical Seven argument ('Read that way...') is Pratt's own framing. The line that best helps the Three case, 'I also understood that there was value to it', is also unused. The hook steers readers to the Three reading by dropping the context that complicates it.",
+      "acceptance_test": "The hook attributes the 'image' to Pratt's own off-screen persona, not to Andy's happiness. The hook or 'Why not Type 7?' reports, with the GQ link, Pratt's own Farley / 'didn't feel too great about who I was' framing as part of what he said, and the Seven section no longer presents the mask reading as a hypothetical. If the Three reading of the quote is kept, it rests on his stated reason ('I also understood that there was value to it'), quoted in context."
+    },
+    {
+      "id": "critic-02",
+      "severity": "major",
+      "passage": "Still, the emphasis tracks the room: an adventure for a blockbuster junket, a rescue for a cover story about finding his path.",
+      "problem": "The homecoming-to-Maui stretch is the one period where having fun and looking successful clearly pulled apart, and by his own repeated accounts he chose the fun. In the 2026 Not Dead Yet telling of the same homecoming the draft uses for 'super depressed', a friend saw him and said 'dude, you don't look good. You seem off', and Pratt adds 'I was partying a lot... slipping down the wrong path' (research-stage Whisper transcript). He then moved to Maui (Men's Health 2022: 'on a whim') to drink, smoke weed and work '15 to 20 hours per week' (2014). The draft files the concealment under Type 3 and omits the visible distress and partying. It then turns the Maui year into evidence of audience-tuning, based on two promotional interviews it admits asked different questions. That converts the clearest counterexample to its own discriminator into support, and 'Why not Type 7?' never tests it.",
+      "acceptance_test": "'Why not Type 7?' names the homecoming and Maui year as a case where fun and looking successful diverged, and says plainly what that does to the discriminator (it weakens it, or explains why a collapse at about 20 weighs less than adult patterns). The 2026 homecoming details (the friend saw he looked 'off'; he was partying) appear beside the Vanity Fair concealment quote, checked against audio before being quoted. The 'tracks the room' sentence is cut, or it is supported by more than two tellings and labeled as the author's inference."
+    },
+    {
+      "id": "critic-03",
+      "severity": "major",
+      "passage": "A Seven keeps the fun and reframes what it cost. Pratt's record keeps the appearance:",
+      "problem": "Most of the bulleted cases do not test the stated discriminator. (1) The hidden sales failure involves no fun option. (2) In the fat-guy persona, fun and pay pointed the same way, and he dropped it because a role demanded it, which the draft itself says 'proves little.' (3) The GQ 'image' line is the ambiguous quote conceded to the Seven reading a paragraph earlier, so it is counted on both sides. (4) Gunn's 'juggle to entertain everybody' describes the funny-sidekick habit. In GQ it comes straight after Pratt explains the on-set problem as overthinking: 'I'm a much more cerebral person than you may expect... really I'm thinking a lot, in my head below the surface' (the 'Venus flytrap'). The frame also contradicts itself: if the fun was the image (the hook), dropping it cannot be 'protects the image and pays in fun.' The limits paragraph also inflates Faris's remark, which she framed as her own lifelong habit of not discussing relationship trouble, into one of the two 'weightiest cases.'",
+      "acceptance_test": "The discriminator is restated so that each listed case actually tests it; cases that do not are cut or labeled weak. One coherent version the evidence supports: his persona follows what the market rewards ('paying better', 'there was value to it', dropped when it cost Moneyball, 'I need to look like a superhero'), tested against a Seven pattern of following stimulation. Gunn's line appears with Pratt's 'cerebral' framing or is no longer listed as Three evidence. The limits paragraph stops counting Faris's remark among the weightiest cases. Optional: Not Dead Yet's 'I always sort of understood how I was seen in the marketplace' is stronger first-person evidence if verified against audio."
+    },
+    {
+      "id": "critic-04",
+      "severity": "major",
+      "passage": "Other people make his biggest moves.",
+      "problem": "First, the article's own record contradicts this sentence with moves he made himself: answering the sales ad, chasing the Denver office for 15 months (Vanity Fair: 'That was the carrot Pratt was chasing'), 'Put me in a movie', telling the showrunner he wanted to get bigger, deciding to 'drop the weight, like in wrestling', and going in to 'play the room' at the Guardians audition. Second, the draft builds a substantial Type 9 case ('people pleaser', following trusted people, Proverbs non-engagement, 'throw a church under the bus?', work-to-live, the farm lake, reluctance about the photo) and parks it in 'What the type doesn't explain.' The fun-versus-image discriminator does no work against 9, so nothing separates 3 from 9. With contested typing at medium confidence, that leaves a live alternative untested.",
+      "acceptance_test": "The sentence is qualified (for example, 'Several of his turning points came from other people') and set against the self-initiated moves. Near the type argument, the article names 9 as a further live alternative with one sourced discriminator, such as those self-initiated self-presentation moves or his competitive selling record (rookie salesman of the year, per Not Dead Yet, checked against audio). The 60-word answer and type FAQ still state medium confidence and acknowledge 9, or are adjusted."
+    },
+    {
+      "id": "critic-05",
+      "severity": "major",
+      "passage": "Taken at his word, the clown began as a way to be acceptable to a man who found sensitivity dangerous.",
+      "problem": "His word, in Men's Health 2022, was 'I developed humor as a self-defense mechanism.' 'Taken at his word' signals fidelity, but the sentence turns defense (protection from a hostile father) into acceptance-seeking, which is the Three mechanism. That is a thesis-friendly rewrite of a causal childhood claim. The 'Why not Type 7?' section then gives the same quote its defense reading ('his humor began as a defense against a disapproving father'), so the article describes the same quote two ways. Pratt also says his father 'wanted to put calluses on me', which means toughening, not a condition of acceptance.",
+      "acceptance_test": "The sentence keeps Pratt's mechanism ('a defense' or 'self-defense'). Any acceptance or approval reading is labeled as the author's inference, with a note that the defense reading fits Type 7 at least as well. 'Where Andy came from' and 'Why not Type 7?' describe the quote the same way."
+    },
+    {
+      "id": "critic-06",
+      "severity": "major",
+      "passage": "In his own telling, fun is also something he learned to sell, as a teenager in a coupon-sales operation whose mornings began with a chant: PMA equals OPM.",
+      "problem": "In Pratt's telling (Not Dead Yet 2026), what you sell is 'yourself' and 'your attitude', and 'attitude is contagious'. He never says fun. The substitution builds the article's frame (fun as a product) and attributes it to him. The same segment is also trimmed. Right after calling the chant 'terrible' he says it 'either instilled in me or potentially revealed a resilience that I had', calls the job 'a masterclass in facing rejection', and says of selling, 'So I loved it.' The ending repeats the move. It equates his 2015 personal 'less fun' (eating, being fun to be around) with a 2026 plan to bring comedy back to his screen work. His stated reasons for that plan are the 'reverence' and 'seriousness' of recent roles and that comedy is 'something I have', and just before it he says he now cares about 'can I be close to home?' None of these is a sales lesson or a reaction to Mercy's reception.",
+      "acceptance_test": "The hook uses Pratt's word ('attitude' or 'positive mental attitude'), and any equation with fun is clearly the author's. The chant sentence reflects that he credits the job with resilience and enjoyed selling, not only that the chant was 'terrible'. The ending either reports his stated reasons for the comedy plan and labels the 2015 parallel as the author's reading, or closes on a pattern that does not depend on the fun/attitude equation."
+    },
+    {
+      "id": "critic-07",
+      "severity": "minor",
+      "passage": "The weight came with real appetite; as he explained to GQ, the highlights of his days were the eating and drinking. His reason for keeping it, though, is commercial.",
+      "problem": "The heading ('The dumb fat guy was a business plan') and this sentence rest on one retelling, given to GQ in 2015 after the transformation had paid off. The same GQ sentence goes on to say 'the rest wasn't so good' and that he 'didn't feel too great about who I was'. Vanity Fair 2017 narrates a different cause: he gained weight on the show 'partly because he thought it worked for the character, partly because he'd just been married and people tend to fatten up in those first, blissful years.' Reduced to the commercial motive, the story reads as more strategic than the record shows.",
+      "acceptance_test": "The section attributes the business-plan framing to Pratt's 2015 retelling and notes the Vanity Fair account (character plus newly married contentment). It also completes the GQ paraphrase with 'didn't feel too great about who I was', or the heading is softened so the commercial motive reads as his stated reason, not the established cause."
+    },
+    {
+      "id": "critic-08",
+      "severity": "minor",
+      "passage": "His faith has cost him with the mainstream audiences an image manager would court.",
+      "problem": "This is stated in the author's voice as an established cause. The record shows only Pratt's belief that the 2018 speech 'helped light' the hostility. Men's Health 2022 offers other causes: Gunn says people made things up 'about his politics', and the writer theorizes that fans felt betrayed by the body transformation. Faith also has a paying audience (the 2025 Hallow Lent partnership the draft itself mentions), so assuming an image manager would court only mainstream audiences is unearned. Overstating counterevidence is still overstatement, and it undercuts the fair 'skeptic' paragraph later in the section.",
+      "acceptance_test": "The sentence is attributed (for example, 'he believes his faith has cost him...') or hedged. The section acknowledges at least one other cited cause of the backlash and that faith audiences are also a market, while keeping the point that he has kept the commitment public through criticism."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "The Three reading has limits. Acting rewards image management in every type, so the dieting alone proves little.",
+      "reason": "An honest inference limit placed right at the type argument. It concedes the profession confound instead of hiding it, which is the standard this article should hold every bullet to."
+    },
+    {
+      "passage": "One GQ exchange cuts both ways. Retiring early to a ranch to hunt birds, he said, was \"what I secretly want to do.\"",
+      "reason": "A verified, specific exchange (checked in GQ) that the article presents as genuinely ambiguous. It is the only tested discriminator that is both sourced and fair to the Seven reading."
+    },
+    {
+      "passage": "His example puts status and hidden need in one sentence: \"I was the king of my school and I don't have a yearbook because it was $35 and I just wouldn't ask them for that much money.\"",
+      "reason": "A distinctive, first-person detail that no other profile could use, and it carries real psychological weight without overclaiming."
+    },
+    {
+      "passage": "That is common audition advice. What stands out is how long Pratt was better at the selling than the job.",
+      "reason": "It concedes the generic reading of the 'you already are that guy' quote, then finds the specific point. The quote itself checks out in context in Vanity Fair 2017."
+    },
+    {
+      "passage": "A Three can sincerely want a quieter life while living a louder one, and he still calls his career a very high priority.",
+      "reason": "The section around it lets the person exceed the type, which the standard asks for, and does not explain away the counterevidence."
+    }
+  ],
+  "assessment": "The draft is unusually candid about its limits: it names Type 7 early, concedes the dieting 'proves little', gives Type 9 and the faith strand their own space, and quotes are accurate where I reopened them (VF 2017, GQ 2015, Men's Health 2022, GMA 2021, the Daily Beast opening, and the research-stage Whisper transcript of Not Dead Yet). The skeptic's problem is the causal frame, not the quotes. The 3-over-7 discriminator ('when fun and image diverge he keeps the image') is mostly illustrated by cases where the two did not diverge. The one stretch where they plainly did, the homecoming and Maui year, shows him choosing the fun, and the draft recasts it as audience-tuning. Context omitted from the hook (Pratt's own Farley comparison and 'didn't feel too great about who I was') makes the pain-mask reading his, not a hypothetical Seven's. Two bridges are rewritten in the thesis's favor: 'self-defense' becomes 'a way to be acceptable', and 'attitude' becomes 'fun'. A sturdier Three case is available in the record: his persona tracks what the market rewards, plus self-initiated self-presentation moves that would also separate 3 from the untested Type 9 reading. Medium-confidence Type 3 may survive a rebuild on that footing but not the current framing. Limits: the Christian Post page was blocked by Cloudflare on reopen, so faith quotes were checked only against the evidence excerpt. Not Dead Yet lines cited here come from a machine transcript and need an audio check before being quoted. Risk flags stay up: sensitive allegations (the Page/Hillsong/Zoe dispute, an ex-spouse's divorce testimony, a deceased parent's untreated illness) and contested typing (7 and 9 both live)."
+}

@@ -1,0 +1,20 @@
+I've written the unfamiliar-reader review for Chris Pratt to `docs/content-analysis/pipeline-logs/2026-10-29_19-23-18-217_Chris-Pratt/review-unfamiliar.json`. It passes the review schema, and both hashes match the frozen draft and evidence. I changed no other repo files and published nothing.
+
+**Verdict:** a cold reader gets oriented fast. By the second paragraph they know who Pratt is, and the type section explains the Type 3 vs Type 7 test in plain words. Each section covers a new period of his life, and the ending ties back to the opening. The draft has 2 major and 5 minor findings.
+
+**Major**
+1. **The opening misreads its main quote.** In GQ, Pratt called his own off-camera self "an image he was casting" while explaining why Anna Faris liked him heavier. The draft says he called Andy Dwyer's happiness an image. That's weaker than what he said, and it hides the draft's best point, which is how he manages his image when no camera is running.
+2. **The weight story is told as one trade, but he lost and regained it several times.** Wikipedia (I opened it) says he regained the Moneyball weight for the comedy *10 Years* and lost it again for *Zero Dark Thirty*, while still playing Andy until 2015. The FAQ line "gave up the fun Andy Dwyer persona" contradicts the article's own dates. One of the key Type 3 vs Type 7 points repeats the same mistake.
+
+**Minor**
+- Type 9 comes up in the second-to-last section and is never settled. Every FAQ names only 7 as the alternative.
+- "A friend saw through it" isn't in the source. On the 2026 *Not Dead Yet* podcast, Pratt says the friend told him he looked off. That detail is accurate and more vivid.
+- The "Maui, told three ways" heading delivers two versions. Material for a third is already in the evidence.
+- The underwear-photo story sits in the Type 3 section without saying which way it cuts; the draft only later counts it against Type 3. The back half of that section drags. The body runs about 3,800 words against the 2,000–3,500 target, so that's also the place to trim.
+- The faith section opens by stating that his faith cost him as fact, but the support is his own belief.
+
+**Kept as protected passages (5):** the line about his brother's play ("what the boy wanted… the effect"), the "no camera was involved" sentence, the bird-hunting "A Seven gets bored" test, "Other people make his biggest moves", and the closing callback. I checked the transcript, and "chosen in a meeting" is accurate: Pratt says he "had a meeting with my manager and agent."
+
+The similarity check didn't flag anything. Its highest score (0.06) came from a Dhar Mann sentence that uses ordinary Type 3 wording, with no shared argument.
+
+Two topics are flagged as sensitive: the church controversy and the Daily Beast headline accusing him of lying, plus his father's untreated MS. The typing is also flagged as contested, since 7 and 9 are both still live.

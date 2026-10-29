@@ -1,0 +1,17 @@
+I finished the fan review stage and wrote `review-fan.json` to the Chris Pratt run folder. It passes the pipeline's review schema, and every passage it quotes matches the draft exactly. I didn't change or publish anything else; source downloads went to `/tmp/pratt-fan-review/`.
+
+**Verdict:** the draft is built on the right sources (the 2015 GQ, 2017 Vanity Fair and 2022 Men's Health interviews), and its Type 3 vs Type 7 question is the right one. I reopened those three plus Wikipedia. The quotes I checked are accurate. The problem is that it repeatedly uses only part of a well-known story, and each cut makes the case for Type 3 look cleaner than the record.
+
+**Five major findings** (these block release until the editor fixes or rejects them):
+1. **Weight story:** it's told as giving up the fun persona once, for good, after *Moneyball*. The same GQ article says he bulked back up to 295 lbs for *Delivery Man* (2013). This affects the core argument and two FAQs.
+2. **GQ appetite line is cut in half:** the draft drops the rest of the sentence, where he felt "rotten" with "cardiovascular issues" during the heavy years. Health is a plain alternative reason for "Now I have less fun. I focus more." It also leaves out his Chris Farley self-deception passage, which actually helps the Type 3 case.
+3. **The crying in Men's Health:** it sits in the faith section, so it reads as being about faith coverage. In fact he cried over reaction to his own "healthy daughter" Instagram post, which people read as a dig at Anna Faris. In that interview he also went off his publicist's script to defend his son.
+4. **Childhood quotes split by section:** the "hyperactive" half of a GQ answer is used for the Type 7 case. The "sensitive, crybaby" half, which backs up his 2022 father story, is dropped. So is his Vanity Fair line "comfortable in my own skin," cut from a quote the draft uses elsewhere.
+5. **The ending is wrong on the facts:** the draft says 2026 brings "the fun back" after eleven years. His comic voice roles never stopped: *Lego Movie*, *Onward*, *Mario* (2023 and 2026), *Garfield*.
+
+**Three minor findings:**
+- The draft links the "Worst Chris" meme to his faith without attributing that link to Pratt. It also leaves out his stated political neutrality and that the MTV "God is real" speech was a comic list.
+- It doesn't mention that Andy Dwyer was meant to be a temporary role.
+- It calls "other people make his biggest moves" a Type 9 sign. Pratt himself tells those moves as providence.
+
+I also marked five passages for the editor to keep, including the opening and the hidden-failure line. Both risk flags stay on: sensitive allegations and contested typing. The similarity check did not trip; its top match is a generic Type 3 definition sentence, not reused argument.

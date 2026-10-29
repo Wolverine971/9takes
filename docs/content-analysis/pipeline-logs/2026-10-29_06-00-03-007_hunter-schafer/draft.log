@@ -1,0 +1,20 @@
+The draft stage is complete. Both requested outputs are written and validated; nothing else in the repo was modified and nothing was published.
+
+**Files written** (run dir `docs/content-analysis/pipeline-logs/2026-10-29_06-00-03-007_hunter-schafer/`):
+- `draft.md`: full site-compatible frontmatter plus a 3,990-word body in nine H2 sections. `published: false`, `production_pretext.status: draft`, no inherited blockers (create mode, empty baseline).
+- `evidence-draft.json`: continuation of the research record. All 45 sources retained; 41 research claims kept with exact passages, 45 new claims added (quotes, interpretations, metadata), 13 unused research claims removed. Type hypothesis unchanged (Type 4, medium, alt 3) except that the unused Vogue "jig" line was swapped for the GQ "spiral" quote and the dropped C44 was removed from `for_claim_ids`.
+
+**Checks run, all passing:**
+- The repo's own `checkDraft`: no blockers. Answer paragraph 58 words, meta title 59 chars, description 165 chars.
+- The repo's `validateEvidence` against the draft: every one of the 86 passages found, triggers present on the 5 time-sensitive claims.
+- Full-body quote check against the cached page texts, caption tracks and Whisper segments: 117 of 117 quotations matched.
+- `pnpm audit:readability`: nothing flagged (median paragraph 45 words, 12 blockquotes).
+- Same-type similarity scan: clear after rewording one triad sentence that matched the Mike Faist page.
+
+**Editorial choices the six-role jury should weigh:**
+- The hook pairs her 2016 WUNC line ("see more to me than that right away") with her 2024 GQ line ("I just want to be a girl and finally move on") as the same complaint with a flipped label. The Type 3 case gets its own section in her words; Types 9 and 6 are addressed there too.
+- Sensitive material is attributed and contested: the Dominic Fike infidelity statement uses ELLE's print rendering of Call Her Daddy, beside Fike's July 2023 co-dependency account, with a note that no response from him was found. The 2022 transmedicalism episode presents Out's report and her September 2022 reply.
+- Her Rolling Stone self-description ("I'm just a tranny who's famous") is quoted once as evidence of refusing the activist label. Easy to cut if the jury objects.
+- Omitted on purpose: Dan Stevens's hearsay about the Euphoria set, the secondary Cover Media copy of the Vogue "Is the jig up?" line, and Silka Luisa's caption-level "tough sell" remark. The Method-class detail is stated from the A24 captions without quoting.
+
+**One process note:** the first full draft came out at 5,417 words by `checkDraft`, the same length trap recorded on earlier runs. Two cut rounds brought it to 3,990, which leaves about 500 words of headroom under the 4,500 ceiling for the edit stage.

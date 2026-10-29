@@ -1,0 +1,314 @@
+[
+	{
+		"id": "site",
+		"title": "The front door",
+		"caption": "A question starts the experience",
+		"kind": "site",
+		"eyebrow": "9takes · Personality-based community",
+		"headline": "The homepage asks you to participate before it explains the product.",
+		"insight": "A real question sits beside the promise: one question, nine perspectives. Visitors can contribute anonymously, then enter the discussion; the personality library and practical guides give them more ways to explore why people react differently.",
+		"steps": ["Meet a question", "Write your own take", "Read another perspective"],
+		"branches": [
+			{
+				"title": "The product is the introduction",
+				"description": "The homepage contains the answer-and-reveal experience itself, with an anonymous posting path and a clear explanation of what will be published."
+			},
+			{
+				"title": "One connected reading journey",
+				"description": "Personality analyses, Enneagram explainers, practical guides, and community questions share the same navigation and visual language."
+			},
+			{
+				"title": "A useful fallback",
+				"description": "The implementation can show an explicitly labeled practice exercise when a live question is unavailable. AI-written examples are distinguished from member answers."
+			}
+		],
+		"evidence": [
+			"src/routes/+page.svelte: HomeLandingV2",
+			"src/lib/components/marketing/HomeLandingV2.svelte: live question, anonymous posting, practice fallback, reading links",
+			"src/lib/data/homepagePracticeV2.ts: practice questions and example perspectives"
+		],
+		"gallery": [
+			{
+				"src": "/assets/work/projects/9takes/home-public.jpg",
+				"alt": "Public 9takes homepage with the one-question, nine-perspectives headline and an unanswered friendship question",
+				"caption": "Public homepage captured October 29, 2026. Any activity counts belong to this capture, not a current performance claim."
+			}
+		]
+	},
+	{
+		"id": "answer-first",
+		"title": "Answer first",
+		"caption": "Your take before the room’s",
+		"kind": "community",
+		"eyebrow": "Participation design",
+		"headline": "A discussion system built to protect the first honest answer.",
+		"insight": "Other people’s answers stay hidden until a visitor contributes. Voice capture turns a spoken thought into editable text, and reply notifications can bring a participant back to the specific conversation.",
+		"steps": [
+			"Write or dictate",
+			"Review and post",
+			"Unlock the conversation",
+			"Return to replies"
+		],
+		"branches": [
+			{
+				"title": "The gate lives on the server",
+				"description": "The answer-first rule controls the response payload as well as the interface, keeping unrevealed answers out of the initial page data."
+			},
+			{
+				"title": "Speak, then review",
+				"description": "The composer accepts a voice transcript for editing before posting. The recorder also has a browser-transcript fallback when audio refinement is unavailable."
+			},
+			{
+				"title": "A reply has a return path",
+				"description": "An optional reply-notification tray and focused return view reconnect the participant to the relevant thread."
+			}
+		],
+		"evidence": [
+			"src/routes/questions/[slug]/+page.server.ts: userHasAnswered and gated comments",
+			"src/routes/questions/[slug]/+page.svelte: commentsUnlocked and give-first payload guarantee",
+			"src/lib/components/molecules/Interact.svelte: VoiceRecorder and insertVoiceTranscript",
+			"src/lib/components/molecules/VoiceRecorder.svelte: transcribe and browserTranscript fallback",
+			"src/lib/components/questions/ReplyOptInTray.svelte: reply notification opt-in",
+			"src/lib/components/questions/ReplyFocusThread.svelte: focused return thread"
+		]
+	},
+	{
+		"id": "discover",
+		"title": "Find your type",
+		"caption": "A branching conversation",
+		"kind": "flow",
+		"eyebrow": "Interactive personality discovery",
+		"headline": "Turn a founder’s typing conversation into a product that makes room for uncertainty.",
+		"insight": "The free test begins with anger, shame, or fear, checks the associated strength, and introduces the types in that group. Conflicting answers can open both groups; a tiebreak can retain two types. A friend can give an independent read before seeing the original picks.",
+		"steps": [
+			"Recognize an emotion",
+			"Check the strength",
+			"Compare core fears",
+			"Ask someone who knows you"
+		],
+		"branches": [
+			{
+				"title": "Branches reflect real hesitation",
+				"description": "Alternative prompts, strength mismatches, a none-fit path, and a two-type result preserve ambiguity instead of forcing a confident label."
+			},
+			{
+				"title": "An independent second read",
+				"description": "The friend flow withholds the test-taker’s choices until the friend answers, then compares the two perspectives."
+			},
+			{
+				"title": "A result with somewhere to go",
+				"description": "The result connects to type reading, a question, and the friend link. The test has no email wall and makes no scientific-validity or accuracy-percentage claim."
+			}
+		],
+		"evidence": [
+			"src/lib/enneagramTest/flow.ts: reduce, showBoth, noneFit, tiebreakBoth",
+			"src/lib/enneagramTest/content.ts: EMOTIONS, RELATIONS, TEST_TYPES",
+			"src/lib/components/enneagramTest/TestFlow.svelte: branch rendering",
+			"src/routes/enneagram-test/read/[token]/+page.svelte: independent friend read and reveal",
+			"src/routes/enneagram-test/result/[token]/+page.svelte: result exits",
+			"docs/taskers/T-42-scored-enneagram-test.md: implementation and deployment record"
+		],
+		"gallery": [
+			{
+				"src": "/assets/work/projects/9takes/test-public.jpg",
+				"alt": "The public Enneagram test asking which emotion appears most often, with anger, shame, and fear choices",
+				"caption": "Public test, emotion-selection step, captured October 29, 2026. No result was submitted or saved."
+			}
+		]
+	},
+	{
+		"id": "profiles",
+		"title": "Personality dossiers",
+		"caption": "A recognizable editorial product",
+		"kind": "content",
+		"eyebrow": "Personality Analysis",
+		"headline": "Public figures become a way into patterns of motivation.",
+		"insight": "An extensive personality library combines long-form analyses, type context, related reading, and a distinctive portrait treatment. The visual uses actual Jack Black, Dario Amodei, and Sydney Sweeney artwork already featured by 9takes. These are editorial interpretations, not clinical assessments.",
+		"steps": [
+			"Recognize a person",
+			"Read the evidence and interpretation",
+			"Explore a type",
+			"Follow related reading"
+		],
+		"branches": [
+			{
+				"title": "A library with real depth",
+				"description": "The repository’s October 28, 2026 corpus snapshot records 462 published personality entries, organized by Enneagram type and domains such as music, film, and technology."
+			},
+			{
+				"title": "A signature portrait system",
+				"description": "Monochrome portraits, selective color, and the violet eye treatment make the personality series recognizable across the site."
+			},
+			{
+				"title": "Publishing beyond static pages",
+				"description": "Personality articles load from a database-backed publishing system, with related-person ranking and a content board supporting the growing library."
+			}
+		],
+		"evidence": [
+			"src/lib/data/corpus-stats.json: generated_at and totals.published",
+			"src/lib/components/marketing/HomeLandingV2.svelte: featured personalities",
+			"src/routes/personality-analysis/[slug]/+page.server.ts: personality article loading",
+			"src/lib/server/personalitySimilarity.ts: related-person ranking",
+			"src/routes/admin/content-board/+page.server.ts: people content board",
+			"static/types/7s/Jack-Black.webp: portrait",
+			"static/types/5s/Dario-Amodei.webp: portrait",
+			"static/types/3s/Sydney-Sweeney.webp: portrait"
+		],
+		"gallery": [
+			{
+				"src": "/assets/work/projects/9takes/jack-black.webp",
+				"alt": "9takes editorial portrait of Jack Black with a violet mark across the eyes and a colorful shirt",
+				"caption": "Actual personality-series artwork. The portrait is an editorial treatment of a public figure, not an endorsement."
+			}
+		]
+	},
+	{
+		"id": "editorial",
+		"title": "The publishing system",
+		"caption": "Research, review, and original art",
+		"kind": "operations",
+		"eyebrow": "Editorial production",
+		"headline": "The content library has an editorial workflow behind every new draft.",
+		"insight": "The site spans personality analyses, relationship guides, Enneagram education, and pop-culture essays. Its publishing tooling connects research, claim-level evidence, independent reviews, revision, and verification. Original sculptural covers carry the same identity from one topic to the next.",
+		"steps": [
+			"Research and source claims",
+			"Draft",
+			"Review evidence and reader experience",
+			"Revise and verify"
+		],
+		"branches": [
+			{
+				"title": "Claims carry their context",
+				"description": "The evidence model separates observation, self-report, third-party claims, interpretation, disputed material, and unknowns, with source references and alternative explanations."
+			},
+			{
+				"title": "Review stays attached to the draft",
+				"description": "Content hashes tie review and verification to the text being assessed. Quality gates and unresolved blockers determine publication eligibility."
+			},
+			{
+				"title": "A maintained web of reading",
+				"description": "Crosslink checks, corpus reports, image maps, and sitemap generation support the library as it grows."
+			},
+			{
+				"title": "Original covers, consistent language",
+				"description": "Relationships, conflict, and teamwork use sculptural scenes made for those subjects, giving practical writing a coherent visual identity."
+			}
+		],
+		"evidence": [
+			"scripts/run-blog-pipeline.mjs: research, draft, reviews, edit, verify",
+			"scripts/lib/blogEditorial.js: evidenceSchema, QUALITY_GATES, editorialHash, getEditorialPublishStatus",
+			"scripts/personBlogParser.js: publication and quality validation",
+			"scripts/check-crosslinks.mjs: crosslink gate",
+			"src/blog/enneagram/enneagram-types-in-relationships.md: relationship cover",
+			"src/blog/enneagram/enneagram-types-working-in-teams.md: teamwork cover",
+			"src/blog/enneagram/enneagram-harmonic-approaches.md: conflict cover"
+		],
+		"gallery": [
+			{
+				"src": "/assets/work/projects/9takes/relationships.webp",
+				"alt": "Original Greek-statue illustration for the Enneagram relationships article",
+				"caption": "Cover for the guide to how each type loves, fights, and repairs."
+			},
+			{
+				"src": "/assets/work/projects/9takes/teamwork.webp",
+				"alt": "Greek statues working together to build a boat",
+				"caption": "Original teamwork artwork used for the guide to Enneagram types at work."
+			},
+			{
+				"src": "/assets/work/projects/9takes/conflict.webp",
+				"alt": "Greek statues in a sculptural scene created for the 9takes conflict-style explainer",
+				"caption": "Original artwork for the Enneagram harmonic approaches article."
+			}
+		]
+	},
+	{
+		"id": "operations",
+		"title": "Behind the community",
+		"caption": "Moderation with guarded decisions",
+		"kind": "operations",
+		"eyebrow": "Community administration",
+		"headline": "The community needs a working back office as much as a welcoming front door.",
+		"insight": "Dedicated administration supports questions, categories, comments, content, and analytics. Flagged comments can be cleared or removed through guarded server actions, with pending-state checks and recovery when part of an update fails.",
+		"steps": [
+			"A comment is flagged",
+			"An administrator reviews",
+			"Clear or remove",
+			"Refresh the discussion state"
+		],
+		"branches": [
+			{
+				"title": "Review has a defined lifecycle",
+				"description": "Pending flags can be cleared or removed. Actions reject flags already handled, reducing conflicting decisions when a queue changes."
+			},
+			{
+				"title": "Recovery is part of the action",
+				"description": "If the comment update fails after its flags change, the action attempts to roll back that flag transition. Comment counts are refreshed separately with a visible warning on failure."
+			},
+			{
+				"title": "Demo and administrator boundaries",
+				"description": "The source checks administrator access before loading moderation data or applying actions, and disables moderation writes while demo mode is enabled."
+			}
+		],
+		"evidence": [
+			"src/routes/admin/comments/+page.server.ts: validateAdmin, removeComment, unflagComment, rollback, demo guard",
+			"src/lib/server/adminAuth.ts: admin action guards",
+			"src/lib/admin/adminNavigation.ts: administration surfaces",
+			"src/routes/admin/questions/+page.server.ts: question administration",
+			"src/routes/admin/categories/+page.server.ts: category administration"
+		]
+	},
+	{
+		"id": "brand",
+		"title": "The visual world",
+		"caption": "Marble, lamplight, nine expressions",
+		"kind": "brand",
+		"eyebrow": "Streetlamp Symposium",
+		"headline": "A personality platform with a visual identity built around human expression.",
+		"insight": "Nine marble masks turn a system of personality differences into a recognizable mark. Greek figures in conversation, warm pools of light, and sculptural editorial scenes extend the idea across the product. A documented token system connects those images to the interface.",
+		"steps": [
+			"Nine expressions",
+			"A shared visual language",
+			"Editorial applications",
+			"Reusable interface tokens"
+		],
+		"branches": [
+			{
+				"title": "The nine-mask mark",
+				"description": "A grid of distinct expressions makes the premise visible before a visitor reads a word."
+			},
+			{
+				"title": "One conversation across settings",
+				"description": "The homepage’s original conversation scenes reinterpret the gathering across generations and eras, including a circle of Greek statues in Athens."
+			},
+			{
+				"title": "Art direction reaches the UI",
+				"description": "Warm stone surfaces, sodium amber, Inter, and monospaced annotations form the current design language. The personality portrait series keeps its deliberate violet media treatment."
+			}
+		],
+		"evidence": [
+			"docs/design-system.md: Streetlamp Symposium and V5 tokens",
+			"docs/brand/messaging-hierarchy.md: canonical brand promise",
+			"src/lib/components/marketing/ConversationScenes.svelte: conversation scene sequence",
+			"static/brand/9takes-nine-mask-logo-512.png: nine-mask identity",
+			"static/images/home-reimagined/circle-variations/03-athens-statues-small.webp: Athens conversation artwork",
+			"static/blogs/greek-statue-offering-mercy-under-streetlamp.webp: sculptural editorial artwork"
+		],
+		"gallery": [
+			{
+				"src": "/assets/work/projects/9takes/nine-masks.webp",
+				"alt": "The 9takes brand mark, nine marble masks with different facial expressions arranged in an amber-edged grid",
+				"caption": "The actual nine-mask identity from the repository."
+			},
+			{
+				"src": "/assets/work/projects/9takes/symposium.webp",
+				"alt": "Nine Greek statues in conversation under lamplight with the Acropolis behind them",
+				"caption": "Original homepage conversation artwork: the Athens variation."
+			},
+			{
+				"src": "/assets/work/projects/9takes/mercy.webp",
+				"alt": "A sculptural editorial scene depicting mercy under an amber streetlamp",
+				"caption": "An original editorial application of the marble-and-lamplight direction."
+			}
+		]
+	}
+]

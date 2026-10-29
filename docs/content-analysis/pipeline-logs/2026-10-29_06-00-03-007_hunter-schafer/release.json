@@ -1,0 +1,60 @@
+{
+  "schema_version": 3,
+  "subject": "hunter-schafer",
+  "content_sha256": "7869a2e75791592b85ed7e2214860c967b90cd71a95f338870d82928acd69f11",
+  "expanded": true,
+  "artifacts": {
+    "baseline": {
+      "file": "baseline.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "research": {
+      "file": "evidence.json",
+      "sha256": "76330a5ebb040c30b8d0755f05e97aa034a65aa493044cabf18c3cce5000139b"
+    },
+    "draft": {
+      "file": "draft.md",
+      "sha256": "348f775c03a7168a1d6baf993aa34cec6539da8b5ab9d5b3fec09364ce526689"
+    },
+    "draft_evidence": {
+      "file": "evidence-draft.json",
+      "sha256": "4dc46fe0b9f04e56bec1418e62e87d1d37900084764f1a8237b0c41de011f3b8"
+    },
+    "evidence": {
+      "file": "evidence-repair.json",
+      "sha256": "17b9d52fa0ecccdc83c74d1673707cd378c3d0bc0a25dd735b621a7a22b627ce"
+    },
+    "resolution": {
+      "file": "resolution-repair.json",
+      "sha256": "f3fe4721fb98278eedd6b798ef295916e9a5f3dc8f402cd465549f4252a398e7"
+    },
+    "verification": {
+      "file": "verification-repair.json",
+      "sha256": "1fa082474711d85ada982ddb8772ca546d1778353acecbee430f005c42b85145"
+    },
+    "review-subject": {
+      "file": "review-subject.json",
+      "sha256": "3226ca88f31276375539d4e1b5b22bf0b37895b98fd0a93484d614f41c2e95a9"
+    },
+    "review-fan": {
+      "file": "review-fan.json",
+      "sha256": "c4e3a1c267a064e6a4211db66b6a02e91731bcfbcb4eeec0f44bf874f74ee201"
+    },
+    "review-critic": {
+      "file": "review-critic.json",
+      "sha256": "46931c32cb7a8ebb4639a195b6f2d8a30e70f4be1af830e56420249ee4da0e12"
+    },
+    "review-unfamiliar": {
+      "file": "review-unfamiliar.json",
+      "sha256": "e38f82da35c160ec30951d8c28881f81fede2409cc3f45e328851ac7568225fb"
+    },
+    "review-enneagram": {
+      "file": "review-enneagram.json",
+      "sha256": "3250d489a5788886c0df864e76eb07e5a34de863a70e238197203995d885cebf"
+    },
+    "review-future": {
+      "file": "review-future.json",
+      "sha256": "4669f675966020c917d57b825c37b80ccb7028b3b6415a181eba73a8e17edcfb"
+    }
+  }
+}

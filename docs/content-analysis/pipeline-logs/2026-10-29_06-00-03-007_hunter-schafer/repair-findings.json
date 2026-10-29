@@ -1,0 +1,23 @@
+{
+  "eligible": false,
+  "blockers": [
+    "verification:revise",
+    "unresolved:verify-01:The school year is wrong on the article's own opened sources. She graduated from high school in 2017 (NYT May 2018, S10: 'After graduating from high school in 2017'; GQ, S01: senior year when HB2 was repealed in March 2017; HuffPost April 2017, S43: 'high school senior thesis'; A24: UNCSA for her last two years), so ninth grade was the 2013-14 school year, not 2012-13. Born December 31, 1998, she was 14 that fall, which matches her own 'began transitioning at 14' (Teen Vogue, S08) and GQ's 'began transitioning at age 14, and then three years later became the youngest plaintiff', and 15 by the last day of freshman year in spring 2014. '2012-13' was derived at the edit stage from Rolling Stone's compressed 'at age 14, attending her last day of her freshman year' (S27) and contradicts three other sources. The article repeats that compression twice more ('finished that freshman year, at 14, in a skirt'; 'a 14-year-old finishing freshman year in a skirt' in the closing section)."
+  ],
+  "quality": {
+    "evidence": 8.5,
+    "enneagram": 8.4,
+    "originality": 8.4,
+    "writing": 8.3,
+    "durability": 8.6,
+    "hook": 9,
+    "discoverability": 8.5,
+    "overall": 8.5,
+    "letter": "B+",
+    "rubric_version": 3,
+    "graded_at": "2026-10-29",
+    "caps_applied": [],
+    "needs_review": true,
+    "content_sha256": "f0b5b75912cefbc710384eed97045f67b4a7e0b1be4589b55568adac02f2d969"
+  }
+}

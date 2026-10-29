@@ -1180,6 +1180,136 @@
 			"id": "/personality-analysis/julia-fox -> /personality-analysis/madonna",
 			"reason": "named as a dinner companion in a Kanye anecdote",
 			"date": "2026-10-22"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-type-1 -> /enneagram-corner/how-to-apologize-like-a-pro",
+			"reason": "both mentions are quoted inner-voice examples in the critic/conscience test, not about apologizing",
+			"date": "2026-10-29"
+		},
+		{
+			"id": "/enneagram-corner/how-to-navigate-early-relationship-stages -> /enneagram-corner/how-to-apologize-like-a-pro",
+			"reason": "'apologize excessively' is a manner caution, not about how to apologize",
+			"date": "2026-10-29"
+		},
+		{
+			"id": "/enneagram-corner/attachment-styles-and-enneagram-types -> /enneagram-corner/what-is-a-love-language",
+			"reason": "title-phrase match 'different things' (what each attachment style protects)",
+			"date": "2026-10-29"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-and-adhd-which-types-struggle-most -> /enneagram-corner/what-is-a-love-language",
+			"reason": "title-phrase match 'different things' (ADHD vs Enneagram measure different things)",
+			"date": "2026-10-29"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-types-and-career-choices -> /enneagram-corner/what-is-a-love-language",
+			"reason": "title-phrase match 'want different' (client time in a design role)",
+			"date": "2026-10-29"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-positive-self-talk -> /enneagram-corner/toxic-traits-relationships-warning-signs",
+			"reason": "'early warning system' describes the Type 6 inner critic",
+			"date": "2026-10-29"
+		},
+		{
+			"id": "/how-to-guides/how-to-psychoanalyze-people -> /enneagram-corner/toxic-traits-relationships-warning-signs",
+			"reason": "GSC token 'cheat' matched 'cheat sheet'",
+			"date": "2026-10-29"
+		},
+		{
+			"id": "/community/societal-ticking-time-bombs -> /enneagram-corner/depression-patterns-by-enneagram-type",
+			"reason": "'twice as depressed' is a gender-gap statistic, not type patterns",
+			"date": "2026-10-29"
+		},
+		{
+			"id": "/pop-culture/trump-type-3-vs-biden-type-2 -> /enneagram-corner/which-enneagram-type-is-most-likely-to-be-a-narcissist",
+			"reason": "sentence dismisses the narcissist label as the wrong question",
+			"date": "2026-10-29"
+		},
+		{
+			"id": "/community/software-and-hardware-of-the-mind -> /enneagram-corner/which-enneagram-type-is-most-likely-to-be-a-narcissist",
+			"reason": "Narcissus myth retelling",
+			"date": "2026-10-29"
+		},
+		{
+			"id": "/enneagram-corner/mental-health/enneagram-addiction-recovery-guide -> /enneagram-corner/enneagram-and-religion",
+			"reason": "'spiritual dimension' is a recovery step, not religion and the Enneagram",
+			"date": "2026-10-29"
+		},
+		{
+			"id": "/pop-culture/epstein-psychology-part-2 -> /enneagram-corner/enneagram-and-religion",
+			"reason": "GSC token 'christian' matched 'Christmas morning' in an Epstein email",
+			"date": "2026-10-29"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-workplace-team-building -> /pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
+			"reason": "GSC token 'host' matched 'Host a workshop'",
+			"date": "2026-10-29"
+		},
+		{
+			"id": "/enneagram-corner/personality-maxing -> /pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
+			"reason": "GSC token 'john' matched John Antonakis",
+			"date": "2026-10-29"
+		},
+		{
+			"id": "/how-to-guides/definitive-guide-to-relationship-conflict-part-1 -> /pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
+			"reason": "GSC token 'john' matched John Gottman in a book list",
+			"date": "2026-10-29"
+		},
+		{
+			"id": "/pop-culture/epstein-psychology-part-2 -> /pop-culture/tech-titans-disruptors",
+			"reason": "Musk's name in an Epstein-emails sentence; his own page exists",
+			"date": "2026-10-29"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-personal-growth -> /enneagram-corner/enneagram-and-religion",
+			"reason": "'spiritual growth' inside a research caveat",
+			"date": "2026-10-29"
+		},
+		{
+			"id": "/enneagram-corner/attachment-styles-and-enneagram-types -> /enneagram-corner/enneagram-compatibility-matrix",
+			"reason": "'couples' means couples-therapy modalities, not type pairing",
+			"date": "2026-10-29"
+		},
+		{
+			"id": "/how-to-guides/definitive-guide-to-self-efficacy -> /enneagram-corner/why-dating-apps-are-harder-for-certain-personality-types",
+			"reason": "'apps' as digital self-efficacy interventions",
+			"date": "2026-10-29"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-test-comparison-2026 -> /enneagram-corner/enneagram-vs-personality-frameworks-comparison",
+			"reason": "'psychometric documentation' is about test quality, not framework comparison",
+			"date": "2026-10-29"
+		},
+		{
+			"id": "/enneagram-corner/mental-health/enneagram-neurodivergence-guide -> /enneagram-corner/enneagram-and-mental-illness",
+			"reason": "'disorder' inside the NIMH ADHD definition",
+			"date": "2026-10-29"
+		},
+		{
+			"id": "/pop-culture/tech-titans-leadership-styles -> /pop-culture/tech-titans-disruptors",
+			"reason": "Bezos's name in a Kalanick comparison; his own page exists",
+			"date": "2026-10-29"
+		},
+		{
+			"id": "/enneagram-corner/how-each-enneagram-type-manipulates -> /enneagram-corner/enneagram-and-mental-illness",
+			"reason": "'psychopathy' in a Dark Triad sentence that already carries 2 links",
+			"date": "2026-10-29"
+		},
+		{
+			"id": "/enneagram-corner/mental-health/enneagram-medication-mental-health -> /enneagram-corner/why-dating-apps-are-harder-for-certain-personality-types",
+			"reason": "'apps' = GoodRx",
+			"date": "2026-10-29"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-type-3 -> /enneagram-corner/enneagram-and-mental-illness",
+			"reason": "'narcissists' sentence already links the narcissist post",
+			"date": "2026-10-29"
+		},
+		{
+			"id": "/enneagram-corner/toxic-traits-relationships-warning-signs -> /enneagram-corner/enneagram-compatibility-matrix",
+			"reason": "'couples therapist' referral, not type pairing",
+			"date": "2026-10-29"
 		}
 	]
 }

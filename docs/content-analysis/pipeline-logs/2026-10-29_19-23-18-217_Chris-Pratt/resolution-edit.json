@@ -1,0 +1,318 @@
+{
+  "schema_version": 3,
+  "decisions": [
+    {
+      "finding_id": "subject-01",
+      "action": "fixed",
+      "reason": "Fixed. The hook now says the 'image' was the happy fat guy of his interviews and home life during the heavy years, not Andy's happiness. It quotes 'My bones ached... I was feeling rotten', 'didn't feel too great about who I was', 'first guy in line to buy that line of bullshit' and the Farley comparison before and after the quote. c-fun-as-image records this context in its inference and alternative; meta description reworded ('the happy fat guy of his Parks and Rec years was an image he cast'); meta_title ('The Fun He Called an Image') stays accurate to the corrected reading."
+    },
+    {
+      "finding_id": "subject-02",
+      "action": "fixed",
+      "reason": "Fixed. The stitched 'That is the context for...' sentence is gone. The article now says 'Now I have less fun. I focus more' belongs to the GQ answer about health and self-regard, where health explains it as well as image does, and that the Moneyball story came from Vanity Fair two years later. Neither the Why-not-7 bullets nor type_hypothesis.discriminator use the line. The Three case was re-weighed on the hidden sales failure, the pairing of a worth problem with market value in the same GQ answer, and his 2026 'completely deferential... Just keep me employed as an actor' self-description (two transcription models agree). Confidence stays medium and the Maui year is named as the best evidence against. The leading type did not change, so no refresh is triggered."
+    },
+    {
+      "finding_id": "subject-03",
+      "action": "fixed",
+      "reason": "Fixed. Faris's remark is out of the 'weightiest cases' sentence and out of type_hypothesis.discriminator and for_claim_ids. The limits paragraph now says it 'adds little' because she was describing her own habit of not discussing relationship problems, which in a famous couple needs no type to explain (the ordinary-privacy alternative in prose). The article makes no claim about why the marriage ended."
+    },
+    {
+      "finding_id": "subject-04",
+      "action": "fixed",
+      "reason": "Fixed. The cost is attributed ('By his account, faith is the first thing he let cost him...'; 'he believes the speech helped light the online hostility'). The section now quotes Men's Health's note that 'none of this noise has hurt his box-office prowess or his reputation in town' and Gunn's remark about things made up 'about his politics', so the Worst Chris hostility is not pinned on faith alone. 'Maybe it was hubris' is quoted. Later wording reads 'through years of criticism', and a new sentence notes faith audiences are a market too."
+    },
+    {
+      "finding_id": "subject-05",
+      "action": "fixed",
+      "reason": "Fixed. The under-the-bus quote is now followed by 'Then he reconsidered: \"If it's like the Westboro Baptist Church, that's different.\"' The paragraph says he attends Zoe Church 'though not exclusively'. c-under-bus, c-westboro and c-hillsong-never reflect both points."
+    },
+    {
+      "finding_id": "subject-06",
+      "action": "fixed",
+      "reason": "Fixed. The Proverbs 26:20 line and its backward-running 'hasn't always kept to it' framing were removed; c-no-defense is dropped. The 2022 episode now sits in the counter-pattern section, identifies the coverage (articles calling his 'beautiful, healthy daughter' post a dig at Faris and Jack) and gives his son-protective reason. c-why-coming-after-me is removed from type_hypothesis.for_claim_ids and its inference is the protective-parent reading."
+    },
+    {
+      "finding_id": "subject-07",
+      "action": "fixed",
+      "reason": "Fixed. The treatment detail is attributed in the sentence: '(\"he left it untreated,\" Pratt told Vanity Fair)'. c-father-death is reclassed self_report."
+    },
+    {
+      "finding_id": "subject-08",
+      "action": "fixed",
+      "reason": "Fixed. The ending gives his stated reasons from the same answer: recent roles carried a seriousness, comedy is 'something I have', and he now cares whether he can 'be close to home'. It says he didn't mention Mercy and offers Mercy's reception only as dated context (now sourced to Rotten Tomatoes and The Numbers). The salesman bookend is labelled 'on this reading'."
+    },
+    {
+      "finding_id": "fan-01-delivery-man-regain",
+      "action": "fixed",
+      "reason": "Fixed. The body now says his weight followed the work after Moneyball while he kept playing Andy: back up for 10 Years (2011) and down for Zero Dark Thirty (2012), per Wikipedia, then up to 295 pounds for Delivery Man (2013), per GQ, before Guardians. The discriminator bullet about the fat-guy trade is gone. The type-7 FAQ no longer mentions dieting or giving up Andy. The weight FAQ gives the role-by-role sequence, and 'years of dieting' is removed. c-delivery-man (src-gq-2015) and c-weight-10years were added."
+    },
+    {
+      "finding_id": "fan-02-gq-half-quote",
+      "action": "fixed",
+      "reason": "Fixed. With GQ attribution, the hook quotes 'My bones ached, I had cardiovascular issues, I was unhealthy, I was feeling rotten' and 'didn't feel too great about who I was'. The 'first guy in line to buy that line of bullshit' line and the Farley comparison are used (the hook and the Seven section, including 'I think that's often the case with comedians'). Health is named as an explanation for 'less fun' that works as well as image. c-appetite's alternative records 'the rest wasn't so good'."
+    },
+    {
+      "finding_id": "fan-03-healthy-daughter-post",
+      "action": "fixed",
+      "reason": "Fixed. The tears now sit in 'What the type doesn't explain', explicitly 'not about faith'. Attributed to Men's Health 2022, the paragraph names his Instagram thanks for 'a beautiful, healthy daughter', read as a dig at Faris because Jack was born premature. It quotes his publicist-script joke and says what it shows for the image reading: 'An image manager keeps to the line. A father defending his son, by his own account, did not.' c-why-coming-after-me's passage is updated; c-healthy-daughter and c-publicist were added."
+    },
+    {
+      "finding_id": "fan-04-childhood-split",
+      "action": "fixed",
+      "reason": "Fixed. In 'Why not Type 7?' the hyperactive quote now carries '(and, in the same breath, \"really sensitive\")'. 'Where Andy came from' quotes GQ 2015 ('I was really sensitive. I cried a lot.') and says the father/sensitivity account appears in both 2015 and 2022. VF's 'I was a peculiar kid... I dressed funny and was comfortable in my own skin' is confronted in the counter-pattern section as terms 'a Three rarely uses'. c-gq-sensitive and c-peculiar were added."
+    },
+    {
+      "finding_id": "fan-05-ending-fun-never-left",
+      "action": "fixed",
+      "reason": "Fixed. The bio now names his animated voice leads (Mario, 2023), and the ending says the plan meant live-action leads because 'he has voiced animated comedies all along'. The '2015 move in reverse' and 'eleven years' framing is gone. The ending now concerns how the plan was made (with his manager and agent), so it holds whatever his slate becomes. c-ending-interp's inference is updated."
+    },
+    {
+      "finding_id": "fan-06-mtv-worst-chris-context",
+      "action": "fixed",
+      "reason": "Fixed. The meme link is attributed as his belief, and Gunn's 'about his politics' remark is added. The MTV sentence says he 'mixed jokes (\"Don't be a turd\")' with the God lines and quotes Men's Health: 'people mostly just remember the God part.' On neutrality, the prose uses his own 2026 words ('doesn't feel strongly enough \"to take a stand right now\"'). The 2017 and 2024 statements stay in the evidence (c-politics cites Wikipedia) and are left out of the prose for length. c-politics records that the stance fits 3 and 9 equally."
+    },
+    {
+      "finding_id": "fan-07-andy-guest-spot",
+      "action": "fixed",
+      "reason": "Fixed. The niche section now quotes Vanity Fair: Andy 'was supposed to be a one-episode deal, a guest spot, but the character took off.' c-guest-spot cites src-vf-2017 and src-wikipedia."
+    },
+    {
+      "finding_id": "fan-08-providential-frame",
+      "action": "fixed",
+      "reason": "Fixed. Before the Nine case, the article says 'He tells these turns as providence' and quotes Vanity Fair's 'he sees it as divinely ordained'. It then weighs the self-initiated moves ('The same record is full of moves he made himself, from answering the ad to \"Put me in a movie.\"'), and the Nine test uses them."
+    },
+    {
+      "finding_id": "critic-01",
+      "action": "fixed",
+      "reason": "Fixed. The hook attributes the image to his own offscreen and interview persona. It reports, with the GQ link, 'first guy in line to buy that line of bullshit', the Farley comparison and 'didn't feel too great about who I was'. The Seven section now says the mask reading 'is partly Pratt's own' and quotes 'I think that's often the case with comedians'. The Three reading of the quote rests on 'I also understood that there was value to it', quoted in context."
+    },
+    {
+      "finding_id": "critic-02",
+      "action": "fixed",
+      "reason": "Fixed. 'Why not Type 7?' now counts Maui for Seven ('Maui was a year of fun beating ambition'). It gives the Three reading's answer only as labelled interpretation and ends 'Maui remains the best evidence against it.' The 2026 homecoming details (partying; the friend's 'dude, you don't look good. You seem off') sit beside the VF concealment quote. Both were checked with a second transcription model (large-v3-turbo vs small.en, 11:30-12:00). The 'tracks the room' sentence is replaced with the professional-incentive explanation and is no longer counted as type evidence."
+    },
+    {
+      "finding_id": "critic-03",
+      "action": "fixed",
+      "reason": "Fixed. The discriminator is restated at motive level: what the cheerful front protects. Each remaining bullet tests it: the hidden outcome versus the disclosed depression; the worth problem paired with market value ('there was value to it', 'paying better'); and the 2026 'completely deferential... so long as it kept him employed'. Gunn's line is out of the bullets and now appears with Pratt's 'cerebral' framing and the note that it fits more than one type. The fun-was-the-image contradiction is gone, and Faris is out of the weightiest cases."
+    },
+    {
+      "finding_id": "critic-04",
+      "action": "fixed",
+      "reason": "Fixed. The sentence now reads 'Several of his biggest turns came from other people', and the self-initiated moves are set against it. Type 9 is named in the 60-word answer, the type FAQ ('Type 9 remains live') and the type section. It is tested with sourced discriminators: deference with a purpose clause ('Just keep me employed as an actor') and competitive selling ('I sold 500' vs 17 or 22), both checked by two transcription models. The salesman-of-the-year line was not used because it rests on one transcription model."
+    },
+    {
+      "finding_id": "critic-05",
+      "action": "fixed",
+      "reason": "Fixed. The sentence keeps his mechanism: 'the clown began as armor against a man who found sensitivity dangerous.' The next sentence says whether it was built to win the father over or keep the hurt out is the Three-versus-Seven question and the quote can't settle it. The Seven section describes the quote the same way ('self-defense')."
+    },
+    {
+      "finding_id": "critic-06",
+      "action": "fixed",
+      "reason": "Fixed. The hook no longer says he learned to sell 'fun'. It speaks of 'the price' and the PMA chant, and the body quotes his word, 'attitude'. The chant sentence adds that he said it 'either instilled in me or potentially revealed a resilience that I had' and 'So I loved it' (two models agree, 07:15-08:05). The ending reports his stated reasons for the comedy plan and labels the salesman bridge 'on this reading'."
+    },
+    {
+      "finding_id": "critic-07",
+      "action": "fixed",
+      "reason": "Fixed. The heading is now 'I found my niche' (his words), and the FAQ anchor is updated. The section says his reasons 'don't all point one way' (it made him laugh, nobody else was doing it, it paid). It adds Vanity Fair's account that he had just married, and the hook carries 'didn't feel too great about who I was'."
+    },
+    {
+      "finding_id": "critic-08",
+      "action": "fixed",
+      "reason": "Fixed. The cost is attributed ('By his account...'). The section quotes other cited causes (Gunn on invented claims 'about his politics'; the box-office note) and adds 'Faith audiences are a market too, so the cost was never one-way'. It keeps the point that he has kept the commitment public through criticism."
+    },
+    {
+      "finding_id": "unfamiliar-1",
+      "action": "fixed",
+      "reason": "Fixed. Paragraphs 1-3 now make clear that the image was the happy fat guy of his interviews and home life in the heavy years, with Andy only the role he was playing. The sales sentence speaks of 'the price' and the chant, and 'attitude' is quoted in his words in the next section. A reader who stops after the third paragraph can say what he called an image."
+    },
+    {
+      "finding_id": "unfamiliar-2",
+      "action": "fixed",
+      "reason": "Fixed. The body shows the weight changing role by role while he kept playing Andy, sourced at the passage (Wikipedia link; GQ named): lost for Moneyball, regained for 10 Years, lost for Zero Dark Thirty, up to 295 for Delivery Man. The Type 7 bullet about the trade is gone. The 'Is Chris Pratt a Type 7?' FAQ no longer mentions dieting, and the weight FAQ gives the sequence. No sentence says he gave up Andy or the persona in one move."
+    },
+    {
+      "finding_id": "unfamiliar-3",
+      "action": "fixed",
+      "reason": "Fixed. Type 9 is placed explicitly as a live secondary reading. The 60-word answer and type FAQ say 'Type 9 remains live', and the type section says it 'gets its test near the end'. The counter-pattern section explains why it ranks below 7: it explains the competing worse and has nothing as strong as Maui."
+    },
+    {
+      "finding_id": "unfamiliar-4",
+      "action": "fixed",
+      "reason": "Fixed. 'Saw through it' is replaced with 'noticed he was floundering' (VF: 'One of my best friends heard I'd been floundering'). The paragraph before it gives the 2026 scene in his words ('dude, you don't look good. You seem off.'), quoted after a second transcription confirmed it. The podcast is linked at its first mention in the same section."
+    },
+    {
+      "finding_id": "unfamiliar-5",
+      "action": "fixed",
+      "reason": "Fixed. The section now gives three dated, sourced tellings: an adventure (The Independent, 2014), a low point (Vanity Fair, 2017) and a rescue from 'the wrong path' (Not Dead Yet, 2026). The heading and FAQ anchor stay accurate."
+    },
+    {
+      "finding_id": "unfamiliar-6",
+      "action": "fixed",
+      "reason": "Fixed. The photo anecdote moved to 'What the type doesn't explain', where it reads as counterevidence (reluctance about self-promotion). Faris moved to the limits paragraph. The topic-sentence paragraphs ('The wish to be liked was rehearsed', 'Self-promotion took a push', 'One line touches his private life') are gone, and the section now ends on his marketplace self-description, which advances the selling thread. Length note: the body is 4,336 words, under the 4,500 ceiling. It is longer than the draft because the jury required restored context (the GQ passage, the weight sequence, the Nine test, the stated reasons for the comedy plan). Cuts elsewhere (the Leno and purse paragraphs, the 'just a gift' joke, the Zero Dark Thirty quote, the Carrey and GQ son-test lines, the Proverbs line) offset part of it."
+    },
+    {
+      "finding_id": "unfamiliar-7",
+      "action": "fixed",
+      "reason": "Fixed. The section opens with the cost attributed ('By his account...'). The claim is no stronger than what follows: his own 2026 'stood for something' account, his 2022 belief about the speech, and other cited causes."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "action": "fixed",
+      "reason": "Fixed. The discriminator is stated at motive level: a Seven's front keeps pain and limits out of the room, a Three's keeps failure out of sight and tracks approval. Each bullet says why it fits worth and value better than pain, and unsupported bullets were removed (dieting, Gunn, the fun-as-image line). The fat-guy passage keeps 'It made him laugh' as a pleasure motive and says 'The appetite reads as Seven'. The Gunn sentence is reframed ('fits more than one type, since a Seven entertains everybody too') and given his 'cerebral' overthinking context. 'Pratt's record keeps the appearance' is replaced by 'it points more often to worth than to pain'."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "action": "fixed",
+      "reason": "Fixed. The hook attributes the image to his offscreen fun. With GQ attribution, the hook and the Seven section give 'first guy in line to buy that line of bullshit', the Farley comparison and 'I think that's often the case with comedians'. Bullet two argues that the mask over 'didn't feel too great about who I was' is 'a problem of worth more than of fear'. The meta description and meta_title are accurate to the corrected reading."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "action": "fixed",
+      "reason": "Fixed. The Maui year is counted as the strongest off-camera case for Seven in both the Maui section and 'Why not Type 7?'. That includes VF's 'always giving away my shifts because I didn't have much overhead' (now in the draft). The Three reading answers it only with a labelled story about seizing the Chong opening. 'Tracks the room' is replaced with the professional-incentive explanation and is not counted as type evidence."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "action": "fixed",
+      "reason": "Fixed. A short passage tests 3 against 9 using his self-initiated moves and competitive selling against the deferrals, says the Nine reading explains his ease with advisers better but the competing worse, and explains why 7 outranks 9 (nothing as strong as Maui). It acknowledges 6 for the deference cluster ('the record shows little of a Six's vigilance; in his stories he jumps first'). The 60-word answer and type FAQ match this ranking."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "action": "fixed",
+      "reason": "Fixed. The 'Is Chris Pratt a Type 7?' FAQ rests on the repaired discriminator: failure and market value more than pain, with the hidden sales failure framed as what 'he points to'. It names Maui as the best evidence for 7 and no longer says he gave up the Andy persona. The 60-word H2 answer (59 words) and the type FAQ are identical. Neither describes the sales failure as fun versus the look."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "action": "fixed",
+      "reason": "Fixed. The sentence keeps his frame ('armor against a man who found sensitivity dangerous'). The next sentence says both the Three and Seven readings claim the quote and that it can't settle them."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "action": "fixed",
+      "reason": "Fixed. The faith section now ends: 'A Three reading hears a man naming the trap his type walks into; a plainer one hears a believer on a faith podcast. Either way, it runs against the marketplace self he described, and the type can't claim it as confirmation.'"
+    },
+    {
+      "finding_id": "future-01",
+      "action": "fixed",
+      "reason": "Fixed. The closing dates the plan to the March 31, 2026 episode and the meeting with his manager and agent. It reports his stated reasons and notes the October 2026 action signals (Terminal List season 2; Variety's Star-Lord 'not going anywhere'). It rests on how fun was weighed as a career asset, not on a forecast of his filmography. The misdated '2015 move' is gone. c-mercy now cites Rotten Tomatoes (24% of 185 reviews) and The Numbers ($53.7M worldwide, $60M budget) as well as Wikipedia. c-comedy-turn, c-ending-interp and c-terminal-list-s2 carry an October 2028 check."
+    },
+    {
+      "finding_id": "future-02",
+      "action": "fixed",
+      "reason": "Fixed. The Terminal List sentence is cut from the orientation paragraph, which now ends on stable facts (voice roles). The series appears only in the dated closing paragraph as an October 2026 event, and c-terminal-list-s2 keeps its review trigger."
+    },
+    {
+      "finding_id": "future-03",
+      "action": "fixed",
+      "reason": "Fixed. Gunn's line now reads 'Gunn told GQ that Pratt had...' inside a paragraph dated 2015. The undated Proverbs line was removed. The Worst Chris meme is in the past tense ('that ranked him') and attributed to Men's Health 2022. A scan of the body found no undated present-tense attribution of a pre-2026 remark."
+    },
+    {
+      "finding_id": "future-04",
+      "action": "fixed",
+      "reason": "Fixed. The Faris remark is no longer weighty, and c-faris-imagery has a review_trigger naming the Unqualified audio task and what the prose loses. The Leno passage (c-would-people-like-me) was cut, so the open speaker-attribution task no longer touches the article and was removed. c-work-to-live, c-photo-and-anger, c-chong-sales-2026 and c-fame-forecast now carry review triggers tied to their open checks. Every remaining research task names the claims it affects."
+    },
+    {
+      "finding_id": "future-05",
+      "action": "fixed",
+      "reason": "Fixed. The body link and frontmatter citation now point to the episode page https://www.spreaker.com/episode/chris-pratt--71008192 (200 on 2026-10-29), not the mp3 endpoint. src-not-dead-yet-2026 keeps and extends its timestamped locator, including the edit-stage second-model checks."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Plenty of 19-year-olds hide a failure. Pratt talks freely about the depression; what he hid was the result, and he showed success in its place until a friend saw through it and bought him a ticket to Maui.",
+      "action": "changed",
+      "reason": "Kept the distinction between the depression he disclosed and the result he hid, the 'everyone' caveat and the single-source limit. Only 'a friend saw through it' changed, to 'a friend noticed he was floundering': the earlier wording was the author's gloss (unfamiliar-4), and VF says the friend 'heard I'd been floundering'."
+    },
+    {
+      "passage": "A skeptic can read this as the Three's instinct applied to faith: one framing for a men's magazine mid-backlash, another for a Christian outlet mid-promotion. The fairer reading holds both.",
+      "action": "kept",
+      "reason": "Kept verbatim. The follow-on sentence now says 'years of criticism' instead of 'years of cost' (subject-04)."
+    },
+    {
+      "passage": "I was the king of my school and I don't have a yearbook because it was $35 and I just wouldn't ask them for that much money.",
+      "action": "kept",
+      "reason": "Kept verbatim (two-model verified)."
+    },
+    {
+      "passage": "Other people make his biggest moves. His mother bought the ticket home, a friend the ticket to Maui, and a stranger took him to church.",
+      "action": "changed",
+      "reason": "The first sentence is qualified to 'Several of his biggest turns came from other people', because the article's own record shows many self-initiated moves (critic-04). The second sentence is unchanged, and the Type 9 strand is now tested rather than parked, so the counterevidence still stands."
+    },
+    {
+      "passage": "The Three reading has limits. Acting rewards image management in every type, so the dieting alone proves little.",
+      "action": "kept",
+      "reason": "Kept verbatim. The sentence after it was repaired (subject-03): Faris is out of the weightiest cases."
+    },
+    {
+      "passage": "The joke softens a strange admission. Andy was one of the happiest characters on network television, and Pratt calls that happiness an image he was casting, then trades it away in two short sentences.",
+      "action": "changed",
+      "reason": "The first sentence is kept. The second ('Andy was one of the happiest characters... Pratt calls that happiness an image') was removed because it misattributed the quote: in GQ the image was his own offscreen persona in the heavy years (subject-01, critic-01, enneagram-02, unfamiliar-1). The hook still turns the half-remembered quote into the article's question, now with the GQ context (feeling rotten, the Farley comparison, 'there was value to it'). It needs no maintenance."
+    },
+    {
+      "passage": "Little brothers copy big brothers in every type. What stands out is what the boy wanted, in the man's telling: the effect. A room knocked out, and his mother in tears.",
+      "action": "kept",
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "A Seven gets bored. A Three gets restless without a goal. In Pratt's version, the boredom sends him back to work.",
+      "action": "kept",
+      "reason": "Kept verbatim, with the GQ bird-hunting exchange before it."
+    },
+    {
+      "passage": "His example puts status and hidden need in one sentence: \"I was the king of my school and I don't have a yearbook because it was $35 and I just wouldn't ask them for that much money.\"",
+      "action": "kept",
+      "reason": "Kept verbatim (two-model verified)."
+    },
+    {
+      "passage": "One GQ exchange cuts both ways. Retiring early to a ranch to hunt birds, he said, was \"what I secretly want to do.\"",
+      "action": "kept",
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "That is common audition advice. What stands out is how long Pratt was better at the selling than the job.",
+      "action": "kept",
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "A Three can sincerely want a quieter life while living a louder one, and he still calls his career a very high priority.",
+      "action": "kept",
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "What happened next matters most for typing, because no camera was involved.",
+      "action": "kept",
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "It is also the 2015 move in reverse. Eleven years after \"Now I have less fun. I focus more,\" the fun is back on the plan, chosen in a meeting by a man who learned as a teenage salesman that the attitude is part of what you sell.",
+      "action": "changed",
+      "reason": "'2015 move in reverse' and 'eleven years' were dropped because the trade happened before Guardians, not in 2015, and the plan concerns live-action roles only (future-01, fan-05). The ending still ties the hook to the sales origin and the dated meeting with his manager and agent. The salesman bridge is now labelled 'on this reading' (subject-08, critic-06), and his stated reasons come first."
+    },
+    {
+      "passage": "Ambition proves little in Hollywood, where everyone has it. The sharper tell is managing the impression when no camera is running, and treating your own fun as part of the presentation.",
+      "action": "kept",
+      "reason": "Kept verbatim. The corrected hook makes 'treating your own fun as part of the presentation' more accurate, since the fun in question is now his offscreen persona."
+    },
+    {
+      "passage": "If image explained everything, Pratt would have stopped talking about God years ago. His faith has cost him with the mainstream audiences an image manager would court.",
+      "action": "changed",
+      "reason": "The first sentence is kept. The second is now attributed ('By his account, faith is the first thing he let cost him with the mainstream audience an image manager would court') because the cost was asserted against its own source (subject-04, critic-08, unfamiliar-7). The section still confronts the counterevidence at full strength."
+    },
+    {
+      "passage": "Eleven years after \"Now I have less fun. I focus more,\" the fun is back on the plan, chosen in a meeting by a man who learned as a teenage salesman that the attitude is part of what you sell.",
+      "action": "changed",
+      "reason": "As above: the misdated 'eleven years' framing was removed. The close still ties the hook to a dated choice (the March 2026 meeting) without asserting the type, and it follows his stated reasons and the market context."
+    },
+    {
+      "passage": "Both can be true, and the interviewers asked different questions. Still, the emphasis tracks the room: an adventure for a blockbuster junket, a rescue for a cover story about finding his path.",
+      "action": "changed",
+      "reason": "The dated comparison is kept and extended to three tellings (2014, 2017, 2026): 'All three can be true, and the interviewers asked different questions. The emphasis shifts with the room...'. It now names the professional-incentive explanation and is not counted as type evidence (critic-02, enneagram-03). What the tellings share (the Maui year of fun over ambition) is now the counted datum."
+    },
+    {
+      "passage": "Acting rewards image management in every type, so the dieting alone proves little.",
+      "action": "kept",
+      "reason": "Kept verbatim."
+    }
+  ],
+  "prior_blockers": []
+}

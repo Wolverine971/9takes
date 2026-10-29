@@ -282,7 +282,7 @@ Enthusiastic and inspiring. Fosters creative, dynamic environments. Encourages e
 
 **As a peer**
 
-Energetic, always suggesting new ideas. Source of inspiration and motivation. Eager to collaborate and brainstorm. Gets restless with routine and is always looking for the next thing.
+Energetic, always suggesting new ideas. Source of inspiration and motivation. Eager to collaborate and brainstorm. Gets restless with routine and is [always looking for the next thing](/enneagram-corner/why-the-next-thing-wont-fix-it-type-7).
 
 **As a subordinate**
 

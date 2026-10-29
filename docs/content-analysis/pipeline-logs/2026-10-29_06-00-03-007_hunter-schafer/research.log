@@ -1,0 +1,16 @@
+Research stage for Hunter Schafer is done. The only file written is the requested `evidence.json` in the run directory. It passes the schema validator and a quote check of every excerpt against the cached source text.
+
+**Outcome: `status: ready`, standard format.** Leading read is Type 4 at medium confidence, with Type 3 as the strongest alternative and 9 and 6 named as weaker live reads. The record has 45 opened sources (28 primary, 3 testimony, 14 secondary) and 54 claims, 16 of them cited for the hypothesis.
+
+**What the record shows.** Ten years of long-form interviews (W 2018, Dazed and NYT 2019, Allure 2020, Harper's Bazaar 2021, GQ 2024, Rolling Stone 2024, ELLE November 2026), two full podcasts (Call Her Daddy 2024, A24 with Lorde), her parents' 2016 WUNC interview, and testimony from Zendaya, Heidi Bivens, Dan Stevens, Tilman Singer, Dara Allen and Michelle Yeoh. The consistent thread is identity made visible through art: "the project of my life" is "trying to feel seen and learn how to see others correctly," her public self is "the drag version of who I am" kept separate "for my sanity," and she judges work by "the artistic truth of it before it ever comes out."
+
+**The discriminator** is where she locates the self and its validation. A Type 3 read predicts image-fusion and reception-tracking. She repeatedly disidentifies from her image, calls fame a tool she would trade away, and describes herself as shy and socially anxious. When identity collided with expectation (parents in 2013, the trans community in 2022, her own earlier gender ideology before the December 2025 surgery), she revised toward what felt true and took the cost.
+
+**Risk flags.** `sensitive_allegations: true`, so the draft will get the six-role jury. Reasons: her on-record claim that Dominic Fike cheated, the 2022 transmedicalism accusation she denied, and Dan Stevens's hearsay about the Euphoria set. Contested typing is false.
+
+**Verification notes.**
+- Key podcast and video quotes were re-transcribed from audio with Whisper; excerpts follow the audio. One caption error was caught ("wanted you to hold her back" vs "wanted to hold her back").
+- The U.S. Vogue June 2026 interview was not located; its "Is the jig up?" line is held as a secondary Cover Media copy with a research task to find the original.
+- Five claims are marked time-sensitive with triggers: Blade Runner 2099's November 2026 premiere, Euphoria's ending, her relationship status, her stated projects, and current biographical facts.
+
+The next stage is the draft. Full transcripts and page caches live outside the repo in the research cache directory.

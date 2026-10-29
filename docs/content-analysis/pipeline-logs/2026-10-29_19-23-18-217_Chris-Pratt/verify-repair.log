@@ -1,0 +1,33 @@
+The Chris Pratt repair passed verification. I wrote `verification-repair.json` to the run folder and changed nothing else. Nothing was published.
+
+**Result:** Running the contract's own gate check on it gives eligible, with no blockers. One thing to know before you publish: the overall score is **8.5, exactly the floor**, and it only gets there by rounding (the weighted average is 8.465). A 0.1 drop in Evidence or Enneagram would have held it.
+
+| Dimension | Score |
+|---|---|
+| Evidence | 8.5 |
+| Enneagram | 8.2 |
+| Originality | 8.8 |
+| Writing | 8.2 |
+| Durability | 8.7 |
+| Hook | 8.7 |
+| Discoverability | 8.5 |
+
+**What I checked against the sources:**
+- **Text sources:** I fetched fresh copies of GQ, Vanity Fair, Men's Health, The Independent, Christian Post (via an archived copy, since the live page blocks bots), the Daily Beast, Fox, GMA, Rotten Tomatoes and Wikipedia. Every quote matches in wording and context.
+- **The two errors from the last round are fixed.**
+  - The Gunn and Rapkin caveats are in Men's Health and now credited there. Neither phrase appears in the Daily Beast article.
+  - On the podcast, Pratt does name *Mercy* ("Mercy I did recently"), and the ending now reports that correctly.
+- **Podcast quotes:** I transcribed the full *Not Dead Yet* episode with one model and re-ran the quoted stretches with a second. Every quoted phrase agrees.
+- **YouTube quotes:** the *SmartLess*, *Happy Sad Confused* and *Club Random* paraphrases match the auto-captions.
+- **New errors from the repair:** I compared the edit and repair versions and rechecked every sentence the repair added. None introduced a new error.
+
+**Three minor findings remain.** None blocks release.
+1. **Hook order:** "Then he added: 'I also understood that there was value to it'" puts that line after the Chris Farley comparison. In GQ it came before, so the answer actually ended on Farley's pain, not on value.
+2. **Unlabelled reading:** "Pratt names worth and value more often than pain" is written as a fact, but it's the author's reading. He names pain often too.
+3. **Missing recheck note:** the *SmartLess* audition claim rests on captions and has no note telling a future refresh to check the audio. The paraphrase itself is accurate.
+
+**Scores, in plain terms:**
+- **Enneagram (8.2):** the Type 3 case is honest at medium confidence, but it leans on Pratt describing himself after the fact. The Maui year, which reads as Type 7, only gets an interpretive answer.
+- **Writing (8.2):** the faith section jumps between years (2025, 2012, 2018, 2026, 2022, 2019) and stacks outlet credits. At 3,926 words the piece also runs past the 3,500 target.
+
+If you want margin above the floor before publishing, the cheapest wins are fixing the two wording findings and tightening the faith section's order.

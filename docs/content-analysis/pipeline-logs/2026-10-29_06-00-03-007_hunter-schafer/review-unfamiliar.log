@@ -1,0 +1,12 @@
+The review-unfamiliar stage is done. I wrote the single requested output, `docs/content-analysis/pipeline-logs/2026-10-29_06-00-03-007_hunter-schafer/review-unfamiliar.json`, and touched nothing else. It validates against the project's review schema, every cited passage matches the frozen draft exactly, and the role and both hashes are copied from the request.
+
+**What the review says, reading as someone who has never heard of Hunter Schafer:**
+
+- **Momentum and stakes are strong.** The 2016 versus 2024 label reversal hands a stranger the thesis as a puzzle before any Enneagram vocabulary, each section adds a new kind of evidence, and the final quote pays off a line planted in the childhood section.
+- **Orientation is the main failure.** The body never tells a newcomer that she is famous for playing Jules, a trans teenager, on HBO's Euphoria from 2019, and never identifies Sam Levinson as the show's creator. The article then leans on that unstated knowledge at two load-bearing moments.
+- **Four major findings.** The missing who-she-is orientation. The "Jules was made from the same material" step, which rests on a premise the body never states though the evidence record has it. The closing "freshman year in a skirt" callback, a detail that appears nowhere earlier in the article and is also absent from the recorded excerpts of all three sources behind it, which I flagged for the evidence reviewer. The relationships section, which announces "the telling part" and never says what it tells, while carrying the page's most sensitive claim about a named person.
+- **Four minor findings.** The "would trade it for the money" clause summarizes evidence the reader never saw. The bathroom bill is never explained. The discriminator sentence cites a year the body never gives and forward-references the 2025 surgery reasoning before it is told. One sentence in the "leaves out" section reads as self-contradicting on first pass.
+- **Five protected passages**, including the hook's turn, the "decoy" sentence that separates Type 3 from Type 4 without jargon, and the closing line.
+- **Length and similarity.** The body is 3,990 words against the standard's 2,000 to 3,500 target. The similarity diagnostic tripped nothing, and I agree the argued details are specific to her.
+
+Risk flags mirror the evidence record, with sensitive allegations kept true and no new escalation. The pipeline's next stages, the remaining jury roles and then the edit, are not part of this request and I did not start them.

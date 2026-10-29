@@ -1,0 +1,16 @@
+The review-subject stage is complete. I wrote the one requested output and touched nothing else.
+
+**Output:** `docs/content-analysis/pipeline-logs/2026-10-29_06-00-03-007_hunter-schafer/review-subject.json`. It validates against the review schema in the contract file, copies the role and both hashes from the request, and every finding and protected passage matches the frozen draft text exactly.
+
+**What I checked.** I reopened the cached texts for ELLE 2026, GQ 2024, Harper's Bazaar 2021, WUNC 2016, Seventeen 2022, Out 2022, Attitude 2023, ELLE UK 2023 and the Whisper segment of Call Her Daddy, plus one web check on whether Dominic Fike ever answered the infidelity statement. He has not, but PinkNews and IBTimes reported an unconfirmed reunion in September 2026.
+
+**Three major findings:**
+- **The closing line invents a motive.** ELLE says she joined the dance painfully aware of being watched and kept thinking "No". The draft says she did it "because the self she was had to come out and the room had to see it".
+- **The infidelity passage reads as if she named Fike.** She did not name him on the podcast. The draft also drops her credit to him from the same conversation, and the dating FAQ carries the same implication. I asked for a review trigger on the reunion reports rather than any body text.
+- **The gender section opens by calling her gender trajectory the longest-running evidence for the type.** The existing guard covers the surgery but not the identity itself, so the page can be quoted as saying being trans is a Type 4 behavior.
+
+**Five minor findings** cover wording that shades fact or motive against her or her parents: the "ideology" word in the Type 3 section, the causal link between her image strategy and the 2022 controversy, the secondhand "never really goes away" depression fragment without her balancing words, the unsourced "her circle already knew", and "her parents said no twice" where WUNC says her message did not land.
+
+**Protected passages** are the WUNC-to-GQ hook, the "decoy" discriminator line, the fair handling of the 2022 episode, the surgery guard, and the no-response disclosure for Fike.
+
+Risk flags are unchanged. The similarity diagnostic did not trip, and the near matches are ordinary Type 4 definition language rather than reused argument. The next stage in the pipeline is the editor's adjudication of these findings.

@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "subject",
+  "content_sha256": "8d021edec0f65c80e2001a16c661a16d036d8bfce1912c3169b1add839bc42a0",
+  "evidence_sha256": "096b49611f9e415728dd897eb54bd612af13f28c1a40157459014777e6e7ecb9",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": false,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "subject-01-closing-invented-motive",
+      "severity": "major",
+      "passage": "A shy kid who did the dance anyway, crying, because the self she was had to come out and the room had to see it.",
+      "problem": "The closing line assigns a motive to a small child that the source does not contain and partly inverts it. ELLE (S04, opened) says she joined the dance while 'so cripplingly aware of how she was being viewed, it wasn't fun,' and her own gloss is 'I kept being like, No. I think that's what I was at my core before this job broke me open.' Nothing in the source says the self 'had to come out' or that 'the room had to see it'; that is the thesis speaking for her. Because it is the last sentence, it is the reading a visitor leaves with, and it turns her account of a shy child performing under social pressure into a claim about her need to be seen.",
+      "acceptance_test": "The closing paragraph contains no 'because' clause or other motive that she did not state. It may restate her own framing (shy core, did it anyway, 'this job broke me open') and set it beside the Call Her Daddy line, but the causal reading, if kept at all, is marked as the article's ('on this reading') rather than stated as fact."
+    },
+    {
+      "id": "subject-02-fike-attribution-and-balance",
+      "severity": "major",
+      "passage": "In August 2024, on Call Her Daddy, Schafer gave her account. \"It's part of why the relationship ended, is I got cheated on for the first time,\" she said, adding that Fike had written about it in his songs. No response from Fike turned up in the sources checked for this page.",
+      "problem": "In the re-transcribed segment (S05, chd-men-cheated) she never says Fike's name; she speaks of 'my last relationship' and 'a straight guy who is in the music scene,' and the identification comes from context and from contemporaneous reporting (E! News, Complex, Marie Claire UK, August 2024). The draft writes as if she named him, and the dating FAQ places 'she had been cheated on' directly after the Fike sentence with the same effect. The same segment also has her crediting him ('he's toting me around, happy to be my boyfriend in front of the world... he didn't care at all... you see me... and you love me for that' and 'I've said all these amazing things with him'), none of which appears; the article keeps only the accusation about a named living person. Separately, PinkNews (2026-09-07) and IBTimes UK report that Fike introduced a song onstage as written about his 'girlfriend' and that the two were seen together around his late-August 2026 Chicago and Seattle shows; neither has confirmed anything, so this is not for the body, but it is a live review trigger that the inventory (C33) and FAQ lack.",
+      "acceptance_test": "The body says she did not name him on the podcast and that the identification rests on her description of her last public relationship and on August 2024 reporting; it keeps the sentence that no public response from Fike was found; it adds one sentence of her own credit to him from the same conversation; the dating FAQ carries the same 'did not name him' qualifier. C33 and the dating FAQ gain a review_trigger for the unconfirmed September 2026 reunion reports, with no reunion claim in the article itself."
+    },
+    {
+      "id": "subject-03-gender-as-type-evidence",
+      "severity": "major",
+      "passage": "How she has handled her own gender in public is the longest-running evidence for the type.",
+      "problem": "As written, the section opens by making her gender identity trajectory (nonbinary exploration at 17, 'let myself be' at 20, 'I'm a woman. I'm a girl' at 27) the main evidence for an Enneagram type. The guard two paragraphs later ('The surgery is not evidence of anything about her type. Her reasoning is.') covers the operation but not the identity itself, so a hostile reader can quote the page as saying that being trans, or revising one's gender, is a Type 4 behavior. That is the overclaim most likely to harm her and the site. The research record already flags that identity preoccupation is largely explicable by a trans adolescence, and ELLE adds the caveat the draft drops: 'Medically transitioning was right for Schafer, but every trans person is different.'",
+      "acceptance_test": "The sentence is rewritten so the evidence is named as the way she revises a publicly stated self-description when it stops matching what she feels, and a plain sentence states that neither her gender nor her medical decisions are evidence of any personality type (extending the existing surgery guard). ELLE's 'every trans person is different' caveat, or an equivalent in the article's own words, appears in the section."
+    },
+    {
+      "id": "subject-04-ideology-wording",
+      "severity": "minor",
+      "passage": "When identity collided with expectation, with her parents in 2013, with her community in 2022, and with her own earlier ideology in 2025, she revised toward what felt true to her and took the cost each time.",
+      "problem": "The word is sourced (she says queerness works 'on an ideological level' and ELLE brackets '[reality and ideology]'), but stripped of that framing it reads as the author calling her earlier gender-expansive identity an ideology, which is a political characterization of a trans woman's past self-understanding. In the same sentence the parents and the community are external pressures while 'ideology' is turned inward on her.",
+      "acceptance_test": "The phrase either attributes the word to her ('what she now calls the ideological side of queerness') or is replaced with a neutral term such as 'her own earlier self-concept,' and the sentence still reads as her revising a held position rather than renouncing a belief system."
+    },
+    {
+      "id": "subject-05-strategy-collided-causal-link",
+      "severity": "minor",
+      "passage": "The strategy collided with the community that made her a symbol once, in August 2022, when she liked, and commented \"!!!!!\" on, an Instagram post arguing that nonbinary activists had brought anti-trans legislation down on binary trans people.",
+      "problem": "'The strategy' in context is her perception management and de-centering of transness. The 2022 episode was about binary versus nonbinary visibility and had nothing to do with her billing or image; the research record itself frames it as her 'stay in your lane' instinct, not the strategy. Presenting the like as a consequence of the strategy imputes a motive for a contested act she explained differently (agreement with one point about visibility and resources).",
+      "acceptance_test": "The 2022 episode is introduced on its own terms (e.g., 'Her one public rupture with the community came in August 2022') with no claim that it followed from the perception strategy; the paraphrase of the post and her September 2022 response stay as they are."
+    },
+    {
+      "id": "subject-06-depression-fragment-balance",
+      "severity": "minor",
+      "passage": "Puberty had brought a depression that, she said in 2023, \"never really goes away.\"",
+      "problem": "The four-word fragment is Attitude's secondhand report of an AnOther interview that was not opened, and the draft presents it as a direct 2023 statement while omitting the sentences she attached to it ('You just figure out how to live with it, live a life with it. And I'm on meds now, which are great'). For a mental-health claim about a living person, keeping only the bleak half and dropping her own framing is unfair to her and misstates her current account.",
+      "acceptance_test": "The sentence names AnOther as the original interview (reported by Attitude) and carries her balancing statement in her words or a close paraphrase, or softens to Attitude's paraphrase without the quotation marks."
+    },
+    {
+      "id": "subject-07-circle-already-knew",
+      "severity": "minor",
+      "passage": "Then, in a hotel tea room, she told the writer something her circle already knew.",
+      "problem": "ELLE does not say her circle knew. It shows her 'silently weighing the pros and cons of a disclosure' and saying 'Maybe it's a good thing to share.' The only support is that friends and family visited during her recovery. The detail is small but it is an invented fact attached to the most private disclosure on the page.",
+      "acceptance_test": "The clause is removed or replaced with what ELLE shows (that she weighed whether to share it), with no claim about who already knew."
+    },
+    {
+      "id": "subject-08-parents-said-no",
+      "severity": "minor",
+      "passage": "Her parents said no twice. The third attempt landed, her mother told WUNC, because \"we had kind of lost our kid.\"",
+      "problem": "WUNC's framing is that she 'tried to come out to you twice as transgender before her message finally hit home,' and Katy's quoted response was 'just because you're an artist and just because you like pretty things, that doesn't mean you're transgender.' That is not hearing, not a refusal. 'Said no' casts two living private people, who are also her main support, as having twice forbidden her transition, which the source does not say.",
+      "acceptance_test": "The sentence tracks the source: her first two attempts did not land, or her parents did not take it in, with the mother's 'doesn't mean you're a girl' line available if the article wants the texture."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Read fast, that is a reversal. Read slowly, it is the same complaint. At 17 the label that flattened her was \"cis girl.\" At 25 it was \"trans actress.\" The content changed. The objection to being reduced to a category before anyone looked did not.",
+      "reason": "The hook pairs two opened, dated first-person statements (WUNC 2016, GQ 2024) and lets her own words carry the pattern across a reversal of position; it is fair to her, specific to her, and does not speak for her."
+    },
+    {
+      "passage": "A Three manages an image to be admired for it. What she describes is managing one so the admiration lands on the decoy while she is somewhere else.",
+      "reason": "The clearest statement of the discriminator, built from her 'drag' and 'Hunti' statements, and phrased as what she describes rather than what she secretly is."
+    },
+    {
+      "passage": "She did not apologize and she did not double down. She narrowed the claim to what she meant.",
+      "reason": "A fair, source-faithful handling of the contested 2022 episode: both sides are attributed, her September 2022 comment is quoted, and the article declines to adjudicate the controversy for her."
+    },
+    {
+      "passage": "The surgery is not evidence of anything about her type. Her reasoning is.",
+      "reason": "The guard that keeps a medical disclosure out of the type argument; finding subject-03 asks that it be extended to her gender identity itself, not removed."
+    },
+    {
+      "passage": "No response from Fike turned up in the sources checked for this page.",
+      "reason": "The disclosure a named third party is owed when an accusation is reported; it should survive the repairs in subject-02."
+    }
+  ],
+  "assessment": "Fairness proxy read. The public record and the author's inference are mostly kept apart: the type claim is held at medium confidence in the body, the two sensitive episodes (the 2022 transmedicalism accusation and the infidelity statement) are attributed and dated, the surgery is disclosed in her words with a guard against treating it as type evidence, and the counterevidence section lets her lightness and her 'totally cool' hardening stand. I reopened ELLE 2026, GQ 2024, Harper's Bazaar 2021, WUNC 2016, Seventeen 2022, Out 2022, Attitude 2023, ELLE UK 2023 and the Whisper segment of Call Her Daddy from the research cache; the facility line, the protective-measure line, the 2022 statement and the dance memory all match their sources. The consequential problems are three: the closing sentence invents a motive for a child that the source contradicts; the infidelity passage reads as if she named Fike when she did not, keeps only the accusation from a conversation in which she also credited him, and lacks a review trigger for the unconfirmed September 2026 reunion reports; and the gender section opens by making her gender trajectory itself the longest-running evidence for the type, which the later surgery guard does not cover. The remaining findings are wording that shades motive or fact against her or her parents. The similarity diagnostic did not trip (max 0.033 against a 0.04 threshold); the top pairs are ordinary Type 4 definition language in the 'What is' section, not reused argument, and the article's particulars (drag, Hunti, the truck, the journal box, the 2022 narrowing) are hers alone. The surgery FAQ is acceptable because it is her own cover-story disclosure quoted verbatim; it should stay verbatim and not grow into an explainer. The sensitive_allegations flag stands; I do not see a fairness ground to add contested_typing, since the Type 3 case is argued at full strength in her own words."
+}

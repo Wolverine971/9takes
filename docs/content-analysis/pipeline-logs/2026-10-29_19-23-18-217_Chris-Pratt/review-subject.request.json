@@ -1,0 +1,20 @@
+{
+  "schema_version": 3,
+  "subject": "Chris-Pratt",
+  "mode": "create",
+  "role": "subject",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_review_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_19-23-18-217_Chris-Pratt/draft.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_19-23-18-217_Chris-Pratt/evidence-draft.json",
+    "similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_19-23-18-217_Chris-Pratt/similarity.json"
+  },
+  "outputs": {
+    "review-subject.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_19-23-18-217_Chris-Pratt/review-subject.json"
+  },
+  "content_sha256": "d10f7dda031a772de838286f895271512211f574a2ed42796026e0dc37e918a9",
+  "evidence_sha256": "29134fd4f1fdd151a93238265782ce60cb6eafd996ced53f69470a9c8230356b"
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 3,
+  "subject": "Chris-Pratt",
+  "mode": "create",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_verify_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_19-23-18-217_Chris-Pratt/candidate-repair.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_19-23-18-217_Chris-Pratt/evidence-repair.json",
+    "resolution": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_19-23-18-217_Chris-Pratt/resolution-repair.json",
+    "review-subject": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_19-23-18-217_Chris-Pratt/review-subject.json",
+    "review-fan": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_19-23-18-217_Chris-Pratt/review-fan.json",
+    "review-critic": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_19-23-18-217_Chris-Pratt/review-critic.json",
+    "review-unfamiliar": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_19-23-18-217_Chris-Pratt/review-unfamiliar.json",
+    "review-enneagram": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_19-23-18-217_Chris-Pratt/review-enneagram.json",
+    "review-future": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_19-23-18-217_Chris-Pratt/review-future.json",
+    "baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_19-23-18-217_Chris-Pratt/baseline-reader.md",
+    "checks": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_19-23-18-217_Chris-Pratt/checks-repair.json"
+  },
+  "outputs": {
+    "verification-repair.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-29_19-23-18-217_Chris-Pratt/verification-repair.json"
+  },
+  "content_sha256": "2cb599b72ea2b30e08ba7a60eb90ae07e74646d69ac5296ab4452ff420806395",
+  "evidence_sha256": "07a7d289a23e80828ce767737232508aca19d1f8f02b8d434c2161887769f286"
+}

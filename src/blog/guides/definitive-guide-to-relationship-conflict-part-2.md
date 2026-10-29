@@ -683,7 +683,7 @@ Remember these key takeaways:
 
 3. **Use structure** - Soft startups, mirroring, and one-issue conversations beat improvisation.
 
-4. **Repair beats perfection** - Reset early with repair attempts and clean apologies.
+4. **Repair beats perfection** - Reset early with repair attempts and [clean apologies](/enneagram-corner/how-to-apologize-like-a-pro).
 
 5. **Get help when stuck** - Therapy or mediation can break long-running loops.
 

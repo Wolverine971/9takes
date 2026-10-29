@@ -1,0 +1,22 @@
+The enneagram review stage is complete and validated. Only one file was written, the requested `review-enneagram.json` in the run directory. No other files were touched and nothing was published.
+
+**What the review found**
+
+Type 4 is a defensible leading read at medium confidence, and the draft avoids the usual escape hatches. It uses no wings, arrows or subtypes to explain away the sunny affect or the control-versus-surrender contradiction. The problem is how the rival types are beaten.
+
+Four major findings, all in the discriminator and the "Why not Type 3" section:
+
+- **The discriminator's three-instance pattern has one miss.** The 2022 transmedicalism episode was a clarification and denial, not a revision toward a felt truth at a cost. The draft's own body text says so. On the 2025 surgery, "a Three revises toward what works" cannot separate anything, since what works and what felt true are the same decision there.
+- **Type 3 is argued against the textbook Three only.** Her own lines fit the disidentified, impostor-prone Three who calls the persona a costume and asks whether the jig is up. The article treats fraud doubt as anti-Three evidence when it is common in Threes. The record holds a sharper behavioral discriminator the article never states: across 2018 to 2026 she explains her making as filling an absence and getting release, never as landing.
+- **Type 6 is dismissed with "not safety."** Her own Vogue line refutes it: she says she is "infiltrating to the point where I feel safe enough in this world to do whatever I want." The Blade Runner holdout, offered as anti-Six, is skepticism-until-shown.
+- **Type 9 is dismissed on one counter-instance** (the truck drive) while the research record's own against-list keeps feeding it. The stronger anti-Nine evidence is already in the draft but not deployed.
+
+Four minor findings cover the unsupported "pays real costs" clause in the type answer and FAQ, the Lebowitz/Björk quote filed only as Three evidence when its structure is the Four's comparison move, the conceded "unbothered by misperception" counterexample that the record can sharpen, and one clause ("after a month of failing to cast the part") not traceable in the evidence record.
+
+Five passages are protected, including the hook's label-reversal reading and the sentence that lets the melancholy contradiction stand.
+
+**Risk flags.** I carried `sensitive_allegations` from research and set `contested_typing` to true, since the Three alternative has substantial first-person material and the discriminator rests on self-report. The six-role jury is already running, so this changes nothing operationally but keeps the risk honest for later edits.
+
+**Validation.** Schema parse passed through the project's zod contract, both hashes match the frozen draft and evidence, all 13 passages are exact substrings of the draft, and finding IDs are unique.
+
+**Next.** The editor can resolve the four majors in one compact rewrite of the discriminator and the rival section, roughly the word budget the draft has left under the 4,500 ceiling.

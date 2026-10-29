@@ -147,7 +147,7 @@ That is the Type 4 narrative-architect under stress: two rooms, two incompatible
 He didn't fall in November 2023 for three reasons:
 
 1. **GPT actually works.** Theranos's fraud was falsifiable. Altman's product, whatever its limits, ships.
-2. **Microsoft's $13 billion is too entangled to unwind.** Satya Nadella made it instantly clear that if the board pushed Altman out, Microsoft would hire him and the entire research team.
+2. **Microsoft's $13 billion is too entangled to unwind.** [Satya Nadella](/personality-analysis/satya-nadella) made it instantly clear that if the board pushed Altman out, Microsoft would hire him and the entire research team.
 3. **Roughly 700 employees revolted within five days.** The board capitulated. Altman returned more powerful than before.
 
 None of these are durable. If GPT plateaus, if Microsoft renegotiates, if a credible safety incident occurs, the same dynamic that produced November 2023 is available to fuel the next chapter. Strip any of the three, and the only remaining check is the 4's own reflective work, the one check the 4's stress-arrow specifically routes around.

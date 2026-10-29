@@ -1,0 +1,30 @@
+Error: Reached max turns (60)
+[runner] Turn limit reached; resuming session cd2ffca9-d06c-40db-a015-c42b885e4790 to write outputs
+I wrote the Chris Pratt draft and its evidence file to the run folder. Both pass the pipeline's own checks: the evidence check returns "ready" and the draft check finds no blockers. I didn't change any other repo files, and nothing was graded or published (`published: false`).
+
+**What the draft argues.** It opens with Pratt's 2015 GQ line about his heavy, fun Andy Dwyer years: "That image that I was casting, to convince people that I was okay... Now I have less fun. I focus more." The thread from there is something he learned at 19, selling coupons door to door: "what you're selling is yourself and you're selling your attitude." The draft types him as a 3, medium confidence. The key test against 7 is which one he protects when fun and looking successful pull apart, and his record keeps choosing the look:
+- He hid the failed sales job from his hometown.
+- He chose the fat-guy persona because it was "paying better," then dropped it once it cost him a role.
+- James Gunn said he "always has to juggle to entertain everybody."
+
+A separate section makes the case for 7. Another covers his faith as the part the 3 reading explains least, and the closing section raises 9 (other people make his biggest moves). The ending loops back to the hook: after *Mercy* (January 2026) flopped, he said he's steering back to comedy to "bring fun and lightheartedness back."
+
+**Numbers:**
+- 3,776 words. The edit stage usually adds about 800, which would put it near the 4,500 ceiling, so the editor should cut before adding.
+- 9 sections, 7 FAQs, and a 57-word answer to the type question.
+- No em dashes outside quotations.
+- 112 claims, each tied to an exact passage; all 15 sources kept.
+
+**Quotes and what's still unverified:**
+- **Re-checked audio:** I re-transcribed three podcast segments with a second model. The "PMA equals OPM" chant, the "selling is yourself" line and the comedy-return line all match, so they're quoted.
+- **Paraphrased only:** YouTube blocked audio downloads, so anything that exists only as auto-captions is paraphrased with attribution, never quoted. That covers the SmartLess lines ("work to live," the audition-salesman joke), the underwear photo and Kevin Feige story, and "follower of Jesus." One single-model podcast line is also paraphrased. Both gaps are added to `research_tasks`, along with the ones carried over from research.
+- **Faris testimony:** her "we both protected that imagery" line is still read through Good Morning America's report, not the podcast audio. The draft states that limit in the text.
+
+**Decisions you might want to veto:**
+1. **Hillsong stays in, kept short.** It covers Elliot Page's criticism, Pratt's statement, his "never been to Hillsong" clarification, and Men's Health's reporting on Zoe Church's pastor. His response sits next to each allegation. Research flagged it as sensitive, so the draft goes to the full six-reviewer panel either way.
+2. **One profane quote stays.** The coach line ("a shit ton of money") is kept verbatim because it's the famous version; other profane quotes were trimmed to clean fragments.
+3. **The URL slug is lowercase `chris-pratt`, matching current pages.**
+
+Files are in `docs/content-analysis/pipeline-logs/2026-10-29_19-23-18-217_Chris-Pratt/`:
+- draft.md
+- evidence-draft.json

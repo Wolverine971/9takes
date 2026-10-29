@@ -1,0 +1,86 @@
+{
+  "schema_version": 3,
+  "role": "future",
+  "content_sha256": "8d021edec0f65c80e2001a16c661a16d036d8bfce1912c3169b1add839bc42a0",
+  "evidence_sha256": "096b49611f9e415728dd897eb54bd612af13f28c1a40157459014777e6e7ecb9",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": false,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "future-01",
+      "severity": "major",
+      "passage": "It is the only writing credit Levinson has shared on the show.",
+      "problem": "An absolute present-tense claim about the whole run of Euphoria, sourced (C18: S01, S06, S18) to 2021-2024 material that predates the third and final season (April to May 31, 2026). None of the three source excerpts in the record contains the 'only writing credit' wording, so the record cannot show it held through season three. If any season-three episode carried a shared writing credit, the sentence is a factual error that will sit on the page indefinitely; even if true, it is undated.",
+      "acceptance_test": "Either (a) add an opened 2026 source confirming that no other writer shares a writing credit with Levinson across all three seasons and the specials, and cite it on C18, or (b) anchor the sentence to what the record supports, e.g. 'It was the only writing credit Levinson had shared on the show through its first two seasons.' In both cases C18's claim text must match the chosen wording."
+    },
+    {
+      "id": "future-02",
+      "severity": "major",
+      "passage": "The series arrives on Prime Video in November 2026.",
+      "problem": "Future tense for a dated event, repeated in the 'Who is Hunter Schafer?' FAQ as 'which premieres on Prime Video in November 2026.' Within weeks of publication both read as stale, and if the date slips they read as wrong. The body sentence is covered by C37's review trigger, but the FAQ sentence lives in C01, which is marked durability 'stable' with an empty review_trigger, so the metadata copy has no maintenance hook at all.",
+      "acceptance_test": "Rewrite both sentences in a form that stays true after the event (e.g. 'The series was scheduled to premiere on Prime Video in November 2026' / 'leads Blade Runner 2099, scheduled for Prime Video in November 2026'), and set C01 to durability 'time_sensitive' with a review_trigger that names the premiere (e.g. 'After the Blade Runner 2099 premiere, replace the scheduled date with the actual premiere date'). Both sentences must read correctly in November 2027 without edits."
+    },
+    {
+      "id": "future-03",
+      "severity": "major",
+      "passage": "No response from Fike turned up in the sources checked for this page.",
+      "problem": "This sentence closes the one sensitive allegation in the article (infidelity, attributed to Schafer, about a named living person). It is an as-of statement with no date in the prose, and the underlying claims C33 and C79 are marked durability 'stable' with empty review_triggers. The standard requires unresolved matters to be tracked with an actionable trigger; a later public response or denial from Fike would leave the page asserting silence that no longer exists, which is exactly the five-year failure mode for an allegation.",
+      "acceptance_test": "Date the sentence in the prose (e.g. 'No response from Fike turned up in the sources checked for this page as of October 2026'), set C33 and C79 to durability 'unresolved', and give each a review_trigger such as 'Update if Dominic Fike publicly responds to, confirms or disputes the infidelity account, or if Schafer revises it.' The FAQ 'Who has Hunter Schafer dated?' (C99) should carry the same trigger text."
+    },
+    {
+      "id": "future-04",
+      "severity": "minor",
+      "passage": "She has not lived more than three or four years in one city since Raleigh, and she described the result to Bazaar as \"these little pockets of special, intense relationships.\"",
+      "problem": "Undated present-perfect status claim drawn from a December 2021 interview. The record itself (C50) notes she bought a Los Angeles house in 2023, so by 2027 the sentence can be false while still on the page. C31's review_trigger covers only relationships, not residence, so nothing would prompt the fix.",
+      "acceptance_test": "Anchor the residence claim to its source date (e.g. 'By 2021 she had not lived more than three or four years in one city since Raleigh, and she described the result to Bazaar as...'), or drop the residence clause and keep the quotation. If kept, extend C31's review_trigger to cover a settled residence."
+    },
+    {
+      "id": "future-05",
+      "severity": "minor",
+      "passage": "Cuckoo, her first lead and her first job without Levinson, was the exception: \"I didn't have to do that with this movie.\"",
+      "problem": "The record (C36, S25, S27) supports 'first film and first lead' and that she threw herself in 'to prove to myself' she could work without Levinson; none of the opened excerpts says Cuckoo was her first job without him. The Hunger Games prequel (released November 2023) and the Lanthimos role were also non-Levinson jobs in the same 2022 filming window, so 'first job without Levinson' is an unsupported precision that a reader can falsify from a filmography.",
+      "acceptance_test": "Match the record: 'Cuckoo, her first film and her first lead, was the exception' (optionally adding 'the role she used to prove she could act without Levinson', which S27 supports), or add an opened source stating it was chronologically her first non-Levinson job."
+    },
+    {
+      "id": "future-06",
+      "severity": "minor",
+      "passage": "She has turned down a flattering label for eight years and a career-making role for a month.",
+      "problem": "'Eight years' is counted from the 2018 Times quote to the present (2026) without saying so; the article dates the refusals elsewhere (2018, 2024) but this summary is relative to publication time and drifts by one year per year. The same relative framing ('ten years of interviews', 'decade-long run') appears elsewhere but is less exposed because those spans are closed by 2016-2026 dates nearby.",
+      "acceptance_test": "Replace the relative count with an absolute anchor, e.g. 'She has turned down a flattering label since 2018 and a career-making role for a month,' so the sentence reads correctly in 2031."
+    },
+    {
+      "id": "future-07",
+      "severity": "minor",
+      "passage": "In an ELLE cover interview published October 19, 2026, she said she had gender-affirming bottom surgery in December 2025: \"I just had bottom surgery in December, which was amazing, and I love it so much.\" She said she had long embraced \"the gender-expansive part of myself\" and now describes her gender as \"flatter\": \"I'm a woman. I'm a girl.\"",
+      "problem": "FAQ answer (C98) uses 'now' for a self-description the article itself shows she has revised three times (2016, 2019, 2026); the article's own thesis predicts further revision. C98, C87 and C39 are all marked 'stable' with no review_trigger, so a later statement would leave the FAQ asserting a 'now' that is no longer current. The dated opening clause keeps it honest, but 'now describes her gender as \"flatter\"' overreaches beyond that anchor.",
+      "acceptance_test": "Tie the present tense to the interview ('and, as of that interview, describes her gender as \"flatter\"') or drop 'now', and set C98 (and C87) to durability 'time_sensitive' with a review_trigger such as 'Update if she publicly revises how she describes her gender identity or the surgery.'"
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Read fast, that is a reversal. Read slowly, it is the same complaint. At 17 the label that flattened her was \"cis girl.\" At 25 it was \"trans actress.\" The content changed. The objection to being reduced to a category before anyone looked did not.",
+      "reason": "The hook's insight is built from two dated, sourced statements eight years apart and is anchored by age rather than by 'this year'; it is the durability-9 shape (a repeated pattern revealed by dated events) and would survive every later development in her career."
+    },
+    {
+      "passage": "A Three manages an image to be admired for it. What she describes is managing one so the admiration lands on the decoy while she is somewhere else.",
+      "reason": "The crispest statement of the discriminator in the piece, drawn from 2024 and March 2026 self-report rather than the newest interview; it carries the Type 3 comparison in two sentences and needs no update."
+    },
+    {
+      "passage": "Release and craving, not achievement. That is the vocabulary of someone who makes things to metabolize feeling, and it is the first place the Type 3 alternative starts to lose ground.",
+      "reason": "Ties the type argument to 2021 quotations (Awards Focus, A24 Podcast) that are already five years old, which is the strongest kind of durability evidence; removing every 2026 source leaves this leg intact."
+    },
+    {
+      "passage": "The surgery is not evidence of anything about her type. Her reasoning is.",
+      "reason": "This is the correct handling of the newest and most sensitive event: it keeps the medical fact out of the type argument and uses only her stated reasoning, so the section stays fair and the argument does not depend on the disclosure itself."
+    },
+    {
+      "passage": "The discriminator is where she locates the self. When identity collided with expectation, with her parents in 2013, with her community in 2022, and with her own earlier ideology in 2025, she revised toward what felt true to her and took the cost each time. A Three revises toward what works.",
+      "reason": "Three absolutely dated instances across twelve years; remove the 2025 instance (the latest event) and the pattern still stands on 2013 and 2022, which is exactly the five-year test the standard asks for."
+    }
+  ],
+  "assessment": "Five-year test: passes. The thesis rests on a 2016-2024 spine (WUNC 2016, Allure 2020, Harper's Bazaar 2021, A24 Podcast and Awards Focus 2021, OC Register 2023, Call Her Daddy and GQ 2024). Removing the October 19, 2026 ELLE interview and the May 31, 2026 Euphoria finale leaves the hook, the Type 3 hearing and the discriminator intact; the recent material deepens the argument (the 'flatter answer' arc, the perception quote) without carrying it. Nearly all dates in the body are absolute and ages are computed correctly. The exposure is concentrated in a few present-tense status claims (Blade Runner premiere in body and FAQ, residence, the Fike 'no response' line, 'now describes') and in the evidence record, where C01, C33, C79 and C98 are time-bound but marked stable with empty review_triggers; the five claims that are flagged time_sensitive (C31, C37, C38, C50, C99) all carry actionable triggers. One absolute claim ('only writing credit Levinson has shared on the show') is sourced to pre-final-season material and needs verification or anchoring. Similarity advisory not tripped (max 0.033 against a 0.04 threshold); the top pairs are ordinary Type 4 vocabulary in the type-answer section, not reused argument, and the only generic stretch is the short 'pattern goes in a few plain steps' paragraph. The age FAQ is correctly dated 'as of October 2026' with a trigger. Body is 3,990 words against a 4,500 release ceiling, so repairs should be substitutions rather than additions."
+}

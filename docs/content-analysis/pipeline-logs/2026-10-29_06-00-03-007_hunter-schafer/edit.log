@@ -1,0 +1,19 @@
+The edit stage for Hunter Schafer is complete. All three requested outputs are written in the run directory and pass the pipeline's own checks. Nothing was published, and no other repo files were touched; my helper scripts live in `/tmp/hs-edit/` only.
+
+**Outputs**
+
+- `edit.md`: 4,423 words, no `checkDraft` blockers, 58-word type answer, description 166 characters. All 141 quotations re-matched by script against the cached sources, the caption tracks, the Whisper segments and the new sources. Similarity scan clear at 0.033 against the 0.04 threshold.
+- `evidence-edit.json`: 50 sources, 107 claims, every passage found in the article. Type 4 at medium confidence with Type 3 as the alternative is unchanged. The record now carries `contested_typing: true` from the Enneagram reviewer, which does not trigger a re-review because a reviewer raised it.
+- `resolution-edit.json`: 49 decisions (48 fixed, 1 rejected with source evidence), 15 protected passages (10 kept verbatim, 5 changed with reasons), no inherited blockers.
+
+**The one rejection.** The Enneagram reviewer thought "after a month of failing to cast the part" was untraceable. Rolling Stone says producers spent "more than a month attempting to cast the role to no avail," so the clause stays and the sentence is now in the source excerpt.
+
+**What changed in the argument.** Three reviewers agreed the old discriminator (parents in 2013, community in 2022, ideology in 2025) did not separate Four from Three. The rebuilt case rests on how she explains the work itself from 2018 to 2024: world-building from what was missing, catharsis she is "fiending" for, making things as "a reason to live." The Three is now argued in its disidentified form, the Six gets her own "safe enough" line, and the Nine paragraph confronts the compliance material instead of resting on the truck drive.
+
+**Fixes to facts and fairness.** The closing no longer invents a motive for the childhood dance. The Fike passage says she did not name him, quotes her credit to him, and dates the no-response line. Cuckoo is her first film and first lead, not her first job without Levinson. The gender section states that neither her gender nor a medical decision is type evidence, with ELLE's caveat.
+
+**New sources.** Wikipedia episode tables for all three Euphoria seasons confirm every episode is credited to Levinson alone, so the shared Jules-special credit holds through the 2026 finale. NBC News and Vulture cover the protest arrest, and both date it Monday, February 26, 2024, not February 27 as Wikipedia and the fan review had it. The A24 Method-class remark was re-transcribed from the cached audio; every detail checked out except "month-long," which only the captions carry, so it was cut.
+
+**Two things for the verifier to know.** The first edit pass came in at 5,515 words because the six reviews asked for roughly 1,500 words of additions, and three scripted cut rounds brought it under the ceiling; the readability audit still flags one run of four long paragraphs in the Why-not-3 section. No first-person statement from Schafer about the arrest turned up in the sources opened, so the arrest is reported from NBC and Vulture only.
+
+Sources used for the arrest check: [NBC News](https://www.nbcnews.com/nbc-out/out-news/euphoria-star-hunter-schafer-arrested-nyc-protest-support-palestinians-rcna140939), [Vulture](https://www.vulture.com/article/hunter-schafer-arrested-pro-palestine-protest-biden.html), [TheWrap](https://thewrap.com/hunter-schafer-arrested-gaza-cease-fire-rally).

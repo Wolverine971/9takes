@@ -1,0 +1,27 @@
+The edit stage for the Chris Pratt profile is done. All three output files are written and pass the pipeline's own checks: the evidence matches the schema, every claim's passage appears in the article, every source is used, and the draft checks find no blockers. Nothing was published, and I didn't touch the inputs or the live draft.
+
+**The biggest fix was the opening.** The draft said Pratt called Andy Dwyer's happiness "an image he was casting." He didn't. In the GQ interview he was describing his own offscreen self during his heavy years, in an answer about feeling "rotten" and that he "didn't feel too great about who I was." Four of the six reviewers caught this. The opening now gives that context, along with his comparison to Chris Farley and the line "I also understood that there was value to it."
+
+**The type call stays at Type 3, medium confidence, with Type 7 as the main rival.** The argument behind it is rebuilt:
+- **The old test is gone.** "When fun and image split, he keeps the image" mostly cited cases where the two never split. The new test asks what his cheerful front protects. A Three's hides failure; a Seven's keeps out pain.
+- **New strongest evidence:** a March 2026 podcast where he describes his pre-2018 self as "completely deferential to whatever the world wants… Just keep me employed as an actor." I checked this and the other new podcast quotes with a second transcription model. One word near the comedy-plan quote ("reverence" vs "irreverence") didn't match, so I paraphrased that line.
+- **Maui is now counted against him.** His year there, partying and "always giving away my shifts," is named as the best evidence for Type 7.
+- **Type 9 is named as a live alternative** in the type answer and FAQ, and tested against his competitive streak. As a teen he says he sold 500 school fundraiser cards when classmates sold 17 or 22.
+- **Anna Faris's "we both protected that imagery" remark is downgraded.** She was describing her own habit, so it no longer counts as evidence.
+
+**Other factual repairs:**
+- The weight story now shows his weight going up and down role by role (back up for *10 Years*, 295 pounds for *Delivery Man*), not one permanent trade.
+- The faith "cost" is attributed to Pratt's own belief, with Men's Health's note that the backlash didn't hurt his box office.
+- The tears in his 2022 interview are correctly tied to coverage about his son, not to his faith.
+- The ending gives his own stated reasons for the comedy turn. It now cites Rotten Tomatoes and box-office tracker The Numbers for *Mercy*'s reception instead of Wikipedia alone.
+
+All 43 reviewer findings are marked fixed, and every passage reviewers asked to protect is either kept word for word or changed with a reason. All 137 quoted phrases match the cached source texts.
+
+**One decision for you: length.** The body is 4,336 words. That's under the 4,500 hard limit but over the 2,000–3,500 target, because the reviewers asked for a lot of restored context. I cut about 1,000 words to get here. The verifier may mark down the writing or pacing score for it. The next easiest cut is the Elliot Page/Hillsong paragraph (about 100 words), but it's the fairness context for the church controversy, so I left it.
+
+Next step is the runner's independent verification stage.
+
+Files are in `docs/content-analysis/pipeline-logs/2026-10-29_19-23-18-217_Chris-Pratt/`:
+- `edit.md`
+- `evidence-edit.json`
+- `resolution-edit.json`

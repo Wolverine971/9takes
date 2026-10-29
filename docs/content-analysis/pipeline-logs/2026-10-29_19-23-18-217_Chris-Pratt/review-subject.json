@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "subject",
+  "content_sha256": "d10f7dda031a772de838286f895271512211f574a2ed42796026e0dc37e918a9",
+  "evidence_sha256": "29134fd4f1fdd151a93238265782ce60cb6eafd996ced53f69470a9c8230356b",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "subject-01",
+      "severity": "major",
+      "passage": "Andy was one of the happiest characters on network television, and Pratt calls that happiness an image he was casting, then trades it away in two short sentences.",
+      "problem": "Misstates what Pratt said and drops the context that gives the quote its meaning. In GQ (Chris Heath, 2015) he is not describing Andy Dwyer's happiness. He is describing his own offscreen self in the heavy years, answering why Faris preferred him that way. The lines just before it say he was \"the first guy in line to buy that line of bullshit.\" He compares himself to Chris Farley, who in his view projected a happiness he didn't feel. And GQ records that in those years he \"didn't feel too great about who I was\": \"My bones ached, I had cardiovascular issues, I was unhealthy, I was feeling rotten.\" In context, \"to convince people that I was okay\" admits that he was not okay. The hook turns a painful self-disclosure into a strategic trade of fun for image. That is a motive the source does not give, and it sits in the thesis-bearing hook.",
+      "acceptance_test": "The hook, and every later echo of it, identifies the 'image' as Pratt's own offscreen persona during his heavier years, not Andy's happiness. It quotes or closely paraphrases at least one surrounding statement of distress (\"didn't feel too great about who I was\" or \"I was feeling rotten\") or the Farley comparison, so a reader can see what 'okay' was covering. Claim c-fun-as-image records this context in its inference and alternative. meta_title and description stay consistent with the corrected reading."
+    },
+    {
+      "id": "subject-02",
+      "severity": "major",
+      "passage": "That is the context for \"Now I have less fun. I focus more.\" The fun persona paid until it cost him a role.",
+      "problem": "The author supplies a context the source does not give. In GQ 2015 the line closes an answer about health and self-regard; the Moneyball \"too fat\" story comes from a different interview (Vanity Fair, 2017). Stitching them together presents the change as a career calculation. The discriminator bullet (\"He describes the fun of that period as an image he was casting...\") then counts it as protecting appearance over fun. But on his own telling the fun he gave up was the eating and drinking that was making him ill, and the 'image' was the fun itself. So the line does not cleanly show image winning over fun. It fits the Seven 'mask' reading the draft names at least as well. This is the article's central discriminator.",
+      "acceptance_test": "The sentence either says plainly that the Moneyball link is the author's juxtaposition of two interviews (GQ 2015 and VF 2017), or it lets the GQ line keep its stated health and self-regard context. Neither the 'Why not Type 7?' bullet nor type_hypothesis.discriminator presents \"Now I have less fun. I focus more.\" as unqualified evidence that he protects image over fun. They either drop it or state that in context it also supports the Seven-mask reading. The Three case is re-weighed on the remaining evidence, and the confidence wording is adjusted if that weakens it."
+    },
+    {
+      "id": "subject-03",
+      "severity": "major",
+      "passage": "The weightiest cases happened off camera, the hidden sales failure and Faris's remark, and each rests on one source.",
+      "problem": "GMA (Danielle Long, May 4, 2021) presents Faris's podcast remark as her explanation of why the split shocked even people close to her. She was describing her own habit of never talking about relationship problems (\"I never talked about any issues\"). \"We both protected that imagery even within our close circles\" describes a couple keeping marital trouble private, which is ordinary and especially common for a famous couple. It needs no type explanation. The draft concedes she was \"mostly describing herself,\" yet it calls the remark \"the only outside testimony here about the private side of the pattern\" and then one of the two \"weightiest cases\" for Type 3. Making an ex-spouse's reflection on the end of the marriage load-bearing evidence of his image management overclaims in a sensitive area. The ordinary-privacy explanation never appears in the prose.",
+      "acceptance_test": "The Faris passage states the ordinary-privacy alternative in the prose. Faris's remark is removed from the 'weightiest cases' sentence and from type_hypothesis.discriminator, or is explicitly labeled weak and ambiguous in both. The article still makes no claim, direct or implied, about why the marriage ended."
+    },
+    {
+      "id": "subject-04",
+      "severity": "major",
+      "passage": "His faith has cost him with the mainstream audiences an image manager would court.",
+      "problem": "This is stated as fact in the author's voice, but the record supports only Pratt's belief. He told Men's Health (2022) he thinks the 2018 MTV speech \"inadvertently\" helped light the online hostility, and told The Christian Post (2025) his stand \"could cost me.\" The same Men's Health piece says \"none of this noise has hurt his box-office prowess or his reputation in town.\" It quotes Gunn saying people \"literally just made up\" things \"about his politics,\" and the Daily Beast opening cites accusations that his politics are Republican-adjacent. The next paragraph's \"the same hostility behind the recurring 'Worst Chris' meme\" pins a meme with several causes on faith alone. The draft also leaves out Pratt's own self-critical reply in that interview: \"Maybe it was hubris... I'm not sure I touched anybody,\" and Men's Health's note that \"he gets why people were put off.\" The faith section is the article's main counterweight to Type 3, and it rests on a cost its own source disputes.",
+      "acceptance_test": "The cost is attributed as Pratt's belief or self-report, not asserted. The passage notes Men's Health's observation that the backlash had not hurt his box office or industry standing, and that rumors about his politics (per Gunn) also fed it. The 'Worst Chris' hostility is not attributed to faith alone. Pratt's \"Maybe it was hubris\" reflection, or an accurate paraphrase, appears where his response to the backlash is described. Later wording in the section (\"through years of cost\") matches the attributed version."
+    },
+    {
+      "id": "subject-05",
+      "severity": "minor",
+      "passage": "Asked why he hadn't corrected the Hillsong link at the time, Pratt said, \"I'm gonna, like, throw a church under the bus?\"",
+      "problem": "Men's Health reports that he said this \"before reconsidering\": \"If it's like the Westboro Baptist Church, that's different.\" The same passage reports that he does not attend Zoe exclusively and that his daughter was baptized at a Catholic church. The draft drops both qualifications and puts the report on Zoe's founder's 2017 film right before the quote. That leaves a third party's film as the last word on his affiliation and makes his answer read more dismissive than the record shows.",
+      "acceptance_test": "The quote is followed by his qualification (the Westboro line, quoted or paraphrased), or is presented explicitly as his first reaction. The paragraph notes Men's Health's report that he does not attend Zoe exclusively. Claims c-under-bus and c-hillsong-never reflect both points."
+    },
+    {
+      "id": "subject-06",
+      "severity": "minor",
+      "passage": "He hasn't always kept to it. In 2022, at his own prompting, he worked through the backlash at length with Men's Health (\"Why are they coming after me?\") and said he cried over coverage he feared his son, then nine, would read one day.",
+      "problem": "The policy dates from March 2025 (The Christian Post), where he said he refuses \"to be drawn into digital debates.\" The counterexample is a magazine interview three years earlier, not an online quarrel. \"Hasn't always kept to it\" implies inconsistency by a test that runs backwards in time. The 'coverage' is also left vague. Per Men's Health, it was articles calling his \"healthy daughter\" Instagram post a dig at Faris and their premature son, and he cried because \"My son's gonna read that one day.\" That is a protective-parent response, yet the evidence record lists this claim (c-why-coming-after-me) in type_hypothesis.for_claim_ids as image concern.",
+      "acceptance_test": "The policy is dated 2025, and the 2022 episode is placed in sequence without the hypocrisy framing. The coverage is identified, at least as articles claiming he had slighted his son, without re-litigating the post. c-why-coming-after-me is either removed from type_hypothesis.for_claim_ids or has its inference revised to the protective-parent reading."
+    },
+    {
+      "id": "subject-07",
+      "severity": "minor",
+      "passage": "a father who died in 2014 after years of multiple sclerosis he chose not to treat",
+      "problem": "A deceased private person's medical decision is stated in the author's voice. The only basis is Pratt's account (\"he left it untreated,\" VF 2017; \"He decided not to take any medicine to prevent it,\" Men's Health 2022), yet claim c-father-death is classed as observed. The detail supports no argument in the piece.",
+      "acceptance_test": "The treatment detail is either removed or attributed in the sentence (e.g., 'by Pratt's account, he left it untreated'). c-father-death is reclassed as self_report, at least for that element."
+    },
+    {
+      "id": "subject-08",
+      "severity": "minor",
+      "passage": "the fun is back on the plan, chosen in a meeting by a man who learned as a teenage salesman that the attitude is part of what you sell.",
+      "problem": "The ending reads his comedy plan as selling attitude. The lead-in (\"After _Mercy_... became a critical and commercial failure, he said...\") implies that the flop prompted it. On Not Dead Yet (March 2026), in the same answer, Pratt gives his own reasons: he now cares about being able to \"be close to home,\" his recent roles carried \"a reverence\" and \"seriousness,\" and comedy is \"something I have.\" He does not mention Mercy's reception. The draft offers 'the market' as an alternative but never his stated reasons, so the article's last word is an imputed motive.",
+      "acceptance_test": "The ending includes Pratt's stated reasons; a paraphrase is acceptable, since the transcript is machine-made. It drops the implied causal link to Mercy's failure or marks it as the author's inference, and any salesman bookend is framed explicitly as interpretation."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Plenty of 19-year-olds hide a failure. Pratt talks freely about the depression; what he hid was the result, and he showed success in its place until a friend saw through it and bought him a ticket to Maui.",
+      "reason": "Fair, precise use of a self-report. It separates what he disclosed (the depression) from what he hid (the result). The next sentences flag 'everyone' as exaggeration and state the single-source limit. VF 2017 supports the wording."
+    },
+    {
+      "passage": "A skeptic can read this as the Three's instinct applied to faith: one framing for a men's magazine mid-backlash, another for a Christian outlet mid-promotion. The fairer reading holds both.",
+      "reason": "A model for handling an accusation. It names the hostile reading (the Daily Beast's 'lying' headline), then gives Pratt's own religion-versus-faith distinction from the Men's Health source, without settling it by fiat."
+    },
+    {
+      "passage": "I was the king of my school and I don't have a yearbook because it was $35 and I just wouldn't ask them for that much money.",
+      "reason": "A distinctive, humane detail in his own words that holds status and hidden need together. It does more for the portrait than any type summary."
+    },
+    {
+      "passage": "Other people make his biggest moves. His mother bought the ticket home, a friend the ticket to Maui, and a stranger took him to church.",
+      "reason": "Lets well-sourced evidence against the thesis stand (VF 2017, Not Dead Yet 2026) and names Type 9 fairly instead of explaining it away."
+    },
+    {
+      "passage": "The Three reading has limits. Acting rewards image management in every type, so the dieting alone proves little.",
+      "reason": "Honest inference limit: it separates professional incentive from motive. Keep it, even though the sentence that follows it needs repair (see subject-03)."
+    }
+  ],
+  "assessment": "Fairness proxy, not a voice for Pratt. The draft mostly separates self-report from interpretation. It attributes the Hillsong and LGBTQ dispute, gives Pratt's statement, names the Daily Beast's accusation and answers it with his own distinction, mentions minors only, and does not speculate about the divorce. The main problem is the hook. Reopened in GQ 2015, 'That image that I was casting, to convince people that I was okay' refers to Pratt's offscreen heavy years. It sits inside his admission that he felt 'rotten,' was unhealthy and 'didn't feel too great about who I was.' The draft relabels it as Andy's happiness, moves 'Now I have less fun' into a Moneyball career context from a different interview, and counts it as the central Three-over-Seven discriminator (subject-01, subject-02). Once restored, that context weakens the discriminator; the Three lead now rests mainly on the hidden sales failure, the audition method and Gunn's observation. The editor should re-weigh confidence, and should run a refresh with the expanded review if the leading type changes. Faris's privacy remark is overweighted (subject-03). The faith-cost claim is asserted against its own source (subject-04). Several of Pratt's recorded replies are missing: the Westboro qualification, 'Maybe it was hubris,' the son-protective reason for his tears, and his stated reasons for the comedy turn (subject-05, -06, -08). Opened on 2026-10-29: GQ 2015, VF 2017, Men's Health 2022, Independent via NZ Herald 2014, GMA 2021, Christian Post 2025, Fox 2026, and the Daily Beast 2022 (only the opening is accessible). I also read caption text for Happy Sad Confused 2026 and SmartLess 2022, whose paraphrases match. For Not Dead Yet 2026 and Literally! 2026 I relied on the research-stage Whisper transcripts without re-transcribing. Context supports 'chosen in a meeting', the manager quotes and the first-marriage priorities line. The Leno lines sit inside a continuous turn that reads as Pratt's, but speakers are still unlabeled. 'The wish to be liked was rehearsed' slightly overstates: he said he rehearsed what he would say. Similarity advisory: the top pairs are generic type-definition phrasing (for example 'becoming what earns approval'), and the Pratt-specific argument is not reused, so I report no reuse finding."
+}

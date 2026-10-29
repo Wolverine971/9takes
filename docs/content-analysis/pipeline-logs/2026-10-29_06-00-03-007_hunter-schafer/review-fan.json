@@ -1,0 +1,107 @@
+{
+  "schema_version": 3,
+  "role": "fan",
+  "content_sha256": "8d021edec0f65c80e2001a16c661a16d036d8bfce1912c3169b1add839bc42a0",
+  "evidence_sha256": "096b49611f9e415728dd897eb54bd612af13f28c1a40157459014777e6e7ecb9",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": false,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "fan-01-cuckoo-first-job-without-levinson",
+      "severity": "major",
+      "passage": "Cuckoo, her first lead and her first job without Levinson, was the exception: \"I didn't have to do that with this movie.\"",
+      "problem": "Any reader who follows her career knows Cuckoo was not her first job without Sam Levinson. She played Tigris in The Hunger Games: The Ballad of Songbirds & Snakes (shot in 2022, released November 2023, nine months before Cuckoo) and had a Kinds of Kindness role and the Belle voice part; the evidence record itself lists Songbirds & Snakes 2023 (S44) and places GQ 'between Hunger Games and Cuckoo' (S01 context). The record (C36, S25, S27) supports 'first lead' and 'first film' and her wanting to prove she could act without Levinson, not 'first job without Levinson'. Cuckoo and Songbirds & Snakes were both filmed in Germany in 2022, so even a filming-order defense needs a dated source.",
+      "acceptance_test": "The sentence says 'her first lead' (and, only if a dated source establishes Cuckoo wrapped before Songbirds & Snakes began, 'the first film she shot without Levinson'); otherwise 'first job without Levinson' is removed. The Variety quote and the 'training wheels' framing stay."
+    },
+    {
+      "id": "fan-02-only-shared-writing-credit",
+      "severity": "major",
+      "passage": "It is the only writing credit Levinson has shared on the show.",
+      "problem": "This is an absolute claim about every Euphoria episode through the May 31, 2026 finale, but the cited sources (S01 GQ 2024, S06 A24 podcast 2022, S18 Awards Focus 2021) all predate season three and none of them states it. It holds for seasons one and two and the two specials; whether any season-three episode carries a shared writing credit is not established anywhere in the record. A wrong 'only' here is exactly the kind of error a fan catches in the first read.",
+      "acceptance_test": "Either a source covering season three credits (episode credits or a reliable report) is added to the evidence record and cited for the sentence, or the sentence is softened to what the record supports, e.g. 'the only writing credit Levinson shared across the first two seasons and the specials' or 'a writing credit Levinson has shared with no one else on the show through season two'."
+    },
+    {
+      "id": "fan-03-activist-label-arc-omitted",
+      "severity": "major",
+      "passage": "The label she has refused longest is activist.",
+      "problem": "The record shows an arc, not a constant refusal, and the omitted half is formative. At 17 she wrote a first-person Teen Vogue essay saying she joined the suit 'to represent other transgender youth in North Carolina' and 'to raise awareness' (S08, July 2016); in 2019 she told the Times she had taken the activist label on because people told her she was one (S11 context); in 2018 W already noted she was uncomfortable with it (S09); and Dazed has her saying she became a plaintiff 'because I could... before that it had always been my intention to be an artist' (S14). Showing that she tried the assigned role on, found it did not fit, and shed it is stronger evidence for the article's own thesis than 'refused since 2018', and the 'took it on because people told me I was one' admission is a compliance data point the Type 9 paragraph in 'Why not Type 3?' should confront rather than leave unmentioned.",
+      "acceptance_test": "The activist passage acknowledges that she accepted the role at 17 (Teen Vogue, July 2016, S08) and later said she had taken the label on because others applied it (NYT, July 2019, S11), before the 2018-2024 refusals; the Type 9 discussion either accounts for that admission or states why it does not change the read. Net body length stays within the 4,500-word ceiling."
+    },
+    {
+      "id": "fan-04-2024-protest-arrest-omitted",
+      "severity": "major",
+      "passage": "Everyone else could stay in their lane. \"And I'm going to be over here with people I love.\" GQ's writer read it as a little cynicism adopted \"as a protective measure.\"",
+      "problem": "The section leaves a reader believing she had withdrawn from public action by 2024. In fact she was arrested on February 27, 2024 at a Jewish Voice for Peace ceasefire protest at 30 Rockefeller Plaza, roughly five weeks before the GQ profile ran, a widely reported event that the record carries only via the Wikipedia skeleton (S44) and the draft never mentions. Fans know this and will read its absence as the article shaping the record to fit 'lost interest in utopia'. It is not actually adverse to the thesis: refusing the label assigned to her while choosing arrest for a cause she picked is the pattern the article argues for. Leaving it out is the problem.",
+      "acceptance_test": "A contemporaneous reliable report of the February 27, 2024 arrest (and her own statement, if one was published) is added to the evidence record as an opened source, and one or two sentences near the 'lost interest in achieving some sort of utopia' passage date the arrest and reconcile it with the 'not an activist' stance; or the resolution file records a specific reason for excluding it."
+    },
+    {
+      "id": "fan-05-transmedicalism-passage-fidelity",
+      "severity": "major",
+      "passage": "She did not apologize and she did not double down. She narrowed the claim to what she meant.",
+      "problem": "Two things in this paragraph outrun the record's excerpts. First, 'She did not apologize' is an absolute about the full text of her September 2022 Instagram comment, but the record quotes only two sentences of it (S30 excerpt) and the comment, as fans remember it, ran several sentences longer; if any clause of it expressed regret or apology for the confusion, this sentence is false in the most sensitive paragraph of the article. Second, the draft paraphrases the liked post as 'arguing that nonbinary activists had brought anti-trans legislation down on binary trans people', while the Out excerpt actually quoted describes it as a post 'about the difference between binary trans people who medically transition, and nonbinary trans people who don't' (S29); the sharper paraphrase comes from the record's context field, not from quoted text.",
+      "acceptance_test": "The verifier opens Seventeen (S30) and confirms the full quoted comment contains no apology; if it does, 'She did not apologize' is removed or corrected. The description of the liked post is brought in line with the wording Out (S29) actually quotes from it, or Out's own characterization is quoted and attributed."
+    },
+    {
+      "id": "fan-06-art-school-and-2017-perception-line-omitted",
+      "severity": "major",
+      "passage": "A modeling check got her there at 18. She cried on the flight to that first job. \"I couldn't believe my fucking life,\" she said.",
+      "problem": "The childhood section jumps from the high-school journal to the modeling check and skips the formative art record a fan expects: she finished high school at the University of North Carolina School of the Arts visual-arts program, was a Presidential Scholar in the Arts nominee, and made senior thesis garments answering HB2, telling HuffPost in April 2017 'The piece is dealing with how people perceive me versus how I feel... They're almost like journal entries' (C11, S43). That 2017 line is the earliest first-person statement of the exact perception-versus-inner-self theme the article is built on, made before fame and before the interview genre could reward it, which directly answers the draft's own 'genre rewards authenticity talk' caveat. The same source context carries a revealing contradiction: in 2024 she said she felt she 'should be making art about this' as a trans teen when 'that's not really what I wanted to be making art about' (S43 context citing S01), the artistic twin of the 'Transsexual Actress' refusal in the hook.",
+      "acceptance_test": "The section between the journal page and the modeling check names the UNCSA art program and the HB2 thesis garments and quotes the April 2017 'how people perceive me versus how I feel' line with a HuffPost citation (S43), and the 'should be making art about this' admission is placed where it sharpens the label-refusal argument; or the editor records a reason for leaving them out. Body stays under 4,500 words, cutting elsewhere if needed."
+    },
+    {
+      "id": "fan-07-method-class-caption-level",
+      "severity": "minor",
+      "passage": "The casting director put her in a month-long Method acting class in New York, and she dropped out after two weeks because, she told Lorde, it was too hardcore.",
+      "problem": "The record flags this exact remark as caption-level only (S06 locator: 'Method-class remark at 00:26-00:28 is caption-level'; research task: 're-transcribe before quoting them in the draft'). The draft does not put it in quotation marks, but it narrates the month-long duration, the two-week exit, the casting director's role and the 'too hardcore' reason as fact and makes it one of the 'two choices from her first year' that structure the section.",
+      "acceptance_test": "The 00:26:45-00:27:16 segment of S06 is re-transcribed from audio and the month-long / two-weeks / casting-director / 'hardcore' details are confirmed before the sentence stays; any detail the audio does not support is dropped, with the Harper's Bazaar Method quote carrying the point."
+    },
+    {
+      "id": "fan-08-wunc-toddler-ages",
+      "severity": "minor",
+      "passage": "Her mother dates the pattern to age two. Shown the superheroes, Hunter wanted Catwoman or Hawkgirl, and at three she wore a pink dress to preschool every day.",
+      "problem": "The WUNC source as recorded has Katy Schafer saying the pull was there 'maybe from 18 months on' (S07 context), not 'age two', and the record's excerpt does not show an age attached to the preschool dress. Small, but it is the one family-testimony source on the page and fans have read it.",
+      "acceptance_test": "The ages match WUNC's wording ('from about 18 months' or 'before she was two'; the preschool detail carries an age only if WUNC gives one)."
+    },
+    {
+      "id": "fan-09-fame-for-money-inverted",
+      "severity": "minor",
+      "passage": "She says she gains nothing from fame and would trade it for the money.",
+      "problem": "On Call Her Daddy she said she would walk away from fame if she could keep the money (S05 context). 'Would trade it for the money' reads as the opposite transaction, as if she would swap fame to get paid, and in a 'Why not Type 3?' paragraph that difference matters: keeping the money while shedding the attention is the anti-image point the paragraph is making.",
+      "acceptance_test": "The clause reads 'would give up the fame if she could keep the money' or an equivalent that preserves the direction of the trade."
+    },
+    {
+      "id": "fan-10-who-is-faq-credits",
+      "severity": "minor",
+      "passage": "played Jules in HBO's Euphoria from 2019 to its final season in 2026",
+      "problem": "The 'Who is Hunter Schafer?' FAQ credit list runs Euphoria, Cuckoo, Blade Runner 2099 and skips her biggest box-office credit, Tigris in The Hunger Games: The Ballad of Songbirds & Snakes (2023), along with Kinds of Kindness (2024) and Mother Mary (2026), all of which the record lists (S44, S34). A reader who came from one of those films will judge the page as not knowing her career.",
+      "acceptance_test": "The 'Who is Hunter Schafer?' answer names The Hunger Games: The Ballad of Songbirds & Snakes (2023) and at least mentions Kinds of Kindness (2024) and Mother Mary (2026), with dates matching the sources."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Read fast, that is a reversal. Read slowly, it is the same complaint. At 17 the label that flattened her was \"cis girl.\" At 25 it was \"trans actress.\" The content changed. The objection to being reduced to a category before anyone looked did not.",
+      "reason": "The hook pairs a 2016 WUNC line most readers have never seen with the 2024 GQ line everyone has, and the reading of them as one complaint is specific to her and earned by the quotes. It is the best idea in the piece."
+    },
+    {
+      "passage": "On this reading, the line she guards is not between herself and a role but between the self she built and anything that could overwrite it. Jules was made from the same material, so Jules was allowed in.",
+      "reason": "Reconciles two facts fans know separately (she quit the Method, she merged with Jules) into one explanation that is not available in any single interview. Keep the reasoning even if the Method-class details (fan-07) are trimmed."
+    },
+    {
+      "passage": "A Three manages an image to be admired for it. What she describes is managing one so the admiration lands on the decoy while she is somewhere else.",
+      "reason": "The sharpest discriminator in the article, and it is built from her own 'drag' and 'Hunti' language rather than type boilerplate."
+    },
+    {
+      "passage": "She is light. The New York Times called her \"the sunny Schafer\" in 2019; Variety found her \"light and airy\"; GQ called her \"silly and curious.\" Her stylist, Dara Allen, says \"She's down to clown.\" Dan Stevens talks about \"a real kind of impish sense of humor.\" She agrees. She has always had, she says, \"pretty easy access to like joy,\" and she calls herself \"a pretty happy kid\" despite the pain. A Four who does not perform melancholy is still a Four, but the affect does not match the self-reports.",
+      "reason": "This is the objection any fan raises against a Type 4 read of her, stated with five sourced observers and left unresolved. Do not let an edit soften it into a wing explanation."
+    },
+    {
+      "passage": "A shy kid who did the dance anyway, crying, because the self she was had to come out and the room had to see it. Twenty years later she said the same thing in one sentence, on a podcast, in the middle of a joke about her afflictions.",
+      "reason": "The ending lands the thesis on two verified moments (ELLE 2026, Call Her Daddy 2024) without a CTA or a restatement, and the Call Her Daddy line was audio-verified."
+    }
+  ],
+  "assessment": "As a reader who has followed Schafer since the HB2 suit, I recognize the person on this page: the drag/Hunti split, the Boone drive, the Jules special as catharsis, the refusal of 'activist', and the lightness that cuts against the type are all handled fairly and with the right quotes, and the sensitive passages (the Fike infidelity statement, the 2022 transmedicalism episode) are attributed rather than asserted, with the record's limits stated. Three things a fan will catch immediately need fixing: Cuckoo was not her first job without Levinson (fan-01); 'the only writing credit Levinson has shared on the show' is an unverified absolute across season three (fan-02); and the February 27, 2024 protest arrest is missing from a section that paints her as having withdrawn from public action (fan-04). The two formative omissions that would most strengthen the argument are already in the evidence record and unused: the UNCSA art-school years with the April 2017 'how people perceive me versus how I feel' line, the earliest pre-fame statement of the thesis (fan-06), and the fuller activist arc in which she took the label on because others applied it before shedding it (fan-03). 'She did not apologize' in the transmedicalism paragraph should be checked against the full comment (fan-05). The similarity diagnostic did not trip (max 0.033 against a 0.04 threshold); the flagged pairs are ordinary Type 4 vocabulary in the type-explainer paragraph, and the arguments themselves are specific to her. Risk flags are unchanged: sensitive allegations are present and already covered by the six-role jury; the 4-versus-3 case is argued with a stated discriminator, so I am not raising contested typing. Not an open case; eligibility rules do not apply."
+}

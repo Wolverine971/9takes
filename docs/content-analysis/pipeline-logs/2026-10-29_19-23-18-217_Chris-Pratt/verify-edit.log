@@ -1,0 +1,38 @@
+The Chris Pratt verify stage is done, and the verdict is **revise**. My score for the draft is 8.2 overall; the release bar is 8.5. I wrote only `verification-edit.json`; nothing was published and no other run files changed. It passes the schema check, the content and evidence hashes match the request, and the pipeline's own release check confirms the draft is not yet eligible.
+
+**How I checked:**
+- I reopened all 17 sources myself and checked every quotation in the 157 claims against them.
+- The Christian Post now blocks automated fetches, so I used an archived copy.
+- The live Daily Beast page only shows the opening behind a registration wall, so I read the full article through an archived copy.
+- About 15 quotes rest on the *Not Dead Yet* podcast. I re-transcribed those segments with a third speech-to-text model (medium.en), and they all agree with the two earlier transcriptions.
+
+**Two major errors, both added by the editor (the draft didn't have them):**
+1. **Quotes credited to the wrong outlet.** In the faith section, "The same piece" follows the Daily Beast's headline. That makes Gunn's "literally just made up" quote and the "none of this noise has hurt his box-office prowess" line read as the Daily Beast's. Both are from Men's Health; the full Daily Beast article contains neither and argues the opposite.
+2. **"He didn't mention _Mercy_" is false.** In that same podcast answer, all three transcriptions have him say "Mercy I did recently." He named the film; he just didn't talk about how it was received. The article also reports only his "seriousness" remark, when he described some recent roles as irreverent and some as serious.
+
+**Minor issues (these don't block release):**
+- Everwood is called his breakthrough; Wikipedia gives that to Andy Dwyer.
+- His "never been to Hillsong" denial runs without the Daily Beast's report that he was photographed at a Hillsong LA service in 2017.
+- "Cohen" (the Vanity Fair writer) is never introduced.
+- The body is 4,336 words, about 800 over target, and some added sentences read like notes to reviewers.
+- A few small evidence-record updates are needed.
+
+**Editor's decisions:** I accepted 41 of the 43 fixes. The two I rejected (subject-04, subject-08) are the ones whose fixes created the errors above. All 19 protected passages are kept in substance.
+
+**Scores:**
+
+| Dimension | Score |
+|---|---|
+| Evidence | 7.8 |
+| Enneagram | 8.0 |
+| Originality | 8.8 |
+| Writing | 7.9 |
+| Durability | 8.5 |
+| Hook | 8.7 |
+| Discoverability | 8.4 |
+
+The Type 3 at medium confidence holds up: the case against Type 7 is argued fairly and Type 9 is properly tested. Evidence would clear 8 once the two errors are fixed. Whether the repaired draft reaches 8.5 overall depends on the length trim too.
+
+**Research tasks still open:** a human listen at about 48:15 in the podcast to settle "irreverence" vs "reverence"; checking the 2017 Hillsong photo claim if it gets used; and three carried over from research (Anna Faris's podcast audio, the original Entertainment Weekly coach quote, the SmartLess audio).
+
+I also saved a memory note: the editor's fixes are never seen by the reviewers, so verify should diff the draft against the candidate and recheck every sentence the editor added.

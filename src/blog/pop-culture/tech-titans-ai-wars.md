@@ -253,7 +253,7 @@ This is Altman's firing story in reverse. Where Altman's crisis was external (th
 
 ### Meta Superintelligence Labs: The Fortress Gets Bigger
 
-In June 2025, Zuckerberg invested $14.3 billion for a 49% stake in Scale AI and installed its 28-year-old CEO, Alexandr Wang, as Meta's new Chief AI Officer, leading the newly formed Meta Superintelligence Labs. Members of the core research team were physically situated around Zuckerberg's desk so he could check in on their progress. Signing bonuses hit a billion dollars to poach talent from OpenAI, Google, and Anthropic.
+In June 2025, Zuckerberg invested $14.3 billion for a 49% stake in Scale AI and installed its 28-year-old CEO, [Alexandr Wang](/personality-analysis/alexandr-wang), as Meta's new Chief AI Officer, leading the newly formed Meta Superintelligence Labs. Members of the core research team were physically situated around Zuckerberg's desk so he could check in on their progress. Signing bonuses hit a billion dollars to poach talent from OpenAI, Google, and Anthropic.
 
 That's the Self-Preservation 5 in full fortress mode. The response to failure isn't reflection. It's accumulation. More money. More talent. More infrastructure. More control. A 5 doesn't process a loss emotionally. A 5 processes a loss by building something bigger.
 

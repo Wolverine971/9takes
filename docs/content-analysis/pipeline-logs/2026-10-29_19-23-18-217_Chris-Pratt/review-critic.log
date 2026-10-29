@@ -1,0 +1,16 @@
+I finished the critic review for the Chris Pratt profile. The file is `review-critic.json` in the run folder and it passes the pipeline's `reviewSchema` check. It has 8 findings (6 major, 2 minor) and 5 passages to protect. The hashes are copied from the request, and both risk flags stay on: sensitive allegations and contested typing. Nothing else in the repo was changed and nothing was published.
+
+**The verdict:** the quotes I checked are accurate. The problem is the argument built on them. The case for Type 3 over Type 7 says that when fun and looking successful pull apart, Pratt keeps the look. Most of the examples given aren't cases where the two pulled apart. I reopened Vanity Fair 2017, GQ 2015, Men's Health 2022, Good Morning America 2021, the free opening of the Daily Beast piece, and the machine transcript of the *Not Dead Yet* podcast. They show:
+
+- **The best counterexample is turned into support.** The one period where fun and looking successful clearly split was his return home after the sales job failed, then the year in Maui. By his own accounts he chose the fun: partying at home, then drinking, weed and 15–20 hour work weeks in Maui. The draft reads Maui as him adjusting the story for each interviewer.
+- **The opening quote is missing its context.** In the GQ answer, Pratt himself frames the "image" as a mask. He compares himself to Chris Farley and says he "didn't feel too great about who I was." The draft attributes that pain-mask reading to a hypothetical Seven, not to Pratt. It also says Pratt called Andy's happiness an image, but he was talking about his own off-screen fun.
+- **Two of his own words are swapped for the thesis.** His "self-defense mechanism" becomes "a way to be acceptable." His "attitude" becomes "fun," which is what the opening and the ending both rest on.
+- **Type 9 is never tested.** The draft gathers a strong Type 9 case, then claims "Other people make his biggest moves." Its own record contradicts that: the sales office, "Put me in a movie," pitching the heavier look to the showrunner, and the weight loss were all his moves.
+
+A stronger Type 3 case is already in the evidence: his persona follows whatever the market rewards, and he made those self-presentation moves himself, which also separates 3 from 9. Medium-confidence Type 3 may survive if the editor rebuilds the argument that way.
+
+Two limits on my checks:
+- **Faith quotes:** the Christian Post page was blocked when I tried to reopen it, so those quotes were checked only against the excerpt in the evidence record.
+- **Podcast lines:** the *Not Dead Yet* lines my findings cite come from a machine transcript, and some still need checking against the audio before anyone quotes them.
+
+Scratch copies of the sources are in `/tmp/pratt-critic-review`, outside the repo.

@@ -248,7 +248,7 @@ The moral language is real _and_ tactical. People genuinely believe they're doin
 
 ## Are We Past Peak Cancel?
 
-Cancel culture peaked between roughly 2017 and 2020. By 2026, the temperature is visibly lower: Joe Rogan is still the largest podcaster in the world, Dave Chappelle continues to release specials Netflix won't pull, and comedians now joke about cancellation onstage rather than fear it.
+Cancel culture peaked between roughly 2017 and 2020. By 2026, the temperature is visibly lower: Joe Rogan is still the largest podcaster in the world, [Dave Chappelle](/personality-analysis/dave-chappelle) continues to release specials Netflix won't pull, and comedians now joke about cancellation onstage rather than fear it.
 
 That doesn't mean the dynamic is gone. The platforms still reward outrage, and the personality types still exist. What's shifted is the cultural appetite. The moralism budget has moved—to AI, to political polarization, to other arenas—and the spectacle of public destruction lands flatter than it used to. The mechanics remain; the audience has changed.
 

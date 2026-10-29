@@ -1,0 +1,15 @@
+The critic review is written and validated. Output file: `docs/content-analysis/pipeline-logs/2026-10-29_06-00-03-007_hunter-schafer/review-critic.json`. It passes the review schema, every finding passage matches the frozen draft exactly, and the hashes are copied from the request. No other files were changed and nothing was published.
+
+**What I checked.** I opened WUNC 2016, GQ 2024, Harper's Bazaar 2021, Attitude 2023, ELLE November 2026 and the OC Register piece live, plus cached copies of Rolling Stone 2024, Vogue 2024 and ELLE UK 2023, the Whisper segments of Call Her Daddy, and Wikipedia's Euphoria season 3 episode list. Every quotation I tested matched its source. Similarity was not tripped.
+
+**Four major findings.**
+- **The discriminator paragraph overreaches.** The 2013 episode is a trans child coming out, which the record itself calls necessity. The 2022 episode has no identified cost and reads as careful clarification. ELLE and Schafer frame the 2025 change as ideology meeting "the world she encountered every day," which is the "what works" behavior the paragraph assigns to a Three.
+- **The closing image invents a motive.** ELLE says she was "so cripplingly aware of how she was being viewed, it wasn't fun." The draft says she danced "because the self she was had to come out and the room had to see it." The source points the other way.
+- **The rival case omits her own admissions.** Vogue 2024 "keep checking in with myself" and "infiltrating... until I feel safe enough," ELLE UK 2023 "swept up," the OC Register concession that critiques are "unsettling," and GQ's "people-pleasing" read are all in the record and absent from the article.
+- **The "hardening" framing is misattributed.** No source has her saying it, and GQ explicitly says she has not hardened herself. The error is inherited from the evidence record's unexplained field.
+
+**Four minor findings.** The hook cuts the 2016 "exploring the nonbinary part of myself" clause. The Type 6 rebuttal reuses the Blade Runner episode, which fits a Six as well. The "three or four years in one city" line is a 2021 remark stated as current. The facility sentence comes from Bazaar, not the GQ link around it.
+
+**Protected.** The two-quote cold open, the "decoy" sentence, the Jules reconciliation, "Release and craving, not achievement," and the "She is light" counterevidence paragraph.
+
+I left the risk flags as research set them. The review does not contest the type, only how much the discriminator proves. The body sits near 3,990 words, so repairs should be net cuts.

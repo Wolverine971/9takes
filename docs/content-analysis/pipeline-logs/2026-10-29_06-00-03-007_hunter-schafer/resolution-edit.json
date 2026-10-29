@@ -1,0 +1,328 @@
+{
+  "schema_version": 3,
+  "decisions": [
+    {
+      "finding_id": "critic-01-discriminator-overreach",
+      "action": "fixed",
+      "reason": "The three-instance discriminator is gone. The rebuilt paragraph separates the readings by how she explains the making (Dazed 2018 world-building from absence, 2021 catharsis, 2024 \"a reason to live\" and \"put on this earth to do\") with the Three prediction stated (\"organized around what will land\"); 2013 and 2022 are explicitly set aside as not separating the types; the 2025 instance quotes her own philosophy-versus-real-life framing and is labelled \"not clean\", with only her stated reason for the earlier stance (\"cool and badass\") counted. The Why-not-3 FAQ was rewritten to match (C82, C97)."
+    },
+    {
+      "finding_id": "critic-02-closing-invented-motive",
+      "action": "fixed",
+      "reason": "See subject-01: the because-clause is removed, ELLE's \"cripplingly aware\" framing and her gloss carry the memory, and no inner state is supplied in its place."
+    },
+    {
+      "finding_id": "critic-03-rival-case-omissions",
+      "action": "fixed",
+      "reason": "Added to the Three case: Vogue 2024 \"I have to keep checking in with myself...\" and \"keep infiltrating to the point where I feel safe enough\" (C105), ELLE UK \"you can kind of get swept up in it\" (C106), OC Register \"can be a bit unsettling\" (C107), GQ's \"validation\" for the first modeling job and \"the sunny, people-pleasing young advocate\", and Call Her Daddy \"I knew fame could get me the things that I wanted to do in life\" (C119). Description now reads \"says she judges her work by its artistic truth\". The Euphoria section is retitled \"Euphoria, and what she let in\" and names the \"at least five\" callbacks (S16, C13); the per-episode pay line was cut for length and remains in C13's claim text."
+    },
+    {
+      "finding_id": "critic-04-hardening-misattributed",
+      "action": "fixed",
+      "reason": "\"She frames that as hardening after years of exposure\" deleted. GQ's sentence is quoted and attributed to the writer (\"It's not so much that Schafer has hardened herself...\"); the evidence record's unexplained field no longer attributes a hardening framing to her (C85, C125)."
+    },
+    {
+      "finding_id": "critic-05-hook-context-cut",
+      "action": "fixed",
+      "reason": "The hook paragraph restores the WUNC framing (\"Now that she was 'exploring the nonbinary part of myself,' it was different\") and the paragraph after the protected passage marks the reading as a reading (\"That is one way to hear it; the simpler way is that her self-concept changed, which it did\") and gives the one-sentence argument for why the objection survives (C56)."
+    },
+    {
+      "finding_id": "critic-06-type6-same-episode",
+      "action": "fixed",
+      "reason": "The Six paragraph now leads with the Vogue \"safe enough\" line as its strongest instance, names the separating observation (what the safety is for; she chooses exposure over cover alone and announces afterward, versus gathering allies and checking the plan) and no longer uses the Blade Runner holdout (C112)."
+    },
+    {
+      "finding_id": "critic-07-city-claim-stale",
+      "action": "fixed",
+      "reason": "Now \"By 2021 she had not lived more than three or four years in one city since Raleigh\" with the March 2026 Interview line (\"I technically live there, but I'm never there\") carrying the current state (C31, C122)."
+    },
+    {
+      "finding_id": "critic-08-facility-attribution",
+      "action": "fixed",
+      "reason": "Now \"She considered checking into a mental-health facility, Harper's Bazaar reported in 2021.\" (C17; S02)."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "action": "fixed",
+      "reason": "See critic-01. The 2022 episode is no longer described as a revision or an accepted cost anywhere; the hook's label reversal and the 2025 \"cool and badass\" self-concept are the two audience-facing revisions used, with the 2025 one labelled not clean (C82)."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "action": "fixed",
+      "reason": "The disidentified-Three reading is stated in two sentences; the discriminator is drawn from what she makes and why (S14 world-building line as a blockquote, the catharsis thread, \"a reason to live\", \"put on this earth to do\"), the modeling \"validation\" remark is admitted into the Three case, and \"which a Three fused with success does not usually do\" is removed (C108, C109, C111)."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "action": "fixed",
+      "reason": "\"not safety\" is gone; the Six paragraph quotes the \"safe enough\" line, gives the sourced reason it still reads Four (the platform is \"to do whatever I want\"; exposure chosen over cover from the 2016 lawsuit to the 2025 passport video to the surgery disclosure) and does not use the Blade Runner holdout (C112)."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "action": "fixed",
+      "reason": "The Nine paragraph names self-differentiating versus self-forgetting with pre-2020 instances (three coming-out attempts, \"stuck out like a sore thumb\") and post-2020 ones (the Method class quit in 2021 to avoid being \"someone I'm not\", the 2021 catharsis craving), acknowledges \"over here with people I love\" and \"down for the ride\" as Nine-compatible, and no longer rests on the truck drive (C83)."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "action": "fixed",
+      "reason": "The type answer and type FAQ now read \"she resists any label that would flatten that self, even when carrying it would pay\" (58-word answer); no cost claim (C57, C96)."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "action": "fixed",
+      "reason": "Two sentences after the cool quote name the idealize-then-devalue structure as a Four's reflex, and the relationships section ties the \"is this it?\" reaction to the same move (C71, C79)."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "action": "fixed",
+      "reason": "The paragraph now states whose misperception she tolerates (hostile strangers' misgendering, assigned to them like the cheating) and whose she objects to (people actually looking, 2016 and 2024), and presents the hardening question in GQ's words attributed to the writer (C125)."
+    },
+    {
+      "finding_id": "enneagram-08",
+      "action": "rejected",
+      "reason": "Rolling Stone (S27, cached page reopened) says: \"after they spent more than a month attempting to cast the role to no avail, they returned in early June with another pitch.\" The clause is kept as \"after more than a month of trying to cast the part\"; the sentence is added to S27's excerpt and C37's claim text so it is traceable."
+    },
+    {
+      "finding_id": "fan-01-cuckoo-first-job-without-levinson",
+      "action": "fixed",
+      "reason": "Now \"Cuckoo, her first film and her first lead\" (S25; C36). \"first job without Levinson\" removed; the Variety quote stays."
+    },
+    {
+      "finding_id": "fan-02-only-shared-writing-credit",
+      "action": "fixed",
+      "reason": "Opened the Wikipedia episode pages for all three seasons on 2026-10-29 (S46 season 3, S47 season 1, S48 season 2): every episode's WrittenBy field is Sam Levinson alone (season 1: 8 episodes; season 2: 8; season 3: 8), with the 2021 special \"Fuck Anyone Who's Not a Sea Blob\" the co-written exception. Sentence now reads \"It remains the only writing credit Levinson has shared on the show; every other episode through the May 31, 2026 finale is credited to him alone,\" linked to the season 3 page; C18 updated and cites S46-S48."
+    },
+    {
+      "finding_id": "fan-03-activist-label-arc-omitted",
+      "action": "fixed",
+      "reason": "The activist paragraph now shows the arc: accepted at 17 (Teen Vogue, S08, \"to represent other transgender youth in North Carolina\"), unease by 2018 (NYT, S10), \"because people have been telling me I'm an activist, I took on that label. But in retrospect, I don't think that's what I am\" (NYT July 2019, S11, verified in the Wayback text), and Rolling Stone 2024. The Type 9 paragraph now confronts the compliance material directly (\"went where people told me to go\", \"down for the ride\", \"over here with people I love\") and states the self-differentiating-vs-self-forgetting discriminator (C09, C102, C83). Body is 4,422 words."
+    },
+    {
+      "finding_id": "fan-04-2024-protest-arrest-omitted",
+      "action": "fixed",
+      "reason": "Added two opened contemporaneous reports (S49 NBC News, Feb 28 2024; S50 Vulture, Feb 28 2024) and two sentences after the \"protective measure\" line: arrested Monday, February 26, 2024 (both reports date it to the Monday before Biden's Late Night taping; Wikipedia's February 27 is not used), Jewish Voice for Peace cease-fire protest inside 30 Rockefeller Plaza, \"CEASE-FIRE NOW\" shirt, reconciled with the activist refusal (\"She picked the cause; the label she refuses is the one other people hand her.\") (C100). No first-person statement from her was found in the sources opened (both reports note her representatives did not comment), so none is quoted."
+    },
+    {
+      "finding_id": "fan-05-transmedicalism-passage-fidelity",
+      "action": "fixed",
+      "reason": "Reopened Seventeen (S30, cached page): it quotes the comment continuously from \"Also, while we are here-\" to the closing heart emoji, and no apology or regret appears, so \"She did not apologize\" stands. The post is now described in Out's quoted words (\"about the difference between binary trans people who medically transition, and nonbinary trans people who don't\") with Out's own characterization of the blame attributed to Out (C41, S29)."
+    },
+    {
+      "finding_id": "fan-06-art-school-and-2017-perception-line-omitted",
+      "action": "fixed",
+      "reason": "Added to the childhood section: senior year \"at an arts high school in Winston-Salem\" (GQ's wording, S01; HuffPost does not name UNCSA and no opened source does, so the school is not named), the HB2 thesis garment (\"Peel away every perception\"), the April 2017 HuffPost line (\"how people perceive me versus how I feel ... almost like journal entries\") framed as the earliest pre-fame statement of the theme, and the 2024 GQ admission (\"Oh, I'm trans. I should be making art about this\") (C103, C104). Cuts elsewhere keep the body at 4,422 words."
+    },
+    {
+      "finding_id": "fan-07-method-class-caption-level",
+      "action": "fixed",
+      "reason": "Re-transcribed 00:26:38-00:27:32 of the A24 audio with Whisper small.en (/tmp/hs-edit/w/a24-method.txt): \"the casting director tried to stick me in this ... acting class in New York ... the method technique ... made it two weeks ... drop out because it is so hardcore\" all confirmed; \"month-long\" is heard only in the captions and is dropped. The sentence now quotes \"because it is so hardcore\" (C20; S06 locator updated)."
+    },
+    {
+      "finding_id": "fan-08-wunc-toddler-ages",
+      "action": "fixed",
+      "reason": "Now quotes Katy Schafer's \"maybe from 18 months on\"; the preschool pink dress at three matches WUNC (\"We made a point to see a preschool teacher when Hunter was three… comes to school every day and puts on a pink dress\") (C02)."
+    },
+    {
+      "finding_id": "fan-09-fame-for-money-inverted",
+      "action": "fixed",
+      "reason": "The inverted clause is gone from the Why-not-3 section; the drag section now quotes the remark where fame is discussed: \"Life would be perfect, she added, 'if I could walk away from all of this with the money.'\" (Whisper chd-fame; C119)."
+    },
+    {
+      "finding_id": "fan-10-who-is-faq-credits",
+      "action": "fixed",
+      "reason": "The Who-is FAQ now lists Tigris in The Hunger Games: The Ballad of Songbirds & Snakes (2023), Cuckoo (2024), Kinds of Kindness (2024) and Mother Mary (2026), per S44 and S32 (C01)."
+    },
+    {
+      "finding_id": "future-01",
+      "action": "fixed",
+      "reason": "See fan-02: anchored to opened season credits through the May 31, 2026 finale (S46-S48) and C18's claim text matches the wording."
+    },
+    {
+      "finding_id": "future-02",
+      "action": "fixed",
+      "reason": "Body: \"The series was scheduled to premiere on Prime Video in November 2026.\" FAQ: \"scheduled for Prime Video in November 2026.\" C01 is now time_sensitive with a trigger naming the premiere; C37's trigger retained."
+    },
+    {
+      "finding_id": "future-03",
+      "action": "fixed",
+      "reason": "Sentence dated (\"as of October 2026\"); C33 and C79 set to unresolved with the trigger \"Update if Dominic Fike publicly responds to, confirms or disputes the infidelity account, if Schafer revises it, or if the September 2026 reunion reports are confirmed\"; C99 carries the same trigger."
+    },
+    {
+      "finding_id": "future-04",
+      "action": "fixed",
+      "reason": "Residence claim anchored to 2021 with the March 2026 line for the current state; C31's trigger now also covers a settled residence (C122)."
+    },
+    {
+      "finding_id": "future-05",
+      "action": "fixed",
+      "reason": "See fan-01: \"her first film and her first lead\"."
+    },
+    {
+      "finding_id": "future-06",
+      "action": "fixed",
+      "reason": "The \"eight years\" summary sentence was removed with the rebuilt section; the remaining spans are closed by absolute dates (2016/2024, 2018/2024)."
+    },
+    {
+      "finding_id": "future-07",
+      "action": "fixed",
+      "reason": "FAQ now \"and, as of that interview, described her gender as 'flatter'\"; C98 and C87 set to time_sensitive with the trigger \"Update if she publicly revises how she describes her gender identity or the surgery.\""
+    },
+    {
+      "finding_id": "subject-01-closing-invented-motive",
+      "action": "fixed",
+      "reason": "Closing rewritten. The memory now carries ELLE's own framing (\"so cripplingly aware of how she was being viewed, it wasn't fun\") and her gloss, then: \"A shy kid, miserable at being looked at, who did the dance anyway. She does not say why.\" No because-clause or supplied motive; the Call Her Daddy line follows as her own description of her core (C91, C92)."
+    },
+    {
+      "finding_id": "subject-02-fike-attribution-and-balance",
+      "action": "fixed",
+      "reason": "Body now says she talked about her \"last relationship\" without naming him and that the identification rests on her description and the reporting that followed; her credit to him is quoted from the Whisper segment (\"I've said all these amazing things with him. He was not perfect and it's no secret.\"); the no-response sentence is kept and dated \"as of October 2026\"; the dating FAQ says \"she did not name him\". C33, C79 and C99 now carry a trigger covering the unconfirmed September 2026 reunion reports and any response from Fike; the article makes no reunion claim."
+    },
+    {
+      "finding_id": "subject-03-gender-as-type-evidence",
+      "action": "fixed",
+      "reason": "The section now opens \"The longest-running evidence for the type is not her gender. It is the way she revises a publicly stated description of herself when it stops matching what she feels,\" followed by \"Her gender is not evidence of any personality type, and neither is a medical decision; as ELLE put it, 'every trans person is different.'\" (S04, checked in the cached page). The surgery guard is kept (C117)."
+    },
+    {
+      "finding_id": "subject-04-ideology-wording",
+      "action": "fixed",
+      "reason": "\"Ideology\" no longer appears in author prose. The rebuilt discriminator quotes her own framing of the 2025 change (queerness as philosophy \"versus how it applies and works in real life, in the context of the world that we're living in\") and labels that instance \"not clean\" (C118)."
+    },
+    {
+      "finding_id": "subject-05-strategy-collided-causal-link",
+      "action": "fixed",
+      "reason": "The 2022 episode now opens \"Her one public rupture with the community that made her a symbol came in August 2022\" with no link to the perception strategy; the paraphrase of the post and her September 2022 comment stay (C41)."
+    },
+    {
+      "finding_id": "subject-06-depression-fragment-balance",
+      "action": "fixed",
+      "reason": "Now \"she told AnOther in 2023, 'never really goes away.' In the same breath: 'You just figure out how to live with it, live a life with it. And I'm on meds now, which are great.'\" cited to Attitude, which names AnOther as the original (S20, C07)."
+    },
+    {
+      "finding_id": "subject-07-circle-already-knew",
+      "action": "fixed",
+      "reason": "\"something her circle already knew\" removed; now \"after weighing whether to say it, she told the writer\", which is what ELLE shows (\"silently weighing the pros and cons of a disclosure\") (C39)."
+    },
+    {
+      "finding_id": "subject-08-parents-said-no",
+      "action": "fixed",
+      "reason": "Now \"Her first two attempts did not get through; the third landed, Katy Schafer told WUNC, because 'we had kind of lost our kid.'\" No \"said no\". The mother's actual line (\"that doesn't mean you're transgender. It doesn't mean you're a girl\") is recorded in C03's claim text and S07's context."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "action": "fixed",
+      "reason": "The intro now states in prose that she is an actress, model and visual artist best known for playing Jules, a transgender teenager, on HBO's Euphoria, which premiered in June 2019 (C114); the Euphoria section identifies Levinson as the show's creator and writer at his first mention; \"the Euphoria premiere\" names the show."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "action": "fixed",
+      "reason": "Added before the protected passage: \"Jules was written close to her: for the character's therapy scenes, she told Awards Focus, she chose 'to draw upon my own experiences as far as my own personal ways of thinking about trans-ness.'\" (S18, C113)."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "action": "fixed",
+      "reason": "The skirt detail is now introduced in the childhood section (\"Hunter finished that freshman year, at 14, in a skirt\"), sourced at the passage to Rolling Stone, August 9, 2024 (S27, verified in the cached text: \"attending her last day of her freshman year at Raleigh's Broughton High School in a skirt\"); the closing callback now refers to a told detail (C03, C90)."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "action": "fixed",
+      "reason": "The section is trimmed and now states its contribution: the \"is this it?\" to \"nothing to do with you\" move is the same self-location move the profile tracks (fault placed on herself first, then relocated to the other person), which the counterevidence paragraph also uses (C79). The infidelity passage stays, repaired per subject-02."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "action": "fixed",
+      "reason": "See fan-09: the remark is quoted with attribution in the drag section and the ambiguous summary clause is gone."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "action": "fixed",
+      "reason": "HB2 is explained at first mention (\"House Bill 2, the state law that made it illegal for her to use the women's bathroom in a public building\", per her Teen Vogue account, S08) and \"HB2\" appears in the body in the art-school paragraph (C123)."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "action": "fixed",
+      "reason": "The ninth-grade coming-out is dated where told (\"the 2012-13 school year\", from the sourced birth date and Rolling Stone's \"at 14\"); the rebuilt discriminator no longer forward-references an untold 2025 fact; the 2025 \"cool and badass\" reasoning is quoted in the Why-not-3 section where it is used."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "action": "fixed",
+      "reason": "Now \"but the affect does not match the depression and the craving for catharsis she reports elsewhere.\""
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Read fast, that is a reversal. Read slowly, it is the same complaint. At 17 the label that flattened her was \"cis girl.\" At 25 it was \"trans actress.\" The content changed. The objection to being reduced to a category before anyone looked did not.",
+      "action": "kept",
+      "reason": "Kept verbatim. The WUNC nonbinary framing was added in the paragraph before it and the \"one way to hear it\" sentence after it (critic-05), so the pairing and its verdict are intact."
+    },
+    {
+      "passage": "A Three manages an image to be admired for it. What she describes is managing one so the admiration lands on the decoy while she is somewhere else.",
+      "action": "kept",
+      "reason": "Kept verbatim in the drag section, after the activist arc."
+    },
+    {
+      "passage": "She did not apologize and she did not double down. She narrowed the claim to what she meant.",
+      "action": "kept",
+      "reason": "Kept verbatim; Seventeen's full quotation of the comment was reopened and contains no apology (fan-05)."
+    },
+    {
+      "passage": "The surgery is not evidence of anything about her type. Her reasoning is.",
+      "action": "kept",
+      "reason": "Kept verbatim, and the guard is extended to her gender identity in the section's opening paragraph (subject-03)."
+    },
+    {
+      "passage": "No response from Fike turned up in the sources checked for this page.",
+      "action": "changed",
+      "reason": "Kept word for word with the date future-03 required appended: \"No response from Fike turned up in the sources checked for this page as of October 2026.\" The disclosure owed to the named third party is unchanged."
+    },
+    {
+      "passage": "On this reading, the line she guards is not between herself and a role but between the self she built and anything that could overwrite it. Jules was made from the same material, so Jules was allowed in.",
+      "action": "kept",
+      "reason": "Kept verbatim; the sourced Awards Focus premise now precedes it (unfamiliar-02) and the Method details were audio-checked (fan-07)."
+    },
+    {
+      "passage": "She is light. The New York Times called her \"the sunny Schafer\" in 2019; Variety found her \"light and airy\"; GQ called her \"silly and curious.\" Her stylist, Dara Allen, says \"She's down to clown.\" Dan Stevens talks about \"a real kind of impish sense of humor.\" She agrees. She has always had, she says, \"pretty easy access to like joy,\" and she calls herself \"a pretty happy kid\" despite the pain. A Four who does not perform melancholy is still a Four, but the affect does not match the self-reports.",
+      "action": "changed",
+      "reason": "Every observer, quote and attribution is kept; only the last clause changed from \"does not match the self-reports\" to \"does not match the depression and the craving for catharsis she reports elsewhere\" so the contrast is explicit (unfamiliar-08). The contradiction is still left unresolved and no wing explanation was added."
+    },
+    {
+      "passage": "A shy kid who did the dance anyway, crying, because the self she was had to come out and the room had to see it. Twenty years later she said the same thing in one sentence, on a podcast, in the middle of a joke about her afflictions.",
+      "action": "changed",
+      "reason": "The because-clause invented a motive the source contradicts (subject-01, critic-02, both major). The ending still lands on the same two verified moments (ELLE 2026 dance memory with the writer's \"cripplingly aware\" framing; the audio-verified Call Her Daddy line) with no CTA and no restatement: \"A shy kid, miserable at being looked at, who did the dance anyway. She does not say why. Twenty years later, on a podcast, in the middle of a joke about her afflictions, she described the same core in one sentence.\""
+    },
+    {
+      "passage": "Eight years later, she told GQ she had been offered \"tons of trans roles\" and did not want them, and that keeping transness out of her billing had taken work. \"If I let it happen, it would still be giving 'Transsexual Actress' before every article ever.\"",
+      "action": "kept",
+      "reason": "Kept verbatim as the second half of the cold open."
+    },
+    {
+      "passage": "Release and craving, not achievement. That is the vocabulary of someone who makes things to metabolize feeling, and it is the first place the Type 3 alternative starts to lose ground.",
+      "action": "kept",
+      "reason": "Kept verbatim at the end of the Euphoria section."
+    },
+    {
+      "passage": "Release and craving, not achievement.",
+      "action": "kept",
+      "reason": "Kept verbatim (it is the opening of the longer protected passage)."
+    },
+    {
+      "passage": "I'm so thankful that I have not really been given a choice to be anyone but who I am.",
+      "action": "kept",
+      "reason": "Kept verbatim as the final line."
+    },
+    {
+      "passage": "A Four who does not perform melancholy is still a Four, but the affect does not match the self-reports.",
+      "action": "changed",
+      "reason": "Sentence kept with the ending clarified to \"does not match the depression and the craving for catharsis she reports elsewhere\" (unfamiliar-08); the refusal to resolve the contradiction is preserved and nothing explains it away."
+    },
+    {
+      "passage": "She holds two opposite postures without resolving them. \"I can't just wing this shit. I really have to be intentional about the way I'm moving in the world,\" she told GQ in 2024. By 2026 she was \"down for the ride and not trying to push back against it, or self-sabotage.\" Both halves are hers.",
+      "action": "kept",
+      "reason": "Kept verbatim; the Nine paragraph now acknowledges the second half as Nine-compatible, as enneagram-04 asked, without changing this passage."
+    },
+    {
+      "passage": "The discriminator is where she locates the self. When identity collided with expectation, with her parents in 2013, with her community in 2022, and with her own earlier ideology in 2025, she revised toward what felt true to her and took the cost each time. A Three revises toward what works.",
+      "action": "changed",
+      "reason": "Three reviewers (critic-01, enneagram-01, unfamiliar-07) found the three-instance list did not discriminate: 2013 is necessity, 2022 was a narrowing that lowered the cost, 2025 is framed by her as ideology meeting reality. The passage is replaced by a discriminator built on dated behavior (2018 Dazed, 2021 Awards Focus, 2024 GQ and Call Her Daddy) plus the 2016/2024 label reversal and the 2025 stated reason, so the dated-pattern durability the future reviewer valued is retained; removing the 2025 instance still leaves 2016-2024 standing."
+    }
+  ],
+  "prior_blockers": []
+}
