@@ -1,0 +1,2246 @@
+{
+  "schema_version": 3,
+  "subject": "paul-bettany",
+  "status": "ready",
+  "profile_format": "standard",
+  "research_tasks": [
+    "Human listen of Sibling Revelry (S23) at 13:30-14:20, 20:50-22:30, 23:20-24:30, 27:58-29:50 and 41:00-43:20 to confirm the quoted wording; the edit reduced dependence on S23 (title, description and the Four rebuttal no longer rest on it) but quotes still rest on machine transcription.",
+    "Open the originals of the 2012 Guardian (S28), 2013 Guardian (S03), 2020 Total Film and NewNowNext (S08), 2021 Independent (S11), February 2022 Times (S12) and 15 October 2026 Times (S21) interviews before refresh; the Depp section and C25, C60 and C130 rely on relays.",
+    "Do not state an Avengers: Doomsday or Secret Wars appearance until confirmed (review triggers on C32 and C135).",
+    "Father's coming-out age conflicts (Bettany: 63; Telegraph 2013: bisexuality announced at 75); the article states both (C21, C69).",
+    "The CinemaBlend 2010 question text (S04) is not visible; the article does not state what he was asked.",
+    "Thesis test for refresh: his next self-written or self-directed project and how he frames its risk (C80, C134)."
+  ],
+  "accuracy_checked_at": "2026-10-30",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.timteeman.com/?p=1064",
+      "title": "Paul Bettany (The Times interview by Tim Teeman, author repost)",
+      "speaker": "Paul Bettany, interviewed by Tim Teeman",
+      "date": "2012-01-14",
+      "locator": "Margin Call press interview; paragraphs on school, Matthew, cocaine, therapy, fame (author archive repost of The Times piece)",
+      "excerpt": "\"I was a really bullied kid,\" ... \"My godfather was gay and I would challenge every homophobic comment I heard. Consequently I had the shit kicked out of me because they thought I was gay.\" ... \"It was a heart- breaking, alienating experience. I felt like I was harbouring this huge secret. I was so fragile.\" ... \"I stopped because it was threatening my ability to act: the one thing that gave me self-worth.\" ... \"God yes, four years on and off. In a world absent of Jesus, it's the flawed, but solitary option.\" ... He remains \"full of self-doubt — I do not operate from a place of certainty\". ... \"But you shouldn't be sustained by other people's adulation. What if it goes away?\" ... \"I was terrified of reading aloud — it was so humil- iating that I used to hide.\" ... \"I tot- ally fell in love with it the moment I started doing it.\"",
+      "context": "Long-form Times interview over lunch in New York, age 40, promoting Margin Call. Covers dyslexia and bullying, Matthew's death at 8 when Paul was 16, early-20s cocaine addiction (\"work kept me on an even keel\"), the 9/11 phone calls to Connelly, therapy, and fame. Teeman notes it is \"all said without self-pity\". Also: \"Making Margin Call 'was the first amazing artistic experience I'd had in years' ... 'It made me think I can't be a gun for hire any more.'\" Text read on the author's archive; the original Times page was not opened. Edit stage (2026-10-30): Also on the cached page: \"I used to bunk off and had a lot of revenge fantasies where I thought, 'One day you'll be sorry.'\" His desire to act was \"absolutely\" fuelled by this (Teeman's paraphrase around the quoted word). \"Acting became a vocation. I don't remember thinking it was about money until I had kids.\" When Stellan was born \"he took a year and a half off\"; he won't name the films \"which have made me the most amount of money in the shortest amount of time so I could get back to my family\". \"I need to be happy, and if that means making films for less money, so be it.\" \"When both were single, September 11 happened\" (both had other partners during A Beautiful Mind). His brother's fall \"is right there\" when his children jump on the couch: \"I have to stop myself from shouting, 'Stop it.'\" \"His parents were both former actors.\"",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S02",
+      "url": "https://web.archive.org/web/2018id_/https://www.telegraph.co.uk/culture/film/starsandstories/10061467/Paul-Bettany-interview-this-time-its-serious.html",
+      "title": "Paul Bettany interview: this time it's serious (The Telegraph, Celia Walden)",
+      "speaker": "Paul Bettany, interviewed by Celia Walden",
+      "date": "2013-05-20",
+      "locator": "Full article via Wayback raw capture; paragraphs on lateness, son's birth and money, school bullying, 9/11, addiction, death",
+      "excerpt": "'I have a pathological fear of being late' ... 'Suddenly I thought to myself, \"---- all this. The world is precarious and I'm going to make my children as safe as possible – with dough.\" And I went about doing that. It was ludicrous, of course, because they were safe. ... but there I was hammering bits of wood against the window as though there were a zombie apocalypse coming. It sounds neurotic, but it's not, because the tap can turn off.' ... 'I was a city boy and I was terrified of everyone' ... 'My experience of addiction was very much linked to a lack of foundation, feeling rootless and not knowing who I was' ... 'I felt so uneducated. Those people were supersized to me and I was always trying to proximate the way they constructed their sentences.' ... 'I worry about death in general a lot.' ... 'It was constant,' ... 'I was bullied about everything, from the way I looked to the fact that my father had been a dancer.' ... 'I can tell you right now that I'm not feeling particularly guarded.' ... 'I thought to myself, \"Why have I been calling this woman for three days?\" Then suddenly it dawned on me.' ... Auditions 'were always fine, because I would never sight read, I would just learn things by heart. Right up until the read-through for A Beautiful Mind, I was still learning my lines by heart and pretending to read my part. Now I've stopped doing that. It was the anxiety that made my dyslexia worse.'",
+      "context": "Interview at the Chateau Marmont while shooting Transcendence, promoting Blood (2013). Walden reports he tries not to be away from family for longer than two weeks, that after 9/11 he rang Connelly for days (\"Why have I been calling this woman for three days?\"), and that the marriage gave him \"a certainty that was new to me\". She also reports his father \"aged 75 ... announced his bisexuality\", which conflicts with Bettany's later \"came out at 63\". The bullying at Chancellors school predates Matthew's death. Walden was warned he would not discuss his brother that day. Walden also reports the money plan included buying 'the 100-acre farm in Vermont he wanted his children to have as a weekend retreat', that his parents divorced in 1993, that he arrived 'two minutes late, having called to say he may be delayed', and that Master and Commander was 'a global box-office hit' in 2003. The 'It blew the family apart' line is quoted as something he 'has said'. Edit stage (2026-10-30): Also: 'Growing up, I'd always loved acting, but fame? Well I suppose I did want it in a childish, revenge fantasy kind of way'; the bullying 'set off the childish motor in me'; 'I know great actors whom nothing has ever happened for' follows the tap line; after Margin Call 'I had made some bad choices. I decided I wasn't going to do that any more'; Walden lists Wimbledon (2004), Firewall (2006), The Da Vinci Code and Priest among his studio-shaped roles; 'His parents' marriage buckled under the strain of the trauma, the pair eventually divorcing in 1993'; family: 'a younger brother, Matthew, and an older sister, Sarah'; 'his mother, Anne, had given up acting years earlier'. The 'certainty that was new to me' fragment sits inside Walden's sentence about 'Their romance', and the security frame is partly hers: the standfirst says he 'followed the Hollywood dollar for the sake of his family's security' and she writes 'One can only ever guess at a person's motivations, but it seems likely that in his relationship with Connelly, Bettany finally had the foundations he'd craved as a young man.' The article treats that as her inference, not his.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S03",
+      "url": "https://www.dailyactor.com/film/paul-bettany-on-how-he-rekindled-his-love-for-acting",
+      "title": "Paul Bettany on How He Rekindled His Love for Acting (Daily Actor, relaying The Guardian)",
+      "speaker": "Paul Bettany, quoted from a Guardian interview",
+      "date": "2013-06-07",
+      "locator": "Second and third paragraphs quoting the Guardian Blood interview",
+      "excerpt": "\"Acting used to be somewhere I could put loads of terrible feelings and bad experiences and try to make something creative out of them. But then I married and had children and everything got eclipsed. I know how precarious life can be, so I then had a period when I was making as much money as I could, so my children would be safe. Then I made a film called Margin Call, which was shot in two weeks on a low budget.\"",
+      "context": "Daily Actor summary of a 2013 Guardian interview about Blood. The Guardian original could not be opened (crawler blocked), so this is a secondary relay; the same safety-through-money account appears independently in S02 two weeks earlier and in S01.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S04",
+      "url": "https://cinemablend.com/new/Interview-Paul-Bettany-Creation-16647.html",
+      "title": "Interview: Paul Bettany On Creation (CinemaBlend)",
+      "speaker": "Paul Bettany",
+      "date": "2010-01-20",
+      "locator": "Q&A answer on whether he was nervous acting with Connelly",
+      "excerpt": "My heartbeat tends to lower when cameras are on. I tend to get much calmer. I'm anxious in everyday life. I'm anxious about my kids' health, my health, whether I\"m going to get the job I want, the chicken's going to turn out all right, the dog's going to poop in front of the paparazzi.",
+      "context": "Roundtable-style junket interview for Creation, in which he played Darwin opposite Connelly. Delivered with jokes; the interviewer calls him \"as lively and funny as you might expect\". He adds that on Master and Commander he could hold bugs once the camera rolled though he \"fucking hate[s] bugs\".",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S05",
+      "url": "https://www.independent.co.uk/arts-entertainment/films/features/paul-bettany-on-shelter-and-why-his-directorial-debut-is-about-homelessness-not-hollywood-a6754976.html",
+      "title": "Paul Bettany on why his directorial debut is about homelessness (The Independent, Kaleem Aftab)",
+      "speaker": "Paul Bettany, interviewed by Kaleem Aftab",
+      "date": "2015-11-30",
+      "locator": "Paragraphs on the film's theme, busking, and his father",
+      "excerpt": "\"But I didn't want to make a film about homelessness,\" he insists. \"I wanted it to be about judgment.\" ... \"It's just that people are eminently forgivable.\" ... \"My father, who has just died, was a very religious man,\" says Bettany. \"I'm not. I was raised a Catholic and he used to say this thing whenever we passed a homeless person, 'There but for the grace of God, go I.' Although I'm not a religious man, I love that sentence. There is an admission of how easily it can be us.\"",
+      "context": "Interview about Shelter (2014), which he wrote and directed and which stars Connelly. The story was inspired by a homeless couple outside his New York home. He says his busking past probably fed the film but \"I didn't want it to become part of a narrative in discussing the film\". Connelly, he says, \"is incredibly honest about my artistic endeavours – brutally so.\" Edit stage (2026-10-30): The busking quote in full: \"I didn't want it to become part of a narrative in discussing the film. Because I think it's a sticky subject. It's a bit like politicians kissing babies.\" Used as pre-2026 evidence of guarding rather than displaying personal pain.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S06",
+      "url": "https://windycitytimes.com/2020/11/22/movies-paul-bettany-talks-uncle-frank-and-his-own-closeted-father/",
+      "title": "Paul Bettany talks 'Uncle Frank' and his own closeted father (Windy City Times)",
+      "speaker": "Paul Bettany",
+      "date": "2020-11-22",
+      "locator": "Q&A answer to whether he was reluctant to accept the role",
+      "excerpt": "But the first question I had for Alan was \"Why me?,\" and I [followed that] with \"Should I even do this?\" ... My father, because of the dogma of Catholicism, went back into the closet. He was arguably with the love of his life and when my father died—in my arms!—I found in his pocket a glass vial of Andy's ashes. ... My father had some beautifully curated stories and anecdotes, but I never really got to know him because he didn't live his life in an authentic way.",
+      "context": "Phone Q&A for Uncle Frank (2020), in which he plays a closeted gay professor. He says he asked himself whether it was \"morally correct\" to take the role and whether he had \"the energy\" to \"think of some dark moments in your life\". He and director Alan Ball found they shared \"early traumas in our lives and deaths of our siblings\". Edit stage (2026-10-30): The question that prompted 'Why me?' was about the view that only LGBTQ actors should play LGBTQ roles; he said 'That wasn't the only reason I was reluctant' and named whether it was 'morally correct' and whether he had 'the energy' to 'think of some dark moments in your life'. A Windy City Times editor's note dates Thane's coming out to the early 1990s, with Paul's parents divorcing afterward.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S07",
+      "url": "https://thequeerreview.com/2020/11/23/exclusive-interview-paul-bettany-gay-role-uncle-frank/",
+      "title": "Exclusive Interview: Paul Bettany ... shares a touching story about his father coming out late in life (The Queer Review)",
+      "speaker": "Paul Bettany",
+      "date": "2020-11-23",
+      "locator": "Quoted answer in the article body (accompanying video interview)",
+      "excerpt": "\"It was really why I decided I had something to offer,\" Paul Bettany told The Queer Review. ... \"So for me, it was a question of being able to imagine what if my father had got right with himself and could have had the happy ending that Frank and Wally get in this story? So that's why I did it and that's why it was important to me.\"",
+      "context": "Independent outlet, separate interview from S06 the same week; confirms the father account (came out at 63, about 20 years with Andy, back into the closet, the vial of ashes).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S08",
+      "url": "https://www.out.com/film/2020/11/30/paul-bettany-says-his-gay-father-went-back-closet-his-80s",
+      "title": "Paul Bettany Says His Gay Father Went Back Into The Closet in His 80s (Out, relaying Total Film and NewNowNext)",
+      "speaker": "Paul Bettany (via Total Film); Alan Ball (via NewNowNext)",
+      "date": "2020-11-30",
+      "locator": "Body paragraphs quoting Total Film, then Alan Ball",
+      "excerpt": "\"He came out of the closet at 63. He then had a 20-year relationship with a man called Andy Clark. It was a joyous relief for everybody, actually.\" ... \"The shame he felt for his sexual identity was devastating, he was unable to mourn the person who I think was the love of his life.\" ... \"We talked about it a lot, and the fact we both had very traumatic experiences in our adolescence and how those stayed with us,\" Ball explained. \"For Paul, the movie became a chance for him to have his own 'what if' story about his father. What if he was able to really embrace who he was and live his life fully?\"",
+      "context": "Secondary relay of a Total Film interview and of director Alan Ball's NewNowNext interview; neither original was opened. PinkNews (same day) relays the same quotes, so it is not independent corroboration. Ball's remark is named third-party testimony about why Bettany took the role.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S09",
+      "url": "https://www.yahoo.com/now/wandavision-paul-bettany-says-watching-180058582.html",
+      "title": "WandaVision's Paul Bettany Says Watching His Father Struggle with His Sexuality Shaped Him as a Dad (People, via Yahoo)",
+      "speaker": "Paul Bettany",
+      "date": "2021-01-15",
+      "locator": "People magazine interview excerpt, paragraphs on childhood and father",
+      "excerpt": "\"I was a sort of fool at home in front of my parents, but then at school very bashful,\" he says. \"I was the kid that didn't go out at recess.\" ... \"I thought I'd be dead on a couch by 25. ... But you grow up.\" ... \"I really want my children, and I want everybody, to just live authentically as the person they are, and however hard that is, it's absolutely better than pretending to be something other than you are.\" ... \"Having been through a thousand years of therapy, there's real power in getting to know yourself ... and I have so many things to be grateful for,\" he says.",
+      "context": "People magazine WandaVision cover-week interview. The magazine says he coped with Matthew's death \"by drinking and partying\" before drama school at 19.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S10",
+      "url": "https://www.yahoo.com/entertainment/wandavision-paul-bettany-says-marriage-150052896.html",
+      "title": "WandaVision's Paul Bettany Says His Marriage to Jennifer Connelly 'Really Altered Who I Was' (People, via Yahoo)",
+      "speaker": "Paul Bettany",
+      "date": "2021-01-14",
+      "locator": "People interview excerpt, paragraphs on marriage and family",
+      "excerpt": "\"Yeah, totally faked my way into that one; poor Jennifer, as she slowly realized how ill-educated I was,\" he jokes. ... \"Marriage and children changed my life,\" says Bettany. \"It really altered who I was and what I saw as my goals.\" ... the moments that mean the most to the actor are \"when I catch myself and realize the five of us are laughing together,\" he says. ... The couple wed in 2003 and raised Kai, Connelly's son from a previous marriage, before welcoming Stellan later in 2003 and Agnes in 2011.",
+      "context": "Companion People excerpt from the same WandaVision interview as S09. People restates that he realised he loved Connelly \"after frantically worrying about her\" after 9/11 and proposed before they dated.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S11",
+      "url": "https://news.yahoo.com/paul-bettany-johnny-depp-amber-heard-texts-strange-unpleasant-172446766.html",
+      "title": "Paul Bettany says having his texts with Johnny Depp about Amber Heard made public was 'a strange moment' (Yahoo Entertainment, relaying The Independent)",
+      "speaker": "Paul Bettany (via The Independent)",
+      "date": "2021-12-26",
+      "locator": "Paragraphs quoting the Independent interview",
+      "excerpt": "\"It was a strange moment,\" he said of being involved in Depp's legal battle. \"What was strange about it was you suddenly have one of the most scabrous newspapers in London and their lawyers poring through your texts for the last 10 years. Can you imagine what it would be like, honestly, to have a bunch of lawyers go through every one of your emails and texts for 10 years? All I can tell you was that it was an unpleasant feeling.\" ... \"I don't feel that I signed some Faustian pact with the devil when I became an actor to give away all my privacy.\"",
+      "context": "Secondary relay of a December 2021 Independent interview (original not opened). He says \"I think that I just pour fuel on the fire\" by discussing it, and recalls a filmed subway argument with Connelly that led to divorce rumours reaching his children's school. Edit stage (2026-10-30): The relay also reports: 'A British court ultimately dismissed Depp's claim that it was libelous for the newspaper to refer to him as a \"wife beater\" in light of ex-wife Amber Heard's allegations of abuse.' It dates the texts to 2013 and 2014 and calls Depp his 'Mortdecai and The Tourist co-star'.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S12",
+      "url": "https://news.yahoo.com/paul-bettany-says-embarrassing-texts-111303945.html",
+      "title": "Paul Bettany says it was 'embarrassing' to have texts with Johnny Depp shared during court trial (Insider, via Yahoo)",
+      "speaker": "Paul Bettany (via The Times); text messages read in court",
+      "date": "2022-02-24",
+      "locator": "Article body: text exchange as read in court; Times quotes; 2016 tweet",
+      "excerpt": "In a series of texts, Depp wrote, \"Let's burn Amber!!!\" to which Bettany responded: \"Having thought it through I don't think we should burn Amber — she's delightful company and easy on the eye, plus I'm not sure she's a witch. We could of course try the English course of action in these predicaments — we do a drowning test. Thoughts?\" ... \"We live in a world without context,\" he said. \"I didn't know Johnny when he was married to Amber. I knew him before. But we hadn't spoken for years.\" ... \"I know how this works. Anything that you say is oxygen for a fire. And there's just no fucking fire,\" he added. ... In a tweet in 2016, Bettany said: \"Known Johnny Depp for years and through several relationships. He's the sweetest, kindest, gentlest man that I've ever known. Just saying.\" ... Depp had strenuously denied all claims that he was violent toward Heard.",
+      "context": "Insider report on a February 2022 Times interview given before The Collaboration opened at the Young Vic. The 2013 messages were read in Depp's 2020 UK libel case against The Sun's publisher (which Depp lost) and resurfaced in his 2022 US trial against Amber Heard. The wording of the texts varies slightly between outlets. The Times original was not opened. Edit stage (2026-10-30): Fuller Times quote: \"I didn't know Johnny when he was married to Amber. I knew him before. But we hadn't spoken for years. During the marriage, I didn't know them. So I wasn't around for any of that.\" He called the court episode \"embarrassing\" and \"a very surreal moment\". He does not date when contact stopped; the article quotes him rather than paraphrasing a timeline. Insider also reports that in November 2020 Depp lost the libel case over a 2018 headline calling him a \"wife beater\", that Judge Andrew Nicol referred to 14 incidents, and that Heard had accused Depp of physical abuse in 2016.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S13",
+      "url": "https://therake.com/stories/the-personal-testimony-of-paul",
+      "title": "The Personal Testimony of Paul (The Rake, Nick Scott)",
+      "speaker": "Paul Bettany, interviewed by Nick Scott",
+      "date": "2021-12-08",
+      "locator": "Opening paragraphs (preview text; remainder of feature not visible)",
+      "excerpt": "\"Hang on... Where is it, where is it? I've just got to check my talking points... \" \"Talking points?\" \"'Don't mention the war' stuff. Things I'm not supposed to say. There's always a list. When I did press for The Da Vinci Code, in which I played an albino Catholic murderous monk, I was told I couldn't talk about albinism, Catholicism or murder. Hilarious.\"",
+      "context": "Zoom cover interview for A Very British Scandal. Only the opening was accessible. Scott writes that \"Having to be judicious about what he says to strangers, though, doesn't quite chime with his innate candour. Bettany, you see, is no closed book.\"",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S14",
+      "url": "https://www.thegentlemansjournal.com/article/paul-bettany-interview-actor-british-vision-warhol-solo-artist",
+      "title": "Paul Bettany on fame, playing the game, and staying sane (Gentleman's Journal, Joseph Bullmore)",
+      "speaker": "Paul Bettany, interviewed by Joseph Bullmore",
+      "date": "2022-09-30",
+      "locator": "Hour-long Zoom interview; sections on emotion access, fame, isolation, \"Finish strong\", neurosis",
+      "excerpt": "\"Some people have amazing access to their emotions, and can switch them on like that,\" ... \"And I'm just not good enough to do that.\" ... \"if I find myself in a scene that requires that, I find myself picking at scabs that I'd rather not pick at,\" ... \"But it's spurious and I have watched it, with myself, come and go — it's an untrustworthy thing. You shouldn't find solace in it.\" ... \"You're certainly not meeting the actual me, and I'm not meeting who you really are.\" ... \"What I have realised is that I do better than I think in isolation,\" he says. \"I'm quite convivial and social, and so I'm always surprised to see how well I do with my own company. I feel like I shouldn't have the personal resources to be on my own at all. I feel like I should fall apart more than I do. But I don't.\" ... \"It's irritatingly industrious of me. But I have that ethos myself, when I'm up at work and tired and against it.\" ... \"I'm not any less neurotic now, by the way\" he says before we go. \"I'm just better at hiding it.\" ... \"you've only ever seen this really carefully curated public persona\" ... \"And it's like: What am I doing? What am I doing! What the hell am I doing! Sat here in front of a graveyard, thinking about dead people in my life?\" ... \"That's something that makes me feel less alone and alienated in the world\" ... \"I'm quite convivial and social, and so I'm always surprised to see how well I do with my own company. I feel like I shouldn't have the personal resources to be on my own at all.\"",
+      "context": "Interview from a cabin near his Vermont house for the film of The Collaboration. Also: Talking about acting \"is like talking about sex\"; the Lennon lyric \"makes me feel less alone and alienated in the world\"; a fan asked for a selfie while he stood crying after hearing his father was gravely ill. The journalist calls Stellan \"the oldest\" of the children; Kai, Connelly's son, is older. The 'less alone and alienated' line is about John Lennon's lyric from 'Mother', which the writer calls the most moving lyric Bettany can think of. The Warhol line describes why he first refused the role. The sweatshirt detail is the writer's report of what Bettany 'has said in interviews before'. Edit stage (2026-10-30): The 'actual me' line is two-way and about fan encounters ('I'm not meeting you, and you're not meeting me. Or: You're certainly not meeting the actual me, and I'm not meeting who you really are'); the edit no longer uses it. The isolation answer turns: he does 'better than I think in isolation' and adds 'I feel like I should fall apart more than I do. But I don't.' The 'not good enough' line follows a comparison: 'Some people have amazing access to their emotions, and can switch them on like that'.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S15",
+      "url": "https://www.timteeman.com/?p=8501",
+      "title": "Paul Bettany on playing Warhol, family ghosts, and how therapy 'saved' him (The Daily Beast, Tim Teeman, author repost)",
+      "speaker": "Paul Bettany, interviewed by Tim Teeman",
+      "date": "2022-12-19",
+      "locator": "Zoom interview during the Broadway run of The Collaboration; sections on fear, bullying, father, therapy, work ethic, career slump, Depp, citizenship",
+      "excerpt": "\"For instance, with Andy Warhol, it's his fear. I was very bullied as a schoolkid, and I remember the world feeling like a frightening place. I try to remember that in me.\" ... \"I wouldn't take part in any of the homophobic banter around me, and the consequence of that, well you can imagine… I sort of refused to bend on that.\" ... \"It's more that I have a really strong work ethic. ... The thing I could control was being the most prepared person auditioning that day.\" ... \"I couldn't just fall apart. What was making me feel safe and relevant was my career, rather like Warhol. Then my children came along, and all of that disappeared like mist.\" ... \"We had kids, suddenly we had a fucking mortgage. I thought, what if this thing comes tumbling down?\" ... \"I said to him, 'Look, this town is full of second and third acts, and you should mind your fucking manners.' I walked out. My legs went because I acted so tough!\" ... \"When I'm away from them too much I begin to revert to older habits,\" ... \"I am so much less certain and definitive about things.\" ... \"I refuse to put more fuel on this fire that's just been really unpleasant.\" ... \"It's more that I have a really strong work ethic.\" ... \"He said, 'Well that was only physical for a very short time.'\" ... \"While I understand therapy is like having a chronic injury where you need to constantly be doing physical therapy and massage or you lean back into old patterns of behavior, I have also discovered it has really saved me.\" ... \"My father had been a dancer and actor.\"",
+      "context": "Daily Beast interview reposted on the author's site. Also: therapy \"absolutely saved me\" and is \"like having a chronic injury\" needing upkeep or \"you lean back into old patterns\"; \"I was very lost for a number of years, but there were always something that saved me or people that saved me\"; politics occupies him \"to an unhealthy extent\"; he took US citizenship because he \"was tired of getting shouted down on Twitter for having an opinion\". Teeman reports the father died \"aged 86 in 2015\" and Bettany says his father came out \"when he was 63\". Bettany declined to discuss the Depp texts further. Teeman reports Thane became 'a first-time father at 42'. The 'safe and relevant' line refers to his career before his children arrived ('Then my children came along, and all of that disappeared like mist'), not to the post-2008 slump; the draft does not use it. Edit stage (2026-10-30): Also: \"I fell into acting\" (after wanting to be a guitar player); \"Paul, you're done in this business. It's over for you\" from a producer he had turned down years before; \"it turns out when he was pitching me to Kevin Feige, I was already playing the voice of J.A.R.V.I.S. Feige asked Josh, 'Well can he play a superhero?' And Josh able to show one of these movies I thought was the nadir of my career to say, 'Yes he can!'\"; the 'most prepared person' quote continues 'I was the person they remembered'; 'judging yourself only though the praise of others' is listed among 'terrible, terrible things'; 'For instance, with Andy Warhol, it's his fear. I was very bullied as a schoolkid, and I remember the world feeling like a frightening place. I try to remember that in me.'; 'My mother was a singer.'",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S16",
+      "url": "https://ktvz.com/?p=1034018",
+      "title": "Paul Bettany explores being art star Andy Warhol on Broadway (AP, Mark Kennedy, via KTVZ)",
+      "speaker": "Paul Bettany; Kwame Kwei-Armah (director)",
+      "date": "2022-12-21",
+      "locator": "AP feature body; director quote mid-article",
+      "excerpt": "\"I don't know how you get underneath the wig and the glasses and the carefully curated public persona. I don't know how to do it,\" Bettany recalled thinking. ... \"Paul did this brilliantly as an actor, I think. We introduced the Andy that we know, and then he just opens more doors and more doors and more doors into the land of imagination,\" says Kwame Kwei-Armah, the play's director. ... \"All I want to do is be with people and get it out of me. So I'm not sure it's the healthiest thing in the world for me, frankly, but I love the doing of it.\"",
+      "context": "AP wire profile syndicated by KTVZ; independent reporting from the Daily Beast piece. Kwei-Armah's comment is named professional testimony about his craft, not his motives.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S17",
+      "url": "https://www.eonline.com/news/518558/jennifer-connelly-on-being-directed-by-husband-paul-bettany-it-didn-t-quite-live-up-to-the-fantasy",
+      "title": "Jennifer Connelly on Being Directed by Husband Paul Bettany (E! News, relaying DuJour)",
+      "speaker": "Jennifer Connelly (via DuJour)",
+      "date": "2014-03-07",
+      "locator": "Article body quoting Connelly's DuJour April 2014 cover interview",
+      "excerpt": "\"It was kind of strange, going to work in the morning with the director,\" ... \"But it really seemed to come quite naturally to him—phew—and it was an amazing experience to have had together.\" ... \"I had this fantasy that we'd talk about scenes all day,\" Connelly recalls. \"In reality, if the man sat down, there was a line of people wanting to talk to him. Since we moved so quickly, I think he felt his wife was the least of his worries.\"",
+      "context": "Named testimony from his wife about working under him on Shelter, relayed by E! from DuJour. Light and promotional; not evidence of inner motive.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S18",
+      "url": "https://www.cheatsheet.com/news/wandavision-elizabeth-olsen-says-she-and-co-star-paul-bettany-have-1-thing-in-common.html",
+      "title": "'WandaVision': Elizabeth Olsen Says She and Co-Star Paul Bettany Have 1 Thing In Common (Showbiz Cheat Sheet, relaying Grazia)",
+      "speaker": "Elizabeth Olsen (via Grazia)",
+      "date": "2021-03-03",
+      "locator": "Final section quoting Olsen's Grazia interview",
+      "excerpt": "Olsen says that they work well together because they share a trait in their approach to the work: \"He's very precise, like me.\"",
+      "context": "Co-star testimony relayed from Grazia; the Grazia original was not opened. Short and work-focused.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S19",
+      "url": "https://www.interviewmagazine.com/film/elizabeth-olsen-paul-bettany-wandavision-newlywed-game",
+      "title": "Elizabeth Olsen and Paul Bettany Test Their Real-Life Chemistry (Interview magazine)",
+      "speaker": "Paul Bettany and Elizabeth Olsen",
+      "date": "2021-01-20",
+      "locator": "Conversation transcript; Bettany answers on the November 2020 election and on what is next (read via r.jina.ai)",
+      "excerpt": "I've been watching television for about 23 hours a day, and my wife [the actor [Jennifer Connelly](https://www.interviewmagazine.com/film/jennifer-connelly-claudia-llosa-aloft-sundance-2015)] is furious at me. She's like, \"Could you just stop watching television for five minutes?\" ... God, I really don't know. Gainfully unemployed. Right now it's just lovely hanging out with the kids, but at some point I'm going to actually have to think about paying the mortgage.",
+      "context": "The two co-stars interviewing each other before WandaVision premiered, recorded just after the 2020 US election result. Jokey register throughout.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S20",
+      "url": "https://www.devdiscourse.com/article/international/3991185-paul-bettany-says-marvel-transformed-his-life-after-he-was-told-his-career-was-over",
+      "title": "Paul Bettany says Marvel transformed his life after he was told his career was over (Reuters, syndicated by Devdiscourse)",
+      "speaker": "Paul Bettany, speaking to Reuters",
+      "date": "2026-10-12",
+      "locator": "Reuters wire text, VisionQuest London premiere red carpet",
+      "excerpt": "\"It means I have been able to not take jobs and spend time with my family. It means that I've been able to direct and write a movie.\" ... \"I was doing an audition with a producer who will remain nameless, who told me my career was over,\" he said. \"I got up, I walked out, I went downstairs and my legs gave way. I sat on Sunset Boulevard and I went, you know what, maybe he's right, maybe my career is over,\" Bettany said.",
+      "context": "Reuters interview at the London premiere of VisionQuest (Monday, 12 October 2026), syndicated without edits. Notes VisionQuest completes the trilogy begun with WandaVision (2021) and Agatha All Along (2024). The syndicated text contains invisible zero-width characters inside some words; they are removed from the excerpt.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S21",
+      "url": "https://gulfnews.com/entertainment/paul-bettany-addresses-burn-amber-texts-with-johnny-depp-havent-spoken-to-him-since-1.500716720",
+      "title": "Paul Bettany addresses 'Burn Amber' texts with Johnny Depp: 'Haven't spoken to him since' (Gulf News, relaying The Times)",
+      "speaker": "Paul Bettany (via The Times)",
+      "date": "2026-10-20",
+      "locator": "Article body quoting the Times interview published Thursday 15 October 2026",
+      "excerpt": "\"I hadn't spoken to Johnny in years when that happened and I haven't spoken to him since. I was being painted as this close friend of a guy I hadn't spoken to in years and, honestly, amid all the s--- two celebrities threw at each other, that bit was the most odd,\" he said. \"So I decided to say nothing because, I think, people know me. I've been married 23 years [to actress Jennifer Connelly] and, for what I do, I live an incredibly quiet life,\" Bettany added. \"Everybody kind of thought this is probably a nothing burger — and left it alone.\" ... On the stand, Depp said the exchange was a riff on Monty Python and was never meant literally. ... In 2022, a Virginia jury largely sided with Depp and awarded him $15 million. ... Heard won one of her three counterclaims and was awarded $2 million. The two settled in December 2022 ... Bettany replied in the same mock-medieval spirit.",
+      "context": "Secondary report of a VisionQuest-era Times interview (original not opened). Gulf News notes the 2016 X/Twitter post praising Depp \"appears to have disappeared when Bettany left the platform\", and that he discussed the texts with The Times in 2022. Other 2026 outlets report boycott calls against VisionQuest over the texts. Gulf News does not say in which trial Depp gave the Monty Python testimony; the draft says only that he told the court. Edit stage (2026-10-30): Gulf News also reports: 'The texts date to 2013, when Depp and Bettany were working together. The two appeared in three films between 2010 and 2015'; Depp and Heard 'began dating in 2013, married in 2015, and split the following year'; and that what bothered Bettany most 'wasn't the jokes' but being presented as Depp's close friend. 'So I decided to say nothing' follows directly on 'that bit was the most odd', so it refers to not contesting the close-friend portrayal; the article quotes it in that order and no longer sets it against his 2021-2022 remarks.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S22",
+      "url": "https://www.rova.nz/articles/paul-bettany-recalls-struggle-with-guilt-over-brothers-death",
+      "title": "Paul Bettany recalls struggle with guilt over brother's death (Rova, wire copy)",
+      "speaker": "Paul Bettany (via Sibling Revelry podcast)",
+      "date": "2026-10-14",
+      "locator": "Wire summary of the Sibling Revelry episode released 13 October 2026",
+      "excerpt": "\"It was really incredibly hard. He fell off, I guess he was playing hide and seek and he fell off a building that I had taught him how to climb. So there was an enormous amount of guilt to work through on that,\" Bettany added.",
+      "context": "Wire write-up of the podcast; the episode audio itself was opened and transcribed as S23, which is the locator of record. The wire copy says the family lived on the grounds of Queenswood School, where Thane Bettany taught drama.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S23",
+      "url": "https://podcasts.apple.com/us/podcast/this-is-paul-bettany/id1485798128?i=1000796121314",
+      "title": "This is Paul Bettany (Sibling Revelry with Kate Hudson and Oliver Hudson)",
+      "speaker": "Paul Bettany, with Kate Hudson and Oliver Hudson",
+      "date": "2026-10-13",
+      "locator": "Episode audio (52:40), RSS enclosure; timestamps: 11:50-12:30 career worry; 13:30-14:20 safety net; 20:50-22:30 punctuality; 22:40-26:10 Matthew, guilt, maze, therapy; 27:58-29:50 music vs acting mask; 30:18-33:25 father; 41:00-42:50 9/11; 44:30-45:08 Proust",
+      "excerpt": "[11:55] \"Oh, yeah, I don't think that ever ends, no. Which is really depressing. But I am better at relaxing into taking downtime. But after a couple of months, I start to go, I wonder if anybody remembers me.\" ... [14:05] \"my dad was always like you gotta have a second string to your bow and mine was acting that was my my safety net\" ... [21:10] \"So the notion of always building more time to be there stuck with me.\" ... [22:20] \"i'm an absolute fascist about being on time\" ... [23:22] \"he fell off a building that I had taught him how to climb. So there was an enormous amount of guilt to work through on that.\" ... \"everybody is sort of dropped into a maze by their childhood. And the job of growing up is trying to find your way, you know, out of, out of that maze.\" ... [24:30] \"When I was in crisis, I was just too busy trying to stay on the earth, you know.\" ... [28:10] \"cause I hated playing my songs. I felt so revealed, hated it.\" ... \"But I'm not sure I want anybody to really know that much about me definitively.\" ... \"and there was always a mask that I could hide behind, even if it, even if I was playing a character that was exactly like me, nobody knew\" ... \"I also don't want to sort of trade on the, the trauma and, and, and drama of it all.\" ... [32:35] \"he had to get into heaven as a straight man so he could see his son who had died\" ... [42:00] \"no word of a lie about 48 hours trying to ring Jennifer.\" ... [45:00] \"watching the light die in her eyes as she realized I hadn't actually read Proust.\" ... [13:44] \"I really quickly realized I hated singing my own songs in front of people.\" ... [14:09] \"Mine was acting.\" ... [29:16] \"I can do something with this brokenness that I am feeling.\" ... [31:55] \"I'm not gay\" ... [32:08] \"that was only sexual for like 12 years. And I went, that's pretty fucking gay.\" ... [31:33] \"I've been living in America now for longer than I lived in England\" ... [41:43] \"I walked in and I saw the second plane hit the tower\" ... [42:12] \"you couldn't get through to New York\"",
+      "context": "Sibling Revelry episode released 13 October 2026, the day before VisionQuest premiered; hosts Kate and Oliver Hudson, Bettany speaking from New York. Audio downloaded from the public RSS enclosure and transcribed locally (whisper small.en for the whole episode; the quoted clips re-transcribed with large-v3-turbo, which agreed). The conversation has three voices and no speaker labels, so only lines that answer a question put to Bettany are attributed; nearby remarks about actors needing approval and validation are not attributed to him. Both models heard \"couldn't turn very negative things into something creative\" where the sense suggests \"could\"; that phrase is not quoted. The 9/11 account here says \"about 48 hours\" of calling; the 2013 Telegraph has \"three days\". He attributes the lyric \"Mother, you had me, but I never had you\" to \"Sean Lennon\"; it is John Lennon's \"Mother\". He says his father came out \"at 63\", consistent with his 2020 and 2022 accounts. Draft stage (2026-10-30): the clips for career worry, safety net, punctuality, the mask answer and 9/11 were transcribed a third time with whisper medium.en. Quoted spans are words all three models share, or (for 'being on time' and 'second string to your bow') two of three where the third is a clear mishearing ('one time', 'bone'); the bow phrase is paraphrased, not quoted. Quotations drop spoken false starts and stutters ('I can do, I can do', 'the, the trauma and, and, and drama'). Small.en and turbo disagree on 'which bits were me' / 'which bits for me' (medium: 'were me'), so that clause is paraphrased. These are machine transcriptions, not a human listen. Edit stage (2026-10-30): Stable locators: RSS enclosure https://podtrac.com/pts/redirect.mp3/pscrb.fm/rss/p/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/65e41873-3a0f-4dd4-a8f5-b0a000dc39b5/b105812c-a5d9-4447-82cb-b4e2002b8273/audio.mp3 (episode length 2559 s per feed); the article cites 13:44 for the safety-net answer and 28:10 for the mask answer. The 'safety net' line is said jokingly ('which is hilarious ... or acting being a rock and roll star doesn't work out'). In the mask answer Kate Hudson first offers 'disappearing there would be a place' and he says 'I think so'; the answer then gives two reasons in order: drama school 'gave me a place that I [could] turn very negative things into something creative' (all models hear 'couldn't'; paraphrased, not quoted) 'And there was always a mask that I could hide behind'. Punctuality (20:50-21:15): he credits drama-school training to arrive by 'the half' before 'an absolute fascist about being on time'. Brother (23:22-24:10): the guilt line is followed by 'everybody is sort of dropped into a maze by their childhood' and 'a lot of time, you know, a lot of therapy'. 9/11 (41:24-43:18): 'I was with somebody. She was with somebody' refers to the A Beautiful Mind period; after the calls they married after he shot Master and Commander and saw her at weekends. Still machine transcription; no human listen has been done.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S24",
+      "url": "https://squaremile.com/culture/film-tv/paul-bettany-interview-vision-quest/",
+      "title": "Paul Bettany: the man, the Marvel (Square Mile, Max Williams)",
+      "speaker": "Paul Bettany, interviewed by Max Williams",
+      "date": "2026-10-21",
+      "locator": "Q&A sections on WandaVision line, busking, Gangster No. 1, set discipline, the producer story",
+      "excerpt": "PB: It didn't happen like that. It was an incredibly collaborative process with Jac, and she would bring both me and Lizzie [Elizabeth Olsen] into the conversations. We all knew what the line had to carry, but I kept pushing back because I didn't feel like we were quite there yet. ... we thought it would be for the weirdos. I count myself as one of them. ... \"If you're five minutes early, you're late. Know your lines. Be bold – the theatre gods will come to your aid.\" I really believe in that. ... But having an idea, a plan, and something you understand where you are in the story… otherwise, what are you doing? You're just like a performing monkey unless you have a plan for how to tell the story. ... When I went in for the audition, nobody knew who I was, so I pretended I was a right ruffian. That made everybody feel safe enough to offer me the job. ... I had no expectations to succeed. ... \"PB: Some days!\" (answer to \"Do you know who you are and what your purpose is?\", read from the page HTML; the plain-text extraction dropped it) ... \"he has all the memories, but he can't quite attach feelings to them.\" ... \"My dad was a dancer in the Royal Ballet. Then he became an actor.\" ... \"my dad got a job in the rural suburbs of Potter's Bar at a girls' school, and we lived in a close of houses for the teachers at that school.\"",
+      "context": "VisionQuest-era cover interview. Also: busking \"wasn't romantic at all ... The further away from that time I got, the happier I was\"; asked \"Do you know who you are and what your purpose is?\" he answers \"Some days!\"; the tattoo naming Jennifer and the children; \"I was very jovial, jokey, and wanting to have fun\" on A Knight's Tale; he hopes to \"write and direct again\". The intro states the swansong question; he says decisions are \"for people further up the food chain\". Edit stage (2026-10-30): Also: busking 'wasn't romantic at all ... The further away from that time I got, the happier I was'; 'I'd love to write and direct again.' Square Mile's own retelling of the producer story has a retort and a phone call from Whedon on the sidewalk.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S25",
+      "url": "https://www.denofgeek.com/?p=1030697",
+      "title": "VisionQuest: Paul Bettany and Terry Matalas Talk Ultron's Return, Mindspaces, and Robot Families (Den of Geek)",
+      "speaker": "Paul Bettany; Terry Matalas (showrunner)",
+      "date": "2026-10-08",
+      "locator": "Feature quotes from Bettany and Matalas",
+      "excerpt": "\"I haven't really troubled myself with trying to play a robot because they give me a costume and prosthetics that make me look like a robot. I'm quite lazy, so if the job's done for me by the costume and makeup, then I get on with the stuff I have to do,\" Bettany laughs. ... \"This is a show about grandfathers, fathers, and sons,\" the actor muses.",
+      "context": "Pre-premiere press feature. Matalas: \"It was vital that Paul have someone of equal adult stature to play off against\". Bettany says he rewatched Vision's earlier appearances \"to remember his mindset\".",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S26",
+      "url": "https://www.thepopverse.com/tv-marvel-studios-mcu-visionquest-paul-bettany-tone-intergnerational-pain-lasers/",
+      "title": "The MCU series VisionQuest will explore \"intergenerational pain with lasers\" (Popverse)",
+      "speaker": "Paul Bettany, Space Con 2025 panel",
+      "date": "2025-11-11",
+      "locator": "Panel quote paragraph",
+      "excerpt": "\"My show is about intergenerational pain with lasers. And a lot of jokes. That's what it is. Fathers and sons and stuff.\"",
+      "context": "Convention panel remark while VisionQuest was in post-production; jokey register.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S27",
+      "url": "https://en.wikipedia.org/wiki/Paul_Bettany",
+      "title": "Paul Bettany (Wikipedia)",
+      "speaker": "Wikipedia contributors",
+      "date": "2026-10-30",
+      "locator": "Infobox; Early life; Career; Personal life",
+      "excerpt": "Paul Bettany (born 27 May 1971) is an English actor. ... When Bettany was 16, his brother Matthew died at age 8 after falling onto concrete from a tennis pavilion roof at Queenswood. ... On 1 January 2003, Bettany married American actress Jennifer Connelly in Scotland, whom he met when they starred together in the 2001 film A Beautiful Mind.",
+      "context": "Used only for biographical scaffolding (birth date, marriage date, filmography, Emmy nomination for WandaVision, Drama Centre London from 1990). Wikipedia lists him for Avengers: Secret Wars (2027); that is not independently confirmed here and should not be stated as fact. Edit stage (2026-10-30): Filmography used: J.A.R.V.I.S. voice from Iron Man (2008); Vision from Avengers: Age of Ultron (2015); Wimbledon (2004); Priest (2011); The Tourist (2010), Transcendence (2014) and Mortdecai (2015) with Depp.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S28",
+      "url": "https://www.sportskeeda.com/us/movies/that-end-family-life-point-when-paul-bettany-opened-brother-s-death",
+      "title": "\"That was the end of family life from that point\" - When Paul Bettany opened up about his brother's death (Sportskeeda, relaying a 2012 Guardian interview)",
+      "speaker": "Paul Bettany (via The Guardian, 2012)",
+      "date": "2025-03-11",
+      "locator": "Quoted Guardian passages in article body",
+      "excerpt": "\"My brother's death, when he was eight years old, blew the family apart. He had an accident, and it was miserable. It coloured everything. I was 16, and that was the end of family life from that point, as often happens in families where's there's a death of a child. The whole family explodes.\" ... \"You feel like you are harbouring some dreadful secret about what life is actually like.\" ... \"Not only do you lose that immediately and see the fragility and the precariousness of your own position but you also feel totally alienated from all of your friends.\"",
+      "context": "Aggregator relay of a Guardian interview (original not opened). Wording overlaps S01's \"harbouring this huge secret\", and the Telegraph (S02) quotes the same \"blew the family apart\" line as something he \"has said\", so the substance is corroborated by two opened outlets. Edit stage (2026-10-30): The same relayed answer ends: \"Quite apart from all of those things, I was missing the person who at the time was the most important person to me. I was very close to my brother. It was hideous in all shades of hideousness.\"",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S29",
+      "url": "https://www.comicbasics.com/paul-bettany-breaks-his-silence-on-johnny-depp-texts-as-visionquest-faces-boycott-calls/",
+      "title": "Paul Bettany Breaks His Silence on Johnny Depp Texts as 'VisionQuest' Faces Boycott Calls (ComicBasics)",
+      "speaker": "ComicBasics staff",
+      "date": "2026-10-16",
+      "locator": "Opening paragraphs on boycott calls and the 2026 Times interview",
+      "excerpt": "Social media users have called for viewers to boycott the series because of private text messages Bettany exchanged with Johnny Depp more than a decade ago, and Bettany has now addressed that history again.",
+      "context": "Secondary entertainment report (page opened from the research cache; published 2026-10-16). Used only for the fact that boycott calls were made. It also states that Bettany has said he expects to appear in Avengers: Secret Wars; that is not verified here and is not used. Marvel had not commented on the boycott calls.",
+      "kind": "secondary",
+      "access": "opened"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "Bettany's younger brother Matthew died at age 8 after falling from a tennis pavilion roof at the school where their father taught; Paul was 16, and he says the death \"blew the family apart\".",
+      "passage": "Then, when he was 16, his eight-year-old brother Matthew fell from the roof of a tennis pavilion and died.",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S01",
+        "S28",
+        "S27",
+        "S22"
+      ],
+      "inference": "A dated, repeatedly told formative loss; it establishes the circumstance every later safety-seeking choice has to be weighed against.",
+      "alternative": "Grief and trauma alone can produce lifelong hypervigilance in any type; this event cannot by itself show type.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C02",
+      "claim": "In October 2026 he said Matthew fell from a building \"that I had taught him how to climb\", leaving \"an enormous amount of guilt to work through\".",
+      "passage": "Matthew \"fell off a building that I had taught him how to climb. So there was an enormous amount of guilt to work through on that.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S23",
+        "S22"
+      ],
+      "inference": "Adds a self-blame strand that later interviews show being worked through in therapy; useful as a late, specific disclosure rather than as type proof.",
+      "alternative": "Survivor guilt after a sibling death is common and circumstantial; it does not discriminate between 6 and 4.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C03",
+      "claim": "He describes fear as predating the brother's death: bullied constantly at his Hertfordshire school, he says \"I was a city boy and I was terrified of everyone\".",
+      "passage": "\"I was a city boy and I was terrified of everyone,\" Bettany told the Telegraph. The bullying at his Hertfordshire school was \"constant,\" and it covered \"everything, from the way I looked to the fact that my father had been a dancer.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S01"
+      ],
+      "inference": "Fearfulness reported before the 16-year-old's trauma weakens a trauma-only explanation of his later vigilance and supports an anxious baseline.",
+      "alternative": "A new boy bullied at a hostile school has situational reasons for fear; the article says so in the next sentence. Fearfulness under bullying is not type-specific.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C04",
+      "claim": "At school he refused to join homophobic banter and challenged it, and was beaten for it; he says \"I sort of refused to bend on that.\"",
+      "passage": "His godfather was gay, and he challenged the homophobic talk around him. \"Consequently I had the shit kicked out of me because they thought I was gay,\"",
+      "class": "self_report",
+      "source_ids": [
+        "S15",
+        "S01",
+        "S02"
+      ],
+      "inference": "Taking a costly stand for a threatened in-group (his gay godfather, father's world) fits a loyal, counterphobic Six pattern of standing firm against the threat.",
+      "alternative": "Could equally reflect Four identification with outsiders, or simple moral conviction; it does not by itself discriminate.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C05",
+      "claim": "In his early twenties he became addicted to cocaine, which he linked to \"a lack of foundation, feeling rootless and not knowing who I was\".",
+      "passage": "\"My experience of addiction was very much linked to a lack of foundation, feeling rootless and not knowing who I was.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S01"
+      ],
+      "inference": "His own diagnosis of the addiction is about missing foundation, i.e. security and grounding.",
+      "alternative": "\"Not knowing who I was\" is also classic Four identity language; this passage cuts both ways.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C06",
+      "claim": "He says he quit cocaine because it threatened his ability to act, \"the one thing that gave me self-worth\".",
+      "passage": "He quit, he told The Times, \"because it was threatening my ability to act: the one thing that gave me self-worth.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Work functioned as a stabilising structure; he chose the structure over the drug.",
+      "alternative": "A Three reading (worth through work) also fits this line; the later rejection of praise as a measure (C12) weighs against that.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C07",
+      "claim": "After the 9/11 calls he and Connelly married on 1 January 2003 in Scotland without having lived together first; the Telegraph quotes him saying the romance gave him \"a certainty that was new to me\".",
+      "passage": "They married in Scotland on January 1, 2003, without having lived together first. In the Telegraph's account, the romance gave him \"a certainty that was new to me.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S01",
+        "S27",
+        "S23"
+      ],
+      "inference": "A threat to someone he cared about produced repeated calling and then a commitment he describes in terms of certainty. The phoning itself is ordinary and is not used as type evidence; the certainty remark is the type-relevant part.",
+      "alternative": "Crisis-driven romantic clarity is common in many types. The 'certainty' fragment sits inside Walden's sentence about their romance, and the security/foundations frame was first proposed by the Telegraph writer (standfirst and 'it seems likely ... the foundations he'd craved'), so it is not an independent discovery. Marrying quickly is not typical Six testing.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C08",
+      "claim": "When his son was born he decided \"the world is precarious\" and set out to make his children \"as safe as possible – with dough\", taking studio jobs for money; he called it \"hammering bits of wood against the window as though there were a zombie apocalypse coming\".",
+      "passage": "And I went about doing that. It was ludicrous, of course, because they were safe. My wife and I make enough money to ensure their safety, but there I was hammering bits of wood against the window as though there were a zombie apocalypse coming. It sounds neurotic, but it's not, because the tap can turn off.",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S03"
+      ],
+      "inference": "The clearest repeated, costly choice: he traded artistic preference for financial security, while recognising the threat was exaggerated. This is the main Six discriminator against Four.",
+      "alternative": "Ordinary parental prudence, and an actor's incentive to justify commercial roles in hindsight; a Four could make the same trade under pressure.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C09",
+      "claim": "After making Margin Call (2011) cheaply, he said \"I can't be a gun for hire any more\" and that the film reminded him what he loved about acting.",
+      "passage": "Making it, he told The Times, \"was the first amazing artistic experience I'd had in years,\" and \"It made me think I can't be a gun for hire any more.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S03",
+        "S02"
+      ],
+      "inference": "Shows the security strategy was revisable once a safer footing existed; meaning returned after safety.",
+      "alternative": "This return to artistic meaning is the strongest Four-compatible turn in the record.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C10",
+      "claim": "He frames his professional discipline as control over uncertainty: \"I have a really strong work ethic\" and \"The thing I could control was being the most prepared person auditioning that day.\"",
+      "passage": "The thing I could control was being the most prepared person auditioning that day.",
+      "class": "self_report",
+      "source_ids": [
+        "S15"
+      ],
+      "inference": "Preparation as a hedge against what cannot be controlled, repeated across 2013, 2022 and 2026.",
+      "alternative": "Professional craft norms and British punctuality; Olsen's \"precise\" remark could reflect training rather than anxiety.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C11",
+      "claim": "He describes himself as anxious in everyday life but calmer once cameras roll (2010).",
+      "passage": "My heartbeat tends to lower when cameras are on. I tend to get much calmer. I'm anxious in everyday life.",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Consistent first-person anxiety across 2010, 2012 and 2022, including the observation that he becomes calmer once the camera (action) starts.",
+      "alternative": "Self-deprecating anxiety talk is also a British comic register and a junket habit; self-report cannot show the motive is core.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C12",
+      "claim": "He treats fame and praise as unreliable supports: \"What if it goes away?\" (2012); \"it's an untrustworthy thing. You shouldn't find solace in it\" (2022); judging yourself by others' praise is one of the \"terrible, terrible things\" about the job.",
+      "passage": "In 2012 he told The Times that \"you shouldn't be sustained by other people's adulation. What if it goes away?\" A decade later fame was \"an untrustworthy thing\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S14"
+      ],
+      "inference": "Distrust of an external support, framed as a security question, argues against a Three reading and fits Six scepticism.",
+      "alternative": "A Four also distrusts fame because it misrecognises the \"actual me\" (C18).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C13",
+      "claim": "He says he worries about death \"a lot\" (2013).",
+      "passage": "\"I worry about death in general a lot\" (Telegraph, 2013)",
+      "class": "self_report",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "Threat-scanning focused on the safety of loved ones, consistent with a Six attention pattern.",
+      "alternative": "Directly traceable to Matthew's fall; circumstance may explain it fully. The Telegraph writer's sense that it might exist even without the loss is impression, not evidence.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C14",
+      "claim": "After the 2008 crash he made films that \"helped us financially\", worried \"what if this thing comes tumbling down?\", and then could not get a job for about two years.",
+      "passage": "he made films that \"helped us financially. We had kids, suddenly we had a fucking mortgage. I thought, what if this thing comes tumbling down? For around two years I couldn't get a job.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S15"
+      ],
+      "inference": "Explicit safety language attached to work and money, a decade after C08.",
+      "alternative": "Financial worry after 2008 was widespread and circumstantial.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C15",
+      "claim": "When a producer told him his career was over, he says he answered \"you should mind your fucking manners\", walked out, and his legs gave way because \"I acted so tough\"; minutes later Joss Whedon called offering Vision. Later tellings vary in detail.",
+      "passage": "In the 2022 version, Bettany answered, \"Look, this town is full of second and third acts, and you should mind your fucking manners.\" Then: \"I walked out. My legs went because I acted so tough!\"",
+      "class": "self_report",
+      "source_ids": [
+        "S15",
+        "S20",
+        "S24",
+        "S14"
+      ],
+      "inference": "Bravado in the face of a threat followed by collapse is the counterphobic Six sequence in miniature; he tells it against himself.",
+      "alternative": "A polished, much-repeated anecdote shaped for audiences; details shift between versions (middle finger, sitting on the pavement), so treat it as self-mythology with a stable core.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C16",
+      "claim": "He has been in therapy for years (\"a thousand years\" by 2021-2022) and compares it to treating a chronic injury so you do not \"lean back into old patterns of behavior\".",
+      "passage": "He has been in therapy for what he called \"a thousand years\" ([People](https://www.yahoo.com/now/wandavision-paul-bettany-says-watching-180058582.html), 2021) and treats it as maintenance, \"like having a chronic injury\" that needs constant work.",
+      "class": "self_report",
+      "source_ids": [
+        "S09",
+        "S15"
+      ],
+      "inference": "Long reliance on a trusted support structure and maintenance mindset.",
+      "alternative": "Therapy use is common across types and among actors; it shows self-work, not type.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C17",
+      "claim": "He says family keeps him steady: \"When I'm away from them too much I begin to revert to older habits.\"",
+      "passage": "\"When I'm away from them too much I begin to revert to older habits,\" he told the Daily Beast of his family.",
+      "class": "self_report",
+      "source_ids": [
+        "S15",
+        "S02"
+      ],
+      "inference": "Family as the secure base that regulates him, repeated 2013-2026.",
+      "alternative": "Devoted-parent statements are standard press fare and fit many types.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C19",
+      "claim": "He compares himself with actors who \"have amazing access to their emotions\" and says \"I'm just not good enough to do that.\"",
+      "passage": "\"have amazing access to their emotions,\" adding, \"And I'm just not good enough to do that,\" a very Four comparison.",
+      "class": "self_report",
+      "source_ids": [
+        "S14"
+      ],
+      "inference": "Comparison with others and a sense of falling short are Four material; the article now files this line in the Four case, not as anti-Four evidence.",
+      "alternative": "British self-deprecation and actorly modesty; it may describe craft method rather than identity.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C20",
+      "claim": "To cry on camera he describes \"picking at scabs that I'd rather not pick at\"; Gentleman's Journal reports he kept Matthew's sweatshirt on set for Uncle Frank.",
+      "passage": "\"I find myself picking at scabs that I'd rather not pick at,\" and the magazine reported he kept Matthew's sweatshirt with him on set for a graveyard scene in _Uncle Frank_.",
+      "class": "self_report",
+      "source_ids": [
+        "S14"
+      ],
+      "inference": "Shows he uses grief deliberately as a work tool and then questions it (\"What the hell am I doing!\").",
+      "alternative": "Using personal pain in art is a Four-compatible behaviour; the method framing is also standard actor training (Drama Centre London).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C21",
+      "claim": "By Bettany's account his father Thane came out at 63 and spent about 20 years with Andy Clark, \"a joyous relief for everybody\".",
+      "passage": "By his son's account, Thane Bettany came out at 63, then spent about 20 years with a man named Andy Clark. \"It was a joyous relief for everybody, actually,\" Bettany told Total Film in 2020,",
+      "class": "self_report",
+      "source_ids": [
+        "S08",
+        "S07",
+        "S15",
+        "S23"
+      ],
+      "inference": "A father who lived inauthentically for safety is a central family story and the background to his Uncle Frank, Warhol and VisionQuest comments.",
+      "alternative": "Dates conflict: Telegraph 2013 says Thane announced bisexuality \"aged 75\". Use Bettany's own account, attributed, and avoid exact ages beyond what he says.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C22",
+      "claim": "From his father's retreat into the closet he drew a parenting rule: \"I really want my children ... to just live authentically as the person they are\".",
+      "passage": "I really want my children, and I want everybody, to just live authentically as the person they are, and however hard that is, it's absolutely better than pretending to be something other than you are.",
+      "class": "self_report",
+      "source_ids": [
+        "S09"
+      ],
+      "inference": "Value statement; supports the Four alternative's authenticity theme and also a Six-style protective vow for the next generation.",
+      "alternative": "Parenting values statements in People magazine are low-cost signals.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C23",
+      "claim": "Alan Ball said the film became Bettany's own 'what if' story about his father.",
+      "passage": "Ball later said that \"for Paul, the movie became a chance for him to have his own 'what if' story about his father\" (NewNowNext, relayed by Out).",
+      "class": "third_party",
+      "source_ids": [
+        "S08",
+        "S07"
+      ],
+      "inference": "Doubt-first engagement with an offer, then commitment once a reason is found; Ball's testimony places the motive in repairing the father story.",
+      "alternative": "The hesitation is partly the 2020 debate about straight actors in gay roles, which he names.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C25",
+      "claim": "In October 2026 he told The Times he had not spoken to Depp in years when the texts surfaced and has not since; the close-friend portrayal struck him as 'the most odd', so he 'decided to say nothing'.",
+      "passage": "\"I hadn't spoken to Johnny in years when that happened and I haven't spoken to him since.\" What struck him as \"the most odd\" was being \"painted as this close friend of a guy I hadn't spoken to in years.\" \"So I decided to say nothing because, I think, people know me.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S21"
+      ],
+      "inference": "Quoted in the source's order: 'say nothing' follows his objection to the close-friend portrayal, so it concerns not contesting that portrayal. The article draws no inconsistency from it.",
+      "alternative": "Ordinary crisis-PR caution. The Times original was not opened; Gulf News may have compressed the interview.",
+      "durability": "unresolved",
+      "review_trigger": "Opening of the full 15 October 2026 Times interview; any new statement by Bettany, Depp or Heard about the texts."
+    },
+    {
+      "id": "C26",
+      "claim": "In 2013 text messages read in Depp's 2020 UK libel case, Bettany replied to Depp's \"Let's burn Amber!!!\" by joking that they should instead do \"a drowning test\"; in 2016 he tweeted that Depp was \"the sweetest, kindest, gentlest man\"; since 2022 he has said they had not spoken for years and in 2026 that they have not spoken since.",
+      "passage": "Bettany replied, as [Insider](https://news.yahoo.com/paul-bettany-says-embarrassing-texts-111303945.html) printed it, \"Having thought it through I don't think we should burn Amber — she's delightful company and easy on the eye, plus I'm not sure she's a witch. We could of course try the English course of action in these predicaments — we do a drowning test. Thoughts?\"",
+      "class": "observed",
+      "source_ids": [
+        "S12",
+        "S21",
+        "S11"
+      ],
+      "inference": "The text of his reply, quoted exactly as Insider printed it. No motive is assigned.",
+      "alternative": "Sensitive: the texts concern a woman who alleged abuse, and Depp has denied abuse. Gulf News calls the reply 'the same mock-medieval spirit'. The article gives the UK result, the US result, the settlement, Depp's Monty Python explanation and Bettany's own later responses.",
+      "durability": "unresolved",
+      "review_trigger": "Any new court filing, statement or reporting on the Bettany-Depp texts."
+    },
+    {
+      "id": "C27",
+      "claim": "He has lived in the US since the early 2000s and became a US citizen.",
+      "passage": "who has lived in the United States since the early 2000s and became a US citizen",
+      "class": "self_report",
+      "source_ids": [
+        "S15",
+        "S23",
+        "S01"
+      ],
+      "inference": "Biographical metadata only.",
+      "alternative": "The date of naturalisation is not established; the draft gives none.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C28",
+      "claim": "He says he does 'better than I think in isolation' and is surprised he does not fall apart alone.",
+      "passage": "he says he does \"better than I think in isolation.\" It surprises him: \"I feel like I should fall apart more than I do. But I don't.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S14"
+      ],
+      "inference": "The quote keeps its turn: he copes alone better than he expects. The Six-relevant part is the expectation of failing without people, which is interpretation; the case against Five rests mainly on his reliance on family and therapy.",
+      "alternative": "Read straight, coping well alone leans slightly toward Five.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C31",
+      "claim": "Elizabeth Olsen: \"He's very precise, like me.\"",
+      "passage": "\"He's very precise, like me,\" Elizabeth Olsen told Grazia",
+      "class": "third_party",
+      "source_ids": [
+        "S18"
+      ],
+      "inference": "Independent named testimony on work habits that is consistent with his own preparation account.",
+      "alternative": "Thin, promotional testimony about craft; it says nothing direct about motive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C32",
+      "claim": "Born in London in 1971; voiced J.A.R.V.I.S. from Iron Man (2008); first played Vision in Avengers: Age of Ultron (2015); Emmy-nominated for WandaVision (2021).",
+      "passage": "Bettany, born in London in 1971, voiced J.A.R.V.I.S. in Marvel's films from _Iron Man_ (2008) and first played Vision in _Avengers: Age of Ultron_ (2015). He earned an Emmy nomination for _WandaVision_ (2021)",
+      "class": "observed",
+      "source_ids": [
+        "S27",
+        "S20"
+      ],
+      "inference": "Dated credits, written in the past tense so they stay true.",
+      "alternative": "None; filmography.",
+      "durability": "time_sensitive",
+      "review_trigger": "Avengers: Doomsday release (18 December 2026) or any Secret Wars casting confirmation; any Vision recast or exit; VisionQuest renewal or cancellation. Update the credit line if his Marvel role changes."
+    },
+    {
+      "id": "C33",
+      "claim": "VisionQuest began streaming on Disney+ on 14 October 2026.",
+      "passage": "which began streaming on Disney+ on October 14, 2026",
+      "class": "self_report",
+      "source_ids": [
+        "S23",
+        "S20"
+      ],
+      "inference": "Current hook that rhymes with the father story; it should date, not carry, the argument.",
+      "alternative": "Promotional framing; do not claim Avengers: Doomsday or Secret Wars appearances, which are unconfirmed. The article uses VisionQuest only as a dated credit.",
+      "durability": "time_sensitive",
+      "review_trigger": "VisionQuest finale and any renewal or cancellation news; official confirmation or denial of Bettany in Avengers: Doomsday (18 December 2026) or Secret Wars (2027)."
+    },
+    {
+      "id": "C34",
+      "claim": "Bettany says Marvel let him turn down work, spend time with family, direct, and get films funded, and that the Vision call came minutes after he was told his career was over.",
+      "passage": "\"It means I have been able to not take jobs and spend time with my family,\" he told Reuters. \"It means that I've been able to direct and write a movie.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S20"
+      ],
+      "inference": "The franchise became a security floor, which fits the family-first, safety-first pattern.",
+      "alternative": "Many actors credit franchises with financial freedom; not discriminating.",
+      "durability": "time_sensitive",
+      "review_trigger": "Future statements about leaving or continuing as Vision."
+    },
+    {
+      "id": "C37",
+      "claim": "On the 2026 podcast he said drama school saved him in two ways: it gave him a place to turn very negative things into something creative, and there was always a mask he could hide behind.",
+      "passage": "Drama school saved him, he went on, in two ways: it gave him a place to turn very negative things into something creative, and \"there was always a mask that I could hide behind.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S23"
+      ],
+      "inference": "The answer pairs creative use of pain with concealment, and the same answer contains the 'brokenness' line. The article treats the mask as shared ground that does not separate Six from Four on its own.",
+      "alternative": "A shame-driven Four can also hide a self behind a role. Kate Hudson offered the 'disappear into' frame first. The first clause is paraphrased because all transcriptions hear 'couldn't'.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C38",
+      "claim": "He calls himself \"an absolute fascist about being on time\", traces the habit to drama-school theatre discipline (\"always building more time to be there\"), and repeats Anthony Hopkins's \"If you're five minutes early, you're late.\"",
+      "passage": "\"I have a pathological fear of being late,\" he said. Thirteen years later he called himself \"an absolute fascist about being on time\" and credited drama school, where actors learn to arrive well before curtain.",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S23",
+        "S24"
+      ],
+      "inference": "The 2013 'pathological fear' is the part that goes beyond professional training; the 2026 remark is credited to drama-school discipline.",
+      "alternative": "Theatre training and professional norms explain punctuality; the article says so.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C39",
+      "claim": "Asked in 2026 whether the fear that each job is his last ever ends, he said \"I don't think that ever ends, no. Which is really depressing,\" and that after a couple of months off he wonders \"if anybody remembers me\".",
+      "passage": "he said he doesn't think \"that ever ends,\" then added, \"which is really depressing.\" After a couple of months off, he said, he starts to think, \"I wonder if anybody remembers me.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S23"
+      ],
+      "inference": "Continuing work insecurity at 55, after franchise success, fits the security pattern in C08 and C14.",
+      "alternative": "A Three reading (needing to be seen) or ordinary actor insecurity; the hosts said they feel the same.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C40",
+      "claim": "Bettany believes his father returned to the closet because he \"had to get into heaven as a straight man so he could see his son who had died\".",
+      "passage": "Thane \"had to get into heaven as a straight man so he could see his son who had died.\" That is Bettany's interpretation.",
+      "class": "self_report",
+      "source_ids": [
+        "S23"
+      ],
+      "inference": "Bettany's own reading of his father's motive ties the family's two great losses together; it is his interpretation, not established fact about Thane Bettany's mind.",
+      "alternative": "Thane Bettany's own reasons are not on record; attribute the interpretation to Paul.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C41",
+      "claim": "He memorised scripts to avoid sight-reading at auditions until A Beautiful Mind and says anxiety made his dyslexia worse.",
+      "passage": "\"Right up until the read-through for A Beautiful Mind, I was still learning my lines by heart and pretending to read my part,\" he told the Telegraph in 2013.",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S01"
+      ],
+      "inference": "Preparation began as concealment of a perceived weakness, consistent with the preparation pattern (C10).",
+      "alternative": "Ordinary coping with undiagnosed dyslexia; not type-specific.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C42",
+      "claim": "After Matthew's death he saw \"the fragility and the precariousness of your own position\" and felt \"totally alienated from all of your friends\".",
+      "passage": "Not only do you lose that immediately and see the fragility and the precariousness of your own position but you also feel totally alienated from all of your friends. You feel like you are harbouring some dreadful secret about what life is actually like.",
+      "class": "self_report",
+      "source_ids": [
+        "S28"
+      ],
+      "inference": "In context the \"dreadful secret\" is knowledge of precariousness, a security theme.",
+      "alternative": "Secondary relay of a 2012 Guardian interview (original not opened). The alienation half is the Four alternative's strongest line.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C43",
+      "claim": "In 2013 he said acting had been where he put \"terrible feelings\" until marriage and children \"eclipsed\" it and he made as much money as he could so his children would be safe.",
+      "passage": "was where he put \"terrible feelings\" until \"everything got eclipsed\" by \"making as much money as I could, so my children would be safe.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S03",
+        "S02"
+      ],
+      "inference": "When expression and safety competed, he reports choosing safety; the main Six discriminator.",
+      "alternative": "Secondary relay of the Guardian (original not opened); the same account appears in S02. Hindsight justification of commercial work is possible.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C44",
+      "claim": "Depp denies abusing Heard; he told the court the texts were a Monty Python riff; a 2022 Virginia jury largely sided with Depp and found for Heard on one counterclaim; they settled in December 2022.",
+      "passage": "Depp told the court the exchange was a riff on Monty Python, never meant literally. In his 2022 US defamation trial against Heard, a Virginia jury largely sided with Depp and found for Heard on one of her counterclaims, and the two settled in December 2022.",
+      "class": "third_party",
+      "source_ids": [
+        "S21",
+        "S12"
+      ],
+      "inference": "Neutral legal context for the texts.",
+      "alternative": "Court outcomes are reported via secondary outlets; the trial in which Depp gave the Monty Python testimony is not specified by the source.",
+      "durability": "unresolved",
+      "review_trigger": "New court filings or reporting on Depp v. Heard or the Bettany texts."
+    },
+    {
+      "id": "C46",
+      "claim": "On 9/11 he spent about 48 hours (2026 telling) or three days (2013 telling) phoning Connelly before realising he loved her.",
+      "passage": "that he spent \"no word of a lie, about 48 hours trying to ring Jennifer.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S23",
+        "S02"
+      ],
+      "inference": "Threat to someone he cared about produced repeated checking, then commitment.",
+      "alternative": "Duration varies between tellings; crisis-driven romantic clarity is common across types.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C47",
+      "claim": "In 2026 he says his father told him \"I'm not gay\" and called the relationship \"only sexual for like 12 years\"; in 2022 he recalled \"only physical for a very short time\".",
+      "passage": "In Bettany's 2026 telling, his father said \"I'm not gay\" and called the relationship \"only sexual for like 12 years.\" Bettany's reply: \"that's pretty fucking gay.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S23"
+      ],
+      "inference": "Family story told repeatedly; wording shifts.",
+      "alternative": "Reported dialogue from memory; versions differ.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C48",
+      "claim": "Thane died in 2015; Bettany found a vial of Andy's ashes in his pocket.",
+      "passage": "When Thane died in 2015, Bettany found a glass vial of Andy's ashes in his pocket.",
+      "class": "self_report",
+      "source_ids": [
+        "S06",
+        "S15",
+        "S23",
+        "S09"
+      ],
+      "inference": "Concrete detail of the father's divided life.",
+      "alternative": "Exact setting varies (in his arms; preparing for funeral directors).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C49",
+      "claim": "He finds John Lennon's \"Mother\" makes him feel \"less alone and alienated in the world\" (2022).",
+      "passage": "John Lennon's \"Mother\" makes him feel \"less alone and alienated in the world,\" he said in 2022.",
+      "class": "self_report",
+      "source_ids": [
+        "S14",
+        "S23"
+      ],
+      "inference": "Admires confessional art as a listener while declining to make it himself (C62).",
+      "alternative": "In 2026 he misattributed the song to Sean Lennon; the draft names John Lennon and does not quote the 2026 attribution.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C50",
+      "claim": "He keeps returning to characters hiding who they are: Warhol's \"carefully curated public persona\" and a Vision who \"can't quite attach feelings to them\".",
+      "passage": "Warhol's \"carefully curated public persona,\" a Vision who has his memories but \"can't quite attach feelings to them.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S14",
+        "S24"
+      ],
+      "inference": "Role pattern the Six reading explains only as craft.",
+      "alternative": "Roles are chosen by many factors; actors routinely relate roles to themselves in press.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C51",
+      "claim": "In a 2016 tweet he wrote: 'Known Johnny Depp for years and through several relationships. He's the sweetest, kindest, gentlest man that I've ever known. Just saying.'",
+      "passage": "In a 2016 tweet, undated in the reports, Bettany wrote: \"Known Johnny Depp for years and through several relationships. He's the sweetest, kindest, gentlest man that I've ever known. Just saying.\"",
+      "class": "observed",
+      "source_ids": [
+        "S12",
+        "S21"
+      ],
+      "inference": "Quoted in full so the basis he gave for the praise is visible. Its month is not given, so its timing relative to Heard's 2016 allegations is left open.",
+      "alternative": "The tweet is reported to have disappeared when he left the platform.",
+      "durability": "unresolved",
+      "review_trigger": "Any new statement by Bettany on Depp."
+    },
+    {
+      "id": "C52",
+      "claim": "Born in London on 27 May 1971; English actor.",
+      "passage": "Paul Bettany is an English actor, born in London on May 27, 1971,",
+      "class": "observed",
+      "source_ids": [
+        "S27"
+      ],
+      "inference": "Metadata.",
+      "alternative": "Birth date rests on Wikipedia's cited sources.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C53",
+      "claim": "Birth date metadata.",
+      "passage": "1971-05-27",
+      "class": "observed",
+      "source_ids": [
+        "S27"
+      ],
+      "inference": "Metadata.",
+      "alternative": "As C52.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C54",
+      "claim": "Nationality metadata: British, with US citizenship.",
+      "passage": "British and American",
+      "class": "observed",
+      "source_ids": [
+        "S27",
+        "S15"
+      ],
+      "inference": "Metadata.",
+      "alternative": "Wikipedia infobox lists UK citizenship only; US citizenship rests on the 2022 Daily Beast interview.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C55",
+      "claim": "Married Connelly on 1 January 2003; two children, Stellan and Agnes; stepfather to Kai.",
+      "passage": "He married Jennifer Connelly on January 1, 2003; they have two children, Stellan and Agnes, and he is stepfather to her son Kai.",
+      "class": "observed",
+      "source_ids": [
+        "S27",
+        "S10",
+        "S15"
+      ],
+      "inference": "Metadata.",
+      "alternative": "Children's ages change; none given.",
+      "durability": "time_sensitive",
+      "review_trigger": "Any change in marriage status or family circumstances reported by a reliable outlet."
+    },
+    {
+      "id": "C56",
+      "claim": "On the 2026 podcast he said his father told him to keep a second string to his bow, and acting was his 'safety net' in case music failed.",
+      "passage": "His father had always told him to keep a second string to his bow. \"Mine was acting,\" he told the Hudsons, his \"safety net\" (13:44 in the episode).",
+      "class": "self_report",
+      "source_ids": [
+        "S23"
+      ],
+      "inference": "In 2026 he framed acting as a fallback. Said jokingly ('which is hilarious'), and it is one of four tellings; the article presents it as the one that fits the thesis best and does not let it carry the argument.",
+      "alternative": "'Safety net' describes his father's career-backup advice, not necessarily a psychological security motive; 2012-2013 accounts stress a vocation fuelled by revenge fantasies.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C57",
+      "claim": "He gave up performing his own songs because he felt 'so revealed'.",
+      "passage": "Bettany gave up performing his own songs because it left him exposed: \"I felt so revealed, hated it.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S23"
+      ],
+      "inference": "Exposure of the self felt aversive.",
+      "alternative": "Stage fright; or Five-style privacy.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C58",
+      "claim": "In the same 2026 answer he said \"I can do something with this brokenness that I am feeling.\"",
+      "passage": "\"I can do something with this brokenness that I am feeling.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S23"
+      ],
+      "inference": "Strongest Four-compatible line in the record; shown as such.",
+      "alternative": "Could be read as craft or coping rather than identity.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C59",
+      "claim": "He does not want to \"trade on the trauma and drama of it all\".",
+      "passage": "and in 2026 he did not want to \"trade on the trauma and drama of it all.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S23"
+      ],
+      "inference": "Resists making suffering his public identity.",
+      "alternative": "Could be modesty or PR caution.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C60",
+      "claim": "In February 2022 he told The Times the disclosure was 'embarrassing' and said: 'We live in a world without context. I didn't know Johnny when he was married to Amber. I knew him before. But we hadn't spoken for years.'",
+      "passage": "In February 2022 he told The Times it was \"embarrassing\": \"We live in a world without context. I didn't know Johnny when he was married to Amber. I knew him before. But we hadn't spoken for years.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S12",
+        "S21"
+      ],
+      "inference": "His own words, with no timeline added. He does not date when contact stopped.",
+      "alternative": "The Times original was not opened; Insider and Gulf News relay it consistently.",
+      "durability": "unresolved",
+      "review_trigger": "Opening of the full February 2022 Times interview; any new statement by Bettany on the texts."
+    },
+    {
+      "id": "C61",
+      "claim": "In December 2021 he called the disclosure 'a strange moment' and said discussing it would pour fuel on the fire.",
+      "passage": "In December 2021 he called the disclosure \"a strange moment\" and said discussing it would \"just pour fuel on the fire\" (The Independent).",
+      "class": "self_report",
+      "source_ids": [
+        "S11"
+      ],
+      "inference": "Context for his later statements.",
+      "alternative": "Secondary relay of The Independent.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C62",
+      "claim": "\"But I'm not sure I want anybody to really know that much about me definitively.\" (2026)",
+      "passage": "But I'm not sure I want anybody to really know that much about me definitively.",
+      "class": "self_report",
+      "source_ids": [
+        "S23"
+      ],
+      "inference": "Prefers concealment of the definitive self; argues against Four.",
+      "alternative": "Five-style privacy; or a podcast aside.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C64",
+      "claim": "When Stellan was born in 2003 he decided \"The world is precarious\" and set out to make his children safe \"with dough\".",
+      "passage": "His son Stellan was born in 2003, the year _Master and Commander_ became a global hit. Bettany could finally afford to be choosy, and The Times reported that he took a year and a half off. Then, he told the Telegraph, he decided, \"The world is precarious and I'm going to make my children as safe as possible – with dough.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S01",
+        "S10"
+      ],
+      "inference": "The clearest repeated, costly security choice.",
+      "alternative": "Responsible parenting of a freelance actor; the year and a half off and the 'get back to my family' rationale (S01) show the money drive was not the only response to the birth.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C65",
+      "claim": "He opened the 2013 Telegraph interview with \"I can tell you right now that I'm not feeling particularly guarded.\"",
+      "passage": "He opened that 2013 Telegraph interview with \"I can tell you right now that I'm not feeling particularly guarded.\"",
+      "class": "observed",
+      "source_ids": [
+        "S02",
+        "S13"
+      ],
+      "inference": "Candour that the mask reading does not fully explain.",
+      "alternative": "Interview performance.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C67",
+      "claim": "His father, a former Royal Ballet dancer and actor, taught drama at a girls' school outside London, where the family lived in teachers' housing.",
+      "passage": "His father, Thane, a former Royal Ballet dancer and actor, took a job teaching drama at a girls' school outside London, and the family moved into the teachers' houses there.",
+      "class": "self_report",
+      "source_ids": [
+        "S24",
+        "S02",
+        "S22"
+      ],
+      "inference": "Biographical context.",
+      "alternative": "School name and exact location vary across sources; none given.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C69",
+      "claim": "The Telegraph (2013) gave a different age (75) for his father's coming-out than Bettany's 63.",
+      "passage": "A 2013 Telegraph profile instead said he announced his bisexuality at 75.",
+      "class": "disputed",
+      "source_ids": [
+        "S02",
+        "S08",
+        "S23"
+      ],
+      "inference": "Flags a factual conflict without choosing.",
+      "alternative": "Bettany's own account (63) is used, attributed.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C70",
+      "claim": "\"My father had some beautifully curated stories and anecdotes, but I never really got to know him because he didn't live his life in an authentic way.\" (2020)",
+      "passage": "\"My father had some beautifully curated stories and anecdotes, but I never really got to know him because he didn't live his life in an authentic way,\"",
+      "class": "self_report",
+      "source_ids": [
+        "S06"
+      ],
+      "inference": "The lesson he drew from his father.",
+      "alternative": "Authenticity theme also supports Four.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C72",
+      "claim": "On 9/11 he walked into a tavern in Italy and saw the second plane hit.",
+      "passage": "He walked in and saw the second plane hit the tower.",
+      "class": "self_report",
+      "source_ids": [
+        "S23"
+      ],
+      "inference": "Scene-setting for C46.",
+      "alternative": "Location given as Tuscany (2012-2013) and Umbria (2026); the draft says Italy.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C73",
+      "claim": "In 2013 he asked himself \"Why have I been calling this woman for three days?\"",
+      "passage": "I thought to myself, 'Why have I been calling this woman for three days?' Then suddenly it dawned on me.",
+      "class": "self_report",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "Self-observed checking behaviour.",
+      "alternative": "Duration differs from the 2026 telling (C46).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C74",
+      "claim": "Sunset Boulevard: he thought \"maybe he's right, maybe my career is over\", then Whedon called offering Vision.",
+      "passage": "He sat down on Sunset Boulevard thinking, as he told [Reuters](https://www.devdiscourse.com/article/international/3991185-paul-bettany-says-marvel-transformed-his-life-after-he-was-told-his-career-was-over) in October 2026, \"maybe he's right, maybe my career is over.\" His phone rang. It was Joss Whedon, offering him Vision.",
+      "class": "self_report",
+      "source_ids": [
+        "S20",
+        "S15",
+        "S24"
+      ],
+      "inference": "Collapse after bravado (C15).",
+      "alternative": "Much-retold anecdote; details vary.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C77",
+      "claim": "Asked whether he knows who he is and what his purpose is: \"Some days!\" (2026)",
+      "passage": "\"Some days!\" he said.",
+      "class": "self_report",
+      "source_ids": [
+        "S24"
+      ],
+      "inference": "Closing detail.",
+      "alternative": "Light answer in a cover interview.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C78",
+      "claim": "\"I'm not any less neurotic now, by the way. I'm just better at hiding it.\" (2022)",
+      "passage": "\"I'm not any less neurotic now, by the way,\" he said. \"I'm just better at hiding it.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S14"
+      ],
+      "inference": "Ongoing anxiety plus concealment.",
+      "alternative": "Self-deprecating sign-off.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C79",
+      "claim": "VisionQuest described as \"intergenerational pain with lasers\" (2025) and \"a show about grandfathers, fathers, and sons\" (2026).",
+      "passage": "Bettany called it \"intergenerational pain with lasers\" ([Popverse](https://www.thepopverse.com/tv-marvel-studios-mcu-visionquest-paul-bettany-tone-intergnerational-pain-lasers/), 2025) and \"a show about grandfathers, fathers, and sons.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S26",
+        "S25"
+      ],
+      "inference": "Rhymes with the father story; dated, not load-bearing.",
+      "alternative": "Promotional framing.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C80",
+      "claim": "Interpretation: the 'floor drops' test favors Six over Four: he shores up the base rather than turning toward the loss.",
+      "passage": "The test from the type answer still favors Six: what he does when the floor drops. A Four in pain tends to turn toward the loss and ask what it says about who he is. Bettany shores up the base against the next blow.",
+      "class": "interpretation",
+      "source_ids": [
+        "S03",
+        "S02",
+        "S01",
+        "S15",
+        "S23"
+      ],
+      "inference": "Main discriminator, labelled as interpretation and followed by the sourced money plan and the 2012-2026 'what if' pattern.",
+      "alternative": "A Four can make the same trade under pressure, and the Margin Call reversal is Four-friendly; the article concedes both.",
+      "durability": "stable",
+      "review_trigger": "Thesis test: his next self-written or self-directed project and how he frames its risk; any memoir or long interview revisiting the safety-net/mask account; new first-hand testimony from Connelly or a long-term collaborator about how he handles risk. Choosing exposure over security once security is assured, described as identity rather than as a plan, would favor Type 4."
+    },
+    {
+      "id": "C81",
+      "claim": "Interpretation: the 60-word type answer.",
+      "passage": "Paul Bettany is most likely an Enneagram Type 6, the Loyalist, held at medium confidence with Type 4 the closest rival.",
+      "class": "interpretation",
+      "source_ids": [
+        "S02",
+        "S15",
+        "S23",
+        "S03"
+      ],
+      "inference": "The type hypothesis with its confidence and rival, identical in the body and the FAQ.",
+      "alternative": "Type 4 is the live alternative.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C82",
+      "claim": "Interpretation: limits of the Six reading (grief reopened by choice, candour, comic register, early grief).",
+      "passage": "The Six reading has limits. It explains his reopening of grief only as craft",
+      "class": "interpretation",
+      "source_ids": [
+        "S14",
+        "S24",
+        "S02"
+      ],
+      "inference": "Honest statement of what the type does not explain.",
+      "alternative": "—",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C83",
+      "claim": "Interpretation: father/son contrast read two ways; motives not on record.",
+      "passage": "A Four reading finds its best material here: a son who prizes authenticity because his father traded it away.",
+      "class": "interpretation",
+      "source_ids": [
+        "S09",
+        "S23",
+        "S06"
+      ],
+      "inference": "Presents both readings of the father story.",
+      "alternative": "The Six reading does not need Thane's motives; the article no longer assigns him one.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C84",
+      "claim": "Interpretation: the Depp texts and his handling of them carry no weight in the type case.",
+      "passage": "His wariness fits the caution seen elsewhere in his record, but any publicist would advise the same, so neither the texts nor his reluctance to discuss them carries weight in the type case here.",
+      "class": "interpretation",
+      "source_ids": [
+        "S12",
+        "S21"
+      ],
+      "inference": "Keeps the sensitive episode out of the type argument.",
+      "alternative": "His years of opinionated posting on Twitter cut against 'caution'; the limits paragraph records it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C85",
+      "claim": "Description: he calls life 'precarious' and spent years earning against it; Type 6 with Type 4 a close rival.",
+      "passage": "Paul Bettany calls life \"precarious\" and spent years earning against it. Why his choices read as Enneagram Type 6, with Type 4 a close rival.",
+      "class": "interpretation",
+      "source_ids": [
+        "S02",
+        "S03",
+        "S28"
+      ],
+      "inference": "Metadata rests on the multi-source money-and-precariousness evidence (2012-2013) rather than on the single 2026 podcast.",
+      "alternative": "—",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C86",
+      "claim": "Meta title frames the typing as a comparison (6 over 4), matching medium confidence.",
+      "passage": "Paul Bettany's Enneagram Type: Why 6 Edges Out 4",
+      "class": "interpretation",
+      "source_ids": [
+        "S02",
+        "S03",
+        "S23",
+        "S14"
+      ],
+      "inference": "Mirrors type_hypothesis confidence.",
+      "alternative": "—",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C87",
+      "claim": "FAQ: the Four case (alienation, grief work, 'not good enough').",
+      "passage": "The Type 4 case is real. He felt alienated after his brother's death, picks at old grief to summon emotion on camera and says he is \"just not good enough\" to switch it on the way other actors can.",
+      "class": "interpretation",
+      "source_ids": [
+        "S28",
+        "S14"
+      ],
+      "inference": "Summarises the Why not section.",
+      "alternative": "—",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C88",
+      "claim": "FAQ: brother.",
+      "passage": "When Bettany was 16, his eight-year-old brother Matthew died after falling from the roof of a tennis pavilion. Bettany has said the death \"blew the family apart\" and that he was \"very close to my brother.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S28",
+        "S23"
+      ],
+      "inference": "Metadata/FAQ.",
+      "alternative": "—",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C89",
+      "claim": "FAQ: Depp texts summary.",
+      "passage": "Texts from 2013, read aloud in Depp's 2020 UK libel case against The Sun's publisher, showed Depp writing \"Let's burn Amber!!!\" and Bettany replying, in what Gulf News called \"the same mock-medieval spirit,\" that they could do \"a drowning test.\" The court dismissed Depp's claim, and Depp has denied Amber Heard's abuse allegations.",
+      "class": "third_party",
+      "source_ids": [
+        "S12",
+        "S21",
+        "S11"
+      ],
+      "inference": "Neutral FAQ wording with attribution.",
+      "alternative": "Characterisation of tone is Gulf News's.",
+      "durability": "unresolved",
+      "review_trigger": "Any new statement or filing on the texts."
+    },
+    {
+      "id": "C91",
+      "claim": "Closing interpretation: studio money bought the farm and Marvel bought time at home.",
+      "passage": "The safety net became the living, and the Vision makeup bought the time at home he says he needs.",
+      "class": "interpretation",
+      "source_ids": [
+        "S20",
+        "S23"
+      ],
+      "inference": "Ties C63 and C34.",
+      "alternative": "—",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C92",
+      "claim": "He tied his addiction partly to not knowing who he was and felt totally alienated after Matthew died (Four case).",
+      "passage": "After Matthew died he felt \"totally alienated.\" He tied his addiction partly to \"not knowing who I was.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S28",
+        "S02"
+      ],
+      "inference": "Four-compatible evidence shown honestly.",
+      "alternative": "The same Guardian line pairs alienation with precariousness (C42).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C94",
+      "claim": "\"Dyslexic and terrified of reading aloud\" at school.",
+      "passage": "Dyslexic and \"terrified of reading aloud,\" he learned every audition by heart.",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "inference": "Concealment origin of preparation.",
+      "alternative": "—",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C95",
+      "claim": "\"It was the anxiety that made my dyslexia worse.\"",
+      "passage": "\"It was the anxiety that made my dyslexia worse.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "Anxiety named as driver.",
+      "alternative": "—",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C96",
+      "claim": "\"I have a really strong work ethic.\"",
+      "passage": "\"I have a really strong work ethic,\" he told the Daily Beast.",
+      "class": "self_report",
+      "source_ids": [
+        "S15"
+      ],
+      "inference": "Supports C10.",
+      "alternative": "Quoted span is a substring of \"It's more that I have a really strong work ethic.\"",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C97",
+      "claim": "Ball: \"Why me?\" question and offer; Uncle Frank about a closeted gay professor.",
+      "passage": "When Alan Ball offered him _Uncle Frank_, about a closeted gay professor,",
+      "class": "observed",
+      "source_ids": [
+        "S06",
+        "S08"
+      ],
+      "inference": "Context.",
+      "alternative": "—",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C98",
+      "claim": "In 2013 he added that he knows 'great actors whom nothing has ever happened for'.",
+      "passage": "That was his view in 2013, and the fear had a basis: \"I know great actors whom nothing has ever happened for.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S15"
+      ],
+      "inference": "Calling the threat exaggerated is his 2013 view; the fear had a basis, and the two-year drought he later described partly vindicated it.",
+      "alternative": "Ordinary freelance-career realism.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C99",
+      "claim": "The Times reported in 2012 that his brother's fall 'is right there' when his children jump on the couch.",
+      "passage": "Matthew's fall, The Times reported in 2012, \"is right there\" when his children jump on the couch: \"I have to stop myself from shouting, 'Stop it.'\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "The loss visibly shapes his fear as a parent.",
+      "alternative": "Trauma rather than type; the article concedes this in the circumstance paragraph.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C100",
+      "claim": "After the guilt line he said everybody is 'dropped into a maze by their childhood' and credited time and 'a lot of therapy'.",
+      "passage": "He went straight on: everybody is \"dropped into a maze by their childhood,\" and his way out took time and \"a lot of therapy.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S23"
+      ],
+      "inference": "His own account of working through the guilt, so the self-blame line is not left hanging.",
+      "alternative": "Machine transcription; spans shared by the models.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C101",
+      "claim": "He hesitated over Uncle Frank partly because of casting ethics and whether he had the energy to revisit dark moments.",
+      "passage": "Bettany's first questions were \"Why me?\" and \"Should I even do this?\" He also asked himself whether taking the part was \"morally correct\" and whether he had \"the energy\" to revisit dark moments from his own life.",
+      "class": "self_report",
+      "source_ids": [
+        "S06"
+      ],
+      "inference": "His stated reasons for hesitating, given so the reader does not supply a motive.",
+      "alternative": "None needed; attributed self-report.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C102",
+      "claim": "His accounts of how he came to acting differ: a vocation he always loved and pursued partly as revenge (2012, 2013), something he fell into (2022), and a fallback from music (2026).",
+      "passage": "His accounts of how he got to acting vary: a vocation he had \"always loved,\" though he wanted the fame \"in a childish, revenge fantasy kind of way\" (2012 and 2013), something he \"fell into\" (2022), and in 2026 a fallback after he \"really quickly realized I hated singing my own songs in front of people.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S15",
+        "S23"
+      ],
+      "inference": "Shows the tellings side by side so the 2026 safety-net framing does not stand alone.",
+      "alternative": "Retrospective narratives shift with the interview's frame; none is definitive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C103",
+      "claim": "FAQ: Six leads because of the 2003 money plan and repeated 'what if' framing from 2012 to 2026.",
+      "passage": "After his son's birth in 2003 he set out to make his children safe \"with dough,\" called it ludicrous and defended it anyway, and from 2012 to 2026 he has kept describing fame, money and work as things that could vanish.",
+      "class": "interpretation",
+      "source_ids": [
+        "S02",
+        "S01",
+        "S15",
+        "S23"
+      ],
+      "inference": "The FAQ leads with the discriminator a Four reading cannot equally claim.",
+      "alternative": "The Margin Call reversal is Four-friendly; covered in the body.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C104",
+      "claim": "FAQ: his 2022 and 2026 statements on the texts.",
+      "passage": "In 2022 Bettany called the disclosure \"embarrassing\" and said he knew Depp before the marriage but not during it. In October 2026 he said he had not spoken to Depp in years when the texts surfaced and has not spoken to him since.",
+      "class": "self_report",
+      "source_ids": [
+        "S12",
+        "S21"
+      ],
+      "inference": "Paraphrase that adds no timeline beyond his words.",
+      "alternative": "Relayed, not opened originals.",
+      "durability": "unresolved",
+      "review_trigger": "Any new statement by Bettany on the texts; opening of the full 2022 or 2026 Times interviews."
+    },
+    {
+      "id": "C105",
+      "claim": "His mother, Anne, had been an actor and a singer; he has an older sister, Sarah.",
+      "passage": "His mother, Anne, had been an actor and a singer, and he had an older sister, Sarah.",
+      "class": "third_party",
+      "source_ids": [
+        "S02",
+        "S15",
+        "S01"
+      ],
+      "inference": "Basic family facts; no causal claim drawn.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C106",
+      "claim": "The Telegraph reported his parents' marriage buckled after Matthew's death and they divorced in 1993.",
+      "passage": "His parents divorced in 1993 after the marriage \"buckled under the strain of the trauma,\" the Telegraph reported.",
+      "class": "third_party",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "Journalist's account of the family aftermath; the article draws no link to his own marriage.",
+      "alternative": "The causal 'buckled under the strain' is Walden's framing.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C107",
+      "claim": "The 2012 Guardian answer ends in plain grief: he was very close to his brother.",
+      "passage": "The same answer ends in plain grief: \"I was very close to my brother.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S28"
+      ],
+      "inference": "Keeps the brother as a person, not only as type evidence.",
+      "alternative": "Relayed, not the Guardian original.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C108",
+      "claim": "The bullying set off revenge fantasies that, The Times reported, fuelled his wish to act.",
+      "passage": "The bullying also set off what he called \"the childish motor in me\": revenge fantasies of \"One day you'll be sorry\" that, The Times reported, \"absolutely\" fueled his wish to act.",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S01"
+      ],
+      "inference": "His documented response to bullying included defiance and a fame-as-revenge fantasy, not only security-building.",
+      "alternative": "Counterphobic defiance is one Six-compatible reading; the article calls it thin and lists the revenge motive as what the Six reading handles worst.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C109",
+      "claim": "Interpretation: his stand against homophobic bullying could be counterphobic or plain conviction.",
+      "passage": "The stand could be the counterphobic streak or plain conviction; the record cannot tell them apart.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S15"
+      ],
+      "inference": "Applies the primer's counterphobic idea once, hedged.",
+      "alternative": "Moral conviction explains it equally.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C110",
+      "claim": "Interpretation: his childhood fear was partly situational.",
+      "passage": "A new boy at a hostile school has reason to be afraid, so this is circumstance as much as temperament.",
+      "class": "interpretation",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "Concedes circumstance before arguing temperament.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C111",
+      "claim": "He won't name the money films; the period's studio films ran from Wimbledon (2004) to Priest (2011).",
+      "passage": "He won't say which of his studio films of the period, from _Wimbledon_ (2004) to _Priest_ (2011), were the money jobs, The Times reported, only that some \"made me the most amount of money in the shortest amount of time so I could get back to my family.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S27"
+      ],
+      "inference": "Names the period's films without asserting which were money jobs.",
+      "alternative": "Walden's 2013 list of studio-shaped roles is her selection.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C112",
+      "claim": "The post-2008 drought is undated in his account.",
+      "passage": "He has not dated that drought, so whether it came before or after the next turn is unclear.",
+      "class": "observed",
+      "source_ids": [
+        "S15",
+        "S01"
+      ],
+      "inference": "States what the sources do not fix instead of implying a sequence.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C113",
+      "claim": "After Margin Call he said he needed to be happy even at less money.",
+      "passage": "He added, \"I need to be happy, and if that means making films for less money, so be it.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "inference": "His own reversal of the money plan, which the article concedes to the Four reading.",
+      "alternative": "Also consistent with a Six who now felt financially secure.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C114",
+      "claim": "The producer story's setting differs between tellings: a meeting about a film (2022) and an audition (Reuters, 2026).",
+      "passage": "In 2022 the meeting was about another film; for Reuters it was an audition.",
+      "class": "observed",
+      "source_ids": [
+        "S15",
+        "S20"
+      ],
+      "inference": "A concrete, sourced difference supporting 'the details shift between tellings'.",
+      "alternative": "Square Mile's own retelling adds a sidewalk and a gesture; not used.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C115",
+      "claim": "Whedon pitched him to Feige while he was already voicing J.A.R.V.I.S. and showed a film Bettany thought the nadir of his career.",
+      "passage": "Whedon had pitched him to Marvel's Kevin Feige while he was already voicing J.A.R.V.I.S., and answered Feige's doubts about a superhero with \"one of these movies I thought was the nadir of my career,\" Bettany told the Daily Beast.",
+      "class": "self_report",
+      "source_ids": [
+        "S15",
+        "S27",
+        "S20"
+      ],
+      "inference": "Explains how the Marvel floor arrived.",
+      "alternative": "His retelling of Whedon's pitch; Whedon not consulted.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C116",
+      "claim": "Interpretation: fear that each job is the last is common to actors, so it shows continuity of worry, not type.",
+      "passage": "Most actors share that dread, so it shows continuity, not type.",
+      "class": "interpretation",
+      "source_ids": [
+        "S23"
+      ],
+      "inference": "Weighs an occupational norm against the type explanation.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C117",
+      "claim": "The 2010 camera answer continues into comic items.",
+      "passage": "The list runs on to whether \"the dog's going to poop in front of the paparazzi,\" so it was played for laughs and can only hint at the split.",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Shows the comic register so one junket answer is not overweighted.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C118",
+      "claim": "Interpretation: the same worst-case 'what if' framing recurs from 2012 to 2026.",
+      "passage": "The same worst-case question recurs from 2012 to 2026: \"What if it goes away?\" about fame, \"the tap can turn off\" about money, \"what if this thing comes tumbling down?\" after the crash, and, once Marvel had freed him to turn down work, whether anybody remembers him.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S15",
+        "S23",
+        "S20"
+      ],
+      "inference": "The pattern evidence that a Four reading cannot equally claim.",
+      "alternative": "British comic register and an insecure trade; the 2026 line is an occupational norm.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C119",
+      "claim": "Interpretation: the Margin Call reversal is Four-friendly, but the worry outlived the money years and the Marvel security.",
+      "passage": "A Four reading can claim one turn: after _Margin Call_ he chose happiness over pay, the artist taking the work back. It was a real change, but the worry outlived both the money years and the security Marvel bought.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S20",
+        "S23"
+      ],
+      "inference": "Concedes the reversal and explains why the pattern still favors Six.",
+      "alternative": "A Four reading may weigh the reversal more heavily.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C120",
+      "claim": "Interpretation: concealment behind a role is shared ground between Six and Four.",
+      "passage": "A Four who feels flawed can hide behind a role too, and the brokenness line comes in the same answer, so this is shared ground.",
+      "class": "interpretation",
+      "source_ids": [
+        "S23"
+      ],
+      "inference": "Downgrades the mask from discriminator to shared trait.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C121",
+      "claim": "In 2015 he did not want his busking past to become part of the narrative around Shelter.",
+      "passage": "In 2015 he did not want his busking years \"to become part of a narrative\" around _Shelter_",
+      "class": "self_report",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "Pre-2026 text evidence of guarding rather than displaying personal pain.",
+      "alternative": "He explains it as avoiding a 'politicians kissing babies' look, which is PR sense as much as temperament.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C122",
+      "claim": "He says he draws on remembered fear for Warhol.",
+      "passage": "Of playing Warhol, he said in 2022, \"it's his fear. I was very bullied as a schoolkid, and I remember the world feeling like a frightening place.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S15"
+      ],
+      "inference": "Fear framed as a remembered worldview he uses, not only a reaction to loss.",
+      "alternative": "Craft talk during a play's run.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C123",
+      "claim": "He says his career once made him feel 'safe and relevant' and lists judging yourself by others' praise among the 'terrible, terrible things' of acting.",
+      "passage": "Before his children, his career made him feel \"safe and relevant\" (2022). But a Three tends to manage the image, and Bettany keeps puncturing his. He counts \"judging yourself\" by others' praise among the \"terrible, terrible things\" that come with acting (Daily Beast, 2022)",
+      "class": "self_report",
+      "source_ids": [
+        "S15",
+        "S01"
+      ],
+      "inference": "Tests Type 3: image-compatible quotes against his stated distrust of praise.",
+      "alternative": "A Three can also disavow image needs in interviews.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C124",
+      "claim": "Interpretation: the revenge-fame motive is what the Six reading handles worst.",
+      "passage": "The revenge fantasy behind his early wish to act is what the Six reading handles worst; calling it counterphobic defiance is possible but thin.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "inference": "Lists the motive as partly unexplained instead of absorbing it.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C125",
+      "claim": "He took US citizenship because he was tired of being shouted down on Twitter for having an opinion.",
+      "passage": "He took US citizenship, he said in 2022, because he \"was tired of getting shouted down on Twitter for having an opinion,\"",
+      "class": "self_report",
+      "source_ids": [
+        "S15",
+        "S21"
+      ],
+      "inference": "Counter-evidence to 'caution' and to not wanting to be known.",
+      "alternative": "Political opinion is not personal disclosure.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C126",
+      "claim": "He co-starred with Depp in The Tourist (2010) and Mortdecai (2015); the 2013 texts were sent while they were working together and Depp was dating Heard, and were read in Depp's 2020 UK libel case against The Sun's publisher.",
+      "passage": "Bettany co-starred with [Johnny Depp](/personality-analysis/johnny-depp) in _The Tourist_ (2010) and _Mortdecai_ (2015). In 2013, while they were working together and Depp was dating the actor Amber Heard, the two men exchanged texts later read aloud in Depp's 2020 UK libel case against the publisher of The Sun, which had called him a \"wife beater.\"",
+      "class": "observed",
+      "source_ids": [
+        "S27",
+        "S21",
+        "S11",
+        "S12"
+      ],
+      "inference": "Context for why they were texting and who Heard was.",
+      "alternative": "S11 dates some texts to 2014.",
+      "durability": "unresolved",
+      "review_trigger": "Any new court filing or reporting on the texts."
+    },
+    {
+      "id": "C127",
+      "claim": "The UK court dismissed Depp's claim that the 'wife beater' label was libelous.",
+      "passage": "The court dismissed his claim that the label was libelous",
+      "class": "third_party",
+      "source_ids": [
+        "S11",
+        "S12"
+      ],
+      "inference": "Neutral statement of the UK outcome.",
+      "alternative": "Reported via secondary outlets.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C128",
+      "claim": "Heard accused Depp of abuse in 2016; he has denied it.",
+      "passage": "Heard accused Depp of abuse in 2016, which he has denied.",
+      "class": "third_party",
+      "source_ids": [
+        "S12",
+        "S21"
+      ],
+      "inference": "Neutral context.",
+      "alternative": "None.",
+      "durability": "unresolved",
+      "review_trigger": "Any new legal development between Depp and Heard."
+    },
+    {
+      "id": "C129",
+      "claim": "In December 2022 he declined further comment on the texts.",
+      "passage": "By December 2022 he declined to discuss it further.",
+      "class": "self_report",
+      "source_ids": [
+        "S15"
+      ],
+      "inference": "Completes the dated record of his responses.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C130",
+      "claim": "Interpretation: his 2016 praise and later accounts of years without contact are not reconciled in the record.",
+      "passage": "The record does not reconcile his 2016 praise with his later accounts of years without contact.",
+      "class": "interpretation",
+      "source_ids": [
+        "S12",
+        "S21"
+      ],
+      "inference": "States the tension plainly without assigning a motive.",
+      "alternative": "The full Times interviews may reconcile it.",
+      "durability": "unresolved",
+      "review_trigger": "Opening of the full 2022 or 2026 Times interviews; any new statement by Bettany."
+    },
+    {
+      "id": "C131",
+      "claim": "In 2020 he attributed his father's retreat to Catholic dogma.",
+      "passage": "In 2020 Bettany blamed \"the dogma of Catholicism\"",
+      "class": "self_report",
+      "source_ids": [
+        "S06",
+        "S23"
+      ],
+      "inference": "Paul's attributed explanation; Thane's own reasons are not on record.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C132",
+      "claim": "Interpretation: Paul's 'mask' is a performer's cover and a wish not to be known definitively, not a closet; he discusses his family, addiction and therapy openly.",
+      "passage": "The mask is the one he described, a performer's cover and a wish not to be known \"definitively.\" It is not a closet; he has discussed his father, his brother, his addiction and his therapy in interview after interview.",
+      "class": "interpretation",
+      "source_ids": [
+        "S23",
+        "S01",
+        "S15",
+        "S28",
+        "S09"
+      ],
+      "inference": "Limits the father-son parallel to what he said.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C133",
+      "claim": "Interpretation (labelled as the author's): Paul urges authenticity on his children and keeps a mask for himself.",
+      "passage": "What remains, on our reading rather than his, is a tension in Paul. Paul tells his children authenticity is worth what it costs, and keeps a mask for himself.",
+      "class": "interpretation",
+      "source_ids": [
+        "S09",
+        "S23"
+      ],
+      "inference": "An unresolved tension neither type fully absorbs; labelled as the author's reading and not used as Six evidence.",
+      "alternative": "His 'mask' concerns acting and privacy, not identity; the next sentences say so.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C134",
+      "claim": "In October 2026 he said he would love to write and direct again.",
+      "passage": "In October 2026 he told [Square Mile](https://squaremile.com/culture/film-tv/paul-bettany-interview-vision-quest/) he would \"love to write and direct again.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S24"
+      ],
+      "inference": "Names the future evidence that would test the thesis.",
+      "alternative": "Aspirations in promotional interviews often go unrealized.",
+      "durability": "time_sensitive",
+      "review_trigger": "His next self-written or self-directed project: does he frame it as exposure and identity (favors 4) or as a hedged plan (favors 6)?"
+    },
+    {
+      "id": "C135",
+      "claim": "FAQ: credits and residence.",
+      "passage": "He voiced J.A.R.V.I.S. in Marvel's films from 2008, first played Vision in 2015, earned an Emmy nomination for WandaVision and led VisionQuest",
+      "class": "observed",
+      "source_ids": [
+        "S27",
+        "S20"
+      ],
+      "inference": "Dated credits.",
+      "alternative": "None.",
+      "durability": "time_sensitive",
+      "review_trigger": "Any Vision recast or exit; Avengers: Doomsday (18 December 2026) or Secret Wars casting confirmation."
+    },
+    {
+      "id": "C136",
+      "claim": "Interpretation: the 9/11 phoning is ordinary; the certainty remark is the type-relevant part, an early instance of the pattern.",
+      "passage": "Almost anyone would keep dialing; what matters is where it led, to a certainty he calls new. It is an early instance of a pattern that runs through his interviews from 2010 to 2026.",
+      "class": "interpretation",
+      "source_ids": [
+        "S02",
+        "S23",
+        "S01"
+      ],
+      "inference": "Presents the hook as an early instance, not the clearest example.",
+      "alternative": "The security frame was first proposed by the Telegraph writer.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C137",
+      "claim": "Connelly is an actor he befriended on A Beautiful Mind.",
+      "passage": "the actor he had befriended on the set of _A Beautiful Mind_",
+      "class": "observed",
+      "source_ids": [
+        "S27",
+        "S23",
+        "S01"
+      ],
+      "inference": "Orientation.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C138",
+      "claim": "FAQ: guilt and therapy.",
+      "passage": "In an October 2026 podcast he said Matthew fell from a building \"that I had taught him how to climb,\" leaving \"an enormous amount of guilt to work through,\" and credited time and \"a lot of therapy\" with helping him do it.",
+      "class": "self_report",
+      "source_ids": [
+        "S23",
+        "S22"
+      ],
+      "inference": "FAQ gives the guilt line with his account of working through it.",
+      "alternative": "Machine transcription.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C139",
+      "claim": "Persona title metaphor from the 2013 'hammering bits of wood against the window' confession.",
+      "passage": "The Actor Who Boards Up the Windows",
+      "class": "interpretation",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "A metaphor taken from his own words about the money plan; he did not literally board up windows.",
+      "alternative": "Readers could take it literally; the body quotes the original.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C140",
+      "claim": "In 2022 he said of his stand against homophobic bullying, 'I sort of refused to bend on that.'",
+      "passage": "A decade later he summed it up for [the Daily Beast](https://www.timteeman.com/?p=8501): \"I sort of refused to bend on that.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S15"
+      ],
+      "inference": "A costly stand taken against fear; read with C109.",
+      "alternative": "Moral conviction.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C141",
+      "claim": "He has said Matthew's death 'blew the family apart'.",
+      "passage": "\"It blew the family apart,\" Bettany has said.",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S28"
+      ],
+      "inference": "Quoted by the Telegraph as something he 'has said' and by the Guardian relay.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C142",
+      "claim": "In the 2010 answer the worry in everyday life starts with his children's health and his own.",
+      "passage": "Once the camera rolls, the waiting is over. The worry belongs to the rest of life, starting, in the same answer, with \"my kids' health, my health.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Anticipation makes him anxious; action calms him. Hedged in the next sentence as a comic junket answer.",
+      "alternative": "Many performers report calm once acting begins.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C143",
+      "claim": "After Matthew's death he left school, moved to London and busked.",
+      "passage": "He left school, moved to London and busked with a guitar.",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S01",
+        "S23"
+      ],
+      "inference": "Biographical sequence.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C144",
+      "claim": "He became addicted to cocaine in his early twenties.",
+      "passage": "In his early twenties he became addicted to cocaine.",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "inference": "Biographical fact he has discussed openly.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C145",
+      "claim": "He arrived two minutes late to the 2013 Telegraph interview after phoning ahead.",
+      "passage": "He arrived for that Telegraph interview two minutes late, having phoned ahead to warn he might be.",
+      "class": "third_party",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "Journalist's observation; a small instance of anticipatory checking.",
+      "alternative": "Ordinary courtesy.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C146",
+      "claim": "After Andy died, Thane told Paul he was back in the Catholic faith.",
+      "passage": "After Andy died, Thane announced he was back in the Catholic faith.",
+      "class": "self_report",
+      "source_ids": [
+        "S23",
+        "S06"
+      ],
+      "inference": "Paul's account of his father.",
+      "alternative": "Thane's own account is not on record.",
+      "durability": "stable",
+      "review_trigger": ""
+    }
+  ],
+  "type_hypothesis": {
+    "type": 6,
+    "confidence": "medium",
+    "for_claim_ids": [
+      "C03",
+      "C07",
+      "C08",
+      "C10",
+      "C11",
+      "C12",
+      "C13",
+      "C14",
+      "C15",
+      "C16",
+      "C17",
+      "C38",
+      "C39",
+      "C42",
+      "C43",
+      "C46",
+      "C56",
+      "C57",
+      "C62",
+      "C64",
+      "C80",
+      "C98",
+      "C99",
+      "C118",
+      "C122"
+    ],
+    "against": "The Four case is real. Bettany speaks of alienation after Matthew's death (\"harbouring some dreadful secret about what life is actually like\"), measures himself against actors who \"have amazing access to their emotions\" (\"I'm just not good enough to do that\"), mines grief for performances (\"picking at scabs\", Matthew's sweatshirt on the Uncle Frank set), and took the authenticity lesson from his father. After Margin Call he reversed the money plan: \"I need to be happy, and if that means making films for less money, so be it\" (2012), the artist taking the work back. The 2026 mask answer pairs concealment with turning \"very negative things into something creative\" and \"I can do something with this brokenness\", so the mask does not separate the types. Circumstance (bullying, a sibling's death at 16, a freelance trade) explains some of the fear, and much of the record is promotional interviews in a British comic register. His 2012-2013 origin accounts stress a vocation fuelled by revenge fantasies, which the Six reading handles poorly.",
+    "alternative_type": 4,
+    "alternative_case": "Type 4: a man shaped by loss who feels set apart from people who have not seen \"what life is actually like\", compares himself unfavourably with other actors' emotional access, uses acting as a container for painful feeling, keeps returning to stories of men who could not live as themselves (Uncle Frank, Warhol, a Vision with memories he cannot feel), and prizes authenticity after watching his father retreat into the closet. Margin Call's rescue of his love for acting, the scab-picking method and the 'brokenness' line all fit. A shame-driven Four can also hide behind a role.",
+    "discriminator": "What he does when the floor drops. A Four turns toward the loss and asks what it says about identity; a Six secures the base and pre-empts the next threat. Bettany repeatedly does the second, knowingly and at a cost: at his son's birth he decides \"The world is precarious\" and sets out to make the children safe \"with dough\", calls it ludicrous and defends it because \"the tap can turn off\" (2013), and says acting as a place for \"terrible feelings\" was \"eclipsed\" by that plan (2013 Guardian relay). The same worst-case framing recurs across contexts and years: fame (\"What if it goes away?\", 2012), money (2013), career after 2008 (\"what if this thing comes tumbling down?\", 2022), and, after Marvel removed the money problem, \"I wonder if anybody remembers me\" (2026). He copes through preparation (\"the most prepared person\", 2022; \"pathological fear of being late\", 2013) and through people and therapy. The Margin Call reversal is conceded to Four, but the worry outlived both the money years and the Marvel security. The mask/safety-net material is treated as shared ground, not as the discriminator. Type 3 was tested: self-worth from acting, 'safe and relevant', 'I was the person they remembered' and the revenge-fame fantasy invite it, but he lists judging yourself by others' praise among acting's 'terrible, terrible things', distrusts adulation, took less money after Margin Call and tells low points against himself. Type 5 (he copes alone better than expected but expects to fall apart without people) and Type 7 (he turns toward pain and death) were also tested.",
+    "unexplained": "He deliberately reopens grief for work and keeps playing men who hide their true selves, which the Six reading explains only as craft. He is candid in interviews and posted political opinions on Twitter until he took US citizenship partly to stop being 'shouted down', which sits oddly with caution and with not wanting to be known 'definitively'. The revenge fantasy that, by his 2012-2013 accounts, fuelled his wish to act fits Six only as counterphobic defiance, which is thin. His 2016 public praise of Depp and his later accounts of years without contact are not reconciled in the record. The Telegraph writer, not independent research, first proposed the security/foundations frame for his marriage. Wing is not established; sociability suggests 6w7 but this is optional and unproven."
+  }
+}

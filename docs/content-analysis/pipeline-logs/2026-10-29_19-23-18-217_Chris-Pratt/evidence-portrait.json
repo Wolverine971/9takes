@@ -1,0 +1,2193 @@
+{
+  "schema_version": 3,
+  "subject": "Chris-Pratt",
+  "status": "ready",
+  "research_tasks": [
+    "Human listen to Not Dead Yet at about 48:10-48:30 to settle 'a certain irreverence' (large-v3-turbo, medium.en) vs 'a certain a reverence' (small.en) before the lighter-roles half of the answer is quoted or paraphrased (claim c-comedy-turn). All three models agree on 'Mercy I did recently' and 'more of a seriousness'.",
+    "Find a contemporaneous 2017 report or photo-agency record of Pratt at a Hillsong Los Angeles service before saying more than 'The Daily Beast reported' (claim c-hillsong-photo).",
+    "Check the SmartLess 2022 audio for the auditioning/door-to-door joke and the Happy Sad Confused 2026 audio for the underwear-photo anecdote; both rest on auto-captions and are paraphrased only (claims c-audition-salesman, c-photo-and-anger).",
+    "Sources disagree on how premature Jack was (seven weeks per the Christian Post, nine per Wikipedia). Say 'premature' without a number unless a primary settles it (claims c-nicu-vow, c-faq-faith).",
+    "Independent testimony is thin: Gunn and Trevorrow are friendly collaborators. If possible, open Rae Dawn Chong's or Mike Schur's own accounts of meeting and casting him.",
+    "Optional, only if the cut material returns: open the 2015 Entertainment Weekly original of the coach anecdote ('I know I'll be famous...'), relayed by Vanity Fair, and Anna Faris's May 3, 2021 Unqualified audio for 'we both protected that imagery'."
+  ],
+  "accuracy_checked_at": "2026-10-29",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "sources": [
+    {
+      "id": "src-vf-2017",
+      "url": "https://www.vanityfair.com/hollywood/2017/01/chris-pratt-cover-story",
+      "title": "Cover Story: Chris Pratt's Call to Stardom (Vanity Fair, February 2017 issue)",
+      "speaker": "Chris Pratt, interviewed at home by Rich Cohen",
+      "date": "2017-01-03",
+      "locator": "Sections 'Big Time, Small Town' (wrestling, coach anecdote, father's MS, brother and the army), 'Flair for the Dramatic' (coupon sales, Denver office, Maui, Henry), 'The Outsider' (Rae Dawn Chong, Moneyball, Zero Dark Thirty, Guardians audition). The vanityfair.com text and the archive.vanityfair.com copy both end at the paragraph about his guest spot on Mom; nothing after that point was read.",
+      "excerpt": "“I’d be devastated,” he said. “Because I put everything into it … “I was like, ‘I don’t know, but I know I’ll be famous and I know I’ll make a shit ton of money.’ ” … a salesman only has one product: himself. “I was great at that,” … I had everyone convinced I’d been off doing this great sales job and making money, and I wasn’t. I had no prospects, no job, was still sort of riding the glory of high school. … ‘I’m more in debt every month. I’m so depressed. I can’t do it.’ … My friends picked me up in a van. They had a cooler of beer. But I was not in a great place. … He said, ‘Jesus told me to talk to you . . .’ At that moment I was like, I think I have to go with this guy. … He says, “Fuck, yeah, I act. Put me in a movie.” … That was the first time I heard someone say, ‘We’re not gonna cast you—you’re too fat.’ So I decided to drop the weight, like in wrestling. … You walk into the room as the character. You let them think the person you are is close to the character they want. You make them think you already are that guy. … He ended up going into the army and told me not to. I think he saw something in me. I was a peculiar kid. … There’s going to be a point in life where you’re going to have to prove that your family is more important to you than show business. … he was a hard man to connect with. … sees it as divinely ordained … That's why I believe in God and the divine … I feel like it was perfectly planned. … That was the carrot Pratt was chasing. It took 15 months, but he finally got it. … One of my best friends heard I'd been floundering. … I was always giving away my shifts because I didn't have much overhead. … It was supposed to be a one-episode deal, a guest spot, but the character took off. Pratt gained weight while shooting the first season—partly because he thought it worked for the character, partly because he'd just been married … If left untreated, it can be devastating, and he left it untreated. … I was very much an individual and happy to be an individual. I dressed funny and was comfortable in my own skin. … I played the room.",
+      "context": "Long-form cover profile reported while Pratt cooked at his home during a self-declared work break after Guardians of the Galaxy, Jurassic World and Passengers. The high-school coach exchange is Vanity Fair relaying an Entertainment Weekly interview (the EW original refused automated access and was not opened). The Rae Dawn Chong dialogue is Cohen's reconstruction from Pratt's telling. 'A salesman only has one product: himself' is Cohen's paraphrase of Pratt; 'I was great at that' is Pratt's direct quote. The Jim Carrey line is Carrey's advice as Pratt relayed it. The dek ('he sees it as divinely ordained') is Vanity Fair's framing. 'He left it untreated' is Pratt's account of his father's multiple sclerosis, not independent medical record.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "src-gq-2015",
+      "url": "https://www.gq.com/story/chris-pratt-cover-story",
+      "title": "Chris Pratt Cover Story: From Dadbod Sidekick to Rock-Hard Hero (GQ, June 2015)",
+      "speaker": "Chris Pratt, interviewed by Chris Heath; James Gunn quoted",
+      "date": "2015-05-17",
+      "locator": "Body text from 'Pratt’s road here' onward: typecasting and fat-guy passage; wife and 'great pet fat guy' exchange; 'An aside about nudity' (childhood); Gunn on the first Guardians shoot; acting-technique and road-rage passage; 'guy holding the purse' passage. The story's opening section did not survive text extraction and was not read. Edit stage (2026-10-29) reopened a fuller copy of the same GQ page (the jury's curl copies) that includes the 'happy plump man' paragraph (Pratt: 'first guy in line to buy that line of bullshit', 'I also understood that there was value to it', the Chris Farley comparison and 'I think that's often the case with comedians'), the 'crybaby' childhood answer, the 'cerebral person' passage before Gunn's remarks, and the Delivery Man paragraph (295 pounds).",
+      "excerpt": "No one being like a super-confident dumb fat guy.’ So I started. … ’Oh great, I found my niche—this is paying better than the asshole-boyfriend parts.’ … I think I was outwardly having more fun. I was more fun to be around, probably. That image that I was casting, to convince people that I was okay, was a really fun person to hang around. Now I have less fun. I focus more. … Obnoxious. I was obnoxious, really hyperactive, disruptive...but also Dad was very, very strict, so if I got yelled at, I would stay silent for a long period of time. I was really sensitive. I cried a lot. … I liked making people feel uncomfortable. … he always has to juggle to entertain everybody. And the truth is, Chris didn’t trust himself to just be Chris Pratt—and how desirable that is to an audience. … My bullshit meter’s going off. This screams inauthentic to me. … I knew I was funnier than that stupid fucking director, and he didn’t know what the fuck he was talking about! … I was like the guy holding the purse at events and people just looked right through me. … I hope they fucking audition for Guardians of the Galaxy. … Chris is a man of insights, and he’s always having these big insights—he’s got a new idea every day about everything. … I'm sure I was the first guy in line to buy that line of bullshit … I also understood that there was value to it—my comedic nature understood the irony of a super-happy fat sweaty guy who is completely confident and accepting of who he was. That's fascinating to people. … Why is this guy not crippled with self-doubt? … I don't think Chris Farley did feel that way. … to hide the fact that he didn't feel what he was projecting on the outside. I think that's often the case with comedians. … the highlights of his days were the eating and drinking but that the rest wasn't so good, that he felt physically and mentally sluggish and \"didn't feel too great about who I was.\" … My bones ached, I had cardiovascular issues, I was unhealthy, I was feeling rotten. … I was really sensitive. I cried a lot. I was a crybaby for a long time. … I'm a much more cerebral person than you may expect. … really I'm thinking a lot, in my head below the surface. … Delivery Man, the 2013 Vince Vaughn movie in which Pratt bulked up to 295 pounds for a supporting role",
+      "context": "Jurassic World-era cover profile. The 'image that I was casting' line answers Heath's question about why Anna Faris may have preferred him heavier; Pratt was joking in part ('I was like a great pet fat guy'). Gunn's remarks describe the first half of the Guardians of the Galaxy shoot, when Pratt overthought his choices. The 'stupid director' line is about early films where his ad-libs were cut and then used. The 'image that I was casting' answer comes directly after Pratt describes the heavy years as physically and emotionally bad ('feeling rotten', 'didn't feel too great about who I was') and compares his cheerful persona to Chris Farley's; it concerns his own offscreen self and interview persona, not the Andy Dwyer character. The 'cerebral person' line is framed by Pratt as what Gunn would say ('I wouldn't want to be quoted [sounding like I was] saying this about myself').",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "src-mh-2022",
+      "url": "https://www.menshealth.com/entertainment/a40289867/chris-pratt-interview-new-movies-series/",
+      "title": "How Chris Pratt Became the People's Chris (Men's Health, July-August 2022 cover story)",
+      "speaker": "Chris Pratt, interviewed by Mickey Rapkin; James Gunn, Colin Trevorrow and Antoine Fuqua quoted",
+      "date": "2022-06-28",
+      "locator": "Opening Murph workout scene; section 'THERE IS A meta-narrative' (Worst Chris meme, 2018 MTV speech, Hillsong and Zoe Church, the healthy-daughter Instagram backlash); section 'PRATT DID NOT have this kind of relationship with his own dad' (father, humor as defense, Mouse Rat list, father's MS); 'THIS SUMMER' section (The Terminal List, Fuqua); closing sandwich-shop exchange.",
+      "excerpt": "“Why are they coming after me?” … “God is real. God loves you. God wants the best for you.” … “Maybe it was hubris. … I didn’t know that I would kind of become the face of religion when really I’m not a religious person. … Nothing could be further from the truth. I am a man who believes that everyone is entitled to love who they want free from the judgment of their fellow man. … I never went to Hillsong. I’ve never actually been to Hillsong. I don’t know anyone from that church. … “I’m gonna, like, throw a church under the bus?” … He executive- produced a 2017 film that equated “sexual brokenness” with “same-sex attraction.” … It really fucking bothered me, dude. I cried about it. … I am a sensitive person. My dad knew that when I was a youngster, and it kind of made him dislike me. … And so he wanted to put calluses on me. Early on, I developed humor as a self-defense mechanism—I developed Andy, really. … It was absolutely a tactic to lower people’s expectations of me. … But the actor later revealed he’d actually written the list far in advance. … He decided not to take any medicine to prevent it. … Chris is unspeakably kind to people; he goes out of his way to help kids. … [Chris] never pretends to know something he doesn’t know. He’ll ask. … And part of me is struggling with who I am maybe not being who I was. … He also said, \"Don't be a turd.\" But people mostly just remember the God part. … Maybe it was hubris. For me to stand up on the stage and say the things that I said, I'm not sure I touched anybody … If it's like the Westboro Baptist Church, that's different. … Pratt also mentions that he doesn't go to Zoe exclusively. … there's a lot of stuff that people have literally just made up about him—about his politics … I pause here to remind Pratt that none of this noise has hurt his box-office prowess or his reputation in town … she gave me a beautiful, healthy daughter. … That's such a dig at his ex-wife. … My son's gonna read that one day. He's nine. … What happened to the it's-an-honor-just-to-be-nominated-let's-move-on fucking line that we talked about?",
+      "context": "Cover story reported in Atlanta during Guardians of the Galaxy Vol. 3 filming, timed to Jurassic World Dominion and The Terminal List. Rapkin says the conversation turned to the online backlash 'at his prompting'. The Elliot Page statement text is the 2019 statement as Men's Health quotes it (the original Instagram post was not opened). The Zoe Church film detail is Men's Health's reporting about pastor Chad Veach, not Pratt's statement. 'I cried about it' refers to coverage of an Instagram post about his wife that Pratt feared his son Jack, then nine, would read. The backlash conversation began 'at his prompting'. The tears were over articles reading his 'healthy daughter' Instagram post as a dig at Faris and their premature son, not over faith coverage. Gunn's 'about his politics' remark and the writer's box-office aside are offered as other causes of the online hostility. Attribution: the box-office line is the writer Mickey Rapkin's own aside to Pratt, and Gunn's 'literally just made up' remark was given to Rapkin. Neither appears in the Daily Beast's response (checked against the full Daily Beast text at verify and repair).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "src-independent-2014",
+      "url": "https://nzherald.co.nz/entertainment/chris-pratt-gets-in-shape-and-takes-over-the-galaxy/OCBW2TTH64HG4ZNUJLXWWGSHMY",
+      "title": "Chris Pratt gets in shape and takes over the galaxy (TimeOut / The Independent, syndicated by NZ Herald)",
+      "speaker": "Chris Pratt, interviewed by Kaleem Aftab",
+      "date": "2014-08-07",
+      "locator": "Full syndicated article: hot-yoga paragraph, comic-book bodies paragraph, Maui paragraph, closing paragraphs on the evolving dream.",
+      "excerpt": "I want to do the things that I suck at most and get better. … I need to look like a superhero. … \"It’s a pretty awesome place to be homeless,\" he says, remembering his days sleeping in a van or in a tent on the beach. \"We just drank and smoked weed and worked minimal hours, 15 to 20 hours per week, just enough to cover gas, food and fishing supplies. You know, it was a charming time.\" … Originally, the dream was to pay my bills doing nothing other than acting … but the dream is constantly evolving.",
+      "context": "Guardians of the Galaxy press junket interview in a London hotel. Read as the NZ Herald syndication credited to TimeOut / The Independent; The Independent original was not opened. The Maui quote is the source of the widely repeated \"pretty awesome place to be homeless\" line.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "src-smartless-2022",
+      "url": "https://www.youtube.com/watch?v=BRa2Vx-3A8Q",
+      "title": "Chris Pratt on Marvel role Star-Lord, Jurassic World, the curse of being hot and funny | SmartLess",
+      "speaker": "Chris Pratt with hosts Jason Bateman, Sean Hayes and Will Arnett",
+      "date": "2022-06-21",
+      "locator": "YouTube auto-captions (fetched with youtube_transcript_api, 2026-10-29). 0:26:30 to 0:33:00 sales job and Maui; 0:35:16 auditioning; 0:36:57 to 0:39:30 ambition and the farm lake; 0:43:51 to 0:46:40 Avatar/Star Trek auditions and the clown. Upload date shown; Pratt says he will take Jack fishing \"after the baby's born\", so it was recorded before Eloise's May 2022 birth.",
+      "excerpt": "it wasn't one of these things that i was really looking for it i it was i was just i was just having a good time with my friends and enjoying my life … for the longest time i was great at auditioning and i couldn't act my way out of a paper bag … i was like oh that wasn't an actor that was a door-to-door salesman … i don't want to spend all of my time trying to build like an empire or something … for me i really feel like i want to work to live … it dominates a huge portion of my mind … it was really demoralizing and made me actually truly question my potential … there's something a little bit maybe more compelling about a clown",
+      "context": "Comedy interview podcast. The captions have no speaker labels; Pratt is answering host questions in the quoted passages (the ambition question and the audition question are asked by hosts immediately before). Caption wording is approximate and keeps disfluencies; audio was not checked.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "src-club-random-2025",
+      "url": "https://www.youtube.com/watch?v=56M4_TvQkBA",
+      "title": "Chris Pratt | Club Random with Bill Maher",
+      "speaker": "Chris Pratt in conversation with Bill Maher",
+      "date": "2025-08-18",
+      "locator": "YouTube auto-captions (fetched 2026-10-29). 0:24:20 to 0:25:00 faith label; 1:08:20 to 1:09:40 public image and Proverbs 26:20; 1:29:50 to 1:31:10 door-to-door sales.",
+      "excerpt": "I was salesman of the year. I won a free chip to Jamaica. I opened my own office in Colorado. Like I it was multi-level marketing. I was an idiot. I had zero critical thinking skills. … the biggest sale you do in that job is selling yourself that this is something that's going to help you. … I've seen how the person you are can be so so such a contrast to the people to to the person that people being are being told that you are … I'm not there to defend myself, nor am I going to jump in and and be mired in this story because there's this proverb, Proverb 26:20, for lack of wood the fire will go out. … I'm I'm I'm a follower of of uh you know, Jesus.",
+      "context": "Long, loose conversation over drinks (1h48m). Captions carry '>>' turn markers; the quoted sales passage answers Maher's 'a door-to-door salesman... What year is this?' and the image passage follows Maher's remarks on RFK Jr. 'chip to Jamaica' is a caption error for 'trip'. Audio was not checked.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "src-hsc-2026",
+      "url": "https://www.youtube.com/watch?v=SSjd73MXaqg",
+      "title": "Chris Pratt on MERCY, GUARDIANS OF THE GALAXY, Star-Lord's future, James Gunn, superhero auditions (Happy Sad Confused)",
+      "speaker": "Chris Pratt interviewed by Josh Horowitz",
+      "date": "2026-01-22",
+      "locator": "YouTube auto-captions (fetched 2026-10-29). 0:26:30 to 0:27:40 brother and the underwear photo; 0:28:00 to 0:28:40 James Gunn firing; 0:43:00 to 0:44:00 Bennett Miller note on Moneyball.",
+      "excerpt": "He's the one who actually convinced me to post that picture of myself in my underwear. … this is douchey, but my brother said I had to post this picture. … praying on it and strategizing … He just knew how to push my buttons to make my the character do something that I don't do authentically very well, which is anger.",
+      "context": "Mercy press-tour podcast interview. Pratt is the answering speaker in each quoted passage (Horowitz asks about Gunn and about the worst director note immediately before). Caption wording; audio not checked.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "src-literally-2026",
+      "url": "https://www.youtube.com/watch?v=hICQlA32BWM",
+      "title": "Chris Pratt (FULL EPISODE) | Literally! with Rob Lowe (audio feed title: Chris Pratt: Have Mercy!)",
+      "speaker": "Chris Pratt in conversation with Rob Lowe",
+      "date": "2026-02-05",
+      "locator": "YouTube auto-captions (fetched 2026-10-29). 0:34:00 to 0:35:10 talk-show passage; 0:38:00 to 0:40:00 brother passage. Recorded before Mercy's January 23, 2026 release (Lowe: 'the movie is out on the 23rd'). The audio feed version is 48:01 with ads, so its timestamps run later.",
+      "excerpt": "I used to dream about it, man. I would be like, \"Wow, if I could go on Jay Leno, what would that be like? What would I say? Would I be funny? Would people like me?\" I cared so deeply about being I would rehearse it over and over in my head. … everything my brother did I wanted to do. He I wrestled cuz he wrestled, you know. I got into acting cuz he was an actor. … And so I always wanted to be exactly like him.",
+      "context": "Friendly podcast between Parks and Recreation co-stars. Captions have no reliable speaker labels. The talk-show passage is attributed to Pratt from turn structure: immediately before it he role-plays a Kimmel segment producer addressing 'Rob', and the next '>>' turn begins Lowe's own Letterman story; Leno's Tonight Show years also fit Pratt's pre-fame period, not Lowe's. Audio check (2026-10-29): the audio-feed episode (48:01) was re-transcribed with Whisper small.en from 29:00 to 42:30; the passage sits at about 38:33 to 38:46 and runs continuously from the 'Hey, uh, Rob' role-play with no interjection. Whisper agrees with the captions on 'Would I be funny? Would people like me?' and 'I would rehearse it over and over in my head', but hears 'I cared so deeply about me' where captions read 'I cared so deeply about being', so only the shared words should be quoted. Whisper does not label speakers. A nearby passage ('you should always pay attention to what people say about you' / 'being nice is a value and an asset') could not be attributed and is not used. Repair stage (2026-10-29): no longer cited in the reader view; kept in the record for a future refresh.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "src-christian-post-2025",
+      "url": "https://www.christianpost.com/news/chris-pratt-reveals-moment-he-surrendered-his-platform-to-god.html",
+      "title": "Chris Pratt reveals pivotal moment he surrendered his platform to God: 'I don't care if it costs me' (exclusive)",
+      "speaker": "Chris Pratt, interviewed by Leah MarieAnn Klett (The Christian Post)",
+      "date": "2025-03-06",
+      "locator": "Full article: opening quotes; altar and promises passage; 2012 NICU passage; criticism and Proverbs 26:20 passage.",
+      "excerpt": "I care enough about Jesus to take a stand, even if it cost me. It could cost me everything, but I don't care. … I'd make promises, but I didn't keep them. … And then months later, maybe a year later, two years later, I'm off doing the same stuff that got me down the wrong path in the first place. … arrived seven weeks premature and weighed only 3 pounds, 10 ounces at birth … My heart softened, and my faith hardened, That was the moment that I was like, ‘Moving forward, I'm going to give my platform to God.’ … This platform was given to me for a reason … I'm going to pray for them, and then I’m going to go back and hang out with my kids and play tag.",
+      "context": "Interview with a Christian outlet tied to Pratt's Lent partnership with the Catholic prayer app Hallow (Pray40). The prematurity figure is the reporter's narration; other reports (e.g. Wikipedia) say nine weeks and 3 lb 12 oz.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "src-gma-faris-2021",
+      "url": "https://www.goodmorningamerica.com/culture/story/anna-faris-reflects-divorce-chris-pratt-77483269",
+      "title": "Anna Faris reflects on her divorce from Chris Pratt (Good Morning America)",
+      "speaker": "Anna Faris on her podcast Anna Faris Is Unqualified, reported by Danielle Long",
+      "date": "2021-05-04",
+      "locator": "Full article; quotes are from the podcast episode released Monday, May 3, 2021.",
+      "excerpt": "I think it stunted me in a lot of ways,\" Faris said. \"One of them being that I never talked about any issues … But with Chris, I think that we both protected that imagery even within our close circles. … In hindsight, it felt like my hand was forced. I don’t think it was ever an independent decision.",
+      "context": "Faris was explaining her own lifelong habit of not discussing relationship problems, in conversation with guest Rachel Bilson. She says 'we both' and does not assign the choice to Pratt. Read as GMA's report; the podcast audio was not opened.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "src-fox-2026",
+      "url": "https://www.foxnews.com/entertainment/chris-pratt-says-his-faith-the-most-important-thing-he-passes-his-kids",
+      "title": "Chris Pratt says his faith will be 'the most important thing' that he passes on to his kids (Fox News Digital)",
+      "speaker": "Chris Pratt, interviewed by Fox News Digital (Janelle Ash, Larry Fink), with Constance Wu",
+      "date": "2026-10-22",
+      "locator": "Full article: Pratt quotes in paragraphs 3 to 6; family timeline paragraphs; Terminal List season 2 premiere date.",
+      "excerpt": "My faith is how I start my day, it's how I end my day. It's the most important thing that I'll be able to pass on to my kids … I basically want to get right everything my dad got right and get right everything my dad got wrong. And I'm sure I'll screw up both, you know? … The new season of \"The Terminal List\" premiered on Oct. 21, 2026 on Prime Video. … daughters Lyla Maria, born in August 2020, and Eloise Christina, born in May 2022, along with their son, Ford Fitzgerald, born in November 2024. … Jack was born in August 2012.",
+      "context": "Short press-junket interview for The Terminal List season 2. Family dates are Fox News narration, consistent with Wikipedia. It is the source for the month of Jack's birth (August 2012), which the Christian Post and Wikipedia extracts do not give.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "src-variety-2026",
+      "url": "https://variety.com/2026/film/news/chris-pratt-star-lord-mcu-1236919455/",
+      "title": "Chris Pratt Confirms Star-Lord Will Return to the MCU, Says 'Hard Action' Has Been Taken to Make It Happen (Variety)",
+      "speaker": "Payton Turkeltaub (Variety), quoting Pratt on The Playlist's Bingeworthy podcast",
+      "date": "2026-10-21",
+      "locator": "Full article.",
+      "excerpt": "So yeah, you’ll see Star-Lord again, which is very exciting, but I’m not at liberty to say when that’s going to be, but he’s not going anywhere. … The next installment in the MCU, “Avengers: Doomsday,” hits theaters on Dec. 18.",
+      "context": "News item relaying a podcast interview; the podcast itself was not opened. Pratt does not say Star-Lord appears in Avengers: Doomsday. Repair stage (2026-10-29): no longer cited in the reader view; kept in the record for a future refresh.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "src-daily-beast-2022",
+      "url": "https://www.thedailybeast.com/why-is-chris-pratt-lying-about-his-religious-past",
+      "title": "Why Is Chris Pratt Lying About His Religious Past? (The Daily Beast)",
+      "speaker": "Kyndall Cunningham (The Daily Beast)",
+      "date": "2022-06-30",
+      "locator": "Full article read via a Wayback raw copy (https://web.archive.org/web/20221201175214id_/https://www.thedailybeast.com/why-is-chris-pratt-lying-about-his-religious-past), opened at verify and reopened at repair on 2026-10-29; the live page shows only the opening above a registration wall. Byline Kyndall Cunningham, published June 30, 2022. Used: the headline; the opening 'walked back claims' paragraph; the paragraph calling his 'not a religious person' line 'absolute bullshit'; the Hillsong paragraph (2017 photo report; Veach told The New York Times he modeled Zoe on Hillsong).",
+      "excerpt": "Chris Pratt walked back claims that he’s a “religious person” in a new cover story for Men’s Health after years of telling the public otherwise. … However, the movie star’s claim that he’s not a “religious person”—or the lack of acknowledgement that he ever was one—is absolute bullshit, given his long public record of Jesus-dedicated soundbites and social media posts. … But he had also been previously photographed attending a service at Hillsong’s L.A. branch back in 2017. … Veach, who is not only Pratt’s pastor but his golfing buddy, is listed as a Hillsong contributor on their website and told The New York Times that he modeled Zoe Church on Hillsong.",
+      "context": "Critical commentary on the 2022 Men's Health interview, representing the skeptical reading that his religion remarks were a rebrand. It argues his public record of faith makes the 'not a religious person' line false. It does not contain James Gunn's 'literally just made up' remark or the 'none of this noise' box-office aside; both are in the Men's Health profile (Gunn to Mickey Rapkin, and Rapkin's own aside). Its 2017 Hillsong photo claim names no photographer, agency or event date, so the article reports it only as the Daily Beast's claim.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "src-not-dead-yet-2026",
+      "url": "https://www.spreaker.com/episode/chris-pratt--71008192",
+      "title": "Chris Pratt - Not Dead Yet (Ricochet), episode page on Spreaker (audio: episode 71008192)",
+      "speaker": "Chris Pratt in conversation with hosts Ben Sasse and Chris Stirewalt",
+      "date": "2026-03-31",
+      "locator": "Audio-only episode (78 min), RSS pubDate 2026-03-31 (some news reports date it April 9). Transcribed locally with Whisper small.en on 2026-10-29, then re-transcribed with large-v3-turbo on the quoted segments (05:00-05:15, 09:45-10:10, 10:45-11:45, 14:20-14:55, 39:35-40:05, 43:15-43:35, 45:15-46:40); both models agree on every quoted phrase. No speaker labels. Timestamps: 05:04 father's MS; 07:21 'PMA equals OPM'; 09:57 people pleaser; 10:54 to 11:35 failure and depression; 14:28 to 14:48 money motivation and yearbook; 39:42 to 39:57 idols; 43:23 'hole inside of my heart'; 45:24 to 46:30 manager and career priorities; 48:26 return to comedy; 56:38 fatherhood. Draft stage (2026-10-29) re-transcribed 07:05-07:45, 08:08-08:28 and 48:20-48:45 with large-v3-turbo; both models agree on the quoted 'PMA equals OPM...', 'regardless of the product you're selling...' and 'trying to do more comedy, trying to bring fun and lightheartedness back' phrases. The Chong 'sales skills' remark (about 11:45) is single-model and paraphrased only. Edit stage (2026-10-29) re-transcribed four more segments with large-v3-turbo and compared them with small.en: 07:15-08:05 (resilience, 'I sold 500', 'So I loved it'), 11:30-12:00 (friend: 'dude, you don't look good. You seem off', 'partying a lot', 'slipping down the wrong path'), 34:38-36:16 (marketplace / 'completely deferential' / 'so I stood for something' / 'I didn't backtrack' / politics), 47:50-48:50 (close to home, meeting with manager and agent, comedy plan). Both models agree on every quoted phrase. They disagree at about 48:15 ('a certain a reverence' vs 'a certain irreverence') and on 'going to'/'gonna' before 'steer', so neither is quoted. The episode page URL replaces the expiring mp3 download endpoint; the audio is the same episode. Repair stage (2026-10-29) compared all three machine transcripts of the comedy-plan answer (research small.en 48:08-48:23; edit large-v3-turbo segment 47:50-48:50; verify medium.en segment 47:40-49:00). All three have him say he had been playing 'this Terminal List character James Reese' and then 'doing some other things, Mercy I did recently' (small.en 48:12-48:15), and all three have 'more of a seriousness' in some roles. They split on the other half: 'a certain irreverence' (large-v3-turbo, medium.en) versus 'a certain a reverence' (small.en); the article paraphrases only the agreed half. The Chong remark sits at about 12:05 (small.en 12:04-12:11: 'I kind of kicked in my door to door sales skills right there'); verify's medium.en hears the same words, so it is two-model confirmed and paraphrased.",
+      "excerpt": "my father was diagnosed with MS in my sophomore year in high school … And I was like the rookie salesman of the year and got a free trip to Jamaica. … And I was too much of a people pleaser to be a good manager. … it was definitely a failure. … I was that sort of towny guy that like used to be cool and was going to parties. And I just felt like super depressed, you know? … I've been money motivated my whole life because we never had anything … I was the king of my school and I don't have a yearbook because it was $35 and I just wouldn't ask them for that much money. … I work in a business where we create idols and we worship them and no one is worthy of worship. And so not only do we create idols to worship, we create idols to burn. … it doesn't fill the hole inside of my heart that is in a very specific shape that God is the only thing that can fill it. … she's had me say no to things that early in my career, I would have never said no to because they were huge checks. … she's calculated and critical in a way that I'm not. … our priority here is our careers. … I still have a priority of my career being very high, … trying to bring fun and lightheartedness back … I want to get the things right that my dad got right. I want to get the things right that my dad got wrong. … it either instilled in me or potentially revealed a resilience that I had … I sold 500 … So I loved it. … dude, you don't look good. You seem off. And I was off and I was partying a lot … slipping down the wrong path … You're always kind of selling yourself. I always sort of understood how I was seen in the marketplace. … And I didn't have any haters. … yeah, but I don't stand for anything. … I'm completely deferential to whatever the world wants. I'll give you literally anything. Just keep me employed as an actor. … so I stood for something. … I didn't backtrack. … I'm not going to apologize for that. … I don't feel strongly enough about politics to take a stand right now … can I be close to home? … I had a meeting with my manager and agent recently … more of a seriousness … trying to do more comedy, trying to bring fun and lightheartedness back … that's something I have. I mean, I do the animated movies, which are fun … I've been playing this Terminal List character James Reese and then I've been doing some other things, Mercy I did recently … more of a seriousness in some of the roles … I kind of kicked in my door to door sales skills right there",
+      "context": "Long-form, faith-forward conversation; co-host Ben Sasse has terminal cancer, and Pratt ends by interviewing him. Pratt is the speaker in every quoted passage, identified by first-person biography (Virginia, Minnesota; the Denver office; his father's MS; 'married to... Anna, to Jack's mom'; his manager). A later Sasse remark about his own salesman father is not Pratt's. Two machine transcriptions, not a human listen; the models differ only on filler and spelling ('towny'/'townie'), which should not be quoted. The marketplace passage answers a host question about how he navigated the reaction to his 2018 MTV speech (he notes his first date with Katherine was the next day), so 'up until that point' refers to the years before that speech. In the comedy-plan answer he names his recent roles' seriousness, comedy as 'something I have' and working close to home; he names Mercy as a recent role ('Mercy I did recently') without discussing its reception, and he says he means live-action roles because he already does animated films.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "src-wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chris_Pratt",
+      "title": "Chris Pratt (Wikipedia)",
+      "speaker": "Wikipedia contributors",
+      "date": "accessed 2026-10-29",
+      "locator": "Lead; 'Early life and education' paragraphs 1 to 3; 2026 career paragraph; 'Personal life' paragraphs on Faris, Schwarzenegger and faith (fetched via the MediaWiki extracts API). Edit stage (2026-10-29) also read the 2009-2013 career paragraphs (Parks role, Moneyball, 10 Years, Zero Dark Thirty) and the politics paragraph. Repair stage (2026-10-29) reread the career wording in the verify-stage MediaWiki extract: Everwood is his 'first regular television role'; Andy Dwyer is his 'breakthrough role'.",
+      "excerpt": "Christopher Michael Pratt was born in the city of Virginia, Minnesota, on June 21, 1979. … When Pratt was six or seven years old, the family eventually settled in the Seattle suburb of Lake Stevens, Washington. … In 2026, Pratt starred as a detective in the science fiction thriller film Mercy, which was a critical and commercial failure. He reprised the voice of Mario in The Super Mario Galaxy Movie. … Pratt and Faris announced their separation in August 2017. He filed for divorce on December 1, 2017, citing irreconcilable differences and requesting joint custody of their son. The divorce was finalized on October 31, 2018. … the couple married on June 8, 2019, in Montecito, California. … The role was initially intended as temporary, but Pratt's performance impressed the producers so much that they made him a series regular. … He regained the weight he had previously lost for his role in the high school reunion comedy 10 Years (2011), then shed it once more to portray a Navy SEAL in Zero Dark Thirty (2012). … He has also voiced roles in The Lego Movie franchise (2014–2019), Onward (2020), The Super Mario Bros. Movie (2023) and its sequel The Super Mario Galaxy Movie (2026), and The Garfield Movie (2024). … In 2017, Pratt stated that he does not align himself with either side of the political spectrum … Pratt's first regular television role was as Harold Brighton \"Bright\" Abbott in the series Everwood (2002–2006). … He had his breakthrough role as Andy Dwyer in the NBC sitcom Parks and Recreation (2009–2015).",
+      "context": "Tertiary reference used only for stable biographical and filmography facts; it notes Jack was born nine weeks premature (the Christian Post says seven).",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "src-rt-mercy-2026",
+      "url": "https://www.rottentomatoes.com/m/mercy_2026",
+      "title": "Mercy (2026) | Rotten Tomatoes",
+      "speaker": "Rotten Tomatoes (critic aggregate)",
+      "date": "accessed 2026-10-29",
+      "locator": "Tomatometer block (page data criticsScore) and Critics Consensus",
+      "excerpt": "Tomatometer \"scorePercent\":\"24%\" … \"reviewCount\":185 … \"sentiment\":\"NEGATIVE\" … Critics Consensus: Constricting its two stars inside an airless presentation of a clunky techno-thriller premise, Mercy is tedious enough to make you cry uncle.",
+      "context": "Review aggregator page for Mercy (US release January 23, 2026). Used only for the critical-reception figure; the count may drift slightly as reviews are added. Repair stage (2026-10-29): no longer cited in the reader view; kept in the record for a future refresh.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "src-numbers-mercy-2026",
+      "url": "https://www.the-numbers.com/movie/Mercy-%282026%29",
+      "title": "Mercy (2026) - Box Office and Financial Information (The Numbers)",
+      "speaker": "The Numbers (Nash Information Services)",
+      "date": "accessed 2026-10-29",
+      "locator": "Box office summary and Production Budget line",
+      "excerpt": "Domestic Box Office $24,390,303 … International Box Office $29,300,000 … Worldwide Box Office $53,690,303 … Production Budget: $60,000,000 (worldwide box office is 0.9 times production budget)",
+      "context": "Box-office tracking page, independent of Wikipedia (which reports $54.7 million against a $60 million budget). Used only for the commercial-performance figure. Repair stage (2026-10-29): no longer cited in the reader view; kept in the record for a future refresh.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "src-portrait-wikimedia",
+      "url": "https://commons.wikimedia.org/wiki/File:Chris_Pratt_(28630392396).jpg",
+      "title": "Chris Pratt (28630392396), Wikimedia Commons file record",
+      "speaker": "Gage Skidmore / Wikimedia Commons",
+      "date": "2016-07-23",
+      "locator": "Commons MediaWiki imageinfo extmetadata, fetched 2026-10-29; local portrait-sources/2026-10-29-chris-pratt.json transformation record",
+      "excerpt": "Artist: Gage Skidmore; LicenseShortName: CC BY-SA 2.0; AttributionRequired: true.",
+      "context": "Photo credit only. Commons identifies the original photographer and license. The local portrait manifest and visual inspection confirm the listed adaptations; no biographical or typing claim added.",
+      "kind": "primary",
+      "access": "opened"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c-meta-description",
+      "claim": "Metadata description summarizing Pratt's 2015 GQ answer: the happy fat guy of his Parks years was an image cast to convince people he was okay.",
+      "passage": "Chris Pratt says the happy fat guy of his Parks and Rec years was an image he cast to convince people he was okay.",
+      "class": "self_report",
+      "source_ids": [
+        "src-gq-2015"
+      ],
+      "inference": "Accurate paraphrase of the GQ answer about his own offscreen persona in the heavy years (not the Andy character).",
+      "alternative": "The line was partly joking and sat inside an answer about feeling unhealthy; the body quotes the surrounding context.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-gq-question-context",
+      "claim": "Asked by GQ whether he discussed his weight with Anna Faris, Pratt said she was \"so okay with it\" and \"Probably in many ways preferred me that way.\"",
+      "passage": "He said his wife at the time, Anna Faris, had been \"so okay with it\" and had probably preferred him heavier.",
+      "class": "self_report",
+      "source_ids": [
+        "src-gq-2015"
+      ],
+      "inference": "Sets up the question his \"image\" answer responds to.",
+      "alternative": "It is his guess about her preference, not her statement.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-feeling-rotten",
+      "claim": "In 2015 Pratt told GQ that in his heavy years 'My bones ached, I had cardiovascular issues, I was unhealthy, I was feeling rotten.'",
+      "passage": "My bones ached, I had cardiovascular issues, I was unhealthy, I was feeling rotten.",
+      "class": "self_report",
+      "source_ids": [
+        "src-gq-2015"
+      ],
+      "inference": "Restores the health context of the hook answer: the heavy years felt bad underneath.",
+      "alternative": "Health alone can explain the later change in his habits without any image motive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-fun-as-image",
+      "claim": "Asked why Anna Faris may have preferred him heavier, Pratt said: 'I think I was outwardly having more fun... That image that I was casting, to convince people that I was okay, was a really fun person to hang around. Now I have less fun. I focus more.'",
+      "passage": "That image that I was casting, to convince people that I was okay, was a really fun person to hang around. Now I have less fun. I focus more.",
+      "class": "self_report",
+      "source_ids": [
+        "src-gq-2015"
+      ],
+      "inference": "In context (GQ 2015) the 'image' is his own offscreen and interview persona during the heavy Parks years, not Andy's happiness. The answer follows his account of feeling 'rotten' and 'didn't feel too great about who I was', his Farley comparison and 'I also understood that there was value to it'. Read with those lines, the front covered a self-worth problem and had market value, which supports 3 only in combination with c-value. 'Now I have less fun. I focus more' belongs to this health and self-regard answer, not to the Moneyball story (VF 2017). Limit: one answer, partly joking.",
+      "alternative": "Pratt himself frames the persona as a mask over feelings that did not match it ('I think that's often the case with comedians'), which is the 7 pain-masking reading in his own words; health, not image, also explains 'less fun'.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-pet-fat-guy",
+      "claim": "GQ records that Pratt laughed and said \"I was like a great pet fat guy\" right after the image answer.",
+      "passage": "Then he laughed: \"I was like a great pet fat guy.\"",
+      "class": "self_report",
+      "source_ids": [
+        "src-gq-2015"
+      ],
+      "inference": "Shows the answer was delivered partly as a joke.",
+      "alternative": "The joke may mean the whole answer should be weighted lightly.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-not-feel-great",
+      "claim": "GQ reports Pratt saying that during the heavy years he 'didn't feel too great about who I was.'",
+      "passage": "an image cast over a man who \"didn't feel too great about who I was.\"",
+      "class": "self_report",
+      "source_ids": [
+        "src-gq-2015"
+      ],
+      "inference": "What sat under the cheerful front, in his account, was a self-regard problem. That is closer to a 3's worth/shame theme than to 7 fear or deprivation.",
+      "alternative": "Low self-regard during weight gain and heavy drinking is ordinary and not type-specific; GQ paraphrases most of the sentence and quotes only this phrase.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-first-in-line",
+      "claim": "Pratt told GQ: 'I'm sure I was the first guy in line to buy that line of bullshit,' about the happy-plump-man persona of his comedy years.",
+      "passage": "I'm sure I was the first guy in line to buy that line of bullshit",
+      "class": "self_report",
+      "source_ids": [
+        "src-gq-2015"
+      ],
+      "inference": "He partly believed his own cheerful front; the image was not purely strategic.",
+      "alternative": "Self-deception about a mask fits the 7 reading as well as the 3 reading.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-farley",
+      "claim": "Pratt compared his persona to Chris Farley's, who in his view 'didn't feel what he was projecting on the outside'.",
+      "passage": "compared himself to Chris Farley, who in his view \"didn't feel what he was projecting on the outside.\"",
+      "class": "self_report",
+      "source_ids": [
+        "src-gq-2015"
+      ],
+      "inference": "He frames the cheerful front as covering feelings that did not match it.",
+      "alternative": "This is the strongest first-person support for the 7 pain-masking reading.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-value",
+      "claim": "Pratt told GQ: 'I also understood that there was value to it' about the happy-fat-guy persona.",
+      "passage": "Then he added: \"I also understood that there was value to it.\"",
+      "class": "self_report",
+      "source_ids": [
+        "src-gq-2015"
+      ],
+      "inference": "In the same answer as the pain, he names the persona's market value: the front had a price he understood. This pairing of worth problem and market value is the 3 strand of the quote.",
+      "alternative": "Any working comic knows what gets laughs; 'value' may mean comic value rather than career value.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-front-interp",
+      "claim": "Interpretation: the GQ answer contains both a front over pain and a front with a price.",
+      "passage": "That answer holds both halves of the puzzle: a front over pain, and a front with a price.",
+      "class": "interpretation",
+      "source_ids": [
+        "src-gq-2015"
+      ],
+      "inference": "Names the ambiguity the article then tests: pain (7) versus price/worth (3).",
+      "alternative": "The answer may be a single self-deprecating riff not meant to carry a motive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-pma-hook",
+      "claim": "Pratt sold coupons door to door from about 18 and says the company had a morning chant, \"PMA equals OPM\".",
+      "passage": "as a teenage coupon salesman whose company started each morning with a chant: PMA equals OPM",
+      "class": "self_report",
+      "source_ids": [
+        "src-not-dead-yet-2026",
+        "src-vf-2017"
+      ],
+      "inference": "Introduces the sales lesson the article tracks.",
+      "alternative": "He was 18 to 19 during the job (VF, SmartLess); 'teenage' is approximate at the end of it. His word for what was sold is 'attitude', not 'fun'.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-bio-birth",
+      "claim": "Christopher Michael Pratt was born June 21, 1979, in Virginia, Minnesota; after years in Alaska the family settled in Lake Stevens, Washington, when he was six or seven.",
+      "passage": "Christopher Michael Pratt was born on June 21, 1979, in Virginia, Minnesota, and grew up mostly in Lake Stevens, Washington",
+      "class": "observed",
+      "source_ids": [
+        "src-wikipedia",
+        "src-vf-2017"
+      ],
+      "inference": "Biographical metadata.",
+      "alternative": "None material.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-bio-career",
+      "claim": "Pratt's first regular TV role was on Everwood (2002 to 2006); his breakthrough role was Andy Dwyer on Parks and Recreation (2009 to 2015); he became a leading man as Star-Lord in Guardians of the Galaxy (2014) and Owen Grady in Jurassic World (2015).",
+      "passage": "He landed his first regular TV role on _Everwood_ in 2002, broke through as Andy from 2009 to 2015, and became a leading man as Star-Lord in _Guardians of the Galaxy_ (2014) and Owen Grady in _Jurassic World_ (2015).",
+      "class": "observed",
+      "source_ids": [
+        "src-wikipedia",
+        "src-vf-2017",
+        "src-mh-2022"
+      ],
+      "inference": "Biographical metadata. The wording follows Wikipedia: Everwood was his 'first regular television role' and Andy Dwyer his 'breakthrough role'.",
+      "alternative": "None material.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-type-read",
+      "claim": "The profile reads Pratt as Type 3 at medium confidence, with Type 7 as the strongest alternative.",
+      "passage": "Chris Pratt reads as Enneagram Type 3, the Achiever, at medium confidence.",
+      "class": "interpretation",
+      "source_ids": [
+        "src-gq-2015",
+        "src-vf-2017",
+        "src-not-dead-yet-2026",
+        "src-mh-2022"
+      ],
+      "inference": "Interpretation from repeated choices where image was protected over fun (see type_hypothesis).",
+      "alternative": "Type 7 (fun as a defense; the Maui year) is the strongest alternative and Type 9 (deference to trusted people) remains live; most evidence is self-report.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-type-answer-interp",
+      "claim": "Interpretation: in his own accounts his cheerful front has covered a sense of failure and tracked what the market rewarded.",
+      "passage": "his cheerful front has covered a sense of failure and tracked what the market rewarded",
+      "class": "interpretation",
+      "source_ids": [
+        "src-vf-2017",
+        "src-gq-2015",
+        "src-not-dead-yet-2026"
+      ],
+      "inference": "Summarizes c-hid-failure, c-not-feel-great, c-value, c-fat-niche-pay and c-marketplace.",
+      "alternative": "The same accounts include pain-masking (c-farley) and a year of fun over ambition (c-giving-shifts), which fit 7.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-what-sat-under",
+      "claim": "Interpretation: describing what sat under his cheerful front, Pratt names worth and value more often than pain.",
+      "passage": "Describing what sat under his, Pratt names worth and value more often than pain.",
+      "class": "interpretation",
+      "source_ids": [
+        "src-gq-2015",
+        "src-vf-2017",
+        "src-not-dead-yet-2026"
+      ],
+      "inference": "Motive-level 3 vs 7 discriminator, stated as a tendency, not a rule.",
+      "alternative": "He also names pain directly (Farley, 'feeling rotten', humor as self-defense).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-coupon-job",
+      "claim": "Pratt left community college, answered a newspaper ad and sold coupons door to door.",
+      "passage": "After high school he dropped out of community college, answered a newspaper ad and sold coupon books door to door.",
+      "class": "observed",
+      "source_ids": [
+        "src-vf-2017",
+        "src-not-dead-yet-2026"
+      ],
+      "inference": "Biographical fact consistent across VF 2017 and Not Dead Yet 2026.",
+      "alternative": "None material.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-selling-himself",
+      "claim": "Pratt told Vanity Fair's Rich Cohen that a salesman has only one product, himself (Cohen's indirect report of his words), and said 'I was great at that'.",
+      "passage": "A salesman, he told [Vanity Fair](https://www.vanityfair.com/hollywood/2017/01/chris-pratt-cover-story), has only one product, himself. \"I was great at that,\" he said.",
+      "class": "self_report",
+      "source_ids": [
+        "src-vf-2017"
+      ],
+      "inference": "Early competence at being bought on personal presentation.",
+      "alternative": "The 'one product' line is Cohen's indirect report ('said Pratt, who told me it didn't really matter what he was selling because a salesman only has one product: himself'), so the article renders it as indirect speech attributed to Vanity Fair. Pitch work also suits 7 energy.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-selling-attitude",
+      "claim": "In 2026 Pratt said the sales job taught him that \"regardless of the product you're selling, what you're selling is yourself and you're selling your attitude.\"",
+      "passage": "regardless of the product you're selling, what you're selling is yourself and you're selling your attitude",
+      "class": "self_report",
+      "source_ids": [
+        "src-not-dead-yet-2026"
+      ],
+      "inference": "His own statement of the lesson the article tracks: attitude as the product. Two transcription models (small.en and large-v3-turbo, 08:08-08:28) agree.",
+      "alternative": "A general sales lesson many people draw; says nothing by itself about motive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-pma-chant",
+      "claim": "Pratt says the company chanted 'PMA equals OPM' (positive mental attitude equals other people's money) each morning.",
+      "passage": "The company's morning chant, he said, was \"PMA equals OPM, which was positive mental attitude equals other people's money.\"",
+      "class": "self_report",
+      "source_ids": [
+        "src-not-dead-yet-2026"
+      ],
+      "inference": "Shows a positivity-as-revenue frame was drilled into him early. Verified with two transcription models (07:05-07:45).",
+      "alternative": "The frame was the company's, not necessarily his; he calls it terrible.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-resilience",
+      "claim": "Pratt called the chant 'terrible' but said it 'either instilled in me or potentially revealed a resilience that I had.'",
+      "passage": "He called it \"terrible,\" but said it \"either instilled in me or potentially revealed a resilience that I had.\"",
+      "class": "self_report",
+      "source_ids": [
+        "src-not-dead-yet-2026"
+      ],
+      "inference": "He credits the job with resilience, not only image-selling. Two models agree (07:15-08:05).",
+      "alternative": "Resilience under rejection is not type-specific.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-sold-500",
+      "claim": "Pratt says that in a high-school sales competition classmates sold 17 or 22 cards and he sold 500, and 'So I loved it.'",
+      "passage": "In a high-school sales contest, he recalled, classmates sold 17 or 22 cards and he sold 500. \"So I loved it.\"",
+      "class": "self_report",
+      "source_ids": [
+        "src-not-dead-yet-2026"
+      ],
+      "inference": "Competitive selling he enjoyed, before any acting: goal pursuit and outperforming, which counts against a 9 reading. Two models agree (07:15-08:05).",
+      "alternative": "A retold brag; the figures are his own and unverified.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-denver-office",
+      "claim": "Vanity Fair reports that Pratt chased the promotion to run his own office for 15 months and got it, outside Denver; he says he 'wasn't even 21.'",
+      "passage": "He chased the company's prize, an office of his own, for 15 months, and was running one outside Denver before he turned 21.",
+      "class": "self_report",
+      "source_ids": [
+        "src-vf-2017"
+      ],
+      "inference": "A self-initiated, sustained pursuit of the scheme's status prize.",
+      "alternative": "VF narration ('That was the carrot Pratt was chasing') plus his own age remark.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-people-pleaser-failure",
+      "claim": "Retelling the sales venture in 2026, Pratt said he was a great salesman but 'too much of a people pleaser to be a good manager', called it 'definitely a failure', and said that back home, as the former high-school star who 'used to be cool', he felt 'super depressed'.",
+      "passage": "\"I was too much of a people pleaser to be a good manager,\" he said in 2026.",
+      "class": "self_report",
+      "source_ids": [
+        "src-not-dead-yet-2026",
+        "src-vf-2017"
+      ],
+      "inference": "Consistent across nine years: success at being liked, failure at managing, and a collapse felt as a fall in status. It corroborates the depression in the 2017 account, though not the concealment.",
+      "alternative": "'People pleaser' is also the core self-description of a 2 or a 9. Depression after financial failure at 19 is not type-specific.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-debt-call",
+      "claim": "Pratt says he told his boss he was in debt and depressed and that his mother sent him a ticket home.",
+      "passage": "\"I'm more in debt every month. I'm so depressed. I can't do it.\" His mother sent him a ticket home.",
+      "class": "self_report",
+      "source_ids": [
+        "src-vf-2017",
+        "src-not-dead-yet-2026"
+      ],
+      "inference": "The collapse and its emotional cost, in his words.",
+      "alternative": "Single retelling of a phone call; Not Dead Yet 2026 corroborates the debt and the flight home.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-definitely-failure",
+      "claim": "In 2026 Pratt called the sales venture \"definitely a failure\".",
+      "passage": "He calls the venture \"definitely a failure.\"",
+      "class": "self_report",
+      "source_ids": [
+        "src-not-dead-yet-2026"
+      ],
+      "inference": "Consistent with the 2017 account.",
+      "alternative": "Only the shared words of two transcriptions are quoted.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-hid-failure",
+      "claim": "When the sales venture left him in debt and, by his account, depressed, Pratt says he 'had everyone convinced' he was off doing a great sales job and making money, until his mother sent him a ticket home.",
+      "passage": "I had everyone convinced I'd been off doing this great sales job and making money, and I wasn't. I had no prospects, no job, was still sort of riding the glory of high school.",
+      "class": "self_report",
+      "source_ids": [
+        "src-vf-2017"
+      ],
+      "inference": "Facing failure, he kept up a picture of success for people at home rather than report the collapse. Outside acting, this is the clearest instance of protecting how he was seen.",
+      "alternative": "Ordinary embarrassment in a 19-year-old, or 7-style avoidance of a painful truth. 'Everyone' is hyperbole, and it is a single self-report.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-hometown-star",
+      "claim": "In 2026 Pratt said he had been \"kind of like the star of my hometown\" and on returning \"just felt like super depressed.\"",
+      "passage": "he had been \"kind of like the star of my hometown,\" and now \"I just felt like super depressed.\"",
+      "class": "self_report",
+      "source_ids": [
+        "src-not-dead-yet-2026"
+      ],
+      "inference": "Corroborates the 2017 account of a fall in status felt as depression, nine years apart.",
+      "alternative": "Depression after financial failure at 19 is not type-specific.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-friend-off",
+      "claim": "In 2026 Pratt said he was partying a lot back home until a friend living in Hawaii saw him and said 'dude, you don't look good. You seem off', and that he was 'slipping down the wrong path'.",
+      "passage": "He was \"partying a lot,\" until a friend living in Hawaii saw him: \"dude, you don't look good. You seem off.\"",
+      "class": "self_report",
+      "source_ids": [
+        "src-not-dead-yet-2026"
+      ],
+      "inference": "His distress showed; what he hid (per VF 2017) was the result, not the state. Two models agree (11:30-12:00).",
+      "alternative": "Partying while depressed after a failure also fits the 7 reading (escape into stimulation).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-hid-failure-interp",
+      "claim": "Interpretation: what Pratt concealed was the outcome, not the pain.",
+      "passage": "Pratt talks freely about the depression; what he hid was the result, and he showed success in its place until a friend noticed he was floundering and bought him a ticket to Maui.",
+      "class": "interpretation",
+      "source_ids": [
+        "src-vf-2017",
+        "src-not-dead-yet-2026"
+      ],
+      "inference": "Labelled in prose as resting on his own retelling, with 'everyone' flagged as exaggeration. 'Noticed he was floundering' follows VF ('One of my best friends heard I'd been floundering') and the 2026 account of the friend saying he looked off.",
+      "alternative": "Ordinary embarrassment, or 7-style avoidance of a painful truth.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-money-motivated",
+      "claim": "Pratt says he has been 'money motivated my whole life because we never had anything', and that although he was 'the king of my school' he has no yearbook because it cost $35 and he 'wouldn't ask them for that much money'.",
+      "passage": "I've been money motivated my whole life because we never had anything",
+      "class": "self_report",
+      "source_ids": [
+        "src-not-dead-yet-2026"
+      ],
+      "inference": "Status and scarcity side by side: the star of the school who would not show need. Being admired while hiding lack fits a 3 who earns worth and does not ask for it.",
+      "alternative": "Childhood poverty explains a money focus in any type, and not asking for things also fits 2 (no needs of one's own) or 9 (not wanting to burden).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-yearbook",
+      "claim": "Pratt says he was \"the king of my school\" but has no yearbook because he would not ask for $35.",
+      "passage": "I was the king of my school and I don't have a yearbook because it was $35 and I just wouldn't ask them for that much money.",
+      "class": "self_report",
+      "source_ids": [
+        "src-not-dead-yet-2026"
+      ],
+      "inference": "Status and hidden need side by side.",
+      "alternative": "Not asking also fits 2 or 9; childhood poverty explains it in any type.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-maui-life",
+      "claim": "In Maui Pratt lived in a van and a tent on the beach and waited tables at Bubba Gump Shrimp.",
+      "passage": "In Maui, Pratt lived in a van and a tent on the beach and waited tables at Bubba Gump Shrimp.",
+      "class": "self_report",
+      "source_ids": [
+        "src-independent-2014",
+        "src-vf-2017"
+      ],
+      "inference": "Biographical; consistent across 2014 and 2017.",
+      "alternative": "None material.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-maui-retold",
+      "claim": "Pratt has narrated his Maui year differently: 'a pretty awesome place to be homeless... a charming time' (2014), 'I was not in a great place' (2017), and in 2026 as the rescue from 'the wrong path'.",
+      "passage": "\"It's a pretty awesome place to be homeless,\" and called the drinking, weed and 15-to-20-hour work weeks \"a charming time.\"",
+      "class": "self_report",
+      "source_ids": [
+        "src-independent-2014"
+      ],
+      "inference": "Same months, different emphasis by outlet.",
+      "alternative": "Press-tour tailoring is professional habit, not type evidence; different interviewers asked different questions.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-maui-vf",
+      "claim": "In 2017 Pratt described arriving in Maui: \"I was not in a great place.\"",
+      "passage": "\"My friends picked me up in a van. They had a cooler of beer. But I was not in a great place.\"",
+      "class": "self_report",
+      "source_ids": [
+        "src-vf-2017"
+      ],
+      "inference": "The darker telling of the same months.",
+      "alternative": "Partying while lost is compatible with both tellings.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-maui-2026",
+      "claim": "In 2026 Pratt told the Maui trip as a rescue: his friend bought the ticket because he was 'slipping down the wrong path.'",
+      "passage": "In 2026 it was a rescue, the trip that took him off what he called \"the wrong path.\"",
+      "class": "self_report",
+      "source_ids": [
+        "src-not-dead-yet-2026"
+      ],
+      "inference": "Third telling, framed as rescue on a faith podcast. Two models agree (11:30-12:00).",
+      "alternative": "'The wrong path' refers to his hometown partying before Maui; the prose says the trip took him off it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-maui-interp",
+      "claim": "Interpretation: the Maui telling shifts with the setting.",
+      "passage": "The emphasis shifts with the room, but every actor on a press tour tunes the story to the outlet, so that proves little about type.",
+      "class": "interpretation",
+      "source_ids": [
+        "src-independent-2014",
+        "src-vf-2017"
+      ],
+      "inference": "Professional-incentive explanation stated; the tellings are no longer counted as type evidence.",
+      "alternative": "None; this is the limit.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-giving-shifts",
+      "claim": "Pratt says that in Maui he drank, smoked weed and worked 15 to 20 hours a week, and was 'always giving away my shifts because I didn't have much overhead.'",
+      "passage": "For about a year, with no camera and no image to keep up, he partied, worked as little as he could and was \"always giving away my shifts because I didn't have much overhead,\" he told Vanity Fair.",
+      "class": "self_report",
+      "source_ids": [
+        "src-vf-2017",
+        "src-independent-2014"
+      ],
+      "inference": "The longest off-camera stretch in the record, and by the article's own test fun beat getting ahead: the strongest evidence for 7.",
+      "alternative": "A stalled young man after a shaming collapse can drift in any type; the 3 reading accounts for it only as interpretation.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-maui-seven-interp",
+      "claim": "Interpretation: the Maui year is the strongest off-camera evidence for the Seven reading.",
+      "passage": "That is the strongest off-camera evidence for the Seven reading.",
+      "class": "interpretation",
+      "source_ids": [
+        "src-vf-2017",
+        "src-independent-2014"
+      ],
+      "inference": "Concedes the counterexample to the 3 reading.",
+      "alternative": "Drift after failure is not type-specific.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-conversion",
+      "claim": "Outside a Maui grocery store, a stranger named Henry told Pratt 'Jesus told me to talk to you' and took him to church.",
+      "passage": "a stranger named Henry \"came up and recognized something in me that needed to be saved,\"",
+      "class": "self_report",
+      "source_ids": [
+        "src-vf-2017",
+        "src-mh-2022"
+      ],
+      "inference": "A turning point initiated from outside: he followed someone who saw something in him. Its psychological meaning is interpretation; the event is his own account, repeated consistently since at least 2017.",
+      "alternative": "Best read as sincere religious experience rather than type evidence; it also fits a pattern in which other people make his pivotal moves (a 9 signature).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-gumper",
+      "claim": "Pratt says Bubba Gump named him \"Gumper of the year\".",
+      "passage": "where he was named \"Gumper of the year,\"",
+      "class": "self_report",
+      "source_ids": [
+        "src-vf-2017"
+      ],
+      "inference": "Excelled at entertaining tables, as at sales.",
+      "alternative": "None material.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-chong-discovery",
+      "claim": "Waiting tables at Bubba Gump Shrimp in Maui around 2000, Pratt served Rae Dawn Chong, told her he acted ('Put me in a movie'), and was cast in her never-released film Cursed Part 3, which brought him to Los Angeles.",
+      "passage": "Asked whether he acted, he said yes and, in Vanity Fair's reconstruction, added, \"Put me in a movie.\"",
+      "class": "self_report",
+      "source_ids": [
+        "src-vf-2017",
+        "src-independent-2014"
+      ],
+      "inference": "Salesmanship opened the first door: he claimed acting credentials on the spot.",
+      "alternative": "Chong's own account was not opened, and Vanity Fair's dialogue is a reconstruction. Charm and boldness also fit 7.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-chong-sales-2026",
+      "claim": "In 2026 Pratt said he 'kicked in my door to door sales skills' when he recognized Rae Dawn Chong at his table.",
+      "passage": "In 2026 he said his door-to-door sales skills had kicked in.",
+      "class": "self_report",
+      "source_ids": [
+        "src-not-dead-yet-2026"
+      ],
+      "inference": "Links the discovery to sales technique in his own framing.",
+      "alternative": "Two transcriptions agree at about 12:05 (research small.en 12:04-12:11, 'I kind of kicked in my door to door sales skills right there'; verify medium.en, same words). Paraphrased close to his wording; no human listen yet.",
+      "durability": "stable",
+      "review_trigger": "If a human listen at about 12:05 differs from 'kicked in my door to door sales skills', revise the paraphrase."
+    },
+    {
+      "id": "c-cursed",
+      "claim": "Chong cast him in Cursed Part 3, which was never released and brought him to Los Angeles.",
+      "passage": "Her never-released film _Cursed Part 3_ brought him to Los Angeles.",
+      "class": "observed",
+      "source_ids": [
+        "src-vf-2017",
+        "src-wikipedia"
+      ],
+      "inference": "Biographical.",
+      "alternative": "Chong's own account was not opened.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-father",
+      "claim": "Pratt describes his father, Dan, as old-school, a boxer and bouncer, who could be 'mean'.",
+      "passage": "\"He was from the old school. He was a boxer and a bouncer,\"",
+      "class": "self_report",
+      "source_ids": [
+        "src-mh-2022",
+        "src-vf-2017"
+      ],
+      "inference": "Background for the humor-as-defense account.",
+      "alternative": "Pratt's characterization of a deceased parent; no other family testimony.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-sensitive",
+      "claim": "Pratt says his father saw his sensitivity and \"kind of\" acted as if he disliked him.",
+      "passage": "I am a sensitive person. My dad knew that when I was a youngster, and it kind of made him dislike me.",
+      "class": "self_report",
+      "source_ids": [
+        "src-mh-2022"
+      ],
+      "inference": "Origin of the defense in his telling.",
+      "alternative": "He immediately softens it to \"act like he disliked me\".",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-humor-defense",
+      "claim": "Pratt says his father, a former boxer and bouncer, saw that he was sensitive and 'kind of' acted as if he disliked him, wanting 'to put calluses on me'; Pratt says he 'developed humor as a self-defense mechanism—I developed Andy, really'.",
+      "passage": "And so he wanted to put calluses on me. Early on, I developed humor as a self-defense mechanism—I developed Andy, really.",
+      "class": "self_report",
+      "source_ids": [
+        "src-mh-2022"
+      ],
+      "inference": "In his words the clown began as 'a self-defense mechanism' against a father who wanted to toughen him. The causal link is Pratt's interpretation, not an established fact.",
+      "alternative": "Defense against pain fits 7 at least as well as approval-seeking fits 3; a sensitive child deflecting with jokes is common to 2, 3, 7 and 9.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-gq-sensitive",
+      "claim": "In 2015 Pratt told GQ that his father was very strict, that he went silent when yelled at, and 'I was really sensitive. I cried a lot.'",
+      "passage": "He told GQ much the same in 2015 (\"I was really sensitive. I cried a lot.\"), so the account is consistent, but it is his alone.",
+      "class": "self_report",
+      "source_ids": [
+        "src-gq-2015",
+        "src-mh-2022"
+      ],
+      "inference": "The sensitive-child / strict-father account appears in 2015 and 2022, so it is consistent across seven years, but it remains his own account.",
+      "alternative": "A sensitive childhood fits several types.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-father-death",
+      "claim": "Pratt's father died in 2014; no other family member is on the record about the childhood account.",
+      "passage": "His father died in 2014, and no other family member is on the record.",
+      "class": "observed",
+      "source_ids": [
+        "src-vf-2017",
+        "src-mh-2022"
+      ],
+      "inference": "Limits the father/sensitivity account to Pratt's own telling.",
+      "alternative": "Men's Health and Vanity Fair both report the death; the treatment detail ('he left it untreated', VF) is no longer in the article.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-humor-interp",
+      "claim": "Interpretation of his account: humor began as armor against a father who found sensitivity dangerous; whether it served approval (3) or pain avoidance (7) is open.",
+      "passage": "Taken at his word, the clown began as armor against a man who found sensitivity dangerous.",
+      "class": "interpretation",
+      "source_ids": [
+        "src-mh-2022"
+      ],
+      "inference": "Keeps Pratt's 'self-defense' frame; the next sentence says the quote cannot settle 3 versus 7.",
+      "alternative": "Both readings claim the quote.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-brother-christmas",
+      "claim": "Pratt says he decided to perform after his brother's Christmas musical solo moved their mother to tears.",
+      "passage": "One Christmas, he was in a play, a musical, and sang, and it knocked everyone's socks off. My mom was crying. And I was like, 'That's what I want to do.'",
+      "class": "self_report",
+      "source_ids": [
+        "src-vf-2017"
+      ],
+      "inference": "What he wanted, in his telling, was the effect on the room.",
+      "alternative": "Typical younger-sibling emulation in any type.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-brother-interp",
+      "claim": "Interpretation of the Christmas anecdote.",
+      "passage": "What stands out is what the boy wanted, in the man's telling: the effect. A room knocked out, and his mother in tears.",
+      "class": "interpretation",
+      "source_ids": [
+        "src-vf-2017"
+      ],
+      "inference": "Prose notes little brothers copy big brothers in every type.",
+      "alternative": "Could equally be admiration of his brother.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-bad-boyfriend",
+      "claim": "Pratt says he was typecast as \"the bad boyfriend\" early on.",
+      "passage": "In Los Angeles, Pratt spent years being cast, he says, as \"the bad boyfriend.\"",
+      "class": "self_report",
+      "source_ids": [
+        "src-gq-2015"
+      ],
+      "inference": "Context for the Andy pivot.",
+      "alternative": "None material.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-guest-spot",
+      "claim": "Vanity Fair reports Andy 'was supposed to be a one-episode deal, a guest spot, but the character took off'; Wikipedia says the role was initially temporary until producers made him a regular.",
+      "passage": "Andy itself \"was supposed to be a one-episode deal, a guest spot, but the character took off,\" Vanity Fair reported.",
+      "class": "third_party",
+      "source_ids": [
+        "src-vf-2017",
+        "src-wikipedia"
+      ],
+      "inference": "Being liked turned a short job into his breakthrough.",
+      "alternative": "Common TV casting story.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-fat-niche",
+      "claim": "On Parks and Recreation, Pratt says he noticed he was gaining weight, decided 'a super-confident dumb fat guy' was funnier and 'paying better than the asshole-boyfriend parts', and told showrunner Mike Schur he would gain more.",
+      "passage": "No one being like a super-confident dumb fat guy.' So I started.",
+      "class": "self_report",
+      "source_ids": [
+        "src-gq-2015",
+        "src-smartless-2022"
+      ],
+      "inference": "He shaped his body to the persona the market rewarded and named the payoff in laughs and pay.",
+      "alternative": "Appetite and the pleasure of 'making myself laugh' come first in his own account; leaning into what gets laughs is standard comic craft.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-fat-niche-pay",
+      "claim": "Pratt says the fat-guy persona was his niche and was \"paying better\" than bad-boyfriend parts.",
+      "passage": "The laughs kept coming, and he thought, \"Oh great, I found my niche.\" It was, he added, \"paying better\" than the bad-boyfriend parts.",
+      "class": "self_report",
+      "source_ids": [
+        "src-gq-2015"
+      ],
+      "inference": "He names the payoff in laughs and pay.",
+      "alternative": "Leaning into what gets laughs is standard comic craft.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-appetite",
+      "claim": "GQ reports the highlights of Pratt's days in the heavy years were the eating and drinking; Vanity Fair adds that he gained weight partly because it suited the character and partly because he had just married.",
+      "passage": "GQ reported that the highlights of his days were the eating and drinking; Vanity Fair added that he had just married.",
+      "class": "third_party",
+      "source_ids": [
+        "src-gq-2015",
+        "src-vf-2017"
+      ],
+      "inference": "Non-commercial reasons sit beside the commercial ones; the appetite reads as 7.",
+      "alternative": "GQ also reports that 'the rest wasn't so good'.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-fascinating",
+      "claim": "Pratt told GQ his comedic nature understood the irony of 'a super-happy fat sweaty guy who is completely confident and accepting of who he was. That's fascinating to people.'",
+      "passage": "a super-happy fat sweaty guy who is completely confident and accepting of who he was. That's fascinating to people.",
+      "class": "self_report",
+      "source_ids": [
+        "src-gq-2015"
+      ],
+      "inference": "He understood the persona's audience value, the 3 strand.",
+      "alternative": "Comic craft knowledge, available to any type.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-reasons-interp",
+      "claim": "Interpretation: the appetite reads as Seven; his knowing what the persona was worth reads as Three.",
+      "passage": "The appetite reads as Seven. What reads as Three is that he knew what the happy fat guy was worth",
+      "class": "interpretation",
+      "source_ids": [
+        "src-gq-2015"
+      ],
+      "inference": "Splits the evidence explicitly instead of filing it all under 3.",
+      "alternative": "Both may be ordinary comic practice.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-expectations-tactic",
+      "claim": "Pratt says his dumb-guy act 'was absolutely a tactic to lower people's expectations of me'; Men's Health reports he wrote Andy's long, seemingly improvised list of band names in advance.",
+      "passage": "It was absolutely a tactic to lower people's expectations of me.",
+      "class": "self_report",
+      "source_ids": [
+        "src-mh-2022"
+      ],
+      "inference": "Deliberate management of how he is perceived, including making preparation look spontaneous.",
+      "alternative": "May refer to comic strategy more than personal life. The band-list detail is Men's Health's reporting ('the actor later revealed'), not a quote.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-body-overhaul",
+      "claim": "Told he was too fat for Moneyball (2011), Pratt dropped weight 'like in wrestling' through running, crash dieting and cutting alcohol; Zero Dark Thirty convinced him he could play action roles, and for Guardians he trained to 'look like a superhero'.",
+      "passage": "\"We're not gonna cast you—you're too fat.\" He told Vanity Fair: \"So I decided to drop the weight, like in wrestling.\" With no money for a trainer, that meant running, crash diets and no alcohol. He got the part.",
+      "class": "self_report",
+      "source_ids": [
+        "src-vf-2017",
+        "src-wikipedia"
+      ],
+      "inference": "Dieting for a role is professional incentive any actor shares; it is context, not type evidence.",
+      "alternative": "The weight went up and down with later roles (c-weight-10years, c-delivery-man), so there was no single permanent trade.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-weight-10years",
+      "claim": "Wikipedia reports Pratt regained the weight lost for Moneyball for the comedy 10 Years (2011), then lost it again to play a Navy SEAL in Zero Dark Thirty (2012).",
+      "passage": "back up for the comedy _10 Years_ (2011) and down for _Zero Dark Thirty_ (2012)",
+      "class": "observed",
+      "source_ids": [
+        "src-wikipedia",
+        "src-vf-2017"
+      ],
+      "inference": "His weight followed the role, not a one-time trade of fun for image.",
+      "alternative": "None material.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-delivery-man",
+      "claim": "GQ reports Pratt bulked up to 295 pounds for a supporting role in Delivery Man (2013).",
+      "passage": "then up to 295 pounds for _Delivery Man_ (2013), per GQ",
+      "class": "third_party",
+      "source_ids": [
+        "src-gq-2015"
+      ],
+      "inference": "A second regain after Moneyball, while still playing Andy.",
+      "alternative": "None material.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-superhero",
+      "claim": "Describing Guardians preparation in 2014, Pratt said \"I need to look like a superhero.\"",
+      "passage": "before he trained to \"look like a superhero\" for _Guardians_, as he told The Independent in 2014.",
+      "class": "self_report",
+      "source_ids": [
+        "src-independent-2014"
+      ],
+      "inference": "Image as the stated target of preparation.",
+      "alternative": "Professional incentive explains this for any actor.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-fun-trade-interp",
+      "claim": "Interpretation: dieting is a professional incentive, and 'Now I have less fun. I focus more' came in the GQ answer about health and self-regard.",
+      "passage": "Even \"Now I have less fun. I focus more\" came in an answer about health and self-regard, where health explains it as well as image does.",
+      "class": "interpretation",
+      "source_ids": [
+        "src-gq-2015",
+        "src-vf-2017"
+      ],
+      "inference": "Keeps the line in its GQ context (the hook quotes the health complaints), so it does not serve as 3-over-7 evidence and is not tied to the later Moneyball story.",
+      "alternative": "None; this is the correction.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-guardians-pass",
+      "claim": "Pratt says he and Gunn initially passed and his agent pushed him to audition.",
+      "passage": "Pratt told Vanity Fair he first passed on _Guardians_, and James Gunn passed on him. His agent pushed: \"Guardians is everything you've been saying you want to do.\" Pratt went in and \"played the room.\"",
+      "class": "self_report",
+      "source_ids": [
+        "src-vf-2017"
+      ],
+      "inference": "Another pivotal move initiated by someone else.",
+      "alternative": "None material.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-become-the-character",
+      "claim": "Describing his Guardians audition, Pratt said: 'You walk into the room as the character. You let them think the person you are is close to the character they want. You make them think you already are that guy.'",
+      "passage": "You walk into the room as the character. You let them think the person you are is close to the character they want. You make them think you already are that guy.",
+      "class": "self_report",
+      "source_ids": [
+        "src-vf-2017"
+      ],
+      "inference": "An explicit method of becoming what the room wants to see, stated as his formula for winning.",
+      "alternative": "Standard audition craft that actors of any type teach.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-audition-salesman",
+      "claim": "On SmartLess (2022) Pratt joked he was great at auditioning but could not act, and the person who won roles was \"a door-to-door salesman\".",
+      "passage": "he joked that for years he was great at auditioning and couldn't act, and that the person who had won the role was really a door-to-door salesman.",
+      "class": "self_report",
+      "source_ids": [
+        "src-smartless-2022"
+      ],
+      "inference": "Links early wins to selling rather than craft.",
+      "alternative": "Paraphrased from YouTube auto-captions; audio not checked (YouTube blocked audio download on 2026-10-29), so not quoted.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-gunn-juggle",
+      "claim": "James Gunn said that after years as the funny sidekick Pratt 'always has to juggle to entertain everybody' and 'didn't trust himself to just be Chris Pratt'; Pratt said his 'bullshit meter' went off and the work 'screams inauthentic to me'.",
+      "passage": "Success as \"the funny sidekick,\" the director told GQ in 2015, meant Pratt \"always has to juggle to entertain everybody. And the truth is, Chris didn't trust himself to just be Chris Pratt—and how desirable that is to an audience.\"",
+      "class": "third_party",
+      "source_ids": [
+        "src-gq-2015"
+      ],
+      "inference": "A close collaborator independently saw performing for the audience as his default, and being unperformed as the hard part.",
+      "alternative": "Gunn is a close friend describing one adjustment on one film. The self-doubt could read as 6, and the entertain-everyone energy as 7. The lead-in paraphrases Gunn's 'I think that he had gotten a lot of success over the past few years being the funny sidekick, which means...'; the quoted words are contiguous in GQ.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-inauthentic",
+      "claim": "Pratt agreed with Gunn's diagnosis: 'I thought I was bad.'",
+      "passage": "Pratt agreed: \"I thought I was bad.\"",
+      "class": "self_report",
+      "source_ids": [
+        "src-gq-2015"
+      ],
+      "inference": "His own alarm about performing.",
+      "alternative": "Could read as 6-style self-doubt.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-cerebral",
+      "claim": "Pratt explained the on-set problem as overthinking, in words he framed as Gunn's view of him: 'I'm a much more cerebral person than you may expect.'",
+      "passage": "I'm a much more cerebral person than you may expect.",
+      "class": "self_report",
+      "source_ids": [
+        "src-gq-2015"
+      ],
+      "inference": "His own account of the on-set problem is overthinking, not image-performing.",
+      "alternative": "Overthinking and self-doubt also fit 6 or 5.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-gunn-interp",
+      "claim": "Interpretation: Gunn's note fits more than one type; the 3 reading rests on the gap between the entertaining version and the plain one.",
+      "passage": "A Seven entertains everybody too, so the note fits more than one type.",
+      "class": "interpretation",
+      "source_ids": [
+        "src-gq-2015"
+      ],
+      "inference": "Gunn is a friend describing one film.",
+      "alternative": "Entertaining everybody is at least as 7-coded.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-marketplace",
+      "claim": "In 2026 Pratt said: 'You're always kind of selling yourself. I always sort of understood how I was seen in the marketplace.'",
+      "passage": "\"You're always kind of selling yourself,\" he said on _Not Dead Yet_. \"I always sort of understood how I was seen in the marketplace.\"",
+      "class": "self_report",
+      "source_ids": [
+        "src-not-dead-yet-2026"
+      ],
+      "inference": "First-person description of an image-calibrated professional self, outside a promotional junket. Two models agree (34:38-36:16).",
+      "alternative": "Market awareness is a professional skill every working actor needs.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-no-haters",
+      "claim": "Pratt said he had no haters before his 2018 MTV speech because 'I don't stand for anything.'",
+      "passage": "He had no haters then, he said, because \"I don't stand for anything\":",
+      "class": "self_report",
+      "source_ids": [
+        "src-not-dead-yet-2026"
+      ],
+      "inference": "He links broad approval to taking no stands.",
+      "alternative": "Conflict avoidance also fits 9.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-deferential",
+      "claim": "Pratt described his pre-2018 professional self: 'I'm completely deferential to whatever the world wants. I'll give you literally anything. Just keep me employed as an actor.'",
+      "passage": "I'm completely deferential to whatever the world wants. I'll give you literally anything. Just keep me employed as an actor.",
+      "class": "self_report",
+      "source_ids": [
+        "src-not-dead-yet-2026"
+      ],
+      "inference": "Deference with a purpose clause (employment, career): becoming what the market wants, the 3 pattern. Two models agree (34:38-36:16).",
+      "alternative": "'Completely deferential' is also a 9 self-description; he said it on a faith podcast while explaining a conversion of priorities.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-photo-and-anger",
+      "claim": "Pratt says his brother talked him into posting an underwear photo of his Zero Dark Thirty body, which he thought seemed weird.",
+      "passage": "he said his brother talked him into posting an underwear photo he thought seemed weird",
+      "class": "self_report",
+      "source_ids": [
+        "src-hsc-2026"
+      ],
+      "inference": "Overt self-promotion needed a push: counterevidence to the 3 reading, placed in the counter-pattern section.",
+      "alternative": "Paraphrased from YouTube auto-captions (about 0:26:30-0:27:40); audio not checked, so not quoted.",
+      "durability": "stable",
+      "review_trigger": "If the Happy Sad Confused audio is checked and the wording differs, revise the paraphrase."
+    },
+    {
+      "id": "c-hyperactive-child",
+      "claim": "Pratt describes himself as an 'obnoxious... really hyperactive, disruptive' child who went silent when his very strict father yelled, was 'really sensitive' and 'cried a lot', and who as a teen stripped for laughs: 'I liked making people feel uncomfortable.'",
+      "passage": "he was \"obnoxious, really hyperactive, disruptive\" (and, in the same breath, \"really sensitive\"); in high school he was suspended from the track team for getting naked on the team bus. \"I liked making people feel uncomfortable,\" he said.",
+      "class": "self_report",
+      "source_ids": [
+        "src-gq-2015"
+      ],
+      "inference": "The 7 strand: high energy and transgressive play, over a sensitive core under a strict father.",
+      "alternative": "In the same GQ answer he says his father was very strict and he was 'really sensitive' and 'cried a lot' (c-gq-sensitive). Childhood self-descriptions are retrospective.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-naked-take",
+      "claim": "On Parks and Recreation Pratt did one take of a doorway gag naked, and NBC HR sent him a letter.",
+      "passage": "he did one take of a doorway gag fully naked to shock ",
+      "class": "self_report",
+      "source_ids": [
+        "src-gq-2015"
+      ],
+      "inference": "Transgressive play, the 7 strand.",
+      "alternative": "None material.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-new-idea-daily",
+      "claim": "Gunn says Pratt is 'a man of insights' with 'a new idea every day about everything'; GQ reports Pratt collects acting techniques he finds online, from orange Post-it cues to a 110-track 'Acting Music' playlist.",
+      "passage": "Gunn told GQ that Pratt had \"a new idea every day about everything.\"",
+      "class": "third_party",
+      "source_ids": [
+        "src-gq-2015"
+      ],
+      "inference": "Restless idea generation supports 7. The techniques are aimed at performing better, which supports 3.",
+      "alternative": "Either type, or simple curiosity (Fuqua says he reads up on everything).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-maui-fun-beat",
+      "claim": "Interpretation: Maui was a year of fun beating ambition.",
+      "passage": "And Maui was a year of fun beating ambition.",
+      "class": "interpretation",
+      "source_ids": [
+        "src-vf-2017",
+        "src-independent-2014"
+      ],
+      "inference": "Counts the Maui year for the 7 case.",
+      "alternative": "Drift after a collapse.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-comedians",
+      "claim": "Pratt said of comedians who project happiness they don't feel: 'I think that's often the case with comedians.'",
+      "passage": "he set his happy fat guy beside Farley's: \"I think that's often the case with comedians.\"",
+      "class": "self_report",
+      "source_ids": [
+        "src-gq-2015"
+      ],
+      "inference": "Pratt supplies the pain-mask reading himself.",
+      "alternative": "A general observation about comedians, not only himself.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-seven-mask-interp",
+      "claim": "The strongest 7 reading of the hook quote.",
+      "passage": "is a Seven describing his own mask, and the reading is partly Pratt's own",
+      "class": "interpretation",
+      "source_ids": [
+        "src-gq-2015",
+        "src-mh-2022"
+      ],
+      "inference": "The 7 reading is presented as partly his own framing, not a hypothetical.",
+      "alternative": "None; this is the alternative itself.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-discriminator",
+      "claim": "The 3/7 discriminator stated at motive level: what the cheerful front protects (failure and worth for 3; pain and limitation for 7).",
+      "passage": "The two types part over what the front protects.",
+      "class": "interpretation",
+      "source_ids": [
+        "src-vf-2017",
+        "src-gq-2015",
+        "src-not-dead-yet-2026"
+      ],
+      "inference": "Each bullet that follows names a datum where the front covers worth or tracks market value; the Maui year is named as the case it does not fit.",
+      "alternative": "Limits stated after the bullets; Maui remains the best evidence against.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-bullet-hid",
+      "claim": "Interpretation: in the sales collapse he hid the outcome, not the depression.",
+      "passage": "He hid the outcome, not the depression.",
+      "class": "interpretation",
+      "source_ids": [
+        "src-vf-2017",
+        "src-not-dead-yet-2026"
+      ],
+      "inference": "Separates shame about failure from pain.",
+      "alternative": "Ordinary embarrassment at 19 or 20.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-bullet-worth",
+      "claim": "Interpretation, labelled 'on this reading' in the prose: what sat under the happy fat guy was a problem of worth more than of fear.",
+      "passage": "a problem of worth more than of fear",
+      "class": "interpretation",
+      "source_ids": [
+        "src-gq-2015"
+      ],
+      "inference": "Motive-level reading of 'didn't feel too great about who I was', marked as the author's reading rather than Pratt's account.",
+      "alternative": "Low self-regard during heavy drinking is not type-specific.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-bullet-market",
+      "claim": "Pratt described his career before 2018 as 'completely deferential to whatever the world wants', so long as it kept him employed.",
+      "passage": "He described his career before 2018 in market terms, \"completely deferential to whatever the world wants,\" so long as it kept him employed.",
+      "class": "self_report",
+      "source_ids": [
+        "src-not-dead-yet-2026"
+      ],
+      "inference": "Reprise of c-deferential inside the discriminator.",
+      "alternative": "Also a 9 self-description.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-maui-three-answer",
+      "claim": "Interpretation: the 3 reading can answer the Maui year only with a story, and Maui remains the best evidence against it.",
+      "passage": "The Three reading can answer Maui only with a story",
+      "class": "interpretation",
+      "source_ids": [
+        "src-vf-2017",
+        "src-independent-2014"
+      ],
+      "inference": "Labelled as interpretation in the prose.",
+      "alternative": "The 7 reading explains Maui directly.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-bird-hunting",
+      "claim": "Pratt said retiring to a ranch to hunt birds is \"what I secretly want to do,\" then predicted he would tire of it in three months and want \"Guardians Ten\".",
+      "passage": "Retiring early to a ranch to hunt birds, he said, was \"what I secretly want to do.\" Then he predicted that \"three months later I would be tired of bird hunting and I would be like '...Guardians Ten?'\"",
+      "class": "self_report",
+      "source_ids": [
+        "src-gq-2015"
+      ],
+      "inference": "Leisure ideal undercut by a pull back to work.",
+      "alternative": "Boredom also fits 7.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-limits",
+      "claim": "Stated limit of the type argument.",
+      "passage": "The weightiest off-camera case, the hidden sales failure, rests on his own retelling, and most of the rest is interview self-report, hence medium confidence.",
+      "class": "interpretation",
+      "source_ids": [
+        "src-vf-2017"
+      ],
+      "inference": "Honest inference limit; Faris is no longer counted among the weightiest cases.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-altar-promises",
+      "claim": "Pratt says earlier promises to God at altars (as a child, at 19, in his 30s) lapsed.",
+      "passage": "\"I'd make promises, but I didn't keep them.\"",
+      "class": "self_report",
+      "source_ids": [
+        "src-christian-post-2025"
+      ],
+      "inference": "A vow history he narrates against himself.",
+      "alternative": "Retrospective account to a faith outlet.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-nicu-vow",
+      "claim": "Pratt says that when his son Jack was born premature in August 2012 and spent about a month in neonatal intensive care, he made 'a deal with God' and decided, 'Moving forward, I'm going to give my platform to God'; he says earlier promises to God had lapsed.",
+      "passage": "In August 2012 his son Jack was born premature and spent about a month in neonatal intensive care. Pratt \"made a deal with God again,\"",
+      "class": "observed",
+      "source_ids": [
+        "src-christian-post-2025",
+        "src-fox-2026",
+        "src-wikipedia"
+      ],
+      "inference": "A vow-based commitment he has kept publicly despite backlash. This is the strongest evidence that something besides image governs some of his choices.",
+      "alternative": "A retrospective account given to a faith outlet during a promotion. Sources differ on how premature Jack was (seven weeks in the Christian Post, nine on Wikipedia), so use \"premature\" without a number unless a primary settles it. The month (August 2012) comes from Fox News Digital 2026 ('Jack was born in August 2012'); the Christian Post gives the premature birth and the month in the NICU.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-platform-vow",
+      "claim": "Pratt says Jack's recovery was when he decided to give his platform to God.",
+      "passage": "That was the moment that I was like, 'Moving forward, I'm going to give my platform to God.'",
+      "class": "self_report",
+      "source_ids": [
+        "src-christian-post-2025"
+      ],
+      "inference": "A commitment kept publicly despite backlash.",
+      "alternative": "Retold during a faith-app promotion.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-faith-cost-claim",
+      "claim": "Interpretation of his own account: faith is the first thing he let cost him with a mainstream audience.",
+      "passage": "By his account, faith is the first thing he let cost him with the mainstream audience an image manager would court.",
+      "class": "interpretation",
+      "source_ids": [
+        "src-not-dead-yet-2026",
+        "src-christian-post-2025",
+        "src-mh-2022"
+      ],
+      "inference": "Attributed: before the 2018 speech he had 'no haters' because he stood for nothing; he says he would stand for Jesus 'even if it cost me'; he believes the speech helped light the backlash. The cost is his belief, not an established box-office fact.",
+      "alternative": "Men's Health says the noise did not hurt his box office; faith audiences are also a market.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-mtv",
+      "claim": "At the 2018 MTV Movie & TV Awards, accepting the Generation Award, Pratt mixed jokes ('Don't be a turd') with 'God is real. God loves you. God wants the best for you.'",
+      "passage": "At the 2018 MTV Movie & TV Awards he mixed jokes (\"Don't be a turd\") with \"God is real. God loves you. God wants the best for you.\"",
+      "class": "observed",
+      "source_ids": [
+        "src-mh-2022",
+        "src-wikipedia"
+      ],
+      "inference": "Public faith statement on a mainstream stage.",
+      "alternative": "None material.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-god-part",
+      "claim": "Men's Health (2022): 'people mostly just remember the God part.'",
+      "passage": "As Men's Health noted in 2022, \"people mostly just remember the God part.\"",
+      "class": "third_party",
+      "source_ids": [
+        "src-mh-2022"
+      ],
+      "inference": "The God lines came inside a comic speech.",
+      "alternative": "None material.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-stood-for-something",
+      "claim": "In 2026 Pratt described the 2018 speech as the point where he 'stood for something', and said 'I didn't backtrack' and 'I'm not going to apologize for that.'",
+      "passage": "In 2026 he set that speech against his deferential years: \"so I stood for something.\" He added, \"I didn't backtrack,\" and \"I'm not going to apologize for that.\"",
+      "class": "self_report",
+      "source_ids": [
+        "src-not-dead-yet-2026"
+      ],
+      "inference": "He frames faith as the break from the marketplace self. Two models agree (34:38-36:16).",
+      "alternative": "A retrospective conversion narrative told on a faith podcast; in 2022 he wondered whether the speech was hubris.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-backlash-link",
+      "claim": "Men's Health reports Pratt believes the MTV speech helped start the online hostility, including the \"Worst Chris\" meme.",
+      "passage": "He told Men's Health that he believes the speech helped light the online hostility toward him",
+      "class": "self_report",
+      "source_ids": [
+        "src-mh-2022",
+        "src-wikipedia"
+      ],
+      "inference": "He links reputational cost to faith.",
+      "alternative": "His own theory of the backlash. Gunn cited invented claims 'about his politics', and the Men's Health writer noted the noise had not hurt his box office.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-worst-chris",
+      "claim": "Men's Health describes the 'Worst Chris' meme as fans debating Pratt, Hemsworth, Evans and Pine.",
+      "passage": "including the \"Worst Chris\" meme that ranked him against",
+      "class": "third_party",
+      "source_ids": [
+        "src-mh-2022"
+      ],
+      "inference": "Context for the backlash; he believes the speech helped light it.",
+      "alternative": "Other causes (politics rumors, body transformation) were also cited.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-hubris",
+      "claim": "In 2022 Pratt said of the speech: 'Maybe it was hubris. For me to stand up on the stage and say the things that I said, I'm not sure I touched anybody.'",
+      "passage": "\"Maybe it was hubris,\" he said.",
+      "class": "self_report",
+      "source_ids": [
+        "src-mh-2022"
+      ],
+      "inference": "Self-critical reflection on delivery; in 2026 he said he never apologized for the content.",
+      "alternative": "Could be backlash management in a mainstream outlet.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-page-criticism",
+      "claim": "After Pratt discussed his faith on Colbert in 2019, Elliot Page criticized his church as anti-LGBTQ.",
+      "passage": "In 2019 the actor Elliot Page criticized his church.",
+      "class": "disputed",
+      "source_ids": [
+        "src-mh-2022"
+      ],
+      "inference": "Attributed allegation about church positions, not Pratt's statements; his response is given in the next sentence.",
+      "alternative": "The allegation concerns a church, not Pratt's own words.",
+      "durability": "time_sensitive",
+      "review_trigger": "Pratt names a different church, comments on Zoe Church's positions, or new reporting changes the record of his affiliation."
+    },
+    {
+      "id": "c-hillsong-dispute",
+      "claim": "Pratt's 2019 response, as Men's Health quotes it, said 'everyone is entitled to love who they want free from the judgment of their fellow man.'",
+      "passage": "Pratt replied that \"everyone is entitled to love who they want free from the judgment of their fellow man.\"",
+      "class": "self_report",
+      "source_ids": [
+        "src-mh-2022"
+      ],
+      "inference": "His response to the allegation.",
+      "alternative": "The original Instagram post was not opened; text is as Men's Health quotes it.",
+      "durability": "time_sensitive",
+      "review_trigger": "Pratt names a different church, comments on Zoe Church's positions, or new reporting changes the record of his affiliation."
+    },
+    {
+      "id": "c-hillsong-never",
+      "claim": "In 2022 Pratt said he had never been to Hillsong and attends Zoe Church (not exclusively).",
+      "passage": "In 2022 he said he had never been to Hillsong, the church he had been linked to, and attends Zoe Church, though not exclusively.",
+      "class": "self_report",
+      "source_ids": [
+        "src-mh-2022"
+      ],
+      "inference": "Corrects the record of his affiliation.",
+      "alternative": "Men's Health reports he does not attend Zoe exclusively and that the family chose a Catholic church for a baptism; in 2025 he told Bill Maher he goes to a Catholic church (captions). The Daily Beast (June 30, 2022) reported that he 'had also been previously photographed attending a service at Hillsong's L.A. branch back in 2017' and that Zoe's pastor told The New York Times he modeled Zoe on Hillsong; the article gives the photo report, attributed (c-hillsong-photo).",
+      "durability": "time_sensitive",
+      "review_trigger": "Pratt names a different church or new reporting changes the record of his affiliation."
+    },
+    {
+      "id": "c-hillsong-photo",
+      "claim": "The Daily Beast reported in 2022 that Pratt had been photographed attending a service at Hillsong's Los Angeles branch in 2017.",
+      "passage": "The Daily Beast reported that he had been photographed at a Hillsong service in Los Angeles in 2017.",
+      "class": "disputed",
+      "source_ids": [
+        "src-daily-beast-2022"
+      ],
+      "inference": "The relevant response to his 2022 denial ('I never went to Hillsong'), reported as the Daily Beast's claim and not endorsed.",
+      "alternative": "The Daily Beast names no photographer, agency or event; no contemporaneous 2017 report has been opened. Pratt's denial stands beside it.",
+      "durability": "unresolved",
+      "review_trigger": "If a contemporaneous 2017 report or photo-agency record of Pratt at Hillsong Los Angeles is found, cite it; if the Daily Beast corrects or withdraws the claim, remove the sentence."
+    },
+    {
+      "id": "c-zoe-film",
+      "claim": "Men's Health reports Zoe Church founder Chad Veach executive-produced a 2017 film equating \"sexual brokenness\" with \"same-sex attraction\".",
+      "passage": "Zoe's founding pastor, Men's Health reported, executive-produced a 2017 film that equated \"sexual brokenness\" with \"same-sex attraction.\"",
+      "class": "third_party",
+      "source_ids": [
+        "src-mh-2022"
+      ],
+      "inference": "Context critics cite; attributed to Men's Health.",
+      "alternative": "Reporting about the pastor, not about Pratt's views.",
+      "durability": "time_sensitive",
+      "review_trigger": "New reporting on Zoe Church or Pratt's affiliation."
+    },
+    {
+      "id": "c-under-bus",
+      "claim": "Asked why he had not said at the time that he never attended Hillsong, Pratt said \"I'm gonna, like, throw a church under the bus?\"",
+      "passage": "I'm gonna, like, throw a church under the bus?",
+      "class": "self_report",
+      "source_ids": [
+        "src-mh-2022"
+      ],
+      "inference": "His first reaction; he immediately qualified it (c-westboro).",
+      "alternative": "Not feeding a fight can be image management, or 9-style avoidance.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-westboro",
+      "claim": "Pratt qualified the 'under the bus' remark: 'If it's like the Westboro Baptist Church, that's different.'",
+      "passage": "Then he reconsidered: \"If it's like the Westboro Baptist Church, that's different.\"",
+      "class": "self_report",
+      "source_ids": [
+        "src-mh-2022"
+      ],
+      "inference": "Gives his recorded qualification.",
+      "alternative": "None material.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-faith-by-room",
+      "claim": "In 2022 Pratt told Men's Health 'really I'm not a religious person', which The Daily Beast called a walk-back; in March 2025 he told The Christian Post he would take a stand for Jesus 'even if it cost me'.",
+      "passage": "I didn't know that I would kind of become the face of religion when really I'm not a religious person.",
+      "class": "self_report",
+      "source_ids": [
+        "src-mh-2022",
+        "src-daily-beast-2022",
+        "src-christian-post-2025"
+      ],
+      "inference": "The emphasis of his faith talk shifts with the audience: a mainstream men's magazine during a backlash versus a Christian outlet during a faith-app partnership. He also separates \"religion\" from following Jesus, so the statements are not strictly contradictory.",
+      "alternative": "Sincere conviction, a real distinction between religion and faith, and a public cost he did pay (the 'Worst Chris' backlash). Critics read the 2022 remarks as a rebrand.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-very-real-god",
+      "claim": "Pratt distinguishes man-made religion, used to control and abuse people, from belief in \"a very real God\".",
+      "passage": "He separated religion as a human institution from belief in what he called \"a very real God.\"",
+      "class": "self_report",
+      "source_ids": [
+        "src-mh-2022"
+      ],
+      "inference": "Explains the 2022 statement as a distinction rather than a reversal.",
+      "alternative": "Critics read it as a rebrand.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-daily-beast",
+      "claim": "The Daily Beast (Kyndall Cunningham, June 30, 2022) headlined its response 'Why Is Chris Pratt Lying About His Religious Past?' and argued his long public record of faith made the 'not a religious person' line false.",
+      "passage": "[The Daily Beast](https://www.thedailybeast.com/why-is-chris-pratt-lying-about-his-religious-past) headlined its response \"Why Is Chris Pratt Lying About His Religious Past?\" and argued that his long public record of faith made the line false.",
+      "class": "third_party",
+      "source_ids": [
+        "src-daily-beast-2022"
+      ],
+      "inference": "The skeptical reading, attributed and described only by what the piece says.",
+      "alternative": "Commentary, not reporting on his private practice. He separates organized religion from faith in God, which the article gives before the headline.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-other-causes",
+      "claim": "Men's Health (2022, Mickey Rapkin): Gunn told the magazine people had made things up about Pratt, 'about his politics'; Rapkin reminded Pratt that 'none of this noise has hurt his box-office prowess or his reputation in town.'",
+      "passage": "The profile added two caveats. Gunn told the magazine that people had \"literally just made up\" things about Pratt, \"about his politics,\" and the writer, Mickey Rapkin, reminded Pratt that \"none of this noise has hurt his box-office prowess or his reputation in town.\"",
+      "class": "third_party",
+      "source_ids": [
+        "src-mh-2022"
+      ],
+      "inference": "The hostility had more than one fuel (invented claims about his politics) and no documented commercial cost. Both lines are Men's Health's; the Daily Beast's response contains neither.",
+      "alternative": "Gunn is a friend and collaborator; Rapkin's aside is a reporter's judgment, not box-office data.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-hallow",
+      "claim": "Pratt's 2025 Christian Post interview came during a Lent partnership with the Catholic prayer app Hallow.",
+      "passage": "during a Lent partnership with the Catholic prayer app Hallow",
+      "class": "observed",
+      "source_ids": [
+        "src-christian-post-2025"
+      ],
+      "inference": "Context for audience-dependent framing.",
+      "alternative": "None material.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-cost-me",
+      "claim": "In 2025 Pratt said he would take a stand for Jesus \"even if it cost me\".",
+      "passage": "I care enough about Jesus to take a stand, even if it cost me.",
+      "class": "self_report",
+      "source_ids": [
+        "src-christian-post-2025"
+      ],
+      "inference": "Faith framed as worth the cost.",
+      "alternative": "Said to a faith outlet during a promotion.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-politics",
+      "claim": "In 2026 Pratt said he does not feel strongly enough about politics 'to take a stand right now'.",
+      "passage": "On politics, by contrast, he said he doesn't feel strongly enough \"to take a stand right now.\"",
+      "class": "self_report",
+      "source_ids": [
+        "src-not-dead-yet-2026",
+        "src-wikipedia"
+      ],
+      "inference": "He chooses which stands are worth a cost; consistent with Wikipedia's record of a 2017 statement that he aligns with neither side. Two models agree on the quoted words.",
+      "alternative": "Fits both 3 (broad appeal) and 9 (avoid fights).",
+      "durability": "time_sensitive",
+      "review_trigger": "A public political endorsement or stand by Pratt."
+    },
+    {
+      "id": "c-faith-interp",
+      "claim": "Interpretation: the faith statements are a distinction plus a costly public commitment.",
+      "passage": "He separates religion from following Jesus, so the statements conflict less than the headline suggests, and he has kept the commitment public through years of criticism.",
+      "class": "interpretation",
+      "source_ids": [
+        "src-mh-2022",
+        "src-christian-post-2025",
+        "src-daily-beast-2022"
+      ],
+      "inference": "'Criticism', not 'cost': the commitment is public and criticized; any commercial cost is his belief.",
+      "alternative": "Critics read the 2022 remarks as a rebrand.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-faith-market",
+      "claim": "Interpretation: faith audiences are a market too, so the cost was never one-way.",
+      "passage": "Faith audiences are a market too, so the cost was never one-way.",
+      "class": "interpretation",
+      "source_ids": [
+        "src-christian-post-2025"
+      ],
+      "inference": "The Hallow partnership shows a paying faith audience.",
+      "alternative": "The partnership may follow conviction rather than motivate it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-why-coming-after-me",
+      "claim": "In 2022 the Men's Health conversation turned to the backlash at Pratt's prompting ('Why are they coming after me?'), and his tears in that interview were about coverage of an Instagram post he feared his son would read.",
+      "passage": "His 2022 Men's Health interview turned to the backlash at his own prompting (\"Why are they coming after me?\"), and its tears were not about faith.",
+      "class": "self_report",
+      "source_ids": [
+        "src-mh-2022"
+      ],
+      "inference": "Protective-parent reading: the tears were about his son. Removed from the type hypothesis's supporting claims.",
+      "alternative": "Concern about public perception also registers here ('part of me is struggling with who I am maybe not being who I was').",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-healthy-daughter",
+      "claim": "Men's Health (2022): articles read Pratt's Instagram thanks for 'a beautiful, healthy daughter' as a dig at Faris because Jack was born premature; Pratt said 'My son's gonna read that one day. He's nine... I cried about it.'",
+      "passage": "Articles had called his Instagram thanks to his wife for \"a beautiful, healthy daughter\" a dig at Faris, because Jack was born premature. \"My son's gonna read that one day. He's nine... I cried about it,\"",
+      "class": "self_report",
+      "source_ids": [
+        "src-mh-2022"
+      ],
+      "inference": "Identifies the coverage without re-litigating the post.",
+      "alternative": "None material. Children are mentioned only; never typed.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-publicist",
+      "claim": "Pratt joked his publicist would ask: 'What happened to the it's-an-honor-just-to-be-nominated-let's-move-on ... line that we talked about?'",
+      "passage": "What happened to the it's-an-honor-just-to-be-nominated-let's-move-on ... line that we talked about?",
+      "class": "self_report",
+      "source_ids": [
+        "src-mh-2022"
+      ],
+      "inference": "He broke the agreed media line to defend his son: counterevidence to image management.",
+      "alternative": "Said with a laugh; he also acknowledged the conversation would extend the news cycle.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-publicist-interp",
+      "claim": "Interpretation: an image manager keeps to the line; a father defending his son did not.",
+      "passage": "An image manager keeps to the line. A father defending his son, by his own account, did not.",
+      "class": "interpretation",
+      "source_ids": [
+        "src-mh-2022"
+      ],
+      "inference": "Lets the counterevidence stand.",
+      "alternative": "Talking about it in a cover story is itself a form of public positioning.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-others-move",
+      "claim": "Pivotal moves initiated by others: mother's ticket home, a friend's ticket to Maui, Henry's invitation to church.",
+      "passage": "His mother bought the ticket home, a friend the ticket to Maui, and a stranger took him to church.",
+      "class": "self_report",
+      "source_ids": [
+        "src-vf-2017",
+        "src-not-dead-yet-2026",
+        "src-mh-2022"
+      ],
+      "inference": "The 9-pattern counterweight.",
+      "alternative": "Young and broke, anyone accepts help.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-brother-army",
+      "claim": "Pratt says his older brother joined the army and told him not to: \"I think he saw something in me.\"",
+      "passage": "His brother, who joined the army, told him not to enlist: \"I think he saw something in me.\"",
+      "class": "self_report",
+      "source_ids": [
+        "src-vf-2017"
+      ],
+      "inference": "Another pivotal decision shaped by someone else.",
+      "alternative": "Ordinary sibling advice; also fits 6 seeking a trusted guide.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-manager",
+      "claim": "Pratt says his manager has had him decline \"huge checks\" and is \"calculated and critical in a way that I'm not.\"",
+      "passage": "His manager, he said in 2026, has had him turn down \"huge checks\" and is \"calculated and critical in a way that I'm not.\"",
+      "class": "self_report",
+      "source_ids": [
+        "src-not-dead-yet-2026"
+      ],
+      "inference": "He places strategic judgment about roles outside himself.",
+      "alternative": "A 3 can outsource strategy and still be outcome-driven.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-providence",
+      "claim": "Vanity Fair (2017) wrote that Pratt's rise was so improbable 'he sees it as divinely ordained'.",
+      "passage": "Vanity Fair wrote in 2017 that his rise was so improbable \"he sees it as divinely ordained.\"",
+      "class": "third_party",
+      "source_ids": [
+        "src-vf-2017"
+      ],
+      "inference": "A believer's narrative selects for rescuers, so 'others make his moves' is partly a feature of how he tells the story.",
+      "alternative": "None material.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-self-moves",
+      "claim": "Interpretation: the record also contains many self-initiated moves (answering the ad, chasing the office, 'Put me in a movie', asking to get bigger, deciding to drop the weight, playing the room).",
+      "passage": "The same record is full of moves he made himself, from answering the ad to \"Put me in a movie.\"",
+      "class": "interpretation",
+      "source_ids": [
+        "src-vf-2017",
+        "src-gq-2015"
+      ],
+      "inference": "Counterweights the deference pattern; argues against 9.",
+      "alternative": "Young, broke people take openings in any type.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-nine-purpose",
+      "claim": "Interpretation: Pratt's deference came with a purpose clause ('Just keep me employed as an actor') in a competitive salesman.",
+      "passage": "But a Nine defers to keep the peace, and Pratt's deference came with a purpose clause, \"Just keep me employed as an actor,\" in a salesman who outsold his classmates 500 to 22.",
+      "class": "interpretation",
+      "source_ids": [
+        "src-not-dead-yet-2026"
+      ],
+      "inference": "The 3 vs 9 discriminator: deference in service of a goal, plus competitive selling.",
+      "alternative": "A Nine can also be industrious; the 500-card figure is his own retelling.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-nine-interp",
+      "claim": "Interpretation: 9 explains his ease with trusted advisers better than 3 but explains the competing worse and has nothing as strong as Maui, so 7 is the stronger rival.",
+      "passage": "The Nine reading explains his ease with trusted advisers better than the Three reading does. It explains the competing worse, and it has nothing as strong as the Maui year, which is why Seven is the stronger rival.",
+      "class": "interpretation",
+      "source_ids": [
+        "src-not-dead-yet-2026",
+        "src-vf-2017"
+      ],
+      "inference": "Places Type 9 explicitly as a live secondary reading below 7.",
+      "alternative": "Delegation is normal at his level of fame.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-six",
+      "claim": "Interpretation: reliance on guides who 'saw something' in him fits 6, but the record shows little 6 vigilance.",
+      "passage": "though the record shows little of a Six's vigilance; in his stories he jumps first",
+      "class": "interpretation",
+      "source_ids": [
+        "src-vf-2017",
+        "src-not-dead-yet-2026"
+      ],
+      "inference": "Acknowledges 6 for the deference cluster.",
+      "alternative": "Interview anecdotes favor bold moments.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-priorities-shift",
+      "claim": "Pratt says that during his first marriage careers were the priority, which 'costs you something.'",
+      "passage": "By 2026 he said his first marriage had put careers first, and \"it costs you something.\"",
+      "class": "self_report",
+      "source_ids": [
+        "src-not-dead-yet-2026"
+      ],
+      "inference": "Admits a career-first decade.",
+      "alternative": "Do not speculate about the divorce.",
+      "durability": "time_sensitive",
+      "review_trigger": "New statements about stepping back from work."
+    },
+    {
+      "id": "c-priorities-now",
+      "claim": "Pratt says career remains a very high priority but below being present at home.",
+      "passage": "I still have a priority of my career being very high, but it's not as high as the priority of being present at home.",
+      "class": "self_report",
+      "source_ids": [
+        "src-not-dead-yet-2026"
+      ],
+      "inference": "Reported reordering.",
+      "alternative": "Stated ideal; check against behavior.",
+      "durability": "time_sensitive",
+      "review_trigger": "His next slate of roles or new statements about stepping back from work."
+    },
+    {
+      "id": "c-peculiar",
+      "claim": "Pratt told Vanity Fair: 'I was a peculiar kid. I was very much an individual and happy to be an individual. I dressed funny and was comfortable in my own skin.'",
+      "passage": "I was a peculiar kid... I dressed funny and was comfortable in my own skin",
+      "class": "self_report",
+      "source_ids": [
+        "src-vf-2017"
+      ],
+      "inference": "Childhood self-portrait at odds with an approval-shaped self; counterevidence to 3.",
+      "alternative": "Retrospective self-description; also said to explain why his brother told him not to enlist.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-mercy",
+      "claim": "On Not Dead Yet (March 31, 2026) Pratt listed his recent roles, naming James Reese in The Terminal List and the January 2026 thriller Mercy.",
+      "passage": "from James Reese in _The Terminal List_ to the January thriller _Mercy_",
+      "class": "self_report",
+      "source_ids": [
+        "src-not-dead-yet-2026",
+        "src-wikipedia",
+        "src-rt-mercy-2026"
+      ],
+      "inference": "He named Mercy as a recent role ('Mercy I did recently', about 48:12-48:15; all three transcriptions agree). He did not discuss its reception in that answer, and the article no longer gives the reception figures, so it implies no link between them and the comedy plan. Release month from Rotten Tomatoes (US release January 23, 2026); 'thriller' from Wikipedia.",
+      "alternative": "Mercy's reception (24 percent on Rotten Tomatoes; about $54 million worldwide on a reported $60 million budget, per The Numbers) stays in the evidence record only.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-meeting",
+      "claim": "On Not Dead Yet (released March 31, 2026) Pratt said he 'had a meeting with my manager and agent recently' about his direction.",
+      "passage": "On _Not Dead Yet_, released March 31, 2026, Pratt said he \"had a meeting with my manager and agent recently.\"",
+      "class": "self_report",
+      "source_ids": [
+        "src-not-dead-yet-2026"
+      ],
+      "inference": "Dates the plan to a specific meeting and interview. Two models agree (47:50-48:50).",
+      "alternative": "RSS pubDate is March 31; some news reports date it April 9.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-comedy-turn",
+      "claim": "In a podcast released March 31, 2026, Pratt listed his recent roles, said some had been more serious than others, and said the plan was to do more comedy and bring fun and lightheartedness back, because 'that's something I have'.",
+      "passage": "Running through his recent roles, from James Reese in _The Terminal List_ to the January thriller _Mercy_, he said some had been more serious than others, and the plan was \"trying to do more comedy, trying to bring fun and lightheartedness back,\" because \"that's something I have.\"",
+      "class": "self_report",
+      "source_ids": [
+        "src-not-dead-yet-2026"
+      ],
+      "inference": "His stated reasons, as he gave them: a mix of tones in recent roles, comedy as a strength, and (next sentence) live-action leads near home. The quoted words agree across three models (about 48:20-48:30).",
+      "alternative": "The models split on how he described the lighter roles ('a certain irreverence', large-v3-turbo and medium.en; 'a certain a reverence', small.en), so that half is neither quoted nor paraphrased; all three agree on 'more of a seriousness' in some roles. The market after Mercy may also have played a part; he did not say so and the article does not suggest it.",
+      "durability": "time_sensitive",
+      "review_trigger": "By October 2028, compare his announced lead roles with the stated comedy turn; if action dominates, revise the closing paragraph. A human listen at about 48:15 can settle 'irreverence' before it is quoted."
+    },
+    {
+      "id": "c-live-action",
+      "claim": "Pratt said he means live-action roles because he already does animated films, and that he now cares about whether he can 'be close to home'.",
+      "passage": "He meant live-action leads (he has voiced animated comedies all along), and he added that he now cares about whether he can \"be close to home.\"",
+      "class": "self_report",
+      "source_ids": [
+        "src-not-dead-yet-2026",
+        "src-wikipedia"
+      ],
+      "inference": "The plan is a live-action genre shift, not a return of comedy to his career as a whole.",
+      "alternative": "None material.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-ending-interp",
+      "claim": "Closing interpretation, labelled as such: the 2026 plan treats fun as a career asset, weighed with his manager and agent, by a man who learned in sales that attitude is part of what you sell.",
+      "passage": "by a man who, on this reading, learned as a teenage salesman that the attitude is part of what you sell.",
+      "class": "interpretation",
+      "source_ids": [
+        "src-not-dead-yet-2026",
+        "src-gq-2015"
+      ],
+      "inference": "Explicitly 'on this reading'; the point holds whatever his slate becomes, because it concerns how the plan was made, not its outcome.",
+      "alternative": "His stated reasons (seriousness, comedy as a strength, close to home) are given first; market response after Mercy is also possible.",
+      "durability": "time_sensitive",
+      "review_trigger": "By October 2028, compare his announced lead roles with the March 2026 comedy plan; if the framing no longer fits, revise the closing paragraph."
+    },
+    {
+      "id": "c-ending-2015",
+      "claim": "Interpretation: in 2015 he called the fun of his heavy years an image with value.",
+      "passage": "In 2015 he called the fun of his heavy years an image with value.",
+      "class": "interpretation",
+      "source_ids": [
+        "src-gq-2015"
+      ],
+      "inference": "Summary of c-fun-as-image plus c-value.",
+      "alternative": "He also called it a front over feeling rotten.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-faq-faith",
+      "claim": "Pratt calls himself a follower of Jesus (Club Random 2025) and says his faith was cemented in 2012 during Jack's NICU stay (Christian Post 2025).",
+      "passage": "He describes himself as a follower of Jesus and says his faith was cemented in 2012, when his son Jack was born premature.",
+      "class": "self_report",
+      "source_ids": [
+        "src-club-random-2025",
+        "src-christian-post-2025"
+      ],
+      "inference": "FAQ metadata.",
+      "alternative": "\"Follower of Jesus\" is caption-sourced paraphrase.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-faq-type7",
+      "claim": "FAQ: the 3 reading leads because he hid a failed sales job from his hometown and said the happy fat guy had 'value'.",
+      "passage": "he hid a failed sales job from his hometown, and he said the happy fat guy of his Parks years had \"value.\"",
+      "class": "interpretation",
+      "source_ids": [
+        "src-vf-2017",
+        "src-gq-2015"
+      ],
+      "inference": "FAQ mirror of the discriminator.",
+      "alternative": "The FAQ names the Maui year as the best evidence for 7.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-faq-weight",
+      "claim": "FAQ: after Moneyball his weight followed his roles: regained for 10 Years, lost for Zero Dark Thirty, up to 295 pounds for Delivery Man (2013), down for Guardians (2014).",
+      "passage": "After that his weight followed his roles: regained for 10 Years, lost for Zero Dark Thirty, up to 295 pounds for Delivery Man (2013), then down again for Guardians of the Galaxy (2014).",
+      "class": "observed",
+      "source_ids": [
+        "src-wikipedia",
+        "src-gq-2015"
+      ],
+      "inference": "FAQ mirror of c-weight-10years and c-delivery-man.",
+      "alternative": "None material.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-faq-age",
+      "claim": "Born June 21, 1979, Pratt turned 47 in June 2026.",
+      "passage": "so he turned 47 in June 2026",
+      "class": "observed",
+      "source_ids": [
+        "src-wikipedia"
+      ],
+      "inference": "FAQ metadata.",
+      "alternative": "None.",
+      "durability": "time_sensitive",
+      "review_trigger": "His June 21 birthday each year."
+    },
+    {
+      "id": "c-bio-family",
+      "claim": "Pratt married Anna Faris in 2009; they announced their separation in August 2017 and the divorce was finalized in October 2018; their son Jack was born in August 2012. He married Katherine Schwarzenegger in June 2019; they have Lyla (born August 2020), Eloise (May 2022) and Ford (November 2024).",
+      "passage": "He has been married to the author Katherine Schwarzenegger since June 2019, and they have three children.",
+      "class": "observed",
+      "source_ids": [
+        "src-fox-2026",
+        "src-wikipedia"
+      ],
+      "inference": "Biographical metadata. Children are minors: mention only, never type or characterize them.",
+      "alternative": "None material.",
+      "durability": "time_sensitive",
+      "review_trigger": "Birth of another child or a change in marital status."
+    },
+    {
+      "id": "c-bio-faris",
+      "claim": "Pratt and Faris married in 2009 and divorced (finalized) in 2018; their son Jack was born in August 2012.",
+      "passage": "He also has a son, Jack, born in 2012, with his first wife, the actor Anna Faris. Pratt and Faris married in 2009 and their divorce was finalized in 2018.",
+      "class": "observed",
+      "source_ids": [
+        "src-gma-faris-2021",
+        "src-fox-2026",
+        "src-wikipedia"
+      ],
+      "inference": "Biographical. Children are minors: mention only.",
+      "alternative": "None material.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "c-portrait-credit",
+      "claim": "The portrait credits Gage Skidmore, links the original and CC BY-SA 2.0 license, and identifies the recorded adaptations.",
+      "passage": "_Portrait: [Gage Skidmore](https://commons.wikimedia.org/wiki/File:Chris_Pratt_(28630392396).jpg). Original photo and adapted portrait licensed under [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/). Cropped, background removed, rotated, converted to grayscale, and purple eye mark added._",
+      "class": "observed",
+      "source_ids": [
+        "src-portrait-wikimedia"
+      ],
+      "inference": "Direct comparison to Commons metadata and the installed portrait provenance record.",
+      "alternative": "No alternative personality inference: this is image attribution only.",
+      "durability": "stable",
+      "review_trigger": "Recheck attribution if the portrait asset or source changes."
+    }
+  ],
+  "type_hypothesis": {
+    "type": 3,
+    "confidence": "medium",
+    "for_claim_ids": [
+      "c-selling-himself",
+      "c-selling-attitude",
+      "c-sold-500",
+      "c-denver-office",
+      "c-hid-failure",
+      "c-hometown-star",
+      "c-not-feel-great",
+      "c-value",
+      "c-fascinating",
+      "c-fat-niche-pay",
+      "c-expectations-tactic",
+      "c-become-the-character",
+      "c-audition-salesman",
+      "c-gunn-juggle",
+      "c-marketplace",
+      "c-deferential",
+      "c-money-motivated",
+      "c-yearbook",
+      "c-brother-christmas"
+    ],
+    "against": "Real counterevidence. The Maui year (about 2000) is the longest off-camera stretch in the record and fun beat ambition: he drank, smoked weed, worked 15 to 20 hours a week, was 'always giving away my shifts' (VF 2017) and called it 'a charming time' (2014). He describes a hyperactive, transgressive childhood (GQ 2015), and Gunn reports a new idea every day; both read 7. He frames his happy-fat-guy persona as a mask over feelings that didn't match it, like Chris Farley's ('I think that's often the case with comedians', GQ 2015), which is the 7 pain-masking reading in his own words. He remembers being 'a peculiar kid... comfortable in my own skin' (VF 2017). He tells his rise as providence and many pivotal moves came from others (mother, friend, Henry, brother, agent, manager), which reads 9 or 6; he calls himself 'too much of a people pleaser' and 'completely deferential'. Overt self-promotion needed a push (the photo, 2026). He broke his publicist's line to defend his son in 2022 and cried over coverage he feared Jack would read. He has kept public faith commitments since 2012, says he 'stood for something' and won't apologize (2026), and in 2026 called Hollywood an industry that creates 'idols to burn'. Most of the 3 evidence is self-report in interviews.",
+    "alternative_type": 7,
+    "alternative_case": "His public persona is the classic 7: a hyperactive, disruptive, naked-on-the-bus jokester (GQ 2015) with real appetites, 'a new idea every day about everything' (Gunn), lapsed vows (Christian Post 2025), and a Maui year of partying and giving away shifts that he called 'a charming time'. His humor began as 'a self-defense mechanism' against a disapproving father (MH 2022), and he compared his cheerful fat-guy front to Chris Farley's, a mask over feelings that didn't match: 'I think that's often the case with comedians' (GQ 2015). On that reading 'to convince people that I was okay' is a 7 describing his own mask, and the reading is partly his.",
+    "discriminator": "What the cheerful front protects. A 7's front keeps pain, deprivation and limits out of the room; a 3's keeps failure out of sight and tracks what earns approval. Where Pratt's record reaches past the demands of acting, it points more often to worth and market value than to pain: after the sales collapse he 'had everyone convinced' he was succeeding while talking freely, later, about the depression (VF 2017; NDY 2026); explaining the happy fat guy he pairs the pain ('didn't feel too great about who I was') with its price ('I also understood that there was value to it'; 'paying better') (GQ 2015); and he describes his pre-2018 professional self as 'completely deferential to whatever the world wants... Just keep me employed as an actor' after 'I always sort of understood how I was seen in the marketplace' (NDY 2026, two transcription models). Versus 9: the deference carries a purpose clause (employment) and sits beside competitive selling ('I sold 500' vs 17 or 22) and a 15-month chase for the office. Limits: dieting and audition craft are professional incentives any actor shares; the hidden failure rests on one self-report; Faris's 2021 remark is weak, is not counted and is no longer cited; and the Maui year fits 7 better than 3, which the 3 reading answers only with an interpretation (a stalled young man who seized the first route back to success).",
+    "unexplained": "The 3 reading does not explain: the Maui year of drift and fun; his faith commitment, which he frames as the end of his deferential marketplace years and keeps public through criticism (though faith audiences are also a market and his framing shifts by outlet); his breaking the publicist's line to defend his son; his reluctance about overt self-promotion; his reliance on trusted advisers for big decisions (9 or 6); his stated wish for a smaller life ('work to live'; home above career by 2026); and his memory of himself as 'a peculiar kid... comfortable in my own skin'. Wing is left open."
+  },
+  "profile_format": "standard"
+}

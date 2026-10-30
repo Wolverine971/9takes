@@ -3,9 +3,9 @@
   "slug": "chris-pratt",
   "name": "Chris Pratt",
   "type": "3",
-  "status": "prepared_installed",
+  "status": "published_deployed",
   "installedAt": "2026-10-29T22:46:38.191Z",
-  "deployed": false,
+  "deployed": true,
   "blogFile": "src/blog/people/drafts/Chris-Pratt.md",
   "source": {
     "page": "https://commons.wikimedia.org/wiki/File:Chris_Pratt_(28630392396).jpg",
@@ -91,12 +91,27 @@
       "full": "/types/3s/Chris-Pratt.webp",
       "thumbnail": "/types/3s/s-Chris-Pratt.webp"
     },
-    "staticAssetBudgetsPassed": true
+    "staticAssetBudgetsPassed": true,
+    "liveAssets": [
+      {
+        "path": "/types/3s/Chris-Pratt.webp",
+        "status": 200,
+        "type": "image/webp"
+      },
+      {
+        "path": "/types/3s/s-Chris-Pratt.webp",
+        "status": 200,
+        "type": "image/webp"
+      }
+    ]
   },
   "review": {
     "url": "http://127.0.0.1:8917/chris-pratt/",
     "screenshot": "output/portrait-preflight/2026-10-22-review/chris-pratt/preview.png",
     "lightScreenshot": "output/portrait-preflight/2026-10-22-review/chris-pratt/preview-light.png",
     "prompt": "output/portrait-processed/2026-10-29-chris-pratt/prompt.txt"
-  }
+  },
+  "deployedAt": "2026-10-30T02:10:23.834Z",
+  "productionUrl": "https://9takes.com/personality-analysis/chris-pratt",
+  "deploymentUrl": "https://9takes-ana76y2tr-djwayne35gmailcoms-projects.vercel.app"
 }

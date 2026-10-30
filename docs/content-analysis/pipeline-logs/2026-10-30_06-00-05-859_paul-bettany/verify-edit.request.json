@@ -1,0 +1,27 @@
+{
+  "schema_version": 3,
+  "subject": "paul-bettany",
+  "mode": "create",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_verify_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-30_06-00-05-859_paul-bettany/candidate-edit.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-30_06-00-05-859_paul-bettany/evidence-edit.json",
+    "resolution": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-30_06-00-05-859_paul-bettany/resolution-edit.json",
+    "review-subject": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-30_06-00-05-859_paul-bettany/review-subject.json",
+    "review-fan": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-30_06-00-05-859_paul-bettany/review-fan.json",
+    "review-critic": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-30_06-00-05-859_paul-bettany/review-critic.json",
+    "review-unfamiliar": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-30_06-00-05-859_paul-bettany/review-unfamiliar.json",
+    "review-enneagram": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-30_06-00-05-859_paul-bettany/review-enneagram.json",
+    "review-future": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-30_06-00-05-859_paul-bettany/review-future.json",
+    "baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-30_06-00-05-859_paul-bettany/baseline-reader.md",
+    "checks": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-30_06-00-05-859_paul-bettany/checks-edit.json"
+  },
+  "outputs": {
+    "verification-edit.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-30_06-00-05-859_paul-bettany/verification-edit.json"
+  },
+  "content_sha256": "c0354f224d30ac4e390502fbd45eb0418e2b632899c1efcf7744b85f8d8f12ac",
+  "evidence_sha256": "4a1e8181ae5894efa0513338303926fbc0957471c061e504217bf1b1e551907c"
+}

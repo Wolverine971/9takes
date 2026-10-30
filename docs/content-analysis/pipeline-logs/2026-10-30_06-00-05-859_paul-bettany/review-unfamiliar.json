@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "unfamiliar",
+  "content_sha256": "50a3be2dbe05a137f3ea90d748d87ca10e7354e113bb1878d0585a63a5ff062c",
+  "evidence_sha256": "dd5e178c9ce05a442d409fc1fd3cd22072e2df59d31769154f49bdffac3a2135",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": false,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "unfamiliar-01",
+      "severity": "major",
+      "passage": "The money years did not end the worry. After the 2008 crash, he told the Daily Beast in 2022, he made films that",
+      "problem": "A reader with no prior knowledge cannot put this section in order. It runs 2003 (Stellan, the money plan), then 2011 ('The turn came with Margin Call'), then back to 'After the 2008 crash', then a two-year drought, an undated producer meeting and an undated Whedon call. Read in sequence, Margin Call looks like the end of the gun-for-hire years, and the next paragraph then places more money films and a drought after it. The Vision offer has no year. The orientation says he 'is the voice of J.A.R.V.I.S.', but the reader is never told he was already voicing J.A.R.V.I.S. for Marvel when Whedon called. The Daily Beast repost (S15, opened for this review) says so: 'I was already playing the voice of J.A.R.V.I.S.' Without that, 'Marvel became the floor he had been trying to build' arrives unexplained. 'The details shift between tellings' asserts a variation the reader is never shown. The same S15 passage holds the payoff this section lacks: Feige asked whether he could play a superhero, and Whedon showed 'one of these movies I thought was the nadir of my career' to say yes. The money films led to the floor.",
+      "acceptance_test": "An unfamiliar reader can list, with years, the order of: the post-2003 money plan; the post-2008 financially motivated films and roughly two-year drought (as S15 dates them); Margin Call (2011); the producer meeting; and Whedon's Vision offer (dated from an opened source). Where sources do not fix the order (for example, whether the drought came before or after Margin Call), the prose says so instead of implying a sequence. The section says he had voiced J.A.R.V.I.S. since Iron Man (2008) before the Vision offer, so the Marvel turn makes sense. 'The details shift between tellings' either shows one concrete, sourced difference between versions or is cut. The section's net length grows by no more than about 60 words."
+    },
+    {
+      "id": "unfamiliar-02",
+      "severity": "major",
+      "passage": "In February 2022 he told The Times the two had not spoken for years by the time Depp married Heard.",
+      "problem": "The paraphrase turns an ambiguous quote into a specific timing claim. As relayed in S12, the quote is: 'I didn't know Johnny when he was married to Amber. I knew him before. But we hadn't spoken for years.' It does not say 'by the time Depp married Heard'; 'for years' may run to 2022. The draft never says when Depp and Heard married, so a newcomer cannot test the claim, and a reader who knows the 2015 date will find it hard to square with texting in 2013. The 2016 tweet is trimmed to its middle clause. The full post (S12) begins 'Known Johnny Depp for years and through several relationships' and ends 'Just saying', which shows the reader it was a public defense, not a stray compliment. The result is an unflagged contradiction in the article's one sensitive-allegation section. The draft's correction, 'He had in fact commented in 2021 and 2022', holds Bettany to a precision this paraphrase does not meet itself.",
+      "acceptance_test": "The 2022 Times remark is quoted in its own words, or paraphrased without adding 'by the time Depp married Heard'. The 2016 tweet is quoted in full or with its opening clause. One plain sentence tells the reader that his 2016 public praise and his later accounts of years without contact are not reconciled in the record (the evidence record's 'unexplained' field already says this). No motive is assigned to either statement."
+    },
+    {
+      "id": "unfamiliar-03",
+      "severity": "minor",
+      "passage": "Depp's reply went further.",
+      "problem": "A reader without the tabloid backstory meets 'Amber' in 'Let's burn Amber!!!' before being told who she is. Heard is first named a paragraph later, and the draft never says what her relationship to Depp was when the 2013 texts were sent. The UK libel case is named without saying what the Sun article claimed, so 'which Depp lost' means little. 'Depp's reply went further.' is a tease that withholds the one fact the reader now wants.",
+      "acceptance_test": "At or before the first 'Amber', the text identifies Amber Heard and her relationship to Depp at the time (sourced). One attributed clause says what the article at issue in the libel case alleged. 'Depp's reply went further.' is replaced by a neutral, attributed description of the reply, or deleted. The section grows by no more than about 50 words."
+    },
+    {
+      "id": "unfamiliar-04",
+      "severity": "minor",
+      "passage": "Some charge straight at the threat, which the Enneagram calls the [counterphobic](/enneagram-corner/enneagram-type-6#two-flavors-of-fear-phobic-vs-counterphobic) side of the type.",
+      "problem": "The type primer introduces 'counterphobic', and the article never uses the term again. Two scenes a newcomer will struggle to fit with 'Sixes cope with fear by preparing, committing and staying alert' go unexplained. In one, a boy who was 'terrified of everyone' 'took beatings he could have avoided' and 'refused to bend' on homophobia. In the other, he 'acted so tough' with the producer. The evidence record already reads both scenes as counterphobic (C04, C15), but the reader is never told. The primer sentence is dead weight, and the two scenes read as counterevidence the article ignores.",
+      "acceptance_test": "Either (a) the counterphobic idea is applied once, hedged, to a named scene (the bullying stand or the producer meeting), with a sentence on what it does and does not show; or (b) the counterphobic sentence is cut from the primer and the beatings paragraph gets one sentence saying the stand complicates a simple fear reading. A newcomer who finishes 'The fear came first' can say how a fearful boy taking avoidable beatings fits, or strains, the Six case."
+    },
+    {
+      "id": "unfamiliar-05",
+      "severity": "minor",
+      "passage": "He also chose, as his life's work, a profession he describes as a mask.",
+      "problem": "This line carries the title's central idea, but it follows a news paragraph about the VisionQuest press tour, the brother's death and the Depp texts. 'Also' has no clear antecedent, and the mask idea lands as an afterthought to press-tour news rather than as the turn into the type answer. In the opening scene, a newcomer has to infer from 'friends on the set of A Beautiful Mind' that Connelly is an actor.",
+      "acceptance_test": "Read in sequence, the sentence that introduces acting as a mask follows the pattern statement or the identity paragraph with a clear logical link and no orphan 'also'. Connelly is identified as an actor in a few words at first mention."
+    },
+    {
+      "id": "unfamiliar-06",
+      "severity": "minor",
+      "passage": "Both men, on this reading, were trying to keep a family safe and disagreed about the price.",
+      "problem": "Two paragraphs earlier, the draft tells the reader 'Thane's reasons are not on record.' This sentence then gives Thane a motive. It builds on Paul's speculation ('had to get into heaven as a straight man so he could see his son who had died') and recasts it as keeping 'a family safe', which that speculation does not describe: a reunion with a dead son after death is not safety for a living family. A careful newcomer sees the article override its own caveat to make the father fit the thesis. Separately, 'A 2013 Telegraph profile gave a different age for the coming-out' withholds the figure (75, per S02) the reader needs to judge the size of the conflict.",
+      "acceptance_test": "The section's closing sentence claims nothing about Thane Bettany's motive beyond Paul's attributed interpretation. Any extension is labeled as the author's speculation and is not used as evidence for Six. The preceding sentence ('Paul tells his children authenticity is worth what it costs, and keeps a mask for himself.') is kept. The Telegraph's figure is stated with attribution."
+    },
+    {
+      "id": "unfamiliar-07",
+      "severity": "minor",
+      "passage": "A Four can make that trade under pressure. Bettany describes making it on purpose, as a plan, and defends it even while calling it ludicrous.",
+      "problem": "This is the first of the 'four things' and the one the section leads with, but a reader with no Enneagram background cannot tell why 'under pressure' versus 'on purpose, as a plan' separates the types. Earlier, the article set up a clear test, 'what he does each time the floor drops'. The evidence record states the discriminator plainly: a Four turns toward the loss to deepen a distinct identity, and a Six secures the base against the next threat. This paragraph does not use either, so the reader's first 'why not Four' takeaway is muddy.",
+      "acceptance_test": "The first reason names the observable difference in plain words: what a Four would be expected to do with the same moment, against what Bettany did. It links back to the 'floor drops' test from the type section and adds no new jargon. A reader who knows nothing about the Enneagram can say in one sentence why this choice points to Six rather than Four."
+    },
+    {
+      "id": "unfamiliar-08",
+      "severity": "minor",
+      "passage": "His wariness fits the caution seen elsewhere in his record, but any publicist would advise the same, so neither the texts nor his silence carries weight in the type case here.",
+      "problem": "The father section ends on VisionQuest as 'a show about grandfathers, fathers, and sons', a natural run-in to 'What the mask is for'. The Depp section interrupts and ends by telling the reader it does not bear on the argument. The conclusion then has to restart with a recap ('Put the pieces in order and the shape holds') that restates five points already made. The Depp material belongs in the article for search intent and fairness, but where it sits costs the ending its lift. The body is already about 3,550 words, above the 3,500 target.",
+      "acceptance_test": "Either the Depp section is moved so the father section flows straight into the conclusion (for example, before 'The father who went back in'), or the conclusion's first paragraph adds something not already stated instead of recapping. The edited body is no longer than the current one."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "It looked like the crowd for a football match, except that it was silent. He walked in and saw the second plane hit the tower.",
+      "reason": "A concrete, sourced image. It orients a reader with no prior knowledge and creates curiosity before any typology appears."
+    },
+    {
+      "passage": "That confession holds the whole pattern. He sees that the threat was exaggerated. He calls his response ludicrous. Then he defends it anyway, because the money could stop.",
+      "reason": "It teaches a newcomer how to read the evidence. It is the clearest step-by-step account of the pattern, built from his own words rather than type vocabulary."
+    },
+    {
+      "passage": "[Lennon](/personality-analysis/john-lennon), whom 9takes reads as a Four, put his rawest wound in a lyric.",
+      "reason": "It makes the Four-versus-Six distinction concrete through a comparison any reader can grasp, and it leads into his own 'not sure I want anybody to really know' line."
+    },
+    {
+      "passage": "Paul tells his children authenticity is worth what it costs, and keeps a mask for himself.",
+      "reason": "An unresolved contradiction that survives the type argument. It is distinctive, true to the sourced record, and the most memorable line in the father section."
+    },
+    {
+      "passage": "\"I'm not any less neurotic now, by the way,\" he said. \"I'm just better at hiding it.\"",
+      "reason": "An earned ending that joins the fear and the mask in his own words, without a moral or a call to action."
+    }
+  ],
+  "assessment": "For a reader who knows Bettany only as Vision, or not at all, the draft largely works. The 9/11 opening is concrete and sourced. The identity paragraph arrives early enough, the type answer is plain, and the early sections each add a new kind of evidence (childhood fear, the money plan, preparation habits) instead of restating the thesis. A newcomer comes away knowing about the brother's death and the guilt he later disclosed, acting chosen as a 'safety net' and a 'mask', the boarded-windows money plan, the punctuality and preparation habits, and the father who went back into the closet. The Four alternative gets a real hearing, and the limits paragraph says what Six does not explain. The stakes are visible: art pushed aside, worry that outlasts success, and not wanting to be known. That gives the type claim something to explain. The weak spots are orientation and sequence, not substance. The money years cannot be put in order, and Marvel's arrival goes unexplained. The Depp section uses 'Amber' and a libel case without saying who or what, hardens an ambiguous 2022 quote into a timing claim that clashes with the 2013 texts and the 2016 tweet, and then stalls the run-in to the ending. 'Counterphobic' is defined and dropped while two scenes that need it go unexplained. The father section's last sentence gives Thane a motive two paragraphs after saying his reasons are not on record. The body is about 3,550 words, slightly over the 3,500 target, so fixes should not add net length; the conclusion's recap paragraph is the natural cut. The similarity advisory did not trip. I compared the top leads in the Christopher Abbott and Josh Hartnett drafts: the overlap is ordinary Type 6 vocabulary ('head triad', 'organized around fear'), and this draft's argument rests on Bettany-specific quotes, so I report no reuse. For this review I opened only the 2022 Daily Beast repost (S15), to check the money-years chronology; other source details are taken from the evidence record. The risk flags match the record, with sensitive allegations because of the Depp/Heard material."
+}

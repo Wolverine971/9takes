@@ -1,0 +1,100 @@
+{
+  "schema_version": 3,
+  "role": "fan",
+  "content_sha256": "50a3be2dbe05a137f3ea90d748d87ca10e7354e113bb1878d0585a63a5ff062c",
+  "evidence_sha256": "dd5e178c9ce05a442d409fc1fd3cd22072e2df59d31769154f49bdffac3a2135",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": false,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "fan-01",
+      "severity": "major",
+      "passage": "So acting began as the backup plan, chosen partly because singing his own words in public left him exposed.",
+      "problem": "The origin story uses only the October 2026 podcast. Two opened interviews give an earlier and different account, and the draft leaves both out. The Times (S01, January 2012): \"I used to bunk off and had a lot of revenge fantasies where I thought, 'One day you'll be sorry,'\" and his desire to act was \"absolutely\" fuelled by this. Same interview: \"Acting became a vocation. I don't remember thinking it was about money until I had kids.\" The Telegraph (S02, May 2013): \"Growing up, I'd always loved acting, but fame? Well I suppose I did want it in a childish, revenge fantasy kind of way.\" Both parents had been performers (\"His parents were both former actors\", S01; \"My mother was a singer\", S15), so the safety net was also the family trade. A reader who knows the revenge-fantasy line will see the 'backup plan' framing, and the 'Second, look at how he chose his art form' discriminator built on it, as cherry-picked. A fame-as-revenge motive also cuts against \"Applause is one thing he will not lean on,\" and the type argument never tests it.",
+      "acceptance_test": "The origin passage gives both tellings with dates and exact words: the 2026 second-string/'safety net'/'so revealed' account (S23) and the 2012/2013 'always loved acting'/revenge-fantasy account (S01, S02). It also states that both parents had been performers. The 'Second' point under Why not Type 4 no longer implies that acting was only a fallback. The type argument either explains the revenge-fame motive within the Six reading (e.g. counterphobic defiance) or lists it as unexplained. Any description or FAQ wording that leans on \"safety net\" stays true to the qualified account."
+    },
+    {
+      "id": "fan-02",
+      "severity": "major",
+      "passage": "Drama school saved him, he went on, because \"there was always a mask that I could hide behind,\"",
+      "problem": "This misstates his reason. In the podcast (S23, about 28:37 to 28:54; both cached transcriptions agree), drama school \"really saved me in that it gave me a place that I [could] turn very negative things into something creative. And there was always a mask that I could hide behind.\" He gives two reasons, and the creative one comes first. The draft turns 'because' into the mask alone, drops the clause that ties his answer together, and moves the 'brokenness' line from the same answer over to the Four column. This is the passage the evidence record calls the sharpest single test between Six and Four, so the clipped causal framing tilts the discriminator.",
+      "acceptance_test": "The sentence reports both reasons he gave, in order: a place to turn negative things into something creative, and a mask to hide behind. Quote or closely paraphrase the creative clause, and flag the transcription uncertainty ('could'/'couldn't') if it is quoted. The Four/Six weighing that follows treats the answer as one statement that holds both halves, not as two separate pieces of evidence."
+    },
+    {
+      "id": "fan-03",
+      "severity": "major",
+      "passage": "In February 2022 he told The Times the two had not spoken for years by the time Depp married Heard.",
+      "problem": "The opened relay (S12, Insider via Yahoo) quotes him: \"I didn't know Johnny when he was married to Amber. I knew him before. But we hadn't spoken for years. During the marriage, I didn't know them.\" The draft turns that into a timeline, 'by the time Depp married Heard', which the record's own dates contradict. The texts date from 2013 (S12; S11 says 2013 and 2014). Gulf News (S21) says they were sent \"when Depp and Bettany were working together\" and that the two \"appeared in three films between 2010 and 2015\". Depp married Heard in 2015 (S21). The draft also cuts the 2016 tweet down to its compliment, dropping \"Known Johnny Depp for years and through several relationships ... Just saying\" (S12). That is the clause critics set against his later account (S29). The section never says the two were friends and co-stars (The Tourist and Mortdecai, S11/S29), which is why they were texting. It is also exactly what he objected to in 2026: being \"painted as this close friend of a guy I hadn't spoken to in years\" (S21). On a sensitive-allegation passage, a paraphrase that creates an impossible timeline is a material accuracy error, and the trimmed tweet hides the contradiction any informed reader will raise.",
+      "acceptance_test": "Quote the 2022 Times statement in his own words, with no 'by the time Depp married Heard' timeline unless an opened source states it. Quote the 2016 tweet in full, including \"through several relationships\". Add one sourced, dated sentence on their working relationship: co-stars in The Tourist (2010) and Mortdecai (2015), with the texts sent while they were working together in 2013. Include his 2026 objection to being painted as a close friend. Keep the dates side by side so the reader can see the tension, and assign no motive. Keep the FAQ consistent with the body."
+    },
+    {
+      "id": "fan-04",
+      "severity": "minor",
+      "passage": "\"It blew the family apart,\" Bettany has said.",
+      "problem": "The profile gives a whole H2 to his father but never mentions his mother or his sister, and never says concretely what 'blew the family apart' meant. Opened sources supply all three. His mother Anne had been an actress and singer (S02, S15; \"my mom was a singer, my grandmother was a singer\", S23). He has an older sister, Sarah (S02; \"I have one sister\", S23). His parents' marriage \"buckled under the strain of the trauma\" and ended in divorce in 1993 (S02; S27 \"His parents later divorced\"). For a thesis about rebuilding family footing, these are the basic formative facts an informed reader expects.",
+      "acceptance_test": "The brother/family passage states, with attribution, that his mother was a former performer, that he has an older sister, and that his parents divorced in 1993 after Matthew's death (S02). No causal link to his own marriage or parenting is drawn unless he made it himself."
+    },
+    {
+      "id": "fan-05",
+      "severity": "minor",
+      "passage": "He took the studio jobs that paid.",
+      "problem": "The money years are the article's central costly choice, yet no film from them is named. The Telegraph (S02) names Wimbledon (2004), Firewall (2006), The Da Vinci Code and Priest. Reuters (S20) says the producer cited \"two box office disappointments\". The draft also misses a payoff fans know, which Bettany told the Daily Beast (S15, 2022): when Whedon pitched him to Kevin Feige he \"was already playing the voice of J.A.R.V.I.S.\", and Whedon used \"one of these movies I thought was the nadir of my career\" to show he could play a superhero. That detail makes the thesis concrete: the safety net became the living. The Times (S01, 2012) adds a nuance the draft compresses: when Stellan was born \"he took a year and a half off\", and the paid films were chosen to make \"the most amount of money in the shortest amount of time so I could get back to my family\".",
+      "acceptance_test": "The money-years passage names at least two studio films from the period, with years taken from S02/S27. The Marvel turn includes the J.A.R.V.I.S. and 'nadir of my career' detail from S15. The Stellan passage allows for the year and a half off and the 'shortest amount of time' rationale (S01), so it no longer implies the birth set off a money drive and nothing else."
+    },
+    {
+      "id": "fan-06",
+      "severity": "minor",
+      "passage": "She lived in downtown New York, both of them were seeing other people, and calls into the city were not getting through.",
+      "problem": "On 9/11 the record says the opposite. The Times (S01, 2012): \"When both were single, September 11 happened.\" The Telegraph (S02) and the podcast (S23) put the other relationships at the time of A Beautiful Mind, and the podcast never says they were still attached in September 2001. The change alters a well-known romance, turning two single people into an attached friend anxiously checking on another.",
+      "acceptance_test": "The sentence either drops the relationship status or attributes it correctly: other partners during A Beautiful Mind, both single by 9/11 per the 2012 Times (S01)."
+    },
+    {
+      "id": "fan-07",
+      "severity": "minor",
+      "passage": "Fans who pose with him, he said, are \"certainly not meeting the actual me.\"",
+      "problem": "In context (S14) the line runs both ways and is about how unreal fame encounters feel. It follows his description of fans' arms shaking as they pose: \"I'm not meeting you, and you're not meeting me. Or: You're certainly not meeting the actual me, and I'm not meeting who you really are.\" Cut down to 'the actual me', a remark about the strangeness of fan encounters becomes a Four-style claim about a hidden true self. The same cut appears in the 'Why isn't Paul Bettany a Type 4?' FAQ. The source passage also calls fame \"an untrustworthy thing\", a line the draft uses on the Six side.",
+      "acceptance_test": "The body quote includes the reciprocal clause, or the paraphrase reflects it. The Four case and the FAQ answer use the line only for what it says about fan encounters."
+    },
+    {
+      "id": "fan-08",
+      "severity": "minor",
+      "passage": "Fourth, the fear predates the loss.",
+      "problem": "The point is fair as far as it goes. But the draft leaves out the most direct opened evidence that the loss shapes his fear as a parent, which is the subject of the 'zombie apocalypse' passage. The Times (S01, 2012) says his brother's fall \"is right there\" when his children jump on the couch and he feels terrified: \"I have to stop myself from shouting, 'Stop it.'\" The 2012 Guardian relay (S28) has him calling Matthew \"the most important person to me\" at the time. An informed reader will find the fourth argument one-sided: the bullied-boy fear weakens a trauma-only explanation, yet the trauma plainly feeds his fear for his children.",
+      "acceptance_test": "The couch detail (S01, 2012, exact words) appears near the 'hammering bits of wood' passage or in the limits paragraph. The 'Fourth' point concedes that the loss visibly shapes his fear for his children, while still arguing that fearfulness came first."
+    },
+    {
+      "id": "fan-09",
+      "severity": "minor",
+      "passage": "His wariness fits the caution seen elsewhere in his record, but any publicist would advise the same, so neither the texts nor his silence carries weight in the type case here.",
+      "problem": "'Caution seen elsewhere' ignores a well-known counter-pattern in an opened source. He told the Daily Beast (S15, 2022) that he became a US citizen \"because I was tired of getting shouted down on Twitter for having an opinion about the country where I pay taxes in\". Gulf News (S21) notes that he later left the platform. Years of opinionated public posting are the strongest public counter-example both to 'caution' and to \"I'm not sure I want anybody to really know that much about me definitively.\" The paragraph on the Six reading's limits covers his candor in interviews but not this.",
+      "acceptance_test": "Either cut 'fits the caution seen elsewhere in his record', or add the Twitter/citizenship detail (S15, 2022) as dated counter-evidence in the limits paragraph. The citizenship fact in the 'Who is' FAQ stays consistent."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "On September 11, 2001, Paul Bettany was buying groceries in Italy when he noticed a crowd outside a tavern. It looked like the crowd for a football match, except that it was silent. He walked in and saw the second plane hit the tower.",
+      "reason": "Matches the 2026 podcast telling closely (S23, about 41:24 to 41:49). It avoids the Umbria/Tuscany conflict between tellings by saying 'Italy', and opens on a famous story with details most fans have never heard."
+    },
+    {
+      "passage": "That confession holds the whole pattern. He sees that the threat was exaggerated. He calls his response ludicrous. Then he defends it anyway, because the money could stop.",
+      "reason": "A close reading of his best-known confession (S02) that lets his own words carry the type argument. It is specific to him and could not be reused for anyone else."
+    },
+    {
+      "passage": "The details shift between tellings. The core holds: bravado in the room, collapse on the pavement, told against himself.",
+      "reason": "Handles the variant tellings of his most-repeated anecdote honestly (S15 vs S20 vs S14). Informed readers will trust the piece more because of it."
+    },
+    {
+      "passage": "That is Bettany's interpretation. Thane's reasons are not on record.",
+      "reason": "Model attribution on a sensitive family story: it keeps the son's reading separate from the father's unknown motive."
+    },
+    {
+      "passage": "Paul tells his children authenticity is worth what it costs, and keeps a mask for himself.",
+      "reason": "Names the real contradiction an informed reader feels between his father lesson (S09) and his own art form (S23). It is the most distinctive insight in the piece."
+    }
+  ],
+  "assessment": "Read as an informed-reader proxy. I checked the famous stories against cached copies of opened sources: S01, S02, S04, S12, S14, S15, S20, S21, S23 (both podcast transcriptions), S24 (including \"Some days!\" in the page HTML), S27, S28 and S29. They are mostly told accurately, and the variants are handled honestly (9/11 day count, the Sunset Boulevard call, the father's coming-out age). The main weakness is selective sourcing on the load-bearing discriminator. The 'safety net/mask' origin rests on the 2026 podcast and leaves out the 2012/2013 'always loved acting' and revenge-fantasy accounts in opened sources. It also clips the podcast's own first reason (turning negative things into something creative) from the mask line. Together these make the Six-over-Four case look cleaner than the record. Basic formative facts are missing: his mother, his sister and his parents' 1993 divorce. The Depp section paraphrases the 2022 Times into a timeline the record's own dates contradict, trims the 2016 tweet, and omits the co-star friendship, so the sensitive-allegations risk stays on. I think the Six reading can survive these repairs, so I am not flagging contested typing. The revenge-fame motive must be confronted, though, not omitted. Limits: I did not open the Guardian originals (S03, S28) and relied on their relays, as the draft does. I verified the Depp co-star dates only through S11, S21, S29 and S27, not a filmography database."
+}

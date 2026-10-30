@@ -1,0 +1,338 @@
+{
+  "schema_version": 3,
+  "decisions": [
+    {
+      "finding_id": "subject-F01",
+      "action": "fixed",
+      "reason": "Checked S21 (Gulf News cache): 'So I decided to say nothing' follows directly on his objection to being 'painted as this close friend ... that bit was the most odd'. The 2026 quotes now appear in that order, and 'He had in fact commented in 2021 and 2022' is removed. The section instead gives a neutral dated record: 'a strange moment' and 'just pour fuel on the fire' (December 2021), 'embarrassing' plus his own words (February 2022), 'By December 2022 he declined to discuss it further' (S15), and the October 2026 statement. The closing sentence now says 'his reluctance to discuss them' instead of 'his silence'."
+    },
+    {
+      "finding_id": "subject-F02",
+      "action": "fixed",
+      "reason": "Confirmed in S12 (Insider relay): he says 'I didn't know Johnny when he was married to Amber. I knew him before. But we hadn't spoken for years' and gives no date for when contact stopped. The invented 'by the time Depp married Heard' timing is gone; the article quotes his words directly (C60). The FAQ paraphrase says only that he knew Depp before the marriage but not during it."
+    },
+    {
+      "finding_id": "subject-F03",
+      "action": "fixed",
+      "reason": "Added his own dated responses: 'embarrassing' and 'We live in a world without context' (February 2022, S12), and the October 2026 objection that the close-friend portrayal was 'the most odd' (S21). The 2016 tweet is quoted in full, from 'Known Johnny Depp for years and through several relationships' to 'Just saying', and is labelled undated rather than set up as a contrast. No intent is assigned to the texts, and the tone stays neutral toward all three people."
+    },
+    {
+      "finding_id": "subject-F04",
+      "action": "fixed",
+      "reason": "Deleted 'Both men, on this reading, were trying to keep a family safe and disagreed about the price' and the sentence giving Thane a Six-shaped reunion motive. The section now gives Thane no motive beyond Paul's two attributed explanations ('the dogma of Catholicism', 2020; the heaven-reunion reading, 2026) and keeps 'Thane's reasons are not on record'. The protected line about the mask is kept but now framed: it is labelled 'on our reading rather than his', the mask is defined as he described it ('a performer's cover and a wish not to be known \"definitively\"'), and the text adds 'It is not a closet; he has discussed his father, his brother, his addiction and his therapy in interview after interview.' Nothing suggests he hides his identity."
+    },
+    {
+      "finding_id": "subject-F05",
+      "action": "fixed",
+      "reason": "The brother passage now quotes his grief from the relayed 2012 Guardian answer ('I was very close to my brother', S28) and, straight after the guilt line, his account of working through it ('dropped into a maze by their childhood' ... 'a lot of therapy', S23 clips c5/c6). The FAQ gives the guilt line together with 'very close to my brother' and the therapy context."
+    },
+    {
+      "finding_id": "subject-F06",
+      "action": "fixed",
+      "reason": "Added his stated reasons from Windy City Times (S06): he asked whether taking the part was 'morally correct' and whether he had 'the energy' to revisit dark moments from his own life. The source's framing question about casting ethics is recorded in S06's context."
+    },
+    {
+      "finding_id": "subject-F07",
+      "action": "fixed",
+      "reason": "Checked S14: the line is reciprocal ('I'm not meeting you, and you're not meeting me ... and I'm not meeting who you really are') and is about fan photos. The clipped quote is removed from both the body and the 'Why isn't Paul Bettany a Type 4?' FAQ, so it no longer counts as Four identity evidence. Claim C18 is removed."
+    },
+    {
+      "finding_id": "subject-F08",
+      "action": "fixed",
+      "reason": "The recap that said 'He marries in a crisis' is gone along with its whole paragraph. The opening keeps the sequence: the realization during the crisis, then the wedding on January 1, 2003."
+    },
+    {
+      "finding_id": "fan-01",
+      "action": "fixed",
+      "reason": "Confirmed in S01/S02 caches. The origin passage now gives the tellings with dates: a vocation he had 'always loved' and, in his words, fame wanted 'in a childish, revenge fantasy kind of way' (2012-2013); 'fell into' acting (2022, S15); and the 2026 fallback/'safety net' account (S23). It adds: 'That last version fits this profile best, which is a reason not to lean on it alone.' The bullying paragraph shows the revenge fantasies that 'absolutely' fueled his wish to act. Both parents are shown as performers (mother an actor and singer; father a Royal Ballet dancer and actor). The mask point no longer implies acting was only a fallback. The Type 3 paragraph names the revenge-fame motive as what the Six reading handles worst. The description and FAQs no longer use 'safety net'."
+    },
+    {
+      "finding_id": "fan-02",
+      "action": "fixed",
+      "reason": "The mask sentence now gives both reasons in order: drama school 'gave him a place to turn very negative things into something creative, and \"there was always a mask that I could hide behind.\"' The creative clause is paraphrased, not quoted, because every transcription hears 'couldn't' (noted in S23 and C37). The weighing treats the mask and 'brokenness' lines as one answer and calls it shared ground."
+    },
+    {
+      "finding_id": "fan-03",
+      "action": "fixed",
+      "reason": "His 2022 Times words are quoted with no added timeline. The 2016 tweet is quoted in full including 'through several relationships'. Added a sourced working-relationship sentence: co-stars in The Tourist (2010) and Mortdecai (2015), with the texts sent in 2013 'while they were working together' (S21, S27, S11). His 2026 objection to being 'painted as this close friend' is included, and the dates sit side by side with no motive assigned. The FAQ matches."
+    },
+    {
+      "finding_id": "fan-04",
+      "action": "fixed",
+      "reason": "Added, with attribution: his mother Anne had been an actor and a singer (S02, S15), he has an older sister, Sarah (S02), and his parents divorced in 1993 after the marriage 'buckled under the strain of the trauma', as the Telegraph reported. No link to his own marriage or parenting is drawn."
+    },
+    {
+      "finding_id": "fan-05",
+      "action": "fixed",
+      "reason": "The money years now name the period's studio films, from Wimbledon (2004) to Priest (2011), without claiming which were money jobs, since he won't say (S01). Added the year and a half off after Stellan's birth and the 'shortest amount of time so I could get back to my family' rationale (S01). The Marvel turn includes that he was already voicing J.A.R.V.I.S. and that Whedon used 'one of these movies I thought was the nadir of my career' (S15)."
+    },
+    {
+      "finding_id": "fan-06",
+      "action": "fixed",
+      "reason": "Removed 'both of them were seeing other people'. S01 says 'When both were single, September 11 happened', and the podcast puts the other partners in the A Beautiful Mind period."
+    },
+    {
+      "finding_id": "fan-07",
+      "action": "fixed",
+      "reason": "The clipped 'actual me' quote is removed from the body and the FAQ (see subject-F07), so it no longer serves as Four evidence."
+    },
+    {
+      "finding_id": "fan-08",
+      "action": "fixed",
+      "reason": "The couch detail now sits right after the 'hammering' passage, in his words ('is right there' ... 'I have to stop myself from shouting, \"Stop it.\"', S01 2012). The former 'Fourth' point is now a circumstance paragraph. It concedes that 'the loss plainly feeds his fear as a parent' while arguing that the fear came first."
+    },
+    {
+      "finding_id": "fan-09",
+      "action": "fixed",
+      "reason": "Kept the protected 'caution' sentence. Added the dated counter-evidence to the limits paragraph: he took US citizenship because he 'was tired of getting shouted down on Twitter for having an opinion' (S15, 2022), 'an odd habit for a man who does not want to be known.' The citizenship FAQ is consistent."
+    },
+    {
+      "finding_id": "critic-01",
+      "action": "fixed",
+      "reason": "Both halves of his reason now appear in order. The mask is no longer used as a discriminator: 'The mask leans toward Six but does not separate the types on its own ... A Four who feels flawed can hide behind a role too, and the brokenness line comes in the same answer, so this is shared ground.' Only pre-2026 guarding evidence (S05, 2015) tilts it slightly. The 'Why isn't Paul Bettany a Type 4?' FAQ now leads with the 2003 money plan and the 2012-2026 'what if' pattern. The description, title and meta title no longer use 'mask' or 'safety net'."
+    },
+    {
+      "finding_id": "critic-02",
+      "action": "fixed",
+      "reason": "The article now says his origin accounts differ, with dates: 2012-2013 vocation and revenge fantasy, 2022 'fell into acting', 2026 fallback. 'The fear came first' shows the revenge-fantasy response to bullying ('the childish motor in me'). The old 'Fourth' point is folded into a circumstance paragraph. The closing recap ('He picks the art form that lets him hide and calls it his safety net') is deleted, and nothing says he chose acting in order to hide."
+    },
+    {
+      "finding_id": "critic-03",
+      "action": "fixed",
+      "reason": "The money section is now chronological: 2003 plan; post-2008 films and roughly two-year drought, with the prose saying the drought is undated relative to Margin Call; Margin Call (2011) and the reversal in his words ('I need to be happy, and if that means making films for less money, so be it', S01); the producer; Whedon. The protected 'He sees that the threat was exaggerated' is kept but now explicitly dated as his view: 'That was his view in 2013, and the fear had a basis', followed by 'I know great actors whom nothing has ever happened for' (S02). The Four section concedes the reversal and explains why the pattern still favors Six: the worry outlived the money years and the Marvel security ('I wonder if anybody remembers me', 2026)."
+    },
+    {
+      "finding_id": "critic-04",
+      "action": "fixed",
+      "reason": "Added a sourced Type 3 test. Three-compatible evidence: 'the one thing that gave me self-worth', 'safe and relevant' (S15), and the revenge-fame fantasy. Discriminators: he lists 'judging yourself' by others' praise among acting's 'terrible, terrible things' (S15), distrusts adulation ('What if it goes away?'), took less money after Margin Call, and tells his low points against himself. type_hypothesis.discriminator and unexplained now record Type 3 as tested, with the revenge motive left partly unexplained."
+    },
+    {
+      "finding_id": "critic-05",
+      "action": "fixed",
+      "reason": "Removed the shared 'keep a family safe' motive and the sentence building on Paul's heaven interpretation. Thane gets no motive beyond Paul's quoted explanations. The father-son parallel is labelled 'on our reading rather than his', the mask is limited to what he described (a performer's cover and not wanting to be known 'definitively'), and the text says outright: 'It is not a closet; he has discussed his father, his brother, his addiction and his therapy in interview after interview.'"
+    },
+    {
+      "finding_id": "critic-06",
+      "action": "fixed",
+      "reason": "Added one neutral clause with a link (S11): 'The court dismissed his claim that the label was libelous', and the clause that The Sun 'had called him a \"wife beater.\"' The tweet is quoted in full with its 'known ... through several relationships' framing and marked 'undated in the reports', so its timing against Heard's 2016 allegations is explicitly open. Heard's 2016 accusation is stated, the episode stays out of the type case, and the FAQ matches."
+    },
+    {
+      "finding_id": "critic-07",
+      "action": "fixed",
+      "reason": "The hook no longer calls 9/11 'the clearest example': 'Almost anyone would keep dialing; what matters is where it led, to a certainty he calls new. It is an early instance of a pattern ...' The recap with 'marries in a crisis' is deleted. The certainty fragment is attributed as 'In the Telegraph's account, the romance gave him ...'. The evidence record now notes that S02's writer proposed the security/foundations frame (S02 context, C07 alternative, type_hypothesis.unexplained)."
+    },
+    {
+      "finding_id": "critic-08",
+      "action": "fixed",
+      "reason": "The camera passage now includes the comic end of the list ('the dog's going to poop in front of the paparazzi') and says it 'was played for laughs and can only hint at the split'. 'Telling exception' is softened to 'one exception he describes'."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "action": "fixed",
+      "reason": "Events now run in order with years: Stellan and the money plan (2003); the post-2008 films and roughly two-year drought (S15), with the prose saying the drought's order against Margin Call is unclear; Margin Call (2011); the producer meeting; Whedon's call, with 'Vision reached the screen in 2015' (S20). The intro says he voiced J.A.R.V.I.S. from Iron Man (2008), and the Whedon paragraph says he was already voicing it when Whedon pitched him. 'The details shift between tellings' is now preceded by a concrete sourced difference: a meeting about a film in 2022, an audition for Reuters in 2026. The section grew by about 90 words, more than the suggested 60, because fan-05 and critic-03 required the films, the year off, the reversal quote and the J.A.R.V.I.S. detail. The Guardian block quote moved out to offset part of it."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "action": "fixed",
+      "reason": "The 2022 remark is quoted in his own words with no wedding timing. The 2016 tweet is quoted in full, including the opening clause and 'Just saying'. Added the plain sentence 'The record does not reconcile his 2016 praise with his later accounts of years without contact.' No motive is assigned. The 'in fact' line is gone (see subject-F01)."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "action": "fixed",
+      "reason": "Heard is identified before the first 'Amber' ('Depp was dating the actor Amber Heard', S21). The Sun's claim is stated ('which had called him a \"wife beater\"'), along with the court's outcome. 'Depp's reply went further.' is deleted. The section grew by about 85 words rather than 50 because subject-F03, critic-06 and fan-03 required his own dated responses, the UK finding and the co-star context. The boycott clause and the 'in fact' sentence were cut to offset part of it."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "action": "fixed",
+      "reason": "Applied once and hedged on the bullying stand: 'The stand could be the counterphobic streak or plain conviction; the record cannot tell them apart.' The Type 3 paragraph also tests counterphobic defiance against the revenge fantasy and calls it 'possible but thin', so a reader can see how the beatings fit, and strain, the Six case."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "action": "fixed",
+      "reason": "Deleted the orphan 'He also chose, as his life's work, a profession he describes as a mask', along with the press-tour sentence before it. The intro now runs from the pattern statement straight to the dated orientation paragraph, then the type answer. Connelly is introduced as 'the actor he had befriended on the set of A Beautiful Mind'."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "action": "fixed",
+      "reason": "The section's close gives Thane no motive beyond Paul's attributed interpretations; the 'keep a family safe' sentence is deleted and not used as Six evidence. The protected 'Paul tells his children ...' sentence is kept. The Telegraph's figure is stated: 'A 2013 Telegraph profile instead said he announced his bisexuality at 75.'"
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "action": "fixed",
+      "reason": "The first reason now names the observable difference in plain words and links back to the type section's test: 'The test from the type answer still favors Six: what he does when the floor drops. A Four in pain tends to turn toward the loss and ask what it says about who he is. Bettany shores up the base against the next blow.' The sourced money plan and the 2012-2026 'what if' examples follow. No new jargon."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "action": "fixed",
+      "reason": "The Depp section now sits before 'The father who went back in', so the father section and its VisionQuest paragraph lead straight into the ending. The recap paragraph ('Put the pieces in order ...') is deleted. The conclusion's first paragraph adds something new: the open test of what he does with a secure floor ('love to write and direct again', S24), and what would favor Four or Six. On length, the body is 3,944 words by the contract's count against the draft's 3,554. The other five jurors required about 20 accuracy and fairness additions: origin tellings, family facts, the grief line, films, the reversal, the J.A.R.V.I.S. detail, the Type 3 test, the circumstance answer, the Five turn, the Twitter counter-evidence and the Depp responses. To offset them the edit cut the recap, the press-tour intro sentence, the boycott clause, the Connelly-directing quote, the Vermont repeat, the Hopkins advice, the deflation paragraph and the 'five interviews' line. The body stays inside the 4,500 limit, but it is longer than the draft, so that part of the acceptance test is not met. That trade is deliberate, and it is recorded here so the verifier can judge it."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "action": "fixed",
+      "reason": "The mask is now supporting material, not a discriminator. The text concedes that a shame-driven Four can hide behind a role and that the mask and 'brokenness' lines come from one answer. The 'Why isn't Paul Bettany a Type 4?' FAQ leads with the 2003 money plan he calls ludicrous and defends, plus the 2012-2026 'what if' hedging. The title is now the site's identity-first convention, 'Paul Bettany: Enneagram Type 6 Personality Analysis'. The meta title is 'Why 6 Edges Out 4', and the description rests on 'precarious' and the money plan (S02, S03, S28), not on 'safety net' or 'mask'."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "action": "fixed",
+      "reason": "Confirmed in S14 that the line follows a comparison ('Some people have amazing access to their emotions ...'). It is now in the Four case, labelled 'a very Four comparison'. The deflation point, which rested on 'ponce' and 'quite lazy', is dropped entirely, as the acceptance test allows, so no Four-compatible line is filed as anti-Four evidence."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "action": "fixed",
+      "reason": "The Five passage now keeps the source's turn: he does 'better than I think in isolation' and is surprised by it: 'I feel like I should fall apart more than I do. But I don't.' The Six-relevant reading (he 'expects his to fail') is labelled interpretation in C28. The case against Five rests on his reliance on family and therapy, shown in the preparation section."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "action": "fixed",
+      "reason": "Cut the 'keep a family safe' sentence and the Six-framed reunion sentence. The unresolved tension stays: 'Paul tells his children authenticity is worth what it costs, and keeps a mask for himself', labelled as our reading, with no shared motive given to the two men and no use as Six evidence."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "action": "fixed",
+      "reason": "The point is now a circumstance paragraph: 'Circumstance is the other serious explanation, and the loss plainly feeds his fear as a parent. But the fear came first ...' 'Terrified of everyone' is acknowledged where it appears: 'A new boy at a hostile school has reason to be afraid, so this is circumstance as much as temperament.' Uses the S15 Warhol line with date and attribution: 'it's his fear ... I remember the world feeling like a frightening place.'"
+    },
+    {
+      "finding_id": "enneagram-06",
+      "action": "fixed",
+      "reason": "Added a Type 3 paragraph. It names 'self-worth' and 'safe and relevant' and explains why distrust of praise ('terrible, terrible things'), taking less money and telling his low points against himself argue against image management (see critic-04)."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "action": "fixed",
+      "reason": "The punctuality passage now credits drama school ('credited drama school, where actors learn to arrive well before curtain', S23 21:10) and presents the 2013 'pathological fear' as the part that goes beyond training. The Hopkins shop advice is cut. The career-dread passage ends 'Most actors share that dread, so it shows continuity, not type.'"
+    },
+    {
+      "finding_id": "enneagram-08",
+      "action": "fixed",
+      "reason": "The hook now calls 9/11 'an early instance' and says the phoning is ordinary and the certainty is what matters. The 60-word body answer now reads 'most likely an Enneagram Type 6, the Loyalist, held at medium confidence with Type 4 the closest rival' (54 words), identical to the FAQ."
+    },
+    {
+      "finding_id": "enneagram-09",
+      "action": "fixed",
+      "reason": "Removed the clipped 'actual me' quote from the body and the FAQ (see subject-F07)."
+    },
+    {
+      "finding_id": "future-01",
+      "action": "fixed",
+      "reason": "Replaced the paraphrase with his exact relayed words. No sentence dates the gap to the wedding. The 2016 tweet is quoted in full and marked undated, beside the dated statements, with no wording that implies inconsistency. C26 and C60 are updated (C60 now holds the 2022 quote); C25 holds the 2026 statement in source order."
+    },
+    {
+      "finding_id": "future-02",
+      "action": "fixed",
+      "reason": "The Depp section is now a dated record: 2013 texts, the 2020 UK case and its outcome, Heard's 2016 accusation, the 2022 US verdict, the December 2022 settlement, and his responses from December 2021, February 2022, December 2022 and October 2026. The boycott clause, S29's use and claim C45 are removed. The 'in fact commented' line is removed. The intro no longer cites renewed Depp attention, and VisionQuest appears only as a dated credit."
+    },
+    {
+      "finding_id": "future-03",
+      "action": "fixed",
+      "reason": "The headline frame no longer depends on S23. The title follows the site's identity-first convention, the meta title and description rest on 2012-2013 multi-source evidence, and the Four rebuttal now leads with the 2003 money plan and the 'what if' pattern; the mask is supporting only. (b) S23 now records the RSS enclosure URL as a second stable locator, and the article gives timestamps for the safety-net (13:44) and mask (28:10) quotes. (c) The mask point cites a pre-2026 text source, the 2015 Independent busking quote (S05). (a) A human listen cannot be done in this stage. It is not claimed, and it remains the first research task. The quoted spans are words three machine transcriptions share."
+    },
+    {
+      "finding_id": "future-04",
+      "action": "fixed",
+      "reason": "C32 (body credits) and C55 (marriage FAQ) are now time_sensitive. C32's trigger names Avengers: Doomsday (18 December 2026), any Secret Wars confirmation, a Vision recast or exit, and VisionQuest renewal or cancellation; C55's names any change in marriage status. Body and FAQ credits are past-tense and dated ('voiced J.A.R.V.I.S. ... from 2008', 'first played Vision in 2015', 'led VisionQuest'). Residence is 'since the early 2000s', and the marriage line is 'He married Jennifer Connelly on January 1, 2003'. New FAQ credit claim C135 has the same trigger."
+    },
+    {
+      "finding_id": "future-05",
+      "action": "fixed",
+      "reason": "Removed 'whom 9takes reads as a Four'. The link and the lyric-versus-mask contrast stay: '[Lennon](/personality-analysis/john-lennon) put his rawest wound in a lyric.'"
+    },
+    {
+      "finding_id": "future-06",
+      "action": "fixed",
+      "reason": "C80 now carries a thesis-test trigger: his next self-written or self-directed project and how he frames its risk; any memoir or long interview revisiting the safety-net/mask account; new first-hand testimony from Connelly or a long-term collaborator. It says what result would favor Type 4. New claim C134 ('love to write and direct again', S24) carries the same test, and the conclusion states it for readers."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "And some of the worry is British comic register, some is junket habit, and some is what early grief leaves in anyone.",
+      "action": "kept",
+      "reason": "Unchanged; still closes the limits paragraph."
+    },
+    {
+      "passage": "That is Bettany's interpretation. Thane's reasons are not on record.",
+      "action": "kept",
+      "reason": "Unchanged. The section's close now follows the same standard and no longer gives Thane a motive."
+    },
+    {
+      "passage": "The details shift between tellings. The core holds: bravado in the room, collapse on the pavement, told against himself.",
+      "action": "kept",
+      "reason": "Unchanged; now preceded by one concrete sourced difference between tellings (a meeting in 2022, an audition for Reuters in 2026), as unfamiliar-01 asked."
+    },
+    {
+      "passage": "That confession holds the whole pattern. He sees that the threat was exaggerated. He calls his response ludicrous. Then he defends it anyway, because the money could stop.",
+      "action": "kept",
+      "reason": "Unchanged. The next sentence dates the 'exaggerated' judgment as his 2013 view and adds that the fear had a basis (critic-03)."
+    },
+    {
+      "passage": "His wariness fits the caution seen elsewhere in his record, but any publicist would advise the same",
+      "action": "kept",
+      "reason": "Unchanged. Only the end of the sentence changes, from 'his silence' to 'his reluctance to discuss them' (subject-F01). Twitter counter-evidence is added in the limits paragraph (fan-09)."
+    },
+    {
+      "passage": "On September 11, 2001, Paul Bettany was buying groceries in Italy when he noticed a crowd outside a tavern. It looked like the crowd for a football match, except that it was silent. He walked in and saw the second plane hit the tower.",
+      "action": "kept",
+      "reason": "Unchanged opening."
+    },
+    {
+      "passage": "Paul tells his children authenticity is worth what it costs, and keeps a mask for himself.",
+      "action": "kept",
+      "reason": "Kept verbatim, as unfamiliar-06 and enneagram-04 asked. To meet subject-F04 and critic-05 it is now labelled 'on our reading rather than his', and the next sentences define the mask as he described it and say it is not a closet."
+    },
+    {
+      "passage": "there I was hammering bits of wood against the window as though there were a zombie apocalypse coming",
+      "action": "kept",
+      "reason": "Unchanged inside the 2013 block quote."
+    },
+    {
+      "passage": "The Six reading has limits. It explains his reopening of grief only as craft, though he does it by choice and keeps returning to men who hide who they are",
+      "action": "kept",
+      "reason": "Unchanged; the paragraph adds the Twitter/citizenship counter-evidence."
+    },
+    {
+      "passage": "He had in fact commented in 2021 and 2022.",
+      "action": "changed",
+      "reason": "Removed because it rests on a stripped quote. In S21 'So I decided to say nothing' follows his objection to the close-friend portrayal, so the 2026 line does not contradict his 2021-2022 remarks (subject-F01, unfamiliar-02, future-02). The passage's contribution, an honest record of what he actually said and when, is kept and expanded as a dated sequence: December 2021, February 2022, December 2022, October 2026."
+    },
+    {
+      "passage": "It looked like the crowd for a football match, except that it was silent. He walked in and saw the second plane hit the tower.",
+      "action": "kept",
+      "reason": "Unchanged."
+    },
+    {
+      "passage": "[Lennon](/personality-analysis/john-lennon), whom 9takes reads as a Four, put his rawest wound in a lyric.",
+      "action": "changed",
+      "reason": "Now '[Lennon](/personality-analysis/john-lennon) put his rawest wound in a lyric.' Only the clause 'whom 9takes reads as a Four' is removed. It tied this page to another page's verdict with no trigger (future-05) and leaned on the stereotype that a Four wants to be seen (enneagram-01). The concrete lyric-versus-mask comparison and the lead-in to 'not sure I want anybody to really know' are unchanged."
+    },
+    {
+      "passage": "\"I'm not any less neurotic now, by the way,\" he said. \"I'm just better at hiding it.\"",
+      "action": "kept",
+      "reason": "Unchanged final lines."
+    },
+    {
+      "passage": "My heartbeat tends to lower when cameras are on. I tend to get much calmer. I'm anxious in everyday life.",
+      "action": "kept",
+      "reason": "Unchanged block quote; the comic register is now acknowledged after it (critic-08)."
+    },
+    {
+      "passage": "In 2012 he told The Times that \"you shouldn't be sustained by other people's adulation. What if it goes away?\"",
+      "action": "kept",
+      "reason": "Unchanged; also used in the Four discriminator and the Type 3 answer, as enneagram-06 suggested."
+    },
+    {
+      "passage": "When the ground gives way under Bettany, he reaches for something solid and holds on.",
+      "action": "kept",
+      "reason": "Unchanged thesis line."
+    },
+    {
+      "passage": "Once the camera rolls, the waiting is over. The worry belongs to the rest of life, starting, in the same answer, with \"my kids' health, my health.\"",
+      "action": "kept",
+      "reason": "Unchanged; followed by the rest of the comic list (critic-08)."
+    },
+    {
+      "passage": "Four years earlier, on his way out of the Gentleman's Journal interview, he put it more seriously. \"I'm not any less neurotic now, by the way,\" he said. \"I'm just better at hiding it.\"",
+      "action": "kept",
+      "reason": "Unchanged ending; 'Four years earlier' still follows an October 2026 anchor."
+    }
+  ],
+  "prior_blockers": []
+}

@@ -1,0 +1,17 @@
+The critic review for the Paul Bettany draft is written. It passes the pipeline's review schema, and every passage it quotes matches the draft exactly. Nothing else in the repo was modified and nothing was published. The validation scripts are in `/tmp`.
+
+**Verdict:** Type 6 may still be the right answer, but at the points that decide Six over Four the draft only uses the evidence that helps it. The review has 6 major and 2 minor findings, and it flags the typing as contested.
+
+**Major findings:**
+1. **The mask quote is cut short.** On the podcast, Bettany says drama school saved him first because it gave him a place to turn "very negative things into something creative," and second because of the mask. The draft keeps only the mask and calls it the clearest test against Type 4. In full, the answer fits Four at least as well.
+2. **The "acting was his backup plan" story uses one telling.** In 2012 and 2013 he said he always loved acting, and that revenge fantasies from being bullied "absolutely" drove his desire to act. In 2022 he said he "fell into acting." The draft mentions none of these.
+3. **The money years argument leaves out his reversal.** After *Margin Call* he called the money jobs "bad choices" and chose less money. The fear also came true: he went about two years without work and a producer told him he was finished. The draft calls the fear exaggerated.
+4. **Type 3 is never tested,** though the draft's own quotes invite it: acting as "the one thing that gave me self-worth," "I wonder if anybody remembers me."
+5. **The father section ends on an unsupported story.** "Both men… were trying to keep a family safe" gives his late father a motive the record doesn't show. "Keeps a mask for himself" implies Paul is hiding the way his father did.
+6. **The Depp section describes the two trials unevenly.** It gives the US verdict in detail but sums up the UK one as "which Depp lost." It leaves out that the UK court found calling Depp a "wife beater" was not libel.
+
+**Minor findings:** The 9/11 story is called "the clearest early example" of his pattern when it's one of the weakest, and the closing says he "marries in a crisis" (the wedding came about 15 months later). An anxiety quote is trimmed so a joke reads as a serious admission.
+
+The review also protects five passages, including the "zombie apocalypse" quote and the line catching his own inconsistency about the Depp texts. It notes that the sources hold stronger Six evidence than the 9/11 opening, such as "I do not operate from a place of certainty." The similarity check found no reuse of other profiles' arguments.
+
+I checked the run's cached copies of the sources and the machine transcripts of the podcast. I didn't reopen the live pages or listen to the audio myself.

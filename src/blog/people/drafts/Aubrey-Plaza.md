@@ -186,7 +186,7 @@ Plaza met Amy Poehler for the first time on a swingset. They were shooting promo
 
 April Ludgate's secret, as Plaza saw it, was simple: "It's a game of not showing anyone that I really care." And once she locked into that, the possibilities felt endless. "Even though it feels really subtle and simple," she told Poehler, "I felt like, oh, there's so much to play with."
 
-The April-Andy love story happened almost by accident. The writers put Plaza and Chris Pratt together in the office bullpen for an episode, and the chemistry was instant. "We had a whole day where we were just playing," Plaza said. "I have an image of us sitting under the table. I don't even know what we were doing down there."
+The April-Andy love story happened almost by accident. The writers put Plaza and [Chris Pratt](/personality-analysis/chris-pratt) together in the office bullpen for an episode, and the chemistry was instant. "We had a whole day where we were just playing," Plaza said. "I have an image of us sitting under the table. I don't even know what we were doing down there."
 
 But it was Plaza who went to Mike Schur's office to lobby for the pairing. "I was like, listen, April loves Andy. April thinks Andy is cool because he's so not cool that he's cool. Do you understand?" Schur told her to get out. She told him he'd better listen.
 

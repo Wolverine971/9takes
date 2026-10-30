@@ -1,0 +1,60 @@
+{
+  "schema_version": 3,
+  "subject": "paul-bettany",
+  "content_sha256": "c0354f224d30ac4e390502fbd45eb0418e2b632899c1efcf7744b85f8d8f12ac",
+  "expanded": true,
+  "artifacts": {
+    "baseline": {
+      "file": "baseline.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "research": {
+      "file": "evidence.json",
+      "sha256": "1cd615cf10feb80741408fd1d29374504e8e00f7df3e7280cbe4782eafce607e"
+    },
+    "draft": {
+      "file": "draft.md",
+      "sha256": "f31aebc63f59e653cc7caa0d8cc71eaa923815541ca33e8f3be2461a2e9905e7"
+    },
+    "draft_evidence": {
+      "file": "evidence-draft.json",
+      "sha256": "2740ffdb9b28f43cdac653713bc5ab88eb7149673f872c8c0189b40516daa300"
+    },
+    "evidence": {
+      "file": "evidence-edit.json",
+      "sha256": "28f53e7fe71edf1a34ecfd0659a61a76edecac49b50e14b7b9a2b9c7490cd5b7"
+    },
+    "resolution": {
+      "file": "resolution-edit.json",
+      "sha256": "a9b66fa0165233837a4577b14cdfb7ff8c0ad3a45c004bd2eadbce86752933c5"
+    },
+    "verification": {
+      "file": "verification-edit.json",
+      "sha256": "bc51c5ed2541c251a68e44604016d47249b0b63ce1c94d62a812c91d38d356c8"
+    },
+    "review-subject": {
+      "file": "review-subject.json",
+      "sha256": "7d68a3d17f8597784a241dd4e0a2fbc37b36247d96aee6d4e57b58c1085e86b8"
+    },
+    "review-fan": {
+      "file": "review-fan.json",
+      "sha256": "9cad7e01f4650f248cef90e4e9461a8cf1686d6ea1c87436910c1a3f366bb5e7"
+    },
+    "review-critic": {
+      "file": "review-critic.json",
+      "sha256": "76cceeac2b546fdf22302105bcf165583f44bbd42ea9e9ab4b709fb81b9a409e"
+    },
+    "review-unfamiliar": {
+      "file": "review-unfamiliar.json",
+      "sha256": "02b7734dd1c8046e5f7d0ea03d26be2121d74c8727af634b7d67ec06bcc9296a"
+    },
+    "review-enneagram": {
+      "file": "review-enneagram.json",
+      "sha256": "095052e4b7c1dcaa462f8281ec55daede8f69f4edf6c638607b431a1086e4e07"
+    },
+    "review-future": {
+      "file": "review-future.json",
+      "sha256": "73c82d1b0aaa96e2980bc42c1890e6088f4d5c24126f7a810c9476f851a5bb8a"
+    }
+  }
+}

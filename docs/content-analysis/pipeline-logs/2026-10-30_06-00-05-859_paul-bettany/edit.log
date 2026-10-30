@@ -1,0 +1,23 @@
+The edit stage is finished. I wrote the three requested files to the run directory and changed nothing else: no input files, no live draft, nothing published. All three pass the contract's own checks (`validateEvidence`, `resolutionSchema`, `checkDraft` with zero blockers), but the separate verify stage still has to accept the decisions.
+
+**What changed for readers**
+- **Title:** now `Paul Bettany: Enneagram Type 6 Personality Analysis`, following the other recent profiles. The meta title is "Why 6 Edges Out 4", and the 60-word type answer now says "medium confidence, Type 4 the closest rival", matching the FAQ. The old title and description depended on one machine-transcribed 2026 podcast, and that "mask" argument didn't actually separate Type 6 from Type 4.
+- **Why Six beats Four:** the argument now rests on the 2003 decision to make his kids safe "with dough", which he calls ludicrous and defends anyway, plus 14 years of "what if it goes away?" thinking. The "mask" is now treated as something both types share. The article also tests Type 3 for the first time, and fixes two quotes that had been cut in ways that reversed their meaning: the Five line, and the "actual me" line, which has been removed.
+- **Depp section:** fixed a paraphrase that put a timeline in Bettany's mouth he never gave, and removed a "gotcha" line built on a quote stripped of its context. Added his own responses with dates, the UK court outcome, and the full 2016 tweet. The boycott clause is gone, and the section now comes before the father section so the ending flows.
+- **Father section:** the closing line no longer guesses at his late father's motives or implies Paul is hiding something about himself.
+- **Fairness and accuracy additions:** his grief and how he worked through the guilt over his brother, his mother and sister, his parents' 1993 divorce, the conflicting accounts of how he got into acting, and a correct order of events from the money years to Marvel.
+
+**Decisions to know about**
+- **Length:** the article is 3,944 words, against 3,554 in the draft. One reviewer's test says "no longer than the draft." I didn't meet that, because the other five reviewers' required additions outweighed every cut I could make. The resolution file says so plainly, and the verify stage may reject those three findings (unfamiliar-01, -03 and -08).
+- **Podcast quotes:** no human has listened to the podcast to confirm the quotes; that's still the first research task. The title and the main argument no longer depend on those quotes.
+- **Typing risk:** I set `contested_typing: true` in the evidence because two reviewers escalated it. The full six-reviewer panel already ran, so this doesn't trigger a re-review.
+- **Protected passages:** of the 18 passages reviewers asked to protect, 16 are unchanged. I changed two:
+  - the "He had in fact commented…" line, which rested on a misread source;
+  - the "whom 9takes reads as a Four" clause in the Lennon line, which tied this page to another page's typing.
+
+All 48 findings are marked fixed, each with a reason. I also added this run's word-count result to the existing length-trap memory note.
+
+Files are in `docs/content-analysis/pipeline-logs/2026-10-30_06-00-05-859_paul-bettany/`:
+- edit.md
+- evidence-edit.json
+- resolution-edit.json

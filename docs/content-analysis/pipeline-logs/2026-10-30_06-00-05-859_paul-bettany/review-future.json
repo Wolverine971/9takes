@@ -1,0 +1,79 @@
+{
+  "schema_version": 3,
+  "role": "future",
+  "content_sha256": "50a3be2dbe05a137f3ea90d748d87ca10e7354e113bb1878d0585a63a5ff062c",
+  "evidence_sha256": "dd5e178c9ce05a442d409fc1fd3cd22072e2df59d31769154f49bdffac3a2135",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": false,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "future-01",
+      "severity": "major",
+      "passage": "In February 2022 he told The Times the two had not spoken for years by the time Depp married Heard.",
+      "problem": "The paraphrase attaches a timeline to Bettany that his words do not state. The Insider relay of the February 2022 Times interview (S12, reopened 2026-10-30) reads: \"I didn't know Johnny when he was married to Amber. I knew him before. But we hadn't spoken for years. During the marriage, I didn't know them. So I wasn't around for any of that.\" He says he knew Depp before the marriage and had no contact during it. He does not say they had gone years without speaking by the wedding. The article's own record makes the paraphrased claim nearly impossible: the texts date from 2013, and the wedding was in early 2015. The next sentence quotes his 2016 tweet calling Depp \"the sweetest, kindest, gentlest man.\" Placed side by side, the two sentences suggest he contradicted himself, but the contradiction comes from the article's rewording, not from what he said. This section deals with abuse allegations and stays on the page for years, so the distortion lasts and falls on a real person. C26 and C60 carry the same framing.",
+      "acceptance_test": "Replace the paraphrase with his exact relayed words, or with a paraphrase that keeps his timing: he knew Depp before the marriage, did not know the couple during it, and said in 2022 that they \"hadn't spoken for years.\" No sentence attributes to him a gap dated to the wedding. Update the claim text and passage for C26/C60 to match. If the article keeps the 2016 tweet next to this statement, state the dates plainly and let readers draw their own conclusion, without wording that implies inconsistency."
+    },
+    {
+      "id": "future-02",
+      "severity": "minor",
+      "passage": "In October 2026, with some social media users [calling for a _VisionQuest_ boycott](https://www.comicbasics.com/paul-bettany-breaks-his-silence-on-johnny-depp-texts-as-visionquest-faces-boycott-calls/) over the texts, he told The Times",
+      "problem": "This sentence ties the Depp section to a release-week news cycle, while the article itself says the texts carry no weight in the type case (C84). The boycott calls were a social-media event in October 2026. The only source is an aggregator (S29) that also repeats an unverified Secret Wars claim, and C45's trigger (\"Any change in the VisionQuest boycott story\") has no date and no way to check it. In five years the clause will be noise, and the link may well be dead. The intro repeats this hook (\"renewed attention to texts he exchanged with Johnny Depp in 2013\"), so the whole page appears to be framed around the press tour. The paragraph also ends with \"He had in fact commented in 2021 and 2022.\" That line treats his 2026 \"decided to say nothing\" as a contradiction. Yet the relay context (S21) ties that decision to being \"painted as this close friend\" during the trials, and the 2021 relay has him explaining that talking about it pours \"fuel on the fire.\" The Times original was never opened. Without context, the line reads as a gotcha that could turn out wrong once the full interview is read.",
+      "acceptance_test": "The Depp section reads as a dated record: the 2013 texts, the 2020 UK case and its outcome, the 2022 US verdict and the December 2022 settlement, and his dated responses from 2021, 2022 and October 2026. No clause depends on the 2026 boycott calls. S29/C45 are dropped, or C45 gets a dated trigger that someone can actually check. The \"in fact commented\" line is removed or restated neutrally (for example, giving his 2021 and 2022 comments with their dates). It should suggest he misspoke only if the full 2026 Times interview shows \"say nothing\" meant never commenting. The intro no longer presents renewed Depp attention as part of why the page exists. VisionQuest stays as a dated credit."
+    },
+    {
+      "id": "future-03",
+      "severity": "minor",
+      "passage": "Paul Bettany: Acting Was His Safety Net and His Mask (Enneagram Type 6)",
+      "problem": "The title, the description, the \"Second\" argument against Type 4 and the closing \"What the mask is for\" all rest on one source from October 2026: the Sibling Revelry episode released on 13 October 2026 (S23). That covers \"safety net,\" \"a mask that I could hide behind,\" \"so revealed\" and \"not sure I want anybody to really know that much about me definitively.\" No text source in the record repeats any of these phrases. The quotes come from three machine transcriptions with no human listen (an open research task). The reader-facing link is an Apple Podcasts episode ID with no timestamp, and the audio exists only in a local cache. The central Six insight passes the five-year test without S23: the 2013 Telegraph \"precarious ... with dough\" passage, the 2012 and 2013 Guardian relays, the 2012 Times, the 2010 CinemaBlend and the 2022 Daily Beast and Gentleman's Journal interviews carry it. The page's headline frame does not pass. If the episode becomes unavailable, or a human listen changes a word, the title and description lose their only source, and the Type 4 rebuttal loses its sharpest point.",
+      "acceptance_test": "(a) The S23 context records a human listen of 13:30-14:20 and 27:58-29:50 that confirms the quoted wording. (b) S23 records a second stable locator (the RSS enclosure or the publisher's episode page), and the article's citation for the safety-net and mask quotes gives a timestamp. (c) The \"Second\" argument cites at least one pre-2026 text source already in the record for the pattern of concealing rather than revealing, so the rebuttal stands if S23 is removed. Options include 2015 Independent (S05), where he did not want his busking past \"to become part of a narrative\"; 2022 Gentleman's Journal (S14), \"I'm just better at hiding it\"; and 2012 Times (S01), \"it was so humiliating that I used to hide.\""
+    },
+    {
+      "id": "future-04",
+      "severity": "minor",
+      "passage": "is the voice of J.A.R.V.I.S. and the face of Vision in Marvel's films, an Emmy nominee for _WandaVision_ and the lead of _VisionQuest_",
+      "problem": "The draft states roles and relationships that can change in present-tense form, but marks them stable with empty review triggers. C32 covers the current Marvel role, C55 covers \"He has been married to Jennifer Connelly since January 1, 2003; they have two children\" in the FAQ, and C27 covers \"has lived in the United States for more than two decades.\" The standard requires changing positions and relationships to be time_sensitive or unresolved, with an actionable review_trigger. C34's trigger (\"Future statements about leaving or continuing as Vision\") is attached to the Reuters quote, not to the status claim. In 2031 the FAQ's \"leads VisionQuest\" will read as current. The draft is otherwise disciplined about dates, with relative intervals anchored (\"A decade later,\" \"Thirteen years later\"), so these are the remaining gaps.",
+      "acceptance_test": "C32 and C55 are time_sensitive, with concrete triggers. For C32: Avengers: Doomsday releasing 18 December 2026, any Vision recast or exit, and VisionQuest renewal or cancellation. For C55: any change in marriage status. The body and FAQ give role lines as dated or past-tense credits (for example \"led VisionQuest (Disney+, October 2026)\" and \"has played Vision since 2015\"), so no present-tense status statement depends on 2026 still being current."
+    },
+    {
+      "id": "future-05",
+      "severity": "minor",
+      "passage": "[Lennon](/personality-analysis/john-lennon), whom 9takes reads as a Four, put his rawest wound in a lyric.",
+      "problem": "This clause ties the page to another page's current verdict. The Lennon page is Type 4 today (src/blog/people/drafts/John-Lennon.md, enneagram: 4). The site has retyped profiles before, though, and if Lennon's page is ever retyped this sentence will go stale without anyone noticing. The claim inventory doesn't cover it, so no trigger would catch it. The contrast works without the label: Lennon put the wound in the lyric, while Bettany chose the mask.",
+      "acceptance_test": "Remove \"whom 9takes reads as a Four\" and keep the link and the lyric-versus-mask contrast. Otherwise, add a claim for the clause with a review_trigger tied to any type change on the Lennon page."
+    },
+    {
+      "id": "future-06",
+      "severity": "minor",
+      "passage": "First, when expression and safety collided, safety won for years, by his own account.",
+      "problem": "Every review trigger in the evidence record is a news trigger (Depp, VisionQuest, the Vision role). None names future evidence that would test the 6-versus-4 discriminator itself, so a refresh in 2031 has no instruction to re-examine the thesis. The record already points to a concrete test. Marvel money now gives him the security he says he lacked (S20, 2026), and he told Square Mile he hopes to \"write and direct again\" (S24, October 2026). How he describes the risk of his next personal project is direct evidence on whether safety or expression leads once the floor is secure. A memoir, or new testimony from Connelly or a close collaborator about how he handles risk, would also test the thesis.",
+      "acceptance_test": "C80 (or type_hypothesis via a dedicated interpretation claim) carries a review_trigger naming evidence that tests the thesis. Examples: his next self-written or self-directed project and how he frames its risk; any memoir or long-form interview revisiting the safety-net/mask account; new first-hand testimony from Connelly or a long-term collaborator. The trigger should also say what result would favor Type 4 (choosing exposure over security once security is assured, described as identity rather than as the plan)."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "When the ground gives way under Bettany, he reaches for something solid and holds on.",
+      "reason": "This is the durable thesis in one line. It rests on a 2001 event told in 2013 and 2026 and does not depend on the VisionQuest cycle, so it survives the five-year test whatever happens to his Marvel status."
+    },
+    {
+      "passage": "That confession holds the whole pattern. He sees that the threat was exaggerated. He calls his response ludicrous. Then he defends it anyway, because the money could stop.",
+      "reason": "This is the best single piece of reasoning on the page. It is built on a 2013 primary source and identifies the self-aware but unrelenting security move that sets the Six read apart. It will still be the key evidence in five years."
+    },
+    {
+      "passage": "The details shift between tellings. The core holds: bravado in the room, collapse on the pavement, told against himself.",
+      "reason": "It handles a story he has told in different versions (2022 and 2026) honestly. Rather than picking the most dramatic version, it names what stays the same, which keeps it accurate if he tells the story again differently."
+    },
+    {
+      "passage": "Once the camera rolls, the waiting is over. The worry belongs to the rest of life, starting, in the same answer, with \"my kids' health, my health.\"",
+      "reason": "A distinctive, verified 2010 detail that complicates the anxious-actor stereotype and is specific to him. It predates the Marvel era, so it is durable."
+    },
+    {
+      "passage": "Four years earlier, on his way out of the Gentleman's Journal interview, he put it more seriously. \"I'm not any less neurotic now, by the way,\" he said. \"I'm just better at hiding it.\"",
+      "reason": "The ending comes from a 2022 source and is anchored by an absolute date. It closes on the mask theme without depending on the October 2026 podcast and lands at a natural stopping point."
+    }
+  ],
+  "assessment": "Five-year test: the thesis passes. Remove all October 2026 material (S20-S25, S29) and the Six case still stands on 2010-2022 evidence: the 2013 Telegraph \"precarious ... with dough\" and \"certainty that was new to me\" passages, the 2012 and 2013 Guardian relays, the 2012 Times \"What if it goes away?\", the 2010 CinemaBlend \"anxious in everyday life\", and the 2022 Daily Beast \"most prepared person\" and \"what if this thing comes tumbling down?\". The hook is a 2001 event. Dates are absolute throughout, and the relative intervals are anchored. Weaknesses: (1) one consequential distortion in the sensitive Depp section, where the 2022 statement is paraphrased into a timeline he never gave (major); (2) the Depp section and intro rest on 2026 boycott and press-tour attention the article itself calls irrelevant; (3) the title, description, closing and sharpest Type 4 rebuttal depend on a single machine-transcribed 2026 podcast; (4) present-tense roles and the marriage are marked stable without triggers; (5) all triggers track news, none the type thesis; (6) a dependency on another 9takes page's verdict (Lennon). Similarity check: not tripped (max 0.097 against Christopher Abbott, with no shared argument; \"organized around fear\" against Josh Hartnett is ordinary type vocabulary). The only reusable boilerplate is the short Type 6 explainer paragraph, whose counterphobic sentence is never applied to Bettany. That is not reuse, but the Enneagram reviewer may want to check it. Risk flags: sensitive_allegations stays true. The typing is medium-confidence but has a sourced discriminator, so contested_typing is not escalated."
+}

@@ -1,0 +1,40 @@
+{
+  "deployment": "https://9takes-ana76y2tr-djwayne35gmailcoms-projects.vercel.app",
+  "verifiedAt": "2026-10-30T02:10:23.834Z",
+  "results": [
+    {
+      "path": "/personality-analysis/chris-pratt",
+      "status": 200,
+      "title": "Chris Pratt Enneagram Type 3: The Fun He Called an Image",
+      "canonical": "https://9takes.com/personality-analysis/chris-pratt",
+      "portrait": true,
+      "attribution": true,
+      "outgoingLinks": 6
+    },
+    {
+      "path": "/personality-analysis/amy-poehler",
+      "status": 200,
+      "incomingAnchor": "Chris Pratt’s personality analysis"
+    },
+    {
+      "path": "/personality-analysis/aubrey-plaza",
+      "status": 200,
+      "incomingAnchor": "Chris Pratt"
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "lastmod": "2026-10-29"
+    },
+    {
+      "path": "/types/3s/Chris-Pratt.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/types/3s/s-Chris-Pratt.webp",
+      "status": 200,
+      "type": "image/webp"
+    }
+  ]
+}

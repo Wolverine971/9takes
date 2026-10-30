@@ -1,0 +1,100 @@
+{
+  "schema_version": 3,
+  "role": "enneagram",
+  "content_sha256": "50a3be2dbe05a137f3ea90d748d87ca10e7354e113bb1878d0585a63a5ff062c",
+  "evidence_sha256": "dd5e178c9ce05a442d409fc1fd3cd22072e2df59d31769154f49bdffac3a2135",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "enneagram-01",
+      "severity": "major",
+      "passage": "Second, look at how he chose his art form. A Four usually wants the true self seen. Bettany quit songwriting because singing his own songs left him exposed: \"I felt so revealed, hated it.\"",
+      "problem": "The draft treats the mask as its sharpest test against Type 4. The title, the description and two of the three reasons in the 'Why isn't Paul Bettany a Type 4?' FAQ all rest on it, but it does not separate 6 from 4. Fours sit in the shame (image) triad, and hiding a self that feels defective behind a role is a familiar Four move, especially in withdrawn or 4w5 presentations. 'A Four usually wants the true self seen' is a stereotype. The source answer (S23, 28:10-29:50) also pairs the mask with \"I can do something with this brokenness that I am feeling\". Read whole, that answer is grief expressed through a disguise, which a Four reading claims at least as easily. The draft splits one answer between the two cases and gives the mask half the deciding vote. 'Safety net' is also his father's career-backup advice (\"second string to your bow\"). It describes a fallback job, not a psychological security motive.",
+      "acceptance_test": "The second point admits that aversion to exposure also fits a shame-driven Four, and that the mask and 'brokenness' lines come from the same answer. It states what specifically marks this exposure aversion as fear-based, or it drops the point to supporting status. The 'Why isn't Paul Bettany a Type 4?' FAQ leads with a discriminator a Four reading cannot equally claim. Candidates: the 2003 money plan he calls ludicrous and defends anyway, or the decade-long 'what if' hedging: \"What if it goes away?\" (2012, S01), \"the tap can turn off\" (2013, S02), \"what if this thing comes tumbling down?\" (2022, S15). The title and description may keep 'safety net' and 'mask' only if the body has earned them as Six evidence."
+    },
+    {
+      "id": "enneagram-02",
+      "severity": "major",
+      "passage": "Some actors switch on emotion easily, he said, \"And I'm just not good enough to do that.\"",
+      "problem": "This line is offered as anti-Four evidence (he 'deflates the artist-self a Four tends to protect'). The source points the other way. In Gentleman's Journal (S14, opened), the quote starts with a comparison: \"Some people have amazing access to their emotions, and can switch them on like that... And I'm just not good enough to do that.\" Measuring himself against others and finding himself lacking is the core of the Four's passion (envy, a sense of deficiency). A Four reading would claim this line. The third point's other items are weak discriminators: 'ponce' self-mockery is British register, and 'quite lazy' is a joke about prosthetics. This undercuts the third reason the draft gives for Six over Four.",
+      "acceptance_test": "Remove \"I'm just not good enough\" from the anti-Four list, or move it to the Four case and say plainly that comparison and deficiency fit the Four. If the third point survives, it rests on evidence that does not double as Four material, and it says the self-mockery may be cultural register. One sourced, unused candidate: in S24 (Square Mile, 2026) he says busking \"wasn't romantic at all\" and he grew happier the further he got from it, which refuses the struggling-artist romance a Four tends to keep."
+    },
+    {
+      "id": "enneagram-03",
+      "severity": "major",
+      "passage": "His privacy could suggest [Type 5](/enneagram-corner/enneagram-type-5), but he calls himself \"quite convivial and social\" and says, \"I feel like I shouldn't have the personal resources to be on my own at all.\"",
+      "problem": "The trimmed quote reverses the source. Gentleman's Journal (S14, opened) reads: \"What I have realised is that I do better than I think in isolation... I'm quite convivial and social, and so I'm always surprised to see how well I do with my own company. I feel like I shouldn't have the personal resources to be on my own at all. I feel like I should fall apart more than I do. But I don't.\" The draft uses it to show he cannot be alone. In context he says he copes alone better than he expects, which leans slightly toward Five. The honest version can still serve the Six case: expecting to fall apart without people is self-doubt about his own resources. But the current wording is a quotation-context error inside the type argument.",
+      "acceptance_test": "The Five rebuttal quotes or paraphrases the passage with its turn intact: he does better alone than he expects ('But I don't'). It no longer implies he cannot be alone. If the editor keeps it as Six evidence, the argument rests on his expectation of falling apart, labeled as interpretation. The case against Five rests on other evidence (reliance on family and therapy, \"When I'm away from them too much I begin to revert to older habits\")."
+    },
+    {
+      "id": "enneagram-04",
+      "severity": "major",
+      "passage": "Both men, on this reading, were trying to keep a family safe and disagreed about the price.",
+      "problem": "This sentence pulls the father section, which the draft itself calls the Four case's best material, into a Six frame through motives the record does not show. Two paragraphs earlier the draft says 'Thane's reasons are not on record.' Even Paul's interpretation (\"had to get into heaven as a straight man so he could see his son who had died\") describes a reunion, not keeping a family safe. Paul's own quoted lesson argues for authenticity over safety: \"however hard that is, it's absolutely better than pretending.\" Fitting both men to the type thesis is the convenient-typing move this review is meant to catch. It also gives a deceased third party a motive the draft has just said is unknown.",
+      "acceptance_test": "Cut the sentence or rewrite it so it gives Thane no motive beyond Paul's attributed interpretation. Leave the unresolved tension in place: Paul argues for authenticity at any cost and keeps a mask for himself. The section may still say which reading handles that tension better, but without a shared 'keep a family safe' motive that neither source states."
+    },
+    {
+      "id": "enneagram-05",
+      "severity": "minor",
+      "passage": "Fourth, the fear predates the loss. A Four reading can treat his vigilance as grief, but he was \"terrified of everyone\" as a bullied boy before Matthew died, and the dreadful secret he describes afterward is, in context, how precarious life is.",
+      "problem": "This point rebuts the wrong rival. Fear that predates the brother's death answers a trauma-only explanation, not a Four reading, which does not need the death to explain his temperament. 'Terrified of everyone' is also a constantly bullied city boy at a new country school, which is fear that comes from circumstance. And in the 2012 relay (S28), the 'dreadful secret' passage pairs precariousness with feeling 'totally alienated' and set apart by secret knowledge, the Four's own structure. Stronger Six material sits unused in an opened source (S15, Daily Beast 2022). Asked how he found Warhol, he said \"with Andy Warhol, it's his fear. I was very bullied as a schoolkid, and I remember the world feeling like a frightening place. I try to remember that in me.\" Fear is the emotion he reaches for to build a character, a worldview statement rather than a one-off reaction.",
+      "acceptance_test": "The point is relabeled as answering the trauma/circumstance explanation, or reworked so it bears on Four specifically. 'Terrified of everyone' is acknowledged as partly situational. If a Six-specific line is wanted here, the S15 'world feeling like a frightening place' and Warhol 'it's his fear' quote is used, with date and attribution."
+    },
+    {
+      "id": "enneagram-06",
+      "severity": "minor",
+      "passage": "He quit, he told The Times, \"because it was threatening my ability to act: the one thing that gave me self-worth.\"",
+      "problem": "Type 3 is never tested, yet it is more plausible for this record than the Five and Seven readings the draft does address. The draft quotes acting as 'the one thing that gave me self-worth,' a 'mask,' bravado in the producer's office ('I acted so tough'), being 'the most prepared person auditioning,' and \"I wonder if anybody remembers me.\" An unused S15 line says his career was 'making me feel safe and relevant.' The material to answer the Three reading already exists: \"you shouldn't be sustained by other people's adulation. What if it goes away?\" and fame as 'untrustworthy.' But the draft files those as Six color, not as a rebuttal.",
+      "acceptance_test": "'Two other readings' becomes three, or the applause paragraph is explicitly framed as the answer to a Type 3 reading. It names the self-worth and 'remembers me' evidence and explains why distrust of adulation and open admissions of neurosis argue against image management. One or two sentences suffice."
+    },
+    {
+      "id": "enneagram-07",
+      "severity": "minor",
+      "passage": "Thirteen years later he called himself \"an absolute fascist about being on time\" and still passes on Anthony Hopkins's advice to young actors",
+      "problem": "The standard requires weighing learned practices and professional incentives against the type explanation, and two Six signals here are presented without their confounds. On the same podcast he traces punctuality to theatre discipline (S23, 21:10: \"the notion of always building more time to be there stuck with me\"), and the Hopkins line is actors' shop advice. The 'actor's dread' that each job is the last (C39) is an occupational norm, and the evidence record notes the hosts said they feel it too. The draft's own framing ('Plenty of actors admit to nerves') asks the reader to see something more specific. These two items don't show it unless the 2013 'pathological fear of being late' carries the weight.",
+      "acceptance_test": "Where punctuality is used, the draft notes that he credits theatre training. The 2013 'pathological fear' phrasing is presented as the part that goes beyond training. The career-dread passage says both hosts share it, or presents it as continuity of worry rather than type evidence."
+    },
+    {
+      "id": "enneagram-08",
+      "severity": "minor",
+      "passage": "It is also the clearest early example of a pattern that runs through his interviews from 2010 to 2026.",
+      "problem": "The hook calls the 9/11 story the clearest example of the Six pattern, but it is the least diagnostic anecdote in the piece. Nearly anyone with a friend in downtown Manhattan on September 11 would phone repeatedly. And marrying quickly 'without having lived together first' is, if anything, the opposite of the testing and doubt typical of Six commitment. The evidence record agrees (C07 alternative: 'Crisis-driven romantic clarity is common in many types'). The clearest example is the 2003 'hammering bits of wood' plan. The same overclaim recurs in the closing summary ('He marries in a crisis and finds \"a certainty that was new to me.\"'). Separately, the body's 60-word type answer states Type 6 flatly while the FAQ version gives 'medium confidence, with Type 4 the closest rival'. The two should agree.",
+      "acceptance_test": "The hook presents 9/11 as an early, consistent instance rather than 'the clearest' example, or it adds the caveat that the phoning is ordinary and the 'certainty' remark is the type-relevant part. The body's type answer mentions medium confidence and the Type 4 rival within 60 words, matching the FAQ."
+    },
+    {
+      "id": "enneagram-09",
+      "severity": "minor",
+      "passage": "Fans who pose with him, he said, are \"certainly not meeting the actual me.\"",
+      "problem": "The trim makes the Four case look stronger than its source. In S14 (opened), the remark goes both ways: \"I'm not meeting you, and you're not meeting me. Or: You're certainly not meeting the actual me, and I'm not meeting who you really are.\" It describes the mutual unreality of a celebrity photo encounter ('genuinely a little alienating'), not a protected true self that others fail to see. The FAQ repeats the trimmed form ('says fans are \"not meeting the actual me.\"'). Treating the Four reading fairly does not require overstating it.",
+      "acceptance_test": "The body and the FAQ show that the remark is mutual and concerns celebrity encounters. Or the line is kept with a clause noting it describes fame's unreality on both sides, and it stops counting as one of the Four's strongest identity signals."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "That confession holds the whole pattern. He sees that the threat was exaggerated. He calls his response ludicrous. Then he defends it anyway, because the money could stop.",
+      "reason": "This is the piece's real discriminator, in four short sentences: a costly choice, his own awareness that it was excessive, and a defense that reaches for the worst case. It is the strongest Six-over-Four evidence. Keep it and build the 'Why not Type 4?' case around it."
+    },
+    {
+      "passage": "My heartbeat tends to lower when cameras are on. I tend to get much calmer. I'm anxious in everyday life.",
+      "reason": "A distinctive, early (2010), first-person detail: anticipation makes him anxious and action calms him. The gloss ('Once the camera rolls, the waiting is over') reads it well without overclaiming."
+    },
+    {
+      "passage": "The Six reading has limits. It explains his reopening of grief only as craft, though he does it by choice and keeps returning to men who hide who they are",
+      "reason": "Honest accounting of what the type does not explain, including the run of roles about concealed selves and his candor. It keeps the profile from reading as a type template and should survive any tightening."
+    },
+    {
+      "passage": "Paul tells his children authenticity is worth what it costs, and keeps a mask for himself.",
+      "reason": "The sharpest observation in the father section: a live contradiction that neither type fully absorbs. Keep it while fixing the sentence after it (enneagram-04)."
+    },
+    {
+      "passage": "In 2012 he told The Times that \"you shouldn't be sustained by other people's adulation. What if it goes away?\"",
+      "reason": "Worst-case 'what if' framing applied to praise. It is the same pattern as 'the tap can turn off' and 'what if this thing comes tumbling down?', and also the best available answer to a Type 3 reading (enneagram-06)."
+    }
+  ],
+  "assessment": "Type 6 at medium confidence is defensible and still beats Type 4. The draft takes the Four case seriously and keeps wings and arrows honest: a possible 6w7 is flagged as unsettled, and no arrow is used to explain away a contradiction. The decisive evidence is the 2003 money plan he calls ludicrous and defends anyway, plus a decade of worst-case 'what if' hedging about fame (2012), income (2013) and career (2022), the anxious-in-life, calm-on-camera split (2010), and preparation as control. The 'Why not Type 4?' section is weaker than it looks. Only its first reason discriminates. The second rests on a mask a shame-driven Four can claim equally well, from an answer that also contains 'brokenness'. The third cites a comparison-and-deficiency line that is Four evidence. The fourth answers the trauma explanation, not the Four. Two quotes in the alternatives section are trimmed in ways that change their typological meaning: the Five rebuttal reverses its source, and the 'actual me' line overstates the Four. Type 3 is never tested despite 'self-worth' and 'remembers me'. The father section closes by giving both men a safety motive the record does not show. Fixing these will likely leave Six ahead, but on a narrower, better-stated discriminator. I flag contested_typing so the edit cannot quietly overstate the margin. The Depp material stays sensitive and, rightly, outside the type case. Similarity diagnostic: no trip; max 0.097 against Christopher Abbott with no shared phrases. 'Around fear' (shared with Josh Hartnett) is ordinary triad vocabulary. Reading the type sections directly, the argument is specific to Bettany. The one piece of generic furniture is the counterphobic sentence in the type section, which is never applied to him. The bravado-then-collapse producer story and his refusal to 'bend' at school are the obvious places to connect it, or cut it. Verification: I opened Gentleman's Journal (S14) to confirm the contexts behind enneagram-02, -03 and -09. Other contexts come from the evidence record's opened excerpts (S02, S15, S23, S24, S28). Podcast quotes rest on machine transcription."
+}

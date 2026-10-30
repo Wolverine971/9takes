@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "subject",
+  "content_sha256": "50a3be2dbe05a137f3ea90d748d87ca10e7354e113bb1878d0585a63a5ff062c",
+  "evidence_sha256": "dd5e178c9ce05a442d409fc1fd3cd22072e2df59d31769154f49bdffac3a2135",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": false,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "subject-F01",
+      "severity": "major",
+      "passage": "He added that he \"decided to say nothing because, I think, people know me.\" He had in fact commented in 2021 and 2022.",
+      "problem": "Context stripped, then a gotcha. In the opened Gulf News relay of the 15 October 2026 Times interview, \"So I decided to say nothing\" follows straight on from \"I was being painted as this close friend of a guy I hadn't spoken to in years ... that bit was the most odd.\" It describes declining to contest the close-friend portrayal when the texts surfaced in 2020. The draft drops that antecedent and then 'fact-checks' the stripped quote (\"in fact\"), implying he misstated his own record. His 2021 and 2022 remarks were brief and reluctant: \"I just pour fuel on the fire\" (Independent); \"Anything that you say is oxygen for a fire\" (Times). In December 2022 he declined further comment: \"I refuse to put more fuel on this fire\" (Daily Beast repost). The next sentence's \"his silence\" then contradicts the section's own quotes.",
+      "acceptance_test": "The 2026 quote appears with its antecedent (the close-friend portrayal), or is paraphrased so that it is clearly about that portrayal. \"He had in fact commented\" is removed or replaced with a neutral, dated statement (for example: he briefly addressed the texts in December 2021 and February 2022, each time saying further comment would feed the story, and declined to discuss them in December 2022). No sentence implies he misrepresented his record unless a source shows a direct contradiction. \"his silence\" in the following paragraph is reworded to match."
+    },
+    {
+      "id": "subject-F02",
+      "severity": "major",
+      "passage": "In February 2022 he told The Times the two had not spoken for years by the time Depp married Heard.",
+      "problem": "Mis-paraphrase that gives him an implausible claim. In the opened Insider relay he says: \"I didn't know Johnny when he was married to Amber. I knew him before. But we hadn't spoken for years. During the marriage, I didn't know them. So I wasn't around for any of that.\" He does not date the loss of contact to before the February 2015 wedding. The draft adds that timing. The record makes the added version hard to believe: the texts date to 2013 (2013 and 2014 per the Independent relay), and Gulf News says the two made three films together between 2010 and 2015. A reader can 'catch' him in a falsehood the draft created.",
+      "acceptance_test": "The sentence quotes his words, or paraphrases them without adding timing: he knew Depp before the marriage, did not know the couple during it and \"wasn't around for any of that\", and they \"hadn't spoken for years.\" No date for when contact stopped is attributed to him unless a source gives one."
+    },
+    {
+      "id": "subject-F03",
+      "severity": "major",
+      "passage": "After the texts surfaced, he called the disclosure \"a strange moment\"",
+      "problem": "Missing responses in the most sensitive section. The section gives Depp's explanation of the texts (a Monty Python riff, never meant literally) but none of Bettany's own replies about their content. In the opened relays of the February 2022 Times interview (Insider and Yahoo) he called having the texts read out \"embarrassing\" and \"a very surreal moment\" and said \"We live in a world without context.\" Gulf News's lede on the October 2026 interview says what bothered him most \"wasn't the jokes\" but being presented as Depp's close friend. The 2016 tweet is also cut. The full text opens \"Known Johnny Depp for years and through several relationships\", which is the basis he gave for the praise and fits his later account of no recent contact. Quoting only the superlative half makes him look inconsistent, a contradiction the article never argues.",
+      "acceptance_test": "The Depp section gives, attributed and dated: (a) his 2022 response (\"embarrassing\" and/or \"We live in a world without context\"); and (b) his 2026 statement that the close-friend portrayal was what struck him as \"the most odd\". The 2016 tweet either includes its opening clause or is not set up as a contrast. The section says nothing about his intent in sending the texts beyond what he or the cited sources say. The tone stays neutral toward Bettany, Depp and Heard."
+    },
+    {
+      "id": "subject-F04",
+      "severity": "major",
+      "passage": "Paul tells his children authenticity is worth what it costs, and keeps a mask for himself. Both men, on this reading, were trying to keep a family safe and disagreed about the price.",
+      "problem": "Imagined motives for two real people, one of them dead, and an insinuation the record does not support. The draft itself says \"Thane's reasons are not on record.\" Paul's attributed guesses are \"the dogma of Catholicism\" (Windy City Times 2020; \"his Catholic dogma\" on the 2026 podcast) and the heaven-reunion reading. Neither is \"keeping a family safe\", which is the author's invention. \"Keeps a mask for himself\" also lifts a line about acting: drama school gave him \"a mask that I could hide behind ... nobody knew which bits were me and which bits were made up\" (podcast, 28:54). The draft turns that into a claim about how he lives and sets it against a closeted father's inauthenticity. That implies hypocrisy. In a section about his father's sexuality it also invites a reader to infer something about Paul's own identity that nothing in the record supports.",
+      "acceptance_test": "These two sentences are removed or rewritten so that: (1) no motive is given to Thane beyond Paul's attributed interpretations; (2) Paul's \"mask\" is described as what he said it was, a performer's cover in his work plus his wish not to be known \"definitively\", not a way of living inauthentically; and (3) any parallel between father and son is labelled as the author's reading and does not suggest that Paul hides his identity."
+    },
+    {
+      "id": "subject-F05",
+      "severity": "minor",
+      "passage": "In October 2026 he gave the Hudsons a harder detail. Matthew \"fell off a building that I had taught him how to climb. So there was an enormous amount of guilt to work through on that.\"",
+      "problem": "His brother's death is used almost entirely as type evidence (precariousness), and the self-blame line is left hanging. The same relayed 2012 Guardian answer the draft quotes ends in plain grief: \"I was missing the person who at the time was the most important person to me. I was very close to my brother.\" On the podcast he follows the guilt line straight away with \"everybody is sort of dropped into a maze by their childhood. And the job of growing up is trying to find your way ... out of that maze\", crediting \"a lot of therapy\" (23:37-24:09). Without either, the guilt reads as unresolved and Matthew becomes a lever for the thesis. The FAQ answer repeats the guilt line with no context.",
+      "acceptance_test": "The brother passage includes, attributed, his statement of closeness or grief from the relayed Guardian interview, plus his own account of working through the guilt (the maze line and/or therapy). The 'What happened to Paul Bettany's brother?' FAQ does not present the guilt line without that context."
+    },
+    {
+      "id": "subject-F06",
+      "severity": "minor",
+      "passage": "When Alan Ball offered him _Uncle Frank_, about a closeted gay professor, Bettany's first questions were \"Why me?\" and \"Should I even do this?\"",
+      "problem": "His stated reasons are left out, so readers fill in a motive. In the opened Windy City Times Q&A, the question was about the view that only LGBTQ actors should play LGBTQ roles. He said \"That wasn't the only reason I was reluctant\", and gave his reasons: whether \"it's morally correct to do it\" and whether he had \"the energy\" to revisit \"dark moments in your life.\" Without them the hesitation floats. It invites the reader to supply a motive, such as discomfort with the material or reflexive doubt.",
+      "acceptance_test": "The sentence or the next one gives his stated reasons for hesitating (the casting-ethics question and the energy to revisit dark moments), attributed to Windy City Times, November 2020."
+    },
+    {
+      "id": "subject-F07",
+      "severity": "minor",
+      "passage": "Fans who pose with him, he said, are \"certainly not meeting the actual me.\"",
+      "problem": "The quote is cut in a way that changes its sense. In Gentleman's Journal he describes fans whose arm shakes as they pose: \"I'm not meeting you, and you're not meeting me. Or: You're certainly not meeting the actual me, and I'm not meeting who you really are.\" Dropping the second half turns a two-way remark about how fame distorts encounters into a claim about a hidden true self. That makes him sound self-regarding and overstates the Four evidence. The FAQ answer has the same cut (\"says fans are \\\"not meeting the actual me.\\\"\").",
+      "acceptance_test": "The body quote includes \"and I'm not meeting who you really are\", or the paraphrase makes clear the remark runs both ways. The 'Why isn't Paul Bettany a Type 4?' FAQ answer is adjusted the same way."
+    },
+    {
+      "id": "subject-F08",
+      "severity": "minor",
+      "passage": "He marries in a crisis and finds \"a certainty that was new to me.\"",
+      "problem": "Compressed timeline that suggests impulsiveness. The crisis, September 2001, brought the realisation. The wedding was on January 1, 2003, after he shot Master and Commander and saw her at weekends (podcast 42:52-43:18), about 15 months later. The draft's own earlier paragraphs show this sequence. \"Marries in a crisis\" contradicts them and recasts the decision as a panic move.",
+      "acceptance_test": "The conclusion reflects the sequence: he realises during the crisis whom he wants to hold on to and marries her later, or it otherwise avoids saying he married during a crisis."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "And some of the worry is British comic register, some is junket habit, and some is what early grief leaves in anyone.",
+      "reason": "Fairness at its best. It names professional register, press habit and grief as alternatives to a type explanation instead of treating every anxious remark as proof."
+    },
+    {
+      "passage": "That is Bettany's interpretation. Thane's reasons are not on record.",
+      "reason": "A model of how to attribute claims about a dead third party's motives. It keeps the son's reading apart from fact; F04 asks the section's closing lines to keep to the same standard."
+    },
+    {
+      "passage": "The details shift between tellings. The core holds: bravado in the room, collapse on the pavement, told against himself.",
+      "reason": "It admits plainly that a much-repeated anecdote shifts between tellings while keeping the core he consistently reports. It doesn't overclaim from self-mythology."
+    },
+    {
+      "passage": "That confession holds the whole pattern. He sees that the threat was exaggerated. He calls his response ludicrous. Then he defends it anyway, because the money could stop.",
+      "reason": "The insight is built step by step from his own words (\"ludicrous\", \"the tap can turn off\") rather than imposed. It credits his self-awareness instead of diagnosing him."
+    },
+    {
+      "passage": "His wariness fits the caution seen elsewhere in his record, but any publicist would advise the same",
+      "reason": "It keeps the allegation-adjacent episode out of the type case and names the obvious PR explanation. Keep this restraint even though F01 asks for the wording about his 'silence' in the rest of the sentence to change."
+    }
+  ],
+  "assessment": "Subject-fairness proxy. I reopened the research-cache copies of the Gulf News relay of the 2026 Times interview, the Insider and Yahoo relays of the 2021 Independent and 2022 Times interviews, the Daily Beast repost, Windy City Times, the Sportskeeda relay of the 2012 Guardian, Gentleman's Journal, the Telegraph (Wayback) and Square Mile, plus the local transcript of the Sibling Revelry audio. Live original pages were not refetched. Most of the draft treats Bettany fairly. It keeps self-report, journalist framing and interpretation apart, attributes his reading of his father's motive and says Thane's reasons are not on record, dates shifting anecdotes, tells the addiction, bullying and brother's death in his own words, gives balanced legal context for Depp and Heard, and refuses to use the texts in the type case. The problems cluster in the Depp section. A 2026 quote is stripped of its antecedent and then contradicted (\"in fact\"). A 2022 paraphrase adds timing he did not give. His own replies (\"embarrassing\", \"world without context\", the close-friend portrayal) are missing while Depp's explanation is included. And the 2016 tweet is cut to its superlative. Together these imply an inconsistency the article never argues. Since the section admits the episode does no work for the type argument, the editor should also check whether its length is earned under the standard's rule on recent events. Separately, the father section closes by inventing motives for both men and turns an acting-craft 'mask' into a hint about how Paul lives. Smaller fairness gaps: the brother's death reduced to type evidence without his plain grief or his account of working through the guilt, the Uncle Frank hesitation without his stated reasons, a one-sided cut of the 'actual me' quote, and 'marries in a crisis'. I found no material factual error elsewhere in the sensitive passages. The quotes I checked match their sources. The similarity advisory did not trip. Its top pair (0.097, Christopher Abbott) and the Josh Hartnett 'around fear' overlap are ordinary type vocabulary with different arguments, not reuse. Risk: sensitive_allegations stays true (texts about a woman who alleged abuse, a sibling's death with self-blame, a dead parent's sexuality). I do not escalate the other risks; the type argument is for other roles."
+}

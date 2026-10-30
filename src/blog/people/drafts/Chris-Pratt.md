@@ -11,7 +11,7 @@ loc: 'https://9takes.com/personality-analysis/chris-pratt'
 lastmod: '2026-10-29'
 changefreq: monthly
 priority: '0.6'
-published: false
+published: true
 enneagram: '3'
 type:
   - movieStar
@@ -147,7 +147,7 @@ content_quality:
   graded_at: '2026-10-29'
   caps_applied: []
   needs_review: false
-  content_sha256: 2cb599b72ea2b30e08ba7a60eb90ae07e74646d69ac5296ab4452ff420806395
+  content_sha256: 0b44e6f7fbc8fb85c529bfb0be731af99bd6bc3f52ee6904bb0d0da1e3d50c0a
 path: src/blog/people/drafts/Chris-Pratt.md
 ---
 

@@ -1,0 +1,20 @@
+I finished the research stage for Paul Bettany. `evidence.json` is now in the run directory and passes the pipeline's own evidence validator. Nothing else in the repo was touched, and nothing was published.
+
+**Result: ready.** The record supports Type 6 with medium confidence. The main rival is Type 4.
+
+- **Why Six:** whenever his footing gave way, he moved to make things safe rather than to define himself through the loss. This shows up from 2010 to 2026:
+  - After 9/11 he phoned Jennifer Connelly for two days straight, then married her. He says the marriage gave him "a certainty that was new to me."
+  - When his son was born he took studio jobs for money to make the children safe "with dough."
+  - After the 2008 crash he asked himself "what if this thing comes tumbling down?"
+  - He calls himself "an absolute fascist about being on time" and says he made sure to be "the most prepared person" at every audition.
+  - He was fearful as a bullied kid before his brother died, so trauma alone doesn't explain it.
+- **What separates it from Four:** in the October 2026 Sibling Revelry podcast he says he gave up songwriting because singing his own songs left him feeling "so revealed." He chose acting as his "safety net" because it gave him "a mask that I could hide behind." A Four usually wants to be seen.
+- **The Four case is still real:** he talks about feeling alienated after his brother's death, says fans are "not meeting the actual me," and uses his grief as a tool for crying on camera. The evidence file states this openly.
+
+**Evidence base:** 28 sources, all opened, 17 of them first-hand interviews from 2010 to 2026. There are 40 claims. I transcribed the full podcast locally and re-checked the quoted clips with a larger model. Every quote in the file matches its cached source text word for word. The transcripts stay in `~/.cache/9takes-research/paul-bettany/`, not the repo, because the repo is public.
+
+**Things to know before drafting:**
+- **Sensitive flag is on, so all six reviewers will run.** The reason is the 2013 Depp texts, which became a story again in October 2026 with boycott calls against VisionQuest. They need neutral handling with exact quotes. One inconsistency to note: in October 2026 he told The Times he "decided to say nothing," but he had commented on the texts in 2021 and 2022.
+- **Don't claim he appears in Avengers: Doomsday or Secret Wars.** Neither is confirmed.
+- **His father's coming-out age conflicts between sources.** Bettany says 63; the 2013 Telegraph says 75. Attribute it to him or leave the number out.
+- **Some sources are second-hand.** The Guardian (2012 and 2013), Total Film (2020) and Times (2026) interviews were paywalled or blocked, so they're cited through other outlets. The key points are backed by sources I did open.

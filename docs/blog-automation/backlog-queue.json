@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-29T06:00:00Z",
+  "lastUpdated": "2026-10-30T08:07:39Z",
   "stats": {
     "totalUnpublished": 132,
     "totalPublished": 391,
@@ -43,19 +43,6 @@
       "personaTitle": null,
       "addedToQueue": "2026-10-21",
       "retryCount": 0
-    },
-    {
-      "name": "paul-bettany",
-      "displayName": "Paul Bettany",
-      "type": null,
-      "priority": 87,
-      "priorityReason": "VisionQuest (Disney+) weekly since Oct 13-14, finale Nov 10; Wikipedia 3.5K Jun -> 15.8K L7, peak Oct 25 and still rising. Avengers: Doomsday (Dec 18) return is unconfirmed - don't claim it.",
-      "estimatedTraffic": "medium",
-      "searchVolume": "medium",
-      "personaTitle": null,
-      "addedToQueue": "2026-10-26",
-      "retryCount": 0,
-      "strategicValue": "marvel-cluster"
     },
     {
       "name": "dominic-fike",
@@ -176,6 +163,48 @@
     }
   ],
   "completed": [
+    {
+      "name": "paul-bettany",
+      "displayName": "Paul Bettany",
+      "type": null,
+      "priority": 87,
+      "priorityReason": "VisionQuest (Disney+) weekly since Oct 13-14, finale Nov 10; Wikipedia 3.5K Jun -> 15.8K L7, peak Oct 25 and still rising. Avengers: Doomsday (Dec 18) return is unconfirmed - don't claim it.",
+      "estimatedTraffic": "medium",
+      "searchVolume": "medium",
+      "personaTitle": null,
+      "addedToQueue": "2026-10-26",
+      "retryCount": 0,
+      "strategicValue": "marvel-cluster",
+      "startedAt": "2026-10-30T06:00:00Z",
+      "completedAt": "2026-10-30T08:07:39Z",
+      "contentGrade": "8.5",
+      "letter": "B+",
+      "discoverability": "8.6",
+      "duration": "~127 min",
+      "needsReview": true,
+      "publishReady": false,
+      "publishBlockers": [
+        "missing_full_image",
+        "missing_thumbnail_image"
+      ]
+    },
+    {
+      "name": "hunter-schafer",
+      "displayName": "Hunter Schafer",
+      "type": null,
+      "priority": 88,
+      "priorityReason": "Blade Runner 2099 (Prime) all 8 episodes Nov 25 (trailer NYCC Oct 10); Wikipedia 11.7K Jun -> 42.1K L7. The Oct 20 spike came from a personal-life interview: not personality evidence; identity topics are not type evidence.",
+      "estimatedTraffic": "high",
+      "searchVolume": "high",
+      "personaTitle": null,
+      "addedToQueue": "2026-10-26",
+      "retryCount": 0,
+      "strategicValue": "streaming-leads",
+      "startedAt": "2026-10-29T06:00:00Z",
+      "completedAt": "2026-10-30T06:00:00Z",
+      "needsReview": true,
+      "recoveryNote": "Reconciled by nightly-blog-cron: draft existed but queue was never updated."
+    },
     {
       "name": "anthony-ippolito",
       "displayName": "Anthony Ippolito",
@@ -2118,20 +2147,7 @@
       "reconcileNote": "Pipeline completed after daily creator wrapper relaunched it detached; manually reconciled queue state from final logs."
     }
   ],
-  "inProgress": {
-    "name": "hunter-schafer",
-    "displayName": "Hunter Schafer",
-    "type": null,
-    "priority": 88,
-    "priorityReason": "Blade Runner 2099 (Prime) all 8 episodes Nov 25 (trailer NYCC Oct 10); Wikipedia 11.7K Jun -> 42.1K L7. The Oct 20 spike came from a personal-life interview: not personality evidence; identity topics are not type evidence.",
-    "estimatedTraffic": "high",
-    "searchVolume": "high",
-    "personaTitle": null,
-    "addedToQueue": "2026-10-26",
-    "retryCount": 0,
-    "strategicValue": "streaming-leads",
-    "startedAt": "2026-10-29T06:00:00Z"
-  },
+  "inProgress": null,
   "skipped": [
     {
       "name": "dakota-johnson",

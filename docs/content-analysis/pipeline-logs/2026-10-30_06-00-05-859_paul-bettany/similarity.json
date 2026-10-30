@@ -1,0 +1,199 @@
+{
+  "target": {
+    "person": "paul-bettany",
+    "type": "6",
+    "units": 10,
+    "file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-30_06-00-05-859_paul-bettany/draft.md"
+  },
+  "comparison_set": [
+    {
+      "person": "anthony-ippolito",
+      "date": "2026-10-28",
+      "units": 7
+    },
+    {
+      "person": "ella-beatty",
+      "date": "2026-10-28",
+      "units": 9
+    },
+    {
+      "person": "paapa-essiedu",
+      "date": "2026-10-27",
+      "units": 11
+    },
+    {
+      "person": "Nathan-Fielder",
+      "date": "2026-10-26",
+      "units": 23
+    },
+    {
+      "person": "inde-navarrette",
+      "date": "2026-10-22",
+      "units": 7
+    },
+    {
+      "person": "josh-hartnett",
+      "date": "2026-10-22",
+      "units": 4
+    },
+    {
+      "person": "christopher-abbott",
+      "date": "2026-10-19",
+      "units": 9
+    },
+    {
+      "person": "grace-reiter",
+      "date": "2026-10-16",
+      "units": 8
+    }
+  ],
+  "n_requested": 8,
+  "noise_floor": {
+    "pairs_compared": 780,
+    "median": 0,
+    "p90": 0,
+    "p99": 0.016,
+    "max": 0.097
+  },
+  "trip_threshold": 0.064,
+  "tripped": false,
+  "trip_pairs": [],
+  "per_draft_max": [
+    {
+      "person": "christopher-abbott",
+      "date": "2026-10-19",
+      "units": 9,
+      "maxScore": 0.097
+    },
+    {
+      "person": "josh-hartnett",
+      "date": "2026-10-22",
+      "units": 4,
+      "maxScore": 0.056
+    },
+    {
+      "person": "ella-beatty",
+      "date": "2026-10-28",
+      "units": 9,
+      "maxScore": 0.033
+    },
+    {
+      "person": "Nathan-Fielder",
+      "date": "2026-10-26",
+      "units": 23,
+      "maxScore": 0.025
+    },
+    {
+      "person": "paapa-essiedu",
+      "date": "2026-10-27",
+      "units": 11,
+      "maxScore": 0.016
+    },
+    {
+      "person": "grace-reiter",
+      "date": "2026-10-16",
+      "units": 8,
+      "maxScore": 0.011
+    },
+    {
+      "person": "anthony-ippolito",
+      "date": "2026-10-28",
+      "units": 7,
+      "maxScore": 0.011
+    },
+    {
+      "person": "inde-navarrette",
+      "date": "2026-10-22",
+      "units": 7,
+      "maxScore": 0.008
+    }
+  ],
+  "top_pairs": [
+    {
+      "score": 0.097,
+      "other_person": "christopher-abbott",
+      "shared_phrases": [],
+      "target": "[diagnosis] what he does each time the floor drops.",
+      "other": "[diagnosis] because so much of what he does looks tough."
+    },
+    {
+      "score": 0.056,
+      "other_person": "josh-hartnett",
+      "shared_phrases": [
+        "around fear"
+      ],
+      "target": "[diagnosis] the three types organized around fear.",
+      "other": "[diagnosis] the types built around fear"
+    },
+    {
+      "score": 0.035,
+      "other_person": "josh-hartnett",
+      "shared_phrases": [],
+      "target": "[diagnosis] which the Enneagram calls the counterphobic side of the type.",
+      "other": "[diagnosis] the types built around fear"
+    },
+    {
+      "score": 0.033,
+      "other_person": "ella-beatty",
+      "shared_phrases": [],
+      "target": "[diagnosis] then build footing out of whatever holds",
+      "other": "[diagnosis] whose anger stays out of sight"
+    },
+    {
+      "score": 0.027,
+      "other_person": "christopher-abbott",
+      "shared_phrases": [],
+      "target": "[diagnosis] Plenty of actors admit to nerves.",
+      "other": "[diagnosis] he admits nerves before big moments"
+    },
+    {
+      "score": 0.025,
+      "other_person": "Nathan-Fielder",
+      "shared_phrases": [],
+      "target": "[diagnosis] Some charge straight at the threat",
+      "other": "[diagnosis] And at the New York Film Festival on September 30"
+    },
+    {
+      "score": 0.023,
+      "other_person": "ella-beatty",
+      "shared_phrases": [],
+      "target": "[diagnosis] which the Enneagram calls the counterphobic side of the type.",
+      "other": "[diagnosis] Those four types span all three of the Enneagram's triads."
+    },
+    {
+      "score": 0.02,
+      "other_person": "Nathan-Fielder",
+      "shared_phrases": [],
+      "target": "[diagnosis] earns money against disaster and makes himself the most prepared person in the room.",
+      "other": "[diagnosis] A replica of the room before he walks into the real one."
+    },
+    {
+      "score": 0.016,
+      "other_person": "paapa-essiedu",
+      "shared_phrases": [],
+      "target": "[diagnosis] Sixes are driven by a need for security and support",
+      "other": "[diagnosis] a gut-triad type whose anger is held down by a strict inner critic"
+    },
+    {
+      "score": 0.015,
+      "other_person": "Nathan-Fielder",
+      "shared_phrases": [],
+      "target": "[diagnosis] earns money against disaster and makes himself the most prepared person in the room.",
+      "other": "[diagnosis] In The New York Review of Books in December 2022"
+    },
+    {
+      "score": 0.012,
+      "other_person": "christopher-abbott",
+      "shared_phrases": [],
+      "target": "[diagnosis] Sixes are driven by a need for security and support",
+      "other": "[diagnosis] A Type 6 organizes life around security"
+    },
+    {
+      "score": 0.011,
+      "other_person": "grace-reiter",
+      "shared_phrases": [],
+      "target": "[diagnosis] Some charge straight at the threat",
+      "other": "[diagnosis] Most Sixes aim that vigilance at outside threats."
+    }
+  ]
+}

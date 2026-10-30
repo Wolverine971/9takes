@@ -1,0 +1,17 @@
+I've written `verification-edit.json`. The verdict is **pass**, and the pipeline's own release check comes back **eligible with no blockers at 8.5 overall (B+)**. That is exactly the release floor, so it clears with no margin. I scored each dimension on its own before the total was calculated and didn't adjust anything to reach 8.5. The low scores are Enneagram (8.4) and Writing (8.2). Nothing was published, and no other file was touched.
+
+**What I checked**
+- **Sources:** I fetched all 25 cited sources fresh and checked every quote in the body and FAQs against them. They all match. One Depp quote drops a "he said" between two consecutive sentences of the same answer, which is acceptable.
+- **Podcast audio:** Several quotes come from the October 2026 Sibling Revelry episode, which only had machine transcripts. I ran a third transcription model on those clips and it agreed on every quoted word. In one father quote it first heard "really fucking gay" instead of "pretty". When I isolated that 22 seconds, all three models heard "pretty", which is what the article has. No person has listened to the audio yet, so that stays an open task.
+- **Editor's changes:** I re-checked every sentence the editor added, since that's where errors slipped in on the Chris Pratt run. All six reviewers' 48 findings are fixed, and all 18 protected passages are kept or reasonably changed.
+
+**Seven minor issues remain. None blocks release, and each is a few minutes' fix:**
+1. **Spliced quote:** One Guardian line is joined so it says money-making "eclipsed" his acting. In the source, marriage and kids did that, and the money period came after.
+2. **Order of events:** "Then, he told the Telegraph, he decided…" puts his money decision after his year and a half off. Neither source says which came first.
+3. **Missing attribution:** The *Uncle Frank* quotes ("Why me?", "Should I even do this?") don't name Windy City Times. Readers may assume they come from the Out citation that follows.
+4. **Depp films:** The article lists *The Tourist* and *Mortdecai* but leaves out *Transcendence* (2014), which is what they were shooting together in 2013.
+5. **Podcast timestamps:** They come from a download that includes ads (52 minutes) rather than the 43-minute episode Apple lists, so readers may find the quotes a minute or so off.
+6. **Length:** 3,944 words, against a target of about 3,500. The Depp section and the Type 5/7 paragraph are the obvious places to trim.
+7. **Research notes:** The notes mislabel the 2010 CinemaBlend question (it was "Were you scared?" about an orangutan). Readers don't see this.
+
+**Your call:** whether to publish as is or fix the seven first. Fixing them would change the article, so it would need verifying again. Publishing is a separate step, and the page still needs a hero image. I can write the image prompt for you to run in ChatGPT.

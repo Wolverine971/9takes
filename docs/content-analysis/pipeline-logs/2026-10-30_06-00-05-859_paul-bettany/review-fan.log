@@ -1,0 +1,20 @@
+The fan review of the Paul Bettany draft is done and saved as `review-fan.json` in the run folder. It passes the pipeline's review schema, and every passage it flags appears word for word in the draft. I didn't touch any other repo files and published nothing; my one helper script is in `/tmp`.
+
+**Result: 3 major and 6 minor findings.** I checked the draft's best-known stories against saved copies of the sources. Most are told accurately, and where his tellings differ (how long he phoned Connelly after 9/11, the Sunset Boulevard call) the draft says so. The problem is which sources it picks.
+
+**Major (must be fixed before release):**
+1. **The acting origin story leaves out his earlier accounts.** The draft says acting "began as the backup plan," based only on the October 2026 podcast. In 2012 he told The Times his wish to act was "absolutely" driven by "revenge fantasies" ("One day you'll be sorry"). In 2013 he told the Telegraph he'd "always loved acting" and wanted fame "in a childish, revenge fantasy kind of way." Both parents had also been performers. This weakens the "how he chose his art form" argument for Type 6 over Type 4.
+2. **The "mask" quote drops half his reason.** On the podcast he says drama school saved him because it gave him "a place that I [could] turn very negative things into something creative" and also a mask to hide behind. The draft keeps only the mask, which tilts the main Six-vs-Four test.
+3. **The Depp section has an impossible timeline.** The draft says he told The Times in 2022 they hadn't spoken "for years by the time Depp married Heard." His actual words don't set that date, and the sources show they were texting in 2013–14 while working together; Depp married Heard in 2015. The draft also cuts the 2016 tweet's opening, "Known Johnny Depp for years and through several relationships." And it never says the two were friends and co-stars (*The Tourist*, *Mortdecai*), which is the very thing he objected to in 2026.
+
+**Minor:**
+- **Missing family:** no mention of his mother (a former singer and actress), his older sister, or his parents' divorce in 1993 after his brother died.
+- **The studio money years are vague:** no film is named. It also misses the irony he told the Daily Beast in 2022: Whedon used one of the films Bettany called "the nadir of my career" to convince Marvel's Kevin Feige he could play Vision.
+- **9/11 detail is wrong:** the draft says both he and Connelly were seeing other people. The 2012 Times says "When both were single, September 11 happened."
+- **"Not meeting the actual me" is cut short:** the full line runs both ways ("…and I'm not meeting who you really are"). The FAQ has the same cut.
+- **The "fear came before the loss" point is one-sided:** it leaves out the 2012 detail that his brother's fall comes back to him when his kids jump on the couch.
+- **"Caution" is overstated:** he says he took US citizenship because he "was tired of getting shouted down on Twitter" for his political opinions, which cuts against the draft's picture of a cautious man.
+
+I kept the sensitive-allegations flag on and didn't mark the type as contested: Type 6 should hold once the revenge motive is dealt with honestly. I also marked five passages to keep: the 9/11 opening, the reading of his "zombie apocalypse" confession, the handling of differing retellings, the attribution of his father's motives, and "keeps a mask for himself."
+
+One limit: like the draft, I relied on secondhand copies of the 2012 and 2013 Guardian interviews, not the originals.

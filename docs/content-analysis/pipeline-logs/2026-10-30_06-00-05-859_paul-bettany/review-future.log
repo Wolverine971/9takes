@@ -1,0 +1,16 @@
+I wrote the five-year review of the Paul Bettany draft to `review-future.json` in the run folder. Nothing else was changed or published. It passes the pipeline's review format check, its hashes match the request, and every quoted passage matches the draft exactly.
+
+**Verdict:** the main argument holds up over five years. Take out everything from the October 2026 VisionQuest press tour and the Type 6 case still stands on interviews from 2010 to 2022. The opening is a 2001 event, and dates are absolute throughout.
+
+**Findings (1 major, 5 minor):**
+- **Major, the Depp section:** the draft says he told The Times in 2022 that the two "had not spoken for years by the time Depp married Heard." I reopened the source. His actual words are "I knew him before. But we hadn't spoken for years. During the marriage, I didn't know them." Next to his 2016 tweet, the rewording makes him look like he contradicted himself, in the section about abuse allegations. The fix is to quote him directly.
+- **Minor:**
+  - The Depp section and the intro hang on release-week boycott calls, sourced to one aggregator site. The article itself says the Depp material carries no weight in the type case. The line "He had in fact commented in 2021 and 2022" also reads as a gotcha, and it rests on a Times interview nobody opened.
+  - The title ("Safety Net and His Mask"), the description, the ending and the strongest point against Type 4 all come from one October 2026 podcast. Those quotes are machine-transcribed and no human has listened to check them. The fix: a human listen, a timestamped link, and one older written source behind the Type 4 rebuttal.
+  - Things that can change, like his marriage and his Vision and VisionQuest roles, are written in the present tense and marked stable, with nothing set to flag them for re-checking.
+  - "Lennon, whom 9takes reads as a Four" goes stale if the Lennon page is ever retyped.
+  - Every re-check trigger tracks news (Depp, VisionQuest, the Vision role). None says what future evidence should make a later refresh re-test Type 6 against Type 4. A good candidate is his next self-written or self-directed project and how he describes its risk.
+
+**Risk flags:** "sensitive allegations" stays on. I didn't flag the typing as contested, because the case for 6 over 4 rests on a specific, sourced distinction. The similarity check against recent profiles found no meaningful reuse.
+
+I also marked five passages the editor should keep, including "When the ground gives way under Bettany, he reaches for something solid and holds on" and the "hammering bits of wood" analysis.

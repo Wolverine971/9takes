@@ -1,0 +1,19 @@
+I've written the subject (fairness) review to `review-subject.json` in the Paul Bettany run folder. It passes the review schema and carries the hashes from the request. No other files were changed and nothing was published.
+
+**Verdict:** the draft is mostly fair to Bettany. It quotes his own words for the addiction, the bullying and his brother's death. It says outright that his reading of his father's motive is only his interpretation. It gives balanced legal context for Depp and Heard, and keeps the texts out of the type argument. But there are four major findings, so the editor has to fix them or reject each one with a reason before this can release.
+
+**Major findings:**
+1. **A 2026 quote is cut, then used against him.** He said "I decided to say nothing" right after complaining that he'd been "painted as this close friend" of Depp. The draft drops that lead-in and adds "He had in fact commented in 2021 and 2022," which implies he misstated his own record.
+2. **The draft gives him a claim he didn't make.** It says he told The Times they "had not spoken for years by the time Depp married Heard." His actual words don't date when contact stopped. That version is also hard to believe: they texted in 2013–14 and made films together up to 2015.
+3. **Depp's explanation of the texts is in, Bettany's isn't.** Missing: "embarrassing," "We live in a world without context," and his 2026 point that what bothered him most was being cast as Depp's close friend. The 2016 tweet is cut to its superlative, dropping "Known Johnny Depp for years and through several relationships."
+4. **The father section ends by inventing motives.** "Both men… were trying to keep a family safe" gives a motive to his dead father that no source supports. "Keeps a mask for himself" turns a line about acting into a claim about how Paul lives. Set beside his father's closet story, it hints at something about Paul's own identity that nothing in the record supports.
+
+**Minor findings:**
+- His brother's death is used mostly as type evidence. The draft omits his plain grief ("the most important person to me") and his own account of working through the guilt.
+- The *Uncle Frank* hesitation ("Why me?") appears without the reasons he gave for it.
+- The "not meeting the actual me" quote drops its other half, "and I'm not meeting who you really are."
+- "He marries in a crisis" is wrong: the wedding came about 15 months after 9/11.
+
+I also suggested the editor check whether the Depp section has earned a full section, given that the article itself says the texts don't bear on the type case.
+
+I checked these against the copies in the research cache and the local podcast transcript, not fresh fetches of the live pages. The quotes in the sensitive passages match their sources apart from the cuts listed above. The similarity check didn't trip: the closest matches are ordinary Enneagram wording, not reused arguments. I kept the existing "sensitive allegations" flag and didn't raise any new risk flags.

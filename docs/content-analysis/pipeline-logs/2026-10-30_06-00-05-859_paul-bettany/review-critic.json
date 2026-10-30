@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "critic",
+  "content_sha256": "50a3be2dbe05a137f3ea90d748d87ca10e7354e113bb1878d0585a63a5ff062c",
+  "evidence_sha256": "dd5e178c9ce05a442d409fc1fd3cd22072e2df59d31769154f49bdffac3a2135",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "critic-01",
+      "severity": "major",
+      "passage": "Drama school saved him, he went on, because \"there was always a mask that I could hide behind,\"",
+      "problem": "Context fidelity on the draft's sharpest discriminator. In the S23 audio (~28:28-29:16; the full transcript and the clip re-transcription agree), the because-clause has two parts and the mask is the second: drama school \"really saved me in that it gave me a place\" to turn \"very negative things into something creative. And there was always a mask that I could hide behind\", followed by \"that's the path... I can do something with this brokenness.\" The draft drops the first reason and presents the mask as the cause of his rescue. It then builds the 'Second' Why-not-4 point on that mask (\"A Four usually wants the true self seen\"). In context the mask is what made it bearable to put pain into art, which fits Four at least as well as Six. Kate Hudson also offered the 'something you could disappear into' frame first, and he agreed with \"I think so.\" The discriminator also rests on a stereotype: a Four who expresses inner experience through characters while guarding privacy is not unusual.",
+      "acceptance_test": "The passage gives both halves of his reason in order (a place to turn \"very negative things into something creative\", and a mask). The 'Second' point then explains why concealment separates Six from Four when the same sentence pairs it with creative use of pain. If it cannot, the point is downgraded from a discriminator to a shared trait, and the FAQ 'Why isn't Paul Bettany a Type 4?' answer and the description are adjusted to match."
+    },
+    {
+      "id": "critic-02",
+      "severity": "major",
+      "passage": "So acting began as the backup plan, chosen partly because singing his own words in public left him exposed.",
+      "problem": "The origin story rests on the single 2026 podcast telling and omits conflicting accounts from opened sources. The Times 2012 (S01): \"a lot of revenge fantasies where I thought, 'One day you'll be sorry'\"; his desire to act was \"absolutely\" fuelled by this; and \"Acting became a vocation. I don't remember thinking it was about money until I had kids.\" Telegraph 2013 (S02): \"Growing up, I'd always loved acting, but fame? Well I suppose I did want it in a childish, revenge fantasy kind of way\"; the bullying \"set off the childish motor in me.\" Daily Beast 2022 (S15): \"I fell into acting.\" This also weakens 'The fear came first'. The pre-loss fear was a reaction to real beatings, and his documented response was defiance plus a fame-as-revenge fantasy, not security-building. The 'Fourth' point (\"A Four reading can treat his vigilance as grief\") argues against a trauma-only reading, not against Four. The closing line \"He picks the art form that lets him hide and calls it his safety net\" joins two separate podcast answers. One is a joke about a fallback career (\"which is hilarious... The rock roll star doesn't work out\", ~14:00-14:14). The other is a later answer about the mask (~28:54).",
+      "acceptance_test": "The article states, with dates and sources, that his accounts of how he came to acting differ: a fallback from music in 2026, a revenge-fantasy-fuelled vocation in 2012-2013, and 'fell into acting' in 2022. 'The fear came first' shows the revenge-fantasy response to the bullying. The 'Fourth' point either answers a real Four claim or folds into the circumstance caveat. The closing summary does not say he chose acting because it let him hide unless a source says so."
+    },
+    {
+      "id": "critic-03",
+      "severity": "major",
+      "passage": "First, when expression and safety collided, safety won for years, by his own account.",
+      "problem": "The main discriminator leaves out his own reversal and that the feared threat came true. The Times 2012 (S01) reports he took \"a year and a half off\" when Stellan was born. It also says the money films were made \"in the shortest amount of time so I could get back to my family\". After Margin Call he said \"I need to be happy, and if that means making films for less money, so be it\" (S01) and that he \"had made some bad choices. I decided I wasn't going to do that any more\" (S02). He did not keep defending the trade; he gave it up once he judged it a mistake. That is the Four-friendly turn this paragraph omits. Separately, \"He sees that the threat was exaggerated\" treats as neurosis a fear his later account vindicates. After the crash \"For around two years I couldn't get a job\", and a producer told him \"you're done in this business\" (S15, 2022). In 2013 he had already added \"I know great actors whom nothing has ever happened for\" (S02). The order also misleads. The post-2008 films that \"helped us financially\" came before Margin Call (2011), but the draft places them after 'The turn came' as proof the worry continued.",
+      "acceptance_test": "The 'First' point or the money section names the 2011-2013 reversal in his words and the real two-year drought. It then explains why the pattern still favours Six, for example by citing worry that outlasts the Marvel security (\"I don't think that ever ends\"). \"He sees that the threat was exaggerated\" is attributed to his 2013 view, not stated in the author's voice. The money-years events appear in chronological order."
+    },
+    {
+      "id": "critic-04",
+      "severity": "major",
+      "passage": "Two other readings come up.",
+      "problem": "The article never tests Type 3, even though its own quotes invite it and its mask discriminator points as much to image as to security. Acting was \"the one thing that gave me self-worth\" (2012, quoted in the draft). His career was what was \"making me feel safe and relevant\" (S15, 2022). In context the \"most prepared person\" quote ends with \"I was the person they remembered\" (S15). He says \"I wonder if anybody remembers me\" (2026, quoted). He wanted fame \"in a childish, revenge fantasy kind of way\" (S02), and at school \"I tried to look enigmatic\" (S01). A skeptical reader will ask why an image/achievement motive does not explain the mask, the preparation and the work-as-worth better than security. The record supplies answers the draft does not use: judging yourself \"only though the praise of others\" is one of the \"terrible, terrible things\" (S15); \"What if it goes away?\" (S01); taking less money after Margin Call; and repeatedly telling failure stories against himself.",
+      "acceptance_test": "The article contains a short, sourced paragraph that tests Type 3. It cites at least one Three-compatible quote and at least one specific discriminator showing why Six explains that evidence better. The evidence record's type_hypothesis or unexplained field records Type 3 as tested."
+    },
+    {
+      "id": "critic-05",
+      "severity": "major",
+      "passage": "Paul tells his children authenticity is worth what it costs, and keeps a mask for himself. Both men, on this reading, were trying to keep a family safe and disagreed about the price.",
+      "problem": "This is the draft's most attractive unsupported causal story. Two paragraphs earlier the draft rightly says Thane's reasons \"are not on record\" and that the heaven-reunion motive is Paul's interpretation. This closing builds on that guess anyway and gives a dead man a Six-shaped motive. A reunion in heaven is not 'keeping a family safe', and Thane's stated reason was his Catholic faith. \"Keeps a mask for himself\" equates an actor's professional persona and privacy with decades in the closet. That implies a hypocrisy the record does not show: Bettany discusses his father, brother, addiction and therapy at length in many interviews.",
+      "acceptance_test": "The section gives Thane no motive beyond what Paul is quoted saying. Any father-son parallel is labelled as the author's speculation, with its limit stated. \"Keeps a mask for himself\" is either removed or limited to the professional privacy the record documents, with no implied equivalence to living in the closet."
+    },
+    {
+      "id": "critic-06",
+      "severity": "major",
+      "passage": "exchanged text messages that were read aloud in Depp's 2020 UK libel case against the publisher of The Sun, which Depp lost.",
+      "problem": "The legal context tilts toward Depp. The UK outcome gets three words, while the US outcome gets detail (\"a Virginia jury largely sided with Depp\") alongside Depp's denial and his Monty Python explanation. The draft's own opened relays give the UK substance: a British court \"dismissed Depp's claim that it was libelous for the newspaper to refer to him as a 'wife beater' in light of ex-wife Amber Heard's allegations of abuse\" (S11), and the judge weighed 14 alleged incidents (S12). Otherwise Heard appears only as someone who \"accused\" him. The 2016 tweet is quoted without its framing: \"Known Johnny Depp for years and through several relationships... Just saying.\" (S12). That framing is what sets it against his later \"we hadn't spoken for years\", and the draft does not say whether the tweet came before or after Heard's 2016 allegations.",
+      "acceptance_test": "One neutral clause states what the UK judgment found (that calling Depp a 'wife beater' was not libelous) and links a source. The tweet is quoted or summarised with its 'known... through several relationships' framing. Its timing relative to the allegations is either sourced or explicitly left undated. The section still keeps the episode out of the type case, and the Depp FAQ answer matches."
+    },
+    {
+      "id": "critic-07",
+      "severity": "minor",
+      "passage": "It is also the clearest early example of a pattern that runs through his interviews from 2010 to 2026. When the ground gives way under Bettany, he reaches for something solid and holds on.",
+      "problem": "Repeatedly phoning a friend in downtown Manhattan on 9/11 is near-universal behaviour, so it is one of the weakest examples of the pattern, not the clearest. The closing compresses it further (\"He marries in a crisis\"). In fact the wedding came about 15 months later, after a romance in London, and he says he did not know he would propose \"until five seconds\" before (S01). \"A certainty that was new to me\" is a fragment inside the Telegraph writer's sentence about \"their romance\", not a full statement about the marriage. The thesis line also echoes that writer's own speculation (\"it seems likely that in his relationship with Connelly, Bettany finally had the foundations he'd craved\") and the S02 standfirst (\"followed the Hollywood dollar for the sake of his family's security\"). The security frame first came from the journalist, not from independent discovery.",
+      "acceptance_test": "The opening no longer calls 9/11 the clearest example, or else justifies that with a detail that actually discriminates. The closing no longer says he \"marries in a crisis\". The certainty fragment is attributed as part of the Telegraph's account of the romance. The evidence record notes that S02's writer proposed the foundation/security frame."
+    },
+    {
+      "id": "critic-08",
+      "severity": "minor",
+      "passage": "The worry belongs to the rest of life, starting, in the same answer, with \"my kids' health, my health.\"",
+      "problem": "The 2010 CinemaBlend answer (S04) comes right after talk of working with an orangutan; the question itself is not shown. The list continues: \"whether I'm going to get the job I want, the chicken's going to turn out all right, the dog's going to poop in front of the paparazzi.\" The same answer adds that on camera he could let bugs crawl over his hand. Cutting the list at its two serious items turns a comic riff into a solemn admission. That comic register is the very alternative the draft concedes elsewhere. 'Telling exception' leans on one light remark.",
+      "acceptance_test": "The passage includes enough of the list (at least the job worry and one comic item) for the tone to show, or says plainly that the remark was played for laughs. 'Telling exception' is softened unless a second source corroborates it."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "there I was hammering bits of wood against the window as though there were a zombie apocalypse coming",
+      "reason": "Vivid, verified self-report (S02) that shows the pattern and his own ironic distance from it at once; the most memorable detail in the piece."
+    },
+    {
+      "passage": "The details shift between tellings. The core holds: bravado in the room, collapse on the pavement, told against himself.",
+      "reason": "Honest handling of a much-retold anecdote: names the variance, keeps only the stable core, and avoids overclaiming."
+    },
+    {
+      "passage": "The Six reading has limits. It explains his reopening of grief only as craft, though he does it by choice and keeps returning to men who hide who they are",
+      "reason": "A real counterevidence paragraph that leaves an unresolved contradiction standing, which a skeptical reader needs."
+    },
+    {
+      "passage": "That is Bettany's interpretation. Thane's reasons are not on record.",
+      "reason": "Correct attribution discipline for a deceased third party's motive. The repair for critic-05 should extend it, not remove it."
+    },
+    {
+      "passage": "He had in fact commented in 2021 and 2022.",
+      "reason": "Fair-minded catch of the subject's own inconsistency, stated flatly without editorialising."
+    }
+  ],
+  "assessment": "The draft is honest in many places. It calls the Four case real and gives a 'Six reading has limits' paragraph. It flags the conflicting coming-out ages, catches his 'decided to say nothing' contradiction, attributes his father's motive to Paul, and keeps the Depp texts out of the type case. The weakness is selective sourcing at the exact points that carry the Six-vs-Four argument. The 'sharpest' test (the mask) truncates the answer it quotes (critic-01). The art-form origin uses one 2026 telling and leaves out three earlier, conflicting accounts, including a revenge fantasy he said 'absolutely' fuelled his desire to act (critic-02). The money-years discriminator omits his own reversal and that the feared drought happened (critic-03). Type 3, which the draft's own quotes invite, is never tested (critic-04). The father section ends on a symmetrical story the sources do not support (critic-05), and the Depp trials are summarised asymmetrically (critic-06). Six may well survive the repairs. The record holds stronger Six evidence than the 9/11 hook: 'I do not operate from a place of certainty' (S01, 2012); his brother's fall 'is right there' when his children jump on the couch, 'I have to stop myself from shouting' (S01); and 'I remember the world feeling like a frightening place' (S15, 2022). But the case has to win against the whole record, so I flag contested_typing. sensitive_allegations stays true because of the Depp section. The body, title and meta_title assert Type 6 flatly while the FAQ says medium confidence; the editor should align them. The similarity advisory did not trip: the max was 0.097 against christopher-abbott, on a generic 'what he does' diagnosis line, and the Six orientation paragraph is ordinary type vocabulary. I found no meaningful reuse of another profile's argument. Method limit: I checked the run's cached opened copies of S01, S02, S03, S04, S11, S12, S14, S15, S21 and S28, plus the S23 machine transcripts (full pass and clip re-transcription), not live pages or a human listen."
+}

@@ -1,0 +1,26 @@
+Error: Reached max turns (60)
+[runner] Turn limit reached; resuming session 627252f8-3df8-49e5-bafb-dee16b4d6967 to write outputs
+I finished the Paul Bettany draft stage and wrote both requested files to the run directory: `draft.md` and `evidence-draft.json`. The pipeline's own checks pass with no blockers: the draft check runs clean and the evidence validates against the draft. Nothing was published, and the draft is set to `published: false`.
+
+**The story.** It opens on 9/11. Bettany spent "about 48 hours" phoning Jennifer Connelly, then married her without their having lived together, and said the marriage gave him "a certainty that was new to me." From there the draft follows one pattern: when the ground gives way, he reaches for something solid. He did it with the money roles after his son was born ("hammering bits of wood against the window"), with being "the most prepared person" at auditions, and with leaning on family and therapy. The twist is that he chose acting as his "safety net" and calls it "a mask that I could hide behind."
+
+**Type.** The draft commits to Type 6 in the answer, puts medium confidence in the FAQ, and gives Type 4 its own "Why not Type 4?" section. That section includes the strongest line against the Six read, from the 2026 podcast: "I can do something with this brokenness that I am feeling." The father's story is read both ways. The Depp texts are handled neutrally, with his exact words, Depp's denial and both trials' outcomes, and are explicitly kept out of the type argument.
+
+**Length.** 3,554 words by the pipeline's count, which includes link text. That's above the 3,500 target but under the 4,500 limit. I cut about 340 words because the edit stage usually adds around 800. The readability check found no problems, and the check for wording copied from other Type 6 pages came back clear after I reworded one phrase.
+
+**Quote accuracy.**
+- All 103 quoted strings match a saved source, or match wording at least two of the three speech-to-text runs agree on.
+- I transcribed the disputed podcast clips a third time (Whisper medium.en). Where the transcriptions disagreed, I quoted only the shared words or paraphrased.
+- I fixed two quote-placement problems before writing: one place where two separate quotes read as if one followed the other, and one sentence that credited two different interviews to a single link.
+
+**Evidence file.** It has 92 claims and 29 sources. I added one source: a ComicBasics report, already saved during research, that supports the boycott calls. I dropped seven research claims the draft no longer uses. I also corrected a misreading in the research: the "safe and relevant" quote is about his career before his children were born, not the slump after 2008.
+
+**Still unverified, listed in `research_tasks` for reviewers:**
+- Six interviews were never opened in the original and are cited through other outlets: Guardian 2012 and 2013, Total Film/NewNowNext 2020, Independent 2021, and Times 2022 and 2026.
+- The podcast quotes come from machine transcription, not a human listen.
+- The CinemaBlend question isn't visible on the page, so the draft doesn't say what he was asked.
+- The draft makes no Avengers: Doomsday or Secret Wars claim.
+
+To run the draft check I briefly put a temporary script in `scripts/` and deleted it right after, so there's no net change. All other scratch work stayed in `/tmp/pb-draft`.
+
+The sensitivity flag stays on, so all six reviewers run next.

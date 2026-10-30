@@ -1,0 +1,1242 @@
+{
+  "schema_version": 3,
+  "content_sha256": "0b44e6f7fbc8fb85c529bfb0be731af99bd6bc3f52ee6904bb0d0da1e3d50c0a",
+  "evidence_sha256": "07d89dab31c99ce44d51412a0f6327f8cecd2f2516b3b662f089811c9ca98179",
+  "status": "pass",
+  "findings": [
+    {
+      "id": "verify-repair-01",
+      "severity": "minor",
+      "passage": "compared himself to Chris Farley, who in his view \"didn't feel what he was projecting on the outside.\" Then he added: \"I also understood that there was value to it.\"",
+      "problem": "The order is reversed. In GQ the value line comes in the same quote straight after \"I'm sure I was the first guy in line to buy that line of bullshit\" and BEFORE the Farley comparison, and that answer ends on Farley's hidden pain (\"I think that's often the case with comedians\"). \"Then he added\" makes market value his last word, a small tilt toward the Three reading in the hook.",
+      "acceptance_test": "The hook either keeps GQ's order (bullshit, then value, then Farley) or uses wording that asserts no order (e.g., \"In the same answer he said\"). c-value's passage still matches."
+    },
+    {
+      "id": "verify-repair-02",
+      "severity": "minor",
+      "passage": "Describing what sat under his, Pratt names worth and value more often than pain.",
+      "problem": "This is stated as an observed frequency in the type section, but it is the author's reading. The record has him naming pain repeatedly (GQ Farley and \"feeling rotten\"; MH \"self-defense mechanism\"; NDY \"super depressed\"). The parallel line in \"Why not Type 7?\" is limited and argued; this one is not.",
+      "acceptance_test": "The sentence is marked as a reading (e.g., \"On the record below, he points more often to...\") or narrowed to the passages the article tests. c-what-sat-under stays classed as interpretation."
+    },
+    {
+      "id": "verify-repair-03",
+      "severity": "minor",
+      "passage": "he joked that for years he was great at auditioning and couldn't act, and that the person who had won the role was really a door-to-door salesman.",
+      "problem": "c-audition-salesman rests on SmartLess auto-captions (audio unchecked) and has an empty review_trigger, although research task 3 names it and future-04 asked each caption-only claim to carry a trigger. The paraphrase matches the captions (about 35:18-35:35), so this is evidence-record bookkeeping only.",
+      "acceptance_test": "c-audition-salesman gets a review_trigger naming the SmartLess audio check and what changes if the wording differs."
+    }
+  ],
+  "research_tasks": [
+    "Optional: a human listen to Not Dead Yet at about 48:15 to settle \"a certain irreverence\" (four of five machine runs, including verify's base.en and large-v3-turbo) vs \"a certain a reverence\" (small.en), only if that half of the answer is ever quoted (c-comedy-turn).",
+    "Find a contemporaneous 2017 report or photo-agency record of Pratt at a Hillsong Los Angeles service before saying more than \"The Daily Beast reported\" (c-hillsong-photo).",
+    "Check the SmartLess 2022 (about 35:18-35:35) and Happy Sad Confused 2026 (about 26:43-27:15) audio against the auto-captions behind c-audition-salesman and c-photo-and-anger, and add a review_trigger to c-audition-salesman.",
+    "Strengthen independent testimony at the next refresh: Rae Dawn Chong's or Mike Schur's own account of meeting and casting him (current outside voices are friendly collaborators: Gunn, plus the VF and MH writers)."
+  ],
+  "claim_checks": [
+    {
+      "claim_id": "c-meta-description",
+      "verdict": "supported",
+      "reason": "GQ 2015 (fresh fetch 2026-10-29): \"That image that I was casting, to convince people that I was okay\" answers why Faris preferred him heavier, in the passage on the happy-plump-man years. The description says \"says\" and \"leans\", which matches medium confidence."
+    },
+    {
+      "claim_id": "c-gq-question-context",
+      "verdict": "supported",
+      "reason": "GQ 2015 (fresh fetch 2026-10-29): \"Yeah. But she was so okay with it. Probably in many ways preferred me that way.\" Then Heath asks \"Why?\", as the hook says."
+    },
+    {
+      "claim_id": "c-feeling-rotten",
+      "verdict": "supported",
+      "reason": "GQ 2015 (fresh fetch 2026-10-29): verbatim. \"He nods when I bring this up and elaborates\" comes right before the image answer."
+    },
+    {
+      "claim_id": "c-fun-as-image",
+      "verdict": "supported",
+      "reason": "GQ 2015 (fresh fetch 2026-10-29): verbatim, the reply to \"Why?\" about Faris preferring him heavier. It is his offscreen persona, not Andy. The quote stops at \"I focus more\" before \"She doesn't get to cook for me\", which is a clean sentence boundary."
+    },
+    {
+      "claim_id": "c-pet-fat-guy",
+      "verdict": "supported",
+      "reason": "GQ 2015 (fresh fetch 2026-10-29): \"He laughs. 'I was like a great pet fat guy.'\" comes right after the image answer."
+    },
+    {
+      "claim_id": "c-not-feel-great",
+      "verdict": "supported",
+      "reason": "GQ 2015 (fresh fetch 2026-10-29): GQ's paraphrase of what he has said (\"explaining that the highlights... but that the rest wasn't so good\"), with \"didn't feel too great about who I was\" in quotation marks. Correctly attributed as his account."
+    },
+    {
+      "claim_id": "c-first-in-line",
+      "verdict": "supported",
+      "reason": "GQ 2015 (fresh fetch 2026-10-29): verbatim, said of the happy plump man he played in comedy-years interviews."
+    },
+    {
+      "claim_id": "c-farley",
+      "verdict": "supported",
+      "reason": "GQ 2015 (fresh fetch 2026-10-29): verbatim, in the same quote as \"first guy in line\" and \"value\". \"In his view\" is accurate."
+    },
+    {
+      "claim_id": "c-value",
+      "verdict": "qualified",
+      "reason": "GQ 2015 (fresh fetch 2026-10-29): the words are verbatim. Sequence: in GQ the value line comes directly after \"first guy in line\" and BEFORE the Farley comparison, so the hook's \"Then he added\" misorders it (minor finding verify-repair-01). The sentence continues \"my comedic nature understood the irony...\", so \"value\" is comic and audience value. The article reads it as market worth, and the claim's alternative records the limit."
+    },
+    {
+      "claim_id": "c-front-interp",
+      "verdict": "qualified",
+      "reason": "Interpretation, framed as a reading of his answer. \"A front with a price\" reads the GQ \"value\" line as worth or price, while GQ's continuation frames it as comic value. That is defensible because \"paying better\" is in the same GQ section, but it is a reading."
+    },
+    {
+      "claim_id": "c-pma-hook",
+      "verdict": "supported",
+      "reason": "Not Dead Yet audio, re-transcribed by verify with base.en (full episode) and large-v3-turbo (quoted segments): \"PMA equals OPM... We had this chant we did in the morning\" (about 07:21-07:30). Ages 18 to about 20 per SmartLess captions and VF (\"I wasn't even 21\"), so \"teenage\" is fair."
+    },
+    {
+      "claim_id": "c-bio-birth",
+      "verdict": "supported",
+      "reason": "Wikipedia (API extract 2026-10-29): born June 21, 1979, in Virginia, Minnesota; the family settled in Lake Stevens when he was six or seven. VF agrees."
+    },
+    {
+      "claim_id": "c-bio-career",
+      "verdict": "supported",
+      "reason": "Wikipedia: \"Pratt's first regular television role was... Everwood (2002–2006)\"; \"He had his breakthrough role as Andy Dwyer... (2009–2015)\"; Star-Lord from Guardians (2014). VF gives Parks 2009 to 2015. Jurassic World (2015) is on Wikipedia and in GQ."
+    },
+    {
+      "claim_id": "c-type-read",
+      "verdict": "supported",
+      "reason": "Interpretation, labelled \"reads as\" at medium confidence. It is consistent with type_hypothesis and with the FAQ."
+    },
+    {
+      "claim_id": "c-type-answer-interp",
+      "verdict": "supported",
+      "reason": "Interpretation framed as \"In his own accounts\". Supported by the VF hidden failure, GQ \"value\"/\"paying better\", and NDY \"understood how I was seen in the marketplace\" (all reopened)."
+    },
+    {
+      "claim_id": "c-what-sat-under",
+      "verdict": "qualified",
+      "reason": "Stated as an observation (a frequency) in the type section, but it is the author's reading. The record also has him naming pain repeatedly (GQ Farley and \"feeling rotten\"; MH \"self-defense mechanism\"; NDY \"super depressed\"). Minor finding verify-repair-02."
+    },
+    {
+      "claim_id": "c-coupon-job",
+      "verdict": "supported",
+      "reason": "VF: he did not finish a year of community college, \"So I got a job as a salesman going door-to-door... I saw an ad in the newspaper\"; selling coupons. NDY (base.en and turbo) agrees on the door-to-door job and the ad."
+    },
+    {
+      "claim_id": "c-selling-himself",
+      "verdict": "supported",
+      "reason": "Vanity Fair 2017 (fresh fetch 2026-10-29): \"said Pratt, who told me it didn't really matter what he was selling because a salesman only has one product: himself. 'I was great at that,' he said.\" The article keeps the first part as indirect speech, which is correct."
+    },
+    {
+      "claim_id": "c-selling-attitude",
+      "verdict": "supported",
+      "reason": "Not Dead Yet audio, re-transcribed by verify with base.en (full episode) and large-v3-turbo (quoted segments): turbo at about 08:20 has \"regardless of the product you're selling what you're selling is yourself and you're selling your attitude\". base.en hears \"as yourself\", an evident mishearing. It sits in the \"masterclass in facing rejection\" answer."
+    },
+    {
+      "claim_id": "c-pma-chant",
+      "verdict": "supported",
+      "reason": "Not Dead Yet audio, re-transcribed by verify with base.en (full episode) and large-v3-turbo (quoted segments): \"We had this thing called PMA equals OPM, which was positive mental attitude equals other people's money\" (07:21-07:25). Both models agree."
+    },
+    {
+      "claim_id": "c-resilience",
+      "verdict": "supported",
+      "reason": "Not Dead Yet audio, re-transcribed by verify with base.en (full episode) and large-v3-turbo (quoted segments): \"it was terrible, but at the same time... either instilled in me or potentially revealed a resilience that I had\" (about 07:30-07:40). Both models agree."
+    },
+    {
+      "claim_id": "c-sold-500",
+      "verdict": "supported",
+      "reason": "Not Dead Yet audio, re-transcribed by verify with base.en (full episode) and large-v3-turbo (quoted segments): turbo has \"the kids would be like I sold 17 I sold 22 I was like I sold 500 you know I would just go out and just sell so I loved it\". The \"I was like\" settles that he is the 500 seller. It was a high-school Viking gold-card sale (\"even when high school\"), as the article says."
+    },
+    {
+      "claim_id": "c-denver-office",
+      "verdict": "supported",
+      "reason": "Vanity Fair 2017 (fresh fetch 2026-10-29): \"That was the carrot Pratt was chasing. It took 15 months, but he finally got it. Given charge of an office outside Denver\"; \"I wasn't even 21.\" NDY: opened the Denver office \"I think 18 or 19\"."
+    },
+    {
+      "claim_id": "c-people-pleaser-failure",
+      "verdict": "supported",
+      "reason": "Not Dead Yet audio, re-transcribed by verify with base.en (full episode) and large-v3-turbo (quoted segments): \"I was too much of a people pleaser to be a good manager\" (about 09:57); \"a definitely a failure\"; \"towny guy that like used to be cool... I just felt like super depressed\". Both models agree."
+    },
+    {
+      "claim_id": "c-debt-call",
+      "verdict": "supported",
+      "reason": "Vanity Fair 2017 (fresh fetch 2026-10-29): \"Pratt called his boss one morning... 'I'm more in debt every month. I'm so depressed. I can't do it.'\"; \"Pratt's mother sent him a ticket.\" NDY: \"My mom had to fly me home... I was in debt.\""
+    },
+    {
+      "claim_id": "c-definitely-failure",
+      "verdict": "supported",
+      "reason": "Not Dead Yet audio, re-transcribed by verify with base.en (full episode) and large-v3-turbo (quoted segments): \"it was a definitely a failure\" (about 10:53). The article quotes only \"definitely a failure\"."
+    },
+    {
+      "claim_id": "c-hid-failure",
+      "verdict": "supported",
+      "reason": "Vanity Fair 2017 (fresh fetch 2026-10-29): verbatim. \"One of my best friends heard I'd been floundering. I had everyone convinced...\" He was back in Lake Stevens after his mother sent the ticket, so \"Back in Lake Stevens\" is accurate. It is a single self-report, which the prose says."
+    },
+    {
+      "claim_id": "c-hometown-star",
+      "verdict": "supported",
+      "reason": "Not Dead Yet audio, re-transcribed by verify with base.en (full episode) and large-v3-turbo (quoted segments): \"I had been kind of like the star of my hometown when I was there\" and \"I just felt like super depressed\" (10:57-11:33). Both models agree."
+    },
+    {
+      "claim_id": "c-friend-off",
+      "verdict": "supported",
+      "reason": "Not Dead Yet audio, re-transcribed by verify with base.en (full episode) and large-v3-turbo (quoted segments): turbo has \"a friend of mine who'd been living in Hawaii since we graduated saw me and was like, dude, you don't look good. You seem off. And I was off and I was partying a lot\" (11:35-11:42). base.en has \"You look seem off\", a mishearing. In the audio \"partying a lot\" comes right after the friend's remark, and the article's ordering (\"was partying... until a friend saw him\") is a fair reading."
+    },
+    {
+      "claim_id": "c-hid-failure-interp",
+      "verdict": "supported",
+      "reason": "Interpretation, flagged in prose with \"The account is his own\" and \"everyone is a storyteller's exaggeration\". \"Noticed he was floundering\" fits VF (\"heard I'd been floundering... He saw that\") and the NDY scene."
+    },
+    {
+      "claim_id": "c-money-motivated",
+      "verdict": "supported",
+      "reason": "Not Dead Yet audio, re-transcribed by verify with base.en (full episode) and large-v3-turbo (quoted segments): turbo has \"I've been money motivated my whole life because we never had anything\" (about 14:29). base.en inserts \"in\", a filler mishearing."
+    },
+    {
+      "claim_id": "c-yearbook",
+      "verdict": "supported",
+      "reason": "Not Dead Yet audio, re-transcribed by verify with base.en (full episode) and large-v3-turbo (quoted segments): \"I was the king of my school and I don't have a yearbook because it was $35 and I just wouldn't ask them for that much money\" (14:44-14:47). Both models agree word for word."
+    },
+    {
+      "claim_id": "c-maui-life",
+      "verdict": "supported",
+      "reason": "VF: \"There was a van with a couch, a tent with a blanket\"; \"Pratt got a job at Bubba Gump Shrimp\". The Independent: \"sleeping in a van or in a tent on the beach\"."
+    },
+    {
+      "claim_id": "c-maui-retold",
+      "verdict": "supported",
+      "reason": "The Independent via NZ Herald (Kaleem Aftab, Aug 7, 2014): \"It's a pretty awesome place to be homeless... We just drank and smoked weed and worked minimal hours, 15 to 20 hours per week... it was a charming time.\" Verbatim."
+    },
+    {
+      "claim_id": "c-maui-vf",
+      "verdict": "supported",
+      "reason": "Vanity Fair 2017 (fresh fetch 2026-10-29): verbatim. It comes right after the ticket to Hawaii, describing the arrival."
+    },
+    {
+      "claim_id": "c-maui-2026",
+      "verdict": "supported",
+      "reason": "Not Dead Yet audio, re-transcribed by verify with base.en (full episode) and large-v3-turbo (quoted segments): \"slipping down the wrong path. So my buddy bought me a one way ticket out to Maui\" (11:42-11:52). \"The wrong path\" was his hometown partying, and the trip took him off it, as the prose says."
+    },
+    {
+      "claim_id": "c-maui-interp",
+      "verdict": "supported",
+      "reason": "Interpretation that explicitly discounts itself (\"proves little about type\"). It is accurate about the three dated tellings."
+    },
+    {
+      "claim_id": "c-giving-shifts",
+      "verdict": "supported",
+      "reason": "Vanity Fair 2017 (fresh fetch 2026-10-29): \"I wasn't even supposed to take a shift that day. I was always giving away my shifts because I didn't have much overhead. I lived in a van.\" \"Worked as little as he could\" is a gloss on that plus The Independent's \"minimal hours\". \"For about a year\" fits the Independent (ticket at 19; Chong in 2000)."
+    },
+    {
+      "claim_id": "c-maui-seven-interp",
+      "verdict": "supported",
+      "reason": "Interpretation that concedes counterevidence. It is grounded in the VF and Independent tellings."
+    },
+    {
+      "claim_id": "c-conversion",
+      "verdict": "supported",
+      "reason": "Vanity Fair 2017 (fresh fetch 2026-10-29): \"a guy named Henry came up and recognized something in me that needed to be saved... He took me to church,\" outside a grocery store in Maui. MH tells the same \"Jesus told me to talk to you\" story."
+    },
+    {
+      "claim_id": "c-gumper",
+      "verdict": "supported",
+      "reason": "Vanity Fair 2017 (fresh fetch 2026-10-29): \"I was Gumper of the year... They gave me the award.\""
+    },
+    {
+      "claim_id": "c-chong-discovery",
+      "verdict": "supported",
+      "reason": "Vanity Fair 2017 (fresh fetch 2026-10-29): VF's present-tense reconstruction, \"She says, 'You're cute. Do you act?' He says, 'Fuck, yeah, I act. Put me in a movie.'\" The article labels it \"Vanity Fair's reconstruction\" and trims the expletive outside the quoted words. NDY 2026 has the same exchange (\"you're cute. Do you act? I said, I do act\")."
+    },
+    {
+      "claim_id": "c-chong-sales-2026",
+      "verdict": "supported",
+      "reason": "Not Dead Yet audio, re-transcribed by verify with base.en (full episode) and large-v3-turbo (quoted segments): \"I kind of kicked in my door to door sales skills right there and was like, whoa, what are you doing here?\" (about 12:04-12:08). Both of verify's models agree, and the paraphrase follows his wording."
+    },
+    {
+      "claim_id": "c-cursed",
+      "verdict": "supported",
+      "reason": "VF: \"The movie took 10 days to shoot and was never released\"; \"The whole reason that movie came along was just so I could be brought to Hollywood\"; Chong's team flew him to L.A. Wikipedia also has Cursed Part 3 as Chong's directorial debut."
+    },
+    {
+      "claim_id": "c-father",
+      "verdict": "supported",
+      "reason": "Men's Health 2022 (fresh fetch 2026-10-29): \"His dad could also be 'mean,' Pratt adds. 'He was from the old school. He was a boxer and a bouncer.'\" Dan is named in MH (\"Dan Pratt was a taconite miner\")."
+    },
+    {
+      "claim_id": "c-sensitive",
+      "verdict": "supported",
+      "reason": "Men's Health 2022 (fresh fetch 2026-10-29): verbatim, including the immediate softening (\"Or not dislike me but act like he disliked me\"), which the block quote keeps."
+    },
+    {
+      "claim_id": "c-humor-defense",
+      "verdict": "supported",
+      "reason": "Men's Health 2022 (fresh fetch 2026-10-29): verbatim. The block quote ends at \"I developed Andy, really.\" The next sentence (\"Andy... was my clown\") is omitted cleanly, which does not change the meaning."
+    },
+    {
+      "claim_id": "c-gq-sensitive",
+      "verdict": "supported",
+      "reason": "GQ 2015 (fresh fetch 2026-10-29): \"Dad was very, very strict, so if I got yelled at, I would stay silent for a long period of time. I was really sensitive. I cried a lot.\" It matches MH 2022, so \"consistent, but his alone\" is accurate."
+    },
+    {
+      "claim_id": "c-father-death",
+      "verdict": "supported",
+      "reason": "VF: \"Dan Pratt Sr. died in 2014.\" MH: \"he died in 2014 after a 20-year battle with multiple sclerosis.\" No other family testimony appears in any opened source."
+    },
+    {
+      "claim_id": "c-humor-interp",
+      "verdict": "supported",
+      "reason": "Keeps his \"self-defense\" mechanism (\"armor\"). The next sentence says the quote can't settle 3 versus 7. It is labelled \"Taken at his word\" and faithful to MH."
+    },
+    {
+      "claim_id": "c-brother-christmas",
+      "verdict": "supported",
+      "reason": "Vanity Fair 2017 (fresh fetch 2026-10-29): verbatim. Cully is named in VF (\"Dan junior, known as Cully\")."
+    },
+    {
+      "claim_id": "c-brother-interp",
+      "verdict": "supported",
+      "reason": "Interpretation that concedes the generic reading first (\"Little brothers copy big brothers in every type\"). The detail (mother crying, socks knocked off) is faithful to VF."
+    },
+    {
+      "claim_id": "c-bad-boyfriend",
+      "verdict": "supported",
+      "reason": "GQ 2015 (fresh fetch 2026-10-29): \"Typically, I was getting typecast as the bad boyfriend... That was my bread and butter for a long time.\""
+    },
+    {
+      "claim_id": "c-guest-spot",
+      "verdict": "supported",
+      "reason": "Vanity Fair 2017 (fresh fetch 2026-10-29): \"It was supposed to be a one-episode deal, a guest spot, but the character took off.\" Wikipedia: \"initially intended as temporary\"."
+    },
+    {
+      "claim_id": "c-fat-niche",
+      "verdict": "supported",
+      "reason": "GQ 2015 (fresh fetch 2026-10-29): verbatim, \"early in the second season\". GQ also has \"He told the showrunner that he wanted to get even larger\"."
+    },
+    {
+      "claim_id": "c-fat-niche-pay",
+      "verdict": "supported",
+      "reason": "GQ 2015 (fresh fetch 2026-10-29): \"And in that moment I was like, 'Oh great, I found my niche—this is paying better than the asshole-boyfriend parts.'\" The article quotes the first part and paraphrases the rest without the expletive. It is fair, though \"he added\" splits a single sentence."
+    },
+    {
+      "claim_id": "c-appetite",
+      "verdict": "supported",
+      "reason": "GQ 2015 (fresh fetch 2026-10-29): \"explaining that the highlights of his days were the eating and drinking but that the rest wasn't so good\". VF: \"partly because he thought it worked for the character, partly because he'd just been married\"."
+    },
+    {
+      "claim_id": "c-fascinating",
+      "verdict": "supported",
+      "reason": "GQ 2015 (fresh fetch 2026-10-29): verbatim, from the \"value to it\" sentence (\"my comedic nature understood the irony of...\")."
+    },
+    {
+      "claim_id": "c-reasons-interp",
+      "verdict": "supported",
+      "reason": "Interpretation that splits the evidence both ways. It is grounded in the GQ passage (\"I was making myself laugh\"; \"paying better\"; \"fascinating to people\")."
+    },
+    {
+      "claim_id": "c-expectations-tactic",
+      "verdict": "supported",
+      "reason": "Men's Health 2022 (fresh fetch 2026-10-29): \"Says the actor of his whole dumb-guy act, 'It was absolutely a tactic to lower people's expectations of me.'\" The band-list detail is no longer in the article."
+    },
+    {
+      "claim_id": "c-body-overhaul",
+      "verdict": "supported",
+      "reason": "Vanity Fair 2017 (fresh fetch 2026-10-29): \"That was the first time I heard someone say, 'We're not gonna cast you—you're too fat.' So I decided to drop the weight, like in wrestling. I couldn't afford a trainer, so it was all running and crash-dieting and cutting alcohol.\" Wikipedia: he \"secured the role\"."
+    },
+    {
+      "claim_id": "c-weight-10years",
+      "verdict": "supported",
+      "reason": "Wikipedia: \"He regained the weight he had previously lost for his role in the high school reunion comedy 10 Years (2011), then shed it once more to portray a Navy SEAL in Zero Dark Thirty (2012).\" It is linked at the passage."
+    },
+    {
+      "claim_id": "c-delivery-man",
+      "verdict": "supported",
+      "reason": "GQ 2015 (fresh fetch 2026-10-29): \"Delivery Man, the 2013 Vince Vaughn movie in which Pratt bulked up to 295 pounds for a supporting role\"."
+    },
+    {
+      "claim_id": "c-superhero",
+      "verdict": "supported",
+      "reason": "The Independent via NZ Herald 2014: \"So it made sense that when I started doing this role that that was the thing that I was most concerned with. I need to look like a superhero.\""
+    },
+    {
+      "claim_id": "c-fun-trade-interp",
+      "verdict": "supported",
+      "reason": "GQ 2015 (fresh fetch 2026-10-29): \"Now I have less fun. I focus more\" closes the answer that follows \"My bones ached... I was feeling rotten\", so the health reading is grounded. The prose no longer ties it to Moneyball."
+    },
+    {
+      "claim_id": "c-guardians-pass",
+      "verdict": "supported",
+      "reason": "Vanity Fair 2017 (fresh fetch 2026-10-29): \"Guardians had come around, and I passed... James Gunn passed on me, too... My agent said, 'Guardians is everything you've been saying you want to do.'... I played the room.\""
+    },
+    {
+      "claim_id": "c-become-the-character",
+      "verdict": "supported",
+      "reason": "Vanity Fair 2017 (fresh fetch 2026-10-29): verbatim, from his own account of the Guardians audition (\"Once you get smart about auditioning...\")."
+    },
+    {
+      "claim_id": "c-audition-salesman",
+      "verdict": "supported",
+      "reason": "SmartLess 2022 auto-captions (verify re-download, about 35:18-35:35): \"for the longest time i was great at auditioning and i couldn't act my way out of a paper bag... oh that wasn't an actor that was a door-to-door salesman i walked into a room and i won the role\". The paraphrase is faithful and correctly unquoted. The audio is not checked, and the claim has no review_trigger (minor finding verify-repair-03)."
+    },
+    {
+      "claim_id": "c-gunn-juggle",
+      "verdict": "supported",
+      "reason": "GQ 2015 (fresh fetch 2026-10-29): Gunn, \"I think that he had gotten a lot of success over the past few years being the funny sidekick, which means that he always has to juggle...\". The lead-in paraphrase and the quoted words are faithful."
+    },
+    {
+      "claim_id": "c-inauthentic",
+      "verdict": "supported",
+      "reason": "GQ 2015 (fresh fetch 2026-10-29): \"'I thought I was bad,' Pratt concurs.\" It comes directly after Gunn's quote."
+    },
+    {
+      "claim_id": "c-cerebral",
+      "verdict": "supported",
+      "reason": "GQ 2015 (fresh fetch 2026-10-29): \"He'll say—and I wouldn't want to be quoted [sounding like I was] saying this about myself—I'm a much more cerebral person than you may expect.\" \"In words he credited to Gunn\" is accurate. GQ: \"Too much, in fact\", meaning overthinking."
+    },
+    {
+      "claim_id": "c-gunn-interp",
+      "verdict": "supported",
+      "reason": "Interpretation that concedes the note fits more than one type."
+    },
+    {
+      "claim_id": "c-marketplace",
+      "verdict": "supported",
+      "reason": "Not Dead Yet audio, re-transcribed by verify with base.en (full episode) and large-v3-turbo (quoted segments): \"You're always kind of selling yourself. I always sort of understood how I was seen in the marketplace\" (34:46-34:47). Both models agree."
+    },
+    {
+      "claim_id": "c-no-haters",
+      "verdict": "supported",
+      "reason": "Not Dead Yet audio, re-transcribed by verify with base.en (full episode) and large-v3-turbo (quoted segments): \"dude, everyone has haters. You don't have any haters... yeah, but I don't stand for anything\" (35:00-35:11). \"Up until that point\" refers to his 2018 MTV speech: the preceding minutes (32:40-34:31) are about that speech and his first date with Katherine the next day."
+    },
+    {
+      "claim_id": "c-deferential",
+      "verdict": "supported",
+      "reason": "Not Dead Yet audio, re-transcribed by verify with base.en (full episode) and large-v3-turbo (quoted segments): turbo has \"I'm completely deferential to whatever the world wants. I'll give you literally anything. Just keep me employed as an actor.\" (about 35:17-35:22). base.en has \"wants to be. I'm, I'll give you\", a mishearing; turbo and both earlier-stage models agree on the quoted wording."
+    },
+    {
+      "claim_id": "c-photo-and-anger",
+      "verdict": "supported",
+      "reason": "Happy Sad Confused 2026 auto-captions (verify re-download, 26:43-27:15): \"He's the one who actually convinced me to post that picture of myself in my underwear... I was like, that seems weird.\" The paraphrase is faithful and has a trigger."
+    },
+    {
+      "claim_id": "c-hyperactive-child",
+      "verdict": "supported",
+      "reason": "GQ 2015 (fresh fetch 2026-10-29): \"Obnoxious. I was obnoxious, really hyperactive, disruptive...but also Dad was very, very strict... I was really sensitive.\" \"I got suspended from the track team in high school for getting naked on the track bus.\" \"I liked making people feel uncomfortable\" follows the coach's-office story."
+    },
+    {
+      "claim_id": "c-naked-take",
+      "verdict": "supported",
+      "reason": "GQ 2015 (fresh fetch 2026-10-29): \"[While filming multiple takes of a Parks and Recreation scene in which he was supposed to shock Amy Poehler by being naked in a doorway, in one take he did it for real.]\"; \"HR sent me a letter.\""
+    },
+    {
+      "claim_id": "c-new-idea-daily",
+      "verdict": "supported",
+      "reason": "GQ 2015 (fresh fetch 2026-10-29): Gunn says \"Chris is a man of insights... he's got a new idea every day about everything.\" It is dated to 2015 in the prose."
+    },
+    {
+      "claim_id": "c-maui-fun-beat",
+      "verdict": "supported",
+      "reason": "Interpretation that counts the Maui record (VF shifts; Independent minimal hours) for the Seven case."
+    },
+    {
+      "claim_id": "c-comedians",
+      "verdict": "supported",
+      "reason": "GQ 2015 (fresh fetch 2026-10-29): verbatim. It closes the Farley comparison that he applied to his own persona."
+    },
+    {
+      "claim_id": "c-seven-mask-interp",
+      "verdict": "supported",
+      "reason": "Interpretation that presents the mask reading as partly his own, consistent with GQ."
+    },
+    {
+      "claim_id": "c-discriminator",
+      "verdict": "supported",
+      "reason": "Motive-level interpretation. The bullets that follow are sourced and the limits are stated."
+    },
+    {
+      "claim_id": "c-bullet-hid",
+      "verdict": "supported",
+      "reason": "VF concealment (\"had everyone convinced\") against his disclosure of the depression (VF \"I'm so depressed\" to his boss; NDY \"super depressed\"; the friend saw he looked \"off\"). Labelled interpretation."
+    },
+    {
+      "claim_id": "c-bullet-worth",
+      "verdict": "supported",
+      "reason": "Labelled \"on this reading\" in the prose. The GQ basis (\"didn't feel too great about who I was\"; \"value to it\") is accurate."
+    },
+    {
+      "claim_id": "c-bullet-market",
+      "verdict": "supported",
+      "reason": "Not Dead Yet audio, re-transcribed by verify with base.en (full episode) and large-v3-turbo (quoted segments): the same \"completely deferential to whatever the world wants... Just keep me employed as an actor\" passage, about the years before the 2018 speech."
+    },
+    {
+      "claim_id": "c-maui-three-answer",
+      "verdict": "supported",
+      "reason": "Labelled interpretation (\"That is interpretation, and Maui remains the best evidence against it\")."
+    },
+    {
+      "claim_id": "c-bird-hunting",
+      "verdict": "supported",
+      "reason": "GQ 2015 (fresh fetch 2026-10-29): \"if it means retiring early and getting a ranch somewhere and just bird hunting, that's kind of what I secretly want to do anyways\"; \"three months later I would be tired of bird hunting and I would be like '...Guardians Ten?'\""
+    },
+    {
+      "claim_id": "c-limits",
+      "verdict": "supported",
+      "reason": "An accurate statement of limits: the hidden failure rests on one VF self-report, and most type evidence is interview self-report."
+    },
+    {
+      "claim_id": "c-altar-promises",
+      "verdict": "supported",
+      "reason": "Christian Post, March 6, 2025 (Leah MarieAnn Klett), read via a Wayback copy because the live page returns a Cloudflare 403: \"The first time I walked up to the church altar... I was a child... I was 19... in my 30s. … I'd make promises, but I didn't keep them.\""
+    },
+    {
+      "claim_id": "c-nicu-vow",
+      "verdict": "supported",
+      "reason": "Christian Post: \"came in 2012, when his son, Jack, arrived seven weeks premature... moved to the neonatal intensive care unit (NICU) for a month\"; \"I made a deal with God again\". Fox News Digital 2026: \"Jack was born in August 2012.\" The prose correctly gives no number of weeks (CP says seven, Wikipedia nine)."
+    },
+    {
+      "claim_id": "c-platform-vow",
+      "verdict": "supported",
+      "reason": "Christian Post: \"And He really saved my son, and that was the moment [my faith] was cemented... That was the moment that I was like, 'Moving forward, I'm going to give my platform to God.'\" Verbatim."
+    },
+    {
+      "claim_id": "c-faith-cost-claim",
+      "verdict": "supported",
+      "reason": "Attributed (\"By his account\"). NDY: \"I don't stand for anything... so I stood for something... I do feel that strongly about my faith, even if it costs me\" (35:11-35:40); CP \"even if it cost me\"; MH: he believes he \"inadvertently played\" a role in lighting the hostility."
+    },
+    {
+      "claim_id": "c-mtv",
+      "verdict": "supported",
+      "reason": "Men's Health 2022 (fresh fetch 2026-10-29): \"God is real. God loves you. God wants the best for you.\" He also said, \"Don't be a turd.\" Wikipedia confirms the 2018 MTV Generation Award speech."
+    },
+    {
+      "claim_id": "c-god-part",
+      "verdict": "supported",
+      "reason": "Men's Health 2022 (fresh fetch 2026-10-29): \"But people mostly just remember the God part.\" Verbatim."
+    },
+    {
+      "claim_id": "c-stood-for-something",
+      "verdict": "supported",
+      "reason": "Not Dead Yet audio, re-transcribed by verify with base.en (full episode) and large-v3-turbo (quoted segments): \"so I stood for something\" (about 35:25), \"I didn't backtrack\" (35:45), \"I'm not going to apologize for that\" (35:49). Both models agree."
+    },
+    {
+      "claim_id": "c-backlash-link",
+      "verdict": "supported",
+      "reason": "Men's Health 2022 (fresh fetch 2026-10-29): \"the origins of that Internet bile and the role he believes he inadvertently played in lighting the match\", followed by the MTV speech story. Attributed as his belief."
+    },
+    {
+      "claim_id": "c-worst-chris",
+      "verdict": "supported",
+      "reason": "Men's Health 2022 (fresh fetch 2026-10-29): the Worst Chris meme, \"fans debating the merits (or demerits) of the superhuman Hollywood Chrises: Pratt, Hemsworth (Thor), Evans (Captain America), and Pine\". The past tense is apt."
+    },
+    {
+      "claim_id": "c-hubris",
+      "verdict": "supported",
+      "reason": "Men's Health 2022 (fresh fetch 2026-10-29): \"Maybe it was hubris. For me to stand up on the stage and say the things that I said, I'm not sure I touched anybody.\""
+    },
+    {
+      "claim_id": "c-page-criticism",
+      "verdict": "supported",
+      "reason": "Men's Health 2022 (fresh fetch 2026-10-29): \"After Pratt casually talked about his faith with Stephen Colbert in 2019, the actor Elliot Page called him out\", about the church. The Daily Beast says the same."
+    },
+    {
+      "claim_id": "c-hillsong-dispute",
+      "verdict": "supported",
+      "reason": "Men's Health 2022 (fresh fetch 2026-10-29): his 2019 statement, verbatim as MH quotes it."
+    },
+    {
+      "claim_id": "c-hillsong-never",
+      "verdict": "supported",
+      "reason": "Men's Health 2022 (fresh fetch 2026-10-29): \"I never went to Hillsong. I've never actually been to Hillsong\"; \"Pratt tells me he attends Zoe Church\"; \"he doesn't go to Zoe exclusively\"."
+    },
+    {
+      "claim_id": "c-hillsong-photo",
+      "verdict": "supported",
+      "reason": "Daily Beast (Wayback raw copy): \"he had also been previously photographed attending a service at Hillsong's L.A. branch back in 2017.\" The prose reports it as the Daily Beast's claim and does not endorse it. The class is disputed and the item has a trigger."
+    },
+    {
+      "claim_id": "c-zoe-film",
+      "verdict": "supported",
+      "reason": "Men's Health 2022 (fresh fetch 2026-10-29): \"Zoe... was founded by pastor Chad Veach. He executive-produced a 2017 film that equated 'sexual brokenness' with 'same-sex attraction.'\""
+    },
+    {
+      "claim_id": "c-under-bus",
+      "verdict": "supported",
+      "reason": "Men's Health 2022 (fresh fetch 2026-10-29): \"'I'm gonna, like, throw a church under the bus?' he replies, before reconsidering.\" It answers \"Why not say that at the time?\" about never attending Hillsong."
+    },
+    {
+      "claim_id": "c-westboro",
+      "verdict": "supported",
+      "reason": "Men's Health 2022 (fresh fetch 2026-10-29): verbatim, introduced by \"before reconsidering\". \"Then he reconsidered\" is accurate."
+    },
+    {
+      "claim_id": "c-faith-by-room",
+      "verdict": "supported",
+      "reason": "Men's Health 2022 (fresh fetch 2026-10-29): verbatim, followed by his distinction between religion and \"a very real God\". The Daily Beast quotes the same line."
+    },
+    {
+      "claim_id": "c-very-real-god",
+      "verdict": "supported",
+      "reason": "Men's Health 2022 (fresh fetch 2026-10-29): \"adhering to the customs created by man, oftentimes appropriating the awe reserved for who I believe is a very real God\". A fair paraphrase."
+    },
+    {
+      "claim_id": "c-daily-beast",
+      "verdict": "supported",
+      "reason": "Daily Beast (Kyndall Cunningham, June 30, 2022; Wayback raw and live): the headline is verbatim, and its argument, \"absolute bullshit, given his long public record of Jesus-dedicated soundbites and social media posts\", is fairly paraphrased."
+    },
+    {
+      "claim_id": "c-other-causes",
+      "verdict": "supported",
+      "reason": "Men's Health 2022 (fresh fetch 2026-10-29): Gunn, \"there's a lot of stuff that people have literally just made up about him—about his politics...\"; Rapkin, \"I pause here to remind Pratt that none of this noise has hurt his box-office prowess or his reputation in town\". Both are now credited to Men's Health. Verify confirmed that neither phrase appears in the Daily Beast text."
+    },
+    {
+      "claim_id": "c-hallow",
+      "verdict": "supported",
+      "reason": "Christian Post: \"For Lent, Pratt has joined forces with Jonathan Roumie and Mark Wahlberg...\"; \"Hallow brought back its Pray40 challenge\"; \"the Hallow app, a Catholic prayer and meditation platform\"."
+    },
+    {
+      "claim_id": "c-cost-me",
+      "verdict": "supported",
+      "reason": "Christian Post: \"I care enough about Jesus to take a stand, even if it cost me. It could cost me everything, but I don't care.\" The \"He added\" ordering is loose (CP prints it at the top) but harmless."
+    },
+    {
+      "claim_id": "c-politics",
+      "verdict": "supported",
+      "reason": "Not Dead Yet audio (verify base.en and large-v3-turbo): \"I don't feel strongly enough about politics to take a stand right now\" (about 36:03). The models differ only on the words after the quoted span (\"in a way that cost me\" vs \"in a way to cost me\"), which the article does not quote. The next line contrasts faith (\"even if it costs me\", turbo)."
+    },
+    {
+      "claim_id": "c-faith-interp",
+      "verdict": "supported",
+      "reason": "Interpretation; \"criticism\" is accurate. His religion-versus-faith distinction is in MH."
+    },
+    {
+      "claim_id": "c-faith-market",
+      "verdict": "supported",
+      "reason": "Interpretation grounded in the CP Hallow Lent partnership."
+    },
+    {
+      "claim_id": "c-why-coming-after-me",
+      "verdict": "supported",
+      "reason": "Men's Health 2022 (fresh fetch 2026-10-29): \"we get into all of it pretty quickly—and at his prompting\"; \"he couldn't shake this feeling: 'Why are they coming after me?'\". The tears were about the healthy-daughter coverage, not faith."
+    },
+    {
+      "claim_id": "c-healthy-daughter",
+      "verdict": "supported",
+      "reason": "Men's Health 2022 (fresh fetch 2026-10-29): his account of the Instagram post and the articles (\"such a dig at his ex-wife\"); \"My son's gonna read that one day. He's nine. And it's etched in digital stone... I cried about it.\" The ellipsis drops two sentences without changing the meaning."
+    },
+    {
+      "claim_id": "c-publicist",
+      "verdict": "supported",
+      "reason": "Men's Health 2022 (fresh fetch 2026-10-29): \"What happened to the it's-an-honor-just-to-be-nominated-let's-move-on fucking line that we talked about?\" The ellipsis replaces one expletive, which is acceptable."
+    },
+    {
+      "claim_id": "c-publicist-interp",
+      "verdict": "supported",
+      "reason": "Labelled interpretation (\"by his own account\"). It fits MH, where he \"knows he shouldn't comment on any of this\"."
+    },
+    {
+      "claim_id": "c-others-move",
+      "verdict": "supported",
+      "reason": "VF: \"Pratt's mother sent him a ticket\"; the friend \"bought me a ticket to Hawaii\"; Henry \"took me to church\". NDY: \"My mom had to fly me home.\""
+    },
+    {
+      "claim_id": "c-brother-army",
+      "verdict": "supported",
+      "reason": "Vanity Fair 2017 (fresh fetch 2026-10-29): \"He ended up going into the army and told me not to. I think he saw something in me.\""
+    },
+    {
+      "claim_id": "c-manager",
+      "verdict": "supported",
+      "reason": "Not Dead Yet audio, re-transcribed by verify with base.en (full episode) and large-v3-turbo (quoted segments): \"she's had me say no to things that early in my career I would have never said no to because they were huge checks\"; \"she's calculated and critical in a way that I'm not\" (45:28-45:50). Both models agree."
+    },
+    {
+      "claim_id": "c-providence",
+      "verdict": "supported",
+      "reason": "Vanity Fair 2017 (fresh fetch 2026-10-29) dek: \"Chris Pratt's rise to fame is so improbable he sees it as divinely ordained.\""
+    },
+    {
+      "claim_id": "c-self-moves",
+      "verdict": "supported",
+      "reason": "Interpretation listing moves sourced in VF and GQ (the ad, the 15-month chase, \"Put me in a movie\", telling the showrunner, dropping the weight)."
+    },
+    {
+      "claim_id": "c-nine-purpose",
+      "verdict": "supported",
+      "reason": "Interpretation using verified quotes (Not Dead Yet audio, re-transcribed by verify with base.en (full episode) and large-v3-turbo (quoted segments) \"Just keep me employed as an actor\"; \"I was like I sold 500\" against 17 or 22)."
+    },
+    {
+      "claim_id": "c-nine-interp",
+      "verdict": "supported",
+      "reason": "Labelled interpretation that ranks 9 below 7 with a stated reason."
+    },
+    {
+      "claim_id": "c-six",
+      "verdict": "supported",
+      "reason": "Interpretation. \"In his stories he jumps first\" fits \"Put me in a movie\" and answering the ad."
+    },
+    {
+      "claim_id": "c-priorities-shift",
+      "verdict": "supported",
+      "reason": "Not Dead Yet audio, re-transcribed by verify with base.en (full episode) and large-v3-turbo (quoted segments): \"when I was married to... Anna, to Jack's mom... our priority here is our careers... but it costs you something\" (turbo, about 46:10-46:24). base.en has \"cost\". The article does not speculate on the divorce."
+    },
+    {
+      "claim_id": "c-priorities-now",
+      "verdict": "supported",
+      "reason": "Not Dead Yet audio, re-transcribed by verify with base.en (full episode) and large-v3-turbo (quoted segments): verbatim at about 46:29-46:32. Both models agree."
+    },
+    {
+      "claim_id": "c-peculiar",
+      "verdict": "supported",
+      "reason": "Vanity Fair 2017 (fresh fetch 2026-10-29): \"I was a peculiar kid. I was very much an individual and happy to be an individual. I dressed funny and was comfortable in my own skin.\" The ellipsis is clean."
+    },
+    {
+      "claim_id": "c-mercy",
+      "verdict": "supported",
+      "reason": "Not Dead Yet audio, re-transcribed by verify with base.en (full episode) and large-v3-turbo (quoted segments): turbo has \"I've been playing this terminal list character James Reese and then I've been doing some other things Mercy I did recently\" (about 48:07-48:15), and base.en agrees. Rotten Tomatoes: \"Jan 2026\". Wikipedia: \"science fiction thriller film Mercy\"."
+    },
+    {
+      "claim_id": "c-meeting",
+      "verdict": "supported",
+      "reason": "Not Dead Yet audio, re-transcribed by verify with base.en (full episode) and large-v3-turbo (quoted segments): \"I had a meeting with my manager and agent recently\" (about 48:03). Spreaker gives the episode date as Mar 31, 2026."
+    },
+    {
+      "claim_id": "c-comedy-turn",
+      "verdict": "supported",
+      "reason": "Not Dead Yet audio, re-transcribed by verify with base.en (full episode) and large-v3-turbo (quoted segments): \"there's a certain irreverence in some of the roles that I've done and then there's more of a seriousness in some of the roles... we're gonna steer more towards trying to do more comedy trying to bring fun and lightheartedness back... because that's something I have\" (48:15-48:30). Verify's base.en and turbo both hear \"irreverence\". \"Some had been more serious than others\" is a faithful paraphrase. Quoted words match."
+    },
+    {
+      "claim_id": "c-live-action",
+      "verdict": "supported",
+      "reason": "Not Dead Yet audio, re-transcribed by verify with base.en (full episode) and large-v3-turbo (quoted segments): \"I do the animated movies, which are fun... But I mean being on screen in a live action film I'd like to kind of focus on getting back into some comedy.\" Also: \"I more so care now about like can I be close to home\" (47:57). That came just before the meeting remark, so \"he added\" is loose ordering, and \"leads\" is a light gloss on \"live action film\". Both are harmless."
+    },
+    {
+      "claim_id": "c-ending-interp",
+      "verdict": "supported",
+      "reason": "Labelled \"on this reading\". It follows his stated reasons and has an October 2028 trigger."
+    },
+    {
+      "claim_id": "c-ending-2015",
+      "verdict": "qualified",
+      "reason": "It joins two remarks from the same 2015 GQ interview: \"That image that I was casting\" (offscreen fun) and \"there was value to it\" (the happy-plump-man persona). It is a fair summary of the same persona, but the two lines came at different points."
+    },
+    {
+      "claim_id": "c-faq-faith",
+      "verdict": "supported",
+      "reason": "Club Random 2025 auto-captions (about 25:00-25:10): \"I go to a Catholic church. I love it all. I'm a follower of uh you know, Jesus.\" Christian Post: \"that was the moment [my faith] was cemented\", about Jack's NICU stay in 2012."
+    },
+    {
+      "claim_id": "c-faq-type7",
+      "verdict": "supported",
+      "reason": "The FAQ mirrors the repaired discriminator and names Maui as the best evidence for 7. The VF hidden failure and GQ \"value\" are reopened and accurate."
+    },
+    {
+      "claim_id": "c-faq-weight",
+      "verdict": "supported",
+      "reason": "GQ (295 pounds for Delivery Man, 2013), Wikipedia (10 Years regain, Zero Dark Thirty loss), and VF (Moneyball \"too fat\"; running, crash dieting, cutting alcohol) all agree with the FAQ."
+    },
+    {
+      "claim_id": "c-faq-age",
+      "verdict": "supported",
+      "reason": "Wikipedia: born June 21, 1979, so he turned 47 on June 21, 2026. Dated, with a trigger."
+    },
+    {
+      "claim_id": "c-bio-family",
+      "verdict": "supported",
+      "reason": "Wikipedia: married author Katherine Schwarzenegger on June 8, 2019; three children (2020, 2022, 2024). Fox 2026 gives Lyla (Aug 2020), Eloise (May 2022) and Ford (Nov 2024). The children are mentioned only."
+    },
+    {
+      "claim_id": "c-bio-faris",
+      "verdict": "supported",
+      "reason": "Fox 2026: \"Jack was born in August 2012. Pratt and Faris married in 2009, announced their separation in 2017 and finalized their divorce in 2018.\" GMA 2021: \"Their divorce was finalized in October 2018.\" Wikipedia: married July 9, 2009; finalized October 31, 2018."
+    },
+    {
+      "claim_id": "c-portrait-credit",
+      "verdict": "supported",
+      "reason": "Attribution matches Commons metadata and the repository portrait provenance record. Removing this single credit restores the exact previously verified editorial hash and body."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "src-gq-2015",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh curl 2026-10-29 (200). Reopened the Faris/\"Why?\" exchange, \"first guy in line\"/value/Farley, \"My bones ached\", the childhood/nudity aside, the cerebral/Gunn juggle passage, Delivery Man 295, the new-idea quote and the bird-hunting close."
+    },
+    {
+      "source_id": "src-not-dead-yet-2026",
+      "opened": true,
+      "context_matches": true,
+      "locator": "The episode page (Spreaker, Mar 31, 2026, 1h18m) and the audio (api.spreaker.com download, 4682 s) were re-fetched. Verify transcribed the full episode with base.en and re-ran large-v3-turbo on 06:55-08:30, 09:10-12:20, 14:20-14:55, 34:30-36:20, 45:20-46:50 and 47:40-49:00. Every quoted phrase agrees (turbo resolves the base.en slips \"as yourself\", \"wants to be\", \"look seem off\"). Pratt is the speaker throughout, by first-person biography. Machine transcription only; no human listen."
+    },
+    {
+      "source_id": "src-vf-2017",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh curl 2026-10-29 (200). Reopened the dek (\"divinely ordained\"), brother/Christmas/army/peculiar, the community college/newspaper ad, one product/carrot/Denver/debt call/mother's ticket, \"had everyone convinced\", Maui arrival/Henry/Gumper/shifts/Chong, Cursed never released, guest spot/married, Moneyball \"too fat\", and the Guardians audition passages."
+    },
+    {
+      "source_id": "src-wikipedia",
+      "opened": true,
+      "context_matches": true,
+      "locator": "MediaWiki API extract fetched 2026-10-29. Checked the birth date and place, Lake Stevens, Everwood as first regular role, breakthrough as Andy, Parks role initially temporary, the Moneyball/10 Years/Zero Dark Thirty weight sequence, the Schwarzenegger marriage (June 8, 2019) and three children, Faris (married 2009, finalized Oct 31, 2018), Mercy as a 2026 sci-fi thriller, voice roles, and the MTV Generation Award speech."
+    },
+    {
+      "source_id": "src-mh-2022",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh curl 2026-10-29 (200). Reopened the father/\"self-defense mechanism\", \"tactic\", death in 2014, the Worst Chris/Gunn \"literally just made up\", the MTV speech/\"God part\"/hubris/\"not a religious person\", the Page statement/Hillsong/Zoe/Westboro/not exclusively, the Rapkin box-office aside, and the healthy-daughter/publicist passages."
+    },
+    {
+      "source_id": "src-independent-2014",
+      "opened": true,
+      "context_matches": true,
+      "locator": "NZ Herald syndication of The Independent (Kaleem Aftab, Aug 7, 2014), fresh curl. Reopened \"awesome place to be homeless... 15 to 20 hours per week... a charming time\" and \"I need to look like a superhero\"."
+    },
+    {
+      "source_id": "src-smartless-2022",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Auto-captions re-downloaded with yt-dlp (BRa2Vx-3A8Q), about 35:18-35:35: \"for the longest time i was great at auditioning and i couldn't act my way out of a paper bag... that wasn't an actor that was a door-to-door salesman\". The paraphrase is faithful and the audio was not checked."
+    },
+    {
+      "source_id": "src-hsc-2026",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Auto-captions re-downloaded (SSjd73MXaqg), 26:43-27:15: his brother \"convinced me to post that picture of myself in my underwear... I was like, that seems weird.\" The audio was not checked."
+    },
+    {
+      "source_id": "src-christian-post-2025",
+      "opened": true,
+      "context_matches": true,
+      "locator": "The live page returns a Cloudflare 403. Verify opened the Wayback 2025 raw copy (Leah MarieAnn Klett, March 6, 2025): altar promises at child/19/30s, Jack seven weeks premature and in NICU for a month, \"deal with God again\", \"give my platform to God\", \"even if it cost me\", Hallow and the Lent Pray40 partnership."
+    },
+    {
+      "source_id": "src-fox-2026",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh curl (200). Janelle Ash and Larry Fink, Oct 22, 2026: \"Jack was born in August 2012\"; Faris married 2009, separated 2017, divorce finalized 2018; three children with Schwarzenegger (Aug 2020, May 2022, Nov 2024)."
+    },
+    {
+      "source_id": "src-daily-beast-2022",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live page (200) and Wayback raw copy both fetched. Kyndall Cunningham, June 30, 2022: headline, the \"absolute bullshit, given his long public record\" argument, and \"previously photographed attending a service at Hillsong's L.A. branch back in 2017\". It contains neither the Gunn nor the Rapkin line."
+    },
+    {
+      "source_id": "src-rt-mercy-2026",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh curl (200): Mercy (2026), PG-13, \"Jan 2026\", Tomatometer 24%. Used only for the release month."
+    },
+    {
+      "source_id": "src-club-random-2025",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Auto-captions re-downloaded (56M4_TvQkBA), about 25:00-25:10: \"I go to a Catholic church. I love it all. I'm a follower of uh you know, Jesus.\" Used only for the FAQ paraphrase."
+    },
+    {
+      "source_id": "src-gma-faris-2021",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh curl (200). Danielle Long, May 4, 2021: married in 2009; divorce finalized October 2018; Jack born August 2012. It is now used only for the family metadata, not for Faris's \"imagery\" remark."
+    },
+    {
+      "source_id": "src-portrait-wikimedia",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Commons API imageinfo extmetadata fetched 2026-10-29 confirms Gage Skidmore and CC BY-SA 2.0. Installed assets and local transformation manifest were checked; full portrait visually inspected."
+    }
+  ],
+  "decision_checks": [
+    {
+      "finding_id": "subject-01",
+      "accepted": true,
+      "reason": "Verified in the candidate: the hook says \"The happy fat guy of his interviews and his home life was, by his account, an image cast over a man who 'didn't feel too great about who I was,'\" quotes \"My bones ached... feeling rotten\" and the Farley comparison, and sets up the answer as a reply to why Faris preferred him heavier (GQ checked). The c-fun-as-image inference records the context. The description (\"happy fat guy of his Parks and Rec years was an image he cast\") and meta_title match."
+    },
+    {
+      "finding_id": "subject-02",
+      "accepted": true,
+      "reason": "The stitched Moneyball sentence is gone. \"Now I have less fun. I focus more\" now sits in its GQ health answer: \"where health explains it as well as image does.\" Neither the Why-not-7 bullets nor type_hypothesis.discriminator use it. Confidence stays medium."
+    },
+    {
+      "finding_id": "subject-03",
+      "accepted": true,
+      "reason": "The Faris remark is removed from the article, the discriminator and for_claim_ids. Her name appears only in the hook's GQ context and the healthy-daughter episode. No sentence explains the divorce; \"it costs you something\" is his own attributed statement about career priorities."
+    },
+    {
+      "finding_id": "subject-04",
+      "accepted": true,
+      "reason": "The cost is attributed (\"By his account...\"; \"he believes the speech helped light...\"). \"Maybe it was hubris\" is quoted. Gunn's politics remark and Rapkin's box-office line are in, credited to Men's Health (verified in MH and confirmed absent from the Daily Beast). Later wording reads \"through years of criticism\"."
+    },
+    {
+      "finding_id": "subject-05",
+      "accepted": true,
+      "reason": "The Westboro qualification (\"Then he reconsidered\") and \"though not exclusively\" are in the paragraph; MH confirms both. c-under-bus and c-hillsong-never reflect them."
+    },
+    {
+      "finding_id": "subject-06",
+      "accepted": true,
+      "reason": "The Proverbs policy and the \"hasn't always kept to it\" framing are gone. The 2022 tears now sit in the counter-pattern section with the coverage identified (the healthy-daughter post read as a dig at Faris). c-why-coming-after-me is out of for_claim_ids, and its inference is the protective-parent reading."
+    },
+    {
+      "finding_id": "subject-07",
+      "accepted": true,
+      "reason": "The treatment detail is removed (\"His father died in 2014, and no other family member is on the record\"). Death in 2014 is in both VF and MH, so observed is the right class for what remains."
+    },
+    {
+      "finding_id": "subject-08",
+      "accepted": true,
+      "reason": "The ending now gives his stated reasons in his order (verified against two fresh transcriptions): recent roles from James Reese to Mercy, some more serious, comedy as \"something I have\", live action, close to home. Mercy's reception figures are cut, so no causal link is implied. The salesman bookend is labelled \"on this reading\"."
+    },
+    {
+      "finding_id": "fan-01-delivery-man-regain",
+      "accepted": true,
+      "reason": "The body traces the weight role by role (10 Years and Zero Dark Thirty per the linked Wikipedia; 295 pounds for Delivery Man per GQ, both checked). The type-7 FAQ no longer mentions dieting, the weight FAQ gives the sequence, and \"years of dieting\" is gone. c-delivery-man cites src-gq-2015."
+    },
+    {
+      "finding_id": "fan-02-gq-half-quote",
+      "accepted": true,
+      "reason": "The hook quotes \"feeling rotten\" and \"didn't feel too great about who I was\" with the GQ link. Health is named as an equal explanation for \"less fun\". \"First guy in line\" and the Farley comparison are used. c-appetite's alternative records \"the rest wasn't so good\"."
+    },
+    {
+      "finding_id": "fan-03-healthy-daughter-post",
+      "accepted": true,
+      "reason": "The coverage is named precisely (MH checked). It sits outside the faith section with \"its tears were not about faith\", and the image-reading consequence is stated (\"An image manager keeps to the line...\"). c-healthy-daughter and c-publicist were added."
+    },
+    {
+      "finding_id": "fan-04-childhood-split",
+      "accepted": true,
+      "reason": "\"(and, in the same breath, 'really sensitive')\" is beside the hyperactive quote. The GQ 2015 \"I was really sensitive. I cried a lot.\" is set against MH 2022 as consistent. VF's \"peculiar kid... comfortable in my own skin\" is confronted in the counter-pattern section. Claims were added and checked."
+    },
+    {
+      "finding_id": "fan-05-ending-fun-never-left",
+      "accepted": true,
+      "reason": "The \"2015 move in reverse\"/\"eleven years\" framing is gone (the acceptance test's second option). The closing marks the plan as live-action (\"he has voiced animated comedies all along\") and holds for a mixed slate (\"Whatever his next slate looks like...\"). c-ending-interp is updated."
+    },
+    {
+      "finding_id": "fan-06-mtv-worst-chris-context",
+      "accepted": true,
+      "reason": "The meme link is his belief. Gunn's politics remark is credited to MH. The MTV sentence notes the jokes (\"Don't be a turd\") and \"people mostly just remember the God part\". The 2026 politics line is in, and leaving out the 2017/2024 statements is explained in the resolution (length; they fit 3 and 9 equally)."
+    },
+    {
+      "finding_id": "fan-07-andy-guest-spot",
+      "accepted": true,
+      "reason": "VF's \"was supposed to be a one-episode deal, a guest spot, but the character took off\" is quoted and attributed (checked). c-guest-spot also cites Wikipedia (\"initially intended as temporary\")."
+    },
+    {
+      "finding_id": "fan-08-providential-frame",
+      "accepted": true,
+      "reason": "Before the Nine test the article says \"He tells these turns as providence\" with VF's \"divinely ordained\" (dek checked), then weighs his own moves (\"from answering the ad to 'Put me in a movie'\")."
+    },
+    {
+      "finding_id": "critic-01",
+      "accepted": true,
+      "reason": "The hook attributes the image to his offscreen and interview persona. GQ's \"first guy in line\", Farley and \"didn't feel too great\" are reported with the link. The Seven section calls the mask reading \"partly Pratt's own\". The Three reading rests on \"there was value to it\". One residual sequencing slip (\"Then he added\") is logged as minor finding verify-repair-01. It does not reopen this decision."
+    },
+    {
+      "finding_id": "critic-02",
+      "accepted": true,
+      "reason": "\"Why not Type 7?\" counts Maui as \"a year of fun beating ambition\" and says the Three reading can answer it \"only with a story... Maui remains the best evidence against it.\" The 2026 homecoming details sit beside the VF concealment quote, and verify's two fresh models confirm \"dude, you don't look good. You seem off\" and \"partying a lot\". \"Tracks the room\" is replaced with the professional-incentive caveat."
+    },
+    {
+      "finding_id": "critic-03",
+      "accepted": true,
+      "reason": "The discriminator is restated at motive level (what the front protects). Each bullet tests it: outcome hidden while depression disclosed; worth problem paired with value, labelled \"on this reading\"; market-terms deference. Gunn is out of the bullets and carries the cerebral context. The limits paragraph has no Faris."
+    },
+    {
+      "finding_id": "critic-04",
+      "accepted": true,
+      "reason": "\"Several of his biggest turns came from other people\" is set against his self-initiated moves. Type 9 is named in the 60-word answer, the type FAQ and the type section, and is tested with sourced discriminators (the \"Just keep me employed\" purpose clause; 500 vs 17 or 22, which verify heard as \"I was like I sold 500\"). The test sits near the end rather than beside the type argument, but the type section points to it, which meets the intent."
+    },
+    {
+      "finding_id": "critic-05",
+      "accepted": true,
+      "reason": "\"The clown began as armor against a man who found sensitivity dangerous\" keeps his \"self-defense\" mechanism. The next sentence says both readings claim the quote. The Seven section uses \"self-defense\" too."
+    },
+    {
+      "finding_id": "critic-06",
+      "accepted": true,
+      "reason": "The hook speaks of \"the price\" and the chant, not \"fun\". The body quotes \"you're selling your attitude\". The chant sentence adds resilience and \"So I loved it\" (both re-heard by verify). The ending gives his reasons and labels the salesman parallel \"on this reading\"."
+    },
+    {
+      "finding_id": "critic-07",
+      "accepted": true,
+      "reason": "The heading is his words (\"I found my niche\"). \"His reasons don't all point one way\" lists laugh, niche and pay, and adds VF's \"just married\". The hook carries \"didn't feel too great about who I was\". VF's \"worked for the character\" half is not stated, but GQ's own account covers it, so the commercial motive no longer reads as the established cause."
+    },
+    {
+      "finding_id": "critic-08",
+      "accepted": true,
+      "reason": "Attributed (\"By his account\"). Other causes come from MH (Gunn on politics; Rapkin on no box-office damage). \"Faith audiences are a market too, so the cost was never one-way\" is added, and the public-commitment point is kept."
+    },
+    {
+      "finding_id": "unfamiliar-1",
+      "accepted": true,
+      "reason": "A cold reader of paragraphs 1-3 learns that the image was \"the happy fat guy of his interviews and his home life\", with Andy as the role he was playing. The sales sentence uses the chant and \"the price\"; \"attitude\" appears in his words next."
+    },
+    {
+      "finding_id": "unfamiliar-2",
+      "accepted": true,
+      "reason": "The body shows lost/regained/lost/295/lost while he kept playing Andy, linked to Wikipedia and with GQ named. Both FAQs match. No sentence has a one-move trade."
+    },
+    {
+      "finding_id": "unfamiliar-3",
+      "accepted": true,
+      "reason": "Type 9 is placed as a live secondary reading in the answer, FAQ and type section, and is ranked below 7 with a stated reason (\"explains the competing worse... nothing as strong as the Maui year\")."
+    },
+    {
+      "finding_id": "unfamiliar-4",
+      "accepted": true,
+      "reason": "\"Saw through it\" is replaced by \"noticed he was floundering\" (VF: \"heard I'd been floundering... He saw that\"). The 2026 scene is quoted after verify's two fresh transcriptions agree. The podcast is linked at its first mention in the preceding section."
+    },
+    {
+      "finding_id": "unfamiliar-5",
+      "accepted": true,
+      "reason": "Three dated, sourced tellings: Independent 2014 (\"awesome place to be homeless\"), VF 2017 (\"not in a great place\"), NDY 2026 (\"the wrong path\"). All checked."
+    },
+    {
+      "finding_id": "unfamiliar-6",
+      "accepted": true,
+      "reason": "The photo anecdote sits in the counterevidence section (\"he thought seemed weird\", caption-checked by verify). The Faris remark is cut. The audition section ends on his marketplace self-description, which advances the selling thread."
+    },
+    {
+      "finding_id": "unfamiliar-7",
+      "accepted": true,
+      "reason": "The opening claim is attributed and no stronger than the 2026, 2022 and 2025 evidence that follows."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "accepted": true,
+      "reason": "Motive-level discriminator. The fat-guy passage keeps \"It made him laugh\" and says \"The appetite reads as Seven\". The Gunn sentence fits more than one type and carries the overthinking context. \"Keeps the appearance\" is gone. The bullets explain why each datum fits worth better than pain; the third leaves its Seven rebuttal implicit but does not overclaim."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "accepted": true,
+      "reason": "The hook is corrected. The GQ context and \"I think that's often the case with comedians\" are given. The worth-versus-fear argument is labelled \"on this reading\". The meta fields match."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "accepted": true,
+      "reason": "Maui is counted as the strongest off-camera Seven case in two places, with VF's \"always giving away my shifts\" (checked). The Three answer is a labelled story, and \"tracks the room\" no longer counts as type evidence."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "accepted": true,
+      "reason": "A 3-versus-9 passage uses self-initiated moves and competitive selling, says why 7 outranks 9, and acknowledges 6 (\"in his stories he jumps first\"). The answer and FAQs are consistent."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "accepted": true,
+      "reason": "The type-7 FAQ rests on the repaired discriminator (\"he points to failure and market value more than to pain\") and names Maui. No Andy-persona trade. The 60-word answer is 59 words (counted) and identical to the type FAQ."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "accepted": true,
+      "reason": "\"Armor\" keeps his frame, and the next sentence says the quote can't settle 3 versus 7."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "accepted": true,
+      "reason": "The \"idols to burn\" coda is cut. The section closes on \"Faith audiences are a market too... This is still the strand the Three reading explains least\", which leaves the counterevidence standing."
+    },
+    {
+      "finding_id": "future-01",
+      "accepted": true,
+      "reason": "The closing is dated to the March 31, 2026 episode (Spreaker date checked) and the meeting. It rests on how the plan was made, not on a forecast. The misdated 2015 framing is gone. Mercy's reception is cut from the prose, so the non-Wikipedia sourcing requirement for those figures is moot (c-mercy cites Rotten Tomatoes for the release month). c-comedy-turn and c-ending-interp carry October 2028 checks."
+    },
+    {
+      "finding_id": "future-02",
+      "accepted": true,
+      "reason": "The Terminal List status sentence is gone. The orientation paragraph ends on stable, past-tense career facts."
+    },
+    {
+      "finding_id": "future-03",
+      "accepted": true,
+      "reason": "Gunn's lines are dated \"told GQ in 2015\". Proverbs is removed. The meme is in the past tense in a dated paragraph. Remaining present-tense \"says\" forms (\"Pratt says his humor began as self-defense\"; \"he says, as 'the bad boyfriend'\") describe stable self-accounts dated elsewhere in the article and do not imply current status."
+    },
+    {
+      "finding_id": "future-04",
+      "accepted": true,
+      "reason": "The Faris and Literally claims are cut, so the main risk is gone. c-photo-and-anger, c-comedy-turn, c-hillsong-photo and c-chong-sales-2026 carry triggers naming their checks. One gap: c-audition-salesman (caption-only) is mapped to a research task but has an empty review_trigger. Verify read the captions and the paraphrase is faithful, so this is bookkeeping (minor finding verify-repair-03), not a reason to reject the decision."
+    },
+    {
+      "finding_id": "future-05",
+      "accepted": true,
+      "reason": "The body link and frontmatter citation are https://www.spreaker.com/episode/chris-pratt--71008192 (fetched 200 by verify; shows \"Not Dead Yet · Chris Pratt · Mar 31, 2026\"). The source locator keeps per-quote timestamps."
+    },
+    {
+      "finding_id": "verify-01",
+      "accepted": true,
+      "reason": "Confirmed independently. The Gunn \"literally just made up... about his politics\" line and Rapkin's \"none of this noise has hurt his box-office prowess\" are both in Men's Health and are now credited there (\"The profile added two caveats... the writer, Mickey Rapkin\"). Grep of the freshly fetched Daily Beast (live and Wayback raw) finds neither phrase. The Daily Beast is described only by its headline and its \"long public record\" argument."
+    },
+    {
+      "finding_id": "verify-02",
+      "accepted": true,
+      "reason": "Confirmed independently. Verify's base.en (full episode) and large-v3-turbo (47:40-49:00) both have \"James Reese, and then I've been doing some other things Mercy I did recently\". The closing now says he named Mercy, paraphrases only \"more of a seriousness in some of the roles\" as \"some had been more serious than others\", and quotes the agreed comedy words. Both of verify's models hear \"a certain irreverence\"; the article does not quote it."
+    },
+    {
+      "finding_id": "verify-03",
+      "accepted": true,
+      "reason": "Wikipedia: \"Pratt's first regular television role was... Everwood (2002–2006)\" and \"He had his breakthrough role as Andy Dwyer\". The bio now matches."
+    },
+    {
+      "finding_id": "verify-04",
+      "accepted": true,
+      "reason": "Daily Beast (Wayback raw): \"he had also been previously photographed attending a service at Hillsong's L.A. branch back in 2017.\" The article reports it as the Daily Beast's claim beside his 2022 denial. c-hillsong-photo is classed disputed/unresolved with a trigger."
+    },
+    {
+      "finding_id": "verify-05",
+      "accepted": true,
+      "reason": "\"Cohen\" is gone. The line is indirect speech attributed to Vanity Fair, matching VF's own indirect report (\"who told me... a salesman only has one product: himself\")."
+    },
+    {
+      "finding_id": "verify-06",
+      "accepted": true,
+      "reason": "checkDraft reports 3,926 words (rerun by verify). The listed cuts are absent from the candidate, every protected passage is accounted for, and the 60-word answer (59 words) still matches the FAQ. It is still above the standard's 2,000-3,500 target but inside the release limit; that is reflected in the writing score, not left open as a finding."
+    },
+    {
+      "finding_id": "verify-07",
+      "accepted": true,
+      "reason": "(a) Fox 2026: \"Jack was born in August 2012\", now cited by c-nicu-vow. (b) The Chong \"kicked in my door to door sales skills\" remark is heard by both of verify's fresh models at about 12:04-12:08. (c) The Daily Beast source record matches the full Wayback text."
+    }
+  ],
+  "prior_blocker_checks": [],
+  "protected_checks": [
+    {
+      "passage": "Plenty of 19-year-olds hide a failure. Pratt talks freely about the depression; what he hid was the result, and he showed success in its place until a friend saw through it and bought him a ticket to Maui.",
+      "preserved": true,
+      "reason": "Only \"a friend saw through it\" changed, to \"noticed he was floundering\", which matches VF (\"heard I'd been floundering\"). The disclosed-depression versus hidden-result distinction, the \"everyone\" caveat and the single-source limit are intact in the candidate."
+    },
+    {
+      "passage": "A skeptic can read this as the Three's instinct applied to faith: one framing for a men's magazine mid-backlash, another for a Christian outlet mid-promotion. The fairer reading holds both.",
+      "preserved": true,
+      "reason": "Verbatim in the candidate. The follow-on now says \"years of criticism\", which is more accurate."
+    },
+    {
+      "passage": "I was the king of my school and I don't have a yearbook because it was $35 and I just wouldn't ask them for that much money.",
+      "preserved": true,
+      "reason": "Verbatim; verify's two fresh models agree word for word."
+    },
+    {
+      "passage": "Other people make his biggest moves. His mother bought the ticket home, a friend the ticket to Maui, and a stranger took him to church.",
+      "preserved": true,
+      "reason": "Qualified to \"Several of his biggest turns came from other people\" because the record has many self-initiated moves. The rescuer list (\"His mother bought the ticket home, a friend the ticket to Maui, and a stranger took him to church\") is verbatim, and the counterevidence still stands and is now tested."
+    },
+    {
+      "passage": "The Three reading has limits. Acting rewards image management in every type, so the dieting alone proves little.",
+      "preserved": true,
+      "reason": "Verbatim. The Faris sentence that followed was cut, which strengthens the limit."
+    },
+    {
+      "passage": "The joke softens a strange admission. Andy was one of the happiest characters on network television, and Pratt calls that happiness an image he was casting, then trades it away in two short sentences.",
+      "preserved": true,
+      "reason": "The first sentence is verbatim. The second (\"Andy was one of the happiest characters... Pratt calls that happiness an image\") was a misattribution, since GQ shows the image was his offscreen persona, and removing a false detail is allowed. The hook still turns the half-remembered quote into the article's question, now with accurate context."
+    },
+    {
+      "passage": "Little brothers copy big brothers in every type. What stands out is what the boy wanted, in the man's telling: the effect. A room knocked out, and his mother in tears.",
+      "preserved": true,
+      "reason": "Verbatim; the VF Christmas quote still precedes it."
+    },
+    {
+      "passage": "A Seven gets bored. A Three gets restless without a goal. In Pratt's version, the boredom sends him back to work.",
+      "preserved": true,
+      "reason": "Verbatim, after the GQ bird-hunting exchange (rechecked)."
+    },
+    {
+      "passage": "His example puts status and hidden need in one sentence: \"I was the king of my school and I don't have a yearbook because it was $35 and I just wouldn't ask them for that much money.\"",
+      "preserved": true,
+      "reason": "Verbatim."
+    },
+    {
+      "passage": "One GQ exchange cuts both ways. Retiring early to a ranch to hunt birds, he said, was \"what I secretly want to do.\"",
+      "preserved": true,
+      "reason": "Verbatim; the GQ wording is rechecked."
+    },
+    {
+      "passage": "That is common audition advice. What stands out is how long Pratt was better at the selling than the job.",
+      "preserved": true,
+      "reason": "Verbatim."
+    },
+    {
+      "passage": "A Three can sincerely want a quieter life while living a louder one, and he still calls his career a very high priority.",
+      "preserved": true,
+      "reason": "Verbatim, and the surrounding counter-pattern section is intact."
+    },
+    {
+      "passage": "What happened next matters most for typing, because no camera was involved.",
+      "preserved": true,
+      "reason": "Verbatim."
+    },
+    {
+      "passage": "It is also the 2015 move in reverse. Eleven years after \"Now I have less fun. I focus more,\" the fun is back on the plan, chosen in a meeting by a man who learned as a teenage salesman that the attitude is part of what you sell.",
+      "preserved": true,
+      "reason": "The misdated \"2015 move\"/\"eleven years\" framing was removed: the trade predates Guardians, and the 2026 plan concerns live action. Removing a false detail is allowed. The distinctive contribution (tying the 2015 hook and the sales origin to the dated meeting with his manager and agent) survives: \"In 2015 he called the fun of his heavy years an image with value. In 2026 fun was back on the table as a career asset... on this reading...\""
+    },
+    {
+      "passage": "Ambition proves little in Hollywood, where everyone has it. The sharper tell is managing the impression when no camera is running, and treating your own fun as part of the presentation.",
+      "preserved": true,
+      "reason": "Verbatim. The corrected hook now illustrates \"treating your own fun as part of the presentation\" accurately."
+    },
+    {
+      "passage": "If image explained everything, Pratt would have stopped talking about God years ago. His faith has cost him with the mainstream audiences an image manager would court.",
+      "preserved": true,
+      "reason": "The first sentence is verbatim. The second is now attributed (\"By his account, faith is the first thing he let cost him...\") because the unattributed version overstated its sources. The section still confronts the counterevidence at full strength."
+    },
+    {
+      "passage": "Eleven years after \"Now I have less fun. I focus more,\" the fun is back on the plan, chosen in a meeting by a man who learned as a teenage salesman that the attitude is part of what you sell.",
+      "preserved": true,
+      "reason": "As above: the misdated framing is gone, and the earned close tying the hook to a dated choice without asserting the type remains, now after his stated reasons and labelled \"on this reading\"."
+    },
+    {
+      "passage": "Both can be true, and the interviewers asked different questions. Still, the emphasis tracks the room: an adventure for a blockbuster junket, a rescue for a cover story about finding his path.",
+      "preserved": true,
+      "reason": "Extended to three dated tellings (\"All three can be true, and the interviewers asked different questions\"). The distinctive dated comparison is kept; the \"tracks the room\" overreach is now discounted as professional habit."
+    },
+    {
+      "passage": "Acting rewards image management in every type, so the dieting alone proves little.",
+      "preserved": true,
+      "reason": "Verbatim."
+    }
+  ],
+  "coverage_complete": true,
+  "metadata_consistent": true,
+  "alternative_type_addressed": true,
+  "five_year_test_passed": true,
+  "scores": {
+    "evidence": {
+      "score": 8.5,
+      "passage": "Back in Lake Stevens, he told Vanity Fair: > \"I had everyone convinced I'd been off doing this great sales job and making money, and I wasn't...\" ... The account is his own, and \"everyone\" is a storyteller's exaggeration.",
+      "reason": "Every quotation verify reopened matches its source in wording and context: GQ, VF, MH, The Independent, Christian Post, Daily Beast, Fox and Wikipedia, plus fresh caption pulls and two fresh transcriptions of the podcast. The two attribution errors from the last round are fixed (MH caveats credited to MH; Mercy named). The prose localizes inference (\"by his account\", \"in Vanity Fair's reconstruction\", \"The Daily Beast reported\", \"on this reading\") and keeps limits visible (single self-report, father account \"his alone\"). Not higher: independent testimony is thin (only Gunn), much type evidence is self-report across outlets, podcast quotes rest on machine transcription, and there are small slips (the hook's \"Then he added\" order; an unlabelled \"names worth... more often than pain\")."
+    },
+    "enneagram": {
+      "score": 8.2,
+      "passage": "The two types part over what the front protects. Where Pratt's record reaches past the demands of the job, it points more often to worth than to pain: - At 19 or 20, sinking into debt, he kept up the story of a successful sales career for the people back home. He hid the outcome, not the depression.",
+      "reason": "The 3-versus-7 test works at the level of motive (what the front protects), and the strongest datum is off camera: he hid the outcome while admitting the depression. Seven gets its full case, including Pratt's own Farley/mask framing and the Maui year, which the article concedes is \"the best evidence against it\". Nine and Six are tested with sourced discriminators (a purpose clause; 500 vs 17 or 22). Medium confidence is honest. It stops short of higher because the Three case rests heavily on retrospective self-report (a single VF account; a 2026 conversion-narrative \"completely deferential\"), \"value\" may be comic rather than market value, and Maui is answered only with a story. The case is supported, not decisive."
+    },
+    "originality": {
+      "score": 8.8,
+      "passage": "\"I've been money motivated my whole life because we never had anything,\" he said in 2026. His example puts status and hidden need in one sentence: \"I was the king of my school and I don't have a yearbook because it was $35 and I just wouldn't ask them for that much money.\"",
+      "reason": "The portrait is built from details specific to Pratt: the PMA-equals-OPM chant, 500 cards to 17 or 22, the $35 yearbook, \"a great pet fat guy\", \"Gumper of the year\", the bird-hunting \"Guardians Ten\", and the publicist line he broke for his son. Its through-line (attitude as the product he learned to sell) belongs to this subject. Generic type definitions are brief, and contradictions (Maui, faith, the son) survive the argument."
+    },
+    "writing": {
+      "score": 8.2,
+      "passage": "All three can be true, and the interviewers asked different questions. The emphasis shifts with the room, but every actor on a press tour tunes the story to the outlet, so that proves little about type. What the tellings share matters more.",
+      "reason": "Clear progression from the hook to the sales origin, Maui, the father, the niche, the audition, the Seven test, faith, the counter-pattern and a closing that returns to the start. Headings use his words, and paragraph lengths vary. The faith section is the weak spot: it jumps 2025, 2012, 2018, 2026, 2022, 2019 and stacks outlet attributions, which slows reading. The front-protects thesis is stated twice (type section and Why-not-7), some paragraphs end on verdict lines, and at 3,926 words it runs past the standard's 3,500 target."
+    },
+    "durability": {
+      "score": 8.7,
+      "passage": "Whatever his next slate looks like, the shape of that meeting is the point. In 2015 he called the fun of his heavy years an image with value. In 2026 fun was back on the table as a career asset, weighed with his manager and agent...",
+      "reason": "The argument rests on dated material from 2014 to 2022 plus retrospective 2026 self-descriptions. Removing every 2026 event leaves the hook, the sales collapse, Maui and the Seven test intact. Perishable status is gone (Terminal List status, Mercy box office, Star-Lord return). The ending is framed to hold for any slate, with an October 2028 trigger. Age and marriage FAQs are dated and tracked, and the Hillsong photo is flagged unresolved. It loses a little because the closing image still leans on a March 2026 career plan."
+    },
+    "hook": {
+      "score": 8.7,
+      "passage": "\"I think I was outwardly having more fun. I was more fun to be around, probably. That image that I was casting, to convince people that I was okay, was a really fun person to hang around. Now I have less fun. I focus more.\" Then he laughed: \"I was like a great pet fat guy.\"",
+      "reason": "A specific, sourced, surprising opening: a famously jolly man calls his fun an image cast to convince people he was okay. Two paragraphs later the strange admission becomes the article's question (pain or price), and the body pays it off. The only blemish is the misordered \"Then he added\" (minor finding verify-repair-01)."
+    },
+    "discoverability": {
+      "score": 8.5,
+      "passage": "## What is Chris Pratt's personality type? Chris Pratt reads as Enneagram Type 3, the Achiever, at medium confidence... Type 7 is the strongest alternative; Type 9 remains live.",
+      "reason": "meta_title is 56 characters and the description 154, both accurate to medium confidence (\"leans\"). The type answer is 59 words, plain, and identical to the type FAQ. The seven FAQs match real search intent (type, Type 7, Maui van, weight, religion, age, spouse), and each checked against the body and sources. Internal links go to the Type 3, 7, 9 and 6 pages and to the published Amy Poehler and Chris Hemsworth profiles. All six suggestions are published drafts. The anchor slugs match the headings."
+    }
+  },
+  "publication_addendum": {
+    "date": "2026-10-29",
+    "scope": "Portrait-credit-only verification by Codex; original six reviews and full verification retained, not rerun.",
+    "previous_content_sha256": "2cb599b72ea2b30e08ba7a60eb90ae07e74646d69ac5296ab4452ff420806395",
+    "unchanged_editorial_body": true,
+    "unchanged_scores": true
+  }
+}

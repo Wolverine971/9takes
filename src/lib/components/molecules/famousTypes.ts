@@ -84,6 +84,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'carina-zavline', link: true, hasImage: true, lastmod: '2026-07-29', personaTitle: 'Fashion\'s Proof Machine', contentGrade: 8.6, types: ['lifestyleInfluencer', 'influencer', 'model', 'actor'] },
 		{ name: 'chamath-palihapitiya', link: true, hasImage: true, lastmod: '2026-04-02', personaTitle: 'Silicon Valley\'s Restless Reinventor', contentGrade: 9.5, types: ['techie', 'investor'] },
 		{ name: 'charli-xcx', link: true, hasImage: true, lastmod: '2026-02-22', personaTitle: 'Pop\'s Calculated Anarchist', contentGrade: 9.6, types: ['musician', 'alternative-artist'] },
+		{ name: 'chris-pratt', link: true, hasImage: true, lastmod: '2026-10-29', personaTitle: 'The Salesman Who Learned the Attitude Was the Product', contentGrade: 8.5, types: ['movieStar', 'celebrity'] },
 		{ name: 'chris-williamson', link: true, hasImage: true, lastmod: '2026-02-22', personaTitle: 'Podcasting\'s Relentless Optimizer', contentGrade: 9.3, types: ['creator', 'podcaster'] },
 		{ name: 'cristiano-ronaldo', link: true, hasImage: true, lastmod: '2026-04-29', personaTitle: 'Football\'s Relentless Perfectionist', contentGrade: 8.7, types: ['athlete'] },
 		{ name: 'david-beckham', link: true, hasImage: true, lastmod: '2026-08-12', personaTitle: 'Football\'s Most Practised Idol', contentGrade: 8.5, types: ['celebrity', 'entrepreneur'] },

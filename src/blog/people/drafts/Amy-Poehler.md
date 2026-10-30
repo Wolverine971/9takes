@@ -262,6 +262,8 @@ Leslie's relentless optimism, her fierce loyalty to her friends, her refusal to 
 
 Amy wasn't just an actress on the show. By Season 5, she was also a producer. She co-wrote the series finale with creator Mike Schur. That's the Eight pattern: don't just participate, take ownership.
 
+Related reading: [Chris Pratt’s personality analysis](/personality-analysis/chris-pratt).
+
 ### Creating Smart Girls
 
 When Amy launched Smart Girls, she didn't just slap her name on a charity. She built an organization that reflects her core values—prioritizing **"intelligence and imagination over 'fitting in.'"**

@@ -1,0 +1,1249 @@
+{
+  "schema_version": 3,
+  "content_sha256": "c0354f224d30ac4e390502fbd45eb0418e2b632899c1efcf7744b85f8d8f12ac",
+  "evidence_sha256": "4a1e8181ae5894efa0513338303926fbc0957471c061e504217bf1b1e551907c",
+  "status": "pass",
+  "findings": [
+    {
+      "id": "verify-01",
+      "severity": "minor",
+      "passage": "was where he put \"terrible feelings\" until \"everything got eclipsed\" by \"making as much money as I could, so my children would be safe.\"",
+      "problem": "This joins two quotes. In S03 (Daily Actor relay of the 2013 Guardian), marriage and children are what eclipsed things: \"But then I married and had children and everything got eclipsed. I know how precarious life can be, so I then had a period when I was making as much money as I could, so my children would be safe.\" The inserted \"by\" makes money-making the agent of the eclipse.",
+      "acceptance_test": "The quoted fragments appear in source order without an inserted agent, e.g. acting was where he put \"terrible feelings\" until \"I married and had children and everything got eclipsed\"; knowing \"how precarious life can be,\" he then spent a period \"making as much money as I could, so my children would be safe.\" C43 passage updated to match."
+    },
+    {
+      "id": "verify-02",
+      "severity": "minor",
+      "passage": "Then, he told the Telegraph, he decided, \"The world is precarious and I'm going to make my children as safe as possible – with dough.\"",
+      "problem": "\"Then\" orders the money decision after the year and a half off, but neither source gives that order. S02 places the realization \"when my son was born\", and S01 places the year off at the birth too.",
+      "acceptance_test": "The connector no longer implies a sequence the sources do not give, e.g. \"He also told the Telegraph that the birth brought a decision:\"."
+    },
+    {
+      "id": "verify-03",
+      "severity": "minor",
+      "passage": "When Alan Ball offered him _Uncle Frank_, about a closeted gay professor, Bettany's first questions were \"Why me?\" and \"Should I even do this?\"",
+      "problem": "The quotes from S06 (Windy City Times, Nov 2020) have no attribution at the passage. The next citation is \"(NewNowNext, relayed by Out)\", which a reader may take as their source. subject-F06's test asked for this attribution.",
+      "acceptance_test": "The paragraph names Windy City Times (November 2020) as the source of \"Why me?\", \"Should I even do this?\", \"morally correct\" and \"the energy\"."
+    },
+    {
+      "id": "verify-04",
+      "severity": "minor",
+      "passage": "My heartbeat tends to lower when cameras are on. I tend to get much calmer. I'm anxious in everyday life.",
+      "problem": "This is an evidence-record error, not a reader-facing one. A fresh fetch of S04 shows the question was \"Were you scared?\", asked after his orangutan answer. The S04 locator says \"whether he was nervous acting with Connelly\", and a research task says the question is not visible. The article does not state the question, so the reader is not misled.",
+      "acceptance_test": "S04 locator/context reads \"answer to 'Were you scared?' after the orangutan question\", and the research task about the invisible question is closed."
+    },
+    {
+      "id": "verify-05",
+      "severity": "minor",
+      "passage": "\"Mine was acting,\" he told the Hudsons, his \"safety net\" (13:44 in the episode).",
+      "problem": "The timestamps (13:44, 28:10) come from the 52:40 RSS download, which includes inserted ads; Apple lists the episode at 43 minutes, so a reader's timestamps may differ. In that download the safety-net words fall at about 14:09-14:14 and \"not sure I want anybody\" at about 28:28. Separately, no human has listened to the episode yet. Three Whisper models now agree on every quoted span, but that is still a model check.",
+      "acceptance_test": "The timestamps are checked against the publisher's playback or written as approximate (\"about 14 minutes in\"), and S23 records a human listen of the quoted spans or keeps that as an open research task."
+    },
+    {
+      "id": "verify-06",
+      "severity": "minor",
+      "passage": "## The Depp texts",
+      "problem": "At 3,944 words by the contract count, the body is above the standard's roughly 3,500 target and longer than the reviewed draft (unfamiliar-08's length clause). The Depp section (about 450 words, on material the article says carries no type weight) and the Type 5/7 paragraph are the densest stretches.",
+      "acceptance_test": "If trimmed in a later pass, the body comes in near 3,500 words without removing any dated Bettany response, the UK/US outcomes or the tweet framing that the fairness findings required."
+    },
+    {
+      "id": "verify-07",
+      "severity": "minor",
+      "passage": "Bettany co-starred with [Johnny Depp](/personality-analysis/johnny-depp) in _The Tourist_ (2010) and _Mortdecai_ (2015).",
+      "problem": "The next sentence says they were \"working together\" in 2013, but the films listed are from 2010 and 2015. The third shared film, Transcendence (2014), was shooting in 2013 with both actors (S02, May 2013; S27; S21 says \"three films between 2010 and 2015\").",
+      "acceptance_test": "The sentence names Transcendence (2014) or says they made three films together between 2010 and 2015, sourced to S27/S21."
+    }
+  ],
+  "research_tasks": [
+    "Human listen of Sibling Revelry (S23) for the quoted spans at roughly 12:05-12:28, 13:44-14:14, 22:20, 23:22-24:09, 28:10-29:34 and 31:40-32:43 of the 52:40 RSS download; three Whisper models (small.en, large-v3-turbo, medium.en) agree, but no human has listened. Record publisher-playback timestamps or mark them approximate (verify-05).",
+    "Open the originals of the 2012 Guardian (S28), 2013 Guardian (S03), 2020 Total Film and NewNowNext (S08), 2021 Independent (S11), February 2022 Times (S12) and 15 October 2026 Times (S21) before the next refresh; these quotes currently rest on relays.",
+    "Correct the S04 locator to the answer to \"Were you scared?\" after the orangutan question, and close the task that says the question is not visible (verify-04).",
+    "Do not state an Avengers: Doomsday or Secret Wars appearance until confirmed (C32/C135 triggers).",
+    "Thesis test for refresh: his next self-written or self-directed project and how he frames its risk (C80, C134)."
+  ],
+  "claim_checks": [
+    {
+      "claim_id": "C01",
+      "verdict": "supported",
+      "reason": "S02 (Telegraph 2013): \"when he was 16, Bettany's eight-year-old brother, Matthew, died after falling off the roof of a tennis pavilion\"; S01, S28 and S22 agree on the ages."
+    },
+    {
+      "claim_id": "C02",
+      "verdict": "supported",
+      "reason": "S23 audio ~23:22-23:37: three Whisper models (small.en, large-v3-turbo, and a medium.en run made for this verification) agree on the quoted words; the S22 Rova text relay has the same wording."
+    },
+    {
+      "claim_id": "C03",
+      "verdict": "supported",
+      "reason": "S02 verbatim: \"I was a city boy and I was terrified of everyone\", \"It was constant\", \"everything, from the way I looked to the fact that my father had been a dancer\"; the school was Chancellors in Hertfordshire. The article adds a circumstance caveat."
+    },
+    {
+      "claim_id": "C04",
+      "verdict": "supported",
+      "reason": "S01 verbatim: \"My godfather was gay and I would challenge every homophobic comment I heard. Consequently I had the shit kicked out of me because they thought I was gay.\" S15 repeats the stand in 2022."
+    },
+    {
+      "claim_id": "C05",
+      "verdict": "supported",
+      "reason": "S02 verbatim, said about his early-20s cocaine addiction."
+    },
+    {
+      "claim_id": "C06",
+      "verdict": "supported",
+      "reason": "S01 verbatim: \"I stopped because it was threatening my ability to act: the one thing that gave me self-worth.\""
+    },
+    {
+      "claim_id": "C07",
+      "verdict": "supported",
+      "reason": "S02: \"a 2003 New Year's Day wedding in Scotland\"; S01: \"we didn't live together before we were married\"; S27 gives 1 January 2003 in Scotland. \"a certainty that was new to me\" sits inside the Telegraph writer's sentence, and the article attributes it as \"In the Telegraph's account\"."
+    },
+    {
+      "claim_id": "C08",
+      "verdict": "supported",
+      "reason": "S02 block quote matches verbatim, including \"It sounds neurotic, but it's not, because the tap can turn off.\""
+    },
+    {
+      "claim_id": "C09",
+      "verdict": "supported",
+      "reason": "S01 verbatim for both Margin Call quotes."
+    },
+    {
+      "claim_id": "C10",
+      "verdict": "supported",
+      "reason": "S15 verbatim. The context is auditioning, where he could not control casting factors."
+    },
+    {
+      "claim_id": "C11",
+      "verdict": "supported",
+      "reason": "S04 verbatim. The fresh fetch shows the question was \"Were you scared?\", asked after his orangutan answer, not the S04 locator's \"nervous acting with Connelly\". The article does not state the question and discloses the comic register, so the use holds (see verify-04)."
+    },
+    {
+      "claim_id": "C12",
+      "verdict": "supported",
+      "reason": "S01: \"But you shouldn't be sustained by other people's adulation. What if it goes away?\"; S14: \"it's an untrustworthy thing. You shouldn't find solace in it.\""
+    },
+    {
+      "claim_id": "C13",
+      "verdict": "supported",
+      "reason": "S02 verbatim: \"I worry about death in general a lot.\""
+    },
+    {
+      "claim_id": "C14",
+      "verdict": "supported",
+      "reason": "S15 verbatim. The journalist places the downturn \"post-2008 financial crash\" with no year relative to Margin Call."
+    },
+    {
+      "claim_id": "C15",
+      "verdict": "supported",
+      "reason": "S15 (2022) verbatim, including \"My legs went because I acted so tough!\"; S20 (2026) gives the audition variant. The article shows the difference."
+    },
+    {
+      "claim_id": "C16",
+      "verdict": "supported",
+      "reason": "S09: \"Having been through a thousand years of therapy\"; S15: \"a thousand years\" and \"like having a chronic injury ... or you lean back into old patterns of behavior\"."
+    },
+    {
+      "claim_id": "C17",
+      "verdict": "supported",
+      "reason": "S15 verbatim, said of his children."
+    },
+    {
+      "claim_id": "C19",
+      "verdict": "supported",
+      "reason": "S14: \"Some people have amazing access to their emotions, and can switch them on like that... And I'm just not good enough to do that.\" He is talking about crying on camera, so \"Other actors\" is a fair paraphrase of \"Some people\"."
+    },
+    {
+      "claim_id": "C20",
+      "verdict": "supported",
+      "reason": "S14 verbatim for the scab quote. The sweatshirt is the magazine's report of earlier interviews, and the article attributes it to the magazine."
+    },
+    {
+      "claim_id": "C21",
+      "verdict": "supported",
+      "reason": "S08 (Total Film relay) verbatim: \"He came out of the closet at 63. He then had a 20-year relationship with a man called Andy Clark. It was a joyous relief for everybody, actually.\" S06, S07, S15 and S23 agree on 63 and about 20 years."
+    },
+    {
+      "claim_id": "C22",
+      "verdict": "supported",
+      "reason": "S09 verbatim; it follows his account of his father's return to the closet."
+    },
+    {
+      "claim_id": "C23",
+      "verdict": "supported",
+      "reason": "S08 relays Ball's NewNowNext quote verbatim."
+    },
+    {
+      "claim_id": "C25",
+      "verdict": "supported",
+      "reason": "S21 relays the 15 October 2026 Times interview verbatim; \"So I decided to say nothing\" follows the close-friend objection, as the article orders it. The Times original was not opened; this relay limit is recorded."
+    },
+    {
+      "claim_id": "C26",
+      "verdict": "supported",
+      "reason": "S12 prints the texts verbatim. S21 dates them to 2013 and calls the reply \"the same mock-medieval spirit\". S11 says the exchanges ran from 2013 to 2014."
+    },
+    {
+      "claim_id": "C27",
+      "verdict": "supported",
+      "reason": "S01: he joined Connelly in the US; S15: became an American citizen; S27: UK and US citizenship."
+    },
+    {
+      "claim_id": "C28",
+      "verdict": "supported",
+      "reason": "S14 verbatim with the turn intact (\"But I don't\")."
+    },
+    {
+      "claim_id": "C31",
+      "verdict": "supported",
+      "reason": "S18 relays Olsen's Grazia interview verbatim: \"He's very precise, like me.\""
+    },
+    {
+      "claim_id": "C32",
+      "verdict": "supported",
+      "reason": "S27: born 1971 in London; J.A.R.V.I.S. in Iron Man; Emmy nomination for WandaVision. S20: Vision debut in Age of Ultron (2015). S24/S25: VisionQuest from 14 October. Marked time_sensitive with concrete triggers."
+    },
+    {
+      "claim_id": "C33",
+      "verdict": "supported",
+      "reason": "The S23 host read says \"streams October 14th\"; S24 says \"on Disney+ from 14 October\"; S25 says \"premiere Wednesday, October 14\". S20 gives only the London premiere date."
+    },
+    {
+      "claim_id": "C34",
+      "verdict": "supported",
+      "reason": "S20 verbatim."
+    },
+    {
+      "claim_id": "C37",
+      "verdict": "supported",
+      "reason": "S23 ~28:37-28:54: three Whisper models (small.en, large-v3-turbo, and a medium.en run made for this verification) agree on the quoted words for \"there was always a mask that I could hide behind\". All three hear \"couldn't turn very negative things\", so the article correctly paraphrases that clause instead of quoting it."
+    },
+    {
+      "claim_id": "C38",
+      "verdict": "supported",
+      "reason": "S02 verbatim: \"I have a pathological fear of being late\". S23 22:20: \"I'm an absolute fascist about being on time\" (medium.en and turbo; small.en mishears \"one time\"). The drama-school \"half\" explanation is at 20:46-21:09."
+    },
+    {
+      "claim_id": "C39",
+      "verdict": "supported",
+      "reason": "S23 12:05-12:20: three Whisper models (small.en, large-v3-turbo, and a medium.en run made for this verification) agree on the quoted words."
+    },
+    {
+      "claim_id": "C40",
+      "verdict": "supported",
+      "reason": "S23 ~32:28-32:43: three Whisper models (small.en, large-v3-turbo, and a medium.en run made for this verification) agree on the quoted words. The article labels it as his interpretation."
+    },
+    {
+      "claim_id": "C41",
+      "verdict": "supported",
+      "reason": "S02 verbatim."
+    },
+    {
+      "claim_id": "C42",
+      "verdict": "supported",
+      "reason": "S28 relays the 2012 Guardian interview verbatim. The Guardian original was not opened (recorded relay limit)."
+    },
+    {
+      "claim_id": "C43",
+      "verdict": "qualified",
+      "reason": "S03 reads: \"But then I married and had children and everything got eclipsed. I know how precarious life can be, so I then had a period when I was making as much money as I could, so my children would be safe.\" The article joins \"everything got eclipsed\" to the money clause with an inserted \"by\", which makes money-making the agent of the eclipse. The evidence claim text is right; the article passage needs a source-order repair (verify-01). The thrust, security-driven earning displacing acting as an outlet, stands."
+    },
+    {
+      "claim_id": "C44",
+      "verdict": "supported",
+      "reason": "S21: on the stand Depp called the texts a Monty Python riff; a 2022 Virginia jury largely sided with Depp; Heard won one of three counterclaims; the two settled in December 2022. S12: Depp \"strenuously denied\" the claims."
+    },
+    {
+      "claim_id": "C46",
+      "verdict": "supported",
+      "reason": "S23 41:57: \"no word of a lie about 48 hours\" (two models). S02: \"three days\". The article gives both tellings with dates; the 2012 Times \"two days\" is not used."
+    },
+    {
+      "claim_id": "C47",
+      "verdict": "supported",
+      "reason": "S23 ~31:55-32:14. On a separately isolated 22-second segment, all three models hear \"that's pretty fucking gay\". medium.en on the longer clip heard \"really\", but the isolated rerun resolved it to \"pretty\". \"only sexual for like 12 years\" is heard by small.en and turbo on both runs and by medium.en on the full clip."
+    },
+    {
+      "claim_id": "C48",
+      "verdict": "supported",
+      "reason": "S06: \"I found in his pocket a glass vial of Andy's ashes\"; S23 says the same; S15: Thane died \"aged 86 in 2015\"."
+    },
+    {
+      "claim_id": "C49",
+      "verdict": "supported",
+      "reason": "S14 verbatim, about John Lennon's \"Mother\"."
+    },
+    {
+      "claim_id": "C50",
+      "verdict": "supported",
+      "reason": "S14: \"this really carefully curated public persona\"; S24: \"he can't quite attach feelings to them\"."
+    },
+    {
+      "claim_id": "C51",
+      "verdict": "supported",
+      "reason": "S12 prints the tweet text verbatim; S21 confirms a 2016 post. No exact date is given, so \"undated in the reports\" is accurate."
+    },
+    {
+      "claim_id": "C52",
+      "verdict": "supported",
+      "reason": "S27: born 27 May 1971, London; English actor."
+    },
+    {
+      "claim_id": "C53",
+      "verdict": "supported",
+      "reason": "S27: born 1971-05-27."
+    },
+    {
+      "claim_id": "C54",
+      "verdict": "supported",
+      "reason": "S27 lists UK and US citizenship; S15 says he became an American citizen."
+    },
+    {
+      "claim_id": "C55",
+      "verdict": "supported",
+      "reason": "S27: married 1 January 2003. S10: Stellan born 2003, Agnes 2011, Kai is Connelly's son. Marked time_sensitive."
+    },
+    {
+      "claim_id": "C56",
+      "verdict": "supported",
+      "reason": "S23: three Whisper models (small.en, large-v3-turbo, and a medium.en run made for this verification) agree on the quoted words for \"second string to your bow. Mine was acting. That was my safety net\" (small.en mishears \"bone\"). In the 52:40 download the words fall at ~14:09-14:14; the article's 13:44 marks the start of the answer (see verify-05)."
+    },
+    {
+      "claim_id": "C57",
+      "verdict": "supported",
+      "reason": "S23 ~28:10: three Whisper models (small.en, large-v3-turbo, and a medium.en run made for this verification) agree on the quoted words."
+    },
+    {
+      "claim_id": "C58",
+      "verdict": "supported",
+      "reason": "S23 ~29:16: three Whisper models (small.en, large-v3-turbo, and a medium.en run made for this verification) agree on the quoted words."
+    },
+    {
+      "claim_id": "C59",
+      "verdict": "supported",
+      "reason": "S23 ~29:27-29:34: three Whisper models (small.en, large-v3-turbo, and a medium.en run made for this verification) agree on the quoted words (repeated \"and\"s removed)."
+    },
+    {
+      "claim_id": "C60",
+      "verdict": "supported",
+      "reason": "S12: \"We live in a world without context,\" he said. \"I didn't know Johnny when he was married to Amber. I knew him before. But we hadn't spoken for years.\" The article drops the \"he said\" tag between consecutive sentences of one answer; the wording is otherwise verbatim, and \"embarrassing\" is in S12."
+    },
+    {
+      "claim_id": "C61",
+      "verdict": "supported",
+      "reason": "S11 verbatim: \"It was a strange moment\" and \"I think that I just pour fuel on the fire\"."
+    },
+    {
+      "claim_id": "C62",
+      "verdict": "supported",
+      "reason": "S23 ~28:28: three Whisper models (small.en, large-v3-turbo, and a medium.en run made for this verification) agree on the quoted words."
+    },
+    {
+      "claim_id": "C64",
+      "verdict": "qualified",
+      "reason": "The facts are supported. S02: the realization came \"when my son was born\", and in 2003 Master and Commander was a global hit and he \"could finally afford to be as discerning\". S01: he took a year and a half off when Stellan was born. S10: Stellan born 2003. But \"Then, he told the Telegraph, he decided\" imposes an order that neither source gives (verify-02)."
+    },
+    {
+      "claim_id": "C65",
+      "verdict": "supported",
+      "reason": "S02: \"his opening gambit is, 'I can tell you right now that I'm not feeling particularly guarded.'\" S13 corroborates his candour."
+    },
+    {
+      "claim_id": "C67",
+      "verdict": "supported",
+      "reason": "S24: \"My dad was a dancer in the Royal Ballet. Then he became an actor\", a job \"at a girls' school\" near Potters Bar, and \"a close of houses for the teachers\". S23 also says Royal Ballet; S02 says drama teacher."
+    },
+    {
+      "claim_id": "C69",
+      "verdict": "supported",
+      "reason": "S02: \"aged 75, Thane Bettany announced his bisexuality\". S08 and S23 give 63. The article states both."
+    },
+    {
+      "claim_id": "C70",
+      "verdict": "supported",
+      "reason": "S06 verbatim."
+    },
+    {
+      "claim_id": "C72",
+      "verdict": "supported",
+      "reason": "S23 41:24-41:49: buying groceries, silent crowd outside a tavern \"like ... a football match\", walked in and saw the second plane hit (small.en and turbo agree)."
+    },
+    {
+      "claim_id": "C73",
+      "verdict": "supported",
+      "reason": "S02 verbatim."
+    },
+    {
+      "claim_id": "C74",
+      "verdict": "supported",
+      "reason": "S20 verbatim; S15 has a parallel 2022 telling."
+    },
+    {
+      "claim_id": "C77",
+      "verdict": "supported",
+      "reason": "S24 verbatim, answering \"Do you know who you are and what your purpose is?\""
+    },
+    {
+      "claim_id": "C78",
+      "verdict": "supported",
+      "reason": "S14 verbatim: \"he says before we go\"."
+    },
+    {
+      "claim_id": "C79",
+      "verdict": "supported",
+      "reason": "S26 headline quote (2025-11-11) and S25 verbatim (\"This is a show about grandfathers, fathers, and sons\")."
+    },
+    {
+      "claim_id": "C80",
+      "verdict": "supported",
+      "reason": "The interpretation is labelled and followed by sourced instances (S02 money plan, S03, S01, S15 and S23 worst-case statements), with the concessions stated."
+    },
+    {
+      "claim_id": "C81",
+      "verdict": "supported",
+      "reason": "The 54-word type answer matches the FAQ and type_hypothesis (Type 6, medium confidence, Type 4 rival)."
+    },
+    {
+      "claim_id": "C82",
+      "verdict": "supported",
+      "reason": "Labelled limits; each example is sourced (S14 Warhol, S24 Vision, S02 \"not ... guarded\", S15 Twitter)."
+    },
+    {
+      "claim_id": "C83",
+      "verdict": "supported",
+      "reason": "Labelled interpretation that explicitly declines to use Thane's motives."
+    },
+    {
+      "claim_id": "C84",
+      "verdict": "supported",
+      "reason": "Interpretation that keeps the Depp material out of the type case."
+    },
+    {
+      "claim_id": "C85",
+      "verdict": "supported",
+      "reason": "S02 \"The world is precarious\", S03 \"how precarious life can be\" and S28 \"precariousness\" support \"calls life precarious\"; S02, S03 and S01 support the earning years."
+    },
+    {
+      "claim_id": "C86",
+      "verdict": "supported",
+      "reason": "The comparative meta title matches the medium-confidence Six-over-Four framing."
+    },
+    {
+      "claim_id": "C87",
+      "verdict": "supported",
+      "reason": "S28 (\"totally alienated\") and S14 (scabs, \"just not good enough\")."
+    },
+    {
+      "claim_id": "C88",
+      "verdict": "supported",
+      "reason": "S02, S28 and S23 as checked under C01, C02 and C107."
+    },
+    {
+      "claim_id": "C89",
+      "verdict": "supported",
+      "reason": "S12 texts and the 2022 statements; S21 \"mock-medieval spirit\" and the 2026 statement; S11 the UK dismissal; S12 Depp's denial."
+    },
+    {
+      "claim_id": "C91",
+      "verdict": "supported",
+      "reason": "Interpretation grounded in S20 (time at home) and S23 (acting as safety net)."
+    },
+    {
+      "claim_id": "C92",
+      "verdict": "supported",
+      "reason": "S28 \"totally alienated\"; S02 \"not knowing who I was\"."
+    },
+    {
+      "claim_id": "C94",
+      "verdict": "supported",
+      "reason": "S01: \"I was dyslexic. I was terrified of reading aloud\"; S02: \"I would never sight read, I would just learn things by heart\"."
+    },
+    {
+      "claim_id": "C95",
+      "verdict": "supported",
+      "reason": "S02 verbatim."
+    },
+    {
+      "claim_id": "C96",
+      "verdict": "supported",
+      "reason": "S15 verbatim."
+    },
+    {
+      "claim_id": "C97",
+      "verdict": "supported",
+      "reason": "S06 (Ball offer); S08 describes the role as a gay NYU professor."
+    },
+    {
+      "claim_id": "C98",
+      "verdict": "supported",
+      "reason": "S02 verbatim, the last line of the \"tap can turn off\" answer."
+    },
+    {
+      "claim_id": "C99",
+      "verdict": "supported",
+      "reason": "S01 verbatim."
+    },
+    {
+      "claim_id": "C100",
+      "verdict": "supported",
+      "reason": "S23 23:42-24:09: three Whisper models (small.en, large-v3-turbo, and a medium.en run made for this verification) agree on the quoted words; the S22 text relay matches."
+    },
+    {
+      "claim_id": "C101",
+      "verdict": "supported",
+      "reason": "S06 verbatim (\"Why me?\", \"Should I even do this?\", \"morally correct\", \"the energy\"). The passage itself lacks an attribution to Windy City Times (verify-03)."
+    },
+    {
+      "claim_id": "C102",
+      "verdict": "supported",
+      "reason": "S02 (2013): \"always loved acting\" and \"in a childish, revenge fantasy kind of way\". S01 (2012): \"Acting became a vocation\". S15 (2022): \"I fell into acting\". S23 (2026): the fallback account."
+    },
+    {
+      "claim_id": "C103",
+      "verdict": "supported",
+      "reason": "FAQ restates C64 and C118, both verified."
+    },
+    {
+      "claim_id": "C104",
+      "verdict": "supported",
+      "reason": "S12 (2022) and S21 (2026) as checked."
+    },
+    {
+      "claim_id": "C105",
+      "verdict": "supported",
+      "reason": "S02: his mother, Anne, had given up acting, and he has an older sister, Sarah. S15: \"My mother was a singer.\""
+    },
+    {
+      "claim_id": "C106",
+      "verdict": "supported",
+      "reason": "S02, in the journalist's words; the article attributes it to the Telegraph."
+    },
+    {
+      "claim_id": "C107",
+      "verdict": "supported",
+      "reason": "S28: \"I was very close to my brother\"; Sportskeeda presents it as the conclusion of the same answer."
+    },
+    {
+      "claim_id": "C108",
+      "verdict": "supported",
+      "reason": "S02: \"set off the childish motor in me\". S01: \"One day you'll be sorry\", and his desire to act was \"absolutely\" fuelled by it."
+    },
+    {
+      "claim_id": "C109",
+      "verdict": "supported",
+      "reason": "Hedged interpretation that states the record cannot separate the readings."
+    },
+    {
+      "claim_id": "C110",
+      "verdict": "supported",
+      "reason": "Interpretation consistent with S02 and S24 (the move to the school)."
+    },
+    {
+      "claim_id": "C111",
+      "verdict": "supported",
+      "reason": "S01: \"He won't name the films 'which have made me the most amount of money ...'\" (the article quotes from \"made me\"). S02 names Wimbledon (2004) and Priest (2011) among the studio films."
+    },
+    {
+      "claim_id": "C112",
+      "verdict": "supported",
+      "reason": "S15 dates the downturn only as \"post-2008\", so its order against Margin Call is not fixed. The statement is accurate."
+    },
+    {
+      "claim_id": "C113",
+      "verdict": "supported",
+      "reason": "S01 verbatim; S02: \"I decided I wasn't going to do that any more.\""
+    },
+    {
+      "claim_id": "C114",
+      "verdict": "supported",
+      "reason": "S15: \"about doing another movie\"; S20: \"I was doing an audition\"."
+    },
+    {
+      "claim_id": "C115",
+      "verdict": "supported",
+      "reason": "S15 verbatim: \"I was already playing the voice of J.A.R.V.I.S.\" and \"one of these movies I thought was the nadir of my career\"."
+    },
+    {
+      "claim_id": "C116",
+      "verdict": "supported",
+      "reason": "Interpretation; on S23 the host replies \"That's how I'm feeling right now.\""
+    },
+    {
+      "claim_id": "C117",
+      "verdict": "supported",
+      "reason": "S04 verbatim, from the same answer."
+    },
+    {
+      "claim_id": "C118",
+      "verdict": "supported",
+      "reason": "Each quoted phrase was verified, and the dates are right: S01 2012, S02 2013, S15 2022, S23 2026."
+    },
+    {
+      "claim_id": "C119",
+      "verdict": "supported",
+      "reason": "Interpretation on S01/S02 (reversal) and S20/S23 (worry after Marvel)."
+    },
+    {
+      "claim_id": "C120",
+      "verdict": "supported",
+      "reason": "Interpretation consistent with the S23 answer, which holds both the mask and \"brokenness\"."
+    },
+    {
+      "claim_id": "C121",
+      "verdict": "supported",
+      "reason": "S05: \"I didn't want it to become part of a narrative in discussing the film,\" said of his busking past. He adds that it was probably part of his desire to make the film, which the \"guarding\" reading does not contradict."
+    },
+    {
+      "claim_id": "C122",
+      "verdict": "supported",
+      "reason": "S15 verbatim."
+    },
+    {
+      "claim_id": "C123",
+      "verdict": "supported",
+      "reason": "S15: \"What was making me feel safe and relevant was my career ... Then my children came along\"; \"judging yourself only though the praise of others. All of these are terrible, terrible things.\""
+    },
+    {
+      "claim_id": "C124",
+      "verdict": "supported",
+      "reason": "Labelled interpretation that names the weakness."
+    },
+    {
+      "claim_id": "C125",
+      "verdict": "supported",
+      "reason": "S15 verbatim. The quote is cut before \"about the country where I pay taxes in\", which does not change its sense."
+    },
+    {
+      "claim_id": "C126",
+      "verdict": "supported",
+      "reason": "S27: The Tourist (2010) and Mortdecai (2015). S21: the texts date to 2013, when the two were working together, and Depp and Heard began dating in 2013. The third shared film, Transcendence (2014), which S02 shows them shooting in 2013, is omitted (verify-07)."
+    },
+    {
+      "claim_id": "C127",
+      "verdict": "supported",
+      "reason": "S11 verbatim on the UK ruling."
+    },
+    {
+      "claim_id": "C128",
+      "verdict": "supported",
+      "reason": "S12: Heard \"had accused him of physical abuse in 2016\"; Depp \"strenuously denied\" the claims."
+    },
+    {
+      "claim_id": "C129",
+      "verdict": "supported",
+      "reason": "S15 (December 2022): \"Today, he declines further comment.\""
+    },
+    {
+      "claim_id": "C130",
+      "verdict": "supported",
+      "reason": "An accurate description of the record (S12 tweet, S12 and S21 statements)."
+    },
+    {
+      "claim_id": "C131",
+      "verdict": "supported",
+      "reason": "S06 verbatim."
+    },
+    {
+      "claim_id": "C132",
+      "verdict": "supported",
+      "reason": "Interpretation. The mask is defined from S23, and the candour is shown across S01, S15, S28 and S09."
+    },
+    {
+      "claim_id": "C133",
+      "verdict": "supported",
+      "reason": "Labelled \"on our reading rather than his\"."
+    },
+    {
+      "claim_id": "C134",
+      "verdict": "supported",
+      "reason": "S24 verbatim; dated October 2026."
+    },
+    {
+      "claim_id": "C135",
+      "verdict": "supported",
+      "reason": "S27, S20, S24 and S25 as checked under C32 and C33."
+    },
+    {
+      "claim_id": "C136",
+      "verdict": "supported",
+      "reason": "Interpretation that concedes the phoning is ordinary."
+    },
+    {
+      "claim_id": "C137",
+      "verdict": "supported",
+      "reason": "S27, S23 and S01: they met and became friends on A Beautiful Mind."
+    },
+    {
+      "claim_id": "C138",
+      "verdict": "supported",
+      "reason": "S23 and S22 as checked under C02 and C100."
+    },
+    {
+      "claim_id": "C139",
+      "verdict": "supported",
+      "reason": "The metaphor comes from S02 (\"hammering bits of wood against the window\")."
+    },
+    {
+      "claim_id": "C140",
+      "verdict": "supported",
+      "reason": "S15 verbatim; \"A decade later\" runs from 2012 to 2022."
+    },
+    {
+      "claim_id": "C141",
+      "verdict": "supported",
+      "reason": "S02: \"'It blew the family apart. Life was never the same again,' he has said\"; S28 also has \"blew the family apart\"."
+    },
+    {
+      "claim_id": "C142",
+      "verdict": "supported",
+      "reason": "S04 verbatim."
+    },
+    {
+      "claim_id": "C143",
+      "verdict": "supported",
+      "reason": "S02: he left school, moved to London and was \"busking with his guitar on Westminster Pier\"; S01 and S23 agree."
+    },
+    {
+      "claim_id": "C144",
+      "verdict": "supported",
+      "reason": "S01: \"In his early twenties he became a cocaine addict\"; S02 says the same."
+    },
+    {
+      "claim_id": "C145",
+      "verdict": "supported",
+      "reason": "S02: \"He arrives two minutes late, having called to say he may be delayed\"."
+    },
+    {
+      "claim_id": "C146",
+      "verdict": "supported",
+      "reason": "S23 31:40-31:47 (\"I'm back in the Catholic faith\"): three Whisper models (small.en, large-v3-turbo, and a medium.en run made for this verification) agree on the quoted words. S06 and S07 agree."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "S01",
+      "opened": true,
+      "context_matches": true,
+      "locator": "timteeman.com ?p=1064, The Times 14 Jan 2012, full text fetched live: bullying, Matthew, Margin Call, Stellan, 9/11, therapy and fame paragraphs"
+    },
+    {
+      "source_id": "S02",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Wayback id_ copy of the Telegraph, 20 May 2013, full text fetched live: money plan, bullying, 9/11, wedding, addiction and late arrival"
+    },
+    {
+      "source_id": "S03",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Daily Actor relay of the June 2013 Guardian interview, fetched live; the Margin Call paragraph (original Guardian not opened; quote spliced in C43, see verify-01)"
+    },
+    {
+      "source_id": "S04",
+      "opened": true,
+      "context_matches": true,
+      "locator": "CinemaBlend Creation Q&A (2010), fetched live; the answer to \"Were you scared?\" after the orangutan question (the evidence locator's \"nervous acting with Connelly\" is wrong; see verify-04)"
+    },
+    {
+      "source_id": "S05",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Independent, 30 Nov 2015, fetched live; Shelter feature, busking paragraph"
+    },
+    {
+      "source_id": "S06",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Windy City Times, 22 Nov 2020, fetched live; the Q&A answer on Ball's offer and his father"
+    },
+    {
+      "source_id": "S07",
+      "opened": true,
+      "context_matches": true,
+      "locator": "The Queer Review, 23 Nov 2020, fetched live; quote on his father (63, 20-year relationship, Catholicism)"
+    },
+    {
+      "source_id": "S08",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Out, 30 Nov 2020, fetched live; Total Film and NewNowNext relays"
+    },
+    {
+      "source_id": "S09",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Yahoo/People, 15 Jan 2021, fetched live; father and therapy paragraphs"
+    },
+    {
+      "source_id": "S10",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Yahoo/People, 14 Jan 2021, fetched live; family paragraph (wed 2003, Stellan 2003, Agnes 2011, Kai)"
+    },
+    {
+      "source_id": "S11",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Yahoo/Independent relay, Dec 2021, fetched live; UK ruling, \"a strange moment\", \"pour fuel on the fire\", co-star films"
+    },
+    {
+      "source_id": "S12",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Yahoo/Insider relay of the Feb 2022 Times interview, fetched live; text messages, 2022 quotes, 2016 tweet"
+    },
+    {
+      "source_id": "S13",
+      "opened": true,
+      "context_matches": true,
+      "locator": "The Rake, Dec 2021, fetched live (opening only); candour paragraph (\"no closed book\")"
+    },
+    {
+      "source_id": "S14",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Gentleman's Journal, 30 Sep 2022, fetched live; Uncle Frank scabs, fame, isolation, Lennon, Warhol and closing \"neurotic\" passages"
+    },
+    {
+      "source_id": "S15",
+      "opened": true,
+      "context_matches": true,
+      "locator": "timteeman.com ?p=8501, Daily Beast 19 Dec 2022, fetched live; Warhol, bullying, father, therapy, work ethic, crash, producer and Whedon, Depp, citizenship"
+    },
+    {
+      "source_id": "S18",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Showbiz Cheat Sheet, 3 Mar 2021, fetched live; Olsen's Grazia quote"
+    },
+    {
+      "source_id": "S20",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Devdiscourse copy of Reuters, 12-13 Oct 2026, fetched live; London premiere quotes"
+    },
+    {
+      "source_id": "S21",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Gulf News relay of The Times, 15 Oct 2026, fetched live; quotes in order, \"What the messages said\" and \"The legal backdrop\""
+    },
+    {
+      "source_id": "S22",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Rova, 15 Oct 2026, fetched live; text relay of the Sibling Revelry brother passage"
+    },
+    {
+      "source_id": "S23",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Apple episode page fetched live (published 13 Oct 2026, 43 min); RSS-enclosure audio (52:40, includes ads) in the research cache. The clips at 11:55-12:28, 13:32-14:14, 20:46-22:25, 22:46-24:09, 28:00-29:43, 30:18-32:57 and 41:03-42:42 were re-transcribed with a third model (medium.en), and the father segment 31:58-32:20 was isolated and rerun on three models. No human listen yet."
+    },
+    {
+      "source_id": "S24",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Square Mile, 21 Oct 2026, fetched live; Q&A on childhood, busking, VisionQuest and purpose"
+    },
+    {
+      "source_id": "S25",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Den of Geek, 8 Oct 2026, fetched live; Bettany quote and premiere date line"
+    },
+    {
+      "source_id": "S26",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Popverse, 11 Nov 2025, fetched live; headline and Space Con panel quote"
+    },
+    {
+      "source_id": "S27",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Wikipedia, fetched live 2026-10-30; infobox and personal-life section"
+    },
+    {
+      "source_id": "S28",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Sportskeeda relay (11 Mar 2025) of the 2012 Guardian interview, fetched live; the brother quotes (original not opened)"
+    }
+  ],
+  "decision_checks": [
+    {
+      "finding_id": "subject-F01",
+      "accepted": true,
+      "reason": "Met. The 2026 quotes now run in source order (S21: \"the most odd\" and then \"So I decided to say nothing\"); \"He had in fact commented\" is gone; 2021, Feb 2022 and Dec 2022 are given neutrally with dates; the closing says \"his reluctance to discuss them\"."
+    },
+    {
+      "finding_id": "subject-F02",
+      "accepted": true,
+      "reason": "Met. The 2022 words are quoted verbatim from S12 with no wedding timing; the FAQ says only that he knew Depp before the marriage and not during it."
+    },
+    {
+      "finding_id": "subject-F03",
+      "accepted": true,
+      "reason": "Met. \"embarrassing\" and \"We live in a world without context\" (Feb 2022) and \"the most odd\" (Oct 2026) are present and dated; the tweet is quoted in full and marked undated; no intent is assigned."
+    },
+    {
+      "finding_id": "subject-F04",
+      "accepted": true,
+      "reason": "Met. The shared-motive sentence is deleted; Thane gets only Paul's attributed explanations; the parallel is labelled \"on our reading rather than his\"; the mask is defined as he described it, with \"It is not a closet\"."
+    },
+    {
+      "finding_id": "subject-F05",
+      "accepted": true,
+      "reason": "Met. \"I was very close to my brother\" (S28) and the maze and therapy lines (S23, verified) sit in the body, and the brother FAQ includes both."
+    },
+    {
+      "finding_id": "subject-F06",
+      "accepted": true,
+      "reason": "Met in substance. His stated reasons (\"morally correct\", \"the energy\") now follow the questions and match S06. The passage does not name Windy City Times at that point; that leftover attribution gap is logged as minor verify-03."
+    },
+    {
+      "finding_id": "subject-F07",
+      "accepted": true,
+      "reason": "Met. The clipped \"actual me\" quote is removed from the body and the FAQ."
+    },
+    {
+      "finding_id": "subject-F08",
+      "accepted": true,
+      "reason": "Met. \"marries in a crisis\" is gone; the opening keeps the order of the realization in 2001 and the wedding on January 1, 2003."
+    },
+    {
+      "finding_id": "fan-01",
+      "accepted": true,
+      "reason": "Met. The origin tellings are given with dates (2012-13 vocation and revenge fantasy, 2022 \"fell into\", 2026 fallback), both parents are shown as performers, and the revenge motive is named as what Six handles worst. The description and FAQs no longer use \"safety net\"."
+    },
+    {
+      "finding_id": "fan-02",
+      "accepted": true,
+      "reason": "Met. Both reasons appear in order; the creative clause is paraphrased because all three models hear \"couldn't\"; the mask and brokenness lines are treated as one answer."
+    },
+    {
+      "finding_id": "fan-03",
+      "accepted": true,
+      "reason": "Met. The 2022 words are verbatim; the tweet is in full; co-stars in The Tourist (2010) and Mortdecai (2015) with texts in 2013 while working together (S21, S27); the 2026 objection is included; the FAQ is consistent. Omitting Transcendence is a separate minor gap (verify-07)."
+    },
+    {
+      "finding_id": "fan-04",
+      "accepted": true,
+      "reason": "Met. Mother Anne as actor and singer, older sister Sarah, and the 1993 divorce attributed to the Telegraph, all checked against S02 and S15; no causal link is drawn."
+    },
+    {
+      "finding_id": "fan-05",
+      "accepted": true,
+      "reason": "Met. Wimbledon (2004) and Priest (2011) are named; the year and a half off and the \"shortest amount of time\" rationale (S01) are added, as are J.A.R.V.I.S. and the \"nadir\" detail (S15)."
+    },
+    {
+      "finding_id": "fan-06",
+      "accepted": true,
+      "reason": "Met. The relationship-status clause is removed."
+    },
+    {
+      "finding_id": "fan-07",
+      "accepted": true,
+      "reason": "Met. The clipped quote is removed from the body and the FAQ."
+    },
+    {
+      "finding_id": "fan-08",
+      "accepted": true,
+      "reason": "Met. The couch detail follows the \"hammering\" passage (S01 verbatim), and \"the loss plainly feeds his fear as a parent\" concedes the point."
+    },
+    {
+      "finding_id": "fan-09",
+      "accepted": true,
+      "reason": "Met. The Twitter and citizenship counter-evidence (S15, 2022) is in the limits paragraph; the citizenship FAQ is consistent."
+    },
+    {
+      "finding_id": "critic-01",
+      "accepted": true,
+      "reason": "Met. Both halves of his reason appear; the mask is downgraded to shared ground; the Type 4 FAQ and the description lead with the 2003 plan and the \"what if\" pattern."
+    },
+    {
+      "finding_id": "critic-02",
+      "accepted": true,
+      "reason": "Met. The origin accounts differ with dates; the revenge fantasy is shown in \"The fear came first\"; the old Fourth point is folded into circumstance; no line says he chose acting in order to hide."
+    },
+    {
+      "finding_id": "critic-03",
+      "accepted": true,
+      "reason": "Met. The money section runs 2003, post-2008 (order explicitly unfixed), Margin Call 2011 with \"I need to be happy...\", the producer, Whedon. \"He sees that the threat was exaggerated\" is dated as his 2013 view with \"the fear had a basis\"."
+    },
+    {
+      "finding_id": "critic-04",
+      "accepted": true,
+      "reason": "Met. A sourced Type 3 paragraph cites \"self-worth\" and \"safe and relevant\" and answers them with \"judging yourself\"/\"terrible, terrible things\", less money and self-deprecating low points. type_hypothesis records 3 as tested."
+    },
+    {
+      "finding_id": "critic-05",
+      "accepted": true,
+      "reason": "Met. No motive is given to Thane beyond Paul's quoted explanations; the parallel is labelled as the author's; the mask is limited to the performer's cover and privacy, with \"not a closet\"."
+    },
+    {
+      "finding_id": "critic-06",
+      "accepted": true,
+      "reason": "Met. \"The court dismissed his claim that the label was libelous\" is linked to S11 and checked; the tweet keeps its framing and is marked undated; the FAQ matches."
+    },
+    {
+      "finding_id": "critic-07",
+      "accepted": true,
+      "reason": "Met. 9/11 is \"an early instance\" and the phoning is conceded as ordinary; the certainty fragment is attributed to the Telegraph's account; S02's writer-proposed frame is recorded in type_hypothesis.unexplained."
+    },
+    {
+      "finding_id": "critic-08",
+      "accepted": true,
+      "reason": "Met. The comic end of the list is quoted and \"played for laughs\" is stated; \"telling exception\" is softened. The S04 question, now visible (\"Were you scared?\" about the orangutan), confirms the light register."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "accepted": true,
+      "reason": "Met. The order is legible with years, the drought's placement is explicitly unfixed, J.A.R.V.I.S. from 2008 and \"already voicing\" are added, and the tellings differ concretely (meeting vs audition). The section grew by about 90 words, not 60, because of accuracy additions other jurors required; the trade is justified."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "accepted": true,
+      "reason": "Met. The 2022 words are verbatim, the tweet is in full, the reconciliation sentence is present, and no motive is assigned."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "accepted": true,
+      "reason": "Met. Heard is identified (\"dating the actor Amber Heard\") before the first \"Amber\"; the Sun's \"wife beater\" claim and the outcome are stated; the tease is deleted. Overrun of about 85 words is justified by the fairness additions."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "accepted": true,
+      "reason": "Met by option (a). Counterphobic is applied once to the bullying stand and hedged (\"the record cannot tell them apart\"), and tested again against the revenge fantasy."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "accepted": true,
+      "reason": "Met. The orphan \"also\" sentence is deleted, and Connelly is introduced as \"the actor he had befriended on the set of A Beautiful Mind\"."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "accepted": true,
+      "reason": "Met. The section gives Thane no motive beyond Paul's interpretations, the protected sentence is kept, and the Telegraph's 75 is stated with attribution."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "accepted": true,
+      "reason": "Met. The first reason states the observable difference in plain words and links back to the \"floor drops\" test."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "accepted": true,
+      "reason": "Met on structure. The Depp section now precedes the father section, the recap is gone, and the conclusion adds the open \"write and direct\" test. The clause \"no longer than the current one\" is not met (3,944 vs 3,554 words); the editor recorded why, the body stays inside 4,500, and the length is scored under writing and logged as minor verify-06."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "accepted": true,
+      "reason": "Met. The mask is conceded as shared with a shame-driven Four; the Type 4 FAQ leads with the 2003 plan and \"what if\" hedging; the title and description no longer rest on the mask."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "accepted": true,
+      "reason": "Met. \"just not good enough\" is moved to the Four case and labelled a Four comparison (S14 context confirms it follows \"Some people have amazing access\"); the deflation point is dropped."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "accepted": true,
+      "reason": "Met. The Five passage keeps \"But I don't\" (S14), and the Six reading rests on his expectation of falling apart."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "accepted": true,
+      "reason": "Met. The shared safety motive is cut, the tension is left unresolved and labelled, and it is not used as Six evidence."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "accepted": true,
+      "reason": "Met. The point is relabelled as answering circumstance, \"terrified of everyone\" is conceded as partly situational, and the S15 Warhol \"frightening place\" line is added with its date."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "accepted": true,
+      "reason": "Met. The Type 3 paragraph names the self-worth evidence and explains why distrust of praise argues against image management."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "accepted": true,
+      "reason": "Met. Punctuality credits drama school (S23 20:46-21:09, verified), the Hopkins advice is cut, \"pathological fear\" is the part beyond training, and career dread is called \"continuity, not type\"."
+    },
+    {
+      "finding_id": "enneagram-08",
+      "accepted": true,
+      "reason": "Met. The hook says \"an early instance\" and concedes ordinariness; the body type answer (54 words) matches the FAQ's medium confidence and Type 4 rival."
+    },
+    {
+      "finding_id": "enneagram-09",
+      "accepted": true,
+      "reason": "Met. The clipped quote is removed from the body and the FAQ."
+    },
+    {
+      "finding_id": "future-01",
+      "accepted": true,
+      "reason": "Met. His exact relayed words replace the paraphrase, no gap is dated to the wedding, and C26/C60 match."
+    },
+    {
+      "finding_id": "future-02",
+      "accepted": true,
+      "reason": "Met. The section is a dated record (2013 texts, 2020 UK case and outcome, 2016 accusation, 2022 verdict, Dec 2022 settlement, responses dated 2021/2022/2026); the boycott clause and S29/C45 are gone; the intro no longer cites Depp attention."
+    },
+    {
+      "finding_id": "future-03",
+      "accepted": true,
+      "reason": "Accepted with a residual task. (b) and (c) are met: a second stable locator, timestamps in the article, and the 2015 Independent as a pre-2026 concealment source. (a), a human listen, is not done. For this verification, the quoted spans were independently re-transcribed with a third model and all agree, so the remaining risk is low. The headline frame no longer depends on S23. The human listen stays a research task (verify-05)."
+    },
+    {
+      "finding_id": "future-04",
+      "accepted": true,
+      "reason": "Met. C32, C55 and C135 are time_sensitive with concrete triggers, and the body/FAQ credits are past-tense and dated."
+    },
+    {
+      "finding_id": "future-05",
+      "accepted": true,
+      "reason": "Met. \"whom 9takes reads as a Four\" is removed; the link and the lyric-vs-mask contrast stay."
+    },
+    {
+      "finding_id": "future-06",
+      "accepted": true,
+      "reason": "Met. C80 and C134 carry a thesis-test trigger that names what would favour Type 4, and the conclusion states the test for readers."
+    }
+  ],
+  "prior_blocker_checks": [],
+  "protected_checks": [
+    {
+      "passage": "And some of the worry is British comic register, some is junket habit, and some is what early grief leaves in anyone.",
+      "preserved": true,
+      "reason": "Verbatim; still closes the limits paragraph."
+    },
+    {
+      "passage": "That is Bettany's interpretation. Thane's reasons are not on record.",
+      "preserved": true,
+      "reason": "Verbatim, and the section now follows its own caveat."
+    },
+    {
+      "passage": "The details shift between tellings. The core holds: bravado in the room, collapse on the pavement, told against himself.",
+      "preserved": true,
+      "reason": "Verbatim, now preceded by a concrete sourced difference (meeting in 2022, audition for Reuters in 2026), which strengthens it."
+    },
+    {
+      "passage": "That confession holds the whole pattern. He sees that the threat was exaggerated. He calls his response ludicrous. Then he defends it anyway, because the money could stop.",
+      "preserved": true,
+      "reason": "Verbatim; the next sentence dates the judgment to 2013 and adds the basis for the fear, so the passage stays fair."
+    },
+    {
+      "passage": "His wariness fits the caution seen elsewhere in his record, but any publicist would advise the same",
+      "preserved": true,
+      "reason": "Verbatim; only the end of the sentence changed ('his reluctance to discuss them')."
+    },
+    {
+      "passage": "On September 11, 2001, Paul Bettany was buying groceries in Italy when he noticed a crowd outside a tavern. It looked like the crowd for a football match, except that it was silent. He walked in and saw the second plane hit the tower.",
+      "preserved": true,
+      "reason": "Verbatim opening, and the details match the S23 audio."
+    },
+    {
+      "passage": "Paul tells his children authenticity is worth what it costs, and keeps a mask for himself.",
+      "preserved": true,
+      "reason": "Verbatim, now framed as the author's reading and limited to the mask he described, which meets subject-F04 and critic-05 without losing the unresolved tension the jurors valued."
+    },
+    {
+      "passage": "there I was hammering bits of wood against the window as though there were a zombie apocalypse coming",
+      "preserved": true,
+      "reason": "Verbatim inside the S02 block quote."
+    },
+    {
+      "passage": "The Six reading has limits. It explains his reopening of grief only as craft, though he does it by choice and keeps returning to men who hide who they are",
+      "preserved": true,
+      "reason": "Verbatim, and the paragraph adds the Twitter counter-evidence."
+    },
+    {
+      "passage": "He had in fact commented in 2021 and 2022.",
+      "preserved": true,
+      "reason": "Removal was necessary. In S21, 'So I decided to say nothing' follows his objection to the close-friend portrayal, so the sentence created a contradiction the source does not support. Its contribution, an honest dated record of what he said and when, is kept and expanded (Dec 2021, Feb 2022, Dec 2022, Oct 2026)."
+    },
+    {
+      "passage": "It looked like the crowd for a football match, except that it was silent. He walked in and saw the second plane hit the tower.",
+      "preserved": true,
+      "reason": "Verbatim."
+    },
+    {
+      "passage": "[Lennon](/personality-analysis/john-lennon), whom 9takes reads as a Four, put his rawest wound in a lyric.",
+      "preserved": true,
+      "reason": "Contribution kept: the link and the lyric-versus-mask contrast survive. Only the clause tying this page to another page's verdict was cut, as future-05 asked."
+    },
+    {
+      "passage": "\"I'm not any less neurotic now, by the way,\" he said. \"I'm just better at hiding it.\"",
+      "preserved": true,
+      "reason": "Verbatim, still the final lines (S14 verified)."
+    },
+    {
+      "passage": "My heartbeat tends to lower when cameras are on. I tend to get much calmer. I'm anxious in everyday life.",
+      "preserved": true,
+      "reason": "Verbatim block quote; the comic register is acknowledged after it."
+    },
+    {
+      "passage": "In 2012 he told The Times that \"you shouldn't be sustained by other people's adulation. What if it goes away?\"",
+      "preserved": true,
+      "reason": "Verbatim, and it now serves the Four discriminator and the Type 3 answer."
+    },
+    {
+      "passage": "When the ground gives way under Bettany, he reaches for something solid and holds on.",
+      "preserved": true,
+      "reason": "Verbatim thesis line."
+    },
+    {
+      "passage": "Once the camera rolls, the waiting is over. The worry belongs to the rest of life, starting, in the same answer, with \"my kids' health, my health.\"",
+      "preserved": true,
+      "reason": "Verbatim, followed by the rest of the comic list."
+    },
+    {
+      "passage": "Four years earlier, on his way out of the Gentleman's Journal interview, he put it more seriously. \"I'm not any less neurotic now, by the way,\" he said. \"I'm just better at hiding it.\"",
+      "preserved": true,
+      "reason": "Verbatim; 'Four years earlier' is correct (Sep 2022 to Oct 2026)."
+    }
+  ],
+  "coverage_complete": true,
+  "metadata_consistent": true,
+  "alternative_type_addressed": true,
+  "five_year_test_passed": true,
+  "scores": {
+    "evidence": {
+      "score": 8.5,
+      "passage": "In 2022 the meeting was about another film; for Reuters it was an audition. The details shift between tellings.",
+      "reason": "Every quoted span in the body and FAQs was matched against fresh fetches of the cited pages, or against three independent transcriptions of the podcast, and they hold. The prose dates each telling, attributes relays (\"relayed by Sportskeeda\", \"as reported by Gulf News\"), and marks inference limits (\"That is Bettany's interpretation\", \"the record cannot tell them apart\"). It falls short of 9 for three reasons. Several load-bearing interviews are reached only through relays (2012 and 2013 Guardian, 2022 and 2026 Times, Total Film). Independent testimony is thin (one Olsen line, one Ball line). And there are two small fidelity slips: the joined Daily Actor quote and the imposed \"Then\"."
+    },
+    "enneagram": {
+      "score": 8.4,
+      "passage": "The test from the type answer still favors Six: what he does when the floor drops. A Four in pain tends to turn toward the loss and ask what it says about who he is. Bettany shores up the base against the next blow.",
+      "reason": "The discriminator is concrete and tied to a costly choice he criticises and still defends: the 2003 money plan he calls \"ludicrous\" but holds to because \"the tap can turn off\". It recurs as worst-case framing in 2012, 2013, 2022 and 2026. Type 4 gets its best evidence (\"just not good enough\", scab-picking, \"brokenness\"), the mask is honestly downgraded to shared ground, the Margin Call reversal is conceded, Types 3, 5 and 7 are tested with sourced reasons, and the limits paragraph names what Six explains poorly. It stays below 8.5 because much of the \"what if\" evidence is self-reported worry that the article itself calls partly occupational and comic register. The decisive weight therefore rests mostly on 2003-2011, and Six handles the revenge-fame motive and his repeated reopening of grief only thinly."
+    },
+    "originality": {
+      "score": 8.6,
+      "passage": "It sounds neurotic, but it's not, because the tap can turn off.",
+      "reason": "The portrait is built from details specific to him: the silent tavern crowd, boarding the windows \"as though there were a zombie apocalypse coming\", phoning ahead to warn he might be two minutes late, calmer once cameras roll, Whedon showing Feige the film Bettany thought was \"the nadir of my career\", the glass vial of Andy's ashes. The central insight belongs to this person, not to Sixes generally: a candid, jokey man who keeps defending a security plan he calls ludicrous, and whose safety net became his living. The type primer is two sentences."
+    },
+    "writing": {
+      "score": 8.2,
+      "passage": "The details shift between tellings. The core holds: bravado in the room, collapse on the pavement, told against himself.",
+      "reason": "The sentences are precise and varied, each section adds a new kind of evidence (childhood fear, the money years, preparation, the father), and the ending lands on his own line. It loses points on length: 3,944 words by the contract count, above the roughly 3,500 target. \"Why not Type 4?\" runs six dense paragraphs of hedged weighing (4, circumstance, 3, 5, 7, limits) and starts to read like a ledger. The Depp section is procedural for material the article says carries no type weight."
+    },
+    "durability": {
+      "score": 8.7,
+      "passage": "It was a real change, but the worry outlived both the money years and the security Marvel bought.",
+      "reason": "The argument rests on dated 2010-2022 evidence (2012 Times, 2013 Telegraph and Guardian, 2022 Daily Beast and Gentleman's Journal). The October 2026 material (VisionQuest, the podcast, the Times) is dated and could be removed without collapsing the thesis. Credits and the marriage are past-tense with time_sensitive triggers, C80 carries a thesis-test trigger, and the ending is posed as an open test rather than a news peg. Minor drag: the podcast timestamps are tied to one download."
+    },
+    "hook": {
+      "score": 8.3,
+      "passage": "On September 11, 2001, Paul Bettany was buying groceries in Italy when he noticed a crowd outside a tavern. It looked like the crowd for a football match, except that it was silent. He walked in and saw the second plane hit the tower.",
+      "reason": "The opening is specific, verified against his own audio, and visual. The \"certainty that was new to me\" payoff is picked up by the thesis. The article then concedes that almost anyone would keep dialling, which is honest but limits how much the opening reveals about type."
+    },
+    "discoverability": {
+      "score": 8.6,
+      "passage": "Paul Bettany is most likely an Enneagram Type 6, the Loyalist, held at medium confidence with Type 4 the closest rival.",
+      "reason": "An identity-first title, a comparative meta title (48 characters) and a description that matches the body's claims. Five FAQs mirror the body (type, why not 4, who is, brother, Depp texts) and answer real search intents. The 54-word type answer sits directly under the required H2. Internal links resolve: type pages 3, 4, 5 and 6, the counterphobic anchor (heading exists in enneagram-type-6.md), and the Lennon and Depp profiles. The five suggestions are published pages. Minor: a low-value \"Paul Bettany age\" keyword."
+    }
+  }
+}

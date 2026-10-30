@@ -1,0 +1,22 @@
+The Enneagram review for Paul Bettany is written to `review-enneagram.json` in the run directory. It passes the pipeline's review schema, its two content hashes match the request, and every quoted passage matches the draft exactly. I didn't change or publish anything else.
+
+**Verdict:** Type 6 at medium confidence still beats Type 4. The strongest evidence is his 2003 "hammering bits of wood" money plan, which he calls ludicrous and defends anyway. Next comes a decade of "what if" worst-case thinking about fame, money and his career, and his line that he's anxious in daily life but calm once the camera rolls. Three of the draft's four reasons for ruling out Type 4 are weak, though.
+
+**Major findings (4):**
+- **The "mask" argument doesn't separate 6 from 4.** The title, description and the "Why isn't he a Type 4?" FAQ all lean on it. Hiding behind a role fits a Four driven by shame just as well. The same podcast answer also contains his line "I can do something with this brokenness," which favors the Four reading.
+- **One quote points the wrong way.** "I'm just not good enough to do that" compares him unfavorably with other actors. That sense of falling short is a Four trait, not evidence against Four.
+- **The Type 5 rebuttal cuts a quote so it says the opposite.** The full source says he copes alone better than he expects: "I should fall apart more than I do. But I don't."
+- **The father section gives both men a motive the record doesn't show.** It ends with "both men were trying to keep a family safe," two paragraphs after saying his father's reasons are not on record.
+
+**Minor findings (5):**
+- The "fear came before his brother's death" point answers the trauma explanation, not the Four reading.
+- Type 3 is never tested, despite his "self-worth" and "remembers me" lines.
+- Punctuality and fear that each job is the last are presented as Six signals. He credits theatre training for the first, and the podcast hosts said they share the second.
+- The opening calls the 9/11 phone calls the "clearest" example of his pattern, when nearly anyone would have kept calling. The body's type answer also omits the medium confidence that the FAQ states.
+- The "not meeting the actual me" quote is trimmed. The full line is mutual and about fan encounters.
+
+I set the "contested typing" risk flag. Six still leads, but once the weak points are fixed the margin rests on one family of evidence, and the flag stops the edit from overstating it. I also kept the "sensitive allegations" flag for the Depp texts.
+
+The similarity check found no reused arguments from other recent profiles. The one generic line is the "counterphobic" sentence, which is never applied to him. I protected five passages, led by the "That confession holds the whole pattern" paragraph.
+
+I opened the Gentleman's Journal interview myself to confirm the three quote contexts above. The rest relies on excerpts already in the evidence file, and the podcast quotes rest on machine transcription.
