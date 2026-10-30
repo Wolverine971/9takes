@@ -148,6 +148,7 @@ content_quality:
   caps_applied: []
   needs_review: false
   content_sha256: 2cb599b72ea2b30e08ba7a60eb90ae07e74646d69ac5296ab4452ff420806395
+path: src/blog/people/drafts/Chris-Pratt.md
 ---
 
 In 2015, GQ's Chris Heath asked Chris Pratt about the years he spent heavy. He had played Andy Dwyer, the friendly doofus of _Parks and Recreation_, and seemed the happiest big guy in Hollywood. Now, built for Star-Lord, he said, "My bones ached, I had cardiovascular issues, I was unhealthy, I was feeling rotten." He said his wife at the time, Anna Faris, had been "so okay with it" and had probably preferred him heavier. Heath asked why. [Pratt answered](https://www.gq.com/story/chris-pratt-cover-story):
@@ -283,3 +284,5 @@ A Three can sincerely want a quieter life while living a louder one, and he stil
 One detail from 2026 brings the story back to its start. On _Not Dead Yet_, released March 31, 2026, Pratt said he "had a meeting with my manager and agent recently." Running through his recent roles, from James Reese in _The Terminal List_ to the January thriller _Mercy_, he said some had been more serious than others, and the plan was "trying to do more comedy, trying to bring fun and lightheartedness back," because "that's something I have." He meant live-action leads (he has voiced animated comedies all along), and he added that he now cares about whether he can "be close to home."
 
 Whatever his next slate looks like, the shape of that meeting is the point. In 2015 he called the fun of his heavy years an image with value. In 2026 fun was back on the table as a career asset, weighed with his manager and agent, by a man who, on this reading, learned as a teenage salesman that the attitude is part of what you sell.
+
+_Portrait: [Gage Skidmore](https://commons.wikimedia.org/wiki/File:Chris_Pratt_(28630392396).jpg). Original photo and adapted portrait licensed under [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/). Cropped, background removed, rotated, converted to grayscale, and purple eye mark added._

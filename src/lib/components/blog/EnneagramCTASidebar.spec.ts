@@ -15,7 +15,7 @@ const { pageStore } = vi.hoisted(() => ({
 
 vi.mock('$app/environment', () => ({ browser: true }));
 vi.mock('$app/stores', () => ({ page: pageStore }));
-vi.mock('$lib/analytics/marketingEvents', () => ({ captureEmailSignupCompleted: vi.fn() }));
+vi.mock('$lib/analytics/marketingEvents', () => ({ prepareEmailSignup: vi.fn() }));
 
 import EnneagramCTASidebar from './EnneagramCTASidebar.svelte';
 

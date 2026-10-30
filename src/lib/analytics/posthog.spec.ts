@@ -10,6 +10,9 @@ const { posthogMock, persistedUserId } = vi.hoisted(() => {
 			identify: vi.fn(),
 			reset: vi.fn(),
 			capture: vi.fn(),
+			has_opted_out_capturing: vi.fn(() => false),
+			get_distinct_id: vi.fn(() => '019a0000-0000-7000-8000-000000000001'),
+			get_session_id: vi.fn(() => '019a0000-0000-7000-8000-000000000002'),
 			get_property: vi.fn(() => persistedUserId.value)
 		}
 	};
@@ -32,6 +35,17 @@ describe('PostHog wrapper identity safety', () => {
 	beforeEach(() => {
 		persistedUserId.value = null;
 		vi.clearAllMocks();
+		posthogMock.has_opted_out_capturing.mockReturnValue(false);
+	});
+
+	it('links server events to the browser identity but honors analytics opt-out', async () => {
+		const analytics = await loadFreshWrapper();
+		await expect(analytics.getPostHogRequestContext()).resolves.toEqual({
+			distinctId: '019a0000-0000-7000-8000-000000000001',
+			sessionId: '019a0000-0000-7000-8000-000000000002'
+		});
+		posthogMock.has_opted_out_capturing.mockReturnValue(true);
+		await expect(analytics.getPostHogRequestContext()).resolves.toBeNull();
 	});
 
 	it('keeps an ordinary anonymous device journey intact', async () => {

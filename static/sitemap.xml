@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://9takes.com/blog</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-10-29</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/book-session</loc>
@@ -149,11 +149,11 @@
   </url>
   <url>
     <loc>https://9takes.com/corpus-stats</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-10-29</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-10-29</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner/90-day-personality-maxing-blueprint</loc>
@@ -241,7 +241,7 @@
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner/enneagram-compatibility-matrix</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-10-29</lastmod>
     <image:image>
       <image:loc>https://9takes.com/blogs/greek_statues_in_a_circle_holding_hands.webp</image:loc>
     </image:image>
@@ -304,7 +304,7 @@
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner/enneagram-instinctual-subtypes</loc>
-    <lastmod>2025-12-03</lastmod>
+    <lastmod>2026-10-29</lastmod>
     <image:image>
       <image:loc>https://9takes.com/blogs/neoclassical-fortress2.webp</image:loc>
     </image:image>
@@ -402,7 +402,7 @@
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner/enneagram-test-comparison-2026</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-10-29</lastmod>
     <image:image>
       <image:loc>https://9takes.com/blogs/greek-statue-comparing-enneagram-tests.webp</image:loc>
     </image:image>
@@ -778,11 +778,11 @@
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner/subtopic/overview</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-29</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner/subtopic/relationships</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-29</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner/subtopic/resources</loc>
@@ -813,6 +813,9 @@
   <url>
     <loc>https://9takes.com/enneagram-corner/what-enneagram-type-are-most-ceos</loc>
     <lastmod>2026-10-07</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/blogs/what-enneagram-type-are-most-ceos.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner/what-is-a-love-language</loc>

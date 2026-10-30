@@ -1,0 +1,1334 @@
+{
+	"status": "live_dashboard_updated_code_pending_deployment",
+	"dashboard_url": "https://us.posthog.com/project/35460/dashboard/2019041",
+	"created_insights": [
+		{
+			"key": "article-test",
+			"id": 13464237,
+			"short_id": "JSTGPpwB",
+			"name": "Article readers → test results"
+		},
+		{
+			"key": "test",
+			"id": 13464238,
+			"short_id": "jRnK5BKD",
+			"name": "Enneagram test — visit to result"
+		},
+		{
+			"key": "signup",
+			"id": 13464239,
+			"short_id": "VlkLZQbZ",
+			"name": "Newsletter — submission to saved subscriber"
+		},
+		{
+			"key": "signup-total",
+			"id": 13464240,
+			"short_id": "SeqwBjMl",
+			"name": "New subscribers — verified saves"
+		}
+	],
+	"verification": {
+		"dashboard_insights": 9,
+		"dashboard_query_errors": 0,
+		"dashboard_query_warnings": 0,
+		"article_test_funnel_baseline": [358, 6, 4, 2],
+		"test_funnel_baseline": [16, 12, 9],
+		"query_window": "2026-09-30 through 2026-10-30 (UTC; current day partial)",
+		"newsletter_note": "Version 2 submitted and server-verified completion events begin with the code release. Historical client completions are excluded."
+	},
+	"after": {
+		"id": 2019041,
+		"name": "9takes Marketing Operating Dashboard",
+		"description": "Acquisition, article-to-test discovery, participation, and verified newsletter signups.",
+		"filters": {
+			"date_from": "-30d",
+			"properties": [
+				{
+					"key": "$host",
+					"operator": "exact",
+					"type": "event",
+					"value": "9takes.com"
+				},
+				{
+					"key": "$virt_traffic_type",
+					"operator": "exact",
+					"type": "event",
+					"value": ["Regular"]
+				}
+			]
+		},
+		"tiles": [
+			{
+				"id": 14495706,
+				"order": 0,
+				"layouts": {
+					"sm": {
+						"h": 3,
+						"w": 12,
+						"x": 0,
+						"y": 0
+					}
+				},
+				"body": "**Reading this dashboard**\n\nProduction visitors only; classified bots and configured internal/test users are excluded. Funnels follow the same visitor through ordered steps within one day.\n\n**Newsletter tracking starts with the server tracking release.** Only new subscribers confirmed after saving are counted. Earlier browser-reported completions are excluded, so these tiles are empty until the updated code is deployed. Visitors without browser analytics are not included."
+			},
+			{
+				"id": 11162325,
+				"order": 1,
+				"layouts": {
+					"sm": {
+						"h": 5,
+						"w": 8,
+						"x": 0,
+						"y": 3
+					}
+				},
+				"insight_id": 11226159,
+				"short_id": "Kk3DKzZ4",
+				"name": "Visitors by referring domain"
+			},
+			{
+				"id": 14495705,
+				"order": 2,
+				"layouts": {
+					"sm": {
+						"h": 5,
+						"w": 4,
+						"x": 8,
+						"y": 3
+					}
+				},
+				"insight_id": 13464240,
+				"short_id": "SeqwBjMl",
+				"name": "New subscribers — verified saves"
+			},
+			{
+				"id": 14495702,
+				"order": 3,
+				"layouts": {
+					"sm": {
+						"h": 6,
+						"w": 6,
+						"x": 0,
+						"y": 8
+					}
+				},
+				"insight_id": 13464237,
+				"short_id": "JSTGPpwB",
+				"name": "Article readers → test results"
+			},
+			{
+				"id": 14495703,
+				"order": 4,
+				"layouts": {
+					"sm": {
+						"h": 6,
+						"w": 6,
+						"x": 6,
+						"y": 8
+					}
+				},
+				"insight_id": 13464238,
+				"short_id": "jRnK5BKD",
+				"name": "Enneagram test — visit to result"
+			},
+			{
+				"id": 11162348,
+				"order": 5,
+				"layouts": {
+					"sm": {
+						"h": 6,
+						"w": 6,
+						"x": 0,
+						"y": 14
+					}
+				},
+				"insight_id": 11226172,
+				"short_id": "RMXdTuSc",
+				"name": "Question pages — view to posted answer"
+			},
+			{
+				"id": 11162347,
+				"order": 6,
+				"layouts": {
+					"sm": {
+						"h": 6,
+						"w": 6,
+						"x": 6,
+						"y": 14
+					}
+				},
+				"insight_id": 11226171,
+				"short_id": "jHfCjCPQ",
+				"name": "Homepage practice — visit to reveal"
+			},
+			{
+				"id": 14495704,
+				"order": 7,
+				"layouts": {
+					"sm": {
+						"h": 6,
+						"w": 6,
+						"x": 0,
+						"y": 20
+					}
+				},
+				"insight_id": 13464239,
+				"short_id": "VlkLZQbZ",
+				"name": "Newsletter — submission to saved subscriber"
+			},
+			{
+				"id": 11162350,
+				"order": 8,
+				"layouts": {
+					"sm": {
+						"h": 6,
+						"w": 6,
+						"x": 6,
+						"y": 20
+					}
+				},
+				"insight_id": 11226174,
+				"short_id": "Di8ejS8l",
+				"name": "Article question exposure"
+			},
+			{
+				"id": 11162351,
+				"order": 9,
+				"layouts": {
+					"sm": {
+						"h": 5,
+						"w": 12,
+						"x": 0,
+						"y": 26
+					}
+				},
+				"insight_id": 11226175,
+				"short_id": "ZDxfXohW",
+				"name": "Homepage answers — completed and failed"
+			}
+		]
+	},
+	"project_id": 35460,
+	"dashboard_id": 2019041,
+	"before": {
+		"id": 2019041,
+		"name": "9takes Marketing Operating Dashboard",
+		"description": "Weekly operating view for regular-human acquisition, give-first conversion, strategic-question exposure, and contribution reliability. New canonical registration, reveal, email-signup, and type-selection events should be added after their first production captures.",
+		"pinned": true,
+		"created_at": "2026-08-21T15:58:16.723500Z",
+		"created_by": {
+			"id": 48896,
+			"first_name": "david",
+			"last_name": "wayne",
+			"email": "djwayne35@gmail.com"
+		},
+		"last_accessed_at": "2026-10-30T01:37:50.534693Z",
+		"folder": "Unfiled/Dashboards",
+		"file_system_id": "01a0250b-5c9c-7c79-b643-9062d085d38f",
+		"file_system_path": "Unfiled/Dashboards/9takes Marketing Operating Dashboard",
+		"is_shared": false,
+		"filters": {},
+		"variables": {},
+		"team_id": 35460,
+		"customization": {},
+		"tiles": [
+			{
+				"id": 11162325,
+				"insight": {
+					"id": 11226159,
+					"short_id": "Kk3DKzZ4",
+					"name": "Regular-human traffic by referring domain — 30d",
+					"query": {
+						"kind": "InsightVizNode",
+						"source": {
+							"kind": "TrendsQuery",
+							"series": [
+								{
+									"kind": "EventsNode",
+									"math": "dau",
+									"name": "Regular human visitors",
+									"event": "$pageview",
+									"properties": [
+										{
+											"key": "$virt_traffic_type",
+											"type": "event",
+											"value": ["Regular"],
+											"operator": "exact"
+										}
+									]
+								}
+							],
+							"version": 4,
+							"interval": "day",
+							"dateRange": {
+								"date_from": "-30d",
+								"explicitDate": false,
+								"excludeIncompletePeriods": false
+							},
+							"properties": [],
+							"trendsFilter": {
+								"display": "ActionsLineGraph",
+								"showLegend": false,
+								"hideWeekends": false,
+								"metricSummary": "total",
+								"legendPosition": "bottom",
+								"yAxisScaleType": "linear",
+								"showAnnotations": true,
+								"metricShowChange": true,
+								"yAxisStartAtZero": true,
+								"showMultipleYAxes": false,
+								"showValuesOnSeries": false,
+								"smoothingIntervals": 1,
+								"showPercentStackView": false,
+								"stackBreakdownValues": false,
+								"aggregationAxisFormat": "numeric",
+								"resultCustomizationBy": "value",
+								"excludeBoxPlotOutliers": true,
+								"metricColorByDirection": false,
+								"showAlertThresholdLines": false
+							},
+							"breakdownFilter": {
+								"breakdowns": [
+									{
+										"type": "event",
+										"property": "$referring_domain"
+									}
+								],
+								"breakdown_type": "event",
+								"breakdown_limit": 10
+							},
+							"filterTestAccounts": false
+						}
+					},
+					"created_at": "2026-08-21T15:58:28.222588Z",
+					"created_by": {
+						"id": 48896,
+						"first_name": "david",
+						"last_name": "wayne",
+						"email": "djwayne35@gmail.com"
+					},
+					"description": "Daily unique regular visitors by the top referring domains. Use this to distinguish search, direct, and emerging distribution sources.",
+					"updated_at": "2026-08-21T15:58:28.222617Z",
+					"favorited": false,
+					"saved": true,
+					"last_modified_at": "2026-08-21T15:58:28.218136Z",
+					"last_modified_by": {
+						"id": 48896,
+						"first_name": "david",
+						"last_name": "wayne",
+						"email": "djwayne35@gmail.com"
+					},
+					"is_cached": false,
+					"tags": []
+				},
+				"layouts": {},
+				"filters_overrides": {},
+				"order": 0,
+				"is_cached": false
+			},
+			{
+				"id": 11162347,
+				"insight": {
+					"id": 11226171,
+					"short_id": "jHfCjCPQ",
+					"name": "Homepage give-first funnel — 30d",
+					"query": {
+						"kind": "InsightVizNode",
+						"source": {
+							"kind": "FunnelsQuery",
+							"series": [
+								{
+									"kind": "EventsNode",
+									"name": "Homepage question viewed",
+									"event": "question_impression",
+									"properties": [
+										{
+											"key": "surface",
+											"type": "event",
+											"value": ["homepage"],
+											"operator": "exact"
+										}
+									]
+								},
+								{
+									"kind": "EventsNode",
+									"name": "Homepage answer started",
+									"event": "comment_started",
+									"properties": [
+										{
+											"key": "surface",
+											"type": "event",
+											"value": ["homepage"],
+											"operator": "exact"
+										}
+									]
+								},
+								{
+									"kind": "EventsNode",
+									"name": "Homepage answer completed",
+									"event": "comment_created",
+									"properties": [
+										{
+											"key": "surface",
+											"type": "event",
+											"value": ["homepage"],
+											"operator": "exact"
+										}
+									]
+								}
+							],
+							"version": 2,
+							"dateRange": {
+								"date_from": "-30d",
+								"explicitDate": false,
+								"excludeIncompletePeriods": false
+							},
+							"properties": [],
+							"funnelsFilter": {
+								"layout": "vertical",
+								"exclusions": [],
+								"showLegend": false,
+								"funnelVizType": "steps",
+								"legendPosition": "bottom",
+								"funnelOrderType": "ordered",
+								"showAnnotations": true,
+								"showValuesOnSeries": false,
+								"funnelStepReference": "total",
+								"funnelWindowInterval": 1,
+								"breakdownAttributionType": "first_touch",
+								"funnelWindowIntervalUnit": "day",
+								"hideIncompleteConversionWindowPeriods": false
+							},
+							"filterTestAccounts": false
+						}
+					},
+					"created_at": "2026-08-21T15:58:49.952847Z",
+					"created_by": {
+						"id": 48896,
+						"first_name": "david",
+						"last_name": "wayne",
+						"email": "djwayne35@gmail.com"
+					},
+					"description": "Qualified view → answer start → server-confirmed answer. The final-step drop-off exposed the q569 chorus-readiness regression.",
+					"updated_at": "2026-08-21T15:58:49.952881Z",
+					"favorited": false,
+					"saved": true,
+					"last_modified_at": "2026-08-21T15:58:49.944788Z",
+					"last_modified_by": {
+						"id": 48896,
+						"first_name": "david",
+						"last_name": "wayne",
+						"email": "djwayne35@gmail.com"
+					},
+					"is_cached": false,
+					"tags": []
+				},
+				"layouts": {},
+				"filters_overrides": {},
+				"order": 1,
+				"is_cached": false
+			},
+			{
+				"id": 11162348,
+				"insight": {
+					"id": 11226172,
+					"short_id": "RMXdTuSc",
+					"name": "Question-page give-first funnel — 30d",
+					"query": {
+						"kind": "InsightVizNode",
+						"source": {
+							"kind": "FunnelsQuery",
+							"series": [
+								{
+									"kind": "EventsNode",
+									"name": "Question viewed",
+									"event": "question_impression",
+									"properties": [
+										{
+											"key": "surface",
+											"type": "event",
+											"value": ["question_page"],
+											"operator": "exact"
+										}
+									]
+								},
+								{
+									"kind": "EventsNode",
+									"name": "Answer started",
+									"event": "comment_started",
+									"properties": [
+										{
+											"key": "surface",
+											"type": "event",
+											"value": ["question_page"],
+											"operator": "exact"
+										}
+									]
+								},
+								{
+									"kind": "EventsNode",
+									"name": "Answer completed",
+									"event": "comment_created",
+									"properties": [
+										{
+											"key": "surface",
+											"type": "event",
+											"value": ["question_page"],
+											"operator": "exact"
+										}
+									]
+								}
+							],
+							"version": 2,
+							"dateRange": {
+								"date_from": "-30d",
+								"explicitDate": false,
+								"excludeIncompletePeriods": false
+							},
+							"properties": [],
+							"funnelsFilter": {
+								"layout": "vertical",
+								"exclusions": [],
+								"showLegend": false,
+								"funnelVizType": "steps",
+								"legendPosition": "bottom",
+								"funnelOrderType": "ordered",
+								"showAnnotations": true,
+								"showValuesOnSeries": false,
+								"funnelStepReference": "total",
+								"funnelWindowInterval": 1,
+								"breakdownAttributionType": "first_touch",
+								"funnelWindowIntervalUnit": "day",
+								"hideIncompleteConversionWindowPeriods": false
+							},
+							"filterTestAccounts": false
+						}
+					},
+					"created_at": "2026-08-21T15:58:53.630661Z",
+					"created_by": {
+						"id": 48896,
+						"first_name": "david",
+						"last_name": "wayne",
+						"email": "djwayne35@gmail.com"
+					},
+					"description": "Qualified question-page view → answer start → server-confirmed answer within one day.",
+					"updated_at": "2026-08-21T15:58:53.630692Z",
+					"favorited": false,
+					"saved": true,
+					"last_modified_at": "2026-08-21T15:58:53.625797Z",
+					"last_modified_by": {
+						"id": 48896,
+						"first_name": "david",
+						"last_name": "wayne",
+						"email": "djwayne35@gmail.com"
+					},
+					"is_cached": false,
+					"tags": []
+				},
+				"layouts": {},
+				"filters_overrides": {},
+				"order": 2,
+				"is_cached": false
+			},
+			{
+				"id": 11162350,
+				"insight": {
+					"id": 11226174,
+					"short_id": "Di8ejS8l",
+					"name": "Strategic-question exposure by article — 30d",
+					"query": {
+						"kind": "InsightVizNode",
+						"source": {
+							"kind": "TrendsQuery",
+							"series": [
+								{
+									"kind": "EventsNode",
+									"math": "dau",
+									"name": "Strategic prompt viewers",
+									"event": "strategic_question_seen"
+								}
+							],
+							"version": 4,
+							"interval": "day",
+							"dateRange": {
+								"date_from": "-30d",
+								"explicitDate": false,
+								"excludeIncompletePeriods": false
+							},
+							"properties": [],
+							"trendsFilter": {
+								"display": "ActionsLineGraph",
+								"showLegend": false,
+								"hideWeekends": false,
+								"metricSummary": "total",
+								"legendPosition": "bottom",
+								"yAxisScaleType": "linear",
+								"showAnnotations": true,
+								"metricShowChange": true,
+								"yAxisStartAtZero": true,
+								"showMultipleYAxes": false,
+								"showValuesOnSeries": false,
+								"smoothingIntervals": 1,
+								"showPercentStackView": false,
+								"stackBreakdownValues": false,
+								"aggregationAxisFormat": "numeric",
+								"resultCustomizationBy": "value",
+								"excludeBoxPlotOutliers": true,
+								"metricColorByDirection": false,
+								"showAlertThresholdLines": false
+							},
+							"breakdownFilter": {
+								"breakdowns": [
+									{
+										"type": "event",
+										"property": "blog_slug"
+									}
+								],
+								"breakdown_type": "event",
+								"breakdown_limit": 10
+							},
+							"filterTestAccounts": false
+						}
+					},
+					"created_at": "2026-08-21T15:58:59.705392Z",
+					"created_by": {
+						"id": 48896,
+						"first_name": "david",
+						"last_name": "wayne",
+						"email": "djwayne35@gmail.com"
+					},
+					"description": "Daily unique qualified viewers of embedded strategic questions, broken down by host article.",
+					"updated_at": "2026-08-21T15:58:59.705422Z",
+					"favorited": false,
+					"saved": true,
+					"last_modified_at": "2026-08-21T15:58:59.699994Z",
+					"last_modified_by": {
+						"id": 48896,
+						"first_name": "david",
+						"last_name": "wayne",
+						"email": "djwayne35@gmail.com"
+					},
+					"is_cached": false,
+					"tags": []
+				},
+				"layouts": {},
+				"filters_overrides": {},
+				"order": 3,
+				"is_cached": false
+			},
+			{
+				"id": 11162351,
+				"insight": {
+					"id": 11226175,
+					"short_id": "ZDxfXohW",
+					"name": "Homepage answers completed vs failed — 30d",
+					"query": {
+						"kind": "InsightVizNode",
+						"source": {
+							"kind": "TrendsQuery",
+							"series": [
+								{
+									"kind": "EventsNode",
+									"math": "total",
+									"name": "Homepage answers completed",
+									"event": "comment_created",
+									"properties": [
+										{
+											"key": "surface",
+											"type": "event",
+											"value": ["homepage"],
+											"operator": "exact"
+										}
+									]
+								},
+								{
+									"kind": "EventsNode",
+									"math": "total",
+									"name": "Homepage answer failures",
+									"event": "comment_failed",
+									"properties": [
+										{
+											"key": "surface",
+											"type": "event",
+											"value": ["homepage"],
+											"operator": "exact"
+										}
+									]
+								}
+							],
+							"version": 4,
+							"interval": "day",
+							"dateRange": {
+								"date_from": "-30d",
+								"explicitDate": false,
+								"excludeIncompletePeriods": false
+							},
+							"properties": [],
+							"trendsFilter": {
+								"display": "ActionsLineGraph",
+								"showLegend": false,
+								"hideWeekends": false,
+								"metricSummary": "total",
+								"legendPosition": "bottom",
+								"yAxisScaleType": "linear",
+								"showAnnotations": true,
+								"metricShowChange": true,
+								"yAxisStartAtZero": true,
+								"showMultipleYAxes": false,
+								"showValuesOnSeries": false,
+								"smoothingIntervals": 1,
+								"showPercentStackView": false,
+								"stackBreakdownValues": false,
+								"aggregationAxisFormat": "numeric",
+								"resultCustomizationBy": "value",
+								"excludeBoxPlotOutliers": true,
+								"metricColorByDirection": false,
+								"showAlertThresholdLines": false
+							},
+							"filterTestAccounts": false
+						}
+					},
+					"created_at": "2026-08-21T15:59:04.139041Z",
+					"created_by": {
+						"id": 48896,
+						"first_name": "david",
+						"last_name": "wayne",
+						"email": "djwayne35@gmail.com"
+					},
+					"description": "Daily server-confirmed homepage answers beside client-observed failures; use this as the contribution reliability alarm.",
+					"updated_at": "2026-08-21T15:59:04.139069Z",
+					"favorited": false,
+					"saved": true,
+					"last_modified_at": "2026-08-21T15:59:04.134967Z",
+					"last_modified_by": {
+						"id": 48896,
+						"first_name": "david",
+						"last_name": "wayne",
+						"email": "djwayne35@gmail.com"
+					},
+					"is_cached": false,
+					"tags": []
+				},
+				"layouts": {},
+				"filters_overrides": {},
+				"order": 4,
+				"is_cached": false
+			}
+		],
+		"tags": ["conversion", "marketing", "growth"],
+		"_posthogUrl": "https://us.posthog.com/project/35460/dashboard/2019041"
+	},
+	"planned": {
+		"existing": [
+			{
+				"id": 11226159,
+				"key": "Kk3DKzZ4",
+				"name": "Visitors by referring domain",
+				"description": "Daily visitors to 9takes.com, excluding classified bots and configured internal/test users.",
+				"query": {
+					"kind": "TrendsQuery",
+					"series": [
+						{
+							"kind": "EventsNode",
+							"math": "dau",
+							"name": "Regular human visitors",
+							"event": "$pageview",
+							"properties": [
+								{
+									"key": "$virt_traffic_type",
+									"type": "event",
+									"value": ["Regular"],
+									"operator": "exact"
+								}
+							]
+						}
+					],
+					"version": 4,
+					"interval": "day",
+					"dateRange": {
+						"date_from": "-30d"
+					},
+					"properties": [
+						{
+							"key": "$host",
+							"operator": "exact",
+							"type": "event",
+							"value": "9takes.com"
+						},
+						{
+							"key": "$virt_traffic_type",
+							"operator": "exact",
+							"type": "event",
+							"value": ["Regular"]
+						}
+					],
+					"trendsFilter": {
+						"display": "ActionsLineGraph",
+						"showLegend": false,
+						"hideWeekends": false,
+						"metricSummary": "total",
+						"legendPosition": "bottom",
+						"yAxisScaleType": "linear",
+						"showAnnotations": true,
+						"metricShowChange": true,
+						"yAxisStartAtZero": true,
+						"showMultipleYAxes": false,
+						"showValuesOnSeries": false,
+						"smoothingIntervals": 1,
+						"showPercentStackView": false,
+						"stackBreakdownValues": false,
+						"aggregationAxisFormat": "numeric",
+						"resultCustomizationBy": "value",
+						"excludeBoxPlotOutliers": true,
+						"metricColorByDirection": false,
+						"showAlertThresholdLines": false
+					},
+					"breakdownFilter": {
+						"breakdowns": [
+							{
+								"type": "event",
+								"property": "$referring_domain"
+							}
+						],
+						"breakdown_type": "event",
+						"breakdown_limit": 10
+					},
+					"filterTestAccounts": true
+				}
+			},
+			{
+				"id": 11226171,
+				"key": "jHfCjCPQ",
+				"name": "Homepage practice — visit to reveal",
+				"description": "Homepage visitors who start a practice answer and reveal the other perspectives within one day.",
+				"query": {
+					"kind": "FunnelsQuery",
+					"dateRange": {
+						"date_from": "-30d"
+					},
+					"properties": [
+						{
+							"key": "$host",
+							"operator": "exact",
+							"type": "event",
+							"value": "9takes.com"
+						},
+						{
+							"key": "$virt_traffic_type",
+							"operator": "exact",
+							"type": "event",
+							"value": ["Regular"]
+						}
+					],
+					"filterTestAccounts": true,
+					"funnelsFilter": {
+						"funnelOrderType": "ordered",
+						"funnelWindowInterval": 1,
+						"funnelWindowIntervalUnit": "day",
+						"funnelVizType": "steps"
+					},
+					"series": [
+						{
+							"kind": "EventsNode",
+							"event": "$pageview",
+							"properties": [
+								{
+									"key": "$pathname",
+									"type": "event",
+									"operator": "exact",
+									"value": "/"
+								}
+							]
+						},
+						{
+							"kind": "EventsNode",
+							"event": "homepage_practice_started"
+						},
+						{
+							"kind": "EventsNode",
+							"event": "homepage_practice_revealed"
+						}
+					]
+				}
+			},
+			{
+				"id": 11226172,
+				"key": "RMXdTuSc",
+				"name": "Question pages — view to posted answer",
+				"description": "Question viewers who start and post an answer within one day.",
+				"query": {
+					"kind": "FunnelsQuery",
+					"series": [
+						{
+							"kind": "EventsNode",
+							"name": "Question viewed",
+							"event": "question_impression",
+							"properties": [
+								{
+									"key": "surface",
+									"type": "event",
+									"value": ["question_page"],
+									"operator": "exact"
+								}
+							]
+						},
+						{
+							"kind": "EventsNode",
+							"name": "Answer started",
+							"event": "comment_started",
+							"properties": [
+								{
+									"key": "surface",
+									"type": "event",
+									"value": ["question_page"],
+									"operator": "exact"
+								}
+							]
+						},
+						{
+							"kind": "EventsNode",
+							"name": "Answer completed",
+							"event": "comment_created",
+							"properties": [
+								{
+									"key": "surface",
+									"type": "event",
+									"value": ["question_page"],
+									"operator": "exact"
+								}
+							]
+						}
+					],
+					"version": 2,
+					"dateRange": {
+						"date_from": "-30d"
+					},
+					"properties": [
+						{
+							"key": "$host",
+							"operator": "exact",
+							"type": "event",
+							"value": "9takes.com"
+						},
+						{
+							"key": "$virt_traffic_type",
+							"operator": "exact",
+							"type": "event",
+							"value": ["Regular"]
+						}
+					],
+					"funnelsFilter": {
+						"layout": "vertical",
+						"exclusions": [],
+						"showLegend": false,
+						"funnelVizType": "steps",
+						"legendPosition": "bottom",
+						"funnelOrderType": "ordered",
+						"showAnnotations": true,
+						"showValuesOnSeries": false,
+						"funnelStepReference": "total",
+						"funnelWindowInterval": 1,
+						"breakdownAttributionType": "first_touch",
+						"funnelWindowIntervalUnit": "day",
+						"hideIncompleteConversionWindowPeriods": false
+					},
+					"filterTestAccounts": true
+				}
+			},
+			{
+				"id": 11226174,
+				"key": "Di8ejS8l",
+				"name": "Article question exposure",
+				"description": "Daily viewers of embedded questions, by article.",
+				"query": {
+					"kind": "TrendsQuery",
+					"series": [
+						{
+							"kind": "EventsNode",
+							"math": "dau",
+							"name": "Strategic prompt viewers",
+							"event": "strategic_question_seen"
+						}
+					],
+					"version": 4,
+					"interval": "day",
+					"dateRange": {
+						"date_from": "-30d"
+					},
+					"properties": [
+						{
+							"key": "$host",
+							"operator": "exact",
+							"type": "event",
+							"value": "9takes.com"
+						},
+						{
+							"key": "$virt_traffic_type",
+							"operator": "exact",
+							"type": "event",
+							"value": ["Regular"]
+						}
+					],
+					"trendsFilter": {
+						"display": "ActionsLineGraph",
+						"showLegend": false,
+						"hideWeekends": false,
+						"metricSummary": "total",
+						"legendPosition": "bottom",
+						"yAxisScaleType": "linear",
+						"showAnnotations": true,
+						"metricShowChange": true,
+						"yAxisStartAtZero": true,
+						"showMultipleYAxes": false,
+						"showValuesOnSeries": false,
+						"smoothingIntervals": 1,
+						"showPercentStackView": false,
+						"stackBreakdownValues": false,
+						"aggregationAxisFormat": "numeric",
+						"resultCustomizationBy": "value",
+						"excludeBoxPlotOutliers": true,
+						"metricColorByDirection": false,
+						"showAlertThresholdLines": false
+					},
+					"breakdownFilter": {
+						"breakdowns": [
+							{
+								"type": "event",
+								"property": "blog_slug"
+							}
+						],
+						"breakdown_type": "event",
+						"breakdown_limit": 10
+					},
+					"filterTestAccounts": true
+				}
+			},
+			{
+				"id": 11226175,
+				"key": "ZDxfXohW",
+				"name": "Homepage answers — completed and failed",
+				"description": "Completed homepage answers and reported submission failures.",
+				"query": {
+					"kind": "TrendsQuery",
+					"series": [
+						{
+							"kind": "EventsNode",
+							"math": "total",
+							"name": "Homepage answers completed",
+							"event": "comment_created",
+							"properties": [
+								{
+									"key": "surface",
+									"type": "event",
+									"value": ["homepage"],
+									"operator": "exact"
+								}
+							]
+						},
+						{
+							"kind": "EventsNode",
+							"math": "total",
+							"name": "Homepage answer failures",
+							"event": "comment_failed",
+							"properties": [
+								{
+									"key": "surface",
+									"type": "event",
+									"value": ["homepage"],
+									"operator": "exact"
+								}
+							]
+						}
+					],
+					"version": 4,
+					"interval": "day",
+					"dateRange": {
+						"date_from": "-30d"
+					},
+					"properties": [
+						{
+							"key": "$host",
+							"operator": "exact",
+							"type": "event",
+							"value": "9takes.com"
+						},
+						{
+							"key": "$virt_traffic_type",
+							"operator": "exact",
+							"type": "event",
+							"value": ["Regular"]
+						}
+					],
+					"trendsFilter": {
+						"display": "ActionsLineGraph",
+						"showLegend": false,
+						"hideWeekends": false,
+						"metricSummary": "total",
+						"legendPosition": "bottom",
+						"yAxisScaleType": "linear",
+						"showAnnotations": true,
+						"metricShowChange": true,
+						"yAxisStartAtZero": true,
+						"showMultipleYAxes": false,
+						"showValuesOnSeries": false,
+						"smoothingIntervals": 1,
+						"showPercentStackView": false,
+						"stackBreakdownValues": false,
+						"aggregationAxisFormat": "numeric",
+						"resultCustomizationBy": "value",
+						"excludeBoxPlotOutliers": true,
+						"metricColorByDirection": false,
+						"showAlertThresholdLines": false
+					},
+					"filterTestAccounts": true
+				}
+			}
+		],
+		"newDefs": [
+			{
+				"key": "article-test",
+				"name": "Article readers → test results",
+				"description": "Readers of the three linked guides who reach the test and finish within one day.",
+				"query": {
+					"kind": "FunnelsQuery",
+					"dateRange": {
+						"date_from": "-30d"
+					},
+					"properties": [
+						{
+							"key": "$host",
+							"operator": "exact",
+							"type": "event",
+							"value": "9takes.com"
+						},
+						{
+							"key": "$virt_traffic_type",
+							"operator": "exact",
+							"type": "event",
+							"value": ["Regular"]
+						}
+					],
+					"filterTestAccounts": true,
+					"funnelsFilter": {
+						"funnelOrderType": "ordered",
+						"funnelWindowInterval": 1,
+						"funnelWindowIntervalUnit": "day",
+						"funnelVizType": "steps"
+					},
+					"series": [
+						{
+							"kind": "EventsNode",
+							"event": "$pageview",
+							"properties": [
+								{
+									"key": "$pathname",
+									"type": "event",
+									"operator": "exact",
+									"value": [
+										"/enneagram-corner/enneagram-compatibility-matrix",
+										"/enneagram-corner/enneagram-test-comparison-2026",
+										"/enneagram-corner/enneagram-instinctual-subtypes"
+									]
+								}
+							]
+						},
+						{
+							"kind": "EventsNode",
+							"event": "$pageview",
+							"properties": [
+								{
+									"key": "$pathname",
+									"type": "event",
+									"operator": "exact",
+									"value": "/enneagram-test"
+								}
+							]
+						},
+						{
+							"kind": "EventsNode",
+							"event": "test_started"
+						},
+						{
+							"kind": "EventsNode",
+							"event": "test_result_shown"
+						}
+					]
+				}
+			},
+			{
+				"key": "test",
+				"name": "Enneagram test — visit to result",
+				"description": "Test-page visitors who start and reach a result within one day.",
+				"query": {
+					"kind": "FunnelsQuery",
+					"dateRange": {
+						"date_from": "-30d"
+					},
+					"properties": [
+						{
+							"key": "$host",
+							"operator": "exact",
+							"type": "event",
+							"value": "9takes.com"
+						},
+						{
+							"key": "$virt_traffic_type",
+							"operator": "exact",
+							"type": "event",
+							"value": ["Regular"]
+						}
+					],
+					"filterTestAccounts": true,
+					"funnelsFilter": {
+						"funnelOrderType": "ordered",
+						"funnelWindowInterval": 1,
+						"funnelWindowIntervalUnit": "day",
+						"funnelVizType": "steps"
+					},
+					"series": [
+						{
+							"kind": "EventsNode",
+							"event": "$pageview",
+							"properties": [
+								{
+									"key": "$pathname",
+									"type": "event",
+									"operator": "exact",
+									"value": "/enneagram-test"
+								}
+							]
+						},
+						{
+							"kind": "EventsNode",
+							"event": "test_started"
+						},
+						{
+							"kind": "EventsNode",
+							"event": "test_result_shown"
+						}
+					]
+				}
+			},
+			{
+				"key": "signup",
+				"name": "Newsletter — submission to saved subscriber",
+				"description": "Tracked submissions and server-verified saves. Begins with the signup-tracking update; older events are excluded.",
+				"query": {
+					"kind": "FunnelsQuery",
+					"dateRange": {
+						"date_from": "-30d"
+					},
+					"properties": [
+						{
+							"key": "$host",
+							"operator": "exact",
+							"type": "event",
+							"value": "9takes.com"
+						},
+						{
+							"key": "$virt_traffic_type",
+							"operator": "exact",
+							"type": "event",
+							"value": ["Regular"]
+						}
+					],
+					"filterTestAccounts": true,
+					"funnelsFilter": {
+						"funnelOrderType": "ordered",
+						"funnelWindowInterval": 1,
+						"funnelWindowIntervalUnit": "day",
+						"funnelVizType": "steps"
+					},
+					"series": [
+						{
+							"kind": "EventsNode",
+							"event": "email_signup_submitted",
+							"properties": [
+								{
+									"key": "signup_tracking_version",
+									"type": "event",
+									"operator": "exact",
+									"value": 2
+								}
+							]
+						},
+						{
+							"kind": "EventsNode",
+							"event": "email_signup_completed",
+							"properties": [
+								{
+									"key": "signup_tracking_version",
+									"type": "event",
+									"operator": "exact",
+									"value": 2
+								},
+								{
+									"key": "capture_source",
+									"type": "event",
+									"operator": "exact",
+									"value": "server"
+								}
+							]
+						}
+					]
+				}
+			},
+			{
+				"key": "signup-total",
+				"name": "New subscribers — verified saves",
+				"description": "New subscribers confirmed by the server after insertion. Begins with the signup-tracking update.",
+				"query": {
+					"kind": "TrendsQuery",
+					"dateRange": {
+						"date_from": "-30d"
+					},
+					"properties": [
+						{
+							"key": "$host",
+							"operator": "exact",
+							"type": "event",
+							"value": "9takes.com"
+						},
+						{
+							"key": "$virt_traffic_type",
+							"operator": "exact",
+							"type": "event",
+							"value": ["Regular"]
+						}
+					],
+					"filterTestAccounts": true,
+					"interval": "day",
+					"series": [
+						{
+							"kind": "EventsNode",
+							"event": "email_signup_completed",
+							"properties": [
+								{
+									"key": "signup_tracking_version",
+									"type": "event",
+									"operator": "exact",
+									"value": 2
+								},
+								{
+									"key": "capture_source",
+									"type": "event",
+									"operator": "exact",
+									"value": "server"
+								}
+							],
+							"math": "total"
+						}
+					],
+					"trendsFilter": {
+						"display": "ActionsLineGraph"
+					}
+				}
+			}
+		],
+		"articlePaths": [
+			"/enneagram-corner/enneagram-compatibility-matrix",
+			"/enneagram-corner/enneagram-test-comparison-2026",
+			"/enneagram-corner/enneagram-instinctual-subtypes"
+		]
+	}
+}

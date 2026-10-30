@@ -5,7 +5,7 @@ description: 'Compare free Enneagram tests by result access, method, time, and c
 author: 'DJ Wayne'
 date: '2026-08-01'
 loc: 'https://9takes.com/enneagram-corner/enneagram-test-comparison-2026'
-lastmod: '2026-08-01'
+lastmod: '2026-10-29'
 changefreq: 'monthly'
 priority: '0.9'
 published: true
@@ -33,6 +33,8 @@ Keyword Strategy:
 </QuickAnswer>
 
 **Verified:** August 1, 2026. Prices and access can change, so the links below go directly to each provider.
+
+**Want to try ours?** [Take the free 9takes Enneagram test](/enneagram-test). Your result appears on screen, with no email required. Use it as a starting point for reflection.
 
 ## Free and paid Enneagram tests at a glance
 

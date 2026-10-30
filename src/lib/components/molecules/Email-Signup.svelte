@@ -3,7 +3,7 @@
 	import { onMount } from 'svelte';
 	import { Button } from '$lib/components/atoms';
 	import { notifications } from './notifications';
-	import { captureEmailSignupCompleted } from '$lib/analytics/marketingEvents';
+	import { prepareEmailSignup } from '$lib/analytics/marketingEvents';
 
 	type SignupResponse = { ok: boolean; code?: string; message?: string };
 
@@ -48,15 +48,15 @@
 		body.append('_timeToken', String(Date.now() - formLoadTime));
 
 		try {
+			await prepareEmailSignup(body, {
+				surface: 'email_signup',
+				sourcePath: window.location.pathname
+			});
 			const resp = await fetch('/api/signups', { method: 'POST', body });
 			const result = (await resp.json()) as SignupResponse;
 
 			if (result.ok) {
 				status = "You're subscribed. Check your inbox for the welcome note.";
-				void captureEmailSignupCompleted({
-					surface: 'email_signup',
-					sourcePath: typeof window !== 'undefined' ? window.location.pathname : undefined
-				});
 				notifications.success("You're subscribed", 3000);
 				notifications.info('Check your inbox for the welcome note.', 6000);
 				email = '';

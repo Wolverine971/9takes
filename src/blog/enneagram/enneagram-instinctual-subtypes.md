@@ -5,7 +5,7 @@ description: 'Self-preservation, social, or one-to-one? Find your dominant insti
 author: 'DJ Wayne'
 date: '2023-02-28'
 loc: 'https://9takes.com/enneagram-corner/enneagram-instinctual-subtypes'
-lastmod: '2025-12-03'
+lastmod: '2026-10-29'
 changefreq: 'monthly'
 priority: '0.7'
 published: true
@@ -42,6 +42,8 @@ Two Enneagram 6s walk into the same meeting. One has already checked the agenda 
 </p>
 
 New to the system? Start with the [quick Enneagram overview](/enneagram-corner/enneagram-tldr), then come back here.
+
+**Still figuring out your core type?** [Take the free Enneagram test](/enneagram-test), then use this guide to explore your instincts. The test helps you explore your core type; it does not identify your instinctual stacking.
 
 ## Why Instinctual Subtypes Matter
 

@@ -3,7 +3,7 @@
 	import { onMount } from 'svelte';
 	import { notifications } from './notifications';
 	import Envelope from '$lib/components/icons/envelope.svelte';
-	import { captureEmailSignupCompleted } from '$lib/analytics/marketingEvents';
+	import { prepareEmailSignup } from '$lib/analytics/marketingEvents';
 
 	export let cta: string = 'Who else needs to know about 9takes?';
 	let email: string = '';
@@ -30,14 +30,14 @@
 		body.append('_timeToken', String(Date.now() - formLoadTime));
 
 		try {
+			await prepareEmailSignup(body, {
+				surface: 'email_invite',
+				sourcePath: window.location.pathname
+			});
 			const resp = await fetch('/api/signups', { method: 'POST', body });
 			const result = (await resp.json()) as { ok: boolean; code?: string; message?: string };
 
 			if (result.ok) {
-				void captureEmailSignupCompleted({
-					surface: 'email_invite',
-					sourcePath: typeof window !== 'undefined' ? window.location.pathname : undefined
-				});
 				notifications.success('Email Submitted', 3000);
 				email = '';
 			} else if (result.code === 'already_exists') {

@@ -15,6 +15,7 @@ import {
 	type NewsletterSignupOutcome
 } from '$lib/server/newsletterSignupProtection';
 import { logger } from '$lib/utils/logger';
+import { captureEmailSignupCompleted } from '$lib/server/posthogCapture';
 
 const EMAIL_RE = /^\S+@\S+\.\S+$/;
 const MIN_FORM_TIME_MS = 2500;
@@ -39,6 +40,7 @@ type SignupPayload = {
 	email: string;
 	honeypot: string;
 	timeToken: number | null;
+	analytics: unknown;
 };
 
 function toRecipient(email: string, sourceId: string): EmailRecipient {
@@ -58,8 +60,10 @@ async function readSignupPayload(request: Request): Promise<SignupPayload> {
 			email?: unknown;
 			form_extra?: unknown;
 			_timeToken?: unknown;
+			analytics?: unknown;
 		};
 		return {
+			analytics: body.analytics,
 			email: typeof body.email === 'string' ? body.email : '',
 			honeypot: typeof body.form_extra === 'string' ? body.form_extra : '',
 			timeToken:
@@ -78,6 +82,7 @@ async function readSignupPayload(request: Request): Promise<SignupPayload> {
 		typeof timeTokenRaw === 'string' && timeTokenRaw.trim() ? parseInt(timeTokenRaw, 10) : null;
 
 	return {
+		analytics: form.get('analytics'),
 		email: typeof raw === 'string' ? raw : '',
 		honeypot: typeof honeypot === 'string' ? honeypot : '',
 		timeToken: Number.isFinite(timeToken) ? timeToken : null
@@ -263,7 +268,7 @@ export const POST: RequestHandler = async ({ request, cookies, getClientAddress 
 		.select('id')
 		.single();
 
-	if (insertError) {
+	if (insertError || !insertedSignup?.id) {
 		await recordSignupEvent(adminSupabase, 'failed', {
 			ipAddress,
 			email: normalizedEmail,
@@ -277,6 +282,14 @@ export const POST: RequestHandler = async ({ request, cookies, getClientAddress 
 			{ status: 500 }
 		);
 	}
+
+	// Only a persisted new subscriber is a conversion. Fake successes and duplicates return above.
+	await captureEmailSignupCompleted({
+		signupId: String(insertedSignup.id),
+		analytics: payload.analytics,
+		host: new URL(request.url).host,
+		userAgent
+	});
 
 	try {
 		if (fingerprint && insertedSignup?.id) {

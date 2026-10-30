@@ -4,10 +4,7 @@
 	import EnneagramDiagram from './EnneagramDiagram.svelte';
 	import { notifications } from '../molecules/notifications';
 	import { qualifiedVisibility } from '$lib/analytics/qualifiedVisibility';
-	import {
-		captureEmailSignupCompleted,
-		captureEmailSignupStep
-	} from '$lib/analytics/marketingEvents';
+	import { prepareEmailSignup, captureEmailSignupStep } from '$lib/analytics/marketingEvents';
 
 	interface Props {
 		/** Who the article is about; the diagram opens on their type. */
@@ -63,7 +60,6 @@
 
 		error = '';
 		loading = true;
-		track('submitted');
 
 		const body = new FormData();
 		body.append('email', normalizedEmail);
@@ -72,6 +68,10 @@
 
 		let errorCategory: 'network_error' | 'invalid_response' = 'network_error';
 		try {
+			await prepareEmailSignup(body, {
+				surface: 'blog_purpose',
+				sourcePath: window.location.pathname
+			});
 			const response = await fetch('/api/signups', { method: 'POST', body });
 			errorCategory = 'invalid_response';
 			const result = (await response.json()) as SignupResponse;
@@ -79,10 +79,6 @@
 			if (response.ok && result.ok === true) {
 				submitted = true;
 				email = '';
-				void captureEmailSignupCompleted({
-					surface: 'blog_purpose',
-					sourcePath: typeof window !== 'undefined' ? window.location.pathname : undefined
-				});
 				notifications.success("You're subscribed", 3000);
 				notifications.info('Check your inbox for the welcome note.', 5000);
 			} else if (result.code === 'already_exists') {

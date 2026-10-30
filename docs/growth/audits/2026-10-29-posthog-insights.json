@@ -1,0 +1,498 @@
+{
+	"audit_date": "2026-10-29",
+	"project": {
+		"id": 35460,
+		"organization": "9takes",
+		"name": "Default Project",
+		"timezone": "UTC"
+	},
+	"traffic_period_et": {
+		"current": "2026-10-22 through 2026-10-28",
+		"previous": "2026-10-15 through 2026-10-21"
+	},
+	"funnel_period_et": "2026-10-01 through 2026-10-28",
+	"filters": [
+		{
+			"key": "$host",
+			"operator": "exact",
+			"type": "event",
+			"value": "9takes.com"
+		},
+		{
+			"key": "$virt_traffic_type",
+			"operator": "exact",
+			"type": "event",
+			"value": ["Regular"]
+		}
+	],
+	"filterTestAccounts": true,
+	"caveats": [
+		"One-off exploration, not a governed saved metric; data_catalog scope unavailable.",
+		"Regular is PostHog traffic classification, not proof that every visitor is human.",
+		"Funnel counts are ordered unique-person funnels with a one-day conversion window.",
+		"Signup shown/start/submitted instrumentation is incomplete across surfaces and first appears October 19 in the queried window. Do not infer an overall signup conversion rate from the full-month step totals.",
+		"Signup endpoint returns {ok:true} for blocked submissions; clients emit email_signup_completed on ok:true. This is not proof a subscriber record was saved.",
+		"Connected Supabase account does not list 9takes, so saved subscriber counts were not verified.",
+		"Retention uses UTC calendar weeks; only mature cohorts should be interpreted. Do not interpret recent cohort zeros as churn.",
+		"Registration server event lacks $host. Domain-filtered queries omit it; project-wide count was 1."
+	],
+	"evidence": {
+		"trafficcomparison": {
+			"input": null,
+			"output": "Previous period:\nDate range|Aggregated value for Visitors|Aggregated value for Pageviews|Aggregated value for test_started|Aggregated value for comment_created\n2026-10-15 04:00:00+00:00 to 2026-10-22 03:59:59+00:00|1305|2229|5|4\n\nCurrent period:\nDate range|Aggregated value for Visitors|Aggregated value for Pageviews|Aggregated value for test_started|Aggregated value for comment_created\n2026-10-22 04:00:00+00:00 to 2026-10-29 03:59:59+00:00|1455|2114|5|5"
+		},
+		"humanoverview": {
+			"input": {
+				"tool": "query-web-overview",
+				"input": {
+					"dateRange": {
+						"date_from": "2026-10-22T04:00:00Z",
+						"date_to": "2026-10-29T03:59:59Z"
+					},
+					"properties": [
+						{
+							"key": "$host",
+							"operator": "exact",
+							"type": "event",
+							"value": "9takes.com"
+						},
+						{
+							"key": "$virt_traffic_type",
+							"operator": "exact",
+							"type": "event",
+							"value": ["Regular"]
+						}
+					],
+					"filterTestAccounts": true
+				}
+			},
+			"output": "{\"_posthogUrl\":\"https://us.posthog.com/project/35460/insights/new#q=%7B%22kind%22%3A%22InsightVizNode%22%2C%22source%22%3A%7B%22dateRange%22%3A%7B%22date_from%22%3A%222026-10-22T04%3A00%3A00Z%22%2C%22date_to%22%3A%222026-10-29T03%3A59%3A59Z%22%7D%2C%22doPathCleaning%22%3Afalse%2C%22filterTestAccounts%22%3Atrue%2C%22kind%22%3A%22WebOverviewQuery%22%2C%22properties%22%3A%5B%7B%22key%22%3A%22%24host%22%2C%22operator%22%3A%22exact%22%2C%22type%22%3A%22event%22%2C%22value%22%3A%229takes.com%22%7D%2C%7B%22key%22%3A%22%24virt_traffic_type%22%2C%22operator%22%3A%22exact%22%2C%22type%22%3A%22event%22%2C%22value%22%3A%5B%22Regular%22%5D%7D%5D%7D%7D\",\"query\":{\"dateRange\":{\"date_from\":\"2026-10-22T04:00:00Z\",\"date_to\":\"2026-10-29T03:59:59Z\"},\"doPathCleaning\":false,\"filterTestAccounts\":true,\"kind\":\"WebOverviewQuery\",\"properties\":[{\"key\":\"$host\",\"operator\":\"exact\",\"type\":\"event\",\"value\":\"9takes.com\"},{\"key\":\"$virt_traffic_type\",\"operator\":\"exact\",\"type\":\"event\",\"value\":[\"Regular\"]}]},\"results\":[{\"changeFromPreviousPct\":null,\"isIncreaseBad\":null,\"key\":\"visitors\",\"kind\":\"unit\",\"previous\":null,\"value\":1455},{\"changeFromPreviousPct\":null,\"isIncreaseBad\":null,\"key\":\"views\",\"kind\":\"unit\",\"previous\":null,\"value\":2114},{\"changeFromPreviousPct\":null,\"isIncreaseBad\":null,\"key\":\"sessions\",\"kind\":\"unit\",\"previous\":null,\"value\":1564},{\"changeFromPreviousPct\":null,\"isIncreaseBad\":null,\"key\":\"session duration\",\"kind\":\"duration_s\",\"previous\":null,\"value\":169.5601023017903},{\"changeFromPreviousPct\":null,\"isIncreaseBad\":true,\"key\":\"bounce rate\",\"kind\":\"percentage\",\"previous\":null,\"value\":56.649616368286445}]}"
+		},
+		"prioroverview": {
+			"input": null,
+			"output": "{\"_posthogUrl\":\"https://us.posthog.com/project/35460/insights/new#q=%7B%22kind%22%3A%22InsightVizNode%22%2C%22source%22%3A%7B%22dateRange%22%3A%7B%22date_from%22%3A%222026-10-15T04%3A00%3A00Z%22%2C%22date_to%22%3A%222026-10-22T03%3A59%3A59Z%22%7D%2C%22doPathCleaning%22%3Afalse%2C%22filterTestAccounts%22%3Atrue%2C%22kind%22%3A%22WebOverviewQuery%22%2C%22properties%22%3A%5B%7B%22key%22%3A%22%24host%22%2C%22operator%22%3A%22exact%22%2C%22type%22%3A%22event%22%2C%22value%22%3A%229takes.com%22%7D%2C%7B%22key%22%3A%22%24virt_traffic_type%22%2C%22operator%22%3A%22exact%22%2C%22type%22%3A%22event%22%2C%22value%22%3A%5B%22Regular%22%5D%7D%5D%7D%7D\",\"query\":{\"dateRange\":{\"date_from\":\"2026-10-15T04:00:00Z\",\"date_to\":\"2026-10-22T03:59:59Z\"},\"doPathCleaning\":false,\"filterTestAccounts\":true,\"kind\":\"WebOverviewQuery\",\"properties\":[{\"key\":\"$host\",\"operator\":\"exact\",\"type\":\"event\",\"value\":\"9takes.com\"},{\"key\":\"$virt_traffic_type\",\"operator\":\"exact\",\"type\":\"event\",\"value\":[\"Regular\"]}]},\"results\":[{\"changeFromPreviousPct\":null,\"isIncreaseBad\":null,\"key\":\"visitors\",\"kind\":\"unit\",\"previous\":null,\"value\":1305},{\"changeFromPreviousPct\":null,\"isIncreaseBad\":null,\"key\":\"views\",\"kind\":\"unit\",\"previous\":null,\"value\":2229},{\"changeFromPreviousPct\":null,\"isIncreaseBad\":null,\"key\":\"sessions\",\"kind\":\"unit\",\"previous\":null,\"value\":1436},{\"changeFromPreviousPct\":null,\"isIncreaseBad\":null,\"key\":\"session duration\",\"kind\":\"duration_s\",\"previous\":null,\"value\":233.98259052924791},{\"changeFromPreviousPct\":null,\"isIncreaseBad\":true,\"key\":\"bounce rate\",\"kind\":\"percentage\",\"previous\":null,\"value\":51.67130919220055}]}"
+		},
+		"humanchannels": {
+			"input": {
+				"tool": "query-web-stats",
+				"input": {
+					"dateRange": {
+						"date_from": "2026-10-22T04:00:00Z",
+						"date_to": "2026-10-29T03:59:59Z"
+					},
+					"properties": [
+						{
+							"key": "$host",
+							"operator": "exact",
+							"type": "event",
+							"value": "9takes.com"
+						},
+						{
+							"key": "$virt_traffic_type",
+							"operator": "exact",
+							"type": "event",
+							"value": ["Regular"]
+						}
+					],
+					"filterTestAccounts": true,
+					"breakdownBy": "InitialChannelType",
+					"includeBounceRate": true,
+					"limit": 10
+				}
+			},
+			"output": "{\"_posthogUrl\":\"https://us.posthog.com/project/35460/insights/new#q=%7B%22kind%22%3A%22InsightVizNode%22%2C%22source%22%3A%7B%22breakdownBy%22%3A%22InitialChannelType%22%2C%22dateRange%22%3A%7B%22date_from%22%3A%222026-10-22T04%3A00%3A00Z%22%2C%22date_to%22%3A%222026-10-29T03%3A59%3A59Z%22%7D%2C%22doPathCleaning%22%3Afalse%2C%22filterTestAccounts%22%3Atrue%2C%22includeAvgTimeOnPage%22%3Afalse%2C%22includeBounceRate%22%3Atrue%2C%22includeHost%22%3Afalse%2C%22kind%22%3A%22WebStatsTableQuery%22%2C%22limit%22%3A10%2C%22properties%22%3A%5B%7B%22key%22%3A%22%24host%22%2C%22operator%22%3A%22exact%22%2C%22type%22%3A%22event%22%2C%22value%22%3A%229takes.com%22%7D%2C%7B%22key%22%3A%22%24virt_traffic_type%22%2C%22operator%22%3A%22exact%22%2C%22type%22%3A%22event%22%2C%22value%22%3A%5B%22Regular%22%5D%7D%5D%7D%7D\",\"query\":{\"breakdownBy\":\"InitialChannelType\",\"dateRange\":{\"date_from\":\"2026-10-22T04:00:00Z\",\"date_to\":\"2026-10-29T03:59:59Z\"},\"doPathCleaning\":false,\"filterTestAccounts\":true,\"includeAvgTimeOnPage\":false,\"includeBounceRate\":true,\"includeHost\":false,\"kind\":\"WebStatsTableQuery\",\"limit\":10,\"properties\":[{\"key\":\"$host\",\"operator\":\"exact\",\"type\":\"event\",\"value\":\"9takes.com\"},{\"key\":\"$virt_traffic_type\",\"operator\":\"exact\",\"type\":\"event\",\"value\":[\"Regular\"]}]},\"results\":[[\"Organic Search\",[829,null],[1280,null],[0.40555555555555556,null],0.5666438824333562,\"\"],[\"Direct\",[609,null],[799,null],[0.7940251572327044,null],0.41626794258373206,\"\"],[\"AI\",[12,null],[18,null],[0.5384615384615384,null],0.008202323991797676,\"\"],[\"Referral\",[10,null],[13,null],[0.6666666666666666,null],0.00683526999316473,\"\"],[\"Organic Social\",[2,null],[3,null],[0,null],0.001367053998632946,\"\"],[\"Email\",[1,null],[1,null],[1,null],0.000683526999316473,\"\"]],\"columns\":[\"context.columns.breakdown_value\",\"context.columns.visitors\",\"context.columns.views\",\"context.columns.bounce_rate\",\"context.columns.ui_fill_fraction\",\"context.columns.cross_sell\"]}"
+		},
+		"priorchannels": {
+			"input": null,
+			"output": "{\"_posthogUrl\":\"https://us.posthog.com/project/35460/insights/new#q=%7B%22kind%22%3A%22InsightVizNode%22%2C%22source%22%3A%7B%22breakdownBy%22%3A%22InitialChannelType%22%2C%22dateRange%22%3A%7B%22date_from%22%3A%222026-10-15T04%3A00%3A00Z%22%2C%22date_to%22%3A%222026-10-22T03%3A59%3A59Z%22%7D%2C%22doPathCleaning%22%3Afalse%2C%22filterTestAccounts%22%3Atrue%2C%22includeAvgTimeOnPage%22%3Afalse%2C%22includeBounceRate%22%3Atrue%2C%22includeHost%22%3Afalse%2C%22kind%22%3A%22WebStatsTableQuery%22%2C%22limit%22%3A10%2C%22properties%22%3A%5B%7B%22key%22%3A%22%24host%22%2C%22operator%22%3A%22exact%22%2C%22type%22%3A%22event%22%2C%22value%22%3A%229takes.com%22%7D%2C%7B%22key%22%3A%22%24virt_traffic_type%22%2C%22operator%22%3A%22exact%22%2C%22type%22%3A%22event%22%2C%22value%22%3A%5B%22Regular%22%5D%7D%5D%7D%7D\",\"query\":{\"breakdownBy\":\"InitialChannelType\",\"dateRange\":{\"date_from\":\"2026-10-15T04:00:00Z\",\"date_to\":\"2026-10-22T03:59:59Z\"},\"doPathCleaning\":false,\"filterTestAccounts\":true,\"includeAvgTimeOnPage\":false,\"includeBounceRate\":true,\"includeHost\":false,\"kind\":\"WebStatsTableQuery\",\"limit\":10,\"properties\":[{\"key\":\"$host\",\"operator\":\"exact\",\"type\":\"event\",\"value\":\"9takes.com\"},{\"key\":\"$virt_traffic_type\",\"operator\":\"exact\",\"type\":\"event\",\"value\":[\"Regular\"]}]},\"results\":[[\"Organic Search\",[788,null],[1347,null],[0.38990825688073394,null],0.5974222896133434,\"\"],[\"Direct\",[515,null],[827,null],[0.7216117216117216,null],0.3904473085670963,\"\"],[\"AI\",[8,null],[33,null],[0.5,null],0.006065200909780136,\"\"],[\"Referral\",[6,null],[17,null],[0.5,null],0.004548900682335102,\"\"],[\"Organic Social\",[2,null],[5,null],[0,null],0.001516300227445034,\"\"]],\"columns\":[\"context.columns.breakdown_value\",\"context.columns.visitors\",\"context.columns.views\",\"context.columns.bounce_rate\",\"context.columns.ui_fill_fraction\",\"context.columns.cross_sell\"]}"
+		},
+		"humandevices": {
+			"input": null,
+			"output": "{\"_posthogUrl\":\"https://us.posthog.com/project/35460/insights/new#q=%7B%22kind%22%3A%22InsightVizNode%22%2C%22source%22%3A%7B%22breakdownBy%22%3A%22DeviceType%22%2C%22dateRange%22%3A%7B%22date_from%22%3A%222026-10-22T04%3A00%3A00Z%22%2C%22date_to%22%3A%222026-10-29T03%3A59%3A59Z%22%7D%2C%22doPathCleaning%22%3Afalse%2C%22filterTestAccounts%22%3Atrue%2C%22includeAvgTimeOnPage%22%3Afalse%2C%22includeBounceRate%22%3Atrue%2C%22includeHost%22%3Afalse%2C%22kind%22%3A%22WebStatsTableQuery%22%2C%22limit%22%3A10%2C%22properties%22%3A%5B%7B%22key%22%3A%22%24host%22%2C%22operator%22%3A%22exact%22%2C%22type%22%3A%22event%22%2C%22value%22%3A%229takes.com%22%7D%2C%7B%22key%22%3A%22%24virt_traffic_type%22%2C%22operator%22%3A%22exact%22%2C%22type%22%3A%22event%22%2C%22value%22%3A%5B%22Regular%22%5D%7D%5D%7D%7D\",\"query\":{\"breakdownBy\":\"DeviceType\",\"dateRange\":{\"date_from\":\"2026-10-22T04:00:00Z\",\"date_to\":\"2026-10-29T03:59:59Z\"},\"doPathCleaning\":false,\"filterTestAccounts\":true,\"includeAvgTimeOnPage\":false,\"includeBounceRate\":true,\"includeHost\":false,\"kind\":\"WebStatsTableQuery\",\"limit\":10,\"properties\":[{\"key\":\"$host\",\"operator\":\"exact\",\"type\":\"event\",\"value\":\"9takes.com\"},{\"key\":\"$virt_traffic_type\",\"operator\":\"exact\",\"type\":\"event\",\"value\":[\"Regular\"]}]},\"results\":[[\"Desktop\",[869,null],[1215,null],[0.6637744034707158,null],0.5968406593406593,\"\"],[\"Mobile\",[572,null],[878,null],[0.428343949044586,null],0.39285714285714285,\"\"],[\"Tablet\",[15,null],[21,null],[0.3333333333333333,null],0.010302197802197802,\"\"]],\"columns\":[\"context.columns.breakdown_value\",\"context.columns.visitors\",\"context.columns.views\",\"context.columns.bounce_rate\",\"context.columns.ui_fill_fraction\",\"context.columns.cross_sell\"]}"
+		},
+		"recentpages": {
+			"input": null,
+			"output": "Date range|Aggregated value for /personality-analysis breakdown for the value `/personality-analysis`|Aggregated value for /enneagram-corner/enneagram-compatibility-matrix breakdown for the value `/enneagram-corner/enneagram-compatibility-matrix`|Aggregated value for /personality-analysis/shawn-ryan breakdown for the value `/personality-analysis/shawn-ryan`|Aggregated value for / breakdown for the value `/`|Aggregated value for /personality-analysis/sky-bri breakdown for the value `/personality-analysis/sky-bri`|Aggregated value for /enneagram-corner/how-common-is-each-enneagram-type breakdown for the value `/enneagram-corner/how-common-is-each-enneagram-type`|Aggregated value for /enneagram-corner/enneagram-instinctual-subtypes breakdown for the value `/enneagram-corner/enneagram-instinctual-subtypes`|Aggregated value for /enneagram-corner/astrology-and-the-enneagram breakdown for the value `/enneagram-corner/astrology-and-the-enneagram`|Aggregated value for /personality-analysis/type/3 breakdown for the value `/personality-analysis/type/3`|Aggregated value for /personality-analysis/type/1 breakdown for the value `/personality-analysis/type/1`|Aggregated value for /enneagram-corner/enneagram-and-adhd-which-types-struggle-most breakdown for the value `/enneagram-corner/enneagram-and-adhd-which-types-struggle-most`|Aggregated value for /enneagram-corner/enneagram-test-comparison-2026 breakdown for the value `/enneagram-corner/enneagram-test-comparison-2026`|Aggregated value for /enneagram-corner/mental-health/enneagram-neurodivergence-guide breakdown for the value `/enneagram-corner/mental-health/enneagram-neurodivergence-guide`|Aggregated value for /personality-analysis/type/6 breakdown for the value `/personality-analysis/type/6`|Aggregated value for /enneagram-corner/enneagram-and-mental-illness breakdown for the value `/enneagram-corner/enneagram-and-mental-illness`|Aggregated value for Other (i.e. all remaining values) breakdown for the value `Other (i.e. all remaining values)`\n2026-10-22 04:00:00+00:00 to 2026-10-29 03:59:59+00:00|51|48|45|40|35|34|32|29|28|23|22|22|21|21|20|1288"
+		},
+		"fourweeksummary": {
+			"input": null,
+			"output": "Date range|Aggregated value for $pageview|Aggregated value for $pageview|Aggregated value for comment_created|Aggregated value for chorus_shown|Aggregated value for chorus_started|Aggregated value for chorus_revealed\n2026-10-01 04:00:00+00:00 to 2026-10-29 03:59:59+00:00|5017|7613|14|185|5|5"
+		},
+		"testfunnel": {
+			"input": {
+				"tool": "query-funnel",
+				"input": {
+					"series": [
+						{
+							"kind": "EventsNode",
+							"event": "$pageview",
+							"properties": [
+								{
+									"key": "$pathname",
+									"operator": "exact",
+									"type": "event",
+									"value": "/enneagram-test"
+								}
+							]
+						},
+						{
+							"kind": "EventsNode",
+							"event": "test_started"
+						},
+						{
+							"kind": "EventsNode",
+							"event": "test_result_shown"
+						}
+					],
+					"dateRange": {
+						"date_from": "2026-10-01T04:00:00Z",
+						"date_to": "2026-10-29T03:59:59Z"
+					},
+					"properties": [
+						{
+							"key": "$host",
+							"operator": "exact",
+							"type": "event",
+							"value": "9takes.com"
+						},
+						{
+							"key": "$virt_traffic_type",
+							"operator": "exact",
+							"type": "event",
+							"value": ["Regular"]
+						}
+					],
+					"filterTestAccounts": true,
+					"funnelsFilter": {
+						"funnelOrderType": "ordered",
+						"funnelWindowInterval": 1,
+						"funnelWindowIntervalUnit": "day"
+					}
+				}
+			},
+			"output": "Date range: 2026-10-01 04:00:00 to 2026-10-29 03:59:59 (UTC)\n\nMetric|$pageview|test_started|test_result_shown\nTotal person count|15|11|9\nConversion rate|100%|73.33%|60%\nDropoff rate|0%|26.67%|40%\nAverage conversion time|-|6s|5m 4s\nMedian conversion time|-|2s|4m 42s\n\nConversion and drop-off rates are calculated in overall. For example, \"Conversion rate: 9%\" means that 9% of users from the first step completed the funnel."
+		},
+		"emailfunnel": {
+			"input": {
+				"tool": "query-funnel",
+				"input": {
+					"series": [
+						{
+							"kind": "EventsNode",
+							"event": "email_signup_shown"
+						},
+						{
+							"kind": "EventsNode",
+							"event": "email_signup_started"
+						},
+						{
+							"kind": "EventsNode",
+							"event": "email_signup_submitted"
+						},
+						{
+							"kind": "EventsNode",
+							"event": "email_signup_completed"
+						}
+					],
+					"dateRange": {
+						"date_from": "2026-10-01T04:00:00Z",
+						"date_to": "2026-10-29T03:59:59Z"
+					},
+					"properties": [
+						{
+							"key": "$host",
+							"operator": "exact",
+							"type": "event",
+							"value": "9takes.com"
+						},
+						{
+							"key": "$virt_traffic_type",
+							"operator": "exact",
+							"type": "event",
+							"value": ["Regular"]
+						}
+					],
+					"filterTestAccounts": true,
+					"funnelsFilter": {
+						"funnelOrderType": "ordered",
+						"funnelWindowInterval": 1,
+						"funnelWindowIntervalUnit": "day"
+					}
+				}
+			},
+			"output": "Date range: 2026-10-01 04:00:00 to 2026-10-29 03:59:59 (UTC)\n\nMetric|email_signup_shown|email_signup_started|email_signup_submitted|email_signup_completed\nTotal person count|94|2|2|2\nConversion rate|100%|2.13%|2.13%|2.13%\nDropoff rate|0%|97.87%|97.87%|97.87%\nAverage conversion time|-|1m 11s|6s|2s\nMedian conversion time|-|1m 11s|6s|2s\n\nConversion and drop-off rates are calculated in overall. For example, \"Conversion rate: 9%\" means that 9% of users from the first step completed the funnel."
+		},
+		"betafunnel": {
+			"input": {
+				"tool": "query-funnel",
+				"input": {
+					"series": [
+						{
+							"kind": "EventsNode",
+							"event": "beta_invite_viewed"
+						},
+						{
+							"kind": "EventsNode",
+							"event": "beta_invite_opened"
+						},
+						{
+							"kind": "EventsNode",
+							"event": "beta_invite_submitted"
+						}
+					],
+					"dateRange": {
+						"date_from": "2026-10-01T04:00:00Z",
+						"date_to": "2026-10-29T03:59:59Z"
+					},
+					"properties": [
+						{
+							"key": "$host",
+							"operator": "exact",
+							"type": "event",
+							"value": "9takes.com"
+						},
+						{
+							"key": "$virt_traffic_type",
+							"operator": "exact",
+							"type": "event",
+							"value": ["Regular"]
+						}
+					],
+					"filterTestAccounts": true,
+					"funnelsFilter": {
+						"funnelOrderType": "ordered",
+						"funnelWindowInterval": 1,
+						"funnelWindowIntervalUnit": "day"
+					}
+				}
+			},
+			"output": "Date range: 2026-10-01 04:00:00 to 2026-10-29 03:59:59 (UTC)\n\nMetric|beta_invite_viewed|beta_invite_opened|beta_invite_submitted\nTotal person count|871|3|1\nConversion rate|100%|0.34%|0.11%\nDropoff rate|0%|99.66%|99.89%\nAverage conversion time|-|4m 32s|20s\nMedian conversion time|-|2m 55s|20s\n\nConversion and drop-off rates are calculated in overall. For example, \"Conversion rate: 9%\" means that 9% of users from the first step completed the funnel."
+		},
+		"currentbetafunnel": {
+			"input": null,
+			"output": "Date range: 2026-10-22 04:00:00 to 2026-10-29 03:59:59 (UTC)\n\nMetric|beta_invite_viewed|beta_invite_opened|beta_invite_submitted\nTotal person count|289|1|0\nConversion rate|100%|0.35%|0%\nDropoff rate|0%|99.65%|100%\nAverage conversion time|-|10m 40s|-\nMedian conversion time|-|10m 40s|-\n\nConversion and drop-off rates are calculated in overall. For example, \"Conversion rate: 9%\" means that 9% of users from the first step completed the funnel."
+		},
+		"questionfunnel": {
+			"input": {
+				"tool": "query-funnel",
+				"input": {
+					"series": [
+						{
+							"kind": "EventsNode",
+							"event": "question_impression"
+						},
+						{
+							"kind": "EventsNode",
+							"event": "comment_started"
+						},
+						{
+							"kind": "EventsNode",
+							"event": "comment_created"
+						}
+					],
+					"dateRange": {
+						"date_from": "2026-10-01T04:00:00Z",
+						"date_to": "2026-10-29T03:59:59Z"
+					},
+					"properties": [
+						{
+							"key": "$host",
+							"operator": "exact",
+							"type": "event",
+							"value": "9takes.com"
+						},
+						{
+							"key": "$virt_traffic_type",
+							"operator": "exact",
+							"type": "event",
+							"value": ["Regular"]
+						}
+					],
+					"filterTestAccounts": true,
+					"funnelsFilter": {
+						"funnelOrderType": "ordered",
+						"funnelWindowInterval": 1,
+						"funnelWindowIntervalUnit": "day"
+					}
+				}
+			},
+			"output": "Date range: 2026-10-01 04:00:00 to 2026-10-29 03:59:59 (UTC)\n\nMetric|question_impression|comment_started|comment_created\nTotal person count|71|5|4\nConversion rate|100%|7.04%|5.63%\nDropoff rate|0%|92.96%|94.37%\nAverage conversion time|-|3m 2s|2m 2s\nMedian conversion time|-|45s|1m 13s\n\nConversion and drop-off rates are calculated in overall. For example, \"Conversion rate: 9%\" means that 9% of users from the first step completed the funnel."
+		},
+		"promptfunnel": {
+			"input": {
+				"tool": "query-funnel",
+				"input": {
+					"series": [
+						{
+							"kind": "EventsNode",
+							"event": "strategic_question_seen"
+						},
+						{
+							"kind": "EventsNode",
+							"event": "strategic_question_answered"
+						}
+					],
+					"dateRange": {
+						"date_from": "2026-10-01T04:00:00Z",
+						"date_to": "2026-10-29T03:59:59Z"
+					},
+					"properties": [
+						{
+							"key": "$host",
+							"operator": "exact",
+							"type": "event",
+							"value": "9takes.com"
+						},
+						{
+							"key": "$virt_traffic_type",
+							"operator": "exact",
+							"type": "event",
+							"value": ["Regular"]
+						}
+					],
+					"filterTestAccounts": true,
+					"funnelsFilter": {
+						"funnelOrderType": "ordered",
+						"funnelWindowInterval": 1,
+						"funnelWindowIntervalUnit": "day"
+					}
+				}
+			},
+			"output": "Date range: 2026-10-01 04:00:00 to 2026-10-29 03:59:59 (UTC)\n\nMetric|strategic_question_seen|strategic_question_answered\nTotal person count|44|0\nConversion rate|100%|0%\nDropoff rate|0%|100%\nAverage conversion time|-|-\nMedian conversion time|-|-\n\nConversion and drop-off rates are calculated in overall. For example, \"Conversion rate: 9%\" means that 9% of users from the first step completed the funnel."
+		},
+		"conversions": {
+			"input": null,
+			"output": "Date range|Aggregated value for strategic_question_seen|Aggregated value for strategic_question_answered|Aggregated value for question_impression|Aggregated value for comment_started|Aggregated value for comment_created|Aggregated value for test_started|Aggregated value for test_result_shown|Aggregated value for email_signup_shown|Aggregated value for email_signup_started|Aggregated value for email_signup_submitted|Aggregated value for email_signup_completed|Aggregated value for registration_completed|Aggregated value for beta_invite_viewed|Aggregated value for beta_invite_opened|Aggregated value for beta_invite_submitted|Aggregated value for homepage_practice_started|Aggregated value for homepage_practice_revealed|Aggregated value for chorus_shown|Aggregated value for chorus_started|Aggregated value for chorus_submitted\n2026-10-01 04:00:00+00:00 to 2026-10-29 03:59:59+00:00|44|0|86|5|14|11|10|94|16|16|180|0|871|43|44|12|10|185|5|5"
+		},
+		"recentconversions": {
+			"input": null,
+			"output": "Date range|Aggregated value for email_signup_shown|Aggregated value for email_signup_started|Aggregated value for email_signup_submitted|Aggregated value for email_signup_completed|Aggregated value for beta_invite_viewed|Aggregated value for beta_invite_opened|Aggregated value for beta_invite_submitted|Aggregated value for strategic_question_seen|Aggregated value for strategic_question_answered|Aggregated value for test_started|Aggregated value for test_result_shown|Aggregated value for comment_created\n2026-10-22 04:00:00+00:00 to 2026-10-29 03:59:59+00:00|72|3|3|4|289|2|0|10|0|5|4|5"
+		},
+		"signupdaily": {
+			"input": null,
+			"output": "Date|email_signup_completed|email_signup_submitted|beta_invite_submitted|beta_invite_viewed\n2026-10-01|10|0|0|0\n2026-10-02|11|0|0|0\n2026-10-03|4|0|0|0\n2026-10-04|5|0|0|0\n2026-10-05|12|0|3|29\n2026-10-06|4|0|1|22\n2026-10-07|9|0|1|32\n2026-10-08|10|0|3|29\n2026-10-09|9|0|3|28\n2026-10-10|7|0|2|34\n2026-10-11|5|0|2|35\n2026-10-12|9|0|2|35\n2026-10-13|9|0|3|38\n2026-10-14|16|0|5|39\n2026-10-15|7|0|5|40\n2026-10-16|13|0|2|38\n2026-10-17|4|0|1|39\n2026-10-18|5|0|2|36\n2026-10-19|9|4|2|54\n2026-10-20|12|6|4|50\n2026-10-21|6|3|3|39\n2026-10-22|0|0|0|45\n2026-10-23|1|0|0|44\n2026-10-24|0|0|0|43\n2026-10-25|1|1|0|38\n2026-10-26|1|1|0|50\n2026-10-27|0|0|0|53\n2026-10-28|1|1|0|31\n2026-10-29|0|0|0|9"
+		},
+		"signupsurface": {
+			"input": {
+				"tool": "query-trends",
+				"input": {
+					"dateRange": {
+						"date_from": "2026-10-01T04:00:00Z",
+						"date_to": "2026-10-29T03:59:59Z"
+					},
+					"properties": [
+						{
+							"key": "$host",
+							"operator": "exact",
+							"type": "event",
+							"value": "9takes.com"
+						},
+						{
+							"key": "$virt_traffic_type",
+							"operator": "exact",
+							"type": "event",
+							"value": ["Regular"]
+						}
+					],
+					"filterTestAccounts": true,
+					"series": [
+						{
+							"kind": "EventsNode",
+							"event": "email_signup_completed",
+							"math": "dau"
+						}
+					],
+					"breakdownFilter": {
+						"breakdowns": [
+							{
+								"property": "surface",
+								"type": "event"
+							}
+						]
+					},
+					"trendsFilter": {
+						"display": "ActionsTable"
+					}
+				}
+			},
+			"output": "Date range|Aggregated value for email_signup breakdown for the value `email_signup`|Aggregated value for blog_purpose breakdown for the value `blog_purpose`\n2026-10-01 04:00:00+00:00 to 2026-10-29 03:59:59+00:00|157|93"
+		},
+		"signupdistribution": {
+			"input": null,
+			"output": "Date range|Aggregated value for /enneagram-corner/mental-health/enneagram-addiction-recovery-guide breakdown for the value `/enneagram-corner/mental-health/enneagram-addiction-recovery-guide`|Aggregated value for /personality-analysis breakdown for the value `/personality-analysis`|Aggregated value for /personality-analysis/lionel-messi breakdown for the value `/personality-analysis/lionel-messi`|Aggregated value for /personality-analysis/dario-amodei breakdown for the value `/personality-analysis/dario-amodei`|Aggregated value for /personality-analysis/sydney-sweeney breakdown for the value `/personality-analysis/sydney-sweeney`|Aggregated value for /personality-analysis/alex-karp breakdown for the value `/personality-analysis/alex-karp`|Aggregated value for /personality-analysis/jack-black breakdown for the value `/personality-analysis/jack-black`|Aggregated value for /personality-analysis/callum-turner breakdown for the value `/personality-analysis/callum-turner`|Aggregated value for /personality-analysis/ishowspeed breakdown for the value `/personality-analysis/ishowspeed`|Aggregated value for /personality-analysis/shawn-ryan breakdown for the value `/personality-analysis/shawn-ryan`|Aggregated value for /personality-analysis/type/1 breakdown for the value `/personality-analysis/type/1`\n2026-10-01 04:00:00+00:00 to 2026-10-29 03:59:59+00:00|79|77|29|20|17|16|8|1|1|1|1"
+		},
+		"signupdetail": {
+			"input": null,
+			"output": "event|day|path|browser|country|events|visitors\nemail_signup_completed|2026-10-27|/enneagram-corner/mental-health/enneagram-addiction-recovery-guide|Chrome|Germany|1|1\nemail_signup_completed|2026-10-27|/personality-analysis/lionel-messi|Chrome|Germany|1|1\nemail_signup_completed|2026-10-26|/personality-analysis/ishowspeed|Safari|United Kingdom|1|1\nemail_signup_completed|2026-10-25|/personality-analysis/shawn-ryan|Mobile Safari|United States|1|1\nemail_signup_completed|2026-10-23|/enneagram-corner/mental-health/enneagram-addiction-recovery-guide|Chrome|Germany|1|1\nbeta_invite_submitted|2026-10-21|/personality-analysis/lionel-messi|Chrome|United States|2|2\nemail_signup_completed|2026-10-21|/personality-analysis/lionel-messi|Chrome|United States|2|2\nemail_signup_completed|2026-10-21|/enneagram-corner/mental-health/enneagram-addiction-recovery-guide|Chrome|Norway|1|1\nemail_signup_completed|2026-10-21|/personality-analysis|Chrome|Romania|1|1\nemail_signup_completed|2026-10-21|/enneagram-corner/mental-health/enneagram-addiction-recovery-guide|Chrome|United States|1|1\nemail_signup_completed|2026-10-21|/personality-analysis|Chrome|The Netherlands|1|1\nemail_signup_completed|2026-10-20|/enneagram-corner/mental-health/enneagram-addiction-recovery-guide|Chrome|Germany|4|4\nemail_signup_completed|2026-10-20|/personality-analysis|Chrome|Germany|3|3\nemail_signup_completed|2026-10-20|/personality-analysis/lionel-messi|Chrome|Germany|2|2\nemail_signup_completed|2026-10-20|/personality-analysis|Chrome|Austria|2|2\nbeta_invite_submitted|2026-10-20|/personality-analysis/lionel-messi|Chrome|Germany|2|2\nemail_signup_completed|2026-10-20|/personality-analysis/alex-karp|Chrome|Sweden|1|1\nemail_signup_completed|2026-10-20|/personality-analysis|Chrome|The Netherlands|1|1\nemail_signup_completed|2026-10-20|/personality-analysis/dario-amodei|Chrome|Iceland|1|1\nemail_signup_completed|2026-10-20|/enneagram-corner/mental-health/enneagram-addiction-recovery-guide|Chrome|Romania|1|1\nbeta_invite_submitted|2026-10-20|/personality-analysis/dario-amodei|Chrome|Iceland|1|1\nbeta_invite_submitted|2026-10-20|/personality-analysis/alex-karp|Chrome|Germany|1|1\nemail_signup_completed|2026-10-20|/personality-analysis|Chrome|Sweden|1|1\nemail_signup_completed|2026-10-20|/personality-analysis/alex-karp|Chrome|Germany|1|1\nemail_signup_completed|2026-10-20|/personality-analysis|Chrome|United States|1|1\nbeta_invite_submitted|2026-10-20|/personality-analysis/alex-karp|Chrome|Austria|1|1\nemail_signup_completed|2026-10-20|/personality-analysis/alex-karp|Chrome|Austria|1|1\nemail_signup_completed|2026-10-20|/personality-analysis/sydney-sweeney|Chrome|Germany|1|1\nemail_signup_completed|2026-10-19|/personality-analysis|Chrome|Germany|2|2\nemail_signup_completed|2026-10-19|/personality-analysis/lionel-messi|Chrome|Sweden|1|1\nemail_signup_completed|2026-10-19|/personality-analysis|Chrome|Sweden|1|1\nemail_signup_completed|2026-10-19|/personality-analysis|Chrome|Norway|1|1\nemail_signup_completed|2026-10-19|/enneagram-corner/mental-health/enneagram-addiction-recovery-guide|Chrome|Hungary|1|1\nbeta_invite_submitted|2026-10-19|/personality-analysis/lionel-messi|Chrome|Sweden|1|1\nemail_signup_completed|2026-10-19|/personality-analysis/lionel-messi|Chrome|Hungary|1|1\nemail_signup_completed|2026-10-19|/personality-analysis/lionel-messi|Chrome|Germany|1|1\nemail_signup_completed|2026-10-19|/enneagram-corner/mental-health/enneagram-addiction-recovery-guide|Chrome|The Netherlands|1|1\nemail_signup_completed|2026-10-19|/enneagram-corner/mental-health/enneagram-addiction-recovery-guide|Chrome|United States|1|1\nemail_signup_completed|2026-10-19|/enneagram-corner/mental-health/enneagram-addiction-recovery-guide|Chrome|Germany|1|1\nemail_signup_completed|2026-10-19|/personality-analysis/dario-amodei|Chrome|United States|1|1"
+		},
+		"registrationall": {
+			"input": {
+				"tool": "query-trends",
+				"input": {
+					"dateRange": {
+						"date_from": "2026-10-01T04:00:00Z",
+						"date_to": "2026-10-29T03:59:59Z"
+					},
+					"filterTestAccounts": true,
+					"series": [
+						{
+							"kind": "EventsNode",
+							"event": "registration_completed",
+							"math": "dau"
+						}
+					],
+					"trendsFilter": {
+						"display": "ActionsTable"
+					}
+				}
+			},
+			"output": "Date range|Aggregated value for registration_completed\n2026-10-01 04:00:00+00:00 to 2026-10-29 03:59:59+00:00|1"
+		},
+		"retention": {
+			"input": {
+				"tool": "query-retention",
+				"input": {
+					"dateRange": {
+						"date_from": "2026-09-28T00:00:00Z",
+						"date_to": "2026-10-25T23:59:59Z"
+					},
+					"properties": [
+						{
+							"key": "$host",
+							"operator": "exact",
+							"type": "event",
+							"value": "9takes.com"
+						},
+						{
+							"key": "$virt_traffic_type",
+							"operator": "exact",
+							"type": "event",
+							"value": ["Regular"]
+						}
+					],
+					"filterTestAccounts": true,
+					"retentionFilter": {
+						"targetEntity": {
+							"id": "$pageview",
+							"type": "events"
+						},
+						"returningEntity": {
+							"id": "$pageview",
+							"type": "events"
+						},
+						"retentionType": "retention_recurring",
+						"period": "Week",
+						"totalIntervals": 4,
+						"cumulative": false,
+						"timeWindowMode": "strict_calendar_dates"
+					}
+				}
+			},
+			"output": "_posthogUrl: \"https://us.posthog.com/project/35460/insights/new#q=%7B%22kind%22%3A%22InsightVizNode%22%2C%22source%22%3A%7B%22dateRange%22%3A%7B%22date_from%22%3A%222026-09-28T00%3A00%3A00Z%22%2C%22date_to%22%3A%222026-10-25T23%3A59%3A59Z%22%7D%2C%22filterTestAccounts%22%3Atrue%2C%22kind%22%3A%22RetentionQuery%22%2C%22properties%22%3A%5B%7B%22key%22%3A%22%24host%22%2C%22operator%22%3A%22exact%22%2C%22type%22%3A%22event%22%2C%22value%22%3A%229takes.com%22%7D%2C%7B%22key%22%3A%22%24virt_traffic_type%22%2C%22operator%22%3A%22exact%22%2C%22type%22%3A%22event%22%2C%22value%22%3A%5B%22Regular%22%5D%7D%5D%2C%22retentionFilter%22%3A%7B%22aggregationPropertyType%22%3A%22event%22%2C%22aggregationType%22%3A%22count%22%2C%22cumulative%22%3Afalse%2C%22period%22%3A%22Week%22%2C%22retentionType%22%3A%22retention_recurring%22%2C%22returningEntity%22%3A%7B%22id%22%3A%22%24pageview%22%2C%22type%22%3A%22events%22%7D%2C%22targetEntity%22%3A%7B%22id%22%3A%22%24pageview%22%2C%22type%22%3A%22events%22%7D%2C%22timeWindowMode%22%3A%22strict_calendar_dates%22%2C%22totalIntervals%22%3A4%7D%7D%7D\"\nquery: {\n  \"dateRange\": {\n    \"date_from\": \"2026-09-28T00:00:00Z\",\n    \"date_to\": \"2026-10-25T23:59:59Z\"\n  },\n  \"filterTestAccounts\": true,\n  \"kind\": \"RetentionQuery\",\n  \"properties\": [\n    {\n      \"key\": \"$host\",\n      \"operator\": \"exact\",\n      \"type\": \"event\",\n      \"value\": \"9takes.com\"\n    },\n    {\n      \"key\": \"$virt_traffic_type\",\n      \"operator\": \"exact\",\n      \"type\": \"event\",\n      \"value\": [\n        \"Regular\"\n      ]\n    }\n  ],\n  \"retentionFilter\": {\n    \"aggregationPropertyType\": \"event\",\n    \"aggregationType\": \"count\",\n    \"cumulative\": false,\n    \"period\": \"Week\",\n    \"retentionType\": \"retention_recurring\",\n    \"returningEntity\": {\n      \"id\": \"$pageview\",\n      \"type\": \"events\"\n    },\n    \"targetEntity\": {\n      \"id\": \"$pageview\",\n      \"type\": \"events\"\n    },\n    \"timeWindowMode\": \"strict_calendar_dates\",\n    \"totalIntervals\": 4\n  }\n}\nresults[5]:\n  - breakdown_value: null\n    date: \"2026-09-27T00:00:00Z\"\n    label: Week 0\n    values[4]{aggregation_value,count,label}:\n      null,1213,Week 0\n      null,14,Week 1\n      null,9,Week 2\n      null,8,Week 3\n  - breakdown_value: null\n    date: \"2026-10-04T00:00:00Z\"\n    label: Week 1\n    values[4]{aggregation_value,count,label}:\n      null,1138,Week 0\n      null,20,Week 1\n      null,11,Week 2\n      null,6,Week 3\n  - breakdown_value: null\n    date: \"2026-10-11T00:00:00Z\"\n    label: Week 2\n    values[4]{aggregation_value,count,label}:\n      null,1230,Week 0\n      null,32,Week 1\n      null,9,Week 2\n      null,0,Week 3\n  - breakdown_value: null\n    date: \"2026-10-18T00:00:00Z\"\n    label: Week 3\n    values[4]{aggregation_value,count,label}:\n      null,1354,Week 0\n      null,28,Week 1\n      null,0,Week 2\n      null,0,Week 3\n  - breakdown_value: null\n    date: \"2026-10-25T00:00:00Z\"\n    label: Week 4\n    values[4]{aggregation_value,count,label}:\n      null,1085,Week 0\n      null,0,Week 1\n      null,0,Week 2\n      null,0,Week 3"
+		},
+		"traffictypes": {
+			"input": null,
+			"output": "Date range|Aggregated value for Regular breakdown for the value `Regular`|Aggregated value for Bot breakdown for the value `Bot`|Aggregated value for Automation breakdown for the value `Automation`\n2026-10-01 04:00:00+00:00 to 2026-10-29 03:59:59+00:00|7613|63|8"
+		}
+	}
+}

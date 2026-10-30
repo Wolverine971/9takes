@@ -1,8 +1,7 @@
 // src/lib/analytics/marketingEvents.ts
-import { capture } from '$lib/analytics/posthog';
-
-export type EmailSignupSurface =
-	'strategic_question' | 'email_signup' | 'email_invite' | 'enneagram_sidebar' | 'blog_purpose';
+import { capture, getPostHogRequestContext } from '$lib/analytics/posthog';
+import { parseEmailSignupAnalytics, type EmailSignupSurface } from './emailSignupContext';
+export type { EmailSignupSurface } from './emailSignupContext';
 
 type SharedMarketingContext = {
 	surface: string;
@@ -16,7 +15,7 @@ type RevealCompletedInput = SharedMarketingContext & {
 	alreadyAnswered?: boolean;
 };
 
-type EmailSignupCompletedInput = SharedMarketingContext & {
+type EmailSignupInput = SharedMarketingContext & {
 	surface: EmailSignupSurface;
 };
 
@@ -53,11 +52,26 @@ export function captureRevealCompleted(input: RevealCompletedInput): Promise<voi
 	});
 }
 
-export function captureEmailSignupCompleted(input: EmailSignupCompletedInput): Promise<void> {
-	return capture('email_signup_completed', {
-		...sharedProperties(input),
-		server_confirmed: true
-	});
+/** Completion is emitted only by the server after insertion, never from an HTTP success response. */
+export async function prepareEmailSignup(body: FormData, input: EmailSignupInput): Promise<void> {
+	let timeout: ReturnType<typeof setTimeout> | undefined;
+	try {
+		// Analytics must not hold up a signup when the SDK or auth resolution is unavailable.
+		const identity = await Promise.race([
+			getPostHogRequestContext(),
+			new Promise<null>((resolve) => {
+				timeout = setTimeout(() => resolve(null), 800);
+			})
+		]);
+		const context = parseEmailSignupAnalytics({ ...identity, ...input });
+		if (!context) return;
+		body.set('analytics', JSON.stringify(context));
+		await captureEmailSignupStep({ ...input, step: 'submitted' });
+	} catch {
+		// Missing analytics must never prevent the signup request.
+	} finally {
+		clearTimeout(timeout);
+	}
 }
 
 /** Bounded funnel labels only; never send drafts, email addresses or exception messages. */
@@ -80,13 +94,14 @@ export function captureChorusInteraction(input: {
 }
 
 export function captureEmailSignupStep(
-	input: EmailSignupCompletedInput & {
+	input: EmailSignupInput & {
 		step: 'shown' | 'started' | 'submitted' | 'failed';
 		errorCategory?: 'validation' | 'http_error' | 'network_error' | 'invalid_response';
 	}
 ): Promise<void> {
 	return capture(`email_signup_${input.step}`, {
 		...sharedProperties(input),
+		signup_tracking_version: 2,
 		error_category: input.errorCategory
 	});
 }

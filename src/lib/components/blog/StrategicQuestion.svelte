@@ -29,7 +29,7 @@
 	import { observeQualifiedQuestionImpression } from '$lib/analytics/questionEvents';
 	import { getOrCreateVisitorId } from '$lib/analytics/visitorIdentity';
 	import {
-		captureEmailSignupCompleted,
+		prepareEmailSignup,
 		captureRevealCompleted,
 		captureTypeSelected
 	} from '$lib/analytics/marketingEvents';
@@ -248,27 +248,16 @@
 		body.append('email', normalized);
 		body.append('form_extra', honeypot);
 		body.append('_timeToken', String(Date.now() - loadedAt));
-		// Source tag rides along for measurability; the endpoint safely ignores
-		// fields it does not read yet, so this stays within its payload shape.
-		body.append('source', 'strategic_question');
 
 		try {
+			await prepareEmailSignup(body, {
+				surface: 'strategic_question',
+				sourcePath: window.location.pathname
+			});
 			const res = await fetch('/api/signups', { method: 'POST', body });
 			const result = (await res.json()) as { ok: boolean; code?: string; message?: string };
 			if (result.ok || result.code === 'already_exists') {
 				emailState = 'done';
-				if (result.ok) {
-					void capture('strategic_question_email_signup', {
-						blog_slug: blogSlug,
-						question_url: questionUrl,
-						campaign
-					});
-					void captureEmailSignupCompleted({
-						surface: 'strategic_question',
-						sourcePath: browser ? window.location.pathname : `/enneagram-corner/${blogSlug}`,
-						campaign
-					});
-				}
 			} else {
 				emailError = result.message || 'We could not subscribe you. Please try again.';
 			}

@@ -1,5 +1,7 @@
 // src/lib/server/posthogCapture.ts
 import { PUBLIC_POSTHOG_HOST, PUBLIC_POSTHOG_KEY } from '$env/static/public';
+import { v5 as uuidv5 } from 'uuid';
+import { parseEmailSignupAnalytics } from '$lib/analytics/emailSignupContext';
 
 export type ReplyNotificationEventName =
 	| 'reply_notification_queued'
@@ -38,6 +40,64 @@ type RegistrationCompletedContext = {
 };
 
 const POSTHOG_HOST = (PUBLIC_POSTHOG_HOST || 'https://us.i.posthog.com').replace(/\/$/, '');
+
+type EmailSignupCompletedContext = {
+	signupId: string;
+	analytics: unknown;
+	host: string;
+	userAgent: string;
+};
+
+export function buildEmailSignupCompletedPostHogPayload(context: EmailSignupCompletedContext) {
+	const analytics = parseEmailSignupAnalytics(context.analytics);
+	if (!analytics || !context.signupId) return null;
+	return {
+		api_key: PUBLIC_POSTHOG_KEY,
+		event: 'email_signup_completed',
+		distinct_id: analytics.distinctId,
+		// RFC 4122 URL namespace: stable event UUID for retries of the same saved subscriber.
+		uuid: uuidv5(
+			`9takes:email_signup_completed:${context.signupId}`,
+			'6ba7b811-9dad-11d1-80b4-00c04fd430c8'
+		),
+		properties: {
+			$process_person_profile: false,
+			$geoip_disable: true,
+			$host: context.host,
+			$raw_user_agent: context.userAgent.slice(0, 1000),
+			...(analytics.sessionId ? { $session_id: analytics.sessionId } : {}),
+			...(analytics.sourcePath
+				? { $pathname: analytics.sourcePath, source_path: analytics.sourcePath }
+				: {}),
+			surface: analytics.surface,
+			server_confirmed: true,
+			capture_source: 'server',
+			signup_tracking_version: 2
+		}
+	};
+}
+
+export async function captureEmailSignupCompleted(
+	context: EmailSignupCompletedContext,
+	options: Pick<CaptureOptions, 'fetchImpl'> = {}
+): Promise<boolean> {
+	if (!PUBLIC_POSTHOG_KEY) return false;
+	const payload = buildEmailSignupCompletedPostHogPayload(context);
+	if (!payload) return false;
+	try {
+		const response = await (options.fetchImpl ?? fetch)(`${POSTHOG_HOST}/capture/`, {
+			method: 'POST',
+			headers: { 'Content-Type': 'application/json' },
+			body: JSON.stringify(payload),
+			signal: AbortSignal.timeout(1000)
+		});
+		if (!response.ok) console.warn('Signup analytics capture failed', { status: response.status });
+		return response.ok;
+	} catch {
+		console.warn('Signup analytics capture failed', { status: 'network' });
+		return false;
+	}
+}
 
 export function buildReplyNotificationPostHogPayload(
 	event: ReplyNotificationEventName,

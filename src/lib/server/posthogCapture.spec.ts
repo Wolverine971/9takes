@@ -7,11 +7,85 @@ vi.mock('$env/static/public', () => ({
 }));
 
 import {
+	buildEmailSignupCompletedPostHogPayload,
+	captureEmailSignupCompleted,
 	buildRegistrationCompletedPostHogPayload,
 	buildReplyNotificationPostHogPayload,
 	captureRegistrationCompleted,
 	captureReplyNotificationEvent
 } from './posthogCapture';
+
+describe('saved newsletter signup analytics', () => {
+	const signup = {
+		signupId: '456',
+		host: '9takes.com',
+		userAgent: 'Mozilla/5.0',
+		analytics: {
+			distinctId: '019a0000-0000-7000-8000-000000000001',
+			sessionId: '019a0000-0000-7000-8000-000000000002',
+			surface: 'blog_purpose',
+			sourcePath: '/personality-analysis/example',
+			email: 'private@example.com',
+			server_confirmed: false
+		}
+	};
+
+	it('preserves funnel identity, stamps server provenance, and allowlists request metadata', () => {
+		const payload = buildEmailSignupCompletedPostHogPayload(signup)!;
+		expect(payload.distinct_id).toBe(signup.analytics.distinctId);
+		expect(payload.properties).toMatchObject({
+			$session_id: signup.analytics.sessionId,
+			$host: '9takes.com',
+			source_path: '/personality-analysis/example',
+			capture_source: 'server',
+			signup_tracking_version: 2,
+			server_confirmed: true
+		});
+		expect(payload.uuid).toBe(buildEmailSignupCompletedPostHogPayload(signup)!.uuid);
+		expect(JSON.stringify(payload)).not.toContain('private@example.com');
+	});
+
+	it('drops query strings and invalid identifiers instead of sending personal data', () => {
+		expect(
+			buildEmailSignupCompletedPostHogPayload({
+				...signup,
+				analytics: { ...signup.analytics, distinctId: 'private@example.com' }
+			})
+		).toBeNull();
+		const payload = buildEmailSignupCompletedPostHogPayload({
+			...signup,
+			analytics: {
+				...signup.analytics,
+				sourcePath: '/email?email=private@example.com',
+				sessionId: 'not-a-session'
+			}
+		})!;
+		expect(payload.properties).not.toHaveProperty('source_path');
+		expect(payload.properties).not.toHaveProperty('$session_id');
+	});
+
+	it('skips unavailable/opted-out browser tracking and tolerates capture failures', async () => {
+		const fetchImpl = vi.fn().mockRejectedValue(new Error('offline'));
+		await expect(
+			captureEmailSignupCompleted({ ...signup, analytics: null }, { fetchImpl })
+		).resolves.toBe(false);
+		expect(fetchImpl).not.toHaveBeenCalled();
+		await expect(captureEmailSignupCompleted(signup, { fetchImpl })).resolves.toBe(false);
+	});
+
+	it('sends the verified event with a bounded network request', async () => {
+		const fetchImpl = vi.fn().mockResolvedValue({ ok: true, status: 200 });
+		await expect(captureEmailSignupCompleted(signup, { fetchImpl })).resolves.toBe(true);
+		const [url, request] = fetchImpl.mock.calls[0];
+		expect(url).toBe('https://us.i.posthog.com/capture/');
+		expect(request.signal).toBeInstanceOf(AbortSignal);
+		expect(JSON.parse(request.body)).toMatchObject({
+			event: 'email_signup_completed',
+			distinct_id: signup.analytics.distinctId,
+			properties: { capture_source: 'server', signup_tracking_version: 2 }
+		});
+	});
+});
 
 const context = {
 	outboxId: 91,

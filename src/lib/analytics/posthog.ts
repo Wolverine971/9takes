@@ -142,3 +142,17 @@ export async function capture(event: string, props?: Record<string, unknown>): P
 	const posthog = cached ?? (await loadPostHog());
 	posthog?.capture(event, props);
 }
+
+/** Use the resolved browser identity for server captures; respect analytics opt-out. */
+export async function getPostHogRequestContext(): Promise<{
+	distinctId: string;
+	sessionId: string;
+} | null> {
+	await identityResolutionPromise;
+	const posthog = cached ?? (await loadPostHog());
+	if (!posthog || posthog.has_opted_out_capturing()) return null;
+	return {
+		distinctId: posthog.get_distinct_id(),
+		sessionId: posthog.get_session_id()
+	};
+}

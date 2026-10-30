@@ -5,7 +5,7 @@ description: 'A 9x9 Enneagram compatibility chart and calculator for all 45 type
 author: 'DJ Wayne'
 date: '2025-08-24'
 loc: 'https://9takes.com/enneagram-corner/enneagram-compatibility-matrix'
-lastmod: '2026-01-16'
+lastmod: '2026-10-29'
 changefreq: monthly
 priority: '0.9'
 published: true
@@ -50,6 +50,8 @@ There is no universally best Enneagram pairing. Compatibility depends more on he
 ## Enneagram compatibility calculator
 
 Pick your type and theirs. You'll see that pairing's fault line, what pulls you together, where it cracks, and what keeps it working. The page link updates as you pick, so you can send the exact pairing to the other person.
+
+**Not sure of your type?** [Take the free Enneagram test](/enneagram-test), then come back to explore your pairing.
 
 <CompatibilityCalculator />
 

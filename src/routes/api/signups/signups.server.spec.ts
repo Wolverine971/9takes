@@ -6,7 +6,8 @@ const {
 	sendEmailWithTrackingMock,
 	loggerMocks,
 	getNewsletterSignupProtectionStateMock,
-	recordNewsletterSignupSecurityEventMock
+	recordNewsletterSignupSecurityEventMock,
+	captureEmailSignupCompletedMock
 } = vi.hoisted(() => ({
 	adminSupabaseMock: {
 		from: vi.fn(),
@@ -19,7 +20,8 @@ const {
 		error: vi.fn()
 	},
 	getNewsletterSignupProtectionStateMock: vi.fn(),
-	recordNewsletterSignupSecurityEventMock: vi.fn()
+	recordNewsletterSignupSecurityEventMock: vi.fn(),
+	captureEmailSignupCompletedMock: vi.fn()
 }));
 
 vi.mock('$lib/server/supabaseAdmin', () => ({
@@ -43,14 +45,19 @@ vi.mock('../../../emails', () => ({
 	signupWelcomeEmail: vi.fn(() => '<p>welcome</p>')
 }));
 
+vi.mock('$lib/server/posthogCapture', () => ({
+	captureEmailSignupCompleted: captureEmailSignupCompletedMock
+}));
+
 import { POST } from './+server';
 
 function buildRequest(
 	email: string,
-	options: { honeypot?: string; timeToken?: string; userAgent?: string } = {}
+	options: { honeypot?: string; timeToken?: string; userAgent?: string; analytics?: unknown } = {}
 ) {
 	const formData = new FormData();
 	formData.append('email', email);
+	if (options.analytics) formData.append('analytics', JSON.stringify(options.analytics));
 	if (options.honeypot !== undefined) {
 		formData.append('form_extra', options.honeypot);
 	}
@@ -111,7 +118,7 @@ function buildSignupTable(options?: {
 
 function buildEvent(
 	email = 'NewUser@Example.com',
-	options: { honeypot?: string; timeToken?: string; userAgent?: string } = {}
+	options: { honeypot?: string; timeToken?: string; userAgent?: string; analytics?: unknown } = {}
 ) {
 	return {
 		request: buildRequest(email, options),
@@ -125,6 +132,7 @@ function buildEvent(
 describe('POST /api/signups', () => {
 	beforeEach(() => {
 		vi.clearAllMocks();
+		captureEmailSignupCompletedMock.mockResolvedValue(true);
 		adminSupabaseMock.rpc.mockResolvedValue({ data: true, error: null });
 		sendEmailWithTrackingMock.mockResolvedValue({ success: true });
 		getNewsletterSignupProtectionStateMock.mockResolvedValue({
@@ -136,7 +144,9 @@ describe('POST /api/signups', () => {
 
 	it('uses the admin client for anonymous signup inserts and attaches first-touch metadata', async () => {
 		const tableMocks = buildSignupTable({ insertedId: 456 });
-		const event = buildEvent();
+		const event = buildEvent(undefined, {
+			analytics: { distinctId: '019a0000-0000-7000-8000-000000000001', surface: 'email_signup' }
+		});
 
 		const response = await POST(event as any);
 		const body = await response.json();
@@ -146,6 +156,20 @@ describe('POST /api/signups', () => {
 		expect(adminSupabaseMock.from).toHaveBeenCalledWith('signups');
 		expect(tableMocks.duplicateQuery.eq).toHaveBeenCalledWith('email', 'newuser@example.com');
 		expect(tableMocks.insertQuery.insert).toHaveBeenCalledWith([{ email: 'newuser@example.com' }]);
+		expect(captureEmailSignupCompletedMock).toHaveBeenCalledTimes(1);
+		expect(captureEmailSignupCompletedMock).toHaveBeenCalledWith(
+			expect.objectContaining({
+				signupId: '456',
+				host: 'localhost',
+				analytics: JSON.stringify({
+					distinctId: '019a0000-0000-7000-8000-000000000001',
+					surface: 'email_signup'
+				})
+			})
+		);
+		expect(tableMocks.insertQuery.single.mock.invocationCallOrder[0]).toBeLessThan(
+			captureEmailSignupCompletedMock.mock.invocationCallOrder[0]
+		);
 		expect(adminSupabaseMock.rpc).toHaveBeenCalledWith('attach_signup_first_touch', {
 			p_signup_id: 456,
 			p_fingerprint: 'visitor-123'
@@ -187,6 +211,7 @@ describe('POST /api/signups', () => {
 		expect(tableMocks.insertQuery.insert).not.toHaveBeenCalled();
 		expect(adminSupabaseMock.rpc).not.toHaveBeenCalled();
 		expect(sendEmailWithTrackingMock).not.toHaveBeenCalled();
+		expect(captureEmailSignupCompletedMock).not.toHaveBeenCalled();
 		expect(recordNewsletterSignupSecurityEventMock).toHaveBeenCalledWith(
 			expect.objectContaining({
 				outcome: 'already_exists',
@@ -205,6 +230,7 @@ describe('POST /api/signups', () => {
 		expect(body).toEqual({ ok: true });
 		expect(adminSupabaseMock.from).not.toHaveBeenCalled();
 		expect(sendEmailWithTrackingMock).not.toHaveBeenCalled();
+		expect(captureEmailSignupCompletedMock).not.toHaveBeenCalled();
 		expect(recordNewsletterSignupSecurityEventMock).toHaveBeenCalledWith(
 			expect.objectContaining({
 				outcome: 'honeypot',
@@ -228,6 +254,7 @@ describe('POST /api/signups', () => {
 		expect(body).toEqual({ ok: true });
 		expect(adminSupabaseMock.from).not.toHaveBeenCalled();
 		expect(sendEmailWithTrackingMock).not.toHaveBeenCalled();
+		expect(captureEmailSignupCompletedMock).not.toHaveBeenCalled();
 		expect(recordNewsletterSignupSecurityEventMock).toHaveBeenCalledWith(
 			expect.objectContaining({
 				outcome: 'auth_abuse',
@@ -235,6 +262,41 @@ describe('POST /api/signups', () => {
 				context: { reason: 'identifier_auth_abuse' }
 			})
 		);
+	});
+
+	it.each([{ timeToken: '100' }, { userAgent: 'HeadlessChrome bot' }])(
+		'does not capture blocked submissions (%j)',
+		async (options) => {
+			const response = await POST(buildEvent('bot@example.com', options) as any);
+			expect(await response.json()).toEqual({ ok: true });
+			expect(captureEmailSignupCompletedMock).not.toHaveBeenCalled();
+		}
+	);
+
+	it('does not capture failed inserts', async () => {
+		buildSignupTable({ insertError: { message: 'database unavailable' } });
+		const response = await POST(buildEvent() as any);
+		expect(response.status).toBe(500);
+		expect(captureEmailSignupCompletedMock).not.toHaveBeenCalled();
+	});
+
+	it('does not capture rate-limited fake successes', async () => {
+		getNewsletterSignupProtectionStateMock.mockResolvedValueOnce({
+			authAbuse: false,
+			rateLimited: true,
+			reason: 'ip_rate_limit'
+		});
+		const response = await POST(buildEvent() as any);
+		expect(await response.json()).toEqual({ ok: true });
+		expect(captureEmailSignupCompletedMock).not.toHaveBeenCalled();
+		expect(adminSupabaseMock.from).not.toHaveBeenCalled();
+	});
+
+	it('keeps a saved signup successful when analytics delivery fails', async () => {
+		buildSignupTable();
+		captureEmailSignupCompletedMock.mockResolvedValueOnce(false);
+		const response = await POST(buildEvent() as any);
+		expect(await response.json()).toEqual({ ok: true });
 	});
 
 	it('rejects local parts with consecutive dots before inserting', async () => {
@@ -251,6 +313,7 @@ describe('POST /api/signups', () => {
 		});
 		expect(adminSupabaseMock.from).not.toHaveBeenCalled();
 		expect(sendEmailWithTrackingMock).not.toHaveBeenCalled();
+		expect(captureEmailSignupCompletedMock).not.toHaveBeenCalled();
 		expect(recordNewsletterSignupSecurityEventMock).toHaveBeenCalledWith(
 			expect.objectContaining({
 				outcome: 'blocked_email_pattern',

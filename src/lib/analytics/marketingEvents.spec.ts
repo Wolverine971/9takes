@@ -1,14 +1,20 @@
 // src/lib/analytics/marketingEvents.spec.ts
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 
-const { captureMock } = vi.hoisted(() => ({ captureMock: vi.fn() }));
+const { captureMock, requestContextMock } = vi.hoisted(() => ({
+	captureMock: vi.fn(),
+	requestContextMock: vi.fn()
+}));
 
-vi.mock('$lib/analytics/posthog', () => ({ capture: captureMock }));
+vi.mock('$lib/analytics/posthog', () => ({
+	capture: captureMock,
+	getPostHogRequestContext: requestContextMock
+}));
 
 import {
 	captureChorusInteraction,
 	captureEmailSignupStep,
-	captureEmailSignupCompleted,
+	prepareEmailSignup,
 	captureHomepageLinkClicked,
 	captureHomepagePractice,
 	captureRevealCompleted,
@@ -64,17 +70,52 @@ describe('marketing conversion events', () => {
 		});
 	});
 
-	it('captures canonical email signup completion with a bounded surface', async () => {
-		await captureEmailSignupCompleted({
+	it('passes the browser identity and captures submission, never completion', async () => {
+		requestContextMock.mockResolvedValue({
+			distinctId: '019a0000-0000-7000-8000-000000000001',
+			sessionId: '019a0000-0000-7000-8000-000000000002'
+		});
+		const body = new FormData();
+		body.set('email', 'private@example.com');
+		await prepareEmailSignup(body, {
 			surface: 'blog_purpose',
 			sourcePath: '/enneagram-corner/example'
 		});
 
-		expect(captureMock).toHaveBeenCalledWith('email_signup_completed', {
+		expect(captureMock).toHaveBeenCalledWith('email_signup_submitted', {
 			surface: 'blog_purpose',
 			source_path: '/enneagram-corner/example',
-			server_confirmed: true
+			signup_tracking_version: 2,
+			error_category: undefined
 		});
+		expect(JSON.parse(String(body.get('analytics')))).toMatchObject({
+			distinctId: '019a0000-0000-7000-8000-000000000001',
+			sessionId: '019a0000-0000-7000-8000-000000000002'
+		});
+		expect(String(body.get('analytics'))).not.toContain('private@example.com');
+		expect(captureMock).toHaveBeenCalledTimes(1);
+	});
+
+	it('does not pass analytics identity when tracking is opted out', async () => {
+		requestContextMock.mockResolvedValue(null);
+		const body = new FormData();
+		await prepareEmailSignup(body, { surface: 'email_signup' });
+		expect(body.has('analytics')).toBe(false);
+		expect(captureMock).not.toHaveBeenCalled();
+	});
+
+	it('lets the signup proceed if analytics never becomes ready', async () => {
+		vi.useFakeTimers();
+		try {
+			requestContextMock.mockReturnValue(new Promise(() => {}));
+			const body = new FormData();
+			const pending = prepareEmailSignup(body, { surface: 'email_signup' });
+			await vi.advanceTimersByTimeAsync(800);
+			await pending;
+			expect(body.has('analytics')).toBe(false);
+		} finally {
+			vi.useRealTimers();
+		}
 	});
 
 	it('captures valid self-reported type selection and ignores invalid types', async () => {

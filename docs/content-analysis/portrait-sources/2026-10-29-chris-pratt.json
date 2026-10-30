@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-29",
+  "slug": "chris-pratt",
+  "name": "Chris Pratt",
+  "type": "3",
+  "status": "prepared_installed",
+  "installedAt": "2026-10-29T22:46:38.191Z",
+  "deployed": false,
+  "blogFile": "src/blog/people/drafts/Chris-Pratt.md",
+  "source": {
+    "page": "https://commons.wikimedia.org/wiki/File:Chris_Pratt_(28630392396).jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Chris_Pratt_%2828630392396%29.jpg",
+    "photographerOrCredit": "Gage Skidmore",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "rights": "Openly licensed; original and adapted portrait are distributed under CC BY-SA 2.0. Attribution and modifications credited in the profile.",
+    "localOriginal": "output/portrait-sources/2026-10-29-chris-pratt/chris-pratt-wide.jpg",
+    "width": 5760,
+    "height": 3840,
+    "sha256": "f96a6fa3562cedf19b2c72c0f6e2f8b8c753fc13cfce38a27b467786c2a62d90"
+  },
+  "transformations": {
+    "tool": "Built-in image_gen for background alpha extraction; original photographed RGB retained",
+    "prompt": "Use case: background-extraction\nEdit target: this real photograph of Chris Pratt. Remove only the convention backdrop, logos and the tiny chair edge at bottom left. Keep Chris Pratt exactly as photographed, including his whole hair, beard, smiling face, black T-shirt, natural shoulders, arms, raised hand, ring, watch and necklace. Preserve the exact original canvas, subject position and scale. Do not crop, rotate, expand or move him. Do not reconstruct or retouch the face; preserve photographic texture, original lighting and all facial features. Use genuine alpha transparency with clean natural hair and clothing edges and no background fringe. No added shadows, text, purple mark or other graphics.",
+    "sourceCrop": {
+      "left": 600,
+      "top": 0,
+      "width": 4100,
+      "height": 3840
+    },
+    "segmentation": {
+      "sourceRgbPreserved": true,
+      "generatedRgbUsed": false,
+      "generatedAlphaUsed": true,
+      "alphaRegistration": {
+        "method": "eye_landmark_similarity",
+        "scale": 0.3165988053945343,
+        "angleRadians": -0.00471158854156592
+      },
+      "rotationClockwiseDegrees": -10.507489616294274
+    },
+    "composition": {
+      "input": "output/portrait-processed/2026-10-29-chris-pratt/composition-cutout.png",
+      "height": 1078,
+      "anchorX": 2720.2443976958352,
+      "anchorY": 1326.6045554813732,
+      "erode": 6,
+      "contrast": 1.04,
+      "brightness": 1,
+      "targetX": 540,
+      "targetY": 490
+    },
+    "template": "face-line-template.png"
+  },
+  "assets": {
+    "full": {
+      "path": "static/types/3s/Chris-Pratt.webp",
+      "previewPath": "output/portrait-preflight/2026-10-29-chris-pratt/types/3s/Chris-Pratt.webp",
+      "width": 1080,
+      "height": 1080,
+      "bytes": 64016,
+      "alpha": true,
+      "sha256": "7da89bcefc9f184b41691057247eaf9d98fbd01118c379bfb9dfc28a87e0739a"
+    },
+    "thumbnail": {
+      "path": "static/types/3s/s-Chris-Pratt.webp",
+      "previewPath": "output/portrait-preflight/2026-10-29-chris-pratt/types/3s/s-Chris-Pratt.webp",
+      "width": 480,
+      "height": 480,
+      "bytes": 16176,
+      "alpha": true,
+      "sha256": "3cdc9512505c0260abc108b5cd6bed0d32edc85455e2b6b5becb780b4be59549"
+    }
+  },
+  "master": {
+    "path": "output/portrait-processed/2026-10-29-chris-pratt/Chris-Pratt-master.png",
+    "width": 1080,
+    "height": 1080,
+    "sha256": "666817dde3a1d4143e1bc187a7f7ffb314105f08e8d8c36a54130188de597711"
+  },
+  "validation": {
+    "opaqueTemplatePixelsPreserved": 22457,
+    "visualReview": "Reviewed dark and light themes: sharp original face, natural shoulders, clean transparent edges, eye-centered purple mark.",
+    "installedBytesMatchPreview": true,
+    "portraitCheck": {
+      "ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    "imageResolver": {
+      "full": "/types/3s/Chris-Pratt.webp",
+      "thumbnail": "/types/3s/s-Chris-Pratt.webp"
+    },
+    "staticAssetBudgetsPassed": true
+  },
+  "review": {
+    "url": "http://127.0.0.1:8917/chris-pratt/",
+    "screenshot": "output/portrait-preflight/2026-10-22-review/chris-pratt/preview.png",
+    "lightScreenshot": "output/portrait-preflight/2026-10-22-review/chris-pratt/preview-light.png",
+    "prompt": "output/portrait-processed/2026-10-29-chris-pratt/prompt.txt"
+  }
+}

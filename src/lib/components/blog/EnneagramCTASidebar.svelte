@@ -7,7 +7,7 @@
 	import { prefersReducedMotion } from 'svelte/motion';
 	import { notifications } from '../molecules/notifications';
 	import { getEnneagramSidebarCopy } from './enneagramSidebarCopy';
-	import { captureEmailSignupCompleted } from '$lib/analytics/marketingEvents';
+	import { prepareEmailSignup } from '$lib/analytics/marketingEvents';
 
 	type SignupResponse = { ok: boolean; code?: string; message?: string };
 
@@ -55,16 +55,16 @@
 		body.append('_timeToken', String(Date.now() - formLoadTime));
 
 		try {
+			await prepareEmailSignup(body, {
+				surface: 'enneagram_sidebar',
+				sourcePath: window.location.pathname
+			});
 			const response = await fetch('/api/signups', { method: 'POST', body });
 			const result = (await response.json()) as SignupResponse;
 
 			if (result.ok) {
 				submitted = true;
 				email = '';
-				void captureEmailSignupCompleted({
-					surface: 'enneagram_sidebar',
-					sourcePath: browser ? window.location.pathname : undefined
-				});
 				notifications.success("You're subscribed", 3000);
 				notifications.info('Check your inbox for the welcome note.', 5000);
 			} else if (result.code === 'already_exists') {
