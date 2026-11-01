@@ -1,19 +1,24 @@
 <!-- src/lib/components/questionPrintOut/Preview.svelte -->
 <script lang="ts">
-	import { createEventDispatcher } from 'svelte';
+	import type { ComponentProps } from 'svelte';
 	import type { Writable } from 'svelte/store';
 	import Rubix from '../icons/rubix.svelte';
 	import Frame from './frame.svelte';
 	import Scribble from '../atoms/scribble.svelte';
 	import QuestionDisplay from '../questions/QuestionDisplay.svelte';
 
-	export let style: { color: string; fontFamily: string; fontSize: string };
-	export let images: string[];
-	export let question;
 	const cornerSize = 10;
-	export let imagePositions: Writable<{ x: number; y: number; isBackground: boolean }[]>;
+	interface Props {
+		style: { color: string; fontFamily: string; fontSize: string };
+		images: string[];
+		question: ComponentProps<typeof QuestionDisplay>['question'] | null | undefined;
+		imagePositions: Writable<{ x: number; y: number; isBackground: boolean }[]>;
+		onupdateposition?: (detail: { index: number; x: number; y: number }) => void;
+		ontogglebackground?: (detail: { index: number }) => void;
+	}
 
-	const dispatch = createEventDispatcher();
+	let { style, images, question, imagePositions, onupdateposition, ontogglebackground }: Props =
+		$props();
 
 	function handleDragStart(event: DragEvent, index: number) {
 		event.dataTransfer?.setData('text/plain', String(index));
@@ -29,11 +34,11 @@
 		const target = event.currentTarget as HTMLElement;
 		const x = event.clientX - target.getBoundingClientRect().left;
 		const y = event.clientY - target.getBoundingClientRect().top;
-		dispatch('updatePosition', { index, x, y });
+		onupdateposition?.({ index, x, y });
 	}
 
 	function handleToggleBackground(index: number) {
-		dispatch('toggleBackground', { index });
+		ontogglebackground?.({ index });
 	}
 </script>
 
@@ -42,8 +47,8 @@
 	style:color={style.color}
 	style:font-family={style.fontFamily}
 	style:font-size={style.fontSize}
-	on:dragover={handleDragOver}
-	on:drop={handleDrop}
+	ondragover={handleDragOver}
+	ondrop={handleDrop}
 	role="region"
 >
 	<div
@@ -53,15 +58,15 @@
 	>
 		<Frame color={style.color} {cornerSize} />
 		<span class="brand">
-			<Rubix height={50} width={50} svgStyle={'margin: 1rem'} />
-			<Scribble text={'9takes'} />
+			<Rubix height={50} width={50} svgStyle="margin: 1rem" />
+			<Scribble text="9takes" />
 		</span>
 		{#if question}
 			<QuestionDisplay {question} addQuestionMark={true} />
 		{/if}
 	</div>
 
-	{#each images as image, i}
+	{#each images as image, i (`${i}-${image}`)}
 		{@const position = $imagePositions[i]}
 		{#if !position.isBackground}
 			<img
@@ -70,8 +75,8 @@
 				class="draggable-image"
 				style="position: absolute; left: {position.x}px; top: {position.y}px;"
 				draggable="true"
-				on:dragstart={(e) => handleDragStart(e, i)}
-				on:dblclick={() => handleToggleBackground(i)}
+				ondragstart={(e) => handleDragStart(e, i)}
+				ondblclick={() => handleToggleBackground(i)}
 			/>
 		{:else}
 			<div

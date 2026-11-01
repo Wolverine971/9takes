@@ -3,6 +3,9 @@
 	import { goto, invalidateAll } from '$app/navigation';
 	import { supabase } from '$lib/supabase';
 	import { onMount } from 'svelte';
+	import type { LayoutProps } from './$types';
+
+	let { children }: LayoutProps = $props();
 
 	onMount(() => {
 		const {
@@ -23,4 +26,4 @@
 	});
 </script>
 
-<slot />
+{@render children()}

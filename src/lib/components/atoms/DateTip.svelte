@@ -1,13 +1,18 @@
 <!-- src/lib/components/atoms/DateTip.svelte -->
 <!-- This component displays dating tips in a highlighted box with a distinctive styling -->
 
-<script>
-	// You can add props here if needed
-	// For example: export let tipType = "general";
+<script lang="ts">
+	import type { Snippet } from 'svelte';
+
+	interface Props {
+		children?: Snippet;
+	}
+
+	let { children }: Props = $props();
 </script>
 
 <div class="date-tip">
-	<slot></slot>
+	{@render children?.()}
 </div>
 
 <style>

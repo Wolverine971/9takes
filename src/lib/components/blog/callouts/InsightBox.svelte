@@ -5,18 +5,22 @@
   (2026-06-10 consolidation); public props are unchanged.
 -->
 <script lang="ts">
+	import type { Snippet } from 'svelte';
 	import Callout from './Callout.svelte';
 
 	type Tone = 'success' | 'info' | 'warning' | 'neutral';
 
-	export let title = '';
-	export let tone: Tone = 'success';
+	interface Props {
+		title?: string;
+		tone?: Tone;
+		/**
+		 * Body content: an HTML string when dynamically mounted from Supabase
+		 * content, or the markdown/default content snippet otherwise.
+		 */
+		children?: Snippet | string;
+	}
 
-	/**
-	 * Optional children content (used when dynamically mounted from Supabase content)
-	 * Falls back to slot content when not provided
-	 */
-	export let children: string | ((...args: unknown[]) => unknown) = '';
+	let { title = '', tone = 'success', children = '' }: Props = $props();
 
 	// Map this component's historical tone names onto the Callout base tones.
 	const TONE_MAP = {
@@ -30,7 +34,7 @@
 <Callout tone={TONE_MAP[tone] ?? 'success'} {title}>
 	{#if typeof children === 'string' && children.trim() !== ''}
 		{@html children}
-	{:else}
-		<slot />
+	{:else if typeof children === 'function'}
+		{@render children()}
 	{/if}
 </Callout>

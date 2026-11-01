@@ -52,6 +52,7 @@
 	function isTomorrow(dateStr: string | null): boolean {
 		if (!dateStr) return false;
 		const date = new Date(dateStr);
+		// eslint-disable-next-line svelte/prefer-svelte-reactivity -- temporary date used for a calculation inside this function, never held in state
 		const tomorrow = new Date();
 		tomorrow.setDate(tomorrow.getDate() + 1);
 		return date.toDateString() === tomorrow.toDateString();
@@ -120,7 +121,7 @@
 				onchange={(e) => setFilter('client', e.currentTarget.value)}
 			>
 				<option value="all">All Clients</option>
-				{#each data.clients as client}
+				{#each data.clients as client (client.id)}
 					<option value={client.id}>{client.name}</option>
 				{/each}
 			</select>
@@ -135,7 +136,7 @@
 				<Button href="/admin/consulting/clients">Go to Clients to Schedule</Button>
 			</div>
 		{:else}
-			{#each data.sessions as session}
+			{#each data.sessions as session (session.id)}
 				<div class="session-card" class:today={isToday(session.scheduled_at)}>
 					<div class="session-datetime">
 						<span

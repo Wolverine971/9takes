@@ -6,15 +6,15 @@
 
 	let { data, form }: PageProps = $props();
 
-	let texts = $state<Record<number, string>>({});
+	type PendingDraft = (typeof data.pending)[number];
+
+	// The operator's text per draft; a draft nobody has touched shows Draft A.
+	let edits = $state<Record<number, string>>({});
 	let running = $state(false);
 
-	$effect(() => {
-		// Seed each pending editor with Draft A unless the operator already typed.
-		for (const draft of data.pending) {
-			if (texts[draft.id] === undefined) texts[draft.id] = draft.draft_a;
-		}
-	});
+	function textFor(draft: PendingDraft): string {
+		return edits[draft.id] ?? draft.draft_a;
+	}
 
 	function formatDate(value: string | null | undefined): string {
 		if (!value) return '—';
@@ -119,8 +119,8 @@
 							<button
 								type="button"
 								class="draft-option"
-								class:active={texts[draft.id] === draft.draft_a}
-								onclick={() => (texts[draft.id] = draft.draft_a)}
+								class:active={textFor(draft) === draft.draft_a}
+								onclick={() => (edits[draft.id] = draft.draft_a)}
 							>
 								<span class="option-label">Draft A</span>
 								<span>{draft.draft_a}</span>
@@ -128,8 +128,8 @@
 							<button
 								type="button"
 								class="draft-option"
-								class:active={texts[draft.id] === draft.draft_b}
-								onclick={() => (texts[draft.id] = draft.draft_b)}
+								class:active={textFor(draft) === draft.draft_b}
+								onclick={() => (edits[draft.id] = draft.draft_b)}
 							>
 								<span class="option-label">Draft B</span>
 								<span>{draft.draft_b}</span>
@@ -149,7 +149,9 @@
 								name="text"
 								rows={3}
 								maxlength={5000}
-								bind:value={texts[draft.id]}
+								bind:value={
+									() => textFor(draft), (value) => (edits[draft.id] = String(value ?? ''))
+								}
 								required
 							/>
 							<div class="actions">

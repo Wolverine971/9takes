@@ -15,7 +15,7 @@
     exist; bespoke specimens are provisional and tracked for replacement.
 -->
 <script lang="ts">
-	import { onDestroy, onMount } from 'svelte';
+	import { onMount } from 'svelte';
 	import type { PageData } from './$types';
 	import {
 		Button,
@@ -30,7 +30,7 @@
 		Textarea
 	} from '$lib/components/atoms';
 	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
-	import { applyTheme, themePreference, type ThemePreference } from '$lib/stores/theme';
+	import { applyTheme, theme as themeState } from '$lib/stores/theme.svelte';
 	// Listing + callout atoms (extracted 2026-06-10, design audit) — build rule:
 	// if it isn't on /styleguide, it doesn't exist.
 	import IndexHero from '$lib/components/marketing/IndexHero.svelte';
@@ -45,29 +45,15 @@
 	// Theme state — follows the canonical production preference so the control
 	// label and the root-level token block always describe the same theme.
 	// ---------------------------------------------------------------------------
-	let theme = $state<'dark' | 'light'>('dark');
-	let preference: ThemePreference = $state('dark');
+	const theme = $derived(themeState.preference);
 	let bannerDismissed = $state(false);
 
-	function syncEffectiveTheme() {
-		theme = preference;
-	}
-
-	const unsubscribeTheme = themePreference.subscribe((value) => {
-		preference = value;
-		syncEffectiveTheme();
-	});
-
-	onDestroy(unsubscribeTheme);
-
 	onMount(() => {
-		applyTheme(preference);
+		applyTheme(themeState.preference);
 	});
 
 	function toggleTheme() {
-		const next = theme === 'dark' ? 'light' : 'dark';
-		themePreference.set(next);
-		applyTheme(next);
+		themeState.set(theme === 'dark' ? 'light' : 'dark');
 	}
 
 	function openModalPreview() {
@@ -423,7 +409,7 @@
 			<div class="sg-toc-inner">
 				<span class="mono sg-toc-title">CONTENTS</span>
 				<ol class="sg-toc-list">
-					{#each sections as s}
+					{#each sections as s (s.id)}
 						<li>
 							<a class="mono" href={`#${s.id}`}>
 								<span class="sg-toc-label">{s.label}</span>
@@ -548,7 +534,7 @@
 				</p>
 
 				<div class="sg-type-grid">
-					{#each enneagramTypes as t}
+					{#each enneagramTypes as t (t.num)}
 						<article class="sg-type-card" style={`--type-stripe: var(${t.token});`}>
 							<span class="mono sg-type-num">№ {String(t.num).padStart(2, '0')}</span>
 							<p class="sg-type-name">{t.name}</p>
@@ -570,7 +556,7 @@
 				</p>
 
 				<div class="sg-type-scale">
-					{#each typeScale as t}
+					{#each typeScale as t (t.token)}
 						<div class="sg-type-row">
 							<div class="sg-type-meta">
 								<span class="mono sg-type-token">{t.token}</span>
@@ -604,7 +590,7 @@
 				</p>
 
 				<div class="sg-space-rail">
-					{#each spacing as s}
+					{#each spacing as s (s.token)}
 						<div class="sg-space-row">
 							<span class="mono sg-space-token">{s.token}</span>
 							<div class="sg-space-bar-wrap">
@@ -720,11 +706,11 @@
 				<!-- ----- Buttons ----- -->
 				<h3 class="sg-h3">Buttons</h3>
 				<div class="sg-btn-grid">
-					{#each buttonVariants as variant}
+					{#each buttonVariants as variant (variant)}
 						<div class="sg-btn-row">
 							<span class="mono sg-btn-label">{variant}</span>
 							<div class="sg-btn-line">
-								{#each buttonSizes as size}
+								{#each buttonSizes as size (size)}
 									<Button {variant} {size}>
 										{variant === 'primary'
 											? 'Drop your take'
@@ -758,7 +744,7 @@
 					<Field for="sg-type" label="Enneagram type">
 						<Select id="sg-type">
 							<option value="">Choose your type…</option>
-							{#each enneagramTypes as t}
+							{#each enneagramTypes as t (t.num)}
 								<option value={t.num}>Type {t.num} · {t.name}</option>
 							{/each}
 						</Select>
@@ -908,7 +894,7 @@
 					numbers and labels that repeat a heading.
 				</p>
 				<div class="sg-kicker-stack">
-					{#each sectionKickerExamples as k}
+					{#each sectionKickerExamples as k (k.num)}
 						<SectionKicker num={k.num} label={k.label} />
 					{/each}
 				</div>
@@ -922,7 +908,7 @@
 					<code>CorpusStatCallout</code> all render through it. Tones map to the V5 palette;
 					<code>data</code> is reserved for stat moments.
 				</p>
-				{#each calloutTones as t}
+				{#each calloutTones as t (t)}
 					<Callout tone={t} label={`${t} tone`} title="Title line (optional)">
 						<p>
 							Body copy. <strong>Strong text</strong> brightens; links read
@@ -1053,7 +1039,7 @@
 								role="img"
 								aria-label="Enneagram diagram — 9 dots connected by triangle 9-3-6 and hexad 1-4-2-8-5-7"
 							>
-								{#each enneagramPositions as p}
+								{#each enneagramPositions as p (p.type)}
 									<circle cx={p.cx} cy={p.cy} r="4.5" class="sg-enn-dot" />
 								{/each}
 								<polygon
@@ -1225,7 +1211,7 @@
 				<span class="mono" role="columnheader">LIGHT</span>
 				<span class="mono" role="columnheader">USE</span>
 			</div>
-			{#each rows as r}
+			{#each rows as r (r.token)}
 				<div class="sg-swatch-row" role="row">
 					<span class="mono sg-swatch-token" role="cell">{r.token}</span>
 					<span class="sg-swatch-cell" role="cell">

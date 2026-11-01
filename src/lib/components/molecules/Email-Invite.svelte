@@ -5,10 +5,14 @@
 	import Envelope from '$lib/components/icons/envelope.svelte';
 	import { prepareEmailSignup } from '$lib/analytics/marketingEvents';
 
-	export let cta: string = 'Who else needs to know about 9takes?';
-	let email: string = '';
-	let error: string = '';
-	let formExtra = '';
+	interface Props {
+		cta?: string;
+	}
+
+	let { cta = 'Who else needs to know about 9takes?' }: Props = $props();
+	let email = $state('');
+	let error = $state('');
+	let formExtra = $state('');
 	let formLoadTime = Date.now();
 
 	onMount(() => {
@@ -69,7 +73,7 @@
 		<button
 			type="button"
 			value="Send"
-			on:click={submit}
+			onclick={submit}
 			disabled={email.length ? false : true}
 			class:form-send={true}
 			class={email.length ? 'regular' : 'disabled'}

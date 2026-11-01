@@ -118,7 +118,7 @@
 	<meta name="twitter:image:alt" content={computedTwitterImageAlt} />
 
 	<!-- Additional Meta Tags -->
-	{#each additionalMeta as meta}
+	{#each additionalMeta as meta (`${meta.name ?? meta.property}=${meta.content}`)}
 		{#if meta.name}
 			<meta name={meta.name} content={meta.content} />
 		{:else if meta.property}

@@ -9,26 +9,24 @@
   RelatedPosts, FAQSection, AuthorBio, BlogPurpose, QuickAnswer, BookSessionCTA, PopCard)
   are preserved — only the layout chrome and scoped styles migrate.
 
-  Stays in Svelte 4 syntax (`export let`, `$:`) because the contentStore /
-  onMount / mount / afterUpdate / $page wiring would ripple if converted to
-  runes. Runes migration belongs in a follow-up sub-pass.
+  Runes mode (2026-11-01 migration): derived page data, the TOC fed by an
+  article attachment, and placeholder components re-mounted by an effect that
+  follows the article HTML.
 
   Bridge tokens (--lamp-*, --night-*, --stone-*, --ink-*, --data-*,
   --type-N-color) ship globally in src/scss/index.scss.
 -->
 <script lang="ts">
-	import { onMount, tick, afterUpdate } from 'svelte';
+	import { onMount, tick, untrack } from 'svelte';
 	import { mount, unmount, type Component } from 'svelte';
-	import { writable } from 'svelte/store';
 	import type { PageData } from './$types';
 	import { browser } from '$app/environment';
-	import { page } from '$app/stores';
 	import {
 		buildPersonalityImagePath,
 		formatPersonalityDisplayName
 	} from '$lib/utils/personalityAnalysis';
 	import { ENNEAGRAM_TYPE_COLORS } from '$lib/constants/enneagramColors';
-	import { getAuthShellUser } from '$lib/authShell';
+	import { getAuthShell } from '$lib/authShell.svelte';
 	import type { PublicBlogCommentRow } from '../../api/personality-analysis/[slug]/discussion/+server';
 	import { buildArticleFlow } from '$lib/utils/articleChorusSlot';
 	import { SectionKicker, Spinner } from '$lib/components/atoms';
@@ -42,7 +40,7 @@
 	import PeopleSuggestionsSideBar from '$lib/components/blog/PeopleSuggestionsSideBar.svelte';
 	import BetaRailCard from '$lib/components/blog/BetaRailCard.svelte';
 	import ExperimentalTherapyInvite from '$lib/components/blog/ExperimentalTherapyInvite.svelte';
-	import TableOfContents from '$lib/components/blog/TableOfContents.svelte';
+	import TableOfContents, { trackArticleHtml } from '$lib/components/blog/TableOfContents.svelte';
 	// Lazy-loaded RelatedPosts component
 	import RelatedPosts from '$lib/components/molecules/RelatedPosts.svelte';
 	// import MarkdownRenderer from '$lib/components/MarkdownRenderer.svelte';
@@ -56,7 +54,7 @@
 	import FAQSection from '$lib/components/blog/FAQSection.svelte';
 	import OpenCaseNote from '$lib/components/blog/OpenCaseNote.svelte';
 
-	export let data: PageData;
+	let { data }: { data: PageData } = $props();
 
 	function toStringValue(value: unknown, fallback: string = ''): string {
 		return typeof value === 'string' ? value : value == null ? fallback : String(value);
@@ -147,6 +145,7 @@
 		{ tag: 'QuickAnswer', component: QuickAnswer },
 		{ tag: 'EvidenceFigure', component: EvidenceFigure as Component<Record<string, any>> }
 	];
+	// eslint-disable-next-line svelte/prefer-svelte-reactivity -- bookkeeping for imperatively mounted components, never rendered
 	const mountedPlaceholders = new Map<
 		string,
 		{ instance: ReturnType<typeof mount>; target: HTMLElement }
@@ -156,37 +155,38 @@
 
 	// Signed-in state is hydrated in the browser (the HTML is shared), so read it
 	// from the auth shell rather than the page payload.
-	const authShellUser = getAuthShellUser();
-
-	let mounted = false;
-	let commentsLoaded = false;
-	let commentsVisible = false;
-	let currentPath = '';
+	const authShell = getAuthShell();
 
 	// Use direct reactive assignments to ensure updates on navigation
-	let post: PageData['post'];
+	const post = $derived(data.post);
+	// A client-side navigation to another person reuses this page. Per-person
+	// state below resets when this changes (a primitive, so a refreshed `data`
+	// for the same person doesn't reset anything).
+	const personSlug = $derived(data.post.slug);
+
+	/** Returns `value`; reading `key` makes a writable $derived reset to it when the key changes. */
+	function resetPerPerson<T>(_key: string, value: T): T {
+		return value;
+	}
+
+	let commentsLoaded = false;
+	let commentsVisible = $derived(resetPerPerson(personSlug, false));
+
 	// The page HTML is shared by every visitor (ISR), so the discussion arrives
 	// from /api/personality-analysis/[slug]/discussion when the section is near
 	// the viewport. The give-first gate is still decided on the server.
-	let comments: DiscussionComment[] = [];
-	let userHasAnswered = false;
+	let comments = $derived(resetPerPerson(personSlug, [] as DiscussionComment[]));
+	let userHasAnswered = $derived(resetPerPerson(personSlug, false));
 	let discussionLoaded = false;
 	let discussionRequest: Promise<void> | null = null;
-	let postMeta: App.BlogPost;
+	const postMeta = $derived(normalizePost(post));
 	// Server-filtered to published pages; falls back to the raw column so the
 	// rail still renders if an older payload comes through without the field.
-	let postSuggestions: string[];
-	let postDisplayName: string = formatPersonalityDisplayName(data.post.person || data.post.slug);
-	let postImagePath: string;
-
-	$: post = data.post;
-	$: postMeta = normalizePost(post);
-	$: postSuggestions = data.suggestedPeople ?? toStringArray(postMeta.suggestions);
-	$: postDisplayName = formatPersonalityDisplayName(postMeta.person || postMeta.slug);
-	$: caseFileTitle = postDisplayName;
-	$: postImagePath = buildPersonalityImagePath(
-		postMeta.enneagram,
-		postMeta.person || postMeta.slug
+	const postSuggestions = $derived(data.suggestedPeople ?? toStringArray(postMeta.suggestions));
+	const postDisplayName = $derived(formatPersonalityDisplayName(postMeta.person || postMeta.slug));
+	const caseFileTitle = $derived(postDisplayName);
+	const postImagePath = $derived(
+		buildPersonalityImagePath(postMeta.enneagram, postMeta.person || postMeta.slug)
 	);
 
 	// ------------------------------------------------------------------
@@ -196,34 +196,38 @@
 	// built from type metadata (name + title) instead. If those columns
 	// are added in the future, this is the place to wire them in.
 	// ------------------------------------------------------------------
-	$: typeNum = toEnneagramNumber(postMeta.enneagram);
-	$: typeMeta = typeNum ? ENNEAGRAM_TYPE_COLORS[typeNum] : null;
+	const typeNum = $derived(toEnneagramNumber(postMeta.enneagram));
+	const typeMeta = $derived(typeNum ? ENNEAGRAM_TYPE_COLORS[typeNum] : null);
 	// Type dossier panel — the densest dossier component used to ship only on
 	// enneagram-corner type pillars while this (the actual dossier surface)
 	// was generic prose. Design audit 2026-06-10. CTA bridges to the pillar.
-	$: typeDossier = typeNum ? enneagramTypeProfiles[typeNum] : null;
+	const typeDossier = $derived(typeNum ? enneagramTypeProfiles[typeNum] : null);
 	// The give-first Chorus: the person's own question while it is public,
 	// otherwise a proven live question (chosen in +page.server.ts). Identical
 	// for every visitor, so it can live in the ISR copy.
-	$: chorus = data.chorus ?? null;
+	const chorus = $derived(data.chorus ?? null);
 	// Open case: a thin-record profile (pipeline-set profile_format). Adds the
 	// header marker and the closing format note; standard profiles are untouched.
-	$: isOpenCase = data.isOpenCase === true;
+	const isOpenCase = $derived(data.isOpenCase === true);
 	// The article author chooses the dossier's exact location with an
 	// <EnneagramTypeDossier /> element in the source markdown. Without that
 	// explicit slot, the article renders uninterrupted and no dossier appears.
 	// The Chorus goes at the section break nearest 40% of the article (about 42%
 	// of engaged readers reach the middle, 19% the bottom); articles too short
 	// for a clean break keep it at the bottom. Either block may come first.
-	$: articleFlow = buildArticleFlow(post.content, { withChorus: Boolean(chorus) });
-	$: typeName = typeMeta?.name ?? '';
-	$: typeNameUpper = typeName ? typeName.toUpperCase() : '';
-	$: personaTitle = toStringValue(postMeta.persona_title).trim();
-	$: thumbImagePath = buildPersonalityImagePath(
-		postMeta.enneagram,
-		postMeta.person || postMeta.slug,
-		'thumbnail'
-	);
+	const articleFlow = $derived(buildArticleFlow(post.content, { withChorus: Boolean(chorus) }));
+	// Each segment keyed by its role in the flow: the dossier and the Chorus
+	// appear at most once, prose runs by their order (prose-1 is the run the TOC reads).
+	const flowSegments = $derived.by(() => {
+		let proseRun = 0;
+		return articleFlow.segments.map((segment) => ({
+			segment,
+			key: segment.kind === 'prose' ? `prose-${++proseRun}` : segment.kind
+		}));
+	});
+	const typeName = $derived(typeMeta?.name ?? '');
+	const typeNameUpper = $derived(typeName ? typeName.toUpperCase() : '');
+	const personaTitle = $derived(toStringValue(postMeta.persona_title).trim());
 
 	// Deterministic 4-digit dossier number — predictable per-slug so the
 	// catalog feels real. Same person → same №.
@@ -235,17 +239,7 @@
 		return String(Math.abs(h) % 10000).padStart(4, '0');
 	}
 
-	$: dossierNum = fileNumber(postMeta.slug || postMeta.person || '');
-
-	// Format readable last-observed date for the mono coordinate line.
-	function formatObservedDate(value: string | null | undefined): string {
-		if (!value) return '';
-		const literal = value.match(/^(\d{4})-(\d{2})-(\d{2})/);
-		if (literal) return `${literal[1]}-${literal[2]}-${literal[3]}`;
-		const parsed = new Date(value);
-		if (Number.isNaN(parsed.getTime())) return '';
-		return parsed.toISOString().slice(0, 10);
-	}
+	const dossierNum = $derived(fileNumber(postMeta.slug || postMeta.person || ''));
 
 	function formatTimeRequired(value: string | null | undefined): string {
 		if (!value) return '';
@@ -259,13 +253,12 @@
 		return `${value.toLocaleString()} WORDS`;
 	}
 
-	$: observedDate = formatObservedDate(postMeta.lastmod || postMeta.date);
-	$: wordCountLabel = formatWordCount(postMeta.word_count);
-	$: timeRequiredLabel = formatTimeRequired(postMeta.time_required);
+	const wordCountLabel = $derived(formatWordCount(postMeta.word_count));
+	const timeRequiredLabel = $derived(formatTimeRequired(postMeta.time_required));
 
-	// Table of Contents support
-	const contentStore = writable('');
-	let contentObserver: MutationObserver | null = null;
+	// Table of Contents support: the first article run's live HTML, kept current
+	// by an attachment (debounced, direct children only) for the TOC's fallback.
+	let tocContent = $state('');
 
 	const commentAdded = (detail: PublicBlogCommentRow[]) => {
 		comments = [...detail, ...comments];
@@ -273,75 +266,26 @@
 	};
 
 	// Dynamically import less critical components
-	let BlogComments: typeof import('$lib/components/blog/BlogComments.svelte').default | undefined;
-	let BlogInteract: typeof import('$lib/components/blog/BlogInteract.svelte').default | undefined;
-	let SuggestFamousPerson:
-		typeof import('$lib/components/molecules/SuggestFamousPerson.svelte').default | undefined;
+	let BlogComments = $state<
+		typeof import('$lib/components/blog/BlogComments.svelte').default | undefined
+	>();
+	let BlogInteract = $state<
+		typeof import('$lib/components/blog/BlogInteract.svelte').default | undefined
+	>();
+	let SuggestFamousPerson = $state<
+		typeof import('$lib/components/molecules/SuggestFamousPerson.svelte').default | undefined
+	>();
 
-	// Set up lazy loading for components
-	onMount(() => {
-		mounted = true;
-		currentPath = $page.url.pathname;
+	onMount(() => clearMountedPlaceholderComponents);
 
-		if (browser) {
-			setupPage();
-			setupContentObserver();
-			mountPlaceholderComponents();
-
-			return () => {
-				if (commentsObserver) {
-					commentsObserver.disconnect();
-				}
-				if (contentObserver) {
-					contentObserver.disconnect();
-					contentObserver = null;
-				}
-				if (contentUpdateTimeout) {
-					clearTimeout(contentUpdateTimeout);
-				}
-				clearMountedPlaceholderComponents();
-			};
-		}
+	// Set up lazy loading for components, and re-arm it for each person
+	// (client-side navigation reuses this page).
+	$effect(() => {
+		const slug = personSlug;
+		// setupPage reads the auth store; only the person should re-run this.
+		untrack(() => setupPage(slug));
+		return () => commentsObserver?.disconnect();
 	});
-
-	// Track page changes
-	$: if (mounted && $page.url.pathname !== currentPath) {
-		// Page has changed
-		// eslint-disable-next-line no-useless-assignment -- read on the next reactive run
-		currentPath = $page.url.pathname;
-		resetPageState();
-	}
-
-	// Track current slug to detect navigation
-	let currentSlug = '';
-
-	// Watch for slug changes and reinitialize content observer - optimized
-	$: if (data?.post?.slug && data.post.slug !== currentSlug) {
-		// eslint-disable-next-line no-useless-assignment -- read on the next reactive run
-		currentSlug = data.post.slug;
-
-		// Reset content store when slug changes
-		contentStore.set('');
-
-		// Clean up existing observer
-		if (contentObserver) {
-			contentObserver.disconnect();
-			contentObserver = null;
-		}
-
-		// Set up new observer after DOM updates - use requestIdleCallback for performance
-		if (browser) {
-			const initObserver = () => {
-				tick().then(setupContentObserver);
-			};
-
-			if ('requestIdleCallback' in window) {
-				(window as any).requestIdleCallback(initObserver, { timeout: 200 });
-			} else {
-				setTimeout(initObserver, 50);
-			}
-		}
-	}
 
 	async function loadDiscussion(slug: string) {
 		if (!browser || discussionLoaded || discussionRequest) return;
@@ -373,72 +317,15 @@
 		await discussionRequest;
 	}
 
-	// Reset state when navigating to a new page
-	function resetPageState() {
+	let commentsObserver: IntersectionObserver | undefined;
+
+	// Set up the page observers and dynamic components
+	function setupPage(slug: string) {
+		// Per-page loading flags (the reactive discussion state resets on its own).
 		commentsLoaded = false;
-		commentsVisible = false;
-		comments = [];
-		userHasAnswered = false;
 		discussionLoaded = false;
 		discussionRequest = null;
 
-		// Re-setup page after DOM updates
-		tick().then(() => {
-			setupPage();
-		});
-	}
-
-	let commentsObserver: IntersectionObserver;
-
-	// Set up content observer for Table of Contents - optimized with debouncing
-	let contentUpdateTimeout: ReturnType<typeof setTimeout> | null = null;
-
-	function setupContentObserver() {
-		if (!browser) return;
-
-		const node = document.querySelector('.article-body');
-
-		if (!node) {
-			// Retry once if node not found
-			setTimeout(setupContentObserver, 200);
-			return;
-		}
-
-		// Disconnect existing observer if any
-		if (contentObserver) {
-			contentObserver.disconnect();
-		}
-
-		// Set initial content immediately
-		const currentContent = node.innerHTML;
-		if (currentContent && currentContent.trim() !== '') {
-			contentStore.set(currentContent);
-		}
-
-		// Set up observer for future changes with debouncing
-		contentObserver = new MutationObserver(() => {
-			// Debounce updates to avoid excessive re-renders
-			if (contentUpdateTimeout) {
-				clearTimeout(contentUpdateTimeout);
-			}
-
-			contentUpdateTimeout = setTimeout(() => {
-				const updatedContent = node.innerHTML;
-				if (updatedContent && updatedContent.trim() !== '') {
-					contentStore.set(updatedContent);
-				}
-			}, 150);
-		});
-
-		contentObserver.observe(node, {
-			childList: true,
-			subtree: false, // Reduced scope - only direct children changes
-			characterData: false // Don't track text changes
-		});
-	}
-
-	// Set up the page observers and dynamic components
-	function setupPage() {
 		// Set up intersection observer for comments section
 		commentsObserver = new IntersectionObserver(
 			(entries) => {
@@ -447,7 +334,7 @@
 					commentsLoaded = true;
 
 					// Per-visitor half of the page: gate state + comments.
-					loadDiscussion(data.post.slug);
+					loadDiscussion(slug);
 
 					// Load comments components
 					Promise.all([
@@ -463,7 +350,7 @@
 		); // Load when element is 200px from viewport
 
 		// Load SuggestFamousPerson component (lowest priority)
-		if (!$authShellUser) {
+		if (!authShell.user) {
 			import('$lib/components/molecules/SuggestFamousPerson.svelte').then((module) => {
 				SuggestFamousPerson = module.default;
 			});
@@ -473,15 +360,12 @@
 		tick().then(() => {
 			const commentsSection = document.getElementById('comments-section');
 			if (commentsSection) {
-				commentsObserver.observe(commentsSection);
+				commentsObserver?.observe(commentsSection);
 			}
 		});
 	}
 
-	function mountPlaceholderComponents() {
-		if (!browser) return;
-
-		const placeholders = data.placeholders ?? [];
+	function mountPlaceholderComponents(placeholders: NonNullable<PageData['placeholders']>) {
 		const activePlaceholderIds = new Set(placeholders.map((placeholder) => placeholder.id));
 
 		// Remove instances that no longer exist in this page payload/DOM. Ids
@@ -525,18 +409,19 @@
 		mountedPlaceholders.clear();
 	}
 
-	// Run after each Svelte update to handle potential DOM changes
-	afterUpdate(() => {
-		if (mounted && data.placeholders) {
-			mountPlaceholderComponents();
+	// Mount the placeholder components into the article HTML, and again whenever
+	// that HTML is re-rendered (client-side navigation to another person).
+	$effect(() => {
+		const placeholders = data.placeholders;
+		const segments = flowSegments; // the article runs the placeholders live in
+		if (placeholders && segments.length > 0) {
+			untrack(() => mountPlaceholderComponents(placeholders));
 		}
 	});
 </script>
 
 <!-- SEO head — pure metadata, must run early. -->
-{#key post.slug}
-	<PeopleBlogPageHead data={postMeta} />
-{/key}
+<PeopleBlogPageHead data={postMeta} />
 
 <!-- ★ PRIMARY ACTION — the give-first Chorus is the one thing this page drives
      toward; nothing around it should out-shout it. Rendered once: mid-article
@@ -545,6 +430,7 @@
      ties it to the reader, never to the subject. -->
 {#snippet chorusBlock()}
 	{#if chorus}
+		<!-- Remount per person: a fresh answer form and gate impression for each page. -->
 		{#key post.slug}
 			<NineChorus
 				subjectType={chorus.subjectType}
@@ -593,9 +479,7 @@
 					{/if}
 				</div>
 
-				{#key post.slug}
-					<h1 id="case-file-name" class="case-file-name">{caseFileTitle}</h1>
-				{/key}
+				<h1 id="case-file-name" class="case-file-name">{caseFileTitle}</h1>
 
 				<!-- The persona title lives on the portrait caption only; repeating it
 				     under the name put the same line on screen twice. -->
@@ -616,9 +500,7 @@
 				<!-- Preserved: legacy ArticleSubTitle still renders author/date attribution;
 				     visually demoted into a quiet meta-row at the bottom of the case-file header. -->
 				<div class="legacy-article-meta">
-					{#key post.slug}
-						<ArticleSubTitle metaData={postMeta} structuredData={false} />
-					{/key}
+					<ArticleSubTitle metaData={postMeta} structuredData={false} />
 				</div>
 			</div>
 
@@ -667,7 +549,7 @@
 	<aside class="article-navigation" aria-label="Article navigation">
 		<div class="article-navigation-inner">
 			<TableOfContents
-				{contentStore}
+				content={tocContent}
 				headings={data.headings}
 				sidePosition="right"
 				renderMode="accordion-only"
@@ -689,9 +571,17 @@
 			     lifted out of the article-body prose scope so the page's :global()
 			     typography never bleeds into them. The first run is always the
 			     plain .article-body the TOC observer reads. -->
-			{#each articleFlow.segments as segment, index (index)}
+			{#each flowSegments as { segment, key }, index (key)}
 				{#if segment.kind === 'prose'}
-					<div class="article-body" class:article-body--cont={index > 0}>
+					<div
+						class="article-body"
+						class:article-body--cont={index > 0}
+						{@attach key === 'prose-1' &&
+							trackArticleHtml((html) => (tocContent = html), {
+								subtree: false,
+								debounceMs: 150
+							})}
+					>
 						{@html segment.html}
 					</div>
 				{:else if segment.kind === 'dossier'}
@@ -738,7 +628,7 @@
 </article>
 
 <TableOfContents
-	{contentStore}
+	content={tocContent}
 	headings={data.headings}
 	sidePosition="right"
 	renderMode="sidebar-only"
@@ -750,7 +640,9 @@
      bottom of the page so it never collides with the "Further analysis" block.
      Inline list suppressed: that bottom section is the canonical related block.
      The beta card rides at the top of this rail on wide screens; narrower
-     screens get it inside the article instead (ExperimentalTherapyInvite). -->
+     screens get it inside the article instead (ExperimentalTherapyInvite).
+     Remounted per person: ExperimentalTherapyInvite re-places its card in the
+     new article, and the beta card re-arms its per-page view tracking. -->
 {#key post.slug}
 	<PeopleSuggestionsSideBar
 		links={postSuggestions}
@@ -758,9 +650,9 @@
 		showInline={false}
 		hideBeforeBottom={1400}
 	>
-		<svelte:fragment slot="lead">
+		{#snippet lead()}
 			<BetaRailCard surface="celebrity" personName={postDisplayName} />
-		</svelte:fragment>
+		{/snippet}
 	</PeopleSuggestionsSideBar>
 	<ExperimentalTherapyInvite
 		surface="celebrity"
@@ -788,11 +680,11 @@
 				<BlogComments
 					slug={post.slug}
 					{comments}
-					user={$authShellUser}
-					parentType={'personality-analysis'}
+					user={authShell.user}
+					parentType="personality-analysis"
 					{userHasAnswered}
 				/>
-				<BlogInteract data={data as any} onCommentAdded={commentAdded} user={$authShellUser} />
+				<BlogInteract data={data as any} onCommentAdded={commentAdded} user={authShell.user} />
 			</div>
 		{:else if commentsVisible}
 			<div class="loading-placeholder">
@@ -800,9 +692,10 @@
 			</div>
 		{/if}
 
-		<!-- Second way to weigh in — folded into the same feedback section. -->
+		<!-- Second way to weigh in — folded into the same feedback section.
+		     Remounted per person so the suggestion form starts fresh. -->
 		{#key post.slug}
-			{#if !$authShellUser && SuggestFamousPerson}
+			{#if !authShell.user && SuggestFamousPerson}
 				<div class="discussion-suggest">
 					<SuggestFamousPerson />
 				</div>
@@ -821,13 +714,11 @@
 		<div class="related-kicker">
 			<SectionKicker num="04" label="FURTHER ANALYSIS" />
 		</div>
-		{#key post.slug}
-			<RelatedPosts
-				enneagramType={postMeta.enneagram?.toString() || null}
-				sameNichePosts={data.relatedPosts?.sameNichePosts ?? []}
-				sameEnneagramPosts={data.relatedPosts?.sameEnneagramPosts ?? []}
-			/>
-		{/key}
+		<RelatedPosts
+			enneagramType={postMeta.enneagram?.toString() || null}
+			sameNichePosts={data.relatedPosts?.sameNichePosts ?? []}
+			sameEnneagramPosts={data.relatedPosts?.sameEnneagramPosts ?? []}
+		/>
 
 		{#if data.bridgeLinks?.length}
 			<nav class="related-framework" aria-label="Explore the personality framework">

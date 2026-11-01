@@ -4,17 +4,14 @@
 import { render, screen } from '@testing-library/svelte';
 import { describe, expect, it, vi } from 'vitest';
 
-const { pageStore } = vi.hoisted(() => ({
-	pageStore: {
-		subscribe(run: (value: { url: URL }) => void) {
-			run({ url: new URL('https://9takes.com/enneagram-corner/enneagram-and-mental-illness') });
-			return () => {};
-		}
+const { pageState } = vi.hoisted(() => ({
+	pageState: {
+		url: new URL('https://9takes.com/enneagram-corner/enneagram-and-mental-illness')
 	}
 }));
 
 vi.mock('$app/environment', () => ({ browser: true }));
-vi.mock('$app/stores', () => ({ page: pageStore }));
+vi.mock('$app/state', () => ({ page: pageState }));
 vi.mock('$lib/analytics/marketingEvents', () => ({ prepareEmailSignup: vi.fn() }));
 
 import EnneagramCTASidebar from './EnneagramCTASidebar.svelte';

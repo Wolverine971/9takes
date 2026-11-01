@@ -181,29 +181,29 @@ export default [
 	{
 		files: ['**/*.svelte'],
 		rules: {
-			// Most svelte/* defaults flag pre-existing legacy code. Keep the parser running
-			// (which catches genuine syntax errors) but disable the rules that are noise
-			// against today's codebase. Fold them in over time as they get cleaned up.
-			'svelte/valid-compile': 'off',
+			// The codebase is fully on runes (svelte.config.js forces runes mode), so the Svelte
+			// recommended rules are on. These stay off on purpose:
+			// - no-at-html-tags: {@html} renders sanitized blog HTML and the JSON-LD/theme scripts.
+			// - no-navigation-without-resolve: there is no paths.base, so resolve() would only add
+			//   noise around every href and goto().
+			// - no-trailing-spaces: Prettier owns whitespace.
+			// - no-reactive-functions: legacy `$:` only, and it crashes on ESLint 10.
 			'svelte/no-at-html-tags': 'off',
-			'svelte/no-unused-svelte-ignore': 'off',
-			'svelte/require-each-key': 'off',
 			'svelte/no-navigation-without-resolve': 'off',
-			'svelte/no-useless-mustaches': 'off',
-			'svelte/prefer-svelte-reactivity': 'off',
-			'svelte/infinite-reactive-loop': 'off',
-			'svelte/no-reactive-reassign': 'off',
-			'svelte/require-event-dispatcher-types': 'off',
-			'svelte/no-immutable-reactive-statements': 'off',
-			'svelte/no-not-function-handler': 'off',
-			'svelte/no-object-in-text-mustaches': 'off',
-			'svelte/no-shorthand-style-property-overrides': 'off',
 			'svelte/no-trailing-spaces': 'off',
-			'svelte/require-store-callbacks-use-set-param': 'off',
-			'svelte/no-raw-special-elements': 'off',
-			'svelte/prefer-writable-derived': 'off',
-			'svelte/no-dom-manipulating': 'off',
 			'svelte/no-reactive-functions': 'off',
+			'svelte/valid-compile': 'error',
+			'svelte/require-each-key': 'error',
+			'svelte/prefer-writable-derived': 'error',
+			'svelte/prefer-svelte-reactivity': 'error',
+			'svelte/no-unused-svelte-ignore': 'error',
+			'svelte/no-useless-mustaches': 'error',
+			'svelte/no-dom-manipulating': 'error',
+			'svelte/no-raw-special-elements': 'error',
+			'svelte/no-not-function-handler': 'error',
+			'svelte/no-object-in-text-mustaches': 'error',
+			'svelte/no-shorthand-style-property-overrides': 'error',
+			'svelte/require-store-callbacks-use-set-param': 'error',
 			'no-self-assign': 'off',
 			'no-inner-declarations': 'off',
 			'no-undef': 'off',

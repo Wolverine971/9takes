@@ -1,0 +1,47 @@
+The repair stage for the Chris Pratt Type 7 rerun is finished. I wrote the three output files to the run folder: `repair.md`, `evidence-repair.json` and `resolution-repair.json`. Nothing else was changed or published. The next step is reverification.
+
+**The seven fixes the verifier asked for:**
+1. **Father quote:** it keeps his hedge again: "I think it made him proud."
+2. **Catalog cards:** "As a boy" is gone, because the podcast gives no age. The line now uses his own words: he "used to fill those catalog cards out… and never ordered a thing."
+3. **Wikipedia's "I'd done nothing proactive":** I searched for the original interview and couldn't find it. Wikipedia cites a 2015 compiled biography, so I cut the line. The forecasts point now rests on what he told Vanity Fair: "I guess that's what I planned to do."
+4. **The unanswered Type 3 point:** the page now says plainly that wanting to be liked (the Leno rehearsal, "looked right through me", fear of embarrassment) is where the Type 3 reading is strongest and Seven explains least.
+5. **Length:** the body went from 4,468 to 3,995 words.
+6. **The one-way ticket:** dropped from the "acting with no adviser" list, since a friend bought it for him.
+7. **Two undated 2015 quotes:** both are now dated, the purse line in the body and Gunn's line in the FAQ.
+
+**What I cut to get the length down.** Tightening sentences only saved about 170 words, so some content had to go. Every protected passage, alternative-type concession and date stayed in. These are the cuts you might want back:
+- the high-school sales contest ("he sold 500")
+- the Daily Beast "Why is Chris Pratt lying" headline
+- the "throw a church under the bus?" exchange with its Westboro follow-up
+- Proverbs 26:20 from the Type 9 paragraph
+- a repeated "value / paying better" quote
+- Everwood and Jurassic World from the bio
+
+**Checks:**
+- Every quote touched in this repair matches the saved sources. A few Playlist quotes aren't in the local cache to recheck, but they are unchanged from the version the verifier already cleared.
+- The evidence record validates (162 claims), and the length and format checks pass at 3,995 words.
+- The only close match in the same-type similarity check is the live Pratt page matching itself. The next-highest score is 0.019, well under the 0.04 threshold.
+- A dry run of the release gate shows only the blockers expected before reverification: the old verdict and out-of-date checksums. No review finding, protected passage or inherited blocker is unresolved.
+
+Search I used for the missing coach-story source:
+- [Vanity Fair 2017 cover story (archive mirror)](https://vanityfair.azurewebsites.net/article/2017/2/call-to-stardom)
+- [Wikipedia mirror (wikiwand)](https://wikiwand.com/en/Chris_Pratt)
+- [E! Online (FR)](https://www.eonline.com/fr/news/819430/chris-pratt-attribue-sa-celebrite-a-des-bons-de-reduction-et-a-la-foi)
+The repair stage for the Chris Pratt Type 7 rerun is done. I wrote `repair.md`, `evidence-repair.json` and `resolution-repair.json` to the run folder. Nothing else was changed or published, and the stage's input files still match the hashes the runner recorded. Next step is reverification.
+
+**The verifier's three findings, all fixed:**
+1. **Catalog-card quote:** the transcriptions split on its last words ("never ordered a thing" in two, "never order the thing" in three). The quote now stops at "just sit them by my bedside," which all of them share. The rest is unquoted paraphrase: "never ordering anything."
+2. **The Literally! with Rob Lowe episode:** I dropped it as a source for the "Lately he has played it straighter" sentence. That sentence is fully backed by Wikipedia, Fox and The Numbers. Nothing else cited the episode, so it's out of the evidence record (18 sources now). The research task that keeps it on file now includes its URL.
+3. **"A year" in Maui:** no source gives how long he stayed. The podcast only says "I lived out there for a while." "A year spent giving security away" is now "a stretch," and "the year was not a low point" is now "he recalled Maui not as a low point."
+
+I also made one small cut the verifier asked for in its writing notes: "That is this page's inference, with limits:" is now "The inference has limits:".
+
+**Checks:**
+- The evidence record validates against the article: 162 claims, 18 sources, none unused.
+- The format checks pass at 4,045 words.
+- A dry run of the release gate shows only the blockers expected before reverification: two stale-verification checks and the old "revise" verdict. The Literally! source blocker is gone. No jury finding, protected passage or inherited blocker is unresolved.
+- Similarity check: the only match over the limit is this page against its own earlier draft. The closest other page is Frank Lloyd Wright at 0.042, under the 0.052 limit.
+
+**Decision for you:** the overall score is right on the line. The last verify's scores work out to 8.465, which rounds to the 8.5 needed. If reverification drops any score by a tenth, the page fails. The fixes target what held back the evidence score, so that score should rise. But writing is still held at 8.2 because the page is about 500 words over the target length. I didn't cut for length, because almost every remaining paragraph is something the reviewers asked for and the verifier already approved, and cutting them would reopen those approvals. If you'd rather trim about 400 words now and take that risk, say so before reverification.
+
+Still open, and needing a human listen: the "pure euphoria" quote (Club Random) and the exact end of the catalog-card line (Not Dead Yet, about 43:15–43:20).

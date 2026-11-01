@@ -180,7 +180,7 @@ Unlinked mentions on other people pages are queued in `link-opportunities.md` §
 | 134 | 15 | 2,151 | `/enneagram-corner/enneagram-type-4` |
 | 130 | 18 | 2,642 | `/enneagram-corner/enneagram-type-9` |
 | 127 | 13 | 1,765 | `/enneagram-corner/enneagram-type-5` |
-| 123 | 14 | 942 | `/enneagram-corner/enneagram-type-8` |
+| 124 | 14 | 942 | `/enneagram-corner/enneagram-type-8` |
 | 109 | 13 | 386 | `/enneagram-corner/enneagram-type-1` |
 | 106 | 16 | 925 | `/enneagram-corner/enneagram-type-2` |
 | 63 | 24 | 2,222 | `/enneagram-corner/relationship-communication-guide` |
@@ -300,7 +300,7 @@ Sorted by impressions. In = blog + people pages linking in. Out = links to live 
 | 1,190 | 7.7 | 10 (10/0) | 5 (5/0) | How to Apologize by Enneagram Type: The Nine Scripts Each Type Skips | `/enneagram-corner/how-to-apologize-like-a-pro` |
 | 1,127 | 7.1 | 4 (4/0) | 15 (15/0) | Best Compliments for Each Enneagram Type | `/enneagram-corner/biggest-compliments-to-give-each-enneagram-type` |
 | 943 | 7.2 | 4 (4/0) | 13 (13/0) | Which Enneagram Type Is Most Likely to Be a Narcissist? (Every Type H… | `/enneagram-corner/which-enneagram-type-is-most-likely-to-be-a-narcissist` |
-| 942 | 10.9 | 123 (50/73) | 14 (14/0) | Enneagram Type 8: Challenger - Behind the Armor | `/enneagram-corner/enneagram-type-8` |
+| 942 | 10.9 | 124 (50/74) | 14 (14/0) | Enneagram Type 8: Challenger - Behind the Armor | `/enneagram-corner/enneagram-type-8` |
 | 929 | 7.5 | 17 (17/0) | 23 (23/0) | Why You Can't Stop Overthinking (Your Enneagram Type Explains It) | `/enneagram-corner/why-you-cant-stop-overthinking-enneagram` |
 | 925 | 39.8 | 106 (53/53) | 16 (16/0) | Enneagram Type 2: Helper - The One-Way Mirror | `/enneagram-corner/enneagram-type-2` |
 | 884 | 8.2 | 3 (3/0) | 6 (5/1) | Ghislaine Maxwell: The Hostage Princess Who Became the Enabler-in-Chi… | `/pop-culture/ghislaine-maxwell-psychology` |
@@ -340,7 +340,7 @@ Sorted by impressions. In = blog + people pages linking in. Out = links to live 
 | 243 | 6.1 | 7 (7/0) | 7 (7/0) | Dark Triad Celebrities and the Enneagram: What We Can Actually Say | `/pop-culture/dark-triad-meets-enneagram` |
 | 233 | 8.9 | 5 (5/0) | 32 (8/24) | Tech Titans Through the Enneagram: A Series on the Personality Types … | `/pop-culture/tech-titans-enneagram-analysis` |
 | 224 | 9.4 | 3 (3/0) | 9 (4/5) | John Coogan and Jordi Hays Built TBPN by Wanting Different Things | `/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic` |
-| 189 | 17.1 | 13 (5/8) | 25 (9/16) | Why the Next Thing Won't Fix It (How Type 7s Actually Find What They'… | `/enneagram-corner/why-the-next-thing-wont-fix-it-type-7` |
+| 189 | 17.1 | 14 (5/9) | 25 (9/16) | Why the Next Thing Won't Fix It (How Type 7s Actually Find What They'… | `/enneagram-corner/why-the-next-thing-wont-fix-it-type-7` |
 | 166 | 8.6 | 3 (3/0) | 14 (12/2) | Cancel Culture by Enneagram Type: Who Cancels and Who Gets Cancelled | `/pop-culture/cancel-culture-enneagram-type` |
 | 159 | 6.9 | 5 (5/0) | 81 (10/71) | What Enneagram Type Are Most CEOs? Data From 80 Business Profiles | `/enneagram-corner/what-enneagram-type-are-most-ceos` |
 | 158 | 8.6 | 11 (10/1) | 14 (14/0) | Enneagram Harmonic Approaches: How Each Type Handles Conflict | `/enneagram-corner/enneagram-harmonic-approaches` |

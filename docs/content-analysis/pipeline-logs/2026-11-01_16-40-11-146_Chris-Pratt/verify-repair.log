@@ -1,0 +1,32 @@
+The Chris Pratt rerun passed reverification. I wrote `verification-repair.json` to the run folder and changed nothing else; nothing was published.
+
+**Scores** (scored before I worked out the total):
+
+| Dimension | Score |
+|---|---|
+| Evidence | 8.7 |
+| Enneagram | 8.2 |
+| Originality | 8.7 |
+| Writing | 8.2 |
+| Durability | 8.7 |
+| Hook | 8.8 |
+| Discoverability | 8.6 |
+
+The weighted overall comes to 8.5, exactly the release floor. Every other gate clears, and a check of the file against the release rules found no other blockers.
+
+**What I checked myself**
+- **Quotes:** all 128 quotes in the article and metadata match their sources word for word, and each one keeps its original meaning in context.
+- **Sources:** I fetched fresh copies of the online sources. The Christian Post blocks automated requests, so I read its archived copy.
+- **Audio:** I re-transcribed the key podcast passages with local Whisper models: the Not Dead Yet quotes and Club Random's "pure euphoria".
+- **The 162 claims:** all supported, one with a caveat (below).
+- **Reviewer decisions:** all 47 fixes meet their tests, including the three from the last verify.
+- **Protected passages:** all 19 are kept, or changed only to fix an error.
+- **Similarity check:** the closest other page is Frank Lloyd Wright at 0.042, under the 0.052 limit.
+
+**One minor finding, which doesn't block release.** In the Not Dead Yet line "completely deferential to whatever the world wants," two Whisper models hear "wants." and one hears "wants of me." If he says "of me," the quote silently drops two words, though the meaning is the same. A 5-second listen at about 35:17–35:21 settles it.
+
+**Why Writing and Enneagram are the low scores**
+- **Writing (8.2):** the page runs 4,045 words, above the 3,500 target, and the rival-type sections are dense with concessions.
+- **Enneagram (8.2):** the article admits that its approval-seeking material is what Type 7 explains least, and several of the Type 7 signs (comfort eating, no ten-year plan) are common to everyone. The call is honest, but it is a narrow 7.
+
+**Next:** the runner finalizes the release. After that the Type 3 → 7 follow-through is still to do: update the database, move the portrait files and regenerate the type lists, then you deploy.

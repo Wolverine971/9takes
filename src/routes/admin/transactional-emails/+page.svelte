@@ -7,16 +7,27 @@
 	import { getModal } from '$lib/components/atoms/Modal.svelte';
 
 	// Email form states
-	let templateEmail: string = '';
-	let customEmail: string = '';
-	let subject: string = '';
-	let header: string = '';
-	let emailBody: string = '';
-	let validationError: string = '';
-	let selectedTemplate: string = 'joinEmail';
+	let templateEmail: string = $state('');
+	let customEmail: string = $state('');
+	let subject: string = $state('');
+	let header: string = $state('');
+	let emailBody: string = $state('');
+	let validationError: string = $state('');
+	let selectedTemplate: string = $state('joinEmail');
 
 	// Editor instance
 	let editor: any = null;
+
+	const templateGallery = [
+		{ name: 'joinEmail', title: 'Waitlist Join', render: joinEmail },
+		{ name: 'joinEmail2', title: 'Waitlist Join Alt', render: joinEmail2 },
+		{ name: 'signupEmail', title: 'Email Verification', render: signupEmail },
+		{
+			name: 'forgotPass',
+			title: 'Password Reset',
+			render: () => forgotPass('https://9takes.com/reset-password?token=sample')
+		}
+	];
 
 	onMount(() => {
 		// Initialize the rich text editor
@@ -267,21 +278,21 @@
 
 				<div class="flex flex-wrap gap-4 pt-4">
 					<button
-						on:click={refreshEmailContent}
+						onclick={refreshEmailContent}
 						class="rounded-md bg-neutral-600 px-4 py-2 font-medium text-white hover:bg-neutral-700 focus:outline-none focus:ring-2 focus:ring-neutral-500 focus:ring-offset-2"
 					>
 						Refresh Preview
 					</button>
 
 					<button
-						on:click={sendCustomEmail}
+						onclick={sendCustomEmail}
 						class="rounded-md bg-primary-700 px-4 py-2 font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
 					>
 						Send Custom Email
 					</button>
 
 					<button
-						on:click={() => getModal('send-email-to-everyone').open()}
+						onclick={() => getModal('send-email-to-everyone').open()}
 						class="hover:bg-error-600 rounded-md bg-error-500 px-4 py-2 font-medium text-white focus:outline-none focus:ring-2 focus:ring-error-500 focus:ring-offset-2"
 					>
 						Send to All Subscribers
@@ -402,7 +413,7 @@
 				</div>
 
 				<button
-					on:click={sendEmailFromTemplate}
+					onclick={sendEmailFromTemplate}
 					disabled={!templateEmail || !subject || !selectedTemplate}
 					class="rounded-md bg-primary-700 px-4 py-2 font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
 				>
@@ -445,7 +456,7 @@
 		<h2 class="mb-4 text-2xl font-semibold text-neutral-800">Email Template Gallery</h2>
 
 		<div class="grid grid-cols-1 gap-6 md:grid-cols-2">
-			{#each [{ name: 'joinEmail', title: 'Waitlist Join', render: joinEmail }, { name: 'joinEmail2', title: 'Waitlist Join Alt', render: joinEmail2 }, { name: 'signupEmail', title: 'Email Verification', render: signupEmail }, { name: 'forgotPass', title: 'Password Reset', render: () => forgotPass('https://9takes.com/reset-password?token=sample') }] as template}
+			{#each templateGallery as template (template.name)}
 				<div class="overflow-hidden rounded-xl border">
 					<div class="border-b bg-neutral-100 p-3">
 						<h3 class="font-medium">{template.title}</h3>
@@ -473,13 +484,13 @@
 		</p>
 		<div class="flex justify-end space-x-4">
 			<button
-				on:click={() => getModal('send-email-to-everyone').close()}
+				onclick={() => getModal('send-email-to-everyone').close()}
 				class="rounded-md bg-neutral-200 px-4 py-2 font-medium text-neutral-800 hover:bg-neutral-300 focus:outline-none focus:ring-2 focus:ring-neutral-500 focus:ring-offset-2"
 			>
 				Cancel
 			</button>
 			<button
-				on:click={sendCustomEmailToEveryone}
+				onclick={sendCustomEmailToEveryone}
 				class="bg-error-600 rounded-md px-4 py-2 font-medium text-white hover:bg-error-700 focus:outline-none focus:ring-2 focus:ring-error-500 focus:ring-offset-2"
 			>
 				Yes, Send to Everyone

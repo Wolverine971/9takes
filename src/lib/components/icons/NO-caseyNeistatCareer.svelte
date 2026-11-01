@@ -1,9 +1,12 @@
 <!-- src/lib/components/icons/NO-caseyNeistatCareer.svelte -->
-<script>
-	export let className = '';
+<script lang="ts">
+	interface Props {
+		className?: string;
+		fill?: string;
+		iconStyle?: string;
+	}
 
-	export let fill = 'var(--ink-mid)';
-	export let iconStyle = '';
+	let { className = '', fill = 'var(--ink-mid)', iconStyle = '' }: Props = $props();
 </script>
 
 <p>SVG</p>

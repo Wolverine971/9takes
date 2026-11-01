@@ -1,6 +1,6 @@
 <!-- src/routes/account/+page.svelte -->
 <script lang="ts">
-	import { tick, untrack } from 'svelte';
+	import { tick } from 'svelte';
 	import { on } from 'svelte/events';
 	import {
 		Settings,
@@ -107,13 +107,25 @@
 	let yourTakes = $derived((data.yourTakes ?? []) as YourTake[]);
 	let activeQuestions = $derived((data.activeQuestions ?? []) as ActiveQuestion[]);
 
-	let firstName = $state(untrack(() => normalizeText(user.first_name)));
-	let lastName = $state(untrack(() => normalizeText(user.last_name)));
-	let enneagram = $state(
-		untrack(() =>
-			/^[1-9]$/.test(normalizeText(user.enneagram)) ? normalizeText(user.enneagram) : ''
-		)
+	// The profile as loaded from the server. Built from primitives, so it only
+	// changes when one of these values (or the account email) actually changes,
+	// not on every data reload. The form fields below re-seed from it then, and
+	// otherwise keep the user's edits (writable deriveds).
+	let loadedFirstName = $derived(normalizeText(user.first_name));
+	let loadedLastName = $derived(normalizeText(user.last_name));
+	// 'unknown' is the registration default; treat it as "not chosen yet"
+	// so the picker reads as empty rather than pre-selected.
+	let loadedEnneagram = $derived(
+		/^[1-9]$/.test(normalizeText(user.enneagram)) ? normalizeText(user.enneagram) : ''
 	);
+	let loadedProfile = $derived.by<ProfileSnapshot>(() => {
+		void userEmail; // a different account re-seeds the form even if the names match
+		return { firstName: loadedFirstName, lastName: loadedLastName, enneagram: loadedEnneagram };
+	});
+
+	let firstName = $derived(loadedProfile.firstName);
+	let lastName = $derived(loadedProfile.lastName);
+	let enneagram = $derived(loadedProfile.enneagram);
 	let saving = $state(false);
 	let loggingOut = $state(false);
 	let showTypePicker = $state(false);
@@ -126,20 +138,24 @@
 	let failedPortraits = $state<Record<string, boolean>>({});
 	let markingRead = $state(false);
 	let savingPrefs = $state(false);
-	let profileSnapshot = $state<ProfileSnapshot>(
-		untrack(() => ({ firstName, lastName, enneagram }))
-	);
-	// A comparison cache, not UI state. Updating it after a save must not
-	// re-run hydration with the previous server data and erase the saved type.
-	let lastLoadedSignature = '';
+	// Last saved profile. A save overrides it locally; a reload with changed
+	// server values replaces it (and an unchanged reload leaves the save alone).
+	let profileSnapshot = $derived(loadedProfile);
 
 	// Local copies so mark-as-read and preference toggles feel instant without a
-	// full invalidation round trip.
-	let feedItems = $state<NotificationRow[]>(
-		untrack(() => [...((data.notifications?.items ?? []) as NotificationRow[])])
-	);
-	let unreadCount = $state(untrack(() => data.notifications?.unread ?? 0));
-	let prefs = $state({ ...DEFAULT_NOTIFICATION_PREFERENCES });
+	// full invalidation round trip. Writable deriveds: handlers overwrite them
+	// optimistically, and fresh server data replaces them.
+	let feedItems = $derived([...((data.notifications?.items ?? []) as NotificationRow[])]);
+	let unreadCount = $derived(data.notifications?.unread ?? 0);
+	// The checkboxes bind into this object, so it is deeply reactive ($state
+	// inside the derived); new server preferences replace it wholesale.
+	let prefs = $derived.by(() => {
+		const local = $state({
+			...DEFAULT_NOTIFICATION_PREFERENCES,
+			...(data.notificationPreferences ?? {})
+		});
+		return local;
+	});
 
 	let notificationsAvailable = $derived(data.notifications?.available ?? false);
 	let hasType = $derived(/^[1-9]$/.test(profileSnapshot.enneagram));
@@ -154,44 +170,6 @@
 			lastName.trim() !== profileSnapshot.lastName ||
 			enneagram.trim() !== profileSnapshot.enneagram
 	);
-
-	$effect(() => {
-		const nextSnapshot = {
-			firstName: normalizeText(user.first_name),
-			lastName: normalizeText(user.last_name),
-			// 'unknown' is the registration default; treat it as "not chosen yet"
-			// so the picker reads as empty rather than pre-selected.
-			enneagram: /^[1-9]$/.test(normalizeText(user.enneagram)) ? normalizeText(user.enneagram) : ''
-		};
-		const signature = JSON.stringify([
-			userEmail,
-			nextSnapshot.firstName,
-			nextSnapshot.lastName,
-			nextSnapshot.enneagram
-		]);
-
-		if (signature === lastLoadedSignature) return;
-
-		firstName = nextSnapshot.firstName;
-		lastName = nextSnapshot.lastName;
-		enneagram = nextSnapshot.enneagram;
-		profileSnapshot = nextSnapshot;
-		lastLoadedSignature = signature;
-	});
-
-	$effect(() => {
-		feedItems = [...((data.notifications?.items ?? []) as NotificationRow[])];
-		unreadCount = data.notifications?.unread ?? 0;
-	});
-
-	$effect(() => {
-		const notificationPreferences = data.notificationPreferences;
-		if (!notificationPreferences) return;
-
-		// Do not merge from `prefs` here. Reading and then replacing the same
-		// reactive object makes this effect subscribe to its own write and loop.
-		prefs = { ...DEFAULT_NOTIFICATION_PREFERENCES, ...notificationPreferences };
-	});
 
 	interface FeedGroup {
 		key: string;
@@ -211,6 +189,7 @@
 	// "4 new takes · Types 2, 4, 7, 9" instead of four near-identical lines.
 	let feedGroups = $derived.by<FeedGroup[]>(() => {
 		const groups: FeedGroup[] = [];
+		// eslint-disable-next-line svelte/prefer-svelte-reactivity -- local scratch index inside a derived
 		const indexByKey = new Map<string, number>();
 
 		for (const item of [...feedItems].sort(
@@ -377,12 +356,6 @@
 			lastName = nextSnapshot.lastName;
 			enneagram = nextSnapshot.enneagram;
 			profileSnapshot = nextSnapshot;
-			lastLoadedSignature = JSON.stringify([
-				userEmail,
-				nextSnapshot.firstName,
-				nextSnapshot.lastName,
-				nextSnapshot.enneagram
-			]);
 			showTypePicker = false;
 
 			toast.success('Account updated', 3000);

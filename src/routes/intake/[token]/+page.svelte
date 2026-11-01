@@ -16,7 +16,8 @@
 
 	let currentSection = $state(1);
 	let isSubmitting = $state(false);
-	let showSuccess = $state(form?.success || false);
+	// Writable derived: follows the action result, set optimistically by the enhance callback.
+	let showSuccess = $derived(form?.success || false);
 
 	const totalSections = 7;
 
@@ -256,7 +257,7 @@
 					<label for="age_range">Age Range</label>
 					<select id="age_range" name="age_range">
 						<option value="">Select...</option>
-						{#each ageRanges as range}
+						{#each ageRanges as range (range.value)}
 							<option value={range.value}>{range.label}</option>
 						{/each}
 					</select>
@@ -276,7 +277,7 @@
 					<label for="relationship_status">Relationship Status</label>
 					<select id="relationship_status" name="relationship_status">
 						<option value="">Select...</option>
-						{#each relationshipStatuses as status}
+						{#each relationshipStatuses as status (status.value)}
 							<option value={status.value}>{status.label}</option>
 						{/each}
 					</select>
@@ -336,7 +337,7 @@
 					<label for="urgency_level">How urgent does this feel?</label>
 					<select id="urgency_level" name="urgency_level">
 						<option value="">Select...</option>
-						{#each urgencyLevels as level}
+						{#each urgencyLevels as level (level.value)}
 							<option value={level.value}>{level.label}</option>
 						{/each}
 					</select>
@@ -420,7 +421,7 @@
 						>Which emotion do you experience most often?</span
 					>
 					<div class="radio-group" role="radiogroup" aria-labelledby="emotion-label">
-						{#each primaryEmotions as emotion}
+						{#each primaryEmotions as emotion (emotion.value)}
 							<label class="radio-option">
 								<input type="radio" name="primary_emotion" value={emotion.value} />
 								<span class="radio-label">{emotion.label}</span>
@@ -544,7 +545,7 @@
 					<label for="preferred_session_time">When do you prefer to have sessions?</label>
 					<select id="preferred_session_time" name="preferred_session_time">
 						<option value="">Select...</option>
-						{#each sessionTimes as time}
+						{#each sessionTimes as time (time.value)}
 							<option value={time.value}>{time.label}</option>
 						{/each}
 					</select>

@@ -1,15 +1,23 @@
 <!-- src/lib/components/map/controls/NavigationControl.svelte -->
-<script>
-	import { getContext } from 'svelte';
-	import { contextKey } from '$lib/components/map/mapbox';
+<script lang="ts">
+	import { untrack } from 'svelte';
+	import { getMapContext } from '$lib/components/map/map-context';
 
-	const { getMap, getMapbox } = getContext(contextKey);
-	const map = getMap();
-	const mapbox = getMapbox();
+	type MapboxLike = {
+		NavigationControl: new (options: Record<string, unknown>) => unknown;
+	};
 
-	export let position = 'top-right';
-	export let options = {};
+	interface Props {
+		position?: string;
+		options?: Record<string, unknown>;
+	}
 
-	const nav = new mapbox.NavigationControl(options);
-	map.addControl(nav, position);
+	let { position = 'top-right', options = {} }: Props = $props();
+
+	const { getMap, getMapbox } = getMapContext();
+	const map = getMap() as { addControl: (control: unknown, position: string) => void };
+	const mapbox = getMapbox() as MapboxLike;
+
+	// The control is added once when the component is created, so the props are read once on purpose.
+	untrack(() => map.addControl(new mapbox.NavigationControl(options), position));
 </script>

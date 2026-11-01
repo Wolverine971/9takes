@@ -114,7 +114,7 @@
 	</header>
 
 	<div class="corpus-grid">
-		{#each tiles as tile}
+		{#each tiles as tile (tile.label)}
 			<div class="corpus-tile">
 				<div class="tile-value">{tile.value}</div>
 				<div class="tile-label">{tile.label}</div>

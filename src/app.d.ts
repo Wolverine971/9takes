@@ -72,20 +72,6 @@ declare global {
 	namespace svelteHTML {
 		interface HTMLAttributes<T> {
 			'custom-element'?: string;
-			'on:ready'?: (event: CustomEvent<unknown>) => void;
-			'on:recentre'?: (event: CustomEvent<unknown>) => void;
-			'on:zoomstart'?: (event: CustomEvent<unknown>) => void;
-			'on:zoom'?: (event: CustomEvent<unknown>) => void;
-			'on:zoomend'?: (event: CustomEvent<unknown>) => void;
-			'on:results'?: (event: CustomEvent<unknown>) => void;
-			'on:result'?: (event: CustomEvent<unknown>) => void;
-			'on:loading'?: (event: CustomEvent<unknown>) => void;
-			'on:clear'?: (event: CustomEvent<unknown>) => void;
-			'on:geolocate'?: (event: CustomEvent<unknown>) => void;
-			'on:outofmaxbounds'?: (event: CustomEvent<unknown>) => void;
-			'on:trackuserlocationend'?: (event: CustomEvent<unknown>) => void;
-			'on:trackuserlocationstart'?: (event: CustomEvent<unknown>) => void;
-			'on:popupClicked'?: (event: CustomEvent<unknown>) => void;
 		}
 	}
 

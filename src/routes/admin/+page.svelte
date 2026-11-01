@@ -67,12 +67,9 @@
 
 	let { data }: { data: PageData } = $props();
 
-	let isDemoTime = $state(false);
+	// Writable derived: follows the load data, flipped optimistically by changeDemoTime().
+	let isDemoTime = $derived(data.demoTime === true);
 	let isReindexing = $state(false);
-
-	$effect(() => {
-		isDemoTime = data.demoTime === true;
-	});
 
 	const readActionPayload = async <T,>(response: Response): Promise<T | null> => {
 		const result = await response.json().catch(() => null);

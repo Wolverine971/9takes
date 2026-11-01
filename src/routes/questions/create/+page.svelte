@@ -1,7 +1,7 @@
 <!-- src/routes/questions/create/+page.svelte -->
 <script lang="ts">
 	import { onMount, tick } from 'svelte';
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
 	import { goto } from '$app/navigation';
 	import { deserialize } from '$app/forms';
 	import { Button } from '$lib/components/atoms';
@@ -79,7 +79,7 @@
 	let contextCharCount = $derived(context.length);
 
 	onMount(() => {
-		question = $page.url.searchParams.get('question') || '';
+		question = page.url.searchParams.get('question') || '';
 
 		// Wait for fonts to load
 		document.fonts.ready.then(() => {
@@ -287,7 +287,7 @@
 			void captureQuestionCreated({
 				questionId,
 				questionUrl: createdUrl,
-				sourcePath: $page.url.pathname,
+				sourcePath: page.url.pathname,
 				hasContext: Boolean(context.trim())
 			});
 
@@ -500,7 +500,7 @@
 				<p class="mt-2 max-w-sm text-sm text-[var(--ink-mid)]">{createProgressMessage}</p>
 
 				<ol class="mt-6 grid w-full max-w-md grid-cols-3 gap-2" aria-label="Creation progress">
-					{#each CREATE_PROGRESS_STEPS as step, index}
+					{#each CREATE_PROGRESS_STEPS as step, index (step.stage)}
 						<li
 							class={`flex flex-col items-center gap-2 text-xs font-medium ${index <= createProgressIndex ? 'text-[var(--ink-bright)]' : 'text-[var(--ink-dim)]'}`}
 							aria-current={index === createProgressIndex ? 'step' : undefined}

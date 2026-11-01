@@ -23,17 +23,19 @@
 		9: 'Peacemaker'
 	};
 
-	const rows = Array.from({ length: 9 }, (_, i) => {
-		const t = i + 1;
-		const key = String(t);
-		return {
-			type: t,
-			name: TYPE_NAMES[t],
-			count: counts[key] ?? 0,
-			share: shares[key] ?? 0,
-			delta: diffsPp ? (diffsPp[key] ?? 0) : null
-		};
-	});
+	const rows = $derived(
+		Array.from({ length: 9 }, (_, i) => {
+			const t = i + 1;
+			const key = String(t);
+			return {
+				type: t,
+				name: TYPE_NAMES[t],
+				count: counts[key] ?? 0,
+				share: shares[key] ?? 0,
+				delta: diffsPp ? (diffsPp[key] ?? 0) : null
+			};
+		})
+	);
 
 	const pct = (n: number) => (n * 100).toFixed(1);
 	const fmtDelta = (pp: number) => (pp >= 0 ? `+${pp.toFixed(2)}` : `${pp.toFixed(2)}`);
@@ -55,7 +57,7 @@
 		</tr>
 	</thead>
 	<tbody>
-		{#each rows as row}
+		{#each rows as row (row.type)}
 			<tr>
 				<th scope="row">{row.type}</th>
 				<td>{row.name}</td>

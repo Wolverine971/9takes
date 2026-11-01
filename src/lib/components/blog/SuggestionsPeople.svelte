@@ -9,12 +9,15 @@
 		buildPersonalityImageUrl,
 		formatPersonalityDisplayName
 	} from '$lib/utils/personalityAnalysis';
-	export let suggestions: {
-		niche: { posts: App.BlogPost[]; type?: string };
-		sameEnneagram: { posts: App.BlogPost[]; type: string };
-	};
-	let innerWidth: number;
-	$: capitalizedPluralNiche = formatNiche(suggestions.niche.type);
+	interface Props {
+		suggestions: {
+			niche: { posts: App.BlogPost[]; type?: string };
+			sameEnneagram: { posts: App.BlogPost[]; type: string };
+		};
+	}
+
+	let { suggestions }: Props = $props();
+	let innerWidth = $state(0);
 
 	function formatNiche(niche: string | undefined): string {
 		if (!niche) return 'People';
@@ -33,9 +36,6 @@
 
 		return nunbos;
 	}
-
-	// Generate ItemList JSON-LD for related people/articles
-	$: itemListJsonLd = generateItemListJsonLd();
 
 	function generateItemListJsonLd(): string {
 		const allPosts = [
@@ -72,6 +72,9 @@
 			}))
 		});
 	}
+	let capitalizedPluralNiche = $derived(formatNiche(suggestions.niche.type));
+	// Generate ItemList JSON-LD for related people/articles
+	let itemListJsonLd = $derived(generateItemListJsonLd());
 </script>
 
 <svelte:head>

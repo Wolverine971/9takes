@@ -10,6 +10,7 @@
   Everything from §03 onward is byte-equivalent to V4.
 -->
 <script lang="ts">
+	import { onMount } from 'svelte';
 	import type { PageData } from './$types';
 
 	let { data }: { data: PageData } = $props();
@@ -18,8 +19,8 @@
 	let bannerDismissed = $state(false);
 	let theme = $state<'dark' | 'light'>('dark');
 
-	$effect(() => {
-		if (typeof window === 'undefined') return;
+	// Restore the saved preview theme (browser storage) once after hydration.
+	onMount(() => {
 		const stored = localStorage.getItem('9takes-preview-theme-v5');
 		if (stored === 'light' || stored === 'dark') {
 			theme = stored;
@@ -38,7 +39,6 @@
 	// Propagate light-mode to <html> so the host page bg warms up too —
 	// otherwise V5's wrapper looks like a light island on a dark production page.
 	$effect(() => {
-		if (typeof document === 'undefined') return;
 		document.documentElement.classList.toggle('v5-preview-light', theme === 'light');
 		return () => {
 			document.documentElement.classList.remove('v5-preview-light');
@@ -108,6 +108,7 @@
 	type NineType = { num: number; name: string; read: string };
 
 	const currentQuestion = 'What is something people misunderstand about you?';
+	const enneagramPoints = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 	// V4 carry — stub data identical to V4
 	const nineTypes: NineType[] = [
@@ -423,7 +424,7 @@
 					<span class="primer-col-read mono" role="columnheader">WHAT THEY SEE FIRST</span>
 				</div>
 
-				{#each nineTypes as t}
+				{#each nineTypes as t (t.num)}
 					<div class="primer-row" role="row" style="--type-stripe: var(--type-{t.num}-color);">
 						<span class="primer-col-num mono" role="cell">
 							{String(t.num).padStart(2, '0')}
@@ -785,7 +786,7 @@
 		</header>
 
 		<ul class="open-floor-takes">
-			{#each openFloorTakes as t}
+			{#each openFloorTakes as t (t.type)}
 				<li class="take-card" style="--type-stripe: var(--type-{t.type}-color);">
 					<div class="take-card-top">
 						<span class="mono take-card-label">
@@ -865,7 +866,8 @@
 				<div class="comparison-diagram comparison-diagram--9takes" aria-hidden="true">
 					<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" class="enneagram-fig">
 						<!-- 9 dots arranged in a circle, connected -->
-						{#each Array(9) as _, i}
+						{#each enneagramPoints as point (point)}
+							{@const i = point - 1}
 							{@const angle = (Math.PI * 2 * i) / 9 - Math.PI / 2}
 							{@const cx = 60 + Math.cos(angle) * 44}
 							{@const cy = 60 + Math.sin(angle) * 44}
@@ -902,7 +904,7 @@
 		</header>
 
 		<div class="library-grid">
-			{#each libraryStubs as d}
+			{#each libraryStubs as d (d.id)}
 				<article class="library-card" style="--type-stripe: var(--type-{d.type}-color);">
 					<div class="library-image-wrap">
 						<div class="library-image-stub" aria-hidden="true">
@@ -916,7 +918,7 @@
 						<h3 class="library-name">{d.name}</h3>
 						<p class="library-subtitle">{d.subtitle}</p>
 						<div class="library-mini-stats">
-							{#each d.stats as s}
+							{#each d.stats as s (s.label)}
 								<div class="library-mini-stat">
 									<span class="mono mini-stat-label">{s.label}</span>
 									<span class="mono mini-stat-value">{s.value}</span>
@@ -947,7 +949,7 @@
 		</header>
 
 		<div class="compiled-grid">
-			{#each corpusStats as s}
+			{#each corpusStats as s (s.label)}
 				<div class="compiled-stat">
 					<span class="mono compiled-stat-label">{s.label}</span>
 					<span class="compiled-stat-value">{s.value}</span>
@@ -1001,7 +1003,7 @@
 					<p class="mono dossier-core">CORE FEAR: Being controlled · CORE DESIRE: Self-mastery</p>
 
 					<div class="stats">
-						{#each dossierStats as stat}
+						{#each dossierStats as stat (stat.label)}
 							<div class="stat-row">
 								<span class="mono stat-label">{stat.label}</span>
 								<div class="stat-track" aria-hidden="true">

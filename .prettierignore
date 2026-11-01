@@ -55,3 +55,7 @@ docs/content-analysis/entity-gaps
 /youtube-transcript-research
 /youtube-transcripts
 /youtube-transcripts-people
+
+# Official Svelte skills (sveltejs/ai-tools), vendored verbatim
+.claude/skills/svelte-core-bestpractices/
+.claude/skills/svelte-code-writer/

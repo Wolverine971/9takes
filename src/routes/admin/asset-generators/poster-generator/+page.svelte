@@ -1,6 +1,5 @@
 <!-- src/routes/admin/asset-generators/poster-generator/+page.svelte -->
 <script lang="ts">
-	import { browser } from '$app/environment';
 	import QRCode from 'qrcode';
 	import {
 		POSTER_QUESTION_LINE_HEIGHT,
@@ -90,12 +89,6 @@
 	let showQrCode = $state(true);
 	let textShadow = $state(true);
 	let questionLayoutRequest = 0;
-	let posterQuestionLayout = $state<PosterQuestionTextLayout>(
-		estimatePosterQuestionTextLayout('Who do you look up to and why?', {
-			maxWidth: 900,
-			maxHeight: 420
-		})
-	);
 
 	// Font options
 	const fontSizes = [
@@ -126,6 +119,10 @@
 		})
 	);
 	let previewQuestionText = $derived(question.trim() || 'Share your perspective');
+	// Estimated layout; the effect below overrides it with the browser-measured one.
+	let posterQuestionLayout = $derived<PosterQuestionTextLayout>(
+		estimatePosterQuestionTextLayout(previewQuestionText, posterQuestionBounds)
+	);
 	let posterQuestionStyle = $derived.by(() => {
 		if (questionFontSize === 'auto') {
 			return `font-size:${posterQuestionLayout.fontSize}px; line-height:${posterQuestionLayout.lineHeight};`;
@@ -141,14 +138,10 @@
 		}
 	});
 
+	// Measure the auto-fit layout with real fonts. Until it resolves (or if it fails)
+	// the estimate from the $derived above stays in place.
 	$effect(() => {
-		const fallbackLayout = estimatePosterQuestionTextLayout(
-			previewQuestionText,
-			posterQuestionBounds
-		);
-		posterQuestionLayout = fallbackLayout;
-
-		if (questionFontSize !== 'auto' || !browser) {
+		if (questionFontSize !== 'auto') {
 			return;
 		}
 
@@ -166,11 +159,18 @@
 				}
 			})
 			.catch(() => {
-				if (requestId === questionLayoutRequest) {
-					posterQuestionLayout = fallbackLayout;
-				}
+				// Keep the estimated layout.
 			});
 	});
+
+	/** Keys repeated strings by value plus occurrence, so duplicates stay unique. */
+	function keyedStrings(values: string[]): { key: string; value: string }[] {
+		const seen: Record<string, number> = {};
+		return values.map((value) => {
+			const n = (seen[value] = (seen[value] ?? 0) + 1);
+			return { key: n === 1 ? value : `${value}#${n}`, value };
+		});
+	}
 
 	async function generateQRCode() {
 		try {
@@ -453,7 +453,7 @@
 
 							{#if showQuestionPicker}
 								<div class="question-picker">
-									{#each data.questions as q}
+									{#each data.questions as q (q.id)}
 										<button class="question-item" onclick={() => selectQuestion(q)}>
 											{q.question}
 										</button>
@@ -477,7 +477,7 @@
 					<div class="section">
 						<label class="label" for="poster-format">Poster Size</label>
 						<select id="poster-format" bind:value={posterFormat} class="input">
-							{#each posterFormats as format}
+							{#each posterFormats as format (format.id)}
 								<option value={format.id}>{format.name}</option>
 							{/each}
 						</select>
@@ -488,7 +488,7 @@
 					<div class="section">
 						<label class="label" for="poster-question-font-size">Question Size</label>
 						<select id="poster-question-font-size" bind:value={questionFontSize} class="input">
-							{#each fontSizes as size}
+							{#each fontSizes as size (size.id)}
 								<option value={size.id}>{size.name}</option>
 							{/each}
 						</select>
@@ -554,7 +554,7 @@
 					<div class="section">
 						<p class="label">Background Image</p>
 						<div class="bg-grid">
-							{#each data.backgrounds as bg}
+							{#each data.backgrounds as bg (bg.id)}
 								<button
 									class="bg-option"
 									class:active={activeBackground === bg.id}
@@ -712,7 +712,7 @@
 								style={posterQuestionStyle}
 							>
 								{#if questionFontSize === 'auto'}
-									{#each posterQuestionLayout.lines as line}
+									{#each keyedStrings(posterQuestionLayout.lines) as { key, value: line } (key)}
 										<span>{line}</span>
 									{/each}
 								{:else}

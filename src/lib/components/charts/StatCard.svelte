@@ -2,18 +2,32 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 
-	export let label: string;
-	export let value: number | string;
-	export let subValue: string = '';
-	export let icon: string = '';
-	export let trend: 'up' | 'down' | 'neutral' | null = null;
-	export let trendValue: string = '';
-	export let color: 'default' | 'primary' | 'success' | 'warning' | 'danger' = 'default';
-	export let sparklineData: number[] = [];
-	export let href: string = '';
+	interface Props {
+		label: string;
+		value: number | string;
+		subValue?: string;
+		icon?: string;
+		trend?: 'up' | 'down' | 'neutral' | null;
+		trendValue?: string;
+		color?: 'default' | 'primary' | 'success' | 'warning' | 'danger';
+		sparklineData?: number[];
+		href?: string;
+	}
+
+	let {
+		label,
+		value,
+		subValue = '',
+		icon = '',
+		trend = null,
+		trendValue = '',
+		color = 'default',
+		sparklineData = [],
+		href = ''
+	}: Props = $props();
 
 	// Generate sparkline path
-	$: sparklinePath = (() => {
+	let sparklinePath = $derived.by(() => {
 		if (sparklineData.length < 2) return '';
 		const max = Math.max(...sparklineData);
 		const min = Math.min(...sparklineData);
@@ -29,9 +43,9 @@
 		});
 
 		return `M${points.join(' L')}`;
-	})();
+	});
 
-	let mounted = false;
+	let mounted = $state(false);
 	onMount(() => {
 		mounted = true;
 	});

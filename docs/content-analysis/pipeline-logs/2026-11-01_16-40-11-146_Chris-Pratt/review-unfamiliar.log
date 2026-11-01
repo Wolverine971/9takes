@@ -1,0 +1,42 @@
+I've written the unfamiliar-reader review for the Chris Pratt run to `review-unfamiliar.json`. It passes the pipeline's review format check and every quoted passage matches the draft exactly. No other files were changed and nothing was published.
+
+**Verdict:** For someone who knows nothing about Pratt or the Enneagram, the draft works. The Maui opening is vivid and sourced, the Type 7 claim is stated in plain words before any jargon, and "he gave his shifts away" is a concrete test that separates 7 from 3. The weak spots are clarity and pacing, not the type argument.
+
+**One major finding:**
+- **The Hillsong paragraph is hard to follow.** It jumps 2022 → 2019 → 2022 → 2017. "His church" never says which church Elliot Page criticized, and "at the time" points to no date. A cold reader could misread what Pratt was accused of and what he was answering, which matters on an anti-LGBTQ allegation. The fix is to separate the threads or put them in date order, keep every attribution, and keep his response next to each charge.
+
+**Seven minor findings:**
+- **Maui age:** the Denver office came when he "wasn't even 21," but Maui, which came later, is dated "at about 19."
+- **Andy Dwyer:** the article never says what kind of character Andy is, and the career summary stops in 2015.
+- **2018 MTV speech:** it's used to divide his career three sections before the reader learns what it was.
+- **Jazz-soloist quote:** the closing quote is already used in the Type 3 section, so the ending feels like a repeat.
+- **Weight timeline:** the body never makes clear when the heavy years ended, and the FAQ is clearer than the body.
+- **"Ticket":** the word means three different things across the article, and the "next ticket" interpretation depends on one of them.
+- **Henry:** the stranger who took him to church is never connected to the faith section's "altar at 19."
+
+**Passages to keep (5):** the "Both accounts are his" thesis line, "he spent it on a beach," "Press tours tune a story to the room," "Three explains the selling, and Seven explains the choices," and the closing "The funny guy didn't have to be hurt."
+
+**Overlap with other profiles:** the similarity check flagged the short explanation of what "head types" are (shared with the Florence Pugh page) and "gets a full hearing below" (shared with Dominic Fike). Both are stock Enneagram phrasing, not a reused argument, so I noted them in the review's summary rather than filing a finding.
+
+The review also confirms three risk flags: sensitive allegations, a contested type, and a major thesis change from the published Type 3. Those keep the full six-reviewer panel required before editing.
+I've written the unfamiliar-reader review for the Chris Pratt run to `review-unfamiliar.json`. It passes the pipeline's review schema, both hashes match the request, and every quoted passage appears word for word in the draft. Nothing else in the repo changed (the helper script is in `/tmp`) and nothing was published.
+
+**Verdict:** For a reader who knows nothing about Pratt or the Enneagram, the article works. The Maui opening sets a sourced contradiction, the Type 7 claim is explained in plain words, and "he gave his shifts away" is a test a cold reader can follow. What needs fixing is clarity and orientation, not the type argument.
+
+**One major finding:**
+- **The Hillsong paragraph is hard to follow, and it's on the most sensitive claim.** The dates jump around (2022, 2019, 2022, 2017). It never says which church Elliot Page criticized, and "at the time" doesn't point to a date. It also leaves out Pratt's 2019 reply to the anti-LGBTQ charge, which is in the Men's Health source ("everyone is entitled to love who they want"). As written, the only response a reader sees is "I'm gonna, like, throw a church under the bus?", which can sound like he didn't dispute the charge.
+
+**Seven minor findings:**
+- **Maui age:** the article puts him at "about 19" in Maui, but says he "wasn't even 21" at the Denver office, which came first.
+- **"Not the lead singer":** this is the third reason the article gives for Type 7 over Type 3, and it never deals with his decade of leading roles. The limits paragraph also doesn't mention that he said it while discussing a return to comedy.
+- **Repeated quote:** the jazz-soloist quote that closes the article is already used in the Type 3 section, so the ending reads as a repeat.
+- **2018 MTV speech:** it divides his career in the Type 3 section, three sections before the reader learns what the speech was.
+- **Andy and later career:** the article never says what kind of character Andy is, and the career summary stops in 2015.
+- **"Ticket":** the word has already meant two plane tickets, and the quote is cut before the words that show what he meant by it.
+- **Henry:** the stranger who took him to church is never connected to anything in the faith section.
+
+**Passages to keep (5):** "Both accounts are his…", "he spent it on a beach", "Press tours tune a story to the room", "Three explains the selling, and Seven explains the choices", and the closing "The funny guy didn't have to be hurt."
+
+**Overlap with other profiles:** most of what the similarity check flagged matches this page's own earlier Pratt version, not another person's profile. The Florence Pugh and Dominic Fike matches are stock Enneagram phrasing, not a reused argument, so I didn't file a finding.
+
+**Risk flags:** sensitive allegations, a contested type, and a major thesis change from the published Type 3 all apply, so the full six-reviewer panel is still required before editing.

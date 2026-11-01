@@ -1,5 +1,5 @@
 <!-- src/lib/components/atoms/Modal.svelte -->
-<script context="module" lang="ts">
+<script module lang="ts">
 	const modals: Record<string, { open: Function; close: Function }> = {};
 	let modalStack: HTMLDivElement[] = [];
 
@@ -28,7 +28,7 @@
 <script lang="ts">
 	import { browser } from '$app/environment';
 	import { X } from '@lucide/svelte';
-	import { onDestroy, tick } from 'svelte';
+	import { onDestroy, tick, untrack, type Snippet } from 'svelte';
 	import {
 		focusInitialElement,
 		inertBodySiblings,
@@ -36,26 +36,44 @@
 		trapFocus
 	} from '$lib/utils/focusBoundary';
 	import { lockBodyScroll } from '$lib/utils/scrollLock';
-	import { portal } from '../../../utils/portal';
+	import { portalToBody } from '$lib/attachments/portal';
+
+	interface Props {
+		navTop?: boolean;
+		name?: string;
+		id?: string;
+		disableClose?: boolean;
+		maxWidth?: string | null;
+		fullMobile?: boolean;
+		labelledBy?: string | null;
+		describedBy?: string | null;
+		initialFocus?: string | null;
+		contentPadding?: string | null;
+		oncloseattempt?: (() => void) | null;
+		children?: Snippet;
+	}
+
+	let {
+		navTop = false,
+		name = 'Dialog',
+		id = '',
+		disableClose = false,
+		maxWidth = null,
+		fullMobile = false,
+		labelledBy = null,
+		describedBy = null,
+		initialFocus = null,
+		contentPadding = null,
+		oncloseattempt = null,
+		children
+	}: Props = $props();
 
 	let topDiv: HTMLDivElement | null = null;
-	let visible = false;
+	let visible = $state(false);
 	let closeCallback: ((arg: any) => void) | null = null;
 	let releaseBodyScroll: (() => void) | null = null;
 	let releaseBackgroundInert: (() => void) | null = null;
 	let previouslyFocused: HTMLElement | null = null;
-
-	export let navTop = false;
-	export let name = 'Dialog';
-	export let id = '';
-	export let disableClose = false;
-	export let maxWidth: string | null = null;
-	export let fullMobile = false;
-	export let labelledBy: string | null = null;
-	export let describedBy: string | null = null;
-	export let initialFocus: string | null = null;
-	export let contentPadding: string | null = null;
-	export let oncloseattempt: (() => void) | null = null;
 
 	function keyPress(ev: KeyboardEvent) {
 		const node = topDiv;
@@ -121,10 +139,13 @@
 	}
 
 	const controller = { open, close };
-	modals[id] = controller;
+	// Registered once at creation (getModal(id) must work before mount); the id
+	// is a fixed handle, so later prop changes intentionally don't re-register.
+	const registeredId = untrack(() => id);
+	modals[registeredId] = controller;
 
 	onDestroy(() => {
-		if (modals[id] === controller) delete modals[id];
+		if (modals[registeredId] === controller) delete modals[registeredId];
 		const wasVisible = visible;
 		visible = false;
 		closeCallback = null;
@@ -149,7 +170,7 @@
 		: 'invisible opacity-0'}"
 	class:full-mobile-overlay={fullMobile}
 	bind:this={topDiv}
-	use:portal
+	{@attach portalToBody}
 	role="dialog"
 	aria-modal={visible ? 'true' : undefined}
 	aria-label={labelledBy ? undefined : name || 'Dialog'}
@@ -158,7 +179,9 @@
 	aria-hidden={visible ? undefined : 'true'}
 	inert={!visible}
 	tabindex="-1"
-	on:click|self={closeIfAllowed}
+	onclick={(event) => {
+		if (event.target === event.currentTarget) closeIfAllowed(event);
+	}}
 >
 	<!-- Modal content container -->
 	<div
@@ -171,7 +194,7 @@
 		{#if !navTop}
 			<button
 				type="button"
-				on:click={closeIfAllowed}
+				onclick={closeIfAllowed}
 				aria-label="Close dialog"
 				disabled={disableClose}
 				class="absolute right-3 top-3 flex h-11 w-11 cursor-pointer items-center justify-center rounded-md border border-[var(--stone-edge)] bg-[var(--night-mid)] p-0 text-[var(--ink-mid)] transition-colors duration-200 hover:bg-[var(--stone-mid)] hover:text-[var(--ink-bright)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--lamp-glow)] disabled:cursor-not-allowed disabled:opacity-50"
@@ -180,7 +203,7 @@
 			</button>
 		{/if}
 		<div class="modal-scroll-region" style:padding={contentPadding || undefined}>
-			<slot />
+			{@render children?.()}
 		</div>
 	</div>
 </div>

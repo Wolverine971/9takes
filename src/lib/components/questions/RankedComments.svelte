@@ -245,7 +245,13 @@
 		}
 	}
 
+	// Changes after a page load, sort/filter or new takes. A "Show more" that is
+	// still in view must report again, and an IntersectionObserver only reports
+	// changes, so the attachment below re-observes whenever this changes.
+	let moreObserverKey = $derived(`${visibleCount}:${takes.length}:${selectedTypes.join(',')}`);
+
 	function observeMore(node: Element) {
+		void moreObserverKey;
 		if (!active || typeof IntersectionObserver === 'undefined') return;
 		const observer = new IntersectionObserver(
 			(entries) => {
@@ -289,8 +295,8 @@
 			comment={take}
 			{user}
 			parentData={data}
-			on:commentUpdated={(event) => updateTake(event.detail)}
-			on:commentAdded={() => oncommentAdded?.()}
+			oncommentUpdated={updateTake}
+			oncommentAdded={() => oncommentAdded?.()}
 		/>
 	</div>
 {/snippet}
@@ -306,8 +312,8 @@
 					comment={take}
 					{user}
 					parentData={data}
-					on:commentUpdated={(event) => updateTake(event.detail)}
-					on:commentAdded={() => oncommentAdded?.()}
+					oncommentUpdated={updateTake}
+					oncommentAdded={() => oncommentAdded?.()}
 				/>
 			{/each}
 		</section>
@@ -335,7 +341,7 @@
 					<Button variant="secondary" size="md" onclick={() => onretryReveal?.()}>Try again</Button>
 				</div>
 			{:else}
-				{#each [0.92, 0.84, 0.9] as width, i (i)}
+				{#each [0.92, 0.84, 0.9] as width (width)}
 					<div class="take-skeleton" aria-hidden="true">
 						<Skeleton decorative variant="text" width="100%" />
 						<Skeleton decorative variant="text" width={`${Math.round(width * 100)}%`} />
@@ -366,14 +372,12 @@
 		</div>
 	{/if}
 	{#if hasMore && !pending}
-		{#key `${visibleCount}:${takes.length}:${active}:${selectedTypes.join(',')}`}
-			<div class="load-more" {@attach observeMore}>
-				{#if loadError}<p role="alert">{loadError}</p>{/if}
-				<button type="button" onclick={loadMore} disabled={loading}>
-					{loading ? 'Loading more…' : 'Show more takes'}
-				</button>
-			</div>
-		{/key}
+		<div class="load-more" {@attach observeMore}>
+			{#if loadError}<p role="alert">{loadError}</p>{/if}
+			<button type="button" onclick={loadMore} disabled={loading}>
+				{loading ? 'Loading more…' : 'Show more takes'}
+			</button>
+		</div>
 	{/if}
 {/if}
 

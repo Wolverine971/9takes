@@ -213,7 +213,7 @@
 	<section
 		class="chorus ph-no-capture"
 		bind:this={root}
-		use:qualifiedVisibility={reportGateImpression}
+		{@attach qualifiedVisibility(reportGateImpression)}
 		aria-label="One question, nine perspectives"
 	>
 		<header class="chorus-head">

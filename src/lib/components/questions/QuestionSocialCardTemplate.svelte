@@ -1,7 +1,5 @@
 <!-- src/lib/components/questions/QuestionSocialCardTemplate.svelte -->
 <script lang="ts">
-	import { browser } from '$app/environment';
-	import type { QuestionCardTextLayout } from '$lib/socialCards/questionCardTextLayout';
 	import {
 		calculateQuestionCardTextLayout,
 		calculateQuestionCardTextLayoutClient
@@ -11,32 +9,37 @@
 		QUESTION_SOCIAL_CARD_WIDTH
 	} from '$lib/socialCards/questionSocialCard';
 
-	export let questionText = '';
-	export let questionUrl = '';
-	export let id: string | undefined = undefined;
-	export let className = '';
+	interface Props {
+		questionText?: string;
+		questionUrl?: string;
+		id?: string;
+		className?: string;
+	}
 
-	$: safeQuestionText = questionText?.trim() || 'Share your perspective';
-	$: safeQuestionUrl = questionUrl?.trim() || '9takes.com/questions';
-	$: displayUrl = safeQuestionUrl.replace(/^https?:\/\//, '');
-	let textLayout: QuestionCardTextLayout;
-	let layoutRequest = 0;
+	let { questionText = '', questionUrl = '', id = undefined, className = '' }: Props = $props();
 
-	$: textLayout = calculateQuestionCardTextLayout(safeQuestionText);
-	$: if (browser) {
-		const requestId = ++layoutRequest;
-		void calculateQuestionCardTextLayoutClient(safeQuestionText)
+	let safeQuestionText = $derived(questionText?.trim() || 'Share your perspective');
+	let safeQuestionUrl = $derived(questionUrl?.trim() || '9takes.com/questions');
+	let displayUrl = $derived(safeQuestionUrl.replace(/^https?:\/\//, ''));
+
+	// The synchronous estimate renders first (and on the server); the browser
+	// measurement replaces it. A newer text supersedes an in-flight measurement.
+	let textLayout = $derived(calculateQuestionCardTextLayout(safeQuestionText));
+
+	$effect(() => {
+		const text = safeQuestionText;
+		let superseded = false;
+		void calculateQuestionCardTextLayoutClient(text)
 			.then((layout) => {
-				if (requestId === layoutRequest) {
-					textLayout = layout;
-				}
+				if (!superseded) textLayout = layout;
 			})
 			.catch(() => {
-				if (requestId === layoutRequest) {
-					textLayout = calculateQuestionCardTextLayout(safeQuestionText);
-				}
+				if (!superseded) textLayout = calculateQuestionCardTextLayout(text);
 			});
-	}
+		return () => {
+			superseded = true;
+		};
+	});
 </script>
 
 <div
@@ -59,7 +62,7 @@
 				class="question"
 				style={`font-size:${textLayout.fontSize}px; line-height:${textLayout.lineHeight};`}
 			>
-				{#each textLayout.lines as line}
+				{#each textLayout.lines as line, i (`${i}:${line}`)}
 					<span>{line}</span>
 				{/each}
 			</h2>

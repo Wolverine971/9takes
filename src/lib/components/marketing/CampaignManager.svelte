@@ -25,7 +25,7 @@
 	let campaignFilter = $state('all');
 	let searchTerm = $state('');
 	let activeTab: 'create' | 'list' = $state('list');
-	let campaignTemplates = [
+	const campaignTemplates = [
 		{
 			name: 'Product Launch',
 			description: 'Campaign for launching a new product or feature',
@@ -348,11 +348,30 @@
 		}
 	}
 
+	function addDays(date: Date, days: number): Date {
+		return new Date(
+			date.getFullYear(),
+			date.getMonth(),
+			date.getDate() + days,
+			date.getHours(),
+			date.getMinutes(),
+			date.getSeconds(),
+			date.getMilliseconds()
+		);
+	}
+
+	/** Keys repeated strings by value plus occurrence, so duplicates stay unique. */
+	function keyedStrings(values: string[]): { key: string; value: string }[] {
+		const seen: Record<string, number> = {};
+		return values.map((value) => {
+			const n = (seen[value] = (seen[value] ?? 0) + 1);
+			return { key: n === 1 ? value : `${value}#${n}`, value };
+		});
+	}
+
 	onMount(() => {
-		const tomorrow = new Date();
-		tomorrow.setDate(tomorrow.getDate() + 1);
-		const endDate = new Date(tomorrow);
-		endDate.setDate(endDate.getDate() + 30);
+		const tomorrow = addDays(new Date(), 1);
+		const endDate = addDays(tomorrow, 30);
 		newCampaign.start_date = tomorrow.toISOString().split('T')[0];
 		newCampaign.end_date = endDate.toISOString().split('T')[0];
 	});
@@ -729,7 +748,9 @@
 									<div class="card-themes">
 										<span class="themes-label">Themes:</span>
 										<div class="themes-list">
-											{#each campaign.themes_and_topics.split(',').slice(0, 3) as theme}
+											{#each keyedStrings(campaign.themes_and_topics
+													.split(',')
+													.slice(0, 3)) as { key, value: theme } (key)}
 												<span class="theme-tag">{theme.trim()}</span>
 											{/each}
 											{#if campaign.themes_and_topics.split(',').length > 3}
@@ -806,7 +827,7 @@
 			<div class="template-section">
 				<h3 class="template-heading">Start with a template:</h3>
 				<div class="template-grid">
-					{#each campaignTemplates as template, index}
+					{#each campaignTemplates as template, index (template.name)}
 						<button class="template-btn" onclick={() => applyTemplate(index)}>
 							<div class="template-icon">
 								{#if index === 0}

@@ -8,10 +8,7 @@
 	import PopCard from '$lib/components/atoms/PopCard.svelte';
 	import { serializeJsonLd } from '$lib/utils/jsonLd';
 
-	import TableOfContents from '$lib/components/blog/TableOfContents.svelte';
-	import { onMount } from 'svelte';
-	import { writable } from 'svelte/store';
-	import { browser } from '$app/environment';
+	import TableOfContents, { trackArticleHtml } from '$lib/components/blog/TableOfContents.svelte';
 
 	import type { PageData } from './$types';
 	import type { Component } from 'svelte';
@@ -24,10 +21,10 @@
 	import ExperimentalTherapyInvite from '$lib/components/blog/ExperimentalTherapyInvite.svelte';
 	import { buildHowToSchema } from '$lib/utils/schema';
 	import AuthorBio from '$lib/components/blog/AuthorBio.svelte';
-	import { getAuthShellUser } from '$lib/authShell';
+	import { getAuthShell } from '$lib/authShell.svelte';
 
 	let { data }: { data: PageData } = $props();
-	const authUser = getAuthShellUser();
+	const authShell = getAuthShell();
 
 	// Build HowTo schema if steps are defined in frontmatter
 	let howToSchema = $derived(
@@ -52,66 +49,8 @@
 	type C = Component;
 	let Article = $derived(data.component as unknown as C);
 
-	const contentStore = writable('');
-	let observer: MutationObserver | null = null;
-
-	onMount(() => {
-		findObserver();
-
-		return () => {
-			// Cleanup observer on unmount
-			if (observer) {
-				observer.disconnect();
-				observer = null;
-			}
-		};
-	});
-
-	// Watch for slug changes and reinitialize observer
-	$effect(() => {
-		if (data?.slug) {
-			// Reset content store when slug changes
-			contentStore.set('');
-
-			// Clean up existing observer
-			if (observer) {
-				observer.disconnect();
-				observer = null;
-			}
-
-			// Set up new observer after a short delay to ensure DOM is updated
-			setTimeout(() => {
-				findObserver();
-			}, 100);
-		}
-	});
-
-	const findObserver = () => {
-		if (!browser) return;
-		const node = document.querySelector('#blogA');
-
-		if (!node) {
-			setTimeout(findObserver, 500);
-		} else {
-			// Disconnect existing observer if any
-			if (observer) {
-				observer.disconnect();
-			}
-
-			observer = new MutationObserver((mutations) => {
-				mutations.forEach((mutation) => {
-					if (mutation.type === 'childList') {
-						contentStore.set(node.innerHTML);
-					}
-				});
-			});
-
-			observer.observe(node, { childList: true, subtree: true });
-
-			// Also set initial content
-			contentStore.set(node.innerHTML);
-		}
-	};
+	// The article's live HTML, for the TOC's client-side fallback.
+	let tocContent = $state('');
 </script>
 
 <!-- HowTo Schema for guides with steps -->
@@ -121,7 +60,7 @@
 	{/if}
 </svelte:head>
 
-<article class="blog" id="blogA">
+<article class="blog" id="blogA" {@attach trackArticleHtml((html) => (tocContent = html))}>
 	<div>
 		<BlogPageHead data={data.frontmatter} slug={`how-to-guides/${data.slug}`} />
 		<ArticleTitle title={data.frontmatter.title} />
@@ -143,7 +82,7 @@
 		</div>
 	{/if}
 
-	<TableOfContents {contentStore} headings={data.frontmatter.headings} />
+	<TableOfContents content={tocContent} headings={data.frontmatter.headings} />
 
 	<Article />
 
@@ -152,11 +91,11 @@
 
 <hr class="section-divider" />
 
-<SuggestionsBlog posts={data?.posts} blogType={'How to Guides'} slugPrefix={'how-to-guides'} />
+<SuggestionsBlog posts={data?.posts} blogType="How to Guides" slugPrefix="how-to-guides" />
 
 <div class="join">
-	{#if !$authUser}
-		<EmailSignup cta={'Get the next practical guide from 9takes'} />
+	{#if !authShell.user}
+		<EmailSignup cta="Get the next practical guide from 9takes" />
 	{/if}
 </div>
 

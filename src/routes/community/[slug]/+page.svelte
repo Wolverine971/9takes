@@ -7,78 +7,30 @@
   Spec: docs/design-system.md §4–§6.
 -->
 <script lang="ts">
-	import { onMount } from 'svelte';
-	import { writable } from 'svelte/store';
-	import { browser } from '$app/environment';
 	import type { PageData } from './$types';
 	import type { Component } from 'svelte';
 	import BlogPageHead from '$lib/components/blog/BlogPageHead.svelte';
 	import ArticleTitle from '$lib/components/blog/ArticleTitle.svelte';
 	import ArticleSubTitle from '$lib/components/blog/ArticleSubTitle.svelte';
 	import ArticleDescription from '$lib/components/blog/ArticleDescription.svelte';
-	import TableOfContents from '$lib/components/blog/TableOfContents.svelte';
+	import TableOfContents, { trackArticleHtml } from '$lib/components/blog/TableOfContents.svelte';
 	import SuggestionsBlog from '$lib/components/blog/SuggestionsBlog.svelte';
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 	import ExperimentalTherapyInvite from '$lib/components/blog/ExperimentalTherapyInvite.svelte';
 	import AuthorBio from '$lib/components/blog/AuthorBio.svelte';
 	import PopCard from '$lib/components/atoms/PopCard.svelte';
-	import { getAuthShellUser } from '$lib/authShell';
+	import { getAuthShell } from '$lib/authShell.svelte';
 
 	let { data }: { data: PageData } = $props();
-	const authUser = getAuthShellUser();
+	const authShell = getAuthShell();
 	type C = Component;
 	let Article = $derived(data.component as unknown as C);
 
-	const contentStore = writable('');
-	let observer: MutationObserver | null = null;
-
-	onMount(() => {
-		findObserver();
-
-		return () => {
-			if (observer) {
-				observer.disconnect();
-				observer = null;
-			}
-		};
-	});
-
-	$effect(() => {
-		if (data?.slug) {
-			contentStore.set('');
-			if (observer) {
-				observer.disconnect();
-				observer = null;
-			}
-			setTimeout(() => {
-				findObserver();
-			}, 100);
-		}
-	});
-
-	const findObserver = () => {
-		if (!browser) return;
-		const node = document.querySelector('#blogA');
-		if (!node) {
-			setTimeout(findObserver, 500);
-		} else {
-			if (observer) {
-				observer.disconnect();
-			}
-			observer = new MutationObserver((mutations) => {
-				mutations.forEach((mutation) => {
-					if (mutation.type === 'childList') {
-						contentStore.set(node.innerHTML);
-					}
-				});
-			});
-			observer.observe(node, { childList: true, subtree: true });
-			contentStore.set(node.innerHTML);
-		}
-	};
+	// The article's live HTML, for the TOC's client-side fallback.
+	let tocContent = $state('');
 </script>
 
-<article class="blog" id="blogA">
+<article class="blog" id="blogA" {@attach trackArticleHtml((html) => (tocContent = html))}>
 	<div>
 		<BlogPageHead data={data.frontmatter} slug={`community/${data.slug}`} />
 		<ArticleTitle title={data.frontmatter.title} />
@@ -100,7 +52,7 @@
 		</div>
 	{/if}
 
-	<TableOfContents {contentStore} headings={data.frontmatter.headings} />
+	<TableOfContents content={tocContent} headings={data.frontmatter.headings} />
 
 	<Article />
 
@@ -109,11 +61,11 @@
 
 <hr class="section-divider" />
 
-<SuggestionsBlog posts={data?.posts} blogType={'Community'} slugPrefix={'community'} />
+<SuggestionsBlog posts={data?.posts} blogType="Community" slugPrefix="community" />
 
 <div class="join">
-	{#if !$authUser}
-		<EmailSignup cta={'Get the next community take from 9takes'} />
+	{#if !authShell.user}
+		<EmailSignup cta="Get the next community take from 9takes" />
 	{/if}
 </div>
 

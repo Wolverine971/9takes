@@ -54,6 +54,17 @@ const config = {
 
 	extensions: ['.svelte', ...mdsvexConfig.extensions],
 
+	compilerOptions: {
+		// Every component compiles in runes mode, so Svelte 4 syntax (`export let`, `$:`, `<slot>`,
+		// `on:click`, createEventDispatcher) fails the build instead of creeping back in. Two exceptions
+		// infer their own mode: libraries in node_modules, and mdsvex markdown, whose generated
+		// wrapper uses `$$props`. Components that posts embed must keep taking plain props + children.
+		runes: ({ filename }) =>
+			filename.split(/[/\\]/).includes('node_modules') || /\.(?:md|svx)$/.test(filename)
+				? undefined
+				: true
+	},
+
 	vitePlugin: {
 		// Blog posts load through a lazy import.meta.glob in each [slug]/+page.ts. SvelteKit links
 		// the CSS of every dynamic import a page can reach, because it cannot know which one a

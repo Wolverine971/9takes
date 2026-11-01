@@ -10,12 +10,16 @@
 
 	type Theme = 'types' | 'relationships' | 'workplace' | 'growth' | 'custom';
 
-	export let displayList: DisplayItem[] = [];
-	export let noMove: boolean = false;
-	export let speed: number = 30; // seconds for one full rotation
-	export let theme: Theme = 'custom';
+	interface Props {
+		displayList?: DisplayItem[];
+		noMove?: boolean;
+		speed?: number; // seconds for one full rotation
+		theme?: Theme;
+	}
 
-	let marqueeWidth: number;
+	let { displayList = [], noMove = false, speed = 30, theme = 'custom' }: Props = $props();
+
+	let marqueeWidth = $state<number>();
 
 	// Predefined theme lists for smart cross-linking
 	const themeDisplayLists: Record<Exclude<Theme, 'custom'>, DisplayItem[]> = {
@@ -73,14 +77,15 @@
 	};
 
 	// Use theme-based display list if no custom list provided
-	$: finalDisplayList =
-		displayList.length > 0 ? displayList : theme === 'custom' ? [] : themeDisplayLists[theme];
+	let finalDisplayList = $derived(
+		displayList.length > 0 ? displayList : theme === 'custom' ? [] : themeDisplayLists[theme]
+	);
 
 	onMount(() => {
 		marqueeWidth = finalDisplayList.length * 250; // Adjust based on your content
 	});
 
-	$: jsonLd = {
+	let jsonLd = $derived({
 		'@context': 'https://schema.org',
 		'@type': 'WebPageElement',
 		isPartOf: {
@@ -98,7 +103,7 @@
 				description: `A blog on Enneagram types ${item.name}`
 			};
 		})
-	};
+	});
 </script>
 
 <svelte:head>
@@ -111,13 +116,13 @@
 >
 	<div class="marquee" class:paused={noMove} role="marquee">
 		<div class="marquee-content">
-			{#each finalDisplayList as item}
+			{#each finalDisplayList as item (`${item.name}|${item.link}`)}
 				<a href={item.link} class="marquee-item">{item.name}</a>
 			{/each}
 		</div>
 		<!-- Visual duplicate for the seamless loop: inert keeps its links out of the tab order -->
 		<div class="marquee-content" aria-hidden="true" inert>
-			{#each finalDisplayList as item}
+			{#each finalDisplayList as item (`${item.name}|${item.link}`)}
 				<a href={item.link} class="marquee-item">{item.name}</a>
 			{/each}
 		</div>

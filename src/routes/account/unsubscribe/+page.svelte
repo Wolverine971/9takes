@@ -8,15 +8,19 @@
 
 	let { data }: { data: PageData } = $props();
 
-	const formattedSignups: any[] = data?.signups?.length
-		? data?.signups?.map((s) => {
-				return {
-					...s,
-					createdAt: s.created_at ? convertDateToReadable(s.created_at) : '',
-					unsubscribed_date: s.unsubscribed_date ? convertDateToReadable(s.unsubscribed_date) : null
-				};
-			})
-		: [];
+	const formattedSignups: any[] = $derived(
+		data?.signups?.length
+			? data?.signups?.map((s) => {
+					return {
+						...s,
+						createdAt: s.created_at ? convertDateToReadable(s.created_at) : '',
+						unsubscribed_date: s.unsubscribed_date
+							? convertDateToReadable(s.unsubscribed_date)
+							: null
+					};
+				})
+			: []
+	);
 
 	let email = $state('');
 	const createCypher = async () => {
@@ -73,7 +77,7 @@
 						</tr>
 					</thead>
 					<tbody>
-						{#each formattedSignups as signup}
+						{#each formattedSignups as signup (signup.id)}
 							<tr>
 								<td>{signup.email}</td>
 								<td>{signup.name}</td>

@@ -4,26 +4,46 @@
 	import { fly } from 'svelte/transition';
 	import { prefersReducedMotion } from 'svelte/motion';
 	import { browser } from '$app/environment';
+	import type { Attachment } from 'svelte/attachments';
+
+	interface Props {
+		image?: string;
+		showIcon?: boolean;
+		aspectRatio?: string;
+		displayText?: string;
+		enneagramType?: number;
+		altText?: string;
+		subtext?: string;
+		scramble?: boolean;
+		tint?: boolean;
+		imageTreatment?: 'default' | 'personality';
+		/** Set to false for hero/LCP images */
+		lazyLoad?: boolean;
+		/** Set to true for LCP images to add fetchpriority="high" */
+		priority?: boolean;
+	}
 
 	// Component props with default values
-	export let image = 'cyber-campfire.webp';
-	export let showIcon = true;
-	export let aspectRatio = '10 / 16';
-	export let displayText = '';
-	export let enneagramType = 0;
-	export let altText = '';
-	export let subtext = 'Ask questions, give your hot takes, talk to people';
-	export let scramble = true;
-	export let tint = true;
-	export let imageTreatment: 'default' | 'personality' = 'default';
-	// LCP optimization props
-	export let lazyLoad = true; // Set to false for hero/LCP images
-	export let priority = false; // Set to true for LCP images to add fetchpriority="high"
+	let {
+		image = 'cyber-campfire.webp',
+		showIcon = true,
+		aspectRatio = '10 / 16',
+		displayText = '',
+		enneagramType = 0,
+		altText = '',
+		subtext = 'Ask questions, give your hot takes, talk to people',
+		scramble = true,
+		tint = true,
+		imageTreatment = 'default',
+		// LCP optimization props
+		lazyLoad = true,
+		priority = false
+	}: Props = $props();
 
 	// Constants and state variables
 	const LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 	let interval: ReturnType<typeof setInterval> | null = null;
-	let showDescription = false;
+	let showDescription = $state(false);
 	let isTouchDevice = false;
 
 	// Generate a unique ID for the text animation
@@ -36,11 +56,13 @@
 	}
 
 	// Create optimized image src path for responsive loading without producing s-s-* paths.
-	$: imageSrc = getSmallImagePath(image);
+	let imageSrc = $derived(getSmallImagePath(image));
 
 	// A two-word name can take the display size; a seven-word link title can't. Step
 	// the title down by length so it stays a caption instead of covering the image.
-	$: titleSize = displayText.length > 30 ? 'long' : displayText.length > 18 ? 'medium' : 'short';
+	let titleSize = $derived(
+		displayText.length > 30 ? 'long' : displayText.length > 18 ? 'medium' : 'short'
+	);
 
 	// Data for enneagram type descriptions
 	// Each type has a core emotion AND a stance toward that emotion
@@ -165,14 +187,14 @@
 	// isn't already inside a link. Most blog uses wrap it in <a>, and most cards have
 	// no overlay, so an unconditional role="button" was a second (or dead) tab stop.
 	// Decided on mount: the reveal is JS state, so the SSR card stays a plain figure.
-	let isLinked = true;
-	$: hasOverlay = enneagramType > 0 && enneagramType <= 9;
-	$: revealControl = hasOverlay && !isLinked;
-	$: controlAttrs = revealControl ? { role: 'button', tabindex: 0 } : {};
+	let isLinked = $state(true);
+	let hasOverlay = $derived(enneagramType > 0 && enneagramType <= 9);
+	let revealControl = $derived(hasOverlay && !isLinked);
+	let controlAttrs = $derived(revealControl ? { role: 'button', tabindex: 0 } : {});
 
-	// Hover/tap effects are wired here rather than as on: directives so a decorative
+	// Hover/tap effects are wired here rather than as event attributes so a decorative
 	// (non-control) card stays a static element.
-	function cardBehavior(node: HTMLElement) {
+	const cardBehavior: Attachment<HTMLElement> = (node) => {
 		const link = node.closest('a');
 		isLinked = !!link;
 		// Keyboard focus reveals what hover reveals: on the wrapping link when there
@@ -204,19 +226,17 @@
 		focusHost.addEventListener('focusin', show);
 		focusHost.addEventListener('focusout', hide);
 
-		return {
-			destroy() {
-				node.removeEventListener('mouseover', scrambleOnHover);
-				node.removeEventListener('mouseenter', show);
-				node.removeEventListener('mouseleave', hide);
-				node.removeEventListener('touchstart', markTouch);
-				node.removeEventListener('click', toggleOnTap);
-				node.removeEventListener('keydown', handleKeydown);
-				focusHost.removeEventListener('focusin', show);
-				focusHost.removeEventListener('focusout', hide);
-			}
+		return () => {
+			node.removeEventListener('mouseover', scrambleOnHover);
+			node.removeEventListener('mouseenter', show);
+			node.removeEventListener('mouseleave', hide);
+			node.removeEventListener('touchstart', markTouch);
+			node.removeEventListener('click', toggleOnTap);
+			node.removeEventListener('keydown', handleKeydown);
+			focusHost.removeEventListener('focusin', show);
+			focusHost.removeEventListener('focusout', hide);
 		};
-	}
+	};
 </script>
 
 <div
@@ -226,7 +246,7 @@
 	style="aspect-ratio: {aspectRatio};"
 	title={altText || displayText}
 	{...controlAttrs}
-	use:cardBehavior
+	{@attach cardBehavior}
 >
 	<!-- Responsive image with proper loading attributes -->
 	{#if priority}

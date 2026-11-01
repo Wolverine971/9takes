@@ -119,9 +119,16 @@ export function mapPersonalityCategoryRow(
 export function mapPersonalityCategoryRows(
 	rows: PersonalityCategoryRow[]
 ): PersonalityCategoryPerson[] {
+	// One card per slug. Duplicate DB rows that normalize to the same slug would otherwise
+	// repeat the person, and the slug-keyed {#each} lists throw on duplicate keys.
+	const seen = new Set<string>();
 	return rows
 		.map((row) => mapPersonalityCategoryRow(row))
-		.filter((row): row is PersonalityCategoryPerson => row !== null);
+		.filter((row): row is PersonalityCategoryPerson => {
+			if (row === null || seen.has(row.slug)) return false;
+			seen.add(row.slug);
+			return true;
+		});
 }
 
 export function sortPeopleForCategory(

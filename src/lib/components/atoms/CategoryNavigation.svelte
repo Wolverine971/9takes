@@ -1,11 +1,8 @@
 <!-- src/lib/components/atoms/CategoryNavigation.svelte -->
 <script lang="ts">
 	import { afterNavigate } from '$app/navigation';
-	import { page } from '$app/stores';
 	import { browser } from '$app/environment';
 	import { buildQuestionCategoryPath } from '$lib/utils/questionCategorySlug';
-
-	export let isMobile = false;
 
 	interface CategoryStep {
 		id: number;
@@ -14,11 +11,17 @@
 		level: number;
 	}
 
-	export let categoryStructure: CategoryStep[] = [];
-	let containerWidth = 0;
-	let overflowing = false;
+	interface Props {
+		isMobile?: boolean;
+		categoryStructure?: CategoryStep[];
+	}
 
-	$: categories = categoryStructure;
+	let { isMobile = false, categoryStructure = [] }: Props = $props();
+
+	let containerWidth = $state(0);
+	let overflowing = $state(false);
+
+	let categories = $derived(categoryStructure);
 
 	function getCategoryUrl(category: Pick<CategoryStep, 'slug' | 'category_name'>): string {
 		return buildQuestionCategoryPath(category.slug || category.category_name);
@@ -39,13 +42,12 @@
 		}
 	}
 
-	// When the categories change, check for overflow
-	$: {
-		categories;
-		if (browser) {
-			setTimeout(checkOverflow, 10);
-		}
-	}
+	// When the categories change, re-measure overflow once they have rendered (DOM read)
+	$effect(() => {
+		if (!categories) return;
+		const timer = setTimeout(checkOverflow, 10);
+		return () => clearTimeout(timer);
+	});
 
 	afterNavigate(() => {
 		if (browser) {
@@ -116,7 +118,7 @@
 					</a>
 				{:else}
 					<!-- Full breadcrumb path for desktop or when there are few categories -->
-					{#each categories as step, index}
+					{#each categories as step, index (step.id)}
 						<a
 							href={getCategoryUrl(step)}
 							class="category-item {index === categories.length - 1 ? 'current' : ''}"

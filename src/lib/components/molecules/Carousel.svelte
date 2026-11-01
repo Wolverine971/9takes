@@ -9,14 +9,18 @@
 		formatPersonalityDisplayName
 	} from '$lib/utils/personalityAnalysis';
 
-	export let type: number;
-	export let gridDisplay: boolean = false;
+	interface Props {
+		type: number;
+		gridDisplay?: boolean;
+	}
+
+	let { type, gridDisplay = false }: Props = $props();
 
 	// Filter to only include people with images
-	$: peopleWithImages = famousTypes[type]?.filter((p) => p.hasImage) || [];
+	let peopleWithImages = $derived(famousTypes[type]?.filter((p) => p.hasImage) || []);
 
-	let currentIndex = 0;
-	$: visiblePerson = peopleWithImages[currentIndex];
+	let currentIndex = $state(0);
+	let visiblePerson = $derived(peopleWithImages[currentIndex]);
 
 	onMount(() => {
 		if (peopleWithImages.length > 1) {
@@ -45,7 +49,7 @@
 			imageTreatment="personality"
 			showIcon={false}
 			displayText={formatPersonalityDisplayName(visiblePerson.name)}
-			subtext={''}
+			subtext=""
 		/>
 	{/if}
 </div>

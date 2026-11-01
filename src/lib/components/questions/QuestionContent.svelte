@@ -1,6 +1,6 @@
 <!-- src/lib/components/questions/QuestionContent.svelte -->
 <script lang="ts">
-	import { onDestroy, onMount, setContext, type Snippet } from 'svelte';
+	import { onDestroy, onMount, type Snippet } from 'svelte';
 	import { browser } from '$app/environment';
 	import { resolve } from '$app/paths';
 	import { fade } from 'svelte/transition';
@@ -9,6 +9,7 @@
 	import Comments from '$lib/components/molecules/Comments.svelte';
 	import RankedComments from './RankedComments.svelte';
 	import { createCommentViewTracker } from '$lib/browser/commentViews';
+	import { setCommentViewObserver } from './commentViewContext';
 	import { getExistingVisitorId } from '$lib/analytics/visitorIdentity';
 	import AIComments from '$lib/components/molecules/AIComments.svelte';
 	import AnswerGist from './AnswerGist.svelte';
@@ -97,7 +98,7 @@
 		});
 		return viewTracker.observe(node, take);
 	}
-	setContext('9takes:comment-view-observer', observeTake);
+	setCommentViewObserver(observeTake);
 	onDestroy(() => viewTracker?.destroy());
 
 	// A reply-focus thread renders its parent above the community list.

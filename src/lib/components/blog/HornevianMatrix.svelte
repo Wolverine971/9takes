@@ -59,19 +59,19 @@
 
 	<div class="hornevian__grid" role="table" aria-label="Enneagram social styles by core want">
 		<div class="hornevian__corner" role="columnheader" aria-label="Social style"></div>
-		{#each columns as col}
+		{#each columns as col (col.want)}
 			<div class="hornevian__col-head" role="columnheader">
 				<span class="hornevian__want">Wants {col.want}</span>
 				<span class="hornevian__center">{col.center} center</span>
 			</div>
 		{/each}
 
-		{#each rows as row}
+		{#each rows as row (row.style)}
 			<div class="hornevian__row-head" role="rowheader">
 				<span class="hornevian__style">{row.style}</span>
 				<span class="hornevian__move">{row.move}</span>
 			</div>
-			{#each row.cells as cell}
+			{#each row.cells as cell (cell.type)}
 				<a
 					class="hornevian__cell"
 					href={cell.href}

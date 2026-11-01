@@ -148,7 +148,7 @@
 
 	<!-- Templates Grid -->
 	{#if filteredTemplates.length > 0}
-		{#each Object.entries(groupedTemplates) as [type, typeTemplates]}
+		{#each Object.entries(groupedTemplates) as [type, typeTemplates] (type)}
 			<div class="type-section" transition:slide={{ duration: 200 }}>
 				<div class="type-header">
 					<h3>{type}</h3>

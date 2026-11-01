@@ -4,7 +4,6 @@
 	import { onMount, onDestroy } from 'svelte';
 	import { browser } from '$app/environment';
 	import { RealtimeMessaging, createPresenceChannel, type Message } from '$lib/realtime';
-	import { page } from '$app/stores';
 	import type { RealtimeChannel } from '@supabase/supabase-js';
 	import { supabase } from '$lib/supabase';
 	import { Button } from '$lib/components/atoms';
@@ -203,7 +202,7 @@
 				{#if messages.length === 0}
 					<p class="empty-text">No broadcast messages yet.</p>
 				{:else}
-					{#each messages as m}
+					{#each messages as m (m.id)}
 						<div class="message-item">
 							<div class="message-header">
 								<span class="message-from">
@@ -271,7 +270,7 @@
 				</h3>
 				{#if onlineUsers.length > 0}
 					<div class="user-list">
-						{#each onlineUsers as user}
+						{#each onlineUsers as user (user.presence_ref)}
 							<button type="button" class="user-item" onclick={() => (userid = user.id)}>
 								<div class="user-info">
 									<span class="user-email">{user.email}</span>
@@ -297,7 +296,7 @@
 				</h3>
 				{#if data?.users?.length}
 					<div class="user-list">
-						{#each data?.users as u}
+						{#each data?.users as u (u?.id)}
 							{#if u}
 								<button
 									type="button"
@@ -329,7 +328,7 @@
 						<p class="empty-hint">Select a user from the left panel and send them a message</p>
 					</div>
 				{:else}
-					{#each userMessages as um}
+					{#each userMessages as um (um.id)}
 						<div class="message-item">
 							<div class="message-header">
 								<span class="message-from">

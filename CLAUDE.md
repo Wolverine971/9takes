@@ -249,7 +249,16 @@ This project uses **Svelte 5 runes**. New/edited components should use:
 </script>
 ```
 
-**Migration status**: Newer components (search, questions, admin) use runes. Many legacy components (Header, Footer, blog internals) still use `export let` and `$:` — migrate when touching them.
+**Runes mode is forced** (`compilerOptions.runes` in `svelte.config.js`, migration finished 2026-11-01). Every component except mdsvex markdown and `node_modules` compiles in runes mode, so Svelte 4 syntax (`export let`, `$:`, `<slot>`, `on:click`, `createEventDispatcher`, `$app/stores`) fails the build. Before editing Svelte, load the official skills in `.claude/skills/` (`svelte-core-bestpractices`, `svelte-code-writer`; vendored from sveltejs/ai-tools, don't edit them) and run `npx @sveltejs/mcp svelte-autofixer <file> --svelte-version 5.57.1` on what you touched. House rules:
+
+- `$derived` instead of an `$effect` that sets state. Deriveds are writable, which covers optimistic updates and local edits. Effects only sync with things outside Svelte (DOM APIs, timers, storage, analytics, fetch).
+- Attachments (`{@attach}`, factories in `src/lib/attachments/`) instead of `use:` actions. `use:enhance` stays.
+- Snippets + `children` instead of slots; callback props (`onselect`) instead of dispatched events.
+- `$app/state` instead of `$app/stores`; `createContext` instead of string-keyed `setContext`/`getContext`; shared state in `.svelte.ts` classes (e.g. `authShell.svelte.ts`, `stores/theme.svelte.ts`) instead of stores.
+- Every `{#each}` is keyed with a unique key (Svelte 5 throws on duplicate keys in production too); reactive collections use `SvelteMap`/`SvelteSet`/`SvelteDate`.
+- Multi-code ignores need commas: `<!-- svelte-ignore a11y_x, a11y_y -->` (space-separated silently keeps only the first).
+- Components used inside markdown posts (callouts, `MarqueeHorizontal`, `Carousel`, …) take plain props + `children` only, because markdown stays in legacy mode.
+- ESLint enforces the recommended Svelte rules (`eslint.config.js` says which few stay off and why).
 
 ## Server Patterns
 

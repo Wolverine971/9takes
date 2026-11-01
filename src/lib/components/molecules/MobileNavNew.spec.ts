@@ -4,22 +4,17 @@
 import { fireEvent, render, screen, waitFor, within } from '@testing-library/svelte';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 
-const { afterNavigateMock, pageStore } = vi.hoisted(() => ({
+const { afterNavigateMock, pageState } = vi.hoisted(() => ({
 	afterNavigateMock: vi.fn(),
-	pageStore: {
-		subscribe(run: (value: { url: URL; data: { user: null } }) => void) {
-			run({ url: new URL('https://9takes.com/'), data: { user: null } });
-			return () => {};
-		}
-	}
+	pageState: { url: new URL('https://9takes.com/'), data: { user: null } }
 }));
 
 vi.mock('$app/navigation', () => ({
 	afterNavigate: afterNavigateMock
 }));
 
-vi.mock('$app/stores', () => ({
-	page: pageStore
+vi.mock('$app/state', () => ({
+	page: pageState
 }));
 
 import MobileNavNew from './MobileNavNew.svelte';

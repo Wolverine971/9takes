@@ -1,5 +1,6 @@
 <!-- src/routes/host-desk/[token]/+page.svelte -->
 <script lang="ts">
+	import { untrack } from 'svelte';
 	import { enhance } from '$app/forms';
 	import { Button, Textarea } from '$lib/components/atoms';
 	import type { PageProps } from './$types';
@@ -21,14 +22,11 @@
 		form && 'text' in form && typeof form.text === 'string' ? form.text : null
 	);
 
-	// Seeded server-side so the draft is visible before hydration.
-	let text = $state(data.state === 'ready' ? data.initialText : '');
-	let showEditor = $state(data.state === 'ready' ? data.variant !== 'skip' : true);
+	// Seeded server-side so the draft is visible before hydration. Seeded once:
+	// later data reloads must not overwrite what the host is typing.
+	let text = $state(untrack(() => echoedText ?? (data.state === 'ready' ? data.initialText : '')));
+	let showEditor = $state(untrack(() => (data.state === 'ready' ? data.variant !== 'skip' : true)));
 	let submitting = $state<'post' | 'skip' | null>(null);
-
-	$effect(() => {
-		if (echoedText !== null) text = echoedText;
-	});
 
 	function useDraft(value: string) {
 		text = value;
@@ -109,9 +107,13 @@
 						action="?/post"
 						use:enhance={() => {
 							submitting = 'post';
-							return async ({ update }) => {
+							return async ({ result, update }) => {
 								await update({ reset: false });
 								submitting = null;
+								// A failed post echoes the typed text back so nothing is lost.
+								if (result.type === 'failure' && typeof result.data?.text === 'string') {
+									text = result.data.text;
+								}
 							};
 						}}
 					>

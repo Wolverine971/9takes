@@ -5,16 +5,21 @@
   the title becomes the base's mono kicker label. Public props unchanged.
 -->
 <script lang="ts">
+	import type { Snippet } from 'svelte';
 	import Callout from './Callout.svelte';
 
-	export let title = '';
-	export let items: string[] = [];
-	export let note = '';
+	interface Props {
+		title?: string;
+		items?: string[];
+		note?: string;
+		/**
+		 * Body content: an HTML string when dynamically mounted from Supabase
+		 * content, or the markdown/default content snippet otherwise.
+		 */
+		children?: Snippet | string;
+	}
 
-	/**
-	 * Optional children content (used when dynamically mounted from Supabase content)
-	 */
-	export let children: string | ((...args: unknown[]) => unknown) = '';
+	let { title = '', items = [], note = '', children = '' }: Props = $props();
 
 	const slugify = (value: string) =>
 		value
@@ -22,15 +27,19 @@
 			.replace(/[^a-z0-9]+/g, '-')
 			.replace(/^-+|-+$/g, '') || 'checklist';
 
-	const listId = slugify(title || 'checklist');
+	const listId = $derived(slugify(title || 'checklist'));
 
-	// Track checked state for each item (avoids CSS :has() which Sass doesn't support)
-	let checkedStates: boolean[] = items.map(() => false);
+	// Track checked state for each item (avoids CSS :has() which Sass doesn't support).
+	// Deeply reactive so bind:checked can write into it; starts over if the item list changes.
+	const checkedStates = $derived.by(() => {
+		const states = $state(items.map(() => false));
+		return states;
+	});
 </script>
 
 <Callout label={title}>
 	<div class="checklist__items">
-		{#each items as item, index}
+		{#each items as item, index (item)}
 			{@const itemId = `${listId}-${index}`}
 			<div class="checklist__item" class:checklist__item--checked={checkedStates[index]}>
 				<input
@@ -54,8 +63,8 @@
 		<div class="checklist__content">
 			{@html children}
 		</div>
-	{:else}
-		<slot />
+	{:else if typeof children === 'function'}
+		{@render children()}
 	{/if}
 </Callout>
 

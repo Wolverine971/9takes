@@ -1,7 +1,7 @@
 <!-- src/lib/components/map/controls/GeolocateControl.svelte -->
 <script lang="ts">
-	import { getContext, onMount, createEventDispatcher } from 'svelte';
-	import { contextKey } from '$lib/components/map/mapbox';
+	import { onMount, untrack } from 'svelte';
+	import { getMapContext } from '$lib/components/map/map-context';
 	import { bindEvents } from '$lib/components/map/event-binding';
 
 	type GeolocateLike = {
@@ -14,16 +14,31 @@
 		GeolocateControl: new (options: Record<string, unknown>) => GeolocateLike;
 	};
 
-	const { getMap, getMapbox } = getContext(contextKey) as {
-		getMap: () => { addControl: (control: unknown, position: string) => void };
-		getMapbox: () => MapboxLike;
-	};
-	const map = getMap();
-	const mapbox = getMapbox();
-	const dispatch = createEventDispatcher();
+	type GeolocateCallback = (detail: unknown) => void;
 
-	export let position = 'top-left';
-	export let options: Record<string, unknown> = {};
+	interface Props {
+		position?: string;
+		options?: Record<string, unknown>;
+		onerror?: GeolocateCallback;
+		ongeolocate?: GeolocateCallback;
+		onoutofmaxbounds?: GeolocateCallback;
+		ontrackuserlocationend?: GeolocateCallback;
+		ontrackuserlocationstart?: GeolocateCallback;
+	}
+
+	let {
+		position = 'top-left',
+		options = {},
+		onerror,
+		ongeolocate,
+		onoutofmaxbounds,
+		ontrackuserlocationend,
+		ontrackuserlocationstart
+	}: Props = $props();
+
+	const { getMap, getMapbox } = getMapContext();
+	const map = getMap() as { addControl: (control: unknown, position: string) => void };
+	const mapbox = getMapbox() as MapboxLike;
 
 	const handlers: Record<
 		string,
@@ -46,18 +61,32 @@
 		}
 	};
 
-	const geolocate = new mapbox.GeolocateControl(options);
-	map.addControl(geolocate, position);
+	// The control is created once when the component is created, so the props are read once on purpose.
+	const geolocate = untrack(() => {
+		const control = new mapbox.GeolocateControl(options);
+		map.addControl(control, position);
+		return control;
+	});
+
+	function forward(type: string, detail: unknown) {
+		const callbacks: Record<string, GeolocateCallback | undefined> = {
+			error: onerror,
+			geolocate: ongeolocate,
+			outofmaxbounds: onoutofmaxbounds,
+			trackuserlocationend: ontrackuserlocationend,
+			trackuserlocationstart: ontrackuserlocationstart
+		};
+		callbacks[type]?.(detail);
+	}
 
 	onMount(() => {
-		const dispatcherNode = {
+		const callbackNode = {
 			dispatchEvent(event: Event) {
-				const customEvent = event as CustomEvent<unknown>;
-				dispatch(customEvent.type, customEvent.detail);
+				forward(event.type, (event as CustomEvent<unknown>).detail);
 				return true;
 			}
 		};
-		return bindEvents(geolocate, handlers, mapbox, dispatcherNode);
+		return bindEvents(geolocate, handlers, mapbox, callbackNode);
 	});
 
 	export function trigger() {

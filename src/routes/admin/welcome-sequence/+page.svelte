@@ -5,7 +5,7 @@
 	import { Button } from '$lib/components/atoms';
 	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
 	import { notifications } from '$lib/components/molecules/notifications';
-	import { tick } from 'svelte';
+	import { tick, untrack } from 'svelte';
 	import type { PageData } from './$types';
 
 	const WELCOME_PREVIEW_MODAL_ID = 'welcome-email-preview';
@@ -14,8 +14,10 @@
 
 	let expandedStep = $state<number | null>(null);
 	let showAllEnrollments = $state(false);
-	let testEmail = $state('');
-	let testStepNumber = $state(1);
+	// Seeded once with the admin's address: the refresh after each test send
+	// (invalidateAll) must not overwrite an address the admin typed.
+	let testEmail = $state(untrack(() => data.adminEmail ?? ''));
+	let chosenTestStep = $state(1);
 	let testSending = $state(false);
 
 	type TestActionData = {
@@ -77,22 +79,19 @@
 		data.steps.find((step) => step.step_number === expandedStep) ?? null
 	);
 
-	let returnRate = $derived(() => {
+	let returnRate = $derived.by(() => {
 		const withSends = data.enrollments.filter((e) => e.last_sent_at);
 		if (withSends.length === 0) return 0;
 		const returned = withSends.filter((e) => cameBack(e) === 'yes').length;
 		return Math.round((returned / withSends.length) * 100);
 	});
 
-	$effect(() => {
-		if (!testEmail && data.adminEmail) {
-			testEmail = data.adminEmail;
-		}
-
-		if (!data.steps.some((step) => step.step_number === testStepNumber)) {
-			testStepNumber = data.steps[0]?.step_number ?? 1;
-		}
-	});
+	// Falls back to the first step when the chosen one isn't in the sequence.
+	let testStepNumber = $derived(
+		data.steps.some((step) => step.step_number === chosenTestStep)
+			? chosenTestStep
+			: (data.steps[0]?.step_number ?? 1)
+	);
 
 	function handleTestEmailSubmit() {
 		testSending = true;
@@ -192,8 +191,11 @@
 
 				<label>
 					<span>Step</span>
-					<select name="stepNumber" bind:value={testStepNumber}>
-						{#each data.steps as step}
+					<select
+						name="stepNumber"
+						bind:value={() => testStepNumber, (value) => (chosenTestStep = value)}
+					>
+						{#each data.steps as step (step.step_number)}
 							<option value={step.step_number}>Step {step.step_number} - {step.subject}</option>
 						{/each}
 					</select>
@@ -231,7 +233,7 @@
 		<section class="section">
 			<h2>Enrollment Funnel</h2>
 			<div class="funnel">
-				{#each funnelSteps as step, i}
+				{#each funnelSteps as step, i (step.label)}
 					{@const prev = i > 0 ? funnelSteps[i - 1].count : step.count}
 					{@const pct = prev > 0 ? Math.round((step.count / prev) * 100) : 0}
 					{@const widthPct =
@@ -262,7 +264,7 @@
 					<span class="stat-value" style="color: var(--error)">{fc.errored}</span> errored
 				</span>
 				<span class="stat">
-					<span class="stat-value" style="color: var(--data-teal)">{returnRate()}%</span> return rate
+					<span class="stat-value" style="color: var(--data-teal)">{returnRate}%</span> return rate
 				</span>
 			</div>
 		</section>
@@ -306,7 +308,7 @@
 						</tr>
 					</thead>
 					<tbody>
-						{#each data.queuedEnrollments as queued}
+						{#each data.queuedEnrollments as queued (queued.id)}
 							<tr>
 								<td class="email-cell" data-label="Email" title={queued.recipient_email}>
 									{queued.recipient_email}
@@ -361,7 +363,7 @@
 						</tr>
 					</thead>
 					<tbody>
-						{#each data.scheduledEmails as scheduled}
+						{#each data.scheduledEmails as scheduled (scheduled.id)}
 							<tr>
 								<td data-label="Subject" class="subject-cell" title={scheduled.subject}>
 									{scheduled.subject}
@@ -386,7 +388,7 @@
 	<section class="section">
 		<h2>Email Steps</h2>
 		<div class="steps-grid">
-			{#each data.steps as step}
+			{#each data.steps as step (step.step_number)}
 				{@const metrics = data.stepMetrics.find((m) => m.step_number === step.step_number)}
 				<div class="step-card">
 					<div class="step-header">
@@ -464,7 +466,7 @@
 					</tr>
 				</thead>
 				<tbody>
-					{#each displayedEnrollments as enrollment}
+					{#each displayedEnrollments as enrollment (enrollment.id)}
 						{@const returned = cameBack(enrollment)}
 						<tr>
 							<td class="email-cell" data-label="Email" title={enrollment.recipient_email}>

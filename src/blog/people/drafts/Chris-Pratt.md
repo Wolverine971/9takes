@@ -1,10 +1,10 @@
 ---
-title: 'Chris Pratt: Enneagram Type 3 Personality Analysis'
-meta_title: 'Chris Pratt Enneagram Type 3: The Fun He Called an Image'
-persona_title: The Salesman Who Learned the Attitude Was the Product
+title: 'Chris Pratt: Enneagram Type 7 Personality Analysis'
+meta_title: 'Chris Pratt Enneagram Type 7: A Charming Time in a Van'
+persona_title: The Salesman Who Called Being Broke a Charming Time
 description: >-
-  Chris Pratt says the happy fat guy of his Parks and Rec years was an image he
-  cast to convince people he was okay. Why that leans Enneagram Type 3 over 7.
+  Chris Pratt called his homeless stretch in Maui "a charming time" and said
+  eating in his heavy years was "pure euphoria." Why he reads as Type 7, not 3.
 author: DJ Wayne
 date: '2026-10-29'
 loc: 'https://9takes.com/personality-analysis/chris-pratt'
@@ -12,16 +12,16 @@ lastmod: '2026-10-29'
 changefreq: monthly
 priority: '0.6'
 published: true
-enneagram: '3'
+enneagram: '7'
 type:
   - movieStar
   - celebrity
 person: chris-pratt
 suggestions:
-  - Dwayne-Johnson
-  - Tom-Cruise
   - Chris-Hemsworth
   - Ryan-Reynolds
+  - Jack-Black
+  - Dwayne-Johnson
   - Amy-Poehler
   - Aubrey-Plaza
 wikipedia: 'https://en.wikipedia.org/wiki/Chris_Pratt'
@@ -34,72 +34,83 @@ keywords:
   - Chris Pratt
   - Chris Pratt enneagram
   - Chris Pratt personality type
-  - Chris Pratt Type 3
   - Chris Pratt Type 7
-  - Chris Pratt door-to-door salesman
+  - Chris Pratt Type 3
+  - Chris Pratt enneagram wing
   - Chris Pratt Maui van
+  - Chris Pratt door-to-door salesman
   - Chris Pratt weight loss
   - Chris Pratt Andy Dwyer
   - Chris Pratt faith
   - Chris Pratt Hillsong
   - Chris Pratt age
 citations:
-  - 'https://www.gq.com/story/chris-pratt-cover-story'
-  - 'https://www.vanityfair.com/hollywood/2017/01/chris-pratt-cover-story'
-  - >-
-    https://www.menshealth.com/entertainment/a40289867/chris-pratt-interview-new-movies-series/
   - >-
     https://nzherald.co.nz/entertainment/chris-pratt-gets-in-shape-and-takes-over-the-galaxy/OCBW2TTH64HG4ZNUJLXWWGSHMY
+  - 'https://www.vanityfair.com/hollywood/2017/01/chris-pratt-cover-story'
+  - 'https://www.gq.com/story/chris-pratt-cover-story'
+  - >-
+    https://www.menshealth.com/entertainment/a40289867/chris-pratt-interview-new-movies-series/
+  - 'https://www.spreaker.com/episode/chris-pratt--71008192'
+  - 'https://www.youtube.com/watch?v=56M4_TvQkBA'
+  - 'https://www.youtube.com/watch?v=SSjd73MXaqg'
+  - >-
+    https://theplaylist.net/the-terminal-list-season-2-chris-pratt-david-digilio-interview-20261022/
   - >-
     https://www.christianpost.com/news/chris-pratt-reveals-moment-he-surrendered-his-platform-to-god.html
   - >-
-    https://www.goodmorningamerica.com/culture/story/anna-faris-reflects-divorce-chris-pratt-77483269
-  - >-
     https://www.foxnews.com/entertainment/chris-pratt-says-his-faith-the-most-important-thing-he-passes-his-kids
   - >-
-    https://www.thedailybeast.com/why-is-chris-pratt-lying-about-his-religious-past
-  - 'https://www.spreaker.com/episode/chris-pratt--71008192'
-  - 'https://www.youtube.com/watch?v=BRa2Vx-3A8Q'
-  - 'https://www.youtube.com/watch?v=SSjd73MXaqg'
-  - 'https://www.youtube.com/watch?v=56M4_TvQkBA'
+    https://www.yahoo.com/lifestyle/chris-pratt-turns-justin-biebers-hillsong-church-204210465.html
+  - 'https://www.the-numbers.com/movie/Mercy-%282026%29'
+  - 'https://www.rottentomatoes.com/m/mercy_2026'
   - 'https://en.wikipedia.org/wiki/Chris_Pratt'
 faqs:
   - question: What is Chris Pratt's Enneagram type?
     answer: >-
-      Chris Pratt reads as Enneagram Type 3, the Achiever, at medium confidence.
-      In his own accounts, his cheerful front has covered a sense of failure and
-      tracked what the market rewarded, from a sales collapse he hid from his
-      hometown to the happy fat guy of his Parks years. Type 7 is the strongest
-      alternative; Type 9 remains live.
+      Chris Pratt's personality type is Enneagram Type 7, known as the
+      Enthusiast. Enthusiasts are in the head triad, and their core emotion is
+      fear. In Pratt it shows as a habit of turning hardship into fun. After a
+      failed sales job, he lived in a van in Maui and later called it "a
+      charming time."
     anchor: what-is-chris-pratts-personality-type
-  - question: Is Chris Pratt a Type 7?
+  - question: Is Chris Pratt a Type 3?
     answer: >-
-      Type 7 is the strongest alternative. Pratt describes a hyperactive,
-      prank-loving childhood and once called a year of drinking, weed and short
-      shifts in Maui "a charming time." The Type 3 reading leads because, when
-      he explains his cheerful front, he points to failure and market value more
-      than to pain: he hid a failed sales job from his hometown, and he said the
-      happy fat guy of his Parks years had "value." The Maui year remains the
-      best evidence for Seven.
-    anchor: why-not-type-7
+      Type 3 is the strongest alternative, and much of his record fits it. He
+      says his early career worked like door-to-door sales ("You're always kind
+      of selling yourself"), he hid a failed sales job from his hometown, he
+      told his high-school wrestling coach he would be famous, and he has
+      carried leading roles for a decade. Type 7 leads on pleasure and
+      restlessness: he says eating in his heavy years was "pure euphoria," his
+      director James Gunn told GQ in 2015 that he has "a new idea every day,"
+      and in 2022 he said he had no "ten-year plan." It is a real contest, and
+      Seven wins it narrowly.
+    anchor: why-not-type-3
+  - question: What is Chris Pratt's Enneagram wing?
+    answer: >-
+      The wing is open. A 6 wing fits his people-pleasing and his habit of
+      leaning on trusted advisers, from his older brother to his manager. An 8
+      wing fits his refusal to apologize for his faith and the anger a GQ writer
+      saw "bubbling away" under his charm. On motive, the evidence leans
+      slightly toward 7w6.
+    anchor: why-not-type-8-6-or-9
   - question: Did Chris Pratt really live in a van in Maui?
     answer: >-
       Yes, by his own account. After a door-to-door coupon sales job left him in
-      debt, a friend bought him a ticket to Maui. He lived in a van and a tent
-      on the beach and waited tables at Bubba Gump Shrimp, where the actor and
-      director Rae Dawn Chong cast him in Cursed Part 3, the film that brought
-      him to Los Angeles.
-    anchor: maui-told-three-ways
+      debt, a friend bought him a one-way ticket to Maui. He lived in a van and
+      a tent on the beach and waited tables at Bubba Gump Shrimp, where the
+      actor and director Rae Dawn Chong cast him in Cursed Part 3, the film that
+      brought him to Los Angeles.
+    anchor: the-shifts-he-gave-away
   - question: Why did Chris Pratt gain and then lose weight?
     answer: >-
       He told GQ in 2015 that he gained weight early in Parks and Recreation,
       decided a "super-confident dumb fat guy" was funny, and leaned into it
       because it got laughs and paid. Told he was too heavy for Moneyball
       (2011), he lost the weight by running, crash dieting and cutting alcohol.
-      After that his weight followed his roles: regained for 10 Years, lost for
-      Zero Dark Thirty, up to 295 pounds for Delivery Man (2013), then down
-      again for Guardians of the Galaxy (2014).
-    anchor: i-found-my-niche
+      After that his weight followed his roles, up to 295 pounds for Delivery
+      Man (2013) and down again for Guardians of the Galaxy (2014).
+    anchor: pure-euphoria
   - question: Is Chris Pratt religious?
     answer: >-
       He describes himself as a follower of Jesus and says his faith was
@@ -115,9 +126,9 @@ faqs:
   - question: Who is Chris Pratt married to?
     answer: >-
       He has been married to the author Katherine Schwarzenegger since June
-      2019, and they have three children. He also has a son, Jack, born in 2012,
-      with his first wife, the actor Anna Faris. Pratt and Faris married in 2009
-      and their divorce was finalized in 2018.
+      2019. As of 2026, they have three children. He also has a son, Jack, born
+      in 2012, with his first wife, the actor Anna Faris. Pratt and Faris
+      married in 2009 and their divorce was finalized in 2018.
 production_pretext:
   status: ready
   handoff_from: blog_pipeline_v3
@@ -130,159 +141,191 @@ production_pretext:
     - regenerate_famous_types
     - image_check
   blockers: []
+path: src/blog/people/drafts/Chris-Pratt.md
 editorial_workflow:
   version: 3
-  run_dir: docs/content-analysis/pipeline-logs/2026-10-29_19-23-18-217_Chris-Pratt
+  run_dir: docs/content-analysis/pipeline-logs/2026-11-01_16-40-11-146_Chris-Pratt
 content_quality:
-  evidence: 8.5
+  evidence: 8.7
   enneagram: 8.2
-  originality: 8.8
+  originality: 8.7
   writing: 8.2
   durability: 8.7
-  hook: 8.7
-  discoverability: 8.5
+  hook: 8.8
+  discoverability: 8.6
   overall: 8.5
   letter: B+
   rubric_version: 3
-  graded_at: '2026-10-29'
+  graded_at: '2026-11-01'
   caps_applied: []
   needs_review: false
-  content_sha256: 0b44e6f7fbc8fb85c529bfb0be731af99bd6bc3f52ee6904bb0d0da1e3d50c0a
-path: src/blog/people/drafts/Chris-Pratt.md
+  content_sha256: bcf3a01c210556202da4ea3308d2ce2c964ff71f7071a6e2e6d978adfba3c5e4
 ---
 
-In 2015, GQ's Chris Heath asked Chris Pratt about the years he spent heavy. He had played Andy Dwyer, the friendly doofus of _Parks and Recreation_, and seemed the happiest big guy in Hollywood. Now, built for Star-Lord, he said, "My bones ached, I had cardiovascular issues, I was unhealthy, I was feeling rotten." He said his wife at the time, Anna Faris, had been "so okay with it" and had probably preferred him heavier. Heath asked why. [Pratt answered](https://www.gq.com/story/chris-pratt-cover-story):
+In 2014, promoting _Guardians of the Galaxy_, Chris Pratt looked back on the stretch when he slept in a van or a tent on a Maui beach. "It's a pretty awesome place to be homeless," he [told The Independent](https://nzherald.co.nz/entertainment/chris-pratt-gets-in-shape-and-takes-over-the-galaxy/OCBW2TTH64HG4ZNUJLXWWGSHMY). Then he described the routine:
 
-> "I think I was outwardly having more fun. I was more fun to be around, probably. That image that I was casting, to convince people that I was okay, was a really fun person to hang around. Now I have less fun. I focus more."
+> "We just drank and smoked weed and worked minimal hours, 15 to 20 hours per week, just enough to cover gas, food and fishing supplies. You know, it was a charming time."
 
-Then he laughed: "I was like a great pet fat guy."
+He had arrived broke and in debt. Of the day his friends picked him up, he told [Vanity Fair](https://www.vanityfair.com/hollywood/2017/01/chris-pratt-cover-story) in 2017: "They had a cooler of beer. But I was not in a great place."
 
-The joke softens a strange admission. The happy fat guy of his interviews and his home life was, by his account, an image cast over a man who "didn't feel too great about who I was." He told Heath, "I'm sure I was the first guy in line to buy that line of bullshit," and compared himself to Chris Farley, who in his view "didn't feel what he was projecting on the outside." Then he added: "I also understood that there was value to it."
+Both accounts are his. Side by side, they show a move that runs through his life: he meets a bad stretch by finding the fun in it, first while living it and again when he tells the story.
 
-That answer holds both halves of the puzzle: a front over pain, and a front with a price. He learned about the price early, as a teenage coupon salesman whose company started each morning with a chant: PMA equals OPM.
-
-Christopher Michael Pratt was born on June 21, 1979, in Virginia, Minnesota, and grew up mostly in Lake Stevens, Washington. He landed his first regular TV role on _Everwood_ in 2002, broke through as Andy from 2009 to 2015, and became a leading man as Star-Lord in _Guardians of the Galaxy_ (2014) and Owen Grady in _Jurassic World_ (2015).
+Christopher Michael Pratt was born on June 21, 1979, in Virginia, Minnesota, and grew up mostly in Lake Stevens, Washington. He broke through in a supporting part, as Andy Dwyer, a friendly, dim would-be rock star, on _Parks and Recreation_ (2009 to 2015), then became a leading man as Star-Lord in _Guardians of the Galaxy_ (2014). Lately he has played it straighter, in _The Terminal List_ (2022 and 2026) and the thriller _Mercy_ (January 2026).
 
 ## What is Chris Pratt's personality type?
 
-Chris Pratt reads as Enneagram Type 3, the Achiever, at medium confidence. In his own accounts, his cheerful front has covered a sense of failure and tracked what the market rewarded, from a sales collapse he hid from his hometown to the happy fat guy of his Parks years. Type 7 is the strongest alternative; Type 9 remains live.
+Chris Pratt's personality type is Enneagram Type 7, known as the Enthusiast. Enthusiasts are in the head triad, and their core emotion is fear. In Pratt it shows as a habit of turning hardship into fun. After a failed sales job, he lived in a van in Maui and later called it "a charming time."
 
-A [Type 3](/enneagram-corner/enneagram-type-3) reads a room for what will be admired and becomes it, often so smoothly that the effort disappears. Ambition proves little in Hollywood, where everyone has it. The sharper tell is managing the impression when no camera is running, and treating your own fun as part of the presentation.
+The head triad's types live a step ahead of the present, and a [Type 7](/enneagram-corner/enneagram-type-7) lives in the next possibility. A Seven fears being trapped in pain, boredom or limitation. When a bad feeling comes, he turns it into a good story or the next adventure, then reaches for pleasure so he doesn't have to sit in it.
 
-The strongest rival is [Type 7](/enneagram-corner/enneagram-type-7), the Enthusiast, the obvious first guess given the pranks and appetites. Both types wear cheerful fronts. A Seven's keeps pain and limits out of the room; a Three's keeps failure out of sight. Describing what sat under his, Pratt names worth and value more often than pain. [Type 9](/enneagram-corner/enneagram-type-9), the Peacemaker, fits his deference to trusted people and gets its test near the end.
+The strongest rival is [Type 3](/enneagram-corner/enneagram-type-3), the Achiever, and Pratt supplies much of its case himself.
 
 ## "What you're selling is yourself"
 
-After high school he dropped out of community college, answered a newspaper ad and sold coupon books door to door. A salesman, he told [Vanity Fair](https://www.vanityfair.com/hollywood/2017/01/chris-pratt-cover-story), has only one product, himself. "I was great at that," he said. On the podcast [_Not Dead Yet_](https://www.spreaker.com/episode/chris-pratt--71008192) in March 2026, he said it more fully: "regardless of the product you're selling, what you're selling is yourself and you're selling your attitude." The company's morning chant, he said, was "PMA equals OPM, which was positive mental attitude equals other people's money." He called it "terrible," but said it "either instilled in me or potentially revealed a resilience that I had." In a high-school sales contest, he recalled, classmates sold 17 or 22 cards and he sold 500. "So I loved it."
+His father, Dan, was diagnosed with multiple sclerosis while Pratt was in high school, and the family lost its house. After graduating, Pratt dropped out of community college and sold coupons door to door. The job taught him, he said on the podcast [_Not Dead Yet_](https://www.spreaker.com/episode/chris-pratt--71008192) in March 2026, that "regardless of the product you're selling, what you're selling is yourself and you're selling your attitude."
 
-He chased the company's prize, an office of his own, for 15 months, and was running one outside Denver before he turned 21. "I was too much of a people pleaser to be a good manager," he said in 2026. He fell into debt and called his boss: "I'm more in debt every month. I'm so depressed. I can't do it." His mother sent him a ticket home. He calls the venture "definitely a failure."
+He chased the company's prize, an office of his own, for 15 months, and got one outside Denver. "We rented an apartment," he told Vanity Fair. "I slept on the balcony. And partied. I wasn't even 21."
 
-What happened next matters most for typing, because no camera was involved. Back in Lake Stevens, he told Vanity Fair:
+Then it came apart. Vanity Fair concluded he had been "caught in someone else's moneymaking scheme," and on [_Club Random_](https://www.youtube.com/watch?v=56M4_TvQkBA) in 2025 Pratt called it "multi-level marketing," adding, "I was an idiot." He also faults himself: "I was too much of a people pleaser to be a good manager." He sank into debt and told his boss, "I'm so depressed. I can't do it."
+
+Back in Lake Stevens, he covered it up, as he told Vanity Fair:
 
 > "I had everyone convinced I'd been off doing this great sales job and making money, and I wasn't. I had no prospects, no job, was still sort of riding the glory of high school."
 
-In 2026 he said he had been "kind of like the star of my hometown," and now "I just felt like super depressed." He was "partying a lot," until a friend living in Hawaii saw him: "dude, you don't look good. You seem off."
+In 2026 he recalled a friend in Hawaii telling him, "dude, you don't look good. You seem off."
 
-Plenty of 19-year-olds hide a failure. Pratt talks freely about the depression; what he hid was the result, and he showed success in its place until a friend noticed he was floundering and bought him a ticket to Maui. The account is his own, and "everyone" is a storyteller's exaggeration. It is still the clearest case of protecting how he was seen with nothing professional at stake.
+"I was off and I was partying a lot," Pratt said. He was "slipping down the wrong path."
 
-Money sat under the pride. "I've been money motivated my whole life because we never had anything," he said in 2026. His example puts status and hidden need in one sentence: "I was the king of my school and I don't have a yearbook because it was $35 and I just wouldn't ask them for that much money."
+People of every type hide a failure, so the hiding settles little. A Three ashamed of how a failure looks often throws himself at the next win, though a Three in collapse can numb out too. Pratt had partied in Denver before the office failed and kept partying at home until a friend bought him a one-way ticket to Maui. Circumstance did some of this work: a teenager with a sick father and a lost family home had reasons to drift that need no type, whether he was outrunning pain (the Seven reading) or scarcity (the Three).
 
-## Maui, told three ways
+## The shifts he gave away
 
-In Maui, Pratt lived in a van and a tent on the beach and waited tables at Bubba Gump Shrimp. He has told that year at least three ways. Promoting _Guardians_ in 2014, he told [The Independent](https://nzherald.co.nz/entertainment/chris-pratt-gets-in-shape-and-takes-over-the-galaxy/OCBW2TTH64HG4ZNUJLXWWGSHMY), "It's a pretty awesome place to be homeless," and called the drinking, weed and 15-to-20-hour work weeks "a charming time." Vanity Fair got a darker arrival in 2017: "My friends picked me up in a van. They had a cooler of beer. But I was not in a great place." In 2026 it was a rescue, the trip that took him off what he called "the wrong path."
+In Maui he lived in a van and a tent on the beach and waited tables at Bubba Gump Shrimp. He "threw himself into entertaining tables," Vanity Fair says, and was named "Gumper of the year": "I got my name on a plaque."
 
-All three can be true, and the interviewers asked different questions. The emphasis shifts with the room, but every actor on a press tour tunes the story to the outlet, so that proves little about type. What the tellings share matters more. For about a year, with no camera and no image to keep up, he partied, worked as little as he could and was "always giving away my shifts because I didn't have much overhead," he told Vanity Fair. That is the strongest off-camera evidence for the Seven reading.
+He mentioned it in passing, telling the story of the day that changed his life:
 
-The rescue came twice. Outside a grocery store, a stranger named Henry "came up and recognized something in me that needed to be saved," Pratt told Vanity Fair, and took him to church. Then, at Bubba Gump, where he was named "Gumper of the year," he waited on the actor and director Rae Dawn Chong. Asked whether he acted, he said yes and, in Vanity Fair's reconstruction, added, "Put me in a movie." In 2026 he said his door-to-door sales skills had kicked in. Her never-released film _Cursed Part 3_ brought him to Los Angeles.
+> "I was always giving away my shifts because I didn't have much overhead. I lived in a van."
+
+That line is the Seven reading's best clue from Maui, and a modest one. At 19 or 20, freshly failed and by his account depressed, he gave away hours at a job he was winning at. No camera was on him. If the hidden failure had been mainly about his worth, the Three reading would expect him to start repairing it here, and he spent the time on a beach. The inference has limits: partying at that age is common, a stalled Three can drift too, and the plaque fits a Three working a new room. What fits Seven better is the memory: in 2014 he recalled Maui not as a low point before a comeback but as "a charming time."
+
+He has told that stretch three ways, from "a pretty awesome place to be homeless" in 2014 to a rescue from "the wrong path" in 2026. Press tours tune a story to the room. What stays the same in every version is what he did there.
+
+One night outside a grocery store, a stranger named Henry asked Pratt about his plans. It "should've made me nervous but didn't," Pratt told Vanity Fair. Then Henry said, "Jesus told me to talk to you," and took him to church. Over the next few days, Pratt said, he "surprised my friends by declaring that I was going to change my life."
+
+Then the actor and director Rae Dawn Chong sat at one of his tables, on a day he "wasn't even supposed to take a shift." She asked if he acted. As Vanity Fair tells it, he answered, "Fuck, yeah, I act. Put me in a movie." In 2026 he said he "kicked in my door to door sales skills." She flew him to Los Angeles for her film _Cursed Part 3_.
 
 ## Where Andy came from
 
-"He was from the old school. He was a boxer and a bouncer," Pratt told [Men's Health](https://www.menshealth.com/entertainment/a40289867/chris-pratt-interview-new-movies-series/) in 2022 of his father, Dan, who could be "mean." His son was built differently:
+His father was "from the old school. He was a boxer and a bouncer," Pratt told [Men's Health](https://www.menshealth.com/entertainment/a40289867/chris-pratt-interview-new-movies-series/) in 2022, and he could be "mean." The son was built differently:
 
 > "I am a sensitive person. My dad knew that when I was a youngster, and it kind of made him dislike me. Or not dislike me but act like he disliked me—'cause he probably grew up in a world where a guy like that could get eaten alive. And so he wanted to put calluses on me. Early on, I developed humor as a self-defense mechanism—I developed Andy, really."
 
-He told GQ much the same in 2015 ("I was really sensitive. I cried a lot."), so the account is consistent, but it is his alone. His father died in 2014, and no other family member is on the record. Taken at his word, the clown began as armor against a man who found sensitivity dangerous. Whether it was built to win the father over or to keep the hurt out is the Three-versus-Seven question in miniature, and the quote can't settle it.
+Andy, he went on, was "my clown that I had honed my entire life."
 
-The other model was his older brother, Cully. As Pratt told Vanity Fair: "One Christmas, he was in a play, a musical, and sang, and it knocked everyone's socks off. My mom was crying. And I was like, 'That's what I want to do.'"
+He describes a humor defense, not a type. This page reads it as Seven because he frames the clown as "self-defense," not as a bid for approval. A Three reading would call it his first persona, built to be accepted.
 
-Little brothers copy big brothers in every type. What stands out is what the boy wanted, in the man's telling: the effect. A room knocked out, and his mother in tears.
+Dan Pratt died in 2014 after a 20-year battle with multiple sclerosis, Men's Health reported. Of his success, Pratt told Vanity Fair, "I think it made him proud, and it was cool that I got to find some way to connect with him, because he was a hard man to connect with." The childhood account is his alone, and it shifts between tellings: in 2017 he called himself "a peculiar kid... comfortable in my own skin."
 
-## "I found my niche"
+## "Pure euphoria"
 
-In Los Angeles, Pratt spent years being cast, he says, as "the bad boyfriend." Andy itself "was supposed to be a one-episode deal, a guest spot, but the character took off," Vanity Fair reported. Early in the second season, Pratt saw on screen that he was gaining weight. He told GQ his next thought:
+Early in the second season of _Parks and Recreation_, Pratt saw himself on screen and thought, "Wow, I'm getting fat," he told [GQ](https://www.gq.com/story/chris-pratt-cover-story) in 2015. Then he made himself laugh: "There's no one doing that. No one being like a super-confident dumb fat guy." So he leaned in. The highlights of his days, GQ reported, were the eating and drinking.
 
-> "And then immediately I was like, 'This is the funniest...' I was making myself laugh. I was: 'That's where it's at. There's no one doing that. No one being like a super-confident dumb fat guy.' So I started."
+In 2025, on [_Club Random_](https://www.youtube.com/watch?v=56M4_TvQkBA), Bill Maher asked whether anything was better about those years. "Not a lot, but some things," Pratt said. Eating was one:
 
-He told the showrunner he wanted to get bigger. The laughs kept coming, and he thought, "Oh great, I found my niche." It was, he added, "paying better" than the bad-boyfriend parts.
+> "I ate and in the moments I was eating it was pure euphoria. And then the minute I stopped eating, I did not feel good until I ate again."
 
-His reasons don't all point one way. It made him laugh, nobody else was doing it, and it paid. GQ reported that the highlights of his days were the eating and drinking; Vanity Fair added that he had just married. The appetite reads as Seven. What reads as Three is that he knew what the happy fat guy was worth: "a super-happy fat sweaty guy who is completely confident and accepting of who he was. That's fascinating to people."
+In 2015, Pratt told GQ's Chris Heath that Anna Faris, his wife at the time, had probably preferred him heavier. Heath asked why:
 
-The persona had strategy behind it. Of the whole dumb-guy act, he told Men's Health, "It was absolutely a tactic to lower people's expectations of me."
+> "I think I was outwardly having more fun. I was more fun to be around, probably. That image that I was casting, to convince people that I was okay, was a really fun person to hang around. Now I have less fun. I focus more."
 
-Then the persona stopped paying. Auditioning for _Moneyball_ (2011), he heard for the first time, "We're not gonna cast you—you're too fat." He told Vanity Fair: "So I decided to drop the weight, like in wrestling." With no money for a trainer, that meant running, crash diets and no alcohol. He got the part. From then on his weight followed the work while he kept playing Andy: back up for the comedy _10 Years_ (2011) and down for _Zero Dark Thirty_ (2012), per [Wikipedia](https://en.wikipedia.org/wiki/Chris_Pratt), then up to 295 pounds for _Delivery Man_ (2013), per GQ, before he trained to "look like a superhero" for _Guardians_, as he told The Independent in 2014.
+He also said he was "the first guy in line to buy that line of bullshit." He compared himself with Chris Farley, who in Pratt's view "buried himself in an addiction to hide the fact that he didn't feel what he was projecting on the outside."
 
-A working actor's body follows the work, so the dieting says little about type. Even "Now I have less fun. I focus more" came in an answer about health and self-regard, where health explains it as well as image does.
+The persona, in his words, was "a super-happy fat sweaty guy who is completely confident and accepting of who he was." Under it, GQ reported, he "didn't feel too great about who I was."
 
-## "You make them think you already are that guy"
+Those lines fit a Three's image at least as well as a Seven's mask. A confident front over a shaky sense of worth, believed by the man projecting it, is the Three's signature self-deception. What the Three reading explains less well is the payoff he describes. The front was for other people. The food was for him: "pure euphoria" while it lasted, no relief until the next meal. This suggests pleasure doing a Seven's job, keeping a bad feeling out of reach.
 
-Pratt told Vanity Fair he first passed on _Guardians_, and James Gunn passed on him. His agent pushed: "Guardians is everything you've been saying you want to do." Pratt went in and "played the room." He described the method:
+The heavy years ended for work. Told he was too fat for _Moneyball_ (2011), he "decided to drop the weight, like in wrestling." He "had always wanted to play an action hero but did not think he could pull it off," Vanity Fair wrote, until he got in shape to play a Navy SEAL in _Zero Dark Thirty_ (2012): "I was like, My God, I buy that guy." His weight still followed his roles, up to 295 pounds for _Delivery Man_ (2013), as GQ reported. He passed on _Guardians of the Galaxy_ at first: "I did not want to go in and embarrass myself." His agent reminded him it was "everything you've been saying you want to do."
 
-> "You walk into the room as the character. You let them think the person you are is close to the character they want. You make them think you already are that guy."
+## A mind that keeps leaving the room
 
-That is common audition advice. What stands out is how long Pratt was better at the selling than the job. On the [_SmartLess_ podcast](https://www.youtube.com/watch?v=BRa2Vx-3A8Q) in 2022 he joked that for years he was great at auditioning and couldn't act, and that the person who had won the role was really a door-to-door salesman.
+In 2015 Pratt told GQ about the previous day's road rage, to show how he uses real feelings as an actor. Cut off on the freeway, he told himself, "Just get mad." "I was so mad. It cost me twenty minutes," he said, and part of him thought, "this is great research." Heath saw anger "bubbling away" not far beneath the charm. Asked about it again, Pratt first repeated that she had cut him off. Then his retelling turned:
 
-Gunn saw the habit from the other side. Success as "the funny sidekick," the director told GQ in 2015, meant Pratt "always has to juggle to entertain everybody. And the truth is, Chris didn't trust himself to just be Chris Pratt—and how desirable that is to an audience." Pratt agreed: "I thought I was bad." He put it down to overthinking, in words he credited to Gunn: "I'm a much more cerebral person than you may expect." A Seven entertains everybody too, so the note fits more than one type. What fits the Three reading is the gap Gunn named, between the version that entertains and the plain one Pratt didn't trust.
+> "No, I'm sure she didn't. It was probably my fault for not paying attention. I've got a terrible sense of direction. My mind is constantly wandering, and I get lost all the time."
 
-Years later he summed up that stretch in a salesman's terms. "You're always kind of selling yourself," he said on _Not Dead Yet_. "I always sort of understood how I was seen in the marketplace." He had no haters then, he said, because "I don't stand for anything": "I'm completely deferential to whatever the world wants. I'll give you literally anything. Just keep me employed as an actor." He meant the years before his 2018 MTV speech.
+Within one answer, the blame had moved to his own wandering mind. Taking it back fits a Nine's peacekeeping, or a man hearing how his words will read in print. The Seven detail is the explanation he reached for: a mind that won't stay put.
 
-## Why not Type 7?
+James Gunn, his _Guardians_ director, talking about Pratt's ever-changing acting tricks, told GQ that Pratt has "a new idea every day about everything." Retiring to a ranch to hunt birds, Pratt said, is "kind of what I secretly want to do anyways." Pressed on it, he predicted that "three months later I would be tired of bird hunting and I would be like '...Guardians Ten?'" In 2022 he told Men's Health he has no "ten-year plan."
 
-The case for Seven is real, and much of it comes from Pratt. As a child, he told GQ in 2015, he was "obnoxious, really hyperactive, disruptive" (and, in the same breath, "really sensitive"); in high school he was suspended from the track team for getting naked on the team bus. "I liked making people feel uncomfortable," he said. On _Parks and Recreation_ he did one take of a doorway gag fully naked to shock [Amy Poehler](/personality-analysis/amy-poehler), and NBC's HR sent him a letter. Gunn told GQ that Pratt had "a new idea every day about everything." And Maui was a year of fun beating ambition.
+On _Not Dead Yet_, arguing for compassion toward famous people who fall apart, he described "a certain brand of hopelessness that exists in people who have it all, but still lack joy." Someone with nothing at least has hope in one big break, which he voiced as "just get that ticket, baby." Then he turned it on himself. He "used to fill those catalog cards out and just sit them by my bedside," he said, never ordering anything. Now he could order it all, and it doesn't "fill the hole inside of my heart that is in a very specific shape," a shape he says only God can fill.
 
-The deeper Seven argument is about pain. Pratt says his humor began as self-defense against a disapproving father, and he set his happy fat guy beside Farley's: "I think that's often the case with comedians." On that reading, "to convince people that I was okay" is a Seven describing his own mask, and the reading is partly Pratt's own.
+The God-shaped hole is common Christian testimony and doesn't sort types. What fits the Seven reading is that his hope sits ahead of him, not in wins behind him. Hope lives in the next ticket, and once the tickets are easy to get, the hole is still there. The catalog cards are his own version, hope kept on the nightstand in orders he never sent. The site's piece on [why the next thing won't fix it](/enneagram-corner/why-the-next-thing-wont-fix-it-type-7) traces that pattern in other Sevens.
 
-The two types part over what the front protects. Where Pratt's record reaches past the demands of the job, it points more often to worth than to pain:
+## Why not Type 3?
 
-- At 19 or 20, sinking into debt, he kept up the story of a successful sales career for the people back home. He hid the outcome, not the depression.
-- He paired the happy fat guy's pain with its price: "there was value to it," and it was "paying better." What sat under it, in his account, was a man who "didn't feel too great about who I was," on this reading a problem of worth more than of fear.
-- He described his career before 2018 in market terms, "completely deferential to whatever the world wants," so long as it kept him employed.
+Three is the case to beat. Describing the years before his 2018 MTV awards speech about God (more below), he said on _Not Dead Yet_:
 
-The Three reading can answer Maui only with a story: a young man stalled after a collapse he was ashamed of, who took the first route back to success when a movie star sat at one of his tables. That is interpretation, and Maui remains the best evidence against it.
+> "You're always kind of selling yourself. I always sort of understood how I was seen in the marketplace."
 
-One GQ exchange cuts both ways. Retiring early to a ranch to hunt birds, he said, was "what I secretly want to do." Then he predicted that "three months later I would be tired of bird hunting and I would be like '...Guardians Ten?'" A Seven gets bored. A Three gets restless without a goal. In Pratt's version, the boredom sends him back to work.
+He had no haters back then, he said, because "I don't stand for anything," and he called himself "completely deferential to whatever the world wants. I'll give you literally anything. Just keep me employed as an actor."
 
-The Three reading has limits. Acting rewards image management in every type, so the dieting alone proves little. The weightiest off-camera case, the hidden sales failure, rests on his own retelling, and most of the rest is interview self-report, hence medium confidence.
+In high school, Vanity Fair reported, relaying Entertainment Weekly, he told his wrestling coach, "I don't know, but I know I'll be famous and I know I'll make a shit ton of money." In 2015 he told GQ about moments as the less famous spouse, when he felt like "the guy holding the purse at events and people just looked right through me." Gunn told GQ that on the first _Guardians_ shoot, after years as "the funny sidekick," Pratt "didn't trust himself to just be Chris Pratt." And in 2022 Pratt told Men's Health that his whole dumb-guy act "was absolutely a tactic to lower people's expectations of me." Since 2014 he has chosen leading roles, including _The Terminal List_, which his own company produces.
+
+Selling settles nothing: door-to-door sales and auditions reward reading a room in every type. The rest is harder. The deferential years, the people-pleasing, the managed expectations, the fear of embarrassment before _Guardians_ and the stories tuned to each room are the Three reading's strongest ground, and the Seven reading explains them least.
+
+The forecasts lean Seven. Pressed by Vanity Fair on the plan behind the coach story, he talked about his father, who, as the magazine put it, had been "a high-school star and lived off that for the rest of his life." Then Pratt said, "I guess that's what I planned to do." Fame as proof of worth needs a route. Fame as the next big adventure needs only the dream, and the rest of his record keeps that shape.
+
+Maui leans Seven too, modestly, and the relief came back in the Parks years: eating was "pure euphoria" for a man employed and rising.
+
+The limits are real. Most of the Seven evidence is his own retelling in interviews, the Maui test came when he was 19 or 20, and the "pure euphoria" line comes from a podcast's auto-captions, matched by machine transcriptions of the audio. A reader can still argue Three. The argument here is that Three explains the selling and the people-pleasing, and Seven explains more of the choices. The leading roles cut both ways: he chose them, and he had to be pushed into _Guardians_. On this record the call is Seven at medium confidence, not a verdict.
+
+## Why not Type 8, 6 or 9?
+
+The Eight case is real. The road rage was real anger, stoked on purpose, and Heath took it as a sign of more under the charm. About his faith: "I'm not going to apologize for that." Men's Health wrote that what he and his friends care about, "in his telling of it," is "the f words: faith, fishing, fighting." The hunting, fishing and wrestling come from where he grew up, though, and are not type evidence.
+
+Core [Eights](/enneagram-corner/enneagram-type-8) lead with anger, and his own words point elsewhere: "I am a sensitive person," and "too much of a people pleaser to be a good manager." On [_Happy Sad Confused_](https://www.youtube.com/watch?v=SSjd73MXaqg) in January 2026, he said Bennett Miller, his _Moneyball_ director, provoked him ("He made me so mad") to get the character to do "something that I don't do authentically very well, which is anger." He feels anger but rarely leads with it. The Eight reads as a wing.
+
+A [Six](/enneagram-corner/enneagram-type-6) reading has material too. He leans on trusted people: an older brother who talked him out of joining the army, an agent who pushed him into the _Guardians_ audition, and a manager who, he said in March 2026, has had him turn down "huge checks" and is "calculated and critical in a way that I'm not." Handing the doubting to people he trusts is itself a Six habit.
+
+The Six reading strains where no adviser is around: a van, "I didn't have much overhead," a stranger who "should've made me nervous but didn't." A counterphobic Six, who charges at what scares him, could explain the hard stands, but not a stretch spent giving security away.
+
+A [Nine](/enneagram-corner/enneagram-type-9) reading has its best case in the material that argues against Eight: anger he doesn't do "authentically very well," the deference, the blame he took back. Comfort eating is a classic Nine numbing too. As a boy with a "very, very strict" father, "if I got yelled at, I would stay silent for a long period of time," he told GQ in 2015.
+
+What separates him from a Nine is where his attention points. A Nine's numbing dulls a feeling and settles in. Pratt describes eating as a high, and the boy who went silent was also, in his words, "obnoxious, really hyperactive, disruptive," a teenager who "liked making people feel uncomfortable." The adult has "a new idea every day," and when something exciting is on offer he usually moves first ("Put me in a movie"), though not always.
+
+The wing is open. Pratt has the trusted circle of a 7w6 and the appetite for a fight of a 7w8. On motive, the sensitivity and people-pleasing lean slightly toward the 6; the 8 shows in the stands he won't take back.
 
 ## "I stood for something"
 
-If image explained everything, Pratt would have stopped talking about God years ago. By his account, faith is the first thing he let cost him with the mainstream audience an image manager would court.
+His faith story starts with promises he broke, a common testimony that also fits the Seven reading. He told [The Christian Post](https://www.christianpost.com/news/chris-pratt-reveals-moment-he-surrendered-his-platform-to-god.html) in 2025, during a Lent partnership with the Catholic prayer app Hallow, that he knelt at church altars as a child, at 19 and in his 30s. "I'd make promises, but I didn't keep them," he said. Months or years later, "I'm off doing the same stuff that got me down the wrong path in the first place."
 
-He told [The Christian Post](https://www.christianpost.com/news/chris-pratt-reveals-moment-he-surrendered-his-platform-to-god.html) in 2025, during a Lent partnership with the Catholic prayer app Hallow, that he went to church altars as a child, at 19 and in his 30s: "I'd make promises, but I didn't keep them." In August 2012 his son Jack was born premature and spent about a month in neonatal intensive care. Pratt "made a deal with God again," and after Jack recovered, "That was the moment that I was like, 'Moving forward, I'm going to give my platform to God.'" He added, "I care enough about Jesus to take a stand, even if it cost me."
+In August 2012 his son Jack was born premature and spent about a month in neonatal intensive care. Pratt "made a deal with God again." After Jack recovered, he said, "That was the moment that I was like, 'Moving forward, I'm going to give my platform to God.'"
 
-At the 2018 MTV Movie & TV Awards he mixed jokes ("Don't be a turd") with "God is real. God loves you. God wants the best for you." As Men's Health noted in 2022, "people mostly just remember the God part." In 2026 he set that speech against his deferential years: "so I stood for something." He added, "I didn't backtrack," and "I'm not going to apologize for that." On politics, by contrast, he said he doesn't feel strongly enough "to take a stand right now."
+That vow held. At the 2018 MTV Movie & TV Awards he mixed jokes ("Don't be a turd") with "God is real. God loves you. God wants the best for you." In 2022 he told Men's Health he believes the speech helped start the online hostility toward him, including the "Worst Chris" meme, which ranked him below [Chris Hemsworth](/personality-analysis/chris-hemsworth), Chris Evans and Chris Pine.
 
-In 2022 he had sounded less sure. He told Men's Health that he believes the speech helped light the online hostility toward him, including the "Worst Chris" meme that ranked him against [Chris Hemsworth](/personality-analysis/chris-hemsworth), Chris Evans and Chris Pine. "Maybe it was hubris," he said. The profile added two caveats. Gunn told the magazine that people had "literally just made up" things about Pratt, "about his politics," and the writer, Mickey Rapkin, reminded Pratt that "none of this noise has hurt his box-office prowess or his reputation in town."
+In 2019 the actor Elliot Page criticized the church Pratt was said to attend as anti-LGBTQ, pointing to its ties to Hillsong. Pratt answered publicly that year: "Nothing could be further from the truth. I am a man who believes that everyone is entitled to love who they want free from the judgment of their fellow man."
 
-Then came the line critics seized on: "I didn't know that I would kind of become the face of religion when really I'm not a religious person." He separated religion as a human institution from belief in what he called "a very real God." [The Daily Beast](https://www.thedailybeast.com/why-is-chris-pratt-lying-about-his-religious-past) headlined its response "Why Is Chris Pratt Lying About His Religious Past?" and argued that his long public record of faith made the line false.
+In 2022 Pratt told Men's Health he had never been to Hillsong and attends Zoe Church, though not exclusively. A [Yahoo report](https://www.yahoo.com/lifestyle/chris-pratt-turns-justin-biebers-hillsong-church-204210465.html) from September 2017, with an agency photo, had placed him at a service at Hillsong's Los Angeles location; he has not addressed the report in the sources opened for this page. Men's Health reported that Zoe's founding pastor executive-produced a 2017 film that equated "sexual brokenness" with "same-sex attraction."
 
-In 2019 the actor Elliot Page criticized his church. Pratt replied that "everyone is entitled to love who they want free from the judgment of their fellow man." In 2022 he said he had never been to Hillsong, the church he had been linked to, and attends Zoe Church, though not exclusively. The Daily Beast reported that he had been photographed at a Hillsong service in Los Angeles in 2017. Zoe's founding pastor, Men's Health reported, executive-produced a 2017 film that equated "sexual brokenness" with "same-sex attraction." Asked why he hadn't corrected the link, he said, "I'm gonna, like, throw a church under the bus?" Then he reconsidered: "If it's like the Westboro Baptist Church, that's different."
+His labels have changed over time. In the same 2022 interview he said, "really I'm not a religious person," separating man-made religion from belief in "a very real God." His verdict on the speech moved too. In 2022 he said, "Maybe it was hubris." By 2026, setting it against his deferential years, he said "I stood for something" and "I didn't backtrack."
 
-A skeptic can read this as the Three's instinct applied to faith: one framing for a men's magazine mid-backlash, another for a Christian outlet mid-promotion. The fairer reading holds both. He separates religion from following Jesus, so the statements conflict less than the headline suggests, and he has kept the commitment public through years of criticism. Faith audiences are a market too, so the cost was never one-way. This is still the strand the Three reading explains least.
+Even the commitment comes with a wandering mind. He got through the whole Bible by listening on Hallow, he said, because when he reads books like Leviticus, "my brain starts wandering four seconds in."
 
-## What the type doesn't explain
+The Seven reading explains the broken altar promises easily and the kept vow with more effort. Sevens can commit hard when a commitment opens onto something larger than the next pleasure. Even so, more than a decade of public faith, held through the mockery, is the strand of Pratt the type explains least.
 
-Several of his biggest turns came from other people. His mother bought the ticket home, a friend the ticket to Maui, and a stranger took him to church. His brother, who joined the army, told him not to enlist: "I think he saw something in me." On [_Happy Sad Confused_](https://www.youtube.com/watch?v=SSjd73MXaqg) in January 2026 he said his brother talked him into posting an underwear photo he thought seemed weird. His manager, he said in 2026, has had him turn down "huge checks" and is "calculated and critical in a way that I'm not."
+## The part that never had to be hurt
 
-He tells these turns as providence; Vanity Fair wrote in 2017 that his rise was so improbable "he sees it as divinely ordained." The same record is full of moves he made himself, from answering the ad to "Put me in a movie." Add "too much of a people pleaser" and his "completely deferential" years, and there is a case for Type 9. But a Nine defers to keep the peace, and Pratt's deference came with a purpose clause, "Just keep me employed as an actor," in a salesman who outsold his classmates 500 to 22. The Nine reading explains his ease with trusted advisers better than the Three reading does. It explains the competing worse, and it has nothing as strong as the Maui year, which is why Seven is the stronger rival. His reliance on guides who "saw something" in him also fits [Type 6](/enneagram-corner/enneagram-type-6), the Loyalist, though the record shows little of a Six's vigilance; in his stories he jumps first.
+The type leaves other pieces loose. He dieted with discipline for years when roles required it, and he said in 2026 that he has been "money motivated" since a childhood when, as "the king of my school," he wouldn't ask his parents for the $35 a yearbook cost.
 
-He also says his career no longer comes first. By 2026 he said his first marriage had put careers first, and "it costs you something." Now: "I still have a priority of my career being very high, but it's not as high as the priority of being present at home." And he remembers his younger self in terms a Three rarely uses: "I was a peculiar kid... I dressed funny and was comfortable in my own skin," he told Vanity Fair.
+In March 2026, on _Not Dead Yet_, he said he "had a meeting with my manager and agent recently." After a run of serious roles, from James Reece in _The Terminal List_ to _Mercy_, which flopped with critics and [at the box office](https://www.the-numbers.com/movie/Mercy-%282026%29), the plan was "trying to do more comedy, trying to bring fun and lightheartedness back," because "that's something I have." He also said he now cares more about working "close to home."
 
-His 2022 Men's Health interview turned to the backlash at his own prompting ("Why are they coming after me?"), and its tears were not about faith. Articles had called his Instagram thanks to his wife for "a beautiful, healthy daughter" a dig at Faris, because Jack was born premature. "My son's gonna read that one day. He's nine... I cried about it," Pratt said, then joked about his publicist: "What happened to the it's-an-honor-just-to-be-nominated-let's-move-on ... line that we talked about?" An image manager keeps to the line. A father defending his son, by his own account, did not.
+In October 2026, promoting the second season of _The Terminal List_, he told [The Playlist](https://theplaylist.net/the-terminal-list-season-2-chris-pratt-david-digilio-interview-20261022/) he had recently met with _Parks and Recreation_ creator Mike Schur "just to talk about the future." He also said fans will see Star-Lord again, "which is very exciting." The comedy idea, he said, was "reminiscent of a time where I was playing comedic characters, and people really responded well to it."
 
-A Three can sincerely want a quieter life while living a louder one, and he still calls his career a very high priority. But the tears in interviews, the reluctance about the photo, the faith commitment and the habit of handing big decisions to trusted people belong to the portrait, and the type does not explain them away.
+He described the "main character dilemma," an idea he said Schur introduced him to. A lead character needs a full arc. "They need to be vulnerable. They need to be hurt." Andy wasn't the lead:
 
-One detail from 2026 brings the story back to its start. On _Not Dead Yet_, released March 31, 2026, Pratt said he "had a meeting with my manager and agent recently." Running through his recent roles, from James Reese in _The Terminal List_ to the January thriller _Mercy_, he said some had been more serious than others, and the plan was "trying to do more comedy, trying to bring fun and lightheartedness back," because "that's something I have." He meant live-action leads (he has voiced animated comedies all along), and he added that he now cares about whether he can "be close to home."
+> "What I liked about Andy Dwyer was it was like being a jazz soloist, but not the lead singer. Like when it was my four measures, I can go and do my little comedy thing. It can be different every time."
 
-Whatever his next slate looks like, the shape of that meeting is the point. In 2015 he called the fun of his heavy years an image with value. In 2026 fun was back on the table as a career asset, weighed with his manager and agent, by a man who, on this reading, learned as a teenage salesman that the attitude is part of what you sell.
+"It was easy work," he said, "and I loved it."
+
+His stated reasons are practical: home, an audience that liked it, a gift he says he has. A market reading fits as well, since the comedy talk came about two months after _Mercy_ opened. What follows is this page's reading, not his. He has described a Seven's dream job: four measures, different every time. In 2015 he called the fun of his heavy years an image he cast to convince people he was okay. The comedy he wants back is a role, not that image, and he has said what made it easy. Andy never had to be hurt.
 
 _Portrait: [Gage Skidmore](https://commons.wikimedia.org/wiki/File:Chris_Pratt_(28630392396).jpg). Original photo and adapted portrait licensed under [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/). Cropped, background removed, rotated, converted to grayscale, and purple eye mark added._

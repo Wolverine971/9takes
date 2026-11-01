@@ -6,10 +6,7 @@
   Spec: docs/design-system.md §4–§6.
 -->
 <script lang="ts">
-	import { onMount } from 'svelte';
-	import { writable } from 'svelte/store';
-	import { browser } from '$app/environment';
-	import TableOfContents from '$lib/components/blog/TableOfContents.svelte';
+	import TableOfContents, { trackArticleHtml } from '$lib/components/blog/TableOfContents.svelte';
 	import PopCard from '$lib/components/atoms/PopCard.svelte';
 	import EnneagramTypeDossier from '$lib/components/blog/EnneagramTypeDossier.svelte';
 	import { enneagramTypeProfiles } from '$lib/data/enneagramTypeProfiles';
@@ -24,14 +21,15 @@
 	import AuthorBio from '$lib/components/blog/AuthorBio.svelte';
 	import TestYourTypeCTA from '$lib/components/blog/TestYourTypeCTA.svelte';
 	import ExperimentalTherapyInvite from '$lib/components/blog/ExperimentalTherapyInvite.svelte';
-	import { getAuthShellUser } from '$lib/authShell';
+	import { getAuthShell } from '$lib/authShell.svelte';
 
 	let { data }: { data: PageData } = $props();
-	const authUser = getAuthShellUser();
+	const authShell = getAuthShell();
 	type C = Component;
 	let Article = $derived(data.component as unknown as C);
 
-	const contentStore = writable('');
+	// The article's live HTML, for the TOC's client-side fallback.
+	let tocContent = $state('');
 
 	// Pages hosting the in-article strategic question (T-12) declare it via
 	// frontmatter. The question is the page's primary ask there, so the quiz
@@ -50,69 +48,9 @@
 	const dossierProfile = $derived(
 		enneagramTypeMatch ? enneagramTypeProfiles[parseInt(enneagramTypeMatch[1], 10)] : null
 	);
-
-	let observer: MutationObserver | null = null;
-
-	onMount(() => {
-		findObserver();
-
-		return () => {
-			// Cleanup observer on unmount
-			if (observer) {
-				observer.disconnect();
-				observer = null;
-			}
-		};
-	});
-
-	// Watch for slug changes and reinitialize observer
-	$effect(() => {
-		if (data?.slug) {
-			// Reset content store when slug changes
-			contentStore.set('');
-
-			// Clean up existing observer
-			if (observer) {
-				observer.disconnect();
-				observer = null;
-			}
-
-			// Set up new observer after a short delay to ensure DOM is updated
-			setTimeout(() => {
-				findObserver();
-			}, 100);
-		}
-	});
-
-	const findObserver = () => {
-		if (!browser) return;
-		const node = document.querySelector('#blogA');
-
-		if (!node) {
-			setTimeout(findObserver, 500);
-		} else {
-			// Disconnect existing observer if any
-			if (observer) {
-				observer.disconnect();
-			}
-
-			observer = new MutationObserver((mutations) => {
-				mutations.forEach((mutation) => {
-					if (mutation.type === 'childList') {
-						contentStore.set(node.innerHTML);
-					}
-				});
-			});
-
-			observer.observe(node, { childList: true, subtree: true });
-
-			// Also set initial content
-			contentStore.set(node.innerHTML);
-		}
-	};
 </script>
 
-<article class="blog" id="blogA">
+<article class="blog" id="blogA" {@attach trackArticleHtml((html) => (tocContent = html))}>
 	<div class="article-header">
 		<BlogPageHead data={data.frontmatter} slug={`enneagram-corner/${data.slug}`} />
 		<ArticleTitle title={data.frontmatter.title} />
@@ -137,7 +75,7 @@
 		</div>
 	{/if}
 
-	<TableOfContents {contentStore} headings={data.frontmatter.headings} />
+	<TableOfContents content={tocContent} headings={data.frontmatter.headings} />
 
 	<div class="article-body">
 		<Article />
@@ -154,9 +92,9 @@
 
 <hr class="section-divider" />
 
-<SuggestionsBlog posts={data?.posts} blogType={'Enneagram'} slugPrefix={'enneagram-corner'} />
+<SuggestionsBlog posts={data?.posts} blogType="Enneagram" slugPrefix="enneagram-corner" />
 
-{#if !$authUser}
+{#if !authShell.user}
 	<div class="join">
 		<EmailSignup />
 	</div>

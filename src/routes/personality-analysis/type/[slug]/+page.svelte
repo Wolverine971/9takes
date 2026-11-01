@@ -471,7 +471,7 @@
 		<nav class="sibling-types" aria-label="Other Enneagram types">
 			<h2>Explore the Other Enneagram Types</h2>
 			<ul>
-				{#each SIBLING_TYPES as siblingSlug}
+				{#each SIBLING_TYPES as siblingSlug (siblingSlug)}
 					{@const meta = enneagramTypes[siblingSlug]}
 					{#if siblingSlug === data.slug}
 						<li

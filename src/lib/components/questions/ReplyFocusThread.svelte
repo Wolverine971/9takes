@@ -30,12 +30,6 @@
 	let heading: HTMLHeadingElement | undefined = $state(undefined);
 	let settled = $state(false);
 
-	// The parent card is a legacy component that deep-clones its prop, so hand
-	// it a copy it can own.
-	let parentTake = $derived(
-		JSON.parse(JSON.stringify(thread.parent)) as ReplyFocusThread['parent']
-	);
-
 	const TARGET_CLASS = 'reply-focus-target';
 	const SETTLED_CLASS = 'reply-focus-target--settled';
 	const MAX_FRAMES = 90; // ~1.5s of frames for the nested list to mount
@@ -110,7 +104,7 @@
 	</header>
 
 	<div class="reply-focus__thread">
-		<Comment {questionId} comment={parentTake} {user} {parentData} autoExpandReplies />
+		<Comment {questionId} comment={thread.parent} {user} {parentData} autoExpandReplies />
 	</div>
 </section>
 

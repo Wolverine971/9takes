@@ -1,21 +1,35 @@
 <!-- src/lib/components/atoms/jumbotron.svelte -->
 <script lang="ts">
-	import { page } from '$app/stores';
-	import { onMount } from 'svelte';
+	import { page } from '$app/state';
+	import { onMount, type Snippet } from 'svelte';
 	import { fly } from 'svelte/transition';
 
-	export let image = 'cyber-campfire.webp';
-	export let showIcon = true;
-	export let scrambleText = true;
-	export let panBackground = true;
-	export let aspectRatio = '';
-	export let text = '9takes';
-	export let subtext = 'Ask questions, give your hot takes, talk to people';
+	interface Props {
+		image?: string;
+		showIcon?: boolean;
+		scrambleText?: boolean;
+		panBackground?: boolean;
+		aspectRatio?: string;
+		text?: string;
+		subtext?: string;
+		children?: Snippet;
+	}
+
+	let {
+		image = 'cyber-campfire.webp',
+		showIcon = true,
+		scrambleText = true,
+		panBackground = true,
+		aspectRatio = '',
+		text = '9takes',
+		subtext = 'Ask questions, give your hot takes, talk to people',
+		children
+	}: Props = $props();
 
 	const LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 	let interval: ReturnType<typeof setInterval> | null = null;
 
-	$: centerText = (!showIcon && !subtext) || showIcon ? 'center' : '';
+	let centerText = $derived((!showIcon && !subtext) || showIcon ? 'center' : '');
 
 	function scribbleScrabble() {
 		if (!scrambleText) return;
@@ -56,9 +70,9 @@
 	itemscope
 	itemtype="http://schema.org/WPHeader"
 	class="jumbo-card"
-	class:full-jumbo-card={$page.url.pathname === '/'}
+	class:full-jumbo-card={page.url.pathname === '/'}
 	style="aspect-ratio: {aspectRatio};"
-	on:mouseenter={scribbleScrabble}
+	onmouseenter={scribbleScrabble}
 >
 	<img
 		class="jumbo-card-image"
@@ -70,7 +84,7 @@
 	/>
 	<div class="jumbo-card-overlay"></div>
 	<div class="jumbo-card-content" style="justify-content: {centerText}">
-		<slot />
+		{@render children?.()}
 	</div>
 </div>
 

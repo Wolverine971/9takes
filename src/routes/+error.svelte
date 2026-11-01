@@ -1,16 +1,16 @@
 <!-- src/routes/+error.svelte -->
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import { page, updated } from '$app/stores';
+	import { page, updated } from '$app/state';
 	import { Button } from '$lib/components/atoms';
 
-	let isNotFound = $derived($page.status === 404);
+	let isNotFound = $derived(page.status === 404);
 	// Only a 4xx says "there is no page at this URL". A 5xx says nothing about the
 	// URL: a real server error already stays out of the index through its HTTP
 	// status, and a hydration failure (stale HTML whose chunks are gone after a
 	// deploy) is reported by SvelteKit as a client-side 500 on top of a page that
 	// served 200. A noindex injected there gets a good page dropped by Google.
-	let isClientError = $derived($page.status >= 400 && $page.status < 500);
+	let isClientError = $derived(page.status >= 400 && page.status < 500);
 	let title = $derived(isNotFound ? 'That page is not here' : 'Something went sideways');
 	let description = $derived(
 		isNotFound
@@ -51,7 +51,7 @@
 	}
 
 	onMount(() => {
-		void reloadIfStaleDeploy($page.status);
+		void reloadIfStaleDeploy(page.status);
 	});
 </script>
 
@@ -64,7 +64,7 @@
 
 <section class="error-page" aria-labelledby="error-title">
 	<div class="error-card">
-		<p class="error-kicker">ERROR · {$page.status}</p>
+		<p class="error-kicker">ERROR · {page.status}</p>
 
 		<div class="error-mark" aria-hidden="true">
 			<svg viewBox="0 0 64 64" fill="none" stroke="currentColor">

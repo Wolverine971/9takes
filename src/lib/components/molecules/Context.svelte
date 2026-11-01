@@ -1,7 +1,5 @@
 <!-- src/lib/components/molecules/Context.svelte -->
 <script module lang="ts">
-	import type { Action } from 'svelte/action';
-
 	let id = 1;
 
 	export function uid(): string {
@@ -11,37 +9,20 @@
 	export function clone<T>(json: T): T {
 		return JSON.parse(JSON.stringify(json)) as T;
 	}
+</script>
 
-	type OutsideClickCallback = () => void;
+<script lang="ts">
+	import type { Snippet } from 'svelte';
 
-	export const onClickOutside: Action<HTMLElement, OutsideClickCallback> = (
-		element,
-		callback = () => {}
-	) => {
-		const onClick = (event: MouseEvent) => {
-			const target = event.target;
-			if (!(target instanceof Node)) return;
-			if (!element.contains(target)) {
-				callback();
-			}
-		};
+	interface Props {
+		children?: Snippet;
+	}
 
-		document.body.addEventListener('mousedown', onClick);
-
-		return {
-			update(newCallback = () => {}) {
-				callback = newCallback;
-			},
-
-			destroy() {
-				document.body.removeEventListener('mousedown', onClick);
-			}
-		};
-	};
+	let { children }: Props = $props();
 </script>
 
 <div class="ui">
-	<slot />
+	{@render children?.()}
 </div>
 
 <style>

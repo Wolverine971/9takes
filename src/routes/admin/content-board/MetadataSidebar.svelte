@@ -115,6 +115,16 @@
 		return [];
 	});
 
+	// Suggestions can repeat (CrossLinkAnalysis flags duplicates), so each pill is keyed by
+	// its value plus which occurrence of that value it is.
+	let suggestionPills = $derived.by(() => {
+		const seen: Record<string, number> = {};
+		return (suggestionsArray as string[]).map((suggestion) => {
+			seen[suggestion] = (seen[suggestion] ?? 0) + 1;
+			return { suggestion, key: `${suggestion}#${seen[suggestion]}` };
+		});
+	});
+
 	// Copy content to clipboard
 	async function copyMarkdown() {
 		if (data.content) {
@@ -174,7 +184,7 @@
 						onchange={(e) => handleStageChange(e.currentTarget.value)}
 					>
 						<option value="">Select stage...</option>
-						{#each stages as stage}
+						{#each stages as stage (stage)}
 							<option value={stage}>{stage}</option>
 						{/each}
 					</select>
@@ -191,7 +201,7 @@
 						onchange={(e) => handleChange('enneagram', e.currentTarget.value)}
 					>
 						<option value="">Select type...</option>
-						{#each [1, 2, 3, 4, 5, 6, 7, 8, 9] as type}
+						{#each [1, 2, 3, 4, 5, 6, 7, 8, 9] as type (type)}
 							<option value={type}>Type {type}</option>
 						{/each}
 					</select>
@@ -407,7 +417,7 @@
 					<div class="field-label">Suggestions</div>
 					<div class="suggestions-list">
 						{#if suggestionsArray.length > 0}
-							{#each suggestionsArray as suggestion}
+							{#each suggestionPills as { suggestion, key } (key)}
 								<span class="suggestion-pill">{suggestion.replace(/-/g, ' ')}</span>
 							{/each}
 						{:else}
@@ -461,7 +471,7 @@
 			{#if sections.history}
 				<div class="section-content" transition:slide={{ duration: 150 }}>
 					<div class="history-list">
-						{#each history as change}
+						{#each history as change (change.id)}
 							<div class="history-item">
 								<span class="history-time">{formatRelativeTime(change.changed_at)}</span>
 								<span class="history-date">{formatDate(change.changed_at)}</span>

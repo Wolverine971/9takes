@@ -2,7 +2,7 @@
 <script lang="ts">
 	import { afterNavigate } from '$app/navigation';
 	import { resolve } from '$app/paths';
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
 	import { Database, MessageSquareText, Search } from '@lucide/svelte';
 	import {
 		adminNavGroups,
@@ -60,7 +60,7 @@
 	setMobileAdminCommand({ openMenu: openMobileMenu });
 
 	// Get current page label for mobile header
-	let currentPageLabel = $derived(getAdminRouteContext($page.url.pathname).label);
+	let currentPageLabel = $derived(getAdminRouteContext(page.url.pathname).label);
 	let filteredNavGroups = $derived.by(() => {
 		const query = mobileNavQuery.trim().toLocaleLowerCase();
 		if (!query) return adminNavGroups;
@@ -112,12 +112,12 @@
 			</button>
 		</header>
 
-		<AdminDesktopNav pathname={$page.url.pathname} {newTalkNotes} />
+		<AdminDesktopNav pathname={page.url.pathname} {newTalkNotes} />
 
 		<!-- Main Content Area -->
 		<main class="admin-content">
-			{#if $page.url.pathname !== '/admin'}
-				<AdminMobileRouteRail pathname={$page.url.pathname} onOpenMenu={openMobileMenu} />
+			{#if page.url.pathname !== '/admin'}
+				<AdminMobileRouteRail pathname={page.url.pathname} onOpenMenu={openMobileMenu} />
 			{/if}
 			{@render children()}
 		</main>
@@ -161,8 +161,8 @@
 									{@const Icon = item.icon}
 									<a
 										href={resolve(item.href)}
-										class={{ active: isAdminNavActive(item, $page.url.pathname) }}
-										aria-current={isAdminNavActive(item, $page.url.pathname) ? 'page' : undefined}
+										class={{ active: isAdminNavActive(item, page.url.pathname) }}
+										aria-current={isAdminNavActive(item, page.url.pathname) ? 'page' : undefined}
 										onclick={closeMobileMenu}
 									>
 										<span class="mobile-nav-icon">

@@ -1,8 +1,12 @@
 <!-- src/lib/components/blog/ArticleDescription.svelte -->
 <script lang="ts">
-	export let description: string;
-	export let slug = '';
-	const href = slug && `/blog/${slug}`;
+	interface Props {
+		description: string;
+		slug?: string;
+	}
+
+	let { description, slug = '' }: Props = $props();
+	const href = $derived(slug && `/blog/${slug}`);
 </script>
 
 <p>

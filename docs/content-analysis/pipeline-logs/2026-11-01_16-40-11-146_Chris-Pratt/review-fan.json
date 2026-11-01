@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "fan",
+  "content_sha256": "73fa9e2bb21ee745a4de0f7732982d07baddcd47a75f2c4df5b47ea4d8051638",
+  "evidence_sha256": "0dd5f29b1d9610077e12cd4f004aafc2151077288d6c81cb75109c3366f5f7ac",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": true
+  },
+  "findings": [
+    {
+      "id": "fan-road-rage-one-clause",
+      "severity": "major",
+      "passage": "The anger lasted one clause before he talked himself out of it and blamed his wandering mind.",
+      "problem": "Misreports a well-known GQ 2015 passage (Chris Heath). Before the reversal the draft quotes, Pratt describes deliberately feeding his freeway fury (\"Just get mad. Just get fucking pissed...\" \"I was so mad. It cost me twenty minutes... I was so pissed\") and treating it as acting \"research\". Heath presents the story as showing \"how fiercely, and not so far beneath Pratt's abundant charm and warmth, anger is bubbling away.\" Pratt flipped to \"No, I'm sure she didn't\" only when Heath asked about the incident again. The draft quotes only the flip, calls the anger \"one clause\" and reuses it against Type 8 (\"His road rage lasted one clause\"). The source shows sustained, deliberately stoked anger and then a reframe in the retelling. That reframe may still be Seven-relevant, but the anger was not brief. Confirmed against the live GQ page on 2026-11-01.",
+      "acceptance_test": "Neither \"one clause\" sentence remains. The road-rage passage says he stayed angry for about twenty minutes and stoked it as acting research, and reversed the story only when asked again. GQ's \"bubbling away\" reading is acknowledged. The Type 8 paragraph no longer cites road rage as evidence that his anger is weak, or it weighs the incident honestly as evidence for the Eight case."
+    },
+    {
+      "id": "fan-action-hero-clipped",
+      "severity": "major",
+      "passage": "Vanity Fair wrote that Pratt \"had always wanted to play an action hero.\" The diet traded a smaller pleasure for a bigger adventure.",
+      "problem": "The Vanity Fair 2017 sentence continues \"...but did not think he could pull it off\" (confirmed on the live page 2026-11-01). VF ties the weight loss to Moneyball, a baseball role, and says Zero Dark Thirty was what changed his mind (\"My God, I buy that guy\"). Pratt then says: \"Guardians had come around, and I passed... I was not on that list. I did not want to go in and embarrass myself.\" He went in only after his agent said \"Guardians is everything you've been saying you want to do.\" Gunn had said they weren't going to audition \"the chubby guy from Parks and Rec.\" The clipped quote turns self-doubt into appetite. The draft's Nine paragraph then claims \"when something exciting is on offer, he moves first: 'Put me in a movie,'\" but the best-known casting story of his career shows the opposite. He also framed \"Put me in a movie\" himself as \"kicked in my door to door sales skills.\"",
+      "acceptance_test": "The VF sentence appears in full, or is paraphrased with its \"did not think he could pull it off\" clause. The diet sentence no longer implies the weight loss pursued an action-hero adventure. The Guardians pass (\"I did not want to go in and embarrass myself\") and the agent's push are reported and weighed in the type argument. \"He moves first\" is removed or qualified."
+    },
+    {
+      "id": "fan-three-case-omissions",
+      "severity": "major",
+      "passage": "The rest of the Three case is real.",
+      "problem": "For a retype away from the published Type 3, the Three case leaves out the best-known ambition anecdote about Pratt and other Three material from sources the draft already cites. VF 2017: when his wrestling coach asked what he planned to do, he said \"I don't know, but I know I'll be famous and I know I'll make a shit ton of money\" (VF, citing EW, says it has \"become legend\"). VF also reports that his father \"had been a high-school star and lived off that for the rest of his life. 'I guess that's what I planned to do.'\" In Maui, per VF, he \"threw himself into entertaining tables,\" won Gumper of the year and \"got my name on a plaque.\" Not Dead Yet 2026: without his success \"I would be one of those guys who peaked in high school.\" Men's Health 2022, on his dumb-guy act: \"It was absolutely a tactic to lower people's expectations of me\"; it also reports that the \"spontaneous\" Mouse Rat name list was written far in advance. These lines bear directly on the draft's claims that the fun was not a product and that in Maui \"he spent it on a beach.\" Informed fans will read their absence as cherry-picking.",
+      "acceptance_test": "\"Why not Type 3?\" quotes or accurately paraphrases the coach's \"famous ... shit ton of money\" exchange (attributed to EW via VF 2017) and Men's Health's \"absolutely a tactic to lower people's expectations of me.\" It explains specifically why Seven still beats Three given them, or lowers the article's confidence. The Maui argument acknowledges the Gumper award and plaque."
+    },
+    {
+      "id": "fan-lead-singer-vs-career",
+      "severity": "major",
+      "passage": "Third, what he wants from a role. A Three wants top billing. Asked about Andy in 2026, Pratt said what he loved was \"being a jazz soloist, but not the lead singer.\"",
+      "problem": "One nostalgic line is set against twelve years of choices. Since Guardians (2014) Pratt has taken top-billed leads, and since 2020 he has owned Indivisible Productions, whose first project, The Terminal List, stars him and credits him as executive producer (Wikipedia). In the same Playlist interview he recounts fighting the studio \"as the producers\" for three weeks over a scene that became \"the crystallizing image of the show.\" The Andy line came while he discussed a possible comedy with Mike Schur and, in the Playlist's words, \"the freedom that comes with playing a supporting character rather than carrying an entire movie.\" It followed directly on his remark that in comedy \"people really responded well to it.\" GQ 2015 records him as \"the guy holding the purse at events and people just looked right through me,\" remembering producers who \"stared right through me.\" The draft quotes the very next sentence (\"I can think of exactly who they are...\") as Eight score-keeping and drops the context of being overlooked. The FAQ \"Is Chris Pratt a Type 3?\" and the closing line (\"The funny guy didn't have to be hurt\") rest on the same Andy line.",
+      "acceptance_test": "The top-billing discriminator is dropped, or it is weighed explicitly against his lead and producer record (Indivisible Productions; executive producer of The Terminal List) and the Playlist context. The GQ grudge quote keeps its \"looked right through me\" context and is weighed as evidence about status and visibility, not only as an Eight trait. The Type 3 FAQ answer and the closing paragraph are brought into line."
+    },
+    {
+      "id": "fan-father-ms-house",
+      "severity": "major",
+      "passage": "The family ran on hope more than on security. They moved to chase a gold mine, he said in 2026: \"We were total dreamers and there was no safety net.\"",
+      "problem": "The quote stops just before the hardship. In the same Not Dead Yet passage Pratt goes on: \"we had to be survivors at a very young age because we didn't have a pot to piss in... I've been money motivated my whole life... My dad gets this disease and the bank takes our house away.\" VF 2017: his father was diagnosed with multiple sclerosis during Pratt's senior year and left it untreated. The family lost their house while Chris was in high school and moved into a trailer, offering him a sleeping loft in a shed out back. MH 2022 calls it a \"20-year battle with multiple sclerosis,\" with his father \"incapacitated, in diapers in a wheelchair—for eight years\" and often watching reruns of his son's shows. The draft never mentions the illness or the foreclosure. His father appears only as \"mean,\" and his 2014 death is used only as a sourcing caveat. Pratt's warmer line is also missing (\"it was cool that I got to find some way to connect with him, because he was a hard man to connect with,\" VF 2017). This is the formative backdrop to the sales venture, the hidden failure, Maui and the money motive. It is the pain a Seven reading says he escaped, and the scarcity a Three reading says he outran.",
+      "acceptance_test": "The article names his father's MS (diagnosed around Pratt's senior year; he died in 2014 after about 20 years with the disease) and the family's loss of their home during his high-school years, sourced to VF 2017, MH 2022 and Not Dead Yet 2026. The \"ran on hope more than on security\" sentence no longer stands without that hardship. At least one of Pratt's warmer remarks about his father appears. The type argument says how both Seven and Three account for this context."
+    },
+    {
+      "id": "fan-faith-missing-responses",
+      "severity": "major",
+      "passage": "Asked why he hadn't set the record straight at the time, Pratt said, \"I'm gonna, like, throw a church under the bus?\"",
+      "problem": "Two well-known responses are missing. First, after Elliot Page's 2019 criticism Pratt issued a public statement, which the Men's Health piece the draft already cites quotes in full: \"Nothing could be further from the truth. I am a man who believes that everyone is entitled to love who they want free from the judgment of their fellow man.\" MH's question was specifically why he hadn't said in 2019 that he never attended Hillsong. As written, readers will conclude he stayed silent. Second, the section presents his 2026 \"I stood for something\" and \"I didn't backtrack\" without his 2022 second thoughts about the same MTV speech: \"Maybe it was hubris. For me to stand up on the stage and say the things that I said, I'm not sure I touched anybody\" (Men's Health). That change between 2022 and 2026 is the revealing contradiction in his public faith story. The draft's \"His account has shifted\" paragraph leans on the weaker Hillsong material instead.",
+      "acceptance_test": "The 2019 statement is quoted or accurately paraphrased, with its date and source. The \"set the record straight\" sentence makes clear the question concerned Hillsong attendance. The 2022 \"Maybe it was hubris\" line appears next to the 2026 \"I didn't backtrack,\" and any typing inference from the change is labeled as interpretation."
+    },
+    {
+      "id": "fan-silent-when-yelled-at",
+      "severity": "minor",
+      "passage": "As a kid he was \"obnoxious, really hyperactive, disruptive,\" and also \"really sensitive. I cried a lot.\"",
+      "problem": "The two fragments skip the clause between them in GQ 2015: \"...but also Dad was very, very strict, so if I got yelled at, I would stay silent for a long period of time.\" That is his own account of a quiet, withdrawn response to his father. The draft's Nine paragraph argues \"Nines go quiet and withdraw. Pratt's escapes are loud,\" so the skipped clause is the counterevidence most relevant to that claim.",
+      "acceptance_test": "The \"stay silent for a long period of time\" line is included, or the Nine paragraph acknowledges it and explains why it does not change the reading."
+    },
+    {
+      "id": "fan-reece-spelling",
+      "severity": "minor",
+      "passage": "from James Reese in _The Terminal List_ to the January thriller _Mercy_",
+      "problem": "The Terminal List lead is James Reece (Men's Health 2022: \"he inhabits James Reece\"; The Playlist 2026 also uses Reece; it is the hero of Jack Carr's novels). Fans of the show will catch the misspelling.",
+      "acceptance_test": "The name reads \"James Reece\" everywhere it appears."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "\"I think I was outwardly having more fun. I was more fun to be around, probably. That image that I was casting, to convince people that I was okay, was a really fun person to hang around. Now I have less fun. I focus more.\"",
+      "reason": "Verbatim against GQ 2015, including the setup (Faris probably preferred him heavier; Heath asks \"Why?\"). It is the most revealing self-report in the record, and the draft frames it accurately."
+    },
+    {
+      "passage": "Both accounts are his. Side by side, they show a move that runs through his life: he meets a bad stretch by finding the fun in it, first while living it and again when he tells the story.",
+      "reason": "An honest hook. It sets the 2014 \"charming time\" quote beside the 2017 \"I was not in a great place\" (both checked) and names the pattern without claiming access to his mind."
+    },
+    {
+      "passage": "As a boy he would \"fill those catalog cards out and just sit them by my bedside.\"",
+      "reason": "A distinctive, checked detail (Not Dead Yet 2026 transcript) that makes the hope-in-the-next-ticket idea concrete and specific to him."
+    },
+    {
+      "passage": "he has been \"money motivated\" since a childhood when, as \"the king of my school,\" he wouldn't ask for the $35 a yearbook cost.",
+      "reason": "Checked against Not Dead Yet 2026 and specific to Pratt. Keep it, and connect it to the sentence that precedes it in the source (\"My dad gets this disease and the bank takes our house away\")."
+    },
+    {
+      "passage": "The limits are real. Most of the Seven evidence is his own retelling in interviews, the cleanest test came when he was about 19, and the \"pure euphoria\" line comes from auto-captions of a podcast.",
+      "reason": "States the inference limits plainly where the argument needs them. The euphoria context checks out: Maher asked whether anything was better about \"fat you\" and Pratt answered \"Eating.\""
+    }
+  ],
+  "assessment": "Informed-reader read. Sources: saved copies of VF 2017, GQ 2015, Men's Health 2022, the 2014 Independent/TimeOut piece (NZ Herald), The Playlist 2026 (r.jina.ai copy), the Not Dead Yet 2026 Whisper transcript, the Club Random/SmartLess/Happy Sad Confused captions and Wikipedia; the live VF and GQ pages were re-fetched on 2026-11-01 to confirm the key passages. I did not reopen the Christian Post, Daily Beast or Fox pieces. Most quotes are accurate and the hook, the GQ image-casting exchange and the stated limits are strong. The problem is that the omissions and the one misreport all point the same way, toward Seven: the road-rage passage is misreported, the action-hero sentence is clipped, the Guardians reluctance is missing, the Three case lacks the coach's \"famous\" line and the \"tactic\" line, the top-billing argument ignores his lead and producer career, and his father's MS and the family's lost house are absent. Seven may still win, but this matters for a retype away from a published Three. Fixes must be word-neutral: the body is about 3,830 words against a 3,500 target, and the generic Seven-defense explainer can be trimmed. Similarity: most matches are this page's own previous version. The Florence Pugh and Dominic Fike matches are stock triad phrasing, not reused arguments, so no finding. I keep all four risk flags as they are in the evidence record. Process note: before starting I saw the summary logs of an earlier fan review and of the subject review for this run. I did not open any review JSON, and I checked every finding against the sources myself."
+}

@@ -6,17 +6,17 @@ import { afterEach, describe, expect, it, vi } from 'vitest';
 
 vi.mock('$app/environment', () => ({ browser: false }));
 
-import { themePreference } from '$lib/stores/theme';
+import { theme } from '$lib/stores/theme.svelte';
 import ThemeToggle from './ThemeToggle.svelte';
 
 describe('ThemeToggle', () => {
 	afterEach(() => {
 		cleanup();
-		themePreference.set('dark');
+		theme.preference = 'dark';
 	});
 
 	it('toggles directly between dark and light modes', async () => {
-		themePreference.set('dark');
+		theme.preference = 'dark';
 		render(ThemeToggle);
 
 		const toggle = screen.getByRole('button', { name: 'Switch to light mode' });

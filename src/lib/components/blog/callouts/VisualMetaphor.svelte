@@ -6,15 +6,19 @@
   Public props unchanged.
 -->
 <script lang="ts">
+	import type { Snippet } from 'svelte';
 	import Callout from './Callout.svelte';
 
-	export let title = '';
+	interface Props {
+		title?: string;
+		/**
+		 * Body content: an HTML string when dynamically mounted from Supabase
+		 * content, or the markdown/default content snippet otherwise.
+		 */
+		children?: Snippet | string;
+	}
 
-	/**
-	 * Optional children content (used when dynamically mounted from Supabase content)
-	 * Falls back to slot content when not provided
-	 */
-	export let children: string | ((...args: unknown[]) => unknown) = '';
+	let { title = '', children = '' }: Props = $props();
 </script>
 
 <Callout {title}>
@@ -36,8 +40,8 @@
 
 	{#if typeof children === 'string' && children.trim() !== ''}
 		{@html children}
-	{:else}
-		<slot />
+	{:else if typeof children === 'function'}
+		{@render children()}
 	{/if}
 </Callout>
 

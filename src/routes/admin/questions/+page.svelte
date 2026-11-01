@@ -5,23 +5,20 @@
 	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
 	import { convertDateToReadable } from '../../../utils/conversions';
 	import StatCard from '$lib/components/charts/StatCard.svelte';
+	import { untrack } from 'svelte';
 
 	let { data }: { data: PageData } = $props();
-	let questions = $state<any[]>([]);
-	let initializedQuestions = false;
-
-	$effect(() => {
-		if (initializedQuestions) {
-			return;
-		}
-
-		questions = (data.questions || []).map((question: any) => ({
-			...question,
-			question_tag: Array.isArray(question.question_tag) ? [...question.question_tag] : [],
-			keywords: Array.isArray(question.keywords) ? [...question.keywords] : []
-		}));
-		initializedQuestions = true;
-	});
+	// Local editable copy, seeded once: edits made in the modal live here and must not be
+	// replaced when page data changes.
+	let questions = $state<any[]>(
+		untrack(() =>
+			(data.questions || []).map((question: any) => ({
+				...question,
+				question_tag: Array.isArray(question.question_tag) ? [...question.question_tag] : [],
+				keywords: Array.isArray(question.keywords) ? [...question.keywords] : []
+			}))
+		)
+	);
 
 	// Question sorting functions
 	const sortFunctions: Record<string, (questions: any[]) => any[]> = {
@@ -75,6 +72,7 @@
 
 	// Build unique tag list for category filter
 	let allTags = $derived.by(() => {
+		// eslint-disable-next-line svelte/prefer-svelte-reactivity -- temporary lookup built and discarded inside this derived
 		const tagMap = new Map<number, string>();
 		for (const q of questions) {
 			for (const t of q.question_tag || []) {
@@ -273,7 +271,7 @@
 								}}
 							>
 								<option value="">All Categories</option>
-								{#each allTags as tag}
+								{#each allTags as tag (tag.id)}
 									<option value={tag.id}>{tag.name}</option>
 								{/each}
 							</select>
@@ -322,7 +320,7 @@
 
 			{#if displayedQuestions.length}
 				<div class="questions-list">
-					{#each displayedQuestions as question}
+					{#each displayedQuestions as question (question.id)}
 						<article
 							class="question-item"
 							class:flagged={question.flagged}
@@ -365,7 +363,7 @@
 
 								{#if question.question_tag?.length > 0}
 									<div class="category-tags">
-										{#each question.question_tag as tag}
+										{#each question.question_tag as tag (tag.tag_id)}
 											<span class="category-tag">{tag.tag_name}</span>
 										{/each}
 									</div>

@@ -1,5 +1,4 @@
-// src/lib/stores/theme.ts
-import { writable } from 'svelte/store';
+// src/lib/stores/theme.svelte.ts
 import { browser } from '$app/environment';
 
 export type ThemePreference = 'light' | 'dark';
@@ -16,7 +15,19 @@ function getInitialTheme(): ThemePreference {
 		: 'dark';
 }
 
-export const themePreference = writable<ThemePreference>(getInitialTheme());
+// Shared app-wide theme. The server never writes it (only click handlers do), so it can't leak
+// between requests: server renders always see the 'dark' default.
+class ThemeState {
+	preference = $state<ThemePreference>(getInitialTheme());
+
+	/** Switch the theme and apply it to the document (classes, storage, meta tags). */
+	set(next: ThemePreference) {
+		this.preference = next;
+		applyTheme(next);
+	}
+}
+
+export const theme = new ThemeState();
 
 export function applyTheme(preference: ThemePreference) {
 	if (!browser) return;

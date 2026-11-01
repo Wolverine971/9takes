@@ -1,23 +1,32 @@
 <!-- src/lib/components/map/controls/ScaleControl.svelte -->
-<script>
-	import { getContext } from 'svelte';
-	import { contextKey } from '$lib/components/map/mapbox';
+<script lang="ts">
+	import { untrack } from 'svelte';
+	import { getMapContext } from '$lib/components/map/map-context';
 
-	const { getMap, getMapbox } = getContext(contextKey);
-	const map = getMap();
-	const mapbox = getMapbox();
+	type MapboxLike = {
+		ScaleControl: new (options: Record<string, unknown>) => unknown;
+	};
 
-	export let position = 'bottom-right';
-	export let options = {};
+	interface Props {
+		position?: string;
+		options?: Record<string, unknown>;
+	}
 
-	const optionsWithDefaults = Object.assign(
-		{
-			maxWidth: 80,
-			unit: 'metric'
-		},
-		options
-	);
+	let { position = 'bottom-right', options = {} }: Props = $props();
 
-	const scale = new mapbox.ScaleControl(optionsWithDefaults);
-	map.addControl(scale, position);
+	const { getMap, getMapbox } = getMapContext();
+	const map = getMap() as { addControl: (control: unknown, position: string) => void };
+	const mapbox = getMapbox() as MapboxLike;
+
+	// The control is added once when the component is created, so the props are read once on purpose.
+	untrack(() => {
+		const optionsWithDefaults = Object.assign(
+			{
+				maxWidth: 80,
+				unit: 'metric'
+			},
+			options
+		);
+		map.addControl(new mapbox.ScaleControl(optionsWithDefaults), position);
+	});
 </script>

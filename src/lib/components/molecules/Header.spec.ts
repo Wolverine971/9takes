@@ -4,14 +4,13 @@
 import { cleanup, render, screen } from '@testing-library/svelte';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 
-const { authState, authUserStore, notificationCount, pageStore } = vi.hoisted(() => ({
+const { authState, authShell, notificationCount, pageState } = vi.hoisted(() => ({
 	authState: {
 		current: { id: 'user-1', admin: false } as { id: string; admin: boolean } | null
 	},
-	authUserStore: {
-		subscribe(run: (value: { id: string; admin: boolean } | null) => void) {
-			run(authState.current);
-			return () => {};
+	authShell: {
+		get user() {
+			return authState.current;
 		}
 	},
 	notificationCount: {
@@ -20,21 +19,16 @@ const { authState, authUserStore, notificationCount, pageStore } = vi.hoisted(()
 			this.unread = value;
 		}
 	},
-	pageStore: {
-		subscribe(run: (value: { url: URL; data: { user: { id: string } } }) => void) {
-			run({
-				url: new URL('https://9takes.com/account'),
-				data: { user: { id: 'user-1' } }
-			});
-			return () => {};
-		}
+	pageState: {
+		url: new URL('https://9takes.com/account'),
+		data: { user: { id: 'user-1' } }
 	}
 }));
 
 vi.mock('$app/navigation', () => ({ afterNavigate: vi.fn(), goto: vi.fn() }));
 vi.mock('$app/paths', () => ({ resolve: (path: string) => path }));
-vi.mock('$app/stores', () => ({ page: pageStore }));
-vi.mock('$lib/authShell', () => ({ getAuthShellUser: () => authUserStore }));
+vi.mock('$app/state', () => ({ page: pageState }));
+vi.mock('$lib/authShell.svelte', () => ({ getAuthShell: () => authShell }));
 vi.mock('$lib/notificationCount.svelte', () => ({
 	useNotificationCount: () => notificationCount
 }));

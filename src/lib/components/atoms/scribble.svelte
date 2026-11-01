@@ -1,6 +1,10 @@
 <!-- src/lib/components/atoms/scribble.svelte -->
 <script lang="ts">
-	export let text = '9takes';
+	interface Props {
+		text?: string;
+	}
+
+	let { text = '9takes' }: Props = $props();
 
 	const LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 	let interval: ReturnType<typeof setInterval> | null = null;
@@ -33,8 +37,8 @@
 	aria-hidden="true"
 	class="scribble scrib{text.replace(/\s+/g, '-')}"
 	data-value={text}
-	on:mouseover={scribbleScrabble}
-	on:focus={scribbleScrabble}
+	onmouseover={scribbleScrabble}
+	onfocus={scribbleScrabble}
 	aria-describedby="scribbleDesc"
 >
 	{text}

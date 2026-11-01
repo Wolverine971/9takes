@@ -39,6 +39,13 @@
 		}
 	] as const;
 
+	/** First three featured people, one per slug (duplicate DB rows would break the keyed list). */
+	function featuredNames<T extends { slug: string }>(people: T[]): T[] {
+		return people
+			.filter((person, i) => people.findIndex((p) => p.slug === person.slug) === i)
+			.slice(0, 3);
+	}
+
 	function getLatestDate(values: Array<{ latestUpdate: string | null }>): string | null {
 		let latestDate: string | null = null;
 		let latestTimestamp = 0;
@@ -193,7 +200,7 @@
 	</header>
 
 	<nav class="quick-jump" aria-label="Jump to category">
-		{#each allCategories as category}
+		{#each allCategories as category (category.slug)}
 			<a href="#cat-{category.slug}" class="jump-pill" style={`--jump-accent:${category.accent};`}>
 				<span class="jump-dot" aria-hidden="true"></span>
 				<span class="jump-label">{category.shortLabel}</span>
@@ -210,7 +217,7 @@
 			</div>
 
 			<div class="category-grid">
-				{#each data.primaryCategories as category}
+				{#each data.primaryCategories as category (category.slug)}
 					<a
 						id="cat-{category.slug}"
 						href="/personality-analysis/categories/{category.slug}"
@@ -234,7 +241,7 @@
 								<div class="block">
 									<p class="mini-label">Subcategories</p>
 									<div class="chip-row">
-										{#each category.groups.slice(0, 3) as group}
+										{#each category.groups.slice(0, 3) as group (group.slug)}
 											<span class="chip">{group.label}</span>
 										{/each}
 										{#if category.groups.length > 3}
@@ -248,7 +255,7 @@
 								<div class="block">
 									<p class="mini-label">Featured</p>
 									<p class="featured-names">
-										{#each category.featured.slice(0, 3) as person, i}
+										{#each featuredNames(category.featured) as person, i (person.slug)}
 											{#if i > 0}<span class="bullet" aria-hidden="true">·</span>{/if}<span
 												>{person.name}</span
 											>
@@ -261,7 +268,7 @@
 						<div class="card-footer">
 							<span class="cta">
 								Explore
-								<ArrowRightIcon iconStyle={''} height={'0.9rem'} fill={'currentColor'} />
+								<ArrowRightIcon iconStyle="" height="0.9rem" fill="currentColor" />
 							</span>
 							{#if formatDate(category.latestUpdate)}
 								<span class="updated">Updated {formatDate(category.latestUpdate)}</span>
@@ -280,7 +287,7 @@
 				</div>
 
 				<div class="category-grid specialty">
-					{#each data.secondaryCategories as category}
+					{#each data.secondaryCategories as category (category.slug)}
 						<a
 							id="cat-{category.slug}"
 							href="/personality-analysis/categories/{category.slug}"
@@ -303,7 +310,7 @@
 								<div class="block">
 									<p class="mini-label">Subcategories</p>
 									<div class="chip-row">
-										{#each category.groups.slice(0, 3) as group}
+										{#each category.groups.slice(0, 3) as group (group.slug)}
 											<span class="chip">{group.label}</span>
 										{/each}
 									</div>
@@ -313,7 +320,7 @@
 							<div class="card-footer">
 								<span class="cta">
 									Explore
-									<ArrowRightIcon iconStyle={''} height={'0.9rem'} fill={'currentColor'} />
+									<ArrowRightIcon iconStyle="" height="0.9rem" fill="currentColor" />
 								</span>
 							</div>
 						</a>
@@ -330,7 +337,7 @@
 			</div>
 			<a href="/personality-analysis" class="alt-link">
 				<span>Go to type index</span>
-				<ArrowRightIcon iconStyle={''} height={'1rem'} fill={'currentColor'} />
+				<ArrowRightIcon iconStyle="" height="1rem" fill="currentColor" />
 			</a>
 		</aside>
 	</div>

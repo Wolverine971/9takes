@@ -4,16 +4,12 @@
 import { render, screen } from '@testing-library/svelte';
 import { describe, expect, it, vi } from 'vitest';
 
-const { pageStore } = vi.hoisted(() => ({
-	pageStore: {
-		subscribe(run: (value: { status: number; error: { message: string } }) => void) {
-			run({ status: 404, error: { message: 'Not found' } });
-			return () => {};
-		}
-	}
+const { pageState, updatedState } = vi.hoisted(() => ({
+	pageState: { status: 404, error: { message: 'Not found' } },
+	updatedState: { current: false, check: async () => false }
 }));
 
-vi.mock('$app/stores', () => ({ page: pageStore }));
+vi.mock('$app/state', () => ({ page: pageState, updated: updatedState }));
 
 import ErrorPage from './+error.svelte';
 

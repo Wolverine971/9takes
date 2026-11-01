@@ -38,25 +38,13 @@
 		[CategoryKey, (typeof categoryInfo)[CategoryKey]]
 	>;
 
-	function clonePageResource(): ResourceRow {
-		return { ...data.resource };
-	}
-
-	function getSavedHtml(): string {
-		return data.renderedHtml;
-	}
-
-	let resourceDraft = $state<ResourceRow>(clonePageResource());
-	let originalResource = $state<ResourceRow>(clonePageResource());
-	let renderedHtml = $state(getSavedHtml());
+	// Writable deriveds: reset from the load data on every navigation, overwritten by edits
+	// and by the save response in between.
+	let resourceDraft = $derived<ResourceRow>({ ...data.resource });
+	let originalResource = $derived<ResourceRow>({ ...data.resource });
+	let renderedHtml = $derived(data.renderedHtml);
 	let saving = $state(false);
 	let mobileTab = $state<'content' | 'preview' | 'details'>('content');
-
-	$effect(() => {
-		resourceDraft = { ...data.resource };
-		originalResource = { ...data.resource };
-		renderedHtml = data.renderedHtml;
-	});
 
 	let isDirty = $derived.by(
 		() => JSON.stringify(resourceDraft) !== JSON.stringify(originalResource)
@@ -352,7 +340,7 @@
 						onchange={(event) =>
 							updateDraft('category', (event.currentTarget as HTMLSelectElement).value)}
 					>
-						{#each categoryEntries as [category, info]}
+						{#each categoryEntries as [category, info] (category)}
 							<option value={category}>{info.label}</option>
 						{/each}
 					</select>
@@ -409,7 +397,7 @@
 				<h2>More {categoryMeta.label}s</h2>
 				{#if data.relatedResources.length > 0}
 					<div class="related-list">
-						{#each data.relatedResources as resource}
+						{#each data.relatedResources as resource (resource.id)}
 							<a href="/admin/consulting/resources/{resource.slug}" class="related-item">
 								<div>
 									<strong>{resource.title}</strong>

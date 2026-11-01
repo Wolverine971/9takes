@@ -1,21 +1,35 @@
 <!-- src/lib/components/error/AsyncErrorHandler.svelte -->
 <script lang="ts">
-	import { createEventDispatcher } from 'svelte';
+	import type { Snippet } from 'svelte';
 
-	export let error: string | null = null;
-	export let loading = false;
-	export let retryable = true;
-	export let showDetails = false;
+	interface Props {
+		/** Bindable: dismissing clears it. */
+		error?: string | null;
+		loading?: boolean;
+		retryable?: boolean;
+		showDetails?: boolean;
+		onretry?: () => void;
+		ondismiss?: () => void;
+		details?: Snippet;
+	}
 
-	const dispatch = createEventDispatcher();
+	let {
+		error = $bindable(null),
+		loading = false,
+		retryable = true,
+		showDetails = false,
+		onretry,
+		ondismiss,
+		details
+	}: Props = $props();
 
 	const retry = () => {
-		dispatch('retry');
+		onretry?.();
 	};
 
 	const dismiss = () => {
 		error = null;
-		dispatch('dismiss');
+		ondismiss?.();
 	};
 </script>
 
@@ -41,9 +55,9 @@
 
 			<div class="error-actions">
 				{#if retryable && !loading}
-					<button class="retry-btn" on:click={retry}> Try Again </button>
+					<button class="retry-btn" onclick={retry}> Try Again </button>
 				{/if}
-				<button class="dismiss-btn" on:click={dismiss} aria-label="Dismiss error">
+				<button class="dismiss-btn" onclick={dismiss} aria-label="Dismiss error">
 					<svg
 						width="16"
 						height="16"
@@ -59,9 +73,9 @@
 			</div>
 		</div>
 
-		{#if showDetails && $$slots.details}
+		{#if showDetails && details}
 			<div class="error-details">
-				<slot name="details" />
+				{@render details()}
 			</div>
 		{/if}
 	</div>

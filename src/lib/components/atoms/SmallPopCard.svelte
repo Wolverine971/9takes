@@ -4,22 +4,37 @@
 	import { onMount } from 'svelte';
 	import { fly } from 'svelte/transition';
 
-	export let image = 'cyber-campfire.webp';
-	export let showIcon = true;
-	export let displayText = '';
-	export let enneagramType = 0;
-	export let altText = '';
-	export let subtext = 'Ask questions, give your hot takes, talk to people';
-	export let scramble = true;
-	export let tint = true;
-	export let link = '';
-	export let imageTreatment: 'default' | 'personality' = 'default';
+	interface Props {
+		image?: string;
+		showIcon?: boolean;
+		displayText?: string;
+		enneagramType?: number;
+		altText?: string;
+		subtext?: string;
+		scramble?: boolean;
+		tint?: boolean;
+		link?: string;
+		imageTreatment?: 'default' | 'personality';
+	}
+
+	let {
+		image = 'cyber-campfire.webp',
+		showIcon = true,
+		displayText = '',
+		enneagramType = 0,
+		altText = '',
+		subtext = 'Ask questions, give your hot takes, talk to people',
+		scramble = true,
+		tint = true,
+		link = '',
+		imageTreatment = 'default'
+	}: Props = $props();
 
 	const LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 	let interval: ReturnType<typeof setInterval> | undefined;
-	let showDescription = false;
+	let showDescription = $state(false);
 	let isTouchDevice = false;
-	let innerWidth = 0;
+	let innerWidth = $state(0);
 
 	const namePopId = Math.random().toString(36).substring(2);
 
@@ -30,7 +45,7 @@
 	}
 
 	// Keep an existing thumbnail path intact instead of producing an invalid s-s-* URL.
-	$: imageSrc = getSmallImagePath(image);
+	let imageSrc = $derived(getSmallImagePath(image));
 
 	const enneagramTypes = [
 		{
@@ -130,23 +145,23 @@
 	aria-roledescription="card"
 	role="button"
 	tabindex="0"
-	on:mouseover={() => scramble && startTextScramble()}
-	on:mouseenter={() => {
+	onmouseover={() => scramble && startTextScramble()}
+	onmouseenter={() => {
 		if (!isTouchDevice) showDescription = true;
 	}}
-	on:focus={() => {
+	onfocus={() => {
 		if (!isTouchDevice) showDescription = true;
 	}}
-	on:blur={() => {
+	onblur={() => {
 		if (!isTouchDevice) showDescription = false;
 	}}
-	on:mouseleave={() => {
+	onmouseleave={() => {
 		if (!isTouchDevice) showDescription = false;
 	}}
-	on:touchstart={() => {
+	ontouchstart={() => {
 		isTouchDevice = true;
 	}}
-	on:click={() => {
+	onclick={() => {
 		if (isTouchDevice) {
 			if (!showDescription) {
 				showDescription = true;
@@ -159,7 +174,7 @@
 		}
 		goto(link);
 	}}
-	on:keydown={(event) => {
+	onkeydown={(event) => {
 		if (event.key === 'Enter') goto(link);
 	}}
 >
@@ -218,7 +233,7 @@
 				</div>
 			{:else if displayText && !showDescription}
 				<p
-					class={`name-pop-${namePopId} text-shadow group-hover:opacity-0 rounded-md bg-white bg-opacity-20 text-xs font-normal uppercase tracking-wider text-white transition-opacity duration-300`}
+					class={`name-pop-${namePopId} text-shadow rounded-md bg-white bg-opacity-20 text-xs font-normal uppercase tracking-wider text-white transition-opacity duration-300 group-hover:opacity-0`}
 					class:yourname={displayText === 'YOUR NAME'}
 					data-value={displayText}
 					in:fly={{ y: -200, duration: 1500 }}

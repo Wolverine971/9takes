@@ -5,54 +5,74 @@
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
 	import XmarkIcon from '$lib/components/icons/xmarkIcon.svelte';
 	import QuestionCurationPanel from './QuestionCurationPanel.svelte';
-	import { onDestroy } from 'svelte';
+	import { untrack } from 'svelte';
 
-	export let questionData: any;
-	export let tags: any[];
-	export let onQuestionUpdated: ((question: any) => void) | undefined = undefined;
+	interface Props {
+		questionData: any;
+		tags: any[];
+		onQuestionUpdated?: (question: any) => void;
+	}
+
+	let { questionData: questionProp, tags, onQuestionUpdated }: Props = $props();
 
 	const MAX_TAGS = 5;
 	const TAGGING_POLL_INTERVAL_MS = 1500;
 	const TAGGING_POLL_TIMEOUT_MS = 120000;
 
-	// Track question ID to reset local state when a different question is selected
-	let prevQuestionId: any = null;
-	let selectedTags: any[] = [];
-	let editing = false;
-	let confirmingTag = false;
-	let taggingLoading = false;
-	let backgroundTagging = false;
-	let questionEditsSaving = false;
-	let editBackup: any = null;
+	// Local editable copy of the question: edits, saves and AI-tagging results
+	// apply here and report up through onQuestionUpdated. A new question object
+	// from the parent replaces the copy.
+	let questionData = $derived.by(() => {
+		const copy = $state($state.snapshot(questionProp));
+		return copy;
+	});
+
+	// Local state that resets when a different question is selected
+	let questionId = $derived(questionProp?.id);
+	let selectedTags = $derived.by<any[]>(() => {
+		void questionId;
+		return untrack(() => [...(questionProp?.question_tag || [])]);
+	});
+	let editing = $derived.by(() => {
+		void questionId;
+		return false;
+	});
+	let confirmingTag = $derived.by(() => {
+		void questionId;
+		return false;
+	});
+	let editBackup = $derived.by<any>(() => {
+		void questionId;
+		return null;
+	});
+	let taggingLoading = $state(false);
+	let backgroundTagging = $state(false);
+	let questionEditsSaving = $state(false);
 	let activeTaggingJobId: string | null = null;
 	let taggingPollTimer: ReturnType<typeof setTimeout> | null = null;
 	let taggingPollStartedAt = 0;
 
-	// Reset all local state when the question changes
-	$: if (questionData?.id !== prevQuestionId) {
-		stopTaggingPoll();
-		// eslint-disable-next-line no-useless-assignment -- read on the next reactive run
-		prevQuestionId = questionData?.id;
-		selectedTags = [...(questionData?.question_tag || [])];
-		editing = false;
-		confirmingTag = false;
-		editBackup = null;
+	// Resume polling a running AI-tagging job for the selected question; stop it
+	// when the selection changes or the modal closes.
+	$effect(() => {
+		void questionId;
+		untrack(() => {
+			const aiTaggingState = getAiTaggingState(questionProp);
+			if (aiTaggingState?.status === 'processing' && aiTaggingState.jobId) {
+				startTaggingPoll(aiTaggingState.jobId);
+			}
+		});
+		return () => stopTaggingPoll();
+	});
 
-		const aiTaggingState = getAiTaggingState(questionData);
-		if (aiTaggingState?.status === 'processing' && aiTaggingState.jobId) {
-			startTaggingPoll(aiTaggingState.jobId);
-		}
-	}
-
-	$: formattedDate = formatDate(questionData?.created_at);
-	$: availableTags =
+	let formattedDate = $derived(formatDate(questionData?.created_at));
+	let availableTags = $derived(
 		selectedTags.length >= MAX_TAGS
 			? []
-			: tags.filter((t) => !selectedTags.some((st: any) => st.tag_id === t.tag_id));
-
-	onDestroy(() => {
-		stopTaggingPoll();
-	});
+			: tags.filter((t) => !selectedTags.some((st: any) => st.tag_id === t.tag_id))
+	);
+	// Keyed list below: duplicate keywords would collide, so show each once.
+	let keywords = $derived([...new Set<string>(questionData.keywords || [])]);
 
 	function getAiTaggingState(question: any) {
 		const state = question?.data?.aiTagging;
@@ -106,7 +126,8 @@
 		selectedTags = [...selectedTags, tag];
 	}
 
-	function emitQuestionUpdated(nextQuestion: any) {
+	function emitQuestionUpdated(question: any) {
+		const nextQuestion = $state.snapshot(question);
 		onQuestionUpdated?.({
 			...nextQuestion,
 			question_tag: Array.isArray(nextQuestion?.question_tag)
@@ -126,7 +147,6 @@
 
 	function applyQuestionUpdate(nextQuestion: any) {
 		Object.assign(questionData, nextQuestion);
-		questionData = { ...questionData };
 		selectedTags = [...(nextQuestion?.question_tag || [])];
 		emitQuestionUpdated(questionData);
 	}
@@ -135,11 +155,8 @@
 		starterRank: number | null;
 		pinnedCommentIds: number[];
 	}) {
-		questionData = {
-			...questionData,
-			starter_rank: curation.starterRank,
-			pinned_comment_ids: [...curation.pinnedCommentIds]
-		};
+		questionData.starter_rank = curation.starterRank;
+		questionData.pinned_comment_ids = [...curation.pinnedCommentIds];
 		emitQuestionUpdated(questionData);
 	}
 
@@ -278,7 +295,6 @@
 					status: 'processing'
 				}
 			};
-			questionData = { ...questionData };
 			emitQuestionUpdated(questionData);
 			confirmingTag = false;
 			notifications.info('AI tagging started. You will get a toast when it finishes.', 3500);
@@ -406,7 +422,7 @@
 							type="button"
 							class="question-detail-modal__toggle"
 							class:question-detail-modal__toggle--warning={questionData.flagged}
-							on:click={() => (questionData.flagged = !questionData.flagged)}
+							onclick={() => (questionData.flagged = !questionData.flagged)}
 						>
 							<span>Flagged</span>
 							<span>{questionData.flagged ? 'On' : 'Off'}</span>
@@ -415,7 +431,7 @@
 							type="button"
 							class="question-detail-modal__toggle"
 							class:question-detail-modal__toggle--danger={questionData.removed}
-							on:click={() => (questionData.removed = !questionData.removed)}
+							onclick={() => (questionData.removed = !questionData.removed)}
 						>
 							<span>Removed</span>
 							<span>{questionData.removed ? 'On' : 'Off'}</span>
@@ -428,14 +444,14 @@
 						>Selected tags ({selectedTags.length}/{MAX_TAGS})</span
 					>
 					<div class="question-detail-modal__chip-list">
-						{#each selectedTags as tag}
+						{#each selectedTags as tag (tag.tag_id)}
 							<span class="question-detail-modal__chip question-detail-modal__chip--selected">
 								{tag.tag_name}
 								<button
 									type="button"
 									class="question-detail-modal__chip-remove"
 									aria-label={`Remove ${tag.tag_name}`}
-									on:click={() => removeTag(tag)}
+									onclick={() => removeTag(tag)}
 								>
 									<XmarkIcon height="0.65rem" fill="currentColor" />
 								</button>
@@ -449,11 +465,11 @@
 				<div class="question-detail-modal__section">
 					<span class="question-detail-modal__label">Add tags</span>
 					<div class="question-detail-modal__tag-picker">
-						{#each availableTags as tag}
+						{#each availableTags as tag (tag.tag_id)}
 							<button
 								type="button"
 								class="question-detail-modal__tag-action"
-								on:click={() => addTag(tag)}
+								onclick={() => addTag(tag)}
 							>
 								+ {tag.tag_name}
 							</button>
@@ -477,7 +493,7 @@
 				<button
 					type="button"
 					class="question-detail-modal__button question-detail-modal__button--secondary"
-					on:click={cancelEditing}
+					onclick={cancelEditing}
 				>
 					Cancel
 				</button>
@@ -485,7 +501,7 @@
 					type="button"
 					class="question-detail-modal__button question-detail-modal__button--primary"
 					disabled={questionEditsSaving}
-					on:click={saveQuestionEdits}
+					onclick={saveQuestionEdits}
 				>
 					{questionEditsSaving ? 'Saving...' : 'Save Changes'}
 				</button>
@@ -516,7 +532,7 @@
 				<div class="question-detail-modal__section">
 					<span class="question-detail-modal__label">Keywords</span>
 					<div class="question-detail-modal__chip-list">
-						{#each questionData.keywords || [] as keyword}
+						{#each keywords as keyword (keyword)}
 							<span class="question-detail-modal__chip question-detail-modal__chip--keyword"
 								>{keyword}</span
 							>
@@ -529,7 +545,7 @@
 				<div class="question-detail-modal__section">
 					<span class="question-detail-modal__label">Question tags</span>
 					<div class="question-detail-modal__chip-list">
-						{#each selectedTags as tag}
+						{#each selectedTags as tag (tag.tag_id)}
 							<span class="question-detail-modal__chip">{tag.tag_name}</span>
 						{:else}
 							<span class="question-detail-modal__empty"
@@ -614,7 +630,7 @@
 								type="button"
 								class="question-detail-modal__button question-detail-modal__button--primary question-detail-modal__button--small"
 								disabled={taggingLoading || backgroundTagging}
-								on:click={tagQuestion}
+								onclick={tagQuestion}
 							>
 								{taggingLoading ? 'Starting...' : backgroundTagging ? 'Running...' : 'Confirm'}
 							</button>
@@ -622,7 +638,7 @@
 								type="button"
 								class="question-detail-modal__button question-detail-modal__button--secondary question-detail-modal__button--small"
 								disabled={taggingLoading || backgroundTagging}
-								on:click={() => (confirmingTag = false)}
+								onclick={() => (confirmingTag = false)}
 							>
 								Cancel
 							</button>
@@ -633,7 +649,7 @@
 						type="button"
 						class="question-detail-modal__button question-detail-modal__button--outline"
 						disabled={backgroundTagging}
-						on:click={() => (confirmingTag = true)}
+						onclick={() => (confirmingTag = true)}
 					>
 						{backgroundTagging ? 'AI Tagging...' : 'AI Tag'}
 					</button>
@@ -644,7 +660,7 @@
 				<button
 					type="button"
 					class="question-detail-modal__button question-detail-modal__button--secondary"
-					on:click={startEditing}
+					onclick={startEditing}
 				>
 					Edit Question
 				</button>

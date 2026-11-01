@@ -2,20 +2,20 @@
 <script lang="ts">
 	import { afterNavigate } from '$app/navigation';
 	import { resolve } from '$app/paths';
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
 	import MobileNav from './MobileNavNew.svelte';
 	import { NAV_OFFER } from '$lib/utils/navOffer';
 	import HeaderSearch from './HeaderSearch.svelte';
 	import ThemeToggle from '$lib/components/atoms/ThemeToggle.svelte';
 	import { Button } from '$lib/components/atoms';
-	import { getAuthShellUser } from '$lib/authShell';
+	import { getAuthShell } from '$lib/authShell.svelte';
 	import { useNotificationCount } from '$lib/notificationCount.svelte';
-	import { onClickOutside } from '$lib/components/molecules/Context.svelte';
+	import { clickOutside } from '$lib/attachments/clickOutside';
 	// Phase 3 (2026-05-04): inline SVGs migrated to @lucide/svelte per design-system.md
 	// rollout-plan Phase 3. Stroke widths normalized to Lucide defaults (1.5).
 	import { CircleUserRound, ChevronDown, Bell } from '@lucide/svelte';
 
-	const authUser = getAuthShellUser();
+	const authShell = getAuthShell();
 	const notificationCount = useNotificationCount();
 
 	// Unread notification badge.
@@ -28,7 +28,7 @@
 	let unreadCount = $derived(notificationCount.unread);
 
 	$effect(() => {
-		if (!$authUser) {
+		if (!authShell.user) {
 			notificationCount.setUnread(0);
 			return;
 		}
@@ -125,8 +125,8 @@
 			(item) =>
 				item.href !== '/questions' &&
 				(item.href === '/'
-					? $page.url.pathname === item.href
-					: $page.url.pathname.startsWith(item.href))
+					? page.url.pathname === item.href
+					: page.url.pathname.startsWith(item.href))
 		)
 	);
 
@@ -158,7 +158,7 @@
 
 	function handleLibraryFocusOut(event: FocusEvent) {
 		// relatedTarget is null when focus leaves the document or lands on a
-		// non-focusable click target; mouse dismissal is handled by onClickOutside.
+		// non-focusable click target; mouse dismissal is handled by clickOutside.
 		const next = event.relatedTarget;
 		if (next instanceof Node && !libraryControl?.contains(next)) {
 			closeLibrary();
@@ -166,7 +166,7 @@
 	}
 
 	function isActive(href: string): boolean {
-		return href === '/' ? $page.url.pathname === '/' : $page.url.pathname.startsWith(href);
+		return href === '/' ? page.url.pathname === '/' : page.url.pathname.startsWith(href);
 	}
 </script>
 
@@ -186,7 +186,7 @@
 
 			<div class="header-actions mobile-actions">
 				<ThemeToggle />
-				{#if $authUser}
+				{#if authShell.user}
 					<a
 						href={resolve('/account#notifications')}
 						class="account-button notification-button"
@@ -208,7 +208,7 @@
 					>
 						<CircleUserRound size={24} strokeWidth={1.5} class="account-icon" />
 					</a>
-				{:else if !($page.url.pathname === '/login' || $page.url.pathname === '/register')}
+				{:else if !(page.url.pathname === '/login' || page.url.pathname === '/register')}
 					<a href={resolve('/login')} class="mobile-login" aria-label="Log in or sign up">
 						Log in<span class="mobile-signup-suffix">&nbsp;/ Sign up</span>
 					</a>
@@ -245,7 +245,7 @@
 			<div
 				class="library-control"
 				bind:this={libraryControl}
-				use:onClickOutside={closeLibrary}
+				{@attach clickOutside(closeLibrary)}
 				onfocusout={handleLibraryFocusOut}
 			>
 				<button
@@ -289,7 +289,7 @@
 
 		<div class="header-actions">
 			<ThemeToggle />
-			{#if $authUser}
+			{#if authShell.user}
 				<a
 					href={resolve('/account#notifications')}
 					class="account-button notification-button"
@@ -311,11 +311,11 @@
 				>
 					<CircleUserRound class="account-icon" size={24} strokeWidth={1.5} />
 				</a>
-			{:else if !($page.url.pathname === '/login' || $page.url.pathname === '/register')}
+			{:else if !(page.url.pathname === '/login' || page.url.pathname === '/register')}
 				<!-- Homepage keeps one solid amber action (Reveal); login matches the mobile tint there. -->
 				<Button
 					href={resolve('/login')}
-					variant={$page.url.pathname === '/' ? 'ghost' : 'primary'}
+					variant={page.url.pathname === '/' ? 'ghost' : 'primary'}
 					class="desktop-auth">Log in / Sign up</Button
 				>
 			{/if}

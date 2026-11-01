@@ -6,15 +6,19 @@
 	import { supabase } from '$lib/supabase';
 	import { notifications } from '$lib/components/molecules/notifications';
 
-	export let user: any = null;
+	interface Props {
+		user?: { external_id?: string | null } | null;
+	}
+
+	let { user = null }: Props = $props();
 
 	let messaging: RealtimeMessaging;
 	let userChannel: any;
 	let globalChannel: any;
 
 	// Store received messages
-	let recentMessages: Message[] = [];
-	let showNotifications = false;
+	let recentMessages = $state.raw<Message[]>([]);
+	let showNotifications = $state(false);
 
 	onMount(() => {
 		if (browser && user) {
@@ -39,7 +43,7 @@
 		});
 
 		// Listen for direct messages to this user
-		const userChannelName = `user-${user.external_id}`;
+		const userChannelName = `user-${user?.external_id}`;
 		userChannel = messaging.subscribeToChannel(userChannelName, (message) => {
 			if (message.type === 'server' || message.type === 'user') {
 				handleAdminMessage(message, 'Direct Message');
@@ -98,7 +102,7 @@
 		<button
 			class="notification-bell"
 			class:has-messages={recentMessages.length > 0}
-			on:click={toggleNotifications}
+			onclick={toggleNotifications}
 			title="Admin Messages"
 			aria-label="View admin messages"
 		>
@@ -129,19 +133,19 @@
 						type="button"
 						class="close-btn"
 						aria-label="Close admin messages"
-						on:click={() => (showNotifications = false)}>×</button
+						onclick={() => (showNotifications = false)}>×</button
 					>
 				</div>
 
 				<div class="notification-content">
 					{#if recentMessages.length === 0}
 						<p class="no-messages">No messages from admin</p>
-						<button class="permission-btn" on:click={requestNotificationPermission}>
+						<button class="permission-btn" onclick={requestNotificationPermission}>
 							Enable Browser Notifications
 						</button>
 					{:else}
 						<div class="messages-list">
-							{#each recentMessages as message}
+							{#each recentMessages as message (message.id)}
 								<div class="message-item">
 									<div class="message-header">
 										<span class="message-type">
@@ -155,8 +159,8 @@
 						</div>
 
 						<div class="notification-actions">
-							<button class="clear-btn" on:click={() => (recentMessages = [])}> Clear All </button>
-							<button class="permission-btn" on:click={requestNotificationPermission}>
+							<button class="clear-btn" onclick={() => (recentMessages = [])}> Clear All </button>
+							<button class="permission-btn" onclick={requestNotificationPermission}>
 								Enable Browser Notifications
 							</button>
 						</div>

@@ -102,7 +102,7 @@
 					<div class="corner corner--br" aria-hidden="true"></div>
 					{#if specimenAttributes.length}
 						<ul class="specimen-attributes" aria-label="Specimen attributes">
-							{#each specimenAttributes as attr, i}
+							{#each specimenAttributes as attr, i (attr)}
 								<li class="mono specimen-attr" style="--i: {i}">{attr}</li>
 							{/each}
 						</ul>
@@ -145,7 +145,7 @@
 
 				{#if stats.length}
 					<div class="stats">
-						{#each stats as stat}
+						{#each stats as stat (stat.label)}
 							<div class="stat-row">
 								<span class="mono stat-label">{stat.label}</span>
 								<div class="stat-track" aria-hidden="true">

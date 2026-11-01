@@ -1,19 +1,20 @@
 <!-- src/lib/components/questionPrintOut/StyleControls.svelte -->
 <script lang="ts">
-	import { createEventDispatcher } from 'svelte';
-
 	type PrintableStyle = {
 		color: string;
 		fontFamily: string;
 		fontSize: string;
 	};
 
-	export let style: PrintableStyle;
+	interface Props {
+		style: PrintableStyle;
+		onupdate?: (change: Partial<PrintableStyle>) => void;
+	}
 
-	const dispatch = createEventDispatcher();
+	let { style, onupdate }: Props = $props();
 
 	function updateStyle(property: keyof PrintableStyle, value: string) {
-		dispatch('update', { [property]: value });
+		onupdate?.({ [property]: value });
 	}
 
 	function getInputValue(event: Event) {
@@ -27,13 +28,13 @@
 		<input
 			type="color"
 			value={style.color}
-			on:input={(e) => updateStyle('color', getInputValue(e))}
+			oninput={(e) => updateStyle('color', getInputValue(e))}
 		/>
 	</label>
 
 	<label>
 		Font Family:
-		<select value={style.fontFamily} on:change={(e) => updateStyle('fontFamily', getInputValue(e))}>
+		<select value={style.fontFamily} onchange={(e) => updateStyle('fontFamily', getInputValue(e))}>
 			<option value="Noticia Text, serif">Noticia Text</option>
 		</select>
 	</label>
@@ -45,7 +46,7 @@
 			value={parseInt(style.fontSize)}
 			min="8"
 			max="32"
-			on:input={(e) => updateStyle('fontSize', `${getInputValue(e)}px`)}
+			oninput={(e) => updateStyle('fontSize', `${getInputValue(e)}px`)}
 		/>
 	</label>
 </div>

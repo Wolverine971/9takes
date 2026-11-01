@@ -1,6 +1,6 @@
 <!-- src/lib/components/molecules/Comment.svelte -->
 <script lang="ts">
-	import { createEventDispatcher, getContext, onMount } from 'svelte';
+	import { onMount } from 'svelte';
 	import { deserialize } from '$app/forms';
 	import { resolve } from '$app/paths';
 	import { ChevronRight, EllipsisVertical, MessageCircle, ThumbsUp } from '@lucide/svelte';
@@ -20,6 +20,10 @@
 	import Comments from '$lib/components/molecules/Comments.svelte';
 	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
 	import Popover from '$lib/components/atoms/Popover.svelte';
+	import {
+		getCommentViewObserver,
+		type CommentViewObserver
+	} from '$lib/components/questions/commentViewContext';
 	import type {
 		User,
 		Comment as CommentType,
@@ -27,57 +31,82 @@
 		QuestionPageData
 	} from '$lib/types/questions';
 
-	const dispatch = createEventDispatcher<{
-		commentAdded: CommentType;
-		commentUpdated: CommentType;
-	}>();
+	interface Props {
+		user: User | null;
+		comment: CommentType;
+		parentData: QuestionPageData | CommentType;
+		questionId: number;
+		// Deep links (?reply=<id>) need the thread open on first paint: show
+		// pre-loaded replies immediately, otherwise run the same load the toggle does.
+		autoExpandReplies?: boolean;
+		/** Defaults to the question page's view observer (set by QuestionContent). */
+		observeTake?: CommentViewObserver;
+		/** A reply to this take was posted (payload: the created reply). */
+		oncommentAdded?: (reply: CommentType) => void;
+		/** This take changed locally (like, edit, replies); payload is the updated take. */
+		oncommentUpdated?: (comment: CommentType) => void;
+	}
 
-	export let user: User | null;
-	export let comment: CommentType;
-	export let parentData: QuestionPageData | CommentType;
-	export let questionId: number;
-	// Deep links (?reply=<id>) need the thread open on first paint: show
-	// pre-loaded replies immediately, otherwise run the same load the toggle does.
-	export let autoExpandReplies = false;
-	export let observeTake: ((node: Element, take: CommentType) => void | (() => void)) | undefined =
-		getContext('9takes:comment-view-observer');
+	// Read during initialisation: context is unavailable once the prop default is
+	// first read from the attachment below.
+	const contextObserveTake = getCommentViewObserver();
+
+	let {
+		user,
+		comment,
+		parentData,
+		questionId,
+		autoExpandReplies = false,
+		observeTake = contextObserveTake,
+		oncommentAdded,
+		oncommentUpdated
+	}: Props = $props();
 
 	// State variables
-	let likes: CommentLike[] = [];
-	let loadingComments = false;
-	let loading = false;
+	let loadingComments = $state(false);
+	let loading = $state(false);
 
 	// Cached visitor id for replies
 	let cachedFingerprint: string | null = null;
 
-	let newcomment = '';
+	let newcomment = $state('');
 	let replyStartedTracked = false;
-	let replyError = '';
-	let commenting = false;
+	let replyError = $state('');
+	let commenting = $state(false);
 	let anonymousComment = false;
-	let commentEdit = '';
-	let flaggingReasonDescription = '';
-	let flaggingReasonId = '';
-	let isExpanded = false;
-	let flagError = '';
-	let showReplies = false;
-	let reduceMotion = false;
+	let flaggingReasonDescription = $state('');
+	let flaggingReasonId = $state('');
+	let isExpanded = $state(false);
+	let flagError = $state('');
+	let showReplies = $state(false);
+	let reduceMotion = $state(false);
 
 	// Constants
 	const COMMENT_TRUNCATE_LENGTH = 136;
 
-	// Create a deep copy of the comment to avoid mutation issues
-	let _commentComment: CommentType = structuredClone(comment);
-	$: _commentComment = structuredClone(comment);
+	// The card's own editable copy of the take: likes, edits and replies apply
+	// here first and are reported up through oncommentUpdated. A new `comment`
+	// from the parent replaces the copy.
+	let _commentComment = $derived.by(() => {
+		const copy = $state($state.snapshot(comment) as CommentType);
+		return copy;
+	});
+
+	function snapshotTake(): CommentType {
+		return $state.snapshot(_commentComment) as CommentType;
+	}
 
 	// Reactive variables
-	$: questionPageData =
-		parentData && 'flags' in parentData ? (parentData as QuestionPageData) : null;
-	$: flagReasons = questionPageData?.flagReasons ?? [];
+	let questionPageData = $derived(
+		parentData && 'flags' in parentData ? (parentData as QuestionPageData) : null
+	);
+	let flagReasons = $derived(questionPageData?.flagReasons ?? []);
 
-	$: lastDate = _commentComment.comments?.length
-		? _commentComment.comments[_commentComment.comments.length - 1]?.created_at || null
-		: null;
+	let lastDate = $derived(
+		_commentComment.comments?.length
+			? _commentComment.comments[_commentComment.comments.length - 1]?.created_at || null
+			: null
+	);
 
 	function formatCommentDate(timestamp: string) {
 		return new Date(timestamp).toLocaleDateString('en-US', {
@@ -87,42 +116,41 @@
 		});
 	}
 
-	$: createdAtLabel = formatCommentDate(_commentComment.created_at);
-	$: modifiedAtLabel = _commentComment.modified_at
-		? formatCommentDate(_commentComment.modified_at)
-		: null;
+	let createdAtLabel = $derived(formatCommentDate(_commentComment.created_at));
+	let modifiedAtLabel = $derived(
+		_commentComment.modified_at ? formatCommentDate(_commentComment.modified_at) : null
+	);
 
-	// Update local state when comment changes
-	$: likes = _commentComment.comment_like || [];
-	$: isLiked = likes.some((like) => like.user_id === user?.id);
-	$: commentEdit = _commentComment.comment;
+	let likes: CommentLike[] = $derived(_commentComment.comment_like || []);
+	let isLiked = $derived(likes.some((like) => like.user_id === user?.id));
+	// Edit-modal draft: follows the saved text until the reader types.
+	let commentEdit = $derived(_commentComment.comment);
 
 	// Check if comment needs to be truncated (either exceeds length limit or contains newlines)
-	$: shouldTruncate =
+	let shouldTruncate = $derived(
 		(_commentComment.comment?.length ?? 0) > COMMENT_TRUNCATE_LENGTH ||
-		_commentComment.comment?.includes('\n');
+			_commentComment.comment?.includes('\n')
+	);
 
 	// The character count is only a first-paint guess: on a phone a much
 	// shorter take still wraps past the three-line clamp. Once mounted, the
 	// measured overflow decides, so clipped text always gets "Read more".
-	let measuredOverflow: boolean | null = null;
-	let clampNode: HTMLElement | null = null;
-	function measureClamp() {
-		if (clampNode) measuredOverflow = clampNode.scrollHeight - clampNode.clientHeight > 2;
-	}
+	let measuredOverflow: boolean | null = $state(null);
 	function observeClamp(node: HTMLElement) {
 		if (typeof ResizeObserver === 'undefined') return;
-		clampNode = node;
+		const measureClamp = () => {
+			measuredOverflow = node.scrollHeight - node.clientHeight > 2;
+		};
 		const observer = new ResizeObserver(measureClamp);
 		observer.observe(node);
-		measureClamp();
-		return () => {
-			observer.disconnect();
-			clampNode = null;
-		};
+		// An edit changes the text without resizing the clamped box: re-measure.
+		$effect(() => {
+			void _commentComment.comment;
+			measureClamp();
+		});
+		return () => observer.disconnect();
 	}
-	$: (_commentComment.comment, measureClamp());
-	$: showReadMore = !isExpanded && (measuredOverflow ?? shouldTruncate);
+	let showReadMore = $derived(!isExpanded && (measuredOverflow ?? shouldTruncate));
 
 	// Handle comment expansion
 	function toggleExpandText() {
@@ -176,9 +204,8 @@
 
 			_commentComment.comments = [..._commentComment.comments, ...newComments];
 
-			// Update the parent comment data to keep in sync
-			comment.comments = _commentComment.comments;
-			comment.comment_count = _commentComment.comment_count;
+			// Keep the parent's copy in sync
+			oncommentUpdated?.(snapshotTake());
 
 			// Show replies after loading
 			showReplies = true;
@@ -220,8 +247,7 @@
 			return;
 		}
 
-		const isLiked = likes.some((e) => e.user_id === user.id);
-		const operation = isLiked ? 'remove' : 'add';
+		const operation = likes.some((e) => e.user_id === user.id) ? 'remove' : 'add';
 
 		try {
 			const body = new FormData();
@@ -240,15 +266,14 @@
 
 			notifications.success(operation === 'add' ? 'Like Added' : 'Like Removed', 3000);
 
-			if (operation === 'add' && result?.data) {
-				likes = [result.data, ...likes];
-			} else {
-				likes = likes.filter((c) => c.user_id !== user.id);
-			}
+			const nextLikes: CommentLike[] =
+				operation === 'add' && result?.data
+					? [result.data, ...likes]
+					: likes.filter((c) => c.user_id !== user.id);
 
-			_commentComment.comment_like = likes;
-			_commentComment.like_count = likes.length;
-			dispatch('commentUpdated', _commentComment);
+			_commentComment.comment_like = nextLikes;
+			_commentComment.like_count = nextLikes.length;
+			oncommentUpdated?.(snapshotTake());
 		} catch (error) {
 			console.error('Error liking comment:', error);
 			notifications.danger('Error processing like', 3000);
@@ -340,8 +365,8 @@
 				);
 			}
 
-			dispatch('commentAdded', result?.data);
-			dispatch('commentUpdated', _commentComment);
+			oncommentAdded?.(result?.data);
+			oncommentUpdated?.(snapshotTake());
 			newcomment = '';
 			replyStartedTracked = false;
 			commenting = false;
@@ -427,7 +452,7 @@
 				notifications.success('Comment Updated', 3000);
 				_commentComment.comment = commentEdit;
 				_commentComment.modified_at = new Date().toISOString();
-				dispatch('commentUpdated', _commentComment);
+				oncommentUpdated?.(snapshotTake());
 				getModal(`edit-modal-${_commentComment.id}`).close();
 			} else {
 				throw new Error(result.error || 'Failed to update comment');
@@ -523,7 +548,7 @@
 					<button
 						type="button"
 						class="mt-xs inline-flex min-h-11 items-center rounded-md text-sm font-medium text-[var(--ink-mid)] underline-offset-4 transition-colors duration-200 hover:text-[var(--ink-bright)] hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--lamp-glow)]"
-						on:click={toggleExpandText}
+						onclick={toggleExpandText}
 					>
 						Read more
 					</button>
@@ -575,7 +600,7 @@
 						class="comment-action flex min-h-11 items-center gap-sm rounded-md px-md text-sm font-medium transition-colors duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--lamp-glow)] {isLiked
 							? 'text-[var(--lamp-glow)] hover:bg-[var(--stone-mid)]'
 							: 'text-[var(--ink-dim)] hover:bg-[var(--stone-mid)] hover:text-[var(--ink-bright)]'}"
-						on:click={toggleLike}
+						onclick={toggleLike}
 					>
 						<ThumbsUp size={16} strokeWidth={1.75} aria-hidden="true" />
 						<span>Like</span>
@@ -592,7 +617,7 @@
 						aria-label={commenting ? 'Hide reply form' : 'Reply to this comment'}
 						aria-expanded={commenting}
 						class="comment-action flex min-h-11 items-center gap-sm rounded-md px-md text-sm font-medium text-[var(--ink-mid)] transition-colors duration-200 hover:bg-[var(--stone-mid)] hover:text-[var(--ink-bright)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--lamp-glow)]"
-						on:click={() => (commenting = !commenting)}
+						onclick={() => (commenting = !commenting)}
 					>
 						<MessageCircle size={16} strokeWidth={1.75} aria-hidden="true" />
 						<span>Reply</span>
@@ -600,16 +625,16 @@
 
 					<div class="comment-overflow">
 						<Popover position="bottom-right" label="Comment options">
-							<svelte:fragment slot="icon">
+							{#snippet icon()}
 								<span
 									class="flex h-11 w-11 items-center justify-center rounded-md text-[var(--ink-dim)] transition-colors duration-200 hover:bg-[var(--stone-mid)] hover:text-[var(--ink-bright)]"
 									title="Comment options"
 								>
 									<EllipsisVertical size={16} strokeWidth={1.75} aria-hidden="true" />
 								</span>
-							</svelte:fragment>
+							{/snippet}
 
-							<svelte:fragment slot="popoverValue">
+							{#snippet popoverValue()}
 								<div class="flex flex-col">
 									<div
 										class="mb-sm border-b border-[var(--stone-edge)] px-md pb-sm pt-xs"
@@ -644,7 +669,7 @@
 											<button
 												type="button"
 												class="w-full rounded-md px-3 py-2 text-left text-sm text-[var(--ink-mid)] transition-colors duration-200 hover:bg-[var(--lamp-soft)] hover:text-[var(--ink-bright)]"
-												on:click={() => getModal(`edit-modal-${_commentComment.id}`).open()}
+												onclick={() => getModal(`edit-modal-${_commentComment.id}`).open()}
 											>
 												Edit Comment
 											</button>
@@ -653,13 +678,13 @@
 										<button
 											type="button"
 											class="w-full rounded-md px-3 py-2 text-left text-sm text-[var(--error-text)] transition-colors duration-200 hover:bg-error-500/20"
-											on:click={openFlagModal}
+											onclick={openFlagModal}
 										>
 											Flag Comment
 										</button>
 									</div>
 								</div>
-							</svelte:fragment>
+							{/snippet}
 						</Popover>
 					</div>
 				</div>
@@ -684,7 +709,7 @@
 						placeholder="Share your perspective — what's your experience with this? The more detail, the better the conversation."
 						class="w-full resize-y rounded-md border border-[var(--stone-edge)] bg-[var(--stone-warm)] p-3 text-base text-[var(--ink-bright)] placeholder-[var(--ink-dim)] focus:border-[var(--lamp-glow)] focus:outline-none focus:ring-2 focus:ring-[var(--lamp-soft)]"
 						bind:value={newcomment}
-						on:input={handleReplyInput}
+						oninput={handleReplyInput}
 						rows="3"
 						aria-invalid={replyError ? 'true' : 'false'}
 						aria-describedby={replyError ? `reply-error-${_commentComment.id}` : undefined}
@@ -703,7 +728,7 @@
 					<button
 						class="rounded-md border border-[var(--stone-edge)] bg-transparent px-3 py-1.5 text-sm font-medium text-[var(--ink-mid)] transition-colors duration-200 hover:bg-[var(--stone-mid)] hover:text-[var(--ink-bright)] active:scale-[0.98]"
 						type="button"
-						on:click={() => {
+						onclick={() => {
 							commenting = false;
 							newcomment = '';
 							replyStartedTracked = false;
@@ -715,7 +740,7 @@
 					<button
 						class="flex items-center justify-center gap-2 rounded-md bg-[var(--lamp-glow)] px-3 py-1.5 text-sm font-semibold text-[var(--night-deep)] transition-colors duration-200 hover:bg-[var(--lamp-light)] active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-40"
 						type="button"
-						on:click={createReply}
+						onclick={createReply}
 						disabled={loading || !newcomment?.trim()}
 					>
 						{#if loading}
@@ -737,7 +762,7 @@
 				<button
 					type="button"
 					class="reply-toggle group/toggle focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--lamp-glow)]"
-					on:click={toggleReplies}
+					onclick={toggleReplies}
 					disabled={loadingComments}
 					aria-expanded={showReplies}
 					aria-label={showReplies ? 'Hide replies' : 'Show replies'}
@@ -751,7 +776,7 @@
 							<ChevronRight
 								size={16}
 								strokeWidth={1.75}
-								class="reply-chevron group-hover/toggle:text-[var(--ink-bright)] text-[var(--ink-dim)] transition-transform duration-200 {showReplies
+								class="reply-chevron text-[var(--ink-dim)] transition-transform duration-200 group-hover/toggle:text-[var(--ink-bright)] {showReplies
 									? 'rotate-90'
 									: ''}"
 							/>
@@ -760,7 +785,7 @@
 
 					<!-- Reply count -->
 					<span
-						class="group-hover/toggle:text-[var(--ink-bright)] text-sm font-medium text-[var(--ink-mid)] transition-colors duration-200"
+						class="text-sm font-medium text-[var(--ink-mid)] transition-colors duration-200 group-hover/toggle:text-[var(--ink-bright)]"
 					>
 						{_commentComment.comment_count}
 						{_commentComment.comment_count === 1 ? 'reply' : 'replies'}
@@ -785,7 +810,7 @@
 							{user}
 							onCommentsUpdate={(updatedComments) => {
 								_commentComment.comments = updatedComments;
-								comment.comments = updatedComments;
+								oncommentUpdated?.(snapshotTake());
 							}}
 						/>
 					</div>
@@ -820,14 +845,14 @@
 			<button
 				class="w-full cursor-pointer rounded-md border border-[var(--stone-edge)] bg-transparent px-6 py-3 text-base font-medium text-[var(--ink-mid)] transition-colors duration-200 hover:bg-[var(--stone-mid)] hover:text-[var(--ink-bright)] sm:w-auto"
 				type="button"
-				on:click={() => getModal(`edit-modal-${_commentComment?.id}`).close()}
+				onclick={() => getModal(`edit-modal-${_commentComment?.id}`).close()}
 			>
 				Cancel
 			</button>
 			<button
 				class="flex w-full cursor-pointer items-center justify-center gap-2 rounded-md border-none bg-[var(--lamp-glow)] px-6 py-3 text-base font-semibold text-[var(--night-deep)] transition-colors duration-200 hover:bg-[var(--lamp-light)] active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50 sm:w-auto"
 				type="button"
-				on:click={saveEdit}
+				onclick={saveEdit}
 				disabled={loading || !commentEdit.trim()}
 			>
 				{#if loading}
@@ -861,7 +886,13 @@
 			</p>
 		</div>
 
-		<form on:submit|preventDefault={submitFlag} novalidate>
+		<form
+			onsubmit={(event) => {
+				event.preventDefault();
+				submitFlag();
+			}}
+			novalidate
+		>
 			<fieldset disabled={loading} class="m-0 border-0 p-0">
 				{#if flagError}
 					<div
@@ -966,7 +997,7 @@
 				<button
 					class="w-full cursor-pointer rounded-md border border-[var(--stone-edge)] bg-transparent px-6 py-3 text-base font-medium text-[var(--ink-mid)] transition-colors duration-200 hover:bg-[var(--stone-mid)] hover:text-[var(--ink-bright)] sm:w-auto"
 					type="button"
-					on:click={closeFlagModal}
+					onclick={closeFlagModal}
 				>
 					Cancel
 				</button>

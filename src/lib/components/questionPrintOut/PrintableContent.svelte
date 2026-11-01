@@ -13,13 +13,6 @@
 		question_formatted?: string;
 	};
 
-	export let style: PrintableStyle;
-	export let images: string[] = [];
-	export let imagePositions: ImagePosition[] | Readable<ImagePosition[]> = [];
-	export let question: PrintableQuestion | null = null;
-	export let question2: PrintableQuestion | null = null;
-	export let question3: PrintableQuestion | null = null;
-
 	function isReadablePositions(
 		value: ImagePosition[] | Readable<ImagePosition[]>
 	): value is Readable<ImagePosition[]> {
@@ -30,17 +23,37 @@
 	import Rubix from '../icons/rubix.svelte';
 	import Scribble from '../atoms/scribble.svelte';
 	import QuestionDisplay from '../questions/QuestionDisplay.svelte';
+	interface Props {
+		style: PrintableStyle;
+		images?: string[];
+		imagePositions?: ImagePosition[] | Readable<ImagePosition[]>;
+		question?: PrintableQuestion | null;
+		question2?: PrintableQuestion | null;
+		question3?: PrintableQuestion | null;
+	}
 
-	let positions: ImagePosition[];
-	$: positions = Array.isArray(imagePositions)
-		? imagePositions
-		: isReadablePositions(imagePositions)
-			? get(imagePositions)
-			: [];
+	let {
+		style,
+		images = [],
+		imagePositions = [],
+		question = null,
+		question2 = null,
+		question3 = null
+	}: Props = $props();
+
+	let positions: ImagePosition[] = $derived(
+		Array.isArray(imagePositions)
+			? imagePositions
+			: isReadablePositions(imagePositions)
+				? get(imagePositions)
+				: []
+	);
 
 	const cornerSize = 10;
-	const backgroundIndex = positions?.length ? positions.findIndex((pos) => pos?.isBackground) : 0;
-	$: backgroundImage = backgroundIndex >= 0 ? images[backgroundIndex] : null;
+	let backgroundIndex = $derived(
+		positions?.length ? positions.findIndex((pos) => pos?.isBackground) : 0
+	);
+	let backgroundImage = $derived(backgroundIndex >= 0 ? images[backgroundIndex] : null);
 </script>
 
 <div
@@ -58,7 +71,7 @@
 				style={backgroundImage && `background-image: url(${backgroundImage})`}
 			></div>
 			{#if images && images.length > 0}
-				{#each images as image, i}
+				{#each images as image, i (`${i}-${image}`)}
 					{@const position = positions[i]}
 					{#if position && !position.isBackground}
 						<img
@@ -72,8 +85,8 @@
 			{/if}
 
 			<span class="brand">
-				<Rubix height={50} width={50} svgStyle={'margin: 1rem'} />
-				<Scribble text={'9takes'} />
+				<Rubix height={50} width={50} svgStyle="margin: 1rem" />
+				<Scribble text="9takes" />
 			</span>
 			{#if question}
 				<QuestionDisplay {question} addQuestionMark={true} />
@@ -86,7 +99,7 @@
 
 			<div class="content" style="">
 				{#if images && images.length > 0}
-					{#each images as image, i}
+					{#each images as image, i (`${i}-${image}`)}
 						{@const position = positions[i]}
 						{#if position && !position.isBackground}
 							<img
@@ -100,8 +113,8 @@
 				{/if}
 
 				<span class="brand">
-					<Rubix height={50} width={50} svgStyle={'margin: 1rem'} />
-					<Scribble text={'9takes'} />
+					<Rubix height={50} width={50} svgStyle="margin: 1rem" />
+					<Scribble text="9takes" />
 				</span>
 				<QuestionDisplay question={question2} addQuestionMark={true} />
 			</div>
@@ -113,7 +126,7 @@
 
 			<div class="content" style="">
 				{#if images && images.length > 0}
-					{#each images as image, i}
+					{#each images as image, i (`${i}-${image}`)}
 						{@const position = positions[i]}
 						{#if position && !position.isBackground}
 							<img
@@ -127,8 +140,8 @@
 				{/if}
 
 				<span class="brand">
-					<Rubix height={50} width={50} svgStyle={'margin: 1rem'} />
-					<Scribble text={'9takes'} />
+					<Rubix height={50} width={50} svgStyle="margin: 1rem" />
+					<Scribble text="9takes" />
 				</span>
 				<QuestionDisplay question={question3} addQuestionMark={true} />
 			</div>

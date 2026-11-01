@@ -46,34 +46,38 @@
 		created_at: string | null;
 	};
 
-	/** @type {import('./$types').PageData} */
-	export let data: any;
+	let { data }: { data: any } = $props();
 
 	const shareImage = 'https://9takes.com/questions-default.webp';
-	let childCategories: BrowseCategoryNode[] = [];
-	$: childCategories = (data?.childCategories ?? []) as BrowseCategoryNode[];
-	$: parents = (data?.parents ?? []) as ParentCategory[];
-	$: directCount = Number(data?.currentCategory?.directQuestionCount ?? 0);
-	$: subtreeCount = Number(data?.currentCategory?.subtreeQuestionCount ?? 0);
-	$: nestedCount = Math.max(subtreeCount - directCount, 0);
-	$: categoryName = data?.questionTag?.category_name || '';
-	$: categoryIntroHtml = data?.categoryIntroHtml || '';
-	$: categorySlug = data?.questionTag?.slug || buildQuestionCategorySlug(categoryName);
-	$: questions = (data?.questionCategories ?? []) as QuestionRow[];
-	$: hasIntro = Boolean(categoryIntroHtml);
-	$: hasBranches = childCategories.length > 0;
-	$: robotsContent = `${data?.isIndexable === true ? 'index' : 'noindex'}, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1`;
-	$: pageTitle = categoryName
-		? `9takes Question Categories | ${categoryName}`
-		: '9takes Question Categories';
-	$: pageDescription = categoryName
-		? data?.categoryIntroDescription ||
-			`Browse ${categoryName} questions. User generated questions with comments sorted by personality type.`
-		: 'Browse questions organized by category. User generated questions with comments sorted by personality type.';
-	$: canonicalUrl = categorySlug
-		? `https://9takes.com/questions/categories/${categorySlug}`
-		: 'https://9takes.com/questions/categories';
-	$: breadcrumbItems = [
+	let childCategories = $derived((data?.childCategories ?? []) as BrowseCategoryNode[]);
+	let parents = $derived((data?.parents ?? []) as ParentCategory[]);
+	let directCount = $derived(Number(data?.currentCategory?.directQuestionCount ?? 0));
+	let subtreeCount = $derived(Number(data?.currentCategory?.subtreeQuestionCount ?? 0));
+	let nestedCount = $derived(Math.max(subtreeCount - directCount, 0));
+	let categoryName = $derived(data?.questionTag?.category_name || '');
+	let categoryIntroHtml = $derived(data?.categoryIntroHtml || '');
+	let categorySlug = $derived(data?.questionTag?.slug || buildQuestionCategorySlug(categoryName));
+	let questions = $derived((data?.questionCategories ?? []) as QuestionRow[]);
+	let hasIntro = $derived(Boolean(categoryIntroHtml));
+	let hasBranches = $derived(childCategories.length > 0);
+	let robotsContent = $derived(
+		`${data?.isIndexable === true ? 'index' : 'noindex'}, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1`
+	);
+	let pageTitle = $derived(
+		categoryName ? `9takes Question Categories | ${categoryName}` : '9takes Question Categories'
+	);
+	let pageDescription = $derived(
+		categoryName
+			? data?.categoryIntroDescription ||
+					`Browse ${categoryName} questions. User generated questions with comments sorted by personality type.`
+			: 'Browse questions organized by category. User generated questions with comments sorted by personality type.'
+	);
+	let canonicalUrl = $derived(
+		categorySlug
+			? `https://9takes.com/questions/categories/${categorySlug}`
+			: 'https://9takes.com/questions/categories'
+	);
+	let breadcrumbItems = $derived([
 		{ name: 'Home', url: 'https://9takes.com' },
 		{ name: 'Questions', url: 'https://9takes.com/questions' },
 		{ name: 'Categories', url: 'https://9takes.com/questions/categories' },
@@ -81,7 +85,7 @@
 			name: parent.category_name,
 			url: `https://9takes.com${buildQuestionCategoryPath(parent.slug || parent.category_name)}`
 		}))
-	] satisfies BreadcrumbItem[];
+	] satisfies BreadcrumbItem[]);
 
 	function relativeTime(iso: string | null | undefined): string {
 		if (!iso) return 'POSTED RECENTLY';
@@ -187,9 +191,9 @@
 			<div class="hero-search">
 				<SearchQuestion
 					{data}
-					on:questionSelected={({ detail }) => {
-						if (detail?.url) {
-							void goto(`/questions/${detail.url}`);
+					onquestionSelected={(url) => {
+						if (url) {
+							void goto(`/questions/${url}`);
 						}
 					}}
 				/>

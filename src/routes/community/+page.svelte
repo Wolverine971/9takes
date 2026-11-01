@@ -106,6 +106,7 @@
 			...data.featured.map((p) => p.slug),
 			...data.recentlyUpdated.map((p) => p.slug)
 		]);
+		// eslint-disable-next-line svelte/prefer-svelte-reactivity -- temporary grouping map inside a derived, never mutated afterwards
 		const map = new Map<string, typeof data.posts>();
 		for (const post of data.posts) {
 			if (excluded.has(post.slug)) continue;
@@ -279,7 +280,7 @@
 			<p class="section-sub">Three angles on what we&rsquo;re thinking. Pick your entry point.</p>
 		</header>
 
-		{#each topics as topic, ti}
+		{#each topics as topic, ti (topic.id)}
 			{@const topicPosts = blogsByType.get(topic.type) ?? []}
 			{#if topicPosts.length > 0}
 				<div class="topic-block" id={topic.id}>

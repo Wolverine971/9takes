@@ -80,9 +80,9 @@
 <div class="interaction-div-display">
 	{#snippet submitIcon()}
 		<RightIcon
-			iconStyle={'margin-left: .5rem; padding: 0 0.25rem;'}
-			height={'1.5rem'}
-			fill={'var(--lamp-glow)'}
+			iconStyle="margin-left: .5rem; padding: 0 0.25rem;"
+			height="1.5rem"
+			fill="var(--lamp-glow)"
 		/>
 	{/snippet}
 	<Button

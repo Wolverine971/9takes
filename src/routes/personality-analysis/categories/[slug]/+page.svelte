@@ -393,7 +393,7 @@
 				{/if}
 
 				<div class="tag-row">
-					{#each data.category.rawTypes as rawType}
+					{#each data.category.rawTypes as rawType (rawType)}
 						<span class="tag-chip">{formatPersonalityRawType(rawType)}</span>
 					{/each}
 				</div>
@@ -404,10 +404,10 @@
 				<h2>Where this category clusters</h2>
 				{#if data.distribution.length > 0}
 					<div class="distribution-grid">
-						{#each data.distribution as bucket}
+						{#each data.distribution as bucket (bucket.enneagram)}
 							<a href={typeUrl(bucket.enneagram)} class="distribution-pill">
 								<span>{typeLabel(bucket.enneagram, bucket.count)}</span>
-								<ArrowRightIcon iconStyle={''} height={'0.9rem'} fill={'currentColor'} />
+								<ArrowRightIcon iconStyle="" height="0.9rem" fill="currentColor" />
 							</a>
 						{/each}
 					</div>
@@ -428,7 +428,7 @@
 				</div>
 
 				<div class="cluster-nav-grid">
-					{#each data.groups as group}
+					{#each data.groups as group (group.slug)}
 						<a href={`#${group.slug}`} class="cluster-link">
 							<span>{group.label}</span>
 							<strong>{group.people.length}</strong>
@@ -501,7 +501,7 @@
 			{#if data.people.length > 0}
 				{#if data.groups.length > 0}
 					<div class="group-stack">
-						{#each data.groups as group}
+						{#each data.groups as group (group.slug)}
 							<section class="group-card" id={group.slug}>
 								<div class="group-head">
 									<div>
@@ -614,7 +614,7 @@
 				</div>
 
 				<div class="related-grid">
-					{#each data.relatedCategories as category}
+					{#each data.relatedCategories as category (category.slug)}
 						<a
 							href="/personality-analysis/categories/{category.slug}"
 							class="related-card"

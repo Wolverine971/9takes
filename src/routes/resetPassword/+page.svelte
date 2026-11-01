@@ -15,7 +15,6 @@
 	let password = $state('');
 	let confirmPassword = $state('');
 	let loading = $state(false);
-	let showSuccessMessage = $state(false);
 
 	const ogImage = 'https://9takes.com/greek_pantheon.png';
 
@@ -41,15 +40,16 @@
 		confirmPassword && !passwordsMatch ? 'Passwords do not match.' : undefined
 	);
 
-	// Handle redirecting to login after successful password reset
+	let resetSucceeded = $derived(!!form?.success);
+
+	// Redirect to login 3 seconds after a successful reset (timer + navigation;
+	// also covers a no-JS POST whose success arrives with the page).
 	$effect(() => {
-		if (form?.success && !showSuccessMessage) {
-			showSuccessMessage = true;
-			// Redirect to login after 3 seconds
-			setTimeout(() => {
-				goto('/login');
-			}, 3000);
-		}
+		if (!resetSucceeded) return;
+		const timer = setTimeout(() => {
+			goto('/login');
+		}, 3000);
+		return () => clearTimeout(timer);
 	});
 </script>
 
@@ -70,7 +70,7 @@
 <div class="auth-container">
 	<h1 class="auth-title">Reset Password</h1>
 
-	{#if form?.success || showSuccessMessage}
+	{#if resetSucceeded}
 		<div class="success-message" role="status" aria-live="polite">
 			<p>{form?.message || 'Password has been reset successfully!'}</p>
 			<p>Redirecting to login page...</p>

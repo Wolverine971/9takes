@@ -63,6 +63,7 @@
 	let doorsEl = $state<HTMLElement | null>(null);
 	let cardEl = $state<HTMLElement | null>(null);
 	let formLoadTime = 0;
+	// eslint-disable-next-line svelte/prefer-svelte-reactivity -- once-per-door analytics dedupe, never rendered
 	const reportedDoors = new Set<string>();
 
 	const formState = $derived((form ?? {}) as TalkFormState);

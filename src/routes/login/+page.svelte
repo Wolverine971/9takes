@@ -8,7 +8,7 @@
 <script lang="ts">
 	import { applyAction, enhance } from '$app/forms';
 	import { browser } from '$app/environment';
-	import { onMount, tick } from 'svelte';
+	import { onMount, tick, untrack } from 'svelte';
 	import { fade, fly } from 'svelte/transition';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import { invalidateAll } from '$app/navigation';
@@ -29,7 +29,9 @@
 	let email = $state('');
 	let password = $state('');
 	let formError = $state('');
-	let captchaRequired = $state(data.captchaRequired ?? false);
+	// Sticky for this visit: once the server asks for a captcha it stays shown,
+	// so this seeds from the first load only.
+	let captchaRequired = $state(untrack(() => data.captchaRequired ?? false));
 	let recaptchaTheme = $state<'light' | 'dark'>('dark');
 	let captchaContainer = $state<HTMLDivElement | null>(null);
 	let captchaWidgetId: number | null = null;

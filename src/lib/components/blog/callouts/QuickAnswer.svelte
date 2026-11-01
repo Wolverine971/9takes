@@ -6,26 +6,29 @@
   public props and the schema.org Question/Answer markup are unchanged.
 -->
 <script lang="ts">
+	import type { Snippet } from 'svelte';
 	import Callout from './Callout.svelte';
 
-	/**
-	 * Optional explicit question to display
-	 * If not provided, the slot content should include the question
-	 */
-	export let question: string = '';
+	interface Props {
+		/**
+		 * Optional explicit question to display
+		 * If not provided, the body content should include the question
+		 */
+		question?: string;
+		/**
+		 * Visual style variant
+		 * - 'default': brand amber accent
+		 * - 'subtle': neutral ink accent
+		 */
+		variant?: 'default' | 'subtle';
+		/**
+		 * Body content: an HTML string when dynamically mounted from Supabase
+		 * content, or the markdown/default content snippet otherwise.
+		 */
+		children?: Snippet | string;
+	}
 
-	/**
-	 * Visual style variant
-	 * - 'default': brand amber accent
-	 * - 'subtle': neutral ink accent
-	 */
-	export let variant: 'default' | 'subtle' = 'default';
-
-	/**
-	 * Optional children content (used when dynamically mounted from Supabase content)
-	 * Falls back to slot content when not provided
-	 */
-	export let children: string | ((...args: unknown[]) => unknown) = '';
+	let { question = '', variant = 'default', children = '' }: Props = $props();
 </script>
 
 <Callout
@@ -43,8 +46,8 @@
 		<div itemprop="text">
 			{#if typeof children === 'string' && children.trim() !== ''}
 				{@html children}
-			{:else}
-				<slot />
+			{:else if typeof children === 'function'}
+				{@render children()}
 			{/if}
 		</div>
 	</div>

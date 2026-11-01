@@ -1,0 +1,36 @@
+I finished the fan review for the Chris Pratt run and wrote `review-fan.json` to the run folder. It passes the review schema check, its two content hashes match the request, and every quoted passage matches the draft exactly. I didn't change or publish anything else.
+
+I read GQ 2015, Vanity Fair 2017, Men's Health 2022 and Wikipedia myself. The Playlist blocked my download, so for that interview and the podcasts I used the excerpts saved in the evidence record. Most quotes are accurate and in context. The problem is that the cuts and one misreport all lean toward Type 7, which matters because this run retypes a page that was published as a Three.
+
+**Major findings (5); each must be fixed, or rejected with a reason, before the draft can be released:**
+1. **Road rage, misreported.** The draft says his anger "lasted one clause." In GQ it was a long, profane fury that he called acting "research." Only a later answer reversed it, and the GQ writer read the story as anger "bubbling away" under the charm. The draft uses this twice as evidence against Type 8.
+2. **Action-hero quote cut short.** Vanity Fair's sentence goes on: "but did not think he could pull it off." The draft also leaves out that he first turned down *Guardians* ("I did not want to go in and embarrass myself") until his agent pushed him. That contradicts the draft's claim that "he moves first."
+3. **The Type 3 case misses its best-known line.** The draft leaves out his remark to his wrestling coach, "I know I'll be famous and I know I'll make a shit ton of money." It also skips his father "living off" high-school stardom ("I guess that's what I planned to do") and the employee-of-the-year plaque he worked for in Maui.
+4. **"Not the lead singer" doesn't match his career.** Since 2014 he has taken lead roles and produced *The Terminal List* through his own company. GQ also has him as "the guy holding the purse" whom "people just looked right through." He said the jazz-soloist line while talking about a return to comedy.
+5. **Family background left out.** The draft never mentions his father's 20-year illness with multiple sclerosis or the family losing their house. Both are in sources the draft already cites, so a father who has died appears only as "mean."
+
+**Minor findings (3):**
+- The draft argues Nines "go quiet and withdraw," but leaves out his own account that he went silent for long periods when yelled at as a child.
+- The faith section skips his 2022 "maybe it was hubris" about the MTV speech, and his 2019 public reply to Elliot Page.
+- A few type-explainer sentences repeat almost word for word from the Florence Pugh and Dominic Fike pages. The arguments themselves aren't reused.
+
+I marked five passages to keep, including the GQ "image I was casting" exchange (checked against the original) and the closing line, "The funny guy didn't have to be hurt." The Type 7 reading may still win, but only once the draft deals with this material.
+I wrote the fan review to `review-fan.json` in the Chris Pratt run folder. It passes the contract's review schema, both hashes match the request, and every quoted passage matches the draft exactly. The draft and evidence files are unchanged, and nothing was published.
+
+I checked the sources myself: saved copies of Vanity Fair 2017, GQ 2015, Men's Health 2022, The Playlist 2026, the *Not Dead Yet* transcript and the podcast captions, plus fresh copies of the live Vanity Fair and GQ pages. Most quotes are accurate. The problem is that the errors and gaps all point the same way, toward Type 7, which matters on a page being retyped from 3.
+
+**Major findings (6); each must be fixed, or rejected with a reason, before release:**
+1. **Road rage is misreported.** The draft says his anger "lasted one clause." In GQ he stayed furious for twenty minutes and stoked it on purpose as acting "research." He only reversed the story when asked again. The draft uses this twice, once as evidence against Type 8.
+2. **The action-hero quote is cut short.** Vanity Fair's sentence goes on: "but did not think he could pull it off." He also first passed on *Guardians* ("I did not want to go in and embarrass myself") until his agent pushed him. That contradicts the draft's claim that "he moves first."
+3. **The Type 3 case misses its best evidence.** It leaves out his famous line to his wrestling coach: "I know I'll be famous and I know I'll make a shit ton of money." It also leaves out his own 2022 description of the dumb-guy act as "absolutely a tactic to lower people's expectations of me."
+4. **"Not the lead singer" doesn't fit his career.** He has been a top-billed lead since 2014 and produces *The Terminal List* through his own company. In the same interview he described fighting the studio as a producer. The draft also cites a GQ grudge quote as Type 8 evidence while dropping its context: he was "the guy holding the purse" whom "people just looked right through."
+5. **His father's MS and the lost family home are missing.** All three cited sources cover them. The "total dreamers" quote stops right before "My dad gets this disease and the bank takes our house away."
+6. **His public responses on faith are missing.** The draft never gives his 2019 reply to Elliot Page, so it reads as if he stayed silent. It also leaves out his 2022 "Maybe it was hubris" about the MTV speech, which contrasts with his 2026 "I didn't backtrack."
+
+**Minor findings (2):**
+- The GQ childhood quote skips his line that he would "stay silent for a long period of time" when yelled at. That bears on the draft's claim that Nines go quiet and withdraw.
+- The *Terminal List* character is misspelled "Reese"; it should be "Reece."
+
+I marked five passages to keep, including GQ's "image I was casting" exchange and the paragraph that states the article's limits. The similarity check flagged nothing worth reporting: most matches were this page's own earlier version, and the Florence Pugh and Dominic Fike matches are stock phrases. Fixes need to add as few words as possible, since the body is about 3,830 words against a 3,500 target.
+
+**Process note:** when I first opened the run folder, I saw the summaries an earlier fan review and the subject review left for this run. I didn't open any other review's output. Two of my findings overlap with theirs (road rage and the 2019 statement), and I confirmed both directly in the sources.

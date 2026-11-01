@@ -14,7 +14,7 @@
 		};
 	}
 
-	let place: GeocoderPlace | null = null;
+	let place = $state<GeocoderPlace | null>(null);
 	// export let points: any[] = [];
 
 	interface LinkDrops {
@@ -70,26 +70,37 @@
 		short_name: string;
 	}
 
-	export let linkDrops: LinkDrops[] | undefined = [];
-	// 40.911552736237624, -73.9934208
-	let center: [number, number] = [-73.9934208, 40.91155273];
-	let zoom = 11.15;
-	let mapComponent: any;
-	let innerWidth = 0;
-
-	$: linkDrops && updateCenter();
-
-	function updateCenter() {
-		const address = linkDrops?.[0]?.addresses;
-		if (address?.latitude != null && address.longitude != null) {
-			center = [address.longitude, address.latitude];
-		}
+	interface Props {
+		linkDrops?: LinkDrops[];
 	}
 
-	function placeChanged(e: Event) {
-		const { result } = (e as CustomEvent<{ result: GeocoderPlace }>).detail;
+	let { linkDrops = [] }: Props = $props();
+
+	// Method syntax keeps the parameter check bivariant, so the Map instance (bind:this) fits.
+	interface MapHandle {
+		setCenter(coords: unknown, data?: unknown): void;
+		flyTo(destination: unknown, data?: Record<string, unknown>): void;
+	}
+
+	const defaultCenter: [number, number] = [-73.9934208, 40.91155273];
+
+	// 40.911552736237624, -73.9934208
+	// Follows the first drop's address; map `recentre` events override it until linkDrops changes.
+	let center = $derived.by((): [number, number] => {
+		const address = linkDrops?.[0]?.addresses;
+		if (address?.latitude != null && address.longitude != null) {
+			return [address.longitude, address.latitude];
+		}
+		return defaultCenter;
+	});
+	let zoom = $state(11.15);
+	let mapComponent = $state<MapHandle>();
+	let innerWidth = $state(0);
+
+	function placeChanged(detail: unknown) {
+		const { result } = detail as { result: GeocoderPlace };
 		place = result;
-		mapComponent.setCenter(result.center, 14);
+		mapComponent?.setCenter(result.center, 14);
 	}
 
 	function randomLng() {
@@ -101,7 +112,7 @@
 	}
 
 	function flyToRandomPlace() {
-		mapComponent.flyTo({
+		mapComponent?.flyTo({
 			center: [randomLng(), randomLat()],
 			essential: true
 		});
@@ -116,12 +127,11 @@
 		return [Number(centerValue.lng ?? center[0]), Number(centerValue.lat ?? center[1])];
 	}
 
-	function recentre(e: Event) {
-		const detail = (e as CustomEvent<{ center: unknown }>).detail;
+	function recentre(detail: { center: unknown }) {
 		center = toCenterTuple(detail.center);
 	}
 
-	function drag(_event: Event) {
+	function drag(_detail: { center: unknown }) {
 		// marker = detail.center;
 	}
 </script>
@@ -135,8 +145,8 @@
 				<Geocoder
 					value=""
 					accessToken={PUBLIC_MAPBOX_TOKEN}
-					on:result={placeChanged}
-					on:clear={() => mapComponent.setCenter({ lng: 0, lat: 0 })}
+					onresult={placeChanged}
+					onclear={() => mapComponent?.setCenter({ lng: 0, lat: 0 })}
 				/>
 				<!-- [26.46488727752, 46.425649305]; -->
 				{#if place}
@@ -154,15 +164,15 @@
 				<Map
 					bind:this={mapComponent}
 					accessToken={PUBLIC_MAPBOX_TOKEN}
-					on:recentre={recentre}
-					on:drag={drag}
+					onrecentre={recentre}
+					ondrag={drag}
 					{center}
 					bind:zoom
 				>
 					<NavigationControl />
-					<GeolocateControl on:geolocate={(e) => console.log('geolocated', e.detail)} />
+					<GeolocateControl ongeolocate={(detail) => console.log('geolocated', detail)} />
 					{#if linkDrops?.length}
-						{#each linkDrops as point}
+						{#each linkDrops as point (point.id)}
 							{#if point.addresses?.latitude != null && point.addresses.longitude != null && point.questions}
 								<Marker
 									popupHtml={`

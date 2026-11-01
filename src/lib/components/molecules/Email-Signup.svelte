@@ -7,28 +7,37 @@
 
 	type SignupResponse = { ok: boolean; code?: string; message?: string };
 
-	export let cta: string = 'Get 9takes updates in your inbox';
-	export let description: string =
-		'New personality guides, community questions, and ideas worth stealing.';
-	export let embedded: boolean = false;
-	export let inputId: string = 'email-signup-address';
+	interface Props {
+		cta?: string;
+		description?: string;
+		embedded?: boolean;
+		inputId?: string;
+	}
 
-	let email: string = '';
-	let error: string = '';
-	let status: string = '';
-	let loading: boolean = false;
-	let formExtra = '';
+	let {
+		cta = 'Get 9takes updates in your inbox',
+		description = 'New personality guides, community questions, and ideas worth stealing.',
+		embedded = false,
+		inputId = 'email-signup-address'
+	}: Props = $props();
+
+	let email = $state('');
+	let error = $state('');
+	let status = $state('');
+	let loading = $state(false);
+	let formExtra = $state('');
 	let formLoadTime = Date.now();
-	const helpId = `${inputId}-help`;
-	const errorId = `${inputId}-error`;
-	const statusId = `${inputId}-status`;
-	const honeypotId = `${inputId}-extra`;
+	let helpId = $derived(`${inputId}-help`);
+	let errorId = $derived(`${inputId}-error`);
+	let statusId = $derived(`${inputId}-status`);
+	let honeypotId = $derived(`${inputId}-extra`);
 
 	onMount(() => {
 		formLoadTime = Date.now();
 	});
 
-	const submit = async () => {
+	const submit = async (event: SubmitEvent) => {
+		event.preventDefault();
 		if (loading) return;
 
 		const normalizedEmail = email.trim().toLowerCase();
@@ -84,7 +93,7 @@
 
 	<form
 		class="waitlist-form"
-		on:submit|preventDefault={submit}
+		onsubmit={submit}
 		aria-label="Subscribe by email"
 		aria-busy={loading}
 		novalidate
@@ -107,7 +116,7 @@
 				id={inputId}
 				name="email"
 				bind:value={email}
-				on:input={() => {
+				oninput={() => {
 					error = '';
 					status = '';
 				}}

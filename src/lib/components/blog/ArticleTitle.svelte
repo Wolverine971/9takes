@@ -1,13 +1,17 @@
 <!-- src/lib/components/blog/ArticleTitle.svelte -->
 <script lang="ts">
-	export let slug = '';
-	export let title: string;
-	export let structuredData = false;
-	export let headingTag: 'h1' | 'h2' = 'h1';
-	const cleanedTitle = title.toLowerCase().replace(/[^a-zA-Z0-9]/g, '');
-	const id = cleanedTitle;
+	interface Props {
+		slug?: string;
+		title: string;
+		structuredData?: boolean;
+		headingTag?: 'h1' | 'h2';
+	}
 
-	const href = slug ? `/blog/${slug}` : '#' + id;
+	let { slug = '', title, structuredData = false, headingTag = 'h1' }: Props = $props();
+	const cleanedTitle = $derived(title.toLowerCase().replace(/[^a-zA-Z0-9]/g, ''));
+	const id = $derived(cleanedTitle);
+
+	const href = $derived(slug ? `/blog/${slug}` : '#' + id);
 </script>
 
 {#if slug}

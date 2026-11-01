@@ -149,7 +149,7 @@
 
 			<div class="hook-right">
 				<ul class="hook-lines">
-					{#each hookLines as line}
+					{#each hookLines as line (line)}
 						<li class="hook-line">
 							<span class="arrow" aria-hidden="true">→</span>
 							<span class="line-body">{line}</span>
@@ -204,7 +204,7 @@
 					<p class="mono dossier-core">CORE FEAR: Being controlled · CORE DESIRE: Self-mastery</p>
 
 					<div class="stats">
-						{#each stats as stat}
+						{#each stats as stat (stat.label)}
 							<div class="stat-row">
 								<span class="mono stat-label">{stat.label}</span>
 								<div class="stat-track" aria-hidden="true">
@@ -249,7 +249,7 @@
 		</header>
 
 		<ol class="steps">
-			{#each steps as step}
+			{#each steps as step (step.num)}
 				<li class="step-card">
 					<div class="step-num-row">
 						<span class="mono step-num">STEP {step.num}</span>

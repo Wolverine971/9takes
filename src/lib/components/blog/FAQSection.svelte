@@ -3,9 +3,19 @@
 <script lang="ts">
 	import type { FAQItem } from '$lib/types/faq';
 
-	export let faqs: FAQItem[];
-	export let title: string = 'Frequently Asked Questions';
-	export let sectionId: string = 'faq';
+	interface Props {
+		faqs: FAQItem[];
+		title?: string;
+		sectionId?: string;
+	}
+
+	let { faqs, title = 'Frequently Asked Questions', sectionId = 'faq' }: Props = $props();
+
+	// One entry per question: personality pages pass FAQs from the database, and a
+	// repeated question would break the keyed list.
+	const uniqueFaqs = $derived(
+		faqs.filter((faq, i) => faqs.findIndex((other) => other.question === faq.question) === i)
+	);
 </script>
 
 <section class="faq-section" id={sectionId}>
@@ -19,7 +29,7 @@
 	</div>
 
 	<div class="faq-list">
-		{#each faqs as faq}
+		{#each uniqueFaqs as faq (faq.question)}
 			<details class="faq-item" id={faq.anchor || undefined}>
 				<summary class="faq-question">
 					<span class="question-text">{faq.question}</span>

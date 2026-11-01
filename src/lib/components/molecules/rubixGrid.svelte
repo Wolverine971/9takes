@@ -10,9 +10,12 @@
 
 	type Person = { name: string; link: boolean; hasImage: boolean };
 
-	export let peopleList: Person[];
+	interface Props {
+		peopleList: Person[];
+		type: number;
+	}
 
-	export let type: number;
+	let { peopleList, type }: Props = $props();
 
 	// Efficient shuffling algorithm (Fisher-Yates (aka Knuth) Shuffle)
 	function shuffleArray(array: Person[]): Person[] {
@@ -29,7 +32,7 @@
 
 		return array;
 	}
-	let firstGroup: Person[] = [];
+	let firstGroup = $state.raw<Person[]>([]);
 	let secondGroup: Person[] = [];
 	let thirdGroup: Person[] = [];
 	let fourthGroup: Person[] = [];

@@ -8,8 +8,9 @@
 	import type { PageData } from './$types';
 
 	let { data }: { data: PageData } = $props();
-	const session = data.session;
-	const sessionNotes = data.sessionNotes;
+	// Derived so invalidateAll() after start/complete/add-note shows the updated session.
+	let session = $derived(data.session);
+	let sessionNotes = $derived(data.sessionNotes);
 
 	// Note form state
 	let noteContent = $state('');
@@ -266,7 +267,7 @@
 					</div>
 
 					<div class="previous-sessions">
-						{#each data.previousSessions as prevSession}
+						{#each data.previousSessions as prevSession (prevSession.id)}
 							<div class="prev-session-item">
 								<div class="prev-session-header">
 									<span class="prev-session-date">{formatDateTime(prevSession.scheduled_at)}</span>
@@ -285,7 +286,7 @@
 								{/if}
 								{#if prevSession.notes?.length}
 									<div class="prev-session-notes">
-										{#each prevSession.notes.slice(0, 2) as note}
+										{#each prevSession.notes.slice(0, 2) as note (note.id)}
 											<div class="mini-note">
 												<span class="mini-note-type">{note.note_type}</span>
 												<span class="mini-note-content">{note.content.slice(0, 100)}...</span>
@@ -323,7 +324,7 @@
 					}}
 				>
 					<div class="note-type-selector">
-						{#each noteTypes as type}
+						{#each noteTypes as type (type.value)}
 							<label class="note-type-option" class:selected={noteType === type.value}>
 								<input type="radio" name="noteType" value={type.value} bind:group={noteType} />
 								<span class="note-type-icon">{type.icon}</span>
@@ -354,7 +355,7 @@
 				<!-- Existing Notes -->
 				{#if sessionNotes.length > 0}
 					<div class="notes-list">
-						{#each sessionNotes as note}
+						{#each sessionNotes as note (note.id)}
 							<div class="note-item note-{note.note_type}">
 								<div class="note-header">
 									<span class="note-type-badge">{note.note_type?.replace('_', ' ')}</span>
@@ -397,7 +398,7 @@
 					<div class="type-patterns">
 						<h4>Key Patterns to Watch</h4>
 						<ul>
-							{#each data.typeInfo.keyPatterns as pattern}
+							{#each data.typeInfo.keyPatterns as pattern (pattern)}
 								<li>{pattern}</li>
 							{/each}
 						</ul>
@@ -407,7 +408,7 @@
 						<div class="arrow-item stress">
 							<span class="arrow-label">Under Stress → Type {data.typeInfo.stressArrow.type}</span>
 							<ul>
-								{#each data.typeInfo.stressArrow.behaviors as behavior}
+								{#each data.typeInfo.stressArrow.behaviors as behavior (behavior)}
 									<li>{behavior}</li>
 								{/each}
 							</ul>
@@ -415,7 +416,7 @@
 						<div class="arrow-item security">
 							<span class="arrow-label">In Security → Type {data.typeInfo.securityArrow.type}</span>
 							<ul>
-								{#each data.typeInfo.securityArrow.behaviors as behavior}
+								{#each data.typeInfo.securityArrow.behaviors as behavior (behavior)}
 									<li>{behavior}</li>
 								{/each}
 							</ul>
@@ -425,7 +426,7 @@
 					<div class="coaching-tips">
 						<h4>Coaching Tips</h4>
 						<ul>
-							{#each data.typeInfo.coachingTips as tip}
+							{#each data.typeInfo.coachingTips as tip (tip)}
 								<li>{tip}</li>
 							{/each}
 						</ul>
@@ -434,7 +435,7 @@
 					<div class="watch-for">
 						<h4>Watch For</h4>
 						<ul>
-							{#each data.typeInfo.watchFor as item}
+							{#each data.typeInfo.watchFor as item (item)}
 								<li>{item}</li>
 							{/each}
 						</ul>
@@ -448,7 +449,7 @@
 					</div>
 
 					<div class="questions-list">
-						{#each data.typeInfo.suggestedQuestions as question}
+						{#each data.typeInfo.suggestedQuestions as question (question)}
 							<button class="question-item" onclick={() => copyQuestion(question)}>
 								<span class="question-text">{question}</span>
 								<span class="copy-hint">Click to copy</span>

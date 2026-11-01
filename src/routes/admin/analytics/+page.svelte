@@ -600,6 +600,8 @@
 	let pageBreakdownRangeLabel = $state(
 		formatDateWindow(initialFilters?.from ?? '', initialFilters?.to ?? '')
 	);
+	// Request caches: read and written only inside fetch handlers, never rendered, so plain Maps.
+	// eslint-disable-next-line svelte/prefer-svelte-reactivity -- non-reactive request cache
 	const pageBreakdownCache = new Map<PageBreakdownWindow, PageBreakdownWindowSnapshot>();
 	let tableFetchRequestId = 0;
 	let pageviewFetchRequestId = 0;
@@ -611,7 +613,6 @@
 	let releaseSelectionRequestId = 0;
 	let releaseEventsRequestId = 0;
 	let blogDiagnosticsFetchRequestId = 0;
-	let seededPageBreakdownCache = false;
 
 	// Pageview sections start loading: onMount seeds them from the streamed server queries.
 	let loading = $state(true);
@@ -637,6 +638,7 @@
 
 	let selectedTrendPath = $state('');
 	let selectedTrendPoints = $state<PageTrendPoint[]>([]);
+	// eslint-disable-next-line svelte/prefer-svelte-reactivity -- non-reactive request cache
 	const trendCache = new Map<string, PageTrendPoint[]>();
 	let timingRows = $state<TimingHeatmapRow[]>([]);
 	let timingLoading = $state(false);
@@ -650,9 +652,11 @@
 	let releaseBandFilter = $state<ReleaseBandFilter>('all');
 	let releaseGrowthPoints = $state<ReleaseGrowthPoint[]>([]);
 	let releaseGrowthLoading = $state(false);
+	// eslint-disable-next-line svelte/prefer-svelte-reactivity -- non-reactive request cache
 	const releaseGrowthCache = new Map<string, ReleaseGrowthPoint[]>();
 	let releaseEventRows = $state<ReleaseEventImpactRow[]>([]);
 	let releaseEventsLoading = $state(false);
+	// eslint-disable-next-line svelte/prefer-svelte-reactivity -- non-reactive request cache
 	const releaseEventsCache = new Map<string, ReleaseEventImpactRow[]>();
 	let releaseEventType = $state('newsletter_sent');
 	let releaseEventSource = $state('');
@@ -757,6 +761,7 @@
 		slots: TimingSlotAnalysis[],
 		kind: 'day' | 'hour'
 	): TimingSummaryGroup[] {
+		// eslint-disable-next-line svelte/prefer-svelte-reactivity -- temporary lookup built and consumed inside this function, never held in state
 		const groups = new Map<string, Omit<TimingSummaryGroup, 'z_score'>>();
 
 		for (const slot of slots) {
@@ -1089,7 +1094,6 @@
 
 	function clearPageBreakdownCache(): void {
 		pageBreakdownCache.clear();
-		seededPageBreakdownCache = false;
 	}
 
 	function buildTrendData(
@@ -1116,6 +1120,7 @@
 	}
 
 	function buildTopPageTotals(points: TopPagesTimeseriesRow[]): TopPageAggregate[] {
+		// eslint-disable-next-line svelte/prefer-svelte-reactivity -- temporary lookup built and consumed inside this function, never held in state
 		const totals = new Map<string, TopPageAggregate>();
 
 		for (const point of points) {
@@ -1695,17 +1700,9 @@
 	let activeBlogInsightSummary = $derived(getBlogInsightSummary(activeBlogInsightRows));
 	let selectedBlogInsight = $derived(getSelectedBlogInsight(activeBlogInsightRows));
 
-	$effect(() => {
-		const firstPath = topPageTotals[0]?.path ?? '';
-		if (!selectedTrendPath && firstPath) {
-			selectedTrendPath = firstPath;
-		}
-	});
-
-	$effect(() => {
-		if (seededPageBreakdownCache) return;
+	// Seed the window cache with the initial table state once the page is mounted.
+	onMount(() => {
 		cacheCurrentPageBreakdownState();
-		seededPageBreakdownCache = true;
 	});
 
 	let totalPages = $derived(Math.max(1, pagination.totalPages || 1));
@@ -1721,6 +1718,7 @@
 			window?: PageBreakdownWindow;
 		} = {}
 	): URLSearchParams {
+		// eslint-disable-next-line svelte/prefer-svelte-reactivity -- request query built and consumed inside this function, never held in state
 		const params = new URLSearchParams({
 			from: fromDate,
 			to: toDate,
@@ -1740,6 +1738,7 @@
 	}
 
 	function buildReleaseParams(): URLSearchParams {
+		// eslint-disable-next-line svelte/prefer-svelte-reactivity -- request query built and consumed inside this function, never held in state
 		const params = new URLSearchParams();
 		if (releaseFromDate) {
 			params.set('from', releaseFromDate);
@@ -1780,6 +1779,7 @@
 
 	function setReleaseRangePreset(days: number) {
 		const anchor = releaseToDate ? parseDate(releaseToDate) : new Date();
+		// eslint-disable-next-line svelte/prefer-svelte-reactivity -- temporary date used for a calculation inside this function, never held in state
 		const from = new Date(anchor);
 		from.setDate(from.getDate() - (days - 1));
 		releaseFromDate = toDateString(from);
@@ -1899,7 +1899,6 @@
 				rangeTo: pageBreakdownRangeTo,
 				rangeLabel: pageBreakdownRangeLabel
 			});
-			seededPageBreakdownCache = true;
 		} catch (err) {
 			console.error('Analytics pages fetch error:', err);
 			notifications.danger('Failed to load page table', 3000);
@@ -1942,6 +1941,11 @@
 					...(body.windows ?? {})
 				}
 			};
+			// Show a trend right away; fetchPageviewAnalytics() picks the final default when all
+			// sections have landed.
+			if (!selectedTrendPath) {
+				selectedTrendPath = topPageTotals[0]?.path ?? '';
+			}
 		} catch (err) {
 			if (requestId !== insightsFetchRequestId) return;
 			console.error('Analytics top pages fetch error:', err);
@@ -2823,7 +2827,7 @@
 				<label class="field">
 					<span>Scope</span>
 					<select bind:value={scope}>
-						{#each scopeOptions as option}
+						{#each scopeOptions as option (option.value)}
 							<option value={option.value}>{option.label}</option>
 						{/each}
 					</select>
@@ -2944,7 +2948,7 @@
 							<p class="trending-empty">No broad spikes meet the unique visitor threshold.</p>
 						{:else}
 							<div class="trending-list">
-								{#each broadTrendingRows as row}
+								{#each broadTrendingRows as row (`${row.path}|${row.path_group}`)}
 									<button
 										type="button"
 										class="trending-row"
@@ -2977,7 +2981,7 @@
 							<p class="trending-empty">No concentrated repeat spikes right now.</p>
 						{:else}
 							<div class="trending-list">
-								{#each repeatTrendingRows as row}
+								{#each repeatTrendingRows as row (`${row.path}|${row.path_group}`)}
 									<button
 										type="button"
 										class="trending-row repeat"
@@ -3063,7 +3067,7 @@
 			{:else}
 				<div class="top-trend-layout">
 					<div class="path-selector">
-						{#each topPageTotals as row, index}
+						{#each topPageTotals as row, index (row.path)}
 							<button
 								class="path-pill"
 								class:active={selectedTrendPath === row.path}
@@ -3122,7 +3126,7 @@
 					</div>
 				{:else}
 					<ol class="rank-list">
-						{#each weekRankedRows as row}
+						{#each weekRankedRows as row (`${row.path}|${row.path_group}`)}
 							<li>
 								<button
 									type="button"
@@ -3165,7 +3169,7 @@
 					</div>
 				{:else}
 					<ol class="rank-list">
-						{#each monthRankedRows as row}
+						{#each monthRankedRows as row (`${row.path}|${row.path_group}`)}
 							<li>
 								<button
 									type="button"
@@ -3210,7 +3214,7 @@
 					</div>
 				{:else}
 					<ol class="rank-list">
-						{#each durationRankedRows as row}
+						{#each durationRankedRows as row (`${row.path}|${row.path_group}`)}
 							<li>
 								<button
 									type="button"
@@ -3252,7 +3256,7 @@
 				</div>
 				<div class="table-header-controls">
 					<div class="table-window-tabs" role="tablist" aria-label="Page breakdown time windows">
-						{#each pageBreakdownWindowOptions as option}
+						{#each pageBreakdownWindowOptions as option (option.key)}
 							<button
 								type="button"
 								role="tab"
@@ -3281,7 +3285,7 @@
 				<table class="data-table pageview-table">
 					<thead>
 						<tr>
-							{#each tableSortColumns as column}
+							{#each tableSortColumns as column (column.key)}
 								<th class:num={column.numeric} aria-sort={getAriaSort(column.key)}>
 									<button
 										type="button"
@@ -3308,7 +3312,7 @@
 								<td colspan="11" class="empty">No data for this filter set.</td>
 							</tr>
 						{:else}
-							{#each rows as row}
+							{#each rows as row (`${row.path}|${row.path_group}`)}
 								{@const pageHref = getPageHref(row.path)}
 								<tr class:active-row={selectedTrendPath === row.path}>
 									<td class="path" data-label="Path">
@@ -3495,7 +3499,7 @@
 						<section class="timing-panel">
 							<h3>Recommendations</h3>
 							<ol class="timing-recommendations">
-								{#each timingAnalysis.recommendations as recommendation}
+								{#each timingAnalysis.recommendations as recommendation (recommendation)}
 									<li>{recommendation}</li>
 								{/each}
 							</ol>
@@ -3518,7 +3522,7 @@
 								{#if timingAnalysis.high_outliers.length === 0}
 									<p>No slot is +2 SD above the slot average.</p>
 								{:else}
-									{#each timingAnalysis.high_outliers as row}
+									{#each timingAnalysis.high_outliers as row (`${row.local_dow}:${row.local_hour}`)}
 										<div class="timing-outlier-item">
 											<span>{row.label}</span>
 											<strong>{row.visits.toLocaleString()} visits</strong>
@@ -3534,7 +3538,7 @@
 								{#if timingAnalysis.low_outliers.length === 0}
 									<p>No slot is -1 SD below the slot average.</p>
 								{:else}
-									{#each timingAnalysis.low_outliers as row}
+									{#each timingAnalysis.low_outliers as row (`${row.local_dow}:${row.local_hour}`)}
 										<div class="timing-outlier-item low">
 											<span>{row.label}</span>
 											<strong>{row.visits.toLocaleString()} visits</strong>
@@ -3553,16 +3557,16 @@
 							<thead>
 								<tr>
 									<th>Day</th>
-									{#each timingHours as hour}
+									{#each timingHours as hour (hour)}
 										<th>{formatHourLabel(hour)}</th>
 									{/each}
 								</tr>
 							</thead>
 							<tbody>
-								{#each timingDayLabels as dayLabel, dayIndex}
+								{#each timingDayLabels as dayLabel, dayIndex (dayLabel)}
 									<tr>
 										<th>{dayLabel}</th>
-										{#each timingHours as hour}
+										{#each timingHours as hour (hour)}
 											{@const cell = getTimingCell(dayIndex, hour)}
 											<td
 												style={`--heat: ${Math.max(0.08, cell.visits / timingMaxVisits).toFixed(2)}`}
@@ -3578,7 +3582,7 @@
 					</div>
 
 					<div class="timing-top-list">
-						{#each topTimingSlots as row}
+						{#each topTimingSlots as row (`${row.local_dow}:${row.local_hour}`)}
 							<div class="timing-top-item">
 								<span>{getTimingSlotLabel(row)}</span>
 								<strong>{row.visits.toLocaleString()} visits</strong>
@@ -3630,7 +3634,7 @@
 							<input type="date" bind:value={releaseToDate} />
 						</label>
 						<div class="release-range-presets" aria-label="Release range presets">
-							{#each releaseRangePresetOptions as option}
+							{#each releaseRangePresetOptions as option (option.days)}
 								<button
 									type="button"
 									class="range-preset"
@@ -3657,7 +3661,7 @@
 				{:else}
 					<div class="release-command-row">
 						<div class="release-band-filters" role="group" aria-label="Release performance filter">
-							{#each releaseBandFilterOptions as option}
+							{#each releaseBandFilterOptions as option (option.key)}
 								<button
 									type="button"
 									class="summary-filter"
@@ -3679,7 +3683,7 @@
 									onchange={(event) =>
 										updateReleaseSortKey((event.currentTarget as HTMLSelectElement).value)}
 								>
-									{#each releaseSortOptions as option}
+									{#each releaseSortOptions as option (option.key)}
 										<option value={option.key}>{option.label}</option>
 									{/each}
 								</select>
@@ -3699,7 +3703,7 @@
 							{#if overperformingRows.length === 0}
 								<p>No releases above benchmark yet.</p>
 							{:else}
-								{#each overperformingRows as row}
+								{#each overperformingRows as row (row.id)}
 									<button type="button" onclick={() => focusReleaseSignal(row.slug, 'above_norm')}>
 										<span>{row.title || row.slug}</span>
 										<strong>{formatBenchmarkScore(row.overall_score)}</strong>
@@ -3715,7 +3719,7 @@
 							{#if underperformingRows.length === 0}
 								<p>No releases below benchmark yet.</p>
 							{:else}
-								{#each underperformingRows as row}
+								{#each underperformingRows as row (row.id)}
 									<button type="button" onclick={() => focusReleaseSignal(row.slug, 'below_norm')}>
 										<span>{row.title || row.slug}</span>
 										<strong>{formatBenchmarkScore(row.overall_score)}</strong>
@@ -3857,7 +3861,7 @@
 									</div>
 									{#if selectedRelease.performance_notes.length}
 										<ul>
-											{#each selectedRelease.performance_notes as note}
+											{#each selectedRelease.performance_notes as note (note)}
 												<li>{note}</li>
 											{/each}
 										</ul>
@@ -3889,7 +3893,7 @@
 										<label>
 											<span>Event</span>
 											<select bind:value={releaseEventType}>
-												{#each releaseEventTypeOptions as option}
+												{#each releaseEventTypeOptions as option (option.value)}
 													<option value={option.value}>{option.label}</option>
 												{/each}
 											</select>
@@ -3917,7 +3921,7 @@
 										<div class="empty-panel trend-empty">No release events recorded yet.</div>
 									{:else}
 										<div class="release-events-list">
-											{#each releaseEventRows as event}
+											{#each releaseEventRows as event (event.id)}
 												<div class="release-event-item">
 													<div>
 														<strong>{formatReleaseEventType(event.event_type)}</strong>
@@ -3956,7 +3960,7 @@
 							<table class="data-table release-table">
 								<thead>
 									<tr>
-										{#each releaseTableColumns as column}
+										{#each releaseTableColumns as column (column.key)}
 											<th class:num={column.numeric} aria-sort={getReleaseAriaSort(column.key)}>
 												<button
 													type="button"
@@ -3980,7 +3984,7 @@
 											</td>
 										</tr>
 									{:else}
-										{#each releaseVisibleRows as row}
+										{#each releaseVisibleRows as row (row.id)}
 											{@const releaseHref = getPageHref(row.path)}
 											<tr class:active-row={selectedReleaseSlug === row.slug}>
 												<td data-label="Release">
@@ -4107,7 +4111,7 @@
 							<input type="date" bind:value={releaseToDate} />
 						</label>
 						<div class="release-range-presets" aria-label="Release range presets">
-							{#each releaseRangePresetOptions as option}
+							{#each releaseRangePresetOptions as option (option.days)}
 								<button
 									type="button"
 									class="range-preset"
@@ -4169,7 +4173,7 @@
 
 					<div class="blog-insight-layout">
 						<div class="blog-insight-list" aria-label="Blog insight list">
-							{#each activeBlogInsightRows as row}
+							{#each activeBlogInsightRows as row (row.release.id)}
 								<button
 									type="button"
 									class:active={selectedBlogInsight?.release.slug === row.release.slug}
@@ -4411,7 +4415,7 @@
 										<section>
 											<h4>{activeBlogInsightMode === 'over' ? 'Replicate' : 'Fix Next'}</h4>
 											<ul class="diagnostic-note-list">
-												{#each activeBlogInsightMode === 'over' ? diagnostics.replication_notes : diagnostics.action_notes as note}
+												{#each activeBlogInsightMode === 'over' ? diagnostics.replication_notes : diagnostics.action_notes as note (note)}
 													<li>{note}</li>
 												{/each}
 												{#if (activeBlogInsightMode === 'over' ? diagnostics.replication_notes : diagnostics.action_notes).length === 0}
@@ -4443,7 +4447,7 @@
 								</tr>
 							</thead>
 							<tbody>
-								{#each activeBlogInsightRows as row}
+								{#each activeBlogInsightRows as row (row.release.id)}
 									<tr class:active-row={selectedBlogInsight?.release.slug === row.release.slug}>
 										<td data-label="Blog">
 											<button

@@ -3,7 +3,7 @@
 	import { page } from '$app/state';
 	import { afterNavigate } from '$app/navigation';
 	import { onDestroy, tick } from 'svelte';
-	import { getAuthShellUser } from '$lib/authShell';
+	import { getAuthShell } from '$lib/authShell.svelte';
 	import { fly, fade } from 'svelte/transition';
 	import { cubicOut } from 'svelte/easing';
 	import { prefersReducedMotion } from 'svelte/motion';
@@ -15,12 +15,13 @@
 	} from '$lib/utils/focusBoundary';
 	import { lockBodyScroll } from '$lib/utils/scrollLock';
 	import { NAV_OFFER_EXPERIMENT } from '$lib/utils/navOffer';
+	import { portalToBody } from '$lib/attachments/portal';
 
 	type NavItem = { href: string; label: string; badge?: string; track?: string };
 
 	let { navItems = [], libraryItems = [] }: { navItems?: NavItem[]; libraryItems?: NavItem[] } =
 		$props();
-	const authUser = getAuthShellUser();
+	const authShell = getAuthShell();
 
 	// State management. Library starts expanded — it holds the core product
 	// links (Questions, the blog sections) and the drawer has the room.
@@ -31,6 +32,7 @@
 	let menuDialog = $state<HTMLDivElement | null>(null);
 	let menuToggle = $state<HTMLButtonElement | null>(null);
 	let previouslyFocused: HTMLElement | null = null;
+	// eslint-disable-next-line svelte/prefer-svelte-reactivity -- dedupe cache read only inside reportNavEvent; nothing renders from it
 	const reportedNavEvents = new Set<string>();
 
 	/**
@@ -160,21 +162,6 @@
 	function isActive(href: string): boolean {
 		return href === '/' ? page.url.pathname === '/' : page.url.pathname.startsWith(href);
 	}
-
-	/**
-	 * Portal the overlay to <body>. Inside the header it was trapped by two
-	 * containing-block/stacking bugs (2026-06-11 mobile audit): .nav-main's
-	 * backdrop-filter sizes fixed descendants to the header strip, and the
-	 * layout's sticky z-50 context capped the drawer's z-index.
-	 */
-	function portalToBody(node: HTMLElement) {
-		document.body.appendChild(node);
-		return {
-			destroy() {
-				node.remove();
-			}
-		};
-	}
 </script>
 
 <svelte:window onkeydown={handleKeydown} />
@@ -198,10 +185,13 @@
 
 	<!-- Mobile navigation overlay -->
 	{#if isMenuOpen}
-		<!-- svelte-ignore a11y_no_noninteractive_element_interactions -->
+		<!-- Portaled to <body>: inside the header it was trapped by two containing-block/
+		     stacking bugs (2026-06-11 mobile audit): .nav-main's backdrop-filter sizes fixed
+		     descendants to the header strip, and the layout's sticky z-50 context capped
+		     the drawer's z-index. -->
 		<div
 			bind:this={menuDialog}
-			use:portalToBody
+			{@attach portalToBody}
 			class="mobile-nav-overlay"
 			role="dialog"
 			tabindex="-1"
@@ -313,9 +303,9 @@
 					</ul>
 
 					<!-- Footer actions -->
-					{#if $authUser?.admin || !$authUser}
+					{#if authShell.user?.admin || !authShell.user}
 						<div class="nav-actions">
-							{#if $authUser?.admin}
+							{#if authShell.user?.admin}
 								<a
 									href="/admin"
 									class="admin-button"
@@ -327,7 +317,7 @@
 								</a>
 							{/if}
 
-							{#if !$authUser}
+							{#if !authShell.user}
 								<a href="/login" class="login-button" onclick={() => closeMenu(false)}>
 									Log in / Sign up
 								</a>

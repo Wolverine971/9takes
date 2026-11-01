@@ -5,7 +5,7 @@
 	import { goto } from '$app/navigation';
 	import ComboBox from '$lib/components/molecules/ComboBox.svelte';
 	import Context from '$lib/components/molecules/Context.svelte';
-	import { createEventDispatcher, onDestroy } from 'svelte';
+	import { onDestroy } from 'svelte';
 	import type { User } from '$lib/types/questions';
 	import type { ComboBoxOption, ComboBoxSelectableOption } from '$lib/types/combobox';
 
@@ -36,10 +36,11 @@
 	interface Props {
 		data: SearchQuestionData;
 		showAskAction?: boolean;
+		/** Fallback when navigating to a picked suggestion fails; receives its path. */
+		onquestionSelected?: (url: string) => void;
 	}
 
-	const dispatch = createEventDispatcher();
-	let { data, showAskAction = true }: Props = $props();
+	let { data, showAskAction = true, onquestionSelected }: Props = $props();
 
 	let question = $state('');
 	let options = $state<ComboBoxOption[]>([]);
@@ -221,8 +222,7 @@
 				await goto(path);
 			} catch (error) {
 				console.error('Navigation error:', error);
-				// For backward compatibility, wrap in object
-				dispatch('questionSelected', { url: path });
+				onquestionSelected?.(path);
 			}
 		}
 	}

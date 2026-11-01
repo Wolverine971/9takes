@@ -1,6 +1,7 @@
 <!-- src/routes/admin/email-dashboard/+page.svelte -->
 <script lang="ts">
-	import { onDestroy } from 'svelte';
+	import { onDestroy, onMount } from 'svelte';
+	import { SvelteSet } from 'svelte/reactivity';
 	import { page } from '$app/state';
 	import type { PageData } from './$types';
 	import type {
@@ -32,11 +33,11 @@
 
 	// State
 	let activeTab = $state<EmailDashboardTab>(initialTab);
-	let initialTabFetched = $state(false);
-	let users = $state((data.users || []) as EmailRecipient[]);
-	let totalUsers = $state(data.totalUsers || 0);
-	let drafts = $state((data.drafts || []) as unknown as EmailDraft[]);
-	let scheduledEmails = $state((data.scheduledEmails || []) as unknown as ScheduledEmail[]);
+	// Writable deriveds: seeded from load data, overwritten by the client-side refetches below.
+	let users = $derived((data.users || []) as EmailRecipient[]);
+	let totalUsers = $derived(data.totalUsers || 0);
+	let drafts = $derived((data.drafts || []) as unknown as EmailDraft[]);
+	let scheduledEmails = $derived((data.scheduledEmails || []) as unknown as ScheduledEmail[]);
 	const analyticsDefaults: EmailAnalytics = {
 		total_sent: 0,
 		total_opened: 0,
@@ -59,8 +60,8 @@
 		automated_click_events: 0,
 		unknown_click_events: 0
 	};
-	let analytics = $state<EmailAnalytics>({ ...analyticsDefaults, ...data.analytics });
-	let cronStatus = $state(data.cronStatus);
+	let analytics = $derived<EmailAnalytics>({ ...analyticsDefaults, ...data.analytics });
+	let cronStatus = $derived(data.cronStatus);
 	let welcomeSequence = $derived(data.welcomeSequence);
 
 	// Analytics filter state
@@ -70,7 +71,7 @@
 	let analyticsLoading = $state(false);
 
 	// Selection state
-	let selectedUsers = $state(new Set<string>());
+	const selectedUsers = new SvelteSet<string>();
 	let selectAll = $state(false);
 
 	// Search and filter state
@@ -119,7 +120,7 @@
 		{ value: 'coaching_waitlist', label: 'Coaching Waitlist' }
 	];
 	const allRecipientSources: RecipientSource[] = batchSourceOptions.map((option) => option.value);
-	let selectedBatchSources = $state(new Set<RecipientSource>(allRecipientSources));
+	const selectedBatchSources = new SvelteSet<RecipientSource>(allRecipientSources);
 
 	const usersPerPage = 50;
 
@@ -127,6 +128,7 @@
 	async function fetchUsers() {
 		isLoading = true;
 		try {
+			// eslint-disable-next-line svelte/prefer-svelte-reactivity -- request query built and consumed inside this function, never held in state
 			const params = new URLSearchParams({
 				source: sourceFilter,
 				page: currentPage.toString(),
@@ -207,12 +209,14 @@
 	}
 
 	function startOfDay(date: Date): Date {
+		// eslint-disable-next-line svelte/prefer-svelte-reactivity -- temporary date used for a calculation inside this function, never held in state
 		const value = new Date(date);
 		value.setHours(0, 0, 0, 0);
 		return value;
 	}
 
 	function endOfDay(date: Date): Date {
+		// eslint-disable-next-line svelte/prefer-svelte-reactivity -- temporary date used for a calculation inside this function, never held in state
 		const value = new Date(date);
 		value.setHours(23, 59, 59, 999);
 		return value;
@@ -259,6 +263,7 @@
 		}
 
 		const now = new Date();
+		// eslint-disable-next-line svelte/prefer-svelte-reactivity -- temporary date used for a calculation inside this function, never held in state
 		const from = new Date();
 		const days = analyticsRange === '7d' ? 7 : analyticsRange === '30d' ? 30 : 90;
 		from.setDate(now.getDate() - (days - 1));
@@ -272,6 +277,7 @@
 	async function fetchAnalytics() {
 		analyticsLoading = true;
 		try {
+			// eslint-disable-next-line svelte/prefer-svelte-reactivity -- request query built and consumed inside this function, never held in state
 			const params = new URLSearchParams();
 			const { fromDate, toDate } = getAnalyticsRange();
 			if (fromDate) params.set('from_date', fromDate);
@@ -328,6 +334,7 @@
 	async function fetchSentEmails() {
 		sentIsLoading = true;
 		try {
+			// eslint-disable-next-line svelte/prefer-svelte-reactivity -- request query built and consumed inside this function, never held in state
 			const params = new URLSearchParams({
 				page: sentPage.toString(),
 				limit: sentLimit.toString()
@@ -361,6 +368,7 @@
 	async function fetchUnsubscribes() {
 		unsubIsLoading = true;
 		try {
+			// eslint-disable-next-line svelte/prefer-svelte-reactivity -- request query built and consumed inside this function, never held in state
 			const params = new URLSearchParams({
 				page: unsubPage.toString(),
 				limit: unsubLimit.toString()
@@ -384,10 +392,8 @@
 		}
 	}
 
-	$effect(() => {
-		if (initialTabFetched) return;
-		initialTabFetched = true;
-
+	// One-time client fetch for the tab deep-linked via ?tab=.
+	onMount(() => {
 		if (activeTab === 'unsubscribes') void fetchUnsubscribes();
 		if (activeTab === 'sent') void fetchSentEmails();
 		if (activeTab === 'drafts') void fetchDrafts();
@@ -477,7 +483,6 @@
 
 	function resetSelection() {
 		selectedUsers.clear();
-		selectedUsers = selectedUsers;
 		selectAll = false;
 	}
 
@@ -489,7 +494,6 @@
 		} else {
 			selectedUsers.add(key);
 		}
-		selectedUsers = selectedUsers;
 
 		const selectableUsers = users.filter((u) => !u.unsubscribed);
 		selectAll =
@@ -508,7 +512,6 @@
 			selectableUsers.forEach((user) => {
 				selectedUsers.add(`${user.source}-${user.id}`);
 			});
-			selectedUsers = selectedUsers;
 			selectAll = selectableUsers.length > 0;
 		}
 	}
@@ -541,21 +544,19 @@
 	}
 
 	function toggleBatchSource(source: RecipientSource) {
-		const next = new Set(selectedBatchSources);
-		if (next.has(source)) {
-			next.delete(source);
+		if (selectedBatchSources.has(source)) {
+			selectedBatchSources.delete(source);
 		} else {
-			next.add(source);
+			selectedBatchSources.add(source);
 		}
-		selectedBatchSources = next;
 	}
 
 	function selectAllBatchSources() {
-		selectedBatchSources = new Set(allRecipientSources);
+		for (const source of allRecipientSources) selectedBatchSources.add(source);
 	}
 
 	function clearBatchSources() {
-		selectedBatchSources = new Set();
+		selectedBatchSources.clear();
 	}
 
 	async function openComposeWithSourceBatch(sources: RecipientSource[]) {
@@ -977,7 +978,7 @@
 				</div>
 				<div class="batch-compose-body">
 					<div class="batch-source-options">
-						{#each batchSourceOptions as option}
+						{#each batchSourceOptions as option (option.value)}
 							<label class="batch-source-option">
 								<input
 									type="checkbox"
@@ -1105,7 +1106,7 @@
 				<div class="empty-state">No drafts saved</div>
 			{:else}
 				<div class="draft-list">
-					{#each drafts as draft}
+					{#each drafts as draft (draft.id)}
 						<div class="draft-item">
 							<div class="draft-info">
 								<h3>{draft.subject || '(No subject)'}</h3>
@@ -1132,7 +1133,7 @@
 				<div class="empty-state">No scheduled emails</div>
 			{:else}
 				<div class="scheduled-list">
-					{#each scheduledEmails as scheduled}
+					{#each scheduledEmails as scheduled (scheduled.id)}
 						<div class="scheduled-item">
 							<div class="scheduled-info">
 								<h3>{scheduled.subject}</h3>
@@ -1375,7 +1376,6 @@
 </div>
 
 {#if sentDetailOpen}
-	<!-- svelte-ignore a11y_no_static_element_interactions a11y_click_events_have_key_events -->
 	<div
 		class="sent-detail-overlay"
 		role="presentation"
@@ -1506,10 +1506,10 @@
 	{initialContent}
 	{initialScheduledFor}
 	{initialDraftId}
-	on:close={handleComposeClose}
-	on:send={handleComposeSend}
-	on:schedule={handleComposeSchedule}
-	on:saveDraft={handleComposeSaveDraft}
+	onclose={handleComposeClose}
+	onsend={handleComposeSend}
+	onschedule={handleComposeSchedule}
+	onsavedraft={handleComposeSaveDraft}
 />
 
 <style>

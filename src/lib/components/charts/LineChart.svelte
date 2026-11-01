@@ -3,37 +3,55 @@
 	import { onMount, onDestroy } from 'svelte';
 	import * as d3 from 'd3';
 
-	export let data: { x: string | number; y: number; label?: string }[];
-	export let title: string = '';
-	export let xLabel: string = '';
-	export let yLabel: string = '';
-	export let height: number = 300;
-	export let color: string = 'var(--lamp-glow)';
-	export let showPoints: boolean = true;
-	export let showGrid: boolean = true;
-	export let showSummary: boolean = true;
-	export let showTrend: boolean = true;
-	export let animate: boolean = true;
+	interface Props {
+		data: { x: string | number; y: number; label?: string }[];
+		title?: string;
+		xLabel?: string;
+		yLabel?: string;
+		height?: number;
+		color?: string;
+		showPoints?: boolean;
+		showGrid?: boolean;
+		showSummary?: boolean;
+		showTrend?: boolean;
+		animate?: boolean;
+	}
 
-	let container: HTMLDivElement;
-	let mounted = false;
+	let {
+		data,
+		title = '',
+		xLabel = '',
+		yLabel = '',
+		height = 300,
+		color = 'var(--lamp-glow)',
+		showPoints = true,
+		showGrid = true,
+		showSummary = true,
+		showTrend = true,
+		animate = true
+	}: Props = $props();
+
+	let container: HTMLDivElement | undefined = $state();
+	let mounted = $state(false);
 	let tooltip: d3.Selection<HTMLDivElement, unknown, HTMLElement, any> | null = null;
 	let resizeObserver: ResizeObserver | null = null;
 	let resizeFrame: number | null = null;
 
 	// Computed summary stats
-	$: summaryStats = data?.length
-		? {
-				total: data.reduce((sum, d) => sum + d.y, 0),
-				avg: Math.round(data.reduce((sum, d) => sum + d.y, 0) / data.length),
-				peak: Math.max(...data.map((d) => d.y)),
-				min: Math.min(...data.map((d) => d.y)),
-				peakDate: data.find((d) => d.y === Math.max(...data.map((d) => d.y)))?.label || ''
-			}
-		: { total: 0, avg: 0, peak: 0, min: 0, peakDate: '' };
+	let summaryStats = $derived(
+		data?.length
+			? {
+					total: data.reduce((sum, d) => sum + d.y, 0),
+					avg: Math.round(data.reduce((sum, d) => sum + d.y, 0) / data.length),
+					peak: Math.max(...data.map((d) => d.y)),
+					min: Math.min(...data.map((d) => d.y)),
+					peakDate: data.find((d) => d.y === Math.max(...data.map((d) => d.y)))?.label || ''
+				}
+			: { total: 0, avg: 0, peak: 0, min: 0, peakDate: '' }
+	);
 
 	// Calculate trend (compare last 7 days to previous 7 days)
-	$: trend = (() => {
+	let trend = $derived.by(() => {
 		if (!data || data.length < 14) return { change: 0, direction: 'flat' };
 		const recent = data.slice(-7).reduce((sum, d) => sum + d.y, 0);
 		const previous = data.slice(-14, -7).reduce((sum, d) => sum + d.y, 0);
@@ -43,7 +61,7 @@
 			change: Math.abs(change).toFixed(1),
 			direction: change > 5 ? 'up' : change < -5 ? 'down' : 'flat'
 		};
-	})();
+	});
 
 	onMount(() => {
 		mounted = true;
@@ -71,7 +89,7 @@
 			resizeObserver = new ResizeObserver(() => {
 				scheduleDrawChart();
 			});
-			resizeObserver.observe(container);
+			if (container) resizeObserver.observe(container);
 		}
 	});
 
@@ -87,9 +105,12 @@
 		}
 	});
 
-	$: if (mounted && data) {
-		drawChart();
-	}
+	// Redraw the d3 chart (DOM owned by d3) whenever the data or chart options change after mount.
+	$effect(() => {
+		if (mounted && data) {
+			drawChart();
+		}
+	});
 
 	function drawChart() {
 		if (!container || !data?.length) return;
@@ -420,7 +441,7 @@
 	}
 </script>
 
-<svelte:window on:resize={handleResize} />
+<svelte:window onresize={handleResize} />
 
 <div class="chart-container-enhanced">
 	{#if title || showTrend || showSummary}

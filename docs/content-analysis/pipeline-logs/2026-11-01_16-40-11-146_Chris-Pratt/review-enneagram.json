@@ -1,0 +1,86 @@
+{
+  "schema_version": 3,
+  "role": "enneagram",
+  "content_sha256": "73fa9e2bb21ee745a4de0f7732982d07baddcd47a75f2c4df5b47ea4d8051638",
+  "evidence_sha256": "0dd5f29b1d9610077e12cd4f004aafc2151077288d6c81cb75109c3366f5f7ac",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": true
+  },
+  "findings": [
+    {
+      "id": "enneagram-1",
+      "severity": "major",
+      "passage": "A Three, ashamed of how a failure looks, tends to throw himself at the next win to repair the picture.",
+      "problem": "The 3-vs-7 split is tested against a stereotyped Three. In standard Enneagram dynamics a Three whose image collapses can stall, go numb and disengage (the stress move toward Nine), which matches the record the draft itself gives: 'I'm so depressed. I can't do it,' partying at home, then a year of minimal hours, drinking and weed. The evidence record concedes that partying while depressed after a failure 'is common in any type at that age' (c-friend-off), yet the draft says the shifts line 'does more work than any other in the Seven reading' and makes 'what he did with the failure' a deciding point in 'Why not Type 3?'. As written, the Maui year does not separate a Seven from a stalled Three.",
+      "acceptance_test": "The Maui split, and the 'Second' point in 'Why not Type 3?', name the stalled-Three reading (depression and drift after a collapse) and then rest the Seven call on something a stalled Three would not show, cited at the passage: for example the 2014 retelling of homelessness as 'a pretty awesome place to be homeless' and 'a charming time' (pain recast as pleasure), and pleasure-as-regulation recurring in the heavy Parks years, when he was employed and succeeding ('I did not feel good until I ate again'). 'That line does more work than any other in the Seven reading' is softened or justified against that alternative."
+    },
+    {
+      "id": "enneagram-2",
+      "severity": "major",
+      "passage": "He believed it before anyone else did.",
+      "problem": "The 'Seven's mask' paragraph, and the 'Second' tip in 'Why not Type 3?' ('he bought it before anyone, and food and drink kept it going'), count his belief in his own projected image as Seven evidence. Coming to believe the image you project is the signature of the Three's passion (self-deception), and the evidence record says this line 'fits the 7 reading as well as the 3 reading' (c-first-in-line). The same paragraph enlists 'didn't feel too great about who I was', which the evidence record calls 'the best motive-level Three clue' (c-not-feel-great), and Pratt's own word for the front is an 'image that I was casting, to convince people'. Two of the four items in the mask paragraph cut toward the rival, and the reader is not told.",
+      "acceptance_test": "In 'Pure euphoria' and in the 'Second' point of 'Why not Type 3?', self-belief in the front is presented as shared by both readings (or dropped as a Seven datum), 'didn't feel too great about who I was' is acknowledged as worth language the Three reading can claim, and the Seven claim rests on the parts that discriminate: the front's stated purpose ('to convince people that I was okay', a claim about pain rather than admiration) and its fuel (food and drink; 'did not feel good until I ate again')."
+    },
+    {
+      "id": "enneagram-3",
+      "severity": "major",
+      "passage": "Third, what he wants from a role. A Three wants top billing.",
+      "problem": "A stereotyped discriminator resting on one promotional line. A Three wants to be valued and seen to succeed, which a celebrated supporting part can supply; 'top billing' is a caricature. The behavioral record runs the other way: told he was 'too fat' for Moneyball, he remade his body for the action-hero leads Vanity Fair says he 'had always wanted to play', then headlined Guardians, Jurassic World, The Terminal List and Mercy for over a decade. The jazz-soloist line came in October 2026 while he was pitching a return to comedy (a limit the evidence record flags), and the draft converts the lead-role chase into Seven terms ('The diet traded a smaller pleasure for a bigger adventure.') without testing the Three reading of the same choice. The ending ('The funny guy didn't have to be hurt.') leans on the same quote, so one of the three deciding points and the conclusion share a single promotional source.",
+      "acceptance_test": "The third point either (a) is restated at motive level (what he says made the part a joy: 'different every time', no required arc of hurt) and set against his decade of pursuing and holding leads, with a sentence, labeled as interpretation, explaining why the Seven reading survives that record; or (b) is demoted from a deciding point to supporting color. 'A Three wants top billing' is removed or qualified, and 'a bigger adventure' is presented as the Seven reading of a choice the Three reading also explains."
+    },
+    {
+      "id": "enneagram-4",
+      "severity": "major",
+      "passage": "But Nines go quiet and withdraw. Pratt's escapes are loud: euphoric eating, parties, hunting trips, a new idea every day.",
+      "problem": "The Nine rival is dismissed with a stereotype. Nines can be sociable and jovial; their characteristic escape is narcotizing, and comfort eating is the classic Nine narcotic, so 'euphoric eating' sits badly in a list of loud escapes. Several items the draft spends elsewhere are Nine-shaped and it never says so: anger is 'something that I don't do authentically very well', road rage dissolved into 'probably my fault', 'too much of a people pleaser', 'completely deferential to whatever the world wants', 'I want to work to live', Proverbs 26:20 used to starve conflict, and Maui's 'just enough' hours. The anti-Eight case in the preceding paragraphs is largely pro-Nine evidence. On this record Nine is the second-strongest rival, and it gets one paragraph with no real discriminator.",
+      "acceptance_test": "The Nine paragraph acknowledges that the anger-avoidance, deference and comfort-eating items fit Nine as well as Seven, and states a motive-level discriminator (does he move toward new stimulation and options, or toward comfort and keeping the peace?) backed by sourced items a Nine reading cannot easily claim, such as the 'obnoxious, really hyperactive, disruptive' child who 'liked making people feel uncomfortable' (GQ 2015), Gunn's 'a new idea every day about everything', his prediction that he would be 'tired of bird hunting' within three months, and seizing Chong's offer ('Put me in a movie'). 'Euphoric eating' is removed from the 'loud' list or reframed."
+    },
+    {
+      "id": "enneagram-5",
+      "severity": "minor",
+      "passage": "But a Six scans for danger and doubts first. Pratt hands that job to others: his manager is \"calculated and critical in a way that I'm not.\"",
+      "problem": "Leaning on trusted authorities to do the doubting (an older brother who talked him out of the army, a manager who has him turn down 'huge checks') is a hallmark Six strategy, so this sentence argues for Six rather than against it; the draft itself uses the same habit as 7w6 evidence. 'Zero critical thinking skills were ever taught to anyone in my household' is a joke about his upbringing, not a description of his disposition. 'Security is not what he chases.' also skips security-flavored lines already in the draft: 'money motivated my whole life because we never had anything' and 'Just keep me employed as an actor.'",
+      "acceptance_test": "The Six rebuttal rests on evidence that separates 6 from 7 (the missing threat alarm with Henry, 'should've made me nervous but didn't'; no 'ten-year plan'; a family of 'total dreamers' with 'no safety net'), treats his reliance on his brother and manager as compatible with a 6 wing rather than as counterevidence to core 6, and either qualifies 'Security is not what he chases.' or answers the money and employment lines."
+    },
+    {
+      "id": "enneagram-6",
+      "severity": "minor",
+      "passage": "The Eight energy is easy to see. He hunts, fishes and wrestled in high school.",
+      "problem": "Hobbies are being read as type. Hunting, fishing and wrestling come from a rural Pacific Northwest, wrestling-family upbringing (the evidence record notes 'interests are culture and upbringing'), and the 'grudge' is a joke about actors who hit on his wife. The same hobbies then carry the 8-wing case in the body ('The 8 is louder in what he does for fun.') and in the wing FAQ ('An 8 wing fits his hunting, his grudges and his refusal to apologize for his faith'). This is the stereotyped typing the otherwise careful wing section should avoid.",
+      "acceptance_test": "The Eight paragraph and the wing discussion in both body and FAQ state that hobbies are not type evidence, and any 8-wing case rests on motive-level behavior (for example the no-apology stand on faith after 2018, 'I didn't backtrack'), with the wing still presented as open."
+    },
+    {
+      "id": "enneagram-7",
+      "severity": "minor",
+      "passage": "that is the Seven's oldest defense, told in his own words.",
+      "problem": "A sensitive child using humor to survive a harsh father is common to Types 2, 3, 7 and 9 (the evidence record says so at c-humor-defense), and a Three reading frames the clown as how a boy won over a father who acted as if he disliked him. Calling it 'the Seven's' defense claims shared behavior for the leading type. The same move recurs in 'Even the commitment has a Seven texture.', which treats a mind that wanders four seconds into Leviticus, a near-universal experience, as type evidence.",
+      "acceptance_test": "The clown origin is framed as consistent with the Seven reading rather than as the Seven's own defense (for example 'fits the Seven reading', plus one clause on why the Three reading of the same story is weaker or remains open), and the Leviticus line is either cut as type evidence or kept as color without the 'Seven texture' claim."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "People of every type hide a failure, so the hiding settles little.",
+      "reason": "An honest concession that stops the hidden failure being used as proof for either type. It models the discriminator discipline the rest of the 3-vs-7 case should follow."
+    },
+    {
+      "passage": "The limits are real. Most of the Seven evidence is his own retelling in interviews, the cleanest test came when he was about 19, and the \"pure euphoria\" line comes from auto-captions of a podcast.",
+      "reason": "Specific, local inference limits placed beside the type argument rather than in a footer disclaimer. Exactly what the standard asks for on a contested retype."
+    },
+    {
+      "passage": "That is the Seven's trap, described from the inside. Hope lives in the next ticket, and once the tickets are easy to get, the hole is still there.",
+      "reason": "The most person-specific motive evidence in the piece, earned by his own catalog-cards and 'just get that ticket' lines. It is the passage where the Seven reading most clearly beats Three and Nine."
+    },
+    {
+      "passage": "The anger lasted one clause before he talked himself out of it and blamed his wandering mind.",
+      "reason": "A precise behavioral micro-observation from a single answer, strong evidence against core Eight. Its type reading should widen to admit Nine (enneagram-4), but the observation itself should stay."
+    },
+    {
+      "passage": "Even so, more than a decade of public faith, held through the mockery, is the strand of Pratt the type explains least.",
+      "reason": "Names what the type fails to explain instead of reaching for an arrow or subtype to absorb it. This unexplained residue is what keeps the typing honest."
+    }
+  ],
+  "assessment": "Type 7 at medium confidence is defensible and better argued than the prior Three page. The record shows pleasure used to regulate pain ('pure euphoria' eating; 'did not feel good until I ate again'), hardship recast as a lark ('a charming time'), restless novelty (Gunn's 'new idea every day', predicted boredom with bird hunting) and hope placed in the next thing ('just get that ticket'), mostly in his own words. No arrows or subtypes are used to explain away contradictions, the wing is honestly left open, and the faith strand is named as the least explained. The weakness is the margin, not the call. Of the 'Three things tip the case to Seven', the first only neutralizes the sales evidence (an occupational confound) without favoring Seven. The second rests on a Maui drift that a depressed, stalled Three also explains (enneagram-1) and on self-belief in his projected image, which is the Three's own signature (enneagram-2). The third is one promotional quote set against a decade of pursuing leads (enneagram-3). The Nine rival is under-tested: the anti-Eight evidence (anger he doesn't do 'authentically', people-pleasing, road rage turned into self-blame, deference) is Nine-shaped, and 'quiet vs loud' is a stereotype (enneagram-4). The Six rebuttal inverts Six theory (enneagram-5), and hobbies stand in for 8-wing motive (enneagram-6). The fix is to rest the call on the discriminating evidence that already exists in the record (recurring pleasure-regulation during success, reframing, novelty-seeking, the transgressive hyperactive child, hope in the next ticket) and to say plainly which items both readings share. Nothing here requires changing the type. Similarity advisory: nearly every trip is a self-match against this subject's own drafts file, an earlier Type 7 version, so it is not cross-profile reuse. The cross-profile hits (Florence Pugh's head-triad orientation line, Dominic Fike's 'gets a full hearing below') are ordinary type vocabulary and transitions, not a reused argument. Risk flags: contested_typing and major_thesis_change (a 3-to-7 retype), and sensitive_allegations (the Hillsong and anti-LGBTQ church reporting)."
+}

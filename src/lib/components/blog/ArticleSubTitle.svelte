@@ -1,7 +1,11 @@
 <!-- src/lib/components/blog/ArticleSubTitle.svelte -->
 <script lang="ts">
-	export let metaData: App.BlogPost;
-	export let structuredData = false;
+	interface Props {
+		metaData: App.BlogPost;
+		structuredData?: boolean;
+	}
+
+	let { metaData, structuredData = false }: Props = $props();
 
 	// import twitter from '$lib/images/twitter.svg';
 
@@ -35,8 +39,8 @@
 		};
 	}
 
-	$: publishedDate = formatStoredDate(metaData.date);
-	$: modifiedDate = formatStoredDate(metaData.lastmod);
+	let publishedDate = $derived(formatStoredDate(metaData.date));
+	let modifiedDate = $derived(formatStoredDate(metaData.lastmod));
 </script>
 
 <p class="article-meta">

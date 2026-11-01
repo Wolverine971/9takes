@@ -19,25 +19,20 @@
 
 	let { data: pageData }: { data: PageData } = $props();
 
-	// State
+	// State. The editor fields are writable deriveds: initialized from the server data on
+	// every navigation, then overwritten by edits and by the save response.
 	let saving = $state(false);
-	let blogData = $state<Record<string, any>>({ content: '' });
-	let originalData = $state<Record<string, any>>({ content: '' });
-	let history = $state<HistoryItem[]>([]);
-	let stageName = $state<string | null>(null);
+	let blogData = $derived<Record<string, any>>(
+		pageData.blog ? { ...pageData.blog } : { content: '' }
+	);
+	let originalData = $derived<Record<string, any>>(
+		pageData.blog ? { ...pageData.blog } : { content: '' }
+	);
+	let history = $derived<HistoryItem[]>(pageData.blog?.history || []);
+	let stageName = $derived<string | null>(pageData.blog?.stageName || null);
 	let showUnsavedWarning = $state(false);
 	let warningModalActive = $state(false);
 	let mobileTab = $state<'content' | 'metadata'>('content');
-
-	// Initialize data from server
-	$effect(() => {
-		if (pageData.blog) {
-			blogData = { ...pageData.blog };
-			originalData = { ...pageData.blog };
-			history = pageData.blog.history || [];
-			stageName = pageData.blog.stageName || null;
-		}
-	});
 
 	$effect(() => {
 		if (showUnsavedWarning && !warningModalActive) {
@@ -248,7 +243,7 @@
 		<!-- Editor Panel -->
 		<div class="editor-panel" class:mobile-hidden={mobileTab !== 'content'}>
 			<MarkdownEditor
-				bind:content={blogData.content}
+				content={blogData.content}
 				readonly={false}
 				placeholder="Enter markdown content..."
 				onchange={handleContentChange}

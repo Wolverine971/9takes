@@ -2,7 +2,6 @@
 // @vitest-environment jsdom
 
 import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/svelte';
-import { readable } from 'svelte/store';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 
 const { gotoMock, notificationMocks, html2canvasMock, captureQuestionCreatedMock } = vi.hoisted(
@@ -27,8 +26,8 @@ vi.mock('$app/forms', () => ({
 	deserialize: (value: string) => JSON.parse(value)
 }));
 
-vi.mock('$app/stores', () => ({
-	page: readable({ url: new URL('http://localhost/questions/create') })
+vi.mock('$app/state', () => ({
+	page: { url: new URL('http://localhost/questions/create') }
 }));
 
 vi.mock('$lib/components/molecules/notifications', () => ({

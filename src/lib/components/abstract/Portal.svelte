@@ -1,6 +1,7 @@
 <!-- src/lib/components/abstract/Portal.svelte -->
 <script lang="ts">
-	import { tick } from 'svelte';
+	import { tick, type Snippet } from 'svelte';
+	import type { Attachment } from 'svelte/attachments';
 
 	type PortalTarget = HTMLElement | string;
 
@@ -20,30 +21,31 @@
 		);
 	}
 
-	function portal(node: HTMLElement, target: PortalTarget = 'body') {
-		let targetEl: HTMLElement;
+	// Re-runs (and re-parents the node) whenever `target` changes.
+	function portal(target: PortalTarget = 'body'): Attachment<HTMLElement> {
+		return (node) => {
+			void (async () => {
+				if (typeof target === 'string') {
+					await tick();
+				}
+				getTargetElement(target).appendChild(node);
+				node.hidden = false;
+			})();
 
-		async function update(newTarget: PortalTarget) {
-			if (typeof newTarget === 'string') {
-				await tick();
-			}
-			targetEl = getTargetElement(newTarget);
-			targetEl.appendChild(node);
-			node.hidden = false;
-		}
-
-		function destroy() {
-			node.parentNode?.removeChild(node);
-		}
-
-		update(target);
-
-		return { update, destroy };
+			return () => {
+				node.parentNode?.removeChild(node);
+			};
+		};
 	}
 
-	export let target: PortalTarget = 'body';
+	interface Props {
+		target?: PortalTarget;
+		children?: Snippet;
+	}
+
+	let { target = 'body', children }: Props = $props();
 </script>
 
-<div use:portal={target} hidden>
-	<slot />
+<div {@attach portal(target)} hidden>
+	{@render children?.()}
 </div>

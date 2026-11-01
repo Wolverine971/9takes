@@ -2,10 +2,14 @@
 <script lang="ts">
 	import { serializeJsonLd } from '$lib/utils/jsonLd';
 
-	export let posts: App.BlogPost[] = [];
-	export let blogType = '';
-	export let slugPrefix = '';
-	let innerWidth = 0;
+	interface Props {
+		posts?: App.BlogPost[];
+		blogType?: string;
+		slugPrefix?: string;
+	}
+
+	let { posts = [], blogType = '', slugPrefix = '' }: Props = $props();
+	let innerWidth = $state(0);
 
 	const normalizeSlugPrefix = (value: string | undefined): string =>
 		value ? value.replace(/^\/+|\/+$/g, '') : '';
@@ -21,35 +25,37 @@
 	const buildBlogUrl = (prefix: string, post: App.BlogPost): string =>
 		`${SITE_ORIGIN}${buildBlogPath(prefix, post)}`;
 
-	$: resolvedPosts = Array.isArray(posts) ? posts : [];
-	$: normalizedSlugPrefix = normalizeSlugPrefix(slugPrefix);
-	$: blogTypeLabel = (blogType || '').trim() || 'Blog';
-	$: blogTypeLower = blogTypeLabel.toLowerCase();
-	$: visiblePosts = resolvedPosts.slice(0, innerWidth > 920 ? 10 : 6);
-	$: itemListPosts = resolvedPosts.slice(0, 10);
+	let resolvedPosts = $derived(Array.isArray(posts) ? posts : []);
+	let normalizedSlugPrefix = $derived(normalizeSlugPrefix(slugPrefix));
+	let blogTypeLabel = $derived((blogType || '').trim() || 'Blog');
+	let blogTypeLower = $derived(blogTypeLabel.toLowerCase());
+	let visiblePosts = $derived(resolvedPosts.slice(0, innerWidth > 920 ? 10 : 6));
+	let itemListPosts = $derived(resolvedPosts.slice(0, 10));
 
 	// Generate ItemList JSON-LD for related articles
-	$: itemListJsonLd = resolvedPosts.length
-		? serializeJsonLd({
-				'@context': 'https://schema.org',
-				'@type': 'ItemList',
-				name: `More ${blogTypeLabel} Articles`,
-				description: `Related ${blogTypeLower} articles and guides`,
-				numberOfItems: itemListPosts.length,
-				itemListElement: itemListPosts.map((post, index) => ({
-					'@type': 'ListItem',
-					position: index + 1,
-					item: {
-						'@type': 'Article',
-						name: post.title,
-						description: post.description,
-						url: buildBlogUrl(normalizedSlugPrefix, post)
-					}
-				}))
-			})
-		: '';
+	let itemListJsonLd = $derived(
+		resolvedPosts.length
+			? serializeJsonLd({
+					'@context': 'https://schema.org',
+					'@type': 'ItemList',
+					name: `More ${blogTypeLabel} Articles`,
+					description: `Related ${blogTypeLower} articles and guides`,
+					numberOfItems: itemListPosts.length,
+					itemListElement: itemListPosts.map((post, index) => ({
+						'@type': 'ListItem',
+						position: index + 1,
+						item: {
+							'@type': 'Article',
+							name: post.title,
+							description: post.description,
+							url: buildBlogUrl(normalizedSlugPrefix, post)
+						}
+					}))
+				})
+			: ''
+	);
 	// Escaping now happens in serializeJsonLd above.
-	$: safeItemListJsonLd = itemListJsonLd;
+	let safeItemListJsonLd = $derived(itemListJsonLd);
 </script>
 
 <svelte:head>

@@ -51,7 +51,6 @@
 	let honeypot = $state('');
 	let error = $state('');
 	let sending = $state(false);
-	let root = $state<HTMLElement>();
 	let mountedAt = 0;
 
 	const headline = $derived(renderBetaHeadline(copy, personName));
@@ -90,8 +89,9 @@
 		}).catch(() => {});
 	}
 
-	$effect(() => {
-		if (!root || typeof IntersectionObserver === 'undefined') return;
+	/** Attachment: report the first time half the card is on screen. */
+	function trackView(node: HTMLElement) {
+		if (typeof IntersectionObserver === 'undefined') return;
 		const observer = new IntersectionObserver(
 			(entries) => {
 				if (!entries.some((entry) => entry.isIntersecting)) return;
@@ -100,9 +100,9 @@
 			},
 			{ threshold: 0.5 }
 		);
-		observer.observe(root);
+		observer.observe(node);
 		return () => observer.disconnect();
-	});
+	}
 
 	function onFocus() {
 		if (!betaCard.openedAt) betaCard.openedAt = Date.now();
@@ -167,7 +167,7 @@
 </script>
 
 <section
-	bind:this={root}
+	{@attach trackView}
 	class={['etc', `etc--${placement}`]}
 	aria-labelledby={titleId}
 	data-beta-card

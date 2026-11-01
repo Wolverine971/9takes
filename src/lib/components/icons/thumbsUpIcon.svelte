@@ -1,10 +1,18 @@
 <!-- src/lib/components/icons/thumbsUpIcon.svelte -->
-<script>
-	export let className = '';
+<script lang="ts">
+	interface Props {
+		className?: string;
+		height?: string;
+		fill?: string;
+		iconStyle?: string;
+	}
 
-	export let height = '1rem';
-	export let fill = 'var(--ink-mid)';
-	export let iconStyle = '';
+	let {
+		className = '',
+		height = '1rem',
+		fill = 'var(--ink-mid)',
+		iconStyle = ''
+	}: Props = $props();
 </script>
 
 <svg

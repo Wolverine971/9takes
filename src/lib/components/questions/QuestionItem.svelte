@@ -1,26 +1,29 @@
 <!-- src/lib/components/questions/QuestionItem.svelte -->
 <script lang="ts">
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
-	import { viewportWidth } from '$lib/stores/viewport';
+	import { innerWidth } from 'svelte/reactivity/window';
 
-	export let questionData: {
-		id: number;
-		url: string | null;
-		question_formatted?: string | null;
-		question: string | null;
-		comment_count: number | null;
-		created_at: string | null;
-	};
-	export let showDetails = true;
+	interface Props {
+		questionData: {
+			id: number;
+			url: string | null;
+			question_formatted?: string | null;
+			question: string | null;
+			comment_count: number | null;
+			created_at: string | null;
+		};
+		showDetails?: boolean;
+	}
 
-	let commentColor = 'var(--lamp-glow)';
+	let { questionData, showDetails = true }: Props = $props();
+
+	let commentColor = $state('var(--lamp-glow)');
 	let hovered = false;
 
-	// Use shared viewport store
-	$: innerWidth = $viewportWidth;
-
 	// Format date - use Intl.DateTimeFormat for efficiency
-	$: formattedDate = formatDate(questionData.created_at, innerWidth > 400);
+	let formattedDate = $derived(
+		formatDate(questionData.created_at, (innerWidth.current ?? 0) > 400)
+	);
 
 	function formatDate(dateString: string | null, showYear: boolean): string {
 		if (!dateString) return '';
@@ -32,7 +35,7 @@
 	}
 
 	// Precomputed question text for display
-	$: displayQuestion = questionData.question_formatted || questionData.question || '';
+	let displayQuestion = $derived(questionData.question_formatted || questionData.question || '');
 
 	// Memoize hover/leave handlers
 	const handleMouseEnter = () => {
@@ -50,8 +53,8 @@
 	class="greek-question-card my-1 flex min-h-12 transform-gpu cursor-pointer items-center justify-between gap-2 rounded-md px-3 py-2.5 text-inherit no-underline transition-all duration-200 will-change-auto sm:px-4 sm:py-3"
 	class:w-full={showDetails}
 	data-sveltekit-preload-data="tap"
-	on:mouseenter={handleMouseEnter}
-	on:mouseleave={handleMouseLeave}
+	onmouseenter={handleMouseEnter}
+	onmouseleave={handleMouseLeave}
 	aria-label="View question: {displayQuestion}"
 >
 	<div class="question-content flex-1">

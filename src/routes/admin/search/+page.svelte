@@ -78,6 +78,15 @@
 
 	let debounceTimer: ReturnType<typeof setTimeout>;
 
+	/** Keys repeated strings by value plus occurrence, so duplicates stay unique. */
+	function keyedStrings(values: string[]): { key: string; value: string }[] {
+		const seen: Record<string, number> = {};
+		return values.map((value) => {
+			const n = (seen[value] = (seen[value] ?? 0) + 1);
+			return { key: n === 1 ? value : `${value}#${n}`, value };
+		});
+	}
+
 	async function search() {
 		if (query.trim().length < 2) {
 			error = 'Please enter at least 2 characters';
@@ -93,10 +102,12 @@
 		totalResults = 0;
 
 		try {
-			const params = new URLSearchParams({ q: query });
-			if (enneagramFilter) params.set('enneagram', enneagramFilter);
-			if (categoryFilter) params.set('category', categoryFilter);
-			if (typeFilter) params.set('type', typeFilter);
+			const params = new URLSearchParams({
+				q: query,
+				...(enneagramFilter ? { enneagram: enneagramFilter } : {}),
+				...(categoryFilter ? { category: categoryFilter } : {}),
+				...(typeFilter ? { type: typeFilter } : {})
+			});
 
 			const response = await fetch(`/api/blog/search?${params.toString()}`);
 			const data: SearchResponse = await response.json();
@@ -222,7 +233,7 @@
 			onchange={() => query.length >= 2 && search()}
 		>
 			<option value="">All Types</option>
-			{#each enneagramTypes as type}
+			{#each enneagramTypes as type (type)}
 				<option value={type.toString()}>Type {type}</option>
 			{/each}
 		</select>
@@ -236,7 +247,7 @@
 			onchange={() => query.length >= 2 && search()}
 		>
 			<option value="">All Categories</option>
-			{#each categories as cat}
+			{#each categories as cat (cat)}
 				<option value={cat}>{cat}</option>
 			{/each}
 		</select>
@@ -246,7 +257,7 @@
 		<label for="type">Content Type</label>
 		<select id="type" bind:value={typeFilter} onchange={() => query.length >= 2 && search()}>
 			<option value="">All Content Types</option>
-			{#each contentTypes as t}
+			{#each contentTypes as t (t)}
 				<option value={t}>{t}</option>
 			{/each}
 		</select>
@@ -280,7 +291,7 @@
 	</div>
 
 	<div class="results-grid">
-		{#each results as result}
+		{#each results as result (`${result.source}:${result.id}`)}
 			<a href={result.url} class="result-card" target="_blank" rel="noopener">
 				<div class="result-header">
 					<span class="source-badge {getSourceBadgeClass(result.source)}">
@@ -311,7 +322,7 @@
 						<span class="meta-item category">{result.category}</span>
 					{/if}
 					{#if result.type?.length > 0}
-						{#each result.type.slice(0, 3) as t}
+						{#each keyedStrings(result.type.slice(0, 3)) as { key, value: t } (key)}
 							<span class="meta-item type">{t}</span>
 						{/each}
 					{/if}

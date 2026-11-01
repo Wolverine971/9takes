@@ -2,7 +2,7 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 	import { fade } from 'svelte/transition';
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
 	import { goto } from '$app/navigation';
 	import { browser } from '$app/environment';
 	import { onMount } from 'svelte';
@@ -17,7 +17,6 @@
 	let modalOpen = $state(false);
 	let selectedBlog = $state<App.BlogPost | null>(null);
 	let selectedBlogId = $state<number | null>(null);
-	let closingModal = $state(false); // Flag to prevent reopening
 
 	// Mobile detection
 	let isMobile = $state(false);
@@ -32,11 +31,6 @@
 
 	onMount(() => {
 		syncViewportMode(window.innerWidth);
-		const handleResize = () => {
-			syncViewportMode(window.innerWidth);
-		};
-		window.addEventListener('resize', handleResize);
-		return () => window.removeEventListener('resize', handleResize);
 	});
 
 	let activeSelection = $state<ContentType>('people');
@@ -99,23 +93,18 @@
 		return stageIndex >= 2 ? stageIndex : 2;
 	}
 
-	// Handle URL query param for deep linking - redirect to new route format
+	// Handle URL query param for deep linking - redirect to new route format (router sync)
 	$effect(() => {
-		const editId = $page.url.searchParams.get('edit');
-		if (editId && browser) {
+		const editId = page.url.searchParams.get('edit');
+		if (editId) {
 			const id = parseInt(editId);
 			if (!isNaN(id)) {
 				const blog = getContentData('people').find((b: any) => b.id === id);
 				if (blog?.person) {
 					// Redirect to the new clean URL format
 					goto(`/admin/content-board/personality-analysis/${blog.person}`, { replaceState: true });
-					return;
 				}
 			}
-		}
-		// Reset closing flag once URL is clean
-		if (!editId && closingModal) {
-			closingModal = false;
 		}
 	});
 
@@ -280,15 +269,16 @@
 		})
 	);
 
-	// Reset filters when switching content types
-	$effect(() => {
-		if (activeSelection !== 'people') {
+	// Switch content types; the people-only filters reset when leaving people
+	function selectContentType(type: ContentType) {
+		activeSelection = type;
+		if (type !== 'people') {
 			selectedEnneagramType = '';
 			selectedAuthor = '';
 			selectedType = '';
 			showSocialMediaOnly = false;
 		}
-	});
+	}
 
 	// Check if any filters are active
 	let hasActiveFilters = $derived(
@@ -318,7 +308,6 @@
 
 	// Close modal
 	function closeModal() {
-		closingModal = true;
 		modalOpen = false;
 		selectedBlog = null;
 		selectedBlogId = null;
@@ -466,6 +455,8 @@
 	}
 </script>
 
+<svelte:window onresize={() => syncViewportMode(window.innerWidth)} />
+
 <div class="content-board">
 	<!-- Header -->
 	<header class="dashboard-header">
@@ -477,11 +468,11 @@
 
 	<!-- Content Type Selector -->
 	<div class="content-type-selector">
-		{#each contentTypes as type}
+		{#each contentTypes as type (type)}
 			<button
 				class="type-btn"
 				class:active={activeSelection === type}
-				onclick={() => (activeSelection = type)}
+				onclick={() => selectContentType(type)}
 			>
 				{type.charAt(0).toUpperCase() + type.slice(1)}
 				<span class="count-badge" class:active={activeSelection === type}>
@@ -698,7 +689,7 @@
 						<label for="filter-enneagram" class="filter-label">Enneagram:</label>
 						<select id="filter-enneagram" bind:value={selectedEnneagramType} class="filter-select">
 							<option value="">All</option>
-							{#each uniqueEnneagramTypes as type}
+							{#each uniqueEnneagramTypes as type (type)}
 								<option value={type}>Type {type}</option>
 							{/each}
 						</select>
@@ -708,7 +699,7 @@
 						<label for="filter-author" class="filter-label">Author:</label>
 						<select id="filter-author" bind:value={selectedAuthor} class="filter-select">
 							<option value="">All</option>
-							{#each uniqueAuthors as author}
+							{#each uniqueAuthors as author (author)}
 								<option value={author}>{author}</option>
 							{/each}
 						</select>
@@ -718,7 +709,7 @@
 						<label for="filter-category" class="filter-label">Category:</label>
 						<select id="filter-category" bind:value={selectedType} class="filter-select">
 							<option value="">All</option>
-							{#each uniqueTypes as type}
+							{#each uniqueTypes as type (type)}
 								<option value={type}>{type}</option>
 							{/each}
 						</select>
@@ -761,7 +752,7 @@
 	{:else if viewMode === 'board'}
 		<div class="kanban-container">
 			<div class="kanban-board" class:cursor-grabbing={isDragging}>
-				{#each stages as stage, stageIndex}
+				{#each stages as stage, stageIndex (stage)}
 					<div
 						class="kanban-column {stageColors[stageIndex]}"
 						class:dragging-active={isDragging}
@@ -779,7 +770,7 @@
 						</div>
 
 						<div class="kanban-cards">
-							{#each filteredData.filter((blog) => blog.stage === stageIndex) as blog, index (`${stageIndex}-${index}-${blog.loc || blog.title}`)}
+							{#each filteredData.filter((blog) => blog.stage === stageIndex) as blog (blog.id ?? blog.slug)}
 								{#if blog.title}
 									<div transition:fade={{ duration: 100 }}>
 										<CompactCard
@@ -817,7 +808,7 @@
 						</tr>
 					</thead>
 					<tbody>
-						{#each filteredData as blog, index (`list-${index}-${blog.loc || blog.title}`)}
+						{#each filteredData as blog (blog.id ?? blog.slug)}
 							<tr
 								class="table-row"
 								onclick={() => openModal(blog)}

@@ -1,6 +1,6 @@
 <!-- src/routes/admin/consulting/+layout.svelte -->
 <script lang="ts">
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
 	import {
 		CalendarDays,
 		ChartNoAxesCombined,
@@ -21,7 +21,7 @@
 	let { children }: { children: Snippet } = $props();
 
 	// Set by the admin layout: unanswered "Talk to DJ" notes.
-	let newTalkNotes = $derived(Number($page.data.newTalkNotes ?? 0));
+	let newTalkNotes = $derived(Number(page.data.newTalkNotes ?? 0));
 
 	function isActive(item: { href: string; exact?: boolean }, pathname: string): boolean {
 		if (item.exact) {
@@ -38,8 +38,8 @@
 			{@const Icon = item.icon}
 			<a
 				href={item.href}
-				class={['sub-nav-link', { active: isActive(item, $page.url.pathname) }]}
-				aria-current={isActive(item, $page.url.pathname) ? 'page' : undefined}
+				class={['sub-nav-link', { active: isActive(item, page.url.pathname) }]}
+				aria-current={isActive(item, page.url.pathname) ? 'page' : undefined}
 			>
 				<span class="sub-nav-icon">
 					<Icon size={16} strokeWidth={1.8} aria-hidden="true" />

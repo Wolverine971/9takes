@@ -1,7 +1,7 @@
 <!-- src/lib/components/blog/EnneagramCTASidebar.svelte -->
 <script lang="ts">
 	import { browser } from '$app/environment';
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
 	import { onMount } from 'svelte';
 	import { fly } from 'svelte/transition';
 	import { prefersReducedMotion } from 'svelte/motion';
@@ -11,29 +11,40 @@
 
 	type SignupResponse = { ok: boolean; code?: string; message?: string };
 
-	export let variant: 'floating' | 'embedded' = 'floating';
-	export let sidePosition: 'left' | 'right' = 'right';
-	export let showAtScrollY: number = 1500;
-	export let hideBeforeBottom: number = 1500;
-	export let sidebarWidth: number = 240;
-	export let mobileBreakpoint: number = 1024;
-	export let ctaTitle: string | null = null;
-	export let ctaCopy: string | null = null;
-	export let ctaButtonLabel: string | null = null;
+	interface Props {
+		variant?: 'floating' | 'embedded';
+		sidePosition?: 'left' | 'right';
+		showAtScrollY?: number;
+		hideBeforeBottom?: number;
+		sidebarWidth?: number;
+		mobileBreakpoint?: number;
+		ctaTitle?: string | null;
+		ctaCopy?: string | null;
+		ctaButtonLabel?: string | null;
+	}
 
-	let visible = false;
-	let email = '';
-	let error = '';
-	let loading = false;
-	let submitted = false;
-	let formExtra = '';
+	let {
+		variant = 'floating',
+		sidePosition = 'right',
+		showAtScrollY = 1500,
+		hideBeforeBottom = 1500,
+		sidebarWidth = 240,
+		mobileBreakpoint = 1024,
+		ctaTitle = null,
+		ctaCopy = null,
+		ctaButtonLabel = null
+	}: Props = $props();
+
+	let visible = $state(false);
+	let email = $state('');
+	let error = $state('');
+	let loading = $state(false);
+	let submitted = $state(false);
+	let formExtra = $state('');
 	let formLoadTime = Date.now();
-	let windowWidth: number;
-	let contentWidth: number = 64 * 16;
+	let windowWidth = $state(0);
+	let contentWidth = $state(64 * 16);
 	let mainElement: HTMLElement | null = null;
-	let resolvedTitle: string;
-	let resolvedCopy: string;
-	let resolvedButtonLabel: string;
 	const inputId = 'enneagram-cta-sidebar-email';
 	const errorId = 'enneagram-cta-sidebar-error';
 
@@ -143,22 +154,21 @@
 		handleScroll();
 	}
 
-	$: sidebarCoords = calculateSidebarPosition(
-		windowWidth,
-		contentWidth,
-		sidebarWidth,
-		sidePosition
+	let sidebarCoords = $derived(
+		calculateSidebarPosition(windowWidth, contentWidth, sidebarWidth, sidePosition)
 	);
-	$: inferredCopy = getEnneagramSidebarCopy($page.url.pathname);
-	$: resolvedTitle = ctaTitle?.trim() || inferredCopy.title;
-	$: resolvedCopy = ctaCopy?.trim() || inferredCopy.copy;
-	$: resolvedButtonLabel = ctaButtonLabel?.trim() || inferredCopy.buttonLabel;
-	$: shouldRenderFloating =
-		variant === 'floating' && visible && windowWidth >= mobileBreakpoint && sidebarCoords !== null;
-	$: transitionParams =
+	let inferredCopy = $derived(getEnneagramSidebarCopy(page.url.pathname));
+	let resolvedTitle = $derived(ctaTitle?.trim() || inferredCopy.title);
+	let resolvedCopy = $derived(ctaCopy?.trim() || inferredCopy.copy);
+	let resolvedButtonLabel = $derived(ctaButtonLabel?.trim() || inferredCopy.buttonLabel);
+	let shouldRenderFloating = $derived(
+		variant === 'floating' && visible && windowWidth >= mobileBreakpoint && sidebarCoords !== null
+	);
+	let transitionParams = $derived(
 		variant === 'embedded' || prefersReducedMotion.current
 			? { x: 0, duration: 0 }
-			: { x: sidePosition === 'left' ? -100 : 100, duration: 300 };
+			: { x: sidePosition === 'left' ? -100 : 100, duration: 300 }
+	);
 
 	onMount(() => {
 		formLoadTime = Date.now();
@@ -167,24 +177,12 @@
 			return;
 		}
 
-		const onWindowScroll = () => {
-			handleScroll();
-		};
-
-		const onWindowResize = () => {
-			handleResize();
-		};
-
-		window.addEventListener('scroll', onWindowScroll);
-		window.addEventListener('resize', onWindowResize);
 		handleResize();
-
-		return () => {
-			window.removeEventListener('scroll', onWindowScroll);
-			window.removeEventListener('resize', onWindowResize);
-		};
 	});
 </script>
+
+<!-- handleScroll/handleResize no-op for the embedded variant. -->
+<svelte:window onscroll={handleScroll} onresize={handleResize} />
 
 {#if variant === 'embedded' || shouldRenderFloating}
 	<div
@@ -203,7 +201,10 @@
 			</p>
 		{:else}
 			<form
-				on:submit|preventDefault={handleSubmit}
+				onsubmit={(event) => {
+					event.preventDefault();
+					handleSubmit();
+				}}
 				class="sidebar-form"
 				aria-label="Subscribe by email"
 				aria-busy={loading}
@@ -226,7 +227,7 @@
 						id={inputId}
 						type="email"
 						bind:value={email}
-						on:input={() => (error = '')}
+						oninput={() => (error = '')}
 						placeholder="you@example.com"
 						required
 						autocomplete="email"

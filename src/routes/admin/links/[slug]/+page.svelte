@@ -13,7 +13,11 @@
 	// ADMIN only page
 	import type { PageData } from './$types';
 
-	export let data: PageData;
+	interface Props {
+		data: PageData;
+	}
+
+	let { data }: Props = $props();
 
 	type SelectedQuestion = {
 		id: number;
@@ -38,11 +42,11 @@
 
 	type SharedLocation = Pick<GeolocationCoordinates, 'latitude' | 'longitude'>;
 
-	let selectedQuestion: SelectedQuestion | null = null;
-	let location: SharedLocation | null = null; // Will be set once user explicitly shares location
-	let isSearching = false;
-	let searchOptions: SearchOption[] = [];
-	let isSubmitting = false;
+	let selectedQuestion = $state<SelectedQuestion | null>(null);
+	let location = $state.raw<SharedLocation | null>(null); // Will be set once user explicitly shares location
+	let isSearching = $state(false);
+	let searchOptions = $state.raw<SearchOption[]>([]);
+	let isSubmitting = $state(false);
 
 	// Remove the existing onMount geolocation code so it's no longer automatic
 	/*
@@ -86,8 +90,7 @@
 		}
 	}
 
-	async function handleSearch(event: CustomEvent<{ text: string }>) {
-		const { text } = event.detail;
+	async function handleSearch({ text }: { text: string }) {
 		if (!text || text.length < 2) return;
 
 		isSearching = true;
@@ -124,8 +127,8 @@
 		}
 	}
 
-	function handleQuestionSelected(event: CustomEvent<SelectedQuestion>) {
-		selectedQuestion = event.detail;
+	function handleQuestionSelected(question: SelectedQuestion) {
+		selectedQuestion = question;
 	}
 
 	function getActionFailureMessage(
@@ -258,8 +261,8 @@
 						placeholder="Search for a question..."
 						loading={isSearching}
 						options={searchOptions}
-						on:search={handleSearch}
-						on:selection={handleQuestionSelected}
+						onsearch={handleSearch}
+						onselection={handleQuestionSelected}
 					/>
 				</div>
 
@@ -328,8 +331,8 @@
 				placeholder="Search for a question..."
 				loading={isSearching}
 				options={searchOptions}
-				on:search={handleSearch}
-				on:selection={handleQuestionSelected}
+				onsearch={handleSearch}
+				onselection={handleQuestionSelected}
 			/>
 		</div>
 

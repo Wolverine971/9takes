@@ -1,9 +1,6 @@
 <!-- src/routes/enneagram-corner/mental-health/[slug]/+page.svelte -->
 <script lang="ts">
-	import { onMount } from 'svelte';
-	import { writable } from 'svelte/store';
-	import { browser } from '$app/environment';
-	import TableOfContents from '$lib/components/blog/TableOfContents.svelte';
+	import TableOfContents, { trackArticleHtml } from '$lib/components/blog/TableOfContents.svelte';
 	import PopCard from '$lib/components/atoms/PopCard.svelte';
 	import type { PageData } from './$types';
 	import type { Component } from 'svelte';
@@ -12,70 +9,19 @@
 	import ArticleSubTitle from '$lib/components/blog/ArticleSubTitle.svelte';
 	import SuggestionsBlog from '$lib/components/blog/SuggestionsBlog.svelte';
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
-	import { getAuthShellUser } from '$lib/authShell';
-	export let data: PageData;
-	const authUser = getAuthShellUser();
-	type C = Component;
-	$: component = data.component as unknown as C;
+	import { getAuthShell } from '$lib/authShell.svelte';
 
-	const contentStore = writable('');
-	let observer: MutationObserver | null = null;
-
-	onMount(() => {
-		findObserver();
-
-		return () => {
-			// Cleanup observer on unmount
-			if (observer) {
-				observer.disconnect();
-				observer = null;
-			}
-		};
-	});
-
-	// Watch for slug changes and reinitialize observer
-	$: if (data?.slug) {
-		// Reset content store when slug changes
-		contentStore.set('');
-
-		// Clean up existing observer
-		if (observer) {
-			observer.disconnect();
-			observer = null;
-		}
-
-		// Set up new observer after a short delay to ensure DOM is updated
-		setTimeout(() => {
-			findObserver();
-		}, 100);
+	interface Props {
+		data: PageData;
 	}
 
-	const findObserver = () => {
-		if (!browser) return;
-		const node = document.querySelector('#blogA');
+	let { data }: Props = $props();
+	const authShell = getAuthShell();
+	type C = Component;
+	const Article = $derived(data.component as unknown as C);
 
-		if (!node) {
-			setTimeout(findObserver, 500);
-		} else {
-			// Disconnect existing observer if any
-			if (observer) {
-				observer.disconnect();
-			}
-
-			observer = new MutationObserver((mutations) => {
-				mutations.forEach((mutation) => {
-					if (mutation.type === 'childList') {
-						contentStore.set(node.innerHTML);
-					}
-				});
-			});
-
-			observer.observe(node, { childList: true, subtree: true });
-
-			// Also set initial content
-			contentStore.set(node.innerHTML);
-		}
-	};
+	// The article's live HTML, for the TOC's client-side fallback.
+	let tocContent = $state('');
 </script>
 
 <!-- Crisis Notice Banner -->
@@ -85,7 +31,7 @@
 	<strong>741741</strong>.
 </div>
 
-<article class="blog" id="blogA">
+<article class="blog" id="blogA" {@attach trackArticleHtml((html) => (tocContent = html))}>
 	<div class="article-header">
 		<BlogPageHead data={data.frontmatter} slug={`enneagram-corner/mental-health/${data.slug}`} />
 		<ArticleTitle title={data.frontmatter.title} />
@@ -115,9 +61,9 @@
 		</div>
 	{/if}
 
-	<TableOfContents {contentStore} headings={data.frontmatter.headings} />
+	<TableOfContents content={tocContent} headings={data.frontmatter.headings} />
 
-	<svelte:component this={component} />
+	<Article />
 </article>
 
 <hr class="section-divider" />
@@ -150,11 +96,11 @@
 
 <SuggestionsBlog
 	posts={data?.posts}
-	blogType={'Mental Health'}
-	slugPrefix={'enneagram-corner/mental-health'}
+	blogType="Mental Health"
+	slugPrefix="enneagram-corner/mental-health"
 />
 
-{#if !$authUser}
+{#if !authShell.user}
 	<div class="join">
 		<EmailSignup />
 	</div>

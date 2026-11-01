@@ -14,15 +14,9 @@
 	let { parentType = 'comment', data, questionId, oncommentAdded }: Props = $props();
 
 	let loading = $state(false);
-	let links = $state<any[]>([]);
-	let linksCount = $state(0);
-
-	$effect(() => {
-		if (data) {
-			links = data.links?.length ? [...data.links] : [];
-			linksCount = data.links_count || 0;
-		}
-	});
+	// Follow `data`; "load more" and refreshes append/replace locally until it changes.
+	let links = $derived<any[]>(data?.links?.length ? [...data.links] : []);
+	let linksCount = $derived<number>(data?.links_count || 0);
 
 	async function loadMore() {
 		if (loading) return;

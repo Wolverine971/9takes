@@ -161,11 +161,11 @@
 	let loading = $state(false);
 	let errorMessage = $state('');
 	let anchorDate = $state(initialState.cohorts?.anchorDate ?? initialState.filters.to ?? '');
-	let overview = $state<CohortOverviewRow[]>(initialState.cohorts?.overview ?? []);
-	let weeklyCohorts = $state<WeeklyCohortRow[]>(initialState.cohorts?.weeklyCohorts ?? []);
-	let acquisitionMix = $state<AcquisitionMixRow[]>(initialState.cohorts?.acquisitionMix ?? []);
-	let sourceOverview = $state<SourceOverviewRow[]>(initialState.cohorts?.sourceOverview ?? []);
-	let nextPaths = $state<NextPathRow[]>(initialState.cohorts?.nextPaths ?? []);
+	let overview = $state.raw<CohortOverviewRow[]>(initialState.cohorts?.overview ?? []);
+	let weeklyCohorts = $state.raw<WeeklyCohortRow[]>(initialState.cohorts?.weeklyCohorts ?? []);
+	let acquisitionMix = $state.raw<AcquisitionMixRow[]>(initialState.cohorts?.acquisitionMix ?? []);
+	let sourceOverview = $state.raw<SourceOverviewRow[]>(initialState.cohorts?.sourceOverview ?? []);
+	let nextPaths = $state.raw<NextPathRow[]>(initialState.cohorts?.nextPaths ?? []);
 
 	function formatPct(value: number, denominator?: number): string {
 		if (denominator !== undefined && denominator <= 0) return '—';
@@ -186,6 +186,7 @@
 		}
 
 		const start = new Date(`${weekStart}T00:00:00`);
+		// eslint-disable-next-line svelte/prefer-svelte-reactivity -- local temporary for formatting, never held in state
 		const end = new Date(start);
 		end.setDate(end.getDate() + 6);
 		return `${formatWeek(weekStart)} - ${end.toLocaleDateString(undefined, { month: 'short', day: 'numeric' })}`;
@@ -208,6 +209,7 @@
 	}
 
 	function buildParams(): URLSearchParams {
+		// eslint-disable-next-line svelte/prefer-svelte-reactivity -- built fresh per request, never held in state
 		const params = new URLSearchParams({
 			from: fromDate,
 			to: toDate,
@@ -480,7 +482,7 @@
 		<label class="field">
 			<span>Drill into surface</span>
 			<select bind:value={selectedSurface} onchange={handleSurfaceSelectChange}>
-				{#each surfaceOptions as option}
+				{#each surfaceOptions as option (option.value)}
 					<option value={option.value}>{option.label}</option>
 				{/each}
 			</select>
@@ -491,7 +493,7 @@
 				bind:value={selectedSource}
 				disabled={!selectedSurface || sourceOverview.length === 0}
 			>
-				{#each acquisitionOptions as option}
+				{#each acquisitionOptions as option (option.value)}
 					<option value={option.value}>{option.label}</option>
 				{/each}
 			</select>
@@ -530,7 +532,7 @@
 	</section>
 {:else}
 	<section class="summary-grid">
-		{#each headlineCards as card}
+		{#each headlineCards as card (card.label)}
 			<article class={`summary-card tone-${card.tone}`}>
 				<span class="summary-label">{card.label}</span>
 				<strong class="summary-value">{card.value}</strong>
@@ -574,7 +576,7 @@
 							<td colspan="8" class="empty">No cohort rows for this filter set.</td>
 						</tr>
 					{:else}
-						{#each overview as row}
+						{#each overview as row (row.entry_surface)}
 							<tr class:selected-row={selectedSurface === row.entry_surface}>
 								<td>
 									<div class="surface-cell">
@@ -681,7 +683,7 @@
 							<td colspan="8" class="empty">No weekly cohort rows yet.</td>
 						</tr>
 					{:else}
-						{#each weeklyCohorts as row}
+						{#each weeklyCohorts as row (row.cohort_week)}
 							<tr>
 								<td>
 									<div class="week-cell">
@@ -862,7 +864,7 @@
 					</div>
 
 					<div class="acquisition-weeks">
-						{#each acquisitionChart.weeks as week}
+						{#each acquisitionChart.weeks as week (week.cohortWeek)}
 							<div class="acquisition-week-row">
 								<div class="acquisition-week-meta">
 									<strong class="acquisition-week-label">
@@ -874,7 +876,7 @@
 								</div>
 
 								<div class="acquisition-week-bar">
-									{#each week.segments as segment}
+									{#each week.segments as segment (segment.key)}
 										<button
 											type="button"
 											class={`acquisition-segment ${selectedSource && selectedSource !== segment.key ? 'is-dimmed' : ''} ${selectedSource === segment.key ? 'is-active' : ''} ${selectedSurface ? 'is-clickable' : ''}`}
@@ -906,7 +908,7 @@
 					</div>
 
 					<div class="acquisition-source-list">
-						{#each acquisitionChart.sources as source}
+						{#each acquisitionChart.sources as source (source.key)}
 							<button
 								type="button"
 								class={`acquisition-source-row ${selectedSource === source.key ? 'is-selected' : ''}`}
@@ -984,7 +986,7 @@
 						</tr>
 					</thead>
 					<tbody>
-						{#each sourceOverview as row}
+						{#each sourceOverview as row (row.acquisition_source)}
 							<tr class:selected-row={selectedSource === row.acquisition_source}>
 								<td>
 									<div class="surface-cell">
@@ -1062,7 +1064,7 @@
 							<td colspan="4" class="empty">No next-path rows for this segment.</td>
 						</tr>
 					{:else}
-						{#each nextPaths as row}
+						{#each nextPaths as row (row.next_path)}
 							<tr>
 								<td>{row.next_path}</td>
 								<td class="num">{row.visitor_count.toLocaleString()}</td>

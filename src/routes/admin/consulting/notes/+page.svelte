@@ -9,6 +9,7 @@
 	// Everything on screen counts as read once the tab is actually visible. This runs after
 	// render, never in the load, so a preload can't mark notes seen. It re-runs whenever the
 	// list changes: switching tabs (same component, no remount) or the refresh after a reply.
+	// eslint-disable-next-line svelte/prefer-svelte-reactivity -- bookkeeping only; a reactive set would re-trigger the effect below
 	const markedIds = new Set<string>();
 	$effect(() => {
 		const unseen = data.notes

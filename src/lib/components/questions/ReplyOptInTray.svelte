@@ -140,7 +140,7 @@
 		<h3 id={headingId}>Want a note if someone replies?</h3>
 	</div>
 	<p class="reply-opt-in__copy">
-		{#if lead}{lead}{' '}{/if}Your take stays anonymous, and we'll only email about this
+		{#if lead}{`${lead} `}{/if}Your take stays anonymous, and we'll only email about this
 		conversation.
 	</p>
 

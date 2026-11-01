@@ -1,8 +1,10 @@
 <!-- src/lib/components/questionPrintOut/ImageDropZone.svelte -->
 <script lang="ts">
-	import { createEventDispatcher } from 'svelte';
+	interface Props {
+		onaddimage?: (dataUrl: string | ArrayBuffer | null | undefined) => void;
+	}
 
-	const dispatch = createEventDispatcher();
+	let { onaddimage }: Props = $props();
 
 	function handleDrop(e: DragEvent) {
 		e.preventDefault();
@@ -10,7 +12,7 @@
 		if (file && file.type.startsWith('image/')) {
 			const reader = new FileReader();
 			reader.onload = function (event) {
-				dispatch('addImage', event?.target?.result);
+				onaddimage?.(event?.target?.result);
 			};
 			reader.readAsDataURL(file);
 		}
@@ -21,8 +23,8 @@
 	}
 </script>
 
-<!-- svelte-ignore a11y-no-static-element-interactions -->
-<div class="drop-zone" on:drop={handleDrop} on:dragover={handleDragOver}>
+<!-- svelte-ignore a11y_no_static_element_interactions -->
+<div class="drop-zone" ondrop={handleDrop} ondragover={handleDragOver}>
 	Drag and drop images here
 </div>
 

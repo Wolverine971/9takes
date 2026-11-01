@@ -57,12 +57,13 @@
 		return JSON.stringify(data) !== JSON.stringify(originalData);
 	});
 
-	// Track previous state to detect changes
-	let prevBlogId = $state<number | null>(null);
-	let prevInitialDataTitle = $state<string | null>(null);
-	let wasOpen = $state(false);
+	// Track previous state to detect changes. Plain bookkeeping read only inside the effect
+	// below, so writing it must not schedule another run.
+	let prevBlogId: number | null = null;
+	let prevInitialDataTitle: string | null = null;
+	let wasOpen = false;
 
-	// Load content when modal opens or content changes
+	// Load content (fetch) when the modal opens or the selected content changes
 	$effect(() => {
 		if (open) {
 			// Determine if we need to reload

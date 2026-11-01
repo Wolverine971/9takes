@@ -1,5 +1,5 @@
 <!-- src/lib/components/molecules/QuestionSearch.svelte -->
-<script lang="ts" context="module">
+<script lang="ts" module>
 	export interface QuestionSearchValue {
 		id: number;
 		url: string;
@@ -16,23 +16,29 @@
 </script>
 
 <script lang="ts">
-	import { createEventDispatcher } from 'svelte';
 	import { Spinner } from '$lib/components/atoms';
 
-	export let placeholder = 'Search...';
-	export let loading = false;
-	export let options: QuestionSearchOption[] = [];
+	interface Props {
+		placeholder?: string;
+		loading?: boolean;
+		options?: QuestionSearchOption[];
+		onsearch?: (detail: { text: string }) => void;
+		onselection?: (value: QuestionSearchValue) => void;
+	}
 
-	let searchTerm = '';
-	let activeIndex = -1;
-	let isOpen = false;
-	let inputElement: HTMLDivElement;
+	let {
+		placeholder = 'Search...',
+		loading = false,
+		options = [],
+		onsearch,
+		onselection
+	}: Props = $props();
+
+	let searchTerm = $state('');
+	let activeIndex = $state(-1);
+	let isOpen = $state(false);
+	let inputElement: HTMLDivElement | undefined = $state();
 	let timer: ReturnType<typeof setTimeout> | undefined;
-
-	const dispatch = createEventDispatcher<{
-		search: { text: string };
-		selection: QuestionSearchValue;
-	}>();
 
 	function handleInput(e: Event) {
 		const target = e.target as HTMLInputElement | null;
@@ -41,7 +47,7 @@
 			isOpen = true;
 			clearTimeout(timer);
 			timer = setTimeout(() => {
-				dispatch('search', { text: searchTerm });
+				onsearch?.({ text: searchTerm });
 			}, 300);
 		} else {
 			isOpen = false;
@@ -76,7 +82,7 @@
 	function selectOption(option: QuestionSearchOption) {
 		searchTerm = option.text;
 		isOpen = false;
-		dispatch('selection', option.value);
+		onselection?.(option.value);
 	}
 
 	function handleClickOutside(e: MouseEvent) {
@@ -86,16 +92,16 @@
 	}
 </script>
 
-<svelte:window on:click={handleClickOutside} />
+<svelte:window onclick={handleClickOutside} />
 
 <div class="search-container" bind:this={inputElement}>
 	<div class="input-wrapper">
 		<input
 			type="text"
 			bind:value={searchTerm}
-			on:input={handleInput}
-			on:keydown={handleKeydown}
-			on:focus={() => searchTerm && searchTerm.length > 1 && (isOpen = true)}
+			oninput={handleInput}
+			onkeydown={handleKeydown}
+			onfocus={() => searchTerm && searchTerm.length > 1 && (isOpen = true)}
 			{placeholder}
 			class="search-input"
 		/>
@@ -108,7 +114,7 @@
 			<button
 				type="button"
 				class="clear-button"
-				on:click={() => {
+				onclick={() => {
 					searchTerm = '';
 					isOpen = false;
 				}}
@@ -121,9 +127,9 @@
 
 	{#if isOpen && options.length > 0}
 		<ul class="results-list">
-			{#each options as option, i}
+			{#each options as option, i (option.value.id)}
 				<li class="result-item" class:active={i === activeIndex}>
-					<button type="button" class="result-button" on:click={() => selectOption(option)}>
+					<button type="button" class="result-button" onclick={() => selectOption(option)}>
 						{option.text}
 					</button>
 				</li>

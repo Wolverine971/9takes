@@ -1,11 +1,18 @@
 <!-- src/lib/components/admin/BlogDiffViewer.svelte -->
 <script lang="ts">
-	import { onMount } from 'svelte';
+	interface Props {
+		leftContent?: string;
+		rightContent?: string;
+		leftTitle?: string;
+		rightTitle?: string;
+	}
 
-	export let leftContent: string = '';
-	export let rightContent: string = '';
-	export let leftTitle: string = 'Version A';
-	export let rightTitle: string = 'Version B';
+	let {
+		leftContent = '',
+		rightContent = '',
+		leftTitle = 'Version A',
+		rightTitle = 'Version B'
+	}: Props = $props();
 
 	interface DiffLine {
 		type: 'added' | 'removed' | 'unchanged' | 'modified';
@@ -14,8 +21,6 @@
 		leftText?: string;
 		rightText?: string;
 	}
-
-	let diffLines: DiffLine[] = [];
 
 	function computeDiff(left: string, right: string): DiffLine[] {
 		const leftLines = left.split('\n');
@@ -126,19 +131,7 @@
 		return result;
 	}
 
-	function updateDiff() {
-		diffLines = computeDiff(leftContent, rightContent);
-	}
-
-	onMount(() => {
-		updateDiff();
-	});
-
-	$: {
-		// Reactively update diff when content changes
-		(leftContent, rightContent);
-		updateDiff();
-	}
+	let diffLines: DiffLine[] = $derived(computeDiff(leftContent, rightContent));
 
 	function getLineClass(type: string): string {
 		switch (type) {
@@ -178,7 +171,8 @@
 
 	<!-- Diff Content -->
 	<div class="diff-content bg-white">
-		{#each diffLines as line, index}
+		<!-- Each diff row has a unique (left line, right line) pair: both counters only move forward. -->
+		{#each diffLines as line (`${line.leftLineNumber ?? ''}:${line.rightLineNumber ?? ''}`)}
 			<div class="grid min-h-[1.5rem] grid-cols-2 gap-0 {getLineClass(line.type)}">
 				<!-- Left Side -->
 				<div class="flex">

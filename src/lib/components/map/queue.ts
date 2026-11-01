@@ -1,51 +1,39 @@
 // src/lib/components/map/queue.ts
-import { writable, type Unsubscriber, type Writable } from 'svelte/store';
-
 type QueueCommand = [string, unknown[]];
 type CommandMap = Record<string, (...args: unknown[]) => unknown>;
 
+/** Buffers map commands sent before the map is ready, then runs them (and later ones) against it. */
 export class EventQueue {
-	private queue: Writable<QueueCommand[]>;
-	private unsubscribe: Unsubscriber | null;
-	private started: boolean;
-
-	constructor() {
-		this.queue = writable([]);
-		this.unsubscribe = null;
-		this.started = false;
-	}
+	private pending: QueueCommand[] = [];
+	private target: CommandMap | null = null;
 
 	send(command: string, params: unknown[] = []): void {
 		if (!command) {
 			return;
 		}
-		this.queue.update((q) => [...q, [command, params]]);
+		if (this.target) {
+			this.run(this.target, command, params);
+		} else {
+			this.pending.push([command, params]);
+		}
 	}
 
 	start(map: CommandMap): void {
-		// Starting event queue
-		this.unsubscribe = this.queue.subscribe((queue) => {
-			while (queue.length) {
-				const next = queue.shift();
-				if (!next) {
-					continue;
-				}
-				const [command, params] = next;
-				const handler = map[command];
-				if (typeof handler === 'function') {
-					handler.apply(map, params);
-				}
-			}
-		});
-		this.started = true;
+		this.target = map;
+		for (const [command, params] of this.pending.splice(0)) {
+			this.run(map, command, params);
+		}
 	}
 
 	stop(): void {
-		if (!this.started) {
-			return;
+		this.target = null;
+		this.pending = [];
+	}
+
+	private run(map: CommandMap, command: string, params: unknown[]): void {
+		const handler = map[command];
+		if (typeof handler === 'function') {
+			handler.apply(map, params);
 		}
-		this.unsubscribe?.();
-		this.queue = writable([]);
-		this.started = false;
 	}
 }

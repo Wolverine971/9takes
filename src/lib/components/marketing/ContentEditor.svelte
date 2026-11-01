@@ -18,17 +18,35 @@
 		oncancel?: () => void;
 	} = $props();
 
-	let editingContent: ContentItem = $state(contentItem ? { ...contentItem } : ({} as ContentItem));
-	let selectedTemplate: Template | null = $state(null);
-	let isThreadView = $state(false);
-	let threadBlocks: string[] = $state([]);
-	let blockToDelete: number | null = $state(null);
-
-	let contentTextWithSeparators: string = $state(editingContent.content_text || '');
-	let contentTextWithoutSeparators: string = $state(removeSeparators(contentTextWithSeparators));
+	type ThreadBlock = { id: number; text: string };
 
 	const SEPARATOR = '-------sep sep sep-------';
 	const MAX_CHARS = 280;
+
+	// Form drafts seeded from the prop: edits override them, and they reset if a
+	// different contentItem is passed in. Each seeds from the prop (not from each
+	// other) so editing one field never resets the text drafts.
+	let editingContent: ContentItem = $derived(
+		contentItem ? { ...contentItem } : ({} as ContentItem)
+	);
+	let contentTextWithSeparators: string = $derived(contentItem?.content_text || '');
+	let contentTextWithoutSeparators: string = $derived(
+		removeSeparators(contentItem?.content_text || '')
+	);
+
+	let selectedTemplate: Template | null = $state(null);
+	let isThreadView = $state(false);
+	let threadBlocks: ThreadBlock[] = $state([]);
+	let blockToDelete: number | null = $state(null);
+	let nextThreadBlockId = 0;
+
+	function toThreadBlocks(texts: string[]): ThreadBlock[] {
+		return texts.map((text) => ({ id: nextThreadBlockId++, text }));
+	}
+
+	function joinThreadBlocks(): string {
+		return threadBlocks.map((block) => block.text).join(SEPARATOR);
+	}
 
 	let scheduledDateValue = $derived(formatDateForInput(editingContent.scheduled_date));
 	let accordionOpen = $state(false);
@@ -62,7 +80,7 @@
 		if (field === 'content_text') {
 			contentTextWithSeparators = value;
 			contentTextWithoutSeparators = removeSeparators(value);
-			threadBlocks = splitIntoThreads(value);
+			threadBlocks = toThreadBlocks(splitIntoThreads(value));
 		}
 	}
 
@@ -82,30 +100,29 @@
 
 	function toggleThreadView() {
 		if (isThreadView) {
-			threadBlocks = splitIntoThreads(contentTextWithSeparators);
+			threadBlocks = toThreadBlocks(splitIntoThreads(contentTextWithSeparators));
 		} else {
-			contentTextWithSeparators = threadBlocks.join(SEPARATOR);
+			contentTextWithSeparators = joinThreadBlocks();
 			contentTextWithoutSeparators = removeSeparators(contentTextWithSeparators);
 		}
 	}
 
 	function updateThreadBlock(index: number, value: string) {
-		threadBlocks[index] = value;
-		threadBlocks = [...threadBlocks];
-		contentTextWithSeparators = threadBlocks.join(SEPARATOR);
+		threadBlocks[index].text = value;
+		contentTextWithSeparators = joinThreadBlocks();
 		contentTextWithoutSeparators = removeSeparators(contentTextWithSeparators);
 		updateEditingContent('content_text', contentTextWithSeparators);
 	}
 
 	function addThreadBlock() {
-		threadBlocks = [...threadBlocks, ''];
-		contentTextWithSeparators = threadBlocks.join(SEPARATOR);
+		threadBlocks = [...threadBlocks, ...toThreadBlocks([''])];
+		contentTextWithSeparators = joinThreadBlocks();
 		contentTextWithoutSeparators = removeSeparators(contentTextWithSeparators);
 		updateEditingContent('content_text', contentTextWithSeparators);
 	}
 
 	function confirmDeleteBlock(index: number) {
-		if (threadBlocks[index].trim()) {
+		if (threadBlocks[index].text.trim()) {
 			blockToDelete = index;
 			getModal('delete-thread-block')?.open(() => {
 				blockToDelete = null;
@@ -121,7 +138,7 @@
 
 	function deleteThreadBlock(index: number) {
 		threadBlocks = threadBlocks.filter((_, i) => i !== index);
-		contentTextWithSeparators = threadBlocks.join(SEPARATOR);
+		contentTextWithSeparators = joinThreadBlocks();
 		contentTextWithoutSeparators = removeSeparators(contentTextWithSeparators);
 		updateEditingContent('content_text', contentTextWithSeparators);
 		closeDeleteConfirmation();
@@ -191,7 +208,7 @@
 								<span class="field-label">Select Template</span>
 								<select onchange={handleTemplateSelection} class="field-input">
 									<option value="">No Template</option>
-									{#each templates as template}
+									{#each templates as template (template.id)}
 										<option value={template.id}
 											>{template.type} - {template.purpose_description}</option
 										>
@@ -234,7 +251,7 @@
 								class="field-input"
 							>
 								<option value="">No Campaign</option>
-								{#each campaigns as campaign}
+								{#each campaigns as campaign (campaign.id)}
 									<option value={campaign.id}>{campaign.name}</option>
 								{/each}
 							</select>
@@ -309,16 +326,16 @@
 			</label>
 		</div>
 		{#if isThreadView}
-			{#each threadBlocks as block, index}
+			{#each threadBlocks as block, index (block.id)}
 				<div class="thread-block">
 					<textarea
-						value={block}
+						value={block.text}
 						oninput={(e) => updateThreadBlock(index, e.currentTarget.value)}
 						rows="6"
 						class="field-input field-textarea"
-						class:over-limit={block.length > MAX_CHARS}></textarea>
-					<div class="thread-footer" class:over-limit={block.length > MAX_CHARS}>
-						{block.length}/{MAX_CHARS}
+						class:over-limit={block.text.length > MAX_CHARS}></textarea>
+					<div class="thread-footer" class:over-limit={block.text.length > MAX_CHARS}>
+						{block.text.length}/{MAX_CHARS}
 						<button type="button" class="delete-link" onclick={() => confirmDeleteBlock(index)}>
 							Delete
 						</button>

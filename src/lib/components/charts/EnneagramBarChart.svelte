@@ -3,10 +3,19 @@
 	import { onMount } from 'svelte';
 	import { TYPE_COLOR_MAP, ENNEAGRAM_TYPE_COLORS } from '$lib/constants/enneagramColors';
 
-	export let distribution: Record<number, number> = {};
-	export let title: string = 'Type Distribution';
-	export let showPercentages: boolean = true;
-	export let compact: boolean = false;
+	interface Props {
+		distribution?: Record<number, number>;
+		title?: string;
+		showPercentages?: boolean;
+		compact?: boolean;
+	}
+
+	let {
+		distribution = {},
+		title = 'Type Distribution',
+		showPercentages = true,
+		compact = false
+	}: Props = $props();
 
 	const typeColors = TYPE_COLOR_MAP;
 
@@ -14,21 +23,25 @@
 		Object.entries(ENNEAGRAM_TYPE_COLORS).map(([k, v]) => [Number(k), v.name.replace('The ', '')])
 	);
 
-	$: total = Object.values(distribution).reduce((sum, count) => sum + count, 0);
-	$: maxCount = Math.max(...Object.values(distribution), 1);
+	let total = $derived(Object.values(distribution).reduce((sum, count) => sum + count, 0));
+	let maxCount = $derived(Math.max(...Object.values(distribution), 1));
 
-	$: sortedTypes = [1, 2, 3, 4, 5, 6, 7, 8, 9].map((type) => ({
-		type,
-		count: distribution[type] || 0,
-		percentage: total > 0 ? ((distribution[type] || 0) / total) * 100 : 0,
-		width: maxCount > 0 ? ((distribution[type] || 0) / maxCount) * 100 : 0,
-		color: typeColors[type],
-		name: typeNames[type]
-	}));
+	let sortedTypes = $derived(
+		[1, 2, 3, 4, 5, 6, 7, 8, 9].map((type) => ({
+			type,
+			count: distribution[type] || 0,
+			percentage: total > 0 ? ((distribution[type] || 0) / total) * 100 : 0,
+			width: maxCount > 0 ? ((distribution[type] || 0) / maxCount) * 100 : 0,
+			color: typeColors[type],
+			name: typeNames[type]
+		}))
+	);
 
-	$: topType = sortedTypes.reduce((max, t) => (t.count > max.count ? t : max), sortedTypes[0]);
+	let topType = $derived(
+		sortedTypes.reduce((max, t) => (t.count > max.count ? t : max), sortedTypes[0])
+	);
 
-	let mounted = false;
+	let mounted = $state(false);
 	onMount(() => {
 		mounted = true;
 	});
@@ -50,7 +63,7 @@
 	{/if}
 
 	<div class="bars-container">
-		{#each sortedTypes as item, i}
+		{#each sortedTypes as item, i (item.type)}
 			<div class="bar-row" style="--delay: {i * 50}ms">
 				<div class="bar-label">
 					<span class="type-number" style="background: {item.color}">{item.type}</span>

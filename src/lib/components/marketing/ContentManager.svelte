@@ -106,8 +106,15 @@
 	function formatDate(dateStr: string) {
 		const date = new Date(dateStr);
 		const today = new Date();
-		const tomorrow = new Date(today);
-		tomorrow.setDate(tomorrow.getDate() + 1);
+		const tomorrow = new Date(
+			today.getFullYear(),
+			today.getMonth(),
+			today.getDate() + 1,
+			today.getHours(),
+			today.getMinutes(),
+			today.getSeconds(),
+			today.getMilliseconds()
+		);
 
 		if (date.toDateString() === today.toDateString()) {
 			return {
@@ -163,7 +170,7 @@
 			<select bind:value={selectedCampaignId} class="filter-select" aria-label="Filter by campaign">
 				<option value="all">All Campaigns</option>
 				<option value="no-campaign">No Campaign</option>
-				{#each campaigns as campaign}
+				{#each campaigns as campaign (campaign.id)}
 					<option value={campaign.id}>{campaign.name}</option>
 				{/each}
 			</select>

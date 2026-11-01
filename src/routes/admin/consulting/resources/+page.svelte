@@ -235,7 +235,7 @@
 				>
 					All ({data.resources.length})
 				</button>
-				{#each categoryEntries as [category, info]}
+				{#each categoryEntries as [category, info] (category)}
 					<button
 						type="button"
 						class="filter-pill"
@@ -281,7 +281,7 @@
 					</div>
 
 					<div class="priority-grid">
-						{#each pinnedResources as resource}
+						{#each pinnedResources as resource (resource.id)}
 							<a href="/admin/consulting/resources/{resource.slug}" class="priority-card">
 								<div class="priority-card__top">
 									<span class="category-chip"
@@ -306,7 +306,7 @@
 				</section>
 			{/if}
 
-			{#each categorySections as section}
+			{#each categorySections as section (section.category)}
 				<section class="panel">
 					<div class="panel-head">
 						<div>
@@ -317,7 +317,7 @@
 					</div>
 
 					<div class="resource-list">
-						{#each section.resources as resource}
+						{#each section.resources as resource (resource.id)}
 							<a href="/admin/consulting/resources/{resource.slug}" class="resource-row">
 								<div class="resource-row__meta">
 									<span>Updated {formatDate(resource.updated_at)}</span>
@@ -354,7 +354,7 @@
 				</div>
 
 				<div class="recent-list">
-					{#each recentResources as resource}
+					{#each recentResources as resource (resource.id)}
 						<a href="/admin/consulting/resources/{resource.slug}" class="recent-item">
 							<div>
 								<strong>{resource.title}</strong>
@@ -375,7 +375,7 @@
 				</div>
 
 				<div class="blog-links">
-					{#each blogLinks as link}
+					{#each blogLinks as link (link.href)}
 						<a href={link.href} target="_blank" rel="noreferrer" class="blog-link">
 							<strong>{link.title}</strong>
 							<span>{link.description}</span>

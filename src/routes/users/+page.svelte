@@ -4,16 +4,20 @@
 	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
 	import { convertDateToReadable } from '../../utils/conversions';
 
-	export let data: PageData;
+	let { data }: { data: PageData } = $props();
 
-	const formattedSignups: any[] = data?.signups?.length
-		? data?.signups?.map((s) => {
-				const newdate = convertDateToReadable(s.created_at ?? '');
-				return { ...s, createdAt: newdate };
-			})
-		: [];
-	let active: any = null;
-	let activeAdmin: boolean = false;
+	const formattedSignups: any[] = $derived(
+		data?.signups?.length
+			? data?.signups?.map((s) => {
+					const newdate = convertDateToReadable(s.created_at ?? '');
+					return { ...s, createdAt: newdate };
+				})
+			: []
+	);
+	// Follows the load; a saved admin toggle replaces its row locally.
+	let profiles = $derived(data.profiles);
+	let active: any = $state(null);
+	let activeAdmin: boolean = $state(false);
 
 	const save = async () => {
 		let body = new FormData();
@@ -24,18 +28,11 @@
 			method: 'POST',
 			body
 		});
-		if (data.profiles) {
-			data.profiles = data?.profiles?.map((p) => {
-				if (p.email === active.email) {
-					p.admin = activeAdmin;
-				}
-				return p;
-			});
+		if (profiles) {
+			profiles = profiles.map((p) => (p.email === active.email ? { ...p, admin: activeAdmin } : p));
 		}
 		getModal('user-modal2').close();
 	};
-
-	// export let data: PageData;
 </script>
 
 <div class="glass-card">
@@ -44,9 +41,9 @@
 			<h1 style="">Admin Page</h1>
 		</div>
 
-		{#if data.profiles?.length}
+		{#if profiles?.length}
 			<div class="pretty-div">
-				<h2>User Profiles ({data.profiles?.length})</h2>
+				<h2>User Profiles ({profiles?.length})</h2>
 				<div class="scroll-table">
 					<table>
 						<thead>
@@ -60,7 +57,7 @@
 							</tr>
 						</thead>
 						<tbody>
-							{#each data.profiles as profile}
+							{#each profiles as profile (profile.id)}
 								<tr>
 									<td>{profile.email}</td>
 									<td>{profile.first_name} {profile.last_name}</td>
@@ -72,7 +69,7 @@
 									<td>
 										<button
 											type="button"
-											on:click={() => {
+											onclick={() => {
 												active = { ...profile };
 												activeAdmin = !!active.admin;
 												getModal('user-modal2').open();
@@ -102,7 +99,7 @@
 							</tr>
 						</thead>
 						<tbody>
-							{#each formattedSignups as signup}
+							{#each formattedSignups as signup (signup.id)}
 								<tr>
 									<td>{signup.email}</td>
 									<td>{signup.name}</td>
@@ -135,7 +132,7 @@
 
 		<button
 			type="button"
-			on:click={() => {
+			onclick={() => {
 				save();
 			}}
 		>

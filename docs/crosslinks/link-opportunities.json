@@ -320,33 +320,6 @@
 			"excerpt": "Type 7 (The Enthusiast) shows the highest correlation with ADHD symptoms, but every Enneagram type can have ADHD. And each experiences it differently. Your personality type shapes how ADHD manifests and which coping stra…"
 		},
 		{
-			"id": "/enneagram-corner/astrology-and-the-enneagram -> /enneagram-corner/why-the-next-thing-wont-fix-it-type-7",
-			"score": 1.74,
-			"target": {
-				"url": "/enneagram-corner/why-the-next-thing-wont-fix-it-type-7",
-				"title": "Why the Next Thing Won't Fix It (How Type 7s Actually Find What They're Looking For)",
-				"kind": "blog",
-				"section": "enneagram-corner",
-				"impressions": 189,
-				"clicks": 1,
-				"position": 17.1,
-				"inbound": 13
-			},
-			"source": {
-				"url": "/enneagram-corner/astrology-and-the-enneagram",
-				"file": "src/blog/enneagram/astrology-and-the-enneagram.md",
-				"section": "enneagram-corner",
-				"impressions": 11788,
-				"outCount": 16
-			},
-			"line": 90,
-			"anchor": "next thing",
-			"phrase": "next thing",
-			"phraseKind": "title",
-			"mentionScore": 2,
-			"excerpt": "…ou're a [Type 7](/enneagram-corner/enneagram-type-7). If freedom means nobody tells you what to do, look at [Type 8](/enneagram-corner/enneagram-type-8). The tell: 7s run toward the next thing. 8s refuse to be held back."
-		},
-		{
 			"id": "/community/societal-ticking-time-bombs -> /enneagram-corner/enneagram-and-adhd-which-types-struggle-most",
 			"score": 1.72,
 			"target": {
@@ -453,6 +426,33 @@
 			"phraseKind": "gsc",
 			"mentionScore": 1.5,
 			"excerpt": "…y shrugged. He kept making podcasts and specials, built an independent audience too big for the network to keep ignoring, and in 2024 SNL brought him back as the host. He won by refusing to fight the thing that hurt him."
+		},
+		{
+			"id": "/enneagram-corner/astrology-and-the-enneagram -> /enneagram-corner/why-the-next-thing-wont-fix-it-type-7",
+			"score": 1.68,
+			"target": {
+				"url": "/enneagram-corner/why-the-next-thing-wont-fix-it-type-7",
+				"title": "Why the Next Thing Won't Fix It (How Type 7s Actually Find What They're Looking For)",
+				"kind": "blog",
+				"section": "enneagram-corner",
+				"impressions": 189,
+				"clicks": 1,
+				"position": 17.1,
+				"inbound": 14
+			},
+			"source": {
+				"url": "/enneagram-corner/astrology-and-the-enneagram",
+				"file": "src/blog/enneagram/astrology-and-the-enneagram.md",
+				"section": "enneagram-corner",
+				"impressions": 11788,
+				"outCount": 16
+			},
+			"line": 90,
+			"anchor": "next thing",
+			"phrase": "next thing",
+			"phraseKind": "title",
+			"mentionScore": 2,
+			"excerpt": "…ou're a [Type 7](/enneagram-corner/enneagram-type-7). If freedom means nobody tells you what to do, look at [Type 8](/enneagram-corner/enneagram-type-8). The tell: 7s run toward the next thing. 8s refuse to be held back."
 		},
 		{
 			"id": "/enneagram-corner/enneagram-dating-guide-for-women -> /enneagram-corner/which-enneagram-type-is-most-likely-to-be-a-narcissist",
@@ -941,33 +941,6 @@
 			"excerpt": "…trial level on May 18, 2026. A nine-person advisory jury unanimously found that Elon Musk waited too long to bring his claims, and Judge Yvonne Gonzalez Rogers adopted that finding and dismissed Musk's remaining claims. …"
 		},
 		{
-			"id": "/enneagram-corner/how-to-apologize-like-a-pro -> /enneagram-corner/why-the-next-thing-wont-fix-it-type-7",
-			"score": 1.49,
-			"target": {
-				"url": "/enneagram-corner/why-the-next-thing-wont-fix-it-type-7",
-				"title": "Why the Next Thing Won't Fix It (How Type 7s Actually Find What They're Looking For)",
-				"kind": "blog",
-				"section": "enneagram-corner",
-				"impressions": 189,
-				"clicks": 1,
-				"position": 17.1,
-				"inbound": 13
-			},
-			"source": {
-				"url": "/enneagram-corner/how-to-apologize-like-a-pro",
-				"file": "src/blog/enneagram/how-to-apologize-like-a-pro.md",
-				"section": "enneagram-corner",
-				"impressions": 1190,
-				"outCount": 5
-			},
-			"line": 183,
-			"anchor": "next thing",
-			"phrase": "next thing",
-			"phraseKind": "title",
-			"mentionScore": 2,
-			"excerpt": "…y can't stand the weight of her disappointment in the air. So you reach for the next thing: ice cream, a trip, a joke, a plan. She watches you do it and thinks, _this is why I can't stay hurt around him. He won't let me.…"
-		},
-		{
 			"id": "/enneagram-corner/mental-health/enneagram-parenting-mental-health -> /enneagram-corner/enneagram-and-adhd-which-types-struggle-most",
 			"score": 1.48,
 			"target": {
@@ -1074,6 +1047,33 @@
 			"phraseKind": "gsc",
 			"mentionScore": 1.5,
 			"excerpt": "- **Injustice they're powerless to correct**: Watching abuse happen and being unable to stop it. Systemic corruption they can't reform. Evil winning."
+		},
+		{
+			"id": "/enneagram-corner/how-to-apologize-like-a-pro -> /enneagram-corner/why-the-next-thing-wont-fix-it-type-7",
+			"score": 1.44,
+			"target": {
+				"url": "/enneagram-corner/why-the-next-thing-wont-fix-it-type-7",
+				"title": "Why the Next Thing Won't Fix It (How Type 7s Actually Find What They're Looking For)",
+				"kind": "blog",
+				"section": "enneagram-corner",
+				"impressions": 189,
+				"clicks": 1,
+				"position": 17.1,
+				"inbound": 14
+			},
+			"source": {
+				"url": "/enneagram-corner/how-to-apologize-like-a-pro",
+				"file": "src/blog/enneagram/how-to-apologize-like-a-pro.md",
+				"section": "enneagram-corner",
+				"impressions": 1190,
+				"outCount": 5
+			},
+			"line": 183,
+			"anchor": "next thing",
+			"phrase": "next thing",
+			"phraseKind": "title",
+			"mentionScore": 2,
+			"excerpt": "…y can't stand the weight of her disappointment in the air. So you reach for the next thing: ice cream, a trip, a joke, a plan. She watches you do it and thinks, _this is why I can't stay hurt around him. He won't let me.…"
 		},
 		{
 			"id": "/enneagram-corner/how-type-8-challengers-actually-succeed -> /pop-culture/comedy-kings-enneagram-analysis",

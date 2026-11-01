@@ -20,7 +20,7 @@
 	} as const;
 
 	let numberOfQRCodes = $state(12);
-	let qrCodes = $state<{ id: string; url: string }[]>([]);
+	let qrCodes = $state.raw<{ id: string; url: string }[]>([]);
 	let showPrintView = $state(false);
 
 	let linkDropCount = $derived(data?.linkDrops?.length || 0);
@@ -89,7 +89,7 @@
 		</div>
 	{:else if showPrintView}
 		<div class="print-grid">
-			{#each qrCodes as qr}
+			{#each qrCodes as qr (qr.url)}
 				<div class="print-item">
 					<img src={qr.url} alt="QR code {qr.id}" />
 					<span class="brand-label">9takes</span>
@@ -98,7 +98,7 @@
 		</div>
 	{:else}
 		<div class="qr-grid">
-			{#each qrCodes as qr}
+			{#each qrCodes as qr (qr.url)}
 				<div class="qr-card">
 					<img src={qr.url} alt="QR code {qr.id}" />
 					<div class="qr-info">

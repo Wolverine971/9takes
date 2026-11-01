@@ -98,8 +98,9 @@
 	});
 
 	// Qualified impression: half visible for 750ms, once per tab and surface.
+	// Attachment: re-observes if the question props change (a new question is a new impression).
 	function trackStrategicQuestionImpression(node: HTMLElement) {
-		const destroy = observeQualifiedQuestionImpression(
+		return observeQualifiedQuestionImpression(
 			node,
 			{
 				questionId,
@@ -118,7 +119,6 @@
 				}
 			}
 		);
-		return { destroy };
 	}
 
 	async function submit() {
@@ -366,7 +366,7 @@
 	}
 </script>
 
-<section class="sq" use:trackStrategicQuestionImpression aria-label="A question for you">
+<section class="sq" {@attach trackStrategicQuestionImpression} aria-label="A question for you">
 	{#if phase === 'ask'}
 		<p class="sq-question">{question}</p>
 		<p class="sq-deal">Give your take. Then see how nine different minds answered it.</p>

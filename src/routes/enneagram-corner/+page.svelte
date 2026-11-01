@@ -177,6 +177,7 @@
 
 	// Group enneagramBlogs by type[0]; server already de-duped + capped per topic.
 	const blogsByType = $derived.by(() => {
+		// eslint-disable-next-line svelte/prefer-svelte-reactivity -- temporary grouping map inside a derived, never mutated afterwards
 		const map = new Map<string, typeof data.enneagramBlogs>();
 		for (const post of data.enneagramBlogs) {
 			const t = post.type?.[0] ?? '';
@@ -481,7 +482,7 @@
 			<p class="section-sub">Eight angles on the Enneagram. Pick your entry point.</p>
 		</header>
 
-		{#each topics as topic, ti}
+		{#each topics as topic, ti (topic.id)}
 			{@const topicPosts =
 				topic.type === 'nine-types'
 					? [...(blogsByType.get(topic.type) ?? [])].sort((a, b) => a.slug.localeCompare(b.slug))

@@ -1,32 +1,91 @@
 <!-- src/lib/components/blog/TableOfContents.svelte -->
+<script module lang="ts">
+	import type { Attachment } from 'svelte/attachments';
+
+	/**
+	 * Attach to the article element to feed the TOC's `content` prop: reports the
+	 * element's HTML right away and again after child-list changes (late-rendering
+	 * headings, client-side navigation between posts). Empty HTML is skipped.
+	 */
+	export function trackArticleHtml(
+		onChange: (html: string) => void,
+		{ subtree = true, debounceMs = 0 }: { subtree?: boolean; debounceMs?: number } = {}
+	): Attachment<HTMLElement> {
+		return (node) => {
+			let timer: ReturnType<typeof setTimeout> | undefined;
+			const report = () => {
+				const html = node.innerHTML;
+				if (html.trim() !== '') onChange(html);
+			};
+
+			report();
+
+			const observer = new MutationObserver((mutations) => {
+				if (!mutations.some((mutation) => mutation.type === 'childList')) return;
+				if (!debounceMs) return report();
+				clearTimeout(timer);
+				timer = setTimeout(report, debounceMs);
+			});
+			observer.observe(node, { childList: true, subtree });
+
+			return () => {
+				clearTimeout(timer);
+				observer.disconnect();
+			};
+		};
+	}
+</script>
+
 <script lang="ts">
 	// The article stylesheet is intentionally route-scoped through this shared
 	// article-chrome component. Every public long-form template renders a TOC,
 	// so non-editorial routes no longer pay for blog furniture and prose rules.
 	import '../../../scss/blog.scss';
-	import { onMount, onDestroy, afterUpdate } from 'svelte';
+	import { onMount, untrack } from 'svelte';
 	import { fly } from 'svelte/transition';
 	import { prefersReducedMotion } from 'svelte/motion';
-	import { writable, type Writable } from 'svelte/store';
 	import { browser } from '$app/environment';
 	import { replaceState } from '$app/navigation';
 	import { page } from '$app/state';
 
-	export let contentStore: Writable<string>;
+	interface Props {
+		/**
+		 * Rendered article HTML, kept current by the page. Drives the client-side
+		 * fallback TOC when the server sent no usable headings.
+		 */
+		content?: string;
+		/** Server-side headings for SSR rendering (optional, falls back to client-side DOM parsing) */
+		headings?: App.TocHeading[];
+		// Configuration options with defaults
+		showAtScrollY?: number;
+		hideBeforeBottom?: number;
+		/** Width for sidebar TOC */
+		sidebarWidth?: number;
+		/** Breakpoint needs enough space for content + sidebar */
+		desktopBreakpoint?: number;
+		maxTocEntries?: number;
+		title?: string;
+		/** Controls which side the floating sidebar sits on */
+		sidePosition?: 'left' | 'right' | 'none';
+		/** Controls which version renders */
+		renderMode?: 'both' | 'sidebar-only' | 'accordion-only';
+		/** Explicit route-level default when needed */
+		accordionOpen?: boolean;
+	}
 
-	// Server-side headings for SSR rendering (optional, falls back to client-side DOM parsing)
-	export let headings: App.TocHeading[] | undefined = undefined;
-
-	// Configuration options with defaults
-	export let showAtScrollY: number = 1000;
-	export let hideBeforeBottom: number = 300;
-	export let sidebarWidth: number = 200; // Width for sidebar TOC
-	export let desktopBreakpoint: number = 1300; // Breakpoint needs enough space for content + sidebar
-	export let maxTocEntries: number = 24;
-	export let title: string = 'Table of Contents';
-	export let sidePosition: 'left' | 'right' | 'none' = 'left'; // New prop to control side position
-	export let renderMode: 'both' | 'sidebar-only' | 'accordion-only' = 'both'; // Control which version renders
-	export let accordionOpen: boolean | undefined = undefined; // Explicit route-level default when needed
+	let {
+		content = '',
+		headings = undefined,
+		showAtScrollY = 1000,
+		hideBeforeBottom = 300,
+		sidebarWidth = 200,
+		desktopBreakpoint = 1300,
+		maxTocEntries = 24,
+		title = 'Table of Contents',
+		sidePosition = 'left',
+		renderMode = 'both',
+		accordionOpen = undefined
+	}: Props = $props();
 
 	// Smart format detection thresholds
 	const FORMAT_THRESHOLDS = {
@@ -36,17 +95,20 @@
 		DENSE: { maxHeaders: Infinity, maxDepth: 5 }
 	};
 
-	let visible = false;
-	let windowWidth: number = 0;
-	let contentWidth: number = 64 * 16; // 64rem default
+	let visible = $state(false);
+	let windowWidth = $state(0);
+	let contentWidth = $state(64 * 16); // 64rem default
 	let mainElement: HTMLElement | null = null;
-	let toc: string = '';
-	let content: string = '';
-	let initialized = false;
-	let contentProcessed = false;
+	// Client-generated TOC (DOM fallback). Only used when `headings` yields nothing.
+	let domToc = $state('');
+	// The DOM fallback retries once, after the first failed attempt in this
+	// component's lifetime, to give late-rendering content time to settle.
+	let domTocRetried = false;
+	let domTocQueued = false;
 	const MARQUEE_HOVER_DELAY = 500;
 	const MARQUEE_PIXELS_PER_SECOND = 28;
 	const MARQUEE_MIN_DURATION = 6;
+	// eslint-disable-next-line svelte/prefer-svelte-reactivity -- hover-timer bookkeeping, never rendered
 	const marqueeTimers = new Map<HTMLAnchorElement, ReturnType<typeof setTimeout>>();
 
 	interface TocItem {
@@ -66,9 +128,6 @@
 		minThreshold: number;
 		headerSelector: string;
 	}
-
-	let expandedSections: Set<string> = new Set();
-	let contentAnalysis: ContentAnalysis | null = null;
 
 	/**
 	 * When the heading list exceeds maxEntries, progressively drop the deepest
@@ -179,20 +238,20 @@
 		return escapeHtml(text).replace(/"/g, '&quot;');
 	}
 
-	// If server-provided headings exist, generate TOC immediately (SSR-safe)
-	$: if (headings && headings.length > 0 && !contentProcessed) {
-		const ssrToc = generateTocFromHeadings(headings);
-		if (ssrToc) {
-			toc = ssrToc;
-			contentProcessed = true;
-			initialized = true;
-		}
-	}
+	// If server-provided headings exist, the TOC comes from them (SSR-safe) and
+	// the client-side DOM fallback never runs.
+	const headingsToc = $derived(
+		headings && headings.length > 0 ? generateTocFromHeadings(headings) : ''
+	);
+	const toc = $derived(headingsToc || domToc);
 
 	// Calculate sidebar position
-	$: sidebarPosition = calculateSidebarPosition(windowWidth, contentWidth, sidebarWidth);
-	$: showSidebar =
-		visible && toc !== '' && windowWidth >= desktopBreakpoint && sidebarPosition !== null;
+	const sidebarPosition = $derived(
+		calculateSidebarPosition(windowWidth, contentWidth, sidebarWidth)
+	);
+	const showSidebar = $derived(
+		visible && toc !== '' && windowWidth >= desktopBreakpoint && sidebarPosition !== null
+	);
 
 	function calculateSidebarPosition(winWidth: number, contentW: number, sidebarW: number) {
 		// Main content has max-width of 56rem (896px) from Tailwind's max-w-4xl
@@ -383,7 +442,6 @@
 		try {
 			// Analyze content to get smart configuration
 			const analysis = analyzeContent(html);
-			contentAnalysis = analysis;
 
 			// First, find the article content container (could be .article-body or #blogA)
 			const actualArticleBody =
@@ -728,26 +786,25 @@
 	}
 
 	function processContent() {
-		if (!browser || !content || contentProcessed) return;
+		// One queued run at a time; it reads the latest content when it fires.
+		if (!browser || domTocQueued) return;
+		domTocQueued = true;
 
 		// Defer TOC processing to avoid blocking main thread
 		const doProcess = () => {
-			if (contentProcessed) return; // Double-check in case called multiple times
+			domTocQueued = false;
+			if (!content || headingsToc) return;
 
-			const { tocHtml, tocStructure } = generateTableOfContents(content);
+			const { tocHtml } = generateTableOfContents(content);
 
 			if (tocHtml) {
-				toc = tocHtml;
-				contentProcessed = true;
-				initialized = true;
-			} else if (!initialized) {
+				domToc = tocHtml;
+			} else if (!domTocRetried) {
 				// If first attempt failed, retry once after DOM settles
-				initialized = true;
+				domTocRetried = true;
 				setTimeout(() => {
-					if (!contentProcessed) {
-						const result = generateTableOfContents(content);
-						toc = result.tocHtml;
-						contentProcessed = true;
+					if (!headingsToc) {
+						domToc = generateTableOfContents(content).tocHtml;
 					}
 				}, 500);
 			}
@@ -817,61 +874,37 @@
 		});
 	}
 
-	// Process content whenever it changes
-	$: if (content && content !== '') {
-		processContent();
-	}
+	// Build the client-side TOC whenever the article HTML changes, unless the
+	// server headings already produced one.
+	$effect(() => {
+		if (content && !headingsToc) {
+			untrack(processContent);
+		}
+	});
 
 	onMount(() => {
-		if (browser) {
-			window.addEventListener('scroll', handleScroll);
-			window.addEventListener('resize', handleResize);
-			window.addEventListener('scroll', updateActiveTocLink);
+		// Initial setup
+		handleResize();
+		updateActiveTocLink();
 
-			// Initial setup
-			handleResize();
-			updateActiveTocLink();
-
-			// Add event listener for TOC clicks
-			document.addEventListener('click', handleTocClick);
-			document.addEventListener('pointerover', handleTocPointerOver);
-			document.addEventListener('pointerout', handleTocPointerOut);
-
-			// If we already have content from a previous subscription, process it
-			if (content) {
-				processContent();
-			}
-		}
-	});
-
-	onDestroy(() => {
-		if (browser) {
-			window.removeEventListener('scroll', handleScroll);
-			window.removeEventListener('resize', handleResize);
-			window.removeEventListener('scroll', updateActiveTocLink);
-			document.removeEventListener('click', handleTocClick);
-			document.removeEventListener('pointerover', handleTocPointerOver);
-			document.removeEventListener('pointerout', handleTocPointerOut);
-
+		return () => {
 			marqueeTimers.forEach((timer) => clearTimeout(timer));
 			marqueeTimers.clear();
-		}
+		};
 	});
 
-	// Subscribe to content changes
-	contentStore.subscribe((value) => {
-		if (value && value !== content) {
-			content = value;
-			contentProcessed = false; // Reset processing flag for new content
-		}
-	});
-
-	afterUpdate(() => {
-		if (content && !contentProcessed) {
-			processContent();
-		}
-	});
+	function handleWindowScroll() {
+		handleScroll();
+		updateActiveTocLink();
+	}
 </script>
+
+<svelte:window onscroll={handleWindowScroll} onresize={handleResize} />
+<svelte:document
+	onclick={handleTocClick}
+	onpointerover={handleTocPointerOver}
+	onpointerout={handleTocPointerOut}
+/>
 
 {#if showSidebar && sidebarPosition && (renderMode === 'both' || renderMode === 'sidebar-only')}
 	<aside

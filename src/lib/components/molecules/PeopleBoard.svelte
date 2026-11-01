@@ -11,8 +11,13 @@
 
 	type PersonImage = { type: number | string; name: string; url?: string };
 
-	let gridSize = 9;
-	export let images: PersonImage[] = [];
+	interface Props {
+		images?: PersonImage[];
+	}
+
+	let { images = [] }: Props = $props();
+
+	let gridSize = $state(9);
 
 	// We'll still track total / loaded for optional usage or debugging
 	let totalCount = 0;

@@ -29,6 +29,15 @@
 	let introDescription = $derived(introDescriptionDraft ?? category.intro_description ?? '');
 	let publicHref = $derived(data.publicHref);
 
+	/** Keys repeated strings by value plus occurrence, so duplicates stay unique. */
+	function keyedStrings(values: string[]): { key: string; value: string }[] {
+		const seen: Record<string, number> = {};
+		return values.map((value) => {
+			const n = (seen[value] = (seen[value] ?? 0) + 1);
+			return { key: n === 1 ? value : `${value}#${n}`, value };
+		});
+	}
+
 	let isDirty = $derived(
 		introMarkdown !== (category.intro_markdown ?? '') ||
 			introDescription !== (category.intro_description ?? '')
@@ -287,7 +296,7 @@
 				<h2>Child Categories</h2>
 				{#if context.childCategories.length}
 					<ul class="pill-list">
-						{#each context.childCategories as child}
+						{#each context.childCategories as child (child.id)}
 							<li>{child.name} ({child.subtreeQuestionCount})</li>
 						{/each}
 					</ul>
@@ -300,7 +309,7 @@
 				<h2>Semantic Terms</h2>
 				{#if context.semanticTerms.length}
 					<ul class="pill-list">
-						{#each context.semanticTerms as term}
+						{#each keyedStrings(context.semanticTerms) as { key, value: term } (key)}
 							<li>{term}</li>
 						{/each}
 					</ul>
@@ -313,7 +322,7 @@
 				<h2>Sample Questions</h2>
 				{#if context.sampleQuestionTitles.length}
 					<ol class="sample-list">
-						{#each context.sampleQuestionTitles as question}
+						{#each keyedStrings(context.sampleQuestionTitles) as { key, value: question } (key)}
 							<li>{question}</li>
 						{/each}
 					</ol>
@@ -326,7 +335,7 @@
 				<h2>Recent Runs</h2>
 				{#if data.recentRuns.length}
 					<ul class="run-list">
-						{#each data.recentRuns as run}
+						{#each data.recentRuns as run (run.id)}
 							<li>
 								<strong>{run.status}</strong>
 								<span>{formatDate(run.created_at)}</span>

@@ -1,9 +1,18 @@
 <!-- src/lib/components/questionPrintOut/frame.svelte -->
 <script lang="ts">
-	export let width = '100%';
-	export let height = '100%';
-	export let color = 'currentColor';
-	export let cornerSize = 80; // Size of the corner ornaments in pixels
+	interface Props {
+		width?: string;
+		height?: string;
+		color?: string;
+		cornerSize?: number; // Size of the corner ornaments in pixels
+	}
+
+	let {
+		width = '100%',
+		height = '100%',
+		color = 'currentColor',
+		cornerSize = 80
+	}: Props = $props();
 
 	const viewBoxWidth = 1000;
 	const viewBoxHeight = 1000;

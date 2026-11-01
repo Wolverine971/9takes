@@ -2,7 +2,7 @@
 <script lang="ts">
 	import type { Snippet } from 'svelte';
 	import { tick } from 'svelte';
-	import { onClickOutside } from '$lib/components/molecules/Context.svelte';
+	import { clickOutside } from '$lib/attachments/clickOutside';
 	import type {
 		ComboBoxFilter,
 		ComboBoxGroupOption,
@@ -90,19 +90,17 @@
 	let list = $state<ComboBoxOption[]>([]);
 	let isListOpen = $state(false);
 	let selectedOption = $state<ComboBoxSelectableOption | null>(null);
-	let selectedValue = $state('');
+	// Follows the `value` prop; selecting an option overrides it until the prop changes.
+	let selectedValue = $derived(value);
 	let activeIndex = $state(-1);
 	let debounceTimer = $state<ReturnType<typeof setTimeout> | null>(null);
 	let internalLoading = $state(false);
 	let activeQuery = $state('');
+	// eslint-disable-next-line svelte/prefer-svelte-reactivity -- filter-result cache read only inside showList; nothing renders from it
 	const cachedResults = new Map<string, ComboBoxOption[]>();
 
 	let isLoading = $derived(loading || internalLoading);
 	let selectableResultCount = $derived(flattenOptions(list).length);
-
-	$effect(() => {
-		selectedValue = value;
-	});
 
 	$effect(() => {
 		if (!options.length) {
@@ -228,12 +226,14 @@
 	}
 
 	function deduplicateOptions(optionsList: ComboBoxOption[]): ComboBoxOption[] {
+		// eslint-disable-next-line svelte/prefer-svelte-reactivity -- local dedupe scratch set
 		const seen = new Set<string>();
 		const deduped: ComboBoxOption[] = [];
 
 		for (const option of optionsList) {
 			if (isGroupOption(option)) {
 				const dedupedSubOptions: ComboBoxSelectableOption[] = [];
+				// eslint-disable-next-line svelte/prefer-svelte-reactivity -- local dedupe scratch set
 				const subSeen = new Set<string>();
 
 				for (const subOption of option.options) {
@@ -319,7 +319,7 @@
 		</label>
 	{/if}
 
-	<div class="combobox__input-container" use:onClickOutside={hideList}>
+	<div class="combobox__input-container" {@attach clickOutside(hideList)}>
 		{@render iconStart?.()}
 
 		<input

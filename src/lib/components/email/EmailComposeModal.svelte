@@ -1,6 +1,6 @@
 <!-- src/lib/components/email/EmailComposeModal.svelte -->
 <script lang="ts">
-	import { createEventDispatcher, tick } from 'svelte';
+	import { tick, untrack } from 'svelte';
 	import { X } from '@lucide/svelte';
 	import type { EmailRecipient } from '$lib/types/email';
 	import HtmlPreviewFrame from '$lib/components/admin/HtmlPreviewFrame.svelte';
@@ -11,42 +11,52 @@
 	const COMPOSE_MODAL_ID = 'email-compose-modal';
 	const GENERATE_MODAL_ID = 'email-generate-modal';
 
-	// Props
-	export let open = false;
-	export let recipients: EmailRecipient[] = [];
-	export let initialSubject = '';
-	export let initialContent = '';
-	export let initialScheduledFor = '';
-	export let initialDraftId: string | undefined = undefined;
+	interface Props {
+		open?: boolean;
+		recipients?: EmailRecipient[];
+		initialSubject?: string;
+		initialContent?: string;
+		initialScheduledFor?: string;
+		initialDraftId?: string | undefined;
+		onclose?: () => void;
+		onsend?: (result: { sent: number; failed: number }) => void;
+		onschedule?: (result: { recipient_count: number; scheduled_for: string }) => void;
+		onsavedraft?: (draft: { id?: string }) => void;
+	}
 
-	// Event dispatcher
-	const dispatch = createEventDispatcher<{
-		close: void;
-		send: { sent: number; failed: number };
-		schedule: { recipient_count: number; scheduled_for: string };
-		saveDraft: { id?: string };
-	}>();
+	let {
+		open = $bindable(false),
+		recipients = [],
+		initialSubject = '',
+		initialContent = '',
+		initialScheduledFor = '',
+		initialDraftId = undefined,
+		onclose,
+		onsend,
+		onschedule,
+		onsavedraft
+	}: Props = $props();
 
-	// Compose state
-	let subject = initialSubject;
-	let htmlContent = initialContent;
-	let scheduledFor = initialScheduledFor;
-	let draftId = initialDraftId;
-	let minScheduleDateTime = '';
-	let isSending = false;
-	let showPreview = false;
-	let composeError = '';
+	// Compose state. Seeded once here and re-seeded by resetForOpen() every time the
+	// modal opens, so a prop change mid-edit must not overwrite what the admin typed.
+	let subject = $state(untrack(() => initialSubject));
+	let htmlContent = $state(untrack(() => initialContent));
+	let scheduledFor = $state(untrack(() => initialScheduledFor));
+	let draftId = $state<string | undefined>(untrack(() => initialDraftId));
+	let minScheduleDateTime = $state('');
+	let isSending = $state(false);
+	let showPreview = $state(false);
+	let composeError = $state('');
 
 	// Generate modal state
-	let showGenerate = false;
-	let generateInstructions = '';
-	let generateTone: 'professional' | 'friendly' | 'casual' = 'professional';
-	let isGenerating = false;
-	let generateError = '';
+	let showGenerate = $state(false);
+	let generateInstructions = $state('');
+	let generateTone = $state<'professional' | 'friendly' | 'casual'>('professional');
+	let isGenerating = $state(false);
+	let generateError = $state('');
+	// Modal controller bookkeeping: read only inside functions, never rendered.
 	let composeControllerOpen = false;
 	let generateControllerOpen = false;
-	let previousOpenState = false;
-	let previousGenerateState = false;
 
 	function toLocalDateTimeValue(date: Date): string {
 		const year = date.getFullYear();
@@ -87,7 +97,7 @@
 		showPreview = false;
 		showGenerate = false;
 		composeError = '';
-		dispatch('close');
+		onclose?.();
 	}
 
 	function handleGenerateControllerClose() {
@@ -112,24 +122,23 @@
 		controller.open(handleGenerateControllerClose);
 	}
 
-	$: if (open !== previousOpenState) {
-		// eslint-disable-next-line no-useless-assignment -- read on the next reactive run
-		previousOpenState = open;
+	// Sync the bindable `open` prop to the imperative Modal controller (external to Svelte).
+	// Only `open` is tracked; the reset reads the initial* props without subscribing to them.
+	$effect(() => {
 		if (open) {
-			resetForOpen();
+			untrack(resetForOpen);
 			void tick().then(openComposeController);
 		} else if (composeControllerOpen) {
 			if (generateControllerOpen) getModal(GENERATE_MODAL_ID)?.close(null);
 			getModal(COMPOSE_MODAL_ID)?.close(null);
 		}
-	}
+	});
 
-	$: if (showGenerate !== previousGenerateState) {
-		// eslint-disable-next-line no-useless-assignment -- read on the next reactive run
-		previousGenerateState = showGenerate;
+	// Same for the stacked AI-generate dialog.
+	$effect(() => {
 		if (showGenerate) void tick().then(openGenerateController);
 		else if (generateControllerOpen) getModal(GENERATE_MODAL_ID)?.close(null);
-	}
+	});
 
 	/**
 	 * Close modal and reset state
@@ -222,7 +231,7 @@
 							5000
 						);
 					}
-					dispatch('schedule', {
+					onschedule?.({
 						recipient_count: result.recipient_count,
 						scheduled_for: scheduledForIso
 					});
@@ -234,7 +243,7 @@
 							5000
 						);
 					}
-					dispatch('send', { sent: result.sent, failed: result.failed });
+					onsend?.({ sent: result.sent, failed: result.failed });
 				}
 				closeModal();
 			} else {
@@ -329,7 +338,7 @@
 					draftId = result.draft.id;
 				}
 				notifications.success('Draft saved', 3000);
-				dispatch('saveDraft', { id: draftId });
+				onsavedraft?.({ id: draftId });
 			} else {
 				composeError = result.message || 'Failed to save draft.';
 				notifications.danger(composeError, 3000);

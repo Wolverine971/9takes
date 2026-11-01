@@ -8,70 +8,48 @@
 
 	let { data }: { data: PageData } = $props();
 
-	let selectedLeftVersion = $state('');
-	let selectedRightVersion = $state('');
-	let leftContent = $state('');
-	let rightContent = $state('');
-	let leftTitle = $state('');
-	let rightTitle = $state('');
-	let viewMode = $state<'diff' | 'single'>('diff');
+	type Version = PageData['versions'][number];
+
+	// Default to the latest two versions (or the only one); the selects override these until the data changes.
+	let selectedLeftVersion = $derived(
+		data.versions?.length >= 2 ? data.versions[1].id.toString() : ''
+	);
+	let selectedRightVersion = $derived(
+		data.versions?.length > 0 ? data.versions[0].id.toString() : ''
+	);
 	let activeTab = $state<'diff' | 'preview'>('diff');
 
-	let selectedRightSource = $derived(
-		data.versions?.find((v) => v.id.toString() === selectedRightVersion)?.source
+	let leftVersion = $derived(data.versions.find((v) => v.id.toString() === selectedLeftVersion));
+	let rightVersion = $derived(data.versions.find((v) => v.id.toString() === selectedRightVersion));
+	let leftContent = $derived(leftVersion?.content || '');
+	let rightContent = $derived(rightVersion?.content || '');
+	let leftTitle = $derived(
+		leftVersion
+			? `Version ${leftVersion.version_number} (${new Date(leftVersion.changed_at).toLocaleDateString()}) - ${getVersionLabel(leftVersion)}`
+			: 'Select Version'
 	);
+	let rightTitle = $derived(
+		rightVersion
+			? `Version ${rightVersion.version_number} (${new Date(rightVersion.changed_at).toLocaleDateString()}) - ${getVersionLabel(rightVersion)}${rightVersion.is_current ? ' (Current)' : ''}`
+			: 'Select Version'
+	);
+	// Only read while a right-hand version is selected: two selections diff, one shows the source.
+	let viewMode = $derived<'diff' | 'single'>(
+		selectedLeftVersion && selectedRightVersion ? 'diff' : 'single'
+	);
+
+	let selectedRightSource = $derived(rightVersion?.source);
 	let blogEnneagram = $derived(
 		typeof data.blog?.enneagram === 'number'
 			? data.blog.enneagram
 			: Number.parseInt(String(data.blog?.enneagram ?? ''), 10) || undefined
 	);
 
-	// Initialize with latest two versions if available
-	$effect(() => {
-		if (data.versions?.length > 0 && !selectedLeftVersion && !selectedRightVersion) {
-			if (data.versions.length >= 2) {
-				selectedLeftVersion = data.versions[1].id.toString();
-				selectedRightVersion = data.versions[0].id.toString();
-				viewMode = 'diff';
-			} else {
-				selectedRightVersion = data.versions[0].id.toString();
-				viewMode = 'single';
-			}
-			updateDiffContent();
-		}
-	});
-
-	function updateDiffContent() {
-		const leftVersion = data.versions.find((v) => v.id.toString() === selectedLeftVersion);
-		const rightVersion = data.versions.find((v) => v.id.toString() === selectedRightVersion);
-
-		leftContent = leftVersion?.content || '';
-		rightContent = rightVersion?.content || '';
-
-		leftTitle = leftVersion
-			? `Version ${leftVersion.version_number} (${new Date(leftVersion.changed_at).toLocaleDateString()}) - ${getVersionLabel(leftVersion)}`
-			: 'Select Version';
-		rightTitle = rightVersion
-			? `Version ${rightVersion.version_number} (${new Date(rightVersion.changed_at).toLocaleDateString()}) - ${getVersionLabel(rightVersion)}${rightVersion.is_current ? ' (Current)' : ''}`
-			: 'Select Version';
-	}
-
-	$effect(() => {
-		selectedLeftVersion;
-		selectedRightVersion;
-		updateDiffContent();
-		if (selectedLeftVersion && selectedRightVersion) {
-			viewMode = 'diff';
-		} else if (selectedRightVersion && !selectedLeftVersion) {
-			viewMode = 'single';
-		}
-	});
-
 	function formatDate(dateString: string): string {
 		return new Date(dateString).toLocaleString();
 	}
 
-	function getVersionLabel(version: any): string {
+	function getVersionLabel(version: Pick<Version, 'source'>): string {
 		switch (version.source) {
 			case 'draft':
 				return 'Draft File';
@@ -117,7 +95,7 @@
 			<label for="leftVersion" class="field-label">Left Side (Older)</label>
 			<select id="leftVersion" bind:value={selectedLeftVersion} class="field-select">
 				<option value="">Select version...</option>
-				{#each data.versions as version}
+				{#each data.versions as version (version.id)}
 					<option value={version.id}>
 						Version {version.version_number} - {formatDate(version.changed_at)} - {getVersionLabel(
 							version
@@ -132,7 +110,7 @@
 			<label for="rightVersion" class="field-label">Right Side (Newer)</label>
 			<select id="rightVersion" bind:value={selectedRightVersion} class="field-select">
 				<option value="">Select version...</option>
-				{#each data.versions as version}
+				{#each data.versions as version (version.id)}
 					<option value={version.id}>
 						Version {version.version_number} - {formatDate(version.changed_at)} - {getVersionLabel(
 							version

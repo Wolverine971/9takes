@@ -1,7 +1,11 @@
 <!-- src/lib/components/blog/ArticleSources.svelte -->
 <script lang="ts">
-	export let citations: string[] | null | undefined = [];
-	export let articleCitations: App.BlogPostCitation[] | null | undefined = [];
+	interface Props {
+		citations?: string[] | null | undefined;
+		articleCitations?: App.BlogPostCitation[] | null | undefined;
+	}
+
+	let { citations = [], articleCitations = [] }: Props = $props();
 
 	type DisplaySource = {
 		key: string;
@@ -37,6 +41,7 @@
 		rawCitations: string[] | null | undefined,
 		rawArticleCitations: App.BlogPostCitation[] | null | undefined
 	): DisplaySource[] {
+		// eslint-disable-next-line svelte/prefer-svelte-reactivity -- local dedupe set inside a pure function, never reactive
 		const seen = new Set<string>();
 		const sources: DisplaySource[] = [];
 
@@ -76,7 +81,7 @@
 		return sources;
 	}
 
-	$: sources = normalizeSources(citations, articleCitations);
+	let sources = $derived(normalizeSources(citations, articleCitations));
 </script>
 
 {#if sources.length > 0}
@@ -84,7 +89,7 @@
 		<div class="article-sources__eyebrow">Source Trail</div>
 		<h2 id="article-sources-heading">Sources Behind This Read</h2>
 		<ol>
-			{#each sources as source}
+			{#each sources as source (source.key)}
 				<li>
 					{#if source.href}
 						<a href={source.href}>{source.label}</a>

@@ -5,7 +5,13 @@
 	import ArrowLeftIcon from '$lib/components/icons/leftIcon.svelte';
 	import { Button } from '$lib/components/atoms';
 
-	export let data: PageData;
+	interface Props {
+		data: PageData;
+	}
+
+	let { data }: Props = $props();
+
+	let DraftComponent = $derived(data.component);
 
 	function formatDate(dateString: string) {
 		return new Date(dateString).toLocaleDateString('en-US', {
@@ -35,7 +41,7 @@
 	<div class="draft-header">
 		<div class="navigation">
 			<a href="/admin/drafts" class="back-link">
-				<ArrowLeftIcon iconStyle={'margin-right: .5rem'} height={'1rem'} fill={'currentColor'} />
+				<ArrowLeftIcon iconStyle="margin-right: .5rem" height="1rem" fill="currentColor" />
 				Back to Drafts
 			</a>
 		</div>
@@ -95,7 +101,7 @@
 	<div class="draft-content">
 		<div class="content-wrapper">
 			<article class="blog-article">
-				<svelte:component this={data.component} />
+				<DraftComponent />
 			</article>
 		</div>
 	</div>

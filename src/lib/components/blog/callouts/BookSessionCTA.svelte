@@ -18,9 +18,9 @@
 		const params = new URLSearchParams({
 			utm_source: 'blog',
 			utm_medium: 'session_cta',
-			utm_campaign: surface
+			utm_campaign: surface,
+			...(slug ? { utm_content: slug } : {})
 		});
-		if (slug) params.set('utm_content', slug);
 		return `/book-session?${params.toString()}#waitlist`;
 	});
 </script>

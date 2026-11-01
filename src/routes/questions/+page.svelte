@@ -7,8 +7,8 @@
   --pool-deep-rgb) live globally in src/scss/index.scss.
 -->
 <script lang="ts">
-	import { onMount, untrack } from 'svelte';
-	import { browser } from '$app/environment';
+	import { untrack } from 'svelte';
+	import type { Attachment } from 'svelte/attachments';
 	import { deserialize } from '$app/forms';
 	import { page } from '$app/state';
 	import { Button, SectionKicker } from '$lib/components/atoms';
@@ -108,6 +108,7 @@
 	// Local pagination state (Svelte 5 runes).
 	// ------------------------------------------------------------------
 	function dedupeById<T extends { id: number | string }>(items: T[]): T[] {
+		// eslint-disable-next-line svelte/prefer-svelte-reactivity -- scratch set for one dedupe pass, never rendered
 		const seen = new Set<T['id']>();
 		const out: T[] = [];
 		for (const item of items) {
@@ -129,34 +130,20 @@
 	let loadingMore = $state(false);
 	let loadMoreError = $state('');
 
-	let loadMoreTrigger: HTMLElement | undefined = $state(undefined);
-	let observer: IntersectionObserver | null = null;
-
-	type QuestionRowImpressionInput = { question: QuestionRow; position: number };
-
-	function trackQuestionRow(node: HTMLElement, input: QuestionRowImpressionInput) {
-		const observe = ({ question, position }: QuestionRowImpressionInput) =>
+	// Re-observes when the row's question or position changes. The campaign is
+	// read untracked so a same-page URL change (e.g. #open-floor) doesn't restart it.
+	function trackQuestionRow(question: QuestionRow, position: number): Attachment<HTMLElement> {
+		return (node) =>
 			observeQualifiedQuestionImpression(node, {
 				questionId: question.id,
 				questionUrl: question.url,
 				surface: 'questions_index',
 				sourcePath: '/questions',
 				position,
-				campaign: extractPageViewAttribution(page.url).utm_campaign ?? undefined,
+				campaign: untrack(() => extractPageViewAttribution(page.url).utm_campaign) ?? undefined,
 				questionCreatedAt: question.created_at,
 				responsesVisibleBeforeImpression: question.comment_count
 			});
-
-		let cleanup = observe(input);
-		return {
-			update(nextInput: QuestionRowImpressionInput) {
-				cleanup();
-				cleanup = observe(nextInput);
-			},
-			destroy() {
-				cleanup();
-			}
-		};
 	}
 
 	async function loadMore() {
@@ -197,11 +184,8 @@
 	}
 
 	// Infinite scroll trigger — observe the load-more sentinel.
-	onMount(() => {
-		if (!browser) return;
-		if (!hasMore || !loadMoreTrigger) return;
-
-		observer = new IntersectionObserver(
+	function observeLoadMore(node: HTMLElement) {
+		const observer = new IntersectionObserver(
 			(entries) => {
 				if (entries[0].isIntersecting && !loadingMore && hasMore) {
 					void loadMore();
@@ -209,13 +193,9 @@
 			},
 			{ threshold: 0.1, rootMargin: '160px' }
 		);
-		observer.observe(loadMoreTrigger);
-
-		return () => {
-			observer?.disconnect();
-			observer = null;
-		};
-	});
+		observer.observe(node);
+		return () => observer.disconnect();
+	}
 
 	// ------------------------------------------------------------------
 	// Helpers.
@@ -375,9 +355,9 @@
 				<SearchQuestion
 					{data}
 					showAskAction={Boolean(data?.user?.id)}
-					on:questionSelected={({ detail }) => {
-						if (detail?.url) {
-							void goto(`/questions/${detail.url}`);
+					onquestionSelected={(url) => {
+						if (url) {
+							void goto(`/questions/${url}`);
 						}
 					}}
 				/>
@@ -432,7 +412,7 @@
 		</div>
 
 		{#snippet questionRow(q: QuestionRow, position: number)}
-			<li class="question-row" use:trackQuestionRow={{ question: q, position }}>
+			<li class="question-row" {@attach trackQuestionRow(q, position)}>
 				<a href={`/questions/${q.url}`} class="question-row-link">
 					<span class="question-row-text">
 						{q.question_formatted ?? q.question}
@@ -522,7 +502,7 @@
 		{/if}
 
 		{#if hasMore}
-			<div class="load-more-row" bind:this={loadMoreTrigger}>
+			<div class="load-more-row" {@attach observeLoadMore}>
 				<Button size="lg" variant="secondary" loading={loadingMore} onclick={() => void loadMore()}>
 					{loadingMore ? 'Loading…' : 'Load more questions →'}
 				</Button>

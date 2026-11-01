@@ -7,6 +7,7 @@
   guarded by requireAdmin). Mounted inside AdminQuestionItem's details view.
 -->
 <script lang="ts">
+	import { untrack } from 'svelte';
 	import { deserialize } from '$app/forms';
 	import { Button, Field, Input } from '$lib/components/atoms';
 	import { notifications } from '$lib/components/molecules/notifications';
@@ -36,27 +37,32 @@
 
 	let { questionId, starterRank = null, pinnedCommentIds = [], oncurationSaved }: Props = $props();
 
-	let rankInput = $state('');
-	let pinnedInput = $state('');
+	// The editable fields re-seed whenever a different question is opened in the
+	// modal (each reads only `questionId`); saves to the same question keep them.
+	let rankInput = $derived.by(() => {
+		void questionId;
+		return untrack(() => (starterRank ? String(starterRank) : ''));
+	});
+	let pinnedInput = $derived.by(() => {
+		void questionId;
+		return untrack(() => (pinnedCommentIds ?? []).join(', '));
+	});
+	let confirmReset = $derived.by(() => {
+		void questionId;
+		return false;
+	});
+	let answers = $derived.by<AnswerOption[] | null>(() => {
+		void questionId;
+		return null;
+	});
+	let answersError = $derived.by(() => {
+		void questionId;
+		return '';
+	});
 	let saving = $state(false);
 	let resetting = $state(false);
-	let confirmReset = $state(false);
 	let rankingEnabled = $state(false);
 	let loadingAnswers = $state(false);
-	let answers = $state<AnswerOption[] | null>(null);
-	let answersError = $state('');
-	let lastSyncedQuestionId = $state<number | null>(null);
-
-	// Re-seed the editable fields whenever a different question is opened in the modal.
-	$effect(() => {
-		if (lastSyncedQuestionId === questionId) return;
-		lastSyncedQuestionId = questionId;
-		rankInput = starterRank ? String(starterRank) : '';
-		pinnedInput = (pinnedCommentIds ?? []).join(', ');
-		answers = null;
-		answersError = '';
-		confirmReset = false;
-	});
 
 	let selectedPinnedIds = $derived(
 		normalizePinnedCommentIds(

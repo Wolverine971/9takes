@@ -31,8 +31,8 @@
 		})
 	);
 
-	// svelte-ignore state_referenced_locally
-	let notifyOn = $state(data.result.notifyOn);
+	// Seeded from the result; a successful save overrides it until the result changes.
+	let notifyOn = $derived(data.result.notifyOn);
 	let email = $state('');
 	let notifyStatus = $state<'idle' | 'saving' | 'error'>('idle');
 	let notifyError = $state('');

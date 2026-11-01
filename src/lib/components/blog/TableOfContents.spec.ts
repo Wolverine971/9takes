@@ -2,7 +2,6 @@
 // @vitest-environment jsdom
 
 import { cleanup, fireEvent, render, screen } from '@testing-library/svelte';
-import { writable } from 'svelte/store';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 
 const { reducedMotion, replaceStateMock } = vi.hoisted(() => ({
@@ -38,7 +37,6 @@ describe('TableOfContents title marquee', () => {
 	it('starts a seamless loop after 500ms only when the title is clipped', async () => {
 		render(TableOfContents, {
 			props: {
-				contentStore: writable(''),
 				headings: [
 					{
 						level: 2,
@@ -108,7 +106,6 @@ describe('TableOfContents link activation', () => {
 
 		render(TableOfContents, {
 			props: {
-				contentStore: writable(''),
 				headings: [
 					{ level: 2, id: 'first', text: 'First' },
 					{ level: 2, id: 'second', text: 'Second' }
@@ -134,5 +131,39 @@ describe('TableOfContents link activation', () => {
 
 		heading.blur();
 		expect(heading.hasAttribute('tabindex')).toBe(false);
+	});
+});
+
+describe('TableOfContents client-side fallback', () => {
+	afterEach(() => {
+		cleanup();
+		document.body.innerHTML = '';
+		vi.useRealTimers();
+	});
+
+	it('builds the TOC from the article HTML when the server sent no headings', async () => {
+		vi.useFakeTimers();
+		const article = document.createElement('article');
+		article.id = 'blogA';
+		article.innerHTML =
+			'<h2>Where it starts</h2><p>a</p><h2>What it costs</h2><p>b</p><h2>How it ends</h2><p>c</p>';
+		document.body.appendChild(article);
+
+		const { rerender } = render(TableOfContents, {
+			props: { content: '', renderMode: 'accordion-only' }
+		});
+		expect(document.querySelector('.toc-link')).toBeNull();
+
+		await rerender({ content: article.innerHTML, renderMode: 'accordion-only' });
+		await vi.advanceTimersByTimeAsync(200);
+
+		const links = screen.getAllByRole('link');
+		expect(links.map((link) => link.textContent)).toEqual([
+			'Where it starts',
+			'What it costs',
+			'How it ends'
+		]);
+		// The fallback gives the article's headings ids the links point at.
+		expect(links[0].getAttribute('href')).toBe(`#${article.querySelector('h2')?.id}`);
 	});
 });

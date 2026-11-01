@@ -22,14 +22,11 @@
 		children: BrowseCategoryNode[];
 	};
 
-	export let data: PageData;
+	let { data }: { data: PageData } = $props();
 
-	let categoryTree: BrowseCategoryNode[] = [];
-	let totalVisibleCategories = 0;
-	let totalVisibleRoots = 0;
-	$: categoryTree = (data?.categoryTree ?? []) as BrowseCategoryNode[];
-	$: totalVisibleCategories = Number(data?.totalVisibleCategories ?? 0);
-	$: totalVisibleRoots = Number(data?.totalVisibleRoots ?? categoryTree.length);
+	let categoryTree = $derived((data?.categoryTree ?? []) as BrowseCategoryNode[]);
+	let totalVisibleCategories = $derived(Number(data?.totalVisibleCategories ?? 0));
+	let totalVisibleRoots = $derived(Number(data?.totalVisibleRoots ?? categoryTree.length));
 
 	const pageTitle = '9takes | Question Categories';
 	const pageDescription =

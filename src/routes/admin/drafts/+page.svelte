@@ -95,9 +95,9 @@
 								<span class="view-draft">
 									View Draft
 									<ArrowRightIcon
-										iconStyle={'margin-left: .5rem'}
-										height={'1rem'}
-										fill={'currentColor'}
+										iconStyle="margin-left: .5rem"
+										height="1rem"
+										fill="currentColor"
 									/>
 								</span>
 							</div>

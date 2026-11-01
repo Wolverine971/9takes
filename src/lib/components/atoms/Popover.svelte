@@ -9,28 +9,35 @@
 </script>
 
 <script lang="ts">
-	import { onMount, tick } from 'svelte';
+	import { onMount, tick, type Snippet } from 'svelte';
 
-	export let position: 'top' | 'right' | 'bottom' | 'left' | 'top-right' | 'bottom-right' =
-		'bottom-right';
-	/** Accessible name for the icon-only trigger, e.g. "Comment options". */
-	export let label = 'More options';
+	interface Props {
+		position?: 'top' | 'right' | 'bottom' | 'left' | 'top-right' | 'bottom-right';
+		/** Accessible name for the icon-only trigger, e.g. "Comment options". */
+		label?: string;
+		/** Content of the icon-only trigger button. */
+		icon?: Snippet;
+		/** Content of the disclosure panel. */
+		popoverValue?: Snippet;
+	}
+
+	let { position = 'bottom-right', label = 'More options', icon, popoverValue }: Props = $props();
 
 	// Disclosure pattern (button + panel of ordinary controls), not an ARIA menu:
 	// the panel holds plain buttons and static info, so menu/menuitem semantics
 	// and arrow-key roving would misdescribe it.
 	const panelId = nextPanelId();
 
-	let popupVisible = false;
-	let popoverContainer: HTMLElement;
-	let triggerButton: HTMLElement;
-	let panelElement: HTMLElement | undefined;
+	let popupVisible = $state(false);
+	let popoverContainer: HTMLElement | undefined;
+	let triggerButton: HTMLElement | undefined;
+	let panelElement: HTMLElement | undefined = $state();
 
 	const FOCUSABLE_SELECTOR =
 		'a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])';
 
 	// Fixed position coordinates
-	let popoverStyle = '';
+	let popoverStyle = $state('');
 
 	function calculatePosition() {
 		if (!triggerButton) return;
@@ -108,7 +115,7 @@
 		const next = e.relatedTarget;
 		// null = focus left the document or landed on a non-focusable click
 		// target; pointer dismissal is handled by handleOutsideClick.
-		if (!(next instanceof Node) || popoverContainer.contains(next)) return;
+		if (!(next instanceof Node) || popoverContainer?.contains(next)) return;
 		// A dialog opened from an item (Edit/Flag) takes focus; keep the popover
 		// so the dialog can return focus to that item when it closes.
 		if (next instanceof Element && next.closest('[aria-modal="true"]')) return;
@@ -141,31 +148,31 @@
 	});
 </script>
 
-<div class="relative inline-block" bind:this={popoverContainer} on:focusout={handleFocusOut}>
+<div class="relative inline-block" bind:this={popoverContainer} onfocusout={handleFocusOut}>
 	<button
 		type="button"
 		class="border-0 bg-transparent p-0"
-		on:click={handleClick}
+		onclick={handleClick}
 		bind:this={triggerButton}
 		aria-label={label}
 		aria-expanded={popupVisible}
 		aria-controls={popupVisible ? panelId : undefined}
 	>
-		<slot name="icon" />
+		{@render icon?.()}
 	</button>
 
 	{#if popupVisible}
 		<!-- Click handler only keeps panel clicks from bubbling to page-level
 		     listeners; keyboard access lives on the controls inside. -->
-		<!-- svelte-ignore a11y_click_events_have_key_events a11y_no_static_element_interactions -->
+		<!-- svelte-ignore a11y_click_events_have_key_events, a11y_no_static_element_interactions -->
 		<div
 			id={panelId}
 			class="fixed z-[9999] min-w-[180px] rounded-md border border-[var(--stone-edge)] bg-[var(--stone-warm)] p-2 shadow-[var(--shadow-lg)]"
 			style={popoverStyle}
 			bind:this={panelElement}
-			on:click|stopPropagation
+			onclick={(e) => e.stopPropagation()}
 		>
-			<slot name="popoverValue" />
+			{@render popoverValue?.()}
 		</div>
 	{/if}
 </div>

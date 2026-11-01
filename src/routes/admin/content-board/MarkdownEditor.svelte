@@ -69,19 +69,16 @@
 		}
 	}
 
+	// The textarea's onscroll keeps the gutter in sync; align it once after mount too.
 	onMount(() => {
-		if (textarea) {
-			textarea.addEventListener('scroll', handleScroll);
-			requestAnimationFrame(handleScroll);
-			return () => textarea?.removeEventListener('scroll', handleScroll);
-		}
+		requestAnimationFrame(handleScroll);
 	});
 </script>
 
 <div class="markdown-editor" class:readonly>
 	<!-- Line Numbers -->
 	<div class="line-numbers" bind:this={lineNumbersEl}>
-		{#each lineNumbers as num}
+		{#each lineNumbers as num (num)}
 			<div class="line-number">{num}</div>
 		{/each}
 	</div>

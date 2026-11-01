@@ -1,7 +1,6 @@
 <!-- src/routes/admin/search/typeahead/+page.svelte -->
 <script lang="ts">
 	import { goto } from '$app/navigation';
-	import { navigating } from '$app/stores';
 
 	interface TypeaheadResult {
 		id: number;
@@ -24,12 +23,6 @@
 	let navigatingToId = $state<number | null>(null);
 
 	let debounceTimer: ReturnType<typeof setTimeout>;
-
-	$effect(() => {
-		if (!$navigating && navigatingToId !== null) {
-			navigatingToId = null;
-		}
-	});
 
 	function renderMarkdown(text: string): string {
 		if (!text) return '';
@@ -119,7 +112,12 @@
 	async function navigateToResult(result: TypeaheadResult) {
 		navigatingToId = result.id;
 		showResults = false;
-		await goto(result.url);
+		try {
+			await goto(result.url);
+		} finally {
+			// Navigation finished (or failed): clear the per-result spinner.
+			navigatingToId = null;
+		}
 	}
 
 	function handleFocus() {
@@ -222,7 +220,7 @@
 
 		{#if showResults || navigatingToId}
 			<div class="results-dropdown">
-				{#each results as result, index}
+				{#each results as result, index (`${result.source}:${result.id}`)}
 					<button
 						class="result-item"
 						class:selected={selectedIndex === index}

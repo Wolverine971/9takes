@@ -1,0 +1,65 @@
+{
+ "schema_version": 3,
+ "role": "future",
+ "content_sha256": "73fa9e2bb21ee745a4de0f7732982d07baddcd47a75f2c4df5b47ea4d8051638",
+ "evidence_sha256": "0dd5f29b1d9610077e12cd4f004aafc2151077288d6c81cb75109c3366f5f7ac",
+ "risks": {
+  "sensitive_allegations": true,
+  "contested_typing": true,
+  "historical_source_uncertainty": false,
+  "major_thesis_change": true
+ },
+ "findings": [
+  {
+   "id": "future-01",
+   "severity": "major",
+   "passage": "Third, what he wants from a role. A Three wants top billing. Asked about Andy in 2026, Pratt said what he loved was \"being a jazz soloist, but not the lead singer.\"",
+   "problem": "One of the three stated reasons for choosing Seven over Three rests on the newest source in the record, the October 22, 2026 Terminal List press interview (The Playlist). The page's own record cuts against the generalization. The draft says he became a leading man in 2014 and quotes Vanity Fair that he \"had always wanted to play an action hero.\" He has carried Guardians, Jurassic World, The Terminal List and Mercy. In the same sit-down, which I reopened through r.jina.ai on 2026-11-01, he called Star-Lord's return \"very exciting.\" The Playlist also framed the Andy remarks around the freedom of a supporting part, inside a possible Schur comedy pitch. Every role announcement over the next five years will test \"A Three wants top billing.\" Yet c-jazz-why3, c-jazz-soloist and c-faq-type3 are marked stable with no review_trigger. The same line closes the \"Is Chris Pratt a Type 3?\" FAQ, so the search-facing answer to the contested question ends on the most perishable evidence.",
+   "acceptance_test": "Remove all October 2026 sources. The Seven-over-Three case in 'Why not Type 3?' and in the Type 3 FAQ must still stand on dated pre-October-2026 behavior (Maui shifts, GQ 2015 mask, Club Random 2025). The 'not the lead singer' line may stay as supporting color: it must be attributed as an October 2026 remark about Andy made while discussing a possible Schur project, and it must sit beside his leading-man career and the 'very exciting' Star-Lord remark. It must not be framed as a general 'A Three wants top billing' discriminator. The Type 3 FAQ must not end on it. c-jazz-why3, c-jazz-soloist and c-faq-type3 must each carry a review_trigger, for example: 'By October 2028, compare his announced roles (Star-Lord return, Terminal List, any Schur project) with this reading; revise if he pursues lead roles while calling them the work he loves.'"
+  },
+  {
+   "id": "future-02",
+   "severity": "minor",
+   "passage": "The limits are real. Most of the Seven evidence is his own retelling in interviews, the cleanest test came when he was about 19, and the \"pure euphoria\" line comes from auto-captions of a podcast.",
+   "problem": "The meta description, an H2 and the FAQ anchor 'pure-euphoria' all depend on this quote. The article tells readers it is caption-only, and research task 2 asks for a listen, but c-euphoria and c-meta-description have no review_trigger. On 2026-11-01 I downloaded 0:42:55-0:43:55 of the Club Random YouTube upload (56M4_TvQkBA) and transcribed the audio locally with Whisper medium.en. The two quoted sentences match word for word: 'I ate, and in the moments I was eating, it was pure euphoria. And then the minute I stopped eating, I did not feel good until I ate again.' This is a machine transcription of the audio, not a human listen. The same audio shows one context nuance. After the question, Maher prompts 'Like what? Eating?' and Pratt answers 'Eating, yeah' before the quoted sentences. So 'Pratt's answer was eating' slightly overstates who proposed the topic. Left as is, the page would carry an out-of-date caveat about its own headline quote for years.",
+   "acceptance_test": "src-club-random-2025's locator/context and c-euphoria record the audio check: method, date, timestamp about 0:43:10-0:43:30, and whether it was a human listen. The limits sentence reflects that status: drop or soften the auto-caption caveat if the editor or verifier confirms the audio, and keep it if they cannot. The lead-in reads truthfully, for example 'Maher guessed eating, and Pratt agreed:'. c-euphoria carries a review_trigger: 'If a human listen differs from the quoted wording, revise the quote, the H2, the meta description and the FAQ anchor together.'"
+  },
+  {
+   "id": "future-03",
+   "severity": "minor",
+   "passage": "His manager has had him turn down \"huge checks.\"",
+   "problem": "Several changeable facts are stated in an undated present tense, so a 2031 reader cannot tell when they were true. This one and 'his manager is \"calculated and critical in a way that I'm not.\"' (Not Dead Yet, 2026) can change with representation. 'Pratt believes the speech helped start the online hostility toward him' is a 2022 Men's Health view. 'from James Reese in _The Terminal List_ to the January thriller _Mercy_' gives no year. The FAQ 'He has been married to the author Katherine Schwarzenegger since June 2019, and they have three children.' has a trigger but no as-of date. 'He says he has been \"money motivated my whole life because we never had anything.\"' is a 2026 remark. None is wrong today, but each will read as current long after the source date.",
+   "acceptance_test": "Each listed sentence carries its source year or an as-of date. Examples: 'In 2026 he said his manager...', 'Pratt said in 2022 that he believes...', 'the thriller _Mercy_ (January 2026)', 'three children as of 2026', 'he said in 2026'. Neither manager sentence reads as a permanent fact. No new present-tense status claim is introduced without a date or a time_sensitive claim with a review_trigger."
+  },
+  {
+   "id": "future-04",
+   "severity": "minor",
+   "passage": "Nearly all of it comes from his own interviews, which is the evidence a public typing has to work with. The strongest rival is [Type 3](/enneagram-corner/enneagram-type-3), the Achiever, and it gets a full hearing below.",
+   "problem": "The similarity diagnostic flags 'gets a full hearing below' at 0.597 against Dominic Fike. Opening the drafts shows the whole paragraph is a recurring template, not a shared word. Hunter Schafer reads 'Nearly everything here is her own account... The closest rival is [Type 3](/enneagram-corner/enneagram-type-3), the Achiever, and it gets a full hearing below.' Fike reads 'Most of the record is Fike talking in promotional interviews... Type 6 gets a full hearing below.' Pratt repeats it: a self-report caveat, then a rival signpost with the same closing clause. Across five years of profiles, readers who move between pages will meet the same transition at the same spot, which makes the type section read as boilerplate. The 1.0 self-matches against chris-pratt 2026-10-29 are this page's own staged candidate, so they are not reuse. The Florence Pugh head-triad match is ordinary type vocabulary. Neither is counted here.",
+   "acceptance_test": "The transition into the rival argument names something specific to Pratt. For example, it could say that his own line about understanding 'how I was seen in the marketplace' is the Three case's best evidence. It no longer reuses the 'gets a full hearing below' clause or the caveat-plus-signpost shape shared with the Schafer and Fike pages. A rerun of the similarity check shows no cross-subject pair above the 0.064 trip threshold for this paragraph."
+  }
+ ],
+ "protected_passages": [
+  {
+   "passage": "Both accounts are his. Side by side, they show a move that runs through his life: he meets a bad stretch by finding the fun in it, first while living it and again when he tells the story.",
+   "reason": "This is the durable core insight, built from 2014 and 2017 sources. It does not depend on any current role or plan, and it turns two quotes into a pattern the reader can test."
+  },
+  {
+   "passage": "Press tours tune a story to the room. What stays the same in every version is what he did there.",
+   "reason": "This admits that his retellings shift with promotional context. It then anchors the argument in behavior that does not shift, which is exactly what keeps the case valid as new press versions appear."
+  },
+  {
+   "passage": "No camera was on him. If the hidden failure had been about his worth, this was the moment to start repairing it, and he spent it on a beach.",
+   "reason": "This is the cleanest behavioral discriminator between Seven and Three. It comes from a dated, pre-fame episode, so future events cannot overturn it."
+  },
+  {
+   "passage": "The argument here is that Three explains the selling, and Seven explains the choices.",
+   "reason": "This is a crisp, honest statement of the division of labor between the rival types. It stays accurate whichever way later evidence leans and gives future refreshes a clear test."
+  },
+  {
+   "passage": "Even so, more than a decade of public faith, held through the mockery, is the strand of Pratt the type explains least.",
+   "reason": "This names what the type does not explain, in wording that stays true as years pass ('more than a decade' from 2012). The page stays honest without needing date edits."
+  }
+ ],
+ "assessment": "Five-year test: the Type 7 thesis passes. Remove every October 2026 source (The Playlist, Fox News) and the case still stands on dated older evidence. That includes the 2014 'charming time' routine, the 2017 Vanity Fair account of giving shifts away, the 2015 GQ 'image I was casting, to convince people that I was okay' and road-rage reversal, the 2022 Men's Health 'clown', the 2025 Club Random 'pure euphoria', and March 2026 Not Dead Yet material. The opening uses a 2014 quote and will not age. Dates are absolute almost everywhere ('from his late teens to 2026', 'more than a decade'). The closing section is built on 2026 career talk, but it is hedged ('Whatever comes of that meeting', 'Eleven years later'), and c-comedy-turn already triggers a closing revision by October 2028. What does not survive the test is the third Seven-over-Three reason, 'A Three wants top billing' (future-01). It rests on the newest promo interview, it is undercut by the page's own leading-man and action-hero evidence and by his 'very exciting' Star-Lord remark in the same sit-down, and it closes the Type 3 FAQ with no review trigger. Smaller durability items: the euphoria record and caveat are out of date (a local Whisper transcription of the audio matches the quote; the record still says caption-only) (future-02), several present-tense status facts are undated (future-03), and one templated transition is shared with the Schafer and Fike pages (future-04). On the similarity diagnostic, the 1.0 matches are the page's own staged edit candidate, and the Pugh head-triad sentence is ordinary type vocabulary, so neither is counted as reuse. I copied the risk flags from research unchanged, so the six-role jury still applies. The thesis change from 3 to 7 means the database type, portrait folder and famousTypes need the follow-up named in research task 1."
+}

@@ -2,12 +2,17 @@
 <script lang="ts">
 	import { afterNavigate, goto } from '$app/navigation';
 	import { renderSearchHighlight } from '$lib/utils/searchHighlight';
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
 	import { onDestroy } from 'svelte';
-	import { onClickOutside } from '$lib/components/molecules/Context.svelte';
+	import { clickOutside } from '$lib/attachments/clickOutside';
 
-	export let mobile = false;
-	export let placeholder = 'Search questions, people, and blog topics';
+	interface Props {
+		mobile?: boolean;
+		placeholder?: string;
+	}
+
+	let { mobile = false, placeholder = 'Search questions, people, and blog topics' }: Props =
+		$props();
 
 	type SearchSource = 'blog' | 'personality_analysis' | 'question';
 
@@ -28,49 +33,57 @@
 	const TYPEAHEAD_CACHE_TTL_MS = 60_000;
 	const MAX_TYPEAHEAD_CACHE_SIZE = 40;
 
-	let query = '';
-	let routeQuery = '';
-	let trimmedQuery: string;
-	let resultsQuery = '';
-	let activeIndex = -1;
-	let isFocused = false;
-	let isOpen = false;
-	let isLoading = false;
-	let results: SearchResult[] = [];
-	let showResultsPanel: boolean;
-	let showResultList = false;
+	function currentRouteQuery(): string {
+		return page.url.pathname === '/search' ? (page.url.searchParams.get('q') || '').trim() : '';
+	}
+
+	let routeQuery = $derived(currentRouteQuery());
+	let query = $state(currentRouteQuery());
+	let resultsQuery = $state('');
+	let activeIndex = $state(-1);
+	let isFocused = $state(false);
+	let isOpen = $state(false);
+	let isLoading = $state(false);
+	let results = $state.raw<SearchResult[]>([]);
 	let debounceTimer: ReturnType<typeof setTimeout> | null = null;
 	let activeRequest = 0;
 	let abortController: AbortController | null = null;
+	// eslint-disable-next-line svelte/prefer-svelte-reactivity -- request cache read only inside handlers; nothing renders from it
 	const typeaheadCache = new Map<string, { timestamp: number; results: SearchResult[] }>();
 
-	$: routeQuery =
-		$page.url.pathname === '/search' ? ($page.url.searchParams.get('q') || '').trim() : '';
-	$: trimmedQuery = query.trim();
-	$: showResultsPanel = isOpen && trimmedQuery.length >= MIN_QUERY_LENGTH;
-	$: showResultList =
+	let trimmedQuery = $derived(query.trim());
+	let showResultsPanel = $derived(isOpen && trimmedQuery.length >= MIN_QUERY_LENGTH);
+	let showResultList = $derived(
 		results.length > 0 &&
-		(trimmedQuery === resultsQuery ||
-			trimmedQuery.startsWith(resultsQuery) ||
-			resultsQuery.startsWith(trimmedQuery));
+			(trimmedQuery === resultsQuery ||
+				trimmedQuery.startsWith(resultsQuery) ||
+				resultsQuery.startsWith(trimmedQuery))
+	);
 
-	$: if (!isFocused && !isOpen && query !== routeQuery) {
-		query = routeQuery;
+	// While the field is idle (unfocused, panel closed) it mirrors the route's ?q=,
+	// so an abandoned draft snaps back. Called after every change to the inputs.
+	function syncIdleQuery() {
+		if (!isFocused && !isOpen && query !== routeQuery) {
+			query = routeQuery;
+		}
 	}
 
 	// ARIA combobox wiring: stable ids tie the input to its listbox + active
 	// option so screen readers announce arrow-key navigation.
-	$: inputId = mobile ? 'mobile-header-search' : 'desktop-header-search';
-	$: listboxId = `${inputId}-listbox`;
-	$: activeDescendantId =
-		showResultList && activeIndex >= 0 ? `${inputId}-option-${activeIndex}` : undefined;
-	$: searchStatusMessage = !showResultsPanel
-		? ''
-		: isLoading
-			? 'Searching…'
-			: showResultList
-				? `${results.length} ${results.length === 1 ? 'result' : 'results'} available.`
-				: 'No results found.';
+	let inputId = $derived(mobile ? 'mobile-header-search' : 'desktop-header-search');
+	let listboxId = $derived(`${inputId}-listbox`);
+	let activeDescendantId = $derived(
+		showResultList && activeIndex >= 0 ? `${inputId}-option-${activeIndex}` : undefined
+	);
+	let searchStatusMessage = $derived(
+		!showResultsPanel
+			? ''
+			: isLoading
+				? 'Searching…'
+				: showResultList
+					? `${results.length} ${results.length === 1 ? 'result' : 'results'} available.`
+					: 'No results found.'
+	);
 
 	afterNavigate(() => {
 		isFocused = false;
@@ -181,6 +194,7 @@
 	function closeResults() {
 		isOpen = false;
 		activeIndex = -1;
+		syncIdleQuery();
 	}
 
 	function handleOutsideClick() {
@@ -281,6 +295,7 @@
 	}
 
 	function goToSearch(targetQuery = query.trim()) {
+		// eslint-disable-next-line svelte/prefer-svelte-reactivity -- one-off URL builder, not state
 		const params = new URLSearchParams();
 		if (targetQuery) {
 			params.set('q', targetQuery);
@@ -311,6 +326,12 @@
 		query = target.value;
 		activeIndex = -1;
 		scheduleTypeahead(target.value);
+		syncIdleQuery();
+	}
+
+	function handleBlur() {
+		isFocused = false;
+		syncIdleQuery();
 	}
 
 	function handleFocus() {
@@ -364,8 +385,8 @@
 	role="search"
 	action="/search"
 	method="GET"
-	use:onClickOutside={handleOutsideClick}
-	on:submit={handleSubmit}
+	{@attach clickOutside(handleOutsideClick)}
+	onsubmit={handleSubmit}
 >
 	<div class="search-field">
 		<span class="search-icon" aria-hidden="true">
@@ -391,16 +412,16 @@
 			aria-expanded={showResultsPanel}
 			aria-controls={showResultList ? listboxId : undefined}
 			aria-activedescendant={activeDescendantId}
-			on:input={handleInput}
-			on:focus={handleFocus}
-			on:blur={() => (isFocused = false)}
-			on:keydown={handleKeydown}
+			oninput={handleInput}
+			onfocus={handleFocus}
+			onblur={handleBlur}
+			onkeydown={handleKeydown}
 		/>
 
 		{#if isLoading}
 			<span class="search-status loading" aria-hidden="true"></span>
 		{:else if query}
-			<button type="button" class="clear-button" on:click={clearQuery} aria-label="Clear search">
+			<button type="button" class="clear-button" onclick={clearQuery} aria-label="Clear search">
 				<span aria-hidden="true">&times;</span>
 			</button>
 		{/if}
@@ -416,7 +437,7 @@
 					aria-label="Search suggestions"
 					aria-busy={isLoading}
 				>
-					{#each results as result, index}
+					{#each results as result, index (`${result.source}:${result.id}:${result.url}`)}
 						<li role="presentation">
 							<button
 								type="button"
@@ -425,7 +446,7 @@
 								class:is-active={index === activeIndex}
 								role="option"
 								aria-selected={index === activeIndex}
-								on:click={() => navigateToResult(result)}
+								onclick={() => navigateToResult(result)}
 							>
 								<div class="result-meta">
 									<span class="result-source">{getResultContext(result)}</span>
@@ -441,13 +462,13 @@
 					{/each}
 				</ul>
 
-				<button type="button" class="results-footer" on:click={() => goToSearch()}>
+				<button type="button" class="results-footer" onclick={() => goToSearch()}>
 					View all results for "{trimmedQuery}"
 				</button>
 			{:else if isLoading}
 				<div class="results-state">Searching…</div>
 			{:else}
-				<button type="button" class="results-state state-button" on:click={() => goToSearch()}>
+				<button type="button" class="results-state state-button" onclick={() => goToSearch()}>
 					Search for "{trimmedQuery}"
 				</button>
 			{/if}

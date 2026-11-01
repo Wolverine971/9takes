@@ -1,6 +1,6 @@
 <!-- src/lib/components/atoms/BackNavigation.svelte -->
 <script lang="ts">
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
 	import { browser } from '$app/environment';
 
 	interface NavStep {
@@ -8,9 +8,11 @@
 		url: string;
 	}
 
-	export let wide = false;
+	interface Props {
+		wide?: boolean;
+	}
 
-	let navSteps: NavStep[] = [];
+	let { wide = false }: Props = $props();
 
 	function getHref(index: number, steps: string[]): string {
 		return '/' + steps.slice(0, index).join('/');
@@ -40,10 +42,10 @@
 		}
 	}
 
-	// Get the previous page from navSteps
-	$: previousPage = navSteps.length > 0 ? navSteps[navSteps.length - 1] : null;
+	let navSteps = $derived(page.url.pathname ? buildNavSteps(page.url.pathname) : []);
 
-	$: navSteps = $page?.url?.pathname ? buildNavSteps($page.url.pathname) : [];
+	// Get the previous page from navSteps
+	let previousPage = $derived(navSteps.length > 0 ? navSteps[navSteps.length - 1] : null);
 </script>
 
 {#if navSteps.length}
@@ -53,7 +55,7 @@
 		>
 			<button
 				class="mr-1 flex min-h-11 min-w-11 cursor-pointer items-center justify-center rounded-md border-0 bg-transparent p-2 text-[var(--ink-mid)] transition-colors duration-200 hover:text-[var(--lamp-glow)]"
-				on:click={goBack}
+				onclick={goBack}
 				aria-label="Go back"
 			>
 				<svg

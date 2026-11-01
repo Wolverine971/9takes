@@ -1,6 +1,6 @@
 // src/lib/authShell.spec.ts
 import { describe, expect, it } from 'vitest';
-import { normalizeAuthShellUser } from './authShell';
+import { normalizeAuthShellUser } from './authShell.svelte';
 
 describe('authShell', () => {
 	it('keeps only the public shell identity fields', () => {

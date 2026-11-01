@@ -3,7 +3,9 @@ import { describe, expect, it } from 'vitest';
 
 import {
 	getPersonalityCategoryGroups,
-	type PersonalityCategoryPerson
+	mapPersonalityCategoryRows,
+	type PersonalityCategoryPerson,
+	type PersonalityCategoryRow
 } from './personalityCategoryData';
 
 function makePerson(
@@ -321,5 +323,29 @@ describe('getPersonalityCategoryGroups', () => {
 			'strategy-psychology-writers',
 			'business-media-interpreters'
 		]);
+	});
+});
+
+describe('mapPersonalityCategoryRows', () => {
+	it('keeps one person per slug when duplicate rows normalize to the same slug', () => {
+		const row = (person: string, title: string): PersonalityCategoryRow => ({
+			person,
+			enneagram: '4',
+			title,
+			description: null,
+			persona_title: null,
+			lastmod: null,
+			date: null,
+			type: ['creator-media'],
+			content_quality: null
+		});
+
+		const people = mapPersonalityCategoryRows([
+			row('Brene-Brown', 'first'),
+			row('Brene-Brown', 'duplicate'),
+			row('Mr-Beast', 'other')
+		]);
+
+		expect(people.map((p) => p.title)).toEqual(['first', 'other']);
 	});
 });

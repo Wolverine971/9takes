@@ -15,6 +15,7 @@
   />
 -->
 <script lang="ts">
+	import type { Snippet } from 'svelte';
 	import Callout from './Callout.svelte';
 	import { getTypeColorSet, ENNEAGRAM_TYPE_COLORS } from '$lib/constants/enneagramColors';
 
@@ -24,22 +25,26 @@
 		note?: string;
 	}
 
-	/** Optional title/heading for the quote group */
-	export let title: string = '';
+	interface Props {
+		/** Optional title/heading for the quote group */
+		title?: string;
+		/** Array of quotes with type, quote text, and optional note */
+		quotes?: TypeQuote[];
+		/**
+		 * Visual style variant
+		 * - 'default': brand amber accent
+		 * - 'subtle': neutral ink accent
+		 * - 'minimal': no shell, just styled quotes
+		 */
+		variant?: 'default' | 'subtle' | 'minimal';
+		/**
+		 * Body content: an HTML string when dynamically mounted from Supabase
+		 * content, or the markdown/default content snippet otherwise.
+		 */
+		children?: Snippet | string;
+	}
 
-	/** Array of quotes with type, quote text, and optional note */
-	export let quotes: TypeQuote[] = [];
-
-	/**
-	 * Visual style variant
-	 * - 'default': brand amber accent
-	 * - 'subtle': neutral ink accent
-	 * - 'minimal': no shell, just styled quotes
-	 */
-	export let variant: 'default' | 'subtle' | 'minimal' = 'default';
-
-	/** Optional children content (used when dynamically mounted from Supabase content) */
-	export let children: string | ((...args: unknown[]) => unknown) = '';
+	let { title = '', quotes = [], variant = 'default', children = '' }: Props = $props();
 
 	const typeNames: Record<number, string> = Object.fromEntries(
 		Object.entries(ENNEAGRAM_TYPE_COLORS).map(([k, v]) => [Number(k), v.name])
@@ -56,7 +61,7 @@
 			<h4 class="type-quotes__title">{title}</h4>
 		{/if}
 		<div class="type-quotes__list">
-			{#each quotes as { type, quote, note }}
+			{#each quotes as { type, quote, note } (`${type}:${quote}`)}
 				{@const colors = getTypeColor(type)}
 				<div
 					class="type-quote"
@@ -72,14 +77,14 @@
 		</div>
 		{#if typeof children === 'string' && children.trim() !== ''}
 			<div class="type-quotes__content">{@html children}</div>
-		{:else}
-			<slot />
+		{:else if typeof children === 'function'}
+			{@render children()}
 		{/if}
 	</aside>
 {:else}
 	<Callout tone={variant === 'subtle' ? 'neutral' : 'lamp'} label={title}>
 		<div class="type-quotes__list">
-			{#each quotes as { type, quote, note }}
+			{#each quotes as { type, quote, note } (`${type}:${quote}`)}
 				{@const colors = getTypeColor(type)}
 				<div
 					class="type-quote"
@@ -95,8 +100,8 @@
 		</div>
 		{#if typeof children === 'string' && children.trim() !== ''}
 			<div class="type-quotes__content">{@html children}</div>
-		{:else}
-			<slot />
+		{:else if typeof children === 'function'}
+			{@render children()}
 		{/if}
 	</Callout>
 {/if}

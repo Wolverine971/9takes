@@ -516,7 +516,7 @@
 					</a>
 				</div>
 				<div class="pipeline" role="list" aria-label="Client status pipeline">
-					{#each pipelineStages as stage}
+					{#each pipelineStages as stage (stage.key)}
 						<a
 							href="/admin/consulting/clients?status={stage.key}"
 							class="pipeline-stage"
@@ -605,7 +605,7 @@
 					</div>
 				{:else}
 					<ul class="session-list" aria-label="Upcoming sessions">
-						{#each data.upcomingSessions as session}
+						{#each data.upcomingSessions as session (session.id)}
 							<li class="session-item">
 								<div class="session-time">
 									<span class="session-when">
@@ -1069,7 +1069,7 @@
 					<h2 id="types-heading">Client Types</h2>
 				</div>
 				<div class="type-grid" role="list" aria-label="Enneagram type distribution">
-					{#each [1, 2, 3, 4, 5, 6, 7, 8, 9] as type}
+					{#each [1, 2, 3, 4, 5, 6, 7, 8, 9] as type (type)}
 						<a
 							href="/admin/consulting/clients?type={type}"
 							class="type-cell"
@@ -1089,7 +1089,7 @@
 					<h2 id="resources-heading">Quick Access</h2>
 				</div>
 				<nav class="quick-links" aria-label="Quick access resources">
-					{#each quickLinks as link}
+					{#each quickLinks as link (link.slug)}
 						<a href="/admin/consulting/resources/{link.slug}" class="quick-link">
 							<span class="quick-link-icon" aria-hidden="true">
 								{#if link.icon === 'phone'}
@@ -1484,7 +1484,7 @@
 									<dt>Reviewed</dt>
 									<dd>{formatDateTime(intake.reviewed_at)}</dd>
 								</div>
-								{#each getIntakeFields(selectedPerson) as field}
+								{#each getIntakeFields(selectedPerson) as field (field.label)}
 									<div class:detail-list-full={field.value.length > 80}>
 										<dt>{field.label}</dt>
 										<dd class:detail-text={field.value.length > 80}>{field.value}</dd>
@@ -1503,7 +1503,7 @@
 						<section class="detail-card detail-card-wide">
 							<h3>Acquisition Metadata</h3>
 							<dl class="detail-list detail-list-columns">
-								{#each getAcquisitionFields(selectedPerson) as field}
+								{#each getAcquisitionFields(selectedPerson) as field (field.label)}
 									<div class:detail-list-full={field.value.length > 80}>
 										<dt>{field.label}</dt>
 										<dd class:detail-text={field.value.length > 80}>{field.value}</dd>
@@ -1534,8 +1534,8 @@
 	recipients={emailRecipients}
 	initialSubject={emailSubject}
 	initialContent={emailContent}
-	on:send={handleEmailSent}
-	on:close={() => (showEmailModal = false)}
+	onsend={handleEmailSent}
+	onclose={() => (showEmailModal = false)}
 />
 
 <style>

@@ -1,8 +1,12 @@
 <!-- src/lib/components/content/contentCard.svelte -->
 <script lang="ts">
-	export let blogContent: App.BlogPost;
-	export let stage: string = '';
-	export let contentType: string = '';
+	interface Props {
+		blogContent: App.BlogPost;
+		stage?: string;
+		contentType?: string;
+	}
+
+	let { blogContent, stage = '', contentType = '' }: Props = $props();
 
 	// Define stages that allow content retrieval
 	const stagesContentRetrieval = ['Sent out for review', 'Reviewed', 'Socialized', 'Growing'];
@@ -49,12 +53,14 @@
 	}
 
 	// Get visible entries for details panel
-	$: visibleEntries = blogContent
-		? Object.entries(blogContent).filter(
-				([key, value]) =>
-					!hiddenKeys.has(key) && value !== null && value !== undefined && value !== ''
-			)
-		: [];
+	let visibleEntries = $derived(
+		blogContent
+			? Object.entries(blogContent).filter(
+					([key, value]) =>
+						!hiddenKeys.has(key) && value !== null && value !== undefined && value !== ''
+				)
+			: []
+	);
 
 	// Handle get info action
 	function getInfo() {
@@ -63,12 +69,12 @@
 	}
 
 	// Check if this is a blog from the famous people table (has version history)
-	$: hasVersionHistory = contentType === 'people' && blogContent?.id;
+	let hasVersionHistory = $derived(contentType === 'people' && blogContent?.id);
 
 	// Only show view link for published content
-	$: showViewLink = blogContent?.published && blogContent?.loc;
+	let showViewLink = $derived(blogContent?.published && blogContent?.loc);
 
-	let showDetails = false;
+	let showDetails = $state(false);
 </script>
 
 <div class="content-card-details">
@@ -131,7 +137,7 @@
 		{/if}
 
 		{#if stage && stagesContentRetrieval.includes(stage)}
-			<button class="action-btn accent" type="button" on:click={getInfo}>
+			<button class="action-btn accent" type="button" onclick={getInfo}>
 				<svg class="btn-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 					<path
 						stroke-linecap="round"
@@ -148,7 +154,7 @@
 			<button
 				class="action-btn toggle"
 				type="button"
-				on:click={() => (showDetails = !showDetails)}
+				onclick={() => (showDetails = !showDetails)}
 				aria-expanded={showDetails}
 			>
 				<svg
@@ -173,7 +179,7 @@
 	{#if showDetails && visibleEntries.length > 0}
 		<div class="details-panel">
 			<div class="details-grid">
-				{#each visibleEntries as [key, value]}
+				{#each visibleEntries as [key, value] (key)}
 					<div class="detail-item">
 						<span class="detail-label">{formatKey(key)}</span>
 						<span class="detail-value">{formatValue(value)}</span>

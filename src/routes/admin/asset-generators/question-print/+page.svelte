@@ -55,17 +55,19 @@
 			: activeBackgroundPreset.backgroundImage
 	);
 
-	let previewQuestionLayout = $state<QuestionPrintTextLayout>(
+	let previewLayoutWidth = $derived(questionBoxWidth || PREVIEW_LAYOUT_WIDTH_FALLBACK);
+	// Estimated layouts; the effect below overrides them with browser-measured ones.
+	let previewQuestionLayout = $derived<QuestionPrintTextLayout>(
 		estimateQuestionPrintTextLayout({
-			text: DEFAULT_QUESTION,
-			maxWidth: PREVIEW_LAYOUT_WIDTH_FALLBACK,
+			text: displayQuestionText,
+			maxWidth: previewLayoutWidth,
 			maxHeight: PREVIEW_LAYOUT_MAX_HEIGHT,
 			maxLines: PREVIEW_LAYOUT_MAX_LINES
 		})
 	);
-	let printQuestionLayout = $state<QuestionPrintTextLayout>(
+	let printQuestionLayout = $derived<QuestionPrintTextLayout>(
 		estimateQuestionPrintTextLayout({
-			text: DEFAULT_QUESTION,
+			text: displayQuestionText,
 			maxWidth: PRINT_LAYOUT_WIDTH,
 			maxHeight: PRINT_LAYOUT_MAX_HEIGHT,
 			maxLines: PRINT_LAYOUT_MAX_LINES
@@ -74,6 +76,15 @@
 	let previewQuestionStyle = $derived(
 		`font-size:${previewQuestionLayout.fontSize}px; line-height:${previewQuestionLayout.lineHeight};`
 	);
+
+	/** Keys repeated strings by value plus occurrence, so duplicates stay unique. */
+	function keyedStrings(values: string[]): { key: string; value: string }[] {
+		const seen: Record<string, number> = {};
+		return values.map((value) => {
+			const n = (seen[value] = (seen[value] ?? 0) + 1);
+			return { key: n === 1 ? value : `${value}#${n}`, value };
+		});
+	}
 
 	const escapeHtml = (value: string): string =>
 		value
@@ -459,28 +470,10 @@
 		};
 	}
 
+	// Measure both layouts with real fonts. Until that resolves (or if it fails) the
+	// estimates from the $deriveds above stay in place.
 	$effect(() => {
-		const previewWidth = questionBoxWidth || PREVIEW_LAYOUT_WIDTH_FALLBACK;
-		const fallbackPreviewLayout = estimateQuestionPrintTextLayout({
-			text: displayQuestionText,
-			maxWidth: previewWidth,
-			maxHeight: PREVIEW_LAYOUT_MAX_HEIGHT,
-			maxLines: PREVIEW_LAYOUT_MAX_LINES
-		});
-		const fallbackPrintLayout = estimateQuestionPrintTextLayout({
-			text: displayQuestionText,
-			maxWidth: PRINT_LAYOUT_WIDTH,
-			maxHeight: PRINT_LAYOUT_MAX_HEIGHT,
-			maxLines: PRINT_LAYOUT_MAX_LINES
-		});
-
-		previewQuestionLayout = fallbackPreviewLayout;
-		printQuestionLayout = fallbackPrintLayout;
-
-		if (!browser) {
-			return;
-		}
-
+		const previewWidth = previewLayoutWidth;
 		const requestId = ++layoutRequest;
 		void Promise.all([
 			calculateQuestionPrintTextLayoutClient({
@@ -503,18 +496,12 @@
 				}
 			})
 			.catch(() => {
-				if (requestId === layoutRequest) {
-					previewQuestionLayout = fallbackPreviewLayout;
-					printQuestionLayout = fallbackPrintLayout;
-				}
+				// Keep the estimated layouts.
 			});
 	});
 
+	// Regenerate the QR code whenever its target URL changes.
 	$effect(() => {
-		if (!browser) {
-			return;
-		}
-
 		void ensureQrCodeReady();
 	});
 </script>
@@ -547,7 +534,7 @@
 					itemprop="name"
 					bind:clientWidth={questionBoxWidth}
 				>
-					{#each previewQuestionLayout.lines as line, lineIndex (`${line}-${lineIndex}`)}
+					{#each keyedStrings(previewQuestionLayout.lines) as { key, value: line } (key)}
 						<span>{line}</span>
 					{/each}
 				</h1>

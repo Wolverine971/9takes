@@ -21,16 +21,44 @@
 	} = $props();
 
 	let currentDate = $state(new Date());
-	let todayDate = $state(new Date());
+	const todayDate = new Date();
 	let selectedContent: ContentItem | null = $state(null);
 	let selectedCampaignId: string = $state('all');
 	let selectedDayContent: ContentItem[] = $state([]);
 	let selectedDate: Date | null = $state(null);
-	let calendarDays: (Date | null)[] = $state([]);
 	let isLoading = $state(false);
-	let viewMode: 'month' | 'week' = $state('month');
-	let weekStartDate: Date | null = $state(null);
+	let viewMode = $state<'month' | 'week'>('month');
+	let weekStartDate = $derived(
+		viewMode === 'week' ? addDays(currentDate, -currentDate.getDay()) : null
+	);
+	// Each cell carries a stable key: a date string, or a positional key for the
+	// leading blank cells of a month grid.
+	let calendarDays = $derived.by((): { key: string; date: Date | null }[] => {
+		if (viewMode === 'week' && weekStartDate) {
+			const start = weekStartDate;
+			return Array.from({ length: 7 }, (_, i) => {
+				const date = addDays(start, i);
+				return { key: date.toDateString(), date };
+			});
+		}
+		return generateCalendarDays(currentDate).map((date, i) => ({
+			key: date ? date.toDateString() : `blank-${i}`,
+			date
+		}));
+	});
 	let searchTerm = $state('');
+
+	function addDays(date: Date, days: number): Date {
+		return new Date(
+			date.getFullYear(),
+			date.getMonth(),
+			date.getDate() + days,
+			date.getHours(),
+			date.getMinutes(),
+			date.getSeconds(),
+			date.getMilliseconds()
+		);
+	}
 
 	const platformColors: Record<string, string> = {
 		twitter: '#1DA1F2',
@@ -62,8 +90,7 @@
 
 			let isInCurrentWeekView = false;
 			if (viewMode === 'week' && weekStartDate) {
-				const weekEndDate = new Date(weekStartDate);
-				weekEndDate.setDate(weekEndDate.getDate() + 6);
+				const weekEndDate = addDays(weekStartDate, 6);
 				isInCurrentWeekView = itemDate >= weekStartDate && itemDate <= weekEndDate;
 			}
 
@@ -81,30 +108,6 @@
 			return (isInCurrentMonthView || isInCurrentWeekView) && matchesCampaign && matchesSearch;
 		})
 	);
-
-	$effect(() => {
-		currentDate;
-		viewMode;
-		updateCalendarDays();
-	});
-
-	function updateCalendarDays() {
-		if (viewMode === 'month') {
-			calendarDays = generateCalendarDays(currentDate);
-		} else if (viewMode === 'week') {
-			const firstDayOfWeek = new Date(currentDate);
-			const day = firstDayOfWeek.getDay();
-			firstDayOfWeek.setDate(firstDayOfWeek.getDate() - day);
-			weekStartDate = firstDayOfWeek;
-
-			calendarDays = [];
-			for (let i = 0; i < 7; i++) {
-				const date = new Date(firstDayOfWeek);
-				date.setDate(date.getDate() + i);
-				calendarDays.push(date);
-			}
-		}
-	}
 
 	function generateCalendarDays(date: Date): (Date | null)[] {
 		const days: (Date | null)[] = [];
@@ -130,9 +133,7 @@
 			if (viewMode === 'month') {
 				currentDate = new Date(currentDate.getFullYear(), currentDate.getMonth() - 1, 1);
 			} else {
-				const newDate = new Date(currentDate);
-				newDate.setDate(newDate.getDate() - 7);
-				currentDate = newDate;
+				currentDate = addDays(currentDate, -7);
 			}
 			isLoading = false;
 		}, 300);
@@ -144,9 +145,7 @@
 			if (viewMode === 'month') {
 				currentDate = new Date(currentDate.getFullYear(), currentDate.getMonth() + 1, 1);
 			} else {
-				const newDate = new Date(currentDate);
-				newDate.setDate(newDate.getDate() + 7);
-				currentDate = newDate;
+				currentDate = addDays(currentDate, 7);
 			}
 			isLoading = false;
 		}, 300);
@@ -327,7 +326,7 @@
 			<select onchange={handleCampaignSelection} value={selectedCampaignId} class="filter-select">
 				<option value="all">All Campaigns</option>
 				<option value="no-campaign">No Campaign</option>
-				{#each campaigns as campaign}
+				{#each campaigns as campaign (campaign.id)}
 					<option value={campaign.id}>{campaign.name}</option>
 				{/each}
 			</select>
@@ -355,11 +354,11 @@
 	{#if viewMode === 'month'}
 		<div class="month-grid-wrapper">
 			<div class="month-grid">
-				{#each ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'] as day}
+				{#each ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'] as day (day)}
 					<div class="day-header">{day}</div>
 				{/each}
 
-				{#each calendarDays as day}
+				{#each calendarDays as { key, date: day } (key)}
 					{#if day}
 						{@const dayContent = filteredContentItems
 							.filter((item) => new Date(item.scheduled_date).toDateString() === day.toDateString())
@@ -445,7 +444,7 @@
 	{:else}
 		<!-- Week view -->
 		<div class="week-view">
-			{#each calendarDays as day}
+			{#each calendarDays as { key, date: day } (key)}
 				{@const dayContent = filteredContentItems
 					.filter(
 						(item) => day && new Date(item.scheduled_date).toDateString() === day.toDateString()

@@ -128,7 +128,7 @@
 				<form
 					onsubmit={handleSubmit}
 					class="signup-form ph-no-capture"
-					use:qualifiedVisibility={() => track('shown')}
+					{@attach qualifiedVisibility(() => track('shown'))}
 					aria-label="Get new 9takes personality breakdowns by email"
 					aria-busy={loading}
 					novalidate

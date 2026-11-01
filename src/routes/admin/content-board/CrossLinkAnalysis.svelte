@@ -77,7 +77,7 @@
 		}
 	}
 
-	// Fetch when blogId changes
+	// Fetch (network sync) when blogId changes
 	$effect(() => {
 		if (blogId) {
 			fetchCrosslinks();
@@ -172,7 +172,7 @@
 						<p class="empty-list">No blogs link to this person yet</p>
 					{:else}
 						<ul class="link-list">
-							{#each crosslinks.incomingSuggestions as link}
+							{#each crosslinks.incomingSuggestions as link (link.id)}
 								<li class="link-item">
 									<a href="/personality-analysis/{link.person}" target="_blank" class="link-name">
 										{link.title || formatName(link.person)}
@@ -213,7 +213,7 @@
 					{:else}
 						<p class="hint">These blogs mention {crosslinks.displayName} but don't link to them:</p>
 						<ul class="link-list">
-							{#each crosslinks.potentialLinks.slice(0, 10) as link}
+							{#each crosslinks.potentialLinks.slice(0, 10) as link (link.id)}
 								<li class="link-item">
 									<a href="/personality-analysis/{link.person}" target="_blank" class="link-name">
 										{link.title || formatName(link.person)}
@@ -255,7 +255,7 @@
 						<p class="empty-list">No content mentions found</p>
 					{:else}
 						<ul class="link-list">
-							{#each crosslinks.contentMentions.slice(0, 15) as mention}
+							{#each crosslinks.contentMentions.slice(0, 15) as mention (mention.id)}
 								<li class="link-item" class:linked={mention.isInSuggestions}>
 									<a
 										href="/personality-analysis/{mention.person}"
@@ -316,7 +316,7 @@
 						{#if crosslinks.duplicates.excessiveMentions.length > 0}
 							<p class="hint warning">Blogs with excessive mentions (>5x):</p>
 							<ul class="link-list">
-								{#each crosslinks.duplicates.excessiveMentions as mention}
+								{#each crosslinks.duplicates.excessiveMentions as mention (mention.id)}
 									<li class="link-item warning">
 										<span class="link-name">{mention.title || formatName(mention.person)}</span>
 										<span class="mention-count excessive">{mention.mentionCount}x</span>

@@ -59,6 +59,7 @@
 			enneagram: string;
 		}> = {}
 	): string {
+		// eslint-disable-next-line svelte/prefer-svelte-reactivity -- one-off URL builder, not state
 		const params = new URLSearchParams();
 		const nextQuery = overrides.q ?? data.query;
 		const nextScope = overrides.scope ?? data.scope;
@@ -149,6 +150,11 @@
 
 	const renderHighlight = renderSearchHighlight;
 
+	// Tag chips are keyed by text, so repeated tags collapse to one chip.
+	function visibleTags(tags: string[]): string[] {
+		return [...new Set(tags)].slice(0, 4);
+	}
+
 	function resultKey(result: PageData['results'][number]): string {
 		return `${result.source}:${result.id}:${result.url}`;
 	}
@@ -185,7 +191,7 @@
 
 		<div class="search-shell">
 			<div class="scope-row" role="tablist" aria-label="Search scope">
-				{#each scopeOptions as option}
+				{#each scopeOptions as option (option.value)}
 					<a
 						href={buildSearchHref({ scope: option.value, page: 1 })}
 						class="scope-pill"
@@ -221,7 +227,7 @@
 						<label>
 							<span>Enneagram</span>
 							<select name="enneagram">
-								{#each enneagramOptions as option}
+								{#each enneagramOptions as option (option.value)}
 									<option value={option.value} selected={data.filters.enneagram === option.value}>
 										{option.label}
 									</option>
@@ -233,7 +239,7 @@
 							<span>Category</span>
 							<select name="category">
 								<option value="" selected={!data.filters.category}>All categories</option>
-								{#each data.categoryOptions as option}
+								{#each data.categoryOptions as option (option.value)}
 									<option value={option.value} selected={data.filters.category === option.value}>
 										{option.label}
 									</option>
@@ -245,7 +251,7 @@
 							<span>Topic</span>
 							<select name="type">
 								<option value="" selected={!data.filters.type}>All topics</option>
-								{#each data.typeOptions as option}
+								{#each data.typeOptions as option (option.value)}
 									<option value={option.value} selected={data.filters.type === option.value}>
 										{option.label}
 									</option>
@@ -282,7 +288,7 @@
 					“How do I stop overthinking?”
 				</p>
 				<div class="sample-query-row">
-					{#each data.sampleQueries as sample}
+					{#each data.sampleQueries as sample (sample)}
 						<a href={buildSearchHref({ q: sample, page: 1 })} class="sample-chip">{sample}</a>
 					{/each}
 				</div>
@@ -294,7 +300,7 @@
 					Try a broader phrase, remove a filter, or switch scopes to search across more of the site.
 				</p>
 				<div class="sample-query-row">
-					{#each data.sampleQueries as sample}
+					{#each data.sampleQueries as sample (sample)}
 						<a href={buildSearchHref({ q: sample, page: 1 })} class="sample-chip">{sample}</a>
 					{/each}
 				</div>
@@ -338,7 +344,7 @@
 
 						{#if result.tags.length > 0}
 							<div class="tag-row">
-								{#each result.tags.slice(0, 4) as tag}
+								{#each visibleTags(result.tags) as tag (tag)}
 									<span class="tag-pill">{tag}</span>
 								{/each}
 							</div>

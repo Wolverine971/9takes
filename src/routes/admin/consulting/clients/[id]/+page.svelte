@@ -1,5 +1,6 @@
 <!-- src/routes/admin/consulting/clients/[id]/+page.svelte -->
 <script lang="ts">
+	import { untrack } from 'svelte';
 	import { enhance } from '$app/forms';
 	import { invalidateAll } from '$app/navigation';
 	import { Button } from '$lib/components/atoms';
@@ -10,11 +11,13 @@
 	import type { PageData } from './$types';
 
 	let { data }: { data: PageData } = $props();
-	const client = data.client;
+	// Derived so invalidateAll() after an action shows the saved client, notes and sessions.
+	let client = $derived(data.client);
 
-	// Edit mode
+	// Edit mode. The form draft is seeded once and reset by Cancel; a refresh of `data`
+	// (e.g. adding a note mid-edit) must not wipe what the admin is typing.
 	let isEditing = $state(false);
-	let editData = $state({ ...client });
+	let editData = $state({ ...untrack(() => data.client) });
 
 	// Email modal state
 	let showEmailModal = $state(false);
@@ -284,7 +287,7 @@
 							<div class="form-group">
 								<label for="status">Status</label>
 								<select id="status" name="status" bind:value={editData.status}>
-									{#each statusOptions as opt}
+									{#each statusOptions as opt (opt.value)}
 										<option value={opt.value}>{opt.label}</option>
 									{/each}
 								</select>
@@ -293,7 +296,7 @@
 								<label for="trust_layer">Trust Layer</label>
 								<select id="trust_layer" name="trust_layer" bind:value={editData.trust_layer}>
 									<option value="">Not assessed</option>
-									{#each trustOptions as opt}
+									{#each trustOptions as opt (opt.value)}
 										<option value={opt.value}>{opt.label}</option>
 									{/each}
 								</select>
@@ -306,7 +309,7 @@
 									bind:value={editData.enneagram_type}
 								>
 									<option value="">Unknown</option>
-									{#each [1, 2, 3, 4, 5, 6, 7, 8, 9] as type}
+									{#each [1, 2, 3, 4, 5, 6, 7, 8, 9] as type (type)}
 										<option value={type.toString()}>{type}</option>
 									{/each}
 								</select>
@@ -319,7 +322,7 @@
 									bind:value={editData.enneagram_wing}
 								>
 									<option value="">None</option>
-									{#each [1, 2, 3, 4, 5, 6, 7, 8, 9] as wing}
+									{#each [1, 2, 3, 4, 5, 6, 7, 8, 9] as wing (wing)}
 										<option value={wing.toString()}>{wing}</option>
 									{/each}
 								</select>
@@ -491,7 +494,7 @@
 				{#if upcomingSessions.length > 0}
 					<h3 class="subsection-title">Upcoming</h3>
 					<div class="session-list">
-						{#each upcomingSessions as session}
+						{#each upcomingSessions as session (session.id)}
 							<div class="session-item upcoming">
 								<div class="session-date">
 									<span class="session-day"
@@ -534,7 +537,7 @@
 				{#if pastSessions.length > 0}
 					<h3 class="subsection-title">Past Sessions</h3>
 					<div class="session-list">
-						{#each pastSessions as session}
+						{#each pastSessions as session (session.id)}
 							<div class="session-item past">
 								<div class="session-date">
 									<span class="session-day">{formatDate(session.scheduled_at)}</span>
@@ -562,7 +565,7 @@
 				</div>
 				{#if client.notes?.length}
 					<div class="notes-list">
-						{#each client.notes.sort((a, b) => getTimestamp(b.created_at) - getTimestamp(a.created_at)) as note}
+						{#each client.notes.sort((a, b) => getTimestamp(b.created_at) - getTimestamp(a.created_at)) as note (note.id)}
 							<div class="note-item note-{note.note_type}">
 								<div class="note-header">
 									<span class="note-type">{note.note_type}</span>
@@ -703,7 +706,7 @@
 				<div class="form-group">
 					<label for="noteType">Type</label>
 					<select id="noteType" name="noteType" bind:value={noteType}>
-						{#each noteTypes as type}
+						{#each noteTypes as type (type.value)}
 							<option value={type.value}>{type.label}</option>
 						{/each}
 					</select>
@@ -813,8 +816,8 @@
 	recipients={emailRecipients}
 	initialSubject={emailSubject}
 	initialContent={emailContent}
-	on:send={handleEmailSent}
-	on:close={() => (showEmailModal = false)}
+	onsend={handleEmailSent}
+	onclose={() => (showEmailModal = false)}
 />
 
 <style>

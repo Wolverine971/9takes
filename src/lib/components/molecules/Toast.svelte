@@ -6,7 +6,7 @@
 </script>
 
 <div class="notifications" role="region" aria-live="polite" aria-label="Notifications">
-	{#each $notifications as notification (notification?.id)}
+	{#each notifications.items as notification (notification.id)}
 		<div
 			animate:flip
 			class="toast"

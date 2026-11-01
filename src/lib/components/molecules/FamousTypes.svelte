@@ -40,6 +40,7 @@
 	}
 
 	function groupFamousPeople(people: FamousTypePerson[] = []): FamousTypeGroup[] {
+		// eslint-disable-next-line svelte/prefer-svelte-reactivity -- local grouping scratch map
 		const grouped = new Map<FamousTypeGroup['slug'], FamousTypeGroup>();
 
 		for (const person of people) {
@@ -65,13 +66,13 @@
 </script>
 
 <div class="famous-types">
-	{#each groupedFamousTypes as group}
+	{#each groupedFamousTypes as group (group.slug)}
 		<section class="famous-types__group" aria-labelledby={`famous-types-${type}-${group.slug}`}>
 			<h3 class="famous-types__heading" id={`famous-types-${type}-${group.slug}`}>
 				{group.label}
 			</h3>
 			<ul class="famous-types__list">
-				{#each group.people as person}
+				{#each group.people as person (person.name)}
 					<li>
 						{#if person.link}
 							<a href={buildPersonalityAnalysisPath(person.name)}>

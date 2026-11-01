@@ -14,7 +14,8 @@
   globally in src/scss/index.scss.
 -->
 <script lang="ts">
-	import { tick } from 'svelte';
+	import { tick, untrack } from 'svelte';
+	import type { Attachment } from 'svelte/attachments';
 	import { afterNavigate, beforeNavigate, invalidateAll } from '$app/navigation';
 	import { deserialize } from '$app/forms';
 	import { page } from '$app/state';
@@ -77,15 +78,9 @@
 	let inviteSource = $state<QuestionInviteSource>('question-answer');
 	let recipientInviteId = $state<string | null>(null);
 	let categoryEditorOpen = $state(false);
-	let categoryEditorError = $state('');
-	let categoryEditorSuccess = $state('');
 	let categoryEditorSaving = $state(false);
 	let creatingLeafCategory = $state(false);
 	let newLeafCategoryName = $state('');
-	let selectedRootCategoryId = $state<number | null>(null);
-	let selectedParentCategoryId = $state<number | null>(null);
-	let selectedTagIds = $state<number[]>([]);
-	let serverTagSignature = $state('');
 
 	type QuestionImpressionActionInput = {
 		questionId: number;
@@ -96,24 +91,14 @@
 		campaign?: string;
 	};
 
-	function trackQuestionImpression(node: HTMLElement, input: QuestionImpressionActionInput) {
-		const observe = (nextInput: QuestionImpressionActionInput) =>
+	// Re-observes whenever the impression input changes.
+	function trackQuestionImpression(input: QuestionImpressionActionInput): Attachment<HTMLElement> {
+		return (node) =>
 			observeQualifiedQuestionImpression(node, {
-				...nextInput,
+				...input,
 				surface: 'question_page',
-				sourcePath: `/questions/${nextInput.questionUrl}`
+				sourcePath: `/questions/${input.questionUrl}`
 			});
-
-		let cleanup = observe(input);
-		return {
-			update(nextInput: QuestionImpressionActionInput) {
-				cleanup();
-				cleanup = observe(nextInput);
-			},
-			destroy() {
-				cleanup();
-			}
-		};
 	}
 
 	const questionImpressionInput = $derived<QuestionImpressionActionInput>({
@@ -144,6 +129,57 @@
 			.filter((category) => category.level === 1)
 			.sort((a, b) => a.category_name.localeCompare(b.category_name))
 	);
+
+	// ---------------------------------------------------------------------
+	// Category picker: a chain of deriveds. A "sync" is a change in the
+	// question's server-side tags; it re-seeds the picker. Reloads that leave
+	// the tags alone (the signature is a string, so it only changes when they
+	// do) keep the author's in-progress picks.
+	// ---------------------------------------------------------------------
+	let serverTagSignature = $derived(
+		editableCategories.length
+			? getServerTagIds((data.questionTags || []) as QuestionTagRef[]).join(',')
+			: ''
+	);
+
+	// Leaf picks: the server's tags until the author toggles one.
+	let selectedTagIds = $derived(tagIdsFromSignature(serverTagSignature));
+
+	// Editor messages clear on every sync.
+	let categoryEditorError = $derived.by(() => {
+		void serverTagSignature;
+		return '';
+	});
+	let categoryEditorSuccess = $derived.by(() => {
+		void serverTagSignature;
+		return '';
+	});
+
+	// Where the picker opens after a sync: the first selected leaf's parent and root.
+	let syncedPlacement = $derived.by(() => {
+		const tagIds = tagIdsFromSignature(serverTagSignature);
+		return untrack(() => {
+			const firstSelectedLeaf = tagIds
+				.map((tagId) => categoryById.get(tagId))
+				.find(
+					(category): category is EditableCategory => category !== undefined && category.level === 3
+				);
+			const parentId = firstSelectedLeaf?.parent_id ?? null;
+			return {
+				parentId,
+				rootId: parentId ? (categoryById.get(parentId)?.parent_id ?? null) : null
+			};
+		});
+	});
+
+	// Root: seeded per sync, overridden by a click, else the first root.
+	let pickedRootId = $derived<number | null>(syncedPlacement.rootId);
+	let selectedRootCategoryId = $derived(
+		pickedRootId !== null && rootCategories.some((category) => category.id === pickedRootId)
+			? pickedRootId
+			: (rootCategories[0]?.id ?? null)
+	);
+
 	let parentCategories = $derived.by(() => {
 		if (!selectedRootCategoryId) {
 			return [] as EditableCategory[];
@@ -152,6 +188,30 @@
 			.filter((category) => category.level === 2 && category.parent_id === selectedRootCategoryId)
 			.sort((a, b) => a.category_name.localeCompare(b.category_name));
 	});
+
+	// Parent: chosen once per sync or root change (the synced parent, else one
+	// holding a selected leaf, else the first), then kept until a click
+	// overrides it, so toggling leaves never moves the open column.
+	let pickedParentId = $derived.by<number | null>(() => {
+		const rootId = selectedRootCategoryId;
+		const placement = syncedPlacement;
+		return untrack(() =>
+			placement.rootId === rootId && placement.parentId !== null
+				? placement.parentId
+				: defaultParentCategoryId()
+		);
+	});
+	let selectedParentCategoryId = $derived.by<number | null>(() => {
+		if (!selectedRootCategoryId || !parentCategories.length) return null;
+		if (
+			pickedParentId !== null &&
+			parentCategories.some((category) => category.id === pickedParentId)
+		) {
+			return pickedParentId;
+		}
+		return defaultParentCategoryId();
+	});
+
 	let leafCategories = $derived.by(() => {
 		if (!selectedParentCategoryId) {
 			return [] as EditableCategory[];
@@ -172,86 +232,28 @@
 			: ''
 	);
 
+	function tagIdsFromSignature(signature: string): number[] {
+		return signature ? signature.split(',').map(Number) : [];
+	}
+
+	// A parent under the current root that holds one of the selected leaves,
+	// else the root's first parent.
+	function defaultParentCategoryId(): number | null {
+		const selectedTagParent = selectedLeafCategories
+			.map((leaf) => leaf.parent_id)
+			.find(
+				(parentId): parentId is number =>
+					typeof parentId === 'number' &&
+					parentCategories.some((category) => category.id === parentId)
+			);
+		return selectedTagParent ?? parentCategories[0]?.id ?? null;
+	}
+
 	// Reset optimistic state BEFORE DOM updates when server confirms user has answered
 	$effect.pre(() => {
 		if (data.flags?.userHasAnswered) {
 			optimisticComments = [];
 			optimisticUserHasAnswered = false;
-		}
-	});
-
-	$effect(() => {
-		if (!editableCategories.length) {
-			selectedTagIds = [];
-			selectedRootCategoryId = null;
-			selectedParentCategoryId = null;
-			serverTagSignature = '';
-			return;
-		}
-
-		const serverTagIds = getServerTagIds((data.questionTags || []) as QuestionTagRef[]);
-		const signature = serverTagIds.join(',');
-
-		if (signature === serverTagSignature) {
-			return;
-		}
-
-		serverTagSignature = signature;
-		selectedTagIds = serverTagIds;
-		categoryEditorError = '';
-		categoryEditorSuccess = '';
-
-		const firstSelectedLeaf = serverTagIds
-			.map((tagId) => categoryById.get(tagId))
-			.find(
-				(category): category is EditableCategory => category !== undefined && category.level === 3
-			);
-
-		if (firstSelectedLeaf?.parent_id) {
-			selectedParentCategoryId = firstSelectedLeaf.parent_id;
-			const parentCategory = categoryById.get(firstSelectedLeaf.parent_id);
-			selectedRootCategoryId = parentCategory?.parent_id ?? null;
-		}
-	});
-
-	$effect(() => {
-		if (!rootCategories.length) {
-			selectedRootCategoryId = null;
-			selectedParentCategoryId = null;
-			return;
-		}
-
-		const rootIsValid = selectedRootCategoryId
-			? rootCategories.some((category) => category.id === selectedRootCategoryId)
-			: false;
-		if (!rootIsValid) {
-			selectedRootCategoryId = rootCategories[0].id;
-		}
-	});
-
-	$effect(() => {
-		if (!selectedRootCategoryId) {
-			selectedParentCategoryId = null;
-			return;
-		}
-
-		if (!parentCategories.length) {
-			selectedParentCategoryId = null;
-			return;
-		}
-
-		const parentIsValid = selectedParentCategoryId
-			? parentCategories.some((category) => category.id === selectedParentCategoryId)
-			: false;
-		if (!parentIsValid) {
-			const selectedTagParent = selectedLeafCategories
-				.map((leaf) => leaf.parent_id)
-				.find(
-					(parentId): parentId is number =>
-						typeof parentId === 'number' &&
-						parentCategories.some((category) => category.id === parentId)
-				);
-			selectedParentCategoryId = selectedTagParent ?? parentCategories[0].id;
 		}
 	});
 
@@ -574,7 +576,23 @@
 			(Boolean(hostPromiseCopy) || (replyOptInOffer !== null && replyOptInState !== 'dismissed'))
 	);
 
+	// The take thread renders inside a <svelte:boundary>: if it throws, the
+	// question and composer stay usable. Arriving on another question retries it.
+	let resetThread: (() => void) | null = null;
+
+	function handleThreadError(error: unknown, reset: () => void) {
+		console.error('Question thread failed to render:', error);
+		resetThread = reset;
+	}
+
+	function retryThread() {
+		const reset = resetThread;
+		resetThread = null;
+		reset?.();
+	}
+
 	afterNavigate(() => {
+		retryThread();
 		recipientInviteId = getRecipientQuestionInviteId(window.location.href);
 		void captureQuestionInvitePageView({
 			currentUrl: window.location.href,
@@ -720,13 +738,13 @@
 	}));
 
 	function selectRootCategory(rootId: number) {
-		selectedRootCategoryId = rootId;
+		pickedRootId = rootId;
 		categoryEditorError = '';
 		categoryEditorSuccess = '';
 	}
 
 	function selectParentCategory(parentId: number) {
-		selectedParentCategoryId = parentId;
+		pickedParentId = parentId;
 		categoryEditorError = '';
 		categoryEditorSuccess = '';
 	}
@@ -911,7 +929,7 @@
 			<div
 				id="open-case-question"
 				class="open-case-display"
-				use:trackQuestionImpression={questionImpressionInput}
+				{@attach trackQuestionImpression(questionImpressionInput)}
 			>
 				<QuestionDisplay question={data.question} />
 			</div>
@@ -984,17 +1002,26 @@
 
 			{#if dataForChild}
 				<div class="open-case-floor">
-					<QuestionContent
-						data={dataForChild}
-						user={data?.user}
-						nextStarter={data.nextStarter ?? null}
-						replyFocus={data.replyFocus ?? null}
-						oncommentAdded={() => addComment()}
-						afterOwnTakes={showAnswerHandoff ? answerHandoff : undefined}
-						interstitial={inviteCardVisible && commentsUnlocked ? inviteCard : undefined}
-						{revealFailed}
-						onretryReveal={() => void loadRevealedTakes()}
-					/>
+					<svelte:boundary onerror={handleThreadError}>
+						<QuestionContent
+							data={dataForChild}
+							user={data?.user}
+							nextStarter={data.nextStarter ?? null}
+							replyFocus={data.replyFocus ?? null}
+							oncommentAdded={() => addComment()}
+							afterOwnTakes={showAnswerHandoff ? answerHandoff : undefined}
+							interstitial={inviteCardVisible && commentsUnlocked ? inviteCard : undefined}
+							{revealFailed}
+							onretryReveal={() => void loadRevealedTakes()}
+						/>
+
+						{#snippet failed()}
+							<div class="thread-failed" role="alert">
+								<p>This part of the page didn't load.</p>
+								<Button variant="secondary" size="md" onclick={retryThread}>Try again</Button>
+							</div>
+						{/snippet}
+					</svelte:boundary>
 				</div>
 			{/if}
 
@@ -1301,6 +1328,24 @@
 		margin-top: 16px;
 		padding-top: 24px;
 		border-top: 1px solid var(--stone-edge);
+	}
+
+	/* Error fallback for the take thread; matches RankedComments' reveal retry. */
+	.thread-failed {
+		display: grid;
+		justify-items: center;
+		gap: 0.75rem;
+		margin: 0 1rem;
+		padding: 1.5rem 1rem;
+		border: 1px dashed var(--stone-edge);
+		border-radius: 1rem;
+		color: var(--ink-mid);
+		font-size: 0.9rem;
+		text-align: center;
+
+		p {
+			margin: 0;
+		}
 	}
 
 	.open-case-category {

@@ -10,6 +10,7 @@
   live in src/scss/index.scss bridge blocks; this file references them via var(--…).
 -->
 <script lang="ts">
+	import { onMount } from 'svelte';
 	import { browser } from '$app/environment';
 	import SEOHead from '$lib/components/SEOHead.svelte';
 	import { Button, SectionKicker } from '$lib/components/atoms';
@@ -277,7 +278,7 @@
 
 	// ------------------------------------------------------------------
 	// V5 §05 — time-dynamic open-question kicker.
-	// SSR renders a neutral default; the client-only $effect below swaps in
+	// SSR renders a neutral default; the client-only onMount below swaps in
 	// the per-visitor local-time variant. Slight mismatch is invisible.
 	// ------------------------------------------------------------------
 	type TimeWindow = { title: string; kicker: string };
@@ -317,8 +318,8 @@
 	let timeWindow = $state<TimeWindow>({ title: "Today's open question", kicker: 'TODAY' });
 	let dateLabel = $state<string>('');
 
-	$effect(() => {
-		if (!browser) return;
+	// Reads the visitor's clock, so it runs once after hydration (SSR keeps the default).
+	onMount(() => {
 		timeWindow = getTimeWindow();
 		dateLabel = getDateLabel();
 	});
@@ -501,7 +502,7 @@
 							class="locked-preview"
 							aria-label="Three locked takes — drop yours to unlock the room"
 						>
-							{#each lockedTakes as t}
+							{#each lockedTakes as t (t.type)}
 								<div class="locked-take" style="--type-stripe: var(--type-{t.type}-color);">
 									<div class="locked-take-head">
 										<span class="mono">TYPE {t.type} · {t.typeName.toUpperCase()}</span>
@@ -547,7 +548,7 @@
 					<span class="primer-col-read mono" role="columnheader">WHAT THEY SEE FIRST</span>
 				</div>
 
-				{#each nineTypes as t}
+				{#each nineTypes as t (t.num)}
 					<a
 						href={`/enneagram-corner/enneagram-type-${t.num}`}
 						class="primer-row"
@@ -638,7 +639,7 @@
 		</header>
 
 		<ul class="open-floor-takes">
-			{#each lockedTakes as t}
+			{#each lockedTakes as t (t.type)}
 				<li class="take-card" style="--type-stripe: var(--type-{t.type}-color);">
 					<div class="take-card-top">
 						<span class="mono take-card-label">
@@ -682,7 +683,7 @@
 		</header>
 
 		<div class="library-grid">
-			{#each data.typeRepresentatives as person}
+			{#each data.typeRepresentatives as person (person.name)}
 				{@const typeNum = person.type}
 				{@const info = ENNEAGRAM_TYPE_COLORS[typeNum]}
 				{@const displayName = formatPersonalityDisplayName(person.name)}
@@ -740,7 +741,7 @@
 		</header>
 
 		<div class="compiled-grid">
-			{#each corpusStats as s}
+			{#each corpusStats as s (s.label)}
 				<div class="compiled-stat">
 					<span class="mono compiled-stat-label">{s.label}</span>
 					<span class="compiled-stat-value">{s.value}</span>

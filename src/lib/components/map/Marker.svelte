@@ -1,7 +1,7 @@
 <!-- src/lib/components/map/Marker.svelte -->
 <script lang="ts">
-	import { onMount, getContext } from 'svelte';
-	import { contextKey } from '$lib/components/map/mapbox';
+	import { onMount, type Snippet } from 'svelte';
+	import { getMapContext } from '$lib/components/map/map-context';
 
 	type MapboxMarker = {
 		setPopup: (popup: unknown) => MapboxMarker;
@@ -18,12 +18,27 @@
 		};
 	};
 
-	const { getMap, getMapbox } = getContext(contextKey) as {
-		getMap: () => unknown;
-		getMapbox: () => MapboxLike;
-	};
+	interface Props {
+		lat?: number;
+		lng?: number;
+		label?: string;
+		popupClassName?: string;
+		markerOffset?: [number, number];
+		popupOffset?: number;
+		color?: number;
+		popup?: boolean;
+		popupOptions?: Record<string, unknown>;
+		markerOptions?: Record<string, unknown>;
+		popupHtml?: string;
+		/** Custom marker element content (replaces the default coloured pin). */
+		children?: Snippet;
+		/** Custom popup content (replaces the plain-text `label`). */
+		popupContent?: Snippet;
+	}
+
+	const { getMap, getMapbox } = getMapContext();
 	const map = getMap();
-	const mapbox = getMapbox();
+	const mapbox = getMapbox() as MapboxLike;
 
 	function randomColour() {
 		return Math.round(Math.random() * 255);
@@ -33,40 +48,46 @@
 		marker?.setLngLat({ lng, lat });
 	}
 
-	export let lat = 0;
-	export let lng = 0;
-	export let label = 'Marker';
-	export let popupClassName = 'beyonk-mapbox-popup';
-	export let markerOffset: [number, number] = [0, 0];
-	export let popupOffset = 10;
-	export let color = randomColour();
-	export let popup = true;
-	export let popupOptions: Record<string, unknown> = {};
-	export let markerOptions: Record<string, unknown> = {};
-	export let popupHtml = '';
-	let marker: MapboxMarker | null = null;
-	let element: HTMLDivElement;
-	let elementPopup: HTMLDivElement;
+	let {
+		lat = 0,
+		lng = 0,
+		label = 'Marker',
+		popupClassName = 'beyonk-mapbox-popup',
+		markerOffset = [0, 0],
+		popupOffset = 10,
+		color = randomColour(),
+		popup = true,
+		popupOptions = {},
+		markerOptions = {},
+		popupHtml = '',
+		children,
+		popupContent
+	}: Props = $props();
 
-	$: marker && move(lng, lat);
+	let marker = $state.raw<MapboxMarker | null>(null);
+	let element: HTMLDivElement | undefined = $state();
+	let elementPopup: HTMLDivElement | undefined = $state();
+
+	// Keep the mapbox marker in sync with lat/lng after it has been created.
+	$effect(() => {
+		if (marker) move(lng, lat);
+	});
 
 	onMount(() => {
+		// The marker and popup are created once; later option changes are not applied (same as before).
 		const namedParams = Object.assign(
 			{
 				offset: markerOffset
 			},
-			element.hasChildNodes() ? { element } : { color }
+			children && element ? { element } : { color }
 		);
 		const tempEl = Object.assign(namedParams, markerOptions);
-		marker = new mapbox.Marker(tempEl);
-		// tempEl.addEventListener('click', () => {
-		// 	popupClicked();
-		// });
+		const created = new mapbox.Marker(tempEl);
 
 		if (popup) {
 			const namedPopupParams = { offset: popupOffset, className: popupClassName };
 			const popupEl = new mapbox.Popup(Object.assign(namedPopupParams, popupOptions));
-			if (elementPopup.hasChildNodes()) {
+			if (popupContent && elementPopup) {
 				popupEl.setDOMContent(elementPopup);
 			} else {
 				popupEl.setText(label);
@@ -76,14 +97,13 @@
 				popupEl.setHTML(popupHtml);
 			}
 
-			marker.setPopup(popupEl);
+			created.setPopup(popupEl);
 		}
 
-		marker.setLngLat({ lng, lat }).addTo(map);
+		created.setLngLat({ lng, lat }).addTo(map);
+		marker = created;
 
-		if (!element.hasChildNodes()) element.remove();
-
-		return () => marker?.remove();
+		return () => created.remove();
 	});
 
 	export function getMarker() {
@@ -91,10 +111,12 @@
 	}
 </script>
 
-<div bind:this={element}>
-	<slot />
-</div>
+{#if children}
+	<div bind:this={element}>
+		{@render children()}
+	</div>
+{/if}
 
 <div class="popup" bind:this={elementPopup}>
-	<slot name="popup" />
+	{@render popupContent?.()}
 </div>

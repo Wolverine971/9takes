@@ -1,6 +1,8 @@
 <!-- src/lib/components/marketing/HomeLandingV2.svelte -->
 <script lang="ts">
 	import { onMount, tick } from 'svelte';
+	import type { Attachment } from 'svelte/attachments';
+	import { on } from 'svelte/events';
 	import { resolve } from '$app/paths';
 	import { ArrowRight, Check, ChevronDown, LockKeyhole, RotateCcw } from '@lucide/svelte';
 	import { Button } from '$lib/components/atoms';
@@ -69,7 +71,6 @@
 
 	// Funnel analytics: ids, slugs and placements only — never the visitor's answer text.
 	let surface = $derived(preview ? 'homepage_preview' : 'homepage');
-	let root = $state<HTMLDivElement>();
 	let startedQuestionId = '';
 	let gateReported = false;
 	function reportGateImpression() {
@@ -105,9 +106,8 @@
 		trackPractice('started');
 	}
 
-	$effect(() => {
-		const element = root;
-		if (!element) return;
+	// Attachment on the page root: one listener reports clicks on any [data-track] element.
+	const trackClicks: Attachment<HTMLDivElement> = (element) => {
 		function handleTrackedClick(event: MouseEvent) {
 			const target = (event.target as Element | null)?.closest<HTMLElement>('[data-track]');
 			if (!target) return;
@@ -120,9 +120,8 @@
 					destination: target.getAttribute('href') ?? ''
 				});
 		}
-		element.addEventListener('click', handleTrackedClick);
-		return () => element.removeEventListener('click', handleTrackedClick);
-	});
+		return on(element, 'click', handleTrackedClick);
+	};
 	// Four published analyses from the most-read personality pages (Sept 2026), one per type.
 	const featuredPeople = [
 		{
@@ -473,7 +472,7 @@
 	</div>
 {/snippet}
 
-<div class="dry-home" bind:this={root}>
+<div class="dry-home" {@attach trackClicks}>
 	{#if preview}
 		<header class="home-nav shell">
 			<a class="home-brand" href={resolve('/')} aria-label="9takes home"
@@ -501,7 +500,7 @@
 			<div
 				class="question-panel ph-no-capture"
 				id="try-a-question"
-				use:qualifiedVisibility={reportGateImpression}
+				{@attach qualifiedVisibility(reportGateImpression)}
 			>
 				<div class="panel-topline">
 					<span class="mono">{isLive ? 'LIVE QUESTION' : 'YOUR FIRST REACTION'}</span>

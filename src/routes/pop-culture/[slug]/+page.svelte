@@ -1,9 +1,6 @@
 <!-- src/routes/pop-culture/[slug]/+page.svelte -->
 <script lang="ts">
-	import { onMount } from 'svelte';
-	import { writable } from 'svelte/store';
-	import { browser } from '$app/environment';
-	import TableOfContents from '$lib/components/blog/TableOfContents.svelte';
+	import TableOfContents, { trackArticleHtml } from '$lib/components/blog/TableOfContents.svelte';
 	import PopCard from '$lib/components/atoms/PopCard.svelte';
 	import PopCardGroup from '$lib/components/atoms/PopCardGroup.svelte';
 	import type { PageData } from './$types';
@@ -17,9 +14,9 @@
 	import ExperimentalTherapyInvite from '$lib/components/blog/ExperimentalTherapyInvite.svelte';
 	import { getPopCultureBridges } from '$lib/data/popCultureBridges';
 	import { getPersonalityCategoryBySlug } from '$lib/personalityCategories';
-	import { getAuthShellUser } from '$lib/authShell';
+	import { getAuthShell } from '$lib/authShell.svelte';
 	let { data }: { data: PageData } = $props();
-	const authUser = getAuthShellUser();
+	const authShell = getAuthShell();
 	type C = Component;
 	let Article = $derived(data.component as unknown as C);
 
@@ -40,60 +37,15 @@
 		9: 'Type 9: Peacemaker'
 	};
 
-	const contentStore = writable('');
+	// The article's live HTML, for the TOC's client-side fallback.
+	let tocContent = $state('');
 
-	let observer: MutationObserver | null = null;
-
-	onMount(() => {
-		findObserver();
-
-		return () => {
-			if (observer) {
-				observer.disconnect();
-				observer = null;
-			}
-		};
-	});
-
-	// Watch for slug changes and reinitialize observer
-	$effect(() => {
-		if (data?.slug) {
-			contentStore.set('');
-
-			if (observer) {
-				observer.disconnect();
-				observer = null;
-			}
-
-			setTimeout(() => {
-				findObserver();
-			}, 100);
-		}
-	});
-
-	const findObserver = () => {
-		if (!browser) return;
-		const node = document.querySelector('#popCultureArticle');
-
-		if (!node) {
-			setTimeout(findObserver, 500);
-		} else {
-			if (observer) {
-				observer.disconnect();
-			}
-
-			observer = new MutationObserver((mutations) => {
-				mutations.forEach((mutation) => {
-					if (mutation.type === 'childList') {
-						contentStore.set(node.innerHTML);
-					}
-				});
-			});
-
-			observer.observe(node, { childList: true, subtree: true });
-			contentStore.set(node.innerHTML);
-		}
-	};
+	// Frontmatter tags, one each (a repeated tag would break the keyed list).
+	const tags = $derived(
+		(data.frontmatter.tags ?? []).filter(
+			(tag: string, i: number, all: string[]) => all.indexOf(tag) === i
+		)
+	);
 
 	let isDarkContent = $derived(
 		data?.slug?.includes('dark-triad') ||
@@ -103,7 +55,11 @@
 	);
 </script>
 
-<article class="pop-culture-article" id="popCultureArticle">
+<article
+	class="pop-culture-article"
+	id="popCultureArticle"
+	{@attach trackArticleHtml((html) => (tocContent = html))}
+>
 	<div class="article-header" class:dark-theme={isDarkContent}>
 		<BlogPageHead data={data.frontmatter} slug={`pop-culture/${data.slug}`} />
 
@@ -119,7 +75,7 @@
 
 		<div class="article-tags">
 			{#if data.frontmatter.tags}
-				{#each data.frontmatter.tags as tag}
+				{#each tags as tag (tag)}
 					<span class="tag">{tag}</span>
 				{/each}
 			{/if}
@@ -145,7 +101,7 @@
 	{/if}
 
 	<TableOfContents
-		{contentStore}
+		content={tocContent}
 		headings={data.frontmatter.headings}
 		maxTocEntries={data.frontmatter.tocMaxEntries ?? 24}
 	/>
@@ -213,9 +169,9 @@
 
 <hr class="section-divider" />
 
-<SuggestionsBlog posts={data?.posts} blogType={'Pop Culture'} slugPrefix={'pop-culture'} />
+<SuggestionsBlog posts={data?.posts} blogType="Pop Culture" slugPrefix="pop-culture" />
 
-{#if !$authUser}
+{#if !authShell.user}
 	<div class="join">
 		<EmailSignup />
 	</div>

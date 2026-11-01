@@ -1,13 +1,21 @@
 <!-- src/lib/components/icons/masterCommentIcon.svelte -->
 <script lang="ts">
-	export let className = '';
-
-	export let height = '1rem';
-	export let fill = 'var(--ink-mid)';
-	export let iconStyle = '';
-
 	type CommentTypes = 'empty' | 'multiple' | 'disabled' | 'full';
-	export let type: CommentTypes = 'empty';
+	interface Props {
+		className?: string;
+		height?: string;
+		fill?: string;
+		iconStyle?: string;
+		type?: CommentTypes;
+	}
+
+	let {
+		className = '',
+		height = '1rem',
+		fill = 'var(--ink-mid)',
+		iconStyle = '',
+		type = 'empty'
+	}: Props = $props();
 </script>
 
 {#if type === 'empty'}

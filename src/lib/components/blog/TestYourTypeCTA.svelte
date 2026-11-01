@@ -10,13 +10,23 @@
   Bucket 3 — internal linking and graph bridging.
 -->
 <script lang="ts">
-	export let heading: string = "Don't know your type yet?";
-	export let body: string =
-		'Take the free 9takes Enneagram test. It starts with the emotion that runs you, takes 5 to 10 minutes, needs no email, and lets someone who knows you check your result.';
-	export let ctaLabel: string = 'Start the Enneagram test';
-	export let secondaryHref: string | null = null;
-	export let secondaryLabel: string | null = null;
-	export let compact: boolean = false;
+	interface Props {
+		heading?: string;
+		body?: string;
+		ctaLabel?: string;
+		secondaryHref?: string | null;
+		secondaryLabel?: string | null;
+		compact?: boolean;
+	}
+
+	let {
+		heading = "Don't know your type yet?",
+		body = 'Take the free 9takes Enneagram test. It starts with the emotion that runs you, takes 5 to 10 minutes, needs no email, and lets someone who knows you check your result.',
+		ctaLabel = 'Start the Enneagram test',
+		secondaryHref = null,
+		secondaryLabel = null,
+		compact = false
+	}: Props = $props();
 </script>
 
 <aside class="test-cta" class:compact aria-labelledby="test-cta-heading">

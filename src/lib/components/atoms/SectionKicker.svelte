@@ -10,7 +10,7 @@
 	//   <SectionKicker label="FEATURED" />
 	//   <SectionKicker label="TYPE 8 · THE CHALLENGER" />
 	//   <SectionKicker tone="data" label="STATUS · ACTIVE" />
-	//   <SectionKicker><slot/></SectionKicker>                                 // freeform via children
+	//   <SectionKicker>freeform content</SectionKicker>                        // freeform via children
 	import type { Snippet } from 'svelte';
 
 	type Tone = 'lamp' | 'data' | 'dim';

@@ -213,7 +213,7 @@
 		<section class="page-section" aria-labelledby="key-findings-heading">
 			<h2 id="key-findings-heading">Key Findings</h2>
 			<ul class="tldr-list" id="key-findings">
-				{#each stats.citable_claims.slice(0, 3) as claim}
+				{#each stats.citable_claims.slice(0, 3) as claim (claim)}
 					<li>{claim}</li>
 				{/each}
 			</ul>
@@ -329,7 +329,7 @@
 							{#if entry.top_domains.length === 0}
 								—
 							{:else}
-								{#each entry.top_domains as d, i}
+								{#each entry.top_domains as d, i (d.slug)}
 									{#if i > 0},
 									{/if}
 									<a href={d.url}>{d.label}</a> ({d.count}, {pct(d.share)}%)
@@ -432,7 +432,7 @@
 				to this page.
 			</p>
 			<div class="claims">
-				{#each stats.citable_claims as claim}
+				{#each stats.citable_claims as claim (claim)}
 					<blockquote>{claim}</blockquote>
 				{/each}
 			</div>

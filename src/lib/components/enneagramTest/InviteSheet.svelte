@@ -6,6 +6,7 @@
   friend sees ("Jordan wants your honest read"); it saves on its own.
 -->
 <script lang="ts">
+	import { onMount, untrack } from 'svelte';
 	import { page } from '$app/state';
 	import { Button, Field, Input, Textarea } from '$lib/components/atoms';
 	import {
@@ -22,17 +23,18 @@
 
 	let { resultToken, readToken, split, initialName }: Props = $props();
 
-	// svelte-ignore state_referenced_locally
-	let name = $state(initialName ?? '');
-	// svelte-ignore state_referenced_locally
-	let savedName = $state(initialName ?? '');
+	// Editable fields seeded once from the props; the user owns them afterwards,
+	// so they must not reset if the props change.
+	let name = $state(untrack(() => initialName ?? ''));
+	let savedName = $state(untrack(() => initialName ?? ''));
 	let nameStatus = $state<'idle' | 'saving' | 'saved' | 'error'>('idle');
 	let nameError = $state('');
-	// svelte-ignore state_referenced_locally
 	let message = $state(
-		split
-			? 'I took an Enneagram test and I’m stuck between two types. Which one am I? It takes 3 minutes, and you answer before you see my two:'
-			: 'I took an Enneagram test and I want an outside read before I believe my result. It takes 3 minutes, and you answer before you see what I picked:'
+		untrack(() =>
+			split
+				? 'I took an Enneagram test and I’m stuck between two types. Which one am I? It takes 3 minutes, and you answer before you see my two:'
+				: 'I took an Enneagram test and I want an outside read before I believe my result. It takes 3 minutes, and you answer before you see what I picked:'
+		)
 	);
 	let copied = $state(false);
 	let canShare = $state(false);
@@ -46,8 +48,9 @@
 		`mailto:?subject=${encodeURIComponent('Does this sound like me?')}&body=${encodeURIComponent(fullMessage)}`
 	);
 
-	$effect(() => {
-		canShare = typeof navigator !== 'undefined' && typeof navigator.share === 'function';
+	// Browser-only check, after hydration, so the server HTML and first client render match.
+	onMount(() => {
+		canShare = typeof navigator.share === 'function';
 	});
 
 	async function saveName() {

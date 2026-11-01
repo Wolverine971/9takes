@@ -2,6 +2,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { slide } from 'svelte/transition';
+	import { SvelteSet } from 'svelte/reactivity';
 
 	interface AnalyticsItem {
 		id: number;
@@ -68,7 +69,7 @@
 	let includeDrafts = $state(false); // Default: exclude drafts
 
 	// Distribution section expand state
-	let expandedTypes = $state<Set<string>>(new Set());
+	const expandedTypes = new SvelteSet<string>();
 
 	// Analytics data from API
 	let analyticsData = $state<AnalyticsItem[]>([]);
@@ -76,6 +77,7 @@
 
 	// Map blog IDs to original blog objects for click handling
 	let blogMap = $derived.by(() => {
+		// eslint-disable-next-line svelte/prefer-svelte-reactivity -- temporary lookup built and consumed inside this function, never held in state
 		const map = new Map<number, App.BlogPost>();
 		for (const blog of data) {
 			const id = (blog as any).id;
@@ -207,6 +209,7 @@
 
 	// Derived: Enneagram type distribution with people lists
 	let enneagramDistribution = $derived.by(() => {
+		// eslint-disable-next-line svelte/prefer-svelte-reactivity -- temporary lookup built and consumed inside this function, never held in state
 		const distribution = new Map<
 			string,
 			{
@@ -266,15 +269,14 @@
 	function toggleTypeExpanded(type: string) {
 		if (expandedTypes.has(type)) {
 			expandedTypes.delete(type);
-			expandedTypes = new Set(expandedTypes);
 		} else {
 			expandedTypes.add(type);
-			expandedTypes = new Set(expandedTypes);
 		}
 	}
 
 	// Derived: Category distribution
 	let categoryDistribution = $derived.by(() => {
+		// eslint-disable-next-line svelte/prefer-svelte-reactivity -- temporary lookup built and consumed inside this function, never held in state
 		const distribution = new Map<
 			string,
 			{ total: number; published: number; types: Set<string> }
@@ -509,7 +511,7 @@
 						</tr>
 					</thead>
 					<tbody>
-						{#each crosslinkTableData as blog}
+						{#each crosslinkTableData as blog (blog.id)}
 							<tr
 								class="table-row"
 								class:orphan={blog.totalLinks === 0}
@@ -568,7 +570,7 @@
 						</tr>
 					</thead>
 					<tbody>
-						{#each contentLengthData as blog}
+						{#each contentLengthData as blog (blog.id)}
 							{@const quality =
 								blog.wordCount < 1500
 									? 'thin'
@@ -630,7 +632,7 @@
 						</tr>
 					</thead>
 					<tbody>
-						{#each recencyData as blog}
+						{#each recencyData as blog (blog.id)}
 							<tr
 								class="table-row"
 								class:stale={blog.freshnessStatus === 'stale'}
@@ -691,7 +693,7 @@
 						</tr>
 					</thead>
 					<tbody>
-						{#each seoData as blog}
+						{#each seoData as blog (blog.id)}
 							<tr
 								class="table-row"
 								class:poor={blog.seoStatus === 'poor'}
@@ -759,7 +761,7 @@
 				<div class="distribution-section">
 					<h3 class="section-title">Enneagram Types</h3>
 					<div class="enneagram-list">
-						{#each enneagramDistribution as item}
+						{#each enneagramDistribution as item (item.type)}
 							<div
 								class="type-row"
 								class:empty={item.total === 0}
@@ -797,7 +799,7 @@
 												</h4>
 												{#if item.publishedItems.length > 0}
 													<ul class="people-list">
-														{#each item.publishedItems as person}
+														{#each item.publishedItems as person (person.id)}
 															<li>
 																<button class="person-link" onclick={() => handleRowClick(person)}>
 																	{formatPersonName(person.person || '')}
@@ -813,7 +815,7 @@
 												<h4 class="column-title drafts">Drafts ({item.draftItems.length})</h4>
 												{#if item.draftItems.length > 0}
 													<ul class="people-list">
-														{#each item.draftItems as person}
+														{#each item.draftItems as person (person.id)}
 															<li>
 																<button class="person-link" onclick={() => handleRowClick(person)}>
 																	{formatPersonName(person.person || '')}
@@ -847,7 +849,7 @@
 							</tr>
 						</thead>
 						<tbody>
-							{#each categoryDistribution as cat}
+							{#each categoryDistribution as cat (cat.category)}
 								<tr class="table-row">
 									<td class="category-name">{cat.category}</td>
 									<td class="numeric">{cat.total}</td>

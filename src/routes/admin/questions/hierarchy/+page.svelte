@@ -49,7 +49,7 @@
 		</div>
 	{:else}
 		<div class="tree-wrapper">
-			{#each categories as category}
+			{#each categories as category (category.id)}
 				<CategoryTree {category} />
 			{/each}
 		</div>

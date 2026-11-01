@@ -1,6 +1,7 @@
 <!-- src/lib/components/blog/PeopleSuggestionsSideBar.svelte -->
 <script lang="ts">
-	import { onMount, onDestroy } from 'svelte';
+	import type { Snippet } from 'svelte';
+	import { onMount } from 'svelte';
 	import { fly } from 'svelte/transition';
 	import { prefersReducedMotion } from 'svelte/motion';
 	import { browser } from '$app/environment';
@@ -9,42 +10,63 @@
 		formatPersonalityDisplayName
 	} from '$lib/utils/personalityAnalysis';
 
-	export let links: string[] = [];
-	export let title: string = 'More Personalities';
+	interface Props {
+		links?: string[];
+		title?: string;
+		/**
+		 * Bridge links — internal-linking authority routes from a personality
+		 * profile back into the main graph (type pillar, category, corpus stats,
+		 * /enneagram-test). Rendered below the suggestions list and only shown
+		 * when at least one link is present. Bucket 3, internal linking.
+		 */
+		bridgeLinks?: { label: string; href: string }[];
+		/**
+		 * When false, the inline static link block (rendered in the document flow
+		 * at the bottom of the page) is suppressed and only the floating desktop
+		 * rail is shown. Used on /personality-analysis, where the bottom "Further
+		 * analysis" section is the canonical related block and the inline list
+		 * would duplicate it.
+		 */
+		showInline?: boolean;
+		// Configuration options with defaults
+		showAtScrollY?: number;
+		hideBeforeBottom?: number;
+		sidebarWidth?: number;
+		/** Hide on screens smaller than this width */
+		mobileBreakpoint?: number;
+		/** Optional card above the list (the beta card on personality pages). */
+		lead?: Snippet;
+		/** Extra content rendered at the bottom of the floating rail. */
+		children?: Snippet;
+	}
 
-	/**
-	 * Bridge links — internal-linking authority routes from a personality
-	 * profile back into the main graph (type pillar, category, corpus stats,
-	 * /enneagram-test). Rendered below the suggestions list and only shown
-	 * when at least one link is present. Bucket 3, internal linking.
-	 */
-	export let bridgeLinks: { label: string; href: string }[] = [];
+	let {
+		links = [],
+		title = 'More Personalities',
+		bridgeLinks = [],
+		showInline = true,
+		showAtScrollY = 1200,
+		hideBeforeBottom = 1500,
+		sidebarWidth = 200,
+		mobileBreakpoint = 1024,
+		lead,
+		children
+	}: Props = $props();
 
-	/**
-	 * When false, the inline static link block (rendered in the document flow
-	 * at the bottom of the page) is suppressed and only the floating desktop
-	 * rail is shown. Used on /personality-analysis, where the bottom "Further
-	 * analysis" section is the canonical related block and the inline list
-	 * would duplicate it.
-	 */
-	export let showInline: boolean = true;
-
-	// Configuration options with defaults
-	export let showAtScrollY: number = 1200;
-	export let hideBeforeBottom: number = 1500;
-	export let sidebarWidth: number = 200;
-	export let mobileBreakpoint: number = 1024; // Hide on screens smaller than this width
-
-	let visible = false;
-	let windowWidth: number = 0;
-	let contentWidth: number = 64 * 16; // 64rem default
+	let visible = $state(false);
+	let windowWidth = $state(0);
+	let contentWidth = $state(64 * 16); // 64rem default
 	let mainElement: HTMLElement | null = null;
 
+	// One entry per person: the raw `suggestions` fallback isn't de-duplicated,
+	// and a repeated slug would break the keyed lists below.
+	const uniqueLinks = $derived(links.filter((link, i) => links.indexOf(link) === i));
+
 	// Track if we should display based on screen size
-	$: showOnCurrentWidth = windowWidth >= mobileBreakpoint;
+	let showOnCurrentWidth = $derived(windowWidth >= mobileBreakpoint);
 
 	// Calculate sidebar position
-	$: sidebarPosition = calculateSidebarPosition(windowWidth, contentWidth, sidebarWidth);
+	let sidebarPosition = $derived(calculateSidebarPosition(windowWidth, contentWidth, sidebarWidth));
 
 	function calculateSidebarPosition(winWidth: number, contentW: number, sidebarW: number) {
 		// Mirror TableOfContents' geometry so this rail and the TOC sit
@@ -107,31 +129,22 @@
 	}
 
 	onMount(() => {
-		if (browser) {
-			window.addEventListener('scroll', handleScroll);
-			window.addEventListener('resize', handleResize);
-			// Initial setup
-			handleResize();
-		}
-	});
-
-	onDestroy(() => {
-		if (browser) {
-			window.removeEventListener('scroll', handleScroll);
-			window.removeEventListener('resize', handleResize);
-		}
+		// Initial setup
+		handleResize();
 	});
 </script>
 
-{#if showInline && (links.length || bridgeLinks.length)}
+<svelte:window onscroll={handleScroll} onresize={handleResize} />
+
+{#if showInline && (uniqueLinks.length || bridgeLinks.length)}
 	<nav class="profile-links-static" aria-label="Related personality links">
-		{#if links.length}
+		{#if uniqueLinks.length}
 			<section class="profile-links-section" aria-labelledby="related-personalities-heading">
 				<h3 id="related-personalities-heading" class="profile-links-title">
 					Related personalities
 				</h3>
 				<ul class="profile-links-list">
-					{#each links as link}
+					{#each uniqueLinks as link (link)}
 						<li class="profile-links-item">
 							<a href={buildPersonalityAnalysisPath(link)} class="profile-links-link">
 								{formatPersonalityDisplayName(link)}
@@ -146,7 +159,7 @@
 			<section class="profile-links-section" aria-labelledby="framework-links-heading">
 				<h3 id="framework-links-heading" class="profile-links-title">Explore the framework</h3>
 				<ul class="profile-links-list">
-					{#each bridgeLinks as bridge}
+					{#each bridgeLinks as bridge (bridge.href)}
 						<li class="profile-links-item">
 							<a
 								href={bridge.href}
@@ -172,13 +185,13 @@
 		aria-label="Related personalities navigation"
 	>
 		<!-- Optional card above the list (the beta card on personality pages). -->
-		<slot name="lead" />
-		{#if links.length || bridgeLinks.length || $$slots.default}
+		{@render lead?.()}
+		{#if uniqueLinks.length || bridgeLinks.length || children}
 			<nav class="sidebar-nav">
-				{#if links.length}
+				{#if uniqueLinks.length}
 					<h3 class="sidebar-title">{title}</h3>
 					<ul class="sidebar-list">
-						{#each links as link}
+						{#each uniqueLinks as link (link)}
 							<li class="sidebar-item">
 								<a href={buildPersonalityAnalysisPath(link)} class="sidebar-link">
 									{formatPersonalityDisplayName(link)}
@@ -191,7 +204,7 @@
 					<div class="sidebar-bridges" aria-label="Explore the framework">
 						<h4 class="sidebar-subtitle">Explore the Framework</h4>
 						<ul class="sidebar-list">
-							{#each bridgeLinks as bridge}
+							{#each bridgeLinks as bridge (bridge.href)}
 								<li class="sidebar-item">
 									<a
 										href={bridge.href}
@@ -207,7 +220,7 @@
 					</div>
 				{/if}
 				<div class="sidebar-extra">
-					<slot />
+					{@render children?.()}
 				</div>
 			</nav>
 		{/if}

@@ -7,7 +7,11 @@
 	import FAQSection from '$lib/components/blog/FAQSection.svelte';
 	import { buildFAQSchema } from '$lib/utils/schema';
 
-	export let data: PageData;
+	interface Props {
+		data: PageData;
+	}
+
+	let { data }: Props = $props();
 
 	const hubDescription = `Each Enneagram type breaks differently: 7s mask depression with motion, 8s with anger, 9s with shutdown. Guides to anxiety, trauma, and burnout by type.`;
 
@@ -38,13 +42,15 @@
 		byType: 'Where each type tends to break, and what tends to put it back together.'
 	};
 
+	const TYPE_NUMBERS = [1, 2, 3, 4, 5, 6, 7, 8, 9] as const;
+
 	const navItems = [
 		{ id: 'why', title: 'Why It Matters', icon: '💡' },
 		{ id: 'guides', title: 'Guides', icon: '📚' },
 		{ id: 'by-type', title: 'By Type', icon: '🔢' }
 	];
 
-	const categories = [
+	const categories = $derived([
 		{
 			title: 'Core Mental Health Guides',
 			description: 'Essential resources for understanding mental health through the Enneagram lens',
@@ -90,7 +96,7 @@
 				blog.slug?.includes('enneagram-science-mental-health')
 			)
 		}
-	];
+	]);
 
 	const typeData = [
 		{
@@ -258,15 +264,15 @@
 	<!-- Quick Navigation -->
 	<nav class="quick-nav" aria-label="Topic Navigation">
 		<div class="nav-scroll">
-			{#each navItems as item}
+			{#each navItems as item (item.id)}
 				<a href="#{item.id}" class="nav-pill">
 					<span class="nav-icon" aria-hidden="true">{item.icon}</span>
 					<span class="nav-text">{item.title}</span>
 				</a>
 			{/each}
-			{#each Array(9) as _, i}
-				<a href="#type-{i + 1}" class="nav-pill type-pill" aria-label="Jump to Type {i + 1}">
-					<span class="type-num">{i + 1}</span>
+			{#each TYPE_NUMBERS as typeNum (typeNum)}
+				<a href="#type-{typeNum}" class="nav-pill type-pill" aria-label="Jump to Type {typeNum}">
+					<span class="type-num">{typeNum}</span>
 				</a>
 			{/each}
 		</div>
@@ -296,7 +302,7 @@
 			</div>
 
 			<div class="benefits-grid">
-				{#each benefitCards as card}
+				{#each benefitCards as card (card.title)}
 					<div class="benefit-card">
 						<h3>{card.title}</h3>
 						<p>{card.body}</p>
@@ -317,12 +323,12 @@
 				</div>
 			</div>
 
-			{#each categories.filter((c) => c.blogs.length > 0) as category}
+			{#each categories.filter((c) => c.blogs.length > 0) as category (category.title)}
 				<div class="category-block">
 					<h3 class="category-title">{category.title}</h3>
 					<p class="category-desc">{category.description}</p>
 					<div class="blog-grid">
-						{#each category.blogs as blog}
+						{#each category.blogs as blog (blog.slug)}
 							{@const blogPath =
 								blog.loc?.replace('https://9takes.com', '') ||
 								`/enneagram-corner/mental-health/${blog.slug}`}
@@ -358,8 +364,8 @@
 				</div>
 			</div>
 
-			{#each Array(9) as _, i}
-				{@const typeNum = i + 1}
+			{#each TYPE_NUMBERS as typeNum (typeNum)}
+				{@const i = typeNum - 1}
 				<div class="type-block" id="type-{typeNum}">
 					<div class="type-header">
 						<span class="type-badge">{typeNum}</span>
@@ -369,7 +375,7 @@
 						<div class="type-column">
 							<h4>How they tend to break</h4>
 							<ul>
-								{#each typeData[i].vulnerabilities as item}
+								{#each typeData[i].vulnerabilities as item (item)}
 									<li>{item}</li>
 								{/each}
 							</ul>
@@ -377,7 +383,7 @@
 						<div class="type-column">
 							<h4>What they bring to recovery</h4>
 							<ul>
-								{#each typeData[i].strengths as item}
+								{#each typeData[i].strengths as item (item)}
 									<li>{item}</li>
 								{/each}
 							</ul>

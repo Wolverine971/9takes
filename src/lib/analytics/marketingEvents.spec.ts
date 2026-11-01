@@ -30,13 +30,13 @@ describe('marketing conversion events', () => {
 			questionUrl: 'what-were-you-like-as-a-kid-in-3-words',
 			sourcePath: '/personality-analysis/jack-black',
 			errorCategory: 'http_error',
-			...({ answer: 'private answer' } as {})
+			...({ answer: 'private answer' } as object)
 		});
 		await captureEmailSignupStep({
 			step: 'started',
 			surface: 'blog_purpose',
 			sourcePath: '/personality-analysis/jack-black',
-			...({ email: 'private@example.com' } as {})
+			...({ email: 'private@example.com' } as object)
 		});
 		expect(captureMock.mock.calls[0]).toEqual([
 			'chorus_failed',

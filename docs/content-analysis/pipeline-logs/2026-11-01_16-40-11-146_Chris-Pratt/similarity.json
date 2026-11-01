@@ -1,0 +1,409 @@
+{
+  "target": {
+    "person": "chris-pratt",
+    "type": "7",
+    "units": 11,
+    "file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-01_16-40-11-146_Chris-Pratt/draft.md"
+  },
+  "comparison_set": [
+    {
+      "person": "dominic-fike",
+      "date": "2026-10-31",
+      "units": 10
+    },
+    {
+      "person": "chris-pratt",
+      "date": "2026-10-29",
+      "units": 9
+    },
+    {
+      "person": "kareem-rahma",
+      "date": "2026-10-25",
+      "units": 8
+    },
+    {
+      "person": "dan-ives",
+      "date": "2026-10-24",
+      "units": 7
+    },
+    {
+      "person": "dylan-patel",
+      "date": "2026-10-17",
+      "units": 9
+    },
+    {
+      "person": "florence-pugh",
+      "date": "2026-10-04",
+      "units": 20
+    },
+    {
+      "person": "frank-lloyd-wright",
+      "date": "2026-08-26",
+      "units": 44
+    },
+    {
+      "person": "Tyla",
+      "date": "2026-08-15",
+      "units": 44
+    }
+  ],
+  "n_requested": 8,
+  "noise_floor": {
+    "pairs_compared": 1661,
+    "median": 0,
+    "p90": 0,
+    "p99": 0.016,
+    "max": 1
+  },
+  "trip_threshold": 0.064,
+  "tripped": true,
+  "trip_pairs": [
+    {
+      "score": 1,
+      "other_person": "chris-pratt",
+      "shared_phrases": [
+        "defense run",
+        "plain step",
+        "the defense run",
+        "defense run in",
+        "run in plain",
+        "in plain step"
+      ],
+      "target": "[diagnosis] The defense runs in plain steps.",
+      "other": "[diagnosis] The defense runs in plain steps."
+    },
+    {
+      "score": 1,
+      "other_person": "chris-pratt",
+      "shared_phrases": [
+        "seven feel",
+        "bad feel",
+        "feel com",
+        "a seven feel",
+        "seven feel the",
+        "feel the bad",
+        "the bad feel",
+        "bad feel com"
+      ],
+      "target": "[diagnosis] A Seven feels the bad feeling coming.",
+      "other": "[diagnosis] A Seven feels the bad feeling coming."
+    },
+    {
+      "score": 1,
+      "other_person": "chris-pratt",
+      "shared_phrases": [
+        "good story",
+        "next adventure",
+        "a good story",
+        "good story or",
+        "the next adventure"
+      ],
+      "target": "[diagnosis] He turns it into a good story or the next adventure.",
+      "other": "[diagnosis] He turns it into a good story or the next adventure."
+    },
+    {
+      "score": 1,
+      "other_person": "chris-pratt",
+      "shared_phrases": [
+        "reache for pleasure"
+      ],
+      "target": "[diagnosis] Then he reaches for pleasure so he doesn't have to sit in it.",
+      "other": "[diagnosis] Then he reaches for pleasure so he doesn't have to sit in it."
+    },
+    {
+      "score": 1,
+      "other_person": "chris-pratt",
+      "shared_phrases": [
+        "fail sale",
+        "sale job",
+        "after a fail",
+        "a fail sale",
+        "fail sale job"
+      ],
+      "target": "[diagnosis] After a failed sales job",
+      "other": "[diagnosis] After a failed sales job"
+    },
+    {
+      "score": 0.738,
+      "other_person": "chris-pratt",
+      "shared_phrases": [
+        "record show",
+        "late teen",
+        "record show that",
+        "show that loop",
+        "his late teen",
+        "late teen to"
+      ],
+      "target": "[diagnosis] Pratt's record shows that loop from his late teens to 2026.",
+      "other": "[diagnosis] His record shows that loop from his late teens to 2026."
+    },
+    {
+      "score": 0.733,
+      "other_person": "chris-pratt",
+      "shared_phrases": [
+        "turn hardship",
+        "habit of turn",
+        "of turn hardship",
+        "turn hardship into"
+      ],
+      "target": "[diagnosis] In Pratt it shows as a habit of turning hardship into a good time.",
+      "other": "[diagnosis] In Pratt it shows as a habit of turning hardship into fun."
+    },
+    {
+      "score": 0.678,
+      "other_person": "florence-pugh",
+      "shared_phrases": [
+        "gut instinct",
+        "oppos to lead",
+        "lead with gut",
+        "with gut instinct",
+        "gut instinct or"
+      ],
+      "target": "[diagnosis] as opposed to leading with gut instinct or with feeling.",
+      "other": "[diagnosis] as opposed to leading with gut instinct or emotion"
+    },
+    {
+      "score": 0.597,
+      "other_person": "dominic-fike",
+      "shared_phrases": [
+        "full hear",
+        "hear below",
+        "get a full",
+        "a full hear",
+        "full hear below"
+      ],
+      "target": "[diagnosis] and it gets a full hearing below.",
+      "other": "[diagnosis] Type 6 gets a full hearing below."
+    },
+    {
+      "score": 0.359,
+      "other_person": "chris-pratt",
+      "shared_phrases": [
+        "later call",
+        "charm time",
+        "van in maui",
+        "maui and later",
+        "and later call",
+        "later call it",
+        "a charm time"
+      ],
+      "target": "[diagnosis] he lived in a van in Maui and later called it \"a charming time.\" Head types like Type 7 meet life by anticipating what comes next",
+      "other": "[diagnosis] he lived in a van in Maui and later called it \"a charming time.\" The head triad's types live a step ahead of the present"
+    },
+    {
+      "score": 0.193,
+      "other_person": "florence-pugh",
+      "shared_phrases": [
+        "head type",
+        "come next",
+        "anticipat what come",
+        "what come next"
+      ],
+      "target": "[diagnosis] he lived in a van in Maui and later called it \"a charming time.\" Head types like Type 7 meet life by anticipating what comes next",
+      "other": "[diagnosis] Head types meet the world by anticipating what comes next"
+    }
+  ],
+  "per_draft_max": [
+    {
+      "person": "chris-pratt",
+      "date": "2026-10-29",
+      "units": 9,
+      "maxScore": 1
+    },
+    {
+      "person": "florence-pugh",
+      "date": "2026-10-04",
+      "units": 20,
+      "maxScore": 0.678
+    },
+    {
+      "person": "dominic-fike",
+      "date": "2026-10-31",
+      "units": 10,
+      "maxScore": 0.597
+    },
+    {
+      "person": "Tyla",
+      "date": "2026-08-15",
+      "units": 44,
+      "maxScore": 0.229
+    },
+    {
+      "person": "dan-ives",
+      "date": "2026-10-24",
+      "units": 7,
+      "maxScore": 0.023
+    },
+    {
+      "person": "frank-lloyd-wright",
+      "date": "2026-08-26",
+      "units": 44,
+      "maxScore": 0.02
+    },
+    {
+      "person": "dylan-patel",
+      "date": "2026-10-17",
+      "units": 9,
+      "maxScore": 0.008
+    },
+    {
+      "person": "kareem-rahma",
+      "date": "2026-10-25",
+      "units": 8,
+      "maxScore": 0.006
+    }
+  ],
+  "top_pairs": [
+    {
+      "score": 1,
+      "other_person": "chris-pratt",
+      "shared_phrases": [
+        "defense run",
+        "plain step",
+        "the defense run",
+        "defense run in",
+        "run in plain",
+        "in plain step"
+      ],
+      "target": "[diagnosis] The defense runs in plain steps.",
+      "other": "[diagnosis] The defense runs in plain steps."
+    },
+    {
+      "score": 1,
+      "other_person": "chris-pratt",
+      "shared_phrases": [
+        "seven feel",
+        "bad feel",
+        "feel com",
+        "a seven feel",
+        "seven feel the",
+        "feel the bad",
+        "the bad feel",
+        "bad feel com"
+      ],
+      "target": "[diagnosis] A Seven feels the bad feeling coming.",
+      "other": "[diagnosis] A Seven feels the bad feeling coming."
+    },
+    {
+      "score": 1,
+      "other_person": "chris-pratt",
+      "shared_phrases": [
+        "good story",
+        "next adventure",
+        "a good story",
+        "good story or",
+        "the next adventure"
+      ],
+      "target": "[diagnosis] He turns it into a good story or the next adventure.",
+      "other": "[diagnosis] He turns it into a good story or the next adventure."
+    },
+    {
+      "score": 1,
+      "other_person": "chris-pratt",
+      "shared_phrases": [
+        "reache for pleasure"
+      ],
+      "target": "[diagnosis] Then he reaches for pleasure so he doesn't have to sit in it.",
+      "other": "[diagnosis] Then he reaches for pleasure so he doesn't have to sit in it."
+    },
+    {
+      "score": 1,
+      "other_person": "chris-pratt",
+      "shared_phrases": [
+        "fail sale",
+        "sale job",
+        "after a fail",
+        "a fail sale",
+        "fail sale job"
+      ],
+      "target": "[diagnosis] After a failed sales job",
+      "other": "[diagnosis] After a failed sales job"
+    },
+    {
+      "score": 0.738,
+      "other_person": "chris-pratt",
+      "shared_phrases": [
+        "record show",
+        "late teen",
+        "record show that",
+        "show that loop",
+        "his late teen",
+        "late teen to"
+      ],
+      "target": "[diagnosis] Pratt's record shows that loop from his late teens to 2026.",
+      "other": "[diagnosis] His record shows that loop from his late teens to 2026."
+    },
+    {
+      "score": 0.733,
+      "other_person": "chris-pratt",
+      "shared_phrases": [
+        "turn hardship",
+        "habit of turn",
+        "of turn hardship",
+        "turn hardship into"
+      ],
+      "target": "[diagnosis] In Pratt it shows as a habit of turning hardship into a good time.",
+      "other": "[diagnosis] In Pratt it shows as a habit of turning hardship into fun."
+    },
+    {
+      "score": 0.678,
+      "other_person": "florence-pugh",
+      "shared_phrases": [
+        "gut instinct",
+        "oppos to lead",
+        "lead with gut",
+        "with gut instinct",
+        "gut instinct or"
+      ],
+      "target": "[diagnosis] as opposed to leading with gut instinct or with feeling.",
+      "other": "[diagnosis] as opposed to leading with gut instinct or emotion"
+    },
+    {
+      "score": 0.597,
+      "other_person": "dominic-fike",
+      "shared_phrases": [
+        "full hear",
+        "hear below",
+        "get a full",
+        "a full hear",
+        "full hear below"
+      ],
+      "target": "[diagnosis] and it gets a full hearing below.",
+      "other": "[diagnosis] Type 6 gets a full hearing below."
+    },
+    {
+      "score": 0.359,
+      "other_person": "chris-pratt",
+      "shared_phrases": [
+        "later call",
+        "charm time",
+        "van in maui",
+        "maui and later",
+        "and later call",
+        "later call it",
+        "a charm time"
+      ],
+      "target": "[diagnosis] he lived in a van in Maui and later called it \"a charming time.\" Head types like Type 7 meet life by anticipating what comes next",
+      "other": "[diagnosis] he lived in a van in Maui and later called it \"a charming time.\" The head triad's types live a step ahead of the present"
+    },
+    {
+      "score": 0.229,
+      "other_person": "Tyla",
+      "shared_phrases": [],
+      "target": "[diagnosis] and it gets a full hearing below.",
+      "other": "[diagnosis] and it gets a fair hearing in the rabbit hole below. ---"
+    },
+    {
+      "score": 0.193,
+      "other_person": "florence-pugh",
+      "shared_phrases": [
+        "head type",
+        "come next",
+        "anticipat what come",
+        "what come next"
+      ],
+      "target": "[diagnosis] he lived in a van in Maui and later called it \"a charming time.\" Head types like Type 7 meet life by anticipating what comes next",
+      "other": "[diagnosis] Head types meet the world by anticipating what comes next"
+    }
+  ]
+}

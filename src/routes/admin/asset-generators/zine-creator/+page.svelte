@@ -80,7 +80,8 @@
 	// Preview + export state
 	let spreadView = $state(false);
 	let previewZoom = $state(1);
-	let previewPage = $state(1);
+	// The page the user navigated to; `previewPage` below clamps it to the pages that exist.
+	let requestedPreviewPage = $state(1);
 	let qrCodeData = $state('');
 	let exporting = $state(false);
 
@@ -139,6 +140,9 @@
 	let wouldTruncate = $derived(contentDraftPages.length > availableContentPages);
 
 	let zinePages = $derived.by(() => buildZinePages());
+	let previewPage = $derived(
+		zinePages.length === 0 ? 1 : Math.min(requestedPreviewPage, zinePages.length)
+	);
 	let previewPair = $derived.by(() => {
 		if (zinePages.length === 0) return [];
 		if (!spreadView) {
@@ -155,11 +159,13 @@
 	let stageWidth = $derived(Math.round(format.pageWidthIn * stagingDpi));
 	let stageHeight = $derived(Math.round(format.pageHeightIn * stagingDpi));
 
-	$effect(() => {
+	function setFormat(next: ZineFormatId) {
+		formatId = next;
+		// Keep the page count valid for the new format.
 		if (!validPageCounts.includes(pageCount)) {
 			pageCount = recommendPageCount(formatId, estimatedPageCount);
 		}
-	});
+	}
 
 	$effect(() => {
 		if (!importedBlog?.sourceUrl) {
@@ -168,17 +174,6 @@
 		}
 
 		generateQrCode(importedBlog.sourceUrl);
-	});
-
-	$effect(() => {
-		if (zinePages.length === 0) {
-			previewPage = 1;
-			return;
-		}
-
-		if (previewPage > zinePages.length) {
-			previewPage = zinePages.length;
-		}
 	});
 
 	async function generateQrCode(url: string) {
@@ -264,7 +259,7 @@
 			})
 		);
 		allowTruncation = false;
-		previewPage = 1;
+		requestedPreviewPage = 1;
 		spreadView = false;
 	}
 
@@ -401,18 +396,18 @@
 
 	function nextPage() {
 		if (spreadView) {
-			previewPage = Math.min(zinePages.length, previewPage + 2);
+			requestedPreviewPage = Math.min(zinePages.length, previewPage + 2);
 			return;
 		}
-		previewPage = Math.min(zinePages.length, previewPage + 1);
+		requestedPreviewPage = Math.min(zinePages.length, previewPage + 1);
 	}
 
 	function previousPage() {
 		if (spreadView) {
-			previewPage = Math.max(1, previewPage - 2);
+			requestedPreviewPage = Math.max(1, previewPage - 2);
 			return;
 		}
-		previewPage = Math.max(1, previewPage - 1);
+		requestedPreviewPage = Math.max(1, previewPage - 1);
 	}
 
 	function pageFooter(page: RenderPage): string {
@@ -717,7 +712,7 @@
 	function setSpreadMode(enabled: boolean) {
 		spreadView = enabled;
 		if (enabled && previewPage % 2 === 0) {
-			previewPage = Math.max(1, previewPage - 1);
+			requestedPreviewPage = Math.max(1, previewPage - 1);
 		}
 	}
 </script>
@@ -797,7 +792,7 @@
 					<div class="section">
 						<p class="label">Recent Enneagram</p>
 						<div class="picker-list">
-							{#each data.enneagramBlogs ?? [] as post}
+							{#each data.enneagramBlogs ?? [] as post (post.url)}
 								<button class="picker-item" onclick={() => pickRecent(post.url)}>
 									<div class="picker-title">{post.title}</div>
 									<div class="picker-meta">
@@ -812,7 +807,7 @@
 					<div class="section">
 						<p class="label">Recent Personality Analysis</p>
 						<div class="picker-list">
-							{#each data.peopleBlogs ?? [] as post}
+							{#each data.peopleBlogs ?? [] as post (post.url)}
 								<button class="picker-item" onclick={() => pickRecent(post.url)}>
 									<div class="picker-title">{post.title}</div>
 									<div class="picker-meta">
@@ -828,7 +823,7 @@
 				{#if activeTab === 'layout'}
 					<div class="section">
 						<label class="label" for="zine-format-select">Format</label>
-						<select id="zine-format-select" class="input" bind:value={formatId}>
+						<select id="zine-format-select" class="input" bind:value={() => formatId, setFormat}>
 							<option value="half">{ZINE_FORMATS.half.label}</option>
 							<option value="quarter">{ZINE_FORMATS.quarter.label}</option>
 							<option value="mini">{ZINE_FORMATS.mini.label}</option>
@@ -838,7 +833,7 @@
 					<div class="section">
 						<label class="label" for="zine-page-count-select">Page Count</label>
 						<select id="zine-page-count-select" class="input" bind:value={pageCount}>
-							{#each validPageCounts as count}
+							{#each validPageCounts as count (count)}
 								<option value={count}>{count} pages</option>
 							{/each}
 						</select>
@@ -886,7 +881,7 @@
 						{:else}
 							<p class="hint">Drag to reorder sections, or use Up/Down for precise moves.</p>
 							<div class="section-list" role="list">
-								{#each [...sections].sort((a, b) => a.order - b.order) as section, index}
+								{#each [...sections].sort((a, b) => a.order - b.order) as section, index (section.id)}
 									<div
 										class="section-item"
 										role="listitem"
@@ -950,7 +945,7 @@
 					<div class="section">
 						<p class="label">Color Presets</p>
 						<div class="preset-grid">
-							{#each Object.entries(ENNEAGRAM_COLOR_SCHEMES) as [typeNumber, _palette]}
+							{#each Object.entries(ENNEAGRAM_COLOR_SCHEMES) as [typeNumber, _palette] (typeNumber)}
 								<button class="mini-btn" onclick={() => applyEnneagramPreset(Number(typeNumber))}
 									>Type {typeNumber}</button
 								>
@@ -1102,7 +1097,7 @@
 				</div>
 			{:else}
 				<div class="preview-canvas" class:spread={spreadView}>
-					{#each previewPair as page}
+					{#each previewPair as page (page.id)}
 						<article
 							class={`zine-page-preview ${page.type}`}
 							style={`width:${previewWidth}px;height:${previewHeight}px;--primary:${colorScheme.primary};--accent:${colorScheme.accent};--bg:${colorScheme.background};--heading-font:${headingFontFamily[headingFont]};--body-size:${bodyFontSizePt}pt;`}
@@ -1148,13 +1143,13 @@
 				</div>
 
 				<div class="thumbnail-strip">
-					{#each zinePages as page}
+					{#each zinePages as page (page.id)}
 						<button
 							class="thumb"
 							class:active={previewPage === page.pageNumber}
 							onclick={() => {
-								previewPage = page.pageNumber;
-								if (spreadView && previewPage % 2 === 0) previewPage -= 1;
+								requestedPreviewPage = page.pageNumber;
+								if (spreadView && previewPage % 2 === 0) requestedPreviewPage = previewPage - 1;
 							}}
 						>
 							{page.pageNumber}
@@ -1167,7 +1162,7 @@
 
 	<!-- Hidden staging area for export capture -->
 	<div class="export-staging" aria-hidden="true">
-		{#each zinePages as page, index}
+		{#each zinePages as page, index (page.id)}
 			<article
 				bind:this={pageRefs[index]}
 				class={`zine-page-preview ${page.type}`}

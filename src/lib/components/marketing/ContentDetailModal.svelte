@@ -21,14 +21,52 @@
 		onclose?: () => void;
 	} = $props();
 
-	let isEditMode = $state(false);
-	let editingContent: ContentItem | null = $state(null);
-	let isThreadView = $state(false);
-	let threadBlocks: string[] = $state([]);
-	let isSaving = $state(false);
+	type ThreadBlock = { id: number; text: string };
 
 	const SEPARATOR = '-------sep sep sep-------';
 	const MAX_CHARS = 280;
+
+	let nextThreadBlockId = 0;
+
+	// The edit form resets whenever the modal opens or shows a different item. Each
+	// value below is a writable $derived keyed on `shownItem`; user edits override it.
+	let shownItem = $derived(open ? contentItem : null);
+	let editingContent: ContentItem | null = $derived(shownItem ? { ...shownItem } : null);
+	let isEditMode: boolean = $derived(resetWith(shownItem, false));
+	let isThreadView: boolean = $derived(resetWith(shownItem, false));
+	let threadBlocks: ThreadBlock[] = $derived(
+		shownItem ? toThreadBlocks(splitIntoThreads(shownItem.content_text || '')) : []
+	);
+	let isSaving = $state(false);
+
+	/** Returns `value`; reading `key` makes the enclosing $derived reset when `key` changes. */
+	function resetWith<T>(key: unknown, value: T): T {
+		void key;
+		return value;
+	}
+
+	function toThreadBlocks(texts: string[]): ThreadBlock[] {
+		return texts.map((text) => ({ id: nextThreadBlockId++, text }));
+	}
+
+	function setThreadBlocks(blocks: ThreadBlock[]) {
+		threadBlocks = blocks;
+		if (editingContent) {
+			editingContent = {
+				...editingContent,
+				content_text: blocks.map((block) => block.text).join(SEPARATOR)
+			};
+		}
+	}
+
+	/** Keys repeated strings by value plus occurrence, so duplicates stay unique. */
+	function keyedStrings(values: string[]): { key: string; value: string }[] {
+		const seen: Record<string, number> = {};
+		return values.map((value) => {
+			const n = (seen[value] = (seen[value] ?? 0) + 1);
+			return { key: n === 1 ? value : `${value}#${n}`, value };
+		});
+	}
 
 	const platformColors: Record<string, { bg: string; text: string; border: string }> = {
 		twitter: { bg: '#1DA1F2', text: 'white', border: '#1a8cd8' },
@@ -36,15 +74,6 @@
 		linkedin: { bg: '#0077B5', text: 'white', border: '#006097' },
 		facebook: { bg: '#4267B2', text: 'white', border: '#365899' }
 	};
-
-	$effect(() => {
-		if (contentItem && open) {
-			editingContent = { ...contentItem };
-			isEditMode = false;
-			isThreadView = false;
-			threadBlocks = splitIntoThreads(contentItem.content_text || '');
-		}
-	});
 
 	$effect(() => {
 		if (open && contentItem) {
@@ -142,31 +171,23 @@
 		if (editingContent) {
 			editingContent = { ...editingContent, [field]: value };
 			if (field === 'content_text') {
-				threadBlocks = splitIntoThreads(value);
+				threadBlocks = toThreadBlocks(splitIntoThreads(value));
 			}
 		}
 	}
 
 	function updateThreadBlock(index: number, value: string) {
-		threadBlocks[index] = value;
-		threadBlocks = [...threadBlocks];
-		if (editingContent) {
-			editingContent.content_text = threadBlocks.join(SEPARATOR);
-		}
+		setThreadBlocks(
+			threadBlocks.map((block, i) => (i === index ? { ...block, text: value } : block))
+		);
 	}
 
 	function addThreadBlock() {
-		threadBlocks = [...threadBlocks, ''];
-		if (editingContent) {
-			editingContent.content_text = threadBlocks.join(SEPARATOR);
-		}
+		setThreadBlocks([...threadBlocks, ...toThreadBlocks([''])]);
 	}
 
 	function removeThreadBlock(index: number) {
-		threadBlocks = threadBlocks.filter((_, i) => i !== index);
-		if (editingContent) {
-			editingContent.content_text = threadBlocks.join(SEPARATOR);
-		}
+		setThreadBlocks(threadBlocks.filter((_, i) => i !== index));
 	}
 
 	async function saveChanges() {
@@ -386,7 +407,7 @@
 						<div class="content-preview-section">
 							<h4>Content</h4>
 							<div class="content-text">
-								{#each contentItem.content_text.split(SEPARATOR) as block, i}
+								{#each keyedStrings(contentItem.content_text.split(SEPARATOR)) as { key, value: block }, i (key)}
 									{#if contentItem.content_text.includes(SEPARATOR)}
 										<div class="thread-block">
 											<span class="thread-number">{i + 1}</span>
@@ -405,7 +426,7 @@
 								<div class="metadata-item">
 									<span class="metadata-label">Hashtags</span>
 									<div class="hashtags-list">
-										{#each contentItem.content_hashtags.split(' ') as tag}
+										{#each keyedStrings(contentItem.content_hashtags.split(' ')) as { key, value: tag } (key)}
 											<span class="hashtag">{tag}</span>
 										{/each}
 									</div>
@@ -480,7 +501,7 @@
 											class="field-input"
 										>
 											<option value="">No Campaign</option>
-											{#each campaigns as c}
+											{#each campaigns as c (c.id)}
 												<option value={c.id}>{c.name}</option>
 											{/each}
 										</select>
@@ -536,7 +557,7 @@
 
 								{#if isThreadView}
 									<div class="thread-editor" transition:slide={{ duration: 200 }}>
-										{#each threadBlocks as block, index}
+										{#each threadBlocks as block, index (block.id)}
 											<div class="thread-edit-block">
 												<div class="thread-edit-header">
 													<span class="thread-label">Tweet {index + 1}</span>
@@ -561,13 +582,16 @@
 													{/if}
 												</div>
 												<textarea
-													value={block}
+													value={block.text}
 													oninput={(e) => updateThreadBlock(index, e.currentTarget.value)}
 													rows="4"
 													class="field-input field-textarea"
-													class:over-limit={block.length > MAX_CHARS}></textarea>
-												<div class="thread-char-count" class:over-limit={block.length > MAX_CHARS}>
-													{block.length}/{MAX_CHARS}
+													class:over-limit={block.text.length > MAX_CHARS}></textarea>
+												<div
+													class="thread-char-count"
+													class:over-limit={block.text.length > MAX_CHARS}
+												>
+													{block.text.length}/{MAX_CHARS}
 												</div>
 											</div>
 										{/each}

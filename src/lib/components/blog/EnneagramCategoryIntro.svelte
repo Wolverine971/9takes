@@ -593,7 +593,7 @@
 		<section id="article-list">
 			<h2>Explore the Fundamentals</h2>
 			<div class="blog-grid">
-				{#each blogs as eBlog}
+				{#each blogs as eBlog (eBlog.slug)}
 					<a
 						href="/enneagram-corner/{eBlog.slug}"
 						class="blog-card"
@@ -653,7 +653,7 @@
 		<section id="article-list">
 			<h2>Deep Dives Into Each Type</h2>
 			<div class="blog-grid nine-types-grid">
-				{#each blogs as eBlog}
+				{#each blogs as eBlog (eBlog.slug)}
 					<a
 						href="/enneagram-corner/{eBlog.slug}"
 						class="blog-card"
@@ -712,7 +712,7 @@
 		<section id="article-list">
 			<h2>Growth Strategies by Type</h2>
 			<div class="blog-grid">
-				{#each blogs as eBlog}
+				{#each blogs as eBlog (eBlog.slug)}
 					<a
 						href="/enneagram-corner/{eBlog.slug}"
 						class="blog-card"
@@ -773,7 +773,7 @@
 		<section id="article-list">
 			<h2>Relationship Dynamics Decoded</h2>
 			<div class="blog-grid">
-				{#each blogs as eBlog}
+				{#each blogs as eBlog (eBlog.slug)}
 					<a
 						href="/enneagram-corner/{eBlog.slug}"
 						class="blog-card"
@@ -834,7 +834,7 @@
 		<section id="article-list">
 			<h2>Workplace Strategies</h2>
 			<div class="blog-grid">
-				{#each blogs as eBlog}
+				{#each blogs as eBlog (eBlog.slug)}
 					<a
 						href="/enneagram-corner/{eBlog.slug}"
 						class="blog-card"
@@ -890,7 +890,7 @@
 		<section id="resource-categories">
 			<h2>Curated Resources</h2>
 			<div class="blog-grid">
-				{#each blogs as eBlog}
+				{#each blogs as eBlog (eBlog.slug)}
 					<a
 						href="/enneagram-corner/{eBlog.slug}"
 						class="blog-card"
@@ -947,7 +947,7 @@
 		<section id="situation-categories">
 			<h2>Types in Action</h2>
 			<div class="blog-grid">
-				{#each blogs as eBlog}
+				{#each blogs as eBlog (eBlog.slug)}
 					<a
 						href="/enneagram-corner/{eBlog.slug}"
 						class="blog-card"
@@ -996,7 +996,7 @@
 	<section id="related-subsections">
 		<h2>Where to Go Next</h2>
 		<div class="related-grid">
-			{#each links as link}
+			{#each links as link (link.href)}
 				<a href={link.href} class="related-card">
 					<span class="related-label">{link.label}</span>
 					<span class="related-hook">{link.hook}</span>

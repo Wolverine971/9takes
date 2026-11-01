@@ -1,6 +1,6 @@
 <!-- src/lib/components/molecules/Footer.svelte -->
 <script lang="ts">
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
 	import instagram from '$lib/images/instagram.svg';
 	import twitter from '$lib/images/twitter.svg';
 
@@ -41,10 +41,11 @@
 	];
 
 	// Helper functions
-	$: isActive = (path: string) =>
-		$page.url.pathname === path || ($page.url.pathname.startsWith(path) && path !== '/');
-	$: homeUrl = $page.url.pathname.includes('9takes') ? 'https://9takes.com' : '/';
-	$: currentYear = new Date().getFullYear();
+	function isActive(path: string): boolean {
+		return page.url.pathname === path || (page.url.pathname.startsWith(path) && path !== '/');
+	}
+	let homeUrl = $derived(page.url.pathname.includes('9takes') ? 'https://9takes.com' : '/');
+	const currentYear = new Date().getFullYear();
 </script>
 
 <footer class="footer-wrapper" aria-label="Site footer">
@@ -69,7 +70,7 @@
 
 				<!-- Social Links -->
 				<div class="social-links">
-					{#each socialLinks as { href, img, alt, label }}
+					{#each socialLinks as { href, img, alt, label } (href)}
 						<a
 							{href}
 							target="_blank"
@@ -89,7 +90,7 @@
 				<nav class="link-section" aria-label="Footer navigation">
 					<h3>Navigation</h3>
 					<ul>
-						{#each mainLinks as { href, label }}
+						{#each mainLinks as { href, label } (href)}
 							<li>
 								<a
 									href={href === '/' ? homeUrl : href}
@@ -107,7 +108,7 @@
 				<div class="link-section">
 					<h3>Blog</h3>
 					<ul>
-						{#each blogLinks as { href, label }}
+						{#each blogLinks as { href, label } (href)}
 							<li>
 								<a
 									{href}

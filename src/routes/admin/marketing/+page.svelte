@@ -82,8 +82,7 @@
 			.filter((item: any) => {
 				const itemDate = new Date(item.scheduled_date);
 				const today = new Date();
-				const weekFromNow = new Date(today);
-				weekFromNow.setDate(weekFromNow.getDate() + 7);
+				const weekFromNow = addDays(today, 7);
 				return itemDate >= today && itemDate <= weekFromNow;
 			})
 			.sort(
@@ -91,6 +90,18 @@
 					new Date(a.scheduled_date).getTime() - new Date(b.scheduled_date).getTime()
 			)
 	);
+
+	function addDays(date: Date, days: number): Date {
+		return new Date(
+			date.getFullYear(),
+			date.getMonth(),
+			date.getDate() + days,
+			date.getHours(),
+			date.getMinutes(),
+			date.getSeconds(),
+			date.getMilliseconds()
+		);
+	}
 
 	function getTabBadge(tabId: string) {
 		switch (tabId) {
@@ -114,8 +125,7 @@
 	function formatRelativeDate(dateStr: string) {
 		const date = new Date(dateStr);
 		const today = new Date();
-		const tomorrow = new Date(today);
-		tomorrow.setDate(tomorrow.getDate() + 1);
+		const tomorrow = addDays(today, 1);
 		if (date.toDateString() === today.toDateString()) return 'Today';
 		if (date.toDateString() === tomorrow.toDateString()) return 'Tomorrow';
 		return date.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
@@ -331,7 +341,7 @@
 <!-- Main Content with Tabs -->
 <section class="main-card" aria-label="Marketing content">
 	<div class="tabs" role="tablist" aria-label="Marketing sections">
-		{#each tabs as tab, index}
+		{#each tabs as tab, index (tab.id)}
 			{@const badge = getTabBadge(tab.id)}
 			<button
 				bind:this={tabRefs[index]}

@@ -12,10 +12,14 @@
 		summary?: string;
 	}
 
-	export let link: LinkData;
+	interface Props {
+		link: LinkData;
+	}
 
-	let loading = true;
-	let hasMetaData = false;
+	let { link }: Props = $props();
+
+	let loading = $state(true);
+	let hasMetaData = $state(false);
 
 	const saveLinkClick = async (linkId: string) => {
 		const body = new FormData();
@@ -37,7 +41,7 @@
 	{#if loading}
 		<div class="loader"></div>
 	{:else}
-		<a href={link.url} class="link-item" on:click={() => saveLinkClick(link.id)}>
+		<a href={link.url} class="link-item" onclick={() => saveLinkClick(link.id)}>
 			{#if hasMetaData}
 				{#if link.meta_image}
 					<img

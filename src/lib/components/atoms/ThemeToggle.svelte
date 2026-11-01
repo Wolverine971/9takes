@@ -1,20 +1,11 @@
 <!-- src/lib/components/atoms/ThemeToggle.svelte -->
 <script lang="ts">
-	import { onDestroy } from 'svelte';
-	import { themePreference, applyTheme, cycleTheme, type ThemePreference } from '$lib/stores/theme';
+	import { theme, cycleTheme } from '$lib/stores/theme.svelte';
 
-	let current: ThemePreference = $state('dark');
-
-	const unsubscribe = themePreference.subscribe((v) => {
-		current = v;
-	});
-
-	onDestroy(unsubscribe);
+	const current = $derived(theme.preference);
 
 	function toggle() {
-		const next = cycleTheme(current);
-		themePreference.set(next);
-		applyTheme(next);
+		theme.set(cycleTheme(current));
 	}
 </script>
 

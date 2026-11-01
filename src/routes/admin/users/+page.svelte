@@ -121,12 +121,9 @@
 
 	let sortField = $derived(data.filters.sort as SortField);
 	let sortDirection = $derived(data.filters.direction);
-	let searchQuery = $state('');
+	// Follows the URL's search term; typing overrides it until the next load.
+	let searchQuery = $derived(data.filters.search);
 	let searchTimeout: ReturnType<typeof setTimeout>;
-
-	$effect(() => {
-		searchQuery = data.filters.search;
-	});
 
 	// Compute enneagram distribution
 	let enneagramDistribution = $derived(
@@ -134,6 +131,7 @@
 	);
 
 	function paginationHref(profilePage: number, signupPage: number): string {
+		// eslint-disable-next-line svelte/prefer-svelte-reactivity -- built fresh per call to format an href, never held in state
 		const params = new URLSearchParams();
 		if (data.filters.search) params.set('q', data.filters.search);
 		if (data.filters.filter !== 'all') params.set('filter', data.filters.filter);
@@ -508,7 +506,7 @@
 							</tr>
 						</thead>
 						<tbody>
-							{#each sortedProfiles as profile}
+							{#each sortedProfiles as profile (profile.id)}
 								<tr>
 									<td class="date-cell" data-label="Last active">
 										{profile.last_sign_in_at
@@ -630,7 +628,7 @@
 							</tr>
 						</thead>
 						<tbody>
-							{#each formattedSignups as signup}
+							{#each formattedSignups as signup (signup.id)}
 								<tr>
 									<td data-label="Email">
 										<a href="mailto:{signup.email}" class="email-link">{signup.email}</a>
@@ -831,7 +829,7 @@
 				</div>
 				{#if detailData.recentQuestions.length}
 					<ul class="activity-list">
-						{#each detailData.recentQuestions as question}
+						{#each detailData.recentQuestions as question (question.id)}
 							<li>
 								<a href={getActivityUrl(question)} class="activity-title">
 									{getQuestionText(question)}
@@ -858,7 +856,7 @@
 				</div>
 				{#if detailData.recentComments.length}
 					<ul class="activity-list">
-						{#each detailData.recentComments as comment}
+						{#each detailData.recentComments as comment (`${comment.source ?? 'question'}-${comment.id}`)}
 							<li>
 								{#if comment.source === 'blog'}
 									{#if comment.blog_link}

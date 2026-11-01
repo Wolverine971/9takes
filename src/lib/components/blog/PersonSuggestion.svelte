@@ -6,9 +6,13 @@
 		formatPersonalityDisplayName
 	} from '$lib/utils/personalityAnalysis';
 
-	export let title: string;
-	export let posts: App.BlogPost[];
-	export let sectionId: string;
+	interface Props {
+		title: string;
+		posts: App.BlogPost[];
+		sectionId: string;
+	}
+
+	let { title, posts, sectionId }: Props = $props();
 </script>
 
 <div class="suggestion-section" aria-labelledby={sectionId}>

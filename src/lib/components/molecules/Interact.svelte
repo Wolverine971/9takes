@@ -6,7 +6,7 @@
 </script>
 
 <script lang="ts">
-	import { onMount } from 'svelte';
+	import { onMount, untrack } from 'svelte';
 	import { deserialize } from '$app/forms';
 	import { slide } from 'svelte/transition';
 	import { cubicOut } from 'svelte/easing';
@@ -18,7 +18,6 @@
 	import type {
 		User,
 		Comment as CommentType,
-		CommentLike,
 		Subscription,
 		QuestionPageData
 	} from '$lib/types/questions';
@@ -67,26 +66,57 @@
 	const isQuestionPageData = (d: QuestionPageData | CommentType): d is QuestionPageData => {
 		return 'question' in d && d.question !== undefined;
 	};
-	const shouldOpenComposerInitially = () =>
-		parentType === 'question' &&
-		!(isQuestionPageData(data) ? data?.flags?.userHasAnswered || false : false);
+	// Derived flag for whether user has answered (only relevant for QuestionPageData)
+	let userHasAnswered = $derived(
+		isQuestionPageData(data) ? data?.flags?.userHasAnswered || false : false
+	);
 
-	// State variables
-	let likes = $state<CommentLike[]>([]);
-	let subscriptions = $state<Subscription[]>([]);
-	let comment = $state('');
+	// Subscriptions follow `data`; subscribe/unsubscribe override them optimistically.
+	let subscriptions = $derived<Subscription[]>(
+		isQuestionPageData(data) ? data?.question?.subscriptions || [] : []
+	);
+
+	// SvelteKit reuses this component on client-side question -> question
+	// navigation. The draft and the give-first open state below reset when the
+	// question changes (each reads only `questionId`); answered-state flips leave
+	// the reader's toggles alone.
+	let comment = $derived.by(() => {
+		void questionId;
+		return '';
+	});
 	// Give-first: on a question the user has not yet answered, the composer is
 	// the main event — open by default instead of hiding it behind a button.
 	// Replies and post-answer comments stay collapsed until asked for.
-	let commenting = $state(shouldOpenComposerInitially());
+	let commenting = $derived.by(() => {
+		void questionId;
+		return untrack(() => parentType === 'question' && !userHasAnswered);
+	});
+	let shareLoading = $derived.by(() => {
+		void questionId;
+		return false;
+	});
+	let shortAnswerNudge = $derived.by(() => {
+		void questionId;
+		return false;
+	});
+	let confirmShortSubmit = $derived.by(() => {
+		void questionId;
+		return false;
+	});
+	let commentError = $derived.by(() => {
+		void questionId;
+		return '';
+	});
+	// Not rendered; resets with the question so the next draft is tracked again.
+	let commentStartedTracked = $derived.by(() => {
+		void questionId;
+		return false;
+	});
+
+	// State variables
 	let loading = $state(false);
 	let subscriptionLoading = $state(false);
-	let shareLoading = $state(false);
 	let anonymousComment = $state(false);
-	let shortAnswerNudge = $state(false);
-	let confirmShortSubmit = $state(false);
-	let commentError = $state('');
-	let commentStartedTracked = false;
 	let reduceMotion = $state(false);
 	let voiceBusy = $state(false);
 	let textareaElement = $state<HTMLTextAreaElement | null>(null);
@@ -119,10 +149,6 @@
 	// Cached visitor id - loaded once on mount
 	let cachedFingerprint = $state<string | null>(null);
 
-	// Derived flag for whether user has answered (only relevant for QuestionPageData)
-	let userHasAnswered = $derived(
-		isQuestionPageData(data) ? data?.flags?.userHasAnswered || false : false
-	);
 	let isSubscribed = $derived(subscriptions.some((e) => e.user_id === user?.id));
 	let questionCommentActionLabel = $derived(userHasAnswered ? 'Comment' : 'Add your take');
 	let questionCommentActionAria = $derived(
@@ -138,22 +164,6 @@
 		parentType === 'comment' ? 'reply' : userHasAnswered ? 'comment' : 'answer'
 	);
 
-	// SvelteKit reuses this component on client-side question -> question
-	// navigation, so the creation-time composer snapshot goes stale. Re-seed
-	// the draft and the give-first open state when the question changes; the
-	// early return keeps answered-state flips from clobbering user toggles.
-	let seededForQuestionId = $state<number | null>(null);
-	$effect(() => {
-		if (questionId === seededForQuestionId) return;
-		seededForQuestionId = questionId;
-		comment = '';
-		commentError = '';
-		commentStartedTracked = false;
-		shortAnswerNudge = false;
-		confirmShortSubmit = false;
-		commenting = parentType === 'question' && !userHasAnswered;
-		shareLoading = false;
-	});
 	let composerKindTitle = $derived(
 		`${composerKind.charAt(0).toUpperCase()}${composerKind.slice(1)}`
 	);
@@ -161,11 +171,6 @@
 		[shortAnswerNudge ? nudgeId : null, commentError ? errorId : null].filter(Boolean).join(' ') ||
 			undefined
 	);
-	// Update likes and subscription state from data
-	$effect(() => {
-		likes = isQuestionPageData(data) ? [] : (data as CommentType)?.comment_like || [];
-		subscriptions = isQuestionPageData(data) ? data?.question?.subscriptions || [] : [];
-	});
 
 	function getShareableQuestion() {
 		return isQuestionPageData(data) ? data.question : null;

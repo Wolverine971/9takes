@@ -151,7 +151,7 @@
 				</div>
 			{:else}
 				<ul class="item-list">
-					{#each comments as comment}
+					{#each comments as comment (comment.id)}
 						<li>
 							<a href="/questions/{comment.url}" class="item-link">
 								<div class="item-content">
@@ -206,7 +206,7 @@
 				</div>
 			{:else}
 				<ul class="item-list">
-					{#each subscriptions as subscription}
+					{#each subscriptions as subscription (subscription.id)}
 						<li>
 							<a href="/questions/{subscription.questions.url}" class="item-link">
 								<span class="item-question">

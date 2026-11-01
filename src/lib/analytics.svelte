@@ -1,7 +1,7 @@
 <!-- src/lib/analytics.svelte -->
 <script lang="ts">
 	import { dev } from '$app/environment';
-	import { page } from '$app/stores';
+	import { afterNavigate } from '$app/navigation';
 	import { onMount } from 'svelte';
 
 	type AnalyticsWindow = Window & {
@@ -38,15 +38,16 @@
 		window.addEventListener('load', loadAnalytics);
 	});
 
-	$: {
-		const gtag = (window as unknown as AnalyticsWindow | undefined)?.gtag;
+	// Page tracking, once per navigation
+	afterNavigate((navigation) => {
+		const gtag = (window as unknown as AnalyticsWindow).gtag;
 		if (typeof gtag === 'function') {
 			gtag('config', 'MEASUREMENT_ID', {
 				page_title: document.title,
-				page_path: $page.url.pathname
+				page_path: (navigation.to?.url ?? window.location).pathname
 			});
 		}
-	}
+	});
 </script>
 
 <svelte:head>

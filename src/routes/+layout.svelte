@@ -12,9 +12,9 @@
 	import '../app.scss';
 	import { browser, dev } from '$app/environment';
 	import { afterNavigate } from '$app/navigation';
-	import { page } from '$app/stores';
-	import { onDestroy, onMount } from 'svelte';
-	import type { PageData } from './$types';
+	import { page } from '$app/state';
+	import { onDestroy, onMount, untrack } from 'svelte';
+	import type { LayoutProps } from './$types';
 	import {
 		ANALYTICS_ACTIVITY_WINDOW_MS,
 		ANALYTICS_MAX_DELTA_MS,
@@ -37,7 +37,11 @@
 	import { webVitals } from '$lib/vitals';
 	import { preparePageTransition } from '$lib/page-transition';
 	import { resolvePageShell } from '$lib/layout/pageShell';
-	import { createAuthShellUser, normalizeAuthShellUser, type AuthShellUser } from '$lib/authShell';
+	import {
+		createAuthShell,
+		normalizeAuthShellUser,
+		type AuthShellUser
+	} from '$lib/authShell.svelte';
 	import { provideNotificationCount } from '$lib/notificationCount.svelte';
 	import {
 		AUTHOR_DJ_WAYNE_ID,
@@ -52,13 +56,15 @@
 	import Footer from '$lib/components/molecules/Footer.svelte';
 	import BackNavigation from '$lib/components/atoms/BackNavigation.svelte';
 
-	export let data: PageData;
+	let { data, children }: LayoutProps = $props();
 
-	const authShellUser = createAuthShellUser(data?.user);
+	// Seeded once from the first load; later data changes are pushed into the store
+	// by the auth-shell effect below, so capturing the initial value is intended.
+	const authShellUser = createAuthShell(untrack(() => data?.user));
 	provideNotificationCount();
 	let authShellRequest: Promise<void> | null = null;
-	let authShellHydrated = false;
-	if (browser && data?.authShell === 'client') beginUserIdentityResolution();
+	let authShellHydrated = $state(false);
+	if (browser && untrack(() => data?.authShell) === 'client') beginUserIdentityResolution();
 
 	// Constants
 	const VERCEL_ANALYTICS_ID = import.meta.env.VERCEL_ANALYTICS_ID;
@@ -68,17 +74,30 @@
 	const ANALYTICS_SESSION_STORAGE_KEY = '9t_analytics_session_key';
 	const ANALYTICS_SESSION_LAST_SEEN_STORAGE_KEY = '9t_analytics_session_last_seen';
 
-	let innerWidth = 0;
-	let isMobile = false;
+	let innerWidth = $state(0);
+	let isMobile = $derived(innerWidth <= 768);
 
-	// Initialize page-dependent variables to prevent server access
-	let isHomePage = false;
-	let isCategoryPage = false;
-	let isAdminPage = false;
-	let shouldShowMaxWidth = true;
-	let shouldUseOwnedShell = false;
-	let shouldUseOwnedChrome = false;
-	let showBackButton = false;
+	// Page-dependent values. Read only `page` (no window APIs), so they work during
+	// SSR too. Routes opt into an owned shell through page data; the root no longer
+	// maintains a path exception list.
+	let pathname = $derived(page.url.pathname);
+	let isHomePage = $derived(pathname === '/');
+	let isCategoryPage = $derived(pathname.includes('/categories'));
+	let isAdminPage = $derived(pathname.startsWith('/admin'));
+	// Question detail pages render their own breadcrumbs, so we skip the
+	// duplicate top-level back arrow there.
+	let isQuestionSlugPage = $derived(
+		/^\/questions\/[^/]+$/.test(pathname) &&
+			pathname !== '/questions/create' &&
+			pathname !== '/questions/categories'
+	);
+	let pageShell = $derived(resolvePageShell(page.data));
+	let shouldShowMaxWidth = $derived(pageShell === 'contained');
+	let shouldUseOwnedShell = $derived(pageShell === 'owned');
+	let shouldUseOwnedChrome = $derived(page.data.pageChrome === 'owned');
+	let showBackButton = $derived(
+		!isHomePage && !isCategoryPage && !isAdminPage && !isQuestionSlugPage
+	);
 
 	// Track swipe gestures for mobile
 	let touchStartX = 0;
@@ -412,8 +431,19 @@
 	}
 
 	afterNavigate((navigation) => {
-		const nextUrl = navigation.to?.url ?? $page.url;
+		const nextUrl = navigation.to?.url ?? page.url;
 		const nextRouteId = navigation.to?.route?.id ?? null;
+
+		// Google Analytics page tracking: once per navigation. gtag only exists
+		// after the deferred loader in initAnalytics runs, so the first page load
+		// is skipped here and counted by that loader's gtag('config') call.
+		if (!dev && window.gtag) {
+			window.gtag('config', PUBLIC_GOOGLE, {
+				page_title: document.title,
+				page_path: nextUrl.pathname
+			});
+		}
+
 		void syncClientAuthShell();
 		void (async () => {
 			if (analyticsVisitKey && !analyticsVisitEnded) {
@@ -422,27 +452,6 @@
 			await startAnalyticsVisit(nextUrl, nextRouteId);
 		})();
 	});
-
-	// Function to update all page-dependent values. Reads only $page (no
-	// window APIs), so it runs during SSR too. Routes opt into an owned shell
-	// through page data; the root no longer maintains a path exception list.
-	function updatePageDerivedValues() {
-		const pathname = $page.url.pathname;
-		isHomePage = pathname === '/';
-		isCategoryPage = pathname.includes('/categories');
-		isAdminPage = pathname.startsWith('/admin');
-		// Question detail pages render their own breadcrumbs, so we skip the
-		// duplicate top-level back arrow there.
-		const isQuestionSlugPage =
-			/^\/questions\/[^/]+$/.test(pathname) &&
-			pathname !== '/questions/create' &&
-			pathname !== '/questions/categories';
-		const pageShell = resolvePageShell($page.data);
-		shouldShowMaxWidth = pageShell === 'contained';
-		shouldUseOwnedShell = pageShell === 'owned';
-		shouldUseOwnedChrome = $page.data.pageChrome === 'owned';
-		showBackButton = !isHomePage && !isCategoryPage && !isAdminPage && !isQuestionSlugPage;
-	}
 
 	// Defer analytics loading to after page is interactive
 	const initAnalytics = () => {
@@ -468,8 +477,8 @@
 			// Initialize Web Vitals
 			if (VERCEL_ANALYTICS_ID) {
 				webVitals({
-					path: $page.url.pathname,
-					params: $page.params,
+					path: page.url.pathname,
+					params: page.params,
 					analyticsId: VERCEL_ANALYTICS_ID
 				});
 			}
@@ -531,15 +540,10 @@
 	};
 
 	onMount(() => {
-		// Initialize page-dependent values
-		updatePageDerivedValues();
-
 		initAnalytics();
 
 		getOrCreateVisitorId();
 
-		// Update mobile status based on window width
-		updateMobileStatus();
 		initializePageAnalytics();
 		void syncClientAuthShell();
 
@@ -551,48 +555,32 @@
 		void endAnalyticsVisit(true, false);
 	});
 
-	// Update mobile status when window resizes
-	const updateMobileStatus = () => {
-		isMobile = innerWidth <= 768;
-	};
-
-	// Track page changes - only run on the client
-	$: if (browser && !dev && window.gtag && $page) {
-		window.gtag('config', PUBLIC_GOOGLE, {
-			page_title: document.title,
-			page_path: $page.url.pathname
-		});
-	}
-
-	// Update mobile status when window width changes
-	$: {
-		innerWidth;
-		if (browser) updateMobileStatus();
-	}
-
-	// Update page values when page changes (SSR + client navigations)
-	$: if ($page) {
-		updatePageDerivedValues();
-	}
-
 	// Server-owned routes keep their existing SSR auth state. Public editorial
 	// routes leave this store alone so a hydrated account state survives client
-	// navigation between cached articles.
-	$: if (data?.authShell !== 'client') {
-		authShellUser.set(normalizeAuthShellUser(data?.user));
-		authShellHydrated = false;
-	}
+	// navigation between cached articles. External store sync (the store is shared
+	// with Header/MobileNav through context); a pre-effect so the store is current
+	// before the DOM updates, like the reactive statement it replaces. The store
+	// already holds this value on the first run, so skipping SSR loses nothing.
+	$effect.pre(() => {
+		if (data?.authShell !== 'client') {
+			authShellUser.set(normalizeAuthShellUser(data?.user));
+			authShellHydrated = false;
+		}
+	});
 
-	$: if (browser && data?.authShell === 'client' && !authShellHydrated) {
-		beginUserIdentityResolution();
-	}
+	// PostHog: hold identity-dependent events until the client auth shell resolves.
+	$effect(() => {
+		if (data?.authShell === 'client' && !authShellHydrated) {
+			beginUserIdentityResolution();
+		}
+	});
 
 	// Sync PostHog identity with auth state. Calls made before PostHog
 	// finishes loading are queued by the wrapper and applied on init.
-	$: if (browser) {
+	$effect(() => {
 		const authIsReady = data?.authShell !== 'client' || authShellHydrated;
 		if (authIsReady) {
-			const u = (data?.authShell === 'client' ? $authShellUser : data?.user) as
+			const u = (data?.authShell === 'client' ? authShellUser.user : data?.user) as
 				{ id?: string | null; enneagram?: number | null; admin?: boolean } | null | undefined;
 			if (u?.id) {
 				setUserIdentity({
@@ -604,7 +592,7 @@
 				setUserIdentity(null);
 			}
 		}
-	}
+	});
 </script>
 
 <svelte:head>
@@ -685,14 +673,11 @@
 	})}</script>`}
 </svelte:head>
 
-<svelte:window
-	bind:innerWidth
-	on:touchstart|passive={handleTouchStart}
-	on:touchend|passive={handleTouchEnd}
-/>
+<!-- touchstart is passive by default in Svelte 5; touchend never calls preventDefault. -->
+<svelte:window bind:innerWidth ontouchstart={handleTouchStart} ontouchend={handleTouchEnd} />
 
-{#if browser && $page?.route?.id?.includes('/stories/')}
-	<slot />
+{#if browser && page.route.id?.includes('/stories/')}
+	{@render children()}
 {:else}
 	<div class="app-wrapper flex min-h-screen w-full flex-col">
 		<!-- Skip link for accessibility (WCAG 2.4.1) -->
@@ -727,7 +712,7 @@
 					: ''}
 			aria-label="Main content"
 		>
-			<slot />
+			{@render children()}
 		</main>
 
 		{#if !shouldUseOwnedChrome}<Footer />{/if}

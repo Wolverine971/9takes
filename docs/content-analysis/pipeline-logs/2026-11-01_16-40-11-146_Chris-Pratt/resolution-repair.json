@@ -1,0 +1,338 @@
+{
+  "schema_version": 3,
+  "decisions": [
+    {
+      "finding_id": "subject-01",
+      "action": "fixed",
+      "reason": "Directly after Page's 2019 criticism, the faith section now gives Pratt's 2019 public reply, quoted via Men's Health 2022: \"Nothing could be further from the truth. I am a man who believes that everyone is entitled to love who they want free from the judgment of their fellow man.\" The \"Asked why he hadn't set the record straight at the time\" sentence and its under-the-bus quote are cut, so nothing implies he stayed silent in 2019; the 2022 Hillsong denial now stands as its own dated statement. Recorded as c-pratt-2019-statement; c-page-criticism's note that the reply follows is now true. The church material went from one paragraph to two short chronological ones, roughly word-neutral."
+    },
+    {
+      "finding_id": "subject-02",
+      "action": "fixed",
+      "reason": "\"His account has shifted with the setting\" is gone. The paragraph now reads \"His labels have changed over time\" and gives dated changes: 2022 \"really I'm not a religious person\"; his verdict on the speech moving from 2022 \"Maybe it was hubris\" to 2026 \"I didn't backtrack\". Nothing says or implies audience-tailoring. The Daily Beast headline is no longer used, so the article cites no commentary there. The 2017 photo is now sourced to the contemporaneous Yahoo report (Raechal Shewfelt, September 14, 2017; photo credit BACKGRID/Splash News), opened at this stage, which is the link behind the Daily Beast's \"previously photographed\". The sentence says he \"has not addressed the report in the sources opened for this page.\" c-hillsong-photo is restored with src-yahoo-hillsong-2017 and the Hillsong research task is updated."
+    },
+    {
+      "finding_id": "subject-03",
+      "action": "fixed",
+      "reason": "The closing now separates his reasons from the page's reading. His stated reasons come first (\"His stated reasons are practical: home, an audience that liked it, a gift he says he has\"), then a market reading tied to Mercy's reception, then \"What follows is this page's reading, not his.\" The 2015 image and the 2026 roles are explicitly distinguished: \"The comedy he wants back is a role, not that image.\" The hurt line is about the character: \"Andy never had to be hurt.\" The jazz-soloist material is kept. c-closing-interp records the limits."
+    },
+    {
+      "finding_id": "subject-04",
+      "action": "fixed",
+      "reason": "Both road-rage passages now match GQ 2015. It was \"the previous day's road rage\"; he told himself \"Just get mad\"; \"I was so mad. It cost me twenty minutes\"; he treated it as \"great research\"; Heath's \"bubbling away\" reading is given; the reversal came when he was asked again. \"The anger lasted one clause\" is now \"Within one answer, the blame had moved to his own wandering mind.\" In the Eight section, \"His road rage lasted one clause\" is deleted and the episode counts for Eight: \"The road rage was real anger, stoked on purpose, and Heath took it as a sign of more under the charm.\" c-road-rage, c-road-rage-interp and c-eight-case are updated."
+    },
+    {
+      "finding_id": "subject-05",
+      "action": "fixed",
+      "reason": "The unattributed skeptic sentence (\"A skeptic will add that faith audiences are a market too.\") is cut, an option the acceptance test allows. No commercial insinuation about his faith remains, and the section got shorter. c-faith-market is removed."
+    },
+    {
+      "finding_id": "subject-06",
+      "action": "fixed",
+      "reason": "The Gunn line now carries its time frame and his clause: \"Gunn told GQ that on the first _Guardians_ shoot, after years as \"the funny sidekick,\" Pratt \"didn't trust himself to just be Chris Pratt.\"\" It reads as a remark about one adjustment on one film. Recorded as c-gunn-juggle, whose alternative includes Gunn's closing praise."
+    },
+    {
+      "finding_id": "subject-07",
+      "action": "fixed",
+      "reason": "The first account of the collapse now includes the business model, attributed twice: \"Vanity Fair concluded he had been \"caught in someone else's moneymaking scheme,\" and on Club Random in 2025 Pratt called it \"multi-level marketing,\" adding, \"I was an idiot.\"\" The quote was checked against the audio with a whisper.cpp medium.en transcription of 1:31:10-1:32:10 (machine, not a human listen), recorded in src-club-random-2025 and c-mlm-self. The \"zero critical thinking\" line is cut from the Six argument."
+    },
+    {
+      "finding_id": "subject-08",
+      "action": "fixed",
+      "reason": "His father now appears in fuller terms. The sales section opens with his diagnosis with multiple sclerosis while Pratt was in high school and the family losing its house. The Andy section adds that he died in 2014 \"after a 20-year battle with multiple sclerosis\" (Men's Health) and Pratt's warmer line from Vanity Fair 2017: \"I think it made him proud, and it was cool that I got to find some way to connect with him, because he was a hard man to connect with.\" No new psychological claim about the father is made. \"The family ran on hope more than on security\" is cut. Recorded in c-family-hardship, c-father-death and c-father-proud."
+    },
+    {
+      "finding_id": "subject-09",
+      "action": "fixed",
+      "reason": "Body reads \"James Reece\", and the c-mercy claim text now says \"James Reece\" too."
+    },
+    {
+      "finding_id": "fan-road-rage-one-clause",
+      "action": "fixed",
+      "reason": "Both \"one clause\" sentences are gone. The passage now says he told himself \"Just get mad\", stayed angry (\"I was so mad. It cost me twenty minutes\"), treated it as \"great research\", and reversed the story only when asked again. Heath's \"bubbling away\" reading is given. The Eight paragraph weighs the incident for the Eight case (\"real anger, stoked on purpose\") instead of citing it against Eight."
+    },
+    {
+      "finding_id": "fan-action-hero-clipped",
+      "action": "fixed",
+      "reason": "The Vanity Fair sentence appears in full: he \"had always wanted to play an action hero but did not think he could pull it off.\" It sits with the Zero Dark Thirty turn (\"My God, I buy that guy\"), the Guardians pass (\"I did not want to go in and embarrass myself\") and his agent's push (\"everything you've been saying you want to do\"). \"The diet traded a smaller pleasure for a bigger adventure\" is cut. The pass is weighed in \"Why not Type 3?\" (\"the fear of embarrassment before _Guardians_\" is listed in the Three's strongest ground; \"he had to be pushed into _Guardians_\"). \"He moves first\" is qualified: \"he usually moves first (\"Put me in a movie\"), though not always.\""
+    },
+    {
+      "finding_id": "fan-three-case-omissions",
+      "action": "fixed",
+      "reason": "\"Why not Type 3?\" now quotes the coach exchange (\"I don't know, but I know I'll be famous and I know I'll make a shit ton of money\", Vanity Fair relaying Entertainment Weekly) and Men's Health 2022: his whole dumb-guy act \"was absolutely a tactic to lower people's expectations of me\" (c-tactic). The article explains why Seven still leads anyway. It concedes the approval and image cluster as the Three's strongest ground, which Seven explains least, and rests the Seven call on forecasts without routes (asked about the plan behind the coach prediction, Pratt talked about his father and said \"I guess that's what I planned to do\"), on pleasure as relief, and on the Maui memory, at medium confidence. The Maui section now opens with the Gumper award and plaque (\"threw himself into entertaining tables\"; \"I got my name on a plaque\") and says \"the plaque fits a Three working a new room.\" The \"peaked in high school\" line is not added, because the test does not require it and length was tight."
+    },
+    {
+      "finding_id": "fan-lead-singer-vs-career",
+      "action": "fixed",
+      "reason": "The top-billing discriminator is dropped. \"Why not Type 3?\" now says \"Since 2014 he has chosen leading roles, including _The Terminal List_, which his own company produces\" and \"The leading roles cut both ways.\" The Andy line appears once, in the closing, attributed to October 2026 while he discussed a possible Schur project, next to \"people really responded well to it\" and his Star-Lord remark (\"which is very exciting\"). The GQ \"guy holding the purse... people just looked right through me\" line is weighed in the Three case as status and visibility evidence. The grudge quote is cut, so it no longer serves as an Eight trait. The Type 3 FAQ no longer mentions Andy. The closing is reframed (see subject-03)."
+    },
+    {
+      "finding_id": "fan-father-ms-house",
+      "action": "fixed",
+      "reason": "The article now names his father's MS (diagnosed while Pratt was in high school; he died in 2014 after a 20-year battle, Men's Health) and the family's loss of its house, at the start of \"What you're selling is yourself\". It adds his warmer Vanity Fair line about his father. The \"ran on hope more than on security\" sentence is cut, along with the dreamers quote. The type argument says how both readings use the hardship: \"a teenager with a sick father and a lost family home had reasons to drift that need no type, whether he was outrunning pain (the Seven reading) or scarcity (the Three).\" The fan's \"senior year\" date is not used: Men's Health's 20 years to 2014 and Not Dead Yet's \"sophomore year\" disagree with it, so the article says \"in high school\"."
+    },
+    {
+      "finding_id": "fan-faith-missing-responses",
+      "action": "fixed",
+      "reason": "The 2019 statement is quoted, dated and sourced (Men's Health 2022). The \"set the record straight\" sentence is gone, so no question about timing is misattributed. \"Maybe it was hubris\" (2022) now sits next to \"I stood for something\" and \"I didn't backtrack\" (2026), framed as a change over time with no typing inference drawn from it."
+    },
+    {
+      "finding_id": "fan-silent-when-yelled-at",
+      "action": "fixed",
+      "reason": "The Nine paragraph now quotes the skipped clause: \"As a boy with a \"very, very strict\" father, \"if I got yelled at, I would stay silent for a long period of time,\" he told GQ in 2015.\" It counts that as Nine's best case. The discriminator then uses the other half of the same answer (\"obnoxious, really hyperactive, disruptive\")."
+    },
+    {
+      "finding_id": "fan-reece-spelling",
+      "action": "fixed",
+      "reason": "Reads \"James Reece\" in the body and in the evidence claim."
+    },
+    {
+      "finding_id": "critic-maui-discriminator-overweighted",
+      "action": "fixed",
+      "reason": "\"That line does more work than any other\" is now \"the Seven reading's best clue from Maui, and a modest one.\" The quote keeps his stated reason (\"I didn't have much overhead\") and is introduced as said in passing while telling the story of the day that changed his life. The friend's rescue ticket comes just before, in the previous section. The Gumper award and plaque open the section. The limits sentence reads: \"The inference has limits: partying at that age is common, a stalled Three can drift too, and the plaque fits a Three working a new room.\" The section then names what leans Seven: \"in 2014 he recalled Maui not as a low point before a comeback but as \"a charming time\"\" (repair stage, 2026-11-01: \"the year\" removed because no source gives the length of the stay; verify-03) (c-maui-memory). The Type 3 FAQ no longer mentions Maui. The Maui FAQ says a friend bought the ticket."
+    },
+    {
+      "finding_id": "critic-mask-paragraph-uses-rival-evidence",
+      "action": "fixed",
+      "reason": "The paragraph now says the image-casting line, his belief in it and \"didn't feel too great about who I was\" \"fit a Three's image at least as well as a Seven's mask\" and that a believed confident front is \"the Three's signature self-deception.\" The Seven claim rests on the payoff he describes (\"The front was for other people. The food was for him\"), marked \"This suggests\". \"Which is a claim about pain\" is removed."
+    },
+    {
+      "finding_id": "critic-top-billing-test-contradicted-by-record",
+      "action": "fixed",
+      "reason": "\"A Three wants top billing\" is dropped as a tipping point. The decade of leads and his production company are stated in \"Why not Type 3?\". The Andy remark is used only in the closing, with its promotional and Schur-project context. The diet sentence (\"The diet traded a smaller pleasure for a bigger adventure\") is cut, and the weight paragraph now reports the roles that drove the dieting without a Seven gloss."
+    },
+    {
+      "finding_id": "critic-closing-reframes-craft-idea-omits-mercy",
+      "action": "fixed",
+      "reason": "The closing states Mercy's reception with sources: Mercy \"flopped with critics and at the box office\", linked to The Numbers, with Rotten Tomatoes and Wikipedia recorded in c-mercy-reception. It sets the market reading beside his own reasons: \"A market reading fits as well, since the comedy talk came about two months after _Mercy_ opened\" (c-market-reading). The family reading follows (\"cares more about working \"close to home\"\"). Schur's idea is presented as a lead character's arc (\"A lead character needs a full arc\"), and the last line applies it to the role: \"Andy never had to be hurt.\" The Seven reading is labelled \"this page's reading, not his\", one reading among three."
+    },
+    {
+      "finding_id": "critic-road-rage-context",
+      "action": "fixed",
+      "reason": "Both road-rage passages now say he whipped up the anger on purpose (\"Just get mad\") as acting research, that it lasted the drive (\"It cost me twenty minutes\"), and that the blame reversed within one answer when he retold it. The Eight rebuttal no longer says it lasted one clause; it counts the episode for Eight."
+    },
+    {
+      "finding_id": "critic-deference-decade-unanswered",
+      "action": "fixed",
+      "reason": "Second branch of the test. \"Why not Type 3?\" now lists the deference and the retellings as unexplained: \"The deferential years, the people-pleasing, the managed expectations, the fear of embarrassment before _Guardians_ and the stories tuned to each room are the Three reading's strongest ground, and the Seven reading explains them least.\" The summary no longer claims Seven explains the choices: \"Three explains the selling and the people-pleasing, and Seven explains more of the choices.\" Gunn's \"didn't trust himself\" line is back in the Three case with its context."
+    },
+    {
+      "finding_id": "critic-generic-behaviors-labelled-seven",
+      "action": "fixed",
+      "reason": "All three sentences now use fit language. The clown: \"He describes a humor defense, not a type. This page reads it as Seven because he frames the clown as \"self-defense,\" not as a bid for approval. A Three reading would call it his first persona.\" Faith: \"His faith story starts with promises he broke, a common testimony that also fits the Seven reading.\" The trap: \"The God-shaped hole is common Christian testimony and doesn't sort types. What fits the Seven reading is that his hope sits ahead of him, not in wins behind him.\" The Nine section quotes the childhood silence before giving its discriminator."
+    },
+    {
+      "finding_id": "critic-six-rebuttal-inverts-marker",
+      "action": "fixed",
+      "reason": "The Six paragraph now treats reliance on his brother, agent and manager as Six-consistent (\"Handing the doubting to people he trusts is itself a Six habit\"), and the wing paragraph reads it as 7w6 material. \"Zero critical thinking\" is cut. The discriminator is what he did where no adviser was around (the van, \"I didn't have much overhead\", a stranger who \"should've made me nervous but didn't\"). It adds that a counterphobic Six \"could explain the hard stands, but not a stretch spent giving security away.\" (repair stage, 2026-11-01: \"a year\" became \"a stretch\" because no source gives the length of the Maui stay; verify-03)"
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "action": "fixed",
+      "reason": "The paragraph is rebuilt in order. 2019: Page criticized \"the church Pratt was said to attend\" as anti-LGBTQ, pointing to its Hillsong ties, and Pratt replied that year in his own sourced words. 2022: in a separate paragraph, he told Men's Health he had never been to Hillsong and attends Zoe, though not exclusively. Next comes the September 2017 Yahoo report (agency photo) that placed him at a Hillsong service, with the note that he has not addressed it, then Men's Health's report on Zoe's pastor. The Daily Beast headline is cut, so no unexplained \"lying\" charge appears. \"At the time\" is gone. The next paragraph ties the episode to the portrait: \"His labels have changed over time.\""
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "action": "fixed",
+      "reason": "Maui is \"19 or 20\" in both places (\"At 19 or 20, freshly failed\"; \"the Maui test came when he was 19 or 20\"). The Denver office keeps \"I wasn't even 21,\" so the order office, collapse, home, Maui reads cleanly. Wikipedia (\"at nineteen\") and Vanity Fair (friends \"none older than 20\") support the range."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "action": "fixed",
+      "reason": "The third tip is gone. \"Why not Type 3?\" now acknowledges \"Since 2014 he has chosen leading roles\" and \"The leading roles cut both ways: he chose them, and he had to be pushed into _Guardians_.\" The Andy remark appears only in the closing, with its Schur-project setting."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "action": "fixed",
+      "reason": "The jazz-soloist wording appears once, in the ending's blockquote. \"Why not Type 3?\" no longer uses it."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "action": "fixed",
+      "reason": "At first mention: \"Describing the years before his 2018 MTV awards speech about God (more below)\"."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "action": "fixed",
+      "reason": "The orientation paragraph now sketches Andy (\"a friendly, dim would-be rock star\") and adds a dated bridge with no current-status claims: \"Lately he has played it straighter, in _The Terminal List_ (2022 and 2026) and the thriller _Mercy_ (January 2026).\""
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "action": "fixed",
+      "reason": "His remark is glossed: \"Someone with nothing at least has hope in one big break, which he voiced as \"just get that ticket, baby.\"\" The interpretation uses the echo on purpose (\"Hope lives in the next ticket\")."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "action": "fixed",
+      "reason": "One sourced sentence now says what came of the Henry night: \"Over the next few days, Pratt said, he \"surprised my friends by declaring that I was going to change my life.\"\" The faith section does not claim a link the sources don't make. The Six paragraph uses the same anecdote (\"a stranger who \"should've made me nervous but didn't\"\")."
+    },
+    {
+      "finding_id": "enneagram-1",
+      "action": "fixed",
+      "reason": "The stalled-Three reading is named in both places: \"though a Three in collapse can numb out too\" and \"a stalled Three can drift too.\" The Seven call now rests on what a stalled Three would not show: the 2014 memory of Maui as \"a charming time\" rather than the low point before a comeback, and, in \"Why not Type 3?\", \"the relief came back in the Parks years: eating was \"pure euphoria\" for a man employed and rising.\" \"More work than any other\" is softened to \"best clue from Maui, and a modest one.\" Repair stage (2026-11-01): the sentence now reads \"in 2014 he recalled Maui not as a low point before a comeback but as \"a charming time.\"\" The limits lead-in is \"The inference has limits:\" in place of \"That is this page's inference, with limits:\"; the three limits are unchanged."
+    },
+    {
+      "finding_id": "enneagram-2",
+      "action": "fixed",
+      "reason": "Self-belief in the front is presented as shared. \"Those lines fit a Three's image at least as well as a Seven's mask. A confident front over a shaky sense of worth, believed by the man projecting it, is the Three's signature self-deception.\" \"Didn't feel too great about who I was\" is grouped with it. The Seven claim rests on the payoff, food as relief. The \"he bought it before anyone\" tipping point is gone."
+    },
+    {
+      "finding_id": "enneagram-3",
+      "action": "fixed",
+      "reason": "Option (b). \"A Three wants top billing\" is removed and the Andy line is no longer a deciding point; it is closing color, attributed and placed beside his leads and the Star-Lord remark. \"A bigger adventure\" is cut. The decade of leads is stated as cutting both ways."
+    },
+    {
+      "finding_id": "enneagram-4",
+      "action": "fixed",
+      "reason": "The Nine paragraph acknowledges that anger he doesn't do \"authentically very well,\" the deference, the blame he took back and comfort eating (\"Comfort eating is a classic Nine numbing too\") fit Nine, along with his childhood silences. The discriminator is motive-level: \"A Nine's numbing dulls a feeling and settles in. Pratt describes eating as a high.\" It is backed by sourced items a Nine reading can't easily claim: the \"obnoxious, really hyperactive, disruptive\" child who \"liked making people feel uncomfortable\" (GQ 2015), \"a new idea every day\", and \"Put me in a movie\". The \"loud escapes\" list is gone."
+    },
+    {
+      "finding_id": "enneagram-5",
+      "action": "fixed",
+      "reason": "The Six rebuttal rests on the van, \"I didn't have much overhead\" and \"should've made me nervous but didn't.\" It treats reliance on his brother, agent and manager as Six-compatible, and the wing paragraph reads it as 7w6. \"Security is not what he chases\" is cut. The money and employment lines appear in the Three section (\"Just keep me employed as an actor\") and the closing (\"money motivated\")."
+    },
+    {
+      "finding_id": "enneagram-6",
+      "action": "fixed",
+      "reason": "Body: \"The hunting, fishing and wrestling come from where he grew up, though, and are not type evidence.\" Wing body: \"the 8 shows in the stands he won't take back.\" Wing FAQ: \"An 8 wing fits his refusal to apologize for his faith and the anger a GQ writer saw \"bubbling away\" under his charm.\" No hobbies remain in the wing case, and the wing stays open."
+    },
+    {
+      "finding_id": "enneagram-7",
+      "action": "fixed",
+      "reason": "The clown is framed as fit: \"He describes a humor defense, not a type. This page reads it as Seven because he frames the clown as \"self-defense,\" not as a bid for approval. A Three reading would call it his first persona, built to be accepted.\" The Leviticus line stays as color without a type claim: \"Even the commitment comes with a wandering mind.\" c-leviticus is removed from the type hypothesis's supporting claims."
+    },
+    {
+      "finding_id": "future-01",
+      "action": "fixed",
+      "reason": "The Seven-over-Three case in the body and the Type 3 FAQ now rests on evidence dated before October 2026: Club Random 2025, GQ 2015, Men's Health 2022, Vanity Fair 2017 and the 2014 interview. The FAQ ends \"It is a real contest, and Seven wins it narrowly.\" The \"not the lead singer\" line is closing color only. It is attributed to October 2026 while he discussed a possible Schur project, placed beside \"He also said fans will see Star-Lord again, \"which is very exciting\"\" and the run of leads named in the same section. It is not framed as a discriminator. c-jazz-soloist and c-faq-type3 carry review triggers. c-jazz-why3 no longer exists because its passage is gone."
+    },
+    {
+      "finding_id": "future-02",
+      "action": "fixed",
+      "reason": "The limits sentence now reads \"the \"pure euphoria\" line comes from a podcast's auto-captions, matched by machine transcriptions of the audio.\" The lead-in is truthful without claiming who named eating first: \"Bill Maher asked whether anything was better about those years. \"Not a lot, but some things,\" Pratt said. Eating was one.\" This edit ran a third machine transcription (whisper.cpp medium.en on 0:42:40-0:43:50, 2026-11-01). It matches both quoted sentences but marks no speakers, so \"Maher guessed eating\" could not be confirmed and is not stated. src-club-random-2025, c-euphoria and c-euphoria-q record the method, date, timestamps and the fact that no human listen was done. c-euphoria, c-meta-description and c-limits carry a review trigger naming every place the quote appears."
+    },
+    {
+      "finding_id": "future-03",
+      "action": "fixed",
+      "reason": "Each listed sentence is dated. \"a manager who, he said in March 2026, has had him turn down \"huge checks\" and is \"calculated and critical...\"\". \"In 2022 he told Men's Health he believes the speech helped start the online hostility\". Mercy \"(January 2026)\" in the orientation. The FAQ reads \"As of 2026, they have three children.\" The closing says \"he said in 2026 that he has been \"money motivated\"\". No new undated present-tense status claim is added; the new Hillsong sentence is dated and tracked (c-hillsong-photo)."
+    },
+    {
+      "finding_id": "future-04",
+      "action": "fixed",
+      "reason": "The caveat-plus-signpost template is gone. The transition now reads \"The strongest rival is [Type 3](/enneagram-corner/enneagram-type-3), the Achiever, and Pratt supplies much of its case himself,\" with no \"gets a full hearing below\" and no self-report caveat before it. The similarity check was not rerun at this stage, and a research task records that."
+    },
+    {
+      "finding_id": "verify-01",
+      "action": "fixed",
+      "reason": "The quotation now ends at the words every transcription shares: He \"used to fill those catalog cards out and just sit them by my bedside,\" he said, never ordering anything. Rechecked in the cached transcripts: small.en (43:14.94-43:21.94) hears \"and never ordered a thing\"; the large-v3-turbo check segment hears \"and never order the thing\", as do Python medium.en and the verifier's whisper.cpp medium.en. Both readings say he did not order, so the not-ordering is unquoted paraphrase. No age is given. c-catalog-hole (claim, passage, inference, alternative), c-seven-trap-interp's inference, the src-not-dead-yet-2026 locator and context, and the catalog-card research task are updated to match."
+    },
+    {
+      "finding_id": "verify-02",
+      "action": "fixed",
+      "reason": "src-literally-2026 is removed from c-later-roles, which now rests on Wikipedia (The Terminal List 2022; Mercy 2026), Fox 2026-10-22 (season 2 premiered Oct. 21, 2026) and The Numbers (Mercy's January 23, 2026 release). No other claim cited it, so the source record is dropped from evidence-repair.json (18 sources). The Leno research task now carries the episode URL and points to this run's evidence-edit.json for its attribution notes. The unused, speaker-unconfirmed \"rehearsed being liked on Leno\" is also removed from type_hypothesis.alternative_case. The reader view and citations list never named the episode, so the article text is unchanged."
+    },
+    {
+      "finding_id": "verify-03",
+      "action": "fixed",
+      "reason": "Both sentences now use undated words. The Six paragraph reads \"could explain the hard stands, but not a stretch spent giving security away.\" The Maui paragraph reads \"in 2014 he recalled Maui not as a low point before a comeback but as \"a charming time.\"\" No opened source gives the length of the stay (Not Dead Yet 2026, about 11:51: \"I lived out there for a while\"). c-why-not-6 and c-maui-memory (claim and passage), plus the matching wording in c-hid-failure, c-type-answer and the type hypothesis discriminator, are updated, and a research task records the rule."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Both accounts are his. Side by side, they show a move that runs through his life: he meets a bad stretch by finding the fun in it, first while living it and again when he tells the story.",
+      "action": "kept",
+      "reason": "Kept verbatim in the opening; both quotes it rests on (2014 \"a charming time\", 2017 \"I was not in a great place\") are unchanged."
+    },
+    {
+      "passage": "In Vanity Fair's reconstruction of his telling, he answered, \"Fuck, yeah, I act. Put me in a movie.\"",
+      "action": "changed",
+      "reason": "Now \"As Vanity Fair tells it, he answered, \"Fuck, yeah, I act. Put me in a movie.\"\" It still labels the dialogue as the magazine's account rather than verbatim speech, in fewer words. His own 2026 framing follows (\"kicked in my door to door sales skills\")."
+    },
+    {
+      "passage": "Here the Three and Seven readings split. People of every type hide a failure, so the hiding settles little.",
+      "action": "changed",
+      "reason": "\"People of every type hide a failure, so the hiding settles little\" is kept verbatim at the head of the paragraph. The \"Here the Three and Seven readings split\" lead-in is dropped because the paragraph now also concedes that a Three in collapse can numb out too. The unflattering fact is still stated without moralizing and still doesn't carry the typing."
+    },
+    {
+      "passage": "The limits are real. Most of the Seven evidence is his own retelling in interviews, the cleanest test came when he was about 19, and the \"pure euphoria\" line comes from auto-captions of a podcast. A reader can still argue Three.",
+      "action": "changed",
+      "reason": "Kept in the body at the type argument, with corrections: age \"19 or 20\" (unfamiliar-02), \"the Maui test\" in place of \"the cleanest test\" (its weight is reduced), and the caption caveat updated to \"matched by machine transcriptions of the audio\" (future-02). \"A reader can still argue Three.\" follows unchanged."
+    },
+    {
+      "passage": "Even so, more than a decade of public faith, held through the mockery, is the strand of Pratt the type explains least.",
+      "action": "kept",
+      "reason": "Kept verbatim as the section's last sentence. The skeptic sentence near it is cut (subject-05), and this admission now follows \"Sevens can commit hard when a commitment opens onto something larger than the next pleasure.\""
+    },
+    {
+      "passage": "\"I think I was outwardly having more fun. I was more fun to be around, probably. That image that I was casting, to convince people that I was okay, was a really fun person to hang around. Now I have less fun. I focus more.\"",
+      "action": "kept",
+      "reason": "Kept verbatim as a blockquote with its setup (Faris probably preferred him heavier; Heath asks why)."
+    },
+    {
+      "passage": "As a boy he would \"fill those catalog cards out and just sit them by my bedside.\"",
+      "action": "changed",
+      "reason": "\"As a boy\" stays removed because Not Dead Yet gives no age for the cards. Repair stage (2026-11-01, verify-01): the quotation is back to the protected passage's own safe ending, \"just sit them by my bedside,\" because the transcriptions split on the words after it (\"never ordered a thing\" vs \"never order the thing\"). It now reads: He \"used to fill those catalog cards out and just sit them by my bedside,\" he said, never ordering anything. Its contribution, the concrete image of hope kept by the bed, is kept and used in the interpretation (\"hope kept on the nightstand in orders he never sent\")."
+    },
+    {
+      "passage": "he has been \"money motivated\" since a childhood when, as \"the king of my school,\" he wouldn't ask for the $35 a yearbook cost.",
+      "action": "changed",
+      "reason": "Now dated and slightly fuller: \"he said in 2026 that he has been \"money motivated\" since a childhood when, as \"the king of my school,\" he wouldn't ask his parents for the $35 a yearbook cost.\" The source context the fan asked for, his father's illness and the lost house, now opens the sales section."
+    },
+    {
+      "passage": "The limits are real. Most of the Seven evidence is his own retelling in interviews, the cleanest test came when he was about 19, and the \"pure euphoria\" line comes from auto-captions of a podcast.",
+      "action": "changed",
+      "reason": "Same passage as above. The local statement of limits stays at the type argument, with the age range, the reduced Maui weight and the audio-check status corrected."
+    },
+    {
+      "passage": "People of every type hide a failure, so the hiding settles little.",
+      "action": "kept",
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "He has told that stretch three ways, from \"a pretty awesome place to be homeless\" in 2014 to a rescue from \"the wrong path\" in 2026. Press tours tune a story to the room.",
+      "action": "kept",
+      "reason": "Kept verbatim, followed by \"What stays the same in every version is what he did there.\""
+    },
+    {
+      "passage": "Even the commitment has a Seven texture. He got through the whole Bible by listening on Hallow, he said, because when he reads books like Leviticus, \"my brain starts wandering four seconds in.\"",
+      "action": "changed",
+      "reason": "The detail is kept verbatim (\"He got through the whole Bible by listening on Hallow, he said, because when he reads books like Leviticus, \"my brain starts wandering four seconds in.\"\"). The frame \"has a Seven texture\" became \"Even the commitment comes with a wandering mind\", because enneagram-7 showed that a wandering mind four seconds into Leviticus is near-universal and should not count as type evidence. It still complicates the faith section without overclaiming."
+    },
+    {
+      "passage": "No camera was on him. If the hidden failure had been about his worth, this was the moment to start repairing it, and he spent it on a beach.",
+      "action": "changed",
+      "reason": "\"No camera was on him.\" is kept verbatim. The next sentence keeps the plain-language test but marks it as the page's inference against a stated rival: \"If the hidden failure had been mainly about his worth, the Three reading would expect him to start repairing it here, and he spent the time on a beach.\" The critic and enneagram reviewers showed that the original claimed more than the Maui record supports (the Gumper plaque, a stalled Three). Repair stage (2026-11-01): these sentences are not touched by this repair; only the lead-in to the limits after them changed, to \"The inference has limits:\"."
+    },
+    {
+      "passage": "Press tours tune a story to the room. What stays the same in every version is what he did there.",
+      "action": "kept",
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "A reader can still argue Three. The argument here is that Three explains the selling, and Seven explains the choices.",
+      "action": "changed",
+      "reason": "\"A reader can still argue Three.\" is kept verbatim. The division of labor is kept but qualified, because critic-deference-decade-unanswered showed that the deferential years are choices too: \"The argument here is that Three explains the selling and the people-pleasing, and Seven explains more of the choices.\" It is still a crisp, quotable statement that leaves room to disagree."
+    },
+    {
+      "passage": "Eleven years later he wants the fun back, and he has said what made it easy. The funny guy didn't have to be hurt.",
+      "action": "changed",
+      "reason": "The ending still ties the 2015 image admission, the clown and Schur's main-character idea into one plain line. Two fixes, because subject-03 and critic-closing showed the original merged the 2015 off-screen image with the 2026 roles and moved a character's arc onto Pratt: \"The comedy he wants back is a role, not that image, and he has said what made it easy. Andy never had to be hurt.\""
+    },
+    {
+      "passage": "That is the Seven's trap, described from the inside. Hope lives in the next ticket, and once the tickets are easy to get, the hole is still there.",
+      "action": "changed",
+      "reason": "\"Hope lives in the next ticket, and once the tickets are easy to get, the hole is still there.\" is kept verbatim. \"That is the Seven's trap, described from the inside\" became fit language that names what is specific (\"What fits the Seven reading is that his hope sits ahead of him, not in wins behind him\"), after a concession that the God-shaped hole is common testimony. critic-generic-behaviors flagged the original as generic."
+    },
+    {
+      "passage": "The anger lasted one clause before he talked himself out of it and blamed his wandering mind.",
+      "action": "changed",
+      "reason": "Its precise micro-observation is kept: the blame reversed inside a single answer and landed on his wandering mind. The wording was false about duration, since GQ shows twenty minutes of deliberately stoked anger (subject-04, fan, critic), so it now reads: \"Within one answer, the blame had moved to his own wandering mind.\" The type reading is widened to Nine as the protector asked (\"Taking it back fits a Nine's peacekeeping, or a man hearing how his words will read in print\")."
+    },
+    {
+      "passage": "The argument here is that Three explains the selling, and Seven explains the choices.",
+      "action": "changed",
+      "reason": "Kept as the summary of the case with a qualifier (\"Three explains the selling and the people-pleasing, and Seven explains more of the choices\"). It still gives future refreshes a clear test and no longer overclaims (critic-deference-decade-unanswered)."
+    }
+  ],
+  "prior_blockers": []
+}

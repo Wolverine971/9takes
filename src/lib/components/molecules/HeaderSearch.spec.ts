@@ -4,14 +4,9 @@
 import { fireEvent, render, screen, waitFor } from '@testing-library/svelte';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 
-const { gotoMock, pageStore } = vi.hoisted(() => ({
+const { gotoMock, pageState } = vi.hoisted(() => ({
 	gotoMock: vi.fn(),
-	pageStore: {
-		subscribe(run: (value: { url: URL }) => void) {
-			run({ url: new URL('https://9takes.com/') });
-			return () => {};
-		}
-	}
+	pageState: { url: new URL('https://9takes.com/') }
 }));
 
 vi.mock('$app/navigation', () => ({
@@ -19,8 +14,8 @@ vi.mock('$app/navigation', () => ({
 	goto: gotoMock
 }));
 
-vi.mock('$app/stores', () => ({
-	page: pageStore
+vi.mock('$app/state', () => ({
+	page: pageState
 }));
 
 import HeaderSearch from './HeaderSearch.svelte';

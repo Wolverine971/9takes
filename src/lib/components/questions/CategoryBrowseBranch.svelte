@@ -7,6 +7,7 @@
 -->
 <script lang="ts">
 	import { buildQuestionCategoryPath } from '$lib/utils/questionCategorySlug';
+	import CategoryBrowseBranch from './CategoryBrowseBranch.svelte';
 
 	type BrowseCategoryNode = {
 		id: number;
@@ -20,10 +21,14 @@
 		children: BrowseCategoryNode[];
 	};
 
-	export let category: BrowseCategoryNode;
-	export let depth = 0;
+	interface Props {
+		category: BrowseCategoryNode;
+		depth?: number;
+	}
 
-	$: hasChildren = category.children.length > 0;
+	let { category, depth = 0 }: Props = $props();
+
+	let hasChildren = $derived(category.children.length > 0);
 
 	function getCategoryHref(category: Pick<BrowseCategoryNode, 'slug' | 'category_name'>): string {
 		return buildQuestionCategoryPath(category.slug || category.category_name);
@@ -47,7 +52,7 @@
 		{#if hasChildren}
 			<div class="branch-grid">
 				{#each category.children as child (child.id)}
-					<svelte:self category={child} depth={depth + 1} />
+					<CategoryBrowseBranch category={child} depth={depth + 1} />
 				{/each}
 			</div>
 		{/if}
@@ -60,7 +65,7 @@
 		</a>
 		<div class="leaf-list">
 			{#each category.children as child (child.id)}
-				<svelte:self category={child} depth={depth + 1} />
+				<CategoryBrowseBranch category={child} depth={depth + 1} />
 			{/each}
 		</div>
 	</div>
