@@ -1,0 +1,33 @@
+{
+  "schema_version": 3,
+  "subject": "tom-rhys-harries",
+  "mode": "create",
+  "started_at": "2026-11-01T07:06:25.889Z",
+  "stages": {
+    "research": {
+      "status": "failed",
+      "started_at": "2026-11-01T07:06:25.891Z",
+      "cache_key": "987cf83dff20e3bf145dfa462a760a394071fce28c8378cfbe6f75ed94748a05",
+      "input_hashes": {
+        "baseline": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "project_local_settings": "71d03b589826f647e87c642d87b3d4b2482dd132355c98a0daf5ae2ec6d8e8c1",
+        "user_settings": "1557bfcf549551fafa2f71eda1074e0bbae8e4e721bfa64c4cd485e82318050f",
+        "command": "2fb89b06fb7ae4d5f77a7de81fee26e8c8c09a29ab923d201690a22794c29eac",
+        "standard": "62d29010ef46202cdaf6fd0c74b61649fe58b9e1223ca0fac70f987b52598aac",
+        "contract": "cf00ac719ecbde77cc16ec4bf8558f53a1c271e582e04288c6e30312ded4057b",
+        "runner": "ca10cd6ca7e34093db03b00c0ce8097e846ec2f8a51a24be8b80873277fc0636"
+      },
+      "model": "CLI default",
+      "error": "Stage timed out",
+      "finished_at": "2026-11-01T07:56:16.178Z",
+      "duration_seconds": 2990
+    }
+  },
+  "baseline_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "materialized_sha256": null,
+  "expanded": false,
+  "run_status": "failed",
+  "editorial_status": "pending",
+  "current_stage": "research",
+  "error": "Stage timed out"
+}

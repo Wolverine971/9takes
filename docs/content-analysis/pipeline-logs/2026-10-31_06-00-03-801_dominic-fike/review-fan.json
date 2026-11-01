@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "fan",
+  "content_sha256": "a70d5f0080867bc97c34bda07ee4c8822cfa1d8a75a3ea2e6e7db79fa3edb03c",
+  "evidence_sha256": "6ebf123cec98fedda5ac29b94667a1ed7dcd93e2b11a5fed1ddd8b291612342b",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "fan-01",
+      "severity": "major",
+      "passage": "No public response from Fike had been found as of October 2026.",
+      "problem": "The cited source contradicts this sentence. In the same Call Her Daddy passage (S22, about 01:12:05-01:12:10; checked against the cached transcript), right after \"I got cheated on for the first time,\" Schafer says: \"he's talked about this too, like in his song, you know, he writes about it. So it's fine to be talking about it today.\" By her own account he has addressed it publicly, in his music. Printing her accusation and cutting her acknowledgment leaves readers thinking he stayed silent. Fans who know the episode will read that as a distortion, and it's unfair to him. C80 has the same problem.",
+      "acceptance_test": "The passage reports, attributed to Schafer and dated August 2024, that she said he had addressed it in a song. It does not name, quote or interpret any specific song or lyric unless a source the editor opens identifies one. The 'no public response' sentence is removed or narrowed (e.g. no direct comment in an interview) so it no longer contradicts her account. C80's claim, passage and inference are revised to match."
+    },
+    {
+      "id": "fan-02",
+      "severity": "major",
+      "passage": "The test is still ahead. In a settled, sober stretch, when he talks about what steadies him, does he credit people, preparation and stability he can count on (Six), or new projects, motion and keeping it light (Seven)?",
+      "problem": "The record already holds dated answers to the draft's own settle test, and they lean partly toward Six. (a) In the same Apple Music film the article opens with (S09, about 22:16, YouTube captions; not yet re-transcribed), he says: \"I think the thing that got me through my teenage years was like the studio and the community that I found in music in this very small town.\" That credits people and a place, not escape. (b) In September 2023, on a sober tour (People via Yahoo, S14, already in the evidence), he said his first tour wore on him, and this time \"I made sure that I was leading it... I should be as involved as I can.\" He said he'd cut out \"cigarettes, sex, drugs, alcohol\" so he could \"move with intention\" and described a trainer and a recovery routine. That is structure and responsibility. Meanwhile 'In 2026 the record looks different' presents restraint as new in 2026, and the album title How To Quit Smoking (Billboard S16: smoking is the last habit he is trying to kick) goes unconnected to that 2023 quitting. A fan knows this arc. Calling the test unrun overstates how open the question is and hides evidence that cuts against the lead.",
+      "acceptance_test": "The article uses at least one of these dated statements, attributed (the Lowe line verified against the audio first; the People quotes attributed as reported by People). It says plainly which way that evidence leans in the Six/Seven test, or it rewrites the closing so it no longer claims the test hasn't been run. The shift toward restraint is dated from at least September 2023. The type confidence, the 60-word answer and the 'Why not Type 6?' section still hold after the addition, or their confidence wording is adjusted."
+    },
+    {
+      "id": "fan-03",
+      "severity": "major",
+      "passage": "He is a singer-songwriter from Naples who mixes rock, pop and rap, and he played Elliot in the second season of HBO's _Euphoria_ in 2022.",
+      "problem": "The profile skips his whole musical life before house arrest, so his music seems to appear from nowhere during his sentence. Pigeons & Planes 2019 (S06, already cited; checked against the cached page) has the formative context fans know: a guitar by about age ten, self-taught on Red Hot Chili Peppers riffs (hence the Frusciante tattoo on his hand); the Backhouse, a friend's guest house where Naples kids freestyled, which became a local rap collective; early rap releases; and quitting college after about three days to play SXSW (\"I picked the show over school... I left all of my shit at that apartment and never went back\"). Before the Demos tape he also had his old catalog wiped: \"Yo, before you drop it, wipe everything... I was trying to get away from that fuckin' 'Everyone knows you.'\" That matters for the type argument. These are leave-and-restart moves outside jail and family crisis, and the 2018 wish to escape 'Everyone knows you' matches the 2025 \"no one knows you so you get to create this person.\" That is the cross-context persistence the draft says a type case needs. Two related gaps: the mother's 'passive, quiet child' line (S09, about 06:00) was her answer to a question about his music, right after \"Dom used to pick up anything and make music with it.\" And the wiped catalog plus the $4 million deal fed the 'industry plant' suspicion (S06), the public backdrop to his 'ruse' fear in the hook.",
+      "acceptance_test": "The article includes, attributed and dated to Pigeons & Planes 2019: (1) his music before house arrest (at least the guitar from childhood and the Naples rap scene), and (2) the wiped catalog with the 'Everyone knows you' quote, placed so it supports or tests the fresh-start pattern next to the 2023 and 2025 lines. The mother's quote acknowledges that she was answering a question about his music. Any new claims are added to the evidence inventory with S06/S09 and exact passages."
+    },
+    {
+      "id": "fan-04",
+      "severity": "minor",
+      "passage": "A Seven handles it by staying in motion: there is always a next plan, a lighter way to tell the bad part, an exit.",
+      "problem": "The record has a revealing withdrawal that the draft never mentions. On his first tour, he said in September 2023 (People, S14): \"towards the end, it started to wear on me. I would be in my room and just shut out everybody and go to bed. I didn't care as much as everyone else.\" That cuts against both 'staying in motion' and the draft's 'codependent... be anywhere else but in my body' account of being alone. It fits exhaustion or Nine-style withdrawal as easily as Seven. The 'What the Seven reading leaves out' section lists his mother's memory, his not approaching people, grief and the tattoo stories, but not this.",
+      "acceptance_test": "'What the Seven reading leaves out' (or the 'Why not' section) includes the dated first-tour withdrawal with its source. It says how far the Seven reading explains it (for example, a Seven burning out versus a different motive), without claiming more certainty than the evidence supports."
+    },
+    {
+      "id": "fan-05",
+      "severity": "minor",
+      "passage": "that \"when you want to change, you need to refresh your whole friend group.\"",
+      "problem": "The quote is stripped of its context. In TheWrap (S13; checked against the cached page) the line is a rhetorical question about going back to film Euphoria season 3, said while he discussed filming under the influence and dating Schafer: \"You know how sometimes when you want to change, you need to refresh your whole friend group? Feels like moving backwards on that front.\" The draft turns it into a general trait. Fans also know the follow-up, which is a revealing contradiction: Variety reported in February 2025 (S20) that he signed on to reprise Elliot after all.",
+      "acceptance_test": "The passage says what the remark was about (returning to Euphoria season 3 after the breakup) and either keeps the 'moving backwards' clause or paraphrases it accurately. If the 2025 return is mentioned, it is attributed to Variety's February 2025 report, and the article does not say whether his season 3 scenes aired (still unverified)."
+    },
+    {
+      "id": "fan-06",
+      "severity": "minor",
+      "passage": "He moved into a friend's apartment with a guitar and started making the tape that became _Don't Forget About Me, Demos_.",
+      "problem": "The article contradicts itself. Here the house-arrest tape is made in 'a friend's apartment' (GQ's wording), but the closing says he recorded 'Babydoll,' from the same tape, 'in a friend's mother's house, \"in the little sister room.\"' In the 2026 Pigeons & Planes video (S10, about 03:52) Fike names the friend as David Fernandez and says 'I made it in his mom's house,' and Pigeons & Planes 2019 identifies Fernandez as his manager then, who bought the equipment. A careful reader sees two different places for one recording period, and that weakens the closing image.",
+      "acceptance_test": "Both passages describe the house-arrest recording location the same way, using Fike's own account, or the 'apartment' wording is clearly attributed to GQ and reconciled. The closing passage's meaning ('could not leave the house') is kept."
+    },
+    {
+      "id": "fan-07",
+      "severity": "minor",
+      "passage": "A Six handles fear by bracing for it. A Five handles it by retreating into the mind. A Seven handles it by staying in motion: there is always a next plan, a lighter way to tell the bad part, an exit. The cost is that whatever gets left behind stays unhealed. It waits.",
+      "problem": "The similarity advisory tripped on this paragraph (0.087 against Florence Pugh's 'handles fear by charging straight at it'; top pair 0.112 against Dylan Patel's 'handle it by keeping their options open'). Comparing the actual arguments, what's shared is a head-triad primer of 'X handles fear by Y' sentences, not Fike-specific reasoning. Type vocabulary alone isn't formulaic writing, but recent pages now open their type sections with the same move, and this paragraph says nothing about Fike. 'It waits' is a generic flourish in the most-read slot after the type answer.",
+      "acceptance_test": "The triad contrast is either cut to a single sentence or tied to a Fike-specific scene from the article (for example, what bracing, retreating or moving would look like in the motel room). A rerun of the similarity diagnostic shows no trip pair from this paragraph above 0.04."
+    },
+    {
+      "id": "fan-08",
+      "severity": "minor",
+      "passage": "About a year later Levinson came back with a character rewritten \"with the qualities of the guy you saw show up\" and a five-year contract.",
+      "problem": "The Euphoria section leaves out his best-known comment about the role, from the Variety piece the article already cites (S08, August 2021): \"I don't have to do much acting. He's exactly like me. It's shit I would say and shit I would do.\" Variety notes in the same paragraph that he called the character 'somewhat of a degenerate.' His own identification with Elliot is direct evidence of how he sees himself, and it fits the Levinson rewrite. Without it the section reads as Levinson's view of him only.",
+      "acceptance_test": "The 2021 Variety line appears with its date next to the Levinson rewrite. It is framed as his self-description, without suggesting that Elliot's fictional actions are things Fike did."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Seconds later he had a better idea: \"this is too much, should we go to fucking beach.\" They went.",
+      "reason": "An observed, filmed behavior rather than self-report, and the hook is faithful to its source. In the film's transcript the 'ruse' line (about 32:24) comes right before 'is it weird being back in this room' (about 33:10), so 'Just before that point' is accurate. Keep the scene and its order."
+    },
+    {
+      "passage": "Ask him about it in different years and you get different jails:",
+      "reason": "Three dated quotes (GQ 2022, Guardian 2023, Armchair 2025) show the reframing move without commentary. It's the most distinctive structural choice in the piece, and fans will recognize each version."
+    },
+    {
+      "passage": "A kid from a house like that could have gone looking for quiet. He went looking for a story.",
+      "reason": "It caps the Forest of Avalon told three ways over six years (a forest with a stream in 2019, 'an undeveloped lot... not yet turned into a Ritz' in 2025). The detail is specific to him and the line is earned."
+    },
+    {
+      "passage": "The Enneagram word for this is reframing. His word is a Transformers band-aid.",
+      "reason": "It puts his own metaphor ahead of type jargon. The band-aid quote and Shepard's 'your act is working' setup match the cached Armchair segment."
+    },
+    {
+      "passage": "It took eight years to find its audience. He made it in the one stretch of his life when he could not leave the house.",
+      "reason": "The ending turns the search hook ('Babydoll' in the top 10) back into the thesis without a CTA. Keep it while fixing the apartment/house inconsistency (fan-06)."
+    }
+  ],
+  "assessment": "Read as an informed fan. The draft is fair and not flattering. It keeps his contradictory jail accounts, dates the sobriety claims, and gives the Six case real space. The source fidelity I spot-checked holds: I reopened the cached Pigeons & Planes 2019 page (the October 16 date choice is supported: 'When Columbia asked him to pick a date... He knew he'd have to drive his mom to jail that day'), the Lowe film captions at 04:30-07:00, 22:00 and 32:00-33:30 (the mother is identified by context: 'did you bring this out mom,' then Lowe's music question), and TheWrap, Interview, Variety 2021, People/Yahoo, the Armchair band-aid segment, the 2026 P&P 'Babydoll' segment and the Call Her Daddy transcript. I did not listen to any audio. The gaps a fan would catch: (1) Schafer's quote is cut before she says he addressed the cheating in a song, which makes 'no public response' misleading. (2) The closing calls the Six/Seven test unrun, but the anchor film ('the studio and the community' got him through his teens) and the September 2023 sober-tour statements (leading the tour, quitting 'cigarettes, sex, drugs, alcohol') already speak to it and lean partly Six. (3) His musical life before 2017, including the wiped Backhouse-era catalog and his wish to escape 'Everyone knows you,' is missing, though it would show the fresh-start pattern outside crisis. I flag contested_typing as true: the article itself calls the Six case strong at medium confidence, and the omitted evidence in (2) cuts toward the rival. Sensitive allegations remain (criminal record, addiction, Schafer's account, a young child)."
+}

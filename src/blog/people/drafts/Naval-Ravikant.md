@@ -4,12 +4,12 @@ meta_title: "Naval Ravikant's Enneagram Type 5: Why He Gives It Away"
 persona_title: "Silicon Valley's Library Kid"
 description: 'Naval Ravikant says desire is a contract to be unhappy, then published a guide to getting rich. An Enneagram Type 5 analysis of why both are true.'
 author: 'DJ Wayne'
-date: '2026-09-01'
+date: '2026-11-01'
 loc: 'https://9takes.com/personality-analysis/naval-ravikant'
-lastmod: '2026-09-01'
+lastmod: '2026-11-01'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 5
 type: ['techie', 'entrepreneur', 'author']
 person: 'Naval-Ravikant'

@@ -1,0 +1,20 @@
+{
+  "schema_version": 3,
+  "subject": "dominic-fike",
+  "mode": "create",
+  "role": "unfamiliar",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_review_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-31_06-00-03-801_dominic-fike/draft.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-31_06-00-03-801_dominic-fike/evidence-draft.json",
+    "similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-31_06-00-03-801_dominic-fike/similarity.json"
+  },
+  "outputs": {
+    "review-unfamiliar.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-31_06-00-03-801_dominic-fike/review-unfamiliar.json"
+  },
+  "content_sha256": "a70d5f0080867bc97c34bda07ee4c8822cfa1d8a75a3ea2e6e7db79fa3edb03c",
+  "evidence_sha256": "6ebf123cec98fedda5ac29b94667a1ed7dcd93e2b11a5fed1ddd8b291612342b"
+}

@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "subject",
+  "content_sha256": "a70d5f0080867bc97c34bda07ee4c8822cfa1d8a75a3ea2e6e7db79fa3edb03c",
+  "evidence_sha256": "6ebf123cec98fedda5ac29b94667a1ed7dcd93e2b11a5fed1ddd8b291612342b",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "subject-01",
+      "severity": "major",
+      "passage": "No public response from Fike had been found as of October 2026.",
+      "problem": "The source cited for the allegation contradicts this sentence. In the Call Her Daddy segment (S22, about 01:09-01:14, cached transcript chd-men-cheated.txt), Schafer's very next sentence after \"I got cheated on for the first time\" is: \"And he said, he's talked about this too, like in his song, you know, he writes about it.\" By her own account he has addressed it publicly, in his music, so the article reports a silence the record does not show. The paragraph also drops her framing (\"I've said all these amazing things with him. He was not perfect and it's no secret\"). Separately, the sentence before it says he \"confirmed that his relationship with Euphoria co-star Hunter Schafer... was over\" in the Lowe film. In the film captions (S09 24:23-26:30) he never names her: he speaks of \"a breakup\" and having to \"see somebody on a damn billboard,\" and the confirmation is ELLE's reading (S23). Claim C80 records an absence that the cited source refutes.",
+      "acceptance_test": "The no-response sentence is gone. If the Schafer paragraph stays, it reports, attributed to her, that she said he had addressed it in his songwriting (no guessing which song), and her account stays hers. The July 2023 split is described as he put it (he referred to a breakup without naming her; outlets reported it as the split with Schafer). C80 is removed or rewritten to match S22, and the C79 passage is updated."
+    },
+    {
+      "id": "subject-02",
+      "severity": "major",
+      "passage": "Music works the same way for him.",
+      "problem": "This transition comes straight after Schafer's infidelity account, inside a section built on the escape pattern (\"Anywhere else but in his body\"). Read in order, it makes the alleged infidelity one more instance of the Seven escape. No source supports that motive. Neither he nor Schafer ties it to that pattern in the cited material; Schafer, in the same passage, says cheating has \"everything to do with that person and whatever kind of pain they're in.\" The evidence record says C18 is \"included for handling, not as type evidence,\" but the prose uses it as type evidence by placement. An ex-partner's allegation he has not answered point by point should not be given an imputed psychological motive by the author.",
+      "acceptance_test": "No sentence before or after the Schafer material links it to escape, codependency-as-type or the Seven thesis. Either it moves to a short, clearly separate factual note about the relationship, or it is cut. The music paragraph opens on its own subject rather than \"the same way.\" A reader cannot take the cheating account as evidence for Type 7."
+    },
+    {
+      "id": "subject-03",
+      "severity": "major",
+      "passage": "He signed a five-year contract on \"Brother, got you.\"",
+      "problem": "The exchange is stripped of its context and then used to type him. In the Armchair Expert transcript (S11, 01:02:13-01:02:29), Levinson's request comes straight after \"I know that you get fucked up, obviously. You have some problems. I have those problems too. We can get someone to help you, but you have to do this. You sign a five-year contract,\" and Fike adds, \"It's just a formality.\" The Guardian 2023 (S03) matches: Levinson said \"We'll get you a sober coach.\" So \"Brother, got you\" was a promise about his drug use to a showrunner who was testing him, with help offered and the contract called a formality. It was not Fike signing a long deal on a handshake or failing to vet the people in charge. The body (\"A Six checks the floor. Fike trusts the tiles.\"), the Type 6 FAQ (\"signed a five-year Euphoria contract on 'Brother, got you'\") and the discriminator (C91) all turn it into a picture of reckless trust. The next lines of the same transcript also cut against carefree trust: his \"just doing another whatever\" stance is called \"a self-defense mechanism. If I suck. I told you I don't care,\" followed by \"That was definitely what I felt\" (speaker split unverified).",
+      "acceptance_test": "Wherever the exchange appears (body and the \"Why isn't Dominic Fike a Type 6?\" FAQ), Levinson's framing is there: help or a sober coach was offered, the contract was \"a formality,\" and the request was about his using. Otherwise the anecdote comes out of the Six-versus-Seven argument and the FAQ. No sentence says or implies he signed a five-year contract on a handshake. C16's inference and alternative reflect the full context."
+    },
+    {
+      "id": "subject-04",
+      "severity": "major",
+      "passage": "In September 2025: \"I decided recently, it's all great. Cocaine's awesome. Sobriety's awesome.\" He added, \"As long as you can handle it,\" and said he was \"still kind of to this day, like, figuring it out.\"",
+      "problem": "This prints \"Cocaine's awesome\" as the words of a man in recovery, taken from a Whisper transcript with no speaker labels. The evidence record says it was \"Not checked by ear\" (C75), and the research already had to strip host lines about cocaine out of this same episode. The context is also cut. In the cached segment (aeseg-allgreat), the line comes in a conversation about \"Cali sober\" and psychedelics. Right after it come \"I don't want to go on this like Kanye thing where he's like, 'I fucking love everything,'\" his account of putting his brother in treatment while the brother keeps \"looking to me like, 'How do I do this?'\", and \"for a while I was just very loose with my definition of it.\" Printed bare, the line reads as a recovering addict endorsing cocaine. In context it is a hedged, half-joking non-judgment statement made while he talks about guiding a family member through recovery.",
+      "acceptance_test": "Either (a) someone listens to the Armchair audio and confirms the speaker for the whole run, and the passage keeps enough context for the reader to see his own qualifier (the \"Kanye thing\" caveat) and that he said it while describing a family member's treatment and his own \"loose\" definition of sobriety, with no sibling or facility details. Or (b) the cocaine line is cut and the paragraph keeps only the dated \"still kind of to this day, like, figuring it out.\" C75 records which check was done."
+    },
+    {
+      "id": "subject-05",
+      "severity": "minor",
+      "passage": "Both are his words, two years apart.",
+      "problem": "Only one of them is. Variety (S08, August 2021) says \"Fike is now sober\" in its own narration; the words it quotes from him are \"I'm in overdrive.\" The Guardian line (S03) answers whether he worried about \"managing his problem on the set\" when he was cast, and it goes straight on to Levinson offering \"a sober coach.\" Under the setup question \"How sober was he on that set?\", calling both statements his words suggests he misstated his sobriety to a reporter. What the record actually holds is a writer's summary from mid-production on one side and a dated self-report on the other, possibly about different points in a shoot that ran through 2021.",
+      "acceptance_test": "The paragraph attributes the 2021 sobriety status to Variety (for example, \"Variety reported he was sober; he said, 'I'm in overdrive'\") and no longer calls both statements his words. Nothing in it implies he lied. If the sober-coach detail is added for subject-03, it can go here."
+    },
+    {
+      "id": "subject-06",
+      "severity": "minor",
+      "passage": "He leaves before it can settle on him.",
+      "problem": "This is author inference written as observed fact. On camera he gives his own reasons (\"I feel like tense,\" \"this is too much\"). \"Before it can settle on him\" assigns a motive, timing the exit to avoid a feeling, that the film does not show. The same move recurs in \"He reaches the upside before anyone can sit him down in the bad part.\" The standard asks for local markers such as \"this suggests.\" A related attribution slip: \"The charge that started his career came from trying to keep a police officer off his brother.\" states as fact what the earlier section rightly attributed (\"By his account\"); no police record or officer account was opened (C04, C89).",
+      "acceptance_test": "The hook keeps his stated reason and marks the \"before it can settle\" reading as the author's read, or replaces it with the observable sequence. The \"reaches the upside\" line is likewise marked as interpretation. The brother sentence in the Six section says \"by his account\" or equivalent."
+    },
+    {
+      "id": "subject-07",
+      "severity": "minor",
+      "passage": "was still there in October 2026, when he told",
+      "problem": "Date error. The Interview conversation (S01) is headed \"TUESDAY 11 AM AUGUST 11, 2026, SHERMAN OAKS, CA\" (during tour rehearsals) and was published October 7, 2026. The closing section repeats the error (\"In October he told Interview\"). The article's case for change over time rests on when he said things, so dating these remarks to the publication month misstates them.",
+      "acceptance_test": "Both places date the remarks to August 2026 (for example, \"told Interview in August 2026, in a conversation published that October\") or say \"in an interview published in October 2026.\" C87 and C28 agree."
+    },
+    {
+      "id": "subject-08",
+      "severity": "minor",
+      "passage": "Dominic Fike called jail \"a year off\" and left his childhood motel room for the ocean.",
+      "problem": "The description is the line most searchers will read, and it quotes only his most upbeat (2022) framing of jail. The body rightly shows he also called it \"a purgatory\" that \"sucks\" and said \"I was not doing too well.\" The Type 6 FAQ leans on the same selective quote (\"called jail 'a year off to focus on myself'\"). In the metadata, where most readers will never see the rest of the record, he comes across as more cavalier about incarceration than his dated statements show.",
+      "acceptance_test": "The description and the Type 6 FAQ either signal the range (for example, \"called jail 'a year off,' and later 'a purgatory'\") or use a hook that doesn't rest on the version that best fits the thesis. The description stays within 120-170 characters."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Almost anyone would want out of that room, and a film crew was watching.",
+      "reason": "The hook names the most ordinary explanation before any type claim. That lets the motel scene work as evidence without overclaiming, which is the fairness move this profile most needs."
+    },
+    {
+      "passage": "Ask him about it in different years and you get different jails:",
+      "reason": "Three dated versions of jail in his own words (2022, 2023, 2025) let readers see his range instead of one spin. The record makes the point, not the author."
+    },
+    {
+      "passage": "That is a fair reading, and it is about trauma, which can push a person of any type toward thrills. The question for a type argument is whether the same move shows up when the circumstances change.",
+      "reason": "It gives a named host's competing, non-type explanation full credit and states the exact test the type claim has to pass."
+    },
+    {
+      "passage": "That is the only family testimony on the record, and it does not describe a busy, bouncing kid. It fits a watchful Six or Nine better. One way to square it with his own story is quiet in a house full of problems, loud in the woods. That is a reconciliation, not proof.",
+      "reason": "It faces the most inconvenient evidence head-on and labels the author's reconciliation as such. A frame pulled from the cached video at 06:12 shows an adult woman speaking on a sofa at that point in the film, consistent with the article's identification of his mother."
+    },
+    {
+      "passage": "Only his own dated words can answer that.",
+      "reason": "This is the right handling of a recovery question about a living person: dated self-report only, no guesses about current sobriety or risk."
+    }
+  ],
+  "assessment": "Mostly fair. His childhood, arrest, addiction and recovery come through in his own dated words. Siblings' legal and treatment matters, the child's name and the child's mother are kept out. A host's trauma reading gets full credit, and a whole section covers what the Seven read leaves out. Four places slip from the record into implied motive or cut context in ways that work against him. (1) The Schafer paragraph says no response was found, but her own cited words say he addressed it in a song. It then hands off with \"Music works the same way,\" which turns an allegation into type evidence. (2) \"Brother, got you\" loses Levinson's framing (he knew about the drug use, offered help, called the contract a formality) and is reused in the body, FAQ and discriminator as reckless trust. (3) \"Cocaine's awesome\" comes from an unlabeled machine transcript that no one has checked by ear, and it is stripped of his own qualifier and of the family-treatment context. (4) The \"Both are his words\" line implies a sobriety misstatement when one side is Variety's narration. Smaller items: motive written as observation in the hook, an Interview remark misdated (said August 2026, published October), and metadata that quotes only the rosiest jail line. What I did: I opened the cached Armchair Expert Whisper transcript (01:01:41-01:03:08 plus the allgreat, jail and bored segments), the Call Her Daddy segment, the Zane Lowe captions (06:04-06:25 and 24:23-26:30), and the cached Variety 2021, Guardian 2023, Interview 2026, Out and Gay Express pages. I re-ran Whisper medium on the codependency clip (\"let's get drunk\" confirmed) and pulled video frames at 06:02 and 06:12 for the mother passage. I did not listen to any audio by ear, so speaker attribution in the Armchair passages still rests on turn context. Risk flags: sensitive_allegations is true (criminal record, addiction, a partner's infidelity account, a young child). I also flag contested_typing as true: the read is medium confidence, his own words name safety as his lifelong problem, the only family testimony points toward Six or Nine, and the draft itself calls the Six case strong. That should keep the full jury and the editor's room to record the risk without a scope hold. The type thesis is unchanged."
+}

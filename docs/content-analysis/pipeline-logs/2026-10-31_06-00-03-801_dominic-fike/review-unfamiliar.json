@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "unfamiliar",
+  "content_sha256": "a70d5f0080867bc97c34bda07ee4c8822cfa1d8a75a3ea2e6e7db79fa3edb03c",
+  "evidence_sha256": "6ebf123cec98fedda5ac29b94667a1ed7dcd93e2b11a5fed1ddd8b291612342b",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "unfamiliar-01",
+      "severity": "major",
+      "passage": "It shows up in sober stretches as well as using ones: the motel film, released the same week in July 2023 that he told the Standard he was not on drugs, and the interviews of 2025 and 2026.",
+      "problem": "This is the hinge of the type argument: the next line says \"That persistence is what tips the read to Seven.\" A newcomer cannot verify the premise from the page, and the article itself undercuts it. A film's release week does not show he was sober when it was filmed (the evidence record notes the filming date is not established). The same month, the article quotes him saying his sobriety was \"split up over like, 5 really bad relapses.\" The September 2025 interview it cites as sober is where he says \"Cocaine's awesome... As long as you can handle it\" and that he is \"still kind of to this day, like, figuring it out.\" The reader is asked to accept the deciding point on a basis the surrounding paragraphs contradict.",
+      "acceptance_test": "Either (a) the passage names at least one dated instance of the leave-or-reframe move at a time the article itself establishes as sober, with its source, and does not use a release date as a stand-in for sobriety at filming; or (b) the claim is narrowed to what the page shows (the move persists across 2019-2026, across outlets, in periods he described as sober or not partying), and \"tips the read\" is softened to match. A reader re-reading the surrounding paragraphs should find no quote that contradicts the stated premise."
+    },
+    {
+      "id": "unfamiliar-02",
+      "severity": "minor",
+      "passage": "He served months in Collier County Jail and was released in April 2018",
+      "problem": "Readers new to him cannot piece together the 2016-2018 timeline the section depends on. \"Served months\" is vague, and the next bullets say \"a year off\" and \"Of the first six months,\" so it is unclear what the six months belong to and how long he was inside. (The Guardian piece it cites says he received a year's jail sentence and that the six months were his first in jail.) A few lines later, \"I really needed money for her lawyer\" uses \"her\" before the mother is named, and the article never says she was facing drug charges in 2018. That makes the later \"the day he drove her to jail\" detail confusing: why did the lawyer money not prevent it? Pigeons & Planes says the lawyer was hired to reduce her sentence.",
+      "acceptance_test": "Using only the page, a newcomer can state roughly how long the jail sentence was, that \"the first six months\" means his first six months in jail, and why his mother needed a lawyer in 2018. This must be clear before the quote that uses \"her.\" Each added fact is attributed to a source the evidence record has opened."
+    },
+    {
+      "id": "unfamiliar-03",
+      "severity": "minor",
+      "passage": "## Anywhere else but in his body",
+      "problem": "At about 680 words, this is the longest section, and it loses momentum. In order, it covers codependency, the end of a relationship, Schafer's infidelity account, music as distraction, the 'corny' song-post exchange, closing the childhood chapter, friend-group resets, treatment as a fresh start, relapses, 'cocaine's awesome' and finally the Transformers band-aid. The band-aid is the payoff the title promises, and it arrives around three-quarters of the way through the article. The Schafer paragraph is the clearest detour: it raises infidelity and drops it without saying what it shows. A newcomer is left asking why it is there, or reads it as gossip.",
+      "acceptance_test": "Every paragraph in the section serves the idea in its heading, or is moved somewhere it does. The Schafer paragraph either says in one attributed clause why it sits beside his codependency explanation, with no new speculation, or is moved or cut. The section reaches the band-aid in noticeably fewer beats."
+    },
+    {
+      "id": "unfamiliar-04",
+      "severity": "minor",
+      "passage": "That is the only family testimony on the record, and it does not describe a busy, bouncing kid. It fits a watchful Six or Nine better.",
+      "problem": "Type Nine enters here as a live rival and never gets an answer. Types 4 and 3 each get a sentence explaining why they fall short, but a newcomer is told the only family testimony fits Nine better and then hears nothing more about Nine. That reads like a loose end in the type argument.",
+      "acceptance_test": "Either one sentence, near the other rival sentences or here, says why Nine falls short, using evidence already on the page (for example, his appetite for intensity: \"I want all of it,\" \"go all the way there without dying\"), or Nine is dropped from this sentence."
+    },
+    {
+      "id": "unfamiliar-05",
+      "severity": "minor",
+      "passage": "\"I started peaking right when me and Barbie were reading.\" In his mind's eye, Sam Levinson was wearing a dress",
+      "problem": "Two names appear with no introduction. A reader who has not watched Euphoria does not know that Barbie is a cast member or that Sam Levinson created the show. The scene, and the later line about Levinson coming back with a rewritten character and a five-year contract, only lands if the reader knows Levinson was the person deciding.",
+      "acceptance_test": "At first mention, Barbie gets a short role tag (the Euphoria actor Barbie Ferreira) and Levinson is identified as Euphoria's creator or showrunner, without adding new claims."
+    },
+    {
+      "id": "unfamiliar-06",
+      "severity": "minor",
+      "passage": "He moved into a friend's apartment with a guitar and started making the tape that became _Don't Forget About Me, Demos_.",
+      "problem": "The ending says he recorded \"Babydoll\" \"in a friend's mother's house, 'in the little sister room',\" then closes on \"He made it in the one stretch of his life when he could not leave the house.\" A careful reader meets two different, unexplained places where the tape was made, an apartment and a mother's house. That small mismatch weakens trust in the closing image, which depends on the reader believing the song was made under house arrest.",
+      "acceptance_test": "A reader no longer meets two unexplained recording locations. Either the earlier sentence is made general where the sources allow (for example, \"at a friend's place\"), or the difference is explained from sources. The ending's house-arrest framing still rests on the cited statements (Pigeons & Planes 2019, NME 2020) that the tape was made on house arrest."
+    },
+    {
+      "id": "unfamiliar-07",
+      "severity": "minor",
+      "passage": "\"So I start using everything I can that has a short span in your stream,\" he went on: cocaine, because he might be drug-tested.",
+      "problem": "\"Cocaine, because he might be drug-tested\" reads like a contradiction to anyone who does not already know the logic. Without that, the 'trapped and bored' beat stalls. The transcript makes it plain: he picked drugs that leave the body quickly (\"Coke is like three days, yeah?\").",
+      "acceptance_test": "The sentence states the logic in plain words the transcript supports: he chose drugs that clear the system fast because he faced testing. His quoted words stay unchanged."
+    },
+    {
+      "id": "unfamiliar-08",
+      "severity": "minor",
+      "passage": "Dominic Fike called jail \"a year off\" and left his childhood motel room for the ocean.",
+      "problem": "A searcher reading the description, or the Type 6 FAQ (\"he walked out of his childhood motel room for the ocean\"), will most likely picture a child leaving a motel for the beach. In fact it was a 2023 return visit, on camera, as an adult. The first thing a newcomer sees misplaces the article's central scene in time.",
+      "acceptance_test": "The description and the Type 6 FAQ answer make clear that he walked out on a 2023 return visit to the motel room he lived in as a child. The description stays within 120-170 characters, and both still agree with the body."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "He says the hard thing plainly. He leaves before it can settle on him. He heads for open water.",
+      "reason": "In three short sentences, a newcomer gets the whole pattern from one filmed scene, without jargon, before the type is named. This is the article's orientation spine."
+    },
+    {
+      "passage": "Ask him about it in different years and you get different jails:",
+      "reason": "A distinctive device: three dated versions of the same event let the reader see the reframing happen, rather than being told about it. It is honest, because the bad version is included."
+    },
+    {
+      "passage": "A Six checks the floor. Fike trusts the tiles.",
+      "reason": "Turns the Six-versus-Seven discriminator into an image a non-Enneagram reader remembers, built from his own 2021 metaphor."
+    },
+    {
+      "passage": "The Enneagram word for this is reframing. His word is a Transformers band-aid.",
+      "reason": "Puts his own self-diagnosis above the jargon. The title's promise pays off here, and it teaches the concept to a newcomer in his language."
+    },
+    {
+      "passage": "It took eight years to find its audience. He made it in the one stretch of his life when he could not leave the house.",
+      "reason": "A natural ending that ties the current reason people are searching (\"Babydoll\") back to the 'leaves the room' thesis without a CTA or a summary. It still works if the latest chart news is removed."
+    }
+  ],
+  "assessment": "For a reader with no prior knowledge, this works. The motel scene creates curiosity, the identity line and the reason people are searching come quickly, the head-triad paragraph teaches just enough Enneagram, and the band-aid quote turns the thesis into his own words. The rival section is unusually honest, and 'What the Seven reading leaves out' lets a real person through. The newcomer leaves knowing who he is, the 2016-2018 arc, the Six case and the open question. The main problem is the hinge: the article says persistence into sober periods tips the read to Seven, but the page's own quotes leave that premise unestablished (unfamiliar-01). Given that and the article's own concessions ('Six gains ground here', 'frightened Sixes run from things too', the mother's testimony), I flag contested_typing. The other findings are orientation snags: a muddled jail and lawyer timeline, unintroduced Euphoria names, an unanswered Nine, and one sagging 680-word section. Smaller note: 'What the writers keep describing is speed' can read as the drug in this context. Similarity: the trip ('handles fear by', shared with Florence Pugh and Dylan Patel) is ordinary head-triad vocabulary in one orientation paragraph. The arguments differ (Pugh is counterphobic Six vs Seven; here it is brace vs leave), so this is not meaningful reuse. Body is about 3,530 words, near the top of the target range, so fixes should cut rather than add."
+}

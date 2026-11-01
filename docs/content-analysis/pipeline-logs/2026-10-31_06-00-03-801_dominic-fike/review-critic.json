@@ -1,0 +1,100 @@
+{
+  "schema_version": 3,
+  "role": "critic",
+  "content_sha256": "a70d5f0080867bc97c34bda07ee4c8822cfa1d8a75a3ea2e6e7db79fa3edb03c",
+  "evidence_sha256": "6ebf123cec98fedda5ac29b94667a1ed7dcd93e2b11a5fed1ddd8b291612342b",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "critic-01",
+      "severity": "major",
+      "passage": "Where Six strains is what he does when the threat actually arrives. A Six moves toward certainty: prepare, test the people in charge, plan for the worst, hold on. Fike moves away.",
+      "problem": "The discriminator defines only the phobic Six (brace, prepare, hold on), then says Fike 'moves away' when threat arrives. The record's one documented physical threat contradicts that. In 2016 he thought an officer had drawn a gun on his brother and, by his account, 'Immediately my instinct, boom,' knocked the man down: he moved toward the threat. 'I wanted there to be some sort of danger' is danger-seeking, which is also the counterphobic Six signature. The evidence record's own alternative_case builds a counterphobic Six from these facts (plus face tattoos as defiance of 'old white dudes'), and the site's Florence Pugh profile tests the counterphobic Six explicitly. This draft never answers it. The head-triad primer ('A Six handles fear by bracing for it') is the passage the similarity advisory matched to the Pugh and Dylan Patel primers. It is portable boilerplate that builds the phobic-only definition in, and the type FAQ repeats it ('A Six braces, prepares and tests the people in charge').",
+      "acceptance_test": "The Six section names the counterphobic variant in plain language, sets the 2016 charge and the Forest of Avalon 'danger' line against it, and gives a discriminator that separates Seven from counterphobic Six without relying on 'moves away' (for example, a sourced pattern in how he frames danger afterward). The primer paragraph and the 'Why isn't Dominic Fike a Type 6?' FAQ no longer define Six as bracing only. If no discriminator survives, the claim and the confidence wording are softened."
+    },
+    {
+      "id": "critic-02",
+      "severity": "major",
+      "passage": "He signed a five-year contract on \"Brother, got you.\"",
+      "problem": "In the Armchair Expert telling (2025, about 00:50-00:51), Levinson calls the five-year contract 'just a formality'. His 'I need to know that you're not going to like fuck me on this' comes right after he raises Fike's drug problems ('I know that you get fucked up... We can get someone to help you'). So 'Brother, got you' is Fike promising the showrunner he will be reliable. It is a loyalty pledge, not Fike trusting an authority he never tested. 'Not understanding the stakes' refers to the show's scale ('when you see that budget... 20 semis'), not to contract terms. The body still uses the line as the anti-Six discriminator ('A Six checks the floor. Fike trusts the tiles.'), and the type FAQ repeats it. The Variety 'tiles' image shows other people laying the floor under him, which can mean relying on a support team as easily as carefree trust.",
+      "acceptance_test": "The handshake comes out of the discriminator in the body and the 'Why isn't Dominic Fike a Type 6?' FAQ, or it is described accurately: Levinson called the contract a formality and offered it on condition that Fike manage his drug use, and Fike answered with a promise. 'A Six checks the floor. Fike trusts the tiles.' is cut or rewritten so the tiles quote is not offered as evidence against relying on others."
+    },
+    {
+      "id": "critic-03",
+      "severity": "major",
+      "passage": "The plainest statement of the pattern in his own words comes from the same Zane Lowe film:",
+      "problem": "The draft counts 'so codependent on human beings' as the plainest statement of the Seven escape, but the same film points the other way. Just before it, he says he wants 'an older mentor' and can't relate to his therapist. Later (about 46:55-47:50) he calls a partner and a child 'my idea of stability and it's always in another person so maybe I need to rethink that,' and the conversation names this 'that codependency we talked about.' Earlier in the film he says his manager 'Reed helps me' untangle decisions he made for security. The Standard (2023) records a standing arrangement with that manager: 'Don't listen to me. I'm manipulative!' Together these show someone seeking stability and an outside check in trusted people, which is the Six reading. The evidence record lists the mentor and 'always in another person' lines in its own alternative_case. The article leaves all of them out, so the strongest Six evidence gets counted for Seven.",
+      "acceptance_test": "After a speaker check on audio, the article quotes the 'stability... always in another person' line, plus the mentor wish or the manager arrangement, in or beside the Six section. It then says in a sentence why the codependency passage favors Seven over Six, or concedes that it cuts both ways. The 'plainest statement of the pattern' framing is dropped or justified."
+    },
+    {
+      "id": "critic-04",
+      "severity": "major",
+      "passage": "His security talk is also tied to concrete deprivation (no home, a mother in jail, no money), and he describes it easing. The escape move does not ease. It shows up in sober stretches as well as using ones: the motel film, released the same week in July 2023 that he told the Standard he was not on drugs, and the interviews of 2025 and 2026.",
+      "problem": "This is the sentence that 'tips the read to Seven,' and the draft's own evidence undercuts it. The security talk does not ease: his April 2026 fatherhood goals are property, stability, friends and reputation, and the draft itself says 'Six gains ground here.' Most of the 2025-2026 escape evidence looks back. The April 2026 'really nice to not think about shit' sits inside 'When I was super bummy it was a good place to hide like in studios... I was making music like whenever I was freaked out,' which is about the period before jail. The draft puts it in the present ('Music works the same way for him'; 'Fike describes songwriting as a way \"to not think about shit\"'). The 2025 lines include 'still kind of to this day, like, figuring it out,' which is not a sober stretch, and the closing section says 'In 2026 the record looks different.' Nobody has established when the motel scene was filmed or whether he was sober then (claim C92 admits this), and the Blackbird interview from the same month describes five relapses. The persistence argument rests on one produced scene and past-tense retellings.",
+      "acceptance_test": "Either cite dated, present-tense evidence of the escape move during an established sober period, or rewrite the tipping claim to say what the record shows: the security talk and the escape behavior both shift with sobriety and fatherhood, so the tiebreaker is weaker than presented. Tenses match the sources (the 2026 music quote is described as looking back). The type answer and FAQ use confidence wording consistent with the revised claim."
+    },
+    {
+      "id": "critic-05",
+      "severity": "major",
+      "passage": "Seconds later he had a better idea: \"this is too much, should we go to fucking beach.\" They went.",
+      "problem": "The hook leaves out two facts from the same source that cut against its reading. First, Lowe's voiceover (about 00:28:29; I re-ran Whisper medium on it) says the motel visit 'was Dom's idea.' He chose to walk back into that room, which complicates 'He leaves before it can settle on him.' Second, it is less clear than the draft says that the beach was his reflex. In the unlabelled transcript, the beach line comes after a three-second gap following 'Should we leave? I'm done' ('Thank you so much cuz I was, this is too much, should we go to fucking beach'). Lowe's next voiceover then claims the beach as his own remedy ('Growing up in Auckland, New Zealand. That was our solution for a lot of rough times. Just go to the fucking beach'), and the film's opening narration promises 'we end the day staring at the horizon,' so the water was the film's planned ending. 'Seconds later he had a better idea' and 'He heads for open water' present the structure of a produced segment as his signature move. The description repeats it ('left his childhood motel room for the ocean').",
+      "acceptance_test": "The hook says the visit was his idea. The beach proposal is credited to Fike only after a video or audio speaker check is recorded in the evidence; otherwise the line reads 'they left for the beach.' The 'familiar move' paragraph acknowledges that the film was built to end at the water. The description and the type FAQ follow whatever the speaker check shows."
+    },
+    {
+      "id": "critic-06",
+      "severity": "major",
+      "passage": "That last line matters. A redemption story is a finished product, built to be admired, and he does not build one. What the writers keep describing is speed. He reaches the upside before anyone can sit him down in the bad part.",
+      "problem": "The 'three journalists' triangulation is weaker than the draft presents it. In the Standard (July 2023), Godwin's line leads into Fike refusing to say he is fixed: 'He's clean and sober for the moment, but he doesn't take that for granted. \"I'm like a pretty bad drug addict... I'll always be a drug addict.\"' There he declines the upside, the opposite of 'He reaches the upside before anyone can sit him down in the bad part.' In GQ, the next sentence after 'spin into a positive' is 'But he acknowledges that things got dark during that period.' None of the three writers describes speed; that is the author's inference. All three observations also come from promotional interviews, the setting the draft names as its main confound, so they cannot resolve it.",
+      "acceptance_test": "Godwin's line is either quoted with the context showing that he refuses a redemption arc by insisting he is still an addict, and read fairly, or it is dropped from the trio. 'What the writers keep describing is speed' is cut or marked as the author's inference. One clause acknowledges that the writers saw the same promotional persona the confidence paragraph discounts."
+    },
+    {
+      "id": "critic-07",
+      "severity": "minor",
+      "passage": "Fike's answer is the best description of the Seven defense in the record, and it is about himself:",
+      "problem": "The Transformers band-aid answers Shepard's question about how success hides the need to 'get my act together' ('Cause your act is working'). It describes money covering an addiction, which is a recovery insight open to any type, and 'I'm doing great' fits an image-protecting Three as well as a reframing Seven. 'The best description of the Seven defense in the record' and 'The Enneagram word for this is reframing' turn a fitting metaphor into proof. The metaphor also carries the title.",
+      "acceptance_test": "The passage presents the band-aid as consistent with the Seven reading, notes that a sober host prompted it with a question about success masking addiction, and either explains why it fits Seven better than a Three or trauma account or drops the superlative."
+    },
+    {
+      "id": "critic-08",
+      "severity": "major",
+      "passage": "Two other rivals deserve a sentence each.",
+      "problem": "The draft raises Nine itself (the mother's account 'fits a watchful Six or Nine better') but never tests it. Several quotes counted as Seven escape describe numbing or hiding rather than seeking stimulation: 'be anywhere else but in my body'; 'really nice to not think about shit'; 'it was a good place to hide like in studios' (from the same 2026 passage); 'desensitized' (Lowe film, 2023). His reluctance to intrude, his habit of waiting for collaborators to call, and 'no sense of drama' point the same way. The evidence record sets Nine aside using 'I want all of it' and 'all the way there without dying,' which is the drug-use and deadpan-fame material the draft says cannot carry the case. The Four sentence also rests on the past-tense 'not think about shit' quote while conceding 'cathartic.' After Six, the rivals are token.",
+      "acceptance_test": "A short paragraph tests Nine against a discriminator that does not depend on drug-use quotes (for example, the forest line 'I wanted there to be some sort of danger', or 'ride this out until the wheels fall off' once verified) and names which escape quotes fit numbing as well as stimulation. The Four sentence engages 'cathartic' directly instead of answering it with the retrospective quote."
+    },
+    {
+      "id": "critic-09",
+      "severity": "major",
+      "passage": "No public response from Fike had been found as of October 2026.",
+      "problem": "This sensitive allegation has two problems. Placement: Schafer's infidelity account sits inside the section that argues his escape pattern, right after 'the end of my relationships,' which invites readers to treat it as type evidence; the evidence record says it is not (C18). Completeness: in the same Call Her Daddy passage, as quoted in the cited ELLE piece, Schafer says 'He's talked about this, too—in his songs, he writes about it—so it's fine to be talking about it today.' 'No public response from Fike had been found' is narrowly true of a reply to her 2024 remarks, but it leaves out her own statement that he has addressed it.",
+      "acceptance_test": "The allegation moves out of the type argument into a neutral, dated sentence about the relationship (or is cut) and stays attributed to Schafer. The 'no response' line is reworded so it stays accurate given her statement (for example, 'He has not commented directly on her account'), and no lyrics are interpreted."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "A kid from a house like that could have gone looking for quiet. He went looking for a story.",
+      "reason": "A specific, earned turn: it rests on his own 'I wanted Alice in Wonderland... I wanted there to be some sort of danger' and states the insight in two sentences without type jargon."
+    },
+    {
+      "passage": "That is a fair reading, and it is about trauma, which can push a person of any type toward thrills. The question for a type argument is whether the same move shows up when the circumstances change.",
+      "reason": "It states the strongest non-type explanation on the spot, credits the host who offered it, and sets the test the article has to pass. Keep this honesty even if the later answer changes."
+    },
+    {
+      "passage": "One way to square it with his own story is quiet in a house full of problems, loud in the woods. That is a reconciliation, not proof.",
+      "reason": "It puts the only family testimony against the thesis and labels the author's reconciliation as inference. This is the calibration the rest of the type argument should match."
+    },
+    {
+      "passage": "A Seven reading can call that a storyteller fitting the tale to the listener. It cannot prove it.",
+      "reason": "A memorable, verified detail (three origin stories for one tattoo) left unresolved, with the limits of the type reading stated plainly."
+    },
+    {
+      "passage": "It took eight years to find its audience. He made it in the one stretch of his life when he could not leave the house.",
+      "reason": "The ending turns the 'leaves the room' motif into a sourced irony and doesn't depend on chart status, so it would survive the latest event being removed."
+    }
+  ],
+  "assessment": "The draft is honest in shape. It dates its quotes, names trauma, addiction and promotion as confounds, and gives a real section to what the Seven reading leaves out. The weak point is the tiebreaker. Each piece that tips Six to Seven has a problem. Two are contradicted by the record: he moved toward a perceived gun in 2016, and his security goals rise in 2026. Three are out of context: the 'Brother, got you' handshake, Godwin's 'redemption' line, and the tense of the 2026 music quote. One comes from a produced scene he chose: the motel visit was his idea, and the beach was the film's planned ending. The strongest Six evidence the research found is missing from the Six section: stability 'always in another person', the mentor wish, and the manager he tells to overrule him. The counterphobic Six goes unanswered, and Nine is raised but never tested. Seven may still be the best read, but on the evidence shown it should be argued as a closer call. I set contested_typing to true because the leading type's discriminator does not survive the record. Similarity advisory: it tripped on the head-triad primer ('A Six handles fear by bracing for it') against Florence Pugh's counterphobic-Six sentence. The arguments differ, since Pugh tests the counterphobic Six and this draft omits it, so I folded that into critic-01 instead of reporting it as reuse. Smaller note: the 2025 'I had a good time in jail' is comic banter with the hosts ('I highly recommend it'), and three quotes don't establish 'He rarely leads with it.' What I checked: the cached GQ, Standard, Guardian, Variety, NME, Blackbird, P&P 2019, Interview and ELLE pages; the Lowe film captions, plus Whisper medium re-runs of the motel clip and the 00:28 narration; and the Armchair segments for jail, band-aid, treatment, the forest and the contract. I did not check who says the beach line on video."
+}

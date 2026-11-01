@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "future",
+  "content_sha256": "a70d5f0080867bc97c34bda07ee4c8822cfa1d8a75a3ea2e6e7db79fa3edb03c",
+  "evidence_sha256": "6ebf123cec98fedda5ac29b94667a1ed7dcd93e2b11a5fed1ddd8b291612342b",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "future-01",
+      "severity": "major",
+      "passage": "The escape move does not ease. It shows up in sober stretches as well as using ones: the motel film, released the same week in July 2023 that he told the Standard he was not on drugs, and the interviews of 2025 and 2026.",
+      "problem": "This is the sentence that 'tips the read to Seven', and the type_hypothesis says the case rests on persistence into sober periods. The dates do not establish that. (1) S09 is dated by its release (2023-07-05). The record has no filming date, so 'released the same week' says nothing about whether he was sober at the motel. The same month he described his sobriety as 'a year total, but split up over like, 5 really bad relapses' (S07). (2) In September 2025 he called himself 'still kind of to this day, like, figuring it out' (S11), so that interview is not a dated sober stretch either. (3) The only 2026 escape instance in the article looks back on his Florida years (see future-02). The 2026 present-tense record mostly shows restraint, which the closing section concedes ('In 2026 the record looks different'). (4) 'Does not ease' is an undated, present-tense absolute about a living person, and the next interview could falsify it while the page still asserts it. As written, the discriminator will not survive the first sober refresh, and it overstates what the record shows now.",
+      "acceptance_test": "The sentence is dated and limited to what the dated record shows. Example: 'Through 2025 the escape move had not eased, though the record cannot place the motel scene or the 2025 interview in a verified sober stretch.' Either the motel filming date and his sobriety at that time are sourced, or the article no longer counts the motel scene as sober-period evidence. Any 2026 instance cited as current behavior is a present-tense 2026 statement. The 2026 restraint is named as a live complication beside this argument, not only in the closing section. type_hypothesis.discriminator ('Limit: ...') and C91.alternative are updated to match, and confidence stays medium or lower."
+    },
+    {
+      "id": "future-02",
+      "severity": "major",
+      "passage": "Music works the same way for him. \"When you are sad it's it's really nice to not think about shit,\" he said in April 2026.",
+      "problem": "I opened the cached S10 transcript. In the surrounding minute (00:01:53-00:02:29), he is describing his Florida years, before he went to jail: 'When I was super bummy it was a good place to hide like in studios... I was making music like whenever I was freaked out... I failed a drug test for coke and I remember before we went to jail I had to finish the king of everything song.' The draft's present tense ('works the same way for him') and 'he said in April 2026' turn a 2026 memory of a 2018 habit into evidence of his current practice. That makes it the article's only apparent 2026 escape behavior, which feeds future-01's 'interviews of 2025 and 2026'. The Type 4 rebuttal ('Fike describes songwriting as a way \"to not think about shit\"') rests on the same quote. In five years, a reader will take this as his practice in 2026.",
+      "acceptance_test": "The prose makes the timeframe clear, for example: 'Looking back in April 2026 on his Florida years, he said music was where he hid...'. No sentence uses this quote as evidence of 2026 behavior. If a present-tense 2026 instance is wanted, it comes from a 2026 statement about his current practice. One option is S01, summer 2026: 'if you're really songwriting, you don't have the space to feel any of that. It's like running.' Its limit has to be stated: it describes professional pressure falling away in flow, not escape from pain. The claim covering this passage records the retrospective context in its inference or alternative."
+    },
+    {
+      "id": "future-03",
+      "severity": "major",
+      "passage": "His three studio albums are What Could Possibly Go Wrong (2020), Sunburn (2023) and How To Quit Smoking, released October 30, 2026.",
+      "problem": "This is a running total stated as permanent fact in the 'Who is Dominic Fike?' FAQ, which feeds FAQ structured data and search snippets. His albums came in 2020, 2023 and 2026, so a fourth is likely inside the five-year window. When it arrives, this sentence becomes false. C100 classes it as 'stable' with an empty review_trigger. The standard requires changing figures to be time_sensitive with an actionable trigger.",
+      "acceptance_test": "The FAQ wording stays true after a fourth album. For example: 'His first three studio albums were What Could Possibly Go Wrong (2020), Sunburn (2023) and How To Quit Smoking (October 30, 2026).' Another option is 'By October 2026 he had released three studio albums: ...'. C100 is reclassified time_sensitive, with a trigger such as 'new studio album release or new Euphoria appearance: update the Who is FAQ, knows_about and occupation'."
+    },
+    {
+      "id": "future-04",
+      "severity": "minor",
+      "passage": "In July 2023, Zane Lowe took Dominic Fike back to the Gulf Coast Motel in Naples, Florida",
+      "problem": "Two absolute dates give the publication date as the date of the event. (1) The hook dates the motel visit to July 2023, but S09 is dated by its release on 2023-07-05. The record has no filming date, and a film released July 5 was almost certainly shot earlier. Future-01 shows why this matters: the sober-period argument leans on this date. (2) 'The fear of rejection he named in 2020 was still there in October 2026, when he told Interview' and 'In October he told Interview' date a conversation that, by its own text, was recorded during rehearsals before the tour ('I'm about to go on tour'). The North American leg opened August 15, 2026. The piece was published on October 7, 2026. The article builds its argument from dated statements in sequence, so each date should say what it measures.",
+      "acceptance_test": "The hook reads 'In an Apple Music film released in July 2023...' (or similar), or it cites a sourced filming date. The Interview lines are dated as 'in an interview published in October 2026' or 'in summer 2026'. S01.date either cites where the 'August 11, 2026' conversation date comes from or drops it. No other sentence in the article uses a publication date as the date of the event."
+    },
+    {
+      "id": "future-05",
+      "severity": "minor",
+      "passage": "The test is still ahead.",
+      "problem": "The settle signal is the right durable device, but this sentence goes stale silently: the page will still say 'still ahead' after the test has been run. Its catalyst is already here. How To Quit Smoking came out October 30, 2026, one day before accuracy_checked_at. It is an album about quitting, made while he is a father and 'don't party like that right now'. Its release-week interviews are where he is most likely to say what steadies him. Research task (5) already lists those interviews, but C96's trigger is the generic 'At each refresh', with no date or event. Given how close the read is, this is the claim most likely to flip the type, so I am escalating contested_typing so any refresh gets the full jury.",
+      "acceptance_test": "The sentence carries a date, for example 'As of October 2026, that test was still ahead.' C96.review_trigger names a concrete catalyst and date, for example: 'Reopen by 2027-01-31, or as soon as How To Quit Smoking release-week interviews (Apple Music, podcasts) are published. If he credits people, preparation or stability for what steadies him, rerun with --refresh --expanded-review.'"
+    },
+    {
+      "id": "future-06",
+      "severity": "minor",
+      "passage": "he played Elliot in the second season of HBO's _Euphoria_ in 2022.",
+      "problem": "The sentence is true. The open fact behind it is not tracked. Variety (S20, opened) reported in February 2025 that he would shoot season 3 scenes. Season 3 aired in 2026. Wikipedia says his scenes were cut, citing a Men's Journal page that is unavailable (S21). My web search on 2026-10-31 found no confirmation either way. The draft removed C17, so no claim carries an unresolved trigger, and the follow-up survives only in research_tasks prose. The keywords target 'Dominic Fike Euphoria Elliot', so the fact will matter to readers. Separately, C29's 'refresh your whole friend group' (S13) was his July 2023 answer about returning for season 3 ('Feels like moving backwards on that front'). He then agreed to return in 2025. That dated reversal is missing from the claim and cuts against the fresh-start reading.",
+      "acceptance_test": "The evidence record has a claim on this sentence (or on the 'Who is' FAQ's Elliot sentence) marked unresolved. Its trigger reads: 'confirm from HBO credits or episode coverage whether Elliot appears in season 3; if he does, update the body and FAQ.' The article says nothing about season 3 until that is verified. C29.alternative records that S13's line was about returning to Euphoria, and that he agreed to return in February 2025."
+    },
+    {
+      "id": "future-07",
+      "severity": "minor",
+      "passage": "Is Dominic Fike sober?",
+      "problem": "The FAQ asks about his current status, and the answer's newest datum is April 2026, so the gap between question and answer will grow every year the page stands. The answer itself is a model of dated handling ('Only his own dated words can answer that'). But the evidence record's sensitivity guidance rules out 'speculation about current sobriety', and a question framed around present status invites a stale reading. The supporting triggers (C72-C75 'Recheck sobriety framing at refresh', C95 'Recheck at refresh') are not actionable events.",
+      "acceptance_test": "Either the question is reframed (e.g. 'What has Dominic Fike said about sobriety?'), or the answer's last sentence carries an explicit 'as of April 2026'. C72-C76 and C95 get event-based triggers, e.g. 'any new public statement by Fike about sobriety, relapse or partying'. The dated quotes stay as they are."
+    },
+    {
+      "id": "future-08",
+      "severity": "minor",
+      "passage": "took off on TikTok and reached No. 10 on the Billboard Hot 100 chart dated October 24, 2026, his first top 10",
+      "problem": "Stereogum (S15) calls No. 10 'a new peak' for a song that was still climbing. The album came out October 30, so its release week lands on the chart dated November 14, 2026, and the chart dated October 31 was public before the accuracy check but is not recorded. Readers will take 'reached No. 10', here and in the Babydoll FAQ, as the peak. If the song climbs, the page will understate it for years. The body's 'the song that made him a top-10 artist in October 2026' is already peak-neutral and durable. C34 and C48 say only 'Recheck... at each refresh'.",
+      "acceptance_test": "The wording is peak-neutral in both places, e.g. 'reached the top 10 for the first time, at No. 10, on the chart dated October 24, 2026'. Alternatively, the latest available peak is verified and stated with its chart date. C34 and C48 triggers name the chart dated November 14, 2026 and the Billboard year-end 2026 list."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "He says the hard thing plainly. He leaves before it can settle on him. He heads for open water.",
+      "reason": "The hook rests on a filmed scene from 2023, not on the 2026 chart moment. The three-beat summary names the pattern the rest of the article tests, and it stays true whatever happens next. Keep it even if the hook's date wording changes (future-04)."
+    },
+    {
+      "passage": "Ask him about it in different years and you get different jails:",
+      "reason": "This is the best durability device in the draft. Three dated accounts of one event (2022, 2023, 2025) show a pattern over time instead of a single quote. Adding a future telling only extends it."
+    },
+    {
+      "passage": "The Enneagram word for this is reframing. His word is a Transformers band-aid.",
+      "reason": "This insight is specific to him, in his own image from 2025, and it does not depend on any current status. It is the passage most likely to still carry the page in five years."
+    },
+    {
+      "passage": "Both are his words, two years apart.",
+      "reason": "This is a model for handling his contradictory sobriety statements: it presents both, dated, without calling either a lie or guessing at his current status. Use it as the pattern for future-01 and future-07."
+    },
+    {
+      "passage": "It took eight years to find its audience. He made it in the one stretch of his life when he could not leave the house.",
+      "reason": "The ending uses the latest event, but it is dated, and its insight rests on a stable 2018 fact (made on house arrest) plus his own April 2026 account. Take away the chart run and the image still closes the 'leaving the room' theme."
+    }
+  ],
+  "assessment": "Five-year test: mostly passes on structure, but fails at the pivot. Take away the latest events ('Babydoll' at No. 10 and the October 30, 2026 album) and the portrait still stands. The hook is a July 2023 scene, the spine runs from 2016 to 2025, and the Transformers band-aid is from 2025. The 'why now' paragraph and the ending are dated. Author prose consistently dates quotes that contain time words ('right now', 'still'). 'No public response from Fike had been found as of October 2026' is the right way to handle an unresolved matter. The perishable part is the type argument. The discriminator's sober-period leg rests on a publication date standing in for a filming date (future-01, future-04) and on a 2026 quote about 2018 (future-02). Meanwhile the dated 2026 record leans toward restraint, and the article's own settle signal is likely to get evidence within weeks from release-week press (future-05). I am escalating contested_typing so any refresh runs the full jury. In the metadata, 'three studio albums' will go stale (future-03), the Euphoria season 3 fact is open and untracked (future-06), and the sobriety and chart triggers are not actionable (future-07, future-08). Similarity: the tripped pairs (Florence Pugh, Dylan Patel, Kareem Rahma) share head-triad definitions ('handles fear by...'). I compared those drafts' type sections. The overlap is ordinary type vocabulary and the house's triad-first convention, and the argument around it (motel exit, jail retold three ways, band-aid) is Fike's own, so this is not meaningful reuse. Limits: I opened the cached S10 transcript and S01 text to check timeframes. A web search could not settle season 3 or chart positions after October 24, 2026. I did not re-verify other quotations."
+}

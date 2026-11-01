@@ -1,0 +1,31 @@
+The Dominic Fike draft **passed** this stage and is eligible for release. It scores 8.5 (B+), exactly the release minimum, with no blockers. I wrote only `verification-edit.json`; nothing was published.
+
+**Scores**
+
+| Dimension | Score |
+|---|---|
+| Evidence | 8.5 |
+| Enneagram | 8.0 |
+| Originality | 9.0 |
+| Writing | 8.3 |
+| Durability | 8.8 |
+| Hook | 8.5 |
+| Discoverability | 8.0 |
+
+I scored each dimension on its own and didn't adjust anything to clear the minimum. Even so, it passes with no margin: a slightly lower score on evidence or Enneagram would have held it.
+
+**How I checked it**
+- I re-transcribed about 25 clips myself from the Zane Lowe film, the Armchair Expert episode and the 2026 Pigeons & Planes video. I also pulled stills of the motel exit and matched every quote in the article against the saved copies of each source.
+- All 115 claims are supported, 9 of them with caveats. All 20 sources hold up in context, and all 49 reviewer fixes are actually in the draft. The 16 passages reviewers asked to keep are all there; 3 were reworded, each for an accuracy reason.
+- The opening scene holds up. Both men are on their feet and out the door within seconds, Lowe stands first, and the article rightly doesn't credit Fike with leaving.
+
+**Five small fixes worth making before you publish** (none blocks release)
+1. **Tattoo quote:** in the Evening Standard, "weed-high" describes his first face tattoo (the "LBE" on his forehead), not the apple tattoo. All six reviewers missed it.
+2. **GQ date:** the "annoying famous" quote is dated May 2022, but that's when British GQ reprinted it. The interview happened in February 2022, days before the season 2 finale.
+3. **Motel exit:** the audio suggests Lowe offered to leave and Fike said "Yeah, I'm done. Thank you so much." That's a little more definite than "hard to tell."
+4. **Joined quote:** the two Al Capone lines are printed back to back but were said about six minutes apart. The meaning is unchanged.
+5. **Overstatement:** "The fear of rejection he named in 2020 was still there" is my inference presented as fact. In the 2026 interview he never mentions rejection.
+
+**Your call:** the draft runs 4,286 words against the 2,000–3,500 target. That counted against the writing score, and it's the length problem you've flagged before. The "Why not Type 6?" section is the obvious place to cut.
+
+Next steps are yours: decide whether to publish, and the hero image. I'll write that image prompt for you to run in ChatGPT whenever you want it. I also saved a short note on this run to my memory folder, outside the repo.

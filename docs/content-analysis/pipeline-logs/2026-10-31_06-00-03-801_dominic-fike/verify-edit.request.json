@@ -1,0 +1,27 @@
+{
+  "schema_version": 3,
+  "subject": "dominic-fike",
+  "mode": "create",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_verify_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-31_06-00-03-801_dominic-fike/candidate-edit.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-31_06-00-03-801_dominic-fike/evidence-edit.json",
+    "resolution": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-31_06-00-03-801_dominic-fike/resolution-edit.json",
+    "review-subject": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-31_06-00-03-801_dominic-fike/review-subject.json",
+    "review-fan": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-31_06-00-03-801_dominic-fike/review-fan.json",
+    "review-critic": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-31_06-00-03-801_dominic-fike/review-critic.json",
+    "review-unfamiliar": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-31_06-00-03-801_dominic-fike/review-unfamiliar.json",
+    "review-enneagram": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-31_06-00-03-801_dominic-fike/review-enneagram.json",
+    "review-future": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-31_06-00-03-801_dominic-fike/review-future.json",
+    "baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-31_06-00-03-801_dominic-fike/baseline-reader.md",
+    "checks": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-31_06-00-03-801_dominic-fike/checks-edit.json"
+  },
+  "outputs": {
+    "verification-edit.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-31_06-00-03-801_dominic-fike/verification-edit.json"
+  },
+  "content_sha256": "2c37949658525f875571fa2d5984fbc1f758a3c32fdb099bba0ca12e03ec51e8",
+  "evidence_sha256": "b77c871fee97dda65728165ec212bab8eb511f57137db32c338d2e8cbc848a71"
+}

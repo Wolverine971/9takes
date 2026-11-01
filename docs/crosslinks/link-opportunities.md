@@ -1,7 +1,7 @@
 # Link Opportunities
 
-_Generated: 2026-10-30 by `pnpm gen:crosslinks`. Worked by `/crosslink-queue`._
-_Search data: GSC 2026-07-19 → 2026-10-17. 208 candidate links found (+128 weaker ones offered only for gate debt); 262 suppressed in `docs/crosslinks/skipped.json`._
+_Generated: 2026-11-01 by `pnpm gen:crosslinks`. Worked by `/crosslink-queue`._
+_Search data: GSC 2026-07-19 → 2026-10-17. 209 candidate links found (+128 weaker ones offered only for gate debt); 262 suppressed in `docs/crosslinks/skipped.json`._
 
 Each row is a sentence in a live post that already talks about another page without linking to it.
 Score = target's search demand × link deficit × mention strength × source visibility (cross-section links get a bonus).
@@ -76,6 +76,7 @@ Sorted by impressions. 0 of these are NOT grandfathered and fail `pnpm crosslink
 | 2.96 | `/pop-culture/google-leadership-evolution` (L50) | `/personality-analysis/tim-cook` | "Tim Cook" | Tim Cook, Satya Nadella, Andy Jassy. None of them needed the founder back when the world changed. Each successor was the founder's psycholo… |
 | 2.92 | `/pop-culture/twitter-x-personality-types-toxic` (L225) | `/personality-analysis/elon-musk` | "Elon Musk" | **Did X become more toxic after Elon Musk bought Twitter?** |
 | 2.56 | `/enneagram-corner/enneagram-wings-complete-guide` (L239) | `/personality-analysis/bill-gates` | "Bill Gates" | **Public-figure interpretations:** Bill Gates, [Stephen Hawking](/personality-analysis/stephen-hawking), [Mark Zuckerberg](/personality-ana… |
+| 1.05 | `/pop-culture/podcast-bros-enneagram-analysis` (L116) | `/personality-analysis/naval-ravikant` | "Naval Ravikant" | …Huberman, and so on. The shared guest pool—Elon Musk, [David Goggins](/personality-analysis/david-goggins), Naval Ravikant, Matthew Walker… |
 | 0.61 | `/pop-culture/podcast-bros-enneagram-analysis` (L346) | `/personality-analysis/andrew-schulz` | "Andrew Schulz" | - **The Second Generation**: A wave of newer hosts—Andrew Schulz, Theo Von, Danny Jones—are building audiences using the infrastructure the… |
 
 ## 4. People → people (personality-analysis → personality-analysis)

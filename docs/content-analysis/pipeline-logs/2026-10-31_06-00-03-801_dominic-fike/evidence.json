@@ -1,0 +1,943 @@
+{
+  "schema_version": 3,
+  "subject": "dominic-fike",
+  "status": "ready",
+  "research_tasks": [
+    "Research log (2026-10-31, first run, mode create, empty baseline, no research notes or prior evidence). Opened 24 sources (one unavailable). Read in full: Interview Magazine with Curry Barker (S01), British GQ 2022 (S02), Guardian 2023 (S03), Evening Standard 2023 (S04), NME 2020 (S05), Pigeons & Planes 2019 (S06), Blackbird Spyplane 2023 (S07), Variety 2021 (S08). Transcribed: the Apple Music/Zane Lowe Naples film (S09, 49 minutes of YouTube captions plus seven segments re-transcribed from audio with Whisper medium.en), the 2026 Pigeons & Planes video (S10, 17 minutes, Whisper small.en; no captions existed), and the full Armchair Expert episode (S11, about 80 minutes of conversation, Whisper small.en plus eight segments re-transcribed with medium.en). About 45,000 words of transcript in all; copies are in ~/.cache/9takes-research/dominic-fike/ (not the repo). Secondary checks: S12-S20, S22-S25. Evidence was gathered and catalogued before a type was chosen; Types 7, 6, 9, 4, 3, 8 and 2 were each tested against it. Outcome: status ready, profile_format standard (his public record runs from 2018 and is deep; he does not qualify as an open case). Leading read Type 7 at medium confidence; Type 6 is the strongest alternative; wing left unknown. Risks: sensitive_allegations is true (criminal record, addiction and withdrawal accounts, drug use he says began at ten, parents' addiction and incarceration, domestic violence, Hunter Schafer's infidelity account, his own account of an earlier infidelity, siblings' legal and treatment matters, a young child), so the six-role jury applies. contested_typing is false: no published typing was found to contest, and the Six alternative is argued in type_hypothesis; a reviewer may escalate.",
+    "Accuracy check (2026-10-31). How To Quit Smoking was released October 30, 2026 on Columbia (15 tracks, about 40 minutes; first announced for October 9; singles 'Wallflower' August 28, 'Small Town' September 18, 'Pangea' October 19) (S15-S17, S19). 'Babydoll' reached No. 10 on the Hot 100 dated October 24, 2026, his first top 10 (S15); Wikipedia's artist page still says No. 16. The Comedy Tragedy Parody Tour began in Australia in December 2025 after a break; the North American leg ran August 15-September 30, 2026, alongside support dates for Tame Impala (S18, S17). He confirmed a son, Rocket, on April 7, 2026 (S10). He said in December 2025 he was in a relationship (Wikipedia; not opened at source; do not print). Euphoria season 3 aired in 2026 (coverage not opened reports an April 12 premiere); whether his filmed scenes aired is unverified (C17). The backlog note's 'Europe tour Feb 2027' was not verified and must not be printed; check his site before any mention. Turns 31 on December 30, 2026; use his birth year with absolute dates rather than an age where possible.",
+    "Drafting guidance. Standard profile, Type 7 leading at medium confidence; set enneagram: 7, type: ['celebrity'] per site convention, published: false. Strong verified hooks (choose one): (a) the motel scene: on a promotional shoot in July 2023 Zane Lowe took him back to the Naples motel room his family lived in, and five minutes in he said 'this is too much, should we go to fucking beach' and went swimming (S09 32:50-33:50, observed); (b) the Forest of Avalon told three times over six years, ending with 'I wanted Alice in Wonderland... I wanted there to be some sort of danger' (S06, S07, S11); (c) the 'Transformers band-aid' over a 'gash' (S11, verify audio). The central insight: hardship told as adventure is not denial of the facts (he states them flatly) but a refusal to stay inside them; it explains the costly choices (shrooms before the audition, cocaine on house arrest when 'trapped' and 'bored', yacht money, relapses) and his own late insight that success was a band-aid. Keep 'What is Dominic Fike's personality type?' with an answer of at most 60 words, e.g. 'Most likely a Type 7, held at medium confidence: his repeated move is to leave pain for stimulation and recast it as fine. Type 6 is the serious alternative, because he names safety as a lifelong problem.' Put the Six case beside the Seven case with his own security quotes (C20, C21, C24) and the discriminator (C16, C06, C11). Show what the type does not explain: the mother's 'quiet observer' (C23), not approaching people (C22), loyalty (C24), the grief he describes alone (C37). Durable spine: the 2019-2026 pattern. Use 'Babydoll' at No. 10 and the October 30, 2026 album only as the reason people are searching, dated. Target 2,000-3,500 words.",
+    "Quotation cautions. (a) S09 is YouTube auto-captions; quote only passages re-transcribed from audio (listed in its locator) or check the audio first. 'I had a really hard time sitting still in my own skin... I had my own distractions... drinking' is ZANE LOWE, not Fike. The mother passage is attributed by context; confirm on video and call her 'his mother'. (b) S10 and S11 are Whisper machine transcripts without speaker labels; several vivid lines in S11 belong to Dax Shepard or Monica Padman ('jumping off the second floor into the pool', 'arousal setting was set way too high', 'That's the great thing about coke. It makes you optimistic', the bar-mirror story). Confirm the voice on audio for 'I had a good time in jail' (00:42:30), 'I never extend that care to myself' (00:23:50; may be Shepard), 'self-defense mechanism' (01:02:30) and 'piece of shit... self-protection' (01:18:30). (c) The Los Angeles Times interview (Mikael Wood, July 6, 2023) was not opened; cite its quotes 'as reported by TheWrap' (S13). (d) The 'Babydoll' Instagram caption is quoted from Wikipedia (S24); verify before printing. (e) The British GQ piece (S02) is a US GQ interview by Samuel Hine; 'spin into a positive' and 'yachts' are the writer's words; 'Eric Clapton–funded' is GQ's attribution of the Antigua centre. (f) Variety 2021 says he was sober during season 2 filming; he later said he was using then. Present both with dates, not as a lie. (g) The 'Whatever I do, I do too much of it' Guardian headline paraphrases him; the body quote is about drugs. (h) Interviewers misstate the arrest ('punched a cop'); his account is that he tripped or knocked down an officer he thought had drawn a gun (later: a taser). (i) Do not quote the Complex/Variety Sundance lines as Variety without opening Variety's video. (j) Keep his profanity as spoken; do not tidy disfluent machine-transcribed speech into cleaner sentences he did not say.",
+    "Sensitivity. Addiction and recovery: use his words, dated; no diagnostic labels, no speculation about current sobriety or risk; do not make the benzodiazepine withdrawal crisis or 'near-death' drug line the hook or the ending, and do not connect him to Angus Cloud's death. Childhood: drug use from age ten, parents' heroin use, his mother's incarcerations and the stepfathers' violence are his accounts; state them briefly and without causal claims that trauma made his type. Family privacy: do not name his sister, and do not detail siblings' arrests, treatment or custody matters or his father's sentence; 'his mother' and 'his younger brother' suffice beyond what he has made central (his brother at the 2016 arrest). Relationships: attribute Hunter Schafer's account of infidelity to her, give his stated reason for the split (codependency, July 2023), note no response was found, and do not speculate about lyrics; do not name the earlier partner he discussed on Armchair Expert or repeat that story beyond 'he has described cheating in an earlier relationship before his 2020 rehab' if needed at all; do not report his December 2025 relationship. Child: only his words; never name or speculate about the child's mother. The 'yacht with 15-20 women' anecdote happened while he was dating Schafer; use with care or not at all. Criminal record: battery on a police officer (pleaded guilty), house arrest, failed drug test, county jail; avoid 'assaulted' as an unattributed verb.",
+    "Follow-ups before or at the next refresh: (1) confirm whether his Euphoria season 3 scenes aired (HBO credits, a reliable recap; the Men's Journal page S21 was CAPTCHA-blocked); (2) open the 'Babydoll' Instagram caption or a report quoting it; (3) find the Los Angeles Times interview of July 6, 2023; (4) look for on-record testimony from people who knew him before 2018 (Naples collaborators, his manager Reed Bennett, Kevin Abstract's June 2025 Zach Sang interview about Geezer) and the 2020 New York Times Presents documentary; (5) check How To Quit Smoking interviews from the release week (Apple Music, podcasts) for how he describes quitting and the Tay-K closer; (6) recheck the 'Babydoll' chart run and any 2027 tour dates. A Six-versus-Seven settle signal for a refresh: in a sober, settled period (fatherhood, a hit), does he describe what steadies him as people, preparation and stability he can count on (Six), or as new projects, motion and keeping things light (Seven)?"
+  ],
+  "accuracy_checked_at": "2026-10-31",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": false,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.interviewmagazine.com/music/dominic-fike-tells-curry-barker-why-he-cant-sit-still",
+      "title": "Dominic Fike Tells Curry Barker Why He Can't Sit Still",
+      "speaker": "Dominic Fike in conversation with filmmaker Curry Barker (a friend and self-described fan), Interview Magazine",
+      "date": "2026-10-07 (published; conversation dated Tuesday, August 11, 2026, Sherman Oaks, during tour rehearsals)",
+      "locator": "Q&A, opening exchange (Courtyard Marriott, vegan, \"sacrifice chickens and cows\"); answer on picking songs (\"I have the metrics\", Reed Bennett, \"White Keys\" found on an old phone); answer on fans vs. art (\"Back in 2019, when I got a deal, I was only thinking about what other people wanted\", meditation analogy, \"White Keys\" written drunk); answer on money and the kid (\"it's always you\", \"I was lazy back then\"); \"write a song in 10 minutes, but I was just trying to flex\"; \"I forgot where we were going\"; pressure answer (\"There's no pressure in the studio... The pressure drops away if you're doing it right\"); \"big ass boat\"; \"They know I can be finicky with dates\"; acting answer (\"you don't want to be in people's faces too much\", Dune press run); \"I've never been the type of guy to intrude on anybody's shit. That's why I do all this shit myself. That's why I'm bad at asking girls out.\"",
+      "excerpt": "\"Back in 2019, when I got a deal, I was only thinking about what other people wanted.\" [...] \"Sometimes you get influenced by other people, but you always bring it back.\" [...] \"I would write a song in 10 minutes, but I was just trying to flex.\" [...] \"There's no pressure in the studio. And if you're really songwriting, you don't have the space to feel any of that. It's like running.\" [...] \"They know I can be finicky with dates.\" [...] \"I always believe you don't want to be in people's faces too much.\" [...] \"I've never been the type of guy to intrude on anybody's shit. That's why I do all this shit myself. That's why I'm bad at asking girls out.\"",
+      "context": "Friendly peer conversation recorded during rehearsals for the fall 2026 tour, published three weeks before How To Quit Smoking. Barker flatters him throughout; Fike drifts between jokes (Texas age-verification, porn) and serious answers and admits losing the thread. Also says he is 'trying to be vegan', that his manager shows him streaming metrics ('As much as I hate to see it'), that he has 'more time to make music' now with a kid and money, and that he got 'lucky' on acting. The page title ('Why He Can't Sit Still') is the editors', not his words. Interview's October 30, 2026 Sound Advice column reprints pull quotes from this conversation and is not an independent source.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S02",
+      "url": "https://www.gq-magazine.co.uk/culture/article/dominic-fike-interview-2022",
+      "title": "Euphoria's Dominic Fike: \"I'm trying to get, like, annoying famous\" (British GQ)",
+      "speaker": "Dominic Fike, interviewed at MoMA New York by Samuel Hine (US GQ fashion writer); includes a quote from producer Kenny Beats",
+      "date": "2022-05-31",
+      "locator": "Paragraphs 1-2 (shrooms audition: \"I started peaking right when me and Barbie were reading\"); paragraph on upbringing (mother in and out of jail; father stayed about a week); paragraph on 2016 charge, guilty plea, six months house arrest; paragraph on jail as \"a year off to focus on myself\" and the writer's line that there is not a difficult topic he \"can't spin into a positive\"; \"I was going through so much then, and I was heavily addicted to so many drugs\" / \"Whatever happened was cool\"; LA \"too much trouble for me to get into\"; benders, yachts, business manager, Antigua rehab spring 2020; Kenny Beats quote; learning to cry on command (\"That's fucked up... It's horrible!\"); \"I'm trying to get, like, annoying famous\" / \"I want all of it\"; \"Even Paul McCartney has had his speed bumps\"; movie where the hero \"just keeps winning\" / \"I'm kind of killing it right now\".",
+      "excerpt": "\"there's not a single difficult topic – not his family nor incarceration nor addiction – that Fike can't spin into a positive. (He describes jail, for example, like a sabbatical: 'It really was just a year off to focus on myself.')\" [...] \"I was going through so much then, and I was heavily addicted to so many drugs.\" [...] \"Whatever happened was cool.\" [...] \"I'm trying to go crazy. I'm trying to be like Lindsay Lohan. I'm trying to be annoyed at paparazzi and shit.\" [...] \"I'm trying to get, like, annoying famous.\" [...] \"I want those iconic pictures from back in the day. The cool stories. The fucked-up knees from all the Ecstasy. You know? I want all of it.\" [...] Kenny Beats: \"How effortless music making and creativity is for Dominic Fike is something that people are not used to understanding.\"",
+      "context": "Cover-style profile at the height of Euphoria season 2 (the finale aired days later), while he was recording his second album upstate and dating Hunter Schafer. Mixes direct quotes with the writer's framing; the 'spin into a positive' sentence and the 'yachts' detail are the writer's summary around his quotes. Says he rented (not bought) yachts. The writer says the 2016 charge followed 'an attempt to defuse a situation between the police and his younger brother'. Hine reports the Antigua rehab stint as Eric Clapton-funded (the Crossroads centre); that attribution is the writer's.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S03",
+      "url": "https://www.theguardian.com/music/2023/sep/15/dominic-fike-euphoria-sunburn-interview-music",
+      "title": "'Whatever I do, I do too much of it': the troubled rise of Dominic Fike (The Guardian)",
+      "speaker": "Dominic Fike, interviewed by Sasha Mistlin",
+      "date": "2023-09-15",
+      "locator": "Paragraphs 1-3 (jail as \"purgatory\"; \"I was not doing too well\"); \"Idle hands are the devil's work\"; industry-plant paragraph (\"All I know is I'm pushing forward regardless of expectation\", Harry Styles \"well-oiled machine\"); McCartney cover; childhood paragraph; \"Whatever drug I would do, I'd do too much of it\"; Euphoria sober coach (\"I was more like … psyched!\"); Sunburn reception (peaked No 30 US); \"I had an unhealthy relationship with releasing music\"; \"If I have some coke, everyone around me feels it\"; Bieber/tequila \"I wish I could do that... But I fucking can't do it: I tried.\"",
+      "excerpt": "\"Whatever drug I would do, I'd do too much of it – to [the point of] a near-death, surreal experience. I just kind of thought that was how you did drugs – to go all the way there without dying,\" he says. [...] \"I was using at the time, but I wasn't worried. I was more like … psyched!\" [...] \"Idle hands are the devil's work … the cool part about the label thing is that it helped me keep my shit together in jail.\" [...] \"All I know is I'm pushing forward regardless of expectation.\" [...] \"I wish I could do that … be this huge pop star and have a drink and not have a bunch of anxiety. But I fucking can't do it: I tried.\"",
+      "context": "UK tour preview two months after Sunburn, which the writer says underperformed commercially. The headline phrase 'Whatever I do, I do too much of it' is a headline paraphrase; the quoted sentence in the body is about drugs. The piece calls his custody 'prison' in one place; he served county jail time (S06, S05). Written two months after Angus Cloud's death, which the writer mentions; Fike does not comment on it in the piece.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S04",
+      "url": "https://www.standard.co.uk/lifestyle/dominic-fike-interview-relationship-drugs-sam-levinson-euphoria-jail-b1092457.html",
+      "title": "Dominic Fike: 'I'm not on drugs now. But I'll always be a drug addict' (ES Magazine)",
+      "speaker": "Dominic Fike, interviewed in a New York photo studio by Richard Godwin",
+      "date": "2023-07-06",
+      "locator": "Paragraphs 1-2 (face tattoos, \"weed-high\", MacBook apple); paragraph 3 (cocaine before drug test; shrooms audition \"to be funny\"); paragraph on fame (\"It's sweaty, horny and obsessive. But it's cool, man.\"); addiction paragraph (\"I'm not on drugs now. But I'll always be a drug addict\", \"It's genetic\", \"Ten\"); \"I don't care. I'm happy. I wouldn't change the fact that I'm addicted to any of that shit. It's made me better.\"; family paragraph (mother Jessica, father David, stepfathers; \"Men are f***ing horrible creatures\"); skaters; arrest story (Alex, the gun, the lake); jail reading list (McCartney); Columbia signing (Rob Stringer, \"No more millions!\"); \"You use it to have the best time you can... That Euphoria audition? That wasn't even close to my biggest f*** up.\"; yacht with Schafer and \"15-20 girls\" (\"Psychopath shit\"); Reed Bennett (\"Don't listen to me. I'm manipulative!\"); porch fantasy (\"a wife in a paisley dress\"); \"If I were in a relationship right now, one or both of the parties would end up getting hurt\" / \"Maybe I'm just bullshitting.\"",
+      "excerpt": "\"I'm like a pretty bad drug addict... I'm not on drugs now. But I'll always be a drug addict.\" [...] \"I don't care. I'm happy. I wouldn't change the fact that I'm addicted to any of that shit. It's made me better.\" [...] \"That was my relationship with money. You use it to have the best time you can. I was bouncing off the walls, man. I was really f***ing up.\" [...] \"I tell him, I can't do this shit. And if I ever try to convince you otherwise, it's a lie. Don't listen to me. I'm manipulative!\" [...] \"If I were in a relationship right now, one or both of the parties would end up getting hurt at some point.\" [...] 'Maybe!' he laughs. 'Maybe I'm just bullshitting.'",
+      "context": "Sunburn release-week magazine profile; Fike sober 'for the moment' and newly single. Godwin writes that 'he defies any urge to shape it into a narrative of redemption.' Godwin's account of the arrest is Fike's version (he thought an officer pulled a gun on his brother). Contains self-reported drug use from age ten and descriptions of violent stepfathers; sensitive. The tattoo origin here (a MacBook logo, chosen high to distract from the forehead tattoo) conflicts with the 2019 account that the apple honors his sister (S06) and with a 2023 'eyesore' explanation (S07). Asterisks are the paper's.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S05",
+      "url": "https://www.nme.com/big-reads/dominic-fike-cover-interview-2020-what-could-possibly-go-wrong-2718234",
+      "title": "On The Cover – Dominic Fike: \"My music is crazy – it blends, it's weird and it's all different types of shit\" (NME)",
+      "speaker": "Dominic Fike, interviewed over Zoom by Sam Moore; quotes Billie Eilish's 2019 remark to NME",
+      "date": "2020-07-31",
+      "locator": "Opening (LA house, pandemic: \"it's a terrible time, I guess. But, y'know: we're doing it!\" then \"Actually, it's the right time\"); \"I wish I could edit it every day. It's never done... it was fun, I had a great time\"; legal history paragraph (house arrest, Collier County Jail, released April 2018); family paragraph (lawyers for parents, house for his mother; success = \"I wouldn't know any other way of measuring it\"); October 16 release date; Instagram BLM statement; UK touring ban; \"breaking guitars and buying too much shit\"; collaborators paragraph (\"Maybe it's my fear of rejection\"); Billie Eilish quote; \"I'm chilling, man\"; \"load the world with a bunch of music\".",
+      "excerpt": "\"Nah, it's a terrible time, I guess. But, y'know: we're doing it!\" He changes tack: \"Actually, it's the right time: I think we need music at this time as well.\" [...] \"I wish I could edit it every day. It's never done... But I'm tired of trying to be like: 'Man, this is my masterpiece.' It's my first crack at this album shit: it was fun, I had a great time\" [...] Is supporting his nearest and dearest through music his definition of success? \"Yeah – absolutely... I wouldn't know any other way of measuring it.\" [...] prefers to let them reach out to him. \"Maybe it's my fear of rejection that I've got going on,\" he admits. \"I'm weird about that shit.\" [...] Billie Eilish: Fike \"is the baddest kid I've ever met in my life\"",
+      "context": "Debut-album cover story during the pandemic; touring cancelled. Quotes his June 2020 Instagram statement after George Floyd's death (\"My life has felt cursed since I was a little kid... my dad just got 20\"). NME says the apple tattoo is a tribute to his sister. Eilish's line is quoted from her 2019 NME interview and is praise, not character testimony. He says he was banned from touring the UK because of his record (the ban later lifted; he toured the UK in 2023).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S06",
+      "url": "https://www.complex.com/pigeons-and-planes/a/tasbeeh-herwees/dominic-fike-interview",
+      "title": "Now or Never: The Chaotic Rise of Dominic Fike (Pigeons & Planes)",
+      "speaker": "Dominic Fike, interviewed in Los Angeles by Tasbeeh Herwees (photos by Ashley Olah)",
+      "date": "2019-01-16 (reporting from October-December 2018)",
+      "locator": "Opening (hungover on re-release day; DJ Khaled post: \"shaking in my underwear\"); drove his mother to jail on October 16, 2018; \"Most of the male figures in my life were real shitty\"; \"I lived with this fucking lady that was, like, a super crackhead\"; writer: \"facts of his life he lists with no sense of drama\"; Forest of Avalon (\"imagine that it was another place\"); left college for SXSW (\"I picked the show over school\"); deleted early raps (\"I was trying to get away from that fuckin' 'Everyone knows you'\"); arrest (\"wrong place, wrong time\"); EP planned as 17 songs, fights with manager David Fernandez (\"That's the zinger!\"); deal (\"I really needed money for [my mom's] lawyer... now or never\"); Naples fans (\"they just want me to boss up\"); apple tattoo for his sister; \"I'm not gonna let anyone down, for sure\".",
+      "excerpt": "\"Yeah, the day I released the tape, I fuckin' had to take my mom to jail for two years.\" [...] These are facts of his life he lists with no sense of drama. His childhood, he says, was otherwise full of adventure. [...] \"We would all get a bunch of snacks, and try to get weed or whatever, and go smoke there, and imagine that it was another place, you know what I'm sayin?\" [...] \"I picked the show over school.\" [...] \"I really needed money for her lawyer, straight up... It was like now or never, they gotta get some crazy amount of money.\" [...] \"The point of it was, 'Don't forget about Mom.'\"",
+      "context": "The first long profile after the Columbia deal; Wikipedia's early-life section relies on it. The page shows no byline date in the HTML extract; the January 16, 2019 date appears on the page. Fike was 22-23. Mentions underage drinking and weed at 14; a friend who cooks for him because cocaine use 'tore my stomach lining'. Do not name his younger sister in the article even though this source does.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S07",
+      "url": "https://www.blackbirdspyplane.com/p/dominic-fike-interview-sunburn-euphoria-gaia",
+      "title": "Dominic Fike comes through talking tattered swag, '90s grails, '90s stinkers, acting on Euphoria while high & more (Blackbird Spyplane)",
+      "speaker": "Dominic Fike, interviewed by video call by Jonah Weiner (Blackbird Spyplane newsletter)",
+      "date": "2023-07-25",
+      "locator": "Q1 nature (Laurel Canyon, surfing alone; Shrek \"never staying in one place too long\"; motels; Forest of Avalon \"like we'd traveled through time\"); Q2 sobriety (\"a year total, but split up over like, 5 really bad relapses. But it's all good, I'm good.\"); Q3 drugs and creativity (\"I just felt like I needed to be on something to tolerate s**t\"; face tattoos \"might as well be an eyesore\"; \"Euphoria was almost as important to me as drugs\"); clothes; '90s lightning round (\"I did heroin once and it was not for me\"; $1,600 Sonic Youth tee); Thom Yorke book (\"I take this to sessions when I'm nervous\"; writing to prompts when homeless at 16).",
+      "excerpt": "\"Shrek was my favorite movie as a kid, because they were always in greenery, never staying in one place too long, and that's what my life felt like: I was uprooted so much, being homeless, living at motels.\" [...] \"Right now I'm sober, and I have been for a little bit. It's been a year total, but split up over like, 5 really bad relapses. But it's all good, I'm good.\" [...] \"If anything it stifled my creativity, but I just felt like I needed to be on something to tolerate s**t.\" [...] \"I'd get f**ked up just to be entertained by these motherf**kers and be able to laugh at their jokes.\" [...] \"I take this to sessions when I'm nervous\"",
+      "context": "Fashion-and-culture newsletter Q&A, partly paywalled; the opened free portion contains all quoted material. Asterisks are the newsletter's. The interviewer's intro says he 'punched a cop'; Fike's own accounts say he tripped an officer (S04) and the charge was battery on an officer. The 'eyesore' tattoo explanation differs from S04 and S06.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S08",
+      "url": "https://variety.com/2021/tv/news/dominic-fike-talks-new-album-and-starring-euphoria-season-2-1234962737/",
+      "title": "Dominic Fike Talks New Album and Starring in 'Euphoria' Season 2 (Variety)",
+      "speaker": "Dominic Fike, interviewed by phone from a car by Ethan Shanfeld",
+      "date": "2021-08-06",
+      "locator": "Opening (\"I'm never not doing something\"); Euphoria (\"It feels like a long music video\"; \"He's exactly like me\"); sobriety (\"I'm in overdrive... I feel like I can work forever and do anything\"; \"Now I don't have to do TikTok\"); McCartney (\"I was like, 'Shut the fuck up dude,' and went back to making the food\"); Bieber (\"like LeBron James\"); fame advice; new album (\"too many people telling me what was right and what was wrong\"; \"I'm thinking about what makes the hairs on my arm stand up... I just try to enjoy it\"); closing (\"I'm just in go-mode... people are putting tiles under my feet as I take each step\").",
+      "excerpt": "\"I'm never not doing something.\" [...] \"I'm in overdrive,\" he says. \"I feel like I can work forever and do anything.\" [...] \"I felt like I had too many producers in the room and too many people telling me what was right and what was wrong,\" he says. \"Now it's just my mind\" [...] \"I'm thinking about what makes the hairs on my arm stand up,\" he explains. \"Simply put, I just try to enjoy it.\" [...] \"I'm just in go-mode right now,\" Fike says. \"It's kind of like I'm walking and people are putting tiles under my feet as I take each step.\"",
+      "context": "Short trade interview during Euphoria season 2 filming. Variety reports he was 'now sober'; in July 2023 he said he was using during that production (S09, S03), so the 2021 sobriety statement is contradicted by his later account. Quotes his 2020 lyric 'I hope they cancel me / So I can go be with my family'.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S09",
+      "url": "https://www.youtube.com/watch?v=GycVxqD1D3U",
+      "title": "Dominic Fike: 'Sunburn', Family, euphoria & Fame | Apple Music (Zane Lowe in Naples)",
+      "speaker": "Dominic Fike with Zane Lowe (Apple Music), filmed in Naples, Florida; his mother speaks in the home segment",
+      "date": "2023-07-05",
+      "locator": "YouTube auto-captions (about 12,500 words, 49:38), with key segments re-transcribed from the audio by Whisper medium.en on 2026-10-31: 02:00-04:30 (album not 'for a purpose'; artists who 'cheat a connection'); 05:50-06:50 (his mother: \"Dom was the most passive, quiet child growing up... always like the observer\"); 08:00-08:30 (\"why am I even making music... my voice sucks\"); 13:55-15:15 (\"I've always had a big problem with security and safety\"; \"having to get that next check... I feel safer now\"); 16:30-17:30 (\"I'm so past it\"; hates waiting a year to release); 18:00 (quit therapy); 19:00 (younger brother \"knows every single thing about me\"); 24:05-25:55 (\"I'm just so codependent on human beings... be anywhere else but in my body\"; codependency ends his relationships; \"done being in relationships\"); 26:00-27:00 (Euphoria: \"I was a drug addict\"; sober coach \"did not work\"; \"I was reprimanded\"); 29:00-30:30 (motel; family dealt drugs; \"I'm kind of like desensitized to it\"); 31:30-32:40 (\"I'm always thinking that eventually people are going to figure out this like ruse\"); 32:50-33:50 (\"I feel like tense. Should we leave? I'm done... this is too much, should we go to fucking beach\"; Lowe's narration that he swam); 35:20-36:20 (\"I'm done talking about it. I'm down to close that chapter\"); 36:30 (\"every time I make a song... I feel like it's my best song\"); 40:00-41:00 (\"broken into the B list... I don't want to go much further\" / \"fame's tight dude\"); 42:30 (slipping away from security); 44:00-45:00 (social media \"not in my DNA\"; \"I overthink a lot\"); 46:55-47:50 (\"ride this bitch out until the wheels fall off\"; stability \"always in another person\").",
+      "excerpt": "\"I think I've always had a big problem with security and safety 'cause I've moved around so much as a kid and I never really felt like I had a home, you know?\" [...] \"I'm just so codependent on human beings and I love having them around and having them to talk to... so what the fuck do I do when I'm by myself? Obviously like let's get drunk and go talk to someone or go hang out with, be anywhere else but in my body.\" [...] \"It's really weird. I feel like tense. Should we leave? I'm done... this is too much, should we go to fucking beach\" [...] \"Yeah, I'm done talking about it. I'm down to close that chapter of my life\" [...] \"I feel like you've got to push it all the way. You've kind of got to ride this bitch out until the wheels fall off kind of deal or else I feel like I didn't do it right\" [...] Mother: \"Dom was the most passive, quiet child growing up... Dom was always like the observer\"",
+      "context": "A day-long promotional film for Sunburn: his mother's house, the Gulf Coast Motel where the family lived for months while, he says, money came from drug dealing, then the beach. The line 'I had a really hard time sitting still in my own skin for a long time... I had my own distractions... drinking' is ZANE LOWE speaking (confirmed in the Whisper re-transcription at 24:05-25:55), not Fike. Speaker for the 05:50 passage is identified as his mother by context (Lowe had just asked her when she noticed Dom's interest in music); confirm on video before printing. Auto-captions mishear names ('Fica', 'read' for Reed); quote only from the re-transcribed segments or after checking audio. Also says he 'just sent' his brother to rehab; privacy: do not use.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S10",
+      "url": "https://www.youtube.com/watch?v=wl7VscNbwAw",
+      "title": "Dominic Fike on \"Babydoll,\" Euphoria, Fatherhood, SoundCloud Rap, and More | P&P Interview (Pigeons & Planes)",
+      "speaker": "Dominic Fike, Pigeons & Planes video interview (interviewer's questions largely edited out)",
+      "date": "2026-04-07",
+      "locator": "Audio transcribed with Whisper small.en on 2026-10-31 (no YouTube captions available; 16:40): 00:00-01:00 (house arrest, Florida SoundCloud scene); 01:50-02:40 (\"When you are sad it's it's really nice to not think about shit... I was making music like whenever I was freaked out\"; finishing a song before reporting to jail instead of \"calling somebody\"); 02:40-03:00 (song \"in like nine minutes\", \"look how fast I can do this now\"); 03:50-05:00 (making \"Babydoll\" at a friend's mother's house; \"a fucking shitty rap\" to get to the hook); 06:00-07:00 (\"barely able to make eye contact\"; \"subconsciously I probably felt validated... impostor syndrome... one fucking anxiety cocktail right at the top of my chest\"); 08:30-09:30 (writing is \"the only thing... I excel at\"); 10:00-11:00 (acting \"would have sucked\"); 11:00-12:30 (playing \"Babydoll\" twice a night in Australia); 13:00-13:40 (\"I just don't party like that right now. I got a son, Rocket, he's almost 2\"; reputation, \"PTA\"); 13:40-14:40 (\"it's always just like so instinctual\"); 15:00-15:40 (most expensive album; first one cost court fees).",
+      "excerpt": "\"When you are sad it's it's really nice to not think about shit and some people work out some people watch movies but... I was making music like whenever I was freaked out about some shit\" [...] \"subconsciously I probably felt validated and also a bit of the imposter syndrome is probably just one fucking anxiety cocktail right at the top of my chest\" [...] \"I just don't party like that right now. I got a son, Rocket, he's almost two. He motivates me to be well stable and sober for one and better about that, about my like debauchery and stuff\" [...] \"as much as I try to make it like more intentional it's always just like so instinctual, I can't help it\"",
+      "context": "Released as 'Babydoll' climbed the Hot 100 and the 2026 tour was announced; his first public confirmation of his son (E! News and others reported it from this video the same week). Machine transcription: wording is close but not verbatim; re-check any printed quote against the audio (E! News, which transcribed it by hand, renders the son passage nearly identically). Do not name or characterize the child's mother; do not use the child beyond Fike's own words.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S11",
+      "url": "https://armchairexpertpod.com/pods/dominic-fike",
+      "title": "Armchair Expert with Dax Shepard: Dominic Fike",
+      "speaker": "Dominic Fike with Dax Shepard and Monica Padman",
+      "date": "2025-09-22",
+      "locator": "Episode MP3 from the show's RSS feed (art19), 1:57:08, transcribed in full with Whisper small.en on 2026-10-31 (about 30,500 words; no speaker labels; the interview runs to about 01:20, then ads and the hosts' fact-check); key passages re-transcribed with Whisper medium.en and attributed by turn context: 00:09:55-00:11:35 (Malone Collective; \"I decided recently, it's all great. Cocaine's awesome. Sobriety's awesome... like, I do... it's fine. As long as you can handle it\"; 'very loose with my definition of it'; sent his brother to treatment); 00:13:00-00:16:30 (father absent; mother 'raised me and my brother alone. Now that I have a kid, I'm like, how did you do that?'; stepfather violence); 00:17:00-00:18:30 ('I don't text guys, ever'); 00:22:55-00:24:35 ('sometimes I feel like crying... want to literally just scream or cry'; 'you sort of cater to other people and you fill that void by worrying about other people... I never extend that care to myself'; Big Sur, 'everyone's safe right now'); 00:25:00-00:26:30 (an inner 'friend that never lets me be different or progress'; 'I don't want shame. I don't want vanity'); 00:27:50-00:29:40 (\"every time I left the house, it was like, let's get into it. I wanted Alice in Wonderland... I wanted there to be some sort of danger\"); 00:36:00-00:38:40 (arrest: thought the officer's taser was a gun, 'Immediately my instinct, boom'); 00:40:45-00:42:45 ('I'm in a room all day, and I'm trapped all day... I'm bored'; failed test; jail: 'I had a good time in jail'); 00:44:30-00:47:30 (bidding war; Rob Stringer; 'I see the number jump'); 00:50:30-00:53:30 ('the least impostory I felt' was in jail; money as 'jet propulsion'; Breckenridge 'madhouse... In the best way'; first album now 'one of my favorite albums to listen to'); 00:54:00-00:55:30 (Crossroads, Antigua, during COVID; how he got there); 01:00:00-01:02:45 (Like A Version wig; shrooms audition; Levinson's five-year contract; \"I'm just doing another whatever. Which is like a self-defense mechanism. If I suck. I told you I don't care\"); 01:09:00-01:10:40 ('this person just didn't fucking stop'; \"Transformers band-aid... This money, this is a temporary fix for something that I need to actually go and heal\"; 'I was in my trailer all the time... It's insufferable'); 01:10:40-01:11:00 (season 3: 'I actually just did some of it'); 01:13:30-01:15:30 (Paris then Rome, benzodiazepine withdrawal crisis; 'Turns out I am fucked up'; treatment 'like four' times); 01:15:45-01:16:35 (favorite part of treatment: 'no one knows you so you get to create this person... you're a baby again. I love that part'); 01:17:00 (the 'God part' as a humility test); 01:18:30-01:19:00 ('I already know I'm a piece of shit... it's a little bit of that self-protection').",
+      "excerpt": "\"So every time I left the house, it was like, let's get into it. I wanted Alice in Wonderland. Every time. I wanted there to be some sort of danger.\" [...] \"But I'm in a room all day, and I'm trapped all day... Yeah, I'm bored.\" [...] \"I'm not even kidding... I had a good time in jail.\" [...] \"I decided recently, it's all great. Cocaine's awesome. Sobriety's awesome. I don't want to go on this like Kanye thing where he's like, 'I fucking love everything.' But like, I do.\" [...] \"if a dude gets like a cool cut on his arm and then they put a bandaid on and the bandaids like transformers, I was like, what do you mean? I'm doing great... but then you take it off and there's a fucking gash in your arm... This is a temporary fix for something that I need to actually go and heal.\" [...] \"I'm just doing another whatever. Which is like a self-defense mechanism. If I suck. I told you I don't care.\" [...] \"when you go to treatment... no one knows you so you get to create this person... You're a baby again. I love that part of it\"",
+      "context": "His first podcast, by his account; recorded around the release of the Rocket mixtape, unhurried and wide-ranging (about 80 minutes of conversation). Shepard, himself in recovery, steers toward childhood, addiction and sobriety and often finishes Fike's thoughts; several striking lines in the machine transcript are the HOSTS' (e.g. 'I want to be jumping off the second floor into the pool', 'our arousal setting was set way too high', 'That's the great thing about coke. It makes you optimistic', the mirror-at-a-bar story), not Fike's. Attribution of each quoted line above rests on turn context in the Whisper medium re-transcription; confirm the voice on the audio before printing, especially 'I had a good time in jail' and 'I never extend that care to myself' (the latter could be Shepard; the next line, 'you're also 29', suggests it was Fike). He mentions 'Now that I have a kid' and 'my son's okay' seven months before the public confirmation (S10). He describes an infidelity in a 2020 relationship that preceded his Antigua rehab, names that partner, and calls himself a 'scumbag'; sensitive, do not name her. He says he was single.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S12",
+      "url": "https://www.complex.com/pop-culture/a/markelibert/dominic-fike-sobriety-coach-euphoria-return",
+      "title": "Dominic Fike Talks 'Euphoria' Sobriety Coach, Unclear of Show's Return: 'I Don't Really Talk to Them Anymore' (Complex, reporting Variety at Sundance)",
+      "speaker": "Complex (Markelibert), quoting Fike's Sundance interview with Variety about Little Death",
+      "date": "2024-01-20",
+      "locator": "Paragraphs 3-6",
+      "excerpt": "\"I actually am a pretty big drug addict myself, believe it or not... When I was on Euphoria, they kind of just gave me a coach who would just talk to you. It was just some random lady. Jack is one of my best friends, so it made it a lot easier, obviously.\" [...] the coach \"had nothing in common. We didn't come from the same places or the same problems. It was hard to take advice from someone like that or give a shit.\" [...] it \"would be dope\" to be back, but he \"don't really talk to them anymore.\"",
+      "context": "Secondary report of a Variety red-carpet/Sundance interview (Variety video not opened). Little Death was directed by his friend Jack Begert.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S13",
+      "url": "https://www.thewrap.com/dominic-fike-euphoria-season-3-return-moving-backwards",
+      "title": "Dominic Fike Says Returning for 'Euphoria' Season 3 'Feels Like Moving Backwards' Now That He's Single and Sober (TheWrap, reporting the Los Angeles Times)",
+      "speaker": "TheWrap, quoting Fike's interview with Mikael Wood of the Los Angeles Times",
+      "date": "2023-07-07 (LA Times interview published 2023-07-06)",
+      "locator": "Paragraphs 2, 5, 6-8",
+      "excerpt": "\"You know how sometimes when you want to change, you need to refresh your whole friend group? Feels like moving backwards on that front.\" [...] \"I don't know — I'm not an actor... I think I'm a little bit looser on drugs, so maybe I wasn't afraid to do it. Maybe I would have done better off drugs. Maybe not.\" [...] \"If it's released by Sam Levinson, it's probably misunderstood.\"",
+      "context": "The Los Angeles Times original could not be located (guessed URL returned 404); quotes are as reported by TheWrap and should be attributed 'told the Los Angeles Times, as reported by TheWrap' or verified in the original first.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S14",
+      "url": "https://uk.news.yahoo.com/dominic-fike-quit-cigarettes-drugs-130000909.html",
+      "title": "Dominic Fike Quit 'Cigarettes, Drugs, Sex and Alcohol' to Improve His Touring with 'Intention' (Exclusive) (People, syndicated on Yahoo)",
+      "speaker": "People, quoting Fike's Apple Music Live video conversation with Apple Music 1 host Travis Mills",
+      "date": "2023-09-05",
+      "locator": "Paragraphs 2-7",
+      "excerpt": "\"I really want to move with intention... Initially I would show up to rehearsals, back in my first tour, I would come through and be like, 'Alright man let's get f---ing through this.'\" [...] \"towards the end, it started to wear on me. I would be in my room and just shut out everybody and go to bed. I didn't care as much as everyone else. With this tour, starting with Coachella, I made sure that I was leading it\" [...] \"'We're all here because of me. I'm also paying everyone to be here. I should be as involved as I can and make sure it's really special.'\" [...] he cut out \"cigarettes, sex, drugs, alcohol\"",
+      "context": "Syndicated copy of a People exclusive tied to a sponsored Apple Music performance; the underlying video was not opened. Two months after the Blackbird interview in which he described five relapses.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S15",
+      "url": "https://www.stereogum.com/2515085/dominic-fike-shares-new-single-pangea-earns-first-top-10-hit-with-8-year-old-babydoll/music",
+      "title": "Dominic Fike Shares New Single \"Pangea,\" Earns First Top 10 Hit With 8-Year-Old \"Babydoll\" (Stereogum)",
+      "speaker": "Chris DeVille, Stereogum",
+      "date": "2026-10-19",
+      "locator": "Paragraph 1",
+      "excerpt": "\"Babydoll,\" a track from his 2018 EP Don't Forget About Me, Demos, caught a wave of popularity on TikTok this year and has since caught on at radio. Today the song rises to a new peak of #10 on the Billboard Hot 100, becoming Fike's first top 10 hit. Meanwhile, Fike's third full-length How To Quit Smoking is out next week",
+      "context": "Chart news for the Billboard Hot 100 dated October 24, 2026 (published the Monday before). Wikipedia's artist page still said #16 when opened; the song article says #10. The 'Pangea' video was directed by Reed Bennett and Kevin Abstract.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S16",
+      "url": "https://www.billboard.com/lists/dominic-fike-how-to-quit-smoking-album-best-songs-ranked/",
+      "title": "Dominic Fike's 'How to Quit Smoking': All 15 Tracks Ranked (Billboard)",
+      "speaker": "Billboard staff",
+      "date": "2026-10-30",
+      "locator": "Introduction (paragraphs 1-4)",
+      "excerpt": "Dominic Fike has been 30 for all of 2026 (he turns 31 on Dec. 30) — along with being a father to his 2-year-old son Rocket — and that anxiety is poured into his third studio album, How to Quit Smoking, which arrived on Friday (Oct. 30). [...] Recorded on the road during his Comedy Parody Tragedy Tour throughout the year, Fike billed the project as a \"living album\" [...] Clocking in at a digestible 40 minutes",
+      "context": "Release-day ranking. Says smoking is addressed directly only on 'DOOMSDAY' and the Tay-K closer, where he calls it the last habit he is trying to kick, and that he appears to have switched to nicotine pouches (an inference from footage, not a statement). Billboard reverses the tour name ('Comedy Parody Tragedy'); Pollstar and Wikipedia use 'Comedy Tragedy Parody'.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S17",
+      "url": "https://stereogum.com/2509729/dominic-fike-announces-new-album-how-to-quit-smoking-hear-wallpaper/music/",
+      "title": "Dominic Fike Announces New Album How To Quit Smoking: Hear \"Wallflower\" (Stereogum)",
+      "speaker": "Chris DeVille, Stereogum (quoting Fike's video caption)",
+      "date": "2026-08-28",
+      "locator": "Paragraphs 1-2",
+      "excerpt": "Dominic Fike opened the Tame Impala show I attended this week [...] he says it was \"written, performed, & produced in real time on the road.\" [...] How To Quit Smoking is out 10/9 on Columbia.",
+      "context": "Announcement with the original October 9 date; the album was later moved to October 30, 2026 (S15, S16).",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S18",
+      "url": "https://news.pollstar.com/2026/04/17/dominic-fike-announces-intimate-comedy-tragedy-parody-north-america-tour-dates-alongside-tame-impala-support/",
+      "title": "Dominic Fike Announces Intimate 'Comedy Tragedy Parody' North America Tour Dates Alongside Tame Impala Support (Pollstar)",
+      "speaker": "Pollstar",
+      "date": "2026-04-17",
+      "locator": "Paragraphs 1-3",
+      "excerpt": "Dates kick off Aug. 15 in Asheville, North Carolina [...] before wrapping at the Wiltern in Los Angeles Sept. 30. [...] Fike returned from a hiatus to debut his tour in Australia this past December, and currently has two songs charting simultaneously across the Billboard Hot 100 [...] with \"Babydoll\" and \"White Keys.\"",
+      "context": "Trade announcement. Establishes the 2024-2025 break from headline touring, the December 2025 Australian return, and the Tame Impala support slot.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S19",
+      "url": "https://en.wikipedia.org/wiki/Dominic_Fike",
+      "title": "Dominic Fike (Wikipedia)",
+      "speaker": "Wikipedia contributors",
+      "date": "2026-10-31 (accessed)",
+      "locator": "Infobox (born December 30, 1995, Naples, Florida); Early life; Career 2017-2026 (14 Minutes EP May 3, 2024; Geezer with Kevin Abstract, June 2025; Rocket mixtape August 22, 2025; \"White Keys\" November 14, 2025; \"Babydoll\" re-release February 27, 2026; How To Quit Smoking October 30, 2026); Personal life (Schafer from January 2022, split confirmed July 2023; relationship announced December 2025; son confirmed April 2026)",
+      "excerpt": "Dominic David Fike (born December 30, 1995) is an American singer-songwriter and actor. [...] In February 2025, Fike was confirmed to reprise his role portraying Elliot in the third season of Euphoria. However, the scenes he filmed for the season were removed from the final cut of the show, without a given reason.",
+      "context": "Used only for dates and discography cross-checks. Its Euphoria season 3 statement cites a Men's Journal page that could not be opened (S21); treat as unverified. Its Hot 100 peak for 'Babydoll' (#16) is stale (S15). Ancestry list differs from his own descriptions (Filipino and African American; S02, S04).",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S20",
+      "url": "https://variety.com/2025/tv/news/dominic-fike-euphoria-season-3-return-1236308292/",
+      "title": "Dominic Fike Sets 'Euphoria' Season 3 Return (Exclusive) (Variety)",
+      "speaker": "Ethan Shanfeld, Variety",
+      "date": "2025-02 (exclusive published the day HBO released the season 3 cast list)",
+      "locator": "Paragraphs 1-2, 5",
+      "excerpt": "Dominic Fike is returning for Season 3 of \"Euphoria.\" While he was left off a list of new and returning cast members released by HBO on Friday, Variety can exclusively report that the \"3 Nights\" singer and actor will indeed reprise his role as Elliot [...] Fike is set to shoot a couple of scenes for the show next week, sources say.",
+      "context": "Sourced to unnamed sources; establishes that he shot season 3 material. Whether it aired is unverified (S19, S21).",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S21",
+      "url": "https://www.mensjournal.com/entertainment/beloved-euphoria-character-never-appeared-in-season-3",
+      "title": "Men's Journal: Euphoria character never appeared in season 3 (title from URL; page not loaded)",
+      "speaker": "Men's Journal",
+      "date": "unknown (2026)",
+      "locator": "unavailable (CAPTCHA wall via curl and reader proxy, 2026-10-31)",
+      "excerpt": "Not opened. Cited by Wikipedia for the claim that Fike's season 3 scenes were removed.",
+      "context": "Do not print the season 3 cut as fact until this or HBO-season reporting is opened.",
+      "kind": "secondary",
+      "access": "unavailable"
+    },
+    {
+      "id": "S22",
+      "url": "https://www.youtube.com/watch?v=ujo2BHqx0PY",
+      "title": "Hunter Schafer: Polyamory, Cheating & Fame (Full Episode) — Call Her Daddy",
+      "speaker": "Hunter Schafer, interviewed by Alex Cooper",
+      "date": "2024-08-07 (episode aired)",
+      "locator": "About 01:09:00-01:14:00; Whisper small.en transcript of that segment cached 2026-10-29 (hunter-schafer cache, chd-men-cheated.txt, lines 60-80), re-read 2026-10-31",
+      "excerpt": "\"He was not perfect and it's no secret. It's out there in the world, you know, and it's part of why the relationship ended is, is I, I got cheated on for the first time. And he said, he's talked about this too, like in his song, you know, he writes about it. So it's, it's, it's fine to be talking about it today. And it's like part of my truth, but that like fundamentally changed me as a person.\"",
+      "context": "Schafer describes her 'last relationship' without naming Fike in this passage; the identification rests on her description and contemporaneous reporting (S23). No public response from Fike was found in the sources opened. Sensitive allegation about a named living person.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S23",
+      "url": "https://www.elle.com/culture/celebrities/a61895883/hunter-schafer-dating-history/",
+      "title": "Hunter Schafer's Full Dating History, From Rosalía to Dominic Fike (ELLE)",
+      "speaker": "ELLE",
+      "date": "2024-09-19",
+      "locator": "Dominic Fike section (paragraphs on January 2022 rumors, GQ May 2022, Zane Lowe July 2023, LA Times, Call Her Daddy August 2024)",
+      "excerpt": "in July 2023, Fike confirmed they had split in an Apple Music interview with Zane Lowe. He said he's \"done being in relationships right now,\" due to co-dependency issues. [...] Schafer shared that infidelity on Fike's side was an issue.",
+      "context": "Timeline compilation; identifies Fike as the partner Schafer described. Secondary.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S24",
+      "url": "https://en.wikipedia.org/wiki/Babydoll_(Dominic_Fike_song)",
+      "title": "Babydoll (Dominic Fike song) (Wikipedia), quoting Fike's 2026 Instagram post",
+      "speaker": "Wikipedia contributors, quoting Dominic Fike's Instagram caption",
+      "date": "2026 (Instagram post around the February 27, 2026 single re-release; exact date not shown)",
+      "locator": "Background section",
+      "excerpt": "\"Eight years ago I made a tape in Florida in a room a friend let me live in while I was on house arrest... Life at this time was fairly tumultuous and I felt like a heavy burden on everyone I interacted with, especially women. I just hated being poor so much. Looking back now that time ends up meaning the most. Before algorithms before other peoples words – even hearing from people I admire. Everything that comes after only makes it harder.\"",
+      "context": "The Instagram original was not opened (Instagram requires login); the quote is as reproduced by Wikipedia. Verify against the post or a news report before printing. Also gives the #10 Hot 100 peak and the February 27, 2026 single release.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S25",
+      "url": "https://www.russh.com/dominic-fike/",
+      "title": "Who is Dominic Fike? Dating history, 'Euphoria', music career (RUSSH)",
+      "speaker": "Jasmine Pirovic, RUSSH",
+      "date": "2024-01-09",
+      "locator": "Section 'On that now iconic Apple face tattoo'",
+      "excerpt": "it was actually his brother Alex's idea first. However, it was Dominic who got the logo inked on a whim. \"It was so random. Not thought out at all. Same day, I was like, 'I'm going to get this.'\"",
+      "context": "Explainer compiled from other interviews; the tattoo quote is unsourced in the piece. Used only to document that his tattoo origin stories vary (compare S04, S06, S07). Names a 2021 relationship; do not repeat.",
+      "kind": "secondary",
+      "access": "opened"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "Dominic David Fike was born December 30, 1995, in Naples, Florida. He describes his heritage as Filipino and African American, and his mother raised him and his younger brother Alex largely alone.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S19",
+        "S02",
+        "S04",
+        "S11"
+      ],
+      "inference": "Birth date and city are consistent across Wikipedia and Billboard's 'turns 31 on Dec. 30' (S16). Heritage is his own description in GQ and the Standard; Wikipedia's longer ancestry list is unsourced in the extract and should not be printed.",
+      "alternative": "Use 'Filipino and African American' as he puts it. Older half-siblings and step-siblings exist; do not enumerate or name them.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C02",
+      "claim": "His childhood was unstable: both parents used heroin by his account, his mother was jailed repeatedly ('once every year, a couple of years'), his father was largely absent (one week-long visit around age nine or ten, when he taught him a few guitar chords), a series of stepfathers were violent toward his mother in front of the children, and the family at times lived in motels or he was homeless as a teenager.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S04",
+        "S06",
+        "S02",
+        "S07",
+        "S09",
+        "S11"
+      ],
+      "inference": "Consistent in outline across 2019-2025 and five interviewers. This is circumstance, not motive: any type argument has to show what he does with this history, not cite the history as evidence.",
+      "alternative": "The details shift by telling (the father 'rode off' on his brother's scooter in GQ; 'stealing his brother's electric scooter' in the Standard). Trauma of this kind produces escape, vigilance or numbing in people of every type. Sensitive: no clinical or causal language; never use it as the hook's punchline.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C03",
+      "claim": "As a young teenager he and his friends biked to an undeveloped lot they called the Forest of Avalon to smoke weed and, in his 2019 words, 'imagine that it was another place.' In 2023 he said it was 'like we'd traveled through time'; in 2025 he explained why: 'my home was small and the problems were so present... So every time I left the house, it was like, let's get into it. I wanted Alice in Wonderland... I wanted there to be some sort of danger.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S06",
+        "S07",
+        "S11"
+      ],
+      "inference": "The same escape story, told three times over six years to three interviewers, each time adding the motive: the answer to a painful home was adventure and an imagined elsewhere, not withdrawal or vigilance. This is the earliest instance of the move the type argument rests on.",
+      "alternative": "Leaving a chaotic house for the woods is ordinary adolescence. Dax Shepard reads it as a high arousal set-point produced by chaos (trauma physiology, not type). The 2025 telling is shaped by a host who shares the story.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C04",
+      "claim": "His career began under court supervision. After an altercation at a party for his younger brother, he was charged with battery on a police officer; he says he tripped and knocked down an officer he thought had drawn a gun (in 2025 he said it was a taser) as the officer chased his brother. He pleaded guilty, was sentenced to house arrest, recorded the Don't Forget About Me, Demos EP there, failed a drug test for cocaine, and spent months in Collier County Jail, released in April 2018.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S02",
+        "S04",
+        "S05",
+        "S06",
+        "S11",
+        "S03"
+      ],
+      "inference": "GQ dates the charge to 2016 and gives the plea and house-arrest sentence; NME gives the jail and April 2018 release. The incident itself rests on his account. In 2025 he described the act as reflex: 'Immediately my instinct, boom.'",
+      "alternative": "The account is his alone; no police record was opened. Interviewers' paraphrases vary ('punched a cop' in Blackbird; 'assaulting' in GQ). The protective impulse toward his brother is better evidence of loyalty (6, 8, 2) than of a Seven motive. Length of the custody varies by telling ('a year'); use 'months' or 'about a year' with attribution.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C05",
+      "claim": "On house arrest he was confined to a room in friends' apartment; in 2025 he said, 'I'm in a room all day, and I'm trapped all day... Yeah, I'm bored,' and that he used cocaine because it clears the system quickly, then failed a drug test the morning after finishing the tape. In 2026 he said he finished one more song before reporting to jail 'instead of like calling somebody.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S11",
+        "S04",
+        "S10"
+      ],
+      "inference": "His own causal chain runs through boredom and confinement to stimulation, and his reaction to arrest was to finish a song rather than seek help. Fits the Seven pattern of intolerance for limitation and the turn toward the next activity.",
+      "alternative": "Addiction explains using under confinement regardless of type; boredom is a classic relapse trigger. In 2023 he told the Standard he was high on cocaine while playing the tape back ('Oh my god, this is so good').",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C06",
+      "claim": "He reframes hardship quickly and often positively. He called jail 'a year off to focus on myself' (2022) and, in 2025, 'I'm not even kidding... I had a good time in jail' and 'the least impostory I felt'; he said of his addiction in 2023, 'I wouldn't change the fact that I'm addicted to any of that shit. It's made me better'; of relapses in 2023, 'It's been a year total, but split up over like, 5 really bad relapses. But it's all good, I'm good'; of the pandemic album launch in 2020, 'it's a terrible time, I guess. But, y'know: we're doing it!... Actually, it's the right time'; and in 2025, 'I decided recently, it's all great. Cocaine's awesome. Sobriety's awesome.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S11",
+        "S04",
+        "S07",
+        "S05",
+        "S03"
+      ],
+      "inference": "Six instances across 2020-2025, sober and not, in five outlets: the first move with pain is to turn it into an upside. This is the most repeated behavior in the record and the core of the Seven case.",
+      "alternative": "He also states the bad parts plainly when pressed: jail 'sucks, dude', the first six months 'I was not doing too well... I was sad' (Guardian 2023). Much of the positivity is comic performance in promotional settings, and recovery culture encourages gratitude framing. The 2025 'it's all great' line is followed by 'As long as you can handle it'.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C07",
+      "claim": "Three journalists, writing four years apart, independently described the same affect. Tasbeeh Herwees (Pigeons & Planes, 2019): 'These are facts of his life he lists with no sense of drama.' Samuel Hine (GQ, 2022): 'there's not a single difficult topic – not his family nor incarceration nor addiction – that Fike can't spin into a positive.' Richard Godwin (Standard, 2023): 'he defies any urge to shape it into a narrative of redemption.'",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S06",
+        "S02",
+        "S04"
+      ],
+      "inference": "Independent observers, not self-report, and the closest thing to observed behavior across time. Godwin's line sets a limit: the lightness is not a polished comeback story (an image move a Three might make) but a refusal to linger.",
+      "alternative": "He told Zane Lowe he is 'desensitized' to the drug world he grew up in (S09); flattened affect from early trauma, or a Nine's numbing, would also read as 'no sense of drama'. Hine's 'spin into a positive' is the writer's frame around quotes.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C08",
+      "claim": "He describes excess as his method. 'Whatever drug I would do, I'd do too much of it – to [the point of] a near-death, surreal experience. I just kind of thought that was how you did drugs – to go all the way there without dying' (2023). On his first label money: 'You use it to have the best time you can. I was bouncing off the walls, man' (2023). He rented yachts and went on benders until his business manager called (2022), and once chartered a yacht for 15-20 women he had met on Instagram: 'I could invite 30 to 50 anywhere at any point... Psychopath shit' (2023).",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S03",
+        "S04",
+        "S02"
+      ],
+      "inference": "The aim he names is the best time, the most experience, 'all the way there' — appetite for intensity rather than control or image.",
+      "alternative": "Addiction pharmacology and sudden wealth at 22 explain much of this without any type. Eight also runs to excess; the difference is that he never describes the excess as power, dominance or control. Sensitive: drug details and the yacht episode (during his relationship with Schafer) are his own accounts and need care.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C09",
+      "claim": "In 2022 he said he wanted fame in its messiest form: 'I'm trying to get, like, annoying famous... I want those iconic pictures from back in the day. The cool stories. The fucked-up knees from all the Ecstasy. You know? I want all of it.' In 2023: 'fame's tight dude, I like getting my meals for free,' and 'You've kind of got to ride this bitch out until the wheels fall off kind of deal or else I feel like I didn't do it right.' By 2026 he said, 'I always believe you don't want to be in people's faces too much.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S09",
+        "S01"
+      ],
+      "inference": "What he wants from fame is the experience and the stories, including the damage — not a curated, admired image. A Three wants the polished picture; he asks for 'the fucked-up knees'. The 2026 reversal is dated growth, not a contradiction to hide.",
+      "alternative": "Much of the GQ passage is deadpan comedy; the writer asks 'Really?' and he says 'I'm not even kidding.' A Three reading would treat 'annoying famous' as status hunger. In the same 2023 interview he said he had 'broken into the a B list' and didn't 'want to go much further.'",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C10",
+      "claim": "He talks about himself as perpetually in motion and impatient with delay: 'I'm never not doing something,' 'I'm in overdrive' and 'I feel like I can work forever and do anything,' and 'I'm just in go-mode... like I'm walking and people are putting tiles under my feet as I take each step' (2021); 'every time I make a song it's like I feel like it's my best song, so it's hard not to like want to put it out' and hating the year-long wait before release (2023); wanting to 'load the world with a bunch of music' (2020); writing songs in nine or ten minutes 'to flex' (2026).",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S08",
+        "S09",
+        "S05",
+        "S10",
+        "S01"
+      ],
+      "inference": "Forward motion and little planning (Variety's 2021 paraphrase: he is 'too busy to plan ahead'). The 'tiles' image is a Seven's picture of the future: the next step simply appears.",
+      "alternative": "His output contradicts the self-description: three studio albums in eight years and a 2024-2025 break from headline touring (S18), and he admits being 'finicky with dates' (S01). The restlessness is in starts, not finishes. Streaming-era incentives reward volume talk.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C11",
+      "claim": "Observed on camera (Apple Music, July 2023): taken back to the Gulf Coast Motel room where his family had lived, after about five minutes he said, 'It's really weird. I feel like tense. Should we leave? I'm done... this is too much, should we go to fucking beach,' and the crew went to the beach, where he swam. Later that day: 'I'm done talking about it. I'm down to close that chapter of my life.'",
+      "passage": "",
+      "class": "observed",
+      "source_ids": [
+        "S09"
+      ],
+      "inference": "The one filmed instance of the pattern: at the moment pain becomes present, he names it and moves toward sensation and open space. Zane Lowe's narration frames the swim as a reset.",
+      "alternative": "Almost anyone would leave a room tied to childhood trauma, especially on camera, and the visit was a produced segment. The motel exit fits the Seven reading; it cannot prove it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C12",
+      "claim": "In 2023 he described not knowing how to be alone: 'I'm just so codependent on human beings and I love having them around and having them to talk to... so what the fuck do I do when I'm by myself? Obviously like let's get drunk and go talk to someone or go hang out with, be anywhere else but in my body.' He said the codependency 'is often the cause of like the end of my relationships' and that he was 'done being in relationships right now.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S09",
+        "S23"
+      ],
+      "inference": "'Be anywhere else but in my body' is the clearest first-person statement of the avoidance the Seven reading predicts: the problem is sitting with his own interior, and the remedy is company and stimulation.",
+      "alternative": "'Codependent' is therapy vocabulary and also fits Six (needing support) and Two (needing to be needed). Do not attribute 'I had a really hard time sitting still in my own skin' to him: Zane Lowe says it (S09 24:05-25:55).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C13",
+      "claim": "In 2026 he described music as a way not to feel: 'When you are sad it's it's really nice to not think about shit and some people work out, some people watch movies but... I was making music like whenever I was freaked out about some shit.' In 2021: 'I'm thinking about what makes the hairs on my arm stand up' and 'Simply put, I just try to enjoy it.' In 2026: 'as much as I try to make it like more intentional it's always just like so instinctual, I can't help it,' adding that 'obsession and like conceptual and contemplation' is not 'the best way.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S10",
+        "S08"
+      ],
+      "inference": "Songwriting serves distraction and sensation, not the curation of feeling or identity. This cuts against Four, whose art typically holds and amplifies the feeling.",
+      "alternative": "Many musicians describe flow as escape; a Nine would also use absorbing work to quiet feeling. He calls lyrics 'the only thing I feel that I have where I excel' (S10), which shows craft pride that a Four or Three reading could use.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C14",
+      "claim": "He distrusts emotional self-presentation in music. In 2023 he said artists talking about 'how emotional' a song was bothered him, agreed with Zane Lowe that it is 'trying to cheat a connection,' cited Julian Casablancas ('make songs to just dance to'), and that his albums are not written 'for a purpose.' He said posting about his own songs is 'just not in my DNA' and that if it were up to him, fans would only see 'drunk posts at 3 a.m.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S09"
+      ],
+      "inference": "Argues against Four (who would foreground the feeling and its uniqueness) and against Three (who would manage the image); fits a Seven's preference for lightness and fun over disclosure.",
+      "alternative": "Indie-rock anti-earnestness is a genre posture. His manager pushes him to post, and the 2026 rollout (a 24/7 streaming channel, S15, S16) is heavily promotional, so the self-description may not match behavior when incentives change.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C15",
+      "claim": "His recovery has been nonlinear and he describes it openly. He went to a rehab centre in Antigua in spring 2020 (GQ: 'Eric Clapton–funded'); told Variety in 2021 he was sober during Euphoria season 2 filming, then said in 2023 he was using during that production and 'almost... got kicked off'; said in July 2023 his sobriety was 'a year total, but split up over like, 5 really bad relapses'; and in 2025 counted treatment 'like four' times, described a benzodiazepine withdrawal crisis on a European trip ('Turns out I am fucked up'), and said he was 'still kind of to this day, like, figuring it out.' In April 2026: 'I just don't party like that right now.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S08",
+        "S09",
+        "S07",
+        "S11",
+        "S10",
+        "S14"
+      ],
+      "inference": "The record shows a repeated cycle of stated control, relapse and candid retelling. Useful for the article as dated context; not type evidence in itself.",
+      "alternative": "Addiction is not an Enneagram type. Recovery is time-sensitive and private; the article should not characterize his current sobriety beyond his latest dated words. Sensitive: no diagnostic labels, no speculation about risk, and avoid making the withdrawal crisis a set piece.",
+      "durability": "time_sensitive",
+      "review_trigger": "Any new public statement about sobriety or relapse, or a change in how he describes it; recheck before each refresh."
+    },
+    {
+      "id": "C16",
+      "claim": "His Euphoria casting: he first auditioned for season 1 after a casting director saw his 2019 Like A Version performance, showed up after a night of whiskey and mushrooms, laughed at Sam Levinson and lost the part. About a year later Levinson rewrote a character 'with the qualities of the guy he saw show up,' offered a five-year contract and said, 'I need to know that you're not going to like fuck me on this'; Fike replied 'Brother, got you' without understanding the stakes. He played Elliot in season 2 (2022). He later said, 'I'm just doing another whatever. Which is like a self-defense mechanism. If I suck. I told you I don't care.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S04",
+        "S11",
+        "S08",
+        "S12"
+      ],
+      "inference": "The audition is told consistently since 2022 and treated as comedy. The 'self-defense mechanism' line is his own explanation of his nonchalance: not caring in advance protects him from failing.",
+      "alternative": "That defense is not type-specific: a Three (avoid visible failure), a Four (shame) or a Nine (lowered stakes) could say it. The quick, untested 'Brother, got you' argues against a Six's testing of authority. The 'self-defense mechanism' line is from the Whisper small transcript (about 01:02:30); re-check on audio before quoting.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C17",
+      "claim": "Variety reported in February 2025 that he would return as Elliot in Euphoria season 3 and was set to shoot 'a couple of scenes'; in September 2025 he said, 'I actually just did some of it.' Wikipedia now says his scenes were cut from the aired season, citing a Men's Journal page that could not be opened.",
+      "passage": "",
+      "class": "disputed",
+      "source_ids": [
+        "S20",
+        "S11",
+        "S19",
+        "S21"
+      ],
+      "inference": "Whether Elliot appears in season 3 is unverified. Nothing in the type argument depends on it.",
+      "alternative": "Do not print that his scenes were cut, or that he appears, until season credits or reliable reporting are opened.",
+      "durability": "unresolved",
+      "review_trigger": "Confirm from HBO episode credits or a reliable report on season 3 (premiere reported for April 2026; not opened) before any mention."
+    },
+    {
+      "id": "C18",
+      "claim": "His relationship with Euphoria co-star Hunter Schafer was public from early 2022. In July 2023 he said he was 'done being in relationships right now,' citing codependency; in August 2024 Schafer said on Call Her Daddy that her last relationship ended partly because 'I got cheated on for the first time,' adding that 'he's talked about this too... he writes about it.' She did not name him in that passage; reporting identified him. No public response from Fike was found. In 2025 he separately described cheating in an earlier relationship that preceded his 2020 rehab.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S22",
+        "S23",
+        "S09",
+        "S11",
+        "S02"
+      ],
+      "inference": "Included so the draft handles it correctly, not as type evidence. Infidelity says nothing reliable about core motive.",
+      "alternative": "Her account is an allegation about a named person; attribute it to her, give his stated reason for the split, and note no response was found. Do not name the earlier partner or repeat the 2025 detail beyond his own words. Do not speculate about which songs refer to it.",
+      "durability": "time_sensitive",
+      "review_trigger": "If Fike responds publicly to Schafer's account, update attribution and add his response."
+    },
+    {
+      "id": "C19",
+      "claim": "He confirmed publicly on April 7, 2026 that he has a son, Rocket, then 'almost 2', and said the boy 'motivates me to be, well, stable and sober, for one, and better about... my debauchery and stuff,' makes him 'want to acquire property, for him to grow up in,' and want to keep his 'reputation... okay so I can still go into school meetings.' He had mentioned having a kid on Armchair Expert in September 2025.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S10",
+        "S11",
+        "S16"
+      ],
+      "inference": "Fatherhood is the clearest recent force toward stability, and his stated goals (property, reputation, sobriety) are security goals. The Six alternative gains here.",
+      "alternative": "Privacy: do not name or characterize the child's mother or describe the child beyond his words. The child's age is time-sensitive.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recompute any age reference at refresh; do not state the child's age without a date."
+    },
+    {
+      "id": "C20",
+      "claim": "He named a real security motive. In 2023: 'I think I've always had a big problem with security and safety 'cause I've moved around so much as a kid and I never really felt like I had a home,' adding that 'having to get that next check' 'has influenced decisions, but we're kind of dialing it back. I feel safer now.' He said his idea of stability is 'always in another person.' In 2019 he held out for a large deal because 'I really needed money for [my mom's] lawyer... It was like now or never.' In 2025 he described a family trip to Big Sur where his mother talked about a song and he felt 'everyone's safe right now,' and 'it hit me like I wanted to cry.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S09",
+        "S06",
+        "S11"
+      ],
+      "inference": "This is the strongest material for Six: safety is an explicit, recurring concern, and money and home are its terms.",
+      "alternative": "The concern is anchored in concrete circumstance (homelessness, a jailed mother) and is described as easing. A Seven also seeks security when deprived; the question is the strategy used under threat, which in his case is exit and reframe (C06, C11, C12).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C21",
+      "claim": "He reports anxiety and impostor feelings. In 2023: 'I'm always thinking that eventually people are going to figure out this like ruse, this like fake,' 'I overthink a lot,' he brings a Thom Yorke book to sessions 'when I'm nervous,' and he can't drink like Justin Bieber without 'a bunch of anxiety.' In 2026, of his 2018 signing: 'subconsciously I probably felt validated and also a bit of the imposter syndrome... one fucking anxiety cocktail right at the top of my chest.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S09",
+        "S07",
+        "S03",
+        "S10"
+      ],
+      "inference": "Fear is present across the record. Six, Five and Seven all sit in the head (fear) triad, so anxiety alone does not separate them; what separates them is what he does with it.",
+      "alternative": "Supports Six. Impostor talk also fits Three and Four, and is near-universal among artists, as Lowe says in the same exchange.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C22",
+      "claim": "Across six years he describes not pursuing people. In 2020 he said he prefers collaborators to reach out to him: 'Maybe it's my fear of rejection that I've got going on... I'm weird about that shit.' In 2023 he said he has to be 'genuinely excited' to collaborate and would rather just listen to artists he loves. In 2026: 'I've never been the type of guy to intrude on anybody's shit. That's why I do all this shit myself. That's why I'm bad at asking girls out.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S05",
+        "S09",
+        "S01"
+      ],
+      "inference": "A durable trait the stereotypical Seven (easy, expansive outreach) does not predict. It fits Nine (not intruding), Six (fear of rejection) or Four.",
+      "alternative": "Writing alone is also craft preference and control of credit. Keep this visible in the article as behavior the leading type does not neatly explain.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C23",
+      "claim": "His mother, filmed in her Naples home in 2023, described him as a child: 'Dom was the most passive, quiet child growing up... Alex was always the one that was just ruckus... Dom was always like the observer... not outgoing, but very just like taking everything.' Someone in the room adds, 'always watching' (speaker unclear).",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S09"
+      ],
+      "inference": "The only on-record testimony from family about his temperament, and it points away from the rambunctious-child picture often attached to Seven, toward a watchful, quiet Nine, Five or Six.",
+      "alternative": "One remembered line in a promotional film. Quiet at home and adventurous outside it are compatible with his own account of a home full of problems (C03). Speaker identified by context; confirm on video. Do not name his mother in print beyond what he has used publicly; 'his mother' suffices.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C24",
+      "claim": "Family loyalty and provision run through the whole record: he used his first Columbia money on a lawyer for his mother, chose the EP's release date because it was the day he drove her to jail ('The point of it was, Don't forget about Mom'), bought her a house, said supporting family is how he measures success ('I wouldn't know any other way of measuring it'), and in 2025 described taking his family to Big Sur and helping relatives.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S06",
+        "S05",
+        "S04",
+        "S11",
+        "S09"
+      ],
+      "inference": "Steady loyalty and protectiveness from age 22 on. Sevens can be devoted, but this pattern is a real counterweight that a Six (loyalty), Two (care) or Eight (protection) reading explains directly.",
+      "alternative": "Privacy: do not print details of siblings' legal or treatment histories, custody matters, or his father's sentence.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C25",
+      "claim": "He is averse to aggressive men and male authority, tied by him to watching stepfathers beat his mother: 'Most of the male figures in my life were real shitty' (2019); 'Men are f***ing horrible creatures... It really deters you from f***king with another human being' (2023); 'I don't text guys, ever... I'm like, I don't really want to hang out with a dude today' (2025).",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S06",
+        "S04",
+        "S11"
+      ],
+      "inference": "Argues against Eight: he does not seek confrontation or dominance, and his one violent act he frames as reflex to protect his brother.",
+      "alternative": "Circumstance explains this directly; it is not a type marker for Seven either.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C26",
+      "claim": "He outsources limits to his manager, Reed Bennett. In 2023: 'I tell him, I can't do this shit. And if I ever try to convince you otherwise, it's a lie. Don't listen to me. I'm manipulative!' He said Bennett helps him untangle security-driven decisions and pushes him to use social media; in 2026 Bennett shows him streaming metrics ('As much as I hate to see it').",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S04",
+        "S09",
+        "S01"
+      ],
+      "inference": "He knows his own impulses need an external brake. For a Seven, a trusted brake on appetite; for a Six, reliance on a trusted authority.",
+      "alternative": "Most artists with a long-term manager describe similar dependence; this is weak evidence either way.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C27",
+      "claim": "He volunteers failures rather than managing an image: he calls the shrooms audition 'not even close to my biggest f*** up' (2023), says he was high in Euphoria scenes, describes relapses and treatment, and calls himself 'a piece of shit' as 'a little bit of that self-protection' (2025).",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S04",
+        "S09",
+        "S07",
+        "S11"
+      ],
+      "inference": "Argues against Three, whose core move is to avoid visible failure and present success.",
+      "alternative": "Confession is part of a recovery script and of a 'dirtbag' persona that sells (Guardian 2023 notes the 'industry plant' charge and his 'added authenticity'). Self-deprecation can be its own image strategy. The 2025 'piece of shit' line comes from the small-model transcript with turn-context attribution; confirm on audio.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C28",
+      "claim": "His stated positions changed over time, and the dates matter: in 2021 he said he was 'not sending this music to other people to give me fucking opinions,' while in 2026 he said that in 2019 'I was only thinking about what other people wanted'; in 2022 he said he 'could have been more proud' of his first album, while in 2025 he called it 'one of my favorite albums to listen to now'; in 2022 he wanted to be 'annoying famous,' while in 2026 he preferred not being 'in people's faces too much'; in 2026 he said 'I just don't party like that right now.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S08",
+        "S01",
+        "S02",
+        "S11",
+        "S10"
+      ],
+      "inference": "Each position is dated. The content changes (sobriety, fatherhood, age 30) while the style (reframing, motion, avoiding dwelling) persists, which is what a type claim needs.",
+      "alternative": "Retrospective reframing of the first album also fits the C06 pattern. Write these as dated statements, not as a settled arc.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C29",
+      "claim": "He prefers clean slates. In 2019 he had all his earlier music deleted before the re-release because 'I was trying to get away from that fuckin' \"Everyone knows you\"'; in 2023 he said that 'when you want to change, you need to refresh your whole friend group' (to the Los Angeles Times, as reported by TheWrap); in 2025 he said his favorite part of treatment is that 'no one knows you so you get to create this person... You're a baby again. I love that part of it,' and described an inner 'friend' who 'never lets me be different or progress.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S06",
+        "S13",
+        "S11"
+      ],
+      "inference": "Fresh starts and new possibilities, repeated over six years. Fits Seven's orientation to what comes next.",
+      "alternative": "Reinvention to be 'reintroduced to his audience' (S06) is also an image move (Three). The LA Times quote is secondhand.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C30",
+      "claim": "In 2025 he described his own pattern in a metaphor: success was 'like if a dude gets like a cool cut on his arm and then they put a bandaid on and the bandaid's like Transformers. I was like, what do you mean? I'm doing great... but then you take it off and there's a fucking gash in your arm... This is a temporary fix for something that I need to actually go and heal.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S11"
+      ],
+      "inference": "His own insight into covering pain with something bright, the Seven defense in plain language. Usable as a closing or turning image if verified on audio.",
+      "alternative": "The question that prompted it came from Dax Shepard, a sober host who frames addiction this way; it describes the money and acclaim of 2018-2022, not necessarily his present.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C31",
+      "claim": "In September 2023 he described a shift on tour: at first, 'I would be in my room and just shut out everybody and go to bed. I didn't care as much as everyone else'; then 'Something hit. \"We're all here because of me. I'm also paying everyone to be here. I should be as involved as I can and make sure it's really special,\"' and he said he had cut out 'cigarettes, sex, drugs, alcohol' and was moving 'with intention.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S14"
+      ],
+      "inference": "A dated instance of choosing responsibility and focus; Seven's growth direction is toward this kind of commitment, and Six's toward steadiness. It also complicates the pure escape picture.",
+      "alternative": "Secondary (People's copy of a sponsored Apple Music video); two months after he described five relapses.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C32",
+      "claim": "Collaborators and peers who have spoken about him praise ease and charisma: Kenny Beats told GQ in 2022, 'How effortless music making and creativity is for Dominic Fike is something that people are not used to understanding'; Billie Eilish told NME in 2019 he 'is the baddest kid I've ever met in my life'; Curry Barker called himself 'such a huge fan' in 2026.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S02",
+        "S05",
+        "S01"
+      ],
+      "inference": "Third-party texture on how he comes across: effortless, magnetic, easy. Consistent with Seven, but this is praise, not testimony about motive.",
+      "alternative": "Promotional and friendly testimony; no one who knew him before 2018 except his mother has spoken on record in the sources found.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C33",
+      "claim": "His face tattoo stories vary by telling: in 2019 and 2020 the apple under his eye honored his younger sister; in July 2023 he told the Standard he got it 'weed-high' at 16, picking a MacBook logo to distract from the forehead 'LBE'; later that month he said face tattoos were a sign for disapproving 'old white dudes' ('I might as well be an eyesore'); a 2024 explainer says it was his brother's idea.",
+      "passage": "",
+      "class": "disputed",
+      "source_ids": [
+        "S06",
+        "S05",
+        "S04",
+        "S07",
+        "S25"
+      ],
+      "inference": "He tells a good story fitted to the room rather than guarding one fixed account. A small, memorable, unexplained detail; do not print any single origin as fact.",
+      "alternative": "Different questions prompted different answers (the apple vs. face tattoos in general), and the 2024 version is unsourced. Do not name his sister.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C34",
+      "claim": "'Babydoll', a 2018 song from Don't Forget About Me, Demos, went viral on TikTok in early 2026, was re-released as a single on February 27, 2026, and reached No. 10 on the Billboard Hot 100 chart dated October 24, 2026, his first top 10. 'White Keys', an old song he had found on an old phone and released November 14, 2025, also charted.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S15",
+        "S24",
+        "S19",
+        "S18",
+        "S01"
+      ],
+      "inference": "Explains why people are searching now. Not type evidence.",
+      "alternative": "Chart positions change weekly; Wikipedia's artist page still listed a No. 16 peak on 2026-10-31.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck the 'Babydoll' peak and chart run at each refresh; use 'reached No. 10 in October 2026' rather than 'is'."
+    },
+    {
+      "id": "C35",
+      "claim": "His third studio album, How To Quit Smoking (Columbia), was released October 30, 2026, after a delay from October 9: 15 tracks, about 40 minutes, billed as a 'living album' 'written, performed, & produced in real time on the road' during his Comedy Tragedy Parody Tour, which began in Australia in December 2025 after a break and ran a North American leg August 15 to September 30, 2026, alongside support dates for Tame Impala.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S16",
+        "S17",
+        "S18",
+        "S15"
+      ],
+      "inference": "Current context. The title and 'living album' concept (made in motion, released fast) fit the restlessness theme, but the article should not over-read an album concept.",
+      "alternative": "Billboard reverses the tour name ('Comedy Parody Tragedy'); use Pollstar's. The backlog note's 'Europe tour Feb 2027' was not verified and must not be printed.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck release facts, chart debut and any 2027 tour dates at refresh."
+    },
+    {
+      "id": "C36",
+      "claim": "In a 2026 Instagram post about 'Babydoll' (quoted on Wikipedia), he wrote of the house-arrest period: 'I felt like a heavy burden on everyone I interacted with, especially women. I just hated being poor so much. Looking back now that time ends up meaning the most. Before algorithms before other peoples words – even hearing from people I admire. Everything that comes after only makes it harder.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S24"
+      ],
+      "inference": "A rare written, unhurried statement; it frames the best period as the time before other people's opinions, matching his 2026 Interview remark about 2019.",
+      "alternative": "Not opened at the original; verify wording on Instagram or in a news report before quoting. 'Heavy burden' language could support a Two or Six reading (self as burden to others).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C37",
+      "claim": "In 2025 he described, of his family, 'sometimes I feel so fucking bad and sometimes I feel like crying. I'll be sitting alone and thinking about my family and want to literally just scream or cry,' and, apparently of himself, 'you sort of cater to other people and you fill that void by worrying about other people... I never extend that care to myself.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S11"
+      ],
+      "inference": "Shows the grief beneath the lightness and a caretaking habit. Against a cartoon Seven; consistent with a Seven whose pain is real but rarely stayed with, and also with Two or Six.",
+      "alternative": "Speaker attribution for the second sentence rests on turn context (it could be Dax Shepard); confirm on audio or do not quote it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C38",
+      "claim": "Type synthesis (interpretation): the most repeated, cross-context behavior in the record from 2019 to 2026 is a three-part move when pain or limitation appears: leave it for stimulation or open space (the Forest of Avalon, cocaine when 'trapped' and 'bored', the motel exit to the ocean, 'anywhere else but in my body'), recast it as fine or good (jail as a 'year off' and 'a good time', relapses 'all good', addiction 'made me better'), and keep moving ('go-mode', 'tiles under my feet', impatience to release). This is the Seven pattern of avoiding pain and limitation by keeping options and experience open.",
+      "passage": "",
+      "class": "interpretation",
+      "source_ids": [
+        "S06",
+        "S11",
+        "S09",
+        "S02",
+        "S07",
+        "S04",
+        "S08",
+        "S10"
+      ],
+      "inference": "Grounded in self-report, three journalists' independent observations and one filmed scene, across sober and using periods. It explains costly choices (the audition, the failed drug test, yacht spending, relapses) better than image (Three) or security (Six).",
+      "alternative": "Addiction and childhood trauma produce escape and minimization in every type; promotional interviews reward lightness; and the mother's 'passive, quiet observer', his reluctance to approach people, and his loyalty fit Six or Nine. See type_hypothesis.",
+      "durability": "stable",
+      "review_trigger": ""
+    }
+  ],
+  "type_hypothesis": {
+    "type": 7,
+    "confidence": "medium",
+    "for_claim_ids": [
+      "C38",
+      "C03",
+      "C05",
+      "C06",
+      "C07",
+      "C08",
+      "C09",
+      "C10",
+      "C11",
+      "C12",
+      "C13",
+      "C14",
+      "C29",
+      "C30",
+      "C16",
+      "C28"
+    ],
+    "against": "(1) The only family testimony points elsewhere: his mother calls him 'the most passive, quiet child... the observer', with his brother as the loud one (C23). That fits a watchful Nine, Five or Six better than the busy-child picture of Seven. (2) He names a security motive in his own words, 'a big problem with security and safety' from never having a home, says money worries 'influenced decisions', places stability 'always in another person', and his fatherhood goals are property, reputation and sobriety (C20, C19). (3) Anxiety and impostor feelings recur from 2018 to 2026 (C21). (4) Across six years he does not pursue people: 'fear of rejection', lets collaborators come to him, 'never been the type of guy to intrude', 'bad at asking girls out' (C22). (5) He has been a loyal provider and protector since 22: his mother's lawyer, a house, the brother he tripped a police officer to protect, his brother's treatment (C04, C24), and possibly a habit of 'worrying about other people' while neglecting himself (C37, attribution unconfirmed). (6) Most of the 'excess' and 'escape' evidence overlaps with addiction; escape and minimization are what addiction and childhood trauma produce in any type, and a sober host (Shepard) reads his thrill-seeking as a trauma-set arousal level (C03, C08, C15). (7) His claimed restlessness outruns his output: three albums in eight years, a 2024-2025 break, 'finicky with dates' (C10). (8) The record is mostly self-report in promotional settings by a natural comic; three journalists' observations and one filmed scene are the only non-self-report behavior evidence, and the testimony (mother, Kenny Beats, Billie Eilish, Curry Barker) is brief or praise.",
+    "alternative_type": 6,
+    "alternative_case": "Type 6 explains the parts of the record Seven handles worst. Safety is an explicit, recurring concern in his own words: 'I've always had a big problem with security and safety 'cause I've moved around so much as a kid and I never really felt like I had a home' (Zane Lowe, 2023), and the 'next check' mindset shaped decisions (C20). He held out for a large deal 'now or never' to pay his mother's lawyer and promised 'I'm not gonna let anyone down' (2019). Loyalty is his most consistent virtue: to his mother, his brother, his childhood friends (he hired one as his chef), and to one manager since 2018, whom he asks to overrule him ('Don't listen to me. I'm manipulative!') (C24, C26). He reports anxiety, impostor fear ('eventually people are going to figure out this like ruse'), nerves before sessions and overthinking (C21); he fears rejection and won't approach people (C22); he wants 'an older mentor' and says he is 'codependent on human beings' (C12, S09). His suspicion of men and male authority after abusive stepfathers (C25), his counterphobic act of knocking down an officer he thought had drawn a gun on his brother (C04), and his defiance of Naples' 'old white dudes' with face tattoos (C33) fit a counterphobic Six. Fatherhood has turned his goals toward property, reputation and stability (C19). Where Six strains: he rarely prepares, tests or doubts. He signed Levinson's five-year contract with 'Brother, got you' without grasping the stakes (C16), accepted a $4 million deal over champagne, describes the future as tiles appearing under his feet, and meets threat by leaving or joking rather than by vigilance or worst-case planning (C06, C10, C11). His security talk is tied to concrete deprivation and described as fading ('I feel safer now'). Other types tested and set aside: Nine (the quiet-observer childhood, non-intrusion, 'I'm chilling', numbing) fails on his appetite for intensity, 'I want all of it', 'all the way there without dying' and 'ride this... until the wheels fall off' (C08, C09); Four (confessional songs, impostor feeling, feeling like an 'eyesore', writing alone) fails on his refusal to dwell: he calls emotional song talk 'trying to cheat a connection', closes chapters, and found crying on command 'fucked up... horrible' (C11, C13, C14, S02); Three (wanted to 'blow up', watches metrics, 'just keeps winning') fails on his volunteered failures and his wish for messy rather than polished fame (C09, C27); Eight (excess, defiance, protecting his brother) fails on his aversion to confrontation and dominance and his deference to managers (C22, C25, C26); Two (providing for family, 'cater to other people') fails because helping is not how he describes his worth or identity, and he resists being cared for only half-jokingly (S11).",
+    "discriminator": "What he does when pain, threat or limitation arrives. A Six moves toward certainty and support: vigilance, preparation, testing people and authority, worst-case thinking, holding on. A Seven moves away from the pain toward stimulation and options and recasts it as fine. Across 2019-2026, eight outlets, sober and using periods, and one filmed scene, Fike does the second: he left a painful home for an adventure he wanted to be dangerous ('I wanted Alice in Wonderland', C03); used cocaine because he was 'trapped' and 'bored' on house arrest (C05); called jail 'a year off' and 'a good time' (C06); said of five relapses 'it's all good, I'm good' (C06); walked out of the motel room of his childhood after five minutes, 'this is too much, should we go to fucking beach', and swam (C11); described being alone as needing to 'be anywhere else but in my body' (C12); and used music because 'it's really nice to not think about shit' (C13). Three journalists independently saw the same reflex (C07), and he named it himself: the 'Transformers band-aid' over a 'gash' (C30). The Six reading predicts doubt and testing of the people and institutions he depends on; instead he trusts on a handshake (C16). Limit: the escape move is also what addiction and trauma produce, so the case rests on its persistence into sober periods (2023 motel and tour, 2025-2026 interviews) and on his own stated strategy, not on the drug history.",
+    "unexplained": "His mother's memory of a passive, quiet, watchful child (C23); his durable reluctance to approach people, from 'fear of rejection' in 2020 to 'bad at asking girls out' in 2026 (C22); a deep, steady loyalty and provider role since age 22 that a Seven reading treats as secondary (C24); a self-deprecation he calls 'self-protection' ('I already know I'm a piece of shit', C27) that reads as shame more than lightness; grief he describes when alone ('want to literally just scream or cry', C37) that the interviews rarely show; face-tattoo origin stories that change by telling (C33); and whether the 2026 restraint (less partying, less public exposure, fatherhood, recording what he called 'the most like professional studio album I've ever done') is a Seven's growth toward focus or a sign the security motive was primary all along. A Seven with a strong Six wing would cover some of this (codependency, anxiety, loyalty), but that is a speculative refinement, not evidence; leave the wing unknown in print."
+  },
+  "profile_format": "standard"
+}

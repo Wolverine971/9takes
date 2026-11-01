@@ -1,5 +1,5 @@
 {
-	"generatedAt": "2026-10-30",
+	"generatedAt": "2026-11-01",
 	"gsc": {
 		"runDate": "2026-10-19",
 		"window": {
@@ -13,10 +13,10 @@
 		"minOut": 3
 	},
 	"counts": {
-		"candidates": 336,
+		"candidates": 337,
 		"gateDebt": 0,
 		"topBlog": 40,
-		"peopleBridge": 17,
+		"peopleBridge": 18,
 		"peopleToPeople": 1,
 		"skipped": 262
 	},
@@ -1535,6 +1535,33 @@
 			"phraseKind": "name",
 			"mentionScore": 3,
 			"excerpt": "**Public-figure interpretations:** Bill Gates, [Stephen Hawking](/personality-analysis/stephen-hawking), [Mark Zuckerberg](/personality-analysis/mark-zuckerberg)"
+		},
+		{
+			"id": "/pop-culture/podcast-bros-enneagram-analysis -> /personality-analysis/naval-ravikant",
+			"score": 1.05,
+			"target": {
+				"url": "/personality-analysis/naval-ravikant",
+				"title": "Naval Ravikant",
+				"kind": "person",
+				"section": "people",
+				"impressions": 0,
+				"clicks": 0,
+				"position": null,
+				"inbound": 0
+			},
+			"source": {
+				"url": "/pop-culture/podcast-bros-enneagram-analysis",
+				"file": "src/blog/pop-culture/podcast-bros-enneagram-analysis.md",
+				"section": "pop-culture",
+				"impressions": 0,
+				"outCount": 11
+			},
+			"line": 116,
+			"anchor": "Naval Ravikant",
+			"phrase": "Naval Ravikant",
+			"phraseKind": "name",
+			"mentionScore": 3,
+			"excerpt": "…Huberman, and so on. The shared guest pool—Elon Musk, [David Goggins](/personality-analysis/david-goggins), Naval Ravikant, Matthew Walker, Jocko Willink—created recurring characters that listeners followed across shows."
 		},
 		{
 			"id": "/pop-culture/podcast-bros-enneagram-analysis -> /personality-analysis/andrew-schulz",

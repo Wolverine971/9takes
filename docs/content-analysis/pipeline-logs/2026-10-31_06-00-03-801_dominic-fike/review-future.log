@@ -1,0 +1,33 @@
+I wrote the five-year (future) review to `review-future.json`. It passes the pipeline's review schema, every quoted passage matches the draft exactly, and the two hashes match the request. I changed no other files and published nothing.
+
+**What holds up:** take away the "Babydoll" chart run and the October 30, 2026 album, and the profile still works. The opening is the July 2023 motel scene, the main argument runs on 2016–2025 material, and the "Transformers band-aid" quote is from 2025.
+
+**Where it fails: the sentence that tips the read to Type 7.** The article says his urge to escape shows up "in sober stretches as well as using ones." The dates don't support that:
+- The motel film is dated by its release (July 5, 2023). Nobody recorded when it was filmed, and that same month he described a year of sobriety broken by five relapses.
+- The 2026 quote about music letting him "not think about shit" is him looking back on his Florida years before jail. I confirmed that in the cached transcript. The draft presents it as what he does now.
+- What he says in 2026 mostly points toward restraint, which the article's own ending admits.
+
+**Findings:** 3 major, 5 minor.
+
+| ID | Severity | Issue |
+|---|---|---|
+| future-01 | major | The "sober stretches" claim above |
+| future-02 | major | The 2026 music quote is about 2018 |
+| future-03 | major | The "Who is" FAQ's "His three studio albums are…" goes false with his next album, and it isn't flagged to be rechecked |
+| future-04 | minor | Two dates are publication dates, not event dates (the opening scene and the Interview magazine quotes) |
+| future-05 | minor | "The test is still ahead" isn't dated. The test is likely to get evidence soon from interviews about the new album, and nothing in the record is set to trigger a recheck |
+| future-06 | minor | Whether he appears in Euphoria season 3 is open and no longer tracked. My web search couldn't settle it |
+| future-07 | minor | The FAQ "Is Dominic Fike sober?" asks about his current status, and its recheck notes are vague |
+| future-08 | minor | "Reached No. 10" will read as the song's peak, but it was still climbing |
+
+**Risk flag:** I marked the type as contested, which the research stage left open for a reviewer to do. With this flag on, any later refresh runs the full six-reviewer panel instead of the smaller two-reviewer one.
+
+**Similarity check:** it flagged phrasing shared with the Florence Pugh, Dylan Patel and Kareem Rahma profiles. I compared those drafts. The overlap is standard Enneagram language in the house triad-first opening, not copied argument.
+
+I also kept five passages for the editor to preserve, including the opening scene's summary, the jail story told three different ways across the years, and the closing line about "Babydoll."
+
+Web searches used:
+- [Hypebeast: Fike reportedly returning for Euphoria S3](https://hypebeast.com/2025/2/dominic-fike-returning-hbo-euphoria-season-3)
+- [NME: Fike to return for season three](https://www.nme.com/news/tv/dominic-fike-to-return-for-euphoria-season-three-3171495)
+- [Stereogum: first top 10 with "Babydoll"](https://www.stereogum.com/2515085/dominic-fike-shares-new-single-pangea-earns-first-top-10-hit-with-8-year-old-babydoll/music)
+- [Ratings Game Music: first Hot 100 top 10](https://ratingsgamemusic.com/2026/10/19/dominic-fike-babydoll-first-hot-100-top-10/)

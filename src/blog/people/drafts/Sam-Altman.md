@@ -373,7 +373,7 @@ The answer is the clearest statement of his emotional operating system anyone ha
 
 > "I think most people think about the opposite of a bad experience as a good experience, and they would rather have the good experience because [it] seems like more fun or more pleasant or whatever. But if you think about it, the opposite of a bad experience is no experience. And at some point in the not-too-distant future, you'll be in no-experience land. Then you can be grateful for the bad experience too."
 
-Then he reached for a line from Naval Ravikant:
+Then he reached for a line from [Naval Ravikant](/personality-analysis/naval-ravikant):
 
 > "If you had a fast-forward button on a remote for your life, your life would be over. And so the boring parts, the bad parts, it's much better than no experience. It's all part of the interestingness and the kind of emotional depth and range."
 

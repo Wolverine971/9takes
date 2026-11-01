@@ -1,0 +1,333 @@
+{
+  "schema_version": 3,
+  "decisions": [
+    {
+      "finding_id": "subject-01",
+      "action": "fixed",
+      "reason": "Removed Hunter Schafer's infidelity account and the \"No public response from Fike had been found\" sentence entirely (claims C18 and C80 dropped). Checked the cached ELLE page: in the same passage she says \"He's talked about this, too—in his songs, he writes about it,\" so the no-response sentence misreported the record, and the account was never type evidence (C18 said so) while its placement after \"the end of my relationships\" implied an escape motive. The relationship line now reports only what he said in the film: codependency often ends his relationships and, of a recent breakup he did not name, that he was done with relationships for now (C79). No sentence links any allegation to the Seven thesis; no lyrics are interpreted."
+    },
+    {
+      "finding_id": "subject-02",
+      "action": "fixed",
+      "reason": "The Schafer material is cut, so nothing sits between \"the end of my relationships\" and the music paragraph. The music paragraph opens on its own subject (\"Music was another place to go\") with a dated retrospective quote, and the codependency passage is explicitly split into a Seven half and a Six half (C137). No sentence ties any allegation to the type argument."
+    },
+    {
+      "finding_id": "subject-03",
+      "action": "fixed",
+      "reason": "Re-transcribed Armchair Expert 01:01:55-01:02:50 with Whisper medium.en: Levinson says \"I know that you get fucked up obviously... We can get someone to help you, but you have to do this... This is a formality... I need to know that you're not gonna like fuck me on this,\" and Fike says \"brother, got you. Like I'm not understanding the stakes still of this show... when you see that budget.\" The body now gives that framing (Levinson knew about the drugs, offered help, called the contract \"a formality,\" asked for a promise; \"the stakes\" are the show's scale). The exchange is no longer used as type evidence: it is out of the discriminator, out of the \"Why isn't Dominic Fike a Type 6?\" FAQ, and C16's inference/alternative now say it fits Six at least as well as Seven. Quote corrected from \"going to\" to \"gonna\" per the audio."
+    },
+    {
+      "finding_id": "subject-04",
+      "action": "fixed",
+      "reason": "Took option (b). The \"Cocaine's awesome\" line and \"As long as you can handle it\" are cut from the article and C75 is removed. The paragraph keeps his dated self-report, re-read in the cached medium transcript: \"for a while I was just very loose with my definition of it\" and \"still kind of to this day, like, figuring it out\" (new C115, which records that the speaker is assigned by turn context, not by ear, and that the brother's treatment is not printed)."
+    },
+    {
+      "finding_id": "subject-05",
+      "action": "fixed",
+      "reason": "The paragraph now attributes the 2021 status to Variety (\"Variety reported in August 2021 that he was sober\") and sets his 2023 Guardian words beside it, then says the two accounts sit two years apart and a shoot that ran through 2021 may hold both. \"Both are his words\" is gone; nothing implies he lied (C72 reclassed third_party)."
+    },
+    {
+      "finding_id": "subject-06",
+      "action": "fixed",
+      "reason": "Hook: \"He leaves before it can settle on him\" is replaced by the observable sequence and the reading is labeled: \"My read, which the film cannot prove, is that he was gone before the feeling could settle.\" \"He reaches the upside before anyone can sit him down in the bad part\" is cut and replaced with a labeled reading (\"My reading is that he makes the hard facts light without turning them into a lesson\"). The brother sentence now says \"came, by his account, from trying to keep a police officer off his brother\" (C89 reclassed self_report)."
+    },
+    {
+      "finding_id": "subject-07",
+      "action": "fixed",
+      "reason": "Both places now date the Interview remarks to August 2026: \"still there in August 2026, when he told Interview, in a conversation published that October\" and \"In August he told Interview.\" The rivals paragraph says \"a conversation recorded in August 2026.\" S01 already records the header (Tuesday, August 11, 2026); C87 and C28 inferences note the date."
+    },
+    {
+      "finding_id": "subject-08",
+      "action": "fixed",
+      "reason": "Description now reads: Dominic Fike called jail \"a year off,\" later \"a purgatory,\" and walked out of his childhood motel room on a 2023 visit. Why Type 7 narrowly leads Type 6. (153 characters.) It signals the range of his jail accounts and that the motel scene was an adult return visit in 2023. The Type 6 FAQ no longer mentions the motel and gives the jail range (\"a year off,\" \"a purgatory\" and \"a good time\")."
+    },
+    {
+      "finding_id": "fan-01",
+      "action": "fixed",
+      "reason": "Removed Hunter Schafer's infidelity account and the \"No public response from Fike had been found\" sentence entirely (claims C18 and C80 dropped). Checked the cached ELLE page: in the same passage she says \"He's talked about this, too—in his songs, he writes about it,\" so the no-response sentence misreported the record, and the account was never type evidence (C18 said so) while its placement after \"the end of my relationships\" implied an escape motive. The relationship line now reports only what he said in the film: codependency often ends his relationships and, of a recent breakup he did not name, that he was done with relationships for now (C79). No sentence links any allegation to the Seven thesis; no lyrics are interpreted. The test's first clause presupposed the passage stayed; the other acceptance tests on the same sentence (subject-01, subject-02, critic-09, unfamiliar-03) allow cutting, and cutting removes the misleading silence without interpreting any song."
+    },
+    {
+      "finding_id": "fan-02",
+      "action": "fixed",
+      "reason": "The closing now says plainly that the existing answers to \"what steadies him\" lean Six (\"Asked what steadies him, he has mostly named people, which leans Six\"), backed in the Six section by the 2023 studio-community line (C105, re-transcribed), the mentor wish (C116), stability \"always in another person\" (C138, re-transcribed) and the 2023 tour structure (C119, People). The shift toward restraint is dated from the 2023 tour (\"though the turn began with that 2023 tour\"). The forward test is replaced with one the record has not answered and that targets the retelling pattern carrying the Seven case: how he tells the next public setback a year later. It is dated \"As of October 2026\" and C96 has a concrete trigger (release-week interviews in November 2026, reopen by 2027-01-31). The type answer and FAQ stay at medium confidence with Six as a close rival."
+    },
+    {
+      "finding_id": "fan-03",
+      "action": "fixed",
+      "reason": "Added, attributed to the Pigeons & Planes profile (reported late 2018, published January 2019; checked on the cached page): a guitar by about ten and teenage freestyle sessions at the Backhouse (C104), and the wiped Naples catalog with \"Yo, before you drop it, wipe everything... I was trying to get away from that fuckin' 'Everyone knows you'\" placed at the head of the fresh-start section beside the 2023 friend-group line and the 2025 \"no one knows you\" line (C112, C132). The Lowe film's \"studio and the community\" line (re-transcribed) is added for the teenage years (C105). The mother's quote now acknowledges she was answering Lowe's question about his music, with her \"used to pick up anything and make music with it\" (C23). SXSW/college and the industry-plant backdrop were not added: the SXSW detail is not in the cached page text and the body was already near the word ceiling."
+    },
+    {
+      "finding_id": "fan-04",
+      "action": "fixed",
+      "reason": "Added to \"What the Seven reading leaves out\" with its source (People via Yahoo, September 2023): \"towards the end, it started to wear on me. I would be in my room and just shut out everybody and go to bed.\" The article says a Seven reading calls that burnout, that it also looks like a Nine's withdrawal, and that it is not a man who cannot stand being alone (C127)."
+    },
+    {
+      "finding_id": "fan-05",
+      "action": "fixed",
+      "reason": "The line now appears with its context and full wording: asked in July 2023 about going back to film a third season of Euphoria, he said \"You know how sometimes when you want to change, you need to refresh your whole friend group? Feels like moving backwards on that front\" (TheWrap quoting the LA Times; C29). The February 2025 return is attributed to Variety, and the article does not say whether his season 3 scenes aired (C113, unresolved with trigger)."
+    },
+    {
+      "finding_id": "fan-06",
+      "action": "fixed",
+      "reason": "Both passages now use Fike's own account. The house-arrest paragraph says his then-manager David Fernandez bought him equipment (P&P 2019) and that by Fike's account he made the tape at Fernandez's mother's house (P&P 2026 video, 03:52-04:07). The closing says he recorded \"Babydoll\" \"at Fernandez's mother's house, 'in the little sister room.'\" GQ's \"friend's apartment\" is no longer printed (C60 alternative records it). The closing image is unchanged."
+    },
+    {
+      "finding_id": "fan-07",
+      "action": "fixed",
+      "reason": "The three-type \"X handles fear by Y\" primer and \"It waits\" are gone. The triad paragraph is tied to the motel scene (\"Put each of them in that motel room...\"). Rerunning scripts/same-type-similarity.mjs on edit.md (2026-10-31) gives tripped: false; no pair from this paragraph appears. The one remaining near-match (\"reach for the next experience,\" Travis Kelce) was reworded in the type answer and FAQ."
+    },
+    {
+      "finding_id": "fan-08",
+      "action": "fixed",
+      "reason": "Added beside the Levinson rewrite, dated and attributed: \"'He's exactly like me,' he told Variety in August 2021. 'It's shit I would say and shit I would do.'\" It is framed as his self-description; nothing attributes Elliot's fictional actions to him (C109)."
+    },
+    {
+      "finding_id": "critic-01",
+      "action": "fixed",
+      "reason": "The Six section now names the counterphobic Six in plain language (\"Some Sixes go straight at whatever scares them, to prove it has no hold on them\") and concedes what it explains: the 2016 knock-down of an officer he thought had a gun, the face-tattoo defiance and the child who \"wanted there to be some sort of danger\" (C118). The discriminator no longer relies on \"moves away\": it contrasts danger sought to master a threat with danger sought as wonder (\"another place,\" \"like we'd traveled through time,\" \"Alice in Wonderland\"), plus the light retelling and clean-slate pleasure (C121). The triad paragraph no longer defines Six as bracing (it allows \"stays to face the room down or reaches for someone steady\"), and the type FAQ no longer contains the brace/prepare definition; the Type 6 FAQ names the counterphobic case."
+    },
+    {
+      "finding_id": "critic-02",
+      "action": "fixed",
+      "reason": "Re-transcribed Armchair Expert 01:01:55-01:02:50 with Whisper medium.en: Levinson says \"I know that you get fucked up obviously... We can get someone to help you, but you have to do this... This is a formality... I need to know that you're not gonna like fuck me on this,\" and Fike says \"brother, got you. Like I'm not understanding the stakes still of this show... when you see that budget.\" The body now gives that framing (Levinson knew about the drugs, offered help, called the contract \"a formality,\" asked for a promise; \"the stakes\" are the show's scale). The exchange is no longer used as type evidence: it is out of the discriminator, out of the \"Why isn't Dominic Fike a Type 6?\" FAQ, and C16's inference/alternative now say it fits Six at least as well as Seven. Quote corrected from \"going to\" to \"gonna\" per the audio. The tiles line is kept as an image but followed by \"Then again, other people are laying those tiles, and trusting the people who lay them is a Six habit too,\" so it is no longer evidence against relying on others (C133)."
+    },
+    {
+      "finding_id": "critic-03",
+      "action": "fixed",
+      "reason": "Speaker/wording check by Whisper medium.en re-run of the cached audio (24:15-24:45 and 47:18-48:08; not by ear, recorded in S09 and C116/C120/C138). The Six section now quotes the mentor wish, the manager arrangement (Standard 2023) and, in its own passage, \"that is my idea of stability and it's always in another person, so maybe I need to rethink that,\" and says the second half of that answer is the Six reading. \"The plainest statement of the pattern\" is dropped; the codependency passage is now introduced as cutting two ways (C137)."
+    },
+    {
+      "finding_id": "critic-04",
+      "action": "fixed",
+      "reason": "The tipping claim is withdrawn. Removed \"The escape move does not ease. It shows up in sober stretches...\" and C92 (release week used as a stand-in for sobriety at filming). The Six section now ends on \"The limits are real\": most Seven evidence is retelling in interviews, the 2026 dated material runs toward restraint and security, and Seven leads \"narrowly\" (C122, time_sensitive with a dated trigger). The new discriminator (C121) rests on the shape of his stories, not on sober-period persistence. The April 2026 music quote is dated as a look back at his pre-jail Florida years (C13). type_hypothesis.discriminator carries the same limit; confidence stays medium, and the type answer and FAQ say Type 6 is a close rival."
+    },
+    {
+      "finding_id": "critic-05",
+      "action": "fixed",
+      "reason": "The hook now says the visit was his idea (Lowe voiceover, 00:28:27; C102). Speaker check recorded in C41: a Whisper medium re-run of 33:08-33:33 renders \"Should we leave? / I'm down. Let's go\" and the beach lines with no speaker labels, and a 2 fps frame sheet shows Lowe rising first, so neither the leaving suggestion nor the beach line is credited to Fike; the text says \"Who first suggested leaving is hard to tell from the audio\" and \"They went to the beach.\" Only \"It's really weird. I feel like tense.\" is quoted (C11). The next paragraph says the film was built to end at the water, quoting the opening narration (C103), so \"the beach proves little.\" The description no longer says he left \"for the ocean,\" and the Type 6 FAQ no longer uses the motel."
+    },
+    {
+      "finding_id": "critic-06",
+      "action": "fixed",
+      "reason": "Godwin's line is now read fairly: \"In Godwin's piece, that refusal comes with 'I'll always be a drug addict.'\" Hine's next clause is added (\"acknowledges that things got dark during that period\"). \"What the writers keep describing is speed\" and \"He reaches the upside...\" are cut; the replacement is marked as the author's reading, and a clause says all three writers met him on promotional rounds, where a light touch plays best (C07, C135). The protected redemption sentence is unchanged."
+    },
+    {
+      "finding_id": "critic-07",
+      "action": "fixed",
+      "reason": "The superlative is dropped. The setup now notes that Shepard, himself in recovery (he describes getting sober at 00:08:13 of the episode), prompted it with a question about success masking addiction. A new gloss says the band-aid is the money and success, that any successful addict could reach the insight and a Three would recognize the money covering the wound, and that what fits the Seven reading is the cheerful cover, i.e. it is consistent with Seven rather than proof (C134). The protected \"reframing / Transformers band-aid\" lines are kept."
+    },
+    {
+      "finding_id": "critic-08",
+      "action": "fixed",
+      "reason": "Added a Nine test in the rivals passage: Nine explains the quiet child, his reluctance to intrude and the numbing-type escapes (\"anywhere else but in my body,\" music as \"a good place to hide\"); appetite sets it aside, with the non-drug 2023 line \"ride this bitch out until the wheels fall off... or else I feel like I didn't do it right\" (Whisper medium re-run of 47:18-48:08) as the discriminator, and the article notes that some of the appetite evidence is drug-era (C123). The \"not think about shit\" quote is now used only as dated retrospective evidence and is acknowledged as Nine-compatible; it no longer answers Four. The first-tour withdrawal is added as Nine-compatible counterevidence (C127). The Four sentence now engages \"cathartic\" directly (\"a real point for Four\") and answers it with his dislike of emotional song talk and his declared closed chapter, not with the retrospective music quote (C124)."
+    },
+    {
+      "finding_id": "critic-09",
+      "action": "fixed",
+      "reason": "Removed Hunter Schafer's infidelity account and the \"No public response from Fike had been found\" sentence entirely (claims C18 and C80 dropped). Checked the cached ELLE page: in the same passage she says \"He's talked about this, too—in his songs, he writes about it,\" so the no-response sentence misreported the record, and the account was never type evidence (C18 said so) while its placement after \"the end of my relationships\" implied an escape motive. The relationship line now reports only what he said in the film: codependency often ends his relationships and, of a recent breakup he did not name, that he was done with relationships for now (C79). No sentence links any allegation to the Seven thesis; no lyrics are interpreted."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "action": "fixed",
+      "reason": "The tipping claim is withdrawn. Removed \"The escape move does not ease. It shows up in sober stretches...\" and C92 (release week used as a stand-in for sobriety at filming). The Six section now ends on \"The limits are real\": most Seven evidence is retelling in interviews, the 2026 dated material runs toward restraint and security, and Seven leads \"narrowly\" (C122, time_sensitive with a dated trigger). The new discriminator (C121) rests on the shape of his stories, not on sober-period persistence. The April 2026 music quote is dated as a look back at his pre-jail Florida years (C13). type_hypothesis.discriminator carries the same limit; confidence stays medium, and the type answer and FAQ say Type 6 is a close rival."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "action": "fixed",
+      "reason": "The jail paragraph now says the failed test broke his probation and he got a year in jail (Guardian), was held in Collier County Jail and released in April 2018, and the Guardian bullet reads \"Of his first six months inside.\" Before the lawyer quote, the text says his mother was facing drug charges and the first Columbia money went to a lawyer to reduce her sentence (P&P; C107, C108), so the later \"drove his mother to jail\" detail makes sense."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "action": "fixed",
+      "reason": "The section was split. \"Anywhere else but in his body\" now covers being alone, the two-way codependency reading, the dated music-as-hiding quote and closing the childhood chapter (about 255 words). A new \"You're a baby again\" section carries fresh starts, recovery and the band-aid. The Schafer paragraph is cut, the corny/cathartic exchange moved to the Four test, and the cocaine line removed, so the band-aid arrives in fewer beats."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "action": "fixed",
+      "reason": "Added a Nine test in the rivals passage: Nine explains the quiet child, his reluctance to intrude and the numbing-type escapes (\"anywhere else but in my body,\" music as \"a good place to hide\"); appetite sets it aside, with the non-drug 2023 line \"ride this bitch out until the wheels fall off... or else I feel like I didn't do it right\" (Whisper medium re-run of 47:18-48:08) as the discriminator, and the article notes that some of the appetite evidence is drug-era (C123). The \"not think about shit\" quote is now used only as dated retrospective evidence and is acknowledged as Nine-compatible; it no longer answers Four. The first-tour withdrawal is added as Nine-compatible counterevidence (C127)."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "action": "fixed",
+      "reason": "First mentions now read \"'I started peaking right when me and Barbie were reading,' meaning cast member Barbie Ferreira\" and \"Sam Levinson, the show's creator.\" No new claims beyond GQ and Armchair context."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "action": "fixed",
+      "reason": "Resolved with fan-06: both passages give Fike's own account (Fernandez bought the equipment; he made the tape at Fernandez's mother's house). The ending's house-arrest framing still rests on P&P 2019 and NME 2020 (C97, C98, C101)."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "action": "fixed",
+      "reason": "The sentence now states the logic plainly: \"He was being drug-tested, so he picked drugs that leave the body fast, cocaine among them.\" His quoted words are unchanged; the cached transcript supports it (\"Coke's like three days, yeah?\"), recorded in C61."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "action": "fixed",
+      "reason": "Description now reads: Dominic Fike called jail \"a year off,\" later \"a purgatory,\" and walked out of his childhood motel room on a 2023 visit. Why Type 7 narrowly leads Type 6. (153 characters.) It signals the range of his jail accounts and that the motel scene was an adult return visit in 2023. The Type 6 FAQ no longer mentions the motel and gives the jail range (\"a year off,\" \"a purgatory\" and \"a good time\")."
+    },
+    {
+      "finding_id": "enneagram-F1",
+      "action": "fixed",
+      "reason": "The Six section now names the counterphobic Six in plain language (\"Some Sixes go straight at whatever scares them, to prove it has no hold on them\") and concedes what it explains: the 2016 knock-down of an officer he thought had a gun, the face-tattoo defiance and the child who \"wanted there to be some sort of danger\" (C118). The discriminator no longer relies on \"moves away\": it contrasts danger sought to master a threat with danger sought as wonder (\"another place,\" \"like we'd traveled through time,\" \"Alice in Wonderland\"), plus the light retelling and clean-slate pleasure (C121). The triad paragraph no longer defines Six as bracing (it allows \"stays to face the room down or reaches for someone steady\"), and the type FAQ no longer contains the brace/prepare definition; the Type 6 FAQ names the counterphobic case. The similarity diagnostic rerun on edit.md does not trip."
+    },
+    {
+      "finding_id": "enneagram-F2",
+      "action": "fixed",
+      "reason": "\"Plainest statement of the pattern\" is dropped; the passage is introduced as cutting two ways, with escaping being alone as the Seven half and needing people as the Six half (C137). The Six section adds the mentor wish (re-transcribed 24:15-24:45), stability \"always in another person\" (re-transcribed 47:18-48:08 with Whisper medium, not auto-caption), and the Reed Bennett arrangement (Standard 2023), and the next paragraphs explain why they do not flip the read while conceding that the dated answers lean Six."
+    },
+    {
+      "finding_id": "enneagram-F3",
+      "action": "fixed",
+      "reason": "Re-transcribed Armchair Expert 01:01:55-01:02:50 with Whisper medium.en: Levinson says \"I know that you get fucked up obviously... We can get someone to help you, but you have to do this... This is a formality... I need to know that you're not gonna like fuck me on this,\" and Fike says \"brother, got you. Like I'm not understanding the stakes still of this show... when you see that budget.\" The body now gives that framing (Levinson knew about the drugs, offered help, called the contract \"a formality,\" asked for a promise; \"the stakes\" are the show's scale). The exchange is no longer used as type evidence: it is out of the discriminator, out of the \"Why isn't Dominic Fike a Type 6?\" FAQ, and C16's inference/alternative now say it fits Six at least as well as Seven. Quote corrected from \"going to\" to \"gonna\" per the audio. The discriminator list is replaced by three observations that actually separate the types in this record (C121)."
+    },
+    {
+      "finding_id": "enneagram-F4",
+      "action": "fixed",
+      "reason": "The tipping claim is withdrawn. Removed \"The escape move does not ease. It shows up in sober stretches...\" and C92 (release week used as a stand-in for sobriety at filming). The Six section now ends on \"The limits are real\": most Seven evidence is retelling in interviews, the 2026 dated material runs toward restraint and security, and Seven leads \"narrowly\" (C122, time_sensitive with a dated trigger). The new discriminator (C121) rests on the shape of his stories, not on sober-period persistence. The April 2026 music quote is dated as a look back at his pre-jail Florida years (C13). type_hypothesis.discriminator carries the same limit; confidence stays medium, and the type answer and FAQ say Type 6 is a close rival. Retrospective accounts are now marked as such (\"looking back on his Florida years before jail\"), and \"Music works the same way for him\" is gone."
+    },
+    {
+      "finding_id": "enneagram-F5",
+      "action": "fixed",
+      "reason": "The closing now says plainly that the existing answers to \"what steadies him\" lean Six (\"Asked what steadies him, he has mostly named people, which leans Six\"), backed in the Six section by the 2023 studio-community line (C105, re-transcribed), the mentor wish (C116), stability \"always in another person\" (C138, re-transcribed) and the 2023 tour structure (C119, People). The shift toward restraint is dated from the 2023 tour (\"though the turn began with that 2023 tour\"). The forward test is replaced with one the record has not answered and that targets the retelling pattern carrying the Seven case: how he tells the next public setback a year later. It is dated \"As of October 2026\" and C96 has a concrete trigger (release-week interviews in November 2026, reopen by 2027-01-31). The type answer and FAQ stay at medium confidence with Six as a close rival. The soft growth framing is kept only as one side of the open question, and what keeps Seven in front is named (C121: danger as wonder, the jail retellings, \"wipe everything\" to \"You're a baby again\")."
+    },
+    {
+      "finding_id": "enneagram-F6",
+      "action": "fixed",
+      "reason": "Added a Nine test in the rivals passage: Nine explains the quiet child, his reluctance to intrude and the numbing-type escapes (\"anywhere else but in my body,\" music as \"a good place to hide\"); appetite sets it aside, with the non-drug 2023 line \"ride this bitch out until the wheels fall off... or else I feel like I didn't do it right\" (Whisper medium re-run of 47:18-48:08) as the discriminator, and the article notes that some of the appetite evidence is drug-era (C123). The \"not think about shit\" quote is now used only as dated retrospective evidence and is acknowledged as Nine-compatible; it no longer answers Four. The first-tour withdrawal is added as Nine-compatible counterevidence (C127)."
+    },
+    {
+      "finding_id": "enneagram-F7",
+      "action": "fixed",
+      "reason": "The Three sentence now acknowledges the audience-orientation material from the August 2026 Interview conversation (\"I have the metrics\"; \"I was only thinking about what other people wanted\") and rests the dismissal on a discriminating observation, Godwin watching him refuse the redemption story, instead of \"volunteers the failures\" (C125). The \"biggest f*** up\" line and C27 are removed."
+    },
+    {
+      "finding_id": "enneagram-F8",
+      "action": "fixed",
+      "reason": "The gloss now names what the band-aid is (\"the money and the success, and 'I'm doing great' is what it let him say\"), presents it as consistent with the Seven reading (the cheerful cover) rather than the record's best evidence, and notes a Three reading fits the money-as-cover part. \"Reframing\" is kept for the \"what do you mean? I'm doing great\" move it accurately names; the superlative is gone (C134)."
+    },
+    {
+      "finding_id": "future-01",
+      "action": "fixed",
+      "reason": "The tipping claim is withdrawn. Removed \"The escape move does not ease. It shows up in sober stretches...\" and C92 (release week used as a stand-in for sobriety at filming). The Six section now ends on \"The limits are real\": most Seven evidence is retelling in interviews, the 2026 dated material runs toward restraint and security, and Seven leads \"narrowly\" (C122, time_sensitive with a dated trigger). The new discriminator (C121) rests on the shape of his stories, not on sober-period persistence. The April 2026 music quote is dated as a look back at his pre-jail Florida years (C13). type_hypothesis.discriminator carries the same limit; confidence stays medium, and the type answer and FAQ say Type 6 is a close rival. The motel scene is no longer counted as sober-period evidence, and the hook dates the film by release (\"released in July 2023\")."
+    },
+    {
+      "finding_id": "future-02",
+      "action": "fixed",
+      "reason": "The quote is now framed as retrospective: \"In a Pigeons & Planes video released in April 2026, looking back on his Florida years before jail, he said, 'When I was super bummy it was a good place to hide like in studios,'\" and no sentence uses it as 2026 behavior or against Four. C13 records the surrounding minute (failed test, finishing a song before jail). The optional \"It's like running\" quote was not added, to stay under the word ceiling."
+    },
+    {
+      "finding_id": "future-03",
+      "action": "fixed",
+      "reason": "The Who is FAQ now reads \"By October 2026 he had released three studio albums: What Could Possibly Go Wrong (2020), Sunburn (2023) and How To Quit Smoking (October 30, 2026).\" C100 is time_sensitive with the trigger \"New studio album release or new Euphoria appearance: update the Who is FAQ, knows_about and occupation.\""
+    },
+    {
+      "finding_id": "future-04",
+      "action": "fixed",
+      "reason": "The hook reads \"In an Apple Music film released in July 2023.\" The Interview remarks are dated to the August 2026 conversation (published October). Other publication-dated events were also corrected: Pigeons & Planes quotes are attributed to late 2018 reporting for a January 2019 profile, the Armchair Expert material to \"an episode released in September 2025,\" and the April 2026 video to its release. S01.date already cites the conversation header."
+    },
+    {
+      "finding_id": "future-05",
+      "action": "fixed",
+      "reason": "The closing now says plainly that the existing answers to \"what steadies him\" lean Six (\"Asked what steadies him, he has mostly named people, which leans Six\"), backed in the Six section by the 2023 studio-community line (C105, re-transcribed), the mentor wish (C116), stability \"always in another person\" (C138, re-transcribed) and the 2023 tour structure (C119, People). The shift toward restraint is dated from the 2023 tour (\"though the turn began with that 2023 tour\"). The forward test is replaced with one the record has not answered and that targets the retelling pattern carrying the Seven case: how he tells the next public setback a year later. It is dated \"As of October 2026\" and C96 has a concrete trigger (release-week interviews in November 2026, reopen by 2027-01-31). The type answer and FAQ stay at medium confidence with Six as a close rival."
+    },
+    {
+      "finding_id": "future-06",
+      "action": "fixed",
+      "reason": "C47 (the Elliot sentence) is now durability unresolved with the trigger \"Confirm from HBO credits or reliable episode coverage whether Elliot appears in Euphoria season 3 (aired 2026)...\". The article says nothing about whether his season 3 scenes aired; it mentions only the verified, attributed Variety report of February 2025 that he would return, which fan-05 asked for, tracked as C113 (unresolved, same trigger). C29's alternative records that the 2023 friend-group line was about returning to Euphoria and that he agreed to return in February 2025."
+    },
+    {
+      "finding_id": "future-07",
+      "action": "fixed",
+      "reason": "Kept the question (the answer's first sentence is a protected passage) and dated the last datum: \"In his most recent statement on it found as of October 2026, in April 2026, he said, 'I just don't party like that right now.'\" C72, C73, C74, C76, C95, C15 and the new C115 now share an event-based trigger: any new public statement by Fike about sobriety, relapse, partying or treatment, first checking the November 2026 release-week interviews."
+    },
+    {
+      "finding_id": "future-08",
+      "action": "fixed",
+      "reason": "Both places are peak-neutral: \"reached the top 10 of the Billboard Hot 100 for the first time, at No. 10 on the chart dated October 24, 2026.\" C34 and C48 triggers name the Hot 100 dated November 14, 2026 and the Billboard 2026 year-end list."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Almost anyone would want out of that room, and a film crew was watching.",
+      "action": "kept",
+      "reason": "Unchanged. It still names the ordinary explanation before any type claim, and the next sentences add that the film was built to end at the water."
+    },
+    {
+      "passage": "Ask him about it in different years and you get different jails:",
+      "action": "kept",
+      "reason": "Unchanged, with the three dated tellings. The Guardian bullet now says \"Of his first six months inside\" and the 2025 bullet notes the banter register (\"laughing with the Armchair Expert hosts\")."
+    },
+    {
+      "passage": "That is a fair reading, and it is about trauma, which can push a person of any type toward thrills. The question for a type argument is whether the same move shows up when the circumstances change.",
+      "action": "kept",
+      "reason": "Unchanged. The edit now meets its test more precisely: persistence into sober periods is no longer claimed, and the discriminator rests on dated retellings."
+    },
+    {
+      "passage": "That is the only family testimony on the record, and it does not describe a busy, bouncing kid. It fits a watchful Six or Nine better. One way to square it with his own story is quiet in a house full of problems, loud in the woods. That is a reconciliation, not proof.",
+      "action": "kept",
+      "reason": "Unchanged. Its \"Six or Nine\" loose end is now answered by a Nine test in the rivals passage, and the mother's quote is introduced as an answer to Lowe's music question."
+    },
+    {
+      "passage": "Only his own dated words can answer that.",
+      "action": "kept",
+      "reason": "Unchanged as the first sentence of the sobriety FAQ; the answer's last datum is now explicitly dated as the most recent found as of October 2026."
+    },
+    {
+      "passage": "Seconds later he had a better idea: \"this is too much, should we go to fucking beach.\" They went.",
+      "action": "changed",
+      "reason": "The speaker check failed: a Whisper medium re-run of 33:08-33:33 renders \"Should we leave? / I'm down. Let's go\" and the beach lines with no speaker labels, and a frame sheet shows Lowe rising first, so crediting the beach idea to Fike would be unsupported. Kept the filmed behavior and its order, which was this passage's contribution: his verified answer (\"It's really weird. I feel like tense.\"), both men out the door within seconds, the beach and Lowe's \"five, six minutes\" voiceover, with the uncertainty stated in one parenthetical."
+    },
+    {
+      "passage": "A kid from a house like that could have gone looking for quiet. He went looking for a story.",
+      "action": "kept",
+      "reason": "Unchanged, still capping the three tellings of the Forest of Avalon."
+    },
+    {
+      "passage": "The Enneagram word for this is reframing. His word is a Transformers band-aid.",
+      "action": "kept",
+      "reason": "Unchanged. The sentences before it now name what the band-aid is (money and success) and present it as consistent with Seven rather than as proof, per critic-07 and enneagram-F8."
+    },
+    {
+      "passage": "It took eight years to find its audience. He made it in the one stretch of his life when he could not leave the house.",
+      "action": "kept",
+      "reason": "Unchanged. The preceding sentence now places the recording at Fernandez's mother's house, consistent with the house-arrest paragraph (fan-06)."
+    },
+    {
+      "passage": "One way to square it with his own story is quiet in a house full of problems, loud in the woods. That is a reconciliation, not proof.",
+      "action": "kept",
+      "reason": "Unchanged, still labeled as a reconciliation rather than proof."
+    },
+    {
+      "passage": "A Seven reading can call that a storyteller fitting the tale to the listener. It cannot prove it.",
+      "action": "kept",
+      "reason": "Unchanged."
+    },
+    {
+      "passage": "He says the hard thing plainly. He leaves before it can settle on him. He heads for open water.",
+      "action": "changed",
+      "reason": "Its contribution, the three-beat orientation spine from one filmed scene, is kept: \"He walks into the hard place on purpose. He says what it feels like, plainly. Then he is out the door, and a few minutes later he is in the ocean.\" Changed because \"before it can settle on him\" was unlabeled motive (subject-06) and \"heads for open water\" implied the beach was his idea (critic-05). The visit being his idea is added; the motive reading is kept but labeled as the author's."
+    },
+    {
+      "passage": "A Six checks the floor. Fike trusts the tiles.",
+      "action": "kept",
+      "reason": "Kept verbatim. Followed by a new sentence (\"Then again, other people are laying those tiles, and trusting the people who lay them is a Six habit too\") so the image is no longer offered as evidence against relying on others (critic-02)."
+    },
+    {
+      "passage": "That last line matters. A redemption story is a finished product, built to be admired, and he does not build one.",
+      "action": "kept",
+      "reason": "Unchanged, and now also anchors the Three dismissal. Godwin's context (\"I'll always be a drug addict\") is added before it, and the sentence that followed it (\"What the writers keep describing is speed...\") is replaced by a labeled reading (critic-06)."
+    },
+    {
+      "passage": "The usual picture of a Seven is the one who makes the first call. He waits for it.",
+      "action": "kept",
+      "reason": "Unchanged; the preceding sentence now dates the Interview remark to August 2026."
+    },
+    {
+      "passage": "Both are his words, two years apart.",
+      "action": "changed",
+      "reason": "The sentence was inaccurate: the 2021 sobriety status is Variety's narration, not his words (subject-05). The device it was protected for, dated contradictory statements presented without calling either a lie or guessing at current status, is kept: \"Variety reported in August 2021 that he was sober... The two accounts sit two years apart, and a shoot that ran through 2021 may hold both.\""
+    }
+  ],
+  "prior_blockers": []
+}

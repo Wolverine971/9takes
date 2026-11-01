@@ -348,7 +348,7 @@ Thiel kept a parachute in his office after 9/11. Sacks keeps The Cadence. Thiel 
 
 The Thiel-Sacks bond is not transactional. It is not strategic. It is the bond of two people who see the same threats, build the same kinds of fortifications, and have maintained that alignment for over thirty years. In the Enneagram, nothing is more 6 than that: the relationship forged in the foxhole that becomes the most durable structure of your life.
 
-Naval Ravikant called Sacks "the world's best product strategist." Paul Graham called him possibly "the most evil person in Silicon Valley." The gap between those assessments is where the interesting psychology lives. Sacks inspires absolute loyalty in the people who are inside his perimeter and absolute hostility in the people who are outside it. There is almost no middle ground.
+[Naval Ravikant](/personality-analysis/naval-ravikant) called Sacks "the world's best product strategist." Paul Graham called him possibly "the most evil person in Silicon Valley." The gap between those assessments is where the interesting psychology lives. Sacks inspires absolute loyalty in the people who are inside his perimeter and absolute hostility in the people who are outside it. There is almost no middle ground.
 
 That binary — trusted ally or potential threat — is the signature of a Type 6 operating at high intensity. The perimeter is everything. Get inside it, and he will fight for you with everything he has. Remain outside it, and the same intensity that protects his allies will be aimed squarely at you.
 

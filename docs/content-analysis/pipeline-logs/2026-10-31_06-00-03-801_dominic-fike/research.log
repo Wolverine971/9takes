@@ -1,0 +1,21 @@
+I finished the research stage and wrote `evidence.json` to the run folder. It passes the pipeline's own check (`validateEvidence`) with status **ready**: 25 sources (24 opened), 38 claims. No other repo files were touched and nothing was published.
+
+**The read:** Dominic Fike is most likely a **Type 7**, at medium confidence. **Type 6** is the strongest alternative.
+
+**Why 7.** From 2019 to 2026 he keeps making the same move when something hurts: he leaves it for something exciting, calls it fine, and keeps going. This held across eight outlets and through periods when he was sober and when he wasn't.
+- **Escaping:** as a teen he biked to a vacant lot his friends called the "Forest of Avalon." In 2025 he explained it: "I wanted Alice in Wonderland… I wanted there to be some sort of danger."
+- **Calling it fine:** he called jail "a year off to focus on myself" and, in 2025, "I had a good time in jail." Of five relapses he said, "it's all good, I'm good."
+- **On camera:** in a 2023 Apple Music film he went back to the motel room his family had lived in. About five minutes in he said "this is too much, should we go to fucking beach," and went swimming.
+- **Other observers:** three journalists, years apart, each noted that he tells hard things without drama.
+- **His own words:** in 2025 he compared his early success to a "Transformers band-aid" over a "gash" he needed to heal.
+
+**Why 6 is still live.** He says he has "always had a big problem with security and safety." He talks openly about anxiety and feeling like an impostor, and he has been fiercely loyal to his family since he was 22. What tips it to 7: when he's under threat he leaves or jokes rather than preparing or testing people. He signed Euphoria's five-year contract on "Brother, got you." Things 7 doesn't explain well: his mother remembers "the most passive, quiet child… the observer," and for six years he has said he won't approach people first.
+
+**Format:** a standard profile, not an "open case," since his public record goes back to 2018. The draft gets the full six-reviewer panel because the material is sensitive: addiction details, his criminal record, Hunter Schafer's account that she was cheated on, and a young son.
+
+**Before drafting:**
+- **Euphoria season 3:** whether his filmed scenes actually aired is unverified. The one source claiming they were cut is blocked by a CAPTCHA, so it shouldn't be printed either way.
+- **Europe tour Feb 2027:** the date in your backlog note couldn't be confirmed and shouldn't be printed.
+- **Quote checks:** several lines that sound like his in the podcast transcripts are actually the hosts' (Zane Lowe, Dax Shepard). Four quotes are flagged in the file to check against the audio before use.
+
+Full transcripts are cached in `~/.cache/9takes-research/dominic-fike/`, not the repo. I also added a short note about the podcast-host attribution trap to an existing memory file.

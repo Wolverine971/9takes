@@ -1,0 +1,17 @@
+I've written the Enneagram review for the Dominic Fike draft to `docs/content-analysis/pipeline-logs/2026-10-31_06-00-03-801_dominic-fike/review-enneagram.json`. It passes the review schema, and every quoted passage matches the draft exactly. Nothing else was changed and nothing was published. A temporary validator script in `scripts/` was deleted after it ran.
+
+**Verdict:** Type 7 at medium confidence still holds, but the case for 7 over 6 is closer than the draft shows. The best evidence for 7 is strong: he retells jail as "a year off" and "a good time," says "I want all of it," and keeps reaching for fresh starts. The problem is the argument the draft uses to rule out 6, which leans on the wrong evidence. I raised the `contested_typing` flag to true. That doesn't change which reviewers run, since all six are already running.
+
+**Findings (6 major, 2 minor):**
+1. **The Type 6 picture is a stereotype.** It only describes the cautious Six who braces and prepares. It never mentions the Six who charges at danger to beat fear, even though the draft prints matching evidence: wanting the woods to be dangerous, knocking down the officer, the tattoo aimed at the men who treated him badly.
+2. **The "codependent" quote cuts the other way in context.** In the Zane Lowe film he says it right after "I want… an older mentor." Later he adds that his idea of stability "is always in another person." Looking to others for stability is the Six pattern, but the draft calls the quote "the plainest statement" of the Seven pattern.
+3. **"Brother, got you" is misread.** In the Armchair Expert audio, Levinson was testing Fike, and Fike was promising to be reliable. The draft uses it, in the body and in the FAQ, as proof that Fike doesn't test people in charge.
+4. **The "keeps happening when sober" proof is thin.** The April 2026 music quote describes his house-arrest years, but the draft presents it as current. The other sober-period example is the motel exit, which the draft itself says almost anyone would do.
+5. **The closing "test still ahead" has already been answered, and the answer leans Six.** Both the 2023 stability line and his 2026 goals as a father point to 6.
+6. **Type 9 is named and then dropped.** The draft says his mother's description fits a Six or a Nine better than a Seven, then never tests Nine.
+7. *(minor)* The Type 3 dismissal relies on a stereotype and skips his "I have the metrics" comment from the Interview piece.
+8. *(minor)* The Transformers band-aid is labeled Seven "reframing," but in his metaphor the band-aid is the money. Keep the quote and fix the label.
+
+None of these require changing the type, because every fix uses evidence already collected. If the editor ends up switching to 6 or lowering confidence, that counts as a major change to the argument and should go back through review.
+
+I checked the key quotes against the saved transcripts and pages, not by listening to the audio. The "always in another person" line exists only in YouTube's auto-captions, so the editor should confirm it on the audio before printing it.

@@ -1,0 +1,31 @@
+{
+  "schema_version": 3,
+  "subject": "Chris-Pratt",
+  "mode": "refresh",
+  "started_at": "2026-11-01T16:40:11.148Z",
+  "stages": {
+    "research": {
+      "status": "running",
+      "started_at": "2026-11-01T16:40:11.156Z",
+      "cache_key": "c161f4fd74d11bf017c5535ed917b1bc74bc5649f7e0a9b040576844c1645461",
+      "input_hashes": {
+        "baseline": "c302a2fdeb0cee74c3bfc865cbdb004c0d7723e8766500cb320b951d3776ec7e",
+        "research_notes": "b2ed6a243e49f32423ddba2b45ce278af110af56e904d9c5345bfa222b696b34",
+        "prior_evidence": "2e418f1079e92b4e1173d31b897b96b1f187eb80f09fb1f8e67f7f0b1d7a7e8b",
+        "project_local_settings": "71d03b589826f647e87c642d87b3d4b2482dd132355c98a0daf5ae2ec6d8e8c1",
+        "user_settings": "1557bfcf549551fafa2f71eda1074e0bbae8e4e721bfa64c4cd485e82318050f",
+        "command": "2fb89b06fb7ae4d5f77a7de81fee26e8c8c09a29ab923d201690a22794c29eac",
+        "standard": "62d29010ef46202cdaf6fd0c74b61649fe58b9e1223ca0fac70f987b52598aac",
+        "contract": "cf00ac719ecbde77cc16ec4bf8558f53a1c271e582e04288c6e30312ded4057b",
+        "runner": "ca10cd6ca7e34093db03b00c0ce8097e846ec2f8a51a24be8b80873277fc0636"
+      },
+      "model": "CLI default"
+    }
+  },
+  "baseline_sha256": "ae2ff21940bd18834308e7e5767842529a8633728dd80e089a3d66d9acb64cf0",
+  "materialized_sha256": "ae2ff21940bd18834308e7e5767842529a8633728dd80e089a3d66d9acb64cf0",
+  "expanded": true,
+  "run_status": "running",
+  "editorial_status": "pending",
+  "current_stage": "research"
+}

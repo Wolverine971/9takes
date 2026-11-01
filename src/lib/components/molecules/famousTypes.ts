@@ -246,6 +246,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'malcolm-gladwell', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'Ideas\' Silent Architect', contentGrade: 8.6, types: ['author', 'strategy-writer'] },
 		{ name: 'marc-andreessen', link: true, hasImage: true, lastmod: '2026-03-29', personaTitle: 'Tech\'s Fortress Philosopher', contentGrade: 9, types: ['techie', 'investor'] },
 		{ name: 'mark-zuckerberg', link: true, hasImage: true, lastmod: '2026-03-03', personaTitle: 'Tech\'s Quiet Fortress', contentGrade: 9, types: ['techie', 'big-tech-founder'] },
+		{ name: 'naval-ravikant', link: true, hasImage: true, lastmod: '2026-11-01', personaTitle: 'Silicon Valley\'s Library Kid', contentGrade: 8.1, types: ['techie', 'entrepreneur', 'author'] },
 		{ name: 'pewdiepie', link: true, hasImage: true, lastmod: '2026-03-23', personaTitle: 'YouTube\'s Reluctant Emperor', contentGrade: 9, types: ['creator', 'viral-entertainer'] },
 		{ name: 'pinkpantheress', link: true, hasImage: true, lastmod: '2026-07-19', personaTitle: 'Pop\'s Faceless Recluse', contentGrade: 8.6, types: ['musician'] },
 		{ name: 'ray-dalio', link: true, hasImage: true, lastmod: '2026-05-14', personaTitle: 'Wall Street\'s Principled Recluse', contentGrade: 9.1, types: ['entrepreneur', 'author', 'business-operator'] },

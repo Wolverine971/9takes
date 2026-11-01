@@ -1,0 +1,224 @@
+{
+  "target": {
+    "person": "dominic-fike",
+    "type": "7",
+    "units": 14,
+    "file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-31_06-00-03-801_dominic-fike/draft.md"
+  },
+  "comparison_set": [
+    {
+      "person": "kareem-rahma",
+      "date": "2026-10-25",
+      "units": 8
+    },
+    {
+      "person": "dan-ives",
+      "date": "2026-10-24",
+      "units": 7
+    },
+    {
+      "person": "dylan-patel",
+      "date": "2026-10-17",
+      "units": 9
+    },
+    {
+      "person": "florence-pugh",
+      "date": "2026-10-04",
+      "units": 20
+    },
+    {
+      "person": "frank-lloyd-wright",
+      "date": "2026-08-26",
+      "units": 44
+    },
+    {
+      "person": "Tyla",
+      "date": "2026-08-15",
+      "units": 44
+    },
+    {
+      "person": "Travis-Kelce",
+      "date": "2026-08-13",
+      "units": 48
+    },
+    {
+      "person": "stavros-halkias",
+      "date": "2026-07-25",
+      "units": 25
+    }
+  ],
+  "n_requested": 8,
+  "noise_floor": {
+    "pairs_compared": 2870,
+    "median": 0,
+    "p90": 0,
+    "p99": 0.009,
+    "max": 0.112
+  },
+  "trip_threshold": 0.04,
+  "tripped": true,
+  "trip_pairs": [
+    {
+      "score": 0.087,
+      "other_person": "florence-pugh",
+      "shared_phrases": [
+        "handle fear",
+        "handle fear by"
+      ],
+      "target": "[diagnosis] A Six handles fear by bracing for it.",
+      "other": "[diagnosis] a security-seeking type that handles fear by charging straight at it."
+    },
+    {
+      "score": 0.064,
+      "other_person": "florence-pugh",
+      "shared_phrases": [
+        "handle fear",
+        "handle fear by"
+      ],
+      "target": "[diagnosis] A Six handles fear by bracing for it.",
+      "other": "[diagnosis] The jump was \"such an exciting stunt.\" Midsommar was going to be \"so exhilarating.\" Sevens handle fear by turning toward excitement."
+    }
+  ],
+  "per_draft_max": [
+    {
+      "person": "dylan-patel",
+      "date": "2026-10-17",
+      "units": 9,
+      "maxScore": 0.112
+    },
+    {
+      "person": "florence-pugh",
+      "date": "2026-10-04",
+      "units": 20,
+      "maxScore": 0.087
+    },
+    {
+      "person": "kareem-rahma",
+      "date": "2026-10-25",
+      "units": 8,
+      "maxScore": 0.075
+    },
+    {
+      "person": "Travis-Kelce",
+      "date": "2026-08-13",
+      "units": 48,
+      "maxScore": 0.032
+    },
+    {
+      "person": "frank-lloyd-wright",
+      "date": "2026-08-26",
+      "units": 44,
+      "maxScore": 0.03
+    },
+    {
+      "person": "Tyla",
+      "date": "2026-08-15",
+      "units": 44,
+      "maxScore": 0.024
+    },
+    {
+      "person": "stavros-halkias",
+      "date": "2026-07-25",
+      "units": 25,
+      "maxScore": 0.019
+    },
+    {
+      "person": "dan-ives",
+      "date": "2026-10-24",
+      "units": 7,
+      "maxScore": 0.01
+    }
+  ],
+  "top_pairs": [
+    {
+      "score": 0.112,
+      "other_person": "dylan-patel",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Seven handles it by staying in motion",
+      "other": "[diagnosis] and they handle it by keeping their options open."
+    },
+    {
+      "score": 0.101,
+      "other_person": "dylan-patel",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Five handles it by retreating into the mind.",
+      "other": "[diagnosis] and they handle it by keeping their options open."
+    },
+    {
+      "score": 0.087,
+      "other_person": "florence-pugh",
+      "shared_phrases": [
+        "handle fear",
+        "handle fear by"
+      ],
+      "target": "[diagnosis] A Six handles fear by bracing for it.",
+      "other": "[diagnosis] a security-seeking type that handles fear by charging straight at it."
+    },
+    {
+      "score": 0.075,
+      "other_person": "kareem-rahma",
+      "shared_phrases": [],
+      "target": "[diagnosis] Sevens are driven by a fear of being trapped in pain or limitation",
+      "other": "[diagnosis] the fear of being worth little unless seen succeeding."
+    },
+    {
+      "score": 0.067,
+      "other_person": "florence-pugh",
+      "shared_phrases": [],
+      "target": "[diagnosis] Escape is also what addiction and a chaotic childhood teach people of every type.",
+      "other": "[diagnosis] Running at fear is also what a counterphobic Six does"
+    },
+    {
+      "score": 0.064,
+      "other_person": "florence-pugh",
+      "shared_phrases": [
+        "handle fear",
+        "handle fear by"
+      ],
+      "target": "[diagnosis] A Six handles fear by bracing for it.",
+      "other": "[diagnosis] The jump was \"such an exciting stunt.\" Midsommar was going to be \"so exhilarating.\" Sevens handle fear by turning toward excitement."
+    },
+    {
+      "score": 0.05,
+      "other_person": "dylan-patel",
+      "shared_phrases": [],
+      "target": "[diagnosis] and they answer it by moving toward stimulation and new options.",
+      "other": "[diagnosis] and they handle it by keeping their options open."
+    },
+    {
+      "score": 0.032,
+      "other_person": "Travis-Kelce",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Seven handles it by staying in motion",
+      "other": "[counter-typing] then re-sign reportedly below market to stay in the room."
+    },
+    {
+      "score": 0.03,
+      "other_person": "frank-lloyd-wright",
+      "shared_phrases": [],
+      "target": "[diagnosis] Sevens are driven by a fear of being trapped in pain or limitation",
+      "other": "[diagnosis] A Seven's core fear is being trapped"
+    },
+    {
+      "score": 0.03,
+      "other_person": "frank-lloyd-wright",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Five handles it by retreating into the mind.",
+      "other": "[diagnosis] A Five who lost twelve years of commissions goes quieter."
+    },
+    {
+      "score": 0.026,
+      "other_person": "kareem-rahma",
+      "shared_phrases": [],
+      "target": "[diagnosis] Sevens are driven by a fear of being trapped in pain or limitation",
+      "other": "[diagnosis] Sevens are a fear type wary of confinement and going without."
+    },
+    {
+      "score": 0.024,
+      "other_person": "kareem-rahma",
+      "shared_phrases": [],
+      "target": "[diagnosis] a lighter way to tell the bad part",
+      "other": "[diagnosis] and he used to tell his therapist the best part of traveling was the airplane ride."
+    }
+  ]
+}
