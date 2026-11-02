@@ -1,0 +1,27 @@
+The research stage is done. It finished well inside the 45-minute timeout that killed the previous attempt, and the evidence file passes the pipeline's own validation check.
+
+**Result: ready for drafting, not a hold.** The leading read is **Type 6** at medium confidence. **Type 7** is the strongest rival, and Type 3 is also still in play.
+
+- **Why 6:** across 2015 to 2026 he keeps naming fear as what drives him:
+  - 2022: "fear was a big driving factor for me."
+  - 2026: preparation is "a crutch" he's "so used to... lean on," and going into a role without it was "terrifying."
+  - 2026, on himself: "Am I the best judge of myself?"
+  - He puts his security in trusted people: "You just hope the editor's got your back."
+  - What relaxes him is fixing motorbikes, because "there's nothing subjective about whether an engine works." That's a wish for certainty, not for something new.
+- **Why it isn't settled:**
+  - The 7 case is real: lots of curiosity, play and optimism, plus he calls acting a "reckless choice of career."
+  - The 3 case: an interviewer saw him name-drop and then watch for the reaction. He also hid a torn ACL from the stunt team and production for the whole Clayface shoot.
+  - His own ADHD disclosure muddies the restlessness evidence.
+  - Almost everything is promo-season interviews, with no testimony from people who know him well.
+
+**One decision for you (pre-flagged, so you only need to act if you disagree):** I marked the typing as contested. That means the draft goes to the full six-reviewer panel instead of the usual two, which costs about four extra model calls. I did it because medium confidence plus two live rivals is a typing that's genuinely open to challenge. If you'd rather keep it to the two-reviewer path, that's the flag to flip.
+
+**Not a "too new to type" profile.** I didn't use the format for subjects whose record is too young to settle a type. His career goes back to 2011, which matches the precedent that made Mckenna Grace ineligible.
+
+**Facts the drafter needs to handle carefully:**
+- **Birth date:** use the year only (1990). His own age comments support it, but 2020 press gave ages that clash with the 8 October date.
+- **Drama school:** WWD says he left drama school early. His own accounts and the 2012 graduation date say otherwise, so I treated WWD as wrong.
+- **The tooth story:** WalesOnline printed him saying he really pulled out his own tooth for a White Lines scene. He later told Mr Porter it was a misquoted joke. The draft should present it as disputed, with both sides attributed.
+- **Relayed quotes:** the EW cover story, the Hollywood Reporter piece and the People exclusive all blocked automated access. Their quotes currently come through other sites, and the follow-up tasks in the file include pinning the original wording.
+
+The file has 25 sources (22 opened) and 34 claims. I only wrote `evidence.json` in the run folder. The change to `run.json` was already there before I started, and nothing was published.

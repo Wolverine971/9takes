@@ -5,29 +5,50 @@
   "started_at": "2026-11-01T07:06:25.889Z",
   "stages": {
     "research": {
-      "status": "failed",
-      "started_at": "2026-11-01T07:06:25.891Z",
-      "cache_key": "987cf83dff20e3bf145dfa462a760a394071fce28c8378cfbe6f75ed94748a05",
+      "status": "complete",
+      "started_at": "2026-11-02T07:09:14.589Z",
+      "cache_key": "463fccde765914f1652fa9cc0a70351b7ad67fb827136457a386bcc26651c71b",
       "input_hashes": {
         "baseline": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "project_local_settings": "71d03b589826f647e87c642d87b3d4b2482dd132355c98a0daf5ae2ec6d8e8c1",
-        "user_settings": "1557bfcf549551fafa2f71eda1074e0bbae8e4e721bfa64c4cd485e82318050f",
+        "user_settings": "283335540cb0f62a954884339e93bafee01634c55032a9c05967da94a1eeff93",
         "command": "2fb89b06fb7ae4d5f77a7de81fee26e8c8c09a29ab923d201690a22794c29eac",
         "standard": "62d29010ef46202cdaf6fd0c74b61649fe58b9e1223ca0fac70f987b52598aac",
         "contract": "cf00ac719ecbde77cc16ec4bf8558f53a1c271e582e04288c6e30312ded4057b",
         "runner": "ca10cd6ca7e34093db03b00c0ce8097e846ec2f8a51a24be8b80873277fc0636"
       },
       "model": "CLI default",
+      "output_hashes": {
+        "evidence.json": "fbf7b5f6b870fae0a180fab90effd6da9ced5a3a5fe8ae478f252dd2eb440489"
+      },
+      "finished_at": "2026-11-02T07:37:06.765Z",
+      "duration_seconds": 1672
+    },
+    "draft": {
+      "status": "failed",
+      "started_at": "2026-11-02T07:37:06.768Z",
+      "cache_key": "fe41838e6b111eef4fc2704946f3a3ca2d7e4917a654b58cdf34dafe571a6316",
+      "input_hashes": {
+        "baseline": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "evidence": "fbf7b5f6b870fae0a180fab90effd6da9ced5a3a5fe8ae478f252dd2eb440489",
+        "project_local_settings": "71d03b589826f647e87c642d87b3d4b2482dd132355c98a0daf5ae2ec6d8e8c1",
+        "user_settings": "283335540cb0f62a954884339e93bafee01634c55032a9c05967da94a1eeff93",
+        "command": "bcabfcd306d3a1d5d234ac1e396424b5a6853e3bf831c2d0eebc1e35e49d2e42",
+        "standard": "62d29010ef46202cdaf6fd0c74b61649fe58b9e1223ca0fac70f987b52598aac",
+        "contract": "cf00ac719ecbde77cc16ec4bf8558f53a1c271e582e04288c6e30312ded4057b",
+        "runner": "ca10cd6ca7e34093db03b00c0ce8097e846ec2f8a51a24be8b80873277fc0636"
+      },
+      "model": "CLI default",
       "error": "Stage timed out",
-      "finished_at": "2026-11-01T07:56:16.178Z",
-      "duration_seconds": 2990
+      "finished_at": "2026-11-02T08:28:23.762Z",
+      "duration_seconds": 3077
     }
   },
   "baseline_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "materialized_sha256": null,
-  "expanded": false,
+  "expanded": true,
   "run_status": "failed",
   "editorial_status": "pending",
-  "current_stage": "research",
+  "current_stage": "draft",
   "error": "Stage timed out"
 }

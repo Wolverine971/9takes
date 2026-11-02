@@ -1,5 +1,5 @@
 {
-	"lastUpdated": "2026-11-01T07:56:16Z",
+	"lastUpdated": "2026-11-02T08:28:23Z",
 	"stats": {
 		"totalUnpublished": 132,
 		"totalPublished": 391,
@@ -16,7 +16,7 @@
 			"searchVolume": "medium",
 			"personaTitle": null,
 			"addedToQueue": "2026-10-26",
-			"retryCount": 1,
+			"retryCount": 2,
 			"strategicValue": "dc-cluster"
 		},
 		{

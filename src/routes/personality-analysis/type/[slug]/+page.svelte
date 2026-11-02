@@ -140,6 +140,7 @@
 
 	let typeInfo = $derived(enneagramTypes[data.slug] ?? FALLBACK_TYPE_META);
 	let peopleCount = $derived(data.people.length);
+	let groupedPeople = $derived(data.peopleGroups.flatMap((group) => group.people));
 	let typeUrl = $derived(`https://9takes.com/personality-analysis/type/${data.slug}`);
 	let pageId = $derived(`${typeUrl}#webpage`);
 	let collectionId = $derived(`${typeUrl}#collection`);
@@ -228,8 +229,8 @@
 		'@id': collectionId,
 		name: `Famous Enneagram Type ${data.slug} Personalities`,
 		numberOfItems: peopleCount,
-		itemListOrder: 'https://schema.org/ItemListOrderDescending',
-		itemListElement: data.people.map((person, index) => {
+		itemListOrder: 'https://schema.org/ItemListUnordered',
+		itemListElement: groupedPeople.map((person, index) => {
 			const displayName = formatPersonalityDisplayName(person.slug);
 			const personUrl = `https://9takes.com${buildPersonalityAnalysisPath(person.slug)}`;
 			const imageUrl = person.enneagram
@@ -438,32 +439,64 @@
 				<h2 id="famous-heading">Famous Type {data.slug}s: {typeInfo.name} Examples</h2>
 				<span class="people-count">{peopleCount} personalities</span>
 			</div>
-			<div class="people-grid-container">
-				{#each data.people as person (person.slug)}
-					<a
-						href={buildPersonalityAnalysisPath(person.slug)}
-						class="grid-item personality-portrait-well"
-					>
-						{#if person.enneagram}
-							<img
-								loading="lazy"
-								class="grid-img personality-portrait-image"
-								src={buildPersonalityImagePath(person.enneagram, person.slug, 'thumbnail')}
-								alt={`${formatPersonalityDisplayName(person.slug)}, Enneagram Type ${data.slug} (${typeInfo.name})`}
-								width="218"
-								height="218"
-							/>
-						{/if}
-						<div class="person-name">
-							<h3
-								style:--tag={`h-blog-${(person.title ?? person.slug).toLowerCase().replace(/[^a-zA-Z0-9]/g, '')}`}
-							>
-								{formatPersonalityDisplayName(person.slug)}
-							</h3>
+			{#if peopleCount > 0}
+				<p class="groups-intro">
+					Explore Type {data.slug} personalities by field to see how the same motivations show up in different
+					worlds.
+				</p>
+				{#if data.peopleGroups.length > 1}
+					<nav class="group-nav" aria-label={`Browse Type ${data.slug} personalities by field`}>
+						<ul>
+							{#each data.peopleGroups as group (group.slug)}
+								<li>
+									<a href={`#people-${group.slug}`}>
+										{group.label} <span class="group-nav-count">{group.people.length}</span>
+									</a>
+								</li>
+							{/each}
+						</ul>
+					</nav>
+				{/if}
+				{#each data.peopleGroups as group (group.slug)}
+					<section class="people-group" aria-labelledby={`people-${group.slug}`}>
+						<div class="group-header">
+							<h3 id={`people-${group.slug}`}>{group.label}</h3>
+							<span class="group-count">
+								{group.people.length}
+								{group.people.length === 1 ? 'profile' : 'profiles'}
+							</span>
 						</div>
-					</a>
+						<div class="people-grid-container">
+							{#each group.people as person (person.slug)}
+								<a
+									href={buildPersonalityAnalysisPath(person.slug)}
+									class="grid-item personality-portrait-well"
+								>
+									{#if person.enneagram}
+										<img
+											loading="lazy"
+											class="grid-img personality-portrait-image"
+											src={buildPersonalityImagePath(person.enneagram, person.slug, 'thumbnail')}
+											alt={`${formatPersonalityDisplayName(person.slug)}, Enneagram Type ${data.slug} (${typeInfo.name})`}
+											width="218"
+											height="218"
+										/>
+									{/if}
+									<div class="person-name">
+										<h4
+											style:--tag={`h-blog-${(person.title ?? person.slug).toLowerCase().replace(/[^a-zA-Z0-9]/g, '')}`}
+										>
+											{formatPersonalityDisplayName(person.slug)}
+										</h4>
+									</div>
+								</a>
+							{/each}
+						</div>
+					</section>
 				{/each}
-			</div>
+			{:else}
+				<p class="groups-intro">More Type {data.slug} personality profiles are on the way.</p>
+			{/if}
 		</section>
 
 		<EnneagramTypeBottom type={data.slug} />
@@ -687,6 +720,80 @@
 		margin-bottom: 3rem;
 	}
 
+	.groups-intro {
+		margin: 0 0 1.25rem;
+		color: var(--ink-mid);
+		font-size: 0.9375rem;
+		line-height: 1.6;
+	}
+
+	.group-nav {
+		margin-bottom: 2rem;
+
+		ul {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 0.5rem;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		a {
+			display: inline-flex;
+			align-items: center;
+			gap: 0.625rem;
+			min-height: 44px;
+			padding: 0.5rem 0.875rem;
+			border: 1px solid var(--stone-edge);
+			border-radius: 0.625rem;
+			background: var(--stone-warm);
+			color: var(--ink-bright);
+			font-size: 0.8125rem;
+			font-weight: 500;
+			text-decoration: none;
+		}
+
+		a:hover {
+			border-color: var(--type-accent);
+		}
+	}
+
+	.group-nav-count,
+	.group-count {
+		color: var(--ink-dim);
+		font-size: 0.8125rem;
+		font-variant-numeric: tabular-nums;
+	}
+
+	.people-group + .people-group {
+		margin-top: 2.5rem;
+	}
+
+	.group-header {
+		display: flex;
+		align-items: baseline;
+		flex-wrap: wrap;
+		gap: 0.5rem 1rem;
+		margin-bottom: 1rem;
+		padding-bottom: 0.75rem;
+		border-bottom: 1px solid var(--stone-edge);
+
+		h3 {
+			margin: 0;
+			color: var(--ink-bright);
+			font-size: 1.125rem;
+			font-weight: 600;
+			scroll-margin-top: 7rem;
+		}
+	}
+
+	.group-nav a:focus-visible,
+	.grid-item:focus-visible {
+		outline: 2px solid var(--type-accent);
+		outline-offset: 3px;
+	}
+
 	.people-grid-container {
 		display: grid;
 		grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
@@ -742,7 +849,7 @@
 					transparent 100%
 				);
 
-				h3 {
+				h4 {
 					color: #fff;
 				}
 			}
@@ -782,7 +889,7 @@
 		transition: background 0.25s ease;
 		z-index: 2;
 
-		h3 {
+		h4 {
 			color: #fff;
 			font-size: 0.8125rem;
 			font-weight: 600;
@@ -1022,7 +1129,7 @@
 		.person-name {
 			padding: 0.5rem 0.375rem;
 
-			h3 {
+			h4 {
 				font-size: 0.6875rem;
 			}
 		}
