@@ -23,9 +23,16 @@
 // October 18: q118 now has bundled, explicitly AI-labeled examples and is the
 // default. A curated database chorus replaces the bundled examples when present.
 // Other candidates remain fallbacks if q118 is no longer publicly eligible.
+//
+// November 2: DJ rotated the default to "What do people get wrong about you
+// when they first meet you?" q118 kept its volume but its answers were three
+// adjectives (median 28 characters) that read the same for all nine types.
+// The new question stays short to answer but asks what people misread, which
+// is where the types split. q118 remains in the pool as a fallback.
 import { CHORUS_STARTER_SLUG } from '$lib/data/chorusStarter';
 
 export const PROVEN_CHORUS_QUESTION_URLS: readonly string[] = [
+	CHORUS_STARTER_SLUG,
 	'whats-something-every-day-seem-fine-nobody-knows-costing-effort',
 	'what-were-you-like-as-a-kid-in-3-words',
 	'whats-criteria-considering-someone-friend'

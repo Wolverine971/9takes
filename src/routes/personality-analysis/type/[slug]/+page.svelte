@@ -109,6 +109,15 @@
 		}
 	};
 
+	// Matches ArticleTitle's tag so the name morphs into the person page's heading.
+	function transitionTag(person: { title: string | null; slug: string }): string {
+		return `h-blog-${(person.title ?? person.slug).toLowerCase().replace(/[^a-zA-Z0-9]/g, '')}`;
+	}
+
+	function portraitAlt(personSlug: string): string {
+		return `${formatPersonalityDisplayName(personSlug)}, Enneagram Type ${data.slug} (${typeInfo.name})`;
+	}
+
 	function getLatestDate(people: PageData['people']): string | null {
 		let latestDate: string | null = null;
 		let latestTimestamp = 0;
@@ -457,43 +466,98 @@
 						</ul>
 					</nav>
 				{/if}
-				{#each data.peopleGroups as group (group.slug)}
-					<section class="people-group" aria-labelledby={`people-${group.slug}`}>
-						<div class="group-header">
-							<h3 id={`people-${group.slug}`}>{group.label}</h3>
-							<span class="group-count">
-								{group.people.length}
-								{group.people.length === 1 ? 'profile' : 'profiles'}
-							</span>
-						</div>
-						<div class="people-grid-container">
-							{#each group.people as person (person.slug)}
+				<div class="spotlight-wall">
+					{#each data.peopleGroups as group (group.slug)}
+						{@const lead = group.people[0]}
+						{@const crowdCount = group.people.length - 1}
+						<article
+							class="spotlight-card"
+							aria-labelledby={`people-${group.slug}`}
+							style:--group-accent={group.accent ?? 'var(--lamp-glow)'}
+						>
+							<div class="spotlight-head">
+								<!-- Duplicate of the name link; kept out of tab order and screen readers. -->
 								<a
-									href={buildPersonalityAnalysisPath(person.slug)}
-									class="grid-item personality-portrait-well"
+									href={buildPersonalityAnalysisPath(lead.slug)}
+									class="lead-portrait personality-portrait-well"
+									tabindex="-1"
+									aria-hidden="true"
 								>
-									{#if person.enneagram}
+									{#if lead.enneagram}
 										<img
 											loading="lazy"
-											class="grid-img personality-portrait-image"
-											src={buildPersonalityImagePath(person.enneagram, person.slug, 'thumbnail')}
-											alt={`${formatPersonalityDisplayName(person.slug)}, Enneagram Type ${data.slug} (${typeInfo.name})`}
-											width="218"
-											height="218"
+											class="personality-portrait-image"
+											src={buildPersonalityImagePath(lead.enneagram, lead.slug, 'thumbnail')}
+											alt={portraitAlt(lead.slug)}
+											width="104"
+											height="104"
 										/>
 									{/if}
-									<div class="person-name">
-										<h4
-											style:--tag={`h-blog-${(person.title ?? person.slug).toLowerCase().replace(/[^a-zA-Z0-9]/g, '')}`}
-										>
-											{formatPersonalityDisplayName(person.slug)}
-										</h4>
-									</div>
 								</a>
+								<div class="spotlight-meta">
+									<h3 id={`people-${group.slug}`} class="group-label">
+										<span class="group-dot" aria-hidden="true"></span>
+										{group.label}
+										<span class="group-count">{group.people.length}</span>
+									</h3>
+									<a
+										href={buildPersonalityAnalysisPath(lead.slug)}
+										class="lead-name"
+										style:--tag={transitionTag(lead)}
+									>
+										{formatPersonalityDisplayName(lead.slug)}
+									</a>
+									<p class="lead-more">
+										{crowdCount > 0 ? `+ ${crowdCount} more` : 'The only one profiled so far'}
+									</p>
+								</div>
+							</div>
+							{#each group.lanes as lane (lane.slug)}
+								<div class="lane">
+									{#if lane.label}
+										<h4 class="lane-label">{lane.label}</h4>
+									{/if}
+									<div class="crowd" aria-hidden="true">
+										{#each lane.people as person (person.slug)}
+											<a
+												href={buildPersonalityAnalysisPath(person.slug)}
+												class="crowd-face personality-portrait-well"
+												tabindex="-1"
+												title={formatPersonalityDisplayName(person.slug)}
+											>
+												{#if person.enneagram}
+													<img
+														loading="lazy"
+														class="personality-portrait-image"
+														src={buildPersonalityImagePath(
+															person.enneagram,
+															person.slug,
+															'thumbnail'
+														)}
+														alt={portraitAlt(person.slug)}
+														width="52"
+														height="52"
+													/>
+												{/if}
+											</a>
+										{/each}
+									</div>
+									<p class="crowd-names">
+										{#each lane.people as person, index (person.slug)}
+											<a
+												href={buildPersonalityAnalysisPath(person.slug)}
+												style:--tag={transitionTag(person)}
+												>{formatPersonalityDisplayName(person.slug)}</a
+											>{#if index < lane.people.length - 1}<span class="name-sep" aria-hidden="true"
+													>{'\u00a0· '}</span
+												>{/if}
+										{/each}
+									</p>
+								</div>
 							{/each}
-						</div>
-					</section>
-				{/each}
+						</article>
+					{/each}
+				</div>
 			{:else}
 				<p class="groups-intro">More Type {data.slug} personality profiles are on the way.</p>
 			{/if}
@@ -759,145 +823,179 @@
 		}
 	}
 
-	.group-nav-count,
-	.group-count {
+	.group-nav-count {
 		color: var(--ink-dim);
 		font-size: 0.8125rem;
 		font-variant-numeric: tabular-nums;
 	}
 
-	.people-group + .people-group {
-		margin-top: 2.5rem;
-	}
-
-	.group-header {
-		display: flex;
-		align-items: baseline;
-		flex-wrap: wrap;
-		gap: 0.5rem 1rem;
-		margin-bottom: 1rem;
-		padding-bottom: 0.75rem;
-		border-bottom: 1px solid var(--stone-edge);
-
-		h3 {
-			margin: 0;
-			color: var(--ink-bright);
-			font-size: 1.125rem;
-			font-weight: 600;
-			scroll-margin-top: 7rem;
-		}
-	}
-
 	.group-nav a:focus-visible,
-	.grid-item:focus-visible {
+	.spotlight-card a:focus-visible {
 		outline: 2px solid var(--type-accent);
 		outline-offset: 3px;
 	}
 
-	.people-grid-container {
-		display: grid;
-		grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-		gap: 1rem;
+	/* Spotlight wall: one card per field, packed into masonry columns. Each card
+	   leads with the field's best-known person; everyone else gathers below as a
+	   crowd of faces plus name links, split into lanes when the tags support it. */
+	.spotlight-wall {
+		columns: 340px;
+		column-gap: 1rem;
 	}
 
-	.grid-item {
-		position: relative;
-		border-radius: 1rem;
-		overflow: hidden;
+	.spotlight-card {
+		break-inside: avoid;
+		display: flex;
+		flex-direction: column;
+		gap: 0.875rem;
+		margin: 0 0 1rem;
+		padding: 1rem;
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-edge);
-		transition: all 0.25s ease;
-		text-decoration: none;
-		box-shadow: var(--shadow-sm);
-		padding: 0.45rem;
+		border-radius: 1rem;
+	}
 
-		&::before {
-			content: '';
-			position: absolute;
-			inset: 0.45rem;
-			border-radius: 0.625rem;
-			background: linear-gradient(
-				135deg,
-				color-mix(in srgb, var(--lamp-glow) 10%, transparent) 0%,
-				transparent 50%
-			);
-			opacity: 0;
-			transition: opacity 0.25s ease;
-			z-index: 1;
+	.spotlight-head {
+		display: flex;
+		align-items: center;
+		gap: 0.875rem;
+	}
+
+	.lead-portrait {
+		flex-shrink: 0;
+		display: block;
+		width: 6.5rem;
+		height: 6.5rem;
+		overflow: hidden;
+		border-radius: 0.625rem;
+		box-shadow: 0 0 0 2px var(--group-accent);
+
+		img {
+			display: block;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			transition: transform 0.3s ease;
+		}
+
+		&:hover img {
+			transform: scale(1.05);
+		}
+	}
+
+	.spotlight-meta {
+		min-width: 0;
+		display: flex;
+		flex-direction: column;
+		gap: 0.25rem;
+	}
+
+	.group-label {
+		margin: 0;
+		color: var(--ink-mid);
+		font-size: 0.6875rem;
+		font-weight: 600;
+		letter-spacing: 0.08em;
+		line-height: 1.4;
+		text-transform: uppercase;
+		scroll-margin-top: 7rem;
+	}
+
+	.group-dot {
+		display: inline-block;
+		width: 0.5rem;
+		height: 0.5rem;
+		margin-right: 0.375rem;
+		border-radius: 9999px;
+		background: var(--group-accent);
+		vertical-align: 0.05em;
+	}
+
+	.group-count {
+		margin-left: 0.25rem;
+		color: var(--ink-dim);
+		font-variant-numeric: tabular-nums;
+		white-space: nowrap;
+	}
+
+	.lead-name {
+		color: var(--ink-bright);
+		font-size: 1.125rem;
+		font-weight: 600;
+		line-height: 1.25;
+		text-decoration: none;
+
+		&:hover {
+			color: var(--lamp-glow);
+		}
+	}
+
+	.lead-more {
+		margin: 0;
+		color: var(--ink-dim);
+		font-size: 0.8125rem;
+	}
+
+	.lane {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+	}
+
+	.lane-label {
+		margin: 0;
+		color: var(--ink-dim);
+		font-size: 0.6875rem;
+		font-weight: 600;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+	}
+
+	.crowd {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem;
+	}
+
+	.crowd-face {
+		display: block;
+		width: 3.25rem;
+		height: 3.25rem;
+		overflow: hidden;
+		border-radius: 9999px;
+		box-shadow: 0 0 0 1px var(--stone-edge);
+		transition:
+			box-shadow 0.2s ease,
+			transform 0.2s ease;
+
+		img {
+			display: block;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
 		}
 
 		&:hover {
-			transform: translateY(-4px);
-			border-color: color-mix(in srgb, var(--lamp-glow) 40%, transparent);
-			box-shadow:
-				var(--shadow-lg),
-				0 0 0 1px color-mix(in srgb, var(--lamp-glow) 10%, transparent);
-
-			&::before {
-				opacity: 1;
-			}
-
-			.grid-img {
-				transform: scale(1.05);
-			}
-
-			.person-name {
-				background: linear-gradient(
-					to top,
-					rgba(12, 10, 9, 0.85) 0%,
-					rgba(12, 10, 9, 0.5) 50%,
-					transparent 100%
-				);
-
-				h4 {
-					color: #fff;
-				}
-			}
+			box-shadow: 0 0 0 2px var(--group-accent);
+			transform: translateY(-2px);
 		}
 	}
 
-	.grid-item.personality-portrait-well {
-		background: var(--personality-portrait-well);
-	}
+	.crowd-names {
+		margin: 0;
+		color: var(--ink-dim);
+		font-size: 0.8125rem;
+		line-height: 1.65;
 
-	.grid-img {
-		width: 100%;
-		height: auto;
-		aspect-ratio: 1;
-		object-fit: cover;
-		filter: var(--personality-portrait-filter);
-		mix-blend-mode: normal;
-		transition: transform 0.4s ease;
-		border-radius: 0.625rem;
-		display: block;
-	}
+		a {
+			color: var(--ink-mid);
+			text-decoration: none;
 
-	.person-name {
-		position: absolute;
-		bottom: 0.45rem;
-		left: 0.45rem;
-		right: 0.45rem;
-		border-radius: 0 0 0.625rem 0.625rem;
-		background: linear-gradient(
-			to top,
-			rgba(12, 10, 9, 0.72) 0%,
-			rgba(12, 10, 9, 0.38) 50%,
-			transparent 100%
-		);
-		padding: 1.75rem 0.5rem 0.5rem;
-		text-align: center;
-		transition: background 0.25s ease;
-		z-index: 2;
-
-		h4 {
-			color: #fff;
-			font-size: 0.8125rem;
-			font-weight: 600;
-			margin: 0;
-			text-transform: capitalize;
-			transition: color 0.25s ease;
-			line-height: 1.3;
-			text-shadow: 0 1px 6px rgba(12, 10, 9, 0.9);
+			&:hover {
+				color: var(--lamp-glow);
+				text-decoration: underline;
+				text-underline-offset: 3px;
+			}
 		}
 	}
 
@@ -1082,11 +1180,6 @@
 			font-size: 1.25rem;
 		}
 
-		.people-grid-container {
-			grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-			gap: 0.75rem;
-		}
-
 		footer {
 			padding: 2rem 1.5rem;
 			border-radius: 0.625rem;
@@ -1117,21 +1210,17 @@
 			align-items: flex-start;
 		}
 
-		.people-grid-container {
-			grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
-			gap: 0.5rem;
+		.spotlight-card {
+			padding: 0.875rem;
 		}
 
-		.grid-item {
-			border-radius: 0.625rem;
+		.lead-portrait {
+			width: 5.5rem;
+			height: 5.5rem;
 		}
 
-		.person-name {
-			padding: 0.5rem 0.375rem;
-
-			h4 {
-				font-size: 0.6875rem;
-			}
+		.lead-name {
+			font-size: 1.0625rem;
 		}
 
 		footer {

@@ -1,5 +1,6 @@
 // src/lib/analytics/marketingEvents.ts
 import { capture, getPostHogRequestContext } from '$lib/analytics/posthog';
+import { bundledChorusPrompt } from '$lib/data/chorusStarter';
 import { parseEmailSignupAnalytics, type EmailSignupSurface } from './emailSignupContext';
 export type { EmailSignupSurface } from './emailSignupContext';
 
@@ -86,10 +87,7 @@ export function captureChorusInteraction(input: {
 		question_url: input.questionUrl,
 		source_path: input.sourcePath,
 		error_category: input.errorCategory,
-		prompt_version:
-			input.questionUrl === 'what-were-you-like-as-a-kid-in-3-words'
-				? 'three_words_v1'
-				: 'chorus_v2'
+		prompt_version: bundledChorusPrompt(input.questionUrl)?.promptVersion ?? 'chorus_v2'
 	});
 }
 

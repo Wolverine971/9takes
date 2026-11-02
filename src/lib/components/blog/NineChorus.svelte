@@ -15,7 +15,7 @@
 	import { tick } from 'svelte';
 	import { prefersReducedMotion } from 'svelte/motion';
 	import { resolve } from '$app/paths';
-	import { CHORUS_STARTER_SLUG } from '$lib/data/chorusStarter';
+	import { bundledChorusPrompt } from '$lib/data/chorusStarter';
 	import { qualifiedVisibility } from '$lib/analytics/qualifiedVisibility';
 	import { captureChorusInteraction } from '$lib/analytics/marketingEvents';
 	import {
@@ -60,7 +60,8 @@
 	let qrDataUrl = $state('');
 	let alreadyAnswered = $state(false);
 	let started = false;
-	let isStarter = $derived(questionUrl === CHORUS_STARTER_SLUG);
+	// Bundled starter questions carry their own short-answer copy.
+	let starterPrompt = $derived(bundledChorusPrompt(questionUrl));
 	function track(
 		step: 'shown' | 'started' | 'submitted' | 'failed' | 'revealed',
 		errorCategory?: 'http_error' | 'network_error' | 'invalid_response'
@@ -234,11 +235,9 @@
 						bind:value={draft}
 						oninput={startAnswer}
 						maxlength="2000"
-						rows={isStarter ? 2 : 4}
+						rows={starterPrompt ? 2 : 4}
 						disabled={submitting}
-						placeholder={isStarter
-							? 'Three words that describe you as a kid…'
-							: 'A few words in your own voice…'}
+						placeholder={starterPrompt?.placeholder ?? 'A few words in your own voice…'}
 						aria-invalid={submitError ? 'true' : 'false'}
 						aria-describedby={`chorus-take-count${submitError ? ' chorus-take-error' : ''}`}
 					></textarea>
@@ -247,9 +246,7 @@
 				<div class="give-foot">
 					<span id="chorus-take-count" class="count" class:ready={wordCount >= 3}>
 						{wordCount === 0
-							? isStarter
-								? 'Just three words. No explanation needed.'
-								: 'A sentence is enough.'
+							? (starterPrompt?.hint ?? 'A sentence is enough.')
 							: `${wordCount} word${wordCount === 1 ? '' : 's'}`}
 					</span>
 					<button class="reveal-btn" onclick={submit} disabled={!canSubmit}>

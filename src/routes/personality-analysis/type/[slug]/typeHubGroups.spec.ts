@@ -74,7 +74,86 @@ describe('groupPeopleByNiche', () => {
 			{ slug: 'missing-tags' }
 		];
 		expect(groupPeopleByNiche(people)).toEqual([
-			{ slug: 'other', label: 'Other Public Figures', people }
+			{
+				slug: 'other',
+				label: 'Other Public Figures',
+				accent: null,
+				people,
+				lanes: [{ slug: 'all', label: '', people: people.slice(1) }]
+			}
+		]);
+	});
+
+	it('puts the largest field first and keeps Other Public Figures last', () => {
+		const groups = groupPeopleByNiche([
+			{ slug: 'mystery', type: ['unrecognized-tag'] },
+			{ slug: 'mystery-two', type: null },
+			{ slug: 'mystery-three' },
+			{ slug: 'tom-cruise', type: ['movieStar'] },
+			{ slug: 'taylor-swift', type: ['musician'] },
+			{ slug: 'sabrina-carpenter', type: ['musician'] },
+			{ slug: 'barack-obama', type: ['politician'] },
+			{ slug: 'joe-biden', type: ['politician'] }
+		]);
+
+		// Music and Politics tie at 2; the authored field order breaks the tie.
+		expect(groups.map((group) => group.slug)).toEqual([
+			'music',
+			'politics-public',
+			'film-tv',
+			'other'
+		]);
+	});
+});
+
+describe('spotlight lanes', () => {
+	const filmField = [
+		{ slug: 'jon-bernthal', type: ['movieStar', 'screen-icon'] },
+		{ slug: 'shia-labeouf', type: ['celebrity', 'screen-icon'] },
+		{ slug: 'conor-mcgregor', type: ['celebrity', 'celebrity-image'] },
+		{ slug: 'tom-hardy', type: ['celebrity', 'screen-icon'] },
+		{ slug: 'gordon-ramsay', type: ['celebrity', 'celebrity-image'] },
+		{ slug: 'new-face', type: ['movieStar', 'rising-star'] }
+	];
+
+	it('leads with the best-known person and splits the rest into tagged lanes', () => {
+		const [film] = groupPeopleByNiche(filmField);
+
+		expect(film.people[0].slug).toBe('jon-bernthal');
+		expect(film.accent).toBe('#f59e0b');
+		expect(film.lanes.map((lane) => [lane.label, lane.people.map((p) => p.slug)])).toEqual([
+			['Screen icons', ['shia-labeouf', 'tom-hardy']],
+			['Celebrity image', ['conor-mcgregor', 'gordon-ramsay']],
+			// A lane with one face folds into More instead of standing alone.
+			['More', ['new-face']]
+		]);
+		expect(film.lanes.flatMap((lane) => lane.people)).toHaveLength(film.people.length - 1);
+	});
+
+	it('keeps one unlabeled crowd when fewer than two lanes would have two faces', () => {
+		const [film] = groupPeopleByNiche(filmField.slice(0, 4));
+
+		expect(film.lanes).toEqual([{ slug: 'all', label: '', people: filmField.slice(1, 4) }]);
+	});
+
+	it('gives a one-person field no lanes and fields without sub-groups one crowd', () => {
+		const groups = groupPeopleByNiche([
+			{ slug: 'caitlin-clark', type: ['athlete'] },
+			{ slug: 'khabib-nurmagomedov', type: ['celebrity', 'athlete'] },
+			{ slug: 'lebron-james', type: ['athlete'] },
+			{ slug: 'solo-comic', type: ['comedian'] }
+		]);
+
+		expect(groups.find((group) => group.slug === 'comedy')?.lanes).toEqual([]);
+		expect(groups.find((group) => group.slug === 'athletes')?.lanes).toEqual([
+			{
+				slug: 'all',
+				label: '',
+				people: [
+					{ slug: 'khabib-nurmagomedov', type: ['celebrity', 'athlete'] },
+					{ slug: 'lebron-james', type: ['athlete'] }
+				]
+			}
 		]);
 	});
 });

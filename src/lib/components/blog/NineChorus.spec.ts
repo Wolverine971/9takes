@@ -118,11 +118,12 @@ describe('NineChorus', () => {
 
 	it('makes the starter question short and labels the AI examples before posting', () => {
 		const { getByRole, getByText } = renderProvenChorus({
-			questionUrl: 'what-were-you-like-as-a-kid-in-3-words',
-			question: 'What were you like as a kid in 3 words?'
+			questionUrl: 'what-do-people-get-wrong-about-you-when-they-first-meet-you',
+			question: 'What do people get wrong about you when they first meet you?'
 		});
 		expect(getByRole('textbox').getAttribute('rows')).toBe('2');
-		expect(getByText('Just three words. No explanation needed.')).toBeTruthy();
+		expect(getByRole('textbox').getAttribute('placeholder')).toBe('They think I’m… Really, I’m…');
+		expect(getByText('One line is enough.')).toBeTruthy();
 		expect(getByText(/nine AI-written examples/)).toBeTruthy();
 	});
 

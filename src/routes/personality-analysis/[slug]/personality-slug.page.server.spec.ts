@@ -52,6 +52,7 @@ import {
 	PROVEN_CHORUS_QUESTION_URLS,
 	orderProvenChorusCandidates
 } from '$lib/server/provenChorusQuestions';
+import { CHORUS_STARTER_SLUG } from '$lib/data/chorusStarter';
 
 beforeEach(() => {
 	admin.nineTakes = { data: [], error: null };
@@ -331,7 +332,7 @@ describe('/personality-analysis/[slug] load', () => {
 		const picks = await Promise.all(slugs.map(pickFor));
 
 		slugs.forEach((slug, i) => expect(picks[i]).toBe(orderProvenChorusCandidates(slug)[0]));
-		expect(new Set(picks)).toEqual(new Set(['what-were-you-like-as-a-kid-in-3-words']));
+		expect(new Set(picks)).toEqual(new Set([CHORUS_STARTER_SLUG]));
 		expect(await pickFor('person-3')).toBe(picks[3]);
 	});
 
@@ -365,7 +366,7 @@ describe('/personality-analysis/[slug] load', () => {
 
 		const result = await loadPage(event);
 
-		expect(result.chorus.questionUrl).toBe('what-were-you-like-as-a-kid-in-3-words');
+		expect(result.chorus.questionUrl).toBe(CHORUS_STARTER_SLUG);
 	});
 
 	it('renders no chorus when no pool question is eligible and answerable', async () => {
