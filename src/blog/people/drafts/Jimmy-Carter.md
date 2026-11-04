@@ -13,6 +13,7 @@ published: true
 enneagram: '2'
 type:
   - politician
+  - modern-leader
 person: jimmy-carter
 suggestions:
   - ronald-reagan

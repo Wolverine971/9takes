@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '3'
-type: ['author', 'creator', 'entrepreneur']
+type: ['author', 'creator', 'entrepreneur', 'strategy-writer']
 person: 'Mel-Robbins'
 suggestions: ['Tony-Robbins', 'Steven-Bartlett', 'Gary-Vee', 'Alex-Hormozi']
 wikipedia: 'https://en.wikipedia.org/wiki/Mel_Robbins'

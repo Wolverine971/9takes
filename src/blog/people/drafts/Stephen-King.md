@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 5
-type: ['author']
+type: ['author', 'novelist']
 person: 'stephen-king'
 suggestions: ['j.k.-rowling', 'jordan-peterson', 'steve-jobs', 'morgan-freeman']
 wikipedia: 'https://en.wikipedia.org/wiki/Stephen_King'

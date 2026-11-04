@@ -3,6 +3,7 @@ import { describe, expect, it } from 'vitest';
 import {
 	QUALITY_GATES,
 	calculateQuality,
+	checkDraft,
 	editorialHash,
 	evidenceSchema,
 	matchesEditorialHash,
@@ -37,6 +38,45 @@ describe('editorial hash and the label-paths `path` field', () => {
 			)
 		).toBe(false);
 		expect(matchesEditorialHash(released, undefined)).toBe(false);
+	});
+});
+
+describe('editorial hash and cluster tags', () => {
+	const released =
+		"---\ntitle: 'A'\nenneagram: 6\ntype: ['movieStar', 'celebrity']\n---\n\nBody.\n";
+	const tagged = released.replace("'celebrity']", "'celebrity', 'screen-icon']");
+
+	it('lets a released profile gain or change its cluster tag', () => {
+		expect(editorialHash(tagged)).toBe(editorialHash(released));
+		expect(matchesEditorialHash(tagged, editorialHash(released))).toBe(true);
+		const retagged = tagged.replace('screen-icon', 'celebrity-image');
+		expect(matchesEditorialHash(retagged, editorialHash(tagged))).toBe(true);
+	});
+
+	it('accepts hashes frozen while cluster tags counted', () => {
+		// Produced by the pre-2026-11-04 editorialHash for `tagged` (full type array).
+		const frozen = 'fa60644ebc39c11fa7b0d430ea940b11698182f6dabf402d383e149e390399c1';
+		expect(editorialHash(tagged)).not.toBe(frozen);
+		expect(matchesEditorialHash(tagged, frozen)).toBe(true);
+	});
+
+	it('still treats field types as reviewed metadata', () => {
+		const moved = released.replace("'movieStar'", "'musician'");
+		expect(matchesEditorialHash(moved, editorialHash(released))).toBe(false);
+	});
+});
+
+describe('cluster tag check', () => {
+	/** @param {string[]} type */
+	const blockersFor = (type) =>
+		checkDraft(
+			`---\nperson: Example-Person\ntype: ${JSON.stringify(type)}\nenneagram: 5\n---\n\nBody.\n`
+		).blockers.filter((b) => b.startsWith('missing_cluster_tag'));
+
+	it('asks for a tag from the field the person is filed under', () => {
+		expect(blockersFor(['musician', 'celebrity'])).toEqual(['missing_cluster_tag:music']);
+		expect(blockersFor(['musician', 'celebrity', 'pop-star'])).toEqual([]);
+		expect(blockersFor(['celebrity', 'athlete'])).toEqual([]);
 	});
 });
 

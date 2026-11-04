@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '3'
-type: ['comedian']
+type: ['comedian', 'internet-comic']
 person: 'matt-rife'
 suggestions: ['Andrew-Schulz', 'Theo-Von', 'Shane-Gillis', 'Kevin-Hart', 'Chelsea-Handler']
 wikipedia: 'https://en.wikipedia.org/wiki/Matt_Rife'

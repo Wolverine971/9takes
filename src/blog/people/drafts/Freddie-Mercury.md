@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '4'
-type: ['musician', 'historical']
+type: ['musician', 'historical', 'pop-star']
 person: 'Freddie-Mercury'
 suggestions: ['Elton-John', 'Prince', 'John-Lennon', 'Lady-Gaga']
 wikipedia: 'https://en.wikipedia.org/wiki/Freddie_Mercury'

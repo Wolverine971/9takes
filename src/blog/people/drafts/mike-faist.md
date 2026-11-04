@@ -16,6 +16,7 @@ enneagram: '4'
 type:
   - movieStar
   - celebrity
+  - rising-star
 person: mike-faist
 suggestions:
   - Andrew-Garfield

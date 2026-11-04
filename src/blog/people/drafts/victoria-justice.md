@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '9'
-type: ['celebrity', 'movieStar', 'musician']
+type: ['celebrity', 'movieStar', 'musician', 'tv-comedy-crossover']
 person: 'Victoria-Justice'
 suggestions: ['Ariana-Grande', 'Selena-Gomez', 'Hailee-Steinfeld', 'Demi-Lovato']
 wikipedia: 'https://en.wikipedia.org/wiki/Victoria_Justice'

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '8'
-type: ['creator', 'lifestyleInfluencer', 'tiktoker']
+type: ['creator', 'lifestyleInfluencer', 'tiktoker', 'lifestyle-builder']
 person: 'Nara-Smith'
 suggestions: ['Alex-Cooper', 'Gordon-Ramsay', 'Emma-Chamberlain', 'Alix-Earle', 'Paris-Hilton']
 wikipedia: 'https://en.wikipedia.org/wiki/Nara_Smith'

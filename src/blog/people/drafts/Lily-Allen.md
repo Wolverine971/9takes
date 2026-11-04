@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 4
-type: ['musician']
+type: ['musician', 'singer-songwriter']
 person: 'lily-allen'
 suggestions: ['Adele', 'Lana-Del-Rey', 'Billie-Eilish', 'Olivia-Rodrigo']
 wikipedia: 'https://en.wikipedia.org/wiki/Lily_Allen'

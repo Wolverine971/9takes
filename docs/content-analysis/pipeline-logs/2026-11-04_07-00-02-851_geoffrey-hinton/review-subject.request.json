@@ -1,0 +1,20 @@
+{
+  "schema_version": 3,
+  "subject": "geoffrey-hinton",
+  "mode": "create",
+  "role": "subject",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_review_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-04_07-00-02-851_geoffrey-hinton/draft.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-04_07-00-02-851_geoffrey-hinton/evidence-draft.json",
+    "similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-04_07-00-02-851_geoffrey-hinton/similarity.json"
+  },
+  "outputs": {
+    "review-subject.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-04_07-00-02-851_geoffrey-hinton/review-subject.json"
+  },
+  "content_sha256": "075bac3dc0585036efa6ca42b95098dcd7257cab63d808c1716de04f0d538d1f",
+  "evidence_sha256": "56efc02bcde20493f4f9c341d5bc256ff4b4576fa6e53e7f9827c58be1e31e4f"
+}

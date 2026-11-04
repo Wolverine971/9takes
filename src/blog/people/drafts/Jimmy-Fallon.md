@@ -15,6 +15,7 @@ enneagram: '7'
 type:
   - celebrity
   - comedian
+  - sketch-comic
 person: jimmy-fallon
 suggestions:
   - robin-williams

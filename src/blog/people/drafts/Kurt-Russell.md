@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '9'
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Kurt-Russell'
 content_quality:
   hook: 9

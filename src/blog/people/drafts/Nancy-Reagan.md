@@ -13,6 +13,7 @@ published: true
 enneagram: '2'
 type:
   - politician
+  - political-spouse
 person: nancy-reagan
 suggestions:
   - ronald-reagan

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '6'
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Olivia-Cooke'
 suggestions: ['Anya-Taylor-Joy', 'Matt-Smith', 'Sydney-Sweeney', 'Emma-Watson']
 wikipedia: 'https://en.wikipedia.org/wiki/Olivia_Cooke'

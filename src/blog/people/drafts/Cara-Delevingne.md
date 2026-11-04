@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '4'
-type: ['celebrity', 'musician', 'movieStar']
+type: ['celebrity', 'musician', 'movieStar', 'music-crossover']
 person: 'Cara-Delevingne'
 suggestions: ['Bella-Hadid', 'Gigi-Hadid', 'Margot-Robbie', 'Demi-Lovato']
 wikipedia: 'https://en.wikipedia.org/wiki/Cara_Delevingne'

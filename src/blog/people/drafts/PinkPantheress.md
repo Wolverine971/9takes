@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 5
-type: ['musician']
+type: ['musician', 'alternative-artist']
 person: 'pinkpantheress'
 suggestions: ['Ice-Spice', 'Billie-Eilish', 'Lana-Del-Rey', 'Olivia-Rodrigo']
 wikipedia: 'https://en.wikipedia.org/wiki/PinkPantheress'

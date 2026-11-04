@@ -1,0 +1,23 @@
+Warning: this sign-in ends between 2026-11-05 and 2026-11-08 (in 1 day at the earliest). Renewing it does not move those dates. Run claude auth login before then, or use claude setup-token for unattended jobs.
+I wrote the critic review to `docs/content-analysis/pipeline-logs/2026-11-04_07-00-02-851_geoffrey-hinton/review-critic.json`, with 8 findings and 5 protected passages. It passes the review schema and copies the content and evidence hashes from the request. Every quoted passage matches the draft exactly, and I didn't change or publish anything else.
+
+**Verdict:** the draft confronts counterevidence more honestly than most. It concedes the humidifier episode as a point for Type 3, separates the book author's narration from Hinton's own words, and gives the less heroic "I was 75 and wanted to retire" account. The weak spot is the evidence used to separate Type 1 from Type 5.
+
+**Major findings:**
+- **The opening overstates its point.** The Times article based its framing on Hinton's own line that he wouldn't criticize Google while still employed. So his tweet clarified his own words; it didn't turn down undeserved credit. "Biggest stage he had ever had" has no source.
+- **The choices called "costly" mostly weren't.** Correcting the Times, leaving Google, briefing lawmakers and the OpenAI legal statement cost him little or nothing. The standard requires repeated costly choices, and both the body and the FAQ claim cost.
+- **The "should" argument plays on the word.** "It should be true" is about how an algorithm looks, and "This should not work" is a prediction. Neither is a moral standard, and the evidence record says so itself. The line "ran mostly on should" also replaces his own words, "mostly anxiety."
+- **Obvious counterevidence is missing:** ten quiet years at Google, including the 2020 ouster of AI ethics researcher Timnit Gebru, and a former Google AI ethics lead's public criticism of that silence. I only saw this in search results, not in an opened source, and the review says so.
+- **The "heat" argument rests on one reporter's word.** "Still enrage him" is the New Yorker writer's description from a single visit. The draft later repeats it in its own voice as fact.
+
+**Minor findings:**
+- **Rivals tested against weak versions.** Type 5 is cast as the type that stays out of public fights, and Type 6 gets one line, with no answer to the contrarian Six or to his security reason for selling his company.
+- **The grief passage leaves out key context.** In the same New Yorker passage, Hinton frames his lesson as "denial" versus "stoicism," meaning accepting what can't be fixed. That cuts against "cannot leave it alone."
+- **His 2024 to 2026 change on slowing AI down is presented as updating on facts** without saying what facts changed.
+
+The quotes I checked against cached copies match: the Times article, the New Yorker profile and the Diary of a CEO interview. The similarity check flagged only the standard sentence about the three anger types, which is ordinary type vocabulary, so I didn't report it as reuse. Both risk flags stay on: contested typing, and sensitive material (his opinion of Altman, his late wife's medical choices).
+
+Sources:
+- [Fortune: AI scientists' dire warnings, mixed opinions (2023-05-03)](https://fortune.com/2023/05/03/ai-scientists-dire-warnings-mixed-opinions/)
+- [Daily Dot](https://www.dailydot.com/?p=1323019)
+- [West Hawaii Today opinion](https://www.westhawaiitoday.com/?p=240773)

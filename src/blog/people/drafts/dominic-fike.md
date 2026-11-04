@@ -18,6 +18,7 @@ enneagram: '7'
 type:
   - musician
   - celebrity
+  - alternative-artist
 person: dominic-fike
 suggestions:
   - dax-shepard

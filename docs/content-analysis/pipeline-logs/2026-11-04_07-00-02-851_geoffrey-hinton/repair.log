@@ -1,0 +1,14 @@
+Warning: this sign-in ends between 2026-11-05 and 2026-11-08 (in 1 day at the earliest). Renewing it does not move those dates. Run claude auth login before then, or use claude setup-token for unattended jobs.
+I've written the three repair files for the Geoffrey Hinton run: `repair.md`, `evidence-repair.json` and `resolution-repair.json`. The verifier rejected the last version on one major issue and graded it 8.4 overall, just under the 8.5 needed to publish. This repair addresses all four of its findings. I haven't re-graded it; the pipeline's verify step does that next. Nothing else was edited and nothing was published.
+
+**What changed in the article:**
+1. **"Four days" (the major issue):** the New Yorker profile never says how long the reporter stayed. The sentence now just says Joshua Rothman "visited" Hinton on his island, with no number. I removed the figure from the matching evidence entries too.
+2. **The Times correction was mentioned twice after the opening:** it now appears once. In the Type 6 paragraph, "he defended Google on the day he quit" is replaced with a different example from the 2025 Diary of a CEO interview. I checked the wording against the audio transcript: "I didn't leave because I was cross with anything Google was doing. I think Google actually behaved very responsibly."
+3. **"Calibration, not dread":** that sentence cut off half the quote. The article now gives his full MIT Technology Review answer, "I'm mildly depressed… Which is why I'm scared," and still makes the paragraph's main point that he disagrees with institutions only when his own model says to.
+4. **OpenAI's 2025 restructuring:** I kept the AP's hedge, quoting that the business "remains technically under the control of a nonprofit."
+
+I also made one small trim the verifier didn't ask for. I cut two repeated caveats ("Fame creates demand. The home details come from a single visit.") because both already appear earlier in the article, and the verifier had flagged stacked hedges in that section. No sourced claim was in those two sentences, and the cut is logged in `resolution-repair.json`.
+
+**Checks:** the evidence file passes the pipeline's validator, every quoted passage matches the article text, and the draft has no blockers at 4,297 words. The resolution file covers every reviewer finding, all four verifier findings and every passage reviewers marked to preserve.
+
+The article is still about 4,300 words, well over the 3,500 target, which is what held the writing score at 8.5. I didn't cut it further because this repair round is meant to be targeted.

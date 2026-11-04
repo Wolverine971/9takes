@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 8
-type: ['musician']
+type: ['musician', 'rapper']
 person: 'nicki-minaj'
 suggestions: ['Rihanna', 'Drake', 'Doja-Cat', 'Chappell-Roan']
 wikipedia: 'https://en.wikipedia.org/wiki/Nicki_Minaj'

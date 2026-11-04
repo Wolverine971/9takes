@@ -5,7 +5,7 @@ import { normalizePersonalitySlug } from '$lib/utils/personalityAnalysis';
 import { roundedCorpusCount } from '$lib/utils/talkSituations';
 import corpusStats from '$lib/data/corpus-stats.json';
 import personalityFame from '$lib/generated/personalityFame.json';
-import { buildCelebrityHub } from './celebrityHub';
+import { buildCelebrityHub, buildJustAdded } from './celebrityHub';
 import type { FameViews } from './type/[slug]/typeHubOrder';
 
 type FamousPersonRow = Database['public']['Tables']['blogs_famous_people']['Row'];
@@ -173,52 +173,15 @@ export const load: PageServerLoad = async ({ locals }) => {
 		slug: normalizePersonalitySlug(e.person)
 	}));
 
-	// "Enneagram celebrities by type": live counts and best-known names. If the
-	// live query failed, the fallback list is only a handful of people, so the
+	// The nine portrait rows: live counts and best-known people. If the live
+	// query failed, the fallback list is only a handful of people, so the
 	// counts come from the build-time corpus snapshot instead.
 	const celebrityHub = buildCelebrityHub(posts, personalityFame.views as FameViews, {
 		counts: usingFallback ? corpusStats.enneagram_distribution.counts : undefined
 	});
 
-	const uniqueTypes = Array.from(new Set(posts.map((obj) => obj.enneagram)));
-
-	// Store objects of unique types
-	const uniqueObjects: PersonPost[] = [];
-	const typeCounts: Record<string, number> = {};
-
-	// Iterate through unique types
-	uniqueTypes.forEach((enneagram) => {
-		// Find objects with current type
-		const objectsWithType = posts.filter((obj) => obj.enneagram === enneagram);
-
-		if (enneagram) {
-			typeCounts[enneagram] = objectsWithType.length;
-		}
-
-		// Sort objects by date_created
-		objectsWithType.sort(
-			(a, b) =>
-				new Date(b.lastmod ?? b.date ?? 0).getTime() - new Date(a.lastmod ?? a.date ?? 0).getTime()
-		);
-
-		// Push first 6 objects (two clean rows of 3) to uniqueObjects
-		uniqueObjects.push(...objectsWithType.slice(0, 6));
-	});
-
-	const sortedByLastmod = [...posts].sort(
-		(a, b) =>
-			new Date(b.lastmod ?? b.date ?? 0).getTime() - new Date(a.lastmod ?? a.date ?? 0).getTime()
-	);
-	const featured = sortedByLastmod.slice(0, 2);
-	const featuredSlugs = new Set(featured.map((p) => p.slug));
-	const recentlyUpdated = sortedByLastmod.filter((p) => !featuredSlugs.has(p.slug)).slice(0, 6);
-
 	return {
-		people: uniqueObjects,
-		featured,
-		recentlyUpdated,
-		totalPeople: posts.length,
-		typeCounts,
+		justAdded: buildJustAdded(posts),
 		celebrityHub,
 		// "450+": rounded down from corpus-stats.json so the title never overstates.
 		publicFigureCount: roundedCorpusCount(corpusStats.totals.published)

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 9
-type: ['musician']
+type: ['musician', 'singer-songwriter']
 person: 'ed-sheeran'
 suggestions: ['Taylor-Swift', 'Elton-John', 'Post-Malone', 'Harry-Styles']
 wikipedia: 'https://en.wikipedia.org/wiki/Ed_Sheeran'

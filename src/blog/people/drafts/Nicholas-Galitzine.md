@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '4'
-type: ['movieStar', 'newMovieStar']
+type: ['movieStar', 'newMovieStar', 'rising-star']
 person: 'Nicholas-Galitzine'
 suggestions: ['Anne-Hathaway', 'Paul-Mescal', 'Timothee-Chalamet', 'Jacob-Elordi']
 wikipedia: 'https://en.wikipedia.org/wiki/Nicholas_Galitzine'

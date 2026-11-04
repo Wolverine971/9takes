@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '6'
-type: ['comedian', 'celebrity', 'creator']
+type: ['comedian', 'celebrity', 'creator', 'stand-up']
 person: 'Bill-Burr'
 suggestions: ['Dave-Chappelle', 'Shane-Gillis', 'Conan-OBrien', 'Joe-Rogan']
 wikipedia: 'https://en.wikipedia.org/wiki/Bill_Burr'

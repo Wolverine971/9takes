@@ -1,6 +1,6 @@
 // src/routes/personality-analysis/celebrityHub.spec.ts
 import { describe, expect, it } from 'vitest';
-import { buildCelebrityHub, CELEBRITY_HUB_NAMES_PER_TYPE } from './celebrityHub';
+import { buildCelebrityHub, buildJustAdded, CELEBRITY_HUB_NAMES_PER_TYPE } from './celebrityHub';
 
 const posts = [
 	{ slug: 'taylor-swift', enneagram: '3', date: '2024-01-15' },
@@ -37,7 +37,9 @@ describe('buildCelebrityHub', () => {
 
 	it('uses display-name overrides for names the slug cannot spell', () => {
 		const type9 = buildCelebrityHub(posts, views).find((group) => group.type === '9')!;
-		expect(type9.people).toEqual([{ slug: 'conan-obrien', name: "Conan O'Brien" }]);
+		expect(type9.people).toEqual([
+			{ slug: 'conan-obrien', name: "Conan O'Brien", personaTitle: null }
+		]);
 	});
 
 	it('counts live posts per type and shares them over the typed total', () => {
@@ -77,5 +79,35 @@ describe('buildCelebrityHub', () => {
 		const type7 = buildCelebrityHub(many, {}).find((group) => group.type === '7')!;
 		expect(type7.count).toBe(25);
 		expect(type7.people).toHaveLength(CELEBRITY_HUB_NAMES_PER_TYPE);
+	});
+});
+
+describe('buildJustAdded', () => {
+	it('lists the newest typed profiles by publish date, not by refresh date', () => {
+		const added = buildJustAdded(
+			[
+				{ slug: 'old-refreshed', enneagram: '1', date: '2024-01-01', lastmod: '2026-11-03' },
+				{ slug: 'brand-new', enneagram: '4', date: '2026-11-01', persona_title: '  A Title ' },
+				{ slug: 'last-week', enneagram: '8', date: '2026-10-25' },
+				{ slug: 'untyped', enneagram: null, date: '2026-11-02' }
+			],
+			2
+		);
+		expect(added).toEqual([
+			{
+				slug: 'brand-new',
+				name: 'Brand New',
+				personaTitle: 'A Title',
+				enneagram: '4',
+				addedAt: '2026-11-01'
+			},
+			{
+				slug: 'last-week',
+				name: 'Last Week',
+				personaTitle: null,
+				enneagram: '8',
+				addedAt: '2026-10-25'
+			}
+		]);
 	});
 });

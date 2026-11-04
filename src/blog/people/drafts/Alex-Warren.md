@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '3'
-type: ['musician', 'creator']
+type: ['musician', 'creator', 'music-crossover']
 person: 'Alex-Warren'
 suggestions: ['Jelly-Roll', 'Benson-Boone', 'Noah-Kahan', 'Addison-Rae']
 wikipedia: 'https://en.wikipedia.org/wiki/Alex_Warren'

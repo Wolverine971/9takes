@@ -13,6 +13,7 @@ published: true
 enneagram: '6'
 type:
   - celebrity
+  - tv-comedy-crossover
 person: ellen-degeneres
 suggestions:
   - trevor-noah

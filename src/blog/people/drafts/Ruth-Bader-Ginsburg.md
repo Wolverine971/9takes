@@ -13,6 +13,7 @@ published: true
 enneagram: '1'
 type:
   - politician
+  - campaign-politician
 person: ruth-bader-ginsburg
 suggestions:
   - hillary-clinton

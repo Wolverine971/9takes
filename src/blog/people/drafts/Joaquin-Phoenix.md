@@ -13,6 +13,7 @@ published: true
 enneagram: '4'
 type:
   - movieStar
+  - screen-icon
 person: joaquin-phoenix
 suggestions:
   - johnny-depp

@@ -1,0 +1,18 @@
+Warning: this sign-in ends between 2026-11-05 and 2026-11-08 (in 1 day at the earliest). Renewing it does not move those dates. Run claude auth login before then, or use claude setup-token for unattended jobs.
+I wrote the Enneagram review for the Geoffrey Hinton draft to `docs/content-analysis/pipeline-logs/2026-11-04_07-00-02-851_geoffrey-hinton/review-enneagram.json`. It passes the review schema check, and every passage it quotes appears word for word in the draft. Nothing else was changed or published.
+
+**Verdict:** Type 1 at medium confidence is defensible, but the argument that rules out Type 5 is weaker than it looks. The review has 4 major and 3 minor findings.
+
+**Major:**
+1. **A pun on "should."** The draft treats every "should" as a sign of a One. But "This should not work" is a prediction, and "If I was God, I'd make it true" is a taste for elegant theories, which fits a Five just as well. When Hinton drops the beautiful algorithm for the one that works better, that also fits Five, yet the draft counts it for One.
+2. **"By his own account, ran mostly on should."** Hinton never said "should." What he described was family pressure and "mostly anxiety," and the evidence record itself says that fits Types 3 and 6 as much as 1.
+3. **The Five is a caricature.** The draft says a Five stays out of the fray, but Fives can be loud public contrarians, and Noam Chomsky is even in the draft's own suggestions list. Most of the evidence it lists (correcting the Times, keeping promises) fits both types. The evidence that actually separates them is narrower: his sense that certain behavior is wrong, his irritation at other people's carelessness, and acting on that at a cost to himself.
+4. **The anger evidence is thin.** "Still enrage him" is the reporter's word, not Hinton's. In his own voice his anger is mild ("unfortunate," "just crazy"). One item in the draft's list of anger signals is actually certainty, not anger.
+
+**Minor:** Type 3, the bolder anti-authority kind of Type 6 (counterphobic), and Type 8 each come up in the evidence or framing but are never weighed. Each needs a sentence, not a section.
+
+**Similarity check:** It flagged the anger-triad sentence against the Aaron Pierre and Daniela Amodei drafts. When I compared them, the overlap was only standard Enneagram vocabulary, not a reused argument, so I didn't make it a finding.
+
+I marked five passages for the editor to keep, including the opening ("The same day, he used it to correct the paper"), the section on what the One reading leaves out, and the ending.
+
+The review keeps two risk flags on: contested typing (One vs. Five is close) and sensitive material (his son, his wives' illnesses, his opinion of Sam Altman). Either one means the full six-role review applies.

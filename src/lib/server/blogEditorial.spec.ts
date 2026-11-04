@@ -56,7 +56,7 @@ function draft() {
 			changefreq: 'monthly',
 			priority: '0.6',
 			enneagram: 5,
-			type: ['author'],
+			type: ['author', 'strategy-writer'],
 			person: 'Example-Person',
 			suggestions: ['Another-Person'],
 			production_pretext: { status: 'draft', blockers: [] },

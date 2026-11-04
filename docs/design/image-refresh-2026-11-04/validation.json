@@ -1,0 +1,65 @@
+{
+	"date": "2026-11-04",
+	"deliveryImages": [
+		{
+			"file": "static/blogs/people-from-diverse-backgrounds.webp",
+			"width": 1200,
+			"height": 800,
+			"bytes": 118436
+		},
+		{
+			"file": "static/blogs/s-people-from-diverse-backgrounds.webp",
+			"width": 480,
+			"height": 320,
+			"bytes": 20482
+		},
+		{
+			"file": "static/blogs/female-greek-statues-of-different-professions.webp",
+			"width": 1200,
+			"height": 800,
+			"bytes": 128774
+		},
+		{
+			"file": "static/blogs/s-female-greek-statues-of-different-professions.webp",
+			"width": 480,
+			"height": 320,
+			"bytes": 19938
+		},
+		{
+			"file": "static/blogs/greek-statue-giving-a-speech.webp",
+			"width": 1200,
+			"height": 800,
+			"bytes": 115704
+		},
+		{
+			"file": "static/blogs/s-greek-statue-giving-a-speech.webp",
+			"width": 480,
+			"height": 320,
+			"bytes": 20062
+		},
+		{
+			"file": "static/blogs/neoclassical-fortress2.webp",
+			"width": 1200,
+			"height": 800,
+			"bytes": 144882
+		},
+		{
+			"file": "static/blogs/s-neoclassical-fortress2.webp",
+			"width": 480,
+			"height": 320,
+			"bytes": 23220
+		}
+	],
+	"originalBackupsMatchGit": true,
+	"articleReferences": "4/4 resolve at original public URLs",
+	"mastersPresent": true,
+	"deliveryBytes": 591498,
+	"previousDeliveryBytes": 635834,
+	"savedBytes": 44336,
+	"staticAssetBudget": "passed",
+	"reviewBrowserChecks": {
+		"comparisonImagesLoaded": 8,
+		"tierFilter": "T1 returns 39 images",
+		"search": "neoclassical-fortress2 returns 1 image"
+	}
+}

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 6
-type: ['musician']
+type: ['musician', 'pop-star']
 person: 'camila-cabello'
 suggestions: ['Ariana-Grande', 'Selena-Gomez', 'Demi-Lovato', 'Zendaya']
 wikipedia: 'https://en.wikipedia.org/wiki/Camila_Cabello'

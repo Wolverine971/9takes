@@ -1,0 +1,16 @@
+Warning: this sign-in ends between 2026-11-05 and 2026-11-08 (in 1 day at the earliest). Renewing it does not move those dates. Run claude auth login before then, or use claude setup-token for unattended jobs.
+I wrote the subject review for the Geoffrey Hinton draft to `docs/content-analysis/pipeline-logs/2026-11-04_07-00-02-851_geoffrey-hinton/review-subject.json`, and it passes the pipeline's review schema check. No other files were changed and nothing was published.
+
+The draft is mostly fair: it separates what the public record shows from the author's reading of it. It has 6 findings (2 major, 4 minor) and 5 passages flagged to keep. I opened the New Yorker profile, TechCrunch, the copy of Hinton's tweet, Wikipedia on Altman's removal, and NBC (that page only partly loaded, but the "maybe a year" quote checks out).
+
+**Major findings**
+- **OpenAI "broke a promise."** In the draft's own voice, OpenAI is said to have broken a promise. Hinton's December 2024 objection was to a restructuring that hadn't happened yet. The draft never says what OpenAI did afterward. My recollection is that in 2025 it kept nonprofit control, but the editor needs to confirm that from a dated source. "What offends him most" also ranks his motives with nothing to back the ranking.
+- **Rosalind's cancer treatment.** Her choices are told only from Hinton's side. The draft leaves out the New Yorker's context that she'd had infertility struggles and bad experiences with callous doctors. It then sets her next to Jackie, "incredibly rational." The fix is either to cut the treatment details or to add that context and present the comparison as Hinton's own framing.
+
+**Minor findings**
+- The opening line "He did not want credit for a story that was not quite true" states a guessed motive as fact.
+- Hinton's verdict on Altman needs one clause with the board's stated reason ("not consistently candid") and the March 2024 outside review's conclusion that his conduct "did not mandate removal."
+- The contractor anger comes from one reporter's 2023 visit, but the draft repeats it as a present-tense fact in 2026.
+- "Duty without guilt" should be limited to his AI work. The same New Yorker passage describes him as "angry, guilty, wounded, mystified" about Rosalind's death.
+
+The two passages the similarity check matched against the Aaron Pierre and Daniela Amodei drafts share only standard Enneagram vocabulary ("the three types organized around anger"), so they're not real reuse. Both risk flags stay on: sensitive allegations and contested typing. That matches what research flagged, so the six-role review still applies.

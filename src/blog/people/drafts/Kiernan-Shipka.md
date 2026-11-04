@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '3'
-type: ['newMovieStar', 'celebrity']
+type: ['newMovieStar', 'celebrity', 'rising-star']
 person: 'Kiernan-Shipka'
 suggestions: ['Jenna-Ortega', 'Millie-Bobby-Brown', 'Natalie-Portman', 'Pamela-Anderson']
 wikipedia: 'https://en.wikipedia.org/wiki/Kiernan_Shipka'

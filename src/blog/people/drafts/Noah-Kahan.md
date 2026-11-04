@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '4'
-type: ['musician']
+type: ['musician', 'singer-songwriter']
 person: 'noah-kahan'
 suggestions: ['Hozier', 'Lana-Del-Rey', 'Olivia-Rodrigo', 'Billie-Eilish', 'Kacey-Musgraves']
 wikipedia: 'https://en.wikipedia.org/wiki/Noah_Kahan'

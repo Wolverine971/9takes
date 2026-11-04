@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '4'
-type: ['comedian', 'movieStar', 'screen-icon']
+type: ['comedian', 'movieStar', 'screen-icon', 'sketch-comic']
 person: 'jennifer-coolidge'
 suggestions: ['Tim-Robinson', 'Adele', 'Lana-Del-Rey', 'Robert-Pattinson']
 wikipedia: 'https://en.wikipedia.org/wiki/Jennifer_Coolidge'

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 1
-type: ['author', 'entrepreneur', 'business-operator']
+type: ['author', 'entrepreneur', 'business-operator', 'strategy-writer']
 person: 'james-clear'
 suggestions: ['Tim-Ferriss', 'Jordan-Peterson', 'Ali-Abdaal', 'Brene-Brown']
 wikipedia: 'https://en.wikipedia.org/wiki/James_Clear'

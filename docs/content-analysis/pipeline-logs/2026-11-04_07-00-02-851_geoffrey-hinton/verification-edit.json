@@ -1,0 +1,1097 @@
+{
+  "schema_version": 3,
+  "content_sha256": "1df8e9f341b77b6c2a7970b8554fc4106fa1a682af83b4b888def11841ec163d",
+  "evidence_sha256": "ac2d1710657b2f0f93ae1282f1f01c48360d8fc64eaa626bc4153790bbefb468",
+  "status": "revise",
+  "findings": [
+    {
+      "id": "verify-01",
+      "severity": "major",
+      "passage": "In 2023, the New Yorker's Joshua Rothman spent four days with Hinton on his island in Georgian Bay, Ontario.",
+      "problem": "Unsupported factual precision (claim C96). The New Yorker profile (S01) never says how long Rothman stayed: I searched the cached text, the canonical HTML and the PDF and found no \"four days\" or \"four-day\". The text shows only an overnight stay (\"the next morning\", \"Late in the day\"). The number seems to have come from the S03 locator (\"four days before the Google announcement\") and was copied into S01's locator and C96. The duration also feeds the article's \"one reporter's visit\" caveat.",
+      "acceptance_test": "The sentence no longer gives a duration the source does not state (for example \"In 2023, the New Yorker's Joshua Rothman visited Hinton on his island in Georgian Bay, Ontario.\"). C96 and the S01 locator and the C08 alternative drop \"four days\"/\"four-day\". No other number is added."
+    },
+    {
+      "id": "verify-02",
+      "severity": "minor",
+      "passage": "he defended Google on the day he quit.",
+      "problem": "unfamiliar-01's acceptance test allows the Times correction to be mentioned briefly at most once after the hook. The candidate mentions it twice: the Type 3 paragraph (\"He narrowed the Times's flattering whistleblower story the day it ran\") and the Six paragraph (\"he defended Google on the day he quit\"). The resolution says it appears once. The two adjacent paragraphs lean on the same moment.",
+      "acceptance_test": "After the hook, the Times correction is mentioned at most once. For example, the Six paragraph uses a different verified instance of siding with the institution when the model does, such as his 2025 line to Bartlett \"I think Google actually behaved very responsibly\" (S12, 01:15:4x), or drops the clause."
+    },
+    {
+      "id": "verify-03",
+      "severity": "minor",
+      "passage": "He treats his gloom as calibration, not dread. \"I'm mildly depressed,\" he told MIT Technology Review in 2023,",
+      "problem": "Context trim in the Six rebuttal. In S03 the quote continues: \"'I'm mildly depressed,' he says. 'Which is why I'm scared.'\" He connects his estimate to fear, so \"not dread\" goes further than the source. The calibration point (the mildly depressed are \"usually right\") stands.",
+      "acceptance_test": "The sentence no longer contrasts calibration with dread, or it includes his own \"Which is why I'm scared.\" The Six paragraph still gives its main discriminator (his disagreements follow his model)."
+    },
+    {
+      "id": "verify-04",
+      "severity": "minor",
+      "passage": "it converted its business into a public benefit corporation that remains under the nonprofit's control",
+      "problem": "S25 (AP, Oct 28, 2025) says OpenAI \"remains technically under the control of a nonprofit\" and frames the move as making it easier to profit. Dropping \"technically\" makes the outcome read cleaner than the source reported. This matters in a paragraph about whether the promises Hinton defended were kept.",
+      "acceptance_test": "The clause keeps the AP's qualifier (for example \"that the AP described as remaining technically under the nonprofit's control\") or attributes the control claim to OpenAI. No causal claim about Hinton's brief is added."
+    }
+  ],
+  "research_tasks": [],
+  "claim_checks": [
+    {
+      "claim_id": "C01",
+      "verdict": "supported",
+      "reason": "Nobel facts page reads \"Born: 6 December 1947, London, United Kingdom\"; matches birth_date/birth_place metadata and body."
+    },
+    {
+      "claim_id": "C95",
+      "verdict": "supported",
+      "reason": "U of T bio: \"BA in Experimental Psychology from Cambridge in 1970\"; New Yorker says he \"settled on a degree in experimental psychology\"."
+    },
+    {
+      "claim_id": "C12",
+      "verdict": "supported",
+      "reason": "Global News 2019: \"In 1987, Hinton moved to Canada.\" Motive accounts (NYT Pentagon, New Yorker Reagan, Global News basic research) all reopened and attributed separately in the body."
+    },
+    {
+      "claim_id": "C36",
+      "verdict": "supported",
+      "reason": "Diary of a CEO 01:11: Bartlett \"You worked at Google for about a decade, right?\" Hinton: \"Yeah\"; Wired dates the auction to December 2012; NYT: worked there \"more than a decade\"."
+    },
+    {
+      "claim_id": "C32",
+      "verdict": "supported",
+      "reason": "Nobel facts page: Physics 2024, prize share 1/2 (Hopfield the co-laureate); U of T press conference confirms."
+    },
+    {
+      "claim_id": "C86",
+      "verdict": "supported",
+      "reason": "Exact wording found in the reopened source text (Geoffrey Hinton – Facts); speaker, date and surrounding context match the article's use."
+    },
+    {
+      "claim_id": "C90",
+      "verdict": "supported",
+      "reason": "60 Minutes: \"It took, like, 50 years before it worked well\"; New Yorker and SVT describe decades of field skepticism. \"About fifty years\" is his own round figure."
+    },
+    {
+      "claim_id": "C48",
+      "verdict": "supported",
+      "reason": "NYT May 1, 2023: \"he has quit his job at Google ... so he can freely speak out about the risks of A.I.\" Paraphrase is faithful."
+    },
+    {
+      "claim_id": "C10",
+      "verdict": "supported",
+      "reason": "Exact wording found in the reopened source text (Geoffrey Hinton leaves Google, warns about AI risks (reprodu; 'The Godfather of AI' Quits Google and Warns of Danger Ahead); speaker, date and surrounding context match the article's use."
+    },
+    {
+      "claim_id": "C87",
+      "verdict": "supported",
+      "reason": "NBC (Sept 17, 2026): experts came \"at the invitation of Sen. Bernie Sanders ... to the private briefing\"; remarks made \"Wednesday evening\" (Sept 16, 2026) after lawmakers \"huddled ... behind closed doors\". Dated and tracked."
+    },
+    {
+      "claim_id": "C61",
+      "verdict": "supported",
+      "reason": "Exact wording found in the reopened source text ('Godfather of AI' warns Congress has 'maybe a year' left to ); speaker, date and surrounding context match the article's use."
+    },
+    {
+      "claim_id": "C88",
+      "verdict": "qualified",
+      "reason": "Interpretation, labeled as the article's reading and narrowed in the Google section (\"He will not let go of the ones his own standard picks out\"). Underlying quotes (tweet, \"feels wrong\", \"duty\", \"inconvenient\", Gebru reply) all verified."
+    },
+    {
+      "claim_id": "C89",
+      "verdict": "supported",
+      "reason": "Type definition (interpretation), not a factual claim about Hinton; framed as what Ones do."
+    },
+    {
+      "claim_id": "C02",
+      "verdict": "supported",
+      "reason": "Exact wording found in the reopened source text (Why the Godfather of A.I. Fears What He's Built); speaker, date and surrounding context match the article's use."
+    },
+    {
+      "claim_id": "C92",
+      "verdict": "supported",
+      "reason": "Exact wording found in the reopened source text (\"Godfather of Artificial Intelligence\" Geoffrey Hinton on th); speaker, date and surrounding context match the article's use."
+    },
+    {
+      "claim_id": "C37",
+      "verdict": "supported",
+      "reason": "Exact wording found in the reopened source text (\"Godfather of Artificial Intelligence\" Geoffrey Hinton on th); speaker, date and surrounding context match the article's use."
+    },
+    {
+      "claim_id": "C17",
+      "verdict": "supported",
+      "reason": "Exact wording found in the reopened source text (Why the Godfather of A.I. Fears What He's Built); speaker, date and surrounding context match the article's use."
+    },
+    {
+      "claim_id": "C38",
+      "verdict": "supported",
+      "reason": "Nobel Week caption 00:02:22-00:02:34 and my whisper re-transcription: \"I had to be a successful academic or a failure.\""
+    },
+    {
+      "claim_id": "C03",
+      "verdict": "supported",
+      "reason": "Exact wording found in the reopened source text (Why the Godfather of A.I. Fears What He's Built); speaker, date and surrounding context match the article's use."
+    },
+    {
+      "claim_id": "C39",
+      "verdict": "supported",
+      "reason": "SVT interview, my whisper re-transcription: \"there was never any pressure with carpentry. I'm not very good at it, but I enjoy it.\" Matches caption at 00:01:05."
+    },
+    {
+      "claim_id": "C41",
+      "verdict": "supported",
+      "reason": "SVT whisper: \"My parents were atheists and sent me to a Christian school and I was the only person who didn't believe in God. As time went by, it turned out I was right.\" Answer to \"Where does that come from?\""
+    },
+    {
+      "claim_id": "C04",
+      "verdict": "supported",
+      "reason": "Exact wording found in the reopened source text (\"Godfather of Artificial Intelligence\" Geoffrey Hinton on th); speaker, date and surrounding context match the article's use."
+    },
+    {
+      "claim_id": "C40",
+      "verdict": "supported",
+      "reason": "Exact wording found in the reopened source text (Why the Godfather of A.I. Fears What He's Built); speaker, date and surrounding context match the article's use."
+    },
+    {
+      "claim_id": "C05",
+      "verdict": "supported",
+      "reason": "Nobel Week 00:14:17; my whisper re-transcription: \"don't give up on it until you've figured out why it's wrong ... you should just ignore what other people say. I'm very good at ignoring what other people say.\" (YouTube caption drops \"'ve\"; audio has it.)"
+    },
+    {
+      "claim_id": "C28",
+      "verdict": "supported",
+      "reason": "Exact wording found in the reopened source text (Why the Godfather of A.I. Fears What He's Built); speaker, date and surrounding context match the article's use."
+    },
+    {
+      "claim_id": "C42",
+      "verdict": "supported",
+      "reason": "Exact wording found in the reopened source text (Why the Godfather of A.I. Fears What He's Built (third-party); speaker, date and surrounding context match the article's use."
+    },
+    {
+      "claim_id": "C43",
+      "verdict": "supported",
+      "reason": "Exact wording found in the reopened source text (Why the Godfather of A.I. Fears What He's Built (third-party); speaker, date and surrounding context match the article's use."
+    },
+    {
+      "claim_id": "C44",
+      "verdict": "supported",
+      "reason": "Exact wording found in the reopened source text (Why the Godfather of A.I. Fears What He's Built); speaker, date and surrounding context match the article's use."
+    },
+    {
+      "claim_id": "C08",
+      "verdict": "supported",
+      "reason": "Exact wording found in the reopened source text (Why the Godfather of A.I. Fears What He's Built); speaker, date and surrounding context match the article's use."
+    },
+    {
+      "claim_id": "C96",
+      "verdict": "unsupported",
+      "reason": "Not in the cited source. I reopened the New Yorker text, the canonical HTML and the cached PDF: no \"four days\"/\"four-day\" appears. The profile shows an overnight visit (\"the next morning\", \"Late in the day\") but no duration. The figure appears to have migrated from the S03 locator (\"four days before the Google announcement\"). Repairable by removing the number."
+    },
+    {
+      "claim_id": "C46",
+      "verdict": "supported",
+      "reason": "Exact wording found in the reopened source text (Why the Godfather of A.I. Fears What He's Built); speaker, date and surrounding context match the article's use."
+    },
+    {
+      "claim_id": "C45",
+      "verdict": "supported",
+      "reason": "Exact wording found in the reopened source text (Why the Godfather of A.I. Fears What He's Built); speaker, date and surrounding context match the article's use."
+    },
+    {
+      "claim_id": "C47",
+      "verdict": "supported",
+      "reason": "Exact wording found in the reopened source text (Why the Godfather of A.I. Fears What He's Built); speaker, date and surrounding context match the article's use."
+    },
+    {
+      "claim_id": "C55",
+      "verdict": "supported",
+      "reason": "Wired (Metz): trip to Lake Tahoe \"in December 2012\"; \"He ran the auction from his hotel room, number 731 in the Harrah's tower\"; \"three-person company\"; DOAC names the company DNNresearch."
+    },
+    {
+      "claim_id": "C14",
+      "verdict": "supported",
+      "reason": "DOAC 01:11:12 and my whisper re-transcription: \"I have a son who has learning difficulties, and in order to be sure he would never be out on the street, I needed to get several million dollars, and I wasn't gonna get that as an academic.\""
+    },
+    {
+      "claim_id": "C13",
+      "verdict": "supported",
+      "reason": "Exact wording found in the reopened source text (The Secret Auction That Set Off the Race for AI Supremacy (a); speaker, date and surrounding context match the article's use."
+    },
+    {
+      "claim_id": "C49",
+      "verdict": "supported",
+      "reason": "Wired: \"as the price hit $44 million, he suspended the bidding again\"; later \"When he told the bidders at Google he was stopping the auction at $44 million\"; he decided to sell to Google. Compression is faithful."
+    },
+    {
+      "claim_id": "C50",
+      "verdict": "qualified",
+      "reason": "Interpretation, labeled in prose; its supporting quotes were verified against reopened sources (The Secret Auction That Set Off the Race for AI Supremacy (a)."
+    },
+    {
+      "claim_id": "C51",
+      "verdict": "supported",
+      "reason": "Exact wording found in the reopened source text (The Secret Auction That Set Off the Race for AI Supremacy (a); speaker, date and surrounding context match the article's use."
+    },
+    {
+      "claim_id": "C52",
+      "verdict": "supported",
+      "reason": "Exact wording found in the reopened source text (The Secret Auction That Set Off the Race for AI Supremacy (a); speaker, date and surrounding context match the article's use."
+    },
+    {
+      "claim_id": "C94",
+      "verdict": "supported",
+      "reason": "MIT TR (May 2, 2023): interview four days before the Google announcement; born December 1947, so 75 in spring 2023; DOAC \"I was 75\"."
+    },
+    {
+      "claim_id": "C57",
+      "verdict": "supported",
+      "reason": "Exact wording found in the reopened source text (Geoffrey Hinton tells us why he's now scared of the tech he ); speaker, date and surrounding context match the article's use."
+    },
+    {
+      "claim_id": "C58",
+      "verdict": "supported",
+      "reason": "DOAC 01:14:55; my whisper re-transcription matches verbatim."
+    },
+    {
+      "claim_id": "C59",
+      "verdict": "supported",
+      "reason": "DOAC 01:15:0x. Small-model whisper heard \"which was very annoying\"; medium-model whisper and the research transcript both give \"which is very annoying\". Accepted as quoted."
+    },
+    {
+      "claim_id": "C60",
+      "verdict": "supported",
+      "reason": "DOAC: \"Google encouraged me to stay and work on AI safety and said I could do whatever I liked on AI safety.\" Faithful paraphrase."
+    },
+    {
+      "claim_id": "C11",
+      "verdict": "supported",
+      "reason": "DOAC 01:15:3x; my whisper re-transcription: \"You kind of censor yourself, if you work for a big company, you don't feel right saying things that will damage the big company. Even if you could get away with it, it just feels wrong to me.\" Block quote matches."
+    },
+    {
+      "claim_id": "C64",
+      "verdict": "supported",
+      "reason": "DOAC 00:33:0x; whisper: \"So I feel I have a duty now to talk about the risks.\" Preceded by \"It makes me sad. I don't feel particularly guilty...\" Context matches."
+    },
+    {
+      "claim_id": "C22",
+      "verdict": "supported",
+      "reason": "U of T press conference 00:25:4x (Oct 8, 2024); whisper: \"I'm 76 ... I'm going to spend my time advocating for people to work on safety.\""
+    },
+    {
+      "claim_id": "C24",
+      "verdict": "supported",
+      "reason": "U of T press conference 00:03:33 caption \"one of my students fired s mman\" plus my whisper; widely reported as \"fired Sam Altman\". Speaker and date correct."
+    },
+    {
+      "claim_id": "C68",
+      "verdict": "supported",
+      "reason": "U of T press conference 00:15:20-00:15:36, answer to Matt O'Brien's request to elaborate: \"over time it turned out that Sam Altman was much less concerned with safety than with profits and I think that's unfortunate.\" Attributed as his view."
+    },
+    {
+      "claim_id": "C69",
+      "verdict": "supported",
+      "reason": "Wikipedia removal article: Sutskever publicly apologized (Nov 20) and Altman was reinstated on November 22."
+    },
+    {
+      "claim_id": "C25",
+      "verdict": "supported",
+      "reason": "Exact wording found in the reopened source text (Nonprofit group joins Elon Musk's effort to block OpenAI's f); speaker, date and surrounding context match the article's use."
+    },
+    {
+      "claim_id": "C06",
+      "verdict": "supported",
+      "reason": "Exact wording found in the reopened source text (Geoffrey Hinton – Interview (first-reactions telephone call)); speaker, date and surrounding context match the article's use."
+    },
+    {
+      "claim_id": "C27",
+      "verdict": "supported",
+      "reason": "Exact wording found in the reopened source text (Why the Godfather of A.I. Fears What He's Built); speaker, date and surrounding context match the article's use."
+    },
+    {
+      "claim_id": "C29",
+      "verdict": "supported",
+      "reason": "DOAC 01:14:0x; whisper: \"The closest I had to a Eureka moment was when a Google system called Palm was able to say why a joke was funny.\""
+    },
+    {
+      "claim_id": "C26",
+      "verdict": "supported",
+      "reason": "U of T press conference 00:27:0x; whisper: \"I actually made a prediction in 2016 that by now AI will be reading all the scans that radiologists normally read. That prediction was wrong. I was a bit over enthusiastic.\""
+    },
+    {
+      "claim_id": "C21",
+      "verdict": "supported",
+      "reason": "Exact wording found in the reopened source text (Geoffrey Hinton tells us why he's now scared of the tech he ); speaker, date and surrounding context match the article's use."
+    },
+    {
+      "claim_id": "C70",
+      "verdict": "supported",
+      "reason": "DOAC 00:15:32; captions and whisper: \"I spread my money, my children's money between three banks in the belief that if a cyber attack takes down one Canadian bank, the other Canadian banks will very quickly get very careful.\" Paraphrase is fair."
+    },
+    {
+      "claim_id": "C71",
+      "verdict": "qualified",
+      "reason": "MIT TR wording matches (\"the mildly depressed person will say the odds are maybe around 40%, and they're usually right\"), but the source continues: \"'I'm mildly depressed,' he says. 'Which is why I'm scared.'\" The article's framing \"calibration, not dread\" omits the fear he attached to it. See verify-03."
+    },
+    {
+      "claim_id": "C07",
+      "verdict": "supported",
+      "reason": "U of T Computer Science news (Oct 25, 2024), reopened live: Maddison quote verbatim."
+    },
+    {
+      "claim_id": "C73",
+      "verdict": "supported",
+      "reason": "Same U of T page: \"The excitement, the joy radiated out of his office down the hall.\" Speaker Chris Maddison."
+    },
+    {
+      "claim_id": "C16",
+      "verdict": "supported",
+      "reason": "Exact wording found in the reopened source text (Why the Godfather of A.I. Fears What He's Built); speaker, date and surrounding context match the article's use."
+    },
+    {
+      "claim_id": "C75",
+      "verdict": "supported",
+      "reason": "Exact wording found in the reopened source text (Why the Godfather of A.I. Fears What He's Built); speaker, date and surrounding context match the article's use."
+    },
+    {
+      "claim_id": "C30",
+      "verdict": "supported",
+      "reason": "Exact wording found in the reopened source text (Why the Godfather of A.I. Fears What He's Built (third-party); speaker, date and surrounding context match the article's use."
+    },
+    {
+      "claim_id": "C65",
+      "verdict": "supported",
+      "reason": "Exact wording found in the reopened source text ('The Godfather of AI' Quits Google and Warns of Danger Ahead); speaker, date and surrounding context match the article's use."
+    },
+    {
+      "claim_id": "C66",
+      "verdict": "supported",
+      "reason": "Exact wording found in the reopened source text ('The Godfather of AI' Quits Google and Warns of Danger Ahead); speaker, date and surrounding context match the article's use."
+    },
+    {
+      "claim_id": "C67",
+      "verdict": "supported",
+      "reason": "Exact wording found in the reopened source text (Why the Godfather of A.I. Fears What He's Built); speaker, date and surrounding context match the article's use."
+    },
+    {
+      "claim_id": "C20",
+      "verdict": "supported",
+      "reason": "DOAC 00:32:3x; whisper verbatim, including \"because at that time we had no idea that this stuff was gonna happen this fast.\""
+    },
+    {
+      "claim_id": "C19",
+      "verdict": "supported",
+      "reason": "DOAC 01:22:39. Small whisper heard \"I wish I spent\"; medium whisper and research transcript give \"I wish I'd spent\". Accepted. Following lines confirm he meant his second late wife (Jackie)."
+    },
+    {
+      "claim_id": "C76",
+      "verdict": "supported",
+      "reason": "DOAC 01:23:3x: \"she was very supportive of me spending a lot of time working.\" Referent is the wife who died of pancreatic cancer (Jackie)."
+    },
+    {
+      "claim_id": "C18",
+      "verdict": "supported",
+      "reason": "Exact wording found in the reopened source text (Why the Godfather of A.I. Fears What He's Built; Godfather of AI: They Keep Silencing Me But I'm Trying to Wa); speaker, date and surrounding context match the article's use."
+    },
+    {
+      "claim_id": "C79",
+      "verdict": "supported",
+      "reason": "New Yorker: second and third wives \"both died of cancer, in 1994 and 2018, respectively.\""
+    },
+    {
+      "claim_id": "C78",
+      "verdict": "supported",
+      "reason": "Exact wording found in the reopened source text (Why the Godfather of A.I. Fears What He's Built); speaker, date and surrounding context match the article's use."
+    },
+    {
+      "claim_id": "C80",
+      "verdict": "supported",
+      "reason": "Nobel Week 00:15:43-00:15:56, whisper: \"an organization in Canada that trains people who live in indigenous communities ... on the technology of producing safe drinking water.\""
+    },
+    {
+      "claim_id": "C82",
+      "verdict": "supported",
+      "reason": "Nobel Week 00:16:08-00:16:14: \"in Ontario 20% of the indigenous communities do not have safe drinking water\"; dated December 2024 in prose."
+    },
+    {
+      "claim_id": "C81",
+      "verdict": "supported",
+      "reason": "Nobel Week 00:16:14-00:16:16: \"that's just crazy\"; whisper \"That's just crazy.\" The adjacent \"It's ridiculous at this time in a rich country like Canada\" also matches whisper."
+    },
+    {
+      "claim_id": "C15",
+      "verdict": "supported",
+      "reason": "Nobel Week 00:17:26-00:17:33, captions and whisper verbatim."
+    },
+    {
+      "claim_id": "C85",
+      "verdict": "supported",
+      "reason": "Nobel Week 00:17:46-00:17:57: \"he didn't feel right about it because it wasn't just for Boltzmann machines it was for other subsequent stuff that he wasn't so involved in so he refused to take the money.\""
+    },
+    {
+      "claim_id": "C83",
+      "verdict": "supported",
+      "reason": "Nobel Week 00:18:06-00:18:16: \"for young researchers with crazy theories of how the brain works, like we were.\""
+    },
+    {
+      "claim_id": "C93",
+      "verdict": "supported",
+      "reason": "TechCrunch dated December 30, 2024 reports Hinton backing Encode's brief; Nobel Week interview is December 2024. \"Later that month\" is consistent."
+    },
+    {
+      "claim_id": "C97",
+      "verdict": "supported",
+      "reason": "Exact wording found in the reopened source text ('The Godfather of AI' Quits Google and Warns of Danger Ahead); speaker, date and surrounding context match the article's use."
+    },
+    {
+      "claim_id": "C98",
+      "verdict": "qualified",
+      "reason": "Interpretation, labeled (\"in the record\"), with goodwill toward Google named as the plain alternative in the same paragraph. Underlying tweet and NYT line verified."
+    },
+    {
+      "claim_id": "C99",
+      "verdict": "supported",
+      "reason": "New Yorker canonical text: \"In 1986, Hinton, Rumelhart, and Williams published a three-page paper in Nature.\""
+    },
+    {
+      "claim_id": "C100",
+      "verdict": "supported",
+      "reason": "New Yorker 1986 Nature paper; MIT TR: backprop \"which he proposed (with a pair of colleagues) in the 1980s ... the algorithm that allows machines to learn.\" Lay gloss is fair."
+    },
+    {
+      "claim_id": "C101",
+      "verdict": "supported",
+      "reason": "New Yorker: AlexNet in 2012 \"crossed a threshold\"; NYT: 2012 network, Google acquisition. \"Helped set off\" is a modest summary."
+    },
+    {
+      "claim_id": "C102",
+      "verdict": "supported",
+      "reason": "New Yorker: \"Hinton, Bengio, and LeCun won the Turing Award\"; 60 Minutes and U of T bio confirm. No year given in body."
+    },
+    {
+      "claim_id": "C103",
+      "verdict": "supported",
+      "reason": "Same as C99/C100 (FAQ wording)."
+    },
+    {
+      "claim_id": "C104",
+      "verdict": "supported",
+      "reason": "Same as C102 (FAQ wording)."
+    },
+    {
+      "claim_id": "C105",
+      "verdict": "supported",
+      "reason": "New Yorker: \"a great-great-grandfather of Hinton's, the English mathematician George Boole, developed ... Boolean algebra, that is fundamental to all computing.\""
+    },
+    {
+      "claim_id": "C106",
+      "verdict": "supported",
+      "reason": "New Yorker: \"returned to attempt architecture, for about a day. Finally ... he settled on a degree in experimental psychology.\" Compression omits physics/chemistry detours; acceptable."
+    },
+    {
+      "claim_id": "C107",
+      "verdict": "supported",
+      "reason": "Exact wording found in the reopened source text (Why the Godfather of A.I. Fears What He's Built); speaker, date and surrounding context match the article's use."
+    },
+    {
+      "claim_id": "C108",
+      "verdict": "supported",
+      "reason": "Exact wording found in the reopened source text (Geoffrey Hinton tells us why he's now scared of the tech he ); speaker, date and surrounding context match the article's use."
+    },
+    {
+      "claim_id": "C109",
+      "verdict": "supported",
+      "reason": "AP via Fortune (May 3, 2023): Mitchell \"said she's upset that Hinton didn't speak out during his decade in a position of power at Google, especially after the 2020 ouster of ... Timnit Gebru.\""
+    },
+    {
+      "claim_id": "C110",
+      "verdict": "supported",
+      "reason": "CNN transcript May 2, 2023: \"So, they were rather different concerns from mine. I think it's easier to voice concerns if you leave the company first.\" Next sentence (\"their concerns aren't as existentially serious\") is reflected in the article's skeptical reading."
+    },
+    {
+      "claim_id": "C111",
+      "verdict": "qualified",
+      "reason": "Interpretation that narrows the thesis after the Gebru evidence; labeled as the article's reading."
+    },
+    {
+      "claim_id": "C112",
+      "verdict": "supported",
+      "reason": "Wikipedia: \"The board concluded that Altman was not 'consistently candid in his communications'.\" Tertiary source, but the wording is the board's widely reported statement."
+    },
+    {
+      "claim_id": "C113",
+      "verdict": "supported",
+      "reason": "Wikipedia: \"In March 2024, the investigation determined that Altman's behavior 'did not mandate removal'.\" (WilmerHale.)"
+    },
+    {
+      "claim_id": "C114",
+      "verdict": "supported",
+      "reason": "Reuters via CNN Newsource/KRDO, published May 5, 2025: \"OpenAI said on Monday it would remain under the control of its nonprofit parent.\""
+    },
+    {
+      "claim_id": "C115",
+      "verdict": "qualified",
+      "reason": "AP via Global News, Oct 28, 2025: OpenAI \"converted its business into a public benefit corporation ... even as it remains technically under the control of a nonprofit.\" The article drops \"technically\", which slightly overstates the control the AP describes. See verify-04."
+    },
+    {
+      "claim_id": "C116",
+      "verdict": "supported",
+      "reason": "Nobel Week 00:16:19-00:16:26, whisper: \"I adopted a child in Peru and I was there for two months and you can't drink the tap water there.\""
+    },
+    {
+      "claim_id": "C117",
+      "verdict": "supported",
+      "reason": "Nobel Week 00:15:35-00:15:38, whisper: \"So I wish I'd thought about that sooner,\" following his account of Turing and superintelligence. \"After describing the risk of AI taking over\" matches."
+    },
+    {
+      "claim_id": "C118",
+      "verdict": "supported",
+      "reason": "New Yorker: \"Rosalind had struggled with infertility, and had bad experiences with callous doctors. Perhaps as a result, she pursued a homeopathic route.\" \"Tentatively\" fairly renders \"Perhaps\"."
+    },
+    {
+      "claim_id": "C119",
+      "verdict": "supported",
+      "reason": "Exact wording found in the reopened source text (Why the Godfather of A.I. Fears What He's Built); speaker, date and surrounding context match the article's use."
+    },
+    {
+      "claim_id": "C120",
+      "verdict": "supported",
+      "reason": "Exact wording found in the reopened source text (Why the Godfather of A.I. Fears What He's Built); speaker, date and surrounding context match the article's use."
+    },
+    {
+      "claim_id": "C121",
+      "verdict": "supported",
+      "reason": "First-person words verified: \"unfortunate\" (U of T, Altman), \"ridiculous\" and \"just crazy\" (Nobel Week water). Interpretation is labeled."
+    },
+    {
+      "claim_id": "C122",
+      "verdict": "qualified",
+      "reason": "Interpretive argument against Eight, labeled; rests on verified mild first-person language."
+    },
+    {
+      "claim_id": "C123",
+      "verdict": "qualified",
+      "reason": "Core discriminator, labeled interpretation; supported by verified \"feels wrong\", \"duty\", \"inconvenient\" quotes."
+    },
+    {
+      "claim_id": "C124",
+      "verdict": "qualified",
+      "reason": "Same discriminator in FAQ; interpretation."
+    },
+    {
+      "claim_id": "C125",
+      "verdict": "qualified",
+      "reason": "Interpretation ranking Type 3; the cited moments (tweet narrowing, \"75 and wanted to retire\") verified."
+    },
+    {
+      "claim_id": "C126",
+      "verdict": "qualified",
+      "reason": "Interpretation; \"he defended Google on the day he quit\" rests on the verified tweet \"Google has acted very responsibly.\""
+    },
+    {
+      "claim_id": "C127",
+      "verdict": "supported",
+      "reason": "Exact wording found in the reopened source text ('The Godfather of AI' Quits Google and Warns of Danger Ahead; Why the Godfather of A.I. Fears What He's Built; Tech in T.O.: Why Geoffrey Hinton, the 'Godfather of A.I.,' ); speaker, date and surrounding context match the article's use."
+    },
+    {
+      "claim_id": "C128",
+      "verdict": "supported",
+      "reason": "NYT: \"Dr. Hinton is deeply opposed to the use of artificial intelligence on the battlefield — what he calls 'robot soldiers.'\""
+    },
+    {
+      "claim_id": "C129",
+      "verdict": "supported",
+      "reason": "Accurate: the New Yorker narration says the mistakes \"still enrage him today\"; no Hinton quote uses the word."
+    },
+    {
+      "claim_id": "C130",
+      "verdict": "supported",
+      "reason": "New Yorker: \"For the past four years, Hinton has been with Rosemary Gartner, a retired sociologist.\" Dated to the 2023 visit and tracked time_sensitive."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "S01",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Reopened cached PDF text and canonical HTML: father/family section, Cambridge/architecture, woodwork \"mostly anxiety\", tree/contractor notes, Rosalind and Jackie sections, Boltzmann/backprop, 1986 Nature paper, Piaf, Snowden, Gartner. No visit duration stated anywhere."
+    },
+    {
+      "source_id": "S02",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Same New Yorker text: LeCun \"most beautiful algorithm ... ugly\"; Bengio \"something like 'This should not work.'\"; Gartner \"always needs a partner\"."
+    },
+    {
+      "source_id": "S03",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Reopened cached text: lead (\"four days before the bombshell announcement\"), Google self-censorship paragraph, \"For 40 years ... sudden flip\", optimist/pessimist passage ending \"Which is why I'm scared.\""
+    },
+    {
+      "source_id": "S04",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Reopened Wayback capture: paragraphs on quitting and regret (\"normal excuse\"), letters paragraph (\"did not want to publicly criticize Google\"), Carnegie Mellon/Pentagon and \"robot soldiers\" paragraph."
+    },
+    {
+      "source_id": "S05",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Reopened cached page: tweet reproduced verbatim in body."
+    },
+    {
+      "source_id": "S06",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Reopened transcript: \"50 years before it worked well\", \"I always thought I was right\", beetles and \"Not insects\" exchange."
+    },
+    {
+      "source_id": "S07",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Reopened transcript: \"How would you describe yourself?\" answer."
+    },
+    {
+      "source_id": "S08",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Captions 00:02:22, 00:13:38-00:14:21, 00:15:04-00:15:38, 00:15:43-00:18:16; re-transcribed saved audio clips with whisper (small; medium where wording disputed)."
+    },
+    {
+      "source_id": "S09",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Reopened banquet speech page; not used by any claim."
+    },
+    {
+      "source_id": "S10",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Re-transcribed saved clip 00:00:16-00:01:39 with whisper: Christian school answer and carpentry answer."
+    },
+    {
+      "source_id": "S11",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Captions 00:03:27-00:03:40, 00:15:05-00:15:36, 00:25:37, 00:27:0x; whisper re-transcription of saved clips."
+    },
+    {
+      "source_id": "S12",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Captions and whisper re-transcription: 00:15:24-00:15:37 banks; 00:32-00:33 guilt/duty; 01:11:12 son; 01:14:0x PaLM; 01:14:55-01:15:52 leaving Google; 01:22:39-01:23:4x regret."
+    },
+    {
+      "source_id": "S13",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Reopened cached text: December 2012 trip, room 731, humidifier and \"old and decrepit\", \"vice presidents\", backpack, $44 million, \"right home\" paragraph."
+    },
+    {
+      "source_id": "S14",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Re-fetched live page: Maddison paragraph (\"joy radiated\", \"bursting into a room\"). The cached copy held only a listing page."
+    },
+    {
+      "source_id": "S15",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Reopened cached text (published Sept 17, 2026): \"Maybe a year\" quote, \"Wednesday evening\", Sanders invitation, private briefing."
+    },
+    {
+      "source_id": "S16",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Re-fetched live page: Hinton press-release quote (\"tear all of that up when it becomes inconvenient\")."
+    },
+    {
+      "source_id": "S17",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Reopened cached text: \"In 1987, Hinton moved to Canada\" and \"I came to Canada because I like the society here and because they have very good funding for basic research.\""
+    },
+    {
+      "source_id": "S18",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Reopened jina copy of Britannica biography (Toronto/combat paragraph); not used by any claim."
+    },
+    {
+      "source_id": "S19",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Reopened bio page: BA Experimental Psychology, Cambridge 1970; ACM Turing Award in awards list."
+    },
+    {
+      "source_id": "S20",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Reopened facts panel: born 6 December 1947, London; prize motivation; share 1/2."
+    },
+    {
+      "source_id": "S21",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Re-fetched live article: lead (Sutskever concerns, reinstatement Nov 22, apology), Nov 17 section (\"consistently candid\"), March 2024 WilmerHale finding (\"did not mandate removal\")."
+    },
+    {
+      "source_id": "S22",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Re-fetched live transcript: Tapper whistleblower question, \"Tim is actually a woman\", \"rather different concerns from mine ... leave the company first.\""
+    },
+    {
+      "source_id": "S23",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Re-fetched live page: Margaret Mitchell paragraph."
+    },
+    {
+      "source_id": "S24",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Re-fetched live page (published May 5, 2025): lead paragraph, nonprofit to stay in control."
+    },
+    {
+      "source_id": "S25",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Re-fetched live page (posted Oct 28, 2025): lead paragraph, public benefit corporation \"technically under the control of a nonprofit\"."
+    }
+  ],
+  "decision_checks": [
+    {
+      "finding_id": "subject-01",
+      "accepted": true,
+      "reason": "Verified. No author-voice \"broke a promise\" line remains; the OpenAI paragraph frames it as his December 2024 objection in his words, opens \"One wrong he returns to\", and adds dated outcomes (May 5, 2025 Reuters; Oct 28, 2025 AP) that I reopened, with no causal claim."
+    },
+    {
+      "finding_id": "subject-02",
+      "accepted": true,
+      "reason": "Verified. Option (b): the New Yorker's mitigating context is attributed and hedged (\"ties, tentatively\"), the Jackie \"rational\" foil is gone, and no author-voice judgment of Rosalind remains."
+    },
+    {
+      "finding_id": "subject-03",
+      "accepted": true,
+      "reason": "Verified. \"He did not want credit\" and the \"same instinct ... villain\" sentence are gone; the hook rests on observed facts and names goodwill toward Google as the plain explanation."
+    },
+    {
+      "finding_id": "subject-04",
+      "accepted": true,
+      "reason": "Verified. Board reason (\"consistently candid\") and March 2024 finding (\"did not mandate removal\") added from S21, which I reopened; Hinton's verdict stays attributed."
+    },
+    {
+      "finding_id": "subject-05",
+      "accepted": true,
+      "reason": "Verified. Triad paragraph no longer cites contractor anger; shelf section is past tense with \"'Enrage' is Rothman's word\"; Five section says \"on Rothman's 2023 account\"; the single-visit limit is restated in the next paragraph."
+    },
+    {
+      "finding_id": "subject-06",
+      "accepted": true,
+      "reason": "Verified. Guilt claim is scoped (\"About his life's work, at least\") and the grief paragraph reports \"angry, guilty, wounded, mystified\", which I confirmed in S01."
+    },
+    {
+      "finding_id": "fan-01",
+      "accepted": true,
+      "reason": "Verified. Orientation and algorithm section state he co-wrote the 1986 Nature paper with Rumelhart and Williams (confirmed in S01 canonical text); \"Both methods were his. The one he loved lost.\""
+    },
+    {
+      "finding_id": "fan-02",
+      "accepted": true,
+      "reason": "Verified. Hook quotes the NYT line (confirmed in S04) and presents the tweet as narrowing the implication in Google's favor; no motive stated as fact."
+    },
+    {
+      "finding_id": "fan-03",
+      "accepted": true,
+      "reason": "Verified. Boole lineage sentence and \"never the brightest student\"/\"for about a day\" added, both confirmed in S01; length roughly unchanged."
+    },
+    {
+      "finding_id": "fan-04",
+      "accepted": true,
+      "reason": "Verified. Pre-fame Pentagon reason and the other two accounts are attributed and dated in the type section and not claimed as proof of motive. Quotes confirmed in S04, S01, S17."
+    },
+    {
+      "finding_id": "fan-05",
+      "accepted": true,
+      "reason": "Accepted. The pause sentence was cut along with the change-of-mind paragraph, so no sentence frames the 2023 refusal as feasibility-only; the NYT loyalty line now appears in the hook. Removal satisfies the test's purpose."
+    },
+    {
+      "finding_id": "fan-06",
+      "accepted": true,
+      "reason": "Verified. New paragraph links \"unsatisfying\" backprop to the 2023 \"sudden flip\", with the forty-year framing marked as Heaven's paraphrase (S03 confirmed); next paragraph concedes it is the Five's move."
+    },
+    {
+      "finding_id": "fan-07",
+      "accepted": true,
+      "reason": "Verified. \"so I wish I'd thought about that sooner\" added; I re-transcribed the audio clip myself and it matches at 00:15:35. Qualifier \"Little guilt about the work, some regret about the timing\" precedes the protected sentence."
+    },
+    {
+      "finding_id": "fan-08",
+      "accepted": true,
+      "reason": "Verified. Peru reason added and matches my whisper re-transcription at 00:16:19-00:16:26."
+    },
+    {
+      "finding_id": "critic-01",
+      "accepted": true,
+      "reason": "Verified. Opening shows the Times relaying his own line; motive sentence, \"biggest stage\" and the \"villain\" sentence are gone; goodwill named as the plain alternative."
+    },
+    {
+      "finding_id": "critic-02",
+      "accepted": true,
+      "reason": "Verified. Hook says \"most telling\", FAQ no longer says \"often at a cost\"; the remaining \"cost real money\" line about the Sejnowski half is supported by S08."
+    },
+    {
+      "finding_id": "critic-03",
+      "accepted": true,
+      "reason": "Verified. \"Shape of the rightness\" lines removed; the Boltzmann \"shoulds\" are labeled a theorist's taste and prediction that a Five explains as well; father section ends on \"anxiety\"."
+    },
+    {
+      "finding_id": "critic-04",
+      "accepted": true,
+      "reason": "Verified. I re-fetched the CNN transcript (S22) and the AP/Fortune report (S23); quotes match. The Google section confronts the silence with generous and skeptical readings and says it narrows the rule; the limits paragraph repeats the cost to the One case."
+    },
+    {
+      "finding_id": "critic-05",
+      "accepted": true,
+      "reason": "Verified. Anger statements are attributed to Rothman; first-person irritation added (\"unfortunate\", \"ridiculous\", \"just crazy\", \"very annoying\", all checked); closing line calibrated (\"low as it usually runs\")."
+    },
+    {
+      "finding_id": "critic-06",
+      "accepted": true,
+      "reason": "Verified. Five comparison is by voice/motive and concedes Fives can be fierce critics; Six paragraph names the counterphobic form, the security-driven sale and three banks, and gives a sourced reason it falls short."
+    },
+    {
+      "finding_id": "critic-07",
+      "accepted": true,
+      "reason": "Verified. Denial-versus-stoicism quoted from S01 (confirmed) and followed by \"That is the part the One reading predicts least.\""
+    },
+    {
+      "finding_id": "critic-08",
+      "accepted": true,
+      "reason": "Verified by removal. The change-of-mind paragraph is gone; no causal story about the 2026 shift remains."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "accepted": false,
+      "reason": "Not fully met. The Nobel promise is no longer used before it is told and the closing adds the Peru detail, and \"just feels wrong to me\" appears twice. But the test also says the Times correction is \"mentioned briefly at most once after\" the hook. It is mentioned twice: in the Type 3 paragraph (\"He narrowed the Times's flattering whistleblower story the day it ran\") and again in the Six paragraph (\"he defended Google on the day he quit\"). The resolution says it appears once. See verify-02; a one-clause swap fixes it."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "accepted": true,
+      "reason": "Verified. Type 3 gets its own paragraph ranking it below Five, and the type section names 3 and 6 as rivals heard below."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "accepted": true,
+      "reason": "Verified. Orientation explains what backprop does, his co-authorship, AlexNet's role and the Turing Award before Room 731."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "accepted": true,
+      "reason": "Verified. Hinton's own bridge is quoted and the paragraph states what it adds."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "accepted": true,
+      "reason": "Verified. Line now reads \"By his own account, the science that changed the world ran mostly on anxiety.\""
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "accepted": true,
+      "reason": "Verified. Opening rests on observable facts; motive sentence and superlative removed."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "accepted": true,
+      "reason": "Verified. No sentence treats the word \"should\" as One evidence; backprop concession named \"the Five's move\"."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "accepted": true,
+      "reason": "Verified. Childhood section does not score the outside pressure for One; it is used only as Type 3 evidence later."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "accepted": true,
+      "reason": "Verified. Body and FAQ describe Fives fairly and name the narrower discriminator; correcting the record and keeping promises are explicitly demoted to non-separating."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "accepted": true,
+      "reason": "Verified. \"Enrage\" attributed to Rothman, certainty item removed, low first-person anger stated plainly with an explanation of why it still fits a One."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "accepted": true,
+      "reason": "Verified. Type 3 weighed with a named discriminator; humidifier stays as counterevidence."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "accepted": true,
+      "reason": "Verified. Counterphobic Six named with a record-backed discriminator."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "accepted": true,
+      "reason": "Verified. Triad paragraph gives three reasons Eight does not fit."
+    },
+    {
+      "finding_id": "future-01",
+      "accepted": true,
+      "reason": "Verified. \"Back in the news\" removed; Sept 16, 2026 briefing is a dated example after \"Since leaving Google he has turned the warning into a second career.\" Deleting that sentence leaves the orientation intact."
+    },
+    {
+      "finding_id": "future-02",
+      "accepted": true,
+      "reason": "Verified. FAQ answers use dated past tense; no present-tense age bracket or role."
+    },
+    {
+      "finding_id": "future-03",
+      "accepted": true,
+      "reason": "Verified. No present-tense author-voice anger; \"still enrage him today\" survives only in Rothman's quote."
+    },
+    {
+      "finding_id": "future-04",
+      "accepted": true,
+      "reason": "Verified by removal; C33 is gone from the evidence and the updating point rests on backprop and the radiology prediction."
+    },
+    {
+      "finding_id": "future-05",
+      "accepted": true,
+      "reason": "Verified. S24 and S25 reopened by me and match; one dated outcome clause, no causal claim. (The AP's \"technically\" qualifier was dropped; see verify-04, minor.)"
+    },
+    {
+      "finding_id": "future-06",
+      "accepted": true,
+      "reason": "Verified. Relationship dated to the 2023 visit; C30/C130 time_sensitive with triggers."
+    },
+    {
+      "finding_id": "future-07",
+      "accepted": true,
+      "reason": "Verified. Statistic dated December 2024 and in the past tense, which satisfies the test's \"reworded so it no longer reads as a current statistic\" branch."
+    }
+  ],
+  "prior_blocker_checks": [],
+  "protected_checks": [
+    {
+      "passage": "And just near the door there was a slightly smaller box that simply said, 'Not insects,' and that's where he had all the things about the family.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate, in the same position and doing the same work."
+    },
+    {
+      "passage": "Two years later he gave a fuller and less heroic account to Steven Bartlett. \"The main reason I left Google was because I was 75 and I wanted to retire. I've done a very bad job of that,\" he said.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate, in the same position and doing the same work."
+    },
+    {
+      "passage": "Both lines are Metz's narration, not Hinton's words.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate, in the same position and doing the same work."
+    },
+    {
+      "passage": "That is a man managing how he looks to buyers, a point for image (Type 3), not for Type 1.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate, in the same position and doing the same work."
+    },
+    {
+      "passage": "None of this proves a type; a father like that could produce a striver, a worrier or a perfectionist.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate, in the same position and doing the same work."
+    },
+    {
+      "passage": "Telling the story, he added: \"I should've just moved the microwave upstairs.\"",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate, in the same position and doing the same work."
+    },
+    {
+      "passage": "Curiosity explains why he studied the brain for fifty years. It does not explain the heat.",
+      "preserved": true,
+      "reason": "Changed but preserved: now \"It does not explain the heat, low as it usually runs.\" The line keeps its structure, position and punch as the close of the Five comparison; the calibration was required by critic-05/enneagram-04 so the line matches the evidence."
+    },
+    {
+      "passage": "It is for the next person who looks, to everyone else in the room, the way he did for decades: wrong, and sure of it.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate, in the same position and doing the same work."
+    },
+    {
+      "passage": "Duty without guilt is a real pattern, but it is not the self-punishing One of the textbooks.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate, in the same position and doing the same work."
+    },
+    {
+      "passage": "Two years later he gave a fuller and less heroic account to Steven Bartlett.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate, in the same position and doing the same work."
+    },
+    {
+      "passage": "The same day, he used it to correct the paper.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate, in the same position and doing the same work."
+    },
+    {
+      "passage": "\"And just near the door there was a slightly smaller box that simply said, 'Not insects,' and that's where he had all the things about the family.\"",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate, in the same position and doing the same work."
+    },
+    {
+      "passage": "Masking tape along a closet shelf: \"Do not prime shelf, prime shelf support.\"",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate, in the same position and doing the same work."
+    },
+    {
+      "passage": "Even his tenderness gets an edit.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate, in the same position and doing the same work."
+    },
+    {
+      "passage": "The Type 1 reading predicts a grim, self-critical man. The people who worked with him describe someone else.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate, in the same position and doing the same work."
+    },
+    {
+      "passage": "It was a promise two young researchers made about a prize neither had any reason to expect, kept forty years later when keeping it cost real money.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate, in the same position and doing the same work."
+    }
+  ],
+  "coverage_complete": true,
+  "metadata_consistent": true,
+  "alternative_type_addressed": true,
+  "five_year_test_passed": true,
+  "scores": {
+    "evidence": {
+      "score": 8.0,
+      "reason": "Unusually careful sourcing. I reopened all 25 sources and re-transcribed 20 saved audio clips. Every direct quote matched its source and speaker, Metz's narration is separated from Hinton's words, \"Enrage\" is pinned to Rothman, and disputed motives (the 1987 move, the auction) get all accounts. Held at 8 rather than higher by one unsupported fact (the \"four days\" visit, C96) and two context trims (\"not dread\" without \"Which is why I'm scared\"; \"technically\" dropped from the AP's nonprofit-control line).",
+      "passage": "Both lines are Metz's narration, not Hinton's words."
+    },
+    "enneagram": {
+      "score": 8.0,
+      "reason": "Type 1 at medium confidence beats a fairly drawn Five on a specific, sourced discriminator: normative language about conduct (\"just feels wrong to me\", \"duty\", promises torn up \"when it becomes inconvenient\") and the irritation at carelessness. Items that don't separate the types (the Times correction, keeping promises) are explicitly demoted. Types 3, counterphobic 6 and 8 each get a sourced reason. The Gebru silence and the stoic lesson from grief are confronted rather than hidden. It doesn't go higher because the discriminator rests on a handful of late-career statements, and the article now concedes the choices weren't especially costly.",
+      "passage": "A Five speaks from the authority of the model: here is what the evidence shows. Hinton has that voice, but when he acts he reaches for a second one, about conduct."
+    },
+    "originality": {
+      "score": 9.0,
+      "reason": "Built on verified details specific to Hinton that change the reader's picture: correcting the Times in his old employer's favor the day he quit, the notes written on the shelf, the microwave line, the hidden humidifier, and the 1980s Sejnowski pact kept with Nobel money. An unresolved contradiction (stoic acceptance after loss) survives the type argument. Almost no reusable type boilerplate.",
+      "passage": "Masking tape along a closet shelf: \"Do not prime shelf, prime shelf support.\""
+    },
+    "writing": {
+      "score": 8.5,
+      "reason": "Strong progression from the hook through family, certainty, home, auction, exit, alternatives and counterevidence to a callback ending. Pacing varies between scene and argument, and sentences are precise. It loses some ground on length: about 4,280 words, well over the 3,500 target, and the alternatives section plus the limits paragraph stack several hedges in a row.",
+      "passage": "The prize carries the rest of him too. It is for the next person who looks, to everyone else in the room, the way he did for decades: wrong, and sure of it."
+    },
+    "durability": {
+      "score": 9.0,
+      "reason": "The argument rests on dated, fixed events: the May 2023 tweet, the 2023 and 2025 exit accounts, the December 2024 Nobel interview and brief, and the 1980s pact. The September 16, 2026 Congress sentence is framed as one dated example and can be deleted without loss. Changing facts are dated and tracked (Gartner relationship, OpenAI structure, the 20 percent figure, the \"maybe a year\" window).",
+      "passage": "On September 16, 2026, after a closed-door briefing for members of Congress organized by Sen."
+    },
+    "hook": {
+      "score": 9.0,
+      "reason": "A specific, sourced, dated opening with a real twist: the Times hands him a whistleblower platform and he uses it the same day to narrow the story in Google's favor. It now acknowledges that the Times was relaying his own line and names the plain explanation. The article pays off the curiosity it creates.",
+      "passage": "The same day, he used it to correct the paper."
+    },
+    "discoverability": {
+      "score": 8.5,
+      "reason": "meta_title is 60 characters and the description 154, both accurate. The type answer is exactly 60 words, directly under a clear H2. Five useful FAQs (type, why not 5, who is he, why he left Google, Nobel money) mirror the body in dated past tense. Internal links go to the Type 1, 5 and 6 pages and to the Sutskever, Altman and Sanders profiles, all of which exist. Six relevant suggestions. The title's \"Can't Leave a Wrong Alone\" is a little broader than the body's narrowed rule.",
+      "passage": "Geoffrey Hinton's personality type is most likely Enneagram Type 1, the Reformer."
+    }
+  }
+}

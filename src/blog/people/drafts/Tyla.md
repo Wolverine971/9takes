@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
-type: ['musician']
+type: ['musician', 'pop-star']
 person: 'Tyla'
 suggestions: ['Doja-Cat', 'Trevor-Noah', 'Zara-Larsson', 'Rihanna']
 wikipedia: 'https://en.wikipedia.org/wiki/Tyla'

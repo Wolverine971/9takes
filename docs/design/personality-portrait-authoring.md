@@ -102,6 +102,13 @@ It exits non-zero when the asset contract is broken.
   additional brightness or contrast after the token instead of resetting the filter.
 - Keep text-over-image contrast in a stable scrim. Do not depend on the source pixels being dark.
 
+The personality index's 4:5 portrait rails align the violet marks to the template eye line
+(490/1080 of the frame height). `pnpm gen:personality-image-map` also measures the square
+thumbnails into `src/lib/generated/personalityPortraitAlignment.json`. Run it after replacing
+a portrait; the production build runs it automatically. The page uses those measurements to
+reframe each image with the minimum zoom needed to fill the card, and anchors hover zoom at
+the eye mark. This changes the displayed crop without rewriting the source images.
+
 ## Review Before Publishing
 
 1. Run `pnpm portrait:check -- <type> <Person-Name>` and open its printed preview URL.

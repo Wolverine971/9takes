@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 4
-type: ['author', 'creator']
+type: ['author', 'creator', 'strategy-writer']
 person: 'neil-strauss'
 suggestions: ['Rick-Rubin', 'Tim-Ferriss', 'Lana-Del-Rey', 'Adele']
 wikipedia: 'https://en.wikipedia.org/wiki/Neil_Strauss'

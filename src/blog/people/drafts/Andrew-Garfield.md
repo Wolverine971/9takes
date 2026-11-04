@@ -17,6 +17,7 @@ enneagram: '4'
 type:
   - movieStar
   - celebrity
+  - screen-icon
 person: Andrew-Garfield
 suggestions:
   - Paul-Mescal

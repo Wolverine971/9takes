@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '7'
-type: ['comedian']
+type: ['comedian', 'stand-up']
 person: 'bert-kreischer'
 suggestions: ['Joe-Rogan', 'Theo-Von', 'Andrew-Schulz', 'Kevin-Hart']
 wikipedia: 'https://en.wikipedia.org/wiki/Bert_Kreischer'

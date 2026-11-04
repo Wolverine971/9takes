@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '9'
-type: ['movieStar', 'celebrity']
+type: ['movieStar', 'celebrity', 'screen-icon']
 person: 'John-Goodman'
 suggestions: ['Matt-Damon', 'Tom-Hanks', 'Morgan-Freeman', 'Dolly-Parton']
 wikipedia: 'https://en.wikipedia.org/wiki/John_Goodman'

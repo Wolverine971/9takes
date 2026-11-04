@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 2
-type: ['creator', 'celebrity']
+type: ['creator', 'celebrity', 'viral-entertainer']
 person: 'Ms-Rachel'
 suggestions: ['mr-rogers', 'mother-teresa', 'dolly-parton', 'kristen-bell']
 wikipedia: 'https://en.wikipedia.org/wiki/Ms._Rachel'

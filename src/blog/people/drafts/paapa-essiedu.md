@@ -16,6 +16,7 @@ enneagram: '6'
 type:
   - movieStar
   - celebrity
+  - rising-star
 person: paapa-essiedu
 suggestions:
   - cillian-murphy

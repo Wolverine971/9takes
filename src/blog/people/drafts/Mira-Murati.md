@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '9'
-type: ['techie', 'entrepreneur']
+type: ['techie', 'entrepreneur', 'frontier-builder']
 person: 'Mira-Murati'
 suggestions: ['Sam-Altman', 'Bill-Gates', 'Elon-Musk', 'Mark-Zuckerberg']
 wikipedia: 'https://en.wikipedia.org/wiki/Mira_Murati'

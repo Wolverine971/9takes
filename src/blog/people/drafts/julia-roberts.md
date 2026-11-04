@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '7'
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Julia-Roberts'
 suggestions: ['Sandra-Bullock', 'George-Clooney', 'Hugh-Grant', 'Richard-Gere']
 wikipedia: 'https://en.wikipedia.org/wiki/Julia_Roberts'

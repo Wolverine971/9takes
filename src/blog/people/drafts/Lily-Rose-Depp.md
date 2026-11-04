@@ -17,6 +17,7 @@ enneagram: '6'
 type:
   - movieStar
   - newMovieStar
+  - rising-star
 person: lily-rose-depp
 suggestions:
   - Johnny-Depp

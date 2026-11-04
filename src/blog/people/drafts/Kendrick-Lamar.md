@@ -13,6 +13,7 @@ published: true
 enneagram: '4'
 type:
   - musician
+  - rapper
 person: kendrick-lamar
 category: people
 suggestions: ['Drake', 'SZA', 'Eminem', 'Tyler-The-Creator']

@@ -14,6 +14,7 @@ enneagram: '2'
 type:
   - celebrity
   - historical
+  - tv-comedy-crossover
 person: mr-rogers
 suggestions:
   - tom-hanks

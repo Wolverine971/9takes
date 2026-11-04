@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
-type: ['musician']
+type: ['musician', 'pop-star']
 person: 'bruno-mars'
 suggestions: ['Taylor-Swift', 'Drake', 'Jennifer-Lopez', 'Justin-Bieber']
 wikipedia: 'https://en.wikipedia.org/wiki/Bruno_Mars'

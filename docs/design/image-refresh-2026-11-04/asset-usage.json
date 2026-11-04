@@ -1,0 +1,4528 @@
+{
+	"date": "2026-11-04",
+	"scope": "Files in static/blogs after this refresh. Exact frontmatter and URL references only; absence does not prove a file is unused. No assets were deleted.",
+	"fileCount": 540,
+	"counts": {
+		"Published literal use outside audited hero set": 33,
+		"Published hero family": 315,
+		"No literal reference found; dynamic use not ruled out": 154,
+		"Draft or other blog reference": 37,
+		"Application source reference": 1
+	},
+	"assets": [
+		{
+			"file": "static/blogs/1-7.png",
+			"stem": "1-7",
+			"bytes": 23239,
+			"status": "Published literal use outside audited hero set",
+			"visualReview": "Not visually triaged",
+			"references": [
+				"src/blog/enneagram/enneagram-stress-number.md",
+				"src/blog/enneagram/enneagram-type-7.md",
+				"src/blog/enneagram/enneagram-types-in-stress.md"
+			]
+		},
+		{
+			"file": "static/blogs/2-4.png",
+			"stem": "2-4",
+			"bytes": 23369,
+			"status": "Published literal use outside audited hero set",
+			"visualReview": "Not visually triaged",
+			"references": [
+				"src/blog/enneagram/enneagram-stress-number.md",
+				"src/blog/enneagram/enneagram-type-4.md",
+				"src/blog/enneagram/enneagram-types-in-stress.md"
+			]
+		},
+		{
+			"file": "static/blogs/3-6.png",
+			"stem": "3-6",
+			"bytes": 23270,
+			"status": "Published literal use outside audited hero set",
+			"visualReview": "Not visually triaged",
+			"references": [
+				"src/blog/enneagram/enneagram-stress-number.md",
+				"src/blog/enneagram/enneagram-type-6.md",
+				"src/blog/enneagram/enneagram-types-in-stress.md"
+			]
+		},
+		{
+			"file": "static/blogs/4-1.png",
+			"stem": "4-1",
+			"bytes": 23248,
+			"status": "Published literal use outside audited hero set",
+			"visualReview": "Not visually triaged",
+			"references": [
+				"src/blog/enneagram/enneagram-stress-number.md",
+				"src/blog/enneagram/enneagram-type-1.md",
+				"src/blog/enneagram/enneagram-types-in-stress.md"
+			]
+		},
+		{
+			"file": "static/blogs/5-8.png",
+			"stem": "5-8",
+			"bytes": 23338,
+			"status": "Published literal use outside audited hero set",
+			"visualReview": "Not visually triaged",
+			"references": [
+				"src/blog/enneagram/enneagram-stress-number.md",
+				"src/blog/enneagram/enneagram-type-8.md",
+				"src/blog/enneagram/enneagram-types-in-stress.md"
+			]
+		},
+		{
+			"file": "static/blogs/6-9.png",
+			"stem": "6-9",
+			"bytes": 23343,
+			"status": "Published literal use outside audited hero set",
+			"visualReview": "Not visually triaged",
+			"references": [
+				"src/blog/enneagram/enneagram-stress-number.md",
+				"src/blog/enneagram/enneagram-type-9.md",
+				"src/blog/enneagram/enneagram-types-in-stress.md"
+			]
+		},
+		{
+			"file": "static/blogs/7-5.png",
+			"stem": "7-5",
+			"bytes": 23525,
+			"status": "Published literal use outside audited hero set",
+			"visualReview": "Not visually triaged",
+			"references": [
+				"src/blog/enneagram/enneagram-stress-number.md",
+				"src/blog/enneagram/enneagram-type-5.md",
+				"src/blog/enneagram/enneagram-types-in-stress.md"
+			]
+		},
+		{
+			"file": "static/blogs/8-2.png",
+			"stem": "8-2",
+			"bytes": 23366,
+			"status": "Published literal use outside audited hero set",
+			"visualReview": "Not visually triaged",
+			"references": [
+				"src/blog/enneagram/enneagram-stress-number.md",
+				"src/blog/enneagram/enneagram-type-2.md",
+				"src/blog/enneagram/enneagram-types-in-stress.md"
+			]
+		},
+		{
+			"file": "static/blogs/8s-playing-chess.webp",
+			"stem": "8s-playing-chess",
+			"bytes": 589186,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/how-type-8-challengers-actually-succeed.md"]
+		},
+		{
+			"file": "static/blogs/9-3.png",
+			"stem": "9-3",
+			"bytes": 23447,
+			"status": "Published literal use outside audited hero set",
+			"visualReview": "Not visually triaged",
+			"references": [
+				"src/blog/enneagram/enneagram-stress-number.md",
+				"src/blog/enneagram/enneagram-type-3.md",
+				"src/blog/enneagram/enneagram-types-in-stress.md"
+			]
+		},
+		{
+			"file": "static/blogs/Art-Techniques-and-Media.webp",
+			"stem": "Art-Techniques-and-Media",
+			"bytes": 46998,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/Beychella.webp",
+			"stem": "Beychella",
+			"bytes": 83964,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/DALL·E 2023-12-11 01.49.15 - A hyper-realistic, hyper-detailed image of a Greek statue, portrayed in a black, white, and grey color scheme, symbolizing listening by pointing to it.png",
+			"stem": "DALL·E 2023-12-11 01.49.15 - A hyper-realistic, hyper-detailed image of a Greek statue, portrayed in a black, white, and grey color scheme, symbolizing listening by pointing to it",
+			"bytes": 1069386,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/Daily-Routines.webp",
+			"stem": "Daily-Routines",
+			"bytes": 37428,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/Elections-and-Voting.webp",
+			"stem": "Elections-and-Voting",
+			"bytes": 23810,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/Engaging-with-Community-and-Neighbors.webp",
+			"stem": "Engaging-with-Community-and-Neighbors",
+			"bytes": 51654,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/Ghislaine-Maxwell.webp",
+			"stem": "Ghislaine-Maxwell",
+			"bytes": 39866,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/ghislaine-maxwell-psychology.md"]
+		},
+		{
+			"file": "static/blogs/Jeffrey-Epstein.webp",
+			"stem": "Jeffrey-Epstein",
+			"bytes": 37264,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": [
+				"src/blog/pop-culture/epstein-psychology-part-1.md",
+				"src/blog/pop-culture/epstein-psychology-part-2.md"
+			]
+		},
+		{
+			"file": "static/blogs/Marriage-and-Partnerships.webp",
+			"stem": "Marriage-and-Partnerships",
+			"bytes": 42326,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/Mentor-Mentee-Dynamics.webp",
+			"stem": "Mentor-Mentee-Dynamics",
+			"bytes": 36622,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/Online-and-Virtual-Relationships.webp",
+			"stem": "Online-and-Virtual-Relationships",
+			"bytes": 31200,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-online-dating-guide.md"]
+		},
+		{
+			"file": "static/blogs/Political-Ideologies.webp",
+			"stem": "Political-Ideologies",
+			"bytes": 37338,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/Professional-Relationships.webp",
+			"stem": "Professional-Relationships",
+			"bytes": 32350,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/Relationship-Challenges.webp",
+			"stem": "Relationship-Challenges",
+			"bytes": 44492,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/Self-Help-Resources.webp",
+			"stem": "Self-Help-Resources",
+			"bytes": 43598,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/Self-awareness-and-Self-understanding.webp",
+			"stem": "Self-awareness-and-Self-understanding",
+			"bytes": 53948,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/Self-care-and-Self-love.webp",
+			"stem": "Self-care-and-Self-love",
+			"bytes": 52758,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/Skill-Acquisition.webp",
+			"stem": "Skill-Acquisition",
+			"bytes": 54804,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/The-Four-Horsemen-Social.webp",
+			"stem": "The-Four-Horsemen-Social",
+			"bytes": 55622,
+			"status": "Published literal use outside audited hero set",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/guides/definitive-guide-to-relationship-conflict-part-1.md"]
+		},
+		{
+			"file": "static/blogs/alex-cooper-alix-earle-beef-enneagram-analysis-composite.webp",
+			"stem": "alex-cooper-alix-earle-beef-enneagram-analysis-composite",
+			"bytes": 160618,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis.md"]
+		},
+		{
+			"file": "static/blogs/alone-with-thoughts.webp",
+			"stem": "alone-with-thoughts",
+			"bytes": 491456,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/why-the-next-thing-wont-fix-it-type-7.md"]
+		},
+		{
+			"file": "static/blogs/antifund.webp",
+			"stem": "antifund",
+			"bytes": 57072,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/anxiety-and-enneagram-types-guide.webp",
+			"stem": "anxiety-and-enneagram-types-guide",
+			"bytes": 89728,
+			"status": "Draft or other blog reference",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/enneagram/anxiety-and-enneagram-types-guide.md"]
+		},
+		{
+			"file": "static/blogs/artificial-movie-real-people-composite.webp",
+			"stem": "artificial-movie-real-people-composite",
+			"bytes": 181192,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/artificial-movie-real-people.md"]
+		},
+		{
+			"file": "static/blogs/attachment_styles_enneagram_types_psychology.webp",
+			"stem": "attachment_styles_enneagram_types_psychology",
+			"bytes": 374784,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/attachment-styles-and-enneagram-types.md"]
+		},
+		{
+			"file": "static/blogs/beyonce-lemonade.webp",
+			"stem": "beyonce-lemonade",
+			"bytes": 9506,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/bhusband-and-wife-arguing.webp",
+			"stem": "bhusband-and-wife-arguing",
+			"bytes": 127532,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/brain-vs-heart-dichotomy.webp",
+			"stem": "brain-vs-heart-dichotomy",
+			"bytes": 136774,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/neurodiversity-vs-personality.md"]
+		},
+		{
+			"file": "static/blogs/breaking-points-enneagram-analysis-composite.webp",
+			"stem": "breaking-points-enneagram-analysis-composite",
+			"bytes": 146440,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/breaking-points-enneagram-analysis.md"]
+		},
+		{
+			"file": "static/blogs/bs-husband-and-wife-arguing.webp",
+			"stem": "bs-husband-and-wife-arguing",
+			"bytes": 19114,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/cafe-oversharing-conversation.webp",
+			"stem": "cafe-oversharing-conversation",
+			"bytes": 117480,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/oversharing-psychology-shame-boundaries.md"]
+		},
+		{
+			"file": "static/blogs/caseys-things.webp",
+			"stem": "caseys-things",
+			"bytes": 160062,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/circle_of_nine_greek_greek_statues_sitting.webp",
+			"stem": "circle_of_nine_greek_greek_statues_sitting",
+			"bytes": 129678,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-social-styles.md"]
+		},
+		{
+			"file": "static/blogs/comedy-kings-enneagram-analysis-composite.webp",
+			"stem": "comedy-kings-enneagram-analysis-composite",
+			"bytes": 145220,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/comedy-kings-enneagram-analysis.md"]
+		},
+		{
+			"file": "static/blogs/communication-example.webp",
+			"stem": "communication-example",
+			"bytes": 59224,
+			"status": "Draft or other blog reference",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/enneagram/enneagram-communication-guide.md"]
+		},
+		{
+			"file": "static/blogs/communication-styles.webp",
+			"stem": "communication-styles",
+			"bytes": 41758,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/communication-tips-color.webp",
+			"stem": "communication-tips-color",
+			"bytes": 30870,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/communication-tips.webp",
+			"stem": "communication-tips",
+			"bytes": 32906,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/cracked_mask_wall.webp",
+			"stem": "cracked_mask_wall",
+			"bytes": 149978,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/dark-triad-meets-enneagram.md"]
+		},
+		{
+			"file": "static/blogs/crisis-management.webp",
+			"stem": "crisis-management",
+			"bytes": 123044,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/mental-health/enneagram-crisis-management-guide.md"]
+		},
+		{
+			"file": "static/blogs/dark-triad-chalk-board.webp",
+			"stem": "dark-triad-chalk-board",
+			"bytes": 53508,
+			"status": "Published literal use outside audited hero set",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/pop-culture/dark-triad-meets-enneagram.md"]
+		},
+		{
+			"file": "static/blogs/depp-vs-heard-enneagram-analysis-composite.webp",
+			"stem": "depp-vs-heard-enneagram-analysis-composite",
+			"bytes": 166908,
+			"status": "Draft or other blog reference",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/pop-culture/depp-vs-heard-enneagram-analysis.md"]
+		},
+		{
+			"file": "static/blogs/disturbed_studio.webp",
+			"stem": "disturbed_studio",
+			"bytes": 351114,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/diverse-leaders-boardroom-enneagram.webp",
+			"stem": "diverse-leaders-boardroom-enneagram",
+			"bytes": 148600,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-leadership.md"]
+		},
+		{
+			"file": "static/blogs/emotions-color-wheel.webp",
+			"stem": "emotions-color-wheel",
+			"bytes": 73380,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/emotions-crash-course-kindergarten.webp",
+			"stem": "emotions-crash-course-kindergarten",
+			"bytes": 250262,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": [
+				"src/blog/guides/the-crash-course-on-emotions-that-we-missed-in-kindergarten.md"
+			]
+		},
+		{
+			"file": "static/blogs/empty-room.webp",
+			"stem": "empty-room",
+			"bytes": 270150,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/community/societal-ticking-time-bombs.md"]
+		},
+		{
+			"file": "static/blogs/enneagram-addiction-recovery.webp",
+			"stem": "enneagram-addiction-recovery",
+			"bytes": 208132,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/mental-health/enneagram-addiction-recovery-guide.md"]
+		},
+		{
+			"file": "static/blogs/enneagram-concepts.webp",
+			"stem": "enneagram-concepts",
+			"bytes": 120274,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-concepts.md"]
+		},
+		{
+			"file": "static/blogs/enneagram-inspiration-docs.webp",
+			"stem": "enneagram-inspiration-docs",
+			"bytes": 116028,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": [
+				"src/blog/enneagram/enneagram-influences.md",
+				"src/blog/enneagram/enneagram-vs-meyers-briggs.md"
+			]
+		},
+		{
+			"file": "static/blogs/enneagram-integration.jpeg",
+			"stem": "enneagram-integration",
+			"bytes": 38874,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/enneagram-integration.webp",
+			"stem": "enneagram-integration",
+			"bytes": 14224,
+			"status": "Published literal use outside audited hero set",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/enneagram/beginners-guide-to-determining-your-enneagram-type.md"]
+		},
+		{
+			"file": "static/blogs/enneagram-one-to-one-symbol.webp",
+			"stem": "enneagram-one-to-one-symbol",
+			"bytes": 161640,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/enneagram-self-preservation-symbol.webp",
+			"stem": "enneagram-self-preservation-symbol",
+			"bytes": 104552,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/enneagram-social-symbol.webp",
+			"stem": "enneagram-social-symbol",
+			"bytes": 136202,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/enneagram-subtypes.webp",
+			"stem": "enneagram-subtypes",
+			"bytes": 70378,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/enneagram-trauma-response.webp",
+			"stem": "enneagram-trauma-response",
+			"bytes": 226390,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/mental-health/enneagram-trauma-response-guide.md"]
+		},
+		{
+			"file": "static/blogs/enneagram-type-1-dossier-light.webp",
+			"stem": "enneagram-type-1-dossier-light",
+			"bytes": 30596,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/enneagram-type-1-dossier.webp",
+			"stem": "enneagram-type-1-dossier",
+			"bytes": 29170,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-type-1.md"]
+		},
+		{
+			"file": "static/blogs/enneagram-type-2-dossier-light.webp",
+			"stem": "enneagram-type-2-dossier-light",
+			"bytes": 29974,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/enneagram-type-2-dossier.webp",
+			"stem": "enneagram-type-2-dossier",
+			"bytes": 28288,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-type-2.md"]
+		},
+		{
+			"file": "static/blogs/enneagram-type-3-dossier-light.webp",
+			"stem": "enneagram-type-3-dossier-light",
+			"bytes": 31326,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/enneagram-type-3-dossier.webp",
+			"stem": "enneagram-type-3-dossier",
+			"bytes": 29980,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-type-3.md"]
+		},
+		{
+			"file": "static/blogs/enneagram-type-4-dossier-light.webp",
+			"stem": "enneagram-type-4-dossier-light",
+			"bytes": 30560,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/enneagram-type-4-dossier.webp",
+			"stem": "enneagram-type-4-dossier",
+			"bytes": 29112,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-type-4.md"]
+		},
+		{
+			"file": "static/blogs/enneagram-type-5-dossier-light.webp",
+			"stem": "enneagram-type-5-dossier-light",
+			"bytes": 32666,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/enneagram-type-5-dossier.webp",
+			"stem": "enneagram-type-5-dossier",
+			"bytes": 30870,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-type-5.md"]
+		},
+		{
+			"file": "static/blogs/enneagram-type-6-dossier-light.webp",
+			"stem": "enneagram-type-6-dossier-light",
+			"bytes": 30174,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/enneagram-type-6-dossier.webp",
+			"stem": "enneagram-type-6-dossier",
+			"bytes": 28786,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-type-6.md"]
+		},
+		{
+			"file": "static/blogs/enneagram-type-7-dossier-light.webp",
+			"stem": "enneagram-type-7-dossier-light",
+			"bytes": 31218,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/enneagram-type-7-dossier.webp",
+			"stem": "enneagram-type-7-dossier",
+			"bytes": 29874,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-type-7.md"]
+		},
+		{
+			"file": "static/blogs/enneagram-type-8-dossier-light.webp",
+			"stem": "enneagram-type-8-dossier-light",
+			"bytes": 29998,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/enneagram-type-8-dossier.webp",
+			"stem": "enneagram-type-8-dossier",
+			"bytes": 28668,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-type-8.md"]
+		},
+		{
+			"file": "static/blogs/enneagram-type-9-dossier-light.webp",
+			"stem": "enneagram-type-9-dossier-light",
+			"bytes": 30300,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/enneagram-type-9-dossier.webp",
+			"stem": "enneagram-type-9-dossier",
+			"bytes": 28082,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-type-9.md"]
+		},
+		{
+			"file": "static/blogs/enneagram-vs-meyers-briggs.webp",
+			"stem": "enneagram-vs-meyers-briggs",
+			"bytes": 64108,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-vs-meyers-briggs.md"]
+		},
+		{
+			"file": "static/blogs/enneagram3.webp",
+			"stem": "enneagram3",
+			"bytes": 530636,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/enneagram4.webp",
+			"stem": "enneagram4",
+			"bytes": 505296,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/enneagram5.webp",
+			"stem": "enneagram5",
+			"bytes": 672884,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/enneagram6.webp",
+			"stem": "enneagram6",
+			"bytes": 494622,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/enneagram7.webp",
+			"stem": "enneagram7",
+			"bytes": 641376,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/experiment.webp",
+			"stem": "experiment",
+			"bytes": 52264,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/faces-of-depression.webp",
+			"stem": "faces-of-depression",
+			"bytes": 130484,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/depression-patterns-by-enneagram-type.md"]
+		},
+		{
+			"file": "static/blogs/fallen-founders-enneagram-analysis-composite.webp",
+			"stem": "fallen-founders-enneagram-analysis-composite",
+			"bytes": 254440,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/fallen-founders-enneagram-analysis.md"]
+		},
+		{
+			"file": "static/blogs/faq-1.webp",
+			"stem": "faq-1",
+			"bytes": 63778,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/faq-2.webp",
+			"stem": "faq-2",
+			"bytes": 60098,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-faqs.md"]
+		},
+		{
+			"file": "static/blogs/faq-3.webp",
+			"stem": "faq-3",
+			"bytes": 69960,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/feeling-stressed.webp",
+			"stem": "feeling-stressed",
+			"bytes": 54992,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-types-in-stress.md"]
+		},
+		{
+			"file": "static/blogs/feeling-tension.webp",
+			"stem": "feeling-tension",
+			"bytes": 57492,
+			"status": "Draft or other blog reference",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/enneagram/enneagram-stress-number.md"]
+		},
+		{
+			"file": "static/blogs/feeling-the-tension.webp",
+			"stem": "feeling-the-tension",
+			"bytes": 51182,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/female-greek-statue-on-a-date.webp",
+			"stem": "female-greek-statue-on-a-date",
+			"bytes": 68494,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-dating-guide-for-women.md"]
+		},
+		{
+			"file": "static/blogs/female-greek-statue-reading-about-self-development.webp",
+			"stem": "female-greek-statue-reading-about-self-development",
+			"bytes": 55376,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/guides/using-the-enneagram-for-self-development.md"]
+		},
+		{
+			"file": "static/blogs/female-greek-statues-of-different-professions.webp",
+			"stem": "female-greek-statues-of-different-professions",
+			"bytes": 128774,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-types-and-career-choices.md"]
+		},
+		{
+			"file": "static/blogs/female-greek-statues-of-different-professions2.png",
+			"stem": "female-greek-statues-of-different-professions2",
+			"bytes": 2694822,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/freud-plato.webp",
+			"stem": "freud-plato",
+			"bytes": 78000,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/philosophy-psychology-and-the-enneagram.md"]
+		},
+		{
+			"file": "static/blogs/gandalf-statue.jpg",
+			"stem": "gandalf-statue",
+			"bytes": 335376,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/guides/definitive-guide-to-self-efficacy.md"]
+		},
+		{
+			"file": "static/blogs/gandalf-statue.webp",
+			"stem": "gandalf-statue",
+			"bytes": 102034,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/guides/definitive-guide-to-self-efficacy.md"]
+		},
+		{
+			"file": "static/blogs/giving-a-speech.webp",
+			"stem": "giving-a-speech",
+			"bytes": 371368,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/community/why-im-selective-sharing-enneagram.md"]
+		},
+		{
+			"file": "static/blogs/google-leadership-evolution-composite.webp",
+			"stem": "google-leadership-evolution-composite",
+			"bytes": 189054,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/google-leadership-evolution.md"]
+		},
+		{
+			"file": "static/blogs/greek-council-disagreeing.webp",
+			"stem": "greek-council-disagreeing",
+			"bytes": 349756,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-vs-personality-frameworks-comparison.md"]
+		},
+		{
+			"file": "static/blogs/greek-dude-reading-book.webp",
+			"stem": "greek-dude-reading-book",
+			"bytes": 45476,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-tldr.md"]
+		},
+		{
+			"file": "static/blogs/greek-mind.webp",
+			"stem": "greek-mind",
+			"bytes": 119956,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/community/software-and-hardware-of-the-mind.md"]
+		},
+		{
+			"file": "static/blogs/greek-miner.webp",
+			"stem": "greek-miner",
+			"bytes": 209104,
+			"status": "Published literal use outside audited hero set",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/enneagram/neurodiversity-vs-personality.md"]
+		},
+		{
+			"file": "static/blogs/greek-mirror-shattered.webp",
+			"stem": "greek-mirror-shattered",
+			"bytes": 411248,
+			"status": "Published literal use outside audited hero set",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/enneagram/neurodiversity-vs-personality.md"]
+		},
+		{
+			"file": "static/blogs/greek-sculpture-on-a-laptop.webp",
+			"stem": "greek-sculpture-on-a-laptop",
+			"bytes": 127174,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/community/memetic-comments.md"]
+		},
+		{
+			"file": "static/blogs/greek-statue-2-sided-mask.webp",
+			"stem": "greek-statue-2-sided-mask",
+			"bytes": 84324,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": [
+				"src/blog/enneagram/drafts/positive-self-talk.md",
+				"src/blog/enneagram/enneagram-and-mental-illness.md",
+				"src/blog/enneagram/enneagram-mental-health-flags.md",
+				"src/blog/enneagram/shadow-work-by-enneagram-type.md",
+				"src/lib/amp-stories/EnneagramMentalIllnessPromo.svelte"
+			]
+		},
+		{
+			"file": "static/blogs/greek-statue-adhd-scattered-thoughts.webp",
+			"stem": "greek-statue-adhd-scattered-thoughts",
+			"bytes": 160698,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-and-adhd-which-types-struggle-most.md"]
+		},
+		{
+			"file": "static/blogs/greek-statue-apology-reconciliation.webp",
+			"stem": "greek-statue-apology-reconciliation",
+			"bytes": 251658,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/how-to-apologize-like-a-pro.md"]
+		},
+		{
+			"file": "static/blogs/greek-statue-arguing-online.webp",
+			"stem": "greek-statue-arguing-online",
+			"bytes": 50872,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/community/what-winning-online-arguments-looks-like.md"]
+		},
+		{
+			"file": "static/blogs/greek-statue-babies.webp",
+			"stem": "greek-statue-babies",
+			"bytes": 104454,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": [
+				"src/blog/enneagram/enneagram-childhood-stereotypes.md",
+				"src/blog/enneagram/mental-health/enneagram-parenting-mental-health.md"
+			]
+		},
+		{
+			"file": "static/blogs/greek-statue-being-ghosted.webp",
+			"stem": "greek-statue-being-ghosted",
+			"bytes": 66652,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-types-being-ghosted.md"]
+		},
+		{
+			"file": "static/blogs/greek-statue-being-measured-instead-of-heard.webp",
+			"stem": "greek-statue-being-measured-instead-of-heard",
+			"bytes": 74542,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/community/enneagram-community.md"]
+		},
+		{
+			"file": "static/blogs/greek-statue-calling-you-out.webp",
+			"stem": "greek-statue-calling-you-out",
+			"bytes": 59640,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/mental-health/enneagram-therapy-resistance-guide.md"]
+		},
+		{
+			"file": "static/blogs/greek-statue-circle-of-anxiety.webp",
+			"stem": "greek-statue-circle-of-anxiety",
+			"bytes": 139550,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/mental-health/enneagram-anxiety-complete-guide.md"]
+		},
+		{
+			"file": "static/blogs/greek-statue-comparing-enneagram-tests.webp",
+			"stem": "greek-statue-comparing-enneagram-tests",
+			"bytes": 117550,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": [
+				"src/blog/enneagram/enneagram-test-comparison-2025.md",
+				"src/blog/enneagram/enneagram-test-comparison-2026.md"
+			]
+		},
+		{
+			"file": "static/blogs/greek-statue-enneagram-coaching.webp",
+			"stem": "greek-statue-enneagram-coaching",
+			"bytes": 289534,
+			"status": "Published literal use outside audited hero set",
+			"visualReview": "Not visually triaged",
+			"references": [
+				"src/blog/enneagram/mental-health/enneagram-anxiety-complete-guide.md",
+				"src/blog/enneagram/mental-health/enneagram-therapy-guide.md",
+				"src/routes/book-session/+page.svelte"
+			]
+		},
+		{
+			"file": "static/blogs/greek-statue-female-being-ghosted.webp",
+			"stem": "greek-statue-female-being-ghosted",
+			"bytes": 61652,
+			"status": "Published literal use outside audited hero set",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/enneagram/enneagram-types-being-ghosted.md"]
+		},
+		{
+			"file": "static/blogs/greek-statue-fighting-depression.webp",
+			"stem": "greek-statue-fighting-depression",
+			"bytes": 189918,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/guides/guide-to-fighting-depression.md"]
+		},
+		{
+			"file": "static/blogs/greek-statue-finding-enneagram-type.webp",
+			"stem": "greek-statue-finding-enneagram-type",
+			"bytes": 175976,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": [
+				"src/blog/enneagram/beginners-guide-to-determining-your-enneagram-type.md",
+				"src/emails/BookSessionEmail.ts"
+			]
+		},
+		{
+			"file": "static/blogs/greek-statue-flex-1.webp",
+			"stem": "greek-statue-flex-1",
+			"bytes": 65056,
+			"status": "Published literal use outside audited hero set",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/enneagram/how-each-enneagram-flexes.md"]
+		},
+		{
+			"file": "static/blogs/greek-statue-flex-2.webp",
+			"stem": "greek-statue-flex-2",
+			"bytes": 78052,
+			"status": "Published literal use outside audited hero set",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/enneagram/how-each-enneagram-flexes.md"]
+		},
+		{
+			"file": "static/blogs/greek-statue-flex.webp",
+			"stem": "greek-statue-flex",
+			"bytes": 71028,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/how-each-enneagram-flexes.md"]
+		},
+		{
+			"file": "static/blogs/greek-statue-giving-a-speech.webp",
+			"stem": "greek-statue-giving-a-speech",
+			"bytes": 115704,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-coach-toolkit.md"]
+		},
+		{
+			"file": "static/blogs/greek-statue-having-a-disagreement.webp",
+			"stem": "greek-statue-having-a-disagreement",
+			"bytes": 76632,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": [
+				"src/blog/guides/definitive-guide-to-relationship-conflict-part-1.md",
+				"src/blog/guides/drafts/conflict-in-the-workplace.md",
+				"src/blog/guides/drafts/how-to-get-along-with-your-relatives.md"
+			]
+		},
+		{
+			"file": "static/blogs/greek-statue-holding-scales.webp",
+			"stem": "greek-statue-holding-scales",
+			"bytes": 125034,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-strengths-and-weaknesses.md"]
+		},
+		{
+			"file": "static/blogs/greek-statue-in-an-open-cage-typing-on-a-computer.webp",
+			"stem": "greek-statue-in-an-open-cage-typing-on-a-computer",
+			"bytes": 83370,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": [
+				"src/blog/community/drafts/Personality-is-the-catch-all.md",
+				"src/blog/community/personality-frameworks-map-not-territory.md"
+			]
+		},
+		{
+			"file": "static/blogs/greek-statue-interested-in-personality-maxing.webp",
+			"stem": "greek-statue-interested-in-personality-maxing",
+			"bytes": 104090,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": [
+				"src/blog/enneagram/enneagram-type-1.md",
+				"src/blog/enneagram/enneagram-type-2.md",
+				"src/blog/enneagram/enneagram-type-3.md",
+				"src/blog/enneagram/enneagram-type-4.md",
+				"src/blog/enneagram/enneagram-type-5.md",
+				"src/blog/enneagram/enneagram-type-6.md",
+				"src/blog/enneagram/enneagram-type-7.md",
+				"src/blog/enneagram/enneagram-type-8.md",
+				"src/blog/enneagram/enneagram-type-9.md",
+				"src/blog/enneagram/personality-maxing.md",
+				"src/blog/enneagram/shadow-work-by-enneagram-type.md"
+			]
+		},
+		{
+			"file": "static/blogs/greek-statue-introducing-9takes.webp",
+			"stem": "greek-statue-introducing-9takes",
+			"bytes": 177784,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": [
+				"src/blog/community/drafts/introducing-9takes-original.md",
+				"src/blog/community/introducing-9takes.md"
+			]
+		},
+		{
+			"file": "static/blogs/greek-statue-listening-to-a-podcast.webp",
+			"stem": "greek-statue-listening-to-a-podcast",
+			"bytes": 108590,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-books-websites-podcasts.md"]
+		},
+		{
+			"file": "static/blogs/greek-statue-of-athena-with-red.webp",
+			"stem": "greek-statue-of-athena-with-red",
+			"bytes": 55096,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": [
+				"src/blog/enneagram/enneagram-mental-health-flags.md",
+				"src/blog/enneagram/shadow-work-by-enneagram-type.md",
+				"src/blog/enneagram/toxic-traits-relationships-warning-signs.md"
+			]
+		},
+		{
+			"file": "static/blogs/greek-statue-offering-mercy-under-streetlamp.webp",
+			"stem": "greek-statue-offering-mercy-under-streetlamp",
+			"bytes": 44056,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/community/be-gentle-when-youre-right.md"]
+		},
+		{
+			"file": "static/blogs/greek-statue-on-laptop-stressed.webp",
+			"stem": "greek-statue-on-laptop-stressed",
+			"bytes": 136434,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/mental-health/enneagram-workplace-mental-health.md"]
+		},
+		{
+			"file": "static/blogs/greek-statue-overthinking-spiral.webp",
+			"stem": "greek-statue-overthinking-spiral",
+			"bytes": 383310,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/why-you-cant-stop-overthinking-enneagram.md"]
+		},
+		{
+			"file": "static/blogs/greek-statue-parent-child.webp",
+			"stem": "greek-statue-parent-child",
+			"bytes": 164540,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": [
+				"src/blog/enneagram/enneagram-parenting-styles.md",
+				"src/blog/enneagram/oversharing-psychology-shame-boundaries.md"
+			]
+		},
+		{
+			"file": "static/blogs/greek-statue-phone-dating-apps.webp",
+			"stem": "greek-statue-phone-dating-apps",
+			"bytes": 201422,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": [
+				"src/blog/enneagram/why-dating-apps-are-harder-for-certain-personality-types.md"
+			]
+		},
+		{
+			"file": "static/blogs/greek-statue-playing-with-toys.webp",
+			"stem": "greek-statue-playing-with-toys",
+			"bytes": 204290,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/mental-health/enneagram-neurodivergence-guide.md"]
+		},
+		{
+			"file": "static/blogs/greek-statue-proud-pose-ashamed-shadow.webp",
+			"stem": "greek-statue-proud-pose-ashamed-shadow",
+			"bytes": 83962,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/which-enneagram-type-is-most-likely-to-be-a-narcissist.md"]
+		},
+		{
+			"file": "static/blogs/greek-statue-reading-a-book.webp",
+			"stem": "greek-statue-reading-a-book",
+			"bytes": 80406,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-connecting-lines.md"]
+		},
+		{
+			"file": "static/blogs/greek-statue-reading.webp",
+			"stem": "greek-statue-reading",
+			"bytes": 72652,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-positive-self-talk.md"]
+		},
+		{
+			"file": "static/blogs/greek-statue-researcher.webp",
+			"stem": "greek-statue-researcher",
+			"bytes": 250996,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/mental-health/enneagram-science-mental-health.md"]
+		},
+		{
+			"file": "static/blogs/greek-statue-showing-cracks.webp",
+			"stem": "greek-statue-showing-cracks",
+			"bytes": 71420,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": [
+				"src/blog/enneagram/enneagram-mental-health-flags.md",
+				"src/blog/enneagram/mental-health/enneagram-trauma-response-guide.md",
+				"src/blog/enneagram/shadow-work-by-enneagram-type.md",
+				"src/blog/enneagram/toxic-traits-of-each-enneagram-type.md"
+			]
+		},
+		{
+			"file": "static/blogs/greek-statue-stress-paradox.webp",
+			"stem": "greek-statue-stress-paradox",
+			"bytes": 103148,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/situations-change-emotions-dont.md"]
+		},
+		{
+			"file": "static/blogs/greek-statue-struggling-to-parent.webp",
+			"stem": "greek-statue-struggling-to-parent",
+			"bytes": 109970,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/mental-health/enneagram-parenting-mental-health.md"]
+		},
+		{
+			"file": "static/blogs/greek-statue-surrounded-by-snowflakes.webp",
+			"stem": "greek-statue-surrounded-by-snowflakes",
+			"bytes": 160174,
+			"status": "Published literal use outside audited hero set",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/enneagram/neurodiversity-vs-personality.md"]
+		},
+		{
+			"file": "static/blogs/greek-statue-taking-notes.webp",
+			"stem": "greek-statue-taking-notes",
+			"bytes": 129496,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": [
+				"src/blog/enneagram/first-impression-cheat-sheet.md",
+				"src/blog/enneagram/mental-health/enneagram-medication-mental-health.md"
+			]
+		},
+		{
+			"file": "static/blogs/greek-statue-therapy-couch.webp",
+			"stem": "greek-statue-therapy-couch",
+			"bytes": 298382,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/why-therapy-doesnt-work-the-same-for-every-type.md"]
+		},
+		{
+			"file": "static/blogs/greek-statue-thinking-about-transformation.webp",
+			"stem": "greek-statue-thinking-about-transformation",
+			"bytes": 143064,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/90-day-personality-maxing-blueprint.md"]
+		},
+		{
+			"file": "static/blogs/greek-statue-two-doors-two-crowds.webp",
+			"stem": "greek-statue-two-doors-two-crowds",
+			"bytes": 65298,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/how-common-is-each-enneagram-type.md"]
+		},
+		{
+			"file": "static/blogs/greek-statue-type-8-self-development.webp",
+			"stem": "greek-statue-type-8-self-development",
+			"bytes": 73256,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-self-development.md"]
+		},
+		{
+			"file": "static/blogs/greek-statue-working-at-a-coffee-shop.webp",
+			"stem": "greek-statue-working-at-a-coffee-shop",
+			"bytes": 129732,
+			"status": "Published literal use outside audited hero set",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/enneagram/enneagram-types-and-career-choices.md"]
+		},
+		{
+			"file": "static/blogs/greek-statue-yeah-boi-1.webp",
+			"stem": "greek-statue-yeah-boi-1",
+			"bytes": 73370,
+			"status": "Published literal use outside audited hero set",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/enneagram/biggest-compliments-to-give-each-enneagram-type.md"]
+		},
+		{
+			"file": "static/blogs/greek-statue-yeah-boi-2.webp",
+			"stem": "greek-statue-yeah-boi-2",
+			"bytes": 71104,
+			"status": "Published literal use outside audited hero set",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/enneagram/biggest-compliments-to-give-each-enneagram-type.md"]
+		},
+		{
+			"file": "static/blogs/greek-statue-yeah-boi.webp",
+			"stem": "greek-statue-yeah-boi",
+			"bytes": 79120,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": [
+				"src/blog/enneagram/biggest-compliments-to-give-each-enneagram-type.md",
+				"src/blog/enneagram/toxic-traits-relationships-warning-signs.md"
+			]
+		},
+		{
+			"file": "static/blogs/greek-statues-arguing.webp",
+			"stem": "greek-statues-arguing",
+			"bytes": 63018,
+			"status": "Draft or other blog reference",
+			"visualReview": "Not visually triaged",
+			"references": [
+				"src/blog/enneagram/enneagram-communication-tips.md",
+				"src/emails/BookSessionEmail.ts",
+				"src/emails/index.ts"
+			]
+		},
+		{
+			"file": "static/blogs/greek-statues-at-a-party-female.webp",
+			"stem": "greek-statues-at-a-party-female",
+			"bytes": 59780,
+			"status": "Published literal use outside audited hero set",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/enneagram/enneagram-types-at-party.md"]
+		},
+		{
+			"file": "static/blogs/greek-statues-at-party-2.webp",
+			"stem": "greek-statues-at-party-2",
+			"bytes": 96812,
+			"status": "Published literal use outside audited hero set",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/enneagram/enneagram-types-at-party.md"]
+		},
+		{
+			"file": "static/blogs/greek-statues-at-the-beach.webp",
+			"stem": "greek-statues-at-the-beach",
+			"bytes": 159950,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": [
+				"src/blog/enneagram/how-each-enneagram-type-unwinds.md",
+				"src/blog/enneagram/toxic-traits-of-each-enneagram-type.md"
+			]
+		},
+		{
+			"file": "static/blogs/greek-statues-building-a-boat.webp",
+			"stem": "greek-statues-building-a-boat",
+			"bytes": 107214,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-types-working-in-teams.md"]
+		},
+		{
+			"file": "static/blogs/greek-statues-disagreeing.webp",
+			"stem": "greek-statues-disagreeing",
+			"bytes": 60158,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-criticisms.md"]
+		},
+		{
+			"file": "static/blogs/greek-statues-examining-compatibility-chart.webp",
+			"stem": "greek-statues-examining-compatibility-chart",
+			"bytes": 375790,
+			"status": "Draft or other blog reference",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/enneagram/enneagram-compatibility-guide.md"]
+		},
+		{
+			"file": "static/blogs/greek-statues-fixing-the-lamp-while-she-waits.webp",
+			"stem": "greek-statues-fixing-the-lamp-while-she-waits",
+			"bytes": 36362,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/what-is-a-love-language.md"]
+		},
+		{
+			"file": "static/blogs/greek-statues-getting-ready-to-approach.webp",
+			"stem": "greek-statues-getting-ready-to-approach",
+			"bytes": 161464,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/first-impression-enneagram-playbook.md"]
+		},
+		{
+			"file": "static/blogs/greek-statues-harmonic-conflict-styles.webp",
+			"stem": "greek-statues-harmonic-conflict-styles",
+			"bytes": 198660,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-harmonic-approaches.md"]
+		},
+		{
+			"file": "static/blogs/greek-statues-having-an-intense-conversation.webp",
+			"stem": "greek-statues-having-an-intense-conversation",
+			"bytes": 54436,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": [
+				"src/blog/enneagram/oversharing-psychology-shame-boundaries.md",
+				"src/blog/guides/ultimate-guide-to-active-listening.md"
+			]
+		},
+		{
+			"file": "static/blogs/greek-statues-having-an-intimate-conversation.webp",
+			"stem": "greek-statues-having-an-intimate-conversation",
+			"bytes": 52926,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/relationship-communication-guide.md"]
+		},
+		{
+			"file": "static/blogs/greek-statues-in-a-progression.webp",
+			"stem": "greek-statues-in-a-progression",
+			"bytes": 132634,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": [
+				"src/blog/enneagram/mental-health/enneagram-addiction-recovery-guide.md",
+				"src/blog/enneagram/mental-health/enneagram-therapy-guide.md"
+			]
+		},
+		{
+			"file": "static/blogs/greek-statues-in-a-tense-moment.webp",
+			"stem": "greek-statues-in-a-tense-moment",
+			"bytes": 119450,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": [
+				"src/blog/enneagram/toxic-traits-of-each-enneagram-type.md",
+				"src/blog/enneagram/toxic-traits-relationships-warning-signs.md"
+			]
+		},
+		{
+			"file": "static/blogs/greek-statues-in-relationships.webp",
+			"stem": "greek-statues-in-relationships",
+			"bytes": 151982,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-types-in-relationships.md"]
+		},
+		{
+			"file": "static/blogs/greek-statues-manipulation-tactics.webp",
+			"stem": "greek-statues-manipulation-tactics",
+			"bytes": 260156,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/how-each-enneagram-type-manipulates.md"]
+		},
+		{
+			"file": "static/blogs/greek-statues-object-relations.webp",
+			"stem": "greek-statues-object-relations",
+			"bytes": 72710,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-object-relations.md"]
+		},
+		{
+			"file": "static/blogs/greek-statues-of-black-smith-and-businessman.webp",
+			"stem": "greek-statues-of-black-smith-and-businessman",
+			"bytes": 145424,
+			"status": "Published literal use outside audited hero set",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/enneagram/enneagram-types-and-career-choices.md"]
+		},
+		{
+			"file": "static/blogs/greek-statues-on-a-date.webp",
+			"stem": "greek-statues-on-a-date",
+			"bytes": 115826,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": [
+				"src/blog/enneagram/enneagram-types-on-a-first-date.md",
+				"src/blog/enneagram/love-languages-and-enneagram-types.md",
+				"src/blog/guides/dating-dynamics-by-enneagram-type.md"
+			]
+		},
+		{
+			"file": "static/blogs/greek-statues-on-a-first-date.webp",
+			"stem": "greek-statues-on-a-first-date",
+			"bytes": 92062,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": [
+				"src/blog/enneagram/enneagram-types-on-a-first-date.md",
+				"src/blog/guides/dating-dynamics-by-enneagram-type.md"
+			]
+		},
+		{
+			"file": "static/blogs/greek-statues-party-vibes.webp",
+			"stem": "greek-statues-party-vibes",
+			"bytes": 92232,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-types-at-party.md", "src/emails/index.ts"]
+		},
+		{
+			"file": "static/blogs/greek-statues-partying.webp",
+			"stem": "greek-statues-partying",
+			"bytes": 74922,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-party-planner.md"]
+		},
+		{
+			"file": "static/blogs/greek-statues-relationship-red-flags.webp",
+			"stem": "greek-statues-relationship-red-flags",
+			"bytes": 255294,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/red-flags-dating-each-enneagram-type.md"]
+		},
+		{
+			"file": "static/blogs/greek-statues-rethinking-together.webp",
+			"stem": "greek-statues-rethinking-together",
+			"bytes": 429700,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/community/how-minds-change-on-9takes.md"]
+		},
+		{
+			"file": "static/blogs/greek-statues-self-sabotage.webp",
+			"stem": "greek-statues-self-sabotage",
+			"bytes": 288332,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/how-each-enneagram-type-self-sabotages-success.md"]
+		},
+		{
+			"file": "static/blogs/greek-statues-team-dynamics-office.webp",
+			"stem": "greek-statues-team-dynamics-office",
+			"bytes": 401486,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-team-dynamics.md"]
+		},
+		{
+			"file": "static/blogs/greek-statues-two-females-on-phones.webp",
+			"stem": "greek-statues-two-females-on-phones",
+			"bytes": 50758,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": [
+				"src/blog/enneagram/enneagram-types-being-ghosted.md",
+				"src/blog/pop-culture/influencer-enneagram-types-instagram.md"
+			]
+		},
+		{
+			"file": "static/blogs/greek-statues-walking-past-a-pothole.webp",
+			"stem": "greek-statues-walking-past-a-pothole",
+			"bytes": 85700,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/guides/definitive-guide-to-relationship-conflict-part-2.md"]
+		},
+		{
+			"file": "static/blogs/greek-statues-who-are-stressed.webp",
+			"stem": "greek-statues-who-are-stressed",
+			"bytes": 74986,
+			"status": "Published literal use outside audited hero set",
+			"visualReview": "Not visually triaged",
+			"references": [
+				"src/blog/enneagram/enneagram-anxiety-management-guide.md",
+				"src/blog/enneagram/mental-health/enneagram-anxiety-complete-guide.md",
+				"src/blog/enneagram/mental-health/enneagram-crisis-management-guide.md"
+			]
+		},
+		{
+			"file": "static/blogs/greek-statues-working-in-teams.webp",
+			"stem": "greek-statues-working-in-teams",
+			"bytes": 121308,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-workplace-team-building.md"]
+		},
+		{
+			"file": "static/blogs/greek_statue_looking_in_the_mirror.webp",
+			"stem": "greek_statue_looking_in_the_mirror",
+			"bytes": 93244,
+			"status": "Published literal use outside audited hero set",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/guides/how-to-psychoanalyze-people.md"]
+		},
+		{
+			"file": "static/blogs/greek_statue_reading_people.webp",
+			"stem": "greek_statue_reading_people",
+			"bytes": 133508,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/guides/how-to-psychoanalyze-people.md"]
+		},
+		{
+			"file": "static/blogs/greek_statues_giving_and_receiving_love_in_different_ways.webp",
+			"stem": "greek_statues_giving_and_receiving_love_in_different_ways",
+			"bytes": 705972,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": [
+				"src/blog/enneagram/enneagram-type-2.md",
+				"src/blog/enneagram/love-languages-and-enneagram-types.md",
+				"src/blog/enneagram/what-is-a-love-language.md"
+			]
+		},
+		{
+			"file": "static/blogs/greek_statues_in_a_circle_holding_hands.webp",
+			"stem": "greek_statues_in_a_circle_holding_hands",
+			"bytes": 474954,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": [
+				"src/blog/community/drafts/manifesto.md",
+				"src/blog/enneagram/enneagram-compatibility-matrix.md",
+				"src/blog/enneagram/love-languages-and-enneagram-types.md"
+			]
+		},
+		{
+			"file": "static/blogs/greekman-pointing.png",
+			"stem": "greekman-pointing",
+			"bytes": 1094547,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/greekman-teaching.png",
+			"stem": "greekman-teaching",
+			"bytes": 754213,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/greeks-debating-human-nature.webp",
+			"stem": "greeks-debating-human-nature",
+			"bytes": 185816,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": [
+				"src/blog/community/consensus-on-human-nature.md",
+				"src/lib/server/srcsetPathRedirect.spec.ts"
+			]
+		},
+		{
+			"file": "static/blogs/hollywood-heartthrobs-enneagram-analysis-composite.webp",
+			"stem": "hollywood-heartthrobs-enneagram-analysis-composite",
+			"bytes": 130814,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/hollywood-heartthrobs-enneagram-analysis.md"]
+		},
+		{
+			"file": "static/blogs/human-nature-rationality-vs-layered.webp",
+			"stem": "human-nature-rationality-vs-layered",
+			"bytes": 165194,
+			"status": "Published literal use outside audited hero set",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/community/consensus-on-human-nature.md"]
+		},
+		{
+			"file": "static/blogs/human-nature-three-part-convergence.webp",
+			"stem": "human-nature-three-part-convergence",
+			"bytes": 174128,
+			"status": "Published literal use outside audited hero set",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/community/consensus-on-human-nature.md"]
+		},
+		{
+			"file": "static/blogs/human-nature.webp",
+			"stem": "human-nature",
+			"bytes": 9326,
+			"status": "Published literal use outside audited hero set",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/community/consensus-on-human-nature.md"]
+		},
+		{
+			"file": "static/blogs/husband-and-wife-arguing.webp",
+			"stem": "husband-and-wife-arguing",
+			"bytes": 238814,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/community/inspiration-for-9takes.md"]
+		},
+		{
+			"file": "static/blogs/husband-and-wife.webp",
+			"stem": "husband-and-wife",
+			"bytes": 136992,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/intellectual-fortress-prison.webp",
+			"stem": "intellectual-fortress-prison",
+			"bytes": 185528,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/community/fear-triad-intellectual-fortress-or-prison.md"]
+		},
+		{
+			"file": "static/blogs/kantian-filters-nine-perspectives.webp",
+			"stem": "kantian-filters-nine-perspectives",
+			"bytes": 335918,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/community/kantian-filters-and-nine-perspectives.md"]
+		},
+		{
+			"file": "static/blogs/kardashian-family-enneagram-analysis-composite.webp",
+			"stem": "kardashian-family-enneagram-analysis-composite",
+			"bytes": 230996,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/kardashian-family-enneagram-analysis.md"]
+		},
+		{
+			"file": "static/blogs/looking-at-questions.webp",
+			"stem": "looking-at-questions",
+			"bytes": 55700,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/looking-up-at-the-night-sky.webp",
+			"stem": "looking-up-at-the-night-sky",
+			"bytes": 35200,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/astrology-and-the-enneagram.md"]
+		},
+		{
+			"file": "static/blogs/makeitcount.jpg",
+			"stem": "makeitcount",
+			"bytes": 122999,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/makeitcount.webp",
+			"stem": "makeitcount",
+			"bytes": 55312,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/male-greek-statue-on-a-date.webp",
+			"stem": "male-greek-statue-on-a-date",
+			"bytes": 60426,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-dating-guide-for-men.md"]
+		},
+		{
+			"file": "static/blogs/male_and_female_greek_statues.webp",
+			"stem": "male_and_female_greek_statues",
+			"bytes": 88482,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": [
+				"src/blog/guides/definitive-guide-to-relationship-conflict-part-1.md",
+				"src/blog/pop-culture/masculinity-strength-and-the-enneagram.md"
+			]
+		},
+		{
+			"file": "static/blogs/marvel-universe-enneagram-analysis-composite.webp",
+			"stem": "marvel-universe-enneagram-analysis-composite",
+			"bytes": 133150,
+			"status": "Draft or other blog reference",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/pop-culture/marvel-universe-enneagram-analysis.md"]
+		},
+		{
+			"file": "static/blogs/mask_wall_investigation.webp",
+			"stem": "mask_wall_investigation",
+			"bytes": 228264,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/medications_and_stress.webp",
+			"stem": "medications_and_stress",
+			"bytes": 84000,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/mental-health/enneagram-medication-mental-health.md"]
+		},
+		{
+			"file": "static/blogs/musk-vs-altman-trial-composite.webp",
+			"stem": "musk-vs-altman-trial-composite",
+			"bytes": 121826,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/musk-vs-altman-trial-personality-dynamics-composite.webp",
+			"stem": "musk-vs-altman-trial-personality-dynamics-composite",
+			"bytes": 121826,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/musk-vs-altman-trial-personality-dynamics.md"]
+		},
+		{
+			"file": "static/blogs/neoclassical-fortress.webp",
+			"stem": "neoclassical-fortress",
+			"bytes": 209074,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/neoclassical-fortress2.webp",
+			"stem": "neoclassical-fortress2",
+			"bytes": 144882,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-instinctual-subtypes.md"]
+		},
+		{
+			"file": "static/blogs/neoclassical-metropolis.webp",
+			"stem": "neoclassical-metropolis",
+			"bytes": 160680,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/community/why-the-greek-vibe.md"]
+		},
+		{
+			"file": "static/blogs/nine-greek-statues-having-a-conversation-with-their-wings.webp",
+			"stem": "nine-greek-statues-having-a-conversation-with-their-wings",
+			"bytes": 147576,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/nine_greek_statues_facing_their_shadows_on_the_wall.webp",
+			"stem": "nine_greek_statues_facing_their_shadows_on_the_wall",
+			"bytes": 336378,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/shadow-work-by-enneagram-type.md"]
+		},
+		{
+			"file": "static/blogs/online-gurus-enneagram-analysis-composite.webp",
+			"stem": "online-gurus-enneagram-analysis-composite",
+			"bytes": 150618,
+			"status": "Draft or other blog reference",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/pop-culture/online-gurus-enneagram-analysis.md"]
+		},
+		{
+			"file": "static/blogs/open-cage-color.webp",
+			"stem": "open-cage-color",
+			"bytes": 171666,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/open-cage.webp",
+			"stem": "open-cage",
+			"bytes": 196928,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/organized-workspace-personality-types.webp",
+			"stem": "organized-workspace-personality-types",
+			"bytes": 379762,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/guides/productivity-systems-by-enneagram-type.md"]
+		},
+		{
+			"file": "static/blogs/oscar-contenders-enneagram-analysis-composite.webp",
+			"stem": "oscar-contenders-enneagram-analysis-composite",
+			"bytes": 148162,
+			"status": "Draft or other blog reference",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/pop-culture/oscar-contenders-enneagram-analysis.md"]
+		},
+		{
+			"file": "static/blogs/parasocial-relationships-psychology.webp",
+			"stem": "parasocial-relationships-psychology",
+			"bytes": 153776,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/parasocial-relationships-enneagram-type.md"]
+		},
+		{
+			"file": "static/blogs/party-in-street-color.webp",
+			"stem": "party-in-street-color",
+			"bytes": 94936,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/party-in-street.webp",
+			"stem": "party-in-street",
+			"bytes": 162172,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/people-from-diverse-backgrounds.webp",
+			"stem": "people-from-diverse-backgrounds",
+			"bytes": 118436,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-team-diversity.md"]
+		},
+		{
+			"file": "static/blogs/person-being-ghosted.webp",
+			"stem": "person-being-ghosted",
+			"bytes": 37872,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/pit-of-despair.webp",
+			"stem": "pit-of-despair",
+			"bytes": 80526,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/podcast-bros-enneagram-analysis-composite.webp",
+			"stem": "podcast-bros-enneagram-analysis-composite",
+			"bytes": 115534,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/podcast-bros-enneagram-analysis.md"]
+		},
+		{
+			"file": "static/blogs/podcaster-personality-map-composite.webp",
+			"stem": "podcaster-personality-map-composite",
+			"bytes": 161084,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/podcaster-personality-map.md"]
+		},
+		{
+			"file": "static/blogs/pop-queens-enneagram-analysis-composite.webp",
+			"stem": "pop-queens-enneagram-analysis-composite",
+			"bytes": 162258,
+			"status": "Draft or other blog reference",
+			"visualReview": "Not visually triaged",
+			"references": [
+				"src/blog/pop-culture/pop-queens-enneagram-analysis.md",
+				"src/routes/pop-culture/+page.svelte"
+			]
+		},
+		{
+			"file": "static/blogs/psychology-of-public-shame.webp",
+			"stem": "psychology-of-public-shame",
+			"bytes": 168672,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/psychology-of-public-shame.md"]
+		},
+		{
+			"file": "static/blogs/putin-walk.webp",
+			"stem": "putin-walk",
+			"bytes": 83592,
+			"status": "Published literal use outside audited hero set",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/people/drafts/Vladimir-Putin.md"]
+		},
+		{
+			"file": "static/blogs/questions-engine-moral-awakening.webp",
+			"stem": "questions-engine-moral-awakening",
+			"bytes": 734392,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/community/questions-are-the-engine-of-moral-awakening.md"]
+		},
+		{
+			"file": "static/blogs/reddit-late-at-night.webp",
+			"stem": "reddit-late-at-night",
+			"bytes": 82308,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/community/reddit-deep-connections-limitations.md"]
+		},
+		{
+			"file": "static/blogs/reddit-mod-psychology.webp",
+			"stem": "reddit-mod-psychology",
+			"bytes": 324236,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/reddit-moderators-type-1-internet.md"]
+		},
+		{
+			"file": "static/blogs/religious-books.webp",
+			"stem": "religious-books",
+			"bytes": 99936,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/researching-religious-texts.webp",
+			"stem": "researching-religious-texts",
+			"bytes": 64378,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-and-religion.md"]
+		},
+		{
+			"file": "static/blogs/rome.webp",
+			"stem": "rome",
+			"bytes": 131428,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/royal-family-enneagram-analysis-composite.webp",
+			"stem": "royal-family-enneagram-analysis-composite",
+			"bytes": 251882,
+			"status": "Draft or other blog reference",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/pop-culture/royal-family-enneagram-analysis.md"]
+		},
+		{
+			"file": "static/blogs/s-8s-playing-chess.webp",
+			"stem": "8s-playing-chess",
+			"bytes": 75526,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/how-type-8-challengers-actually-succeed.md"]
+		},
+		{
+			"file": "static/blogs/s-Art-Techniques-and-Media.webp",
+			"stem": "Art-Techniques-and-Media",
+			"bytes": 19596,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-Daily-Routines.webp",
+			"stem": "Daily-Routines",
+			"bytes": 19480,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-Elections-and-Voting.webp",
+			"stem": "Elections-and-Voting",
+			"bytes": 19704,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-Engaging-with-Community-and-Neighbors.webp",
+			"stem": "Engaging-with-Community-and-Neighbors",
+			"bytes": 19250,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-Ghislaine-Maxwell.webp",
+			"stem": "Ghislaine-Maxwell",
+			"bytes": 37342,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/ghislaine-maxwell-psychology.md"]
+		},
+		{
+			"file": "static/blogs/s-Jeffrey-Epstein.webp",
+			"stem": "Jeffrey-Epstein",
+			"bytes": 34760,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": [
+				"src/blog/pop-culture/epstein-psychology-part-1.md",
+				"src/blog/pop-culture/epstein-psychology-part-2.md"
+			]
+		},
+		{
+			"file": "static/blogs/s-Marriage-and-Partnerships.webp",
+			"stem": "Marriage-and-Partnerships",
+			"bytes": 19384,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-Mentor-Mentee-Dynamics.webp",
+			"stem": "Mentor-Mentee-Dynamics",
+			"bytes": 19392,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-Online-and-Virtual-Relationships.webp",
+			"stem": "Online-and-Virtual-Relationships",
+			"bytes": 19566,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-online-dating-guide.md"]
+		},
+		{
+			"file": "static/blogs/s-Political-Ideologies.webp",
+			"stem": "Political-Ideologies",
+			"bytes": 19720,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-Professional-Relationships.webp",
+			"stem": "Professional-Relationships",
+			"bytes": 19600,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-Relationship-Challenges.webp",
+			"stem": "Relationship-Challenges",
+			"bytes": 19366,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-Self-Help-Resources.webp",
+			"stem": "Self-Help-Resources",
+			"bytes": 19442,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-Self-awareness-and-Self-understanding.webp",
+			"stem": "Self-awareness-and-Self-understanding",
+			"bytes": 19322,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-Self-care-and-Self-love.webp",
+			"stem": "Self-care-and-Self-love",
+			"bytes": 19306,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-Skill-Acquisition.webp",
+			"stem": "Skill-Acquisition",
+			"bytes": 19354,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-alex-cooper-alix-earle-beef-enneagram-analysis-composite.webp",
+			"stem": "alex-cooper-alix-earle-beef-enneagram-analysis-composite",
+			"bytes": 69854,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis.md"]
+		},
+		{
+			"file": "static/blogs/s-alone-with-thoughts.webp",
+			"stem": "alone-with-thoughts",
+			"bytes": 40520,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/why-the-next-thing-wont-fix-it-type-7.md"]
+		},
+		{
+			"file": "static/blogs/s-anxiety-and-enneagram-types-guide.webp",
+			"stem": "anxiety-and-enneagram-types-guide",
+			"bytes": 18724,
+			"status": "Draft or other blog reference",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/enneagram/anxiety-and-enneagram-types-guide.md"]
+		},
+		{
+			"file": "static/blogs/s-artificial-movie-real-people-composite.webp",
+			"stem": "artificial-movie-real-people-composite",
+			"bytes": 44906,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/artificial-movie-real-people.md"]
+		},
+		{
+			"file": "static/blogs/s-attachment_styles_enneagram_types_psychology.webp",
+			"stem": "attachment_styles_enneagram_types_psychology",
+			"bytes": 48362,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/attachment-styles-and-enneagram-types.md"]
+		},
+		{
+			"file": "static/blogs/s-brain-vs-heart-dichotomy.webp",
+			"stem": "brain-vs-heart-dichotomy",
+			"bytes": 18850,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/neurodiversity-vs-personality.md"]
+		},
+		{
+			"file": "static/blogs/s-breaking-points-enneagram-analysis-composite.webp",
+			"stem": "breaking-points-enneagram-analysis-composite",
+			"bytes": 64294,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/breaking-points-enneagram-analysis.md"]
+		},
+		{
+			"file": "static/blogs/s-cafe-oversharing-conversation.webp",
+			"stem": "cafe-oversharing-conversation",
+			"bytes": 20862,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/oversharing-psychology-shame-boundaries.md"]
+		},
+		{
+			"file": "static/blogs/s-caseys-things.webp",
+			"stem": "caseys-things",
+			"bytes": 24874,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-circle_of_nine_greek_greek_statues_sitting.webp",
+			"stem": "circle_of_nine_greek_greek_statues_sitting",
+			"bytes": 22106,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-social-styles.md"]
+		},
+		{
+			"file": "static/blogs/s-comedy-kings-enneagram-analysis-composite.webp",
+			"stem": "comedy-kings-enneagram-analysis-composite",
+			"bytes": 65496,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/comedy-kings-enneagram-analysis.md"]
+		},
+		{
+			"file": "static/blogs/s-communication-example.webp",
+			"stem": "communication-example",
+			"bytes": 19224,
+			"status": "Draft or other blog reference",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/enneagram/enneagram-communication-guide.md"]
+		},
+		{
+			"file": "static/blogs/s-communication-styles.webp",
+			"stem": "communication-styles",
+			"bytes": 19210,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-communication-tips-color.webp",
+			"stem": "communication-tips-color",
+			"bytes": 19624,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-communication-tips.webp",
+			"stem": "communication-tips",
+			"bytes": 19302,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-cracked_mask_wall.webp",
+			"stem": "cracked_mask_wall",
+			"bytes": 23602,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/dark-triad-meets-enneagram.md"]
+		},
+		{
+			"file": "static/blogs/s-crisis-management.webp",
+			"stem": "crisis-management",
+			"bytes": 26642,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/mental-health/enneagram-crisis-management-guide.md"]
+		},
+		{
+			"file": "static/blogs/s-dark-triad-chalk-board.webp",
+			"stem": "dark-triad-chalk-board",
+			"bytes": 19090,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-depp-vs-heard-enneagram-analysis-composite.webp",
+			"stem": "depp-vs-heard-enneagram-analysis-composite",
+			"bytes": 96178,
+			"status": "Draft or other blog reference",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/pop-culture/depp-vs-heard-enneagram-analysis.md"]
+		},
+		{
+			"file": "static/blogs/s-disturbed_studio.webp",
+			"stem": "disturbed_studio",
+			"bytes": 39910,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-diverse-leaders-boardroom-enneagram.webp",
+			"stem": "diverse-leaders-boardroom-enneagram",
+			"bytes": 26260,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-leadership.md"]
+		},
+		{
+			"file": "static/blogs/s-emotions-color-wheel.webp",
+			"stem": "emotions-color-wheel",
+			"bytes": 21178,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-emotions-crash-course-kindergarten.webp",
+			"stem": "emotions-crash-course-kindergarten",
+			"bytes": 32078,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": [
+				"src/blog/guides/the-crash-course-on-emotions-that-we-missed-in-kindergarten.md"
+			]
+		},
+		{
+			"file": "static/blogs/s-empty-room.webp",
+			"stem": "empty-room",
+			"bytes": 31972,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/community/societal-ticking-time-bombs.md"]
+		},
+		{
+			"file": "static/blogs/s-enneagram-addiction-recovery.webp",
+			"stem": "enneagram-addiction-recovery",
+			"bytes": 31954,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/mental-health/enneagram-addiction-recovery-guide.md"]
+		},
+		{
+			"file": "static/blogs/s-enneagram-concepts.webp",
+			"stem": "enneagram-concepts",
+			"bytes": 21782,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-concepts.md"]
+		},
+		{
+			"file": "static/blogs/s-enneagram-inspiration-docs.webp",
+			"stem": "enneagram-inspiration-docs",
+			"bytes": 21928,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-influences.md"]
+		},
+		{
+			"file": "static/blogs/s-enneagram-one-to-one-symbol.webp",
+			"stem": "enneagram-one-to-one-symbol",
+			"bytes": 21176,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-enneagram-self-preservation-symbol.webp",
+			"stem": "enneagram-self-preservation-symbol",
+			"bytes": 18832,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-enneagram-social-symbol.webp",
+			"stem": "enneagram-social-symbol",
+			"bytes": 21836,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-enneagram-subtypes.webp",
+			"stem": "enneagram-subtypes",
+			"bytes": 18824,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-enneagram-trauma-response.webp",
+			"stem": "enneagram-trauma-response",
+			"bytes": 36336,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/mental-health/enneagram-trauma-response-guide.md"]
+		},
+		{
+			"file": "static/blogs/s-enneagram-type-1-dossier-light.webp",
+			"stem": "enneagram-type-1-dossier-light",
+			"bytes": 19482,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-enneagram-type-1-dossier.webp",
+			"stem": "enneagram-type-1-dossier",
+			"bytes": 19566,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-type-1.md"]
+		},
+		{
+			"file": "static/blogs/s-enneagram-type-2-dossier-light.webp",
+			"stem": "enneagram-type-2-dossier-light",
+			"bytes": 19618,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-enneagram-type-2-dossier.webp",
+			"stem": "enneagram-type-2-dossier",
+			"bytes": 19506,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-type-2.md"]
+		},
+		{
+			"file": "static/blogs/s-enneagram-type-3-dossier-light.webp",
+			"stem": "enneagram-type-3-dossier-light",
+			"bytes": 19526,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-enneagram-type-3-dossier.webp",
+			"stem": "enneagram-type-3-dossier",
+			"bytes": 19468,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-type-3.md"]
+		},
+		{
+			"file": "static/blogs/s-enneagram-type-4-dossier-light.webp",
+			"stem": "enneagram-type-4-dossier-light",
+			"bytes": 19630,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-enneagram-type-4-dossier.webp",
+			"stem": "enneagram-type-4-dossier",
+			"bytes": 19468,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-type-4.md"]
+		},
+		{
+			"file": "static/blogs/s-enneagram-type-5-dossier-light.webp",
+			"stem": "enneagram-type-5-dossier-light",
+			"bytes": 18800,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-enneagram-type-5-dossier.webp",
+			"stem": "enneagram-type-5-dossier",
+			"bytes": 19570,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-type-5.md"]
+		},
+		{
+			"file": "static/blogs/s-enneagram-type-6-dossier-light.webp",
+			"stem": "enneagram-type-6-dossier-light",
+			"bytes": 19360,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-enneagram-type-6-dossier.webp",
+			"stem": "enneagram-type-6-dossier",
+			"bytes": 19662,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-type-6.md"]
+		},
+		{
+			"file": "static/blogs/s-enneagram-type-7-dossier-light.webp",
+			"stem": "enneagram-type-7-dossier-light",
+			"bytes": 19344,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-enneagram-type-7-dossier.webp",
+			"stem": "enneagram-type-7-dossier",
+			"bytes": 19692,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-type-7.md"]
+		},
+		{
+			"file": "static/blogs/s-enneagram-type-8-dossier-light.webp",
+			"stem": "enneagram-type-8-dossier-light",
+			"bytes": 19574,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-enneagram-type-8-dossier.webp",
+			"stem": "enneagram-type-8-dossier",
+			"bytes": 19542,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-type-8.md"]
+		},
+		{
+			"file": "static/blogs/s-enneagram-type-9-dossier-light.webp",
+			"stem": "enneagram-type-9-dossier-light",
+			"bytes": 19816,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-enneagram-type-9-dossier.webp",
+			"stem": "enneagram-type-9-dossier",
+			"bytes": 19582,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-type-9.md"]
+		},
+		{
+			"file": "static/blogs/s-enneagram-vs-meyers-briggs.webp",
+			"stem": "enneagram-vs-meyers-briggs",
+			"bytes": 19034,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-vs-meyers-briggs.md"]
+		},
+		{
+			"file": "static/blogs/s-experiment.webp",
+			"stem": "experiment",
+			"bytes": 19046,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-faces-of-depression.webp",
+			"stem": "faces-of-depression",
+			"bytes": 21530,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/depression-patterns-by-enneagram-type.md"]
+		},
+		{
+			"file": "static/blogs/s-fallen-founders-enneagram-analysis-composite.webp",
+			"stem": "fallen-founders-enneagram-analysis-composite",
+			"bytes": 156362,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/fallen-founders-enneagram-analysis.md"]
+		},
+		{
+			"file": "static/blogs/s-faq-1.webp",
+			"stem": "faq-1",
+			"bytes": 18854,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-faq-2.webp",
+			"stem": "faq-2",
+			"bytes": 18972,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-faqs.md"]
+		},
+		{
+			"file": "static/blogs/s-faq-3.webp",
+			"stem": "faq-3",
+			"bytes": 19252,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-feeling-stressed.webp",
+			"stem": "feeling-stressed",
+			"bytes": 19382,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-types-in-stress.md"]
+		},
+		{
+			"file": "static/blogs/s-feeling-tension.webp",
+			"stem": "feeling-tension",
+			"bytes": 19288,
+			"status": "Draft or other blog reference",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/enneagram/enneagram-stress-number.md"]
+		},
+		{
+			"file": "static/blogs/s-feeling-the-tension.webp",
+			"stem": "feeling-the-tension",
+			"bytes": 19204,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-female-greek-statue-on-a-date.webp",
+			"stem": "female-greek-statue-on-a-date",
+			"bytes": 19026,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-dating-guide-for-women.md"]
+		},
+		{
+			"file": "static/blogs/s-female-greek-statue-reading-about-self-development.webp",
+			"stem": "female-greek-statue-reading-about-self-development",
+			"bytes": 19180,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/guides/using-the-enneagram-for-self-development.md"]
+		},
+		{
+			"file": "static/blogs/s-female-greek-statues-of-different-professions.webp",
+			"stem": "female-greek-statues-of-different-professions",
+			"bytes": 19938,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-types-and-career-choices.md"]
+		},
+		{
+			"file": "static/blogs/s-freud-plato.webp",
+			"stem": "freud-plato",
+			"bytes": 18924,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/philosophy-psychology-and-the-enneagram.md"]
+		},
+		{
+			"file": "static/blogs/s-gandalf-statue.webp",
+			"stem": "gandalf-statue",
+			"bytes": 18284,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/guides/definitive-guide-to-self-efficacy.md"]
+		},
+		{
+			"file": "static/blogs/s-giving-a-speech.webp",
+			"stem": "giving-a-speech",
+			"bytes": 41580,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/community/why-im-selective-sharing-enneagram.md"]
+		},
+		{
+			"file": "static/blogs/s-google-leadership-evolution-composite.webp",
+			"stem": "google-leadership-evolution-composite",
+			"bytes": 118166,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/google-leadership-evolution.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-council-disagreeing.webp",
+			"stem": "greek-council-disagreeing",
+			"bytes": 38222,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-vs-personality-frameworks-comparison.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-dude-reading-book.webp",
+			"stem": "greek-dude-reading-book",
+			"bytes": 19402,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-tldr.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-mind.webp",
+			"stem": "greek-mind",
+			"bytes": 22964,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/community/software-and-hardware-of-the-mind.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-miner.webp",
+			"stem": "greek-miner",
+			"bytes": 23888,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-greek-mirror-shattered.webp",
+			"stem": "greek-mirror-shattered",
+			"bytes": 38962,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-greek-sculpture-on-a-laptop.webp",
+			"stem": "greek-sculpture-on-a-laptop",
+			"bytes": 22526,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/community/memetic-comments.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statue-2-sided-mask.webp",
+			"stem": "greek-statue-2-sided-mask",
+			"bytes": 20300,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": [
+				"src/blog/enneagram/drafts/positive-self-talk.md",
+				"src/blog/enneagram/enneagram-and-mental-illness.md"
+			]
+		},
+		{
+			"file": "static/blogs/s-greek-statue-adhd-scattered-thoughts.webp",
+			"stem": "greek-statue-adhd-scattered-thoughts",
+			"bytes": 28852,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-and-adhd-which-types-struggle-most.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statue-apology-reconciliation.webp",
+			"stem": "greek-statue-apology-reconciliation",
+			"bytes": 23306,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/how-to-apologize-like-a-pro.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statue-arguing-online.webp",
+			"stem": "greek-statue-arguing-online",
+			"bytes": 19398,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/community/what-winning-online-arguments-looks-like.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statue-babies.webp",
+			"stem": "greek-statue-babies",
+			"bytes": 21740,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-childhood-stereotypes.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statue-being-ghosted.webp",
+			"stem": "greek-statue-being-ghosted",
+			"bytes": 18906,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-types-being-ghosted.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statue-being-measured-instead-of-heard.webp",
+			"stem": "greek-statue-being-measured-instead-of-heard",
+			"bytes": 15472,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/community/enneagram-community.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statue-calling-you-out.webp",
+			"stem": "greek-statue-calling-you-out",
+			"bytes": 19140,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/mental-health/enneagram-therapy-resistance-guide.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statue-circle-of-anxiety.webp",
+			"stem": "greek-statue-circle-of-anxiety",
+			"bytes": 21330,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/mental-health/enneagram-anxiety-complete-guide.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statue-comparing-enneagram-tests.webp",
+			"stem": "greek-statue-comparing-enneagram-tests",
+			"bytes": 26048,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": [
+				"src/blog/enneagram/enneagram-test-comparison-2025.md",
+				"src/blog/enneagram/enneagram-test-comparison-2026.md"
+			]
+		},
+		{
+			"file": "static/blogs/s-greek-statue-enneagram-coaching.webp",
+			"stem": "greek-statue-enneagram-coaching",
+			"bytes": 29368,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-greek-statue-female-being-ghosted.webp",
+			"stem": "greek-statue-female-being-ghosted",
+			"bytes": 19182,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-greek-statue-fighting-depression.webp",
+			"stem": "greek-statue-fighting-depression",
+			"bytes": 35846,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/guides/guide-to-fighting-depression.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statue-finding-enneagram-type.webp",
+			"stem": "greek-statue-finding-enneagram-type",
+			"bytes": 33174,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/beginners-guide-to-determining-your-enneagram-type.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statue-flex-1.webp",
+			"stem": "greek-statue-flex-1",
+			"bytes": 19156,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-greek-statue-flex-2.webp",
+			"stem": "greek-statue-flex-2",
+			"bytes": 19694,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-greek-statue-flex.webp",
+			"stem": "greek-statue-flex",
+			"bytes": 19028,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/how-each-enneagram-flexes.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statue-giving-a-speech.webp",
+			"stem": "greek-statue-giving-a-speech",
+			"bytes": 20062,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-coach-toolkit.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statue-having-a-disagreement.webp",
+			"stem": "greek-statue-having-a-disagreement",
+			"bytes": 20818,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": [
+				"src/blog/guides/definitive-guide-to-relationship-conflict-part-1.md",
+				"src/blog/guides/drafts/conflict-in-the-workplace.md",
+				"src/blog/guides/drafts/how-to-get-along-with-your-relatives.md"
+			]
+		},
+		{
+			"file": "static/blogs/s-greek-statue-holding-scales.webp",
+			"stem": "greek-statue-holding-scales",
+			"bytes": 26140,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-strengths-and-weaknesses.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statue-in-an-open-cage-typing-on-a-computer.webp",
+			"stem": "greek-statue-in-an-open-cage-typing-on-a-computer",
+			"bytes": 19068,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": [
+				"src/blog/community/drafts/Personality-is-the-catch-all.md",
+				"src/blog/community/personality-frameworks-map-not-territory.md"
+			]
+		},
+		{
+			"file": "static/blogs/s-greek-statue-interested-in-personality-maxing.webp",
+			"stem": "greek-statue-interested-in-personality-maxing",
+			"bytes": 23476,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/personality-maxing.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statue-introducing-9takes.webp",
+			"stem": "greek-statue-introducing-9takes",
+			"bytes": 20980,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": [
+				"src/blog/community/drafts/introducing-9takes-original.md",
+				"src/blog/community/introducing-9takes.md"
+			]
+		},
+		{
+			"file": "static/blogs/s-greek-statue-listening-to-a-podcast.webp",
+			"stem": "greek-statue-listening-to-a-podcast",
+			"bytes": 21092,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-books-websites-podcasts.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statue-of-athena-with-red.webp",
+			"stem": "greek-statue-of-athena-with-red",
+			"bytes": 19096,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-mental-health-flags.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statue-offering-mercy-under-streetlamp.webp",
+			"stem": "greek-statue-offering-mercy-under-streetlamp",
+			"bytes": 9372,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/community/be-gentle-when-youre-right.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statue-on-laptop-stressed.webp",
+			"stem": "greek-statue-on-laptop-stressed",
+			"bytes": 26106,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/mental-health/enneagram-workplace-mental-health.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statue-overthinking-spiral.webp",
+			"stem": "greek-statue-overthinking-spiral",
+			"bytes": 49964,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/why-you-cant-stop-overthinking-enneagram.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statue-parent-child.webp",
+			"stem": "greek-statue-parent-child",
+			"bytes": 23102,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-parenting-styles.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statue-phone-dating-apps.webp",
+			"stem": "greek-statue-phone-dating-apps",
+			"bytes": 30914,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": [
+				"src/blog/enneagram/why-dating-apps-are-harder-for-certain-personality-types.md"
+			]
+		},
+		{
+			"file": "static/blogs/s-greek-statue-playing-with-toys.webp",
+			"stem": "greek-statue-playing-with-toys",
+			"bytes": 36914,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/mental-health/enneagram-neurodivergence-guide.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statue-proud-pose-ashamed-shadow.webp",
+			"stem": "greek-statue-proud-pose-ashamed-shadow",
+			"bytes": 11094,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/which-enneagram-type-is-most-likely-to-be-a-narcissist.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statue-reading-a-book.webp",
+			"stem": "greek-statue-reading-a-book",
+			"bytes": 18940,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-connecting-lines.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statue-reading.webp",
+			"stem": "greek-statue-reading",
+			"bytes": 18922,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-positive-self-talk.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statue-researcher.webp",
+			"stem": "greek-statue-researcher",
+			"bytes": 34786,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/mental-health/enneagram-science-mental-health.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statue-showing-cracks.webp",
+			"stem": "greek-statue-showing-cracks",
+			"bytes": 18598,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/toxic-traits-of-each-enneagram-type.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statue-stress-paradox.webp",
+			"stem": "greek-statue-stress-paradox",
+			"bytes": 28720,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/situations-change-emotions-dont.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statue-struggling-to-parent.webp",
+			"stem": "greek-statue-struggling-to-parent",
+			"bytes": 24306,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/mental-health/enneagram-parenting-mental-health.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statue-surrounded-by-snowflakes.webp",
+			"stem": "greek-statue-surrounded-by-snowflakes",
+			"bytes": 29838,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-greek-statue-taking-notes.webp",
+			"stem": "greek-statue-taking-notes",
+			"bytes": 29904,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/first-impression-cheat-sheet.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statue-therapy-couch.webp",
+			"stem": "greek-statue-therapy-couch",
+			"bytes": 41376,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/why-therapy-doesnt-work-the-same-for-every-type.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statue-thinking-about-transformation.webp",
+			"stem": "greek-statue-thinking-about-transformation",
+			"bytes": 26862,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/90-day-personality-maxing-blueprint.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statue-two-doors-two-crowds.webp",
+			"stem": "greek-statue-two-doors-two-crowds",
+			"bytes": 14958,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/how-common-is-each-enneagram-type.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statue-type-8-self-development.webp",
+			"stem": "greek-statue-type-8-self-development",
+			"bytes": 19014,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-self-development.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statue-working-at-a-coffee-shop.webp",
+			"stem": "greek-statue-working-at-a-coffee-shop",
+			"bytes": 23136,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-greek-statue-yeah-boi-1.webp",
+			"stem": "greek-statue-yeah-boi-1",
+			"bytes": 18960,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-greek-statue-yeah-boi-2.webp",
+			"stem": "greek-statue-yeah-boi-2",
+			"bytes": 18984,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-greek-statue-yeah-boi.webp",
+			"stem": "greek-statue-yeah-boi",
+			"bytes": 19048,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/biggest-compliments-to-give-each-enneagram-type.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statues-arguing.webp",
+			"stem": "greek-statues-arguing",
+			"bytes": 19102,
+			"status": "Draft or other blog reference",
+			"visualReview": "Not visually triaged",
+			"references": [
+				"src/blog/enneagram/enneagram-communication-tips.md",
+				"src/routes/admin/asset-generators/poster-generator/+page.server.ts"
+			]
+		},
+		{
+			"file": "static/blogs/s-greek-statues-at-a-party-female.webp",
+			"stem": "greek-statues-at-a-party-female",
+			"bytes": 19120,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-greek-statues-at-party-2.webp",
+			"stem": "greek-statues-at-party-2",
+			"bytes": 21394,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-greek-statues-at-the-beach.webp",
+			"stem": "greek-statues-at-the-beach",
+			"bytes": 21484,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/how-each-enneagram-type-unwinds.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statues-building-a-boat.webp",
+			"stem": "greek-statues-building-a-boat",
+			"bytes": 22156,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-types-working-in-teams.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statues-disagreeing.webp",
+			"stem": "greek-statues-disagreeing",
+			"bytes": 18914,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-criticisms.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statues-examining-compatibility-chart.webp",
+			"stem": "greek-statues-examining-compatibility-chart",
+			"bytes": 42324,
+			"status": "Draft or other blog reference",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/enneagram/enneagram-compatibility-guide.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statues-fixing-the-lamp-while-she-waits.webp",
+			"stem": "greek-statues-fixing-the-lamp-while-she-waits",
+			"bytes": 7534,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/what-is-a-love-language.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statues-getting-ready-to-approach.webp",
+			"stem": "greek-statues-getting-ready-to-approach",
+			"bytes": 31282,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/first-impression-enneagram-playbook.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statues-harmonic-conflict-styles.webp",
+			"stem": "greek-statues-harmonic-conflict-styles",
+			"bytes": 41672,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-harmonic-approaches.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statues-having-an-intense-conversation.webp",
+			"stem": "greek-statues-having-an-intense-conversation",
+			"bytes": 18966,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/guides/ultimate-guide-to-active-listening.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statues-having-an-intimate-conversation.webp",
+			"stem": "greek-statues-having-an-intimate-conversation",
+			"bytes": 19082,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/relationship-communication-guide.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statues-in-a-progression.webp",
+			"stem": "greek-statues-in-a-progression",
+			"bytes": 20292,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/mental-health/enneagram-therapy-guide.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statues-in-a-tense-moment.webp",
+			"stem": "greek-statues-in-a-tense-moment",
+			"bytes": 18788,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/toxic-traits-relationships-warning-signs.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statues-in-relationships.webp",
+			"stem": "greek-statues-in-relationships",
+			"bytes": 32174,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-types-in-relationships.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statues-manipulation-tactics.webp",
+			"stem": "greek-statues-manipulation-tactics",
+			"bytes": 27702,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/how-each-enneagram-type-manipulates.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statues-object-relations.webp",
+			"stem": "greek-statues-object-relations",
+			"bytes": 21716,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-object-relations.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statues-of-black-smith-and-businessman.webp",
+			"stem": "greek-statues-of-black-smith-and-businessman",
+			"bytes": 22464,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-greek-statues-on-a-date.webp",
+			"stem": "greek-statues-on-a-date",
+			"bytes": 21932,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/guides/dating-dynamics-by-enneagram-type.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statues-on-a-first-date.webp",
+			"stem": "greek-statues-on-a-first-date",
+			"bytes": 19630,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-types-on-a-first-date.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statues-party-vibes.webp",
+			"stem": "greek-statues-party-vibes",
+			"bytes": 20888,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-types-at-party.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statues-partying.webp",
+			"stem": "greek-statues-partying",
+			"bytes": 20978,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-party-planner.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statues-relationship-red-flags.webp",
+			"stem": "greek-statues-relationship-red-flags",
+			"bytes": 26496,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/red-flags-dating-each-enneagram-type.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statues-rethinking-together.webp",
+			"stem": "greek-statues-rethinking-together",
+			"bytes": 45334,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/community/how-minds-change-on-9takes.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statues-self-sabotage.webp",
+			"stem": "greek-statues-self-sabotage",
+			"bytes": 37550,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/how-each-enneagram-type-self-sabotages-success.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statues-team-dynamics-office.webp",
+			"stem": "greek-statues-team-dynamics-office",
+			"bytes": 57008,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-team-dynamics.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statues-two-females-on-phones.webp",
+			"stem": "greek-statues-two-females-on-phones",
+			"bytes": 18990,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/influencer-enneagram-types-instagram.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statues-walking-past-a-pothole.webp",
+			"stem": "greek-statues-walking-past-a-pothole",
+			"bytes": 18806,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/guides/definitive-guide-to-relationship-conflict-part-2.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statues-who-are-stressed.webp",
+			"stem": "greek-statues-who-are-stressed",
+			"bytes": 19132,
+			"status": "Draft or other blog reference",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/enneagram/enneagram-anxiety-management-guide.md"]
+		},
+		{
+			"file": "static/blogs/s-greek-statues-working-in-teams.webp",
+			"stem": "greek-statues-working-in-teams",
+			"bytes": 21952,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-workplace-team-building.md"]
+		},
+		{
+			"file": "static/blogs/s-greek_statue_looking_in_the_mirror.webp",
+			"stem": "greek_statue_looking_in_the_mirror",
+			"bytes": 19270,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-greek_statue_reading_people.webp",
+			"stem": "greek_statue_reading_people",
+			"bytes": 22796,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/guides/how-to-psychoanalyze-people.md"]
+		},
+		{
+			"file": "static/blogs/s-greek_statues_giving_and_receiving_love_in_different_ways.webp",
+			"stem": "greek_statues_giving_and_receiving_love_in_different_ways",
+			"bytes": 69954,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/love-languages-and-enneagram-types.md"]
+		},
+		{
+			"file": "static/blogs/s-greek_statues_in_a_circle_holding_hands.webp",
+			"stem": "greek_statues_in_a_circle_holding_hands",
+			"bytes": 46808,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": [
+				"src/blog/community/drafts/manifesto.md",
+				"src/blog/enneagram/enneagram-compatibility-matrix.md"
+			]
+		},
+		{
+			"file": "static/blogs/s-greeks-debating-human-nature.webp",
+			"stem": "greeks-debating-human-nature",
+			"bytes": 23080,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": [
+				"src/blog/community/consensus-on-human-nature.md",
+				"src/lib/server/srcsetPathRedirect.spec.ts"
+			]
+		},
+		{
+			"file": "static/blogs/s-hollywood-heartthrobs-enneagram-analysis-composite.webp",
+			"stem": "hollywood-heartthrobs-enneagram-analysis-composite",
+			"bytes": 65072,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/hollywood-heartthrobs-enneagram-analysis.md"]
+		},
+		{
+			"file": "static/blogs/s-human-nature.webp",
+			"stem": "human-nature",
+			"bytes": 18458,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-husband-and-wife-arguing.webp",
+			"stem": "husband-and-wife-arguing",
+			"bytes": 27924,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/community/inspiration-for-9takes.md"]
+		},
+		{
+			"file": "static/blogs/s-husband-and-wife.webp",
+			"stem": "husband-and-wife",
+			"bytes": 18478,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-intellectual-fortress-prison.webp",
+			"stem": "intellectual-fortress-prison",
+			"bytes": 26586,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/community/fear-triad-intellectual-fortress-or-prison.md"]
+		},
+		{
+			"file": "static/blogs/s-kantian-filters-nine-perspectives.webp",
+			"stem": "kantian-filters-nine-perspectives",
+			"bytes": 51724,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/community/kantian-filters-and-nine-perspectives.md"]
+		},
+		{
+			"file": "static/blogs/s-kardashian-family-enneagram-analysis-composite.webp",
+			"stem": "kardashian-family-enneagram-analysis-composite",
+			"bytes": 116082,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/kardashian-family-enneagram-analysis.md"]
+		},
+		{
+			"file": "static/blogs/s-looking-at-questions.webp",
+			"stem": "looking-at-questions",
+			"bytes": 19128,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-looking-up-at-the-night-sky.webp",
+			"stem": "looking-up-at-the-night-sky",
+			"bytes": 19684,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/astrology-and-the-enneagram.md"]
+		},
+		{
+			"file": "static/blogs/s-male-greek-statue-on-a-date.webp",
+			"stem": "male-greek-statue-on-a-date",
+			"bytes": 18952,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-dating-guide-for-men.md"]
+		},
+		{
+			"file": "static/blogs/s-male_and_female_greek_statues.webp",
+			"stem": "male_and_female_greek_statues",
+			"bytes": 20346,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/masculinity-strength-and-the-enneagram.md"]
+		},
+		{
+			"file": "static/blogs/s-marvel-universe-enneagram-analysis-composite.webp",
+			"stem": "marvel-universe-enneagram-analysis-composite",
+			"bytes": 61434,
+			"status": "Draft or other blog reference",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/pop-culture/marvel-universe-enneagram-analysis.md"]
+		},
+		{
+			"file": "static/blogs/s-mask_wall_investigation.webp",
+			"stem": "mask_wall_investigation",
+			"bytes": 34698,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-medications_and_stress.webp",
+			"stem": "medications_and_stress",
+			"bytes": 19984,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/mental-health/enneagram-medication-mental-health.md"]
+		},
+		{
+			"file": "static/blogs/s-musk-vs-altman-trial-composite.webp",
+			"stem": "musk-vs-altman-trial-composite",
+			"bytes": 81616,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-musk-vs-altman-trial-personality-dynamics-composite.webp",
+			"stem": "musk-vs-altman-trial-personality-dynamics-composite",
+			"bytes": 81616,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/musk-vs-altman-trial-personality-dynamics.md"]
+		},
+		{
+			"file": "static/blogs/s-neoclassical-fortress.webp",
+			"stem": "neoclassical-fortress",
+			"bytes": 23132,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-neoclassical-fortress2.webp",
+			"stem": "neoclassical-fortress2",
+			"bytes": 23220,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-instinctual-subtypes.md"]
+		},
+		{
+			"file": "static/blogs/s-neoclassical-metropolis.webp",
+			"stem": "neoclassical-metropolis",
+			"bytes": 19664,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/community/why-the-greek-vibe.md"]
+		},
+		{
+			"file": "static/blogs/s-nine-greek-statues-having-a-conversation-with-their-wings.webp",
+			"stem": "nine-greek-statues-having-a-conversation-with-their-wings",
+			"bytes": 18998,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-nine_greek_statues_facing_their_shadows_on_the_wall.webp",
+			"stem": "nine_greek_statues_facing_their_shadows_on_the_wall",
+			"bytes": 33276,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/shadow-work-by-enneagram-type.md"]
+		},
+		{
+			"file": "static/blogs/s-online-gurus-enneagram-analysis-composite.webp",
+			"stem": "online-gurus-enneagram-analysis-composite",
+			"bytes": 62966,
+			"status": "Draft or other blog reference",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/pop-culture/online-gurus-enneagram-analysis.md"]
+		},
+		{
+			"file": "static/blogs/s-open-cage-color.webp",
+			"stem": "open-cage-color",
+			"bytes": 22442,
+			"status": "Application source reference",
+			"visualReview": "Not visually triaged",
+			"references": ["src/routes/admin/asset-generators/poster-generator/+page.server.ts"]
+		},
+		{
+			"file": "static/blogs/s-open-cage.webp",
+			"stem": "open-cage",
+			"bytes": 21626,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-organized-workspace-personality-types.webp",
+			"stem": "organized-workspace-personality-types",
+			"bytes": 48088,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/guides/productivity-systems-by-enneagram-type.md"]
+		},
+		{
+			"file": "static/blogs/s-oscar-contenders-enneagram-analysis-composite.webp",
+			"stem": "oscar-contenders-enneagram-analysis-composite",
+			"bytes": 80380,
+			"status": "Draft or other blog reference",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/pop-culture/oscar-contenders-enneagram-analysis.md"]
+		},
+		{
+			"file": "static/blogs/s-parasocial-relationships-psychology.webp",
+			"stem": "parasocial-relationships-psychology",
+			"bytes": 21606,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/parasocial-relationships-enneagram-type.md"]
+		},
+		{
+			"file": "static/blogs/s-party-in-street-color.webp",
+			"stem": "party-in-street-color",
+			"bytes": 19788,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-party-in-street.webp",
+			"stem": "party-in-street",
+			"bytes": 18808,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-people-from-diverse-backgrounds.webp",
+			"stem": "people-from-diverse-backgrounds",
+			"bytes": 20482,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-team-diversity.md"]
+		},
+		{
+			"file": "static/blogs/s-person-being-ghosted.webp",
+			"stem": "person-being-ghosted",
+			"bytes": 19520,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-pit-of-despair.webp",
+			"stem": "pit-of-despair",
+			"bytes": 18868,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-podcast-bros-enneagram-analysis-composite.webp",
+			"stem": "podcast-bros-enneagram-analysis-composite",
+			"bytes": 49858,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/podcast-bros-enneagram-analysis.md"]
+		},
+		{
+			"file": "static/blogs/s-podcaster-personality-map-composite.webp",
+			"stem": "podcaster-personality-map-composite",
+			"bytes": 62240,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/podcaster-personality-map.md"]
+		},
+		{
+			"file": "static/blogs/s-pop-queens-enneagram-analysis-composite.webp",
+			"stem": "pop-queens-enneagram-analysis-composite",
+			"bytes": 62932,
+			"status": "Draft or other blog reference",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/pop-culture/pop-queens-enneagram-analysis.md"]
+		},
+		{
+			"file": "static/blogs/s-psychology-of-public-shame.webp",
+			"stem": "psychology-of-public-shame",
+			"bytes": 37592,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/psychology-of-public-shame.md"]
+		},
+		{
+			"file": "static/blogs/s-questions-engine-moral-awakening.webp",
+			"stem": "questions-engine-moral-awakening",
+			"bytes": 76108,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/community/questions-are-the-engine-of-moral-awakening.md"]
+		},
+		{
+			"file": "static/blogs/s-reddit-late-at-night.webp",
+			"stem": "reddit-late-at-night",
+			"bytes": 18814,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/community/reddit-deep-connections-limitations.md"]
+		},
+		{
+			"file": "static/blogs/s-reddit-mod-psychology.webp",
+			"stem": "reddit-mod-psychology",
+			"bytes": 41156,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/reddit-moderators-type-1-internet.md"]
+		},
+		{
+			"file": "static/blogs/s-religious-books.webp",
+			"stem": "religious-books",
+			"bytes": 21172,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-researching-religious-texts.webp",
+			"stem": "researching-religious-texts",
+			"bytes": 19142,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": [
+				"src/blog/enneagram/enneagram-and-religion.md",
+				"src/routes/admin/asset-generators/poster-generator/+page.server.ts"
+			]
+		},
+		{
+			"file": "static/blogs/s-rome.webp",
+			"stem": "rome",
+			"bytes": 20496,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-royal-family-enneagram-analysis-composite.webp",
+			"stem": "royal-family-enneagram-analysis-composite",
+			"bytes": 115760,
+			"status": "Draft or other blog reference",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/pop-culture/royal-family-enneagram-analysis.md"]
+		},
+		{
+			"file": "static/blogs/s-self-efficacy-word-cloud.webp",
+			"stem": "self-efficacy-word-cloud",
+			"bytes": 19772,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-shattered-mirror-dark.webp",
+			"stem": "shattered-mirror-dark",
+			"bytes": 32250,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/incel-blackpill-radicalization-enneagram.md"]
+		},
+		{
+			"file": "static/blogs/s-silicon-valley-power-players-enneagram-analysis-composite.webp",
+			"stem": "silicon-valley-power-players-enneagram-analysis-composite",
+			"bytes": 60528,
+			"status": "Draft or other blog reference",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/pop-culture/silicon-valley-power-players-enneagram-analysis.md"]
+		},
+		{
+			"file": "static/blogs/s-stairs-of-self-improvement.webp",
+			"stem": "stairs-of-self-improvement",
+			"bytes": 57348,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-personal-growth.md"]
+		},
+		{
+			"file": "static/blogs/s-standing-up-for-yourself-boundary.webp",
+			"stem": "standing-up-for-yourself-boundary",
+			"bytes": 5996,
+			"status": "Draft or other blog reference",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/guides/how-to-stand-up-for-yourself.md"]
+		},
+		{
+			"file": "static/blogs/s-streaming-royalty-enneagram-analysis-composite.webp",
+			"stem": "streaming-royalty-enneagram-analysis-composite",
+			"bytes": 68566,
+			"status": "Draft or other blog reference",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/pop-culture/streaming-royalty-enneagram-analysis.md"]
+		},
+		{
+			"file": "static/blogs/s-subtypes.webp",
+			"stem": "subtypes",
+			"bytes": 18964,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-succession-personality-trap-composite.webp",
+			"stem": "succession-personality-trap-composite",
+			"bytes": 118904,
+			"status": "Draft or other blog reference",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/pop-culture/succession-personality-trap.md"]
+		},
+		{
+			"file": "static/blogs/s-tbpn-john-coogan-jordi-hays-enneagram-dynamic-composite.webp",
+			"stem": "tbpn-john-coogan-jordi-hays-enneagram-dynamic-composite",
+			"bytes": 81078,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic.md"]
+		},
+		{
+			"file": "static/blogs/s-team-building.webp",
+			"stem": "team-building",
+			"bytes": 19430,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-tech-titans-ai-wars-composite.webp",
+			"stem": "tech-titans-ai-wars-composite",
+			"bytes": 91204,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/tech-titans-ai-wars.md"]
+		},
+		{
+			"file": "static/blogs/s-tech-titans-disruptors-composite.webp",
+			"stem": "tech-titans-disruptors-composite",
+			"bytes": 96160,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/tech-titans-disruptors.md"]
+		},
+		{
+			"file": "static/blogs/s-tech-titans-enneagram-analysis-composite.webp",
+			"stem": "tech-titans-enneagram-analysis-composite",
+			"bytes": 87910,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/tech-titans-enneagram-analysis.md"]
+		},
+		{
+			"file": "static/blogs/s-tech-titans-founders-vs-stewards-composite.webp",
+			"stem": "tech-titans-founders-vs-stewards-composite",
+			"bytes": 68118,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/tech-titans-founders-vs-stewards.md"]
+		},
+		{
+			"file": "static/blogs/s-tech-titans-leadership-styles-composite.webp",
+			"stem": "tech-titans-leadership-styles-composite",
+			"bytes": 80934,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/tech-titans-leadership-styles.md"]
+		},
+		{
+			"file": "static/blogs/s-tech-titans-paypal-mafia-composite.webp",
+			"stem": "tech-titans-paypal-mafia-composite",
+			"bytes": 65256,
+			"status": "Draft or other blog reference",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/pop-culture/tech-titans-paypal-mafia.md"]
+		},
+		{
+			"file": "static/blogs/s-tech-titans-platform-emperors-composite.webp",
+			"stem": "tech-titans-platform-emperors-composite",
+			"bytes": 110992,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/tech-titans-platform-emperors.md"]
+		},
+		{
+			"file": "static/blogs/s-the-MBTI-sucks.webp",
+			"stem": "the-MBTI-sucks",
+			"bytes": 19030,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/community/mbti-vs-enneagram.md"]
+		},
+		{
+			"file": "static/blogs/s-trump-biden-contrast.webp",
+			"stem": "trump-biden-contrast",
+			"bytes": 45830,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-trump-type-3-vs-biden-type-2-composite.webp",
+			"stem": "trump-type-3-vs-biden-type-2-composite",
+			"bytes": 48950,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/trump-type-3-vs-biden-type-2.md"]
+		},
+		{
+			"file": "static/blogs/s-twitter-toxic-psychology.webp",
+			"stem": "twitter-toxic-psychology",
+			"bytes": 50084,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/cancel-culture-enneagram-type.md"]
+		},
+		{
+			"file": "static/blogs/s-twitter-x-toxic-arena-battle.webp",
+			"stem": "twitter-x-toxic-arena-battle",
+			"bytes": 48850,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/twitter-x-personality-types-toxic.md"]
+		},
+		{
+			"file": "static/blogs/s-two-female-greek-statues-having-a-conversation.webp",
+			"stem": "two-female-greek-statues-having-a-conversation",
+			"bytes": 18350,
+			"status": "Draft or other blog reference",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/enneagram/enneagram-communication-styles.md"]
+		},
+		{
+			"file": "static/blogs/s-two-greek-statues-having-a-serious-conversation.webp",
+			"stem": "two-greek-statues-having-a-serious-conversation",
+			"bytes": 19484,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/guides/5-tough-conversations-you-need-to-have-with-your-partner.md"]
+		},
+		{
+			"file": "static/blogs/s-two_greek_statues_with_wings.webp",
+			"stem": "two_greek_statues_with_wings",
+			"bytes": 19510,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-wings-complete-guide.md"]
+		},
+		{
+			"file": "static/blogs/s-type6-date.webp",
+			"stem": "type6-date",
+			"bytes": 26622,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-type8-date.webp",
+			"stem": "type8-date",
+			"bytes": 32982,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-undefined.webp",
+			"stem": "undefined",
+			"bytes": 19474,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-us-presidents-enneagram-analysis-composite.webp",
+			"stem": "us-presidents-enneagram-analysis-composite",
+			"bytes": 62702,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/us-presidents-enneagram-analysis.md"]
+		},
+		{
+			"file": "static/blogs/s-what-enneagram-type-are-most-ceos.webp",
+			"stem": "what-enneagram-type-are-most-ceos",
+			"bytes": 19958,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/what-enneagram-type-are-most-ceos.md"]
+		},
+		{
+			"file": "static/blogs/s-what-enneagram-type-are-most-musicians.webp",
+			"stem": "what-enneagram-type-are-most-musicians",
+			"bytes": 3384,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/what-enneagram-type-are-most-musicians.md"]
+		},
+		{
+			"file": "static/blogs/s-working-in-teams.webp",
+			"stem": "working-in-teams",
+			"bytes": 19208,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-working-on-yourself.webp",
+			"stem": "working-on-yourself",
+			"bytes": 19076,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/s-world-leaders-enneagram-personality-dynamics-composite.webp",
+			"stem": "world-leaders-enneagram-personality-dynamics-composite",
+			"bytes": 46850,
+			"status": "Draft or other blog reference",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/pop-culture/world-leaders-enneagram-personality-dynamics.md"]
+		},
+		{
+			"file": "static/blogs/s-young-couple-on-a-date.webp",
+			"stem": "young-couple-on-a-date",
+			"bytes": 19482,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/how-to-navigate-early-relationship-stages.md"]
+		},
+		{
+			"file": "static/blogs/self-efficacy-word-cloud.webp",
+			"stem": "self-efficacy-word-cloud",
+			"bytes": 23020,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/shattered-mirror-dark.webp",
+			"stem": "shattered-mirror-dark",
+			"bytes": 213542,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/incel-blackpill-radicalization-enneagram.md"]
+		},
+		{
+			"file": "static/blogs/silicon-valley-power-players-enneagram-analysis-composite.webp",
+			"stem": "silicon-valley-power-players-enneagram-analysis-composite",
+			"bytes": 133390,
+			"status": "Draft or other blog reference",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/pop-culture/silicon-valley-power-players-enneagram-analysis.md"]
+		},
+		{
+			"file": "static/blogs/stairs-of-self-improvement.webp",
+			"stem": "stairs-of-self-improvement",
+			"bytes": 548444,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": [
+				"src/blog/enneagram/enneagram-personal-growth.md",
+				"src/blog/guides/enneagram-hidden-strengths-and-gifts.md"
+			]
+		},
+		{
+			"file": "static/blogs/standing-up-for-yourself-boundary.webp",
+			"stem": "standing-up-for-yourself-boundary",
+			"bytes": 28248,
+			"status": "Draft or other blog reference",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/guides/how-to-stand-up-for-yourself.md"]
+		},
+		{
+			"file": "static/blogs/streaming-royalty-enneagram-analysis-composite.webp",
+			"stem": "streaming-royalty-enneagram-analysis-composite",
+			"bytes": 138762,
+			"status": "Draft or other blog reference",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/pop-culture/streaming-royalty-enneagram-analysis.md"]
+		},
+		{
+			"file": "static/blogs/subtypes.webp",
+			"stem": "subtypes",
+			"bytes": 79550,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/succession-personality-trap-composite.webp",
+			"stem": "succession-personality-trap-composite",
+			"bytes": 194618,
+			"status": "Draft or other blog reference",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/pop-culture/succession-personality-trap.md"]
+		},
+		{
+			"file": "static/blogs/tbpn-john-coogan-jordi-hays-enneagram-dynamic-composite.webp",
+			"stem": "tbpn-john-coogan-jordi-hays-enneagram-dynamic-composite",
+			"bytes": 115470,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic.md"]
+		},
+		{
+			"file": "static/blogs/team-building.webp",
+			"stem": "team-building",
+			"bytes": 26538,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/tech-titans-ai-wars-composite.webp",
+			"stem": "tech-titans-ai-wars-composite",
+			"bytes": 176490,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/tech-titans-ai-wars.md"]
+		},
+		{
+			"file": "static/blogs/tech-titans-disruptors-composite.webp",
+			"stem": "tech-titans-disruptors-composite",
+			"bytes": 191482,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/tech-titans-disruptors.md"]
+		},
+		{
+			"file": "static/blogs/tech-titans-enneagram-analysis-composite.webp",
+			"stem": "tech-titans-enneagram-analysis-composite",
+			"bytes": 177924,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/tech-titans-enneagram-analysis.md"]
+		},
+		{
+			"file": "static/blogs/tech-titans-founders-vs-stewards-composite.webp",
+			"stem": "tech-titans-founders-vs-stewards-composite",
+			"bytes": 169544,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/tech-titans-founders-vs-stewards.md"]
+		},
+		{
+			"file": "static/blogs/tech-titans-leadership-styles-composite.webp",
+			"stem": "tech-titans-leadership-styles-composite",
+			"bytes": 157008,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/tech-titans-leadership-styles.md"]
+		},
+		{
+			"file": "static/blogs/tech-titans-paypal-mafia-composite.webp",
+			"stem": "tech-titans-paypal-mafia-composite",
+			"bytes": 104902,
+			"status": "Draft or other blog reference",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/pop-culture/tech-titans-paypal-mafia.md"]
+		},
+		{
+			"file": "static/blogs/tech-titans-platform-emperors-composite.webp",
+			"stem": "tech-titans-platform-emperors-composite",
+			"bytes": 173012,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/tech-titans-platform-emperors.md"]
+		},
+		{
+			"file": "static/blogs/the-MBTI-sucks.webp",
+			"stem": "the-MBTI-sucks",
+			"bytes": 74182,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/community/mbti-vs-enneagram.md"]
+		},
+		{
+			"file": "static/blogs/trump-biden-contrast.webp",
+			"stem": "trump-biden-contrast",
+			"bytes": 73306,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/trump-type-3-vs-biden-type-2-composite.webp",
+			"stem": "trump-type-3-vs-biden-type-2-composite",
+			"bytes": 74414,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/trump-type-3-vs-biden-type-2.md"]
+		},
+		{
+			"file": "static/blogs/twitter-toxic-psychology.webp",
+			"stem": "twitter-toxic-psychology",
+			"bytes": 435188,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/cancel-culture-enneagram-type.md"]
+		},
+		{
+			"file": "static/blogs/twitter-x-toxic-arena-battle.webp",
+			"stem": "twitter-x-toxic-arena-battle",
+			"bytes": 200220,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/twitter-x-personality-types-toxic.md"]
+		},
+		{
+			"file": "static/blogs/two-female-greek-statues-having-a-conversation.webp",
+			"stem": "two-female-greek-statues-having-a-conversation",
+			"bytes": 109334,
+			"status": "Draft or other blog reference",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/enneagram/enneagram-communication-styles.md"]
+		},
+		{
+			"file": "static/blogs/two-greek-statues-having-a-serious-conversation.webp",
+			"stem": "two-greek-statues-having-a-serious-conversation",
+			"bytes": 47768,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/guides/5-tough-conversations-you-need-to-have-with-your-partner.md"]
+		},
+		{
+			"file": "static/blogs/two_greek_statues_with_wings.webp",
+			"stem": "two_greek_statues_with_wings",
+			"bytes": 35038,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/enneagram-wings-complete-guide.md"]
+		},
+		{
+			"file": "static/blogs/type6-date.webp",
+			"stem": "type6-date",
+			"bytes": 160296,
+			"status": "Published literal use outside audited hero set",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/enneagram/enneagram-types-on-a-first-date.md"]
+		},
+		{
+			"file": "static/blogs/type8-date.webp",
+			"stem": "type8-date",
+			"bytes": 182098,
+			"status": "Published literal use outside audited hero set",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/enneagram/enneagram-types-on-a-first-date.md"]
+		},
+		{
+			"file": "static/blogs/undefined.webp",
+			"stem": "undefined",
+			"bytes": 75078,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/us-presidents-enneagram-analysis-composite.webp",
+			"stem": "us-presidents-enneagram-analysis-composite",
+			"bytes": 135898,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/us-presidents-enneagram-analysis.md"]
+		},
+		{
+			"file": "static/blogs/what-enneagram-type-are-most-ceos.webp",
+			"stem": "what-enneagram-type-are-most-ceos",
+			"bytes": 113998,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/enneagram/what-enneagram-type-are-most-ceos.md"]
+		},
+		{
+			"file": "static/blogs/what-enneagram-type-are-most-musicians.webp",
+			"stem": "what-enneagram-type-are-most-musicians",
+			"bytes": 24700,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": ["src/blog/pop-culture/what-enneagram-type-are-most-musicians.md"]
+		},
+		{
+			"file": "static/blogs/wolverine971_Greek_statues_of_plato_and_socrates_working_in_a_c_40dc0777-3b73-4c2c-bee6-f3b106fbc481.png",
+			"stem": "wolverine971_Greek_statues_of_plato_and_socrates_working_in_a_c_40dc0777-3b73-4c2c-bee6-f3b106fbc481",
+			"bytes": 1622396,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/wolverine971_a_greek_statue_drawing_a_sagittarius_on_a_piece_of_576592dc-3a35-4367-8d41-a8af117e3d48.png",
+			"stem": "wolverine971_a_greek_statue_drawing_a_sagittarius_on_a_piece_of_576592dc-3a35-4367-8d41-a8af117e3d48",
+			"bytes": 1394441,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/wolverine971_a_greek_statue_of_a_photographer_taking_a_picture__4176613d-997b-4048-9a83-ac63c481db1e.png",
+			"stem": "wolverine971_a_greek_statue_of_a_photographer_taking_a_picture__4176613d-997b-4048-9a83-ac63c481db1e",
+			"bytes": 1252951,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/wolverine971_greek_statue_listening_to_a_podcast_on_a_subway_Un_104f7ae3-81a7-4b96-a6bc-ccff419c6856.png",
+			"stem": "wolverine971_greek_statue_listening_to_a_podcast_on_a_subway_Un_104f7ae3-81a7-4b96-a6bc-ccff419c6856",
+			"bytes": 1514261,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/wolverine971_greek_statues_gathered_around_the_table_Unreal_Eng_3ee7274e-e1c5-4e33-8a20-1b35e97dcee2.png",
+			"stem": "wolverine971_greek_statues_gathered_around_the_table_Unreal_Eng_3ee7274e-e1c5-4e33-8a20-1b35e97dcee2",
+			"bytes": 1507986,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/wolverine971_greek_statues_in_a_busy_modern_coffee_shop_greek_s_9cc2dbe9-c651-40f8-a74d-2a07d2df4f13.png",
+			"stem": "wolverine971_greek_statues_in_a_busy_modern_coffee_shop_greek_s_9cc2dbe9-c651-40f8-a74d-2a07d2df4f13",
+			"bytes": 1560573,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/working-in-teams.webp",
+			"stem": "working-in-teams",
+			"bytes": 61326,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/working-on-yourself.webp",
+			"stem": "working-on-yourself",
+			"bytes": 60632,
+			"status": "No literal reference found; dynamic use not ruled out",
+			"visualReview": "Not visually triaged",
+			"references": []
+		},
+		{
+			"file": "static/blogs/world-leaders-enneagram-personality-dynamics-composite.webp",
+			"stem": "world-leaders-enneagram-personality-dynamics-composite",
+			"bytes": 73770,
+			"status": "Draft or other blog reference",
+			"visualReview": "Not visually triaged",
+			"references": ["src/blog/pop-culture/world-leaders-enneagram-personality-dynamics.md"]
+		},
+		{
+			"file": "static/blogs/young-couple-on-a-date.webp",
+			"stem": "young-couple-on-a-date",
+			"bytes": 42108,
+			"status": "Published hero family",
+			"visualReview": "Hero family triaged; originals and alternates not individually approved",
+			"references": [
+				"src/blog/enneagram/enneagram-types-on-a-first-date.md",
+				"src/blog/enneagram/how-to-navigate-early-relationship-stages.md",
+				"src/blog/guides/dating-dynamics-by-enneagram-type.md"
+			]
+		}
+	]
+}

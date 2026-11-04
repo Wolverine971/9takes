@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 1
-type: ['historical', 'author', 'politician']
+type: ['historical', 'author', 'politician', 'strategy-writer']
 person: 'Marcus-Aurelius'
 suggestions: ['Ryan-Holiday', 'Julius-Caesar', 'Abraham-Lincoln', 'Jocko-Willink']
 wikipedia: 'https://en.wikipedia.org/wiki/Marcus_Aurelius'

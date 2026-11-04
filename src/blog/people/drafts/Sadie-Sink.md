@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '6'
-type: ['newMovieStar', 'movieStar', 'celebrity']
+type: ['newMovieStar', 'movieStar', 'celebrity', 'rising-star']
 person: 'Sadie-Sink'
 suggestions: ['Taylor-Swift', 'Millie-Bobby-Brown', 'Jenna-Ortega', 'Timothee-Chalamet', 'Zendaya']
 wikipedia: 'https://en.wikipedia.org/wiki/Sadie_Sink'

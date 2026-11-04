@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
-type: ['movieStar', 'celebrity']
+type: ['movieStar', 'celebrity', 'rising-star']
 person: 'Jonathan-Bailey'
 suggestions: ['Ariana-Grande', 'Timothee-Chalamet', 'Pedro-Pascal', 'Elton-John']
 wikipedia: 'https://en.wikipedia.org/wiki/Jonathan_Bailey'

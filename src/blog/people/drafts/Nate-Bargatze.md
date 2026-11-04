@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '9'
-type: ['comedian', 'celebrity', 'entrepreneur']
+type: ['comedian', 'celebrity', 'entrepreneur', 'stand-up']
 person: 'Nate-Bargatze'
 suggestions: ['Theo-Von', 'Shane-Gillis', 'Tina-Fey', 'Bert-Kreischer']
 wikipedia: 'https://en.wikipedia.org/wiki/Nate_Bargatze'

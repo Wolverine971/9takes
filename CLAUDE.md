@@ -403,6 +403,9 @@ Run via `pnpm <alias>` where available:
 | `pnpm push:people`                                  | Atomically sync all local people drafts; insert missing unpublished    |
 | `pnpm push:people -- <Person> --sync`               | Atomically sync one reviewed existing people draft                     |
 | `pnpm push:people -- --insert-missing`              | Insert missing drafts without updating existing rows                   |
+| `pnpm audit:cluster-tags`                           | Published people with no cluster (lane) tag for their field            |
+| `pnpm tag:clusters -- tags.json [--write]`          | Add cluster tags to drafts (`{"Draft-Stem": "pop-star"}`)              |
+| `pnpm push:cluster-tags [--write --backup=f]`       | Push draft cluster tags live (`type` is protected from `push:people`)  |
 | `pnpm regen:takes`                                  | Regenerate per-type AI takes (comments_ai)                             |
 | `pnpm portrait:check`                               | Preflight personality portrait assets                                  |
 | `pnpm audit:people-seo` / `audit:people-corpus`     | People SEO / corpus audits                                             |

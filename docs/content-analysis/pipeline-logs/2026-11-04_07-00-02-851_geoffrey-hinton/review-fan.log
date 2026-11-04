@@ -1,0 +1,20 @@
+Warning: this sign-in ends between 2026-11-05 and 2026-11-08 (in 1 day at the earliest). Renewing it does not move those dates. Run claude auth login before then, or use claude setup-token for unattended jobs.
+I've written the fan review to `review-fan.json` in the run folder, and it passes the pipeline's review schema. I didn't touch any other file or publish anything.
+
+It has 8 findings and 5 passages marked for protection. I checked the findings against the cached New Yorker, NYT, MIT Technology Review, Nobel Week and Global News sources. I did not recheck the September 2026 NBC Congress quotes, and the review says so.
+
+**The two major findings, which must be resolved before release:**
+- **fan-01, the backprop framing:** "Backpropagation, the less elegant method, won" reads as if backprop was someone else's method that beat his. In fact Hinton co-wrote the 1986 Nature paper on it with Rumelhart and Williams (New Yorker, MIT Technology Review).
+- **fan-02, the opening:** the line "He did not want credit for a story that was not quite true" states a motive as fact. It also leaves out that the same NYT article reports Hinton saying he didn't want to criticize Google until he'd quit. The paper's framing drew partly on his own words.
+
+**Six minor findings, all well-known context that's missing:**
+- His family background: George Boole is his great-great-grandfather, and his middle name is Everest. At Cambridge he was never the brightest student in any class, and he tried architecture "for about a day."
+- He left Carnegie Mellon partly over Pentagon funding, and opposes battlefield AI. This is his best-known principled stand from before he was famous, and the draft is missing it. His accounts of why he moved to Canada differ, so the fix should show all three.
+- When explaining why he didn't sign the 2023 pause letter, the draft gives only the China reason. The NYT gives another: he wouldn't criticize Google while he still worked there. That one supports the draft's own argument.
+- MIT Technology Review's 2023 "sudden flip": the method he found unsatisfying turned out to learn better than the brain, and that's what scared him. The draft never connects the two.
+- In the Nobel Week interview he says "I wish I'd thought about that sooner." That cuts against the draft's "duty without guilt" claim.
+- He gives a personal reason for the drinking-water donation: he adopted a child in Peru and spent two months where the tap water wasn't safe. The draft leaves it out.
+
+**Similarity check:** both matches are just "the three types organized around anger." That's standard Enneagram wording, not a reused argument, so I didn't raise a finding.
+
+**Risk flags:** I kept both of the evidence record's flags on: sensitive material (his son's learning difficulties, his late wife's homeopathy decision, his opinions of Sam Altman) and a contested typing (Type 5 is a live rival).

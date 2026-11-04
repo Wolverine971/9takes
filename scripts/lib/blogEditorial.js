@@ -5,6 +5,7 @@ import { promises as fs } from 'node:fs';
 import path from 'node:path';
 import matter from 'gray-matter';
 import { z } from 'zod';
+import { getMissingClusterField, isClusterTag } from '../../src/lib/personClusterTags.js';
 
 export const WORKFLOW_VERSION = 3;
 export const STANDARD_ROLES = ['evidence', 'reader'];
@@ -214,10 +215,12 @@ function stable(value) {
 		);
 	return value;
 }
-/** @param {string} markdown @param {Set<string>} excluded */
-function hashExcluding(markdown, excluded) {
+/** @param {string} markdown @param {Set<string>} excluded @param {boolean} [dropClusterTags] */
+function hashExcluding(markdown, excluded, dropClusterTags = false) {
 	const { data, content } = matter(markdown, {});
 	const metadata = Object.fromEntries(Object.entries(data).filter(([key]) => !excluded.has(key)));
+	if (dropClusterTags && Array.isArray(metadata.type))
+		metadata.type = metadata.type.filter((/** @type {unknown} */ t) => !isClusterTag(t));
 	return sha256(
 		JSON.stringify(stable(metadata)) +
 			'\n' +
@@ -227,16 +230,22 @@ function hashExcluding(markdown, excluded) {
 				.trim()
 	);
 }
+// Cluster tags ('screen-icon', 'pop-star', ...) in `type` only file a person into
+// a lane on the category pages and type hub; no reviewer judges them. Leaving them
+// out of the hash lets a released profile gain or change its lane (2026-11-04).
 /** @param {string} markdown */
 export function editorialHash(markdown) {
-	return hashExcluding(markdown, BOOKKEEPING);
+	return hashExcluding(markdown, BOOKKEEPING, true);
 }
-/** True when a stored hash matches this markdown under the current or pre-`path` rule.
+/** True when a stored hash matches this markdown under the current rule, or one
+ * frozen before cluster tags or `path` left the hash.
  * @param {string} markdown @param {unknown} stored */
 export function matchesEditorialHash(markdown, stored) {
-	return (
-		typeof stored === 'string' &&
-		(stored === editorialHash(markdown) || stored === hashExcluding(markdown, LEGACY_BOOKKEEPING))
+	if (typeof stored !== 'string') return false;
+	return [BOOKKEEPING, LEGACY_BOOKKEEPING].some(
+		(excluded) =>
+			stored === hashExcluding(markdown, excluded, true) ||
+			stored === hashExcluding(markdown, excluded, false)
 	);
 }
 /** Remove previous grades and private ledgers before independent assessment.
@@ -394,6 +403,10 @@ export function checkDraft(markdown) {
 		data.type.some((/** @type {unknown} */ t) => typeof t !== 'string' || !t.trim())
 	)
 		blockers.push('invalid_type_categories');
+	// Every profile needs a cluster tag for the field it's filed under, or it lands in
+	// "More" on its type hub card and "Other …" on the category page.
+	const clusterField = getMissingClusterField(data.type, String(data.person ?? ''));
+	if (clusterField) blockers.push(`missing_cluster_tag:${clusterField}`);
 	if (
 		typeof data.description !== 'string' ||
 		data.description.length < 120 ||

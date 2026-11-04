@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 4
-type: ['musician']
+type: ['musician', 'pop-star']
 person: 'lady-gaga'
 suggestions: ['Doechii', 'Taylor-Swift', 'Billie-Eilish', 'Lana-Del-Rey']
 wikipedia: 'https://en.wikipedia.org/wiki/Lady_Gaga'

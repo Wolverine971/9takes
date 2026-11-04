@@ -14,6 +14,7 @@ enneagram: '5'
 type:
   - historical
   - author
+  - novelist
 person: agatha-christie
 suggestions:
   - j.k.-rowling

@@ -13,6 +13,7 @@ published: true
 enneagram: '9'
 type:
   - politician
+  - royalty
 person: queen-elizabeth-ii
 suggestions:
   - princess-diana

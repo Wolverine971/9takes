@@ -20,6 +20,7 @@ type:
   - movieStar
   - newMovieStar
   - celebrity
+  - rising-star
 person: tom-rhys-harries
 suggestions:
   - tom-holland

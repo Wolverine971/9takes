@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '8'
-type: ['creator']
+type: ['creator', 'streamer']
 person: 'Duke-Dennis'
 suggestions: ['Kai-Cenat', 'IShowSpeed', 'Adin-Ross', 'Druski']
 wikipedia: 'https://en.wikipedia.org/wiki/Duke_Dennis'

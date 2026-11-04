@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '6'
-type: ['author']
+type: ['author', 'novelist']
 person: 'Rebecca-Yarros'
 suggestions: ['Sarah-J-Maas', 'Taylor-Swift', 'George-RR-Martin', 'JK-Rowling']
 wikipedia: 'https://en.wikipedia.org/wiki/Rebecca_Yarros'

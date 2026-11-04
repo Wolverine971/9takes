@@ -13,6 +13,7 @@ published: true
 enneagram: '5'
 type:
   - historical
+  - historical-scientist
 person: friedrich-nietzsche
 suggestions:
   - robert-oppenheimer

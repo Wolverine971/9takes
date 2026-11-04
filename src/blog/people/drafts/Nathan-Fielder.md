@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '6'
-type: ['comedian', 'creator']
+type: ['comedian', 'creator', 'sketch-comic']
 person: 'Nathan-Fielder'
 suggestions: ['Elizabeth-Holmes', 'Emma-Stone', 'Christopher-Nolan', 'Jack-Black']
 wikipedia: 'https://en.wikipedia.org/wiki/Nathan_Fielder'

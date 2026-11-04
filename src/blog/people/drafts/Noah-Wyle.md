@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 6
-type: ['movieStar', 'celebrity']
+type: ['movieStar', 'celebrity', 'screen-icon']
 person: 'noah-wyle'
 suggestions: ['Pedro-Pascal', 'Tom-Hanks', 'Keanu-Reeves', 'Steve-Jobs']
 wikipedia: 'https://en.wikipedia.org/wiki/Noah_Wyle'

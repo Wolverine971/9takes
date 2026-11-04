@@ -12,7 +12,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '5'
-type: ['comedian', 'celebrity']
+type: ['comedian', 'celebrity', 'stand-up']
 person: 'jerry-seinfeld'
 suggestions: ['Tina-Fey', 'Dave-Chappelle', 'Jon-Stewart', 'Stephen-Colbert']
 wikipedia: 'https://en.wikipedia.org/wiki/Jerry_Seinfeld'

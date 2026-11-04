@@ -1,5 +1,5 @@
 {
-	"lastUpdated": "2026-11-03T07:56:37Z",
+	"lastUpdated": "2026-11-04T08:13:41Z",
 	"stats": {
 		"totalUnpublished": 132,
 		"totalPublished": 391,
@@ -43,19 +43,6 @@
 			"personaTitle": null,
 			"addedToQueue": "2026-10-21",
 			"retryCount": 0
-		},
-		{
-			"name": "geoffrey-hinton",
-			"displayName": "Geoffrey Hinton",
-			"type": null,
-			"priority": 84,
-			"priorityReason": "Mark Rylance plays him in Artificial (Neon, wide Dec 25); Sep 17 Capitol Hill AI-risk warning; very deep first-person record (60 Minutes, Diary of a CEO, Nobel lecture). Frontier-builder niche.",
-			"estimatedTraffic": "medium",
-			"searchVolume": "medium",
-			"personaTitle": null,
-			"addedToQueue": "2026-10-26",
-			"retryCount": 0,
-			"strategicValue": "ai-founders-cluster"
 		},
 		{
 			"name": "chris-olah",
@@ -137,6 +124,28 @@
 		}
 	],
 	"completed": [
+		{
+			"name": "geoffrey-hinton",
+			"displayName": "Geoffrey Hinton",
+			"type": null,
+			"priority": 84,
+			"priorityReason": "Mark Rylance plays him in Artificial (Neon, wide Dec 25); Sep 17 Capitol Hill AI-risk warning; very deep first-person record (60 Minutes, Diary of a CEO, Nobel lecture). Frontier-builder niche.",
+			"estimatedTraffic": "medium",
+			"searchVolume": "medium",
+			"personaTitle": null,
+			"addedToQueue": "2026-10-26",
+			"retryCount": 0,
+			"strategicValue": "ai-founders-cluster",
+			"startedAt": "2026-11-04T07:00:00Z",
+			"completedAt": "2026-11-04T08:13:41Z",
+			"contentGrade": "8.5",
+			"letter": "B+",
+			"discoverability": "8.5",
+			"duration": "~73 min",
+			"needsReview": true,
+			"publishReady": false,
+			"publishBlockers": ["missing_full_image", "missing_thumbnail_image"]
+		},
 		{
 			"name": "tom-rhys-harries",
 			"displayName": "Tom Rhys Harries",

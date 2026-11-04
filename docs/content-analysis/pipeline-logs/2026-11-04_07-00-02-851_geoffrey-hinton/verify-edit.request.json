@@ -1,0 +1,27 @@
+{
+  "schema_version": 3,
+  "subject": "geoffrey-hinton",
+  "mode": "create",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_verify_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-04_07-00-02-851_geoffrey-hinton/candidate-edit.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-04_07-00-02-851_geoffrey-hinton/evidence-edit.json",
+    "resolution": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-04_07-00-02-851_geoffrey-hinton/resolution-edit.json",
+    "review-subject": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-04_07-00-02-851_geoffrey-hinton/review-subject.json",
+    "review-fan": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-04_07-00-02-851_geoffrey-hinton/review-fan.json",
+    "review-critic": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-04_07-00-02-851_geoffrey-hinton/review-critic.json",
+    "review-unfamiliar": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-04_07-00-02-851_geoffrey-hinton/review-unfamiliar.json",
+    "review-enneagram": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-04_07-00-02-851_geoffrey-hinton/review-enneagram.json",
+    "review-future": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-04_07-00-02-851_geoffrey-hinton/review-future.json",
+    "baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-04_07-00-02-851_geoffrey-hinton/baseline-reader.md",
+    "checks": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-04_07-00-02-851_geoffrey-hinton/checks-edit.json"
+  },
+  "outputs": {
+    "verification-edit.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-04_07-00-02-851_geoffrey-hinton/verification-edit.json"
+  },
+  "content_sha256": "1df8e9f341b77b6c2a7970b8554fc4106fa1a682af83b4b888def11841ec163d",
+  "evidence_sha256": "ac2d1710657b2f0f93ae1282f1f01c48360d8fc64eaa626bc4153790bbefb468"
+}

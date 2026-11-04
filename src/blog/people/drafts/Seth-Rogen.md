@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 9
-type: ['comedian']
+type: ['comedian', 'sketch-comic']
 person: 'seth-rogen'
 suggestions: ['Jack-Black', 'Kevin-Hart', 'Keanu-Reeves', 'Theo-Von']
 wikipedia: 'https://en.wikipedia.org/wiki/Seth_Rogen'

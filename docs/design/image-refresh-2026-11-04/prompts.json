@@ -1,0 +1,61 @@
+{
+	"date": "2026-11-04",
+	"replacements": [
+		{
+			"key": "team",
+			"slug": "greek-statues-different-perspectives-v2",
+			"original": "people-from-diverse-backgrounds",
+			"post": "src/blog/enneagram/enneagram-team-diversity.md",
+			"alt": "Three weathered marble statues proposing, examining and listening around a shared plan.",
+			"mode": "built-in image_gen",
+			"prompt": "Use case: photorealistic-natural. Create a new editorial hero photograph for 9takes, landscape 3:2, for the article \"Why Your Team Keeps Having the Same Ideas\". Scene: three life-sized ancient Greek marble statues, two women and one man with distinct carved faces, sitting around one battered stone worktable in an austere shadowy workshop. They are actively approaching the same problem differently: one leaning forward to propose a change with a relaxed open hand, one looking carefully at an unmarked paper plan spread on the table, one sitting back thoughtfully listening. Capture a candid paused moment of productive disagreement, not a posed group portrait. Medium close composition, waist-up, figures and the common task readable at thumbnail size, simple separated silhouettes, few props. All bodies, hair, eyes and draped clothes are physically carved weathered marble: irregular pitting, tiny edge chips, ingrained dark grime, abrasion, slight mineral mottling, believable weight. Visual direction from the user's preferred gritty Greek statue face and statue-reading photographs: tactile old stone, quiet realism, deep charcoal shadows, chalk grey highlights, only a faint warm reflected light from one side. One believable raking window light; background falls into soft shadow. Natural photographic tonal range, restrained fine film grain. Faces are blank carved stone eyes, not living people painted grey. No blue ink, no illustration, no shiny polished figurines, no plastic, no metallic sheen, no neon, no colored glow, no fantasy sky, no decorative symbols, no floating objects, no excessive grunge overlay, no typography, no logos, no watermark. Keep complete heads and working hands inside the central 80% so the scene crops cleanly to 16:9. The action and stone texture must carry the image.",
+			"source": "/Users/djwayne/.codex/generated_images/01a1a7f7-dcca-7dd3-bef4-475561664f34/exec-85226371-7797-41e0-9e75-1a25330a9f3f.png",
+			"deliverySlug": "people-from-diverse-backgrounds",
+			"master": "source-assets/blogs/greek-statues-different-perspectives-v2.png",
+			"archivedOriginal": "docs/design/image-refresh-2026-11-04/originals/people-from-diverse-backgrounds.webp",
+			"archivedThumbnail": "docs/design/image-refresh-2026-11-04/originals/s-people-from-diverse-backgrounds.webp"
+		},
+		{
+			"key": "careers",
+			"slug": "greek-statues-career-working-conditions-v2",
+			"original": "female-greek-statues-of-different-professions",
+			"post": "src/blog/enneagram/enneagram-types-and-career-choices.md",
+			"alt": "Marble statues showing independent ledger work and a client conversation within the same profession.",
+			"mode": "built-in image_gen",
+			"prompt": "Use case: photorealistic-natural. Create a new 3:2 landscape editorial photograph for 9takes article \"Enneagram Careers: Find the Working Conditions That Fit You\". Show an unposed moment in a simple old stone accounting workshop: at one end a seated female ancient Greek marble statue quietly studies an open ledger, absorbed in independent work; at the other end a different female Greek marble statue is leaning toward a seated client statue, listening as the client points at a single paper. All three are unmistakably sculptures, physically carved in aged grey marble, including their eyes, hair, bodies and simple draped clothing. This visual contrasts independent work with client-facing work within the same profession. One continuous believable space and photo, no split panel. Medium-wide eye-level framing, 3 figures only, main heads and hands safely inside central 80% for 16:9 cropping, ledgers have no readable writing. Rough plain wood tables, just two ledgers and one sheet, dark stone walls receding softly. Use a restrained gritty documentary photograph of real antiquities, natural asymmetric composition. Strong material credibility: stone pores, worn chisel marks, chipped drapery edges, uneven weathering, ingrained grey dust, unpolished dry matte surfaces. Charcoal shadows, chalk and ash greys, a little muted warm window light, barely any other color. One large side window source with natural shadow falloff. Different stone faces, no painted eyes. Avoid glossy CGI, polished mannequins, modern job costumes, microphones, stethoscopes, UI glyphs, graphs, floating symbols, magical beams, neon, colored gels, sepia illustration, oversaturated gold. No text, logos or watermark. Prioritize a clear meaningful action and tactile stone.",
+			"source": "/Users/djwayne/.codex/generated_images/01a1a7f7-dcca-7dd3-bef4-475561664f34/exec-7e0e3141-0ff9-4992-942a-cf0d6cb2811b.png",
+			"deliverySlug": "female-greek-statues-of-different-professions",
+			"master": "source-assets/blogs/greek-statues-career-working-conditions-v2.png",
+			"archivedOriginal": "docs/design/image-refresh-2026-11-04/originals/female-greek-statues-of-different-professions.webp",
+			"archivedThumbnail": "docs/design/image-refresh-2026-11-04/originals/s-female-greek-statues-of-different-professions.webp"
+		},
+		{
+			"key": "coaching",
+			"slug": "greek-statue-practicing-imperfect-action-v2",
+			"original": "greek-statue-giving-a-speech",
+			"post": "src/blog/enneagram/enneagram-coach-toolkit.md",
+			"alt": "A weathered marble statue pauses before straightening a crooked stack of blocks.",
+			"mode": "built-in image_gen",
+			"prompt": "Use case: photorealistic-natural. Generate a new landscape 3:2 editorial photograph for 9takes, accompanying \"Why Your Enneagram Clients Aren't Changing (And the Homework That Actually Works)\". Visualize a tiny real behavioral practice: a weathered ancient Greek marble woman seated alone at a stone desk has noticed a crooked stack of three plain wooden blocks. Her carved stone hand pauses a few inches above the askew top block, deliberately choosing not to straighten it. Her other hand rests beside a small closed, worn notebook: moving from theory to practice. Her head tilts down, expression quiet and attentive. Hand is empty, fingers naturally relaxed and separated, five fingers; no gesture toward camera. A simple clear image: one statue, one paused hand, three imperfectly stacked blocks, one closed notebook. Medium-close 3/4 framing at desk height, see face, paused hand and blocks together, background dark unfussy stone wall, all important parts in central 80% for landscape crop. This is a photograph of a real heavy Greek sculpture, not a living person. Entire woman is dry matte aged marble including drapery, carved hair and unpainted blank stone eyes. Fine irregular pitting, tiny chips, rubbed edges, embedded charcoal dust, chisel traces and subtle mineral variation. Direction matches a gritty close photograph of an old Greek statue face: predominantly ash grey and charcoal, a small amount of muted warm reflected daylight; strong side light rakes the stone, believable rich shadows, natural photographic depth, slightly imperfect fine film grain. The blocks are old dark unpainted wood. No glowing objects, decorative symbolism, floating particles, gold cracks, neon, colored light, shiny CGI, plastic, porcelain, heavy dirt overlay, dramatic smoke, text, letters, numbers, logos or watermark. Thoughtful, grounded and human through posture rather than cartoon expression.",
+			"source": "/Users/djwayne/.codex/generated_images/01a1a7f7-dcca-7dd3-bef4-475561664f34/exec-6bc9f379-4664-49f9-8317-632cd6c9d1be.png",
+			"deliverySlug": "greek-statue-giving-a-speech",
+			"master": "source-assets/blogs/greek-statue-practicing-imperfect-action-v2.png",
+			"archivedOriginal": "docs/design/image-refresh-2026-11-04/originals/greek-statue-giving-a-speech.webp",
+			"archivedThumbnail": "docs/design/image-refresh-2026-11-04/originals/s-greek-statue-giving-a-speech.webp"
+		},
+		{
+			"key": "instincts",
+			"slug": "greek-statues-three-instincts-v2",
+			"original": "neoclassical-fortress2",
+			"post": "src/blog/enneagram/enneagram-instinctual-subtypes.md",
+			"alt": "Statues attend to personal resources, a wider group and a close conversation in one courtyard.",
+			"mode": "built-in image_gen",
+			"prompt": "Use case: photorealistic-natural. Create a new 3:2 landscape editorial photograph for 9takes article \"Enneagram Instinctual Subtypes: Why You Don't Fully Match Your Type\". An actual sculpture tableau in one dim austere Greek stone courtyard, showing three different directions of attention in the same place. Left foreground: one seated weathered marble statue looks down and securely cups a simple earthenware bowl in both hands, caring for personal resources. Middle: one standing marble statue turns its head and shoulders toward a small distant gathering of TWO softly out-of-focus marble statues in the background, attentive to belonging in the group. Right foreground: two seated marble statues lean slightly toward each other in quiet concentrated conversation, clearly focused on one another. Six figures total, three clearly separated readable zones, one continuous scene with depth, NOT panels or a collage. The three main subjects have comparable scale; practical care, community awareness and close connection are conveyed only through posture, gaze and one bowl, not labels. Main actions in central 80% with uncluttered separation, photograph at eye level, ordinary stone bench and rough courtyard wall, no grand palace. All subjects are ancient Greek sculptures, entire bodies, simple drapery, hair and blank carved eyes made of dry weathered grey marble. Authentic irregular pores, worn chisel marks, small chips, chalky grey highlights, soot caught in recesses, subtle natural patina. Dramatic but believable single side daylight rakes stone, most of background charcoal grey, faint warm reflection only. Rough tactile antique sculpture photographed candidly on fine-grained film. Avoid slick CGI, smooth plastic, metallic shine, decorative glowing lines, golden cracks, purple or blue light, neon, saturated colors, fantasy architecture, pedestal lineup, identical cloned faces, symbols, graphs, labels, text, logos and watermark. Make attention and human behavior the story, and the stone convincingly physical.",
+			"source": "/Users/djwayne/.codex/generated_images/01a1a7f7-dcca-7dd3-bef4-475561664f34/exec-10b45aae-4e63-4046-9bd4-496ccb415e81.png",
+			"deliverySlug": "neoclassical-fortress2",
+			"master": "source-assets/blogs/greek-statues-three-instincts-v2.png",
+			"archivedOriginal": "docs/design/image-refresh-2026-11-04/originals/neoclassical-fortress2.webp",
+			"archivedThumbnail": "docs/design/image-refresh-2026-11-04/originals/s-neoclassical-fortress2.webp"
+		}
+	]
+}

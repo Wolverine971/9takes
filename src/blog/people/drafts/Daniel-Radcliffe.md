@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '6'
-type: ['movieStar', 'celebrity']
+type: ['movieStar', 'celebrity', 'screen-icon']
 person: 'Daniel-Radcliffe'
 suggestions: ['Emma-Watson', 'J.K.-Rowling', 'Jennifer-Lawrence', 'Pedro-Pascal']
 wikipedia: 'https://en.wikipedia.org/wiki/Daniel_Radcliffe'

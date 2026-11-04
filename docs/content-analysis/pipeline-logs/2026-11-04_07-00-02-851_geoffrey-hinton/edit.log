@@ -1,0 +1,31 @@
+Warning: this sign-in ends between 2026-11-05 and 2026-11-08 (in 1 day at the earliest). Renewing it does not move those dates. Run claude auth login before then, or use claude setup-token for unattended jobs.
+I've finished the edit stage for the Geoffrey Hinton profile. The three output files are written to the run folder. No inputs, live drafts or other repo files were changed, and nothing was published.
+
+- `edit.md`: the revised article, still marked unpublished. It's 4,282 words (the limit is 4,500). The article's built-in draft checks report no blockers.
+- `evidence-edit.json`: 25 sources and 114 claims. It passes the evidence check, and every claim's quoted passage matches the edited text exactly.
+- `resolution-edit.json`: a decision for each of the 42 reviewer findings, all marked fixed. It covers all 16 passages reviewers asked to keep: 15 are unchanged and 1 has a small change. No blockers were inherited from earlier stages.
+
+**What changed for readers**
+- **The opening no longer guesses at his motive.** The Times story drew partly on his own remark that he wouldn't criticize Google until he'd left. So the article now says his tweet narrowed that framing, and names goodwill toward Google as the plain explanation. "Costliest choices" became "most telling choices", since several of them cost him little.
+- **A strong counterexample is now in the article.** The critic reviewer pointed out that Hinton stayed silent for ten years at Google, including when Timnit Gebru was pushed out. I added Margaret Mitchell's criticism and Hinton's reply on CNN ("it's easier to voice concerns if you leave the company first"). The thesis is narrowed to fit: he doesn't chase every wrong, but he won't let go of the ones his own standard picks out.
+- **The Type 1 vs Type 5 argument is rebuilt.**
+  - The case no longer leans on his use of the word "should".
+  - It now rests on how he talks about conduct ("feels wrong", "duty", promises torn up "when it becomes inconvenient"), and it admits his anger in his own words is mild.
+  - Type 3, the contrarian form of Type 6, and Type 8 each get a short, sourced explanation of why they rank lower.
+- **Factual and fairness fixes:**
+  - Backpropagation is now credited as his own co-authored 1986 work.
+  - The section on his late second wife's cancer treatment now includes the New Yorker's context for her choices and drops the comparison that made her look irrational.
+  - The OpenAI board's stated reason for firing Altman, and the later investigation's finding, are added.
+  - What OpenAI actually did after his December 2024 objection (May and October 2025) is added, with dates.
+- **Time-sensitive lines are fixed.** "He is back in the news" and the paragraph about him changing his mind are gone. Changing facts are now dated.
+
+**Things the verifier should know**
+- **One reviewer-protected line was reworded.** It now reads "It does not explain the heat, low as it usually runs." The critic and Enneagram reviewers showed the anger evidence was overstated. The verifier has to agree that the line keeps its point.
+- **The CNN transcript text is slightly off.** It renders Hinton's correction of Tapper's mistake about Gebru's gender as "Tim is actually a woman." I quoted only the two sentences after it, and listed checking the original video as an optional follow-up task.
+- **I opened four new sources:**
+  - [CNN transcript, May 2, 2023](https://transcripts.cnn.com/show/cg/date/2023-05-02/segment/01)
+  - [AP via Fortune, May 3, 2023](https://fortune.com/2023/05/03/ai-scientists-dire-warnings-mixed-opinions/)
+  - [Reuters via CNN, May 5, 2025](https://krdo.com/news/2025/05/05/openai-to-remain-under-non-profit-control-in-change-of-restructuring-plans/)
+  - [AP via Global News, October 28, 2025](https://globalnews.ca/news/11498213/openai-chatgpt-for-profit-business-structure)
+
+The Altman details came from the already-listed [Wikipedia page](https://en.wikipedia.org/wiki/Removal_of_Sam_Altman_from_OpenAI). Copies of the new pages and my scripts are in `/tmp/hinton-edit-src` and `/tmp/hinton-edit-scripts`.

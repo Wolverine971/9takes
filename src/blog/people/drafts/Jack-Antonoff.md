@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '6'
-type: ['musician', 'celebrity']
+type: ['musician', 'celebrity', 'singer-songwriter']
 person: 'Jack-Antonoff'
 suggestions: ['Taylor-Swift', 'Lana-Del-Rey', 'Sabrina-Carpenter', 'Gracie-Abrams', 'Margaret-Qualley']
 wikipedia: 'https://en.wikipedia.org/wiki/Jack_Antonoff'

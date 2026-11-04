@@ -1,0 +1,86 @@
+{
+  "schema_version": 3,
+  "role": "enneagram",
+  "content_sha256": "075bac3dc0585036efa6ca42b95098dcd7257cab63d808c1716de04f0d538d1f",
+  "evidence_sha256": "56efc02bcde20493f4f9c341d5bc256ff4b4576fa6e53e7f9827c58be1e31e4f",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "enneagram-01",
+      "severity": "major",
+      "passage": "That could describe any stubborn genius. What makes it look like a One is the shape of the rightness. It has a \"should\" in it.",
+      "problem": "The section's One-specific evidence is a play on the word 'should' across three different senses. 'This should not work' (Bengio's paraphrase of a review comment, C43) is an epistemic prediction, not a moral standard. 'It should be true. If I was God, I'd make it true' is an aesthetic preference about how nature works, which reads at least as much like a Five's love of an elegant model (or a Four's taste) as like a One's standard of conduct. The section then shows him dropping the beautiful algorithm for the one that 'just works better', and treats that as a One trait ('it gives way to results'). Yielding the ideal to what works is what the Five reading predicts. As written, the paragraph turns the strongest Five evidence into One evidence with a pun.",
+      "acceptance_test": "Each item in this section that is offered as One-specific concerns how people or things ought to behave (a normative standard), not an expectation about results or a taste in theories. Otherwise it is labeled non-discriminating. The backprop concession is presented as evidence that fits the Five reading at least as well, or is weighed openly. No sentence says the word 'should' itself marks a One."
+    },
+    {
+      "id": "enneagram-02",
+      "severity": "major",
+      "passage": "The science that changed the world, by his own account, ran mostly on should.",
+      "problem": "His own account says he had to 'force' himself, that 'because of the family, I had to succeed', and that science was 'mostly anxiety'. That is an external, inherited achievement pressure, and the evidence record (C03) says it fits Type 3 or 6 as well as 1. 'By his own account' attributes the article's key word to him when he never used it. It also contradicts the later Six rebuttal, which argues that Hinton's standard 'comes from inside'. The childhood section admits 'None of this proves a type', then ends on a line that quietly scores it for One.",
+      "acceptance_test": "The closing line reports what he actually said (pressure, forcing himself, anxiety) without attributing 'should' to him. If the article keeps a type point here, it says the father's bar is an outside demand, and that it fits 1, 3 and 6 alike. The section never implies this evidence favors One over the 3 or 6 rivals."
+    },
+    {
+      "id": "enneagram-03",
+      "severity": "major",
+      "passage": "The Five's characteristic move is to understand it and conserve himself, staying out of the fray.",
+      "problem": "The discriminator rests on a caricatured Five. Plenty of Fives are combative public contrarians who correct errors in print. The draft's own suggestions list includes noam-chomsky. The discriminator list also mixes items both types predict with the ones that could actually separate them. Correcting a reporter's framing is factual precision, the same move the evidence record calls non-discriminating for 'confabulate' (C09). Keeping a promise is admitted to be type-neutral ('Plenty of principled people of every type keep promises'). A Five who has modeled a catastrophic risk would also advocate. Six items are presented as equal weight when most are not. The same stereotype is repeated in the FAQ ('A Five tends to understand the error and conserve himself').",
+      "acceptance_test": "The Why not Type 5 section and the FAQ describe the Five fairly: a Five can speak out and correct the record, but does it from the authority of the model, not from felt wrongness about conduct. Then name the narrower observation that separates the two types: moral language about how people behave ('it just feels wrong to me', promises torn up 'when it becomes inconvenient'), anger at other people's carelessness, and accepting costs to act on it. Items both types predict (the Times correction as accuracy, keeping a promise) are explicitly ranked as supporting, not discriminating."
+    },
+    {
+      "id": "enneagram-04",
+      "severity": "major",
+      "passage": "This rests on one reporter's visit, and an engineer's precision about a building is not unusual. The tell is not the notes. It is the anger that outlives the mistake.",
+      "problem": "The draft names anger as the discriminator ('It does not explain the heat'), but the main evidence for that anger is Rothman's verb ('still enrage him'), not anything Hinton says. The body-triad paragraph pads the heat list with an item that is not anger at all ('a rightness that feels to him less like belief than plain sight'). In his own words, Hinton's indignation is mild: 'unfortunate', 'ridiculous', 'just crazy', 'very annoying'. The thesis needs its anger evidence stated at its true strength. That is especially true because the One's anger is usually repressed and leaks out as irritation, which is arguably what the record shows.",
+      "acceptance_test": "'Enrage' is attributed to Rothman as his characterization. The certainty item is removed from the triad paragraph's list of anger signals. The article either adds first-person evidence of irritation at error (e.g. 'very annoying' about his own programming mistakes, 'ridiculous'/'crazy' about the water injustice) or says plainly that the anger in his own voice is low-key, and explains why that still fits a One better than a Five."
+    },
+    {
+      "id": "enneagram-05",
+      "severity": "minor",
+      "passage": "That is a man managing how he looks to buyers, a point for image (Type 3), not for Type 1.",
+      "problem": "The draft builds a Type 3 case piecemeal ('successful academic or a failure', 'enormous relief that I've succeeded', hiding his frailty from bidders, the father who 'set the bar out of reach'). Then it never weighs the case: Three does not appear in the type answer or the alternatives section. The draft already holds a good One-vs-Three discriminator and doesn't use it. Its own hook shows him giving up the more flattering whistleblower story to correct the record.",
+      "acceptance_test": "The alternatives section includes a sentence or two that weighs Type 3. It names the observation that separates 3 from 1 (for example, the same-day correction that cost him a flattering narrative), and the auction concealment stays as admitted counterevidence."
+    },
+    {
+      "id": "enneagram-06",
+      "severity": "minor",
+      "passage": "But a Six tends to test certainty against allies and authorities. Hinton's comes from inside (\"I'm very good at ignoring what other people say\"),",
+      "problem": "This rebuts only the phobic, ally-seeking Six. The Six evidence the draft itself presents is mostly counterphobic: the lone unbeliever at school, 'I hate faiths of all kinds', 'Snowden is my hero', science as 'mostly anxiety', three banks against a cyberattack. Ignoring consensus is exactly what a counterphobic Six claims too, so the quoted line does not discriminate.",
+      "acceptance_test": "The Six paragraph names the counterphobic variant and gives a discriminator that the record supports. One example: his contrarianism follows evidence rather than opposing authority, since he defended Google, declined the pause petition, then reversed when his timelines changed."
+    },
+    {
+      "id": "enneagram-07",
+      "severity": "minor",
+      "passage": "Eights let it out, Nines go numb to it, and Ones convert it into correction:",
+      "problem": "Framing the type through the anger triad invites the reader to ask about Eight. The draft supplies Eight-flavored evidence (open defiance of authority, 'proud' that a student 'fired Sam Altman', 'I'm very good at ignoring what other people say', 'ego fortissimo') but never says why the anger reads as One rather than Eight. The similarity advisory flagged this paragraph against aaron-pierre (0.224) and daniela-amodei (0.132). On comparison, the overlap is ordinary triad vocabulary ('types organized around'), not a reused argument, so it is not a finding on its own.",
+      "acceptance_test": "One sentence near the triad paragraph or in the alternatives section says why Eight doesn't fit. For example: he leaves institutions rather than taking control of them, his corrections defend accuracy and others rather than his own power, and he is self-deprecating rather than dominant."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "The same day, he used it to correct the paper.",
+      "reason": "Sourced, specific hook that is also the article's best behavioral evidence: he traded a flattering story for an accurate one."
+    },
+    {
+      "passage": "Even his tenderness gets an edit.",
+      "reason": "Distinctive, humane observation tied to his own words ('I should've just moved the microwave upstairs'). It shows the corrective reflex outside work without caricature."
+    },
+    {
+      "passage": "The Type 1 reading predicts a grim, self-critical man. The people who worked with him describe someone else.",
+      "reason": "Honest counterevidence section with named testimony. It lets the person exceed the type, which is exactly what the standard asks for."
+    },
+    {
+      "passage": "Duty without guilt is a real pattern, but it is not the self-punishing One of the textbooks.",
+      "reason": "Precise, non-stereotyped concession that keeps the One claim honest about its weakest point (the absent inner critic)."
+    },
+    {
+      "passage": "It is for the next person who looks, to everyone else in the room, the way he did for decades: wrong, and sure of it.",
+      "reason": "Earned ending. It ties the Sejnowski prize back to the opening pattern without restating the thesis."
+    }
+  ],
+  "assessment": "Type 1 at medium confidence is defensible, and the draft does the hard part well. It names Five as the obvious read, keeps the type answer at 59 words, avoids a speculative wing, and devotes a full section to what One fails to explain (joy, playfulness, no guilt, 'Non, Je Ne Regrette Rien'). The weakness is the discriminator. The case for One leans on items both types predict (correcting the record, keeping promises, precise wording), a pun on 'should' that covers predictions and aesthetic taste, and an anger signal that rests mainly on a reporter's verb. Against that it sets a stay-out-of-the-fray Five that public-intellectual Fives don't fit. The evidence that actually separates One from Five is narrower and still real: felt wrongness about conduct ('it just feels wrong to me', 'when it becomes inconvenient'), irritation at other people's carelessness, and accepting costs to act on a 'should' about behavior. The edit should rank that core first and demote the rest to supporting. Three and counterphobic Six are each raised but not adjudicated, and Eight goes unmentioned after the anger-triad framing. Each needs a sentence, not a section. Contested typing and sensitive-material risks remain; I am not raising historical uncertainty or a thesis change. Similarity advisory: both tripped pairs share ordinary triad vocabulary only, and no argument is reused."
+}

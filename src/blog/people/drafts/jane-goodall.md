@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '9'
-type: ['activist', 'historical', 'author']
+type: ['activist', 'historical', 'author', 'historical-scientist']
 person: 'jane-goodall'
 suggestions: ['Greta-Thunberg', 'Mr-Rogers', 'Princess-Diana', 'Jimmy-Carter']
 wikipedia: 'https://en.wikipedia.org/wiki/Jane_Goodall'

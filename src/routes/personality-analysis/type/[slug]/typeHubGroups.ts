@@ -2,10 +2,10 @@
 import {
 	PERSONALITY_CATEGORY_DEFINITIONS,
 	PERSONALITY_CATEGORY_SLUGS,
-	getPersonalityCategorySlugs,
 	normalizePeopleTypes,
 	type PersonalityCategorySlug
 } from '$lib/personalityCategories';
+import { getClusterLaneShortLabel, getPrimaryField } from '$lib/personClusterTags.js';
 import {
 	getPersonalityCategoryGroups,
 	type PersonalityCategoryPerson
@@ -33,9 +33,6 @@ export type TypeHubGroup<T> = {
 	lanes: TypeHubLane<T>[];
 };
 
-// Specific occupations take precedence over broad celebrity/historical tags.
-// Within those tiers, the authored tag order determines a crossover's home.
-const BROAD_TYPES = new Set(['celebrity', 'historical']);
 const GROUP_DEFINITIONS: Array<{ slug: string; label: string; accent: string | null }> = [
 	...PERSONALITY_CATEGORY_DEFINITIONS.map(({ slug, label, accent }) => ({ slug, label, accent })),
 	{ slug: 'athletes', label: 'Athletes & Sports', accent: '#fb923c' },
@@ -51,62 +48,11 @@ const MIN_NAMED_LANES = 2;
 const MORE_LANE = { slug: 'more', label: 'More' };
 const SINGLE_LANE = { slug: 'all', label: '' };
 
-const LANE_SHORT_LABELS: Record<string, string> = {
-	'podcasters-interviewers': 'Podcasters',
-	'news-commentary': 'News & commentary',
-	'business-self-improvement': 'Business & self-help',
-	'streamers-live': 'Streamers',
-	'viral-entertainers': 'Viral entertainers',
-	'lifestyle-brand-builders': 'Lifestyle brands',
-	'tv-comedy-crossovers': 'TV & comedy crossovers',
-	'rising-stars-franchise-leads': 'Rising stars',
-	'screen-icons-leading-actors': 'Screen icons',
-	'celebrity-image-public-fascination': 'Celebrity image',
-	'pop-stars-hitmakers': 'Pop stars',
-	'rappers-genre-disruptors': 'Rappers',
-	'alternative-art-pop-voices': 'Alt & art-pop',
-	'singer-songwriters-roots': 'Singer-songwriters',
-	'crossovers-multi-hyphenates': 'Crossovers',
-	'modern-heads-of-state-world-leaders': 'World leaders',
-	'historical-leaders-power-holders': 'Historical leaders',
-	'activists-movement-leaders': 'Movement leaders',
-	'royalty-symbolic-public-duty': 'Royals',
-	'first-ladies-political-spouses': 'Political spouses',
-	'campaign-politicians-public-persuaders': 'Campaign politicians',
-	'historical-scientists-thinkers': 'Scientists & thinkers',
-	'historical-artists-writers': 'Artists & writers',
-	'big-tech-founders-ceos': 'Big Tech founders',
-	'investors-strategists-power-brokers': 'Investors',
-	'frontier-builders-ai-defense': 'AI & frontier builders',
-	'operators-business-builders': 'Operators',
-	'tech-media-interpreters': 'Tech interpreters',
-	'stand-up-headliners': 'Stand-up',
-	'sketch-tv-character-comics': 'Sketch & TV',
-	'satire-hosts-political-comedy': 'Satire hosts',
-	'internet-podcast-comics': 'Internet comics',
-	'novelists-world-builders': 'Novelists',
-	'strategy-psychology-writers': 'Strategy & psychology',
-	'business-media-interpreters': 'Business interpreters'
-};
-
-function typeKey(type: string): string {
-	return type.replace(/[^a-z0-9]/gi, '').toLowerCase();
-}
-
+// Specific occupations take precedence over broad celebrity/historical tags; within
+// those tiers the authored tag order decides a crossover's home. The blog pipeline's
+// cluster-tag check files people the same way (personClusterTags.js).
 function getGroupSlug(person: GroupablePerson): string {
-	const types = normalizePeopleTypes(person.type);
-	const orderedTypes = [
-		...types.filter((type) => !BROAD_TYPES.has(typeKey(type))),
-		...types.filter((type) => BROAD_TYPES.has(typeKey(type)))
-	];
-
-	for (const type of orderedTypes) {
-		if (typeKey(type) === 'athlete') return 'athletes';
-		const categorySlug = getPersonalityCategorySlugs([type], person.slug)[0];
-		if (categorySlug) return categorySlug;
-	}
-
-	return 'other';
+	return getPrimaryField(normalizePeopleTypes(person.type), person.slug);
 }
 
 function isCategorySlug(slug: string): slug is PersonalityCategorySlug {
@@ -161,7 +107,7 @@ export function buildLanes<T extends GroupablePerson>(
 	const firstIndex = (people: T[]) => fameIndex.get(people[0].slug) ?? 0;
 	const lanes = named
 		.sort(([, a], [, b]) => b.length - a.length || firstIndex(a) - firstIndex(b))
-		.map(([slug, people]) => ({ slug, label: LANE_SHORT_LABELS[slug] ?? slug, people }));
+		.map(([slug, people]) => ({ slug, label: getClusterLaneShortLabel(slug) ?? slug, people }));
 
 	const placed = new Set(lanes.flatMap((lane) => lane.people.map((person) => person.slug)));
 	const rest = crowd.filter((person) => !placed.has(person.slug));

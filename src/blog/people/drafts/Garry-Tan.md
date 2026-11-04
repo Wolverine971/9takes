@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 6
-type: ['techie']
+type: ['techie', 'investor']
 person: 'garry-tan'
 suggestions: ['Michael-Seibel', 'Dalton-Caldwell', 'Paul-Graham', 'Peter-Thiel', 'David-Sacks']
 wikipedia: 'https://en.wikipedia.org/wiki/Garry_Tan'

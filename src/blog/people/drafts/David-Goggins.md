@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '8'
-type: ['celebrity', 'author', 'athlete', 'celebrity-image']
+type: ['celebrity', 'author', 'athlete', 'celebrity-image', 'strategy-writer']
 person: 'david-goggins'
 suggestions: ['Jocko-Willink', 'Joe-Rogan', 'Andrew-Huberman', 'Tim-Ferriss']
 wikipedia: 'https://en.wikipedia.org/wiki/David_Goggins'

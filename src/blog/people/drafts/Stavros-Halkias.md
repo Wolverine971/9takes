@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
-type: ['comedian', 'creator']
+type: ['comedian', 'creator', 'internet-comic']
 person: 'stavros-halkias'
 suggestions: ['Shane-Gillis', 'Tim-Dillon', 'Theo-Von', 'Andrew-Schulz']
 wikipedia: 'https://en.wikipedia.org/wiki/Stavros_Halkias'

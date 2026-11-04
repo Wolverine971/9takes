@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 5
-type: ['comedian', 'movieStar', 'author']
+type: ['comedian', 'movieStar', 'author', 'stand-up']
 person: 'steve-martin'
 suggestions: ['steve-carell', 'robin-williams', 'conan-obrien', 'jerry-seinfeld']
 wikipedia: 'https://en.wikipedia.org/wiki/Steve_Martin'

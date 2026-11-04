@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
-type: ['musician']
+type: ['musician', 'pop-star']
 person: 'justin-bieber'
 suggestions: ['Hailey-Bieber', 'Selena-Gomez', 'Ariana-Grande', 'Drake', 'Benny-Blanco']
 wikipedia: 'https://en.wikipedia.org/wiki/Justin_Bieber'

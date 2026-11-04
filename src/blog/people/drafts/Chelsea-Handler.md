@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 8
-type: ['comedian']
+type: ['comedian', 'stand-up']
 person: 'chelsea-handler'
 suggestions: ['Amy-Poehler', 'Kevin-Hart', 'Shane-Gillis', 'Matt-Rife']
 wikipedia: 'https://en.wikipedia.org/wiki/Chelsea_Handler'

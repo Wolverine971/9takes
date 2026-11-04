@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '6'
-type: ['techie']
+type: ['techie', 'big-tech-founder']
 person: 'john-ternus'
 suggestions: ['Tim-Cook', 'Steve-Jobs', 'Satya-Nadella', 'Jack-Dorsey']
 wikipedia: 'https://en.wikipedia.org/wiki/John_Ternus'

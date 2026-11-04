@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 7
-type: ['musician']
+type: ['musician', 'rapper']
 person: 'kanye'
 suggestions: ['drake', 'travis-scott', 'kim-kardashian', 'jack-black']
 wikipedia: 'https://en.wikipedia.org/wiki/Kanye_West'

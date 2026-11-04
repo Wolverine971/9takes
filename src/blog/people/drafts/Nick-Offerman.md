@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '9'
-type: ['comedian', 'movieStar', 'author']
+type: ['comedian', 'movieStar', 'author', 'sketch-comic']
 person: 'Nick-Offerman'
 suggestions: ['Amy-Poehler', 'Aubrey-Plaza', 'Steve-Carell', 'Tom-Hanks']
 wikipedia: 'https://en.wikipedia.org/wiki/Nick_Offerman'

@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "fan",
+  "content_sha256": "075bac3dc0585036efa6ca42b95098dcd7257cab63d808c1716de04f0d538d1f",
+  "evidence_sha256": "56efc02bcde20493f4f9c341d5bc256ff4b4576fa6e53e7f9827c58be1e31e4f",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "fan-01",
+      "severity": "major",
+      "passage": "Backpropagation, the less elegant method, won.",
+      "problem": "Distorts the best-known fact of Hinton's career. Read cold, this sentence casts backprop as a rival's method that beat his, and casts him as a convert. The New Yorker (S01), in the same passage the draft quotes, says that \"Even as Hinton was working with Sejnowski on the Boltzmann Machine, he was also collaborating with Rumelhart and another computer scientist, Ronald Williams, on backprop,\" and that in 1986 the three \"published a three-page paper in Nature.\" MIT Technology Review (S03) calls backprop the technique \"which he proposed (with a pair of colleagues) in the 1980s.\" Informed readers know him as the co-author of the backprop paper. The 'standard gives way to results' argument survives, but as it stands it rests on a misleading picture: what changed was his preference between two of his own methods, not a surrender to someone else's.",
+      "acceptance_test": "The section states, citing S01 or S03, that Hinton co-authored the 1986 backprop paper with Rumelhart and Williams while he was also building the Boltzmann Machine. The 'gives way to results' point is reframed as his own preference shifting from the method he loved to the one of his own that worked. No sentence implies backprop belonged to someone else."
+    },
+    {
+      "id": "fan-02",
+      "severity": "major",
+      "passage": "The version he corrected was the more flattering one, the whistleblower walking out on a powerful company. He did not want credit for a story that was not quite true.",
+      "problem": "This is the hook and the first piece of thesis evidence (C10), and it leaves out context from the very article it cites. The NYT piece (S04) also reports that Hinton \"did not want to publicly criticize Google or other companies until he had quit his job.\" The Times framing therefore drew partly on his own remark. His tweet narrowed an implication (\"Cade Metz implies\") rather than refusing a false heroic story. \"He did not want credit\" is an imagined motive stated as fact. Loyalty to former colleagues, and keeping the conversation on AI risk rather than Google, are plausible alternatives the draft does not mention.",
+      "acceptance_test": "The hook acknowledges that the Times framing echoed something Hinton told the paper, quoting or paraphrasing the S04 line with attribution. The correction is presented as narrowing that framing in Google's defense. Any motive (\"did not want credit\") is either removed or marked as inference (\"suggests\"/\"reads as\"). C10 and C48 in the evidence record reflect the added context."
+    },
+    {
+      "id": "fan-03",
+      "severity": "minor",
+      "passage": "His father, Howard Everest Hinton, was an entomologist who set the bar out of reach.",
+      "problem": "Missing formative context any informed reader will look for. The New Yorker (S01) opens its family section with the lineage behind 'Because of the family': great-great-grandson of George Boole, the Everest connection (Hinton's own middle name is Everest), Charles Howard Hinton, and his cousin Joan Hinton of the Manhattan Project. It also reports that at Cambridge he \"was dismayed to find that he was never the brightest student in any given class,\" left briefly, and \"returned to attempt architecture, for about a day\" before settling on experimental psychology. Without the lineage, the father's taunt reads as personal eccentricity rather than a family standard. And the later 'happier as an architect' quote loses its sting: he actually tried architecture and quit within a day.",
+      "acceptance_test": "One or two sourced sentences (S01) place the father's standard inside the Boole/Everest/Hinton lineage. The woodwork passage notes that he tried architecture at Cambridge 'for about a day', and/or that he was never the brightest in any class. The section's length stays roughly the same, with no list of relatives beyond what the argument uses."
+    },
+    {
+      "id": "fan-04",
+      "severity": "minor",
+      "passage": "and fame, not just temperament, puts him in front of lawmakers.",
+      "problem": "The draft rightly concedes that most of its thesis evidence comes after the fame of 2023. But it omits the best-known principled choice from before he was famous. The NYT (S04) reports that he left Carnegie Mellon for Canada because \"he was reluctant to take Pentagon funding\" and that he \"is deeply opposed to the use of artificial intelligence on the battlefield — what he calls 'robot soldiers.'\" The evidence record (C12) shows his accounts of the 1987 move differ: Pentagon money (NYT), Rosalind loathing Reagan (New Yorker), Canadian society and basic-research funding (Global News 2019). That divergence is itself worth showing. As drafted, a fan notices the thesis 'he can't leave a wrong alone' skip the most-cited example of it. The draft's own weakness, that everything comes after fame, goes unanswered.",
+      "acceptance_test": "Either the 1987 move appears with all three of his accounts attributed and dated, and is not claimed as proof of motive, or the long-standing, pre-2023 opposition to battlefield AI (S04) is cited as dated evidence that the correction instinct predates fame. If neither is added, the editor records why this was excluded, rather than the omission being silent."
+    },
+    {
+      "id": "fan-05",
+      "severity": "minor",
+      "passage": "In 2023 he declined to sign a petition for a six-month pause in AI research (\"China's not going to stop developing it for six months,\" he told the New Yorker).",
+      "problem": "Incomplete account of a well-known episode. The NYT (S04) gives a different reason he gave at the time: he \"did not sign either of those letters and said he did not want to publicly criticize Google or other companies until he had quit his job.\" That reason is direct support for the draft's own C11 argument (no criticizing an employer while on its payroll), and the draft leaves it unused. As written, the refusal reads purely as a feasibility judgment, so the 'change of mind' arc in the paragraph is overstated.",
+      "acceptance_test": "The sentence gives both reasons, each attributed (New Yorker: China; NYT, May 2023: not criticizing Google until he had left). The 'changes his mind' arc still holds without suggesting his 2023 refusal was only about feasibility. Optionally, and only if it is sourced and added to the evidence record, it notes that he later signed the May 2023 statement on extinction risk."
+    },
+    {
+      "id": "fan-06",
+      "severity": "minor",
+      "passage": "The standard is a picture of how the world ought to work, and it gives way to results. Hinton built his reputation on the algorithm he found unsatisfying.",
+      "problem": "Misses the most revealing contradiction in the source material, one fans of the 2023 coverage know well. For forty years Hinton treated the brain as the better learner and artificial nets as a poor imitation. His safety turn came when he concluded that the 'unsatisfying' method might be better than the brain. MIT Technology Review (S03): \"For 40 years, Hinton has seen artificial neural networks as a poor attempt to mimic biological ones. Now he thinks that's changed\" and \"'It's scary when you see that,' he says. 'It's a sudden flip.'\" The draft has the pieces in separate sections (backprop here; the PaLM 'eureka' and digital sharing under 'Why not Type 5?') but never connects them. The connection matters to the type argument. The standard did not just yield to results; the results overturned it, and that is what frightened him.",
+      "acceptance_test": "One passage connects the backprop 'unsatisfying' quote to the 2023 'sudden flip', quoting S03 with the reporter's paraphrase marked as paraphrase. The 'Why not Type 5?' section either uses the connection or acknowledges that it cuts both ways: model-update for 5, an overturned 'should' for 1."
+    },
+    {
+      "id": "fan-07",
+      "severity": "minor",
+      "passage": "The inner critic is quieter than a One's usually is.",
+      "problem": "The section builds the 'duty without guilt' picture from the Piaf link and the 2025 'don't feel particularly guilty' line. It leaves out a self-reproach in a source the draft already uses. In the Nobel Week interview (S08, around 00:15:35; the evidence locator lists 'wish he'd worried sooner'), after describing the risk of being taken over, Hinton says: \"so I wish I'd thought about that sooner.\" That line matters to both sides. It is regret about his own timing on the safety question, which is exactly where a One's critic would aim. Leaving it out makes the counterevidence look cleaner than the record.",
+      "acceptance_test": "The section includes the Nobel Week 'I wish I'd thought about that sooner' line, with the wording rechecked against audio and the claim added to the evidence record. The conclusion is qualified to something like 'little guilt about the work, some regret about the timing'. 'Duty without guilt' is not left unqualified."
+    },
+    {
+      "id": "fan-08",
+      "severity": "minor",
+      "passage": "\"It's ridiculous at this time in a rich country like Canada,\" he said. \"That's just crazy.\"",
+      "problem": "The draft treats this as abstract moral heat ('a fixable injustice he calls \"just crazy\"' in the type section). In the same Nobel Week answer (S08, around 00:16:16 to 00:16:38), Hinton gives a personal reason straight away: \"I sort of sympathetic to this problem because I adopted a child in Peru and I was there for two months and you can't drink the tap water there.\" Leaving out his stated reason makes the donation look like pure principle, when he himself grounds it in lived experience and family. A reader who knows the interview would see the omission as convenient for the thesis.",
+      "acceptance_test": "The water-donation paragraph includes his stated Peru reason (audio-checked, added to the evidence record), and the type section's 'fixable injustice' phrasing still reads fairly alongside it. Or the editor explains why it was omitted."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "And just near the door there was a slightly smaller box that simply said, 'Not insects,' and that's where he had all the things about the family.",
+      "reason": "A verified, unforgettable detail (60 Minutes, S06) that does the work of a whole section. Fans will recognize it, and newcomers will remember it."
+    },
+    {
+      "passage": "Telling the story, he added: \"I should've just moved the microwave upstairs.\"",
+      "reason": "Faithful to the New Yorker (S01). A tender scene that reveals the corrective habit without any interpretive overreach."
+    },
+    {
+      "passage": "That is a man managing how he looks to buyers, a point for image (Type 3), not for Type 1.",
+      "reason": "Honest counterevidence placed beside the flattering backpack detail, and it keeps Metz's narration separate from Hinton's words. Do not cut this to tidy the thesis."
+    },
+    {
+      "passage": "Curiosity explains why he studied the brain for fifty years. It does not explain the heat.",
+      "reason": "The clearest statement of the discriminator in the piece, earned by the list of costly choices that comes before it."
+    },
+    {
+      "passage": "It is for the next person who looks, to everyone else in the room, the way he did for decades: wrong, and sure of it.",
+      "reason": "An ending that ties the Sejnowski prize back to the contrarian thread without moralizing. It is supported by his own 'crazy theories ... like we were' line."
+    }
+  ],
+  "assessment": "As an informed-reader proxy, I found this a well-sourced portrait that uses the canonical Hinton material (beetle boxes, room 731, the contractor notes, the Sejnowski pact) faithfully. Its counterevidence sections are unusually honest. Two framings would bother a reader who knows the record. (1) Backprop is presented as a method that defeated Hinton's preference, without saying he co-authored it. (2) The hook's 'did not want credit' motive leaves out the NYT line showing that the Times framing drew on his own remark. Both are cheap to fix and should be fixed before release. The minor findings are omissions of well-known formative context and revealing complications: the Boole/Everest lineage and the architecture-for-a-day episode; the pre-fame Pentagon-funding stance (whose motive accounts differ); the NYT reason for not signing the pause letter; the 2023 'sudden flip' that links the backprop thread to his fear; the 'wish I'd thought about that sooner' regret; and his stated Peru reason for the water donation. Several of these would strengthen the Type 1 case, not just complicate it. Missing orientation facts: the 2018 Turing Award with Bengio and LeCun, and LeCun's public disagreement on AI risk ('I'm not scared of A.I.', S02). These would help the 'Who is' FAQ and test 'I'm very good at ignoring what other people say' against his closest peers. Similarity advisory: the two trips (aaron-pierre 0.224, daniela-amodei 0.132) both match the triad clause 'the three types organized around anger', which is ordinary type vocabulary, not reused argument, so no finding. Risk flags carried forward: sensitive_allegations (son's disability, Rosalind's homeopathy decision, opinions about Altman) and contested_typing (5 is a live rival at medium confidence). Sources rechecked from the local research cache: S01 New Yorker text, S03 MIT TR, S04 NYT Wayback capture, S08 Nobel Week captions, S17 Global News. The 2026 NBC Congress quotes were not independently re-verified in this review."
+}

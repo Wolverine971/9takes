@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '2'
-type: ['musician', 'creator']
+type: ['musician', 'creator', 'music-crossover']
 person: 'Benny-Blanco'
 suggestions: ['Selena-Gomez', 'Ed-Sheeran', 'Justin-Bieber', 'Billie-Eilish']
 wikipedia: 'https://en.wikipedia.org/wiki/Benny_Blanco'

@@ -16,6 +16,7 @@ enneagram: '9'
 type:
   - movieStar
   - celebrity
+  - rising-star
 person: austin-abrams
 suggestions:
   - Brad-Pitt

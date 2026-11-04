@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '3'
-type: ['movieStar', 'musician']
+type: ['movieStar', 'musician', 'screen-icon']
 person: 'Hailee-Steinfeld'
 suggestions: ['Ariana-Grande', 'Millie-Bobby-Brown', 'Olivia-Rodrigo', 'Victoria-Justice']
 wikipedia: 'https://en.wikipedia.org/wiki/Hailee_Steinfeld'

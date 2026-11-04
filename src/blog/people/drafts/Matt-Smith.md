@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '7'
-type: ['movieStar', 'celebrity']
+type: ['movieStar', 'celebrity', 'screen-icon']
 person: 'Matt-Smith'
 suggestions: ['David-Tennant', 'Claire-Foy', 'Olivia-Cooke', 'Milly-Alcock', 'Benedict-Cumberbatch']
 wikipedia: 'https://en.wikipedia.org/wiki/Matt_Smith'

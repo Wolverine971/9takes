@@ -13,6 +13,7 @@ published: true
 enneagram: '4'
 type:
   - movieStar
+  - screen-icon
 person: nicole-kidman
 suggestions:
   - meryl-streep

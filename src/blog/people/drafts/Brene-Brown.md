@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '1'
-type: ['author', 'creator']
+type: ['author', 'creator', 'strategy-writer']
 person: 'brene-brown'
 suggestions: ['Tim-Ferriss', 'Gwyneth-Paltrow', 'Jordan-Peterson', 'Oprah-Winfrey']
 wikipedia: 'https://en.wikipedia.org/wiki/Bren%C3%A9_Brown'

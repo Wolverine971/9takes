@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '3'
-type: ['lifestyleInfluencer', 'influencer', 'model', 'actor']
+type: ['lifestyleInfluencer', 'influencer', 'model', 'actor', 'lifestyle-builder']
 person: 'Carina-Zavline'
 suggestions: ['Gigi-Hadid', 'Bella-Hadid', 'Kendall-Jenner', 'Emily-Ratajkowski']
 instagram: 'carina'

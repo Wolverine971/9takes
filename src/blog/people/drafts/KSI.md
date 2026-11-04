@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '3'
-type: ['creator', 'musician']
+type: ['creator', 'musician', 'viral-entertainer']
 person: 'KSI'
 suggestions: ['Logan-Paul', 'IShowSpeed', 'Jake-Paul', 'Mr-Beast']
 wikipedia: 'https://en.wikipedia.org/wiki/KSI'

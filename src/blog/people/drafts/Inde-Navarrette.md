@@ -19,6 +19,7 @@ enneagram: '6'
 type:
   - movieStar
   - celebrity
+  - rising-star
 person: inde-navarrette
 suggestions:
   - Timothee-Chalamet

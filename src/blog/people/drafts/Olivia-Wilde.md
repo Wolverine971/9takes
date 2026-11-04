@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '3'
-type: ['movieStar', 'director']
+type: ['movieStar', 'director', 'screen-icon']
 person: 'Olivia-Wilde'
 suggestions: ['Harry-Styles', 'Florence-Pugh', 'Greta-Gerwig', 'Shia-LaBeouf']
 wikipedia: 'https://en.wikipedia.org/wiki/Olivia_Wilde'

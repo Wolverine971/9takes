@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '7'
-type: ['comedian', 'movieStar']
+type: ['comedian', 'movieStar', 'sketch-comic']
 person: 'Jim-Carrey'
 suggestions: ['Robin-Williams', 'Adam-Sandler', 'Eddie-Murphy', 'Anthony-Bourdain']
 wikipedia: 'https://en.wikipedia.org/wiki/Jim_Carrey'

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 1
-type: ['author', 'activist', 'movement-leader']
+type: ['author', 'activist', 'movement-leader', 'business-interpreter']
 person: 'noam-chomsky'
 suggestions: ['Bernie-Sanders', 'Jordan-Peterson', 'Robert-Oppenheimer', 'Stephen-Hawking']
 wikipedia: 'https://en.wikipedia.org/wiki/Noam_Chomsky'

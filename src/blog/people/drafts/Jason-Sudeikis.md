@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '9'
-type: ['comedian', 'movieStar']
+type: ['comedian', 'movieStar', 'sketch-comic']
 person: 'Jason-Sudeikis'
 suggestions: ['Adam-Sandler', 'Amy-Poehler', 'Ryan-Reynolds', 'Steve-Carell']
 wikipedia: 'https://en.wikipedia.org/wiki/Jason_Sudeikis'

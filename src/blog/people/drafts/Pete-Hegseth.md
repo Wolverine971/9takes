@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
-type: ['politician']
+type: ['politician', 'campaign-politician']
 person: 'pete-hegseth'
 suggestions: ['Donald-Trump', 'JD-Vance', 'Jocko-Willink', 'Tucker-Carlson']
 wikipedia: 'https://en.wikipedia.org/wiki/Pete_Hegseth'

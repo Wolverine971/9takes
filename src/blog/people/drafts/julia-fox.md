@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '4'
-type: ['celebrity', 'movieStar']
+type: ['celebrity', 'movieStar', 'celebrity-image']
 person: 'julia-fox'
 suggestions: ['lana-del-rey', 'frida-kahlo', 'marilyn-monroe', 'charli-xcx']
 wikipedia: 'https://en.wikipedia.org/wiki/Julia_Fox'

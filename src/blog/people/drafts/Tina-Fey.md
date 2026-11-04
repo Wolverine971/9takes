@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
-type: ['comedian']
+type: ['comedian', 'sketch-comic']
 person: 'tina-fey'
 suggestions: ['Taylor-Swift', 'Mindy-Kaling', 'Tom-Cruise', 'Paris-Hilton']
 wikipedia: 'https://en.wikipedia.org/wiki/Tina_Fey'

@@ -8,6 +8,11 @@ import {
 	type PersonalityCategorySlug
 } from '$lib/personalityCategories';
 import { normalizePersonalitySlug } from '$lib/utils/personalityAnalysis';
+import { CLUSTER_FIELDS } from '$lib/personClusterTags.js';
+
+const CLUSTER_TAG_BY_LANE = new Map(
+	CLUSTER_FIELDS.flatMap(({ tags }) => tags.map(({ lane, tag }) => [lane, tag] as const))
+);
 
 export type PersonalityCategoryRow = Pick<
 	Database['public']['Tables']['blogs_famous_people']['Row'],
@@ -879,7 +884,14 @@ function buildCategoryGroups(
 	}
 
 	for (const person of people) {
-		const definition = definitions.find((candidate) => candidate.matches(person));
+		// An explicit cluster tag decides the lane. Broad fallbacks (movieStar,
+		// celebrity, politician...) only place people who have no tag for this field,
+		// so a 'celebrity-image' movie star isn't pulled into Screen Icons first.
+		const definition =
+			definitions.find((candidate) => {
+				const tag = CLUSTER_TAG_BY_LANE.get(candidate.slug);
+				return tag !== undefined && hasClusterTag(person, tag);
+			}) ?? definitions.find((candidate) => candidate.matches(person));
 
 		if (!definition) {
 			unassigned.push(person);

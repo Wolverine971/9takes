@@ -16,6 +16,7 @@ enneagram: '6'
 type:
   - movieStar
   - celebrity
+  - screen-icon
 person: paul-bettany
 suggestions:
   - tom-hanks

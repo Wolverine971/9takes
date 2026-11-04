@@ -1,0 +1,521 @@
+{
+	"method": "Human visual triage of contact sheets plus full-size inspection of the seven user references. Proposed scenes outside the four replacements use article titles and descriptions; verify article body before generation. Tiers are editorial judgments, not measured image quality or file age.",
+	"reviews": [
+		{
+			"id": 1,
+			"tier": "T2",
+			"reason": "Ornate casino-like setting and gilded surfaces distract from the Type 8 story.",
+			"concept": "Two worn statues studying a chess position; one accepts the other’s offered move."
+		},
+		{
+			"id": 3,
+			"tier": "T2",
+			"reason": "Quiet action works; pastel sky and smooth painted ruins soften the material.",
+			"concept": "Keep solitude by the water; replace the pastel setting with weathered stone and restrained daylight."
+		},
+		{
+			"id": 5,
+			"tier": "T1",
+			"reason": "Neon ribbons and a nine-panel collage dominate the human relationship.",
+			"concept": "Two statues on a bench: one reaches for closeness while the other turns away; leave a visible gap."
+		},
+		{
+			"id": 9,
+			"tier": "T1",
+			"reason": "Glowing bodies and reflective fantasy water replace a readable social situation.",
+			"concept": "Three statues at a gathering: one steps forward, one joins a task, one observes from the edge."
+		},
+		{
+			"id": 12,
+			"tier": "T2",
+			"reason": "Radial blur, blue cast and crowded action make the help being offered unclear.",
+			"concept": "One seated overwhelmed statue with one calm companion at eye level; simplify the setting."
+		},
+		{
+			"id": 13,
+			"tier": "T2",
+			"reason": "Glossy corporate boardroom and tiny crowd make the scene feel like stock CGI.",
+			"concept": "One leader listens while a colleague points out a problem on a shared plan."
+		},
+		{
+			"id": 14,
+			"tier": "T2",
+			"reason": "The classroom fits the title, but typography and an empty room carry the image.",
+			"concept": "A weathered adult statue at a small school desk examining its own reaction; no written labels."
+		},
+		{
+			"id": 15,
+			"tier": "T2",
+			"reason": "Generic blue-lit empty room has weak connection to the three behavioral concerns.",
+			"concept": "A lone statue sits amid a few everyday objects suggesting avoidance; select one opening anecdote first."
+		},
+		{
+			"id": 16,
+			"tier": "T1",
+			"reason": "Flying gold chain fragments make addiction recovery look like a fantasy poster.",
+			"concept": "A statue pauses before reaching for a familiar cup; a trusted companion waits nearby."
+		},
+		{
+			"id": 17,
+			"tier": "T1",
+			"reason": "Blue technical collage and scattered symbols conflict with the photographic references.",
+			"concept": "A statue notices that the doorway of its stone enclosure is already open."
+		},
+		{
+			"id": 19,
+			"tier": "T2",
+			"reason": "Gold-filled fractures are a familiar AI metaphor; there is no lived situation.",
+			"concept": "A braced statue gradually opens a guarded posture beside a patient companion; no broken-body shorthand."
+		},
+		{
+			"id": 29,
+			"tier": "T2",
+			"reason": "Street crowd has little visible connection to comparing personality frameworks.",
+			"concept": "A statue compares two different unlabelled maps of the same courtyard."
+		},
+		{
+			"id": 30,
+			"tier": "T1",
+			"reason": "Moss-covered duplicate heads, gold light and mirrored arrangement overwhelm the subject.",
+			"concept": "A worn statue sits beside an unfinished everyday task, with a companion available nearby."
+		},
+		{
+			"id": 32,
+			"tier": "T1",
+			"reason": "Floating neon question marks and electric blue lighting are far outside the references.",
+			"concept": "An inquisitive statue leans toward a seated teacher over one open book."
+		},
+		{
+			"id": 34,
+			"tier": "T2",
+			"reason": "Dating situation is useful, but the foreground figure reads as a living woman in costume.",
+			"concept": "Keep the listening posture; make both figures visibly carved and weathered marble."
+		},
+		{
+			"id": 35,
+			"tier": "T2",
+			"reason": "Useful reading action, but the smooth face and hair look like a porcelain figurine.",
+			"concept": "Keep the café reader; introduce believable stone wear, shadow and less polished surfaces."
+		},
+		{
+			"id": 36,
+			"tier": "T1",
+			"reason": "User-flagged. Job costumes, microphones and glowing diagrams misrepresent a post about working conditions.",
+			"concept": "Show solitary ledger work and client-facing work in the same profession."
+		},
+		{
+			"id": 37,
+			"tier": "T2",
+			"reason": "Red and cyan portrait lighting overwhelms the stone; two floating heads lack an action.",
+			"concept": "Two carved thinkers compare notes across a rough table."
+		},
+		{
+			"id": 38,
+			"tier": "T2",
+			"reason": "Stone and shadows work, but the fantasy wizard is a loose match for practical self-efficacy.",
+			"concept": "A statue completes a modest first task while a larger unfinished task waits nearby."
+		},
+		{
+			"id": 40,
+			"tier": "T1",
+			"reason": "Drafting lines and a heroic speech depict preaching, while the post argues for restraint.",
+			"concept": "A statue lowers its raised hand and listens to a companion instead of lecturing."
+		},
+		{
+			"id": 43,
+			"tier": "T2",
+			"reason": "Grand sunny garden tableau feels ornate; gestures are too small at thumbnail size.",
+			"concept": "Two statues: one offers practical help while the other invites a conversation."
+		},
+		{
+			"id": 44,
+			"tier": "T1",
+			"reason": "Luminous purple network ring and aerial crowd are abstract and synthetic.",
+			"concept": "Two statues fit different pieces into one shared structure, with a visible need to cooperate."
+		},
+		{
+			"id": 45,
+			"tier": "T2",
+			"reason": "Useful debate concept, but saturated blue background and posed council need grounding.",
+			"concept": "Three researchers inspect the same evidence with distinct reactions under neutral side light."
+		},
+		{
+			"id": 46,
+			"tier": "T2",
+			"reason": "Reading pose works; polished green surface and generic book are less distinctive.",
+			"concept": "Keep the reader; emphasize weathered grey stone and a moment of self-recognition."
+		},
+		{
+			"id": 47,
+			"tier": "T1",
+			"reason": "Blue drafting overlays and diagrammed bust repeat the old illustration language.",
+			"concept": "A statue studies its reflection while a second observer watches from another angle."
+		},
+		{
+			"id": 48,
+			"tier": "T1",
+			"reason": "Blue ink and graph-paper background are incompatible with physical stone photography.",
+			"concept": "A statue pauses before copying nearby identical gestures at a shared writing table."
+		},
+		{
+			"id": 49,
+			"tier": "T1",
+			"reason": "Theatrical split mask, artificial grin and colored gels sensationalize mental illness.",
+			"concept": "A worn statue quietly describes a difficult experience to an attentive companion."
+		},
+		{
+			"id": 50,
+			"tier": "T1",
+			"reason": "Floating icons and exploding head effects turn ADHD into decorative visual noise.",
+			"concept": "A statue tries to finish one task while several unfinished tasks compete on a small desk."
+		},
+		{
+			"id": 53,
+			"tier": "T1",
+			"reason": "Glowing butterflies, sci-fi setting and toy-like figures dominate the parenting topic.",
+			"concept": "A small child statue explores a simple object while a parent responds at the child’s height."
+		},
+		{
+			"id": 58,
+			"tier": "T1",
+			"reason": "Glowing tablet and fantasy blue/gold light make comparing tests look magical.",
+			"concept": "A statue compares two paper questionnaires beside one plain notebook, naturally lit."
+		},
+		{
+			"id": 59,
+			"tier": "T2",
+			"reason": "Human presence is clear but shattered-rock emergence and god rays feel like a fantasy poster.",
+			"concept": "A statue takes one small step out of a dark room with ordinary daylight beyond."
+		},
+		{
+			"id": 60,
+			"tier": "T2",
+			"reason": "Questioning posture works; luminous portals and saturated amber imply a magical answer.",
+			"concept": "A statue studies several plain doorways with worn thresholds and no glowing interiors."
+		},
+		{
+			"id": 61,
+			"tier": "T1",
+			"reason": "Electric cyan/red nightclub lighting overwhelms the boasting behavior.",
+			"concept": "One statue subtly displays a prize while a companion’s attention is elsewhere."
+		},
+		{
+			"id": 62,
+			"tier": "T1",
+			"reason": "User-flagged. Pale line drawing and speech scene miss the practical homework theme.",
+			"concept": "A statue practices noticing an imperfection without correcting it."
+		},
+		{
+			"id": 63,
+			"tier": "T2",
+			"reason": "Conflict is readable, but smooth decorative faces and bright blank background lack grit.",
+			"concept": "Keep the face-to-face disagreement; add physical stone wear and a grounded darker setting."
+		},
+		{
+			"id": 65,
+			"tier": "T2",
+			"reason": "Interesting enclosure metaphor; frame and hand detail need a closer production check.",
+			"concept": "Keep the open cage and focused worker; make the open exit unmistakable at small size."
+		},
+		{
+			"id": 66,
+			"tier": "T2",
+			"reason": "Figure reads as a glossy human model, with decorative warm/cool lighting.",
+			"concept": "A carved statue practices attentive posture in an ordinary conversation."
+		},
+		{
+			"id": 67,
+			"tier": "T1",
+			"reason": "Blue architectural illustration and public orator miss the answer-first product behavior.",
+			"concept": "Two statues independently write before turning their papers toward each other."
+		},
+		{
+			"id": 69,
+			"tier": "T2",
+			"reason": "Red floodlight and armed Athena make warning signs look militaristic.",
+			"concept": "One statue notices a companion withdrawing from their usual shared activity."
+		},
+		{
+			"id": 72,
+			"tier": "T1",
+			"reason": "Decorative clocks, spirals and gold/blue ornament replace a concrete thought loop.",
+			"concept": "A statue rereads the same short note at a table late at night; discarded drafts remain nearby."
+		},
+		{
+			"id": 74,
+			"tier": "T2",
+			"reason": "Phone action fits; cyan face glow and floating screen wall weaken realism.",
+			"concept": "Keep the tired phone user; one ordinary screen, neutral stone and a dark simple background."
+		},
+		{
+			"id": 75,
+			"tier": "T1",
+			"reason": "Bright toy clutter and multicolor lighting reduce neurodivergence to a stereotype.",
+			"concept": "A statue protects concentration at a quiet desk while a distracting gathering remains behind it."
+		},
+		{
+			"id": 79,
+			"tier": "T2",
+			"reason": "Research scene fits; luminous clinical whites and decorative network screens need restraint.",
+			"concept": "A statue carefully compares records at a worn desk; physical papers and subdued daylight."
+		},
+		{
+			"id": 81,
+			"tier": "T1",
+			"reason": "Cosmic swirl and repeated light trails turn stress into fantasy spectacle.",
+			"concept": "A statue reacts the same way to two ordinary interruptions; show one clear reaction in the hero."
+		},
+		{
+			"id": 83,
+			"tier": "T1",
+			"reason": "Red/cyan lighting overwhelms a generic note-taking pose.",
+			"concept": "A statue quietly observes a new arrival before starting a conversation."
+		},
+		{
+			"id": 84,
+			"tier": "T2",
+			"reason": "Readable therapy setting, but staged couch joke and written sign distract from therapist fit.",
+			"concept": "Two statues in a calm conversation; one gestures toward an ordinary notebook."
+		},
+		{
+			"id": 85,
+			"tier": "T2",
+			"reason": "Thoughtful scene is useful; polished marble and bright gold wash reduce tactile detail.",
+			"concept": "Show one repeated small practice in a worn setting, with restrained light."
+		},
+		{
+			"id": 87,
+			"tier": "T2",
+			"reason": "Physical effort fits the personal Type 8 story; dramatic glowing light is the main drift.",
+			"concept": "Keep the lifting scene, but show the statue pausing and accepting help rather than heroic strain."
+		},
+		{
+			"id": 88,
+			"tier": "T2",
+			"reason": "Comic praise gesture is clear but teal fluorescent staging is loud and generic.",
+			"concept": "One statue recognizes a companion’s specific finished work with a small appreciative gesture."
+		},
+		{
+			"id": 89,
+			"tier": "T1",
+			"reason": "Candy colors, sunglasses and a packed beach look like a novelty AI postcard.",
+			"concept": "One statue rests at a quiet rough-stone shore while another chooses a gentle walk."
+		},
+		{
+			"id": 91,
+			"tier": "T2",
+			"reason": "Debate fits; cool modern council lighting and many figures dilute the focal action.",
+			"concept": "Two statues respectfully question the same claim at a simple table."
+		},
+		{
+			"id": 93,
+			"tier": "T2",
+			"reason": "Useful approaching-a-group moment, but purple/blue gels dominate.",
+			"concept": "Preserve the tentative approach; photograph worn statues under ordinary window light."
+		},
+		{
+			"id": 94,
+			"tier": "T2",
+			"reason": "Broken jar gives a strong shared trigger, but colored theatrical lighting is too pronounced.",
+			"concept": "Keep three different reactions to a broken vessel; neutral stone and one believable light."
+		},
+		{
+			"id": 97,
+			"tier": "T2",
+			"reason": "Repeated heads and strong teal are abstract; therapy is reduced to a before/after progression.",
+			"concept": "Two seated statues notice a repeated pattern during a quiet conversation."
+		},
+		{
+			"id": 99,
+			"tier": "T2",
+			"reason": "Physical closeness reads, but orange stone and bright cyan background break continuity.",
+			"concept": "Keep the gesture of connection; neutral grey weathered marble and a quieter backdrop."
+		},
+		{
+			"id": 101,
+			"tier": "T2",
+			"reason": "Literal puppet strings and colored lighting oversimplify early attachment patterns.",
+			"concept": "A statue reaches toward a retreating companion; another sits with a deliberate boundary."
+		},
+		{
+			"id": 102,
+			"tier": "T2",
+			"reason": "Matching armor and idealized decorative figures look like fantasy merchandise.",
+			"concept": "Two ordinary draped statues negotiate a moment of uncertainty on a date."
+		},
+		{
+			"id": 103,
+			"tier": "T2",
+			"reason": "First-date action works, but red trees and blue/red lighting overpower it.",
+			"concept": "Keep the table and hesitant gestures; a dim café with neutral stone and small warm practical light."
+		},
+		{
+			"id": 104,
+			"tier": "T1",
+			"reason": "Neon pink/blue club and heroic pose overwhelm the observation of social styles.",
+			"concept": "At a small gathering, one statue helps, one starts a conversation, and one observes at the edge."
+		},
+		{
+			"id": 106,
+			"tier": "T2",
+			"reason": "Red fractures and glamorized face close-up are an abstract warning rather than behavior.",
+			"concept": "One statue ignores a boundary as the other pulls back; show the interaction with dignity."
+		},
+		{
+			"id": 108,
+			"tier": "T2",
+			"reason": "Shiny chains provide an easy metaphor but look like a polished fantasy prop.",
+			"concept": "A statue repeatedly dismantles a nearly finished task while looking at the result."
+		},
+		{
+			"id": 109,
+			"tier": "T2",
+			"reason": "Office context fits; bright polished marble and diagram wall make it feel synthetic.",
+			"concept": "Keep colleagues at work, with one observable coordination problem and rough matte surfaces."
+		},
+		{
+			"id": 111,
+			"tier": "T1",
+			"reason": "Magenta/cyan rain and glowing street overwhelm an otherwise useful pothole metaphor.",
+			"concept": "Two statues pause at the same broken paving stone and choose a different route together."
+		},
+		{
+			"id": 112,
+			"tier": "T2",
+			"reason": "Neutral architecture fits, but distant auditorium crowd has weak workplace specificity.",
+			"concept": "A closer scene of three colleagues handing off a practical task."
+		},
+		{
+			"id": 113,
+			"tier": "T1",
+			"reason": "Sepia architectural line drawing belongs to the old visual system.",
+			"concept": "Three statues debate around one simple object, with thought, feeling and action evident in posture."
+		},
+		{
+			"id": 115,
+			"tier": "T1",
+			"reason": "Drafting-grid illustration and pale blue panels break the photographic direction.",
+			"concept": "Two statues at a domestic table pause during a familiar disagreement and turn toward a book."
+		},
+		{
+			"id": 118,
+			"tier": "T2",
+			"reason": "Restrained amber room is coherent, but the distant symmetric council weakens personal perspective.",
+			"concept": "Bring two differing viewpoints on one object closer to camera; keep warm light subtle."
+		},
+		{
+			"id": 121,
+			"tier": "T1",
+			"reason": "Purple/blue club lighting and decorative armor create a toy-like fantasy scene.",
+			"concept": "A physically strong statue listens without dominating a quiet face-to-face conversation."
+		},
+		{
+			"id": 125,
+			"tier": "T1",
+			"reason": "User-flagged. Saturated fantasy fortress has no clear relationship to the three instincts.",
+			"concept": "One courtyard: personal resources, attention to the wider group, and close one-to-one connection."
+		},
+		{
+			"id": 126,
+			"tier": "T1",
+			"reason": "Pale illustrated city and blue sky lack both gritty material and questioning people.",
+			"concept": "Small groups of weathered statues asking and considering questions in a real-feeling agora."
+		},
+		{
+			"id": 129,
+			"tier": "T2",
+			"reason": "Nine office interiors are tiny and generic; no visible personality-driven action.",
+			"concept": "One statue arranges a simple workspace around its actual task; keep practical tools legible."
+		},
+		{
+			"id": 130,
+			"tier": "T2",
+			"reason": "Lone viewer is on topic, but saturated blue projection dominates the stone.",
+			"concept": "Keep a statue absorbed in a single distant screen with subdued plausible light."
+		},
+		{
+			"id": 131,
+			"tier": "T1",
+			"reason": "User-flagged. Blue ink portrait collage shows demographic variety without a shared situation.",
+			"concept": "Three statues approach the same work problem differently: propose, examine, listen."
+		},
+		{
+			"id": 134,
+			"tier": "T1",
+			"reason": "Floating screens, engraved claims and theatrical arena make public shame overly schematic.",
+			"concept": "A statue stands exposed while several observers turn their attention and pointing hands toward it."
+		},
+		{
+			"id": 135,
+			"tier": "T2",
+			"reason": "Forest photograph is attractive but distant robed figure has weak continuity with the statue language.",
+			"concept": "A weathered statue stops on a path to face a question from another figure; keep the scene grounded."
+		},
+		{
+			"id": 136,
+			"tier": "T1",
+			"reason": "Blue architectural linework and glowing laptop repeat the old illustrated style.",
+			"concept": "A statue scrolls alone at a desk while an empty nearby chair suggests missing connection."
+		},
+		{
+			"id": 137,
+			"tier": "T1",
+			"reason": "Green/red cyberpunk light and dense glowing interfaces read as a gaming render.",
+			"concept": "A tired statue carefully sorts a small set of papers at a desk while a group waits outside."
+		},
+		{
+			"id": 139,
+			"tier": "T2",
+			"reason": "Isolated figure and fractured mirror fit the story, but cyan god rays make it cinematic fantasy.",
+			"concept": "Keep the seated figure; one mundane piece of counter-evidence sits within reach."
+		},
+		{
+			"id": 140,
+			"tier": "T1",
+			"reason": "Heavenly stair tunnel and cloud spectacle substitute generic transcendence for growth.",
+			"concept": "Two statues face the same step but use different practical approaches."
+		},
+		{
+			"id": 148,
+			"tier": "T2",
+			"reason": "Literal slogan does the explanatory work; bright ruins are less restrained than the references.",
+			"concept": "A statue sets aside a rigid labelled box to inspect a more useful path or map; no generated text."
+		},
+		{
+			"id": 150,
+			"tier": "T1",
+			"reason": "Red/blue crowd, floating speech bubbles and broken stage create cartoon spectacle.",
+			"concept": "A restrained scene of a small public pile-on, with one statue reconsidering before joining."
+		},
+		{
+			"id": 151,
+			"tier": "T1",
+			"reason": "Platform icons, speech bubbles and colored arena lighting make a busy infographic.",
+			"concept": "Two statues escalate an argument while observers repeat the gesture; no logos or floating symbols."
+		},
+		{
+			"id": 152,
+			"tier": "T1",
+			"reason": "Purple stage light and literal wings look like fantasy character art.",
+			"concept": "A central weathered statue turns toward one of two adjacent companions; keep the relational idea simple."
+		},
+		{
+			"id": 153,
+			"tier": "T1",
+			"reason": "Neon magenta/cyan close-up is precisely the color drift the user rejects.",
+			"concept": "Two worn statues sit close in a difficult but attentive conversation under one natural light."
+		},
+		{
+			"id": 155,
+			"tier": "T2",
+			"reason": "Leadership is readable; grand ceremonial steps risk equating leadership only with authority.",
+			"concept": "A leader statue makes room for another person’s contribution at a shared task."
+		},
+		{
+			"id": 156,
+			"tier": "T2",
+			"reason": "Solitary musician fits the topic; small figure and blue spotlight could be more tactile.",
+			"concept": "Move closer to a worn statue physically playing a simple instrument under raking neutral light."
+		}
+	]
+}

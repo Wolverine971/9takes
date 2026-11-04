@@ -1,10 +1,10 @@
 // src/routes/personality-analysis/personality-analysis.page.server.spec.ts
 import { describe, expect, it, vi } from 'vitest';
 import { load } from './+page.server';
-import type { CelebrityHubPerson, CelebrityHubType } from './celebrityHub';
+import type { CelebrityHubPerson, CelebrityHubType, JustAddedPerson } from './celebrityHub';
 
 describe('/personality-analysis page server load', () => {
-	it('loads and preserves the authored persona title for each card', async () => {
+	it('loads the authored persona titles into the Just added strip', async () => {
 		const rows = [
 			{
 				person: 'Liang Wenfeng',
@@ -31,9 +31,10 @@ describe('/personality-analysis page server load', () => {
 		expect(from).toHaveBeenCalledWith('blogs_famous_people');
 		expect(select).toHaveBeenCalledWith('person,enneagram,persona_title,lastmod,date');
 		expect(eq).toHaveBeenCalledWith('published', true);
-		expect(
-			result.featured.map((person: { persona_title: string | null }) => person.persona_title)
-		).toEqual(["AI's Quiet Systems Architect", "China's Patient Model Builder"]);
+		expect(result.justAdded.map((person: JustAddedPerson) => person.personaTitle)).toEqual([
+			"AI's Quiet Systems Architect",
+			"China's Patient Model Builder"
+		]);
 	});
 
 	it('builds the all-nine-types celebrity hub from the same single query', async () => {

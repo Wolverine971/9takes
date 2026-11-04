@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 9
-type: ['comedian', 'movieStar', 'screen-icon']
+type: ['comedian', 'movieStar', 'screen-icon', 'sketch-comic']
 person: 'adam-sandler'
 suggestions: ['Kevin-Hart', 'Pete-Davidson', 'Keanu-Reeves', 'Will-Smith']
 wikipedia: 'https://en.wikipedia.org/wiki/Adam_Sandler'

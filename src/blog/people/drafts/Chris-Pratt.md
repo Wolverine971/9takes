@@ -16,6 +16,7 @@ enneagram: '7'
 type:
   - movieStar
   - celebrity
+  - screen-icon
 person: chris-pratt
 suggestions:
   - Chris-Hemsworth

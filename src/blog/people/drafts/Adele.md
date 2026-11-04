@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 4
-type: ['musician']
+type: ['musician', 'pop-star']
 person: 'adele'
 suggestions: ['Billie-Eilish', 'Taylor-Swift', 'Lana-Del-Rey', 'Beyonce-Knowles']
 wikipedia: 'https://en.wikipedia.org/wiki/Adele'

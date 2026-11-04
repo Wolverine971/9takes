@@ -13,6 +13,7 @@ published: true
 enneagram: '1'
 type:
   - movieStar
+  - screen-icon
 person: morgan-freeman
 suggestions:
   - denzel-washington

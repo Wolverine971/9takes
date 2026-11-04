@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '3'
-type: ['musician']
+type: ['musician', 'pop-star']
 person: 'Tate-McRae'
 suggestions: ['Sabrina-Carpenter', 'Olivia-Rodrigo', 'Addison-Rae', 'Dua-Lipa']
 wikipedia: 'https://en.wikipedia.org/wiki/Tate_McRae'

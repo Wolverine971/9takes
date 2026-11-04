@@ -17,6 +17,7 @@ enneagram: '6'
 type:
   - movieStar
   - celebrity
+  - rising-star
 person: joseph-zada
 suggestions:
   - Timothee-Chalamet

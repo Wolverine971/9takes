@@ -13,6 +13,7 @@ published: true
 enneagram: '4'
 type:
   - historical
+  - historical-scientist
 person: nikola-tesla
 suggestions:
   - robert-oppenheimer

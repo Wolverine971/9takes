@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 4
-type: ['musician', 'historical', 'historical-artist']
+type: ['musician', 'historical', 'historical-artist', 'singer-songwriter']
 person: 'john-lennon'
 suggestions: ['prince', 'billie-eilish', 'johnny-depp']
 wikipedia: 'https://en.wikipedia.org/wiki/John_Lennon'

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
-type: ['musician', 'dancer']
+type: ['musician', 'dancer', 'pop-star']
 person: 'adela'
 suggestions: ['Tate-McRae', 'Charli-XCX', 'Addison-Rae', 'Ariana-Grande', 'Lady-Gaga']
 wikipedia: 'https://en.wikipedia.org/wiki/Ad%C3%A9la_(singer)'

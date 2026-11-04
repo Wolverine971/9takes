@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 1
-type: ['techie']
+type: ['techie', 'investor']
 person: 'michael-seibel'
 suggestions: ['Garry-Tan', 'Dalton-Caldwell', 'Paul-Graham', 'Sam-Altman']
 wikipedia: 'https://en.wikipedia.org/wiki/Michael_Seibel'

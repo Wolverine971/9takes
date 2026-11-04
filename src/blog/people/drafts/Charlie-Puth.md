@@ -13,6 +13,7 @@ published: true
 enneagram: '4'
 type:
   - musician
+  - pop-star
 person: charlie-puth
 suggestions:
   - justin-bieber

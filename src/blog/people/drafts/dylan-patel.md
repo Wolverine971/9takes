@@ -19,6 +19,7 @@ type:
   - techie
   - entrepreneur
   - creator
+  - tech-interpreter
 person: dylan-patel
 suggestions:
   - jensen-huang

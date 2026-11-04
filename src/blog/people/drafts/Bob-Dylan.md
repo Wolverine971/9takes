@@ -13,6 +13,7 @@ published: true
 enneagram: '4'
 type:
   - musician
+  - singer-songwriter
 person: bob-dylan
 suggestions:
   - billie-eilish

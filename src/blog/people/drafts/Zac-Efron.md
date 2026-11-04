@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '9'
-type: ['movieStar', 'celebrity']
+type: ['movieStar', 'celebrity', 'screen-icon']
 person: 'Zac-Efron'
 suggestions: ['Dwayne-Johnson', 'Zendaya', 'Michael-B-Jordan', 'Hilary-Duff']
 wikipedia: 'https://en.wikipedia.org/wiki/Zac_Efron'

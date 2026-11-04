@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '3'
-type: ['creator', 'tiktoker', 'influencer']
+type: ['creator', 'tiktoker', 'influencer', 'lifestyle-builder']
 person: 'Brooke-Monk'
 suggestions: ['Addison-Rae', 'Charli-Damelio', 'Emma-Chamberlain', 'Alix-Earle']
 wikipedia: 'https://en.wikipedia.org/wiki/Brooke_Monk'

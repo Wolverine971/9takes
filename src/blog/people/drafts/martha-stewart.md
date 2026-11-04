@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '1'
-type: ['lifestyleInfluencer', 'entrepreneur', 'celebrity']
+type: ['lifestyleInfluencer', 'entrepreneur', 'celebrity', 'lifestyle-builder']
 person: 'martha-stewart'
 suggestions: ['Anna-Wintour', 'Gwyneth-Paltrow', 'Snoop-Dogg', 'Oprah-Winfrey']
 wikipedia: 'https://en.wikipedia.org/wiki/Martha_Stewart'

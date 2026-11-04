@@ -1,0 +1,79 @@
+{
+  "schema_version": 3,
+  "role": "unfamiliar",
+  "content_sha256": "075bac3dc0585036efa6ca42b95098dcd7257cab63d808c1716de04f0d538d1f",
+  "evidence_sha256": "56efc02bcde20493f4f9c341d5bc256ff4b4576fa6e53e7f9827c58be1e31e4f",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "unfamiliar-01",
+      "severity": "major",
+      "passage": "He kept a forty-year-old promise with his Nobel money and condemned OpenAI for breaking one.",
+      "problem": "The article spends its best material before telling it. The Sejnowski promise is used as evidence in the type answer and again in the Why not Type 5 discriminator before the reader has seen the story, so the final section retells something already used twice and has no surprise left. The same paragraph also restates the Times correction (third telling) and \"just feels wrong to me\" (third use in the body, after the H2 and the block quote). A first-time reader meets the discriminator as a list of callbacks, and one of them points to evidence they haven't read yet.",
+      "acceptance_test": "Every item in the Why not Type 5 discriminator refers to something the reader has already seen in full, either because the Nobel section moves before it or because the promise is dropped from that list and from the type answer. The Times correction is told once in the hook and mentioned briefly at most once after. \"Just feels wrong to me\" appears at most twice in the body. The closing section adds at least one detail not given earlier."
+    },
+    {
+      "id": "unfamiliar-02",
+      "severity": "minor",
+      "passage": "That is a man managing how he looks to buyers, a point for image (Type 3), not for Type 1.",
+      "problem": "Type 3 comes up here as a new candidate and is never mentioned again. The orientation names only 5 and 6, and the Why not section covers only 5 and 6. A reader new to the Enneagram can't tell whether 3 is still in the running or how much this detail counts against the One reading.",
+      "acceptance_test": "Either Type 3 gets one sentence where the alternatives are compared, saying why it ranks below 5 (or 6), or the humidifier detail is presented as behavior the One reading doesn't explain, without adding an extra type label that goes nowhere."
+    },
+    {
+      "id": "unfamiliar-03",
+      "severity": "minor",
+      "passage": "Backpropagation, the less elegant method, won.",
+      "problem": "A reader who doesn't know Hinton never learns what he actually built or why it matters. \"Godfather of AI\" stays a label, backpropagation is never explained, and the reader isn't told that Hinton himself championed it. The irony the next paragraph points to (\"built his reputation on the algorithm he found unsatisfying\") therefore depends on knowledge the reader doesn't have. AlexNet is described only as \"very good at recognizing objects and images,\" and nothing connects 2012 to the deep-learning systems people use today, so the $44 million auction has less weight than it should.",
+      "acceptance_test": "Before Room 731, one or two sourced sentences tell a lay reader what backpropagation does, Hinton's own role in making it work, and that AlexNet in 2012 started the neural-network approach behind today's AI systems. A reader with no AI background can then answer \"what did he do?\" in one sentence."
+    },
+    {
+      "id": "unfamiliar-04",
+      "severity": "minor",
+      "passage": "Then, of AI: \"We can't be in denial,\" he said. \"We have to be real.\"",
+      "problem": "The text says Hinton linked his grief to AI himself, and the New Yorker supports that. But it cuts the sentence that makes the link: right after talking about Roz and Jackie he says \"it's also quite relevant to artificial intelligence. There are two approaches to A.I. There's denial, and there's stoicism,\" and compares the urge to stop AI to wanting to cut out a cancer. Without that, the jump from Jackie's bravery to AI policy reads as the author's leap. \"His grief has a line running through it\" is too vague to orient the reader, and the paragraph sits under \"What the One reading leaves out\" without saying what it shows that the One reading misses.",
+      "acceptance_test": "The paragraph quotes or closely paraphrases Hinton's own bridge (denial versus stoicism, or \"quite relevant to artificial intelligence\") with New Yorker attribution, so a reader can see he made the connection. It also states in one plain clause what the passage adds to the portrait, or it moves to a section where that role is clear."
+    },
+    {
+      "id": "unfamiliar-05",
+      "severity": "minor",
+      "passage": "The science that changed the world, by his own account, ran mostly on should.",
+      "problem": "Hinton's own words a few lines earlier were \"mostly anxiety\" and \"I had to.\" Swapping in \"should,\" the word the Type 1 case depends on, and crediting it to \"his own account\" quietly moves the quotation toward the thesis. Readers new to the subject will accept the attribution. The article itself later admits that \"mostly anxiety\" fits other types too.",
+      "acceptance_test": "The line either keeps Hinton's framing (anxiety / had to) or clearly marks \"should\" as the article's reading (for example, \"read through a One's lens\"), and does not attribute it to his own account."
+    },
+    {
+      "id": "unfamiliar-06",
+      "severity": "minor",
+      "passage": "He did not want credit for a story that was not quite true.",
+      "problem": "The hook states a motive as fact, and the sentence two lines earlier (\"It was the biggest stage he had ever had for a warning\") is an unsourced superlative. The hook is strong already. Its force comes from what he observably did (corrected the paper within hours, defending a company he had just left), and the confident mind-reading in the opening makes a skeptical new reader less willing to trust the later, hedged type argument.",
+      "acceptance_test": "The opening rests on observable facts. The motive sentence is framed as inference or replaced by what he did, and the \"biggest stage\" superlative is either sourced or cut."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "The same day, he used it to correct the paper.",
+      "reason": "A one-line turn that gives an unfamiliar reader a real puzzle in the first 80 words: why would a whistleblower defend the company he just left? The whole article pays it off."
+    },
+    {
+      "passage": "\"And just near the door there was a slightly smaller box that simply said, 'Not insects,' and that's where he had all the things about the family.\"",
+      "reason": "The most memorable detail in the piece. It conveys a whole childhood without the author asserting a wound."
+    },
+    {
+      "passage": "Masking tape along a closet shelf: \"Do not prime shelf, prime shelf support.\"",
+      "reason": "A specific, verifiable scene that makes the corrective habit concrete, together with the honest caveat that follows (\"This rests on one reporter's visit\")."
+    },
+    {
+      "passage": "Even his tenderness gets an edit.",
+      "reason": "Together with the microwave line, this turns the thesis into something human instead of clinical. It is checked against the New Yorker text and kept brief."
+    },
+    {
+      "passage": "It is for the next person who looks, to everyone else in the room, the way he did for decades: wrong, and sure of it.",
+      "reason": "An earned ending that ties the prize, the decades of isolation and the certainty theme together without a CTA or a thesis restatement."
+    }
+  ],
+  "assessment": "Read as someone who knows nothing about Hinton, this is a gripping profile. The hook sets up a real puzzle, the scenes (the beetle boxes, notes on the shelf, the Tahoe auction, the Nobel split) are vivid and dated, and the reader comes away knowing who he is, why he matters now, and a concrete rule for his behavior. The argument is honest about its limits: it states medium confidence, gives Type 5 a fair hearing, and includes a section on what the One reading misses. Momentum suffers in the back half. The type argument recaps evidence, including the Nobel promise before the reader has seen it, so the ending retells material already used. Type 3 is raised and dropped. A lay reader never learns what Hinton actually invented, which weakens the backprop irony and the auction stakes. Two small attribution slips (\"by his own account... should\" and the hook's motive sentence) push his words slightly toward the thesis. The grief-to-AI paragraph is accurate (checked against the New Yorker: Hinton made the link himself) but leaves out his bridging sentence. Similarity advisory: the tripped pairs (\"the three types organized around anger\") are ordinary triad vocabulary in a single orienting clause, and the surrounding argument (anger turned into correction, shown through contractors, the Times and the Nobel promise) is specific to Hinton, so no reuse finding. Sensitive material (Rosalind's treatment choices, his son's learning difficulties, Altman) is attributed and brief; risk flags stay on. Body is about 3,400 words of prose, at the top of the target, so fixes should reorder and cut rather than add."
+}

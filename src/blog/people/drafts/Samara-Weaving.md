@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '6'
-type: ['movieStar', 'newMovieStar']
+type: ['movieStar', 'newMovieStar', 'rising-star']
 person: 'samara-weaving'
 suggestions: ['Margot-Robbie', 'Milly-Alcock', 'Jenna-Ortega', 'Jennifer-Lawrence']
 wikipedia: 'https://en.wikipedia.org/wiki/Samara_Weaving'

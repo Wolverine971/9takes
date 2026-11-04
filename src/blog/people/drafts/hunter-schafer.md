@@ -17,6 +17,7 @@ enneagram: '4'
 type:
   - movieStar
   - celebrity
+  - rising-star
 person: hunter-schafer
 suggestions:
   - zendaya

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
-type: ['comedian']
+type: ['comedian', 'stand-up']
 person: 'nikki-glaser'
 suggestions: ['Chelsea-Handler', 'Tina-Fey', 'Taylor-Swift', 'Pete-Davidson']
 wikipedia: 'https://en.wikipedia.org/wiki/Nikki_Glaser'

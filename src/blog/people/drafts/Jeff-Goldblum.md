@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '7'
-type: ['movieStar', 'musician']
+type: ['movieStar', 'musician', 'screen-icon']
 person: 'Jeff-Goldblum'
 suggestions: ['Robin-Williams', 'Chris-Hemsworth', 'Robert-Downey-Jr', 'Jim-Carrey']
 wikipedia: 'https://en.wikipedia.org/wiki/Jeff_Goldblum'

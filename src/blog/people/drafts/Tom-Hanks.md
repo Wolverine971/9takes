@@ -13,6 +13,7 @@ published: true
 enneagram: '6'
 type:
   - movieStar
+  - screen-icon
 person: tom-hanks
 suggestions:
   - Denzel-Washington

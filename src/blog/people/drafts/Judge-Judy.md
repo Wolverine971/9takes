@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '1'
-type: ['celebrity', 'other']
+type: ['celebrity', 'other', 'tv-comedy-crossover']
 person: 'Judge-Judy'
 suggestions: ['Anna-Wintour', 'Ruth-Bader-Ginsburg', 'Hillary-Clinton', 'Jordan-Peterson']
 wikipedia: 'https://en.wikipedia.org/wiki/Judy_Sheindlin'

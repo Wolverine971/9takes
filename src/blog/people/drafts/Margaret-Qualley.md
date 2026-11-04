@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '3'
-type: ['movieStar', 'newMovieStar']
+type: ['movieStar', 'newMovieStar', 'rising-star']
 person: 'margaret-qualley'
 suggestions: ['Jack-Antonoff', 'Emma-Stone', 'Sydney-Sweeney', 'Anya-Taylor-Joy']
 wikipedia: 'https://en.wikipedia.org/wiki/Margaret_Qualley'

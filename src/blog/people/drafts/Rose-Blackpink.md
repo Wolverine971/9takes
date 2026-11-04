@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '4'
-type: ['musician', 'celebrity']
+type: ['musician', 'celebrity', 'pop-star']
 person: 'Rose-Blackpink'
 suggestions: ['Taylor-Swift', 'Billie-Eilish', 'Olivia-Rodrigo', 'Lana-Del-Rey']
 wikipedia: 'https://en.wikipedia.org/wiki/Ros%C3%A9_(singer)'

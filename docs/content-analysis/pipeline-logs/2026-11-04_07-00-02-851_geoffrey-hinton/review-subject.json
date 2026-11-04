@@ -1,0 +1,79 @@
+{
+  "schema_version": 3,
+  "role": "subject",
+  "content_sha256": "075bac3dc0585036efa6ca42b95098dcd7257cab63d808c1716de04f0d538d1f",
+  "evidence_sha256": "56efc02bcde20493f4f9c341d5bc256ff4b4576fa6e53e7f9827c58be1e31e4f",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "subject-01",
+      "severity": "major",
+      "passage": "He kept a forty-year-old promise with his Nobel money and condemned OpenAI for breaking one.",
+      "problem": "States as fact, in the author's voice, that OpenAI broke a promise. The record supports something narrower: in December 2024 Hinton backed a brief opposing a proposed restructuring and argued OpenAI should not be allowed to 'tear all of that up' (TechCrunch, 2024-12-30, opened). That was his argument about a plan that had not happened yet. The draft never says what happened next, even though evidence claim C25's own review trigger says to recheck if OpenAI's structure changes. Reported outcomes in 2025 (OpenAI said in May 2025 that its nonprofit would keep control, and it later recapitalized under a nonprofit foundation; the editor should verify this against an opened, dated source) mean a reader in 2026 is told about a broken promise that the company publicly disputes. The paragraph's opener has the same problem: 'What offends him most is a promise dropped when it becomes expensive' ranks his motives ('most') with no source behind the ranking.",
+      "acceptance_test": "Every mention of the OpenAI episode frames it as Hinton's December 2024 objection to a proposed change, in his words. No sentence in the author's voice says OpenAI broke or dropped a promise. One dated clause, sourced to an opened primary or reliable report, says what OpenAI actually did with its structure afterward. 'What offends him most' is either removed or reworded as a labeled inference, such as 'One wrong he returns to is...'."
+    },
+    {
+      "id": "subject-02",
+      "severity": "major",
+      "passage": "By his account to the New Yorker, when his second wife, Rosalind, declined chemotherapy for ovarian cancer and asked him to sell their house to pay for homeopathic treatments, he refused for the children's sake: \"I drew the line there.\"",
+      "problem": "Rosalind died in 1994 and cannot respond. This is a private medical decision told only from Hinton's side. The New Yorker (2023-11-13, opened) frames it with context the draft drops: Rosalind 'had struggled with infertility, and had bad experiences with callous doctors. Perhaps as a result, she pursued a homeopathic route.' The draft then follows it directly with Jackie being 'incredibly brave and incredibly rational,' which casts Rosalind as the irrational foil. The New Yorker gives that contrast in Hinton's voice, but here it reads as the article's verdict. The detail also adds little to the type argument; the section's point is that he 'drew the line' and later tied cancer and denial to AI.",
+      "acceptance_test": "Choose one. (a) Cut Rosalind's treatment choices and keep only what the argument needs: his refusal to sell the house for the children, attributed to him, plus the date of her death. Or (b) keep them, add the New Yorker's mitigating context in one attributed clause, and present the Jackie comparison as Hinton's own framing ('he contrasted...'), not as the narrator's judgment. Either way, no sentence calls Rosalind, or implies she was, irrational in the author's voice."
+    },
+    {
+      "id": "subject-03",
+      "severity": "minor",
+      "passage": "He did not want credit for a story that was not quite true.",
+      "problem": "The hook states an imagined motive as fact. The tweet shows what he corrected, not why. There are plausible alternative motives: protecting relationships with former colleagues still at Google, or not wanting his warning dismissed as a grudge against a former employer. The same move recurs later: 'The same instinct produced the correction of the Times: having left, he would not let Google be cast as the villain.' The author's causal reading is presented as the record.",
+      "acceptance_test": "Mark the motive in the hook as interpretation (e.g., 'He seems not to have wanted credit...' or 'The correction cost him the more flattering story'). Word the later 'same instinct' sentence as the article's reading, not established fact. The observed sequence of tweet, date and wording stays unchanged."
+    },
+    {
+      "id": "subject-04",
+      "severity": "minor",
+      "passage": "\"I'm particularly proud of the fact that one of my students fired Sam Altman\"",
+      "problem": "The paragraph quotes Hinton's moral judgment of a named living person ('much less concerned with safety than with profits'). It gives Sutskever's apology and Altman's reinstatement, but leaves out the board's stated reason, that Altman was not 'consistently candid in his communications.' It also leaves out the March 2024 outside review (WilmerHale), which found his conduct 'did not mandate removal.' Both are on the article's own source page (S21, opened). Without them, a reader can take Hinton's safety-versus-profit framing as the reason for the firing.",
+      "acceptance_test": "One sourced clause gives the board's stated reason and the March 2024 investigation's conclusion. Hinton's verdict stays clearly attributed to him as his opinion. The article does not adopt it."
+    },
+    {
+      "id": "subject-05",
+      "severity": "minor",
+      "passage": "On his island, the contractors' mistakes still make him angry.",
+      "problem": "Rothman reported in 2023 that the mistakes 'still enrage him today.' No Hinton quote shows the anger. The 'Why not Type 5' section restates it in the author's voice, in the present tense, as a current fact in 2026, and the earlier triad paragraph does the same ('contractors' mistakes that still enrage him'). An inner emotional state seen by one reporter on one visit is being carried forward as an ongoing trait. The draft admits the single-visit limit in one place ('This rests on one reporter's visit'), but the discriminator paragraph drops it.",
+      "acceptance_test": "Every later use of the contractor anger is attributed to Rothman's 2023 observation and put in the past tense ('In 2023, Rothman found the contractors' mistakes still enraged him'). The single-visit limit stays visible wherever the detail carries the type argument."
+    },
+    {
+      "id": "subject-06",
+      "severity": "minor",
+      "passage": "Duty without guilt is a real pattern, but it is not the self-punishing One of the textbooks.",
+      "problem": "The draft characterizes his inner life as largely guilt-free but scopes this only implicitly to AI. The same New Yorker passage it uses for the Rosalind story reports that when describing her death Hinton 'still seems overwhelmed—he is angry, guilty, wounded, mystified.' The 'inner critic is quieter' claim generalizes from his statements about AI work to the whole person, and it leaves out reported evidence that cuts the other way. That evidence even bears on the type argument.",
+      "acceptance_test": "The guilt claim is explicitly limited to his statements about his AI research ('About his life's work, at least, he reports little guilt'). Alternatively, the paragraph acknowledges the reported guilt in his grief, attributed to Rothman's 2023 observation, so the portrait does not assert a general absence of self-reproach."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "And just near the door there was a slightly smaller box that simply said, 'Not insects,' and that's where he had all the things about the family.",
+      "reason": "A distinctive, sourced detail in Hinton's own words. It shows the father's priorities without the author passing judgment on a dead man."
+    },
+    {
+      "passage": "Two years later he gave a fuller and less heroic account to Steven Bartlett. \"The main reason I left Google was because I was 75 and I wanted to retire. I've done a very bad job of that,\" he said.",
+      "reason": "Fairness done right: it sets the subject's less flattering self-account beside the heroic one, instead of choosing the version that suits the thesis."
+    },
+    {
+      "passage": "Both lines are Metz's narration, not Hinton's words.",
+      "reason": "Explicit attribution discipline. It keeps a biographer's motive attribution from passing as Hinton's own testimony."
+    },
+    {
+      "passage": "That is a man managing how he looks to buyers, a point for image (Type 3), not for Type 1.",
+      "reason": "An unflattering, type-inconvenient detail confronted honestly instead of left out."
+    },
+    {
+      "passage": "None of this proves a type; a father like that could produce a striver, a worrier or a perfectionist.",
+      "reason": "Avoids a manufactured childhood wound and states the limits of inference from upbringing."
+    }
+  ],
+  "assessment": "Fairness-proxy read; it does not speak for Hinton. Opened sources: New Yorker (2023-11-13), TechCrunch (2024-12-30), the Notebookcheck tweet copy, the Wikipedia removal page and NBC (2026-09-17, page partly lazy-loaded; the 'maybe a year' quote confirmed). Overall the draft keeps the public record and the author's inference apart well. It pairs the heroic and less heroic Google exit accounts, marks Metz's narration as narration, and argues against itself with Type 3 and Type 5 evidence. The son's learning difficulties appear once, in Hinton's own podcast words, and need no change. The two consequential problems both involve people who cannot answer in the piece. First, OpenAI is said in the author's voice to have broken a promise, with no update on what it did after the December 2024 brief. Second, the late Rosalind's medical choices are told without the New Yorker's mitigating context and next to a 'rational' foil. Smaller issues: motive claims stated as fact (the hook, 'what offends him most'), a one-visit 2023 emotional observation carried forward in the present tense, and a 'duty without guilt' generalization that the same source contradicts for his grief. Altman's side needs one clause. Similarity advisory: both tripped pairs share only ordinary triad vocabulary ('the three types organized around anger'). That is not meaningful reuse, and the triad paragraph's Hinton-specific details make it distinct. Risk flags: sensitive_allegations true (medical histories of deceased spouses, a child's disability, moral judgments of a named CEO and company); contested_typing true (medium confidence, live Type 5 rival). Both are consistent with research, so the six-role jury applies."
+}

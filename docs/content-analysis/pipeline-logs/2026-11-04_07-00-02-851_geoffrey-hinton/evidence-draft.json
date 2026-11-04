@@ -1,0 +1,1545 @@
+{
+  "schema_version": 3,
+  "subject": "geoffrey-hinton",
+  "status": "ready",
+  "research_tasks": [
+    "Privacy handling for review: the son's learning difficulties (C14), Rosalind's medical choices (C18) and Jackie's illness (C47) appear only in Hinton's own public words and are kept brief and attributed; reviewers should confirm nothing further is needed or cut.",
+    "Hinton's opinion of Sam Altman (C24, C68) is attributed as his view with dated context (C69). If a reviewer wants OpenAI's or Altman's response, open a dated primary source before adding it.",
+    "Time-sensitive items to recheck at refresh: Congress window and 'slow down' remarks (C61, C33, C87; by 2027-09-16) and OpenAI's structure/litigation (C25).",
+    "Optional current check: coverage of his scheduled Vienna Godel Lecture (TU Wien, announced for 2026-10-23); include only if it adds to the argument."
+  ],
+  "accuracy_checked_at": "2026-11-04",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.newyorker.com/magazine/2023/11/20/geoffrey-hinton-profile-ai",
+      "title": "Why the Godfather of A.I. Fears What He's Built",
+      "speaker": "Geoffrey Hinton (interviewed by Joshua Rothman, The New Yorker)",
+      "date": "2023-11-13",
+      "locator": "Full profile; four-day visit to Hinton's Georgian Bay island. Key passages: family-tree/father section ('If you work twice as hard as me'), woodwork vs science ('mostly anxiety'), tree-felling and contractor-notes section, Rosalind and Jackie sections, Boltzmann Machine section, closing 'unplug it' exchange",
+      "excerpt": "\"I've often wondered whether I'd have been happier as an architect, because I didn't have to force myself to do it. Whereas, with science, I've always had to force myself. Because of the family, I had to succeed at it—I had to find a path. There was joy in it, but it was mostly anxiety. Now it's an enormous relief that I've succeeded.\"",
+      "context": "Long-form magazine profile built on in-person reporting at Hinton's cottage in 2023, months after he left Google. Hinton's own words are quoted at length; the reporter's scene-setting and interpretations (e.g. 'The tree was an error') are Rothman's, not Hinton's. Canonical page opened by plain curl and checked against a full-text PDF copy; key quotations confirmed on the canonical page. Same visit also yields S02 testimony, so S01 and S02 are not independent of each other.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S02",
+      "url": "https://www.newyorker.com/magazine/2023/11/20/geoffrey-hinton-profile-ai",
+      "title": "Why the Godfather of A.I. Fears What He's Built (third-party testimony within the profile)",
+      "speaker": "Yann LeCun; Yoshua Bengio; Rosemary Gartner (quoted by Joshua Rothman)",
+      "date": "2023-11-13",
+      "locator": "LeCun: 'Geoff was born into science'; Boltzmann-vs-backprop disagreement; 'I'm not scared of A.I.' Bengio: 'This should not work' review anecdote. Gartner: 'always needs a partner'",
+      "excerpt": "\"Geoff and I disagreed about the Boltzmann Machine,\" LeCun said. \"Geoff thought it was the most beautiful algorithm. I thought it was ugly.\" ... \"I think he's the kind of person who always needs a partner,\" [Gartner] told me, tenderly.",
+      "context": "Named testimony from a former student/collaborator who publicly disagrees with Hinton about AI risk (LeCun), a co-laureate (Bengio), and his partner (Gartner). Same article as S01, so it is not independent reporting; it is independent voice.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S03",
+      "url": "https://www.technologyreview.com/2023/05/02/1072528/geoffrey-hinton-google-why-scared-ai/",
+      "title": "Geoffrey Hinton tells us why he's now scared of the tech he helped build",
+      "speaker": "Geoffrey Hinton (interviewed by Will Douglas Heaven, MIT Technology Review)",
+      "date": "2023-05-02",
+      "locator": "Interview at Hinton's north London house four days before the Google announcement; 'I'm mildly depressed' passage near the optimist/pessimist estimate; Google self-censorship passage near top; 'confabulations' passage mid-article",
+      "excerpt": "\"I want to talk about AI safety issues without having to worry about how it interacts with Google's business,\" he says. \"As long as I'm paid by Google, I can't do that.\" ... Which is Hinton? \"I'm mildly depressed,\" he says. \"Which is why I'm scared.\"",
+      "context": "Pre-announcement interview; Hinton paces the room because of his back. Also includes LeCun and Bengio comments on Hinton's risk view. Opened in full.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S04",
+      "url": "https://web.archive.org/web/2023id_/https://www.nytimes.com/2023/05/01/technology/ai-google-chatbot-engineer-quits-hinton.html",
+      "title": "'The Godfather of AI' Quits Google and Warns of Danger Ahead",
+      "speaker": "Geoffrey Hinton (interviewed by Cade Metz, The New York Times)",
+      "date": "2023-05-01",
+      "locator": "Paragraphs 3-4 (regret / 'normal excuse'); paragraph on Carnegie Mellon and Pentagon funding; closing Oppenheimer paraphrase",
+      "excerpt": "A part of him, he said, now regrets his life's work. \"I console myself with the normal excuse: If I hadn't done it, somebody else would have,\" Dr. Hinton said ... In the 1980s, Dr. Hinton was a professor of computer science at Carnegie Mellon University, but left the university for Canada because he said he was reluctant to take Pentagon funding.",
+      "context": "The article that announced his departure. Opened via the Wayback Machine raw capture because nytimes.com is paywalled. The 'regrets his life's work' line is the reporter's paraphrase; Hinton disputed the paper's framing of his reason for leaving the same day (S05).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S05",
+      "url": "https://www.notebookcheck.net/Geoffrey-Hinton-leaves-Google-warns-about-AI-risks.712693.0.html",
+      "title": "Geoffrey Hinton leaves Google, warns about AI risks (reproduces Hinton's May 1, 2023 tweet)",
+      "speaker": "Geoffrey Hinton (tweet reproduced by Notebookcheck)",
+      "date": "2023-05-01",
+      "locator": "Quoted tweet in body text",
+      "excerpt": "\"In the NYT today, Cade Metz implies that I left Google so that I could criticize Google. Actually, I left so that I could talk about the dangers of AI without considering how this impacts Google. Google has acted very responsibly.\"",
+      "context": "The original post on X was not opened directly; the full text is reproduced verbatim in this opened news report and matches wording quoted by other outlets. Treat the wording as a reproduction.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S06",
+      "url": "https://www.cbsnews.com/news/geoffrey-hinton-ai-dangers-60-minutes-transcript/",
+      "title": "\"Godfather of Artificial Intelligence\" Geoffrey Hinton on the promise, risks of advanced AI (60 Minutes transcript)",
+      "speaker": "Geoffrey Hinton (interviewed by Scott Pelley, CBS 60 Minutes)",
+      "date": "2023-10-08 (transcript page updated 2024-06-16)",
+      "locator": "Transcript: 'At what point did you realize that you were right' exchange; father/beetles exchange; closing 'no regrets' narration",
+      "excerpt": "Scott Pelley: At what point did you realize that you were right about neural networks and most everyone else was wrong? Geoffrey Hinton: I always thought I was right. ... Geoffrey Hinton: Every morning when I went to school he'd actually say to me, as I walked down the driveway, \"get in there pitching and maybe when you're twice as old as me you'll be half as good.\"",
+      "context": "Broadcast interview transcript. The father's line differs in wording from the New Yorker version (S01); both are Hinton's recollections. Narration (e.g. 'domineering father', 'no regrets') is CBS's.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S07",
+      "url": "https://www.nobelprize.org/prizes/physics/2024/hinton/interview/",
+      "title": "Geoffrey Hinton – Interview (first-reactions telephone call)",
+      "speaker": "Geoffrey Hinton (with Adam Smith, Nobel Prize Outreach)",
+      "date": "2024-10-08",
+      "locator": "Telephone interview transcript on the page: 'How would you describe yourself?' answer; climate-change comparison",
+      "excerpt": "GH: I would say I am someone who doesn't really know what field he's in but would like to understand how the brain works. And in my attempts to understand how the brain works, I've helped to create a technology that works surprisingly well.",
+      "context": "Recorded minutes after the 2 a.m. call in a California hotel. Official transcript on nobelprize.org.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S08",
+      "url": "https://www.youtube.com/watch?v=66WiF8fXL0k",
+      "title": "Geoffrey Hinton, Nobel Prize in Physics 2024: Nobel Week interview",
+      "speaker": "Geoffrey Hinton (Nobel Prize Outreach)",
+      "date": "2024-12-06",
+      "locator": "00:02:23-00:02:40 (family pressure); 00:09:37-00:12:20 (Christian school, continental drift); 00:13:37-00:14:20 (advice, 'very good at ignoring'); 00:14:49-00:15:40 (wish he'd worried sooner); 00:15:40-00:18:41 (prize money: water charity; Sejnowski agreement)",
+      "excerpt": "[00:02:27] \"There was a lot of pressure to succeed academically, so I kind of knew from a very early age that I had to be a successful academic or a failure.\" ... [00:14:05] \"don't give up on it until you've figured out why it's wrong ... you should just ignore what other people say. I'm very good at ignoring what other people say.\" ... [00:16:00] \"It's ridiculous at this time in a rich country like Canada that, for example, in Ontario twenty percent of the indigenous communities do not have safe drinking water. That's just crazy.\" ... [00:17:26] \"we had an agreement back in the 1980s which was that if they gave it to one of us and not the other one, we'd split it\" ... [00:18:10] \"a prize in his name for young researchers, and it'll be for young researchers with crazy theories of how the brain works, like we were\" ... \"I'm not complaining about that, but he could have been.\"",
+      "context": "Interview recorded in Stockholm during Nobel Week and linked from nobelprize.org. Text taken from YouTube auto-captions (lower-case, some garbles, e.g. 'ailure' at 00:02:31 for 'failure'); recheck wording against audio before quoting. Draft stage (2026-11-04): every line quoted in the draft from this video was re-transcribed from the audio (yt-dlp tv_simply client + whisper-cli ggml-medium.en) and the draft follows the audio wording; whisper drops fillers such as 'um'.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S09",
+      "url": "https://www.nobelprize.org/prizes/physics/2024/hinton/speech/",
+      "title": "Geoffrey Hinton – Banquet speech",
+      "speaker": "Geoffrey Hinton",
+      "date": "2024-12-10",
+      "locator": "Full speech, final paragraph",
+      "excerpt": "\"But we now have evidence that if they are created by companies motivated by short-term profits, our safety will not be the top priority. We urgently need research on how to prevent these new beings from wanting to take control. They are no longer science fiction.\"",
+      "context": "Official text of his Nobel banquet speech; he spent most of it on risks, not on his own work.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S10",
+      "url": "https://www.youtube.com/watch?v=qlEMrGwIWuM",
+      "title": "Interview with Geoffrey Hinton from the 2024 Nobel Prize banquet (SVT)",
+      "speaker": "Geoffrey Hinton (with Victoria Dyring, SVT)",
+      "date": "2024-12-10 (uploaded 2025-01-09)",
+      "locator": "00:00:16-00:01:05 ('only one in the room being right'); 00:01:05-00:01:39 (carpentry)",
+      "excerpt": "[00:00:26] \"My parents were atheists and sent me to a Christian school and I was the only person who didn't believe in God. As time went by, it turned out I was right.\" ... \"Everybody else had a different opinion and I thought they were wrong. And that was very useful when I was studying neural nets.\" ... [00:01:30] \"Yeah, there was never any pressure with carpentry. I'm not very good at it, but I enjoy it.\"",
+      "context": "Short banquet-night interview for Swedish television, posted by the Nobel Prize channel. Auto-caption text; recheck against audio before quoting. Draft stage (2026-11-04): every line quoted in the draft from this video was re-transcribed from the audio (yt-dlp tv_simply client + whisper-cli ggml-medium.en) and the draft follows the audio wording; whisper drops fillers such as 'um'.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S11",
+      "url": "https://www.youtube.com/watch?v=H7DgMFqrON0",
+      "title": "University of Toronto Press Conference - Professor Geoffrey Hinton, Nobel Prize in Physics 2024",
+      "speaker": "Geoffrey Hinton",
+      "date": "2024-10-08",
+      "locator": "00:02:40-00:03:40 (acknowledgments; 'one of my students fired Sam Altman'); 00:11:23 ('never recommended slowing'); 00:15:00-00:15:30 (Altman/profits); 00:16:43 (prize money); 00:21:24-00:22:20 (persistence advice); 00:25:49 (advocacy plans); 00:27:04 and 00:29:44 (radiology prediction wrong)",
+      "excerpt": "[00:03:21] \"I'm particularly proud of the fact that one of my students fired Sam Altman. And I think I'd better leave it there\" ... [00:11:53] \"I've never recommended slowing the advancement of AI because I don't think that's feasible.\" ... [00:15:10] \"over time, it turned out that Sam Altman was much less concerned with safety than with profits. And I think that's unfortunate.\" ... [00:25:45] \"I'm 76 and I'm not going to do much more frontier research, I believe. I'm going to spend my time advocating for people to work on safety.\" ... [00:27:05] \"So I actually made a prediction in 2016 that by now AI will be reading all the scans that radiologists normally read. That prediction was wrong. I was a bit overenthusiastic.\"",
+      "context": "Livestreamed press conference hours after the Nobel call; written questions from reporters. Auto-caption text; recheck against audio before quoting. His remarks about Altman are his opinion of a living person and should be attributed as such. Draft stage (2026-11-04): every line quoted in the draft from this video was re-transcribed from the audio (yt-dlp tv_simply client + whisper-cli ggml-medium.en) and the draft follows the audio wording; whisper drops fillers such as 'um'.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S12",
+      "url": "https://www.youtube.com/watch?v=giT0ytynSqg",
+      "title": "Godfather of AI: They Keep Silencing Me But I'm Trying to Warn Them! (The Diary of a CEO)",
+      "speaker": "Geoffrey Hinton (interviewed by Steven Bartlett)",
+      "date": "2025-06-16",
+      "locator": "00:14:46-00:16:00 (three banks, backup drive); 00:32:01-00:33:07 (guilt, sadness, duty); 00:33:45-00:35:45 (Sutskever, Musk, Altman); 01:11:12-01:12:28 (why he sold to Google); 01:14:55-01:15:52 (why he left Google); 01:22:30-01:24:05 (regret about wife and children); 01:24:59-01:25:13 (depressed/cheerful); 01:14:03-01:14:50 (PaLM joke 'eureka moment')",
+      "excerpt": "[00:15:30] \"So I spread my money, my children's money between three banks\" ... [00:32:22] \"I don't feel particularly guilty about developing AI like 40 years ago because at that time we had no idea that this stuff was gonna happen this fast.\" ... [00:33:03] \"So I feel I have a duty now to talk about the risks.\" ... [01:11:19] \"I have a son who has learning difficulties and in order to be sure he would never be out on the street I needed to get several million dollars and I wasn't going to get that as an academic.\" ... [01:14:21] \"The closest I had to a eureka moment was when a Google system called Palm was able to say why a joke was funny.\" ... [01:14:55] \"The main reason I left Google was because I was 75 and I wanted to retire. I've done a very bad job of that.\" ... \"Even if you could get away with it, it just feels wrong to me.\" ... [01:22:39] \"I wish I'd spent more time with my wife. And with my children when they were little. I was kind of obsessed with work.\" ... \"she was very supportive of me spending a lot of time working.\"",
+      "context": "90-minute podcast interview. Captions are cleaner than most auto-captions but remain machine text; recheck exact wording against audio before quoting. Contains a sensitive self-disclosure about his son (01:11:19) and opinions about living people (Musk, Altman). Draft stage (2026-11-04): every line quoted in the draft from this video was re-transcribed from the audio (yt-dlp tv_simply client + whisper-cli ggml-medium.en) and the draft follows the audio wording; whisper drops fillers such as 'um'. The caption text read 'I wish I spent'; the audio check reads 'I wish I'd spent'. In the regret exchange he identifies the wife he meant as the one who died of pancreatic cancer (Jackie).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S13",
+      "url": "https://www.wired.com/story/secret-auction-race-ai-supremacy-google-microsoft-baidu/",
+      "title": "The Secret Auction That Set Off the Race for AI Supremacy (adapted from Genius Makers)",
+      "speaker": "Cade Metz (reporting, with Hinton quotes)",
+      "date": "2021-03-16",
+      "locator": "Opening (back, 'I last sat down in 2005'); room 731 humidifier passage ('old and decrepit'); backpack paragraph; $44 million stop; closing 'right home' paragraph",
+      "excerpt": "\"I didn't want them thinking I was old and decrepit,\" he says. ... But knowing it wasn't the right thing to do, they didn't. ... Hinton stopped the auction because finding the right home for his research was ultimately more important to him than commanding the maximum price.",
+      "context": "Book excerpt reconstructing the December 2012 Lake Tahoe auction from interviews. Motive statements ('more important to him') and the backpack decision are Metz's reconstruction, not direct Hinton quotes, except where quoted.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S14",
+      "url": "https://web.cs.toronto.edu/news-events/news/from-ai-to-atari-what-it-was-like-to-work-with-nobel-prize-winner-geoffrey-hinton",
+      "title": "From AI to Atari: What it was like to work with Nobel Prize-winner Geoffrey Hinton",
+      "speaker": "Nick Frosst; Chris Maddison; Kevin Swersky (U of T Department of Computer Science)",
+      "date": "2024-10-25",
+      "locator": "Frosst Asteroids/'fever-pitched intensity' paragraph; Maddison 'bursting into a room' paragraph; Swersky office-visit and dishes paragraphs; Frosst desk paragraph",
+      "excerpt": "\"He was famous for bursting into a room and pronouncing that, he now finally, after all these years, understood how the brain worked.\" (Maddison) ... \"It's that fever-pitched intensity, passion and playfulness that he brings to everything\" (Frosst)",
+      "context": "Celebratory university news item collecting former students' anecdotes after the Nobel; affectionate by design, so weigh it as warm testimony, not critical assessment.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S15",
+      "url": "https://www.nbcnewyork.com/news/national-international/geoffrey-hinton-congress-ai-regulation/6549094/",
+      "title": "'Godfather of AI' warns Congress has 'maybe a year' left to regulate AI",
+      "speaker": "Geoffrey Hinton (reported by Scott Wong, Sahil Kapur, Brennan Leach and Katie Taylor, NBC News)",
+      "date": "2026-09-17",
+      "locator": "Opening paragraphs; 'recursive self-improvement' paragraph; 'little Chernobyl' paragraph",
+      "excerpt": "\"Maybe a year, but not much more than a year,\" Hinton said Wednesday evening after he and other AI experts huddled with Senate and House lawmakers behind closed doors. ... \"It is going to get out of control unless we do something. We need to slow down.\"",
+      "context": "Remarks to reporters after a closed-door briefing on Wednesday, September 16, 2026, organized by Sen. Bernie Sanders. The briefing itself was private; these are on-record remarks afterward.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S16",
+      "url": "https://techcrunch.com/2024/12/30/nonprofit-group-joins-elon-musks-effort-to-block-openais-for-profit-transition/",
+      "title": "Nonprofit group joins Elon Musk's effort to block OpenAI's for-profit transition",
+      "speaker": "Geoffrey Hinton (statement in Encode press release, quoted by TechCrunch)",
+      "date": "2024-12-30",
+      "locator": "Paragraph quoting Hinton's press-release statement (article updated December 30, 2024)",
+      "excerpt": "\"OpenAI was founded as an explicitly safety-focused nonprofit and made a variety of safety-related promises in its charter,\" Hinton said in a press release. \"It received numerous tax and other benefits from its nonprofit status. Allowing it to tear all of that up when it becomes inconvenient sends a very bad message to other actors in the ecosystem.\"",
+      "context": "Hinton backed Encode's amicus brief in Musk v. OpenAI. Encode's own release page did not render for text extraction; TechCrunch reproduces the statement.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S17",
+      "url": "https://globalnews.ca/news/5929564/geoffrey-hinton-artificial-intelligence-toronto/",
+      "title": "Tech in T.O.: Why Geoffrey Hinton, the 'Godfather of A.I.,' decided to live in Toronto",
+      "speaker": "Geoffrey Hinton (interviewed by Farah Nasser, Global News)",
+      "date": "2019-10-07",
+      "locator": "Quote on why he came to Canada; radiologist quote near end",
+      "excerpt": "\"I came to Canada because I like the society here and because they have very good funding for basic research. It's not very much money, but they give it for basic curiosity driven research as opposed to big applications,\" he said.",
+      "context": "Pre-Nobel, pre-safety-turn interview while still at Google. Gives his own short account of the 1987 move without mentioning the Pentagon or Reagan.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S18",
+      "url": "https://www.britannica.com/biography/Geoffrey-Hinton",
+      "title": "Geoffrey Hinton | Biography",
+      "speaker": "Encyclopaedia Britannica",
+      "date": "unknown",
+      "locator": "Career section, Carnegie Mellon / 1987 paragraph",
+      "excerpt": "Hinton left the United States for Canada in 1987, a decision fueled by disdain for the U.S. military and the Reagan administration. The majority of American AI research at the time was funded by the U.S. Department of Defense, and Hinton opposed using AI for combat.",
+      "context": "Reference summary; opened via r.jina.ai text rendering. Secondary characterization of motive, not Hinton's words.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S19",
+      "url": "https://www.cs.toronto.edu/~hinton/bio.html",
+      "title": "Geoffrey E. Hinton's Biographical Sketch",
+      "speaker": "Geoffrey Hinton (personal university page)",
+      "date": "unknown",
+      "locator": "Biographical sketch paragraph",
+      "excerpt": "Geoffrey Hinton received his BA in Experimental Psychology from Cambridge in 1970 and his PhD in Artificial Intelligence from Edinburgh in 1978. He did postdoctoral work at Sussex University and the University of California San Diego and spent five years as a faculty member in the Computer Science department at Carnegie-Mellon University.",
+      "context": "Self-maintained official biography; used only for career facts.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S20",
+      "url": "https://www.nobelprize.org/prizes/physics/2024/hinton/facts/",
+      "title": "Geoffrey Hinton – Facts",
+      "speaker": "Nobel Prize Outreach",
+      "date": "2024",
+      "locator": "Facts panel: Born; Prize motivation; Prize share",
+      "excerpt": "Born: 6 December 1947, London, United Kingdom ... Prize motivation: \"for foundational discoveries and inventions that enable machine learning with artificial neural networks\" ... Prize share: 1/2",
+      "context": "Official Nobel facts page; the 2024 physics laureates listed on the same page are John J. Hopfield and Geoffrey Hinton. Opened by plain curl during research; the cached text was rechecked during drafting. Added to the record at the draft stage for the birth date, birthplace and prize citation.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S21",
+      "url": "https://en.wikipedia.org/wiki/Removal_of_Sam_Altman_from_OpenAI",
+      "title": "Removal of Sam Altman from OpenAI",
+      "speaker": "Wikipedia contributors",
+      "date": "unknown (retrieved 2026-11-04)",
+      "locator": "Lead section",
+      "excerpt": "On November 17, 2023, OpenAI's board of directors ousted co-founder and chief executive Sam Altman. ... The removal was predicated by employee concerns, led by co-founder Ilya Sutskever and chief technology officer Mira Murati, about Altman's handling of artificial intelligence safety, commercialization, and allegations of lying and abusive behavior. Altman was reinstated on November 22 ... Sutskever was a signatory, defecting from the board and publicly apologizing for his participation in the board's previous actions.",
+      "context": "Opened by curl on 2026-11-04 at the draft stage, only to give readers context for Hinton's 'one of my students fired Sam Altman' remark. Reference summary built on cited news reports; used for dates and roles, not for any judgment of Altman.",
+      "kind": "secondary",
+      "access": "opened"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "Hinton was born in London on December 6, 1947 (Nobel facts page; consistent with the New Yorker's report that he married on his fiftieth birthday, December 6, 1997). Used in the body, the 'Who is' FAQ and birth_date/birth_place metadata.",
+      "passage": "born in London on December 6, 1947",
+      "class": "observed",
+      "source_ids": [
+        "S20",
+        "S01"
+      ],
+      "inference": "Factual biography from the official Nobel facts page.",
+      "alternative": "None material; birthplace is given as London by Nobel Prize Outreach.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C95",
+      "claim": "Hinton earned a BA in experimental psychology at Cambridge (1970) before a PhD in AI at Edinburgh (1978).",
+      "passage": "who trained in experimental psychology at Cambridge",
+      "class": "observed",
+      "source_ids": [
+        "S19",
+        "S01"
+      ],
+      "inference": "Career fact from his own university biography page; used in the 'Who is' FAQ.",
+      "alternative": "None; degree wording follows S19.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C12",
+      "claim": "Hinton moved from Carnegie Mellon to Canada and the University of Toronto in 1987. His stated reasons vary by account (NYT: reluctant to take Pentagon funding; New Yorker: partly because Rosalind loathed Ronald Reagan; Global News 2019: Canadian society and funding for basic research); the draft states only the move, not a motive.",
+      "passage": "moved to Canada in 1987",
+      "class": "self_report",
+      "source_ids": [
+        "S17",
+        "S01",
+        "S04"
+      ],
+      "inference": "Date of the move only; used in the 'Who is' FAQ.",
+      "alternative": "Motive is contested across his own accounts, so the draft deliberately omits it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C36",
+      "claim": "Hinton worked at Google for about ten years after selling DNNresearch to Google following the December 2012 auction.",
+      "passage": "worked at Google for about a decade after auctioning his company to it in 2012",
+      "class": "observed",
+      "source_ids": [
+        "S12",
+        "S06",
+        "S13"
+      ],
+      "inference": "He confirms 'about a decade' on Diary of a CEO; 60 Minutes calls it '10 happy years at Google'; Wired dates the auction to December 2012.",
+      "alternative": "The deal closed after the auction; the FAQ dates the auction, not the closing.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C32",
+      "claim": "Hinton shared the 2024 Nobel Prize in Physics with John J. Hopfield (prize share 1/2).",
+      "passage": "In 2024 he shared the Nobel Prize in Physics with John Hopfield",
+      "class": "observed",
+      "source_ids": [
+        "S20",
+        "S07",
+        "S11"
+      ],
+      "inference": "Biographical anchor.",
+      "alternative": "None; factual. The Turing Award is not mentioned in the draft.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C86",
+      "claim": "The Nobel committee's citation: 'for foundational discoveries and inventions that enable machine learning with artificial neural networks'.",
+      "passage": "for foundational discoveries and inventions that enable machine learning with artificial neural networks",
+      "class": "observed",
+      "source_ids": [
+        "S20"
+      ],
+      "inference": "Exact prize motivation from the official facts page.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C90",
+      "claim": "Hinton spent roughly fifty years pursuing neural networks before they worked well, through long periods when most of the field doubted them.",
+      "passage": "spent about fifty years arguing that networks of artificial neurons could learn the way brains do",
+      "class": "self_report",
+      "source_ids": [
+        "S06",
+        "S01",
+        "S10"
+      ],
+      "inference": "60 Minutes: 'It took, like, 50 years before it worked well'; New Yorker and SVT describe decades of field skepticism.",
+      "alternative": "'About fifty years' is his own round figure.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C48",
+      "claim": "On May 1, 2023, the NYT reported Hinton had quit Google so he could speak freely about the risks of AI.",
+      "passage": "had quit Google so he could speak freely about the risks of the technology he helped build",
+      "class": "observed",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "The NYT's framing that Hinton then corrected.",
+      "alternative": "The draft attributes the framing to the paper; Hinton's correction (C10) follows.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C10",
+      "claim": "On the day the New York Times announced his departure, Hinton publicly corrected its framing: 'In the NYT today, Cade Metz implies that I left Google so that I could criticize Google. Actually, I left so that I could talk about the dangers of AI without considering how this impacts Google. Google has acted very responsibly.'",
+      "passage": "Actually, I left so that I could talk about the dangers of AI without considering how this impacts Google.",
+      "class": "self_report",
+      "source_ids": [
+        "S05",
+        "S04"
+      ],
+      "inference": "A same-day public correction of a framing that flattered his own story, defending a former employer. Fits the Type 1 pattern of correcting what is not quite right.",
+      "alternative": "Could also be relationship maintenance with Google (he says he wanted to say good things about it, S03). The tweet is read via a verbatim reproduction, not the original post.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C87",
+      "claim": "Hinton's September 16, 2026 remarks followed a closed-door briefing for lawmakers held at the invitation of Sen. Bernie Sanders.",
+      "passage": "after a closed-door briefing for members of Congress organized by Sen.",
+      "class": "observed",
+      "source_ids": [
+        "S15"
+      ],
+      "inference": "Context for the dated Congress remarks.",
+      "alternative": "The briefing was private; only on-record remarks afterward are reported.",
+      "durability": "time_sensitive",
+      "review_trigger": "Re-check if later reporting corrects the briefing's date or organizer, and when the article's Congress material is refreshed (by 2027-09-16)."
+    },
+    {
+      "id": "C61",
+      "claim": "On September 16, 2026, Hinton told reporters Congress had 'Maybe a year, but not much more than a year' to act on AI.",
+      "passage": "Maybe a year, but not much more than a year",
+      "class": "self_report",
+      "source_ids": [
+        "S15"
+      ],
+      "inference": "Dated evidence of continued public advocacy at 78.",
+      "alternative": "A post-briefing remark to reporters, possibly rhetorical.",
+      "durability": "time_sensitive",
+      "review_trigger": "Review by 2027-09-16 when the 'maybe a year' window lapses, or sooner if Congress passes or kills major AI-safety legislation."
+    },
+    {
+      "id": "C88",
+      "claim": "Thesis (interpretation): across work, home and money, Hinton's costliest choices follow a rule that when he decides something is wrong he acts to correct it, which the draft treats as the Type 1 signature.",
+      "passage": "when Hinton decides something is wrong, he cannot leave it alone.",
+      "class": "interpretation",
+      "source_ids": [
+        "S05",
+        "S12",
+        "S08",
+        "S16",
+        "S01",
+        "S15"
+      ],
+      "inference": "Synthesizes C10, C11, C15, C25, C22/C61 and C08. Medium confidence.",
+      "alternative": "Curiosity (Type 5), professional demand and ordinary integrity explain parts of the same record; see type_hypothesis.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C89",
+      "claim": "Type answer (interpretation): Type 1, medium confidence, Type 5 the serious rival.",
+      "passage": "Ones live by an inner standard of how things should be.",
+      "class": "interpretation",
+      "source_ids": [
+        "S05",
+        "S08",
+        "S12",
+        "S01"
+      ],
+      "inference": "Plain-language statement of the leading hypothesis, with confidence and rival stated in the same answer.",
+      "alternative": "See type_hypothesis.against and alternative_case.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C02",
+      "claim": "Hinton recalls his father, the entomologist Howard Everest Hinton, saying: 'If you work twice as hard as me, when you're twice as old as I am you might be half as good' (New Yorker, 2023).",
+      "passage": "If you work twice as hard as me, when you're twice as old as I am you might be half as good.",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Establishes a demanding paternal standard Hinton still cites in his seventies. It is consistent with an internalized critical standard (Type 1), but equally with achievement pressure (Type 3) or anxiety (Type 6).",
+      "alternative": "Two wordings exist; quote each exactly with its source. A childhood standard is context, not proof of type; do not frame it as a causal wound.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C91",
+      "claim": "In the 60 Minutes telling (2023), his father said a version of the line every morning as Hinton walked down the driveway to school ('get in there pitching and maybe when you're twice as old as me you'll be half as good').",
+      "passage": "his father said a version of it every morning as he walked down the driveway to school",
+      "class": "self_report",
+      "source_ids": [
+        "S06"
+      ],
+      "inference": "Second, differently worded recollection of the same standard.",
+      "alternative": "The draft paraphrases rather than quoting the second wording.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C92",
+      "claim": "Hinton on his father: 'He knew a lot more about beetles than he knew about people.'",
+      "passage": "He knew a lot more about beetles than he knew about people",
+      "class": "self_report",
+      "source_ids": [
+        "S06"
+      ],
+      "inference": "His characterization of a distant father.",
+      "alternative": "One remark; context, not a causal wound.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C37",
+      "claim": "After his father died, the study was lined with boxes of beetle papers, with a smaller box near the door labeled 'Not insects' that held the family papers.",
+      "passage": "slightly smaller box that simply said, 'Not insects,' and that's where he had all the things about the family.",
+      "class": "self_report",
+      "source_ids": [
+        "S06"
+      ],
+      "inference": "A concrete, memorable detail of a father organized around work; used for the section title.",
+      "alternative": "Hinton's recollection on 60 Minutes; not interpreted as a type marker.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C17",
+      "claim": "Hinton's father, a committed Communist (the New Yorker says Stalinist), forbade him to study biology for ideological reasons; remembering this, Hinton said 'I hate faiths of all kinds.'",
+      "passage": "I hate faiths of all kinds.",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Strong aversion to belief held without evidence. That fits an internal standard of correctness (1), skepticism (6) or a reasoning-first temperament (5).",
+      "alternative": "One remark in context of a specific childhood conflict. The draft's gloss ('genetics cut against the belief that human nature could be remade') paraphrases the New Yorker's explanation of the father's view.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C38",
+      "claim": "Nobel Week (Dec 2024): 'There was a lot of pressure to succeed academically, so I kind of knew from a very early age that I had to be a successful academic or a failure.'",
+      "passage": "I had to be a successful academic or a failure",
+      "class": "self_report",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "Self-report of an early, binary standard.",
+      "alternative": "Audio-verified (the captions read 'ailure'). Retrospective.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C03",
+      "claim": "Hinton told the New Yorker he wondered whether he'd have been happier as an architect 'because I didn't have to force myself to do it', whereas with science 'I've always had to force myself. Because of the family, I had to succeed at it—I had to find a path. There was joy in it, but it was mostly anxiety. Now it's an enormous relief that I've succeeded.'",
+      "passage": "There was joy in it, but it was mostly anxiety.",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Self-report that his core work ran on pressure and should rather than pure delight. That matters for the type argument: it cuts against a pure Type 5 'retreat into knowledge' reading and fits an internal-standard (1), achievement (3) or anxiety (6) engine.",
+      "alternative": "Retrospective self-description by a man who, by students' accounts (C07), visibly enjoyed research. 'Successful academic or failure' comes from auto-captions ('ailure'); recheck against audio before quoting.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C39",
+      "claim": "Of carpentry, Hinton told SVT on Nobel banquet night: 'there was never any pressure with carpentry. I'm not very good at it, but I enjoy it.'",
+      "passage": "there was never any pressure with carpentry. I'm not very good at it, but I enjoy it",
+      "class": "self_report",
+      "source_ids": [
+        "S10"
+      ],
+      "inference": "The chosen-versus-required split in his own words.",
+      "alternative": "Audio-verified; the audio begins 'Yeah,' which the draft omits at the start of the quoted fragment.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C41",
+      "claim": "SVT (Dec 2024): 'My parents were atheists and sent me to a Christian school and I was the only person who didn't believe in God. As time went by, it turned out I was right.' He said being surrounded by people he thought were wrong 'was very useful when I was studying neural nets.'",
+      "passage": "I was the only person who didn't believe in God. As time went by, it turned out I was right",
+      "class": "self_report",
+      "source_ids": [
+        "S10"
+      ],
+      "inference": "Cross-context self-description of holding a view against the room.",
+      "alternative": "Audio-verified. Retrospective, told by a man proven right.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C04",
+      "claim": "Asked by 60 Minutes when he realized he was right about neural networks and most everyone else was wrong, Hinton said: 'I always thought I was right.'",
+      "passage": "I always thought I was right",
+      "class": "self_report",
+      "source_ids": [
+        "S06"
+      ],
+      "inference": "Repeated, cross-context self-description that rightness is something he sees internally and holds against consensus. That fits a Type 1 internal authority and also Type 5 trust in one's own model. It is a weak fit with Type 6, who typically seeks outside confirmation.",
+      "alternative": "Could be the retrospective confidence of a man proven right, not a lifelong trait. Professional incentive: the 'lone right scientist' story is also a good public narrative.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C40",
+      "claim": "New Yorker: 'I was always convinced it wasn't nonsense. It wasn't really faith—it was just completely obvious to me.'",
+      "passage": "It wasn't really faith—it was just completely obvious to me.",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Rightness experienced as plain sight rather than belief; fits an internal standard (1) or trust in one's own model (5).",
+      "alternative": "Retrospective.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C05",
+      "claim": "Nobel Week (Dec 2024) advice: if an idea seems right and differs from what everybody believes, 'don't give up on it until you've figured out why it's wrong' and 'you should just ignore what other people say. I'm very good at ignoring what other people say.'",
+      "passage": "I'm very good at ignoring what other people say.",
+      "class": "self_report",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "A repeated rule of conduct (October and December 2024). It shows a standard tested against his own reasoning, not against social approval.",
+      "alternative": "Generic advice many laureates give. Audio-verified; the audio reads 'you've figured out' (captions 'you figured out').",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C28",
+      "claim": "Hinton on the Boltzmann Machine: 'It should be true ... If I was God, I'd make it true.'",
+      "passage": "If I was God, I'd make it true.",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "'Should be true' idealism about how the world ought to work, set aside when evidence says otherwise. This is a 1-flavored idealism disciplined by evidence; it also fits 5's aesthetic of elegant models.",
+      "alternative": "The quotes are about algorithms, not morality; reading 'should' as typological is interpretive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C42",
+      "claim": "Yann LeCun, Hinton's former student and collaborator: 'Geoff thought it was the most beautiful algorithm. I thought it was ugly.'",
+      "passage": "Geoff thought it was the most beautiful algorithm. I thought it was ugly.",
+      "class": "third_party",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "Independent voice confirming Hinton's aesthetic attachment to the Boltzmann Machine.",
+      "alternative": "Same article as S01; LeCun's role is the New Yorker's description ('a former student and collaborator').",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C43",
+      "claim": "Bengio recalls Hinton, as an external reviewer of his master's thesis, writing 'something like \"This should not work\"'; the method worked better than Hinton expected.",
+      "passage": "something like 'This should not work.'",
+      "class": "third_party",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "A 'should' judgment overturned by results.",
+      "alternative": "Bengio's paraphrase of a decades-old review comment.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C44",
+      "claim": "Of backpropagation: 'It's so unsatisfying intellectually ... Unfortunately, it just works better.'",
+      "passage": "Unfortunately, it just works better.",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "His standard yielded to evidence; he built his reputation on the method he found less elegant.",
+      "alternative": "Algorithmic taste, not morality; reading 'should' as typological is interpretive (labeled as such in the draft).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C08",
+      "claim": "On his Georgian Bay island the New Yorker reports contractors' 'needless mistakes (running a drainage pipe uphill, leaving floors half finished) that still enrage him today' and that 'Almost every room harbors a corrective mini-project'.",
+      "passage": "made needless mistakes (running a drainage pipe uphill, leaving floors half finished) that still enrage him today.",
+      "class": "observed",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "The clearest non-professional evidence for a Type 1 pattern: anger attached to things done wrong, and repeated effort to bring a place into line with how it should be.",
+      "alternative": "One reporter's four-day visit (stated in the draft). Precision about building work is also ordinary in an engineer (5). The New Yorker appended a correction that an earlier version mischaracterized his tree-felling process; the draft quotes only the general 'always cutting down trees' line and does not describe the felling.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C96",
+      "claim": "The New Yorker's Joshua Rothman spent four days with Hinton on his Georgian Bay island in 2023.",
+      "passage": "spent four days with Hinton on his island in Georgian Bay, Ontario",
+      "class": "observed",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Scope and limit of the home evidence.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C46",
+      "claim": "Rothman: 'On the island, he is always cutting down trees to create more orderly and beautiful tableaus.'",
+      "passage": "he is always cutting down trees to create more orderly and beautiful tableaus",
+      "class": "third_party",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Reporter's observation of an ordering habit.",
+      "alternative": "Reporter's characterization; see C08 on the published correction about the felling process.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C45",
+      "claim": "Hinton's notes to contractors were written on the materials, e.g. 'Bathroom should have this type of baseboard (maple trim in front of shower only)' and 'Do not prime shelf, prime shelf support.'",
+      "passage": "Do not prime shelf, prime shelf support.",
+      "class": "observed",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Concrete corrective behavior at home.",
+      "alternative": "Notes to a new contractor are also practical; the draft says the anger, not the notes, is the tell.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C09",
+      "claim": "Hinton contests the term 'hallucinate' for chatbots: 'We should say \"confabulate\" ... \"Hallucination\" is when you think there's sensory input.'",
+      "passage": "We should say 'confabulate,'",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Precision about correctness. It fits both the Type 1 'get it right' standard and Type 5 mastery-before-speaking, so it does not discriminate on its own.",
+      "alternative": "Professional habit of a psychology-trained scientist; not type-specific.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C47",
+      "claim": "When his third wife Jackie, ill with pancreatic cancer, could no longer manage the cottage stairs, Hinton built a basket on a string so she could lower her tea to be warmed in the microwave; he observed, 'I should've just moved the microwave upstairs.'",
+      "passage": "I should've just moved the microwave upstairs.",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Even a tender story ends in a self-correction; texture for the corrective habit.",
+      "alternative": "Dry humor, not necessarily self-criticism. Concerns a deceased private person; kept brief and in his framing.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C55",
+      "claim": "In December 2012 Hinton ran the auction for DNNresearch, a three-person company, from room 731 of Harrah's at Lake Tahoe.",
+      "passage": "In December 2012, Hinton ran an auction for a three-person company, DNNresearch, from room 731 of Harrah's at Lake Tahoe.",
+      "class": "third_party",
+      "source_ids": [
+        "S13",
+        "S12"
+      ],
+      "inference": "Factual frame for the auction anecdotes.",
+      "alternative": "Metz's reconstruction; company name confirmed by Hinton on Diary of a CEO.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C54",
+      "claim": "The other members were his students Alex Krizhevsky and Ilya Sutskever, with whom he built AlexNet, which Hinton describes as 'very good at recognizing objects and images.'",
+      "passage": "very good at recognizing objects and images.",
+      "class": "self_report",
+      "source_ids": [
+        "S12",
+        "S01"
+      ],
+      "inference": "Context for the sale.",
+      "alternative": "None material.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C31",
+      "claim": "Hinton says 'I last sat down in 2005 ... and it was a mistake,' after a back injury first suffered as a teenager.",
+      "passage": "I last sat down in 2005",
+      "class": "observed",
+      "source_ids": [
+        "S13"
+      ],
+      "inference": "Decades of disciplined self-management under constraint, delivered with dry humor. It is a vivid, durable detail, not strongly type-discriminating.",
+      "alternative": "The draft does not state current travel or sitting habits.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C53",
+      "claim": "During the auction the laptop sat on an upturned trash can so Hinton could type standing up.",
+      "passage": "watched the bids on a laptop set on an upturned trash can",
+      "class": "third_party",
+      "source_ids": [
+        "S13"
+      ],
+      "inference": "Vivid physical detail from Metz.",
+      "alternative": "Metz's reconstruction.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C14",
+      "claim": "Hinton says he sold his company to a big company because 'I have a son who has learning difficulties and in order to be sure he would never be out on the street I needed to get several million dollars and I wasn't going to get that as an academic.' He had tried teaching a Coursera course for money first.",
+      "passage": "I have a son who has learning difficulties",
+      "class": "self_report",
+      "source_ids": [
+        "S12"
+      ],
+      "inference": "A security-and-responsibility motive for the most lucrative decision of his life, given in his own words.",
+      "alternative": "Sensitive: concerns a private living family member. Used only in Hinton's own public framing, once, without further detail. Retrospective 2025 account; audio-verified.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C56",
+      "claim": "Before selling, Hinton taught a Coursera course hoping to earn money that way: 'there was no money in that.'",
+      "passage": "There was no money in that.",
+      "class": "self_report",
+      "source_ids": [
+        "S12"
+      ],
+      "inference": "Supports the financial motive for the sale.",
+      "alternative": "Audio-verified; the draft says 'an online course'.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C13",
+      "claim": "Per Metz, when Baidu's Kai Yu left his backpack in room 731, Hinton and his students considered looking inside for bid information but 'knowing it wasn't the right thing to do, they didn't.'",
+      "passage": "knowing it wasn't the right thing to do, they didn't",
+      "class": "third_party",
+      "source_ids": [
+        "S13"
+      ],
+      "inference": "The backpack decision and stopping short of the maximum price show rule-keeping and 'right home' over money (consistent with 1). Hiding frailty to protect his image is a point for 3, not 1.",
+      "alternative": "Metz's narration, not a Hinton quote; the draft labels it so.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C49",
+      "claim": "Hinton stopped the auction as the price hit $44 million and sold to Google.",
+      "passage": "as the price hit $44 million, Hinton stopped the auction and sold to Google",
+      "class": "third_party",
+      "source_ids": [
+        "S13"
+      ],
+      "inference": "Choosing a buyer over a higher price.",
+      "alternative": "Metz's reconstruction; other practical factors are possible.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C50",
+      "claim": "Metz: 'finding the right home for his research was ultimately more important to him than commanding the maximum price.'",
+      "passage": "finding the right home for his research was ultimately more important to him than commanding the maximum price",
+      "class": "interpretation",
+      "source_ids": [
+        "S13"
+      ],
+      "inference": "Author's motive attribution, labeled in the draft as Metz's reading.",
+      "alternative": "Not Hinton's words.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C51",
+      "claim": "Hinton hid a makeshift humidifying chamber from Baidu's visitor: 'I didn't want them thinking I was old and decrepit.'",
+      "passage": "I didn't want them thinking I was old and decrepit",
+      "class": "self_report",
+      "source_ids": [
+        "S13"
+      ],
+      "inference": "Image management: a point for Type 3, reported in the draft as counterevidence.",
+      "alternative": "Ordinary dealmaking prudence is also possible.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C52",
+      "claim": "He told his students, while they hid it: 'This is what vice presidents do.'",
+      "passage": "This is what vice presidents do",
+      "class": "self_report",
+      "source_ids": [
+        "S13"
+      ],
+      "inference": "Dry humor in the same episode.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C94",
+      "claim": "Hinton left Google in spring 2023, at 75.",
+      "passage": "Hinton left Google in spring 2023, at 75.",
+      "class": "self_report",
+      "source_ids": [
+        "S03",
+        "S12",
+        "S04"
+      ],
+      "inference": "Dates the departure.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C57",
+      "claim": "Days before the announcement, MIT Technology Review: 'I want to talk about AI safety issues without having to worry about how it interacts with Google's business ... As long as I'm paid by Google, I can't do that.'",
+      "passage": "As long as I'm paid by Google, I can't do that.",
+      "class": "self_report",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "His 2023 account of leaving.",
+      "alternative": "The 2025 account puts age first (C58).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C58",
+      "claim": "Diary of a CEO (June 2025): 'The main reason I left Google was because I was 75 and I wanted to retire. I've done a very bad job of that.'",
+      "passage": "The main reason I left Google was because I was 75 and I wanted to retire.",
+      "class": "self_report",
+      "source_ids": [
+        "S12"
+      ],
+      "inference": "A less heroic account that the draft reports alongside the principled one.",
+      "alternative": "Audio-verified.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C59",
+      "claim": "He also said he was 'making many more mistakes when I programmed, which is very annoying.'",
+      "passage": "making many more mistakes when I programmed, which is very annoying",
+      "class": "self_report",
+      "source_ids": [
+        "S12"
+      ],
+      "inference": "Annoyance at his own declining precision.",
+      "alternative": "Audio-verified.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C60",
+      "claim": "Google encouraged him to stay and work on AI safety and said he could do whatever he liked on it.",
+      "passage": "Google, he said, had encouraged him to stay and work on safety.",
+      "class": "self_report",
+      "source_ids": [
+        "S12"
+      ],
+      "inference": "Shows the exit was not forced.",
+      "alternative": "His account; Google's side not checked.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C11",
+      "claim": "On why he would not stay: 'You kind of censor yourself if you work for a big company, you don't feel right saying things that will damage the big company. Even if you could get away with it, it just feels wrong to me.'",
+      "passage": "Even if you could get away with it, it just feels wrong to me.",
+      "class": "self_report",
+      "source_ids": [
+        "S12"
+      ],
+      "inference": "The moral reasoning is framed as felt wrongness, not as calculation ('it just feels wrong to me'). That is the language of an internal standard (1). Annoyance at his own declining precision also fits.",
+      "alternative": "The 2025 account puts age first, so the exit was not purely principled. Retirement plus the wish to speak freely is an ordinary career transition.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C64",
+      "claim": "Hinton in 2025: 'So I feel I have a duty now to talk about the risks.'",
+      "passage": "So I feel I have a duty now to talk about the risks",
+      "class": "self_report",
+      "source_ids": [
+        "S12"
+      ],
+      "inference": "Duty language for his advocacy.",
+      "alternative": "Audio-verified.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C22",
+      "claim": "On October 8, 2024 Hinton said: 'I'm 76 and I'm not going to do much more frontier research, I believe. I'm going to spend my time advocating for people to work on safety.'",
+      "passage": "I'm going to spend my time advocating for people to work on safety.",
+      "class": "self_report",
+      "source_ids": [
+        "S11"
+      ],
+      "inference": "A repeated, costly choice of public duty over rest. It is central to the Type 1 reading (reformer acting on a 'should') and harder to square with a withdrawing Type 5, though a healthy 5 moving toward 8 could also explain it.",
+      "alternative": "Late-career roles are also shaped by demand; Nobel prestige makes him sought after. Audio-verified.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C23",
+      "claim": "In his December 10, 2024 Nobel banquet speech Hinton spent his time on risks: 'we now have evidence that if they are created by companies motivated by short-term profits, our safety will not be the top priority. We urgently need research on how to prevent these new beings from wanting to take control.'",
+      "passage": "our safety will not be the top priority",
+      "class": "self_report",
+      "source_ids": [
+        "S09"
+      ],
+      "inference": "He used the profession's highest ceremonial platform for a warning rather than a victory lap. That is consistent with duty over image.",
+      "alternative": "An audience-aware choice; the Nobel committee had already linked the prize to safety discussion.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C24",
+      "claim": "At his October 8, 2024 Nobel press conference Hinton said: 'I'm particularly proud of the fact that one of my students fired Sam Altman.'",
+      "passage": "I'm particularly proud of the fact that one of my students fired Sam Altman",
+      "class": "self_report",
+      "source_ids": [
+        "S11"
+      ],
+      "inference": "He makes blunt public moral judgments of powerful people. That fits a Type 1 judging mind (and an 8-like bluntness), and he declines to judge someone he doesn't know.",
+      "alternative": "Opinion about a living person; the draft attributes it to Hinton and adds dated context on the 2023 removal and reinstatement (C69), including Sutskever's later apology. Musk remarks are not used.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C68",
+      "claim": "Asked to elaborate, he said OpenAI was set up with a big emphasis on safety and 'over time, it turned out that Sam Altman was much less concerned with safety than with profits. And I think that's unfortunate.'",
+      "passage": "much less concerned with safety than with profits",
+      "class": "self_report",
+      "source_ids": [
+        "S11"
+      ],
+      "inference": "A blunt moral judgment of a powerful person.",
+      "alternative": "Hinton's opinion; attributed as his view.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C69",
+      "claim": "OpenAI's board removed Sam Altman as CEO on November 17, 2023, after concerns led by Ilya Sutskever and Mira Murati; Sutskever later publicly apologized for his part, and Altman was reinstated on November 22, 2023.",
+      "passage": "as chief executive on November 17, 2023. Sutskever later apologized publicly for his part, and Altman was reinstated on November 22",
+      "class": "observed",
+      "source_ids": [
+        "S21"
+      ],
+      "inference": "Context for Hinton's remark.",
+      "alternative": "Reference summary; motives for the removal remain disputed and are not characterized in the draft.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C25",
+      "claim": "Hinton backed Encode's amicus brief opposing OpenAI's for-profit conversion (December 2024): 'OpenAI was founded as an explicitly safety-focused nonprofit and made a variety of safety-related promises in its charter ... Allowing it to tear all of that up when it becomes inconvenient sends a very bad message to other actors in the ecosystem.'",
+      "passage": "Allowing it to tear all of that up when it becomes inconvenient sends a very bad message to other actors in the ecosystem.",
+      "class": "self_report",
+      "source_ids": [
+        "S16"
+      ],
+      "inference": "He objects to a promise being broken when keeping it becomes inconvenient. That is the same principle as his own Sejnowski agreement (C15). The rule-and-promise concern is a Type 1 signature.",
+      "alternative": "Policy position shared by many safety advocates; may reflect alliance-building as much as temperament.",
+      "durability": "time_sensitive",
+      "review_trigger": "Re-check if OpenAI's corporate structure changes again or the Musk v. OpenAI litigation produces a final ruling; the draft describes it only as a December 2024 brief opposing OpenAI's move away from nonprofit control."
+    },
+    {
+      "id": "C63",
+      "claim": "In 2023 Hinton declined to sign a petition for a six-month pause in AI research: 'China's not going to stop developing it for six months.'",
+      "passage": "China's not going to stop developing it for six months",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Baseline for his change of position.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C62",
+      "claim": "October 8, 2024: 'I've never recommended slowing the advancement of AI because I don't think that's feasible.'",
+      "passage": "I've never recommended slowing the advancement of AI because I don't think that's feasible.",
+      "class": "self_report",
+      "source_ids": [
+        "S11"
+      ],
+      "inference": "Earlier position before the 2026 shift.",
+      "alternative": "Audio-verified.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C33",
+      "claim": "On September 16, 2026 Hinton told reporters: 'It is going to get out of control unless we do something. We need to slow down.' This reverses his October 2024 position (C62).",
+      "passage": "We need to slow down.",
+      "class": "self_report",
+      "source_ids": [
+        "S15"
+      ],
+      "inference": "A real change of position as his timelines shortened. This is evidence of updating on evidence rather than holding a fixed creed.",
+      "alternative": "The 2026 quote is a post-briefing remark to reporters; it may be rhetorical rather than a formal policy shift.",
+      "durability": "time_sensitive",
+      "review_trigger": "Re-check if Hinton endorses or rejects a specific pause or moratorium proposal, or signs a new public statement on slowing AI."
+    },
+    {
+      "id": "C06",
+      "claim": "Asked on October 8, 2024 how he would describe himself: 'I would say I am someone who doesn't really know what field he's in but would like to understand how the brain works.'",
+      "passage": "I would say I am someone who doesn't really know what field he's in but would like to understand how the brain works",
+      "class": "self_report",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "This is the strongest evidence for Type 5: a lifelong driving question about how minds work. Under the Type 1 reading, the question is the vocation and the internal standard is the engine.",
+      "alternative": "Taken alone, this points to 5.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C27",
+      "claim": "Hinton theorizes emotion: 'I think feelings are counterfactual statements about what would have caused an action.'",
+      "passage": "I think feelings are counterfactual statements about what would have caused an action",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Translating feelings into mechanism is a classic Type 5 move: understanding emotion by modeling it. This is counterevidence for the leading Type 1 read.",
+      "alternative": "It is also simply his scientific position on AI and minds, held for professional reasons.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C29",
+      "claim": "Hinton says his turn to safety came from understanding: 'The closest I had to a eureka moment was when a Google system called Palm was able to say why a joke was funny,' coupled with realizing how much better digital is than analog for sharing information.",
+      "passage": "The closest I had to a eureka moment was when a Google system called Palm was able to say why a joke was funny",
+      "class": "self_report",
+      "source_ids": [
+        "S12"
+      ],
+      "inference": "The fear follows a model conclusion. That is a point for 5 (and for 1's evidence-first rightness) against an anxiety-first Type 6 reading.",
+      "alternative": "He also says he wishes he had worried sooner (S08); the 'oxy moron' anecdote is not used in the draft. Audio-verified.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C26",
+      "claim": "Of his 2016 prediction that AI would by now be reading all the scans radiologists read: 'That prediction was wrong. I was a bit overenthusiastic.'",
+      "passage": "That prediction was wrong. I was a bit overenthusiastic",
+      "class": "self_report",
+      "source_ids": [
+        "S11"
+      ],
+      "inference": "He updates easily and without visible self-flagellation. That reads as a model-updater (Type 5), and it is counterevidence for the harsh self-criticism often associated with Type 1.",
+      "alternative": "Admitting error is also a credibility tool for a public warner. Audio-verified (captions read 'over enthusiastic').",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C21",
+      "claim": "MIT Technology Review (2023): 'I'm mildly depressed ... Which is why I'm scared.' He framed the mildly depressed as the people whose risk estimates are 'usually right'.",
+      "passage": "I'm mildly depressed",
+      "class": "self_report",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "This is the strongest support for a Type 6 alternative: anticipatory worry plus practical hedging against specific threats.",
+      "alternative": "He presents the gloom as calibration ('the mildly depressed person ... usually right'), not as dread. Hedging against a modeled risk is also what a Type 5 or 1 would do once convinced.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C70",
+      "claim": "He spreads his and his children's money between three Canadian banks in case a cyberattack takes one down.",
+      "passage": "spreads his money and his children's money between three Canadian banks",
+      "class": "self_report",
+      "source_ids": [
+        "S12"
+      ],
+      "inference": "Concrete hedging: the strongest Type 6 datum.",
+      "alternative": "Hedging a modeled risk is also what a 5 or 1 would do once convinced. Audio-verified.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C71",
+      "claim": "On estimates of bad outcomes, the mildly depressed person 'will say the odds are maybe around 40%, and they're usually right.'",
+      "passage": "the mildly depressed are \"usually right.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "Gloom framed as calibration, not dread.",
+      "alternative": "His heuristic, not evidence.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C07",
+      "claim": "Chris Maddison: 'He was famous for bursting into a room and pronouncing that, he now finally, after all these years, understood how the brain worked.'",
+      "passage": "He was famous for bursting into a room and pronouncing that, he now finally, after all these years, understood how the brain worked.",
+      "class": "third_party",
+      "source_ids": [
+        "S14"
+      ],
+      "inference": "Independent named testimony of delight in ideas and warmth toward students. This is counterevidence to the 'mostly anxiety' self-report (C03) and to a detached Type 5 caricature, and it is a playful texture a strict Type 1 reading does not predict.",
+      "alternative": "Celebratory university article; affectionate by design. The Asteroids injury is Frosst's secondhand retelling.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C73",
+      "claim": "Maddison: 'The excitement, the joy radiated out of his office down the hall.'",
+      "passage": "The excitement, the joy radiated out of his office down the hall",
+      "class": "third_party",
+      "source_ids": [
+        "S14"
+      ],
+      "inference": "Counterevidence to the 'mostly anxiety' self-report.",
+      "alternative": "Celebratory university article.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C72",
+      "claim": "Nick Frosst says Hinton played Asteroids until it damaged a finger: 'It's that fever-pitched intensity, passion and playfulness that he brings to everything.'",
+      "passage": "It's that fever-pitched intensity, passion and playfulness that he brings to everything.",
+      "class": "third_party",
+      "source_ids": [
+        "S14"
+      ],
+      "inference": "Playfulness a strict One reading does not predict.",
+      "alternative": "Frosst's retelling of Hinton's own story.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C74",
+      "claim": "Kevin Swersky says Hinton offered to put him up and to go buy him dishes.",
+      "passage": "offering to put him up and go out to buy him dishes",
+      "class": "third_party",
+      "source_ids": [
+        "S14"
+      ],
+      "inference": "Warmth toward students.",
+      "alternative": "Celebratory article.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C16",
+      "claim": "Hinton told the New Yorker that 'Geoff' is an anagram for 'ego fortissimo'.",
+      "passage": "'Geoff' is an anagram for 'ego fortissimo.'",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Irreverent, anti-authority wit. Sharp one-liners fit a Type 1 critic's dry edge and a counterphobic Type 6, and the playfulness also brushes Type 7.",
+      "alternative": "Humor is weak type evidence.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C75",
+      "claim": "Hinton replied to a long note from a Canadian intelligence agency with 'Snowden is my hero.'",
+      "passage": "Snowden is my hero.",
+      "class": "observed",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Anti-authority wit.",
+      "alternative": "New Yorker report of an email.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C30",
+      "claim": "Partner Rosemary Gartner, a retired sociologist: 'I think he's the kind of person who always needs a partner.'",
+      "passage": "I think he's the kind of person who always needs a partner.",
+      "class": "third_party",
+      "source_ids": [
+        "S02",
+        "S03"
+      ],
+      "inference": "Cuts against a self-sufficient, low-need Type 5 caricature.",
+      "alternative": "Intimate, affectionate witness.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C65",
+      "claim": "The NYT reported in May 2023: 'A part of him, he said, now regrets his life's work.'",
+      "passage": "A part of him, he said, now regrets his life's work",
+      "class": "observed",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Reporter's paraphrase of his regret, quoted as the paper's wording.",
+      "alternative": "Hinton's later statements soften this (C20, C67).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C66",
+      "claim": "NYT quote: 'I console myself with the normal excuse: If I hadn't done it, somebody else would have.'",
+      "passage": "I console myself with the normal excuse: If I hadn't done it, somebody else would have.",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "His own 2023 words on responsibility.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C67",
+      "claim": "By fall 2023 Hinton had sent a journalist a link to Edith Piaf's 'Non, Je Ne Regrette Rien'; the New Yorker says he does not regret his work.",
+      "passage": "Non, Je Ne Regrette Rien",
+      "class": "observed",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Low guilt about past work.",
+      "alternative": "Reported by the New Yorker; the journalist is unnamed.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C20",
+      "claim": "In 2025 Hinton said: 'I don't feel particularly guilty about developing AI like 40 years ago because at that time we had no idea that this stuff was gonna happen this fast.'",
+      "passage": "I don't feel particularly guilty about developing AI like 40 years ago",
+      "class": "self_report",
+      "source_ids": [
+        "S12"
+      ],
+      "inference": "Most of his statements converge on no personal guilt for past work plus a forward-looking duty. Duty-without-guilt fits a principled reformer. The relative absence of self-reproach is counterevidence to a classic Type 1 inner critic.",
+      "alternative": "Audio-verified. Present as change over time, not contradiction.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C19",
+      "claim": "Hinton in 2025: 'I wish I'd spent more time with my wife. And with my children when they were little. I was kind of obsessed with work.' He identifies the wife as the one who died of pancreatic cancer (Jackie).",
+      "passage": "I wish I'd spent more time with my wife.",
+      "class": "self_report",
+      "source_ids": [
+        "S12"
+      ],
+      "inference": "Work obsession at a family cost, with late regret. It fits a duty-and-standard engine (1), mind-absorption (5) or achievement (3) equally; this is the cost side of the pattern, not a discriminator.",
+      "alternative": "Audio-verified (captions read 'I wish I spent'). Common regret among high achievers.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C76",
+      "claim": "He added that Jackie 'was very supportive of me spending a lot of time working.'",
+      "passage": "was very supportive of me spending a lot of time working.",
+      "class": "self_report",
+      "source_ids": [
+        "S12"
+      ],
+      "inference": "Context for the regret.",
+      "alternative": "Audio-verified.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C18",
+      "claim": "By Hinton's account to the New Yorker, when his second wife Rosalind declined chemotherapy for ovarian cancer and asked him to sell their house to pay for homeopathic treatments, he refused for the children's sake: 'I drew the line there.'",
+      "passage": "I drew the line there.",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S12"
+      ],
+      "inference": "Shows how he responds to irrationality in someone he loves: anger and a firm line set for the children's sake. It also shows him generalizing grief into a principle about facing reality, which reads as both 1 (the right response) and 5 (the rational stance).",
+      "alternative": "Highly sensitive: a deceased private person's medical choices, told only from his side. The draft keeps it to two sentences, attributes it, and does not characterize Rosalind beyond the facts he gave. 'She hurt people...' is not quoted.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C79",
+      "claim": "Rosalind died in 1994.",
+      "passage": "She died in 1994.",
+      "class": "observed",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Date fact.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C77",
+      "claim": "Of Jackie: 'She was incredibly brave and incredibly rational.'",
+      "passage": "was incredibly brave and incredibly rational.",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Contrast he draws between two responses to illness.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C78",
+      "claim": "Hinton draws the AI lesson himself: 'We can't be in denial ... We have to be real.'",
+      "passage": "We can't be in denial",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Grief generalized into a principle about facing reality.",
+      "alternative": "Reads as both 1 and 5.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C80",
+      "claim": "Half his Nobel share went to a Canadian organization that trains people in Indigenous communities to produce safe drinking water.",
+      "passage": "trains people living in Indigenous communities to produce safe drinking water",
+      "class": "self_report",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "Moral indignation at a fixable injustice, acted on.",
+      "alternative": "Audio-verified; the organization is not named in the interview.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C82",
+      "claim": "Hinton's figure: in Ontario 20 percent of Indigenous communities lack safe drinking water.",
+      "passage": "His own figure was that 20 percent of Indigenous communities in Ontario lack it.",
+      "class": "self_report",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "Attributed as his figure.",
+      "alternative": "Not independently checked; the draft labels it as his figure.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C81",
+      "claim": "'It's ridiculous at this time in a rich country like Canada ... That's just crazy.'",
+      "passage": "That's just crazy.",
+      "class": "self_report",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "Heat attached to a wrong.",
+      "alternative": "Audio-verified.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C15",
+      "claim": "Hinton and Terry Sejnowski agreed in the 1980s to split any prize one of them won for the Boltzmann work; when the 2024 Nobel came, partly for Boltzmann machines, Hinton offered Sejnowski half.",
+      "passage": "We had an agreement back in the 1980s which was that if they gave it to one of us and not the other one, we'd split it",
+      "class": "self_report",
+      "source_ids": [
+        "S08",
+        "S11"
+      ],
+      "inference": "Keeping a forty-year-old informal promise at real cost, and moral indignation ('crazy') at a fixable injustice. These are among the strongest concrete Type 1 data points.",
+      "alternative": "Generosity and loyalty also fit 2, 6 or 9. Audio-verified.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C85",
+      "claim": "Sejnowski declined the money because the prize was also for later work he was not involved in.",
+      "passage": "Sejnowski declined, because the prize also covered later work he had not been part of.",
+      "class": "self_report",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "Hinton's account of Sejnowski's reason.",
+      "alternative": "Hinton's paraphrase of Sejnowski.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C83",
+      "claim": "They used that half to set up a prize in Sejnowski's name 'for young researchers with crazy theories of how the brain works, like we were.'",
+      "passage": "for young researchers with crazy theories of how the brain works, like we were.",
+      "class": "self_report",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "Ending detail; ties the promise to his identity as a contrarian.",
+      "alternative": "Audio-verified; captions include an 'um' before 'like'.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C84",
+      "claim": "Of Sejnowski not being named a laureate: 'I'm not complaining about that, but he could have been.'",
+      "passage": "I'm not complaining about that, but he could have been",
+      "class": "self_report",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "A fairness judgment.",
+      "alternative": "Audio-verified.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C93",
+      "claim": "Hinton backed the Encode brief later in December 2024 (TechCrunch, December 30, 2024), weeks after the December 6 Nobel Week interview.",
+      "passage": "Later that month, Hinton put his name to a legal fight",
+      "class": "observed",
+      "source_ids": [
+        "S16",
+        "S08"
+      ],
+      "inference": "Dates the juxtaposition in the closing section.",
+      "alternative": "TechCrunch's date is the article date; the brief's filing date was not separately checked.",
+      "durability": "stable",
+      "review_trigger": ""
+    }
+  ],
+  "type_hypothesis": {
+    "type": 1,
+    "confidence": "medium",
+    "for_claim_ids": [
+      "C08",
+      "C10",
+      "C11",
+      "C15",
+      "C25",
+      "C22",
+      "C04",
+      "C03",
+      "C13",
+      "C24"
+    ],
+    "against": "The most obvious read of Hinton is Type 5, and real evidence supports it. He defines himself by a question ('would like to understand how the brain works', C06). Students describe joy in ideas, not duty (C07). He theorizes feelings as mechanisms (C27), updates calmly when wrong (C26), and reached his AI fear through a model of digital versus analog learning (C29). The Type 1 reading must also absorb several things. His treatment of his own past is relatively guilt-free (C20), which is unusual for a 1's inner critic. He is playful and irreverent (C07, C16). He calls science 'mostly anxiety' (C03), which fits Type 6 or 3 as well as 1. He hedges concretely against threats (three banks, C21). And he hid his frailty during the 2012 auction to protect his image (C13).",
+    "alternative_type": 5,
+    "alternative_case": "Type 5, the investigator: a lifelong drive to understand how minds work, pursued for fifty years against a dismissive field, with his worth anchored in having the right model. This reading explains why he says he 'doesn't really know what field he's in' and why his warnings come from analysis rather than alarm. It also explains his insistence on understanding before explaining (C09), his intellectualizing of emotion (C27), his willingness to abandon methods that don't fit the brain (C28), his work absorption at his family's expense (C19) and the island retreat. A Type 6 reading (anxiety plus contrarian distrust of authority, C17, C21, C16) was also considered and ranked third: Hinton's certainty is self-generated ('it was just completely obvious to me', C04), not tested against allies or authorities.",
+    "discriminator": "What Hinton does after he sees something is wrong. A Type 5 typically understands an error and conserves himself. Across domains and decades, Hinton instead attaches heat and a 'should' to the error and acts to correct it, often at a cost. He publicly corrected the NYT's framing of his exit the same day, defending Google (C10). He left a paid post because staying quiet 'just feels wrong to me' (C11). He kept a forty-year-old promise to split his Nobel money (C15). He condemned OpenAI for tearing up its promises 'when it becomes inconvenient' (C25). He gave up retirement to advocate as a 'duty' (C22). At home, contractors' errors 'still enrage him' and every room carries corrective notes (C08). Limits: the home details rest on one reporter's visit, professional demand also puts him in front of lawmakers, and many principled people of any type keep promises. The 1987 move (C12) is not used as evidence because his own accounts of its motive differ.",
+    "unexplained": "Several things stay unexplained by the Type 1 reading. One is the exuberant, almost Seven-like delight students describe (bursting into rooms to announce he finally understood the brain). Another is his easy, guilt-free admissions of error, together with 'Non, Je Ne Regrette Rien'. A third is his self-report that science was 'mostly anxiety', which a Type 6 reading explains as well. Finally, the image-protective concealment of his illness at the 2012 auction looks more like Type 3. No wing or subtype is proposed; 1w2 (public duty, warmth to students) and 1w9 (dry detachment, island life) both have some support and neither is defensible from this record."
+  },
+  "profile_format": "standard"
+}

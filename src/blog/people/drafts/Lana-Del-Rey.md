@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 4
-type: ['musician']
+type: ['musician', 'alternative-artist']
 person: 'lana-del-rey'
 suggestions: ['Billie-Eilish', 'Olivia-Rodrigo', 'Taylor-Swift', 'Chappell-Roan', 'Jack-Antonoff']
 wikipedia: 'https://en.wikipedia.org/wiki/Lana_Del_Rey'

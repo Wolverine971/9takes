@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 1
-type: ['author', 'creator', 'entrepreneur']
+type: ['author', 'creator', 'entrepreneur', 'strategy-writer']
 person: 'Ryan-Holiday'
 suggestions: ['Marcus-Aurelius', 'Robert-Greene', 'Tim-Ferriss', 'Jocko-Willink']
 wikipedia: 'https://en.wikipedia.org/wiki/Ryan_Holiday'

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '7'
-type: ['musician', 'celebrity']
+type: ['musician', 'celebrity', 'pop-star']
 person: 'Lizzo'
 suggestions: ['Drake', 'Ariana-Grande', 'Keke-Palmer', 'Olivia-Rodrigo']
 wikipedia: 'https://en.wikipedia.org/wiki/Lizzo'

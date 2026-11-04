@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 5
-type: ['techie', 'entrepreneur']
+type: ['techie', 'entrepreneur', 'frontier-builder']
 person: 'Yang-Zhilin'
 suggestions: ['Liang-Wenfeng', 'Dario-Amodei', 'Sam-Altman', 'Elon-Musk']
 wikipedia: 'https://en.wikipedia.org/wiki/Yang_Zhilin'

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
-type: ['creator', 'musician']
+type: ['creator', 'musician', 'streamer']
 person: 'plaqueboymax'
 suggestions: ['Kai-Cenat', 'Adin-Ross', 'Drake', 'IShowSpeed']
 wikipedia: 'https://en.wikipedia.org/wiki/PlaqueBoyMax'

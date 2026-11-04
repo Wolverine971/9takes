@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
-type: ['musician']
+type: ['musician', 'pop-star']
 person: 'zara-larsson'
 suggestions: ['Charli-XCX', 'Taylor-Swift', 'Ariana-Grande', 'Chappell-Roan']
 wikipedia: 'https://en.wikipedia.org/wiki/Zara_Larsson'

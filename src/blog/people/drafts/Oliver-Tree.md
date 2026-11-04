@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 4
-type: ['musician', 'creator']
+type: ['musician', 'creator', 'alternative-artist']
 person: 'oliver-tree'
 suggestions: ['Tyler-The-Creator', 'Doja-Cat', 'Grimes', 'Lana-Del-Rey']
 wikipedia: 'https://en.wikipedia.org/wiki/Oliver_Tree'

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 2
-type: ['author', 'entrepreneur', 'business-operator']
+type: ['author', 'entrepreneur', 'business-operator', 'strategy-writer']
 person: 'simon-sinek'
 suggestions: ['Tony-Robbins', 'Jordan-Peterson', 'Gary-Vee', 'Tim-Ferriss']
 wikipedia: 'https://en.wikipedia.org/wiki/Simon_Sinek'

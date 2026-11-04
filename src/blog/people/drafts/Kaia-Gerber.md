@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '6'
-type: ['newMovieStar', 'celebrity']
+type: ['newMovieStar', 'celebrity', 'celebrity-image']
 person: 'Kaia-Gerber'
 suggestions: ['Kendall-Jenner', 'Pete-Davidson', 'Austin-Butler', 'Gracie-Abrams']
 wikipedia: 'https://en.wikipedia.org/wiki/Kaia_Gerber'

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
-type: ['musician']
+type: ['musician', 'pop-star']
 person: 'dua-lipa'
 suggestions: ['Taylor-Swift', 'Ariana-Grande', 'Billie-Eilish', 'Charli-XCX']
 wikipedia: 'https://en.wikipedia.org/wiki/Dua_Lipa'

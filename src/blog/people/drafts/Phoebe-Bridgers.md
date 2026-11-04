@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 4
-type: ['musician']
+type: ['musician', 'singer-songwriter']
 person: 'Phoebe-Bridgers'
 suggestions: ['sombr', 'Taylor-Swift', 'SZA', 'Lana-Del-Rey', 'Billie-Eilish', 'Gracie-Abrams']
 wikipedia: 'https://en.wikipedia.org/wiki/Phoebe_Bridgers'

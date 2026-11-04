@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '7'
-type: ['musician']
+type: ['musician', 'pop-star']
 person: 'shakira'
 suggestions: ['Bad-Bunny', 'Doja-Cat', 'Jennifer-Lopez', 'Beyonce-Knowles']
 wikipedia: 'https://en.wikipedia.org/wiki/Shakira'

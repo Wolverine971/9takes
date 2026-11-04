@@ -16,6 +16,7 @@ enneagram: '1'
 type:
   - techie
   - entrepreneur
+  - frontier-builder
 person: daniela-amodei
 suggestions:
   - dario-amodei
