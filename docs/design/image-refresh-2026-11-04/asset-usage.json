@@ -348,7 +348,7 @@
 		{
 			"file": "static/blogs/brain-vs-heart-dichotomy.webp",
 			"stem": "brain-vs-heart-dichotomy",
-			"bytes": 136774,
+			"bytes": 104634,
 			"status": "Published hero family",
 			"visualReview": "Hero family triaged; originals and alternates not individually approved",
 			"references": ["src/blog/enneagram/neurodiversity-vs-personality.md"]
@@ -492,7 +492,7 @@
 		{
 			"file": "static/blogs/emotions-crash-course-kindergarten.webp",
 			"stem": "emotions-crash-course-kindergarten",
-			"bytes": 250262,
+			"bytes": 169324,
 			"status": "Published hero family",
 			"visualReview": "Hero family triaged; originals and alternates not individually approved",
 			"references": [
@@ -502,7 +502,7 @@
 		{
 			"file": "static/blogs/empty-room.webp",
 			"stem": "empty-room",
-			"bytes": 270150,
+			"bytes": 68300,
 			"status": "Published hero family",
 			"visualReview": "Hero family triaged; originals and alternates not individually approved",
 			"references": ["src/blog/community/societal-ticking-time-bombs.md"]
@@ -737,7 +737,7 @@
 		{
 			"file": "static/blogs/enneagram-vs-meyers-briggs.webp",
 			"stem": "enneagram-vs-meyers-briggs",
-			"bytes": 64108,
+			"bytes": 191006,
 			"status": "Published hero family",
 			"visualReview": "Hero family triaged; originals and alternates not individually approved",
 			"references": ["src/blog/enneagram/enneagram-vs-meyers-briggs.md"]
@@ -889,7 +889,7 @@
 		{
 			"file": "static/blogs/freud-plato.webp",
 			"stem": "freud-plato",
-			"bytes": 78000,
+			"bytes": 166250,
 			"status": "Published hero family",
 			"visualReview": "Hero family triaged; originals and alternates not individually approved",
 			"references": ["src/blog/enneagram/philosophy-psychology-and-the-enneagram.md"]
@@ -1222,7 +1222,7 @@
 		{
 			"file": "static/blogs/greek-statue-offering-mercy-under-streetlamp.webp",
 			"stem": "greek-statue-offering-mercy-under-streetlamp",
-			"bytes": 44056,
+			"bytes": 141504,
 			"status": "Published hero family",
 			"visualReview": "Hero family triaged; originals and alternates not individually approved",
 			"references": ["src/blog/community/be-gentle-when-youre-right.md"]
@@ -1898,7 +1898,7 @@
 		{
 			"file": "static/blogs/medications_and_stress.webp",
 			"stem": "medications_and_stress",
-			"bytes": 84000,
+			"bytes": 130320,
 			"status": "Published hero family",
 			"visualReview": "Hero family triaged; originals and alternates not individually approved",
 			"references": ["src/blog/enneagram/mental-health/enneagram-medication-mental-health.md"]
@@ -2328,7 +2328,7 @@
 		{
 			"file": "static/blogs/s-brain-vs-heart-dichotomy.webp",
 			"stem": "brain-vs-heart-dichotomy",
-			"bytes": 18850,
+			"bytes": 18436,
 			"status": "Published hero family",
 			"visualReview": "Hero family triaged; originals and alternates not individually approved",
 			"references": ["src/blog/enneagram/neurodiversity-vs-personality.md"]
@@ -2464,7 +2464,7 @@
 		{
 			"file": "static/blogs/s-emotions-crash-course-kindergarten.webp",
 			"stem": "emotions-crash-course-kindergarten",
-			"bytes": 32078,
+			"bytes": 23764,
 			"status": "Published hero family",
 			"visualReview": "Hero family triaged; originals and alternates not individually approved",
 			"references": [
@@ -2474,7 +2474,7 @@
 		{
 			"file": "static/blogs/s-empty-room.webp",
 			"stem": "empty-room",
-			"bytes": 31972,
+			"bytes": 8534,
 			"status": "Published hero family",
 			"visualReview": "Hero family triaged; originals and alternates not individually approved",
 			"references": ["src/blog/community/societal-ticking-time-bombs.md"]
@@ -2690,7 +2690,7 @@
 		{
 			"file": "static/blogs/s-enneagram-vs-meyers-briggs.webp",
 			"stem": "enneagram-vs-meyers-briggs",
-			"bytes": 19034,
+			"bytes": 28350,
 			"status": "Published hero family",
 			"visualReview": "Hero family triaged; originals and alternates not individually approved",
 			"references": ["src/blog/enneagram/enneagram-vs-meyers-briggs.md"]
@@ -2794,7 +2794,7 @@
 		{
 			"file": "static/blogs/s-freud-plato.webp",
 			"stem": "freud-plato",
-			"bytes": 18924,
+			"bytes": 24174,
 			"status": "Published hero family",
 			"visualReview": "Hero family triaged; originals and alternates not individually approved",
 			"references": ["src/blog/enneagram/philosophy-psychology-and-the-enneagram.md"]
@@ -3090,7 +3090,7 @@
 		{
 			"file": "static/blogs/s-greek-statue-offering-mercy-under-streetlamp.webp",
 			"stem": "greek-statue-offering-mercy-under-streetlamp",
-			"bytes": 9372,
+			"bytes": 21424,
 			"status": "Published hero family",
 			"visualReview": "Hero family triaged; originals and alternates not individually approved",
 			"references": ["src/blog/community/be-gentle-when-youre-right.md"]
@@ -3669,7 +3669,7 @@
 		{
 			"file": "static/blogs/s-medications_and_stress.webp",
 			"stem": "medications_and_stress",
-			"bytes": 19984,
+			"bytes": 22236,
 			"status": "Published hero family",
 			"visualReview": "Hero family triaged; originals and alternates not individually approved",
 			"references": ["src/blog/enneagram/mental-health/enneagram-medication-mental-health.md"]

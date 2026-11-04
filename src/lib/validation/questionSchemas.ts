@@ -13,19 +13,31 @@ const optionalClientUuidSchema = z.preprocess((value) => {
 }, z.string().uuid().optional());
 
 // Comment validation schemas
-export const createCommentSchema = z.object({
-	comment: z
-		.string()
-		.min(1, 'Comment cannot be empty')
-		.max(5000, 'Comment cannot exceed 5000 characters')
-		.trim(),
-	parent_id: z.string().regex(/^\d+$/, 'Invalid parent ID'),
-	parent_type: z.enum(['question', 'comment']),
-	author_id: optionalClientUuidSchema,
-	fingerprint: z.string().trim().max(100).optional(),
-	es_id: z.string().trim().optional(),
-	question_id: z.string().regex(/^\d+$/, 'Invalid question ID')
-});
+export const createCommentSchema = z
+	.object({
+		comment: z
+			.string()
+			.min(1, 'Comment cannot be empty')
+			.max(5000, 'Comment cannot exceed 5000 characters')
+			.trim(),
+		parent_id: z.string().regex(/^\d+$/, 'Invalid parent ID'),
+		parent_type: z.enum(['question', 'comment']),
+		author_id: optionalClientUuidSchema,
+		fingerprint: z.string().trim().max(100).optional(),
+		es_id: z.string().trim().optional(),
+		question_id: z.string().regex(/^\d+$/, 'Invalid question ID')
+	})
+	.superRefine((value, ctx) => {
+		// An answer unlocks everyone else's takes, so it has to say something.
+		// "…" and "...." were posted on 2026-11-03 just to get past the wall.
+		if (value.parent_type === 'question' && !/[\p{L}\p{N}]/u.test(value.comment)) {
+			ctx.addIssue({
+				code: z.ZodIssueCode.custom,
+				path: ['comment'],
+				message: 'Write an answer in words to unlock the other takes.'
+			});
+		}
+	});
 
 export const replyOptInSchema = z.object({
 	comment_id: z.string().regex(/^\d+$/, 'Invalid comment ID'),

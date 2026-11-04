@@ -1,6 +1,6 @@
 // src/lib/server/nineTakes.spec.ts
 import { beforeEach, describe, expect, it, vi } from 'vitest';
-const mocks = vi.hoisted(() => ({ lookup: vi.fn() }));
+const mocks = vi.hoisted(() => ({ lookup: vi.fn(), getJSONResponse: vi.fn() }));
 vi.mock('$lib/server/supabaseAdmin', () => ({
 	getSupabaseAdminClient: () => ({
 		from: (table: string) => {
@@ -13,8 +13,12 @@ vi.mock('$lib/server/supabaseAdmin', () => ({
 		}
 	})
 }));
-vi.mock('../../utils/server/smart-llm-service', () => ({ SmartLLMService: class {} }));
-import { getChorusForQuestion } from './nineTakes';
+vi.mock('../../utils/server/smart-llm-service', () => ({
+	SmartLLMService: class {
+		getJSONResponse = mocks.getJSONResponse;
+	}
+}));
+import { generateMirror, getChorusForQuestion } from './nineTakes';
 import { CHORUS_STARTER_SLUG } from '$lib/data/chorusStarter';
 
 describe('starter chorus availability', () => {
@@ -47,5 +51,19 @@ describe('starter chorus availability', () => {
 	it('does not invent a chorus for other unseeded questions', async () => {
 		expect(await getChorusForQuestion('another-question')).toBeNull();
 		expect(await getChorusForQuestion('constructor')).toBeNull();
+	});
+});
+
+describe('mirror reflection', () => {
+	it('uses the fast model tier so it lands inside the 8-second answer deadline', async () => {
+		mocks.getJSONResponse.mockResolvedValue({
+			reflection: 'You want to be read right.',
+			resonantType: 5
+		});
+		const mirror = await generateMirror('What do people get wrong about you?', 'That I am cold.');
+		expect(mocks.getJSONResponse).toHaveBeenCalledWith(
+			expect.objectContaining({ profile: 'fast' })
+		);
+		expect(mirror.resonantType).toBe(5);
 	});
 });

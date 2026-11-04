@@ -16,8 +16,10 @@ path: src/blog/guides/the-crash-course-on-emotions-that-we-missed-in-kindergarte
 ---
 
 <!--
-Midjourney prompt:
-a classroom chalkboard with complex emotional diagrams and patterns drawn in chalk, kindergarten alphabet blocks spelling "EMOTIONS" scattered on a wooden desk, adult shadows looking confused at the board, warm nostalgic lighting with modern psychological overlay elements, educational yet sophisticated aesthetic --ar 16:9 --stylize 750
+Image refreshed 2026-11-04 with the built-in image editor.
+Preserve the EMOTIONS chalkboard and kindergarten blocks; add weathered Greek stonework.
+Master: source-assets/blogs/emotions-greek-classroom-v2.png
+Exact prompt and original artwork: docs/design/image-refresh-2026-11-04/.
 
 Keywords for SEO:
 emotional intelligence

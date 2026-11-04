@@ -43,6 +43,7 @@
 			<PopCard
 				priority
 				image={`/blogs/${data.frontmatter.pic}.webp`}
+				aspectRatio={data.frontmatter.image_aspect_ratio ?? '10 / 16'}
 				showIcon={false}
 				tint={false}
 				displayText=""

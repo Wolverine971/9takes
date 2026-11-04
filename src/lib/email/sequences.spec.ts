@@ -332,7 +332,7 @@ describe('prepareSequenceSend', () => {
 			})
 		);
 
-		expect(prepared.subject).toBe('What were you like as a kid? Three words.');
+		expect(prepared.subject).toBe('What was your job in your family growing up?');
 		expect(prepared.htmlContent).toContain('Hi there,');
 	});
 
@@ -363,6 +363,6 @@ describe('prepareSequenceSend', () => {
 			})
 		);
 
-		expect(prepared.subject).toBe('Alice, what were you like as a kid? Three words.');
+		expect(prepared.subject).toBe('Alice, what was your job in your family growing up?');
 	});
 });

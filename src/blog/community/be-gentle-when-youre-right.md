@@ -13,6 +13,7 @@ type: ['idea', 'community']
 blog: true
 previewHtml: 'Humiliate people for being wrong and admitting it becomes unsafe. A pile-on made Megan Phelps-Roper surer. A few merciful strangers got her out of Westboro.'
 pic: 'greek-statue-offering-mercy-under-streetlamp'
+image_aspect_ratio: '3 / 2'
 path: src/blog/community/be-gentle-when-youre-right.md
 article_citations:
   - name: 'Unfollow'
@@ -128,20 +129,10 @@ article_citations:
 ---
 
 <!--
-Image concept (matches the community Greek-statue set):
-Two Greek marble statues on a city sidewalk at night. One holds a picket sign turned face-down;
-the other offers her a small wrapped pastry box. A crowd of statues behind them holds up glowing
-phones, faces lit and jeering. Warm streetlamp light on the two, cold phone light on the crowd.
-Generated 2026-10-03 via OpenRouter (google/gemini-2.5-flash-image, 16:9), variant set:
-source-assets/blogs/greek-statue-offering-mercy-under-streetlamp.png (master) +
-static/blogs/greek-statue-offering-mercy-under-streetlamp.webp + s-greek-statue-offering-mercy-under-streetlamp.webp.
-The two central figures sit in the middle third so the 10:16 PopCard hero crop keeps both.
-Midjourney prompt:
-two classical Greek marble statues on a modern city sidewalk at night, one woman statue holding a
-picket sign turned face-down, a man statue offering her a small wrapped pastry box, behind them a
-crowd of marble statues holding up glowing phones with jeering expressions, warm amber streetlamp
-light on the two figures, cold blue phone light on the crowd, cinematic depth, realistic marble
-texture, no readable text --ar 16:9 --v 6 --style raw --stylize 150
+Image refreshed 2026-11-04 with the built-in image generator.
+Scene: A quiet exchange between two statues at equal eye level: an offered pastry and a lowered sign, preserving the article’s concrete act of kindness.
+Master: source-assets/blogs/greek-statues-gentle-disagreement-v2.png
+Exact prompt and original artwork: docs/design/image-refresh-2026-11-04/.
 -->
 
 <script>

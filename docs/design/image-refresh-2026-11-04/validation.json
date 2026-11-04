@@ -5,61 +5,177 @@
 			"file": "static/blogs/people-from-diverse-backgrounds.webp",
 			"width": 1200,
 			"height": 800,
-			"bytes": 118436
+			"bytes": 118436,
+			"batch": 1
 		},
 		{
 			"file": "static/blogs/s-people-from-diverse-backgrounds.webp",
 			"width": 480,
 			"height": 320,
-			"bytes": 20482
+			"bytes": 20482,
+			"batch": 1
 		},
 		{
 			"file": "static/blogs/female-greek-statues-of-different-professions.webp",
 			"width": 1200,
 			"height": 800,
-			"bytes": 128774
+			"bytes": 128774,
+			"batch": 1
 		},
 		{
 			"file": "static/blogs/s-female-greek-statues-of-different-professions.webp",
 			"width": 480,
 			"height": 320,
-			"bytes": 19938
+			"bytes": 19938,
+			"batch": 1
 		},
 		{
 			"file": "static/blogs/greek-statue-giving-a-speech.webp",
 			"width": 1200,
 			"height": 800,
-			"bytes": 115704
+			"bytes": 115704,
+			"batch": 1
 		},
 		{
 			"file": "static/blogs/s-greek-statue-giving-a-speech.webp",
 			"width": 480,
 			"height": 320,
-			"bytes": 20062
+			"bytes": 20062,
+			"batch": 1
 		},
 		{
 			"file": "static/blogs/neoclassical-fortress2.webp",
 			"width": 1200,
 			"height": 800,
-			"bytes": 144882
+			"bytes": 144882,
+			"batch": 1
 		},
 		{
 			"file": "static/blogs/s-neoclassical-fortress2.webp",
 			"width": 480,
 			"height": 320,
-			"bytes": 23220
+			"bytes": 23220,
+			"batch": 1
+		},
+		{
+			"file": "static/blogs/greek-statue-offering-mercy-under-streetlamp.webp",
+			"width": 1200,
+			"height": 800,
+			"bytes": 141504,
+			"batch": 2
+		},
+		{
+			"file": "static/blogs/s-greek-statue-offering-mercy-under-streetlamp.webp",
+			"width": 480,
+			"height": 320,
+			"bytes": 21424,
+			"batch": 2
+		},
+		{
+			"file": "static/blogs/medications_and_stress.webp",
+			"width": 1200,
+			"height": 800,
+			"bytes": 130320,
+			"batch": 2
+		},
+		{
+			"file": "static/blogs/s-medications_and_stress.webp",
+			"width": 480,
+			"height": 320,
+			"bytes": 22236,
+			"batch": 2
+		},
+		{
+			"file": "static/blogs/brain-vs-heart-dichotomy.webp",
+			"width": 1200,
+			"height": 800,
+			"bytes": 104634,
+			"batch": 2
+		},
+		{
+			"file": "static/blogs/s-brain-vs-heart-dichotomy.webp",
+			"width": 480,
+			"height": 320,
+			"bytes": 18436,
+			"batch": 2
+		},
+		{
+			"file": "static/blogs/emotions-crash-course-kindergarten.webp",
+			"width": 1200,
+			"height": 1200,
+			"bytes": 169324,
+			"batch": 2
+		},
+		{
+			"file": "static/blogs/s-emotions-crash-course-kindergarten.webp",
+			"width": 480,
+			"height": 480,
+			"bytes": 23764,
+			"batch": 2
+		},
+		{
+			"file": "static/blogs/empty-room.webp",
+			"width": 1200,
+			"height": 673,
+			"bytes": 68300,
+			"batch": 2
+		},
+		{
+			"file": "static/blogs/s-empty-room.webp",
+			"width": 480,
+			"height": 269,
+			"bytes": 8534,
+			"batch": 2
+		},
+		{
+			"file": "static/blogs/enneagram-vs-meyers-briggs.webp",
+			"width": 1200,
+			"height": 800,
+			"bytes": 191006,
+			"batch": 2
+		},
+		{
+			"file": "static/blogs/s-enneagram-vs-meyers-briggs.webp",
+			"width": 480,
+			"height": 320,
+			"bytes": 28350,
+			"batch": 2
+		},
+		{
+			"file": "static/blogs/freud-plato.webp",
+			"width": 1200,
+			"height": 1200,
+			"bytes": 166250,
+			"batch": 2
+		},
+		{
+			"file": "static/blogs/s-freud-plato.webp",
+			"width": 480,
+			"height": 480,
+			"bytes": 24174,
+			"batch": 2
 		}
 	],
-	"originalBackupsMatchGit": true,
-	"articleReferences": "4/4 resolve at original public URLs",
+	"originalBackups": {
+		"batch1": "Verified against Git before first replacement; preserved in validation-batch-1.json",
+		"batch2": "All 14 archived files match HEAD before replacement"
+	},
+	"articleReferences": "11/11 resolve at original public URLs",
 	"mastersPresent": true,
-	"deliveryBytes": 591498,
-	"previousDeliveryBytes": 635834,
-	"savedBytes": 44336,
+	"deliveryBytes": 1709754,
+	"previousDeliveryBytes": 1713398,
+	"savedBytes": 3644,
 	"staticAssetBudget": "passed",
+	"svelteCheck": "0 errors, 0 warnings",
+	"communityHeroRatios": {
+		"be-gentle-when-youre-right": "3 / 2",
+		"societal-ticking-time-bombs": "1674 / 939",
+		"default": "10 / 16"
+	},
 	"reviewBrowserChecks": {
-		"comparisonImagesLoaded": 8,
-		"tierFilter": "T1 returns 39 images",
-		"search": "neoclassical-fortress2 returns 1 image"
+		"comparisonImagesLoaded": 22,
+		"latestBatchCount": 7,
+		"tierFilter": "T1 returns 43 images",
+		"search": "freud-plato returns 1 image"
 	}
 }

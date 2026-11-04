@@ -139,12 +139,17 @@ const escape = (value) =>
 const local = (file) => '../../../' + file.split('/').map(encodeURIComponent).join('/');
 const image = (file, alt, eager = false) =>
 	`<a href="${local(file)}"><img src="${local(file)}" alt="${escape(alt)}" loading="${eager ? 'eager' : 'lazy'}"></a>`;
-const beforeAfter = replacements
-	.map((item) => {
-		const row = inventory.images.find((r) => r.pic === item.original);
-		return `<section class="comparison"><h3>${escape(row.posts[0].title)}</h3><div class="pair"><figure>${image(row.asset, 'Previous image for ' + row.posts[0].title, true)}<figcaption>Before</figcaption></figure><figure>${image(row.currentAsset, item.alt, true)}<figcaption>New · ${escape(item.slug)}</figcaption></figure></div><p>${escape(row.concept)}</p></section>`;
-	})
-	.join('\n');
+const comparison = (item) => {
+	const row = inventory.images.find((r) => r.pic === item.original);
+	return `<section class="comparison" id="${escape(item.original)}"><h3>${escape(row.posts[0].title)}</h3><p class="filename">${escape(item.original)}</p>${item.note ? `<p><strong>Your note:</strong> ${escape(item.note)}</p>` : ''}<div class="pair"><figure>${image(row.asset, 'Previous image for ' + row.posts[0].title, true)}<figcaption>Before</figcaption></figure><figure>${image(row.currentAsset, item.alt, true)}<figcaption>New · ${escape(item.slug)}</figcaption></figure></div><p>${escape(row.concept)}</p></section>`;
+};
+const latestBatch = Math.max(...replacements.map((item) => item.batch || 1));
+const latest = replacements.filter((item) => (item.batch || 1) === latestBatch);
+const previous = replacements.filter((item) => (item.batch || 1) < latestBatch);
+const beforeAfter = latest.map(comparison).join('\n');
+const earlierComparisons = previous.length
+	? `<details><summary>Earlier replacements · ${previous.length} images</summary>${previous.map(comparison).join('\n')}</details>`
+	: '';
 
 const rows = [...inventory.images].sort((a, b) => {
 	const order = { T1: 1, T2: 2, T3: 3, E: 4 };
@@ -175,13 +180,13 @@ const html = `<!doctype html>
 :root{color-scheme:dark;--bg:#171716;--panel:#222220;--text:#eeeae1;--muted:#c1bbae;--line:#4c4942;--accent:#e4bc78}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.55 system-ui,sans-serif}main{max-width:1320px;margin:auto;padding:40px 24px 80px}h1{font-size:34px;line-height:1.2;margin:0 0 16px}h2{font-size:26px;margin:42px 0 16px}h3{font-size:18px;line-height:1.4;margin:0 0 12px}p{margin:0 0 12px}a{color:var(--accent);text-underline-offset:3px}a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--accent);outline-offset:4px}.intro{max-width:880px}.muted,.filename,figcaption{color:var(--muted)}.filename{font:13px/1.4 ui-monospace,monospace;overflow-wrap:anywhere}.summary{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0}.summary span{padding:10px 14px;border:1px solid var(--line);border-radius:6px}.pair{display:grid;grid-template-columns:1fr 1fr;gap:16px}figure{margin:0}figure img{display:block;width:100%;aspect-ratio:3/2;object-fit:contain;background:#10100f}figcaption{margin-top:6px;font-size:14px;overflow-wrap:anywhere}.comparison{padding:20px 0;border-bottom:1px solid var(--line)}.comparison>p{margin-top:14px;max-width:850px}.controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:20px 0}button,input{font:inherit;border:1px solid var(--line);border-radius:5px;padding:10px 14px;background:var(--panel);color:var(--text)}button{cursor:pointer}button[aria-pressed=true]{background:var(--accent);color:#201b12}input{min-width:0;max-width:100%;width:300px}label{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,330px),1fr));gap:20px}.asset{background:var(--panel);border:1px solid var(--line);border-radius:7px;overflow:hidden}.asset[hidden]{display:none}.preview{background:#10100f}.preview img{display:block;width:100%;height:225px;object-fit:contain}.asset-body{padding:18px}.asset p{font-size:14px}.meta{color:var(--accent)}.meta span{display:block;color:var(--muted)}.links{display:flex;flex-wrap:wrap;gap:16px}.references{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.references img{width:100%;aspect-ratio:1;object-fit:contain;background:#10100f}.notes{max-width:900px}li{margin-bottom:8px}hr{border:0;border-top:1px solid var(--line);margin:30px 0}@media(max-width:640px){main{padding:24px 16px 50px}h1{font-size:28px}.pair{grid-template-columns:1fr}.references{grid-template-columns:1fr}button{min-height:44px}}
 </style></head><body><main>
-<header class="intro"><p class="muted">9takes · Image review · November 4, 2026</p><h1>Weathered statues, recognizable situations</h1><p>157 distinct hero images across 159 published non-profile posts. Four new replacements are connected locally. The other proposed changes remain queued.</p><p class="muted">Visual triage uses the original contact sheets. The four replacements use concrete examples from their article bodies; the other proposed scenes use titles and descriptions and need a body check before generation. Production is not deployed.</p></header>
+<header class="intro"><p class="muted">9takes · Image review · November 4, 2026</p><h1>Weathered statues, recognizable situations</h1><p>157 distinct hero images across 159 published non-profile posts. ${inventory.replacedLocally} replacements are connected locally. Your latest ${latest.length} revisions appear first; the other proposed changes remain queued.</p><p class="muted">Visual triage uses the original contact sheets. Replacements use article bodies and your feedback; other proposed scenes use titles and descriptions and need a body check before generation. Production is not deployed.</p></header>
 <div class="summary">${Object.entries(inventory.counts)
 	.map(([tier, count]) => `<span><strong>${count}</strong> · ${tier} ${tiers[tier]}</span>`)
-	.join('')}<span><strong>4</strong> replaced locally</span></div>
+	.join('')}<span><strong>${inventory.replacedLocally}</strong> replaced locally</span></div>
 <nav class="links" aria-label="Review documents"><a href="README.md">Style and scene guide</a><a href="prompts.json">Exact generation prompts</a><a href="inventory.json">Hero inventory</a><a href="asset-usage.json">All blog asset usage</a></nav>
 <h2>Style references</h2><div class="references">${['static/greek_distorted_statue_face.webp', 'static/blogs/greek-statue-reading-a-book.webp', 'static/blogs/greek-statue-reading.webp'].map((file) => `<figure>${image(file, path.basename(file), true)}<figcaption>${escape(path.basename(file))}</figcaption></figure>`).join('')}</div>
-<h2 id="replacements">Four replacements</h2>${beforeAfter}
+<h2 id="replacements">Latest revisions · ${latest.length} images</h2>${beforeAfter}${earlierComparisons}
 <h2>Ranked inventory</h2><p class="notes">T1: recreate major mismatches. T2: preserve a useful idea and refine its treatment or framing. T3: retain for now. E: identifiable people and type dossiers serve a different editorial purpose. Cards show the original audited image; replaced cards link to the new artwork.</p>
 <div class="controls" role="group" aria-label="Filter by tier"><button type="button" data-filter="all" aria-pressed="true">All</button>${Object.entries(
 	tiers

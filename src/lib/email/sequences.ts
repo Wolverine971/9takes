@@ -88,7 +88,7 @@ function renderSequenceTemplate(
 }
 
 // A subject that leads with "{{first_name}}, " reads as broken when the token
-// falls back to "there" ("there, what were you like as a kid?"), so with no
+// falls back to "there" ("there, what was your job in your family growing up?"), so with no
 // real name drop the leading token and re-capitalize instead.
 function stripLeadingFirstNameFromSubject(subject: string): string {
 	const stripped = subject.replace(/^\{\{\s*first_name\s*\}\}\s*,\s*/i, '');

@@ -194,6 +194,8 @@ declare global {
 			howToSteps?: Array<{ name?: string; text?: string } | string>;
 			totalTime?: string;
 			pic?: string;
+			/** Optional hero proportions for community articles; defaults to the portrait card. */
+			image_aspect_ratio?: string;
 			picGroup?: Array<{
 				image: string;
 				text: string;

@@ -80,7 +80,10 @@ export async function generateMirror(question: string, userTake: string): Promis
 	const raw = await llmService.getJSONResponse<{ reflection: string; resonantType: number }>({
 		systemPrompt,
 		userPrompt,
-		profile: 'balanced',
+		// The mirror endpoint gives this 8 seconds. 'balanced' leads with
+		// kimi-k2.5, which took ~70s (2026-11-04), so every reflection timed out
+		// from July to November. 'fast' (gemini-2.5-flash-lite) answers in ~1s.
+		profile: 'fast',
 		temperature: 0.6,
 		operationType: 'chorus_mirror',
 		validation: { retryOnParseError: true, maxRetries: 2 }

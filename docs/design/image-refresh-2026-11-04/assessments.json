@@ -40,14 +40,16 @@
 		{
 			"id": 14,
 			"tier": "T2",
-			"reason": "The classroom fits the title, but typography and an empty room carry the image.",
-			"concept": "A weathered adult statue at a small school desk examining its own reaction; no written labels."
+			"reason": "User explicitly loves the chalkboard, word and kindergarten concept. Retain those; add Greek architectural and material details.",
+			"concept": "Keep EMOTIONS large on the board and the wooden alphabet blocks. Add worn Greek stonework, a small secondary bust and simple chalk faces.",
+			"userNote": "Loves the chalkboard with the word emotion and the kindergarten learning idea; add more Greek aesthetic."
 		},
 		{
 			"id": 15,
 			"tier": "T2",
-			"reason": "Generic blue-lit empty room has weak connection to the three behavioral concerns.",
-			"concept": "A lone statue sits amid a few everyday objects suggesting avoidance; select one opening anecdote first."
+			"reason": "User likes the empty-room concept. Keep the absence of people; reduce duplicate screens, implausible cables and saturated lighting.",
+			"concept": "Preserve an unoccupied room and an empty central chair, with fewer meaningful objects, worn Greek stonework and restrained dawn light.",
+			"userNote": "Likes the idea; iterate and improve it."
 		},
 		{
 			"id": 16,
@@ -69,9 +71,10 @@
 		},
 		{
 			"id": 29,
-			"tier": "T2",
-			"reason": "Street crowd has little visible connection to comparing personality frameworks.",
-			"concept": "A statue compares two different unlabelled maps of the same courtyard."
+			"tier": "T1",
+			"reason": "User explicitly requests ancient Greece and Greek statues in place of the modern street crowd.",
+			"concept": "Two philosophers consider complementary approaches in an ancient Greek academy, using period tablets and papyrus; no modern objects.",
+			"userNote": "Needs Greek statues and an ancient Greece time period."
 		},
 		{
 			"id": 30,
@@ -106,8 +109,9 @@
 		{
 			"id": 37,
 			"tier": "T2",
-			"reason": "Red and cyan portrait lighting overwhelms the stone; two floating heads lack an action.",
-			"concept": "Two carved thinkers compare notes across a rough table."
+			"reason": "User likes the opposing portrait composition. The change is to the red/cyan palette, not to the underlying scene.",
+			"concept": "Keep the opposing profiles, expressions, glasses and sculptural detail; unify the light and neutral grey stone palette.",
+			"userNote": "Likes the image; make the colors more cohesive."
 		},
 		{
 			"id": 38,
@@ -516,6 +520,27 @@
 			"tier": "T2",
 			"reason": "Solitary musician fits the topic; small figure and blue spotlight could be more tactile.",
 			"concept": "Move closer to a worn statue physically playing a simple instrument under raking neutral light."
+		},
+		{
+			"id": 70,
+			"tier": "T1",
+			"reason": "User moved this from retain to recreate. The rigid crowd, tiny phones and glowing gift staging feel too synthetic.",
+			"concept": "A quiet exchange between two statues at equal eye level: an offered pastry and a lowered sign, preserving the article’s concrete act of kindness.",
+			"userNote": "Needs updating."
+		},
+		{
+			"id": 123,
+			"tier": "T1",
+			"reason": "User moved this from retain to recreate. The bottle wall, illegible labels and blurred glossy figure overwhelm the human concern.",
+			"concept": "One patient statue discusses a concern with a listening clinician; one closed unbranded bottle makes the subject clear.",
+			"userNote": "Needs updating."
+		},
+		{
+			"id": 6,
+			"tier": "T1",
+			"reason": "User moved this from retain to recreate. The split face and exposed circuit pattern are an artificial sci-fi metaphor.",
+			"concept": "An intact statue studies its reflection in still water, connecting to the article’s invitation to understand personal patterns.",
+			"userNote": "Needs updating."
 		}
 	]
 }

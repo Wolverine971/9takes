@@ -11,7 +11,10 @@ export const WELCOME_SEQUENCE_KEY = 'welcome_sequence';
 
 // Live question threads featured in the sequence. If one of these is ever
 // removed or flagged, swap in another high-engagement evergreen question.
-const KID_QUESTION_URL = 'https://9takes.com/questions/what-were-you-like-as-a-kid-in-3-words';
+// Step 1 moved off the kid question on 2026-11-04 (personality pages use a
+// different starter, so the two entry points feed different questions).
+const FAMILY_JOB_QUESTION_URL =
+	'https://9takes.com/questions/what-was-your-job-in-your-family-growing-up';
 const FEAR_QUESTION_URL = 'https://9takes.com/questions/whats-your-biggest-fear';
 const ENNEAGRAM_TEST_URL = 'https://9takes.com/enneagram-test';
 
@@ -26,35 +29,35 @@ export type WelcomeSequenceContent = {
 export const WELCOME_SEQUENCE_CONTENT: WelcomeSequenceContent[] = [
 	{
 		stepNumber: 1,
-		subject: '{{first_name}}, what were you like as a kid? Three words.',
+		subject: '{{first_name}}, what was your job in your family growing up?',
 		preheader: "Answer first. Then see what everyone else said. That's the whole platform.",
 		htmlContent: `<p>Hi {{first_name}},</p>
 <p>Welcome to 9takes. One rule here: you answer first, then you see everyone else's takes. No lurking, no reading the room before you commit.</p>
 <p>So let's skip the tour and start with a live one:</p>
-<p><strong>"What were you like as a kid? Three words."</strong></p>
-<p>A few dozen people have answered so far. One borrowed their grandma's line: "never a child." Another went "cute, weird, crazy." Same question, completely different people looking back at you.</p>
-<p><a class="button" href="${KID_QUESTION_URL}">Drop your three words</a></p>
-<p>Takes about two minutes. The moment you answer, every other take unlocks.</p>
+<p><strong>"What was your job in your family growing up?"</strong></p>
+<p>The role nobody handed you but you took anyway. The peacekeeper, the funny one, the one who handled things, the kid nobody had to worry about. Ask nine people and you'll hear nine different jobs.</p>
+<p><a class="button" href="${FAMILY_JOB_QUESTION_URL}">Name your job</a></p>
+<p>A few words is enough. The moment you answer, every other take unlocks.</p>
 <p>DJ<br />9takes.com</p>
-<p>P.S. If your three words feel a little too honest, you're doing it right.</p>`,
+<p>P.S. Bonus question for after you answer: are you still doing that job?</p>`,
 		plainText: `Hi {{first_name}},
 
 Welcome to 9takes. One rule here: you answer first, then you see everyone else's takes. No lurking, no reading the room before you commit.
 
 So let's skip the tour and start with a live one:
 
-"What were you like as a kid? Three words."
+"What was your job in your family growing up?"
 
-A few dozen people have answered so far. One borrowed their grandma's line: "never a child." Another went "cute, weird, crazy." Same question, completely different people looking back at you.
+The role nobody handed you but you took anyway. The peacekeeper, the funny one, the one who handled things, the kid nobody had to worry about. Ask nine people and you'll hear nine different jobs.
 
-Drop your three words: ${KID_QUESTION_URL}
+Name your job: ${FAMILY_JOB_QUESTION_URL}
 
-Takes about two minutes. The moment you answer, every other take unlocks.
+A few words is enough. The moment you answer, every other take unlocks.
 
 DJ
 9takes.com
 
-P.S. If your three words feel a little too honest, you're doing it right.`
+P.S. Bonus question for after you answer: are you still doing that job?`
 	},
 	{
 		stepNumber: 2,
