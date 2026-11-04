@@ -4,16 +4,19 @@
 	import type { Attachment } from 'svelte/attachments';
 	import { on } from 'svelte/events';
 	import { resolve } from '$app/paths';
-	import { ArrowRight, Check, ChevronDown, LockKeyhole, RotateCcw } from '@lucide/svelte';
+	import {
+		ArrowRight,
+		Check,
+		ChevronDown,
+		ExternalLink,
+		LockKeyhole,
+		RotateCcw
+	} from '@lucide/svelte';
 	import { Button } from '$lib/components/atoms';
 	import SEOHead from '$lib/components/SEOHead.svelte';
 	import ThemeToggle from '$lib/components/atoms/ThemeToggle.svelte';
 	import { faqs, practiceQuestions } from '$lib/data/homepagePracticeV2';
-	import {
-		LIVE_TAKE_ANSWER_FAQ,
-		type LiveTake,
-		type LiveTakePostResult
-	} from '$lib/data/homepageLiveTake';
+	import { liveTakeFaqs, type LiveTake, type LiveTakePostResult } from '$lib/data/homepageLiveTake';
 	import {
 		captureHomepageLinkClicked,
 		captureHomepagePractice,
@@ -128,7 +131,7 @@
 			slug: 'jack-black',
 			name: 'Jack Black',
 			type: 7,
-			hook: 'Why he acts so crazy',
+			hook: 'What fuels his comic energy',
 			image: '/types/7s/s-Jack-Black.webp'
 		},
 		{
@@ -204,15 +207,7 @@
 	let signedIn = $derived(Boolean(live?.signedIn));
 	let postedLabel = $derived(signedIn ? 'POSTED' : 'POSTED ANONYMOUSLY');
 	let postedHeading = $state<HTMLHeadingElement>();
-	let faqItems = $derived(
-		isLive
-			? faqs.map((faq) =>
-					faq.question === 'What happens to my answer here?'
-						? { ...faq, answer: LIVE_TAKE_ANSWER_FAQ }
-						: faq
-				)
-			: faqs
-	);
+	let faqItems = $derived(isLive ? liveTakeFaqs : faqs);
 
 	// Reply opt-in after a real post: the same tray, rules and endpoint as the question page.
 	const REPLY_OPT_IN_DISMISSED_KEY = '9t-reply-opt-in-dismissed';
@@ -491,9 +486,9 @@
 		<div class="hero-intro">
 			<h1 id="hero-title">1 question.<br /><span>9 perspectives.</span></h1>
 			<p class="hero-benefit">
-				A question-and-answer community for understanding why someone else’s reaction makes sense to
-				them.
+				A question-and-answer community for understanding other perspectives.
 			</p>
+			<p class="hero-context">The “9” is nine Enneagram patterns, not a fixed number of answers.</p>
 		</div>
 
 		<div class="hero-action">
@@ -518,7 +513,7 @@
 					<form onsubmit={revealPerspectives}>
 						<h2 id="practice-question">{cardTitle}</h2>
 						<p class="answer-reason" id="answer-reason">
-							Write yours first, before another take shapes it.
+							Answer before the crowd. Then read what others think.
 						</p>
 						<textarea
 							id="practice-answer"
@@ -537,29 +532,40 @@
 						{#if error || postError}<p class="form-error" id="practice-error" role="alert">
 								{error || postError}
 							</p>{/if}
+						<p class="practice-note" id="practice-note">
+							{#if !isLive}<LockKeyhole size={14} aria-hidden="true" />{/if}
+							<span
+								>{isLive
+									? signedIn
+										? 'Your answer will be public and posted from your account.'
+										: 'Your answer will be public, without your name. No account needed.'
+									: 'Nothing is posted. No account needed. You’ll compare 9 AI-written examples.'}</span
+							>
+						</p>
+						{#if isLive}
+							<a
+								class="posting-help"
+								href={resolve('/posting-and-privacy#editing-and-removal')}
+								target="_blank"
+								rel="noopener noreferrer"
+								data-track="link"
+								data-placement="posting_guidance"
+							>
+								{signedIn ? 'Editing & removal' : 'Guest editing & removal'}
+								<ExternalLink size={14} aria-hidden="true" />
+								<span class="sr-only">(opens in a new tab)</span>
+							</a>
+						{/if}
 						<Button
 							type="submit"
 							size="lg"
 							fullWidth
 							class="reveal-button"
+							aria-describedby="practice-note"
 							loading={postState === 'posting'}
-							>{isLive
-								? signedIn
-									? 'Post and read answers'
-									: 'Post anonymously and read answers'
-								: 'Reveal 9 perspectives'}
+							>{isLive ? 'Post & read answers' : 'Reveal 9 perspectives'}
 							<ArrowRight size={17} aria-hidden="true" /></Button
 						>
-						<p class="practice-note" id="practice-note">
-							{#if !isLive}<LockKeyhole size={13} aria-hidden="true" />{/if}
-							<span
-								>{isLive
-									? signedIn
-										? 'Your answer will be public and posted from your account. Then read other people’s answers.'
-										: 'Your answer will be public, without your name. No account needed. Then read other people’s answers.'
-									: 'Nothing is posted. No account needed. You’ll compare 9 AI-written examples.'}</span
-							>
-						</p>
 						{#if preview && isLive}<p class="preview-note">
 								Preview: posting is simulated and nothing is saved.
 							</p>{/if}
@@ -602,53 +608,6 @@
 					>
 				{/if}
 			</div>
-		</div>
-
-		<div class="hero-visual">
-			<figure
-				class="perspective-visual"
-				aria-label="How are you? I’m fine. Two possible meanings and the thoughts behind them."
-			>
-				<figcaption>Same words. Different perspectives.</figcaption>
-				<div class="perspective-sketch">
-					<div class="spoken-exchange">
-						<p class="asked-words">“How are you?”</p>
-						<p class="spoken-words"><strong>“I’m fine.”</strong></p>
-					</div>
-					<p class="could-mean">Could mean</p>
-					<svg
-						class="perspective-paths"
-						viewBox="0 0 480 28"
-						preserveAspectRatio="none"
-						aria-hidden="true"
-					>
-						<path d="M240 0V5C240 19 120 5 120 24M240 5C240 19 360 5 360 24" />
-						<circle cx="120" cy="24" r="2.5" />
-						<circle cx="360" cy="24" r="2.5" />
-					</svg>
-					<div class="possible-meanings">
-						<div class="meaning-path" role="group" aria-labelledby="space-meaning">
-							<p class="meaning-title" id="space-meaning">“Give me space.”</p>
-							<ul class="thought-cloud" aria-label="Possible thoughts behind wanting space">
-								<li>I’m not talking to you.</li>
-								<li>I’m not comfortable opening up to you.</li>
-								<li>Why would you even ask?</li>
-								<li class="thought-emphasis">Fuck off.</li>
-							</ul>
-						</div>
-						<div class="meaning-path" role="group" aria-labelledby="notice-meaning">
-							<p class="meaning-title" id="notice-meaning">“Please notice I’m not.”</p>
-							<ul class="thought-cloud" aria-label="Possible thoughts behind wanting help">
-								<li>I’m actually terrible.</li>
-								<li>There’s too much to explain.</li>
-								<li>Do you really want to know?</li>
-								<li class="thought-emphasis">Please help me.</li>
-							</ul>
-						</div>
-					</div>
-					<p class="thought-note">You won’t know until you ask.</p>
-				</div>
-			</figure>
 		</div>
 	</section>
 
@@ -770,34 +729,11 @@
 		</section>
 	{/if}
 
-	<section class="ritual-band" aria-labelledby="ritual-title">
-		<div class="shell">
-			<h2 id="ritual-title">Answer before the crowd.</h2>
-			<ol class="ritual-steps">
-				<li>
-					<span class="step-number">01</span>
-					<h3>Your own reaction.</h3>
-					<p>Answer before you see anyone else’s.</p>
-				</li>
-				<li>
-					<span class="step-number">02</span>
-					<h3>Get a different perspective.</h3>
-					<p>Then compare it with how other people read the same moment.</p>
-				</li>
-				<li>
-					<span class="step-number">03</span>
-					<h3>Ask a better question.</h3>
-					<p>Stop guessing what someone meant. Ask what mattered to them.</p>
-				</li>
-			</ol>
-		</div>
-	</section>
-
 	<section class="live-section section shell" id="community" aria-labelledby="live-title">
 		<div class="section-intro">
 			<p class="mono kicker">IN THE COMMUNITY</p>
 			<h2 id="live-title">Real questions. Your own words.</h2>
-			<p>Pick one that gets you thinking. You answer first, then see everyone else’s take.</p>
+			<p>Pick a question that gets you thinking.</p>
 		</div>
 		{#if proof && proof.questions.length > 0}
 			<div class="live-questions">
@@ -833,84 +769,74 @@
 	</section>
 
 	<section class="why-section section shell" aria-labelledby="why-title">
-		<ConversationScenes />
 		<div class="why-copy">
-			<h2 id="why-title">Nine ways to see<br />the same moment.</h2>
+			<h2 id="why-title">Same words.<br />Different needs.</h2>
 			<div>
 				<p>
-					On 9takes, people bring their own answers to questions about friendship, work, and the
-					things they don’t always say out loud.
+					The Enneagram gives you language for what someone might be protecting, seeking, or
+					avoiding. Use it to ask a better question about their experience.
 				</p>
-				<p>
-					The Enneagram’s 9 patterns of motivation give you another way to explore the difference.
-					You don’t need to know your type to begin.
-				</p>
+				<a
+					class="text-link"
+					data-track="link"
+					data-placement="why_section"
+					href={resolve('/enneagram-corner')}
+				>
+					Explore the nine patterns <ArrowRight size={16} aria-hidden="true" />
+				</a>
 			</div>
 		</div>
-	</section>
+		<div class="why-showcase">
+			<ConversationScenes />
 
-	<section class="reading-section section shell" aria-labelledby="reading-title">
-		<div class="reading-heading">
-			<h2 id="reading-title">People are more interesting<br />than their labels.</h2>
-			<p>Read the thinking behind 9takes.<br />Then try it on a situation you know.</p>
-		</div>
-		<ul class="people-row">
-			{#each featuredPeople as person (person.slug)}
-				<li>
-					<a
-						data-track="link"
-						data-placement="people_row"
-						href={resolve('/personality-analysis/[slug]', { slug: person.slug })}
-					>
-						<img src={person.image} alt="" width="1080" height="1080" loading="lazy" />
-						<span class="mono person-type">ENNEAGRAM {person.type}</span>
-						<h3>{person.name}</h3>
-						<p>{person.hook}</p>
-					</a>
-				</li>
-			{/each}
-		</ul>
-		<a
-			class="text-link"
-			data-track="link"
-			data-placement="people_row"
-			href={resolve('/personality-analysis')}
-			>Explore all personality analyses <ArrowRight size={16} aria-hidden="true" /></a
-		>
-		<div class="reading-links">
-			<a data-track="link" data-placement="reading_links" href={resolve('/enneagram-corner')}
-				><span class="mono">NEW TO THE ENNEAGRAM</span>
-				<h3>Learn the 9 patterns behind every take.</h3>
-				<span>Visit Enneagram Corner <ArrowRight size={16} aria-hidden="true" /></span></a
-			>
-			<a data-track="link" data-placement="reading_links" href={resolve('/how-to-guides')}
-				><span class="mono">SITUATIONS YOU RECOGNIZE</span>
-				<h3>Put a different perspective to work in your own life.</h3>
-				<span>Read practical guides <ArrowRight size={16} aria-hidden="true" /></span></a
-			>
-			<a data-track="link" data-placement="reading_links" href={resolve('/book-session')}
-				><span class="mono">SOMETHING MORE PERSONAL</span>
-				<h3>Bring a real situation you’re trying to understand.</h3>
-				<span>Talk it through <ArrowRight size={16} aria-hidden="true" /></span></a
-			>
-		</div>
-	</section>
-
-	<section class="faq-band" aria-labelledby="faq-title">
-		<div class="faq-section section shell">
-			<h2 id="faq-title">Before you jump in.</h2>
-			<div class="faqs">
-				{#each faqItems as faq (faq.question)}<details>
-						<summary>{faq.question}<ChevronDown size={18} aria-hidden="true" /></summary>
-						<p>{faq.answer}</p>
-					</details>{/each}
+			<div class="explanatory-diagram">
+				<figure
+					class="perspective-visual"
+					aria-label="How are you? I’m fine. Two possible meanings and the thoughts behind them."
+				>
+					<figcaption>Same words. Different perspectives.</figcaption>
+					<div class="perspective-sketch">
+						<div class="spoken-exchange">
+							<p class="asked-words">“How are you?”</p>
+							<p class="spoken-words"><strong>“I’m fine.”</strong></p>
+						</div>
+						<p class="could-mean">Could mean</p>
+						<svg
+							class="perspective-paths"
+							viewBox="0 0 480 28"
+							preserveAspectRatio="none"
+							aria-hidden="true"
+						>
+							<path d="M240 0V5C240 19 120 5 120 24M240 5C240 19 360 5 360 24" />
+							<circle cx="120" cy="24" r="2.5" />
+							<circle cx="360" cy="24" r="2.5" />
+						</svg>
+						<div class="possible-meanings">
+							<div class="meaning-path" role="group" aria-labelledby="space-meaning">
+								<p class="meaning-title" id="space-meaning">“Give me space.”</p>
+								<ul class="thought-cloud" aria-label="Possible thoughts behind wanting space">
+									<li>I’m not talking to you.</li>
+									<li>Fuck off.</li>
+								</ul>
+							</div>
+							<div class="meaning-path" role="group" aria-labelledby="notice-meaning">
+								<p class="meaning-title" id="notice-meaning">“Please notice I’m not.”</p>
+								<ul class="thought-cloud" aria-label="Possible thoughts behind wanting help">
+									<li>I’m actually terrible.</li>
+									<li>Please help me.</li>
+								</ul>
+							</div>
+						</div>
+						<p class="thought-note">You won’t know until you ask.</p>
+					</div>
+				</figure>
 			</div>
 		</div>
 	</section>
 
 	<section class="founder-section section shell" aria-labelledby="founder-title">
 		<img
-			class="founder-photo"
+			class="founder-photo personality-portrait-image"
 			src="/brand/djface.webp"
 			alt="DJ Wayne, founder of 9takes"
 			width="1080"
@@ -931,6 +857,78 @@
 			<div class="founder">
 				<p class="mono">DJ WAYNE · FOUNDER</p>
 				<a href={resolve('/about')}>Read my story <ArrowRight size={16} aria-hidden="true" /></a>
+			</div>
+		</div>
+	</section>
+
+	<section class="reading-section section shell" aria-labelledby="reading-title">
+		<div class="reading-heading">
+			<h2 id="reading-title">People are more interesting<br />than their labels.</h2>
+			<p>Explore what drives people you recognize.</p>
+		</div>
+		<ul class="people-row">
+			{#each featuredPeople as person (person.slug)}
+				<li>
+					<a
+						data-track="link"
+						data-placement="people_row"
+						href={resolve('/personality-analysis/[slug]', { slug: person.slug })}
+					>
+						<span class="person-portrait personality-portrait-well">
+							<img
+								class="personality-portrait-image"
+								src={person.image}
+								alt=""
+								width="1080"
+								height="1080"
+								loading="lazy"
+							/>
+						</span>
+						<span class="mono person-type">ENNEAGRAM {person.type}</span>
+						<h3>{person.name}</h3>
+						<p>{person.hook}</p>
+					</a>
+				</li>
+			{/each}
+		</ul>
+		<a
+			class="text-link"
+			data-track="link"
+			data-placement="people_row"
+			href={resolve('/personality-analysis')}
+			>Explore all personality analyses <ArrowRight size={16} aria-hidden="true" /></a
+		>
+		<div class="reading-links">
+			<a data-track="link" data-placement="reading_links" href={resolve('/how-to-guides')}
+				><div>
+					<h3>Practical guides</h3>
+					<p>Use another perspective in everyday life.</p>
+				</div>
+				<ArrowRight size={16} aria-hidden="true" /></a
+			>
+			<a data-track="link" data-placement="reading_links" href={resolve('/book-session')}
+				><div>
+					<h3>Talk it through</h3>
+					<p>Bring a situation you want to understand.</p>
+				</div>
+				<ArrowRight size={16} aria-hidden="true" /></a
+			>
+		</div>
+	</section>
+
+	<section class="faq-band" aria-labelledby="faq-title">
+		<div class="faq-section section shell">
+			<h2 id="faq-title">Before you jump in.</h2>
+			<div class="faqs">
+				{#each faqItems as faq (faq.question)}<details>
+						<summary>{faq.question}<ChevronDown size={18} aria-hidden="true" /></summary>
+						<p>{faq.answer}</p>
+					</details>{/each}
+				<p class="faq-help">
+					<a href={resolve('/posting-and-privacy')}>Posting &amp; privacy</a>
+					<span aria-hidden="true"> · </span>
+					<a href={resolve('/posting-and-privacy#community-guidelines')}>Community guidelines</a>
+				</p>
 			</div>
 		</div>
 	</section>
@@ -964,12 +962,16 @@
 
 <style lang="scss">
 	/* Type scale (V5 + one lead step, HOMEPAGE_AUDIT_2026-09-26 T2-4):
-	   12 mono labels + diagram chips only · 14 small body · 16 body · 18 large body ·
+	   12 mono labels only · 14 small body · 16 body · 18 large body ·
 	   22 lead · 28 display-sm · clamp(28–40) section headings · h1. */
 	.dry-home {
+		--home-accent-text: var(--lamp-glow);
 		color: var(--ink-bright);
 		background: var(--night-deep);
 		font-family: 'Inter Variable', Inter, sans-serif;
+	}
+	:global(:root.light) .dry-home {
+		--home-accent-text: var(--lamp-deep);
 	}
 	.shell {
 		width: min(100%, 1280px);
@@ -977,7 +979,7 @@
 		padding-inline: var(--space-3xl);
 	}
 	.section {
-		padding-block: 72px;
+		padding-block: var(--space-3xl);
 	}
 	.mono {
 		font-family: 'JetBrains Mono', monospace;
@@ -1002,7 +1004,6 @@
 	section {
 		margin-block: 0;
 	}
-	ol,
 	ul {
 		margin: 0;
 		padding: 0;
@@ -1058,10 +1059,7 @@
 	.hero {
 		display: grid;
 		grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-		grid-template-rows: auto 1fr;
-		grid-template-areas:
-			'intro panel'
-			'visual panel';
+		grid-template-areas: 'intro panel';
 		align-items: start;
 		gap: var(--space-xl) var(--space-3xl);
 		padding-block: var(--space-3xl);
@@ -1070,8 +1068,7 @@
 		grid-area: intro;
 		min-width: 0;
 	}
-	.hero-visual {
-		grid-area: visual;
+	.explanatory-diagram {
 		min-width: 0;
 	}
 	.hero-action {
@@ -1094,6 +1091,13 @@
 		margin-top: var(--space-xl);
 		max-width: 32ch;
 		letter-spacing: -0.015em;
+	}
+	.hero-context {
+		margin-top: var(--space-lg);
+		max-width: 48ch;
+		font-size: 16px;
+		line-height: 1.55;
+		color: var(--ink-mid);
 	}
 
 	/* "I'm fine" diagram */
@@ -1176,34 +1180,16 @@
 		letter-spacing: -0.025em;
 	}
 	.thought-cloud {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		align-content: start;
-		gap: 7px;
-		margin: var(--space-md) 0 0;
+		display: grid;
+		gap: var(--space-xs);
+		margin-top: var(--space-sm);
 	}
 	.thought-cloud li {
 		max-width: 100%;
-		padding: 6px 11px;
-		border: 1px solid var(--stone-mid);
-		border-radius: 999px;
-		background: var(--night-mid);
 		color: var(--ink-mid);
-		font-size: 12px;
-		line-height: 1.35;
+		font-size: 14px;
+		line-height: 1.5;
 		text-wrap: balance;
-	}
-	.thought-cloud li:nth-child(2) {
-		margin-right: 12px;
-	}
-	.thought-cloud li:nth-child(3) {
-		margin-left: 12px;
-	}
-	.thought-cloud .thought-emphasis {
-		color: var(--ink-bright);
-		border-color: var(--stone-edge);
-		font-weight: 550;
 	}
 	.thought-note {
 		margin-top: var(--space-xl);
@@ -1232,7 +1218,8 @@
 		color: var(--ink-mid);
 	}
 	.panel-topline > .mono {
-		color: var(--lamp-glow);
+		color: var(--home-accent-text);
+		white-space: nowrap;
 	}
 	form,
 	.answer-receipt {
@@ -1261,7 +1248,7 @@
 		min-height: 96px;
 		padding: var(--space-md);
 		resize: vertical;
-		border: 1px solid var(--stone-edge);
+		border: 1px solid var(--ink-dim);
 		border-radius: 10px;
 		color: var(--ink-bright);
 		background: var(--night-deep);
@@ -1303,6 +1290,19 @@
 	.practice-note :global(svg) {
 		flex-shrink: 0;
 		margin-top: 0.25em;
+	}
+	.posting-help {
+		display: inline-flex;
+		align-items: center;
+		gap: var(--space-sm);
+		min-height: 44px;
+		font-size: 14px;
+		color: var(--home-accent-text);
+		text-decoration: underline;
+		text-underline-offset: 3px;
+	}
+	.posting-help + :global(.reveal-button) {
+		margin-top: var(--space-sm);
 	}
 	.form-error {
 		color: var(--error-text);
@@ -1370,7 +1370,6 @@
 
 	/* Shared section headings */
 	.section-heading h2,
-	.ritual-band h2,
 	.section-intro h2,
 	.why-copy h2,
 	.reading-heading h2,
@@ -1676,49 +1675,12 @@
 	}
 
 	/* Answer before the crowd */
-	.ritual-band {
-		background: var(--night-mid);
-	}
-	.ritual-band > .shell {
-		padding-block: 64px;
-	}
-	.ritual-steps {
-		display: grid;
-		grid-template-columns: repeat(3, minmax(0, 1fr));
-		gap: var(--space-2xl);
-		margin-top: var(--space-2xl);
-	}
-	.ritual-steps li {
-		min-width: 0;
-		padding-top: var(--space-lg);
-		border-top: 1px solid var(--stone-edge);
-	}
-	.step-number {
-		font-family: 'JetBrains Mono', monospace;
-		font-size: 12px;
-		letter-spacing: 0.07em;
-		color: var(--lamp-glow);
-	}
-	.ritual-steps h3 {
-		margin-top: var(--space-md);
-		font-size: 22px;
-		font-weight: 600;
-		line-height: 1.25;
-		letter-spacing: -0.025em;
-	}
-	.ritual-steps p {
-		margin-top: var(--space-sm);
-		font-size: 16px;
-		line-height: 1.6;
-		color: var(--ink-mid);
-	}
-
 	/* Live questions */
 	.section-intro {
 		max-width: 640px;
 	}
 	.kicker {
-		color: var(--lamp-glow);
+		color: var(--home-accent-text);
 		margin-bottom: var(--space-md);
 	}
 	.section-intro > p:last-child {
@@ -1765,7 +1727,7 @@
 		align-items: center;
 		margin-top: auto;
 		padding-top: var(--space-lg);
-		color: var(--lamp-glow);
+		color: var(--home-accent-text);
 		font-size: 14px;
 	}
 	.thread-action :global(svg) {
@@ -1793,7 +1755,16 @@
 	.why-section {
 		display: grid;
 		gap: var(--space-2xl);
-		padding-top: 0;
+		border-block: 1px solid var(--stone-edge);
+	}
+	.why-showcase {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		align-items: center;
+		gap: var(--space-3xl);
+	}
+	.why-showcase :global(.conversation-scene) {
+		grid-column: auto;
 	}
 	.why-copy {
 		display: grid;
@@ -1805,9 +1776,8 @@
 		font-size: 16px;
 		line-height: 1.7;
 	}
-	.why-copy p + p {
-		margin-top: var(--space-lg);
-		color: var(--ink-mid);
+	.why-copy .text-link {
+		margin-top: var(--space-md);
 	}
 
 	/* Reading */
@@ -1838,14 +1808,18 @@
 		display: block;
 		color: var(--ink-bright);
 	}
+	.person-portrait {
+		display: block;
+		aspect-ratio: 1;
+		overflow: hidden;
+		border-radius: 16px;
+	}
 	.people-row img {
 		display: block;
 		width: 100%;
-		height: auto;
-		aspect-ratio: 1;
-		object-fit: cover;
-		border-radius: 16px;
-		background: var(--night-mid);
+		height: 100%;
+		object-fit: contain;
+		object-position: center bottom;
 	}
 	.person-type {
 		display: block;
@@ -1870,32 +1844,33 @@
 	}
 	.reading-links {
 		display: grid;
-		grid-template-columns: repeat(3, minmax(0, 1fr));
-		gap: var(--space-2xl);
-		margin-top: var(--space-3xl);
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: var(--space-xl);
+		margin-top: var(--space-2xl);
 	}
 	.reading-links > a {
+		display: grid;
+		grid-template-columns: minmax(0, 1fr) auto;
+		align-items: center;
+		gap: var(--space-lg);
 		border-top: 1px solid var(--stone-edge);
-		padding-top: var(--space-xl);
+		padding-block: var(--space-lg);
 		color: var(--ink-bright);
 	}
-	.reading-links .mono {
+	.reading-links h3 {
+		font-size: 18px;
+		font-weight: 600;
+		letter-spacing: -0.02em;
+		line-height: 1.3;
+	}
+	.reading-links p {
+		margin-top: var(--space-xs);
+		font-size: 14px;
+		line-height: 1.5;
 		color: var(--ink-mid);
 	}
-	.reading-links h3 {
-		font-size: 22px;
-		font-weight: 550;
-		letter-spacing: -0.03em;
-		line-height: 1.3;
-		margin-block: var(--space-lg) var(--space-md);
-	}
-	.reading-links > a > span:last-child {
-		display: flex;
-		align-items: center;
-		gap: var(--space-sm);
-		color: var(--lamp-glow);
-		font-size: 14px;
-		min-height: 44px;
+	.reading-links :global(svg) {
+		color: var(--home-accent-text);
 	}
 
 	/* FAQ */
@@ -1943,6 +1918,17 @@
 		line-height: 1.7;
 		color: var(--ink-mid);
 		padding-bottom: var(--space-xl);
+	}
+	.faq-help {
+		margin-top: var(--space-lg);
+		font-size: 14px;
+		line-height: 1.6;
+		color: var(--ink-mid);
+	}
+	.faq-help a {
+		color: var(--home-accent-text);
+		text-decoration: underline;
+		text-underline-offset: 3px;
 	}
 
 	/* Founder */
@@ -2003,7 +1989,7 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		padding-block: 80px;
+		padding-block: var(--space-3xl);
 		text-align: center;
 	}
 	.closing > p {
@@ -2074,13 +2060,9 @@
 			grid-template-rows: auto;
 			grid-template-areas:
 				'intro'
-				'panel'
-				'visual';
+				'panel';
 			gap: var(--space-xl);
 			padding-block: var(--space-lg) var(--space-2xl);
-		}
-		.hero-visual {
-			margin-top: var(--space-lg);
 		}
 		h1 {
 			font-size: clamp(35px, 8.8vw, 52px);
@@ -2089,6 +2071,10 @@
 		.hero-benefit {
 			font-size: 18px;
 			margin-top: var(--space-md);
+		}
+		.hero-context {
+			margin-top: var(--space-md);
+			font-size: 14px;
 		}
 		.perspective-visual figcaption {
 			margin-bottom: var(--space-sm);
@@ -2105,20 +2091,11 @@
 		.meaning-title {
 			font-size: 14px;
 		}
-		.thought-cloud {
-			margin-top: var(--space-sm);
-			gap: 6px;
-		}
-		.thought-cloud li {
-			padding: 5px 9px;
-		}
-		.thought-cloud li:nth-child(2),
-		.thought-cloud li:nth-child(3) {
-			margin-left: 0;
-			margin-right: 0;
-		}
 		.panel-topline {
 			padding-block: var(--space-md);
+		}
+		form h2 {
+			font-size: 22px;
 		}
 		.answer-reason {
 			margin-bottom: var(--space-md);
@@ -2200,17 +2177,6 @@
 		.section-heading h2 {
 			scroll-margin-top: 88px;
 		}
-		.ritual-band > .shell {
-			padding-block: var(--space-3xl);
-		}
-		.ritual-steps {
-			grid-template-columns: minmax(0, 1fr);
-			gap: var(--space-xl);
-			margin-top: var(--space-xl);
-		}
-		.ritual-steps h3 {
-			font-size: 18px;
-		}
 		.section-intro > p:last-child {
 			font-size: 16px;
 		}
@@ -2220,6 +2186,10 @@
 		.why-copy {
 			grid-template-columns: minmax(0, 1fr);
 			gap: var(--space-lg);
+		}
+		.why-showcase {
+			grid-template-columns: minmax(0, 1fr);
+			gap: var(--space-2xl);
 		}
 		.reading-heading {
 			display: block;
@@ -2240,12 +2210,8 @@
 		}
 		.reading-links {
 			grid-template-columns: minmax(0, 1fr);
-			gap: var(--space-xl);
+			gap: 0;
 			margin-top: var(--space-2xl);
-		}
-		.reading-links h3 {
-			font-size: 18px;
-			margin-block: var(--space-md);
 		}
 		.faq-section {
 			grid-template-columns: minmax(0, 1fr);

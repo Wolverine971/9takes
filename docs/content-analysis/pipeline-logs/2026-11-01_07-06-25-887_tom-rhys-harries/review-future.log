@@ -1,0 +1,20 @@
+I wrote the future-role review (the five-year durability check) to `docs/content-analysis/pipeline-logs/2026-11-01_07-06-25-887_tom-rhys-harries/review-future.json`. It passes `reviewSchema`, and every quoted passage matches the draft exactly. I didn't change any other file in the repo and didn't publish anything. The only other thing I created is a helper script in `/tmp/trh-future/`.
+
+**Overall:** the main Type 6 claim would still hold in five years. Without the October 2026 *Clayface* press, his own words from 2015, 2020 and 2022 still support it, especially "fear is a big driving factor" and the motorbike line ("nothing subjective about whether an engine works"). The weak spots are the arguments against Type 3 and Type 7, which lean on release-week material.
+
+**Findings (3 major, 3 minor):**
+- **F1, major:** The draft calls the October 29 post-opening interview "the sharpest test the record offers." It is a single release-week interview, and the evidence record marks that claim stable even though the research notes say to keep watching it.
+- **F2, major:** The case against Type 3 depends on one podcast line about the ACL ("for fear of losing this job"). Take that away and the draft offers no older evidence that rules out Three.
+- **F3, major:** The evidence record tracks only one changing fact, the box-office figure. Several open questions have no recheck date:
+  - "no one who has known him for twenty years has spoken on the record"
+  - the "what would change this read" signals
+  - an unreleased indie film he mentions having just shot
+- **F4, minor:** The ending calls the opening "the biggest weekend of his life" and starts with "For now." Both will date badly.
+- **F5, minor:** "That is why people are looking him up" is only true right now.
+- **F6, minor:** The "Who is" FAQ says he "plays" the title role in *Clayface*; once the film is out of theatres it should say "played."
+
+I marked five passages to protect, including how the draft reconciles the conflicting ACL accounts, the 2015 audition evidence, the engine line, and the "what would change this read" signals.
+
+The repetition check flagged one phrase shared word-for-word with the Paul Bettany page, "the three types organized around fear." It's standard Enneagram wording rather than a reused argument, so I didn't count it as a finding. Contested typing stays flagged, and I found no new risks.
+
+The two hashes in the output are copied from the request file, as the stage instructions say. They don't match a plain `shasum` of the files, which I assume is because the runner hashes a cleaned-up version.

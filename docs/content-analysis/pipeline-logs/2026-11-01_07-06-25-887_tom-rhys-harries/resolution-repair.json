@@ -1,0 +1,358 @@
+{
+  "schema_version": 3,
+  "decisions": [
+    {
+      "finding_id": "critic-01",
+      "action": "fixed",
+      "reason": "The Three section now says the ACL motive does not discriminate: '\"For fear of losing this job\" is how almost anyone might explain hiding an injury from a studio... Both types would have hidden the knee, and both could have said those words.' The Six-over-Three call now rests on two other points, stated as narrow: where his fear attaches (the pre-release 'gone past the point of nervousness', C66) and where he puts credit across 2020 and 2026 (C52, C35). The 'not going to hand anyone a reason to agree' sentence is labeled 'One reading, which is this profile's and not his' and followed by 'A Three protecting how the studio saw him fits that reading as well as a Six protecting the job.' It is also dated to his October 2026 retrospective ('In that interview')."
+    },
+    {
+      "finding_id": "critic-02",
+      "action": "fixed",
+      "reason": "Removed 'anxiety management, not fun' as an argument against Seven. The Seven section now says: 'Not because of the escapes. Seven is also an anxiety-driven type, and distraction is its classic way of handling anxiety, so Elden Ring and the bike rides... fit Seven at least as well as Six.' The remaining discriminator is stated as 'two statements', notes 'even though he chose to do it' for going in blind, and concludes 'Two quotes four years apart show a tendency, not proof... the margin over Seven is narrow.' Repair (verify-04): the Elden Ring lines are no longer joined; the article now reads 'When Connor called it a tough game to switch off to, Harries answered, \"It probably talks to my level of anxiety throughout that period.\"', matching S02's order (C04)."
+    },
+    {
+      "finding_id": "critic-03",
+      "action": "fixed",
+      "reason": "The orientation paragraph now hedges: 'shooting on a torn ligament could be read that way, though the concealment itself avoided a feared conversation and most of the coping Harries describes is preparation, not confrontation.' 'Counterphobic territory' and 'That is consistent with a counterphobic Six' are gone; the leaves-out section says 'this profile does not count any of it as Six evidence. It stays partly unexplained.' The closing names an observable that would count against Six: 'a run of interviews in which he treats preparation as optional and stops crediting the people who steady him would count against Six, whatever the subtype.'"
+    },
+    {
+      "finding_id": "critic-04",
+      "action": "fixed",
+      "reason": "Added a section, 'Nine, and the calm on the surface', quoting Square Mile's 'how relaxed he is' / 'a man rarely in a rush' (C67), Cultured's 'clear-eyed and methodical' (C68), Glamour's 'I have a very thick skin' (C69) and the fatalist saying (C23), and noting that 'nothing is going to change' is a sentence a Nine could say. It explains why Six stays ahead (he keeps naming disturbance and builds defenses against it) and labels the 'calm may be partly what those defenses buy him' line as an inference. The pre-release 'gone past the point of nervousness' line (C66) is quoted in the Three section with what it implies. 'Fear is a mark of caring' is quoted in context as his own gloss, noted as reply-like actor rhetoric (C75). The title and persona title no longer say fear is his engine; the description now says Type 6 'narrowly leads' with 7, 3 and 9 close."
+    },
+    {
+      "finding_id": "critic-05",
+      "action": "fixed",
+      "reason": "'Then came the sharpest test the record offers' is replaced by 'One post-release interview adds a dated checkpoint.' The full quote, including '— it might open a few more doors in terms of who I’m able to talk to', is restored. 'He named loyalty as the only plan' is replaced by 'where he put the win: in the people around him and the collaborators he trusts.' The paragraph is labeled 'consistent with Six and not decisive', and the final paragraph says 'A Nine could say the same sentence' instead of 'It is a very Six thing to say after a win.'"
+    },
+    {
+      "finding_id": "critic-06",
+      "action": "fixed",
+      "reason": "The type answer and type FAQ now say 'Since at least 2022 he has said fear holds his focus, and in 2026 he called preparation a crutch' (claim C78). No sentence dates fear-as-driver language to 2015. The closing now says 'in his own words since at least 2022', and the 2015 source is described as 'student self-reproach'."
+    },
+    {
+      "finding_id": "critic-07",
+      "action": "fixed",
+      "reason": "The hook now says he told the story 'unscripted and mostly for laughs' and 'dropped the reason into the middle of it', and that 'Nobody had to drag a motive out of him. He volunteered one.' 'Could have ended the job anyway' is removed; Watkins's on-record answer that the injury 'wouldn’t have made any difference to me' (C70) now supplies the fact."
+    },
+    {
+      "finding_id": "critic-08",
+      "action": "fixed",
+      "reason": "The body now says 'Square Mile’s Michael Rudling reported that Harries lives with ADHD, and in the same interview Harries said he is \"shit at focusing...\"'. 'He also files ADHD under self-description' is removed. The FAQ now begins 'Square Mile reported in a June 2022 interview that he lives with ADHD' and calls it 'that report'. C10 is reclassified third_party with the attribution limit stated."
+    },
+    {
+      "finding_id": "critic-09",
+      "action": "fixed",
+      "reason": "The primer is rewritten. It drops 'the three types organized around fear', 'Some Sixes go straight at the thing that scares them' and 'something to stand on', and ties the counterphobic label to the Harries-specific concealment-versus-stunt distinction. Rerunning scripts/same-type-similarity.mjs on edit.md on 2026-11-03 reports tripped: false; the top pair scores 0.041 against Bettany with no shared phrases."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "action": "fixed",
+      "reason": "The Three section now states that the ACL concealment and the word 'fear' do not separate 3 from 6 ('Both types would have hidden the knee, and both could have said those words'). It also says the 2022 'fear of being criticised' is 'exactly what an image-focused type would feel', and the Fear section flags the same point. The Six-over-Three call now rests on a cross-year pattern: credit placed in collaborators in 2020 (Pina) and in 2026 (people invested in Clayface), plus anxiety attached to preparing and performing rather than reception. It is labeled narrow, with a named reversal condition. No sentence claims only one explanation fits."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "action": "fixed",
+      "reason": "The 'named as anxiety management' rebuttal is dropped, and the text says Seven's classic anxiety response is distraction. The 'For someone of the Seven type, the unplanned tends to feel like oxygen' generalization is removed. The surviving discriminators are framed as a tendency ('A Seven usually reaches for more options'; 'Two quotes four years apart show a tendency, not proof')."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "action": "fixed",
+      "reason": "The type answer, type FAQ and closing now date fear-as-driver language to 2022 ('since at least 2022'). The 2015 source is described accurately as self-reproach over missed auditions, recalled from his third year at drama school, with the vigilance reading labeled 'One reading'. All three places agree."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "action": "fixed",
+      "reason": "The orientation sentence now reads 'could be read that way' with the concealment-as-avoidance caveat. Counterphobia is invoked once, where the type is introduced, and is explicitly not used for the provocations: 'The counterphobic version of Six could absorb some of this, but this profile does not count any of it as Six evidence. It stays partly unexplained.' 'Challenging authority is counterphobic territory' is removed."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "action": "fixed",
+      "reason": "Nine is named in the type answer, the primer, a new dedicated section and the settle signals. The sourced reason Six beats Nine: 'a Nine tends to play disturbance down, and Harries keeps naming it... He builds defenses against disturbance rather than tuning it out.' The post-release paragraph includes the 'open a few more doors' clause, and the closing says 'A Nine could say the same sentence.'"
+    },
+    {
+      "finding_id": "enneagram-06",
+      "action": "fixed",
+      "reason": "'You don't trust the ground just because it held this time. You keep checking the engine.' and 'It is a very Six thing to say after a win' are removed. The final paragraph is framed as 'Through this profile's lens, that is the remedy again: keep what held', which attributes no distrust to him. 'Named loyalty as the only plan' is replaced by wording close to his ('the collaborators he trusts'; 'creators who I back fundamentally')."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "action": "fixed",
+      "reason": "The Cultured line is now quoted in the Three section with its source and timing: '\"I went through a phase of being nervous,\" and then, \"I’ve gone past the point of nervousness.\"' It is followed by the implication: 'The anxiety he describes clusters around preparing and performing, not around how the result is received.' It also appears as Nine-compatible calm. The hook still asks what kind of person names fear as his motive, which stays accurate because the ACL quote is his stated motive. Repair (2026-11-03, verify-03): the remark is now dated accurately, 'A couple of days before release, when a Three would feel most exposed, he told Cultured...', because Cultured asked it 'a couple days out' and published on release day; C66 matches."
+    },
+    {
+      "finding_id": "fan-F1",
+      "action": "fixed",
+      "reason": "No sentence attributes fear-as-engine language to 2015. The fear statement is dated 2022 in the answer, FAQ and closing. The 2015 line is described as self-reproach, with the vigilance reading labeled as one reading among cost and ambition. 'Read across eleven years' is removed; the closing now says 'From a 2015 recollection of student self-reproach to the 2026 press tour'."
+    },
+    {
+      "finding_id": "fan-F2",
+      "action": "fixed",
+      "reason": "The article now quotes the Cultured 'gone past the point of nervousness' line, Square Mile's 'how relaxed he is' / 'a man rarely in a rush', and Glamour's 'I have a very thick skin'. The new Nine section says how a fear-driven reading fits a calm surface ('He builds defenses against disturbance rather than tuning it out. The calm may be partly what those defenses buy him. That is an inference.') and names Nine as the type that calm suggests."
+    },
+    {
+      "finding_id": "fan-F3",
+      "action": "fixed",
+      "reason": "Added a paragraph to the formative section. It covers the first-language Welsh upbringing and the 'very musical family' (2015, attributed to that piece), and the 2020 Rakish Gent quote 'Both of my parents are teachers and I grew up in a great and safe family environment, but I’ve been self sufficient since I was 17', attributed separately so the two accounts are not merged. It also covers his music-first plan, the 'kind of stumbled into acting' line (WWD, 2022), and: 'That offhand entry sits awkwardly next to the vigilant student, and the type reading does not need to explain it away.'"
+    },
+    {
+      "finding_id": "fan-F4",
+      "action": "fixed",
+      "reason": "Same fix as critic-01 and enneagram-01. The Three section states plainly that the ACL episode fits both types and moves the discriminator to where he places credit (2020 and 2026) and where his fear attaches. The margin is stated as narrow."
+    },
+    {
+      "finding_id": "fan-F5",
+      "action": "fixed",
+      "reason": "The orientation sentence no longer says he did 'the stunt anyway'. It now says 'shooting on a torn ligament could be read that way, though the concealment itself avoided a feared conversation'. The hook already says he disclosed before the car stunt, that the team reworked it, and that he still did the jump and fall. The EW 'running around Liverpool at 1 a.m. or 2 a.m. trying to get away with it' tone is now weighed in the Seven section as 'glee, not dread' (C65). Repair (verify-01): C65 now cites only the opened Instinct relay (S16); the unopened EW original (S17) is kept in sources for provenance and cited by no claim."
+    },
+    {
+      "finding_id": "fan-F6",
+      "action": "fixed",
+      "reason": "Added his gloss in context, directly before the 'how much I’m needed' quote: 'I think fear is a mark of caring about something and wanting to contribute to the greater piece.' The text says it 'softens the threat reading' and is 'common actor rhetoric', and that what he attaches it to is still the group, not his own image (C75)."
+    },
+    {
+      "finding_id": "fan-F7",
+      "action": "fixed",
+      "reason": "The orientation paragraph now names earlier leading work: Hunky Dory (2011) while a drama student, a lead role in Netflix's White Lines (2020), and The Seagull opposite Emilia Clarke, shut after five performances in 2020 and revived in 2022 (S01, S10). The Pitchfork Disney is removed from knows_about because the body does not discuss it, and its Offie is sourced only to Wikipedia. Every remaining knows_about item (Clayface, White Lines, Hunky Dory, The Seagull) appears in the body."
+    },
+    {
+      "finding_id": "fan-F8",
+      "action": "fixed",
+      "reason": "The orientation paragraph no longer uses the shared four-step scaffold or 'Plenty of actors'. That phrase appears nowhere in the edit; the Fear section now says 'Harries describes fear of being judged...'. The counterphobic sentence is tied to the Harries-specific concealment-versus-stunt distinction. The similarity rerun is clear (tripped: false)."
+    },
+    {
+      "finding_id": "future-F1",
+      "action": "fixed",
+      "reason": "The October 29 interview is now 'One post-release interview adds a dated checkpoint', not 'the sharpest test the record offers'. C35 is reclassified time_sensitive with a dated review_trigger (recheck post-release and next-lead press by 2027-03-31 for 3, 7 or 6 framing). The Who has his back argument stands on pre-Clayface evidence (Pina, 2020) plus 2026 Connor quotes. The checkpoint paragraph is explicitly labeled not decisive."
+    },
+    {
+      "finding_id": "future-F2",
+      "action": "fixed",
+      "reason": "The Three section states the limits plainly: 'Both points rest on press interviews, and if later ones show him reframing the win as earned arrival, Three moves up.' Its discriminator now includes a pre-Clayface element, credit placed in trusted collaborators after White Lines in 2020, alongside the 2026 pre-release and post-release statements. It no longer leans on the single October 2026 ACL sentence."
+    },
+    {
+      "finding_id": "future-F3",
+      "action": "fixed",
+      "reason": "The absence claim is now dated: 'As of November 2026, no one who has known him for twenty years has spoken on the record outside a promo cycle.' It is tracked as C62 (unresolved, trigger 2027-03-31, named collaborators). The settle signals map to C63 (unresolved, trigger 2027-03-31, rerun --refresh --expanded-review if a signal fires). The unnamed indie is tracked as C64 (time_sensitive, trigger 2027-06-30) and added to research_tasks."
+    },
+    {
+      "finding_id": "future-F4",
+      "action": "fixed",
+      "reason": "'the biggest weekend of his life' is replaced by 'six days after his first studio lead opened at No. 1'. 'For now' is removed. The final beat rests on the preceding 2015-2026 pattern paragraph; the October 29 quote is presented as a data point, followed by 'A Nine could say the same sentence. What he reaches for the next time the ground moves will say more.'"
+    },
+    {
+      "finding_id": "future-F5",
+      "action": "fixed",
+      "reason": "'That is why people are looking him up.' is removed. The paragraph goes from the dated box-office sentence to the fear question."
+    },
+    {
+      "finding_id": "future-F6",
+      "action": "fixed",
+      "reason": "The Who is FAQ now says 'starred in the title role of DC Studios' Clayface, which opened at No. 1 in the US on October 23, 2026.' C61 is updated to 'played... the title role'."
+    },
+    {
+      "finding_id": "subject-01",
+      "action": "fixed",
+      "reason": "The ACL passage now quotes Watkins's response from the same THR interview (2026-10-26), verified by reopening the page on 2026-11-03: 'it’s not like he was cast to play Premier League or NFL football. He’s acting, so [having foreknowledge of his injury] wouldn’t have made any difference to me.' (C70). It adds 'He has since had the surgery: \"I’ve put it back in since\"' (Cultured, C71) and notes that the threat, by the director's account, would not have cost him the role. The film-medicals aside is not used. The title and description do not imply he endangered the production, and the ACL FAQ includes Watkins's answer."
+    },
+    {
+      "finding_id": "subject-02",
+      "action": "fixed",
+      "reason": "The body attributes the diagnosis to Square Mile's reporting, then quotes his own words about focus. 'files ADHD under self-description' is removed. The FAQ is reworded to 'Square Mile reported in a June 2022 interview that he lives with ADHD' and 'treats that report as context', and no longer calls it his self-description. The FAQ and keyword are kept because the reworded version meets the acceptance test, and the condition was discussed in a published interview he gave (the standfirst says he 'talks... ADHD'). The protected line 'The ADHD disclosure cuts against both readings' stays because, in context, the disclosure is now attributed to the Square Mile interview."
+    },
+    {
+      "finding_id": "subject-03",
+      "action": "fixed",
+      "reason": "'doing the stunt anyway' is removed. The text now says shooting on a torn ligament could be read as counterphobic, but the concealment avoided a feared conversation. The hook gives the sourced order of events: he hid the injury, raised it at the car stunt, the stunt was reworked, and he still did the jump and the fall."
+    },
+    {
+      "finding_id": "subject-04",
+      "action": "fixed",
+      "reason": "The Parade's End story now includes 'Benedict Cumberbatch, he recalled, \"said he’d had the same concern as me, but that he’d checked the book and it was right\"' and says he tells it 'mainly to praise Cumberbatch as \"so studious\" and to laugh at himself.' The Three line now reads 'Rudling's detail suggests a man monitoring how he lands.'"
+    },
+    {
+      "finding_id": "subject-05",
+      "action": "fixed",
+      "reason": "All three sentences are hedged or cut back. The risky-bet sentence is labeled 'One reading, which is this profile's and not his', and adds that it fits Three as well. 'It was a failure of vigilance' becomes 'One reading is that it already registered as a lapse in vigilance, though cost and plain ambition explain the self-reproach as well.' 'Only one explanation matches what he said' becomes 'both could have said those words.'"
+    },
+    {
+      "finding_id": "subject-06",
+      "action": "fixed",
+      "reason": "'a deadpan joke about self-mutilation' becomes 'a deadpan claim to have pulled out his own tooth for a scene'. The both-sides attribution ('It is his word against a printed quote. Either way,') is unchanged."
+    },
+    {
+      "finding_id": "subject-07",
+      "action": "fixed",
+      "reason": "The phone-call detail is now attributed to the site: 'and, by the site's account, Harries phoned Minghella the day he was cast'. Minghella's quoted words stay attributed to him. C07 is updated to say the phone call is the site's narration."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "action": "fixed",
+      "reason": "The body now says the 2015 interview was given 'when he was already a working stage actor', 'Recalling his third year at drama school in Cardiff, around 2011 or 2012' (new claim C77). It no longer calls him a student in 2015. The type answer, FAQ and closing date fear-as-driver language to 2022. 'Eleven years' is removed, and C08 is corrected."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "action": "fixed",
+      "reason": "The first sentence now says 'the DC Studios film in which he plays the title role', and the second calls him 'the Welsh actor'. The Watkins quote is introduced 'using the name of Harries's character, Matt Hagen'. The opening scene and the fear quote are unchanged."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "action": "fixed",
+      "reason": "The type section's orientation paragraph now glosses Type 3 ('driven by the need to be seen succeeding') and Type 9 ('tunes disturbance out to stay steady') at their first body mention. Later comparisons can now be read on their own."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "action": "fixed",
+      "reason": "The counterphobic label is hedged and paired with the sentence 'most of the coping Harries describes is preparation, not confrontation.' The ACL is no longer called a counterphobic move as settled fact, and later sections do not use the label to absorb misfits."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "action": "fixed",
+      "reason": "The tooth anecdote now opens by saying WalesOnline 'asked how a White Lines scene in which his character loses a tooth was done'. The ADHD sentence is rewritten plainly: Square Mile reported the condition, and 'ADHD is also a real alternative explanation for the restlessness and the bursts of obsession.'"
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "action": "fixed",
+      "reason": "Both middle sections are compressed. Removed: the self-trust paragraph (C03), the 'cycling around London, calling my family' and parents-at-premiere beats (C28, C53), and 'never not on set' (C51). The escapes are merged into one paragraph that hands off to the Seven section. 'The crutch' now builds to the worst-case self-assessment. 'Who has his back' ends on the dated post-release checkpoint and the 2020/2026 credit pattern, which feeds the Three argument."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "action": "fixed",
+      "reason": "persona_title is now 'The Actor Who Says Fear Holds His Focus', close to his 2022 words. The title drops 'Why Fear Is His Engine' and becomes 'Tom Rhys Harries and the Torn ACL He Hid on Clayface: The Case for Enneagram Type 6'. The closing 'checking the engine' metaphor is removed, and the last section is retitled 'The fear and the remedy'."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "action": "fixed",
+      "reason": "The head-triad paragraph is reworded with no sentence shared with the Bettany, Essiedu or Fielder pages. It uses a Harries-specific counterphobic caveat instead of the generic Five/Seven/Six list, and drops 'A Five pulls back to observe'. The 2026-11-03 rerun of scripts/same-type-similarity.mjs on edit.md does not trip (top score 0.041, no shared phrases)."
+    },
+    {
+      "finding_id": "verify-01",
+      "action": "fixed",
+      "reason": "In evidence-repair.json S17 is removed from the source_ids of C44, C58 and C65, and S15 from C49. Those claims now cite the opened relays (S16 Instinct; S14 SuperHeroHype), plus S28/S27 for C44 as before. S15 and S17 stay in sources with access 'unavailable' and a 2026-11-03 locator (403, Jina 451, no Wayback); no claim cites them, and research task 1 tracks reopening them. No article change was needed: the body already says 'as relayed by Instinct' and 'as relayed by SuperHeroHype', and the frontmatter citations list neither original."
+    },
+    {
+      "finding_id": "verify-02",
+      "action": "fixed",
+      "reason": "The Connor exchange now follows S02's order, which I rechecked on 2026-11-03: 'When Kit Connor said in 2026 that he had learned from Harries to be silly on set, Harries answered, \"I may have taken the license to be silly and run with it.\" Connor added, \"You taught me how to misbehave on a film set.\"' The C21 claim text is rewritten to the same order. Its passage is unchanged and still matches."
+    },
+    {
+      "finding_id": "verify-03",
+      "action": "fixed",
+      "reason": "The Three section now reads 'A couple of days before release, when a Three would feel most exposed, he told Cultured, \"I went through a phase of being nervous,\"...'. The earlier 'On release week he told Cultured' (the noes/luck lines from the same Q&A) is now 'Days before release he told Cultured'. C66 now gives the Q&A's 'a couple days out' question and the release-day publication date. C25, C50, S03's context and the type_hypothesis discriminator no longer call it a release-day interview."
+    },
+    {
+      "finding_id": "verify-04",
+      "action": "fixed",
+      "reason": "The two Interview lines are now separated by Connor's interjection: '...he told Connor. When Connor called it a tough game to switch off to, Harries answered, \"It probably talks to my level of anxiety throughout that period.\"' This matches S02, rechecked on 2026-11-03. C04's claim text records the interjection and what 'It' refers to. The C04 passage is unchanged and still matches."
+    },
+    {
+      "finding_id": "verify-05",
+      "action": "fixed",
+      "reason": "The why-not-7 FAQ now says 'the escape he describes most fondly, motorbikes, is about certainty', with no 'favorite' or 'fixing'. The body's 'He plays guitar and rides motorbikes' is now 'He plays guitar and, he said in 2022, has ridden motorbikes for years', which matches S01 (rechecked 2026-11-03: 'keen pianist and guitarist'; 'I’ve ridden bikes for years but one conked out at the start of the pandemic'). C18, C19 and the type_hypothesis discriminator ('the antidote to acting's subjectivity he describes most fondly') match the new wording."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "His later podcast account and Watkins's agree that the secret came out mid-shoot instead.",
+      "action": "kept",
+      "reason": "Unchanged verbatim in the EW-relay paragraph."
+    },
+    {
+      "passage": "The ADHD disclosure cuts against both readings. It explains the breadth of interests without needing Seven, and it explains the hyperfocus without needing Six.",
+      "action": "kept",
+      "reason": "Unchanged verbatim in the Seven section. Earlier in the body, the disclosure is now attributed to the Square Mile interview (subject-02, critic-08), so 'disclosure' refers to that reported interview."
+    },
+    {
+      "passage": "That is premiere-season praise from a castmate, published by a site that gets his age wrong, so it carries limited weight.",
+      "action": "kept",
+      "reason": "Unchanged verbatim; the phone-call detail before it is now attributed to the site (subject-07)."
+    },
+    {
+      "passage": "A Seven wants more doors open. This is a man who relaxes when a question has one right answer.",
+      "action": "kept",
+      "reason": "Unchanged verbatim. As critic-02 requested, the surrounding argument is narrowed and this line now follows 'Two quotes four years apart show a tendency, not proof'."
+    },
+    {
+      "passage": "This is his account of his childhood, not a diagnosis of it, and it does not explain his type.",
+      "action": "kept",
+      "reason": "Unchanged verbatim; now also preceded by the safe-home and stumbled-into-acting context (fan-F3)."
+    },
+    {
+      "passage": "He was modeling the worst case, from the decision-maker's chair, about himself. That context makes the hidden ACL easier to read. He already saw himself as the risky bet. He was not going to hand anyone a reason to agree.",
+      "action": "changed",
+      "reason": "The first two sentences are kept verbatim, preserving the passage's insight (his threat assessment of himself from the studio's side). Critic-01, enneagram-01 and subject-05 objected that the last two sentences state an imagined motive as fact and ignore that it also fits Three. They now read: 'One reading, which is this profile's and not his: he already saw himself as the risky bet and was not going to hand anyone a reason to agree. A Three protecting how the studio saw him fits that reading as well as a Six protecting the job.'"
+    },
+    {
+      "passage": "Acting is so subjective and sort of heady but there’s nothing subjective about whether an engine works or if a sprocket’s out of place.",
+      "action": "kept",
+      "reason": "Unchanged verbatim as the block quote in the Seven section; it is now one of the two named discriminators against Seven."
+    },
+    {
+      "passage": "The ADHD disclosure cuts against both readings. It explains the breadth of interests without needing Seven, and it explains the hyperfocus without needing Six. That is why the case here leans on motive statements, not on how scattered or focused he seems.",
+      "action": "kept",
+      "reason": "All three sentences unchanged verbatim."
+    },
+    {
+      "passage": "The detail that matters survives either version.",
+      "action": "kept",
+      "reason": "Unchanged verbatim."
+    },
+    {
+      "passage": "The correction, with its self-blame, is more Six-like than the joke.",
+      "action": "kept",
+      "reason": "Unchanged verbatim."
+    },
+    {
+      "passage": "His later podcast account and Watkins's agree that the secret came out mid-shoot instead. The detail that matters survives either version.",
+      "action": "kept",
+      "reason": "Both sentences unchanged and adjacent."
+    },
+    {
+      "passage": "It is his word against a printed quote. Either way, a deadpan joke about self-mutilation, delivered to his hometown paper, is not what a careful, image-guarding personality does.",
+      "action": "changed",
+      "reason": "The both-sides framing ('It is his word against a printed quote. Either way,') and the point are kept. Only the clinical term flagged by subject-06 is replaced: 'a deadpan claim to have pulled out his own tooth for a scene, delivered to his hometown paper, is not what a careful, image-guarding personality does.'"
+    },
+    {
+      "passage": "I actually cut off my agent and said, ‘Do not tell me who else it is,’",
+      "action": "kept",
+      "reason": "Unchanged verbatim."
+    },
+    {
+      "passage": "A missed audition was not a shrug. It was a failure of vigilance.",
+      "action": "changed",
+      "reason": "The contribution (early self-reproach over missed chances, from a pre-fame source) is kept: 'A missed audition was not a shrug to him.' Subject-05 and fan-F1 showed that the source says only that he 'used to really beat myself up', with no fear or vigilance language, so the interpretation is now labeled: 'One reading is that it already registered as a lapse in vigilance, though cost and plain ambition explain the self-reproach as well.'"
+    },
+    {
+      "passage": "He was modeling the worst case, from the decision-maker's chair, about himself.",
+      "action": "kept",
+      "reason": "Unchanged verbatim."
+    },
+    {
+      "passage": "If the post-_Clayface_ Harries starts describing his success as earned arrival, Three gains ground. If he starts chasing the next thrill and calling preparation a cage, Seven does.",
+      "action": "kept",
+      "reason": "Both sentences unchanged; a Nine signal and an against-Six observable are added after them, and they are tracked as claim C63 with a review trigger."
+    },
+    {
+      "passage": "This is his account of his childhood, not a diagnosis of it, and it does not explain his type. What it shows is a loyalty that has held steady.",
+      "action": "kept",
+      "reason": "Both sentences unchanged and adjacent."
+    },
+    {
+      "passage": "It is his word against a printed quote. Either way,",
+      "action": "kept",
+      "reason": "Unchanged verbatim."
+    },
+    {
+      "passage": "And for fear of losing this job, I didn't tell anybody.",
+      "action": "kept",
+      "reason": "Unchanged verbatim as the hook's block quote; the surrounding text now notes the comic, unscripted register and Watkins's response."
+    },
+    {
+      "passage": "Both types would have hidden the knee. Only one explanation matches what he said.",
+      "action": "changed",
+      "reason": "The first half, which concedes the behavior is shared, is kept. Critic-01, enneagram-01, fan-F4 and subject-05 all showed that 'for fear of losing this job' fits Three as well as Six, and the evidence record's own unexplained field concedes this, so the claim that only one explanation matches is false as written. It now reads: 'Both types would have hidden the knee, and both could have said those words.' The Six-over-Three call moves to other sourced points."
+    }
+  ],
+  "prior_blockers": []
+}

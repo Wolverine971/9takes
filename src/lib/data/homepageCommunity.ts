@@ -1,4 +1,6 @@
 // src/lib/data/homepageCommunity.ts
+import { LIVE_TAKE_SLUG } from './homepageLiveTake';
+
 // Public question metadata only. Never serialize RPC author IDs or answer text.
 export type CommunityProof = {
 	totalQuestions: number;
@@ -27,6 +29,8 @@ export function parseCommunityProof(raw: unknown): CommunityProof | null {
 		const row = value as Record<string, unknown>;
 		if (row.removed === true || row.flagged === true) continue;
 		if (typeof row.url !== 'string' || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(row.url)) continue;
+		// The featured question already has a composer above these suggestions.
+		if (row.url === LIVE_TAKE_SLUG) continue;
 		if (seen.has(row.url)) continue;
 		const title =
 			typeof row.question_formatted === 'string' && row.question_formatted.trim()

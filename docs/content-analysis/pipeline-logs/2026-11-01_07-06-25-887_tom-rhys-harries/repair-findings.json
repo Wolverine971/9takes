@@ -1,0 +1,26 @@
+{
+  "eligible": false,
+  "blockers": [
+    "verification:revise",
+    "unresolved:verify-01:Four claims cite sources that were never opened. S15 (People exclusive) and S17 (EW cover story) still return 403 on 2026-11-03, Jina returns 451 for both, and Wayback has no capture of either. The standard says unopened pages are not evidence. The release gate requires every cited source to be opened, so these four IDs block release even though the article itself correctly attributes the wording to the opened relays (SuperHeroHype S14, Instinct S16).",
+    "unverified_source:S17",
+    "unverified_source:S15",
+    "overall_below_8.5:8.4"
+  ],
+  "quality": {
+    "evidence": 8.4,
+    "enneagram": 8.1,
+    "originality": 8.6,
+    "writing": 8.3,
+    "durability": 8.4,
+    "hook": 9,
+    "discoverability": 8,
+    "overall": 8.4,
+    "letter": "B",
+    "rubric_version": 3,
+    "graded_at": "2026-11-03",
+    "caps_applied": [],
+    "needs_review": true,
+    "content_sha256": "da64da52d3258ec216198b3966492df4f04942c964c4365c32bad85ebf767263"
+  }
+}

@@ -50,7 +50,37 @@ export type LiveTakePostResult = {
 };
 
 export const LIVE_TAKE_ANSWER_FAQ =
-	'Pressing Post adds your answer to the live question exactly as you wrote it, then opens the other answers. No account is needed: guests post without a name. If you are signed in, your answer posts from your account. An unsubmitted draft stays in this tab and clears when you refresh.';
+	'Posting makes your answer public and opens the other answers. Guests post without a name; signed-in visitors post from their account. An unsubmitted draft stays in this tab and clears when you refresh.';
+
+/** Describe the live product independently of the private practice fallback. */
+export const liveTakeFaqs = [
+	{
+		question: 'What is 9takes?',
+		answer:
+			'A question-and-answer community for understanding why people see the same situation differently. Share your own answer first, then read how other people responded.'
+	},
+	{ question: 'What happens to my answer here?', answer: LIVE_TAKE_ANSWER_FAQ },
+	{
+		question: 'Who wrote the answers?',
+		answer:
+			'The live answers come from community members. After posting, you can also explore a separate comparison of AI-written examples. Those examples are labeled and do not assess your personality.'
+	},
+	{
+		question: 'Why nine perspectives?',
+		answer:
+			'The nine refers to the Enneagram’s patterns of motivation, not a guaranteed number of answers. Each question has a different mix of people and types. You don’t need to know your type to begin.'
+	},
+	{
+		question: 'Can I edit or remove my answer?',
+		answer:
+			'Signed-in authors can edit their own answers from the comment options on the question page. Guests do not have edit or delete controls. For a guest correction or a removal request, email usersup@9takes.com with the question link and the answer you mean.'
+	},
+	{
+		question: 'Do I need an account to join in?',
+		answer:
+			'You can post your first answer to a question without an account. Sign in to reply to other people. Answering first lets you compare your own reaction before the conversation influences it.'
+	}
+];
 
 type TakeRow = {
 	id: number;

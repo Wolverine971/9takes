@@ -1,0 +1,236 @@
+{
+  "target": {
+    "person": "tom-rhys-harries",
+    "type": "6",
+    "units": 12,
+    "file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-01_07-06-25-887_tom-rhys-harries/draft.md"
+  },
+  "comparison_set": [
+    {
+      "person": "paul-bettany",
+      "date": "2026-10-30",
+      "units": 9
+    },
+    {
+      "person": "anthony-ippolito",
+      "date": "2026-10-28",
+      "units": 7
+    },
+    {
+      "person": "ella-beatty",
+      "date": "2026-10-28",
+      "units": 9
+    },
+    {
+      "person": "paapa-essiedu",
+      "date": "2026-10-27",
+      "units": 11
+    },
+    {
+      "person": "Nathan-Fielder",
+      "date": "2026-10-26",
+      "units": 23
+    },
+    {
+      "person": "inde-navarrette",
+      "date": "2026-10-22",
+      "units": 7
+    },
+    {
+      "person": "josh-hartnett",
+      "date": "2026-10-22",
+      "units": 4
+    },
+    {
+      "person": "christopher-abbott",
+      "date": "2026-10-19",
+      "units": 9
+    }
+  ],
+  "n_requested": 8,
+  "noise_floor": {
+    "pairs_compared": 948,
+    "median": 0,
+    "p90": 0,
+    "p99": 0.019,
+    "max": 1
+  },
+  "trip_threshold": 0.076,
+  "tripped": true,
+  "trip_pairs": [
+    {
+      "score": 1,
+      "other_person": "paul-bettany",
+      "shared_phrases": [
+        "three type",
+        "type organiz",
+        "organiz around",
+        "around fear",
+        "the three type",
+        "three type organiz",
+        "type organiz around",
+        "organiz around fear"
+      ],
+      "target": "[diagnosis] the three types organized around fear.",
+      "other": "[diagnosis] the three types organized around fear."
+    },
+    {
+      "score": 0.092,
+      "other_person": "Nathan-Fielder",
+      "shared_phrases": [
+        "look for someth"
+      ],
+      "target": "[diagnosis] A Six looks for something to stand on",
+      "other": "[diagnosis] so they look for something outside themselves to lean on"
+    }
+  ],
+  "per_draft_max": [
+    {
+      "person": "paul-bettany",
+      "date": "2026-10-30",
+      "units": 9,
+      "maxScore": 1
+    },
+    {
+      "person": "Nathan-Fielder",
+      "date": "2026-10-26",
+      "units": 23,
+      "maxScore": 0.092
+    },
+    {
+      "person": "paapa-essiedu",
+      "date": "2026-10-27",
+      "units": 11,
+      "maxScore": 0.063
+    },
+    {
+      "person": "josh-hartnett",
+      "date": "2026-10-22",
+      "units": 4,
+      "maxScore": 0.043
+    },
+    {
+      "person": "anthony-ippolito",
+      "date": "2026-10-28",
+      "units": 7,
+      "maxScore": 0.02
+    },
+    {
+      "person": "ella-beatty",
+      "date": "2026-10-28",
+      "units": 9,
+      "maxScore": 0.016
+    },
+    {
+      "person": "christopher-abbott",
+      "date": "2026-10-19",
+      "units": 9,
+      "maxScore": 0.006
+    },
+    {
+      "person": "inde-navarrette",
+      "date": "2026-10-22",
+      "units": 7,
+      "maxScore": 0.006
+    }
+  ],
+  "top_pairs": [
+    {
+      "score": 1,
+      "other_person": "paul-bettany",
+      "shared_phrases": [
+        "three type",
+        "type organiz",
+        "organiz around",
+        "around fear",
+        "the three type",
+        "three type organiz",
+        "type organiz around",
+        "organiz around fear"
+      ],
+      "target": "[diagnosis] the three types organized around fear.",
+      "other": "[diagnosis] the three types organized around fear."
+    },
+    {
+      "score": 0.122,
+      "other_person": "paul-bettany",
+      "shared_phrases": [],
+      "target": "[diagnosis] Some Sixes go straight at the thing that scares them",
+      "other": "[diagnosis] Some charge straight at the threat"
+    },
+    {
+      "score": 0.092,
+      "other_person": "Nathan-Fielder",
+      "shared_phrases": [
+        "look for someth"
+      ],
+      "target": "[diagnosis] A Six looks for something to stand on",
+      "other": "[diagnosis] so they look for something outside themselves to lean on"
+    },
+    {
+      "score": 0.063,
+      "other_person": "paapa-essiedu",
+      "shared_phrases": [],
+      "target": "[diagnosis] Some Sixes go straight at the thing that scares them",
+      "other": "[diagnosis] Some Sixes back away from what scares them."
+    },
+    {
+      "score": 0.043,
+      "other_person": "josh-hartnett",
+      "shared_phrases": [
+        "around fear"
+      ],
+      "target": "[diagnosis] the three types organized around fear.",
+      "other": "[diagnosis] the types built around fear"
+    },
+    {
+      "score": 0.04,
+      "other_person": "paapa-essiedu",
+      "shared_phrases": [],
+      "target": "[diagnosis] Since 2015 he has described fear as what drives his focus and preparation as a crutch",
+      "other": "[diagnosis] for years he has described dreading being found out before each new job and leaning on people close to him to get there."
+    },
+    {
+      "score": 0.031,
+      "other_person": "paul-bettany",
+      "shared_phrases": [],
+      "target": "[diagnosis] The case rests mostly on his own words in promotional interviews",
+      "other": "[diagnosis] The case for Bettany rests on something more specific"
+    },
+    {
+      "score": 0.027,
+      "other_person": "Nathan-Fielder",
+      "shared_phrases": [],
+      "target": "[diagnosis] Those limits get their own hearing below",
+      "other": "[diagnosis] They don't fully trust their own judgment"
+    },
+    {
+      "score": 0.022,
+      "other_person": "Nathan-Fielder",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Six looks for something to stand on",
+      "other": "[diagnosis] And once a Six finally trusts someone"
+    },
+    {
+      "score": 0.02,
+      "other_person": "anthony-ippolito",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Six looks for something to stand on",
+      "other": "[diagnosis] a Six builds solid ground before stepping out."
+    },
+    {
+      "score": 0.017,
+      "other_person": "Nathan-Fielder",
+      "shared_phrases": [],
+      "target": "[diagnosis] Since 2015 he has described fear as what drives his focus and preparation as a crutch",
+      "other": "[diagnosis] \"fear.\" The Six pattern runs as a loop."
+    },
+    {
+      "score": 0.016,
+      "other_person": "ella-beatty",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Six looks for something to stand on",
+      "other": "[diagnosis] and looks for ground to trust in preparation"
+    }
+  ]
+}

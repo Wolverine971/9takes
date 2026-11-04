@@ -57,9 +57,7 @@ describe('homepage live-take preview', () => {
 		const { container } = render(Page, { props: { data: { live } as never } });
 		const answer = 'Someone who shows up when it is inconvenient.';
 		await fireEvent.input(screen.getByRole('textbox'), { target: { value: answer } });
-		await fireEvent.click(
-			screen.getByRole('button', { name: 'Post anonymously and read answers' })
-		);
+		await fireEvent.click(screen.getByRole('button', { name: 'Post & read answers' }));
 
 		await waitFor(() =>
 			expect(
@@ -89,9 +87,7 @@ describe('homepage live-take preview', () => {
 		};
 		render(Page, { props: { data: { live: withAnswers } as never } });
 		await fireEvent.input(screen.getByRole('textbox'), { target: { value: 'Loyalty.' } });
-		await fireEvent.click(
-			screen.getByRole('button', { name: 'Post anonymously and read answers' })
-		);
+		await fireEvent.click(screen.getByRole('button', { name: 'Post & read answers' }));
 		expect(await screen.findByText('They remember the small things.')).toBeTruthy();
 		expect(screen.getByText('ENNEAGRAM 2')).toBeTruthy();
 		expect(screen.getByText('ANONYMOUS')).toBeTruthy();

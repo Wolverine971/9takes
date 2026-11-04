@@ -282,3 +282,175 @@ Screenshots: [desktop fold](screenshots/homepage-2026-09-26/live-take/desktop-fo
   the admin path.
 - Visitors who already answered question 203 should skip straight to the unlocked state.
 - Decide moderation for homepage-originated takes and whether the hero question rotates.
+
+## November 3, 2026 — first pass and Tier 1 follow-up
+
+DJ approved the first-pass recommendation and all Tier 1 findings from a fresh production audit.
+Implemented locally; not deployed. The live homepage now posts to the community, so the September
+private-practice-only descriptions are historical.
+
+### Changes
+
+- **Posting clarity → P6+P8.** Live mode now has its own complete FAQ set instead of replacing only
+  one practice FAQ. It distinguishes community answers from the separately labeled AI examples shown
+  after posting, explains the nine patterns, and accurately describes guest editing and sign-in for
+  replies. The private fallback keeps its own explanations. A regression test covers switching modes.
+- **Pre-submit notice → P4+P6+P13.** Public/account-or-guest disclosure sits immediately before the
+  compact “Post & read answers” button and is associated with both the input and submit button.
+  Practice retains its explicit “nothing is posted” notice. Posting behavior is unchanged.
+- **Trust navigation → P6+P8.** Added `/posting-and-privacy` with public-vs-anonymous guidance, guest
+  edit/delete limitations and support contact, browser/usage data explanation, and community
+  guidelines. Linked from the FAQ and shared footer. This is product guidance, not a new contractual
+  terms document. Existing comment editing/reporting controls and visitor-identity/analytics code
+  informed the descriptions; no new retention or deletion guarantee was introduced.
+- **Contrast → P19+P13.** Small homepage amber labels on cream use the existing deeper amber in light
+  mode. Shared header tinted login text also uses the deeper amber in light mode. Dark mode and primary
+  button colors are unchanged. The homepage textarea border now uses the readable secondary ink token.
+- **Diagram → P4+P5+P6.** Eight 12px pills reduced to four 14px plain-text thoughts, preserving the
+  original contrast and voice. Mono remains limited to small labels.
+- **First-pass compression → P3+P6.** Shorter step descriptions with a compact numbered mobile layout;
+  removed repeated explanatory copy; tightened desktop section spacing and closing band. The question
+  heading uses 22px on mobile. Existing section order, portrait treatment and illustration loop remain.
+
+### Verification
+
+- `pnpm check`: **0 errors, 0 warnings**.
+- Focused Vitest run: **22 tests passed across 5 files** (homepage, both V2/live previews, live-take
+  data, Header). Includes public-posting, private fallback, failure/retry, existing-answer, signed-in
+  disclosure and privacy-mode regression coverage. Test posting uses mocks; no real answer was posted.
+- Targeted ESLint: **0 errors**; the preview spec is ignored by the existing configuration.
+- Radius, retired-color and global-CSS lints: **pass**. Touched source files formatted with Prettier.
+- Official Svelte analyzer: no issues in homepage, Header or new guide. Footer retains four existing
+  link-resolution warnings; newly added guide links use `resolve`.
+- Chromium local preview: **1440×1000 light/dark, 390×844 light/dark, 320×640 and 820×1180 light**.
+  No horizontal overflow, browser exceptions or measured normal-state text contrast failures.
+- Affected light-mode labels: **4.23:1 → 5.98:1**. Textarea border against its outside surface:
+  **1.34:1 → 4.04:1 light**, **2.38:1 → 5.25:1 dark**.
+- Page height: **5691 → 5245px desktop**, approximately **7500 → 6981px mobile** with the same live
+  community cards. At 390px the 48px submit button is at approximately **678–726px**; disclosure is
+  before it. At 320×640 the button remains below the fold (**703–751px**).
+- Empty submit returns focus to the textarea and announces its error. New footer/FAQ links and the
+  guidelines anchor work; the guide has no mobile horizontal overflow.
+- Screenshots and measurements: `output/playwright/homepage-review-2026-11-03/after/` (desktop/mobile,
+  both themes, full-page captures, guide captures and `measurements.json`). Production before captures
+  are in the parent folder. Real iOS Safari pass and deployment are still outstanding.
+
+### Deferred
+
+The broader section reordering, bringing the nine-pattern explanation into the hero, portrait
+harmonization and illustration playback changes remain outside this approved first pass.
+
+## November 3, 2026 — remaining changes and visual comparison
+
+DJ approved the remaining changes and requested side-by-side comparisons. This completes the
+previously deferred hierarchy, explanation, portrait and motion work locally. No deployment.
+
+### Changes
+
+- **Journey → P3+P6+P8.** The resting homepage now runs hero/live question → community questions →
+  explanation → founder → reading → FAQ → closing invitation. The founder moves ahead of the longer
+  library/FAQ sections. Posted and private-practice reveal states retain their existing behavior.
+- **Hero and repetition → P3+P4+P6.** “Answer before the crowd. Understand what others see.” replaces
+  the standalone three-step band. The next sentence explains that “9” refers to nine Enneagram
+  motivation patterns, while community answer counts vary. The diagram moves out of the hero.
+- **Explanation → P3+P6.** “Same words. Different needs.” introduces one concise paragraph and a link
+  to the nine patterns. The illustration and readable diagram sit side by side on desktop and stack
+  on mobile, linking the concept with its example.
+- **Portraits → P5+P19.** Personality cards and the founder image opt into the existing theme-aware
+  portrait filter. Personality cards use the canonical background well with consistent square
+  framing. Existing assets already have an aligned eye line; source files, crops and violet eye marks
+  are preserved.
+- **Motion → P11+P13.** The illustration interval increases from two to six seconds. A visible 44px
+  pause/resume button uses the canonical Button atom and Lucide icons. Manual pause survives visibility
+  changes. Reduced motion keeps a static illustration and hides playback controls. Image-loading,
+  failure and offscreen/hidden-tab guards remain.
+
+### Verification and review artifacts
+
+- `pnpm check`: **0 errors, 0 warnings**. Targeted ESLint and Prettier pass. Radius, retired-color and
+  global-CSS checks pass. Official Svelte analyzer reports **no issues** in both changed components;
+  suggestions about pre-existing DOM references and effect-driven playback were reviewed.
+- Focused Vitest run: **22 tests pass across 4 files**, covering the homepage, both relevant previews,
+  and illustration timing/loading/failure/reduced motion. Added manual-pause persistence and resume
+  coverage. Posting uses test mocks; browser verification did not submit a real answer.
+- Chromium: **1440×1000 and 390×844 in both themes, 320×640 and 820×1180 light**. No horizontal
+  overflow, browser exceptions or measured normal-state text contrast failures. Empty submission
+  focuses the textarea and announces its error. Posting guidance and its community-guidelines anchor
+  remain reachable.
+- At 390×844, the 48px submit button remains within the first screen. At 320×640 it is below the fold.
+  Browser measurement samples put its top at approximately 729px.
+- Matched capture heights: desktop **5691 → 5245 → 4722px**, mobile **7488 → 6981 → 6769px**
+  (original → Tier 1 → completed). Community questions begin at **1208 → 1011 → 673px desktop** and
+  **1885 → 1482 → 862px mobile**. The founder begins at **4178 → 3788 → 1769px desktop** and
+  **5559 → 4996 → 2696px mobile**. These are capture-specific positions, not conversion claims.
+- **Side-by-side review:** `output/playwright/homepage-comparison/index.html`, served locally at
+  `http://127.0.0.1:5198/`. Eleven comparisons cover the first screen, page order, composer, consolidated
+  process, explanation, diagram, portraits, founder, expanded FAQ, footer and full page. Select the
+  original or saved Tier 1 baseline, desktop/mobile and light/dark. Expanded FAQ captures use desktop
+  light mode. Every image opens at full resolution.
+- Raw captures are frozen under `original/`, `first-pass/` and `final/`. Shareable two-up images are in
+  `comparisons/`, including `desktop-fold.png`, `mobile-hero.png`, `desktop-portraits.png` and
+  `dark-portraits.png`. `manifest.json` records source and section measurements; `verification.json`
+  records responsive/contrast checks. All 144 gallery image combinations load, with no gallery browser
+  exceptions or mobile overflow.
+- Browser keyboard playback check: **Space pauses, Enter resumes**, pause holds beyond a six-second
+  interval, and reduced motion remains static with controls hidden. Results: `motion.json`.
+- Real-device iOS Safari verification and deployment remain outstanding.
+
+## November 3, 2026 — independent-review follow-up
+
+An independent agent graded the completed redesign **B+**, compared with the original **B−**. DJ
+approved its four remaining recommendations and requested screenshots of this specific follow-up.
+Implemented locally; no deployment or new grade is claimed.
+
+### Changes
+
+- **Posting guidance → P6+P8+P13.** The live composer now links directly to the existing editing/removal
+  guidance between the public disclosure and submit button. Guests see “Guest editing & removal”;
+  signed-in visitors see “Editing & removal.” The link opens a new tab, explicitly announced to
+  assistive technology, so a visitor can read the guidance without losing their draft. It uses the
+  existing accent token, a Lucide external-link icon, and a 44px minimum target. Private practice does
+  not show this public-posting link. The guide's policy text is unchanged.
+- **Product description → P4+P6.** The hero now says “A question-and-answer community for understanding
+  other perspectives.” Shorter supporting text explains the nine-pattern reference. The canonical
+  “Answer before the crowd” ritual moves to the form's instruction, followed by what happens next.
+- **Distinct questions → P6.** The public metadata parser excludes the configured `LIVE_TAKE_SLUG`
+  before choosing the three community suggestions, so the existing next available question replaces
+  the hero duplicate. Total counts, safe-field serialization, deduplication, and data-request behavior
+  remain unchanged. No database changes or invented activity.
+- **Reading density → P3+P6.** Three large promotional blocks become two compact links: Practical
+  guides and Talk it through. The repeated Enneagram introduction is removed from this region; the
+  explanation section already links to it. The four personality cards remain, with Jack Black's hook
+  changed from “Why he acts so crazy” to “What fuels his comic energy.”
+- **Homepage footer → P3+P6+P8.** On mobile, brand/social links share a row, contact links sit side by
+  side, link text is 14px, and vertical gaps are smaller. On the homepage, the redundant Home link and
+  repeated consultation paragraph are omitted. Main navigation, library, social, contact and guidance
+  links remain visible. Footer changes are scoped to `/`; other pages retain the full footer.
+
+### Verification and screenshots
+
+- **22 tests pass across 4 files:** homepage, community API/parser and both relevant preview routes.
+  Added regression coverage for replacing the featured question before the three-item limit without
+  altering totals. Extended the live/practice disclosure test to cover guide placement, destination,
+  new-tab behavior and absence in private practice. Browser checks did not submit a real answer.
+- `pnpm check`: **0 errors, 0 warnings**. Targeted ESLint, Prettier, radius, retired-color and global-CSS
+  checks pass. Official Svelte analyzer reports no homepage issues; the Footer retains its four
+  pre-existing link-resolution findings, including dynamic/external links.
+- Chromium: desktop **1440×1000** and mobile **390×844** in both themes, plus **320×640** and
+  **820×1180** light. No horizontal overflow, browser exceptions or measured normal-state text
+  contrast failures. At 390px, the 48px submit button is at approximately **744–792px**; at 320×640 it
+  remains below the fold (**769–817px**).
+- The new guide link opens the editing/removal section in a separate tab and preserves the input draft.
+  Its guest limits are present, and the non-homepage footer retains its Home link and full treatment.
+  Empty submission still focuses the textarea and announces its error.
+- Matched mobile capture: page **6769 → 6118px**, reading section **1453 → 1095px**, footer
+  **926 → 692px**. Desktop page **4722 → 4644px**, reading section **914 → 800px**. These compare
+  the reviewed B+ version with this follow-up, not with the original production homepage.
+- **Review gallery:** `output/playwright/homepage-comparison/followup/index.html`, available at
+  `http://127.0.0.1:5198/followup/`. Seven before/after comparisons cover the first screen, composer,
+  community questions, reading section, portrait hook, footer and full page. Desktop/mobile and
+  light/dark selectors work; all 56 screenshot combinations load without exceptions or mobile overflow.
+- Original images are frozen under `followup/before/` and `followup/after/`; shareable two-up screenshots
+  are under `followup/comparisons/`. `manifest.json`, `verification.json` and `guidance.json` record the
+  measurements and interaction checks. The earlier redesign gallery and independent review remain
+  separate for historical comparison. Real-device iOS Safari verification remains outstanding.

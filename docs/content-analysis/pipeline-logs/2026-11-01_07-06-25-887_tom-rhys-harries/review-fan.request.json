@@ -1,0 +1,20 @@
+{
+  "schema_version": 3,
+  "subject": "tom-rhys-harries",
+  "mode": "create",
+  "role": "fan",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_review_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-01_07-06-25-887_tom-rhys-harries/draft.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-01_07-06-25-887_tom-rhys-harries/evidence-draft.json",
+    "similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-01_07-06-25-887_tom-rhys-harries/similarity.json"
+  },
+  "outputs": {
+    "review-fan.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-01_07-06-25-887_tom-rhys-harries/review-fan.json"
+  },
+  "content_sha256": "9fc0d99fcbca25dd98c0ca13416d042797405220d1f8fbb7d4b534981118191c",
+  "evidence_sha256": "c2e9339b589808cab2a1d1854c15254fd97759ae690684eee4eff5c6edd824ad"
+}

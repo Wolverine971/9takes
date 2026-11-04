@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "unfamiliar",
+  "content_sha256": "9fc0d99fcbca25dd98c0ca13416d042797405220d1f8fbb7d4b534981118191c",
+  "evidence_sha256": "c2e9339b589808cab2a1d1854c15254fd97759ae690684eee4eff5c6edd824ad",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "unfamiliar-01",
+      "severity": "major",
+      "passage": "The earliest first-person source found is from 2015, years before any fame, when he was still a drama student in Cardiff auditioning in London.",
+      "problem": "Factual error that a new reader will catch on the same page. S04 (WhatsOnStage, 2015-09-09) is him recalling his third year at drama school (\"When I was in third year I auditioned quite a bit in London\"), and the FAQ and S24 say he graduated in 2012. In 2015 he was a working stage actor (Creditors at the Young Vic), not a student. The same misdating spreads: the closing says \"from beating himself up over missed auditions in 2015\" and \"Read across eleven years\", and the type answer plus FAQ say \"Since 2015 he has described fear as what drives his focus\", but the 2015 source says nothing about fear driving focus; that wording is from 2022 (S01). Evidence claim C08 has the same error.",
+      "acceptance_test": "The body says the 2015 interview recalls his student years (about 2011 to 2012) and does not call him a student in 2015. The type answer, the type FAQ and the closing no longer say fear-as-driver language dates to 2015: they either cite 2022 for it or describe the 2015 quote accurately as self-criticism over missed auditions. Any year span (\"eleven years\") matches the sourced dates, and C08 is corrected to match."
+    },
+    {
+      "id": "unfamiliar-02",
+      "severity": "minor",
+      "passage": "Partway through the shoot for _Clayface_, a stunt called for a car to drive into the side of Tom Rhys Harries's leg.",
+      "problem": "The hook is strong, but a reader who doesn't already know him reads about 300 words (the stunt coordinator \"Jimmy\", Watkins's line \"when Matt gets hit by a car\", and the EW vs. podcast discrepancy) before learning that Harries is a Welsh actor, that Clayface is a DC Studios film, and that he plays the title role, Matt Hagen. \"Matt\" stays unexplained until the fifth paragraph. A searcher who arrives from a celebrity query gets the payoff; a reader arriving from an Enneagram query is lost.",
+      "acceptance_test": "Within the first two paragraphs, a single clause tells the reader he is a Welsh actor playing the title role in DC Studios' Clayface. The Watkins quote glosses \"Matt\" (for example, \"[Harries's character] Matt\" or a lead-in naming Matt Hagen). The hook's opening scene and the fear quote stay in place."
+    },
+    {
+      "id": "unfamiliar-03",
+      "severity": "minor",
+      "passage": "Six days after the No. 1 opening, a Three would have every reason to treat the moment as arrival, and a Seven to pivot toward the next adventure.",
+      "problem": "Type 3 is used as a yardstick here and in the type answer (\"Type 3 is also in play\") before the article tells the reader what a Three is. Seven gets a one-line gloss in the head-triad paragraph, but Three gets none until \"The Three question\", three sections later. A new reader can't weigh the \"sharpest test\" without knowing what a Three would be protecting.",
+      "acceptance_test": "Wherever Type 3 is first mentioned in the body (the type section), a short plain-language gloss appears (image/achievement-driven, wants to be seen as succeeding) so that later comparisons can be read on their own."
+    },
+    {
+      "id": "unfamiliar-04",
+      "severity": "minor",
+      "passage": "Some Sixes go straight at the thing that scares them, which is called the counterphobic style. Hiding a torn knee and doing the stunt anyway is a counterphobic move.",
+      "problem": "The label is asserted before any evidence and leaves the reader unsure which Six is being argued. Most of what follows (preparation as a crutch, cutting off his agent's information, Elden Ring and cycling as anxiety relief) is the cautious, preparing style, while \"counterphobic\" comes back later mainly to absorb the provocations that don't fit (\"That is consistent with a counterphobic Six\"). It reads as a label that explains whatever happens. It is also contestable on its own: the stated motive was concealment out of fear, not confronting the threat. The draft never addresses that tension.",
+      "acceptance_test": "Either the counterphobic label is dropped from the orientation paragraph, or it is hedged and tied to specific evidence after that evidence appears, with one sentence acknowledging that most of his described coping is preparatory rather than confrontational. The ACL is not called a counterphobic move as settled fact."
+    },
+    {
+      "id": "unfamiliar-05",
+      "severity": "minor",
+      "passage": "\"I actually pulled it out! It’s real, that whole scene is real. I haven’t told anyone that.\"",
+      "problem": "The reader isn't told what \"it\" is or what the scene shows until the retraction two sentences later (\"I didn't pull my tooth out\"), so the anecdote reads as a puzzle and its point (a deadpan self-mutilation joke) lands late. A nearby clarity snag: \"He also files ADHD under self-description, and the diagnosis is a real alternative explanation\" is hard to parse and pits self-description against diagnosis without saying what it means.",
+      "acceptance_test": "Before the quote, one clause says that in the White Lines scene his character pulls out his own tooth. The ADHD sentence plainly states that ADHD is his own disclosure and that it could explain the restlessness and hyperfocus on its own."
+    },
+    {
+      "id": "unfamiliar-06",
+      "severity": "minor",
+      "passage": "If preparation is one support, people are the other. The pattern shows up six years apart.",
+      "problem": "Momentum sags in the middle. \"The crutch\" and \"Who has his back\" each stack eight to ten short quotes from different outlets that make the same point (preparation and anxiety management in one section, trust in people in the other). The Rakish Gent, Interview, Cultured, Empire, Minghella, family calls, the premiere and THR follow one another without escalating, so the new reader is re-told the thesis instead of learning something new. The strongest beats (the self-run threat assessment and the post-opening THR answer) get diluted.",
+      "acceptance_test": "Each of the two sections keeps its three or four most specific quotes, keeping the worst-case modeling passage and the October 29 THR answer, and drops or compresses the rest. Each section ends on something the previous one didn't establish. No sourced claim needed elsewhere is lost."
+    },
+    {
+      "id": "unfamiliar-07",
+      "severity": "minor",
+      "passage": "persona_title: The Actor Who Calls Fear His Engine",
+      "problem": "The persona title and the title (\"Why Fear Is His Engine\") make it sound as if Harries calls fear his engine. He doesn't. His words are \"fear was a big driving factor for me\" (2022), and his only \"engine\" quote is about motorbikes being certain. A reader who meets the motorbike quote will assume the title is quoting him. The closing image (\"You keep checking the engine\") is the author's metaphor and works there, but the metadata shouldn't attribute it to him.",
+      "acceptance_test": "The persona_title no longer attributes the word \"engine\" to him (for example, \"The Actor Who Calls Fear His Driving Factor\" or a non-attributing phrasing). The title either drops \"Engine\" or frames it as the article's reading rather than his claim."
+    },
+    {
+      "id": "unfamiliar-08",
+      "severity": "minor",
+      "passage": "[Type 6](/enneagram-corner/enneagram-type-6) sits in the head triad, the three types organized around fear.",
+      "problem": "The similarity diagnostic tripped (score 1.0) on \"the three types organized around fear\", which appears word for word on the Paul Bettany page (2026-10-30). The surrounding primer follows the same template as the Bettany, Paapa Essiedu and Nathan Fielder pages: a Five pulls back, a Seven seeks options, a Six looks for something to stand on, and some Sixes charge straight at the threat. One sentence of type vocabulary is ordinary, but a whole interchangeable paragraph is reusable boilerplate. It is the least Harries-specific stretch of the article, placed where a new reader is deciding whether to keep going.",
+      "acceptance_test": "The head-triad orientation is reworded so that no sentence repeats another recent profile, and is anchored in Harries's own contrast (for example, the Six/Seven split shown by his motorbike \"antidote\" versus a Seven's love of open options) rather than a generic Five/Seven/Six list. Rerunning the similarity diagnostic does not trip on this paragraph."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "And for fear of losing this job, I didn't tell anybody.",
+      "reason": "An unscripted, audio-verified statement of motive in his own words. The opening is built around it, so it gives a new reader a concrete stake and an immediate question."
+    },
+    {
+      "passage": "His later podcast account and Watkins's agree that the secret came out mid-shoot instead. The detail that matters survives either version.",
+      "reason": "Honest handling of conflicting accounts. It names the discrepancy, explains which version two sources support, and says why the argument doesn't depend on it, which builds trust with a skeptical new reader."
+    },
+    {
+      "passage": "He was modeling the worst case, from the decision-maker's chair, about himself. That context makes the hidden ACL easier to read. He already saw himself as the risky bet. He was not going to hand anyone a reason to agree.",
+      "reason": "The article's most original insight. It turns the hook from a stunt anecdote into a psychological pattern, using his own threat assessment of himself."
+    },
+    {
+      "passage": "A Seven wants more doors open. This is a man who relaxes when a question has one right answer.",
+      "reason": "A clear, memorable discriminator that a reader with no Enneagram background can understand and test against the motorbike quote."
+    },
+    {
+      "passage": "Both types would have hidden the knee. Only one explanation matches what he said.",
+      "reason": "A clear statement of how the rival is ruled out, admitting the behavior is shared and resting the case on the stated motive."
+    }
+  ],
+  "assessment": "Strong orientation in the middle and a gripping, sourced hook. A new reader finishes knowing who he is, why he's being searched now, the specific fear-and-support pattern, and why Seven and Three were seriously weighed. The main defect is factual: the 2015 source is misdated as a student-era interview, and \"since 2015\" fear-as-driver language spreads into the type answer, FAQ and closing. The other issues are about clarity and pacing. Orientation arrives late (no \"Welsh actor, title role in DC's Clayface\" until paragraph five, \"Matt\" unexplained), Type 3 is used before it is defined, the counterphobic label is asserted early and then used to absorb misfits, two middle sections stack quotes without escalating, the title attributes \"engine\" to him, and the head-triad primer repeats recent profiles (similarity tripped on an identical sentence shared with Paul Bettany). Stakes and progression are otherwise good: the threat-assessment beat, the honest Seven section and the \"what would change this read\" close reward the reader. Risks unchanged: contested typing (medium confidence, Seven close); no new sensitive-allegation risk (ADHD is self-disclosed and handled as context). Body is about 3,350 words, within the target."
+}

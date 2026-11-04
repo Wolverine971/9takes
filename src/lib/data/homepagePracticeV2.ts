@@ -1,5 +1,5 @@
 // src/lib/data/homepagePracticeV2.ts
-// Snapshot for V2; edits here do not alter the current homepage.
+// Private-practice fallback and editorial examples used by the V2 homepage.
 // AI-written editorial examples for a private, browser-only practice exercise.
 // These are possible motivations, never participant responses or a type assessment.
 export type Perspective = {
@@ -213,6 +213,6 @@ export const faqs = [
 	{
 		question: 'Can I talk to real people on 9takes?',
 		answer:
-			'Yes. The live questions have community answers. You can answer without an account, then read and reply to others. The number of answers and represented types varies by question.'
+			'Yes. On live questions, you can post a first answer without an account, then read the community’s answers. Sign in to reply to others. The number of answers and represented types varies by question.'
 	}
 ];

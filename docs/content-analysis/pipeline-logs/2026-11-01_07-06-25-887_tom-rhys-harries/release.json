@@ -1,0 +1,60 @@
+{
+  "schema_version": 3,
+  "subject": "tom-rhys-harries",
+  "content_sha256": "367f53ae43f229853a9121c29221552336cfb535f8158e9e60360897e6ab7e2f",
+  "expanded": true,
+  "artifacts": {
+    "baseline": {
+      "file": "baseline.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "research": {
+      "file": "evidence.json",
+      "sha256": "ae1b8fdfe73eda239217d4900f509b1cc59196b5af023ab7a79a96fb8a3e811d"
+    },
+    "draft": {
+      "file": "draft.md",
+      "sha256": "ba1fb36d6ffe1198752a9d6d9c8d58667ce865f6cb7f023b6d6f1696c0068651"
+    },
+    "draft_evidence": {
+      "file": "evidence-draft.json",
+      "sha256": "8c3f1f219a7a0ee5dfc8f52b0471a616b3b51540acd37c1d34ecb474d3d82aa5"
+    },
+    "evidence": {
+      "file": "evidence-repair.json",
+      "sha256": "7cde4d27be8cd8e78bc387af3625ce4368c71125baf18b68dd0ed6f20525febe"
+    },
+    "resolution": {
+      "file": "resolution-repair.json",
+      "sha256": "ef7918769a9d8ef96a5ba1e382943797c77a1be0871624833976d7d61eba8e91"
+    },
+    "verification": {
+      "file": "verification-repair.json",
+      "sha256": "7c2a2509f9cff8531de49394d81fad277ac739c7804828b049731c62e1040fa4"
+    },
+    "review-subject": {
+      "file": "review-subject.json",
+      "sha256": "8b3fb933cf584f293e08b5cb80b5cd2df2b70e4fca1a7e33a0577d7084089036"
+    },
+    "review-fan": {
+      "file": "review-fan.json",
+      "sha256": "a93f4f4b2b90e6b0bd43dc557a5084a2754955654deeb1b2bcacb4c423c6e59b"
+    },
+    "review-critic": {
+      "file": "review-critic.json",
+      "sha256": "a87a07ad652f08d15ce37ccd774aa3b0f8a69edc90f385ced3b83c5439d4cf3b"
+    },
+    "review-unfamiliar": {
+      "file": "review-unfamiliar.json",
+      "sha256": "1d78907c7be115a7fa1cebfea70e4eaedc41e6176af25cae6d429fb450b7e6f8"
+    },
+    "review-enneagram": {
+      "file": "review-enneagram.json",
+      "sha256": "4d4bf57ba35ff07e56978c02cb3bb3b0bd9cf67620cf20ff3b332b90fce27141"
+    },
+    "review-future": {
+      "file": "review-future.json",
+      "sha256": "fc63bd4bb4579615baf94da9e2174412d33cde2bccdcdd88ef100eda0cb9db9a"
+    }
+  }
+}

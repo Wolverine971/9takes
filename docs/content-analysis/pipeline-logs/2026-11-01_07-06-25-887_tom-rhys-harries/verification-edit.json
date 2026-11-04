@@ -1,0 +1,915 @@
+{
+  "schema_version": 3,
+  "content_sha256": "da64da52d3258ec216198b3966492df4f04942c964c4365c32bad85ebf767263",
+  "evidence_sha256": "94deccbdec9ae115fb0b90101ebc9d908e8bcceaaad23bd1349c68bd84406fff",
+  "status": "revise",
+  "findings": [
+    {
+      "id": "verify-01",
+      "severity": "major",
+      "passage": "S15 and S17 are listed in source_ids for C44, C49, C58 and C65",
+      "problem": "Four claims cite sources that were never opened. S15 (People exclusive) and S17 (EW cover story) still return 403 on 2026-11-03, Jina returns 451 for both, and Wayback has no capture of either. The standard says unopened pages are not evidence. The release gate requires every cited source to be opened, so these four IDs block release even though the article itself correctly attributes the wording to the opened relays (SuperHeroHype S14, Instinct S16).",
+      "acceptance_test": "In evidence-edit.json, S15 and S17 are removed from the source_ids of C44, C49, C58 and C65 (S16 or S14 remains, plus S28/S27 where already listed). S15 and S17 may stay in the sources list for provenance, with access 'unavailable'. No other claim cites them. The article text needs no change for this item, because it already says 'as relayed by Instinct' and 'as relayed by SuperHeroHype'."
+    },
+    {
+      "id": "verify-02",
+      "severity": "minor",
+      "passage": "When Kit Connor reminded him in 2026, \"You taught me how to misbehave on a film set,\" Harries answered, \"I may have taken the license to be silly and run with it.\"",
+      "problem": "The exchange runs the other way round in Interview (S02). Connor says they 'could be silly, which I’ve tried to carry forward and learn from you'. Harries replies 'I may have taken the license to be silly and run with it.' Only then does Connor add 'You taught me how to misbehave on a film set.' The article presents Harries's line as an answer to a line Connor said afterwards. The C21 claim text repeats the reversal.",
+      "acceptance_test": "The sentence follows the order in the source, for example: 'When Kit Connor said in 2026 that he had learned to be silly on set from him, Harries answered, \"I may have taken the license to be silly and run with it.\" \"You taught me how to misbehave on a film set,\" Connor added.' C21 is updated to match, and its passage still matches the article."
+    },
+    {
+      "id": "verify-03",
+      "severity": "minor",
+      "passage": "On release day, when a Three would feel most exposed, he told Cultured, \"I went through a phase of being nervous,\"",
+      "problem": "Cultured (S03) published the interview on October 23, 2026, but the question he answered was 'How are you feeling a couple days out from Clayface’s release?'. He said this a couple of days before release, not on release day. C66 has the same error ('On release day (2026-10-23) he told Cultured'). The argument still works, since the pre-release window is a fair point to test reception anxiety, but the timing is stated wrongly.",
+      "acceptance_test": "The sentence dates the remark accurately, for example 'A couple of days before release, when a Three would feel most exposed, he told Cultured...' or 'In a Cultured interview published on release day...'. C66 is corrected to match, and its passage still matches the article."
+    },
+    {
+      "id": "verify-04",
+      "severity": "minor",
+      "passage": "\"I played Elden Ring to switch my brain off during the three months I was screen testing for Clayface,\" he told Connor. \"It probably talks to my level of anxiety throughout that period.\"",
+      "problem": "Two of his lines are joined as if one continuous statement. In S02, Connor's remark ('That’s a tough game to switch your brain off to, but probably actually the perfect one, too') comes between them, and 'It' refers to picking such a hard game. The joined version slightly changes what 'it' refers to: choosing that particular game, not the act of escaping.",
+      "acceptance_test": "The two lines are separated with the intervening context, for example: '...he told Connor. When Connor said it was a tough game to switch off to, Harries answered, \"It probably talks to my level of anxiety throughout that period.\"' C04 records the join."
+    },
+    {
+      "id": "verify-05",
+      "severity": "minor",
+      "passage": "and his favorite escape, fixing motorbikes, is about certainty",
+      "problem": "The FAQ adds precision the source does not give. Square Mile (S01) has him saying 'I love doing manual stuff', that he has 'ridden bikes for years' but his bike 'conked out at the start of the pandemic and I just never replaced it', and that it is 'like an antidote'. Nothing calls it his favorite escape, and 'fixing' is only implied by 'manual stuff'. The body's wording ('the escape he describes most fondly', 'working on motorbikes') is closer to the source. The body's 'He plays guitar and rides motorbikes' (2022: no current bike) is similarly loose.",
+      "acceptance_test": "The FAQ says something like 'the escape he describes most fondly, motorbikes, is about certainty', or otherwise drops the 'favorite' superlative. Optionally, 'rides motorbikes' becomes 'has ridden motorbikes for years' (2022)."
+    }
+  ],
+  "research_tasks": [
+    "Open the Entertainment Weekly July 2026 cover story (S17) and the People exclusive (S15) by another route (library database, print edition or a later archive capture). On 2026-11-03 both returned 403 to curl, 451 from r.jina.ai, and had no Wayback snapshot. Until then, cite only the opened relays S16 and S14 in claim source_ids."
+  ],
+  "claim_checks": [
+    {
+      "claim_id": "C01",
+      "verdict": "supported",
+      "reason": "S01 reopened 2026-11-03: the block quote matches verbatim in the ADHD section of Rudling's 28 June 2022 profile, including British spelling (\"quietened\", \"criticised\")."
+    },
+    {
+      "claim_id": "C02",
+      "verdict": "supported",
+      "reason": "S02 reopened via r.jina.ai: \"I really prepare, which has been a crutch... terrifying. I’m so used to having that crutch to lean on.\" matches verbatim as Harries's answer to Connor's question about stage versus film. The article notes he chose to go in blind."
+    },
+    {
+      "claim_id": "C04",
+      "verdict": "qualified",
+      "reason": "S02 contains both lines, but Connor's remark comes between them, and \"It\" refers to choosing a hard game (verify-04). The S14 cycling quote matches, and S25 (Swedish) corroborates. The article's \"about three months\" matches S02/S19. S14 says about two months, a difference the evidence record notes."
+    },
+    {
+      "claim_id": "C05",
+      "verdict": "supported",
+      "reason": "S05 \"I had real faith in Alex Pina\" and S02 \"the more it seems to be an exercise in letting go and engaging with peo ple you’re willing to take a leap of faith with\" (a print hyphenation artifact only) and \"You just hope the editor’s got your back, don’t you?\" all match verbatim."
+    },
+    {
+      "claim_id": "C06",
+      "verdict": "supported",
+      "reason": "S02: \"I think fear is a mark of caring...\" is followed directly by \"One of the things I loved most about doing Clayface was how much I’m needed. I felt like I was part of the crew.\" S03 \"Ultimately, I just want to be a good, reliable work partner...\" matches verbatim."
+    },
+    {
+      "claim_id": "C07",
+      "verdict": "supported",
+      "reason": "S20 reopened: Minghella's quote matches. The phone-call detail is the site's narration (\"Harries called Minghella the day Minghella landed his Clayface role...\"), and the article now attributes it \"by the site's account\". S20 does give his age as 34, as the article says."
+    },
+    {
+      "claim_id": "C08",
+      "verdict": "supported",
+      "reason": "S04 (WhatsOnStage, 9 Sep 2015): \"When I was in third year I auditioned quite a bit in London... I used to really beat myself up if I wasn’t able to go to one.\" The article dates it correctly as a 2015 recollection of about 2011-12 and labels the vigilance reading."
+    },
+    {
+      "claim_id": "C09",
+      "verdict": "supported",
+      "reason": "S01: \"I was quite disruptive growing up... often that energy came out in having fights\", \"really strong, protective and nurturing women\", \"There’s one teacher who I’m still in contact with now. I wouldn’t have finished school without her\". All match. The article presents them as his account, not a cause."
+    },
+    {
+      "claim_id": "C10",
+      "verdict": "supported",
+      "reason": "S01: ADHD appears in Rudling's narration (\"He lives with ADHD\"), and the standfirst says he \"talks motorbikes, acting and ADHD\". The article attributes it to Square Mile's reporting and quotes only his own words about focus. \"kind of a relief to be able to focus\" matches."
+    },
+    {
+      "claim_id": "C11",
+      "verdict": "supported",
+      "reason": "S01 Parade's End anecdote: \"I don’t know who the fuck I thought I was\", and Cumberbatch \"said he’d had the same concern as me, but that he’d checked the book and it was right... He’s so studious\". The article keeps the shared concern and the praise."
+    },
+    {
+      "claim_id": "C12",
+      "verdict": "supported",
+      "reason": "S28 audio re-transcribed independently (whisper medium.en, 02:00-07:30 of the publisher mp3): \"I'd torn it probably about six months before starting to shoot Clayface and for fear of losing this job, I didn't tell anybody\". Context: the host asks \"How? What happened?\" and he prefaces with a downplaying aside. S03 and S27 corroborate the order of events."
+    },
+    {
+      "claim_id": "C13",
+      "verdict": "qualified",
+      "reason": "S21 is a secondary write-up of a Metro clip. \"That was not in the script\" is quoted. The day added to filming is the outlet's paraphrase. The article attributes the clip to the Tribune write-up, which is acceptable at this weight."
+    },
+    {
+      "claim_id": "C15",
+      "verdict": "supported",
+      "reason": "S06 \"I’m not a celebrity\" (via Wayback id_), S16 relays EW: \"I think most of Comic-Con would go, ‘Who?!’\", and S03 \"luck plays a huge part... isn’t a meritocracy\". All match."
+    },
+    {
+      "claim_id": "C16",
+      "verdict": "supported",
+      "reason": "S01: \"Rhys Harries is unshy about dropping huge names into the conversation. ‘I shot Parade’s End with Benedict Cumberbatch.’ He catches my eye to note my reaction.\" The article labels the motive reading as \"suggests\"."
+    },
+    {
+      "claim_id": "C17",
+      "verdict": "supported",
+      "reason": "S02: Connor asks about vanity and self-image in the role, and Harries answers: \"Ultimately, I think the vanity of it never interested me. I find it interesting because I feel like I have a relationship to it.\" This matches."
+    },
+    {
+      "claim_id": "C18",
+      "verdict": "supported",
+      "reason": "S11 \"I’d also like to go study clowning at Le Coq in Paris at some point\" (2020), and S01 \"keen pianist and guitarist\" plus bikes. \"Rides motorbikes\" is slightly loose, because in 2022 his bike had conked out and he had not replaced it (verify-05, minor)."
+    },
+    {
+      "claim_id": "C19",
+      "verdict": "supported",
+      "reason": "S01: \"It’s like an antidote to what I do for work. Acting is so subjective and sort of heady but there’s nothing subjective about whether an engine works or if a sprocket’s out of place.\" This matches verbatim. The FAQ's \"favorite escape, fixing\" overstates it (verify-05)."
+    },
+    {
+      "claim_id": "C20",
+      "verdict": "supported",
+      "reason": "S05 matches verbatim: \"I chose to be an actor which on the surface seems to be a pretty reckless choice of career... With optimism, I will always make decisions that I feel might come off.\""
+    },
+    {
+      "claim_id": "C21",
+      "verdict": "qualified",
+      "reason": "Both quotes are verbatim in S02, but the order is reversed in both the article and the claim (verify-02). Harries's line answers Connor's \"learn from you\" remark, and \"You taught me how to misbehave\" comes after it."
+    },
+    {
+      "claim_id": "C22",
+      "verdict": "supported",
+      "reason": "S07 (WalesOnline, 30 May 2020) prints \"I actually pulled it out! It’s real, that whole scene is real. I haven’t told anyone that.\" S06 (Mr Porter, 18 June 2020) prints \"No! She’s misquoted me... I was doing a gag... I didn’t pull my tooth out.\" The article presents both sides and dates them correctly."
+    },
+    {
+      "claim_id": "C23",
+      "verdict": "supported",
+      "reason": "S08 (Glamour, 15 May 2020) matches verbatim: \"I really hold onto, ‘what is meant for you, won’t pass you by.’ I am not religious in particular, but I do believe that everything happens for a reason and that gives me some kind of peace.\""
+    },
+    {
+      "claim_id": "C25",
+      "verdict": "supported",
+      "reason": "S03 \"I’ve had way more noes than I’ve had yeses\" and S08 \"countless more rejections than acceptances\" both match."
+    },
+    {
+      "claim_id": "C26",
+      "verdict": "supported",
+      "reason": "S19 reopened (THR, Gardner, 16 Oct 2026, premiere 13 Oct): \"I don’t think I’ve ever auditioned anyone that much\" and \"I’m untested in this space, so I was glad he did it with me really because it meant that we’d had time to workshop the thing before he got onto set.\" Both verbatim. S18 relays the same."
+    },
+    {
+      "claim_id": "C30",
+      "verdict": "supported",
+      "reason": "S24 gives born 8 October 1990 in Cardiff, first language Welsh. S10 \"first-language Welsh speaker\". S03 (36-year-old, Oct 2026) and S26 \"Now 36\" fit 1990. The article prints the year only, which is right given the age conflicts in S07/S10/S29."
+    },
+    {
+      "claim_id": "C31",
+      "verdict": "supported",
+      "reason": "S24 \"graduating in 2012\". S04 and S07 say Hunky Dory was shot during the summer while he was still at college. The S10 \"soon left\" error is not repeated."
+    },
+    {
+      "claim_id": "C32",
+      "verdict": "supported",
+      "reason": "S04, S10 (The Seagull \"shut down after five performances at the start of the pandemic\"), S01 (returning June 2022 opposite Emilia Clarke) and S24 (White Lines 2020, Hunky Dory 2011) support the orientation paragraph."
+    },
+    {
+      "claim_id": "C33",
+      "verdict": "supported",
+      "reason": "S23 (AP, 25 Oct 2026): \"landing a $24 million opening weekend, according to studio estimates\", No. 1 in the Rentrak list. S26 \"six days after\" and the 29 Oct date fit an Oct 23 US opening. S22: cast June 17, 2025. Marked time_sensitive with a trigger."
+    },
+    {
+      "claim_id": "C35",
+      "verdict": "supported",
+      "reason": "S26 (THR, Rankin, 29 Oct 2026): \"counterintuitive, but it’s actually easier when you have so many people around you\", \"you realize how many people have invested their time and work into this thing\", and the full \"fundamentally nothing is going to change — it might open a few more doors...\" sentence. All verbatim. Now time_sensitive with a dated trigger."
+    },
+    {
+      "claim_id": "C36",
+      "verdict": "supported",
+      "reason": "S26: \"I actually cut off my agent and said, ‘Do not tell me who else it is,’\", \"I just needed to be in the zone, without thinking about who they’re considering\", \"by then it would no longer affect me negatively because I was done\", \"I had to put my blinders on\". All verbatim."
+    },
+    {
+      "claim_id": "C37",
+      "verdict": "supported",
+      "reason": "S26: \"All the other [actors] had a proof of concept for leading a studio film... there are so many moments where an unknown quality could falter... in the press.\" The article's paraphrase \"a track record leading studio films\" is fair, and its inference is labeled as the profile's."
+    },
+    {
+      "claim_id": "C38",
+      "verdict": "supported",
+      "reason": "S28 re-transcribed: he opens by asking the host about golf (\"what are you playing off?\"), says \"I have my sources Chris\" and, on a focused medium.en pass, \"I don't know, I rarely know what's going on\" (small.en garbles that line). The article quotes it correctly."
+    },
+    {
+      "claim_id": "C40",
+      "verdict": "supported",
+      "reason": "S28: \"I had to take the stunt coordinator Jimmy to the side and I was like Jimmy I'm so sorry man, I actually don't have an ACL\". Confirmed in independent transcription."
+    },
+    {
+      "claim_id": "C41",
+      "verdict": "supported",
+      "reason": "S03: \"I tore it before I started filming... Then I booked Clayface, and I was like, Well, I’m not gonna have time to do the surgery.\" Verbatim."
+    },
+    {
+      "claim_id": "C42",
+      "verdict": "supported",
+      "reason": "S27 (THR, Davids, 26 Oct 2026) Q&A matches verbatim: \"There’s a moment in the film when Matt gets hit by a car, and that’s when it came out. Tom had a quiet word with the stunt man about it.\""
+    },
+    {
+      "claim_id": "C43",
+      "verdict": "supported",
+      "reason": "S27: \"He still did the jump and the fall, but he was frank about it... So we had to finesse how we did the stunt\". Verbatim."
+    },
+    {
+      "claim_id": "C44",
+      "verdict": "qualified",
+      "reason": "The wording matches S16 (Instinct relay of EW, which cites the EW post of July 21, 2026). The EW original (S17) cannot be opened. The article attributes the line to the relay and reconciles it with S28/S27. The claim must drop S17 from source_ids (verify-01)."
+    },
+    {
+      "claim_id": "C45",
+      "verdict": "supported",
+      "reason": "S22 (Deadline, June 17, 2025): \"landed the role from a competitive list of British thespians that included... Jack O’Connell... Tom Blyth and... George MacKay\". The article says \"reported shortlist\"."
+    },
+    {
+      "claim_id": "C46",
+      "verdict": "supported",
+      "reason": "An interpretation stated at medium confidence, naming 7 as the close rival and 3 and 9 as in play. The cited self-reports (S01, S02, S26, S28) all reopen as quoted. The 60-word answer and the type FAQ are identical."
+    },
+    {
+      "claim_id": "C47",
+      "verdict": "supported",
+      "reason": "S26 matches: \"very much a case of, ‘if this kid doesn’t find something to focus on, he’s fucked,’\" and \"If this teacher wasn’t there, I would not be having this conversation with you right now.\" The article drops the trailing comma inside the quote, which is acceptable."
+    },
+    {
+      "claim_id": "C48",
+      "verdict": "supported",
+      "reason": "S19 matches verbatim, and S18 relays it."
+    },
+    {
+      "claim_id": "C49",
+      "verdict": "qualified",
+      "reason": "S14 (SuperHeroHype, 23 July 2026) quotes People: \"I was out riding my bike trying to distract myself\". The People original (S15) cannot be opened. The article says \"as relayed by SuperHeroHype\". The claim must drop S15 from source_ids (verify-01)."
+    },
+    {
+      "claim_id": "C50",
+      "verdict": "supported",
+      "reason": "S03 matches verbatim."
+    },
+    {
+      "claim_id": "C52",
+      "verdict": "supported",
+      "reason": "S05 matches verbatim (\"I had real faith in Alex Pina (Creator and Writer of White Lines)\")."
+    },
+    {
+      "claim_id": "C54",
+      "verdict": "supported",
+      "reason": "S11 (Schön!, written answers, 27 April 2020): \"I’d go around Cardiff listening to film soundtracks and pretend I was in a Truman Show-type situation. I found that made my paper round less mundane.\" Matches."
+    },
+    {
+      "claim_id": "C57",
+      "verdict": "supported",
+      "reason": "S06 matches."
+    },
+    {
+      "claim_id": "C58",
+      "verdict": "qualified",
+      "reason": "S16 relays the EW line, and the article quotes it as relayed. EW (S17) cannot be opened (verify-01)."
+    },
+    {
+      "claim_id": "C60",
+      "verdict": "supported",
+      "reason": "S03: \"acting on stage and screen for nearly 15 years\". Hunky Dory (2011) to 2026. Clayface is his first studio lead (S26, S22)."
+    },
+    {
+      "claim_id": "C61",
+      "verdict": "supported",
+      "reason": "S11 \"I play Axel Collins\", S05/S06 White Lines 2020, and the Clayface title role (S22, S23)."
+    },
+    {
+      "claim_id": "C62",
+      "verdict": "supported",
+      "reason": "An absence claim, dated \"As of November 2026\" and tracked as unresolved with a 2027-03-31 trigger. My own source set agrees that all named testimony is premiere-season (S19, S20, S27)."
+    },
+    {
+      "claim_id": "C63",
+      "verdict": "supported",
+      "reason": "The settle signals are concrete and observable. They are tracked as unresolved with a dated trigger."
+    },
+    {
+      "claim_id": "C64",
+      "verdict": "supported",
+      "reason": "S02: \"I just shot an indie I loved\". The project is unnamed in the source, and the claim is time_sensitive with a 2027-06-30 trigger."
+    },
+    {
+      "claim_id": "C65",
+      "verdict": "qualified",
+      "reason": "S16 relays EW: \"I was running around Liverpool at 1 a.m. or 2 a.m. trying to get away with it.\" The article attributes it to the relay. EW (S17) cannot be opened (verify-01)."
+    },
+    {
+      "claim_id": "C66",
+      "verdict": "qualified",
+      "reason": "The S03 words match verbatim, but they answer \"How are you feeling a couple days out from Clayface’s release?\", so they were said a couple of days before release, not \"on release day\" (verify-03)."
+    },
+    {
+      "claim_id": "C67",
+      "verdict": "supported",
+      "reason": "S01 opening: \"The first thing you notice about Tom Rhys Harries is how relaxed he is... this is a man rarely in a rush.\" Verbatim."
+    },
+    {
+      "claim_id": "C68",
+      "verdict": "supported",
+      "reason": "S03 narration: \"he is clear-eyed and methodical about the potential for imminent creative fulfillment\". The article attributes it to \"Cultured's writer\"."
+    },
+    {
+      "claim_id": "C69",
+      "verdict": "supported",
+      "reason": "S08 matches verbatim."
+    },
+    {
+      "claim_id": "C70",
+      "verdict": "supported",
+      "reason": "S27 matches verbatim, including the editorial bracket \"[having foreknowledge of his injury]\"."
+    },
+    {
+      "claim_id": "C71",
+      "verdict": "supported",
+      "reason": "S03: the \"I’ve put it back in since\" passage is present. S28 independently says \"subsequently I've had surgery on it\"."
+    },
+    {
+      "claim_id": "C72",
+      "verdict": "supported",
+      "reason": "S05 matches verbatim. S26 independently reports \"schoolteacher parents\"."
+    },
+    {
+      "claim_id": "C73",
+      "verdict": "supported",
+      "reason": "S10 (WWD, Feb 2022): \"I always thought I would go into music and then I kind of stumbled into acting\". Verbatim."
+    },
+    {
+      "claim_id": "C74",
+      "verdict": "supported",
+      "reason": "S04: \"I’m from a very musical family in Cardiff in Wales\". S10: \"first-language Welsh speaker... steeped in Welsh culture\"."
+    },
+    {
+      "claim_id": "C75",
+      "verdict": "supported",
+      "reason": "S02 matches verbatim, and the article quotes it in context, directly before the \"how much I’m needed\" line."
+    },
+    {
+      "claim_id": "C77",
+      "verdict": "supported",
+      "reason": "S04 is dated 9 September 2015, promotes Creditors at the Young Vic, and recalls \"third year\". S24 gives graduation in 2012."
+    },
+    {
+      "claim_id": "C78",
+      "verdict": "supported",
+      "reason": "The earliest fear-as-driver language in the opened record is S01 (June 2022), and \"crutch\" comes from S02 (Sept 2026). \"Since at least 2022\" is accurate. The 2015 source is described only as self-reproach."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "S01",
+      "opened": true,
+      "context_matches": true,
+      "locator": "squaremile.com, published Tuesday 28 June 2022; opening paragraphs, motorbike/ADHD/childhood section, Parade's End anecdote"
+    },
+    {
+      "source_id": "S02",
+      "opened": true,
+      "context_matches": true,
+      "locator": "interviewmagazine.com via r.jina.ai (published 2026-09-30); exchanges on preparation, Elden Ring, fear/being needed, editor, vanity, silliness"
+    },
+    {
+      "source_id": "S03",
+      "opened": true,
+      "context_matches": true,
+      "locator": "culturedmag.com, Sophie Lee, October 23, 2026; intro, \"a couple days out\" Q, ACL Q, reliability and luck answers"
+    },
+    {
+      "source_id": "S04",
+      "opened": true,
+      "context_matches": true,
+      "locator": "whatsonstage.com, 9 September 2015; rugby/musical family and third-year audition paragraphs"
+    },
+    {
+      "source_id": "S05",
+      "opened": true,
+      "context_matches": true,
+      "locator": "therakishgent.co.uk, Taj Hayer, 2020; \"How like him are you?\", Pina answer"
+    },
+    {
+      "source_id": "S06",
+      "opened": true,
+      "context_matches": true,
+      "locator": "web.archive.org/web/2020id_ raw copy of mrporter.com, Lili Göksenin, 18 June 2020; opening and tooth paragraphs"
+    },
+    {
+      "source_id": "S07",
+      "opened": true,
+      "context_matches": true,
+      "locator": "walesonline.co.uk via r.jina.ai, Kathryn Williams, 30 May 2020; tooth paragraph"
+    },
+    {
+      "source_id": "S08",
+      "opened": true,
+      "context_matches": true,
+      "locator": "glamourmagazine.co.uk, Josh Smith, 15 May 2020; rejection and advice Q&A"
+    },
+    {
+      "source_id": "S09",
+      "opened": true,
+      "context_matches": true,
+      "locator": "vogue.co.uk Miss Vogue; \"keep on top of friends\" closing paragraph (not cited by any claim)"
+    },
+    {
+      "source_id": "S10",
+      "opened": true,
+      "context_matches": true,
+      "locator": "wwd.com, Kristen Tauer, Feb 2022; Welsh/music paragraph, Seagull paragraph"
+    },
+    {
+      "source_id": "S11",
+      "opened": true,
+      "context_matches": true,
+      "locator": "schonmagazine.com, April 27, 2020; paper-round, Le Coq, Baldessari answers"
+    },
+    {
+      "source_id": "S12",
+      "opened": true,
+      "context_matches": true,
+      "locator": "fredperry.com via r.jina.ai; style questionnaire (not cited by any claim)"
+    },
+    {
+      "source_id": "S13",
+      "opened": true,
+      "context_matches": true,
+      "locator": "thegentlemansjournal.com 2024; \"looking behind the curtain\" paragraph"
+    },
+    {
+      "source_id": "S14",
+      "opened": true,
+      "context_matches": true,
+      "locator": "superherohype.com, Devanshi Basu, July 23, 2026; People-relay paragraphs on the casting call"
+    },
+    {
+      "source_id": "S15",
+      "opened": false,
+      "context_matches": false,
+      "locator": "people.com exclusive: NOT OPENED. 403 to curl (desktop and mobile UA), Jina 451, no Wayback snapshot on 2026-11-03"
+    },
+    {
+      "source_id": "S16",
+      "opened": true,
+      "context_matches": true,
+      "locator": "instinctmagazine.com; sections relaying the EW cover story (embedded EW post dated July 21, 2026): ACL, Liverpool, stunt coordinator, Comic-Con"
+    },
+    {
+      "source_id": "S17",
+      "opened": false,
+      "context_matches": false,
+      "locator": "ew.com cover story: NOT OPENED. 403 to curl, Jina 451, no Wayback snapshot on 2026-11-03"
+    },
+    {
+      "source_id": "S18",
+      "opened": true,
+      "context_matches": true,
+      "locator": "avclub.com relay of THR premiere quotes; first two body paragraphs"
+    },
+    {
+      "source_id": "S19",
+      "opened": true,
+      "context_matches": true,
+      "locator": "hollywoodreporter.com, Chris Gardner (photo caption: premiere Oct. 13, 2026); body paragraphs with Watkins and Harries quotes"
+    },
+    {
+      "source_id": "S20",
+      "opened": true,
+      "context_matches": true,
+      "locator": "creepycatalog.com, January Nelson, updated October 26, 2026; body (Harries \"34\", Minghella quote, phone-call narration)"
+    },
+    {
+      "source_id": "S21",
+      "opened": true,
+      "context_matches": true,
+      "locator": "tribune.com.pk; body paragraphs 2-5 relaying the Metro Entertainment clip"
+    },
+    {
+      "source_id": "S22",
+      "opened": true,
+      "context_matches": true,
+      "locator": "deadline.com, D'Alessandro and Kroll, June 17, 2025; paragraphs 1-2 (shortlist)"
+    },
+    {
+      "source_id": "S23",
+      "opened": true,
+      "context_matches": true,
+      "locator": "news4jax.com AP (Jake Coyle), October 25, 2026; lede, Clayface section, Rentrak list"
+    },
+    {
+      "source_id": "S24",
+      "opened": true,
+      "context_matches": true,
+      "locator": "en.wikipedia.org; infobox and Early life section (born 8 October 1990, Cardiff, graduated 2012, first language Welsh)"
+    },
+    {
+      "source_id": "S25",
+      "opened": true,
+      "context_matches": true,
+      "locator": "moviezine.se; audition-process answer (Swedish)"
+    },
+    {
+      "source_id": "S26",
+      "opened": true,
+      "context_matches": true,
+      "locator": "hollywoodreporter.com, Seija Rankin, October 29, 2026; screen test/agent, risk, support circle, post-opening, teacher paragraphs"
+    },
+    {
+      "source_id": "S27",
+      "opened": true,
+      "context_matches": true,
+      "locator": "hollywoodreporter.com, Brian Davids, October 26, 2026; intro and car-stunt Q&A (Premier League/NFL answer)"
+    },
+    {
+      "source_id": "S28",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Publisher mp3 (sharp-stream, episode 428012) re-downloaded and re-transcribed with whisper-cli medium.en: 00:02:00-00:07:30 (golf banter, \"I have my sources Chris\", \"I rarely know what's going on\", ACL story, surgery since). The goloudnow page itself served a Cloudflare challenge."
+    },
+    {
+      "source_id": "S29",
+      "opened": true,
+      "context_matches": true,
+      "locator": "nation.cymru; paragraphs on box office and \"35-year-old Welsh speaker\""
+    }
+  ],
+  "decision_checks": [
+    {
+      "finding_id": "subject-01",
+      "accepted": true,
+      "reason": "Accepted. The hook paragraph quotes Watkins's \"it’s not like he was cast to play Premier League or NFL football... wouldn’t have made any difference to me\", verified verbatim in S27, dated October 26, 2026. It adds \"I’ve put it back in since\" (S03). No medicals aside, and title and description do not imply he endangered the production."
+    },
+    {
+      "finding_id": "subject-02",
+      "accepted": true,
+      "reason": "Accepted. The body says \"Square Mile’s Michael Rudling reported that Harries lives with ADHD\" and quotes only his own focus words. The FAQ opens \"Square Mile reported in a June 2022 interview\" and calls it \"that report\". S01 confirms the condition is in narration, with ADHD named in the standfirst."
+    },
+    {
+      "finding_id": "subject-03",
+      "accepted": true,
+      "reason": "Accepted. \"Doing the stunt anyway\" is gone. The hook gives the sourced order (disclosed at the car stunt, reworked, still did the jump and fall), which matches S27 and S28."
+    },
+    {
+      "finding_id": "subject-04",
+      "accepted": true,
+      "reason": "Accepted. The Parade's End story includes Cumberbatch's shared concern and the \"so studious\" praise (verbatim in S01), and the Three line reads \"Rudling's detail suggests\"."
+    },
+    {
+      "finding_id": "subject-05",
+      "accepted": true,
+      "reason": "Accepted. The risky-bet line is labeled \"One reading, which is this profile's and not his\" and concedes Three fits. The audition line is labeled \"One reading\", with cost and ambition named. \"Both could have said those words\" concedes the Three motive."
+    },
+    {
+      "finding_id": "subject-06",
+      "accepted": true,
+      "reason": "Accepted. The line now reads \"a deadpan claim to have pulled out his own tooth for a scene\", with no clinical vocabulary, and the both-sides framing is intact."
+    },
+    {
+      "finding_id": "subject-07",
+      "accepted": true,
+      "reason": "Accepted. \"by the site's account, Harries phoned Minghella\", which matches the S20 narration. Minghella's own words stay attributed to him."
+    },
+    {
+      "finding_id": "fan-F1",
+      "accepted": true,
+      "reason": "Accepted. The type answer, FAQ and closing date fear-as-driver language to 2022, and the 2015 source is \"a 2015 recollection of student self-reproach\". \"Eleven years\" is gone."
+    },
+    {
+      "finding_id": "fan-F2",
+      "accepted": true,
+      "reason": "Accepted. The Cultured \"past the point of nervousness\" line, Square Mile's \"how relaxed\" / \"rarely in a rush\" and Glamour's \"very thick skin\" are all quoted, verified, and reconciled in a dedicated Nine section. The release-day timing is wrong; see verify-03 (minor)."
+    },
+    {
+      "finding_id": "fan-F3",
+      "accepted": true,
+      "reason": "Accepted. The new paragraph has the musical Welsh-speaking home (2015), the Rakish Gent safe-family quote (2020) and \"kind of stumbled into acting\" (WWD 2022), each attributed separately. It also says the offhand entry \"sits awkwardly next to the vigilant student\"."
+    },
+    {
+      "finding_id": "fan-F4",
+      "accepted": true,
+      "reason": "Accepted. The Three section says plainly that the ACL motive fits both types and moves the discriminator to where fear attaches and where credit goes, stated as narrow."
+    },
+    {
+      "finding_id": "fan-F5",
+      "accepted": true,
+      "reason": "Accepted. The counterphobic sentence rests on shooting on the torn ligament, not \"the stunt anyway\", and the EW \"get away with it\" glee is weighed in the Seven section."
+    },
+    {
+      "finding_id": "fan-F6",
+      "accepted": true,
+      "reason": "Accepted. \"I think fear is a mark of caring...\" is quoted directly before \"how much I’m needed\" (adjacent in S02), and the text says it softens the threat reading."
+    },
+    {
+      "finding_id": "fan-F7",
+      "accepted": true,
+      "reason": "Accepted. The orientation now names Hunky Dory (2011), the White Lines lead (2020) and The Seagull opposite Emilia Clarke (the Jamie Lloyd production) with its 2020 shutdown and 2022 revival. Every knows_about item appears in the body, and Pitchfork Disney is removed."
+    },
+    {
+      "finding_id": "fan-F8",
+      "accepted": true,
+      "reason": "Accepted. The primer no longer shares the four-step scaffold, and \"Plenty of actors\" is absent. I reran scripts/same-type-similarity.mjs on a copy of the candidate: the only pairs above the floor are the subject matching its own draft file. No other profile shares a phrase."
+    },
+    {
+      "finding_id": "critic-01",
+      "accepted": true,
+      "reason": "Accepted. \"Both types would have hidden the knee, and both could have said those words\". The Six-over-Three call rests on C66 and C52/C35, labeled narrow, and the risky-bet inference is labeled and concedes Three."
+    },
+    {
+      "finding_id": "critic-02",
+      "accepted": true,
+      "reason": "Accepted. The Seven section says the escapes \"fit Seven at least as well as Six\", and the remaining discriminator is \"two statements... a tendency, not proof... the margin over Seven is narrow\"."
+    },
+    {
+      "finding_id": "critic-03",
+      "accepted": true,
+      "reason": "Accepted. The counterphobic label is hedged (\"could be read that way\"), the leaves-out section says \"this profile does not count any of it as Six evidence\", and the closing names an against-Six observable."
+    },
+    {
+      "finding_id": "critic-04",
+      "accepted": true,
+      "reason": "Accepted. The Nine section quotes the calm-surface evidence and explains how the fear reading survives, labeled as inference. Title and persona_title no longer use \"engine\", and the description says Six \"narrowly leads\"."
+    },
+    {
+      "finding_id": "critic-05",
+      "accepted": true,
+      "reason": "Accepted. \"One post-release interview adds a dated checkpoint\", the full \"open a few more doors\" clause is present (verbatim in S26), \"consistent with Six and not decisive\", and \"A Nine could say the same sentence\"."
+    },
+    {
+      "finding_id": "critic-06",
+      "accepted": true,
+      "reason": "Accepted. The type answer and FAQ both say \"Since at least 2022 he has said fear holds his focus, and in 2026 he called preparation a crutch\". Both dates check against S01 and S02."
+    },
+    {
+      "finding_id": "critic-07",
+      "accepted": true,
+      "reason": "Accepted. The hook says he told it \"unscripted and mostly for laughs\" and \"dropped the reason into the middle of it\". My transcription confirms the host asked \"How? What happened?\", not why. \"Could have ended the job anyway\" is gone."
+    },
+    {
+      "finding_id": "critic-08",
+      "accepted": true,
+      "reason": "Accepted. Same repair as subject-02, and C10 is reclassified third_party."
+    },
+    {
+      "finding_id": "critic-09",
+      "accepted": true,
+      "reason": "Accepted. The shared clauses are gone, and the similarity rerun is clear against other profiles (see fan-F8)."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "accepted": true,
+      "reason": "Accepted. \"when he was already a working stage actor. Recalling his third year at drama school in Cardiff, around 2011 or 2012\". This checks against S04 (Creditors at the Young Vic, Sept 2015) and S24 (graduated 2012)."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "accepted": true,
+      "reason": "Accepted. The first sentence names \"the DC Studios film in which he plays the title role\", the second calls him \"the Welsh actor\", and the Watkins quote is introduced with \"Matt Hagen\"."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "accepted": true,
+      "reason": "Accepted. Type 3 is glossed at first body mention (\"driven by the need to be seen succeeding\"), and so is Type 9."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "accepted": true,
+      "reason": "Accepted. The label is hedged, paired with \"most of the coping Harries describes is preparation, not confrontation\", and not reused to absorb misfits."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "accepted": true,
+      "reason": "Accepted. The tooth anecdote opens with \"a White Lines scene in which his character loses a tooth\", and the ADHD sentence is plain."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "accepted": true,
+      "reason": "Accepted. Both middle sections are compressed. \"The crutch\" builds to the worst-case self-assessment, and \"Who has his back\" ends on the dated checkpoint and the 2020/2026 credit pattern. The remaining paragraphs add new material and do not repeat the thesis."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "accepted": true,
+      "reason": "Accepted. persona_title is \"The Actor Who Says Fear Holds His Focus\", close to his \"fear was a big driving factor\" (S01). The title no longer says \"engine\", and the engine metaphor is removed from the closing."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "accepted": true,
+      "reason": "Accepted. Same as critic-09 and fan-F8. The paragraph is reworded and the similarity rerun is clear."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "accepted": true,
+      "reason": "Accepted. The ACL motive and \"fear of being criticised\" are explicitly conceded to fit Three, and the call rests on a cross-year credit pattern plus where anxiety attaches, labeled narrow with a reversal condition. Note that the \"release day\" timing of the C66 quote is wrong (verify-03), but the test is met in substance."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "accepted": true,
+      "reason": "Accepted. The \"anxiety management\" rebuttal and the \"oxygen\" generalization are gone, and Seven's distraction is acknowledged."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "accepted": true,
+      "reason": "Accepted. The type answer, FAQ and closing agree on 2022 for fear-as-driver and describe 2015 as self-reproach."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "accepted": true,
+      "reason": "Accepted. \"could be read that way\". Counterphobia is invoked once and explicitly not used for the provocations (\"It stays partly unexplained\")."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "accepted": true,
+      "reason": "Accepted. Nine is named in the answer, the primer, a dedicated section and the settle signals, with a sourced reason Six leads. The \"open a few more doors\" clause is present."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "accepted": true,
+      "reason": "Accepted. The closing distrust lines are removed, the ending is framed \"Through this profile's lens\", and \"creators who I back fundamentally\" is quoted."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "accepted": true,
+      "reason": "Accepted. The \"past the point of nervousness\" line appears with its implication (anxiety clusters around preparing and performing). The decision passes, though its date label \"On release day\" is inaccurate; that is tracked separately as minor verify-03."
+    },
+    {
+      "finding_id": "future-F1",
+      "accepted": true,
+      "reason": "Accepted. \"One post-release interview adds a dated checkpoint\". C35 is time_sensitive with a 2027-03-31 trigger. The Who-has-his-back argument stands on the 2020 Pina line and the 2026 Connor lines without that paragraph."
+    },
+    {
+      "finding_id": "future-F2",
+      "accepted": true,
+      "reason": "Accepted. The Three section now cites the pre-Clayface 2020 credit pattern and states its own limits and reversal condition. The Three rebuttal no longer leans on the single October 2026 ACL sentence."
+    },
+    {
+      "finding_id": "future-F3",
+      "accepted": true,
+      "reason": "Accepted. The absence claim is dated \"As of November 2026\" (C62, unresolved, 2027-03-31). The settle signals are C63, and the indie is C64 (2027-06-30) and also a research task."
+    },
+    {
+      "finding_id": "future-F4",
+      "accepted": true,
+      "reason": "Accepted. \"six days after his first studio lead opened at No. 1\". \"For now\" is removed, and the final beat rests on the 2015-2026 pattern paragraph."
+    },
+    {
+      "finding_id": "future-F5",
+      "accepted": true,
+      "reason": "Accepted. \"That is why people are looking him up.\" is absent from the candidate."
+    },
+    {
+      "finding_id": "future-F6",
+      "accepted": true,
+      "reason": "Accepted. The Who-is FAQ says \"starred in the title role... which opened at No. 1 in the US on October 23, 2026\", in the past tense with an absolute date."
+    }
+  ],
+  "prior_blocker_checks": [],
+  "protected_checks": [
+    {
+      "passage": "This is his account of his childhood, not a diagnosis of it, and it does not explain his type. What it shows is a loyalty that has held steady.",
+      "preserved": true,
+      "reason": "Present verbatim in the formative section, with the safe-home context now before it."
+    },
+    {
+      "passage": "It is his word against a printed quote. Either way,",
+      "preserved": true,
+      "reason": "Present verbatim in the tooth anecdote."
+    },
+    {
+      "passage": "He was modeling the worst case, from the decision-maker's chair, about himself.",
+      "preserved": true,
+      "reason": "Present verbatim in The crutch, and it now closes that section's argument."
+    },
+    {
+      "passage": "His later podcast account and Watkins's agree that the secret came out mid-shoot instead. The detail that matters survives either version.",
+      "preserved": true,
+      "reason": "Both sentences present verbatim and adjacent in the EW-relay paragraph."
+    },
+    {
+      "passage": "A Seven wants more doors open. This is a man who relaxes when a question has one right answer.",
+      "preserved": true,
+      "reason": "Present verbatim after the motorbike block quote. The surrounding argument is narrowed as critic-02 required, which strengthens its honesty."
+    },
+    {
+      "passage": "He was modeling the worst case, from the decision-maker's chair, about himself. That context makes the hidden ACL easier to read. He already saw himself as the risky bet. He was not going to hand anyone a reason to agree.",
+      "preserved": true,
+      "reason": "Changed, and its contribution is preserved. The first two sentences are verbatim, and the insight (he runs the studio's threat assessment on himself, which frames the concealment) survives as 'One reading, which is this profile's and not his: he already saw himself as the risky bet and was not going to hand anyone a reason to agree.' Labeling the motive as inference was necessary under the standard and the review findings."
+    },
+    {
+      "passage": "It is his word against a printed quote. Either way, a deadpan joke about self-mutilation, delivered to his hometown paper, is not what a careful, image-guarding personality does.",
+      "preserved": true,
+      "reason": "Changed, and its contribution is preserved. Only 'a deadpan joke about self-mutilation' became 'a deadpan claim to have pulled out his own tooth for a scene'. The both-sides framing and the point about an image-guarding personality are intact."
+    },
+    {
+      "passage": "I actually cut off my agent and said, ‘Do not tell me who else it is,’",
+      "preserved": true,
+      "reason": "Present verbatim (and verbatim in S26)."
+    },
+    {
+      "passage": "His later podcast account and Watkins's agree that the secret came out mid-shoot instead.",
+      "preserved": true,
+      "reason": "Present verbatim."
+    },
+    {
+      "passage": "The ADHD disclosure cuts against both readings. It explains the breadth of interests without needing Seven, and it explains the hyperfocus without needing Six.",
+      "preserved": true,
+      "reason": "Present verbatim in the Seven section. 'Disclosure' now refers back to the Square Mile-reported interview, which the body attributes correctly."
+    },
+    {
+      "passage": "That is premiere-season praise from a castmate, published by a site that gets his age wrong, so it carries limited weight.",
+      "preserved": true,
+      "reason": "Present verbatim. I confirmed S20 gives his age as 34."
+    },
+    {
+      "passage": "This is his account of his childhood, not a diagnosis of it, and it does not explain his type.",
+      "preserved": true,
+      "reason": "Present verbatim."
+    },
+    {
+      "passage": "And for fear of losing this job, I didn't tell anybody.",
+      "preserved": true,
+      "reason": "Present verbatim as the hook block quote. I confirmed the wording against my own re-transcription of the S28 audio."
+    },
+    {
+      "passage": "Both types would have hidden the knee. Only one explanation matches what he said.",
+      "preserved": true,
+      "reason": "Changed, and the change is necessary. The second sentence was false: four reviewers showed that 'for fear of losing this job' fits Three as well as Six, and the evidence record agrees. Its useful part, conceding that the behavior is shared, survives as 'Both types would have hidden the knee, and both could have said those words.' Removing an unsupported discriminator counts as preserving editorial quality here."
+    },
+    {
+      "passage": "Acting is so subjective and sort of heady but there’s nothing subjective about whether an engine works or if a sprocket’s out of place.",
+      "preserved": true,
+      "reason": "Present verbatim as a block quote, and verbatim in S01. It is now one of the two named discriminators against Seven."
+    },
+    {
+      "passage": "The ADHD disclosure cuts against both readings. It explains the breadth of interests without needing Seven, and it explains the hyperfocus without needing Six. That is why the case here leans on motive statements, not on how scattered or focused he seems.",
+      "preserved": true,
+      "reason": "All three sentences present verbatim."
+    },
+    {
+      "passage": "The detail that matters survives either version.",
+      "preserved": true,
+      "reason": "Present verbatim."
+    },
+    {
+      "passage": "The correction, with its self-blame, is more Six-like than the joke.",
+      "preserved": true,
+      "reason": "Present verbatim."
+    },
+    {
+      "passage": "A missed audition was not a shrug. It was a failure of vigilance.",
+      "preserved": true,
+      "reason": "Changed, and its contribution is preserved. 'A missed audition was not a shrug to him.' remains. The vigilance reading is kept but labeled 'One reading', with cost and ambition named, because S04 contains no fear or vigilance language. Correcting the unsupported certainty was necessary."
+    },
+    {
+      "passage": "If the post-_Clayface_ Harries starts describing his success as earned arrival, Three gains ground. If he starts chasing the next thrill and calling preparation a cage, Seven does.",
+      "preserved": true,
+      "reason": "Both sentences present verbatim, extended with a Nine signal and an against-Six observable, and tracked as C63."
+    }
+  ],
+  "coverage_complete": true,
+  "metadata_consistent": true,
+  "alternative_type_addressed": true,
+  "five_year_test_passed": true,
+  "scores": {
+    "evidence": {
+      "score": 8.4,
+      "passage": "Director James Watkins, speaking to The Hollywood Reporter on October 26, 2026, confirms the order of events... \"He’s acting, so [having foreknowledge of his injury] wouldn’t have made any difference to me.\"",
+      "reason": "Quote fidelity is unusually high. I reopened 27 of 29 sources and matched about 70 quotations verbatim, including the hook, which I re-transcribed myself from the publisher audio. Relays are named as relays, the ADHD condition is attributed to the journalist, the 2015 source is dated correctly, and inference is labeled locally ('One reading, which is this profile's and not his'). Below 8.5 because of small context slips a careful reader could catch: the Connor exchange is reversed, a pre-release remark is called release-day, two lines are joined across Connor's interjection, and the FAQ says 'favorite escape, fixing motorbikes'. The record also cites two unopened originals."
+    },
+    "enneagram": {
+      "score": 8.1,
+      "passage": "Two quotes four years apart show a tendency, not proof. The ADHD disclosure cuts against both readings... It also means the margin over Seven is narrow. The playfulness is not a costume.",
+      "reason": "Six is argued from repeated, costly, cross-year choices (the hidden ACL, preparation he calls a crutch, cutting off his agent, modeling the studio's worst case about himself, credit placed in collaborators in 2020 and 2026). Seven, Three and Nine each get a dedicated, evidence-based hearing with named discriminators, and counterphobia is not used to absorb the misfits. It is held at 8 rather than higher because the discriminators really are thin: two single quotes against Seven, and two press-interview patterns against Three, one of which is mistimed (verify-03). Nearly all the Six evidence is promotional self-report. The article says this itself, but that does not make it stronger."
+    },
+    "originality": {
+      "score": 8.6,
+      "passage": "In that interview he also ran a threat assessment on himself from the studio's side of the table... He was modeling the worst case, from the decision-maker's chair, about himself.",
+      "reason": "The insight could only be about Harries. The man who says fear holds his focus hid an injury from a director who says it would not have mattered. Supporting details are specific and verified: the motorbike 'nothing subjective about whether an engine works', 'Do not tell me who else it is', the teacher still thanked in 2022 and 2026, the printed-then-retracted tooth. The type primer is short and no longer shares phrasing with other profiles. A few caveat sentences ('Gratitude is press etiquette', 'common actor rhetoric') are generic but necessary."
+    },
+    "writing": {
+      "score": 8.3,
+      "passage": "Telling the story to the podcast host, unscripted and mostly for laughs, he dropped the reason into the middle of it in one plain sentence:",
+      "reason": "A strong scene opens the piece and leads straight to an earned question. Sections develop instead of repeating ('The crutch' builds to the self-threat-assessment, and the rival sections each add new evidence), and paragraph lengths vary. Below 8.5 because the repaired argument now carries many hedges in a row: the Three and Nine sections and the 'Who has his back' close each end on a 'not decisive' caveat, which slows the second half. The closing paragraph is thoughtful but soft."
+    },
+    "durability": {
+      "score": 8.4,
+      "passage": "As of November 2026, no one who has known him for twenty years has spoken on the record outside a promo cycle.",
+      "reason": "Changing facts are absolute-dated (box office on October 23, 2026, the 'six days after' checkpoint, the November 2026 absence claim) and tracked as time_sensitive or unresolved with dated triggers (C33, C35, C62, C63, C64). Without the Clayface press, the argument still rests on 2015-2022 material (WhatsOnStage, Rakish Gent, Glamour, Square Mile fear and motorbike quotes). The ACL hook is a dated, self-explained episode, not a status claim. The settle signals say what would overturn the reading. Five-year test: passed."
+    },
+    "hook": {
+      "score": 9.0,
+      "passage": "Partway through the shoot for _Clayface_, the DC Studios film in which he plays the title role, a stunt called for a car to drive into the side of Tom Rhys Harries's leg. That was the moment the Welsh actor could no longer keep his secret.",
+      "reason": "It is a concrete, sourced scene (podcast audio plus director testimony) that orients a new reader in the first sentence. It opens a question (why hide it, and from whom?) that the article answers with the volunteered word 'fear' and the director's reply that it would not have mattered."
+    },
+    "discoverability": {
+      "score": 8.0,
+      "passage": "meta_title: 'Tom Rhys Harries Personality Type: The Case for Enneagram 6' / FAQ: 'Did Tom Rhys Harries really film Clayface with a torn ACL?'",
+      "reason": "The meta title and description are accurate and do not overstate ('narrowly leads... with 7, 3 and 9 close'). The type answer is clear and mirrored exactly in the type FAQ. The FAQs target real search intents (type, why not 7, the ACL story, who is he, ADHD) and are dated and attributed. The body links to the Type 3, 6, 7 and 9 pages, and the five suggestion slugs all exist as drafts. Short of higher because the body has no in-text links to related people pages, and the 'why not 7' FAQ overstates the motorbike detail (verify-05)."
+    }
+  }
+}

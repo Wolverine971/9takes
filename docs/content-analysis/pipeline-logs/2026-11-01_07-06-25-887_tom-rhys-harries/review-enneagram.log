@@ -1,0 +1,18 @@
+The Enneagram review for the Tom Rhys Harries draft is done. It's written to `docs/content-analysis/pipeline-logs/2026-11-01_07-06-25-887_tom-rhys-harries/review-enneagram.json`, passes the review schema, and every quoted passage matches the draft exactly. I didn't touch any other files or publish anything.
+
+**Verdict:** Type 6 at medium confidence holds up. The problems are in how the draft rules out the other types, not in the conclusion. I kept the "contested typing" risk flag on and didn't raise any new risk flags.
+
+**Three major findings:**
+1. **Six vs Three rests on one word.** The draft decides it on "for fear of losing this job," but a Three would also hide an injury to keep a career-making role. The evidence file itself says this choice fits both types. The draft's main "fear drives me" quote is about fear of being criticised, which actually leans Three, and the draft never deals with that.
+2. **One argument against Seven points the wrong way.** Using video games and cycling to escape anxiety is classic Seven behavior, so it's not evidence against Seven. The line "the unplanned tends to feel like oxygen" is also a stereotype. Stronger points are already in the draft: he calls preparation a crutch, says going in blind is "terrifying," and finds relief in engines that either work or don't.
+3. **The 2015 date is wrong.** The type answer and the FAQ both say "Since 2015 he has described fear…", but the 2015 source only says he beat himself up over missed auditions and never mentions fear. The earliest fear statement is from 2022.
+
+**Four minor findings:**
+- "Counterphobic Six" ends up explaining every bold or provocative thing he does.
+- Type 9 is never named, though "nothing is going to change" fits it as well as Six. The quote also cuts his next clause, "it might open a few more doors."
+- The closing line ("You don't trust the ground…") credits him with a distrust he never expressed.
+- The draft leaves out his release-day line from the same interview it quotes elsewhere: "I've gone past the point of nervousness."
+
+**Five passages to keep:** the "modeling the worst case" passage, the engine/sprocket quote, the ADHD paragraph, the reconciling of the conflicting ACL accounts, and the note on the tooth-joke correction.
+
+The similarity check flagged overlap with the Paul Bettany and Nathan Fielder profiles, but it was only standard type vocabulary, so I didn't treat it as reuse.

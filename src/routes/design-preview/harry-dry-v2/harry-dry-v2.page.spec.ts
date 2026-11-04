@@ -40,7 +40,7 @@ describe('Harry Dry V2', () => {
 		expect(screen.getByRole('heading', { level: 1 }).textContent).toBe(
 			'1 question.9 perspectives.'
 		);
-		expect(screen.getByText('Write yours first, before another take shapes it.')).toBeTruthy();
+		expect(screen.getByText('Answer before the crowd. Then read what others think.')).toBeTruthy();
 		await waitFor(() => expect(container.querySelector('.live-question')).toBeTruthy());
 		expect(container.querySelector('.live-question')?.getAttribute('href')).toBe(
 			'/questions/good-friend'

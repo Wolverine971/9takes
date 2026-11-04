@@ -1,0 +1,27 @@
+{
+  "schema_version": 3,
+  "subject": "tom-rhys-harries",
+  "mode": "create",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_verify_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-01_07-06-25-887_tom-rhys-harries/candidate-edit.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-01_07-06-25-887_tom-rhys-harries/evidence-edit.json",
+    "resolution": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-01_07-06-25-887_tom-rhys-harries/resolution-edit.json",
+    "review-subject": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-01_07-06-25-887_tom-rhys-harries/review-subject.json",
+    "review-fan": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-01_07-06-25-887_tom-rhys-harries/review-fan.json",
+    "review-critic": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-01_07-06-25-887_tom-rhys-harries/review-critic.json",
+    "review-unfamiliar": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-01_07-06-25-887_tom-rhys-harries/review-unfamiliar.json",
+    "review-enneagram": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-01_07-06-25-887_tom-rhys-harries/review-enneagram.json",
+    "review-future": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-01_07-06-25-887_tom-rhys-harries/review-future.json",
+    "baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-01_07-06-25-887_tom-rhys-harries/baseline-reader.md",
+    "checks": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-01_07-06-25-887_tom-rhys-harries/checks-edit.json"
+  },
+  "outputs": {
+    "verification-edit.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-01_07-06-25-887_tom-rhys-harries/verification-edit.json"
+  },
+  "content_sha256": "da64da52d3258ec216198b3966492df4f04942c964c4365c32bad85ebf767263",
+  "evidence_sha256": "94deccbdec9ae115fb0b90101ebc9d908e8bcceaaad23bd1349c68bd84406fff"
+}

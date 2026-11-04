@@ -1,28 +1,31 @@
 ---
-title: 'Tom Rhys Harries: Why the Clayface Star Focuses Through Fear (Enneagram Type 6)'
-meta_title: "Tom Rhys Harries's Personality Type: The Case for Enneagram 6"
-persona_title: The Actor Who Lets Fear Hold His Focus
+title: >-
+  Tom Rhys Harries and the Torn ACL He Hid on Clayface: Why Fear Is His Engine
+  (Enneagram Type 6)
+meta_title: 'Tom Rhys Harries Personality Type: The Case for Enneagram 6'
+persona_title: The Actor Who Calls Fear His Engine
 description: >-
-  Tom Rhys Harries says fear of being criticized is what holds his focus. Why
-  the Clayface star reads as Enneagram Type 6, and why Type 7 is the real rival.
+  Tom Rhys Harries hid a torn ACL to keep Clayface "for fear of losing this
+  job." Why Enneagram Type 6 leads his record, and why Type 7 stays close.
 author: DJ Wayne
-date: '2026-11-02'
+date: '2026-11-03'
+lastmod: '2026-11-03'
 loc: 'https://9takes.com/personality-analysis/tom-rhys-harries'
-lastmod: '2026-11-02'
 changefreq: monthly
 priority: '0.6'
 published: false
 enneagram: '6'
 type:
   - movieStar
+  - newMovieStar
   - celebrity
 person: tom-rhys-harries
 suggestions:
-  - pedro-pascal
-  - paapa-essiedu
   - tom-holland
   - paul-mescal
   - robert-pattinson
+  - cillian-murphy
+  - jacob-elordi
 wikipedia: 'https://en.wikipedia.org/wiki/Tom_Rhys_Harries'
 birth_place: 'Cardiff, Wales'
 nationality: Welsh
@@ -30,45 +33,48 @@ occupation:
   - Actor
 knows_about:
   - Clayface (2026)
-  - White Lines (Netflix)
-  - Mojo (West End)
-  - The Pitchfork Disney
-  - Suspicion (Apple TV+)
+  - 'White Lines (Netflix, 2020)'
   - Hunky Dory (2011)
+  - The Pitchfork Disney (2017)
+  - 'The Seagull (2020, 2022)'
 keywords:
   - Tom Rhys Harries enneagram
   - Tom Rhys Harries personality type
   - Tom Rhys Harries Type 6
   - Tom Rhys Harries Clayface
   - Tom Rhys Harries torn ACL
-  - Tom Rhys Harries White Lines tooth
   - Tom Rhys Harries ADHD
-  - Tom Rhys Harries Kit Connor
+  - Tom Rhys Harries White Lines
   - Tom Rhys Harries Welsh
 citations:
   - >-
+    https://www.goloudnow.com/podcasts/the-empire-film-podcast-397/the-interviews-ft-tom-rhys-harries-taika-waititi-peyton-elizabeth-lee-jacob-tremblay-615255
+  - >-
+    https://www.hollywoodreporter.com/movies/movie-features/clayface-director-tragic-ending-joker-easter-eggs-1236740387/
+  - >-
+    https://www.hollywoodreporter.com/movies/movie-features/clayface-tom-rhys-harries-surviving-multi-day-screen-test-1236742744/
+  - >-
+    https://www.hollywoodreporter.com/movies/movie-news/clayface-movie-actor-tom-rhys-harries-director-james-watkins-1236733512/
+  - >-
     https://www.interviewmagazine.com/film/tom-rhys-harries-and-kit-connor-on-fear-and-vanity-in-hollywood
-  - 'https://squaremile.com/culture/film-tv/tom-rhys-harries-interview/'
   - >-
     https://culturedmag.com/article/2026/10/23/film-tom-rhys-harries-clayface-interview/
+  - 'https://squaremile.com/culture/film-tv/tom-rhys-harries-interview/'
   - >-
     https://www.whatsonstage.com/news/5-minutes-with-tom-rhys-harries-strindberg-is-a-headache-but-a-good-one_38686/
   - 'https://www.therakishgent.co.uk/pages/spotlight-mr-tom-rhys-harries'
   - >-
-    https://web.archive.org/web/2020/https://www.mrporter.com/en-gb/journal/fashion/tom-rhys-harries-interview-white-lines-1277006
+    https://www.mrporter.com/en-gb/journal/fashion/tom-rhys-harries-interview-white-lines-1277006
   - >-
     https://www.walesonline.co.uk/lifestyle/tv/tom-rhys-harries-unforgotten-netflix-18336526
   - >-
     https://www.glamourmagazine.co.uk/article/tom-rhys-harries-white-lines-netflix-interview
   - 'https://www.vogue.co.uk/miss-vogue/article/tom-rhys-harries-interview'
-  - 'https://wwd.com/eye/people/tom-rhys-harries-readies-for-suspicion-1235059888/'
   - 'https://schonmagazine.com/interview-tom-rhys-harries/'
   - 'https://www.fredperry.com/subculture/articles/tom-rhys-harries'
   - >-
     https://www.superherohype.com/news/681328-tom-rhys-harries-reveals-dcu-clayface-role
   - 'https://instinctmagazine.com/tom-rhys-harries-clayface/'
-  - >-
-    https://www.avclub.com/james-watkins-tom-rhys-harries-clayface-auditions-dc-studios
   - >-
     https://creepycatalog.com/max-minghella-says-clayface-would-have-fallen-apart-without-tom-rhys-harries/
   - >-
@@ -80,53 +86,45 @@ citations:
 faqs:
   - question: What is Tom Rhys Harries's Enneagram type?
     answer: >-
-      Tom Rhys Harries's personality type is Enneagram Type 6, the Loyalist.
-      Sixes are driven by a need for security and support. He says fear of being
-      criticized is what quiets his distraction, calls preparation a crutch, and
-      trusts collaborators he believes in. The read is held at medium
-      confidence, with Type 7 the serious rival.
+      Tom Rhys Harries reads most clearly as an Enneagram Type 6, the
+      security-seeking type, at medium confidence. Since 2015 he has described
+      fear as what drives his focus and preparation as a crutch, and he places
+      his footing in people who have his back. Type 7 is the closest rival; Type
+      3 is also in play.
     anchor: what-is-tom-rhys-harriess-personality-type
   - question: Why isn't Tom Rhys Harries a Type 7?
     answer: >-
-      The Type 7 case is real. He is openly curious, wants to study clowning in
-      Paris, called acting "a pretty reckless choice of career," and Kit Connor
-      says he taught him "how to misbehave on a film set." Type 6 leads on what
-      he does under pressure. He names fear as the thing that holds his focus,
-      called going into a role without preparation "terrifying," and finds
-      relief in motorbikes because "there's nothing subjective about whether an
-      engine works." His ADHD, which he has discussed publicly, also accounts
-      for some of the restlessness.
+      He might be; it is the strongest rival. He is curious and playful, called
+      acting "a pretty reckless choice of career" in 2020, and turned a 2026
+      podcast into a quiz about the host's golf handicap. Type 6 stays ahead on
+      what he reaches for under pressure. He calls going in unprepared
+      "terrifying," and his chosen escape, fixing motorbikes, is about
+      certainty: "there’s nothing subjective about whether an engine works."
     anchor: why-not-type-7
+  - question: Did Tom Rhys Harries really film Clayface with a torn ACL?
+    answer: >-
+      Yes, by his own account. He told the Empire Film Podcast in October 2026
+      that he tore his ACL about six months before filming and, "for fear of
+      losing this job," told no one. A car-impact stunt partway through the
+      shoot made him tell the stunt coordinator. Director James Watkins told The
+      Hollywood Reporter the team adjusted the stunt and Harries still did the
+      jump and the fall.
+    anchor: torn-acl
   - question: Who is Tom Rhys Harries?
     answer: >-
-      Tom Rhys Harries is a Welsh actor, born in Cardiff in 1990, whose first
-      language is Welsh. He trained at the Royal Welsh College of Music & Drama,
-      graduating in 2012, made his West End debut in Jez Butterworth's Mojo,
-      which opened in 2013, and played Axel Collins in Netflix's White Lines
-      (2020). He leads DC Studios' Clayface as Matt Hagen; the film opened in US
-      theaters on October 23, 2026.
+      Tom Rhys Harries is a Welsh actor, born in Cardiff in 1990 and a
+      first-language Welsh speaker. He trained at the Royal Welsh College of
+      Music & Drama, graduating in 2012, played Axel Collins in Netflix's White
+      Lines (2020), and plays the title role in DC Studios' Clayface, which
+      opened at No. 1 in the US on October 23, 2026.
     anchor: who-is-tom-rhys-harries
-  - question: Did Tom Rhys Harries film Clayface with a torn ACL?
-    answer: >-
-      Yes, by his own account. He told Cultured in October 2026 that he tore his
-      ACL before filming and, once he booked the role, put off surgery because
-      there was no time to recover; he has since had it repaired. In
-      Entertainment Weekly's cover story, as relayed by Instinct Magazine, he
-      said he "hadn't told the stunts or anyone on production."
-    anchor: torn-acl
-  - question: Did Tom Rhys Harries really pull out his own tooth in White Lines?
-    answer: >-
-      No, according to him. In May 2020 WalesOnline printed him saying, "I
-      actually pulled it out!" Weeks later he told Mr Porter he had been
-      misquoted. "I was doing a gag," he said, blaming himself for "not reading
-      the room." His words: "But no, I didn't pull my tooth out."
-    anchor: tooth
   - question: Does Tom Rhys Harries have ADHD?
     answer: >-
-      A 2022 Square Mile profile, billed as a conversation about "motorbikes,
-      acting and ADHD," reported that he lives with ADHD. In it he said he is
-      "shit at focusing on something if I'm not interested in it," and that
-      acting holds his focus "because it's scary."
+      He has said so himself. In a 2022 Square Mile interview he described being
+      "shit at focusing on something if I’m not interested in it" and said fear
+      of being criticised is what quiets the pull toward distraction when he
+      acts. That self-description is his own; this profile treats it as context,
+      not as evidence for any type.
     anchor: adhd
 production_pretext:
   status: draft
@@ -142,138 +140,122 @@ production_pretext:
   blockers: []
 ---
 
-On September 1, 2026, Tom Rhys Harries got on a call with Kit Connor, who had worked with him nine years earlier on the British comedy _Slaughterhouse Rulez_. DC's _Clayface_, the first studio feature Rhys Harries had led, was weeks from release, and he had not yet seen it. Connor said the casting was perfect and that, without having seen a frame, he just knew.
+Partway through the shoot for _Clayface_, a stunt called for a car to drive into the side of Tom Rhys Harries's leg. That was the moment he could no longer keep his secret. He took the stunt coordinator aside. "Jimmy, I'm so sorry, man. I actually don't have an ACL," he recalled telling him on the [Empire Film Podcast](https://www.goloudnow.com/podcasts/the-empire-film-podcast-397/the-interviews-ft-tom-rhys-harries-taika-waititi-peyton-elizabeth-lee-jacob-tremblay-615255) in October 2026.
 
-"I hope it's good," Rhys Harries said. "I'm seeing it on Wednesday." And then: "I don't know how I feel about it."
+He had torn the ligament about six months before cameras rolled. Then he booked the first studio lead of a fifteen-year career, and, he told [Cultured](https://culturedmag.com/article/2026/10/23/film-tom-rhys-harries-clayface-interview/), his thought was, "Well, I’m not gonna have time to do the surgery." He said nothing to anyone on the production. On the podcast, unscripted, he gave the reason in one plain sentence:
 
-The conversation, published by [Interview](https://www.interviewmagazine.com/film/tom-rhys-harries-and-kit-connor-on-fear-and-vanity-in-hollywood) on September 30, 2026, turned to the gap between the movie an actor makes and the movie an audience sees. "The film you think you're shooting is often a completely different thing from the finished article," Rhys Harries said. Connor told him it sounded like this movie "rides and dies by you" and called the whole thing "a bit of a head fuck." Rhys Harries answered with a question:
+> "And for fear of losing this job, I didn't tell anybody."
 
-> "You just hope the editor's got your back, don't you?"
+Director James Watkins, speaking to [The Hollywood Reporter](https://www.hollywoodreporter.com/movies/movie-features/clayface-director-tragic-ending-joker-easter-eggs-1236740387/) on October 26, 2026, confirms the order of events: "There’s a moment in the film when Matt gets hit by a car, and that’s when it came out. Tom had a quiet word with the stunt man about it." Watkins says the team reworked the stunt. "He still did the jump and the fall, but he was frank about it."
 
-Later, describing how he had prepared to play Matt Hagen, he turned another question on his friend: "Am I the best judge of myself? Are you, Kit, the best judge of you?"
+In a July 2026 _Entertainment Weekly_ cover story, as [relayed by Instinct](https://instinctmagazine.com/tom-rhys-harries-clayface/), he had put it more starkly: "I actually shot all of Clayface with a torn ACL. I hadn’t told the stunts or anyone on production." His later podcast account and Watkins's agree that the secret came out mid-shoot instead. The detail that matters survives either version. Asked why he hid an injury that could have ended the job anyway, the reason he gave was fear.
 
-Four years earlier, in a Soho members' club, he had named the one part of his life where that question never comes up. He loves motorbikes and the manual work of keeping them on the road. "It's like an antidote to what I do for work," he told [Square Mile](https://squaremile.com/culture/film-tv/tom-rhys-harries-interview/) in June 2022. "Acting is so subjective and sort of heady but there's nothing subjective about whether an engine works or if a sprocket's out of place."
-
-That sentence is a good key to him. He works in a trade where nobody, himself included, can say for certain whether the work is any good, and across eleven years of interviews he keeps describing the same ways of living with that. Fear sharpens his attention. Preparation steadies him. Trusted people carry what he cannot control.
-
-He is a Welsh actor, born in Cardiff in 1990, who grew up speaking Welsh; his father was a head teacher at a Welsh-language school. He trained at the Royal Welsh College of Music & Drama, made his West End debut in Jez Butterworth's _Mojo_, which opened in 2013, and spent years in theatre and supporting screen roles before playing Axel Collins, the doomed DJ at the center of Netflix's _White Lines_, in 2020. DC Studios cast him as Matt Hagen, the actor who becomes Clayface, in June 2025, over a reported shortlist that included Jack O'Connell, Tom Blyth and George MacKay ([Deadline](https://deadline.com/2025/06/clayface-tom-rhys-harries-1236435237/)). The R-rated horror film opened in US theaters on October 23, 2026 and was No. 1 that weekend with about $24 million, by studio estimates, on a reported $44 million budget ([AP](https://www.news4jax.com/entertainment/2026/10/25/you-can-see-everything-surges-with-195m-at-box-office-clayface-takes-no-1/)).
+Harries is a Welsh actor, born in Cardiff in 1990, who spent more than a decade in theatre and supporting screen roles before DC Studios cast him as Matt Hagen in _Clayface_ in [June 2025](https://deadline.com/2025/06/clayface-tom-rhys-harries-1236435237/), ahead of a reported shortlist that included Jack O'Connell, Tom Blyth and George MacKay. The film opened at No. 1 in the US on October 23, 2026, with about [$24 million](https://www.news4jax.com/entertainment/2026/10/25/you-can-see-everything-surges-with-195m-at-box-office-clayface-takes-no-1/) by studio estimates. That is why people are looking him up. The more interesting question is what kind of person names fear as his motive, out loud, on the release-week press tour for his own breakout.
 
 ## What is Tom Rhys Harries's personality type?
 
-Tom Rhys Harries's personality type is Enneagram Type 6, the Loyalist. Sixes are driven by a need for security and support. He says fear of being criticized is what quiets his distraction, calls preparation a crutch, and trusts collaborators he believes in. The read is held at medium confidence, with Type 7 the serious rival.
+Tom Rhys Harries reads most clearly as an Enneagram Type 6, the security-seeking type, at medium confidence. Since 2015 he has described fear as what drives his focus and preparation as a crutch, and he places his footing in people who have his back. Type 7 is the closest rival; Type 3 is also in play.
 
-For a [Type 6](/enneagram-corner/enneagram-type-6), doubt is the starting condition. Sixes look for ground that will hold: a plan that has been tested, a person who has proved reliable. Some, the counterphobic ones, also walk straight at whatever frightens them. Rhys Harries does both, and he talks about fear more plainly than most actors do.
+[Type 6](/enneagram-corner/enneagram-type-6) sits in the head triad, the three types organized around fear. What separates them is the response. A Five pulls back to observe. A Seven moves toward options and treats confinement as the real threat. A Six looks for something to stand on: preparation, rules, people it can trust. Some Sixes go straight at the thing that scares them, which is called the counterphobic style. Hiding a torn knee and doing the stunt anyway is a counterphobic move.
 
-Medium confidence is the honest setting. Nearly everything on the record is Rhys Harries promoting a project, where nerves, gratitude and team spirit are the expected script. Nobody who has known him for years away from a film set has described him publicly. He has discussed living with ADHD, which muddies anything built on restlessness or focus. And [Type 7](/enneagram-corner/enneagram-type-7) has a serious case, set out below, with [Type 3](/enneagram-corner/enneagram-type-3) close behind.
+The case rests mostly on his own words in promotional interviews, where nerves and gratitude are expected talking points. No one who has known him for twenty years has spoken on the record. Those limits get their own hearing below, alongside the strongest case for [Type 7](/enneagram-corner/enneagram-type-7). His wing is not argued here; the record does not settle it.
 
-## Fear does the focusing
+## Fear, named early
 
-The clearest thing he has said about himself came in that 2022 Square Mile interview, which the magazine billed as a conversation about "motorbikes, acting and ADHD." He said he is "shit at focusing on something if I'm not interested in it," and that when something does interest him he gets obsessed, "because it's kind of a relief to be able to focus." Then he explained why acting holds him:
+The fear language did not arrive with the superhero film. In 2022, four years before _Clayface_ came out, Harries told [Square Mile](https://squaremile.com/culture/film-tv/tom-rhys-harries-interview/) that he lives with ADHD and is "shit at focusing on something if I’m not interested in it." Acting is the exception, he said, and he explained why:
 
-> "I've always had that focus with acting because it's scary. The impulse to distraction is quietened by the fear of being criticised. I think I was aware from quite a young age that fear was a big driving factor for me."
+> "I’ve always had that focus with acting because it’s scary. The impulse to distraction is quietened by the fear of being criticised. I think I was aware from quite a young age that fear was a big driving factor for me."
 
-Plenty of actors say nerves help on opening night. His claim is more permanent: fear of criticism is what lets his attention settle, and he has known it since he was young. That is close to how a Six uses anxiety, as a watchman that keeps the mind on the job.
+Plenty of actors say nerves help. Fewer describe fear as the mechanism that holds their attention in place. He also files ADHD under self-description, and the diagnosis is a real alternative explanation for some of what follows: the restlessness, the bursts of obsession, the way he says it is "kind of a relief to be able to focus." This profile does not count his restlessness as type evidence for that reason.
 
-The childhood he mentions was not a calm one. "I was quite disruptive growing up," he said in the same interview. "I don't think I was ever malicious but I didn't always know what to do with myself and often that energy came out in having fights." What got him through, in his account, was other people. He credits "really strong, protective and nurturing women" who "had my back," including a teacher he still keeps in touch with: "I wouldn't have finished school without her and that isn't lost on me."
+The earliest first-person source found is from 2015, years before any fame, when he was still a drama student in Cardiff auditioning in London. He told [WhatsOnStage](https://www.whatsonstage.com/news/5-minutes-with-tom-rhys-harries-strindberg-is-a-headache-but-a-good-one_38686/) he "spent thousands of pounds on transport" and added: "I used to really beat myself up if I wasn’t able to go to one." A missed audition was not a shrug. It was a failure of vigilance.
 
-That is the only account of his childhood on the record, and it should not be stretched into an origin story. It does introduce a phrase he will reach for again. The people who had his back as a boy become, nearly 15 years into his career, the editor he hopes has his back now.
+He describes the boy before that as "quite disruptive growing up," energy that "often" came out in "having fights," steadied by "really strong, protective and nurturing women," including a teacher he is still in contact with. "I wouldn’t have finished school without her," he said in 2022. Four years later, after _Clayface_ opened, that teacher was still in the story. He told [The Hollywood Reporter](https://www.hollywoodreporter.com/movies/movie-features/clayface-tom-rhys-harries-surviving-multi-day-screen-test-1236742744/) on October 29, 2026, that his school years were "very much a case of, ‘if this kid doesn’t find something to focus on, he’s fucked’" and that "If this teacher wasn’t there, I would not be having this conversation with you right now."
 
-The fear was visible before anyone was profiling him. In a 2015 [WhatsOnStage](https://www.whatsonstage.com/news/5-minutes-with-tom-rhys-harries-strindberg-is-a-headache-but-a-good-one_38686/) Q&A, ahead of a Strindberg play at the Young Vic, he looked back at his final year at drama school in Cardiff, when he "spent thousands of pounds on transport" getting to London auditions. "I used to really beat myself up if I wasn't able to go to one," he said. He once took the 6am train while badly ill: "that was a bad audition."
+This is his account of his childhood, not a diagnosis of it, and it does not explain his type. What it shows is a loyalty that has held steady. He credits his survival to the specific adults who backed him, and he keeps saying so.
 
-Then, in the next breath: "But on the whole I quite like auditioning." That line keeps the picture honest. He enjoyed the process. What he could not forgive himself was a missed chance.
+## The crutch
 
-## A crutch he is trying to put down
+Ask Harries how he works, and the answer is preparation. Ask how he feels about preparation, and the answer is more revealing. In a conversation with Kit Connor published by [Interview](https://www.interviewmagazine.com/film/tom-rhys-harries-and-kit-connor-on-fear-and-vanity-in-hollywood) in September 2026, he said:
 
-Preparation is where the fear goes. In 2020 he described his stage process to [Schön!](https://schonmagazine.com/interview-tom-rhys-harries/): music, art, excerpts from relevant texts, and doodling "all over my rehearsal scripts. They look like a complete mess by the end of a project." He loves theatre rehearsal for "the space to fuck up, try things that might not work and root a character's foundations."
+> "I really prepare, which has been a crutch. I just shot an indie I loved, and I was like, “This character will benefit from me going in a bit blind,” which was terrifying. I’m so used to having that crutch to lean on."
 
-The freedom lives inside a rehearsal room, weeks before an audience arrives. He chose the same protected space as a student. Cast in the 2011 film _Hunky Dory_ during his first year at drama school, he shot it over the summer and went back to finish his training ([WalesOnline](https://www.walesonline.co.uk/lifestyle/tv/tom-rhys-harries-unforgotten-netflix-18336526), 2020). "I still really wanted to pursue my education," he said, praising "the space that college provides to make mistakes." He graduated in 2012. (A 2022 [WWD](https://wwd.com/eye/people/tom-rhys-harries-readies-for-suspicion-1235059888/) profile says he left soon after the film; his own accounts and his graduation say otherwise.)
+The word he chose for going in unprepared was "terrifying." Not freeing, not fun. For someone of the Seven type, the unplanned tends to feel like oxygen. For Harries it is the thing he braced against, then did on purpose because the role needed it.
 
-By 2026 he had a name for the habit. "I really prepare, which has been a crutch," he told Connor. "I just shot an indie I loved, and I was like, 'This character will benefit from me going in a bit blind,' which was terrifying. I'm so used to having that crutch to lean on."
+In the same conversation he turned the question of judgment on himself: "Am I the best judge of myself?" Acting, he said, is "an exercise in trying to trust your instinct all the time." The phrasing treats self-trust as work that has to be done again and again. That is the Six's central problem in miniature: where certainty comes from when it doesn't come from inside.
 
-This is the line that most cleanly separates him from the Seven reading. For a Seven, going in without a plan is the fun part. For Rhys Harries it was a deliberate exposure to fear, chosen because he judged the character needed it.
+The _Clayface_ casting tested him for about three months. Watkins told [The Hollywood Reporter](https://www.hollywoodreporter.com/movies/movie-news/clayface-movie-actor-tom-rhys-harries-director-james-watkins-1236733512/) at the October 2026 premiere, "I don’t think I’ve ever auditioned anyone that much." Many actors would hear doubt in that. Harries heard a safety net: "I’m untested in this space, so I was glad he did it with me really because it meant that we’d had time to workshop the thing before he got onto set."
 
-_Clayface_ tested the habit hard. Director James Watkins put him through screen tests over about three months. "I don't think I've ever auditioned anyone that much," Watkins told The Hollywood Reporter, as relayed by [The A.V. Club](https://www.avclub.com/james-watkins-tom-rhys-harries-clayface-auditions-dc-studios). An actor could take that as a vote of doubt. Rhys Harries welcomed it: "I'm untested in this space, so I was glad he did it with me, really, because it meant that we'd had time to workshop the thing before he got onto set."
+How he got through those months is consistent across three outlets. He told Connor, "I played Elden Ring to switch my brain off during the three months I was screen testing for Clayface," and added, "It probably talks to my level of anxiety throughout that period." When the call finally came, he told _People_ (as [relayed by SuperHeroHype](https://www.superherohype.com/news/681328-tom-rhys-harries-reveals-dcu-clayface-role)), "I was out riding my bike trying to distract myself."
 
-The waiting was harder. "I played Elden Ring to switch my brain off during the three months I was screen testing for Clayface," he told Connor, meaning the video game. Then he added: "It probably talks to my level of anxiety throughout that period." When his agent finally called, he was "out riding my bike trying to distract myself," he told People, as relayed by [SuperHeroHype](https://www.superherohype.com/news/681328-tom-rhys-harries-reveals-dcu-clayface-role). Afterward, "I was just cycling around London, calling my family and some friends of mine."
+He also controlled what information could reach him. "I actually cut off my agent and said, ‘Do not tell me who else it is,’" he told _The Hollywood Reporter_ in his October 29 interview. "I just needed to be in the zone, without thinking about who they’re considering." He asked for the names only after the first test, when "by then it would no longer affect me negatively because I was done." Called back for a second test, "I had to put my blinders on."
 
-A game and a bike ride are escapes, and the Seven reading can claim them. But he names what he was escaping, and it was anxiety.
+Plenty of actors use routines like these. What stands out is that he narrates them as anxiety management, unprompted, and that he ran a threat assessment on himself from the studio's side of the table. The other contenders had a track record leading studio films. With him, he said, "there are so many moments where an unknown quality could falter," and "they haven’t got a great reference point as to what I’d be like with the crew, the rest of the cast, and in the press." He was modeling the worst case, from the decision-maker's chair, about himself. That context makes the hidden ACL easier to read. He already saw himself as the risky bet. He was not going to hand anyone a reason to agree.
 
-## The people who have his back
+## Who has his back
 
-The other place he puts his weight is on people. In 2020, asked whether _White Lines_ had surprised him by becoming a hit, he told [The Rakish Gent](https://www.therakishgent.co.uk/pages/spotlight-mr-tom-rhys-harries) that "if you surround yourself with people that you really believe in and that have a good creative vision, then generally those things tend to turn out really well. I had real faith in Alex Pina," the show's creator.
+If preparation is one support, people are the other. The pattern shows up six years apart.
 
-Two years later the worry underneath came out. "In a TV show like that, things can be sort of out of your hands because it can be edited and you lose control of that arc that you've tried to create," he told Square Mile.
+In 2020, after _White Lines_ became a Netflix hit, he told [The Rakish Gent](https://www.therakishgent.co.uk/pages/spotlight-mr-tom-rhys-harries) that good work comes from surrounding yourself with people you believe in: "I had real faith in Alex Pina." In 2026 he told Connor that the longer he does this, "the more it seems to be an exercise in letting go and engaging with people you’re willing to take a leap of faith with." Then, about the edit he will never control: "You just hope the editor’s got your back, don’t you?"
 
-By 2026 the worry had become a practice. "The longer I'm allowed to do this," he told Connor, moments after the line about the editor, "the more it seems to be an exercise in letting go and engaging with people you're willing to take a leap of faith with." He calls the letting go an exercise, which suggests it does not come naturally. Across six years the logic holds: choose people you can trust, then hand over control.
+Asked what he loved most about _Clayface_, he did not name the role. "One of the things I loved most about doing Clayface was how much I’m needed. I felt like I was part of the crew." Telling Cultured what he wants, he went straight to reliability: "Ultimately, I just want to be a good, reliable work partner, a good boyfriend, a good brother, son, friend." On the Empire podcast he said that through the whole shoot he was "never not on set. I was there every single day."
 
-He also wants to be one of the people others can count on. Asked about fear, he told Connor: "I think fear is a mark of caring about something and wanting to contribute to the greater piece. One of the things I loved most about doing Clayface was how much I'm needed. I felt like I was part of the crew." When Connor described feeling responsible for the mood on his own set, Rhys Harries said, "I think there's an inevitability to feeling that sort of duty of care to the production."
+There is a co-star's account too, though it comes second-hand. Max Minghella, as [relayed by Creepy Catalog](https://creepycatalog.com/max-minghella-says-clayface-would-have-fallen-apart-without-tom-rhys-harries/) on October 26, 2026, called him "Just incredibly disciplined, amazing leadership on set," and said Harries phoned him the day Minghella was cast and kept in touch to make sure he felt included. That is premiere-season praise from a castmate, published by a site that gets his age wrong, so it carries limited weight. It still describes the behavior his own words predict: tending the group, not just his own performance.
 
-The same reflex shows up in an unexpected place. Asked in 2020 how awkward intimate scenes are, he said that "all I wanted was to make sure that the other actor was comfortable. I would find myself so occupied with that, that there wasn't really a chance to get uncomfortable myself." Looking after the other person is how he gets through it.
+The milestones he shares follow the same line. After the casting call, "I was just cycling around London, calling my family and some friends of mine." At the Los Angeles premiere, watching his parents see the film was "one of the most special things to me from this whole experience."
 
-The one co-star account with behavioral detail comes from Max Minghella, who plays a detective in _Clayface_. As relayed in October 2026 by [Creepy Catalog](https://creepycatalog.com/max-minghella-says-clayface-would-have-fallen-apart-without-tom-rhys-harries/), a site that does not say where Minghella said it and gets Rhys Harries's age wrong, Minghella called him "incredibly disciplined, amazing leadership on set." The site reports that Rhys Harries phoned Minghella the day Minghella landed his role and kept in touch so he felt included. That is premiere-season praise, relayed secondhand. It does match what Rhys Harries says he values.
+Then came the sharpest test the record offers. Six days after the No. 1 opening, a Three would have every reason to treat the moment as arrival, and a Seven to pivot toward the next adventure. Harries did neither. He told _The Hollywood Reporter_ he was grateful "because you realize how many people have invested their time and work into this thing." Leading a big production turned out to be "counterintuitive, but it’s actually easier when you have so many people around you." And about what comes next: "I haven’t got any grand aspirations of how I’m going to do this now, because fundamentally nothing is going to change." He just wants to be involved with projects "from creators who I back fundamentally."
 
-So does what he admires in others. What impresses him about [Tom Holland](/personality-analysis/tom-holland), he told [Cultured](https://culturedmag.com/article/2026/10/23/film-tom-rhys-harries-clayface-interview/), is coming through early Spider-Man fame "with a level of stability."
+Gratitude to the crew is press etiquette, and British understatement is a convention. But the content of the answer is specific. He put the win in the network, and he named loyalty as the only plan.
 
-When the big moments arrived, he shared them with family. In the Minghella account, he would FaceTime his family while wearing his Clayface makeup. Watching his parents at the Los Angeles premiere, he told Cultured, was "one of the most special things to me from this whole experience."
+## The case for Type 7
 
-## Walking at the risk anyway
+The strongest rival deserves a real hearing, because there is a lot of Seven on the surface.
 
-None of this makes him timid. Some of his choices run straight at risk.
+He is curious in a way interviewers keep noticing. As a kid he would go around Cardiff listening to film soundtracks and "pretend I was in a Truman Show-type situation," he told [Schön!](https://schonmagazine.com/interview-tom-rhys-harries/) in written answers in 2020. "I found that made my paper round less mundane." He wants to "go study clowning at Le Coq in Paris." He plays guitar, rides and repairs motorbikes, and builds playlists for roles. Asked by [Fred Perry](https://www.fredperry.com/subculture/articles/tom-rhys-harries) to describe his style in three words, he wrote: "Loose, Hurried, Functional."
 
-He tore his ACL before _Clayface_ began shooting. Then he booked the role, and, as he told Cultured, "I was like, Well, I'm not gonna have time to do the surgery." He has since had it repaired. In Entertainment Weekly's cover story, as relayed by [Instinct Magazine](https://instinctmagazine.com/tom-rhys-harries-clayface/), he went further: "I actually shot all of Clayface with a torn ACL. I hadn't told the stunts or anyone on production." He described running around Liverpool in the small hours "trying to get away with it." The same relay quotes him warning the stunt coordinator about one move, so at least one person seems to have known.
+He has framed his whole career as a gamble. "I chose to be an actor which on the surface seems to be a pretty reckless choice of career," he told The Rakish Gent in 2020, adding, "With optimism, I will always make decisions that I feel might come off." And: "I don’t tend to have my year planned out in advance." When Kit Connor reminded him in 2026, "You taught me how to misbehave on a film set," Harries answered, "I may have taken the license to be silly and run with it." Near the end of the _Clayface_ shoot he pitched an unscripted club sequence, and production added a day to film it. "That was not in the script," he said in a clip [written up by The Express Tribune](https://tribune.com.pk/story/2637412/tom-rhys-harries-breaks-down-how-he-created-the-unexpected-club-scene-in-clayface).
 
-For the scene in which Matt Hagen lies melted in a bathtub, he wore a sealed mask and told Watkins, "I reckon I can hold my breath for like three minutes comfortably if you shoot me like this." The insurers on set, in his telling, said, "Absolutely not."
+The best unscripted evidence for Seven comes early in the Empire podcast, when Harries turns the tables on host Chris Hewitt and starts quizzing him about his golf handicap ("I have my sources, Chris") and joking, "I rarely know what's going on."
 
-Near the end of the shoot, with everyone exhausted, he pitched an unscripted nightclub sequence. "That was not in the script," he said in a Metro Entertainment clip reported by [The Express Tribune](https://tribune.com.pk/story/2637412/tom-rhys-harries-breaks-down-how-he-created-the-unexpected-club-scene-in-clayface), and, the outlet reports, the production added a day to film it.
+So why doesn't Seven win? Because of what he does when the pressure is real. Under stress a Seven escapes toward possibility and reframes pain as adventure. Harries does use escapes, video games and cycling, but he names them as anxiety management, not as fun. He calls the loss of preparation "terrifying" rather than freeing. And the escape he describes most fondly points away from novelty and toward certainty. He told Square Mile that working on motorbikes is "an antidote" to acting:
 
-Years earlier, with a tiny part in _Parade's End_, he had told the director he thought one of his lines was wrong. "I don't know who the fuck I thought I was," he told Square Mile. Cumberbatch then appeared with the source novel. He had had the same doubt, had checked, and the line was right. The detail Rhys Harries kept from the story was the checking: "It was so telling to me that he knew even this tiny part so well. He's so studious in his work and just a brilliant actor."
+> "Acting is so subjective and sort of heady but there’s nothing subjective about whether an engine works or if a sprocket’s out of place."
 
-Read together, these look like a counterphobic Six: someone who answers fear by moving toward it, especially when an opportunity he waited years for might otherwise slip away. They fit a Three just as well, which is why they cannot settle the case. Hiding an injury to keep a career-making part protects the opportunity and the image of a capable lead at the same time.
+A Seven wants more doors open. This is a man who relaxes when a question has one right answer.
 
-## Why not Type 7?
+The ADHD disclosure cuts against both readings. It explains the breadth of interests without needing Seven, and it explains the hyperfocus without needing Six. That is why the case here leans on motive statements, not on how scattered or focused he seems. It also means the margin over Seven is real but not wide. The playfulness is not a costume. It is part of him that a cautious Six does not predict.
 
-The Seven case deserves a fair hearing, because a lot of the record sounds like one. Square Mile's writer called his curiosity "palpable"; the conversation had barely started before he was asking about shorthand. He plays guitar and piano. As a boy on his paper round he would listen to film soundtracks and "pretend I was in a Truman Show-type situation" (Schön!, 2020). He wants to "study clowning at Le Coq in Paris at some point." He summed up his style for [Fred Perry](https://www.fredperry.com/subculture/articles/tom-rhys-harries) as "Loose, Hurried, Functional."
+## The Three question
 
-In 2020 he called acting "a pretty reckless choice of career" and said, "With optimism, I will always make decisions that I feel might come off." He found Axel, the hedonist he played in _White Lines_, "really energising to play" (Mr Porter). And when Connor said Rhys Harries had taught him "how to misbehave on a film set," he did not deny it: "I may have taken the license to be silly and run with it."
+[Type 3](/enneagram-corner/enneagram-type-3) is the other live alternative, and it has two strong pieces of evidence.
 
-Every one of those details is real. What decides the case is what he does when the stakes arrive. A Seven tends to treat fear as confinement and slip out toward the next option or a brighter way of framing it. Rhys Harries names the fear, calls it useful, and leans on preparation and people until it eases. When he wants relief from a heady job, he does not reach for more possibilities. He reaches for an engine, which either works or does not.
+The first is a journalist's observation. Michael Rudling of Square Mile found him "unshy about dropping huge names" in 2022. While telling a story involving Benedict Cumberbatch, Rudling wrote, "He catches my eye to note my reaction." That is a man monitoring how he lands.
 
-His ADHD complicates the picture in both directions. Restlessness, interest-driven focus and a pull toward stimulation are part of how ADHD shows up, and people with ADHD are often [mistyped as Sevens](/enneagram-corner/enneagram-and-adhd-which-types-struggle-most). That weakens the strongest Seven evidence without proving anything about Six.
+The second is the injury itself. Hiding a torn ACL to protect a career-making role is exactly what an image-focused Three might do: never let the studio see you as damaged goods. He was, by his own description, thinking about how he would come across "in the press." And when Connor asked about vanity, Harries said, "the vanity of it never interested me. I find it interesting because I feel like I have a relationship to it." He did not explain what that relationship is.
 
-There is a clean test still to come. When he looks back on the _Clayface_ release in later interviews, does he credit the people who backed him and admit what worried him, as a Six would, or does he move straight to the next adventure, as a Seven would?
+Against Three is the way he keeps undercutting his own success story. In 2020 he told [Mr Porter](https://www.mrporter.com/en-gb/journal/fashion/tom-rhys-harries-interview-white-lines-1277006) "I’m not a celebrity." Asked by [British Vogue](https://www.vogue.co.uk/miss-vogue/article/tom-rhys-harries-interview) whether he might rival Paul Mescal's overnight fame, he said, "I hope not." In 2026 he guessed that most of Comic-Con "would go, “Who?!”" ([Instinct](https://instinctmagazine.com/tom-rhys-harries-clayface/), relaying _EW_). On release week he told Cultured, "I’ve had way more noes than I’ve had yeses," and "luck plays a huge part in anybody’s perceived success, and the whole thing isn’t a meritocracy."
 
-## The case for Three, and a glance that can't settle it
+Self-deprecation can be its own image management, so none of this is decisive. What tips it is the motive he volunteered for the ACL. A Three hides weakness to protect how he is seen. Harries said he hid it "for fear of losing this job," the security of the role itself. Both types would have hidden the knee. Only one explanation matches what he said.
 
-The other live rival is Type 3, and its best evidence comes from the same 2022 interview as the best evidence for Six. The writer, Michael Rudling, noticed that Rhys Harries was "unshy about dropping huge names," and that after mentioning Cumberbatch, "He catches my eye to note my reaction." Asked in 2026 about the vanity his _Clayface_ character is consumed by, he said "the vanity of it never interested me," then added, "I find it interesting because I feel like I have a relationship to it." He did not say what that relationship is. On release day, Cultured's writer observed: "How much Harries wants this is not in question."
+## What the Six reading leaves out
 
-What counts against Three is how readily he hands over unflattering facts. Threes tend to protect an image of inevitable success, and he keeps volunteering the rejections. "I've had way more noes than I've had yeses," he told Cultured. "Luck plays a huge part in anybody's perceived success, and the whole thing isn't a meritocracy." Weeks after _White Lines_ hit No. 1 on Netflix in 25 countries, he told Mr Porter, "I'm not a celebrity." [British Vogue](https://www.vogue.co.uk/miss-vogue/article/tom-rhys-harries-interview) asked whether he might match the overnight fame of [Paul Mescal](/personality-analysis/paul-mescal); "I hope not," he said.
+A type is a pattern, not a cage, and some of Harries does not fit.
 
-The glance at the journalist is one moment, read by one writer. Checking how a story lands is also what a watchful Six does in a room it is not yet sure of. On its own, it cannot separate the two.
+There is a provocateur in him. In May 2020 [WalesOnline](https://www.walesonline.co.uk/lifestyle/tv/tom-rhys-harries-unforgotten-netflix-18336526) printed him saying of a _White Lines_ scene, "I actually pulled it out! It’s real, that whole scene is real. I haven’t told anyone that." Weeks later he told Mr Porter otherwise. "No! She’s misquoted me," he said. "I was doing a gag." Then: "It was just me not reading the room. But no, I didn’t pull my tooth out." It is his word against a printed quote. Either way, a deadpan joke about self-mutilation, delivered to his hometown paper, is not what a careful, image-guarding personality does. The correction, with its self-blame, is more Six-like than the joke.
 
-Type 9 has a smaller claim. Interviewers describe a relaxed man, "rarely in a rush" (Square Mile, 2022) and "clear-eyed and methodical" (Cultured, 2026). Before release he said he had "gone past the point of nervousness," but only after "a phase of being nervous," which is the order a Six would predict.
+As a junior actor on _Parade's End_, he walked up to the director and told him one of his lines was wrong. "I don’t know who the fuck I thought I was," he said in 2022. Benedict Cumberbatch checked the book; the line was right. Challenging authority is counterphobic territory, but he tells the story mainly to laugh at himself.
 
-## The joke he had to take back
+In the same Mr Porter interview, the writer reported, about 15 of the 45 allotted minutes went to George Floyd and Black Lives Matter. He said it "would be completely remiss of me to not speak about it." And in the middle of a 2020 [Glamour](https://www.glamourmagazine.co.uk/article/tom-rhys-harries-white-lines-netflix-interview) Q&A, he caught himself mid-boast: "I don’t think I wobble easily. Wait, that’s a terrible quote!"
 
-One side of him the Six reading does not predict well is the provocateur.
+The jokes, the fights, the speeches and the unscripted club scene all show a man who is not timid. That is consistent with a counterphobic Six. It is also the best reason to keep Seven close.
 
-In May 2020 WalesOnline asked how _White Lines_ had filmed the scene in which Axel pulls out his own tooth on a dare. Its article quotes him: "I actually pulled it out! It's real, that whole scene is real. I haven't told anyone that." Weeks later, Mr Porter asked him about it.
+## The engine and the remedy
 
-> "No! She's misquoted me," he insists. "I was doing a gag."
+Read across eleven years, the record keeps returning to two things. Fear is what he says powers him, from beating himself up over missed auditions in 2015 to hiding his knee in 2025. And his remedy is never to escape the fear for good. He builds something to stand on: preparation he calls a crutch, information he refuses until it is safe, a director who tests him for three months, an editor who has his back, a teacher he still thanks.
 
-Then he took the blame himself. "It was just me not reading the room. But no, I didn't pull my tooth out. The dental bill would have been so expensive!"
+He has a saying for the rest. "I really hold onto, ‘what is meant for you, won’t pass you by,’" he told Glamour in 2020. "I am not religious in particular, but I do believe that everything happens for a reason and that gives me some kind of peace." In written answers that year he borrowed a line from the artist John Baldessari and added his own gloss: "so much of this game is out of your hands. Best you can do is get on the train."
 
-It is his word against a printed quote, and the WalesOnline writer reported that he insisted the story was true. Still, the same article has him confessing to a habit: "I've done a couple of interviews saying I can't remember stuff but I was joking." That month, asked by [Glamour](https://www.glamourmagazine.co.uk/article/tom-rhys-harries-white-lines-netflix-interview) whether he was ready for sudden fame, he said, "I have to hide some skeletons quite well… I'm joking," and a moment later, "I don't think I wobble easily. Wait, that's a terrible quote!"
+What would change this read? A record of long-term collaborators describing him outside a promo cycle would help most. So would watching how he handles the next stretch. If the post-_Clayface_ Harries starts describing his success as earned arrival, Three gains ground. If he starts chasing the next thrill and calling preparation a cage, Seven does. For now, on October 29, 2026, six days after the biggest weekend of his life, he said "fundamentally nothing is going to change."
 
-The pattern is a deadpan line that pushes, then a quick check on how it will read. The checking fits him. The pushing is harder to place, and it sits with the boyhood fights and the junior actor correcting a director. A counterphobic Six covers some of it. ADHD, which Square Mile linked to his disruptive school days, may cover more. Some of it may just be a funny man who enjoys a straight face. The type does not have to explain all of him.
-
-## "Hey, that's the film"
-
-In the week _Clayface_ opened, he said he had made his peace with the release. He told Cultured: "Now I'm just like, 'Hey, that's the film. I hope you like it.'" He described the moment a film leaves its makers as "a handover of ownership, where it doesn't belong to us; it belongs to the audience."
-
-He had put a version of that idea in writing back in 2020. Asked by Schön! for advice to young actors, he offered a list he credited to the artist John Baldessari, ending: "Be at the right place at the right time. Try as you might, so much of this game is out of your hands. Best you can do is get on the train."
-
-That is the exercise he described to Connor, done in public: prepare as fully as he can, trust the people who shape the cut, then let strangers decide. Whether a profession built on other people's verdicts will ever feel as solid to him as an engine that starts is something only he can say.
-
-Cultured asked what has kept him coming back through 15 years of more noes than yeses. His answer began with "I don't know how to do anything else" and ended with the people he wants to be dependable for.
-
-> "Ultimately, I just want to be a good, reliable work partner, a good boyfriend, a good brother, son, friend."
+It is a very Six thing to say after a win. You don't trust the ground just because it held this time. You keep checking the engine.

@@ -1,9 +1,11 @@
-<!-- src/routes/design-preview/harry-dry-v2/ConversationScenes.svelte -->
+<!-- src/lib/components/marketing/ConversationScenes.svelte -->
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import type { Attachment } from 'svelte/attachments';
 	import { on } from 'svelte/events';
 	import { prefersReducedMotion } from 'svelte/motion';
+	import { Pause, Play } from '@lucide/svelte';
+	import { Button } from '$lib/components/atoms';
 
 	const scenes = [
 		{
@@ -33,6 +35,7 @@
 	let failed = $state(scenes.map(() => false));
 	let inView = $state(false);
 	let pageVisible = $state(true);
+	let paused = $state(false);
 	const next = $derived.by(() => {
 		for (let offset = 1; offset < scenes.length; offset++) {
 			const index = (active + offset) % scenes.length;
@@ -62,6 +65,7 @@
 		if (
 			!inView ||
 			!pageVisible ||
+			paused ||
 			prefersReducedMotion.current ||
 			!loaded[active] ||
 			!loaded[next] ||
@@ -69,7 +73,7 @@
 		)
 			return;
 		const upcoming = next;
-		const timer = window.setTimeout(() => (active = upcoming), 2000);
+		const timer = window.setTimeout(() => (active = upcoming), 6000);
 		return () => window.clearTimeout(timer);
 	});
 
@@ -111,18 +115,29 @@
 			<img
 				src={`${scene.path}.webp`}
 				srcset={`${scene.path}-small.webp 888w, ${scene.path}.webp 1774w`}
-				sizes="(max-width: 760px) calc(100vw - 48px), (max-width: 1280px) calc(100vw - 96px), 1184px"
+				sizes="(max-width: 760px) calc(100vw - 48px), (max-width: 1280px) calc((100vw - 144px) / 2), 568px"
 				width="1774"
 				height="887"
 				loading="lazy"
 				decoding="async"
 				alt={`Cel-shaded illustration: ${scene.alt}`}
-				class:active={active === index}
+				class={{ active: active === index }}
 				aria-hidden={active !== index}
 				{@attach listenForLoad(index)}
 			/>
 		{/each}
 	</div>
+	{#if !prefersReducedMotion.current}
+		<div class="scene-controls">
+			<Button variant="secondary" size="sm" onclick={() => (paused = !paused)}>
+				{#if paused}<Play size={14} aria-hidden="true" />{:else}<Pause
+						size={14}
+						aria-hidden="true"
+					/>{/if}
+				{paused ? 'Play illustrations' : 'Pause illustrations'}
+			</Button>
+		</div>
+	{/if}
 </figure>
 
 <style>
@@ -150,6 +165,19 @@
 	}
 	.scene-stage img.active {
 		opacity: 1;
+	}
+	.scene-controls {
+		display: flex;
+		justify-content: flex-end;
+		margin-top: var(--space-sm);
+	}
+	.scene-controls :global(.btn) {
+		min-height: 44px;
+	}
+	.scene-controls :global(.btn-label) {
+		display: inline-flex;
+		align-items: center;
+		gap: var(--space-sm);
 	}
 	@media (prefers-reduced-motion: no-preference) {
 		.scene-stage img {

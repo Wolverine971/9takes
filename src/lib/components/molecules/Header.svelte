@@ -456,6 +456,10 @@
 	.header-shell :global(.btn--ghost.desktop-auth) {
 		background: color-mix(in srgb, var(--lamp-glow) 12%, transparent);
 	}
+	:global(:root.light) .header-shell :global(.btn--ghost.desktop-auth),
+	:global(:root.light) .mobile-login {
+		color: var(--lamp-deep);
+	}
 
 	/* Top-level funnel link (2026-07-18): Questions is the give-first product,
 	   so it gets a persistent slot beside Library instead of living only in

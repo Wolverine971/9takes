@@ -1,0 +1,86 @@
+{
+  "schema_version": 3,
+  "role": "enneagram",
+  "content_sha256": "9fc0d99fcbca25dd98c0ca13416d042797405220d1f8fbb7d4b534981118191c",
+  "evidence_sha256": "c2e9339b589808cab2a1d1854c15254fd97759ae690684eee4eff5c6edd824ad",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "enneagram-01",
+      "severity": "major",
+      "passage": "Only one explanation matches what he said.",
+      "problem": "The Three-vs-Six verdict rests on the single word 'fear' in 'for fear of losing this job.' Losing a career-making studio lead is exactly the threat a Three would protect against, and 'fear of' is ordinary speech. The evidence record's own 'unexplained' field says the concealment 'still fits counterphobic Six and Three' and that 'the career stakes would push any type the same way.' The same section also concedes he was modeling how he would come across 'in the press' (C37). The draft's own fear-engine quote is 'fear of being criticised' (C01). That is fear of evaluation, which leans Three or One more than Six, and the draft never confronts it. As written, the discriminator is a word choice, not a motive.",
+      "acceptance_test": "The Three section states plainly that the ACL concealment and the word 'fear' do not separate 3 from 6, and that 'fear of being criticised' fits Three. The Six-over-Three call then rests on a pattern that does separate them and is sourced across years. Examples: he volunteers anxiety, rejection counts and luck unprompted from 2015 to 2026; he credits the network over himself; and he withholds rival names to manage anxiety, not to sharpen performance. No sentence claims only one explanation fits."
+    },
+    {
+      "id": "enneagram-02",
+      "severity": "major",
+      "passage": "but he names them as anxiety management, not as fun",
+      "problem": "This discriminator runs backwards. Seven is a head-triad fear type, and distraction to escape anxiety is its textbook defense. So playing Elden Ring 'to switch my brain off' and cycling 'to distract myself' during a high-stakes wait is, if anything, Seven-consistent. Naming the escapes as anxiety management does not count against Seven. The same paragraph's foil is a stereotype: 'For someone of the Seven type, the unplanned tends to feel like oxygen.' Sevens also over-plan to keep options safe. The Six-over-Seven case is weakened by leaning on a non-discriminator when stronger ones exist in the draft: preparation called a crutch and its absence called 'terrifying' (2026), and certainty-seeking relief in mechanical work (2022).",
+      "acceptance_test": "The Seven rebuttal no longer treats 'named as anxiety management' as evidence against Seven. It either drops that point or says Sevens also distract to manage anxiety. The surviving discriminators (preparation as a crutch they lean on, going in blind as terrifying, relief in a question with one right answer) are framed as tendencies, not as 'the Seven type' feeling X. The 'oxygen' generalisation is removed or hedged."
+    },
+    {
+      "id": "enneagram-03",
+      "severity": "major",
+      "passage": "Since 2015 he has described fear as what drives his focus and preparation as a crutch, and he places his footing in people who have his back.",
+      "problem": "This overstates the record in the headline type answer. The 2015 WhatsOnStage source (S04) says he spent heavily on transport and 'used to really beat myself up' over missed auditions. It does not mention fear or describe fear as an engine. The earliest fear-as-driver statement is the 2022 Square Mile quote, and 'crutch' is from 2026. The FAQ answer repeats 'Since 2015 he has described fear…', and the closing ('Fear is what he says powers him, from beating himself up over missed auditions in 2015') recasts self-criticism as fear. That overstates how long the core type evidence has existed, in the 60-word answer that most readers see.",
+      "acceptance_test": "The body type answer, the type FAQ answer and the closing section date the fear-as-engine self-description to 2022 (or 'since at least 2022'). Any reference to 2015 is described accurately, as self-criticism over missed auditions, and not as a statement about fear. The three places agree."
+    },
+    {
+      "id": "enneagram-04",
+      "severity": "minor",
+      "passage": "Hiding a torn knee and doing the stunt anyway is a counterphobic move.",
+      "problem": "The orientation section asserts this as fact before any evidence. Later the draft uses the counterphobic label to absorb most behavior that a cautious Six does not predict: the childhood fights, challenging the Parade's End director ('counterphobic territory') and the provocateur streak ('That is consistent with a counterphobic Six'). The concealment itself is arguably the phobic part (avoiding a threatening disclosure to authority); only doing the stunt is a move toward the fear. Using the subtype as a catch-all is what the standard warns against: subtypes explaining away contradictions.",
+      "acceptance_test": "The orientation sentence is labeled as one reading ('can be read as'). The article says once what a counterphobic Six predicts that Seven or Eight would not. It does not invoke counterphobia as the explanation for each non-cautious behavior. In 'What the Six reading leaves out', the playful and provocative streak is allowed to stay at least partly unexplained, not resolved back into Six."
+    },
+    {
+      "id": "enneagram-05",
+      "severity": "minor",
+      "passage": "a Seven to pivot toward the next adventure. Harries did neither.",
+      "problem": "The 'sharpest test' tests only 3 and 7. 'Fundamentally nothing is going to change' and placing the win in the people around him fit Nine (steadiness, merging with the group) at least as well as Six. Nine is a further rival in the evidence record, based on interviewers' 'a man rarely in a rush' (2022) and 'clear-eyed and methodical' (2026). The draft also quotes his 'everything happens for a reason… gives me some kind of peace' and 'get on the train' fatalism without comment. Nine is never named. The quote also drops his next clause, 'it might open a few more doors in terms of who I'm able to talk to', which mildly cuts toward 7/3 in a passage built to rule them out.",
+      "acceptance_test": "The article names Nine at least once as a considered alternative. It gives a sourced reason Six beats it, for example that he repeatedly names fear and anxiety and actively engineers preparation and information control, where Nine would be more likely to downplay disturbance. The post-release paragraph either includes the 'open a few more doors' clause or explains why it was cut. The test is no longer presented as discriminating only against 3 and 7."
+    },
+    {
+      "id": "enneagram-06",
+      "severity": "minor",
+      "passage": "You don't trust the ground just because it held this time.",
+      "problem": "The closing line attributes distrust and vigilance to a statement that, on its face, expresses steadiness and equanimity ('fundamentally nothing is going to change'). He did not say he distrusts his success. The ending turns an interpretation into the subject's inner stance, at a confidence the medium-confidence thesis does not support. 'It is a very Six thing to say after a win' carries the same certainty about a line Nine or plain British modesty would also produce. Likewise, 'he named loyalty as the only plan' stretches 'I just want to be involved with projects from creators who I back fundamentally.'",
+      "acceptance_test": "The final paragraph is either framed as interpretation ('this suggests…') or rewritten so that it does not attribute distrust he did not express. 'Named loyalty as the only plan' is replaced with wording close to what he said (working with creators he backs)."
+    },
+    {
+      "id": "enneagram-07",
+      "severity": "minor",
+      "passage": "what kind of person names fear as his motive, out loud, on the release-week press tour",
+      "problem": "The draft omits release-day counterevidence to its fear frame. In the same Cultured interview (S03, 2026-10-23) it quotes elsewhere, he said: 'I went through a phase of being nervous… I’ve gone past the point of nervousness. Now I’m just like, “Hey, that’s the film. I hope you like it.”' A reader who knows that line will find the hook's framing selective. The line also helps the type argument. It shows that his fear attaches to preparation and performance, not to reception, which is a sharper Six-vs-Three point than the ACL word choice.",
+      "acceptance_test": "The 'gone past the point of nervousness' line (S03) appears in the fear or Three discussion with its date. The article states what it implies, for example that the fear he names attaches to doing the work, not to how the work is received. The hook's framing stays consistent with it."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "He was modeling the worst case, from the decision-maker's chair, about himself. That context makes the hidden ACL easier to read. He already saw himself as the risky bet. He was not going to hand anyone a reason to agree.",
+      "reason": "The most specific Six-relevant observation in the piece. It is grounded in his own October 29, 2026 words about being 'an unknown quality' that 'could falter', and it connects threat-scanning to the costly choice (the concealment) instead of reasserting the thesis."
+    },
+    {
+      "passage": "Acting is so subjective and sort of heady but there’s nothing subjective about whether an engine works or if a sprocket’s out of place.",
+      "reason": "A distinctive, person-specific detail that supports certainty-seeking better than any generic type description. It is the best actual discriminator against Seven in the draft and gives the piece its closing image."
+    },
+    {
+      "passage": "The ADHD disclosure cuts against both readings. It explains the breadth of interests without needing Seven, and it explains the hyperfocus without needing Six. That is why the case here leans on motive statements, not on how scattered or focused he seems.",
+      "reason": "An honest treatment of a confound that would otherwise inflate both the Six and Seven cases. It is the right typing discipline and should survive any trimming."
+    },
+    {
+      "passage": "The detail that matters survives either version.",
+      "reason": "It reconciles the EW 'shot all of Clayface' wording with the podcast and Watkins accounts without hiding the discrepancy, and it keeps the stated motive as the load-bearing fact. That handling should be kept even if the Three discriminator is reworked."
+    },
+    {
+      "passage": "The correction, with its self-blame, is more Six-like than the joke.",
+      "reason": "It lets an unflattering, type-inconvenient moment stand while making a precise, limited inference. This is the 'type is a pattern, not a cage' balance the standard asks for."
+    }
+  ],
+  "assessment": "Six is a defensible leading read at medium confidence. The strongest support is self-report that holds across contexts and years: fear named as what holds his focus (2022), preparation as a crutch and going in blind as terrifying (2026), relief in mechanical certainty (2022), withholding rivals' names and modeling the studio's worst case about himself (2026), and steady credit to backers (teacher 2022/2026, Pina 2020, editor 2026). The draft confronts Seven and Three in dedicated sections and handles the ADHD confound well. The weaknesses are in the discriminators, not the conclusion. The Three verdict hinges on the ordinary word 'fear' in the ACL quote, which both types fit. One Seven rebuttal (escapes named as anxiety management) is Seven-consistent. The type answer and FAQ date the fear statements to 2015, which the source does not support. Counterphobic Six is used as a catch-all for non-cautious behavior. Nine is listed as a rival in the evidence but never named, even though the post-release 'nothing is going to change' test fits it. The ending converts that steadiness into imputed vigilance. All of this is fixable without changing the thesis. Typing remains contested (risk kept true). The similarity advisory tripped only on 'the three types organized around fear' (Paul Bettany) and 'looks for something to stand on' (Nathan Fielder), which is ordinary head-triad vocabulary, not reused argument. The draft's specific details and argument are distinct from those profiles, so no reuse finding is raised."
+}

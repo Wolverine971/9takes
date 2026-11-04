@@ -1,0 +1,79 @@
+{
+  "schema_version": 3,
+  "role": "future",
+  "content_sha256": "9fc0d99fcbca25dd98c0ca13416d042797405220d1f8fbb7d4b534981118191c",
+  "evidence_sha256": "c2e9339b589808cab2a1d1854c15254fd97759ae690684eee4eff5c6edd824ad",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "future-F1",
+      "severity": "major",
+      "passage": "Then came the sharpest test the record offers. Six days after the No. 1 opening, a Three would have every reason to treat the moment as arrival, and a Seven to pivot toward the next adventure.",
+      "problem": "A single release-week interview (S26, 2026-10-29) is crowned the decisive test against both rivals. The evidence record's own research task says to keep tracking whether this holds or flips toward 3 or 7, and the passage admits gratitude is press etiquette. In five years this will be one of the least representative data points, yet the section is built to read as the climax of the Six case. C35 is marked 'stable' with no review trigger.",
+      "acceptance_test": "The passage presents the October 29, 2026 interview as one dated checkpoint, not 'the sharpest test the record offers'. C35 is reclassified time_sensitive (or unresolved) with an actionable, dated review_trigger (e.g. recheck post-release and next-lead press by a specific date for 'earned arrival' (3) or 'next adventure' (7) framing). Deleting this paragraph leaves the 'Who has his back' section's argument intact on pre-Clayface evidence (2020 Rakish Gent, 2022 Square Mile)."
+    },
+    {
+      "id": "future-F2",
+      "severity": "major",
+      "passage": "Self-deprecation can be its own image management, so none of this is decisive. What tips it is the motive he volunteered for the ACL.",
+      "problem": "Five-year test fails for the Type 3 rebuttal. The article concedes the pre-2026 counterevidence (Mr Porter, Vogue 2020) is not decisive and lets a single October 2026 podcast sentence, 'for fear of losing this job', tip the case. Remove the latest event and the strongest Three evidence (the 2022 name-dropping observation) is left unanswered. The Seven rebuttal has a durable 2022 anchor (the engine quote); the Three rebuttal has none.",
+      "acceptance_test": "Either the Three section cites at least one pre-Clayface observation that discriminates Six from Three (not just self-deprecation), or it states plainly that the Three rebuttal currently rests on one 2026 statement and names what future record would confirm or overturn it. A reader who skips the Clayface material still finds a stated, sourced reason Three trails."
+    },
+    {
+      "id": "future-F3",
+      "severity": "major",
+      "passage": "No one who has known him for twenty years has spoken on the record.",
+      "problem": "Temporary absence claim written as a fixed fact, and the evidence record does not track the article's other changing matters. Only C33 (box office) is time_sensitive. Untracked: this absence of long-term testimony (research task names Jamie Lloyd, Laura Haddock, Alex Pina, Jez Butterworth); the 'What would change this read?' settle signals; and the unnamed, unreleased indie he 'just shot' (S02, 2026). The standard requires unresolved matters to carry time_sensitive/unresolved claims with actionable review triggers.",
+      "acceptance_test": "The passage is dated ('As of November 2026, no one who has known him...') and has a claim in the evidence record marked time_sensitive or unresolved with a dated review_trigger. The 'What would change this read?' signals map to at least one tracked claim with a trigger. The indie line either names the project or has a trigger to check its release."
+    },
+    {
+      "id": "future-F4",
+      "severity": "minor",
+      "passage": "For now, on October 29, 2026, six days after the biggest weekend of his life, he said \"fundamentally nothing is going to change.\"",
+      "problem": "The conclusion leans on release week and calls it 'the biggest weekend of his life', a superlative that later releases, awards or personal events could falsify. 'For now' also ages. This matches the standard's durability-6 pattern: conclusion depends on this year's moment.",
+      "acceptance_test": "The superlative is replaced with a dated, checkable description (e.g. 'six days after his first studio lead opened at No. 1'). The final beat rests on the 2015-2026 pattern from the preceding paragraph, with the October 29 quote framed as the latest dated data point, not the proof."
+    },
+    {
+      "id": "future-F5",
+      "severity": "minor",
+      "passage": "That is why people are looking him up.",
+      "problem": "Present-tense status claim about search interest. It is true in November 2026 and likely stale within a year, whatever his next role is.",
+      "acceptance_test": "The sentence is removed or dated (e.g. 'That October 2026 opening is what put his name in front of most new readers'), and the next sentence still bridges to the fear question."
+    },
+    {
+      "id": "future-F6",
+      "severity": "minor",
+      "passage": "and plays the title role in DC Studios' Clayface",
+      "problem": "The 'Who is' FAQ uses present tense ('plays') for a finished film. That will read wrong once the film is out of theatres and he has later roles. It is a metadata surface Google may quote for years.",
+      "acceptance_test": "The FAQ says 'played' (or 'starred as'), keeps the absolute October 23, 2026 date, and matches the body wording."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "His later podcast account and Watkins's agree that the secret came out mid-shoot instead. The detail that matters survives either version.",
+      "reason": "Durable handling of conflicting accounts: it reconciles the EW wording with the podcast and director, so later corrections won't break the hook."
+    },
+    {
+      "passage": "A missed audition was not a shrug. It was a failure of vigilance.",
+      "reason": "Rests on a 2015 pre-fame source, so the pattern doesn't depend on Clayface press. This is the kind of evidence that keeps the thesis alive past the release cycle."
+    },
+    {
+      "passage": "A Seven wants more doors open. This is a man who relaxes when a question has one right answer.",
+      "reason": "Specific, memorable discriminator built on a 2022 quote, so it stays true whatever happens next."
+    },
+    {
+      "passage": "He was modeling the worst case, from the decision-maker's chair, about himself.",
+      "reason": "A distinctive insight specific to this person that explains the hook without depending on box-office outcome."
+    },
+    {
+      "passage": "If the post-_Clayface_ Harries starts describing his success as earned arrival, Three gains ground. If he starts chasing the next thrill and calling preparation a cage, Seven does.",
+      "reason": "Concrete, observable settle signals in reader language. They make the page easy to reopen and keep it honest as the record grows. Keep these (and track them, per future-F3)."
+    }
+  ],
+  "assessment": "Five-year test: mostly passes on the core claim, partly fails on the discriminators. Remove the September-October 2026 Clayface press and the Six reading still stands on 2015 (WhatsOnStage), 2020 (Rakish Gent, Glamour) and 2022 (Square Mile fear-as-engine and motorbike-certainty quotes). The ACL hook is a dated, self-explained moment, not a temporary status claim, so it can carry the title for years. The weak points are (1) the Three rebuttal and the 'sharpest test' paragraph, which rest on one release-week podcast line and one October 29 interview, and (2) the evidence record, which tracks only the box-office figure (C33, trigger 2027-01-31) while the article names several unresolved matters (long-term testimony, post-release framing, the unreleased indie) with no review triggers. Dates in the body are absolute and consistent (2015, 2020, 2022, June 2025, Oct 23/26/29 2026). The birth-year conflict (1990 vs 1992) is handled by printing the year only, per research. Similarity advisory: the only exact match ('the three types organized around fear', Paul Bettany) and the near-matches are ordinary head-triad vocabulary in a short orientation paragraph, not reused argument. Not treated as a finding. Risk: contested_typing stays true (medium confidence, 7 and 3 live). No new sensitive-allegation, historical or thesis-change risk found."
+}

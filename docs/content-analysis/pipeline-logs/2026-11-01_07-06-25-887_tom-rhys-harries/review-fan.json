@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "fan",
+  "content_sha256": "9fc0d99fcbca25dd98c0ca13416d042797405220d1f8fbb7d4b534981118191c",
+  "evidence_sha256": "c2e9339b589808cab2a1d1854c15254fd97759ae690684eee4eff5c6edd824ad",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "fan-F1",
+      "severity": "major",
+      "passage": "Since 2015 he has described fear as what drives his focus and preparation as a crutch, and he places his footing in people who have his back.",
+      "problem": "Misdates the record in the 60-word answer (and the identical FAQ answer). The 2015 WhatsOnStage source (S04) says he spent thousands on transport and 'used to really beat myself up' over missed auditions; it contains no fear language and nothing about focus. The first statement that fear drives his focus is Square Mile, 28 June 2022 (S01); 'crutch' is 2026 (S02). The closing section repeats the stretch ('Fear is what he says powers him, from beating himself up over missed auditions in 2015'). A reader who opens the 2015 link will find self-reproach, not fear, and the 'eleven years' span of the thesis shrinks to four.",
+      "acceptance_test": "No sentence in the answer, FAQ, or closing attributes fear-as-engine language to 2015. The fear statement is dated 2022, and the 2015 audition line is described as self-reproach, or as early vigilance labelled as inference. Any 'eleven years' claim is limited to what the 2015 source actually shows."
+    },
+    {
+      "id": "fan-F2",
+      "severity": "major",
+      "passage": "The more interesting question is what kind of person names fear as his motive, out loud, on the release-week press tour for his own breakout.",
+      "problem": "Leaves out the parts of the same record that cut against the fear engine. On release day (Cultured, 23 Oct 2026, S03) he said: 'I went through a phase of being nervous... I’ve gone past the point of nervousness. Now I’m just like, “Hey, that’s the film. I hope you like it.”' Square Mile's lead observation (S01, opened and rechecked) is 'The first thing you notice about Tom Rhys Harries is how relaxed he is... this is a man rarely in a rush'. The draft quotes that same piece for the fear line and the name-dropping but skips this. Glamour 2020 (S08): 'I have a very thick skin' and 'You just have to take stuff on the chin'. WalesOnline (S07): on being called froggy, 'I could not care less.' The evidence record lists the calm surface as Nine evidence; the article never mentions it. An informed reader will see a selective portrait.",
+      "acceptance_test": "The article quotes the Cultured 'past the point of nervousness' line, plus either the Square Mile 'relaxed / rarely in a rush' observation or the Glamour 'very thick skin' line. It explains in a sentence or two how a fear-driven reading fits a calm, thick-skinned surface. It either names Nine as the type that calm suggests or says why Nine is set aside."
+    },
+    {
+      "id": "fan-F3",
+      "severity": "major",
+      "passage": "This is his account of his childhood, not a diagnosis of it, and it does not explain his type.",
+      "problem": "The formative section has only disruption, fights and a rescuing teacher. It leaves out the context a fan knows best. He grew up in a first-language Welsh, 'very musical family' ('my dad was in a band, my mum used to be a writer', 2015, S04). In 2020 he said: 'Both of my parents are teachers and I grew up in a great and safe family environment, but I’ve been self sufficient since I was 17' (S05). He meant to go into music and 'kind of stumbled into acting' (WWD 2022, S10). He 'wandered into an audition' 'without really giving it much thought' after being spotted playing guitar in Cardiff pubs (S05). That offhand way into acting is a revealing contradiction of the vigilance story. A safe home plus early self-sufficiency also bears on the security reading. As written, the reader can't weigh either. (The 2015 'mum used to be a writer' and the 2020 'both parents are teachers' differ, so attribute each rather than merging them.)",
+      "acceptance_test": "The body has one or two sourced sentences on the Welsh-speaking musical home, the safe family, his self-sufficiency from 17 and his music-first ambition, each attributed and dated. The 'stumbled/wandered into acting' origin is set against the vigilance reading, either as counterevidence or as context the type does not need."
+    },
+    {
+      "id": "fan-F4",
+      "severity": "major",
+      "passage": "Both types would have hidden the knee. Only one explanation matches what he said.",
+      "problem": "Puts more weight on his stated motive than it can bear and contradicts the evidence record's own limit. 'For fear of losing this job' is as much a Three reason (losing the career-making lead) as a Six one. The draft's own previous paragraph says he was weighing how he would come across 'in the press'. The record's 'unexplained' field says: 'His stated motive was fear, but the career stakes would push any type the same way.' Treating the word 'fear' in an unscripted aside as the deciding detail against Three overstates it. An informed reader who has heard the podcast will see the same sentence fits both types.",
+      "acceptance_test": "The Three section no longer says the ACL motive settles Six over Three. It either names a different, sourced discriminator (for example his repeated undercutting of success, or where he places credit after the No. 1 opening) or states plainly that the ACL episode fits both types."
+    },
+    {
+      "id": "fan-F5",
+      "severity": "minor",
+      "passage": "Hiding a torn knee and doing the stunt anyway is a counterphobic move.",
+      "problem": "Distorts the source story. By his own podcast account (S28) and Watkins's (S27), he told the stunt coordinator when the car-impact stunt came up, and the stunt was reworked ('we had to finesse how we did the stunt'). He did not do it anyway. The more revealing detail, his EW-relayed tone ('running around Liverpool at 1 a.m. or 2 a.m. trying to get away with it'; 'But we got away with it!', S16), goes unmentioned. That glee bears on the counterphobic-Six versus Seven question the article raises.",
+      "acceptance_test": "The sentence matches the record: he hid the injury, disclosed it at the car stunt, and the stunt was adjusted while he still did the jump and fall. If 'counterphobic' stays, it rests on the concealment and shooting on the knee, not on doing the stunt anyway. Optionally, the 'get away with it' tone is weighed in the Seven section."
+    },
+    {
+      "id": "fan-F6",
+      "severity": "minor",
+      "passage": "Asked what he loved most about _Clayface_, he did not name the role. \"One of the things I loved most about doing Clayface was how much I’m needed. I felt like I was part of the crew.\"",
+      "problem": "Cuts off his own gloss on fear from the same answer. Immediately before, he told Connor: 'I think fear is a mark of caring about something and wanting to contribute to the greater piece' (S02). That line reframes his fear talk as investment rather than threat, a common actor framing the record flags. It is the most direct statement of what 'fear' means to him. Leaving it out makes his fear vocabulary look more threat-driven than he presents it.",
+      "acceptance_test": "The article quotes or closely paraphrases the 'fear is a mark of caring' line in context. It addresses whether that framing weakens or fits the Six reading, for example fear as stake in the group versus fear as threat."
+    },
+    {
+      "id": "fan-F7",
+      "severity": "minor",
+      "passage": "Harries is a Welsh actor, born in Cardiff in 1990, who spent more than a decade in theatre and supporting screen roles before DC Studios cast him",
+      "problem": "Flattens a career fans know. It included leading or central parts: Axel in White Lines (2020), Cosmo in Jamie Lloyd's The Pitchfork Disney (Offie, 2018, per S24), and Trigorin opposite Emilia Clarke in The Seagull (S01). The Seagull shut after five performances in March 2020 (S10), a costly disruption the profile never tests. The frontmatter's knows_about lists Hunky Dory, The Pitchfork Disney and The Seagull, but the body never mentions any of them, so metadata and article disagree.",
+      "acceptance_test": "The orientation sentence acknowledges earlier lead and central roles, at least White Lines and the Jamie Lloyd stage work, accurately. Every knows_about item either appears in the body with a source or is removed from frontmatter."
+    },
+    {
+      "id": "fan-F8",
+      "severity": "minor",
+      "passage": "[Type 6](/enneagram-corner/enneagram-type-6) sits in the head triad, the three types organized around fear.",
+      "problem": "Similarity tripped at 1.0 against the Paul Bettany draft (30 Oct 2026). Comparing the arguments, the two drafts share more than vocabulary. Both use the same link sentence, then a footing-from-whatever-holds sentence, then 'Some ... straight at' the counterphobic style, then a 'Plenty of actors ... nerves' pivot to 'something more specific/fewer'. Bettany: 'Plenty of actors admit to nerves. The case for Bettany rests on something more specific'. This draft: 'Plenty of actors say nerves help. Fewer describe...'. The body argument after that is distinct and specific to Harries, so this is reusable orientation scaffolding, not a reused thesis. Still, two Type 6 actor pages a few days apart open their type sections the same way.",
+      "acceptance_test": "The type-orientation paragraph explains the head triad and counterphobic Six through a Harries-specific detail (for example his own 'crutch' or ACL language) rather than the shared four-step scaffold. The 'Plenty of actors' pivot appears at most once and does not echo the Bettany wording."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "His later podcast account and Watkins's agree that the secret came out mid-shoot instead. The detail that matters survives either version.",
+      "reason": "Handles the discrepancy between the EW relay and the podcast honestly instead of picking the more dramatic version. A fan who knows both accounts will trust the page for it."
+    },
+    {
+      "passage": "He was modeling the worst case, from the decision-maker's chair, about himself. That context makes the hidden ACL easier to read. He already saw himself as the risky bet. He was not going to hand anyone a reason to agree.",
+      "reason": "Distinctive, sourced insight (THR 29 Oct 2026) that ties the casting anxiety to the concealment without inventing interiority."
+    },
+    {
+      "passage": "A Seven wants more doors open. This is a man who relaxes when a question has one right answer.",
+      "reason": "Memorable discriminator built on his own motorbike quote. It is specific to him, not type boilerplate."
+    },
+    {
+      "passage": "It is his word against a printed quote. Either way, a deadpan joke about self-mutilation, delivered to his hometown paper, is not what a careful, image-guarding personality does.",
+      "reason": "Fair handling of the WalesOnline/Mr Porter tooth dispute. It keeps a contradiction the type does not neatly explain, which a fan would recognise."
+    },
+    {
+      "passage": "I actually cut off my agent and said, ‘Do not tell me who else it is,’",
+      "reason": "A revealing, little-known behavioral detail from the post-opening THR interview. It shows information control under pressure; keep it verbatim."
+    }
+  ],
+  "assessment": "Informed-reader read: the profile's center (the hidden ACL, the screen-test anxiety, preparation as a crutch, the motorbike certainty) is accurate to the sources and specific to Harries. The EW-versus-podcast discrepancy is handled honestly. The fan-visible weaknesses are selection and dating. The thesis is backdated to 2015 on a source with no fear language. The calm, 'past nervousness', thick-skinned side of the record is omitted, though it comes from the same interviews the draft quotes. The safe, musical, Welsh-speaking home and offhand entry into acting are missing from the formative section. The Three section treats 'fear of losing this job' as decisive when the evidence record says it is not. Re-checked Square Mile (S01) directly on 2026-11-03: the fear, name-dropping, Parade's End and 'relaxed / rarely in a rush' passages and the byline Michael Rudling are confirmed. Other checks rely on the supplied excerpts. Contested typing stays flagged (Six vs Seven, with Three and an unmentioned Nine in play). No new sensitive-allegation or historical-source risks; ADHD is self-disclosed and handled as context."
+}

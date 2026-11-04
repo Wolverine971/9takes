@@ -1,6 +1,7 @@
 <!-- src/lib/components/molecules/Footer.svelte -->
 <script lang="ts">
 	import { page } from '$app/state';
+	import { resolve } from '$app/paths';
 	import instagram from '$lib/images/instagram.svg';
 	import twitter from '$lib/images/twitter.svg';
 
@@ -45,10 +46,14 @@
 		return page.url.pathname === path || (page.url.pathname.startsWith(path) && path !== '/');
 	}
 	let homeUrl = $derived(page.url.pathname.includes('9takes') ? 'https://9takes.com' : '/');
+	let isHomepage = $derived(page.url.pathname === '/');
+	let navigationLinks = $derived(
+		isHomepage ? mainLinks.filter((link) => link.href !== '/') : mainLinks
+	);
 	const currentYear = new Date().getFullYear();
 </script>
 
-<footer class="footer-wrapper" aria-label="Site footer">
+<footer class={['footer-wrapper', { 'footer-home': isHomepage }]} aria-label="Site footer">
 	<div class="footer-container">
 		<div class="footer-grid">
 			<!-- Brand Section -->
@@ -90,7 +95,7 @@
 				<nav class="link-section" aria-label="Footer navigation">
 					<h3>Navigation</h3>
 					<ul>
-						{#each mainLinks as { href, label } (href)}
+						{#each navigationLinks as { href, label } (href)}
 							<li>
 								<a
 									href={href === '/' ? homeUrl : href}
@@ -125,7 +130,9 @@
 				<!-- Connect Section -->
 				<div class="link-section connect-section">
 					<h3>Connect</h3>
-					<p>Working through a real situation? Talk it through, typed or as a voice note.</p>
+					{#if !isHomepage}
+						<p>Working through a real situation? Talk it through, typed or as a voice note.</p>
+					{/if}
 					<div class="connect-links">
 						<a href="/book-session" class="contact-link">
 							Talk it through
@@ -156,6 +163,10 @@
 
 		<!-- Bottom Section -->
 		<div class="footer-bottom">
+			<nav class="trust-links" aria-label="Privacy and community guidance">
+				<a href={resolve('/posting-and-privacy')}>Posting &amp; privacy</a>
+				<a href={resolve('/posting-and-privacy#community-guidelines')}>Community guidelines</a>
+			</nav>
 			<p>&copy; {currentYear} 9takes. All rights reserved.</p>
 		</div>
 	</div>
@@ -349,6 +360,26 @@
 	}
 
 	/* Footer Bottom */
+	.trust-links {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: var(--space-sm) var(--space-xl);
+		margin-bottom: var(--space-md);
+	}
+	.trust-links a {
+		display: inline-flex;
+		align-items: center;
+		min-height: 44px;
+		font-size: 14px;
+		color: var(--ink-mid);
+		text-decoration: underline;
+		text-underline-offset: 3px;
+	}
+	.trust-links a:focus-visible {
+		outline: 2px solid var(--lamp-glow);
+		outline-offset: 4px;
+	}
 	.footer-bottom {
 		margin-top: 2.5rem;
 		padding-top: 1.5rem;
@@ -508,6 +539,72 @@
 				width: 1rem;
 				height: 1rem;
 			}
+		}
+	}
+
+	/* Keep the homepage's mobile footer compact without hiding navigation. */
+	@media (max-width: 640px) {
+		.footer-home {
+			margin-top: var(--space-2xl);
+		}
+		.footer-home .footer-container {
+			padding: var(--space-xl);
+		}
+		.footer-home .footer-grid {
+			gap: var(--space-xl);
+		}
+		.footer-home .brand-section {
+			display: grid;
+			grid-template-columns: minmax(0, 1fr) auto;
+			gap: var(--space-md) var(--space-xl);
+			text-align: left;
+		}
+		.footer-home .brand-logo {
+			justify-content: flex-start;
+			margin: 0;
+		}
+		.footer-home .social-links {
+			grid-column: 2;
+			grid-row: 1;
+		}
+		.footer-home .social-link {
+			width: 44px;
+			height: 44px;
+		}
+		.footer-home .brand-description {
+			grid-column: 1 / -1;
+			max-width: none;
+			margin: 0;
+			font-size: 14px;
+		}
+		.footer-home .link-section {
+			text-align: left;
+		}
+		.footer-home .link-section a {
+			justify-content: flex-start;
+			font-size: 14px;
+		}
+		.footer-home .link-section h3 {
+			font-size: 12px;
+			margin-top: 0;
+			margin-bottom: var(--space-sm);
+		}
+		.footer-home .connect-links {
+			flex-direction: row;
+			flex-wrap: wrap;
+			gap: var(--space-xl);
+		}
+		.footer-home .footer-bottom {
+			margin-top: var(--space-lg);
+			padding-top: var(--space-md);
+		}
+		.footer-home .trust-links {
+			justify-content: flex-start;
+			gap: var(--space-xs) var(--space-lg);
+			margin-bottom: var(--space-sm);
+		}
+		.footer-home .footer-bottom p {
+			text-align: left;
 		}
 	}
 

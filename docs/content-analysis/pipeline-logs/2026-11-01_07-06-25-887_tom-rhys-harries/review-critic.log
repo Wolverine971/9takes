@@ -1,0 +1,17 @@
+I wrote the critic review for the Tom Rhys Harries draft to `review-critic.json` in the run folder. It passes the pipeline's review schema, and every quoted passage matches the draft word for word. I changed no other files and published nothing.
+
+**Verdict:** the sourcing is strong, but the argument for Type 6 over the other types is weaker than the draft makes it sound. The review has 9 findings: 6 major and 3 minor. Contested typing stays flagged, and I found no new risk categories.
+
+**Major findings:**
+- **Six vs. Three:** the draft says only Six fits why he hid the torn ACL. But "for fear of losing this job" is how anyone would put it, and the draft's own evidence notes admit the career stakes would push any type the same way. He also offered the reason while telling the story as a joke; he wasn't asked why.
+- **Six vs. Seven:** the main rebuttal says he calls his escapes (Elden Ring, cycling) anxiety management "not fun." That describes Seven wrongly: a Seven's distraction is itself a way of escaping anxiety, so this doesn't separate the two.
+- **"Counterphobic" Six:** the draft states this as fact, then uses it to explain away every bold or provocative thing he did. Cautious behaviour counts as Six and reckless behaviour counts as counterphobic Six, so the case can't lose. The standard specifically forbids this.
+- **Calm evidence left out:** sources the draft already cites show him calm. On release day he said he's "gone past the point of nervousness," and two interviewers describe him as "relaxed" and "clear-eyed and methodical." The draft never confronts this, and it never mentions Type 9, which its own research raised.
+- **The ending:** it calls a single post-release interview the "sharpest test" and cuts his quote short. The full line continues "it might open a few more doors." It also rests on "nothing is going to change," which a Nine could say just as easily.
+- **Wrong date:** "Since 2015 he has described fear as what drives his focus" is in the short type answer and the type FAQ. The earliest source for that is 2022.
+
+**Minor findings:**
+- The "lives with ADHD" line comes from the Square Mile writer, not Harries, yet the FAQ says "He has said so himself."
+- "The three types organized around fear" appears word for word in the Paul Bettany profile, which is what tripped the similarity check.
+
+I also marked five passages for the editor to keep, including the honest reconciliation of the ACL accounts, the fair handling of ADHD as evidence for neither type, and the motorbike "one right answer" line.

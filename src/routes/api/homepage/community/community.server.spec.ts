@@ -3,6 +3,7 @@ import { describe, expect, it, vi } from 'vitest';
 import { GET } from './+server';
 import { load } from '../../../+page';
 import { parseCommunityProof } from '$lib/data/homepageCommunity';
+import { LIVE_TAKE_SLUG } from '$lib/data/homepageLiveTake';
 
 const raw = {
 	totalQuestions: 4,
@@ -27,6 +28,27 @@ const raw = {
 };
 
 describe('homepage public community proof', () => {
+	it('replaces the featured question with three different suggestions without changing totals', () => {
+		const proof = parseCommunityProof({
+			...raw,
+			starters: [{ url: LIVE_TAKE_SLUG, question: 'The hero question', comment_count: 7 }],
+			questions: [
+				{ url: LIVE_TAKE_SLUG, question: 'The hero again', comment_count: 7 },
+				{ url: 'first-question', question: 'First question?', comment_count: 2 },
+				{ url: 'second-question', question: 'Second question?', comment_count: 2 },
+				{ url: 'third-question', question: 'Third question?', comment_count: 1 },
+				{ url: 'fourth-question', question: 'Fourth question?', comment_count: 0 }
+			]
+		});
+		expect(proof?.questions.map((question) => question.slug)).toEqual([
+			'first-question',
+			'second-question',
+			'third-question'
+		]);
+		expect(proof?.totalQuestions).toBe(raw.totalQuestions);
+		expect(proof?.totalResponses).toBe(raw.totalAnswers);
+	});
+
 	it('returns only safe public metadata, without duplicates, hidden rows, or invented counts', () => {
 		expect(parseCommunityProof(raw)).toEqual({
 			totalQuestions: 4,

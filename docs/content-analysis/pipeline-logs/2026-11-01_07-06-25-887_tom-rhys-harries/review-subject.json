@@ -1,0 +1,86 @@
+{
+  "schema_version": 3,
+  "role": "subject",
+  "content_sha256": "9fc0d99fcbca25dd98c0ca13416d042797405220d1f8fbb7d4b534981118191c",
+  "evidence_sha256": "c2e9339b589808cab2a1d1854c15254fd97759ae690684eee4eff5c6edd824ad",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "subject-01",
+      "severity": "major",
+      "passage": "Watkins says the team reworked the stunt. \"He still did the jump and the fall, but he was frank about it.\"",
+      "problem": "Missing response from the person he concealed the injury from. The title, hook and FAQ frame the hidden ACL as a secret kept out of fear, but the draft cuts Watkins's answer in the same THR interview (S27, opened 2026-11-03): \"it's not like he was cast to play Premier League or NFL football. He's acting, so [having foreknowledge of his injury] wouldn't have made any difference to me. I thought Tom was absolutely the right actor for the role.\" Leaving it out lets the concealment read as a judgment call that put the production at risk, when the decision-maker says on the record that the injury would not have cost him the job. That answer is also the fairest test of his stated fear, and the profile never uses it. Cultured (S03) adds that he had the ACL surgically repaired after filming (\"I've put it back in since\"). The draft leaves that out too, so the knee story has no ending.",
+      "acceptance_test": "The ACL section quotes or closely paraphrases Watkins's 'wouldn't have made any difference to me' response, attributed to THR on 2026-10-26, near the concealment. Optionally, a clause notes that he had the reconstruction after the shoot (Cultured, 2026-10-23). Neither title nor description implies he endangered the production, and nothing uses Watkins's aside about film medicals."
+    },
+    {
+      "id": "subject-02",
+      "severity": "major",
+      "passage": "In 2022, four years before _Clayface_ came out, Harries told [Square Mile](https://squaremile.com/culture/film-tv/tom-rhys-harries-interview/) that he lives with ADHD and is \"shit at focusing on something if I’m not interested in it.\"",
+      "problem": "This attributes a health disclosure to his words that the source puts in the writer's narration. In Square Mile (S01, opened), Michael Rudling writes 'He lives with ADHD' and 'Rhys Harries' ADHD has bled into his approach to acting'. None of Harries's quoted sentences names the condition. The standfirst says he 'talks... ADHD', so he probably discussed it, but the draft turns the journalist's framing into first-person testimony in three places: here, 'He also files ADHD under self-description', and the FAQ answer 'He has said so himself... That self-description is his own.' A whole FAQ titled 'Does Tom Rhys Harries have ADHD?' also turns one 2022 magazine mention of a medical condition into search metadata, even though the article says it uses ADHD only as context. A real person's health status is the subject-fairness detail most worth handling conservatively.",
+      "acceptance_test": "The body says Square Mile reported in 2022 that he lives with ADHD, and then quotes his own words about focus. No sentence says he 'said' or 'files' the diagnosis himself unless a source with him naming it is opened and cited. The ADHD FAQ is removed, or reworded to attribute the condition to Square Mile's 2022 report and stop calling it his self-description. The keyword 'Tom Rhys Harries ADHD' goes if the FAQ goes."
+    },
+    {
+      "id": "subject-03",
+      "severity": "minor",
+      "passage": "Hiding a torn knee and doing the stunt anyway is a counterphobic move.",
+      "problem": "'Doing the stunt anyway' contradicts the record the draft itself cites. He disclosed the injury before the car-impact stunt, which was then reworked. Per Watkins, he still did the jump and the fall. The line makes his behavior sound more reckless than either account supports.",
+      "acceptance_test": "The sentence matches the sourced order of events: he hid the injury through most of the shoot, raised it before the car stunt, and still did a modified jump and fall. It does not say he performed the original stunt on the torn ligament."
+    },
+    {
+      "id": "subject-04",
+      "severity": "minor",
+      "passage": "As a junior actor on _Parade's End_, he walked up to the director and told him one of his lines was wrong. \"I don’t know who the fuck I thought I was,\" he said in 2022. Benedict Cumberbatch checked the book; the line was right.",
+      "problem": "Selective summary. In Square Mile (S01), Cumberbatch 'said he'd had the same concern as me, but that he'd checked the book and it was right'. Harries tells the story to praise Cumberbatch as 'so studious'. The draft drops the shared concern, so Harries reads as simply wrong and presumptuous. The same anecdote then supports the Three case ('That is a man monitoring how he lands'), where the writer's reading of an eye-glance becomes a flat author conclusion about his motive.",
+      "acceptance_test": "The Parade's End line notes that Cumberbatch had shared the concern before checking the source. 'That is a man monitoring how he lands' is labeled as an inference from the writer's observation, for example 'Rudling read it as...' or 'this suggests', not stated as fact."
+    },
+    {
+      "id": "subject-05",
+      "severity": "minor",
+      "passage": "That context makes the hidden ACL easier to read. He already saw himself as the risky bet. He was not going to hand anyone a reason to agree.",
+      "problem": "Imagined motive in narrative voice. He gave his reason himself ('for fear of losing this job'). The added layer, a deliberate plan not to confirm the studio's doubts, joins a quote about the screen-test period to a decision made months earlier and states it as fact. Two similar flat assertions of interior state: 'A missed audition was not a shrug. It was a failure of vigilance.' (S04 says only that he 'used to really beat myself up'; cost and ambition are equally live readings), and 'Both types would have hidden the knee. Only one explanation matches what he said.' ('fear of losing this job' fits a Three's fear of losing a career-making role as readily as a Six's security fear).",
+      "acceptance_test": "Each of the three sentences is either hedged as the author's inference ('this suggests', 'one reading') or cut back to what he said. The Three/Six comparison concedes that 'fear of losing this job' does not by itself rule out an image motive."
+    },
+    {
+      "id": "subject-06",
+      "severity": "minor",
+      "passage": "Either way, a deadpan joke about self-mutilation, delivered to his hometown paper, is not what a careful, image-guarding personality does.",
+      "problem": "'Self-mutilation' is a loaded clinical term for a gag about pulling a tooth for a TV scene. Next to a profile that also discusses his ADHD and childhood fights, it risks a mental-health connotation the sources never raise. The two-sided presentation before it (WalesOnline vs Mr Porter, 'his word against a printed quote') is fair and should stay.",
+      "acceptance_test": "The sentence describes the joke literally (e.g. 'a deadpan claim that he had really pulled out his own tooth for the scene') with no self-harm or clinical vocabulary. The attributed both-sides framing stays."
+    },
+    {
+      "id": "subject-07",
+      "severity": "minor",
+      "passage": "and said Harries phoned him the day Minghella was cast and kept in touch to make sure he felt included.",
+      "problem": "In the Creepy Catalog relay (S20, opened), the phone-call detail is the site's own narration ('Harries called Minghella the day Minghella landed his Clayface role...'). It is not a Minghella quote, and the original interview isn't named. 'Said' gives it more first-hand weight than the source does.",
+      "acceptance_test": "The phone-call detail is attributed to Creepy Catalog's account, for example 'and, by the site's account, Harries phoned him...'. Minghella's own quoted words stay attributed to him."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "This is his account of his childhood, not a diagnosis of it, and it does not explain his type. What it shows is a loyalty that has held steady.",
+      "reason": "Exactly the line the fairness standard asks for: it separates self-report from inference, refuses a childhood-wound story, and keeps the one observable pattern (the 2022/2026 teacher credit) that the sources support."
+    },
+    {
+      "passage": "It is his word against a printed quote. Either way,",
+      "reason": "A fair handling of a disputed, unflattering quote. It gives his correction and the outlet's print equal standing, dated and attributed, without picking a winner."
+    },
+    {
+      "passage": "He was modeling the worst case, from the decision-maker's chair, about himself.",
+      "reason": "A distinctive, well-grounded reading of a THR quote (S26) that is in the source ('an unknown quality could falter... in the press'). This is how interpretation should sit on top of his own words."
+    },
+    {
+      "passage": "His later podcast account and Watkins's agree that the secret came out mid-shoot instead. The detail that matters survives either version.",
+      "reason": "Honestly reconciles the relayed EW wording with the unscripted podcast and the director's account, instead of quietly choosing the more dramatic version."
+    },
+    {
+      "passage": "A Seven wants more doors open. This is a man who relaxes when a question has one right answer.",
+      "reason": "Specific, memorable discriminator drawn from his own motorbike quote (S01); earned rather than boilerplate."
+    }
+  ],
+  "assessment": "Fairness proxy review. I opened Square Mile (S01), THR 2026-10-29 (S26), THR/Watkins 2026-10-26 (S27), Cultured (S03), Mr Porter via the Wayback id_ path (S06), WalesOnline (S07) and Creepy Catalog (S20). I did not open EW or People, which are bot-blocked and correctly treated as relayed. The quotes I checked match their sources, including punctuation. The draft is generally careful: it dates and attributes self-reports, flags promo-season limits, gives the misquote dispute both sides, and avoids clinical or childhood-causal claims. The main fairness gaps concern what is left out and who said what, not fabrication. (1) The hook builds the profile around a concealed injury and omits the director's on-record answer that knowing about it would not have changed his casting. That answer both defends the subject and tests the fear thesis. (2) A health condition is presented as his own disclosure, and a dedicated FAQ promotes it, when the source's wording is the journalist's. Smaller issues: a few author inferences about motive are written as fact, the Parade's End story is trimmed in an unflattering direction, one stunt detail is overstated, and the tooth joke is described in loaded terms. Birth year 1990 is reasonably supported by his own age references, and the draft correctly prints only the year. No sensitive allegations. Contested typing stays flagged as research set it. Similarity diagnostic: the only full match with Paul Bettany is the sentence 'the three types organized around fear', which is ordinary triad vocabulary and not evidence of reused argument. The Six/Seven/Three reasoning here rests on this subject's own sources and does not reuse another profile's argument. Note: the request's content_sha256 and evidence_sha256 do not match plain shasum of draft.md and evidence-draft.json. They were copied from the request as instructed, presumably because the runner hashes a normalized form."
+}

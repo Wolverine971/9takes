@@ -25,3 +25,27 @@ The research stage is done. It finished well inside the 45-minute timeout that k
 - **Relayed quotes:** the EW cover story, the Hollywood Reporter piece and the People exclusive all blocked automated access. Their quotes currently come through other sites, and the follow-up tasks in the file include pinning the original wording.
 
 The file has 25 sources (22 opened) and 34 claims. I only wrote `evidence.json` in the run folder. The change to `run.json` was already there before I started, and nothing was published.
+I've rerun the research stage for Tom Rhys Harries, and the new `evidence.json` passes the pipeline's validation check. **Result: ready for drafting, not a hold.** The leading read is still **Type 6**, held at medium confidence. **Type 7** remains the strongest rival, with Type 3 still in play.
+
+The previous run's evidence file had been deleted from the working folder, so I pulled it back from git. I kept all its source and claim IDs, rechecked the key sources, and extended it to 29 sources (27 opened) and 38 claims.
+
+**What's new:**
+- **Unscripted audio.** I downloaded the Empire Film Podcast interview (23 Oct 2026) and transcribed it locally. Asked about his torn knee ligament, he says: *"for fear of losing this job, I didn't tell anybody."* Two separate transcription passes matched on that sentence. It's the clearest statement of motive in the file, and it points to 6 more than 3.
+- **A correction.** The earlier claim that he shot all of Clayface without telling anyone was overstated. His own podcast account and director James Watkins (Hollywood Reporter, 26 Oct) agree it came out partway through the shoot. A car-hit stunt forced him to tell the stunt coordinator, and he still did the jump and fall.
+- **The post-release test from the last run.** In a Hollywood Reporter interview six days after the No. 1 opening, he:
+  - credits "how many people have invested their time"
+  - says a big production is "easier when you have so many people around you"
+  - says "fundamentally nothing is going to change"
+
+  That leans toward 6, not 3's "I've arrived" or 7's "what's next." The same piece also shows him managing nerves by controlling information: he told his agent "Do not tell me who else it is" during screen tests.
+- **The premiere article is now open.** It was blocked last time, so Watkins's "I don't think I've ever auditioned anyone that much" and Harries's reply now come from the original instead of a relay.
+- **Evidence for 7.** On the podcast he opens by quizzing the host about his golf handicap and jokes "I rarely know what's going on." I logged that as support for the Type 7 reading.
+
+**Your call:** The typing is still marked contested, so the draft goes to the full six-reviewer panel instead of the usual two (about four extra model calls). That's a mechanical consequence of medium confidence with live rivals; say if you'd rather force the two-reviewer path. He isn't eligible for the "too new to type" format, because his career goes back to 2011.
+
+**Still open, listed as follow-up tasks in the file:**
+- The EW cover story and the People piece are still blocked.
+- There's still no testimony from long-term collaborators outside a promo cycle.
+- The birth date is unresolved: press in the same week said 35 and 36, and some film databases say 1992. The drafter should print 1990 as the year only.
+
+The podcast transcript stays in `/tmp/trh-research/audio/`, outside the repo, under the no-full-transcripts rule. The only file I wrote is `evidence.json`. The changes to `run.json` and the backlog queue were there before I started, and nothing was published.

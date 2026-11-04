@@ -3,13 +3,13 @@
 	"subject": "tom-rhys-harries",
 	"status": "ready",
 	"research_tasks": [
-		"Open the Entertainment Weekly July 2026 cover story (S17) and The Hollywood Reporter premiere interview (S19) directly; both served bot-block placeholders on 2026-11-02, so the torn-ACL concealment quote and Watkins' audition quotes currently rest on secondary relays (S16, S18). Pin exact wording before quoting them as primary.",
-		"Find one long-form audio/video interview with unguarded speech (Empire Film Podcast 'The Interviews' episode, Jimmy Kimmel Live Clayface appearance, Metro Entertainment Clayface clip) and transcribe it with whisper-cli; test whether fear/preparation language (6) or novelty/options language (7) dominates when he is not answering a print question.",
-		"Verify the full birth date from a primary source. Wikipedia and TVOvermind give 8 October 1990; his own age references (S02: 'at fucking 26' on the September 2017 Slaughterhouse Rulez shoot; S03: 'You are a 35-year-old man' while filming in 2025) support 1990, but 2020 press gave ages 27 (S05, S06) and 28 (S07). Use the birth year only unless a primary source confirms the day.",
-		"Look for testimony from long-term collaborators outside a promo cycle (Jamie Lloyd on The Pitchfork Disney, Emilia Clarke or Jamie Lloyd on The Seagull, Laura Haddock on White Lines, Jez Butterworth) to test whether the reliability/duty-of-care pattern Minghella describes (S20) appears before he was a number one on a call sheet.",
-		"Track post-release Clayface interviews (November-December 2026) for how he talks about a modest $24M opening: crediting team and naming worry (6), reframing it as a win (3), or moving straight to the next adventure (7)."
+		"Open the Entertainment Weekly July 2026 cover story (S17) and the People exclusive (S15) directly. Both still return 403 to curl and 451 to r.jina.ai on 2026-11-03, so the EW 'shot all of Clayface with a torn ACL' wording rests on the Instinct relay (S16). The concealment is now pinned in his own unscripted words (S28) and by Watkins (S27), so prefer those and treat the EW phrasing as overstated.",
+		"Transcribe one more unscripted appearance, ideally the Jimmy Kimmel Live! Clayface interview (late October 2026) or the Metro/WatchMojo red-carpet clips, with whisper-cli. Test whether the Empire podcast's playful role-reversal (C38, Seven-leaning) or the fear/preparation language (Six) dominates when he is off the print page.",
+		"Verify the full birth date from a primary source (agency CV, Spotlight, BAFTA Cymru). Wikipedia gives 8 October 1990, several film databases give 1992, and 2026 press conflicts (THR 'Now 36' on 2026-10-29; Nation.Cymru '35' on 2026-10-27). His own age references support 1990. Print the year only.",
+		"Look for testimony from long-term collaborators outside a promo cycle (Jamie Lloyd on The Pitchfork Disney or The Seagull, Laura Haddock or Alex Pina on White Lines, Jez Butterworth). Searches on 2026-11-03 found only promo-season Clayface testimony (Minghella S20, Watkins S19/S27).",
+		"Keep tracking post-release interviews through December 2026 (second-weekend hold, awards talk, any DCU return). S26 (2026-10-29) already shows him crediting the team and saying 'nothing is going to change'. Check whether that holds or whether he moves to reframing the win (3) or chasing the next adventure (7)."
 	],
-	"accuracy_checked_at": "2026-11-02",
+	"accuracy_checked_at": "2026-11-03",
 	"risks": {
 		"sensitive_allegations": false,
 		"contested_typing": true,
@@ -236,14 +236,14 @@
 		{
 			"id": "S19",
 			"url": "https://www.hollywoodreporter.com/movies/movie-news/clayface-movie-actor-tom-rhys-harries-director-james-watkins-1236733512/",
-			"title": "Clayface premiere: Tom Rhys Harries and James Watkins (The Hollywood Reporter)",
-			"speaker": "Tom Rhys Harries and James Watkins, interviewed by The Hollywood Reporter",
-			"date": "2026-10 (premiere week; exact date not seen)",
-			"locator": "Not opened",
-			"excerpt": "Not opened: THR is behind a paywall/bot gate known to block automated fetches; quotes known only through S18.",
-			"context": "Original source of Watkins' 'auditioned the hell out of' testimony. Listed for provenance.",
+			"title": "'Clayface' Director James Watkins on Why He “Auditioned the Hell” Out of Star Tom Rhys Harries",
+			"speaker": "James Watkins and Tom Rhys Harries, interviewed by Chris Gardner (The Hollywood Reporter)",
+			"date": "2026-10-16 (premiere remarks from the 2026-10-13 Hollywood Legion Theater world premiere)",
+			"locator": "Article body, paragraphs 3-6 (premiere red-carpet quotes)",
+			"excerpt": "“I don’t think I’ve ever auditioned anyone that much,” he added. ... “It was spread out over three months and I did two fairly long screen tests with James,” he recalled. “But I’m untested in this space, so I was glad he did it with me really because it meant that we’d had time to workshop the thing before he got onto set.”",
+			"context": "Premiere-week red-carpet piece. Watkins: “I auditioned the hell out of him... He came in, and I thought he really had something but I wanted to explore it.” Opened directly on 2026-11-03 (previous run hit a bot-block placeholder); supersedes the A.V. Club relay (S18) for exact wording.",
 			"kind": "testimony",
-			"access": "unavailable"
+			"access": "opened"
 		},
 		{
 			"id": "S20",
@@ -316,6 +316,54 @@
 			"context": "Junket interview translated into Swedish by the outlet. English sense: 'Quite long and agonizing, actually. I tried to think about other things by playing Elden Ring in my free time between screen tests. It helped me switch everything off.' Do not quote the back-translation as his exact English words; it corroborates S02.",
 			"kind": "primary",
 			"access": "opened"
+		},
+		{
+			"id": "S26",
+			"url": "https://www.hollywoodreporter.com/movies/movie-features/clayface-tom-rhys-harries-surviving-multi-day-screen-test-1236742744/",
+			"title": "'Clayface' Breakout Star Tom Rhys Harries on Surviving a Multi-Day Screen Test",
+			"speaker": "Tom Rhys Harries, interviewed by Seija Rankin (The Hollywood Reporter)",
+			"date": "2026-10-29",
+			"locator": "Article body, paragraphs 1-2 (screen test, agent), 4 (risk to studio), 5 (support circle), 6 (after opening weekend), 7 (teacher)",
+			"excerpt": "“I actually cut off my agent and said, ‘Do not tell me who else it is,’” says Harries. “I just needed to be in the zone, without thinking about who they’re considering.” ... “That’s why I’m grateful for the film being received well, because you realize how many people have invested their time and work into this thing.” ... “I haven’t got any grand aspirations of how I’m going to do this now, because fundamentally nothing is going to change — it might open a few more doors in terms of who I’m able to talk to, but otherwise I just want to be involved with projects from creators who I back fundamentally.”",
+			"context": "First post-release long interview found (six days after the US opening). Also: after the first test he asked for the competitors' names because “by then it would no longer affect me negatively because I was done”; called back for a second test, “I had to put my blinders on”; saw himself as a studio risk: “there are so many moments where an unknown quality could falter... they haven’t got a great reference point as to what I’d be like with the crew, the rest of the cast, and in the press”; found leading a big production “counterintuitive, but it’s actually easier when you have so many people around you”; former teachers FaceTimed him after seeing the film: “when I was in school, I think it was very much a case of, ‘if this kid doesn’t find something to focus on, he’s fucked’... If this teacher wasn’t there, I would not be having this conversation with you right now.” Writer gives his age as 'Now 36' and dates the Mojo West End debut to 2014. Opened via plain curl, 2026-11-03.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S27",
+			"url": "https://www.hollywoodreporter.com/movies/movie-features/clayface-director-tragic-ending-joker-easter-eggs-1236740387/",
+			"title": "'Clayface' Director James Watkins on the Tragic Ending, Joker Easter Eggs and His Star's Secret Injury",
+			"speaker": "James Watkins, interviewed by Brian Davids (The Hollywood Reporter)",
+			"date": "2026-10-26 (modified 2026-10-27)",
+			"locator": "Intro paragraphs 7-9 and Q&A answers on the car stunt (paragraphs 36-38 of extracted body)",
+			"excerpt": "There’s a moment in the film when Matt gets hit by a car, and that’s when it came out. Tom had a quiet word with the stunt man about it. ... He still did the jump and the fall, but he was frank about it. We were like, “Yeah, we obviously don’t want to create a lifelong injury for you.” So we had to finesse how we did the stunt ... I thought Tom was absolutely the right actor for the role.",
+			"context": "Director testimony, post-opening. Reporter's framing: Harries 'was quietly concealing a significant knee injury to avoid jeopardizing a career-altering role'; 'Watkins and his team remained unaware of the Welsh actor’s torn ACL until Rhys Harries came clean while filming a sequence in which Matt flees a movie premiere and gets hit by a car.' Also reports a $46.5 million global opening, 75% critics / 94% audience Rotten Tomatoes and an A- CinemaScore. Watkins adds Harries texted him a Jimmy Kimmel Live! screenshot tagged 'very meta'. Promo-cycle testimony from the director who cast him, not an independent intimate.",
+			"kind": "testimony",
+			"access": "opened"
+		},
+		{
+			"id": "S28",
+			"url": "https://www.goloudnow.com/podcasts/the-empire-film-podcast-397/the-interviews-ft-tom-rhys-harries-taika-waititi-peyton-elizabeth-lee-jacob-tremblay-615255",
+			"title": "The Empire Film Podcast, The Interviews (ft. Tom Rhys Harries, Taika Waititi, Peyton Elizabeth Lee & Jacob Tremblay)",
+			"speaker": "Tom Rhys Harries, interviewed by Chris Hewitt (Empire) over Zoom",
+			"date": "2026-10-23",
+			"locator": "Episode audio (publisher mp3 via goloudnow page), 00:02:20-00:03:20 (golf/beard banter), 00:03:46-00:04:50 (ACL), 00:07:21-00:07:35 (on set every day); transcribed locally with whisper-cli small.en, ACL passage confirmed in two passes",
+			"excerpt": "And I'd torn it probably about six months before starting to shoot [Clayface]. And for fear of losing this job, I didn't tell anybody. And then at one point I was shooting a sort of stunt sequence where a car drives into the side of my leg ... And I had to take the stunt coordinator, Jimmy, to the side. And I was like, Jimmy, I'm so sorry, man. I actually don't have an ACL.",
+			"context": "Unscripted audio, the 'long-form unguarded speech' task from the previous run. Opens with Harries turning the interview on the host (asks about his golf handicap; 'I have my sources, Chris'; 'I don't know. I rarely know what's going on.'). Later: 'throughout this whole shoot, I was never not on set. I was there every single day'; 'you can go full tilt and not burn out'; he and Watkins 'were in lockstep'. Machine transcript, so treat exact punctuation and filler as approximate; the ACL sentence matched across two independent whisper passes. Local transcript kept outside the repo (/tmp/trh-research/audio/) per the no-full-transcripts rule.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S29",
+			"url": "https://nation.cymru/culture/welsh-star-records-huge-movie-success-with-blockbuster-clayface/",
+			"title": "Welsh star records huge movie success with blockbuster Clayface",
+			"speaker": "Nation.Cymru staff (relaying Variety)",
+			"date": "2026-10-27",
+			"locator": "Paragraphs 7-8 (Variety box-office relay) and 12 (age, Welsh speaker)",
+			"excerpt": "Clayface nearly just made up its entire $44 million budget with a $43 million haul this weekend at the global box office ... It’s a massive break for the 35-year-old Welsh speaker from Cardiff",
+			"context": "Welsh national outlet, secondary. Useful for the Welsh-language angle (also notes the Welsh-language film Effi o Blaenau) and as a dated box-office relay. Its age '35' on 2026-10-27 conflicts with an 8 October 1990 birth date and with THR's 'Now 36' (S26), another reason to print the birth year only.",
+			"kind": "secondary",
+			"access": "opened"
 		}
 	],
 	"claims": [
@@ -324,7 +372,9 @@
 			"claim": "Harries says fear of criticism is what quiets his ADHD-driven pull toward distraction and that he knew from a young age fear was 'a big driving factor' for him.",
 			"passage": "",
 			"class": "self_report",
-			"source_ids": ["S01"],
+			"source_ids": [
+				"S01"
+			],
 			"inference": "He names fear itself, not ambition or enjoyment, as the engine of his focus. That is the Six's signature: anxiety converted into vigilance and effort.",
 			"alternative": "A Three could also be driven by fear of criticism (image), and many actors say nerves help them. The quote is one 2022 interview; ADHD is his own framing for the distraction side.",
 			"durability": "stable",
@@ -335,7 +385,10 @@
 			"claim": "In 2026 he called heavy preparation 'a crutch' he is 'so used to... lean on' and said going into a 2026 indie role 'a bit blind' was 'terrifying'.",
 			"passage": "",
 			"class": "self_report",
-			"source_ids": ["S02", "S11"],
+			"source_ids": [
+				"S02",
+				"S11"
+			],
 			"inference": "Preparation functions as security; removing it produces fear, not excitement. This is the clearest discriminator against Seven, who typically experiences improvisation and the unplanned as freedom.",
 			"alternative": "Thorough prep is a trained-actor norm (RWCMD, stage background); S11 also shows him loving rehearsal 'space to fuck up', which is play inside a safe container rather than proof of anxiety.",
 			"durability": "stable",
@@ -346,7 +399,9 @@
 			"claim": "Discussing his Clayface preparation he asked, 'Am I the best judge of myself?' and called the work 'an exercise in trying to trust your instinct all the time'.",
 			"passage": "",
 			"class": "self_report",
-			"source_ids": ["S02"],
+			"source_ids": [
+				"S02"
+			],
 			"inference": "Doubt about his own inner authority, and treating self-trust as an effortful practice, fits the Six's core issue of locating certainty.",
 			"alternative": "It is a conversational aside to a peer about actors judging their own work; a Nine or Four could say it too.",
 			"durability": "stable",
@@ -357,7 +412,11 @@
 			"claim": "During roughly two to three months of Clayface screen tests he played Elden Ring 'to switch my brain off', said it 'probably talks to my level of anxiety throughout that period', and was out cycling 'trying to distract myself' when the casting call came.",
 			"passage": "",
 			"class": "self_report",
-			"source_ids": ["S02", "S14", "S25"],
+			"source_ids": [
+				"S02",
+				"S14",
+				"S25"
+			],
 			"inference": "He openly names anxiety under high stakes and manages it rather than reframing it as fun, consistent across three outlets.",
 			"alternative": "Distraction-as-coping also reads as the Seven's move away from discomfort; S14 says 'about a two month period' while S02 says three months of screen tests, so the duration varies by account.",
 			"durability": "stable",
@@ -368,7 +427,10 @@
 			"claim": "Across 2020 and 2026 he describes success as choosing collaborators he believes in: 'I had real faith in Alex Pina' (2020); acting is 'an exercise in letting go and engaging with people you’re willing to take a leap of faith with' and 'You just hope the editor’s got your back' (2026).",
 			"passage": "",
 			"class": "self_report",
-			"source_ids": ["S05", "S02"],
+			"source_ids": [
+				"S05",
+				"S02"
+			],
 			"inference": "Security is located in trusted people and their backing, a Six pattern that holds six years apart in different contexts.",
 			"alternative": "Trusting the director and editor is professional common sense for any actor who does not control the final cut; a Nine would also emphasize letting go.",
 			"durability": "stable",
@@ -376,10 +438,14 @@
 		},
 		{
 			"id": "C06",
-			"claim": "He says what he loved most about Clayface was 'how much I’m needed. I felt like I was part of the crew', describes 'duty of care to the production', and says his goal is to be 'a good, reliable work partner, a good boyfriend, a good brother, son, friend.'",
+			"claim": "He says what he loved most about Clayface was 'how much I’m needed. I felt like I was part of the crew', describes 'duty of care to the production', and says his goal is to be 'a good, reliable work partner, a good boyfriend, a good brother, son, friend.' On Empire's podcast he added that 'throughout this whole shoot, I was never not on set. I was there every single day.'",
 			"passage": "",
 			"class": "self_report",
-			"source_ids": ["S02", "S03"],
+			"source_ids": [
+				"S02",
+				"S03",
+				"S28"
+			],
 			"inference": "Belonging, reliability and duty to the group are the values he volunteers when asked about meaning, which supports Six (loyalty, being a dependable member) over Three (distinction) or Seven (experience).",
 			"alternative": "'How much I’m needed' could indicate Two; being 'number one on the call sheet' creates real duties regardless of type; these lines arrive in release-week press where gratitude and team talk are expected.",
 			"durability": "stable",
@@ -390,7 +456,9 @@
 			"claim": "Co-star Max Minghella reportedly called Harries 'incredibly disciplined' with 'amazing leadership on set', said he never complained, and said Harries phoned him the day he was cast and kept in touch to make sure he felt included.",
 			"passage": "",
 			"class": "third_party",
-			"source_ids": ["S20"],
+			"source_ids": [
+				"S20"
+			],
 			"inference": "Behavioral testimony that matches C06: he looks after group cohesion and reliability, not just his own performance.",
 			"alternative": "Premiere-season co-star praise; relayed by a secondary site that misstates his age and does not name the original venue. Inclusive outreach also fits Two or Nine.",
 			"durability": "stable",
@@ -401,7 +469,9 @@
 			"claim": "In 2015, as a drama student auditioning in London from Cardiff, he 'used to really beat myself up' if he could not make an audition, and once travelled at 6am while ill rather than miss one.",
 			"passage": "",
 			"class": "self_report",
-			"source_ids": ["S04"],
+			"source_ids": [
+				"S04"
+			],
 			"inference": "Pre-fame evidence of anxious conscientiousness about opportunities, predating any promotional persona.",
 			"alternative": "Self-criticism is also typical of One and Three; striving drama students commonly do this.",
 			"durability": "stable",
@@ -409,11 +479,14 @@
 		},
 		{
 			"id": "C09",
-			"claim": "He describes himself as 'quite disruptive growing up', not malicious but with energy that 'often... came out in having fights', and credits 'strong, protective and nurturing women', including a teacher he is still in contact with and without whom he 'wouldn’t have finished school'.",
+			"claim": "He describes himself as 'quite disruptive growing up', not malicious but with energy that 'often... came out in having fights', and credits 'strong, protective and nurturing women', including a teacher he is still in contact with and without whom he 'wouldn’t have finished school'. In October 2026 he said his schooldays were 'very much a case of, ‘if this kid doesn’t find something to focus on, he’s fucked’' and that 'If this teacher wasn’t there, I would not be having this conversation with you right now.'",
 			"passage": "",
 			"class": "self_report",
-			"source_ids": ["S01"],
-			"inference": "A reactive, combative early pattern that softened through protective allies fits a counterphobic Six reading; the lasting loyalty to the teacher fits Six's attachment to those who backed him.",
+			"source_ids": [
+				"S01",
+				"S26"
+			],
+			"inference": "A reactive, combative early pattern that softened through protective allies fits a counterphobic Six reading; the lasting loyalty to the teacher fits Six's attachment to those who backed him. The same teacher credit recurs four years apart (2022, 2026), so it is a stable self-account, not a one-off.",
 			"alternative": "Fighting fits Eight; disruption fits Seven or his stated ADHD. This is the only source; do not build a childhood-wound causal story from it.",
 			"durability": "stable",
 			"review_trigger": ""
@@ -423,7 +496,9 @@
 			"claim": "He has said he lives with ADHD and that he is 'shit at focusing on something if I’m not interested in it' but gets 'obsessed' when he is, because 'it’s kind of a relief to be able to focus.'",
 			"passage": "",
 			"class": "self_report",
-			"source_ids": ["S01"],
+			"source_ids": [
+				"S01"
+			],
 			"inference": "A non-type explanation for his restlessness and breadth of interests. It weakens the Seven reading built on scattered interests, and should be stated as his own disclosure only.",
 			"alternative": "Restless novelty-seeking might still be Seven independent of ADHD; the two are not mutually exclusive.",
 			"durability": "stable",
@@ -434,7 +509,9 @@
 			"claim": "On Parade's End he told the director one of his lines was wrong ('I don’t know who the fuck I thought I was'); Benedict Cumberbatch then checked the book and found the line was right.",
 			"passage": "",
 			"class": "self_report",
-			"source_ids": ["S01"],
+			"source_ids": [
+				"S01"
+			],
 			"inference": "Challenging authority as a junior actor is a counterphobic move; his framing is self-deprecating, and the story's point for him is Cumberbatch's diligence.",
 			"alternative": "Eight-like assertiveness or One-like correctness; also a told-for-effect anecdote within a passage the writer flags as name-dropping.",
 			"durability": "stable",
@@ -442,12 +519,17 @@
 		},
 		{
 			"id": "C12",
-			"claim": "He tore his ACL before Clayface filming, postponed surgery because he had booked the role, and has said he shot the whole film without telling stunts or production, 'trying to get away with it'.",
+			"claim": "He tore his ACL about six months before Clayface filming, put off surgery because he had booked the role, and said that 'for fear of losing this job, I didn't tell anybody' until a car-impact stunt forced him to take the stunt coordinator aside; Watkins confirms the team learned of it only then and that Harries still did the jump and fall.",
 			"passage": "",
 			"class": "self_report",
-			"source_ids": ["S16", "S03"],
-			"inference": "Pushing through injury rather than risk the role is consistent with counterphobic Six (fear of losing the opportunity met by defiance) but equally with Three (protecting the image of a capable lead).",
-			"alternative": "Three: concealment protects performance image. Eight: toughness. The concealment wording comes via a secondary relay of EW; the stunt-coordinator line in the same relay suggests at least one person knew.",
+			"source_ids": [
+				"S28",
+				"S16",
+				"S03",
+				"S27"
+			],
+			"inference": "His own unprompted motive statement, in unscripted audio, is fear of losing the job, not toughness or image. Concealing a risk to keep a hard-won security and then disclosing it when the danger becomes concrete fits a (counterphobic) Six better than it fits a Three, though both would protect the role.",
+			"alternative": "Three: protecting the image of a capable, low-risk lead (he told THR he knew he was 'a potentially big risk for the studio', S26). Eight: toughness. Any first-time lead might hide an injury for career reasons; the motive word 'fear' is also ordinary speech. Earlier wording 'shot all of Clayface... hadn't told the stunts or anyone on production' (EW via S16) overstates the concealment; the podcast and Watkins place the disclosure mid-shoot.",
 			"durability": "stable",
 			"review_trigger": ""
 		},
@@ -456,7 +538,9 @@
 			"claim": "Near the end of the Clayface shoot he pitched an unscripted club sequence to James Watkins; it was added and production extended filming by a day.",
 			"passage": "",
 			"class": "self_report",
-			"source_ids": ["S21"],
+			"source_ids": [
+				"S21"
+			],
 			"inference": "Creative initiative and play under exhaustion; the reported expectation of rejection hints at bracing for a no before asking.",
 			"alternative": "Seven-style spontaneity; the 'expected rejection' detail is the outlet's paraphrase of a video clip.",
 			"durability": "stable",
@@ -467,7 +551,9 @@
 			"claim": "For a melted-body bathtub shot he offered Watkins to hold his breath 'for like three minutes' inside a sealed mask; the insurers refused.",
 			"passage": "",
 			"class": "self_report",
-			"source_ids": ["S03"],
+			"source_ids": [
+				"S03"
+			],
 			"inference": "Physical risk-taking for the work, part of the counterphobic thread.",
 			"alternative": "Performer bravado told as a fun anecdote; also fits Seven or Eight.",
 			"durability": "stable",
@@ -478,7 +564,12 @@
 			"claim": "He repeatedly declines the star frame: 'I’m not a celebrity' (2020), 'I hope not' to overnight fame (2020), most of Comic-Con 'would go, “Who?!”' (2026), and success is luck-heavy and 'isn’t a meritocracy' (2026).",
 			"passage": "",
 			"class": "self_report",
-			"source_ids": ["S06", "S09", "S16", "S03"],
+			"source_ids": [
+				"S06",
+				"S09",
+				"S16",
+				"S03"
+			],
 			"inference": "Counts against Three: he volunteers rejection counts and luck instead of building an image of inevitability.",
 			"alternative": "British actor modesty is a strong press convention, and self-deprecation can itself be image management.",
 			"durability": "stable",
@@ -489,7 +580,9 @@
 			"claim": "A 2022 interviewer observed that he was 'unshy about dropping huge names', and that after mentioning Benedict Cumberbatch 'He catches my eye to note my reaction.'",
 			"passage": "",
 			"class": "observed",
-			"source_ids": ["S01"],
+			"source_ids": [
+				"S01"
+			],
 			"inference": "The strongest observed evidence for the Three alternative: monitoring how he lands with an audience.",
 			"alternative": "A single journalist's reading of one glance; checking a listener's reaction also fits Six (reading the room) or ordinary storytelling.",
 			"durability": "stable",
@@ -500,7 +593,9 @@
 			"claim": "Asked about vanity in Clayface, he said 'the vanity of it never interested me. I find it interesting because I feel like I have a relationship to it.'",
 			"passage": "",
 			"class": "self_report",
-			"source_ids": ["S02"],
+			"source_ids": [
+				"S02"
+			],
 			"inference": "An admitted personal relationship to appearance, in a job where his face is the product; relevant to the Three alternative but left unexplained by him.",
 			"alternative": "Physical prep and looks are part of his job; he immediately reframes it as craft ('part of my job').",
 			"durability": "stable",
@@ -511,7 +606,12 @@
 			"claim": "He shows wide-ranging curiosity and side passions: an interviewer found his 'curiosity and openess to the new' palpable; he wants to study clowning in Paris, plays guitar and piano, rides motorbikes, makes playlists for every project, and likes 'looking behind the curtain'.",
 			"passage": "",
 			"class": "observed",
-			"source_ids": ["S01", "S11", "S13", "S10"],
+			"source_ids": [
+				"S01",
+				"S11",
+				"S13",
+				"S10"
+			],
 			"inference": "The core of the Seven alternative: appetite for novelty and many open doors.",
 			"alternative": "Curiosity is common across types and in actors; he chooses motorbikes as 'an antidote' because of their mechanical certainty (C19), which points away from Seven.",
 			"durability": "stable",
@@ -522,7 +622,9 @@
 			"claim": "He calls motorbike maintenance 'an antidote' to acting because 'Acting is so subjective and sort of heady but there’s nothing subjective about whether an engine works or if a sprocket’s out of place.'",
 			"passage": "",
 			"class": "self_report",
-			"source_ids": ["S01"],
+			"source_ids": [
+				"S01"
+			],
 			"inference": "His relief is objective certainty, a Six (or Five/One) comfort, not novelty for its own sake.",
 			"alternative": "Simple hobby talk; many people like manual work as a break from screens.",
 			"durability": "stable",
@@ -533,7 +635,9 @@
 			"claim": "In 2020 he called acting 'a pretty reckless choice of career', said he has been self-sufficient since 17, and said 'With optimism, I will always make decisions that I feel might come off.'",
 			"passage": "",
 			"class": "self_report",
-			"source_ids": ["S05"],
+			"source_ids": [
+				"S05"
+			],
 			"inference": "Optimistic risk-taking is the Seven alternative's best self-report; for a Six it would be the counterphobic leap.",
 			"alternative": "He frames it while comparing himself to a hedonist character he plays, which invites a playful self-portrait.",
 			"durability": "stable",
@@ -544,7 +648,9 @@
 			"claim": "Kit Connor said Harries taught him 'how to misbehave on a film set' in 2017, and Harries replied, 'I may have taken the license to be silly and run with it.'",
 			"passage": "",
 			"class": "self_report",
-			"source_ids": ["S02"],
+			"source_ids": [
+				"S02"
+			],
 			"inference": "Playfulness on set supports Seven; it also shows the counterphobic Six's ease once he trusts the group.",
 			"alternative": "Banter between friends, not a behavioral record.",
 			"durability": "stable",
@@ -555,7 +661,10 @@
 			"claim": "WalesOnline printed him saying he really pulled out his own tooth for a White Lines scene; weeks later he told Mr Porter he had been misquoted, 'I was doing a gag... It was just me not reading the room. But no, I didn’t pull my tooth out.'",
 			"passage": "",
 			"class": "disputed",
-			"source_ids": ["S07", "S06"],
+			"source_ids": [
+				"S07",
+				"S06"
+			],
 			"inference": "A revealing, unflattering moment: a deadpan provocation printed as fact, then corrected with self-blame. Shows impulsive humor and concern for the record.",
 			"alternative": "The WalesOnline writer may have misread tone; it is his word against a printed quote. Present both, attributed and dated.",
 			"durability": "stable",
@@ -566,7 +675,10 @@
 			"claim": "He leans on fatalistic sayings for peace: 'what is meant for you, won’t pass you by... that gives me some kind of peace' (2020) and 'so much of this game is out of your hands. Best you can do is get on the train' (2020).",
 			"passage": "",
 			"class": "self_report",
-			"source_ids": ["S08", "S11"],
+			"source_ids": [
+				"S08",
+				"S11"
+			],
 			"inference": "Seeking a stabilizing belief to settle uncertainty fits Six; the content (acceptance) also fits Nine.",
 			"alternative": "Common show-business coping lines; written answers (S11) are composed.",
 			"durability": "stable",
@@ -577,7 +689,10 @@
 			"claim": "He frames public duty as responsibility: in a 2020 White Lines interview he spent about 15 of 45 minutes on Black Lives Matter ('it would be completely remiss of me to not speak about it'), and said a big platform makes him 'feel a responsibility as an actor' in portraying drug use.",
 			"passage": "",
 			"class": "self_report",
-			"source_ids": ["S06", "S09"],
+			"source_ids": [
+				"S06",
+				"S09"
+			],
 			"inference": "Duty and in-group accountability ('We have to sort ourselves out') fit Six or One.",
 			"alternative": "June 2020 was a moment when many public figures spoke out; it is time-bound context, not a repeated pattern by itself.",
 			"durability": "stable",
@@ -588,7 +703,10 @@
 			"claim": "He says he takes rejection 'on the chin' with 'a very thick skin' and 'countless more rejections than acceptances' (2020), and in 2026 that he does not know how to do anything else and has 'had way more noes than I’ve had yeses.'",
 			"passage": "",
 			"class": "self_report",
-			"source_ids": ["S08", "S03"],
+			"source_ids": [
+				"S08",
+				"S03"
+			],
 			"inference": "Persistence through a long supporting-actor career (2011-2025) before a studio lead; durable behavior that fits Six's loyalty to a chosen path.",
 			"alternative": "Three persistence toward success; or Nine inertia ('I don’t know how to do anything else').",
 			"durability": "stable",
@@ -596,10 +714,13 @@
 		},
 		{
 			"id": "C26",
-			"claim": "Watkins said he had never auditioned anyone as much; Harries said 'I’m untested in this space, so I was glad he did it with me', because it gave them time to workshop the role before shooting.",
+			"claim": "Watkins said at the premiere 'I don’t think I’ve ever auditioned anyone that much'; Harries said the process ran over three months with two long screen tests and 'I’m untested in this space, so I was glad he did it with me really because it meant that we’d had time to workshop the thing before he got onto set.'",
 			"passage": "",
 			"class": "third_party",
-			"source_ids": ["S18"],
+			"source_ids": [
+				"S19",
+				"S18"
+			],
 			"inference": "He welcomed extended testing as preparation and reassurance, matching C02, rather than resenting it as doubt about his talent.",
 			"alternative": "Diplomatic premiere talk about a director; relayed via A.V. Club from THR (not opened).",
 			"durability": "stable",
@@ -610,7 +731,10 @@
 			"claim": "Interviewers describe a relaxed surface: 'a man rarely in a rush' (2022), 'clear-eyed and methodical' (2026); before release he said he had 'gone past the point of nervousness... “Hey, that’s the film. I hope you like it.”'",
 			"passage": "",
 			"class": "observed",
-			"source_ids": ["S01", "S03"],
+			"source_ids": [
+				"S01",
+				"S03"
+			],
 			"inference": "The calm demeanor is the Nine alternative's best evidence; for a Six it can be the settled state after preparation and trust are in place.",
 			"alternative": "Media-trained calm; he also says he went through 'a phase of being nervous' first.",
 			"durability": "stable",
@@ -621,7 +745,11 @@
 			"claim": "His closest moments of the Clayface run are about family: he cycled around London calling family and friends after the casting call, his parents watching the film in LA was 'one of the most special things', and Minghella reports he FaceTimed family in prosthetic makeup.",
 			"passage": "",
 			"class": "self_report",
-			"source_ids": ["S14", "S03", "S20"],
+			"source_ids": [
+				"S14",
+				"S03",
+				"S20"
+			],
 			"inference": "Shared milestones with his inner circle rather than solo triumph; supports the belonging thread.",
 			"alternative": "Ordinary for anyone after a big break; not type-specific.",
 			"durability": "stable",
@@ -632,7 +760,9 @@
 			"claim": "As a teenager he pretended to know the Arctic Monkeys to match a girlfriend, crammed their songs all week, then 'crumbled' at the 2006 gig and spilled a pint mid air-guitar.",
 			"passage": "",
 			"class": "self_report",
-			"source_ids": ["S12"],
+			"source_ids": [
+				"S12"
+			],
 			"inference": "Comic anecdote of over-preparing to belong; usable as color, not as type proof.",
 			"alternative": "Image-management (Three) or simply teenage behavior; told for laughs in a brand questionnaire.",
 			"durability": "stable",
@@ -643,9 +773,18 @@
 			"claim": "Tom Rhys Harries was born in Cardiff, Wales, in 1990; he is a first-language Welsh speaker; his father was a head teacher at a Welsh-language school and both parents worked as teachers.",
 			"passage": "",
 			"class": "self_report",
-			"source_ids": ["S24", "S01", "S02", "S03", "S05", "S10"],
+			"source_ids": [
+				"S24",
+				"S01",
+				"S02",
+				"S03",
+				"S05",
+				"S10",
+				"S26",
+				"S29"
+			],
 			"inference": "Biographical metadata. 1990 is supported by Wikipedia and by his own age references (26 in September 2017 per S02; 35 while filming in 2025 per S03).",
-			"alternative": "2020-2022 press gave ages (27, 28, 29) that conflict with an October 1990 birth date; print the year only. The 8 October date is unverified in a primary. S04 says his 'mum used to be a writer', so describe her work cautiously.",
+			"alternative": "2020-2022 press gave ages (27, 28, 29) that conflict with an October 1990 birth date; print the year only. The 8 October date is unverified in a primary. S04 says his 'mum used to be a writer', so describe her work cautiously. 2026 press still conflicts: THR said 'Now 36' on 2026-10-29 (S26), Nation.Cymru said 35 on 2026-10-27 (S29), and several film databases list 1992. Print 1990 as the year only, with no day.",
 			"durability": "stable",
 			"review_trigger": ""
 		},
@@ -654,7 +793,11 @@
 			"claim": "He was cast in Hunky Dory (2011) during his first year at the Royal Welsh College of Music & Drama, shot it over the summer, kept studying, and graduated in 2012.",
 			"passage": "",
 			"class": "self_report",
-			"source_ids": ["S04", "S07", "S24"],
+			"source_ids": [
+				"S04",
+				"S07",
+				"S24"
+			],
 			"inference": "Chose to finish training after an early break, consistent with a preference for preparation.",
 			"alternative": "WWD (S10) says he 'soon left' the college after Hunky Dory; his own two accounts and Wikipedia's 2012 graduation outweigh it.",
 			"durability": "stable",
@@ -665,44 +808,126 @@
 			"claim": "He made his West End debut in Jez Butterworth's Mojo at the Harold Pinter Theatre (opened 2013), won a 2018 Offie for The Pitchfork Disney, led Netflix's White Lines (2020) as Axel Collins, and saw The Seagull shut after five performances in March 2020 before returning in June 2022.",
 			"passage": "",
 			"class": "observed",
-			"source_ids": ["S22", "S01", "S24", "S05", "S10"],
+			"source_ids": [
+				"S22",
+				"S01",
+				"S24",
+				"S05",
+				"S10",
+				"S26"
+			],
 			"inference": "Career metadata showing a long stage-and-supporting record before the studio lead.",
-			"alternative": "Sources split on 2013 vs 2014 for the Mojo debut (production ran late 2013 into 2014); say 'opened in 2013' or 'in 2013-14'.",
+			"alternative": "Sources split on 2013 vs 2014 for the Mojo debut (production ran late 2013 into 2014); say 'opened in 2013' or 'in 2013-14'. THR (S26, 2026) also says 2014.",
 			"durability": "stable",
 			"review_trigger": ""
 		},
 		{
 			"id": "C33",
-			"claim": "DC Studios cast him as Matt Hagen/Clayface in June 2025 over a reported shortlist including Jack O'Connell, Tom Blyth and George MacKay; the film opened in the US on October 23, 2026 at No. 1 with about $24 million (studio estimates) on a reported $44 million budget.",
+			"claim": "DC Studios cast him as Matt Hagen/Clayface in June 2025 over a reported shortlist including Jack O'Connell, Tom Blyth and George MacKay; the film opened in the US on October 23, 2026 at No. 1 with about $24 million (studio estimates), roughly $43-46.5 million worldwide in its opening weekend, on a reported $44 million budget, with an A- CinemaScore.",
 			"passage": "",
 			"class": "observed",
-			"source_ids": ["S22", "S23"],
+			"source_ids": [
+				"S22",
+				"S23",
+				"S27",
+				"S29"
+			],
 			"inference": "The current catalyst for search interest; context only, not type evidence.",
-			"alternative": "Opening figures are studio estimates; budget reports range from about $30M to $44M.",
+			"alternative": "Opening figures are studio estimates and outlets differ ($43M global per Variety via S29; $46.5M global per THR S27); budget reports range from about $30M to $44M. Use rounded, dated figures or omit.",
 			"durability": "time_sensitive",
-			"review_trigger": "Update with final domestic/worldwide gross and any sequel or DCU return announcement; recheck by 2027-01-31."
+			"review_trigger": "Update with final domestic/worldwide gross, any sequel or DCU return announcement, and awards-season mentions; recheck by 2027-01-31."
 		},
 		{
 			"id": "C34",
 			"claim": "In September 2026 he said he spends a lot of time in Los Angeles because his girlfriend lives there.",
 			"passage": "",
 			"class": "self_report",
-			"source_ids": ["S02"],
+			"source_ids": [
+				"S02"
+			],
 			"inference": "Personal-life context only; do not name the partner from Wikipedia's Instagram citation unless verified.",
 			"alternative": "Relationship status can change.",
 			"durability": "time_sensitive",
 			"review_trigger": "Recheck relationship references before any refresh or FAQ mention; remove if he states otherwise."
+		},
+		{
+			"id": "C35",
+			"claim": "Six days after the No. 1 opening he credited the people around him rather than the win: grateful 'because you realize how many people have invested their time and work into this thing', said leading a big production is 'actually easier when you have so many people around you', and that 'fundamentally nothing is going to change' beyond wanting to work with 'creators who I back fundamentally.'",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S26"
+			],
+			"inference": "This was the previous run's settle test: after a career-making opening he places the success in a support network and in trusted collaborators, and plays down any change, rather than presenting it as personal arrival (3) or pivoting to the next thrill (7). That fits Six.",
+			"alternative": "Gratitude to crew is standard press etiquette, and British understatement is a convention. A Nine could also say 'nothing is going to change'. It is a single post-release interview.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C36",
+			"claim": "During the screen tests he told his agent 'Do not tell me who else it is' so he could stay 'in the zone', asked for the names only once 'it would no longer affect me negatively because I was done', and when called back for a second test said 'I had to put my blinders on.'",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S26"
+			],
+			"inference": "He manages anticipatory pressure by controlling what information reaches him. That fits a Six managing anxiety, and it matches the Elden Ring and cycling distraction he described in the same period (C04).",
+			"alternative": "Three: avoiding comparison to protect performance. Nine: tuning out disturbance. Many actors use the same routine, so it is a craft habit as much as a motive.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C37",
+			"claim": "He described himself as a risky bet for the studio: the other contenders had 'a proof of concept for leading a studio film', while with him 'there are so many moments where an unknown quality could falter... they haven’t got a great reference point as to what I’d be like with the crew, the rest of the cast, and in the press.'",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S26"
+			],
+			"inference": "Spontaneously modelling the decision-maker's worst case and the points where he could fail is Six-style threat scanning. It also gives context to the injury concealment (C12).",
+			"alternative": "Three: worrying about how he is perceived, including 'in the press', is image concern. It may also be an accurate industry analysis rather than anxiety.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C38",
+			"claim": "In unscripted audio he opens by turning the interview on the host (quizzing him about his golf handicap, 'I have my sources, Chris') and jokes 'I don't know. I rarely know what's going on.'",
+			"passage": "",
+			"class": "observed",
+			"source_ids": [
+				"S28"
+			],
+			"inference": "Playful deflection and banter support the Seven alternative (C21) and show a light public persona that the fear-and-preparation self-description does not predict.",
+			"alternative": "Deflecting with humour can also be a Six's way to ease tension at the start of a high-stakes press run (phobic charm), or simply junket fatigue. It is one Zoom interview.",
+			"durability": "stable",
+			"review_trigger": ""
 		}
 	],
 	"type_hypothesis": {
 		"type": 6,
 		"confidence": "medium",
-		"for_claim_ids": ["C01", "C02", "C03", "C04", "C05", "C06", "C07", "C08", "C19", "C26", "C28"],
-		"against": "Most of the Six evidence is self-report in promotional settings, where actors routinely talk about nerves, trust and gratitude; 'fear is a mark of caring' is common actor rhetoric. Testimony comes from co-stars in premiere season (Minghella via a secondary site that misstates his age; Watkins via a relay of THR), with nothing from long-term intimates. Breadth of interests, optimism, playfulness and the club-scene improvisation (C13, C18, C20, C21) read Seven. Name-dropping while watching the listener's reaction, hiding a torn ACL to keep a career-making role, and an admitted 'relationship' to vanity (C12, C16, C17) read Three. A calm, unhurried surface (C27) reads Nine. His own ADHD disclosure (C10) confounds both the distractibility and the interest-driven focus. No wing or subtype is supported.",
+		"for_claim_ids": [
+			"C01",
+			"C02",
+			"C03",
+			"C04",
+			"C05",
+			"C06",
+			"C07",
+			"C08",
+			"C12",
+			"C19",
+			"C26",
+			"C28",
+			"C35",
+			"C36",
+			"C37"
+		],
+		"against": "Most of the Six evidence is self-report in promotional settings, where actors routinely talk about nerves, trust and gratitude; 'fear is a mark of caring' is common actor rhetoric. Testimony comes from co-stars in premiere season (Minghella via a secondary site that misstates his age; Watkins via a relay of THR), with nothing from long-term intimates. Breadth of interests, optimism, playfulness, the club-scene improvisation and the podcast banter (C13, C18, C20, C21, C38) read Seven. Name-dropping while watching the listener's reaction, hiding a torn ACL to keep a career-making role, awareness of how he would come across 'in the press', and an admitted 'relationship' to vanity (C12, C16, C17, C37) read Three. A calm, unhurried surface (C27) reads Nine. His own ADHD disclosure (C10) confounds both the distractibility and the interest-driven focus. No wing or subtype is supported.",
 		"alternative_type": 7,
-		"alternative_case": "Seven: an interviewer found his curiosity palpable and he immediately asked about shorthand (C18); he wants to study clowning in Paris, plays guitar and piano, rides motorbikes and makes playlists for every project; daydreamed Truman Show scenarios to make a paper round 'less mundane'; calls acting a 'reckless' career he chose 'with optimism' (C20); 'took the license to be silly' and taught a teenage co-star to misbehave on set (C21); found the hedonist Axel 'energising'; describes his style as 'Loose, Hurried, Functional'; doesn't plan his year in advance; managed audition stress by escaping into Elden Ring and cycling (C04); and pitched an unscripted club sequence when the crew was exhausted (C13). Three is a further live rival (C12, C16, C17), and Nine fits the calm surface (C27).",
-		"discriminator": "Where he places the engine and the remedy. A Seven treats stress as confinement and escapes toward options, reframing pain as adventure; Harries names fear itself as the force that holds his focus (2022, C01), calls preparation a crutch he is used to leaning on and going in without it 'terrifying' (2026, C02), asks whether he is the best judge of himself (C03), and locates success in people he can take 'a leap of faith with' and an editor who has 'got your back' (2020 and 2026, C05). Even his escapes are named as anxiety management (C04), and his chosen antidote is mechanical certainty, 'nothing subjective about whether an engine works' (C19), not novelty. The pattern spans 2015 (beating himself up over missed auditions, C08) to 2026. Against Three: he volunteers anxiety, rejection counts and luck ('isn’t a meritocracy'), calls himself 'not a celebrity', and frames meaning as being 'a good, reliable work partner... brother, son, friend' (C06, C15), where a Three would protect an image of inevitable success.",
-		"unexplained": "Concealing a torn ACL from stunts and production through the whole Clayface shoot (C12) fits counterphobic Six and Three equally. The printed-then-retracted tooth-pulling joke (C22) and the childhood fights (C09) show a provocative, impulsive streak a cautious Six does not predict. A White Lines promo interview turned largely into a Black Lives Matter discussion (C24). He admits a personal 'relationship' to vanity without explaining it (C17). Wing unknown (6w7 plausible, not argued)."
+		"alternative_case": "Seven: an interviewer found his curiosity palpable and he immediately asked about shorthand (C18); he wants to study clowning in Paris, plays guitar and piano, rides motorbikes and makes playlists for every project; daydreamed Truman Show scenarios to make a paper round 'less mundane'; calls acting a 'reckless' career he chose 'with optimism' (C20); 'took the license to be silly' and taught a teenage co-star to misbehave on set (C21); found the hedonist Axel 'energising'; describes his style as 'Loose, Hurried, Functional'; doesn't plan his year in advance; managed audition stress by escaping into Elden Ring and cycling (C04); pitched an unscripted club sequence when the crew was exhausted (C13), and opened a 2026 podcast by interviewing the host about golf (C38). Three is a further live rival (C12, C16, C17), and Nine fits the calm surface (C27).",
+		"discriminator": "Where he places the engine and the remedy. A Seven treats stress as confinement and escapes toward options, reframing pain as adventure. Harries names fear itself as the force that holds his focus (2022, C01), calls preparation a crutch he is used to leaning on and going in without it 'terrifying' (2026, C02), asks whether he is the best judge of himself (C03), and locates success in people he can take 'a leap of faith with' and an editor who has 'got your back' (2020 and 2026, C05). Even his escapes are named as anxiety management (C04, C36), and his chosen antidote is mechanical certainty, 'nothing subjective about whether an engine works' (C19), not novelty. In unscripted audio he gives fear of losing the job as his motive for hiding the torn ACL (C12). After the No. 1 opening he credits the many people invested and says nothing fundamental will change (C35), passing the previous run's settle test toward Six. The pattern spans 2015 (beating himself up over missed auditions, C08) to 2026. Against Three: he volunteers anxiety, rejection counts and luck ('isn’t a meritocracy'), calls himself 'not a celebrity', and frames meaning as being 'a good, reliable work partner... brother, son, friend' (C06, C15), where a Three would protect an image of inevitable success.",
+		"unexplained": "Hiding the torn ACL until a stunt forced disclosure (C12) still fits counterphobic Six and Three. His stated motive was fear, but the career stakes would push any type the same way. The printed-then-retracted tooth-pulling joke (C22), the podcast role-reversal banter (C38) and the childhood fights (C09) show a provocative, playful streak that a cautious Six does not predict. A White Lines promo interview turned largely into a Black Lives Matter discussion (C24). He admits a personal 'relationship' to vanity without explaining it (C17). Wing unknown (6w7 plausible, not argued)."
 	},
 	"profile_format": "standard"
 }
