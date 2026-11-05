@@ -1,5 +1,5 @@
 {
-	"lastUpdated": "2026-11-04T08:13:41Z",
+	"lastUpdated": "2026-11-05T08:03:30Z",
 	"stats": {
 		"totalUnpublished": 132,
 		"totalPublished": 391,
@@ -43,19 +43,6 @@
 			"personaTitle": null,
 			"addedToQueue": "2026-10-21",
 			"retryCount": 0
-		},
-		{
-			"name": "chris-olah",
-			"displayName": "Chris Olah",
-			"type": null,
-			"priority": 83,
-			"priorityReason": "Named one of seven Anthropic co-founders with founder stock in the public S-1 (filed Oct 26); IPO reported Nov 19-20. Deep record (colah.github.io, Lex Fridman #452).",
-			"estimatedTraffic": "low",
-			"searchVolume": "low",
-			"personaTitle": null,
-			"addedToQueue": "2026-10-26",
-			"retryCount": 0,
-			"strategicValue": "ai-founders-cluster"
 		},
 		{
 			"name": "jay-z",
@@ -124,6 +111,28 @@
 		}
 	],
 	"completed": [
+		{
+			"name": "chris-olah",
+			"displayName": "Chris Olah",
+			"type": null,
+			"priority": 83,
+			"priorityReason": "Named one of seven Anthropic co-founders with founder stock in the public S-1 (filed Oct 26); IPO reported Nov 19-20. Deep record (colah.github.io, Lex Fridman #452).",
+			"estimatedTraffic": "low",
+			"searchVolume": "low",
+			"personaTitle": null,
+			"addedToQueue": "2026-10-26",
+			"retryCount": 0,
+			"strategicValue": "ai-founders-cluster",
+			"startedAt": "2026-11-05T07:00:00Z",
+			"completedAt": "2026-11-05T08:03:30Z",
+			"contentGrade": "8.6",
+			"letter": "B+",
+			"discoverability": "8.5",
+			"duration": "~63 min",
+			"needsReview": true,
+			"publishReady": false,
+			"publishBlockers": ["missing_full_image", "missing_thumbnail_image"]
+		},
 		{
 			"name": "geoffrey-hinton",
 			"displayName": "Geoffrey Hinton",

@@ -217,7 +217,7 @@ Yes. They measure different dimensions. An INTJ Type 5 and an INTJ Type 1 look s
 
 ### Why do companies still use MBTI if it has problems?
 
-Inertia. MBTI has been embedded in corporate culture since the 1960s. HR departments have training materials built around it. Consultants have built careers on it. The test is easy to administer, the results are non-threatening (no type is "bad"), and it gives people a conversation starter. But ease of use doesn't equal depth. More organizations are supplementing or replacing MBTI with frameworks that explain motivation, not just behavior, because behavioral labels alone don't predict performance or team dynamics.
+Inertia. MBTI has been embedded in corporate culture since the 1960s. HR departments have training materials built around it. Consultants have built careers on it. The test is easy to administer, the results are non-threatening (no type is "bad"), and it gives people a conversation starter. But ease of use doesn't equal depth. More organizations are supplementing or replacing MBTI with frameworks that explain motivation, not just behavior, because behavioral labels alone don't predict performance or [team dynamics](/enneagram-corner/enneagram-team-dynamics).
 
 ### Is the Enneagram scientifically validated?
 

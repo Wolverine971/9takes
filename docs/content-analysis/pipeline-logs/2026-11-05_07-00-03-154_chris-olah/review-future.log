@@ -1,0 +1,18 @@
+Warning: this sign-in can end at any time from now until 2026-11-08. Renewing it does not move that date. Run claude auth login now, or use claude setup-token for unattended jobs.
+I wrote the future-reviewer file for the Chris Olah run: `docs/content-analysis/pipeline-logs/2026-11-05_07-00-03-154_chris-olah/review-future.json`. It passes the pipeline's review schema, and every quoted passage matches the draft or its FAQs exactly. No other files were changed and nothing was published.
+
+**Verdict on the five-year test: it largely passes.** The Type 4 case rests on material from 2010 to 2024: the court support, his threads about loneliness and family, the dating doc, and a decade of him calling things "beautiful" and "sad." Take out the May 2026 Vatican episode and the argument still holds, and the draft says so itself. The problems are in keeping the page accurate over time, not in the typing argument.
+
+**Two major findings (the edit stage has to resolve these before release):**
+- **future-01:** The Times reported, from anonymous participants, that his team privately lobbied the pope's advisers, and Anthropic declined to comment. That report, and a second line from an unnamed person familiar with his thinking, aren't in the evidence record's claim list. The related claim (C41) is marked "stable" with no trigger for re-checking it if Olah, Anthropic or the Times later responds.
+- **future-02:** The re-check triggers for net worth and his current role only fire "after Anthropic's IPO," which has no date and may never happen. Each needs a calendar fallback date as well.
+
+**Six minor findings:**
+- **future-03:** The intro and the "Who is Chris Olah?" FAQ say he "now" leads interpretability, with no date attached.
+- **future-04:** The opening story has no year. The 80,000 Hours transcript supports the timeline, and the Toronto G20 summit was June 2010.
+- **future-05:** The encyclical is never named. The cited Anthropic page calls it "Magnifica humanitas," and that page was edited after the speech (on 2026-09-28).
+- **future-06:** "He is no longer single" relies on an undated note at the top of his dating doc.
+- **future-07:** The aside "9takes reads Dario Amodei as a Six" will go wrong if that page is ever retyped.
+- **future-08:** The strongest personal evidence links to X posts and pages that could disappear. The evidence record should keep archived copies.
+
+The review also marks five passages to keep, including "Take the Vatican out of his story and the argument above still stands" and the dated "beauty" list. The similarity check flagged "whose core emotion is shame." That's standard Enneagram wording in one orientation sentence, not a reused argument, so I didn't raise a finding for it.

@@ -113,7 +113,7 @@ Shawn Ryan was a former Navy SEAL and CIA contractor who turned military debrief
 
 ### How the Network Grew
 
-What turned this into a movement was the cross-pollination. These men appeared on each other's podcasts, shared guests, referenced each other's work. A listener who discovered Rogan might hear him mention Lex, check out Lex's show, hear Lex mention Huberman, and so on. The shared guest pool—Elon Musk, [David Goggins](/personality-analysis/david-goggins), Naval Ravikant, Matthew Walker, Jocko Willink—created recurring characters that listeners followed across shows.
+What turned this into a movement was the cross-pollination. These men appeared on each other's podcasts, shared guests, referenced each other's work. A listener who discovered Rogan might hear him mention Lex, check out Lex's show, hear Lex mention Huberman, and so on. The shared guest pool—Elon Musk, [David Goggins](/personality-analysis/david-goggins), [Naval Ravikant](/personality-analysis/naval-ravikant), Matthew Walker, Jocko Willink—created recurring characters that listeners followed across shows.
 
 None of this was planned. It was emergent. And the reason it worked is that these men's personality types were complementary, not competitive. Rogan's Type 8 energy (confrontation, truth-testing) doesn't overlap with Lex's Type 5 energy (depth, meaning-seeking). Ferriss's optimization instinct doesn't overlap with Williamson's Type 3 benchmarking instinct. They carved the same audience into different psychological niches and pointed listeners toward each other.
 

@@ -1,0 +1,22 @@
+Warning: this sign-in can end at any time from now until 2026-11-08. Renewing it does not move that date. Run claude auth login now, or use claude setup-token for unattended jobs.
+I've finished the fan review of the Chris Olah draft and written `review-fan.json` to the run folder. Every finding and protected passage matches the draft text exactly, and the file passes the pipeline's review format check. I didn't change any other files or publish anything.
+
+**Verdict:** the draft holds up against the sources. I checked the quotes against cached copies of the 80,000 Hours podcasts, his dating document and university essay, his mother's 2012 CNBC piece, the Lex Fridman transcript and the New York Times Vatican story, and none were made up. The problems are missing context and omissions. There are 8 findings: 2 major and 6 minor.
+
+**Major**
+- **fan-01:** The draft uses his line "I'm probably slightly delusionally optimistic about it" to argue he isn't an anxious Type 6. In the podcast it's a hedge: he says he's maybe "greater than 50%" optimistic, that "there's still a lot of room for things to fail," and suggests his own optimism may be biased. That weakens the main argument against the rival type.
+- **fan-02:** The draft never mentions his 2014–2015 blog explainers, especially "Understanding LSTM Networks." That's how most informed readers know him. He also said, "Sometimes I feel a little bit sad about this, but the thing that I've written that's been most read is this tutorial on LSTMs." That's a better example of the article's "sad" pattern than several it already uses.
+
+**Minor**
+- The draft says "sad" runs "across a decade of interviews," but the examples only cover 2021–2026.
+- The draft doesn't say Alex Mordvintsev discovered DeepDream, so readers will think Olah invented it.
+- The "fear" quote stops just before what he feared: that the police would treat him and his friends as co-conspirators.
+- The draft leaves out the rest of his "moral loneliness" passage, where he says he found a community with shared values as an adult.
+- "Toronto's evangelical culture" isn't in any source. He only says he grew up a devout evangelical Christian.
+- His work history stops around 2021. It leaves out Distill's 2021 hiatus and doesn't name any research from his years at Anthropic.
+
+I protected five passages for the editor to keep, including the fish anecdote, the "two hats" reading and the *Gilead* ending.
+
+The similarity check flagged overlap with the Mike Faist and Hunter Schafer pages. The overlap is standard Enneagram wording ("whose core emotion is shame"), so I didn't count it as reuse.
+
+I left both risk flags on: sensitive allegations (the terrorism case) and contested typing (Type 4 vs Type 6).

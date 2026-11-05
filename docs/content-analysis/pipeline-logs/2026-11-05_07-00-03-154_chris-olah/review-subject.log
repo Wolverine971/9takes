@@ -1,0 +1,22 @@
+Warning: this sign-in can end at any time from now until 2026-11-08. Renewing it does not move that date. Run claude auth login now, or use claude setup-token for unattended jobs.
+The subject (fairness) review of the Chris Olah draft is written to `docs/content-analysis/pipeline-logs/2026-11-05_07-00-03-154_chris-olah/review-subject.json`. It passes the pipeline's review schema check. I didn't change anything else or publish anything.
+
+Before writing it, I reopened his 80,000 Hours interview transcript, his dating document, his thread about the novel *Gilead*, and the Salt Lake Tribune copy of the New York Times feature.
+
+**Verdict:** the draft is careful overall. But it repeatedly frames him as lonelier, sadder and more alone than his own words support. That also tilts the case for Type 4 over Type 6, so I left both risk flags on: "sensitive allegations" and "contested typing."
+
+**Major findings (6):**
+- **F1:** The heading "The friend everyone else stepped away from" contradicts his own account: "a lot of us really rallied in supporting him."
+- **F2:** "To Dias he said" follows a sentence about the rabbi, so readers could credit Olah's quote to the rabbi. The draft also separates Olah's on-record reply from the critics' charge it answered in the Times piece.
+- **F3:** The dating-doc lines about anxiety and not being assertive are quoted without the responses he wrote right after them: that he manages these "fairly well," and "I think I'm actually very good at standing up for what I believe in."
+- **F4:** The type answer and FAQ describe "the wait for a family" in the present tense. That evidence is from 2021–2022, and his doc now says he's no longer single.
+- **F5:** "Rarely angry" and "anger … absent from his record" erase the outrage he states in the same interview the draft quotes.
+- **F6:** A reporter's hedged "as if he wanted me to love the models" becomes a flat claim about what he wants, plus a "grieve it" clause with no source.
+
+**Minor findings (2):** the draft widens his *Gilead* comment into owning envy of "people who have what he lacks." It also cuts the Vatican "lobbied" sentence down: it drops Olah himself, what the lobbying was for, and the fact that organizers encouraged him to speak his conscience.
+
+**No factual errors** in dates, the net-worth attribution, or his birth year (his doc says "born 1992").
+
+**Similarity check:** it flagged shared phrases with the Mike Faist and Hunter Schafer drafts. Those are standard Enneagram terms ("whose core emotion is shame"), not reused arguments, so I didn't log a reuse finding.
+
+The review also protects five passages for the editor to keep, including the line refusing to treat bullying as the cause of his type and the carefully sourced Vatican paragraph.

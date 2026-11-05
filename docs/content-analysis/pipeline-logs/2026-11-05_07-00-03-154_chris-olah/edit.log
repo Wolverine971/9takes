@@ -1,0 +1,28 @@
+Warning: this sign-in can end at any time from now until 2026-11-08. Renewing it does not move that date. Run claude auth login now, or use claude setup-token for unattended jobs.
+The Chris Olah edit stage is done. All three outputs are in the run folder and pass the pipeline's own checks: no machine blockers, the evidence matches every passage in the article, and the resolution file matches its schema. The article is still Type 4 and unpublished, and its date, lastmod, person and loc fields are unchanged.
+
+- **`edit.md`**: 4,053 words. That's under the 4,500 hard limit but above the 3,500 target. I cut most of the résumé paragraph and two minor threads to make room for the fixes.
+- **`evidence-edit.json`**: 73 claims and 25 sources, keeping the original IDs. I added claims C68–C84 and one new source, S25, which is only used to date the 2010 G20 summit.
+- **`resolution-edit.json`**: every one of the 45 reviewer findings is marked fixed, 22 protected passages are recorded (14 kept, 8 changed with reasons), and there were no inherited blockers.
+
+**What changed for readers**
+- **The Four case is weaker.** The title still says Type 4, but the type answer and FAQ now say "best read as Type 4, with Type 6 a close rival." The draft won some points by misreading its sources:
+  - The "sad" word count ignored that Olah says "worried" 14 times in one interview.
+  - Read in full, his security-agencies answer leans Six.
+  - The "slightly delusionally optimistic" quote was actually a hedge, and was used out of context.
+  - The claim that his Six evidence only shows up in dangerous situations was false. His dating doc says "I was anxiously attached," which the draft left out.
+- **New argument for Four.** It now rests on what his fears are about: most of the ones he lists concern his worth (not being liked, not being good enough). It also rests on his stated reason for supporting the accused man, which was that the man was being abandoned. Both are labeled as inference. The repeated pattern of being afraid and then acting anyway (2010 and the 2026 Vatican trip) is now conceded to the Six case and answered, not waved away.
+- **Fairness fixes.**
+  - The man accused in 2010 is no longer called his "friend" except inside Olah's own quoted 2022 sentence. The text now notes that "a lot of us really rallied."
+  - Olah's reply to his critics now sits right after their charge.
+  - His anxiety quotes now include his own line about managing it.
+  - "Rarely angry" is gone.
+- **Reader orientation.** The intro now mentions the May 2026 Vatican speech, and the Vatican section comes before the "Why not Type 6?" section, so readers meet it before it's used as evidence.
+- **Dating.** The opening is dated June 2010, and his Anthropic role reads "as of 2026."
+
+**Gaps the verifier will see**
+- The year of his LSTM tutorial isn't given: no source I opened dates it, so I logged it as a research task.
+- I didn't capture archive snapshots of the X threads. I recorded where the saved copies are kept outside the repo and logged the snapshots as a research task.
+- One quote in the "Why not Type 6?" section isn't in my cached text copy of the dating doc. I confirmed it in the saved HTML version of the page.
+
+The scripts I used to build the JSON files are in `/tmp/olah-edit-tools/`, outside the repo.

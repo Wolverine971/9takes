@@ -272,7 +272,7 @@ For how each type tends to lead once they're in the chair, our [guide to Enneagr
 
 **These are our typings, not test results.** Nobody here took a test for us. Each profile is 9takes' reading of the public record: interviews, decisions, writing. If our writers tend to read privacy and analytic distance as Type 5, engineers will come out as Fives, and we can't rule that out from inside our own numbers. The wider debate about what typing can and can't support is in our look at [the strongest criticisms of the Enneagram](/enneagram-corner/enneagram-criticisms).
 
-**The groups are judgment calls.** Vivek Ramaswamy founded and ran Roivant. [Jared Kushner](/personality-analysis/jared-kushner) ran his family's real-estate company. Both are Threes, and we filed both under business-adjacent because politics now dominates their public record. Move them into the CEO set and Fives lead by one, 14 to 13.
+**The groups are judgment calls.** [Vivek Ramaswamy](/personality-analysis/vivek-ramaswamy) founded and ran Roivant. [Jared Kushner](/personality-analysis/jared-kushner) ran his family's real-estate company. Both are Threes, and we filed both under business-adjacent because politics now dominates their public record. Move them into the CEO set and Fives lead by one, 14 to 13.
 
 **Small numbers move.** With 46 people, one retyping shifts a share by about two points. The Five surplus is big enough to survive a few retypings. The gap between Fives and Threes isn't.
 
@@ -337,7 +337,7 @@ Data pulled October 7, 2026, from the 451 published profiles on 9takes. The busi
 
 **Business-adjacent (19)**
 
-- Type 1: [Anna Wintour](/personality-analysis/anna-wintour), Ryan Holiday
+- Type 1: [Anna Wintour](/personality-analysis/anna-wintour), [Ryan Holiday](/personality-analysis/ryan-holiday)
 - Type 2: Simon Sinek
 - Type 3: [David Beckham](/personality-analysis/david-beckham), Jared Kushner, Kris Jenner, Taylor Swift, Tony Robbins, Tyler Perry, Vivek Ramaswamy
 - Type 4: [Emma Chamberlain](/personality-analysis/emma-chamberlain)

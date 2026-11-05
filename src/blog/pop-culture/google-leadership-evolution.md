@@ -47,7 +47,7 @@ The reason why is a personality story.
 
 ## Why Google is the only Big Tech where the founders had to come back
 
-Tim Cook, Satya Nadella, Andy Jassy. None of them needed the founder back when the world changed. Each successor was the founder's psychological twin — or close enough that the company never had to renegotiate what it was at the core. Google's succession was different from the start. The difference was personality, not strategy.
+[Tim Cook](/personality-analysis/tim-cook), Satya Nadella, Andy Jassy. None of them needed the founder back when the world changed. Each successor was the founder's psychological twin — or close enough that the company never had to renegotiate what it was at the core. Google's succession was different from the start. The difference was personality, not strategy.
 
 Page (5w6) and Brin (5w7) built the company on Type 5 founder energy: analytical, exploratory, contrarian, scattered. The 6 wing in Page built the secrecy infrastructure — shell companies, private islands, dual-class voting stock that made shareholder votes mostly decorative. The 7 wing in Brin kept the place weird — handstands in meetings, an airship company, a wife whose genome database told him he might develop Parkinson's.
 

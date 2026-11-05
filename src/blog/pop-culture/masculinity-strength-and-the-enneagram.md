@@ -86,7 +86,7 @@ It can look like:
 - naming vulnerability without turning a partner into a therapist
 - holding a boundary without domination
 - processing rejection without treating it as humiliation or revenge
-- repairing harm with an apology and changed behavior
+- repairing harm with [an apology and changed behavior](/enneagram-corner/how-to-apologize-like-a-pro)
 
 Relationship research supports the value of these capacities without calling them uniquely masculine or universally attractive. A longitudinal study of long-term marriages connected constructive down-regulation of negative emotion during conflict with marital satisfaction over time. ([Bloch, Haase, & Levenson, 2014](https://doi.org/10.1037/a0034272)) A 30-day diary study of 34 newlywed couples found that perceived partner responsiveness—feeling understood, cared for, and accepted—predicted marital satisfaction for both husbands and wives at the person level. ([Gadassi et al., 2016](https://doi.org/10.1007/s10508-014-0448-2))
 

@@ -1,0 +1,19 @@
+Warning: this sign-in can end at any time from now until 2026-11-08. Renewing it does not move that date. Run claude auth login now, or use claude setup-token for unattended jobs.
+I finished the Enneagram review for Chris Olah and wrote `review-enneagram.json` in the run folder. It passes the review schema, and every quoted passage matches the draft exactly. Nothing else in the repo changed and nothing was published.
+
+**Verdict:** Type 4 holds up at medium confidence, but in several places the draft wins the argument by how it frames things rather than by real evidence. The draft's test for 4 versus 6 is the right one: when something he wants is missing, does he seek safety, or meaning and being seen? The draft just applies it selectively. I reopened his 2021 80,000 Hours interviews, the 2024 Lex Fridman transcript, his date-me doc and the Gilead thread to check this. I did not reopen the New York Times story (read via its Salt Lake Tribune reprint).
+
+**Major findings (4):**
+1. **False contrast.** The draft says his Six evidence comes from real danger and work talk, while his Four evidence comes from his private life. His date-me doc contradicts that. It also says "I was anxiously attached," that his partner's love of adventure was "anxiety producing," and that he finds it hard to be spontaneous. The draft leaves those lines out.
+2. **The "sad" word count is cherry-picked.** In his August 2021 interview on what happens inside neural networks, Olah says "worried" or "nervous" about 15 times and "sad" about 3. Some of those are personal, like "I feel really nervous to describe these as being about concepts." The FAQ line "'sad,' not alarmed" doesn't hold.
+3. **Type 1 is ruled out on a false premise.** The draft says anger is "absent from his record," but its own quotes include "There was a lot of outrage" and "really outraged at just the appalling ethics of it." It also misreads his "two hats" answer as putting the outrage aside. A real test against Type 1 is in the date-me doc: he says he doesn't want a partner who shares his beliefs.
+4. **The counterphobic Six reading is never answered.** The draft itself calls him "a textbook counterphobic Six" and shows the same fear-then-approach pattern in 2010 and 2026. Then it dismisses the pattern instead of rebutting it.
+
+**Minor findings (3):**
+- "Owns the envy" turns his ambiguous "That's something that's come to resonate with me" into a fact.
+- Type 5 is dismissed with a stereotype, and the "5 wing" line is then used to absorb the Five evidence.
+- "Across a decade of interviews" is really five years (2021–2026).
+
+**Passages to protect (5):** the "Fear came first" opening, the line naming what evidence would change the read, the refusal to treat the bullying as the cause of his type, the "statistics joke as often as a poem" paragraph, and the closing Gilead quote.
+
+The similarity check flagged other drafts, but the overlap is only the standard phrase "core emotion is shame," which the house style uses. It's not reused argument. I left both risk flags (sensitive allegations, contested typing) set to true.

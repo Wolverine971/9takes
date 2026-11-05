@@ -223,7 +223,8 @@ This is what [the abstract framework piece on Dark Triad and Enneagram](/pop-cul
 <div style="text-align: center; margin: 2rem 0;">
 	<p>
 		<i
-			>This post is part of the Tech Titans Through the Enneagram series. See also
+			>This post is part of the
+			<a href="/pop-culture/tech-titans-enneagram-analysis">Tech Titans Through the Enneagram</a> series. See also
 			<a href="/pop-culture/tech-titans-leadership-styles">Tech Leadership by Personality Type</a>,
 			<a href="/pop-culture/dark-triad-meets-enneagram">Dark Triad Meets Enneagram</a>, and
 			<a href="/pop-culture/musk-vs-altman-trial-personality-dynamics"

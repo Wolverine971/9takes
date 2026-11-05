@@ -1310,6 +1310,106 @@
 			"id": "/enneagram-corner/toxic-traits-relationships-warning-signs -> /enneagram-corner/enneagram-compatibility-matrix",
 			"reason": "'couples therapist' referral, not type pairing",
 			"date": "2026-10-29"
+		},
+		{
+			"id": "/pop-culture/podcast-bros-enneagram-analysis -> /enneagram-corner/how-to-apologize-like-a-pro",
+			"reason": "Rogan's public apology for a resurfaced slur, not apology how-to",
+			"date": "2026-11-05"
+		},
+		{
+			"id": "/enneagram-corner/mental-health/enneagram-addiction-recovery-guide -> /enneagram-corner/what-is-a-love-language",
+			"reason": "'different things' title-token match",
+			"date": "2026-11-05"
+		},
+		{
+			"id": "/pop-culture/podcaster-personality-map -> /enneagram-corner/what-is-a-love-language",
+			"reason": "'want different' title-token match",
+			"date": "2026-11-05"
+		},
+		{
+			"id": "/enneagram-corner/first-impression-enneagram-playbook -> /enneagram-corner/how-to-apologize-like-a-pro",
+			"reason": "'space taken without apology' describes Type 8 presence",
+			"date": "2026-11-05"
+		},
+		{
+			"id": "/pop-culture/comedy-kings-enneagram-analysis -> /enneagram-corner/enneagram-and-religion",
+			"reason": "'Christina' (Christina P) name token",
+			"date": "2026-11-05"
+		},
+		{
+			"id": "/pop-culture/comedy-kings-enneagram-analysis -> /pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
+			"reason": "'host' = Davidson hosting SNL",
+			"date": "2026-11-05"
+		},
+		{
+			"id": "/community/kantian-filters-and-nine-perspectives -> /enneagram-corner/enneagram-and-religion",
+			"reason": "'spiritual reality' in a conspiracy-theory summary",
+			"date": "2026-11-05"
+		},
+		{
+			"id": "/enneagram-corner/mental-health/enneagram-trauma-response-guide -> /enneagram-corner/which-enneagram-type-is-most-likely-to-be-a-narcissist",
+			"reason": "'narcissistic parents' as childhood origin, not type question",
+			"date": "2026-11-05"
+		},
+		{
+			"id": "/pop-culture/hollywood-heartthrobs-enneagram-analysis -> /enneagram-corner/enneagram-and-mental-illness",
+			"reason": "actor playing a DID character",
+			"date": "2026-11-05"
+		},
+		{
+			"id": "/pop-culture/what-enneagram-type-are-most-musicians -> /pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
+			"reason": "'John' = John Lennon",
+			"date": "2026-11-05"
+		},
+		{
+			"id": "/pop-culture/tech-titans-founders-vs-stewards -> /pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
+			"reason": "'John' = John Thompson",
+			"date": "2026-11-05"
+		},
+		{
+			"id": "/community/mbti-vs-enneagram -> /enneagram-corner/enneagram-types-and-career-choices",
+			"reason": "'consultants built careers' on MBTI",
+			"date": "2026-11-05"
+		},
+		{
+			"id": "/pop-culture/psychology-of-public-shame -> /enneagram-corner/enneagram-types-and-career-choices",
+			"reason": "'careers it ended' = cancellation",
+			"date": "2026-11-05"
+		},
+		{
+			"id": "/pop-culture/podcast-bros-enneagram-analysis -> /pop-culture/tech-titans-ai-wars",
+			"reason": "Elon Musk name; his own page is the right target",
+			"date": "2026-11-05"
+		},
+		{
+			"id": "/pop-culture/twitter-x-personality-types-toxic -> /pop-culture/tech-titans-ai-wars",
+			"reason": "Elon Musk name in FAQ heading",
+			"date": "2026-11-05"
+		},
+		{
+			"id": "/pop-culture/musk-vs-altman-trial-personality-dynamics -> /pop-culture/tech-titans-disruptors",
+			"reason": "Elon Musk name; trial verdict sentence",
+			"date": "2026-11-05"
+		},
+		{
+			"id": "/how-to-guides/productivity-systems-by-enneagram-type -> /enneagram-corner/why-dating-apps-are-harder-for-certain-personality-types",
+			"reason": "'digital apps' = productivity apps",
+			"date": "2026-11-05"
+		},
+		{
+			"id": "/community/societal-ticking-time-bombs -> /enneagram-corner/why-dating-apps-are-harder-for-certain-personality-types",
+			"reason": "'betting apps'",
+			"date": "2026-11-05"
+		},
+		{
+			"id": "/enneagram-corner/mental-health/enneagram-crisis-management-guide -> /enneagram-corner/toxic-traits-of-each-enneagram-type",
+			"reason": "'Evil winning' in a Type 1 stressor list",
+			"date": "2026-11-05"
+		},
+		{
+			"id": "/enneagram-corner/how-type-8-challengers-actually-succeed -> /pop-culture/comedy-kings-enneagram-analysis",
+			"reason": "'men alive' = SEAL keeping his men alive",
+			"date": "2026-11-05"
 		}
 	]
 }

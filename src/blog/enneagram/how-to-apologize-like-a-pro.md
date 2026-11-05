@@ -180,7 +180,7 @@ The breakthrough: one clear apology, then tolerate the silence. The silence isn'
 
 ### Type 7: The Enthusiast's Avoidance Dance
 
-You hurt your friend's feelings at dinner, and ten minutes later you're already saying, "Okay, but on the bright side — the pasta was incredible. Where should we go next weekend?" You're not trying to be dismissive. You genuinely can't stand the weight of her disappointment in the air. So you reach for the next thing: ice cream, a trip, a joke, a plan. She watches you do it and thinks, _this is why I can't stay hurt around him. He won't let me._
+You hurt your friend's feelings at dinner, and ten minutes later you're already saying, "Okay, but on the bright side — the pasta was incredible. Where should we go next weekend?" You're not trying to be dismissive. You genuinely can't stand the weight of her disappointment in the air. So you [reach for the next thing](/enneagram-corner/why-the-next-thing-wont-fix-it-type-7): ice cream, a trip, a joke, a plan. She watches you do it and thinks, _this is why I can't stay hurt around him. He won't let me._
 
 As a security protector, you maintain emotional safety by staying in the positive. Guilt and discomfort threaten the whole system, so you route around them with humor, plans, or cheerful disappearance. But the repair requires the one thing you've spent your life avoiding: staying present with a feeling that doesn't feel good.
 

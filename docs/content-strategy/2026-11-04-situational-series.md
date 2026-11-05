@@ -1,8 +1,9 @@
 <!-- docs/content-strategy/2026-11-04-situational-series.md -->
+
 # Situational Series: framing (2026-11-04)
 
 Hyper-specific posts built around one moment a reader is about to walk into (or just walked out of).
-Status: framing only. Nothing drafted yet. DJ to answer the riff questions at the bottom before drafting.
+Status: skeletons written 2026-11-04; DJ threading. See Decisions.
 
 ## Why this series fits 9takes
 
@@ -90,17 +91,28 @@ Recommended order: 1, 2 (this week) → 3, 5, 6 (by Nov 12) → 4, 7, 8 (by Nov 
   **Thanksgiving hub** linking all of them plus the live questions. Same writing effort; the
   difference is the posts feed the give-first loop instead of ending at "thanks for reading."
 
-## Riff questions for DJ (before drafting)
+## Decisions (2026-11-04)
 
-1. Describe what you're envisioning for the voice. Is it you in first person, with your own
-   family table in it (you've offered family stories before), or a neutral 9takes voice?
-2. Post #2: which person is it? (a) a Republican whose side lost and is bracing to get dunked on,
-   (b) a Republican who **switched** and voted Democrat, now caught between both sides, or both as two posts?
-3. Post #1: how hard do we lean into the "revenge" feeling? Validate it and then redirect, or
-   name it as the trap from the first paragraph?
-4. #3 vs #4: keep them separate (young guy being diagnosed vs. 30s person watching everyone couple up),
-   or merge into one stronger post?
-5. Lean or ambitious?
+- **Ambitious version.** Each post gets a seeded 9takes question, a nine-reactions carousel, and a Thanksgiving hub.
+- **Format:** DJ threads the prose himself. Claude supplies bare-bones beat sheets with `[DJ: ...]` placeholders.
+- **Section order (every post):** the scene → what they'll say → what they're really asking →
+  what's going on for them → what's going on for you → the nine at this table (= the carousel) →
+  defuse it → seeded question.
+- **Post #2** = DJ's literal ask: a Republican who **switched** their vote and gets dunked on from both sides.
+  A plain "your side lost" version is parked as an option.
+- **#3 and #4 stay separate:** different searchers (young guy being sized up vs. 30s comparison).
+- **Post #1:** validate the revenge feeling, then redirect.
+
+Skeletons: `src/blog/guides/drafts/situational/` (excluded from build, sitemap and audits).
+To publish, move the file to `src/blog/guides/`, fill in the frontmatter, then run `pnpm crosslinks:check`.
+
+## Ambitious build checklist
+
+- [ ] DJ threads posts 1-2 (this week), then 3, 5, 6 (by Nov 12), then 4 (by Nov 14)
+- [ ] Seed the six questions on 9takes (text is in each skeleton)
+- [ ] Carousel per post from "the nine at this table"
+- [ ] Thanksgiving hub page: links all posts and live questions; ship once three or more posts are live
+- [ ] Re-verify midterm results and survey stats (`[CHECK]` tags) before each publish
 
 ## Sources
 

@@ -237,7 +237,7 @@ His run of high-profile relationships, Ariana Grande, Kim Kardashian, Kate Becki
 
 The family context matters too. Our [Kardashian family Enneagram analysis](/pop-culture/kardashian-family-enneagram-analysis) maps the achievement, caretaking, loyalty, and merging patterns in the orbit Davidson entered.
 
-His openness about a borderline personality disorder diagnosis adds a second layer.
+His openness about a [borderline personality disorder](/enneagram-corner/enneagram-and-mental-illness) diagnosis adds a second layer.
 
 The core 9 pattern is self-erasure, forgetting your own needs and wants until you barely register as a person to yourself. Pair that with the instability BPD brings and the effect compounds. The result is a man who can be the literal center of attention and still seem like he's not entirely in the room.
 

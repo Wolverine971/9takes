@@ -693,7 +693,7 @@ Only if they're genuinely interested in personal growth. The Enneagram is a tool
 
 **What if I'm attracted to unhealthy versions of my type?**
 
-This often happens when you're in your own stress patterns. Type 2s attract narcissists when over-giving. Type 6s attract controllers when anxious. Work on your own health first. You'll naturally attract healthier partners.
+This often happens when you're in your own stress patterns. Type 2s attract [narcissists](/enneagram-corner/which-enneagram-type-is-most-likely-to-be-a-narcissist) when over-giving. Type 6s attract controllers when anxious. Work on your own health first. You'll naturally attract healthier partners.
 
 <svelte:head>
 

@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "subject",
+  "content_sha256": "edbfb1c268ec325af3b5154d14f51ce5048c8f3e7ed6749974d92d7fa5540391",
+  "evidence_sha256": "bd4c223b5b60b4853e168adbeec27479fce22bf87b5cd495a278a0aa161d9067",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "subject-F1",
+      "severity": "major",
+      "passage": "## The friend everyone else stepped away from",
+      "problem": "The heading turns Olah into the lone supporter of an abandoned man. His own account in S01 says the opposite about his community: \"I didn't know him that well, I knew him a bit through HackLab, but a lot of us really rallied in supporting him. I had a lot more flexibility than other people because I was a university student.\" His stated principle is about \"certain people\" stepping away, not everyone. The heading inflates his singularity in exactly the direction the 'moral loneliness' thesis wants, and misstates what a named community of third parties did during the acquitted man's case. It also sits awkwardly with the body's own \"Olah only knew him a bit.\"",
+      "acceptance_test": "The heading and nearby prose no longer say or imply that everyone else abandoned the man. The section notes, with S01 as the source, that many HackLab members rallied and that Olah's student schedule let him do more. 'Friend' is used only where it is Olah's own word (the 2022 doc), or it is attributed to him."
+    },
+    {
+      "id": "subject-F2",
+      "severity": "major",
+      "passage": "Navon wasn't troubled, he said, because he didn't believe the machine was conscious, \"but that Olah was troubled.\" To Dias he said: \"we don't know if AI models are conscious. I don't know. I'm genuinely uncertain. The thing that I care about is that we get to the right answer, whatever it is.\"\n\n(Critics quoted in the same piece argue that treating models as independent beings lets their builders off the hook.)",
+      "problem": "Two fairness problems. (1) 'To Dias he said' follows a sentence whose subject is Navon, so a reader can attribute Olah's quote to the rabbi. (2) In the NYT/SLTrib text, Olah's \"To be clear... we don't know if AI models are conscious\" comes directly after the critics' paragraph and reads as his answer to them. The draft moves his answer up to the Navon anecdote and leaves the critics' charge as a parenthetical with no response. The criticism stays in the article, but his reply to it is cut away.",
+      "acceptance_test": "The quote is attributed by name (\"Olah told Dias\"). The critics' argument and Olah's on-record reply are next to each other, in the order the NYT gives them, so the reader sees the charge and his answer together. Navon's account stays attributed to Navon."
+    },
+    {
+      "id": "subject-F3",
+      "severity": "major",
+      "passage": "He wrote: \"I have mild issues with anxiety. I often irrationally worry that people don't like me. In relationships, I worry a lot about not being good enough and my partner leaving me.\"",
+      "problem": "The draft quotes the 'Cons' list from his dating document, but cuts the response he wrote with it. In S04 the list goes on: \"I'm very self-aware about all of these things and am generally able to manage them fairly well, but you would see them in a relationship.\" The same applies to the passage the draft later uses under the heading \"He is agreeable to a fault\": right after \"I'm not very assertive,\" the doc adds, as a \"surprising contrast,\" \"I think I'm actually very good at standing up for what I believe in,\" with the court-support episode as his example. Self-disclosed vulnerabilities written for a prospective partner are reused as typing evidence, while his own framing of them is omitted. The 'agreeable to a fault' heading is the author's judgment and goes further than his self-description.",
+      "acceptance_test": "Wherever the article uses the anxiety and assertiveness lines, it also gives his stated self-management or his 'standing up for what I believe in' counterpoint, quoted accurately from S04. The heading 'He is agreeable to a fault' is replaced or attributed so it no longer passes off the author's evaluation as his self-report."
+    },
+    {
+      "id": "subject-F4",
+      "severity": "major",
+      "passage": "Olah answers loneliness, disappointment and the wait for a family by making the feeling visible, owning it in public and looking for the beauty or meaning in it.",
+      "problem": "This passage (repeated word for word in the type FAQ) describes his private life in the present tense, as an ongoing wait for a family. The evidence for that wait is 2021–2022 (S04, S07, S08). The doc's own header says he is 'no longer single,' and the evidence record (C39) says relationship status should not be speculated about. A present-tense portrait of an unfulfilled personal longing could be false today and is intrusive. The body handles this better ('He is no longer single, he notes at the top'), so body and metadata disagree.",
+      "acceptance_test": "The 60-word answer and the type FAQ either drop 'the wait for a family' or date it explicitly (for example 'in 2021–2022 writing about wanting a family'). No present-tense sentence anywhere claims he is currently lonely, single or waiting for children. The FAQ still matches the body answer."
+    },
+    {
+      "id": "subject-F5",
+      "severity": "major",
+      "passage": "Sad, across contexts and years, even about state misconduct. Rarely angry, rarely suspicious.",
+      "problem": "The draft's own sources record anger that this summary erases. In the same S01 answers the draft quotes, Olah says \"There was a lot of outrage\" and \"I'm really outraged at just the appalling ethics of it\" about the security agencies, and he also speaks of systematic distrust of those agencies. Later the draft says \"the anger that marks a One is absent from his record.\" Flattening his reported outrage into sadness makes him more plaintive than his own words, and it tilts the typing evidence. The 'hat' quote shows that he holds both; the summary keeps only one.",
+      "acceptance_test": "The summary and the One paragraph acknowledge his stated outrage about the 2010 case (quoted from S01). Any claim that he is 'rarely angry' or that anger is 'absent from his record' is removed or narrowed to what the sources actually show, for example that he tends to name sadness as his landing emotion."
+    },
+    {
+      "id": "subject-F6",
+      "severity": "major",
+      "passage": "Something real is hidden, and he wants it seen and felt. The dog-head circuit, the fish, a model's possible distress. A Five would be satisfied to understand it. Olah wants you to love it, or to grieve it, with him.",
+      "problem": "The flat motive statement 'Olah wants you to love it, or to grieve it, with him' raises a reporter's hedged impression (Dias: \"It was as if he wanted me to love the models as much as he did\") into a fact about his inner wishes. It then extends that to grief, which no source attributes to him. The fish anecdote is his mother's memory of a four-year-old, not evidence of an adult motive. The Five contrast is a stereotype offered as if it were a discriminator.",
+      "acceptance_test": "The motive is marked as inference ('this suggests', 'Dias's impression was'), the grief clause either has a source or is cut, and the passage no longer treats the childhood fish anecdote as evidence of a current motive. Any Five contrast is stated as a reading, not as a fact about what Fives would feel."
+    },
+    {
+      "id": "subject-F7",
+      "severity": "minor",
+      "passage": "He owns the envy, through the pastor, of people who have what he lacks.",
+      "problem": "In the Gilead thread (S08) he says the pastor's 'jealousy and resentment towards a character who has a child by accident and is a terrible father' has 'come to resonate with me more over that time.' That is a sympathetic reading of a fictional character, aimed at one specific case. The draft generalizes it to owning envy of 'people who have what he lacks,' which is a broader emotional attribution than he made. Earlier in the same section, 'I shouldn't compare' shows him actively resisting that feeling.",
+      "acceptance_test": "The sentence stays close to his words: he says the pastor's jealousy toward a careless father has come to resonate with him. Any wider claim about envy is labeled as the author's inference."
+    },
+    {
+      "id": "subject-F8",
+      "severity": "minor",
+      "passage": "Two participants said his team privately lobbied the pope's advisers. Anthropic declined to discuss the private conversations.",
+      "problem": "The NYT (S13) says 'Olah and his team lobbied the pope's advisers to take the prospect of AI model consciousness seriously.' The draft leaves out what they were advocating for, which makes 'lobbied' read as vaguely self-interested, and it removes Olah as an actor in a way that does not match the source. It also omits the source's next point, that 'Organizers at the Vatican encouraged Olah to speak his conscience,' which is relevant context for whether his public dissent was unilateral. These claims rest on anonymous participants and an unnamed organizer, so the precise wording matters.",
+      "acceptance_test": "The sentence follows S13: Olah and his team, the purpose (to take AI model consciousness seriously), two unnamed participants as the source, and Anthropic's non-comment. The organizers' encouragement to speak his conscience appears, or the editor records why it was left out."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "The bullying isn't offered here as the cause of his type; the sources describe the experience, not what it did to him.",
+      "reason": "A model of the fairness discipline the standard asks for: it names the limit of the childhood evidence in the text and refuses to invent a wound."
+    },
+    {
+      "passage": "He doesn't inflate what he did. \"I don't know that I actually helped very much,\" he said, calling the episode \"altruistic, but not especially effective.\"",
+      "reason": "Lets the subject's own modest self-assessment correct the heroic reading of the defining anecdote; context-faithful to S01."
+    },
+    {
+      "passage": "A person familiar with his thinking told the Times he \"wanted to support the event despite his disagreements, but felt a responsibility to be honest about his concerns.\" Two participants said his team privately lobbied the pope's advisers. Anthropic declined to discuss the private conversations.",
+      "reason": "Labels every element of an anonymously sourced, potentially unflattering episode, includes the response from his side and Anthropic's non-comment. Keep the structure even if F8's wording fix is applied."
+    },
+    {
+      "passage": "The beauty language may be partly shared.** Some of it is his field's vocabulary and his employer's, and Lex Fridman prompted the 2024 answer. Most of the personal evidence comes from things Olah wrote for an audience, including a document meant to attract a partner. Those show what he chooses to reveal, not everything he is.",
+      "reason": "Openly separates self-presentation from inner truth and admits that the most intimate evidence was written for an audience. This is the key limit on the public record for this subject."
+    },
+    {
+      "passage": "What would change this read is named colleagues saying that, under stress at work, he habitually seeks reassurance, defers to authority or expects the worst. The research for this page found no such account.",
+      "reason": "Names a concrete falsifier and admits that independent testimony is missing, instead of claiming certainty."
+    }
+  ],
+  "assessment": "Fairness proxy read. The draft is generally careful. It attributes the Vatican episode to a Vatican organizer, a person familiar with his thinking and two participants, includes Anthropic's non-comment, declines to make bullying the cause of his type, and admits that the most intimate evidence (the 2022 dating doc and the threads) is self-presentation written for an audience. The HackLab case concerns a third party who was acquitted. The draft keeps him unnamed and uses Olah's own 'found innocent of all charges,' which is the right call (sensitive_allegations stays true). Three of my checks against the opened sources (S01 transcript, S04 doc, S08 Gilead thread, S13 SLTrib syndication) found selective framing that makes Olah lonelier, sadder and more singular than his own words: the 'everyone else stepped away' heading against his 'a lot of us really rallied' (F1); his recorded outrage reduced to 'rarely angry' (F5); and his self-management and 'standing up for what I believe in' qualifiers cut from the dating-doc cons (F3). Each of these also tilts the 4-versus-6/9 argument, so contested_typing stays true. One more problem: Olah's on-record reply to his critics is detached from their charge and misplaced after Navon, with an ambiguous pronoun (F2). The type answer and FAQ put a 2021–2022 private longing in the present tense even though he says he is no longer single (F4). A reporter's 'as if' impression becomes a flat motive (F6). No material factual error was found in the dates, net-worth attribution or birth year (the doc header says 'born 1992'). The similarity advisory tripped on 'whose core emotion is shame' (Mike Faist) and 'the three types' (Hunter Schafer). Those are ordinary triad vocabulary, not reused arguments, so I report no reuse finding. The triad paragraph is still the most generic paragraph in the piece, and the editor may tighten it. I do not speak for Olah. These findings test whether the page separates his public record from the author's inference."
+}
