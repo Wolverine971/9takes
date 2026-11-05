@@ -1,5 +1,5 @@
 {
-	"date": "2026-11-04",
+	"date": "2026-11-05",
 	"deliveryImages": [
 		{
 			"file": "static/blogs/people-from-diverse-backgrounds.webp",
@@ -58,18 +58,18 @@
 			"batch": 1
 		},
 		{
-			"file": "static/blogs/greek-statue-offering-mercy-under-streetlamp.webp",
+			"file": "static/blogs/greek-statues-offering-water-v3.webp",
 			"width": 1200,
 			"height": 800,
-			"bytes": 141504,
-			"batch": 2
+			"bytes": 113604,
+			"batch": 3
 		},
 		{
-			"file": "static/blogs/s-greek-statue-offering-mercy-under-streetlamp.webp",
+			"file": "static/blogs/s-greek-statues-offering-water-v3.webp",
 			"width": 480,
 			"height": 320,
-			"bytes": 21424,
-			"batch": 2
+			"bytes": 25948,
+			"batch": 3
 		},
 		{
 			"file": "static/blogs/medications_and_stress.webp",
@@ -86,18 +86,18 @@
 			"batch": 2
 		},
 		{
-			"file": "static/blogs/brain-vs-heart-dichotomy.webp",
+			"file": "static/blogs/greek-statue-self-reflection-v3.webp",
 			"width": 1200,
 			"height": 800,
-			"bytes": 104634,
-			"batch": 2
+			"bytes": 85606,
+			"batch": 3
 		},
 		{
-			"file": "static/blogs/s-brain-vs-heart-dichotomy.webp",
+			"file": "static/blogs/s-greek-statue-self-reflection-v3.webp",
 			"width": 480,
 			"height": 320,
-			"bytes": 18436,
-			"batch": 2
+			"bytes": 23002,
+			"batch": 3
 		},
 		{
 			"file": "static/blogs/emotions-crash-course-kindergarten.webp",
@@ -114,18 +114,18 @@
 			"batch": 2
 		},
 		{
-			"file": "static/blogs/empty-room.webp",
+			"file": "static/blogs/empty-room-after-the-game-v3.webp",
 			"width": 1200,
-			"height": 673,
-			"bytes": 68300,
-			"batch": 2
+			"height": 675,
+			"bytes": 66128,
+			"batch": 3
 		},
 		{
-			"file": "static/blogs/s-empty-room.webp",
+			"file": "static/blogs/s-empty-room-after-the-game-v3.webp",
 			"width": 480,
-			"height": 269,
-			"bytes": 8534,
-			"batch": 2
+			"height": 270,
+			"bytes": 14864,
+			"batch": 3
 		},
 		{
 			"file": "static/blogs/enneagram-vs-meyers-briggs.webp",
@@ -142,40 +142,56 @@
 			"batch": 2
 		},
 		{
-			"file": "static/blogs/freud-plato.webp",
+			"file": "static/blogs/freud-plato-even-light-v3.webp",
 			"width": 1200,
 			"height": 1200,
-			"bytes": 166250,
-			"batch": 2
+			"bytes": 188880,
+			"batch": 3
 		},
 		{
-			"file": "static/blogs/s-freud-plato.webp",
+			"file": "static/blogs/s-freud-plato-even-light-v3.webp",
 			"width": 480,
 			"height": 480,
-			"bytes": 24174,
-			"batch": 2
+			"bytes": 33244,
+			"batch": 3
 		}
 	],
-	"originalBackups": {
-		"batch1": "Verified against Git before first replacement; preserved in validation-batch-1.json",
-		"batch2": "All 14 archived files match HEAD before replacement"
-	},
-	"articleReferences": "11/11 resolve at original public URLs",
+	"originalBackups": "22 pre-audit WebPs plus 8 superseded round-two WebPs archived. All 8 round-two files match the prior Git revision.",
+	"articleReferences": "11/11 articles point to current artwork; the four revised articles use new cache keys.",
+	"oldRedirects": "8/8 configured Vercel redirects point to verified current WebPs",
+	"retained": "6/6 full-size and thumbnail files in the three retained families match HEAD",
 	"mastersPresent": true,
-	"deliveryBytes": 1709754,
+	"deliveryBytes": 1707774,
 	"previousDeliveryBytes": 1713398,
-	"savedBytes": 3644,
+	"savedBytes": 5624,
 	"staticAssetBudget": "passed",
-	"svelteCheck": "0 errors, 0 warnings",
-	"communityHeroRatios": {
-		"be-gentle-when-youre-right": "3 / 2",
-		"societal-ticking-time-bombs": "1674 / 939",
-		"default": "10 / 16"
-	},
-	"reviewBrowserChecks": {
-		"comparisonImagesLoaded": 22,
-		"latestBatchCount": 7,
-		"tierFilter": "T1 returns 43 images",
-		"search": "freud-plato returns 1 image"
-	}
+	"reviewChecks": "4 current comparisons; all local img paths exist",
+	"svelteCheck": "0 errors and 0 warnings",
+	"renderedArticles": [
+		{
+			"route": "/enneagram-corner/neurodiversity-vs-personality",
+			"hero": "/blogs/greek-statue-self-reflection-v3.webp",
+			"thumbnail": "/blogs/s-greek-statue-self-reflection-v3.webp",
+			"socialImage": "https://9takes.com/blogs/greek-statue-self-reflection-v3.webp"
+		},
+		{
+			"route": "/enneagram-corner/philosophy-psychology-and-the-enneagram",
+			"hero": "/blogs/freud-plato-even-light-v3.webp",
+			"thumbnail": "/blogs/s-freud-plato-even-light-v3.webp",
+			"socialImage": "https://9takes.com/blogs/freud-plato-even-light-v3.webp"
+		},
+		{
+			"route": "/community/be-gentle-when-youre-right",
+			"hero": "/blogs/greek-statues-offering-water-v3.webp",
+			"thumbnail": "/blogs/s-greek-statues-offering-water-v3.webp",
+			"socialImage": "https://9takes.com/blogs/greek-statues-offering-water-v3.webp"
+		},
+		{
+			"route": "/community/societal-ticking-time-bombs",
+			"hero": "/blogs/empty-room-after-the-game-v3.webp",
+			"thumbnail": "/blogs/s-empty-room-after-the-game-v3.webp",
+			"socialImage": "https://9takes.com/blogs/empty-room-after-the-game-v3.webp"
+		}
+	],
+	"sitemap": "Four image:loc entries point to current versioned artwork."
 }

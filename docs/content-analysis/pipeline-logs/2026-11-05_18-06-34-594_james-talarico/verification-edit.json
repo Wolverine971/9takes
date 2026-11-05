@@ -1,0 +1,1068 @@
+{
+	"schema_version": 3,
+	"content_sha256": "1829e3cab9b236db3dca24227e2967c1e101c3afa821a0346b08c12abf7d5a90",
+	"evidence_sha256": "90513ce726ca2de6f2edcd4e9e841010d573d381363201526a6440abf99345d4",
+	"status": "revise",
+	"findings": [
+		{
+			"id": "verify-01",
+			"severity": "major",
+			"passage": "None of this is airtight. The Three evidence, the class size, the super PAC and the repositioning, all arrives under the heaviest statewide pressure, when almost anyone adapts, so it discriminates less than the earlier choices. The same discount applies to his side",
+			"problem": "After the edit the piece runs 4,027 words, above the standard's 2,000-3,500 target, and the argument now qualifies itself in nearly every paragraph. 'Why One still beats Three' carries five separate discounts (UIL 'self-report, told years later and unconfirmed here'; the pledge 'said it all while running for higher office'; 'one campaign-season interview ... does not prove one'; 'None of this is airtight'; 'The same discount applies to his side'), and the same campaign-message caveat already appears at the top ('which makes his self-descriptions weaker evidence than usual'). Each caveat is true, but stacked together they make the type argument read like a legal brief. They blunt the verdict and hold down the Writing and Enneagram scores, which leaves the overall just under the release floor. This is a writing problem, not a factual one.",
+			"acceptance_test": "Body is at or under about 3,600 words. Each evidence limit is stated once, where the evidence is used, and the incentive-discount logic sits in one closing confidence paragraph rather than being restated across 'Why One still beats Three'. No sourced claim in type_hypothesis.for_claim_ids, no protected passage, and no dated status sentence (45 students, allegation, pledge) is lost, and evidence-edit.json passages are updated to match."
+		},
+		{
+			"id": "verify-02",
+			"severity": "minor",
+			"passage": "His campaign said he had \"not shifted any of his stances.\"",
+			"problem": "Context compression. Per Wikipedia (S09), the campaign told the Washington Post this after a 2026 Fox News interview in which he said he opposed trans athletes in girls' sports 'if it endangers safety or fairness' and LGBTQ supporters objected. Placed straight after the CBS nonbinary reframe, it reads as a reply to that reframe and hides the more substantive repositioning that prompted it.",
+			"acceptance_test": "The sentence names the trigger and outlet (for example: after a 2026 Fox News interview on trans athletes drew criticism from LGBTQ supporters, his campaign told The Washington Post he had 'not shifted any of his stances'), sourced to S09 or the original, and C61's passage is updated to match."
+		},
+		{
+			"id": "verify-03",
+			"severity": "minor",
+			"passage": "James Talarico, the Reformer Who Fears Becoming the Problem (Enneagram Type 1)",
+			"problem": "The title states the core-fear reading as a fact. The body says it comes from one campaign-season interview inside a systems argument and that 'Read as a personal fear, it fits a One; it does not prove one.' This is headline compression rather than an error.",
+			"acceptance_test": "Either the title wording follows what he said (for example 'Who Warns He Could Become the Problem'), or the editor records why headline compression is acceptable here, given the medium-confidence meta_title 'The Case for Enneagram 1'."
+		}
+	],
+	"research_tasks": [
+		"Open the New York Times profile of 2026-10-28 directly: what the TEA records measure (period rosters vs first-week placement), the full campaign response, and whether he has repeated the 45-student figure since.",
+		"Find the House journal or vote record for James Frank's homeschool UIL participation bill, confirm the session and Talarico's vote, and look for contemporaneous reporting of Democratic blowback.",
+		"Check the Rogan episode video for the push-back exchange, especially who says 'the change is going to come from your listeners'. The Rosetta auto-transcript's speaker markers are imprecise.",
+		"Open the Washington Post piece behind the 'not shifted any of his stances' quote and the 2026 Fox News trans-athlete interview so the C61 context can be cited directly.",
+		"Locate the original 2021-08-27 Texas Signal op-ed; it is currently quoted only via syndicated Tribune reporting.",
+		"Look for a dated pre-2026 statement in which he names his own corruptibility or self-preservation as a danger.",
+		"Recheck after the January 2027 swearing-in and by 2028-01-31: two-term pledge status, any national-ticket or VP talk, any Senate leadership bid."
+	],
+	"claim_checks": [
+		{
+			"claim_id": "C01",
+			"verdict": "supported",
+			"reason": "Wikipedia infobox and 'Early life' give birth name James Dell Collins, May 17, 1989, Round Rock."
+		},
+		{
+			"claim_id": "C02",
+			"verdict": "supported",
+			"reason": "Diary of a CEO transcript 00:04:52 reads 'I have tried to fight for the people I love in the way that she fought for me' verbatim, following the hotel story."
+		},
+		{
+			"claim_id": "C03",
+			"verdict": "supported",
+			"reason": "Wikipedia 'Early career': joined Teach For America in 2011, sixth-grade English language arts at Rhodes Middle School on San Antonio's west side; Tribune profile confirms Rhodes 2011-13."
+		},
+		{
+			"claim_id": "C04",
+			"verdict": "supported",
+			"reason": "Daily Wire (Oct. 28, 2026) quotes the CNN town hall line 'At one point, I had 45 students in one classroom' 'earlier this month'; the article reports it as his claim, not as fact."
+		},
+		{
+			"claim_id": "C05",
+			"verdict": "supported",
+			"reason": "Tribune 2026-01-16 quotes Bernal verbatim in two parts around the attribution ('...desire to do more,' said ... Bernal. 'That's why he left the public schools...'). Joining the halves is faithful; wording unchanged."
+		},
+		{
+			"claim_id": "C06",
+			"verdict": "supported",
+			"reason": "Tribune quotes 'We failed Justin' and the promise verbatim from 'a campaign event in Houston last month' (Dec. 2025), and reports officials confirmed the layoffs and remembered Justin but 'could not confirm specific details'."
+		},
+		{
+			"claim_id": "C07",
+			"verdict": "supported",
+			"reason": "Tribune Aug. 9, 2021: 95 present 'included at least four new Democrats' including Talarico, 'since most Democrats fled last month over the Republican elections bill'. Quorum gloss is accurate."
+		},
+		{
+			"claim_id": "C08",
+			"verdict": "supported",
+			"reason": "San Antonio Current (syndicated Tribune) quotes the Aug. 27 Texas Signal op-ed sentence verbatim."
+		},
+		{
+			"claim_id": "C09",
+			"verdict": "supported",
+			"reason": "ABC/GMA quotes both sentences verbatim, split by 'Talarico said'; the bracketed [redistricting] is ABC's own. Joining across the tag preserves meaning."
+		},
+		{
+			"claim_id": "C11",
+			"verdict": "supported",
+			"reason": "Diary 00:09:33: 'when people hang on to these positions or are trying to reach for the next position, then everything becomes about self-preservation', said explaining the two-term pledge. The paraphrase 'hold on to office' sits outside the quotation."
+		},
+		{
+			"claim_id": "C12",
+			"verdict": "qualified",
+			"reason": "Rosetta auto-transcript has Rogan's 'you need to run for president', the cut-in 'Can I can I actually push back on that please? Because we were talking about how ... politics has become a religion', and 'the change is going to come from your listeners'. The '>>' markers are imprecise; 'your listeners' addressed to Rogan implies Talarico said it, but a video check remains a research task."
+		},
+		{
+			"claim_id": "C13",
+			"verdict": "supported",
+			"reason": "Rogan transcript: snarky Facebook comment in his first campaign, 'I wanted to respond in anger', 'But I tried to check that anger, tried to remember my teachings', coffee, 'certified NRA safety officer', 'consensus on background checks'. All match."
+		},
+		{
+			"claim_id": "C14",
+			"verdict": "supported",
+			"reason": "Diary 00:04:56: 'I felt a lot of anger toward him' and 'I've tried to appreciate the things that got him to that point' in answer to 'How do you feel about him?'."
+		},
+		{
+			"claim_id": "C15",
+			"verdict": "supported",
+			"reason": "Diary economy section: 'Trickle-down economics, in my view, is not a theory, it's theft.' verbatim."
+		},
+		{
+			"claim_id": "C16",
+			"verdict": "supported",
+			"reason": "Wikipedia fourth-term section: when SB 10 first reached the House floor 'Talarico called a point of order that delayed its passage'; 'The bill ultimately passed'."
+		},
+		{
+			"claim_id": "C17",
+			"verdict": "supported",
+			"reason": "FactCheck.org: he said 'I always think of myself as a Christian who hates Christianity' on the March 4, 2021 Activist Theology podcast; FactCheck's quoting includes the 'right?' in the fuller passage. Paxton's 2026 ad clipped it."
+		},
+		{
+			"claim_id": "C19",
+			"verdict": "supported",
+			"reason": "Diary 01:20:48: 'Yes. Ken Paxton is a child of God.' ... 'Love requires accountability.' followed by the friend's-car-keys analogy ('under the influence')."
+		},
+		{
+			"claim_id": "C21",
+			"verdict": "supported",
+			"reason": "CBS (Feb. 2, 2026): a woman named Morgan said on TikTok that after a Plano rally 'last month' he told her he 'signed up to run against a mediocre Black man'; Allred left the race in early December. theGrio names her Morgan Thompson. Attributed as allegation."
+		},
+		{
+			"claim_id": "C22",
+			"verdict": "supported",
+			"reason": "Houston Style: Lone Star Rising PAC, which backs Talarico, ran an ad attacking Crockett while he 'released one ad promoting banning Super PACs'. Axios confirms the pro-Talarico PAC's spending. Wording describes benefit, not a choice."
+		},
+		{
+			"claim_id": "C23",
+			"verdict": "supported",
+			"reason": "Tribune 2026-11-03 sentence quoted verbatim: 'distancing himself from the provocative comments he had made as a state legislator while rolling out endorsements from a handful of more moderate Republicans'."
+		},
+		{
+			"claim_id": "C24",
+			"verdict": "supported",
+			"reason": "Upworthy quotes his April 2021 thread: 'In May 2018, I was a healthy 28-year-old running for the Texas House', DKA, five days in ICU, '$684 for my first 30-day supply', 'I had to put it on a credit card'. Wikipedia confirms the 2021 $25 cap law (HB 82/SB 827)."
+		},
+		{
+			"claim_id": "C25",
+			"verdict": "supported",
+			"reason": "Tribune and Houston Public Media (Nov. 3, 2026): defeated Paxton; first Democratic U.S. Senate win in Texas since 1988."
+		},
+		{
+			"claim_id": "C26",
+			"verdict": "supported",
+			"reason": "KSAT (Tribune) debate report: 'Talarico made it a point to avoid attacking Crockett, saying they were \"focused on the same goal, which is winning in November.\"'"
+		},
+		{
+			"claim_id": "C27",
+			"verdict": "supported",
+			"reason": "Diary 00:07:23-41: Bartlett says he was voted most likely to become president; he answers 'I think so. Yeah' and 'I was the president of our choir and the captain of our debate team'. Wikipedia has Danny Zuko in Grease."
+		},
+		{
+			"claim_id": "C29",
+			"verdict": "supported",
+			"reason": "Tribune 2026-01-16 quotes Tepper verbatim: 'James has sincerely held beliefs, but they're also delusionally held beliefs.' Context is Tepper disputing his classroom anecdotes, consistent with the article's gloss."
+		},
+		{
+			"claim_id": "C31",
+			"verdict": "supported",
+			"reason": "Interpretation, explicitly argued and bounded later ('engine, with real dents', medium confidence). Its supporting events (2021 return, UIL reversal, 'including me') all check out in their sources."
+		},
+		{
+			"claim_id": "C32",
+			"verdict": "supported",
+			"reason": "Tribune Aug. 9, 2021: 'Talarico was the most open about his return, announcing it on Twitter and issuing a statement ... saying he was coming back to work on \"real issues Texans face\"'."
+		},
+		{
+			"claim_id": "C33",
+			"verdict": "supported",
+			"reason": "Tribune: Ramos said returning Democrats were there to 'sell us out'; Hinojosa called out Fierro, Gonzalez, Moody and Talarico and tweeted 'Praying no other Democrats willingly go to Floor.'"
+		},
+		{
+			"claim_id": "C34",
+			"verdict": "supported",
+			"reason": "Tribune: 'Talarico represents a competitive district in suburban Austin, where he has drawn two serious Republican challengers since leaving the state.'"
+		},
+		{
+			"claim_id": "C35",
+			"verdict": "supported",
+			"reason": "San Antonio Current (Tribune reporting): 'Talarico wrote in an Aug. 27 op-ed published on Texas Signal's website'. The article honestly says 'as quoted in Tribune reporting'."
+		},
+		{
+			"claim_id": "C36",
+			"verdict": "supported",
+			"reason": "Diary 00:03:45-00:04:52: 'when he drank, he became violent'; 'one night, shortly after I was born'; 'her love for me rose to meet that abuse from him'; drove to 'a hotel where she worked'."
+		},
+		{
+			"claim_id": "C38",
+			"verdict": "supported",
+			"reason": "Victory-speech transcript ('My Mother's Love') retells the drinking father, 'my mother's love rose to meet that abuse', the Ford Escort and the hotel where she worked. 'Nearly word for word' is fair for the story."
+		},
+		{
+			"claim_id": "C41",
+			"verdict": "supported",
+			"reason": "Tribune: 'But after two years in the classroom, Talarico was spent' (heading 'A political path'). Wikipedia: Central Texas executive director of Reasoning Mind; Harvard M.Ed. in education policy 2016."
+		},
+		{
+			"claim_id": "C42",
+			"verdict": "supported",
+			"reason": "Tribune identifies Bernal as 'a San Antonio Democrat who served with Talarico on the Texas House's Public Education Committee'."
+		},
+		{
+			"claim_id": "C43",
+			"verdict": "supported",
+			"reason": "ABC: 'I make $600 a month as a state legislator in Texas' and 'I've said I'm willing to pay for those fines myself.'"
+		},
+		{
+			"claim_id": "C44",
+			"verdict": "supported",
+			"reason": "Diary 01:23: 2019 'I have the best job in the world'; 2021 abortion ban, permitless carry, voter suppression; 'I just started to doubt that I was really making an impact, that I was really doing what I was supposed to do.' Rogan: 'in that second term, I had thought about quitting altogether.'"
+		},
+		{
+			"claim_id": "C45",
+			"verdict": "supported",
+			"reason": "Diary: 'after meeting with my pastor about it, sitting down with my granddad about it ... I made the decision to go to seminary'; Rogan and Wikipedia confirm study at Austin Presbyterian while serving."
+		},
+		{
+			"claim_id": "C46",
+			"verdict": "supported",
+			"reason": "Diary 01:23-01:27 verbatim: 'if you're devoting all of your energy to loving your neighbor, especially your neighbors who you disagree with, it's really easy to burn out.'"
+		},
+		{
+			"claim_id": "C48",
+			"verdict": "supported",
+			"reason": "FactCheck.org restores the follow-on: 'I can't find anything wherever I look that really is quite the same inversion of values that I think we need, right?' and documents Paxton's September 2026 ad omitting it."
+		},
+		{
+			"claim_id": "C49",
+			"verdict": "supported",
+			"reason": "Rogan transcript: 'I told my colleagues that I thought the bill was unconstitutional. I thought the bill was unamerican. But I I went one step further and I said I thought the bill was uncchristian'. Attributed to his retelling, as the article does."
+		},
+		{
+			"claim_id": "C50",
+			"verdict": "supported",
+			"reason": "Rogan transcript verbatim: 'if we have to force people to put up a poster, to me, that means that we have a dead religion, a religion that no longer moves people, a religion that no longer speaks to people's hearts.'"
+		},
+		{
+			"claim_id": "C52",
+			"verdict": "supported",
+			"reason": "Diary 00:28:18: trillionaire 'while 1 in 5 Texas children live in poverty, to me, that is a spiritual sickness. I want people to be successful. I'm proud of Tesla.'"
+		},
+		{
+			"claim_id": "C54",
+			"verdict": "supported",
+			"reason": "Texas Monthly (May 28, 2026): on runoff election night he posted Paxton's mugshot, named indictments and misdeeds, 'calling him \"the most corrupt politician in America.\"' Wikipedia's KTBC citation dates it May 26."
+		},
+		{
+			"claim_id": "C55",
+			"verdict": "supported",
+			"reason": "Diary 01:22-01:23: 'And in a weird way, I feel like I'm trying to protect Ken Paxton.'"
+		},
+		{
+			"claim_id": "C56",
+			"verdict": "supported",
+			"reason": "Wikipedia: viral SB 10 remarks led to Rogan; Feb. 16, 2026 Colbert appearance canceled by CBS, which Colbert blamed on Trump administration pressure. 'Made him a national figure' is a fair synthesis (Axios calls him 'a media darling')."
+		},
+		{
+			"claim_id": "C57",
+			"verdict": "supported",
+			"reason": "Daily Wire and Wikipedia both report the Oct. 28, 2026 NYT finding: TEA records show largest class 30, most 22-27. The NYT itself was not opened; the article attributes to the summaries, which is honest."
+		},
+		{
+			"claim_id": "C58",
+			"verdict": "supported",
+			"reason": "Daily Wire: former Rhodes teacher Geraldine Uriegas 'said some classes at Rhodes could reach 45 students'; headline 'whole origin story is a lie' overstates its own body, as the article says."
+		},
+		{
+			"claim_id": "C60",
+			"verdict": "qualified",
+			"reason": "Houston Style supports 'hypocrisy' from the Crockett campaign. 'Candidates cannot legally direct a super PAC' is general campaign-finance law not stated in the cited sources; accurate in substance but unsourced in-line."
+		},
+		{
+			"claim_id": "C61",
+			"verdict": "qualified",
+			"reason": "Texas Monthly confirms the CBS 'intentionally provocative' framing and 'God can't be defined by human categories'. Wikipedia shows the campaign's 'not shifted any of his stances' was told to the Washington Post after a 2026 Fox News interview on trans athletes. The prose drops that trigger and reads as a reply to the nonbinary reframe (see verify-01)."
+		},
+		{
+			"claim_id": "C62",
+			"verdict": "supported",
+			"reason": "Diary 00:07:45-00:12:04: 'I don't think so'; to why vocation would exclude it, 'It may not'; to 'Could you see yourself running...?' 'No' then 'No, I really don't', citing 'the attacks on people in your life, like your family, my girlfriend'. Rogan July 2025 to Sept. 2026 is 14 months."
+		},
+		{
+			"claim_id": "C63",
+			"verdict": "supported",
+			"reason": "Diary 00:10: 'So it's no longer a service. It is your identity, and you do whatever you can to protect that, right?' verbatim."
+		},
+		{
+			"claim_id": "C64",
+			"verdict": "supported",
+			"reason": "Diary 01:32:31-01:34:25 verbatim, in answer to 'How are you different?', after 'it is a system that traps all of us' and tied to 'a self-imposed term limit'. The article states this context."
+		},
+		{
+			"claim_id": "C65",
+			"verdict": "supported",
+			"reason": "CBS statement verbatim: 'This is a mischaracterization of a private conversation', 'described Congressman Allred's method of campaigning as mediocre — but his life and service are not', 'I would never attack him on the basis of race.'"
+		},
+		{
+			"claim_id": "C66",
+			"verdict": "qualified",
+			"reason": "CBS has Allred's rebuke; theGrio has Crockett saying she believes the account. 'No recording and no second firsthand witness' is a bounded absence finding, dated 'As of November 2026'; no opened source reports either."
+		},
+		{
+			"claim_id": "C67",
+			"verdict": "supported",
+			"reason": "Wikipedia: maternal grandfather Jimmy Causey 'was a Baptist preacher at several churches in South Texas'; Rogan: 'My granddad was a Baptist minister in South Texas'."
+		},
+		{
+			"claim_id": "C69",
+			"verdict": "supported",
+			"reason": "Wikipedia infobox: 'Assuming office January 3, 2027'; Tribune: will take over Cornyn's seat 'come January'. Phrased as a dated past expectation."
+		},
+		{
+			"claim_id": "C70",
+			"verdict": "supported",
+			"reason": "Wikipedia: 'first elected to the Texas House of Representatives in 2018 at age 29'."
+		},
+		{
+			"claim_id": "C71",
+			"verdict": "supported",
+			"reason": "Wikipedia: 'becoming the legislature's youngest member during the 2019 session'; TFA and Harvard confirmed."
+		},
+		{
+			"claim_id": "C72",
+			"verdict": "supported",
+			"reason": "Tribune: taught at Rhodes 2011-13, 'two years in the classroom'; Wikipedia agrees."
+		},
+		{
+			"claim_id": "C73",
+			"verdict": "supported",
+			"reason": "Wikipedia: born May 17, 1989."
+		},
+		{
+			"claim_id": "C74",
+			"verdict": "supported",
+			"reason": "Wikipedia: born in Round Rock, Texas."
+		},
+		{
+			"claim_id": "C75",
+			"verdict": "supported",
+			"reason": "Wikipedia: 'a middle school English teacher'; Tribune: sixth grade at Rhodes."
+		},
+		{
+			"claim_id": "C76",
+			"verdict": "supported",
+			"reason": "Tribune and HPM confirm the Nov. 3, 2026 win and 1988; Tribune and Wikipedia confirm Paxton beat Cornyn in the May runoff; Tribune says he takes over Cornyn's seat."
+		},
+		{
+			"claim_id": "C77",
+			"verdict": "qualified",
+			"reason": "Daily Wire: TEA records, largest 30, most 22-27; 'His campaign did not dispute the class-size records.' The article extends that status to 'early November 2026'; no later dispute appears in opened sources, so the dated extension is reasonable but rests on absence."
+		},
+		{
+			"claim_id": "C78",
+			"verdict": "supported",
+			"reason": "Wikipedia: 'earned a Master of Arts in theological studies at Austin Presbyterian Theological Seminary in 2025' while serving."
+		},
+		{
+			"claim_id": "C79",
+			"verdict": "supported",
+			"reason": "Wikipedia: mother separated from his biological father when he was seven weeks old; 'Tamara married Mark Talarico, who adopted James and gave him his surname.'"
+		},
+		{
+			"claim_id": "C80",
+			"verdict": "supported",
+			"reason": "Interpretation held at medium confidence, matches evidence type_hypothesis (1, medium, alternative 3) and the 60-word answer in body and FAQ."
+		},
+		{
+			"claim_id": "C81",
+			"verdict": "supported",
+			"reason": "Op-ed as quoted by the Tribune: 'Given this success and recognizing that we can't break quorum indefinitely ... to begin the work of rebuilding relationships, negotiating policy, and reducing harm'. 'Made its point' fairly renders 'Given this success'."
+		},
+		{
+			"claim_id": "C82",
+			"verdict": "supported",
+			"reason": "Wikipedia third-term section: district made significantly more Republican, ran in neighboring safe Democratic HD 50 vacated by Celia Israel, won 2022; its cited sources are dated Oct. 13-15, 2021 (Tribune, KXAN, The Texan), supporting 'October 2021'."
+		},
+		{
+			"claim_id": "C83",
+			"verdict": "supported",
+			"reason": "ABC: 'Under Texas state law, the lawmakers faced fines of $500 every day Republicans attempt to go into session and fail to reach a quorum.' Attributed to ABC."
+		},
+		{
+			"claim_id": "C84",
+			"verdict": "supported",
+			"reason": "Interpretation built on verified pieces: 2021 rationale (op-ed), 2025 timing rationale (ABC), and the 2021 redraw of his own district (Wikipedia). 'Cost him something to say' is a labeled reading."
+		},
+		{
+			"claim_id": "C85",
+			"verdict": "supported",
+			"reason": "Diary 01:23:12 verbatim: 'I always kind of harbored this wish to one day preach and lead a church.'"
+		},
+		{
+			"claim_id": "C86",
+			"verdict": "supported",
+			"reason": "FactCheck dates the Activist Theology remarks to March 4, 2021; he kept his seat (Wikipedia). Interpretation 'cost little' is reasonable."
+		},
+		{
+			"claim_id": "C87",
+			"verdict": "supported",
+			"reason": "Diary 00:07:45-00:09:28: 'I had considered getting out of politics, I guess it was last summer. After my 4th term'; pastor said 'a campaign can also be a form of ministry'; 'helpful in getting me to reconcile these 2 vocations'."
+		},
+		{
+			"claim_id": "C88",
+			"verdict": "supported",
+			"reason": "Wikipedia: 'On September 9, 2025, Talarico announced his candidacy'; Axios link URL dated 2025/09/09."
+		},
+		{
+			"claim_id": "C89",
+			"verdict": "supported",
+			"reason": "Wikipedia third-term (2022-2023, 88th Legislature) section: he called the Ten Commandments measure 'un-American' and 'un-Christian'; 'The bill did not pass the state house.'"
+		},
+		{
+			"claim_id": "C91",
+			"verdict": "supported",
+			"reason": "Rogan: James Frank 'very very conservative Republican'; 'I consider James an actual friend.'"
+		},
+		{
+			"claim_id": "C92",
+			"verdict": "supported",
+			"reason": "Axios (Mar. 4, 2026): Talarico defeated Crockett for the nomination; Crockett conceded; results from Tuesday (Mar. 3)."
+		},
+		{
+			"claim_id": "C93",
+			"verdict": "supported",
+			"reason": "Wikipedia: Paxton 'won the Republican primary runoff on May 26'; Tribune: 'Paxton's ... May primary win over Sen. John Cornyn'."
+		},
+		{
+			"claim_id": "C94",
+			"verdict": "supported",
+			"reason": "Rogan: Frank's homeschool UIL bill 'that all the Democrats hated, including me'; 'you always say, don't punish kids for the decisions their parents make'; 'I was kind of first embarrassed and ashamed, right?'; 'I ended up crossing party lines to support that bill. And I got a bunch of blowback'. Labeled self-report and unconfirmed in the article."
+		},
+		{
+			"claim_id": "C95",
+			"verdict": "supported",
+			"reason": "Rogan episode July 18, 2025 to the Sept. 9, 2025 announcement is 53 days, about seven and a half weeks; 'seven weeks later' is fair."
+		},
+		{
+			"claim_id": "C96",
+			"verdict": "supported",
+			"reason": "Diary 00:10-00:11: 'I want to have a well-balanced life' and 'give the reins over to someone else', said while running for the Senate."
+		},
+		{
+			"claim_id": "C97",
+			"verdict": "supported",
+			"reason": "Diary 01:32: answer to 'How are you different?' begins 'The issue is not personalities' and blames 'a system that traps all of us'."
+		},
+		{
+			"claim_id": "C98",
+			"verdict": "supported",
+			"reason": "Wikipedia institutional reform: proposed 'term limits for members of U.S. Congress'."
+		},
+		{
+			"claim_id": "C99",
+			"verdict": "supported",
+			"reason": "Supported by the Tribune 2021 report (return under caucus criticism) and the Rogan UIL account (self-report, labeled 'by his own account')."
+		},
+		{
+			"claim_id": "C100",
+			"verdict": "supported",
+			"reason": "Description matches the Tribune 2021 return under caucus fire and the Nov. 3, 2026 Senate win. 'Quit ... early' accurately describes returning to the floor."
+		},
+		{
+			"claim_id": "C101",
+			"verdict": "supported",
+			"reason": "Diary: 'Studying to become a minister like my granddad' and the 'harbored this wish to one day preach' line."
+		},
+		{
+			"claim_id": "C102",
+			"verdict": "supported",
+			"reason": "Correct reading of the summaries: TEA period counts versus the campaign's initial-placement account; neither DW nor Wikipedia says the records cover first-week placement."
+		},
+		{
+			"claim_id": "C103",
+			"verdict": "supported",
+			"reason": "Interpretation supported by verified fixes: insulin cap law (Wikipedia/Upworthy), two-term pledge (Diary), SB 10 point of order (Wikipedia)."
+		},
+		{
+			"claim_id": "C104",
+			"verdict": "supported",
+			"reason": "Interpretation: the 2021 return drew public fire from Democratic colleagues (Tribune) and the UIL vote drew 'blowback from my folks' (Rogan, self-report). The article labels both."
+		},
+		{
+			"claim_id": "C105",
+			"verdict": "supported",
+			"reason": "Floor 'un-Christian' (Rogan retelling, Wikipedia), 2025 point of order (Wikipedia), mugshot post (Texas Monthly) are individual acts; 2025 walkout was a caucus action (ABC)."
+		},
+		{
+			"claim_id": "C106",
+			"verdict": "supported",
+			"reason": "Bounded absence: none of the opened sources (CBS, Style, KSAT, Axios, Tribune, Diary) contains a response to the hypocrisy charge; the article words it as 'This profile found no response'."
+		}
+	],
+	"source_checks": [
+		{
+			"source_id": "S01-mother",
+			"opened": true,
+			"context_matches": true,
+			"locator": "00:03:45-00:06:00 'Growing Up in Texas' section"
+		},
+		{
+			"source_id": "S01-presidency",
+			"opened": true,
+			"context_matches": true,
+			"locator": "00:07:23-00:12:04 ('Why Talarico Says He Won't Run for President')"
+		},
+		{
+			"source_id": "S01-system",
+			"opened": true,
+			"context_matches": true,
+			"locator": "01:32:31-01:34:25 'How Is Talarico Different?'; 00:24:54-00:26:21"
+		},
+		{
+			"source_id": "S01-economy",
+			"opened": true,
+			"context_matches": true,
+			"locator": "00:15:57-00:19:40 and 00:28:18-00:29:04"
+		},
+		{
+			"source_id": "S01-trump",
+			"opened": true,
+			"context_matches": true,
+			"locator": "01:00:45-01:01:54 'Talarico on Donald Trump as a Person' (not used by any claim)"
+		},
+		{
+			"source_id": "S01-paxton",
+			"opened": true,
+			"context_matches": true,
+			"locator": "01:20:38-01:23:08 'Loving His Opponent, Ken Paxton'"
+		},
+		{
+			"source_id": "S01-seminary",
+			"opened": true,
+			"context_matches": true,
+			"locator": "01:23:09-01:27:28 'Why He Went to Seminary'"
+		},
+		{
+			"source_id": "S01-faith",
+			"opened": true,
+			"context_matches": true,
+			"locator": "01:27:44-01:29:39 'Faith as Trust' (not used by any claim)"
+		},
+		{
+			"source_id": "S02-anger",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Rosetta auto-transcript, first-campaign Facebook commenter passage"
+		},
+		{
+			"source_id": "S02-pushback",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Rosetta auto-transcript, 'Can I can I actually push back on that please?' passage; speaker markers imprecise"
+		},
+		{
+			"source_id": "S02-commandments",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Rosetta auto-transcript, opening Ten Commandments segment ('went one step further', 'dead religion')"
+		},
+		{
+			"source_id": "S02-defeat",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Rosetta auto-transcript, 'I started to doubt um in a profound way' / 'thought about quitting altogether' passage"
+		},
+		{
+			"source_id": "S03",
+			"opened": true,
+			"context_matches": true,
+			"locator": "audioscrape preview transcript via r.jina.ai, Klein introduction (not used by any claim)"
+		},
+		{
+			"source_id": "S04",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Singju Post victory-speech transcript, 'My Mother's Love' section"
+		},
+		{
+			"source_id": "S05",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Tribune 2026-01-16: Justin opening, Tepper quotes, Bernal quote, 'A political path' ('Talarico was spent')"
+		},
+		{
+			"source_id": "S06",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Tribune 2021-08-09 (Svitek): four returning Democrats, Talarico statement, Hinojosa and Ramos tweets, competitive-district paragraph"
+		},
+		{
+			"source_id": "S07",
+			"opened": true,
+			"context_matches": true,
+			"locator": "San Antonio Current (Tribune syndication): Aug. 27 Texas Signal op-ed quotes"
+		},
+		{
+			"source_id": "S08",
+			"opened": true,
+			"context_matches": true,
+			"locator": "ABC/GMA 2025-08-04 (Louallen): $500 fines, $600 salary, 2021-vs-2025 quote"
+		},
+		{
+			"source_id": "S09",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Wikipedia: infobox, 'Early life and education', 'Early career', third/fourth term, U.S. Senate 2026, 'Institutional reform', 'Social issues' (Fox/WaPo 'not shifted')"
+		},
+		{
+			"source_id": "S10",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Daily Wire 2026-10-28, paragraphs 1-7 (CNN quote, TEA records, Ennis statement, Uriegas)"
+		},
+		{
+			"source_id": "S11",
+			"opened": true,
+			"context_matches": true,
+			"locator": "CBS News Texas 2026-02-02 (Fink): full article including Talarico statement"
+		},
+		{
+			"source_id": "S12",
+			"opened": true,
+			"context_matches": true,
+			"locator": "theGrio 2026-02-05: Crockett interview quotes; names Morgan Thompson"
+		},
+		{
+			"source_id": "S13",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Houston Style Magazine 2026-02-05, paragraphs 1-3 (Lone Star Rising PAC; 'hypocrisy')"
+		},
+		{
+			"source_id": "S14",
+			"opened": true,
+			"context_matches": true,
+			"locator": "KSAT (Tribune) 2026-01-24 debate paragraph ('focused on the same goal')"
+		},
+		{
+			"source_id": "S15",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Tribune 2026-10-09: 2018 ketoacidosis paragraph"
+		},
+		{
+			"source_id": "S16",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Upworthy 2021-04-09: embedded April 6, 2021 tweet and quoted thread ($684, credit card, May 2018 DKA)"
+		},
+		{
+			"source_id": "S17",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Texas Monthly 2026-05-28 via r.jina.ai (direct fetch 403): CBS/O'Keefe paragraph; election-night mugshot paragraph"
+		},
+		{
+			"source_id": "S18",
+			"opened": true,
+			"context_matches": true,
+			"locator": "FactCheck.org 2026-09: 'Remark About Hating Christianity' section (Activist Theology, Mar. 4, 2021)"
+		},
+		{
+			"source_id": "S19",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Tribune 2026-11-03 (Birenbaum/Guo): headline/1988, Cornyn-supporters paragraph, May primary win over Cornyn"
+		},
+		{
+			"source_id": "S20",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Houston Public Media 2026-11-03 (updated 11-04), paragraphs 1-3"
+		},
+		{
+			"source_id": "S21",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Axios Austin 2026-03-04 via r.jina.ai (direct fetch 403): 'Why it matters', 'The latest', spending bullets ($16M incl. Lone Star Rising PAC)"
+		},
+		{
+			"source_id": "S01-nearexit",
+			"opened": true,
+			"context_matches": true,
+			"locator": "00:07:42-00:09:28"
+		},
+		{
+			"source_id": "S01-pledge",
+			"opened": true,
+			"context_matches": true,
+			"locator": "00:09:29-00:12:04"
+		},
+		{
+			"source_id": "S01-wish",
+			"opened": true,
+			"context_matches": true,
+			"locator": "01:23:09-01:23:40"
+		},
+		{
+			"source_id": "S02-uil",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Rosetta auto-transcript, James Frank / UIL passage"
+		}
+	],
+	"decision_checks": [
+		{
+			"finding_id": "subject-01",
+			"accepted": true,
+			"reason": "Verified in candidate: no 'story won' verdict; 45-student paragraph reports CNN line, TEA figures attributed to DW/Wikipedia summaries of the unopened NYT, dated campaign status, spokesman's account, and 'can neither confirm nor rule out'. Meets the reword branch of the test."
+		},
+		{
+			"finding_id": "subject-02",
+			"accepted": true,
+			"reason": "Lead now 'he benefited from what he campaigns against' and closes 'The record shows him benefiting, not choosing'; legal caveat kept; 'This profile found no response from him to it' added. I also found no response in the opened sources."
+		},
+		{
+			"finding_id": "subject-03",
+			"accepted": true,
+			"reason": "Race denial 'I would never attack him on the basis of race' added (verbatim per CBS); dated 'On February 2, 2026, CBS News Texas reported'; unresolved conclusion kept."
+		},
+		{
+			"finding_id": "subject-04",
+			"accepted": true,
+			"reason": "Full sequence ('I don't think so', 'It may not', 'No', 'No, I really don't') matches the transcript; balance/turnover reasons added; description no longer says 'capped'."
+		},
+		{
+			"finding_id": "subject-05",
+			"accepted": true,
+			"reason": "Closing now says 'inside the system he says brings out the worst in everyone', matching his words; 'keeps describing' gone; personal-fear reading marked as the author's."
+		},
+		{
+			"finding_id": "subject-06",
+			"accepted": true,
+			"reason": "'In each version he tells, the fight arrives with a license' bounds the claim; 'nobody could have banked on that' deleted; March 2021 podcast cited."
+		},
+		{
+			"finding_id": "subject-07",
+			"accepted": true,
+			"reason": "Hook says most House Democrats left in July (Tribune: 'since most Democrats fled last month'); Hinojosa named him 'alongside the three other returning Democrats'."
+		},
+		{
+			"finding_id": "fan-01",
+			"accepted": true,
+			"reason": "October 2021 move to HD 50 added, dated and linked to Wikipedia (whose refs are Oct. 13-15, 2021), weighed on the Type 3 ledger and in the confidence paragraph."
+		},
+		{
+			"finding_id": "fan-02",
+			"accepted": true,
+			"reason": "'Seven weeks later he announced the Senate run. What he declined was the presidency, not advancement.' 'Clearest live test' removed; unpinned 'faith in a politician' line dropped."
+		},
+		{
+			"finding_id": "fan-03",
+			"accepted": true,
+			"reason": "Toll quote ('the attacks on people in your life, like your family, my girlfriend') added; corruption rationale no longer counted via the 'No'."
+		},
+		{
+			"finding_id": "fan-04",
+			"accepted": true,
+			"reason": "'Two near-exits' section adds the 2025 near-exit and pastor's 'form of ministry' reframing, and says the episode does not separate the types."
+		},
+		{
+			"finding_id": "fan-05",
+			"accepted": true,
+			"reason": "'I always kind of harbored this wish to one day preach and lead a church' added; seminary called cheap."
+		},
+		{
+			"finding_id": "fan-06",
+			"accepted": true,
+			"reason": "2023 fight dated via Wikipedia with 'the bill failed', separate from the 2025 SB 10 point of order; 'un-Christian' attributed to the Rogan retelling."
+		},
+		{
+			"finding_id": "fan-07",
+			"accepted": true,
+			"reason": "Reasoning Mind role and 2016 Harvard master's added; both confirmed in Wikipedia."
+		},
+		{
+			"finding_id": "fan-08",
+			"accepted": true,
+			"reason": "FAQ now says Paxton 'had ousted Sen. John Cornyn in the Republican runoff'; body dates the May 26, 2026 runoff before the Cornyn-supporters sentence."
+		},
+		{
+			"finding_id": "critic-01",
+			"accepted": true,
+			"reason": "Op-ed rationale quoted; 'it is not one rule applied twice' replaces the false single-rule claim; bounded 'habit' retained."
+		},
+		{
+			"finding_id": "critic-02",
+			"accepted": true,
+			"reason": "HD 52 to HD 50 move stated with date and source and weighed; self-preservation quote noted as 'said it all while running for higher office'."
+		},
+		{
+			"finding_id": "critic-03",
+			"accepted": true,
+			"reason": "Confidence paragraph applies the campaign-period discount to the Rogan push-back, the 'No', the pledge and 'including me'; read rests on the early record. Symmetric as required."
+		},
+		{
+			"finding_id": "critic-04",
+			"accepted": true,
+			"reason": "Counterfactual deleted; seminary described as low-cost study while keeping his seat; FAQ no longer cites seminary."
+		},
+		{
+			"finding_id": "critic-05",
+			"accepted": true,
+			"reason": "Passage now says one campaign-season interview inside a systems argument and notes term limits were already in his platform."
+		},
+		{
+			"finding_id": "critic-06",
+			"accepted": true,
+			"reason": "Runoff-night mugshot post reported with date and Texas Monthly link before the later 'love requires accountability' gloss; 'Here the license arrived months after the mugshot.'"
+		},
+		{
+			"finding_id": "critic-07",
+			"accepted": true,
+			"reason": "Closing adds differential observables (correcting a flattering story unprompted, hedging the pledge or national-ticket talk in 2028, keeping a costly principle) and concedes pledge-keeping is costly for any type."
+		},
+		{
+			"finding_id": "critic-08",
+			"accepted": true,
+			"reason": "Description: 'quit a 2021 Democratic walkout early under fire from his own party, then won a U.S. Senate seat in Texas' (153 chars), consistent with body."
+		},
+		{
+			"finding_id": "unfamiliar-01",
+			"accepted": true,
+			"reason": "Same description fix; a description-only reader now gets the direction of the 2021 act and the Senate win."
+		},
+		{
+			"finding_id": "unfamiliar-02",
+			"accepted": true,
+			"reason": "Second sentence defines quorum and the walkout's purpose; identity cue added in the first paragraph."
+		},
+		{
+			"finding_id": "unfamiliar-03",
+			"accepted": true,
+			"reason": "Orienting clauses added at first appearance: March 3 primary win over Crockett (Axios), Allred's December 2025 exit (CBS), Paxton's May 26 runoff win over Cornyn."
+		},
+		{
+			"finding_id": "unfamiliar-04",
+			"accepted": true,
+			"reason": "Intro names 'a 45-student classroom story that state records do not show', so Justin is not mistaken for it."
+		},
+		{
+			"finding_id": "unfamiliar-05",
+			"accepted": true,
+			"reason": "Antecedents fixed: 'The Justin promise has a twin in his medical history'; 'In each version he tells'; 'the Tribune's August 9 report'."
+		},
+		{
+			"finding_id": "unfamiliar-06",
+			"accepted": true,
+			"reason": "Fines explained via ABC ($500/day); Colbert detail gets sourced context."
+		},
+		{
+			"finding_id": "unfamiliar-07",
+			"accepted": true,
+			"reason": "New H2 'Could he be a Nine or a Two?' placed before 'The case for Type 3'; anger section ends on its own point."
+		},
+		{
+			"finding_id": "enneagram-F1",
+			"accepted": true,
+			"reason": "Full presidency sequence and stated reason reported accurately; 'No' no longer counted as corruption-fear evidence."
+		},
+		{
+			"finding_id": "enneagram-F2",
+			"accepted": true,
+			"reason": "2025 near-exit, Senate run and pastor's reframing added as cutting both ways; 'up the ladder' framing removed."
+		},
+		{
+			"finding_id": "enneagram-F3",
+			"accepted": true,
+			"reason": "No second occasion found (I found none either in opened sources); wording reduced to what one interview supports in body, type answer and FAQ."
+		},
+		{
+			"finding_id": "enneagram-F4",
+			"accepted": true,
+			"reason": "Nine paragraph credits 'rebuilding relationships' and the Frank friendship as Nine-compatible, distinguishes caucus walkouts from his solo confrontations."
+		},
+		{
+			"finding_id": "enneagram-F5",
+			"accepted": true,
+			"reason": "UIL reversal added with Rogan link, labeled self-report, unconfirmed, with 'shame is also an image emotion'. Session left undated because his own account is vague ('two sessions ago'), which is accurate."
+		},
+		{
+			"finding_id": "enneagram-F6",
+			"accepted": true,
+			"reason": "Paxton reading framed 'Read through the type', with ordinary Christian teaching and campaign utility named in place."
+		},
+		{
+			"finding_id": "enneagram-F7",
+			"accepted": true,
+			"reason": "Two paragraph faces burnout and pastoral training and rests rejection on rules-not-rescues and the corrupting-system danger."
+		},
+		{
+			"finding_id": "enneagram-F8",
+			"accepted": true,
+			"reason": "Only clearly attributable lines quoted; 'all their faith in a politician' dropped."
+		},
+		{
+			"finding_id": "future-01",
+			"accepted": true,
+			"reason": "Closing uses fixed reference 'He was due to take office in January 2027'."
+		},
+		{
+			"finding_id": "future-02",
+			"accepted": true,
+			"reason": "C04/C57/C77 now 'unresolved' with concrete triggers; body and FAQ date the status ('As of early November 2026'); evasive-motive phrasing removed."
+		},
+		{
+			"finding_id": "future-03",
+			"accepted": true,
+			"reason": "C11/C12/C62/C64 triggers extended (VP/national ticket, pledge qualification, leadership bid, recheck by 2028-01-31); C80 time_sensitive."
+		},
+		{
+			"finding_id": "future-04",
+			"accepted": true,
+			"reason": "'Most often' dropped from body answer and FAQ; fear attributed to the September 2026 Bartlett interview; pre-2026 instance kept as a research task."
+		},
+		{
+			"finding_id": "future-05",
+			"accepted": true,
+			"reason": "Description no longer mentions the pledge and describes the 2021 event accurately."
+		},
+		{
+			"finding_id": "future-06",
+			"accepted": true,
+			"reason": "'As of November 2026, there was no recording and no second firsthand witness.' Triggers unchanged."
+		}
+	],
+	"prior_blocker_checks": [],
+	"protected_checks": [
+		{
+			"passage": "The Daily Wire's headline called his whole origin story a lie, which the reporting does not show. It does show a story told bigger than the documents.",
+			"preserved": true,
+			"reason": "Verbatim in the candidate; its contribution is intact."
+		},
+		{
+			"passage": "A story repeated that often proves message discipline, not motive. What is useful is its shape.",
+			"preserved": true,
+			"reason": "Verbatim in the candidate; its contribution is intact."
+		},
+		{
+			"passage": "There is no recording and no second firsthand witness. It remains unresolved.",
+			"preserved": true,
+			"reason": "Now dated ('As of November 2026, there was no recording and no second firsthand witness. It remains unresolved.'); the neither-dismiss-nor-insinuate handling is intact and stronger with the race denial before it."
+		},
+		{
+			"passage": "[FactCheck.org](https://www.factcheck.org/2026/09/paxtons-ai-heavy-ad-leaves-out-context-of-talarico-remarks-about-christianity/) restored what came next, after a Paxton ad stripped it out in 2026.",
+			"preserved": true,
+			"reason": "Verbatim in the candidate; its contribution is intact."
+		},
+		{
+			"passage": "Theft, sickness, corruption: the words come easily to him. Ones usually mean them. So do good preachers.",
+			"preserved": true,
+			"reason": "Verbatim in the candidate; its contribution is intact."
+		},
+		{
+			"passage": "Haunted is a strong word for an ally to choose. It describes a gap between a standard and what one person can achieve, felt as a weight, which is close to the One's inner critic. Bernal is a friendly witness, and wanting to do more also fits a helper or an achiever. But it comes from outside Talarico's own mouth.",
+			"preserved": true,
+			"reason": "Verbatim in the candidate; its contribution is intact."
+		},
+		{
+			"passage": "A failed child becomes a funding fight. A hospital bill becomes a price cap.",
+			"preserved": true,
+			"reason": "Verbatim in the candidate; its contribution is intact."
+		},
+		{
+			"passage": "The counterpoint is that these clips made him famous, and a Three can read a room as well as a One. But the posture predates the reward. He was correcting his own faith on a small podcast years before anyone clipped him.",
+			"preserved": true,
+			"reason": "Verbatim in the candidate; its contribution is intact."
+		},
+		{
+			"passage": "The One reading predicts he keeps the two-term pledge and keeps saying no to the next position. The Three reading predicts both soften in the spotlight.",
+			"preserved": true,
+			"reason": "Verbatim in the candidate; its contribution is intact."
+		},
+		{
+			"passage": "He names the price himself: the applause and the money. But the same Tribune report notes he then held a competitive suburban seat and had drawn two serious Republican challengers. Going back to work was also good politics.",
+			"preserved": true,
+			"reason": "Only 'the same Tribune report' became 'the Tribune's August 9 report'; the self-interest check against the flattering quote is verbatim otherwise."
+		},
+		{
+			"passage": "It does not explain the 45 students. A man whose stated fear is his own corruption told a classroom story bigger than the records, and his campaign reframed it instead of conceding. A One can talk himself into a story being true in spirit. That is still a dent, not a footnote.",
+			"preserved": true,
+			"reason": "Rephrased to 'who warns about his own corruptibility' and 'answered with an account the records cannot confirm'; still names the dent as 'a dent, not a footnote'. The softer wording is required because the unopened NYT cannot support an evasive motive."
+		},
+		{
+			"passage": "Bernal is a friendly witness, and wanting to do more also fits a helper or an achiever.",
+			"preserved": true,
+			"reason": "Verbatim in the candidate; its contribution is intact."
+		},
+		{
+			"passage": "So the question is whether the moral seriousness is the engine or the brand. This profile argues engine, with real dents.",
+			"preserved": true,
+			"reason": "Verbatim in the candidate; its contribution is intact."
+		},
+		{
+			"passage": "Haunted is a strong word for an ally to choose. It describes a gap between a standard and what one person can achieve, felt as a weight, which is close to the One's inner critic.",
+			"preserved": true,
+			"reason": "Verbatim in the candidate; its contribution is intact."
+		},
+		{
+			"passage": "A Three's nightmare is failing or being unseen. The one Talarico keeps describing is becoming the thing he fights, and he builds a rule in advance to stop himself.",
+			"preserved": true,
+			"reason": "Contrast kept ('A Three's nightmare is failing or being unseen. The one Talarico described to Bartlett is becoming the thing he fights...'); overclaiming frequency removed, which the verified transcript requires."
+		},
+		{
+			"passage": "The line is procedural, not partisan. He broke quorum, returned under fire, and broke it again, each time by a rule he can state.",
+			"preserved": true,
+			"reason": "The original 'each time by a rule he can state' was false (the 2021 op-ed gives a practical reason, not the timing rule). Correction keeps the 2021-to-2025 pattern as 'a reason his conduct could be checked against'. Correcting a false detail preserves editorial quality."
+		},
+		{
+			"passage": "The Three evidence, the class size, the super PAC and the repositioning, all arrives under the heaviest statewide pressure, when almost anyone adapts, so it discriminates less than the earlier choices.",
+			"preserved": true,
+			"reason": "Verbatim in the candidate; its contribution is intact."
+		},
+		{
+			"passage": "Seminary later became central to his political brand, but nobody could have banked on that in 2021.",
+			"preserved": true,
+			"reason": "Removed as an unsupported counterfactual contradicted by the March 2021 podcast; its point (judge the choice by what was knowable then) survives in 'But the choice cost little ... faith was already part of his politics'."
+		}
+	],
+	"coverage_complete": true,
+	"metadata_consistent": true,
+	"alternative_type_addressed": true,
+	"five_year_test_passed": true,
+	"scores": {
+		"evidence": {
+			"score": 8.5,
+			"passage": "On October 28, 2026, The New York Times reported, [as summarized by The Daily Wire](https://www.dailywire.com/news/james-talaricos-whole-origin-story-is-a-lie-new-york-times-discovers) and Wikipedia, that Texas Education Agency records put his largest class at Rhodes at 30, with most between 22 and 27.",
+			"reason": "I reopened all 21 source documents and checked every inventoried quotation. Each one is verbatim and in context, including the Tribune's 2021 caucus criticism, the Texas Signal op-ed, the Bernal and Tepper quotes, and the Diary and Rogan transcript lines. Attribution is honest throughout: this passage says plainly that the NYT was read only through summaries. The allegation section gives the claim, the full denial including the race denial, and the dated unresolved status. Inference limits are stated at the point of use. Why not higher: the self-report spine rests on unofficial transcripts (one an auto-transcript with imprecise speaker markers). The key UIL reversal is unconfirmed self-report. Named independent testimony is thin (Bernal, Tepper, Ramos/Hinojosa, one former teacher). One quote's context is compressed (verify-02)."
+		},
+		"enneagram": {
+			"score": 8.0,
+			"passage": "The two types separate on one question. What does he do when being right costs him image or advancement, and what does he say he is afraid of becoming? A Three protects the trajectory and fears being worthless. A One takes the unglamorous correct action and fears being corrupt.",
+			"reason": "This meets the anchor-8 bar. The discriminator is explicit and sourced. The Three case gets its own strong section: class size, the super PAC, the safe-seat move, repositioning. Nine and Two get real discriminators (who starts the fight; rules not rescues). The campaign-period discount is applied to both sides, and confidence is honestly medium. It does not go higher because, once the discounts are applied, the discriminating evidence is thin. The 2021 return was also good swing-district politics (the article says so). The UIL reversal is self-report told years later. The named core fear comes from one campaign interview inside a systems argument. The '1 over 3' verdict therefore rests on two early events against one."
+		},
+		"originality": {
+			"score": 8.7,
+			"passage": "The Justin promise has a twin in his medical history. ... A failed child becomes a funding fight. A hospital bill becomes a price cap.",
+			"reason": "The insight belongs to this person: a habit of turning a wrong into a rule (copay cap, term limit, point of order). It is built from details that are his own: the op-ed naming the applause and money it cost him, Bernal's 'haunted', the mugshot followed months later by 'Love requires accountability', the UIL shame-and-switch, and 'including me'. There is very little reusable Type 1 boilerplate. The dents (45 students, PAC, seat move) are kept as live contradictions rather than explained away."
+		},
+		"writing": {
+			"score": 8.3,
+			"passage": "None of this is airtight. The Three evidence, the class size, the super PAC and the repositioning, all arrives under the heaviest statewide pressure, when almost anyone adapts, so it discriminates less than the earlier choices.",
+			"reason": "The progression is strong: the 2021 scene, then origin, Rhodes, the second quorum break, the near-exits, faith, anger, the rivals, the Three case, and the verdict. Section titles vary, the sentences are precise, and the close lands on his own warning. But the edit stacked qualifications. The piece is 4,027 words, against a 2,000-3,500 target, and 'Why One still beats Three' restates the same incentive discount several times, as in this passage and its neighbors. The verdict reads more like a legal brief than a portrait at the point where it should be sharpest (verify-01)."
+		},
+		"durability": {
+			"score": 8.6,
+			"passage": "He was due to take office in January 2027, inside the system he says brings out the worst in everyone.",
+			"reason": "The argument rests on dated 2021-2025 behavior. Remove the 2026 campaign material and the thesis still stands, which the article itself says. Changing facts are dated in the prose: the 45-student status 'As of early November 2026', the allegation 'As of November 2026', and this fixed-time swearing-in line. The pledge and national-ticket tests have concrete triggers through 2028. It loses a little because several sections lean on September 2026 interview material that a five-year reader may find dated."
+		},
+		"hook": {
+			"score": 8.4,
+			"passage": "On August 9, 2021, The Texas Tribune counted at least four House Democrats back on the floor in Austin. ... James Talarico ... was one of the four, and the least quiet about it.",
+			"reason": "The opening is a specific, sourced, consequential choice that cost him with his own side. Its answer comes later, when the article weighs both the op-ed's named cost and the swing-district self-interest. It is slightly indirect, though: the opening clause is about the Tribune counting rather than about him."
+		},
+		"discoverability": {
+			"score": 8.2,
+			"passage": "meta_title: 'James Talarico''s Personality Type: The Case for Enneagram 1' / description: 'James Talarico quit a 2021 Democratic walkout early under fire from his own party, then won a U.S. Senate seat in Texas. The case for Type 1 over Type 3.'",
+			"reason": "The meta title (59 characters) and description (153 characters) are accurate and hedge the type appropriately. The 60-word type answer sits directly under the H2. The six FAQs answer real searches (type, why not 3, who he is, the 45 students, seminary, birth) and match the body. Internal links go to the Type 1, 2, 3 and 9 pages and to Bernie Sanders (a verified Type 1 draft). The suggestions all exist. Small losses: the page title is long and states the fear as fact (verify-03), and there are few people-page cross-links in the body."
+		}
+	}
+}

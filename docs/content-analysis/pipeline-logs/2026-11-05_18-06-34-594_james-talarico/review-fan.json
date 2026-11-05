@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "fan",
+  "content_sha256": "bfe964c79dec0d007b1cd844da24b5c54848c62e635d182cacfb4e6b2f989358",
+  "evidence_sha256": "861175710191c60221a2c7322215481e633b9e4280b9223bc444a055a9ea2063",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "fan-01",
+      "severity": "major",
+      "passage": "Self-interest applies here too, in reverse. By 2025 he held a safe seat and was weighing a Senate run, so leaving was rewarded, and a rule stated after the fact can be messaging.",
+      "problem": "Informed readers know how he got that safe seat: the 2021 redistricting maps made his swing HD-52 significantly more Republican, and in October 2021 he announced a move to neighboring HD-50, a safe Democratic Austin seat vacated by Celia Israel (S09, citing the Tribune's 2021-10-13 article; the research record notes the move but the draft omits it). This is the most revealing missing context for the quorum argument. His 2025 line 'Republicans in Texas did that [redistricting] in 2021 when they were supposed to, and we didn't break quorum' comes from a man whose own seat those 2021 maps redrew, which strengthens the procedural-rule reading. It also shows a career-preserving relocation two months after the 'competitive suburban seat' return, which weakens the draft's swing-district caveat (the incentive lasted weeks) and belongs in the Three ledger. Wikipedia also records that Texas Monthly named him a Top 10 Best Legislator after that same 2021 session, so the 'image cost' of the return was partial.",
+      "acceptance_test": "The quorum section states, with a dated linked source, that the 2021 maps redrew his own district and that he moved to safe HD-50 (announced October 2021, won 2022). The 2025 quote is read in that light, and the swing-district caveat and Three case are adjusted accordingly. The claim inventory gains a claim for the move with S09 or the Tribune article."
+    },
+    {
+      "id": "fan-02",
+      "severity": "major",
+      "passage": "The clearest live test came at his first truly national moment. Rogan told him \"you need to run for president.\"",
+      "problem": "The Rogan episode (released 2025-07-18) is widely treated as his national launchpad, and he announced his U.S. Senate campaign on 2025-09-09, about seven weeks later (S09 cites the Rogan episode alongside the announcement). The draft presents the exchange as a refusal of advancement and, with 'He didn't reach for a bigger stage', as part of an anti-ladder pattern. Declining the presidency while preparing a Senate bid is a narrower act. A fan of the clip would see the omission as tilting the discriminator. I reopened the Rosetta transcript: 'Can I can I actually push back on that please?' and 'people put all their faith in a politician' are on either side of a '>>' marker, so the attribution is plausible but still unpinned to video (open research task).",
+      "acceptance_test": "The Senate announcement date appears next to the Rogan exchange. The paragraph frames the refusal as declining the presidency specifically, not advancement generally, and the 'Why One still beats Three' weighting reflects that. Either the 'faith in a politician' line is confirmed against the video or the draft quotes only the unambiguous 'push back' words."
+    },
+    {
+      "id": "fan-03",
+      "severity": "major",
+      "passage": "Then there is the fear he names. Explaining his pledge to serve at most two Senate terms, he told Bartlett that when politicians hold on to office \"or are trying to reach for the next position, then everything becomes about self-preservation.\"",
+      "problem": "In the same Diary of a CEO interview (S01, about 00:11:14–00:12:04), his immediate answer after 'No' to a presidential run grounds the two-term limit in exhaustion and attacks: 'I've already seen over the course of this campaign how difficult it is', the attacks on 'your family, my girlfriend', 'I can't imagine doing this for longer than 2 terms.' Just before that he says he wants 'to give the reins over to someone else, someone who has fresh energy.' The draft quotes only the corruption rationale. That makes the central discriminator, 'the fear he names', look more single-minded than the source. Attack-aversion and stamina do not discriminate One from Three (or from Six or Nine).",
+      "acceptance_test": "The paragraph acknowledges, with quotation, that he also tied the pledge and the 'No' to the toll of attacks on people close to him and to burnout. The article says how much discriminating weight the corruption rationale keeps once that is added."
+    },
+    {
+      "id": "fan-04",
+      "severity": "major",
+      "passage": "He didn't quit, and he didn't reach for a bigger stage either.",
+      "problem": "This is true of 2021 but omits the second near-exit. In S01 (about 00:07:45–00:09:28) he says he 'had considered getting out of politics... last summer... after my 4th term' (2025), and that his pastor told him 'a campaign can also be a form of ministry,' which reconciled 'these 2 vocations' and preceded the Senate run. So his doubt cycle has now resolved two ways: inward to seminary in 2021, then up to the biggest available rung in 2025 once it was morally reframed. That contradiction is revealing either way. It can read as a One needing moral license for ambition, or as a Three finding the frame that makes ambition acceptable. It is exactly what an informed reader of the source would expect the profile to confront.",
+      "acceptance_test": "The seminary section or the Three/One adjudication includes the 2025 near-exit and the pastor's 'campaign... form of ministry' reframing, dated and quoted from S01. The draft states which type the episode favors and why, or that it does not discriminate."
+    },
+    {
+      "id": "fan-05",
+      "severity": "minor",
+      "passage": "When he fell short, he treated the shortfall as something out of balance in him, to be corrected.",
+      "problem": "S01 (about 01:23:12) frames seminary first as a lifelong wish: 'I always kind of harbored this wish to one day preach and lead a church,' modeled on his grandfather and his pastor 'Dr. Jim.' The draft presents seminary only as a costly self-correction after doubt, which drops formative context and overstates how much the choice cost him relative to what he wanted anyway.",
+      "acceptance_test": "One sentence notes the long-held wish to preach like his grandfather. The 'costly choice' weight on seminary is stated with that limit."
+    },
+    {
+      "id": "fan-06",
+      "severity": "minor",
+      "passage": "Opposing a bill to put the Ten Commandments in every classroom, he told House colleagues it was unconstitutional and un-American, then, as he put it to Rogan, he \"went one step further\" and called it un-Christian.",
+      "problem": "This is the fight fans know best, and it is undated and blurs two bills. S09 places the 'un-American' and 'un-Christian' opposition in his third term (88th Legislature, 2023), when that bill died in the House. The draft then moves straight to the 2025 SB 10 point of order, so readers cannot tell that he helped defeat one version and only delayed the next. The open research task to pin the floor remarks is still unresolved.",
+      "acceptance_test": "The 2023 fight is dated and its outcome (died in the House) stated with a source, separately from the 2025 SB 10 delay. The 'un-Christian' wording is pinned to the hearing or floor record, or explicitly attributed to his later retelling on Rogan."
+    },
+    {
+      "id": "fan-07",
+      "severity": "minor",
+      "passage": "After two years, in the Tribune's word, he was \"spent.\" \"It was just so hard,\" he said. He went to the Harvard Graduate School of Education and then into politics.",
+      "problem": "This skips a formative step. After Rhodes he became Central Texas executive director of Reasoning Mind, an education nonprofit, before his 2016 Harvard M.Ed. (S09). The move from classroom to running a systems-level education program fits the draft's own 'failed child becomes a funding fight' pattern, and the current sequence slightly misstates his path.",
+      "acceptance_test": "The sentence names the Reasoning Mind role and dates the Harvard degree (2016), sourced to S09 or a primary source."
+    },
+    {
+      "id": "fan-08",
+      "severity": "minor",
+      "passage": "defeated Ken Paxton for the U.S. Senate seat vacated by John Cornyn",
+      "problem": "'Vacated' implies Cornyn retired. Paxton ousted the incumbent Cornyn in the May 26, 2026 Republican runoff (S09). The body also refers to courting 'John Cornyn's supporters' without ever saying why they were available. That context matters to the Three case: the general-election repositioning targeted voters whose own candidate had just lost to a scandal-plagued nominee.",
+      "acceptance_test": "The body states, with a date and source, that Paxton defeated Cornyn in the May 2026 runoff. The FAQ says the seat was 'held by John Cornyn' (or equivalent) rather than 'vacated'."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Haunted is a strong word for an ally to choose. It describes a gap between a standard and what one person can achieve, felt as a weight, which is close to the One's inner critic. Bernal is a friendly witness, and wanting to do more also fits a helper or an achiever. But it comes from outside Talarico's own mouth.",
+      "reason": "Best use of independent testimony in the piece. It reads the word closely, names the witness's bias and the rival types, and still says why it matters."
+    },
+    {
+      "passage": "A failed child becomes a funding fight. A hospital bill becomes a price cap.",
+      "reason": "A compact, specific statement of the pattern, earned by two sourced episodes (Justin, insulin)."
+    },
+    {
+      "passage": "The Daily Wire's headline called his whole origin story a lie, which the reporting does not show. It does show a story told bigger than the documents.",
+      "reason": "Fair to both the subject and the record. It refuses the partisan overclaim without excusing the discrepancy."
+    },
+    {
+      "passage": "The counterpoint is that these clips made him famous, and a Three can read a room as well as a One. But the posture predates the reward. He was correcting his own faith on a small podcast years before anyone clipped him.",
+      "reason": "A genuine discriminator built on dating (the 2021 Activist Theology remark restored by FactCheck.org), not on tone."
+    },
+    {
+      "passage": "The One reading predicts he keeps the two-term pledge and keeps saying no to the next position. The Three reading predicts both soften in the spotlight.",
+      "reason": "Turns the ending into falsifiable predictions, which serves durability and informed readers alike."
+    }
+  ],
+  "assessment": "An informed follower would find this fair and unusually careful about the 45-student story, the super PAC and the 'mediocre' allegation. Quotes I reopened (the Diary of a CEO childhood, seminary, presidency and Paxton passages, and the Rogan push-back and Ten Commandments passages) match their sources. The gaps are formative and contextual, and they cluster on the discriminator. The draft omits that the 2021 maps redrew his own seat and that he moved to a safe Austin district (fan-01). It omits that the Rogan 'run for president' refusal came seven weeks before his Senate launch (fan-02). It quotes only the corruption rationale for the two-term pledge, though he also cites attacks on family and burnout (fan-03). And it skips his second near-exit in 2025, which ended in the Senate run after his pastor reframed a campaign as ministry (fan-04). None of these overturns the One read, and two arguably help it. But the 'costly choices' ledger currently looks cleaner than the record. Fix those four before the discriminator section is final. Similarity advisory: the only tripped match is the stock triad gloss 'the three types whose core emotion is anger' (identical to the Daniela Amodei draft), plus ordinary 'Ones are driven by a need to be good' phrasing. That is ordinary type vocabulary, not argument reuse, so I raise no finding; the editor may vary the gloss. Risk flags: the unresolved 'mediocre' allegation keeps sensitive_allegations true, and the 1-versus-3 contest keeps contested_typing true."
+}

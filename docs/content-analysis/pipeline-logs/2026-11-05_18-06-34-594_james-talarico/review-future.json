@@ -1,0 +1,79 @@
+{
+  "schema_version": 3,
+  "role": "future",
+  "content_sha256": "bfe964c79dec0d007b1cd844da24b5c54848c62e635d182cacfb4e6b2f989358",
+  "evidence_sha256": "861175710191c60221a2c7322215481e633b9e4280b9223bc444a055a9ea2063",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "future-01",
+      "severity": "major",
+      "passage": "He takes office in January 2027 under exactly the pressure he says he does not trust himself to withstand.",
+      "problem": "The article's last paragraph leans on a present-tense future event. This will be out of date within about eight weeks of publication: the Tribune (S19) says he is to be sworn in in January. In 2031 the closing will read as written before he served, which undercuts the falsifiable test the paragraph sets up. C69 tracks the event, but the prose has no date that would make the stale sentence harmless.",
+      "acceptance_test": "Reword the sentence so it stays true after the swearing-in. Either use a fixed time reference (for example, 'He was due to take office in January 2027, under exactly the pressure...') or pin the close to the dated pledge test instead of the swearing-in. Update the C69 passage to match. A reader in 2031 should find no present-tense statement about an event that has already happened."
+    },
+    {
+      "id": "future-02",
+      "severity": "major",
+      "passage": "His campaign did not dispute the records.",
+      "problem": "The class-size dispute is the main Type 3 counter-evidence and the article's 'dent' to the Type 1 read. C04, C57 and C77 mark it `stable` with no review trigger. The prose, though, rests on status claims that can still change: 'did not dispute the records' here, 'his campaign reframed it instead of conceding' in 'What the Type 1 reading leaves out', and the matching FAQ answer. If he later corrects the anecdote, retires it, or produces roster records that support 45, the article will misstate where the dispute stands, and that is exactly the evidence that bears on the type. The Times original was also not opened (research task 1), so the wording of the record finding is still provisional.",
+      "acceptance_test": "Mark C04, C57 and C77 as `unresolved` or `time_sensitive`. Give each a review_trigger naming the concrete events: Talarico corrects or retracts the 45 claim, the Times issues a correction or follow-up, or initial-roster records surface. Date the status sentences in the body and FAQ ('As of late October 2026, his campaign had not disputed the records...'). 'Reframed it instead of conceding' should carry the same date or be phrased as a dated observation."
+    },
+    {
+      "id": "future-03",
+      "severity": "major",
+      "passage": "The clearest live test came at his first truly national moment.",
+      "problem": "The central discriminator, refusing the next rung (C11, C12, C62, C64), is a set of forward-looking pledges. The five-year window will almost certainly test them, and the review triggers only cover 'a presidential run' or 'a third Senate term'. The most likely tests are national-ticket or vice-presidential consideration in the 2028 cycle, a Senate leadership bid, or a hedge on the two-term pledge ('never say never'), and none of them would fire a trigger. None of the triggers has a date, so nobody is prompted to recheck. C80, the type answer, is marked `stable` with no trigger even though it depends on these time-sensitive claims. The closing's Type 3 prediction ('both soften in the spotlight') also has no observable that would count as softening.",
+      "acceptance_test": "Extend the C11, C12, C62 and C64 triggers to cover vice-presidential or national-ticket consideration, any qualification of the two-term pledge, and pursuit of a higher office. Add a dated recheck tied to the 2028 cycle (for example, after the 2028 presidential primary filing deadlines). Give C80 a trigger to re-review the type thesis if any of those triggers fires. Give the closing at least one concrete observable that would count as the Three reading's 'softening'."
+    },
+    {
+      "id": "future-04",
+      "severity": "major",
+      "passage": "His costliest choices, and the danger he names most often, his own corruptibility, fit that pattern.",
+      "problem": "The five-year test asks whether the thesis survives without the newest material. The 'fear he names' leg of the discriminator comes entirely from one campaign-season interview, Diary of a CEO, recorded 2026-09-08 (S01-system, S01-presidency, S01-paxton), read through an unofficial transcript. The draft shows no earlier instance of him naming his own corruptibility. 'Most often' is therefore a frequency claim that the article and the evidence record do not establish, and it is repeated in the 60-word answer and the type FAQ. Without the September 2026 interview, the core-fear evidence comes down to Rogan's 'put all their faith in a politician' line, which is about voters, not himself. The behavioral leg (the 2021 return, the quorum rule, seminary) holds up without it; the motive leg does not.",
+      "acceptance_test": "Either add at least one dated, sourced instance from before 2026 in which he names his own corruptibility or self-preservation as a danger (claim recorded with a passage), or drop 'most often' from the body answer and the FAQ and attribute the fear to the September 2026 Bartlett interview. With the September 2026 interview removed, the type argument should still rest on the dated behavior and say plainly that the stated fear dates from his Senate campaign."
+    },
+    {
+      "id": "future-05",
+      "severity": "major",
+      "passage": "James Talarico walked back into a walkout under fire and capped his own Senate\n  tenure.",
+      "problem": "The meta description presents a pledge as a completed act. He has not served a Senate day, and 'capped' says the limit already exists. If the pledge is ever qualified, which is the article's own Type 3 prediction, the search snippet becomes false while the body stays accurate. 'Walked back into a walkout' also reads as rejoining the walkout, when the sourced event is returning to the House floor during it.",
+      "acceptance_test": "Rewrite the description to describe the pledge as a pledge (for example, 'pledged to serve no more than two Senate terms') and describe the 2021 event accurately (returned to the floor mid-walkout under fire from his own party). Keep it at 120–170 characters and add a claim for the description if it states a fact."
+    },
+    {
+      "id": "future-06",
+      "severity": "minor",
+      "passage": "There is no recording and no second firsthand witness. It remains unresolved.",
+      "problem": "These are present-tense status claims about an open allegation. C21, C65 and C66 have good triggers, but the prose has no date. If evidence surfaces, the article will look as if it ignored it.",
+      "acceptance_test": "Date the status in the prose ('As of November 2026, there was no recording...'). The C21, C65 and C66 triggers stay as they are."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "The One reading predicts he keeps the two-term pledge and keeps saying no to the next position. The Three reading predicts both soften in the spotlight.",
+      "reason": "This turns the type argument into a test that future evidence can settle. The page gets easier to reopen and stays honest whichever way the record goes. Keep it, and sharpen the observable as future-03 asks."
+    },
+    {
+      "passage": "The Three evidence, the class size, the super PAC and the repositioning, all arrives under the heaviest statewide pressure, when almost anyone adapts, so it discriminates less than the earlier choices.",
+      "reason": "This explains why the weight falls on the 2021-era choices rather than the latest campaign events. That reasoning is what lets the thesis survive the news cycle."
+    },
+    {
+      "passage": "He names the price himself: the applause and the money. But the same Tribune report notes he then held a competitive suburban seat and had drawn two serious Republican challengers. Going back to work was also good politics.",
+      "reason": "The hook rests on a dated 2021 event, not the Senate win, so the page opens on something that will not age. It also states the self-interest counterargument up front."
+    },
+    {
+      "passage": "Seminary later became central to his political brand, but nobody could have banked on that in 2021.",
+      "reason": "This separates what was knowable at the moment of choice from what happened afterward. That is the right way to keep a costly-choice argument from being rewritten by later success."
+    },
+    {
+      "passage": "The line is procedural, not partisan. He broke quorum, returned under fire, and broke it again, each time by a rule he can state.",
+      "reason": "The pattern runs from 2021 to 2025 and does not depend on the latest event. It is the most durable behavioral evidence for the One read."
+    }
+  ],
+  "assessment": "Five-year test: the thesis mostly passes. Remove the November 2026 Senate win and the October 2026 class-size story and the One-over-Three argument still stands on dated behavior: the 2021 return under fire, the quorum rule held across 2021 and 2025, and seminary instead of the next rung. The hook is a 2021 event, and results claims are dated and tracked. I reopened S19, S20 and S10: the win, Paxton's concession, 'first Senate win since 1988' (kept distinct from the 1994 statewide streak) and the campaign's 'did not dispute' response all match. The weak points are time-bound. The closing sentence will go stale at the swearing-in. The 'fear he names' leg rests on one September 2026 campaign interview yet is called 'most often'. The class-size dispute and the type answer are marked stable even though both can move. The pledge triggers miss the likeliest tests (2028 ticket talk, hedging the term pledge) and have no date. The meta description treats a pledge as a completed cap. Similarity: the trips against daniela-amodei ('the three types whose core emotion is anger', 'Ones are driven by a need to be good') and aaron-pierre or Ryan-Holiday ('organized around', 'the Three case') are ordinary type vocabulary. The arguments themselves (the cost-of-correctness discriminator, the quorum rule, seminary) are specific to Talarico, so there is no meaningful reuse. Risk flags match the evidence record: sensitive allegations and contested typing."
+}

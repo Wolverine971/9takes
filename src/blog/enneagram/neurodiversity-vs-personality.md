@@ -11,7 +11,7 @@ published: true
 type: ['situational']
 blog: true
 previewHtml: ''
-pic: 'brain-vs-heart-dichotomy'
+pic: 'greek-statue-self-reflection-v3'
 path: src/blog/enneagram/neurodiversity-vs-personality.md
 strategic_question_url: 'whats-something-every-day-seem-fine-nobody-knows-costing-effort'
 ---

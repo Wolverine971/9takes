@@ -11,7 +11,7 @@ published: true
 type: ['overview']
 blog: true
 previewHtml: ''
-pic: 'freud-plato'
+pic: 'freud-plato-even-light-v3'
 path: src/blog/enneagram/philosophy-psychology-and-the-enneagram.md
 quality_grade: 'B'
 quality_score: 8.2

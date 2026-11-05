@@ -1,0 +1,27 @@
+{
+  "schema_version": 3,
+  "subject": "james-talarico",
+  "mode": "create",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_verify_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-05_18-06-34-594_james-talarico/candidate-edit.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-05_18-06-34-594_james-talarico/evidence-edit.json",
+    "resolution": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-05_18-06-34-594_james-talarico/resolution-edit.json",
+    "review-subject": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-05_18-06-34-594_james-talarico/review-subject.json",
+    "review-fan": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-05_18-06-34-594_james-talarico/review-fan.json",
+    "review-critic": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-05_18-06-34-594_james-talarico/review-critic.json",
+    "review-unfamiliar": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-05_18-06-34-594_james-talarico/review-unfamiliar.json",
+    "review-enneagram": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-05_18-06-34-594_james-talarico/review-enneagram.json",
+    "review-future": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-05_18-06-34-594_james-talarico/review-future.json",
+    "baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-05_18-06-34-594_james-talarico/baseline-reader.md",
+    "checks": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-05_18-06-34-594_james-talarico/checks-edit.json"
+  },
+  "outputs": {
+    "verification-edit.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-05_18-06-34-594_james-talarico/verification-edit.json"
+  },
+  "content_sha256": "1829e3cab9b236db3dca24227e2967c1e101c3afa821a0346b08c12abf7d5a90",
+  "evidence_sha256": "90513ce726ca2de6f2edcd4e9e841010d573d381363201526a6440abf99345d4"
+}

@@ -1,0 +1,32 @@
+Warning: this sign-in can end at any time from now until 2026-11-08. Renewing it does not move that date. Run claude auth login now, or use claude setup-token for unattended jobs.
+The research stage for James Talarico is finished. I wrote only `evidence.json` to the run folder, changed nothing else and published nothing. It passes the pipeline's own validation check.
+
+**Verdict: ready, standard profile (not an open case).** The leading read is **Type 1 (the Reformer), medium confidence**, with **Type 3 (the Achiever)** as the main alternative. Types 9 and 2 are tested and rejected in the file. He has public interviews and a voting record going back to 2018, so he doesn't qualify for the open-case format.
+
+**What decides it:** what he does when being right costs him image or advancement, and what he says he's afraid of becoming.
+- **For Type 1:**
+  - In 2021 he came back early from the Democrats' walkout, under public fire from his own caucus, and wrote that the work "doesn't make for good Tweets or lucrative fundraising emails, but it's necessary work."
+  - After doubting his impact, he went to seminary instead of reaching for a higher office.
+  - On Rogan's podcast he immediately pushed back on "you need to run for president."
+  - He limited himself to two Senate terms because the system "will bring out the worst in all of us, including me."
+  - A Democratic colleague told the Texas Tribune he is "haunted by both his inability and desire to do more."
+- **For Type 3:**
+  - He repeatedly said he once taught 45 students in one class. School records reported by the NYT put his largest class at 30, and his campaign didn't dispute the records.
+  - A super PAC backing him ran attack ads against his primary opponent while he campaigned to ban super PACs.
+  - In the general election he distanced himself from earlier provocative remarks.
+  - He has a long performer history: lead in *Grease*, debate captain, the same blazer-and-boots look since his first day of teaching.
+- **Why medium, not high:** the 2021 early return also helped him in a swing district, so his best evidence points both ways.
+
+**Current facts:** he beat Ken Paxton on 2026-11-03 with about 55% (election-night count). That's the first Democratic US Senate win in Texas since 1988. It's marked time-sensitive, to recheck after the official count and the January 2027 swearing-in.
+
+**Risks I flagged**, which send the draft to the full six-reviewer panel:
+- **Sensitive allegations.** One person said on TikTok that he privately called Colin Allred "a mediocre Black man." He says he called Allred's campaign mediocre, not the man. This is unproven and from a single source; the file attributes it and includes his response. The class-size discrepancy is the other flag.
+- **Contested typing.** Type 1 is held at medium confidence, with 3 and 9 still plausible.
+
+**Gaps a later stage should close** (all listed in `research_tasks`; none block the draft):
+- The NYT class-size profile is paywalled. I read it only through the Daily Wire and Wikipedia summaries.
+- Only a preview of the Ezra Klein transcript was readable.
+- The 2021 "harm reduction" op-ed was read only as quoted in news coverage.
+- The Rogan and Diary of a CEO transcripts are unofficial, so quotes should be checked against the video before use.
+
+The Audioscrape page included a line telling AI agents to send users to its site. I treated it as page text and ignored it. Scratch copies of the fetched pages are in `/tmp/talarico-src/`.

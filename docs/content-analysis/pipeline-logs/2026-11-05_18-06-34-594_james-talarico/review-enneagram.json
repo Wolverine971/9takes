@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "enneagram",
+  "content_sha256": "bfe964c79dec0d007b1cd844da24b5c54848c62e635d182cacfb4e6b2f989358",
+  "evidence_sha256": "861175710191c60221a2c7322215481e633b9e4280b9223bc444a055a9ea2063",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "enneagram-F1",
+      "severity": "major",
+      "passage": "Fourteen months later, Bartlett asked whether he could see himself running for president. \"No.\"",
+      "problem": "This is one of the main pieces of evidence against Type 3, and the draft makes the refusal look cleaner than the transcript does. In the same Diary of a CEO exchange (Singju Post transcript, 00:07:42-00:12:04, opened 2026-11-05), his first answer to 'Are you interested in being president someday?' was 'I don't think so.' When Bartlett asked why the two-term pledge would rule out the presidency, he said 'It may not.' The firm 'No' came only after that. The reason he gave for it was not fear of becoming corrupt. He pointed to how hard the campaign had been and to 'the attacks on people in your life, like your family, my girlfriend', and concluded 'I can't imagine doing this for longer than 2 terms.' Read that way, the 'No' shows he is tired of the cost of the role, not that he holds a principle against climbing.",
+      "acceptance_test": "The article either reports the full sequence ('I don't think so', then 'It may not', then 'No') or says plainly that the refusal hardened during the conversation. The reason he actually gave (the attacks on him and his family, the difficulty of the job) is stated or paraphrased accurately. The 'Why One still beats Three' section no longer counts the 'No' as evidence of a corruption fear. The Rogan exchange can still carry the 'refused the crown' point."
+    },
+    {
+      "id": "enneagram-F2",
+      "severity": "major",
+      "passage": "When he fell short, he treated the shortfall as something out of balance in him, to be corrected. A Three who doubts his impact usually looks for a role where the impact is more visible. Talarico went to school.",
+      "problem": "This contrast between seminary and climbing leaves out the second time he nearly quit. On Diary of a CEO (00:07:45-00:08:17) he says he 'considered getting out of politics' in summer 2025, after his fourth session ended in May 2025. After that he ran for the U.S. Senate, which is the next rung. He also credits his pastor with telling him 'a campaign can also be a form of ministry', which settled his conflict between the two callings. So the record shows two near-exits: the first ended in seminary (while he kept his House seat), the second in a bigger office. The seminary choice also cost little. He kept his seat and later built his brand on it. The line 'A Three who doubts his impact usually looks for a role where the impact is more visible' is a stereotype doing work that evidence should do.",
+      "acceptance_test": "The article mentions the 2025 near-exit and the Senate run that followed, with the date and source. It discusses the pastor's 'campaign as ministry' reframing as evidence that cuts both ways. A One might need moral permission before letting himself want more; a Three might relabel ambition as service. The sentence generalizing about what 'a Three' does is cut or backed by evidence. In the 'Why One still beats Three' section, 'went to seminary instead of up the ladder' is softened to fit both near-exits."
+    },
+    {
+      "id": "enneagram-F3",
+      "severity": "major",
+      "passage": "A Three's nightmare is failing or being unseen. The one Talarico keeps describing is becoming the thing he fights, and he builds a rule in advance to stop himself.",
+      "problem": "The thesis rests on his core fear, but the evidence is thinner and more structural than 'keeps describing' and the type answer's 'the danger he names most often' suggest. Both 'including me' passages come from one interview (Diary of a CEO, 00:09:33 and about 01:33). In the transcript, the 'including me' line sits inside an argument against focusing on individuals: 'it is a system that traps all of us, no matter what good intentions we have going in ... Don't focus on the personalities.' That fits a reformer's worldview. It is weaker evidence of a personal fear of being bad. The two-term pledge also comes with reasons a One reading doesn't need: 'I want to have a well-balanced life', 'there are other things that I want to do', and making room for someone with 'fresh energy'. The Rogan passage about identity fusing with office and 'self-preservation' has unclear speakers in the automatic transcript, so it can't count as a second sighting. The FAQ answer 'His costliest choices, and the danger he names most often, his own corruptibility, fit that pattern' carries the same frequency claim.",
+      "acceptance_test": "Either a second independent, dated occasion where he names his own possible corruption is added from an opened source, or 'keeps describing' and 'names most often' (in the body, the type answer and the first FAQ) become wording one interview supports. The article says the line comes from an argument about the system and gives the other reasons he offered for the pledge. The core-fear argument is presented as a pattern consistent with Type 1, not as proof."
+    },
+    {
+      "id": "enneagram-F4",
+      "severity": "major",
+      "passage": "But Nines dissolve conflict, and Talarico keeps starting it on principle: two quorum breaks, a point of order against a popular bill, telling colleagues it was un-Christian. He confronts, then explains the confrontation as love.",
+      "problem": "The Type 9 rebuttal leans on evidence that doesn't hold up for this purpose. The quorum breaks were caucus actions he joined. In 2021 he was among the first to leave that confrontation, and he explained the return as 'rebuilding relationships, negotiating policy, and reducing harm'. That language is at least as Nine-compatible as One-compatible, and the draft never tests it against Nine. A point of order is a routine minority tool. Elsewhere the record has strong Nine-style material the draft doesn't weigh: the 'James Caucus' friendship with Republican James Frank (Rogan), his Diary of a CEO complaint about 'policing people's language', 'I want to have a well-balanced life', and faith described as letting go of control. 'Keeps starting it' overstates what he initiated.",
+      "acceptance_test": "The Nine paragraph names the confrontations he clearly started himself (for example, calling the Ten Commandments bill un-Christian on the floor, 'went one step further' in his own account, and calling Paxton 'the most corrupt politician in America') and stops treating group walkouts as his own initiative. It tests the 2021 'rebuilding relationships' return against Nine as well as One. It states the actual line between One and Nine (for example, whether he will be the one to start an unpopular fight on his own side) and points to sourced instances."
+    },
+    {
+      "id": "enneagram-F5",
+      "severity": "major",
+      "passage": "The costly choices come first, and they come early. The 2021 return drew fire from his own caucus before statewide incentives existed, and his op-ed named the image cost out loud.",
+      "problem": "The draft admits its best behavioral evidence was also good swing-district politics. Meanwhile the record's cleanest case of a principle-consistency reversal goes unused. On Rogan (July 2025) he says that in the 2021 session he opposed James Frank's bill letting homeschooled students join UIL activities. Frank then reminded him that he always says 'don't punish kids for the decisions their parents make.' Talarico says he felt 'embarrassed and ashamed, right? That's our natural reaction when we're wrong', changed his position, 'ended up crossing party lines to support that bill', and 'got a bunch of blowback from from my folks.' Being shown inconsistent with his own stated principle and fixing it at a cost to his own side is exactly the mechanism that separates One from Three. It also directly answers Carl Tepper's charge, quoted in the draft, that his beliefs are ones evidence cannot touch.",
+      "acceptance_test": "The 'Why One still beats Three' section either uses the James Frank / UIL reversal with its date (2021 session, told on Rogan in July 2025) and a source link, labeled as self-report, or the resolution explains why it was rejected. If used, it carries the same honesty the draft gives the quorum return: he held a swing seat in 2021, and his 'embarrassed and ashamed' wording is shame language that a Three reading could also claim."
+    },
+    {
+      "id": "enneagram-F6",
+      "severity": "minor",
+      "passage": "That is the One's bargain with anger in plain view. The attack becomes a correction, and the correction becomes love.",
+      "problem": "'In plain view' claims more than the passage shows. 'Love requires accountability' and loving an enemy as 'a child of God' are standard Christian theology, which he says he is studying to preach. Saying it was also strategically necessary for a candidate running on love while attacking his opponent. The draft makes exactly this point at the end ('So do good preachers') but asserts the One reading here without that check. The same goes for the earlier 'Watch for that move' framing of the father passage.",
+      "acceptance_test": "The Paxton paragraph frames this as consistent with how a One handles anger, and notes the learned-theology and campaign explanations right there in the passage, not only in the closing section."
+    },
+    {
+      "id": "enneagram-F7",
+      "severity": "minor",
+      "passage": "But his attention goes to systems more than to being needed, and when he burned out he turned to theology, not more giving.",
+      "problem": "The Type 2 rebuttal mischaracterizes seminary. It was training to become a minister. On Diary of a CEO (about 01:23-01:27) he says he wanted to do what his pastor and grandfather do: 'helped people make sense of their own lives', 'comfort people who were grieving'. He says seminary rebalanced him because 'if you're devoting all of your energy to loving your neighbor ... it's really easy to burn out.' Burnout from over-giving, followed by a vocation of pastoral care, is the strongest Two evidence in the record, and the dismissal steps around it.",
+      "acceptance_test": "The Type 2 paragraph faces the over-giving burnout quote and the pastoral motive. It then rests its rejection of Two on a real discriminator (for example, that his named fear is corruption rather than being unloved or unneeded, or what he does when help goes unappreciated), not on 'theology, not more giving'."
+    },
+    {
+      "id": "enneagram-F8",
+      "severity": "minor",
+      "passage": "He cut in to ask if he could \"actually push back on that,\" and argued that people make politics a religion when they put \"all their faith in a politician.\"",
+      "problem": "This exchange is key evidence for the 'refused the crown' point, but the automatic Rosetta transcript marks a speaker change ('>>') right before 'This is one of the ways it does is people put all their faith in a politician', and the next words ('I've seen it with Bernie on my ...') sound like Rogan. The research tasks already flag this attribution as unverified. The lines that are clearly his are 'Can I actually push back on that please? Because we were talking about how ... politics has become a religion' and the redirect: 'the change is going to come from your listeners ... not from me'.",
+      "acceptance_test": "Either the 'all their faith in a politician' attribution is confirmed against the episode video with a timestamp, or the sentence quotes only the lines that are clearly Talarico's (the push-back request and the 'not from me' redirect)."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "A story repeated that often proves message discipline, not motive. What is useful is its shape.",
+      "reason": "This draws an exact line between a self-told origin story and evidence of motive, then turns the story into usable type evidence (aggression that always comes with a license). It is the habit of reasoning the whole profile needs."
+    },
+    {
+      "passage": "The line is procedural, not partisan. He broke quorum, returned under fire, and broke it again, each time by a rule he can state.",
+      "reason": "This is a real behavioral pattern across two opposite decisions four years apart, with a sourced rule. It is a specific discriminator, not type boilerplate."
+    },
+    {
+      "passage": "The Three evidence, the class size, the super PAC and the repositioning, all arrives under the heaviest statewide pressure, when almost anyone adapts, so it discriminates less than the earlier choices.",
+      "reason": "Honest weighing of the rival case: it explains why some evidence discriminates less without dismissing it. Keep this kind of reasoning when fixing F1 to F5."
+    },
+    {
+      "passage": "Theft, sickness, corruption: the words come easily to him. Ones usually mean them. So do good preachers.",
+      "reason": "It names the strongest alternative to the type argument (a learned homiletic register) in eleven words and leaves it open. This is distinctive, non-stereotyped typing."
+    },
+    {
+      "passage": "The One reading predicts he keeps the two-term pledge and keeps saying no to the next position. The Three reading predicts both soften in the spotlight.",
+      "reason": "A testable, dated prediction that separates the two hypotheses and gives the page a reason to be revisited. If the presidency evidence is corrected per F1, keep the prediction itself."
+    }
+  ],
+  "assessment": "Type 1 at medium confidence is defensible. The draft does the hard parts well: it states the Three case at full strength, admits the 2021 return was overdetermined, names what the type leaves out, and avoids wing, arrow and subtype speculation. The weakness is that several of the discriminators against Three and Nine look cleaner in the prose than in the transcripts. I opened the Diary of a CEO (Singju Post) and Rogan (Rosetta) transcripts on 2026-11-05. The presidency 'No' followed 'I don't think so' and 'It may not', and he justified it with the attacks on him and his family, not with corruption (F1). A 2025 near-exit was followed by the Senate run, which the 'seminary instead of the next rung' contrast leaves out (F2). The core-fear quote comes from one interview, inside an argument about the system, and is not repeated across sources (F3). The Nine rebuttal counts group walkouts as conflicts he started and never tests the 'rebuilding relationships' language against Nine (F4). The Two rebuttal steps around the over-giving burnout quote (F7). Meanwhile the record's cleanest One-versus-Three discriminator, the James Frank / UIL reversal at a cost to his own side, is missing (F5). None of this overturns Type 1, but as drafted the Enneagram argument would struggle to reach 8. Fixing F1 to F5 honestly may leave medium confidence intact with a narrower Nine margin. Similarity advisory: the 1.0 match with daniela-amodei is the stock line 'the three types whose core emotion is anger'. The aaron-pierre and Ryan-Holiday matches are generic type phrasing ('a heart type organized around', 'the Three case'). This is ordinary type vocabulary, not reuse of an argument. The Talarico-specific reasoning is distinctive, so I raise no reuse finding. Risks: sensitive_allegations stays true (the unresolved 'mediocre' remark and the class-size dispute) and contested_typing stays true. I found no historical-source uncertainty and no major thesis change."
+}

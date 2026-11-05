@@ -1,0 +1,19 @@
+Warning: this sign-in can end at any time from now until 2026-11-08. Renewing it does not move that date. Run claude auth login now, or use claude setup-token for unattended jobs.
+The draft stage for James Talarico is finished. I wrote only the two requested files, `draft.md` and `evidence-draft.json`, in the run folder. I changed no other repo files and published nothing. Both pass the contract's own checks: the draft check reports no blockers, and every one of the 80 claims has a passage that matches the article exactly.
+
+**The article (about 3,600 words, unpublished, filed under politician / campaign-politician)**
+- **Opening:** August 9, 2021. He came back early from the Democrats' walkout while his own party attacked him in public, and wrote that the work "doesn't make for good Tweets or lucrative fundraising emails." The opening also notes the self-interest reading: he was in a swing district at the time.
+- **Type read:** Type 1 (the Reformer), medium confidence. The type answer is 52 words.
+- **Main argument:** his costliest choices went against image and advancement. He came back from the 2021 walkout under fire, went to seminary instead of reaching for a bigger office, pushed back when Joe Rogan said he should run for president, and limited himself to two Senate terms. The fear he names is his own future corruption.
+- **Type 3 (the Achiever) gets a full section, stated at full strength:** his performer history, the 45-student story that school records don't support, the super PAC that attacked his primary opponent, and how he softened his positions for the general election. Types 9 and 2 are also tested.
+- **Ending:** a section on what the Type 1 read doesn't explain. It covers the "mediocre" remark allegation, attributed, with his response, and marked unresolved. It closes by naming what would confirm or overturn the read once he takes office.
+
+**For the next stages:**
+- **Length:** I cut the draft from 3,971 words to about 3,600 because the edit stage usually adds around 800. It's still slightly above the 3,500 target, so the editor should make room before adding anything.
+- **Quote checks:** I checked the interview quotes against the copies the research stage cached. I added two items to the research task list:
+  - Confirm against the video that the "all their faith in a politician" line on Rogan is Talarico's. The automatic transcript doesn't reliably mark who is speaking.
+  - The "un-Christian" floor remarks aren't tied to a specific year, so the draft no longer dates them to 2023.
+- **Corrections from the research notes:** the draft says the Senate win was the first Democratic US Senate win in Texas since 1988, not the first statewide win. The Justin quote is now dated to a 2025 campaign event. I removed details where the sources disagree, such as the insulin bill number and days in the ICU.
+- **Still open:** the New York Times class-size story was only read through summaries, because it's paywalled. The article says so where it cites the story.
+
+The full six-reviewer panel still applies because of the flagged risks: the sensitive allegation and the contested typing.

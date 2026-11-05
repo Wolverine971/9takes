@@ -4,7 +4,7 @@
 
 The proposed direction is **weathered Greek statues acting out a recognizable human situation**. Stone texture, body language and light should carry the picture. The image should give a reader a reason to connect it to this particular article.
 
-This review covers the 157 distinct hero images used by 159 published non-profile posts in the local Markdown corpus. One post has no `pic`; one image is shared by two posts. Eleven replacements have been generated and connected to their posts locally, including seven revisions from the latest user feedback. The remaining replacements are a ranked backlog, not completed artwork. Production has not been deployed.
+This review covers the 157 distinct hero images used by 159 published non-profile posts in the local Markdown corpus. One post has no `pic`; one image is shared by two posts. Eleven replacements have been generated and connected to their posts locally, including four follow-up revisions on November 5. The remaining replacements are a ranked backlog, not completed artwork. Production has not been deployed.
 
 Open [the visual review](review.html) for before/after pairs, tier filters, article links, reasons and suggested scenes. [The inventory](inventory.json), [assessments](assessments.json) and [generation prompts](prompts.json) preserve the decisions in structured form. Contact sheets preserve the original visual audit.
 
@@ -32,7 +32,18 @@ The primary material reference is `static/greek_distorted_statue_face.webp`. The
 
 Priority is based on visible mismatch and relevance, not the age of the file. No traffic or analytics ranking is implied. Non-hero assets are indexed separately by traceable usage; files with no literal reference are not assumed safe to delete.
 
-## Latest seven revisions
+## November 5: four follow-up revisions
+
+- **Reflection:** A woman kneels on a dry ledge; her nose, bun and shoulder clasp line up with their inverted counterparts in the pool. The second edit pulled back so her chin clears the water.
+- **Freud / Plato:** The opposing profiles and spectacles remain. Both heads and shoulders stay sharp to the edge against a flat gray background.
+- **Mercy:** One statue offers another a drinking bowl at a spring. The carved bowl, figures and setting belong together.
+- **Empty room:** An empty stool beside an unfinished dice game replaces the TV and sofa. A flask and a set-aside writing tablet connect the other threads of the article to the same ancient household.
+
+Keep the round-two chalkboard, medication conversation (the bottle supplies the focus), and ancient academy. Use one coherent period for a scene; keep a modern prop only when it belongs to the setting and does real work for the article. Avoid edge fades and check recognizable reflected landmarks before delivery.
+
+[Round-three prompts and feedback](round-3.json) · [Four current images](round-3-overview.jpg). These four articles now request new filenames, bypassing cached copies after deployment. Eight Vercel redirects preserve the former hero and thumbnail links. The superseded round-two files are in `previous/round-2/`; the pre-audit originals remain in `originals/`. The other seven refreshed image families keep their existing URLs. Local asset budget passes.
+
+## November 4: seven revisions
 
 | Existing image                                 | Revision                                                                                                          | Tier |
 | ---------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ---- |
@@ -59,7 +70,7 @@ The mercy and empty-room articles use optional `image_aspect_ratio` metadata so 
 | Coaching toolkit     | A statue notices a crooked stack and pauses before correcting it.                           | This directly stages the Type 1 homework: notice an imperfection without fixing it. It is one example from the article, not a symbol for every type. |
 | Instinctual subtypes | Personal resources, awareness of the group and close conversation coexist in one courtyard. | The scene gives each instinct a visible direction of attention. The fortress illustrated none of these clearly.                                      |
 
-The replacements use the original public filenames, so existing article references and direct image URLs keep working. All 22 original full-size and thumbnail WebPs are archived in `originals/` beside this guide for comparison and rollback. Full PNG masters have descriptive `-v2` filenames in `source-assets/blogs/` (already gitignored by this repository); delivery WebPs are in `static/blogs/`. Each has a 1200px-wide hero and 480px-wide thumbnail, made with the existing `scripts/blog-image-variants.mjs`. The combined delivery set is 3,644 bytes smaller than the originals and passes the existing static asset budget. The built-in image generator/editor produced the artwork; no image-generation API script was used.
+The first two rounds shipped locally under the original public filenames. The November 5 round uses versioned delivery URLs as described above. All 22 pre-audit WebPs are archived in `originals/`. Full PNG masters are kept in `source-assets/blogs/` (gitignored), outside the public deployment. Each family has a 1200px-wide hero and a 480px-wide thumbnail. Built-in image generation and editing produced the artwork; the current prompts are in `prompts.json` and round-specific briefs are preserved beside it.
 
 ## Choose the scene before writing the prompt
 

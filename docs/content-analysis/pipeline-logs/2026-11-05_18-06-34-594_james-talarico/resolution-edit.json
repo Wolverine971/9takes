@@ -1,0 +1,318 @@
+{
+  "schema_version": 3,
+  "decisions": [
+    {
+      "finding_id": "subject-01",
+      "action": "fixed",
+      "reason": "Removed the 'story won' verdict and 'reframed it instead of conceding'. The 45-student paragraph now reports only what is documented: his CNN statement, the TEA figures as summarized (NYT unopened, attributed to the Daily Wire summary and Wikipedia), a dated campaign status ('As of early November 2026, his campaign had not disputed the records'), the spokesman's initial-placement account, a new sentence that the summarized records 'can neither confirm nor rule out that first placement' (C102), and the former teacher's account. The dent paragraph now says his campaign 'answered with an account the records cannot confirm'. Whether he repeated the figure after 2026-10-28 could not be established from opened sources; that is now a research task and a review trigger on C04/C57/C77."
+    },
+    {
+      "finding_id": "subject-02",
+      "action": "fixed",
+      "reason": "Lead rewritten to describe the situation, not a decision: 'he benefited from what he campaigns against', closing with 'The record shows him benefiting, not choosing.' The legal caveat stays in the paragraph. No response from him to the charge appears in the opened sources (CBS, Style, KSAT, Axios, Tribune, Diary of a CEO), which the article now states (C106). Axios does not split the $16 million, so the figure was cut rather than presented as his spending."
+    },
+    {
+      "finding_id": "subject-03",
+      "action": "fixed",
+      "reason": "Added his explicit denial from the CBS statement: 'I would never attack him on the basis of race.' The episode is now dated by the report ('On February 2, 2026, CBS News Texas reported'), places it after a Plano rally, and names Thompson via theGrio, since CBS gives only 'Morgan'. The unresolved conclusion is kept and dated."
+    },
+    {
+      "finding_id": "subject-04",
+      "action": "fixed",
+      "reason": "The presidency exchange now gives the full sequence from the opened transcript: 'I don't think so', then 'It may not' (to why his vocation would exclude it), then 'No' and 'No, I really don't', with the toll he cited. The pledge paragraph adds his other reasons ('a well-balanced life', handing 'the reins over to someone else'). The description no longer says 'capped'."
+    },
+    {
+      "finding_id": "subject-05",
+      "action": "fixed",
+      "reason": "The closing sentence now says 'He was due to take office in January 2027, inside the system he says brings out the worst in everyone', which follows his words. 'Keeps describing' is gone. The protected passage now says 'The one Talarico described to Bartlett' and adds that the line comes from one campaign-season interview inside an argument about systems, and that the personal-fear reading is the author's ('Read as a personal fear, it fits a One; it does not prove one')."
+    },
+    {
+      "finding_id": "subject-06",
+      "action": "fixed",
+      "reason": "'In his telling, his aggression always arrives with a license' is now 'In each version he tells, the fight arrives with a license', bounded to his retellings, without the loaded noun. 'Nobody could have banked on that in 2021' is deleted. The seminary paragraph now says faith was already part of his politics in March 2021 (C86)."
+    },
+    {
+      "finding_id": "subject-07",
+      "action": "fixed",
+      "reason": "Hook rewritten from the opened Tribune text: it no longer says most of the caucus stayed in Washington. It says most House Democrats had left the state in July to deny a quorum. Hinojosa is now described as naming him 'alongside the three other returning Democrats' (the Tribune lists Fierro, González, Moody and Talarico)."
+    },
+    {
+      "finding_id": "fan-01",
+      "action": "fixed",
+      "reason": "Added the October 2021 move to safe House District 50 after redistricting made his Round Rock seat significantly more Republican, won in 2022 (C82, S09), and placed it on the Type 3 ledger. The swing-district caveat now opens 'The swing seat behind the 2021 return did not last'. The 2025 quote is read in that light: the 2021 redistricting round he calls on schedule also redrew his own district against him (C84). The move is weighed in the confidence paragraph. The Texas Monthly 'Top 10 Best Legislators' point is rejected: Wikipedia cites that list to 2021-06-15, the end of the regular session, two months before the August special-session return, so it cannot offset the return's cost and was not added."
+    },
+    {
+      "finding_id": "fan-02",
+      "action": "fixed",
+      "reason": "The Senate announcement (2025-09-09, S09) now sits next to the Rogan exchange: 'Seven weeks later he announced the Senate run. What he declined was the presidency, not advancement.' 'The clearest live test' label is removed, and the Rogan exchange is discounted as campaign-period evidence in the confidence paragraph. The unpinned 'all their faith in a politician' line is dropped; only clearly attributable words are quoted ('actually push back on that', 'politics has become a religion', 'the change is going to come from your listeners')."
+    },
+    {
+      "finding_id": "fan-03",
+      "action": "fixed",
+      "reason": "Quoted the toll he cited ('the attacks on people in your life, like your family, my girlfriend') and the pledge's gentler reasons. The article now treats the corruption rationale as one of several, from one interview, 'consistent with the type, not proof'. It no longer counts the 'No' as evidence of a corruption fear."
+    },
+    {
+      "finding_id": "fan-04",
+      "action": "fixed",
+      "reason": "Added the 2025 near-exit and the pastor's 'a campaign can also be a form of ministry' reframing, quoted from S01-nearexit, with the 2025-09-09 Senate announcement (C87, C88). The article says the episode cuts both ways (a One needing moral permission, a Three relabeling ambition as service) and does not separate them. The section is retitled 'Two near-exits', and 'in 2021' bounds 'didn't reach for a bigger stage'."
+    },
+    {
+      "finding_id": "fan-05",
+      "action": "fixed",
+      "reason": "Added the long-held wish, quoted from S01-wish ('I always kind of harbored this wish to one day preach and lead a church'), plus a sentence that the choice 'cost little'. Seminary is no longer counted as a costly choice."
+    },
+    {
+      "finding_id": "fan-06",
+      "action": "fixed",
+      "reason": "The Ten Commandments fight is now dated to 2023 with its outcome ('the bill failed'), attributed to Wikipedia (C89), and kept separate from the 2025 SB 10 point-of-order delay. The un-Christian wording stays attributed to his Rogan retelling ('as he put it to Rogan'). Pinning the floor record stays a research task."
+    },
+    {
+      "finding_id": "fan-07",
+      "action": "fixed",
+      "reason": "Named the Reasoning Mind role (Central Texas executive director, S09) and the 2016 Harvard master's in education policy (C41)."
+    },
+    {
+      "finding_id": "fan-08",
+      "action": "fixed",
+      "reason": "The FAQ now says he defeated Paxton, 'who had ousted Sen. John Cornyn in the Republican runoff, for Cornyn's U.S. Senate seat'. The body states 'Paxton had ousted the incumbent, Sen. John Cornyn, in the May 26, 2026 Republican runoff' (C93, S09) before the Cornyn-supporters sentence."
+    },
+    {
+      "finding_id": "critic-01",
+      "action": "fixed",
+      "reason": "The article now quotes his 2021 rationale from the op-ed ('we can't break quorum indefinitely', 'to begin the work of rebuilding relationships, negotiating policy, and reducing harm', C81). It drops the one-rule claim: 'it is not one rule applied twice'. 'The quorum line held across two opposite decisions' is removed from the discriminator. What remains is a bounded habit ('each time, he gave a reason his conduct could be checked against') plus the cost of stating the 2025 rule. C09's inference is updated."
+    },
+    {
+      "finding_id": "critic-02",
+      "action": "fixed",
+      "reason": "The 2022 move from HD-52 to HD-50 is stated with date and source and weighed on the Three side and in the confidence paragraph (C82). The self-preservation quote now notes he 'said it all while running for higher office' (C96)."
+    },
+    {
+      "finding_id": "critic-03",
+      "action": "fixed",
+      "reason": "The confidence paragraph now applies the same incentive discount to both sides: 'the Rogan push-back, the \"No,\" the pledge and the \"including me\" line all came during campaigns, and disclaiming ambition is a classic image move.' 'The clearest live test' is removed. The read now rests on what survives: the 2021 return, the UIL reversal and the podcast remarks about his church, set against the move to a safe seat. Medium confidence is kept and explained. The Texas Monthly 'Top 10 Best Legislators' point is rejected: Wikipedia cites that list to 2021-06-15, the end of the regular session, two months before the August special-session return, so it cannot offset the return's cost and was not added."
+    },
+    {
+      "finding_id": "critic-04",
+      "action": "fixed",
+      "reason": "Deleted 'nobody could have banked on that in 2021' and the unsourced generalization 'A Three who doubts his impact usually looks for a role where the impact is more visible'. Seminary is now described as part-time study while keeping his seat, an old wish, and cheap at the time (C85, C86); it is no longer counted as a costly choice. The Type 3 FAQ no longer lists seminary. It now cites the 2021 return, the UIL reversal and the pledge."
+    },
+    {
+      "finding_id": "critic-05",
+      "action": "fixed",
+      "reason": "The passage now says the line comes from one campaign-season interview, inside an argument about systems, and that term limits for Congress were already in his platform (C98, S09). 'Keeps describing' and 'builds a rule in advance to stop himself' are replaced with 'described to Bartlett' and 'points to a rule he set in advance against it'."
+    },
+    {
+      "finding_id": "critic-06",
+      "action": "fixed",
+      "reason": "The Paxton section now opens with the contemporaneous runoff-night act from Texas Monthly: he posted the mugshot, listed indictments and called Paxton 'the most corrupt politician in America' (C54). It notes the 'love requires accountability' gloss came months later ('Here the license arrived months after the mugshot'). 'Always' is gone."
+    },
+    {
+      "finding_id": "critic-07",
+      "action": "fixed",
+      "reason": "Kept the protected prediction and added that breaking a public pledge is costly for any type. It then names observables the readings predict differently: whether he corrects a flattering story before anyone forces him to, whether he hedges the pledge or entertains national-ticket talk in the 2028 cycle, and whether he keeps a principle when it costs a visible win."
+    },
+    {
+      "finding_id": "critic-08",
+      "action": "fixed",
+      "reason": "Description rewritten: 'James Talarico quit a 2021 Democratic walkout early under fire from his own party, then won a U.S. Senate seat in Texas. The case for Type 1 over Type 3.' That is 153 characters, matches the body, and is mapped to C100."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "action": "fixed",
+      "reason": "The description now says he left the walkout early under fire from his own party and that he won a U.S. Senate seat in Texas (153 characters, C100)."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "action": "fixed",
+      "reason": "The second sentence now says why Democrats left and what quorum is: 'Most House Democrats had left the state in July to deny the chamber a quorum, the attendance it needs to do business, and stall a Republican elections bill.' The first paragraph adds an identity cue: 'then a state representative from suburban Round Rock and five years later a U.S. Senate winner'. The opening scene is unchanged."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "action": "fixed",
+      "reason": "Added orienting clauses, with no new section, at first appearance: he beat Crockett in the March 3 primary (C92, Axios); Allred was 'a former congressman who had left the Senate primary in December 2025' (C21, CBS); and Paxton had ousted Cornyn in the May 26, 2026 runoff (C93)."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "action": "fixed",
+      "reason": "The intro now names the referent directly: 'a 45-student classroom story that state records do not show'."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "action": "fixed",
+      "reason": "Fixed all three antecedents. 'The same pattern' is now 'The Justin promise has a twin in his medical history'. 'His aggression always arrives with a license' is now 'In each version he tells, the fight arrives with a license', which refers to the story just told. 'The same Tribune report' is now 'the Tribune's August 9 report'."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "action": "fixed",
+      "reason": "Fines are explained ('Under Texas law, ABC News reported, absent members faced $500 fines for every day the House tried and failed to reach quorum', C83). The Colbert detail gets its sourced context: 'a February 2026 Colbert interview that CBS pulled, which Colbert blamed on Trump administration pressure' (C56, S09)."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "action": "fixed",
+      "reason": "The Nine and Two alternatives moved into their own H2, 'Could he be a Nine or a Two?', placed right before 'The case for Type 3'. The anger section now ends on its own point."
+    },
+    {
+      "finding_id": "enneagram-F1",
+      "action": "fixed",
+      "reason": "The article now reports the full sequence ('I don't think so', 'It may not', then 'No', 'No, I really don't') and the reason he gave (the toll of attacks on family and girlfriend). 'Why One still beats Three' no longer counts the 'No' as corruption-fear evidence. The Rogan exchange carries the declined-presidency point, narrowed to the presidency."
+    },
+    {
+      "finding_id": "enneagram-F2",
+      "action": "fixed",
+      "reason": "Added the 2025 near-exit and the Senate run that followed, dated and sourced (C87, C88). The pastor's reframing is discussed as cutting both ways. The 'A Three who doubts his impact usually...' generalization is cut. 'Went to seminary instead of up the ladder' is removed from the discriminator, and seminary is described as low-cost."
+    },
+    {
+      "finding_id": "enneagram-F3",
+      "action": "fixed",
+      "reason": "No second independent pre-2026 occasion was found, so the wording now matches one interview. The type answer and type FAQ now say 'the danger he names when explaining his term-limit pledge' (not 'most often'). The body says 'The one Talarico described to Bartlett' and that the line 'comes from one campaign-season interview, inside an argument about systems'. It gives his other pledge reasons and calls the core-fear reading 'consistent with the type, not proof'. A research task asks for a pre-2026 instance."
+    },
+    {
+      "finding_id": "enneagram-F4",
+      "action": "fixed",
+      "reason": "The Nine paragraph now names the 2021 'rebuilding relationships' line and the James Frank friendship as Nine-compatible (C81, C91). It says the quorum breaks were caucus decisions he joined and lists confrontations that were his alone: the un-Christian remark, the 2025 point of order and the mugshot post (C105). It states the line between One and Nine: twice he opened an unpopular fight with his own side (C104). 'Keeps starting it' is gone."
+    },
+    {
+      "finding_id": "enneagram-F5",
+      "action": "fixed",
+      "reason": "Added the James Frank / UIL reversal to 'Why One still beats Three' as the cleanest example, labeled self-report, told years later on Rogan (July 2025), linked via the Rogan transcript and attributed to S02-uil (C94). It carries the requested honesty: the vote and blowback are unconfirmed, and shame is also an image emotion. It also answers Tepper's charge. The session is not dated because his own account is vague ('two sessions ago'); confirming it is a research task."
+    },
+    {
+      "finding_id": "enneagram-F6",
+      "action": "fixed",
+      "reason": "The Paxton reading is now 'Read through the type, that is a One's bargain with anger'. It notes right there that 'love requires accountability' is also ordinary Christian teaching from a man studying to preach and a useful frame for a candidate attacking his opponent, and that the license came months after the mugshot. 'Watch for that move' in the father passage is kept as a setup: the evidence there is his own two-step answer, and the alternatives are now weighed where the move recurs."
+    },
+    {
+      "finding_id": "enneagram-F7",
+      "action": "fixed",
+      "reason": "The Two paragraph now faces the over-giving burnout ('He describes seminary as a remedy for burning out on loving his neighbors, and he trained for pastoral care'). It rests the rejection on a stated discriminator: his fixes are rules, not rescues (copay cap, term limit, point of order, C103), and the danger he describes is a corrupting system, not being unneeded."
+    },
+    {
+      "finding_id": "enneagram-F8",
+      "action": "fixed",
+      "reason": "The unpinned 'all their faith in a politician' attribution is dropped. The sentence quotes only lines clearly his: the push-back request with its 'politics has become a religion' rationale, and 'the change is going to come from your listeners'."
+    },
+    {
+      "finding_id": "future-01",
+      "action": "fixed",
+      "reason": "The closing sentence now uses a fixed time reference ('He was due to take office in January 2027'). C69's passage and trigger are updated, so nothing goes stale after the swearing-in."
+    },
+    {
+      "finding_id": "future-02",
+      "action": "fixed",
+      "reason": "C04, C57 and C77 are now 'unresolved'. Their review_trigger covers a correction, retraction or repetition of the 45 claim, an NYT correction or follow-up, and initial-roster records surfacing. The body and FAQ date the status ('As of early November 2026, his campaign had not disputed the records'). 'Reframed it instead of conceding' is replaced with a dated-neutral 'answered with an account the records cannot confirm'."
+    },
+    {
+      "finding_id": "future-03",
+      "action": "fixed",
+      "reason": "The C11, C12, C62 and C64 triggers now cover vice-presidential or national-ticket consideration, any qualification of the two-term pledge and a Senate leadership bid, with a dated recheck by 2028-01-31. C80 is now time_sensitive, with a trigger to re-review the type thesis if any of those fire. The closing names concrete observables for 'softening': hedging the pledge or entertaining national-ticket talk in the 2028 cycle."
+    },
+    {
+      "finding_id": "future-04",
+      "action": "fixed",
+      "reason": "'Most often' is dropped from the type answer and FAQ. The stated fear is attributed to the September 2026 Bartlett interview and called campaign-period evidence. The confidence paragraph says the argument rests on the dated early behavior (the 2021 return, the UIL reversal, the 2021 podcast) once campaign-period statements are discounted. No pre-2026 instance was found; that is a research task."
+    },
+    {
+      "finding_id": "future-05",
+      "action": "fixed",
+      "reason": "The description no longer mentions the pledge, and it describes the 2021 event accurately ('quit a 2021 Democratic walkout early under fire from his own party'). It stays at 153 characters and is mapped to claim C100."
+    },
+    {
+      "finding_id": "future-06",
+      "action": "fixed",
+      "reason": "Dated in the prose: 'As of November 2026, there was no recording and no second firsthand witness.' The C21, C65 and C66 triggers are unchanged."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "The Daily Wire's headline called his whole origin story a lie, which the reporting does not show. It does show a story told bigger than the documents.",
+      "action": "kept",
+      "reason": "Unchanged in the 45-student paragraph. The surrounding sentences were reworded (subject-01, future-02), but this fairness move stays verbatim."
+    },
+    {
+      "passage": "A story repeated that often proves message discipline, not motive. What is useful is its shape.",
+      "action": "kept",
+      "reason": "Unchanged. Only the following sentence changed, from 'his aggression always arrives' to 'In each version he tells, the fight arrives' (subject-06, critic-06)."
+    },
+    {
+      "passage": "There is no recording and no second firsthand witness. It remains unresolved.",
+      "action": "changed",
+      "reason": "Dated per future-06: 'As of November 2026, there was no recording and no second firsthand witness. It remains unresolved.' The honest neither-dismiss-nor-insinuate handling is preserved, and subject-03's race denial now precedes it."
+    },
+    {
+      "passage": "[FactCheck.org](https://www.factcheck.org/2026/09/paxtons-ai-heavy-ad-leaves-out-context-of-talarico-remarks-about-christianity/) restored what came next, after a Paxton ad stripped it out in 2026.",
+      "action": "kept",
+      "reason": "Unchanged."
+    },
+    {
+      "passage": "Theft, sickness, corruption: the words come easily to him. Ones usually mean them. So do good preachers.",
+      "action": "kept",
+      "reason": "Unchanged. The economy paragraph it echoes still contains 'theft' and 'a spiritual sickness'."
+    },
+    {
+      "passage": "Haunted is a strong word for an ally to choose. It describes a gap between a standard and what one person can achieve, felt as a weight, which is close to the One's inner critic. Bernal is a friendly witness, and wanting to do more also fits a helper or an achiever. But it comes from outside Talarico's own mouth.",
+      "action": "kept",
+      "reason": "Unchanged. Only the introducing sentence was tightened."
+    },
+    {
+      "passage": "A failed child becomes a funding fight. A hospital bill becomes a price cap.",
+      "action": "kept",
+      "reason": "Unchanged. The sentence opening that paragraph now names its antecedent (unfamiliar-05)."
+    },
+    {
+      "passage": "The counterpoint is that these clips made him famous, and a Three can read a room as well as a One. But the posture predates the reward. He was correcting his own faith on a small podcast years before anyone clipped him.",
+      "action": "kept",
+      "reason": "Unchanged."
+    },
+    {
+      "passage": "The One reading predicts he keeps the two-term pledge and keeps saying no to the next position. The Three reading predicts both soften in the spotlight.",
+      "action": "kept",
+      "reason": "Unchanged and still in the closing. Critic-07 and future-03 are handled by adding sharper observables after it, not by rewriting it."
+    },
+    {
+      "passage": "He names the price himself: the applause and the money. But the same Tribune report notes he then held a competitive suburban seat and had drawn two serious Republican challengers. Going back to work was also good politics.",
+      "action": "changed",
+      "reason": "'the same Tribune report' became 'the Tribune's August 9 report' to fix an ambiguous antecedent (unfamiliar-05). The confrontation of self-interest with the flattering quote, and the dated 2021 anchor, are otherwise verbatim."
+    },
+    {
+      "passage": "It does not explain the 45 students. A man whose stated fear is his own corruption told a classroom story bigger than the records, and his campaign reframed it instead of conceding. A One can talk himself into a story being true in spirit. That is still a dent, not a footnote.",
+      "action": "changed",
+      "reason": "'whose stated fear is his own corruption' became 'who warns about his own corruptibility', and 'his campaign reframed it instead of conceding' became 'his campaign answered with an account the records cannot confirm' (subject-01, future-02: the unopened NYT source does not support the evasive-motive reading). The adverse evidence still stands against the type: 'That is still a dent, not a footnote.'"
+    },
+    {
+      "passage": "Bernal is a friendly witness, and wanting to do more also fits a helper or an achiever.",
+      "action": "kept",
+      "reason": "Unchanged."
+    },
+    {
+      "passage": "So the question is whether the moral seriousness is the engine or the brand. This profile argues engine, with real dents.",
+      "action": "kept",
+      "reason": "Unchanged."
+    },
+    {
+      "passage": "Haunted is a strong word for an ally to choose. It describes a gap between a standard and what one person can achieve, felt as a weight, which is close to the One's inner critic.",
+      "action": "kept",
+      "reason": "Unchanged. Only the introducing sentence was tightened."
+    },
+    {
+      "passage": "A Three's nightmare is failing or being unseen. The one Talarico keeps describing is becoming the thing he fights, and he builds a rule in advance to stop himself.",
+      "action": "changed",
+      "reason": "Its two-sentence One-versus-Three contrast is kept ('A Three's nightmare is failing or being unseen. The one Talarico described to Bartlett is becoming the thing he fights, and he points to a rule he set in advance against it.'). 'Keeps describing' and 'builds a rule... to stop himself' overstated a single interview and a platform plank (enneagram-F3, critic-05, future-04), so they are now bounded."
+    },
+    {
+      "passage": "The line is procedural, not partisan. He broke quorum, returned under fire, and broke it again, each time by a rule he can state.",
+      "action": "changed",
+      "reason": "Critic-01 showed his 2021 return rationale was practical, not the 2025 timing rule, so 'each time by a rule he can state' was false. Now: 'The line is procedural, not partisan, but it is not one rule applied twice.' The durable 2021-to-2025 pattern is kept, recast as a habit of giving checkable reasons, plus the cost of stating the 2025 rule."
+    },
+    {
+      "passage": "The Three evidence, the class size, the super PAC and the repositioning, all arrives under the heaviest statewide pressure, when almost anyone adapts, so it discriminates less than the earlier choices.",
+      "action": "kept",
+      "reason": "The sentence is verbatim. The confidence paragraph now follows it with the symmetric discount critic-03 requires, so the protected weighing logic survives and is applied to both sides."
+    },
+    {
+      "passage": "Seminary later became central to his political brand, but nobody could have banked on that in 2021.",
+      "action": "changed",
+      "reason": "Removed as an unsupported counterfactual. Faith-forward politics was public by March 2021 (S18), and he kept his seat (critic-04, subject-06). Its contribution, judging a choice by what was knowable at the time, is retained in 'But the choice cost little. He kept his seat, and faith was already part of his politics; in March 2021 he was criticizing his own tradition on a podcast. Cheap, then, but not a step up.'"
+    }
+  ],
+  "prior_blockers": []
+}

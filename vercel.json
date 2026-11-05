@@ -242,6 +242,46 @@
 			"permanent": true
 		},
 		{
+			"source": "/blogs/s-empty-room.webp",
+			"destination": "/blogs/s-empty-room-after-the-game-v3.webp",
+			"permanent": true
+		},
+		{
+			"source": "/blogs/empty-room.webp",
+			"destination": "/blogs/empty-room-after-the-game-v3.webp",
+			"permanent": true
+		},
+		{
+			"source": "/blogs/s-greek-statue-offering-mercy-under-streetlamp.webp",
+			"destination": "/blogs/s-greek-statues-offering-water-v3.webp",
+			"permanent": true
+		},
+		{
+			"source": "/blogs/greek-statue-offering-mercy-under-streetlamp.webp",
+			"destination": "/blogs/greek-statues-offering-water-v3.webp",
+			"permanent": true
+		},
+		{
+			"source": "/blogs/s-freud-plato.webp",
+			"destination": "/blogs/s-freud-plato-even-light-v3.webp",
+			"permanent": true
+		},
+		{
+			"source": "/blogs/freud-plato.webp",
+			"destination": "/blogs/freud-plato-even-light-v3.webp",
+			"permanent": true
+		},
+		{
+			"source": "/blogs/s-brain-vs-heart-dichotomy.webp",
+			"destination": "/blogs/s-greek-statue-self-reflection-v3.webp",
+			"permanent": true
+		},
+		{
+			"source": "/blogs/brain-vs-heart-dichotomy.webp",
+			"destination": "/blogs/greek-statue-self-reflection-v3.webp",
+			"permanent": true
+		},
+		{
 			"source": "/blogs/trump-type-8-vs-biden-type-2-composite.webp",
 			"destination": "/blogs/trump-type-3-vs-biden-type-2-composite.webp",
 			"permanent": true

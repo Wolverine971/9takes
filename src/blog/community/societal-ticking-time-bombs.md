@@ -11,8 +11,8 @@ published: true
 type: [idea]
 blog: true
 previewHtml: 'SSRIs, gambling, and IQ decline — three ticking time bombs nobody is connecting.'
-pic: empty-room
-image_aspect_ratio: '1674 / 939'
+pic: 'empty-room-after-the-game-v3'
+image_aspect_ratio: '1672 / 941'
 path: src/blog/community/societal-ticking-time-bombs.md
 article_citations:
   - name: 'Incidence of antidepressant discontinuation symptoms: a systematic review and meta-analysis'
@@ -144,10 +144,9 @@ faqs:
 ---
 
 <!--
-Image refreshed 2026-11-04 with the built-in image generator.
-Scene: Preserve an unoccupied room and an empty central chair, with fewer meaningful objects, worn Greek stonework and restrained dawn light.
-Master: source-assets/blogs/empty-room-greek-stone-v2.png
-Exact prompt and original artwork: docs/design/image-refresh-2026-11-04/.
+Image refreshed 2026-11-05. An empty stool and an unfinished dice game in an ancient household. A remedy flask and a set-aside wax tablet connect the other threads of the article.
+Master: source-assets/blogs/empty-room-after-the-game-v3.png
+Brief and previous artwork: docs/design/image-refresh-2026-11-04/.
 -->
 
 <script>

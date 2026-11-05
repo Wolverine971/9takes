@@ -12,7 +12,7 @@ published: true
 type: ['idea', 'community']
 blog: true
 previewHtml: 'Humiliate people for being wrong and admitting it becomes unsafe. A pile-on made Megan Phelps-Roper surer. A few merciful strangers got her out of Westboro.'
-pic: 'greek-statue-offering-mercy-under-streetlamp'
+pic: 'greek-statues-offering-water-v3'
 image_aspect_ratio: '3 / 2'
 path: src/blog/community/be-gentle-when-youre-right.md
 article_citations:
@@ -129,10 +129,9 @@ article_citations:
 ---
 
 <!--
-Image refreshed 2026-11-04 with the built-in image generator.
-Scene: A quiet exchange between two statues at equal eye level: an offered pastry and a lowered sign, preserving the article’s concrete act of kindness.
-Master: source-assets/blogs/greek-statues-gentle-disagreement-v2.png
-Exact prompt and original artwork: docs/design/image-refresh-2026-11-04/.
+Image refreshed 2026-11-05. One seated statue offers a shallow carved bowl to another at a spring. Their hands and the bowl carry the act of kindness.
+Master: source-assets/blogs/greek-statues-offering-water-v3.png
+Brief and previous artwork: docs/design/image-refresh-2026-11-04/.
 -->
 
 <script>

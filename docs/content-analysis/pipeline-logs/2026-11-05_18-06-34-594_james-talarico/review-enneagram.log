@@ -1,0 +1,19 @@
+Warning: this sign-in can end at any time from now until 2026-11-08. Renewing it does not move that date. Run claude auth login now, or use claude setup-token for unattended jobs.
+I wrote the Enneagram review for the James Talarico run to `review-enneagram.json` in the run folder. It passes the pipeline's review-format check, and the content and evidence hashes are copied from the request. I didn't change or publish anything else.
+
+**Verdict:** Type 1 at medium confidence holds up, but the argument against Types 3 and 9 looks cleaner in the draft than in the sources. As written, the Enneagram score would struggle to reach the 8 the release gate needs. I re-read the full Diary of a CEO and Joe Rogan transcripts to check this.
+
+**8 findings (5 major, 3 minor):**
+- **The presidency "No" (major):** In the same Diary of a CEO exchange, he first said "I don't think so," then "It may not," and only then "No." The reason he gave was the attacks on him and his family, not a fear of becoming corrupt.
+- **"Seminary instead of the next rung" (major):** This leaves out that he nearly quit politics again in summer 2025 and then ran for the U.S. Senate. His pastor had told him a campaign can be a form of ministry, which settled it for him.
+- **His core fear (major):** The draft says corruption is the danger he names "most often." Both quotes come from one interview, and the main one sits inside an argument about the system: "Don't focus on the personalities."
+- **The Type 9 rebuttal (major):** It counts the group walkouts as fights he started. It never tests his own 2021 explanation ("rebuilding relationships, negotiating policy, and reducing harm") against Type 9.
+- **The best Type 1 evidence is missing (major):** On Rogan, he describes the 2021 homeschool sports bill. A Republican colleague showed him he was going against his own principle, so he switched sides, felt "embarrassed and ashamed," crossed party lines and got "blowback from my folks."
+- **Minor:**
+  - The Paxton passage calls his love-and-accountability framing a One trait "in plain view" without noting it's also standard Christian theology.
+  - The Type 2 rebuttal ignores his own words about burning out from over-giving.
+  - One Rogan quote ("all their faith in a politician") may actually be Rogan speaking.
+
+I marked five passages to protect, including the "Ones usually mean them. So do good preachers" line and the closing prediction that separates the One and Three readings.
+
+The similarity check matched other drafts only on stock Enneagram phrases like "the three types whose core emotion is anger," so I didn't flag any reuse. Both risk flags stay on: the unresolved "mediocre" remark and the class-size dispute keep the sensitive-allegations flag set, and the typing stays marked as contested.

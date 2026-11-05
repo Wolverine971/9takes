@@ -1,5 +1,5 @@
 {
-	"method": "Human visual triage of contact sheets plus full-size inspection of the seven user references. Proposed scenes outside the four replacements use article titles and descriptions; verify article body before generation. Tiers are editorial judgments, not measured image quality or file age.",
+	"method": "Editorial triage from contact sheets and the supplied full-size references, revised with user feedback. Replacement scenes use the article bodies; queued scenes are provisional until checked against the body.",
 	"reviews": [
 		{
 			"id": 1,
@@ -42,14 +42,15 @@
 			"tier": "T2",
 			"reason": "User explicitly loves the chalkboard, word and kindergarten concept. Retain those; add Greek architectural and material details.",
 			"concept": "Keep EMOTIONS large on the board and the wooden alphabet blocks. Add worn Greek stonework, a small secondary bust and simple chalk faces.",
-			"userNote": "Loves the chalkboard with the word emotion and the kindergarten learning idea; add more Greek aesthetic."
+			"userNote": "Loves the chalkboard with the word emotion and the kindergarten learning idea; add more Greek aesthetic.",
+			"followupNote": "Keep the chalkboard and its emotional expressions as reviewed."
 		},
 		{
 			"id": 15,
 			"tier": "T2",
-			"reason": "User likes the empty-room concept. Keep the absence of people; reduce duplicate screens, implausible cables and saturated lighting.",
-			"concept": "Preserve an unoccupied room and an empty central chair, with fewer meaningful objects, worn Greek stonework and restrained dawn light.",
-			"userNote": "Likes the idea; iterate and improve it."
+			"reason": "The television and contemporary furniture in a columned stone room competed with the article’s idea.",
+			"concept": "An empty stool and an unfinished dice game in an ancient household. A remedy flask and a set-aside wax tablet connect the other threads of the article.",
+			"userNote": "Keep the idea of an empty room but choose one coherent period; remove the TV and mixed setting."
 		},
 		{
 			"id": 16,
@@ -74,7 +75,8 @@
 			"tier": "T1",
 			"reason": "User explicitly requests ancient Greece and Greek statues in place of the modern street crowd.",
 			"concept": "Two philosophers consider complementary approaches in an ancient Greek academy, using period tablets and papyrus; no modern objects.",
-			"userNote": "Needs Greek statues and an ancient Greece time period."
+			"userNote": "Needs Greek statues and an ancient Greece time period.",
+			"followupNote": "Keep the ancient academy comparison as reviewed."
 		},
 		{
 			"id": 30,
@@ -109,9 +111,9 @@
 		{
 			"id": 37,
 			"tier": "T2",
-			"reason": "User likes the opposing portrait composition. The change is to the red/cyan palette, not to the underlying scene.",
-			"concept": "Keep the opposing profiles, expressions, glasses and sculptural detail; unify the light and neutral grey stone palette.",
-			"userNote": "Likes the image; make the colors more cohesive."
+			"reason": "The previous vignette softened and obscured the edges of both busts.",
+			"concept": "Stone profiles of Plato and Freud face each other against flat grey, with crisp hair, ears and shoulders.",
+			"userNote": "Keep the opposing profiles; remove edge blur and gradients."
 		},
 		{
 			"id": 38,
@@ -524,23 +526,24 @@
 		{
 			"id": 70,
 			"tier": "T1",
-			"reason": "User moved this from retain to recreate. The rigid crowd, tiny phones and glowing gift staging feel too synthetic.",
-			"concept": "A quiet exchange between two statues at equal eye level: an offered pastry and a lowered sign, preserving the article’s concrete act of kindness.",
-			"userNote": "Needs updating."
+			"reason": "A modern pastry, cardboard box and street furniture made the material and period of the scene inconsistent.",
+			"concept": "One seated statue offers a shallow carved bowl to another at a spring. Their hands and the bowl carry the act of kindness.",
+			"userNote": "The croissant feels pasted into the statue scene; show giving or sharing in a way that belongs."
 		},
 		{
 			"id": 123,
 			"tier": "T1",
 			"reason": "User moved this from retain to recreate. The bottle wall, illegible labels and blurred glossy figure overwhelm the human concern.",
 			"concept": "One patient statue discusses a concern with a listening clinician; one closed unbranded bottle makes the subject clear.",
-			"userNote": "Needs updating."
+			"userNote": "Needs updating.",
+			"followupNote": "Keep the patient talking to the clinician; the one medicine bottle is the point of the scene."
 		},
 		{
 			"id": 6,
 			"tier": "T1",
-			"reason": "User moved this from retain to recreate. The split face and exposed circuit pattern are an artificial sci-fi metaphor.",
-			"concept": "An intact statue studies its reflection in still water, connecting to the article’s invitation to understand personal patterns.",
-			"userNote": "Needs updating."
+			"reason": "The reflected face was displaced and did not resemble the subject.",
+			"concept": "A kneeling marble woman leans over still water. Her face, hair bun and shoulder clasp repeat directly below her in the water.",
+			"userNote": "The reflected face must match the woman leaning over the pool."
 		}
 	]
 }
