@@ -11,6 +11,7 @@ changefreq: 'monthly'
 priority: '0.7'
 published: true
 type: ['workplace', 'leadership']
+subtopics: ['leadership']
 blog: true
 previewHtml: 'Career guides hand the corner office to Type 8 or Type 3. We counted 80 business profiles. Among the 46 people who built or ran a company, Type 5 shows up most, at 3.6 times its sitewide rate.'
 path: src/blog/enneagram/what-enneagram-type-are-most-ceos.md

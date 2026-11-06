@@ -10,6 +10,7 @@ changefreq: 'monthly'
 priority: '0.9'
 published: true
 type: ['relationships']
+subtopics: ['love-languages']
 blog: true
 pic: 'greek_statues_giving_and_receiving_love_in_different_ways'
 pic_alt: 'Nine Greek statues demonstrating different love languages - giving gifts, embracing, serving, talking, and spending time together'

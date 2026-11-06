@@ -1,46 +1,44 @@
 <!-- src/routes/enneagram-corner/subtopic/[slug]/+page.svelte -->
 <script lang="ts">
 	import type { PageData } from './$types';
-	import EnneagramCategoryIntro from '$lib/components/blog/EnneagramCategoryIntro.svelte';
+	import EnneagramSectionPage from '$lib/components/blog/EnneagramSectionPage.svelte';
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
+	import { CORNER_SECTION_COPY } from '$lib/data/enneagramCornerSectionCopy';
 	import { getAuthShell } from '$lib/authShell.svelte';
 
 	let { data }: { data: PageData } = $props();
 	const authShell = getAuthShell();
+
+	const copy = $derived(CORNER_SECTION_COPY[data.slug] ?? CORNER_SECTION_COPY.overview);
 </script>
 
-<div class="page-wrapper">
-	<EnneagramCategoryIntro subsection={data.slug} blogs={data.posts} />
+<EnneagramSectionPage
+	view={data.view}
+	{copy}
+	canonical={`https://9takes.com/enneagram-corner/subtopic/${data.slug}`}
+/>
 
-	{#if !authShell.user}
-		<div class="signup-section">
+{#if !authShell.user}
+	<div class="signup-section">
+		<div class="signup-inner">
 			<EmailSignup />
 		</div>
-	{/if}
-</div>
+	</div>
+{/if}
 
 <style lang="scss">
-	/* Subtopic page shell (Cold Light) */
-	.page-wrapper {
-		min-height: 100vh;
-		background: var(--bg);
-		padding-bottom: 4rem;
-	}
-
 	.signup-section {
-		max-width: 500px;
-		margin: 3rem auto 0;
-		padding: 0 1.5rem;
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 0 48px 4rem;
+		background: var(--bg);
+
+		@media (max-width: 768px) {
+			padding: 0 20px 3rem;
+		}
 	}
 
-	@media (max-width: 640px) {
-		.page-wrapper {
-			padding-bottom: 3rem;
-		}
-
-		.signup-section {
-			margin-top: 2rem;
-			padding: 0 1rem;
-		}
+	.signup-inner {
+		max-width: 520px;
 	}
 </style>

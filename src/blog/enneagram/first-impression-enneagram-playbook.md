@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['situational']
+subtopics: ['social-life']
 blog: true
 previewHtml: 'You have 30 seconds before the verdict lands. What each Enneagram type is thinking, watching, and scanning for when they meet you, and how to pass all nine tests.'
 pic: 'greek-statues-getting-ready-to-approach'

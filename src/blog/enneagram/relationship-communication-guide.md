@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['relationships', 'communication', 'enneagram']
+subtopics: ['couples', 'communication-skills']
 blog: true
 previewHtml: ''
 pic: 'greek-statues-having-an-intimate-conversation'

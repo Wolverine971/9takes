@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['workplace', 'leadership']
+subtopics: ['leadership']
 blog: true
 previewHtml: 'Your leadership superpower is also your blind spot. Type 1s perfectionism demoralizes teams. Type 3s sacrifice people for metrics. Type 9s avoid the decisions that matter most. Here is what each type needs to stop doing and the specific fix that works with your wiring.'
 pic: 'diverse-leaders-boardroom-enneagram'

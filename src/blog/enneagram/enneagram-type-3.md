@@ -10,6 +10,7 @@ changefreq: 'monthly'
 priority: '0.7'
 published: true
 type: ['nine-types']
+subtopics: ['heart-types']
 blog: true
 pic: 'enneagram-type-3-dossier'
 path: src/blog/enneagram/enneagram-type-3.md

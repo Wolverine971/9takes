@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['situational']
+subtopics: ['real-life-mental-health', 'neurodivergence']
 blog: true
 previewHtml: ''
 pic: 'greek-statue-adhd-scattered-thoughts'

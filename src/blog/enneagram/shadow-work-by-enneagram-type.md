@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.9'
 published: true
 type: ['development', 'shadow-work', 'personal-growth']
+subtopics: ['shadow-work']
 blog: true
 pic: 'nine_greek_statues_facing_their_shadows_on_the_wall'
 pic_alt: 'Nine Greek statues standing before a wall where their shadows reveal their hidden dark traits and fears'

@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 type: ['development']
+subtopics: ['communication-skills']
 blog: true
 previewHtml: ''
 pic: 'greek-statues-arguing'

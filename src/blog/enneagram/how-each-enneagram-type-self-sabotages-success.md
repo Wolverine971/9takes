@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['situational']
+subtopics: ['ambition', 'shadow-work']
 blog: true
 previewHtml: ''
 pic: 'greek-statues-self-sabotage'

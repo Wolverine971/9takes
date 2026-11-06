@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.8'
 published: true
 type: ['situational']
+subtopics: ['real-life-mental-health', 'mental-health-basics']
 blog: true
 previewHtml: ''
 pic: 'greek-statue-of-athena-with-red'

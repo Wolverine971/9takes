@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['development']
+subtopics: ['self-awareness']
 blog: true
 previewHtml: ''
 pic: 'greek-statue-stress-paradox'

@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 type: ['situational']
+subtopics: ['real-life-mental-health', 'anxiety-depression']
 blog: true
 previewHtml: ''
 pic: 'anxiety-and-enneagram-types-guide'

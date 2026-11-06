@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.9'
 published: true
 type: ['mental-health']
+subtopics: ['trauma-crisis']
 blog: true
 previewHtml: ''
 pic: 'crisis-management'

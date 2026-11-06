@@ -10,6 +10,7 @@ changefreq: 'monthly'
 priority: '0.8'
 published: true
 type: ['relationships']
+subtopics: ['love-languages']
 blog: true
 previewHtml: 'Chapman named five love languages. The research adds a catch: the reason behind a gesture changes how it lands.'
 pic: 'greek-statues-fixing-the-lamp-while-she-waits'

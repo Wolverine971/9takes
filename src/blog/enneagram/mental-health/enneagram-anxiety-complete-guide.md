@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.8'
 published: true
 type: ['mental-health']
+subtopics: ['anxiety-depression']
 blog: true
 previewHtml: ''
 pic: 'greek-statue-circle-of-anxiety'

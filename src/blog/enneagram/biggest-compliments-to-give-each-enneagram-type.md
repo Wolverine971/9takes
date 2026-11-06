@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['situational']
+subtopics: ['social-life']
 blog: true
 pic: 'greek-statue-yeah-boi'
 path: src/blog/enneagram/biggest-compliments-to-give-each-enneagram-type.md

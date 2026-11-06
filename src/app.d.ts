@@ -160,6 +160,8 @@ declare global {
 			enneagram?: string | number;
 			type?: string[] | string;
 			popCulture?: PopCultureTaxonomy;
+			/** Enneagram Corner lanes; slugs from $lib/data/enneagramCornerTaxonomy.js. */
+			subtopics?: string[];
 			stage?: number;
 			stageName?: string;
 			tags?: string[];

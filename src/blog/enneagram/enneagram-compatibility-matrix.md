@@ -10,6 +10,7 @@ changefreq: monthly
 priority: '0.9'
 published: true
 type: [relationships]
+subtopics: ['couples']
 blog: true
 pic: greek_statues_in_a_circle_holding_hands
 pic_alt: 'Circular arrangement of nine greek statues with connecting threads showing compatibility patterns'

@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.7'
 published: true
 type: ['overview']
+subtopics: ['type-structure']
 blog: true
 previewHtml: ''
 pic: 'circle_of_nine_greek_greek_statues_sitting'

@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.7'
 published: false
 type: ['situational']
+subtopics: ['real-life-mental-health']
 blog: true
 previewHtml: ''
 pic: ''

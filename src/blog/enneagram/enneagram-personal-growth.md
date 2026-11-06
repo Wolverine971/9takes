@@ -10,6 +10,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['development']
+subtopics: ['growth-plans']
 blog: true
 previewHtml: ''
 pic: 'stairs-of-self-improvement'

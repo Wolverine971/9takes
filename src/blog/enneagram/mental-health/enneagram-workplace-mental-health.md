@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.8'
 published: true
 type: ['mental-health']
+subtopics: ['burnout-family', 'work-burnout']
 blog: true
 previewHtml: ''
 pic: 'greek-statue-on-laptop-stressed'

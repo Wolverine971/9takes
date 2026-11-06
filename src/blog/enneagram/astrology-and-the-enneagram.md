@@ -10,6 +10,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['situational']
+subtopics: ['trends']
 blog: true
 previewHtml: ''
 pic: 'looking-up-at-the-night-sky'

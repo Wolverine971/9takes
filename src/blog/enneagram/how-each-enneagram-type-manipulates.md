@@ -10,6 +10,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['situational']
+subtopics: ['dark-side']
 blog: true
 previewHtml: ''
 pic: 'greek-statues-manipulation-tactics'

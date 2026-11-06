@@ -21,6 +21,7 @@
 	import IndexHero from '$lib/components/marketing/IndexHero.svelte';
 	import CaseCard from '$lib/components/marketing/CaseCard.svelte';
 	import CaseGrid from '$lib/components/marketing/CaseGrid.svelte';
+	import { getCornerSection } from '$lib/data/enneagramCornerTaxonomy.js';
 
 	let { data }: { data: PageData } = $props();
 
@@ -461,7 +462,12 @@
 					? [...(blogsByType.get(topic.type) ?? [])].sort((a, b) => a.slug.localeCompare(b.slug))
 					: (blogsByType.get(topic.type) ?? [])}
 			{@const topicLimit = topic.type === 'nine-types' ? 9 : 6}
-			{@const topicTotal = data.topicCounts?.[topic.type] ?? topicPosts.length}
+			{@const topicTotal =
+				data.sectionSubtopics?.[topic.type]?.total ??
+				data.topicCounts?.[topic.type] ??
+				topicPosts.length}
+			{@const topicLanes = data.sectionSubtopics?.[topic.type]?.subtopics ?? []}
+			{@const sectionHref = getCornerSection(topic.type)?.href ?? topic.viewAllHref}
 			{@const remaining = Math.max(0, topicTotal - topicLimit)}
 			{#if topicPosts.length > 0}
 				<div class="topic-block" id={topic.id}>
@@ -474,6 +480,15 @@
 						/>
 						<h3 class="display-sm">{topic.title}.</h3>
 						<p class="topic-block-sub">{topic.descriptor}</p>
+						{#if topicLanes.length > 1 && sectionHref}
+							<nav class="topic-lanes" aria-label="{topic.title} topics">
+								{#each topicLanes as lane (lane.slug)}
+									<a href="{sectionHref}#lane-{lane.slug}">
+										{lane.title} <span class="topic-lane-count">{lane.count}</span>
+									</a>
+								{/each}
+							</nav>
+						{/if}
 					</header>
 
 					<!-- Fixed 3-up recipe (3/2/1 across breakpoints) that CaseGrid's
@@ -595,13 +610,14 @@
 		text-decoration: none;
 	}
 
+	/* Left-aligned headings (DJ, 2026-11-06): the hub read as a centered
+	   column; headings now share the left edge with the card grids. */
 	.section-head {
-		max-width: 820px;
+		max-width: 1280px;
 		margin: 0 auto 40px;
-		text-align: center;
 		display: flex;
 		flex-direction: column;
-		align-items: center;
+		align-items: flex-start;
 		gap: 12px;
 	}
 
@@ -696,12 +712,10 @@
 	}
 
 	.topic-block-head {
-		max-width: 720px;
-		margin: 0 auto 28px;
-		text-align: center;
+		margin: 0 0 28px;
 		display: flex;
 		flex-direction: column;
-		align-items: center;
+		align-items: flex-start;
 		gap: 10px;
 		padding-bottom: 18px;
 		border-bottom: 1px solid var(--rule);
@@ -710,12 +724,11 @@
 		&::after {
 			content: '';
 			position: absolute;
-			left: 50%;
+			left: 0;
 			bottom: -1px;
 			width: 80px;
 			height: 2px;
 			background: var(--accent);
-			transform: translateX(-50%);
 			border-radius: 9999px;
 		}
 	}
@@ -728,10 +741,42 @@
 		max-width: 580px;
 	}
 
+	/* Subtopic links under each topic heading (enneagramCornerTaxonomy.js). */
+	.topic-lanes {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 6px 8px;
+		margin-top: 4px;
+
+		a {
+			display: inline-flex;
+			align-items: center;
+			gap: 6px;
+			padding: 5px 12px;
+			border: 1px solid var(--rule);
+			border-radius: 9999px;
+			font-size: var(--font-size-sm);
+			color: var(--text-muted);
+			transition:
+				border-color 0.15s ease,
+				color 0.15s ease;
+
+			&:hover {
+				border-color: var(--highlight);
+				color: var(--text);
+			}
+		}
+	}
+
+	.topic-lane-count {
+		font-size: var(--font-size-xs);
+		color: var(--text-faint);
+	}
+
 	.topic-block-cta {
 		margin-top: 36px;
 		display: flex;
-		justify-content: center;
+		justify-content: flex-start;
 
 		:global(.btn) {
 			border-color: color-mix(in srgb, var(--highlight) 40%, transparent);
@@ -775,19 +820,18 @@
 	  block, but driven by buttons rather than the email form.
 	  ========================================================= */
 	.cta-inner {
-		max-width: 720px;
+		max-width: 1280px;
 		margin: 0 auto;
-		text-align: center;
 		display: flex;
 		flex-direction: column;
-		align-items: center;
+		align-items: flex-start;
 		gap: 16px;
 	}
 
 	.cta-actions {
 		display: flex;
 		flex-wrap: wrap;
-		justify-content: center;
+		justify-content: flex-start;
 		gap: 12px;
 		margin-top: 12px;
 	}

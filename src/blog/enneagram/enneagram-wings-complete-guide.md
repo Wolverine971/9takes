@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.8'
 published: true
 type: ['overview']
+subtopics: ['type-structure']
 blog: true
 pic: 'two_greek_statues_with_wings'
 pic_alt: 'Two greek statues representing enneagram type and wing influence'

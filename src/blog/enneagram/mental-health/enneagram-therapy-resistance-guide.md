@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.7'
 published: true
 type: ['mental-health']
+subtopics: ['therapy-treatment']
 blog: true
 previewHtml: ''
 pic: 'greek-statue-calling-you-out'

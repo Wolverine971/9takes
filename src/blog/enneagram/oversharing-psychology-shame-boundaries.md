@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.7'
 published: true
 type: ['situational']
+subtopics: ['social-life']
 blog: true
 previewHtml: ''
 pic: 'cafe-oversharing-conversation'

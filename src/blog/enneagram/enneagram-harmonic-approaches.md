@@ -10,6 +10,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['overview']
+subtopics: ['type-structure']
 blog: true
 previewHtml: ''
 pic: 'greek-statues-harmonic-conflict-styles'

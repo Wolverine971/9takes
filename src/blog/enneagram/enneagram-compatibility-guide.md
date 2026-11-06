@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.9'
 published: false
 type: ['relationships']
+subtopics: ['couples']
 blog: true
 pic: 'greek-statues-examining-compatibility-chart'
 pic_alt: 'Two Greek statues looking skeptically at a floating compatibility chart while genuinely connected by golden threads'

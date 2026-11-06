@@ -10,6 +10,7 @@ changefreq: 'monthly'
 priority: '0.7'
 published: true
 type: ['overview']
+subtopics: ['type-structure']
 blog: true
 previewHtml: ''
 pic: 'neoclassical-fortress2'

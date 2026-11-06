@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.8'
 published: true
 type: ['mental-health']
+subtopics: ['burnout-family', 'parents-kids']
 blog: true
 previewHtml: ''
 pic: 'greek-statue-struggling-to-parent'

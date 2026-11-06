@@ -10,6 +10,7 @@ changefreq: 'monthly'
 priority: '0.9'
 published: true
 type: ['relationships']
+subtopics: ['love-languages']
 blog: true
 pic: 'attachment_styles_enneagram_types_psychology'
 pic_alt: 'Nine figures showing different attachment patterns - secure embrace, anxious reaching, avoidant distance, and disorganized confusion'

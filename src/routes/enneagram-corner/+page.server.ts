@@ -1,6 +1,8 @@
 // src/routes/enneagram-corner/+page.server.ts
 import type { PageServerLoad } from './$types';
 import { slugFromPath } from '$lib/slugFromPath';
+import { toStringList } from '$lib/data/enneagramCornerTaxonomy.js';
+import { buildSubtopicCounts } from '$lib/server/enneagramCornerSections';
 
 // const MAX_POSTS = 20;
 
@@ -8,7 +10,7 @@ export const load: PageServerLoad = async () => {
 	type EnneagramIndexPost = Pick<
 		App.BlogPost,
 		'slug' | 'title' | 'description' | 'date' | 'lastmod' | 'published' | 'type' | 'pic'
-	>;
+	> & { subtopics: string[] };
 
 	const modules = import.meta.glob([
 		`/src/blog/enneagram/**/*.{md,svx,svelte.md}`,
@@ -38,6 +40,7 @@ export const load: PageServerLoad = async () => {
 			lastmod: metadata.lastmod ?? metadata.date,
 			published: Boolean(metadata.published),
 			type: Array.isArray(metadata.type) ? metadata.type : [],
+			subtopics: toStringList((metadata as { subtopics?: unknown }).subtopics),
 			pic: metadata.pic
 		} as EnneagramIndexPost;
 	});
@@ -106,8 +109,13 @@ export const load: PageServerLoad = async () => {
 		}
 	}
 
+	// Per-section lane chips + totals that include cross-listed posts, so the
+	// hub's "View all N" matches what the section page shows.
+	const sectionSubtopics = buildSubtopicCounts(publishedPosts);
+
 	return {
 		enneagramBlogs: uniqueObjects,
+		sectionSubtopics,
 		featured,
 		recentlyUpdated,
 		topicCounts,

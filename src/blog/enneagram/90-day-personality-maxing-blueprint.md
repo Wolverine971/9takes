@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '1.0'
 published: true
 type: ['development']
+subtopics: ['growth-plans']
 blog: true
 pic: 'greek-statue-thinking-about-transformation'
 pic_alt: 'Greek statue contemplating transformation with ascending paths representing personal growth'

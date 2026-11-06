@@ -10,6 +10,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['situational']
+subtopics: ['ambition', 'leadership']
 blog: true
 previewHtml: 'Every famous Type 8 grinded. None broke through by grinding alone. After studying Bezos, MLK, Rihanna, Chappell Roan, and 10 other Challengers, here are the 6 patterns that actually produced their breakthroughs.'
 pic: '8s-playing-chess'

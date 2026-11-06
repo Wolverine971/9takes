@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.8'
 published: true
 type: ['mental-health']
+subtopics: ['trauma-crisis']
 blog: true
 previewHtml: ''
 pic: 'enneagram-trauma-response'

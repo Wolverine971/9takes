@@ -8,6 +8,7 @@ lastmod: '2026-01-18'
 changefreq: 'monthly'
 published: true
 type: ['resources']
+subtopics: ['other-systems']
 blog: true
 previewHtml: ''
 pic: 'enneagram-vs-meyers-briggs'

@@ -10,6 +10,7 @@ changefreq: 'monthly'
 priority: '0.7'
 published: true
 type: ['situational']
+subtopics: ['stress-coping']
 blog: true
 previewHtml: 'Stress is not random. Something happens, you predict a feared outcome, and your personality reaches for its favorite way to stop it. When that stops working, each type tends to borrow the worst habits of one other type. Here is the loop and the stress point for all nine.'
 pic: 'feeling-stressed'

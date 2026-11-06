@@ -10,6 +10,7 @@ changefreq: 'weekly'
 priority: '0.6'
 published: true
 type: ['nine-types']
+subtopics: ['head-types']
 blog: true
 pic: 'enneagram-type-5-dossier'
 path: src/blog/enneagram/enneagram-type-5.md

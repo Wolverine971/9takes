@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['situational', 'mental-health']
+subtopics: ['real-life-mental-health', 'therapy-treatment']
 blog: true
 previewHtml: ''
 pic: 'greek-statue-therapy-couch'

@@ -10,6 +10,7 @@ changefreq: 'monthly'
 priority: '0.7'
 published: true
 type: ['workplace']
+subtopics: ['career-fit']
 blog: true
 previewHtml: ''
 pic: 'female-greek-statues-of-different-professions'

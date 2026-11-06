@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.9'
 published: true
 type: ['situational']
+subtopics: ['trends', 'growth-plans']
 blog: true
 previewHtml: ''
 pic: 'greek-statue-interested-in-personality-maxing'

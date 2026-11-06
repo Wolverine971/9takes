@@ -9,6 +9,7 @@ changefreq: monthly
 priority: '0.8'
 published: true
 type: [mental-health]
+subtopics: ['therapy-treatment']
 blog: true
 previewHtml: ''
 pic: medications_and_stress

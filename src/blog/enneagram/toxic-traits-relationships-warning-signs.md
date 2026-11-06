@@ -10,6 +10,7 @@ changefreq: 'monthly'
 priority: '0.7'
 published: true
 type: ['situational']
+subtopics: ['real-life-dating', 'conflict-repair']
 blog: true
 previewHtml: ''
 pic: 'greek-statues-in-a-tense-moment'

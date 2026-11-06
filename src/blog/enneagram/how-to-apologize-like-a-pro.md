@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['relationships', 'relationship-skills']
+subtopics: ['conflict-repair']
 blog: true
 previewHtml: 'Discover why apologizing feels impossible for your personality type and learn the exact words and actions that make your apologies land. From perfectionists who over-apologize to challengers who never apologize, this guide reveals the psychology behind saying sorry.'
 pic: 'greek-statue-apology-reconciliation'

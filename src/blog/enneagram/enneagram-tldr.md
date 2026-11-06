@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.7'
 published: true
 type: ['overview']
+subtopics: ['typing-yourself']
 blog: true
 previewHtml: ''
 pic: 'greek-dude-reading-book'

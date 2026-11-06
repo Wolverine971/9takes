@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.8'
 published: true
 type: ['mental-health']
+subtopics: ['addiction']
 blog: true
 previewHtml: ''
 pic: 'enneagram-addiction-recovery'

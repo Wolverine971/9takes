@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.8'
 published: true
 type: ['mental-health']
+subtopics: ['mental-health-research']
 blog: true
 previewHtml: ''
 pic: 'greek-statue-researcher'

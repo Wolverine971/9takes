@@ -1,56 +1,22 @@
 // src/routes/enneagram-corner/subtopic/[slug]/+page.server.ts
 import type { PageServerLoad } from './$types';
-import { error } from '@sveltejs/kit';
-import { slugFromPath } from '$lib/slugFromPath';
+import { error, redirect } from '@sveltejs/kit';
+import { CORNER_SECTIONS } from '$lib/data/enneagramCornerTaxonomy.js';
+import { buildSectionView, loadCornerPosts } from '$lib/server/enneagramCornerSections';
 
-// Must stay in sync with sectionMeta in EnneagramCategoryIntro.svelte and
-// ENNEAGRAM_SUBTOPIC_SLUGS in scripts/generate-sitemap.js. Unknown slugs 404
-// so we never serve duplicate overview content on arbitrary indexable URLs.
-const KNOWN_SUBTOPICS = [
-	'overview',
-	'nine-types',
-	'development',
-	'relationships',
-	'workplace',
-	'resources',
-	'situational'
-];
+// Sections come from the taxonomy; mental-health has its own route. Must stay
+// in sync with ENNEAGRAM_SUBTOPIC_SLUGS in scripts/generate-sitemap.js (the
+// taxonomy spec checks it). Unknown slugs 404 so arbitrary URLs never index.
+const SUBTOPIC_SECTIONS = new Set(
+	CORNER_SECTIONS.map((section) => section.slug).filter((slug) => slug !== 'mental-health')
+);
 
-export const load: PageServerLoad = async ({
-	params
-}): Promise<{ posts: App.BlogPost[]; slug: string }> => {
+export const load: PageServerLoad = async ({ params }) => {
 	const slug = params.slug;
 
-	if (!KNOWN_SUBTOPICS.includes(slug)) {
-		throw error(404, 'Subtopic not found');
-	}
+	if (slug === 'mental-health') throw redirect(301, '/enneagram-corner/mental-health');
+	if (!SUBTOPIC_SECTIONS.has(slug)) throw error(404, 'Subtopic not found');
 
-	const modules = import.meta.glob([
-		`/src/blog/enneagram/**/*.{md,svx,svelte.md}`,
-		'!**/drafts/**',
-		'!**/*.instagram.md',
-		'!**/*.twitter.md',
-		'!**/*.reddit.md',
-		'!**/*.review.md',
-		'!**/blog-optimization-strategies.md'
-	]);
-
-	const postPromises = Object.entries(modules).map(([path, resolver]) =>
-		resolver().then(
-			(post) =>
-				({
-					...(post as unknown as App.MdsvexFile).metadata,
-					slug: slugFromPath(path)
-				}) as App.BlogPost
-		)
-	);
-
-	const posts = await Promise.all(postPromises);
-	// Match any type tag, not just the primary one, so multi-topic posts
-	// (e.g. ['situational', 'relationships']) surface on every relevant hub.
-	const publishedPosts = posts.filter((post) => post.published && post.type?.includes(slug));
-
-	publishedPosts.sort((a, b) => (new Date(a.date) > new Date(b.date) ? -1 : 1));
-
-	return { posts: publishedPosts, slug };
+	const posts = await loadCornerPosts();
+	return { slug, view: buildSectionView(posts, slug) };
 };

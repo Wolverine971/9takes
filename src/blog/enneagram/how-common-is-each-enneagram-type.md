@@ -10,6 +10,7 @@ changefreq: 'monthly'
 priority: '0.8'
 published: true
 type: ['overview']
+subtopics: ['basics']
 blog: true
 previewHtml: 'Truity says Eights are the most common Enneagram type. A 200,000-person sample says they are second rarest. Both are right about their own test-takers.'
 pic: 'greek-statue-two-doors-two-crowds'

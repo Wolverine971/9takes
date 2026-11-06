@@ -10,6 +10,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['situational']
+subtopics: ['ambition', 'growth-plans']
 blog: true
 previewHtml: 'Every famous Type 7 chased the next thing. None of them found fulfillment until they stopped. After studying 16 Enthusiasts from Kevin Hart to Palmer Luckey to Bad Bunny, here are the 7 patterns that actually unlocked what they were searching for.'
 pic: 'alone-with-thoughts'

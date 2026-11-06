@@ -2,6 +2,7 @@
 
 import { dev } from '$app/environment';
 import { slugFromPath } from '$lib/slugFromPath';
+import { toStringList } from '$lib/data/enneagramCornerTaxonomy.js';
 import matter from 'gray-matter';
 
 import { recordStrategicQuestionImpression } from '$lib/server/giveFirstFunnel';
@@ -154,12 +155,19 @@ export const load: PageServerLoad = async (event) => {
 		}
 	}
 
+	// Posts sharing a subtopic (same lane, e.g. Relationships -> Dating) come
+	// first, then the rest of the primary section; shuffled within each tier.
+	const currentSubtopics = new Set(toStringList(currentPost?.subtopics));
+	const sharesSubtopic = (post: App.BlogPost) =>
+		toStringList(post.subtopics).some((slug) => currentSubtopics.has(slug));
 	const publishedPosts = posts
 		.filter((post) => post.published)
 		.filter((post) => post.blog)
-		.filter((post) => getPrimaryType(post?.type) === currentType)
 		.filter((post) => params.slug !== post.slug)
-		.sort(() => 0.5 - Math.random())
+		.filter((post) => getPrimaryType(post?.type) === currentType || sharesSubtopic(post))
+		.map((post) => ({ post, rank: (sharesSubtopic(post) ? 0 : 1) + Math.random() }))
+		.sort((a, b) => a.rank - b.rank)
+		.map(({ post }) => post)
 		.slice(0, MAX_POSTS);
 
 	return {

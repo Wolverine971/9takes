@@ -1,12 +1,8 @@
 // src/routes/enneagram-corner/mental-health/+page.server.ts
 import type { PageServerLoad } from './$types';
-import { getMentalHealthPosts } from '$lib/utils/blog';
+import { buildSectionView, loadCornerPosts } from '$lib/server/enneagramCornerSections';
 
 export const load = (async () => {
-	// Get mental health blog posts
-	const mentalHealthBlogs = await getMentalHealthPosts();
-
-	return {
-		mentalHealthBlogs
-	};
+	const posts = await loadCornerPosts();
+	return { view: buildSectionView(posts, 'mental-health') };
 }) satisfies PageServerLoad;

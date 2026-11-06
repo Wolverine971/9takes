@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['situational']
+subtopics: ['real-life-mental-health', 'mental-health-basics']
 blog: true
 previewHtml: ''
 pic: 'greek-statue-2-sided-mask'

@@ -10,6 +10,7 @@ changefreq: 'monthly'
 priority: '0.9'
 published: true
 type: ['overview']
+subtopics: ['typing-yourself']
 blog: true
 pic: 'greek-statue-comparing-enneagram-tests'
 pic_alt: 'Greek statue contemplating personality test on futuristic holographic interface'

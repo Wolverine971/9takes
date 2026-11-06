@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['relationships']
+subtopics: ['dating']
 blog: true
 previewHtml: ''
 pic: 'male-greek-statue-on-a-date'

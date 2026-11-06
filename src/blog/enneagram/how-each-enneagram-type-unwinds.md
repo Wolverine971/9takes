@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['situational']
+subtopics: ['stress-coping']
 blog: true
 previewHtml: ''
 pic: 'greek-statues-at-the-beach'

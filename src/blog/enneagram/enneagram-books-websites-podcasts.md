@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['resources']
+subtopics: ['reading-list']
 blog: true
 previewHtml: ''
 pic: 'greek-statue-listening-to-a-podcast'

@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['resources']
+subtopics: ['find-your-type']
 blog: true
 previewHtml: ''
 pic: 'greek-statue-finding-enneagram-type'

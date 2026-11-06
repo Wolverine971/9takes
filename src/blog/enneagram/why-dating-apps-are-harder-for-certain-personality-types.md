@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['situational', 'relationships']
+subtopics: ['real-life-dating', 'dating']
 blog: true
 previewHtml: ''
 pic: 'greek-statue-phone-dating-apps'

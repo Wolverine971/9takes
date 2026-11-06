@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.8'
 published: true
 type: ['workplace']
+subtopics: ['teams']
 blog: true
 previewHtml: ''
 pic: 'greek-statues-team-dynamics-office'

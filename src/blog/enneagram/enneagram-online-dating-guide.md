@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['relationships']
+subtopics: ['dating']
 blog: true
 previewHtml: ''
 pic: 'Online-and-Virtual-Relationships'

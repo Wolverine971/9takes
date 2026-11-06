@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['resources']
+subtopics: ['for-coaches']
 blog: true
 previewHtml: ''
 pic: 'greek-statue-giving-a-speech'

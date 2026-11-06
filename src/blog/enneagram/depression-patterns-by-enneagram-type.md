@@ -8,6 +8,7 @@ changefreq: 'monthly'
 priority: '0.8'
 published: true
 type: ['mental-health']
+subtopics: ['anxiety-depression']
 blog: true
 pic: 'faces-of-depression'
 pic_alt: 'Nine greek statues in circle showing depression patterns and healing journey'

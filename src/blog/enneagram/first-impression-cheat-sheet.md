@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.7'
 published: true
 type: ['situational', 'practical']
+subtopics: ['social-life']
 blog: true
 previewHtml: 'Nine types, nine different scans. The tell, the move, the question, and the killer mistake for each type. The pocket version of the first-impression playbook.'
 pic: 'greek-statue-taking-notes'

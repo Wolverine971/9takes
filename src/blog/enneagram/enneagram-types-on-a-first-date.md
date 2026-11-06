@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.8'
 published: true
 type: ['relationships', 'enneagram']
+subtopics: ['dating']
 blog: true
 previewHtml: "First dates are nerve-wracking for everyone. Learn how each Enneagram type approaches dating, their unique preparations, and what they're really looking for."
 pic: 'greek-statues-on-a-first-date'

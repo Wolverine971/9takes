@@ -10,6 +10,7 @@ changefreq: 'monthly'
 priority: '0.9'
 published: true
 type: ['relationships']
+subtopics: ['couples']
 blog: true
 previewHtml: ''
 pic: 'greek-statues-in-relationships'

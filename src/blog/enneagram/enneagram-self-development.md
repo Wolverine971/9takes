@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.8'
 published: true
 type: ['development']
+subtopics: ['growth-plans']
 blog: true
 previewHtml: ''
 pic: 'greek-statue-type-8-self-development'

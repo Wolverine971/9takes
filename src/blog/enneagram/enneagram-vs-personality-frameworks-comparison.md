@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.9'
 published: true
 type: ['overview']
+subtopics: ['evidence']
 blog: true
 previewHtml: ''
 pic: 'greek-council-disagreeing'

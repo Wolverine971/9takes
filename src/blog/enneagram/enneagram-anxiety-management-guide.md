@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.8'
 published: false
 type: ['situational']
+subtopics: ['real-life-mental-health', 'anxiety-depression']
 blog: true
 previewHtml: ''
 pic: 'greek-statues-who-are-stressed'

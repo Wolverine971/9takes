@@ -10,6 +10,7 @@ changefreq: 'monthly'
 priority: '0.7'
 published: true
 type: ['development']
+subtopics: ['self-awareness']
 blog: true
 pic: 'greek-statue-holding-scales'
 previewHtml: 'Each Enneagram type copes with anger, shame, or fear, and that coping builds both its superpower and its kryptonite. All nine types, with a scene of each side.'

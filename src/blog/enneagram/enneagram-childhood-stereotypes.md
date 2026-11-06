@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['situational']
+subtopics: ['family-childhood', 'parents-kids']
 blog: true
 previewHtml: ''
 pic: 'greek-statue-babies'

@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['overview']
+subtopics: ['evidence']
 blog: true
 previewHtml: ''
 pic: 'greek-statues-disagreeing'

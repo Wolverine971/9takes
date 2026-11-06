@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 type: ['overview']
+subtopics: ['type-structure']
 blog: true
 previewHtml: ''
 pic: 'feeling-tension'

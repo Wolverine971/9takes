@@ -199,6 +199,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['category-specific-type']
+subtopics: ['subtopic-slug'] # Enneagram Corner posts only
 blog: true
 previewHtml: 'One-sentence preview for listing pages'
 pic: 'greek-statues-descriptive-name'
@@ -211,6 +212,7 @@ path: src/blog/[subfolder]/[filename].md
 - `loc`: Full canonical URL — use the route path matching the category
 - `published`: Set to `true` for live content, `false` for drafts
 - `type`: Category-specific (see Blog Categories table above)
+- `subtopics`: **Required for Enneagram Corner posts** (`src/blog/enneagram/`). One or more lane slugs from `src/lib/data/enneagramCornerTaxonomy.js`: the first slug for the post's `type[0]` section is its lane on that section page. A slug from another section cross-lists the post there (e.g. `type: ['situational']`, `subtopics: ['real-life-dating', 'dating']` also shows under Relationships → Dating). Run `pnpm audit:corner-subtopics` to check; `pnpm test` fails on a published post without one. Omit the field for other categories.
 - `blog`: Always `true`
 - `pic`: Image filename without extension — maps to `static/blogs/[pic].webp`
 - `path`: Relative path from project root to the markdown file
