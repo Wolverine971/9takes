@@ -211,11 +211,11 @@
 		column-gap: 0.5rem;
 		align-items: center;
 		padding: 0.9rem 1rem 1rem;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 22%, var(--stone-edge));
+		border: 1px solid color-mix(in srgb, var(--highlight) 22%, transparent);
 		border-radius: 1rem;
 		background:
-			linear-gradient(135deg, color-mix(in srgb, var(--lamp-soft) 58%, transparent), transparent),
-			color-mix(in srgb, var(--stone-warm) 97%, var(--night-deep));
+			linear-gradient(135deg, color-mix(in srgb, var(--accent) 10%, transparent), transparent),
+			var(--surface);
 	}
 
 	.reply-opt-in__title {
@@ -226,17 +226,17 @@
 
 	.reply-opt-in__eyebrow {
 		margin: 0 0 0.25rem;
-		color: var(--lamp-glow);
-		font-family: var(--font-mono, ui-monospace, monospace);
-		font-size: 0.66rem;
+		color: var(--highlight);
+		font-family: var(--font-mono);
+		font-size: var(--font-size-xs);
 		font-weight: 600;
 		letter-spacing: 0.08em;
 	}
 
 	.reply-opt-in h3 {
 		margin: 0;
-		color: var(--ink-bright);
-		font-size: 1rem;
+		color: var(--text);
+		font-size: var(--font-size-base);
 		font-weight: 650;
 		line-height: 1.35;
 	}
@@ -244,8 +244,8 @@
 	.reply-opt-in__copy {
 		grid-area: copy;
 		margin: 0.2rem 0 0;
-		color: var(--ink-mid);
-		font-size: 0.82rem;
+		color: var(--text-muted);
+		font-size: var(--font-size-sm);
 		line-height: 1.5;
 	}
 
@@ -261,22 +261,22 @@
 		min-height: 2.75rem;
 		margin-top: 0.7rem;
 		padding: 0.6rem 0.8rem;
-		border: 1px solid var(--stone-edge);
+		border: 1px solid color-mix(in srgb, var(--highlight) 22%, transparent);
 		border-radius: 0.625rem;
-		background: color-mix(in srgb, var(--night-deep) 88%, transparent);
-		color: var(--ink-bright);
+		background: var(--bg);
+		color: var(--text);
 		font: inherit;
-		font-size: 16px;
+		font-size: var(--font-size-base);
 		transition: border-color 0.15s ease;
 	}
 
 	.reply-opt-in__input::placeholder {
-		color: var(--ink-dim);
+		color: var(--text-faint);
 	}
 
 	:global(.reply-opt-in__input:focus-visible) {
-		border-color: var(--lamp-glow);
-		outline: 2px solid color-mix(in srgb, var(--lamp-glow) 36%, transparent);
+		border-color: var(--highlight);
+		outline: 2px solid color-mix(in srgb, var(--highlight) 36%, transparent);
 		outline-offset: 2px;
 	}
 
@@ -295,14 +295,14 @@
 		grid-area: status;
 		margin: 0.55rem 0 0;
 		color: var(--error-text);
-		font-size: 0.82rem;
+		font-size: var(--font-size-sm);
 		line-height: 1.5;
 	}
 
 	.reply-opt-in__status--success {
 		grid-area: input / input / submit / submit;
 		padding-top: 0.4rem;
-		color: var(--lamp-light);
+		color: var(--highlight);
 	}
 
 	/* Phones: the title and the email field get the full width, and

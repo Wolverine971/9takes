@@ -26,7 +26,8 @@
 	//   <Button icon={leadingIcon}>With icon</Button>          // optional snippets
 	import type { Snippet } from 'svelte';
 
-	type Variant = 'primary' | 'secondary' | 'ghost' | 'danger';
+	// `action` is mint: the one thing to do in view (Cold Light rations it to about one per screen).
+	type Variant = 'primary' | 'secondary' | 'ghost' | 'danger' | 'action';
 	type Size = 'sm' | 'md' | 'lg';
 
 	type Props = {
@@ -185,6 +186,17 @@
 		&:hover:not(:disabled):not([aria-disabled='true']) {
 			background: var(--lamp-deep);
 			border-color: var(--lamp-deep);
+		}
+	}
+
+	.btn--action {
+		background: var(--action);
+		color: var(--text-on-action);
+		border-color: var(--action);
+
+		&:hover:not(:disabled):not([aria-disabled='true']) {
+			box-shadow: 0 10px 28px color-mix(in srgb, var(--action) 22%, transparent);
+			transform: translateY(-1px);
 		}
 	}
 

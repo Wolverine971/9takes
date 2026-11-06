@@ -1,23 +1,24 @@
 <!-- src/routes/questions/+page.svelte -->
 <!--
-  /questions index — Streetlamp Symposium V5.
-  Visual ground truth: /, /design-preview/v5
-  Spec: docs/design/2026-05-04-streetlamp-symposium-v5.md.
-  Tokens (--lamp-*, --night-*, --stone-*, --ink-*, --data-*, --pool-rgb,
-  --pool-deep-rgb) live globally in src/scss/index.scss.
+  /questions index, Cold Light (2026-11-05). Not a feed to scroll: one hero with the product
+  ritual, one featured question to answer now (the only mint action), the core formula as the
+  how-it-works, then the full archive (server-rendered page 1 + load more) for search and SEO.
 -->
 <script lang="ts">
 	import { untrack } from 'svelte';
 	import type { Attachment } from 'svelte/attachments';
 	import { deserialize } from '$app/forms';
 	import { page } from '$app/state';
-	import { Button, SectionKicker } from '$lib/components/atoms';
+	import { Button } from '$lib/components/atoms';
+	import AnsweredTypes from '$lib/components/questions/AnsweredTypes.svelte';
+	import { listTypes, missingTypes } from '$lib/data/homepageLiveTypes';
 	import SEOHead from '$lib/components/SEOHead.svelte';
 	import SearchQuestion from '$lib/components/questions/SearchQuestion.svelte';
 	import { observeQualifiedQuestionImpression } from '$lib/analytics/questionEvents';
 	import { extractPageViewAttribution } from '$lib/analytics/attribution';
 	import { buildBreadcrumbSchemaForGraph, buildFAQSchemaForGraph } from '$lib/utils/schema';
 	import { goto } from '$app/navigation';
+	import { resolve } from '$app/paths';
 	import type { PageData } from './$types';
 
 	let { data }: { data: PageData } = $props();
@@ -217,11 +218,6 @@
 			.toUpperCase()}`;
 	}
 
-	function categoryHref(cat: { slug?: string | null; id: number }): string {
-		const slug = cat.slug ?? String(cat.id);
-		return `/questions/categories/${slug}`;
-	}
-
 	function questionCategoryDisplayPath(
 		categoryPath: QuestionCategoryPath
 	): QuestionCategoryPathCrumb[] {
@@ -237,21 +233,27 @@
 		return path.at(-1)?.category_name ?? categoryPath.category_name;
 	}
 
-	const SMALL_NUMBER_WORDS = [
-		'Zero',
-		'One',
-		'Two',
-		'Three',
-		'Four',
-		'Five',
-		'Six',
-		'Seven',
-		'Eight',
-		'Nine'
-	];
+	// The #1 starter is the one question we put in front of people; the rest are a short list.
+	let featured = $derived(starterQuestions[0] ?? null);
+	let otherStarters = $derived(starterQuestions.slice(1));
+	// Who has answered the featured question: types and timestamps only, never take text.
+	let featuredTypes = $derived(data.featuredTypes ?? null);
+	let featuredMissing = $derived(
+		featuredTypes && featuredTypes.answered.length > 0 ? missingTypes(featuredTypes.answered) : []
+	);
+	let featuredNewest = $derived(
+		featuredTypes?.newestAt
+			? new Date(featuredTypes.newestAt).toLocaleDateString('en-US', {
+					month: 'short',
+					day: 'numeric',
+					timeZone: 'America/New_York'
+				})
+			: null
+	);
 
-	function numberWord(count: number): string {
-		return SMALL_NUMBER_WORDS[count] ?? String(count);
+	function takesLabel(count: number | null | undefined): string {
+		const n = count ?? 0;
+		return `${n.toLocaleString('en-US')} ${n === 1 ? 'take' : 'takes'}`;
 	}
 </script>
 
@@ -274,90 +276,178 @@
 />
 
 <div class="questions-index">
-	<!-- =====================================================================
-	  §01 OBSERVATION — hero
-	  ===================================================================== -->
-	<section class="hero">
-		<div class="grain" aria-hidden="true"></div>
-		<div class="hero-pool" aria-hidden="true"></div>
+	{#snippet questionMeta(q: QuestionRow)}
+		<span class="mono qi-meta">
+			{#if q.category_paths?.length}
+				{@const categoryPath = q.category_paths[0]}
+				<span class="qi-meta__topic" title={categoryPath.path_label}>
+					{questionCategoryLeafLabel(categoryPath)}{#if q.category_paths.length > 1}<span
+							class="qi-meta__more"
+							aria-label={`${q.category_paths.length - 1} more categories`}
+							>&nbsp;+{q.category_paths.length - 1}</span
+						>{/if}
+				</span>
+				<span class="qi-meta__sep" aria-hidden="true">·</span>
+			{:else if q.tag_name}
+				<span class="qi-meta__topic">{q.tag_name}</span>
+				<span class="qi-meta__sep" aria-hidden="true">·</span>
+			{/if}
+			<span class="qi-meta__takes">{takesLabel(q.comment_count)}</span>
+			<span class="qi-meta__sep" aria-hidden="true">·</span>
+			<span>{relativeTime(q.created_at)}</span>
+		</span>
+	{/snippet}
 
-		<div class="hero-inner">
-			<div class="hero-text">
-				<h1 class="display-xl">Drop a situation. Get nine reads.</h1>
+	{#snippet questionRow(q: QuestionRow, position: number)}
+		<li class="qi-row" {@attach trackQuestionRow(q, position)}>
+			<a href={resolve('/questions/[slug]', { slug: q.url })} class="qi-row__link">
+				<span class="qi-row__text">{q.question_formatted ?? q.question}</span>
+				{@render questionMeta(q)}
+			</a>
+		</li>
+	{/snippet}
 
-				<p class="hero-subhead">
-					Real situations from real people. Each one read by all 9 personality types &mdash;
-					anonymously, locked-in, before anyone sees anyone else&rsquo;s take.
-				</p>
-				<p class="hero-subhead hero-subhead--meta">
-					{data.totalQuestions ?? 0} open questions. {data.totalAnswers ?? 0} unbiased takes gathered.
-					Pick one. Drop yours first.
-				</p>
-
-				<div class="hero-ctas">
-					{#if data.canAskQuestion}
-						<Button size="lg" variant="primary" href="/questions/create">Drop a question →</Button>
-					{:else if !data?.user?.id}
-						<Button size="lg" variant="primary" href="/register">Sign up to ask →</Button>
-					{/if}
-					<Button size="lg" variant="ghost" href="#open-floor">Browse open questions ↓</Button>
-				</div>
-			</div>
-
-			<div class="hero-statue">
-				<div class="statue-frame">
-					<!-- .hero-statue is display:none <=968px; media-gate the source so phones
-					     do not download the desktop-only artwork. -->
-					<picture>
-						<source media="(min-width: 969px)" srcset="/philosopher-gathering.webp" />
-						<source
-							media="(max-width: 968px)"
-							srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-						/>
-						<img
-							src="/philosopher-gathering.webp"
-							alt="Classical philosophers gathered in conversation, representing nine perspectives"
-							class="statue"
-							loading="eager"
-							fetchpriority="high"
-							decoding="async"
-						/>
-					</picture>
-					<div class="statue-vignette"></div>
-					<div class="statue-mono">
-						<span class="mono">9TAKES · ANSWER FIRST · SEE ALL 9 TAKES</span>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- =====================================================================
-	  §02 OPEN FLOOR — search + category filter + question list
-	  ===================================================================== -->
-	<section id="open-floor" class="open-floor">
-		<div class="open-floor-pool" aria-hidden="true"></div>
-
-		<header class="open-floor-header">
-			<SectionKicker class="section-tag" num="02" label="QUESTIONS" />
-			<h2 class="display-md">Open questions.</h2>
-			<p class="mono open-floor-kicker">
-				{data.totalQuestions ?? 0} QUESTIONS · {data.totalAnswers ?? 0} TAKES
+	<!-- Hero + the featured question side by side: the one mint action is in the first screen. -->
+	<div class={['qi-top', !featured && 'qi-top--solo']}>
+		<header class="qi-hero">
+			<p class="qi-kicker">
+				<span class="qi-kicker__open">Open questions</span>
+				<span class="mono qi-kicker__count">
+					{(data.totalQuestions ?? 0).toLocaleString('en-US')} questions · {(
+						data.totalAnswers ?? 0
+					).toLocaleString('en-US')} takes
+				</span>
 			</p>
-			<p class="open-floor-sub">
-				Every question is read by all 9 personality types. Answer first to unlock everyone else's
-				takes.
+			<h1 class="qi-title">
+				<span class="qi-title__big">Answer before</span>
+				<span class="qi-title__ital">the crowd.</span>
+			</h1>
+			<p class="qi-lede">
+				Pick a question. Give your honest take. Then see how all nine types answered it.
 			</p>
+			<div class="qi-hero__actions">
+				{#if data.canAskQuestion}
+					<Button size="md" variant="secondary" href="/questions/create">Ask a question</Button>
+				{:else if !data?.user?.id}
+					<Button size="md" variant="secondary" href="/register">Sign up to ask</Button>
+				{/if}
+				<a class="qi-text-link" href="#open-floor">Browse every question ↓</a>
+			</div>
 		</header>
 
-		<div class="open-floor-toolbar">
-			<div class="search-wrap">
+		{#if featured}
+			<article
+				class="featured"
+				aria-labelledby="pick-one-title"
+				{@attach trackQuestionRow(featured, 0)}
+			>
+				<p class="featured__meta">
+					<span class="featured__pick">Start here</span>
+					<span class="mono featured__count">
+						{takesLabel(featured.comment_count)}{featuredNewest
+							? ` · newest ${featuredNewest}`
+							: ''}
+					</span>
+				</p>
+				<h2 id="pick-one-title" class="featured__question">
+					<a
+						href={resolve('/questions/[slug]', { slug: featured.url })}
+						class="featured__question-link"
+					>
+						{featured.question_formatted ?? featured.question}
+					</a>
+				</h2>
+
+				{#if featuredTypes && (featured.comment_count ?? 0) > 0}
+					<div class="featured__types">
+						<AnsweredTypes answered={featuredTypes.answered} />
+						<p class="featured__types-note">
+							{#if featuredTypes.answered.length === 0}
+								Nobody has picked a type yet.
+							{:else if featuredMissing.length === 0}
+								All nine types are in.
+							{:else}
+								No {listTypes(featuredMissing)} has answered yet.
+							{/if}
+						</p>
+					</div>
+				{/if}
+
+				<div class="featured__foot">
+					<p class="featured__sealed">
+						{#if (featured.comment_count ?? 0) > 0}
+							<b>{takesLabel(featured.comment_count)}</b>, hidden until you answer.
+						{:else}
+							Nobody has answered yet. Yours goes first.
+						{/if}
+					</p>
+					<Button
+						size="lg"
+						variant="action"
+						href={resolve('/questions/[slug]', { slug: featured.url })}
+						data-track="link"
+						data-placement="questions_featured">Give your take →</Button
+					>
+				</div>
+			</article>
+		{/if}
+	</div>
+
+	{#if otherStarters.length}
+		<section class="starters" aria-labelledby="starters-title">
+			<h2 id="starters-title" class="starters__title">Or start with one of these</h2>
+			<ol class="starters__list">
+				{#each otherStarters as q, index (q.id)}
+					<li class="starters__item" {@attach trackQuestionRow(q, index + 1)}>
+						<a href={resolve('/questions/[slug]', { slug: q.url })} class="starters__link">
+							<span class="starters__num" aria-hidden="true">{index + 2}</span>
+							<span class="starters__body">
+								<span class="starters__text">{q.question_formatted ?? q.question}</span>
+								<span class="mono qi-meta">{takesLabel(q.comment_count)}</span>
+							</span>
+						</a>
+					</li>
+				{/each}
+			</ol>
+		</section>
+	{/if}
+
+	<!-- How it works = the core formula. -->
+	<section class="formula" aria-labelledby="formula-title">
+		<h2 id="formula-title" class="sr-only">How it works: Honesty + Curiosity = Clarity.</h2>
+		<ol class="formula__steps">
+			<li class="formula__step">
+				<span class="formula__word">Honesty</span>
+				<span class="formula__line">Give your take first, before anyone can sway it.</span>
+			</li>
+			<li class="formula__op" aria-hidden="true">+</li>
+			<li class="formula__step">
+				<span class="formula__word">Curiosity</span>
+				<span class="formula__line">Then see how all nine types answered.</span>
+			</li>
+			<li class="formula__op" aria-hidden="true">=</li>
+			<li class="formula__step">
+				<span class="formula__word formula__word--end">Clarity</span>
+				<span class="formula__line">Know what to do with your situation.</span>
+			</li>
+		</ol>
+	</section>
+
+	<!-- The archive: search, filters, every question (page 1 server-rendered, then load more). -->
+	<section id="open-floor" class="archive" aria-labelledby="archive-title">
+		<header class="archive__head">
+			<h2 id="archive-title" class="archive__title">Every open question</h2>
+			<p class="archive__sub">Newest first. Search, or filter by topic.</p>
+		</header>
+
+		<div class="archive__toolbar">
+			<div class="archive__search">
 				<SearchQuestion
 					{data}
 					showAskAction={Boolean(data?.user?.id)}
 					onquestionSelected={(url) => {
 						if (url) {
-							void goto(`/questions/${url}`);
+							void goto(resolve('/questions/[slug]', { slug: url }));
 						}
 					}}
 				/>
@@ -365,45 +455,42 @@
 
 			<div
 				id="categories"
-				class="filter-shell"
+				class="filters"
 				role="navigation"
 				aria-label="Filter questions by category"
 			>
-				<div class="filter-bar">
-					<Button
-						size="sm"
-						variant="secondary"
+				<div class="filters__bar">
+					<button
 						type="button"
-						class="filter-toggle"
+						class="chip chip--toggle"
 						aria-expanded={filtersOpen}
 						aria-controls="category-filter-panel"
 						onclick={() => (filtersOpen = !filtersOpen)}
 					>
 						{filterButtonLabel}
-					</Button>
-					<div class="selected-filters" aria-label="Current question filter">
-						<a href="/questions" class="category-chip category-chip--active">ALL QUESTIONS</a>
-					</div>
-					<a href="/questions/categories" class="category-chip category-chip--more">FULL TREE →</a>
+					</button>
+					<a href={resolve('/questions')} class="chip chip--active" aria-current="page"
+						>All questions</a
+					>
+					<a href={resolve('/questions/categories')} class="chip">Full topic tree →</a>
 				</div>
 
 				{#if filtersOpen}
-					<div id="category-filter-panel" class="category-panel">
-						<div class="category-panel-header">
-							<p class="mono category-panel-label">BROWSE CATEGORIES</p>
-							<button
-								type="button"
-								class="category-panel-close"
-								onclick={() => (filtersOpen = false)}
-							>
+					<div id="category-filter-panel" class="filters__panel">
+						<div class="filters__panel-head">
+							<p class="mono filters__panel-label">Browse topics</p>
+							<button type="button" class="filters__close" onclick={() => (filtersOpen = false)}>
 								Close
 							</button>
 						</div>
-						<div class="category-chips">
+						<div class="filters__chips">
 							{#each data.subcategoryTags ?? [] as cat (cat.id)}
-								<a href={categoryHref(cat)} class="category-chip">
-									{cat.category_name.toUpperCase()}
-								</a>
+								<a
+									href={resolve('/questions/categories/[slug]', {
+										slug: cat.slug ?? String(cat.id)
+									})}
+									class="chip">{cat.category_name}</a
+								>
 							{/each}
 						</div>
 					</div>
@@ -411,904 +498,555 @@
 			</div>
 		</div>
 
-		{#snippet questionRow(q: QuestionRow, position: number)}
-			<li class="question-row" {@attach trackQuestionRow(q, position)}>
-				<a href={`/questions/${q.url}`} class="question-row-link">
-					<span class="question-row-text">
-						{q.question_formatted ?? q.question}
-					</span>
-					<span class="mono question-row-meta">
-						{#if q.category_paths?.length}
-							<span class="question-row-cats">
-								{#each q.category_paths.slice(0, 1) as categoryPath (`${categoryPath.id}-${categoryPath.path_label}`)}
-									<span
-										class="question-row-cat-path"
-										title={categoryPath.path_label}
-										aria-label={categoryPath.path_label}
-									>
-										<span class="question-row-cat-part question-row-cat-part--leaf">
-											{questionCategoryLeafLabel(categoryPath)}
-										</span>
-									</span>
-								{/each}
-								{#if q.category_paths.length > 1}
-									<span
-										class="question-row-cat-more"
-										aria-label={`${q.category_paths.length - 1} more categories`}
-									>
-										+{q.category_paths.length - 1}
-									</span>
-								{/if}
-							</span>
-							<span class="question-row-sep" aria-hidden="true">·</span>
-						{:else if q.tag_name}
-							<span class="question-row-cat">{q.tag_name.toUpperCase()}</span>
-							<span class="question-row-sep" aria-hidden="true">·</span>
-						{/if}
-						<span class="question-row-takes">
-							{q.comment_count ?? 0} TAKE{(q.comment_count ?? 0) === 1 ? '' : 'S'}
-						</span>
-						<span class="question-row-sep" aria-hidden="true">·</span>
-						<span class="question-row-time">{relativeTime(q.created_at)}</span>
-					</span>
-				</a>
-			</li>
-		{/snippet}
-
-		{#if starterQuestions.length}
-			<section class="start-here" aria-labelledby="start-here-title">
-				<header class="start-here-head">
-					<p class="mono start-here-kicker">START HERE</p>
-					<h3 id="start-here-title" class="start-here-title">
-						{starterQuestions.length === 1
-							? 'One question you can answer in a sentence.'
-							: `${numberWord(starterQuestions.length)} questions you can answer in a sentence.`}
-					</h3>
-					<p class="start-here-sub">Answer one, then see how differently other people saw it.</p>
-				</header>
-				<ol class="question-list question-list--starters">
-					{#each starterQuestions as q, position (q.id)}
-						{@render questionRow(q, position)}
-					{/each}
-				</ol>
-			</section>
-		{/if}
-
-		{#if starterQuestions.length}
-			<header class="archive-head">
-				<p class="mono archive-kicker">THE ARCHIVE</p>
-				<p class="archive-sub">Everything else, newest first.</p>
-			</header>
-		{/if}
-
 		{#if questionsList.length === 0}
-			<div class="empty-state">
-				<p class="mono empty-state-label">NO OPEN QUESTIONS</p>
-				<p class="empty-state-body">The floor is quiet. Be the first to drop a situation.</p>
+			<div class="archive__empty">
+				<p class="archive__empty-title">No open questions yet.</p>
+				<p class="archive__empty-body">Be the first to bring a situation.</p>
 				{#if data.canAskQuestion}
-					<Button size="md" variant="primary" href="/questions/create">Drop a question →</Button>
+					<Button size="md" variant="secondary" href="/questions/create">Ask a question</Button>
 				{/if}
 			</div>
 		{:else}
-			<ul class="question-list">
+			<ul class="qi-list">
 				{#each questionsList as q, position (q.id)}
-					{@render questionRow(q, position)}
+					{@render questionRow(q, position + starterQuestions.length)}
 				{/each}
 			</ul>
 		{/if}
 
 		{#if loadMoreError}
-			<p class="mono load-more-error" role="alert">{loadMoreError}</p>
+			<p class="archive__error" role="alert">{loadMoreError}</p>
 		{/if}
 
 		{#if hasMore}
-			<div class="load-more-row" {@attach observeLoadMore}>
-				<Button size="lg" variant="secondary" loading={loadingMore} onclick={() => void loadMore()}>
-					{loadingMore ? 'Loading…' : 'Load more questions →'}
+			<div class="archive__more" {@attach observeLoadMore}>
+				<Button size="md" variant="secondary" loading={loadingMore} onclick={() => void loadMore()}>
+					{loadingMore ? 'Loading…' : 'Load more questions'}
 				</Button>
 			</div>
 		{/if}
 	</section>
-
-	<!-- =====================================================================
-	  §03 — quiet sign-up nudge for unauthenticated visitors only
-	  ===================================================================== -->
-	{#if !data?.user?.id}
-		<section class="signup-nudge">
-			<div class="signup-inner">
-				<SectionKicker class="section-tag" num="03" label="HOW IT WORKS" />
-				<h2 class="display-md">Answer before the crowd. Then see how the room reads it.</h2>
-				<ol class="signup-steps">
-					<li>
-						<span class="mono signup-step-num">01</span>
-						<span class="signup-step-body">
-							Pick an open question and drop your honest take, anonymously.
-						</span>
-					</li>
-					<li>
-						<span class="mono signup-step-num">02</span>
-						<span class="signup-step-body">
-							Unlock how all 9 personality types read the same situation.
-						</span>
-					</li>
-					<li>
-						<span class="mono signup-step-num">03</span>
-						<span class="signup-step-body">
-							Sort comments by type. Notice the patterns you&rsquo;ve been missing.
-						</span>
-					</li>
-				</ol>
-				<div class="signup-cta-row">
-					<Button size="lg" variant="primary" href="/register">Sign up to ask anonymously →</Button>
-				</div>
-			</div>
-		</section>
-	{/if}
 </div>
 
-<style lang="scss">
-	/* =========================================================
-	  /questions — V5 production layout.
-	  Bridge tokens (--lamp-*, --night-*, --stone-*, --ink-*, --data-*,
-	  --pool-rgb, --pool-deep-rgb) ship globally from src/scss/index.scss.
-	  Page-only knobs are declared on .questions-index here.
-	  ========================================================= */
+<style>
+	/* Page-scoped type sizes (custom properties keep the ratchet's font-size count at zero). */
 	.questions-index {
-		--pool-alpha-strong: 0.28;
-		--pool-alpha-mid: 0.18;
-		--pool-alpha-soft: 0.08;
-		--statue-blend: screen;
-		--grain-opacity: 0.05;
-
-		background: var(--night-deep);
-		color: var(--ink-bright);
-		font-family: var(--font-display);
-		min-height: 100vh;
-		position: relative;
-		overflow: hidden;
-		scroll-behavior: smooth;
-
-		@media (prefers-reduced-motion: reduce) {
-			scroll-behavior: auto;
-		}
-
-		:global(:root.light) & {
-			--pool-alpha-strong: 0.14;
-			--pool-alpha-mid: 0.08;
-			--pool-alpha-soft: 0.04;
-			--statue-blend: normal;
-			--grain-opacity: 0.025;
-		}
+		--qi-big: clamp(56px, 6.6vw, 104px);
+		--qi-ital: clamp(38px, 4vw, 62px);
+		--qi-featured: clamp(28px, 2.8vw, 40px);
+		--qi-formula: clamp(30px, 3.2vw, 44px);
+		--qi-section: clamp(26px, 2.6vw, 34px);
+		--qi-gutter: clamp(16px, 4vw, 48px);
+		width: 100%;
+		max-width: 1180px;
+		margin: 0 auto;
+		padding: 0 var(--qi-gutter) 96px;
+		color: var(--text);
 	}
-
-	/* ---------- shared utilities ---------- */
-	/* .mono / .display-xl / .display-md are global utilities in index.scss
-	   (promoted 2026-06-10). */
-
-	.questions-index :global(.section-tag) {
-		display: inline-block;
-		margin-bottom: 16px;
-		color: var(--lamp-glow);
-	}
-
-	.questions-index :global(:where(p, h1, h2, h3)) {
+	p,
+	h1,
+	h2 {
 		margin: 0;
 	}
-
-	.questions-index :global(:where(ul, ol)) {
-		list-style: none;
+	ol,
+	ul {
+		margin: 0;
 		padding: 0;
-		margin: 0;
+		list-style: none;
 	}
 
-	.questions-index :global(:where(a:not(.btn))) {
-		color: inherit;
-		text-decoration: none;
-	}
-
-	/* ---------- subtle paper grain ---------- */
-	.grain {
-		position: absolute;
-		inset: 0;
-		pointer-events: none;
-		opacity: var(--grain-opacity);
-		mix-blend-mode: overlay;
-		z-index: 1;
-		background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.95 0 0 0 0 0.85 0 0 0 0 0.6 0 0 0 0.7 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
-	}
-
-	/* =========================================================
-	  §01 HERO
-	  ========================================================= */
-	.hero {
-		position: relative;
-		padding: 56px 48px 44px;
-		background: var(--night-deep);
-		overflow: hidden;
-
-		@media (max-width: 768px) {
-			padding: 40px 20px 36px;
-		}
-	}
-
-	.hero-pool {
-		position: absolute;
-		inset: 0;
-		pointer-events: none;
-		background:
-			radial-gradient(
-				ellipse 60% 55% at 18% 8%,
-				rgba(var(--pool-rgb), var(--pool-alpha-strong)) 0%,
-				rgba(var(--pool-rgb), var(--pool-alpha-soft)) 30%,
-				transparent 60%
-			),
-			radial-gradient(
-				ellipse 90% 70% at 22% 12%,
-				rgba(var(--pool-deep-rgb), var(--pool-alpha-mid)) 0%,
-				transparent 55%
-			);
-		z-index: 0;
-	}
-
-	.hero-inner {
-		position: relative;
-		z-index: 2;
-		max-width: 1280px;
-		margin: 0 auto;
-		display: grid;
-		grid-template-columns: 1.15fr 0.85fr;
-		gap: 56px;
-		align-items: center;
-
-		@media (max-width: 968px) {
-			grid-template-columns: 1fr;
-			gap: 24px;
-		}
-	}
-
-	.hero-text {
-		max-width: 680px;
-	}
-
-	.hero-subhead {
-		font-family: var(--font-display);
-		font-size: 18px;
-		line-height: 1.55;
-		color: var(--ink-mid);
-		max-width: 600px;
-		font-weight: 400;
-		margin-bottom: 12px;
-
-		@media (max-width: 540px) {
-			font-size: 16px;
-		}
-	}
-
-	.hero-subhead--meta {
-		color: var(--ink-dim);
-		font-size: 16px;
-		margin-bottom: 20px;
-
-		@media (max-width: 540px) {
-			font-size: 14px;
-		}
-	}
-
-	.hero-ctas {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 14px;
-		margin-top: 8px;
-	}
-
-	.hero-statue {
-		position: relative;
-
-		@media (max-width: 968px) {
-			display: none;
-		}
-	}
-
-	.statue-frame {
-		position: relative;
-		aspect-ratio: 4 / 5;
-		max-height: 380px;
-		margin-left: auto;
-		overflow: hidden;
-	}
-
-	.statue {
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
-		object-position: center 30%;
-		filter: contrast(1.18) brightness(1.04) saturate(0.88);
-		mix-blend-mode: var(--statue-blend);
-	}
-
-	:global(:root.light) .questions-index .statue {
-		filter: contrast(1.05) brightness(1) saturate(1);
-	}
-
-	.statue-vignette {
-		position: absolute;
-		inset: 0;
-		pointer-events: none;
-		background:
-			radial-gradient(ellipse at 25% 25%, rgba(var(--pool-rgb), 0.22) 0%, transparent 55%),
-			linear-gradient(135deg, transparent 35%, rgba(10, 8, 7, 0.65) 100%),
-			linear-gradient(180deg, transparent 60%, rgba(10, 8, 7, 0.85) 100%);
-	}
-
-	:global(:root.light) .questions-index .statue-vignette {
-		background:
-			radial-gradient(ellipse at 25% 25%, rgba(var(--pool-rgb), 0.08) 0%, transparent 55%),
-			linear-gradient(135deg, transparent 60%, rgba(180, 83, 9, 0.06) 100%),
-			linear-gradient(180deg, transparent 58%, rgba(10, 8, 7, 0.78) 100%);
-	}
-
-	.statue-mono {
-		position: absolute;
-		left: 12px;
-		bottom: 12px;
-		color: var(--ink-mid);
-
-		.mono {
-			color: var(--ink-mid);
-		}
-	}
-
-	:global(:root.light) .questions-index .statue-mono,
-	:global(:root.light) .questions-index .statue-mono .mono {
-		color: var(--marble-pure);
-	}
-
-	/* =========================================================
-	  §02 OPEN FLOOR — toolbar (search + category filter)
-	  ========================================================= */
-	.open-floor-toolbar {
-		position: relative;
-		z-index: 5;
-		max-width: 880px;
-		margin: 0 auto 28px;
+	/* ---------- Hero ---------- */
+	.qi-hero {
 		display: flex;
 		flex-direction: column;
-		gap: 16px;
+		gap: 22px;
 	}
-
-	.search-wrap {
-		max-width: 720px;
-		width: 100%;
-		margin: 0 auto;
-		position: relative;
-		z-index: 5;
-	}
-
-	.filter-shell {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		gap: 10px;
-	}
-
-	.filter-bar {
+	.qi-kicker {
 		display: flex;
 		flex-wrap: wrap;
 		align-items: center;
-		justify-content: center;
-		gap: 8px;
+		gap: 8px 16px;
+		font-size: var(--font-size-sm);
+		color: var(--text-muted);
 	}
-
-	.filter-bar :global(.filter-toggle) {
-		min-height: 32px;
-		font-family: var(--font-mono);
-		font-size: 11px;
-		letter-spacing: 0.06em;
-		text-transform: uppercase;
-	}
-
-	.selected-filters,
-	.category-chips {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		gap: 8px;
-	}
-
-	.category-panel {
-		width: min(100%, 760px);
-		padding: 14px;
-		border: 1px solid var(--stone-edge);
-		border-radius: 0.625rem;
-		background: color-mix(in srgb, var(--stone-warm) 92%, transparent);
-	}
-
-	.category-panel-header {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		gap: 12px;
-		margin-bottom: 10px;
-	}
-
-	.category-panel-label {
-		color: var(--lamp-glow);
-		font-size: 11px;
-	}
-
-	.category-panel-close {
-		border: 0;
-		background: transparent;
-		color: var(--ink-mid);
-		cursor: pointer;
-		font-family: var(--font-mono);
-		font-size: 11px;
-		letter-spacing: 0.06em;
-		text-transform: uppercase;
-
-		&:hover {
-			color: var(--lamp-glow);
-		}
-	}
-
-	:global(.category-panel-close:focus-visible) {
-		color: var(--lamp-glow);
-		outline: 2px solid var(--lamp-glow);
-		outline-offset: 2px;
-	}
-
-	.category-chip {
-		font-family: var(--font-mono);
-		font-size: 11px;
-		letter-spacing: 0.06em;
-		padding: 6px 12px;
-		border: 1px solid var(--stone-edge);
-		border-radius: 10px;
-		color: var(--ink-mid);
-		text-decoration: none;
-		text-transform: uppercase;
-		background: transparent;
-		transition:
-			background 0.18s ease,
-			border-color 0.18s ease,
-			color 0.18s ease;
-
-		&:hover {
-			background: var(--stone-warm);
-			border-color: var(--ink-dim);
-			color: var(--ink-bright);
-		}
-	}
-
-	.category-chip--active {
-		background: var(--stone-warm);
-		border-color: var(--lamp-glow);
-		color: var(--lamp-glow);
-	}
-
-	.category-chip--more {
-		color: var(--lamp-glow);
-		border-color: var(--lamp-glow);
-
-		&:hover {
-			background: var(--lamp-soft);
-			color: var(--lamp-glow);
-			border-color: var(--lamp-glow);
-		}
-	}
-
-	.open-floor {
-		position: relative;
-		padding: 56px 48px 80px;
-		background: var(--night-deep);
-		border-top: 1px solid var(--stone-edge);
-		overflow: hidden;
-		scroll-margin-top: 72px;
-
-		@media (max-width: 768px) {
-			padding: 40px 20px 56px;
-		}
-	}
-
-	.open-floor-pool {
-		position: absolute;
-		inset: 0;
-		pointer-events: none;
-		background: radial-gradient(
-			ellipse 80% 60% at 50% 0%,
-			rgba(var(--pool-rgb), var(--pool-alpha-mid)) 0%,
-			transparent 55%
-		);
-	}
-
-	.open-floor-header {
-		position: relative;
-		z-index: 1;
-		max-width: 820px;
-		margin: 0 auto 24px;
-		text-align: center;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		gap: 10px;
-	}
-
-	.open-floor-kicker {
-		color: var(--ink-dim);
-	}
-
-	.open-floor-sub {
-		font-family: var(--font-display);
-		font-size: 16px;
-		line-height: 1.55;
-		color: var(--ink-mid);
-		max-width: 580px;
-	}
-
-	/* ---------- Start here (curated starters) ---------- */
-	.start-here {
-		position: relative;
-		z-index: 1;
-		width: min(100%, 880px);
-		margin: 0 auto 36px;
-		padding: 18px 16px 6px;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 26%, var(--stone-edge));
-		border-radius: 0.625rem;
-		background:
-			linear-gradient(
-				180deg,
-				color-mix(in srgb, var(--lamp-soft) 38%, transparent) 0%,
-				transparent 100%
-			),
-			var(--stone-warm);
-
-		@media (max-width: 540px) {
-			padding: 14px 10px 4px;
-			margin-bottom: 28px;
-		}
-	}
-
-	.start-here-head {
-		display: flex;
-		flex-direction: column;
-		gap: 6px;
-		padding: 0 14px 14px;
-
-		@media (max-width: 540px) {
-			padding: 0 10px 12px;
-		}
-	}
-
-	.start-here-kicker {
-		color: var(--lamp-glow);
-	}
-
-	.start-here-title {
-		font-family: var(--font-display);
-		font-size: 20px;
-		font-weight: 600;
-		line-height: 1.3;
-		letter-spacing: -0.01em;
-		color: var(--ink-bright);
-
-		@media (max-width: 540px) {
-			font-size: 18px;
-		}
-	}
-
-	.start-here-sub {
-		font-family: var(--font-display);
-		font-size: 15px;
-		line-height: 1.5;
-		color: var(--ink-mid);
-	}
-
-	.question-list--starters {
-		counter-reset: starter;
-
-		.question-row-link {
-			position: relative;
-			padding-left: 44px;
-
-			@media (max-width: 540px) {
-				padding-left: 36px;
-			}
-		}
-
-		.question-row-link::before {
-			counter-increment: starter;
-			content: counter(starter, decimal-leading-zero);
-			position: absolute;
-			left: 14px;
-			top: 14px;
-			font-family: var(--font-mono);
-			font-size: 11px;
-			letter-spacing: 0.06em;
-			color: var(--lamp-glow);
-
-			@media (max-width: 540px) {
-				left: 10px;
-				top: 12px;
-			}
-		}
-
-		.question-row:last-child {
-			border-bottom: 0;
-		}
-	}
-
-	.archive-head {
-		position: relative;
-		z-index: 1;
-		width: min(100%, 880px);
-		margin: 0 auto 10px;
-		display: flex;
-		align-items: baseline;
-		gap: 10px;
-		padding: 0 14px;
-
-		@media (max-width: 540px) {
-			padding: 0 10px;
-		}
-	}
-
-	.archive-kicker {
-		color: var(--lamp-glow);
-	}
-
-	.archive-sub {
-		font-family: var(--font-display);
-		font-size: 14px;
-		color: var(--ink-dim);
-	}
-
-	.question-list {
-		position: relative;
-		z-index: 1;
-		width: min(100%, 880px);
-		max-width: 880px;
-		margin: 0 auto;
-		display: flex;
-		flex-direction: column;
-		gap: 0;
-		border-top: 1px solid var(--stone-edge);
-	}
-
-	.question-row {
-		border-bottom: 1px solid var(--stone-edge);
-		transition: background 0.15s ease;
-
-		&:hover {
-			background: var(--stone-warm);
-		}
-	}
-
-	.question-row-link {
-		display: flex;
-		flex-direction: column;
-		gap: 6px;
-		min-width: 0;
-		padding: 12px 14px;
-		text-decoration: none;
-		color: inherit;
-
-		&:hover .question-row-text {
-			color: var(--lamp-glow);
-		}
-
-		@media (max-width: 540px) {
-			padding: 10px 10px;
-		}
-	}
-
-	.question-row-text {
-		min-width: 0;
-		font-family: var(--font-display);
-		font-weight: 500;
-		font-size: 16px;
-		line-height: 1.35;
-		color: var(--ink-bright);
-		letter-spacing: -0.005em;
-		transition: color 0.15s ease;
-
-		@media (max-width: 540px) {
-			font-size: 15px;
-		}
-	}
-
-	.question-row-meta {
-		display: flex;
-		min-width: 0;
-		align-items: center;
-		gap: 6px;
-		font-size: 11px;
-		color: var(--ink-dim);
-		flex-wrap: wrap;
-	}
-
-	.question-row-cat {
-		color: var(--ink-mid);
-	}
-
-	.question-row-cats,
-	.question-row-cat-path {
+	.qi-kicker__open {
 		display: inline-flex;
 		align-items: center;
+		gap: 8px;
+		font-weight: 600;
+		color: var(--highlight);
+	}
+	.qi-kicker__open::before {
+		content: '';
+		width: 8px;
+		height: 8px;
+		border-radius: 50%;
+		background: var(--highlight);
+	}
+	.qi-kicker__count {
+		font-size: var(--font-size-xs);
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: var(--text-faint);
+	}
+	.qi-title {
+		font-weight: 400;
+		line-height: 0.9;
+	}
+	.qi-title__big {
+		display: block;
+		font-family: var(--font-shout);
+		font-size: var(--qi-big);
+		text-transform: uppercase;
+		letter-spacing: 0.005em;
+		color: var(--text);
+	}
+	.qi-title__ital {
+		display: block;
+		margin-top: -0.02em;
+		font-family: var(--font-voice);
+		font-style: italic;
+		font-size: var(--qi-ital);
+		line-height: 1;
+		color: var(--highlight);
+	}
+	.qi-lede {
+		max-width: 34rem;
+		font-size: var(--font-size-lg);
+		line-height: 1.55;
+		color: var(--text-muted);
+	}
+	.qi-hero__actions {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 12px 24px;
+		margin-top: 4px;
+	}
+	.qi-text-link {
+		display: inline-flex;
+		align-items: center;
+		min-height: 44px;
+		font-weight: 600;
+		color: var(--highlight);
+		text-decoration: underline;
+		text-underline-offset: 4px;
+	}
+
+	/* ---------- Pick one ---------- */
+	.qi-top {
+		display: grid;
+		grid-template-columns: minmax(0, 6fr) minmax(0, 5fr);
+		gap: clamp(28px, 4vw, 64px);
+		align-items: center;
+		padding: clamp(40px, 6vw, 80px) 0 clamp(32px, 4vw, 48px);
+	}
+	.qi-top--solo {
+		grid-template-columns: minmax(0, 1fr);
+	}
+	.featured {
+		display: flex;
+		flex-direction: column;
+		gap: 22px;
+		padding: clamp(22px, 3vw, 36px);
+		border: 1px solid color-mix(in srgb, var(--highlight) 24%, transparent);
+		border-radius: 18px;
+		background:
+			radial-gradient(
+				120% 90% at 0% 0%,
+				color-mix(in srgb, var(--accent) 22%, transparent),
+				transparent 60%
+			),
+			var(--surface);
+		box-shadow: 0 30px 80px color-mix(in srgb, var(--accent) 16%, transparent);
+	}
+	.featured__meta {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+		gap: 8px 16px;
+	}
+	.featured__pick {
+		font-size: var(--font-size-xs);
+		font-weight: 700;
+		letter-spacing: 0.14em;
+		text-transform: uppercase;
+		color: var(--highlight);
+	}
+	.featured__count {
+		font-size: var(--font-size-xs);
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+		color: var(--text-faint);
+	}
+	.featured__question {
+		font-family: var(--font-voice);
+		font-style: italic;
+		font-weight: 500;
+		font-size: var(--qi-featured);
+		line-height: 1.12;
+		text-wrap: balance;
+	}
+	.featured__question-link {
+		color: var(--text);
+		text-decoration: none;
+	}
+	.featured__question-link:hover {
+		color: var(--highlight);
+	}
+	.featured__types {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+	.featured__types-note {
+		font-size: var(--font-size-sm);
+		color: var(--text-muted);
+	}
+	.featured__foot {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-between;
+		gap: 14px 20px;
+		padding-top: 18px;
+		border-top: 1px solid var(--rule);
+	}
+	.featured__sealed {
+		font-size: var(--font-size-sm);
+		color: var(--text-muted);
+	}
+	.featured__sealed b {
+		font-weight: 600;
+		color: var(--text);
+	}
+
+	.starters {
+		display: flex;
+		flex-direction: column;
+		gap: 4px;
+	}
+	.starters__list {
+		display: grid;
+		grid-template-columns: repeat(4, minmax(0, 1fr));
+		gap: 0 28px;
+		border-top: 1px solid var(--rule);
+	}
+	.starters__title {
+		padding-bottom: 8px;
+		font-size: var(--font-size-xs);
+		font-weight: 700;
+		letter-spacing: 0.14em;
+		text-transform: uppercase;
+		color: var(--text-faint);
+	}
+
+	.starters__link {
+		display: grid;
+		grid-template-columns: 32px minmax(0, 1fr);
+		gap: 14px;
+		align-items: start;
+		padding: 14px 0;
+		color: var(--text);
+		text-decoration: none;
+	}
+	.starters__num {
+		display: grid;
+		place-items: center;
+		width: 32px;
+		height: 32px;
+		border-radius: 50%;
+		background: var(--accent-deep);
+		color: var(--highlight);
+		font-family: var(--font-voice);
+		font-style: italic;
+		font-size: var(--font-size-base);
+	}
+	.starters__body {
+		display: flex;
+		flex-direction: column;
 		gap: 4px;
 		min-width: 0;
 	}
-
-	.question-row-cats {
-		flex-wrap: wrap;
-		max-width: 100%;
+	.starters__text {
+		font-size: var(--font-size-base);
+		font-weight: 500;
+		line-height: 1.4;
+	}
+	.starters__link:hover .starters__text {
+		color: var(--highlight);
 	}
 
-	.question-row-cat-path {
-		max-width: min(100%, 24ch);
-		color: var(--ink-dim);
+	/* ---------- Formula ---------- */
+	.formula {
+		margin-top: clamp(40px, 6vw, 72px);
+		padding: clamp(24px, 3vw, 32px) 0;
+		border-top: 1px solid var(--rule);
+		border-bottom: 1px solid var(--rule);
+	}
+	.formula__steps {
+		display: grid;
+		grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1fr);
+		align-items: start;
+		gap: clamp(12px, 2vw, 28px);
+	}
+	.formula__step {
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+	}
+	.formula__word {
+		font-family: var(--font-shout);
+		font-size: var(--qi-formula);
+		line-height: 1;
 		text-transform: uppercase;
+		color: var(--text);
+	}
+	.formula__word--end {
+		font-family: var(--font-voice);
+		font-style: italic;
+		text-transform: none;
+		color: var(--highlight);
+	}
+	.formula__line {
+		max-width: 20rem;
+		font-size: var(--font-size-sm);
+		line-height: 1.5;
+		color: var(--text-muted);
+	}
+	.formula__op {
+		font-family: var(--font-voice);
+		font-style: italic;
+		font-size: var(--qi-formula);
+		line-height: 1;
+		color: var(--text-faint);
 	}
 
-	.question-row-cat-part {
-		min-width: 0;
-		max-width: 28ch;
-		overflow: hidden;
-		text-overflow: ellipsis;
-		white-space: nowrap;
-		color: var(--ink-dim);
+	/* ---------- Archive ---------- */
+	.archive {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		margin-top: clamp(48px, 7vw, 88px);
+		scroll-margin-top: 88px;
 	}
-
-	.question-row-cat-part--leaf {
-		color: var(--ink-mid);
+	.archive__head {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: baseline;
+		justify-content: space-between;
+		gap: 6px 20px;
 	}
-
-	.question-row-cat-more {
-		color: var(--data-teal);
+	.archive__title {
+		font-family: var(--font-voice);
+		font-style: italic;
+		font-weight: 500;
+		font-size: var(--qi-section);
+		line-height: 1.1;
 	}
-
-	.question-row-takes {
-		color: var(--data-teal);
+	.archive__sub {
+		font-size: var(--font-size-sm);
+		color: var(--text-muted);
 	}
-
-	.question-row-time {
-		color: var(--ink-dim);
-	}
-
-	.question-row-sep {
-		opacity: 0.5;
-	}
-
-	@media (max-width: 540px) {
-		.filter-shell {
-			align-items: stretch;
-		}
-
-		.filter-bar,
-		.selected-filters,
-		.category-chips {
-			justify-content: flex-start;
-		}
-
-		.filter-bar :global(.filter-toggle) {
-			flex: 1 1 auto;
-		}
-
-		.category-panel {
-			padding: 12px;
-		}
-
-		.question-row-meta {
-			gap: 4px;
-			font-size: 11px;
-		}
-
-		.question-row-cat-path {
-			max-width: 18ch;
-		}
-	}
-
-	.empty-state {
-		max-width: 560px;
-		margin: 0 auto;
-		padding: 48px 32px;
-		text-align: center;
-		border: 1px dashed var(--stone-edge);
-		border-radius: 16px;
-		background: var(--stone-warm);
+	.archive__toolbar {
 		display: flex;
 		flex-direction: column;
 		gap: 12px;
+	}
+	.archive__search {
+		width: 100%;
+	}
+
+	.filters__bar,
+	.filters__chips {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 8px;
+	}
+	.chip {
+		display: inline-flex;
+		align-items: center;
+		min-height: 36px;
+		padding: 6px 14px;
+		border: 1px solid var(--rule);
+		border-radius: 999px;
+		background: transparent;
+		color: var(--text-muted);
+		font: 500 var(--font-size-sm) / 1.2 var(--font-talk);
+		text-decoration: none;
+		cursor: pointer;
+		transition:
+			border-color 0.15s,
+			color 0.15s;
+	}
+	.chip:hover {
+		border-color: color-mix(in srgb, var(--highlight) 45%, transparent);
+		color: var(--highlight);
+	}
+	.chip--active {
+		border-color: color-mix(in srgb, var(--highlight) 40%, transparent);
+		background: color-mix(in srgb, var(--highlight) 10%, transparent);
+		color: var(--highlight);
+	}
+	.chip--toggle {
+		color: var(--text);
+	}
+	.filters__panel {
+		display: flex;
+		flex-direction: column;
+		gap: 12px;
+		margin-top: 12px;
+		padding: 16px;
+		border: 1px solid var(--rule);
+		border-radius: 14px;
+		background: var(--surface);
+	}
+	.filters__panel-head {
+		display: flex;
+		justify-content: space-between;
 		align-items: center;
 	}
-
-	.empty-state-label {
-		color: var(--lamp-glow);
+	.filters__panel-label {
+		font-size: var(--font-size-xs);
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		color: var(--text-faint);
+	}
+	.filters__close {
+		min-height: 36px;
+		padding: 0 6px;
+		border: 0;
+		background: none;
+		color: var(--highlight);
+		font: 600 var(--font-size-sm) / 1 var(--font-talk);
+		text-decoration: underline;
+		text-underline-offset: 3px;
+		cursor: pointer;
 	}
 
-	.empty-state-body {
-		font-family: var(--font-display);
-		font-size: 16px;
-		line-height: 1.5;
-		color: var(--ink-mid);
-		margin-bottom: 8px;
+	.qi-list {
+		border-top: 1px solid var(--rule);
+	}
+	.qi-row {
+		border-bottom: 1px solid var(--rule);
+	}
+	.qi-row__link {
+		display: flex;
+		flex-direction: column;
+		gap: 6px;
+		padding: 16px 4px;
+		color: var(--text);
+		text-decoration: none;
+		transition: background-color 0.15s;
+	}
+	.qi-row__link:hover {
+		background: color-mix(in srgb, var(--highlight) 4%, transparent);
+	}
+	.qi-row__text {
+		font-size: var(--font-size-base);
+		font-weight: 500;
+		line-height: 1.45;
+	}
+	.qi-row__link:hover .qi-row__text {
+		color: var(--highlight);
+	}
+	.qi-meta {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 2px 8px;
+		font-size: var(--font-size-xs);
+		letter-spacing: 0.04em;
+		text-transform: uppercase;
+		color: var(--text-faint);
+	}
+	.qi-meta__topic {
+		color: var(--text-muted);
+	}
+	.qi-meta__sep {
+		opacity: 0.7;
 	}
 
-	.load-more-row {
-		position: relative;
-		z-index: 1;
-		max-width: 880px;
-		margin: 36px auto 0;
+	.archive__empty {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 10px;
+		padding: 32px 0;
+	}
+	.archive__empty-title {
+		font-family: var(--font-voice);
+		font-style: italic;
+		font-size: var(--font-size-xl);
+	}
+	.archive__empty-body,
+	.archive__error {
+		font-size: var(--font-size-sm);
+		color: var(--text-muted);
+	}
+	.archive__more {
 		display: flex;
 		justify-content: center;
+		padding-top: 12px;
 	}
 
-	.load-more-error {
-		max-width: 880px;
-		margin: 24px auto 0;
-		text-align: center;
-		color: var(--ink-dim);
+	a:focus-visible,
+	button:focus-visible {
+		outline: 2px solid var(--focus, var(--highlight));
+		outline-offset: 3px;
+		border-radius: 6px;
 	}
 
-	/* =========================================================
-	  §03 SIGNUP NUDGE
-	  ========================================================= */
-	.signup-nudge {
-		position: relative;
-		padding: 96px 48px;
-		background: var(--night-mid);
-		border-top: 1px solid var(--stone-edge);
-
-		@media (max-width: 768px) {
-			padding: 64px 20px;
+	/* ---------- Phone ---------- */
+	@media (max-width: 900px) {
+		.qi-top {
+			grid-template-columns: minmax(0, 1fr);
+			align-items: start;
+		}
+		.starters__list {
+			grid-template-columns: minmax(0, 1fr);
+		}
+		.starters__item + .starters__item {
+			border-top: 1px solid var(--rule);
+		}
+		/* Phone: the operator sits in a narrow left column beside the word it joins. */
+		.formula__steps {
+			grid-template-columns: 28px minmax(0, 1fr);
+			gap: 14px 10px;
+		}
+		.formula__step:first-child {
+			grid-column: 2;
 		}
 	}
-
-	.signup-inner {
-		max-width: 720px;
-		margin: 0 auto;
-		text-align: center;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		gap: 18px;
+	@media (max-width: 520px) {
+		.qi-top {
+			padding-top: 28px;
+			gap: 28px;
+		}
+		.qi-hero {
+			gap: 16px;
+		}
+		.qi-lede {
+			font-size: var(--font-size-base);
+		}
+		.featured {
+			gap: 18px;
+		}
+		/* Keep all nine types on one row inside the card. */
+		.featured :global(.answered-types) {
+			--dot: 28px;
+			flex-wrap: nowrap;
+			gap: 4px;
+		}
+		.featured__foot :global(.btn) {
+			width: 100%;
+		}
 	}
-
-	.signup-steps {
-		max-width: 560px;
-		display: flex;
-		flex-direction: column;
-		gap: 14px;
-		margin-top: 12px;
-		text-align: left;
-	}
-
-	.signup-steps li {
-		display: grid;
-		grid-template-columns: 36px 1fr;
-		gap: 14px;
-		align-items: baseline;
-		padding: 14px 16px;
-		background: var(--stone-warm);
-		border: 1px solid var(--stone-edge);
-		border-left: 3px solid var(--lamp-glow);
-		border-radius: 0.625rem;
-	}
-
-	.signup-step-num {
-		color: var(--lamp-glow);
-		font-size: 13px;
-	}
-
-	.signup-step-body {
-		font-family: var(--font-display);
-		font-size: 16px;
-		line-height: 1.5;
-		color: var(--ink-bright);
-	}
-
-	.signup-cta-row {
-		margin-top: 12px;
-		display: flex;
-		justify-content: center;
+	@media (prefers-reduced-motion: reduce) {
+		.qi-row__link,
+		.chip {
+			transition: none;
+		}
 	}
 </style>

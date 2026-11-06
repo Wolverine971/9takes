@@ -1,8 +1,8 @@
 ---
-title: "Why Scott Galloway Can't Stop Fighting: The Wound Behind the Rage"
-meta_title: 'Scott Galloway Enneagram Type 8: Why He Keeps Fighting'
-persona_title: "Academia's Tender Brawler"
-description: "An absent father, a secretary mother, and a 2.23 GPA forged one of America's fiercest public voices. Here's the psychology behind Scott Galloway."
+title: 'Scott Galloway Keeps Score on Everyone, Starting With Himself'
+meta_title: "Scott Galloway Enneagram: Why He's a Type 8, Not a 3"
+persona_title: 'The Professor Who Keeps Score'
+description: 'Scott Galloway fights whoever is taking, pays back whoever gave, and audits himself in public first. Why that reads as Enneagram Type 8, and why 3 comes close.'
 author: 'DJ Wayne'
 date: '2026-03-24'
 loc: 'https://9takes.com/personality-analysis/scott-galloway'
@@ -13,7 +13,7 @@ published: true
 enneagram: 8
 type: ['techie', 'author', 'tech-interpreter', 'business-interpreter']
 person: 'scott-galloway'
-suggestions: ['Kara-Swisher', 'Patrick-Bet-David', 'Shaan-Puri', 'Sam-Parr', 'Reid-Hoffman']
+suggestions: ['Kara-Swisher', 'Sam-Parr', 'Steven-Bartlett', 'Shaan-Puri', 'Gavin-Newsom']
 wikipedia: 'https://en.wikipedia.org/wiki/Scott_Galloway_(professor)'
 wikidata_qid: 'Q29017701'
 birth_date: '1964-11-03'
@@ -24,12 +24,12 @@ occupation:
   - 'Entrepreneur'
   - 'University Teacher'
 knows_about:
-  - 'Brand strategy'
-  - 'Big Tech criticism'
-  - 'Higher education economics'
-  - 'Young men and masculinity advocacy'
-  - 'Newsletter and podcast media'
-  - 'Stock investing'
+  - 'Brand strategy (NYU Stern)'
+  - 'Big Tech criticism (The Four)'
+  - 'Young men and masculinity (Notes on Being a Man)'
+  - 'Personal finance (The Algebra of Wealth)'
+  - 'Podcasting (Pivot, Prof G Pod, Prof G Markets, Raging Moderates)'
+  - 'Newsletter media (No Mercy / No Malice)'
 keywords:
   - 'Scott Galloway enneagram'
   - 'Scott Galloway type 8'
@@ -43,171 +43,78 @@ same_as:
   - 'https://www.wikidata.org/wiki/Q29017701'
   - 'https://www.profgalloway.com/'
 citations:
+  - 'https://www.profgalloway.com/origin-story/'
+  - 'https://www.profgalloway.com/cy-cordner/'
+  - 'https://www.profgmedia.com/p/role-models'
+  - 'https://www.profgalloway.com/how-i-got-here/'
+  - 'https://www.profgmedia.com/p/shoulders-of-giants'
+  - 'https://www.profgalloway.com/prof-k/'
+  - 'https://www.profgalloway.com/agency/'
+  - 'https://www.profgalloway.com/father-son-crime/'
+  - 'https://www.profgalloway.com/divorce/'
+  - 'https://www.profgalloway.com/re-accommodated/'
+  - 'https://www.profgalloway.com/storytelling/'
+  - 'https://www.profgalloway.com/think-slow/'
+  - 'https://www.profgalloway.com/speaking-the-family-business/'
+  - 'https://www.profgalloway.com/happiness-the-gorilla/'
+  - 'https://www.profgmedia.com/p/no-mercy-no-malice-turns-10'
+  - 'https://www.profgmedia.com/p/the-cult-of-therapy'
+  - 'https://www.profgmedia.com/p/notes-on-being-a-man'
+  - 'https://www.profgmedia.com/p/resist-and-unsubscribe'
+  - 'https://www.profgmedia.com/p/the-algebra-of-resistance'
+  - 'https://www.profgmedia.com/p/the-manosphere-and-robert-mueller'
+  - 'https://www.profgmedia.com/p/preparing-men-for-others'
+  - 'https://www.ted.com/talks/scott_galloway_how_the_us_is_destroying_young_people_s_future'
+  - 'https://www.ted.com/podcasts/fixable'
+  - 'https://rationalreminder.ca/podcast/303'
+  - 'https://www.youtube.com/watch?v=4RvyRrhaRJo'
+  - 'https://www.profgmedia.com/p/scott-on-losing-his-dad-family-traditions'
   - 'https://en.wikipedia.org/wiki/Scott_Galloway_(professor)'
-  - 'https://www.wikidata.org/wiki/Q29017701'
-  - 'https://www.profgalloway.com/'
 faqs:
   - question: "What is Scott Galloway's personality type?"
-    answer: "Scott Galloway is an Enneagram Type 8 (The Challenger). The pattern shows in the thirteen-year-old who walked into a Dean Witter office with $200 because no one else would teach him how money worked, the nine companies founded so no one could control him, the fifteen years he forgot how to cry, and the verdict 'It cost me my hair. It cost me my first marriage. And it was worth it.' The fight is always aimed at protecting someone — young men, priced-out students, workers."
+    answer: "Scott Galloway reads as an Enneagram Type 8, the Challenger, most likely with a 7 wing. Eights run on a gut sense of fairness: who is taking, who is being taken from, and who is going to do something about it. Scott fights whoever he thinks is taking (Big Tech, the old from the young, Trump), pays back whoever gave to him (a broker named Cy, the University of California, his mother), and keeps a running tally on himself. In his words: 'I've taken more than I've given. I have a debt to pay.'"
     anchor: 'what-is-scott-galloways-personality-type'
-  - question: 'Why does Scott Galloway focus so much on young men?'
-    answer: "Because he was one: broke, fatherless, admitted to UCLA with a 2.23 GPA when admissions stood at 76%, and saved — by his own account — by a fraternity that gave him guardrails without which 'I likely would not have graduated.' His 2024 TED talk asked 'Do we love our children?' while pointing out UCLA now admits 9% and textbook prices rose 812% in thirty years. He's not scolding; he's coaching the kid he used to be."
+  - question: 'Is Scott Galloway a Type 3?'
+    answer: "Type 3 is the closest rival, and Scott supplies most of the evidence himself. He has said 'Everyone needs to feel relevant, to have a stage where they hear applause,' and on several podcasts that he is 'addicted to money and the affirmation of strangers.' The tiebreaker is his anger. He says he struggles with it and holds grudges, he once stopped speaking to his father for years, and his fights keep getting louder even when they cost him listeners."
+    anchor: 'is-scott-galloway-a-type-3'
+  - question: 'Why does Scott Galloway talk so much about young men?'
+    answer: "He describes it as a debt. UCLA admitted him on appeal, nine days before classes, as 'a son of a single mother and the great state of California.' He has said a fraternity big brother kept him in school, and the university system charged him about $8,800 for two degrees. He has given about $20 million to the University of California and says 'I still owe.' In Notes on Being a Man (2025) he wrote: 'Men of my generation have a debt to these young men.'"
     anchor: 'why-galloway-fights-for-young-men'
-  - question: "Why didn't Scott Galloway cry for 15 years?"
-    answer: "He revealed on the TED Fixable podcast that he didn't cry from age 29 to 44 — not even when his mother died. 'I forgot how.' Two decades of working until 11 PM and treating vulnerability as structural weakness disconnected the circuitry, and the thaw came only after his first son was born when he was 42."
+  - question: 'Did Scott Galloway really stop crying for 15 years?'
+    answer: "That's how he tells it. On TED's Fixable podcast in 2024 he said: 'I didn't cry from the age of 29 to 44... For 15 years. I didn't cry. I forgot how.' The span changes between tellings (in a 2017 newsletter it was 34 to 44), but the ending stays the same. Since his mid-forties, he wrote, 'I. Cry. All. The. Time.' He now treats crying as a way to be present and recommends it to men."
     anchor: 'the-man-who-forgot-how-to-cry'
-  - question: "What is Scott Galloway's Resist and Unsubscribe campaign?"
-    answer: "Launched in 2025, it urges consumers to cancel Big Tech subscriptions as a form of democratic resistance, on the thesis that 'the most radical act in a capitalist society isn't marching, it's not spending.' It generated 1.5 million website visits in 21 days with no paid advertising."
+  - question: 'What is Resist and Unsubscribe?'
+    answer: "A campaign Scott launched in his newsletter on January 30, 2026: a monthlong economic strike starting February 1 against big tech and AI subscriptions and companies working with ICE. His line: 'the most radical act in a capitalist society isn't marching, it's not spending.' He reported more than 1.5 million visits to the campaign site in three weeks without paid ads, after Meta and Google rejected the ads his team tried to buy."
     anchor: 'the-most-radical-act-in-a-capitalist-society'
-  - question: 'How did Scott Galloway make his money?'
-    answer: "He credits one habit above all: investing in stocks since age 13, when he bought thirteen shares of Columbia Pictures and called his broker from a payphone every weekday for two years. He bought Amazon at $7 and held it for twelve years, founded nine companies including Prophet, Red Envelope, L2 (sold), and Section4 — and lost 70% of his net worth when Red Envelope cratered in 2008 before rebuilding past $100 million."
+  - question: 'Who is Cy, the stockbroker in Scott Galloway''s stories?'
+    answer: "At 13, Scott walked into a Dean Witter office in Westwood with $200 his mother's boyfriend had given him, with orders to buy stock or return the money. A broker named Cy Cordner took him seriously, helped him buy 13 shares of Columbia Pictures, and took his payphone call every weekday for two years. Cy also called Scott's mother to say nice things about him. Scott found him again in 2018, and Cy was in the audience when Pivot's live tour played Los Angeles in 2025."
     anchor: 'two-dimes-and-a-payphone'
 twitter: '@profgalloway'
 instagram: '@profgalloway'
 tiktok: '@profgalloway'
-content_quality:
-  hook: 9
-  enneagram: 9
-  evidence: 8.5
-  writing: 9
-  originality: 9
-  overall: 8.9
-  letter: 'B+'
-  graded_at: '2026-03-24'
 path: src/blog/people/drafts/Scott-Galloway.md
 ---
 
-> "It cost me my hair. It cost me my first marriage. And it was worth it."
+> "I've taken more than I've given. I have a debt to pay. I've started with my boys and am working outward from there." Scott Galloway, [No Mercy / No Malice, "Origin Story"](https://www.profgalloway.com/origin-story/), 2023
 
-<p class="firstLetter">Most people would bury that sentence. Tuck it into a memoir chapter they hope nobody quotes. Scott Galloway puts it in a podcast and moves on.</p>
+<p class="firstLetter">Scott Galloway has signed 452 newsletters "Life is so rich," and a striking number of them are about who owes whom. The old owe the young. Big Tech owes taxes. Men of his generation owe young men. And Scott, by his own accounting, still owes nearly everyone who ever gave him a break.</p>
 
-That line, delivered with the flatness of someone reading a grocery list, tells you more about Scott Galloway than any of his five bestselling books. Not because it's brash. Because it's precise. He counted the cost. He paid it. He'd pay it again. And he wants you to know that, because the alternative (pretending the cost didn't exist) would be a kind of weakness he can't tolerate.
+He would also be the first to say he's not a neutral bookkeeper. He calls himself a narcissist, says he's "addicted to money and the affirmation of strangers," and has argued that therapy culture treats ordinary obstacles as "traumas to be addressed for $200/hour." So this page skips the wounded inner child. It sticks to his words and his numbers.
 
-But here's the thing most people miss about the NYU professor who built a media empire on being the angriest man in the room: **the anger isn't the engine. The anger is the exhaust.**
-
-Underneath the profanity-laced TED talks, the "No Mercy / No Malice" newsletter that reaches millions, and _Pivot_ with [Kara Swisher](/personality-analysis/kara-swisher), underneath the nine companies and the Davos appearances and the relentless data-driven tirades about wealth inequality, there's a boy who absorbed his mother's financial stress because he was the only male in the house. A boy whose father's primary vehicle for affection was messing up his hair. A boy who walked into a stockbroker's office at thirteen because no one else was going to teach him how the world worked.
-
-That tension, between the man who fights for everyone and the boy who had no one fighting for him, is what makes Scott Galloway one of the most psychologically interesting public intellectuals alive.
+One more rule. His Pivot co-host [Kara Swisher](/personality-analysis/kara-swisher) is also an Enneagram Type 8 on this site. Anything below that fits Kara just as well is the type talking. Whatever only fits Scott is the man.
 
 <details>
 <summary class="accordion">TL;DR: Why Scott Galloway is an Enneagram Type 8</summary>
 <div class="panel">
 <ul>
-<li><b>The protector who built himself from scratch:</b> Raised by a single mother on less than $40,000 a year, Galloway turned childhood vulnerability into an adult obsession with strength, independence, and making sure no one else goes unprotected.</li>
-<li><b>Controlled vulnerability as armor:</b> He shares devastating personal details (failed marriage, absent father, drinking) but each confession is a brick in the wall, not a hole in it. The raw wounds stay hidden.</li>
-<li><b>The fight is always about someone else:</b> Whether it's young men being destroyed by algorithms, students priced out of college, or workers crushed by intergenerational wealth theft, Galloway fights for the vulnerable with the intensity of someone who remembers what it felt like.</li>
-<li><b>Tender behind the armor:</b> The same man who brands himself "No Mercy" spent eight months caring for his dying mother, builds 1,300-piece Lego models with his sons, and didn't cry from age 29 to 44. Then had to relearn how.</li>
+<li><b>The type:</b> Enneagram Type 8, most likely 8w7. Gut-driven, and quick to notice who's taking from whom.</li>
+<li><b>The ledger:</b> he fights whoever he thinks is taking (Big Tech, the old, Trump), pays back whoever gave (a broker named Cy, the University of California, his mother), and audits himself in public: "I've taken more than I've given."</li>
+<li><b>The anger:</b> "I struggle with anger and hold grudges against people, places, and things." He stopped speaking to his father for years, then decided around 40 or 45 to put the scorecard away.</li>
+<li><b>The confessions are a craft:</b> he says being vulnerable is "a good way to connect with several hundred strangers at once," and that straight men out of touch with their emotions are "a big market."</li>
+<li><b>The close call:</b> Type 3. He says outright that he chases relevance and applause. His anger and the fights he keeps picking are why we land on 8.</li>
 </ul>
 </div>
 </details>
-
----
-
-## The Boy Who Absorbed the Stress
-
-Scott Galloway grew up in Los Angeles as an only child raised by a single immigrant mother who worked as a secretary. Household income never broke $40,000.
-
-"Upper, lower middle class," he told the Rational Reminder podcast. "My mom was a secretary. It was just me and her."
-
-The absence of his father shaped the household in ways that went beyond missing a parent. "When you're the only 'male' in the house, you feel that stress," Galloway said. "You absorb a lot of it."
-
-His mother had what he calls "irrational passion" for his wellbeing. She couldn't give him money or connections. What she gave him was fiercer: the belief that he deserved more than what the world was offering.
-
-His father was a different story. A charming Scotsman from Glasgow with "a strong jawline and a Glasgow twang," he would surface occasionally to take young Scott on adventures: sneaking onto exclusive Ohio golf courses at dusk with a handful of clubs, diving into bushes to retrieve lost Titleist balls worth $1.50 each. When they got caught, his father would deploy "the thickest Scottish accent" to charm his way out.
-
-After a round of stolen golf, his father would acknowledge their haul with a nod and mess up Scott's hair.
-
-That was love. Stolen and fleeting.
-
-His mother picked him up from Little League one afternoon and told him "we weren't going home." The family, such as it was, dissolved.
-
-His father went on to marry and divorce at least four times. He divorced his last wife at 89, one year before she died of Parkinson's.
-
----
-
-## Two Dimes and a Payphone
-
-At thirteen, Galloway walked into a Dean Witter stockbroker office in Westwood, California, carrying $200.
-
-No adult sent him. No program enrolled him. A thirteen-year-old kid decided, on his own, that he was going to learn how money worked because nobody was going to teach him.
-
-He met Cy Cordner, a broker who took the kid seriously. Galloway's first purchase: thirteen shares of Columbia Pictures at $15 3/8.
-
-Then, every weekday for the next two years, he dropped two dimes into a payphone and called Cy to discuss their investments.
-
-Two dimes. Every day. For two years.
-
-The boy without a father found a man who would pick up the phone.
-
-When Galloway reconnected with Cy in 2021, they discovered parallel life paths: both UCLA graduates, both in financial services, both divorced, both with two children, both entrepreneurs. The mentor and the protégé had lived mirror lives without knowing it.
-
-"The bulk of my wealth is a function of one thing I've done since the age of 13: invest in stocks," Galloway writes. He bought Amazon at $7 and held it for twelve years. He bought Apple at $7. He also sold Netflix at $10 after buying at $12, missing one of the greatest stock runs in history.
-
-He credits "the strength of the wave" for his wealth, not his own brilliance. But the wave doesn't carry you if you never paddle out. And he paddled out at thirteen.
-
----
-
-## "I Wanted to Be Rich and Awesome"
-
-Galloway entered UCLA with a 2.23 GPA when admissions stood at 76%. Cost: $400 per semester. He would later frame this as proof the system worked: unremarkable students becoming remarkable because the door was open.
-
-The door isn't open anymore. UCLA now admits 9%.
-
-At UCLA, he joined the Zeta Beta Tau fraternity as a freshman. His "Big Brother" told him to reduce his course load to three classes and stop smoking so much marijuana. "Without a network of other men serving as guardrails for me, I likely would not have graduated," he writes.
-
-The fraternity saved him. Male community, structured accountability, belonging. He would spend the next three decades building a career around proving these things matter, and watching them disappear for the generation after him.
-
-He earned an MBA from UC Berkeley with a 2.27 GPA at admission. His drive wasn't academic. "I wanted to be rich and awesome," he told the TED Fixable podcast. No higher calling. No grand mission. A kid from a $40,000 household wanted out.
-
-After graduation, he moved to New York. Worked at Morgan Stanley. Went out drinking every night. Showed up hungover every morning.
-
-"It made me a mediocre person," he said.
-
-He racked up so many parking tickets that he abandoned his car rather than deal with them. He forgot to submit his baseball team release form and got cut. He skipped SAT prep out of boredom. He failed to apply for financial aid in his junior year at UCLA. Not because he didn't qualify, but because he simply forgot.
-
-The biography of a reckless kid who ran headlong at the world and hoped it would flinch first.
-
----
-
-## What Happens When a Reckless Kid Gets Hungry
-
-Something clicked. He'd watched his mother absorb financial stress and his father charm his way to a $48,000-a-year retirement on Social Security and a Royal Navy pension. He'd spent two years calling Cy from a payphone, learning what compound interest could do.
-
-"At a very early age, I got very hungry for money," Galloway told the Rational Reminder. "I wouldn't have what I have if I had what my kids have now."
-
-The hunger became a grind that lasted two decades.
-
-"Work till 7:00. Go home for bath time. Go back to the office. Work till 10 or 11. I worked on Saturdays."
-
-He co-founded Prophet, a brand strategy consultancy. He launched Red Envelope, an e-commerce gift company that reached $100 million in revenue before it cratered, costing him 70% of his net worth by 2008. He built L2, a subscription intelligence firm, and sold it. He launched Section4, now SectionAI, an enterprise education platform. He served on the boards of The New York Times, Urban Outfitters, Eddie Bauer, Gateway Computer.
-
-Nine companies founded. Five New York Times bestsellers. Translated into 28 languages. Named one of the world's 50 best business school professors.
-
-And he was divorced by 34.
-
-"My own immense shortcomings," he wrote, describing what led to the divorce. He called it "among the most disturbing periods in my life."
-
-The grind produced everything he wanted and destroyed the first version of the life he was building. He is unblinking about this: "It cost me my hair. It cost me my first marriage. And it was worth it."
-
----
-
-## The Man Who Forgot How to Cry
-
-In a 2024 conversation for the TED Fixable podcast, Galloway revealed something that his millions of followers, his Stern MBA students, and probably most people who know him wouldn't expect:
-
-"I didn't cry from the age of 29 to 44. I didn't cry when my mother died. I forgot how."
-
-Fifteen years. His mother died, and he couldn't cry.
-
-The same man who now writes essays dripping with sentiment about fatherhood, who records podcasts about grief, who tells audiences "if you aren't leaning into your emotions, you're not really here"? He spent fifteen years with the emotional circuitry disconnected.
-
-He didn't disconnect it on purpose. The armor did it for him. When you spend two decades working till 11 PM, converting every soft feeling into fuel, treating vulnerability as a structural weakness, the body complies. It gives you what you asked for: imperviousness. And then one day you realize you've lost access to parts of yourself you didn't know you'd surrendered.
-
-The emotional thaw came after 44. He doesn't say exactly what triggered it. But given the timeline, it coincides roughly with the birth of his first son.
-
-"I had my first child at 42, and it changed my life," he writes. "I became more responsible, focused, concerned about the future, and empathetic."
-
-Something about holding his son cracked the armor enough to let the tears back in.
 
 ---
 
@@ -215,122 +122,147 @@ Something about holding his son cracked the armor enough to let the tears back i
 
 ### Scott Galloway is an Enneagram Type 8
 
-The Enneagram describes [Type 8, The Challenger](/enneagram-corner/enneagram-type-8), as driven by a core fear of being controlled, harmed, or rendered powerless. The response to that fear is to build strength, pursue autonomy, and protect the vulnerable. The deeper pattern: the person who felt unprotected becomes the person who protects everyone else.
+Scott Galloway is an [Enneagram Type 8](/enneagram-corner/enneagram-type-8), the Challenger. Eights sit in the gut triad, the instinctive types, where the core emotion is anger, as opposed to the fear behind the head types or the shame behind the heart types.
 
-Galloway's life maps onto this pattern with unusual clarity:
+For an Eight, anger is mostly about fairness and control. Who's taking more than their share? Who's getting pushed around? Who's going to stop it? Scott doesn't dress that up. "I struggle with anger and hold grudges against people, places, and things," he wrote in 2022. In 2024 he described what happens at home when his kids or his partner push back: "I often respond as if it's a threat to my authority or value. I reflexively escalate and get back in their face(s)." He was writing about learning to stop. The reflex is the Eight part.
 
-- **A childhood defined by absence.** His father left. His mother was overworked. He was the only male in the household, absorbing stress no child should carry. The lesson was clear: no one is coming to save you.
-- **Relentless pursuit of independence.** Nine companies, not because he needed nine revenue streams, but because every business he owns is one less way anyone can control him. Even after crossing $100 million, the anxiety didn't leave. The hunger is structural, not situational.
-- **The justice radar.** His entire public platform (books, newsletters, TED talks, podcasts) is aimed at protecting people who are being exploited by systems. Young men trapped by algorithms. Students priced out of education. Workers watching their share of national wealth plummet from 19% to 9%.
-- **Controlled vulnerability as strength.** He shares his failures (the 2.23 GPA, the abandoned car, the lost marriage, the drinking) but shares them the way a general shares battle scars. Each revelation is a demonstration of survivorship, not an invitation to pity.
-- **The emotional conversion.** The anger isn't the origin. It's the output. Underneath: fear that the vulnerable will go unprotected. Grief for the childhood he didn't get. Love for the sons he's determined to father differently. But anger is what moves. Anger maintains boundaries. Anger doesn't invite sympathy that could become leverage. And when [stress pushes him past his limits](/enneagram-corner/enneagram-types-in-stress), the fighter goes quiet, retreating into data and analysis, the way he did when Red Envelope collapsed and cost him 70% of his net worth.
+So is the job he gives himself. In the same post: "I can take arrows, get shot in the face, and never lose sight of my role as their protector." When the host of TED's Fixable podcast told him in 2024, "You are fiercely competitive. You have lots of protector energy," he answered, "You're being generous." Then he talked for a while about crying.
 
-What the Enneagram illuminates about Galloway: the same wound that made him build the fortress is the wound that makes him tear down everyone else's walls. He fights for young men because he was one, broke, fatherless, mediocre, and one open door away from going nowhere.
+He also won't let anyone call his bluntness a virtue. "Because I'm successful, people often recast it as honesty, or even leadership," he wrote about his habit of saying the wrong thing at the wrong moment. "No, it's just being an asshole. Working on it."
 
-"Women are ascending; it's a collective achievement," he says. "Men need to level up."
+Run the Kara test on that much. Kara picks fights with billionaires too, and she has no patience for the timid. That's the Eight they share. What doesn't fit Kara is the bookkeeping.
 
-He's not scolding. He's coaching. And the intensity behind it comes from knowing what happens when no one coaches you at all.
+## Visible at 13
 
----
+Scott's parents split when he was about nine. His father, a Royal Navy veteran raised in Scotland, left for Ohio. His mother, a secretary who had sheltered in the London Tube during the Blitz as a girl, raised him in Westwood. "It was me and her against the world," he wrote.
 
-## "The Most Radical Act in a Capitalist Society"
+When he was 13, his mother's boyfriend, Randy, put two $100 bills on the dining room table and told him to go buy stock. "You're bright enough to figure it out, and if you don't by the time I'm back, I want my money back."
 
-In 2025, Galloway launched his "Resist and Unsubscribe" campaign, urging consumers to cancel Big Tech subscriptions as a form of democratic resistance. It generated 1.5 million website visits in 21 days. No paid advertising.
+Scott walked into Merrill Lynch first. "I sat in the reception area, and ... I was invisible." So he crossed the street to Dean Witter, where a broker named Cy Cordner took him seriously. They bought 13 shares of Columbia Pictures at $15 3/8. For the next two years, Scott called Cy from a payphone with two dimes every weekday to talk about his portfolio. Cy did one more thing Scott still brings up: "He also made time to call my mom. Not to pitch her for business (we had no money), but to let her know what we discussed in the calls and say nice things about me."
 
-"The most radical act in a capitalist society isn't marching, it's not spending," he wrote.
+What Scott took from it wasn't the stock. "At 13, I was visible. Visible and worthy of an impressive man's time, every day."
 
-The campaign crystallized something he'd been building toward for years: the idea that consumer behavior is political behavior. That the same compound interest logic that makes you wealthy can, inverted, make corporations listen.
+In 2018 his students tracked Cy down, and their lives turned out to rhyme: UCLA, financial services, divorce, two kids, entrepreneurship. When Pivot's live tour reached Los Angeles in 2025, Cy was in the audience. Scott still says the bulk of his wealth comes from "one thing I've done since the age of 13," investing in stocks.
 
-His 2017 TED talk had already laid the intellectual foundation. Each tech giant, he argued, maps onto a primal human instinct: Google is God (we ask it our most intimate questions), Facebook is love (we crave connection), Amazon is consumption (one-click, infinite supply), Apple is sex (luxury signaling). Fines against these companies? "25-cent parking tickets on a meter that costs 100 dollars an hour."
+He turned the experience into a formula he repeats in post after post. Remarkable men, he says, become "irrationally passionate about the well-being of a child ... that isn't theirs." It's the same phrase he uses for his mother, and now for the men he wants his readers to become.
+
+## The debts he keeps paying
+
+Fans tease Scott for telling the same eight stories. Look at what the stories are, though. Nearly every one is a debt.
+
+UCLA rejected him the first time. On September 19, 1982, nine days before classes started, an admissions director called to say they were letting him in on appeal, as "a son of a single mother and the great state of California" ("no joke, her exact words"). He graduated with a 2.27 GPA after four rounds of academic probation. A fraternity big brother told him to cut back to three classes and stop smoking so much pot. "Without a network of other men serving as guardrails for me, I likely would not have graduated." Berkeley let him into its MBA program anyway. Total tuition for both degrees: about $8,800.
+
+Now look at what he does with the money and the microphone. "I've given approximately $20 million to the University of California, and I still owe, as I didn't climb, but was lifted," he wrote in July 2026, the week [Gavin Newsom](/personality-analysis/gavin-newsom) appointed him a UC Regent. "This is the only board I have ever wanted to serve on. Let me be clear, I am not a humble person."
+
+He has already rewritten his origin story in public, and the rewrite mostly corrects the bragging. "Until 40, my story was that I was the son of a single immigrant mother who lived and died a secretary. I overcame those humble beginnings to achieve significant success because, you know, I'm awesome." After 40: "I was given a rocket ship, built by others."
+
+The young-men campaign runs on the same accounting. Introducing *Notes on Being a Man* in November 2025, he wrote: "Men of my generation have a debt to these young men. Our unfair advantage must be paid forward (or backward)." Even his definition of manhood is a balance sheet. When critics pushed back on his "providers, protectors, and procreators" framing, he said "Fair" and offered a simpler one: "Men should add surplus value. Give more than they take."
+
+Kara doesn't talk like this. The debt language is Scott's own.
+
+## The fights: who's taking
+
+If you keep a ledger, you notice who's skimming. Most of Scott's public fights start there.
+
+In his 2017 TED talk he called the fines against the big four tech companies "25-cent parking tickets on a meter that costs 100 dollars an hour." In 2024 he went after something closer to home. His TED talk on how the US is destroying young people's future opens and closes with the same question: "Do we love our children?" In between, he lays out the bill. "When I applied to UCLA, the admissions rate was 76 percent. Today, it's nine percent." Elite universities, he says, are "a hedge fund offering classes." He has also written that since 1989, Americans under 40 have watched their share of the nation's wealth fall from 19% to 9%.
 
 <div class="iframe-container">
 <iframe width="100%" height="315" loading="lazy" src="https://www.youtube.com/embed/qEJ4hkpQW8E" title="Scott Galloway TED Talk: How the US is destroying young people's future" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-By 2024, the argument had shifted from tech criticism to something more personal. His second TED talk, "How the US is destroying young people's future," ended with a question that landed like a punch:
+On January 30, 2026, he turned the newsletter into a strike. Resist and Unsubscribe asked readers to cancel big tech and AI subscriptions for the month of February, to pressure companies working with ICE and the Trump administration. "The most radical act in a capitalist society isn't marching, it's not spending." Three weeks and 30 media appearances later, he reported more than 1.5 million visits to the site "without spending a penny on ads." Meta and Google had rejected the ads his team tried to buy as political.
 
-"Do we love our children?"
+He's just as hard on people who stay quiet. When CEOs told him privately that their hands were tied, he wrote that they were "acting out of fear," and asked them a question he likes to ask: "When the people you love are at your side by your deathbed ... how will you answer the following: What did you do?"
 
-Not "do we love innovation" or "do we love growth." _Do we love our children._ And if we do, why are they earning less than their parents at the same age? Why has UCLA gone from 76% admission to 9%? Why have textbook prices risen 812% in thirty years?
+Ten years into the newsletter, he summed up the arc: most business leaders went quiet after 2016. "I've grown louder." Gartner, which bought his company L2, found the newsletter "too salty" to keep. In 2026 he told listeners his theme for the year was "zero fucks given." He has a line for what follows: criticism "is the receipt for actually saying something." He adds, in the same paragraph: "Also, often, I just plain get it wrong."
 
-Universities, he argues, have become "hedge funds offering classes." The system that gave a 2.23 GPA kid from a $40K household a shot at becoming a professor, bestselling author, and board member at The New York Times has been systematically dismantled.
+That part passes the Kara test. Two Eights at one microphone, both sure the powerful are getting away with something.
 
-He attended Davos in 2025 for the first time since 1999. He arrived on his own plane. A man who once hauled golf bags five miles in the humid Ohio summer, waiting tables and carrying groceries, now sits with the global elite.
+## His father, and putting away the scorecard
 
-The tension isn't lost on him. It never is.
+The ledger has one account Scott spent decades trying to close.
 
----
+His father was a charmer. In the seventies the two of them would sneak onto exclusive Ohio golf courses at dusk with a 5 iron and a putter. Scott dove into the bushes after lost balls, and when he came back with a haul, his dad would "point at it, nod, and then mess up my hair." Messing up his hair was "his primary vehicle for affection. He did it often, and it felt wonderful." When a ranger caught them, his father would break into "the thickest Scottish accent" and talk their way out. "Nothing can get you into trouble with women who aren't your wife, or out of trouble with service workers, better than a strong jawline and a Glasgow twang."
 
-## How Galloway Builds His Fortress Now
+His father was also, in Scott's telling, married and divorced four times, and he left his last wife a year before she died of Parkinson's. As an adult, Scott held it against him. "I didn't speak to my father for years at a time because I would get very angry when I would think about he could have made my mom and my life much easier and he didn't," he told an audience at the 92nd Street Y in November 2025. "I had a scorecard around every relationship and including my father."
 
-Galloway's current life is constructed with the deliberateness of someone who has studied exactly what he almost lost.
+Then, "not until I was about 40 or 45," he decided to stop. "Rather than constantly revisiting if/when my dad was there for me as a kid, I now just focus on being the son I want to be. It's liberating," he wrote in 2024. He had been giving the same advice in wedding toasts since 2018: "Don't keep score."
 
-He met his wife Melanie and describes her as "the first woman I was 'me' around." No performance, no persona. He calls choosing the right life partner "the most important financial decision you'll ever make." The framing is revealing: even love gets expressed in the language of strategy.
+Scott tells this as settled, by a decision rather than a breakthrough. His father died in 2025, at 95. Seven months later a listener asked how he was doing. "The reality is I'm fine. I sort of mourned my dad's passing for the last five years of his life. And this is gonna sound, this is gonna sound harsh, but my dad got a lot more from our relationship than I got from our relationship." In the next breath he said his father "wasn't a bad father," called his own childhood "remarkably unremarkable," and said he is still more affected by his mother's death, 22 years on.
 
-He had his first son at 42. He builds 1,300-piece Lego models with his boys over weeks. He uses the "1 Second Everyday" app to film one second of family life each day, stitching together annual compilations the family watches together. He encourages cooking with their mother. He allows teenage independence without hovering.
+He also kept something. "My dad got me working out when I was like nine years old," he said on the same episode, with "this little Royal Navy fitness handbook." He hopes his sons inherit the habit the way he did.
 
-His sons are "confident boys who no longer need us." He says this like it's the greatest accomplishment of his life. Greater than the bestsellers or the board seats.
+The anger was real, and he reached for the bluntest tool available: he cut his father off. Then he made himself stop. That's an Eight's arc, and it's the ledger again, closed by decision. In a 2024 newsletter he put the old habit plainly: "For most of my life, relationships have been transactional. And I was either on the right side of the ledger," meaning "getting more than I receive," "or dissatisfied."
 
-His father introduced him to running at age nine using a Royal Navy fitness handbook. Galloway continues the tradition, working out with his sons when they come home, hoping the discipline becomes "hardwired" into them. The absent father's single lasting gift, a fitness habit, becomes the vehicle for the present father's daily connection.
+## He tells on himself first
 
-He spent eight months caring for his dying mother in Nevada. He calls it "deeply rewarding." He discovered writing only several years ago and describes it as therapeutic, a way to "preserve his love for his children and memory of his late mother."
+Scott's best-known confessions are before-and-after stories, and he tells them on purpose.
 
-When his father died in late 2025, Galloway recorded a podcast episode reflecting on the loss. His assessment was characteristically unsparing: "The reality is I'm fine. I sort of mourn my dad's passing for the last five years of his life." Then, harder: "My dad got a lot more from our relationship than I got from our relationship."
+"It cost me my hair. It cost me my first marriage. And it was worth it," he told the Rational Reminder podcast in 2024, describing decades of working until 10 or 11 at night. People quote that line against him. They usually stop before the next sentence: "And I know how awful that sounds." His first marriage ended, he has written, "not because it was bad, but because I wanted to be single," and the low point was "when I acknowledged my own immense shortcomings after telling my wife I wanted a divorce."
 
-The depth of grief, he told his audience, is directly correlated with love. What he didn't say, but what the sentence implied: the grief for his father was manageable. The armor had done its job decades ago.
+The crying story works the same way. On TED's Fixable in 2024: "I didn't cry from the age of 29 to 44. I didn't cry when my mother died. I didn't cry when my, I got divorced. I didn't cry when my company went chapter 11. For 15 years. I didn't cry. I forgot how." The start of that window moves between tellings (in a 2017 newsletter it was 34; in 2018 it was 25). The end stays at 44. "Since my mid-forties, something strange: I. Cry. All. The. Time." Asked what changed, he said: "It wasn't any one thing."
 
----
+His own explanation of those dry years isn't armor. It's ambition. "From the age of 25–40, my range of emotions could generously be described as 'narrow.' I loved nobody, and the only real emotions I felt were satisfaction or disappointment from my ambition."
 
-## The Algebra of Anger
+He's candid about why he shares all this. "As I've gotten older, I've started to embrace the personal. It comes easily, as I'm a narcissist. But also, people are looking for a connection, and a good way to connect with several hundred strangers at once (or with just one person) is to be vulnerable." Kara once described him to the New York Times as an "open wound." His own description was more tactical: "You fight the enemy with the weapons they can't use."
 
-"I have more money than I ever thought I would and I'm anxious all the time. Every day I'm thinking about how I get more."
+So the vulnerability is a craft, and it isn't covering for a hidden wound. Before trying ketamine therapy in 2024, he wrote: "Whatever trauma or demons lie in my subconscious, I've managed to (mostly) suppress them. And I'm down with that." His conclusion: "let sleeping dogs lie." Afterward he reported "nothing new."
 
-He said this on a podcast. Out loud. To strangers.
+What he keeps in the present tense is a short list. He says he still struggles with anger and depression. On Fixable he said he has "trouble forgiving myself" and would "beat myself up all fucking night" over two mistakes he'd made on stage that day. And he calls himself "a middle-aged man who hasn't gotten over the death of his mother." He lived with her for eight months while she was dying in 2003. "Other than my kids, the thing I am most proud of is giving my mom a good death."
 
-The man who crossed $100 million and pledged to give away everything above it still wakes up afraid. Not afraid of poverty. Afraid of the _feeling_ of poverty. The difference matters. You can solve poverty. You can't solve the memory of being thirteen years old with $200 and no father.
+Here the Kara test turns something up. Fans know Kara for the "I called it" stories. Scott's are about what he got wrong. They're both Eights. Only one of them audits himself on air.
 
-His newsletter is called "No Mercy / No Malice." The name captures the paradox: aggression without cruelty. He describes himself as "awkward, intense, and generally disagreeable. The real me." His public persona is profane, combative, data-heavy, and relentlessly opinionated. He entered a boxing tournament in New York with zero experience. "I remember the bell, and the bright lights as I lay flat on my back."
+## The column he's still filling
 
-He got knocked out. He tells the story.
+The most honest thing Scott says about himself is also the strongest case against this page's type.
 
-That's the move. You take the hit, you get up, and you make sure everyone sees you get up. The vulnerability is just the setup. The recovery is the performance.
+"Everyone needs to feel relevant, to have a stage where they hear applause. For me it's been work and school," he wrote in 2018. On Fixable he said that as a kid he had two goals: "I wanted to be rich and awesome. Literally, that's what I wanted." He prefaced it with "I've been very driven by economic success, and I'm not proud of that." On podcast after podcast in 2024 and 2025 he gave a version of the same line. On Kara's own show: "I'm addicted to money and the affirmation of strangers."
 
-His teaching at NYU Stern is theatrically intense. He's known for his "Winners and Losers" segment where he analyzes companies with the certainty of a surgeon and the energy of a fight promoter. He treats his classroom like a stage and his students like people who deserve the truth, even when the truth is "you're not working hard enough."
+The status hunger has a sense of humor, at least. In 2017: "I never got the jet, but have achieved Mosaic status on JetBlue." In January 2026: "I'm going to Davos next week on my own plane, but I got there by waiting tables, carrying groceries, and hauling golf bags 5 miles in the humid Ohio summer."
 
-"If you don't get critical feedback, you aren't saying anything," he says.
+That's how a [Type 3](/enneagram-corner/enneagram-type-3) talks. A Three's core need is to be seen as valuable, and Scott says, more or less, that this was the thing he wanted most. If you read him as a Three, you have his words on your side. We make the case for 8 in the Rabbit Hole below.
 
-He counts his remaining Christmases with his sons ("another five with my youngest, another two with my oldest") the way someone else might count investment returns. The compound interest of presence.
+## Preparing his sons for others
 
----
+"I had my first child at 42, and it changed my life. I became more responsible, focused, concerned about the future, and empathetic." He has also said it didn't happen at first sight. "I wasn't in love when they first came out of the womb. I fell in love with my kids."
 
-## The Fortress and the Fracture
+He keeps their names, and his partner's, out of the newsletter. What he shares, he chooses. He films one second of family life every day with an app, then watches "the six minutes that was our year" with his boys. On Rational Reminder he did the math out loud: "I got another five Christmases with my youngest, another two with my oldest." Then he corrected himself. "And, actually, I'll probably have zero with my oldest who's already at boarding school. I wasn't ready for him to leave this soon."
 
-Galloway is 61 years old. He's rich. He's famous. He has a loving wife, two sons, a media empire, and the ear of millions. He's built everything the thirteen-year-old with $200 and two dimes dreamed of building.
+His oldest started college in September 2026, and Scott wrote that he's been "struggling with my purpose moving forward." His answer was a post called "Preparing men for others." Raising boys, he wrote, is "years of investment that will never register a traditional return. I doubt they'll ever be up at 2 a.m. worried about me." Negative ROI, from a man who measures everything in returns.
 
-And he's still anxious. Every day.
+In the same post he described a ring his partner gave him, engraved with a line from *The Little Prince*: "What is essential is invisible to the eye." "I've spent most of my life chasing the visible: the house, the businesses, the stuff, the books, the status. All of it, I now recognize, was the means." His oldest son "put a thread through the ring and wears it around his neck."
 
-The boy whose father deployed charm instead of commitment grew into a man who deploys data instead of charm. Both are forms of love. Both are forms of control. Galloway controls the narrative the way his father controlled the room: absolutely, instinctively, with the awareness that the moment you lose the audience, you lose everything.
+Earlier in 2026 he had put the change more bluntly. "My purpose as a younger man used to be how can I be more rich and more awesome." Now: "For the first time in my life, I have purpose."
 
-He is, by any measure, an extraordinarily present father. This maps precisely to the Type 8 [integration toward Type 2](/enneagram-corner/enneagram-type-2), where the warrior discovers that tenderness multiplies power instead of diluting it. He didn't cry for fifteen years, and then he relearned, and now he writes about fatherhood with the intensity of someone making up for lost time. His father's, and his own.
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">Enneagram Rabbit Hole: 8w7, instincts, stress and growth, and why not 3, 6 or 7</summary>
+<div class="panel">
 
-"Masculinity now means being a man, and not a boy in a man's body."
+**Wing: 8w7.** The 7 wing is the appetite and the jokes. "I want more, fucking more" is how he summed up his 25-to-40 era. Add the edibles, the four podcasts, and a sense of humor that runs on sex jokes and self-mockery. An 8w9 would be quieter.
 
-He said that. And he meant: I was a boy in a man's body until 42. I was reckless, drunk, selfish, and brilliant enough to get away with it. Then I held my son and the armor cracked in a place I couldn't patch.
+**Instinct: probably social, with a heavy self-preservation streak.** Social Eights fight for a group, and Scott's fights are almost all collective: young men, the young versus the old, the University of California. The money talk is self-preservation: "Money is the modern world's shock absorber." See the [instinctual subtypes guide](/enneagram-corner/enneagram-instinctual-subtypes).
 
-<div class="contrast-panel">
+**Stress and growth.** Under stress, Eights can [move toward Type 5](/enneagram-corner/enneagram-types-in-stress): withdrawn, detached, in their heads. After his divorce Scott moved to New York "to be all about Scott," and "I was an island living on an island ... I could go days without interacting with anybody else and was fine." In growth, Eights move toward [Type 2](/enneagram-corner/enneagram-type-2), where protection becomes care. He gives away at least what he spends each year ("a self-imposed tax of 100%"), and he says giving makes him "feel my strength and skills are protecting and providing." That is about as Eight as a reason for generosity gets. Read both arrows as a rough map.
 
-<div class="contrast-left">
-<h4>The Public Galloway</h4>
-<p>Attends Davos on his own plane. Brands his newsletter "No Mercy." Tells young men to stop being victims. Calls himself "awkward, intense, and generally disagreeable."</p>
+**Why not Type 3?** This is the real contest, and Scott supplies most of the case. Relevance, applause, "rich and awesome," "addicted to money and the affirmation of strangers." His first girlfriend, at UCLA, was "the first woman I was 'me' around, instead of trying to be someone I thought she'd like." He told Andrew Huberman in 2026 that he's "trying to portray myself as being better than I actually am." His dry decade was spent on "satisfaction or disappointment from my ambition," which is the classic Three pattern of parking feelings to perform. A brand-strategy professor who built a media business around his own name is going to look like a Three. [Steven Bartlett](/personality-analysis/steven-bartlett), whom we type as a Three, has interviewed him more than once, and the two have a lot in common.
+
+The anger is the strongest point against us, too. Eights usually aim it outward. Much of what Scott confesses is aimed at himself: "I have trouble forgiving myself."
+
+Three things still tip it to 8 for us. First, he names the anger as anger, and it goes outward as well as in: grudges "against people, places, and things," escalation when his authority is challenged, years of not speaking to his father. Second, the fights cost him applause and he keeps having them. Gartner wouldn't keep the newsletter. Meta and Google wouldn't run the boycott ads. In September 2026 he pressed a Democratic Senate nominee on Raging Moderates over calling the war in Gaza a genocide ("Do you understand why Jews such as myself find your description ... disqualifying?"), and a wave of one-star reviews from his own listeners followed. His stated rule: "If you have economic security and people who love you unconditionally ... you have an obligation to speak your mind." A Three's instinct is to read the room and win it. His is to get louder. Third, even his vulnerability comes out as combat: "You fight the enemy with the weapons they can't use."
+
+**What would change our mind:** if the fights tracked the audience, picked when they pay and dropped when they don't. If that's the pattern you see, call him a Three running an Eight's script. He did write the script.
+
+**Why not Type 6?** He calls himself "a catastrophist" and has said he's been anxious all the time since having kids. He went looking for mentors and talks about institutions like a Six. But his fear is mostly about failure and death, and he doesn't test authority to see if it's trustworthy. He tells it what it owes.
+
+**Why not Type 7?** The appetite is real, which is why the 7 wing fits. But Sevens steer around pain, and Scott keeps a ledger of his. He says he's "in the past too much," and he writes about death on purpose: "I think about death a lot. It's actually quite empowering."
+
 </div>
-<div class="contrast-right">
-<h4>The Private Galloway</h4>
-<p>Records one-second family videos every day. Spent 8 months at his dying mother's bedside. Counts remaining Christmases with his sons. Forgot how to cry for 15 years, then relearned.</p>
-</div>
-</div>
+</details>
 
-He tells young men to stop being victims and then describes, in granular detail, all the ways the system is victimizing them.
+Scott would probably call this page a Ouija board, which is what he calls his own annual predictions. Fair. He also reads the comments.
 
-None of this is contradictory. It's the architecture of someone who learned, very early, that softness gets you abandoned and strength keeps people close. And who has spent the last twenty years discovering, slowly and painfully, that the opposite might also be true.
+On the newsletter's tenth anniversary he explained why he keeps writing. "My boys have little interest in my work; I doubt they've ever read a post. But they will." When they do, he hopes it will "cement what they feel but may not know" about "how much I think about and love them."
 
-He's still building the fortress. He's just started leaving the door open.
+It's the one debt he can't settle himself. He's betting they'll collect.
+
+> **Disclaimer:** This analysis of Scott Galloway's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Scott Galloway.

@@ -6,7 +6,8 @@
 // load-more flag from the archive page only.
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 
-const { rpcMock, checkDemoTimeMock } = vi.hoisted(() => ({
+const { rpcMock, checkDemoTimeMock, getLiveTakeTypesMock } = vi.hoisted(() => ({
+	getLiveTakeTypesMock: vi.fn(async () => null),
 	rpcMock: vi.fn(),
 	checkDemoTimeMock: vi.fn()
 }));
@@ -31,6 +32,10 @@ vi.mock('../../utils/api', () => ({
 
 vi.mock('../../utils/demo', () => ({
 	mapDemoValues: (value: unknown) => value
+}));
+
+vi.mock('$lib/server/homepageLiveTypes', () => ({
+	getLiveTakeTypes: getLiveTakeTypesMock
 }));
 
 vi.mock('../../utils/server/openai', () => ({
@@ -131,6 +136,47 @@ describe('/questions load: Start here block', () => {
 
 		expect(result.starters).toEqual([]);
 		expect(result.hasMore).toBe(true);
+	});
+
+	it('loads answered types for the featured starter only (types, never take text)', async () => {
+		const types = { recent: [4, 8], answered: [4, 8], newestAt: '2026-11-01T00:00:00.000Z' };
+		getLiveTakeTypesMock.mockResolvedValueOnce(types as never);
+		rpcMock.mockResolvedValue({
+			data: {
+				canAskQuestion: false,
+				categories: [],
+				starters: [row(118, { starter_rank: 1, comment_count: 6 }), row(203, { starter_rank: 2 })],
+				questions: [row(900)],
+				totalQuestions: 3,
+				totalAnswers: 6
+			},
+			error: null
+		});
+
+		const result = (await load(buildLoadEvent() as any)) as any;
+
+		expect(getLiveTakeTypesMock).toHaveBeenCalledTimes(1);
+		expect(getLiveTakeTypesMock).toHaveBeenCalledWith(118);
+		expect(result.featuredTypes).toEqual(types);
+	});
+
+	it('skips the types lookup when the featured starter has no takes', async () => {
+		rpcMock.mockResolvedValue({
+			data: {
+				canAskQuestion: false,
+				categories: [],
+				starters: [row(118, { starter_rank: 1, comment_count: 0 })],
+				questions: [],
+				totalQuestions: 1,
+				totalAnswers: 0
+			},
+			error: null
+		});
+
+		const result = (await load(buildLoadEvent() as any)) as any;
+
+		expect(getLiveTakeTypesMock).not.toHaveBeenCalled();
+		expect(result.featuredTypes).toBeNull();
 	});
 
 	it('never shows the block on page 2+', async () => {

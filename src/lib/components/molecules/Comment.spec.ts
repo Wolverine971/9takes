@@ -169,7 +169,7 @@ describe('Comment', () => {
 		expect(metadata?.querySelector('time')).toBeNull();
 		expect(card?.textContent).not.toContain('Aug 3, 2026');
 		expect(copy?.textContent?.trim()).toBe(comment.comment);
-		expect(copy?.classList.contains('text-lg')).toBe(true);
+		expect(copy?.classList.contains('comment-copy')).toBe(true);
 		if (!metadata || !copy || !actions) throw new Error('Expected complete comment hierarchy');
 		expect(copy.compareDocumentPosition(metadata) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();
 		expect(
@@ -181,8 +181,8 @@ describe('Comment', () => {
 
 		expect(like.textContent).toContain('Like');
 		expect(like.textContent).toContain('1');
-		expect(like.classList.contains('min-h-11')).toBe(true);
-		expect(reply.classList.contains('min-h-11')).toBe(true);
+		expect(like.classList.contains('comment-action')).toBe(true);
+		expect(reply.classList.contains('comment-action')).toBe(true);
 
 		await fireEvent.click(reply);
 		const replyField = getByRole('textbox', { name: 'Your reply' });

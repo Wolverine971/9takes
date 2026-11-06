@@ -169,7 +169,7 @@
 		<div class="comment-skeleton-list" role="status" aria-label="Loading comments">
 			{#each [0, 1, 2] as i (i)}
 				<div class="comment-skeleton" in:fade={{ duration: 300, delay: i * 50 }}>
-					<div class="flex-1">
+					<div class="comment-skeleton__lines">
 						<Skeleton decorative variant="text" />
 						<Skeleton decorative variant="text" />
 						<Skeleton decorative variant="text" width="25%" class="mt-3" />
@@ -181,43 +181,27 @@
 
 	<!-- Infinite scroll sentinel -->
 	{#if _comments.length < commentCount && userHasAnswered}
-		<div {@attach observeBottom} class="my-6">
+		<div {@attach observeBottom} class="comment-list__sentinel">
 			{#if loading && !initialLoading}
-				<div class="flex justify-center py-6">
-					<div class="flex items-center gap-3 px-4 py-2">
-						<div
-							class="h-4 w-4 animate-spin rounded-full border-2 border-[var(--lamp-soft)] border-t-[var(--lamp-glow)]"
-						></div>
-						<span class="text-sm font-medium text-[var(--ink-mid)]">Loading more…</span>
-					</div>
+				<div class="comment-list__loading">
+					<span class="comment-list__spinner" aria-hidden="true"></span>
+					<span>Loading more…</span>
 				</div>
 			{/if}
 		</div>
 	{/if}
 {:else if userHasAnswered && !_comments.length}
-	<div class="flex flex-col items-center justify-center py-12">
-		<div class="mb-4 flex h-14 w-14 items-center justify-center text-[var(--ink-mid)]">
-			<svg class="h-7 w-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-				<path
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					stroke-width="2"
-					d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
-				/>
-			</svg>
-		</div>
-		<p class="text-center text-lg font-medium text-[var(--ink-bright)]">No comments yet</p>
-		<p class="mt-1 text-center text-sm text-[var(--ink-mid)]">
-			Be the first to share your thoughts
-		</p>
+	<div class="comment-empty">
+		<p class="comment-empty__title">No comments yet</p>
+		<p class="comment-empty__copy">Be the first to share your thoughts</p>
 	</div>
 {/if}
 
 <style>
+	/* Flat conversation: each take draws its own rule (see Comment.svelte). */
 	.comment-list {
 		display: flex;
 		flex-direction: column;
-		gap: 0.75rem;
 		min-width: 0;
 	}
 
@@ -226,15 +210,13 @@
 		margin-inline: 1rem;
 	}
 
-	.comment-list--nested {
-		gap: 0.5rem;
-		margin-top: 0.5rem;
+	.comment-list--nested > .comment-list__item:last-child :global(.comment-card) {
+		border-bottom: 0;
 	}
 
 	.comment-skeleton-list {
 		display: flex;
 		flex-direction: column;
-		gap: 0.75rem;
 	}
 
 	.comment-list__item,
@@ -244,20 +226,65 @@
 
 	.comment-skeleton {
 		display: flex;
-		padding: 1.25rem 1rem;
-		border: 1px solid color-mix(in srgb, var(--stone-edge) 52%, transparent);
-		border-radius: 1rem;
-		background: color-mix(in srgb, var(--stone-warm) 72%, transparent);
+		padding: 20px 0;
+		border-bottom: 1px solid var(--rule);
+	}
+
+	.comment-skeleton__lines {
+		flex: 1;
+	}
+
+	.comment-list__sentinel {
+		margin: 24px 0;
+	}
+
+	.comment-list__loading {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 12px;
+		padding: 24px 0;
+		color: var(--text-muted);
+		font-size: var(--font-size-sm);
+	}
+
+	.comment-list__spinner {
+		width: 16px;
+		height: 16px;
+		border: 2px solid color-mix(in srgb, var(--highlight) 25%, transparent);
+		border-top-color: var(--highlight);
+		border-radius: 50%;
+		animation: comment-list-spin 0.7s linear infinite;
+	}
+
+	@keyframes comment-list-spin {
+		to {
+			transform: rotate(360deg);
+		}
+	}
+
+	.comment-empty {
+		padding: 48px 0;
+		text-align: center;
+	}
+
+	.comment-empty__title {
+		margin: 0;
+		color: var(--text);
+		font-size: var(--font-size-lg);
+		font-weight: 600;
+	}
+
+	.comment-empty__copy {
+		margin: 4px 0 0;
+		color: var(--text-muted);
+		font-size: var(--font-size-sm);
 	}
 
 	@media (max-width: 520px) {
 		.comment-list--root,
 		.comment-skeleton-list {
 			margin-inline: 0.75rem;
-		}
-
-		.comment-skeleton {
-			padding-inline: 0.875rem;
 		}
 	}
 </style>

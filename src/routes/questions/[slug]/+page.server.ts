@@ -10,6 +10,8 @@ import {
 } from '$lib/server/questionAnswerSummary';
 import { CONTENT_GUARD_CACHE_CONTROL } from '$lib/server/contentAccessGuard';
 import type { AnswerSummary } from '$lib/types/questions';
+import { getSealedTakes } from '$lib/server/questionSealedTakes';
+import type { SealedTakes } from '$lib/components/questions/sealedTakes';
 
 import type { Actions, PageServerLoad, RequestEvent } from './$types';
 import { error, fail } from '@sveltejs/kit';
@@ -184,9 +186,11 @@ export const load: PageServerLoad = async (event) => {
 			});
 		}
 
-		const [commentCount, aiComments, { curation, nextStarter }, lockedGist] = await Promise.all([
+		// The locked page shows that takes exist (types + timestamps), never their text,
+		// and no AI sample takes either: those only appear after answering.
+		const [commentCount, sealedTakes, { curation, nextStarter }, lockedGist] = await Promise.all([
 			getCommentCount(question.id, isDemoTime),
-			isDemoTime ? null : getAIComments(question.id),
+			isDemoTime ? null : getSealedTakes(question.id),
 			getCurationWithNextStarter(question.id, isDemoTime),
 			getLockedAnswerSummary(question.id, isDemoTime, verifiedCrawler)
 		]);
@@ -209,7 +213,7 @@ export const load: PageServerLoad = async (event) => {
 				session,
 				userHasAnswered,
 				event,
-				aiComments,
+				null,
 				undefined,
 				canEditTags,
 				categoryEditor
@@ -219,6 +223,7 @@ export const load: PageServerLoad = async (event) => {
 			starterRank: curation.starterRank,
 			nextStarter,
 			replyFocus: null as ReplyFocusThread | null,
+			sealedTakes,
 			answerSummary: lockedGist.answerSummary,
 			answerSummaryAvailable: lockedGist.answerSummaryAvailable
 		};
@@ -276,6 +281,7 @@ export const load: PageServerLoad = async (event) => {
 		starterRank: curation.starterRank,
 		nextStarter,
 		replyFocus,
+		sealedTakes: null as SealedTakes | null,
 		pinnedCommentIds: curation.pinnedCommentIds,
 		ownComments: 'ownComments' in comments ? comments.ownComments : [],
 		commentViewsEnabled: !isDemoTime,

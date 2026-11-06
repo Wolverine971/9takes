@@ -17,6 +17,7 @@ import {
 	parseStarterQuestions,
 	type StarterQuestionRow
 } from '$lib/components/questions/curatedReveal';
+import { getLiveTakeTypes } from '$lib/server/homepageLiveTypes';
 import { z } from 'zod';
 
 import type { Actions } from './$types';
@@ -145,12 +146,18 @@ export const load: PageServerLoad = async (event) => {
 		const pageData = rawPageData as QuestionsPageData | null;
 		const pageQuestions = pageData?.questions ?? [];
 		const starterQuestions = page === 1 ? parseStarterQuestions(pageData?.starters) : [];
-		const categoryContext =
+		// The featured starter's answered types (types + timestamps only, never take text).
+		const featuredStarter = starterQuestions[0];
+		const [categoryContext, featuredTypes] = await Promise.all([
 			demo_time === true
 				? null
-				: await loadQuestionCategoryContext(supabase, 'questions', {
+				: loadQuestionCategoryContext(supabase, 'questions', {
 						questionIds: [...starterQuestions, ...pageQuestions].map((question) => question.id)
-					});
+					}),
+			demo_time !== true && featuredStarter && (featuredStarter.comment_count ?? 0) > 0
+				? getLiveTakeTypes(featuredStarter.id)
+				: null
+		]);
 		const visibleBrowseCategories = pageData?.categories ?? [];
 		const questions = demo_time
 			? mapDemoValues(pageQuestions)
@@ -166,6 +173,7 @@ export const load: PageServerLoad = async (event) => {
 			categoryTree: [],
 			subcategoryTags: visibleBrowseCategories,
 			starters,
+			featuredTypes,
 			questionsAndTags: questions,
 			totalQuestions: pageData?.totalQuestions || 0,
 			totalAnswers: pageData?.totalAnswers || 0,

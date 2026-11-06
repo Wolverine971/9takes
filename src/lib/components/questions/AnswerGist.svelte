@@ -43,39 +43,39 @@
 		min-width: 0;
 		margin: 0 1rem 1.25rem;
 		padding: 0.15rem 0 0.15rem 1rem;
-		border-left: 2px solid var(--lamp-glow);
+		border-left: 2px solid var(--highlight);
 	}
 
 	.answer-gist__kicker {
 		margin: 0;
-		color: var(--lamp-glow);
-		font-family: 'JetBrains Mono', ui-monospace, monospace;
-		font-size: 0.64rem;
+		color: var(--highlight);
+		font-family: var(--font-mono);
+		font-size: var(--font-size-xs);
 		letter-spacing: 0.07em;
 		text-transform: uppercase;
 	}
 
 	.answer-gist__title {
 		margin: 0;
-		color: var(--ink-bright);
-		font-size: 1rem;
+		color: var(--text);
+		font-size: var(--font-size-base);
 		font-weight: 700;
 		letter-spacing: -0.01em;
 	}
 
 	.answer-gist__body {
 		margin: 0;
-		color: var(--ink-bright);
-		font-size: 0.95rem;
+		color: var(--text);
+		font-size: var(--font-size-base);
 		line-height: 1.6;
 		overflow-wrap: anywhere;
 	}
 
 	.answer-gist__meta {
 		margin: 0.1rem 0 0;
-		color: var(--ink-dim);
-		font-family: 'JetBrains Mono', ui-monospace, monospace;
-		font-size: 0.6rem;
+		color: var(--text-faint);
+		font-family: var(--font-mono);
+		font-size: var(--font-size-xs);
 		letter-spacing: 0.04em;
 	}
 </style>

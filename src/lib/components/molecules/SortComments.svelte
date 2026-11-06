@@ -26,14 +26,6 @@
 		'1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | 'unknown' | 'rando';
 	type SortOrder = 'ranked' | 'newest' | 'oldest' | 'likes';
 
-	import { TYPE_COLOR_MAP } from '$lib/constants/enneagramColors';
-
-	const typeColors: Record<string, string> = {
-		...Object.fromEntries(Object.entries(TYPE_COLOR_MAP).map(([k, v]) => [String(k), v])),
-		unknown: '#6B7280',
-		rando: '#94A3B8'
-	};
-
 	const typeLabels: Record<string, string> = {
 		'1': '1',
 		'2': '2',
@@ -238,9 +230,7 @@
 					{@const isSelected = selected.includes(type)}
 					<button
 						type="button"
-						class="type-chip"
-						class:type-chip--selected={isSelected}
-						style="--type-color: {typeColors[type]}"
+						class={['type-chip', isSelected && 'type-chip--selected']}
 						onclick={() => toggleType(type)}
 						title={typeNames[type]}
 						aria-pressed={isSelected}
@@ -375,18 +365,18 @@
 </Modal>
 
 <style lang="scss">
-	/* Filter Button Styles */
+	/* Thread controls stay quiet: lavender ghost, no mint (Cold Light rations mint). */
 	:global(.filter-btn-atom) {
 		position: relative;
-		color: var(--lamp-glow);
-		border-color: color-mix(in srgb, var(--lamp-glow) 22%, var(--stone-edge));
-		background: var(--lamp-soft);
+		border-color: color-mix(in srgb, var(--highlight) 28%, transparent);
+		background: transparent;
+		color: var(--highlight);
 	}
 
 	:global(.filter-btn-atom:hover:not(:disabled):not([aria-disabled='true'])) {
-		border-color: var(--lamp-glow);
-		background: color-mix(in srgb, var(--lamp-glow) 15%, transparent);
-		color: var(--lamp-glow);
+		border-color: var(--highlight);
+		background: color-mix(in srgb, var(--highlight) 8%, transparent);
+		color: var(--highlight);
 	}
 
 	.filter-btn__badge {
@@ -396,12 +386,11 @@
 		min-width: 1.375rem;
 		height: 1.375rem;
 		padding: 0 0.375rem;
-		background: linear-gradient(135deg, var(--lamp-glow), var(--lamp-glow));
-		color: var(--text-on-primary);
-		font-size: 0.75rem;
-		font-weight: 600;
 		border-radius: 9999px;
-		box-shadow: 0 2px 8px var(--lamp-glow-rgba);
+		background: var(--highlight);
+		color: var(--bg);
+		font-size: var(--font-size-xs);
+		font-weight: 600;
 	}
 
 	.filter-btn__dot {
@@ -410,22 +399,17 @@
 		right: -0.125rem;
 		width: 0.625rem;
 		height: 0.625rem;
-		background: linear-gradient(135deg, var(--lamp-glow), var(--lamp-glow));
+		border: 2px solid var(--bg);
 		border-radius: 9999px;
-		border: 2px solid var(--stone-warm);
-		box-shadow: 0 0 8px var(--lamp-glow-rgba);
+		background: var(--highlight);
 	}
 
-	/* Modal — streetlamp theme */
 	.filter-modal {
 		width: 100%;
-		background: var(--night-deep);
-		border-radius: 1rem;
-		border: 1px solid var(--lamp-soft);
-		box-shadow:
-			0 25px 50px -12px rgba(0, 0, 0, 0.2),
-			0 0 40px var(--lamp-soft);
 		overflow: hidden;
+		border: 1px solid var(--rule);
+		border-radius: 16px;
+		background: var(--surface);
 	}
 
 	.filter-modal__header {
@@ -433,8 +417,7 @@
 		align-items: center;
 		justify-content: space-between;
 		padding: 1.125rem 1.25rem;
-		border-bottom: 1px solid var(--lamp-soft);
-		background: linear-gradient(to bottom, var(--stone-warm), var(--night-deep));
+		border-bottom: 1px solid var(--rule);
 	}
 
 	.filter-modal__title-group {
@@ -449,42 +432,39 @@
 		justify-content: center;
 		width: 2.25rem;
 		height: 2.25rem;
-		background: linear-gradient(135deg, var(--lamp-glow), var(--lamp-glow));
-		color: var(--text-on-primary);
-		border-radius: 0.625rem;
-		box-shadow: 0 4px 12px var(--lamp-glow-rgba);
+		border-radius: 50%;
+		background: var(--accent-deep);
+		color: var(--highlight);
 	}
 
 	.filter-modal__title {
 		margin: 0;
-		font-size: 1.125rem;
+		color: var(--text);
+		font-size: var(--font-size-lg);
 		font-weight: 600;
-		color: var(--ink-bright);
-		letter-spacing: -0.01em;
 	}
 
 	.filter-modal__close {
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		width: 2.25rem;
-		height: 2.25rem;
-		background: transparent;
+		width: 2.75rem;
+		height: 2.75rem;
 		border: none;
-		border-radius: 0.625rem;
-		color: var(--ink-dim);
+		border-radius: 10px;
+		background: transparent;
+		color: var(--text-faint);
 		cursor: pointer;
 		transition:
 			background-color 0.15s ease,
 			color 0.15s ease;
 
 		&:hover {
-			background: var(--lamp-soft);
-			color: var(--lamp-glow);
+			background: color-mix(in srgb, var(--highlight) 8%, transparent);
+			color: var(--text);
 		}
 	}
 
-	/* Filter Sections */
 	.filter-section {
 		padding: 1.25rem;
 
@@ -501,44 +481,45 @@
 	}
 
 	.filter-section__title {
-		margin: 0;
-		font-size: 0.75rem;
+		margin: 0 0 0.75rem;
+		color: var(--highlight);
+		font-size: var(--font-size-xs);
 		font-weight: 600;
-		color: var(--lamp-glow);
+		letter-spacing: 0.12em;
 		text-transform: uppercase;
-		letter-spacing: 0.05em;
+	}
+
+	.filter-section__header .filter-section__title {
+		margin: 0;
 	}
 
 	.filter-section__actions {
 		display: flex;
 		align-items: center;
-		gap: 0.5rem;
+		gap: 0.25rem;
 	}
 
 	.divider {
-		color: var(--ink-dim);
+		color: var(--text-faint);
 	}
 
 	.text-btn {
-		background: none;
+		min-height: 2.75rem;
+		padding: 0 0.625rem;
 		border: none;
-		padding: 0.25rem 0.625rem;
-		font-size: 0.8125rem;
+		border-radius: 10px;
+		background: none;
+		color: var(--highlight);
+		font-size: var(--font-size-sm);
 		font-weight: 500;
-		color: var(--lamp-glow);
 		cursor: pointer;
-		border-radius: 0.625rem;
-		transition:
-			background-color 0.15s ease,
-			color 0.15s ease;
 
 		&:hover {
-			background: var(--lamp-soft);
-			color: var(--lamp-glow);
+			background: color-mix(in srgb, var(--highlight) 8%, transparent);
 		}
 	}
 
-	/* Type Grid */
+	/* Type chips match the take chips: indigo-deep and lavender when on, dashed when off. */
 	.type-grid {
 		display: grid;
 		grid-template-columns: repeat(6, 1fr);
@@ -560,83 +541,75 @@
 		align-items: center;
 		justify-content: center;
 		aspect-ratio: 1;
-		background: var(--stone-warm);
-		border: 2px solid var(--stone-edge);
-		border-radius: 0.625rem;
+		border: 1px dashed color-mix(in srgb, var(--highlight) 30%, transparent);
+		border-radius: 50%;
+		background: transparent;
 		cursor: pointer;
 		transition:
-			transform 0.2s ease,
 			border-color 0.2s ease,
 			background-color 0.2s ease;
 
 		&:hover {
-			border-color: var(--type-color);
-			background: color-mix(in srgb, var(--type-color) 12%, var(--stone-warm));
-			transform: scale(1.05);
+			border-color: var(--highlight);
 		}
 
 		&:focus-visible {
-			outline: 2px solid var(--type-color);
+			outline: 2px solid var(--focus);
 			outline-offset: 2px;
 		}
 	}
 
 	.type-chip--selected {
-		background: var(--type-color);
-		border-color: var(--type-color);
-		box-shadow:
-			0 4px 12px color-mix(in srgb, var(--type-color) 50%, transparent),
-			inset 0 1px 0 rgba(255, 255, 255, 0.2);
+		border: 1px solid color-mix(in srgb, var(--highlight) 45%, transparent);
+		background: var(--accent-deep);
 
 		.type-chip__number {
-			color: white;
-			text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+			color: var(--highlight);
 		}
 	}
 
 	.type-chip__number {
-		font-size: 1.125rem;
-		font-weight: 700;
-		color: var(--ink-mid);
+		color: var(--text-faint);
+		font-family: var(--font-voice);
+		font-style: italic;
+		font-size: var(--font-size-lg);
 		transition: color 0.2s ease;
 	}
 
 	.type-chip__check {
 		position: absolute;
-		top: 0.125rem;
-		right: 0.125rem;
+		top: -0.125rem;
+		right: -0.125rem;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		width: 1rem;
 		height: 1rem;
-		background: rgba(255, 255, 255, 0.25);
 		border-radius: 50%;
-		color: white;
+		background: var(--highlight);
+		color: var(--bg);
 	}
 
-	/* Type Count */
 	.type-count {
 		display: flex;
 		align-items: center;
 		gap: 0.375rem;
 		margin-top: 1rem;
-		font-size: 0.8125rem;
+		font-size: var(--font-size-sm);
 	}
 
 	.type-count__number {
+		color: var(--highlight);
 		font-weight: 700;
-		color: var(--lamp-glow);
 	}
 
 	.type-count__text {
-		color: var(--ink-dim);
+		color: var(--text-faint);
 	}
 
-	/* Sort Options */
 	.sort-options {
 		display: flex;
-		gap: 0.625rem;
+		gap: 0.5rem;
 
 		@media (max-width: 380px) {
 			flex-direction: column;
@@ -644,15 +617,15 @@
 	}
 
 	.sort-option {
-		flex: 1;
 		display: flex;
+		flex: 1;
 		flex-direction: column;
 		align-items: center;
 		gap: 0.5rem;
 		padding: 0.875rem 0.625rem;
-		background: var(--stone-warm);
-		border: 2px solid var(--stone-edge);
-		border-radius: 0.625rem;
+		border: 1px solid var(--rule);
+		border-radius: 12px;
+		background: transparent;
 		cursor: pointer;
 		transition:
 			border-color 0.2s ease,
@@ -665,55 +638,42 @@
 		}
 
 		&:hover {
-			border-color: var(--lamp-glow-rgba);
-			background: var(--lamp-soft);
+			border-color: color-mix(in srgb, var(--highlight) 40%, transparent);
 		}
 
 		&:focus-visible {
-			outline: 2px solid var(--lamp-glow);
+			outline: 2px solid var(--focus);
 			outline-offset: 2px;
 		}
 	}
 
 	.sort-option--selected {
-		background: linear-gradient(
-			135deg,
-			color-mix(in srgb, var(--lamp-glow) 25%, transparent),
-			var(--lamp-soft)
-		);
-		border-color: var(--lamp-glow);
-		box-shadow:
-			0 0 20px var(--lamp-soft),
-			inset 0 1px 0 rgba(255, 255, 255, 0.05);
+		border-color: var(--highlight);
+		background: color-mix(in srgb, var(--highlight) 10%, transparent);
 
-		.sort-option__icon {
-			color: var(--lamp-glow);
-		}
-
+		.sort-option__icon,
 		.sort-option__label {
-			color: var(--lamp-glow);
+			color: var(--highlight);
 		}
 	}
 
 	.sort-option__icon {
-		color: var(--ink-dim);
+		color: var(--text-faint);
 		transition: color 0.2s ease;
 	}
 
 	.sort-option__label {
-		font-size: 0.8125rem;
+		color: var(--text-muted);
+		font-size: var(--font-size-sm);
 		font-weight: 500;
-		color: var(--ink-mid);
 		transition: color 0.2s ease;
 	}
 
-	/* Footer */
 	.filter-modal__footer {
 		display: flex;
 		gap: 0.75rem;
 		padding: 1rem 1.25rem;
-		border-top: 1px solid var(--lamp-soft);
-		background: var(--night-deep);
+		border-top: 1px solid var(--rule);
 	}
 
 	.filter-modal__footer :global(.btn) {
@@ -721,30 +681,23 @@
 		min-width: 0;
 	}
 
-	/* Hint */
 	.filter-modal__hint {
 		margin: 0;
 		padding: 0.875rem 1.25rem;
-		background: var(--warning-light);
-		border-top: 1px solid var(--warning-border);
-		color: var(--warning-text);
-		font-size: 0.8125rem;
+		border-top: 1px solid var(--rule);
+		color: var(--text-muted);
+		font-size: var(--font-size-sm);
 		text-align: center;
 	}
 
 	@media (prefers-reduced-motion: reduce) {
 		.filter-modal__close,
-		.text-btn,
 		.type-chip,
 		.type-chip__number,
 		.sort-option,
 		.sort-option__icon,
 		.sort-option__label {
 			transition: none;
-		}
-
-		.type-chip:hover {
-			transform: none;
 		}
 	}
 </style>

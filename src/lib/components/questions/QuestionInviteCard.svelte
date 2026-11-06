@@ -42,7 +42,7 @@
 		errorCorrectionLevel: 'H' as const,
 		type: 'image/png' as const,
 		margin: 1,
-		color: { dark: '#F59E0B', light: '#0C0A09' }
+		color: { dark: '#CFC2FF', light: '#01010D' }
 	};
 
 	onMount(() => {
@@ -231,26 +231,22 @@
 
 <style>
 	.invite-card {
-		--cta-text: var(--night-deep);
+		--cta-text: var(--bg);
 
 		display: grid;
 		grid-template-columns: auto minmax(0, 1fr);
 		gap: 0.9rem;
 		padding: 1rem;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 34%, var(--stone-edge));
+		border: 1px solid color-mix(in srgb, var(--highlight) 34%, transparent);
 		border-radius: 1rem;
 		background:
 			radial-gradient(
 				circle at 0 0,
-				color-mix(in srgb, var(--lamp-glow) 10%, transparent),
+				color-mix(in srgb, var(--highlight) 10%, transparent),
 				transparent 42%
 			),
-			color-mix(in srgb, var(--stone-warm) 97%, var(--night-deep));
+			var(--surface);
 		box-shadow: var(--shadow-sm);
-	}
-
-	:global(:root.light) .invite-card {
-		--cta-text: var(--ink-bright);
 	}
 
 	.invite-card__icon {
@@ -258,10 +254,10 @@
 		width: 2.5rem;
 		height: 2.5rem;
 		place-items: center;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 36%, var(--stone-edge));
+		border: 1px solid color-mix(in srgb, var(--highlight) 36%, transparent);
 		border-radius: 0.625rem;
-		background: var(--lamp-soft);
-		color: var(--lamp-glow);
+		background: color-mix(in srgb, var(--accent) 18%, transparent);
+		color: var(--highlight);
 	}
 
 	.invite-card__body {
@@ -270,17 +266,17 @@
 
 	.invite-card__kicker {
 		margin: 0;
-		color: var(--lamp-glow);
+		color: var(--highlight);
 		font-family: var(--font-mono);
-		font-size: 0.62rem;
+		font-size: var(--font-size-xs);
 		letter-spacing: 0.07em;
 		text-transform: uppercase;
 	}
 
 	.invite-card h3 {
 		margin: 0.28rem 0 0;
-		color: var(--ink-bright);
-		font-size: 1.08rem;
+		color: var(--text);
+		font-size: var(--font-size-lg);
 		font-weight: 720;
 		letter-spacing: -0.02em;
 		line-height: 1.25;
@@ -289,8 +285,8 @@
 	.invite-card__copy {
 		max-width: 44rem;
 		margin: 0.45rem 0 0;
-		color: var(--ink-mid);
-		font-size: 0.84rem;
+		color: var(--text-muted);
+		font-size: var(--font-size-sm);
 		line-height: 1.55;
 	}
 
@@ -311,19 +307,19 @@
 		border: 0;
 		border-radius: 0.625rem;
 		background: transparent;
-		color: var(--ink-dim);
+		color: var(--text-faint);
 		font: inherit;
-		font-size: 0.78rem;
+		font-size: var(--font-size-sm);
 		cursor: pointer;
 	}
 
 	.invite-card__quiet-action:hover {
-		background: var(--stone-mid);
-		color: var(--ink-bright);
+		background: var(--surface-raised);
+		color: var(--text);
 	}
 
 	:global(.invite-card__quiet-action:focus-visible) {
-		outline: 2px solid var(--lamp-glow);
+		outline: 2px solid var(--highlight);
 		outline-offset: 2px;
 	}
 
@@ -335,7 +331,7 @@
 	.invite-card__feedback {
 		margin: 0.65rem 0 0;
 		color: var(--success-text);
-		font-size: 0.76rem;
+		font-size: var(--font-size-xs);
 		line-height: 1.45;
 	}
 
@@ -349,9 +345,9 @@
 		gap: 1rem;
 		margin-top: 0.85rem;
 		padding: 0.8rem;
-		border: 1px solid var(--stone-edge);
+		border: 1px solid color-mix(in srgb, var(--highlight) 22%, transparent);
 		border-radius: 1rem;
-		background: var(--night-deep);
+		background: var(--bg);
 	}
 
 	.invite-card__qr img {
@@ -363,8 +359,8 @@
 	.invite-card__qr p {
 		max-width: 16rem;
 		margin: 0;
-		color: var(--ink-mid);
-		font-size: 0.78rem;
+		color: var(--text-muted);
+		font-size: var(--font-size-sm);
 		line-height: 1.5;
 	}
 

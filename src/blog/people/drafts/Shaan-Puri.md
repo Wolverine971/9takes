@@ -1,8 +1,8 @@
 ---
-title: 'Shaan Puri: Brilliant at Starting Chapters, Never Finishing the Book'
-meta_title: 'Shaan Puri Enneagram Type 7: Why He Keeps Reinventing'
-persona_title: 'The Restless Showman'
-description: 'Why does Shaan Puri keep reinventing his life? We decode the Type 7 drive behind the startups, My First Million, restlessness, and fear of settling.'
+title: 'Shaan Puri: Quick to Quit Experiments, Slow to Quit People'
+meta_title: 'Shaan Puri Enneagram: Why He''s a Type 7, Not a 3'
+persona_title: 'The Internet''s Fun Rich Uncle'
+description: 'Shaan Puri walked away from med school and a profitable sushi company, then stayed with Sam Parr for seven years. Why he''s an Enneagram Type 7, not a 3.'
 author: 'DJ Wayne'
 date: '2026-02-26'
 loc: 'https://9takes.com/personality-analysis/shaan-puri'
@@ -13,21 +13,21 @@ published: true
 enneagram: 7
 type: ['creator', 'entrepreneur', 'business-creator', 'business-operator']
 person: 'shaan-puri'
-suggestions: ['Sam-Parr', 'John-Coogan', 'Reid-Hoffman', 'Patrick-Bet-David', 'Tim-Ferriss']
+suggestions: ['Sam-Parr', 'Alex-Lieberman', 'John-Coogan', 'Mr-Beast', 'Naval-Ravikant']
 wikipedia: ''
 birth_date: '1988-04-25'
-birth_place: 'San Francisco, California, United States'
+birth_place: 'Tulsa, Oklahoma, United States'
 nationality: 'American'
 occupation:
   - 'Content Creator'
   - 'Entrepreneur'
 knows_about:
   - 'My First Million podcast'
-  - 'Newsletter growth'
-  - 'Startup pivots and exits'
-  - 'Viral business writing'
+  - 'Explaining business ideas and storytelling'
+  - 'Viral Twitter threads and business writing'
+  - 'Newsletter businesses (Milk Road)'
   - 'Rolling-fund angel investing'
-  - 'Emotional reframing frameworks'
+  - 'Startup exits (Bebo to Twitch)'
 keywords:
   - 'Shaan Puri enneagram'
   - 'Shaan Puri type 7'
@@ -38,220 +38,218 @@ keywords:
   - 'Enthusiast enneagram'
 same_as:
   - 'https://twitter.com/ShaanVP'
+  - 'https://www.shaanpuri.com'
 citations:
+  - 'https://www.shaanpuri.com/essays/whos-your-elon'
+  - 'https://www.shaanpuri.com/essays/someday'
+  - 'https://www.shaanpuri.com/essays/how-i-spent-a-year-strategically-broke-and-why-it-was-the-best-decision-of-my-life'
+  - 'https://www.shaanpuri.com/essays/the-3-step-plan-to-figuring-out-what-you-want-to-do-in-life'
+  - 'https://www.shaanpuri.com/essays/finding-your-thing'
+  - 'https://www.shaanpuri.com/essays/stop-working-so-hard'
+  - 'https://www.shaanpuri.com/essays/down'
+  - 'https://www.shaanpuri.com/essays/parents'
+  - 'https://www.shaanpuri.com/mailbag/bias-for-action-celebrity-ozempic-and-the-origin-of-uncle-shaan'
+  - 'https://www.shaanpuri.com/mailbag/ama-stocks-ai-naval'
+  - 'https://shaanvp.medium.com/what-i-want-out-of-life-age-28-197c2dc496e'
+  - 'https://shaanvp.medium.com/blab-is-dead-long-live-blab-d2f72449ddb8'
+  - 'https://podscripts.co/podcasts/my-first-million/is-this-the-end-of-the-pod'
+  - 'https://rosetta.to/u/myfirstmillionpod/the-20-million-year-personality-quiz-89-of-fortune-100s-swear-by'
+  - 'https://rosetta.to/u/myfirstmillionpod/i-failed-12-times-before-making-my-first-million-here-s-every-failure'
+  - 'https://rosetta.to/u/myfirstmillionpod/if-you-didn-t-make-progress-in-2025-watch-the-first-10-minutes'
+  - 'https://rosetta.to/u/myfirstmillionpod/10-lessons-we-learned-from-filming-131-episodes-of-my-first-million-in-2023'
+  - 'https://rosetta.to/u/myfirstmillionpod/how-my-first-million-podcast-started-2-million-downloads-in-1-year'
+  - 'https://rosetta.to/u/myfirstmillionpod/you-don-t-need-a-mentor-focus-on-this-instead'
+  - 'https://podscripts.co/podcasts/my-first-million/tony-robbins-changes-my-life-48-minute-coaching-session'
+  - 'https://mixergy.com/interviews/how-the-my-first-million-made-his-fastest-money'
+  - 'https://techcrunch.com/2019/06/18/amazon-twitch-bebo-esports/'
+  - 'https://theygotacquired.com/content/milk-road-acquired-by-bitfo/'
+  - 'https://www.westword.com/restaurants/sabi-sushi-the-restaurant-without-a-restaurant-launches-today-5772539'
   - 'https://twitter.com/ShaanVP'
-  - 'https://www.capitalism.com/shaan-puri-crypto-copywriting-and-podcasting-his-way-to-millions/'
 faqs:
   - question: "What is Shaan Puri's personality type?"
-    answer: "Shaan Puri is an Enneagram Type 7 (The Enthusiast). The pattern shows in his 'safety is a serial killer' philosophy, a life built as rotating chapters — sushi restaurant, live-streaming app, crypto newsletter, venture fund — the 90-second timer he sets on negative emotions, his 'work like a lion' sprint-rest rhythm, and a childhood spent across nine countries that made movement his only tempo."
+    answer: "Shaan Puri is most likely an Enneagram Type 7, the Enthusiast, with a 6 wing. Sevens need to stay free, stimulated and out of pain. Shaan left medicine after two weeks shadowing a surgeon, shut down a profitable sushi company because it felt like 'a trap,' and says his work 'feels like play.' After a fight with Sam Parr, he caught himself coping by turning the hurt into 'this framework is cool.'"
     anchor: 'what-is-shaan-puris-personality-type'
-  - question: "What is Shaan Puri's 90-second rule?"
-    answer: "When Shaan gets upset, he sets a 90-second timer: feel the negative emotion fully, then redirect — by 40 seconds the intensity usually fades. He pairs it with reframes like saying 'I'm choosing to feel anxious' instead of 'I feel anxious.' Before building these systems, he admitted on-air to Tony Robbins that his emotional home was 'stressed and anxious'; afterward it moved to 'joy and curiosity.'"
-    anchor: 'shaan-puris-90-second-rule-for-suffering'
-  - question: 'Why did Shaan Puri sell the Milk Road after one year?'
-    answer: "He designed it that way. The crypto newsletter he co-founded with Ben Levy in early 2022 hit 250,000 subscribers in ten months — helped by a $1 million public crypto wallet readers could watch — and he sold it to Bitfo in January 2023 for a reported eight figures. 'The Milk Road was a one-year project,' he said. Build, extract, exit: the lion ate and went back to rest."
-    anchor: 'how-shaan-puri-built-milk-road-and-bums--roses'
-  - question: "Why doesn't Shaan Puri talk about Bums & Roses?"
-    answer: "Bums & Roses, the premium bamboo baby clothing brand his wife Sonia started, does $25 million in annual revenue, and Shaan is a co-founder on the LLC filings — yet he has never named it on My First Million. He says he kept it separate to maintain clean data on whether the business worked on its own merits. The man who shares his net worth and emotional breakdowns publicly protects the one slow-growth business that requires steady daily execution."
-    anchor: 'how-shaan-puri-built-milk-road-and-bums--roses'
-  - question: 'How do Shaan Puri and Sam Parr work together on My First Million?'
-    answer: "Their partnership runs on opposite engines: Shaan, the Type 7, generates ideas at machine-gun speed ('what if someone built...'), while Sam Parr, an Enneagram 8, pressure-tests them with blunt force ('What would that actually cost? Who's the customer?'). The original deal was Shaan handling content and production while Sam brought The Hustle's audience, split 50/50. Seven years and 200 million YouTube views later, it remains the longest commitment of Shaan's career."
-    anchor: 'why-my-first-million-is-the-partnership-that-should-be-impossible'
+  - question: 'Is Shaan Puri a Type 3?'
+    answer: "Type 3 is the strongest alternative. In his twenties Shaan says he 'just wanted to be successful really badly' and slept in the office most nights of the year. But when image and fun pull apart, he picks fun. He quit a business that was working because it felt like a trap, tells his failures on air for the laugh, and when an interviewer said he was still driven by feeling like a failure, he answered: 'No, no, that whole narrative... You didn't even know me.'"
+    anchor: 'shaan-puris-b-decade-before-the-podcast'
+  - question: 'Why did Shaan Puri quit a profitable sushi business?'
+    answer: "Sabi Sushi, a delivery-only 'restaurant without a restaurant' he started with two Duke friends, made about $20,000 in profit in its first month or two. Shaan has said that was the problem: 'this is a trap. Every day that this succeeds is another day we're going to be in this business. And I just want out.' Two weeks shadowing an orthopedic surgeon had already ended his plan to be a doctor, because he realized 'creativity and variety matter a lot to me.'"
+    anchor: 'the-two-weeks-that-killed-the-doctor-plan'
+  - question: 'How did Shaan Puri build and sell the Milk Road?'
+    answer: "Shaan co-founded the Milk Road, a daily crypto newsletter, with Ben Levy in early 2022. It reached about 250,000 subscribers in under a year and was sold to Bitfo in December 2022. Shaan has played down the famous $1 million public wallet ('this did not drive that much growth') and calls it 'a one year project' that paid better for the time invested than anything he had done before. He and Ben have kept working together since."
+    anchor: 'quick-to-quit-experiments-slow-to-quit-people'
+  - question: 'Why do Shaan Puri and Sam Parr work so well together?'
+    answer: "Shaan is the reframe and Sam is the reaction. Shaan describes himself as 'a monologue' and Sam as the guy who will 'just ask a blunt question.' Shaan sets up the bit, the story or the framework, and he credits Sam, 'a more structured disciplined guy,' for the show recording every week since 2019. After their 2024 fight, Shaan apologized first, and Sam told him he was 'quite logical' and 'a little more comfortable with confrontation.'"
+    anchor: 'shaan-is-the-reframe-sam-is-the-reaction'
 twitter: 'https://twitter.com/ShaanVP'
 instagram: ''
 tiktok: ''
 path: src/blog/people/drafts/Shaan-Puri.md
 ---
 
-> "I don't know much, but I know one thing: the ordinary life isn't for me."
+> "I think it's because a part of me feels like life is short - that Disneyland will close soon and I wanna ride all the rides before we get kicked out." Shaan Puri, ["who's your Elon?"](https://www.shaanpuri.com/essays/whos-your-elon), 2024
 
-<p class="firstLetter">Shaan Puri didn't say that. A stranger at a casino did, some guy he'd never met, making conversation at a table in the middle of nowhere. Shaan was in his early twenties. He kept the line for sixteen years.</p>
+<p class="firstLetter">In March 2024, Shaan Puri brought a personality test onto My First Million and took it apart on air. Retake Myers-Briggs a few weeks later, he told Sam Parr, and about half of people get a different label. Critics say it runs on the Forer effect, "the same thing that astrologers fortune tellers and other pseudo scientists use." Then he read out a grit test. The first item was "new ideas and projects sometimes distract me from previous ones." His answer: "guess what it's very much like me." He added, "I have a half half written book over there," and called the whole thing "not science."</p>
 
-That's the thing about **Shaan Puri** that most people miss. The guy who sold a company to Twitch and built My First Million into one of the biggest business podcasts on YouTube, who turned a metaverse tweet thread into a reframing clinic, is still carrying a stranger's line in his pocket like a talisman. Still needing the reminder.
+Then he handed the test to Sam. Same question. Sam: "false."
 
-He has built an entire philosophy around movement. New ventures, new chapters, new identities. He calls life "seasons of a TV show." He's started a sushi restaurant, a live-streaming app, a social network, a crypto newsletter, a baby clothing brand, and a venture fund, all before 37. But his most honest moments, the 2 AM essays, the podcast episodes where the performance drops, reveal someone wrestling with the question all that motion is designed to outrun.
+That exchange is the method for this page. Shaan is right that a vague label fits everyone, so every claim below has to pass the Sam test: it should fit Shaan and not his co-host. If it describes [Sam Parr](/personality-analysis/sam-parr) just as well, it's a horoscope and it should go.
 
-What happens when you're brilliant at starting new chapters but you've never finished reading the book you're already in?
+Here's the claim. Shaan is quick to quit experiments and slow to quit people. He walks away from things that feel like a trap, including things that are working. He stays for years with the people who make the work feel like play. And when something hurts, his first move is to make it interesting. He has caught himself doing that on the record.
 
 <details>
 <summary class="accordion">TL;DR: Why Shaan Puri is an Enneagram Type 7</summary>
 <div class="panel">
 <ul>
-<li><b>The movement is the tell.</b> Nine countries before high school, serial ventures as an adult, a philosophy that treats "safety" as a serial killer of ambition.</li>
-<li><b>He engineers his emotions.</b> A 90-second suffering budget, deliberate reframing, and a baseline he shifted from anxiety to joy, live on a podcast with Tony Robbins.</li>
-<li><b>The anti-hustle hustler.</b> Calls himself lazy, works in lion-like sprints, quietly runs a $25M baby brand nobody in his audience knows about.</li>
-<li><b>The partnership that sticks.</b> His longest commitment is a podcast with <a href="/personality-analysis/sam-parr">Sam Parr</a>, an Enneagram 8 whose directness counterweights Shaan's restless energy.</li>
-<li><b>The tension beneath the frameworks.</b> A rocky relationship with his father, a decade of being "B+" at his dream, the one part of his life he can't reverse-engineer.</li>
+<li><b>The type:</b> Enneagram Type 7, most likely with a 6 wing.</li>
+<li><b>Allergic to traps:</b> he left medicine after two weeks shadowing a surgeon, then shut down a profitable sushi company because "this is a trap."</li>
+<li><b>Fun is the job:</b> "Hard work? This feels like play." At 28 he listed "being someone who lights up a room" among the things that matter most to him.</li>
+<li><b>Slow to quit people:</b> My First Million with Sam since 2019. Ben Levy since before the Milk Road. "Find somebody amazing, just do projects with them for 20 years."</li>
+<li><b>The escape hatch:</b> after a real fight with Sam, he noticed his coping mechanism was "ooh, this framework is cool," and said so on air.</li>
+<li><b>The limit:</b> Shaan has never named a type for himself, and he's the one who explained the Forer effect on MFM. This is a read of the public record.</li>
 </ul>
 </div>
 </details>
 
-## Shaan Puri's Childhood Across Nine Countries
+---
 
-By the time Shaan Puri finished high school, he'd lived in nine countries. Born in the Bay Area, with stops through Denver, Texas, Indonesia, and Australia before finishing high school in China. His father ("incredibly inspiring," Shaan would later write) moved the family for work. Pack the boxes, learn a new accent, find new friends, do it again. His mother guided him to "walk on the right path." The family was warm, close, and conventional in ways that would later feel constraining.
-
-The most important thing to understand about Shaan's restlessness is that it predates him. He didn't choose to keep moving. His childhood was movement. By the time he was old enough to opt out, the tempo was already his.
-
-He landed at Duke on a biology track, completed every pre-med requirement, and then, with one credit left, took a class called "Getting Rich." Taught by a woman who'd ridden the dot-com boom and real estate boom to retire by 30. Compound interest, mortgages, entrepreneur war stories.
-
-He never went to medical school.
-
-He graduated, moved to Boulder, Colorado, rented the worst two-bedroom apartment he could find: $466 per person, three people deep, furnished with free Craigslist desks and Target air mattresses. Had a pet mouse named Marty. Won $10,000 in a poker tournament and used it to travel Australia. Poker taught him "strategy, thinking in probabilities, controlling his mind, and figuring out if others are lying."
-
-Then he and two Duke friends started Sabi Sushi, "the Chipotle of sushi." Customizable rolls, a rented kitchen, online delivery. Won the Duke Start-Up Challenge. Failed because people only order sushi once every three weeks.
-
-"The company didn't work out, but I had amazing sushi every day for lunch," he'd later write. That's the public version. The private one: "At the time, I felt like I was striking out. Over and over again."
-
-## Why Shaan Puri Spent a Decade Feeling "B+"
-
-After the sushi restaurant closed, Shaan moved to San Francisco at 24 with no job and no contacts. He skipped resumes entirely, researched the portfolio companies of Michael Birch (founder of Bebo, sold to AOL for $850 million), and cold-emailed ideas for improving them. Birch hired him into Monkey Inferno, his startup studio. Six months later, Shaan was CEO of the 20-person company.
-
-Then came Blab, a live-streaming group video chat app that reached millions of users in under a year. The format was unsustainable. "The emotional cost of being entertaining in a live format is too high," Shaan wrote in his post-mortem. He killed it.
-
-Then Bebo. Birch had bought the company back out of bankruptcy for $1 million, down from the $850 million AOL originally paid. Shaan led the revival through multiple pivots before landing on esports tournaments. In 2019, Twitch acquired Bebo for $25 million.
-
-The decade between that sushi restaurant and the Twitch exit was, by his own assessment, "B+ at it." Not bad. Not great. Adequate. Ten years trying to be a great founder and CEO, and he was fine.
-
-"Follow through is a motherf\*cker," he wrote in a raw essay on Medium. Instead of executing on a solid, proven strategy, he'd search for new ones. Surrounded by Silicon Valley overachievers, he "felt worthless whenever he'd hit a plateau."
-
-The shift came when he stopped trying to be the thing he was B+ at and started doing the thing he was A+ at: communicating. The podcast. The tweets. The newsletters. The writing. He didn't discover his talent. He stopped forcing the wrong one.
-
-## What is Shaan Puri's Personality Type?
+## What is Shaan Puri's personality type?
 
 ### Shaan Puri is an Enneagram Type 7
 
-The pattern hides in plain sight. Not in the exits or the follower count, but in the way Shaan has structured his entire life around one principle: never get trapped.
+Shaan Puri is most likely an [Enneagram Type 7](/enneagram-corner/enneagram-type-7), the Enthusiast, with a 6 wing. Sevens need to stay free, stimulated and out of pain. Shaan leaves anything that feels like a trap, turns his work into play, and turns hurt into a framework.
 
-Enneagram Sevens run on a core fear of being trapped in pain. They reframe suffering, treat life as a series of experiments, and keep moving before the current situation goes stale. Their superpower is enthusiasm. Their blind spot is what they leave behind.
+Sevens sit in the head triad, the thinking types, where the core emotion is fear. (The gut types run on anger and the heart types on shame.) A Seven's fear rarely looks like fear. It looks like plans, options, jokes and the next exciting thing. Underneath is a fear of being stuck: in pain, in boredom, in a life that has already been decided.
 
-The evidence in Shaan's case is unusually explicit, because he's unusually self-aware:
+Shaan writes about that fear as if it were a villain. "Safety murders your ambition. Murders your sense of adventure. Safety is a serial killer." The word "later" gets the same treatment: "Whenever I hear it, I immediately put my dukes up ready to fight."
 
-- **"Safety is a serial killer."** His words. The safe path "murders your ambition, murders your sense of adventure." For most people, safety is a goal. For Shaan, it's the threat.
-- **He builds chapters, not empires.** The sushi restaurant, the apps, the newsletter, the fund. The pattern is rotation. Each venture is a season, and when the season ends, he moves on before the credits roll.
-- **"Enthusiasm is borrowing from the future."** He named the Seven's core mechanism without realizing it: burn excitement about potential outcomes as fuel for present action. Positive emotion is a strategic resource he deploys.
-- **Anti-goals before pro-goals.** His "Kickoff Doc" for every project starts with what he doesn't want to happen. Define the pain to avoid before the outcome to pursue. That's a Seven's native lens. The world sorts itself first into pain to dodge, then into possibility to chase.
-- **The metaverse thread.** In October 2021, Shaan tweeted a thread reframing the metaverse not as a place but as a crossing point, like the singularity in AI. It went viral because of the reframe, not the information. That's the Seven move: take a concept everyone is arguing about and show them they're asking the wrong question entirely.
-- **"Find what feels like play to you, and work to others."** His approach to content ("write like you talk," study comedians, make business entertaining) is a Seven's survival strategy. If the work stops being fun, the Seven stops showing up. So he redesigned the work until it was fun.
-- **He calls himself lazy.** Sevens don't grind. They sprint, rest, sprint. He calls it "working like a lion": sit, wait, sprint, eat, rest, repeat. The opposite of the [Gary Vee](/personality-analysis/gary-vee) school of relentless daily output.
+His life motto is borrowed from a stranger. "I had heard a quote from a guy I met at a casino: 'I don't know much, but I know one thing: the ordinary life isn't for me'." In 2024 he wrote that the line "stuck with me for the 16 years since I heard it."
 
-Under sustained pressure, Sevens slide toward [Type 1](/enneagram-corner/enneagram-type-1) patterns: rigid, perfectionistic, frustrated with their own follow-through. The decade of being "B+" was exactly this. Compulsive search for new strategies instead of executing proven ones. The worthlessness that crept in every time momentum stalled.
+Run the Sam test on that and it mostly passes. Sam wants freedom too, but his version is about not being controlled: savings that let him tell people off. Shaan's version is about not being bored, or boxed in by a path someone else could predict.
 
-The deepest tell is what he does with pain.
+The clearest tell came in August 2024. After a real fight with Sam, Shaan came on air with notes, apologized first, and walked Sam through what he'd learned: Gottman's Four Horsemen, the 5-to-1 ratio. Then he stopped himself.
 
-## Shaan Puri's 90-Second Rule for Suffering
+> "my coping mechanism was like, oh, this research is fascinating. Ooh, this framework is cool... But I'm kind of distancing myself from the cold hard facts of my own behavior."
 
-When Shaan Puri gets upset, he sets a timer. Ninety seconds. He allows himself to feel the negative emotion fully, anger, frustration, disappointment, whatever it is. Then he redirects.
+That is the Seven's defense in one sentence, named by the Seven. A top comment under the episode put it more bluntly: "Shaan is the type of guy who will create a 5 step plan after having an argument and make a pod about it."
 
-By 40 seconds, the intensity usually fades on its own.
+## The two weeks that killed the doctor plan
 
-He has literally quantified his relationship with suffering. Not suppressed it. He's explicit about feeling it fully. But he's contained it. Bounded it. Built walls around it so it can't spread.
+For years Shaan planned to be a doctor. "I spent 10 years telling everyone I wanted to be a doctor - sports medicine, to be exact." He did pre-med at Duke, took the MCATs and got into medical school. What ended it was a wedding, where he met an orthopedic surgeon and asked to shadow him for two weeks.
 
-Another technique: instead of saying "I feel anxious," he says "I'm choosing to feel anxious." The reframe gives him an exit door he can see at all times. The emotion is a state he's occupying, not a condition he's trapped in.
+"Right away, I realized that I did NOT want to be a doctor." The job had "very little creativity." His conclusion is the most Seven sentence in his origin story: "I realized creativity and variety matter a lot to me."
 
-Before the timer, before the reframes, the baseline was different. In a 48-minute episode of My First Million where [Tony Robbins](/personality-analysis/tony-robbins) coached him live, Shaan admitted that his "emotional home" was stressed and anxious. Not occasionally. Not situationally. That was the default address he came back to every night.
+The push came from an easy-A class. Burned out from the MCATs, he looked for the easiest course at Duke and found one called Getting Rich. The professor had graduated from Duke with a Mandarin degree, moved to China on a one-way ticket, built a business connecting Chinese and American companies, and retired by 30. When he pitched a sushi startup over medical school, every adult he asked said restaurants fail. "She was the only one who was like this sounds awesome you could totally do this."
 
-Robbins dismantled Shaan's emotional operating system piece by piece on air. The most revealing moment: Shaan admitted he was at "level two" love with his girlfriend (now wife), "transactional trading love, tit for tat measurements." He consciously decided to move to level three: unconditional.
+Sabi Sushi, built with two Duke friends, was pitched as "the Chipotle of sushi." It launched in Denver in 2011 as a delivery-only "restaurant without a restaurant." It made money, and that was the problem:
 
-Love described like a product roadmap. That tells you everything about how his mind processes the messiest parts of being human.
+> "we made $20,000 of profit in like, I don't know, one or two months. But we also were like, this is a trap. Every day that this succeeds is another day we're going to be in this business. And I just want out."
 
-After working with Robbins, his emotional home moved from "stressed and anxious" to "joy and curiosity." But the engineering of it is the point. Shaan didn't arrive at emotional stability naturally. He built it the way he builds companies: with frameworks, a willingness to tear everything down, and the assumption that the first version never works.
+He added that he didn't "need to have a life sentence in this business." A Three would have scaled it. A Six would have kept the steady income. Shaan heard a cell door.
 
-"Quality of life has very little to do with your house, car, and accomplishments," he's written. "The quality of your life is the quality of the emotions you have on a day-to-day basis."
+Around the same time he spent a year he calls "strategically broke": no job and no plan, splitting a Boulder apartment three ways at $466 a person, with a free pet mouse named Marty. He tutored and coached basketball at a school for autistic children for $35 an hour. He entered a dozen business-plan competitions and won over $25,000. He got cast on Wheel of Fortune with a friend. He won $10,000 at poker and spent it traveling Australia.
 
-He means it. He just needs a framework to get there.
+"At the time, I felt like I was striking out. Over and over again. But I was having fun, so I kept going."
 
-## How Shaan Puri Built Milk Road and Bums & Roses
+## Shaan Puri's B+ decade before the podcast
 
-The Milk Road is the purest expression of how Shaan Puri operates at speed.
+Then came a well-paid job abroad. "When I was 23, I was living in Australia, making a very cushy $120k/year." He quit and moved to San Francisco knowing nobody. "I'm interviewing for literally two jobs. One was a job at Stripe, which I got rejected for." The other was Monkey Inferno, Michael Birch's idea lab. He joined as a PM, "the youngest guy in the company." Within six months he was CEO of "a 20 person kind of company."
 
-In early 2022, he co-founded a daily crypto newsletter with Ben Levy. Within three weeks: 16,000 subscribers. Within ten months: 250,000. His growth hack was audacious: deposit $1 million into a public crypto wallet so readers could watch the investment in real time. When crypto crashed and the wallet lost 70% of its value, signups multiplied. People couldn't look away.
+What followed was the stretch he calls pushing "a boulder up a mountain." Blab, a live group video app, reached 3.9 million users in under a year, but only about 10% came back. "Most live streams suck," his post-mortem said, and the team turned the tech into streaming tools for gamers under the Bebo name. Twitch bought Bebo in 2019. TechCrunch reported a price of up to $25 million. Shaan later said on MFM that "the price was not $25 million. It was less than that," and that "every time it benefited me, I felt guilty."
 
-In January 2023, less than a year after launch, he sold the Milk Road to Bitfo for a reported eight-figure sum. "The Milk Road was a one-year project," he said on Mixergy. Build, extract, exit. The lion ate and went back to rest.
+Those years carry the strongest case against this page. "I just wanted to be successful really badly," he said in 2023. One year he slept in the office (it had an apartment built in) about 275 nights. His own grade for the decade: "For 10 years, I tried to make being a founder my thing. I was a B+ at it. But in the real world, B+ doesn't get you jack sh*t."
 
-Then there's the business he doesn't talk about.
+That sounds like a Three, the type that runs on achievement and image. When Andrew Warner suggested in 2024 that Shaan was still driven by feeling like a failure, Shaan shut it down. "No, no, that whole narrative. I don't know where you got that... You didn't even know me." Then he described what he did after the Bebo sale:
 
-Bums & Roses is a premium bamboo baby clothing brand that his wife, Sonia, started after they had their first daughter. Late-night Photoshop sessions while the baby slept, a breakout print design named after Guns N' Roses, a slow build through a 70,000-member Facebook community doing weekly limited-edition drops. It does $25 million in annual revenue. Shaan is a co-founder on the LLC filings. The brand's website doesn't mention him once.
+> "I got these chips now, these tokens, and I'm at Chuck E. Cheese. Which machines do I want to go put the chips into? That, that one looks fun. That one looks fun. And I don't have to play for tickets."
 
-He has never named it on My First Million. When asked about it on Mixergy, he said only, "I also created an e-commerce brand. Spoiler, even when the business is good, physical products are a pain in the ass."
+Then he stopped forcing the thing he was B+ at.
 
-The silence is deliberate. He kept the brand separate to maintain clean data: if his 500,000 podcast listeners flooded the site, he'd never know whether the business worked on its own merits.
+## Uncle Shaan sets up the game
 
-But think about what that means. Shaan shares everything publicly. His net worth. His emotional breakdowns. His "B+" failures. His transactional love patterns. He let Tony Robbins coach him on-air. Yet the slow-growth, operational, deeply unsexy baby clothing company, the one that requires steady daily execution instead of lion-like sprints, is the thing he protects. Sevens guard what actually works by keeping it away from their own restlessness.
+The podcast started as a side quest. During the Twitch deal, "I had the itch to start something... I can't start a company but I can start a podcast." On May 13, 2019, he messaged Sam: "I want the hustle to be the publisher I'll do all the work." He figured "nobody will listen to this except for my mom." After about 30 guest episodes, the show turned into the two of them talking.
 
-His investing runs on the opposite instinct: total transparency. His All Access Rolling Fund raised $2.5 million in 21 days. Every single investor was a Twitter follower or podcast listener he'd never met in person. Parasocial trust converted into actual capital. His philosophy: "I don't believe in an investing thesis. The best thing you can do is say I'm open, and I'm here to listen."
+His own explanation of why it worked is about play. "I love talking to my friend, Sam. We nerd out about business stuff. We make dumb jokes. We did this for fun, with no microphone." And: "Hard work? This feels like play. I can't believe my luck. I get paid to do this?!"
 
-No thesis. No constraints. Curiosity and optionality, forever.
+His thing turned out to be explaining. "I always wondered why other people are so bad at explanations." Many fans found him through a viral thread, like the 2021 Clubhouse one that opened "everyone seems to think clubhouse is the 'next big thing' - but I think it's going to fail."
 
-## Why My First Million Is the Partnership That Should Be Impossible
+Watch enough episodes and you notice Shaan treats the mood of the room as part of his job. He wrote that down himself at 28. One of his five priorities was "being someone who lights up a room, because it feels good to make others feel good." Another line from the same list: "Laughter is my vacation."
 
-The thing that should be impossible about Shaan Puri is My First Million.
+He works at it like a craft. He tried to give himself a nickname, "Shaan P! You know, like Gary V." It flopped. A friend started calling him Uncle Shaan, and that one stuck: "If I can be the internet's fun rich uncle, that'd be grand." He has described his default comedy as "cocky funny," and he took a note from Hasan Minhaj that low-status comedy lands better.
 
-A guy who can't sit still, who has never run the same company for more than a few years, who treats every venture as a season of television, has been recording a podcast with the same co-host since 2019. Over 200 million YouTube views. More than 25 million downloads a year. Seven years and counting.
+The best example is his own embarrassment. Shaan bet [MrBeast](/personality-analysis/mr-beast) $10,000 that he could hit a half-court shot first at Duke's Cameron Indoor Stadium, and won. He joked for months that he hadn't been paid. MrBeast had paid him in Bitcoin, to a fresh wallet Shaan had set up and never checked. Shaan turned it into an on-air apology and a bit.
 
-The origin was accidental. After the Twitch acquisition, Shaan launched the show but needed distribution. [Sam Parr](/personality-analysis/sam-parr), then running The Hustle with over a million subscribers, agreed to a deal: Shaan handles content and production, Sam brings the audience, revenue split 50/50. Early episodes featured guests. Then a guest didn't show up one day, so they just recorded the two of them talking. Those episodes blew up.
+Fans split on the result. Some call him a "storytelling savant." Others say he takes too much airtime. He has an answer for that too, in a description of his own style: "I'm a monologue okay I got something interesting to say I know that's not how this is supposed to work but I'm a monologue... trust me you're gonna like it by the end."
 
-What makes the partnership work is the collision of their types. Sam is an [Enneagram 8](/enneagram-corner/enneagram-type-8): direct, confrontational, intensity-addicted. He cold-emailed the same person fifty times, told HubSpot to stop wasting his time, described being unhappy 80% of the time as "thrilling." Where Shaan generates ideas at machine-gun speed (wouldn't it be cool if, what if someone built, imagine this), Sam pressure-tests them with blunt force. What would that actually cost? Who's the customer? Is that legal?
+That last clause is the Seven's promise. The good time is coming. Stay with me.
 
-Sevens and Eights are both assertive types on the Enneagram. They share forward energy; neither sits back and waits. But the engine differs. Shaan moves toward possibility. Sam moves toward control. Shaan reframes. Sam confronts. Shaan asks "What if?" and Sam asks "So what?"
+## Shaan is the reframe, Sam is the reaction
 
-Shaan has described Sam as someone openly and generously enthusiastic about other people ("this guy's amazing, this guy's an artist"), which runs against the perception of Eights as guarded. The warmth is real. The respect runs both ways.
+Shaan has mapped the pair himself. "I'm a monologue... your thing is like you'll just ask a blunt question you'll just be like well dude you keep saying this like what is it how much what's in your pocket right now." Sam reacts. Shaan sets up the bit, the story or the framework, and turns it into something you'll remember.
 
-What the partnership reveals about Shaan matters more than what it produces. His longest commitment is a relationship with someone whose temperament is the exact opposite of his own. The Seven who can't stop moving found a reason to stay in the same room, every week, for seven years.
+He also credits Sam for the part he's weakest at. "Because I do this with you and you are a more structured disciplined guy you're like let's set recording dates and let's never miss them." Left alone, Shaan says, he'd have pitched "like 10 episodes in the next two days," then skipped the weeks he was busy. More than 850 episodes later, the show still records "like clockwork."
 
-## The Relationship Shaan Puri Still Can't Solve
+The 2024 fight shows the dynamic under pressure. They never said what it was about. Shaan opened "Is This The End Of The Pod?" by asking, "Can I start with an apology?" He'd been "a little pissy." He said he agreed with his own words and disagreed "with all of my delivery."
 
-At 35, Shaan wrote an essay called "Don't Be an Asshole, Call Your Mom."
+Then he described his temper. "I am like a firecracker... I'm extremely tolerant and unbothered until the moment I'm bothered and then I'm a big whiny baby." He's so rarely upset, he said, that "when I am bothered, I'm so poor at handling it."
 
-He admitted he wasn't sure of his parents' exact ages. "My parents are getting old. I'm 35, and they're 65. Or maybe 63?"
+Sam's read was sharp. He told Shaan "you are quite logical," that "most people, myself included, are more emotional than logical," and that Shaan was "a little more comfortable with confrontation." Later he added: "because you're pretty emotionally healthy, that is actually a weakness."
 
-He described his relationship with his mother as "like talking to a friend who just happened to wipe your butt when you were a kid." He recorded a two-hour private podcast with her about her life story. Bought her a calcium CT scan for heart health screening and a two-month personal training package. He wrote that parents "are the only people on earth who care about you more than you even care about yourself."
+Run the Sam test on that hour and it holds all the way through. Sam takes a fight hard: it "ruins my week." Shaan stays unbothered most of the year, goes off once, then comes back with research. Neither would trade.
 
-Then, in one paragraph, the tone shifts:
+Which one are you, by the way? The one who asks what it makes, or the one who explains why it works?
 
-"For me, I have a much more rocky relationship with my dad. I haven't cracked this nut, but I know the right thing to do is to build a bridge with the 'other parent' too."
+## Quick to quit experiments, slow to quit people
 
-One paragraph. No framework, no system, no reframe. The man who has built frameworks for suffering, love, work, identity, and daily energy has one relationship he can't engineer his way through. He has never dedicated a podcast episode, a tweet thread, or an essay to his father specifically.
+Shaan doesn't hide the quitting. On books: "There is no honor in finishing a bad book. I am a strategic quitter." On his career habits, in 2023: "I am much more of a go for the Home Run try to do something incredible and then if it doesn't work... just don't really follow through and this is like a leak in my game in a way but I kind of took some pride in this." In 2017 he wrote a post about being a dabbler. "This used to be me."
 
-**His father built the engine Shaan now uses to escape him.**
+His count of the early years: "12 different failed companies in the 10 years." In the seven years since, he said in 2025, "I think I've gone like five for five."
 
-The career that moved the family across nine countries didn't just give Shaan an unusual childhood. It taught him the move. When a situation goes stale, the next place is already waiting. By the time Shaan was old enough to choose for himself, restlessness wasn't a tool he picked up. It was the only tempo he knew. Every chapter, every venture, every reframe is a variation on a song his father started playing when he was a kid.
+The [Milk Road](https://theygotacquired.com/content/milk-road-acquired-by-bitfo/) is the speed run. He and Ben Levy launched the daily crypto newsletter in early 2022, grew it to about 250,000 subscribers, and sold it to Bitfo in December 2022. He gives little credit to the famous stunt, a $1 million public crypto wallet: "this did not drive that much growth." He calls it "a one year project," the best return on time he'd had, after "grinding away for seven, eight years."
 
-That's why this relationship can't be engineered through. Every framework Shaan has would have to be applied to the source of the frameworks themselves. The fish can't reframe water.
+The sale ended the newsletter. It didn't end the partnership. Shaan wrote a whole essay about Ben, built around the word "down." The day Shaan pitched him "a random side project idea," Ben skipped sleeping on it and went to buy the domain. "We've worked together for nearly 5 years, and I can't wait to do another 20." And, in a very Shaan aside: "Everyone who meets Ben loves him (usually more than they love me, which is annoying, but proof that he's great)."
 
-His family has told him he comes across as "rude to people." The directness that serves him in business cuts differently at home.
+His definition of winning, from the fight episode: "find somebody amazing, just do projects with them for 20 years." The experiments rotate. The people stay. The All Access Fund fits it too. He raised it in 2020 only from people who followed him online. "99 investors, I have never met any of them in real life."
 
-This is where the Seven pattern gets uncomfortable. Shaan's ideal day, as he's described it: "Ride bike to drop off kids at school. Watch the bachelor with my wife at night." His morning routine includes three minutes of gratitude where he visualizes his kids and wife laughing. The domestic life is genuinely present, but always framed as bookends around the work.
+## Half ass, baby: the season he stayed
 
-When asked about parenting, he said, "The best thing to do with kids is to be a kid. How do I play with you, which is what they all want?" His current priority is spending time with his three children "while they still value his friendship," which is a very Seven way to frame fatherhood. Enjoy the season before it ends.
+Shaan's interest in inner work goes back years. He has been to Tony Robbins' Unleash the Power Within event a couple of times and has sent 44 people, including "my mom, my dad." When [Tony Robbins](/personality-analysis/tony-robbins) came on MFM, Shaan admitted he'd taken Tony's 90-second rule for suffering: "I stole this like it's Ocean's 11." He now works with an executive coach who is "mostly like therapy." After the Sam fight he conceded, "the body does keep the score," and called himself "more of a believer in that woo-woo shit."
 
-The same man who treats ventures as chapters treats parenting as a chapter too, one he's aware has an expiration date. His four "Kings," the identities he's actively building toward, are Generous, A Teacher, Habitually Fit, and Mastering Meaning. Notice what's missing. "Great dad" and "great husband" aren't on the list, even though he's separately named both as priorities. The frameworks that organize everything else can't quite contain this part.
+The clearest change is a basketball season. Shaan had long called coaching a high school team a bucket-list item. In late 2025 his own basketball trainer became head coach at a small high school, and Shaan offered to help. He knew how that usually goes:
 
-There's a poster above his desk: "Who am I becoming?" He's chosen those four Kings. "These are the four things that I care about right now in my life," he's said. "I don't know how long this chapter lasts, maybe it's six months, maybe it's six years."
+> "I just thought this would be something I would do just the way I do everything. Half ass, baby. I thought that I would make a make a a fun commitment in the moment and then sort of back away over time... But this year, I'm trying to be a different guy."
 
-Even the poster is a Seven's question. Not "who am I," which would require sitting still long enough to find out. "Who am I becoming." In transit. Always the next version.
+He also started practicing piano scales four times a week. "I'm doing the boring things and I'm sticking with it."
 
-## What Shaan Puri Wants in His Next Era
+He became an unpaid assistant coach, putting in about 15 hours a week and commuting 30 or 40 minutes each way. "Which I would you know me, I would never commute." The team got smashed by 30 in its first preseason game and won its first real game by 30. The players gave the head coach a Gatorade shower for his first win. Shaan broke down game film and helped a kid with math homework to get him back on the team. "When I tell you that this is the most fun thing I've ever done in my life, I am not lying."
 
-In early 2025, Shaan Puri started coaching basketball at a local high school. Unpaid. Four days a week. Thirty-minute drive each way. Fifteen hours a week. He breaks down game film, helps players stay eligible, and applies the same framework he used as a CEO: identify three priorities and reinforce them until the 42nd repetition. "Reminders matter a hell of a lot more than some new strategy," he's said.
+He found a lesson there, too. Telling the kids something once didn't work: "the job is to drill this 50 times." His takeaway sounds like a man arguing with his own wiring: "reminders matter a hell of a lot more than some new strategy."
 
-This isn't his first time. During his "strategically broke" year in his mid-twenties (total income $700 a month), he was the head basketball coach at a school for autistic children. $35 an hour, two hours a week. The impulse was there before the money.
+In 2026 he said he had "recently sold a company," and that afterward he felt like "the dog who was chasing the car, and then I caught the car." The man who once worried about finishing things keeps catching cars. Lately he's asking what the chase was for.
 
-His current team lost its preseason game by 30 points. They won their first official game by 30, complete with a Gatorade shower.
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">Enneagram Rabbit Hole: 7w6, instincts, stress and growth, and why not 3, 5 or 9</summary>
+<div class="panel">
 
-"When I tell you that this is the most fun thing I've ever done in my life," he said, "I am not lying."
+**Wing: 7w6, tentatively.** The 6 wing shows in his loyalty: Ben for more than six years, Sam for seven, "20 years" as his definition of winning, and how quickly he credits Sam's discipline. The case for a 7w8 is the swagger: the half-court bet, "cocky funny," the $100,000 heads-up poker challenge he threw at the All-In hosts, which led to a round of joking insults with [Jason Calacanis](/personality-analysis/jason-calacanis). He describes that register as a comedy habit he's working to change. See the [wings guide](/enneagram-corner/enneagram-wings-complete-guide).
 
-He sees sports as "a life simulation": individual effort inside a team, habits tested under pressure, consequences you can't reframe away. When asked why coaching hits harder than philanthropy: "Donating to solve world hunger sounds big but feels small. Coaching 12 local high school kids sounds small, but feels very big."
+**Instinct: unclear.** He calls himself an introvert who gets "drained at social events" and energy "from reading books." That's unusual for a Seven and worth naming. Sevens chase stimulation, and for Shaan the stimulation is often ideas. More on instincts in the [subtypes guide](/enneagram-corner/enneagram-instinctual-subtypes).
 
-He's calling this "The Next Era," ages 37 to 40. The podcast still runs. The fund still invests. The baby brand keeps growing. But the center of gravity has moved. He's writing One Hour Books ("bite-sized books with all the info you need, without the fluff"), and when asked what money is actually for: "The value of money is what you can say no to."
+**Stress and growth.** Under stress, Sevens can move toward Type 1: keeping score, correcting, turning hurt into a procedure. In the 2024 fight Shaan said "the cardinal mistake was I was measuring what I was giving," and then he wrote a numbered list of lessons. In growth, Sevens move toward Type 5, toward depth and staying with one thing. That's the piano scales, the 50 reps, and a 2026 plan to delete his social apps and read 26 books. Treat both as a tentative map.
 
-In 2016, at 28, Shaan wrote an essay about what he wanted out of life. Years later, he found it again and tweeted: "I'm surprised I 'had the answer' back then. Nothing I wanted has really changed."
+**Why not Type 3?** This is the strongest rival, and he has handed us the evidence. In the twenties he wanted "to be successful really badly." In October 2026, in a solo episode about embarrassing moments, he went further: "I think in every social situation, I am fundamentally, at some level, just actively trying to avoid embarrassment. I'm more than trying to avoid pain and death." He described wanting a room of famous founders "to know how awesome I am."
 
-Nine countries. A dozen ventures. Three exits. Five hundred thousand followers. A complete rewiring of his emotional operating system. A high school basketball team that gives him Gatorade showers.
+That's heart-triad material, and it's why this call is close. Two things tip it to 7 for us. First, a Three protects the win. Shaan walked away from medicine and from a profitable business because both felt like traps, and he tells his failures on air for the laugh. Second, look at what he did with the embarrassment in that same episode. He opened by saying "sometimes the wound becomes the door," and turned three stings into lessons. In the 2024 essay about the "decade of suck," he wrote that the people who make it through "don't play to win, they play to play."
 
-And nothing he wanted has really changed.
+**Why not Type 5?** The introversion and the research reflex are real. A Five conserves energy and pulls back. Shaan monologues, bets and broadcasts. The Five shows up as his growth direction.
 
-Is the reinvention taking him somewhere, or has the reinvention itself become the destination? Does it matter, if the guy coaching teenagers for free in 2025, at 37, is the same person who kept a stranger's line about the ordinary life not being for him?
+**Why not Type 9?** "Extremely tolerant and unbothered" sounds like a Nine. But a Nine avoids conflict to keep the peace, and Shaan picks fights for sport. A Nine doesn't put up his dukes at the word "later."
 
-He's been carrying that line for sixteen years now. No framework. No system. No timer. Just a sentence from a stranger, held quietly while everything else kept changing.
+</div>
+</details>
+
+At 28, Shaan wrote a list of what he wanted out of life. "I want to be the most optimistic person you know." And: "I want to win, but not just win. I want to win on my own terms. Doing things differently, to prove that you don't need to 'follow the book'."
+
+He'd still call this a horoscope. Fair enough. Run the Sam test on any section above, see how many survive, and tell us where we got him wrong.
 
 > **Disclaimer:** This analysis of Shaan Puri's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Shaan Puri.

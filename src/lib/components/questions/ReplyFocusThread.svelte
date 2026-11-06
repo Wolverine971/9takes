@@ -112,7 +112,7 @@
 	.reply-focus {
 		margin: 0 1rem 1.5rem;
 		padding: 1rem 0 0;
-		border-top: 2px solid var(--lamp-glow);
+		border-top: 2px solid var(--highlight);
 	}
 
 	.reply-focus__head {
@@ -121,30 +121,30 @@
 
 	.reply-focus__eyebrow {
 		margin: 0;
-		color: var(--lamp-glow);
-		font-family: 'JetBrains Mono', ui-monospace, monospace;
-		font-size: 0.64rem;
+		color: var(--highlight);
+		font-family: var(--font-mono);
+		font-size: var(--font-size-xs);
 		letter-spacing: 0.07em;
 		text-transform: uppercase;
 	}
 
 	.reply-focus__title {
 		margin: 0.3rem 0 0;
-		color: var(--ink-bright);
-		font-size: 1.15rem;
+		color: var(--text);
+		font-size: var(--font-size-lg);
 		font-weight: 700;
 		letter-spacing: -0.015em;
 	}
 
 	.reply-focus__title:focus-visible {
-		outline: 2px solid var(--lamp-glow);
+		outline: 2px solid var(--highlight);
 		outline-offset: 4px;
 	}
 
 	.reply-focus__copy {
 		margin: 0.3rem 0 0;
-		color: var(--ink-mid);
-		font-size: 0.8rem;
+		color: var(--text-muted);
+		font-size: var(--font-size-sm);
 		line-height: 1.5;
 	}
 
@@ -152,16 +152,16 @@
 		min-width: 0;
 	}
 
-	/* Same treatment as ReplyNotificationReturn's .reply-return__reply: amber
-	   hairline + lamp-soft wash that settles once the reply has been seen. */
+	/* Same treatment as ReplyNotificationReturn's .reply-return__reply: lavender
+	   hairline + indigo wash that settles once the reply has been seen. */
 	.reply-focus :global(.reply-focus-target) {
-		border-left: 3px solid var(--lamp-glow);
-		background: color-mix(in srgb, var(--lamp-soft) 38%, transparent);
+		border-left: 3px solid var(--highlight);
+		background: color-mix(in srgb, var(--accent) 7%, transparent);
 		transition: background-color 0.8s ease;
 	}
 
 	.reply-focus :global(.reply-focus-target--settled) {
-		background: color-mix(in srgb, var(--lamp-soft) 20%, transparent);
+		background: color-mix(in srgb, var(--accent) 4%, transparent);
 	}
 
 	@media (prefers-reduced-motion: reduce) {

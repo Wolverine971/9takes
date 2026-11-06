@@ -8,9 +8,11 @@
 			question_formatted?: string;
 		};
 		addQuestionMark?: boolean;
+		/** `card` (print-outs) or `poster` (the question page's headline). */
+		variant?: 'card' | 'poster';
 	}
 
-	let { question, addQuestionMark = false }: Props = $props();
+	let { question, addQuestionMark = false, variant = 'card' }: Props = $props();
 
 	// Tier by text length (known at SSR time); viewport scaling is pure CSS via
 	// clamp(), so the server renders the correct size at every width. Replaces
@@ -42,17 +44,63 @@
 	// const referenced before its declaration throws (took down every question
 	// detail page; caught in the 2026-06-11 mobile audit).
 	let fontSize = $derived(question.question ? calculateFontSize(question.question) : '2rem');
+
+	// Poster sizes step down with length so a long question still leaves the
+	// composer on a phone's first screen.
+	let posterTier = $derived.by(() => {
+		const length = (question.question_formatted || question.question || '').length;
+		return length < 70 ? 'short' : length < 140 ? 'medium' : length < 200 ? 'long' : 'xlong';
+	});
 </script>
 
-<div
-	class="question-display-card relative overflow-hidden rounded-xl border border-[var(--stone-edge)] bg-[var(--stone-warm)] px-4 py-6 sm:p-6"
->
-	<h1
-		class="relative m-0 w-full text-center font-bold leading-snug text-[var(--ink-bright)]"
-		style="font-size: {fontSize};"
-		itemprop="name"
-	>
-		{question.question_formatted || question.question}
-		{#if !question.question_formatted && addQuestionMark}?{/if}
+{#if variant === 'poster'}
+	<h1 class={['question-poster', `question-poster--${posterTier}`]} itemprop="name">
+		{question.question_formatted ||
+			question.question}{#if !question.question_formatted && addQuestionMark}?{/if}
 	</h1>
-</div>
+{:else}
+	<div
+		class="question-display-card relative overflow-hidden rounded-xl border border-[var(--rule)] bg-[var(--surface)] px-4 py-6 sm:p-6"
+	>
+		<h1
+			class="relative m-0 w-full text-center font-bold leading-snug text-[var(--text)]"
+			style="font-size: {fontSize};"
+			itemprop="name"
+		>
+			{question.question_formatted || question.question}
+			{#if !question.question_formatted && addQuestionMark}?{/if}
+		</h1>
+	</div>
+{/if}
+
+<style>
+	.question-poster {
+		--poster-size: clamp(2.125rem, 1.4rem + 2.9vw, 3.75rem);
+		margin: 0;
+		max-width: 22ch;
+		font-family: var(--font-voice);
+		font-style: italic;
+		font-weight: 500;
+		font-size: var(--poster-size);
+		line-height: 1.06;
+		letter-spacing: -0.01em;
+		color: var(--text);
+		text-wrap: balance;
+		overflow-wrap: anywhere;
+	}
+	.question-poster--medium {
+		--poster-size: clamp(1.75rem, 1.25rem + 2vw, 2.875rem);
+		max-width: 28ch;
+		line-height: 1.1;
+	}
+	.question-poster--long {
+		--poster-size: clamp(1.375rem, 1.1rem + 1.2vw, 2.125rem);
+		max-width: 36ch;
+		line-height: 1.18;
+	}
+	.question-poster--xlong {
+		--poster-size: clamp(1.25rem, 1.05rem + 0.8vw, 1.75rem);
+		max-width: 44ch;
+		line-height: 1.22;
+	}
+</style>

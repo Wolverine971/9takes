@@ -310,6 +310,7 @@
 				<Comment
 					questionId={data.question.id}
 					comment={take}
+					own
 					{user}
 					parentData={data}
 					oncommentUpdated={updateTake}
@@ -386,17 +387,20 @@
 	.own-takes {
 		display: flex;
 		flex-direction: column;
-		gap: 0.75rem;
 		min-width: 0;
 		margin-inline: 1rem;
 	}
 	.own-takes {
+		gap: 10px;
 		margin-bottom: 1.25rem;
 	}
 	.own-takes h4 {
 		margin: 0;
-		font-size: 0.8rem;
-		color: var(--ink-mid);
+		color: var(--highlight);
+		font-size: var(--font-size-xs);
+		font-weight: 600;
+		letter-spacing: 0.12em;
+		text-transform: uppercase;
 	}
 	.ranked-comments__item {
 		min-width: 0;
@@ -412,20 +416,20 @@
 	}
 	.ranked-comments__interstitial {
 		min-width: 0;
+		padding: 20px 0;
+		border-bottom: 1px solid var(--rule);
 	}
 	.ranked-comments__interstitial:empty {
 		display: none;
 	}
 
-	/* Same geometry as a comment card, so the takes land where the
-	   placeholders already were. */
+	/* Same geometry as a take (chip column + words + rule), so the takes land
+	   where the placeholders already were. */
 	.take-skeleton {
 		display: grid;
 		gap: 0.7rem;
-		padding: 1.25rem 1rem 1rem;
-		border: 1px solid color-mix(in srgb, var(--stone-edge) 52%, transparent);
-		border-radius: 1rem;
-		background: color-mix(in srgb, var(--stone-warm) 72%, transparent);
+		padding: 20px 0 16px 46px;
+		border-bottom: 1px solid var(--rule);
 	}
 	.take-skeleton :global(.take-skeleton__meta) {
 		margin-top: 0.45rem;
@@ -435,10 +439,10 @@
 		justify-items: center;
 		gap: 0.75rem;
 		padding: 1.5rem 1rem;
-		border: 1px dashed var(--stone-edge);
-		border-radius: 1rem;
-		color: var(--ink-mid);
-		font-size: 0.9rem;
+		border: 1px dashed color-mix(in srgb, var(--highlight) 30%, transparent);
+		border-radius: 12px;
+		color: var(--text-muted);
+		font-size: var(--font-size-sm);
 		text-align: center;
 	}
 	.reveal-failed p {
@@ -467,26 +471,34 @@
 		}
 	}
 	.content-toolbar {
-		margin: 0 1rem 1rem;
+		margin: 0 1rem 0.25rem;
 	}
 	.empty-takes,
 	.load-more {
 		padding: 1.25rem 0;
+		color: var(--text-muted);
+		font-size: var(--font-size-sm);
 		text-align: center;
-		color: var(--ink-mid);
-		font-size: 0.875rem;
+	}
+	.load-more p {
+		margin: 0 0 10px;
 	}
 	.load-more button {
-		min-height: 2.75rem;
-		padding: 0.5rem 1rem;
-		border: 1px solid var(--stone-edge);
-		border-radius: 0.625rem;
-		background: var(--stone-warm);
-		color: var(--ink-bright);
+		min-height: 44px;
+		padding: 0 20px;
+		border: 1px solid color-mix(in srgb, var(--highlight) 35%, transparent);
+		border-radius: 999px;
+		background: transparent;
+		color: var(--highlight);
+		font-size: var(--font-size-sm);
+		font-weight: 600;
 		cursor: pointer;
 	}
+	.load-more button:hover:not(:disabled) {
+		background: color-mix(in srgb, var(--highlight) 8%, transparent);
+	}
 	.load-more button:focus-visible {
-		outline: 2px solid var(--lamp-glow);
+		outline: 2px solid var(--focus);
 		outline-offset: 2px;
 	}
 	.load-more button:disabled {
@@ -501,7 +513,7 @@
 			margin-inline: 0.75rem;
 		}
 		.take-skeleton {
-			padding: 1rem 0.875rem 0.875rem;
+			padding-left: 40px;
 		}
 	}
 </style>

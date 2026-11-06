@@ -1,7 +1,6 @@
 <!-- src/lib/components/molecules/Link.svelte -->
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import Card from '$lib/components/atoms/card.svelte';
 
 	interface LinkData {
 		id: string;
@@ -37,25 +36,22 @@
 	});
 </script>
 
-<Card>
+<!-- An article row: thumbnail (when the page has one), title, description. Flat, like the takes. -->
+<div class="link-row">
 	{#if loading}
-		<div class="loader"></div>
+		<div class="loader" aria-hidden="true"></div>
 	{:else}
 		<a href={link.url} class="link-item" onclick={() => saveLinkClick(link.id)}>
 			{#if hasMetaData}
 				{#if link.meta_image}
-					<img
-						src={link.meta_image}
-						alt={link.meta_title || 'Link preview image'}
-						class="meta-image"
-					/>
+					<img src={link.meta_image} alt="" class="meta-image" loading="lazy" />
 				{/if}
-				<div class="content meta-content">
+				<div class="content">
 					<h3>{link.meta_title || 'No Title'}</h3>
 					<p>{link.meta_description || 'No Description'}</p>
 				</div>
 			{:else}
-				<div class="content fallback-content">
+				<div class="content">
 					<h3>{truncateUrl(link.url)}</h3>
 					{#if link.summary}
 						<p>{link.summary}</p>
@@ -64,72 +60,69 @@
 			{/if}
 		</a>
 	{/if}
-</Card>
+</div>
 
-<style lang="scss">
+<style>
+	.link-row {
+		border-bottom: 1px solid var(--rule);
+	}
+
 	.link-item {
 		display: flex;
-		flex-direction: column;
-		justify-content: flex-end;
-		position: relative;
-		height: 300px;
-		padding: 1rem;
-		border-radius: 10px;
-		overflow: hidden;
-		cursor: pointer;
-		transition: all 0.4s ease-in-out;
-		text-decoration: none;
+		align-items: flex-start;
+		gap: 16px;
+		padding: 16px 0;
 		color: inherit;
+		text-decoration: none;
+	}
 
-		&:hover {
-			opacity: 0.9;
-		}
+	.link-item:hover h3 {
+		color: var(--highlight);
+	}
 
-		.meta-image {
-			position: absolute;
-			inset: 0;
-			width: 100%;
-			height: 100%;
-			object-fit: cover;
-		}
+	.link-item:focus-visible {
+		outline: 2px solid var(--focus);
+		outline-offset: 2px;
+	}
 
-		.content {
-			z-index: 1;
-			background-color: rgba(0, 0, 0, 0.7);
-			padding: 1rem;
-			border-radius: 0.625rem;
-			color: var(--lamp-glow);
-		}
+	.meta-image {
+		flex: 0 0 auto;
+		width: 96px;
+		aspect-ratio: 4 / 3;
+		border-radius: 8px;
+		object-fit: cover;
+	}
 
-		.meta-content {
-			text-align: right;
-		}
+	.content {
+		min-width: 0;
+	}
 
-		.fallback-content {
-			text-align: left;
-		}
+	h3 {
+		margin: 0 0 4px;
+		color: var(--text);
+		font-size: var(--font-size-base);
+		font-weight: 600;
+		text-decoration: underline;
+		text-decoration-color: color-mix(in srgb, var(--highlight) 40%, transparent);
+		text-underline-offset: 3px;
+		overflow-wrap: anywhere;
+		transition: color 0.2s;
+	}
 
-		h3,
-		p {
-			margin: 0.5rem 0;
-		}
-
-		h3 {
-			font-size: 1.2rem;
-			font-weight: bold;
-		}
-
-		p {
-			font-size: 0.9rem;
-			white-space: pre-line;
-		}
+	p {
+		margin: 0;
+		color: var(--text-muted);
+		font-size: var(--font-size-sm);
+		line-height: 1.5;
+		white-space: pre-line;
 	}
 
 	.loader {
 		width: 24px;
 		height: 24px;
-		border: 2px solid var(--stone-warm);
-		border-left-color: var(--lamp-glow);
+		margin: 16px 0;
+		border: 2px solid var(--rule);
+		border-left-color: var(--highlight);
 		border-radius: 50%;
 		animation: spin 1s linear infinite;
 	}

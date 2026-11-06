@@ -1,7 +1,8 @@
 // src/routes/questions/questions.page.server.spec.ts
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 
-const { checkDemoTimeMock, replaceQuestionTagsMock } = vi.hoisted(() => ({
+const { checkDemoTimeMock, replaceQuestionTagsMock, getLiveTakeTypesMock } = vi.hoisted(() => ({
+	getLiveTakeTypesMock: vi.fn(async () => null),
 	checkDemoTimeMock: vi.fn(),
 	replaceQuestionTagsMock: vi.fn()
 }));
@@ -29,6 +30,10 @@ vi.mock('../../utils/api', () => ({
 
 vi.mock('../../utils/demo', () => ({
 	mapDemoValues: (value: unknown) => value
+}));
+
+vi.mock('$lib/server/homepageLiveTypes', () => ({
+	getLiveTakeTypes: getLiveTakeTypesMock
 }));
 
 vi.mock('../../utils/server/openai', () => ({

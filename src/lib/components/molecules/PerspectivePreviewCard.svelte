@@ -1,6 +1,6 @@
 <!-- src/lib/components/molecules/PerspectivePreviewCard.svelte -->
 <script lang="ts">
-	import { ENNEAGRAM_TYPE_COLORS, TYPE_COLOR_MAP } from '$lib/constants/enneagramColors';
+	import { ENNEAGRAM_TYPE_COLORS } from '$lib/constants/enneagramColors';
 
 	interface Props {
 		typeNumber: number;
@@ -11,96 +11,85 @@
 
 	let { typeNumber, text, source, delay = 0 }: Props = $props();
 
-	let typeColor = $derived(TYPE_COLOR_MAP[typeNumber] ?? 'var(--lamp-glow)');
 	let archetype = $derived(ENNEAGRAM_TYPE_COLORS[typeNumber]?.name ?? 'Enneagram perspective');
 	let sourceLabel = $derived(source === 'human' ? 'Community answer' : 'AI perspective');
 </script>
 
-<article
-	class="take-preview-card"
-	style:--comment-type-color={typeColor}
-	style:--take-delay={`${delay}ms`}
->
-	<header class="take-preview-card__head">
-		<div class="take-preview-card__identity">
+<!-- Same grammar as a take in the thread: type chip, words, quiet labels, a rule. -->
+<article class="take-preview-card" style:--take-delay={`${delay}ms`}>
+	<span class="take-preview-card__chip" aria-hidden="true">{typeNumber}</span>
+	<div class="take-preview-card__body">
+		<header class="take-preview-card__head">
 			<span class="take-preview-card__badge">Type {typeNumber}</span>
 			<span class="take-preview-card__archetype">{archetype}</span>
-		</div>
-		<span class="take-preview-card__source">{sourceLabel}</span>
-	</header>
-	<p>{text}</p>
+			<span class="take-preview-card__source">{sourceLabel}</span>
+		</header>
+		<p>{text}</p>
+	</div>
 </article>
 
 <style>
 	.take-preview-card {
-		position: relative;
+		display: grid;
+		grid-template-columns: 32px minmax(0, 1fr);
+		align-items: start;
+		gap: 14px;
 		min-width: 0;
-		padding: 0.95rem 1rem 1rem;
-		border: 1px solid var(--stone-edge);
-		border-left: 3px solid var(--comment-type-color, var(--stone-edge));
-		border-radius: 1rem;
-		background: var(--stone-warm);
+		padding: 18px 0;
+		margin: 0;
+		border-bottom: 1px solid var(--rule);
+		border-radius: 0;
+	}
+
+	.take-preview-card__chip {
+		display: grid;
+		place-items: center;
+		width: 32px;
+		height: 32px;
+		border-radius: 50%;
+		background: var(--accent-deep);
+		color: var(--highlight);
+		font-family: var(--font-voice);
+		font-style: italic;
+		font-size: var(--font-size-base);
+		line-height: 1;
+	}
+
+	.take-preview-card__body {
+		min-width: 0;
 	}
 
 	.take-preview-card__head {
 		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		gap: 0.75rem;
-		margin-bottom: 0.7rem;
-	}
-
-	.take-preview-card__identity {
-		display: flex;
-		align-items: center;
-		gap: 0.6rem;
-		min-width: 0;
+		flex-wrap: wrap;
+		align-items: baseline;
+		gap: 4px 10px;
+		margin-bottom: 6px;
 	}
 
 	.take-preview-card__badge {
-		display: inline-flex;
-		height: 1.75rem;
-		flex: 0 0 auto;
-		align-items: center;
-		justify-content: center;
-		padding: 0 0.625rem;
-		border: 1px solid color-mix(in srgb, var(--comment-type-color) 38%, transparent);
-		border-radius: 0.625rem;
-		background: color-mix(in srgb, var(--comment-type-color) 16%, transparent);
-		color: color-mix(in srgb, var(--comment-type-color) 65%, white);
-		font-size: 0.75rem;
-		font-weight: 650;
-	}
-
-	:global(:root.light) .take-preview-card__badge {
-		color: color-mix(in srgb, var(--comment-type-color) 66%, black);
+		color: var(--text-muted);
+		font-size: var(--font-size-sm);
+		font-weight: 600;
 	}
 
 	.take-preview-card__archetype,
 	.take-preview-card__source {
-		min-width: 0;
-		color: var(--ink-dim);
-		font-family: 'JetBrains Mono', ui-monospace, monospace;
-		font-size: 0.62rem;
-		letter-spacing: 0.045em;
+		color: var(--text-faint);
+		font-family: var(--font-mono);
+		font-size: var(--font-size-xs);
+		letter-spacing: 0.06em;
 		text-transform: uppercase;
 	}
 
-	.take-preview-card__archetype {
-		overflow: hidden;
-		text-overflow: ellipsis;
-		white-space: nowrap;
-	}
-
 	.take-preview-card__source {
-		flex: 0 0 auto;
-		text-align: right;
+		margin-left: auto;
 	}
 
 	.take-preview-card p {
 		margin: 0;
-		color: var(--ink-bright);
-		font-size: 0.9rem;
+		color: var(--text);
+		font-size: var(--font-size-base);
 		line-height: 1.55;
 		overflow-wrap: anywhere;
 		white-space: pre-line;
@@ -126,23 +115,19 @@
 	}
 
 	@media (max-width: 35rem) {
-		.take-preview-card__head,
-		.take-preview-card__identity {
-			align-items: flex-start;
+		.take-preview-card {
+			grid-template-columns: 28px minmax(0, 1fr);
+			gap: 12px;
 		}
 
-		.take-preview-card__head {
-			flex-direction: column;
-			gap: 0.45rem;
-		}
-
-		.take-preview-card__identity {
-			width: 100%;
+		.take-preview-card__chip {
+			width: 28px;
+			height: 28px;
 		}
 
 		.take-preview-card__source {
-			padding-left: 0.1rem;
-			text-align: left;
+			flex-basis: 100%;
+			margin-left: 0;
 		}
 	}
 </style>

@@ -1,17 +1,10 @@
 <!-- src/routes/questions/[slug]/+page.svelte -->
 <!--
-  /questions/[slug] — Streetlamp Symposium V5.
-  Phase 5 page #4 of docs/design/2026-05-04-rollout-plan.md.
-
-  Restyle, don't rewrite: this page imports specialized components
-  (QuestionDisplay, Interact, QuestionContent) that handle the give-first
-  comment mechanic. We add V5 layout chrome — an "open case" header,
-  V5 §NN sections, restyled scoped CSS — but keep all business logic,
-  optimistic state, form actions, SEO/structured data, and the imported
-  components untouched.
-
-  Bridge tokens (--lamp-*, --night-*, --stone-*, --ink-*, --data-*) ship
-  globally in src/scss/index.scss.
+  /questions/[slug] — Cold Light rebuild (2026-11-05), "hidden until you answer".
+  The question is a poster headline; the composer is the one mint action; the
+  takes stay sealed (types and times only, SealedTakes) until the visitor posts,
+  then QuestionContent reveals the room. Business logic, optimistic state, form
+  actions and SEO/structured data are unchanged from the V5 page.
 -->
 <script lang="ts">
 	import { tick, untrack } from 'svelte';
@@ -48,6 +41,7 @@
 		toQuestionSocialCardRoute
 	} from '$lib/socialCards/questionSocialCard';
 	import { buildGatedContentFlags } from '$lib/components/questions/answerGist';
+	import { shortDate } from '$lib/components/questions/sealedTakes';
 
 	let { data }: { data: PageData } = $props();
 
@@ -338,6 +332,12 @@
 		}
 		return best;
 	});
+	// The breadcrumb already names the deepest category; only repeat the topic when it differs.
+	let showTopicLink = $derived(
+		Boolean(primaryQuestionTag) &&
+			normalizeText(primaryQuestionTag?.question_categories?.category_name) !==
+				normalizeText(deepestCategory?.category_name)
+	);
 	// Full breadcrumb chain (Home → Questions → … → Question) is kept for
 	// JSON-LD / structured data so SEO stays intact.
 	let categoryBreadcrumbItems = $derived.by(() => {
@@ -374,14 +374,24 @@
 	});
 	let title = $derived(buildSeoTitle(formattedQuestionText));
 
-	// V5 case-file derivations
-	let postedDate = $derived(formatPostedDate(data.question?.created_at));
 	let totalTakes = $derived(Math.max(data.comment_count || 0, mergedComments.length));
 
 	// Comments are gated until the user shares their own perspective (the
 	// "give-first" mechanic). Mirror the same flag QuestionContent uses so the
 	// meta badge tells the truth once comments are revealed.
 	let commentsUnlocked = $derived(data.flags?.userHasAnswered || optimisticUserHasAnswered);
+	let newestTakeDate = $derived(shortDate(data.sealedTakes?.newestAt ?? null));
+
+	// "Be the first" in the sealed takes: back up to the composer, ready to type.
+	function focusComposer() {
+		const field = document.getElementById(`comment-box-question-${data.question.id}`);
+		if (!(field instanceof HTMLTextAreaElement)) return;
+		const reduceMotion =
+			typeof window.matchMedia === 'function' &&
+			window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+		field.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'center' });
+		field.focus({ preventScroll: true });
+	}
 
 	// Host promise. DJ replies to every sincere take through the daily host
 	// digest; "You'll hear back" is only promised where a reply can actually
@@ -434,15 +444,6 @@
 			return `${questionText}${suffix}`;
 		}
 		return `${questionText.slice(0, HARD_TITLE_CEILING - suffix.length - 1).trimEnd()}…${suffix}`;
-	}
-
-	function formatPostedDate(value: string | null | undefined): string {
-		if (!value) return '';
-		const literal = String(value).match(/^(\d{4})-(\d{2})-(\d{2})/);
-		if (literal) return `${literal[1]}-${literal[2]}-${literal[3]}`;
-		const parsed = new Date(value);
-		if (Number.isNaN(parsed.getTime())) return '';
-		return parsed.toISOString().slice(0, 10);
 	}
 
 	function buildSeoDescription(
@@ -871,50 +872,46 @@
 
 <article class="question-page">
 	<!-- =====================================================================
-	  Question hero + thread — one continuous flow.
-	  Question card → Comment/Subscribe/Share toolbar (Interact) → meta line →
-	  optional user-added context → discussion thread (QuestionContent).
+	  Hidden until you answer. The question is the poster; under it one quiet
+	  meta row (count, gate state, Subscribe / Share), then the composer as the
+	  page's one mint action, then the sealed takes. Posting opens the room.
 	  ===================================================================== -->
-	<section class="open-case" aria-labelledby="open-case-question">
-		<div class="open-case-pool" aria-hidden="true"></div>
-
-		<div class="open-case-inner">
-			{#if displayBreadcrumbItems.length}
-				<div class="open-case-breadcrumbs">
-					<Breadcrumbs items={displayBreadcrumbItems} linkSingleItem />
-				</div>
-			{/if}
-
-			{#if primaryQuestionTag}
-				<div class="open-case-category mono">
-					<span class="open-case-category__label">TOPIC:</span>
-					<a
-						href={buildQuestionCategoryPath(
-							primaryQuestionTag.question_categories.slug ||
-								primaryQuestionTag.question_categories.category_name
-						)}
-						class="open-case-category__link"
-						rel="tag"
-					>
-						{primaryQuestionTag.question_categories.category_name.toUpperCase()}
-					</a>
+	<section class="q-stage" aria-labelledby="open-case-question">
+		<div class="q-inner">
+			{#if displayBreadcrumbItems.length || overflowQuestionTags.length}
+				<div class="q-trail">
+					{#if displayBreadcrumbItems.length}
+						<Breadcrumbs items={displayBreadcrumbItems} linkSingleItem />
+					{/if}
+					{#if showTopicLink && primaryQuestionTag}
+						<a
+							href={buildQuestionCategoryPath(
+								primaryQuestionTag.question_categories.slug ||
+									primaryQuestionTag.question_categories.category_name
+							)}
+							class="q-topic"
+							rel="tag"
+						>
+							{primaryQuestionTag.question_categories.category_name}
+						</a>
+					{/if}
 					{#if overflowQuestionTags.length}
-						<details class="open-case-category-more">
+						<details class="q-more">
 							<summary
-								class="open-case-category-more__summary"
+								class="q-more__summary"
 								aria-label={`${overflowQuestionTags.length} more question ${
 									overflowQuestionTags.length === 1 ? 'category' : 'categories'
 								}`}
 							>
 								+{overflowQuestionTags.length}
 							</summary>
-							<div class="open-case-category-more__panel" aria-label="Additional categories">
+							<div class="q-more__panel" aria-label="Additional categories">
 								{#each overflowQuestionTags as tag, i (tag.tag_id ?? i)}
 									<a
 										href={buildQuestionCategoryPath(
 											tag.question_categories.slug || tag.question_categories.category_name
 										)}
-										class="open-case-category-more__link"
+										class="q-more__link"
 										rel="tag"
 									>
 										{tag.question_categories.category_name}
@@ -928,11 +925,18 @@
 
 			<div
 				id="open-case-question"
-				class="open-case-display"
+				class="q-headline"
 				{@attach trackQuestionImpression(questionImpressionInput)}
 			>
-				<QuestionDisplay question={data.question} />
+				<QuestionDisplay question={data.question} variant="poster" />
 			</div>
+
+			{#if questionContext}
+				<aside class="q-context">
+					<p class="q-context__label">Context from the asker</p>
+					<p class="q-context__body">{questionContext}</p>
+				</aside>
+			{/if}
 
 			{#if recipientInviteId}
 				<aside class="invite-arrival" aria-label="Invitation context">
@@ -941,7 +945,28 @@
 				</aside>
 			{/if}
 
-			<div class="open-case-interact">
+			{#snippet metaLine()}
+				<p class="q-meta">
+					<span class="q-meta__counts">
+						{totalTakes === 0 ? 'No takes yet' : totalTakes.toLocaleString('en-US')}
+						{totalTakes === 0
+							? ''
+							: totalTakes === 1
+								? 'take'
+								: 'takes'}{#if newestTakeDate && !commentsUnlocked}<span
+								class="q-meta__sep"
+								aria-hidden="true">·</span
+							>newest {newestTakeDate}{/if}
+					</span>
+					{#if commentsUnlocked || totalTakes > 0}
+						<span class={['q-meta__state', commentsUnlocked && 'is-open']}>
+							{commentsUnlocked ? 'unlocked' : 'hidden until you answer'}
+						</span>
+					{/if}
+				</p>
+			{/snippet}
+
+			<div class="q-interact">
 				<Interact
 					data={dataForChild}
 					questionId={data.question.id}
@@ -950,24 +975,9 @@
 					oncommentAdded={addComment}
 					onreplyOptIn={receiveReplyOptIn}
 					user={data?.user}
+					meta={metaLine}
 				/>
 			</div>
-
-			<div class="open-case-coords mono">
-				{#if postedDate}POSTED: {postedDate}{/if}
-				{#if postedDate}<span class="open-case-coord-sep">·</span>{/if}
-				{totalTakes}
-				{totalTakes === 1 ? 'TAKE' : 'TAKES'} SO FAR
-				<span class="open-case-coord-sep">·</span>
-				{commentsUnlocked ? 'COMMENTS UNLOCKED' : 'COMMENTS HIDDEN UNTIL YOU ANSWER'}
-			</div>
-
-			{#if questionContext}
-				<aside class="open-case-context">
-					<p class="mono open-case-context__label">USER-ADDED CONTEXT</p>
-					<p class="open-case-context__body">{questionContext}</p>
-				</aside>
-			{/if}
 
 			{#snippet inviteCard()}
 				<QuestionInviteCard
@@ -1001,7 +1011,7 @@
 			{/if}
 
 			{#if dataForChild}
-				<div class="open-case-floor">
+				<div class="q-floor">
 					<svelte:boundary onerror={handleThreadError}>
 						<QuestionContent
 							data={dataForChild}
@@ -1013,6 +1023,8 @@
 							interstitial={inviteCardVisible && commentsUnlocked ? inviteCard : undefined}
 							{revealFailed}
 							onretryReveal={() => void loadRevealedTakes()}
+							sealed={commentsUnlocked ? null : (data.sealedTakes ?? null)}
+							oncompose={focusComposer}
 						/>
 
 						{#snippet failed()}
@@ -1030,8 +1042,8 @@
 			  categories at the top of the page, so we don't repeat them here.
 			  =================================================================== -->
 			{#if data.canEditTags}
-				<aside class="open-case-categories" aria-label="Manage categories">
-					<header class="open-case-categories__head">
+				<aside class="q-categories" aria-label="Manage categories">
+					<header class="q-categories__head">
 						<SectionKicker label="CATEGORIES" />
 						<Button
 							variant="ghost"
@@ -1048,13 +1060,13 @@
 					</header>
 
 					{#if data.questionTags && data.questionTags.length > 0}
-						<div class="open-case-categories__pills">
+						<div class="q-categories__pills">
 							{#each data.questionTags as tag (tag.tag_id)}
 								<a
 									href={buildQuestionCategoryPath(
 										tag.question_categories.slug || tag.question_categories.category_name
 									)}
-									class="open-case-categories__pill"
+									class="q-categories__pill"
 									rel="tag"
 								>
 									{tag.question_categories.category_name}
@@ -1062,7 +1074,7 @@
 							{/each}
 						</div>
 					{:else}
-						<p class="open-case-categories__empty">No categories assigned yet.</p>
+						<p class="q-categories__empty">No categories assigned yet.</p>
 					{/if}
 
 					{#if categoryEditorOpen}
@@ -1225,86 +1237,207 @@
 
 <style lang="scss">
 	/* =========================================================
-	  /questions/[slug] — Streetlamp Symposium V5.
-	  Bridge tokens (--lamp-*, --night-*, --stone-*, --ink-*, --data-*)
-	  ship globally from src/scss/index.scss.
-	  Restyle pass: layout chrome only. Imported components
-	  (QuestionDisplay, Interact, QuestionContent) keep their own styles.
+	  /questions/[slug] — Cold Light, "hidden until you answer".
+	  Tokens: docs/brand/cold-light.md (src/scss/index.scss).
 	  ========================================================= */
 	.question-page {
-		--cta-text: var(--night-deep);
-
+		/* Neutralize the global article {} card rule. */
+		margin: 0;
+		padding: 0;
+		border-radius: 0;
 		display: block;
-		background: var(--night-deep);
-		color: var(--ink-bright);
-		font-family: var(--font-display);
 		min-height: 100vh;
-		position: relative;
+		background: var(--bg);
+		color: var(--text);
+		font-family: var(--font-talk);
 	}
 
-	:global(:root.light) .question-page {
-		--cta-text: var(--ink-bright);
-	}
-
-	/* .mono is a global utility in index.scss (promoted 2026-06-10). */
-
-	/* =========================================================
-	  Question hero + thread — one continuous flow.
-	  ========================================================= */
-	.open-case {
-		position: relative;
-		padding: 32px 48px 72px;
-		background: var(--night-deep);
-		overflow: hidden;
-		border-top: 3px solid var(--lamp-glow);
+	.q-stage {
+		padding: 40px 48px 80px;
 
 		@media (max-width: 768px) {
-			padding: 20px 20px 48px;
+			padding: 16px 16px 56px;
 		}
 	}
 
-	.open-case-pool {
-		position: absolute;
-		inset: 0;
-		pointer-events: none;
-		background: radial-gradient(
-			ellipse 70% 55% at 50% 0%,
-			rgba(245, 158, 11, 0.12) 0%,
-			rgba(245, 158, 11, 0.04) 35%,
-			transparent 65%
-		);
-		z-index: 0;
-	}
-
-	:global(:root.light) .question-page .open-case-pool {
-		background: radial-gradient(
-			ellipse 70% 55% at 50% 0%,
-			rgba(180, 83, 9, 0.08) 0%,
-			rgba(180, 83, 9, 0.02) 40%,
-			transparent 70%
-		);
-	}
-
-	.open-case-inner {
-		position: relative;
-		z-index: 1;
-		max-width: 880px;
-		margin: 0 auto;
+	.q-inner {
 		display: flex;
 		flex-direction: column;
-		gap: 12px;
+		gap: clamp(12px, 2vw, 18px);
+		max-width: 760px;
+		margin: 0 auto;
 	}
 
-	.open-case-breadcrumbs {
-		margin-bottom: 0;
+	/* ---------- trail: breadcrumbs + extra topics, one quiet line ---------- */
+	.q-trail {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 4px 12px;
+		min-width: 0;
+		color: var(--text-faint);
+		font-size: var(--font-size-sm);
 
 		:global(.breadcrumbs) {
 			margin-bottom: 0;
 		}
 	}
 
-	.open-case-interact {
-		margin: 4px 0 4px;
+	.q-topic {
+		color: var(--text-muted);
+		text-decoration: underline;
+		text-decoration-color: var(--rule);
+		text-underline-offset: 3px;
+
+		&:hover {
+			color: var(--highlight);
+		}
+	}
+
+	/* Reset the global <details> card styling: this is an inline chip. */
+	.q-more {
+		position: relative;
+		margin: 0;
+		padding: 0;
+		border: 0;
+		border-radius: 0;
+		background: transparent;
+		box-shadow: none;
+	}
+
+	.q-more__summary {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		min-width: 32px;
+		min-height: 28px;
+		padding: 2px 10px;
+		border: 1px solid var(--rule);
+		border-radius: 999px;
+		color: var(--text-muted);
+		cursor: pointer;
+		list-style: none;
+
+		&::-webkit-details-marker {
+			display: none;
+		}
+
+		&:hover {
+			color: var(--highlight);
+		}
+	}
+
+	:global(.q-more__summary:focus-visible) {
+		outline: 2px solid var(--focus);
+		outline-offset: 2px;
+	}
+
+	.q-more__panel {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 6px;
+		margin-top: 8px;
+		padding: 10px;
+		border: 1px solid var(--rule);
+		border-radius: 10px;
+		background: var(--surface);
+	}
+
+	.q-more__link {
+		padding: 4px 10px;
+		border: 1px solid var(--rule);
+		border-radius: 999px;
+		color: var(--text-muted);
+		text-decoration: none;
+		white-space: nowrap;
+
+		&:hover {
+			color: var(--highlight);
+		}
+	}
+
+	/* ---------- the question as a poster ---------- */
+	.q-headline {
+		margin: 8px 0 0;
+	}
+
+	.q-context {
+		margin: 0;
+		padding: 2px 0 2px 16px;
+		border-left: 2px solid var(--accent);
+	}
+
+	.q-context__label {
+		margin: 0 0 4px;
+		color: var(--text-faint);
+		font-size: var(--font-size-xs);
+		font-weight: 600;
+		letter-spacing: 0.14em;
+		text-transform: uppercase;
+	}
+
+	.q-context__body {
+		margin: 0;
+		color: var(--text-muted);
+		font-size: var(--font-size-base);
+		line-height: 1.6;
+	}
+
+	.invite-arrival {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 4px 8px;
+		padding: 2px 0 2px 16px;
+		border-left: 2px solid var(--highlight);
+		color: var(--text-muted);
+		font-size: var(--font-size-sm);
+		line-height: 1.5;
+
+		strong {
+			color: var(--text);
+		}
+	}
+
+	/* ---------- meta row (rendered inside Interact's action row) ---------- */
+	.q-meta {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 4px 16px;
+		margin: 0;
+		color: var(--text-muted);
+		font-size: var(--font-size-sm);
+		line-height: 1.5;
+	}
+
+	.q-meta__counts {
+		white-space: nowrap;
+	}
+
+	.q-meta__sep {
+		margin: 0 8px;
+		color: var(--text-faint);
+	}
+
+	.q-meta__state {
+		display: inline-flex;
+		align-items: center;
+		gap: 8px;
+		color: var(--highlight);
+		font-weight: 600;
+
+		&::before {
+			content: '';
+			width: 7px;
+			height: 7px;
+			border-radius: 50%;
+			background: currentColor;
+			box-shadow: 0 0 10px color-mix(in srgb, var(--accent) 80%, transparent);
+		}
+	}
+
+	.q-interact {
+		margin: 4px 0 0;
 	}
 
 	.answer-handoff {
@@ -1317,30 +1450,28 @@
 	.host-promise {
 		margin: 0;
 		padding-left: 14px;
-		border-left: 2px solid var(--lamp-glow);
-		color: var(--ink-mid);
-		font-family: var(--font-display);
-		font-size: 14px;
+		border-left: 2px solid var(--accent);
+		color: var(--text-muted);
+		font-size: var(--font-size-sm);
 		line-height: 1.5;
 	}
 
-	.open-case-floor {
-		margin-top: 16px;
-		padding-top: 24px;
-		border-top: 1px solid var(--stone-edge);
+	.q-floor {
+		margin-top: 24px;
+		padding-top: 28px;
+		border-top: 1px solid var(--rule);
 	}
 
 	/* Error fallback for the take thread; matches RankedComments' reveal retry. */
 	.thread-failed {
 		display: grid;
 		justify-items: center;
-		gap: 0.75rem;
-		margin: 0 1rem;
-		padding: 1.5rem 1rem;
-		border: 1px dashed var(--stone-edge);
-		border-radius: 1rem;
-		color: var(--ink-mid);
-		font-size: 0.9rem;
+		gap: 12px;
+		padding: 24px 16px;
+		border: 1px dashed var(--rule);
+		border-radius: 16px;
+		color: var(--text-muted);
+		font-size: var(--font-size-sm);
 		text-align: center;
 
 		p {
@@ -1348,211 +1479,19 @@
 		}
 	}
 
-	.open-case-category {
-		display: flex;
-		flex-wrap: wrap;
-		align-items: center;
-		gap: 6px;
-		color: var(--data-teal);
-		margin: 0;
-		min-width: 0;
-	}
-
-	.open-case-category__label {
-		flex: 0 0 auto;
-		color: var(--ink-dim);
-	}
-
-	.open-case-category__link {
-		flex: 1 1 0;
-		min-width: 0;
-		max-width: min(100%, 42rem);
-		overflow: hidden;
-		text-overflow: ellipsis;
-		white-space: nowrap;
-		color: var(--data-teal);
-		text-decoration: none;
-		border-bottom: 1px solid transparent;
-		transition:
-			color 0.15s ease,
-			border-color 0.15s ease;
-
-		&:hover {
-			color: var(--lamp-glow);
-			border-bottom-color: var(--lamp-glow);
-		}
-	}
-
-	.open-case-category-more {
-		position: relative;
-		display: inline-flex;
-		align-items: center;
-		flex: 0 0 auto;
-		padding: 0;
-	}
-
-	.open-case-category-more__summary {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		min-height: 1.55rem;
-		padding: 0.15rem 0.55rem;
-		border: 1px solid var(--stone-edge);
-		border-radius: 9999px;
-		background: var(--night-mid);
-		color: var(--ink-mid);
-		cursor: pointer;
-		list-style: none;
-		transition:
-			border-color 0.15s ease,
-			color 0.15s ease,
-			background 0.15s ease;
-
-		&::-webkit-details-marker {
-			display: none;
-		}
-
-		&:hover {
-			border-color: var(--lamp-glow);
-			color: var(--lamp-glow);
-			background: var(--stone-warm);
-		}
-	}
-
-	:global(.open-case-category-more__summary:focus-visible) {
-		border-color: var(--lamp-glow);
-		color: var(--lamp-glow);
-		background: var(--stone-warm);
-		outline: 2px solid var(--lamp-glow);
-		outline-offset: 2px;
-	}
-
-	.open-case-category-more__panel {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 6px;
-		margin-top: 8px;
-		padding: 10px;
-		border: 1px solid var(--stone-edge);
-		border-radius: 10px;
-		background: var(--stone-warm);
-	}
-
-	.open-case-category-more:not([open]) .open-case-category-more__panel {
-		display: none;
-	}
-
-	.open-case-category-more__link {
-		display: inline-flex;
-		max-width: 100%;
-		padding: 4px 8px;
-		border: 1px solid var(--stone-edge);
-		border-radius: 9999px;
-		background: var(--night-mid);
-		color: var(--ink-mid);
-		text-decoration: none;
-		white-space: nowrap;
-
-		&:hover {
-			border-color: var(--lamp-glow);
-			color: var(--lamp-glow);
-		}
-	}
-
-	.open-case-display {
-		margin: 4px 0 4px;
-	}
-
-	.open-case-display :global(.question-display-card) {
-		background: var(--stone-warm);
-		border: 1px solid var(--stone-edge);
-		border-radius: 16px;
-		padding: 32px clamp(20px, 3vw, 40px);
-		box-shadow: none;
-		backdrop-filter: none;
-	}
-
-	.open-case-display :global(.question-display-card::before) {
-		display: none;
-	}
-
-	.open-case-display :global(.question-display-card h1) {
-		font-family: var(--font-display);
-		font-weight: 800;
-		letter-spacing: -0.03em;
-		color: var(--ink-bright);
-		text-wrap: balance;
-		line-height: 1.08;
-	}
-
-	.invite-arrival {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 0.25rem 0.45rem;
-		padding: 0.7rem 0.85rem;
-		border-left: 2px solid var(--lamp-glow);
-		background: color-mix(in srgb, var(--lamp-soft) 24%, transparent);
-		color: var(--ink-mid);
-		font-size: 0.82rem;
-		line-height: 1.5;
-	}
-
-	.invite-arrival strong {
-		color: var(--ink-bright);
-	}
-
-	.open-case-coords {
-		display: flex;
-		flex-wrap: wrap;
-		align-items: center;
-		gap: 8px;
-		color: var(--ink-dim);
-		margin: 0;
-	}
-
-	.open-case-coord-sep {
-		opacity: 0.6;
-	}
-
-	.open-case-context {
-		margin: 8px 0 0;
-		padding: 16px 20px;
-		border: 1px solid var(--stone-edge);
-		border-left: 3px solid var(--data-teal);
-		border-radius: 10px;
-		background: var(--stone-warm);
-	}
-
-	.open-case-context__label {
-		margin: 0 0 6px;
-		color: var(--data-teal);
-	}
-
-	.open-case-context__body {
-		margin: 0;
-		font-family: var(--font-display);
-		font-size: 16px;
-		line-height: 1.6;
-		color: var(--ink-bright);
-	}
-
 	/* =========================================================
-	  Author-only category management — sits inside the open-case
-	  flow so it shares the same background and feels like a tail
-	  of the article rather than a fresh section.
+	  Author-only category management.
 	  ========================================================= */
-	.open-case-categories {
+	.q-categories {
 		display: flex;
 		flex-direction: column;
 		gap: 16px;
-		margin-top: 24px;
-		padding: 20px;
-		border: 1px solid var(--stone-edge);
-		border-radius: 1rem;
-		background: var(--stone-warm);
+		margin-top: 32px;
+		padding-top: 24px;
+		border-top: 1px solid var(--rule);
 	}
 
-	.open-case-categories__head {
+	.q-categories__head {
 		display: flex;
 		flex-wrap: wrap;
 		align-items: center;
@@ -1560,52 +1499,47 @@
 		gap: 12px;
 	}
 
-	.open-case-categories__pills {
+	.q-categories__pills {
 		display: flex;
 		flex-wrap: wrap;
 		gap: 6px;
 	}
 
-	.open-case-categories__pill {
+	.q-categories__pill {
 		display: inline-flex;
 		align-items: center;
 		padding: 6px 12px;
-		border: 1px solid var(--stone-edge);
+		border: 1px solid var(--rule);
 		border-radius: 999px;
-		background: var(--night-mid);
-		color: var(--ink-bright);
-		font-family: var(--font-display);
-		font-size: 13px;
+		color: var(--text);
+		font-size: var(--font-size-sm);
 		font-weight: 500;
 		text-decoration: none;
-		transition:
-			border-color 0.18s ease,
-			color 0.18s ease,
-			background 0.18s ease;
 
 		&:hover {
-			border-color: var(--lamp-glow);
-			color: var(--lamp-glow);
+			border-color: var(--highlight);
+			color: var(--highlight);
 		}
 	}
 
-	.open-case-categories__empty {
-		font-family: var(--font-display);
-		font-size: 14px;
-		line-height: 1.5;
-		color: var(--ink-mid);
+	.q-categories__empty,
+	.category-editor-empty,
+	.category-editor-creator__hint,
+	.category-editor-msg {
 		margin: 0;
+		color: var(--text-muted);
+		font-size: var(--font-size-sm);
+		line-height: 1.5;
 	}
 
-	/* ---------- category editor inner ---------- */
 	.category-editor {
 		display: flex;
 		flex-direction: column;
 		gap: 20px;
 		padding: 24px;
-		border: 1px solid var(--stone-edge);
+		border: 1px solid var(--rule);
 		border-radius: 16px;
-		background: var(--stone-warm);
+		background: var(--surface);
 
 		@media (max-width: 540px) {
 			padding: 18px;
@@ -1618,14 +1552,6 @@
 		gap: 10px;
 	}
 
-	.category-editor-empty {
-		font-family: var(--font-display);
-		font-size: 14px;
-		line-height: 1.5;
-		color: var(--ink-mid);
-		margin: 0;
-	}
-
 	.category-editor-step__head {
 		display: flex;
 		align-items: center;
@@ -1635,12 +1561,12 @@
 
 	.category-editor-step__label {
 		margin: 0;
-		color: var(--lamp-glow);
+		color: var(--highlight);
 	}
 
 	.category-editor-step__count {
 		margin: 0;
-		color: var(--data-teal);
+		color: var(--text-muted);
 	}
 
 	.chip-row {
@@ -1651,39 +1577,28 @@
 
 	.cat-chip {
 		appearance: none;
+		padding: 8px 14px;
+		border: 1px solid var(--rule);
+		border-radius: 10px;
+		background: var(--bg);
+		color: var(--text-muted);
 		font-family: var(--font-mono);
-		font-size: 12px;
+		font-size: var(--font-size-xs);
 		font-weight: 500;
 		letter-spacing: 0.04em;
 		text-transform: uppercase;
-		padding: 8px 14px;
-		border: 1px solid var(--stone-edge);
-		border-radius: 10px;
-		background: var(--night-mid);
-		color: var(--ink-mid);
 		cursor: pointer;
-		transition:
-			border-color 0.18s ease,
-			color 0.18s ease,
-			background 0.18s ease;
 
 		&:hover {
-			border-color: var(--ink-dim);
-			color: var(--ink-bright);
-			background: var(--stone-mid);
+			color: var(--text);
+			background: var(--surface-raised);
 		}
 	}
 
-	.cat-chip--active {
-		border-color: var(--lamp-glow);
-		color: var(--lamp-glow);
-		background: var(--stone-warm);
-	}
-
+	.cat-chip--active,
 	.cat-chip--selected {
-		border-color: var(--data-teal);
-		color: var(--data-teal);
-		background: var(--stone-warm);
+		border-color: var(--highlight);
+		color: var(--highlight);
 	}
 
 	.leaf-grid {
@@ -1703,27 +1618,21 @@
 		align-items: center;
 		gap: 12px;
 		padding: 12px 14px;
-		border: 1px solid var(--stone-edge);
+		border: 1px solid var(--rule);
 		border-radius: 10px;
-		background: var(--night-mid);
-		color: var(--ink-bright);
+		background: var(--bg);
+		color: var(--text);
+		font-size: var(--font-size-sm);
 		text-align: left;
-		font-family: var(--font-display);
-		font-size: 14px;
 		cursor: pointer;
-		transition:
-			border-color 0.18s ease,
-			background 0.18s ease;
 
 		&:hover {
-			border-color: var(--ink-dim);
-			background: var(--stone-mid);
+			background: var(--surface-raised);
 		}
 	}
 
 	.leaf-tile--active {
-		border-color: var(--lamp-glow);
-		background: var(--stone-warm);
+		border-color: var(--highlight);
 	}
 
 	.leaf-tile__name {
@@ -1731,11 +1640,11 @@
 	}
 
 	.leaf-tile__state {
-		color: var(--ink-dim);
+		color: var(--text-faint);
 	}
 
 	.leaf-tile--active .leaf-tile__state {
-		color: var(--lamp-glow);
+		color: var(--highlight);
 	}
 
 	.category-editor-creator {
@@ -1743,22 +1652,13 @@
 		flex-direction: column;
 		gap: 10px;
 		padding: 18px;
-		border: 1px solid var(--stone-edge);
+		border: 1px solid var(--rule);
 		border-radius: 10px;
-		background: var(--night-mid);
-	}
-
-	.category-editor-creator__hint {
-		font-family: var(--font-display);
-		font-size: 13px;
-		line-height: 1.5;
-		color: var(--ink-mid);
-		margin: 0;
+		background: var(--bg);
 	}
 
 	.category-editor-creator__row {
 		display: flex;
-		flex-direction: row;
 		gap: 8px;
 
 		@media (max-width: 540px) {
@@ -1770,43 +1670,22 @@
 	.case-input {
 		flex: 1;
 		appearance: none;
-		font-family: var(--font-display);
-		font-size: 14px;
 		padding: 10px 14px;
-		border: 1px solid var(--stone-edge);
+		border: 1px solid var(--accent);
 		border-radius: 10px;
-		background: var(--night-deep);
-		color: var(--ink-bright);
-		transition:
-			border-color 0.18s ease,
-			box-shadow 0.18s ease;
+		background: var(--bg);
+		color: var(--text);
+		font-size: var(--font-size-base);
 
 		&::placeholder {
-			color: var(--ink-dim);
+			color: var(--text-faint);
 		}
 
 		&:focus {
 			outline: none;
-			border-color: var(--lamp-glow);
-			box-shadow: 0 0 0 2px rgba(245, 158, 11, 0.18);
+			border-color: var(--highlight);
+			box-shadow: 0 0 0 1px var(--highlight);
 		}
-	}
-
-	:global(:root.light) .question-page .case-input:focus {
-		box-shadow: 0 0 0 2px rgba(180, 83, 9, 0.18);
-	}
-
-	@media (max-width: 768px) {
-		.case-input {
-			font-size: 16px;
-		}
-	}
-
-	.category-editor-msg {
-		font-family: var(--font-display);
-		font-size: 14px;
-		line-height: 1.5;
-		margin: 0;
 	}
 
 	.category-editor-msg--error {
@@ -1823,24 +1702,6 @@
 		justify-content: flex-end;
 		gap: 8px;
 		padding-top: 8px;
-		border-top: 1px solid var(--stone-edge);
-	}
-
-	/* =========================================================
-	  Mobile-specific tightening
-	  ========================================================= */
-	@media (max-width: 480px) {
-		.open-case {
-			padding: 16px 16px 40px;
-		}
-
-		.open-case-categories {
-			padding: 16px;
-		}
-
-		.open-case-display :global(.question-display-card) {
-			padding: 24px 18px;
-			border-radius: 1rem;
-		}
+		border-top: 1px solid var(--rule);
 	}
 </style>

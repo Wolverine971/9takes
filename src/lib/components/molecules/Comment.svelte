@@ -39,6 +39,8 @@
 		// Deep links (?reply=<id>) need the thread open on first paint: show
 		// pre-loaded replies immediately, otherwise run the same load the toggle does.
 		autoExpandReplies?: boolean;
+		/** The viewer wrote this take (anonymous own takes can't be matched by user id). */
+		own?: boolean;
 		/** Defaults to the question page's view observer (set by QuestionContent). */
 		observeTake?: CommentViewObserver;
 		/** A reply to this take was posted (payload: the created reply). */
@@ -57,6 +59,7 @@
 		parentData,
 		questionId,
 		autoExpandReplies = false,
+		own = false,
 		observeTake = contextObserveTake,
 		oncommentAdded,
 		oncommentUpdated
@@ -101,6 +104,14 @@
 		parentData && 'flags' in parentData ? (parentData as QuestionPageData) : null
 	);
 	let flagReasons = $derived(questionPageData?.flagReasons ?? []);
+	// A reply's parent is a take, not the question page.
+	let isNested = $derived(!questionPageData);
+	let isOwn = $derived(own || (!!user?.id && user.id === _commentComment.author_id));
+	let takeType = $derived.by(() => {
+		const profile = _commentComment.profiles ?? _commentComment.profiles_demo;
+		const type = Number(profile?.enneagram);
+		return Number.isInteger(type) && type >= 1 && type <= 9 ? type : null;
+	});
 
 	let lastDate = $derived(
 		_commentComment.comments?.length
@@ -522,22 +533,27 @@
 
 {#if _commentComment}
 	<article
-		class="comment-card relative"
-		style="--comment-type-color: var(--type-{_commentComment?.profiles?.enneagram ??
-			0}-color, var(--stone-edge))"
+		class={['comment-card', isOwn && 'comment-card--own', isNested && 'comment-card--nested']}
 	>
 		<div
 			class="comment-card__main"
 			id="comment-box{_commentComment.id}"
 			{@attach (node) => observeTake?.(node, comment)}
 		>
-			<!-- Like the /questions index, the answer is the row's primary content. -->
-			<div class="relative w-full">
+			<!-- The chip repeats the meta line's type for sighted readers; the meta line carries it for screen readers. -->
+			<span
+				class={['take-chip', isOwn && 'take-chip--you', !isOwn && !takeType && 'take-chip--none']}
+				aria-hidden="true">{isOwn ? 'You' : (takeType ?? '–')}</span
+			>
+
+			<div class="comment-card__body">
+				<!-- Like the /questions index, the answer is the row's primary content. -->
 				<div
-					class="comment-copy block {isExpanded
-						? ''
-						: 'max-h-[4.65em] overflow-hidden'} relative whitespace-pre-line break-words text-lg leading-relaxed text-[var(--ink-bright)] [overflow-wrap:anywhere]"
-					class:comment-copy--clamped={showReadMore}
+					class={[
+						'comment-copy',
+						!isExpanded && 'comment-copy--collapsed',
+						showReadMore && 'comment-copy--clamped'
+					]}
 					itemprop="text"
 					{@attach observeClamp}
 				>
@@ -545,150 +561,118 @@
 				</div>
 
 				{#if showReadMore}
-					<button
-						type="button"
-						class="mt-xs inline-flex min-h-11 items-center rounded-md text-sm font-medium text-[var(--ink-mid)] underline-offset-4 transition-colors duration-200 hover:text-[var(--ink-bright)] hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--lamp-glow)]"
-						onclick={toggleExpandText}
-					>
+					<button type="button" class="comment-read-more" onclick={toggleExpandText}>
 						Read more
 					</button>
 				{/if}
-			</div>
 
-			<footer class="comment-footer">
-				<!-- Type is still useful data, but it no longer becomes a decorative card edge. -->
-				<div class="comment-meta">
-					<span
-						class="h-2 w-2 shrink-0 rounded-sm bg-[var(--comment-type-color)]"
-						aria-hidden="true"
-					></span>
-					{#if _commentComment?.profiles?.enneagram && _commentComment?.profiles?.external_id}
-						<a
-							title="View profile"
-							class="comment-author truncate font-mono text-xs font-medium uppercase tracking-[0.06em] text-[var(--ink-mid)] underline-offset-4 transition-colors duration-200 hover:text-[var(--ink-bright)] hover:underline focus-visible:rounded-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--lamp-glow)]"
-							href={resolve(`/users/${_commentComment.profiles.external_id}` as `/users/${string}`)}
-							itemprop="author"
-						>
-							Type {_commentComment?.profiles?.enneagram}
-						</a>
-					{:else}
-						<span
-							class="comment-author truncate font-mono text-xs font-medium uppercase tracking-[0.06em] text-[var(--ink-mid)]"
-							itemprop="author"
-						>
-							Anonymous
-						</span>
-					{/if}
-					{#if _commentComment.modified_at}
-						<span class="comment-meta__separator" aria-hidden="true">·</span>
-						<span
-							class="shrink-0 font-mono text-xs uppercase tracking-[0.06em] text-[var(--ink-dim)]"
-						>
-							Edited
-						</span>
-					{/if}
-				</div>
-
-				<div class="comment-actions" role="group" aria-label="Comment actions">
-					<button
-						type="button"
-						title={isLiked ? 'Unlike' : 'Like'}
-						aria-label={isLiked
-							? `Unlike this comment (${likes.length} ${likes.length === 1 ? 'like' : 'likes'})`
-							: `Like this comment${likes.length > 0 ? ` (${likes.length} ${likes.length === 1 ? 'like' : 'likes'})` : ''}`}
-						aria-pressed={isLiked}
-						class="comment-action flex min-h-11 items-center gap-sm rounded-md px-md text-sm font-medium transition-colors duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--lamp-glow)] {isLiked
-							? 'text-[var(--lamp-glow)] hover:bg-[var(--stone-mid)]'
-							: 'text-[var(--ink-dim)] hover:bg-[var(--stone-mid)] hover:text-[var(--ink-bright)]'}"
-						onclick={toggleLike}
-					>
-						<ThumbsUp size={16} strokeWidth={1.75} aria-hidden="true" />
-						<span>Like</span>
-						{#if likes.length}
-							<span class="tabular-nums opacity-80" itemprop="upvoteCount">
-								{likes.length}
-							</span>
+				<footer class="comment-footer">
+					<div class="comment-meta">
+						{#if _commentComment?.profiles?.enneagram && _commentComment?.profiles?.external_id}
+							<a
+								title="View profile"
+								class="comment-author comment-author--link"
+								href={resolve(
+									`/users/${_commentComment.profiles.external_id}` as `/users/${string}`
+								)}
+								itemprop="author"
+							>
+								Type {_commentComment?.profiles?.enneagram}
+							</a>
+						{:else}
+							<span class="comment-author" itemprop="author">Anonymous</span>
 						{/if}
-					</button>
+						{#if _commentComment.modified_at}
+							<span class="comment-meta__separator" aria-hidden="true">·</span>
+							<span class="comment-meta__edited">Edited</span>
+						{/if}
+					</div>
 
-					<button
-						type="button"
-						title="Reply to this comment"
-						aria-label={commenting ? 'Hide reply form' : 'Reply to this comment'}
-						aria-expanded={commenting}
-						class="comment-action flex min-h-11 items-center gap-sm rounded-md px-md text-sm font-medium text-[var(--ink-mid)] transition-colors duration-200 hover:bg-[var(--stone-mid)] hover:text-[var(--ink-bright)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--lamp-glow)]"
-						onclick={() => (commenting = !commenting)}
-					>
-						<MessageCircle size={16} strokeWidth={1.75} aria-hidden="true" />
-						<span>Reply</span>
-					</button>
-
-					<div class="comment-overflow">
-						<Popover position="bottom-right" label="Comment options">
-							{#snippet icon()}
-								<span
-									class="flex h-11 w-11 items-center justify-center rounded-md text-[var(--ink-dim)] transition-colors duration-200 hover:bg-[var(--stone-mid)] hover:text-[var(--ink-bright)]"
-									title="Comment options"
-								>
-									<EllipsisVertical size={16} strokeWidth={1.75} aria-hidden="true" />
+					<div class="comment-actions" role="group" aria-label="Comment actions">
+						<button
+							type="button"
+							title={isLiked ? 'Unlike' : 'Like'}
+							aria-label={isLiked
+								? `Unlike this comment (${likes.length} ${likes.length === 1 ? 'like' : 'likes'})`
+								: `Like this comment${likes.length > 0 ? ` (${likes.length} ${likes.length === 1 ? 'like' : 'likes'})` : ''}`}
+							aria-pressed={isLiked}
+							class={['comment-action', isLiked && 'comment-action--on']}
+							onclick={toggleLike}
+						>
+							<ThumbsUp size={16} strokeWidth={1.75} aria-hidden="true" />
+							<span>Like</span>
+							{#if likes.length}
+								<span class="comment-action__count" itemprop="upvoteCount">
+									{likes.length}
 								</span>
-							{/snippet}
+							{/if}
+						</button>
 
-							{#snippet popoverValue()}
-								<div class="flex flex-col">
-									<div
-										class="mb-sm border-b border-[var(--stone-edge)] px-md pb-sm pt-xs"
-										aria-label="Comment dates"
-									>
-										<p class="flex items-baseline justify-between gap-md text-xs">
-											<span class="text-[var(--ink-dim)]">Posted</span>
-											<time
-												class="font-mono text-[var(--ink-mid)]"
-												itemprop="dateCreated"
-												datetime={_commentComment.created_at}
-											>
-												{createdAtLabel}
-											</time>
-										</p>
-										{#if _commentComment.modified_at && modifiedAtLabel}
-											<p class="mt-xs flex items-baseline justify-between gap-md text-xs">
-												<span class="text-[var(--ink-dim)]">Edited</span>
-												<time
-													class="font-mono text-[var(--ink-mid)]"
-													itemprop="dateModified"
-													datetime={_commentComment.modified_at}
-												>
-													{modifiedAtLabel}
+						<button
+							type="button"
+							title="Reply to this comment"
+							aria-label={commenting ? 'Hide reply form' : 'Reply to this comment'}
+							aria-expanded={commenting}
+							class="comment-action"
+							onclick={() => (commenting = !commenting)}
+						>
+							<MessageCircle size={16} strokeWidth={1.75} aria-hidden="true" />
+							<span>Reply</span>
+						</button>
+
+						<div class="comment-overflow">
+							<Popover position="bottom-right" label="Comment options">
+								{#snippet icon()}
+									<span class="comment-overflow__trigger" title="Comment options">
+										<EllipsisVertical size={16} strokeWidth={1.75} aria-hidden="true" />
+									</span>
+								{/snippet}
+
+								{#snippet popoverValue()}
+									<div class="comment-menu">
+										<div class="comment-menu__dates" aria-label="Comment dates">
+											<p class="comment-menu__date">
+												<span>Posted</span>
+												<time itemprop="dateCreated" datetime={_commentComment.created_at}>
+													{createdAtLabel}
 												</time>
 											</p>
-										{/if}
-									</div>
+											{#if _commentComment.modified_at && modifiedAtLabel}
+												<p class="comment-menu__date">
+													<span>Edited</span>
+													<time itemprop="dateModified" datetime={_commentComment.modified_at}>
+														{modifiedAtLabel}
+													</time>
+												</p>
+											{/if}
+										</div>
 
-									<div class="flex flex-col gap-1">
-										{#if user?.id === _commentComment.author_id}
+										<div class="comment-menu__items">
+											{#if user?.id === _commentComment.author_id}
+												<button
+													type="button"
+													class="comment-menu__item"
+													onclick={() => getModal(`edit-modal-${_commentComment.id}`).open()}
+												>
+													Edit Comment
+												</button>
+											{/if}
+
 											<button
 												type="button"
-												class="w-full rounded-md px-3 py-2 text-left text-sm text-[var(--ink-mid)] transition-colors duration-200 hover:bg-[var(--lamp-soft)] hover:text-[var(--ink-bright)]"
-												onclick={() => getModal(`edit-modal-${_commentComment.id}`).open()}
+												class="comment-menu__item comment-menu__item--danger"
+												onclick={openFlagModal}
 											>
-												Edit Comment
+												Flag Comment
 											</button>
-										{/if}
-
-										<button
-											type="button"
-											class="w-full rounded-md px-3 py-2 text-left text-sm text-[var(--error-text)] transition-colors duration-200 hover:bg-error-500/20"
-											onclick={openFlagModal}
-										>
-											Flag Comment
-										</button>
+										</div>
 									</div>
-								</div>
-							{/snippet}
-						</Popover>
+								{/snippet}
+							</Popover>
+						</div>
 					</div>
-				</div>
-			</footer>
+				</footer>
+			</div>
 		</div>
 
 		<!-- Reply form -->
@@ -697,36 +681,27 @@
 				class="comment-composer"
 				transition:slide={{ duration: reduceMotion ? 0 : 200, easing: cubicOut }}
 			>
-				<div class="mb-3">
-					<label
-						for={`reply-comment-${_commentComment.id}`}
-						class="mb-2 block text-sm font-medium text-[var(--ink-mid)]"
-					>
-						Your reply
-					</label>
-					<textarea
-						id={`reply-comment-${_commentComment.id}`}
-						placeholder="Share your perspective — what's your experience with this? The more detail, the better the conversation."
-						class="w-full resize-y rounded-md border border-[var(--stone-edge)] bg-[var(--stone-warm)] p-3 text-base text-[var(--ink-bright)] placeholder-[var(--ink-dim)] focus:border-[var(--lamp-glow)] focus:outline-none focus:ring-2 focus:ring-[var(--lamp-soft)]"
-						bind:value={newcomment}
-						oninput={handleReplyInput}
-						rows="3"
-						aria-invalid={replyError ? 'true' : 'false'}
-						aria-describedby={replyError ? `reply-error-${_commentComment.id}` : undefined}
-					></textarea>
-					{#if replyError}
-						<p
-							id={`reply-error-${_commentComment.id}`}
-							class="mt-2 text-sm font-medium text-[var(--error-text)]"
-							role="alert"
-						>
-							{replyError}
-						</p>
-					{/if}
-				</div>
-				<div class="flex justify-end gap-2">
+				<label for={`reply-comment-${_commentComment.id}`} class="comment-field-label">
+					Your reply
+				</label>
+				<textarea
+					id={`reply-comment-${_commentComment.id}`}
+					placeholder="Share your perspective — what's your experience with this? The more detail, the better the conversation."
+					class="comment-field"
+					bind:value={newcomment}
+					oninput={handleReplyInput}
+					rows="3"
+					aria-invalid={replyError ? 'true' : 'false'}
+					aria-describedby={replyError ? `reply-error-${_commentComment.id}` : undefined}
+				></textarea>
+				{#if replyError}
+					<p id={`reply-error-${_commentComment.id}`} class="comment-error" role="alert">
+						{replyError}
+					</p>
+				{/if}
+				<div class="comment-composer__actions">
 					<button
-						class="rounded-md border border-[var(--stone-edge)] bg-transparent px-3 py-1.5 text-sm font-medium text-[var(--ink-mid)] transition-colors duration-200 hover:bg-[var(--stone-mid)] hover:text-[var(--ink-bright)] active:scale-[0.98]"
+						class="comment-button comment-button--quiet"
 						type="button"
 						onclick={() => {
 							commenting = false;
@@ -738,15 +713,13 @@
 						Cancel
 					</button>
 					<button
-						class="flex items-center justify-center gap-2 rounded-md bg-[var(--lamp-glow)] px-3 py-1.5 text-sm font-semibold text-[var(--night-deep)] transition-colors duration-200 hover:bg-[var(--lamp-light)] active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-40"
+						class="comment-button comment-button--primary"
 						type="button"
 						onclick={createReply}
 						disabled={loading || !newcomment?.trim()}
 					>
 						{#if loading}
-							<div
-								class="h-4 w-4 animate-spin rounded-full border-2 border-[color-mix(in_srgb,var(--night-deep)_30%,transparent)] border-t-[var(--night-deep)]"
-							></div>
+							<span class="comment-spinner" aria-hidden="true"></span>
 						{:else}
 							Reply
 						{/if}
@@ -758,41 +731,31 @@
 		<!-- Replies toggle and nested comments -->
 		{#if _commentComment.comment_count > 0}
 			<div class="comment-thread">
-				<!-- Reply thread toggle -->
 				<button
 					type="button"
-					class="reply-toggle group/toggle focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--lamp-glow)]"
+					class="reply-toggle"
 					onclick={toggleReplies}
 					disabled={loadingComments}
 					aria-expanded={showReplies}
 					aria-label={showReplies ? 'Hide replies' : 'Show replies'}
 				>
-					<span class="flex h-5 w-5 items-center justify-center" aria-hidden="true">
+					<span class="reply-toggle__icon" aria-hidden="true">
 						{#if loadingComments}
-							<div
-								class="h-3.5 w-3.5 animate-spin rounded-full border-2 border-[var(--lamp-soft)] border-t-[var(--lamp-glow)]"
-							></div>
+							<span class="comment-spinner comment-spinner--small"></span>
 						{:else}
 							<ChevronRight
 								size={16}
 								strokeWidth={1.75}
-								class="reply-chevron text-[var(--ink-dim)] transition-transform duration-200 group-hover/toggle:text-[var(--ink-bright)] {showReplies
-									? 'rotate-90'
-									: ''}"
+								class={['reply-chevron', showReplies && 'reply-chevron--open']}
 							/>
 						{/if}
 					</span>
-
-					<!-- Reply count -->
-					<span
-						class="text-sm font-medium text-[var(--ink-mid)] transition-colors duration-200 group-hover/toggle:text-[var(--ink-bright)]"
-					>
+					<span>
 						{_commentComment.comment_count}
 						{_commentComment.comment_count === 1 ? 'reply' : 'replies'}
 					</span>
 				</button>
 
-				<!-- Nested comments container -->
 				{#if showReplies && _commentComment?.comments?.length}
 					<div
 						class="nested-comments"
@@ -822,43 +785,36 @@
 
 <!-- Edit Comment Modal -->
 <Modal id={`edit-modal-${_commentComment?.id}`} name="Edit comment" maxWidth="480px">
-	<div class="w-full">
-		<h2 class="mb-2 mt-0 text-2xl font-semibold text-[var(--ink-bright)]">Edit Comment</h2>
-		<p class="mb-6 text-sm text-[var(--ink-mid)]">Make changes to your comment below.</p>
+	<div class="comment-modal">
+		<h2 class="comment-modal__title">Edit Comment</h2>
+		<p class="comment-modal__copy">Make changes to your comment below.</p>
 
-		<div class="mb-8">
-			<label
-				for="edit-comment-{_commentComment?.id}"
-				class="mb-2 block text-sm font-medium text-[var(--ink-mid)]"
-			>
-				Your comment
-			</label>
-			<textarea
-				id="edit-comment-{_commentComment?.id}"
-				rows="6"
-				bind:value={commentEdit}
-				class="w-full resize-y rounded-md border border-[var(--stone-edge)] bg-[var(--stone-warm)] p-4 text-base leading-relaxed text-[var(--ink-bright)] placeholder-[var(--ink-dim)] transition-colors duration-200 focus:border-[var(--lamp-glow)] focus:outline-none focus:ring-2 focus:ring-[var(--lamp-soft)]"
-				placeholder="Edit your comment..."></textarea>
-		</div>
+		<label for="edit-comment-{_commentComment?.id}" class="comment-field-label">
+			Your comment
+		</label>
+		<textarea
+			id="edit-comment-{_commentComment?.id}"
+			rows="6"
+			bind:value={commentEdit}
+			class="comment-field comment-field--roomy"
+			placeholder="Edit your comment..."></textarea>
 
-		<div class="flex flex-col-reverse gap-3 sm:flex-row sm:justify-end">
+		<div class="comment-modal__actions">
 			<button
-				class="w-full cursor-pointer rounded-md border border-[var(--stone-edge)] bg-transparent px-6 py-3 text-base font-medium text-[var(--ink-mid)] transition-colors duration-200 hover:bg-[var(--stone-mid)] hover:text-[var(--ink-bright)] sm:w-auto"
+				class="comment-button comment-button--quiet comment-button--lg"
 				type="button"
 				onclick={() => getModal(`edit-modal-${_commentComment?.id}`).close()}
 			>
 				Cancel
 			</button>
 			<button
-				class="flex w-full cursor-pointer items-center justify-center gap-2 rounded-md border-none bg-[var(--lamp-glow)] px-6 py-3 text-base font-semibold text-[var(--night-deep)] transition-colors duration-200 hover:bg-[var(--lamp-light)] active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50 sm:w-auto"
+				class="comment-button comment-button--primary comment-button--lg"
 				type="button"
 				onclick={saveEdit}
 				disabled={loading || !commentEdit.trim()}
 			>
 				{#if loading}
-					<div
-						class="h-5 w-5 animate-spin rounded-full border-2 border-[color-mix(in_srgb,var(--night-deep)_30%,transparent)] border-t-[var(--night-deep)]"
-					></div>
+					<span class="comment-spinner" aria-hidden="true"></span>
 				{:else}
 					Save Changes
 				{/if}
@@ -873,18 +829,13 @@
 	labelledBy={`flag-modal-title-${_commentComment?.id}`}
 	maxWidth="480px"
 >
-	<div class="w-full">
-		<div class="mb-6">
-			<h2
-				id={`flag-modal-title-${_commentComment?.id}`}
-				class="mb-2 mt-0 text-2xl font-semibold text-[var(--ink-bright)]"
-			>
-				Flag Comment
-			</h2>
-			<p class="text-sm text-[var(--ink-mid)]">
-				Help us keep the community safe by reporting inappropriate content.
-			</p>
-		</div>
+	<div class="comment-modal">
+		<h2 id={`flag-modal-title-${_commentComment?.id}`} class="comment-modal__title">
+			Flag Comment
+		</h2>
+		<p class="comment-modal__copy">
+			Help us keep the community safe by reporting inappropriate content.
+		</p>
 
 		<form
 			onsubmit={(event) => {
@@ -893,18 +844,10 @@
 			}}
 			novalidate
 		>
-			<fieldset disabled={loading} class="m-0 border-0 p-0">
+			<fieldset disabled={loading} class="comment-modal__fieldset">
 				{#if flagError}
-					<div
-						class="mb-6 flex items-center gap-3 rounded-xl border border-error-500/30 bg-error-500/10 p-4 text-[var(--error-text)]"
-						role="alert"
-					>
-						<svg
-							class="h-5 w-5 flex-shrink-0"
-							fill="none"
-							stroke="currentColor"
-							viewBox="0 0 24 24"
-						>
+					<div class="comment-notice comment-notice--error" role="alert">
+						<svg class="comment-notice__icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 							<path
 								stroke-linecap="round"
 								stroke-linejoin="round"
@@ -917,12 +860,9 @@
 				{/if}
 
 				{#if flagReasons.length > 0}
-					<div class="mb-6">
-						<label
-							for={`flag-reason-${_commentComment?.id}`}
-							class="mb-3 block text-sm font-medium text-[var(--ink-mid)]"
-						>
-							Reason for flagging <span class="text-[var(--error-text)]" aria-hidden="true">*</span>
+					<div class="comment-modal__group">
+						<label for={`flag-reason-${_commentComment?.id}`} class="comment-field-label">
+							Reason for flagging <span class="comment-required" aria-hidden="true">*</span>
 							<span class="sr-only">(required)</span>
 						</label>
 						<select
@@ -934,10 +874,7 @@
 							aria-describedby={flagError && !flaggingReasonId
 								? `flag-reason-error-${_commentComment?.id}`
 								: undefined}
-							class="w-full cursor-pointer rounded-md border bg-[var(--stone-warm)] p-4 text-base text-[var(--ink-bright)] transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[var(--lamp-soft)] {flagError &&
-							!flaggingReasonId
-								? 'border-error-500'
-								: 'border-[var(--stone-edge)] focus:border-[var(--lamp-glow)]'}"
+							class={['comment-field', flagError && !flaggingReasonId && 'comment-field--invalid']}
 						>
 							<option value="" disabled selected>Select a reason...</option>
 							{#each flagReasons as reason (reason.id)}
@@ -947,7 +884,7 @@
 						{#if flagError && !flaggingReasonId}
 							<div
 								id={`flag-reason-error-${_commentComment?.id}`}
-								class="mt-2 text-sm text-[var(--error-text)]"
+								class="comment-error"
 								role="alert"
 							>
 								Please select a reason
@@ -955,16 +892,8 @@
 						{/if}
 					</div>
 				{:else}
-					<div
-						class="mb-6 flex items-center gap-3 rounded-xl border border-[var(--lamp-soft)] bg-[var(--lamp-soft)] p-4 text-[var(--lamp-light)]"
-						role="status"
-					>
-						<svg
-							class="h-5 w-5 flex-shrink-0"
-							fill="none"
-							stroke="currentColor"
-							viewBox="0 0 24 24"
-						>
+					<div class="comment-notice" role="status">
+						<svg class="comment-notice__icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 							<path
 								stroke-linecap="round"
 								stroke-linejoin="round"
@@ -976,42 +905,36 @@
 					</div>
 				{/if}
 
-				<div class="mb-8">
-					<label
-						for={`flag-description-${_commentComment?.id}`}
-						class="mb-3 block text-sm font-medium text-[var(--ink-mid)]"
-					>
-						Additional details <span class="font-normal text-[var(--ink-dim)]">(optional)</span>
+				<div class="comment-modal__group">
+					<label for={`flag-description-${_commentComment?.id}`} class="comment-field-label">
+						Additional details <span class="comment-optional">(optional)</span>
 					</label>
 					<textarea
 						id={`flag-description-${_commentComment?.id}`}
 						rows="4"
 						bind:value={flaggingReasonDescription}
-						class="w-full resize-y rounded-md border border-[var(--stone-edge)] bg-[var(--stone-warm)] p-4 text-base leading-relaxed text-[var(--ink-bright)] placeholder-[var(--ink-dim)] transition-colors duration-200 focus:border-[var(--lamp-glow)] focus:outline-none focus:ring-2 focus:ring-[var(--lamp-soft)]"
+						class="comment-field comment-field--roomy"
 						placeholder="Provide any additional context that might help us review this comment..."
 					></textarea>
 				</div>
 			</fieldset>
 
-			<div class="flex flex-col-reverse gap-3 sm:flex-row sm:justify-end">
+			<div class="comment-modal__actions">
 				<button
-					class="w-full cursor-pointer rounded-md border border-[var(--stone-edge)] bg-transparent px-6 py-3 text-base font-medium text-[var(--ink-mid)] transition-colors duration-200 hover:bg-[var(--stone-mid)] hover:text-[var(--ink-bright)] sm:w-auto"
+					class="comment-button comment-button--quiet comment-button--lg"
 					type="button"
 					onclick={closeFlagModal}
 				>
 					Cancel
 				</button>
 				<button
-					class="flex w-full cursor-pointer items-center justify-center gap-2 rounded-md border-none bg-error-700 px-6 py-3 text-base font-medium text-white transition-colors duration-200 hover:bg-error-500 active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50 sm:w-auto"
+					class="comment-button comment-button--danger comment-button--lg"
 					type="submit"
 					disabled={loading || !flaggingReasonId || !flagReasons.length}
 					aria-busy={loading}
 				>
 					{#if loading}
-						<div
-							class="h-5 w-5 animate-spin rounded-full border-2 border-white/30 border-t-white"
-							aria-hidden="true"
-						></div>
+						<span class="comment-spinner" aria-hidden="true"></span>
 						<span class="sr-only">Submitting...</span>
 					{:else}
 						Submit Report
@@ -1023,128 +946,558 @@
 </Modal>
 
 <style>
+	/* A take is a line in the conversation, not a card: chip, words, quiet meta,
+	   a rule underneath. Your own take gets the one tinted frame. */
 	.comment-card {
-		border: 1px solid color-mix(in srgb, var(--stone-edge) 52%, transparent);
-		border-radius: 1rem;
-		background: color-mix(in srgb, var(--stone-warm) 72%, transparent);
+		--chip: 32px;
+		--chip-gap: 14px;
+		min-width: 0;
+		border-bottom: 1px solid var(--rule);
+		/* The global `article` rule (index.scss) adds margin, padding and a radius. */
+		margin: 0;
+		padding: 0;
+		border-radius: 0;
+	}
+	.comment-card--nested {
+		--chip: 26px;
+		--chip-gap: 12px;
+	}
+	.comment-card--own {
+		border: 1px solid color-mix(in srgb, var(--highlight) 24%, transparent);
+		border-radius: 12px;
+		background: color-mix(in srgb, var(--highlight) 7%, transparent);
 	}
 
 	.comment-card__main {
-		padding: 1.25rem 1rem 1rem;
+		display: grid;
+		grid-template-columns: var(--chip) minmax(0, 1fr);
+		align-items: start;
+		gap: var(--chip-gap);
+		padding: 20px 0 12px;
+	}
+	.comment-card--nested .comment-card__main {
+		padding-top: 14px;
+	}
+	.comment-card--own .comment-card__main {
+		padding: 18px 16px 10px;
 	}
 
+	.take-chip {
+		display: grid;
+		place-items: center;
+		width: var(--chip);
+		height: var(--chip);
+		margin-top: 2px;
+		border-radius: 50%;
+		background: var(--accent-deep);
+		color: var(--highlight);
+		font-family: var(--font-voice);
+		font-style: italic;
+		font-size: var(--font-size-base);
+		line-height: 1;
+	}
+	.comment-card--nested .take-chip {
+		font-size: var(--font-size-sm);
+	}
+	.take-chip--none {
+		border: 1px dashed color-mix(in srgb, var(--highlight) 35%, transparent);
+		background: transparent;
+		color: var(--text-faint);
+		font-family: var(--font-talk);
+		font-style: normal;
+		font-size: var(--font-size-sm);
+	}
+	.take-chip--you {
+		background: var(--highlight);
+		color: var(--bg);
+		font-family: var(--font-talk);
+		font-style: normal;
+		font-size: var(--font-size-xs);
+		font-weight: 700;
+	}
+
+	.comment-card__body {
+		min-width: 0;
+	}
+
+	.comment-copy {
+		position: relative;
+		color: var(--text);
+		font-family: var(--font-talk);
+		font-size: calc(var(--font-size-base) + 1px);
+		line-height: 1.55;
+		white-space: pre-line;
+		overflow-wrap: anywhere;
+	}
+	.comment-card--nested .comment-copy {
+		font-size: var(--font-size-base);
+	}
+	.comment-copy--collapsed {
+		max-height: 4.65em;
+		overflow: hidden;
+	}
 	/* Clipped takes fade out on their last visible line instead of ending mid-word. */
 	.comment-copy--clamped {
-		-webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 1.5em), transparent);
-		mask-image: linear-gradient(to bottom, #000 calc(100% - 1.5em), transparent);
+		-webkit-mask-image: linear-gradient(to bottom, black calc(100% - 1.5em), transparent);
+		mask-image: linear-gradient(to bottom, black calc(100% - 1.5em), transparent);
+	}
+
+	.comment-read-more {
+		display: inline-flex;
+		align-items: center;
+		min-height: 44px;
+		margin-top: 2px;
+		padding: 0;
+		border: 0;
+		background: none;
+		color: var(--highlight);
+		font-size: var(--font-size-sm);
+		font-weight: 600;
+		text-decoration: underline;
+		text-underline-offset: 3px;
+		cursor: pointer;
 	}
 
 	.comment-footer {
 		display: flex;
 		align-items: center;
-		gap: 0.75rem;
+		gap: 12px;
 		min-width: 0;
-		margin-top: 0.75rem;
+		margin-top: 6px;
 	}
 
 	.comment-meta {
 		display: flex;
 		align-items: center;
-		gap: 0.45rem;
+		gap: 7px;
 		min-width: 0;
+		color: var(--text-faint);
+		font-size: var(--font-size-sm);
 	}
-
+	.comment-author {
+		overflow: hidden;
+		color: var(--text-muted);
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	.comment-author--link {
+		text-decoration: underline;
+		text-decoration-color: color-mix(in srgb, var(--highlight) 40%, transparent);
+		text-underline-offset: 3px;
+	}
+	.comment-author--link:hover {
+		color: var(--highlight);
+	}
 	.comment-meta__separator {
 		flex: 0 0 auto;
-		color: var(--ink-dim);
-		opacity: 0.55;
+		opacity: 0.6;
+	}
+	.comment-meta__edited {
+		flex: 0 0 auto;
 	}
 
 	.comment-actions {
 		display: flex;
 		align-items: center;
-		gap: 0.125rem;
+		gap: 2px;
 		margin-left: auto;
 	}
+	.comment-action {
+		display: inline-flex;
+		align-items: center;
+		gap: 6px;
+		min-height: 44px;
+		padding: 0 10px;
+		border: 0;
+		border-radius: 8px;
+		background: none;
+		color: var(--text-faint);
+		font-size: var(--font-size-sm);
+		font-weight: 500;
+		cursor: pointer;
+		transition:
+			color 0.2s,
+			background-color 0.2s;
+	}
+	.comment-action:hover {
+		background: color-mix(in srgb, var(--highlight) 8%, transparent);
+		color: var(--text);
+	}
+	.comment-action--on {
+		color: var(--highlight);
+	}
+	.comment-action__count {
+		font-variant-numeric: tabular-nums;
+	}
+	.comment-overflow__trigger {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 44px;
+		height: 44px;
+		border-radius: 8px;
+		color: var(--text-faint);
+		transition:
+			color 0.2s,
+			background-color 0.2s;
+	}
+	.comment-overflow__trigger:hover {
+		background: color-mix(in srgb, var(--highlight) 8%, transparent);
+		color: var(--text);
+	}
 
+	.comment-menu {
+		display: flex;
+		flex-direction: column;
+	}
+	.comment-menu__dates {
+		margin-bottom: 6px;
+		padding: 4px 12px 8px;
+		border-bottom: 1px solid var(--rule);
+	}
+	.comment-menu__date {
+		display: flex;
+		align-items: baseline;
+		justify-content: space-between;
+		gap: 12px;
+		margin: 0;
+		color: var(--text-faint);
+		font-size: var(--font-size-xs);
+	}
+	.comment-menu__date + .comment-menu__date {
+		margin-top: 4px;
+	}
+	.comment-menu__date time {
+		color: var(--text-muted);
+		font-family: var(--font-mono, monospace);
+	}
+	.comment-menu__items {
+		display: flex;
+		flex-direction: column;
+		gap: 2px;
+	}
+	.comment-menu__item {
+		width: 100%;
+		padding: 8px 12px;
+		border: 0;
+		border-radius: 6px;
+		background: none;
+		color: var(--text-muted);
+		font-size: var(--font-size-sm);
+		text-align: left;
+		cursor: pointer;
+	}
+	.comment-menu__item:hover {
+		background: color-mix(in srgb, var(--highlight) 8%, transparent);
+		color: var(--text);
+	}
+	.comment-menu__item--danger {
+		color: var(--error-text);
+	}
+	.comment-menu__item--danger:hover {
+		background: color-mix(in srgb, var(--error-text) 12%, transparent);
+		color: var(--error-text);
+	}
+
+	/* Reply form and nested replies line up with the take's words, not its chip. */
+	.comment-composer,
+	.comment-thread {
+		margin-left: calc(var(--chip) + var(--chip-gap));
+	}
+	.comment-card--own .comment-composer,
+	.comment-card--own .comment-thread {
+		margin-right: 16px;
+		margin-left: calc(16px + var(--chip) + var(--chip-gap));
+	}
 	.comment-composer {
-		margin: 0 1rem 1rem;
-		padding: 1rem;
-		border-radius: 0.625rem;
-		background: var(--night-mid);
+		display: grid;
+		gap: 8px;
+		padding: 4px 0 16px;
+	}
+	.comment-composer__actions {
+		display: flex;
+		justify-content: flex-end;
+		gap: 8px;
+	}
+
+	.comment-field-label {
+		display: block;
+		color: var(--highlight);
+		font-size: var(--font-size-sm);
+		font-weight: 600;
+	}
+	.comment-field {
+		width: 100%;
+		padding: 12px;
+		border: 1px solid var(--accent);
+		border-radius: 10px;
+		background: var(--bg);
+		color: var(--text);
+		font: inherit;
+		font-size: var(--font-size-base);
+		line-height: 1.5;
+		resize: vertical;
+	}
+	.comment-field::placeholder {
+		color: var(--text-faint);
+	}
+	.comment-field:focus {
+		outline: none;
+		border-color: var(--highlight);
+		box-shadow: 0 0 0 1px var(--highlight);
+	}
+	.comment-field--roomy {
+		padding: 14px;
+	}
+	.comment-field--invalid {
+		border-color: var(--error-text);
+	}
+	.comment-error {
+		margin: 0;
+		color: var(--error-text);
+		font-size: var(--font-size-sm);
+		font-weight: 500;
+	}
+
+	.comment-button {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		gap: 8px;
+		min-height: 40px;
+		padding: 0 16px;
+		border: 1px solid transparent;
+		border-radius: 999px;
+		font-size: var(--font-size-sm);
+		font-weight: 600;
+		cursor: pointer;
+		transition:
+			background-color 0.2s,
+			border-color 0.2s,
+			color 0.2s;
+	}
+	.comment-button:disabled {
+		cursor: not-allowed;
+		opacity: 0.45;
+	}
+	.comment-button--lg {
+		min-height: 48px;
+		padding: 0 24px;
+		font-size: var(--font-size-base);
+	}
+	.comment-button--quiet {
+		border-color: var(--rule);
+		background: transparent;
+		color: var(--text-muted);
+	}
+	.comment-button--quiet:hover:not(:disabled) {
+		border-color: color-mix(in srgb, var(--highlight) 35%, transparent);
+		color: var(--text);
+	}
+	.comment-button--primary {
+		border-color: var(--highlight);
+		background: var(--highlight);
+		color: var(--bg);
+	}
+	.comment-button--primary:hover:not(:disabled) {
+		background: color-mix(in srgb, var(--highlight) 85%, var(--text));
+	}
+	.comment-button--danger {
+		border-color: var(--danger-surface);
+		background: var(--danger-surface);
+		color: var(--text-on-danger);
+	}
+	.comment-button--danger:hover:not(:disabled) {
+		background: var(--danger-surface-hover);
+	}
+
+	.comment-spinner {
+		width: 16px;
+		height: 16px;
+		border: 2px solid color-mix(in srgb, currentColor 30%, transparent);
+		border-top-color: currentColor;
+		border-radius: 50%;
+		animation: comment-spin 0.7s linear infinite;
+	}
+	.comment-spinner--small {
+		width: 14px;
+		height: 14px;
+		color: var(--highlight);
+	}
+	@keyframes comment-spin {
+		to {
+			transform: rotate(360deg);
+		}
 	}
 
 	.comment-thread {
-		padding: 0 1rem 1rem;
+		padding-bottom: 12px;
 	}
-
 	.reply-toggle {
 		display: inline-flex;
 		align-items: center;
-		gap: 0.35rem;
-		min-height: 2.75rem;
-		padding: 0 0.5rem;
+		gap: 6px;
+		min-height: 44px;
+		padding: 0 8px 0 2px;
 		border: 0;
-		border-radius: 0.625rem;
+		border-radius: 8px;
 		background: transparent;
-		text-align: left;
-		transition: background-color 0.2s ease;
+		color: var(--highlight);
+		font-size: var(--font-size-sm);
+		font-weight: 600;
+		cursor: pointer;
 	}
-
 	.reply-toggle:hover {
-		background: var(--stone-mid);
+		background: color-mix(in srgb, var(--highlight) 8%, transparent);
 	}
-
+	.reply-toggle__icon {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 20px;
+		height: 20px;
+	}
+	.reply-toggle :global(.reply-chevron) {
+		transition: transform 0.2s;
+	}
+	.reply-toggle :global(.reply-chevron--open) {
+		transform: rotate(90deg);
+	}
 	.nested-comments {
-		margin-left: 1.25rem;
-		padding-left: 0.5rem;
+		margin-top: 4px;
+		padding-left: 16px;
+		border-left: 1px solid color-mix(in srgb, var(--highlight) 22%, transparent);
 	}
 
+	.comment-read-more:focus-visible,
+	.comment-action:focus-visible,
+	.reply-toggle:focus-visible,
+	.comment-button:focus-visible,
+	.comment-menu__item:focus-visible,
+	.comment-author--link:focus-visible,
 	:global(.comment-overflow button:focus-visible) {
-		outline: 2px solid var(--lamp-glow);
+		outline: 2px solid var(--focus);
 		outline-offset: 2px;
 	}
 
+	.comment-modal {
+		width: 100%;
+	}
+	.comment-modal__title {
+		margin: 0 0 8px;
+		color: var(--text);
+		font-size: calc(var(--font-size-xl) * 1.2);
+		font-weight: 600;
+	}
+	.comment-modal__copy {
+		margin: 0 0 24px;
+		color: var(--text-muted);
+		font-size: var(--font-size-sm);
+	}
+	.comment-modal__fieldset {
+		margin: 0;
+		padding: 0;
+		border: 0;
+	}
+	.comment-modal__group {
+		display: grid;
+		gap: 10px;
+		margin-bottom: 24px;
+	}
+	.comment-modal .comment-field--roomy {
+		margin-top: 8px;
+	}
+	.comment-modal__group .comment-field--roomy {
+		margin-top: 0;
+	}
+	.comment-modal__actions {
+		display: flex;
+		flex-direction: column-reverse;
+		gap: 12px;
+		margin-top: 28px;
+	}
+	.comment-required {
+		color: var(--error-text);
+	}
+	.comment-optional {
+		color: var(--text-faint);
+		font-weight: 400;
+	}
+	.comment-notice {
+		display: flex;
+		align-items: center;
+		gap: 12px;
+		margin-bottom: 24px;
+		padding: 14px 16px;
+		border: 1px solid color-mix(in srgb, var(--highlight) 24%, transparent);
+		border-radius: 12px;
+		background: color-mix(in srgb, var(--highlight) 8%, transparent);
+		color: var(--text);
+	}
+	.comment-notice--error {
+		border-color: color-mix(in srgb, var(--error-text) 35%, transparent);
+		background: color-mix(in srgb, var(--error-text) 10%, transparent);
+		color: var(--error-text);
+	}
+	.comment-notice__icon {
+		flex-shrink: 0;
+		width: 20px;
+		height: 20px;
+	}
+
+	@media (min-width: 640px) {
+		.comment-modal__actions {
+			flex-direction: row;
+			justify-content: flex-end;
+		}
+	}
+	@media (max-width: 639px) {
+		.comment-modal__actions .comment-button {
+			width: 100%;
+		}
+	}
+
 	@media (max-width: 520px) {
-		.comment-card__main {
-			padding: 1rem 0.875rem 0.875rem;
+		.comment-card {
+			--chip: 28px;
+			--chip-gap: 12px;
 		}
-
+		.comment-card--nested {
+			--chip: 24px;
+			--chip-gap: 10px;
+		}
+		.comment-card--own .comment-card__main {
+			padding-inline: 12px;
+		}
+		.comment-card--own .comment-composer,
+		.comment-card--own .comment-thread {
+			margin-right: 12px;
+			margin-left: 12px;
+		}
 		.comment-footer {
-			align-items: flex-start;
 			flex-wrap: wrap;
-			gap: 0.25rem 0.75rem;
+			align-items: flex-start;
+			gap: 0 12px;
 		}
-
 		.comment-meta {
-			min-height: 2rem;
+			min-height: 28px;
 		}
-
 		.comment-actions {
 			flex: 1 0 100%;
-			margin-left: -0.5rem;
+			margin-left: -10px;
 		}
-
 		.comment-composer,
 		.comment-thread {
-			margin-inline: 0.875rem;
-			padding-inline: 0.75rem;
+			margin-left: 0;
 		}
-
-		.comment-thread {
-			margin-inline: 0;
-			padding-inline: 0.875rem;
-		}
-
 		.nested-comments {
-			margin-left: 0.5rem;
-			padding-left: 0;
+			padding-left: 12px;
 		}
 	}
 
 	@media (max-width: 380px) {
 		.comment-action {
-			padding-inline: 0.5rem;
+			padding-inline: 8px;
 		}
 	}
 </style>

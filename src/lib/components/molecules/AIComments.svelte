@@ -58,27 +58,27 @@
 	}
 
 	.nine-takes__head {
-		margin-bottom: 0.75rem;
+		margin-bottom: 0.25rem;
 	}
 
 	.nine-takes__title {
 		margin: 0;
-		color: var(--ink-bright);
-		font-size: 1.05rem;
-		font-weight: 700;
-		letter-spacing: -0.01em;
+		color: var(--text);
+		font-family: var(--font-voice);
+		font-style: italic;
+		font-size: var(--font-size-xl);
+		font-weight: 500;
 	}
 
 	.nine-takes__sub {
 		margin: 0.2rem 0 0;
-		color: var(--ink-dim);
-		font-size: 0.8rem;
+		color: var(--text-faint);
+		font-size: var(--font-size-sm);
 		line-height: 1.5;
 	}
 
 	.chorus-perspectives {
 		display: grid;
 		grid-template-columns: 1fr;
-		gap: 0.7rem;
 	}
 </style>

@@ -6,7 +6,7 @@
 </script>
 
 <script lang="ts">
-	import { onMount, untrack } from 'svelte';
+	import { onMount, untrack, type Snippet } from 'svelte';
 	import { deserialize } from '$app/forms';
 	import { slide } from 'svelte/transition';
 	import { cubicOut } from 'svelte/easing';
@@ -50,6 +50,9 @@
 		/** An eligible anonymous first answer earns the optional reply-email tray,
 		 * which the page renders in the thread under the visitor's own take. */
 		onreplyOptIn?: (offer: ReplyOptInOffer) => void;
+		/** Question pages: the meta line (take count, gate state) that shares a row
+		 * with the quiet Subscribe / Share controls. */
+		meta?: Snippet;
 	}
 
 	let {
@@ -59,7 +62,8 @@
 		questionId,
 		isDemo = false,
 		oncommentAdded,
-		onreplyOptIn
+		onreplyOptIn,
+		meta
 	}: Props = $props();
 
 	// Type guard to check if data is QuestionPageData
@@ -150,9 +154,9 @@
 	let cachedFingerprint = $state<string | null>(null);
 
 	let isSubscribed = $derived(subscriptions.some((e) => e.user_id === user?.id));
-	let questionCommentActionLabel = $derived(userHasAnswered ? 'Comment' : 'Add your take');
+	let questionCommentActionLabel = $derived(userHasAnswered ? 'Add another take' : 'Add your take');
 	let questionCommentActionAria = $derived(
-		userHasAnswered ? 'Write a comment' : 'Add your take to reveal the other answers'
+		userHasAnswered ? 'Add another take' : 'Add your take to reveal the other answers'
 	);
 	let commentActionLabel = $derived(
 		parentType === 'question' ? questionCommentActionLabel : 'Reply'
@@ -162,6 +166,25 @@
 	);
 	let composerKind: CommentCreatedKind = $derived(
 		parentType === 'comment' ? 'reply' : userHasAnswered ? 'comment' : 'answer'
+	);
+
+	let isQuestion = $derived(parentType === 'question');
+	let signedIn = $derived(
+		Boolean(user?.id) || (isQuestionPageData(data) && Boolean(data.flags?.userSignedIn))
+	);
+	let takeCount = $derived(
+		isQuestionPageData(data) ? Math.max(Number(data.comment_count) || 0, 0) : 0
+	);
+	// The question page's one mint action names what posting buys.
+	let answerSubmitLabel = $derived(
+		takeCount > 0 ? `Post & see all ${takeCount.toLocaleString('en-US')}` : 'Post your take'
+	);
+	let composerLabel = $derived(
+		composerKind === 'answer'
+			? 'Your take'
+			: composerKind === 'comment'
+				? 'Another take'
+				: `Your ${composerKind}`
 	);
 
 	let composerKindTitle = $derived(
@@ -652,33 +675,153 @@
 	</svg>
 {/snippet}
 
-<div class="interact-shell">
-	<div class="interaction-toolbar">
-		<div class="toolbar-buttons">
-			<!-- While the composer is open its Post button is the one primary action,
-			     so this toggle steps down to secondary instead of competing with it. -->
-			<Button
-				title={commenting ? `Hide ${composerKind} box` : commentActionLabel}
-				class="interaction-toolbar-button"
-				variant={commenting ? 'secondary' : 'primary'}
-				size="md"
-				onclick={toggleComposer}
-				disabled={voiceBusy}
-				aria-label={commenting ? `Hide ${composerKind} box` : commentActionAria}
-				aria-expanded={commenting}
-				aria-controls={commenting ? composerSurfaceId : undefined}
-				aria-busy={voiceBusy || undefined}
-				icon={commentIcon}
-			>
-				{commenting ? `Hide ${composerKind} box` : commentActionLabel}
-			</Button>
+{#snippet composer()}
+	<div
+		class={['composer-surface', isQuestion && 'composer-surface--flat']}
+		id={composerSurfaceId}
+		transition:slide={{ duration: reduceMotion ? 0 : COMPOSER_COLLAPSE_MS, easing: cubicOut }}
+	>
+		<div class="composer-body">
+			{#if isQuestion && comment.length === 0}
+				<p class="depth-prompt">
+					<span class="depth-prompt__lead">Dig deeper:</span>
+					{depthPrompts[currentPromptIndex]}
+				</p>
+			{/if}
+			<label class="composer-label" for={textareaId}>{composerLabel}</label>
+			<textarea
+				bind:this={textareaElement}
+				placeholder={isQuestion
+					? 'Share what happened, give an example, or explain what shaped your view.'
+					: 'Share what you want to add.'}
+				class="composer-textarea resize-none overflow-y-auto"
+				bind:value={comment}
+				id={textareaId}
+				aria-invalid={commentError ? 'true' : 'false'}
+				aria-describedby={textareaDescribedBy}
+				rows="4"
+				oninput={handleTextareaInput}
+				onkeydown={handleKeydown}
+				onselect={rememberCommentSelection}
+				onclick={rememberCommentSelection}
+				onkeyup={rememberCommentSelection}></textarea>
+			{#if shortAnswerNudge}
+				<div
+					class="short-answer-nudge"
+					id={nudgeId}
+					role="status"
+					in:slide={{ duration: reduceMotion ? 0 : 200 }}
+				>
+					<span class="short-answer-nudge__icon">&#9997;</span>
+					<p class="short-answer-nudge__copy">
+						<span class="font-medium">Your {composerKind} could go deeper.</span> Try adding a
+						personal story, a specific example, or what shaped your perspective. You can still
+						<button class="short-answer-nudge__action" type="button" onclick={createComment}>
+							post as-is
+						</button>.
+					</p>
+				</div>
+			{/if}
+			{#if commentError}
+				<p class="composer-error" id={errorId} role="alert">
+					{commentError}
+				</p>
+			{/if}
+		</div>
+		<div
+			class={['composer-footer', voiceBusy && 'composer-footer--voice-active']}
+			aria-busy={voiceBusy || undefined}
+		>
+			<VoiceRecorder
+				id={`${composerId}-voice-recorder`}
+				label={`Record your ${composerKind === 'answer' ? 'take' : composerKind}`}
+				disabled={loading}
+				onbeforestart={rememberCommentSelection}
+				ontranscript={insertVoiceTranscript}
+				onbusychange={(busy) => (voiceBusy = busy)}
+			/>
+			{#if !voiceBusy}
+				<div class="composer-footer__actions">
+					{#if isQuestion && composerKind === 'answer'}
+						<p class="composer-note">
+							{#if signedIn}
+								<b>Public.</b> Posts from your account.
+							{:else}
+								<b>Anonymous.</b> No account needed.
+							{/if}
+						</p>
+					{/if}
+					{#if userHasAnswered}
+						<Button
+							class="composer-action-button"
+							variant="secondary"
+							size="md"
+							type="button"
+							onclick={() => {
+								commenting = false;
+								comment = '';
+							}}
+							disabled={loading}
+						>
+							Cancel
+						</Button>
+					{/if}
+					<Button
+						class="composer-action-button composer-action-button--submit"
+						variant={isQuestion && composerKind === 'answer' ? 'action' : 'primary'}
+						size="md"
+						type="button"
+						onclick={createComment}
+						disabled={(composerKind !== 'answer' && !comment.trim()) || loading}
+						{loading}
+						id={commentButtonId}
+					>
+						{#if confirmShortSubmit}
+							Post anyway
+						{:else if composerKind === 'answer'}
+							{answerSubmitLabel}
+						{:else}
+							Post {composerKind === 'comment' ? 'take' : composerKind}
+						{/if}
+					</Button>
+				</div>
+			{/if}
+		</div>
+	</div>
+{/snippet}
 
-			{#if parentType === 'question'}
+{#if isQuestion}
+	<!-- Question page: one quiet row (meta + Subscribe / Share), then the composer.
+	     Before the visitor answers, the composer is the page's main event: always
+	     open, with the Post button as the one mint action in view. -->
+	<div class="interact-shell interact-shell--question">
+		<div class="question-actions">
+			{#if meta}
+				<div class="question-actions__meta">{@render meta()}</div>
+			{/if}
+			<div class="question-actions__buttons">
+				{#if userHasAnswered}
+					<Button
+						title={commenting ? `Hide ${composerKind} box` : commentActionLabel}
+						class="question-action"
+						variant="ghost"
+						size="sm"
+						onclick={toggleComposer}
+						disabled={voiceBusy}
+						aria-label={commenting ? `Hide ${composerKind} box` : commentActionAria}
+						aria-expanded={commenting}
+						aria-controls={commenting ? composerSurfaceId : undefined}
+						aria-busy={voiceBusy || undefined}
+						icon={commentIcon}
+					>
+						{commenting ? 'Hide' : commentActionLabel}
+					</Button>
+				{/if}
 				<Button
 					title={isSubscribed ? 'Unsubscribe' : 'Subscribe'}
-					class="interaction-toolbar-button"
-					variant={isSubscribed ? 'ghost' : 'secondary'}
-					size="md"
+					class="question-action"
+					variant="ghost"
+					size="sm"
 					onclick={toggleSubscription}
 					disabled={subscriptionLoading}
 					loading={subscriptionLoading}
@@ -690,12 +833,11 @@
 				>
 					{isSubscribed ? 'Subscribed' : 'Subscribe'}
 				</Button>
-
 				<Button
 					title="Share this question"
-					class="interaction-toolbar-button"
-					variant="secondary"
-					size="md"
+					class="question-action"
+					variant="ghost"
+					size="sm"
 					onclick={shareQuestionFromToolbar}
 					disabled={shareLoading}
 					loading={shareLoading}
@@ -705,118 +847,40 @@
 				>
 					Share
 				</Button>
-			{/if}
+			</div>
 		</div>
-	</div>
 
-	{#if commenting}
-		<div
-			class="composer-surface"
-			id={composerSurfaceId}
-			transition:slide={{ duration: reduceMotion ? 0 : COMPOSER_COLLAPSE_MS, easing: cubicOut }}
-		>
-			<div class="composer-body">
-				{#if parentType === 'question' && comment.length === 0}
-					<p class="depth-prompt">
-						<span class="font-medium text-[var(--lamp-glow)]">Dig deeper:</span>
-						{depthPrompts[currentPromptIndex]}
-					</p>
-				{/if}
-				<label class="composer-label" for={textareaId}>
-					Your {composerKind}
-				</label>
-				<textarea
-					bind:this={textareaElement}
-					placeholder={parentType === 'question'
-						? 'Share what happened, give an example, or explain what shaped your view.'
-						: 'Share what you want to add.'}
-					class="composer-textarea resize-none overflow-y-auto"
-					bind:value={comment}
-					id={textareaId}
-					aria-invalid={commentError ? 'true' : 'false'}
-					aria-describedby={textareaDescribedBy}
-					rows="4"
-					oninput={handleTextareaInput}
-					onkeydown={handleKeydown}
-					onselect={rememberCommentSelection}
-					onclick={rememberCommentSelection}
-					onkeyup={rememberCommentSelection}></textarea>
-				{#if shortAnswerNudge}
-					<div
-						class="short-answer-nudge"
-						id={nudgeId}
-						role="status"
-						in:slide={{ duration: reduceMotion ? 0 : 200 }}
-					>
-						<span class="short-answer-nudge__icon">&#9997;</span>
-						<p class="short-answer-nudge__copy">
-							<span class="font-medium">Your {composerKind} could go deeper.</span> Try adding a
-							personal story, a specific example, or what shaped your perspective. You can still
-							<button class="short-answer-nudge__action" type="button" onclick={createComment}>
-								post as-is
-							</button>.
-						</p>
-					</div>
-				{/if}
-				{#if commentError}
-					<p class="composer-error" id={errorId} role="alert">
-						{commentError}
-					</p>
-				{/if}
-			</div>
-			<div
-				class={['composer-footer', voiceBusy && 'composer-footer--voice-active']}
-				aria-busy={voiceBusy || undefined}
-			>
-				<VoiceRecorder
-					id={`${composerId}-voice-recorder`}
-					label={`Record your ${composerKind}`}
-					disabled={loading}
-					onbeforestart={rememberCommentSelection}
-					ontranscript={insertVoiceTranscript}
-					onbusychange={(busy) => (voiceBusy = busy)}
-				/>
-				{#if !voiceBusy}
-					<div class="composer-footer__actions">
-						{#if userHasAnswered}
-							<Button
-								class="composer-action-button"
-								variant="secondary"
-								size="md"
-								type="button"
-								onclick={() => {
-									commenting = false;
-									comment = '';
-								}}
-								disabled={loading}
-							>
-								Cancel
-							</Button>
-						{/if}
-						<Button
-							class="composer-action-button composer-action-button--submit"
-							variant="primary"
-							size="md"
-							type="button"
-							onclick={createComment}
-							disabled={!comment.trim() || loading}
-							{loading}
-							id={commentButtonId}
-						>
-							{#if confirmShortSubmit}
-								Post anyway
-							{:else if composerKind === 'answer'}
-								Post answer and reveal
-							{:else}
-								Post {composerKind}
-							{/if}
-						</Button>
-					</div>
-				{/if}
+		{#if commenting}
+			{@render composer()}
+		{/if}
+	</div>
+{:else}
+	<div class="interact-shell">
+		<div class="interaction-toolbar">
+			<div class="toolbar-buttons">
+				<Button
+					title={commenting ? `Hide ${composerKind} box` : commentActionLabel}
+					class="interaction-toolbar-button"
+					variant={commenting ? 'secondary' : 'primary'}
+					size="md"
+					onclick={toggleComposer}
+					disabled={voiceBusy}
+					aria-label={commenting ? `Hide ${composerKind} box` : commentActionAria}
+					aria-expanded={commenting}
+					aria-controls={commenting ? composerSurfaceId : undefined}
+					aria-busy={voiceBusy || undefined}
+					icon={commentIcon}
+				>
+					{commenting ? `Hide ${composerKind} box` : commentActionLabel}
+				</Button>
 			</div>
 		</div>
-	{/if}
-</div>
+
+		{#if commenting}
+			{@render composer()}
+		{/if}
+	</div>
+{/if}
 
 <style>
 	.interact-shell {
@@ -825,30 +889,86 @@
 		gap: 0.85rem;
 	}
 
+	/* ---------- question page: quiet row + flat composer ---------- */
+	.interact-shell--question {
+		gap: 1.25rem;
+	}
+
+	.question-actions {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-between;
+		gap: 0.5rem 1rem;
+		min-width: 0;
+	}
+
+	.question-actions__meta {
+		min-width: 0;
+		flex: 1 1 18rem;
+	}
+
+	.question-actions__buttons {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.25rem;
+		margin-right: -0.5rem;
+	}
+
+	:global(.question-action.btn) {
+		min-height: 44px;
+		color: var(--text-muted);
+		font-weight: 500;
+	}
+
+	:global(.question-action.btn:hover:not(:disabled)) {
+		color: var(--highlight);
+	}
+
+	/* Phone: the meta and the two quiet icons share one line; names stay in aria-label. */
+	@media (max-width: 520px) {
+		.question-actions {
+			flex-wrap: nowrap;
+			align-items: flex-start;
+		}
+
+		.question-actions__meta {
+			flex: 1 1 auto;
+		}
+
+		.question-actions__buttons {
+			flex: 0 0 auto;
+			flex-wrap: nowrap;
+			margin-top: -10px;
+		}
+
+		:global(.question-action.btn) {
+			min-width: 44px;
+			padding-inline: 10px;
+		}
+
+		:global(.question-action.btn .btn-label) {
+			position: absolute;
+			width: 1px;
+			height: 1px;
+			overflow: hidden;
+			clip-path: inset(50%);
+			white-space: nowrap;
+		}
+	}
+
+	/* ---------- reply / legacy toolbar ---------- */
 	.interaction-toolbar {
 		padding: 0.8rem;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 16%, var(--stone-edge));
+		border: 1px solid var(--rule);
 		border-radius: 1rem;
-		background:
-			linear-gradient(
-				180deg,
-				color-mix(in srgb, var(--lamp-soft) 32%, transparent) 0%,
-				transparent 100%
-			),
-			color-mix(in srgb, var(--stone-warm) 96%, var(--night-deep));
-		box-shadow: var(--shadow-sm);
+		background: var(--surface);
 	}
 
 	.toolbar-buttons {
 		display: flex;
 		flex-wrap: wrap;
 		gap: 0.5rem;
-	}
-
-	@media (min-width: 640px) {
-		.toolbar-buttons {
-			gap: 0.75rem;
-		}
 	}
 
 	:global(.interaction-toolbar-button) {
@@ -864,49 +984,60 @@
 		white-space: nowrap;
 	}
 
+	/* ---------- composer ---------- */
 	.composer-surface {
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 18%, var(--stone-edge));
+		border: 1px solid var(--rule);
 		border-radius: 1rem;
-		background:
-			linear-gradient(
-				180deg,
-				color-mix(in srgb, var(--lamp-soft) 36%, transparent) 0%,
-				transparent 30%
-			),
-			color-mix(in srgb, var(--stone-warm) 97%, var(--night-deep));
-		box-shadow: var(--shadow-sm);
+		background: var(--surface);
+	}
+
+	/* On the question page the composer sits straight on the page: no box in a box. */
+	.composer-surface--flat {
+		border: 0;
+		border-radius: 0;
+		background: transparent;
 	}
 
 	.composer-body {
 		padding: 1rem 1rem 0.75rem;
 	}
 
+	.composer-surface--flat .composer-body {
+		padding: 0 0 0.75rem;
+	}
+
 	.composer-label {
 		display: block;
-		margin: 0 0 0.45rem;
-		color: var(--ink-bright);
-		font-size: 0.875rem;
+		margin: 0 0 0.5rem;
+		color: var(--highlight);
+		font-size: var(--font-size-sm);
 		font-weight: 600;
 	}
 
 	.depth-prompt {
-		margin: 0 0 0.75rem;
-		padding: 0.6rem 0.8rem;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 18%, transparent);
-		border-radius: 0.625rem;
-		background: color-mix(in srgb, var(--lamp-soft) 42%, transparent);
-		color: color-mix(in srgb, var(--lamp-glow) 72%, var(--ink-mid));
-		font-size: 0.78rem;
-		line-height: 1.5;
+		margin: 0 0 0.85rem;
+		color: var(--highlight);
+		font-family: var(--font-voice);
+		font-style: italic;
+		font-size: var(--font-size-lg);
+		line-height: 1.4;
+	}
+
+	.depth-prompt__lead {
+		color: var(--text-muted);
 	}
 
 	.composer-footer {
 		display: grid;
 		min-width: 0;
-		grid-template-columns: minmax(0, 1fr) auto;
+		grid-template-columns: minmax(0, auto) minmax(0, 1fr);
 		align-items: center;
 		gap: 1rem;
 		padding: 0 1rem 1rem;
+	}
+
+	.composer-surface--flat .composer-footer {
+		padding: 0;
 	}
 
 	.composer-footer--voice-active {
@@ -916,45 +1047,62 @@
 
 	.composer-footer__actions {
 		display: flex;
+		flex-wrap: wrap;
 		min-width: 0;
 		align-items: center;
 		justify-content: flex-end;
-		gap: 0.75rem;
+		gap: 0.75rem 1rem;
 		justify-self: end;
 	}
 
-	/* The writing field needs its own visible edge: it sits on the composer's
-	   warm surface, so a stone-warm border and a translucent fill vanished. */
+	.composer-note {
+		margin: 0;
+		color: var(--text-muted);
+		font-size: var(--font-size-sm);
+	}
+
+	.composer-note b {
+		color: var(--text);
+		font-weight: 600;
+	}
+
+	:global(.composer-action-button--submit.btn--action) {
+		min-height: 48px;
+		padding-inline: 1.4rem;
+		border-radius: 999px;
+		font-weight: 700;
+	}
+
 	.composer-textarea {
 		display: block;
 		width: 100%;
 		min-height: 80px;
 		max-height: 20rem;
 		padding: 1rem;
-		border: 1px solid var(--stone-edge);
-		border-radius: 0.625rem;
-		background: color-mix(in srgb, var(--night-deep) 72%, transparent);
-		color: var(--ink-bright);
+		border: 1px solid var(--accent);
+		border-radius: 0.75rem;
+		background: var(--bg);
+		color: var(--text);
 		font: inherit;
-		font-size: 16px;
+		font-size: var(--font-size-base);
 		line-height: 1.5;
 		transition:
 			border-color 0.15s ease,
 			box-shadow 0.15s ease;
 	}
 
-	.composer-textarea:hover {
-		border-color: color-mix(in srgb, var(--lamp-glow) 30%, var(--stone-edge));
+	.composer-surface--flat .composer-textarea {
+		min-height: 7.5rem;
 	}
 
 	.composer-textarea:focus {
-		border-color: var(--lamp-glow);
+		border-color: var(--highlight);
 		outline: none;
-		box-shadow: 0 0 0 3px color-mix(in srgb, var(--lamp-glow) 18%, transparent);
+		box-shadow: 0 0 0 1px var(--highlight);
 	}
 
 	.composer-textarea::placeholder {
-		color: var(--ink-mid);
+		color: var(--text-faint);
 		opacity: 1;
 	}
 
@@ -964,21 +1112,21 @@
 		gap: 0.5rem;
 		margin-top: 0.5rem;
 		padding: 0.5rem 0.75rem;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 22%, var(--stone-edge));
+		border: 1px solid var(--rule);
 		border-radius: 0.625rem;
-		background: var(--lamp-soft);
+		background: color-mix(in srgb, var(--highlight) 6%, transparent);
 	}
 
 	.short-answer-nudge__icon {
 		margin-top: 0.125rem;
-		color: var(--lamp-glow);
+		color: var(--highlight);
 	}
 
 	.short-answer-nudge__copy {
 		margin: 0;
-		font-size: 0.75rem;
+		font-size: var(--font-size-sm);
 		line-height: 1.55;
-		color: var(--ink-mid);
+		color: var(--text-muted);
 	}
 
 	.short-answer-nudge__action {
@@ -986,7 +1134,7 @@
 		padding: 0;
 		border: 0;
 		background: transparent;
-		color: var(--lamp-glow);
+		color: var(--highlight);
 		font: inherit;
 		font-weight: 600;
 		text-decoration: underline;
@@ -994,17 +1142,15 @@
 		cursor: pointer;
 	}
 
-	.short-answer-nudge__action:hover,
 	:global(.short-answer-nudge__action:focus-visible) {
-		color: var(--lamp-light);
-		outline: 2px solid var(--lamp-glow);
+		outline: 2px solid var(--focus);
 		outline-offset: 2px;
 	}
 
 	.composer-error {
 		margin: 0.6rem 0 0;
 		color: var(--error-text);
-		font-size: 0.875rem;
+		font-size: var(--font-size-sm);
 		font-weight: 600;
 		line-height: 1.45;
 	}
@@ -1022,19 +1168,13 @@
 		.composer-footer {
 			gap: 0.75rem;
 		}
-
-		.composer-footer__actions {
-			flex: 1 1 auto;
-			gap: 0.5rem;
-		}
-
-		:global(.composer-action-button) {
-			flex: 1 1 0;
-			min-width: 0;
-		}
 	}
 
 	@media (max-width: 520px) {
+		.depth-prompt {
+			font-size: var(--font-size-base);
+		}
+
 		.composer-textarea {
 			max-height: 16rem;
 		}
@@ -1047,12 +1187,16 @@
 		.composer-footer__actions {
 			width: 100%;
 			justify-self: stretch;
+			justify-content: stretch;
 		}
-	}
 
-	@media (max-width: 380px) {
-		:global(.interaction-toolbar-button) {
-			font-size: 0.85rem;
+		.composer-note {
+			flex: 1 1 100%;
+		}
+
+		:global(.composer-action-button) {
+			flex: 1 1 0;
+			min-width: 0;
 		}
 	}
 </style>

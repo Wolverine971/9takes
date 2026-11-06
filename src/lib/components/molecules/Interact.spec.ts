@@ -213,7 +213,8 @@ describe('Interact', () => {
 			target: { value: longComment }
 		});
 
-		const button = getByRole('button', { name: /post answer/i });
+		const button = getByRole('button', { name: 'Post & see all 11' });
+		expect(button.className).toContain('btn--action');
 		await fireEvent.click(button);
 
 		await waitFor(() => {
@@ -257,7 +258,7 @@ describe('Interact', () => {
 			expect.objectContaining({ id: 123 })
 		);
 		expect(captureCommentStartedMock).toHaveBeenCalledTimes(1);
-		expect(queryByRole('textbox', { name: /your answer/i })).toBeNull();
+		expect(queryByRole('textbox', { name: /your take/i })).toBeNull();
 		// The optional reply-email tray now renders in the thread (page-owned),
 		// so Interact only hands over the eligible offer.
 		expect(onreplyOptIn).toHaveBeenCalledWith({
@@ -314,15 +315,15 @@ describe('Interact', () => {
 			}
 		});
 
-		await fireEvent.input(getByRole('textbox', { name: /your answer/i }), {
+		await fireEvent.input(getByRole('textbox', { name: /your take/i }), {
 			target: { value: 'A long answer '.repeat(12) }
 		});
-		await fireEvent.click(getByRole('button', { name: /post answer/i }));
+		await fireEvent.click(getByRole('button', { name: /^post (your take|& see all)/i }));
 		await waitFor(() => expect(fetchMock).toHaveBeenCalledTimes(1));
 		expect(onreplyOptIn).not.toHaveBeenCalled();
 	});
 
-	it('steps the toolbar toggle down to secondary while the composer is open', async () => {
+	it('keeps the composer open with no toggle before the first answer', async () => {
 		const { getByRole, queryByRole } = render(Interact, {
 			intro: false,
 			props: {
@@ -355,13 +356,17 @@ describe('Interact', () => {
 			}
 		});
 
-		const toggle = getByRole('button', { name: 'Hide answer box' });
-		expect(toggle.className).toContain('btn--secondary');
-		expect(toggle.getAttribute('aria-expanded')).toBe('true');
-		await fireEvent.click(toggle);
-		await waitFor(() => expect(queryByRole('textbox', { name: /your answer/i })).toBeNull());
-		const reopen = getByRole('button', { name: 'Add your take to reveal the other answers' });
-		expect(reopen.className).toContain('btn--primary');
+		// Give-first: the composer is the page's main event, so there is nothing to hide it with.
+		expect(getByRole('textbox', { name: /your take/i })).toBeTruthy();
+		expect(queryByRole('button', { name: /hide answer box/i })).toBeNull();
+		// No takes yet: the mint button just posts.
+		const post = getByRole('button', { name: 'Post your take' });
+		expect(post.className).toContain('btn--action');
+		// Subscribe and Share are quiet ghost controls, not equal-weight toolbar buttons.
+		expect(getByRole('button', { name: 'Subscribe to this question' }).className).toContain(
+			'btn--ghost'
+		);
+		expect(getByRole('button', { name: 'Share this question' }).className).toContain('btn--ghost');
 	});
 
 	it('tells an anonymous visitor who already answered to sign up before opening a second composer', async () => {
@@ -397,8 +402,8 @@ describe('Interact', () => {
 			}
 		});
 
-		await fireEvent.click(getByRole('button', { name: 'Write a comment' }));
-		expect(queryByRole('textbox', { name: /your comment/i })).toBeNull();
+		await fireEvent.click(getByRole('button', { name: 'Add another take' }));
+		expect(queryByRole('textbox', { name: /another take/i })).toBeNull();
 		expect(notificationsInfoMock).toHaveBeenCalledWith(
 			'Sign up or log in to comment multiple times.',
 			3000
@@ -560,7 +565,7 @@ describe('Interact', () => {
 			target: { value: shortComment }
 		});
 
-		await fireEvent.click(getByRole('button', { name: /post answer/i }));
+		await fireEvent.click(getByRole('button', { name: /^post (your take|& see all)/i }));
 
 		expect(fetchMock).not.toHaveBeenCalled();
 		expect(getByText(/your answer could go deeper\./i)).toBeTruthy();

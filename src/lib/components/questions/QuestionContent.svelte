@@ -1,6 +1,6 @@
 <!-- src/lib/components/questions/QuestionContent.svelte -->
 <script lang="ts">
-	import { onDestroy, onMount, type Snippet } from 'svelte';
+	import { onDestroy, onMount, untrack, type Snippet } from 'svelte';
 	import { browser } from '$app/environment';
 	import { resolve } from '$app/paths';
 	import { fade } from 'svelte/transition';
@@ -13,6 +13,8 @@
 	import { getExistingVisitorId } from '$lib/analytics/visitorIdentity';
 	import AIComments from '$lib/components/molecules/AIComments.svelte';
 	import AnswerGist from './AnswerGist.svelte';
+	import SealedTakes from './SealedTakes.svelte';
+	import type { SealedTakes as SealedTakesData } from './sealedTakes';
 	import ArticleLinks from '$lib/components/molecules/Links.svelte';
 	import ReplyNotificationReturn from './ReplyNotificationReturn.svelte';
 	import ReplyFocusThread from './ReplyFocusThread.svelte';
@@ -39,6 +41,10 @@
 		interstitial?: Snippet;
 		revealFailed?: boolean;
 		onretryReveal?: () => void;
+		/** Locked state: who answered and when (never take text). */
+		sealed?: SealedTakesData | null;
+		/** Locked state: moves the visitor to the composer. */
+		oncompose?: () => void;
 	}
 
 	let {
@@ -50,7 +56,9 @@
 		afterOwnTakes,
 		interstitial,
 		revealFailed = false,
-		onretryReveal
+		onretryReveal,
+		sealed = null,
+		oncompose
 	}: Props = $props();
 
 	// Local state
@@ -105,7 +113,15 @@
 	let replyFocusParentId = $derived(replyFocus?.parent?.id ?? null);
 	let hiddenFromCommunity = $derived(replyFocusParentId === null ? [] : [replyFocusParentId]);
 	let validAiComments = $derived((_data.aiComments ?? []).filter(hasValidAiType));
-	let publicAiPreviewComments = $derived(validAiComments.slice(0, 3));
+
+	// The reveal moment: only when the gate opens on this page, not on a direct
+	// load of a thread the visitor already unlocked. Resets per question.
+	// (The takes' staggered un-blur lives in RankedComments.)
+	let lockedOnArrival = $derived.by(() => {
+		void data.question.id;
+		return untrack(() => !data.flags.userHasAnswered);
+	});
+	let revealedHere = $derived(lockedOnArrival && data.flags.userHasAnswered);
 
 	function hasValidAiType(comment: AIComment): boolean {
 		const typeNumber = Number(comment.enneagram_type ?? comment.enneagram);
@@ -190,38 +206,45 @@
 
 {#key data.question.id}
 	<div class="question-content-shell">
-		<!-- Tabs Navigation -->
-		<div class="question-content-nav scrollbar-hide" role="tablist" aria-label="Question sections">
-			{#each tabs as tab (tab)}
-				{@const IconComponent = iconComponents[tab]}
-				{@const contentCount = getContentCount(tab)}
-				<button
-					id={getTabId(tab)}
-					role="tab"
-					aria-selected={selectedTab === tab}
-					aria-controls={getPanelId(tab)}
-					class="question-tab"
-					class:is-active={selectedTab === tab}
-					onclick={() => {
-						selectedTab = tab;
-						scrollToSection(getPanelId(tab));
-					}}
-				>
-					<span class="question-tab__icon" aria-hidden="true">
-						<IconComponent
-							iconStyle=""
-							height="1.25rem"
-							fill="currentColor"
-							type={tab === 'Comments' ? 'multiple' : undefined}
-						/>
-					</span>
-					<span class="question-tab__copy">
-						<span class="question-tab__count">{contentCount.count}</span>
-						<span class="question-tab__label">{contentCount.label}</span>
-					</span>
-				</button>
-			{/each}
-		</div>
+		<!-- Tabs Navigation: only once there's something to switch between. Before
+		     answering, the sealed takes are the whole story. -->
+		{#if data?.flags?.userHasAnswered}
+			<div
+				class="question-content-nav scrollbar-hide"
+				role="tablist"
+				aria-label="Question sections"
+			>
+				{#each tabs as tab (tab)}
+					{@const IconComponent = iconComponents[tab]}
+					{@const contentCount = getContentCount(tab)}
+					<button
+						id={getTabId(tab)}
+						role="tab"
+						aria-selected={selectedTab === tab}
+						aria-controls={getPanelId(tab)}
+						class="question-tab"
+						class:is-active={selectedTab === tab}
+						onclick={() => {
+							selectedTab = tab;
+							scrollToSection(getPanelId(tab));
+						}}
+					>
+						<span class="question-tab__icon" aria-hidden="true">
+							<IconComponent
+								iconStyle=""
+								height="1.25rem"
+								fill="currentColor"
+								type={tab === 'Comments' ? 'multiple' : undefined}
+							/>
+						</span>
+						<span class="question-tab__copy">
+							<span class="question-tab__count">{contentCount.count}</span>
+							<span class="question-tab__label">{contentCount.label}</span>
+						</span>
+					</button>
+				{/each}
+			</div>
+		{/if}
 
 		<!-- Tab Content -->
 		<div class="question-content-body">
@@ -245,86 +268,7 @@
 							{/if}
 							{#if !data?.flags?.userHasAnswered}
 								<div class="locked-comments-shell">
-									{#if publicAiPreviewComments.length}
-										<section class="public-perspective-preview" aria-label="Sample perspectives">
-											<div class="public-perspective-preview__head">
-												<h3 class="public-perspective-preview__title">Sample perspectives</h3>
-												<p class="public-perspective-preview__copy">
-													A preview of how the nine read it. The real thread stays locked until you
-													answer.
-												</p>
-											</div>
-
-											<div class="locked-preview-stage">
-												<!-- Give-first integrity: only the already-public AI sample cards
-												     are blurred here. Real community takes never reach the DOM
-												     before the user answers. data-nosnippet keeps the blurred
-												     sample text out of search snippets. -->
-												<div
-													class="public-perspective-preview__grid blurred-perspectives"
-													aria-hidden="true"
-													data-nosnippet
-												>
-													{#each publicAiPreviewComments as comment (comment.id)}
-														<article
-															class="public-perspective-card"
-															style="--comment-type-color: var(--type-{comment.enneagram_type}-color, var(--lamp-glow))"
-														>
-															<div class="public-perspective-card__eyebrow">
-																Type {comment.enneagram_type}
-															</div>
-															<p class="public-perspective-card__body">{comment.comment}</p>
-														</article>
-													{/each}
-												</div>
-
-												<div class="lock-message" role="status">
-													<span class="lock-icon" aria-hidden="true">
-														<svg
-															class="h-4 w-4"
-															fill="none"
-															stroke="currentColor"
-															viewBox="0 0 24 24"
-														>
-															<path
-																stroke-linecap="round"
-																stroke-linejoin="round"
-																stroke-width="2"
-																d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
-															/>
-														</svg>
-													</span>
-													<span class="lock-message__copy">
-														<strong>Other answers stay blurred.</strong>
-														Post yours to reveal them.
-														<span class="lock-message__meta">Anonymous · no account required</span>
-													</span>
-												</div>
-											</div>
-										</section>
-									{:else}
-										<div class="question-state question-state-locked">
-											<div class="state-icon state-icon-locked">
-												<svg
-													class="h-8 w-8 text-[var(--lamp-glow)]"
-													fill="none"
-													stroke="currentColor"
-													viewBox="0 0 24 24"
-												>
-													<path
-														stroke-linecap="round"
-														stroke-linejoin="round"
-														stroke-width="2"
-														d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
-													/>
-												</svg>
-											</div>
-											<p class="state-title" in:fade={{ duration: 200 }}>
-												Other answers stay blurred. Post yours to reveal them.
-											</p>
-											<p class="state-copy">Anonymous · no account required</p>
-										</div>
-									{/if}
+									<SealedTakes {sealed} count={displayCommentCount || 0} {oncompose} />
 									<!-- Present only for IP-verified Googlebot: the server never sends
 									     the gist to a human. Readers get the takes themselves, never an
 									     AI summary of them (T-43, DJ 2026-10-09). -->
@@ -344,11 +288,13 @@
 									{/if}
 
 									<header class="community-discussion-head">
-										<div>
-											<span>Community discussion</span>
-											<h3 id="takes-discussion" tabindex="-1">What people actually said</h3>
-										</div>
-										<p>Real answers from people who responded before reading the room.</p>
+										<p class="community-discussion-head__kicker">
+											{revealedHere ? 'Unsealed' : 'The room'}
+										</p>
+										<h3 id="takes-discussion" tabindex="-1">
+											{revealedHere ? 'The room, revealed.' : 'What the room said.'}
+										</h3>
+										<p>Everyone here answered before reading anyone else.</p>
 									</header>
 									<RankedComments
 										data={_data}
@@ -417,9 +363,8 @@
 {/key}
 
 <style>
-	/* The thread follows the flat reading-list grammar used by /questions.
-	   Controls still provide their own focus/hover states, while the content
-	   itself avoids nested card chrome. */
+	/* Flat reading-list grammar: no card chrome around the thread. Before the
+	   visitor answers, this is just the sealed takes. */
 	.question-content-shell {
 		position: relative;
 		min-width: 0;
@@ -431,7 +376,7 @@
 		display: flex;
 		overflow-x: auto;
 		padding: 0;
-		border-bottom: 1px solid var(--stone-edge);
+		border-bottom: 1px solid var(--rule);
 		background: transparent;
 	}
 
@@ -443,22 +388,20 @@
 		gap: 0.5rem;
 		flex: 1 1 0;
 		min-width: 0;
-		padding: 0.9rem 1rem;
+		min-height: 44px;
+		padding: 0.75rem 1rem;
 		border: 0;
 		border-radius: 0;
 		background: transparent;
-		color: var(--ink-mid);
-		font-size: 0.9rem;
+		color: var(--text-muted);
+		font-size: var(--font-size-sm);
 		font-weight: 600;
 		white-space: nowrap;
-		transition:
-			color 0.2s ease,
-			background-color 0.2s ease,
-			box-shadow 0.2s ease;
+		transition: color 0.2s ease;
 	}
 
 	.question-tab:focus-visible {
-		outline: 2px solid var(--lamp-glow);
+		outline: 2px solid var(--focus);
 		outline-offset: 2px;
 	}
 
@@ -487,24 +430,22 @@
 		white-space: nowrap;
 	}
 
-	.question-tab:hover {
-		color: var(--ink-bright);
-		background: color-mix(in srgb, var(--stone-warm) 58%, transparent);
+	.question-tab:hover,
+	.question-tab.is-active {
+		color: var(--text);
 	}
 
 	.question-tab.is-active {
-		color: var(--ink-bright);
-		background: transparent;
+		box-shadow: inset 0 -2px 0 var(--highlight);
 	}
 
 	.question-tab.is-active .question-tab__count {
-		color: var(--data-teal);
+		color: var(--highlight);
 	}
 
 	.question-content-body {
 		position: relative;
 		z-index: 1;
-		min-height: 22rem;
 	}
 
 	.question-content-section {
@@ -516,31 +457,33 @@
 	}
 
 	.question-content-section-inner {
-		padding: 1.4rem 0 1.6rem;
+		padding: 1.5rem 0 1.6rem;
 	}
 
 	.community-discussion-head {
-		display: grid;
-		grid-template-columns: minmax(0, 1fr) minmax(13rem, 0.7fr);
-		align-items: end;
-		gap: 1rem;
-		margin: 0 1rem 0.75rem;
+		display: flex;
+		flex-direction: column;
+		gap: 0.35rem;
+		margin: 0 0 1.25rem;
 	}
 
-	.community-discussion-head span {
-		color: var(--lamp-glow);
-		font-family: 'JetBrains Mono', ui-monospace, monospace;
-		font-size: 0.64rem;
-		letter-spacing: 0.07em;
+	.community-discussion-head__kicker {
+		color: var(--highlight);
+		font-size: var(--font-size-xs);
+		font-weight: 600;
+		letter-spacing: 0.14em;
 		text-transform: uppercase;
 	}
 
 	.community-discussion-head h3 {
-		margin: 0.3rem 0 0;
-		color: var(--ink-bright);
-		font-size: 1.15rem;
-		font-weight: 700;
-		letter-spacing: -0.015em;
+		--room-title: clamp(1.75rem, 1.35rem + 1.6vw, 2.5rem);
+		margin: 0;
+		color: var(--text);
+		font-family: var(--font-voice);
+		font-style: italic;
+		font-weight: 500;
+		font-size: var(--room-title);
+		line-height: 1.1;
 		scroll-margin-top: 1.25rem;
 	}
 
@@ -551,8 +494,11 @@
 
 	.community-discussion-head p {
 		margin: 0;
-		color: var(--ink-mid);
-		font-size: 0.8rem;
+	}
+
+	.community-discussion-head > p:last-child {
+		color: var(--text-muted);
+		font-size: var(--font-size-sm);
 		line-height: 1.5;
 	}
 
@@ -561,49 +507,60 @@
 		flex-wrap: wrap;
 		align-items: baseline;
 		gap: 0.5rem 0.75rem;
-		margin: 0 1rem 1.5rem;
+		margin: 0 0 1.5rem;
 		padding: 0.75rem 0;
-		border-top: 1px solid var(--stone-edge);
-		border-bottom: 1px solid var(--stone-edge);
+		border-top: 1px solid var(--rule);
+		border-bottom: 1px solid var(--rule);
 	}
 
 	.next-question__kicker {
-		color: var(--lamp-glow);
-		font-family: 'JetBrains Mono', ui-monospace, monospace;
-		font-size: 0.64rem;
-		letter-spacing: 0.07em;
+		color: var(--highlight);
+		font-size: var(--font-size-xs);
+		font-weight: 600;
+		letter-spacing: 0.14em;
 		text-transform: uppercase;
 	}
 
 	.next-question__link {
 		min-width: 0;
-		color: var(--ink-mid);
-		font-size: 0.9rem;
+		color: var(--text-muted);
+		font-size: var(--font-size-sm);
 		line-height: 1.45;
 		text-decoration: none;
 	}
 
 	.next-question__link:hover .next-question__question,
 	.next-question__link:focus-visible .next-question__question {
-		color: var(--lamp-glow);
+		color: var(--highlight);
 	}
 
 	.next-question__link:focus-visible {
-		outline: 2px solid var(--lamp-glow);
+		outline: 2px solid var(--focus);
 		outline-offset: 2px;
 	}
 
 	.next-question__question {
-		color: var(--ink-bright);
+		color: var(--text);
 		font-weight: 600;
+		text-decoration: underline;
+		text-decoration-color: var(--rule);
+		text-underline-offset: 3px;
 		overflow-wrap: anywhere;
 	}
 
+	/* Flat disclosures: override the global <details> card. */
+	.ai-perspectives-disclosure,
+	.removed-comments-disclosure {
+		padding: 0;
+		border: 0;
+		border-radius: 0;
+		background: transparent;
+	}
+
 	.ai-perspectives-disclosure {
-		margin: 1.5rem 1rem 0;
-		border: 1px solid var(--stone-edge);
-		border-radius: 1rem;
-		background: var(--night-mid);
+		margin: 1.5rem 0 0;
+		border-top: 1px solid var(--rule);
+		border-bottom: 1px solid var(--rule);
 	}
 
 	.ai-perspectives-disclosure summary {
@@ -613,10 +570,10 @@
 		justify-content: space-between;
 		gap: 1rem;
 		min-height: 3.25rem;
-		padding: 0.75rem 3rem 0.75rem 1rem;
-		color: var(--ink-bright);
-		font-size: 0.86rem;
-		font-weight: 650;
+		padding: 0.75rem 2rem 0.75rem 0;
+		color: var(--text);
+		font-size: var(--font-size-sm);
+		font-weight: 600;
 		cursor: pointer;
 		list-style: none;
 	}
@@ -629,11 +586,11 @@
 		content: '';
 		position: absolute;
 		top: 50%;
-		right: 1rem;
+		right: 0.25rem;
 		width: 0.5rem;
 		height: 0.5rem;
-		border-right: 2px solid var(--lamp-glow);
-		border-bottom: 2px solid var(--lamp-glow);
+		border-right: 2px solid var(--highlight);
+		border-bottom: 2px solid var(--highlight);
 		transform: translateY(-65%) rotate(45deg);
 		transition: transform 180ms ease;
 	}
@@ -643,49 +600,42 @@
 	}
 
 	.ai-perspectives-disclosure summary:focus-visible {
-		outline: 2px solid var(--lamp-glow);
+		outline: 2px solid var(--focus);
 		outline-offset: 2px;
 	}
 
 	.ai-perspectives-disclosure summary small {
-		color: var(--ink-dim);
-		font-family: 'JetBrains Mono', ui-monospace, monospace;
-		font-size: 0.6rem;
+		color: var(--text-faint);
+		font-size: var(--font-size-xs);
 		font-weight: 500;
-		letter-spacing: 0.05em;
 		text-align: right;
-		text-transform: uppercase;
 	}
 
 	.ai-perspectives-disclosure__body {
-		padding: 0 1rem 1rem;
-		border-top: 1px solid var(--stone-edge);
+		padding: 0 0 1rem;
 	}
 
 	.ai-perspectives-disclosure__body > p {
 		margin: 0;
-		padding: 0.9rem 0 0;
-		color: var(--ink-mid);
-		font-size: 0.78rem;
+		color: var(--text-muted);
+		font-size: var(--font-size-sm);
 		line-height: 1.5;
 	}
 
 	.removed-comments-disclosure {
-		margin: 1.25rem 1rem 0;
-		border: none;
-		border-top: 1px solid var(--stone-edge);
-		border-radius: 0;
-		background: transparent;
+		margin: 1.25rem 0 0;
 		padding: 0.75rem 0 0;
 
 		summary {
+			min-height: 44px;
+			display: flex;
+			align-items: center;
 			cursor: pointer;
-			font-size: 0.85rem;
-			color: var(--ink-dim);
-			padding: 0.25rem 0;
+			font-size: var(--font-size-sm);
+			color: var(--text-faint);
 
 			&:hover {
-				color: var(--ink-mid);
+				color: var(--text-muted);
 			}
 		}
 	}
@@ -693,177 +643,6 @@
 	.locked-comments-shell {
 		display: grid;
 		gap: 1rem;
-		padding: 0 1rem;
-	}
-
-	.public-perspective-preview {
-		padding: 1rem;
-		border: 1px solid var(--stone-edge);
-		border-radius: 1rem;
-		background: var(--night-mid);
-	}
-
-	.public-perspective-preview__head {
-		margin-bottom: 0.9rem;
-	}
-
-	.public-perspective-preview__title {
-		margin: 0 0 0.25rem;
-		font-size: 1rem;
-		font-weight: 700;
-		color: var(--ink-bright);
-	}
-
-	.public-perspective-preview__copy {
-		margin: 0;
-		font-size: 0.92rem;
-		line-height: 1.6;
-		color: var(--ink-mid);
-	}
-
-	.public-perspective-preview__grid {
-		display: grid;
-		gap: 0.75rem;
-	}
-
-	/* Homepage give-first wall, ported from src/routes/+page.svelte:
-	   blurred sample cards behind a centered lock-message card. */
-	.locked-preview-stage {
-		position: relative;
-		min-height: 11rem;
-	}
-
-	.blurred-perspectives {
-		filter: blur(5px);
-		opacity: 0.38;
-		transform: scale(0.985);
-		pointer-events: none;
-		user-select: none;
-	}
-
-	.lock-message {
-		position: absolute;
-		inset: 50% auto auto 50%;
-		display: flex;
-		align-items: center;
-		gap: 0.7rem;
-		width: min(calc(100% - 2rem), 22rem);
-		padding: 0.9rem 1rem;
-		transform: translate(-50%, -50%);
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 24%, var(--stone-edge));
-		border-radius: 0.625rem;
-		background: color-mix(in srgb, var(--stone-warm) 96%, var(--night-deep));
-		color: var(--ink-mid);
-		font-size: 0.8rem;
-		line-height: 1.45;
-		box-shadow: var(--shadow-sm);
-	}
-
-	.lock-icon {
-		display: grid;
-		width: 2.25rem;
-		height: 2.25rem;
-		flex: 0 0 2.25rem;
-		place-items: center;
-		border: 1px solid var(--stone-edge);
-		border-radius: 0.625rem;
-		background: var(--night-mid);
-		color: var(--lamp-glow);
-	}
-
-	.lock-message__copy {
-		min-width: 0;
-	}
-
-	.lock-message__copy strong {
-		display: block;
-		color: var(--ink-bright);
-	}
-
-	.lock-message__meta {
-		display: block;
-		margin-top: 0.3rem;
-		color: var(--ink-dim);
-		font-family: var(--font-mono, ui-monospace, monospace);
-		font-size: 0.65rem;
-		letter-spacing: 0.05em;
-		text-transform: uppercase;
-	}
-
-	.public-perspective-card {
-		padding: 0.95rem 1rem;
-		border: 1px solid var(--stone-edge);
-		border-radius: 0.625rem;
-		background: var(--stone-warm);
-	}
-
-	.public-perspective-card__eyebrow {
-		margin-bottom: 0.45rem;
-		font-size: 0.72rem;
-		font-weight: 700;
-		letter-spacing: 0.08em;
-		text-transform: uppercase;
-		color: color-mix(in srgb, var(--comment-type-color, var(--lamp-glow)) 65%, white);
-	}
-
-	:global(:root.light) .public-perspective-card__eyebrow {
-		color: color-mix(in srgb, var(--comment-type-color, var(--lamp-glow)) 72%, black);
-	}
-
-	.public-perspective-card__body {
-		margin: 0;
-		font-size: 0.95rem;
-		line-height: 1.65;
-		color: var(--ink-bright);
-		/* Pasted URLs/long strings must wrap, not force page scroll (mobile audit) */
-		overflow-wrap: anywhere;
-	}
-
-	.question-state {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		gap: 0.35rem;
-		max-width: 34rem;
-		margin: 0 auto;
-		padding: 2.8rem 1.25rem;
-		border-radius: 1rem;
-		text-align: center;
-	}
-
-	.question-state-locked {
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 22%, var(--stone-edge));
-		background: var(--lamp-soft);
-	}
-
-	.state-icon {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		border-radius: 0.625rem;
-	}
-
-	.state-icon-locked {
-		width: 4rem;
-		height: 4rem;
-		margin-bottom: 0.55rem;
-		background: var(--lamp-soft);
-	}
-
-	.state-title {
-		margin: 0;
-		font-size: 1.12rem;
-		font-weight: 600;
-		line-height: 1.35;
-		color: var(--ink-bright);
-	}
-
-	.state-copy {
-		margin: 0.15rem 0 0;
-		font-size: 0.92rem;
-		line-height: 1.6;
-		color: var(--ink-mid);
 	}
 
 	/* Hide scrollbar but allow scrolling */
@@ -877,15 +656,10 @@
 	}
 
 	@media (max-width: 640px) {
-		.question-content-nav {
-			padding: 0;
-		}
-
 		.question-tab {
 			flex-direction: column;
 			gap: 0.3rem;
-			padding: 0.75rem 0.5rem;
-			font-size: 0.78rem;
+			padding: 0.6rem 0.5rem;
 		}
 
 		.question-tab__copy {
@@ -896,20 +670,6 @@
 			padding: 1.15rem 0 1.25rem;
 		}
 
-		.community-discussion-head {
-			grid-template-columns: 1fr;
-			gap: 0.45rem;
-			margin-inline: 0.8rem;
-		}
-
-		.next-question {
-			margin-inline: 0.8rem;
-		}
-
-		.ai-perspectives-disclosure {
-			margin-inline: 0.8rem;
-		}
-
 		.ai-perspectives-disclosure summary {
 			align-items: flex-start;
 			flex-direction: column;
@@ -918,23 +678,6 @@
 
 		.ai-perspectives-disclosure summary small {
 			text-align: left;
-		}
-
-		.locked-comments-shell {
-			padding: 0 0.8rem;
-		}
-
-		.public-perspective-preview {
-			padding: 0.9rem;
-		}
-
-		.question-state {
-			margin: 0;
-			padding: 2.2rem 1rem;
-		}
-
-		.state-title {
-			font-size: 1rem;
 		}
 	}
 
