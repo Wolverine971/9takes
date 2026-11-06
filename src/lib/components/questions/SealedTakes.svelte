@@ -6,7 +6,7 @@
 <script lang="ts">
 	import AnsweredTypes from './AnsweredTypes.svelte';
 	import { listTypes, missingTypes } from '$lib/data/homepageLiveTypes';
-	import { relativeAge, SEALED_ROWS, type SealedTakes } from './sealedTakes';
+	import { SEALED_ROWS, type SealedTakes } from './sealedTakes';
 
 	let {
 		sealed = null,
@@ -29,7 +29,6 @@
 		return Array.from({ length: shown }, (_, index) => ({
 			key: index,
 			type: known[index]?.type ?? null,
-			age: known[index] && sealed ? relativeAge(known[index].at, sealed.now) : '',
 			bars: BAR_WIDTHS[index % BAR_WIDTHS.length]
 		}));
 	});
@@ -67,7 +66,6 @@
 							<span class="sealed__bar" style:width="{width}%"></span>
 						{/each}
 					</span>
-					<span class="sealed__age">{row.age}</span>
 				</li>
 			{/each}
 		</ol>
@@ -151,7 +149,7 @@
 	}
 	.sealed__row {
 		display: grid;
-		grid-template-columns: 32px minmax(0, 1fr) auto;
+		grid-template-columns: 32px minmax(0, 1fr);
 		align-items: center;
 		gap: 14px;
 		padding: 12px 14px;
@@ -190,11 +188,6 @@
 		border-radius: 999px;
 		background: color-mix(in srgb, var(--highlight) 22%, transparent);
 		filter: blur(2.5px);
-	}
-	.sealed__age {
-		font-family: var(--font-mono);
-		font-size: var(--font-size-xs);
-		color: var(--text-faint);
 	}
 
 	.sealed__count {

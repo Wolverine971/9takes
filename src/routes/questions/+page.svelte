@@ -327,9 +327,9 @@
 			</p>
 			<div class="qi-hero__actions">
 				{#if data.canAskQuestion}
-					<Button size="md" variant="secondary" href="/questions/create">Ask a question</Button>
+					<Button size="lg" variant="secondary" href="/questions/create">Ask a question</Button>
 				{:else if !data?.user?.id}
-					<Button size="md" variant="secondary" href="/register">Sign up to ask</Button>
+					<Button size="lg" variant="secondary" href="/register">Sign up to ask</Button>
 				{/if}
 				<a class="qi-text-link" href="#open-floor">Browse every question ↓</a>
 			</div>
@@ -503,7 +503,7 @@
 				<p class="archive__empty-title">No open questions yet.</p>
 				<p class="archive__empty-body">Be the first to bring a situation.</p>
 				{#if data.canAskQuestion}
-					<Button size="md" variant="secondary" href="/questions/create">Ask a question</Button>
+					<Button size="lg" variant="secondary" href="/questions/create">Ask a question</Button>
 				{/if}
 			</div>
 		{:else}

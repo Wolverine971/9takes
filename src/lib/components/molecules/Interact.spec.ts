@@ -359,8 +359,14 @@ describe('Interact', () => {
 		// Give-first: the composer is the page's main event, so there is nothing to hide it with.
 		expect(getByRole('textbox', { name: /your take/i })).toBeTruthy();
 		expect(queryByRole('button', { name: /hide answer box/i })).toBeNull();
-		// No takes yet: the mint button just posts.
+		// No takes yet: the button just posts. Mint marks the next step: the empty box first,
+		// then the button once there's text.
+		const box = getByRole('textbox', { name: /your take/i });
 		const post = getByRole('button', { name: 'Post your take' });
+		expect(box.className).toContain('composer-textarea--invite');
+		expect(post.className).not.toContain('btn--action');
+		await fireEvent.input(box, { target: { value: 'Quiet, watchful, stubborn.' } });
+		expect(box.className).not.toContain('composer-textarea--invite');
 		expect(post.className).toContain('btn--action');
 		// Subscribe and Share are quiet ghost controls, not equal-weight toolbar buttons.
 		expect(getByRole('button', { name: 'Subscribe to this question' }).className).toContain(

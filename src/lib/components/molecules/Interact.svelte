@@ -179,6 +179,9 @@
 	let answerSubmitLabel = $derived(
 		takeCount > 0 ? `Post & see all ${takeCount.toLocaleString('en-US')}` : 'Post your take'
 	);
+	// Mint marks the next step: the empty answer box first, then the Post button once there's text.
+	let answerInvite = $derived(isQuestion && composerKind === 'answer');
+	let answerReady = $derived(comment.trim().length > 0);
 	let composerLabel = $derived(
 		composerKind === 'answer'
 			? 'Your take'
@@ -694,7 +697,10 @@
 				placeholder={isQuestion
 					? 'Share what happened, give an example, or explain what shaped your view.'
 					: 'Share what you want to add.'}
-				class="composer-textarea resize-none overflow-y-auto"
+				class={[
+					'composer-textarea resize-none overflow-y-auto',
+					answerInvite && !answerReady && 'composer-textarea--invite'
+				]}
 				bind:value={comment}
 				id={textareaId}
 				aria-invalid={commentError ? 'true' : 'false'}
@@ -767,8 +773,11 @@
 						</Button>
 					{/if}
 					<Button
-						class="composer-action-button composer-action-button--submit"
-						variant={isQuestion && composerKind === 'answer' ? 'action' : 'primary'}
+						class={[
+							'composer-action-button composer-action-button--submit',
+							answerInvite && 'composer-action-button--answer'
+						].join(' ')}
+						variant={answerInvite ? (answerReady ? 'action' : 'secondary') : 'primary'}
 						size="md"
 						type="button"
 						onclick={createComment}
@@ -1066,11 +1075,17 @@
 		font-weight: 600;
 	}
 
-	:global(.composer-action-button--submit.btn--action) {
+	:global(.composer-action-button--answer) {
 		min-height: 48px;
 		padding-inline: 1.4rem;
 		border-radius: 999px;
 		font-weight: 700;
+		transition:
+			background-color 0.2s ease,
+			border-color 0.2s ease,
+			color 0.2s ease,
+			box-shadow 0.2s ease,
+			transform 0.2s ease;
 	}
 
 	.composer-textarea {
@@ -1099,6 +1114,16 @@
 		border-color: var(--highlight);
 		outline: none;
 		box-shadow: 0 0 0 1px var(--highlight);
+	}
+
+	/* Empty answer box: mint says "start here". Typing hands mint to the Post button. */
+	.composer-textarea--invite {
+		border-color: var(--action);
+	}
+
+	.composer-textarea--invite:focus {
+		border-color: var(--action);
+		box-shadow: 0 0 0 1px var(--action);
 	}
 
 	.composer-textarea::placeholder {
